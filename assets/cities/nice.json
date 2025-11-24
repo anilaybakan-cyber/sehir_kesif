@@ -1,0 +1,99 @@
+{
+  "city": "Nice",
+  "overview": "Nice, Fransız Rivierası’nın göz bebeği olan sahil şehridir. Mavi kıyıları, taş plajları, şık kafeleri ve pastel renkli eski şehir dokusuyla hem tatil hem kültür isteyenler için idealdir. Cannes, Monaco ve Eze gibi komşu destinasyonlara da kolay ulaşılır.",
+
+  "transport": {
+    "fastest": "Havalimanından Tramway L2 ile şehir merkezi (25 dk).",
+    "cheapest": "Tramway tek bilet 1.7€.",
+    "options": [
+      "Tramway L1 / L2",
+      "Lokal otobüs hatları",
+      "Promenade boyunca yürüyüş",
+      "Bisiklet ve scooter kiralama"
+    ]
+  },
+
+  "regions": [
+    {
+      "name": "Old Town (Vieux Nice)",
+      "type": "Tarihi / Lokal",
+      "price": "€€",
+      "highlights": [
+        "Dar renkli sokaklar",
+        "Çiçek pazarı",
+        "Pastel binalar"
+      ]
+    },
+    {
+      "name": "Promenade des Anglais",
+      "type": "Sahil / Turistik",
+      "price": "€€€",
+      "highlights": [
+        "Deniz kenarı yürüyüş",
+        "Beach club'lar",
+        "Sonsuz manzara"
+      ]
+    },
+    {
+      "name": "Jean-Médecin",
+      "type": "Modern / Alışveriş",
+      "price": "€€",
+      "highlights": [
+        "Büyük mağazalar",
+        "Restoran zincirleri",
+        "Kolay ulaşım"
+      ]
+    }
+  ],
+
+  "recommendations": {
+    "breakfast": [
+      "Marinette",
+      "La Popote d’Ondine",
+      "Maison Auer"
+    ],
+    "coffee": [
+      "EMMA Coffee",
+      "Délicatessen",
+      "Café Frei"
+    ],
+    "dinner": [
+      "Olive & Artichaut",
+      "Peixes",
+      "Bistrot d’Antoine"
+    ],
+    "bars": [
+      "Wayne’s Bar",
+      "Hôtel Amour Rooftop",
+      "Movida"
+    ],
+    "hidden_gems": [
+      "Colline du Château",
+      "Port Lympia sokakları",
+      "Rus Ortodoks Katedrali"
+    ]
+  },
+
+  "routes": {
+    "touristic": [
+      "Promenade des Anglais",
+      "Old Town Sokakları",
+      "Cours Saleya Pazarı",
+      "Port Lympia",
+      "Castle Hill Manzarası",
+      "Place Masséna"
+    ],
+    "local": [
+      "Jean-Médecin alışveriş",
+      "Liberation market",
+      "Lokal kahve durakları",
+      "Port taraftarı balık restoranları"
+    ],
+    "ai": [
+      "Sabah koşusu — Promenade",
+      "Old Town kahve turu",
+      "Port Lympia hidden food tour",
+      "Gün batımı noktası: Colline du Château"
+    ]
+  }
+}

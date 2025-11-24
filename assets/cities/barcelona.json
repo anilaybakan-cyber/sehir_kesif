@@ -1,0 +1,139 @@
+{
+  "city": "Barcelona",
+  "centerCoords": [41.3874, 2.1686],
+
+  "highlights": [
+    {
+      "name": "Sagrada Familia",
+      "category": "turistik",
+      "price": "high",
+      "distanceFromCenter": 2.1,
+      "tags": ["mimari", "basilica", "sanat", "foto"],
+      "image": "sagrada.jpg",
+      "description": "Gaudí'nin şaheseri, Barcelona'nın ikon yapısı. İç mimarisi ve vitrayları büyüleyicidir.",
+      "area": "Eixample",
+      "lat": 41.403629,
+      "lng": 2.174356
+    },
+    {
+      "name": "Park Güell",
+      "category": "turistik",
+      "price": "medium",
+      "distanceFromCenter": 3.4,
+      "tags": ["manzara", "park", "foto", "Gaudi"],
+      "image": "park_guell.jpg",
+      "description": "Şehrin en iyi manzarasına sahip, Gaudí'nin mozaik eserleriyle dolu geniş park.",
+      "area": "Gracia",
+      "lat": 41.414494,
+      "lng": 2.152694
+    },
+    {
+      "name": "La Rambla",
+      "category": "turistik",
+      "price": "low",
+      "distanceFromCenter": 0.8,
+      "tags": ["yürüyüş", "merkez", "market"],
+      "image": "rambla.jpg",
+      "description": "Şehrin en ünlü yürüyüş caddesi. Meyve pazarları, sokak sanatçıları ve ara sokaklarda sürprizler.",
+      "area": "El Raval",
+      "lat": 41.381862,
+      "lng": 2.175019
+    },
+    {
+      "name": "El Born Mahallesi",
+      "category": "lokal",
+      "price": "medium",
+      "distanceFromCenter": 1.1,
+      "tags": ["kafe", "kokteyl", "lokal", "tasarım"],
+      "image": "el_born.jpg",
+      "description": "Dar sokaklar, bağımsız butik dükkanlar, şık kokteyl barlar ve harika pastaneler ile dolu lokal bölge.",
+      "area": "El Born",
+      "lat": 41.385022,
+      "lng": 2.183900
+    },
+    {
+      "name": "Barceloneta Beach",
+      "category": "chill",
+      "price": "low",
+      "distanceFromCenter": 1.7,
+      "tags": ["plaj", "yürüyüş", "günbatımı", "chill"],
+      "image": "barceloneta.jpg",
+      "description": "Sahil yürüyüşü, plaj barları ve palmiyelerle dolu huzurlu bir bölge.",
+      "area": "Barceloneta",
+      "lat": 41.378402,
+      "lng": 2.189540
+    },
+    {
+      "name": "Gracia Mahallesi",
+      "category": "lokal",
+      "price": "low",
+      "distanceFromCenter": 2.0,
+      "tags": ["kafe", "lokal", "bar", "tasarım"],
+      "image": "gracia.jpg",
+      "description": "Gençlerin ve lokal halkın favori bölgesi. Küçük meydanlar, konsept kafeler ve butik barlar ile dolu.",
+      "area": "Gracia",
+      "lat": 41.403130,
+      "lng": 2.158990
+    },
+    {
+      "name": "Bunkers del Carmel",
+      "category": "instagramlik",
+      "price": "free",
+      "distanceFromCenter": 3.8,
+      "tags": ["manzara", "foto", "günbatımı"],
+      "image": "bunkers.jpg",
+      "description": "Barcelona'nın en iyi günbatımı noktası. 360° panoramik şehir manzarası.",
+      "area": "El Carmel",
+      "lat": 41.418282,
+      "lng": 2.161494
+    },
+    {
+      "name": "Passeig de Gracia",
+      "category": "premium",
+      "price": "high",
+      "distanceFromCenter": 1.0,
+      "tags": ["alışveriş", "lüks", "fine-dining"],
+      "image": "passeig.jpg",
+      "description": "Şehrin lüks caddesi. Tasarım markalar, Michelin yıldızlı restoranlar ve mimari harikalar.",
+      "area": "Eixample",
+      "lat": 41.391020,
+      "lng": 2.165860
+    },
+    {
+      "name": "Montjuïc",
+      "category": "chill",
+      "price": "free",
+      "distanceFromCenter": 2.5,
+      "tags": ["manzara", "doğa", "müze", "foto"],
+      "image": "montjuic.jpg",
+      "description": "Doğa, müze, park, teleferik… Her şey bir arada. Şehrin en sakin kaçış noktası.",
+      "area": "Montjuïc",
+      "lat": 41.363518,
+      "lng": 2.158991
+    },
+    {
+      "name": "W Barcelona (Hotel & Lounge)",
+      "category": "premium",
+      "price": "high",
+      "distanceFromCenter": 1.7,
+      "tags": ["kokteyl", "fine-dining", "manzara"],
+      "image": "w_barcelona.jpg",
+      "description": "Şehrin en ikonik oteli. Sky-barında müthiş kokteyller ve manzara.",
+      "area": "Barceloneta",
+      "lat": 41.368778,
+      "lng": 2.190465
+    },
+    {
+      "name": "Carrer de Blai",
+      "category": "lokal",
+      "price": "low",
+      "distanceFromCenter": 2.2,
+      "tags": ["lokal", "tapas", "ucuz"],
+      "image": "blai.jpg",
+      "description": "Lokal tapas cenneti. İnanılmaz fiyat-performans.",
+      "area": "Poble Sec",
+      "lat": 41.374820,
+      "lng": 2.163490
+    }
+  ]
+}

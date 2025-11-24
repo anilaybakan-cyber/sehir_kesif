@@ -1,0 +1,22 @@
+import UIKit
+import Flutter
+import GoogleMaps   // <-- Bunu mutlaka ekle
+
+@main
+@objc class AppDelegate: FlutterAppDelegate {
+
+  override func application(
+    _ application: UIApplication,
+    didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?
+  ) -> Bool {
+
+    // 🚀 Google Maps SDK API Key
+    GMSServices.provideAPIKey("YOUR API KEY")   // <-- ZORUNLU
+
+    // (Opsiyonel) Places API kullanacaksan:
+    // GMSPlacesClient.provideAPIKey("BURAYA_API_KEY_YAZ")
+
+    GeneratedPluginRegistrant.register(with: self)
+    return super.application(application, didFinishLaunchingWithOptions: launchOptions)
+  }
+}
