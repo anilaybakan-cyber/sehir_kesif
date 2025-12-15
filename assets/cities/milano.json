@@ -1,0 +1,114 @@
+{
+  "city": "Milano",
+  "country": "İtalya",
+  "description": "Moda ve tasarım başkenti. Da Vinci, Duomo ve aperitivo.",
+  "heroImage": "https://images.unsplash.com/photo-1520440229-6469a149ac59?w=800",
+  "coordinates": {
+    "lat": 45.4642,
+    "lng": 9.19
+  },
+  "highlights": [
+    {
+      "name": "Duomo di Milano",
+      "area": "Centro",
+      "category": "Tarihi",
+      "tags": [
+        "katedral"
+      ],
+      "distanceFromCenter": 0.0,
+      "lat": 45.4641,
+      "lng": 9.1919,
+      "price": "medium",
+      "rating": 4.9,
+      "description": "Duomo di Milano, Centro bölgesinin tarihine ışık tutan önemli bir yapı. Geçmişin izlerini günümüze taşıyan mimarisi ve kültürel mirasıyla, tarih meraklıları için keşfedilmeyi bekleyen bir hazine.",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHrdERsXgLbuHwOhHURjzbnwN1Dv33yq7OaMtc701LkrkUhb_7ymYTkFluUHkYBgDYZbzb7184ig0C4hMzqgVhFAqjgk7UF9qF97tmuK_bX21IABGFK3XXeITHvjFWHDewsXJfStTheYM7cCZf08ERI6EVD9IgrbMLBWBUvrjeoatBGsj8xntNK3i-HnM5b7EqcHHP9DWXCoVWeN7NrrueQ2u5kNk3Nu1g_SyvaRcHP-_z-byaY0WOwVUSOox0VclMclV-J2Y07umZPdHAkCrWPelE3osBESa14lt-pu1TVHl5rFGFuC7YaomyRLpkQhi-fagoqEw1gaVL_Gt8bL6UFKhyzFuWx87DdHMdbsPgmQwI3c-1JEatE2eUHgYwH6hnW6UBN5wLXQxt8xEwY-CHi6hVNCkEKRPj3AQ7_eRd9AQWrKgxsn96Ng_OW3LTez&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "bestTime": "Gün batımı",
+      "tips": "Erken saatlerde veya kapanışa yakın giderseniz kalabalıktan kaçınabilirsiniz."
+    },
+    {
+      "name": "Son Akşam Yemeği",
+      "area": "Centro",
+      "category": "Müze",
+      "tags": [
+        "sanat"
+      ],
+      "distanceFromCenter": 1.5,
+      "lat": 45.466,
+      "lng": 9.1711,
+      "price": "high",
+      "rating": 4.9,
+      "description": "Son Akşam Yemeği, zengin koleksiyonu ve etkileyici sergileriyle kültür sanat severlerin uğrak noktası. Centro bölgesinde yer alan mekan, ziyaretçilerine ilham verici ve öğretici bir deneyim sunuyor.",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHqVFfdwMNEdXxV96VlkusNE8mgD4hpwPO2yfvJyeDelttGbloa4CaIkUq1Nfh12DeLD3KyaxPPX2chz3fsWB4JfB8ZrkLcgtNBxYYFfvuFy_l_sTIfuG_HnDF9WFQjIdrdWzsmKoNcWymkmUQ4g4OzAxQ_4HHzDsOCIJK5ytOyY3E599oQXtqKkbLKn3V6i2923ipwdWABuYEooZ1yyyaL74U1fG2Io0zlMGIfNmMxqZhvKjWkAwDbdRNSn5fIma88ZEiww_-LNONmzWiNgiVmOGXXoNBOMIFAr-Lvwg2WEJ4GQMPO6h55d0k_A4FT8NYJgrdGbXmcQUnjEmxJVvMJdC34iAu0rvjKB3s9TjznM2myeymJsxNrDRAr_M9Tz_azVuWs5QbLUtrbb11OBxQ5gkFFi03u27B8U3WaYqyinIUc&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "bestTime": "Rezervasyon saati",
+      "tips": "Biletinizi önceden online alarak sıra beklemekten kurtulabilirsiniz."
+    },
+    {
+      "name": "Galleria Vittorio Emanuele",
+      "area": "Centro",
+      "category": "Alışveriş",
+      "tags": [
+        "lüks"
+      ],
+      "distanceFromCenter": 0.1,
+      "lat": 45.4657,
+      "lng": 9.1898,
+      "price": "high",
+      "rating": 4.7,
+      "description": "Galleria Vittorio Emanuele, Centro bölgesinde alışveriş tutkunları için çeşitli seçenekler sunuyor. Yerel tasarımlardan popüler markalara kadar aradığınız pek çok şeyi bulabileceğiniz canlı bir nokta.",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHok-Cwa7Ctb9jOBlDkuws4j4eJGoclLGBuKfeIVDBxEteErIz2Zxga-Os_zs82Najkn9z2H5qWErUqJHhvQELSQCjykMvUjRz3uwKXCrIGBi2T1Qwy8EMnhECpVZNa-rY0JGdQyj-YXYMKv0ncJgKcmtyS5AGCLtAznEAStjA5ocWb867Q8ar4dz2zaoN2z7tO3AlZ5t491vBppnn8zfp79uUJqBkJzOmm6Er02I-L_pNhUZXzXhAQZpQbunHS_eqPMy3KZbHimmtyTwpehQPDSiFr8KiX4JI8IoyXW3boiI47sevhQg0Pf5-7EsJxzvDMWkcmtqY0OQdLR9JwlTtWb0Gt8ldrnJDjq1qlOw3wsvT0QkXTHlxvuxPVzozo2_7G2-S1zHJpg083rfZYfF_BZEoi00x9AeqGV1zWUeVy6iA&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "bestTime": "Akşam",
+      "tips": "Yerel butikleri keşfetmek için harika bir bölge."
+    },
+    {
+      "name": "Navigli",
+      "area": "Navigli",
+      "category": "Mahalle",
+      "tags": [
+        "aperitivo"
+      ],
+      "distanceFromCenter": 3.0,
+      "lat": 45.4496,
+      "lng": 9.1753,
+      "price": "medium",
+      "rating": 4.6,
+      "description": "Kanal kenarı. Aperitivo kültürü, antikacılar.",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHrDqDnK7xzkKqrOuuDB52q1b_UmsyWNL78eH5SCdQtxQ0qN_EP90ZF6tsLjwulGd4oIFuERT5fNSwb83TvY6NaLRfXrkyia4m8ekrCTIEppfb1y7KPlaf9ZI7wn-lR0i7dZXMBIr5qAoopM3GTj9OCaraHlPjLML69GdgFCgNO1PUELZAhjPnMuD26xxG5NEq4iMTIWxXX5yqePtwuMyMQZ1S8XtzleeblCL19Rzm-D4nHymnSL6-s5SppAzxj_BdfNqBrVLumMKEFeNCwsAsKTzO5moQC8HNPed1ap8pijGmKTIX9OEXhziREzJLAWHXD4_i1lD1lUQOQaG_j2w_PNHjSuIRyZtF_XS16_CJaq-JdcTp9D8JDVoG778vOX7u83_NbVhSFNNn5yFJftsEjtHmS_M2yTLHiNKr1Vk-cZ1vRq&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "bestTime": "Gün batımı aperitivo",
+      "tips": "Yerel halkın favori noktalarından biri, keyfini çıkarın!"
+    },
+    {
+      "name": "Sforza Kalesi",
+      "area": "Centro",
+      "category": "Müze",
+      "tags": [
+        "tarih"
+      ],
+      "distanceFromCenter": 1.0,
+      "lat": 45.4705,
+      "lng": 9.1793,
+      "price": "medium",
+      "rating": 4.5,
+      "description": "Sforza Kalesi, zengin koleksiyonu ve etkileyici sergileriyle kültür sanat severlerin uğrak noktası. Centro bölgesinde yer alan mekan, ziyaretçilerine ilham verici ve öğretici bir deneyim sunuyor.",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHq7O8fYsauIWHw5qsYEy86WOAewkxoY6u3NwvM6VOvw9u2aJourVuQ0EyMi-o8kZC1fGwaqoX5-QMWv2nxN_-invj1YYK3SoBx2nIXtxv6TCx52QXW7o2d-Tu5Xs2_i3dD1wFec_wLQESWl1kt6t-7heR2MDkc3vLHhgAIMoAStCtdJMl1_ZqGYoe1oOe32w5SR8ulncNI5elsSQTsn2ZiXRC7o4mOMtl5DRmMvyScEbHDMhvL7aSsFzipIKdJhkFbbrWSzkUhI_xq3yqj-nD3dOA67NWP9svwkeyHaOq7t7kmWhriLzUHewh4pi_ld1RpZgKMRfXzg5iTILlWA8gBYTuUeEDmw_nq27elyrbNQSk4j-S0GBG4unhKUpaY_1xYfD-ZcVciiBa2pGwyUE_l6hZteJ5txPgM2kQ5ILAVEASH9&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "bestTime": "Sabah",
+      "tips": "Biletinizi önceden online alarak sıra beklemekten kurtulabilirsiniz."
+    },
+    {
+      "name": "Brera",
+      "area": "Brera",
+      "category": "Mahalle",
+      "tags": [
+        "sanat"
+      ],
+      "distanceFromCenter": 0.8,
+      "lat": 45.4719,
+      "lng": 9.188,
+      "price": "medium",
+      "rating": 4.6,
+      "description": "Sanat mahallesi. Galeriler, butikler, Brera Pinakoteki.",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHr1VQriHvdkPjxa1bcdLLWFHvXlza2E5dDrxWoAgBPOsXoxryYMY9Piiui-6x4Y2OPAd2pc1M4pFk60Xf7-0l-Y9gtEcVtXWhuBGzRkDQkwcjyxk64ruqk4jbaSZSFaPct6zcDdDCLTqQieC2CO0aY6M67U6suUcmCJBprIviM-Wv9EZkFlb8cugp5ll81135yb5PvE_mS8Hzn8_mq36gHPNnaQYjdwlQUv_fRIq-8hHM3zMt2diNVDwB3eYEcMuNtLb0wDFX8zPOaHx64nEmuF9HNLrmYpTkjzjNdzkUwIfOMj6jqSFzqGwoQtJvTqz-cbVXqZjyhkiupIWPn3nCCit9Ny4O_QdQLDMBo_Mzgb0Xpb82x0-fXVItB2LMitziTOpZ2XoDk_r0zcaLUHKMa-ca0gJeTT6e6GZ9lhKtoaMw&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "bestTime": "Öğleden sonra",
+      "tips": "Yerel halkın favori noktalarından biri, keyfini çıkarın!"
+    }
+  ]
+}

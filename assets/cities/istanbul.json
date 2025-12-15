@@ -1,0 +1,2052 @@
+{
+  "city": "İstanbul",
+  "country": "Türkiye",
+  "description": "Doğu ile Batı'nın buluştuğu eşsiz metropol. 2500 yıllık tarih, Boğaz manzarası ve eşsiz mutfak.",
+  "heroImage": "https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?w=800",
+  "coordinates": {
+    "lat": 41.0082,
+    "lng": 28.9784
+  },
+  "highlights": [
+    {
+      "name": "Ayasofya",
+      "area": "Sultanahmet",
+      "category": "Tarihi",
+      "subcategory": "Cami",
+      "tags": [
+        "bizans",
+        "osmanlı",
+        "unesco"
+      ],
+      "distanceFromCenter": 0.5,
+      "lat": 41.0086,
+      "lng": 28.9802,
+      "price": "low",
+      "rating": 4.9,
+      "description": "Yaklaşık 1500 yıllık tarihiyle dünya mimarlık tarihinin en önemli anıtlarından biri. Bizans ve Osmanlı imparatorluklarına tanıklık etmiş, devasa kubbesi ve eşsiz mozaikleriyle büyüleyen bu yapı, İstanbul'un en ikonik simgesi.",
+      "bestTime": "Sabah erken",
+      "bestFor": [
+        "herkes"
+      ],
+      "source": "tripadvisor",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHoVw-XxBvlXL5D7P_59iayIzb2pT9wXh5F7iFP-8txxXBnICskDBXSrxTa9Rbbb1xahn3ijRYiEwjJ03N-ingIbyYz-TmhdrMUL62x8I4R_8AhEVklQc8R8tq5XWF2565yrjtsblgfvMwbHgONWgXZIC_s5SOB-3dBHXKjg8fJhYsRl3gDy454sVvDHIE6brd2h4UQa7Iqt8y2D19VgXuD-lrANEjYZfgpFjE7zopR_7MVSbb60XXYaLu7IZ3xOb2N_hoVcw5pdd4Mulh9VVMxqcgl_iAKC1gl3IyKQ_2Sb60WMYDvVsvJl7HoHYDcrSeWFWhg7zEflTT5i94dM762PsAGDa0CFPYLW7aX4WvzUC2cC5UL-JDFvYqF5fbGz57IdyQZLnog2eJe4U2RClSS2rCAzqYuYJSXXEIK9wm-68w&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Namaz vakitleri dışında ziyaret etmek daha rahat olabilir."
+    },
+    {
+      "name": "Sultanahmet Camii",
+      "area": "Sultanahmet",
+      "category": "Tarihi",
+      "subcategory": "Cami",
+      "tags": [
+        "osmanlı",
+        "mavi çini",
+        "6 minare"
+      ],
+      "distanceFromCenter": 0.3,
+      "lat": 41.0054,
+      "lng": 28.9768,
+      "price": "low",
+      "rating": 4.8,
+      "description": "İç mekanını süsleyen 20.000'den fazla mavi İznik çinisi nedeniyle 'Blue Mosque' olarak da bilinir. 6 minaresi ve zarif kubbe yapısıyla Osmanlı mimarisinin zirve noktalarından biri.",
+      "bestTime": "Namaz dışı saatler",
+      "bestFor": [
+        "herkes"
+      ],
+      "source": "tripadvisor",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHpEYWBDr1MSKyyFKEIWtdAiuDcMw2AMp3c7I0BtgzToKUnTByBo4itiat6lsShacIWATuAKJI2hupoG2NvBmFJhA9cal9obIfOX4Rtan_7b2qnk-FyrHRXPydOMgNyc3i1kUS7Rq1mQl0TDlrMfUxmnWkn2X2u8AdU7CkZu3kNLXFHGA0N_yypv8uRQgkkrtjpdqk2jt4d2iA5Go4jaE-QnTUrr8WGqHH60Uu8_aNK0wA8AuaDTMr2PsCuN0qkaReXQpAXmelxL7OcihVO6Wtllt7wZLxSp17S9I_U0VFtFdOD3RKVmqwn4sLkctxea-pPPVcFpFt_wpL8ICcvHVcLN1TdqsGyPymAO8bmE6SgR2UYuR1mGxbPkmwfVhTNzKZf0F7wxnQrUVHygmcEMgAfN0iBsnvon8sbn8xODO6bZHowN&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Ziyaret kıyafet kurallarına dikkat edin, örtülerinizi yanınıza alın."
+    },
+    {
+      "name": "Topkapı Sarayı",
+      "area": "Sultanahmet",
+      "category": "Müze",
+      "subcategory": "Saray",
+      "tags": [
+        "osmanlı",
+        "hazine",
+        "harem"
+      ],
+      "distanceFromCenter": 0.8,
+      "lat": 41.0115,
+      "lng": 28.9833,
+      "price": "medium",
+      "rating": 4.8,
+      "description": "Osmanlı padişahlarına 400 yıl boyunca ev sahipliği yapmış, imparatorluğun yönetim merkezi. Harem dairesi, Kutsal Emanetler bölümü, ihtişamlı avluları ve eşsiz Boğaz manzarasıyla tarihin kalbinde bir yolculuk.",
+      "bestTime": "Sabah",
+      "bestFor": [
+        "tarih severler"
+      ],
+      "source": "tripadvisor",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHp-kkpwvY9SSHdF8pBlm5SidbEgyoktdrY4hEL3Ops4nMZUUzI5zuZagXj6gSAWZlA67JhHdEvPhxigLHvpwBYYr3VY303SqhEW_OyuOkQJY1U_HmoE-uA6ScknpefXBBp5l0IfMQS9GwwcM_HpjS0oRo7oqUbqCEKfFY6DYZrD17Lcqso5ZMWheknBHao3sYBnJ5EH6kTpXEBah4AmvjC0YALZnwx4ADhIGW_xbFZ10uw82kDrUCQTiHypy_3M0os4t2kUrxqo5YRyXb66ZtpquBEAAmK8Vctup-_9GT6XzoQRPX7zwnyOaErfgPhQxSbV88NQi199kILu1P5CvPRILuSkOKU8fkfOAvx2CK29wJ0RvPRGM4I05Inx2viT4ZZUF-pJcstfoU6Z7CBV6JSBcxQVzyczkB7R21LXjYvL5g&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Harem bölümü için ayrı bilet gerektiğini unutmayın."
+    },
+    {
+      "name": "Yerebatan Sarnıcı",
+      "area": "Sultanahmet",
+      "category": "Tarihi",
+      "subcategory": "Antik Yapı",
+      "tags": [
+        "bizans",
+        "yeraltı",
+        "medusa"
+      ],
+      "distanceFromCenter": 0.4,
+      "lat": 41.0084,
+      "lng": 28.9779,
+      "price": "medium",
+      "rating": 4.7,
+      "description": "Bizans döneminden kalma bu büyüleyici yeraltı sarnıcı, suyun içinden yükselen yüzlerce mermer sütunu ve gizemli Medusa başlarıyla ziyaretçilerini mistik bir atmosfere davet ediyor.",
+      "bestTime": "Öğleden sonra",
+      "bestFor": [
+        "herkes"
+      ],
+      "source": "tripadvisor",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHoXynj0ACZLyJBGTCPd8RNSNSy8t0aWp2PKEcAtspcowdRMT5wXNVsG0-T476ZRJVyrWx8QSOLJlXsAI4zjMQVlXuY_j6aJ9y7JJz7KBcV-Z2nZUYBpbC3yZPtPvrRq4i9H1QzHjQZ6_SX3awPOLAnAXXQdpWTjepy7MKlQLAmDpaWD9O0L40H5_utl9L8wNYCcxhhpzKzl1DB4JWq-H4d4Tv3iOE7ILI8ydq9o6zaOJQ6xkDuuzE5TilsuscO5XL5tH2iTAJxKaFKVxcWi_xR3_iV_EMHahMyLWhLb8k7DSgDwZKhwFaBwkxPIf_OLdl_QqzRHcgxlD4Zk2TLiW0wsH7Ho_Wh1K46GdBWFM4xUxMDNzlPUYDbgPLrWwIsP42kcS3-lyPlDPFglUM5SKbmCt_Hm0b0otEfRFHOhFM8&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Nemli olabilir, ince bir hırka yanınızda bulunsun."
+    },
+    {
+      "name": "Kapalıçarşı",
+      "area": "Beyazıt",
+      "category": "Alışveriş",
+      "subcategory": "Çarşı",
+      "tags": [
+        "osmanlı",
+        "el sanatları",
+        "altın"
+      ],
+      "distanceFromCenter": 1.0,
+      "lat": 41.0108,
+      "lng": 28.968,
+      "price": "low",
+      "rating": 4.6,
+      "description": "Dünyanın en eski ve en büyük kapalı çarşılarından biri. Labirent gibi sokaklarında kuyumculardan halıcılara, baharatçılardan antikacılara kadar binlerce dükkanın yer aldığı, ticaretin ve tarihin yaşayan merkezi.",
+      "bestTime": "Hafta içi sabah",
+      "bestFor": [
+        "alışveriş severler"
+      ],
+      "source": "tripadvisor",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHrp0hRNV6JTCEN4CMUhYQ1pW-7b-0koKlbkMwZd0hU-t3Wq1eIV4ilkys6cjMpUo1Hk3oi7TxOVlxv67WxfQBgocym_ghjsgEchpe4lBwr-u1cBqZz5JfLuUQvS1mAuanXEpWnafF2C3MOOQ9AKWF_-hj9LiXNzi7OlqGCAKL5I7J5d2PZln7BeyahewHRaOpLvQeAiHuHqoSZnWK_0S-xA-QuGyLs4Di0X83wwo__g03GUqO4bTAFXRDyxvxv_XeCDusxkidSb4RRDfJu3Ntile8FHWPPECR8t5zWOEhoBceHtWRQucSK1YRBxUmSdV3zM1Ngnmuv6hgipTvsZx6cdJcLKFFtvKOMCxL6N_SsBX8S9LDgNzP9oxXBMoptAVogMVxFBZH11H0-Ldc6qgaAL2Leb6y3VWl10s6zpapBHKw&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Pazarlık yapmaktan çekinmeyin, esnafla sohbet edin."
+    },
+    {
+      "name": "Galata Kulesi",
+      "area": "Galata",
+      "category": "Manzara",
+      "subcategory": "Kule",
+      "tags": [
+        "ceneviz",
+        "panorama",
+        "tarihi"
+      ],
+      "distanceFromCenter": 2.0,
+      "lat": 41.0256,
+      "lng": 28.9741,
+      "price": "medium",
+      "rating": 4.6,
+      "description": "Cenevizlilerden kalma tarihi kule, İstanbul'un en güzel panoramik manzaralarından birini sunuyor. Tarih boyunca gözetleme kulesi, hapishane ve rasathane olarak kullanılan yapı, günümüzde şehrin en popüler seyir terası.",
+      "bestTime": "Gün batımı",
+      "bestFor": [
+        "çiftler"
+      ],
+      "source": "tripadvisor",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHopOnsHY525GfZ2tJaATI_L2CSGH07QSIV7aJ5L14Z2Q1rFd6aPvSSzcfsPaYy7aN5mHZQyxxjkT265Jsi8VB3VhDlRnclGSk_yjw2PTVKaACurytXH8HB5nZ9E_cSvNG8EyH6mh7tJWzFf-m-6asGDdibJE6voHdEdGZ3GKGlV-fDEtUC6AikgmGcREaH0112XiO7P21_jT9LZuIHs2HXIi_pkSUeCQNV8nlLeiihPYgu71CHw7hb3GZG2UsEOh33CtmaAJPOzI6s99V8PgxeHfyqxjk140dlXgEKIzdCpNTGDvRcdXIEoYdch8xdOco_7fDTRoUjgPD-Em6us-Zcpiv56g9DVktAY9kuFNa8LMqlMRQ7tDqw-WYL-mjriC4LZNbIgSyo6CKgB1AEvpYs2qcIi2lT6vevhMpm9tQDH2RqvKf5bf4NVylhD3g&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Gün batımında sıra çok olabilir, sabah erken gitmeyi deneyin."
+    },
+    {
+      "name": "Dolmabahçe Sarayı",
+      "area": "Beşiktaş",
+      "category": "Müze",
+      "subcategory": "Saray",
+      "tags": [
+        "osmanlı",
+        "barok",
+        "boğaz"
+      ],
+      "distanceFromCenter": 4.0,
+      "lat": 41.0391,
+      "lng": 29.0004,
+      "price": "high",
+      "rating": 4.7,
+      "description": "Osmanlı'nın son dönem ihtişamını yansıtan, Avrupa barok tarzında inşa edilmiş saray. Atatürk'ün hayata gözlerini yumduğu yer olmasıyla da Türk milleti için ayrı bir manevi değere sahip.",
+      "bestTime": "Sabah",
+      "bestFor": [
+        "tarih severler"
+      ],
+      "source": "tripadvisor",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHrLI9j89e2o_oUpKBrykXa1u9djsd_zRVm6gK3BFH_qdZuAVR8-A_TJsTdgjMrscGpJxsQKl8_Rhog1txxo-K4Q9lNCvuXbyt6jlTozsfGBl3Hnwdh-wysZ4YHqFwK1GkHAcO9g1ymJTS-2fIrKEKtBAATstRgIIojWm5t--2w_bXUZ1M-NOtNeJS2Lfb2tywFAFMRmsVLt2CvO-anzvM4w54gRFFs84P0nkprsJJc7RDHzTRXaAd5G27YQwtOElQeonJCEJ46zqRRocaIIru42wy7444v0KI20I97YLZU3D9USLfBr4shbGyLwPpcAa6hy2IzR2dN6GSs33PblvxnAluayfUsZEX9Nv-BLPP_eGG_tX4oSed44lLwifWtYOCAPlltEjhTs2wncQMW9ItrhCqqiYSLgvLt2kW8XVRyDEf0h&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Günlük ziyaretçi kotası olabilir, biletinizi erken alın."
+    },
+    {
+      "name": "Boğaz Turu",
+      "area": "Eminönü",
+      "category": "Aktivite",
+      "subcategory": "Tur",
+      "tags": [
+        "boğaz",
+        "tekne",
+        "manzara"
+      ],
+      "distanceFromCenter": 1.5,
+      "lat": 41.0176,
+      "lng": 28.9713,
+      "price": "medium",
+      "rating": 4.7,
+      "description": "İstanbul'u denizden görün. Avrupa-Asya arasında.",
+      "bestTime": "Gün batımı",
+      "bestFor": [
+        "herkes"
+      ],
+      "source": "local",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHrbVamRjOltMWUhUA_2razIVyn6XFQLJZNO97u5YVqFyWQ-WL8Z9exAZW1A45Ch0TU6yaQSPhiC-9gyenWeWG9bxi2Z57usEISgPSoUp6u-nTiDLd4exeVPdpzQQb52uXC_VSbFXfJ0WT6-FwSw-VuPgfdPW2Io7XNSGVpKXvPZkHPjd7BE2aitutJS5TnD0YhaLhFCzCLgUY6ECGnXMTA46N3S0awFYa3Xy9aDcTkglcLwLA74kaq_zcdbdbOsBSEW4RQ6MJFGzLb_yva08DX3mEk5mjWBQ7NHjZ4HEIMEuA&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Yerel halkın favori noktalarından biri, keyfini çıkarın!"
+    },
+    {
+      "name": "Kız Kulesi",
+      "area": "Üsküdar",
+      "category": "Manzara",
+      "subcategory": "Tarihi",
+      "tags": [
+        "boğaz",
+        "efsane",
+        "romantik"
+      ],
+      "distanceFromCenter": 3.0,
+      "lat": 41.0211,
+      "lng": 29.0041,
+      "price": "medium",
+      "rating": 4.6,
+      "description": "İstanbul Boğazı'nın ortasında süzülen, hakkında sayısız efsane anlatılan zarif yapı. 2500 yıllık tarihiyle şehrin romantik simgesi ve Asya ile Avrupa arasındaki eşsiz bir nöbetçi.",
+      "bestTime": "Gün batımı",
+      "bestFor": [
+        "çiftler"
+      ],
+      "source": "local",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHpKvPCMcf2nwKoxP7B1RENMGa5KuqjzFUWFtanH-0QgcQrNyebdnmTUh813n6Ftmw96Cy2j_LOA9lKk5GYEjN4nuUzuOvhTuSUBjSDeP58hSNyt7qEqdic_YrEEXWCv8uFnl0PwA5lB3rQOjHiNMijCqhdsBRlbJzrqazMg4j3DkqwU8ZnHnvzLPr5XkoeR1cDaU4ULC-zyrhGbLEphUEhdQG2VUHdYxIXK2ITJcZzX6BX5RVGAvdUeudwQKIRUgxkRMYkGKe1dT5R6TqTuuy-5A8_ACREE93cEfeAaRUtd2glxrv_bektu36mi11HArAxF2bXA0B2XUZISsZohFDsAO-C1R25_xTMv4H3TIm881k_p_93GQX7keXleFJhE_lD1LAbPexyECCLZY5rmdnP2Iy07e5QvWH_IoE8jB_UJ2Q&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Restorasyonu kontrol edin, sahilden gün batımını izlemek de harika."
+    },
+    {
+      "name": "Balat",
+      "area": "Fatih",
+      "category": "Mahalle",
+      "subcategory": "Tarihi",
+      "tags": [
+        "renkli evler",
+        "fotoğraf",
+        "yerel"
+      ],
+      "distanceFromCenter": 3.5,
+      "lat": 41.0297,
+      "lng": 28.9483,
+      "price": "low",
+      "rating": 4.7,
+      "description": "Renkli evleri, kafeleri ve antik atmosferiyle Instagram favorisi.",
+      "bestTime": "Sabah",
+      "bestFor": [
+        "fotoğrafçılar"
+      ],
+      "source": "local",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHqo3N9WnskVdFtFdx1BqVhW42usnUSVhr6-SFUqIMl8FMwkiaveWOdL8cFpoH_T3s-1BxyHrni__F-vcOc81jYNmpFAdOoK4gNSp70OfxkvtAD7GvAZI2Ym8yLAlRBBb0FxqercgGb1qCmSiwrHvGU5SwiYjCl4Sdcmffcg2Pq6CvN153BR2q4lGGdw7bOAB0pZUG6GjfiP6VWph-ghswLp3i4M-PTXrbyxnHelq4p9Bb0oWGZ50IqK2dDfnjIB3zzHCk5v_uG8ei2UV2bAtVLdG3rRiSSmzMErFjWPYfokfScRlImGkuAj46KyTaYJi-xmjX3sjJeYULISK09rKOBH25qr4sAz8cDl_FmZ13kR67FWf8yLGWGkzN-nkzRZ8qkccM1G-xkLhFiK2Fqvq9hECWHYsrmT5wgka0vgtaatBg&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Renkli evleri ve vintage dükkanları keşfetmek için yürüyüş yapın."
+    },
+    {
+      "name": "Kadıköy",
+      "area": "Kadıköy",
+      "category": "Mahalle",
+      "subcategory": "Yerel",
+      "tags": [
+        "asya yakası",
+        "pazar",
+        "kafe"
+      ],
+      "distanceFromCenter": 5.0,
+      "lat": 40.9818,
+      "lng": 29.0261,
+      "price": "low",
+      "rating": 4.7,
+      "description": "Anadolu yakasının kalbi. Pazar, sokak yemeği, barlar.",
+      "bestTime": "Hafta sonu",
+      "bestFor": [
+        "lokal deneyim"
+      ],
+      "source": "local",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHpEm4u8O3e24cXo1jGm5YLiplyTj6zaOdKTkt1uYxkkH1N888qDr83-5o_K8xyp9TbeRck3m8Yo4OaflfJXtlAGSC73pSRdI45jo6WdxyMcTFF_3niOwicCKuBo5KUnwMXWqtZ8_nHlp34dNiASt3BcYan6F9I6vjFTPfTSxNwvw1gWUsdwZekFNTzvvEbMTs0dSoiKxCE8BAfTr7-DK6XqGubY69N7gST0xY-qFP3TZnqB0xaAK-B-6KObeukvyDUB3V0H0P1ilgMuoLpCTv4nEwurugXGNYIjmbbC9Lb56R_EhSDCFotjPvN5CovzqnMcom6LXWjz5WANomZtkxzSBwnvV8QeqWTcwqjZEauL4XrNLyUuQlBFz_vubymeyfceT2BUW6xnrI3KU96s-k6Rvk7trtbkxKJ7_779sOLvVA&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Yerel halkın favori noktalarından biri, keyfini çıkarın!"
+    },
+    {
+      "name": "Moda",
+      "area": "Kadıköy",
+      "category": "Mahalle",
+      "subcategory": "Trendy",
+      "tags": [
+        "sahil",
+        "kafe",
+        "gençler"
+      ],
+      "distanceFromCenter": 6.0,
+      "lat": 40.9788,
+      "lng": 29.0246,
+      "price": "low",
+      "rating": 4.6,
+      "description": "Kadıköy'ün en cool semti. Sahil yürüyüşü, butik kafeler.",
+      "bestTime": "Gün batımı",
+      "bestFor": [
+        "gençler"
+      ],
+      "source": "local",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHrX1a_cOUunmX0-FQDFr27WkA94mXsp9vekOFAO68i0MfbW90Fad9AkrXS3DaNMCvRnDcmMvTTjx-Tw5ATwifML2Pa9f37FJmT1pX_pjjfEQkUoiLP4AoURWgCOJvSd_UBhCX0qZYC3llLQe-vbrzm3Bf3Gnr04DgJDyq97GjX7XlzdtSxlHcEf6SAzgUfdKhF6sA05-7UPRPJcY_V0lbAhT9JufOHgv4pcrYPzhONYXtsdWZ1H71PGzQh0ILR_Pgq-NH8yITq3PApdu1e99I8SIXUcqf09W68wcdBXucNfLJIAhu19ecCp9rMwUYPdxbWclauhbuOLK66IAjFV29j6GAGfp4cIJ4Q8VMo0bYD7rzcyJTV-RHRGqtwXOCe9L2FtXkTHsKLzEx7eHci5VnuaJgtZvQ_r4t6N-spwDkEYwoDo&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Yerel halkın favori noktalarından biri, keyfini çıkarın!"
+    },
+    {
+      "name": "Beşiktaş",
+      "area": "Beşiktaş",
+      "category": "Mahalle",
+      "subcategory": "Yerel",
+      "tags": [
+        "pazar",
+        "balık",
+        "canlı"
+      ],
+      "distanceFromCenter": 4.0,
+      "lat": 41.0439,
+      "lng": 29.0063,
+      "price": "medium",
+      "rating": 4.5,
+      "description": "Balık pazarı, köfte, canlı sokak hayatı.",
+      "bestTime": "Öğle",
+      "bestFor": [
+        "yemek severler"
+      ],
+      "source": "local",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHqG1bk2MZn8_zG3UZCnohEWpMZzpULDEZUtMXKFbAD8utyl4FhmacjVkgA2H5AUxlI8L2XGsixtySP3vnAVmy-JGBCsGgJVL3arWRl-B5TUR5ybWNF4D8F_zp_0KUDjSkaIQQGB7wWfwHjpUNNIUt13WH-X9_vKnQI0062OljWLpBipnQhu-fmSgcP1BBv7r5Kq6R8u687xM3Cf_-3vaFbYYVXsEf24ihaMZV8fgtPH4pU1ZgTxzFRxLKx2eFalI2b85acYnIHegpKf0XhJZ6d2cQBeO21_z84nH5GpLR-kiLU5kd-2rsQbgrMc2FTvNkPAoAI2sEwPqILpxPBOtGNr2D2cIFYnT0F-UW3_g4eS4IGVZYq_7lEf-RGBqxPi33kpVDv8ysQgdIRADTILg5BcLqxdrCSsJ2qL1XgNGqf9-Vxp&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Yerel halkın favori noktalarından biri, keyfini çıkarın!"
+    },
+    {
+      "name": "Ortaköy",
+      "area": "Beşiktaş",
+      "category": "Mahalle",
+      "subcategory": "Sahil",
+      "tags": [
+        "köprü manzarası",
+        "kumpir",
+        "gece hayatı"
+      ],
+      "distanceFromCenter": 5.5,
+      "lat": 41.0477,
+      "lng": 29.0261,
+      "price": "medium",
+      "rating": 4.6,
+      "description": "Köprü manzarası, kumpir standları, barlar.",
+      "bestTime": "Akşam",
+      "bestFor": [
+        "herkes"
+      ],
+      "source": "local",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHqDUkWaF7FNaXMY6PtgwAY6YlVENTM8MlSWhygyqAD5a91lt8-Yq_XgfRyc6llhTWqvoOzaYk5NejEMoiSyO1rsIyxMr6bx8P2wywTpWD3cGvaG7BYvL_kcIRuRi6zj_u0nKMRxAB-FWym4DztpijkMQPZuX9agh_ptJyQkHGX1tfyt5bHfC7IahEmVCCGP-sKCN4ezW4an9oRwpv5oxL5KJNC4NJ9OOZhHbWGaQyrEj-QILyXtjI2ePMgNDEkFR7DOzBn9CHNWVtbAn8sibglRaBkK-n51ObMYk2JEkFmmpQZKMOB_MedoiABx9r6DvF2BDQA2yOKN5HiaQQGPVD0tSKSYYymdGh04-2R329Mx0sX9mfBkW1LmxBunN6GTbU5uCK5Zcad9BmRtdJBT3uyVjvYcEbjlc0heCroBf5--KA&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Yerel halkın favori noktalarından biri, keyfini çıkarın!"
+    },
+    {
+      "name": "Bebek",
+      "area": "Beşiktaş",
+      "category": "Mahalle",
+      "subcategory": "Lüks",
+      "tags": [
+        "boğaz",
+        "lüks",
+        "yürüyüş"
+      ],
+      "distanceFromCenter": 7.0,
+      "lat": 41.0732,
+      "lng": 29.0427,
+      "price": "high",
+      "rating": 4.5,
+      "description": "Boğaz'ın en şık semti. Yürüyüş yolu, lüks kafeler.",
+      "bestTime": "Öğleden sonra",
+      "bestFor": [
+        "çiftler"
+      ],
+      "source": "local",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHqMvc9Wj8HIy9X7CgHdPA3I_J56XtVYAc4uD8OVbbfYky0_23a3JFsobvmm9hfYT7SN0mHa89UqG1PYzRFHa04Elo5g1oNNfA4tbsRtU6MOCkaJDcq48K0I1xJDBYZJHbgRVmcEPWCDMOQtJDqcXEFs-NQp7FfQuNQojI3sf87-oiHaSR5Hdze-sL-pqOTmfpL3r1zeFc2v7Z49q6tfsJRGd1Yx0fasQuve7So8vLFteMjPF0m0-lg8uIAlGI0vjjNPwSbctVthr78sXGrmzrIXGweQP7qBL0Ws8rNgWTXMYrmFsHtXyEWbXqzh3BJibJYzQXIdwU_7ME2w_u2SFvR_E-Y2yBOqt-1jrp1F1wmA6jI7ZF4ZDCBoIY5CSr49-kSULZC4SsQ8D0cmbiYHxJfXlVoDAb1uS6r_pVJAqoF0MXc9&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Yerel halkın favori noktalarından biri, keyfini çıkarın!"
+    },
+    {
+      "name": "İstiklal Caddesi",
+      "area": "Beyoğlu",
+      "category": "Sokak",
+      "subcategory": "Alışveriş",
+      "tags": [
+        "nostaljik tramvay",
+        "alışveriş",
+        "gece hayatı"
+      ],
+      "distanceFromCenter": 2.0,
+      "lat": 41.034,
+      "lng": 28.977,
+      "price": "low",
+      "rating": 4.4,
+      "description": "İstanbul'un kalbi. Nostaljik tramvay, dükkanlar, barlar.",
+      "bestTime": "Akşam",
+      "bestFor": [
+        "herkes"
+      ],
+      "source": "tripadvisor",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHrgYawjvG3Q1bAwmOI8eR9OJSjFa95LsH556mzGAFMFEm13vPw28KNkEFnlEMVSJ7uUayFzV3u8y8qHtCKfPJU9orL64gHktjghMqozkFLUqfdz7ngdvSo31dpW3LRGpYix6Tj8mIT_zfQYqaCUm-PUwMZkXByez_mqGEZmDDln5sHQwQTJz8tPYJq2PxQPIIoOnO5oO4KLegeYSOCda7WP7w4rpJtpoX-wQ5-1KhsNsdXsl9EHALvuQS9pYywfqfhqia4ncekLZP9spgit8PNkN8Ym6-l6Cs2BYVmC97Jz-l0gZrsDzPT8vWnwca0RwS7K9ZLdqhvs5pons6ku2mLtqxrPTfdft0-94TPigmKxR-5mz4YwaDJU0htX-MPvmetU2E_x5Pwg0HOtTIL22_UfC3DFjpKC-AU-Qw7QZ8Sccg&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Yerel halkın favori noktalarından biri, keyfini çıkarın!"
+    },
+    {
+      "name": "Mısır Çarşısı",
+      "area": "Eminönü",
+      "category": "Alışveriş",
+      "subcategory": "Çarşı",
+      "tags": [
+        "baharat",
+        "lokum",
+        "1660"
+      ],
+      "distanceFromCenter": 1.2,
+      "lat": 41.0166,
+      "lng": 28.9705,
+      "price": "low",
+      "rating": 4.5,
+      "description": "Tarihi İpek Yolu'nun son duraklarından biri. Rengarenk baharatlar, lokumlar, kuruyemişler ve şifalı otlarla dolu tezgahlarıyla hem göze hem damağa hitap eden, kokusuyla baş döndüren bir çarşı.",
+      "bestTime": "Sabah",
+      "bestFor": [
+        "yemek severler"
+      ],
+      "source": "tripadvisor",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHqWsjpIlTTvBtJJxSHBJ4ZZN1v1UzPJbZr5fnwEXRwQwV6tgY5JcZuk-SOZjyL3te31ogUrdx9cclF3xZwUQpt59GHksao5DH8-fqd_8sGdG0Q4R66RqSacT3j5ZmTsd6YSzHGi2v8fuzEw9oOuaqREoXZ0UM3wVNDQO6aOyhA0aaOcJnysWYxnriZdWAajrDInzTCdAHb4byt6rQ0vNFY4kvcOcNQX2YiMws9K8w7-Ri3X0SthRC2xD8XSd8itxz4DE-jJLmeay4D7KlLrrGjtm0oZPntT4hs1thgXMh0lGWhmO3kZwbmjNgk_6a7J7qiHKYY-jQm9Fl2KaUZrnpwScVCv38XoanDe1tEZm19IMC2gEY2CDpYklHiIIxiCrVFU-1KRtaE1d_TA4O3C-jEmsOqB0MLwtgJFyYcZN_RsHg&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Baharatların kokusunu içinize çekin, tadım yapmaktan çekinmeyin."
+    },
+    {
+      "name": "Süleymaniye Camii",
+      "area": "Fatih",
+      "category": "Tarihi",
+      "subcategory": "Cami",
+      "tags": [
+        "mimar sinan",
+        "osmanlı",
+        "manzara"
+      ],
+      "distanceFromCenter": 1.5,
+      "lat": 41.0163,
+      "lng": 28.9644,
+      "price": "low",
+      "rating": 4.8,
+      "description": "Süleymaniye Camii, Fatih bölgesinin tarihine ışık tutan önemli bir yapı. Geçmişin izlerini günümüze taşıyan mimarisi ve kültürel mirasıyla, tarih meraklıları için keşfedilmeyi bekleyen bir hazine.",
+      "bestTime": "Sabah",
+      "bestFor": [
+        "herkes"
+      ],
+      "source": "tripadvisor",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHpVTCMe_8KbAg6SyRzeM-df2Cp0t8iyhVM_oYoBQmya2Unju92pnorQ2u8NdwhBKFhmYZustgo37Cs6GQ-elbX-oVIxjLeH118uZgVX4Y7oaFejwxL7uJz65w9AUmYedq7OZItbKxvNtV-pVUqyMkVE1ItWlwzLF0O82-ASJSmVgT7UnI9o35fzukqMCMF819jIPTGBh0kxE7iAfLv4TUS-D2unv3wU9u-XjDtj5H-yRyPE7NB0LBiSmVwm4Mhr0YJ6_AtHvpzrAIE6dCHWjveEr-Io35EFbgpIQjHvM-eDJBaON3icwzLJoQ9MdPj4C-pJ2khnL9rbPBaVYxBGDmrMBUUbgC65MktL5g8nBWWOpld7ugvu6MfSrIUBdF0xFKkz9TEHv4vs67yHd8euG1rZmiN2n69t3UY5PDcDS8zG9A&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Erken saatlerde veya kapanışa yakın giderseniz kalabalıktan kaçınabilirsiniz."
+    },
+    {
+      "name": "İstanbul Arkeoloji Müzesi",
+      "area": "Sultanahmet",
+      "category": "Müze",
+      "subcategory": "Arkeoloji",
+      "tags": [
+        "antik",
+        "1 milyon eser",
+        "tarih"
+      ],
+      "distanceFromCenter": 0.7,
+      "lat": 41.0114,
+      "lng": 28.9817,
+      "price": "medium",
+      "rating": 4.6,
+      "description": "İstanbul Arkeoloji Müzesi, zengin koleksiyonu ve etkileyici sergileriyle kültür sanat severlerin uğrak noktası. Sultanahmet bölgesinde yer alan mekan, ziyaretçilerine ilham verici ve öğretici bir deneyim sunuyor.",
+      "bestTime": "Sabah",
+      "bestFor": [
+        "tarih severler"
+      ],
+      "source": "tripadvisor",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHro7yLug9w-DMzmhCbd851q0kfoFQIzaXt3G3o3jC_xboB3IRg7QsqoNCnO3_54ZMr6h-U75gL_-jUvJOs6X_VIF3QrHh7JtgPh_8-BRAH2pqF_4pT2oM12y8EicoQe-7pRkCfw90qjc4nrjtRT7qoWPIlMDtGeyrNLujFFN2QQa4Cnea9pLS0237JBBgZMcd5x3iRhgKQZas1BcQbscKzuwPxGQk1ixH0m5oComUt_hlQ25HZR8CnMQYnRA1aOiFBymeDZUWC_v11honQn8DynE3SaAn9w2Rw6MLeF6P2hZwcc35-k_jWbmX_wpqws9D2Y-7u2WQ05fZQK2rgW9Bl3H7p2tk1BAjuYcn0YQbJliYxyGDnJYqX05b8wcpSaVE_EqF8XsLgZUZd5QfIxYrLWhYWNt3gnzknsTFgfa_6yvg&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Biletinizi önceden online alarak sıra beklemekten kurtulabilirsiniz."
+    },
+    {
+      "name": "Gülhane Parkı",
+      "area": "Sultanahmet",
+      "category": "Park",
+      "subcategory": "Tarihi Park",
+      "tags": [
+        "lale",
+        "manzara",
+        "huzurlu"
+      ],
+      "distanceFromCenter": 0.6,
+      "lat": 41.0125,
+      "lng": 28.9833,
+      "price": "low",
+      "rating": 4.5,
+      "description": "Gülhane Parkı, şehir hayatının karmaşasından uzaklaşıp nefes almak isteyenler için Sultanahmet bölgesinde yeşil bir vaha. Yürüyüş yolları, dinlenme alanları ve huzurlu atmosferiyle doğayla baş başa kalmak için ideal.",
+      "bestTime": "Sabah",
+      "bestFor": [
+        "herkes"
+      ],
+      "source": "local",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHoiCEa6GbeQaz2-DPoJlf7BeEKCLcsFM76LFmAZwm7XTo6qCMAI2lb9kIMWA6PQTyodqMlBwYtmbl9CynOZl9u4FeD65hullIaHOtTU1YZUwJY7nzYxBy0_UsMI4udvgzlLBmotR2ZMIwVTkwEa3_GsCMEW-A4BE15YU-B4WQ3OVrIlypdVyoqKxC_aLJX-IJPquRyvhOqN78AImU9whP_YQGbIsL8KB3q66gFGJGaEMn4JzVTJ6hAUSRfxW_9xXDqMqd8Nu5rYmAQkLetcfdvhDeyg1UP2-QN3SiorAv0aVXQmANoaZPJszqi9AMBzb-H76p3LhFnesdG_y3_9dFHVrBONwFcxvzRngUcUzrA3qAX9tBAjP8CpeH4Vyntu9qmfHAQAFXYXbuEU2Nboc8Fi0MeWtXLzGDY-mTfpUyAmnQ&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Hafta içi daha sakin olur. Yanınıza su ve atıştırmalık almayı unutmayın."
+    },
+    {
+      "name": "Çiya Sofrası",
+      "area": "Kadıköy",
+      "category": "Restoran",
+      "subcategory": "Anadolu Mutfağı",
+      "tags": [
+        "ev yemeği",
+        "bölgesel",
+        "otantik"
+      ],
+      "distanceFromCenter": 5.2,
+      "lat": 40.9902,
+      "lng": 29.0246,
+      "price": "medium",
+      "rating": 4.8,
+      "description": "Çiya Sofrası, Kadıköy bölgesinin en popüler lezzet duraklarından biri. Özenle hazırlanan menüsü, kaliteli hizmeti ve anadolu mutfağı mutfağının seçkin örnekleriyle hem göze hem damağa hitap ediyor.",
+      "bestTime": "Öğle",
+      "bestFor": [
+        "yemek severler"
+      ],
+      "source": "tripadvisor",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHqi9aN0KinH44ZsPGExTjxEpGIT-kWBJ9icOe0QY2rrwBgCBc1EhwAoVo6SZEYPPn2_isuZwrOf_Fs6-v0vXC009EegvzaZhn3fOuaRZ0TcXHchrtDjXlPs20hKPGqGH8wgef3IdNv8_wsOUYIqevPLoZmr_U_rBeUr01s9nwu9Wgvpe3zSPtWQXqUKD1pCOiyfmYNWUuQ1WlQyCCMwZpJU4KYzN3CMlKhKtuod4xueXKVs3Yyqlk6PAX3l_KGJ6UZwyZl1K5BQGuDOb4x1KXmxW8s3gID4LZOic8UpuvKT13FMlO30-wJx7PJqImbMgM6Pt42qeqNUguU8FpoGnuMj9x3JDeht-X20UPgzFdYHbD11N2Ih-MrX776zKHD_Wud67m13EwM6ioY0ps2wfgZPVmK12Y5eP-gUdz9lzojbCrSvBUIvke34nOTHAh5o&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Özellikle akşam yemekleri için rezervasyon yaptırmanızı öneririz."
+    },
+    {
+      "name": "Mikla",
+      "area": "Beyoğlu",
+      "category": "Restoran",
+      "subcategory": "Fine Dining",
+      "tags": [
+        "michelin",
+        "rooftop",
+        "türk-iskandinav"
+      ],
+      "distanceFromCenter": 2.5,
+      "lat": 41.034,
+      "lng": 28.977,
+      "price": "luxury",
+      "rating": 4.8,
+      "description": "Mikla, Beyoğlu bölgesinin en popüler lezzet duraklarından biri. Özenle hazırlanan menüsü, kaliteli hizmeti ve fine dining mutfağının seçkin örnekleriyle hem göze hem damağa hitap ediyor.",
+      "bestTime": "Gün batımı",
+      "bestFor": [
+        "fine dining"
+      ],
+      "source": "michelin",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHrcmk5VVkYI_asKf6LZ2DB98tSayUTOuiWWashAFNF9xkN2oR-nFvwhkpscpHmo_BGdwl00DlVtDHW8U-70O0meujTza2IAbuy5gyg63_rpZ1BK_3SKT1iqfSatdveb0yVnBrpRfgAgNSI1zd5dpGu6yrvfAQ-K9YIA33V8yNFZg0h_--2pR4PVv65RLUzjbiOVNWZ03544kSZ_lDK_KCaPE_qavcn5S5CZ6Ckw1G8IwdPxWzc99NlbdCtoVx98vdEx3fsz-H8epxeU3K7rEQjAE5F6tHnc2-OprI0mwQVJnHNkHvygoda6LPsBcaT_bwU7Se6KfUkthfC8EKw84Rvj8wZsWNOjwK-7osEcngAFlywys5RLDNi7Az3bSumUdPVvSoUHoFIcy9GoPezMlbQoEBwdcr6rip6cLQhp8HQlV9JO&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Özellikle akşam yemekleri için rezervasyon yaptırmanızı öneririz."
+    },
+    {
+      "name": "Türk Fatih Tutak",
+      "area": "Harbiye",
+      "category": "Restoran",
+      "subcategory": "Fine Dining",
+      "tags": [
+        "2 michelin",
+        "avant-garde",
+        "yerel malzeme"
+      ],
+      "distanceFromCenter": 3.5,
+      "lat": 41.0454,
+      "lng": 28.9936,
+      "price": "luxury",
+      "rating": 4.9,
+      "description": "Türk Fatih Tutak, Harbiye bölgesinin en popüler lezzet duraklarından biri. Özenle hazırlanan menüsü, kaliteli hizmeti ve fine dining mutfağının seçkin örnekleriyle hem göze hem damağa hitap ediyor.",
+      "bestTime": "Akşam",
+      "bestFor": [
+        "fine dining"
+      ],
+      "source": "michelin",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHoud8Q7eNmlYBeTjR2E_R2Z2v82S-tbus5UWpQ7LigmygvWt7HCaBeVwAAWra2FbceA2rb8E4TJAcsu2zRZk5cIX4ZyNpzoiAPnWJc87oir_q3eHMav8pSdKVzwipgYx0kuk1-uKfTd73uwVbXl6nQOXLPYJWgNk6-ZbIjFotxsclOybiFTrqFu9D7grMA9OzXcFDs00nMo2lmFbGqoA2Mjcaa7i5vL42h2y8nTFpE3XUs6JJwQKysWBYxyCNrtAFtURKh6UQf4pBr8Yc6_9T_Q_1gF2HNmX_fQSBF-U1j1hg&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Özellikle akşam yemekleri için rezervasyon yaptırmanızı öneririz."
+    },
+    {
+      "name": "Karaköy Güllüoğlu",
+      "area": "Karaköy",
+      "category": "Tatlıcı",
+      "subcategory": "Baklava",
+      "tags": [
+        "baklava",
+        "1820",
+        "geleneksel"
+      ],
+      "distanceFromCenter": 2.0,
+      "lat": 41.0225,
+      "lng": 28.9752,
+      "price": "medium",
+      "rating": 4.7,
+      "description": "1820'den beri. Türkiye'nin en ünlü baklavası.",
+      "bestTime": "Öğleden sonra",
+      "bestFor": [
+        "herkes"
+      ],
+      "source": "local",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHpaygmhkKxUf5s-BuY9frI2KGDmiybDThz2M3a-v6UWg-4TRAUtqLs55Gzh8AYtzZPVv0sJgaRkAImI59ek-bys-dL1VdOWodIQFFGwB0e0KT3uYCKf9xfhyt7FGZvm0UlWmk7lpzIPQ3YZs6evablSeQhBeH3OdpzFKeu3ddX2pQgl9jaf24q6M-FFDW_5b9vPS1B7WRBhTSI7xLLh6AS01mFvmLuHFzla0vGhxH6NCE9qtlKCHxCsDd_PvSspYfkx20gIEqtk9ZHLobAhKdXoPbWp2Qc_FWrxR2fk6BkDEg&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Yerel halkın favori noktalarından biri, keyfini çıkarın!"
+    },
+    {
+      "name": "Hafız Mustafa 1864",
+      "area": "Sirkeci",
+      "category": "Tatlıcı",
+      "subcategory": "Türk Tatlıları",
+      "tags": [
+        "lokum",
+        "türk kahvesi",
+        "1864"
+      ],
+      "distanceFromCenter": 1.2,
+      "lat": 41.0138,
+      "lng": 28.9761,
+      "price": "medium",
+      "rating": 4.7,
+      "description": "1864'ten beri. Lokum, baklava, Türk kahvesi.",
+      "bestTime": "Öğleden sonra",
+      "bestFor": [
+        "herkes"
+      ],
+      "source": "local",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHrMgNdJbaTlLljPNc3JepgGXxjsl9_HCQW2spvN342OZRZ77uAU-ImB_X62OMLP3V80faUDj19huZ8QT6AbtGDJZgiLia437Smvtc5Un5QCrCRG-oylupDnRTJBydWhyPKLtl6FZsWi5JLD0gwOmpa1r57JjoqaYi2_u2kEWRHm6xYhkgznF_UB3QidEdfMKYGJqluh9fiPJjSyaYm85xbBXHUzainC177whivvxYCSrq3e31OWGTPXrEIpXTM834MzMKLJrnO1f1ki51weUqXOttTWVUgnMLqht13mLxULdA&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Yerel halkın favori noktalarından biri, keyfini çıkarın!"
+    },
+    {
+      "name": "Pandeli",
+      "area": "Eminönü",
+      "category": "Restoran",
+      "subcategory": "Osmanlı",
+      "tags": [
+        "1901",
+        "mısır çarşısı",
+        "tarihi"
+      ],
+      "distanceFromCenter": 1.2,
+      "lat": 41.0166,
+      "lng": 28.9707,
+      "price": "high",
+      "rating": 4.5,
+      "description": "Pandeli, Eminönü bölgesinin en popüler lezzet duraklarından biri. Özenle hazırlanan menüsü, kaliteli hizmeti ve osmanlı mutfağının seçkin örnekleriyle hem göze hem damağa hitap ediyor.",
+      "bestTime": "Öğle",
+      "bestFor": [
+        "tarih severler"
+      ],
+      "source": "local",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHoefFaTLHa8yS8TGSZf6UkW3u0f9h9mi3AGvVXEk7yyg1pFmFJPfVXkJVm_fWXKAiJUkpJrZXenMmslfkCb6OkAQ0trt6gtok-WwGCMkrver1Fl11dUkQKl-loHifuycy5nd1eXb6oGqFVNSwX7d7mY-UWuMYYm3TOY-Ur26VQcEZD69QFolHluovU1QeiwUNbRCq1h5rlfHdliloMqTndkro-j0Nf4un-qo4wRRNQx13yvgi3_4Fy1S2ltXvLgADTHiRhHoEGlCqZx26abWM1tpLqrDqZFWthyYWNkizSSFQ&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Özellikle akşam yemekleri için rezervasyon yaptırmanızı öneririz."
+    },
+    {
+      "name": "Asmalı Cavit",
+      "area": "Beyoğlu",
+      "category": "Restoran",
+      "subcategory": "Meyhane",
+      "tags": [
+        "meze",
+        "rakı",
+        "canlı"
+      ],
+      "distanceFromCenter": 2.3,
+      "lat": 41.0324,
+      "lng": 28.9765,
+      "price": "medium",
+      "rating": 4.6,
+      "description": "Asmalı Cavit, Beyoğlu bölgesinin en popüler lezzet duraklarından biri. Özenle hazırlanan menüsü, kaliteli hizmeti ve meyhane mutfağının seçkin örnekleriyle hem göze hem damağa hitap ediyor.",
+      "bestTime": "Akşam",
+      "bestFor": [
+        "yetişkinler"
+      ],
+      "source": "local",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHqfn0fRRKZXNcJbgLjruy4il41X_B96uViq7zdv4HRAeJwndjhVQ5kUWsHe_gmDgo_Vd-W-8uMHg6WTcCdZgkUWyxj1f9yxPFTx4xeBYSiK6d3MQbO3-DmDAcNZ2n247OAf9sskjlGjC2OWuTkbXZlbyBn-IGb6kZU9diEkCWSqUyQapTUYjP0h4G-32Ptz-oP0ErFZ46nZTKrFM3ZmRMMIJXaB7klNsNMJPgXp-tTJE9ApMYKTZIcZtxuHL8gBl5XmvTqDeljacghSav9FA8T4rXGnrFZNKyaB69UHSyDrYHfsz1WNtimaNsfr_hGu9BiWoCFJDr5-Ua3erOS0MXkBBNEW7CYo071VQqgYV9-LKmbZV5UfjniIrEKSR55lzYNzXP71XyWvbzHr2QBchQpADJPUJe9AQNTXHpvaUxXk709R&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Özellikle akşam yemekleri için rezervasyon yaptırmanızı öneririz."
+    },
+    {
+      "name": "Bayramoğlu Döner",
+      "area": "Sultanahmet",
+      "category": "Restoran",
+      "subcategory": "Döner",
+      "tags": [
+        "döner",
+        "hızlı",
+        "ucuz"
+      ],
+      "distanceFromCenter": 0.5,
+      "lat": 41.0076,
+      "lng": 28.9742,
+      "price": "low",
+      "rating": 4.5,
+      "description": "Bayramoğlu Döner, Sultanahmet bölgesinin en popüler lezzet duraklarından biri. Özenle hazırlanan menüsü, kaliteli hizmeti ve döner mutfağının seçkin örnekleriyle hem göze hem damağa hitap ediyor.",
+      "bestTime": "Öğle",
+      "bestFor": [
+        "hızlı yemek"
+      ],
+      "source": "local",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHpxvepkNoEdxB4tD_25Bm6v8J75qEwqYfle7bUaeQnYNzYr56P5c3b8t6F-RpXEEFXji1ki14oZtvL1o-h2kG3ipKTnDuTnmCh4Unlua4t-3W7s5nefMZoyN12jwvkV33l1xE-263TPbj5hSJH5wtJ34vl4yp1ATMOeWghi47_zBZZ4a-a53E6un3lA6AI2FHHcTb8jAr6TN8Jqjljx3PF7zafITeVoQTnC3Sgp43DdsH0MS1JuIRza-LmX5MagxqzO57HK_e1EOwLJiXNYDnk2c-VawJcu9KBNy4NXtTa8UQ&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Özellikle akşam yemekleri için rezervasyon yaptırmanızı öneririz."
+    },
+    {
+      "name": "Fahri Usta",
+      "area": "Beyazıt",
+      "category": "Restoran",
+      "subcategory": "Lokanta",
+      "tags": [
+        "ev yemeği",
+        "ucuz",
+        "yerel"
+      ],
+      "distanceFromCenter": 1.2,
+      "lat": 41.01,
+      "lng": 28.967,
+      "price": "low",
+      "rating": 4.5,
+      "description": "Fahri Usta, Beyazıt bölgesinin en popüler lezzet duraklarından biri. Özenle hazırlanan menüsü, kaliteli hizmeti ve lokanta mutfağının seçkin örnekleriyle hem göze hem damağa hitap ediyor.",
+      "bestTime": "Öğle",
+      "bestFor": [
+        "bütçe gezgini"
+      ],
+      "source": "local",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHq2CQgC8QsD0SEqZf2ifCaMHOa1-7rH-Foe1tMmVqlHCjVNxJbKCH0Cpolc9e-vWFPA-d_AU_bJITLGIFsNOhao5kcs0d1Xwp1UOiM6Uo78Nh5qucKqqtFNjUuO9kMhqLbFHbgTPQfk0xSJZ09KjnE7Vy8HQguhMinUPKz4LGs1Rh9ZNTVJ8l3W_J6dtxTxBuRd0zmx_upFFHzzZ9QEiccoslWyySiUUA677zQiwTgRZ2HAeBJKro5kTiz7b5xAilXtSOb_ZEp7OQvg7RpPvqqDOlet181GqiTaaV6JcFeConyz9zU8wUHAEk0ahxaOGXXQOca3kWphhp5umNC3axVdfLKj2b9OQEa4m4l0hvY75jC823Ha97z1xsO8y9_hToWBnOuTqnynUxIQzV6TqlufvdJXgtLJxXvjY8rhRQA-t8dL&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Özellikle akşam yemekleri için rezervasyon yaptırmanızı öneririz."
+    },
+    {
+      "name": "Kanaat Lokantası",
+      "area": "Üsküdar",
+      "category": "Restoran",
+      "subcategory": "Lokanta",
+      "tags": [
+        "1933",
+        "zeytinyağlı",
+        "geleneksel"
+      ],
+      "distanceFromCenter": 5.0,
+      "lat": 41.0253,
+      "lng": 29.0148,
+      "price": "medium",
+      "rating": 4.7,
+      "description": "Kanaat Lokantası, Üsküdar bölgesinin en popüler lezzet duraklarından biri. Özenle hazırlanan menüsü, kaliteli hizmeti ve lokanta mutfağının seçkin örnekleriyle hem göze hem damağa hitap ediyor.",
+      "bestTime": "Öğle",
+      "bestFor": [
+        "lokal deneyim"
+      ],
+      "source": "local",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHqXGwucJLb8Dbugo3livHt8VS9ppYrRl4fyjegnhQ_45w2WnmK1qRWzk_Zu_rrN4YhmMErt5E-YbwCZSw5yhw4zSutr_zh3x4fIvhcWhTQg1BGQEapcjfzNr_P_haGm7IxKGPSIdrd_a8wI2ng8xjXVjag0qyQw3S_ysj8GKhyUXSMbPo80LQ7FvqRaNXOZdit9AEL7OZQsJweVi7JCkhZmYVE3riSgX7LTk5LYhrNFnY_I0JGSxII3qC2SfiSRM80pYb17azbh4oyhIJcs1C_o_8ebphWfNf_ZTtJQ7Z05l_qndXMtvLFiWoJiGO_i3NTHQT4vvrXvhocTfswYQesVfbiC0wmSgHPSUZrgUZk-A1gDyno2459g4VV_38-HpfxjARC0HF2K1fSsKdFpbCNq0QRsXuTsIEcSTWfFu_k&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Özellikle akşam yemekleri için rezervasyon yaptırmanızı öneririz."
+    },
+    {
+      "name": "Mangal 56",
+      "area": "Beşiktaş",
+      "category": "Restoran",
+      "subcategory": "Kebap",
+      "tags": [
+        "ızgara",
+        "et",
+        "yerel favori"
+      ],
+      "distanceFromCenter": 4.0,
+      "lat": 41.0439,
+      "lng": 29.0055,
+      "price": "medium",
+      "rating": 4.6,
+      "description": "Mangal 56, Beşiktaş bölgesinin en popüler lezzet duraklarından biri. Özenle hazırlanan menüsü, kaliteli hizmeti ve kebap mutfağının seçkin örnekleriyle hem göze hem damağa hitap ediyor.",
+      "bestTime": "Akşam",
+      "bestFor": [
+        "et severler"
+      ],
+      "source": "local",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHqr9lSNuB-rSZx9Q8J18jjsTBw42yY4cPfJOgiuxHscvh7kiFwCn8iK1MNb-pTcEHsVbR8sil-_YnE5hgxv6zWhjWVV_FSJBQ6OCnEQhY2_i5YSlJtK58Fz7XL8hC6W83taXpQzxYo9X9V9vfkW6j-2gihmFf6hMKQqs3fKnBA7XgP_BoWQVBcTKaMeK4F82861LG4qm53QM2cJUqHHpvF9q9pztS59hlr6fGu6FFSR6rnWwwTm7jxZohUKgZVKqQ-UIZa0E7we1bqlUvxz17wUOtdzsYp6jKzO7RB4KSyWhrTzS3uWPp-9u_2QRmtm8leNbBemPoIAjGbR3gJ38cdComcsjrkndsGpMILhKF6O9wUkiOwRuGpUbNWpWY-SezzaS809I7kxVorAAmExeKRF3eQMi5nk9bnHcDeurRcw5g&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Özellikle akşam yemekleri için rezervasyon yaptırmanızı öneririz."
+    },
+    {
+      "name": "Fıccın",
+      "area": "Galata",
+      "category": "Restoran",
+      "subcategory": "Karadeniz",
+      "tags": [
+        "hamsi",
+        "mıhlama",
+        "bölgesel"
+      ],
+      "distanceFromCenter": 2.2,
+      "lat": 41.0262,
+      "lng": 28.9735,
+      "price": "medium",
+      "rating": 4.5,
+      "description": "Fıccın, Galata bölgesinin en popüler lezzet duraklarından biri. Özenle hazırlanan menüsü, kaliteli hizmeti ve karadeniz mutfağının seçkin örnekleriyle hem göze hem damağa hitap ediyor.",
+      "bestTime": "Öğle",
+      "bestFor": [
+        "yemek severler"
+      ],
+      "source": "local",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHox7I3k2mv-AE9WQdhUzNc0SqH0xyqcdiIQGEJf6WCj7pM8JekD-V5gbP_9iLaRVdPrn2Wx6OLlwg9Doz3FFbcJ8sSsunMbQ_c_7WPXgb3BHZMEL9F4CQuJf1UNS1Vh-sbHRclyzRfzvrTzS5oGuqxwyUefHyjFpX1JSFUkq8YDz4FtttP55XcnJd46MJk49nyeQVa6pxyDRLjU7-UEz0u3N7pOHcPeflokpMh_A8d8HIKKNkxnc5TMZVcyD2NRWJ-mFZQx20D67bSgNl3bnRCjfRmLSOEyDvTaJkt91NOZMLfE_0mMaau2MejE7pq4nvsQ5gmK39JcajJCyblkVG8qZKEMJIisHvtu2aaBQbsuUmEVwgYt-Ie9C6V2TMWd1PIavMC2qdpOH1LBPfPpm3pyjeYsEmhgD43a3LnsIsUjsy2T&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Özellikle akşam yemekleri için rezervasyon yaptırmanızı öneririz."
+    },
+    {
+      "name": "Asitane",
+      "area": "Edirnekapı",
+      "category": "Restoran",
+      "subcategory": "Osmanlı Saray",
+      "tags": [
+        "tarihi tarifler",
+        "saray mutfağı",
+        "özel"
+      ],
+      "distanceFromCenter": 4.5,
+      "lat": 41.0317,
+      "lng": 28.9399,
+      "price": "high",
+      "rating": 4.6,
+      "description": "Asitane, Edirnekapı bölgesinin en popüler lezzet duraklarından biri. Özenle hazırlanan menüsü, kaliteli hizmeti ve osmanlı saray mutfağının seçkin örnekleriyle hem göze hem damağa hitap ediyor.",
+      "bestTime": "Akşam",
+      "bestFor": [
+        "özel anlar"
+      ],
+      "source": "local",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHoycz8Rj3fMS2Vqq8Tf21TNuMzcN0Lez1F08atnotkLlr3iWfJool5VjVyPAtSGVNFT1WotVCxBjdR68pdS-zW2ESRT9M-oFyZd0qpPAWQz_IrGtBzABvfBKm2Ur2JV-6-xjtBb_dOOrIN9MRTLm3eWIvYz4uVVbLwgZQPnwMHvQFMRvMrtAPm7OmDWMvgt0-lFKEDc73p99bfMlvp6AemJx6O4Ps-GZT05GSOJK_tlWjbIrEqNGWDbXGwInp4T36olOrX5aJeeeXg3ME3TLFKPLY4pBboyX98ISqYmHaR6aQ&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Özellikle akşam yemekleri için rezervasyon yaptırmanızı öneririz."
+    },
+    {
+      "name": "Mandabatmaz",
+      "area": "Beyoğlu",
+      "category": "Kafe",
+      "subcategory": "Türk Kahvesi",
+      "tags": [
+        "türk kahvesi",
+        "köpüklü",
+        "ikonik"
+      ],
+      "distanceFromCenter": 2.1,
+      "lat": 41.0334,
+      "lng": 28.9755,
+      "price": "low",
+      "rating": 4.7,
+      "description": "Mandabatmaz, Beyoğlu sokaklarında keyifli bir mola vermek için harika bir seçenek. Samimi atmosferi, lezzetli kahveleri ve tatlılarıyla gününüze enerji katacak sıcak bir mekan.",
+      "bestTime": "Öğleden sonra",
+      "bestFor": [
+        "kahve severler"
+      ],
+      "source": "local",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHogK7O8Rh9cF4i59tGkXrFxn8WrHqXEH06_DJuk76wq4w7cRf382eHkauGLXRyZ-uCsGjkWmJEWVOxSfZnffkPsdGnvMeI7wafXlBP5rmqHxO7JEyki_3Zre__dy2fIslRsVZek0I-VbTSERfB6kNA6IZhO8hS5jIL6Q4HoPQemg8VDZbzva6iIEhIj6U1ugMtLlJaf4EZp6h_r7Lum4Tmmw74APwCTHbI7UVnTCGX2xBNPaekAWRv1u58X_TVthPojvSgfp9-nM3-bbrP81aSihSTtXqiH0MDYBS4onEqoUyLnyxfzyLMHPkwrvIj0xWHkeOpWN1nA2MFmKhqIU7o7uCqTYIsZy_qFQUsZT3STToqMqmQQ14l6BHkpM6aDA4Gvsz1hrpEp6ItoYLhVAlWSWJIGL7B7-dwwyAtg8Oknz6pSOlIZDj1Hs7owxbit&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Kahve yanında yerel tatlılarını denemeyi unutmayın."
+    },
+    {
+      "name": "Espresso Lab",
+      "area": "Beyoğlu",
+      "category": "Kafe",
+      "subcategory": "Specialty Coffee",
+      "tags": [
+        "specialty coffee",
+        "modern",
+        "zincir"
+      ],
+      "distanceFromCenter": 2.0,
+      "lat": 41.034,
+      "lng": 28.9768,
+      "price": "medium",
+      "rating": 4.5,
+      "description": "Espresso Lab, Beyoğlu sokaklarında keyifli bir mola vermek için harika bir seçenek. Samimi atmosferi, lezzetli kahveleri ve tatlılarıyla gününüze enerji katacak sıcak bir mekan.",
+      "bestTime": "Sabah",
+      "bestFor": [
+        "kahve severler"
+      ],
+      "source": "local",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHo7-m1OhzN7CGXlP7o6ZoxBOMqLxf6ElVE9RIGo3H3uFWvVQTuc6fXZgzUpa_cmgGtEIlb3b1WXQ6XrQ2g49rYkv6cNSiPatw6asQHQkBr67LOo9lnjAm8caw3ID3zrIOlbpePuxdyRtqz88OrN5J-lFWvB-kpomVFLoVvWw0AsbAFcQxogZfqlYmlvPVTaqYICutogH1bjExmjZJRi_4RE-k6G_5Ep_XaAV--26mL-bgvUosjn3vfB9J4xyjSlYN-ssPSZynhQfJRiaca16fuReCNT7RfxrT80-oFz5CHnYQ&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Kahve yanında yerel tatlılarını denemeyi unutmayın."
+    },
+    {
+      "name": "Old Java Coffee",
+      "area": "Galata",
+      "category": "Kafe",
+      "subcategory": "Specialty Coffee",
+      "tags": [
+        "galata",
+        "butik",
+        "cozy"
+      ],
+      "distanceFromCenter": 2.2,
+      "lat": 41.0258,
+      "lng": 28.9738,
+      "price": "medium",
+      "rating": 4.7,
+      "description": "Old Java Coffee, Galata sokaklarında keyifli bir mola vermek için harika bir seçenek. Samimi atmosferi, lezzetli kahveleri ve tatlılarıyla gününüze enerji katacak sıcak bir mekan.",
+      "bestTime": "Sabah",
+      "bestFor": [
+        "kahve severler"
+      ],
+      "source": "local",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHpYP-BjGkSYXCYAYaaeOuRr6XN7MJxALMvkcREVRoImgvyUwhjtbncHF4QjaXFRtM_vIssujMd2yqrulCiuuY5p5fHzyCW30jUgXUEmqA0CmDfJf6mo8y7qwsFjNdM08eI4Oz-kYUMEdpnGy6ao9lBC6U1SrPv9xj4WY0s5hW_mkX7y-xkHES2-wDEcVELm7I_JgRKQSDD6FeGPxJEvW4I7nJxKNm8QynRg9JtiQdWh76_9kMos9qB3mbrnWfk6pb-1_ZdJ7IY2I2IeFcj8HMG2QEvXuwG_z6_hr8vbHtFUsA&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Kahve yanında yerel tatlılarını denemeyi unutmayın."
+    },
+    {
+      "name": "Coffee Sapiens",
+      "area": "Karaköy",
+      "category": "Kafe",
+      "subcategory": "Specialty Coffee",
+      "tags": [
+        "cappuccino",
+        "şık",
+        "popüler"
+      ],
+      "distanceFromCenter": 2.0,
+      "lat": 41.023,
+      "lng": 28.9755,
+      "price": "medium",
+      "rating": 4.6,
+      "description": "Coffee Sapiens, Karaköy sokaklarında keyifli bir mola vermek için harika bir seçenek. Samimi atmosferi, lezzetli kahveleri ve tatlılarıyla gününüze enerji katacak sıcak bir mekan.",
+      "bestTime": "Sabah",
+      "bestFor": [
+        "kahve severler"
+      ],
+      "source": "local",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHoR_EWraxglWOe7NgL6e9bDM9k94ZkwOFNr5E8yvuKOtUkY1S8sHlByOaCGlkJTM9E1JzvUalOdpM3zJbzx73RrBYD07xytXKWRSHUWgot3yRlhXtPVjfGVHLLgFgjQAqEvleWqCYkiLId0kCvxzOF3WjauIQ_9l73qGxcEQZhtN0Uk6FRYpiBLA3D0Qooba3L0Apy1IBjWAQ0R79FPdTQd7aOME801JIHnabGxi7Au0r1wwlgupaubeUr2OLJ6yRkmDK9MkQ6ld6wri7auTAf9AHuLekG3shmVJiSsCRTt4Q&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Kahve yanında yerel tatlılarını denemeyi unutmayın."
+    },
+    {
+      "name": "Norm Coffee",
+      "area": "Cihangir",
+      "category": "Kafe",
+      "subcategory": "Specialty Coffee",
+      "tags": [
+        "cihangir",
+        "köpek dostu",
+        "rahat"
+      ],
+      "distanceFromCenter": 2.5,
+      "lat": 41.0318,
+      "lng": 28.9828,
+      "price": "medium",
+      "rating": 4.5,
+      "description": "Norm Coffee, Cihangir sokaklarında keyifli bir mola vermek için harika bir seçenek. Samimi atmosferi, lezzetli kahveleri ve tatlılarıyla gününüze enerji katacak sıcak bir mekan.",
+      "bestTime": "Sabah",
+      "bestFor": [
+        "dijital göçebeler"
+      ],
+      "source": "local",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHrvfwfduuawKPazPXWhXdZ4-dCXHiPA5GW5YyBOEiC1czWjazOGHc0HtU_kyB55JwK3_tnnpLONyI0PmIzQApq--jDX6RMLwS1g5Y9L17rpZDt6nSWUve116kZCIp9kZfs70Vde_uaTnaqtcoVsI-Mt7D2qz_uB4qckD3luq1YstO9fmmT7Ok_J_Q1-rBWgAQ5hdiRm05xaNIbsf2a9h3RjxZvf381SSl8DsI0AVv5oDbDuqBGCV8nd_OL_FxadVs4ynlc6TYNQ-WB5UVex3sWCg5JpaEntO7Y0fZuNRUQV0g&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Kahve yanında yerel tatlılarını denemeyi unutmayın."
+    },
+    {
+      "name": "360 Istanbul",
+      "area": "Beyoğlu",
+      "category": "Bar",
+      "subcategory": "Rooftop",
+      "tags": [
+        "panorama",
+        "club",
+        "ünlü"
+      ],
+      "distanceFromCenter": 2.1,
+      "lat": 41.034,
+      "lng": 28.977,
+      "price": "high",
+      "rating": 4.5,
+      "description": "360 Istanbul, Beyoğlu gece hayatının nabzını tutan, enerjisi yüksek bir mekan. Özel kokteylleri, müziği ve canlı atmosferiyle arkadaşlarınızla keyifli vakit geçirebileceğiniz popüler bir adres.",
+      "bestTime": "Gün batımı",
+      "bestFor": [
+        "gençler"
+      ],
+      "source": "tripadvisor",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHrmnLgchyEuDPlLdeom2UBBs7HwRlY2oIHdFG-TJCbicp_3s0GKxRG-BcLUX0VzbnF14KZXisStqW1DBz4RdOVFLXBTFkIbDIB6VIwm6kLdrtgk0BU8kcTySDwzoah7Ia56O717HGp3HAlTFsz89ULwRU11ep0wsv_UDGfPXLx4sFBrwOwcWgLMlziH2gG7q4CVhX86eZIC6v2ozH8gd6tUF3TciBOcL6P_hsJS6gFt9rU9k6eYL8VPPxniEKp5Yg48W_Jj6fuLsqUP3IHQ53BoEHm43yNn1DUkrStGAMtn6JhmPMWmi7Rkicbi9QvwmdVwlqTAZ2VpbcBGR48U173HZmjFA47Z5NdoXWohnHWdjxSG0egm3YEcCi-rOoj7-G5frkCSfyI4JccYW_fa_pgMDrbu192yX65JlF32jcF0ZGs&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Happy Hour saatlerini (genelde 17:00-20:00) yakalamaya çalışın."
+    },
+    {
+      "name": "Mikla Bar",
+      "area": "Beyoğlu",
+      "category": "Bar",
+      "subcategory": "Rooftop",
+      "tags": [
+        "şık",
+        "manzara",
+        "kokteyl"
+      ],
+      "distanceFromCenter": 2.5,
+      "lat": 41.034,
+      "lng": 28.977,
+      "price": "high",
+      "rating": 4.7,
+      "description": "Mikla Bar, Beyoğlu gece hayatının nabzını tutan, enerjisi yüksek bir mekan. Özel kokteylleri, müziği ve canlı atmosferiyle arkadaşlarınızla keyifli vakit geçirebileceğiniz popüler bir adres.",
+      "bestTime": "Gün batımı",
+      "bestFor": [
+        "çiftler"
+      ],
+      "source": "tripadvisor",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHq8thLNkqD1ELBbGZLUdb3Y82CpxPoc1PfgJAU7bR7kRXyagvl4Da8ZxfYyTCvisPnF48nXJ0Y94svS6crGX0tfiIQ7Rh11GtSwnhmq_YOCrlMIqabcHhsTI5tRn831zdUAnwfFsBqGSRC2ST0Rjgv9eqImN2SLynyTfbB48MXI_lbvC2f2bYcwoptW4UG9-yGrsoKXOaRrUURL5gJ91ANiUKG8Ryvj7Rr9BRje7CM57NDatn6xCs-fMm8gERDvAqeWODaaOZHLREOOMHXRiHaFLVQinBe5EZMigeHhIN2Tw-9DXyPhx5pqKycXY4nmkpXeOe7sNQqKD0juzXRnjos2_Xb7ahEVJMeE9myI3Nc9_nCsTMZ3GEsDBAzd_q1FC3xyyM5FcwE1J1Rzx2PCwdrF0Ksl20aBmTe6AAsGNNfXZSM_&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Happy Hour saatlerini (genelde 17:00-20:00) yakalamaya çalışın."
+    },
+    {
+      "name": "16 Roof",
+      "area": "Beşiktaş",
+      "category": "Bar",
+      "subcategory": "Rooftop",
+      "tags": [
+        "swissotel",
+        "boğaz",
+        "lüks"
+      ],
+      "distanceFromCenter": 4.5,
+      "lat": 41.0415,
+      "lng": 29.0125,
+      "price": "luxury",
+      "rating": 4.6,
+      "description": "16 Roof, Beşiktaş gece hayatının nabzını tutan, enerjisi yüksek bir mekan. Özel kokteylleri, müziği ve canlı atmosferiyle arkadaşlarınızla keyifli vakit geçirebileceğiniz popüler bir adres.",
+      "bestTime": "Gün batımı",
+      "bestFor": [
+        "özel anlar"
+      ],
+      "source": "tripadvisor",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHrAkVPtelwDk-Qqj_pA4RAONqMa7cW0NZQNRrxST5w9hhftdcRdi6P6odRrwTCxx51aymxszaNK7v1hrOoaa4f8Dmf7zY4AMBxS6fBZoWYJsvNRktiQSlnQ4yYRCcPrXWV6A8sFmYJ33OQTAvhjxutxBQUMc4H8PY79wYFEUxYB4Ykyt_fUqmTSWi4btcDfg7qh7ndb0MY3KBtBddAee7yoQCOSqCd7F9KDyXzDNG6v4cmE20wZY9r7P40Vy4c8wzRz8xa1YFBT9gq55E6DHAJTqvH6L6ujwvtzcsidJTW5qA&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Happy Hour saatlerini (genelde 17:00-20:00) yakalamaya çalışın."
+    },
+    {
+      "name": "A'YA Lounge",
+      "area": "Sultanahmet",
+      "category": "Bar",
+      "subcategory": "Rooftop",
+      "tags": [
+        "four seasons",
+        "ayasofya manzarası",
+        "lüks"
+      ],
+      "distanceFromCenter": 0.5,
+      "lat": 41.008,
+      "lng": 28.981,
+      "price": "luxury",
+      "rating": 4.7,
+      "description": "A'YA Lounge, Sultanahmet gece hayatının nabzını tutan, enerjisi yüksek bir mekan. Özel kokteylleri, müziği ve canlı atmosferiyle arkadaşlarınızla keyifli vakit geçirebileceğiniz popüler bir adres.",
+      "bestTime": "Gün batımı",
+      "bestFor": [
+        "özel anlar"
+      ],
+      "source": "tripadvisor",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHqwjxF7ucG41NswL1mkhdb9jHYtXAu_3mxPL5qWu31dsk5R-1206rKmzZrSTloKxL112_gfAXZMLJdlMPFmOzDI-Fjar1kmJK1idHpFBHt20kyoYpyJhW69ilyx4c3OWlj9IDoBt-y7SqgyA5nRZatjxA5IV7GiqRDb2Gj0clhqMnMvK4OXeiR0QMnIQI3xcqS6FCCWXIPhXihFYSFpIHsW9KnM22ohQbRXGGTDeKzusicyKqekCAnjemOXxcIHz7r_eVOTQBSFPjXj_aluw-yd7OL3mtZgBm9WzKE3WjToWPSKFRbANqHOd6mMb_PTOepUYzWsvb21r0zoy9GZD5Rs2zbWqizHh0abZcfXGFzvma6oDccSrj2bH8dMMGlJetMnVWBsEKj92krZ14j39JUn8xvbkT4r1dDL1JwZ9MCkL3NBmolvMViyyX8gq1ZM&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Happy Hour saatlerini (genelde 17:00-20:00) yakalamaya çalışın."
+    },
+    {
+      "name": "Loti Roof Lounge",
+      "area": "Sultanahmet",
+      "category": "Bar",
+      "subcategory": "Rooftop",
+      "tags": [
+        "360 manzara",
+        "tarihi yarımada",
+        "romantik"
+      ],
+      "distanceFromCenter": 0.5,
+      "lat": 41.0075,
+      "lng": 28.9775,
+      "price": "high",
+      "rating": 4.6,
+      "description": "Loti Roof Lounge, Sultanahmet gece hayatının nabzını tutan, enerjisi yüksek bir mekan. Özel kokteylleri, müziği ve canlı atmosferiyle arkadaşlarınızla keyifli vakit geçirebileceğiniz popüler bir adres.",
+      "bestTime": "Gün batımı",
+      "bestFor": [
+        "çiftler"
+      ],
+      "source": "local",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHogxioUA6YxEfMuBrkJxRurtJ1JvBNk7LrzTOphh33EMzSS6je9TiCzYw2jGhSNHEnkTti54DvSwFabNALM4vKwnrgSVKj55iCsVCzrRtyi8c_XIP1vm4Oogb6_pSoH2BeBPkDlldUllXROFo5-x-wcGL3RC-qRgHOJgI5nQyfqTAw9yoVWMTrF60V4ygcI-0h8jsT-SPax-urM5jCwn-VZxFLsR3prsvLDCoNck2QkjZpXRi0tJa3Jn5dyOnefkmZ21jyYhWzUPSVExSC6aQ9Ykc4Q5TjPy0z-VPeaJtYo8A&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Happy Hour saatlerini (genelde 17:00-20:00) yakalamaya çalışın."
+    },
+    {
+      "name": "Balkon",
+      "area": "Beyoğlu",
+      "category": "Bar",
+      "subcategory": "Rooftop",
+      "tags": [
+        "canlı müzik",
+        "casual",
+        "uygun fiyat"
+      ],
+      "distanceFromCenter": 2.3,
+      "lat": 41.033,
+      "lng": 28.9762,
+      "price": "medium",
+      "rating": 4.4,
+      "description": "Balkon, Beyoğlu gece hayatının nabzını tutan, enerjisi yüksek bir mekan. Özel kokteylleri, müziği ve canlı atmosferiyle arkadaşlarınızla keyifli vakit geçirebileceğiniz popüler bir adres.",
+      "bestTime": "Akşam",
+      "bestFor": [
+        "gençler"
+      ],
+      "source": "local",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHqh_C98e45pUFwB2I1O6bTnCdLUHheKBgvZweb83HnAsUFyRNNluwdD58dxOyu-WMW_wbs7YhqtoU7QKNO60jAAbsARDZ6aBMd-7U17I5GpF7hGLqF6a6tuzm4jNdAe3nMA484Pj_-ix8aV16qhLGdR5JxWUeOFjPs2-2NExHos94f_naGV8HJzECmkh4rq7U95y4hEuTJvTXwk1MtO5RgPPUzxUDcgRZVZpKk9hOn1AsywWJbPNoTxig673KieX8hPFyV50fg0DXnitkN-llxcLl-73rNpCunwHPqZ_6u3zLS1VHwyTYBNlRvM8vCJ8rv6YFb8ueJpiYYC_baS_VRh4LpHrze_9WloX70B1Rb_H-SS0KARZHBLe9XfCLA_yLHtyg6GwwdSXp4nYaRG1_gRnfUrWJ87rGE-rTzQAq5qht8&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Happy Hour saatlerini (genelde 17:00-20:00) yakalamaya çalışın."
+    },
+    {
+      "name": "Monkey İstanbul",
+      "area": "Şişhane",
+      "category": "Bar",
+      "subcategory": "Casual",
+      "tags": [
+        "DJ",
+        "rahat",
+        "eğlenceli"
+      ],
+      "distanceFromCenter": 2.3,
+      "lat": 41.0295,
+      "lng": 28.9715,
+      "price": "medium",
+      "rating": 4.3,
+      "description": "Monkey İstanbul, Şişhane gece hayatının nabzını tutan, enerjisi yüksek bir mekan. Özel kokteylleri, müziği ve canlı atmosferiyle arkadaşlarınızla keyifli vakit geçirebileceğiniz popüler bir adres.",
+      "bestTime": "Gece",
+      "bestFor": [
+        "gençler"
+      ],
+      "source": "local",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHr0zz-1A_wYrKuzN3_bn3l5D6xgI_BAbwQIltkAQSIqpe9l2SsPfdOMJgeWy3gR8_P_5EOHufEIa8y5V352U0aZ_BRptlOi2N9KEJviE70d8NA3dTHrzmlJrOyzel39BrvHVUCcdt6Uc26VCxCrzTdn4mK1SjaLLUsrAhGEPIjLJsNJ7jZ7fEhGbd1KecX7GQdoGZ8CrfL_s3pzENJ_YOCnxZy0XYBgGtGI3revKZ8KMf13mIiuyc3-Nk6aiLliFMKsONgRys1inCrw0awh87T9NrMnZygvIcq3M1_pzFeKBg&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Happy Hour saatlerini (genelde 17:00-20:00) yakalamaya çalışın."
+    },
+    {
+      "name": "Pierre Loti Tepesi",
+      "area": "Eyüp",
+      "category": "Manzara",
+      "subcategory": "Tepe",
+      "tags": [
+        "haliç",
+        "çay bahçesi",
+        "teleferik"
+      ],
+      "distanceFromCenter": 5.0,
+      "lat": 41.0493,
+      "lng": 28.9344,
+      "price": "low",
+      "rating": 4.7,
+      "description": "Pierre Loti Tepesi, şehrin en etkileyici manzaralarından birine ev sahipliği yapıyor. Özellikle gün batımında sunduğu görsel şölen ve Eyüp bölgesine hakim konumuyla fotoğraf tutkunları için vazgeçilmez bir nokta.",
+      "bestTime": "Gün batımı",
+      "bestFor": [
+        "çiftler"
+      ],
+      "source": "local",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHpjsU9VRYmCxveLStZjIc6zOggmjy6FACTQIj21OR5ZtSr-zlmy2N3p5q4ZUtWIVOdkUBhkMsmnQlR0ZbIw_SCVHuNJL5zMIDtcFDIsDzmifxiqaeol1nyoxjAlMdeTmA0ZldGzVhoAMzFALF6Y1TQb-N7kW7AMlbrvsnYz2K1SNfSM-fIk3_0DUA6B94FvC1IrBewUtfFhvKIAkGCAAwAZhMhxMrMENwqWwtupZI4UhGFTUmIkLHTqj1T4z0tv14YLjFVfnStpr8WSHaBRIF6VtsqnBJ5v0w5_QeAKiymvCB50bvVK7AFNPZYTYUAkdaThAs1rHxRYu-_y4mubInAlRilqB_ECnjOy4tv3bmI40fraBEAHTjWx61cVLUkzlGauw1fqr1Xi0Ss85_tjpB16aCkJAFz7YpDPT4KBO7WV8p3KR00muNhFeQyhUYBf&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Gün batımında gitmek için ideal bir nokta. Fotoğraf makinenizi unutmayın."
+    },
+    {
+      "name": "Büyük Çamlıca Tepesi",
+      "area": "Üsküdar",
+      "category": "Manzara",
+      "subcategory": "Tepe",
+      "tags": [
+        "panorama",
+        "cami",
+        "piknik"
+      ],
+      "distanceFromCenter": 8.0,
+      "lat": 41.0283,
+      "lng": 29.0708,
+      "price": "low",
+      "rating": 4.6,
+      "description": "Büyük Çamlıca Tepesi, şehrin en etkileyici manzaralarından birine ev sahipliği yapıyor. Özellikle gün batımında sunduğu görsel şölen ve Üsküdar bölgesine hakim konumuyla fotoğraf tutkunları için vazgeçilmez bir nokta.",
+      "bestTime": "Gün batımı",
+      "bestFor": [
+        "aileler"
+      ],
+      "source": "local",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHoSwLIIQ_GDfEKSD_6bMW8Ne9p23pxBCCERuB8__b4kpJud4yQV_9SbYY9Hc6DFVuckj_iuzD6Ery85C4WqT7D32-mkl58MAA8Cta6PnVn1R41qDj_A62wjszSvtlHln9jRZ3Jl7sV2Yq0BQSvm0y1o0eNGEE08DuYOedNDv-rZfClmEdLdGE2BMl6cf_Pm2_sADHBe9c3c7cs2MiH0qCzBxD9u71F29_epnSRqLis7ya8gqWgzYu7enYWDM3UeDG9bjQwcEo3CGTgfN8VgVD3aqyC0xsru1NpCsfBYcsqG5juZWWKdqv00hZe315wRsyL4NPMxd0WVwHj4rxPF5Uooyyk07SJNZQa-BfkT0bfgtz7eVQ_G9Q_i_jVFnY9X5850SqZVd5mkPmnB4fZ110vCpxjfCRgsFAi7ac1wvt9WK9Cm&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Gün batımında gitmek için ideal bir nokta. Fotoğraf makinenizi unutmayın."
+    },
+    {
+      "name": "Emirgan Korusu",
+      "area": "Sarıyer",
+      "category": "Park",
+      "subcategory": "Botanik",
+      "tags": [
+        "lale",
+        "piknik",
+        "boğaz"
+      ],
+      "distanceFromCenter": 10.0,
+      "lat": 41.1072,
+      "lng": 29.0544,
+      "price": "low",
+      "rating": 4.8,
+      "description": "Emirgan Korusu, şehir hayatının karmaşasından uzaklaşıp nefes almak isteyenler için Sarıyer bölgesinde yeşil bir vaha. Yürüyüş yolları, dinlenme alanları ve huzurlu atmosferiyle doğayla baş başa kalmak için ideal.",
+      "bestTime": "İlkbahar",
+      "bestFor": [
+        "aileler"
+      ],
+      "source": "local",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHpcxiSXNCrkpPu36l4lBe8Us1_0A_PnDfVUGXCTHdemIA4FhbHgwnsMSx3jyDFIcLYYOwrF5hOqQ2k2w76P1ObCUxDogMHp19kh48Leajex4Q2mwPD096u2DPqaRt893q-z5l3b1t_8MYmng_yoNMj2oqlmjTXFUOudtwvbn6qKj63HnMbYEBEldBP5iMYwrriDJGVZ6e1rw4PrSjGl13OeC_0bfrZ80xyXRf0NIKOsbsTg0oeDyMbfwXUkrPSuSwmsmEde6upZWYePKOvNS0OVDdS-2Alvp5awvXpMaRDbDA9GCaofZsEoiRy6oyxVckgeTQb9QTn2qsB97zQcGvz5_k59QkE-M4DPGyTDH8upH_sspEEpXjptG8rPflZ60Dh-rNQyQ3IYweLtoog6R0tdc8dWHLDx2J5nQidsA5XCAu0&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Hafta içi daha sakin olur. Yanınıza su ve atıştırmalık almayı unutmayın."
+    },
+    {
+      "name": "Belgrad Ormanı",
+      "area": "Sarıyer",
+      "category": "Doğa",
+      "subcategory": "Orman",
+      "tags": [
+        "koşu",
+        "piknik",
+        "doğa"
+      ],
+      "distanceFromCenter": 15.0,
+      "lat": 41.18,
+      "lng": 28.99,
+      "price": "low",
+      "rating": 4.6,
+      "description": "İstanbul'un ciğeri. Koşu ve yürüyüş parkuru.",
+      "bestTime": "Sabah",
+      "bestFor": [
+        "sporcu"
+      ],
+      "source": "local",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHrL3-KszY-hGM2YEveD1R12IkjQBngSx_DGvakF7tz8Ve6PX51izEW03fJrqSF5K602Dsb4eArz63aHEEtCOITvwL8PtY1TCxmOPbKuwzZ2-s0z1CfciHsuUiaAvKPFh0EahGOZp59JgrQwGbY7keZfEGYpzXz_ZyudQ4a80lnQWtD4zSoOa8NlEDJzMc2VnsSML8hdmgxE8VAemALG9hN2W9edGCH2DCSuVH8uZdVPUlfvYrAfSP6XjJnn2rNYl14XTD3ZKcYi2Jre5UN4tkblbythY4johqn4vmrG1NLLco4W0hpdStTexcQA6Bnsy-fe32_N6CsI0pNXy2uIBl4N7gnkSXf6ZRzEGWDpUUVm92UukOSGLJJ10lHC66RDus-aOTvW37oPIhdMwJrwDJiWbNIzP8PEsJQslegp889CgUU&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Yerel halkın favori noktalarından biri, keyfini çıkarın!"
+    },
+    {
+      "name": "Yıldız Parkı",
+      "area": "Beşiktaş",
+      "category": "Park",
+      "subcategory": "Tarihi",
+      "tags": [
+        "osmanlı",
+        "yürüyüş",
+        "huzurlu"
+      ],
+      "distanceFromCenter": 5.0,
+      "lat": 41.0498,
+      "lng": 29.0156,
+      "price": "low",
+      "rating": 4.5,
+      "description": "Yıldız Parkı, şehir hayatının karmaşasından uzaklaşıp nefes almak isteyenler için Beşiktaş bölgesinde yeşil bir vaha. Yürüyüş yolları, dinlenme alanları ve huzurlu atmosferiyle doğayla baş başa kalmak için ideal.",
+      "bestTime": "Sabah",
+      "bestFor": [
+        "aileler"
+      ],
+      "source": "local",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHoLb0M7SrLrKPQcdBMxlm4QcTod_ZDC4jSTjC2YNyhadSG2mqW_UKLtTKq1V-RG9GDb6SuoEqjPNB-F2mUhworLk2TDDXZYHcUFXlUmeeHUzgNiKCZnF5GmjFe94u41aCWepUblHDNF6y4UFToZ1i6rXm4dPg-LjDMWRLWNdsGMxU7AvcTTC4I4QeQy1CUPe-csYE5ygk2Ql-H9QoNvu_JeCe4SsAmHg2YCrWNIVDohQllpYLY8h2Hz1Uy-9G8zMMlhylzTZreIvevQAidD9NbLkvLMorIrOpTGFfvJoPlFNwbPPCdqwg9T2k2RWws3TAF_EP8eT_BzOq7ywX5b9lnTZLL5xQaEOvwt5nzt0eISQMkSo8Hx5s2YZZGRfOqSOnkMi_7Y5D-UEEPU4qoFfhrKkyFpHlR11547snxx0WOryBRn&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Hafta içi daha sakin olur. Yanınıza su ve atıştırmalık almayı unutmayın."
+    },
+    {
+      "name": "İstanbul Modern",
+      "area": "Karaköy",
+      "category": "Müze",
+      "subcategory": "Çağdaş Sanat",
+      "tags": [
+        "modern sanat",
+        "boğaz",
+        "mimari"
+      ],
+      "distanceFromCenter": 2.0,
+      "lat": 41.026,
+      "lng": 28.988,
+      "price": "medium",
+      "rating": 4.6,
+      "description": "İstanbul Modern, zengin koleksiyonu ve etkileyici sergileriyle kültür sanat severlerin uğrak noktası. Karaköy bölgesinde yer alan mekan, ziyaretçilerine ilham verici ve öğretici bir deneyim sunuyor.",
+      "bestTime": "Öğleden sonra",
+      "bestFor": [
+        "sanat severler"
+      ],
+      "source": "tripadvisor",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHouQXFpVI8nX5LHGSlHgRbXfR9XlMGdB_0LGiCw7BqH8Y4B_SKv72VOtAjgzVCGqBD3zS3WczPalBeex-UpjDSTUbbz5VzYkv26BAwMxEmI-1Y2mW242JdISXYlOAAZJDXAPrFjiHvhyk3BMpQUtAkqQohJILob9CRWb3gjbGLFxPBY9sXjXr0EqGULPXf0mS_OKhI0LJuUGZH5j1zzm3Xi102wIQ7fyryzXMgFp2fpuLjGpT2h-HtfCSDHjH04mt2iqzXJhThiuwOK1gujyqkQ2pI_UOG2yhtlKZzVDtSXroF9mvIQlAsAJEjq28Anl42NKOHUnVbSDhIZXP8b185c4eeSUXHLN3Z6nQl1aOsx4FVBJbZ6fX4wl4gCI9hoEl7Itpj-Q_6XTArA4g64qsFpVrOX-T4RQvVgdCWImiQledOX&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Biletinizi önceden online alarak sıra beklemekten kurtulabilirsiniz."
+    },
+    {
+      "name": "Pera Müzesi",
+      "area": "Beyoğlu",
+      "category": "Müze",
+      "subcategory": "Sanat",
+      "tags": [
+        "kaplumbağa terbiyecisi",
+        "osmanlı",
+        "koleksiyon"
+      ],
+      "distanceFromCenter": 2.2,
+      "lat": 41.0336,
+      "lng": 28.9749,
+      "price": "medium",
+      "rating": 4.5,
+      "description": "Pera Müzesi, zengin koleksiyonu ve etkileyici sergileriyle kültür sanat severlerin uğrak noktası. Beyoğlu bölgesinde yer alan mekan, ziyaretçilerine ilham verici ve öğretici bir deneyim sunuyor.",
+      "bestTime": "Öğleden sonra",
+      "bestFor": [
+        "sanat severler"
+      ],
+      "source": "tripadvisor",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHqwITFMFktbDHhV4k6kQj3d-81BtkOAyRtZUJQWu5JLCcb_sVzQhlmEiYWq5vOqqJJRUpmPnN8QVcSiktH2gyev15uCRoMTM0nVug5QR3TXpDJ19BoTrL2mQRD1Gm6CaLF5ynlsfA7Udjz6NJsnkMU1CxaMsgehf6W9Zhk7S3InhD9iuZ4SwygtFIEuWKzUGoaiiRbHpWzY-LeQ_mC0w7vR1WFjDjGAF53N32C0U6tWYnwDDjQMWzJqY9MLEKcjYac7cVoBtmBrHvMgnpUqqtIKyZONMnAuGpPQgGOkhTdujUf-I1a8trh4JYkac0LA1xV2LN7QzD0kU2pOISPcucBJvvYvevmOG9iaMogEpS-KBC4YqhqJk49Jr91NQlJMzlZr0pr2XpEysld0anpBTpEc0PaG_zHUuvrl-n80vCi43cHi&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Biletinizi önceden online alarak sıra beklemekten kurtulabilirsiniz."
+    },
+    {
+      "name": "Rahmi Koç Müzesi",
+      "area": "Haliç",
+      "category": "Müze",
+      "subcategory": "Sanayi",
+      "tags": [
+        "ulaşım",
+        "sanayi",
+        "interaktif"
+      ],
+      "distanceFromCenter": 3.0,
+      "lat": 41.0417,
+      "lng": 28.9512,
+      "price": "medium",
+      "rating": 4.6,
+      "description": "Rahmi Koç Müzesi, zengin koleksiyonu ve etkileyici sergileriyle kültür sanat severlerin uğrak noktası. Haliç bölgesinde yer alan mekan, ziyaretçilerine ilham verici ve öğretici bir deneyim sunuyor.",
+      "bestTime": "Sabah",
+      "bestFor": [
+        "aileler"
+      ],
+      "source": "tripadvisor",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHoy_3sQmZLZRTTeeHIDQodcWBFiqiM96DxNm198q4hkD3f1W49_uGapdd_BZUqOmk-6c09afb2PjhtfdJDOd-kSsjzcK9slSLVuQH2oYmXBaBxI9gUrMAfgdgpu_QOneTLTBU0rG6txYYFNT8grxtRLVlaOWR_55qJfBsmXUYes4t86FqRBBLsPY9sF1n4RsKJwNmf8wyoFarx-VbO_ZKpgrnmAnNqH83l1lSjdsmHjJqSmWExXxCTeLzIGwi2xslSJ8rh7LSF9EPZteDm7wQta5Ca5TzMmKzvS2yadI-u-ALh2iyiaUiCOQFOJFQwtkP-M_T_Bu_E1zZ9-21CnkOPic6wS_1Dkgw3otC-szrve2uEs1-KLkjQiXYqQU0_XG1G-S0J9nR3dR5EYgwhmPYfuVcl9yyRtV3zdVd6AjH9RPc4Nhg14cWMzTbzzHw&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Biletinizi önceden online alarak sıra beklemekten kurtulabilirsiniz."
+    },
+    {
+      "name": "Miniatürk",
+      "area": "Sütlüce",
+      "category": "Aktivite",
+      "subcategory": "Tema Park",
+      "tags": [
+        "maketler",
+        "çocuklar",
+        "tarih"
+      ],
+      "distanceFromCenter": 5.0,
+      "lat": 41.0575,
+      "lng": 28.9489,
+      "price": "medium",
+      "rating": 4.4,
+      "description": "Türkiye'nin tarihi yapıları minyatür halde.",
+      "bestTime": "Öğleden sonra",
+      "bestFor": [
+        "aileler"
+      ],
+      "source": "tripadvisor",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHrTYZLuK9kQrTH-mopwpA0p37x8d2O1RlgWIVFs53_Dt7JBE_Svx8ZtvhAbS59-Wlp5RHE1gfSS4ct9ZIC9-UdOHeedIufTpiooKQXNQ-Qpd7AawUmTiLUPVEq77qP5XqxejbI0_VHHqVdHzVVD5oWOx8E9roRyoJ3dOxWwec9n6GQ_gL9Un5zeaN6S3FNYttTmvR5gy2aap6LuyKzckLjj-lmYYm-sEQNRjuONvo0QBPeKoYhO3tATOS-xJOljD4oOcG1saiJZo13zHOdBzKQDSoki7ucwIZ-6E7UE5NY2W-tsF6aBqKS74lYF5S30dGtTTj64eUYxRnsz4VGpEYX-27zXWsY0H_pRIf7gsviQKHEOHDndVZqPU3cxHJieI1Z3mWekNsJcL_CmTQiBq-jLlpFTE3h_2wgp1HAqdxLpNCkF&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Yerel halkın favori noktalarından biri, keyfini çıkarın!"
+    },
+    {
+      "name": "Adalar (Büyükada)",
+      "area": "Adalar",
+      "category": "Gezi",
+      "subcategory": "Günübirlik",
+      "tags": [
+        "ada",
+        "fayton",
+        "bisiklet"
+      ],
+      "distanceFromCenter": 18.0,
+      "lat": 40.858,
+      "lng": 29.1191,
+      "price": "medium",
+      "rating": 4.7,
+      "description": "Arabsız ada. Fayton, bisiklet, doğa.",
+      "bestTime": "Hafta içi",
+      "bestFor": [
+        "herkes"
+      ],
+      "source": "tripadvisor",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHofhhQsEbJ3SvP8_nh50kSj_uQLosZzb9rnZ_4RPUHFFBYzdtmNqssF7Avh6SeSQN0A18UEUWyg9hppNHGQnYHZwlXGFnfvR8h3_Y0VRa8LFUAhJvDW2LobE0GYvW7keqXAN3voM-h6Pk618DHqmmtqcLWz6ExbWOVsJTLUFlXrhuM0HjFjcY1icWAopXQbSegqH-nKj40r9yE2TQafTiT6Az8B0oY72FBSflmmfNI2_PRp-ExzSE5wGEygKOieJH0CFZFvsPJkxfEJmGGcGTPYVuaVa6Vg4t_CD2f8OfAbz7IXiMr4wPwkQbt2DINmun7kLeV3pmDpYp6wHWXcEJe8hsjbV3spU63pUboxf7yO1rnL52CXj-cfgCVOJYgxQ3nvTOFxLCOgfXWKi1ViP86Dy38rvBi2zlIDEOFzBo1oQaA&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Yerel halkın favori noktalarından biri, keyfini çıkarın!"
+    },
+    {
+      "name": "Karadeniz Sahili Yürüyüşü",
+      "area": "Sarıyer",
+      "category": "Aktivite",
+      "subcategory": "Yürüyüş",
+      "tags": [
+        "boğaz",
+        "doğa",
+        "manzara"
+      ],
+      "distanceFromCenter": 15.0,
+      "lat": 41.17,
+      "lng": 29.06,
+      "price": "low",
+      "rating": 4.5,
+      "description": "Boğaz'dan Karadeniz'e yürüyüş.",
+      "bestTime": "Sabah",
+      "bestFor": [
+        "sporcu"
+      ],
+      "source": "local",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHplv7zbH3I-jxNBQYP82xUoQRZYBUZjbLqv52RCi8muPOQvT8ewcffxGkOujSRthJ8ikxjgwkwXWyQJEc4sye3UmqE81mbw6kc9oQeX0a1BUmZtVKkHmBQIa1y0k7yQRNC5Pr_NPdSjEZhpz43Wxiq_jWhh6CdTnKXoZ10lCg47CC78l4Ffpk3PM_XA8fCZtsh70yJRjL2kawiqXwx7kRkVDGxOe-zd3di4Mf2KQ1klTSrZg2TAafYNRCz7twBCEYPdp8OWjuvmOhvIl8q7fI0v1PYUwFJCriuI9FBxeioMODE48isgFjqnHrpgPPoH8Az8QaXxICcgIiSZwDlluY8C3fEJCP4tSNp5YG7dpV7SW43xHAC2kJyK1oLBP5mkS-o5so35Xe3YuJ8YqKWNGXfDujp5C1bjgqrcmZaGnt_XUQ&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Yerel halkın favori noktalarından biri, keyfini çıkarın!"
+    },
+    {
+      "name": "Türk Hamamı Deneyimi",
+      "area": "Sultanahmet",
+      "category": "Aktivite",
+      "subcategory": "Hamam",
+      "tags": [
+        "geleneksel",
+        "spa",
+        "kültür"
+      ],
+      "distanceFromCenter": 0.5,
+      "lat": 41.007,
+      "lng": 28.976,
+      "price": "high",
+      "rating": 4.6,
+      "description": "Geleneksel Osmanlı hamamı deneyimi.",
+      "bestTime": "Öğleden sonra",
+      "bestFor": [
+        "herkes"
+      ],
+      "source": "tripadvisor",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHoKF3ymwzDRBeLvXHkEQ61E2kkOHSG3dyt7FSsesX0asX_3FeTcfYmXKrLNbWyDc9JYxn3LE-NftAwKd5voFF3_r3e_1Oswy-8-M8TkoP4iaqiLInEwIXZy26Es6JM7FZrQsSxs3q0U-aaqvyagVhuwv-i8l2aDvLtFuAmw--heEmmbU8Pmc_XQ_8JmpZLTMYlgzwMceqlwZWewoRB3bFGeCJwMMc1H7P0ifYKNOmmEb_y3z4ya2YqornJswlZFMNC9ORfFVsaixJ39Ji6dljiQzQsJ5EEJa0jYY22cHY6icw&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Yerel halkın favori noktalarından biri, keyfini çıkarın!"
+    },
+    {
+      "name": "Yeldeğirmeni Street Art",
+      "area": "Kadıköy",
+      "category": "Sokak Sanatı",
+      "subcategory": "Mural",
+      "tags": [
+        "graffiti",
+        "alternatif",
+        "fotoğraf"
+      ],
+      "distanceFromCenter": 5.5,
+      "lat": 40.987,
+      "lng": 29.0228,
+      "price": "low",
+      "rating": 4.5,
+      "description": "Kadıköy'ün renkli duvar resimleri.",
+      "bestTime": "Sabah",
+      "bestFor": [
+        "fotoğrafçılar"
+      ],
+      "source": "local",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHregI3SMsz7abimelPQ5_mhqTBTGdaFfYVSvyElA-LKq8v8bysQGxtNQG6IpyBiJZkJJ1HjAxYhsbV6S1C0bLPeeuuCql2H2fOKsOUq2j_2zV9p8nEWPnaBh-UYopzUoRX9jN0mJIcKgS8HhNYgEfcka9kidt7vlZknaymRZrkoRYKmi1cMdtMb7ABYqju2d3udENUpLgKWiY1EmOwTrrRClsA8GJ5sN0SOr7Hv3YQflKNBdkjH2FsJUnEId_QccGjmAdI0XLk59fqO6R8RaGYguGaStRckNpUuS4Y2DetIAn0w0gRy8Fyo3mjdAPl7HvBAG1MIZy7YFZmDxXt7oOPc3GoEmeJqpq9XaSOfKVs7WUAs8nHvzfKuJSPqxz6TLqIxzLM66NDOd4Srh3GAkJ3SuW2SKzJX3Gng6q2xOGM&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Yerel halkın favori noktalarından biri, keyfini çıkarın!"
+    },
+    {
+      "name": "Arasta Çarşısı",
+      "area": "Sultanahmet",
+      "category": "Alışveriş",
+      "subcategory": "Çarşı",
+      "tags": [
+        "hediyelik",
+        "halı",
+        "sakin"
+      ],
+      "distanceFromCenter": 0.3,
+      "lat": 41.005,
+      "lng": 28.9755,
+      "price": "medium",
+      "rating": 4.4,
+      "description": "Arasta Çarşısı, Sultanahmet bölgesinde alışveriş tutkunları için çeşitli seçenekler sunuyor. Yerel tasarımlardan popüler markalara kadar aradığınız pek çok şeyi bulabileceğiniz canlı bir nokta.",
+      "bestTime": "Sabah",
+      "bestFor": [
+        "alışveriş severler"
+      ],
+      "source": "local",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHrJu5R7qGj6iQMa4PkfgUmODv4ApK4T_IKhrSMJUF1AK4D_dY75acU4B_4t4Lzx18pvmvMR2AMvRDs1qHerdn5jAKSFzci8Baabe6J3dvf2wa6K4YuXRCBlT-fXtyythV3OvxBZMFre-d09w2d6Hcemc6v4mumAgz8dWhA_Fy5DB7a5uNs1lHze7tab0eL1rdNq3HHg2HAkWoJxAGRxCLwX4BPg4_6iYmimUejYbHR7DQeNdDIqtiDKLjeXOCb2N3L5gjmps77yzi3M-Tc8H0uLqwoiVmWORZ3HkpKHAhQ4ntTEjnW9GsjPTBI9erVQvSbLagBzdraKgraw5dU8afTuorfg6bub4zjf4DaLzk1kDL6rcjV1yJlQycAXfsirt48eHhsv1lrzyQnKc5erN4JQy4PW8YnHWZcOu2bgNmP1_NA-rFMVwXzTVnePKhbg&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Yerel butikleri keşfetmek için harika bir bölge."
+    },
+    {
+      "name": "İstanbul Aquarium",
+      "area": "Florya",
+      "category": "Aktivite",
+      "subcategory": "Akvaryum",
+      "tags": [
+        "balık",
+        "çocuklar",
+        "deniz"
+      ],
+      "distanceFromCenter": 12.0,
+      "lat": 40.9802,
+      "lng": 28.7808,
+      "price": "high",
+      "rating": 4.3,
+      "description": "Türkiye'nin en büyük akvaryumu.",
+      "bestTime": "Hafta içi",
+      "bestFor": [
+        "aileler"
+      ],
+      "source": "tripadvisor",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHq35ZcSOQLYqVzro97t2wlVWCkd3GsiG10uggAvQ7f-pFzyTcAk0aBqOx6U30lOZCuSRn9h_C1PEHjPCtGZKguHsmHpgV2_bv4RGpGo1u4l4aed978LlYsaXPbMVmCadYINV_XNsJvKi4uJ-C3UjnvKU_OuGFXFFmTGdNaTUf_AeuWo53fZbp1YYPlsrGdWkS-nOneYNGuPV-bPfI6Y6cVrrniYhs8jgUk_bWljU4FgQWaEtHMdcNzCDmRxzWB-chWisak9XflJIY1RewBXN8k9XsaySWa8jMROKhkj6U3H1A&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Yerel halkın favori noktalarından biri, keyfini çıkarın!"
+    },
+    {
+      "name": "Kadıköy Bar Street",
+      "area": "Kadıköy",
+      "category": "Gece Hayatı",
+      "subcategory": "Barlar Sokağı",
+      "tags": [
+        "bar",
+        "canlı müzik",
+        "gençler"
+      ],
+      "distanceFromCenter": 5.2,
+      "lat": 40.9905,
+      "lng": 29.026,
+      "price": "medium",
+      "rating": 4.4,
+      "description": "Kadıköy'ün bar merkezi. Her tarza bir şey.",
+      "bestTime": "Gece",
+      "bestFor": [
+        "gençler"
+      ],
+      "source": "local",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHpwHHMwIUPUa2q8r8FbYI3b3T_EOmewZbrVRlw_K_Ce9p77ZFZMEBY0ZoEotRp_Jm0jLPaO77L-rXckS7VTdI45JaG3grv51Xjfwof7IKew8JM03A_UwcjoMf9WbQLpzyGQ96cpiuCRaLKQeAW_ersUMZKwCqaHE_R-8oMi7hK1lPW4CIArlMwWMMhPqKzWHV8nYBlzp0lpOwLUEVTqq-MWINpbxT2RuWV83l1N_jH9qVOEIjzt2e6cZc_iaSU9mvmrIe74p7MZkkMy2A7k-XKSNIOftP0aPHWOJ6Jo2LjxpPFUjvB-Ms32y37kPn5v2H8YpT4Pj-PQWIZY2BB_fqXHIIi3eg4yL6WhDNuq57G7UmIv1QcnBt7mq51NgoFhIPl7VwC2EaMqT6JA9okpEOFKf96I2LfTPmArss6Bb-ybUoOC&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Yerel halkın favori noktalarından biri, keyfini çıkarın!"
+    },
+    {
+      "name": "Nevizade Sokak",
+      "area": "Beyoğlu",
+      "category": "Gece Hayatı",
+      "subcategory": "Meyhaneler",
+      "tags": [
+        "meyhane",
+        "meze",
+        "canlı"
+      ],
+      "distanceFromCenter": 2.2,
+      "lat": 41.033,
+      "lng": 28.9762,
+      "price": "medium",
+      "rating": 4.5,
+      "description": "İstanbul'un meyhane sokağı. Canlı atmosfer.",
+      "bestTime": "Akşam",
+      "bestFor": [
+        "yetişkinler"
+      ],
+      "source": "local",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHp-Lqpb-C5iy18j-kykpIO04d76qe6rgn9_SjSN4riHoWn_hoc57Hyyayy7tTq3GqZGMcXhXKQODkgqHN8kXGTXoMMKq97oSa5BIJh4gf0ZW4qfWIEgd5ezdskLmJuYI2x246fHcqd6nwMTqg9RF4u-wxbE-mP4O3ExVYJHUjvCgaBE2MroKsAYAq4sxIRuUgBeLYy--NCgVOv6J_jGkhGneC0bY_v3_7MYYocfmoLhajSqss3zzzi_xK6YjxPnh3Pe0CURmF-AgIxxS7gjjghnM3Qo2lPPbd5We6ap-qAdow7LbAoXgb0vPL61jHGQiqV0PGgf1wf0Xvy6qo8VnFhbj3eg-uFpNFctpuR9gHubUKzztoUaLwX3GmWYxdUvnCxEmNBBuU_jH1W4sYqDq8Rg2YgqAx-R9v2q-rUlwkO5yzg&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Yerel halkın favori noktalarından biri, keyfini çıkarın!"
+    },
+    {
+      "name": "Cihangir",
+      "area": "Beyoğlu",
+      "category": "Mahalle",
+      "subcategory": "Bohem",
+      "tags": [
+        "kafe",
+        "bohem",
+        "manzara"
+      ],
+      "distanceFromCenter": 2.5,
+      "lat": 41.0318,
+      "lng": 28.983,
+      "price": "medium",
+      "rating": 4.5,
+      "description": "Bohem atmosfer. Kafeler, galeri, Boğaz manzarası.",
+      "bestTime": "Öğleden sonra",
+      "bestFor": [
+        "sanat severler"
+      ],
+      "source": "local",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHoIP4mIEA2h06JRbKb1Onr3QTkENN8-KWiXX1ewBDF6SOmwpVYW4B6i4KTfVJ5_9NiN9wN5bXBu4p3jBpLtlcECVebIe6RQW5eZNWOj5OpmuybEBCnY-uYed1XOR1goiPWGU_BAeWx5xzfpc-PJnC0YcwsCuu99ora0t8DAlO89WGlPjMmrn_15QfPiCBspBTX2OZLcRKLlDmiUrcJlwR8vq2cdlhhTyDEpmEhSTVCOlep9VozBYhCr-HfHDHXPsen0FQloAO4c9m7EBGrdQouiQCowTJURunk5oo3fqYAOA6_PcDFBO0WoJ-w5TgAS4RtNUPCCIeT6Fi1i-6PImT8HXAXlt76JF4twrfzqY02DZUCJLplst-_jaJ0My0NVb1H9gQ8Z06IgYnuPP9fl2uq4XaA_Oux8lOLeFSgQl2Saeqg&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Yerel halkın favori noktalarından biri, keyfini çıkarın!"
+    },
+    {
+      "name": "Galataport",
+      "area": "Karaköy",
+      "category": "Alışveriş",
+      "subcategory": "AVM",
+      "tags": [
+        "boğaz",
+        "lüks",
+        "restoran"
+      ],
+      "distanceFromCenter": 2.5,
+      "lat": 41.0228,
+      "lng": 28.983,
+      "price": "high",
+      "rating": 4.4,
+      "description": "Galataport, Karaköy bölgesinde alışveriş tutkunları için çeşitli seçenekler sunuyor. Yerel tasarımlardan popüler markalara kadar aradığınız pek çok şeyi bulabileceğiniz canlı bir nokta.",
+      "bestTime": "Akşam",
+      "bestFor": [
+        "alışveriş severler"
+      ],
+      "source": "local",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHp1UNBdrEGKsI67GPKXnRrGdROOl2jSTJDDwQ-rSf_URpKLcZ6UeP_a9Xk9W2LHfR5dcFxqVF4euVC1RJui8rimfxH36WPaFLbDaBfIgZ2OIgm6WgbZD07TibVHxAoQNthRFE_ZnnmN6UvDQmSGaUT5hG8TvUSMFQlYvidkAGVVj797zgTtZe6EQ1uXCPMwN41rxcx_NORsmh64MVuje5KHwdmrXGz7Sm9ZDIy9cpTekWCJpeyj6qBxGENEFhFg9Tid1Vye1csmmzaltHexhPweHak1jjx4eFJzXOaItGSXra9urWHc0jK-sbAMkyX0FcUwx-YCrE0MZxNdi9M3SsYoMiyMGDL1jy3LVRArcK90Zd_P_QKasZPF-2qmEtmjE1H62mfZUY0YLxWe-MIPZa6seOKDHvt2GnEI0K4GeFXrAJ_V&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Yerel butikleri keşfetmek için harika bir bölge."
+    },
+    {
+      "name": "Eyüp Sultan Camii",
+      "area": "Eyüp",
+      "category": "Tarihi",
+      "subcategory": "Cami",
+      "tags": [
+        "kutsal",
+        "osmanlı",
+        "huzurlu"
+      ],
+      "distanceFromCenter": 5.5,
+      "lat": 41.0477,
+      "lng": 28.9339,
+      "price": "low",
+      "rating": 4.8,
+      "description": "Eyüp Sultan Camii, Eyüp bölgesinin tarihine ışık tutan önemli bir yapı. Geçmişin izlerini günümüze taşıyan mimarisi ve kültürel mirasıyla, tarih meraklıları için keşfedilmeyi bekleyen bir hazine.",
+      "bestTime": "Sabah",
+      "bestFor": [
+        "tarih severler"
+      ],
+      "source": "local",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHpFjwrLtVUHj_GYcu1G53Zx3G2TKTmJQZTT-_PJy7NkEpeeo77HrRK8L2DpO-6CSz3waVhUW4QXB06HlsDPIKmf5iN1ZuocpNLXiWgNRbIj9jlQ6IrUPdwsFwo77VVN2sSycfcMiZ3-49XCS215MyvG3pF0eWmv8HGHEOwrAgXE54-qy0RNJIIrC3zkD4PIA8EVeUXGYmy8mj975O32kQ8WLtFZzSCnylar-tBCYvPgM8e8RUgF2LjFC1nuWoAgtZ6PYCdr_N355ooX5FvZ6tASQl38av-Xb-j0AE8Rk6DuyYBTuPYcnpro_K9MJv2hMltBj3RczhEVF3C85LHp7mOtelkbtBNyVd8u57d0DbQrcdRdjQRxtnNZseygO26F090d9G2JNIOanp3eY0tOABZEt-MeJF52rp0s00Xko-Zue1Y&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Erken saatlerde veya kapanışa yakın giderseniz kalabalıktan kaçınabilirsiniz."
+    },
+    {
+      "name": "Kariye Müzesi",
+      "area": "Edirnekapı",
+      "category": "Müze",
+      "subcategory": "Bizans",
+      "tags": [
+        "mozaik",
+        "fresk",
+        "bizans"
+      ],
+      "distanceFromCenter": 4.0,
+      "lat": 41.0313,
+      "lng": 28.9388,
+      "price": "medium",
+      "rating": 4.7,
+      "description": "Kariye Müzesi, zengin koleksiyonu ve etkileyici sergileriyle kültür sanat severlerin uğrak noktası. Edirnekapı bölgesinde yer alan mekan, ziyaretçilerine ilham verici ve öğretici bir deneyim sunuyor.",
+      "bestTime": "Sabah",
+      "bestFor": [
+        "tarih severler"
+      ],
+      "source": "tripadvisor",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHoCRje6aLidj5T1AdKpwc4wAoluiJEj54jj0eonmk24q3CrAE4buLCAFvwjlp5yU0O8yUZI3gmkjhTt8aFStXGci3wRNRDKKoU2UooF317tivcL49IJFbuMwNTf3aG3d81Mf-0qCNWdLYP7ymlgrwl8JnCFZxYiyZLcVHcwqt93kZ81MRkjCXO-gUa5X4LoexER6CDC-5geL2e99wBYYgtn3x6PHxJiaDtsYOyWZyOEhMtIUwmeWTtd5mO73qdolqduijR6ARQMqOYAqQFBxRTs1VWxWxdH7hTf7NmuB3pYj5RFFmeLAvOiEQRrPAV8Ohm2TWzcD4ZxPowXFopMaWSS9i1SCRvzY9Mb2ytB3L1dipV_Pk9BXFKlukLS4FbkJr4uk2J84t7jwfo2ugMAHwxaTJh3x28C0sGwXmO9UczyhgAb&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Biletinizi önceden online alarak sıra beklemekten kurtulabilirsiniz."
+    },
+    {
+      "name": "Feriköy Antika Pazarı",
+      "area": "Şişli",
+      "category": "Alışveriş",
+      "subcategory": "Bit Pazarı",
+      "tags": [
+        "antika",
+        "vintage",
+        "pazar"
+      ],
+      "distanceFromCenter": 4.0,
+      "lat": 41.0505,
+      "lng": 28.9765,
+      "price": "low",
+      "rating": 4.4,
+      "description": "Feriköy Antika Pazarı, Şişli bölgesinde alışveriş tutkunları için çeşitli seçenekler sunuyor. Yerel tasarımlardan popüler markalara kadar aradığınız pek çok şeyi bulabileceğiniz canlı bir nokta.",
+      "bestTime": "Pazar sabah",
+      "bestFor": [
+        "antika severler"
+      ],
+      "source": "local",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHpOqsjpyLvP3FxpZ64kBwXYKDFERRHgUag3PhIqhDT2Ii-EgOeQgF3uNdNhLSUrvzGps4LwNd9x5_S9lawOYCTbI5lsjd8Lj5mEKPoQYhEeXUZXl94_Oev1-hQ7tPye6Qe0K2RWtKVrnN7X6CLUO1bJd2SHyJzJy4HBsYqt7thQ7KNOpLpUSAb3MtKJ8FU5xQHtlM1VNk8P8QQfSO-5W-Ia9bVjNvuOs1a-v0R_toRd-yzZnsKr7RNWLMXKQj2nl3w6jL7RcvA-8BIkT0TTcX5Mqad8U6UX0Fp84peBD6WcZp_KA6a9-UqioYH-l0dOg34fYR5MIATYRzKUEgIqIunlOTh9cPDiSfSH5pLqfdsCO-XFWe8GTuSnvIv9X6KyDrKhjZ0r1KLfQKiiPwMR4DtF3BE-IaN1vhCIiM9oo1Q&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Yerel butikleri keşfetmek için harika bir bölge."
+    },
+    {
+      "name": "Burger No.7",
+      "area": "Kadıköy",
+      "category": "Restoran",
+      "subcategory": "Burger",
+      "tags": [
+        "burger",
+        "craft",
+        "popüler"
+      ],
+      "distanceFromCenter": 5.3,
+      "lat": 40.9897,
+      "lng": 29.026,
+      "price": "medium",
+      "rating": 4.5,
+      "description": "Burger No.7, Kadıköy bölgesinin en popüler lezzet duraklarından biri. Özenle hazırlanan menüsü, kaliteli hizmeti ve burger mutfağının seçkin örnekleriyle hem göze hem damağa hitap ediyor.",
+      "bestTime": "Akşam",
+      "bestFor": [
+        "gençler"
+      ],
+      "source": "local",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHoQmnJB12hu5897V6XZMsvd3qWM0dn0E8eZ_sBrei1K25z9IjDds0Nijv0WmH9xlDJSfq_YfGVNcTfdtVoo8BVqxYeRmmW5fbPCDUFjtS9FG_Q5B2O8NVcoF2scNIbakaUABzoH3zkvhm_ycykcQ-V9YAijFHeoG7vWlXiJ96GjWjKjez5HYEj9pLFeXSo3oWxYg2exnBHVrQzX64JIx8HdxCojoimSagQpam7zcC3MEVH0c8GHBMccg59hsBKk7ZNZwxwT636UYALE8soBG6d6iwNrjxx_CONkiEFETx_kEL4MRRwl3zk8eZhZU1XKtX8RT_sqPZv_OMWfxiTja4GtlgKhWXu3-6awsxWrT9JLFDT7WWE_B09IHCIYrC4LPb64Yx_pk8pSBLilxAFvOVCoHp2Pon1cLbATfnItEM1kXCKjoPy195rnHMnyoVEc&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Özellikle akşam yemekleri için rezervasyon yaptırmanızı öneririz."
+    },
+    {
+      "name": "Suleymaniye Fatih",
+      "area": "Fatih",
+      "category": "Restoran",
+      "subcategory": "Kebap",
+      "tags": [
+        "kebap",
+        "görsel olarak",
+        "ünlü"
+      ],
+      "distanceFromCenter": 1.5,
+      "lat": 41.016,
+      "lng": 28.9648,
+      "price": "medium",
+      "rating": 4.5,
+      "description": "Suleymaniye Fatih, Fatih bölgesinin en popüler lezzet duraklarından biri. Özenle hazırlanan menüsü, kaliteli hizmeti ve kebap mutfağının seçkin örnekleriyle hem göze hem damağa hitap ediyor.",
+      "bestTime": "Öğle",
+      "bestFor": [
+        "et severler"
+      ],
+      "source": "local",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHq6-UWNLwUlSyEqbTZKXjEtlxcbNG4jUKyq0OT7smSBZmluS6tBg__p-ScQ09tmgt3TbJMMEgBBQmBNqGI0gP8BG5hQMfz5BFnfz2O_Gh6n1Q6S-7pZZznDdwYs0q1iTmbNaZaTu4YkJYdo3plb8gs0v_QktzMuRKx0c_Bu2m7ZHMPeCNt6xfzcw5BpLkwIUVFJTGr5b3khTQncOTOfneveV7M8Q-cA4qjrqYscuLZqbWeo3jjyUjcJedU3n0G_nT8CchJeZuKD0cL9j1QiYa69o47YqUpKZZUopfVx03F_Vaa4_EVx5QFCjGFVRbX4Gbn1XwaZZfojabMGAwEGKodqJvRol7nYpdJqvZhgIXRaauMrRwXXeoUsb81BheaA77P194PY85dk3YOstfjBQkya698OlmrE4zQfOVg_VHSG3mXn&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Özellikle akşam yemekleri için rezervasyon yaptırmanızı öneririz."
+    },
+    {
+      "name": "Ciya Takviye",
+      "area": "Kadıköy",
+      "category": "Restoran",
+      "subcategory": "Anadolu",
+      "tags": [
+        "şifalı",
+        "kahvaltı",
+        "sağlıklı"
+      ],
+      "distanceFromCenter": 5.2,
+      "lat": 40.99,
+      "lng": 29.0245,
+      "price": "medium",
+      "rating": 4.6,
+      "description": "Ciya Takviye, Kadıköy bölgesinin en popüler lezzet duraklarından biri. Özenle hazırlanan menüsü, kaliteli hizmeti ve anadolu mutfağının seçkin örnekleriyle hem göze hem damağa hitap ediyor.",
+      "bestTime": "Kahvaltı",
+      "bestFor": [
+        "sağlık odaklı"
+      ],
+      "source": "local",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHpdG80RrNgrapTTiuBbc3-KfTnGfDQ0qIU-Vk4JjaAWDTfNWNQKpL9_6qr1IO9JQDNnLUlhbuFRkVex-dK_K3m2hO_sY_4ZBRelnte4Nnxbe1pPf70h8sHRDxtwfHCPUz77BOtq1em-iZ-qNZdBbFnxMIzhu5YewFtzKRMsisy9XUoeci2Ltyjue_X-jPHW32hJADe_L8QKhsqyUGQ9VpqzFoG9RrybtPsaRKyX37phNlN2bAQ-VXn1AqsLS0B_uflxeRg5Y8WfTfNwRuYMIMkdLxGrOx0b8s3v03ln2idWa7jeqrbeiXzusXB8xzlqdsVocHHbtkdTNkcqfzcRwsK1MahnW50TOJchG4LcGbaYOMoelHAUktc1z5agB7Tkwo4KcxK-DIggkwYTMWQA59dzIDgKbu1gqflyLwUK1IO9KxXr5dYU-Oma4wc0BwQS&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Özellikle akşam yemekleri için rezervasyon yaptırmanızı öneririz."
+    },
+    {
+      "name": "Karakoy Lokantasi",
+      "area": "Karaköy",
+      "category": "Restoran",
+      "subcategory": "Modern Türk",
+      "tags": [
+        "modern",
+        "şık",
+        "meze"
+      ],
+      "distanceFromCenter": 2.0,
+      "lat": 41.0225,
+      "lng": 28.975,
+      "price": "high",
+      "rating": 4.5,
+      "description": "Karakoy Lokantasi, Karaköy bölgesinin en popüler lezzet duraklarından biri. Özenle hazırlanan menüsü, kaliteli hizmeti ve modern türk mutfağının seçkin örnekleriyle hem göze hem damağa hitap ediyor.",
+      "bestTime": "Akşam",
+      "bestFor": [
+        "çiftler"
+      ],
+      "source": "tripadvisor",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHphNAdYdnaJU6R-uVT6DkNp3aSP2EZjVWO-yBrLkrlEi8o3IPkkfce7VkQxTycfFV_uCZf2xIyI9wLtywntO4aOyk_uf9NQxTJAR4ExeVmY3-ODO4SsVW6x4Ahf1vb9C4MBBjpKaUw3J_5_BN_zax-XS5VUMZwCH8x3he9-zuzmufwiB5SpcWKLuCCvjoO4IvRY6cdzs9hUwnl5LIiwqpa_6FBcTRAJAFjY7r0kviHYE1QVLkaKPyGfvUV7krnTJLtAQeinpaoSCEOSNOlocsI_a2_Qe8qYxB6UyRxagcU5Qw&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Özellikle akşam yemekleri için rezervasyon yaptırmanızı öneririz."
+    },
+    {
+      "name": "Sunset Grill & Bar",
+      "area": "Kuruçeşme",
+      "category": "Restoran",
+      "subcategory": "Fine Dining",
+      "tags": [
+        "boğaz",
+        "akdeniz",
+        "romantik"
+      ],
+      "distanceFromCenter": 6.0,
+      "lat": 41.057,
+      "lng": 29.032,
+      "price": "luxury",
+      "rating": 4.6,
+      "description": "Sunset Grill & Bar, Kuruçeşme bölgesinin en popüler lezzet duraklarından biri. Özenle hazırlanan menüsü, kaliteli hizmeti ve fine dining mutfağının seçkin örnekleriyle hem göze hem damağa hitap ediyor.",
+      "bestTime": "Gün batımı",
+      "bestFor": [
+        "özel anlar"
+      ],
+      "source": "tripadvisor",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHqKw6kBMbB_yiIdhJDCpfloF7-SRJJGJ5PhmnjyJtcIbR2qERlubrjysRAadlPndgpLLOsq0yqzgXUN0OqfefFVe4u3R6SOaYP21XlumaOl6_yyD2WjXRBFRNqOaFuQYTWq79pI2sgjT5rM5jmnOcmE-BSGJDPhkMA5Y6cMfZ6_4VGoOLzG5E4P1Oiznh7rUcgU8JEe3h5MILYIWgtE4I3JRnGB-17JaZIGbBCeh-X0s8WI7a4bYuleBoFpw3B6GKBIS24noEe7A3jth-d4ULcfQI-8P8IFwn2t1AklDQ1MoA&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Özellikle akşam yemekleri için rezervasyon yaptırmanızı öneririz."
+    },
+    {
+      "name": "Walter's Coffee Roastery",
+      "area": "Moda",
+      "category": "Kafe",
+      "subcategory": "Tema Kafe",
+      "tags": [
+        "breaking bad",
+        "tema",
+        "eğlenceli"
+      ],
+      "distanceFromCenter": 6.5,
+      "lat": 40.9785,
+      "lng": 29.025,
+      "price": "medium",
+      "rating": 4.4,
+      "description": "Walter's Coffee Roastery, Moda sokaklarında keyifli bir mola vermek için harika bir seçenek. Samimi atmosferi, lezzetli kahveleri ve tatlılarıyla gününüze enerji katacak sıcak bir mekan.",
+      "bestTime": "Öğleden sonra",
+      "bestFor": [
+        "dizi severler"
+      ],
+      "source": "local",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHr8reoBrMtBdMUFZTrrGm_1wNxyMLMKu-3zVdVExZHt6OKeEbhot98bE3TWQAehi8O1Ys2pyBhx4Jz7q5TWjH9CLUqg-hPB1ZozM3TxQsZTm0UcpW6d8hx-YXHUVh48quQxi27ocHDfhMwCB_ihiIKsNUmzoQTGz3vta9YgUZmTKJr7CkC6KKAQ-tUrCB4CxiUiPjcCJ_yHnaSYE7YK9cUrmbuc1PVm6U7ar7Kf9yorl9yuZKs701EvtcImh_w_eKWhEnKXYu9Sr_9R-ueHJgdL-HykUAJdfkCwNGYRSILSUoATGAfZXkiiSH-UQlePmUUw8QYwuWsE0btDXQ5TFtUUvm_ahXl6Jyp88DfrnU9FLcFW5soxsweYjrFRs3InDYdGiY-xKqHNFh0uVkE46PpbiTHBjHldSaXf9qaET54&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Kahve yanında yerel tatlılarını denemeyi unutmayın."
+    },
+    {
+      "name": "MOC",
+      "area": "Kadıköy",
+      "category": "Kafe",
+      "subcategory": "Specialty Coffee",
+      "tags": [
+        "specialty",
+        "kadıköy",
+        "minimal"
+      ],
+      "distanceFromCenter": 5.0,
+      "lat": 40.987,
+      "lng": 29.0243,
+      "price": "medium",
+      "rating": 4.6,
+      "description": "MOC, Kadıköy sokaklarında keyifli bir mola vermek için harika bir seçenek. Samimi atmosferi, lezzetli kahveleri ve tatlılarıyla gününüze enerji katacak sıcak bir mekan.",
+      "bestTime": "Sabah",
+      "bestFor": [
+        "kahve severler"
+      ],
+      "source": "local",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHrCwMV3xpYOs941fbfQ4m9gfAf-LON4-sEraH6i-BfoQhLC-kYjWwIne-8K4qvdsWDh_Lma8nJeAWQJBNuW1WMlAdsMKyC20PsEWLb8nTif5yD8tXwT8ifi4BQlLUp59X9icsNoboivRiD6u4Y_2c3RGvJZbd14z0nAGUY49l7yKYrmizw9-BKcgO-Xx0vMMinQ3bgqJ_KbUaXImFIXrxTvK_eH2i1wvwnR-GQLrqbQlwoglbQYmQLM9LA3xUK9j_nYmbkNL1jpnksSV1DIfWRjOoxRZzyNs9BDx_FZe-72PxYy3jgX4AxwoalL-VmXoUbqastfD8u44rry9KjvetuxASCMUATTbXOkPYiEFReMXWsLE5eZJwu7ZY9fjfCykcsEd5GgHQ9nm02Y23kwh1LDTifU6Z13ZJR9oqBhDCl4gA&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Kahve yanında yerel tatlılarını denemeyi unutmayın."
+    },
+    {
+      "name": "Üçüncü Dalga Kahvecileri",
+      "area": "Çeşitli",
+      "category": "Kafe",
+      "subcategory": "Specialty Coffee",
+      "tags": [
+        "zincir",
+        "specialty",
+        "yerel"
+      ],
+      "distanceFromCenter": 0,
+      "lat": 41.034,
+      "lng": 28.977,
+      "price": "medium",
+      "rating": 4.5,
+      "description": "Üçüncü Dalga Kahvecileri, Çeşitli sokaklarında keyifli bir mola vermek için harika bir seçenek. Samimi atmosferi, lezzetli kahveleri ve tatlılarıyla gününüze enerji katacak sıcak bir mekan.",
+      "bestTime": "Sabah",
+      "bestFor": [
+        "kahve severler"
+      ],
+      "source": "local",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHp1cy_ypLnbszMsE6gpyeTGmFyoVxglN2H_pSnFFrP6jfgHYeFIKssoIZOAvbYBWoDYGLcTc8_qTH1WWrdxpwjsg6ER-F5-KgBlwsxMB5rs5oklgPBp79b23hChMuqgg-AziV3UCx7qXhOwkmf0tn76OxBebIzqyGFbK5VD8QW7Ms91r-idLMxHJ-6DLnWrXawH1cF68sb24lrgqC2BWwnc1CuckfUNhhhOKCwagKQj20eIoQJcbTdGEkdAqm6L0e1eDz3XlKCjkaRG_qrGfgGFn21XpS1129eP6l-2c-w0Bo5llAWP7di5zCmMlnVu26-VzVgkWCjzNG7LtOxUs2ck78RbIFSp2qsDq6hRaOam-qsql5wRwSws6n-xHDvzi1Qj7QeIwUdoLYMkdsCK64McN2b6P51d6cg4dNg&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Kahve yanında yerel tatlılarını denemeyi unutmayın."
+    },
+    {
+      "name": "Haydarpaşa Garı",
+      "area": "Kadıköy",
+      "category": "Tarihi",
+      "subcategory": "Mimari",
+      "tags": [
+        "gar",
+        "alman mimarisi",
+        "fotoğraf"
+      ],
+      "distanceFromCenter": 5.5,
+      "lat": 40.9967,
+      "lng": 29.0173,
+      "price": "low",
+      "rating": 4.5,
+      "description": "Haydarpaşa Garı, Kadıköy bölgesinin tarihine ışık tutan önemli bir yapı. Geçmişin izlerini günümüze taşıyan mimarisi ve kültürel mirasıyla, tarih meraklıları için keşfedilmeyi bekleyen bir hazine.",
+      "bestTime": "Gün batımı",
+      "bestFor": [
+        "fotoğrafçılar"
+      ],
+      "source": "local",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHoKTJiwUv4NA12ex4-dPCcNWMTzTSolhZKCw7G1wKY5CmX8C6c8-YwvOdsPuqX4FUtAA6ZVV1_Kevk4562NKcBfnD74_xgzjEwZn-KFOlMZwVGfCtn36ICRWPfN26nV5i-uRO9VN-OiDRc6x1lXNY3wW6c96j0NXFaRds7ovl2rpyAx807J6JhBj5MS-bTB-KbDVJNMT6z_zVFeUFfdSFtIwASjPkzklNKycqtyRFKo8coSRAIzero1C1zzCQ1zNb-YonTi9W3cC7QMdrwedqTKogsljvQik8ZQiAfDoQNJMLH9LdMLgyauwXsOjZ1FkR31AuBoo-xLE28JKo8llUUsxlZzZm7xqHkU4qyfhxmA0FJeoQRhBa5LUx0ZF1502fwUDRkn5-x6Lv_lUvQOsFEZMA0dF-lNICt7mOtKICHTTg&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Erken saatlerde veya kapanışa yakın giderseniz kalabalıktan kaçınabilirsiniz."
+    },
+    {
+      "name": "Ortaköy Camii",
+      "area": "Ortaköy",
+      "category": "Tarihi",
+      "subcategory": "Cami",
+      "tags": [
+        "boğaz",
+        "barok",
+        "fotoğrafik"
+      ],
+      "distanceFromCenter": 5.5,
+      "lat": 41.0477,
+      "lng": 29.0275,
+      "price": "low",
+      "rating": 4.7,
+      "description": "Ortaköy Camii, Ortaköy bölgesinin tarihine ışık tutan önemli bir yapı. Geçmişin izlerini günümüze taşıyan mimarisi ve kültürel mirasıyla, tarih meraklıları için keşfedilmeyi bekleyen bir hazine.",
+      "bestTime": "Gün batımı",
+      "bestFor": [
+        "fotoğrafçılar"
+      ],
+      "source": "local",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHq3grGE9X-Donw46Fq-3I9-0EhUuqWNrurUym61J7-XbmmV2iMz6mVgK7LtjYFqhq_KchUnWynKnEGYXYKoruW4J0u_sKo7kxZjYXkaFbZxdU2h0FL5ZAMZ5VCvDZSXaS0JlB3OHA2TejCDxrNm9S9ISDARSJY49JdUjJa6r16Jhc2fIQlS9xwqMXVQtpuhKFlczcixZnuTExzKwLU__OEFDe9ncSJPK3csRS-GuX2jqD4152Q7O-WWxKZ0wTMB5VvIVYnqIc6-Ha6SLlUNzPBsbV1RImDuVKxU7K5HYkIhxpVBxgq2wKcFeMBIMU0-hewEUkyBJA6dahBKN8B-shcWt6LbmeIFnjaA8OWU4tQ-_jwudHzgecgz4Y6s5hraUKA6Yk_5kkxr04ko5PbBhKWeSujt5QDPgo4qecUlyZm2IQ&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Erken saatlerde veya kapanışa yakın giderseniz kalabalıktan kaçınabilirsiniz."
+    },
+    {
+      "name": "Kuzguncuk",
+      "area": "Üsküdar",
+      "category": "Mahalle",
+      "subcategory": "Tarihi",
+      "tags": [
+        "renkli evler",
+        "sakin",
+        "nostaljik"
+      ],
+      "distanceFromCenter": 6.0,
+      "lat": 41.0392,
+      "lng": 29.035,
+      "price": "low",
+      "rating": 4.5,
+      "description": "Film gibi nostaljik mahalle. Renkli evler.",
+      "bestTime": "Öğleden sonra",
+      "bestFor": [
+        "fotoğrafçılar"
+      ],
+      "source": "local",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHoVXqlvdt06Zu-UnPBvi9Orfnh54mjB_bT1w-r5GPFK2tKX0eAFXq1M7PC6LTZs7kTfgMqVIjR0lfC9riw-js8tpcqrQLkh-SCGJ7jMy__rGqbUTtZeYHsAVJ9OozTO4OuQX_1bb6ILVgEayIvoKuHtx7TavS7ZLJAsjuvfSICYAKv-224rgKmwCbdvolBfyxYiNzTNTNm9YHDYVSqACk7UddRt2s2qQ8Q4rl76jM6ehTJoU4Pv8yUuTyL_CwNWvn9SSDDVzl6MtPO4sn-a86xfeV8_wQM1OaYBGyyCXiNfEv3LNvdTeo768FwCUG8Ro2IrXSqNrSVU_WxqtpH9SgO0ju5Cd8HI3QbXz7OuVPR8ZEOkdhjOAQvGzAqE0y9VNDoYRgLrs7tiseAbjiCc7OE_s8fPoGJDu3mOenz5ibRbWg&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Yerel halkın favori noktalarından biri, keyfini çıkarın!"
+    },
+    {
+      "name": "Çukurcuma",
+      "area": "Beyoğlu",
+      "category": "Mahalle",
+      "subcategory": "Antikacılar",
+      "tags": [
+        "antika",
+        "vintage",
+        "bohem"
+      ],
+      "distanceFromCenter": 2.3,
+      "lat": 41.0305,
+      "lng": 28.9792,
+      "price": "medium",
+      "rating": 4.4,
+      "description": "Antikacılar mahallesi. Vintage cennet.",
+      "bestTime": "Öğleden sonra",
+      "bestFor": [
+        "antika severler"
+      ],
+      "source": "local",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHou_uAWDKq0QoAT0cig0k_tJb0chmZktncCQ53Q83sYZsvS0hjtvCtmI9O4K8JS623grxp4ZEDq1W82M1Bl8AVDuk7RFI6VuXyOmcsMnOQFqil8eQAPNCkYcFvCVpQkwpNYu-YDhEMVw8vlqivv4ZV5xC3ogqGi6miSaaNVBQLKgYoLGZdvjZzlUBDlZVd6Jvuxf16VBBPSzAK5HcIBbcfkt1b6nqwCU_5vZ4rRMssEVBFQmA4N4LbdGDBRiDimu-bMG-bHcQF9vfD0jobChu2Vs6zKB5o3FEYW4bAQ8c5tqApj0LA2XOu1XdoOWt_r6TROUA7Jni2zMYo73_kxv7SxgutNGNlw2G3zLVjUo2JpdEvSJUFGe9wW9JnB5yk23HCEkLKpz0ui9CyRddBCGxc2oPmabJzGaGNC6MHMYigKwSn7&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Yerel halkın favori noktalarından biri, keyfini çıkarın!"
+    },
+    {
+      "name": "Deniz Müzesi",
+      "area": "Beşiktaş",
+      "category": "Müze",
+      "subcategory": "Denizcilik",
+      "tags": [
+        "osmanlı donanması",
+        "tarih",
+        "gemi"
+      ],
+      "distanceFromCenter": 4.0,
+      "lat": 41.043,
+      "lng": 29.0055,
+      "price": "medium",
+      "rating": 4.4,
+      "description": "Deniz Müzesi, zengin koleksiyonu ve etkileyici sergileriyle kültür sanat severlerin uğrak noktası. Beşiktaş bölgesinde yer alan mekan, ziyaretçilerine ilham verici ve öğretici bir deneyim sunuyor.",
+      "bestTime": "Sabah",
+      "bestFor": [
+        "tarih severler"
+      ],
+      "source": "local",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHqSoI8PHhAh1e3BuhbzsMekd6feHB-TdZeBX8_v60yEsRmgwi095gcy9a5ux73ZZuwcyIHbhvIfTgF2L9ibHF_K-J1no7XE65oKPTCyz0EMwxrmthuWVOuz4hhRSYILFPs3YlN4b44blTxr3FUaQv3EP5eW_RwxZcsiV8zEfhXptlTepxk6oKjIBMQaLgILVkedgpqdytKj5D8kBkArHv7odfw4DStWv40d5WKKUpk2xj3iP5VSmEidE_am8xkVeGXj_d9KcSWpb1X5XQ7p6sbPCzMG6RqAhxSXkyYbpHJRTwuL97E9-qfXymCOTW81JzI-8D2f7eXi-Sxp7Vr5BQkZ2Fm6VbML65C7dyATxu3BUY7o8wd3LSPNnG8GheoKYRoH6EDF0vgGI6l1cLEZyO0cVUCMEFzMNls7ZNUcz7514agq&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Biletinizi önceden online alarak sıra beklemekten kurtulabilirsiniz."
+    },
+    {
+      "name": "Çırağan Sarayı",
+      "area": "Beşiktaş",
+      "category": "Tarihi",
+      "subcategory": "Saray",
+      "tags": [
+        "osmanlı",
+        "lüks otel",
+        "boğaz"
+      ],
+      "distanceFromCenter": 5.0,
+      "lat": 41.0445,
+      "lng": 29.0115,
+      "price": "low",
+      "rating": 4.6,
+      "description": "Çırağan Sarayı, Beşiktaş bölgesinin tarihine ışık tutan önemli bir yapı. Geçmişin izlerini günümüze taşıyan mimarisi ve kültürel mirasıyla, tarih meraklıları için keşfedilmeyi bekleyen bir hazine.",
+      "bestTime": "Gün batımı",
+      "bestFor": [
+        "fotoğrafçılar"
+      ],
+      "source": "local",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHppUgWEqCvoKSKbNpO0nztZjVJ3idykCB9r5Eg1F39yDkUCa5LzWhfAaJJR9Wr3v9ixOENtbygYUsy1PYgf0bHVKOhCCxNTjR9yFPZ0gAad4MjwylPy-JdFB2ejXjIpLkjq3-umGaDbZkk8DJdYLaUH2o4J2YDj75YuH05LDhAeLGBiM0xga5MwWBByhyW4jyRT8i6I-ftczExCpyh6Hf5mBZvbQb0A8pDlJRQTCyIM1fOVMQFetWZ_5utdtfMIVicsT4KBTsGKB9ldfqfzNf5wdJ38NLllYqK3AJAjswXxfw&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Erken saatlerde veya kapanışa yakın giderseniz kalabalıktan kaçınabilirsiniz."
+    },
+    {
+      "name": "Kahve Dünyası",
+      "area": "Çeşitli",
+      "category": "Kafe",
+      "subcategory": "Zincir",
+      "tags": [
+        "türk kahvesi",
+        "uygun",
+        "yaygın"
+      ],
+      "distanceFromCenter": 0,
+      "lat": 41.02,
+      "lng": 28.98,
+      "price": "low",
+      "rating": 4.3,
+      "description": "Kahve Dünyası, Çeşitli sokaklarında keyifli bir mola vermek için harika bir seçenek. Samimi atmosferi, lezzetli kahveleri ve tatlılarıyla gününüze enerji katacak sıcak bir mekan.",
+      "bestTime": "Her zaman",
+      "bestFor": [
+        "herkes"
+      ],
+      "source": "local",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHq0m0usJFukzfeHMQL6-3KalXN5oCqRdOVRZZGkXT8Fg7qfLSvmewlQz9C_go6H-yg1P0usXnw6rnN5kcTHJAqgGuDB73N5G59ojsJty0NcDpKFAqHVpLhLyYVDzsrdQ9-YkVT0L1mlOmDS4gqsUQ3InFsv_dIc6TzY6j_q_UBNdZnoSd3e6LQNLVFav1g7yVL_v1F7znD-Wlpxe0n_vGdqs4n_ieHuI3CIqavImEK2d61qsb6EkOeSQrLKeCkLzcrUFrP3IVK86NJDq68T_8TbzIvayyTaskDnip_2aR_Isg&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Kahve yanında yerel tatlılarını denemeyi unutmayın."
+    },
+    {
+      "name": "Spago İstanbul",
+      "area": "Harbiye",
+      "category": "Bar",
+      "subcategory": "Rooftop",
+      "tags": [
+        "st regis",
+        "lüks",
+        "kokteyl"
+      ],
+      "distanceFromCenter": 3.5,
+      "lat": 41.0454,
+      "lng": 28.993,
+      "price": "luxury",
+      "rating": 4.6,
+      "description": "Spago İstanbul, Harbiye gece hayatının nabzını tutan, enerjisi yüksek bir mekan. Özel kokteylleri, müziği ve canlı atmosferiyle arkadaşlarınızla keyifli vakit geçirebileceğiniz popüler bir adres.",
+      "bestTime": "Gün batımı",
+      "bestFor": [
+        "özel anlar"
+      ],
+      "source": "tripadvisor",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHpyX3i6W8nhMcvKDJOB9C4cKPowC74puzmYdIYGbpsngIPeyhs1oOYDZmzfWWENJKx52QktykwoiyTbXbVZKzq0caYEX6TrL5yRJ3n84R3uSO6UlgrQkviNCREfVoqDtru1yBjXWKRM5JBKcb1T-nwH4FcAe6NL46hxtcahyYAQG3NkpktuNftIdDNxNZYZKn7bIdfW_UM-QFLnaOvpnl__h-eYPsmiT4d0XYnQQY1WEYCwQL6ce_WgU-sxUksogkUERakNV7iPvdujPQYgQVDyXl_VH2AQ6Ly2scQtXoq99g&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Happy Hour saatlerini (genelde 17:00-20:00) yakalamaya çalışın."
+    },
+    {
+      "name": "Sky Karaköy",
+      "area": "Karaköy",
+      "category": "Bar",
+      "subcategory": "Rooftop",
+      "tags": [
+        "jw marriott",
+        "boğaz",
+        "şık"
+      ],
+      "distanceFromCenter": 2.0,
+      "lat": 41.0225,
+      "lng": 28.976,
+      "price": "high",
+      "rating": 4.5,
+      "description": "Sky Karaköy, Karaköy gece hayatının nabzını tutan, enerjisi yüksek bir mekan. Özel kokteylleri, müziği ve canlı atmosferiyle arkadaşlarınızla keyifli vakit geçirebileceğiniz popüler bir adres.",
+      "bestTime": "Gün batımı",
+      "bestFor": [
+        "çiftler"
+      ],
+      "source": "tripadvisor",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHobFkvp7_g61HxIk011EpomvgEJv1wRnKhtyF5TJundoHg2sj0EoTAWpYTFsDUTPCVi9Y8NGMo1jDToLjacaM-gGdamP_YzdCXQPG-iGKlJikYGCq-wcMqo0d_3Kw5LfCe8qLKcpZpMhuIYjGNCXo6nZswWDs9nO5PNfKRzmIqopEhgd-VXkOq6yLzwf1hS2rs6fIDY1LIxdQGsTOqCPXILYMg2QatlJVLGOHMu_WBO1iosenst5U1SgWbECSpg1V8PdcOZ01O0NNJyCjjg9jma2AbDWHn-FqlFR0rZ1uvrQw&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Happy Hour saatlerini (genelde 17:00-20:00) yakalamaya çalışın."
+    },
+    {
+      "name": "Simone",
+      "area": "Beyoğlu",
+      "category": "Bar",
+      "subcategory": "Rooftop",
+      "tags": [
+        "akdeniz",
+        "panorama",
+        "şık"
+      ],
+      "distanceFromCenter": 2.3,
+      "lat": 41.032,
+      "lng": 28.975,
+      "price": "high",
+      "rating": 4.5,
+      "description": "Simone, Beyoğlu gece hayatının nabzını tutan, enerjisi yüksek bir mekan. Özel kokteylleri, müziği ve canlı atmosferiyle arkadaşlarınızla keyifli vakit geçirebileceğiniz popüler bir adres.",
+      "bestTime": "Gün batımı",
+      "bestFor": [
+        "çiftler"
+      ],
+      "source": "local",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHoeVN5IQB_cH7im_1sgXUTYfy2FOeH2WhsQebcYPfAw-HvD7cEqJ8fbJbmbxMLswlQ5dWjNpDe8wAb31O-3K9jR7X9oQbkGbTEYn_VxzN2XJjm5lYU83jfju5e2_3RhEtOdaZJiCogwnB9Dwv_8KcIz7Iz3EjRglRUv8klhxWxZSK1IV4EXqN2iWck4VhXrfU_3XyFxKiipd3Wbt6KjoCyGGWd-ONMT0IfV_K5F6koZC7aDXgXVc4Uq0LUMSMPExwJkbt_sO2UbVEu1-uYICy5XdRtV7qC2IiCUbge6sAbtQA&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Happy Hour saatlerini (genelde 17:00-20:00) yakalamaya çalışın."
+    }
+  ]
+}

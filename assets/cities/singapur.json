@@ -1,0 +1,114 @@
+{
+  "city": "Singapur",
+  "country": "Singapur",
+  "description": "Asya'nın parlayan yıldızı. Fütüristik mimari ve sokak yemeği cenneti.",
+  "heroImage": "https://images.unsplash.com/photo-1525625293386-3f8f99389edd?w=800",
+  "coordinates": {
+    "lat": 1.3521,
+    "lng": 103.8198
+  },
+  "highlights": [
+    {
+      "name": "Marina Bay Sands",
+      "area": "Marina Bay",
+      "category": "Manzara",
+      "tags": [
+        "ikon"
+      ],
+      "distanceFromCenter": 2.0,
+      "lat": 1.2834,
+      "lng": 103.8607,
+      "price": "high",
+      "rating": 4.8,
+      "description": "Marina Bay Sands, şehrin en etkileyici manzaralarından birine ev sahipliği yapıyor. Özellikle gün batımında sunduğu görsel şölen ve Marina Bay bölgesine hakim konumuyla fotoğraf tutkunları için vazgeçilmez bir nokta.",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHodey02TSIWNerc0U1yDrAoaN2E4DpABzeWMblhjnjXz30SZ5bVPKX7R3NaL9DqWFVxT9wBFRwCcbOZW2q_0y91a6RPNZL3azKtTwpdDjul46P2LrhzZnIbzPsNABXqXBD5_OHqTnPn1S6zyZibO-HoVjKK9O7x8MX2yGEbCFF32psESJz3aVcgs9PjCi36OuOJ3emxQiaKSYgBS78Q-b6IprNsetFlEAsOU3eQp6eADPZf5gColBuylPzln6PMf3Mmge2tyP8Vh0s1svzYFi5heYOKFqpsBlrH1Zh0dL6WRg&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "bestTime": "Gün batımı",
+      "tips": "Gün batımında gitmek için ideal bir nokta. Fotoğraf makinenizi unutmayın."
+    },
+    {
+      "name": "Gardens by the Bay",
+      "area": "Marina Bay",
+      "category": "Park",
+      "tags": [
+        "botanik"
+      ],
+      "distanceFromCenter": 2.5,
+      "lat": 1.2816,
+      "lng": 103.8636,
+      "price": "medium",
+      "rating": 4.9,
+      "description": "Gardens by the Bay, şehir hayatının karmaşasından uzaklaşıp nefes almak isteyenler için Marina Bay bölgesinde yeşil bir vaha. Yürüyüş yolları, dinlenme alanları ve huzurlu atmosferiyle doğayla baş başa kalmak için ideal.",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHp5dq7vvoesjC-_5DCc_Z-X6GrpNZ2nD8ll0Vgcw7MLyKR4cb_hS82uHrUWfSuY1wvOOi1sHM4dzf6VN-gXopvUmnxDRW3HMKbNUmP_5OOibYS6g_qP_UCBs-Xh4GTc0L8kCtNwaf7dPUCnymps2MREk177AxkedVENJHm1UwlolQtVvXNriECwa66R6C29_JNCedDwHtO33_RQ1pQUdVy-Csl15dvXuBgW1qPLjJbWAowGs6RvDfPogStlbRVJoMig27DJr8aUzmbfMmAH1ZZnlc6RnNEeHUVq6e_F7OlLEGNZBT8ZR9E8POdkysjaXuT5YSC6T9wHG-9ZrcYXekwsMNo23UVWQcbudlVQ9-O06w1aja7N8G11mvolelhMQNBSMBS32f908d1hVsjP_wDJ-LzO_ueyKYyJyI2VV0UdR5o&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "bestTime": "Gece 19:45 şov",
+      "tips": "Hafta içi daha sakin olur. Yanınıza su ve atıştırmalık almayı unutmayın."
+    },
+    {
+      "name": "Chinatown",
+      "area": "Chinatown",
+      "category": "Mahalle",
+      "tags": [
+        "kültür"
+      ],
+      "distanceFromCenter": 1.0,
+      "lat": 1.2836,
+      "lng": 103.8442,
+      "price": "low",
+      "rating": 4.5,
+      "description": "Buddha Tooth Relic tapınağı, sokak yemeği.",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHoyVcHaaoZ2_WiO_J96NJ2nTxeWhtNZPLD8rfL-4QA7c35O56TxZVvffpyHziyGiLEsxHL7ku6I00uGYL5imrcuXDIxQAF_e5LWAVvB_Uk30ezM-t9AuxcBlF9nKG0XPRbsFzkwvrFXtWJcaZXNXoAhpRNOA-7tsoI3SlDwylhYyRM7wjein6ExfYravF0feP7lUduQ70lFEOmiRV6oq2IsGvDE22yDcLWZxnqWMhgST7eK8x-LyOt-oDrodxLQeH_hfFGSZ8zz4NmPYvmnylV8tLxnQkXrcTpmLzoppGYnXQ_dA05e6AMrDAwOT_UtaaqdE1rqHdpESaTWXpT4k5vqOYb_pOxdbiumRtPqLsNo7YYvltKSqud8oq1tELgeO_TKSOOfIz2grGu_sFfpsN3y91CRs-kReyqKjlTiiv8UQShl&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "bestTime": "Akşam",
+      "tips": "Yerel halkın favori noktalarından biri, keyfini çıkarın!"
+    },
+    {
+      "name": "Hawker Centers",
+      "area": "Çeşitli",
+      "category": "Yeme-İçme",
+      "tags": [
+        "sokak yemeği"
+      ],
+      "distanceFromCenter": 1.0,
+      "lat": 1.2817,
+      "lng": 103.8474,
+      "price": "low",
+      "rating": 4.8,
+      "description": "UNESCO listesinde! Singapur sokak yemeği kültürü.",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHq31mRZsY2j7Ks8PTtC1SnGFFr6UW3MZtwRlodS-kkDOv3vbuhhGZc_pFwL5OMvQ29Evb6tmoTqjxltxC-kP4X_zHkgUlYMzLFDRkbSTlFR3q_1b_Wd30ja4HYu1RJpmDdNW12i9zjDPFbV9P9TrAXrWsDHtiYpi58JRnY98Cqwr7rmMjDQgACJG4zAD1hIt_sjPYSx9_3XwWAYxq51tDWzRMZVYIyXdsfc5LP2hsHjkM0okFilv-FIkxUlrNOO18UHhz9LU5F4B_fpkfyXAjAR7kmJU8fDAIN4ql32dpAQtmvIv0Ky-phUzQNG0pAxFAGt0mejqiItyoKwRq72ucVo_ch5Zi8Ur7EWUQLOc0VOVudmQc-o1CbspghkwUQCMdhzEIszguCfHO2NdiRPzibBiZxyDYOk9zqaztcOR0aMfQ&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "bestTime": "Öğle veya akşam",
+      "tips": "Yerel halkın favori noktalarından biri, keyfini çıkarın!"
+    },
+    {
+      "name": "Little India",
+      "area": "Little India",
+      "category": "Mahalle",
+      "tags": [
+        "kültür"
+      ],
+      "distanceFromCenter": 2.5,
+      "lat": 1.3066,
+      "lng": 103.8518,
+      "price": "low",
+      "rating": 4.4,
+      "description": "Renkli tapınaklar, baharatlar, Hint kültürü.",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHqc70hyqv8NMXHtHRuOtnAZyrOppQRyoDmZIAJJtUsc9a9U1A1fzMo1noLv4MLyzn7_aYYDYfbWcFCkSPi3eazcog1kN0AaKBWcCnAV7JJTuibfWe0O6d1Iuxi0QMOMhCfiTegbJHjQDZb5MmOnOSv3WlXOI7fQ-fB463mnihbinMNEdnGVJ6UW4NeLbdlUmduupljMQUi0VQGW8BmrJqlsPfs7160dg4UXCyNSLpLMygD4FMtp_KBBTFpy_Rt24Vw7coa7x6kON0W3bWtl7VpCo8U-QPtTRnogOJ569jb036fb8uijQOHQa2047CujcM2DAm7JTJTvZraT5tKWw4BjZ6TOuh8_WgxSYzhuNVv0NIX9X91c207AgCXvk4qk3ReviiNGAk05mce2P6DC77Hu4bjG2Pfv-BrEFlgpQwNIY956&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "bestTime": "Sabah",
+      "tips": "Yerel halkın favori noktalarından biri, keyfini çıkarın!"
+    },
+    {
+      "name": "Sentosa",
+      "area": "Sentosa",
+      "category": "Eğlence",
+      "tags": [
+        "plaj"
+      ],
+      "distanceFromCenter": 5.0,
+      "lat": 1.2494,
+      "lng": 103.8303,
+      "price": "medium",
+      "rating": 4.5,
+      "description": "Sentosa, Sentosa bölgesinde keyifli vakit geçirmek isteyenler için ideal bir durak. Sunduğu aktiviteler ve atmosferiyle ziyaretçilerine unutulmaz anlar yaşatıyor.",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHoPzXVMEfeA72wSARmXDUT3cSj9TTXEAWX31S8VwgjO5AMH0AVjmA3ULqJlerH1_JmCgQzx34OvnhoCeSWepNL4K1CIL61dvCmLsaEz9P7zgPYBYnyViLTVCZbn1AidyN8JrKOxKW5X9DBC-e_gD_9K26nOjTcWAwJxfdGwQQQBt0mboYV_4tGY5pLWhMGXhTGHK8HS4m70WLUrU25fRa7JpQrOzVKRSpnlKRSC7t5IGtnXf1USZavx9_hakafEVDcG9bxYlUPu7UE9ncvlAhLFlPmhF_3sW0y-0kLjLOzRW9UfmDGwT75Q4ky-4mMGNshX2xENZCy3H3izCgufEgqWHcksgSYKNloxCAB1qyQVDlzIX3ahDLGJd2gnZvFQOJd-LNz5gl11RqRDFtr9-BP66u2-5uwsDVPJgjDTRAuuxw&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "bestTime": "Tam gün",
+      "tips": "Etkinlik takvimini önceden kontrol etmenizde fayda var."
+    }
+  ]
+}

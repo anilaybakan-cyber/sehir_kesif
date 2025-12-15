@@ -1,0 +1,15 @@
+{
+  "city": "Londra",
+  "country": "İngiltere",
+  "description": "Kraliyet şehri. Tarih, kültür ve modern yaşam iç içe.",
+  "heroImage": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=800",
+  "coordinates": {"lat": 51.5074, "lng": -0.1278},
+  "highlights": [
+    {"name": "Big Ben & Westminster", "area": "Westminster", "category": "Tarihi", "tags": ["ikon"], "distanceFromCenter": 1.0, "lat": 51.5007, "lng": -0.1246, "price": "low", "rating": 4.8, "description": "Londra'nın sembolü. Parlamento binası ve ikonik saat kulesi.", "imageUrl": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=600", "bestTime": "Gün batımı"},
+    {"name": "Tower Bridge", "area": "Tower Hamlets", "category": "Tarihi", "tags": ["köprü"], "distanceFromCenter": 2.0, "lat": 51.5055, "lng": -0.0754, "price": "medium", "rating": 4.7, "description": "Viktorya dönemi mühendislik harikası. Cam zemin yürüyüşü.", "imageUrl": "https://images.unsplash.com/photo-1580130775562-0ef92da028de?w=600", "bestTime": "Gece"},
+    {"name": "British Museum", "area": "Bloomsbury", "category": "Müze", "tags": ["tarih"], "distanceFromCenter": 1.5, "lat": 51.5194, "lng": -0.1270, "price": "low", "rating": 4.9, "description": "8 milyon eser. Rosetta Taşı, Mısır mumyaları. Ücretsiz!", "imageUrl": "https://images.unsplash.com/photo-1574182245530-967d9b3831af?w=600", "bestTime": "Hafta içi"},
+    {"name": "Buckingham Sarayı", "area": "Westminster", "category": "Tarihi", "tags": ["kraliyet"], "distanceFromCenter": 0.5, "lat": 51.5014, "lng": -0.1419, "price": "medium", "rating": 4.6, "description": "Kraliyet ailesi resmi ikameti. Nöbet değişimi 11:00.", "imageUrl": "https://images.unsplash.com/photo-1596178060671-7a80dc8059ea?w=600", "bestTime": "11:00 nöbet değişimi"},
+    {"name": "Camden Market", "area": "Camden", "category": "Alışveriş", "tags": ["pazar"], "distanceFromCenter": 3.5, "lat": 51.5415, "lng": -0.1462, "price": "low", "rating": 4.6, "description": "Alternatif Londra. Vintage, sokak yemeği, canlı müzik.", "imageUrl": "https://images.unsplash.com/photo-1548354531-c86fb20089c1?w=600", "bestTime": "Hafta sonu"},
+    {"name": "Borough Market", "area": "Southwark", "category": "Yeme-İçme", "tags": ["pazar"], "distanceFromCenter": 1.5, "lat": 51.5055, "lng": -0.0910, "price": "medium", "rating": 4.7, "description": "1000 yıllık gurme pazarı. Taze ürünler, street food.", "imageUrl": "https://images.unsplash.com/photo-1533900298318-6b8da08a523e?w=600", "bestTime": "Hafta içi öğle"}
+  ]
+}

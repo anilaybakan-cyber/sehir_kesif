@@ -1,139 +1,2346 @@
 {
   "city": "Barcelona",
-  "centerCoords": [41.3874, 2.1686],
-
+  "country": "İspanya",
+  "description": "Gaudí'nin şehri, Akdeniz'in incisi. Mimari, plaj ve tapas bir arada.",
+  "heroImage": "https://images.unsplash.com/photo-1583422409516-2895a77efded?w=800",
+  "coordinates": {
+    "lat": 41.3851,
+    "lng": 2.1734
+  },
   "highlights": [
     {
       "name": "Sagrada Familia",
-      "category": "turistik",
-      "price": "high",
-      "distanceFromCenter": 2.1,
-      "tags": ["mimari", "basilica", "sanat", "foto"],
-      "image": "sagrada.jpg",
-      "description": "Gaudí'nin şaheseri, Barcelona'nın ikon yapısı. İç mimarisi ve vitrayları büyüleyicidir.",
       "area": "Eixample",
-      "lat": 41.403629,
-      "lng": 2.174356
+      "category": "Tarihi",
+      "subcategory": "Kilise",
+      "tags": [
+        "gaudi",
+        "kilise",
+        "mimari",
+        "unesco"
+      ],
+      "distanceFromCenter": 2.0,
+      "lat": 41.4036,
+      "lng": 2.1744,
+      "price": "high",
+      "rating": 4.9,
+      "description": "Antoni Gaudí'nin 1882'de devraldığı ve hala yapımı süren dünyaca ünlü bazilika. Gotik ve Art Nouveau tarzlarını birleştiren bu mimari şaheser, her cephesinde İncil'den farklı hikayeleri betimleyen, doğadan esinlenmiş sütunları ve ışık oyunlarıyla büyüleyen bir atmosfere sahip.",
+      "bestTime": "Sabah erken",
+      "bestFor": [
+        "herkes"
+      ],
+      "source": "tripadvisor",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHriQM49XaWbKy1gU4gGoL82S9F_r_6PkTPiblllEbICllhHt9gqzBG9R5977AEVrAKDvvLI6ULMM7HDZ2wu-xiMf80Pi2HwHkBq1xT60JVNgwVU9wLFWiT4JvMYRhgxmSwOb7AVTHLTvTE0M072o7Bgn9QXKJAE2r8QU20QwwjjENRminBgXa7JwSLRshCJIjkXhq4-u2rtx_dXWJqSUjXXWtZvPO1L8kCcwVJ4m9lySy9ISoMjcTIltYZlgx1UEyl7BpAH9kI2S4bxdxmUkq9x7xdcGBdCWFq_yCzvbPFMB4PdntOxEoHHw4QEC3Y9rRs6qMYSqHvUzdPSmDZLyuxLNygIE5kVC2EGcXtS-EmQiSiGESPx635xyBs4KTSqOqQOcuONrnRFuE8OZK3RWLPeZYjJWEG3WoaBfI1edyzlGvNs&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Kulelere çıkmak için biletinizi aylar öncesinden ayırtın."
     },
     {
       "name": "Park Güell",
-      "category": "turistik",
+      "area": "Gràcia",
+      "category": "Park",
+      "subcategory": "Gaudi",
+      "tags": [
+        "gaudi",
+        "mozaik",
+        "manzara"
+      ],
+      "distanceFromCenter": 3.5,
+      "lat": 41.4145,
+      "lng": 2.1527,
       "price": "medium",
-      "distanceFromCenter": 3.4,
-      "tags": ["manzara", "park", "foto", "Gaudi"],
-      "image": "park_guell.jpg",
-      "description": "Şehrin en iyi manzarasına sahip, Gaudí'nin mozaik eserleriyle dolu geniş park.",
-      "area": "Gracia",
-      "lat": 41.414494,
-      "lng": 2.152694
+      "rating": 4.8,
+      "description": "Gaudí'nin en renkli ve hayal gücünü zorlayan eserlerinden biri. Başlangıçta lüks bir konut sitesi olarak planlanan ancak daha sonra halka açık bir parka dönüşen bu alan, organik formları, ünlü mozaik kertenkelesi ve şehri kuş bakışı gören terasıyla masalsı bir deneyim sunuyor.",
+      "bestTime": "Sabah 8:00",
+      "bestFor": [
+        "herkes"
+      ],
+      "source": "tripadvisor",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHqGbf3pN7w390mrUQKtsCx3aq0SlLMOy9kJu_0uBGuasSYn0OH91a4A8WLG5FUVYGk5Xo_8MKJlnfmL1J54k06-wfcAVRBryM2CQNGokzt2FVBzdKKfYAuo2b2eYn8aQlmf2Ka0zkKFC1KLo7GkSFFylYEENNx9HVGGa8lj_re9SsZFdbUjpwzLkYbcswsq760vnWhGbhFzm5l98hc4GBBpMPeq43bKNFIwtiUZaG8B1dfXMb22YwAuFlUS81hbuwfUitzHcaIE6rhJ5agEYS_25D1SmrcF60C7ior2eRKcAyNWZXN63soN2uiH3sbYdhUQepVemFH9CHKmJ44cAAT2hpbYt4IUEfN2ghW22_TQOw6YIRDV34T7PW1c_FIDuA8zx7Fd8YN9n0Nul9iupcjy0f1UPSixdGu0l2X-reWTx-6G&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Ücretsiz bölümleri de var ancak anıtsal bölge için bilet şart."
     },
     {
-      "name": "La Rambla",
-      "category": "turistik",
+      "name": "Gothic Quarter",
+      "area": "Ciutat Vella",
+      "category": "Mahalle",
+      "subcategory": "Tarihi",
+      "tags": [
+        "ortaçağ",
+        "sokak",
+        "mimari"
+      ],
+      "distanceFromCenter": 0.3,
+      "lat": 41.3833,
+      "lng": 2.1761,
       "price": "low",
-      "distanceFromCenter": 0.8,
-      "tags": ["yürüyüş", "merkez", "market"],
-      "image": "rambla.jpg",
-      "description": "Şehrin en ünlü yürüyüş caddesi. Meyve pazarları, sokak sanatçıları ve ara sokaklarda sürprizler.",
-      "area": "El Raval",
-      "lat": 41.381862,
-      "lng": 2.175019
+      "rating": 4.7,
+      "description": "Gothic Quarter, Ciutat Vella bölgesinde yer alan ve ziyaretçilerine Tarihi bir deneyim sunan popüler bir mahalle noktası. Şehrin dokusunu hissetmek için harika bir durak.",
+      "bestTime": "Sabah veya gece",
+      "bestFor": [
+        "herkes"
+      ],
+      "source": "local",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHquxstJjqDgIz70-Dqr5g3zvbuiPFFCjCZfFplN7QHXmXhFdfZCc6HgaTXkTGB52CLFpZU3fYiqby7LBCJv0Edhrb0qEC5Ka5wMezwhjJAj5UoXSvsXSO-gDnWS9kTDeq3HeGVdBqIOUFehb_NTo4bUvyK1oNlayGcefY_c3K11k0HpiAHj39jiFrVZ2SLOWGrqJE4YGiMAKZ2veojfccdS8ZsINcekoUiZqSFZcDv8dYbakUPCWMc_5SvAnVZ1KNW63BEXIWJLzEDUowZWf_zlkaiW7sNOJP-dDkuWlYt4zE1C58CxwHpo3U7Skdu2XsTPkVzDDOlL5NYCgwXB3VeJPZkQG2Z5tEv2yORYY18570nXZT9U3ik4owjFKV6PLnkhknR1eVnrw4SBskTzXfgZHJ6xwf11MMKrFQ37kcgZZtSm&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Dar sokaklarda kaybolun, akşamları atmosfer çok daha büyüleyici."
     },
     {
-      "name": "El Born Mahallesi",
-      "category": "lokal",
+      "name": "Casa Batlló",
+      "area": "Passeig de Gràcia",
+      "category": "Müze",
+      "subcategory": "Gaudi",
+      "tags": [
+        "gaudi",
+        "mimari",
+        "modernizm"
+      ],
+      "distanceFromCenter": 1.2,
+      "lat": 41.3917,
+      "lng": 2.165,
+      "price": "high",
+      "rating": 4.8,
+      "description": "Passeig de Gràcia üzerinde yer alan, 'Kemikler Evi' olarak da bilinen modernizm harikası. Dalgalı cephesi, renkli seramikleri ve ejderha sırtını andıran çatısı, Gaudí'nin doğaya olan tutkusunun en sanatsal dışavurumlarından biridir.",
+      "bestTime": "Gün batımı",
+      "bestFor": [
+        "herkes"
+      ],
+      "source": "tripadvisor",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHrX6V050I0LfTE30mwvIuJ_mbFDtO17_S9okJ-jaiNbk7tR4CeQgMcM-EzBCwmfUNAFvyLUo8CmWhZDsfydbPDOHlFah_Vjb0ZXwNhsY9jODlBXB-s2lcJJrs_Unk3EV9DKv23b9CAHoVk7VOwh2_zkGQX5G1d-ztOGZWIpy4A34xIchHEqYb1zlIY1j7-ZhRQJawt4_qT_ySth66EQj29RmOOETXkuoH576-j75gE3_ssZoLjo_mxrtd2s5q75jCZW2rq-Oo1NlfAoRXVYu6gfHajH_VNeTSYDQJy8TXNntboq2TbA5fGUBWvI8PJ_hZ71pWXDmxXv4-xiSJ5TMjETPjAFNDeOCAcDuQv-PwYQmuLHeMWbtZXZ4AGZ_aDgGQiai5lhU5AJ7vD7CzSIZiv48Go7fM_5IvI&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Akşam ışıklandırmasıyla dışarıdan fotoğraf çekmeyi unutmayın."
+    },
+    {
+      "name": "La Boqueria",
+      "area": "La Rambla",
+      "category": "Yeme-İçme",
+      "subcategory": "Pazar",
+      "tags": [
+        "pazar",
+        "yemek",
+        "taze"
+      ],
+      "distanceFromCenter": 0.5,
+      "lat": 41.3816,
+      "lng": 2.1719,
       "price": "medium",
-      "distanceFromCenter": 1.1,
-      "tags": ["kafe", "kokteyl", "lokal", "tasarım"],
-      "image": "el_born.jpg",
-      "description": "Dar sokaklar, bağımsız butik dükkanlar, şık kokteyl barlar ve harika pastaneler ile dolu lokal bölge.",
-      "area": "El Born",
-      "lat": 41.385022,
-      "lng": 2.183900
+      "rating": 4.6,
+      "description": "La Boqueria, La Rambla bölgesinde yer alan ve ziyaretçilerine Pazar bir deneyim sunan popüler bir yeme-i̇çme noktası. Şehrin dokusunu hissetmek için harika bir durak.",
+      "bestTime": "Sabah 10:00",
+      "bestFor": [
+        "herkes"
+      ],
+      "source": "tripadvisor",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHrYRFgpRf4Fy6yAm2syST8u58ivMNSl47IA0If6Ce3Xicntb0DMOkLzVIA529Xo1FlqwXGVGDgQgVsJnNC5PM_Ph_c8olD4hAPXlXzrwF0aY7xRecIOvIriI7_GO0dSeasqeFt1YJ9L4xdoNqiP_y0pdlsqHYLpIP0gcJuLhF9jq2jwVAD_r47XcdLVJEemwe6oit3TNCY9Uo2EVDZD_cCnXSP7gbHI8_4Y477_wnTKjR_bhQ1trJqgMDrWFNjlq9Z35S9biQ0YtKGLfI1naH0KbGdTUoPZ-YsLNRr4TMReYTO7wRpv2lQiIrWcRDpcYU6uH933a9BtP_42u9ipKqF1kA-eplOqlyodzmgBmk8OlcTCQFYwcsgaNnYPQD8GQ2rHaZVd8f-GSgDxm8tw5kDO5VzIYrVFJyy_9RyyzMwgzZce5eyHJw24uQQt6w&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Sabah erken saatlerde daha taze ürünler bulabilirsiniz."
     },
     {
       "name": "Barceloneta Beach",
-      "category": "chill",
-      "price": "low",
-      "distanceFromCenter": 1.7,
-      "tags": ["plaj", "yürüyüş", "günbatımı", "chill"],
-      "image": "barceloneta.jpg",
-      "description": "Sahil yürüyüşü, plaj barları ve palmiyelerle dolu huzurlu bir bölge.",
       "area": "Barceloneta",
-      "lat": 41.378402,
-      "lng": 2.189540
-    },
-    {
-      "name": "Gracia Mahallesi",
-      "category": "lokal",
+      "category": "Plaj",
+      "subcategory": "Sahil",
+      "tags": [
+        "deniz",
+        "güneş",
+        "spor"
+      ],
+      "distanceFromCenter": 1.5,
+      "lat": 41.3758,
+      "lng": 2.19,
       "price": "low",
-      "distanceFromCenter": 2.0,
-      "tags": ["kafe", "lokal", "bar", "tasarım"],
-      "image": "gracia.jpg",
-      "description": "Gençlerin ve lokal halkın favori bölgesi. Küçük meydanlar, konsept kafeler ve butik barlar ile dolu.",
-      "area": "Gracia",
-      "lat": 41.403130,
-      "lng": 2.158990
+      "rating": 4.5,
+      "description": "Barceloneta Beach, güneşin ve denizin tadını çıkarmak isteyenler için mükemmel bir kaçış noktası. Temiz kumsalı ve ferah atmosferiyle yaz günlerinin vazgeçilmez adresi.",
+      "bestTime": "Sabah veya gün batımı",
+      "bestFor": [
+        "herkes"
+      ],
+      "source": "local",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHosxB-a7sAxAQeZ1tYHdlwLfmRstlHG-UUAXAq9q76eM0AdFDpt_CaczcqqtpBZzooAbDzwRFCzi07qDt_DtlarzrTSTjl30Rv0FefnShgw4fEB0E7GmKW5qzW3N3kItCwHuauRyzlmC4LZbbX9rEaoDY4jGDZLaefHhJcjCl0Pw51BiOBUCie2I_sG3vIPIyRfq6ZsaxN6JdZlfdHXNAyG0V7uIlx3OLqaSUmzxKCEB8JgMBD25McWQcLNt3qcc3OrhLxFAYoH-cKCl5n33ltdrc-VNnmhZUNcLrH0NFEkP2C4kim6nv-niD5eSyw5UDzWZ9H0Sf2yGsNesmikJXWr2opBZjRfgrKv58HobSKPEAPA_WddOkxAniQYiY1XqrKxQN1vZTZ3tlPloaiDcNPMhLzBzhNjujkYotqoLy8KM7qw&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Sabah erken saatlerde deniz daha temiz ve sahil sakin olur."
     },
     {
-      "name": "Bunkers del Carmel",
-      "category": "instagramlik",
-      "price": "free",
-      "distanceFromCenter": 3.8,
-      "tags": ["manzara", "foto", "günbatımı"],
-      "image": "bunkers.jpg",
-      "description": "Barcelona'nın en iyi günbatımı noktası. 360° panoramik şehir manzarası.",
-      "area": "El Carmel",
-      "lat": 41.418282,
-      "lng": 2.161494
-    },
-    {
-      "name": "Passeig de Gracia",
-      "category": "premium",
+      "name": "Casa Milà (La Pedrera)",
+      "area": "Passeig de Gràcia",
+      "category": "Müze",
+      "subcategory": "Gaudi",
+      "tags": [
+        "gaudi",
+        "mimari",
+        "unesco"
+      ],
+      "distanceFromCenter": 1.5,
+      "lat": 41.3954,
+      "lng": 2.1619,
       "price": "high",
-      "distanceFromCenter": 1.0,
-      "tags": ["alışveriş", "lüks", "fine-dining"],
-      "image": "passeig.jpg",
-      "description": "Şehrin lüks caddesi. Tasarım markalar, Michelin yıldızlı restoranlar ve mimari harikalar.",
-      "area": "Eixample",
-      "lat": 41.391020,
-      "lng": 2.165860
+      "rating": 4.7,
+      "description": "Halk arasında 'La Pedrera' (Taş Ocağı) olarak bilinen Casa Milà, Gaudí'nin tamamladığı son sivil yapıdır. Dalgalı taş cephesi ve sürrealist bacalarıyla ünlü terası, mimarlık tarihinin en ikonik yapılarından biri olarak kabul edilir.",
+      "bestTime": "Gece (rooftop)",
+      "bestFor": [
+        "herkes"
+      ],
+      "source": "tripadvisor",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHqHaNzX19BiVY99GWLAjsNXUS7sqDq6CeLrX9IN18bEbMJsRuHC7avogReIkpZpCGe0oIHMgziFh-YnHVLFfp_U9ckuI5qDMIdcVYBpOXErnL85U0YdH8zQfeJHrrjbtblltj3qSNgZwUVc4lVtSCBRT8KpbrY5nFkwoLdH6xbNNiyXRxPL_K1k9Q1i7EEHhEalz673-go8AGtTLI18lbD1wlyK0IM8WERGyyuLL7wNY0rx2mZ4V9Ga34OQNhN4whd7qCnot0m8eP5gZAiKrBujBAZISaa4cksc1jYac64FKxVOyr-6FAMzmNLGbKA7pOlhGY9QMb2DwZLBYYBFHlLYqX0wxOzX1oHvKDw6u24jiTJoqOCnvgnWcrqY_z8qkNP9r2o3HthTgN8yZmuz1qtDpQf9StDwamWeT_i0WTe7kwAqW8lQpyawRZbDGrXC&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Biletinizi önceden online alarak sıra beklemekten kurtulabilirsiniz."
     },
     {
       "name": "Montjuïc",
-      "category": "chill",
-      "price": "free",
-      "distanceFromCenter": 2.5,
-      "tags": ["manzara", "doğa", "müze", "foto"],
-      "image": "montjuic.jpg",
-      "description": "Doğa, müze, park, teleferik… Her şey bir arada. Şehrin en sakin kaçış noktası.",
       "area": "Montjuïc",
-      "lat": 41.363518,
-      "lng": 2.158991
-    },
-    {
-      "name": "W Barcelona (Hotel & Lounge)",
-      "category": "premium",
-      "price": "high",
-      "distanceFromCenter": 1.7,
-      "tags": ["kokteyl", "fine-dining", "manzara"],
-      "image": "w_barcelona.jpg",
-      "description": "Şehrin en ikonik oteli. Sky-barında müthiş kokteyller ve manzara.",
-      "area": "Barceloneta",
-      "lat": 41.368778,
-      "lng": 2.190465
-    },
-    {
-      "name": "Carrer de Blai",
-      "category": "lokal",
+      "category": "Manzara",
+      "subcategory": "Tepe",
+      "tags": [
+        "kale",
+        "manzara",
+        "müze"
+      ],
+      "distanceFromCenter": 2.5,
+      "lat": 41.364,
+      "lng": 2.1577,
       "price": "low",
-      "distanceFromCenter": 2.2,
-      "tags": ["lokal", "tapas", "ucuz"],
-      "image": "blai.jpg",
-      "description": "Lokal tapas cenneti. İnanılmaz fiyat-performans.",
+      "rating": 4.6,
+      "description": "Montjuïc, şehrin en etkileyici manzaralarından birine ev sahipliği yapıyor. Özellikle gün batımında sunduğu görsel şölen ve Montjuïc bölgesine hakim konumuyla fotoğraf tutkunları için vazgeçilmez bir nokta.",
+      "bestTime": "Gün batımı",
+      "bestFor": [
+        "herkes"
+      ],
+      "source": "local",
+      "tips": "Gün batımında gitmek için ideal bir nokta. Fotoğraf makinenizi unutmayın.",
+      "imageUrl": "https://images.unsplash.com/photo-1523531294919-4bcd7c65e216?w=1200"
+    },
+    {
+      "name": "Camp Nou",
+      "area": "Les Corts",
+      "category": "Spor",
+      "subcategory": "Stadyum",
+      "tags": [
+        "futbol",
+        "barcelona",
+        "müze"
+      ],
+      "distanceFromCenter": 4.0,
+      "lat": 41.3809,
+      "lng": 2.1228,
+      "price": "high",
+      "rating": 4.7,
+      "description": "Futbol tutkunlarının mabedi ve FC Barcelona'nın evi. Avrupa'nın en büyük stadyumu olmasının yanı sıra, kulübün tarihini anlatan müzesiyle sporseverler için unutulmaz bir deneyim sunuyor.",
+      "bestTime": "Maç günü",
+      "bestFor": [
+        "futbol severler"
+      ],
+      "source": "tripadvisor",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHqI2Sj-poxIMu3Rdv9pm3QeBQ9VBA6KyZNE24TlCv4zoW7vL5__i2LPs-Y-OMikm1462fZTRp3Xq9Z6AuGBS-uh8tl5ExHrQFXoKpHfdLZSG7GylJB6OdG5jGPg-HYsPgd7-YuBB_mclEKs7qXOiIQ3VM2HEYi4132L6niJfxMSM9oVCBk57m2ooLzp4QxP0ZqhxJ6jIh2fD6sOnu-fhgL4IWopCg2VKs0Lh15eqwoxdRcmj6xlpL8pL9nfMkWfIokm3x5E6lux1QICFqbVtjFlVkrgLuXtJouPWKufuAnKachVsn8MYWxrw7WrPvynkum1d0lvRJXpuTTfap20wRubibvoK6c3JfL1pan2yEK6OjF5DXTb3vqMHKpT1ULogCy10wu3Qdtvg9ccSXKjFx3kyITARaGIod-Jwc1eNhAKlw&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Maç günleri çok kalabalık olur, müze turu için maç olmadığı günleri seçin."
+    },
+    {
+      "name": "Bunkers del Carmel",
+      "area": "Carmel",
+      "category": "Manzara",
+      "subcategory": "Gizli",
+      "tags": [
+        "panorama",
+        "gün batımı",
+        "ücretsiz"
+      ],
+      "distanceFromCenter": 4.5,
+      "lat": 41.4188,
+      "lng": 2.1596,
+      "price": "low",
+      "rating": 4.8,
+      "description": "Bunkers del Carmel, şehrin en etkileyici manzaralarından birine ev sahipliği yapıyor. Özellikle gün batımında sunduğu görsel şölen ve Carmel bölgesine hakim konumuyla fotoğraf tutkunları için vazgeçilmez bir nokta.",
+      "bestTime": "Gün batımı",
+      "bestFor": [
+        "gençler",
+        "çiftler"
+      ],
+      "source": "local",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHoGC6mLtiB4ERyfA8Ba9bwQZPXtn4ZWBwZGrOU4aB_d2cqGaJoV54HjXZRH0odDMXrV0aB1jH5zQ0EaHf3Dl4ESqJVFxcZdDLgA_sAMGRAp40fpQQN5CBfwf8nQ8yHX9agniEEmJGp0gfiRK_n23WwhvyTOie6G_3VwlnPnyz0XSX_nGaRrMTgQMj9vPwF6_RXkdzm0HYOBRksIiejATVe_B3K6rrirOs1vivxtuFrFL9VFmgHW8AP3PgAPqc3Go1gtpaR7yfuOdgrJMaMo4a6Xx9pSFVKrvmjnu7SXOaKnwXfEEfMcksj2y3BpdcD8mRw42so-lJLNlORlAfFd_oqpSdCEe8h5ldsme5OwFObq30vyFj9tFiBnONaLpXVjhXfLt3VEGyhjyNhYO2Q8-sDkUo-LRj5FKdPHcrjXM_eaKP0&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Gün batımında gitmek için ideal bir nokta. Fotoğraf makinenizi unutmayın."
+    },
+    {
+      "name": "Picasso Müzesi",
+      "area": "El Born",
+      "category": "Müze",
+      "subcategory": "Sanat",
+      "tags": [
+        "sanat",
+        "picasso",
+        "koleksiyon"
+      ],
+      "distanceFromCenter": 0.8,
+      "lat": 41.385,
+      "lng": 2.181,
+      "price": "medium",
+      "rating": 4.6,
+      "description": "Ünlü ressam Pablo Picasso'nun erken dönem eserlerine ev sahipliği yapan müze, sanatçının Barcelona ile olan derin bağını gözler önüne seriyor. Beş adet gotik sarayın birleşimiyle oluşan bina, başlı başına bir sanat eseri.",
+      "bestTime": "Perşembe akşam (ücretsiz)",
+      "bestFor": [
+        "sanat severler"
+      ],
+      "source": "tripadvisor",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHqFvRchK4Vxh_RF_1JAUd-knCGejssGMnvcpF3rjzrHPVX2qSfoMTYFez_Z8_l__2HZfY9gsaK2RFhqVxLWNUUb9WyHiBoJT1d8YaIq4yYhoaB43FnR6ZgwuWV1MCCa91YRmP5nuAnM5YnU3IEGpCEPI4aGFQQT4F3P-4kXZ-qh6Nzcixm3upQzv771ixDWx93OROgKxyjxwJktbaE7WjbAkJppPu2QJ2AYi_-LTxJs5HOHX399OiQVHJrQxlI1xHWEmM3Nx1q-8VBe3F4etIJfV-ZDI199vp1nYAJEeBSOCQNb5sS4eLWK48l6BFy1xkCswBsr8LQhAIrBAo4uhgkUoNLbmWAF5HxLtbgG_0O8J88MCoGVuk_korTZowiwVe9rsAeq_MOEVhMSjGG6COVH_lhmycpENwa-gomSlj3bvA&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Perşembe akşamları veya ayın ilk Pazar günü ücretsiz giriş olabilir, kontrol edin."
+    },
+    {
+      "name": "El Born",
+      "area": "Ciutat Vella",
+      "category": "Mahalle",
+      "subcategory": "Trendy",
+      "tags": [
+        "butik",
+        "kafe",
+        "gece hayatı"
+      ],
+      "distanceFromCenter": 0.8,
+      "lat": 41.3847,
+      "lng": 2.1833,
+      "price": "medium",
+      "rating": 4.7,
+      "description": "El Born, Ciutat Vella bölgesinde yer alan ve ziyaretçilerine Trendy bir deneyim sunan popüler bir mahalle noktası. Şehrin dokusunu hissetmek için harika bir durak.",
+      "bestTime": "Akşam",
+      "bestFor": [
+        "gençler"
+      ],
+      "source": "local",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHpDKAlTBiOhGilvqV3AGfMmyeUIoElD7b94crtBxq7SsrIy_h6Im7yE3QogWmHMkmG7T6ye-PvDHcR3HJ4lhjwGOM1g5RLBZF2D-xzrzJw71EmfDNbnO0GLX7rEhFnDuZ4ATzKTvIcV-3q_iF_1ez-p8VkRGTOYQlG1dlQUGKxpVz0VUb9-iHpGc8wLEsWTNWFLbgXbM05pVbKEmBw4RPLTN_sOOPFOcfz9Zipenksf7glWYUtKx9yQ9dg1Wglwca7VctbeBy65ZjbmDkqb4b-AOBR3OyG-5r05a2dcEO5FUaKzunQYAcCmcohUY1-KXODvHgbnhLhJMEyfy-oADPmugL_NKEc3SOV1ypVe4nx_55jj0Pc65I8CHLVbBb_fdp4mhFuS_PZ5FBlJZk0PHNfy44V3RbgRNSt0aGS98BfRZw&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Yerel halkın favori noktalarından biri, keyfini çıkarın!"
+    },
+    {
+      "name": "Parc de la Ciutadella",
+      "area": "Ciutat Vella",
+      "category": "Park",
+      "subcategory": "Şehir Parkı",
+      "tags": [
+        "park",
+        "piknik",
+        "göl"
+      ],
+      "distanceFromCenter": 1.0,
+      "lat": 41.3875,
+      "lng": 2.1873,
+      "price": "low",
+      "rating": 4.5,
+      "description": "Parc de la Ciutadella, şehir hayatının karmaşasından uzaklaşıp nefes almak isteyenler için Ciutat Vella bölgesinde yeşil bir vaha. Yürüyüş yolları, dinlenme alanları ve huzurlu atmosferiyle doğayla baş başa kalmak için ideal.",
+      "bestTime": "Öğleden sonra",
+      "bestFor": [
+        "aileler",
+        "çiftler"
+      ],
+      "source": "local",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHqQ6anNg4ziJlInpduIXNKXpW3JzCulclY5r3UiC4tWWKRrGorIO05NjY-dVN64lVZsMnM_Cs3a2YxB2HyeWPm8FCSBDdbrC8Dy6UIVrfMx7i-96-lFhagZcNXZUjA-_Yaa-UarOMZ4rmkmn5lC-SmprnFjiGZD_MVFx9tq_8iehR88bMB8hLNiMQihPrFoWzD7K7b6l6MleyfIlHW743W_Z8WBE12io7iIlOWEy5XPDw1ByRkhx3Fda-Hgl1CxkgNZ0-OMkXF39YPenekTsHMToFRtQ0qWNjke0zZdRUpFihuhV0MzqnQ98As1uS-15Ud1AFLHfV5TUocqh1tVxEjp-G8rJ1-wiXevi_eiN92aH3UxbfkaZB0f-RlVMsI4Ci5pqTTICOKBGYxSrrXQKEaNGGiXM84heynl5mIoohZQ7w&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Hafta içi daha sakin olur. Yanınıza su ve atıştırmalık almayı unutmayın."
+    },
+    {
+      "name": "Palau de la Música Catalana",
+      "area": "Sant Pere",
+      "category": "Kültür",
+      "subcategory": "Konser Salonu",
+      "tags": [
+        "modernizm",
+        "konser",
+        "mimari"
+      ],
+      "distanceFromCenter": 0.6,
+      "lat": 41.3876,
+      "lng": 2.1753,
+      "price": "medium",
+      "rating": 4.8,
+      "description": "Palau de la Música Catalana, Sant Pere bölgesinde yer alan ve ziyaretçilerine Konser Salonu bir deneyim sunan popüler bir kültür noktası. Şehrin dokusunu hissetmek için harika bir durak.",
+      "bestTime": "Akşam konseri",
+      "bestFor": [
+        "müzik severler"
+      ],
+      "source": "tripadvisor",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHq7bfr_X6EuLiWfPU79te0WbZgKCozQ3HpatAwwBty2dwX_NbcX4ZepZZeg-eCJB0nfQojAAg4VgrWVQBQJ-hVwB0sVTVc9iLw7RR0DapqNu2UzUYpR6W05V4vivvFeSGVHmBBik8245e-7Adx_-3dLgiRiQ6UfusrHI58tJHvGREZie1LsmMM_TnhWY6QtGk_OWU0zZxASUtGRfukoUbRmuwF8paw0P0s_gOSVBwvbaUTrBtDMfQpc8YVM_Eejli8_J9D698k4d4gm7J-zlI32TWFaxfeN8Fe2S3nqToAnjVlhYCTfndvKXAF9O9NZGKgDuACP87xzXgoNxvVEihOjq2_139HmGn5gdGjwmrOtJNSFMowN0R9zfdVQeZkvaYkZ00M2JCpu1P9-B1CG6tMDSGdcuULrA4BsFvXHcPlLg1ZT&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Yerel halkın favori noktalarından biri, keyfini çıkarın!"
+    },
+    {
+      "name": "MNAC",
+      "area": "Montjuïc",
+      "category": "Müze",
+      "subcategory": "Sanat",
+      "tags": [
+        "roman",
+        "gotik",
+        "katalan"
+      ],
+      "distanceFromCenter": 2.5,
+      "lat": 41.3685,
+      "lng": 2.1533,
+      "price": "medium",
+      "rating": 4.6,
+      "description": "MNAC, zengin koleksiyonu ve etkileyici sergileriyle kültür sanat severlerin uğrak noktası. Montjuïc bölgesinde yer alan mekan, ziyaretçilerine ilham verici ve öğretici bir deneyim sunuyor.",
+      "bestTime": "Sabah",
+      "bestFor": [
+        "sanat severler"
+      ],
+      "source": "tripadvisor",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHq-NV44hQtygVwUpDgSvekSrokee66Az8iN4wbly0iGX-DVDtJtt2OjtUEubu1PQ7tId-C9YnhrlXcMxgnOsRDfPIhx8oeadzkF4tBVasgDcFJdNmkAHY6RMYr102AgA_F0QQ2dDm1qh9suhJ8viEvpxVLrlvoQTOyLuvWMQj2FYnS9YoMy5yi0AQyNlpm8rMNOpzYc0DSG9Q4ffu0p2TlKmMj7vjuUZB5X_nGF0zB5wEQmp4Q4NMGjLiEbBfEmOI6f-DYFpsUjfrC6Cx0eP-RoP3UWc3uBdeiYNwwN9Xlo77dbxTLk1g9W1I8BOGTrdoXDrAgRwdHcYmsspE_R5PNLE-HkBioSnDwy9Ar6DrA15x1JwULwo-yM6nY-fre5rrt0GWPjQUSZ98uVN9DJbeMQqWebM57UOomxZEHoR_w&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Biletinizi önceden online alarak sıra beklemekten kurtulabilirsiniz."
+    },
+    {
+      "name": "Fundació Joan Miró",
+      "area": "Montjuïc",
+      "category": "Müze",
+      "subcategory": "Sanat",
+      "tags": [
+        "modern sanat",
+        "miro",
+        "sürrealizm"
+      ],
+      "distanceFromCenter": 2.8,
+      "lat": 41.3687,
+      "lng": 2.1596,
+      "price": "medium",
+      "rating": 4.7,
+      "description": "Fundació Joan Miró, zengin koleksiyonu ve etkileyici sergileriyle kültür sanat severlerin uğrak noktası. Montjuïc bölgesinde yer alan mekan, ziyaretçilerine ilham verici ve öğretici bir deneyim sunuyor.",
+      "bestTime": "Öğleden sonra",
+      "bestFor": [
+        "sanat severler"
+      ],
+      "source": "tripadvisor",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHqON9xXyljq4-l8ez3byqWCdXKJM9yD_lv3f9R23tYER2v1fCPIujRRRdI2Bv5h-rsMK3SLOgkVtkYXlHO_Hy2A2AOIWgIBysr5CbRzEFipue66Adsq_Xx_WBpz_6Al1JY1ozK21jHV7Y8gZ0SNU_p_IQ4ijLGzVpXj3ThDcfx6fgeOAEfkT6QdVFM4NmC5xj5M8vzP1Z_38Hvrkx9YxOxtNngFCUIVSy1VmumZl_6Jxj0gboNZYfw6hfy_u5Fn4Er0Yqry_DL7jdsi04FFkjuD-sPvazACgtHqGdm00PaNo_AUcYsk26TxRfWE_iAro5uOJBOPXItOcx7BCBZuKUxjRVeJhusSmQ9Z4aB66ThD3OnMX6KOW7-Bc_9jpHeT8tGJPdPn4hKXqfZR_ady8dTHr4_0A7tAkwzHErTCQEjrBssR&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Biletinizi önceden online alarak sıra beklemekten kurtulabilirsiniz."
+    },
+    {
+      "name": "Las Ramblas",
+      "area": "Ciutat Vella",
+      "category": "Sokak",
+      "subcategory": "Turistik",
+      "tags": [
+        "yürüyüş",
+        "canlı",
+        "sokak sanatçıları"
+      ],
+      "distanceFromCenter": 0.3,
+      "lat": 41.3797,
+      "lng": 2.1746,
+      "price": "low",
+      "rating": 4.3,
+      "description": "Las Ramblas, Ciutat Vella bölgesinde yer alan ve ziyaretçilerine Turistik bir deneyim sunan popüler bir sokak noktası. Şehrin dokusunu hissetmek için harika bir durak.",
+      "bestTime": "Akşam",
+      "bestFor": [
+        "turistler"
+      ],
+      "source": "tripadvisor",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHo15J6ZEejwCd4cuNx_9QhVi6iLiJsB7nVaRigomRc1GYgHVyQRSAY6dC_dMGJA1tlUBJW97HlBn-BYk6Fw7mEhcH2p8yxFqUcQHbtQ6ff5O6K_mlMw52WuDkEdgw2GbhOwmk-U6bwU8-9G4tLphAtfOpVWIhUFeTXIwiPL4AbOeb4dax-F15g3OrCXz4eQfhbz3Y2cAr2sJ9PQ8osGqwBVhxxR8zrI3KPgENzoVrOC-I3mtX6SJRG-Kw40w1yK_O9RNG81doiY1go0VgjD_eGgQ9tU89ULIVUvCC47kJny-n-FKk4h_po8iFpoWbwkBS8F4U12oHAGnz-6CLQbLPHa9O96G65y-cqKRNOyQ_HodEgtv3apOFgm9sAaZr1z4hZY1HRlTZ3RKYUnZgcnKWzs1snL1bSMaTdJ2tQyOmqBRf7y&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Yerel halkın favori noktalarından biri, keyfini çıkarın!"
+    },
+    {
+      "name": "Tibidabo",
+      "area": "Tibidabo",
+      "category": "Manzara",
+      "subcategory": "Tepe",
+      "tags": [
+        "lunapark",
+        "kilise",
+        "manzara"
+      ],
+      "distanceFromCenter": 7.0,
+      "lat": 41.4225,
+      "lng": 2.1187,
+      "price": "medium",
+      "rating": 4.6,
+      "description": "Tibidabo, şehrin en etkileyici manzaralarından birine ev sahipliği yapıyor. Özellikle gün batımında sunduğu görsel şölen ve Tibidabo bölgesine hakim konumuyla fotoğraf tutkunları için vazgeçilmez bir nokta.",
+      "bestTime": "Gün batımı",
+      "bestFor": [
+        "aileler",
+        "çiftler"
+      ],
+      "source": "local",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHpAAAXCil9cmeJHiEbK2pnJpJtHxzNGxFjhpjMMJwE2ZnWQEVASJlwUfY1kdGZm7E2DgwKHhD0TRUyakI2qZKiwKjAiEdNlGaSmMmXDDCTd8npVAuXEQNNm29ZDOYW9r2m7m6thQOvW7U-HexUJTCVtp00BQYSNNNCcMO5Mc-WW_fBFWByVAA30wzjc0IKOjNXjIw-9WJNxSxGwzvPot2XuYRV2kIQ49-i8Dd68eVh4-jdsoYKvpPcXyX1MGs96eZi5yPdVRHyfQGtX8Wc2VwU-3uWpN_YzzfKXDleqjZ-K_uVEPSVNcUkUTTH-BqjZq--szCN1Ofm0pCPoGQ8YeofRxq5jCnJt1q1ZtFa3k2-g7_9mGWxFvp6XB6PpnGdt4_xcs2Rafw5kGU7BXuwscu0Zu0zRjhzOUTTsp8rZppgEbUoO&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Gün batımında gitmek için ideal bir nokta. Fotoğraf makinenizi unutmayın."
+    },
+    {
+      "name": "Gràcia",
+      "area": "Gràcia",
+      "category": "Mahalle",
+      "subcategory": "Bohem",
+      "tags": [
+        "lokal",
+        "kafe",
+        "meydan"
+      ],
+      "distanceFromCenter": 3.0,
+      "lat": 41.4025,
+      "lng": 2.1565,
+      "price": "low",
+      "rating": 4.7,
+      "description": "Gràcia, Gràcia bölgesinde yer alan ve ziyaretçilerine Bohem bir deneyim sunan popüler bir mahalle noktası. Şehrin dokusunu hissetmek için harika bir durak.",
+      "bestTime": "Akşam",
+      "bestFor": [
+        "gençler",
+        "lokal deneyim"
+      ],
+      "source": "local",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHpG4C-nL8Zdoyy_6PJgrcA1rc9FA8z7VCXbbRWKl6pJsaiFX4FCjDCuZIPHgTOOU6tTMGmk1138ZPX-3DW2haJGz1UjJ3EfXGB9newc63HP5KRREoDsiW3q7yQrz0JZIp1nfeSJ05Rexwd4kWg-KgMyJcGgyaVX0lZ197aW7tkopTBuH0cR7m4xZtKkpk0XAdj307n2YzyavfFLxkBReVbcyDwDCGmKuSd6uG9ggmP6coOfgBCCCDxITsZq3A7FR2CUIhP8XgjkHEDA944awbi4s8Lw3278-BwuAolZg4INggHA0mS53PWaRBBU8-UIAWHwtwQH68ayTkGO0dLwNbYLNzASgpaOjBQ8gcBbF_w9U9qJpbJsFbcv28ssxdMvsgQsXyiXlTHuxZOszqmezA-u4ubYCY6COEuaNBq27JKcJXQ&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Yerel halkın favori noktalarından biri, keyfini çıkarın!"
+    },
+    {
+      "name": "Casa Vicens",
+      "area": "Gràcia",
+      "category": "Müze",
+      "subcategory": "Gaudi",
+      "tags": [
+        "gaudi",
+        "ilk eser",
+        "mimari"
+      ],
+      "distanceFromCenter": 3.2,
+      "lat": 41.4036,
+      "lng": 2.1509,
+      "price": "medium",
+      "rating": 4.5,
+      "description": "Casa Vicens, zengin koleksiyonu ve etkileyici sergileriyle kültür sanat severlerin uğrak noktası. Gràcia bölgesinde yer alan mekan, ziyaretçilerine ilham verici ve öğretici bir deneyim sunuyor.",
+      "bestTime": "Sabah",
+      "bestFor": [
+        "mimari severler"
+      ],
+      "source": "tripadvisor",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHp77HLng6a1UpPMCLyrxtGmaHgJ5Ua0r22awGjwNRxuEc3D_ffMwFDnVZBkiJZ1AoL59q_btFN1zHgFWhFMTxkFd2Z4sJo6jDQxdW4dr2HTxPoM8cQXx7KbyMyDReIVzDtDToVqCE30j8kjY9pXhVYTO1x7jRZBK9YPZQEEn-WmPHnWW0kdD9hhRTmTyhuzZbthsIHpodSxRiTu5y9haq_WhZfPhCf7QP6OzMPW8imPDDvrabawloJS71C1A5XoldzybynLrsIk7656zSCYgT0W5SIYHGaULkyIm2McL5WCbRN4vuk8jdRLz9LkcN8fy6rqJxoOycXJzEtNAMRtdobujGquDWjaU38DR64-PLv1L5cWv6PBqBLBMNPBRGKqB1A77y7L-aVMXxs1MmmOIX5OIg3t8caMK7XhuK1NQXo&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Biletinizi önceden online alarak sıra beklemekten kurtulabilirsiniz."
+    },
+    {
+      "name": "Santa Caterina Market",
+      "area": "El Born",
+      "category": "Yeme-İçme",
+      "subcategory": "Pazar",
+      "tags": [
+        "pazar",
+        "yerel",
+        "renkli çatı"
+      ],
+      "distanceFromCenter": 0.7,
+      "lat": 41.3869,
+      "lng": 2.1799,
+      "price": "medium",
+      "rating": 4.5,
+      "description": "Santa Caterina Market, El Born bölgesinde yer alan ve ziyaretçilerine Pazar bir deneyim sunan popüler bir yeme-i̇çme noktası. Şehrin dokusunu hissetmek için harika bir durak.",
+      "bestTime": "Sabah",
+      "bestFor": [
+        "yemek severler"
+      ],
+      "source": "local",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHp4RrCt46jtVPosPcRGLMoRHzluyWYpusY-FaJe3eufNbBVP1YfW9skmYib1FEeJTrXodQebyp2HI30qTKSZPXBUHkF7QI0qYgkswU2-qxyVX-nBVxlQk6J11qi-9O-jhzZzfMy0FWpXAh-Pb2F8bPV4eIk-sKL-ZOhfSiXzIAHAwoHSBLOh7iVAqjZyiCPqCNiR1S6mqURpkmFQxeL7PWMkgxFveGEdW6Mk4XfwO2KKrzV-w_7InIssuRKwM85psQM-j0K04VeQ3u9iG7D9PjgID7o9G4Pm76dbRPUFyHPz5AJHdtqU2HK7dk6Igkb4ICrhCV1VizpsVy08Lu4DkvM6qywEXEtOnQa0uHke1Xkwt3dN9ywdbYG16XaG9c5wJDeHiMkioEcD8gLtvPQmZ0HQt7LlIb-UEICp5oXfaISwg&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Yerel halkın favori noktalarından biri, keyfini çıkarın!"
+    },
+    {
+      "name": "Parc del Laberint d'Horta",
+      "area": "Horta",
+      "category": "Park",
+      "subcategory": "Bahçe",
+      "tags": [
+        "labirent",
+        "romantik",
+        "gizli"
+      ],
+      "distanceFromCenter": 6.0,
+      "lat": 41.4395,
+      "lng": 2.1463,
+      "price": "low",
+      "rating": 4.7,
+      "description": "Parc del Laberint d'Horta, şehir hayatının karmaşasından uzaklaşıp nefes almak isteyenler için Horta bölgesinde yeşil bir vaha. Yürüyüş yolları, dinlenme alanları ve huzurlu atmosferiyle doğayla baş başa kalmak için ideal.",
+      "bestTime": "Sabah",
+      "bestFor": [
+        "çiftler",
+        "fotoğrafçılar"
+      ],
+      "source": "local",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHrk-8t0HHzSX_kImNASoafljutvTb0xlnGLkusnqtvXBOKdsZeHcamq1kOgovuB4-laL6-usxPF6kZvQp_Gt0HHRAFhlB2TuqPMcLbP-hNClyw1i6AXdMXL452ZHLk-7uke--3Ggwx22STvyPMKU0ukr51Sya5Ku6Xqoz21SXEfCOTaVfQU4RlvcTDbESqHXwB2KNONbcD0KdySFolIJH0Gi8gXOPqcXfA9k3vzS-Q1Y0OqtAUy08Pc9_VGb-0PqY1jSI7hRhdz35UBBgDM5vNKBhEWyz5fVUmL_60dPjsZ_mwIvSscKQysp2nnMKSdi0-2XVlNPbsEMM7A5LpOFDgqhRS7cYu88nYOYRpmag62ZZvTSMYO5m9ZqqSGmvlGNu7GljD4_gbx7aNCkKL01cJVQEmiLjWtSdIWaazizkgzeg&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Hafta içi daha sakin olur. Yanınıza su ve atıştırmalık almayı unutmayın."
+    },
+    {
+      "name": "Poblenou",
+      "area": "Poblenou",
+      "category": "Mahalle",
+      "subcategory": "Yaratıcı",
+      "tags": [
+        "startup",
+        "plaj",
+        "loft"
+      ],
+      "distanceFromCenter": 3.0,
+      "lat": 41.4034,
+      "lng": 2.2043,
+      "price": "low",
+      "rating": 4.5,
+      "description": "Poblenou, Poblenou bölgesinde yer alan ve ziyaretçilerine Yaratıcı bir deneyim sunan popüler bir mahalle noktası. Şehrin dokusunu hissetmek için harika bir durak.",
+      "bestTime": "Öğleden sonra",
+      "bestFor": [
+        "dijital göçebeler"
+      ],
+      "source": "local",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHqHZxdC8jmFRrSx8JOJwrYndwv5CnWBuQaTh6SM8xVNC97h3i3Wa24jiKCE4rKUCdvQ2IJtQRoSTOuEx6awxMgTzWYJOrrzG8yW-_nwrsfZs-Xv78l62nmVVpUh2lEB36I8hpKxCzGFpTlgBgixIp9Nu7n7KlTQjuIERuS89hzQRaQALBC7pHJ_16PaI-Jb8erTorxPNsjTLGxKNLr0TQkVyd3gb6bllX8mVAHWeYE8yT6RqE_dCFPSEPE-_541KPHKHeRtZzxuBk_GdntArwy-hGRdp6CYWnAfcToislJM_TcNrRpfsrm0IXvnF3856M10J6AWKmSRkyf-4hc67_l8mM-6aiOtVOXn2nwZ0ryIWt6PoGEKcxARbilOgoosV_T6yrjtAn5UZT96jDHk1sc39ORMh3PpvpyEE6CzIUNHbZ1U&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Yerel halkın favori noktalarından biri, keyfini çıkarın!"
+    },
+    {
+      "name": "El Raval",
+      "area": "Ciutat Vella",
+      "category": "Mahalle",
+      "subcategory": "Çok Kültürlü",
+      "tags": [
+        "alternatif",
+        "sanat",
+        "gece hayatı"
+      ],
+      "distanceFromCenter": 0.5,
+      "lat": 41.3796,
+      "lng": 2.1671,
+      "price": "low",
+      "rating": 4.3,
+      "description": "El Raval, Ciutat Vella bölgesinde yer alan ve ziyaretçilerine Çok Kültürlü bir deneyim sunan popüler bir mahalle noktası. Şehrin dokusunu hissetmek için harika bir durak.",
+      "bestTime": "Akşam",
+      "bestFor": [
+        "alternatif"
+      ],
+      "source": "local",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHrgyZtEY5em6bFz62KPToDuQqUzaoAsOaZBqJVY3P9cw7oUkSyH0Y41KANABTR7BXuwOxVDp9g2pVe16Bu9oycTlQIU2qPNuyKl8FuHjInkpW7HlfCEUZ2v3e1838alrDGtL6DD9S2o4f-pCqiRUCV27LL83lcXPbnK_GdkoKwO-nu7dT4FlqFVbeve3otJwRliNN6aigZaVZm0bXRqJpZ8ttwQTaRwEr13rxDlW4D5y3f_vItSTlYl1WPv0OgukHyh7ZTXCrhZ34qjgEziUkN9tDsOjKSpXXqIPeEOYQtxe1ofWEw7p01bIGLc9G3DiRHeiZjopOWYEGE2cXHSSvhMIIoNtRtMR3t0yr1tt35pkQWrk2-xM8wOVc7tP5bCBLKktjx3dpM6FdaT2NPyLvC6uBf_WJ9eT566EQa8wcZ8hvXB&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Yerel halkın favori noktalarından biri, keyfini çıkarın!"
+    },
+    {
+      "name": "MACBA",
+      "area": "El Raval",
+      "category": "Müze",
+      "subcategory": "Çağdaş Sanat",
+      "tags": [
+        "modern sanat",
+        "mimari",
+        "skater"
+      ],
+      "distanceFromCenter": 0.6,
+      "lat": 41.3835,
+      "lng": 2.1669,
+      "price": "medium",
+      "rating": 4.4,
+      "description": "MACBA, zengin koleksiyonu ve etkileyici sergileriyle kültür sanat severlerin uğrak noktası. El Raval bölgesinde yer alan mekan, ziyaretçilerine ilham verici ve öğretici bir deneyim sunuyor.",
+      "bestTime": "Öğleden sonra",
+      "bestFor": [
+        "sanat severler"
+      ],
+      "source": "tripadvisor",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHo0OL8qkxvjqXEtVmA6Zooa-5fXpfwhg5UtW5owjnM3hh4ih-2kdu_KCdos4sQV4Oo04y6Pa4KXKVW0efVFGy2HeBGBhjvQbPJCNKrh6XffyCnXIKgc5vUniUYiZ6V3JyUNLswjC8S2KZDN1lPtuWkaQO4LCx40W57C0EffO9E14NJTVa3dTyT92ePR9KX1Pv6L08zJkzZmc2130jm0r4vCAgLFyb0oIXV6ibLPYy2dy802KcWNvXab-Z7PrMCTfXK8nCiA9NRhjN0kZUzaMso0qJ9ZKxpAuLh_vaqtKZ8LcyLoJbjjGV2b2tZ3dWhWUYmIyJbV78pJEHxcoMMUhlju4R5MMxYnGCag0GzpSyC6K3T8qMsQSnLX8V90BGKo1pmgN4E3cmm1wJE7nyLha1qSSzotTWqe3Eiiq9yxWgEtyj_p&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Biletinizi önceden online alarak sıra beklemekten kurtulabilirsiniz."
+    },
+    {
+      "name": "Sant Pau Recinte Modernista",
+      "area": "Sant Pau",
+      "category": "Tarihi",
+      "subcategory": "Modernizm",
+      "tags": [
+        "unesco",
+        "hastane",
+        "mimari"
+      ],
+      "distanceFromCenter": 2.5,
+      "lat": 41.4136,
+      "lng": 2.1744,
+      "price": "medium",
+      "rating": 4.7,
+      "description": "Sant Pau Recinte Modernista, Sant Pau bölgesinin tarihine ışık tutan önemli bir yapı. Geçmişin izlerini günümüze taşıyan mimarisi ve kültürel mirasıyla, tarih meraklıları için keşfedilmeyi bekleyen bir hazine.",
+      "bestTime": "Sabah",
+      "bestFor": [
+        "mimari severler"
+      ],
+      "source": "tripadvisor",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHomKfHSUFTUYimkXQBc7qYNK0Nqtcs89tCKUmfB59kKGqsjq_Y9xOYqisC0hEq8eBesfz5_VdnS2ldelXdlv-sszIVrrH_MDccR5QZyOQWkNJ-_EJPGA0CFbWbzRnlUDbmu9fZic4_rmfFRZOfjIlNIx1J0oz2027SVnZd4UvJAUHQIjWHuC7CpSJk0jRKuPJbKvuV6mWtRIr0e6iT0Ni_EZAUv60yOltZ1ECWCYW2wS7M4cb4Oo0uQTky8gSDPVUmbbSAVvsbv5732E3S_X5ZBZ3l7YKn1g_IIFKRLoBq9cQ&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Erken saatlerde veya kapanışa yakın giderseniz kalabalıktan kaçınabilirsiniz."
+    },
+    {
+      "name": "Magic Fountain of Montjuïc",
+      "area": "Montjuïc",
+      "category": "Manzara",
+      "subcategory": "Gösteri",
+      "tags": [
+        "ışık",
+        "su",
+        "müzik"
+      ],
+      "distanceFromCenter": 2.3,
+      "lat": 41.3711,
+      "lng": 2.1519,
+      "price": "low",
+      "rating": 4.6,
+      "description": "Magic Fountain of Montjuïc, şehrin en etkileyici manzaralarından birine ev sahipliği yapıyor. Özellikle gün batımında sunduğu görsel şölen ve Montjuïc bölgesine hakim konumuyla fotoğraf tutkunları için vazgeçilmez bir nokta.",
+      "bestTime": "Perşembe-Pazar akşam",
+      "bestFor": [
+        "herkes"
+      ],
+      "source": "tripadvisor",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHrqAmAAPjAEnNmOYeZpFhT3AKM8NHAHrlg5oEJiGzqvHX_UUI162J1U74aJwl9VqyPknZS8oXBUFVmSJwHLVXnI_cZF3W8VFNIti9yuvu-ymtfDw9twD7S4KeBLu1vdjrNhagg3y3aTlkOYBdDAFL8mjNy3MYwakDa6KrFVY8G8UGWSmR1KNyQ-PnauDcO7ibSwtKgq9gm-XzY6M86wsCGGD0Mw9sE74PiAF4WJ1TMErvt6D4dmX_ceQOCivpXCQ-caWtMoBp7KjPBG5x84y_fUl8kbyRA6x6uZQ6p2v9VCDkF_WyBBMBpyWgMqJsDbPW7xct1qiy-LuVaSP3Y3myzoBOe513pZjMYOJ0hFrvNBdjl_G8dF8l2Ho0WcafbxKeXlCYsenLvNbzc9hFzwMjxpaRAV6kXHu-PX2Srp9k4Jm8G8&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Gün batımında gitmek için ideal bir nokta. Fotoğraf makinenizi unutmayın."
+    },
+    {
+      "name": "Barceloneta Mahallesi",
+      "area": "Barceloneta",
+      "category": "Mahalle",
+      "subcategory": "Sahil",
+      "tags": [
+        "balıkçı",
+        "plaj",
+        "tapas"
+      ],
+      "distanceFromCenter": 1.5,
+      "lat": 41.3808,
+      "lng": 2.1897,
+      "price": "medium",
+      "rating": 4.5,
+      "description": "Barceloneta Mahallesi, Barceloneta bölgesinde yer alan ve ziyaretçilerine Sahil bir deneyim sunan popüler bir mahalle noktası. Şehrin dokusunu hissetmek için harika bir durak.",
+      "bestTime": "Öğle",
+      "bestFor": [
+        "yemek severler"
+      ],
+      "source": "local",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHrB8cVkxVV1oe5jggSoldoQ2BV7I1er3do5XJOtQxfX0FwZr9h2-TEf4fzpBij5cLQO6MeiMxb7H4qvMGgR6D4doWuj-2HcqgFBy0PbJhwZ4jjGs907Dr67oiU6nOMHpcuBa_IvWxqj10CkjRdAoRND1_wT0IP7gq_-f2qObZ_YIiHZQ9BEL_AJRjSnqrLHw8mE9FN_d8GQ4ng-EGsezmghmyBFbeLhcejWzU5cPl1pEgO9O-E58BcvUsAbn32-5axpsJryVGUld86CCJuzTW8_4SaizPPUsT1v-tFXDYLnhVkTW6J4QN-9rizwxoS8g5lsgd5JMZJNNhSjOMpigY5g7gmmKjqpyOjq-Qvz81Rnjg212eTtDPKSGozBNqnvEc89AA50l3rqFrqplx5inNy0sl7k_7P80wbHc9d-9QDYEbw&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Yerel halkın favori noktalarından biri, keyfini çıkarın!"
+    },
+    {
+      "name": "Plaça Reial",
+      "area": "Gothic Quarter",
+      "category": "Meydan",
+      "subcategory": "Tarihi",
+      "tags": [
+        "palmiye",
+        "restoran",
+        "gece hayatı"
+      ],
+      "distanceFromCenter": 0.3,
+      "lat": 41.3798,
+      "lng": 2.1753,
+      "price": "medium",
+      "rating": 4.4,
+      "description": "Plaça Reial, şehrin ritminin hissedildiği canlı bir buluşma noktası. Tarihi dokusu ve çevresindeki mekanlarla Gothic Quarter bölgesinin sosyal hayatının kalbi konumunda.",
+      "bestTime": "Akşam",
+      "bestFor": [
+        "herkes"
+      ],
+      "source": "local",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHpB4iRcUc0vgDaAhYQdINVFHQNYkO85EpZ-32eHvZQtbx_DaAJs8cQfhG-2IqplTt76Fqzjo9IU_t4nwBxB-woRTSYcJ4lem05RySHk07Td28I7ApqOMX_xo-3FHAA1qBXuhtKwa8-4HgqVbjUKEmYkuHEkFMfThEjLZg_4fHHzXBeqinXwtNINmtEuylVe66qAME3mP5oDiAUfLrpPjmcLppuH04IPZQm5XDlaQtv5S4GhQOHTKHifvY5VOfI7_1MgeepdykGL0OYn-1YicD8ge5ccLCS_KLi-ERTDp2Ro0Bqxhote92PBFr6QLPDm_n5pteF8mqbxgMz7W7w54imZBifdlIUYJJ9zddPXpQNNQ2lR3Sb_umpPv69dSyVUsiJGQ0WkgXvJ4sltCrYa6R9uXegLiTXRqZDXMBqaOzs&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Çevredeki kafelerden birinde oturup gelip geçeni izlemek çok keyifli."
+    },
+    {
+      "name": "Port Olímpic",
+      "area": "Barceloneta",
+      "category": "Eğlence",
+      "subcategory": "Marina",
+      "tags": [
+        "marina",
+        "restoran",
+        "gece hayatı"
+      ],
+      "distanceFromCenter": 2.0,
+      "lat": 41.3875,
+      "lng": 2.2019,
+      "price": "high",
+      "rating": 4.3,
+      "description": "Port Olímpic, Barceloneta bölgesinde keyifli vakit geçirmek isteyenler için ideal bir durak. Sunduğu aktiviteler ve atmosferiyle ziyaretçilerine unutulmaz anlar yaşatıyor.",
+      "bestTime": "Gece",
+      "bestFor": [
+        "gençler"
+      ],
+      "source": "local",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHqFhOgYLfLknQirSNpjt-mvvh0g_5I0xoAGAlF_gjhwJziAihLDEo__uc7yLNaSXL39I9Nf-M4E2HtejaVpBDz1qJVlWmwNX6SAOL-EZtzd1DOvG8y81uUTEYzZVOPAIOEzejrOUbJ4jE7XUf_1EKFJLf1mZS6Cd4aYfG1pF8ibU9HKIueIToo8o-bQ7hGqPKKCy9PqUX9CpjnDlRivZLRCjFFjLl2e1tcwNjKLjp0U2fWtu1Iy2dCiChdyNLP_Bu7fDlzscbY_9UnZb2COUiV-jOeg3Seh-NE1Fzqd3y8i6A&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Etkinlik takvimini önceden kontrol etmenizde fayda var."
+    },
+    {
+      "name": "Carrer Blai",
       "area": "Poble Sec",
-      "lat": 41.374820,
-      "lng": 2.163490
+      "category": "Yeme-İçme",
+      "subcategory": "Tapas Sokağı",
+      "tags": [
+        "pinxos",
+        "ucuz",
+        "yerel"
+      ],
+      "distanceFromCenter": 1.5,
+      "lat": 41.3745,
+      "lng": 2.1634,
+      "price": "low",
+      "rating": 4.6,
+      "description": "Carrer Blai, Poble Sec bölgesinde yer alan ve ziyaretçilerine Tapas Sokağı bir deneyim sunan popüler bir yeme-i̇çme noktası. Şehrin dokusunu hissetmek için harika bir durak.",
+      "bestTime": "Akşam 20:00",
+      "bestFor": [
+        "bütçe gezgini"
+      ],
+      "source": "local",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHory42JXrJCV22swmKBF1DSBjJWBUS6i7NOyoHTF2sB-tQEsVhpvpHLxCD-ZnMDegGzvLk_VWld3RzPsoFQzhNa0zBm4lEeXEXT1RmUFand4HYusPLB4YKWqZm_JuPA8Hwefh3mLfSW1zb4g9MLQw9eJIrE4UPbGwEuR8evSU8YDHmOD8Zg6rSw5uzi-Hk6a5a1ExYFL0Pa-yQ_msDVKOstYveEZBwXY5OrNIlk9f2bpoyT6YWIsrO0h05khZI8pgadAXznZYb6ZlJFCj5iNirgu6SVfTD4QDCHG7ASZ_TBID7vCIJqqU82R4orYwLyUUgqetqFs_VKrodEPEs5ox1jPvKS7a_-HnxNbgZl5J7JLACu8Lsy1a0jiaA3jm4sTgFHDjmoPKwqBxPrwzsQcokZgimzgphmnvk_Lle0j60&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Yerel halkın favori noktalarından biri, keyfini çıkarın!"
+    },
+    {
+      "name": "Sips",
+      "area": "Eixample",
+      "category": "Bar",
+      "subcategory": "Kokteyl",
+      "tags": [
+        "world best",
+        "kokteyl",
+        "şık"
+      ],
+      "distanceFromCenter": 1.5,
+      "lat": 41.3915,
+      "lng": 2.1606,
+      "price": "high",
+      "rating": 4.9,
+      "description": "Sips, Eixample gece hayatının nabzını tutan, enerjisi yüksek bir mekan. Özel kokteylleri, müziği ve canlı atmosferiyle arkadaşlarınızla keyifli vakit geçirebileceğiniz popüler bir adres.",
+      "bestTime": "Akşam",
+      "bestFor": [
+        "kokteyl severler"
+      ],
+      "source": "tripadvisor",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHo_3Tnq6d-U-q-IZIMSWKBb48WYldXqaVdzFyrZ2BY6mM3Gksk_dMiFfUdvXQbbtKA5aKUPj4NfEFNI98oPnWetujixXPwzGQLcuzjlxf7iGLodAp5NkYUyLIEdCTHNmTFpQaqdYe8wwDcAOboTqnY-OtJJk3BIpxma7dgVjdvY43BwrYZ7tVtCpmeafVB3guE_39Y5sf4FxulpdWD405k_Fq5WPulJSdbE5ob1C6yTTbfHVsgfwj2GiAA0JMIIdo7VCumauJ_DiYxEy4cAUR3Eu1ysVkOXTExs97Z6UKhNOtdtlFwRXOL-NpzCG_pPbkaXLY92dPL0q8rjrohX77BFQcQ-zjGzWt5cIUsEVtzjrzzQ1LIr4UQnc1GRJLVrjRVs7YpvhiTQoa8W0UVp_uZlTO1lS3o4SxtcdKSatOvb_1QP&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Happy Hour saatlerini (genelde 17:00-20:00) yakalamaya çalışın."
+    },
+    {
+      "name": "Paradiso",
+      "area": "El Born",
+      "category": "Bar",
+      "subcategory": "Speakeasy",
+      "tags": [
+        "gizli",
+        "kokteyl",
+        "ödüllü"
+      ],
+      "distanceFromCenter": 0.9,
+      "lat": 41.3841,
+      "lng": 2.1813,
+      "price": "high",
+      "rating": 4.8,
+      "description": "Paradiso, El Born gece hayatının nabzını tutan, enerjisi yüksek bir mekan. Özel kokteylleri, müziği ve canlı atmosferiyle arkadaşlarınızla keyifli vakit geçirebileceğiniz popüler bir adres.",
+      "bestTime": "Akşam",
+      "bestFor": [
+        "kokteyl severler"
+      ],
+      "source": "tripadvisor",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHouDRZsMruMu6Kf4bHNEJMIhJUyqSvr9fc7mqGAffdRf3jIO70U1HPf4hnHvqEYvrhUd7-NX_AGYMYOnPXZsiBHB1MHhZDxvWh2RkplcexIYb0jzK82okzH4WObm-WM6loOchZIRAJq6bBIpt-abXqpEGUREcZ_UaAEZrHyJXhW6c0TgbdMW3-rXxTTeivDPz--tCAHLfo-r85M3QCblyZ6LpurNRj3eGyP9G-DjHqhP-pSrompuUcc6d_PD8HEYUGYlhCvkWCXCIk2Ix7RBZfI30DX03IR0MiLoWOcbNzQNO0z2tGlm8VXGfKRi77mqVkHB14-VXK9tnR8DeFeUpv7jAcH1ZqIb_9Mt7dyBG1JIcwJIG87tCoyvNMJ2Jn1PwiDC0xZJ8xZjt6R8r-xHBtiOSgL6qnMKhsKt0ogNfkWJA&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Happy Hour saatlerini (genelde 17:00-20:00) yakalamaya çalışın."
+    },
+    {
+      "name": "Dry Martini",
+      "area": "Eixample",
+      "category": "Bar",
+      "subcategory": "Klasik",
+      "tags": [
+        "klasik",
+        "martini",
+        "1978"
+      ],
+      "distanceFromCenter": 1.8,
+      "lat": 41.3926,
+      "lng": 2.1553,
+      "price": "high",
+      "rating": 4.7,
+      "description": "Dry Martini, Eixample gece hayatının nabzını tutan, enerjisi yüksek bir mekan. Özel kokteylleri, müziği ve canlı atmosferiyle arkadaşlarınızla keyifli vakit geçirebileceğiniz popüler bir adres.",
+      "bestTime": "Akşam",
+      "bestFor": [
+        "kokteyl severler"
+      ],
+      "source": "local",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHrpJNOvg7Yg0WFCmhKaFJF_w5vG2ffZ8uho9ZMY9nTxZDeekXGEUQte0pXAsi4X4NGjAGjGup1ftpVPWCViwtym9uzzQ8bjAG8YIiSDLSAfO-89r0CAvQuR80XosfQ8Wa9X_14ESCu13QUGdjoNYe6XPv6Uxz3FCFVevZ25qKYt034BsGuPTp4ZR3fVF6PFFx-DAT7wAw3GTS_iTtFvcIHFSxDntN5QIupFbKgCMPcfxwB4ULQXuQNVlrlzH5FRz7k6_CTkvctqVGe9vFJRairMj7LwrywcjGzbVYM5IJbT-A&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Happy Hour saatlerini (genelde 17:00-20:00) yakalamaya çalışın."
+    },
+    {
+      "name": "Boadas",
+      "area": "Gothic Quarter",
+      "category": "Bar",
+      "subcategory": "Tarihi",
+      "tags": [
+        "1933",
+        "klasik",
+        "havana"
+      ],
+      "distanceFromCenter": 0.4,
+      "lat": 41.3816,
+      "lng": 2.1732,
+      "price": "medium",
+      "rating": 4.6,
+      "description": "Boadas, Gothic Quarter gece hayatının nabzını tutan, enerjisi yüksek bir mekan. Özel kokteylleri, müziği ve canlı atmosferiyle arkadaşlarınızla keyifli vakit geçirebileceğiniz popüler bir adres.",
+      "bestTime": "Akşam",
+      "bestFor": [
+        "nostalji severler"
+      ],
+      "source": "local",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHr5r61PfoI4-eGE4v9nXMHEpvQGlZ16rlS-WpgPvjAyqw7xrY0cHI4XzCVgdzgdU9PTti44sD8CXPuK8gpE1VRzl5IgCJSKUI5J_aiV8YBhs6b3x3vQnB8KjwsnM2KUIL2iteWzlfkHtQgWkP76vYf3y-AaLu0-Ki0GROTmn2yGvysotPblN9dIrOEPKNIUvvSWqzX_gN8Hx0ItqY0B22_qv2Qy62UKxs2myJXrCD_ns4YFF3oDdufz2Ez8hHq7me2NnM1f-q8MYXtt5U5yIGfN9MsMQTyDghBu-Uj03kDfdUY_6J_3ONxwuLkgTmFIsCH-Z5Zqn-_Ih4EajwjKxui664k-1FzEP97ue1HqgfjVtIytPBL5f-RwQah9a4UWq6QBNdcl-edqCqH3iITDz57zfcJf50W2kQrNmz_P9rZTnZIJ&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Happy Hour saatlerini (genelde 17:00-20:00) yakalamaya çalışın."
+    },
+    {
+      "name": "Sky Bar Grand Hotel Central",
+      "area": "Gothic Quarter",
+      "category": "Bar",
+      "subcategory": "Rooftop",
+      "tags": [
+        "manzara",
+        "havuz",
+        "şık"
+      ],
+      "distanceFromCenter": 0.5,
+      "lat": 41.3825,
+      "lng": 2.1781,
+      "price": "high",
+      "rating": 4.6,
+      "description": "Sky Bar Grand Hotel Central, Gothic Quarter gece hayatının nabzını tutan, enerjisi yüksek bir mekan. Özel kokteylleri, müziği ve canlı atmosferiyle arkadaşlarınızla keyifli vakit geçirebileceğiniz popüler bir adres.",
+      "bestTime": "Gün batımı",
+      "bestFor": [
+        "çiftler"
+      ],
+      "source": "tripadvisor",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHqyWR-th5VFj-AnboSDd64O_DS8GsDHylYgSjl-sqacbksDAJafwLych1gzKaOiqvmvaYYnGRTl_uQuy5Vzb0gY5OIp1tFHj96GAAHYhrfwU6EcyqDf_wzCkfB9C-DzACaKFirnZvtoK4n4UMtSfG9w5E0AgjyBVu6M07xs9t5Lfw2YQ3ldCDkq4T9hJHSLz8oMOGiYskjrqr4k0iELN23-p1h_jTNR6LvRZUVbzcxZZX3j7su1qriEs5HXQD7lh16me-s-cBHlyg-IOyKEyRsWF9h-WOfCaQprfeMSFkA_Tw&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Happy Hour saatlerini (genelde 17:00-20:00) yakalamaya çalışın."
+    },
+    {
+      "name": "The Roof at EDITION",
+      "area": "El Born",
+      "category": "Bar",
+      "subcategory": "Rooftop",
+      "tags": [
+        "panorama",
+        "şık",
+        "DJ"
+      ],
+      "distanceFromCenter": 0.8,
+      "lat": 41.3844,
+      "lng": 2.1823,
+      "price": "high",
+      "rating": 4.7,
+      "description": "The Roof at EDITION, El Born gece hayatının nabzını tutan, enerjisi yüksek bir mekan. Özel kokteylleri, müziği ve canlı atmosferiyle arkadaşlarınızla keyifli vakit geçirebileceğiniz popüler bir adres.",
+      "bestTime": "Gün batımı",
+      "bestFor": [
+        "çiftler"
+      ],
+      "source": "tripadvisor",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHoGQHS1LfZFs1kJn0FINcdppgbalQ0wn6ceALabHAzqfM6QjV7BLBQmHk9tQ-DXDzzeYrMSNO-ahCSYtoXaXpHNhBRgHP08MF725uI7qrFHzo2KhM-KYbM4vQ_ts6JWnyZD2csxlqA4lcpd8esV1kPuD3tTcPAFWnKHZoqjEtvDBlkmcOZDNzjEUsyuC29lZK4Spj3pLP_uLBLKKReqlicvOn2VppSp5kSE6E0bGgqxenUteitlf-48OcljlfDs48dE4z5IcehUtqnOEQtSRV6MSYVdGJhb1T8GYLlaUQQ&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Happy Hour saatlerini (genelde 17:00-20:00) yakalamaya çalışın."
+    },
+    {
+      "name": "Sercotel Rosselló Rooftop",
+      "area": "Eixample",
+      "category": "Bar",
+      "subcategory": "Rooftop",
+      "tags": [
+        "sagrada familia",
+        "manzara",
+        "romantik"
+      ],
+      "distanceFromCenter": 1.8,
+      "lat": 41.4015,
+      "lng": 2.1682,
+      "price": "medium",
+      "rating": 4.8,
+      "description": "Sercotel Rosselló Rooftop, Eixample gece hayatının nabzını tutan, enerjisi yüksek bir mekan. Özel kokteylleri, müziği ve canlı atmosferiyle arkadaşlarınızla keyifli vakit geçirebileceğiniz popüler bir adres.",
+      "bestTime": "Gün batımı",
+      "bestFor": [
+        "çiftler"
+      ],
+      "source": "local",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHqHCrbfpCwJ3Vgeg4fwhKaYg--q4yXdeQQcnaSnPb93sNSAGaOCD74XOBtbOQY8Mgq9VI5F6Wh2-IBkPtHDgH7-TMqK700Koj8LNfj3vv6ekKevTsP1gKqjChZc5i13uWZxd5WKBEhfrhknf9ZCySqgao9Vh7_S5fR0MtohsXCeHnEOg4AxzdasuJi_VZTY4JTKszeTtobnl16n0Um-0pkt-eiCpasjsaWjN2InDb1m-l-cZlI3OzBG4qJuObUXjN6_9_XIFOxzhWvhULVYx9IvIItNcGuybLVm1WygTfHsQQ&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Happy Hour saatlerini (genelde 17:00-20:00) yakalamaya çalışın."
+    },
+    {
+      "name": "Disfrutar",
+      "area": "Eixample",
+      "category": "Restoran",
+      "subcategory": "Fine Dining",
+      "tags": [
+        "3 michelin",
+        "elbulli",
+        "avant-garde"
+      ],
+      "distanceFromCenter": 1.5,
+      "lat": 41.3912,
+      "lng": 2.1584,
+      "price": "luxury",
+      "rating": 4.9,
+      "description": "Disfrutar, Eixample bölgesinin en popüler lezzet duraklarından biri. Özenle hazırlanan menüsü, kaliteli hizmeti ve fine dining mutfağının seçkin örnekleriyle hem göze hem damağa hitap ediyor.",
+      "bestTime": "Akşam",
+      "bestFor": [
+        "fine dining"
+      ],
+      "source": "michelin",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHpd0ja7r04lzW9eFB8Z_dywxUK7G93oj6zQjqDd8172oMknyaraz2tDGcqqgr3wXSQ5FgMliblMO7rR5ztP1LyNrXC03_aOj2__7b4oecDLpZFMwNbwnnHVig9VXWmUBLBRSuLQllt9HaSk_Rt5HZIMGRxYKtoIAEBhCpH32G3SwL-Gt6B1ambQBFc-ULkcZFux7OOoVXYZXkyZ-NZiAmwaicKIPCitx6tJjlx1a1ZM2KC1eFd_vPyL_DqpMyfkB8rvrmP1xwjl3ajcQF3TW4JBuj6xkEADmrN9gVzRbUxh_g&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Özellikle akşam yemekleri için rezervasyon yaptırmanızı öneririz."
+    },
+    {
+      "name": "ABaC",
+      "area": "Tibidabo",
+      "category": "Restoran",
+      "subcategory": "Fine Dining",
+      "tags": [
+        "3 michelin",
+        "jordi cruz",
+        "yaratıcı"
+      ],
+      "distanceFromCenter": 5.0,
+      "lat": 41.4125,
+      "lng": 2.1287,
+      "price": "luxury",
+      "rating": 4.8,
+      "description": "ABaC, Tibidabo bölgesinin en popüler lezzet duraklarından biri. Özenle hazırlanan menüsü, kaliteli hizmeti ve fine dining mutfağının seçkin örnekleriyle hem göze hem damağa hitap ediyor.",
+      "bestTime": "Akşam",
+      "bestFor": [
+        "fine dining"
+      ],
+      "source": "michelin",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHpjQd6o5kXXCHRwHqK0Lhule0X25M-VC9KDZDikkOHPNJNiE1d6gCVoRG2w4L2rO_GzcBKoHRD9zSm6pIINLACLcmjkeIQt5vOaTc7d3ega_zyd1PV5HbpvkXF4pG_je7jvHfw-n_WNCSmZ6qVmcwWRNfI8nBDHJmAOtdNALHaIdmdjoB0QLe7HGD6OWKbcCSPdF6tMF7_cPIb67j7v6rApkPyo9OFZ07SrY5SgTu010HTP0rLjNVGyy0ifLl4P-K0Sj4gjirlCFY8uSHZw6Ot_I391elBxZb5nlaguFUqbNg&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Özellikle akşam yemekleri için rezervasyon yaptırmanızı öneririz."
+    },
+    {
+      "name": "Tickets",
+      "area": "Poble Sec",
+      "category": "Restoran",
+      "subcategory": "Tapas Yaratıcı",
+      "tags": [
+        "adria",
+        "yaratıcı",
+        "eğlenceli"
+      ],
+      "distanceFromCenter": 1.8,
+      "lat": 41.3739,
+      "lng": 2.1612,
+      "price": "high",
+      "rating": 4.7,
+      "description": "Tickets, Poble Sec bölgesinin en popüler lezzet duraklarından biri. Özenle hazırlanan menüsü, kaliteli hizmeti ve tapas yaratıcı mutfağının seçkin örnekleriyle hem göze hem damağa hitap ediyor.",
+      "bestTime": "Akşam",
+      "bestFor": [
+        "yemek severler"
+      ],
+      "source": "tripadvisor",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHp9NA9vxG8h_0AupuD4rXtdTa_e4g31fludf8di40fanUwHRzyU1xXG6cmPKaDhqcZsBjeI1BI-RBO_mauwtLix9Y7jW-PDv8nNAmrG156yjdTJoiIbJsfR5qXVnuureSiGWdA-ZcK6cA45Ew4DbfuVcJkj9bCOvt2t4n2f1aZ_IIKP8rWe-UV6J21A1Q9foXKwVFNJK9punSoZzSN9XAJh_ihynaj01hy7asPnw1-nmQbAyBfgmE95a-kZmNip5hkM-AslhNLgA0V2af_2NVqveaDZEhfkCDkfiFXDmje5g_DttT00YxGCisSm_OcuII1bzbBZh_LYK4fdbNszqoKwoU4eywPuko9Iy_G183x548hSVQzega9W9sImJjCmGmuyTLRAlvRNQVY6E4rpLB1KWx_1k-CGxSwso5BYzz0EOLT5&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Özellikle akşam yemekleri için rezervasyon yaptırmanızı öneririz."
+    },
+    {
+      "name": "Nomad Coffee",
+      "area": "Eixample",
+      "category": "Kafe",
+      "subcategory": "Specialty Coffee",
+      "tags": [
+        "kahve",
+        "kavurucu",
+        "minimalist"
+      ],
+      "distanceFromCenter": 1.5,
+      "lat": 41.3912,
+      "lng": 2.1628,
+      "price": "medium",
+      "rating": 4.8,
+      "description": "Nomad Coffee, Eixample sokaklarında keyifli bir mola vermek için harika bir seçenek. Samimi atmosferi, lezzetli kahveleri ve tatlılarıyla gününüze enerji katacak sıcak bir mekan.",
+      "bestTime": "Sabah",
+      "bestFor": [
+        "kahve severler"
+      ],
+      "source": "local",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHoaJ47vmDpMk7npoLcuo_SHF2kjOTKOFpvZ7vqLYmkfi-227EPH5LAwuA-GXJLgtMV-E1ve8lpibgE7m5uoi7eLS1TDvyNBxGwnRw_LwBd78Gf3Nu_jfjYSf7mmHQWT8o8XP9USsinV_Dt8WCvLUINXj0io4CFA9bPO70ZATXaWB-QKqtY79X2Ynr-m5qDRF6e6AVe9-aWQkUFi7X49csyT86w3TrYP3VUyKdCKtktnuU8ktOzur_Nl1zQPQLk54Weoqt2RHqXZB7VWuzbBtA0WpaxvgMHlr36HUzED0o9cNA&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Kahve yanında yerel tatlılarını denemeyi unutmayın."
+    },
+    {
+      "name": "Satan's Coffee Corner",
+      "area": "Gothic Quarter",
+      "category": "Kafe",
+      "subcategory": "Specialty Coffee",
+      "tags": [
+        "kahve",
+        "küçük",
+        "popüler"
+      ],
+      "distanceFromCenter": 0.4,
+      "lat": 41.3831,
+      "lng": 2.1769,
+      "price": "medium",
+      "rating": 4.7,
+      "description": "Satan's Coffee Corner, Gothic Quarter sokaklarında keyifli bir mola vermek için harika bir seçenek. Samimi atmosferi, lezzetli kahveleri ve tatlılarıyla gününüze enerji katacak sıcak bir mekan.",
+      "bestTime": "Sabah",
+      "bestFor": [
+        "kahve severler"
+      ],
+      "source": "local",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHrzBwxHDVxay1kvY6pl5a0BRdha5bz3PTP91j74xODZPM0ChlfEezl1yEv3qsf8xZKOMeUfRyykR-lF-9LEzsSDo4fVeWBHeufL58xJ1Z3pljvv5DxOpcLA5tVoJSg_Uay84uPkkkUtiBjwwEs6NXotDMZwFf8LxNgzTCDrGbvG-AQMSuqFrVOX5vF5tIzLmQgdsURrwl-3MbJqddusE5nAZKTRNatuesZeGGISRFgs-coIWMPx-hG5Lcp-rBREZ1yHOQSyInjtUTVwB6yqVMV2-jFEI1D6BUgBq62RxrivAZv3kjsg0wj0s2gr4WS2rhiRpzIeuFvCFBnwSl4ZPF4RK8-Sc6UWsB_NgkXgemSbiwIwNFbTPdeBzOixjNTzDbTfelA2CsaJFjfbnS8ODp0g4g6vjKUi3xZ6CAy8a8WSvA&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Kahve yanında yerel tatlılarını denemeyi unutmayın."
+    },
+    {
+      "name": "Three Marks Coffee",
+      "area": "El Born",
+      "category": "Kafe",
+      "subcategory": "Specialty Coffee",
+      "tags": [
+        "kahve",
+        "kavurucu",
+        "modern"
+      ],
+      "distanceFromCenter": 0.9,
+      "lat": 41.3858,
+      "lng": 2.1821,
+      "price": "medium",
+      "rating": 4.7,
+      "description": "Three Marks Coffee, El Born sokaklarında keyifli bir mola vermek için harika bir seçenek. Samimi atmosferi, lezzetli kahveleri ve tatlılarıyla gününüze enerji katacak sıcak bir mekan.",
+      "bestTime": "Sabah",
+      "bestFor": [
+        "kahve severler"
+      ],
+      "source": "local",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHrlt-0QInaKgAxzkoReaqFVItaLddhglPO4JO2g_NeNIJz9JpgTZrXVI9B_rTaBQj1B8gGVgRmxD7tJiW09kcS099dUTd4-au_oll3h_ImzL3Zu4l1Bvvx0a83ERBDT2V0Z7DhAUA8PRzpOWGbnUW_6IMFLiGxb4uoKVB-uNCRooTa17VQdXHA1seZHdYLfbRTN2IyeYIKubIKkXpZw9K4-OI3nhNMpdLF1H3zxgqpkTiFIJxQANICvtCGSBxxlk3jJ4VGAXxDdW8gg_ClfT7ofqOWOMmV1tg7qnEPeKiwgyQ&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Kahve yanında yerel tatlılarını denemeyi unutmayın."
+    },
+    {
+      "name": "SlowMov",
+      "area": "Eixample",
+      "category": "Kafe",
+      "subcategory": "Specialty Coffee",
+      "tags": [
+        "kahve",
+        "slow",
+        "güzel mekan"
+      ],
+      "distanceFromCenter": 1.6,
+      "lat": 41.3923,
+      "lng": 2.1567,
+      "price": "medium",
+      "rating": 4.6,
+      "description": "SlowMov, Eixample sokaklarında keyifli bir mola vermek için harika bir seçenek. Samimi atmosferi, lezzetli kahveleri ve tatlılarıyla gününüze enerji katacak sıcak bir mekan.",
+      "bestTime": "Sabah",
+      "bestFor": [
+        "kahve severler"
+      ],
+      "source": "local",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHoUaSCsdT-NsD3qcXBoRMmq3GGL79fN_XVj7RILf_2WpBndiRM_25lN5YJWquXYPRNIISlCu4H6KrPGgF1GLbxYEyDtP2VJDG3jJ2F_D4Xofjc_knfVu8L90EvamUkJhAsQ50Ey-uedp8yyv3FtAjPgiPD3TttCy_dq4idJPrWPZM3TFM4Iw65KlYHndSV3hoMZ7UNJVqwCbMz3z669yM09Ga87eo1dTIjoDu_IS-zMLRIhBckGDjNDtZCPRXZCQmiVZFqaCspP7e5dFxPhQbII6A0wOT8k6xNgazMlXo7TxK1oxKL_Urs3fakaZxCVKw6JeJL5Y4PZnu_2z8Ylv5rWxEfbwGev5VhC59g0sHmHL21dCET-IKQb1xcThdH750C5YylCWELDBN9Eys5rwJCZGMHwD3Y-2KSc6-lTVkNH1qs&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Kahve yanında yerel tatlılarını denemeyi unutmayın."
+    },
+    {
+      "name": "Federal Café",
+      "area": "Gothic Quarter",
+      "category": "Kafe",
+      "subcategory": "Brunch",
+      "tags": [
+        "brunch",
+        "avokado",
+        "aussie"
+      ],
+      "distanceFromCenter": 0.4,
+      "lat": 41.3811,
+      "lng": 2.1756,
+      "price": "medium",
+      "rating": 4.5,
+      "description": "Federal Café, Gothic Quarter sokaklarında keyifli bir mola vermek için harika bir seçenek. Samimi atmosferi, lezzetli kahveleri ve tatlılarıyla gününüze enerji katacak sıcak bir mekan.",
+      "bestTime": "Hafta sonu 10:00",
+      "bestFor": [
+        "brunch severler"
+      ],
+      "source": "tripadvisor",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHom1EpTvqQeW5PXCyWseHPHEigeTF0lwBh2gZiJ808tkNscgcxjEN8o1KiZpuJWuVV33Vr-PO8e_eQcXeFI4Hn6sxgjM7zOOsTzh55vH17diVj-bHpgPkV9OgYIYZv5dJqrp4N-m_Ktblu3ckJnCrk7twAWKjnGJtRbSCgJo5UrHxV56afz1Mq_VOg6jBP2e_ZgKGN7aus9eC1Bg9CBVOYr1AP96hJwRt7qCD6X0Uu98ZT_WBEdFyiGfkMMNdGjJfrlKQk0ojFXvp0lrR0KRxH9X8groq9wLgNOogOs3WhuTw&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Kahve yanında yerel tatlılarını denemeyi unutmayın."
+    },
+    {
+      "name": "EatMyTrip",
+      "area": "Gràcia",
+      "category": "Kafe",
+      "subcategory": "Brunch",
+      "tags": [
+        "brunch",
+        "tropik",
+        "instagram"
+      ],
+      "distanceFromCenter": 2.8,
+      "lat": 41.4002,
+      "lng": 2.1589,
+      "price": "medium",
+      "rating": 4.7,
+      "description": "EatMyTrip, Gràcia sokaklarında keyifli bir mola vermek için harika bir seçenek. Samimi atmosferi, lezzetli kahveleri ve tatlılarıyla gününüze enerji katacak sıcak bir mekan.",
+      "bestTime": "Hafta sonu",
+      "bestFor": [
+        "instagram severler"
+      ],
+      "source": "local",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHrT3MLx_pzrLBZdqZ2uB7UuN6Ile69p4kMzbTVs1d-EfEk5xh6dI8uzKggXwjDv5zRY0mHouKiZ7aoECesF_PAzUEbV20F9OIxXvpLGQ-KjqOsFCZTCWrJIvA8fUAZhhFhH7RxItxZTGfQAsoB-FXsrm3kbfTfyZsv1dvT1X5Ev63ihvVBiZUUEM5CQ3w1K-4tVRMiQVioiu3rDkqkyvqM1xLSNCSaTb_u8qw5hhVJYCEC6QrrU8m5AFXqb14RgubOWkzVhubAF3lAwwJpryaFO3VFwUy7VT7xn-rRQYD0Mng&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Kahve yanında yerel tatlılarını denemeyi unutmayın."
+    },
+    {
+      "name": "Milk Bar & Bistro",
+      "area": "Gothic Quarter",
+      "category": "Kafe",
+      "subcategory": "Brunch",
+      "tags": [
+        "brunch",
+        "klasik",
+        "2005"
+      ],
+      "distanceFromCenter": 0.4,
+      "lat": 41.3825,
+      "lng": 2.1787,
+      "price": "medium",
+      "rating": 4.5,
+      "description": "Milk Bar & Bistro, Gothic Quarter sokaklarında keyifli bir mola vermek için harika bir seçenek. Samimi atmosferi, lezzetli kahveleri ve tatlılarıyla gününüze enerji katacak sıcak bir mekan.",
+      "bestTime": "Hafta sonu 11:00",
+      "bestFor": [
+        "brunch severler"
+      ],
+      "source": "local",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHpt1IqFyUfaYNqsi5kW4xoKSow0aQY-4DCNWOJHoKaMbCB1bVAw_9XBQ_43Vffs2jJsCSdFIdU9zI6W0aLxf7MYPPHTUEWqYSU-27XNVyAIcnUmCKG8z-20KXRWusjR-_hNIN4DQEtgdUq7fF_X_mmsuZaVFtvhQytSN9ZrxZEUsWxATUzqsZ9qiBCw9zgKwi9b9zDdFuPCT1DltsI_tIVn_I8sQWojul1JrO__kGghfUCPmBK83pAlGJERmq778NUrX9kY4OEzWpAztyoWUK0zWriouHTKlaZ3CnAAAYlL0Q&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Kahve yanında yerel tatlılarını denemeyi unutmayın."
+    },
+    {
+      "name": "Flax & Kale",
+      "area": "El Raval",
+      "category": "Restoran",
+      "subcategory": "Sağlıklı",
+      "tags": [
+        "vegan",
+        "flexitarian",
+        "modern"
+      ],
+      "distanceFromCenter": 0.6,
+      "lat": 41.3845,
+      "lng": 2.1683,
+      "price": "medium",
+      "rating": 4.5,
+      "description": "Flax & Kale, El Raval bölgesinin en popüler lezzet duraklarından biri. Özenle hazırlanan menüsü, kaliteli hizmeti ve sağlıklı mutfağının seçkin örnekleriyle hem göze hem damağa hitap ediyor.",
+      "bestTime": "Öğle",
+      "bestFor": [
+        "vegan/vejetaryen"
+      ],
+      "source": "tripadvisor",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHpSzuP1QYMxnvJ2gGo93CbS4AAadsZE8sh8-lyevBLynr1D8wCPaWoFSPpZFknohwGO4eciRv24VlvaN8jySfufsgRY44kRoy9-2rEq44vLYUKwyPzDC5hIXhSVyQ0q0iGGQPbgRi_kvQBo7GEILHNA3v6fwjLiArNcPRMqIuq3iaUkk8G-pKwBVegso-yjkyH37WNbXBmHjH4IhFZWEqBdpPw11ym5ekWFonZQrI1lB2vONxPzthdmJTD4OF8z-hUD9B5XNJL73VNdjvg9po_kKNwXJskQ8viFue9SX6lNnQ&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Özellikle akşam yemekleri için rezervasyon yaptırmanızı öneririz."
+    },
+    {
+      "name": "Bar del Pla",
+      "area": "El Born",
+      "category": "Restoran",
+      "subcategory": "Tapas",
+      "tags": [
+        "tapas",
+        "yerel favori",
+        "şarap"
+      ],
+      "distanceFromCenter": 0.8,
+      "lat": 41.3848,
+      "lng": 2.1812,
+      "price": "medium",
+      "rating": 4.7,
+      "description": "Bar del Pla, El Born bölgesinin en popüler lezzet duraklarından biri. Özenle hazırlanan menüsü, kaliteli hizmeti ve tapas mutfağının seçkin örnekleriyle hem göze hem damağa hitap ediyor.",
+      "bestTime": "Akşam 20:00",
+      "bestFor": [
+        "yemek severler"
+      ],
+      "source": "local",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHo-LNgACY8XsAXPiGGd72r4_UtC_AkXti9iTvJc83GlqOTl6GzLDLOaQiG7smyuY533HEwgkxnk3bdikH059iF6QT5Q2unwrOzAaXeCCLItZncE5nI-PcA_6PXOnFvr7JZnRA6GMeeG49hkTXkPrUb3l7_D4NPMudj229AI05jqTDAbmwFevBVpuoYgmU9emKWz8Fu2ywBoqedp4mvk0zNK9jG0zjRJ7L67FEKQw4y0vWX9QWQfuc4kq7J0qDldkaW5N4gLNt8zdWfIvFkRGAORgLUFTnxw7QWTpALzqj-cjA&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Özellikle akşam yemekleri için rezervasyon yaptırmanızı öneririz."
+    },
+    {
+      "name": "Cal Pep",
+      "area": "El Born",
+      "category": "Restoran",
+      "subcategory": "Deniz Ürünleri",
+      "tags": [
+        "tapas",
+        "deniz ürünleri",
+        "bar counteri"
+      ],
+      "distanceFromCenter": 0.9,
+      "lat": 41.3841,
+      "lng": 2.1827,
+      "price": "high",
+      "rating": 4.8,
+      "description": "Cal Pep, El Born bölgesinin en popüler lezzet duraklarından biri. Özenle hazırlanan menüsü, kaliteli hizmeti ve deniz ürünleri mutfağının seçkin örnekleriyle hem göze hem damağa hitap ediyor.",
+      "bestTime": "Öğle 13:00",
+      "bestFor": [
+        "yemek severler"
+      ],
+      "source": "tripadvisor",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHpzGyEd5dqLVdzJfJShvxKKR1rpzUSP6I5V5htKoNG1BPtxJZ9lyIzDCUFgifW2i_1FF5ewNabNTKHTe7V8b2dZPlO77yzJdjuaClSd3fS6Uev35Nqvo7hbgSIiyu9i1LTx8LlMsQpz6mgXSzW8aGoz7fpVOD7h_yxeTdtz8PoHH2Xy63tGLR7usx4rkNJvfvggnN27J08pFzNjJh96FPsK4Zks9ToJZqI_E5TBNvB1uddrxQf5Qb694utPDtTklerUlRl7F32hv6j4y2MRLJGlsrJQm2nkgSEtXCYdwDtQrA&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Özellikle akşam yemekleri için rezervasyon yaptırmanızı öneririz."
+    },
+    {
+      "name": "Bar Cañete",
+      "area": "El Raval",
+      "category": "Restoran",
+      "subcategory": "Tapas",
+      "tags": [
+        "tapas",
+        "geleneksel",
+        "canlı"
+      ],
+      "distanceFromCenter": 0.5,
+      "lat": 41.3803,
+      "lng": 2.1713,
+      "price": "medium",
+      "rating": 4.6,
+      "description": "Bar Cañete, El Raval bölgesinin en popüler lezzet duraklarından biri. Özenle hazırlanan menüsü, kaliteli hizmeti ve tapas mutfağının seçkin örnekleriyle hem göze hem damağa hitap ediyor.",
+      "bestTime": "Akşam",
+      "bestFor": [
+        "yemek severler"
+      ],
+      "source": "tripadvisor",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHqhGlC7ntvw8tdMjfSZRyujIh_lGFvloUzGaW3Acv6x5nZGNDVJhFAmrAMAeBsICXC-f8_BKhtMP70r5fj_SIIpYW7NS-LJAAuHA1nMjweMHLc59-zfIFt1SH0XUhqt1lDKZsNibH1maNyyK9lUFmhNnZOC2EzHE_C47T_S1tbmlhfoHiz2BsoTFpDPrSO8MyxrT-N8Xq8cyMH_PGyq4kBn2jXr-yogdWIIDT0PQMlwh4aMy7SN7lmJe_jxJqgZ8Q7hleVpUWhE615lewL2ZFqGWhvTdfWy65UilTTBbkwn5A&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Özellikle akşam yemekleri için rezervasyon yaptırmanızı öneririz."
+    },
+    {
+      "name": "La Flauta",
+      "area": "Sant Antoni",
+      "category": "Restoran",
+      "subcategory": "Tapas",
+      "tags": [
+        "tapas",
+        "flauta",
+        "yerel"
+      ],
+      "distanceFromCenter": 1.2,
+      "lat": 41.3813,
+      "lng": 2.1612,
+      "price": "low",
+      "rating": 4.6,
+      "description": "La Flauta, Sant Antoni bölgesinin en popüler lezzet duraklarından biri. Özenle hazırlanan menüsü, kaliteli hizmeti ve tapas mutfağının seçkin örnekleriyle hem göze hem damağa hitap ediyor.",
+      "bestTime": "Akşam",
+      "bestFor": [
+        "bütçe gezgini"
+      ],
+      "source": "local",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHpj9Yq3MYat_yRiUpPN25-l6wnp--spcMuLXPo0hXyKvMn8AxMY-Apn7nieZCdQGeVsHSz2uPbU5uLOV1lL7ookO36PgKcspJSK2ApdriiXw4TOYUJFNWsJ5I-6YIID41GoLh7qB-2N-XEs22gqA4IZ-j3E-2GF8KQWty1MdWph4izBVanKg-pai2wvsByJBIxZy9zRjaO7bTn8Ex7WblmKE1cLrR9ksR0Q-610IiT-l-v_7Zh3GUEisW05ZC0x3gft_L5DiGrHTcq0QZvMY4EukWEoimdq7mO2G0KsFTn6SA&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Özellikle akşam yemekleri için rezervasyon yaptırmanızı öneririz."
+    },
+    {
+      "name": "Bar Bodega Quimet",
+      "area": "Gràcia",
+      "category": "Restoran",
+      "subcategory": "Vermouth",
+      "tags": [
+        "vermouth",
+        "tapas",
+        "aile işletmesi"
+      ],
+      "distanceFromCenter": 3.0,
+      "lat": 41.4018,
+      "lng": 2.1568,
+      "price": "low",
+      "rating": 4.7,
+      "description": "Bar Bodega Quimet, Gràcia bölgesinin en popüler lezzet duraklarından biri. Özenle hazırlanan menüsü, kaliteli hizmeti ve vermouth mutfağının seçkin örnekleriyle hem göze hem damağa hitap ediyor.",
+      "bestTime": "Öğle vermouth",
+      "bestFor": [
+        "lokal deneyim"
+      ],
+      "source": "local",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHovi4e2KmvGtBq9ltOW5thMic0DH-p4kSU51pIlbCjGpG6RMJ0ec0RN8GsVMmhjEtbNKIqyxSc-vNu4Qawg0c9-Jhs4Bm012TmHV8TJCT6VHVT1lcVcPWYZQaeixcggHdjL-ilpNubKsaiHkCgq0sGFpcx5i4ZwZ_jEKa_z4Kwahwrf9FjMcMmYTSEAAZcQsmk9rA5sKsv43pz0nmLe4k9L-xnGRVDHPZT0uIbBAqZjZNh_QJ_zoPaJQQ3R3Icc5OoH0-H6U2wW2IJHgG1jSrER4YiDeCsr8uOfUlLAIDVCmQ&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Özellikle akşam yemekleri için rezervasyon yaptırmanızı öneririz."
+    },
+    {
+      "name": "El Xampanyet",
+      "area": "El Born",
+      "category": "Restoran",
+      "subcategory": "Şampanya Bar",
+      "tags": [
+        "cava",
+        "tapas",
+        "geleneksel"
+      ],
+      "distanceFromCenter": 0.8,
+      "lat": 41.3853,
+      "lng": 2.1816,
+      "price": "medium",
+      "rating": 4.5,
+      "description": "El Xampanyet, El Born bölgesinin en popüler lezzet duraklarından biri. Özenle hazırlanan menüsü, kaliteli hizmeti ve şampanya bar mutfağının seçkin örnekleriyle hem göze hem damağa hitap ediyor.",
+      "bestTime": "Akşam erken",
+      "bestFor": [
+        "lokal deneyim"
+      ],
+      "source": "local",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHrNpF2eggsIpb3bX8lBC6viudwV4o9bwTTY4VNVyTMKn_hFTALSlGxlVfMw7AZ3bYaS2uRvHotNDMbaxcv11NznBkKeiQ-aRzi6rKYDriVV4C_aHxee4CMre8SYDm_lGIKWnzuzYz2pXNcJcAr2UsdoR_0pfaq_soKtJdMPU3yAOjU0J7N86TxK99GMCmS-jhIXYEwnF9LomXaOKXIcIA_G5LbZsn-h9j1t87aVjPsvILILK-_YAIN0BP4sKWVLbILs26MgqPMBg8oMv7nRJuH-GAd1tT3fOOhmZIc3HeyHMA&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Özellikle akşam yemekleri için rezervasyon yaptırmanızı öneririz."
+    },
+    {
+      "name": "Paco Meralgo",
+      "area": "Eixample",
+      "category": "Restoran",
+      "subcategory": "Deniz Ürünleri",
+      "tags": [
+        "deniz ürünleri",
+        "tapas",
+        "kaliteli"
+      ],
+      "distanceFromCenter": 2.0,
+      "lat": 41.394,
+      "lng": 2.1512,
+      "price": "high",
+      "rating": 4.6,
+      "description": "Paco Meralgo, Eixample bölgesinin en popüler lezzet duraklarından biri. Özenle hazırlanan menüsü, kaliteli hizmeti ve deniz ürünleri mutfağının seçkin örnekleriyle hem göze hem damağa hitap ediyor.",
+      "bestTime": "Akşam",
+      "bestFor": [
+        "yemek severler"
+      ],
+      "source": "tripadvisor",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHorTM9LqZnXBiO74sfUDeqnhXbDfEkcFWcoB1SYD0Se5VHgu2n8DdfCEeEZmwC0NXNLYE56JLB5giP2tuW8d601jKsCwHXfgIaB5vqy9cTYBW5QKZPyZZ9DLVpLmIBxCmnE5s8xb7ql2ljCeFTzMzr04whibpb683YvYCas4zpXB6bgthKF4wzeFczBCrOYV9Sxl2C1aFUBrOHVbOV3Hmy6fAxzotxblemGVYZjmDS1ml_hSmUnKE35nJtrszRrBNeQz6DUv4UhLv1lr7iVt6tGW7Ngc7jHBHJlZxJOvJbJcw&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Özellikle akşam yemekleri için rezervasyon yaptırmanızı öneririz."
+    },
+    {
+      "name": "La Pepita",
+      "area": "Gràcia",
+      "category": "Restoran",
+      "subcategory": "Tapas Modern",
+      "tags": [
+        "tapas",
+        "modern",
+        "gourmet"
+      ],
+      "distanceFromCenter": 2.8,
+      "lat": 41.4003,
+      "lng": 2.1584,
+      "price": "medium",
+      "rating": 4.6,
+      "description": "La Pepita, Gràcia bölgesinin en popüler lezzet duraklarından biri. Özenle hazırlanan menüsü, kaliteli hizmeti ve tapas modern mutfağının seçkin örnekleriyle hem göze hem damağa hitap ediyor.",
+      "bestTime": "Akşam",
+      "bestFor": [
+        "çiftler"
+      ],
+      "source": "tripadvisor",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHrNFX0ESkCCmgAKhYuh7s3bh2T3qBHRMDjms9GQosepc45fiskh1r_I1P1e0z8VHJfB9AS3aqsmaezd9F49OuDFyQn5cUzZBvH540ltWE9sWaMWEmjY_gPesQJgGTxO0GdOZ7a8Q1_s2SRdW9YiIPXUeU9x9824PXQr9HzqCpfrKAGpIePnnQDx8J85RON5hbIVTtGaj2XO1UarRfl3t17Xkcl1Z_mkH5yrlwJQNXzUtW-sLWyNPs36lXmggJtBrlC5uuXEp_uru3G7UVHyyECX0OLw7TpwToy4r6AAZNwySA&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Özellikle akşam yemekleri için rezervasyon yaptırmanızı öneririz."
+    },
+    {
+      "name": "Cervecería Catalana",
+      "area": "Eixample",
+      "category": "Restoran",
+      "subcategory": "Tapas",
+      "tags": [
+        "tapas",
+        "popüler",
+        "çeşitli"
+      ],
+      "distanceFromCenter": 1.5,
+      "lat": 41.3922,
+      "lng": 2.1612,
+      "price": "medium",
+      "rating": 4.5,
+      "description": "Cervecería Catalana, Eixample bölgesinin en popüler lezzet duraklarından biri. Özenle hazırlanan menüsü, kaliteli hizmeti ve tapas mutfağının seçkin örnekleriyle hem göze hem damağa hitap ediyor.",
+      "bestTime": "13:00 veya 20:00",
+      "bestFor": [
+        "yemek severler"
+      ],
+      "source": "tripadvisor",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHo4g8ZQZf4_2gaPnhoS1Wab41Hkrf2DEDVwc7p6kOVIsE_WZQfXIJ8DnuhYkUM-z_dKOUTavhXcAnBj37IZh4mW3R_CjhOQHyIcGZBloz3bR939yvNPPysnxRXkuIy5pSYlY-ZQkus7_a5vYUomI7O7EJWyUgY2n-v5sr0IHExslwcffFcwHSuVFcOGPHXEEs06qsBnjod_1fT0hyxQNA5EJQNj8mxYsereAJZxlHZX1ZS9rlwJ6pI5UZUJoJbiRFhYUozy2up_AgoLJDTyfmsCQg98JV9vRbUnzHNPqz8&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Özellikle akşam yemekleri için rezervasyon yaptırmanızı öneririz."
+    },
+    {
+      "name": "Casa Lolea",
+      "area": "Gothic Quarter",
+      "category": "Restoran",
+      "subcategory": "Sangria",
+      "tags": [
+        "sangria",
+        "tapas",
+        "renkli"
+      ],
+      "distanceFromCenter": 0.4,
+      "lat": 41.3828,
+      "lng": 2.1768,
+      "price": "medium",
+      "rating": 4.4,
+      "description": "Casa Lolea, Gothic Quarter bölgesinin en popüler lezzet duraklarından biri. Özenle hazırlanan menüsü, kaliteli hizmeti ve sangria mutfağının seçkin örnekleriyle hem göze hem damağa hitap ediyor.",
+      "bestTime": "Akşam erken",
+      "bestFor": [
+        "çiftler"
+      ],
+      "source": "tripadvisor",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHpkpxr9WHVR95dGD1Chk73hZtrpDl3StK4U6NzY8_Fd9gCpNTiQaqsg4uTVzTM7RFYkOa1e7lpP1LtrXL0J3kj1T_D85JAjTZBYVHFfq_hoMxLMqh7H-sKA93oNyaTHQRBNkoBdS5wYiYwpXUIUtS50_zt7YjErb9fnSEeSU7vAO_P8IuEU0yW9fiSz4PX8A8WLPquFzPoutH0PrcI1fk9PRKJvecv0cUQxb_rvyrOd_RNAIV0lwnaRYYNmeVHmZydCXIKNFfEEBtqe1CrzdwfZJcceB8yRasSpPYsZ8oVi1w&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Özellikle akşam yemekleri için rezervasyon yaptırmanızı öneririz."
+    },
+    {
+      "name": "El Nacional",
+      "area": "Passeig de Gràcia",
+      "category": "Restoran",
+      "subcategory": "Food Hall",
+      "tags": [
+        "food hall",
+        "çeşitli",
+        "şık"
+      ],
+      "distanceFromCenter": 1.2,
+      "lat": 41.3919,
+      "lng": 2.1651,
+      "price": "high",
+      "rating": 4.5,
+      "description": "El Nacional, Passeig de Gràcia bölgesinin en popüler lezzet duraklarından biri. Özenle hazırlanan menüsü, kaliteli hizmeti ve food hall mutfağının seçkin örnekleriyle hem göze hem damağa hitap ediyor.",
+      "bestTime": "Akşam",
+      "bestFor": [
+        "grup"
+      ],
+      "source": "tripadvisor",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHrU8AJ43oymFGnORv_FyTHi4pmnpqzCfhh1j2BgSfRiQ77_9H7YE52U3SNuaWF5mzV67DCSKUjR3jBA1mt_SN4hnDXhPXsussVC4CmyTg_grvtMDLsO16GoKwei90mqw_33LE-LDYCU9IimvCrlqFXeg1sD0sf6Ak5ORa1W6elrpQo_EO2rQ7FyKpSsx66YDHp8jUQQKd4IUHL_k-C5AkrHuXgu_zeBkWKKrLxmPra-Xwp-lcqb1Tur1Bx9HPSdMGUjGqKGr4TFP4EPp1kkB3dJe-8E_bhh-K_572KvkhI&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Özellikle akşam yemekleri için rezervasyon yaptırmanızı öneririz."
+    },
+    {
+      "name": "7 Portes",
+      "area": "Barceloneta",
+      "category": "Restoran",
+      "subcategory": "Katalan",
+      "tags": [
+        "paella",
+        "1836",
+        "tarihi"
+      ],
+      "distanceFromCenter": 1.2,
+      "lat": 41.3826,
+      "lng": 2.1849,
+      "price": "high",
+      "rating": 4.5,
+      "description": "7 Portes, Barceloneta bölgesinin en popüler lezzet duraklarından biri. Özenle hazırlanan menüsü, kaliteli hizmeti ve katalan mutfağının seçkin örnekleriyle hem göze hem damağa hitap ediyor.",
+      "bestTime": "Öğle",
+      "bestFor": [
+        "geleneksel deneyim"
+      ],
+      "source": "tripadvisor",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHrw3jaUUk_ZnGv28iGe--ha7l5Kzb9WN-knDohVkfAPEXqO3r8xLaqD_sq8GsHZoOTT69nsda_MZqcKFRrA_ukFrYlC5o80eUHm1apa2DmlbfZHtRSN_RGpGDdZm5pPyMgrBycHjRv21A9s_cR2qLhn7N7lbnO4Pr7Ha9DGkbAS5qabQ6mrVfAJK4gAvTem9OTjW3H3_2q7Q_pyU-lT3OfvC_-zGJx0lrygnmRZa60MG_nj_QLO5vO1iVPJIBjjWhgF9HPL1gK22FnK7-2YsgPh6wRlicpfI0ZUPrD37EDIxQ&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Özellikle akşam yemekleri için rezervasyon yaptırmanızı öneririz."
+    },
+    {
+      "name": "Can Culleretes",
+      "area": "Gothic Quarter",
+      "category": "Restoran",
+      "subcategory": "Katalan",
+      "tags": [
+        "1786",
+        "en eski",
+        "geleneksel"
+      ],
+      "distanceFromCenter": 0.4,
+      "lat": 41.3811,
+      "lng": 2.1743,
+      "price": "medium",
+      "rating": 4.4,
+      "description": "Can Culleretes, Gothic Quarter bölgesinin en popüler lezzet duraklarından biri. Özenle hazırlanan menüsü, kaliteli hizmeti ve katalan mutfağının seçkin örnekleriyle hem göze hem damağa hitap ediyor.",
+      "bestTime": "Öğle",
+      "bestFor": [
+        "tarih severler"
+      ],
+      "source": "local",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHqSo9bGGeyLJNjfGYsbWjigXMTZdsJ3p8KuB9tsVK2MiY4w0ofpJt-jcRwJ_MjRWOFfLKhBt8neifVU58Ih0eytp-Q3aXitPmLB8bN8Jme8J4hjoTQzFIb4z7XM4Rh9GaYSTpNADVGEiNAbb7moUlOB6zWZMLX3IRz_X7QX8NhOKKljB4NpIpHs1pRbOsO7RZROeJhGMrAXvstVhaz2IyAIP1ZlBvjLsOvNGUGamuDicmlSRb1HE3PcFzzjPXg0qb6UOO3i_KVy5YGRinIqNPpVIRImIC3p0vSDOlqf4vc3kA&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Özellikle akşam yemekleri için rezervasyon yaptırmanızı öneririz."
+    },
+    {
+      "name": "Can Paixano (La Xampanyeria)",
+      "area": "Barceloneta",
+      "category": "Bar",
+      "subcategory": "Şampanya Bar",
+      "tags": [
+        "cava",
+        "ucuz",
+        "yerel"
+      ],
+      "distanceFromCenter": 1.3,
+      "lat": 41.3822,
+      "lng": 2.1867,
+      "price": "low",
+      "rating": 4.4,
+      "description": "Can Paixano (La Xampanyeria), Barceloneta gece hayatının nabzını tutan, enerjisi yüksek bir mekan. Özel kokteylleri, müziği ve canlı atmosferiyle arkadaşlarınızla keyifli vakit geçirebileceğiniz popüler bir adres.",
+      "bestTime": "Akşam erken",
+      "bestFor": [
+        "bütçe gezgini"
+      ],
+      "source": "local",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHpJw5zJtirZYiW6HIsOstw9s4nhYf16mAWifsH7ysgdCN0MIohE-NybcGMjZhqkChi4V-5vizXHp6YXYa44HXzdOae9NW8p8kDMRPI44YViyrtllXfqpng9_ARlqnPM7Ck10ZOsOJA-O4mWMk-7xyPpy60rw7qXLdCa2oT8fPUUVQNYEx4NRmHiHEYWqshznH_3esTi1E-nGi9OkQDLnxOAgA8G8NXIWShKVxa5iHS1jGna_ZZEPsdm9x7bwn-GO5aIyrTh3OGgQvl5KHbfsTDpM-88XAdLOpYJl4Xaq0hm2PF4GHZrkyiKhmw4EEYU-dUh-iPiQ_LTM0HEK5sTLF2_cYPIa6pBqmlGYHxenM4cg929PLn2ZezcAT2MhjITJA_EH6YQr2TjdWlcjIkSlenezqe-0B0kkHm2jwW8frEoxw&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Happy Hour saatlerini (genelde 17:00-20:00) yakalamaya çalışın."
+    },
+    {
+      "name": "Opium Barcelona",
+      "area": "Port Olímpic",
+      "category": "Gece Kulübü",
+      "subcategory": "Beach Club",
+      "tags": [
+        "beach club",
+        "DJ",
+        "turistik"
+      ],
+      "distanceFromCenter": 2.2,
+      "lat": 41.3872,
+      "lng": 2.2005,
+      "price": "high",
+      "rating": 4.2,
+      "description": "Opium Barcelona, Port Olímpic bölgesinde yer alan ve ziyaretçilerine Beach Club bir deneyim sunan popüler bir gece kulübü noktası. Şehrin dokusunu hissetmek için harika bir durak.",
+      "bestTime": "Gece yarısından sonra",
+      "bestFor": [
+        "gençler"
+      ],
+      "source": "local",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHqjx1NzjAkCfqMvWx9dyOe3ix6wZv7rkA4Dpg_4ijT9wi3SysAEaEFEvuQjMKZ3cHoKXGtSoYWPDqLpntWd_AJWWNTUA-S5X-sCZJTjOKFlVwyDGolHseAiL23oNp2HT1hnPW8aNu8JylF7jn-wP5n_iddu_8sGVzUkBCfuKZ-ZfKOy9AJDiEVo9PLSzq09e24OAmqo3d041Uk3UZj0dEO7o9KOjh6bAbsN5bLSdwdKa7qVQXcfASn4CSOn0FYUrEuaCL5FFuMcZMu9UlePtKO3uOs3g_wmidpBtdRryljYBw&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Yerel halkın favori noktalarından biri, keyfini çıkarın!"
+    },
+    {
+      "name": "Razzmatazz",
+      "area": "Poblenou",
+      "category": "Gece Kulübü",
+      "subcategory": "Mega Kulüp",
+      "tags": [
+        "5 oda",
+        "indie",
+        "techno"
+      ],
+      "distanceFromCenter": 2.5,
+      "lat": 41.3975,
+      "lng": 2.1914,
+      "price": "medium",
+      "rating": 4.4,
+      "description": "Razzmatazz, Poblenou bölgesinde yer alan ve ziyaretçilerine Mega Kulüp bir deneyim sunan popüler bir gece kulübü noktası. Şehrin dokusunu hissetmek için harika bir durak.",
+      "bestTime": "Cumartesi gece",
+      "bestFor": [
+        "müzik severler"
+      ],
+      "source": "local",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHqI0rpfJuZm3adRcmJU2px1fetBWmKHvtahXri4sl5NQ7Yk9vRC1ar9pl23CmWc88p_aCBZnTLGxhGy2SKVs25_5H6qs2ZwTepDBH0BubfuXV6W3KTC9Uo2QO_dNoccjITZgGlOatIRbIIwpiqN2AMR86r4IIt27WywIU8A7n7djfi5H04wgwPL5sOO1VXQZ67UykC-_Ufkd7e65KVesWJ_-4rlFFPhIOM7gKnEhAvBB6jA4DTqdxhC8iTTYTvJN4rAmtQUy_1XiNGS5FuztqY8X-samVFrEQmVfviQQyqOXxGYBG85YIxwhWCdrLWWZIBEHlXwlGVGBBjzh1yI5oF0ZoIYLHwspulUckOBwQiWawLisqp-IyPSQ3_hjWN79YP_GOe1Ckh0-DPqtDoP4UaOZXCi7hNEjI5WAXVTdQN5FRNNoZZM_WVpAfJsOg&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Yerel halkın favori noktalarından biri, keyfini çıkarın!"
+    },
+    {
+      "name": "Sala Apolo",
+      "area": "Poble Sec",
+      "category": "Gece Kulübü",
+      "subcategory": "Canlı Müzik",
+      "tags": [
+        "canlı müzik",
+        "indie",
+        "tarihi"
+      ],
+      "distanceFromCenter": 1.5,
+      "lat": 41.3739,
+      "lng": 2.1685,
+      "price": "medium",
+      "rating": 4.5,
+      "description": "Sala Apolo, Poble Sec bölgesinde yer alan ve ziyaretçilerine Canlı Müzik bir deneyim sunan popüler bir gece kulübü noktası. Şehrin dokusunu hissetmek için harika bir durak.",
+      "bestTime": "Pazartesi gece",
+      "bestFor": [
+        "müzik severler"
+      ],
+      "source": "local",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHopfOObGDnZ4-VX8hKFQwm-hzxhTmKbFYqFQgxpDVwPA8eE91YTOu1zW6Ws4w503nNNMI6Tns1smy2QkN6MNeDUWtUEHwr7lu4H0EjxUyF56mHwu7zJi5VO_VV5inbCGs7DBnDii_lX_3SP8yVHC2khApMF_ty031qFyJ9eALqP0Djn2bRTttuNL2EZnrH9bTpm3I8lC_DI8eLnqA9Lc37-2Kt2UexRZJM99TVCF5U4MKGPZIWWOskWcmSvOQSCuVRFnp3IgbjpwGCwyoL1B_1ue3_9E6zKRA52cVDk_wteZg&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Yerel halkın favori noktalarından biri, keyfini çıkarın!"
+    },
+    {
+      "name": "Moog",
+      "area": "El Raval",
+      "category": "Gece Kulübü",
+      "subcategory": "Techno",
+      "tags": [
+        "techno",
+        "küçük",
+        "underground"
+      ],
+      "distanceFromCenter": 0.5,
+      "lat": 41.3794,
+      "lng": 2.1731,
+      "price": "low",
+      "rating": 4.3,
+      "description": "Moog, El Raval bölgesinde yer alan ve ziyaretçilerine Techno bir deneyim sunan popüler bir gece kulübü noktası. Şehrin dokusunu hissetmek için harika bir durak.",
+      "bestTime": "Gece yarısı",
+      "bestFor": [
+        "techno severler"
+      ],
+      "source": "local",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHr_aSlJTut95UbwJfKsKUv5RlIcxi16Z4b6lImyk_7P51X8SNHLBLoJLGS5OULXY1iegFqqBarh9vKDdEdI9bjM59MbVX_jbvLv70YtEVdzrAd47fk2AzXd4hjpo3dF17-4Dl8ZZCkf7v0TI6hM5aIt62d_d25IC_FGLgLO1eOXaWSmFkCjp2YYf3BaM3G3CPmFBxCtyBnIyDTQIj9he0i0SbsMhVXEgrhVK3mPCkKMnCHFyAmBvHSHbCbWQDkVo5V59Hsuq8YV2QzRryI-8bT0YWzhPXSh0ggdofG2gFu96A&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Yerel halkın favori noktalarından biri, keyfini çıkarın!"
+    },
+    {
+      "name": "El Bosc de les Fades",
+      "area": "Las Ramblas",
+      "category": "Bar",
+      "subcategory": "Tema Bar",
+      "tags": [
+        "periler",
+        "orman",
+        "fantasy"
+      ],
+      "distanceFromCenter": 0.4,
+      "lat": 41.3797,
+      "lng": 2.1758,
+      "price": "medium",
+      "rating": 4.3,
+      "description": "El Bosc de les Fades, Las Ramblas gece hayatının nabzını tutan, enerjisi yüksek bir mekan. Özel kokteylleri, müziği ve canlı atmosferiyle arkadaşlarınızla keyifli vakit geçirebileceğiniz popüler bir adres.",
+      "bestTime": "Akşam",
+      "bestFor": [
+        "deneyim arayanlar"
+      ],
+      "source": "local",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHpdnnbsnkK07ddrX66EgHVGhvjvdB2rscRtXiMf6BUFcqS2ygG7ugGZLvbFqAafR4nV9ACvBwXRdRnvlIOBFUBb6hOcOBov6JWq3TesICHEGTr_6U5yq9IXBna4D3GFEXJ0stqyuC0dn_CqtO9h0-BCTo6Tc4Tq8ODf0NjVSP_1PDAs-uHNVIWb3zBq2OSp3_7DCToSG7tLRYvQoN-nkknKlsr9KFqCPvAuahuPmPftRXI7kkPSvdGYUHhlHuc43ZDW4rPz4D7rEbaVWMLrJ9u0olGY01nPAYC5EUUCnPeD4A&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Happy Hour saatlerini (genelde 17:00-20:00) yakalamaya çalışın."
+    },
+    {
+      "name": "Collserola Natural Park",
+      "area": "Collserola",
+      "category": "Doğa",
+      "subcategory": "Orman",
+      "tags": [
+        "yürüyüş",
+        "bisiklet",
+        "manzara"
+      ],
+      "distanceFromCenter": 8.0,
+      "lat": 41.4292,
+      "lng": 2.0953,
+      "price": "low",
+      "rating": 4.7,
+      "description": "Collserola Natural Park, Collserola bölgesinde yer alan ve ziyaretçilerine Orman bir deneyim sunan popüler bir doğa noktası. Şehrin dokusunu hissetmek için harika bir durak.",
+      "bestTime": "Sabah",
+      "bestFor": [
+        "doğa severler"
+      ],
+      "source": "local",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHoIRgXDQamlI4z76bg_qUeU1WT2G24jmHuIVufElI27j_N7oQgaZxSa1HrDMBOxjU_o5qPq7igaD9EPCXo-EJjTCFvw9cKdcmxqViSR83TzZT2KeQf7DBbuGyJJcSczotffnnDXjNgFZ8l-l0HgC80dxOvER2sOINcf0NCCXRooHvfR6oBkOjERT6zt0noXXR0TX7z9_pJv9uryrjN1cB1kFJoes1ij83pMcrd5CY0PIzchmk8DZ_PFlPKHPWls-rTV2_AlyD2FtBG61oIEYprXa_W7jRPJ_542qi34-4bMIw&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Yerel halkın favori noktalarından biri, keyfini çıkarın!"
+    },
+    {
+      "name": "Carretera de les Aigües",
+      "area": "Collserola",
+      "category": "Aktivite",
+      "subcategory": "Yürüyüş/Koşu",
+      "tags": [
+        "trail",
+        "manzara",
+        "koşu"
+      ],
+      "distanceFromCenter": 5.0,
+      "lat": 41.4183,
+      "lng": 2.1243,
+      "price": "low",
+      "rating": 4.8,
+      "description": "Carretera de les Aigües, Collserola bölgesinde yer alan ve ziyaretçilerine Yürüyüş/Koşu bir deneyim sunan popüler bir aktivite noktası. Şehrin dokusunu hissetmek için harika bir durak.",
+      "bestTime": "Sabah erken",
+      "bestFor": [
+        "sporcu"
+      ],
+      "source": "local",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHpof_E_pw_v8Tr_H1bpJjHjiBVeEQE4vDUBiO4lwraPVya5WQIVkwvFtgMoA33VHVKSkl0j_d_qhO67Ctbhx62FmGcyY5EmZCSBxoMb474pcS2_Our0gm0OAkCODDlNY_9rYvyUflTXeAGiKVe5hFiC_DEMGiJWTmjTmnShhfSzrxCbLONZjLHl3IcK24alN-Bw3jUcNb4Vbdhm5cY50URI01uVCfUXXNWd7vLGOAowcj_xEc5bgGzwcKMFJowgc8NLxxqcg1Dx3v9Acu8s5rYWwu3-dKlnJL5FKb6EcbbRGEoOG8sgz7JeybMX5_BPH8iwtqGfClrQuFgGeuwEFmpIKr_EOJRpxrDNMC8baQImcLPb1IVsrJCYi_oZY-xvA5q-zN-Yc5XU4iAuAMDsi0Fp3-127XLgmsXTvyqjHzRLlgFS&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Yerel halkın favori noktalarından biri, keyfini çıkarın!"
+    },
+    {
+      "name": "Bogatell Beach",
+      "area": "Poblenou",
+      "category": "Plaj",
+      "subcategory": "Spor Plajı",
+      "tags": [
+        "voleybol",
+        "daha az kalabalık",
+        "spor"
+      ],
+      "distanceFromCenter": 2.5,
+      "lat": 41.3952,
+      "lng": 2.2068,
+      "price": "low",
+      "rating": 4.5,
+      "description": "Bogatell Beach, güneşin ve denizin tadını çıkarmak isteyenler için mükemmel bir kaçış noktası. Temiz kumsalı ve ferah atmosferiyle yaz günlerinin vazgeçilmez adresi.",
+      "bestTime": "Sabah",
+      "bestFor": [
+        "sporcu"
+      ],
+      "source": "local",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHpg0Hq7aUoFl06aZEaGmTAfNJfeDHyYY_V04d4ONZHZ20NB2zpZr0L6F6yAVEW-sSpljVgN76Wo-Xrp25FnSehBbVVLJETYxEnW48vLovIbHFa_VkhIJdvRleQQvEb2kXPh3XMlSYdSsbTpKqGpZQtfzZBx7EJP9umbKLp76Su8QYbFZihjhqecO1YamoDToqFNcpJwg8o9287NlVWd-Qn9NoIWP-ZzD5P1Baju9klX2X1yzDfimTqqjEkSjVsE_DOWxZBMAIbA3M9rLN8KWJcZIb7W2N4bX9lJbr8ZyYAp_do-wasWpa8RxUk3_qqwPBy97AfODo2_yxOA_dDiXq0zPWV3hfJo1ErErcD-dvHx-ZIvr46b2SF52RAlBTbywyj4xlmh5dnSp-I1BUt2LVx7nIhXQyLCqyhGnvrb_4_YA1N9&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Havlunuzu, güneş kreminizi ve şapkanızı almayı unutmayın."
+    },
+    {
+      "name": "Mar Bella Beach",
+      "area": "Poblenou",
+      "category": "Plaj",
+      "subcategory": "LGBT",
+      "tags": [
+        "lgbt",
+        "nudist bölüm",
+        "genç"
+      ],
+      "distanceFromCenter": 3.5,
+      "lat": 41.4005,
+      "lng": 2.2163,
+      "price": "low",
+      "rating": 4.4,
+      "description": "Mar Bella Beach, güneşin ve denizin tadını çıkarmak isteyenler için mükemmel bir kaçış noktası. Temiz kumsalı ve ferah atmosferiyle yaz günlerinin vazgeçilmez adresi.",
+      "bestTime": "Öğleden sonra",
+      "bestFor": [
+        "lgbt+"
+      ],
+      "source": "local",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHrj504mN1FWSUK2p7O-tRrBTPnsySxEm9b3bW7P8fzTtp2rQNT4aH9hb6I7qiFgCU0mwB1njlnHmbOkcnhFtQfcrMBQgeYC4EVEMc3lfP6SPRPua04bp8sMxbfaqSUuCpZ5onsL1dvlUaY1xvvDHlYdS_chDX92A0BcKvQ0t-AbcEJRHd8-cw54bqxaF7ET5jcQC5FNgFtcKJj3YZdOWlkQRpDnHJQD7Mwv5pqwlFIBWL2TxB2uUP7_aUY-PGE5sXWstvFO0Gf-jbhgOi0TDHmd-qpIAN71Fhv_V_D691h-MztChNYfsqErZcAfLNW1-TOCG0bGLNI8nu-kXYXxj6X895kuTvBNlIl1VGikKVOJaOraKF3TMNImPpy2K4CrwZfyt00pT5eU8k6o1bPFaQsc2EP89iuFnIC-rc55KmJEjw&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Havlunuzu, güneş kreminizi ve şapkanızı almayı unutmayın."
+    },
+    {
+      "name": "Museu del Disseny",
+      "area": "Glòries",
+      "category": "Müze",
+      "subcategory": "Tasarım",
+      "tags": [
+        "tasarım",
+        "moda",
+        "mimari"
+      ],
+      "distanceFromCenter": 2.0,
+      "lat": 41.4028,
+      "lng": 2.1881,
+      "price": "medium",
+      "rating": 4.4,
+      "description": "Museu del Disseny, zengin koleksiyonu ve etkileyici sergileriyle kültür sanat severlerin uğrak noktası. Glòries bölgesinde yer alan mekan, ziyaretçilerine ilham verici ve öğretici bir deneyim sunuyor.",
+      "bestTime": "Öğleden sonra",
+      "bestFor": [
+        "tasarım severler"
+      ],
+      "source": "tripadvisor",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHpG6titk3zA44JmXZb4o64Ef1KJS_BGM8J81ioc5jWVnfbDDeQv4Ut4DKbnWVCgJ1K4XNumz3b-lh8qhhwL_waMzW_RBgI3qEvmH1EuS-6QtsjPTt3MsH-QWYkKT9oPGGkbZrrweUBTjCZGsanZ8Fc1PlT2Zbed0PiM-rnb4fEKYvoNQPE59z5sBXLfHfFC_UsN_Z6e4nDzJoWS_K0rYzIJfGOtKIRMLDJsCbfXyM4-Q0DKlIVYB_vXvxENYVJSpBX5M4oEfv_xwoc-hjv0ua5YKEszMk2bZ4gptHujtPMyZj110p8epPVrdntl83xtrIZFHSEfmByOVWNTAEWUMrugKMJWB7YmMZQMo3XG8_RDjMmhSE7d0ZDRtE6IYGxXWRz3QnO-SOBUdT1crVJKA6DLb_JaWGoDAmlQdDRtluvnUzmn&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Biletinizi önceden online alarak sıra beklemekten kurtulabilirsiniz."
+    },
+    {
+      "name": "CosmoCaixa",
+      "area": "Tibidabo",
+      "category": "Müze",
+      "subcategory": "Bilim",
+      "tags": [
+        "bilim",
+        "çocuklar",
+        "interaktif"
+      ],
+      "distanceFromCenter": 5.5,
+      "lat": 41.4133,
+      "lng": 2.1315,
+      "price": "medium",
+      "rating": 4.7,
+      "description": "CosmoCaixa, zengin koleksiyonu ve etkileyici sergileriyle kültür sanat severlerin uğrak noktası. Tibidabo bölgesinde yer alan mekan, ziyaretçilerine ilham verici ve öğretici bir deneyim sunuyor.",
+      "bestTime": "Sabah",
+      "bestFor": [
+        "aileler"
+      ],
+      "source": "tripadvisor",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHrNQbvXAtRJbQq_xGAaLIhuevxWlisy7hl2fytEEDoEmdybrqdwM4iZL8i-ovhxAv145wQVsMf6eSbnwSySYjfXVp0aioN9PK5rgXnz-rTn6bvYf9cVArd8R6RgOBylivMhMo1XazyDAxem2qon8F1wWzqElJP38XNfnuTPKVm_XK_X8__Nwinx5E4xYUqegU5Q6WYdg-Tg0bU3oP1UdJLZ-c0rRNYZURgY9VtZYMU1JkI0JLlIy9kOluucISE221qSLYQ7JRc5bZ8czN7YoXFYpmU4DxxIuIaoCIJ2FoOI0oTcDKwrxSA7ZoicLdR_2k8yROzSPAoTgG6BCdiUtRYsRA28z9LezhTUB26c6MH5avpejC9vl2to2WI8gS96R7XxE53LczuRyKkhiedx5daL8UndtLYffkC6gxiJtP2hP9Hu&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Biletinizi önceden online alarak sıra beklemekten kurtulabilirsiniz."
+    },
+    {
+      "name": "Barcelona Zoo",
+      "area": "Ciutadella",
+      "category": "Aktivite",
+      "subcategory": "Hayvanat Bahçesi",
+      "tags": [
+        "hayvanlar",
+        "çocuklar",
+        "park"
+      ],
+      "distanceFromCenter": 1.2,
+      "lat": 41.3878,
+      "lng": 2.1899,
+      "price": "medium",
+      "rating": 4.3,
+      "description": "Barcelona Zoo, Ciutadella bölgesinde yer alan ve ziyaretçilerine Hayvanat Bahçesi bir deneyim sunan popüler bir aktivite noktası. Şehrin dokusunu hissetmek için harika bir durak.",
+      "bestTime": "Sabah",
+      "bestFor": [
+        "aileler"
+      ],
+      "source": "tripadvisor",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHousjNGPDTe8UL59MEjfY1ehD6LtmkojzC3uPwmcyJ9aLgfUT1KX3Pn5acpHm4mHMoME4n7KXWsjqUtpMQAIwE5F1hXFhKx5ZPZpx3aRKkUU4vMWP6ztjzqJ4qp-IkTYdyMlD5PPeB2I3xV66Ab6rS3aiKHTzB0xKW1g0J7mhEI3aTrc0XhNNHY9gVcgbAgju071C32cpoUwu4evLkgLGmvnvOUgDvX4HVkG73A-xPMwvxUFxL8512avm11svxoRMz1-nIKKZJbU7pQWt8XvPleCC0PipnwZ5jqCH4YIm6FvbKTHuMVZ7twac04g8WlZLJDTFyuROzUrPBWHMF4SsbDDaHC-G06w2ggdwuDsJFzUZQ0_jYSTVWl-a8xJGVel3xc-V8rwv1AUtvHbdVImR7tIrY-CqdZ07LX-FtJHYIs-64&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Yerel halkın favori noktalarından biri, keyfini çıkarın!"
+    },
+    {
+      "name": "Barcelona Aquarium",
+      "area": "Port Vell",
+      "category": "Aktivite",
+      "subcategory": "Akvaryum",
+      "tags": [
+        "köpek balığı",
+        "çocuklar",
+        "deniz"
+      ],
+      "distanceFromCenter": 1.0,
+      "lat": 41.3768,
+      "lng": 2.1844,
+      "price": "high",
+      "rating": 4.3,
+      "description": "Barcelona Aquarium, Port Vell bölgesinde yer alan ve ziyaretçilerine Akvaryum bir deneyim sunan popüler bir aktivite noktası. Şehrin dokusunu hissetmek için harika bir durak.",
+      "bestTime": "Öğleden sonra",
+      "bestFor": [
+        "aileler"
+      ],
+      "source": "tripadvisor",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHrkjYPH0D810X6942dhpFuo9pHxK5pqKazub8jRdu16t8Y28-hfj4fedl8FexWLgexODKNyxc8QL04SGZ98MBzgUbNAvd2HBSyJIpLy41Uxi-c-jVkxh9BPm-LV1iPGbi8W9NUSngic-Ou8PH4Ip37YpwBr1_obNYDwn9lHhv9iLfdMgAWde-CboGNqptV7qHAVuyT7rj4Txo9Uw7Uu_HvlFvHgXLOYyLExelmvYfhz-cGbkZVKK8NgPpgHuEzXjWpzNIszHIADcqvCS0ms-NEYO0bLEvz10fzEjlttGE97oJU4tAd-BeHu8Zk-y4AdFNTgpr7S6cDbGGhbSesIzhBSH8oo1F4SU1_TovR-4QKwrQLjFryGPbkO52YasrtDsS_RzjIdUZvH8wO6bTj1CnVaebOJmYWoZWwBH80gIcSEjC8C&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Yerel halkın favori noktalarından biri, keyfini çıkarın!"
+    },
+    {
+      "name": "Bike Tour Barcelona",
+      "area": "Merkez",
+      "category": "Aktivite",
+      "subcategory": "Tur",
+      "tags": [
+        "bisiklet",
+        "tur",
+        "eğlenceli"
+      ],
+      "distanceFromCenter": 0.5,
+      "lat": 41.3825,
+      "lng": 2.1792,
+      "price": "medium",
+      "rating": 4.8,
+      "description": "Bike Tour Barcelona, Merkez bölgesinde yer alan ve ziyaretçilerine Tur bir deneyim sunan popüler bir aktivite noktası. Şehrin dokusunu hissetmek için harika bir durak.",
+      "bestTime": "Sabah",
+      "bestFor": [
+        "aktif gezginler"
+      ],
+      "source": "tripadvisor",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHqJAoYb-X-kRQbb2hKQdEjrXrOQ5zZWo-HbYILE5Mmrc8grmXaO1kaWA8fam07bEk54mdYVrGKQPURwPxKR_direjDb-szq4NP1qZp78xfSA8Y0mjNg8iJDwfLDaqVKf96VlXkG4tOfrJWMr1wsm8B79OutTuKPi7Np3iWKFE2leibz93G3ZBjfHd9RvAjMvBvc7PZPNbBG0ugSJADwcHdKHPXsdHcJX__QcPdPTMHfvoeBITS9-StNDYc-QrdT00icludWsbHC_NVZtkgZSrBC-aCegE7JotRBRtTIXwt7eA&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Yerel halkın favori noktalarından biri, keyfini çıkarın!"
+    },
+    {
+      "name": "Flamenco Show Tablao Cordobés",
+      "area": "Las Ramblas",
+      "category": "Aktivite",
+      "subcategory": "Gösteri",
+      "tags": [
+        "flamenco",
+        "ispanyol",
+        "canlı müzik"
+      ],
+      "distanceFromCenter": 0.4,
+      "lat": 41.3803,
+      "lng": 2.1748,
+      "price": "high",
+      "rating": 4.5,
+      "description": "Flamenco Show Tablao Cordobés, Las Ramblas bölgesinde yer alan ve ziyaretçilerine Gösteri bir deneyim sunan popüler bir aktivite noktası. Şehrin dokusunu hissetmek için harika bir durak.",
+      "bestTime": "Akşam 20:00",
+      "bestFor": [
+        "kültür severler"
+      ],
+      "source": "tripadvisor",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHq_h5uRsVGUTXtqrm-nvZGg58PpPiTAnw88fOgplY7kXxSLp5l1O9I4y5MAQuxisnu9r3tiD3SdzxpoBtqa4t9TVDCINrj88CW0YiR8sXJvEEOwmD_LxuDJiq2HebA6Y_br4-DQBoRGI0gPFyEb9hF9bRV3ckiDrO20zh9lJBaUrcUhvf7uJQ5ktwe5PUjsNCC_kNcktJlMDvNeFd5NzZ2tx3xf8ILBgDz99Y4T1EfMVY_lfzIvyiJpCtMRUnrrZLPWJgCiROO5Qjnjq0AMuK3JjOdkkwp8scxccjDA1iyfHg&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Yerel halkın favori noktalarından biri, keyfini çıkarın!"
+    },
+    {
+      "name": "Plaça del Sol",
+      "area": "Gràcia",
+      "category": "Meydan",
+      "subcategory": "Lokal",
+      "tags": [
+        "lokal",
+        "güneş",
+        "aperitif"
+      ],
+      "distanceFromCenter": 3.0,
+      "lat": 41.4015,
+      "lng": 2.1571,
+      "price": "low",
+      "rating": 4.6,
+      "description": "Plaça del Sol, şehrin ritminin hissedildiği canlı bir buluşma noktası. Tarihi dokusu ve çevresindeki mekanlarla Gràcia bölgesinin sosyal hayatının kalbi konumunda.",
+      "bestTime": "Akşam 19:00",
+      "bestFor": [
+        "lokal deneyim"
+      ],
+      "source": "local",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHrGKpDBXwzI-jHotw_pgpvssfzLPjuBfHVfpir_4j-DR8iQb6OyZNqop3B5NQy8QCeriX7guew67tiBai2r7Y1BItGx9xO-9dmtBtCH3pQHUxt4zBi7Us_kk0rWYs54nvjdWcFjZAy9s0kliUjpAUSZaPEOa95mhLywJrwGH7VgIDZ4YUPGhyelgyDet-HH9sDQB9af3E8i0BeZVWU7AanAXI7OxkAxY-QpR3CmqGkWW_LofaLineDI2jtydSWWOUFvBixuXSXIQH1yHq2UhnzLcpY90ghqPuqehU7s4B3ViDdB_uIBsybRjPeZ5U6dGmuANblPFxg8SAN4J1GEf49wlYYQxfBlcRtwZnHzSZKy3QfRZ2HcwW8iFmnDVzq2dMSQ_UYrWTST5EUmHLRs_HQeYqop9DPhZawHPWEDhNBF2Q&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Çevredeki kafelerden birinde oturup gelip geçeni izlemek çok keyifli."
+    },
+    {
+      "name": "Plaça de la Vila de Gràcia",
+      "area": "Gràcia",
+      "category": "Meydan",
+      "subcategory": "Lokal",
+      "tags": [
+        "saat kulesi",
+        "kafe",
+        "meydan"
+      ],
+      "distanceFromCenter": 2.9,
+      "lat": 41.4003,
+      "lng": 2.1566,
+      "price": "low",
+      "rating": 4.5,
+      "description": "Plaça de la Vila de Gràcia, şehrin ritminin hissedildiği canlı bir buluşma noktası. Tarihi dokusu ve çevresindeki mekanlarla Gràcia bölgesinin sosyal hayatının kalbi konumunda.",
+      "bestTime": "Öğleden sonra",
+      "bestFor": [
+        "lokal deneyim"
+      ],
+      "source": "local",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHrd8oaYeycMUXpOTRVm9YVfM6GKYHXsRo0T6xQlRCLAJYZb4Xpnvc8_F-Oov3YyGV3mcw0vy2Le3tp0c2AXvH1rBH0Q9M3WU4zTIgS8GNHU5VEiPzFhzzJd7UQqOZ1pcl9p0B8pnPJ1HNqibuxPF-wVT0RAJMf6eEm0Xm-STI6qQ_7kO46TII2JUxuUAF76NttzonmCxvqutl8_TiDYtfja_sxoZg2NvtDHUJOe-Wh10ooDQMMCjSdcSj9FcGHKHaKLIYsBE1u6x5IbQW3sBBL6YVTBwp0fhShxhCGGj-7CwdnK3t7DFH2Ax0bYeOkjl06IZqE3eibNl66GnySFIzkQ6Rujk7ybZMTyWO0gALtjg5B-9pmg6DzQFdCV7x3jtWHFpD-xeDcCh98oZ5kZPa6LbNb-L014uZ5D_FgQzcEHcA&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Çevredeki kafelerden birinde oturup gelip geçeni izlemek çok keyifli."
+    },
+    {
+      "name": "Mercat de la Llibertat",
+      "area": "Gràcia",
+      "category": "Yeme-İçme",
+      "subcategory": "Pazar",
+      "tags": [
+        "pazar",
+        "modernist",
+        "yerel"
+      ],
+      "distanceFromCenter": 2.8,
+      "lat": 41.4007,
+      "lng": 2.1541,
+      "price": "medium",
+      "rating": 4.5,
+      "description": "Mercat de la Llibertat, Gràcia bölgesinde yer alan ve ziyaretçilerine Pazar bir deneyim sunan popüler bir yeme-i̇çme noktası. Şehrin dokusunu hissetmek için harika bir durak.",
+      "bestTime": "Sabah",
+      "bestFor": [
+        "yemek severler"
+      ],
+      "source": "local",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHo69iK0y4r7TjxFIYd2b9CzHETTKgn0vLYeCT456VNC3wwfy7AQZvfXCczrg0BxFFJkCVjCkruM4qz1QouXF_isL--UcphtmW3IUdjsDHrUX7E5_cKYchNqY-KG1GL9zBowCeYEDMV-aAEiuC35yDKQTPkbz4koBfOotjBDYhuLU2N7xUtWJT_28amLV9YG6FzPIQ95aVAb4_ux24ba-yAapQxvAlm2k1JVa9psXuwjeLfYmYtek5Cal5HjOR22huJcS0w-3ZhATNO8zy7BcNgh-ZTqDioV_OmczxAfPTkB3yO6tvTF9T3klRH2mCoxlq5oVoYR5bQNQRA0YZ7uDdmoU_dt5-0woCBMqS5FuOtfJTQDJymRMUqp0D0lX5uTvYcFdFwouItvLBvEjDLyTi-s3z2f7fv3HYXxg6Je04xaqo8o&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Yerel halkın favori noktalarından biri, keyfini çıkarın!"
+    },
+    {
+      "name": "Sant Antoni Market",
+      "area": "Sant Antoni",
+      "category": "Yeme-İçme",
+      "subcategory": "Pazar",
+      "tags": [
+        "pazar",
+        "kitap",
+        "yerel"
+      ],
+      "distanceFromCenter": 1.3,
+      "lat": 41.3796,
+      "lng": 2.1622,
+      "price": "medium",
+      "rating": 4.6,
+      "description": "Sant Antoni Market, Sant Antoni bölgesinde yer alan ve ziyaretçilerine Pazar bir deneyim sunan popüler bir yeme-i̇çme noktası. Şehrin dokusunu hissetmek için harika bir durak.",
+      "bestTime": "Pazar sabah",
+      "bestFor": [
+        "yemek severler"
+      ],
+      "source": "local",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHopS_voeZJYSg3Cg22CYwt05tjm1OBC4-9p5dOHbHduGYCiH4NuvinpSJe7nJz7uHQw5qav8TsjnzGFBFuEHIlqWIhpvX3qmnBL0cdZsSI0AdLK-UeGNvbLUAmYcuLhghujpX-0VaYVi8hOwblG8em1ZPLUfLo4rBQHikKfbeqOunQOl6wCSkRoNedFuLq6OK_gZuVIqWCt4Dx4y_tf1Z2W-JVpVcwfe-voqGPum2MyYbkq5Fdtjm7_z5qpN0gLA78dm6FK_GaTrSlYpi66OjNjhgq1KpW7n-irH9EIlcACNA&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Yerel halkın favori noktalarından biri, keyfini çıkarın!"
+    },
+    {
+      "name": "Jardins de Mossèn Costa i Llobera",
+      "area": "Montjuïc",
+      "category": "Park",
+      "subcategory": "Botanik",
+      "tags": [
+        "kaktüs",
+        "manzara",
+        "gizli"
+      ],
+      "distanceFromCenter": 2.8,
+      "lat": 41.3652,
+      "lng": 2.1749,
+      "price": "low",
+      "rating": 4.5,
+      "description": "Jardins de Mossèn Costa i Llobera, şehir hayatının karmaşasından uzaklaşıp nefes almak isteyenler için Montjuïc bölgesinde yeşil bir vaha. Yürüyüş yolları, dinlenme alanları ve huzurlu atmosferiyle doğayla baş başa kalmak için ideal.",
+      "bestTime": "Öğleden sonra",
+      "bestFor": [
+        "doğa severler"
+      ],
+      "source": "local",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHoW5bax04_4eoTYK1yuv19TeiL6otOiRiDptnGBN6Eh73FcIEORb5A_dbyGGQ1GXSTuEXQ3bsx-M4y11h4RWlCcVhUcbrppApclHkFtahpe01uG5XqaIOdmI-pP9CmkSoHwX9GMpDvKqE-FOueYXXs0sw2cHXy2qyzOM94zmyVHE7Q2Pny04vTAok_c9ptzZf0KNgdauvkv8rtmIdqKuFZV8AxMqTRL4YM3P_8fxrmrqflKoAr4kEhNX6rh3-yoFp32Joq12b_GWJL5I8Ot_Gad3wbR1qFq3qlGhnjdBKnHNTfIlklXQra21UJdvjhNsGDQcw2H0n4oW7WxslhYafs_Cg9KQ2buOrt_AzZ7ON7vCu-87iVa-6SmrofW4UeUdp22gbItoqgYDcqtDKSs-x_flRzJYIxLuT86PCr538LEDA&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Hafta içi daha sakin olur. Yanınıza su ve atıştırmalık almayı unutmayın."
+    },
+    {
+      "name": "Pedralbes Monastery",
+      "area": "Pedralbes",
+      "category": "Tarihi",
+      "subcategory": "Manastır",
+      "tags": [
+        "gotik",
+        "huzurlu",
+        "sanat"
+      ],
+      "distanceFromCenter": 5.0,
+      "lat": 41.395,
+      "lng": 2.1108,
+      "price": "medium",
+      "rating": 4.6,
+      "description": "Pedralbes Monastery, Pedralbes bölgesinin tarihine ışık tutan önemli bir yapı. Geçmişin izlerini günümüze taşıyan mimarisi ve kültürel mirasıyla, tarih meraklıları için keşfedilmeyi bekleyen bir hazine.",
+      "bestTime": "Sabah",
+      "bestFor": [
+        "tarih severler"
+      ],
+      "source": "local",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHpZ_VD6hUChoVYJYRBKrQjYzxHit1rnm6tNF742xrY2mPC4KvOdII_99QMV1QeeYNmLOsOOhvI96SJeuKal4LPlYlnoENqT4UnqrPiCYxsTVuDjDXxckiY128TM91hDSMeMHSQz17lxdEZuDO7jBc4w5LhOJoV0XGIeVrHjxIvS03KuI4P9HokZ-rcg2ot5t_XfmuZxGBcxVlWcem9xlliGtrIp4BXLpKdvNcykyPyMCnlVdMCfOueGN5Y9XYNK2BI28B9cGFXXS8L-j-afwf37jKILJdCw9JtwNCdUvvH7-A&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Erken saatlerde veya kapanışa yakın giderseniz kalabalıktan kaçınabilirsiniz."
+    },
+    {
+      "name": "Antic Teatre",
+      "area": "El Born",
+      "category": "Kültür",
+      "subcategory": "Alternatif Tiyatro",
+      "tags": [
+        "tiyatro",
+        "bahçe bar",
+        "alternatif"
+      ],
+      "distanceFromCenter": 0.7,
+      "lat": 41.3871,
+      "lng": 2.1744,
+      "price": "low",
+      "rating": 4.7,
+      "description": "Antic Teatre, El Born bölgesinde yer alan ve ziyaretçilerine Alternatif Tiyatro bir deneyim sunan popüler bir kültür noktası. Şehrin dokusunu hissetmek için harika bir durak.",
+      "bestTime": "Akşam",
+      "bestFor": [
+        "alternatif"
+      ],
+      "source": "local",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHqCi9rcLvYwMxVirMF_a2FcoUzL-ctmkR2NT78y1UYpPjZiGOSeiW0gQJ0J0whSzn1s2V3TCJNri7qDlfRtVESS9aJaZig6DPaBzqElaiSOxvwyB-cVJ1PAv5hzCUh6vJupqS0j7jE6uT10e03PrF_jTGH2HLc2vX_AXrkVvYoFyRoLAH5yQx0KsCtGwi-iF0ErVd-mQ2FyJVfIkOdJnUIAYpsFK9UmGqhFm8CkGA5VAPk3GtYvia4KBKf7N28kmalfSpTCizV4JFEwUKBlMJ5a7nmLQmL3iW0gpi9RmUqwDg&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Yerel halkın favori noktalarından biri, keyfini çıkarın!"
+    },
+    {
+      "name": "CaixaForum",
+      "area": "Montjuïc",
+      "category": "Müze",
+      "subcategory": "Sergi",
+      "tags": [
+        "sergi",
+        "ücretsiz",
+        "fabrika"
+      ],
+      "distanceFromCenter": 2.2,
+      "lat": 41.3707,
+      "lng": 2.1489,
+      "price": "low",
+      "rating": 4.5,
+      "description": "CaixaForum, zengin koleksiyonu ve etkileyici sergileriyle kültür sanat severlerin uğrak noktası. Montjuïc bölgesinde yer alan mekan, ziyaretçilerine ilham verici ve öğretici bir deneyim sunuyor.",
+      "bestTime": "Öğleden sonra",
+      "bestFor": [
+        "sanat severler"
+      ],
+      "source": "tripadvisor",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHrdrVQjAqqCBzkLaymummE-oQUhZEEfUa7waPasQMFVLjXP5PAWv2njE5XXFAbI09m1ny-VyNVvThmw5PC0_2b6Ax7g_xzNhYMQuKcoeOGcXYSj4aeQVE5tRV6y40kvRr3aLJ2MDNMdqn8KDa6f-_9ZsIJrpyWBvnm-GT-wSM22taiuvslvgPZ9q66aBrmSC5Mmnhj6ftAmBm3AdLNMdVVKkD5x1gay2QlimhHGQ3A2tfcx-0OvNLA9_W7pmyeL3AMdst1F-m4PBs0L7oYLvVDPBtgkQN6g9cGwkLk-604XTB7YOZXY8RzNTaMnlZJ1JLa1YMnB6wFRjFS2yzbEm8ivh1IJ1hasuCDu3j97rKF8pPNTtjBxH1yKPk2y_FMumnx5Nc5eWo28_lsfZFYjNTwHYhC2ojkXDrEeZCoMlzgYBpA&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Biletinizi önceden online alarak sıra beklemekten kurtulabilirsiniz."
+    },
+    {
+      "name": "Teatre del Liceu",
+      "area": "Las Ramblas",
+      "category": "Kültür",
+      "subcategory": "Opera",
+      "tags": [
+        "opera",
+        "bale",
+        "tarihi"
+      ],
+      "distanceFromCenter": 0.4,
+      "lat": 41.3798,
+      "lng": 2.1736,
+      "price": "high",
+      "rating": 4.7,
+      "description": "Teatre del Liceu, Las Ramblas bölgesinde yer alan ve ziyaretçilerine Opera bir deneyim sunan popüler bir kültür noktası. Şehrin dokusunu hissetmek için harika bir durak.",
+      "bestTime": "Akşam gösteri",
+      "bestFor": [
+        "kültür severler"
+      ],
+      "source": "tripadvisor",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHrnTNY-j7Irebz-gyvCFueWvPcl6bOoKGpjEQJEevV6Q6ogqqmyZ3eeVc8DQcZWWMCMQNtp616WsNCVh6NLXG7hIvstMWwqoYHGixFpBKWIb3qQkQuKJvLfx4Xd2r4eAO9poMLJSEvGdTnWtFzJDheSc--vBsG0Mepk7Zey4Mi6RxSPsZqECYxYWoJ7F0o5ks5wyuy6w91Ru_ZYhtmEhh5OQIwOBzgp1xOZbj0Qx0WxFC7W-qRAVC3XEHlAKxr6oc6quNGNkAm1pTeRxcaBUX2pWM83VmFqKinoo_utI15rTdvl3sN7YttMzNtw6B6--iUonZU_r9T3FJTGsgz866IR8jHoIrZr6avixGj1xkfSIhBInsw4VNi9LzYHVRGneXmZPbuwxhzitEiwr33lBae9wJbv329kscb6Lrr4bPccgSis&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Yerel halkın favori noktalarından biri, keyfini çıkarın!"
+    },
+    {
+      "name": "El Jardí",
+      "area": "El Raval",
+      "category": "Bar",
+      "subcategory": "Bahçe Bar",
+      "tags": [
+        "gizli bahçe",
+        "romantik",
+        "huzurlu"
+      ],
+      "distanceFromCenter": 0.5,
+      "lat": 41.3823,
+      "lng": 2.1694,
+      "price": "medium",
+      "rating": 4.6,
+      "description": "El Jardí, El Raval gece hayatının nabzını tutan, enerjisi yüksek bir mekan. Özel kokteylleri, müziği ve canlı atmosferiyle arkadaşlarınızla keyifli vakit geçirebileceğiniz popüler bir adres.",
+      "bestTime": "Akşam erken",
+      "bestFor": [
+        "çiftler"
+      ],
+      "source": "local",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHoLpyt4WkNYg5mObOUhlTnq3wOPpJTs9J47dXLcA8Iwz8mkCDJgu-H7ogYcCsoNzxHvrK2bHjLbgOCqU3c2JmdCrrlLDxXBUxEyURpQP79uZ8Ii8GUKdg59a4dN-wsXNhOFTwPZTvzTtmCXl-ACPxY2gDswRbYNPZjSVpgXSs7RQnyUNn7PU_CuVeFAEbyhOZkghSOJGNp6fNd-uR70SsdFQhoLDBN3E_M221FNLnvorrS30XRSvkO9aMnb5jEXsWLq851Z6XpjDJsr8xrrwKKXsL8rJ_ewrcRs-iFMbGSTsw&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Happy Hour saatlerini (genelde 17:00-20:00) yakalamaya çalışın."
+    },
+    {
+      "name": "Bitter Cocktail Bar",
+      "area": "Sant Antoni",
+      "category": "Bar",
+      "subcategory": "Kokteyl",
+      "tags": [
+        "kokteyl",
+        "bitter",
+        "modern"
+      ],
+      "distanceFromCenter": 1.4,
+      "lat": 41.3801,
+      "lng": 2.1598,
+      "price": "medium",
+      "rating": 4.6,
+      "description": "Bitter Cocktail Bar, Sant Antoni gece hayatının nabzını tutan, enerjisi yüksek bir mekan. Özel kokteylleri, müziği ve canlı atmosferiyle arkadaşlarınızla keyifli vakit geçirebileceğiniz popüler bir adres.",
+      "bestTime": "Akşam",
+      "bestFor": [
+        "kokteyl severler"
+      ],
+      "source": "local",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHp2QdWSnhEqtmD4NQwR7ljeCGuE1tLGniQLIcriZsBJUCIDK93KW2x-sgmmRxk6Wxz5-4waUd0W8-1E3PcK7mt8jhL4mk2BcbQXxxn7WGm2Isk35g_l_9mUFfXo2RRw0nguQ_nPc8MxvHdfuqAHieYdmVY6lXj_hXeEqq46PzJADKnZ62SFLACFzXtq7Fmb0P16S4XjrrR2zPO6G6d2k1CQ3vxDwb1GssQ0Y2kD09YRWHVdWDW43C5UidBzbObi975JGNnzl2jS0QDzFmmMiHXDE1itz0vxTuZ0VQVNIs_vXA&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Happy Hour saatlerini (genelde 17:00-20:00) yakalamaya çalışın."
+    },
+    {
+      "name": "Two Schmucks",
+      "area": "El Raval",
+      "category": "Bar",
+      "subcategory": "Kokteyl",
+      "tags": [
+        "kokteyl",
+        "funky",
+        "ödüllü"
+      ],
+      "distanceFromCenter": 0.6,
+      "lat": 41.3836,
+      "lng": 2.167,
+      "price": "medium",
+      "rating": 4.7,
+      "description": "Two Schmucks, El Raval gece hayatının nabzını tutan, enerjisi yüksek bir mekan. Özel kokteylleri, müziği ve canlı atmosferiyle arkadaşlarınızla keyifli vakit geçirebileceğiniz popüler bir adres.",
+      "bestTime": "Akşam",
+      "bestFor": [
+        "kokteyl severler"
+      ],
+      "source": "tripadvisor",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHq9kuM0qIGvvq2hsJITL1qV8yVRGRCE-eJxEkM3vFPoIPW3bHMyZntZksfod-JtAepabSmQG-GWAzlBTL8euvEDWFoSCxszHwAGSnUl4uS4-o7t3QJe4gySGt5BnAdckNYwHv6cKouxp6e2hMEwjlHXnrBTGQgmh0Yi-gNo-0sK6zUz4LSI5P0B1XTyDGmMZoL8f5mgrxhx4uuoDwxP9wo3CuvEksG1YwQmiRiYnLfkd0cf02XlPKBaWEj8HSaKW_Ef0XetA6I4h-whGuAoBGlGUL-QfkIqmeaAWkMj4uUzr86u9sn71cDJdS8cLdcNcHfySFMx9Tof3bpwjHBcAY5R22ShzUdVIKKtn-HLmphT_06X6gKRQSh_X3iepchC8iUSbaXXuEPSSRAHbSW2ZtG2JsRNHTdo4nwDn33jlR201w&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Happy Hour saatlerini (genelde 17:00-20:00) yakalamaya çalışın."
+    },
+    {
+      "name": "Dr. Stravinsky",
+      "area": "El Born",
+      "category": "Bar",
+      "subcategory": "Kokteyl",
+      "tags": [
+        "speakeasy",
+        "klasik",
+        "gizli"
+      ],
+      "distanceFromCenter": 0.9,
+      "lat": 41.3843,
+      "lng": 2.1808,
+      "price": "high",
+      "rating": 4.6,
+      "description": "Dr. Stravinsky, El Born gece hayatının nabzını tutan, enerjisi yüksek bir mekan. Özel kokteylleri, müziği ve canlı atmosferiyle arkadaşlarınızla keyifli vakit geçirebileceğiniz popüler bir adres.",
+      "bestTime": "Akşam",
+      "bestFor": [
+        "kokteyl severler"
+      ],
+      "source": "local",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHr4XKoae11Gngvb7OdUiG5aRggmMOUovb59BE_QtrS-B0e5EfgWyBOo-XzxYha-JRYRHmtorGn_hBToXLJSmGSEmemknPZFyaqZP5PkCcr6LveUwRb9Adnom7cgzO9Wj-9mzExB-uh_AfNqgxzd6mcJjsZMI_nse69iFGElp8NeqDQryKk5NGk7q860y9xyqzIeRMNe5hGwRRaskRFuKV6aCjrWJJQYkKZ8GABqpnxBIBdSe66Zn9is4M1QM5K-q2YSEh3sSeP8yFQydGeZzgoA20fXocCQf5pq2fj2K2Q2qg&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Happy Hour saatlerini (genelde 17:00-20:00) yakalamaya çalışın."
+    },
+    {
+      "name": "Bar Calders",
+      "area": "Sant Antoni",
+      "category": "Bar",
+      "subcategory": "Vermouth",
+      "tags": [
+        "vermouth",
+        "teras",
+        "yerel"
+      ],
+      "distanceFromCenter": 1.3,
+      "lat": 41.3794,
+      "lng": 2.1605,
+      "price": "low",
+      "rating": 4.6,
+      "description": "Bar Calders, Sant Antoni gece hayatının nabzını tutan, enerjisi yüksek bir mekan. Özel kokteylleri, müziği ve canlı atmosferiyle arkadaşlarınızla keyifli vakit geçirebileceğiniz popüler bir adres.",
+      "bestTime": "Pazar öğle",
+      "bestFor": [
+        "lokal deneyim"
+      ],
+      "source": "local",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHrmK6FKKWhsY9ZmzcwGU-meff8y1schXkAuWkkYO1TsONuecHqUmq_AKEUfxUhSWQ7YpHb_XHRmoYj0gb6OrgT5AxhcJv6PaIna_EJQIBe-rnNibTDbANxSFF9alZ7pJ5gfE2jE46tsZqJgiVJLJiTK0ZpskKag5inMyevzxRP8JCMqkQRu9S5SyR5TPQVJ1PyGArIW7w4AJiu9TQ9w9tyIExdrbCmCLRRCAzC8mkgSiLI1fxyKFcEVOFodC94gPIxQ-pBX8hMdsMjsMIHx-sdNYXmKXew0y9Wx3IFxSYZHEQ&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Happy Hour saatlerini (genelde 17:00-20:00) yakalamaya çalışın."
+    },
+    {
+      "name": "Plaça Sant Felip Neri",
+      "area": "Gothic Quarter",
+      "category": "Meydan",
+      "subcategory": "Gizli",
+      "tags": [
+        "gizli",
+        "tarihi",
+        "huzurlu"
+      ],
+      "distanceFromCenter": 0.3,
+      "lat": 41.3836,
+      "lng": 2.1758,
+      "price": "low",
+      "rating": 4.7,
+      "description": "Plaça Sant Felip Neri, şehrin ritminin hissedildiği canlı bir buluşma noktası. Tarihi dokusu ve çevresindeki mekanlarla Gothic Quarter bölgesinin sosyal hayatının kalbi konumunda.",
+      "bestTime": "Sabah erken",
+      "bestFor": [
+        "fotoğrafçılar"
+      ],
+      "source": "local",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHpMuFqecUs7XjkwhbJsay2OyePix6TOS_przowSohsfppljpl0g0uJe0mQjfmZyE8xMxUxg_wZvxxA8MPZdC-dZ69qCiA-HFVvaMVinL3-mWMZFupcyuysm_S9wuLY4G7tF5rxuxE6BGuJ81cTxBOQIt1w-T9Mh81t85-_Uc9UMuLNsct2AjHAUukC00JNIrnA53OyaZ3RW-RczB45iydXJhhIgevOSts1-g_IB7KCtK8uKF-6FbbxzeBRucUIz4cVdi_I1ot-DenirO790ysYF9RKJx6XR0j7n9SQ-obH2i3_hfN4PemIJ4OUUxBAnOmOrA1pQXz_tO69D-ZZMyNkar8x-kOCRJ_MwQeVoFOCMPSugrMS8peE_Y8VnYRDhKkLH1lYNmYBGx4r1QW8D1-XDiVBocVPab305qgv7-cmKok0X&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Çevredeki kafelerden birinde oturup gelip geçeni izlemek çok keyifli."
+    },
+    {
+      "name": "Grec Theatre",
+      "area": "Montjuïc",
+      "category": "Kültür",
+      "subcategory": "Açık Hava Tiyatro",
+      "tags": [
+        "açık hava",
+        "festival",
+        "antik"
+      ],
+      "distanceFromCenter": 2.5,
+      "lat": 41.3673,
+      "lng": 2.1627,
+      "price": "medium",
+      "rating": 4.6,
+      "description": "Grec Theatre, Montjuïc bölgesinde yer alan ve ziyaretçilerine Açık Hava Tiyatro bir deneyim sunan popüler bir kültür noktası. Şehrin dokusunu hissetmek için harika bir durak.",
+      "bestTime": "Yaz akşamları",
+      "bestFor": [
+        "kültür severler"
+      ],
+      "source": "local",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHqnxgxWVygIwZn64k_rZynKVKTz4t8hQ3Rrd-yS-hGWWY0kxs8_NWeR7XmTjCDoS_lrR_8rw2vXKGZISwuST8NjMRsNR9SyJPU9KDueE_seF_OEwXZ6SnWb8NoQiYo2i1kAwr8E6FGcaWneDPgMNBeBXWwYbae54mr9EaKbtDWCp6iWEPtvJQYu6Y_qgM94F-W_r2MoFQVSmoBqRxoVcJebnAyjCb2b7RILZ9NylDNY2UJ0B1XP2Z4tvfh6QAhuG1a6TZYbLBYIfEDC7XsPtJIZ8fIcXbnGgSpzvxigD6eiTYzw50DNSuK9AEJRpFTMGLGIcfLmB6g10r4w7aHs-8Ul60sCtzfArxNdJk0Y6_IatBLN4Eltm4l8SW_j28_Iaq4hxfDo5uOTeCq-NLNFGRtzmAzNr_CXgkKA7ypdKAfHj3so&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Yerel halkın favori noktalarından biri, keyfini çıkarın!"
+    },
+    {
+      "name": "Montjuïc Castle",
+      "area": "Montjuïc",
+      "category": "Tarihi",
+      "subcategory": "Kale",
+      "tags": [
+        "kale",
+        "manzara",
+        "tarih"
+      ],
+      "distanceFromCenter": 3.0,
+      "lat": 41.3636,
+      "lng": 2.1661,
+      "price": "medium",
+      "rating": 4.4,
+      "description": "Montjuïc Castle, Montjuïc bölgesinin tarihine ışık tutan önemli bir yapı. Geçmişin izlerini günümüze taşıyan mimarisi ve kültürel mirasıyla, tarih meraklıları için keşfedilmeyi bekleyen bir hazine.",
+      "bestTime": "Gün batımı",
+      "bestFor": [
+        "tarih severler"
+      ],
+      "source": "tripadvisor",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHqjKprPc1NeEdKAfJJCFpgLCktVv7xF_7hPcVM-H4xuDpOoTv5gK5ykdeV3lIn3CrSi21mITso9-ASm34HpDVfy8j2cw5tXEjNWjAJPgJk6naN2v82qKdBNDLqLn-hNcz8g5E-dOxnH3TIJdgwS9YxV7NHqwYi3dZw1h6ZCfHmHCYzj_LQoIecH-LuAsVR0OSY43HnGXuUEydrLRUYzAUBLUrrP_HagyV2CKs5HrVBC4JPmsakrxclVTQCy-PlMN6WChCSxjjv853PB7YhH9aesaYbk9Dfbq6shs3tnAjOl3dpeDLL0jJ-vlpf725ce2YyNBWItJKW8D0OhADt3OuQP50g6q63vyIpF4xH-R3Ux3MOYEdNH9zLCynqAG5Gs4_z0x5EZSPNWHRvF_yVFEFcPis7pTVTkXMYibkkBEqA&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Erken saatlerde veya kapanışa yakın giderseniz kalabalıktan kaçınabilirsiniz."
+    },
+    {
+      "name": "Teleféric de Montjuïc",
+      "area": "Montjuïc",
+      "category": "Aktivite",
+      "subcategory": "Teleferik",
+      "tags": [
+        "teleferik",
+        "manzara",
+        "ulaşım"
+      ],
+      "distanceFromCenter": 2.5,
+      "lat": 41.3712,
+      "lng": 2.1565,
+      "price": "medium",
+      "rating": 4.5,
+      "description": "Teleféric de Montjuïc, Montjuïc bölgesinde yer alan ve ziyaretçilerine Teleferik bir deneyim sunan popüler bir aktivite noktası. Şehrin dokusunu hissetmek için harika bir durak.",
+      "bestTime": "Gün batımı",
+      "bestFor": [
+        "herkes"
+      ],
+      "source": "tripadvisor",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHqvBeAfi8uH-x1YAq4SbdAxyk-UgkhP_zvHq8b6ZDVre7fI-E7o3pw2NOyoppfvFrlgDBoMPr2VvinZI72CWokodCPxCsXqIk_ThS9GIS0nf56C_VsXqHwPmu8zqxyGZ6W5bXGEbNGyFD5lYMziMTuwANO0dpeCZqrt05UkgFVxs_6drjBWC3Up3iOzrifQ4vqqzFYiht2pD5PKyCM049m9QxgPK459QvLtZrsOc1oFsOpuX5RAwYnFfyvwMDJ3fr4qqjx3MZG69nLf4RQGcr9iAOLL9hVPbsi3mkBnfcCUIHFj-Ixp8ucIDowdWHKz_ocL9m4eqNUY6MyvAE2i_UpyuZfAk3Wg9tEOSzmdloSXsnMUapFz2sE0bG8ai8clxfkNP1IJf7nJrod7uqCLkFoCL-QrYOZ1EFbKndGAe60REw&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Yerel halkın favori noktalarından biri, keyfini çıkarın!"
+    },
+    {
+      "name": "Port Vell Aerial Tramway",
+      "area": "Barceloneta",
+      "category": "Aktivite",
+      "subcategory": "Teleferik",
+      "tags": [
+        "eski teleferik",
+        "liman",
+        "manzara"
+      ],
+      "distanceFromCenter": 1.2,
+      "lat": 41.3752,
+      "lng": 2.1812,
+      "price": "medium",
+      "rating": 4.4,
+      "description": "Port Vell Aerial Tramway, Barceloneta bölgesinde yer alan ve ziyaretçilerine Teleferik bir deneyim sunan popüler bir aktivite noktası. Şehrin dokusunu hissetmek için harika bir durak.",
+      "bestTime": "Öğleden sonra",
+      "bestFor": [
+        "maceraperest"
+      ],
+      "source": "tripadvisor",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHpyxWrb9rJZdPi27WhPCOiIuIPhZ8mssyck8pFqzWTMKbh_LV6xyrIkjoQzGMg9NLQ-_X2CTR_5_ccyPFLSrsz3bIYr2OCe_tu5C8gs0my8uVZdxbvy5D6sGLcwuK0xCDhsIaAc9iWyegK0e9TheBLt-ZogR_K2s7AhLuLHPmb36IAGgSASD11mxE_Tvfpi4st4iQzdTpU4bN34wgoqmuEHs2GdsRdGE05-Gcx04PBr7r4kjeIYl4jd8ct2f-dZ__I4p76YVBKzPY5uA730ttYSyFe13gAJiwbe3IODzplN0n8oBndpNiZu4QphPh7XYF3P2IeTsZCQym3LJcqJWiBJ_iujpxoyEkRi2KVYw9q3rinF0Sn8ZBTfPJuV4IjDjAO0kzEp_o7jYw8ZLPhr1GTrRzvXd-6rGDw7X_MPzD7YKw&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "tips": "Yerel halkın favori noktalarından biri, keyfini çıkarın!"
     }
   ]
 }

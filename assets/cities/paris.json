@@ -1,0 +1,202 @@
+{
+  "city": "Paris",
+  "country": "Fransa",
+  "description": "Işıklar şehri. Romantizm, sanat, moda ve gastronomi başkenti.",
+  "heroImage": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=800",
+  "coordinates": {
+    "lat": 48.8566,
+    "lng": 2.3522
+  },
+  "highlights": [
+    {
+      "name": "Eyfel Kulesi",
+      "area": "7. Bölge",
+      "category": "Manzara",
+      "tags": [
+        "simge",
+        "manzara",
+        "romantik"
+      ],
+      "distanceFromCenter": 3.5,
+      "lat": 48.8584,
+      "lng": 2.2945,
+      "price": "high",
+      "rating": 4.8,
+      "description": "Eyfel Kulesi, şehrin en etkileyici manzaralarından birine ev sahipliği yapıyor. Özellikle gün batımında sunduğu görsel şölen ve 7. Bölge bölgesine hakim konumuyla fotoğraf tutkunları için vazgeçilmez bir nokta.",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHpVigZgafkg1KHUyC2JniEpeQreoQzvCFPn24Ecx0nXvpnn01NEM6IxTtAkyltis3L_-q5Rf-1jVMXQOvUE6HnAHelNuS5OrxwNVb2DEYSVjgq325FdfWAZQCiCUunRTpKhWScTHX6UW77WW-EUdkEM8xS9jkYDAnLPPN9g8JiESDpjP36ExdxUkrRRZXC-b_DDd2iCY-IMiSQXkiN-HOuuu6s16ohuwLGT6OBKVS8I2abg6Jg8-UNAl10Dbz_BXmPq-gdEaUOVnpwjhrM7-s3d4QRwQh4tT_lohTpP6B2IHEBFyHJbcz1Fa5iB4QWpY5eCRlBW069l1zoMPzQCb7tXDEExmq4Z05hmHkK1bPwMWbazjIoeON48JrxsPmkHXBwHwRErfwu0Qy0xU1V4ZzwVBGtV_IO8i50gOTotmbx2gYNV&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "bestTime": "Gün batımı veya gece",
+      "tips": "Gün batımında gitmek için ideal bir nokta. Fotoğraf makinenizi unutmayın."
+    },
+    {
+      "name": "Louvre Müzesi",
+      "area": "1. Bölge",
+      "category": "Müze",
+      "tags": [
+        "sanat",
+        "müze",
+        "tarih"
+      ],
+      "distanceFromCenter": 0.8,
+      "lat": 48.8606,
+      "lng": 2.3376,
+      "price": "medium",
+      "rating": 4.9,
+      "description": "Louvre Müzesi, zengin koleksiyonu ve etkileyici sergileriyle kültür sanat severlerin uğrak noktası. 1. Bölge bölgesinde yer alan mekan, ziyaretçilerine ilham verici ve öğretici bir deneyim sunuyor.",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHqRau8a0NC1AqsX_1K9H2I1Z-qFMe47NP3hwWQjt5EpEE6ZTRq7QSNTZpFmgrIgMo4qZPxi6Dnhj80ahuJZG3MAclqEC9Xpaex6atmbsydcoLDKRM2hLL2RZqp_relbDzLApN3IAyP-3vhrRYFeDxui2IYubMPv-gmh2mUmhu79eJr6YW1m8VsFOgwgfB05T4tfBP6Ic7xiZDDX4iZklNj0wtEskjIl5FFtrmx0OJqIp6hZYy2tmD9ixFyuTdQ5SGvySj5t9_LkPwyHzoSJce8iCaGelHd9xQB-RMAfD1c8LSeDOGjJcExTeEY6kvCtwMHzId70qIAtWMhLkvLbEDaaQV-mmgJYT5JkgYpjRQw0HH_wM16PiXg2wb2sl50Vql216QsaDuYQp7z3fqm7lzn6RL57tfVM24ibCaVs35HSz3u5&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "bestTime": "Çarşamba veya Cuma akşamı",
+      "tips": "Biletinizi önceden online alarak sıra beklemekten kurtulabilirsiniz."
+    },
+    {
+      "name": "Montmartre",
+      "area": "18. Bölge",
+      "category": "Mahalle",
+      "tags": [
+        "sanat",
+        "bohemian",
+        "manzara"
+      ],
+      "distanceFromCenter": 4.0,
+      "lat": 48.8867,
+      "lng": 2.3431,
+      "price": "low",
+      "rating": 4.7,
+      "description": "Sanatçılar tepesi. Sacré-Cœur, Place du Tertre ressamları, şarap barları.",
+      "imageUrl": "https://images.unsplash.com/photo-1550340499-a6c60fc8287c?w=600",
+      "bestTime": "Sabah",
+      "tips": "Yerel halkın favori noktalarından biri, keyfini çıkarın!"
+    },
+    {
+      "name": "Notre-Dame",
+      "area": "Île de la Cité",
+      "category": "Tarihi",
+      "tags": [
+        "gotik",
+        "katedral",
+        "tarihi"
+      ],
+      "distanceFromCenter": 0.5,
+      "lat": 48.853,
+      "lng": 2.3499,
+      "price": "low",
+      "rating": 4.6,
+      "description": "Notre-Dame, Île de la Cité bölgesinin tarihine ışık tutan önemli bir yapı. Geçmişin izlerini günümüze taşıyan mimarisi ve kültürel mirasıyla, tarih meraklıları için keşfedilmeyi bekleyen bir hazine.",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHpLZgyeEZwZYKb2McwjG3kzVuHdmmrZNjadYt-tGbIWwnlkpe-HLKnotgb3buXgHaJZk3GZauafsnVr8PMfaHMaA513xC0VuKM00TuI26_JE7R6qZfAL_-A7f6lm3vkE3pXbv0mTbwpVENSzTC_Md2E1ezk8ziROkaPfs3LdI5uufQ96Zr_jVfSq4Jlm51f8iCDLle1HIH-3gTiHdGyA1USRuESkp4OEoR3yJEWq3utWC6gRjAwIqA95vECw6vVjna3RZ49RYk2dxEiO0suiuSX65FZ6s258DKrFToWcyrjriEvmpttZBY4EhdgctVRELsy1RRb5yL8YiAXTyU_8uMylFH9DeZmWLixSl3Km3zdXNhDil1igCd76wR-CzTarE0bN7W7bk_GxoJQhnnLIFxpiYYkxD61-mk8l10oECmuSPts&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "bestTime": "Sabah",
+      "tips": "Erken saatlerde veya kapanışa yakın giderseniz kalabalıktan kaçınabilirsiniz."
+    },
+    {
+      "name": "Le Marais",
+      "area": "3.-4. Bölge",
+      "category": "Mahalle",
+      "tags": [
+        "tarihi",
+        "alışveriş",
+        "lgbtq"
+      ],
+      "distanceFromCenter": 1.2,
+      "lat": 48.8592,
+      "lng": 2.362,
+      "price": "medium",
+      "rating": 4.8,
+      "description": "Paris'in en havalı mahallesi. Yahudi tarihi, vintage dükkanlar, falafel.",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHricF5r8lXw1Rfdqv0JMgtvFT8DvBEHq-wEs5SW2M95Qt9QP90SeUisdkgCJDobgB9K6b5bjfJCx5rSmUVh7T6uAfa1lCvk1RzTpibh5Q194aoydcn04qAl2rG5Jnxo9esodrjld-zrZzOczsUht_40JMROw_EaxStGgtl-QtPux8EQh6N54VHUldDACRMNhN3-hUiT8NAkUcZ9iGqDCvXsEbsdWYnIu9P4GCLkW5kjiFZNU0sB-B_4akJ4oRmJCD9wwjIST5u5qoML4RLlQGdN4P6OCVCSinTUlaX0WE-MFy_zRLJmkcPIGmRC-T4hwTI7fPjJFp50gRZRVOwACTKUM3pXw1kU0gBllZWJioArwSv-R3gK1bzy2EhIjARIFILPlB9J1w77SDPKPdzthicivyllWkd-kMQPkNqfisNgYg&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "bestTime": "Öğleden sonra",
+      "tips": "Yerel halkın favori noktalarından biri, keyfini çıkarın!"
+    },
+    {
+      "name": "Musée d'Orsay",
+      "area": "7. Bölge",
+      "category": "Müze",
+      "tags": [
+        "empresyonizm",
+        "sanat",
+        "mimari"
+      ],
+      "distanceFromCenter": 1.5,
+      "lat": 48.86,
+      "lng": 2.3266,
+      "price": "medium",
+      "rating": 4.8,
+      "description": "Musée d'Orsay, zengin koleksiyonu ve etkileyici sergileriyle kültür sanat severlerin uğrak noktası. 7. Bölge bölgesinde yer alan mekan, ziyaretçilerine ilham verici ve öğretici bir deneyim sunuyor.",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHr2SGYuZ-m_Wbc5Oaa9gPPTuVner_Z9ED_4HnOqGNj37Jowpc0LuHbC1tr1CsPAb-UAGVLvBsJS7S4MuhobL3hSVeYViqubibsflGDDhQBk5w8IyKGlbukD7zdfP1bmzD_WOkiXBMSRNwfz9m5I6UHRg1Lz_-31LztIT-Euh0t00fib0NzZBbbg668FQhv1dEs00pqeWaUjARQkFmjjDmsoHjVYa4hOHMiSyy_1m5xP12jaXlTc60eRpYxg-elIuWBVgpF9ctPZuEo2YQaneWnH6x9RsZm-xsd8G1IvwCJ1GriaVrUKyVH3YORDMwDfgZlfoOHrNroz0JfFiQKrT2wX72K1LaBtKM9loMuYlSiC9zZWRqOIPVmUkSl60JT0V-SlJPTw_ytFjqio39Ui1Cxm28B4gja1mNbmZEn8t7v8-uku&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "bestTime": "Perşembe geç saatler",
+      "tips": "Biletinizi önceden online alarak sıra beklemekten kurtulabilirsiniz."
+    },
+    {
+      "name": "Champs-Élysées",
+      "area": "8. Bölge",
+      "category": "Alışveriş",
+      "tags": [
+        "alışveriş",
+        "bulvar",
+        "lüks"
+      ],
+      "distanceFromCenter": 2.5,
+      "lat": 48.8698,
+      "lng": 2.3075,
+      "price": "high",
+      "rating": 4.5,
+      "description": "Champs-Élysées, 8. Bölge bölgesinde alışveriş tutkunları için çeşitli seçenekler sunuyor. Yerel tasarımlardan popüler markalara kadar aradığınız pek çok şeyi bulabileceğiniz canlı bir nokta.",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHr3Xjs1a3zoe2eoJ1X8NhQgcA2mSYYCTm_8z9nyvQ7JpNglwVxPOWhgA-5CeiTBngiDtt6m33l5nmvp-J5nPDk9yxBj_th5WEXHXPw56tRiqJy5DN7jbneIM9EBnbp4Ga2CRA1nPAwH4ZOvabvYC_k7HN6tpH8YqKka-W0e5R0m3eFW3fAKJoMp-L6dUCun1aaMWPizmkYoi58tYkwvEwt1Rmgo4aCG3DgHqsWci28f7jpR8eye4K018fTpDRYQCVLKljxIoXvixOypHWwC5Q2tx36LA3VRS8EbBvMpRnopyHyLcOr3uGZgFjXYj981EwSVnWRyyX-jl_er0F70_S6eA32jHuBswfadABpVYYG3Aki37hF9GN9bnCq0Z3CBph_KcdDyoV6kQI4jvYTY6g5yGGWw-u0ZC7_dhB3GqDEFLadW&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "bestTime": "Akşam",
+      "tips": "Yerel butikleri keşfetmek için harika bir bölge."
+    },
+    {
+      "name": "Saint-Germain-des-Prés",
+      "area": "6. Bölge",
+      "category": "Mahalle",
+      "tags": [
+        "entelektüel",
+        "kafe",
+        "edebiyat"
+      ],
+      "distanceFromCenter": 1.0,
+      "lat": 48.8541,
+      "lng": 2.3335,
+      "price": "high",
+      "rating": 4.6,
+      "description": "Entelektüel Paris. Sartre ve Beauvoir'un kafeler. Antikacılar, sanat galerileri.",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHrzJBy-splTpTJkPvbl1qyC4PDztido4-1zlDXLxuuuDT5boForpjk2kFR2tUKLK5XpuA8A4ihGHbYF_O0v47zidhucsCannq4IDVA0Z-MoKZW7EtbtglgA61Ov3ceoRv-TgO5QIqJHKL2Djjd7ShbsUPA1hu9dqg_oflcnPdRd14q8_uwdl3NXXog53Dd4RsBPUM26e7oYOIfrpztprFJ38CRBG6gmHf19yrvpU1Q17cBhwNowgV4I9HH9S4fJsO0WYD0foqmGnVVnyJqrG4-oKBBBgcE2aVMstWPhnGQwmLTnZNihZiLAVRZKbObCSvhay-zTWTD24d__XXnA5scvF_mq_71WPiHE8TckX-wrpFiI8983fsz6irTtVo9OJ66N6e9qN_TcEjeJPMTz01t_IusdjlZ_k2NoBapOdSWVfQ&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "bestTime": "Sabah kahvaltısı",
+      "tips": "Yerel halkın favori noktalarından biri, keyfini çıkarın!"
+    },
+    {
+      "name": "Versailles Sarayı",
+      "area": "Versailles",
+      "category": "Tarihi",
+      "tags": [
+        "saray",
+        "bahçe",
+        "unesco"
+      ],
+      "distanceFromCenter": 20.0,
+      "lat": 48.8049,
+      "lng": 2.1204,
+      "price": "high",
+      "rating": 4.8,
+      "description": "Versailles Sarayı, Versailles bölgesinin tarihine ışık tutan önemli bir yapı. Geçmişin izlerini günümüze taşıyan mimarisi ve kültürel mirasıyla, tarih meraklıları için keşfedilmeyi bekleyen bir hazine.",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHqBaFbtH1LUuG2qwo_9nLeio7LFvOCd5LoTqZw-TIw8cxgGc2k5jxSSX_Mwm6rpnSug5595aI8ukuMVg7L7Yf_FD_eAv9LJCRuEXO40f6h53_gBz0YiT-62ku1ZeWDW-whgTV2hWRwOeqQkpI4ztSWEc6E0KVRZTTo2Bz5u3BBjHN99DeLvwXvoWrjQIFRO1JgNKvywZLnG0ZAe4X28Hsk1szvx9R0rlPNdBZNSULVBHMVKIDK46wLgulUr2r1CiG0VwDTOllzCQSt74ESxk3LQ6M9L_r91Cu1cp8skU7eqoxnGiCeqOlHWWHBOQtxvQ_242u8UF9wRfZycsyqArWh1r1-j5Zb0yjx5o2MBw64MADFhtAqj7zQBU45PTWUZJKD4aYQn3SZ6PTcvKHBRtx8009C76cxD8yY5-51ffk4g_NeZ&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "bestTime": "Salı hariç sabah",
+      "tips": "Erken saatlerde veya kapanışa yakın giderseniz kalabalıktan kaçınabilirsiniz."
+    },
+    {
+      "name": "Seine Nehri Turu",
+      "area": "Merkez",
+      "category": "Manzara",
+      "tags": [
+        "nehir",
+        "tekne",
+        "romantik"
+      ],
+      "distanceFromCenter": 0.3,
+      "lat": 48.8566,
+      "lng": 2.3522,
+      "price": "medium",
+      "rating": 4.7,
+      "description": "Seine Nehri Turu, şehrin en etkileyici manzaralarından birine ev sahipliği yapıyor. Özellikle gün batımında sunduğu görsel şölen ve Merkez bölgesine hakim konumuyla fotoğraf tutkunları için vazgeçilmez bir nokta.",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHoQoBgARzH77JJPQUpoBeogthkPikbOCgRh7MYHXrLm64gOLVGI8_4wTxuAnHbJ8lwwL0htVQNVCoZtD7EaJIfGmzlqiobZpwzwwJYNw32Y_HKdXHhHwiG_d1IR1TvI117PvwtMrUoS-Tvy1YJmNR22llhbdBXXQ_TVnFIaOZ3lEFZuhranjhyzLMItC7Kxzd82VXUy9JAX_tyKvErZQR2yEPJ1kKkLAO1mqMrHNpfovtMPa1o_guSEkw_aRrk6-PFCHJv3fbqlyrRq1W4a88c9-Vj7lu1cnR6aixVGgcmlEg&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "bestTime": "Gün batımı",
+      "tips": "Gün batımında gitmek için ideal bir nokta. Fotoğraf makinenizi unutmayın."
+    }
+  ]
+}

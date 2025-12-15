@@ -1,0 +1,202 @@
+{
+  "city": "Sevilla",
+  "country": "İspanya",
+  "description": "Flamenko, portakal ağaçları ve Endülüs ruhu",
+  "heroImage": "https://images.unsplash.com/photo-1541109638737-3c09da74b439?w=800",
+  "coordinates": {
+    "lat": 37.3891,
+    "lng": -5.9845
+  },
+  "highlights": [
+    {
+      "name": "Real Alcázar",
+      "area": "Santa Cruz",
+      "category": "Tarihi",
+      "tags": [
+        "saray",
+        "bahçe",
+        "mudejar"
+      ],
+      "distanceFromCenter": 0.3,
+      "lat": 37.383,
+      "lng": -5.9903,
+      "price": "medium",
+      "rating": 4.9,
+      "description": "Real Alcázar, Santa Cruz bölgesinin tarihine ışık tutan önemli bir yapı. Geçmişin izlerini günümüze taşıyan mimarisi ve kültürel mirasıyla, tarih meraklıları için keşfedilmeyi bekleyen bir hazine.",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHpB4D4y7I2zmB42Kujx_3hS8tHmchE8gSxJac8SNoACjcTS-GZ_TRt5FbeIWnDoCF_hAu2kk6yRD-E6hwm0iCMAdpKk-O4ac6mFOAtL2hM5rihogLvSUjvkFKWEQ2qtKuN-nJN3eGbGirf4YTcVvin738WbvvZKsm1kt9cVuU8WIZxqyTnW6NnlA9Ka5Bpa54DyU9GNsgZ4drBdYKLQUFgE4uT176MdgeoYVXpEnSG9gW7zUmIbusWhia0jub8IOG24P9jU6Z1xe_p7mKQv9kiBoYJ4L4yNnWYpNlsTXPiswLwb8_ZF2anymGtfPodSBQj9wl0lSYI3WpdiQtgCAKhwc9VjQRKqk7e8ojM9lTnrfxf9UV52lw0khRYfB1lpGQNk3Lgbdo2oGIq0LgMXHlv4E4IvX43iuhNtUJQacHgnLw&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "bestTime": "Sabah erken",
+      "tips": "Erken saatlerde veya kapanışa yakın giderseniz kalabalıktan kaçınabilirsiniz."
+    },
+    {
+      "name": "Plaza de España",
+      "area": "María Luisa",
+      "category": "Tarihi",
+      "tags": [
+        "meydan",
+        "mimari",
+        "fotoğraf"
+      ],
+      "distanceFromCenter": 1.2,
+      "lat": 37.377,
+      "lng": -5.987,
+      "price": "low",
+      "rating": 4.8,
+      "description": "Plaza de España, María Luisa bölgesinin tarihine ışık tutan önemli bir yapı. Geçmişin izlerini günümüze taşıyan mimarisi ve kültürel mirasıyla, tarih meraklıları için keşfedilmeyi bekleyen bir hazine.",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHry3-ydrXdgFU2xOUHueXxMu7s2qggv5H8v9guN9DEB_WqDr2xDB0hF6tfn7sZI-e5DgbNpDP8UGgpboC8_lPtmb6JfWNIax7aOgwbLO9tDfrZrLTdGBrDoYgGQh05RZyS4peaj3yITHJDMDsBBxENlaNRw69sXtq7lO5wurqa7nOzqsdl202pKm4aSY8LvBWgfxhvlfCzek7WbpqrgcQsolCLVI7vo6uPLEH9sfMMB6lH_s6J35pWucYNkRA5-ekPF11IYoz396stohGF_-TMUs5qBZQlqSClfSAjB0MNRnr0R_5On_lENw6nyVhYbhEin2NAiyKdfH5ZmSpqmTgVoT3JmK10sxeDH3K0KZQRzDRGqfKn5VnCkwKapQ1pt-lPal8FAhGCyj068pMxgApDWjgEI34lC3fybNYNGbtCGqRO1&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "bestTime": "Gün batımı",
+      "tips": "Erken saatlerde veya kapanışa yakın giderseniz kalabalıktan kaçınabilirsiniz."
+    },
+    {
+      "name": "Sevilla Katedrali",
+      "area": "Centro",
+      "category": "Tarihi",
+      "tags": [
+        "katedral",
+        "gotik",
+        "giralda"
+      ],
+      "distanceFromCenter": 0.2,
+      "lat": 37.3861,
+      "lng": -5.9926,
+      "price": "medium",
+      "rating": 4.8,
+      "description": "Sevilla Katedrali, Centro bölgesinin tarihine ışık tutan önemli bir yapı. Geçmişin izlerini günümüze taşıyan mimarisi ve kültürel mirasıyla, tarih meraklıları için keşfedilmeyi bekleyen bir hazine.",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHoZZiKlO6N68obpYyvdOIDRnIb4BrRRp2-Ust5ysn2xbqZnc1yI5nsAUEi6N88gPOvM1v--saxywMeG603Y0BWpUdnxI-icQG8iSRC0uGgYyzWdfqe3WkA9FW9oR5iIN7xvi2dYiwl0RcfqbgS_oLr7BU_u4H64ORtRMepbylnZ6l_8Rb4c0buJOLBr-G4ngv3sbEIhzcw0NMkr8mLM8YBZEwn3xH8Zo03ndp652PHeZp9i6kWTg-idNv4SpyZ4TxYRo9hsnkKzVFmc6b_g0UgFi5vVzg0x5LJ2pxwWUh_e1s3dfPxEqWR_r-htEENFeIEiFJt6gwd2VA6TdXpyuqpW6J3i9bRSVXMoGlomy-ghYEOG4mLfwySLg_sLOLR1M3dlSbAGp6-gUwpKFdIrpJTO72j--JfkSkTDD1S6sMmcnA&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "bestTime": "Öğleden sonra",
+      "tips": "Erken saatlerde veya kapanışa yakın giderseniz kalabalıktan kaçınabilirsiniz."
+    },
+    {
+      "name": "Triana",
+      "area": "Triana",
+      "category": "Mahalle",
+      "tags": [
+        "flamenko",
+        "seramik",
+        "tapas"
+      ],
+      "distanceFromCenter": 0.8,
+      "lat": 37.3863,
+      "lng": -6.0027,
+      "price": "medium",
+      "rating": 4.7,
+      "description": "Guadalquivir'in karşısında gerçek Sevilla. Flamenko barları, seramik atölyeleri.",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHrj838X-NzCrKn8o1fd8v4JJrhlEHPd9SQyPTNRothQKMGYqZhTgLROJtMDzIGE1Mmo1svaglbmwfzJOJUOlVIsRS3u1ZNGOjBhQFnDUGW-3Ur9yzSre4RbHwWCYZ3yluGbpgPAvN_hNNEfcA1_JEUzsDPPSyc7YRwRt40NfkYqq8-uH4NdbDkfW4jFzD7MUTzURvSUYqRLFZJ2Zz06ZjlV3U_-BdD_fqnW3rR3C0hKyLSxVIMbYuotry05y-lnGZ1JqUGWmVYSq7qOzEArunAdV6cDv2p9mAF5xFISK_vlkxOpYqVIIfjG-I3fr0uhG7-DMBgM_mXz0DVJPH3JoDUVVE5Fxj1khXOYB4RfhryWFkW4ZngrdtFHDdm7sk3sJ7JDRPOwVtr0AspCqqkamZ-VbdE6AIVpiX_dF-PRhYHvKYKv&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "bestTime": "Akşam",
+      "tips": "Yerel halkın favori noktalarından biri, keyfini çıkarın!"
+    },
+    {
+      "name": "Metropol Parasol",
+      "area": "La Encarnación",
+      "category": "Manzara",
+      "tags": [
+        "modern",
+        "manzara",
+        "mimari"
+      ],
+      "distanceFromCenter": 0.5,
+      "lat": 37.3934,
+      "lng": -5.9918,
+      "price": "low",
+      "rating": 4.5,
+      "description": "Metropol Parasol, şehrin en etkileyici manzaralarından birine ev sahipliği yapıyor. Özellikle gün batımında sunduğu görsel şölen ve La Encarnación bölgesine hakim konumuyla fotoğraf tutkunları için vazgeçilmez bir nokta.",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHr3KhfZyXbqFl_5t4rYiWjPOTB_XzC1Z91yhlPuajnuzoZk_e8MptgQWJgUoXXxezIXkTOHZkWT79SVym0Jpsq2MeejSn1zz8IvB28NkY9jAGkYNJ47TBpGNwXdQzmgj7nXXNXWillDmpTsgPJ_Kws1xbf3Bx7thy-44QEgaytMwzzBRqE45Cpy7NSn9Sn5PvL6nxoyUodP4otd9vd-yU5_AOl75FBYXu3alwuNtU8CPpv0CJ2ubS6XDFRMfViSDLScirU5-xNwtUzGJjHYiNWnOmpk91QR9kVs0SbyCZkKABw8py6QLSdN5XeTTuBRMQ8VD-qsdQaCZ1P1sCO0Bi3PnfkdNnThlGK1s34IqHEDa8alGFQWOThsvVsID48Seyx1B8AkbwJqLCBF9SSCIHdeuO5z8csDKle4djEgdbM45iwa&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "bestTime": "Gün batımı",
+      "tips": "Gün batımında gitmek için ideal bir nokta. Fotoğraf makinenizi unutmayın."
+    },
+    {
+      "name": "Casa de la Memoria",
+      "area": "Santa Cruz",
+      "category": "Eğlence",
+      "tags": [
+        "flamenko",
+        "gösteri",
+        "müzik"
+      ],
+      "distanceFromCenter": 0.4,
+      "lat": 37.3878,
+      "lng": -5.9895,
+      "price": "medium",
+      "rating": 4.9,
+      "description": "Casa de la Memoria, Santa Cruz bölgesinde keyifli vakit geçirmek isteyenler için ideal bir durak. Sunduğu aktiviteler ve atmosferiyle ziyaretçilerine unutulmaz anlar yaşatıyor.",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHrNGTOmWqfi3_pg-EknSrzs1mddLz9Hu4qgPlNYNvjFBb7yH57YqeF1ZeAwinFa9EDQ3cgeEZ3SF_MzdTKRVMGX2idCF8N3-_gUJ-Gbu8oWn-zd6C3ReA1KSljtpVVX39ULjLYcFt1QyDFf1paotGpfzoKZWqHGvFYzBUoTnv7LgfzaSmy-LIfJOQgiVOuB3YGecS1pPkyIRY1hfSxQjg7JxTnzzFr5iquA-lA8_I-Gl9WYJ92WLrsofweeVqw0TloKJYbP-p7u0DlgJPmY5aCiDLMl77IM7HD9CJlQZ_rOK5PV1bzp0EgOhUWHEfexbYryCd3lPBFyTuAD1On92PqpRx4Qd9q7TK3gAP0ydn2il-9Pp2zLkSVZVv5_HpHwchx_kIpk_BMqLToVu01rD9aS0lUa0CI9RZHtiJdn7wtVSg&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "bestTime": "Akşam 21:00",
+      "tips": "Etkinlik takvimini önceden kontrol etmenizde fayda var."
+    },
+    {
+      "name": "María Luisa Parkı",
+      "area": "Sur",
+      "category": "Park",
+      "tags": [
+        "park",
+        "doğa",
+        "bisiklet"
+      ],
+      "distanceFromCenter": 1.0,
+      "lat": 37.3735,
+      "lng": -5.9875,
+      "price": "low",
+      "rating": 4.6,
+      "description": "María Luisa Parkı, şehir hayatının karmaşasından uzaklaşıp nefes almak isteyenler için Sur bölgesinde yeşil bir vaha. Yürüyüş yolları, dinlenme alanları ve huzurlu atmosferiyle doğayla baş başa kalmak için ideal.",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHqp8gmju5MPKpSSf1K2sym5dEg73Y8qlnJGqyqadqBwrdMW0Ny_Sli4jOIzO1CXbFDphP4nyr4J9NM2X6N9Bkw0uMQEQIVMD9WWOMxtqD1vGQrWIPrM7Ph18ztWSCi0zhkneldMcEgQq60CF4-t7DvA4W7c7Fozc88XS0m-XhrHn3TVdAEho9bL7FgqHC_mhJzOW6TzhLX7hcwFAvcTcjt_4F4Cm-tXZdIYOFhLQXg7dbRA4Cb5SAxy1U-1eGWsBliVDlac65dz0Xqmb294C2I_cazHDjGIGpS6xIHg7F_dFrxv7Z-l2z5YKJjFd-piKvBaocPQmaCdpCv6BGO39Y1-2Lhn4JeO-AGuXs8OOMf4MVyOP9PAeqiuQb7yboYU1HC3hlWSqzjdbWNdw7RL942BLAjvoLY2RV7tYz4cuYz7t2Tq&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "bestTime": "Sabah",
+      "tips": "Hafta içi daha sakin olur. Yanınıza su ve atıştırmalık almayı unutmayın."
+    },
+    {
+      "name": "Torre del Oro",
+      "area": "El Arenal",
+      "category": "Tarihi",
+      "tags": [
+        "kule",
+        "nehir",
+        "denizcilik"
+      ],
+      "distanceFromCenter": 0.6,
+      "lat": 37.3824,
+      "lng": -5.9964,
+      "price": "low",
+      "rating": 4.4,
+      "description": "Torre del Oro, El Arenal bölgesinin tarihine ışık tutan önemli bir yapı. Geçmişin izlerini günümüze taşıyan mimarisi ve kültürel mirasıyla, tarih meraklıları için keşfedilmeyi bekleyen bir hazine.",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHo1zyqemvYdbWZrGBj1JavG43gpBRO4Y6VCfRNCxazsZzI0aadgjOygx-cyCoFihzVJ5dkeUUQA3MCTmMUNjiKmpgmGvvl0Bdv5bkGsGYZVT4_kLGyk8i9QaCAbKTyRslIYXYhOXMWaKPzCxrMIPLSktT7f_yqRSVAgtFX-Y4brVqqYePy1ZU4zvMl91_8Qh0p1PGBCqmxDvxrG_-t10gSWDmSFANU6p6lqUvhbA4Q-NbSZDGWursfJNoxr7sPKc7bKZ8ObnIw5RXL7sz20KNSXMFBdOYln8VT_VAsm118a6j7IuXdoWAwr3n3UQDAwsSXxfnQHBzW4lOb0m7_os5QPQymxQZMfN4M0GYJZQnf_FrlNlnqL1DEWDp_3f0Ji3TL397CZb3hFpSZAMZ0IDXTyK0DaJv2Gv552L3uvkEGcliY&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "bestTime": "Gün batımı",
+      "tips": "Erken saatlerde veya kapanışa yakın giderseniz kalabalıktan kaçınabilirsiniz."
+    },
+    {
+      "name": "Barrio Santa Cruz",
+      "area": "Santa Cruz",
+      "category": "Mahalle",
+      "tags": [
+        "tarihi",
+        "dar sokak",
+        "romantik"
+      ],
+      "distanceFromCenter": 0.3,
+      "lat": 37.3854,
+      "lng": -5.987,
+      "price": "low",
+      "rating": 4.7,
+      "description": "Eski Yahudi mahallesi. Labirent gibi dar sokaklar, gizli meydanlar, portakal ağaçları.",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHpizPGFFldeQQFMxn83br8748Em0MCbgYfzlVvcbCMjB4uON5VstSsGlHiWrcOmwul9S7XMeQtdOVX2Ws8du27-WmrOohcrI8Hf8otdI_3oUjRFK1lbizGFLQ87doqDk8KhTOD0MkExOoPxLp9mNU4iBfJRvX4nRuCoAynJTuPYPIkItuV63MQsqoGj1YqAz-yIL2Q6h7CmRPS3737DqVpd379YH5SJuGgcDQr-zE2xHdFfa0rGszYV1D6WpnTHh7CkDcNdNnVVEjqqyNp-tSh0b5kPljQUl3aLsbdpYEZMccKHng_DaVn1bICa3XJIo8INRwJAVQxEvzMoXGVatXTBjevMOQ3FNCSikM3_q0CR8eieXd0F8OlEG1hBXjsVj4QGaBxlYTCyhBL8P-YDDCHGGHRMEL_bN7vCAB2a-S5VYA&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "bestTime": "Sabah veya akşam",
+      "tips": "Yerel halkın favori noktalarından biri, keyfini çıkarın!"
+    },
+    {
+      "name": "Archivo de Indias",
+      "area": "Centro",
+      "category": "Müze",
+      "tags": [
+        "tarih",
+        "unesco",
+        "koloni"
+      ],
+      "distanceFromCenter": 0.2,
+      "lat": 37.3849,
+      "lng": -5.9918,
+      "price": "low",
+      "rating": 4.3,
+      "description": "Archivo de Indias, zengin koleksiyonu ve etkileyici sergileriyle kültür sanat severlerin uğrak noktası. Centro bölgesinde yer alan mekan, ziyaretçilerine ilham verici ve öğretici bir deneyim sunuyor.",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHrndK8q3FAR1VTLsQmjV_Qik6PZoN82wsvX6ns_Xr2hlSF9Q8mG0rSHYW_nxS_PtgyLJojWlWcW4KCcvYTdOZCQFfh6zbquWgAsz6OOcji3foWh4UfMryGTgLPbPmgUv-1CDbKjTLTFqSa0mfGjLv7cPn1cyC1MkX8KIu7sQhWA-5RK5dxCS5cuLjozafp5D7QAHdcwbnesax9wMuFkPS4c9S7nCDDCMzdNrJby2ds0HQj9B5pP5kup40cc-necUfe9TgCmnDAwYdCNS0od6RHG5kCb57P2xM5oKAcLeZ0Lg2CpmhKTJSdWq-yyqna1h3gxAG6scgXAeFWipk2rueswXGZHUL5VQbRoRtDZCTcUbmnMsUih9GsAbFbv7mQbJkAdPKFqF6sEaLSrGqbk7OJrBKPw-GPDtY183HIKWk1OmZ7y&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "bestTime": "Hafta içi",
+      "tips": "Biletinizi önceden online alarak sıra beklemekten kurtulabilirsiniz."
+    }
+  ]
+}

@@ -1,15 +1,25 @@
-class RoutesModel {
-  final List<String> touristic;
-  final List<String> local;
-  final List<String> ai;
+import 'package:hive/hive.dart';
+import '../models/city_model.dart';
+part 'routes_model.g.dart';
 
-  RoutesModel({required this.touristic, required this.local, required this.ai});
+@HiveType(typeId: 3)
+class RouteModel {
+  @HiveField(0)
+  final String id;
 
-  factory RoutesModel.fromJson(Map<String, dynamic> json) {
-    return RoutesModel(
-      touristic: List<String>.from(json['touristic']),
-      local: List<String>.from(json['local']),
-      ai: List<String>.from(json['ai']),
-    );
-  }
+  @HiveField(1)
+  final String city;
+
+  @HiveField(2)
+  final List<Highlight> places;
+
+  @HiveField(3)
+  final DateTime createdAt;
+
+  RouteModel({
+    required this.id,
+    required this.city,
+    required this.places,
+    required this.createdAt,
+  });
 }

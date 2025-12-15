@@ -1,0 +1,202 @@
+{
+  "city": "Roma",
+  "country": "İtalya",
+  "description": "Ebedi şehir. 3000 yıllık tarih, açık hava müzesi, pizza ve gelato cenneti.",
+  "heroImage": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?w=800",
+  "coordinates": {
+    "lat": 41.9028,
+    "lng": 12.4964
+  },
+  "highlights": [
+    {
+      "name": "Kolezyum",
+      "area": "Centro Storico",
+      "category": "Tarihi",
+      "tags": [
+        "roma",
+        "arena",
+        "unesco"
+      ],
+      "distanceFromCenter": 1.5,
+      "lat": 41.8902,
+      "lng": 12.4922,
+      "price": "high",
+      "rating": 4.9,
+      "description": "Kolezyum, Centro Storico bölgesinin tarihine ışık tutan önemli bir yapı. Geçmişin izlerini günümüze taşıyan mimarisi ve kültürel mirasıyla, tarih meraklıları için keşfedilmeyi bekleyen bir hazine.",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHpdeJlVsB_M0CUcGOGMOzR-PkjXEXjSR-EQEKXqc38N-T2sTBI11ze8amCNvLZKYo4cy64QbupnWGsDrgrKJz8jl7UOSi4PkHWI51IZQX5uX1rLCbaJK7aLpOYQPERKvldzs7C9PiSloRgqE7g-zi6V-f_63Vdk6l1AmOHXlaRfmm_WQDEUeHG31vPb59eZj4HXkp-8mZhPS5eTeLwSo6JB1peWaDa7tQkIxTyGjow03AJsxyoiRV8MfXBVW9HYtG83z5Q5QzRALaKS9mZu-ZOgarX-3tPSD1xHO_sUftmG2Pr-_9iFoI0g307Xr3SOM8RPb-wsBMs6L1oBA0CaNjVCOzJzg6CVS5pcL4y-skjmDHq0A8lM17wXtkfPZXgSSD4vAgIJpBoC5f2ybZO9M5xocKBbxjfpBXJze25Uf9XQ8g&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "bestTime": "Sabah erken veya gün batımı",
+      "tips": "Erken saatlerde veya kapanışa yakın giderseniz kalabalıktan kaçınabilirsiniz."
+    },
+    {
+      "name": "Vatikan Müzeleri",
+      "area": "Vatikan",
+      "category": "Müze",
+      "tags": [
+        "sanat",
+        "dini",
+        "sistine"
+      ],
+      "distanceFromCenter": 3.5,
+      "lat": 41.9065,
+      "lng": 12.4536,
+      "price": "high",
+      "rating": 4.9,
+      "description": "Vatikan Müzeleri, zengin koleksiyonu ve etkileyici sergileriyle kültür sanat severlerin uğrak noktası. Vatikan bölgesinde yer alan mekan, ziyaretçilerine ilham verici ve öğretici bir deneyim sunuyor.",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHppjs-ROxV_Sd1EXp4_yz7jh8yPbvd6b9Vj3efiHlnm_lKp_hg7CrWMLfrxsObwKAP1wKUKdnQGsg-LG3IPsUBQBS32gQ_8q7y4LR3MLOyaJLInv0t2LoahP6wmIxF_Y3YQL_AzGhYyj9G_M5HrwTcVo_swgMr-FLhqujJvkU2Zwjp0QiNToeYZL1KudRav0o-WXlwpZvTFu79wYbxLeZ4yK5gbuLzjREaXIau5x2l1RB02cUPqOOz7ZivXEMukKWAQ9LmTDmwMFL47p-50I_3cLMd_aPb45e3WemH2vTLleTKGCWjuPz3maz6XwD3A6VJcqbBLruDfyoCOSf9td6HoEgiq0WAeXD1SkJdYvGvCQZiBDpc8fs38XundZHwkfu56i1outQtBaRAb3CKNIQKSodKNDc6Z_moPx0vCORVNbfQx&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "bestTime": "Çarşamba Papa töreni hariç",
+      "tips": "Biletinizi önceden online alarak sıra beklemekten kurtulabilirsiniz."
+    },
+    {
+      "name": "Trevi Çeşmesi",
+      "area": "Centro Storico",
+      "category": "Tarihi",
+      "tags": [
+        "çeşme",
+        "romantik",
+        "ikonik"
+      ],
+      "distanceFromCenter": 0.8,
+      "lat": 41.9009,
+      "lng": 12.4833,
+      "price": "low",
+      "rating": 4.7,
+      "description": "Trevi Çeşmesi, Centro Storico bölgesinin tarihine ışık tutan önemli bir yapı. Geçmişin izlerini günümüze taşıyan mimarisi ve kültürel mirasıyla, tarih meraklıları için keşfedilmeyi bekleyen bir hazine.",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHqx46rOoIRWojaPbACRuCp8OVJvrl0P1_9gfFANTUtu9FoN5dF51lMvMb2SuaWMsOat0VoUbQrG2Drg0TbHoBZKoOoEja2HfCJPlm-p5lgxFGBNIpm4Yrxp4njrLZYGXuWaKzTOBW7CG6QeXJAMwK8p5Ti3Z55fDHv5QgbhBo3HQFnFpDFzRBW31ZnVuLAYGKbSJBbdI-y1aEDG8w-rPoX-lnhpugTpCcx6Sdi8yKJo2oYh9O2k8pzMw4_qFbLGHT62eG-yNf7LGs0neyGoYD5MKiKRuvrnH6CDfEnImXvvQXDbkHZrEeS3_9huqL4-dY37xQxtr37KJ0cYKexYKjCIcrhCl5Y5doDcXOzIdT5v_nCTWsCRQMEjaoIe-hsQYzH8LlRZola33fzEb4I7Ol5zU4VUoa08z9Hac_iNu5KyWZur2NfmDWb6Zq-CRw&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "bestTime": "Gece veya sabah 7:00",
+      "tips": "Erken saatlerde veya kapanışa yakın giderseniz kalabalıktan kaçınabilirsiniz."
+    },
+    {
+      "name": "Pantheon",
+      "area": "Centro Storico",
+      "category": "Tarihi",
+      "tags": [
+        "roma",
+        "tapınak",
+        "mimari"
+      ],
+      "distanceFromCenter": 0.5,
+      "lat": 41.8986,
+      "lng": 12.4769,
+      "price": "low",
+      "rating": 4.8,
+      "description": "Pantheon, Centro Storico bölgesinin tarihine ışık tutan önemli bir yapı. Geçmişin izlerini günümüze taşıyan mimarisi ve kültürel mirasıyla, tarih meraklıları için keşfedilmeyi bekleyen bir hazine.",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHokR6H4KYkX5jbwVMjXs3IrPU-UWKsaz0620UQbwIOKF3dYtEGBDiUqzBZfCVxqSOGR1IW4HeuG2fC_tnFmlNV-Sxbfv9RRyN3NXwBHLIaWs455f_-u0z7jwV605z5oj5PBoSENx0Xr5ZU2UFg1-KFHkPVdSTd-tL_XyrUHFg_p5TUfJ3bjMpEg_2iwqGmG9nL9ThVEuVDerFq7ypOqbkSU_Wyc7rl0lwsEp_4UImo1HUsO3JBxCjMzez4nwAf4FE7b1YeWc5AsIkpKtzrqiea5pfYermwXPJa6KapFJ23pX45lcArLVZbCsK6zKxooPC9Ng-1zRYEnLXcNTQ04upqsg590DW3BuncVqmVlkc7MjfPtldcA9twuMx4EKJ8l3ioYIiGkCm_vVB_t9ADE7Tc7QE0IY2xKTa8-gxeaHDYUiFnK&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "bestTime": "Öğle (güneş ışığı için)",
+      "tips": "Erken saatlerde veya kapanışa yakın giderseniz kalabalıktan kaçınabilirsiniz."
+    },
+    {
+      "name": "Trastevere",
+      "area": "Trastevere",
+      "category": "Mahalle",
+      "tags": [
+        "bohemian",
+        "gece hayatı",
+        "yeme-içme"
+      ],
+      "distanceFromCenter": 2.0,
+      "lat": 41.8865,
+      "lng": 12.4693,
+      "price": "medium",
+      "rating": 4.8,
+      "description": "Roma'nın en atmosferik mahallesi. Sarmaşıklı sokaklar, otantik restoranlar.",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHoVQUmTlbSNBpXaHORTchsOLIprdueija4L9W4QXAaUJbs9KK1MgSKWjXS_b0mG8wRE8DDYDCCrFl2aM5qjGthYHnDVTDc5JrQAqXun8wwc7dCbeco7Fzc0LCdyrALqyy-eLrMrwAEZkPpQHy1PETE_ncyC358JbTQNBlTuJibKiFyASE6YUVBoYBaCUQL7pIMqVPKXiCP7pEj5tDdFTd21H8DDnm-zpD4UlTBGd8I5XHDgEg-qYI4M9YawdoRB64OwFNFYm0c9eBoEF5r8xOvlQvhFnbFPiX2iii8mntPO1l2f_sf45qu35bAYqLTYgwc8Xc8-witweZ0plnigOvlCno1O2gDkoYHqOH6nIFzEYKRK7X3ouCwwQeIukLGQz49QNkboY9Q8YyQp-wKwXxpQPjkjMtG4lc95sOU4LUjDrg&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "bestTime": "Akşam yemeği",
+      "tips": "Yerel halkın favori noktalarından biri, keyfini çıkarın!"
+    },
+    {
+      "name": "Roma Forumu",
+      "area": "Centro Storico",
+      "category": "Tarihi",
+      "tags": [
+        "roma",
+        "antik",
+        "arkeoloji"
+      ],
+      "distanceFromCenter": 1.2,
+      "lat": 41.8925,
+      "lng": 12.4853,
+      "price": "medium",
+      "rating": 4.7,
+      "description": "Roma Forumu, Centro Storico bölgesinin tarihine ışık tutan önemli bir yapı. Geçmişin izlerini günümüze taşıyan mimarisi ve kültürel mirasıyla, tarih meraklıları için keşfedilmeyi bekleyen bir hazine.",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHoRh0aK4FvX_lLc2fKxNs_8rVslSk-DAFgDDug1VeEZEamSyQi3bg1nVBa_LfmK46EK167z-RjMsWQVnNnQ607r0_nZKHiI8cZRej5t8KBffQvj2PV1fP2JRQQvI3SqdLTg1W34A2sLitoCzesB5XE15-1C4PqKbosbsjRtf0NYNXeWK0_Bm2bYduyyJWThnPbr09TUNmPwiJDX3dbn3d1PzxlaPiDttxkSZmvazo12saTU-pBNTCdwhW2l6jvky2Y-cF5E0VFlGtOr1xtIc7_qX9RH0WNcqIOpnZvn_4fjBcIf9G_lHhkAbQwQ1sQxrMUvjLl56tHDdS9zWQQw0u6n_UqPssBYdYmv7PtBeiPHkO_6GWUhDvrbYMBPWlce-j5AQimwkOQECMjpy3nc9zJ2D_fKxndppXMWZ84D3UanBA&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "bestTime": "Sabah",
+      "tips": "Erken saatlerde veya kapanışa yakın giderseniz kalabalıktan kaçınabilirsiniz."
+    },
+    {
+      "name": "Villa Borghese",
+      "area": "Pinciano",
+      "category": "Park",
+      "tags": [
+        "park",
+        "müze",
+        "bisiklet"
+      ],
+      "distanceFromCenter": 2.0,
+      "lat": 41.9145,
+      "lng": 12.4919,
+      "price": "low",
+      "rating": 4.6,
+      "description": "Villa Borghese, şehir hayatının karmaşasından uzaklaşıp nefes almak isteyenler için Pinciano bölgesinde yeşil bir vaha. Yürüyüş yolları, dinlenme alanları ve huzurlu atmosferiyle doğayla baş başa kalmak için ideal.",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHotBzfw2ueFG8od8VhXDeZc3TZUbdRiSLRzwInhNf4MSlcWLOR5QdVnEdumc9Rf-9EWL6MZXt1oIyHGlIKJB3HhSwVu49e9EFK-6pB5hxKE_kfSC1eKR1eeaWz1Xz2zClRbd9vkCwdl69Kt0W8Pc4TRzb_LaaGC1c0fMLFP25Fv9AHu_33aMzaCVQfYmbgXXGsgCM3q7HCZRzS-N8SMg85_E2wKAQ1XyZLH2Thxr-18y6_kktYdYnQe2UHOZ8JZMf-YY9Wnro0_nKPWhW2vbfLkbQEemJQzxSKsQlHqErwPmg7CU_1-GlyBzrlhVFtjy7heltlIcwFS_cSWAMkhR1mIc7KYdnk0sDxYadz9VfjNC3Q8PWdbwp4kXaTQVT0FA4cV8K4tFXOLtlGWvNN6E-PIVyTbXtfA53PFOv2FItfveA&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "bestTime": "Sabah",
+      "tips": "Hafta içi daha sakin olur. Yanınıza su ve atıştırmalık almayı unutmayın."
+    },
+    {
+      "name": "Piazza Navona",
+      "area": "Centro Storico",
+      "category": "Manzara",
+      "tags": [
+        "meydan",
+        "barok",
+        "sanatçılar"
+      ],
+      "distanceFromCenter": 0.3,
+      "lat": 41.8992,
+      "lng": 12.473,
+      "price": "low",
+      "rating": 4.6,
+      "description": "Piazza Navona, şehrin en etkileyici manzaralarından birine ev sahipliği yapıyor. Özellikle gün batımında sunduğu görsel şölen ve Centro Storico bölgesine hakim konumuyla fotoğraf tutkunları için vazgeçilmez bir nokta.",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHqyYlZtyI88oHByuVMJ1NKT-v9xOqt6oEWtNX3Xf6dwtPui9TsvLmry0EdqoeJVdXdPsgKZJBztPtCc9_gnNm8O5uuFw-5pGdDLIaKMaRstomOLz3Os2Jgbr7lmMu4uvTwEhuu4sfsQKYm6eO_rXLxOqcQqJ2wZwaCEryzGFbqXOYeezst_L9bEcGdR9OszeUpLew_98IyeskH_06-cPsr0SeJS4ajscwAOmqavsfgbiBgSJsL5FaZTQeuEbxbTUmlRwzQhDt_KLbFfY0GKU9_OXPyOegBjyid8TIW0eGaIw35rwHeTwk5NONRYGdem0bUQIGoLrOyVxJwRbXAnjUN7TaylenyOZgLuz3JgWYxxU8v9BoSoT90LiZfahrLmmynlU1uhDkJXb_ZYdBwCEpkr5GD_q357hnAbFA7U1A61VrP0&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "bestTime": "Akşam",
+      "tips": "Gün batımında gitmek için ideal bir nokta. Fotoğraf makinenizi unutmayın."
+    },
+    {
+      "name": "Campo de' Fiori",
+      "area": "Centro Storico",
+      "category": "Yeme-İçme",
+      "tags": [
+        "pazar",
+        "gece hayatı",
+        "yerel"
+      ],
+      "distanceFromCenter": 0.6,
+      "lat": 41.8956,
+      "lng": 12.4722,
+      "price": "medium",
+      "rating": 4.5,
+      "description": "Sabah taze ürün pazarı, gece canlı barlar. Gerçek Roma deneyimi.",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHo3AeTETt0-bp-MLc5k62kiLK9HW5aBTepqE0IpjZgIkaKPfkGxbdhVZjFRNw6_cmLb-aetxhZZWjoa-NNhlePelRzLLJagkfPfP991_FCsYPG00EooTcGlsdTb0rWz7I82sqGAV3FoSAq6s3QSjvM3M3fkqpCAF1Y2N8pHtdljW5j1rjwDRkuwuC2xEW3SaGYP7lwL490zkJRKYluT_NTIOKaU1Qp4sYh5JNBCY5zMiL0IaPuep9fzHv-Ovzgo9UMqL-u268ZdNz_EBIoy41q-aCCicNovanDZB6G80xGXyPYLJG679alM5cucovL8DcfQ6RwWc3yfKMs89UMF7rBVlD-L8e064PiLdVs6_r3hrsZrdcep_Qls2RstCzswCwtTSF6WErWsfHdu6ZksUguDc_q1_Pu0sdMR4YZxHImTIw&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "bestTime": "Sabah (pazar) veya gece",
+      "tips": "Yerel halkın favori noktalarından biri, keyfini çıkarın!"
+    },
+    {
+      "name": "İspanyol Merdivenleri",
+      "area": "Centro Storico",
+      "category": "Manzara",
+      "tags": [
+        "merdiven",
+        "ikonik",
+        "buluşma"
+      ],
+      "distanceFromCenter": 1.0,
+      "lat": 41.906,
+      "lng": 12.4828,
+      "price": "low",
+      "rating": 4.4,
+      "description": "İspanyol Merdivenleri, şehrin en etkileyici manzaralarından birine ev sahipliği yapıyor. Özellikle gün batımında sunduğu görsel şölen ve Centro Storico bölgesine hakim konumuyla fotoğraf tutkunları için vazgeçilmez bir nokta.",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHoY9-c9KKTCnMu3aNY6zeGwMbFksOPHCHgIP1U-TaMWHFczns0fwpAvcm9ApE0aY4r0WEiD2cgLq7o03zd-ZMhPmmmOXCR7T6meYc0x1dNgo8kjgj187xWwILuAH_BC12P3_egFI3ZsvGEH_ft77rjO_-PaNvXZZec0PKM6W0EZVCNPUuIzYPm2tzLriTHt4QeXqQ41klkg37hr0PB1Fe54W6kPVz6poGnLBj7a-nOf4ts8rk9zT9RK4-EfAG-bQkhAde6KSGRWxzmLlTfeUqIr0k3VHfBhotyjmDfG5gbyrKDSHX_Je_73jzNWj0EjaykeSzBEUdWlsr55uzKxJySvW9MUMAU5p_2O2Aqq42-vcbsEaXADy1R34bbu4pdS2eTJEI0djREMWJATz2BrT5VDyJRwIrS6zOmAx_uxR60_9XLh&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "bestTime": "Sabah erken",
+      "tips": "Gün batımında gitmek için ideal bir nokta. Fotoğraf makinenizi unutmayın."
+    }
+  ]
+}

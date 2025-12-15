@@ -1,0 +1,117 @@
+{
+  "city": "Madrid",
+  "country": "İspanya",
+  "description": "İspanya'nın kalbi. Sanat, futbol ve tapas başkenti.",
+  "heroImage": "https://images.unsplash.com/photo-1539037116277-4db20889f2d4?w=800",
+  "coordinates": {
+    "lat": 40.4168,
+    "lng": -3.7038
+  },
+  "highlights": [
+    {
+      "name": "Prado Müzesi",
+      "area": "Centro",
+      "category": "Müze",
+      "tags": [
+        "sanat"
+      ],
+      "distanceFromCenter": 1.0,
+      "lat": 40.4138,
+      "lng": -3.6921,
+      "price": "medium",
+      "rating": 4.9,
+      "description": "Prado Müzesi, zengin koleksiyonu ve etkileyici sergileriyle kültür sanat severlerin uğrak noktası. Centro bölgesinde yer alan mekan, ziyaretçilerine ilham verici ve öğretici bir deneyim sunuyor.",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHpC3zlb_OgUuzgEsTSg5WDk0q9stzNxGtXcLRc5tDUCIFXY_lbvb2ntbymPOurKKqpjVT3kF9-6wiGLdNHo6d_6ecbsQVoWiYSM2u_r4wRx21s97kg5rz57AGjN0dMqd2uX23-1uP-TOY_DmcwvCuTUDOFuSXKb2na7r3aZbWpz09xXcwaF3cuoS_eodi6o4-K3X6Bh8hTURygYT1sLJcp1_4i6xVb_d2fZRl3coDJ0PgUMiVdjsgJ1wyEMvdL-cnSQvlBoyiNYD-vzyonFf1Q7yVNbR2OPib0mad1viZKToa-qhV0bRmNCsJlJWXEGub9fArdWFNPvJlLFFLXGSfrUXSTBrKabrSATMKYcDWsQNFM5U2GKdqWVG4HU3WU4s4n4GMextEN1YmuNzznG6lfFjFuytyf04vbO1Tlc-gu17hzT&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "bestTime": "Hafta içi sabah",
+      "tips": "Biletinizi önceden online alarak sıra beklemekten kurtulabilirsiniz."
+    },
+    {
+      "name": "Retiro Parkı",
+      "area": "Retiro",
+      "category": "Park",
+      "tags": [
+        "park",
+        "gölet"
+      ],
+      "distanceFromCenter": 1.5,
+      "lat": 40.4153,
+      "lng": -3.6845,
+      "price": "low",
+      "rating": 4.7,
+      "description": "Retiro Parkı, şehir hayatının karmaşasından uzaklaşıp nefes almak isteyenler için Retiro bölgesinde yeşil bir vaha. Yürüyüş yolları, dinlenme alanları ve huzurlu atmosferiyle doğayla baş başa kalmak için ideal.",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHp6yCXy0UVDMAoZTVjt-aB4Ha7dY3Dg5Dhg2C70Vj9SkEMUUBSvjb1h2SeGF9BZPt4nvLO7_z0vAKTqhAfjbjsSVtph5N7J0mlXNOPCu5hzSpuz5lhsBRuHZAOdxLC24t_eDnEnqOIB8lhY-65lTNcOHao7EH1ufCYcMNjvBJekpfKzMo5ml2to5LOlmc7XMQAMLcM7pZ4NpeTgWhjAxW20fnu2w_QJStRkH6ggQNZdyxQMI5RfOe0dfIPLcsuLLmNC7doi9FK93FHNrZ9C4BtnI1biczqEOMsHXakFeowkdEPAPjynvVRKuHfPEU_gXh7PW3ncci33TFB2ePdA2CxxWsCFlhSW7ohwmT6OLRHxBAzx0Gw2Y_cRumimocadoKSrXMcc0yZPhzgKXhsjGv8QS965pUSiYgxkTWKSS3w&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "bestTime": "Sabah",
+      "tips": "Hafta içi daha sakin olur. Yanınıza su ve atıştırmalık almayı unutmayın."
+    },
+    {
+      "name": "Puerta del Sol",
+      "area": "Centro",
+      "category": "Manzara",
+      "tags": [
+        "meydan"
+      ],
+      "distanceFromCenter": 0.0,
+      "lat": 40.4169,
+      "lng": -3.7035,
+      "price": "low",
+      "rating": 4.5,
+      "description": "Puerta del Sol, şehrin en etkileyici manzaralarından birine ev sahipliği yapıyor. Özellikle gün batımında sunduğu görsel şölen ve Centro bölgesine hakim konumuyla fotoğraf tutkunları için vazgeçilmez bir nokta.",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHqotonMd4FxI5MWagndQjC4zyl00Yk9PAOs2q90ysbgwBh0sIKAGQzpSp-a-w-JKPHlE6xtmR0zaz18xZ51LxGCab2wcOWSq1EUu_gxRr6yrJAKv8tLLwRM1FS2HdH78w3iOBesB7YSjBE6BUmbDzdqt84bu96X1OO2y2uAwtwCRtzWKKxOEVX3hOTGnWFH3xBTq4ONOQWvwzVw7NKz8W3uVHTvoBMw2eAgNWoaEfwnTzqaTXVfGkHoSdy5qpAY6Hid17OMxPg0Sn7tnmkyq5OaYQcJM4v9kml14B7Lr70dtPnmVbk_Bho8VAta-TkfyOzaTCS1qrTH8E9aUoUpGu0sPyf5pY-5q-EiV30D7-UXdf0WnwhVdgyVQ_2pmzyyp3Sd88U4R6DeJ0GhmD_GVVEO5GAi2BIXwoL_Gq7r-77BTA&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "bestTime": "Akşam",
+      "tips": "Gün batımında gitmek için ideal bir nokta. Fotoğraf makinenizi unutmayın."
+    },
+    {
+      "name": "Plaza Mayor",
+      "area": "Centro",
+      "category": "Tarihi",
+      "tags": [
+        "meydan",
+        "mimari"
+      ],
+      "distanceFromCenter": 0.3,
+      "lat": 40.4155,
+      "lng": -3.7074,
+      "price": "low",
+      "rating": 4.6,
+      "description": "Plaza Mayor, Centro bölgesinin tarihine ışık tutan önemli bir yapı. Geçmişin izlerini günümüze taşıyan mimarisi ve kültürel mirasıyla, tarih meraklıları için keşfedilmeyi bekleyen bir hazine.",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHq_SP8BFudOWWtSDsJ6VT3t00g1kWIq4kNPXWDZgJU2DLnx4GQjFsjehpJMnhYX04OFZjhDMbLwCBDwX7d7RHZqABEfyWtQOlqZwBBndLG_ouykhr1Z7PlqJklaowWfKtcYzwHsjU1T6oE46VSJRJwHKdb1hKznEMEfZT98yuVuiLFIoBWyMUGF9CfuuYHw5S2yz65mLoG_stZzhavKz4XUAznFisXin5q-XL1WpzD2ujmroprutyvNUX_Cm4I91XETEcqfr7UpgF67K-54Ou8FHiQG9LhleyCUyVZHLAe4dnH3lCvlEU2RCGaA3FEIx82SWXIEXqrplxh9Q7qg4TD0nfDyD8dDTWe8WlE0KD325241SA3SSeTMDcXt_d9Dh42JD5bNWAZYzPBvczttYfekdnWEgxZSIDrjPMrZ3F1lT4ff&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "bestTime": "Gün batımı",
+      "tips": "Erken saatlerde veya kapanışa yakın giderseniz kalabalıktan kaçınabilirsiniz."
+    },
+    {
+      "name": "Santiago Bernabéu",
+      "area": "Chamartín",
+      "category": "Spor",
+      "tags": [
+        "futbol"
+      ],
+      "distanceFromCenter": 5.0,
+      "lat": 40.4531,
+      "lng": -3.6883,
+      "price": "high",
+      "rating": 4.8,
+      "description": "Real Madrid'in efsanevi stadyumu. Yeni tasarımıyla muhteşem.",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHqqau8Kn6ueIpIrXoW4ECub4LmSOWeQJqvbmFqS-ZRGNVBfZkxHtz3iFTep3ssoVeAp7ogZ-fSYaud3wLe5S7e9z3C0OegV5DQ3Si_Htcg5mmpr-5ou-UWR82HIjCdq8dZqjs6qYh3n0F9Yj4wzEEi68DrKQ82Xnu23hL8y1SBm0BafZgihqv4562GeXZAoxQwMGbsQUxbAUL9JmM0BDPfsqo7520m-5-rmU9E5apBrZkxHRPtcsBByTkG9oOJymQq8d4r0OCZzduTOsV4ELF2TAeswIIDnvh7Gl_TlHDCfuj7Bdv9lPRSUduiOOcDod1c_F8xugs5chNwXDGz2FSy1wRrRd2NHIBaQ0UNAdnLIxoTAPJ3yui2DPakFJDnSidw29GL2oiYXX8cMhProJ-E9973rr0Qm5Mqj_3BxLb4&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "bestTime": "Maç günü",
+      "tips": "Yerel halkın favori noktalarından biri, keyfini çıkarın!"
+    },
+    {
+      "name": "Gran Vía",
+      "area": "Centro",
+      "category": "Alışveriş",
+      "tags": [
+        "alışveriş",
+        "sinema"
+      ],
+      "distanceFromCenter": 0.5,
+      "lat": 40.4203,
+      "lng": -3.7059,
+      "price": "medium",
+      "rating": 4.5,
+      "description": "Gran Vía, Centro bölgesinde alışveriş tutkunları için çeşitli seçenekler sunuyor. Yerel tasarımlardan popüler markalara kadar aradığınız pek çok şeyi bulabileceğiniz canlı bir nokta.",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHpHGE_FnJnC9Zhg3d6rqDMDnacHZryt2hahLzuc-oEkU_AWBU_G_p-WMOtiaYRWk-gkWJNPs7xtF70Ga-HiVW8MIasV-hNlOMvnz5pkDSEjjj__884JEeYgUFeK8UCBdZSvDkyjJ67CKR00iQpdo-gqbZ-ycOM4K0WJLOt9pUBdlTq2NXvkhx1Lqaw-o_zb0_MkNo0mfApAiJpIu63ijOt96wo6DCKn9csoGVYNIPU1QpOC3EuHxxN3mgapUrid94R3i43v5ZLJ6ynsfyda00VLmjJ4AQMvXbx0HuagSJvneMFcOf13pRh9eWm3CKFpIWfwtmitgsl2jC2UrawhwDWWaM6M_ud5TjcP5K0VVlVZDpu92TaQ64iKi_f_U9M6aAtbAzp6G9R7ZLfoe0SRSlucT3VF5a6uC9CWH5LSYnCS3Q&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "bestTime": "Gece",
+      "tips": "Yerel butikleri keşfetmek için harika bir bölge."
+    }
+  ]
+}

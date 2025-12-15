@@ -1,0 +1,114 @@
+{
+  "city": "Dubai",
+  "country": "BAE",
+  "description": "Çölden yükselen fütüristik metropol. Lüks, gökdelenler ve altın suklar.",
+  "heroImage": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=800",
+  "coordinates": {
+    "lat": 25.2048,
+    "lng": 55.2708
+  },
+  "highlights": [
+    {
+      "name": "Burj Khalifa",
+      "area": "Downtown",
+      "category": "Manzara",
+      "tags": [
+        "ikon"
+      ],
+      "distanceFromCenter": 0.0,
+      "lat": 25.1972,
+      "lng": 55.2744,
+      "price": "high",
+      "rating": 4.9,
+      "description": "Burj Khalifa, şehrin en etkileyici manzaralarından birine ev sahipliği yapıyor. Özellikle gün batımında sunduğu görsel şölen ve Downtown bölgesine hakim konumuyla fotoğraf tutkunları için vazgeçilmez bir nokta.",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHqRXnKL6XFXA8CQlUwfH73MQKBqQNNW5TDp1Kt7FI6WG8uUPU5l9XxcLtRcCnrFNsOJ10VOPxUOhd6U9UZB2lB5sktpiSc_8j_CRRMTNqKDJer2Ll0xcm3PF0P-J8my1wULdXbRZ-DZXVpM9vEnk9JRz1D8GlUl6ojfYFRHvdmb3pj_lQxpKc2IpLp03WGyORCojmOkgC4i-X8dW0x1-6zmjg7sjfhXMRz7N00gn5FcBXbwTERaHaOaYY1JK667xa6pUeX8HnOH66ldu22Snc7hvh31GYku2Tc6pAUSbwLr_ZKkGwwIB_IRbtcvtd8S-pGUtGWKs6TqgbI_uxXrLoj85LAQGwJ9mnHbXwol3LBY8Eb0q8k2r7KiUjEsPnguGKBoI2WHloncbhtJJtQtos8euHNqlxnusLkJPlV_IdBLU8k&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "bestTime": "Gün batımı",
+      "tips": "Gün batımında gitmek için ideal bir nokta. Fotoğraf makinenizi unutmayın."
+    },
+    {
+      "name": "Dubai Mall",
+      "area": "Downtown",
+      "category": "Alışveriş",
+      "tags": [
+        "mall"
+      ],
+      "distanceFromCenter": 0.5,
+      "lat": 25.1985,
+      "lng": 55.2796,
+      "price": "high",
+      "rating": 4.7,
+      "description": "Dubai Mall, Downtown bölgesinde alışveriş tutkunları için çeşitli seçenekler sunuyor. Yerel tasarımlardan popüler markalara kadar aradığınız pek çok şeyi bulabileceğiniz canlı bir nokta.",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHpB33RXGzDWRHOcnyamqriWdx3XSu5ss_syMRLV6DtLflAzQWQIglgKQ1b8-RHBTQ5ODT5Ug9993MKPK79fD1SchPPewd4BYOW8920vfPNq_wbgEivupzlk6vmKUXFn0Zm6rRSDegnlvZg009D0_1SLX8tFzRgU4ub40YB5r7ZtaI94QaUpxRY9FQAsbcUeXDFoAsPZgkWlTNh8TGQe64iXVrMNblJpKBRfvAvu71B4dhguvRFUU9JON-aI_CrrC2X-bVQQX7udW-y2ROXSlzuM-TdB8bNeFUaB2RunclCSM9nxQXu5AKMf7HeSmCUONFCccnzHamFkWTShheprdEZZVAr_wXBSLQ3c8-LlhZP-0ysapFSQiui0TzOtEyhypk0FjdqFE8aMHHFN_-ARRG9M2QuregGMO9q5C7ItvFU&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "bestTime": "Akşam (fıskiye şovu)",
+      "tips": "Yerel butikleri keşfetmek için harika bir bölge."
+    },
+    {
+      "name": "Palm Jumeirah",
+      "area": "Palm Jumeirah",
+      "category": "Manzara",
+      "tags": [
+        "yapay ada"
+      ],
+      "distanceFromCenter": 15.0,
+      "lat": 25.1124,
+      "lng": 55.139,
+      "price": "high",
+      "rating": 4.6,
+      "description": "Palm Jumeirah, şehrin en etkileyici manzaralarından birine ev sahipliği yapıyor. Özellikle gün batımında sunduğu görsel şölen ve Palm Jumeirah bölgesine hakim konumuyla fotoğraf tutkunları için vazgeçilmez bir nokta.",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHodXlOTaLqAoKJCcXpgmqUm2Jm7LGnded_mgxL4OYkdgNM_5vbXQvPkXnn_Wuuc-QBduDFSaOyW3HQ9_IwuDgKbXebsrel0Owlm-cP-IYhaLGOgzH5ZkwSyItgZ_27Ik7UqcwN3_PB6E3Z85FH5grEy-sXpwfsmLx-GA-q0oLxOjLNyQazUghD2im2eJgjWOpbilJ_GTf6z5xY7Ujac2ESH8NA8LTCaWKSn0gocNUB2gpzif24QHHtGUZYlkbb0F6pG49IMAuJog0Wf1PzM5AxnPPLe9yxyapxA6ebrMYCIaF-nmXoh3LIotSAyRpdZl3PDOaPyBfebhmHPaHSsxNxON9hzUe79by1gt3buJE2ctgYHxLVQOwrruqz2gLR7BEo1IVhIhjTKjHUSdyq_Ah5hdAQMCvhQug-R58woHcVo-w8&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "bestTime": "Gün batımı",
+      "tips": "Gün batımında gitmek için ideal bir nokta. Fotoğraf makinenizi unutmayın."
+    },
+    {
+      "name": "Old Dubai (Al Fahidi)",
+      "area": "Bur Dubai",
+      "category": "Tarihi",
+      "tags": [
+        "tarih"
+      ],
+      "distanceFromCenter": 4.0,
+      "lat": 25.2639,
+      "lng": 55.2972,
+      "price": "low",
+      "rating": 4.5,
+      "description": "Old Dubai (Al Fahidi), Bur Dubai bölgesinin tarihine ışık tutan önemli bir yapı. Geçmişin izlerini günümüze taşıyan mimarisi ve kültürel mirasıyla, tarih meraklıları için keşfedilmeyi bekleyen bir hazine.",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHq81_7UidR9f4Op1JfH5ngmlo5QC8AqdXY4duQ2KAxotVpJm4vrdn8x8H0PGw1APvnPp80pZPe8lBbSXZFHA7kFzxto7xBAThM0gLyoZ-YxRhgYjs6Y-wdvB0Kaarw1Og_x-rLQ41ycTyYcOWNrM8HryBmt2TeAriMvr0e1jBtuCKbkxXSLPFN2kLDxvOz-g_BoB6oFhA9HEpIOpL5O0qD7a50mW2lc1zvUy0jYxA9-kSkRIJK13pY_kMt5gVCDRqEpAKvvM2xeGm85kevPWa_D_3ijRRW-Y2Y_117nEVIrs_OnygNxTz0o4N7CwSFdA6hQigSdKYllkdGtl8AdhnPCeDPRRuwyjHX1-ol4dn3YwQrED3vayCdXVccYuLWRUQNBBrBjsULgXSyn3XAGdNYIx1zXWe8COsnsGdrcsiHsg3FZ&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "bestTime": "Sabah",
+      "tips": "Erken saatlerde veya kapanışa yakın giderseniz kalabalıktan kaçınabilirsiniz."
+    },
+    {
+      "name": "Dubai Creek",
+      "area": "Deira",
+      "category": "Manzara",
+      "tags": [
+        "tarihi"
+      ],
+      "distanceFromCenter": 3.5,
+      "lat": 25.2582,
+      "lng": 55.3047,
+      "price": "low",
+      "rating": 4.4,
+      "description": "Dubai Creek, şehrin en etkileyici manzaralarından birine ev sahipliği yapıyor. Özellikle gün batımında sunduğu görsel şölen ve Deira bölgesine hakim konumuyla fotoğraf tutkunları için vazgeçilmez bir nokta.",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHpoME_ItCB6NvMSSkTmtdxJ_KJmH8eSAZMxIM6u4FpgsfbodpAJ55HuDnRr6XNa0s-k3N_BGv_lFZ8sfhjgZE1rGOWR5skbrg4sT6EpVVbssspb3cYb_xRrXYBSnNAiSEek2T6PM-_wkAdyhOyFexLw4og6c1SDqVDMkj4Srkpl6I3kgvCnknEGc0XNAVMteTgPnvTfp6hRHhX0zE_rZNJeEOfogYVcfcFCtLUoSCb6zuQYquCGCBIJLvZgU4JfCCZB-UtYfQCMzR1yxkqhbbz2plz-8kaaUOZhOgE6jIehHVOa5Na_Bv7Y0erM5jeVRlHcC6xX_L7WYJRuzf8NQ_kT9uY8M2wv9lQ3hyaNOGuHWIDW-bqxXxVii-buwSPRWFjHZSQ3Z37N-W55Bpw8MSJWRrV8EfjycPIMD3xsoppKNPE&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "bestTime": "Akşam",
+      "tips": "Gün batımında gitmek için ideal bir nokta. Fotoğraf makinenizi unutmayın."
+    },
+    {
+      "name": "Desert Safari",
+      "area": "Çöl",
+      "category": "Maceracı",
+      "tags": [
+        "çöl"
+      ],
+      "distanceFromCenter": 50.0,
+      "lat": 25.0,
+      "lng": 55.5,
+      "price": "medium",
+      "rating": 4.7,
+      "description": "Kum tepelerinde 4x4, deve binme, BBQ, göbek dansı.",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHqknL0Kufj8KBKWlkgYS3pMY2IBVOeUXszTUakKG8U6G2zo7s8Z2fHmLNLotf3iktAxAuYJtQlVdta2KazXd9waBBheL0EsuiZkwuhkqfQnCGN9Xf73JZt2kJZFxykIYEX70uyXdHdc63Jmlcd5WVzP8rf_u1nJu4axwbaxJu4yUjZ6bKquumUESgHbaGhaxKoNI6n8qcAFk4oNFiDZRbBgzOrJOEozSHjJFpEPC6dUeWhU4KrrS502HpPhyY0c4BEO6tlCedcIciU9gNmOf_ths2ZHy7fumSyrZBWCf54VvQ&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "bestTime": "Gün batımı turu",
+      "tips": "Yerel halkın favori noktalarından biri, keyfini çıkarın!"
+    }
+  ]
+}

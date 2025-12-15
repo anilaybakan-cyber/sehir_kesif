@@ -1,0 +1,114 @@
+{
+  "city": "Seul",
+  "country": "Güney Kore",
+  "description": "K-pop, K-drama ve 600 yıllık tarih. Gelecek ile geçmiş bir arada.",
+  "heroImage": "https://images.unsplash.com/photo-1538485399081-7191377e8241?w=800",
+  "coordinates": {
+    "lat": 37.5665,
+    "lng": 126.978
+  },
+  "highlights": [
+    {
+      "name": "Gyeongbokgung Sarayı",
+      "area": "Jongno",
+      "category": "Tarihi",
+      "tags": [
+        "saray"
+      ],
+      "distanceFromCenter": 2.0,
+      "lat": 37.5796,
+      "lng": 126.977,
+      "price": "low",
+      "rating": 4.8,
+      "description": "Gyeongbokgung Sarayı, Jongno bölgesinin tarihine ışık tutan önemli bir yapı. Geçmişin izlerini günümüze taşıyan mimarisi ve kültürel mirasıyla, tarih meraklıları için keşfedilmeyi bekleyen bir hazine.",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHozS51X0vcKVwEeiskfa6LEkuNQsMXfKIhOqKJORgKmsDZ-7G4zMlgqLcuILXTZ2lqjsy6kv045CxWjnDBqYsYatKDm6IDwIAnxqybGiZ_ehqymJkV-5h9EGftd6v5Bk-yZd9nSTiimR3Dj9OJGjsO8UpgJ5FuhTnit9ZKm7--wdhL5ZYIGMjb44fms4cvg0yNIjwFr6Ph5mPBcZV5FnWErLOQmroUZsuKf1z0eeogqyCHFhAgMrsgb2O4N5aUtx0tSetc-hOSwZPNS375u1p54H49poHgpKjdXXdiZzLvyyd0HM21C-vbFfR0bieHt3z_UG07vVDTFvumL3kZeZeLLhiBzI3KakL3I-G2HH53T84q6h9rPepsKHIfMi6moOKKTvqBce40wEguatmuXYwfoDCdxyMAfm8EnuylQ3OmPqg_6&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "bestTime": "Sabah (nöbet değişimi 10:00)",
+      "tips": "Erken saatlerde veya kapanışa yakın giderseniz kalabalıktan kaçınabilirsiniz."
+    },
+    {
+      "name": "Bukchon Hanok Köyü",
+      "area": "Jongno",
+      "category": "Mahalle",
+      "tags": [
+        "geleneksel"
+      ],
+      "distanceFromCenter": 2.5,
+      "lat": 37.5826,
+      "lng": 126.9831,
+      "price": "low",
+      "rating": 4.7,
+      "description": "600 yıllık geleneksel evler. Fotoğraf cenneti.",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHrhoYV6sh-gIEsY776a0JsvNF2UbLqMehTTFKvDJGt-8eeqOMkYSqQrZMnHIcGoxMj70P5KVEFOvTokw6LQ82LyIED3xukpoUhB8cEyXmXBlQM0nZOXh671hht6lckSA_nYKdFi4jrlC71mo5oCE7S7JnRpu4Ln9mWKEgXRq6W_XmccaFNmYOaVQramQEHKptFmhXgC5oSVNg6l6F9z4n_kFdbWo0OHpxpjVJ1Sw8k_4sr-FAesSWJT2lmFSej-E2XQzMe_ZnQA1PCUGXC-qzqcG8zfv0tu8JeEgXNBCobVx1dAvhSzJtYtUXmyD8TCtPlaQjhnS1wRSIlGfK69fHvJQFW8jaiuaT7Kf_uircdAA8FG414Ei3gFNUJnkn8njHVEduKpeXYk-RKrFI_Tm7svENeaBNE9Urt29pgJdwLj4lJO&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "bestTime": "Sabah erken",
+      "tips": "Yerel halkın favori noktalarından biri, keyfini çıkarın!"
+    },
+    {
+      "name": "Myeongdong",
+      "area": "Jung",
+      "category": "Alışveriş",
+      "tags": [
+        "kozmetik"
+      ],
+      "distanceFromCenter": 0.5,
+      "lat": 37.5635,
+      "lng": 126.9856,
+      "price": "medium",
+      "rating": 4.5,
+      "description": "Myeongdong, Jung bölgesinde alışveriş tutkunları için çeşitli seçenekler sunuyor. Yerel tasarımlardan popüler markalara kadar aradığınız pek çok şeyi bulabileceğiniz canlı bir nokta.",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHoLNZyA91GvAC5Q2DUPDDYgaFm1P-FzZlcJqD19JoQ44X01rivG31Pp15pLjJsWR6GgwZWg10pPw5xJpjc9FAzpaVB6Arzz8meiKc7vKD_-n2x_S7Dkx6DA7gRAQ27VCnUU5yzz_NM7fEjexfIr6_e7oilyGgB2pBr06EXBsuOiZ8NRsRqbGn7uZw0X1Wgk0e3CBCsr7OjiH8m4WoI_plLe81H_SdVa5h3ynEaWwEhMwY22U16Zb2r_bB707jMqYER2YjkEZwrsknldKc-toir0bMuYbqp5BC1hjncPIaP764EAMvbJy0fkwwYlyp619n3FkCwyQZMrU7n8UgXatPTwaS2BRQf1yrIDY4d2V-NMT4Lq9KEAVO5GSA0C7-ikmP7NKbsWmxHHIJ268e3eIXrOr4AgfymK0j04Cx19c1CsLdU&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "bestTime": "Akşam",
+      "tips": "Yerel butikleri keşfetmek için harika bir bölge."
+    },
+    {
+      "name": "N Seoul Tower",
+      "area": "Yongsan",
+      "category": "Manzara",
+      "tags": [
+        "kule"
+      ],
+      "distanceFromCenter": 3.0,
+      "lat": 37.5512,
+      "lng": 126.9882,
+      "price": "medium",
+      "rating": 4.6,
+      "description": "N Seoul Tower, şehrin en etkileyici manzaralarından birine ev sahipliği yapıyor. Özellikle gün batımında sunduğu görsel şölen ve Yongsan bölgesine hakim konumuyla fotoğraf tutkunları için vazgeçilmez bir nokta.",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHomZQNEXUwvsoqIwaMjvuhmtE-iKUwRlDL_XowWSEMm07qpMhX2Tsn6V5pjpkL1BQBKkxN-1-SWoy-tfP4oWJvYuVpC0G9LflyOHPfoI9dG9HcUGVVfj4tLjiR1ENLhD6fnPlSc5nlZWcmRUL_-1RruA0_e4eeD9iHfKjGp8GEpsyUSyctcUV9A0Vb76yUK-JUaFLcbDjtnPzYr1sNvgyDHFBnkOS78F0FX8gitsU1g7A6i0K637UhStK2JV8YuXL-nTxW5RIr6aHK99Oqi2zOBFasdcVWg3Nz2esQFu1DHEIx4GHSRFQM6sf6ff_yiE2RWbK3zoRLfm50Gjp9f4SsutY-w6tvap1TeeX6-LHjS5hbH4HcF11qd8GDE6h3UY1tu02PaBqmxnxJkuiGQyPOes_fDusUkCYTxTVNGCSjJ0uzN&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "bestTime": "Gün batımı",
+      "tips": "Gün batımında gitmek için ideal bir nokta. Fotoğraf makinenizi unutmayın."
+    },
+    {
+      "name": "Hongdae",
+      "area": "Mapo",
+      "category": "Eğlence",
+      "tags": [
+        "gece hayatı"
+      ],
+      "distanceFromCenter": 5.0,
+      "lat": 37.5563,
+      "lng": 126.9237,
+      "price": "medium",
+      "rating": 4.6,
+      "description": "Hongdae, Mapo bölgesinde keyifli vakit geçirmek isteyenler için ideal bir durak. Sunduğu aktiviteler ve atmosferiyle ziyaretçilerine unutulmaz anlar yaşatıyor.",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHpQnkpZH1AVsXNPT7wWPn_DaW3AJMpSa7ErS0Y3yBj8ordcByF4DoJ-HLsJMUnrw8MDEf1uDoEExSypgpjUeik--e4jn0rIgXWGwAxH_ZUxiNvj5T5oinI-mwtPEjCiKCkoxIfeEwMJsKqrwoo5Iwz6ve24ll-V3rKqFlO7df5XYFN4BPj5131LfZk5vosrmY428xRUHiBxaqg-HGkEw28whvU8Hkbq46AdC8sWWy-8J_Tq63G0-RDOVjbRcLCsIm1vzOM5MdAt8eDYfahIafUJdgh-Cf5Npauu6l0ltqtUWA&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "bestTime": "Gece",
+      "tips": "Etkinlik takvimini önceden kontrol etmenizde fayda var."
+    },
+    {
+      "name": "Gwangjang Market",
+      "area": "Jongno",
+      "category": "Yeme-İçme",
+      "tags": [
+        "pazar"
+      ],
+      "distanceFromCenter": 1.5,
+      "lat": 37.57,
+      "lng": 126.9994,
+      "price": "low",
+      "rating": 4.7,
+      "description": "100 yıllık pazar. Bindaetteok, mayak kimbap.",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHryIPI6iGwb9MoMv-bWRN-RQJfdz_xuOEqgJElKcXXpw8HH4p0tbmXAxRb92DUAHcqgZ5beyQJnnSMCqpwtHTiBmPzTkZDHPzi7IctqoBoRWkvYpnWf54G2gT0K4yZfoshv0n3SMnivgavxwKWZ-PIQvbckfsqtnR2knkHVV_8AdNnD3p6MtownGJGOkEIsVB4ooFp_Em2Lt5M6ruqDXoiLVb0ynhrSZfwCZUrs_THWy4tZUPnLzhxO-kkJMmqYAvHN75FdXCfamCBJFaOdkjQCqVscMxE4B-jrmznhvYPALfMnQzd044uHyM5xhBnJSSXD2uvKCwILJ55ypjUooMJiTyESokkK1jJKYhTLxzW-SJ7B2Zyc2d7yH_LLSrCDTzzXS5gkeVCRzSKZi_2VKZSj_ulP7Adk5u6mUqrn9P2fO-iUtxvQh0EAD8nwe38P&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "bestTime": "Öğle",
+      "tips": "Yerel halkın favori noktalarından biri, keyfini çıkarın!"
+    }
+  ]
+}

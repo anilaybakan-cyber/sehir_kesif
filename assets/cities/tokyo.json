@@ -1,0 +1,202 @@
+{
+  "city": "Tokyo",
+  "country": "Japonya",
+  "description": "Gelecek ile geleneğin buluştuğu megapol. Neon ışıklar, tapınaklar ve ramen.",
+  "heroImage": "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=800",
+  "coordinates": {
+    "lat": 35.6762,
+    "lng": 139.6503
+  },
+  "highlights": [
+    {
+      "name": "Shibuya Crossing",
+      "area": "Shibuya",
+      "category": "Manzara",
+      "tags": [
+        "ikonik",
+        "fotoğraf",
+        "şehir"
+      ],
+      "distanceFromCenter": 3.5,
+      "lat": 35.6595,
+      "lng": 139.7004,
+      "price": "low",
+      "rating": 4.7,
+      "description": "Shibuya Crossing, şehrin en etkileyici manzaralarından birine ev sahipliği yapıyor. Özellikle gün batımında sunduğu görsel şölen ve Shibuya bölgesine hakim konumuyla fotoğraf tutkunları için vazgeçilmez bir nokta.",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHqxq1KJkAz5Oe4hdJ2K8q6_vOwR4NfnhvuuTO39D0oHZ7KoB995Fp87OVz9FvaCU7SDbyOG_jcv-baJn-hU1DL0WTySD9G-O0Qp9kTp4En-PbLNUsudYC7Cwzm2ntnPDEOQyUvBjZtMydY1vsSVrFzWByQUX3MitLbYxhDQQ_2QPy6xusrS5BPqUlN_qBhZSZF7VZpHUQNZtQ7hTh-feVAp36nG4KZo_22YFo9lEmy4AKzS5GuXwILEFRchNo9Urzuic8mEtISZF49or7EsoEzeP-q82LOCiIWpDKo--U7bm5G96N5MvfVRbEJngt2WfEPK-XojPtaaF6rW8ciWGpH6plrjLGH37Q5lNVxuffAIjTB27JnMWFtGmcLDuvuC21tjQl6bW05A-DMg356DRxYCk_Uu9Qw2Wxy09YG5wwRLRWg&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "bestTime": "Gece (neon ışıklar)",
+      "tips": "Gün batımında gitmek için ideal bir nokta. Fotoğraf makinenizi unutmayın."
+    },
+    {
+      "name": "Senso-ji Tapınağı",
+      "area": "Asakusa",
+      "category": "Tarihi",
+      "tags": [
+        "tapınak",
+        "geleneksel",
+        "dini"
+      ],
+      "distanceFromCenter": 6.0,
+      "lat": 35.7148,
+      "lng": 139.7967,
+      "price": "low",
+      "rating": 4.8,
+      "description": "Senso-ji Tapınağı, Asakusa bölgesinin tarihine ışık tutan önemli bir yapı. Geçmişin izlerini günümüze taşıyan mimarisi ve kültürel mirasıyla, tarih meraklıları için keşfedilmeyi bekleyen bir hazine.",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHr3-jhIxqnZ7b-2FYlV3xh8t4FmzkG9njuDru5EBGMjMlw6De3VBrWuC0buEnbbZ-dztgY8gm_pblWT78R9Eh8OunCPeiYoashTAVHQZufo8ZkiNluaKbgqksWS-qMJ_932kjc5AefiCmylBYb3ekyiIb5uCsn8YIuqUxmUJmq0mBZn414wCsKAXjF1ygA8VXkN_rp7UsvXITMp25Q6BiSbOUMUvsaFzd9ZLZ9lez0Z2QPivEU9D3RpZmoAogL9mSmLrmI_Re4mXsF54_RA9IVdr86ER_3JGEnfEsZ7Qw1R7h1089wWg-bMXx2sIbiD-snqouURdBkvXljOuwysxjrUIhRhrspLC4yzisfD4JYdF7mMXdV4bTn0WwQy39C_VrkM-u96e4pI9AaNerqnfnxxjptQC_063aIWrKhUgVI_2g&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "bestTime": "Sabah erken",
+      "tips": "Erken saatlerde veya kapanışa yakın giderseniz kalabalıktan kaçınabilirsiniz."
+    },
+    {
+      "name": "Meiji Shrine",
+      "area": "Harajuku",
+      "category": "Tarihi",
+      "tags": [
+        "tapınak",
+        "orman",
+        "huzur"
+      ],
+      "distanceFromCenter": 4.0,
+      "lat": 35.6764,
+      "lng": 139.6993,
+      "price": "low",
+      "rating": 4.7,
+      "description": "Meiji Shrine, Harajuku bölgesinin tarihine ışık tutan önemli bir yapı. Geçmişin izlerini günümüze taşıyan mimarisi ve kültürel mirasıyla, tarih meraklıları için keşfedilmeyi bekleyen bir hazine.",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHpZETPwXjV1-Ikv2sSB_eXZUp0anAXD5U-EVIwB5UgpzmOxHKNxARTmLdmN0AvKAThkhGOhu_1nRLfzEmFGGBhG8X3YdFEbfAUCU3OYauO-Z-WKUbuM4JJRpk1tr9zaJjZZULipdsJwMFXnvl70PHSFNyI35ZSy9Ldmj7FVvrmed736yl3yYAG5howN9a5n3S1MsRn2VfiO7ERr-9RGdu0iBMwgQnj1moBYEit4jBhq6AHctTiU-ddzGkFnti1jgnUJ8mX_4JFpg84blg3D4id85l5HhdOC3QvJyFrRzc0cL0rC1aXpRhCr6jtaUkvp5UBw2s1ZgOvtDXDCw_qPDWhnv35mPyKHvvYn05qw46eNBSivPNViTo7kYIyRt8aEZmaSqayO1L2IdFl2oJnmPBNZEhZlhF6hyKKrykxBZEVTTOZp&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "bestTime": "Sabah",
+      "tips": "Erken saatlerde veya kapanışa yakın giderseniz kalabalıktan kaçınabilirsiniz."
+    },
+    {
+      "name": "Akihabara",
+      "area": "Akihabara",
+      "category": "Alışveriş",
+      "tags": [
+        "anime",
+        "elektronik",
+        "otaku"
+      ],
+      "distanceFromCenter": 2.5,
+      "lat": 35.7023,
+      "lng": 139.7745,
+      "price": "medium",
+      "rating": 4.6,
+      "description": "Akihabara, Akihabara bölgesinde alışveriş tutkunları için çeşitli seçenekler sunuyor. Yerel tasarımlardan popüler markalara kadar aradığınız pek çok şeyi bulabileceğiniz canlı bir nokta.",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHr_Cr_wWwhNr1nMDPKA5Iydt0u0578FhM3RmePsnMFpaaaiW6ZQfFyt-ClMjHv9KFCKVS1K5D0v7RJvfpIYQeiyInAKq6lgJWSV56tb7xRTcs9_xSsK-QuSTVKh0WVKuYTovxx0mCTBgGuGno_HtGRMubTsaHhc0Kqlqs65fJzFwAaz2yKc6AJgrifNWtCyfBDUocKCxDyHyOyDf5ePqIMqE9cN5bOpJB2WbyFJBD4cVw_IqER217n6pllWHVlfuduZ1cLG_RYvuiTVIy2SCiVFLPQ3nQJMst8rw9PZBWKkRDbWR-3CbObJPvp_yJoUzrpaWGYf5pxySbP7PQJF00rhiFKl2WBBydpJteKHSvSNENrJqGPfmW3zh3GK0W3fOR51JV1BBhRWZDMnaReq11Rbw-yxknIPdznk5vVCxqk&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "bestTime": "Öğleden sonra",
+      "tips": "Yerel butikleri keşfetmek için harika bir bölge."
+    },
+    {
+      "name": "Shinjuku",
+      "area": "Shinjuku",
+      "category": "Mahalle",
+      "tags": [
+        "gece hayatı",
+        "neon",
+        "alışveriş"
+      ],
+      "distanceFromCenter": 5.0,
+      "lat": 35.6938,
+      "lng": 139.7034,
+      "price": "medium",
+      "rating": 4.7,
+      "description": "Günde 3.5 milyon yolcu! Gökdelenler, Golden Gai barları, Kabukicho.",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHqDtQdfPha7zGdBG2vavHDbItaJXhJfAb2w9Pko2bOjqNj7_0qlMn-iZkUhilN-1LzHGHVYXTdV_quU84jM1FWdIBnczy4wuV_VF03jXEdNKusITPlEzUUihutSygOJic3pJt8QzNI0QDudwCN4rZTFHoDHToHqCGjQHXQglYasF7OUr9CCs-FmbgN6QQytZsYzBlND6Flra0w2xRXygnnQH8NO8przrV-FdqDb9DdYYLmLtK-Th-ySXgSaTaqnQjaVKPmsUQxOfpGmrjfr3W-A01JAdr_2cxypgS6jLd3b9nHkbfzNrnULkGd_E-AmqR2NHjlpUMSQW3fNVW91FhekQdCveumkX8kV4wT9oiLaDYMWFzhfhY9zETNo-zwdy97z4jQoy0kW4sfiJFCyqd6KZ2zwYmtGHD92K-2Xp8s&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "bestTime": "Gece",
+      "tips": "Yerel halkın favori noktalarından biri, keyfini çıkarın!"
+    },
+    {
+      "name": "Tsukiji Outer Market",
+      "area": "Tsukiji",
+      "category": "Yeme-İçme",
+      "tags": [
+        "balık",
+        "sushi",
+        "sokak yemeği"
+      ],
+      "distanceFromCenter": 1.5,
+      "lat": 35.6654,
+      "lng": 139.7707,
+      "price": "medium",
+      "rating": 4.6,
+      "description": "Taze deniz ürünleri pazarı. Sushi kahvaltısı, tamagoyaki.",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHrYE1kxcn4C9VqofgyS078fPwKdAnD7tntzXa-0h4TP-o15hYE2mrDg_jywuKJWE-25PV7ogAAvUlERUSEqQwHBE8U-fpvgbN7s_zUosoDq38DfB_JVjCHke7h2sQcRG1cJuuGgoAMApz_4ni3ZdxHnl7yx7spQqMSRiJYWFDM8C5BXLjp7eAfyqr41YS9OErHXNQIINg8ooB1T5bfKjPcr2cFOTmtWtZAjLodEQ6gTG8-veioIJ9xQKoShUXXS58NUFbcSM0cbEO5ubzICwzzQclJerb5L1W-RoEPEV4o6kk210QSErdJ8Af4BcWUq2C4vmcUeX_Ex9G2KGvyRq2Pmk5iFUCZUvZw3TbsghC4phXitIp0-FtX8W-wvdQupKlCdk0-cdNCOLfUQ5sK-o_wdWKNcgDeP0MKu7jhe1P1rsg&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "bestTime": "Sabah 9:00",
+      "tips": "Yerel halkın favori noktalarından biri, keyfini çıkarın!"
+    },
+    {
+      "name": "Harajuku",
+      "area": "Harajuku",
+      "category": "Mahalle",
+      "tags": [
+        "moda",
+        "gençlik",
+        "kültür"
+      ],
+      "distanceFromCenter": 4.5,
+      "lat": 35.6702,
+      "lng": 139.7027,
+      "price": "medium",
+      "rating": 4.5,
+      "description": "Japon gençlik kültürünün merkezi. Takeshita Street, kawaii moda.",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHpFAQY7_MG2OAExgW_WgCqAZI7uGDlOPQcIxQZWsl4K1V37Pct8I7G73Jd7dygjq0S9hf11oAvoLsq94cqlLc4hLLWtxHo3GT_d9BtC4fgTFB0wpAylvx9IBHK9LF0MtGc5tR6-p1mo83Txf5H0cAsBWIyREAhdBKrNxJTeqPB_aQaJzLXAzz42gOZiw4y956MYnQKxKFhQ6LROo0z4tlZQjjaNxmJtUBecOEQbOqSUekR9lPVXo7I-_D1b3ByI_Y04SK3lCWuJxRgQAm9ZLYebKaWHLKVvcsaAOHEdUTn9KtW5bahRbPam-4_wuqOl-tGumSpzXaEJhDm2koF2rdKCGObaXrmxUnDpR-si_rlYfZk_E-tKHwZsqo-Y9YVluz1xHo98_inWHTTgafNXZjy3AgJpRNDuD2ZVLpKMb48FYA&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "bestTime": "Hafta sonu öğleden sonra",
+      "tips": "Yerel halkın favori noktalarından biri, keyfini çıkarın!"
+    },
+    {
+      "name": "Tokyo Skytree",
+      "area": "Sumida",
+      "category": "Manzara",
+      "tags": [
+        "kule",
+        "manzara",
+        "modern"
+      ],
+      "distanceFromCenter": 7.0,
+      "lat": 35.7101,
+      "lng": 139.8107,
+      "price": "high",
+      "rating": 4.6,
+      "description": "Tokyo Skytree, şehrin en etkileyici manzaralarından birine ev sahipliği yapıyor. Özellikle gün batımında sunduğu görsel şölen ve Sumida bölgesine hakim konumuyla fotoğraf tutkunları için vazgeçilmez bir nokta.",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHp3Xs77Voofi202Q33PGb-m5qCyJv49RO8NUU444WmLIyKHLLwpIgEI1PsPnYyyl3xgaFV_ZQv0njYT5FSDGqoC8SG6L4GsL_SLuF_9LRbuTKGZbucBTAvBXQB81EX9ki2uk5vqVhjNhOAh6Gh5iFI6CMKZECPQ37INfIloNSFyMYQqwHknd_zLHVCvy28hmw6SC_zn_9U7bcizM8EFIDuGDwRgwTqX4TK6yGQZydvzEGYv0822LKolTDPtvl5DBPSQ93648aruJgh-GkgFAbLJgKtqC5E0K8Czup8_t1B89nvQu97kMzyamaeKn4r5gFs7gQOYaoaggymDQk6f_X-2aYQcL_XOT0SwXzQ--5Mvz1JrWoFanDQUUDXAYaFCmZoFtj7tPYcFGw1FWpXFuoEPZzW80fdLOcl0aIoT4Xqrh-s&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "bestTime": "Gün batımı",
+      "tips": "Gün batımında gitmek için ideal bir nokta. Fotoğraf makinenizi unutmayın."
+    },
+    {
+      "name": "Ginza",
+      "area": "Ginza",
+      "category": "Alışveriş",
+      "tags": [
+        "lüks",
+        "alışveriş",
+        "mimari"
+      ],
+      "distanceFromCenter": 1.0,
+      "lat": 35.6717,
+      "lng": 139.7649,
+      "price": "high",
+      "rating": 4.5,
+      "description": "Ginza, Ginza bölgesinde alışveriş tutkunları için çeşitli seçenekler sunuyor. Yerel tasarımlardan popüler markalara kadar aradığınız pek çok şeyi bulabileceğiniz canlı bir nokta.",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHormZfvgNUVIkchsXR6my6wfzp12ZiYdpMYPqokAykeFwz0Ix4xaRw9z2gF8Du1zKpPLQXvmLrJEUP1L8YCuuDyHI6zUFeUGC9ixpN53FQ365LyoO2OAE5jtdyB1nkXG_nf04PkFcXd5M0V-dojbZaUNS1oBi2o2cKtv-FbIxWBHjiwxX2Uo-2-MZi7S6ZIuOPRwi2pLaipJXEi5dnsXysymISLEWUbSsLvpNR9wYlexTgdECvHYURIkVbuSrS5aU0KKDZSqvzBeUb5xclhPhup7RyPCzZ7dModNWwuS47B7OuT1qdLSUi_oW3gyqdUJch6zrRcvuC6CP7FW7Ig_Lvu5PK4jmzeOPBFA1y8JJJr9ZFsa3yfZFOVhG3hbQYapkYqLR2Ijld6w5YuwVMFxXOEs4iCsJRhWgQMibSld8jQAlA&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "bestTime": "Akşam",
+      "tips": "Yerel butikleri keşfetmek için harika bir bölge."
+    },
+    {
+      "name": "Odaiba",
+      "area": "Odaiba",
+      "category": "Eğlence",
+      "tags": [
+        "fütüristik",
+        "plaj",
+        "alışveriş"
+      ],
+      "distanceFromCenter": 8.0,
+      "lat": 35.629,
+      "lng": 139.7744,
+      "price": "medium",
+      "rating": 4.4,
+      "description": "Odaiba, Odaiba bölgesinde keyifli vakit geçirmek isteyenler için ideal bir durak. Sunduğu aktiviteler ve atmosferiyle ziyaretçilerine unutulmaz anlar yaşatıyor.",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHorHQKDbsX2JCBTKrbvlGK4LpTn3WbYibbeoi9enXiz69FICcgGc-7mjH04tmSmk1jwfxxDNFcv36HRRscrHUDpPYE_h7X5tP0aUY3urnOj8SdLzBDbbUY6PB9LYe-nHZzNZiZ9QdWfzMfRJqC7n5BM856TxJ_Z3Xlv8S8j7SfgCry2m9fYQzVfbr16_PsqYvT3QmtooqxGu9MnVgFotrv5Lqz1RDHcwYcNvu7YsCuE4r3UfPJ_hOMcELndgcjrNBeJ4HfqTGlI4ZJ14AAheKbZfWljRSTsBA1ibIahu4HUUgmYgxCJZzRYnDNrv7B7Fvu4OytyxHX2SuUGPQ1jPS2HPaXWKoshJp8P5YswyptqxiGl3L0JQOpOnG2VB5n7nzBOpcdAJCsO2mBDLEI_efHsH4UbxUG1Vm5x0l4StKXXxBMd&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "bestTime": "Gün batımı",
+      "tips": "Etkinlik takvimini önceden kontrol etmenizde fayda var."
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "city": "New York",
+  "country": "ABD",
+  "description": "Uyumayan şehir. Broadway, pizza ve özgürlük.",
+  "heroImage": "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?w=800",
+  "coordinates": {
+    "lat": 40.7128,
+    "lng": -74.006
+  },
+  "highlights": [
+    {
+      "name": "Times Square",
+      "area": "Midtown",
+      "category": "Manzara",
+      "tags": [
+        "ikon"
+      ],
+      "distanceFromCenter": 0.0,
+      "lat": 40.758,
+      "lng": -73.9855,
+      "price": "low",
+      "rating": 4.6,
+      "description": "Times Square, şehrin en etkileyici manzaralarından birine ev sahipliği yapıyor. Özellikle gün batımında sunduğu görsel şölen ve Midtown bölgesine hakim konumuyla fotoğraf tutkunları için vazgeçilmez bir nokta.",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHqUO5N5vLyfWCPaD_gjgso4qzkUD8lAnMtQxBNgBkLL6vOndkUFfiaMAYrWj9NbWrW8wcm0DJvEhXwCSy6hSGG_rNGYFtto_7Jcz7NEeFPmnXtnAHDOaE7gEXhUA7ebvxIrw7MlikE_HuU-Q40celdEqZy2aVBJodRaZlWi-R8JkOTRy2dg9GzuCyleop6pp7DeBPLx8Hr5WqZItJOBlwhYyglT17pF7HR25G7AWRdv-Ya3SdxRyAwD9-7yF8tOnSsJ-3erfigncjOqlbr2f5DQQYsYt85inlJUXBIEVTnMk-EzyxiS2O2qKkDv4ZEtsWUY7gvrzJCffcgTxJkga38ehUO-NqdNwn3iObEJJaj1HiNaOOWkG2d-ZgIq0uqE0SK8OizuesqOIB3wB6Uk0VQjXA7YIARUedoqDIrj-vw8Mg&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "bestTime": "Gece",
+      "tips": "Gün batımında gitmek için ideal bir nokta. Fotoğraf makinenizi unutmayın."
+    },
+    {
+      "name": "Central Park",
+      "area": "Manhattan",
+      "category": "Park",
+      "tags": [
+        "park"
+      ],
+      "distanceFromCenter": 2.0,
+      "lat": 40.7829,
+      "lng": -73.9654,
+      "price": "low",
+      "rating": 4.8,
+      "description": "Central Park, şehir hayatının karmaşasından uzaklaşıp nefes almak isteyenler için Manhattan bölgesinde yeşil bir vaha. Yürüyüş yolları, dinlenme alanları ve huzurlu atmosferiyle doğayla baş başa kalmak için ideal.",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHozI9LXd5ZDvUz8yQAvoVozM2m0YGKlutZ5GPVCA115ZAhDSIcyIAyz-QrwF5rejsJ8NxhFFqF12tDHRSgy-WaY2RaOwxYceoKI0_pEHmBYNcAQIe7gzhaTafHYInMV1v0vbFH7ksnM3ij2eOvKJ8NH6oxWZCRKZSNlizi2dhVaKYBkgJFT8-tMim-1WzRgxjxpfliUppKr6iQ4n8-q_P7KQL0VkvAdyaU5vlBvGquT7CJwuBtDfS4y21siCO17xVH4MJAlJ7jUoASfP4wYwGi87nyBC_gyS0Snoh3PhJLbe-jYwmNQzGwtc5vzg9GWmj4jM28J0m3xN13tUJLJVfRdFtUMgoEx9-lLV4FAauxcu6aL8GKUZV3PkdSLLsk4eZGecWQQzpsUjgLJK4pTpJ2VDsBwVpn29yjCgRHP7kwgju0Z&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "bestTime": "Sabah",
+      "tips": "Hafta içi daha sakin olur. Yanınıza su ve atıştırmalık almayı unutmayın."
+    },
+    {
+      "name": "Statue of Liberty",
+      "area": "Liberty Island",
+      "category": "Tarihi",
+      "tags": [
+        "ikon"
+      ],
+      "distanceFromCenter": 5.0,
+      "lat": 40.6892,
+      "lng": -74.0445,
+      "price": "medium",
+      "rating": 4.8,
+      "description": "Statue of Liberty, Liberty Island bölgesinin tarihine ışık tutan önemli bir yapı. Geçmişin izlerini günümüze taşıyan mimarisi ve kültürel mirasıyla, tarih meraklıları için keşfedilmeyi bekleyen bir hazine.",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHotCm2RS3BLiipLGkqWnIKH1cprYS8ir1ScOYTil7AKUzJyEKDTZP-TMLvNA62KzarKjmxrSmhTqhxcx7HRXDGDHw8cYOsZAM46xqQvD9g8fw9JCgTjxQBG-eJVXzFtNMgGdQz0Ydc-1XFeo_ZH7CUwTxgGgjWOTCQ9RaveqhVaBFdZ7RFHIFTTj421EByhmpvI67hPj-PUCU1ipy1KbMKCQoHkHru5rAFMnlw2vwDi3G1TPTK4QnZSCb3Ktrhs3ZESlIzxTFB-8tWZXFr7x33e5jzrAGcMGMNYwjJLQqrJX7oTn3W14aqNlUZzRXpCBjfk45CIhhZP3sJfID_UFzanCjRFcX4snoNRr8iU8PaKmROKRddBRCkQsonanKIM91cp6Fxx_K4KyPlchkpJ0ZwSrlNqQRchw1CyoXjolCBMlw&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "bestTime": "Sabah (bilet önceden)",
+      "tips": "Erken saatlerde veya kapanışa yakın giderseniz kalabalıktan kaçınabilirsiniz."
+    },
+    {
+      "name": "Brooklyn Bridge",
+      "area": "Brooklyn",
+      "category": "Tarihi",
+      "tags": [
+        "köprü"
+      ],
+      "distanceFromCenter": 3.0,
+      "lat": 40.7061,
+      "lng": -73.9969,
+      "price": "low",
+      "rating": 4.7,
+      "description": "Brooklyn Bridge, Brooklyn bölgesinin tarihine ışık tutan önemli bir yapı. Geçmişin izlerini günümüze taşıyan mimarisi ve kültürel mirasıyla, tarih meraklıları için keşfedilmeyi bekleyen bir hazine.",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHpYG7GpUB0O1ACJynmgfrD7YiYhCKFOozVg4pVeNX0zqImnllPpOA5OxjtcqgCaMJgVqh6i_An-W34tXu42IWGqIWIUhGsFF4toJYCoQ_btjZ7VlMIGHbuzBy0_OFk_NVkJ19z0eZGwopTBlD3eUeak73byPBJkbhCGFN8sdUXhN7r4lLhUQJ3vFyCSdphGwgPsqmI7mgqwjaBbgsECICfnkv9vifGTdzMxBPWAZIpvwLBcBlsCwktEqkq58qCDXwmKICdDD57P5b34JBAt3S4bkNO7kbEH0LsTjELWav_HFL5VIcPlwzYNoh6dqWQcgTO7Q75vk-d68_INtaaYvdRcv_r0peB46S2McgWdKbptrAHdmgjbqM6FkkTJ3Xkb_j_Fk-jCuOVceO4xQhETlx_ksxTjwVJKAeer-8ubRaG7WPNt&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "bestTime": "Gün batımı",
+      "tips": "Erken saatlerde veya kapanışa yakın giderseniz kalabalıktan kaçınabilirsiniz."
+    },
+    {
+      "name": "Empire State Building",
+      "area": "Midtown",
+      "category": "Manzara",
+      "tags": [
+        "gökdelen"
+      ],
+      "distanceFromCenter": 1.0,
+      "lat": 40.7484,
+      "lng": -73.9857,
+      "price": "high",
+      "rating": 4.7,
+      "description": "Empire State Building, şehrin en etkileyici manzaralarından birine ev sahipliği yapıyor. Özellikle gün batımında sunduğu görsel şölen ve Midtown bölgesine hakim konumuyla fotoğraf tutkunları için vazgeçilmez bir nokta.",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHrzgHDEW6_7c-nDLnl9XB8T-Oc8rhD_PiYMD9TyqEVY-LBXTaXiBvnDI2eFZrDRbHi5B7Zv7tp2bzh-WiI2xY0N1fRFud10wphS1Ra20KaLqQbjcB962OP9DVUv5e-2ewDSXpFzYBA_BJUC4kQd6EcDBqLX4heQ2moGfWJoOCWvPuD4yqQmOVRK603HLJCwRlD7rkdimiACVkq-z_mLmr3Bk7uC7EF3bEunjQgP4qH8AsKSYsqmH02axhAc9MFtfxpe4eHMFOOFMd_C_JPzbh3KlV7Uuhr9sNJdUITTqGqe1riy_zv2wXcVaG40N28fjk-rrpnYZBa65CIE-QzGFDuzBi_oiOHZowYUdimVoY8tQ7V6k3oXhbzeDbVlRS4TGa7Xn04rUQf1KqnEVDaBIdK6fNnfBxBtVaamv6PurX9bSB0R&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "bestTime": "Gece",
+      "tips": "Gün batımında gitmek için ideal bir nokta. Fotoğraf makinenizi unutmayın."
+    },
+    {
+      "name": "MoMA",
+      "area": "Midtown",
+      "category": "Müze",
+      "tags": [
+        "sanat"
+      ],
+      "distanceFromCenter": 0.5,
+      "lat": 40.7614,
+      "lng": -73.9776,
+      "price": "medium",
+      "rating": 4.8,
+      "description": "MoMA, zengin koleksiyonu ve etkileyici sergileriyle kültür sanat severlerin uğrak noktası. Midtown bölgesinde yer alan mekan, ziyaretçilerine ilham verici ve öğretici bir deneyim sunuyor.",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHrmaK2jbu1Rx977tUX7wGdMf61kNHZSyn2Eh68F7IwDnkW9ET8K0I8CfuymUedZ6yG0P8VLBzIapFAsYu5MMaNIctGVGKJjjo1oslqxhG5xla41CbQlWLF4D1e08Vgffej5PNqiHM7I4er_A-ttS-HXgToHnxarMmjIeNMBIv7PhgoYVuVBaK8fOZLrnA5OQwOycB48HpHTVh_lnm5ashZ5L2YzWp27Sb7Hz56wpQUtvtf6U6tlAqxCn66BdKiUmlLH1hev8GpmNOErZEU23hiKjzqGpwYkF-Tho0zv6RdT_LBSMX8QvQT_2DhYWbjyV7oKgHIEtfsadBX7xzvmyKQ9gaU_eEPQj8IyFi_eezl_7C6POEOnOW9uIhcCSBc6OzWHL-yFbVI-s0sZvaFmlhTS14XUHAYC6Ge7aonWm0PqxdzT&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "bestTime": "Cuma akşamı (ücretsiz)",
+      "tips": "Biletinizi önceden online alarak sıra beklemekten kurtulabilirsiniz."
+    }
+  ]
+}

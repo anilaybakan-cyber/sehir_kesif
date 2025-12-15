@@ -1,0 +1,114 @@
+{
+  "city": "Berlin",
+  "country": "Almanya",
+  "description": "Tarih ve modern sanatın buluştuğu yaratıcı başkent.",
+  "heroImage": "https://images.unsplash.com/photo-1560969184-10fe8719e047?w=800",
+  "coordinates": {
+    "lat": 52.52,
+    "lng": 13.405
+  },
+  "highlights": [
+    {
+      "name": "Brandenburg Kapısı",
+      "area": "Mitte",
+      "category": "Tarihi",
+      "tags": [
+        "simge"
+      ],
+      "distanceFromCenter": 0.5,
+      "lat": 52.5163,
+      "lng": 13.3777,
+      "price": "low",
+      "rating": 4.8,
+      "description": "Brandenburg Kapısı, Mitte bölgesinin tarihine ışık tutan önemli bir yapı. Geçmişin izlerini günümüze taşıyan mimarisi ve kültürel mirasıyla, tarih meraklıları için keşfedilmeyi bekleyen bir hazine.",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHrVcvsBt2VglqLM9QYAclYEyJwHRMOVngOkuK0JgmqnbYCdtEfD26_7IdG1K1P4HAGQo2spmiklqw3-wwOtYdIQemRECqvqaft-QmBnQq4Tx5CNxJ3ntYMz0HRarOYE7dsNwhx6okhILFppiFAhoyvp3F5kLquimHXqwmYCzMYYRrWjVTrQ1p0ZPHuhyr4lN7t-Ak_Y9P-4Zkv93RdEks3_cwQESK7fhKo2PoLtmLevx0nV-aki42nC7d2SnEeBJrOLraMHt4RwYytUFAXiDnd7m6Ai4a-CJgAoYCPVdlpQNyBmKrVN5SAqOsy2BMJvEVmHIJ0d4R_FB07tKj8WCcz92_E-nzfls4A-4wrBk-aSxgRovY_JRHwYfEstEAZkkD9oixpeYNc57pPBKt_5zghQffzGOFnD4RpkVL5e0BoWNg&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "bestTime": "Gün batımı",
+      "tips": "Erken saatlerde veya kapanışa yakın giderseniz kalabalıktan kaçınabilirsiniz."
+    },
+    {
+      "name": "Berlin Duvarı",
+      "area": "Friedrichshain",
+      "category": "Tarihi",
+      "tags": [
+        "tarih"
+      ],
+      "distanceFromCenter": 2.5,
+      "lat": 52.5053,
+      "lng": 13.4396,
+      "price": "low",
+      "rating": 4.7,
+      "description": "Berlin Duvarı, Friedrichshain bölgesinin tarihine ışık tutan önemli bir yapı. Geçmişin izlerini günümüze taşıyan mimarisi ve kültürel mirasıyla, tarih meraklıları için keşfedilmeyi bekleyen bir hazine.",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHrWmdpVdf9LG-hX4eSGtvg70EN6oZ-Rf8GZJjAN9O0CJf2YAsA-0hsOu7cCDGzqpA9B-AXuq_wIZMb3-rTiugtp9QoxJJD60tYLZlN_n_rSvhCj4MvsCpfDZTFG8OM32ntCZgIHensF_zkAIXIRV9zusqwkeY9z7MDUaf0HqBhxDnSiu6gKblwk0g-wCOPCePyr_1wFFzWmYPnqz35iOvvCuO6uceba7_d28yBHKF83TzKm1wfFiwOI3lqZLlczwTZisNnzRxzoylzQ_0zoS1ztxXHClnN80Sj6dfLYuaXwzinjzvJE8VpSuwIJBjo6ViqtRlJSIOAZ0Zbe0MzBw5OPUd6_JDo5d7Qedaw3nVbKbqTxXfIxPcH5tTHr_4bYl0mSqhClt7XZ5S23RAm6PtpOjMsRuAfNQXfcw2sFNdMbpA&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "bestTime": "Sabah",
+      "tips": "Erken saatlerde veya kapanışa yakın giderseniz kalabalıktan kaçınabilirsiniz."
+    },
+    {
+      "name": "Museum Island",
+      "area": "Mitte",
+      "category": "Müze",
+      "tags": [
+        "sanat"
+      ],
+      "distanceFromCenter": 1.0,
+      "lat": 52.5169,
+      "lng": 13.4019,
+      "price": "medium",
+      "rating": 4.8,
+      "description": "Museum Island, zengin koleksiyonu ve etkileyici sergileriyle kültür sanat severlerin uğrak noktası. Mitte bölgesinde yer alan mekan, ziyaretçilerine ilham verici ve öğretici bir deneyim sunuyor.",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHrcmoh3fzgNTa1GSjjUF2LbEL5CnC6ZZLd30LShuLzeUS7kuJKE3Mk8rTIAruF2HjzyPgeb5j_rvcCB_l3nrXzqhCDxcOA89OjkYWrLhsQuesfBZGl24QuuaY5wIUF-jGAhZuGsyPTCfhx9vBFCD46Xw-HZHRRpNk3kfZxQ7TDlbljWoDuQeRFoItsd3V08J7AhQnElCrRvJjaWXLv66f3B7nqwmiwI8RJhc6NO7RQvoGHvPwQNWeszBNWsYSSR9MAZgZInCGiTb-h46EqaxeOJ3hc-H97MSmUUfa6ry-ZWZCSsBdS-k6SmwtNKQG2XlA5Som-Jq3KK2JMSFyr7ZXvuc7k0Jgdt8zh5UKIGBLXFyI6vcv9TPnpNA7XR_cRRYR--Mg2p-LeKnj_rwdcCbWDY4pF9FA3v09Aik_dR4jY&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "bestTime": "Hafta içi",
+      "tips": "Biletinizi önceden online alarak sıra beklemekten kurtulabilirsiniz."
+    },
+    {
+      "name": "Reichstag",
+      "area": "Mitte",
+      "category": "Tarihi",
+      "tags": [
+        "mimari"
+      ],
+      "distanceFromCenter": 0.8,
+      "lat": 52.5186,
+      "lng": 13.3761,
+      "price": "low",
+      "rating": 4.6,
+      "description": "Reichstag, Mitte bölgesinin tarihine ışık tutan önemli bir yapı. Geçmişin izlerini günümüze taşıyan mimarisi ve kültürel mirasıyla, tarih meraklıları için keşfedilmeyi bekleyen bir hazine.",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHrRd503iSZLAjxLFsQeJMoTmACcX5olGhn2v6rbZc3oarldWthdGfSuXE6jOS9tZK48gUEdTM71vTz-7CDLdeRxgMsOObUPKIupJ6EXm5VwdWlhSSWCZJAQlAzuLBimi0zH6mkrHjqmzGaQelbDqkjRjXbsvRU-2E0Ac75jEYp0j0mgzQ5PKjsV0sgIZMiasQHlfDLXFdQBwuIK6g-1z6WMuqxby9wG8rH6r0h4agH3pA0mOMllCRIsArYnUd4VD2jn6QqZVioaqb7C16kz3JR1F9h5rlDH6jmkeAr5gaYB6m2Szmyabfp1mgmhOvfPMD8QWK2TDVRZu9vKeGJ_r5DaPVnVkfiQcrQ6NLBdJmexXtLeHG-YeX3NIqZJwnF56W9n9SwzsgQsLCknfQ_wKoegAbmJXcJIX_PfCmH_T-L4qg&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "bestTime": "Gün batımı",
+      "tips": "Erken saatlerde veya kapanışa yakın giderseniz kalabalıktan kaçınabilirsiniz."
+    },
+    {
+      "name": "Kreuzberg",
+      "area": "Kreuzberg",
+      "category": "Mahalle",
+      "tags": [
+        "alternatif"
+      ],
+      "distanceFromCenter": 3.0,
+      "lat": 52.4989,
+      "lng": 13.4033,
+      "price": "low",
+      "rating": 4.7,
+      "description": "Alternatif Berlin. Sokak sanatı, gece hayatı, döner.",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHrbWznIXBOjKm5eoGC_2KFXolC0QiOHQm5UsqoWdwvg-BPRol7WKMNnM089FRwWbGykJ2DHdoNC32vKiyy42iDMStLNEk2T3hnFRBf2EACCEDoV8PXAjz5Ng0NFWABSbog3PKgiDsgS-6q30hAyxLFa0o5EqPtxAI6VZb63y_fYAYd_Cy_iRN0cIw0kjIzkXvFia_uilg39zQ4rfPp3nqrxA-ihBg8v9VlF1TVEFAdV1xOeGKUe8CpM5OFKNtKjIeLMmojaru4yAAqHyiuOhtXe1fPySrXjLbDCTI84lm1B8NwlZ6PK6FU2-GyCcnqnG3s_LV_5zBgKjCwSh632YrIfIW4LKePz2Zfotcuwrpn7MJAmL3TbrvSSK5tmYsbJTtM_INZoqqOHgaeqlQMdYNj6hIJ9He4ESM1Bu7NF5MsSKw&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "bestTime": "Akşam",
+      "tips": "Yerel halkın favori noktalarından biri, keyfini çıkarın!"
+    },
+    {
+      "name": "Tiergarten",
+      "area": "Tiergarten",
+      "category": "Park",
+      "tags": [
+        "park"
+      ],
+      "distanceFromCenter": 1.5,
+      "lat": 52.5145,
+      "lng": 13.3501,
+      "price": "low",
+      "rating": 4.5,
+      "description": "Tiergarten, şehir hayatının karmaşasından uzaklaşıp nefes almak isteyenler için Tiergarten bölgesinde yeşil bir vaha. Yürüyüş yolları, dinlenme alanları ve huzurlu atmosferiyle doğayla baş başa kalmak için ideal.",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHpZViRGkdrdMyFJ5Qir33BVSg3ZpahpRDEtIe0RmE35lbvZ0AQzp_wg5yE9dYVOnxtI42e1cKNnF_9_mu4vgE4COI-eMozNjE4bmPcvJL5jmGa9Sy4glRHz8b6CrXnco_Ow5aZ0q2QZFcBMR5gZ_De6Dh-UR_8yKny0UditD4qHqFwBhCTMVcK4LZIV42GUZFkVAtVzOWh7MDxhGMfmhB1jMhtqFoXsfSLTJnmE7zlWyTK7tM6Am4vYuQtTqJDqDh5JbK1wKScZytjqKwvFADwy9Rr_yQMpevrlAtkgg9F-jCCLfPzGEJrfDpjrdNx-HEm8hcFhKZX6aNxPvybQIO-cQT-lx1V5PkW0O4qMC3CV1l2QkGpqfSgXFewHiLrvGKbGadC25AJp_nJlgMg7dHPIG5KvqrUQgCjANV9WzLfiuOYz&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "bestTime": "Sabah",
+      "tips": "Hafta içi daha sakin olur. Yanınıza su ve atıştırmalık almayı unutmayın."
+    }
+  ]
+}

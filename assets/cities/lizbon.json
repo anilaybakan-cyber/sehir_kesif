@@ -1,0 +1,114 @@
+{
+  "city": "Lizbon",
+  "country": "Portekiz",
+  "description": "Yedi tepe üzerine kurulu. Fado, pastéis de nata ve nostaljik tramvaylar.",
+  "heroImage": "https://images.unsplash.com/photo-1585208798174-6cedd86e019a?w=800",
+  "coordinates": {
+    "lat": 38.7223,
+    "lng": -9.1393
+  },
+  "highlights": [
+    {
+      "name": "Belém Kulesi",
+      "area": "Belém",
+      "category": "Tarihi",
+      "tags": [
+        "unesco"
+      ],
+      "distanceFromCenter": 6.0,
+      "lat": 38.6916,
+      "lng": -9.216,
+      "price": "medium",
+      "rating": 4.7,
+      "description": "Belém Kulesi, Belém bölgesinin tarihine ışık tutan önemli bir yapı. Geçmişin izlerini günümüze taşıyan mimarisi ve kültürel mirasıyla, tarih meraklıları için keşfedilmeyi bekleyen bir hazine.",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHo03pdz0QyOVr39Nr_bFB00_-OGp7hJkJy2ftsyKIuAorNby2z-ryl8Zn43X2onGgLGwu0apDEHDB8wx66z4Kx7fGNU8JHtoawAZ4jFZJifzX8WHnBcK2WcTQeD9D9l9YO9c-pv2DlFIS6SuwqIgoqK9Cl3NZmXjiGGiIiGNEUY8YOuapsj3Q67uuc3mOJizL_lIUZgS-FZTdKvH839BWxyRMlCMZBG0nOEE9Hwg6_msehEK1AcbZraHFyVdMDPWFlKaHcAd9Kd26Cura-Xvob8nEa8gZw0paPkmt47l_RlqRaejKCn6l2f9gUwtVEu5SHjTebo3r5jG2kc1jGUeo6H4jgkIibxERiQIRIVKQzN_E-6UeD5Ivcg730Y6vOHOcGIIOaTMUo13_OyqYaecbJd1rLYylX4_XmlMUMu_NCoHTw&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "bestTime": "Sabah",
+      "tips": "Erken saatlerde veya kapanışa yakın giderseniz kalabalıktan kaçınabilirsiniz."
+    },
+    {
+      "name": "Alfama",
+      "area": "Alfama",
+      "category": "Mahalle",
+      "tags": [
+        "fado"
+      ],
+      "distanceFromCenter": 1.0,
+      "lat": 38.7139,
+      "lng": -9.1296,
+      "price": "low",
+      "rating": 4.8,
+      "description": "Lizbon'un ruhu. Labirent sokaklar, fado barları.",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHp4qDyhvdYqRg2TNnYEYt-t8DFG38lWYpybyaL9ic-XN4FFwbRgEQI3LFfEu0_MTNIBi52IEa19FlKuT2w2mFcriXSnijUasbwkWmTKNxmK-LCxRJecJbX8AyER47-sbFhzzgQRXkS_zFj8V5Wn5FtOgaAad4MuzvXnUvIznQeqF1W9Os34iVgSnedS2tdpQquyxVMnwjf_jzFQIKOAz9rM6_DRMeSXs-NG3KQHG_dO9k81qhJNo9Po8PZraqnUISEP4Sk9epXdzexWinQN65kVhSfV5Du-E6S_lQCvCxMNgPCgMpmIE45-iQE9IBYTYaazT3etmgpZAmHoKvDTP5qRVSveMu4gryk8WUODJjJOJvn21OmFVXBdajm3HO7H-AYBy9qGU5pt7-g77tRDKbgKjh9HeA1iK7erXl0W6zKrew&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "bestTime": "Akşam",
+      "tips": "Yerel halkın favori noktalarından biri, keyfini çıkarın!"
+    },
+    {
+      "name": "Tramvay 28",
+      "area": "Graça",
+      "category": "Eğlence",
+      "tags": [
+        "nostalji"
+      ],
+      "distanceFromCenter": 1.5,
+      "lat": 38.7187,
+      "lng": -9.1297,
+      "price": "low",
+      "rating": 4.6,
+      "description": "Tramvay 28, Graça bölgesinde keyifli vakit geçirmek isteyenler için ideal bir durak. Sunduğu aktiviteler ve atmosferiyle ziyaretçilerine unutulmaz anlar yaşatıyor.",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHqkNeJ0XQxlP-KY_H-X4-w9C5DwwYnGHaUzK7HJ1XVKd1ZpL_ho7IUZDvhXLj2t2Fgh3MMZEXT8ob--jZFnazW7URdS3lK8VcWzCnx3wVUCSCNkQU2Rln1LDl2ilQRoKM2DGO2fje7DajO0ZZtq6yrOn8KKyoptHR9KfiV3aigXMrcVGowolljGiX__edgtlrbobzBJlbFWJ553q4myDnfEDWtv2d68hi1f9l4_gncQksb0ROU_Qg69NGLDSjqnDNZ9k87HMuWgGFskpXwFe0fcDX8eDCy6mFxDNm9f_xky_fzoTvPAqlVJvslzXbZ1vzKN_Dul3JX1EEqD0eBxNO9Q8YgoMoKOKG9Xii-bGoWKYiiozcKT9BDSazl4zzyEQU7KiNHqKpgG8EO0Ds6xUXdMVWzX86_gGzSHsRwccQzjJw&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "bestTime": "Sabah erken",
+      "tips": "Etkinlik takvimini önceden kontrol etmenizde fayda var."
+    },
+    {
+      "name": "Time Out Market",
+      "area": "Cais do Sodré",
+      "category": "Yeme-İçme",
+      "tags": [
+        "gurme"
+      ],
+      "distanceFromCenter": 1.0,
+      "lat": 38.7069,
+      "lng": -9.1459,
+      "price": "medium",
+      "rating": 4.6,
+      "description": "Portekiz mutfağının en iyileri bir çatı altında.",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHpRGE_mIKU3ynenIMl5jUmwaYJdlAmfg5qwflg5yJDwP9rRI2uuJhLvoAfQGtL-_F7t8yELuiCeGfvPr9xnBphGK7SKcm-MeVPpSdC0zs5IkhZnZ62bOhkBhfHJWn2nGE1Y4j1BsjcQcXk51eVJJLo5VQWEfXlzTFcM-lmEbhqi6qOyZbuEmyZLJDAC7t0VRW7xpxJVeGvnaGTeCvrmXs30NOlI12iGpY6fA0xC2XAzsIRATfEpayE97QMNrMLz6g8XwhenvKweFkBOPWWdVlh-Jz4KOwnu4S5WqLi4nxvC7A&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "bestTime": "Öğle",
+      "tips": "Yerel halkın favori noktalarından biri, keyfini çıkarın!"
+    },
+    {
+      "name": "Jerónimos Manastırı",
+      "area": "Belém",
+      "category": "Tarihi",
+      "tags": [
+        "unesco"
+      ],
+      "distanceFromCenter": 6.0,
+      "lat": 38.6979,
+      "lng": -9.2068,
+      "price": "medium",
+      "rating": 4.8,
+      "description": "Jerónimos Manastırı, Belém bölgesinin tarihine ışık tutan önemli bir yapı. Geçmişin izlerini günümüze taşıyan mimarisi ve kültürel mirasıyla, tarih meraklıları için keşfedilmeyi bekleyen bir hazine.",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHqYgmZTrbp6aO_WC9RKDrMb3IrRr6-kbMbgG2nEiZeOihT6U7v_Vcw7HGfldsiHhmXE19N9U8G6Iev8L7cQvksjZ6rVBdmPP5cqGQBcocWUZYeuOfhQaJof01GsNbjJocfLQ30iHOmmen3y73V2FubwPi_86JhqJueR85hovxFCo1gCnwqu9rl3Zcq5FI9lNPvGJSncAgrd3jGq7_LSKqVyICSVkLhBnNqSNDa_ohIDKjjolq-8Ys0Uck9auqIs4Ls4NBPduxurC3uoboU2MlRxm1Hsj5glWe3p15V6SGELNjNXBXhsWqjeagArG09A262PO50yij7W5HZaDa3UpH8-F0qugy9SWrh9dLGGdLgAuYLgcUGowE58fn9a41xyI1kWDrVeRUb5eD_uTL0iJaqlUXyw8tJPbhY5f4D14GIQOA&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "bestTime": "Sabah",
+      "tips": "Erken saatlerde veya kapanışa yakın giderseniz kalabalıktan kaçınabilirsiniz."
+    },
+    {
+      "name": "LX Factory",
+      "area": "Alcântara",
+      "category": "Alışveriş",
+      "tags": [
+        "sanat"
+      ],
+      "distanceFromCenter": 4.0,
+      "lat": 38.703,
+      "lng": -9.1772,
+      "price": "low",
+      "rating": 4.5,
+      "description": "LX Factory, Alcântara bölgesinde alışveriş tutkunları için çeşitli seçenekler sunuyor. Yerel tasarımlardan popüler markalara kadar aradığınız pek çok şeyi bulabileceğiniz canlı bir nokta.",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHrFjH3qURewvGoE6DdmE8xJH2J_Z55tBTAwr0jkKeHS9aPjN-rpFPZ2wS7sJa9WBhrC9OXmDFxqkv-2D7fSUgnCi5Ez1p1BFRNSVhlLWlm8-8bH8PCZVoy4bQDbQO-OKWLGiVNV_niGVBBamZ7Mbu90XfO7p9evkhiPbhtCvO-Y4Wawqe3Lp-ImKMcIWS-ack7vsGnQdxw0FEsAFhOt98Zsdd-cF_RLW8M_G4ocY_nwANmmZZdvR6ltb3w1oD5mRoDhRT6_fo3J2QqoosKjsOaJU17dkAOlRnWKfRMn5-x35npwnsykUsD4zMguD8hL4VfWnz4sFG2rYNeYuuDgTb6TApa6-u7NKE5OwsGbhvrDOOV0soSeMnPmTOl5YNzTPFt3RcLhbIq26idSkCmKs6r8jFXRo9Nk-LMWASCUWJHMww&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "bestTime": "Hafta sonu",
+      "tips": "Yerel butikleri keşfetmek için harika bir bölge."
+    }
+  ]
+}

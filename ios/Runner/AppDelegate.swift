@@ -11,7 +11,7 @@ import GoogleMaps   // <-- Bunu mutlaka ekle
   ) -> Bool {
 
     // 🚀 Google Maps SDK API Key
-    GMSServices.provideAPIKey("YOUR API KEY")   // <-- ZORUNLU
+    GMSServices.provideAPIKey("AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0")   // <-- ZORUNLU
 
     // (Opsiyonel) Places API kullanacaksan:
     // GMSPlacesClient.provideAPIKey("BURAYA_API_KEY_YAZ")

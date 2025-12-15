@@ -1,0 +1,114 @@
+{
+  "city": "Viyana",
+  "country": "Avusturya",
+  "description": "İmparatorluk başkenti. Müzik, kahve ve barok mimari.",
+  "heroImage": "https://images.unsplash.com/photo-1516550893923-42d28e5677af?w=800",
+  "coordinates": {
+    "lat": 48.2082,
+    "lng": 16.3738
+  },
+  "highlights": [
+    {
+      "name": "Schönbrunn Sarayı",
+      "area": "Hietzing",
+      "category": "Tarihi",
+      "tags": [
+        "saray"
+      ],
+      "distanceFromCenter": 5.0,
+      "lat": 48.1845,
+      "lng": 16.3122,
+      "price": "medium",
+      "rating": 4.8,
+      "description": "Schönbrunn Sarayı, Hietzing bölgesinin tarihine ışık tutan önemli bir yapı. Geçmişin izlerini günümüze taşıyan mimarisi ve kültürel mirasıyla, tarih meraklıları için keşfedilmeyi bekleyen bir hazine.",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHpFrFR3RMnN1-iwONr2mkeo-_63jVIsVSPR_0gebN1lP3sPayh_KwVuSHjoyzotgby6vhdUCLEzKfx91imE39Mf7ENmsP4Em0hw-85Dx9aZ1RflD57fQwIqQ6pW1hHExNeTkXybjS-tmc6b-J3IpMXIT86AjQ5GQtgF0V9RurM9gEDteez3Zd1piksAWIyCAGI_MR1GhRffVmDKhkhuslALxcofw1fITmMFVRKlELFC1aLEFsgIeUnZAZoyDNcYsyQsdgOeCs3cDORO0CYoXeqUz1qop947_Hq7pzBReLvJVwAmGj8k1EJH_NMOc8EgiUsAYYD1Ykgc_axAPNkDqCDzOwewDQfb8Vp-XL-aBax40wh3RwioTO-XGoS-vSIaPjnhUQCEPsZriEa4s6-GMRRcStS-eIAdcamWpUtSb_b4mw&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "bestTime": "Sabah",
+      "tips": "Erken saatlerde veya kapanışa yakın giderseniz kalabalıktan kaçınabilirsiniz."
+    },
+    {
+      "name": "St. Stephen Katedrali",
+      "area": "Innere Stadt",
+      "category": "Tarihi",
+      "tags": [
+        "katedral"
+      ],
+      "distanceFromCenter": 0.2,
+      "lat": 48.2085,
+      "lng": 16.3731,
+      "price": "low",
+      "rating": 4.7,
+      "description": "St. Stephen Katedrali, Innere Stadt bölgesinin tarihine ışık tutan önemli bir yapı. Geçmişin izlerini günümüze taşıyan mimarisi ve kültürel mirasıyla, tarih meraklıları için keşfedilmeyi bekleyen bir hazine.",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHoRM4-iR9MJvHdifcfh1zJl6JSTpoX_wPEi_mSqKLqw0GNPjHJ7P9397ZOerylgSil_BUVIJdG4zaJjcrmnciagT5etRHBhVHfLloRY5KNQTBlyhBipoBU02W28_OdJUECxejhmpOS59huqe7m8OUhNsU1KJD1hKHpaMizq64oH-m3y8JnnzlcWc4qbrKuzdIIEgj5O9I_EnAqiryqrxWB1x6tjupQWelO2STLj92eQRoNJc5nsQRypI47U92tBhXGQNFizGpxdkT2iZ66jlF-9zgaMlF_8zCAancdNJn9mlA-B1T68Hn1aR7Z5hMCxwa40j7SC-fnhOSSSDSuNjCD7yLIqOsNLGJQaJysY4AlrUQP5KddG_Wr4PoCgnPnuR1Dhj_221b_66xn1zUsFCcD-hd7DweffX1-ThMouXgUxIlIzp45LkgmFWDw6iRe-&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "bestTime": "Öğleden sonra",
+      "tips": "Erken saatlerde veya kapanışa yakın giderseniz kalabalıktan kaçınabilirsiniz."
+    },
+    {
+      "name": "Belvedere Sarayı",
+      "area": "Landstraße",
+      "category": "Müze",
+      "tags": [
+        "sanat"
+      ],
+      "distanceFromCenter": 2.0,
+      "lat": 48.1915,
+      "lng": 16.3805,
+      "price": "medium",
+      "rating": 4.7,
+      "description": "Belvedere Sarayı, zengin koleksiyonu ve etkileyici sergileriyle kültür sanat severlerin uğrak noktası. Landstraße bölgesinde yer alan mekan, ziyaretçilerine ilham verici ve öğretici bir deneyim sunuyor.",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHrl2yESzwKjzQjgRbspgNmxBx13Q7nmwtgr_rJOjNo0pQYh6M0YvxG--pjxDMrqqGvLjQh7A37Fy03eSg85WnD7dBxb7Cog7KtnIQ7MfXWVMG5dWnwJjrerKb_dVwWDSxHtgCnI_FRGOncnEMMZkSe1FT1jf3oJ0Faqv6r9-HqbEKVBKUE-nLEATVvTqmciG1G3fMa3HRrYwoyhShCo2XtKZRqlbJxhXtUhSbPkfc2t2IPL-ltc0X9qWR5ENCg8PzsnLXDPhQVjhUyJRjx-UkwEQjnTt71565elu4DaEp9pFESat3aR3bfzDfqwq0CIVD2iiAXczyG6Kc76TtVfX17JRHX8sfwE0X4YJoWsvBm5R90FaQlDOw5gl-6UtK0EkGf2vE6eRPatV0uYfOLYp-LRxRzsKwC40DM0Skg4HywTQfU&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "bestTime": "Sabah",
+      "tips": "Biletinizi önceden online alarak sıra beklemekten kurtulabilirsiniz."
+    },
+    {
+      "name": "Naschmarkt",
+      "area": "Wieden",
+      "category": "Yeme-İçme",
+      "tags": [
+        "pazar"
+      ],
+      "distanceFromCenter": 1.5,
+      "lat": 48.199,
+      "lng": 16.363,
+      "price": "medium",
+      "rating": 4.5,
+      "description": "16. yüzyıldan beri açık pazar. Gurme cennet.",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHpZtgZY5XkxSA-xU-vOkiR6DQrCvXKXZfcHdEeQFIwTNQWOjMzDdDoJMwqvUE0sNDmjCeog_oNfueg6jRhd8n9xgSLC20mYusnTn9_9r_ZXXaH4oqBOD81FjRHQDjzNoiwrxqIMmBlRvbhfALDP-bPC0Rura3jb6lLGZnn21EVcqOUS3p3hcwTZGdJMV5kM0pM_TmDwsX-u3C_685ie9iy4d3ANIk9Kk7fwYQkaPhhecYyaPJDFBFRRzFbmtGP6z3yE0NcOSCwfk2skcxRPAE-DgAkU9cHqseC5GnLXfEvBk7gjfPKo-iE1ca21WhR4u3sMrrZJsh-WzVTfAP6PL5OBvvd0TwpufS5jkVWcN93Ac9x2jxEmb7ISVFZDVMy5Y0Qz5qNKnwL3fM3UXRnZ5HqRmEE8WOeSE-wvFI1L2DvIcA&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "bestTime": "Cumartesi sabah",
+      "tips": "Yerel halkın favori noktalarından biri, keyfini çıkarın!"
+    },
+    {
+      "name": "Viyana Operası",
+      "area": "Innere Stadt",
+      "category": "Eğlence",
+      "tags": [
+        "opera"
+      ],
+      "distanceFromCenter": 0.5,
+      "lat": 48.2025,
+      "lng": 16.369,
+      "price": "high",
+      "rating": 4.8,
+      "description": "Viyana Operası, Innere Stadt bölgesinde keyifli vakit geçirmek isteyenler için ideal bir durak. Sunduğu aktiviteler ve atmosferiyle ziyaretçilerine unutulmaz anlar yaşatıyor.",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHqPWuM1a1X93OgWujJ-0Cmz1ErIT60ndxSeqY5aG2IT6RWtewe10bIYd0vPNw2mkZNcycCobJil8bYZgosiIbC9AHNhOqKS8PobERmssaBaEOTG4yzJapbiyq9avk-mwgG-7eL4xrwQqGxeUv8h2dLNIyIqOaUEewT7zvhieklN1GYaX8qWETrNqTt6__IiXSeI73pVr3YQe2lPT8izhPOlKMga0LgbMzjq3uMSiDaiuqWcQYapgfKgpuz0ZD-Y_umaAzjImA7jndu4REAMGyxGKn_Log9JWluUcW7PG5hUG0FglihTAawT5TwRTyrXvzelAnO96pH9RFZs_sUi4AqOwXVn7bXDKCX3kUS5dX3IbsRiEVxBhglNl-pVI-Yp0pzt7OuziFMO0fJFqxCGQjjLmatDssEaX-wTS1MmQhQeaaMH&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "bestTime": "Akşam gösteri",
+      "tips": "Etkinlik takvimini önceden kontrol etmenizde fayda var."
+    },
+    {
+      "name": "Prater",
+      "area": "Leopoldstadt",
+      "category": "Eğlence",
+      "tags": [
+        "lunapark"
+      ],
+      "distanceFromCenter": 3.0,
+      "lat": 48.2166,
+      "lng": 16.3965,
+      "price": "medium",
+      "rating": 4.4,
+      "description": "Prater, Leopoldstadt bölgesinde keyifli vakit geçirmek isteyenler için ideal bir durak. Sunduğu aktiviteler ve atmosferiyle ziyaretçilerine unutulmaz anlar yaşatıyor.",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHqE3uHEsrMF5-IHcfWkE6iw5TvnSXcIPG1o1l6gBGFOvVjhvnXfNl4uWK6RyDYtdqLdtSS-Ng_0Au3ckAwPoPw-7CD83KgN0mskJ5KVA_sWTcDKN4aniIIMEqHbqTw_yzZ4Lgc_mz-osWaoB_bLXtw8eUDUD1LuWZaVNCBfT5DK3uijC0xy_VdI7f4tdscPLw-hnAPOE2hywFI50Qx_8FzWFniScVc7bb9z_NQLhBkPcmsUG18zOur1q7lqRLQ8IN6MWsOPOOtUTTo4vq9-KZloUC4FLIfUcA3jNMclRImiMzHtp-N4Ih8FqTmCR08tN5g6Zkjl8x2Ojg1ZYUrdCXXGXwr1EtV-C_I75du_ZwOcIUXys-gPrry9Fh-KMMTXhKxASAF05EEwYvE90avrxHsvBo4aQeBUVo21FvTEZvtJkA&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "bestTime": "Gün batımı",
+      "tips": "Etkinlik takvimini önceden kontrol etmenizde fayda var."
+    }
+  ]
+}

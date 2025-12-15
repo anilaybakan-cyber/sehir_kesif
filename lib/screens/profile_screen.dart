@@ -1,9 +1,16 @@
+// =============================================================================
+// PROFILE SCREEN – WANDERLUST DARK THEME
+// User profile with stats, favorites, visited places, and settings
+// =============================================================================
+
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+import 'dart:ui';
+
 import '../models/city_model.dart';
 import '../services/city_data_loader.dart';
 import 'detail_screen.dart';
-import 'onboarding_screen.dart';
 
 class ProfileScreen extends StatefulWidget {
   const ProfileScreen({super.key});
@@ -12,566 +19,836 @@ class ProfileScreen extends StatefulWidget {
   State<ProfileScreen> createState() => _ProfileScreenState();
 }
 
-class _ProfileScreenState extends State<ProfileScreen> {
-  String userName = "Gezgin";
-  String userCity = "Barcelona";
-  String travelStyle = "";
-  String walkingLevel = "";
-  String budget = "";
-  List<String> interests = [];
-  List<String> favorites = [];
-  List<Highlight> favoriteHighlights = [];
+class _ProfileScreenState extends State<ProfileScreen>
+    with SingleTickerProviderStateMixin {
+  // ══════════════════════════════════════════════════════════════════════════
+  // AMBER/GOLD THEME
+  // ══════════════════════════════════════════════════════════════════════════
 
-  bool isLoading = true;
+  static const Color bgDark = Color(0xFF0D0D1A);
+  static const Color bgCard = Color(0xFF1A1A2E);
+  static const Color bgCardLight = Color(0xFF252542);
+  static const Color accent = Color(0xFFF5A623); // Amber
+  static const Color accentLight = Color(0xFFFFB800); // Gold
+  static const Color textWhite = Color(0xFFFFFFFF);
+  static const Color textGrey = Color(0xFF9CA3AF);
+  static const Color borderColor = Color(0xFF2D2D4A);
+
+  static const LinearGradient primaryGradient = LinearGradient(
+    begin: Alignment.topLeft,
+    end: Alignment.bottomRight,
+    colors: [Color(0xFFF5A623), Color(0xFFFFB800)],
+  );
+
+  // ══════════════════════════════════════════════════════════════════════════
+  // STATE
+  // ══════════════════════════════════════════════════════════════════════════
+
+  String _userName = "Gezgin";
+  String _travelStyle = "Lokal";
+  List<String> _interests = [];
+  List<String> _favorites = [];
+  List<String> _visitedPlaces = [];
+  List<String> _tripPlaces = [];
+  List<Highlight> _favoriteHighlights = [];
+
+  int _selectedTab = 0; // 0: Favoriler, 1: Ziyaret Edilenler
+
+  late TabController _tabController;
 
   @override
   void initState() {
     super.initState();
-    _loadUserData();
-  }
-
-  Future<void> _loadUserData() async {
-    final prefs = await SharedPreferences.getInstance();
-
-    setState(() {
-      userName = prefs.getString("user_name") ?? "Gezgin";
-      userCity = prefs.getString("selected_city") ?? "Barcelona";
-      travelStyle = prefs.getString("travel_style") ?? "";
-      walkingLevel = prefs.getString("walking_level") ?? "";
-      budget = prefs.getString("budget") ?? "";
-      interests = prefs.getStringList("interests") ?? [];
-      favorites = prefs.getStringList("favorite_places") ?? [];
-    });
-
-    await _loadFavoriteHighlights();
-
-    setState(() {
-      isLoading = false;
-    });
-  }
-
-  Future<void> _loadFavoriteHighlights() async {
-    if (favorites.isEmpty) return;
-
-    final cityData = await CityDataLoader.loadCity(userCity);
-    if (cityData != null) {
-      favoriteHighlights = cityData.highlights
-          .where((h) => favorites.contains(h.name))
-          .toList();
-    }
-  }
-
-  Future<void> _editPreferences() async {
-    final result = await Navigator.push(
-      context,
-      MaterialPageRoute(builder: (_) => OnboardingScreen()),
-    );
-
-    if (result == true) {
-      _loadUserData();
-    }
+    _tabController = TabController(length: 2, vsync: this);
+    _loadData();
   }
 
   @override
+  void dispose() {
+    _tabController.dispose();
+    super.dispose();
+  }
+
+  // ══════════════════════════════════════════════════════════════════════════
+  // DATA LOADING
+  // ══════════════════════════════════════════════════════════════════════════
+
+  Future<void> _loadData() async {
+    final prefs = await SharedPreferences.getInstance();
+
+    _userName = prefs.getString("user_name") ?? "Gezgin";
+    _travelStyle = prefs.getString("travelStyle") ?? "Lokal";
+    _interests = prefs.getStringList("interests") ?? [];
+    _favorites = prefs.getStringList("favorite_places") ?? [];
+    _visitedPlaces = prefs.getStringList("visited_places") ?? [];
+    _tripPlaces = prefs.getStringList("trip_places") ?? [];
+
+    // Favori mekanları yükle
+    final selectedCity = prefs.getString("selectedCity") ?? "barcelona";
+    try {
+      final city = await CityDataLoader.loadCity(selectedCity.toLowerCase());
+      _favoriteHighlights = city.highlights
+          .where((h) => _favorites.contains(h.name))
+          .toList();
+    } catch (e) {
+      _favoriteHighlights = [];
+    }
+
+    if (!mounted) return;
+    setState(() {});
+  }
+
+  Future<void> _editName() async {
+    final controller = TextEditingController(text: _userName);
+
+    final result = await showDialog<String>(
+      context: context,
+      builder: (context) => AlertDialog(
+        backgroundColor: bgCard,
+        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
+        title: const Text("İsim Değiştir", style: TextStyle(color: textWhite)),
+        content: TextField(
+          controller: controller,
+          style: const TextStyle(color: textWhite),
+          decoration: InputDecoration(
+            hintText: "İsminizi girin",
+            hintStyle: TextStyle(color: textGrey),
+            filled: true,
+            fillColor: bgCardLight,
+            border: OutlineInputBorder(
+              borderRadius: BorderRadius.circular(12),
+              borderSide: BorderSide.none,
+            ),
+          ),
+        ),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.pop(context),
+            child: Text("İptal", style: TextStyle(color: textGrey)),
+          ),
+          TextButton(
+            onPressed: () => Navigator.pop(context, controller.text),
+            child: const Text("Kaydet", style: TextStyle(color: accent)),
+          ),
+        ],
+      ),
+    );
+
+    if (result != null && result.isNotEmpty) {
+      final prefs = await SharedPreferences.getInstance();
+      await prefs.setString("user_name", result);
+      setState(() => _userName = result);
+    }
+  }
+
+  // ══════════════════════════════════════════════════════════════════════════
+  // BUILD
+  // ══════════════════════════════════════════════════════════════════════════
+
+  @override
   Widget build(BuildContext context) {
-    if (isLoading) {
-      return Scaffold(
-        backgroundColor: Colors.white,
-        body: Center(child: CircularProgressIndicator(color: Colors.teal)),
+    return Scaffold(
+      backgroundColor: bgDark,
+      body: CustomScrollView(
+        physics: const BouncingScrollPhysics(),
+        slivers: [
+          // Profile Header
+          SliverToBoxAdapter(child: _buildProfileHeader()),
+
+          // Stats Cards
+          SliverToBoxAdapter(child: _buildStatsCards()),
+
+          // Travel Style Card
+          SliverToBoxAdapter(child: _buildTravelStyleCard()),
+
+          // Interests
+          SliverToBoxAdapter(child: _buildInterestsSection()),
+
+          // Tab Bar
+          SliverToBoxAdapter(child: _buildTabBar()),
+
+          // Tab Content
+          SliverToBoxAdapter(
+            child: SizedBox(
+              height: 400,
+              child: TabBarView(
+                controller: _tabController,
+                children: [_buildFavoritesList(), _buildVisitedList()],
+              ),
+            ),
+          ),
+
+          // Settings Section
+          SliverToBoxAdapter(child: _buildSettingsSection()),
+
+          // Bottom padding
+          const SliverToBoxAdapter(child: SizedBox(height: 100)),
+        ],
+      ),
+    );
+  }
+
+  // ══════════════════════════════════════════════════════════════════════════
+  // PROFILE HEADER
+  // ══════════════════════════════════════════════════════════════════════════
+
+  Widget _buildProfileHeader() {
+    return Container(
+      padding: EdgeInsets.fromLTRB(
+        20,
+        MediaQuery.of(context).padding.top + 20,
+        20,
+        20,
+      ),
+      child: Row(
+        children: [
+          // Avatar
+          GestureDetector(
+            onTap: _editName,
+            child: Container(
+              width: 80,
+              height: 80,
+              decoration: BoxDecoration(
+                gradient: primaryGradient,
+                shape: BoxShape.circle,
+                boxShadow: [
+                  BoxShadow(
+                    color: accentLight.withOpacity(0.4),
+                    blurRadius: 20,
+                    offset: const Offset(0, 8),
+                  ),
+                ],
+              ),
+              child: Center(
+                child: Text(
+                  _userName.isNotEmpty ? _userName[0].toUpperCase() : "G",
+                  style: const TextStyle(
+                    color: Colors.white,
+                    fontSize: 32,
+                    fontWeight: FontWeight.w700,
+                  ),
+                ),
+              ),
+            ),
+          ),
+          const SizedBox(width: 20),
+          // Name and info
+          Expanded(
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Row(
+                  children: [
+                    Text(
+                      _userName,
+                      style: const TextStyle(
+                        color: textWhite,
+                        fontSize: 24,
+                        fontWeight: FontWeight.w700,
+                      ),
+                    ),
+                    const SizedBox(width: 8),
+                    GestureDetector(
+                      onTap: _editName,
+                      child: const Icon(Icons.edit, color: textGrey, size: 18),
+                    ),
+                  ],
+                ),
+                const SizedBox(height: 4),
+                Row(
+                  children: [
+                    Container(
+                      padding: const EdgeInsets.symmetric(
+                        horizontal: 10,
+                        vertical: 4,
+                      ),
+                      decoration: BoxDecoration(
+                        color: accent.withOpacity(0.15),
+                        borderRadius: BorderRadius.circular(8),
+                      ),
+                      child: Row(
+                        mainAxisSize: MainAxisSize.min,
+                        children: [
+                          Icon(Icons.star, color: accent, size: 14),
+                          const SizedBox(width: 4),
+                          Text(
+                            _getTravelerLevel(),
+                            style: TextStyle(
+                              color: accent,
+                              fontSize: 12,
+                              fontWeight: FontWeight.w600,
+                            ),
+                          ),
+                        ],
+                      ),
+                    ),
+                  ],
+                ),
+              ],
+            ),
+          ),
+          // Settings button
+          GestureDetector(
+            onTap: () => Navigator.pushNamed(context, "/settings"),
+            child: Container(
+              padding: const EdgeInsets.all(12),
+              decoration: BoxDecoration(
+                color: bgCard,
+                borderRadius: BorderRadius.circular(12),
+                border: Border.all(color: borderColor),
+              ),
+              child: const Icon(Icons.settings, color: textWhite, size: 22),
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+
+  String _getTravelerLevel() {
+    final total = _favorites.length + _visitedPlaces.length;
+    if (total >= 50) return "Uzman Gezgin";
+    if (total >= 30) return "Deneyimli";
+    if (total >= 15) return "Kaşif";
+    if (total >= 5) return "Meraklı";
+    return "Yeni Başlayan";
+  }
+
+  // ══════════════════════════════════════════════════════════════════════════
+  // STATS CARDS
+  // ══════════════════════════════════════════════════════════════════════════
+
+  Widget _buildStatsCards() {
+    return Padding(
+      padding: const EdgeInsets.symmetric(horizontal: 20),
+      child: Row(
+        children: [
+          _buildStatCard(
+            icon: Icons.favorite,
+            value: "${_favorites.length}",
+            label: "Favori",
+            color: accent,
+          ),
+          const SizedBox(width: 12),
+          _buildStatCard(
+            icon: Icons.check_circle,
+            value: "${_visitedPlaces.length}",
+            label: "Ziyaret",
+            color: Colors.green,
+          ),
+          const SizedBox(width: 12),
+          _buildStatCard(
+            icon: Icons.map,
+            value: "${_tripPlaces.length}",
+            label: "Rotada",
+            color: accentLight,
+          ),
+        ],
+      ),
+    );
+  }
+
+  Widget _buildStatCard({
+    required IconData icon,
+    required String value,
+    required String label,
+    required Color color,
+  }) {
+    return Expanded(
+      child: Container(
+        padding: const EdgeInsets.all(16),
+        decoration: BoxDecoration(
+          color: bgCard,
+          borderRadius: BorderRadius.circular(16),
+          border: Border.all(color: borderColor.withOpacity(0.5)),
+        ),
+        child: Column(
+          children: [
+            Container(
+              padding: const EdgeInsets.all(10),
+              decoration: BoxDecoration(
+                color: color.withOpacity(0.15),
+                shape: BoxShape.circle,
+              ),
+              child: Icon(icon, color: color, size: 22),
+            ),
+            const SizedBox(height: 10),
+            Text(
+              value,
+              style: const TextStyle(
+                color: textWhite,
+                fontSize: 22,
+                fontWeight: FontWeight.w700,
+              ),
+            ),
+            Text(label, style: TextStyle(color: textGrey, fontSize: 12)),
+          ],
+        ),
+      ),
+    );
+  }
+
+  // ══════════════════════════════════════════════════════════════════════════
+  // TRAVEL STYLE CARD
+  // ══════════════════════════════════════════════════════════════════════════
+
+  Widget _buildTravelStyleCard() {
+    final styleInfo = _getStyleInfo(_travelStyle);
+
+    return Container(
+      margin: const EdgeInsets.fromLTRB(20, 20, 20, 0),
+      padding: const EdgeInsets.all(18),
+      decoration: BoxDecoration(
+        gradient: LinearGradient(
+          begin: Alignment.topLeft,
+          end: Alignment.bottomRight,
+          colors: [
+            styleInfo['color'].withOpacity(0.2),
+            styleInfo['color'].withOpacity(0.05),
+          ],
+        ),
+        borderRadius: BorderRadius.circular(18),
+        border: Border.all(color: styleInfo['color'].withOpacity(0.3)),
+      ),
+      child: Row(
+        children: [
+          Container(
+            padding: const EdgeInsets.all(14),
+            decoration: BoxDecoration(
+              color: styleInfo['color'].withOpacity(0.2),
+              borderRadius: BorderRadius.circular(14),
+            ),
+            child: Icon(styleInfo['icon'], color: styleInfo['color'], size: 28),
+          ),
+          const SizedBox(width: 16),
+          Expanded(
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                const Text(
+                  "Seyahat Tarzı",
+                  style: TextStyle(color: textGrey, fontSize: 12),
+                ),
+                const SizedBox(height: 4),
+                Text(
+                  _travelStyle,
+                  style: const TextStyle(
+                    color: textWhite,
+                    fontSize: 18,
+                    fontWeight: FontWeight.w700,
+                  ),
+                ),
+              ],
+            ),
+          ),
+          GestureDetector(
+            onTap: () => Navigator.pushNamed(context, "/onboarding"),
+            child: Container(
+              padding: const EdgeInsets.all(10),
+              decoration: BoxDecoration(
+                color: bgCardLight,
+                borderRadius: BorderRadius.circular(10),
+              ),
+              child: const Icon(Icons.edit, color: textGrey, size: 18),
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+
+  Map<String, dynamic> _getStyleInfo(String style) {
+    switch (style) {
+      case "Turist":
+        return {'icon': Icons.camera_alt, 'color': const Color(0xFF2196F3)};
+      case "Lokal":
+        return {'icon': Icons.explore, 'color': const Color(0xFF4CAF50)};
+      case "Macera":
+        return {'icon': Icons.hiking, 'color': const Color(0xFFFF9800)};
+      case "Lüks":
+        return {'icon': Icons.diamond, 'color': const Color(0xFF9C27B0)};
+      default:
+        return {'icon': Icons.travel_explore, 'color': accentLight};
+    }
+  }
+
+  // ══════════════════════════════════════════════════════════════════════════
+  // INTERESTS SECTION
+  // ══════════════════════════════════════════════════════════════════════════
+
+  Widget _buildInterestsSection() {
+    if (_interests.isEmpty) return const SizedBox.shrink();
+
+    return Padding(
+      padding: const EdgeInsets.fromLTRB(20, 20, 20, 0),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          const Text(
+            "İlgi Alanları",
+            style: TextStyle(
+              color: textWhite,
+              fontSize: 16,
+              fontWeight: FontWeight.w600,
+            ),
+          ),
+          const SizedBox(height: 12),
+          Wrap(
+            spacing: 8,
+            runSpacing: 8,
+            children: _interests.map((interest) {
+              return Container(
+                padding: const EdgeInsets.symmetric(
+                  horizontal: 14,
+                  vertical: 8,
+                ),
+                decoration: BoxDecoration(
+                  color: bgCard,
+                  borderRadius: BorderRadius.circular(20),
+                  border: Border.all(color: borderColor),
+                ),
+                child: Text(
+                  interest,
+                  style: TextStyle(color: textGrey, fontSize: 13),
+                ),
+              );
+            }).toList(),
+          ),
+        ],
+      ),
+    );
+  }
+
+  // ══════════════════════════════════════════════════════════════════════════
+  // TAB BAR
+  // ══════════════════════════════════════════════════════════════════════════
+
+  Widget _buildTabBar() {
+    return Container(
+      margin: const EdgeInsets.fromLTRB(20, 24, 20, 0),
+      decoration: BoxDecoration(
+        color: bgCard,
+        borderRadius: BorderRadius.circular(14),
+      ),
+      child: TabBar(
+        controller: _tabController,
+        indicator: BoxDecoration(
+          gradient: primaryGradient,
+          borderRadius: BorderRadius.circular(12),
+        ),
+        indicatorSize: TabBarIndicatorSize.tab,
+        indicatorPadding: const EdgeInsets.all(4),
+        dividerColor: Colors.transparent,
+        labelColor: Colors.white,
+        unselectedLabelColor: textGrey,
+        labelStyle: const TextStyle(fontWeight: FontWeight.w600, fontSize: 14),
+        tabs: [
+          Tab(
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                const Icon(Icons.favorite, size: 18),
+                const SizedBox(width: 8),
+                Text("Favoriler (${_favorites.length})"),
+              ],
+            ),
+          ),
+          Tab(
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                const Icon(Icons.check_circle, size: 18),
+                const SizedBox(width: 8),
+                Text("Ziyaret (${_visitedPlaces.length})"),
+              ],
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+
+  // ══════════════════════════════════════════════════════════════════════════
+  // FAVORITES LIST
+  // ══════════════════════════════════════════════════════════════════════════
+
+  Widget _buildFavoritesList() {
+    if (_favoriteHighlights.isEmpty) {
+      return _buildEmptyTab(
+        icon: Icons.favorite_border,
+        title: "Henüz favori yok",
+        subtitle: "Beğendiğin yerleri favorilere ekle",
       );
     }
 
-    return Scaffold(
-      backgroundColor: Colors.grey.shade50,
-      body: CustomScrollView(
-        slivers: [
-          // 🎨 HEADER
-          SliverAppBar(
-            expandedHeight: 200,
-            pinned: true,
-            backgroundColor: Colors.teal,
-            elevation: 0,
-            flexibleSpace: FlexibleSpaceBar(
-              background: Container(
-                decoration: BoxDecoration(
-                  gradient: LinearGradient(
-                    colors: [Colors.teal.shade400, Colors.teal.shade700],
-                    begin: Alignment.topLeft,
-                    end: Alignment.bottomRight,
-                  ),
-                ),
-                child: SafeArea(
-                  child: Column(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: [
-                      SizedBox(height: 20),
-                      // Avatar
-                      Container(
-                        width: 90,
-                        height: 90,
-                        decoration: BoxDecoration(
-                          shape: BoxShape.circle,
-                          color: Colors.white,
-                          boxShadow: [
-                            BoxShadow(
-                              color: Colors.black.withOpacity(0.2),
-                              blurRadius: 15,
-                              offset: Offset(0, 5),
-                            ),
-                          ],
-                        ),
-                        child: Icon(
-                          Icons.person,
-                          size: 50,
-                          color: Colors.teal.shade700,
-                        ),
-                      ),
-                      SizedBox(height: 12),
-                      Text(
-                        userName,
-                        style: TextStyle(
-                          fontSize: 24,
-                          fontWeight: FontWeight.bold,
-                          color: Colors.white,
-                        ),
-                      ),
-                      SizedBox(height: 4),
-                      Row(
-                        mainAxisAlignment: MainAxisAlignment.center,
-                        children: [
-                          Icon(
-                            Icons.location_on,
-                            size: 16,
-                            color: Colors.white70,
-                          ),
-                          SizedBox(width: 4),
-                          Text(
-                            userCity,
-                            style: TextStyle(
-                              fontSize: 15,
-                              color: Colors.white70,
-                            ),
-                          ),
-                        ],
-                      ),
-                    ],
-                  ),
-                ),
-              ),
-            ),
-          ),
-
-          // 📊 İSTATİSTİKLER
-          SliverToBoxAdapter(
-            child: Padding(
-              padding: const EdgeInsets.all(20),
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Row(
-                    children: [
-                      Expanded(
-                        child: _statCard(
-                          Icons.favorite,
-                          favorites.length.toString(),
-                          "Favoriler",
-                          Colors.red,
-                        ),
-                      ),
-                      SizedBox(width: 12),
-                      Expanded(
-                        child: _statCard(
-                          Icons.map,
-                          "0",
-                          "Rotalar",
-                          Colors.blue,
-                        ),
-                      ),
-                      SizedBox(width: 12),
-                      Expanded(
-                        child: _statCard(
-                          Icons.place,
-                          "0",
-                          "Ziyaretler",
-                          Colors.orange,
-                        ),
-                      ),
-                    ],
-                  ),
-
-                  SizedBox(height: 24),
-
-                  // 🎯 SEYAHAT TERCİHLERİ
-                  _sectionTitle("Seyahat Tercihlerim"),
-                  SizedBox(height: 12),
-
-                  Container(
-                    padding: EdgeInsets.all(20),
-                    decoration: BoxDecoration(
-                      color: Colors.white,
-                      borderRadius: BorderRadius.circular(20),
-                      boxShadow: [
-                        BoxShadow(
-                          color: Colors.black.withOpacity(0.05),
-                          blurRadius: 10,
-                          offset: Offset(0, 4),
-                        ),
-                      ],
-                    ),
-                    child: Column(
-                      children: [
-                        _preferenceRow(
-                          Icons.style,
-                          "Seyahat Tarzı",
-                          _getTravelStyleText(travelStyle),
-                        ),
-                        Divider(height: 24),
-                        _preferenceRow(
-                          Icons.directions_walk,
-                          "Yürüyüş Seviyesi",
-                          _getWalkingLevelText(walkingLevel),
-                        ),
-                        Divider(height: 24),
-                        _preferenceRow(
-                          Icons.payments,
-                          "Bütçe",
-                          _getBudgetText(budget),
-                        ),
-                        Divider(height: 24),
-                        _preferenceRow(
-                          Icons.interests,
-                          "İlgi Alanları",
-                          interests.join(", "),
-                        ),
-                      ],
-                    ),
-                  ),
-
-                  SizedBox(height: 16),
-
-                  // Düzenle Butonu
-                  ElevatedButton.icon(
-                    style: ElevatedButton.styleFrom(
-                      minimumSize: Size(double.infinity, 50),
-                      backgroundColor: Colors.teal,
-                      foregroundColor: Colors.white,
-                      elevation: 0,
-                      shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(16),
-                      ),
-                    ),
-                    onPressed: _editPreferences,
-                    icon: Icon(Icons.edit, size: 20),
-                    label: Text(
-                      "Tercihleri Düzenle",
-                      style: TextStyle(
-                        fontSize: 16,
-                        fontWeight: FontWeight.w600,
-                      ),
-                    ),
-                  ),
-
-                  SizedBox(height: 24),
-
-                  // ❤️ FAVORİLER
-                  _sectionTitle("Favorilerim (${favorites.length})"),
-                  SizedBox(height: 12),
-
-                  if (favoriteHighlights.isEmpty)
-                    Container(
-                      padding: EdgeInsets.all(40),
-                      decoration: BoxDecoration(
-                        color: Colors.white,
-                        borderRadius: BorderRadius.circular(20),
-                      ),
-                      child: Column(
-                        children: [
-                          Icon(
-                            Icons.favorite_border,
-                            size: 60,
-                            color: Colors.grey.shade300,
-                          ),
-                          SizedBox(height: 16),
-                          Text(
-                            "Henüz favori yerin yok",
-                            style: TextStyle(
-                              fontSize: 16,
-                              color: Colors.grey.shade600,
-                            ),
-                          ),
-                          SizedBox(height: 8),
-                          Text(
-                            "Keşfet'ten beğendiğin yerleri favorilere ekle!",
-                            textAlign: TextAlign.center,
-                            style: TextStyle(
-                              fontSize: 14,
-                              color: Colors.grey.shade400,
-                            ),
-                          ),
-                        ],
-                      ),
-                    )
-                  else
-                    ...favoriteHighlights.map((place) => _favoriteCard(place)),
-
-                  SizedBox(height: 24),
-
-                  // ⚙️ AYARLAR
-                  _sectionTitle("Ayarlar"),
-                  SizedBox(height: 12),
-
-                  Container(
-                    decoration: BoxDecoration(
-                      color: Colors.white,
-                      borderRadius: BorderRadius.circular(20),
-                      boxShadow: [
-                        BoxShadow(
-                          color: Colors.black.withOpacity(0.05),
-                          blurRadius: 10,
-                          offset: Offset(0, 4),
-                        ),
-                      ],
-                    ),
-                    child: Column(
-                      children: [
-                        _settingsTile(
-                          Icons.notifications_outlined,
-                          "Bildirimler",
-                          () {},
-                        ),
-                        Divider(height: 1),
-                        _settingsTile(Icons.language, "Dil", () {}),
-                        Divider(height: 1),
-                        _settingsTile(Icons.dark_mode_outlined, "Tema", () {}),
-                        Divider(height: 1),
-                        _settingsTile(
-                          Icons.help_outline,
-                          "Yardım & Destek",
-                          () {},
-                        ),
-                        Divider(height: 1),
-                        _settingsTile(Icons.info_outline, "Hakkında", () {}),
-                      ],
-                    ),
-                  ),
-
-                  SizedBox(height: 40),
-                ],
-              ),
-            ),
-          ),
-        ],
-      ),
+    return ListView.builder(
+      padding: const EdgeInsets.fromLTRB(20, 16, 20, 0),
+      itemCount: _favoriteHighlights.length,
+      itemBuilder: (context, index) {
+        return _buildMiniPlaceCard(_favoriteHighlights[index]);
+      },
     );
   }
 
-  // 📊 İstatistik Kartı
-  Widget _statCard(IconData icon, String value, String label, Color color) {
-    return Container(
-      padding: EdgeInsets.symmetric(vertical: 20),
-      decoration: BoxDecoration(
-        color: Colors.white,
-        borderRadius: BorderRadius.circular(16),
-        boxShadow: [
-          BoxShadow(
-            color: Colors.black.withOpacity(0.05),
-            blurRadius: 10,
-            offset: Offset(0, 4),
-          ),
-        ],
-      ),
-      child: Column(
-        children: [
-          Icon(icon, size: 32, color: color),
-          SizedBox(height: 8),
-          Text(
-            value,
-            style: TextStyle(
-              fontSize: 22,
-              fontWeight: FontWeight.bold,
-              color: Colors.black87,
-            ),
-          ),
-          SizedBox(height: 4),
-          Text(
-            label,
-            style: TextStyle(fontSize: 13, color: Colors.grey.shade600),
-          ),
-        ],
-      ),
-    );
-  }
+  Widget _buildVisitedList() {
+    if (_visitedPlaces.isEmpty) {
+      return _buildEmptyTab(
+        icon: Icons.check_circle_outline,
+        title: "Henüz ziyaret yok",
+        subtitle: "Gittiğin yerleri işaretle",
+      );
+    }
 
-  // 📝 Bölüm Başlığı
-  Widget _sectionTitle(String title) {
-    return Text(
-      title,
-      style: TextStyle(
-        fontSize: 20,
-        fontWeight: FontWeight.bold,
-        color: Colors.black87,
-      ),
-    );
-  }
-
-  // 🎯 Tercih Satırı
-  Widget _preferenceRow(IconData icon, String label, String value) {
-    return Row(
-      children: [
-        Container(
-          padding: EdgeInsets.all(10),
+    return ListView.builder(
+      padding: const EdgeInsets.fromLTRB(20, 16, 20, 0),
+      itemCount: _visitedPlaces.length,
+      itemBuilder: (context, index) {
+        return Container(
+          margin: const EdgeInsets.only(bottom: 10),
+          padding: const EdgeInsets.all(14),
           decoration: BoxDecoration(
-            color: Colors.teal.withOpacity(0.1),
+            color: bgCard,
             borderRadius: BorderRadius.circular(12),
+            border: Border.all(color: borderColor.withOpacity(0.5)),
           ),
-          child: Icon(icon, size: 22, color: Colors.teal),
-        ),
-        SizedBox(width: 16),
-        Expanded(
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
+          child: Row(
             children: [
-              Text(
-                label,
-                style: TextStyle(fontSize: 13, color: Colors.grey.shade600),
+              Container(
+                padding: const EdgeInsets.all(8),
+                decoration: BoxDecoration(
+                  color: Colors.green.withOpacity(0.15),
+                  borderRadius: BorderRadius.circular(8),
+                ),
+                child: const Icon(Icons.check, color: Colors.green, size: 18),
               ),
-              SizedBox(height: 4),
-              Text(
-                value.isEmpty ? "Belirtilmemiş" : value,
-                style: TextStyle(
-                  fontSize: 15,
-                  fontWeight: FontWeight.w600,
-                  color: Colors.black87,
+              const SizedBox(width: 12),
+              Expanded(
+                child: Text(
+                  _visitedPlaces[index],
+                  style: const TextStyle(color: textWhite, fontSize: 14),
                 ),
               ),
             ],
           ),
-        ),
-      ],
+        );
+      },
     );
   }
 
-  // ❤️ Favori Kartı
-  Widget _favoriteCard(Highlight place) {
+  Widget _buildMiniPlaceCard(Highlight place) {
+    final hasImage = place.imageUrl != null && place.imageUrl!.isNotEmpty;
+    final color = _getCategoryColor(place.category);
+
     return GestureDetector(
-      onTap: () {
-        Navigator.push(
-          context,
-          MaterialPageRoute(builder: (_) => DetailScreen(place: place)),
-        );
-      },
+      onTap: () => Navigator.push(
+        context,
+        MaterialPageRoute(builder: (_) => DetailScreen(place: place)),
+      ),
       child: Container(
-        margin: EdgeInsets.only(bottom: 12),
-        padding: EdgeInsets.all(12),
+        margin: const EdgeInsets.only(bottom: 12),
+        padding: const EdgeInsets.all(12),
         decoration: BoxDecoration(
-          color: Colors.white,
-          borderRadius: BorderRadius.circular(16),
-          boxShadow: [
-            BoxShadow(
-              color: Colors.black.withOpacity(0.05),
-              blurRadius: 10,
-              offset: Offset(0, 4),
-            ),
-          ],
+          color: bgCard,
+          borderRadius: BorderRadius.circular(14),
+          border: Border.all(color: borderColor.withOpacity(0.5)),
         ),
         child: Row(
           children: [
+            // Image
             ClipRRect(
-              borderRadius: BorderRadius.circular(12),
-              child: Image.network(
-                place.displayImage,
-                width: 70,
-                height: 70,
-                fit: BoxFit.cover,
-                errorBuilder: (_, __, ___) => Container(
-                  width: 70,
-                  height: 70,
-                  color: Colors.grey.shade200,
-                  child: Icon(Icons.place, color: Colors.grey.shade400),
-                ),
+              borderRadius: BorderRadius.circular(10),
+              child: SizedBox(
+                width: 56,
+                height: 56,
+                child: hasImage
+                    ? Image.network(place.imageUrl!, fit: BoxFit.cover)
+                    : Container(
+                        color: color.withOpacity(0.15),
+                        child: Icon(Icons.place, color: color, size: 24),
+                      ),
               ),
             ),
-            SizedBox(width: 12),
+            const SizedBox(width: 12),
+            // Info
             Expanded(
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Text(
                     place.name,
+                    style: const TextStyle(
+                      color: textWhite,
+                      fontSize: 14,
+                      fontWeight: FontWeight.w600,
+                    ),
                     maxLines: 1,
                     overflow: TextOverflow.ellipsis,
-                    style: TextStyle(
-                      fontSize: 16,
-                      fontWeight: FontWeight.bold,
-                      color: Colors.black87,
-                    ),
                   ),
-                  SizedBox(height: 4),
+                  const SizedBox(height: 4),
                   Text(
                     place.area,
-                    maxLines: 1,
-                    overflow: TextOverflow.ellipsis,
-                    style: TextStyle(fontSize: 13, color: Colors.grey.shade600),
+                    style: TextStyle(color: textGrey, fontSize: 12),
                   ),
                 ],
               ),
             ),
-            Icon(Icons.chevron_right, color: Colors.grey.shade400),
+            // Rating
+            if (place.rating != null)
+              Row(
+                children: [
+                  const Icon(Icons.star, color: Color(0xFFFFC107), size: 14),
+                  const SizedBox(width: 4),
+                  Text(
+                    place.rating!.toStringAsFixed(1),
+                    style: const TextStyle(
+                      color: textWhite,
+                      fontSize: 12,
+                      fontWeight: FontWeight.w600,
+                    ),
+                  ),
+                ],
+              ),
           ],
         ),
       ),
     );
   }
 
-  // ⚙️ Ayarlar Satırı
-  Widget _settingsTile(IconData icon, String title, VoidCallback onTap) {
-    return ListTile(
-      leading: Icon(icon, color: Colors.grey.shade700),
-      title: Text(title, style: TextStyle(fontSize: 15, color: Colors.black87)),
-      trailing: Icon(Icons.chevron_right, color: Colors.grey.shade400),
-      onTap: onTap,
+  Widget _buildEmptyTab({
+    required IconData icon,
+    required String title,
+    required String subtitle,
+  }) {
+    return Center(
+      child: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+          Icon(icon, size: 48, color: textGrey.withOpacity(0.5)),
+          const SizedBox(height: 16),
+          Text(
+            title,
+            style: TextStyle(
+              color: textGrey,
+              fontSize: 16,
+              fontWeight: FontWeight.w600,
+            ),
+          ),
+          const SizedBox(height: 4),
+          Text(
+            subtitle,
+            style: TextStyle(color: textGrey.withOpacity(0.7), fontSize: 13),
+          ),
+        ],
+      ),
     );
   }
 
-  // 🎨 Metin Dönüşümleri
-  String _getTravelStyleText(String style) {
-    switch (style) {
-      case "tourist":
-        return "Turistik";
-      case "local":
-        return "Lokal";
-      case "instagram":
-        return "Instagram'lık";
-      case "chill":
-        return "Chill";
-      default:
-        return style;
-    }
+  // ══════════════════════════════════════════════════════════════════════════
+  // SETTINGS SECTION
+  // ══════════════════════════════════════════════════════════════════════════
+
+  Widget _buildSettingsSection() {
+    return Padding(
+      padding: const EdgeInsets.fromLTRB(20, 24, 20, 0),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          const Text(
+            "Hızlı Erişim",
+            style: TextStyle(
+              color: textWhite,
+              fontSize: 16,
+              fontWeight: FontWeight.w600,
+            ),
+          ),
+          const SizedBox(height: 12),
+          _buildSettingItem(
+            icon: Icons.location_city,
+            title: "Şehir Değiştir",
+            onTap: () => Navigator.pushNamed(context, "/city-switch"),
+          ),
+          _buildSettingItem(
+            icon: Icons.palette,
+            title: "Tercihlerimi Düzenle",
+            onTap: () => Navigator.pushNamed(context, "/onboarding"),
+          ),
+          _buildSettingItem(
+            icon: Icons.settings,
+            title: "Ayarlar",
+            onTap: () => Navigator.pushNamed(context, "/settings"),
+          ),
+          _buildSettingItem(
+            icon: Icons.info_outline,
+            title: "Hakkında",
+            onTap: () {},
+          ),
+        ],
+      ),
+    );
   }
 
-  String _getWalkingLevelText(String level) {
-    switch (level) {
-      case "low":
-        return "Az Yürüyüş";
-      case "medium":
-        return "Orta";
-      case "high":
-        return "Çok Yürüyüş";
-      default:
-        return level;
-    }
+  Widget _buildSettingItem({
+    required IconData icon,
+    required String title,
+    required VoidCallback onTap,
+  }) {
+    return GestureDetector(
+      onTap: () {
+        HapticFeedback.lightImpact();
+        onTap();
+      },
+      child: Container(
+        margin: const EdgeInsets.only(bottom: 10),
+        padding: const EdgeInsets.all(16),
+        decoration: BoxDecoration(
+          color: bgCard,
+          borderRadius: BorderRadius.circular(14),
+          border: Border.all(color: borderColor.withOpacity(0.5)),
+        ),
+        child: Row(
+          children: [
+            Container(
+              padding: const EdgeInsets.all(10),
+              decoration: BoxDecoration(
+                color: bgCardLight,
+                borderRadius: BorderRadius.circular(10),
+              ),
+              child: Icon(icon, color: textGrey, size: 20),
+            ),
+            const SizedBox(width: 14),
+            Expanded(
+              child: Text(
+                title,
+                style: const TextStyle(
+                  color: textWhite,
+                  fontSize: 15,
+                  fontWeight: FontWeight.w500,
+                ),
+              ),
+            ),
+            const Icon(Icons.chevron_right, color: textGrey, size: 22),
+          ],
+        ),
+      ),
+    );
   }
 
-  String _getBudgetText(String budget) {
-    switch (budget) {
-      case "low":
-        return "Ekonomik";
-      case "medium":
-        return "Orta";
-      case "high":
-        return "Lüks";
-      default:
-        return budget;
-    }
+  // ══════════════════════════════════════════════════════════════════════════
+  // HELPERS
+  // ══════════════════════════════════════════════════════════════════════════
+
+  Color _getCategoryColor(String category) {
+    final colors = {
+      'Restoran': const Color(0xFFFF5252),
+      'Bar': const Color(0xFF9C27B0),
+      'Kafe': const Color(0xFFFF9800),
+      'Müze': const Color(0xFF2196F3),
+      'Tarihi': const Color(0xFF795548),
+      'Park': const Color(0xFF4CAF50),
+      'Manzara': const Color(0xFF00BCD4),
+      'Alışveriş': const Color(0xFFE91E63),
+      'Semt': const Color(0xFF673AB7),
+    };
+    return colors[category] ?? const Color(0xFF607D8B);
   }
 }

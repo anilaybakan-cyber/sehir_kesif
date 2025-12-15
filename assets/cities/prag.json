@@ -1,0 +1,114 @@
+{
+  "city": "Prag",
+  "country": "Çekya",
+  "description": "Yüz kuleli şehir. Ortaçağ masalı, bira cenneti.",
+  "heroImage": "https://images.unsplash.com/photo-1519677100203-a0e668c92439?w=800",
+  "coordinates": {
+    "lat": 50.0755,
+    "lng": 14.4378
+  },
+  "highlights": [
+    {
+      "name": "Charles Köprüsü",
+      "area": "Malá Strana",
+      "category": "Tarihi",
+      "tags": [
+        "köprü"
+      ],
+      "distanceFromCenter": 0.5,
+      "lat": 50.0865,
+      "lng": 14.4114,
+      "price": "low",
+      "rating": 4.8,
+      "description": "Charles Köprüsü, Malá Strana bölgesinin tarihine ışık tutan önemli bir yapı. Geçmişin izlerini günümüze taşıyan mimarisi ve kültürel mirasıyla, tarih meraklıları için keşfedilmeyi bekleyen bir hazine.",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHrrLNwDefzQ2Qn8qx6W0Vwx3h1YBICIK7H7U6YRaK0i1fi6ZywnLZD5gkGFXP8iJ_3jb2QAInuNYYZMUETpscr3C5jYuhu1Q0FoyOMSzpRwKEI5yQ6DjaJwpLNi44y6bmJEaD6Q4gFphUASUcbK95sUYON1Mo-Fcr_08XPbT6u2oyT_mU55TNP2LgZXTfaZ-uL90oa35DhsK0deRQxA251-Y2i2C1AFi0VK3iUDDclvKlN6pou0G5WwgIPPJnHsuEN9jprEyUEeylp1lkpJIeI_gTyytLpMBTMxsf9qwGaO-KH8LcS2mtf0tWxi-HbpboxOijsmlAG0NecPVWBiQJotjsPKHqYWHciZq-lFeQ69ebvGz_BxEOVNMAFLyQ7KTSVy1hbhakC3t_9j3mtnWV_4Cqi1j-4W5RWe4-R9rV126sc&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "bestTime": "Gün doğumu",
+      "tips": "Erken saatlerde veya kapanışa yakın giderseniz kalabalıktan kaçınabilirsiniz."
+    },
+    {
+      "name": "Prag Kalesi",
+      "area": "Hradčany",
+      "category": "Tarihi",
+      "tags": [
+        "kale"
+      ],
+      "distanceFromCenter": 1.5,
+      "lat": 50.0911,
+      "lng": 14.4016,
+      "price": "medium",
+      "rating": 4.8,
+      "description": "Prag Kalesi, Hradčany bölgesinin tarihine ışık tutan önemli bir yapı. Geçmişin izlerini günümüze taşıyan mimarisi ve kültürel mirasıyla, tarih meraklıları için keşfedilmeyi bekleyen bir hazine.",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHr81zRj_or1u9SS0sbwCFDCOG9QFYF6LoJvs7_O_runuWCNmlNn-Q4Mtwh6MkhRKrAlj2xM-G7B6MV-bVDgisqWDRuvtHoiGPYUhbmsmeCi--rYRXlPFJRcJt5dh4rgp7BEVErH_QyKrH2EZVBR3FYo9pD_Nllpuvs_0sr-D0KwwS54R4rW2A4wyhu_7-TOGfwwxTD4p6e5FyxLvwRUIbRLumv4Ibl_cVIFl8lwcVwybqCDpmjnhazTISl8Ol5d9qs-3UM0TCm7dGmri-vpKwIdS0A7a8U3fAvs6KJBnpc6_48FCde7UwkGp1TFxJbH_eHeUjVL9uplGHGe8SE7slf7OPTaZ6RCWcwetlfjTOa5BuUPKSL8pc7oOlPfcq0djPUakrgoy-kYECWN8nCo35JApMnF-wqPjco8XZ9jtNIL0Eul&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "bestTime": "Sabah",
+      "tips": "Erken saatlerde veya kapanışa yakın giderseniz kalabalıktan kaçınabilirsiniz."
+    },
+    {
+      "name": "Old Town Square",
+      "area": "Staré Město",
+      "category": "Manzara",
+      "tags": [
+        "meydan"
+      ],
+      "distanceFromCenter": 0.3,
+      "lat": 50.0873,
+      "lng": 14.4213,
+      "price": "low",
+      "rating": 4.7,
+      "description": "Old Town Square, şehrin en etkileyici manzaralarından birine ev sahipliği yapıyor. Özellikle gün batımında sunduğu görsel şölen ve Staré Město bölgesine hakim konumuyla fotoğraf tutkunları için vazgeçilmez bir nokta.",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHqnoSnii85lW21OWp6wPzCeEilc0lc0o2xZVeTbXr6Marlf3VzZJvEnnXwVnUsnhi0kgpFXrhWhP2QbokpQGl01caJyRGJzb0Sy2dvpsRtb2QMami5leAXBrQJhKtZ-Iaz9uGnf-cjfzMt_yXk1SdGQLoNOLTjTmxyRZhTkoVKjhEUcVwicUMm10xwvv1ZNGAwWIckc-NgUvQTcIp1FHFI67D4D_s5-DTmprSiMykzKy58dOh8ZJNvcC8ud7xp6N0odgv-gc-4oi47DkBixRUaQ8om-m74kHFwH9PafkcJCCY58tQZ0jqwf4KOZpCl9HKaoDAaiIuWdOFH1KRROQFmVb3aw2frCzNsO756gVAWpNCm2U-Qv4isI4jvfYGQkLy1jPn334HG32hADsMH4FWOXyUdoPizYc_9R7PGRfA4OjA&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "bestTime": "Her saat başı (saat için)",
+      "tips": "Gün batımında gitmek için ideal bir nokta. Fotoğraf makinenizi unutmayın."
+    },
+    {
+      "name": "Jewish Quarter",
+      "area": "Josefov",
+      "category": "Tarihi",
+      "tags": [
+        "tarih"
+      ],
+      "distanceFromCenter": 0.5,
+      "lat": 50.0901,
+      "lng": 14.4186,
+      "price": "medium",
+      "rating": 4.6,
+      "description": "Jewish Quarter, Josefov bölgesinin tarihine ışık tutan önemli bir yapı. Geçmişin izlerini günümüze taşıyan mimarisi ve kültürel mirasıyla, tarih meraklıları için keşfedilmeyi bekleyen bir hazine.",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHqkBzxZVkCQZrabz5is-02RdBUCohyL1YVfSSaoUertkrkLfcquW_0s3ccir1fa4wTVkSNaMD3gh7UfQtFNHrZAW522WgL99aWG-J1hJFjXcxcjLRaeMJRp7TsNnesE9AgkEVjTEFxggfv0-JPZMi76AS2Y7sCoIJj4fjDexX8-9Jl4AxuqCHg3c9W5XKxxRCdo5uw-nS4c03cVp6lc_LhgzGDJG7xfJOzrrziUt0ks2pYvP_plCi9s2dQjVSEQHsnaCRedUk2sYg7U7a-m87g25Z2diHM8sWeEoXxnKavDZCMdESrRgQrdA8hqiXVUyDRJ_SMiaRSu5_Agl_rYxFPfcODBeHTJ84Zcs5144_GdhUn88PVHehHglRp3gr3BoHAzPP-S-gdHKw4zsBn9hJw7O14NLvvxMSXcm9JpKwQGBZ9r&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "bestTime": "Hafta içi",
+      "tips": "Erken saatlerde veya kapanışa yakın giderseniz kalabalıktan kaçınabilirsiniz."
+    },
+    {
+      "name": "Letná Park",
+      "area": "Letná",
+      "category": "Manzara",
+      "tags": [
+        "park"
+      ],
+      "distanceFromCenter": 1.5,
+      "lat": 50.0948,
+      "lng": 14.4177,
+      "price": "low",
+      "rating": 4.5,
+      "description": "Letná Park, şehrin en etkileyici manzaralarından birine ev sahipliği yapıyor. Özellikle gün batımında sunduğu görsel şölen ve Letná bölgesine hakim konumuyla fotoğraf tutkunları için vazgeçilmez bir nokta.",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHqXiLaLgqdZATh5HiOdVVGmLCI6ACZ2iOjzEkpzrazLl28Phmc8HVcjfodnWAQdds_bZRYWdXuNg-4o80VjE4ORnlZQz0WOZ_OJT7PbRDwZe0HPV1Q-8GPAI4rLHSWJt_qi39tLregz26dwclGTJMKKzCB02ba_QLSHv6-Gw_7GZW8eZIkPnJXiNe_fJ9Mr7o5mCx5GbGeXRV3_Dzki6u8XSmQeMh2GRC9SihzHIhMlI--OFTdSU6wBTCZgDpVSTD8U8VrZ_FflY58ZEgAhca3hiHuR46f9T13HOQXLoMFj-ivIlpXFHlSMcn0vrY1fRpgaXdkSvySZgUREI_J9CEPba1LcmYQ0eiV_-PsfcOlSWscmLsxm1iMUqb7ewJiZ5Cd5JgwP3ZdvqmPx3x_5LZnWGGdgLFUL-HuBd_XdpJVv8g&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "bestTime": "Gün batımı",
+      "tips": "Gün batımında gitmek için ideal bir nokta. Fotoğraf makinenizi unutmayın."
+    },
+    {
+      "name": "Dancing House",
+      "area": "Nové Město",
+      "category": "Manzara",
+      "tags": [
+        "mimari"
+      ],
+      "distanceFromCenter": 1.0,
+      "lat": 50.0756,
+      "lng": 14.414,
+      "price": "low",
+      "rating": 4.3,
+      "description": "Dancing House, şehrin en etkileyici manzaralarından birine ev sahipliği yapıyor. Özellikle gün batımında sunduğu görsel şölen ve Nové Město bölgesine hakim konumuyla fotoğraf tutkunları için vazgeçilmez bir nokta.",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHrOJuBcvUVRBbIT8gdvi4hzQtLdL1X-UDHGk-QqNBDsO8j9Rnjb7n1h0mEUDAi8wASr6S-GI8JACdY_B0ksuqM9qEX6C7xfc2r8h98YCywK-o63YKhqFhNPqOued9X_jvenxDDYpehidnoR2v15ilUeR7V32fbWacZrQJVpRDBdWZLJ22J3koVuapW4xracRXUvvj4BwEv_i6JvdiR96auMomM4xCccGYA0Y_J-ws_EkSoMNPRnvHopEfBPt8XYCG8mFjZkXoy5ByVHMGjp84gElAjj56gIoLsYyByKc_GdUqVPzMabH9iWjDa5EON4lQaPMVv4-2OaUAn-DhzrTgZMceSpJ5LoSyLpIRWGaogoQZ2xJFO4a0jPNprk2mSIfF3ZQwNOUzSf1NxbZTXBTqLqcevXUHehSX2vfwYyQm8&key=AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0",
+      "bestTime": "Öğleden sonra",
+      "tips": "Gün batımında gitmek için ideal bir nokta. Fotoğraf makinenizi unutmayın."
+    }
+  ]
+}
