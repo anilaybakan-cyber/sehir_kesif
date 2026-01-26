@@ -12,6 +12,46 @@
   },
   "highlights": [
     {
+      "name": "Ess-a-Bagel",
+      "category": "Yeme-İçme",
+      "area": "Midtown East",
+      "description": "New York'un en meşhur bagel dükkanlarından biri. Devasa, taze ve bol malzemeli.",
+      "description_en": "One of NYC's most famous bagel shops. Giant, fresh and loaded with fillings.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/newyork/ess_a_bagel.jpg",
+      "location": "831 3rd Ave, New York, NY 10022",
+      "lat": 40.7595,
+      "lng": -73.9680,
+      "rating": 4.6,
+      "price": "medium",
+      "tags": [
+        "bagel",
+        "kahvaltı",
+        "ikonik"
+      ],
+      "tips": "Sıra her zaman uzundur ama hızlı ilerler.",
+      "tips_en": "The line is always long but moves fast."
+    },
+    {
+      "name": "Junior's",
+      "category": "Yeme-İçme",
+      "area": "Times Square",
+      "description": "Dünyanın en iyi cheesecake'i olduğu iddia edilir. Klasik Amerikan diner atmosferi.",
+      "description_en": "Claimed to be the world's best cheesecake. Classic American diner atmosphere.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/newyork/juniors.jpg",
+      "location": "1515 Broadway, New York, NY 10036",
+      "lat": 40.7585,
+      "lng": -73.9860,
+      "rating": 4.5,
+      "price": "medium",
+      "tags": [
+        "cheesecake",
+        "tatlı",
+        "diner"
+      ],
+      "tips": "Sade (plain) cheesecake en favorisidir.",
+      "tips_en": "Plain cheesecake is the favorite."
+    },
+    {
       "id": "gen_ChIJRWo8v4RZwokRbggnxWmoWpA",
       "name": "787 Coffee",
       "category": "Kafe",

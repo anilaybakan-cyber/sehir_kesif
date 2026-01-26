@@ -569,10 +569,7 @@ class CuratedRoutesService {
       case 'kapadokya':
       case 'cappadocia':
         return _getCappadociaRoutes(isEnglish);
-      case 'midilli':
-      case 'lesbos':
-      case 'lesvos':
-        return _getLesbosRoutes(isEnglish);
+
       case 'belgrad':
       case 'belgrade':
         return _getBelgradeRoutes(isEnglish);
@@ -1800,7 +1797,7 @@ class CuratedRoutesService {
         difficulty: isEnglish ? "Easy" : "Kolay",
         imageUrl: "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/routes/route_photo_24_123e054ad350.jpg",
         tags: ["Pizza", "Bagel", isEnglish ? "Food" : "Yemek"],
-        placeNames: ["Joe's Pizza", "Katz's Deli", "Ess-a-Bagel", "Junior's"],
+        placeNames: ["Joe's Pizza", "Katz's Delicatessen", "Ess-a-Bagel", "Junior's"],
         interests: ["Yemek", "Lokal"],
         accentColor: const Color(0xFFE74C3C),
         icon: Icons.restaurant,
@@ -4904,23 +4901,7 @@ class CuratedRoutesService {
     ];
   }
 
-  // ═══════════════════════════════════════════════════════════════════════════
-  // MİDİLLİ ROTALARI
-  // ═══════════════════════════════════════════════════════════════════════════
-  static List<CuratedRoute> _getLesbosRoutes(bool isEnglish) {
-    return [
-      CuratedRoute(
-        id: "les_classic",
-        name: isEnglish ? "Molyvos & Petra" : "Molyvos & Petra",
-        description: isEnglish 
-          ? "Northern charm: Medieval castles and cobblestone streets"
-          : "Kuzey cazibesi: Ortaçağ kaleleri ve Arnavut kaldırımlı sokaklar.",
-        duration: isEnglish ? "6 hours" : "6 saat",
-        distance: "10 km",
-        difficulty: isEnglish ? "Easy" : "Kolay",
-        imageUrl: "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/midilli/molyvos_mithymna.jpg",
-        tags: [isEnglish ? "Castle" : "Kale", isEnglish ? "Village" : "Köy", isEnglish ? "Views" : "Manzara"],
-  }
+
 
   // ═══════════════════════════════════════════════════════════════════════════
   // BELGRAD ROTALARI
