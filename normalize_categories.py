@@ -30,7 +30,8 @@ CORRECTIONS = {
     'Şehir': 'Deneyim',
     'Sokak': 'Deneyim',
     'Tarih': 'Tarihi',
-    'Must See': 'Deneyim', # Catch English pollution in TR field if any
+    'Must See': 'Deneyim', 
+    'Cafe': 'Kafe', # Normalize Cafe to Kafe
 }
 
 def normalize_city_files():

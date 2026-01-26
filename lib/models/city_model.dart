@@ -137,6 +137,7 @@ class Highlight {
   final String? tips;
   final String? descriptionEn;
   final String? nameEn;
+  final String? areaEn; // Added areaEn
   final String? tipsEn;
   final String? bestTime;
   final String? bestTimeEn;
@@ -167,6 +168,7 @@ class Highlight {
     this.imageUrl,
     this.tips,
     this.nameEn,
+    this.areaEn,
     this.descriptionEn,
     this.tipsEn,
     this.bestTime,
@@ -204,6 +206,14 @@ class Highlight {
     return description;
   }
 
+  /// Dil seçimine göre bölge döndürür. areaEn yoksa area kullanır.
+  String getLocalizedArea(bool isEnglish) {
+    if (isEnglish && areaEn != null && areaEn!.isNotEmpty) {
+      return areaEn!;
+    }
+    return area;
+  }
+
   factory Highlight.fromJson(Map<String, dynamic> json, {String? city}) {
     // openHours'u parse et
     Map<String, String>? openHours;
@@ -230,6 +240,7 @@ class Highlight {
       imageUrl: json["imageUrl"],
       tips: json["tips"],
       nameEn: json["name_en"],
+      areaEn: json["area_en"], // Parse area_en
       descriptionEn: json["description_en"],
       tipsEn: json["tips_en"],
       bestTime: json["bestTime"],

@@ -1972,8 +1972,8 @@ class _NearbyScreenState extends State<NearbyScreen>
                       
                       // Area
                       Text(
-                        place.area.isNotEmpty
-                            ? place.area
+                        place.highlight.getLocalizedArea(AppLocalizations.instance.isEnglish).isNotEmpty
+                            ? place.highlight.getLocalizedArea(AppLocalizations.instance.isEnglish)
                             : (place.highlight.city ?? ""),
                         style: const TextStyle(
                           fontSize: 12, // Reduced font size

@@ -676,6 +676,7 @@ class AppLocalizations {
       'Şehir': 'Deneyim',
       'Sokak': 'Deneyim',
       'Tarih': 'Tarihi', // 'Tarihi' is the valid key
+      'Cafe': 'Kafe',    // Normalize Cafe to Kafe
     };
 
     if (corrections.containsKey(normalized)) {

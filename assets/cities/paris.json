@@ -81,7 +81,8 @@
       "bestTime": "Öğleden sonra",
       "bestTime_en": "Afternoon",
       "tips": "Şefin spesiyal tabağını sormaktan çekinmeyin.",
-      "tips_en": "Don't hesitate to ask for the chef's special."
+      "tips_en": "Don't hesitate to ask for the chef's special.",
+      "area_en": "1st Arr."
     },
     {
       "id": "gen_ChIJ4xeFqUFu5kcRZlL1mE8bUUM",
@@ -249,7 +250,8 @@
       "bestTime": "Kahvaltı veya 5 çayı",
       "bestTime_en": "Breakfast or Tea time",
       "tips": "Akşam yemeği için rezervasyon yaptırmak şart.",
-      "tips_en": "Reservation is a must for dinner."
+      "tips_en": "Reservation is a must for dinner.",
+      "area_en": "1st Arr."
     },
     {
       "id": "gen_ChIJiRCOx-5z5kcRRafETqGAviY",
@@ -319,7 +321,8 @@
       "bestTime": "Gün batımı",
       "bestTime_en": "Sunset",
       "tips": "Biletinizi online alarak gişe sırasından kurtulun.",
-      "tips_en": "Buy tickets online to skip the box office line."
+      "tips_en": "Buy tickets online to skip the box office line.",
+      "area_en": "8th Arr."
     },
     {
       "name": "Arènes de Lutèce",
@@ -371,7 +374,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/paris/atelier_des_lumieres.jpg",
       "tips": "Google Maps yorumlarına göz atarak ne yiyeceğinize karar verin.",
       "description_en": "Atelier des Lumières is a popular spot in Paris located in 11. Bölge.",
-      "tips_en": "Decide what to eat by checking Google Maps reviews."
+      "tips_en": "Decide what to eat by checking Google Maps reviews.",
+      "area_en": "11th Arr."
     },
     {
       "id": "gen_ChIJpcY4vuBt5kcRkFm7FJY0yP0",
@@ -400,7 +404,7 @@
     {
       "id": "gen_ChIJpTgNF71v5kcR91LU4Sw4WIc",
       "name": "Azur Café",
-      "category": "Cafe",
+      "category": "Kafe",
       "area": "63 Rue de Ponthieu",
       "description": "Vegan seçenekleri de olan Akdeniz usulü lezzetlerin servis edildiği, keyifli atmosfere sahip konforlu restoran.",
       "description_en": "Vegan seçenekleri de olan Akdeniz usulü lezzetlerin servis edildiği, keyifli atmosfere sahip konforlu restoran.",
@@ -537,12 +541,13 @@
       "bestTime": "Gün batımı",
       "bestTime_en": "Sunset",
       "tips": "Kıyafetinizin aktiviteye uygun olduğundan emin olun.",
-      "tips_en": "Ensure your outfit is suitable for the activity."
+      "tips_en": "Ensure your outfit is suitable for the activity.",
+      "area_en": "7th Arr."
     },
     {
       "id": "gen_ChIJH_sesv5x5kcRqt9EbP1tTuA",
       "name": "Bel Horizon Coffee Roasters",
-      "category": "Cafe",
+      "category": "Kafe",
       "area": "26 Bd Garibaldi",
       "description": "Paris'nin popüler kafelerinden biri. Kahve tutkunları için mükemmel bir mola noktası, samimi atmosfer ve lezzetli atıştırmalıklar.",
       "description_en": "Specialty coffee roaster offering expertly crafted drinks and fresh beans.",
@@ -583,7 +588,8 @@
       "bestTime": "Öğleden sonra",
       "bestTime_en": "Afternoon",
       "tips": "Akşam yemeği için rezervasyon yaptırmak şart.",
-      "tips_en": "Reservation is a must for dinner."
+      "tips_en": "Reservation is a must for dinner.",
+      "area_en": "20th Arr."
     },
     {
       "name": "Berthillon",
@@ -631,12 +637,13 @@
       "bestTime": "Gündüz",
       "bestTime_en": "Daytime",
       "tips": "Hafta içi sabah saatleri en sakin zamanıdır.",
-      "tips_en": "Weekday mornings are the quietest times."
+      "tips_en": "Weekday mornings are the quietest times.",
+      "area_en": "2nd Arr."
     },
     {
       "id": "gen_ChIJ5_ZVUk9v5kcRrfaGnNu0-zw",
       "name": "Big Shot coffee",
-      "category": "Cafe",
+      "category": "Kafe",
       "area": "64 Rue Saint-Honoré",
       "description": "Paris'nin popüler kafelerinden biri. Kahve tutkunları için mükemmel bir mola noktası, samimi atmosfer ve lezzetli atıştırmalıklar.",
       "description_en": "Hip specialty coffee spot with quality espresso and casual atmosphere.",
@@ -725,12 +732,13 @@
       "bestTime": "Gündüz",
       "bestTime_en": "Daytime",
       "tips": "Sabah koşusu veya yoga yapan yerlileri görebilirsiniz.",
-      "tips_en": "You can see locals jogging or doing yoga in the morning."
+      "tips_en": "You can see locals jogging or doing yoga in the morning.",
+      "area_en": "16th Arr."
     },
     {
       "id": "gen_ChIJPxXD_mRv5kcR85S7z6ef4Uk",
       "name": "Bon Bouquet Café",
-      "category": "Cafe",
+      "category": "Kafe",
       "area": "30 Rue Le Peletier",
       "description": "Hip, quaint hangout whipping up pancakes, eggs & avocado toast, plus coffee & specialty drinks.",
       "description_en": "Hip, quaint hangout whipping up pancakes, eggs & avocado toast, plus coffee & specialty drinks.",
@@ -754,7 +762,7 @@
     {
       "name": "Bontemps Pâtisserie",
       "area": "Le Marais",
-      "category": "Cafe",
+      "category": "Kafe",
       "subcategory": "Cafe",
       "tags": [
         "tatlı",
@@ -799,7 +807,8 @@
       "bestTime": "Akşam yemeği",
       "bestTime_en": "Dinner",
       "tips": "Öğle yemeği menüleri genellikle akşamdan daha uygundur.",
-      "tips_en": "Lunch menus are usually cheaper than dinner."
+      "tips_en": "Lunch menus are usually cheaper than dinner.",
+      "area_en": "9th Arr."
     },
     {
       "id": "gen_ChIJ3ciEyNhx5kcRPVo1NKwoM2k",
@@ -852,7 +861,7 @@
     {
       "id": "gen_ChIJtcc54wht5kcR_KzUj-RgS44",
       "name": "Brigat'",
-      "category": "Cafe",
+      "category": "Kafe",
       "area": "6 Rue du Pas de la Mule",
       "description": "Paris'nin popüler kafelerinden biri. Kahve tutkunları için mükemmel bir mola noktası, samimi atmosfer ve lezzetli atıştırmalıklar.",
       "description_en": "French bistro serving traditional dishes with modern presentation.",
@@ -876,7 +885,7 @@
     {
       "id": "gen_ChIJWbd6C_Nv5kcRw5fUQKAqEzE",
       "name": "Brouillon Coffee",
-      "category": "Cafe",
+      "category": "Kafe",
       "area": "42 Bd de Magenta",
       "description": "Paris'nin popüler kafelerinden biri. Kahve tutkunları için mükemmel bir mola noktası, samimi atmosfer ve lezzetli atıştırmalıklar.",
       "description_en": "Specialty coffee shop with quality beans and artisanal approach to brewing.",
@@ -917,7 +926,8 @@
       "bestTime": "Akşam",
       "bestTime_en": "Evening",
       "tips": "Fotoğraf çekimi için en iyi ışık gün batımına yakındır.",
-      "tips_en": "Best light for photography is near sunset."
+      "tips_en": "Best light for photography is near sunset.",
+      "area_en": "13th Arr."
     },
     {
       "name": "Buttes-Chaumont Parkı",
@@ -940,12 +950,13 @@
       "bestTime": "Hafta sonu öğleden sonra",
       "bestTime_en": "Weekend afternoon",
       "tips": "Güneş kremi ve şapka almayı unutmayın.",
-      "tips_en": "Don't forget sunscreen and a hat."
+      "tips_en": "Don't forget sunscreen and a hat.",
+      "area_en": "19th Arr."
     },
     {
       "id": "gen_ChIJP5sxNpxz5kcRPufid_JMv8s",
       "name": "CASA CAFE",
-      "category": "Cafe",
+      "category": "Kafe",
       "area": "103 bis Rue de Charenton",
       "description": "Paris'nin popüler kafelerinden biri. Kahve tutkunları için mükemmel bir mola noktası, samimi atmosfer ve lezzetli atıştırmalıklar.",
       "description_en": "Cozy café offering quality coffee and light meals in a welcoming space.",
@@ -969,7 +980,7 @@
     {
       "id": "gen_ChIJ_woWC21v5kcRYvHFwUcxBxE",
       "name": "Café Tranquille",
-      "category": "Cafe",
+      "category": "Kafe",
       "area": "147 Rue du Faubourg Saint-Denis",
       "description": "Paris'nin popüler kafelerinden biri. Kahve tutkunları için mükemmel bir mola noktası, samimi atmosfer ve lezzetli atıştırmalıklar.",
       "description_en": "Peaceful neighborhood café perfect for coffee and relaxation.",
@@ -993,7 +1004,7 @@
     {
       "name": "Café de Flore",
       "area": "6. Bölge",
-      "category": "Cafe",
+      "category": "Kafe",
       "tags": [
         "tarihi",
         "entelektüel",
@@ -1010,12 +1021,13 @@
       "bestTime": "Kahvaltı",
       "bestTime_en": "Breakfast",
       "tips": "Hafta içi ziyaret etmek daha sakin bir deneyim sunar.",
-      "tips_en": "Visiting on weekdays offers a calmer experience."
+      "tips_en": "Visiting on weekdays offers a calmer experience.",
+      "area_en": "6th Arr."
     },
     {
       "id": "gen_ChIJS72vYQBv5kcR7cN5BwO_nIQ",
       "name": "Calibré",
-      "category": "Cafe",
+      "category": "Kafe",
       "area": "15 Rue Jean-Jacques Rousseau",
       "description": "Paris'nin popüler kafelerinden biri. Kahve tutkunları için mükemmel bir mola noktası, samimi atmosfer ve lezzetli atıştırmalıklar.",
       "description_en": "Specialty coffee bar with precision brewing and quality beans.",
@@ -1039,7 +1051,7 @@
     {
       "name": "Canal Saint-Martin",
       "area": "10. Bölge",
-      "category": "Cafe",
+      "category": "Kafe",
       "tags": [
         "lokal",
         "piknik",
@@ -1056,7 +1068,8 @@
       "bestTime": "Akşam",
       "bestTime_en": "Evening",
       "tips": "Yerel halkın favori noktalarından biri.",
-      "tips_en": "One of the favorite spots of the locals."
+      "tips_en": "One of the favorite spots of the locals.",
+      "area_en": "10th Arr."
     },
     {
       "id": "gen_ChIJL5FnieJv5kcRR5oqQ9qPLIs",
@@ -1085,7 +1098,7 @@
     {
       "id": "gen_ChIJTwh-MwBv5kcRcRa_mxW51Rc",
       "name": "Causeries Paris - Specialty coffee & natural wine",
-      "category": "Cafe",
+      "category": "Kafe",
       "area": "19 Rue du Parc Royal",
       "description": "Paris'nin popüler kafelerinden biri. Kahve tutkunları için mükemmel bir mola noktası, samimi atmosfer ve lezzetli atıştırmalıklar.",
       "description_en": "Unique spot combining specialty coffee by day and natural wines by evening.",
@@ -1150,7 +1163,8 @@
       "bestTime": "Öğleden sonra",
       "bestTime_en": "Afternoon",
       "tips": "Kıyafetinizin aktiviteye uygun olduğundan emin olun.",
-      "tips_en": "Ensure your outfit is suitable for the activity."
+      "tips_en": "Ensure your outfit is suitable for the activity.",
+      "area_en": "4th Arr."
     },
     {
       "name": "Champs-Élysées",
@@ -1172,7 +1186,8 @@
       "bestTime": "Akşam",
       "bestTime_en": "Evening",
       "tips": "Tax-free formunu istemeyi unutmayın.",
-      "tips_en": "Don't forget to ask for the Tax-free form."
+      "tips_en": "Don't forget to ask for the Tax-free form.",
+      "area_en": "8th Arr."
     },
     {
       "name": "Château de Versailles",
@@ -1199,7 +1214,7 @@
     {
       "id": "gen_ChIJGR3TdqJv5kcRCtgkoouI29U",
       "name": "Clove",
-      "category": "Cafe",
+      "category": "Kafe",
       "area": "14 Rue Chappe",
       "description": "Paris'nin popüler kafelerinden biri. Kahve tutkunları için mükemmel bir mola noktası, samimi atmosfer ve lezzetli atıştırmalıklar.",
       "description_en": "Modern dining venue with creative cuisine and stylish atmosphere.",
@@ -1247,7 +1262,7 @@
     {
       "id": "gen_ChIJSVS_XABv5kcRkZSF9CGqYCw",
       "name": "Coeur Coffee Roasters",
-      "category": "Cafe",
+      "category": "Kafe",
       "area": "6 Rue Ravignan",
       "description": "Paris'nin popüler kafelerinden biri. Kahve tutkunları için mükemmel bir mola noktası, samimi atmosfer ve lezzetli atıştırmalıklar.",
       "description_en": "Artisan coffee roastery with passion for quality beans and expert brewing.",
@@ -1271,7 +1286,7 @@
     {
       "id": "gen_ChIJk-rz2LMShqARjnvObCH2_18",
       "name": "Coffee Specialty Coffee - Torréfaction artisanale",
-      "category": "Cafe",
+      "category": "Kafe",
       "area": "40 Rue Chapon",
       "description": "Sadece kahveye odaklanan, minimalist ve teknik bir yaklaşım benimseyen artisan kavurma evi. Çekirdeklerin kökenine ve kavurma profillerine gösterilen özen, her fincanda saf ve kompleks bir tat profili ortaya çıkarır.",
       "description_en": "An artisan roasting house focused solely on coffee, adopting a minimalist and technical approach. The attention paid to bean origins and roasting profiles reveals a pure and complex taste profile in every cup.",
@@ -1295,7 +1310,7 @@
     {
       "id": "gen_ChIJua3hFABt5kcRdXXxM2kc5fc",
       "name": "Coffee Ya",
-      "category": "Cafe",
+      "category": "Kafe",
       "area": "25 Bd Voltaire",
       "description": "Paris'nin popüler kafelerinden biri. Kahve tutkunları için mükemmel bir mola noktası, samimi atmosfer ve lezzetli atıştırmalıklar.",
       "description_en": "Japanese-inspired coffee shop with quality brewing and minimalist aesthetic.",
@@ -1362,12 +1377,13 @@
       "bestTime": "Bahar veya Yaz",
       "bestTime_en": "Spring or Summer",
       "tips": "Gün batımını izlemek için şehirdeki en iyi noktalardan biri.",
-      "tips_en": "One of the best spots in the city to watch the sunset."
+      "tips_en": "One of the best spots in the city to watch the sunset.",
+      "area_en": "12th Arr."
     },
     {
       "id": "gen_ChIJ35Tx56Jx5kcRnGp6_3I6xuk",
       "name": "Crible",
-      "category": "Cafe",
+      "category": "Kafe",
       "area": "75 Rue Buffon",
       "description": "Take-out & limited seats in a snug fixture featuring a neighborhood vibe, coffee & pastries.",
       "description_en": "Take-out & limited seats in a snug fixture featuring a neighborhood vibe, coffee & pastries.",
@@ -1391,7 +1407,7 @@
     {
       "id": "gen_ChIJAYVk4o5v5kcR3Cj5faQovsM",
       "name": "Céline Lecoeur Pâtisserie",
-      "category": "Cafe",
+      "category": "Kafe",
       "area": "5 Rue de Calais",
       "description": "Paris'nin popüler kafelerinden biri. Kahve tutkunları için mükemmel bir mola noktası, samimi atmosfer ve lezzetli atıştırmalıklar.",
       "description_en": "Elegant French patisserie with exquisite pastries and cakes.",
@@ -1439,7 +1455,7 @@
     {
       "id": "gen_ChIJr5swOGZt5kcRm9VubMxd2w8",
       "name": "DAYOU PARIS",
-      "category": "Cafe",
+      "category": "Kafe",
       "area": "42 R. Bréguet",
       "description": "Paris'nin popüler kafelerinden biri. Kahve tutkunları için mükemmel bir mola noktası, samimi atmosfer ve lezzetli atıştırmalıklar.",
       "description_en": "Asian-inspired café with quality drinks and fusion flavors.",
@@ -1534,7 +1550,7 @@
       "name": "Du Pain et des Idées",
       "name_en": "Du Pain et des Idees",
       "area": "Canal Saint-Martin",
-      "category": "Cafe",
+      "category": "Kafe",
       "tags": [
         "pastane",
         "fırın",
@@ -1576,7 +1592,8 @@
       "bestTime": "Gündüz",
       "bestTime_en": "Daytime",
       "tips": "Rehberli turla gezmek detayları anlamak için çok daha verimli.",
-      "tips_en": "A guided tour is much more efficient to understand the details."
+      "tips_en": "A guided tour is much more efficient to understand the details.",
+      "area_en": "8th Arr."
     },
     {
       "name": "Eyfel Kulesi",
@@ -1599,12 +1616,13 @@
       "bestTime": "Gün batımı",
       "bestTime_en": "Sunset",
       "tips": "Akşam saatlerinde şehir ışıklarını izlemek çok romantik.",
-      "tips_en": "Watching city lights in the evening is very romantic."
+      "tips_en": "Watching city lights in the evening is very romantic.",
+      "area_en": "7th Arr."
     },
     {
       "id": "gen_ChIJVVXx5uRt5kcRyWQ9zHlPwmk",
       "name": "Fifty - Fifty",
-      "category": "Cafe",
+      "category": "Kafe",
       "area": "74 Rue Jean-Pierre Timbaud",
       "description": "Intimate cocktail bar offering intricate drinks & a small tapas selection in a cozy atmosphere.",
       "description_en": "Intimate cocktail bar offering intricate drinks & a small tapas selection in a cozy atmosphere.",
@@ -1645,7 +1663,8 @@
       "bestTime": "Öğleden sonra",
       "bestTime_en": "Afternoon",
       "tips": "Bazı günler giriş ücretsiz olabilir, web sitesini kontrol edin.",
-      "tips_en": "Entry might be free on some days, check the website."
+      "tips_en": "Entry might be free on some days, check the website.",
+      "area_en": "16th Arr."
     },
     {
       "name": "Galerie Vivienne",
@@ -1673,7 +1692,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/paris/galerie_vivienne.jpg",
       "tips": "Çantanızı vestiyere bırakmanız gerekebilir, hazırlıklı olun.",
       "description_en": "Galerie Vivienne is a popular spot in Paris located in 2. Bölge.",
-      "tips_en": "You might need to leave bags at the cloakroom, be prepared."
+      "tips_en": "You might need to leave bags at the cloakroom, be prepared.",
+      "area_en": "2nd Arr."
     },
     {
       "name": "Galeries Lafayette",
@@ -1695,7 +1715,8 @@
       "bestTime": "Öğleden sonra",
       "bestTime_en": "Afternoon",
       "tips": "El yapımı hediyelikler fabrikasyon olanlardan daha değerlidir.",
-      "tips_en": "Handmade souvenirs are more valuable than mass-produced ones."
+      "tips_en": "Handmade souvenirs are more valuable than mass-produced ones.",
+      "area_en": "9th Arr."
     },
     {
       "id": "gen_ChIJyX3y7cVv5kcR04ecVlLDcRA",
@@ -1724,7 +1745,7 @@
     {
       "id": "gen_ChIJfR78fQBv5kcRuYIHcRo7RSI",
       "name": "Giardino Paris｜Pâtisserie & Salon de thé",
-      "category": "Cafe",
+      "category": "Kafe",
       "area": "54 Rue des Dames",
       "description": "Paris'nin popüler kafelerinden biri. Kahve tutkunları için mükemmel bir mola noktası, samimi atmosfer ve lezzetli atıştırmalıklar.",
       "description_en": "Italian-inspired patisserie and tea salon with elegant pastries.",
@@ -1811,7 +1832,8 @@
       "bestTime": "Öğleden sonra",
       "bestTime_en": "Afternoon",
       "tips": "Sabah erken saatlerde giderek turist kalabalığından kaçınabilirsiniz.",
-      "tips_en": "Go early in the morning to avoid tourist crowds."
+      "tips_en": "Go early in the morning to avoid tourist crowds.",
+      "area_en": "5th Arr."
     },
     {
       "name": "Grand Palais",
@@ -1834,7 +1856,8 @@
       "bestTime": "Gündüz",
       "bestTime_en": "Daytime",
       "tips": "Hafta içi sabah saatleri en sakin zamanıdır.",
-      "tips_en": "Weekday mornings are the quietest times."
+      "tips_en": "Weekday mornings are the quietest times.",
+      "area_en": "8th Arr."
     },
     {
       "name": "Ground Control Paris",
@@ -1858,7 +1881,8 @@
       "bestTime": "Hafta sonu akşam",
       "bestTime_en": "Weekend evening",
       "tips": "Öğle yemeği menüleri genellikle akşamdan daha uygundur.",
-      "tips_en": "Lunch menus are usually cheaper than dinner."
+      "tips_en": "Lunch menus are usually cheaper than dinner.",
+      "area_en": "12th Arr."
     },
     {
       "id": "gen_ChIJgzMLXS5u5kcRFgBxs_LUwIo",
@@ -1906,12 +1930,13 @@
       "bestTime": "Akşam",
       "bestTime_en": "Evening",
       "tips": "Yerel halkın favori noktalarından biri.",
-      "tips_en": "One of the favorite spots of the locals."
+      "tips_en": "One of the favorite spots of the locals.",
+      "area_en": "2nd Arr."
     },
     {
       "name": "Holybelly 5",
       "area": "10. Bölge",
-      "category": "Cafe",
+      "category": "Kafe",
       "subcategory": "Cafe",
       "tags": [
         "kahvaltı",
@@ -1934,7 +1959,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/paris/holybelly_5.png",
       "tips": "Yerel halkın favori noktalarından biri.",
       "description_en": "Holybelly 5 is a popular spot in Paris located in 10. Bölge.",
-      "tips_en": "One of the favorite spots of the locals."
+      "tips_en": "One of the favorite spots of the locals.",
+      "area_en": "10th Arr."
     },
     {
       "name": "Hôtel de Ville",
@@ -1957,7 +1983,8 @@
       "bestTime": "Akşam",
       "bestTime_en": "Evening",
       "tips": "Rehbere soru sormaktan çekinmeyin, çok ilginç hikayeler biliyorlar.",
-      "tips_en": "Don't hesitate to ask the guide questions, they know interesting stories."
+      "tips_en": "Don't hesitate to ask the guide questions, they know interesting stories.",
+      "area_en": "4th Arr."
     },
     {
       "name": "Hôtel de la Marine",
@@ -2005,7 +2032,8 @@
       "bestTime": "Gün batımı",
       "bestTime_en": "Sunset",
       "tips": "Panoramik fotoğraf için geniş açı lensinizi hazırlayın.",
-      "tips_en": "Prepare your wide-angle lens for panoramic photos."
+      "tips_en": "Prepare your wide-angle lens for panoramic photos.",
+      "area_en": "15th Arr."
     },
     {
       "name": "Jardin des Plantes",
@@ -2029,7 +2057,8 @@
       "bestTime": "Gündüz",
       "bestTime_en": "Daytime",
       "tips": "Gün batımını izlemek için şehirdeki en iyi noktalardan biri.",
-      "tips_en": "One of the best spots in the city to watch the sunset."
+      "tips_en": "One of the best spots in the city to watch the sunset.",
+      "area_en": "5th Arr."
     },
     {
       "name": "Jardin du Luxembourg",
@@ -2051,7 +2080,8 @@
       "bestTime": "Öğleden sonra",
       "bestTime_en": "Afternoon",
       "tips": "Güneş kremi ve şapka almayı unutmayın.",
-      "tips_en": "Don't forget sunscreen and a hat."
+      "tips_en": "Don't forget sunscreen and a hat.",
+      "area_en": "6th Arr."
     },
     {
       "id": "gen_ChIJ4yj0zitt5kcRwQ2yV_JRt2A",
@@ -2080,7 +2110,7 @@
     {
       "id": "gen_ChIJJRxsq3Zx5kcRrs_c9aqsrFM",
       "name": "Juni Armenian Bakery",
-      "category": "Cafe",
+      "category": "Kafe",
       "area": "79 Rue Daguerre",
       "description": "Paris'nin popüler kafelerinden biri. Kahve tutkunları için mükemmel bir mola noktası, samimi atmosfer ve lezzetli atıştırmalıklar.",
       "description_en": "Armenian bakery with traditional pastries, breads and Middle Eastern flavors.",
@@ -2200,7 +2230,7 @@
     {
       "id": "gen_ChIJqzo6ZAtx5kcRmsSvv3wf0zU",
       "name": "LK Pâtisserie",
-      "category": "Cafe",
+      "category": "Kafe",
       "area": "10 Rue du Général-de-Castelnau",
       "description": "Paris'nin popüler kafelerinden biri. Kahve tutkunları için mükemmel bir mola noktası, samimi atmosfer ve lezzetli atıştırmalıklar.",
       "description_en": "Modern French patisserie with creative desserts and quality pastries.",
@@ -2365,7 +2395,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/paris/la_grande_mosquee_de_paris.jpg",
       "tips": "Grup indirimi olup olmadığını sorun.",
       "description_en": "La Grande Mosquée de Paris is a popular spot in Paris located in 5. Bölge.",
-      "tips_en": "Ask if there is a group discount."
+      "tips_en": "Ask if there is a group discount.",
+      "area_en": "5th Arr."
     },
     {
       "name": "La Petite Ceinture",
@@ -2481,7 +2512,8 @@
       "bestTime": "Sabah",
       "bestTime_en": "Morning",
       "tips": "Kıyafetinizin aktiviteye uygun olduğundan emin olun.",
-      "tips_en": "Ensure your outfit is suitable for the activity."
+      "tips_en": "Ensure your outfit is suitable for the activity.",
+      "area_en": "12th Arr."
     },
     {
       "name": "Ladurée",
@@ -2505,12 +2537,13 @@
       "bestTime": "Öğleden sonra",
       "bestTime_en": "Afternoon",
       "tips": "Nakite hazırlıklı olun, bazı yerel yerler kart kabul etmeyebilir.",
-      "tips_en": "Be prepared with cash, some local places might not accept cards."
+      "tips_en": "Be prepared with cash, some local places might not accept cards.",
+      "area_en": "8th Arr."
     },
     {
       "id": "gen_ChIJ61lSV9Nv5kcR3spSV7_Ojd4",
       "name": "Lam",
-      "category": "Cafe",
+      "category": "Kafe",
       "area": "24 Rue Notre Dame de Nazareth",
       "description": "Paris'nin popüler kafelerinden biri. Kahve tutkunları için mükemmel bir mola noktası, samimi atmosfer ve lezzetli atıştırmalıklar.",
       "description_en": "Contemporary Asian cuisine with refined presentation and quality ingredients.",
@@ -2552,7 +2585,8 @@
       "bestTime": "Akşam",
       "bestTime_en": "Evening",
       "tips": "Şefin spesiyal tabağını sormaktan çekinmeyin.",
-      "tips_en": "Don't hesitate to ask for the chef's special."
+      "tips_en": "Don't hesitate to ask for the chef's special.",
+      "area_en": "5th Arr."
     },
     {
       "id": "gen_ChIJU95Od_5t5kcRwESJ-OXqL7I",
@@ -2700,7 +2734,8 @@
       "bestTime": "Akşam",
       "bestTime_en": "Evening",
       "tips": "Rehbere soru sormaktan çekinmeyin, çok ilginç hikayeler biliyorlar.",
-      "tips_en": "Don't hesitate to ask the guide questions, they know interesting stories."
+      "tips_en": "Don't hesitate to ask the guide questions, they know interesting stories.",
+      "area_en": "10th Arr."
     },
     {
       "name": "Le Marais",
@@ -2722,12 +2757,13 @@
       "bestTime": "Öğleden sonra",
       "bestTime_en": "Afternoon",
       "tips": "Yapı içerisindeki akustik harika, sessizliği dinleyin.",
-      "tips_en": "The acoustics inside satisfy; listen to the silence."
+      "tips_en": "The acoustics inside satisfy; listen to the silence.",
+      "area_en": "3.-4. District"
     },
     {
       "id": "gen_ChIJOR8mLQBv5kcRg6ifx66Pc5c",
       "name": "Le Maung Coffee Roaster by OMG",
-      "category": "Cafe",
+      "category": "Kafe",
       "area": "51 Rue Greneta",
       "description": "Paris'nin popüler kafelerinden biri. Kahve tutkunları için mükemmel bir mola noktası, samimi atmosfer ve lezzetli atıştırmalıklar.",
       "description_en": "Specialty coffee roaster with quality beans and expert brewing techniques.",
@@ -2768,7 +2804,8 @@
       "bestTime": "Öğle yemeği",
       "bestTime_en": "Lunch",
       "tips": "Öğle yemeği menüleri genellikle akşamdan daha uygundur.",
-      "tips_en": "Lunch menus are usually cheaper than dinner."
+      "tips_en": "Lunch menus are usually cheaper than dinner.",
+      "area_en": "12th Arr."
     },
     {
       "id": "gen_ChIJQUA0uXNz5kcR2zbEG6ejGH8",
@@ -2838,12 +2875,13 @@
       "bestTime": "Sabah",
       "bestTime_en": "Morning",
       "tips": "Kıyafetinizin aktiviteye uygun olduğundan emin olun.",
-      "tips_en": "Ensure your outfit is suitable for the activity."
+      "tips_en": "Ensure your outfit is suitable for the activity.",
+      "area_en": "14th Arr."
     },
     {
       "name": "Les Deux Magots",
       "area": "Saint-Germain",
-      "category": "Cafe",
+      "category": "Kafe",
       "subcategory": "Cafe",
       "tags": [
         "tarihi",
@@ -2912,7 +2950,8 @@
       "bestTime": "Sabah",
       "bestTime_en": "Morning",
       "tips": "Çantanızı vestiyere bırakmanız gerekebilir, hazırlıklı olun.",
-      "tips_en": "You might need to leave bags at the cloakroom, be prepared."
+      "tips_en": "You might need to leave bags at the cloakroom, be prepared.",
+      "area_en": "7th Arr."
     },
     {
       "id": "gen_ChIJPft6gVZv5kcRtz0SWHW4VeU",
@@ -3031,7 +3070,8 @@
       "bestTime": "Çarşamba/Cuma akşamı",
       "bestTime_en": "Wednesday/Friday evening",
       "tips": "Çantanızı vestiyere bırakmanız gerekebilir, hazırlıklı olun.",
-      "tips_en": "You might need to leave bags at the cloakroom, be prepared."
+      "tips_en": "You might need to leave bags at the cloakroom, be prepared.",
+      "area_en": "1st Arr."
     },
     {
       "id": "gen_ChIJn1aMHgdu5kcRsJcQVAd-biM",
@@ -3103,7 +3143,8 @@
       "bestTime": "Gece",
       "bestTime_en": "Night",
       "tips": "Grup indirimi olup olmadığını sorun.",
-      "tips_en": "Ask if there is a group discount."
+      "tips_en": "Ask if there is a group discount.",
+      "area_en": "13th Arr."
     },
     {
       "name": "Marché aux Puces de Saint-Ouen",
@@ -3147,7 +3188,8 @@
       "bestTime": "Hafta sonu sabah",
       "bestTime_en": "Weekend morning",
       "tips": "Sabah erken saatlerde giderek turist kalabalığından kaçınabilirsiniz.",
-      "tips_en": "Go early in the morning to avoid tourist crowds."
+      "tips_en": "Go early in the morning to avoid tourist crowds.",
+      "area_en": "12th Arr."
     },
     {
       "name": "Marché des Enfants Rouges",
@@ -3201,7 +3243,7 @@
       "name": "Merci",
       "name_en": "Merci",
       "area": "Marais",
-      "category": "Cafe",
+      "category": "Kafe",
       "tags": [
         "konsept",
         "tasarım",
@@ -3360,7 +3402,8 @@
       "bestTime": "Gündüz",
       "bestTime_en": "Daytime",
       "tips": "Sesli rehber (audio guide) kiralamak deneyimi ikiye katlar.",
-      "tips_en": "Renting an audio guide doubles the experience."
+      "tips_en": "Renting an audio guide doubles the experience.",
+      "area_en": "8th Arr."
     },
     {
       "name": "Musée Nissim de Camondo",
@@ -3384,7 +3427,8 @@
       "bestTime": "Öğleden sonra",
       "bestTime_en": "Afternoon",
       "tips": "Hafta içi sabah saatleri en sakin zamanıdır.",
-      "tips_en": "Weekday mornings are the quietest times."
+      "tips_en": "Weekday mornings are the quietest times.",
+      "area_en": "8th Arr."
     },
     {
       "name": "Musée Rodin",
@@ -3406,7 +3450,8 @@
       "bestTime": "Öğleden sonra",
       "bestTime_en": "Afternoon",
       "tips": "Hafta içi sabah saatleri en sakin zamanıdır.",
-      "tips_en": "Weekday mornings are the quietest times."
+      "tips_en": "Weekday mornings are the quietest times.",
+      "area_en": "7th Arr."
     },
     {
       "name": "Musée d'Orsay",
@@ -3429,7 +3474,8 @@
       "bestTime": "Perşembe geç",
       "bestTime_en": "Thursday late",
       "tips": "Hafta içi sabah saatleri en sakin zamanıdır.",
-      "tips_en": "Weekday mornings are the quietest times."
+      "tips_en": "Weekday mornings are the quietest times.",
+      "area_en": "7th Arr."
     },
     {
       "name": "Musée de l'Orangerie",
@@ -3451,7 +3497,8 @@
       "bestTime": "Açılış saati",
       "bestTime_en": "Opening time",
       "tips": "Biletinizi online alarak gişe sırasından kurtulun.",
-      "tips_en": "Buy tickets online to skip the box office line."
+      "tips_en": "Buy tickets online to skip the box office line.",
+      "area_en": "1st Arr."
     },
     {
       "name": "Musée de la Vie Romantique",
@@ -3475,7 +3522,8 @@
       "bestTime": "Bahar",
       "bestTime_en": "Spring",
       "tips": "Çantanızı vestiyere bırakmanız gerekebilir, hazırlıklı olun.",
-      "tips_en": "You might need to leave bags at the cloakroom, be prepared."
+      "tips_en": "You might need to leave bags at the cloakroom, be prepared.",
+      "area_en": "9th Arr."
     },
     {
       "name": "Musée des Arts et Métiers",
@@ -3499,7 +3547,8 @@
       "bestTime": "Öğleden sonra",
       "bestTime_en": "Afternoon",
       "tips": "Hafta içi sabah saatleri en sakin zamanıdır.",
-      "tips_en": "Weekday mornings are the quietest times."
+      "tips_en": "Weekday mornings are the quietest times.",
+      "area_en": "3rd Arr."
     },
     {
       "name": "Musée du Quai Branly",
@@ -3523,7 +3572,8 @@
       "bestTime": "Öğleden sonra",
       "bestTime_en": "Afternoon",
       "tips": "Sesli rehber (audio guide) kiralamak deneyimi ikiye katlar.",
-      "tips_en": "Renting an audio guide doubles the experience."
+      "tips_en": "Renting an audio guide doubles the experience.",
+      "area_en": "7th Arr."
     },
     {
       "name": "Mémorial de la Shoah",
@@ -3692,7 +3742,8 @@
       "bestTime": "Öğle",
       "bestTime_en": "Noon",
       "tips": "Grup indirimi olup olmadığını sorun.",
-      "tips_en": "Ask if there is a group discount."
+      "tips_en": "Ask if there is a group discount.",
+      "area_en": "9th Arr."
     },
     {
       "id": "gen_ChIJ9fe5qYZv5kcRmU6zbLZxuEM",
@@ -3786,7 +3837,8 @@
       "bestTime": "Öğleden sonra",
       "bestTime_en": "Afternoon",
       "tips": "Rehberli turla gezmek detayları anlamak için çok daha verimli.",
-      "tips_en": "A guided tour is much more efficient to understand the details."
+      "tips_en": "A guided tour is much more efficient to understand the details.",
+      "area_en": "1st Arr."
     },
     {
       "name": "Panthéon",
@@ -3808,7 +3860,8 @@
       "bestTime": "Öğleden sonra",
       "bestTime_en": "Afternoon",
       "tips": "Fotoğraf makinenizin şarjının dolu olduğundan emin olun.",
-      "tips_en": "Make sure your camera battery is full."
+      "tips_en": "Make sure your camera battery is full.",
+      "area_en": "5th Arr."
     },
     {
       "name": "Parc Monceau",
@@ -3832,7 +3885,8 @@
       "bestTime": "Gündüz",
       "bestTime_en": "Daytime",
       "tips": "Yanınıza bir örtü alıp çimlerde piknik yapabilirsiniz.",
-      "tips_en": "Bring a blanket and have a picnic on the grass."
+      "tips_en": "Bring a blanket and have a picnic on the grass.",
+      "area_en": "8th Arr."
     },
     {
       "name": "Parc de la Villette",
@@ -3854,7 +3908,8 @@
       "bestTime": "Öğleden sonra",
       "bestTime_en": "Afternoon",
       "tips": "Gün batımını izlemek için şehirdeki en iyi noktalardan biri.",
-      "tips_en": "One of the best spots in the city to watch the sunset."
+      "tips_en": "One of the best spots in the city to watch the sunset.",
+      "area_en": "19th Arr."
     },
     {
       "name": "Passage de l'Ancre",
@@ -3878,7 +3933,8 @@
       "bestTime": "Gündüz",
       "bestTime_en": "Daytime",
       "tips": "Teleskop/dürbün varsa yanınıza alın.",
-      "tips_en": "Bring a telescope/binoculars if you have them."
+      "tips_en": "Bring a telescope/binoculars if you have them.",
+      "area_en": "3rd Arr."
     },
     {
       "name": "Passage des Panoramas",
@@ -3906,7 +3962,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/paris/passage_des_panoramas.jpg",
       "tips": "Akşam saatlerinde şehir ışıklarını izlemek çok romantik.",
       "description_en": "Passage des Panoramas is a popular spot in Paris located in 2. Bölge.",
-      "tips_en": "Watching city lights in the evening is very romantic."
+      "tips_en": "Watching city lights in the evening is very romantic.",
+      "area_en": "2nd Arr."
     },
     {
       "name": "Passages Couverts",
@@ -3928,7 +3985,8 @@
       "bestTime": "Yağmurlu gün",
       "bestTime_en": "Rainy day",
       "tips": "Kıyafetinizin aktiviteye uygun olduğundan emin olun.",
-      "tips_en": "Ensure your outfit is suitable for the activity."
+      "tips_en": "Ensure your outfit is suitable for the activity.",
+      "area_en": "2nd Arr."
     },
     {
       "id": "gen_ChIJ9fq2je1v5kcRZY-ReLUsuB8",
@@ -4000,7 +4058,8 @@
       "bestTime": "Öğle",
       "bestTime_en": "Noon",
       "tips": "Çantanızı vestiyere bırakmanız gerekebilir, hazırlıklı olun.",
-      "tips_en": "You might need to leave bags at the cloakroom, be prepared."
+      "tips_en": "You might need to leave bags at the cloakroom, be prepared.",
+      "area_en": "8th Arr."
     },
     {
       "id": "gen_ChIJp8ypkghy5kcRB-RvBC7_Lp8",
@@ -4100,7 +4159,8 @@
       "bestTime": "Akşam",
       "bestTime_en": "Evening",
       "tips": "Sabah erken saatlerde giderek turist kalabalığından kaçınabilirsiniz.",
-      "tips_en": "Go early in the morning to avoid tourist crowds."
+      "tips_en": "Go early in the morning to avoid tourist crowds.",
+      "area_en": "1st Arr."
     },
     {
       "name": "Place de la Bastille",
@@ -4124,7 +4184,8 @@
       "bestTime": "Gece",
       "bestTime_en": "Night",
       "tips": "Yapı içerisindeki akustik harika, sessizliği dinleyin.",
-      "tips_en": "The acoustics inside satisfy; listen to the silence."
+      "tips_en": "The acoustics inside satisfy; listen to the silence.",
+      "area_en": "11th Arr."
     },
     {
       "name": "Place des Vosges",
@@ -4146,7 +4207,8 @@
       "bestTime": "Öğleden sonra",
       "bestTime_en": "Afternoon",
       "tips": "Yanınıza bir örtü alıp çimlerde piknik yapabilirsiniz.",
-      "tips_en": "Bring a blanket and have a picnic on the grass."
+      "tips_en": "Bring a blanket and have a picnic on the grass.",
+      "area_en": "3rd Arr."
     },
     {
       "name": "Pont Alexandre III",
@@ -4168,7 +4230,8 @@
       "bestTime": "Gün batımı",
       "bestTime_en": "Sunset",
       "tips": "Grup indirimi olup olmadığını sorun.",
-      "tips_en": "Ask if there is a group discount."
+      "tips_en": "Ask if there is a group discount.",
+      "area_en": "8th Arr."
     },
     {
       "name": "Pont Marie",
@@ -4214,7 +4277,8 @@
       "bestTime": "Gün batımı",
       "bestTime_en": "Sunset",
       "tips": "Kıyafetinizin aktiviteye uygun olduğundan emin olun.",
-      "tips_en": "Ensure your outfit is suitable for the activity."
+      "tips_en": "Ensure your outfit is suitable for the activity.",
+      "area_en": "1st Arr."
     },
     {
       "name": "Pont des Arts",
@@ -4238,7 +4302,8 @@
       "bestTime": "Gün batımı",
       "bestTime_en": "Sunset",
       "tips": "Fotoğraf makinenizin şarjının dolu olduğundan emin olun.",
-      "tips_en": "Make sure your camera battery is full."
+      "tips_en": "Make sure your camera battery is full.",
+      "area_en": "6th Arr."
     },
     {
       "id": "gen_ChIJQWMQWb1x5kcRzAq5iLzUVB4",
@@ -4267,7 +4332,7 @@
     {
       "id": "gen_ChIJ1cO5hPJt5kcRqqtjKL7QfLY",
       "name": "Pâtisserie GINKO",
-      "category": "Cafe",
+      "category": "Kafe",
       "area": "33 Rue des Alouettes",
       "description": "Paris'nin popüler kafelerinden biri. Kahve tutkunları için mükemmel bir mola noktası, samimi atmosfer ve lezzetli atıştırmalıklar.",
       "description_en": "Japanese-inspired French patisserie with delicate and refined creations.",
@@ -4291,7 +4356,7 @@
     {
       "id": "gen_ChIJp2U5Z7pz5kcReKV-UJT8Pjg",
       "name": "Pâtisserie Mélilot",
-      "category": "Cafe",
+      "category": "Kafe",
       "area": "50 Rue de la Réunion",
       "description": "Paris'nin popüler kafelerinden biri. Kahve tutkunları için mükemmel bir mola noktası, samimi atmosfer ve lezzetli atıştırmalıklar.",
       "description_en": "Artisan patisserie with traditional French pastries and quality ingredients.",
@@ -4333,7 +4398,8 @@
       "bestTime": "Sabah",
       "bestTime_en": "Morning",
       "tips": "Fotoğraf makinenizin şarjının dolu olduğundan emin olun.",
-      "tips_en": "Make sure your camera battery is full."
+      "tips_en": "Make sure your camera battery is full.",
+      "area_en": "20th Arr."
     },
     {
       "id": "gen_ChIJn-70wudt5kcRnrnHlS22ofk",
@@ -4475,7 +4541,8 @@
       "bestTime": "Sabah",
       "bestTime_en": "Morning",
       "tips": "Sabah erken saatlerde giderek turist kalabalığından kaçınabilirsiniz.",
-      "tips_en": "Go early in the morning to avoid tourist crowds."
+      "tips_en": "Go early in the morning to avoid tourist crowds.",
+      "area_en": "12th Arr."
     },
     {
       "name": "Rue Montorgueil",
@@ -4497,7 +4564,8 @@
       "bestTime": "Sabah",
       "bestTime_en": "Morning",
       "tips": "Akşam yemeği için rezervasyon yaptırmak şart.",
-      "tips_en": "Reservation is a must for dinner."
+      "tips_en": "Reservation is a must for dinner.",
+      "area_en": "2nd Arr."
     },
     {
       "name": "Rue Mouffetard",
@@ -4614,7 +4682,8 @@
       "bestTime": "Gün batımı",
       "bestTime_en": "Sunset",
       "tips": "Fotoğraf çekimi için en iyi ışık gün batımına yakındır.",
-      "tips_en": "Best light for photography is near sunset."
+      "tips_en": "Best light for photography is near sunset.",
+      "area_en": "18th Arr."
     },
     {
       "id": "gen_ChIJf-oe7Wdu5kcRRto099RQ9Fc",
@@ -4643,7 +4712,7 @@
     {
       "id": "gen_ChIJDdZJgixt5kcRBVa3Q0CQdTc",
       "name": "Saint Barista Coffee",
-      "category": "Cafe",
+      "category": "Kafe",
       "area": "41 Rue Popincourt",
       "description": "Paris'nin popüler kafelerinden biri. Kahve tutkunları için mükemmel bir mola noktası, samimi atmosfer ve lezzetli atıştırmalıklar.",
       "description_en": "Specialty coffee with devotion to quality brewing and premium beans.",
@@ -4667,7 +4736,7 @@
     {
       "name": "Saint-Germain-des-Prés",
       "area": "6. Bölge",
-      "category": "Cafe",
+      "category": "Kafe",
       "tags": [
         "entelektüel",
         "kafe",
@@ -4684,7 +4753,8 @@
       "bestTime": "Sabah",
       "bestTime_en": "Morning",
       "tips": "Hafta içi ziyaret etmek daha sakin bir deneyim sunar.",
-      "tips_en": "Visiting on weekdays offers a calmer experience."
+      "tips_en": "Visiting on weekdays offers a calmer experience.",
+      "area_en": "6th Arr."
     },
     {
       "name": "Saint-Sulpice Church",
@@ -4708,7 +4778,8 @@
       "bestTime": "Gündüz",
       "bestTime_en": "Daytime",
       "tips": "Rehberli turla gezmek detayları anlamak için çok daha verimli.",
-      "tips_en": "A guided tour is much more efficient to understand the details."
+      "tips_en": "A guided tour is much more efficient to understand the details.",
+      "area_en": "6th Arr."
     },
     {
       "name": "Sainte-Chapelle",
@@ -4852,12 +4923,13 @@
       "bestTime": "Sabah",
       "bestTime_en": "Morning",
       "tips": "Rehbere soru sormaktan çekinmeyin, çok ilginç hikayeler biliyorlar.",
-      "tips_en": "Don't hesitate to ask the guide questions, they know interesting stories."
+      "tips_en": "Don't hesitate to ask the guide questions, they know interesting stories.",
+      "area_en": "5th Arr."
     },
     {
       "id": "gen_ChIJfYvffNRv5kcRKiBqfb0aXms",
       "name": "Shukery coffee & matcha",
-      "category": "Cafe",
+      "category": "Kafe",
       "area": "18 Av. de l'Opéra",
       "description": "Paris'nin popüler kafelerinden biri. Kahve tutkunları için mükemmel bir mola noktası, samimi atmosfer ve lezzetli atıştırmalıklar.",
       "description_en": "Japanese-inspired café specializing in quality matcha and coffee.",
@@ -5020,7 +5092,8 @@
       "bestTime": "Öğle veya Akşam",
       "bestTime_en": "Noon or Evening",
       "tips": "Rehbere soru sormaktan çekinmeyin, çok ilginç hikayeler biliyorlar.",
-      "tips_en": "Don't hesitate to ask the guide questions, they know interesting stories."
+      "tips_en": "Don't hesitate to ask the guide questions, they know interesting stories.",
+      "area_en": "13th Arr."
     },
     {
       "id": "gen_ChIJPb8X_9Bt5kcRQiEgbI3-NEs",
@@ -5049,7 +5122,7 @@
     {
       "id": "gen_ChIJ8yhUK1Zv5kcRBrhi_z2cVyA",
       "name": "Substance Café",
-      "category": "Cafe",
+      "category": "Kafe",
       "area": "30 Rue Dussoubs",
       "description": "Kahve gurmeleri için bir mabet. Ödüllü barista Joachim Morceau'nun elinden çıkan, rezervasyonla gidilen \"Omakase\" tarzı kahve deneyimi.",
       "description_en": "Chill coffee shop serving specialty coffees & espresso drinks in a petite space with a 16-seat bar.",
@@ -5097,7 +5170,7 @@
     {
       "id": "gen_ChIJw5mXY81v5kcRMyL4HR-ztk0",
       "name": "TYPICA SPECIALTY COFFEE",
-      "category": "Cafe",
+      "category": "Kafe",
       "area": "8 Rue des Filles du Calvaire",
       "description": "Paris'nin popüler kafelerinden biri. Kahve tutkunları için mükemmel bir mola noktası, samimi atmosfer ve lezzetli atıştırmalıklar.",
       "description_en": "Specialty coffee focusing on single-origin beans and meticulous brewing.",
@@ -5241,7 +5314,7 @@
     {
       "id": "gen_ChIJbVraPd5v5kcReFDX6KrIWuw",
       "name": "Torré Coffee Shop",
-      "category": "Cafe",
+      "category": "Kafe",
       "area": "15 Bd de la Tour-Maubourg",
       "description": "Paris'nin popüler kafelerinden biri. Kahve tutkunları için mükemmel bir mola noktası, samimi atmosfer ve lezzetli atıştırmalıklar.",
       "description_en": "Specialty coffee shop with focus on quality roasting and brewing.",
@@ -5283,7 +5356,8 @@
       "bestTime": "Gün batımı",
       "bestTime_en": "Sunset",
       "tips": "Rehbere soru sormaktan çekinmeyin, çok ilginç hikayeler biliyorlar.",
-      "tips_en": "Don't hesitate to ask the guide questions, they know interesting stories."
+      "tips_en": "Don't hesitate to ask the guide questions, they know interesting stories.",
+      "area_en": "15th Arr."
     },
     {
       "name": "Trocadéro",
@@ -5305,7 +5379,8 @@
       "bestTime": "Gün doğumu veya batımı",
       "bestTime_en": "Sunrise or sunset",
       "tips": "Rüzgarlı olabilir, yanınıza ince bir ceket alın.",
-      "tips_en": "It can be windy, bring a light jacket."
+      "tips_en": "It can be windy, bring a light jacket.",
+      "area_en": "16th Arr."
     },
     {
       "id": "gen_ChIJ063SfwBv5kcRI2GFuBZB4og",
@@ -5478,7 +5553,7 @@
     {
       "id": "gen_ChIJr7w4RG1x5kcRzChGP4H0Lus",
       "name": "Wonderland Patisserie",
-      "category": "Cafe",
+      "category": "Kafe",
       "area": "208 Av. du Maine",
       "description": "Paris'nin popüler kafelerinden biri. Kahve tutkunları için mükemmel bir mola noktası, samimi atmosfer ve lezzetli atıştırmalıklar.",
       "description_en": "Whimsical patisserie inspired by Alice in Wonderland with creative pastries.",
@@ -5519,7 +5594,8 @@
       "bestTime": "Öğleden sonra",
       "bestTime_en": "Afternoon",
       "tips": "Güneş kremi ve şapka almayı unutmayın.",
-      "tips_en": "Don't forget sunscreen and a hat."
+      "tips_en": "Don't forget sunscreen and a hat.",
+      "area_en": "4th Arr."
     },
     {
       "name": "Île aux Cygnes",
@@ -5543,7 +5619,8 @@
       "bestTime": "Gün batımı",
       "bestTime_en": "Sunset",
       "tips": "Gün doğumu burada büyüleyicidir, uykunuzdan feragat etmeye değer.",
-      "tips_en": "Sunrise is magical here, worth sacrificing sleep."
+      "tips_en": "Sunrise is magical here, worth sacrificing sleep.",
+      "area_en": "15th Arr."
     }
   ]
 }
