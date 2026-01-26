@@ -131,7 +131,7 @@ class BadgeService {
       CityBadge(id: 'marakes', name: 'Marakeş', subtitle: 'Minaret', icon: Icons.mosque, color: const Color(0xFFFF8C00)),
       CityBadge(id: 'marsilya', name: 'Marsilya', subtitle: 'Port', icon: Icons.anchor, color: const Color(0xFF4682B4)),
       CityBadge(id: 'matera', name: 'Matera', subtitle: 'Sassi', icon: Icons.home, color: const Color(0xFFDAA520)),
-      CityBadge(id: 'midilli', name: 'Midilli', subtitle: 'Harbor', icon: Icons.anchor, color: const Color(0xFF4169E1)),
+
       CityBadge(id: 'milano', name: 'Milano', subtitle: 'Duomo', icon: Icons.church, color: const Color(0xFFFF6347)),
       CityBadge(id: 'napoli', name: 'Napoli', subtitle: 'Vesuvius', icon: Icons.volcano, color: const Color(0xFFD2691E)),
       CityBadge(id: 'newyork', name: 'New York', subtitle: 'Skyline', icon: Icons.location_city, color: const Color(0xFF00CED1)),

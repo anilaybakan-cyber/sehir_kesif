@@ -49,7 +49,7 @@ class CityDataLoader {
     'saraybosna',
     'mostar',
     'strazburg',
-    'midilli',
+
     'antalya',
     'matera',
     'colmar',
@@ -186,9 +186,7 @@ class CityDataLoader {
       'hongkong': 'hongkong',
       'Cappadocia': 'kapadokya',
       'cappadocia': 'kapadokya',
-      'Midilli': 'midilli',
-      'Lesvos': 'midilli',
-      'Mytilene': 'midilli',
+
       'Brüksel': 'bruksel',
       'brüksel': 'bruksel',
       'Brussels': 'bruksel',

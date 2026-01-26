@@ -61,7 +61,7 @@ class CitySwitcherScreen extends StatefulWidget {
     {"id": "madrid", "name": "Madrid", "name_en": "Madrid", "country": "İspanya", "country_en": "Spain", "flag": "🇪🇸", "networkImage": "https://images.unsplash.com/photo-1539037116277-4db20889f2d4?w=800"},
     {"id": "marakes", "name": "Marakeş", "name_en": "Marrakech", "country": "Fas", "country_en": "Morocco", "flag": "🇲🇦", "networkImage": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/marakes/jemaa_el_fna.jpg"},
     {"id": "marsilya", "name": "Marsilya", "name_en": "Marseille", "country": "Fransa", "country_en": "France", "flag": "🇫🇷", "networkImage": "https://images.contentstack.io/v3/assets/blt06f605a34f1194ff/blt0feb4d48a3fc134c/67c5fafa304ea9666082ff3e/iStock-956215674-2-Header_Mobile.jpg?fit=crop&disable=upscale&auto=webp&quality=60&crop=smart"},
-    {"id": "midilli", "name": "Midilli", "name_en": "Mytilene", "country": "Yunanistan", "country_en": "Greece", "flag": "🇬🇷", "networkImage": "https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?w=800"},
+
     {"id": "milano", "name": "Milano", "name_en": "Milan", "country": "İtalya", "country_en": "Italy", "flag": "🇮🇹", "networkImage": "https://images.unsplash.com/photo-1520440229-6469a149ac59?w=800"},
     {"id": "napoli", "name": "Napoli", "name_en": "Naples", "country": "İtalya", "country_en": "Italy", "flag": "🇮🇹", "networkImage": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?w=800"},
     {"id": "newyork", "name": "New York", "name_en": "New York", "country": "ABD", "country_en": "USA", "flag": "🇺🇸", "networkImage": "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?w=800"},

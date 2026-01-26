@@ -4920,28 +4920,6 @@ class CuratedRoutesService {
         difficulty: isEnglish ? "Easy" : "Kolay",
         imageUrl: "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/midilli/molyvos_mithymna.jpg",
         tags: [isEnglish ? "Castle" : "Kale", isEnglish ? "Village" : "Köy", isEnglish ? "Views" : "Manzara"],
-        placeNames: ["Molyvos Castle", "Mithymna Old Town", "Women's Cooperative of Petra", "Panagia Glykofilousa", "Eftalou Hot Springs"],
-        interests: ["Tarih", "Manzara", "Alışveriş"],
-        accentColor: WanderlustColors.accent,
-        icon: Icons.fort,
-      ),
-      CuratedRoute(
-        id: "les_capital",
-        name: isEnglish ? "Mytilene Capital" : "Midilli Merkez",
-        description: isEnglish 
-          ? "City highlights: Castle, waterfront corniche and shopping"
-          : "Şehir merkezi: Kale, sahil kordonu ve alışveriş.",
-        duration: isEnglish ? "3 hours" : "3 saat",
-        distance: "3 km",
-        difficulty: isEnglish ? "Easy" : "Kolay",
-        imageUrl: "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/midilli/midilli_kalesi_mytilene_castle.jpg",
-        tags: [isEnglish ? "Capital" : "Merkez", isEnglish ? "Castle" : "Kale", isEnglish ? "City" : "Şehir"],
-        placeNames: ["Mytilene Castle", "Ermou Street", "Agios Therapon Church", "Yeni Camii", "Museum of Industrial Olive-Oil Production"],
-        interests: ["Kültür", "Alışveriş", "Tarih"],
-        accentColor: const Color(0xFF3498DB),
-        icon: Icons.location_city,
-      ),
-    ];
   }
 
   // ═══════════════════════════════════════════════════════════════════════════

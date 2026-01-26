@@ -113,9 +113,7 @@ class CityBlogContent {
         return isEnglish ? _kapadokyaEN : _kapadokyaTR;
       case 'gaziantep':
         return isEnglish ? _gaziantepEN : _gaziantepTR;
-      case 'midilli':
-      case 'lesvos':
-        return isEnglish ? _midilliEN : _midilliTR;
+
       case 'belgrad':
       case 'belgrade':
         return isEnglish ? _belgradEN : _belgradTR;
@@ -2638,54 +2636,7 @@ A UNESCO Creative City of Gastronomy, Gaziantep is not just about food; it's a c
 - **Spice Shopping:** Don't leave without buying red pepper flakes, dried eggplants, and Antep pistachios. [Almacı Market](search:Almaci Pazari) is the place to go.
 - **Stomach Capacity:** Go on a diet before you come, because stopping eating here is impossible!''';
 
-  // MIDILLI
-  static const _midilliTR = '''# Midilli (Lesvos) Rehberi: Ege'nin Huzurlu Adası 🇬🇷
 
-Ayvalık'ın hemen karşısında, zeytin ağaçları, uzo fabrikaları ve bozulmamış köyleriyle Midilli; gerçek Yunan adası ruhunu yaşatan, sakin ve lezzetli bir kaçış noktasıdır.
-
-## 📅 Ne Zaman Gidilir?
-- **Yaz:** Deniz keyfi için harikadır ama ada büyük olduğu için kalabalığı hissetmezsiniz.
-- **Eylül:** En güzel zaman. Deniz suyu sıcak, hava yumuşak ve hasat zamanı yaklaşmıştır.
-
-## 🏘️ Köy Rehberi
-- **Mytilene (Merkez):** Adanın başkenti. Heybetli kalesi, Ermou caddesi ve limanıyla hareketlidir.
-- **Molivos (Mithymna):** Adanın en kartpostallık köyü. Tepedeki kalesinden aşağıya sarkan taş evleri ve mor salkımlı sokaklarıyla büyüleyicidir.
-- **Plomari:** Uzonun başkenti. Dar sokakları ve eski uzo fabrikalarıyla meşhurdur.
-- **Agiasos:** Dağ köyü. Yemyeşil doğası, kestane ormanları ve el sanatları ile ünlüdür.
-
-## 🍽️ Ne Yenir ve İçilir?
-- **Sardalya:** Kalloni körfezinden çıkan sardalyalar dünyaca meşhurdur. Tuzlanmış veya ızgara, mutlaka deneyin.
-- **Uzo:** Adada üretilen (Barbayanni, Plomari vb.) uzoların tadına yerinde bakın.
-- **Kabak Çiçeği Peynirli:** Kızarmış kabak çiçeği dolması burada bir sanattır.
-
-## 💎 Lokal Sırlar & İpuçları
-- **[Taşlaşmış Orman](search:Petrified Forest of Lesbos):** Sigri tarafındaki bu UNESCO jeoparkı, milyonlarca yıl öncesine ait fosilleşmiş ağaçlarla doludur; dünyada ender görülür.
-- **Araba Kiralama:** Ada çok büyüktür. Köyleri ve plajları keşfetmek için mutlaka araba kiralayın.
-- **Kapı Vizesi:** Türk vatandaşları için dönemsel kapı vizesi uygulamalarını kontrol edin, feribotla geçiş çok kolaydır.''';
-
-  static const _midilliEN = '''# Lesvos (Mytilene) Guide: The Peaceful Aegean Spirit 🇬🇷
-
-Just across from Ayvalık, filled with olive groves, ouzo distilleries, and unspoiled villages, Lesvos offers an authentic, quiet, and delicious Greek island escape.
-
-## 📅 Best Time to Visit
-- **Summer:** Great for beaches, and since the island is huge, it never feels overcrowded.
-- **September:** The best month. The sea is warm, the air is mild, and the harvest season approaches.
-
-## 🏘️ Village Guide
-- **Mytilene (Center):** The capital. Lively with its imposing castle, Ermou street, and bustling harbor.
-- **Molivos (Mithymna):** The most picturesque village. Stone houses cascading down from the castle and streets covered in wisteria.
-- **Plomari:** The capital of Ouzo. Famous for its narrow streets and historic distilleries.
-- **Agiasos:** A mountain village known for its lush greenery, chestnut forests, and handicrafts.
-
-## 🍽️ Food & Drink
-- **Sardines:** Sardines from the Gulf of Kalloni are world-famous. Try them salted or grilled—they are exquisite.
-- **Ouzo:** Taste the local brands (Barbayanni, Plomari) right at the source.
-- **Stuffed Zucchini Flowers:** Fried cheese-stuffed zucchini flowers are an art form here.
-
-## 💎 Local Secrets & Insights
-- **[Petrified Forest](search:Petrified Forest of Lesbos):** This UNESCO Geopark near Sigri is full of fossilized trees from millions of years ago—a rare natural phenomenon.
-- **Rent a Car:** The island is massive. You absolutely need a car to explore the scattered villages and beaches.
-- **Ferry:** It's easily accessible by a short ferry ride from the Turkish coast.''';
 
 
   // BELGRAD

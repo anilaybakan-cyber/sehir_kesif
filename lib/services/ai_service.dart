@@ -56,7 +56,7 @@ class AIService {
     'saraybosna': 'https://images.unsplash.com/photo-1596715694269-80838637ba76?w=800',
     'mostar': 'https://images.unsplash.com/photo-1605198089408-0138977114b0?w=800',
     'strazburg': 'https://www.avruparuyasi.com.tr/uploads/tour-gallery/36c44666-5e5a-4c2d-a341-2fa8285c3fb6.webp',
-    'midilli': 'https://www.talyatur.com/images/tour/115540_b.jpg',
+
     'antalya': 'https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/kaleici.jpg',
     'edinburgh': 'https://images.contentstack.io/v3/assets/blt06f605a34f1194ff/blt9d8daa2acc7bb33c/6797dc563b4101992b03092a/iStock-1153650218-MOBILE-HEADER.jpg?fit=crop&disable=upscale&auto=webp&quality=60&crop=smart',
     'belgrad': 'https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/belgrad/belgrad_kalesi_kalemegdan.jpg',
@@ -109,7 +109,7 @@ class AIService {
     if (normalized == 'seville') lookupId = 'sevilla';
     if (normalized == 'strasbourg') lookupId = 'strazburg';
     if (normalized == 'cairo') lookupId = 'kahire';
-    if (normalized == 'lesvos') lookupId = 'midilli';
+
     if (normalized == 'cappadocia') lookupId = 'kapadokya';
     if (normalized == 'belgrade') lookupId = 'belgrad';
 
@@ -1945,11 +1945,6 @@ class AIService {
         'city': 'Fes',
         'subtitle': isEnglish ? 'Ancient Medina' : 'Antik Medina',
         'imageUrl': getCityImage('fes'),
-      },
-      {
-        'city': isEnglish ? 'Lesvos' : 'Midilli',
-        'subtitle': isEnglish ? 'Aegean Spirit' : 'Ege Ruhu',
-        'imageUrl': getCityImage('midilli'),
       },
     ];
   }
