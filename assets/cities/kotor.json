@@ -239,7 +239,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Öğle yemeği menüleri genellikle akşamdan daha uygundur.",
       "tips_en": "Lunch menus are usually cheaper than dinner.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Bastion Restaurant"
     },
     {
       "name": "Bay of Kotor Boat Tour",
@@ -985,7 +986,8 @@
       "id": "church-of-st-anne",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kotor/church-of-st-anne.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Church of St. Luke"
     },
     {
       "name": "Church of the Nativity of the Virgin",
@@ -4691,7 +4693,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Rehberli turla gezmek detayları anlamak için çok daha verimli.",
       "tips_en": "A guided tour is much more efficient to understand the details.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "North Gate"
     },
     {
       "name": "Roman Mosaics",

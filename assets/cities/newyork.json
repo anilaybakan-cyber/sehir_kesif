@@ -20,7 +20,7 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/newyork/ess_a_bagel.jpg",
       "location": "831 3rd Ave, New York, NY 10022",
       "lat": 40.7595,
-      "lng": -73.9680,
+      "lng": -73.968,
       "rating": 4.6,
       "price": "medium",
       "tags": [
@@ -40,7 +40,7 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/newyork/juniors.jpg",
       "location": "1515 Broadway, New York, NY 10036",
       "lat": 40.7585,
-      "lng": -73.9860,
+      "lng": -73.986,
       "rating": 4.5,
       "price": "medium",
       "tags": [
@@ -449,7 +449,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/newyork/blue_note_jazz_club.jpg",
       "bestTime": "Gece konseri",
       "tips": "Yerel şarapları denemenizi öneririz.",
-      "tips_en": "We recommend trying local wines."
+      "tips_en": "We recommend trying local wines.",
+      "name_en": "Blue Note"
     },
     {
       "id": "gen_ChIJzffnTxpbwokRWBCUpZ5YdvQ",
@@ -1836,7 +1837,8 @@
       "bestTime": "Hafta içi sabah",
       "bestTime_en": "Weekday morning",
       "tips": "Sesli rehber (audio guide) kiralamak deneyimi ikiye katlar.",
-      "tips_en": "Renting an audio guide doubles the experience."
+      "tips_en": "Renting an audio guide doubles the experience.",
+      "name_en": "Guggenheim"
     },
     {
       "name": "Harlem",

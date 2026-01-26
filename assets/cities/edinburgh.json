@@ -1059,7 +1059,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/edinburgh_kalesi.jpg",
       "tips": "Yapı içerisindeki akustik harika, sessizliği dinleyin.",
       "description_en": "Edinburgh Kalesi is a highlight of Edinburgh in the Old Town area.",
-      "tips_en": "The acoustics inside satisfy; listen to the silence."
+      "tips_en": "The acoustics inside satisfy; listen to the silence.",
+      "name_en": "Edinburgh Castle"
     },
     {
       "name": "Edinburgh Playhouse",
@@ -1574,7 +1575,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/holyrood_sarayi.jpg",
       "tips": "Fotoğraf çekimi için en iyi ışık gün batımına yakındır.",
       "description_en": "Holyrood Sarayı is a highlight of Edinburgh in the Canongate area.",
-      "tips_en": "Best light for photography is near sunset."
+      "tips_en": "Best light for photography is near sunset.",
+      "name_en": "Holyrood Park"
     },
     {
       "name": "Hopetoun House",
@@ -2462,7 +2464,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/royal_mile.jpg",
       "tips": "Kıyafetinizin aktiviteye uygun olduğundan emin olun.",
       "description_en": "Royal Mile is a highlight of Edinburgh in the Old Town area.",
-      "tips_en": "Ensure your outfit is suitable for the activity."
+      "tips_en": "Ensure your outfit is suitable for the activity.",
+      "name_en": "The Royal Mile"
     },
     {
       "name": "Royal Yacht Britannia",
@@ -2823,7 +2826,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/st_giles_katedrali.jpg",
       "tips": "Rehberli turla gezmek detayları anlamak için çok daha verimli.",
       "description_en": "St Giles Katedrali is a highlight of Edinburgh in the Royal Mile area.",
-      "tips_en": "A guided tour is much more efficient to understand the details."
+      "tips_en": "A guided tour is much more efficient to understand the details.",
+      "name_en": "St Giles' Cathedral"
     },
     {
       "name": "St Mary's Episcopal Cathedral",
@@ -2973,7 +2977,8 @@
       "tips": "Buradan tepelere doğru yürüyüşe başlayabilirsiniz.",
       "tips_en": "You can start your hike towards the hills from here.",
       "id": "swanston-village",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Duddingston Village"
     },
     {
       "name": "Talbot Rice Gallery",
@@ -3486,7 +3491,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/the_real_mary_kings_close.jpg",
       "tips": "Rehberli turla gezmek detayları anlamak için çok daha verimli.",
       "description_en": "The Real Mary King's Close is a highlight of Edinburgh in the Royal Mile area.",
-      "tips_en": "A guided tour is much more efficient to understand the details."
+      "tips_en": "A guided tour is much more efficient to understand the details.",
+      "name_en": "Mary King's Close"
     },
     {
       "name": "The Roseleaf",
@@ -3591,7 +3597,8 @@
       "id": "the-sheep-heid-inn",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/the-sheep-heid-inn.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Sheep Heid Inn (Pub)"
     },
     {
       "name": "The Stand Comedy Club",

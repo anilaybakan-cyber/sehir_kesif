@@ -2826,7 +2826,8 @@
       "price": "low",
       "tips": "Gelecek Noel için teslim edilmek üzere kart atabilirsiniz.",
       "tips_en": "You can send a card to be delivered for next Christmas.",
-      "subcategory": "Postane"
+      "subcategory": "Postane",
+      "name_en": "Santa's Main Post Office"
     },
     {
       "id": "santa-claus-office",
@@ -2986,7 +2987,8 @@
       "price": "medium",
       "tips": "Menüde sadece somon ve patates salatası vardır ama dünyanın en iyisidir.",
       "tips_en": "Menu only maintains salmon and potato salad but it's the best in the world.",
-      "subcategory": "Yerel"
+      "subcategory": "Yerel",
+      "name_en": "Santa's Salmon Place (Food)"
     },
     {
       "name": "SantaPark",

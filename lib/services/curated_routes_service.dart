@@ -296,7 +296,14 @@ class CuratedRoutesService {
     final enrichedRoutes = <CuratedRoute>[];
 
     // Mekanları hızlı bulmak için Map yapısı
-    final highlightsMap = {for (var h in allHighlights) h.name: h};
+    // Mekanları hızlı bulmak için Map yapısı
+    final highlightsMap = <String, Highlight>{};
+    for (var h in allHighlights) {
+      highlightsMap[h.name] = h;
+      if (h.nameEn != null && h.nameEn!.isNotEmpty) {
+        highlightsMap[h.nameEn!] = h;
+      }
+    }
 
     for (var route in allRoutesResult) {
       // Eğer görseli varsa ve geçerli bir URL ise dokunma
