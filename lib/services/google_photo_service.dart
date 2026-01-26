@@ -2,7 +2,7 @@ import 'dart:convert';
 import 'package:http/http.dart' as http;
 
 class GooglePhotoService {
-  static const apiKey = "AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0";
+  static const apiKey = "AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g";
 
   // Mekan ID bul (name + city)
   static Future<String?> searchPlaceId(String name, String city) async {

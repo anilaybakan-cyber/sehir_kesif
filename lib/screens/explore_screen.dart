@@ -29,9 +29,13 @@ import 'ai_chat_screen.dart';
 import '../models/chat_message.dart';
 import 'paywall_screen.dart';
 import '../services/premium_service.dart';
+import 'package:tutorial_coach_mark/tutorial_coach_mark.dart';
+import '../services/tutorial_service.dart';
+import '../widgets/tutorial_overlay_widget.dart';
 
 class ExploreScreen extends StatefulWidget {
-  const ExploreScreen({super.key});
+  final bool isVisible;
+  const ExploreScreen({super.key, this.isVisible = false});
 
   @override
   State<ExploreScreen> createState() => _ExploreScreenState();
@@ -71,7 +75,7 @@ class _ExploreScreenState extends State<ExploreScreen>
   bool _loading = true;
   bool _aiLoading = false;
   String? _error;
-  String _userName = "Gezgin";
+  String _userName = "";
   String _currentCityId = ""; // Mevcut şehir ID'si
   bool _showScrollToTop = false; // Scroll-to-top butonu görünürlüğü
 
@@ -81,8 +85,9 @@ class _ExploreScreenState extends State<ExploreScreen>
   String? _aiChatResponse; // Kişiselleştirilmiş AI yanıtı
   bool _aiCardExpanded = true; // AI kartı açık/kapalı
 
-  // Şehir bazlı AI yanıt cache'i
-  final Map<String, String> _aiChatCache = {};
+  // Şehir bazlı AI yanıt cache'i (eski içerik saklanır, dil değişince çevrilir)
+  // Key: cityId, Value: { "content": String, "isEnglish": bool }
+  static final Map<String, Map<String, dynamic>> _aiChatCache = {};
 
   List<String> _favorites = [];
   List<String> _tripPlaces = [];
@@ -99,86 +104,34 @@ class _ExploreScreenState extends State<ExploreScreen>
 
   final TextEditingController _searchController = TextEditingController();
   final ScrollController _scrollController = ScrollController();
+  bool get isEnglish => AppLocalizations.instance.isEnglish;
 
-  // Şehir görselleri - Tüm şehirler
-  final Map<String, String> _cityImages = {
-    'amsterdam': 'https://images.unsplash.com/photo-1534351590666-13e3e96b5017?w=800',
-    'atina': 'https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/atina/akropolis.jpg',
-    'bangkok': 'https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bangkok/grand_palace.jpg',
-    'barcelona': 'https://images.unsplash.com/photo-1583422409516-2895a77efded?w=800',
-    'berlin': 'https://images.unsplash.com/photo-1560969184-10fe8719e047?w=800',
-    'budapeste': 'https://images.contentstack.io/v3/assets/blt06f605a34f1194ff/bltfde92aef92ecf073/6787eae0bf32fe28813c50fe/BCC-2024-EXPLORER-BUDAPEST-LANDMARKS-HEADER-_MOBILE.jpg?fit=crop&disable=upscale&auto=webp&quality=60&crop=smart',
-    'cenevre': 'https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/cenevre/jet_deau.jpg',
-    'dubai': 'https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=800',
-    'dublin': 'https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/dublin/temple_bar.jpg',
-    'floransa': 'https://italien.expert/wp-content/uploads/2021/05/Florenz-Toskana-Italien0.jpg',
-    'hongkong': 'https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/hongkong/victoria_peak.jpg',
-    'istanbul': 'https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?w=800',
-    'kopenhag': 'https://images.unsplash.com/photo-1513622470522-26c3c8a854bc?w=800',
-    'lizbon': 'https://images.unsplash.com/photo-1585208798174-6cedd86e019a?w=800',
-    'londra': 'https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=800',
-    'lucerne': 'https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/lucerne/chapel_bridge_kapellbrucke.jpg',
-    'lyon': 'https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/lyon/basilica_of_notre_dame_de_fourviere.jpg',
-    'madrid': 'https://images.unsplash.com/photo-1539037116277-4db20889f2d4?w=800',
-    'marakes': 'https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/marakes/jemaa_el_fna.jpg',
-    'marsilya': 'https://images.contentstack.io/v3/assets/blt06f605a34f1194ff/blt0feb4d48a3fc134c/67c5fafa304ea9666082ff3e/iStock-956215674-2-Header_Mobile.jpg?fit=crop&disable=upscale&auto=webp&quality=60&crop=smart',
-    'milano': 'https://images.unsplash.com/photo-1520440229-6469a149ac59?w=800',
-    'napoli': 'https://images.unsplash.com/photo-1516483638261-f4dbaf036963?w=800',
-    'newyork': 'https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?w=800',
-    'nice': 'https://www.flypgs.com/blog/wp-content/uploads/2024/05/nice-sahilleri.jpeg',
-    'paris': 'https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=800',
-    'porto': 'https://images.unsplash.com/photo-1555881400-74d7acaacd8b?w=800',
-    'prag': 'https://images.unsplash.com/photo-1541849546-216549ae216d?w=800',
-    'roma': 'https://images.unsplash.com/photo-1552832230-c0197dd311b5?w=800',
-    'seul': 'https://www.agoda.com/wp-content/uploads/2019/03/Seoul-attractions-Gyeongbokgung-palace.jpg',
-    'sevilla': 'https://images.unsplash.com/photo-1558370781-d6196949e317?w=800',
-    'singapur': 'https://images.unsplash.com/photo-1525625293386-3f8f99389edd?w=800',
-    'stockholm': 'https://images.unsplash.com/photo-1509356843151-3e7d96241e11?w=800',
-    'tokyo': 'https://img.piri.net/mnresize/900/-/resim/imagecrop/2023/01/17/11/54/resized_d9b02-8b17feafkapak2.jpg',
-    'venedik': 'https://images.unsplash.com/photo-1514890547357-a9ee288728e0?w=800',
-    'viyana': 'https://images.unsplash.com/photo-1516550893923-42d28e5677af?w=800',
-    'zurih': 'https://images.unsplash.com/photo-1515488764276-beab7607c1e6?w=800',
-    'fes': 'https://images.unsplash.com/photo-1548013146-72479768bada?w=800', // Fes Tanning
-    'safsavan': 'https://images.unsplash.com/photo-1558258695-0e4284b3975d?w=800', // Chefchaouen blue
-    'kahire': 'https://images.unsplash.com/photo-1572252009289-9ef997e21242?w=800', // Pyramids
-    'kopenhag': 'https://images.unsplash.com/photo-1513622470522-26c3c8a854bc?w=800', // Nyhavn
-    'stockholm': 'https://images.unsplash.com/photo-1509356843151-3e7d96241e11?w=800', // Gamla Stan
-    'saraybosna': 'https://images.unsplash.com/photo-1596715694269-80838637ba76?w=800', // Sarajevo
-    'mostar': 'https://images.unsplash.com/photo-1605198089408-0138977114b0?w=800', // Mostar Bridge
-    'strazburg': 'https://images.unsplash.com/photo-1549144511-6099e7dab944?w=800', // Strasbourg
-    'midilli': 'https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?w=800', // Generic Greece/Sea
-    'antalya': 'https://images.unsplash.com/photo-1542051841857-5f90071e7989?w=800', // Antalya/Turkey
-    'edinburgh': 'https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?w=800',
-    'belgrad': 'https://images.unsplash.com/photo-1563214532-6a84c3116972?w=800', // Belgrade
-    'kotor': 'https://images.unsplash.com/photo-1565620958742-832746497241?w=800', // Kotor
-    'tiran': 'https://images.unsplash.com/photo-1599593442654-e1b088b7538c?w=800', // Tirana
-    'selanik': 'https://images.unsplash.com/photo-1562608460-f97577579893?w=800', // Thessaloniki
-    'kapadokya': 'https://images.unsplash.com/photo-1641128324972-af3212f0f6bd?w=800', // Cappadocia
-    // New Featured Cities
-    'rovaniemi': 'https://www.visitfinland.com/dam/jcr:70734834-7ba2-4bf1-9f6e-bf185e014367/central-plaza-santa-claus-village-rovaniemi-lapland-finland%20(1).jpg',
-    'tromso': 'https://www.flightgift.com/media/wp/FG/2024/02/tromso.webp',
-    'zermatt': 'https://holidaystoswitzerland.com/wp-content/uploads/2020/07/Zermatt-and-the-Matterhorn-at-dawn.jpg',
-    'matera': 'https://ita.travel/user/blogimg/ostatni/aerial-view_matera_sunset.jpg',
-    'giethoorn': 'https://www.onedayinacity.com/wp-content/uploads/2021/03/Giethoorn-Village.png',
-    'colmar': 'https://images.goway.com/production/hero/iStock-1423136049.jpg',
-    'sintra': 'https://images.contentstack.io/v3/assets/blt06f605a34f1194ff/blt75a384a61f2efa5b/68848225e7cb649650cc2d81/BCC-2024-EXPLORER-SINTRA-BEST_PLACES_TO_VISIT-HEADER-MOBILE.jpg?format=webp&auto=avif&quality=60&crop=16%3A9&width=1440',
-    'sansebastian': 'https://cdn.bunniktours.com.au/public/posts/images/Europe/Blog%20Header%20-%20Spain%20-%20San%20Sebastian%20-%20credit%20Raul%20Cacho%20Oses%20%28Unsplash%29-feature.jpg',
-    'bologna': 'https://www.datocms-assets.com/57243/1661342703-6245af628d40974c9ab5a7fd_petr-slovacek-sxk8bwkvoxe-unsplash-20-1.jpg?auto=compress%2Cformat',
-    'gaziantep': 'https://www.brandlifemag.com/wp-content/uploads/2021/04/acilis-gaziantep-december-06gaziantep-coppersmith-bazaar-600w-549044518.jpg',
-    'brugge': 'https://gezimanya.com/sites/default/files/styles/800x600_/public/lokasyon-detay/2021-08/brugge-hakkinda-bilinmesi-gerekenler.jpg',
-    'santorini': 'https://www.kucukoteller.com.tr/storage/images/2024/07/14/5e7eaf11eb5ec2dda2f7a602232faa8961347f29.webp',
-    'heidelberg': 'https://image.hurimg.com/i/hurriyet/90/1110x740/56b3325818c7730e3cdb6757.jpg',
-  };
+  // Keys for Tutorial
+  // Keys for Tutorial
+  final GlobalKey _citySelectKey = GlobalKey();
+  final GlobalKey _askAiKey = GlobalKey();
+  final GlobalKey _moodSelectionKey = GlobalKey();
+  final GlobalKey _aiFabKey = GlobalKey(); // FAB Tutorial Key
+  
+  // Tutorial State
+  bool _pendingCityTutorial = false;
+  bool _isCityTutorialShowing = false;
+  bool _isFabTutorialShown = false;
+  bool _isMoodTutorialShown = false;
+  bool _isAITutorialShown = false;
+
+
+  // Şehir görselleri - Artık AIService üzerinden merkezi olarak yönetiliyor
 
   List<Map<String, dynamic>> get _categories => [
     {"id": "Tümü", "label": AppLocalizations.instance.allCategories},
-    {"id": "Restoran", "label": AppLocalizations.instance.restaurant},
+    {"id": "Yeme-İçme", "label": "Yeme-İçme"}, // Restoran yerine Yeme-İçme
     {"id": "Kafe", "label": AppLocalizations.instance.cafe},
     {"id": "Müze", "label": AppLocalizations.instance.museum},
     {"id": "Park", "label": AppLocalizations.instance.park},
     {"id": "Bar", "label": AppLocalizations.instance.bar},
-    {"id": "Pub", "label": AppLocalizations.instance.pub},
     {"id": "Tarihi", "label": AppLocalizations.instance.historical},
+    {"id": "Manzara", "label": "Manzara"}, // Manzara filtresi eklendi (Localization later)
     {"id": "Deneyim", "label": AppLocalizations.instance.experience},
     {"id": "Alışveriş", "label": AppLocalizations.instance.shopping},
     {"id": "Plaj", "label": AppLocalizations.instance.beach},
@@ -201,8 +154,24 @@ class _ExploreScreenState extends State<ExploreScreen>
     TripUpdateService().tripUpdated.addListener(_onTripDataChanged);
     TripUpdateService().cityChanged.addListener(_onTripDataChanged);
     
+    TripUpdateService().cityChanged.addListener(_onTripDataChanged);
+    
+    // Listen for tutorial triggers from MainScreen
+    // Only subscribe, do NOT trigger automatically
+    TutorialService.instance.tutorialTrigger.listen((key) {
+      if (key == TutorialService.KEY_TUTORIAL_CITY_SELECTION) {
+         if (_loading) {
+            _pendingCityTutorial = true;
+         } else {
+            if (mounted) _showCityTutorial();
+         }
+      }
+    });
+
     // Scroll listener for scroll-to-top button
     _scrollController.addListener(_onScroll);
+    
+
   }
 
   void _onScroll() {
@@ -212,12 +181,20 @@ class _ExploreScreenState extends State<ExploreScreen>
     }
   }
 
+
+
   void _scrollToTop() {
     _scrollController.animateTo(
       0,
       duration: const Duration(milliseconds: 500),
       curve: Curves.easeOutCubic,
     );
+  }
+
+  @override
+  void didUpdateWidget(ExploreScreen oldWidget) {
+    super.didUpdateWidget(oldWidget);
+    // Tutorial triggering is handled by MainScreen, not here
   }
 
   @override
@@ -242,7 +219,14 @@ class _ExploreScreenState extends State<ExploreScreen>
       final prefs = await SharedPreferences.getInstance();
       _favorites = prefs.getStringList("favorite_places") ?? [];
       _tripPlaces = prefs.getStringList("trip_places") ?? [];
-      _userName = prefs.getString("userName") ?? "Gezgin";
+      final defaultName = AppLocalizations.instance.isEnglish ? "Explorer" : "Gezgin";
+      final storedName = prefs.getString("userName");
+      // If no custom name set (still using default), use language-appropriate default
+      if (storedName == null || storedName == "Gezgin" || storedName == "Explorer") {
+        _userName = defaultName;
+      } else {
+        _userName = storedName;
+      }
 
       // Onboarding verilerini yükle
       _travelStyle = prefs.getString("travelStyle") ?? "Lokal";
@@ -263,9 +247,20 @@ class _ExploreScreenState extends State<ExploreScreen>
       setState(() {
         _city = city;
         _currentCityId = normalizedCity;
-        _allHighlights = city.highlights;
-        _filteredHighlights = List.from(_allHighlights);
+        
+        // Şehirler arası duplicate kontrolü (Benzer isimli yerleri filtrele)
+        // İlk 3 kelimesi aynı olanları eliyoruz.
+        _allHighlights = _removeDuplicates(city.highlights);
+        // _filteredHighlights will be set by _applyFilters()
         _loading = false;
+        
+        if (_pendingCityTutorial) {
+             _pendingCityTutorial = false;
+             if (mounted) _showCityTutorial();
+        } 
+        
+        // Tutorial is triggered by MainScreen after paywall closes
+        // Do NOT auto-trigger here
 
         // Şehir değiştiyse: cache'te varsa göster, yoksa sıfırla
         if (cityChanged) {
@@ -274,13 +269,22 @@ class _ExploreScreenState extends State<ExploreScreen>
 
           if (_aiChatCache.containsKey(normalizedCity)) {
             // Bu şehir için daha önce tavsiye alınmış, cache'ten getir
-            _aiChatResponse = _aiChatCache[normalizedCity];
+            final cachedData = _aiChatCache[normalizedCity]!;
+            _aiChatResponse = cachedData["content"];
             _aiCardExpanded = false; // Kapalı göster, kullanıcı açabilir
+             
+             // Eğer dil uyuşmazlığı varsa çeviri tetikle
+             if (cachedData["isEnglish"] != AppLocalizations.instance.isEnglish) {
+               _checkAndTranslateContent();
+             }
           } else {
             // Yeni şehir, tavsiye yok - Tavsiye İste butonu görünsün
             _aiChatResponse = null;
             _aiCardExpanded = true;
           }
+        } else {
+          // Şehir değişmedi ama dil değişmiş olabilir - çeviri gerekebilir
+          _checkAndTranslateContent();
         }
       });
 
@@ -290,13 +294,202 @@ class _ExploreScreenState extends State<ExploreScreen>
         'city_name': city.city,
       });
 
+      
+      // Initial filters and recommendations
+      _applyFilters(); 
       _fetchAIRecommendations();
+
+
     } catch (e) {
       if (!mounted) return;
       setState(() {
         _error = e.toString();
         _loading = false;
       });
+    }
+  }
+
+  /// İsim benzerliğine göre duplicate'leri temizle
+  List<Highlight> _removeDuplicates(List<Highlight> items) {
+    if (items.isEmpty) return [];
+
+    final List<Highlight> uniqueItems = [];
+    final Set<String> seenNames = {};
+
+    for (final item in items) {
+      // İsmi normalize et (küçük harf, trim)
+      final name = item.name.toLowerCase().trim();
+      
+      // Kelimelere ayır
+      final words = name.split(' ');
+      
+      // İlk 3 kelimeyi al (veya daha azsa hepsini)
+      final prefixCount = words.length >= 3 ? 3 : words.length;
+      final prefix = words.sublist(0, prefixCount).join(' ');
+
+      // Eğer bu prefix daha önce görülmediyse ekle
+      if (!seenNames.contains(prefix)) {
+        seenNames.add(prefix);
+        uniqueItems.add(item);
+      }
+    }
+    
+    return uniqueItems;
+  }
+
+  Future<void> _checkAndShowCitySuggestion({VoidCallback? onDone}) async {
+    final prefs = await SharedPreferences.getInstance();
+    if (prefs.getBool("suggest_city_popup") == true) {
+      await prefs.setBool("suggest_city_popup", false);
+      
+      final cityId = prefs.getString("selectedCity") ?? "barcelona";
+      final cityData = CitySwitcherScreen.allCities.firstWhere(
+        (c) => c['id'] == cityId,
+        orElse: () => CitySwitcherScreen.allCities.first,
+      );
+
+      if (!mounted) return;
+
+      showDialog(
+        context: context,
+        barrierDismissible: false,
+        builder: (context) => Dialog(
+          backgroundColor: WanderlustColors.bgDark, // Opaque dark
+          shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(24)),
+          child: Column(
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              // Image Header with Overlay
+              Stack(
+                children: [
+                  ClipRRect(
+                    borderRadius: const BorderRadius.vertical(top: Radius.circular(24)),
+                    child: Image.network(
+                      cityData['networkImage'],
+                      height: 200,
+                      width: double.infinity,
+                      fit: BoxFit.cover,
+                    ),
+                  ),
+                  Positioned.fill(
+                    child: Container(
+                      decoration: BoxDecoration(
+                        borderRadius: const BorderRadius.vertical(top: Radius.circular(24)),
+                        gradient: LinearGradient(
+                          begin: Alignment.topCenter,
+                          end: Alignment.bottomCenter,
+                          colors: [
+                            Colors.transparent,
+                            WanderlustColors.bgDark, // Match dialog bg
+                          ],
+                        ),
+                      ),
+                    ),
+                  ),
+                  Positioned(
+                    bottom: 16,
+                    left: 20,
+                    right: 20,
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Container(
+                          padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 4),
+                          decoration: BoxDecoration(
+                            color: WanderlustColors.accent,
+                            borderRadius: BorderRadius.circular(8),
+                          ),
+                          child: Text(
+                            AppLocalizations.instance.ourSuggestion,
+                            style: const TextStyle(
+                              color: Colors.white,
+                              fontSize: 12,
+                              fontWeight: FontWeight.bold,
+                            ),
+                          ),
+                        ),
+                        const SizedBox(height: 8),
+                        Text(
+                          cityData['name'],
+                          style: const TextStyle(
+                            color: Colors.white,
+                            fontSize: 28,
+                            fontWeight: FontWeight.bold,
+                            letterSpacing: -0.5,
+                          ),
+                        ),
+                        Row(
+                          children: [
+                            Text(
+                              cityData['flag'],
+                              style: const TextStyle(fontSize: 16),
+                            ),
+                            const SizedBox(width: 6),
+                            Text(
+                              AppLocalizations.instance.translateCountry(cityData['country']),
+                              style: const TextStyle(
+                                color: Colors.white70,
+                                fontSize: 14,
+                                fontWeight: FontWeight.w500,
+                              ),
+                            ),
+                          ],
+                        ),
+                      ],
+                    ),
+                  ),
+                ],
+              ),
+              
+              // Content Body
+              Padding(
+                padding: const EdgeInsets.all(24),
+                child: Column(
+                  children: [
+                    Text(
+                      AppLocalizations.instance.undecidedSuggestionDesc,
+                      textAlign: TextAlign.center,
+                      style: const TextStyle(
+                        color: Colors.white70,
+                        fontSize: 15,
+                        height: 1.5,
+                      ),
+                    ),
+                    const SizedBox(height: 24),
+                    SizedBox(
+                      width: double.infinity,
+                      child: ElevatedButton(
+                        onPressed: () {
+                          Navigator.pop(context);
+                          onDone?.call();
+                        },
+                        style: ElevatedButton.styleFrom(
+                          backgroundColor: WanderlustColors.accent,
+                          foregroundColor: Colors.white,
+                          elevation: 0,
+                          padding: const EdgeInsets.symmetric(vertical: 16),
+                          shape: RoundedRectangleBorder(
+                            borderRadius: BorderRadius.circular(16),
+                          ),
+                        ),
+                        child: Text(
+                          AppLocalizations.instance.discoverNow,
+                          style: const TextStyle(
+                            fontSize: 16,
+                            fontWeight: FontWeight.bold,
+                          ),
+                        ),
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+            ],
+          ),
+        ),
+      );
+    } else {
+      onDone?.call();
     }
   }
 
@@ -309,28 +502,28 @@ class _ExploreScreenState extends State<ExploreScreen>
       // Kafe filtresi
       'Kafe': ['Kafe', 'Cafe', 'Kahve', 'Tatlı', 'Fırın', 'Dondurma', 'Atıştırmalık'],
       
-      // Restoran filtresi
-      'Restoran': ['Restoran', 'Yeme & İçme', 'Yeme İçme', 'Yeme-İçme', 'Sokak Lezzeti', 'Yemek'],
+      // Yeme-İçme filtresi (Restoran yerine)
+      'Yeme-İçme': ['Yeme-İçme', 'Restoran', 'Yeme & İçme', 'Yeme İçme', 'Sokak Lezzeti', 'Yemek', 'Gastronomi'],
       
       // Müze filtresi
       'Müze': ['Müze', 'Sanat', 'Kültür', 'Bilim', 'Modern', 'Akvaryum'],
       
       // Park filtresi
-      'Park': ['Park', 'Doğa', 'Göl', 'Hayvanat Bahçesi', 'Mağara'],
+      'Park': ['Park', 'Doğa', 'Göl', 'Hayvanat Bahçesi'],
       
       // Bar filtresi
-      'Bar': ['Bar', 'Gece Hayatı', 'Gece Kulübü', 'Şarap'],
-      
-      // Pub filtresi (yeni)
-      'Pub': ['Pub'],
+      'Bar': ['Bar', 'Gece Hayatı', 'Gece Kulübü', 'Şarap', 'Müzik'],
       
       // Tarihi filtresi
       'Tarihi': ['Tarihi', 'Meydan', 'Mimari', 'Tarih', 'Simge', 'Landmark', 'Heykel', 'Mimar', 'Saray', 'Merkez'],
+
+      // Manzara filtresi (YENİ) - Doğal güzellikler ve manzaralar
+      'Manzara': ['Manzara', 'View', 'Teras', 'Seyir', 'Panaromik', 'Mağara'],
       
-      // Deneyim filtresi (genişletilmiş - Manzara dahil)
-      'Deneyim': ['Deneyim', 'Manzara', 'Aktivite', 'Eğlence', 'Yürüyüş', 'Spor', 'Gezi', 'Macera', 'Rahatlama', 
-                  'Günlük Gezi', 'Etkinlik', 'Müzik', 'Atölye', 'Mahalle', 'Sokak',
-                  'Görülmesi Gereken Yerler', 'Köy', 'Kasaba', 'Şehir', 'Bölge', 'Liman'],
+      // Deneyim filtresi
+      'Deneyim': ['Deneyim', 'Aktivite', 'Eğlence', 'Yürüyüş', 'Spor', 'Gezi', 'Macera', 'Rahatlama', 
+                  'Günlük Gezi', 'Etkinlik', 'Atölye', 'Mahalle', 'Sokak',
+                  'Görülmesi Gereken Yerler', 'Köy', 'Kasaba', 'Şehir', 'Bölge', 'Liman', 'Sağlık', 'Otel'],
       
       // Alışveriş filtresi
       'Alışveriş': ['Alışveriş', 'Mağaza', 'Pazar', 'Pasaj', 'Ticaret', 'Kitapçı', 'Lüks', 'Kompleks'],
@@ -365,30 +558,49 @@ class _ExploreScreenState extends State<ExploreScreen>
     }
 
     // 3. Kişiselleştirilmiş sıralama (popülerlik + ilgi alanları serpiştirilmiş)
-    // Mood seçili değilse veya Keşif modundaysa kişiselleştirilmiş sıralama uygula
-    if (_selectedMood == 1 || _selectedMood == -1) {
-      // 🌍 Keşif modu veya varsayılan: Popülerlik önce, ilgi alanları serpiştirilmiş
+    if (_selectedCategory == "Tümü") {
+      // Mood seçili değilse veya Keşif modundaysa kişiselleştirilmiş sıralama uygula
       filtered = _applyPersonalizedSorting(filtered);
-    } else if (_selectedMood == 0) {
-      // 🧘 Sakin: Önce kişiselleştir, sonra sakin kategorileri öne al
-      filtered = _applyPersonalizedSorting(filtered);
-      filtered.sort((a, b) {
-        int scoreA = _getCalmScore(a.category);
-        int scoreB = _getCalmScore(b.category);
-        if (scoreA != scoreB) return scoreA.compareTo(scoreB);
-        // Eşit ise popülerliğe göre
-        return _getPopularityScore(b).compareTo(_getPopularityScore(a));
-      });
-    } else if (_selectedMood == 2) {
-      // 🎉 Canlı: Önce kişiselleştir, sonra canlı kategorileri öne al
-      filtered = _applyPersonalizedSorting(filtered);
-      filtered.sort((a, b) {
-        int scoreA = _getLivelyScore(a.category);
-        int scoreB = _getLivelyScore(b.category);
-        if (scoreA != scoreB) return scoreA.compareTo(scoreB);
-        // Eşit ise popülerliğe göre
-        return _getPopularityScore(b).compareTo(_getPopularityScore(a));
-      });
+      
+      if (_selectedMood == 0) {
+        // 🧘 Sakin: Önce kişiselleştir, sonra sakin kategorileri öne al
+        filtered.sort((a, b) {
+          int scoreA = _getCalmScore(a.category);
+          int scoreB = _getCalmScore(b.category);
+          if (scoreA != scoreB) return scoreA.compareTo(scoreB);
+          // Eşit ise popülerliğe göre
+          return _getPopularityScore(b).compareTo(_getPopularityScore(a));
+        });
+      } else if (_selectedMood == 2) {
+        // 🎉 Canlı: Önce kişiselleştir, sonra canlı kategorileri öne al
+        filtered.sort((a, b) {
+          int scoreA = _getLivelyScore(a.category);
+          int scoreB = _getLivelyScore(b.category);
+          if (scoreA != scoreB) return scoreA.compareTo(scoreB);
+          // Eşit ise popülerliğe göre
+          return _getPopularityScore(b).compareTo(_getPopularityScore(a));
+        });
+      }
+    } else {
+        // KATEGORİ SEÇİLİ: Eleme yapma (PersonalizedSorting eleme yapar), sadece sırala!
+        if (_selectedMood == 0) {
+           filtered.sort((a, b) {
+              int scoreA = _getCalmScore(a.category);
+              int scoreB = _getCalmScore(b.category);
+              if (scoreA != scoreB) return scoreA.compareTo(scoreB);
+              return _getPopularityScore(b).compareTo(_getPopularityScore(a));
+           });
+        } else if (_selectedMood == 2) {
+           filtered.sort((a, b) {
+              int scoreA = _getLivelyScore(a.category);
+              int scoreB = _getLivelyScore(b.category);
+              if (scoreA != scoreB) return scoreA.compareTo(scoreB);
+              return _getPopularityScore(b).compareTo(_getPopularityScore(a));
+           });
+        } else {
+           // Keşif (Default)
+           filtered.sort((a, b) => _getPopularityScore(b).compareTo(_getPopularityScore(a)));
+        }
     }
 
     setState(() => _filteredHighlights = filtered);
@@ -433,7 +645,7 @@ class _ExploreScreenState extends State<ExploreScreen>
 
   /// İlgi alanı kategorilerine göre eşleştirme map'i
   static const Map<String, List<String>> _interestToCategoryMap = {
-    'yemek': ['Restoran', 'Yeme & İçme', 'Yeme İçme', 'Sokak Lezzeti'],
+    'yemek': ['Restoran', 'Yeme & İçme', 'Yeme İçme', 'Yeme-İçme', 'Sokak Lezzeti'],
     'kahve': ['Kafe', 'Cafe', 'Kahve', 'Tatlı', 'Fırın'],
     'sanat': ['Müze', 'Sanat', 'Galeri', 'Modern'],
     'tarih': ['Tarihi', 'Mimari', 'Tarih', 'Simge', 'Landmark', 'Saray'],
@@ -445,7 +657,7 @@ class _ExploreScreenState extends State<ExploreScreen>
     'plaj': ['Plaj', 'Beach', 'Sahil'],
     'spor': ['Spor', 'Stadyum', 'Stadium', 'Arena'],
     'müze': ['Müze', 'Sanat', 'Bilim', 'Kültür'],
-    'yerel lezzetler': ['Restoran', 'Sokak Lezzeti', 'Yeme & İçme', 'Pazar'],
+    'yerel lezzetler': ['Restoran', 'Sokak Lezzeti', 'Yeme & İçme', 'Yeme-İçme', 'Pazar'],
   };
 
   /// Popülerlik skoru hesapla (0-1 arası)
@@ -457,9 +669,9 @@ class _ExploreScreenState extends State<ExploreScreen>
     final ratingScore = (rating / 5.0).clamp(0.0, 1.0);
     final reviewScore = (reviewCount / 5000.0).clamp(0.0, 1.0);
     
-    // Tarihi/Simge kategorileri için bonus
-    final isLandmark = ['Tarihi', 'Simge', 'Landmark', 'Mimari'].contains(h.category);
-    final landmarkBonus = isLandmark ? 0.1 : 0.0;
+    // Tarihi/Simge/Müze kategorileri için bonus (Artırıldı: 0.1 -> 0.25)
+    final isLandmark = ['Tarihi', 'Simge', 'Landmark', 'Mimari', 'Müze'].contains(h.category);
+    final landmarkBonus = isLandmark ? 0.25 : 0.0;
     
     return (ratingScore * 0.6) + (reviewScore * 0.3) + landmarkBonus;
   }
@@ -500,56 +712,90 @@ class _ExploreScreenState extends State<ExploreScreen>
     return scores[placePrice] ?? 0.7;
   }
 
-  /// Kişiselleştirilmiş sıralama uygula
+  /// Kişiselleştirilmiş sıralama uygula (3 İkonik + 1 İlgi Alanı kuralı)
   List<Highlight> _applyPersonalizedSorting(List<Highlight> places) {
     if (places.isEmpty) return places;
     
-    // 1. Tüm yerleri popülerliğe göre sırala (en yüksek önce)
-    final sortedByPopularity = List<Highlight>.from(places);
-    sortedByPopularity.sort((a, b) {
-      final scoreA = _getPopularityScore(a);
-      final scoreB = _getPopularityScore(b);
-      return scoreB.compareTo(scoreA); // Descending
+    // Yeme-İçme ve alışveriş kategorilerini "İkonik" listesinden hariç tut.
+    // ANCAK: Canlı modunda (2) barlar ve restoranlar ana içeriktir, filtreleme!
+    List<String> nonIconicCategories;
+    
+    if (_selectedMood == 2) {
+      // Canlı mod: Sadece alışverişi filtrele (veya hiçbir şeyi filtreleme)
+      nonIconicCategories = ['Alışveriş', 'Mağaza', 'Pasaj'];
+    } else {
+      // Keşif/Sakin mod: Yeme-içme ve gece hayatını "İkonik" akışından çıkar 
+      // (Sadece ilgi alanı olarak gelmeli)
+      nonIconicCategories = [
+        'Yeme-İçme', 'Restoran', 'Yeme & İçme', 'Yeme İçme', 'Sokak Lezzeti', 
+        'Kafe', 'Cafe', 'Kahve', 'Tatlı', 'Fırın', 'Dondurma',
+        'Bar', 'Gece Hayatı', 'Gece Kulübü', 'Pub',
+        'Alışveriş', 'Mağaza', 'Pasaj'
+      ];
+    }
+
+    // 1. İkonik ve Popüler yerleri ayır (Hepsini al, ama Mood'a uymayanları arkaya at)
+    final iconicList = List<Highlight>.from(places);
+    iconicList.sort((a, b) {
+       // Önce Mood Puanına göre (Uymayanlar arkaya)
+       bool isANonIconic = nonIconicCategories.contains(a.category);
+       bool isBNonIconic = nonIconicCategories.contains(b.category);
+       
+       if (isANonIconic && !isBNonIconic) return 1; // A arkaya
+       if (!isANonIconic && isBNonIconic) return -1; // B arkaya
+       
+       // Sonra Popülariteye göre
+       return _getPopularityScore(b).compareTo(_getPopularityScore(a));
     });
     
-    // 2. Kullanıcının ilgi alanlarına uyan yerleri ayır
-    final interestMatches = places.where((h) => _matchesUserInterests(h)).toList();
-    
-    // İlgi alanı eşleşenler de bütçe ve popülerliğe göre sıralı olsun
-    interestMatches.sort((a, b) {
-      final budgetA = _getBudgetMatchScore(a);
-      final budgetB = _getBudgetMatchScore(b);
-      final popA = _getPopularityScore(a);
-      final popB = _getPopularityScore(b);
-      
-      final scoreA = (popA * 0.6) + (budgetA * 0.4);
-      final scoreB = (popB * 0.6) + (budgetB * 0.4);
+    // 2. Kullanıcının ilgi alanlarına uyan (onboarding seçimleri) yerleri ayır
+    // Burada yeme-içme olabilir, çünkü kullanıcı özellikle ilgiliyse gösterilmeli
+    final interestList = places.where((h) => _matchesUserInterests(h)).toList();
+    interestList.sort((a, b) {
+      final scoreA = (_getPopularityScore(a) * 0.6) + (_getBudgetMatchScore(a) * 0.4);
+      final scoreB = (_getPopularityScore(b) * 0.6) + (_getBudgetMatchScore(b) * 0.4);
       return scoreB.compareTo(scoreA);
     });
     
-    // 3. Karma liste oluştur: Her 4 popüler yerden sonra 1 ilgi alanı yeri ekle
+    // 3. Karıştırma (Interleaving): 3 İkonik + 1 İlgi Alanı
     final result = <Highlight>[];
-    final usedInterestIndices = <int>{};
-    int interestIndex = 0;
+    final usedNames = <String>{};
+    int iconicIdx = 0;
+    int interestIdx = 0;
     
-    for (int i = 0; i < sortedByPopularity.length; i++) {
-      final place = sortedByPopularity[i];
-      
-      // Bu yer zaten ilgi alanı olarak eklendiyse atla
-      if (usedInterestIndices.contains(places.indexOf(place))) continue;
-      
-      result.add(place);
-      
-      // Her 4 yerden sonra bir ilgi alanı yeri ekle (ilk 4'ten sonra başla)
-      if ((result.length % 5) == 4 && interestIndex < interestMatches.length) {
-        final interestPlace = interestMatches[interestIndex];
-        // Zaten eklenmemişse ekle
-        if (!result.contains(interestPlace)) {
-          result.add(interestPlace);
-          usedInterestIndices.add(places.indexOf(interestPlace));
+    while (iconicIdx < iconicList.length || interestIdx < interestList.length) {
+      // 3 tane ikonik/popüler yer ekle
+      int addedIconicCount = 0;
+      while (addedIconicCount < 3 && iconicIdx < iconicList.length) {
+        final item = iconicList[iconicIdx++];
+        if (!usedNames.contains(item.name)) {
+          result.add(item);
+          usedNames.add(item.name);
+          addedIconicCount++;
         }
-        interestIndex++;
       }
+      
+      // 1 tane ilgi alanına dayalı yer ekle (eğer zaten eklenmemişse)
+      if (interestIdx < interestList.length) {
+        bool foundSpecificInterestMatch = false;
+        while (interestIdx < interestList.length && !foundSpecificInterestMatch) {
+          final item = interestList[interestIdx++];
+          if (!usedNames.contains(item.name)) {
+            result.add(item);
+            usedNames.add(item.name);
+            foundSpecificInterestMatch = true;
+          }
+        }
+      }
+    }
+    
+    // Eğer hala kullanılmamış ikonik yerler varsa ekle (ilgi alanı listesi bittiyse)
+    while (iconicIdx < iconicList.length) {
+       final item = iconicList[iconicIdx++];
+       if (!usedNames.contains(item.name)) {
+         result.add(item);
+         usedNames.add(item.name);
+       }
     }
     
     return result;
@@ -583,6 +829,13 @@ class _ExploreScreenState extends State<ExploreScreen>
   // Kullanıcı AppLocalizations.instance.askAI butonuna basınca çağrılır
   Future<void> _fetchAIChatResponse() async {
     if (_city == null) return;
+    
+    // Premium limit kontrolü
+    if (!PremiumService.instance.canUseAISuggestion()) {
+      _showPaywall();
+      return;
+    }
+    
     setState(() {
       _aiLoading = true;
     });
@@ -600,13 +853,20 @@ class _ExploreScreenState extends State<ExploreScreen>
       );
 
       if (!mounted) return;
+      
+      // Kullanımı artır
+      await PremiumService.instance.useAISuggestion();
+      
       setState(() {
         _aiChatResponse = chatResponse;
         _aiLoading = false;
         _aiCardExpanded = true;
 
         // Cache'e kaydet
-        _aiChatCache[_currentCityId] = chatResponse;
+        _aiChatCache[_currentCityId] = {
+          "content": chatResponse,
+          "isEnglish": AppLocalizations.instance.isEnglish
+        };
       });
     } catch (e) {
       if (!mounted) return;
@@ -615,6 +875,453 @@ class _ExploreScreenState extends State<ExploreScreen>
       });
     }
   }
+
+  /// Dil değiştiğinde mevcut AI içeriğini çevirir (yeniden üretmek yerine)
+  void _checkAndTranslateContent() async {
+    // Cache kontrolü
+    if (!_aiChatCache.containsKey(_currentCityId)) return;
+    
+    final cachedData = _aiChatCache[_currentCityId]!;
+    final cachedIsEnglish = cachedData["isEnglish"] as bool;
+    final currentIsEnglish = AppLocalizations.instance.isEnglish;
+    
+    // Dil değişmemişse çık
+    if (cachedIsEnglish == currentIsEnglish) {
+      if (_aiChatResponse == null) {
+         setState(() {
+           _aiChatResponse = cachedData["content"];
+         });
+      }
+      return;
+    }
+    
+    // Dil değişmiş! Çeviri yap
+    // Önce UI'da loading göster
+    setState(() {
+      _aiLoading = true;
+      // Eğer ekranda bir şey yoksa en azından eskiyi gösterelim mi? 
+      // Hayır, çeviri bekleniyor.
+    });
+    
+    try {
+      final contentToTranslate = cachedData["content"] as String;
+      
+      final translatedContent = await AIService.translateContent(
+        content: contentToTranslate,
+        toEnglish: currentIsEnglish,
+      );
+      
+      if (!mounted) return;
+      
+      setState(() {
+        _aiChatResponse = translatedContent;
+        _aiLoading = false;
+        
+        // Cache'i de güncelle
+        _aiChatCache[_currentCityId] = {
+           "content": translatedContent,
+           "isEnglish": currentIsEnglish
+        };
+      });
+    } catch (e) {
+      if (!mounted) return;
+      setState(() => _aiLoading = false);
+    }
+  }  // ══════════════════════════════════════════════════════════════════════════
+  // PAYWALL
+  // ══════════════════════════════════════════════════════════════════════════
+  
+  void _showPaywall() {
+    showModalBottomSheet(
+      context: context,
+      isScrollControlled: true,
+      backgroundColor: Colors.transparent,
+      builder: (context) => const PaywallScreen(),
+    );
+  }
+
+  // ══════════════════════════════════════════════════════════════════════════
+  // TUTORIAL
+  // ══════════════════════════════════════════════════════════════════════════
+  
+  // ══════════════════════════════════════════════════════════════════════════
+  // TUTORIAL (DECOUPLED)
+  // ══════════════════════════════════════════════════════════════════════════
+
+  // 0. Polling Loop for Tutorial
+  void _startTutorialCheckLoop() async {
+     for (int i = 0; i < 10; i++) { // Try for 10 seconds
+        if (!mounted) return;
+        
+        // Wait 1 second
+        await Future.delayed(const Duration(seconds: 1));
+        
+        if (!mounted) return;
+        
+        // Check if Paywall/Dialog is open (if open, isCurrent is false)
+        final isCurrent = ModalRoute.of(context)?.isCurrent ?? false;
+        final isVisible = widget.isVisible || isCurrent;
+        
+        if (isVisible && !_isCityTutorialShowing) {
+           final shouldShow = await TutorialService.instance.shouldShowTutorial(TutorialService.KEY_TUTORIAL_CITY_SELECTION);
+           if (shouldShow) {
+              if (mounted) _showCityTutorial();
+              break; // Success!
+           } else {
+              // Tutorial seen or not needed, stop loop
+              break; 
+           }
+        }
+     }
+  }
+
+  // 1. City Selection (Launch)  
+  void _showCityTutorial() async {
+      if (_isCityTutorialShowing) return;
+      _isCityTutorialShowing = true;
+
+      if (!mounted) {
+        _isCityTutorialShowing = false;
+        return;
+      }
+
+      final shouldShow = await TutorialService.instance.shouldShowTutorial(TutorialService.KEY_TUTORIAL_CITY_SELECTION);
+      if (!shouldShow) {
+        _isCityTutorialShowing = false;
+        _showAITutorial(); 
+        return;
+      }
+
+      // Ensure visible
+      if (_citySelectKey.currentContext == null && _scrollController.hasClients) {
+          _scrollController.jumpTo(0);
+          // Wait for frame to render after jump
+          await Future.delayed(const Duration(milliseconds: 200));
+      }
+      
+      // Retry finding context
+      if (_citySelectKey.currentContext == null) {
+         // One last try after a slightly longer delay
+         await Future.delayed(const Duration(milliseconds: 500));
+         if (_citySelectKey.currentContext == null) {
+             debugPrint("Tutorial Error: _citySelectKey context is null");
+             _isCityTutorialShowing = false;
+             return;
+         }
+      }
+
+      late TutorialCoachMark tutorial;
+      tutorial = TutorialCoachMark(
+        targets: [
+          TargetFocus(
+            identify: "city_selection",
+            keyTarget: _citySelectKey,
+            color: Colors.black,
+            contents: [
+              TargetContent(
+                align: ContentAlign.bottom,
+                builder: (context, controller) {
+                  return TutorialOverlayWidget(
+                    title: AppLocalizations.instance.tutorialCitySelectTitle,
+                    description: AppLocalizations.instance.tutorialCitySelectDesc,
+                    currentStep: 1,
+                    totalSteps: 4,
+                    onSkip: () => controller.skip(),
+                    onNext: () => controller.next(),
+                    isArrowUp: true, // City selection is always at top
+                  );
+                },
+              ),
+            ],
+            shape: ShapeLightFocus.RRect,
+            radius: 20,
+          ),
+        ],
+        colorShadow: Colors.black, 
+        opacityShadow: 0.9, 
+        textSkip: "",
+        skipWidget: _buildSkipWidget(),
+          onFinish: () async {
+             _isCityTutorialShowing = false;
+             TutorialService.instance.markTutorialSeen(TutorialService.KEY_TUTORIAL_CITY_SELECTION);
+             if (mounted) {
+               await Future.delayed(const Duration(milliseconds: 500));
+               _showAITutorial(); // Moved from 3rd to 2nd
+             }
+          },
+          onClickTarget: (target) {
+             tutorial.next();
+          },
+          onSkip: () {
+             _isCityTutorialShowing = false;
+             TutorialService.instance.skipAllTutorials();
+             return true; 
+          },
+          onClickOverlay: (target) {
+             tutorial.next();
+          },
+      );
+      tutorial.show(context: context);
+  }
+
+  // 3. FAB Tutorial ("My Way Asistan")
+  // Chain: City → AI → FAB → Mood
+  void _showFabTutorial() async {
+    if (!mounted) return;
+    
+    // Guard to prevent double-triggering
+    if (_isFabTutorialShown) {
+      _showMoodTutorial();
+      return;
+    }
+    
+    final shouldShow = await TutorialService.instance.shouldShowTutorial(TutorialService.KEY_TUTORIAL_FAB);
+    if (!shouldShow) {
+      _isFabTutorialShown = true;
+      _showMoodTutorial();
+      return;
+    }
+    
+    _isFabTutorialShown = true;
+
+    late TutorialCoachMark tutorial;
+    tutorial = TutorialCoachMark(
+      targets: [
+        TargetFocus(
+          identify: "ai_fab",
+          keyTarget: _aiFabKey, // GlobalKey
+          shape: ShapeLightFocus.Circle,
+          radius: 28, // Adjust based on FAB size
+          color: Colors.black,
+          contents: [
+            TargetContent(
+              align: ContentAlign.top, // FAB is at bottom right
+              builder: (context, controller) {
+                return TutorialOverlayWidget(
+                   title: "My Way Asistan",
+                  description: AppLocalizations.instance.isEnglish 
+                      ? "Ask instant questions about the city and get personalized answers."
+                      : "Şehirle ilgili sorularını anlık sor, sana özel cevaplar al.",
+                  currentStep: 3, // Moved from 2nd to 3rd
+                  totalSteps: 4,
+                  onSkip: () => controller.skip(),
+                  onNext: () => controller.next(),
+                  isArrowUp: false, 
+                );
+              },
+            ),
+          ],
+        ),
+      ],
+      colorShadow: Colors.black,
+      opacityShadow: 0.9,
+      textSkip: "",
+      skipWidget: _buildSkipWidget(),
+      onFinish: () async {
+         _isFabTutorialShown = true;
+         TutorialService.instance.markTutorialSeen(TutorialService.KEY_TUTORIAL_FAB);
+         if (mounted) {
+           await Future.delayed(const Duration(milliseconds: 500));
+           _showMoodTutorial(); // Chain to mood
+         }
+      },
+      onClickTarget: (target) {
+         tutorial.next();
+      },
+      onSkip: () {
+         _isFabTutorialShown = true;
+         TutorialService.instance.skipAllTutorials();
+         return true;
+      },
+      onClickOverlay: (target) {
+         tutorial.next();
+      },
+    );
+    tutorial.show(context: context);
+  }
+
+  // 2. AI Recommendation ("Öneri Oluştur" / "Bugün Yönün Neresi")
+  // Chain: City → AI → FAB → Mood
+  void _showAITutorial() async {
+      if (!mounted) return;
+      
+      // Guard to prevent double-triggering
+      if (_isAITutorialShown) {
+        _showFabTutorial();
+        return;
+      }
+      
+      final shouldShow = await TutorialService.instance.shouldShowTutorial(TutorialService.KEY_TUTORIAL_AI_BUTTON);
+      if (!shouldShow) {
+        _isAITutorialShown = true;
+        _showFabTutorial(); // AI is Step 2, go to 3
+        return;
+      }
+      
+      _isAITutorialShown = true;
+
+      // Ensure visible? It is near top, usually visible.
+      if (_askAiKey.currentContext == null) return;
+
+      late TutorialCoachMark tutorial;
+      tutorial = TutorialCoachMark(
+        targets: [
+          TargetFocus(
+            identify: "ask_ai",
+            keyTarget: _askAiKey,
+            color: Colors.black,
+            contents: [
+              TargetContent(
+                align: ContentAlign.bottom, 
+                builder: (context, controller) {
+                   return TutorialOverlayWidget(
+                    title: AppLocalizations.instance.tutorialAiTitle,
+                    description: AppLocalizations.instance.tutorialAiDesc,
+                    currentStep: 2, // Moved from 3rd to 2nd
+                    totalSteps: 4,
+                    onSkip: () => controller.skip(),
+                    onNext: () => controller.next(),
+                    isArrowUp: true,
+                    arrowHeight: 120,
+                   );
+                },
+              ),
+            ],
+            shape: ShapeLightFocus.RRect, // Button shape
+            radius: 20,
+            paddingFocus: 0,
+          ),
+        ],
+        colorShadow: Colors.black, 
+        opacityShadow: 0.9, 
+        textSkip: "",
+        skipWidget: _buildSkipWidget(),
+        onFinish: () async {
+           TutorialService.instance.markTutorialSeen(TutorialService.KEY_TUTORIAL_AI_BUTTON);
+           if (mounted) {
+             await Future.delayed(const Duration(milliseconds: 500));
+             _showFabTutorial(); // Chain to FAB
+           }
+        },
+        onClickTarget: (target) {
+           tutorial.next();
+        },
+        onSkip: () {
+           TutorialService.instance.skipAllTutorials();
+           return true; 
+        },
+        onClickOverlay: (target) {
+           tutorial.next();
+        },
+      );
+      tutorial.show(context: context);
+  }
+
+  // 3. Mood Selection Tutorial
+  void _showMoodTutorial() async {
+    if (!mounted) return;
+
+    final shouldShow = await TutorialService.instance.shouldShowTutorial(TutorialService.KEY_TUTORIAL_MODE_SELECTION);
+    if (!shouldShow) return;
+    
+    // Local guard
+    if (_isMoodTutorialShown) return;
+    _isMoodTutorialShown = true;
+
+    if (_moodSelectionKey.currentContext == null) return;
+    
+    // Calculate position
+    final RenderBox? renderBox = _moodSelectionKey.currentContext?.findRenderObject() as RenderBox?;
+    final offset = renderBox?.localToGlobal(Offset.zero);
+    final screenHeight = MediaQuery.of(context).size.height;
+    
+    // If element is in top half, show text BELOW (bottom). If in bottom half, show ABOVE (top).
+    final isTopHalf = (offset?.dy ?? 0) < (screenHeight / 2);
+    final align = isTopHalf ? ContentAlign.bottom : ContentAlign.top;
+    final isArrowUp = isTopHalf;
+
+    late TutorialCoachMark tutorial;
+    tutorial = TutorialCoachMark(
+      targets: [
+        TargetFocus(
+          identify: "mood_selection",
+          keyTarget: _moodSelectionKey,
+          color: Colors.black,
+          contents: [
+            TargetContent(
+              align: align,
+              builder: (context, controller) {
+                return TutorialOverlayWidget(
+                  title: AppLocalizations.instance.isEnglish ? "Choose Your Vibe" : "Modunu Seç",
+                  description: AppLocalizations.instance.isEnglish 
+                      ? "Plan your day by your mood. A calm day, new discoveries or lively moments? Choice is yours." 
+                      : "Gününü moduna göre planla. Sakin bir gün mü, yeni keşifler mi yoksa hareketli anlar mı? Seçim senin.",
+                  currentStep: 4,
+                  totalSteps: 4,
+                  onSkip: () => controller.skip(),
+                  onNext: () => controller.next(),
+                  isArrowUp: isArrowUp, // Dynamic arrow direction
+                  arrowHeight: 80, 
+                );
+              },
+            ),
+          ],
+          shape: ShapeLightFocus.RRect,
+          radius: 12,
+        ),
+      ],
+      colorShadow: Colors.black.withOpacity(0.8),
+      opacityShadow: 0.9,
+      textSkip: AppLocalizations.instance.skip,
+      skipWidget: _buildSkipWidget(),
+      onFinish: () {
+         TutorialService.instance.markTutorialSeen(TutorialService.KEY_TUTORIAL_MODE_SELECTION);
+      },
+      onClickTarget: (target) {
+         tutorial.next();
+      },
+      onSkip: () {
+         TutorialService.instance.skipAllTutorials();
+         return true;
+      },
+      onClickOverlay: (target) {
+         tutorial.next();
+      },
+    );
+    tutorial.show(context: context);
+  }
+
+  Widget _buildSkipWidget() {
+    return SafeArea(
+      child: Align(
+        alignment: Alignment.topRight,
+        child: Padding(
+          padding: const EdgeInsets.all(20.0),
+          child: Container(
+             padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+             decoration: BoxDecoration(
+               color: Colors.white24,
+               borderRadius: BorderRadius.circular(20),
+             ),
+             child: const Text(
+               "Atla", 
+               style: TextStyle(
+                 color: Colors.white,
+                 fontWeight: FontWeight.w600,
+               ),
+             ),
+          ),
+        ),
+      ),
+    );
+  }
+
+
+
+
+  // ══════════════════════════════════════════════════════════════════════════
+  // HELPER METHODS
+  // ══════════════════════════════════════════════════════════════════════════
 
   Future<void> _toggleFavorite(String name) async {
     HapticFeedback.lightImpact();
@@ -840,15 +1547,15 @@ class _ExploreScreenState extends State<ExploreScreen>
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Container(
-                padding: const EdgeInsets.all(12),
+                padding: const EdgeInsets.all(8), // Reduced padding
                 decoration: BoxDecoration(
                   color: accent,
                   borderRadius: BorderRadius.circular(16),
                 ),
                 child: Image.asset(
                   'assets/images/splash_logo.png',
-                  width: 32,
-                  height: 32,
+                  width: 40, // Increased size
+                  height: 40, // Increased size
                   fit: BoxFit.contain,
                 ),
               ),
@@ -889,9 +1596,59 @@ class _ExploreScreenState extends State<ExploreScreen>
       body: MapBackground(
         child: Stack(
           children: [
-            // Ana içerik
-            CustomScrollView(
-              controller: _scrollController,
+            // Ana içerik - CustomScrollView
+             NotificationListener<ScrollNotification>(
+               onNotification: (notification) {
+                 // Trigger Mood tutorial ONLY when scrolling stops
+                 if (notification is ScrollEndNotification) {
+                    final screenHeight = MediaQuery.of(context).size.height;
+
+                    // 1. Check AI Card Tutorial
+                    if (!_isAITutorialShown && _askAiKey.currentContext != null) {
+                       final RenderBox? aiBox = _askAiKey.currentContext?.findRenderObject() as RenderBox?;
+                       if (aiBox != null) {
+                         final position = aiBox.localToGlobal(Offset.zero);
+                         // Check if visible
+                         if (position.dy > 100 && position.dy < screenHeight - 150) {
+                            Scrollable.ensureVisible(
+                              _askAiKey.currentContext!,
+                              duration: const Duration(milliseconds: 300),
+                              curve: Curves.easeInOut,
+                              alignment: 0.5,
+                            ).then((_) {
+                               if (mounted) _showAITutorial();
+                            });
+                            return false; // Stop checking others
+                         }
+                       }
+                    }
+
+                    // 2. Check Mood Tutorial
+                    if (!_isMoodTutorialShown && _moodSelectionKey.currentContext != null) {
+                       final RenderBox? box = _moodSelectionKey.currentContext?.findRenderObject() as RenderBox?;
+                       if (box != null) {
+                         final position = box.localToGlobal(Offset.zero);
+                         
+                         // If element is visible strictly within screen bounds
+                         if (position.dy > 150 && position.dy < screenHeight - 200) {
+                            // Ensure it's fully visible and center it before showing
+                            Scrollable.ensureVisible(
+                              _moodSelectionKey.currentContext!,
+                              duration: const Duration(milliseconds: 300),
+                              curve: Curves.easeInOut,
+                              alignment: 0.5,
+                            ).then((_) {
+                               if (mounted) _showMoodTutorial();
+                            });
+                         }
+                       }
+                    }
+                 }
+                 return false; 
+               },
+               child: CustomScrollView(
+                controller: _scrollController,
+
               physics: const BouncingScrollPhysics(),
               slivers: [
               // Hero Section
@@ -899,7 +1656,7 @@ class _ExploreScreenState extends State<ExploreScreen>
 
               // AI Önerileri Kartı
               SliverToBoxAdapter(child: _buildAICard()),
-
+          
               // 🔥 Trending Today
               SliverToBoxAdapter(child: _buildTrendingSection()),
 
@@ -924,22 +1681,30 @@ class _ExploreScreenState extends State<ExploreScreen>
                 sliver: SliverList(
                   delegate: SliverChildBuilderDelegate(
                     (context, index) =>
-                        _buildPlaceCard(_filteredHighlights[index]),
+                        _buildPlaceCard(_filteredHighlights[index], index),
                     childCount: _filteredHighlights.length,
                   ),
                 ),
               ),
-            ],
+              ],
+            ),
           ),
-
+ 
           // Floating AI Button
-          Positioned(right: 20, bottom: 100, child: _buildFloatingAIButton()),
+          Positioned(
+             right: 20, 
+             bottom: 30, 
+             child: Container(
+               // key: _askAiKey, // Removed to avoid collision with AI Card button
+               child: _buildFloatingAIButton(),
+             )
+          ),
           
           // Scroll-to-top Button
           if (_showScrollToTop)
             Positioned(
               right: 20,
-              bottom: 170,
+              bottom: 90, // Adjusted to avoid overlap
               child: AnimatedOpacity(
                 opacity: _showScrollToTop ? 1.0 : 0.0,
                 duration: const Duration(milliseconds: 200),
@@ -981,8 +1746,8 @@ class _ExploreScreenState extends State<ExploreScreen>
 
     final isEnglish = AppLocalizations.instance.isEnglish;
     final cityName = _city!.city;
-    // Şehir görselini bul
-    final imageUrl = _cityImages[_currentCityId] ?? 'https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=800';
+    // Şehir görselini bul (Artık AIService üzerinden merkezi olarak alınıyor)
+    final imageUrl = AIService.getCityImage(_currentCityId);
 
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 16),
@@ -1081,7 +1846,7 @@ class _ExploreScreenState extends State<ExploreScreen>
                             ),
                             const SizedBox(height: 6),
                             Text(
-                              isEnglish ? "Visa, transport, history & more" : "Vize, ulaşım, tarih ve ipuçları",
+                              isEnglish ? "Transport, history, stay & all local tips" : "Ulaşım, tarih, konaklama ve tüm lokal ipuçları",
                               style: TextStyle(
                                 color: Colors.white.withOpacity(0.8),
                                 fontSize: 13,
@@ -1155,8 +1920,10 @@ class _ExploreScreenState extends State<ExploreScreen>
     }
 
     final cityKey = getCityKey(_city?.city);
-    // Öncelik JSON'dan gelen heroImage'da, yoksa hardcoded listeden al
-    final imageUrl = _city?.heroImage ?? _cityImages[cityKey] ?? _cityImages['barcelona']!;
+    // Merkezi görsel havuzundan al, yoksa JSON'daki heroImage'a bak
+    final imageUrl = AIService.getCityImage(cityKey) != 'https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=800'
+        ? AIService.getCityImage(cityKey)
+        : (_city?.heroImage ?? AIService.getCityImage(cityKey));
 
     return Container(
       height: 320,
@@ -1221,11 +1988,14 @@ class _ExploreScreenState extends State<ExploreScreen>
             top: MediaQuery.of(context).padding.top + 12,
             left: 16,
             child: GestureDetector(
+              key: _citySelectKey, // 🔥 KEY EKLENDİ
               onTap: () async {
                 final result = await CitySwitcherScreen.showAsModal(context);
                 if (result != null && mounted) {
                   setState(() => _loading = true);
-                  _loadData();
+                  await _loadData();
+                  // Eğer "Henüz Karar Vermedim" seçildiyse pop-up göster
+                  _checkAndShowCitySuggestion();
                 }
               },
               child: ClipRRect(
@@ -1277,15 +2047,17 @@ class _ExploreScreenState extends State<ExploreScreen>
           Positioned(
             top: MediaQuery.of(context).padding.top + 12,
             right: 16,
-            child: Builder(
-              builder: (context) {
+            child: ListenableBuilder(
+              listenable: PremiumService.instance,
+              builder: (context, child) {
                 final isPremium = PremiumService.instance.isPremium;
-                if (isPremium) return const SizedBox.shrink();
                 
                 return GestureDetector(
                   onTap: () {
                     HapticFeedback.mediumImpact();
-                    showPaywall(context);
+                    if (!isPremium) {
+                      showPaywall(context);
+                    }
                   },
                   child: ClipRRect(
                     borderRadius: BorderRadius.circular(20),
@@ -1294,18 +2066,22 @@ class _ExploreScreenState extends State<ExploreScreen>
                       child: Container(
                         padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 8),
                         decoration: BoxDecoration(
-                          color: accent, 
+                          color: Colors.white.withOpacity(0.15), 
                           borderRadius: BorderRadius.circular(20),
                           border: Border.all(color: Colors.white.withOpacity(0.2)),
                         ),
                         child: Row(
                           mainAxisSize: MainAxisSize.min,
-                          children: const [
-                            Icon(Icons.star_rounded, color: Colors.white, size: 18),
-                            SizedBox(width: 6),
+                          children: [
+                            Icon(
+                              isPremium ? Icons.verified_rounded : Icons.star_rounded, 
+                              color: Colors.white, 
+                              size: 18
+                            ),
+                            const SizedBox(width: 6),
                             Text(
-                              'PRO',
-                              style: TextStyle(
+                              isPremium ? 'PRO' : 'FREE',
+                              style: const TextStyle(
                                 color: Colors.white,
                                 fontSize: 14,
                                 fontWeight: FontWeight.w800,
@@ -1373,8 +2149,9 @@ class _ExploreScreenState extends State<ExploreScreen>
     }
 
     return AnimatedContainer(
+      key: _askAiKey, // 🔥 KEY moved here for full card highlight
       duration: const Duration(milliseconds: 300),
-      margin: const EdgeInsets.fromLTRB(16, 20, 16, 0),
+      margin: const EdgeInsets.fromLTRB(16, 12, 16, 0),
       child: ClipRRect(
         borderRadius: BorderRadius.circular(24),
         child: BackdropFilter(
@@ -1392,7 +2169,7 @@ class _ExploreScreenState extends State<ExploreScreen>
                 
                 // Content
                 Padding(
-                  padding: const EdgeInsets.all(20),
+                  padding: const EdgeInsets.all(16),
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
@@ -1400,15 +2177,15 @@ class _ExploreScreenState extends State<ExploreScreen>
                       Row(
                         children: [
                           Container(
-                            padding: const EdgeInsets.all(4),
+                            padding: const EdgeInsets.all(2), // Less padding to make the symbol larger
                             decoration: BoxDecoration(
                               color: accent,
                               borderRadius: BorderRadius.circular(10),
                             ),
                             child: Image.asset(
                               'assets/images/splash_logo.png',
-                              width: 18,
-                              height: 18,
+                              width: 24, // Increased from 18
+                              height: 24, // Increased from 18
                               fit: BoxFit.contain,
                             ),
                           ),
@@ -1421,7 +2198,7 @@ class _ExploreScreenState extends State<ExploreScreen>
                                   AppLocalizations.instance.aiRecommendations,
                                   style: const TextStyle(
                                     color: Colors.white,
-                                    fontSize: 18,
+                                    fontSize: 16,
                                     fontWeight: FontWeight.w700,
                                     letterSpacing: -0.5,
                                   ),
@@ -1437,7 +2214,7 @@ class _ExploreScreenState extends State<ExploreScreen>
                                         : AppLocalizations.instance.t("Kişiselleştirilmiş öneriler", "Personalized suggestions"),
                                       style: TextStyle(
                                         color: accent.withOpacity(0.9),
-                                        fontSize: 12,
+                                        fontSize: 11,
                                         fontWeight: FontWeight.w500,
                                       ),
                                     ),
@@ -1494,7 +2271,7 @@ class _ExploreScreenState extends State<ExploreScreen>
                       ),
 
 
-                      const SizedBox(height: 18),
+                      const SizedBox(height: 12),
 
                       // AI Response veya Buton
                       if (_aiLoading)
@@ -1525,7 +2302,7 @@ class _ExploreScreenState extends State<ExploreScreen>
               top: -10,
               child: Transform.rotate(
                 angle: 0.2,
-                child: const Icon(Icons.flight_takeoff_rounded, size: 80, color: WanderlustColors.accent),
+                child: const Icon(Icons.flight_takeoff_rounded, size: 64, color: WanderlustColors.accent),
               ),
             ),
             Positioned(
@@ -1533,20 +2310,20 @@ class _ExploreScreenState extends State<ExploreScreen>
               bottom: -10,
               child: Transform.rotate(
                 angle: -0.1,
-                child: const Icon(Icons.luggage_rounded, size: 70, color: WanderlustColors.accent),
+                child: const Icon(Icons.luggage_rounded, size: 54, color: WanderlustColors.accent),
               ),
             ),
             Positioned(
               right: 40,
               bottom: -20,
-              child: const Icon(Icons.confirmation_number_rounded, size: 60, color: WanderlustColors.accent),
+              child: const Icon(Icons.confirmation_number_rounded, size: 44, color: WanderlustColors.accent),
             ),
             Positioned(
               left: 30,
               top: 40,
               child: Transform.rotate(
                 angle: 0.5,
-                child: const Icon(Icons.train_rounded, size: 40, color: Colors.white10),
+                child: const Icon(Icons.train_rounded, size: 32, color: Colors.white10),
               ),
             ),
           ],
@@ -1584,11 +2361,14 @@ class _ExploreScreenState extends State<ExploreScreen>
                       ),
                       child: ClipRRect(
                         borderRadius: BorderRadius.circular(10),
-                        child: Image.asset(
-                          'assets/images/splash_logo.png',
-                          width: 24,
-                          height: 24,
-                          fit: BoxFit.cover,
+                        child: Transform.scale(
+                          scale: 1.15, // Scale up the white symbol
+                          child: Image.asset(
+                            'assets/images/splash_logo.png',
+                            width: 24,
+                            height: 24,
+                            fit: BoxFit.cover,
+                          ),
                         ),
                       ),
                     ),
@@ -1651,6 +2431,7 @@ class _ExploreScreenState extends State<ExploreScreen>
         const SizedBox(height: 16),
         Center(
           child: GestureDetector(
+            // key: _askAiKey, // 🔥 KEY REMOVED (Moved to container)
             onTap: () {
               HapticFeedback.mediumImpact();
               _fetchAIChatResponse();
@@ -1788,6 +2569,13 @@ class _ExploreScreenState extends State<ExploreScreen>
             child: MarkdownBody(
               data: intro,
               styleSheet: _getMarkdownStyle(),
+              onTapLink: (text, href, title) {
+                if (href != null && href.startsWith('search:')) {
+                  _navigateToPlaceDetail(Uri.decodeComponent(href.substring(7)));
+                } else if (href != null) {
+                   launchUrl(Uri.parse(href));
+                }
+              },
             ),
           ),
 
@@ -1810,6 +2598,13 @@ class _ExploreScreenState extends State<ExploreScreen>
             child: MarkdownBody(
               data: tip, // **İpucu:** kısmı burada geliyor zaten
               styleSheet: _getMarkdownStyle(),
+              onTapLink: (text, href, title) {
+                if (href != null && href.startsWith('search:')) {
+                  _navigateToPlaceDetail(Uri.decodeComponent(href.substring(7)));
+                } else if (href != null) {
+                   launchUrl(Uri.parse(href));
+                }
+              },
             ),
           ),
       ],
@@ -2030,35 +2825,68 @@ class _ExploreScreenState extends State<ExploreScreen>
     };
   }
 
-  void _navigateToPlaceDetail(String query) {
-    if (_city == null) return;
-
-    // Şehrin highlight'ları içinde ismi eşleşen (veya içeren) yeri bul
+  void _navigateToPlaceDetail(String query) async {
     try {
-      final highlight = _city!.highlights.firstWhere(
-        (h) => h.name.toLowerCase().contains(query.toLowerCase()) || 
-               query.toLowerCase().contains(h.name.toLowerCase()),
-      );
+      String? targetCity;
+      String searchPlace = query;
 
-      // Bulunan yerin detay sayfasına git
-      Navigator.push(
-        context,
-        MaterialPageRoute(
-          builder: (context) => DetailScreen(
-            place: highlight,
+      // 1. Önce mevcut şehri dene
+      Highlight? foundPlace;
+      if (_city != null) {
+        try {
+          foundPlace = _city!.highlights.firstWhere(
+            (h) => h.name.toLowerCase().trim() == searchPlace.toLowerCase().trim() || 
+                   searchPlace.toLowerCase().contains(h.name.toLowerCase().trim()) ||
+                   h.name.toLowerCase().contains(searchPlace.toLowerCase().trim())
+          );
+        } catch (_) {}
+      }
+
+      // 2. Bulunamadıysa cross-city ara
+      if (foundPlace == null) {
+        // Query içinde şehir adı var mı kontrol et
+        final allCities = CityDataLoader.supportedCities;
+        for (var cityId in allCities) {
+          if (query.toLowerCase().contains(cityId)) {
+            targetCity = cityId;
+            break;
+          }
+        }
+
+        List<String> citiesToSearch = targetCity != null 
+            ? [targetCity] 
+            : ['roma', 'paris', 'barcelona', 'istanbul', 'londra', 'viyana', 'prag', 'lizbon', 'rovaniemi', 'matera', 'sintra', 'colmar'];
+        
+        for (var cityId in citiesToSearch) {
+          if (_city != null && cityId == _currentCityId) continue;
+          final cityModel = await CityDataLoader.loadCity(cityId);
+          try {
+            foundPlace = cityModel.highlights.firstWhere(
+              (h) => h.name.toLowerCase().trim() == searchPlace.toLowerCase().trim() || 
+                     searchPlace.toLowerCase().contains(h.name.toLowerCase().trim()) ||
+                     h.name.toLowerCase().contains(searchPlace.toLowerCase().trim())
+            );
+            if (foundPlace != null) break;
+          } catch (_) {}
+        }
+      }
+
+      if (foundPlace != null && mounted) {
+        Navigator.push(
+          context,
+          MaterialPageRoute(builder: (_) => DetailScreen(place: foundPlace!)),
+        );
+      } else {
+         ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(
+            content: Text(AppLocalizations.instance.placeNotFound(query)),
+            backgroundColor: Colors.redAccent,
+            behavior: SnackBarBehavior.floating,
           ),
-        ),
-      );
+        );
+      }
     } catch (e) {
-      // Yer bulunamazsa kullanıcıya bilgi ver
-      ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(
-          content: Text(AppLocalizations.instance.placeNotFound(query)),
-          backgroundColor: Colors.redAccent,
-          behavior: SnackBarBehavior.floating,
-          duration: const Duration(seconds: 2),
-        ),
-      );
+      debugPrint('Place navigation error: $e');
     }
   }
 
@@ -2181,7 +3009,7 @@ class _ExploreScreenState extends State<ExploreScreen>
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Text(
-                        place.name,
+                        place.getLocalizedName(isEnglish),
                         style: const TextStyle(
                           color: textWhite,
                           fontSize: 13,
@@ -2418,6 +3246,7 @@ class _ExploreScreenState extends State<ExploreScreen>
     ];
 
     return Column(
+      key: _moodSelectionKey, // 🔥 KEY HERE
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Padding(
@@ -2661,7 +3490,7 @@ class _ExploreScreenState extends State<ExploreScreen>
   // PLACE CARD
   // ══════════════════════════════════════════════════════════════════════════
 
-  Widget _buildPlaceCard(Highlight place) {
+  Widget _buildPlaceCard(Highlight place, int index) {
     final hasImage = place.imageUrl != null && place.imageUrl!.isNotEmpty;
     final placeKey = "$_currentCityId:${place.name}";
     final isFavorite = _favorites.contains(placeKey) || _favorites.contains(place.name);
@@ -2846,7 +3675,7 @@ class _ExploreScreenState extends State<ExploreScreen>
                 children: [
                   // İsim
                   Text(
-                    place.name,
+                    place.getLocalizedName(AppLocalizations.instance.isEnglish),
                     style: const TextStyle(
                       color: textWhite,
                       fontSize: 16,
@@ -2901,6 +3730,7 @@ class _ExploreScreenState extends State<ExploreScreen>
                         ),
                       // Rotaya ekle butonu
                       GestureDetector(
+                        key: null, // 🔥 FIRST ITEM KEY
                         onTap: () => _addToTrip(place.name),
                         child: Container(
                           padding: const EdgeInsets.symmetric(
@@ -2952,6 +3782,7 @@ class _ExploreScreenState extends State<ExploreScreen>
 
   Widget _buildFloatingAIButton() {
     return GestureDetector(
+      key: _aiFabKey,
       onTap: () {
         HapticFeedback.mediumImpact();
         _showAISheet();
@@ -2971,7 +3802,7 @@ class _ExploreScreenState extends State<ExploreScreen>
           ],
         ),
         child: Padding(
-          padding: const EdgeInsets.all(8),
+          padding: const EdgeInsets.all(6), // Reduced padding to make the symbol larger
           child: Image.asset(
             'assets/images/splash_logo.png',
             fit: BoxFit.contain,
@@ -2982,6 +3813,18 @@ class _ExploreScreenState extends State<ExploreScreen>
   }
 
   void _showAISheet() {
+    // 🔒 PREMIUM CHECK: My Way Assistant
+    if (!PremiumService.instance.isPremium) {
+       showPaywall(
+         context,
+         onSubscribe: (planId) {
+             // Paywall closes automatically on success, so we just proceed
+             // Waiting for a small delay or check is handled by onSubscribe usually
+         },
+       );
+       return;
+    }
+
     Navigator.push(
       context,
       MaterialPageRoute(

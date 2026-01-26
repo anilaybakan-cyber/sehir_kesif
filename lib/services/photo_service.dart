@@ -200,6 +200,18 @@ class PhotoService {
         'https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Kiz_Kulesi_Sunset.jpg/1280px-Kiz_Kulesi_Sunset.jpg',
     'Boğaz':
         'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Bosphorus._Istanbul%2C_Turkey.jpg/1280px-Bosphorus._Istanbul%2C_Turkey.jpg',
+
+    // Paywall (Vertical/Portrait Optimized)
+    'Paywall_Seville':
+        'https://images.unsplash.com/photo-1512106374988-c97f427f63b6?q=80&w=800&h=1200&fit=crop',
+    'Paywall_Santorini':
+        'https://images.unsplash.com/photo-1596395819057-d3752e50c608?q=80&w=800&h=1200&fit=crop',
+    'Paywall_Rome':
+        'https://images.unsplash.com/photo-1529154036614-a60975f5c760?q=80&w=800&h=1200&fit=crop',
+    'Paywall_Paris':
+        'https://images.unsplash.com/photo-1543349689-9a4d426bee8e?q=80&w=800&h=1200&fit=crop',
+    'Paywall_Amsterdam':
+        'https://images.unsplash.com/photo-1582236894354-94f71fb355b2?q=80&w=800&h=1200&fit=crop',
   };
 
   /// Küratörlü fotoğraf URL'i getir (varsa)

@@ -11,6 +11,8 @@ import '../l10n/app_localizations.dart';
 import '../services/memory_service.dart';
 import '../models/travel_memory.dart';
 import '../widgets/add_memory_sheet.dart';
+import '../services/premium_service.dart';
+import 'paywall_screen.dart';
 
 class MemoriesScreen extends StatefulWidget {
   const MemoriesScreen({super.key});
@@ -22,6 +24,8 @@ class MemoriesScreen extends StatefulWidget {
 class _MemoriesScreenState extends State<MemoriesScreen> {
   final _memoryService = MemoryService();
   String? _selectedCityFilter;
+  final ScrollController _scrollController = ScrollController();
+  bool _showScrollToTop = false;
 
   bool get isEnglish => AppLocalizations.instance.isEnglish;
 
@@ -30,12 +34,28 @@ class _MemoriesScreenState extends State<MemoriesScreen> {
     super.initState();
     _memoryService.initialize();
     _memoryService.memoriesNotifier.addListener(_onMemoriesUpdated);
+    _scrollController.addListener(() {
+      final show = _scrollController.offset > 200;
+      if (show != _showScrollToTop) {
+        setState(() => _showScrollToTop = show);
+      }
+    });
   }
 
   @override
   void dispose() {
     _memoryService.memoriesNotifier.removeListener(_onMemoriesUpdated);
+    _scrollController.dispose();
     super.dispose();
+  }
+
+  void _showPaywall() {
+    showModalBottomSheet(
+      context: context,
+      isScrollControlled: true,
+      backgroundColor: Colors.transparent,
+      builder: (context) => const PaywallScreen(),
+    );
   }
 
   void _onMemoriesUpdated() => setState(() {});
@@ -120,15 +140,63 @@ class _MemoriesScreenState extends State<MemoriesScreen> {
             ),
         ],
       ),
-      body: showFolders
-          ? _buildCityFolders(cities)
-          : (memories.isEmpty
-              ? _buildEmptyState()
-              : _buildMemoriesGrid(memories)),
+      body: Stack(
+        children: [
+          showFolders
+              ? _buildCityFolders(cities)
+              : (memories.isEmpty
+                  ? _buildEmptyState()
+                  : _buildMemoriesGrid(memories)),
+          if (_showScrollToTop)
+            Positioned(
+              right: 20,
+              bottom: 30, // Adjust if FAB interferes, but this screen has FAB at bottom right
+              child: AnimatedOpacity(
+                opacity: _showScrollToTop ? 1.0 : 0.0,
+                duration: const Duration(milliseconds: 200),
+                child: GestureDetector(
+                  onTap: () {
+                    HapticFeedback.lightImpact();
+                    _scrollController.animateTo(
+                      0, 
+                      duration: const Duration(milliseconds: 500), 
+                      curve: Curves.easeOutCubic
+                    );
+                  },
+                  child: Container(
+                    width: 44,
+                    height: 44,
+                    decoration: BoxDecoration(
+                      color: WanderlustColors.bgCard.withOpacity(0.8),
+                      shape: BoxShape.circle,
+                      border: Border.all(color: WanderlustColors.border.withOpacity(0.5)),
+                    ),
+                    child: const Icon(
+                      Icons.keyboard_arrow_up_rounded,
+                      color: WanderlustColors.textGrey,
+                      size: 28,
+                    ),
+                  ),
+                ),
+              ),
+            ),
+        ],
+      ),
       floatingActionButton: FloatingActionButton.extended(
         onPressed: () async {
+          // Premium limit kontrolü
+          if (!PremiumService.instance.canSaveMemory()) {
+            _showPaywall();
+            return;
+          }
+
           HapticFeedback.mediumImpact();
-          await AddMemorySheet.show(context);
+          final result = await AddMemorySheet.show(context);
+          
+          if (result != null) {
+            // Anı kaydedildi, limit düş
+            await PremiumService.instance.useSaveMemory();
+          }
         },
         backgroundColor: WanderlustColors.accent,
         icon: const Icon(Icons.add_a_photo_rounded),
@@ -139,6 +207,7 @@ class _MemoriesScreenState extends State<MemoriesScreen> {
 
   Widget _buildCityFolders(List<String> cities) {
     return CustomScrollView(
+      controller: _scrollController,
       slivers: [
         SliverPadding(
           padding: const EdgeInsets.all(20),
@@ -328,6 +397,7 @@ class _MemoriesScreenState extends State<MemoriesScreen> {
 
   Widget _buildMemoriesGrid(List<TravelMemory> memories) {
     return CustomScrollView(
+      controller: _scrollController,
       slivers: [
         // Stats header
         SliverToBoxAdapter(

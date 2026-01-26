@@ -237,7 +237,7 @@ class AppGradients {
   static const LinearGradient primary = LinearGradient(
     begin: Alignment.topLeft,
     end: Alignment.bottomRight,
-    colors: [Color(0xFF667EEA), Color(0xFF764BA2)],
+    colors: [Color(0xFF7C8BDA), Color(0xFF6A7BC5)],
   );
 
   static const LinearGradient sunset = LinearGradient(

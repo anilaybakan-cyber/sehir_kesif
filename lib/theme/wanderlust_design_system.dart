@@ -12,8 +12,8 @@ import 'dart:ui';
 /// Organic warmth meets bold gradients
 /// ═══════════════════════════════════════════════════════════════════════════
 
-class WanderlustColors {
-  WanderlustColors._();
+class WanderlustDesignColors {
+  WanderlustDesignColors._();
 
   // Primary Gradient - Sunset Coral to Warm Orange
   static const Color primaryStart = Color(0xFFFF6B6B);
@@ -134,7 +134,7 @@ class WanderlustTypography {
     fontWeight: FontWeight.w700,
     letterSpacing: -1.5,
     height: 1.1,
-    color: WanderlustColors.textPrimary,
+    color: WanderlustDesignColors.textPrimary,
   );
 
   static const TextStyle displayMedium = TextStyle(
@@ -143,7 +143,7 @@ class WanderlustTypography {
     fontWeight: FontWeight.w600,
     letterSpacing: -1.0,
     height: 1.2,
-    color: WanderlustColors.textPrimary,
+    color: WanderlustDesignColors.textPrimary,
   );
 
   static const TextStyle displaySmall = TextStyle(
@@ -152,7 +152,7 @@ class WanderlustTypography {
     fontWeight: FontWeight.w600,
     letterSpacing: -0.5,
     height: 1.25,
-    color: WanderlustColors.textPrimary,
+    color: WanderlustDesignColors.textPrimary,
   );
 
   // Headlines
@@ -162,7 +162,7 @@ class WanderlustTypography {
     fontWeight: FontWeight.w700,
     letterSpacing: -0.5,
     height: 1.3,
-    color: WanderlustColors.textPrimary,
+    color: WanderlustDesignColors.textPrimary,
   );
 
   static const TextStyle headlineMedium = TextStyle(
@@ -171,7 +171,7 @@ class WanderlustTypography {
     fontWeight: FontWeight.w600,
     letterSpacing: -0.25,
     height: 1.35,
-    color: WanderlustColors.textPrimary,
+    color: WanderlustDesignColors.textPrimary,
   );
 
   static const TextStyle headlineSmall = TextStyle(
@@ -180,7 +180,7 @@ class WanderlustTypography {
     fontWeight: FontWeight.w600,
     letterSpacing: 0,
     height: 1.4,
-    color: WanderlustColors.textPrimary,
+    color: WanderlustDesignColors.textPrimary,
   );
 
   // Body Text
@@ -190,7 +190,7 @@ class WanderlustTypography {
     fontWeight: FontWeight.w400,
     letterSpacing: 0.15,
     height: 1.5,
-    color: WanderlustColors.textPrimary,
+    color: WanderlustDesignColors.textPrimary,
   );
 
   static const TextStyle bodyMedium = TextStyle(
@@ -199,7 +199,7 @@ class WanderlustTypography {
     fontWeight: FontWeight.w400,
     letterSpacing: 0.25,
     height: 1.5,
-    color: WanderlustColors.textSecondary,
+    color: WanderlustDesignColors.textSecondary,
   );
 
   static const TextStyle bodySmall = TextStyle(
@@ -208,7 +208,7 @@ class WanderlustTypography {
     fontWeight: FontWeight.w400,
     letterSpacing: 0.4,
     height: 1.5,
-    color: WanderlustColors.textLight,
+    color: WanderlustDesignColors.textLight,
   );
 
   // Labels & Buttons
@@ -218,7 +218,7 @@ class WanderlustTypography {
     fontWeight: FontWeight.w600,
     letterSpacing: 0.5,
     height: 1.4,
-    color: WanderlustColors.textPrimary,
+    color: WanderlustDesignColors.textPrimary,
   );
 
   static const TextStyle labelMedium = TextStyle(
@@ -227,7 +227,7 @@ class WanderlustTypography {
     fontWeight: FontWeight.w600,
     letterSpacing: 0.5,
     height: 1.4,
-    color: WanderlustColors.textSecondary,
+    color: WanderlustDesignColors.textSecondary,
   );
 
   static const TextStyle labelSmall = TextStyle(
@@ -236,7 +236,7 @@ class WanderlustTypography {
     fontWeight: FontWeight.w500,
     letterSpacing: 0.5,
     height: 1.4,
-    color: WanderlustColors.textLight,
+    color: WanderlustDesignColors.textLight,
   );
 
   // Special
@@ -246,7 +246,7 @@ class WanderlustTypography {
     fontWeight: FontWeight.w600,
     letterSpacing: 0.5,
     height: 1.25,
-    color: WanderlustColors.textOnGradient,
+    color: WanderlustDesignColors.textOnGradient,
   );
 
   static const TextStyle caption = TextStyle(
@@ -255,7 +255,7 @@ class WanderlustTypography {
     fontWeight: FontWeight.w500,
     letterSpacing: 0.5,
     height: 1.4,
-    color: WanderlustColors.textLight,
+    color: WanderlustDesignColors.textLight,
   );
 }
 
@@ -362,7 +362,7 @@ class WanderlustEffects {
 
   static List<BoxShadow> primaryShadow = [
     BoxShadow(
-      color: WanderlustColors.primaryStart.withOpacity(0.3),
+      color: WanderlustDesignColors.primaryStart.withOpacity(0.3),
       blurRadius: 20,
       offset: const Offset(0, 8),
     ),
@@ -370,7 +370,7 @@ class WanderlustEffects {
 
   static List<BoxShadow> accentShadow = [
     BoxShadow(
-      color: WanderlustColors.accentStart.withOpacity(0.3),
+      color: WanderlustDesignColors.accentStart.withOpacity(0.3),
       blurRadius: 20,
       offset: const Offset(0, 8),
     ),
@@ -397,13 +397,13 @@ class WanderlustDecorations {
   WanderlustDecorations._();
 
   static BoxDecoration glassCard = BoxDecoration(
-    color: WanderlustColors.glassWhite,
+    color: WanderlustDesignColors.glassWhite,
     borderRadius: BorderRadius.circular(WanderlustSpacing.radiusLg),
-    border: Border.all(color: WanderlustColors.glassBorder, width: 1.5),
+    border: Border.all(color: WanderlustDesignColors.glassBorder, width: 1.5),
   );
 
   static BoxDecoration solidCard = BoxDecoration(
-    color: WanderlustColors.surface,
+    color: WanderlustDesignColors.surface,
     borderRadius: BorderRadius.circular(WanderlustSpacing.radiusLg),
     boxShadow: WanderlustEffects.shadowMd,
   );
@@ -415,10 +415,10 @@ class WanderlustDecorations {
   );
 
   static BoxDecoration inputField = BoxDecoration(
-    color: WanderlustColors.background,
+    color: WanderlustDesignColors.background,
     borderRadius: BorderRadius.circular(WanderlustSpacing.radiusMd),
     border: Border.all(
-      color: WanderlustColors.textLight.withOpacity(0.3),
+      color: WanderlustDesignColors.textLight.withOpacity(0.3),
       width: 1,
     ),
   );
@@ -439,18 +439,18 @@ class WanderlustTheme {
   static ThemeData get lightTheme => ThemeData(
     useMaterial3: true,
     brightness: Brightness.light,
-    scaffoldBackgroundColor: WanderlustColors.background,
+    scaffoldBackgroundColor: WanderlustDesignColors.background,
 
     colorScheme: const ColorScheme.light(
-      primary: WanderlustColors.primaryStart,
-      secondary: WanderlustColors.secondaryStart,
-      tertiary: WanderlustColors.accentStart,
-      surface: WanderlustColors.surface,
-      error: WanderlustColors.error,
-      onPrimary: WanderlustColors.textOnGradient,
-      onSecondary: WanderlustColors.textOnGradient,
-      onSurface: WanderlustColors.textPrimary,
-      onError: WanderlustColors.textOnGradient,
+      primary: WanderlustDesignColors.primaryStart,
+      secondary: WanderlustDesignColors.secondaryStart,
+      tertiary: WanderlustDesignColors.accentStart,
+      surface: WanderlustDesignColors.surface,
+      error: WanderlustDesignColors.error,
+      onPrimary: WanderlustDesignColors.textOnGradient,
+      onSecondary: WanderlustDesignColors.textOnGradient,
+      onSurface: WanderlustDesignColors.textPrimary,
+      onError: WanderlustDesignColors.textOnGradient,
     ),
 
     appBarTheme: const AppBarTheme(
@@ -459,14 +459,14 @@ class WanderlustTheme {
       backgroundColor: Colors.transparent,
       systemOverlayStyle: SystemUiOverlayStyle.dark,
       titleTextStyle: WanderlustTypography.headlineMedium,
-      iconTheme: IconThemeData(color: WanderlustColors.textPrimary),
+      iconTheme: IconThemeData(color: WanderlustDesignColors.textPrimary),
     ),
 
     bottomNavigationBarTheme: BottomNavigationBarThemeData(
-      backgroundColor: WanderlustColors.surface,
+      backgroundColor: WanderlustDesignColors.surface,
       elevation: 0,
-      selectedItemColor: WanderlustColors.primaryStart,
-      unselectedItemColor: WanderlustColors.textLight,
+      selectedItemColor: WanderlustDesignColors.primaryStart,
+      unselectedItemColor: WanderlustDesignColors.textLight,
       type: BottomNavigationBarType.fixed,
       selectedLabelStyle: WanderlustTypography.labelSmall,
       unselectedLabelStyle: WanderlustTypography.labelSmall,
@@ -475,7 +475,7 @@ class WanderlustTheme {
     // IMPORTANT: CardThemeData (yeni Flutter)
     cardTheme: CardThemeData(
       elevation: 0,
-      color: WanderlustColors.surface,
+      color: WanderlustDesignColors.surface,
       shape: RoundedRectangleBorder(
         borderRadius: BorderRadius.circular(WanderlustSpacing.radiusLg),
       ),
@@ -483,14 +483,14 @@ class WanderlustTheme {
 
     inputDecorationTheme: InputDecorationTheme(
       filled: true,
-      fillColor: WanderlustColors.background,
+      fillColor: WanderlustDesignColors.background,
       border: OutlineInputBorder(
         borderRadius: BorderRadius.circular(WanderlustSpacing.radiusMd),
         borderSide: BorderSide.none,
       ),
       contentPadding: const EdgeInsets.symmetric(horizontal: 16, vertical: 14),
       hintStyle: WanderlustTypography.bodyMedium.copyWith(
-        color: WanderlustColors.textLight,
+        color: WanderlustDesignColors.textLight,
       ),
     ),
 
@@ -524,17 +524,17 @@ class WanderlustTheme {
   static ThemeData get darkTheme => ThemeData(
     useMaterial3: true,
     brightness: Brightness.dark,
-    scaffoldBackgroundColor: WanderlustColors.backgroundDark,
+    scaffoldBackgroundColor: WanderlustDesignColors.backgroundDark,
     colorScheme: const ColorScheme.dark(
-      primary: WanderlustColors.primaryStart,
-      secondary: WanderlustColors.secondaryStart,
-      tertiary: WanderlustColors.accentStart,
-      surface: WanderlustColors.surfaceDark,
-      error: WanderlustColors.error,
-      onPrimary: WanderlustColors.textOnGradient,
-      onSecondary: WanderlustColors.textOnGradient,
-      onSurface: WanderlustColors.textOnGradient,
-      onError: WanderlustColors.textOnGradient,
+      primary: WanderlustDesignColors.primaryStart,
+      secondary: WanderlustDesignColors.secondaryStart,
+      tertiary: WanderlustDesignColors.accentStart,
+      surface: WanderlustDesignColors.surfaceDark,
+      error: WanderlustDesignColors.error,
+      onPrimary: WanderlustDesignColors.textOnGradient,
+      onSecondary: WanderlustDesignColors.textOnGradient,
+      onSurface: WanderlustDesignColors.textOnGradient,
+      onError: WanderlustDesignColors.textOnGradient,
     ),
     appBarTheme: const AppBarTheme(
       elevation: 0,
@@ -542,7 +542,7 @@ class WanderlustTheme {
       backgroundColor: Colors.transparent,
       systemOverlayStyle: SystemUiOverlayStyle.light,
       titleTextStyle: WanderlustTypography.headlineMedium,
-      iconTheme: IconThemeData(color: WanderlustColors.textOnGradient),
+      iconTheme: IconThemeData(color: WanderlustDesignColors.textOnGradient),
     ),
     textTheme: TextTheme(
       displayLarge: WanderlustTypography.displayLarge.copyWith(

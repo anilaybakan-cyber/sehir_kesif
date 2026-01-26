@@ -13,11 +13,23 @@ import 'dart:math' as math;
 import 'dart:ui' as ui;
 import 'dart:convert';
 import '../services/trip_update_service.dart';
+import '../l10n/app_localizations.dart';
 import '../models/city_model.dart';
 import '../services/city_data_loader.dart';
 import '../services/directions_service.dart'; // Import this if needed or generic logic
 import '../utils/map_theme.dart';
+import '../services/tutorial_service.dart';
 import 'detail_screen.dart';
+import '../services/curated_routes_service.dart';
+import '../theme/wanderlust_colors.dart';
+import '../widgets/map_background.dart';
+import '../widgets/amber_background_symbols.dart';
+import 'dart:ui'; // For ImageFilter
+import '../models/completed_route.dart';
+import '../services/premium_service.dart';
+import 'package:tutorial_coach_mark/tutorial_coach_mark.dart';
+import '../widgets/tutorial_overlay_widget.dart';
+import 'paywall_screen.dart';
 
 // =============================================================================
 // SUGGESTED ROUTE MODEL
@@ -33,6 +45,7 @@ class SuggestedRoute {
   final String imageUrl;
   final List<String> tags;
   final List<String> placeNames;
+  final List<String> interests;
   final Color accentColor;
   final IconData icon;
 
@@ -46,6 +59,7 @@ class SuggestedRoute {
     required this.imageUrl,
     required this.tags,
     required this.placeNames,
+    required this.interests,
     required this.accentColor,
     required this.icon,
   });
@@ -56,7 +70,8 @@ class SuggestedRoute {
 // =============================================================================
 
 class RoutesScreen extends StatefulWidget {
-  const RoutesScreen({super.key});
+  final bool isVisible;
+  const RoutesScreen({super.key, this.isVisible = false});
 
   @override
   State<RoutesScreen> createState() => _RoutesScreenState();
@@ -65,33 +80,36 @@ class RoutesScreen extends StatefulWidget {
 class _RoutesScreenState extends State<RoutesScreen>
     with TickerProviderStateMixin {
   // AMBER/GOLD THEME
-  static const Color bgDark = Color(0xFF0D0D1A);
-  static const Color bgCard = Color(0xFF1A1A2E);
-  static const Color bgCardLight = Color(0xFF252542);
-  static const Color accent = Color(0xFFF5A623); // Amber
-  static const Color accentLight = Color(0xFFFFB800); // Gold
-  static const Color accentBlue = Color(0xFF4ECDC4);
+  // Local constants removed as we use WanderlustColors globally
+  static const Color accent = WanderlustColors.accent; // Purple
+  static const Color accentLight = Color(0xFF9E7CFF); // Purple Light
   static const Color accentOrange = Color(0xFFFF9800);
   static const Color accentGreen = Color(0xFF4CAF50);
-  static const Color textWhite = Color(0xFFFFFFFF);
-  static const Color textGrey = Color(0xFF9CA3AF);
-  static const Color borderColor = Color(0xFF2D2D4A);
+  static const Color iconColor = WanderlustColors.textWhite;
+  static const Color bgCardLight = WanderlustColors.bgCardLight;
+
+  // Tutorial Keys
+  final GlobalKey _routesTabKey = GlobalKey();
+  final GlobalKey _createRouteButtonKey = GlobalKey();
+  final GlobalKey _myRouteStatsKey = GlobalKey();
+  final GlobalKey _startRouteButtonKey = GlobalKey();
+
 
   static const LinearGradient primaryGradient = LinearGradient(
     begin: Alignment.topLeft,
     end: Alignment.bottomRight,
-    colors: [Color(0xFFF5A623), Color(0xFFFFB800)],
+    colors: [WanderlustColors.accent, WanderlustColors.accent],
   );
 
   static const LinearGradient greenGradient = LinearGradient(
     begin: Alignment.topLeft,
     end: Alignment.bottomRight,
-    colors: [Color(0xFF4CAF50), Color(0xFF2E7D32)],
+    colors: [Color(0xFF4CAF50), Color(0xFF4CAF50)],
   );
 
   // Google Maps API Key - Buraya kendi API key'inizi ekleyin
   // https://console.cloud.google.com/google/maps-apis/credentials
-  static const String _googleMapsApiKey = "AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0";
+  static const String _googleMapsApiKey = "AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g";
 
   CityModel? _city;
   bool _loading = true;
@@ -100,6 +118,7 @@ class _RoutesScreenState extends State<RoutesScreen>
   List<String> _tripPlaceNames = [];
   List<Highlight> _tripPlaces = [];
   Map<int, List<Highlight>> _dayPlans = {};
+  Map<String, String> _placeCityMap = {}; // Yer adı -> şehir adı mapping
   int _totalDays = 1;
   int _tripDays = 3; // Onboarding'den gelen gün sayısı
   List<SuggestedRoute> _allSuggestedRoutes = [];
@@ -110,32 +129,90 @@ class _RoutesScreenState extends State<RoutesScreen>
   GoogleMapController? _routeMapController;
   Set<Marker> _routeMarkers = {};
   Set<Polyline> _routePolylines = {};
+  final ScrollController _myRouteScrollController = ScrollController();
 
   late TabController _mainTabController;
   TabController? _dayTabController;
   int _selectedRouteFilter = 0; // 0: Tümü, 1: Bana Özel, 2: Popüler
+  int _selectedTransportMode = 0; // 0 = walk, 1 = bike, 2 = transit, 3 = car
+
+  // Transit API Cache
+  int? _transitTimeCache;
+  bool _transitLoading = false;
+
+  // Route Polyline Cache: "mode_day" -> route data
+  Map<String, Map<String, dynamic>> _routeCache = {};
+  bool _routeLoading = false;
+  List<Map<String, dynamic>> _currentRouteSteps = []; // For displaying route breakdown
+  bool _isMapFullscreen = false; // Fullscreen map mode
+  Map<String, String> _routeOrigins = {}; // Day -> RouteId mapping for zero-cost routes
+  
+  // Scroll Controller
+  // Scroll Controllers
+  final ScrollController _routesScrollController = ScrollController();
+  final ScrollController _suggestionsScrollController = ScrollController();
+  bool _showScrollToTop = false; // For My Route
+  bool _showSuggestionsScrollToTop = false; // For Suggestions
+
+  // Scroll Controller
 
   @override
   void initState() {
     super.initState();
     _mainTabController = TabController(length: 2, vsync: this);
+    _mainTabController.addListener(_onMainTabChanged);
+    // Remove individual tab listeners if they cause issues, global controller usually enough
+    // But day tabs need listener for index updates
     _loadData();
+    
     // Global değişiklikleri dinle
     TripUpdateService().tripUpdated.addListener(_onTripDataChanged);
+    TripUpdateService().cityChanged.addListener(_onCityChanged);
+
+    // Scroll Listeners
+    _routesScrollController.addListener(() {
+      if (_routesScrollController.offset > 200) {
+        if (!_showScrollToTop) setState(() => _showScrollToTop = true);
+      } else {
+        if (_showScrollToTop) setState(() => _showScrollToTop = false);
+      }
+    });
+
+    _suggestionsScrollController.addListener(() {
+      if (_suggestionsScrollController.offset > 200) {
+        if (!_showSuggestionsScrollToTop) setState(() => _showSuggestionsScrollToTop = true);
+      } else {
+        if (_showSuggestionsScrollToTop) setState(() => _showSuggestionsScrollToTop = false);
+      }
+    });
+  }
+
+  @override
+  void didUpdateWidget(RoutesScreen oldWidget) {
+    super.didUpdateWidget(oldWidget);
+    // Tutorial triggering is controlled, not automatic
   }
 
   @override
   void dispose() {
     TripUpdateService().tripUpdated.removeListener(_onTripDataChanged);
+    TripUpdateService().cityChanged.removeListener(_onCityChanged);
+    _mainTabController.removeListener(_onMainTabChanged);
     _mainTabController.dispose();
     _dayTabController?.removeListener(_handleDayTabChange);
     _dayTabController?.dispose();
     _routeMapController?.dispose();
+    _routesScrollController.dispose();
+    _suggestionsScrollController.dispose();
     super.dispose();
   }
 
   void _onTripDataChanged() {
     _loadData();
+  }
+
+  void _onCityChanged() {
+    _loadData(); // Şehir değişince tüm veriyi yeniden yükle
   }
 
   void _handleDayTabChange() {
@@ -152,71 +229,134 @@ class _RoutesScreenState extends State<RoutesScreen>
   }
 
   Future<void> _loadData() async {
-    final cityData = await CityDataLoader.loadCity("barcelona");
-    if (cityData == null) return;
-
-    if (!mounted) return;
-
     final prefs = await SharedPreferences.getInstance();
     
     // 1. Profil / İlgi Alanları
     final travelStyle = prefs.getString("user_style") ?? "Denge";
     final interests = prefs.getStringList("user_interests") ?? [];
     
-    // 2. Rota Verisi
-    final savedPlaces = prefs.getStringList("trip_places") ?? [];
+    // 2. Rota Verisi - Yeni format (şehir bilgisi var) veya eski format (yok)
     final savedScheduleJson = prefs.getString("trip_schedule");
+    final savedPlaces = prefs.getStringList("trip_places") ?? [];
+    
+    // YENİ: Route Origins yükle
+    final savedOriginsJson = prefs.getString("trip_route_origins");
+    Map<String, String> loadedOrigins = {};
+    if (savedOriginsJson != null) {
+      try {
+        final decoded = jsonDecode(savedOriginsJson) as Map<String, dynamic>;
+        decoded.forEach((key, value) {
+          loadedOrigins[key] = value.toString();
+        });
+      } catch (_) {}
+    }
+    
+    // Aktif şehir (suggested routes için)
+    final currentCity = (prefs.getString("selectedCity") ?? "barcelona").toLowerCase();
+    final cityData = await CityDataLoader.loadCity(currentCity);
+    
+    if (!mounted) return;
+    if (cityData == null) return;
 
     final dayPlans = <int, List<Highlight>>{};
     int maxDay = 1;
-    bool scheduleLoaded = false;
+    
+    // Tüm yüklenen şehir dataları
+    final Map<String, CityModel> loadedCities = {currentCity: cityData};
+    
+    // Benzersiz isimleri ve şehirlerini topla
+    final Map<String, String> placeCityMapping = {};
 
     if (savedScheduleJson != null) {
-      // Kayıtlı program varsa onu yükle
       try {
         final Map<String, dynamic> scheduleMap = jsonDecode(savedScheduleJson);
-        scheduleMap.forEach((dayStr, placeNamesList) {
-           final day = int.tryParse(dayStr) ?? 1;
-           if (day > maxDay) maxDay = day;
-           
-           final List<dynamic> names = placeNamesList;
-           final List<Highlight> places = [];
-           
-           for (var name in names) {
-              final place = cityData.highlights.firstWhere(
-                  (h) => h.name == name,
-                  orElse: () => cityData.highlights.first
-              );
-              // İsim eşleşmezse eklemede dikkat et (fallback yüzünden duplicate olmasın)
-              if (place.name == name) places.add(place);
-           }
-           dayPlans[day] = places;
+        
+        // Önce hangi şehirlerin gerektiğini bul
+        final Set<String> neededCities = {currentCity};
+        scheduleMap.forEach((dayStr, placeList) {
+          final List<dynamic> places = placeList;
+          for (var item in places) {
+            if (item is Map<String, dynamic> && item['city'] != null) {
+              neededCities.add(item['city'].toString().toLowerCase());
+            }
+          }
         });
-        scheduleLoaded = true;
+        
+        // Gerekli şehirleri yükle
+        for (var cityName in neededCities) {
+          if (!loadedCities.containsKey(cityName)) {
+            final city = await CityDataLoader.loadCity(cityName);
+            if (city != null) {
+              loadedCities[cityName] = city;
+            }
+          }
+        }
+        
+        // Şimdi planları oluştur
+        scheduleMap.forEach((dayStr, placeList) {
+          final day = int.tryParse(dayStr) ?? 1;
+          if (day > maxDay) maxDay = day;
+          
+          final List<dynamic> items = placeList;
+          final List<Highlight> places = [];
+          
+          for (var item in items) {
+            String placeName;
+            String placeCity;
+            
+            // Yeni format: {"name": "...", "city": "..."}
+            if (item is Map<String, dynamic>) {
+              placeName = item['name']?.toString() ?? '';
+              placeCity = (item['city']?.toString() ?? currentCity).toLowerCase();
+            } 
+            // Eski format: sadece isim string
+            else {
+              placeName = item.toString();
+              placeCity = currentCity;
+            }
+            
+            if (placeName.isEmpty) continue;
+            
+            // İlgili şehirden bul
+            final city = loadedCities[placeCity];
+            if (city != null) {
+              final exactMatches = city.highlights.where((h) => h.name == placeName);
+              if (exactMatches.isNotEmpty) {
+                final place = exactMatches.first;
+                places.add(place);
+                placeCityMapping[placeName] = placeCity;
+              }
+            }
+          }
+          dayPlans[day] = places;
+        });
       } catch (e) {
         print("Schedule parse error: $e");
       }
     } 
-    
-    // Eğer schedule yoksa veya boşsa ama trip_places varsa (Eski veriyi kurtarma)
-    if (!scheduleLoaded && savedPlaces.isNotEmpty) {
-       const int placesPerDay = 5;
-       final total = savedPlaces.length;
-       final daysNeeded = (total / placesPerDay).ceil();
-       maxDay = daysNeeded > 0 ? daysNeeded : 1;
-       
-       for (int i = 0; i < maxDay; i++) {
-           final start = i * placesPerDay;
-           final end = math.min(start + placesPerDay, total);
-           final subNames = savedPlaces.sublist(start, end);
-           
-           final List<Highlight> places = [];
-           for (var name in subNames) {
-              final place = cityData.highlights.firstWhere((h) => h.name == name, orElse: () => cityData.highlights.first);
-              if (place.name == name) places.add(place);
-           }
-           dayPlans[i + 1] = places;
-       }
+    // Eski veri kurtarma (sadece trip_places varsa)
+    else if (savedPlaces.isNotEmpty) {
+      const int placesPerDay = 5;
+      final total = savedPlaces.length;
+      final daysNeeded = (total / placesPerDay).ceil();
+      maxDay = daysNeeded > 0 ? daysNeeded : 1;
+      
+      for (int i = 0; i < maxDay; i++) {
+        final start = i * placesPerDay;
+        final end = math.min(start + placesPerDay, total);
+        final subNames = savedPlaces.sublist(start, end);
+        
+        final List<Highlight> places = [];
+        for (var name in subNames) {
+          final exactMatches = cityData.highlights.where((h) => h.name == name);
+          if (exactMatches.isNotEmpty) {
+            final place = exactMatches.first;
+            places.add(place);
+            placeCityMapping[name] = currentCity;
+          }
+        }
+        dayPlans[i + 1] = places;
+      }
     }
     
     // Boş günleri de init et (en azından onboardingden gelen gün sayısı kadar)
@@ -243,212 +383,157 @@ class _RoutesScreenState extends State<RoutesScreen>
         }
     });
 
+    // Generate automatic routes (Async)
+    final curatedList = await CuratedRoutesService.generateRoutes(cityData, AppLocalizations.instance.isEnglish);
+    final generatedSuggestions = curatedList.map((route) => SuggestedRoute(
+      id: route.id,
+      name: route.name,
+      description: route.description,
+      duration: route.duration,
+      distance: route.distance,
+      difficulty: route.difficulty,
+      imageUrl: route.imageUrl,
+      tags: route.tags,
+      placeNames: route.placeNames,
+      interests: route.interests,
+      accentColor: route.accentColor,
+      icon: route.icon,
+    )).toList();
+
     setState(() {
       _city = cityData;
-      _allSuggestedRoutes = _generateSuggestedRoutes(cityData);
-      _filteredSuggestedRoutes = _allSuggestedRoutes.take(3).toList();
+      _allSuggestedRoutes = generatedSuggestions;
+      _filteredSuggestedRoutes = _allSuggestedRoutes;
       _travelStyle = travelStyle;
       _interests = interests;
+      // Deduplicate day plans to fix potential "ghost" items
+      dayPlans.forEach((day, places) {
+        final seen = <String>{};
+        final unique = <Highlight>[];
+        for (var p in places) {
+          if (!seen.contains(p.name)) {
+            seen.add(p.name);
+            unique.add(p);
+          }
+        }
+        dayPlans[day] = unique;
+      });
+
       _tripPlaceNames = uniqueNames.toList();
       _tripPlaces = tripHighlights;
       _dayPlans = dayPlans;
-      _totalDays = maxDay;
+      _routeOrigins = loadedOrigins; // Restore static route origins
+      _placeCityMap = placeCityMapping;
+      _tripDays = onboardingDays; // Onboarding'den gelen gün sayısını sakla
+      _totalDays = math.max(maxDay, onboardingDays); // En azından onboarding günleri kadar göster
       _loading = false;
       
+      // Preserve current tab index
+      final previousIndex = _dayTabController?.index ?? 0;
       _dayTabController?.dispose();
       _dayTabController = TabController(length: _totalDays, vsync: this);
       _dayTabController?.addListener(_handleDayTabChange);
+      
+      // Restore tab index if still valid
+      if (previousIndex < _totalDays) {
+        _dayTabController?.index = previousIndex;
+      }
     });
+
+    // Tutorial Check
+    WidgetsBinding.instance.addPostFrameCallback((_) { 
+       _checkTutorial();
+    });
+  }
+
+  void _checkTutorial() {
+    if (!widget.isVisible) return;
+    
+    TutorialService.instance.shouldShowTutorial(TutorialService.KEY_TUTORIAL_ROUTES).then((shouldShow) {
+      if (shouldShow) {
+        Future.delayed(const Duration(milliseconds: 500), () {
+          if (mounted && widget.isVisible) {
+            _showRoutesTutorial();
+          }
+        });
+      }
+    });
+  }
+
+  void _onMainTabChanged() {
+    if (_mainTabController.indexIsChanging) return;
+    
+    // Trigger My Route tutorial when switching to "Rotam" tab (index 1)
+    if (_mainTabController.index == 1 && widget.isVisible) {
+      _checkMyRouteTutorial();
+    }
+  }
+
+  void _checkMyRouteTutorial() {
+    if (!widget.isVisible) return;
+    
+    TutorialService.instance.shouldShowTutorial(TutorialService.KEY_TUTORIAL_MY_ROUTE).then((shouldShow) {
+      if (shouldShow) {
+         Future.delayed(const Duration(milliseconds: 800), () {
+           if (mounted && widget.isVisible && _mainTabController.index == 1) {
+          
+              // Force render if key is missing (lazy sliver issue)
+              if (_startRouteButtonKey.currentContext == null) {
+                 if (_myRouteScrollController.hasClients) {
+                     // Jump to bottom to build bottom widgets
+                     _myRouteScrollController.jumpTo(_myRouteScrollController.position.maxScrollExtent);
+                     
+                     // Small delay then jump back to top
+                     Future.delayed(const Duration(milliseconds: 100), () {
+                        if (mounted && _myRouteScrollController.hasClients) {
+                           _myRouteScrollController.jumpTo(0);
+                           
+                           // Now show tutorial
+                           Future.delayed(const Duration(milliseconds: 300), () {
+                               if (mounted) _showMyRouteTutorial();
+                           });
+                        }
+                     });
+                 }
+              } else {
+                 _showMyRouteTutorial();
+              }
+            } // if mounted
+         }); // future delayed
+      } // if shouldShow
+    }); // service then
   }
 
   Future<void> _saveTripData() async {
      final prefs = await SharedPreferences.getInstance();
      
-     // 1. Liste olarak kaydet
+     // 1. Liste olarak kaydet (eski uyumluluk için)
      await prefs.setStringList("trip_places", _tripPlaceNames);
      
-     // 2. Schedule olarak kaydet (Gün gün)
-     // Map<int, List<Highlight>> -> Map<String, List<String>>
-     final Map<String, List<String>> scheduleMap = {};
+     // 2. Schedule'ı DOĞRUDAN _dayPlans'den oluştur ve kaydet.
+     // _loadData zaten tüm şehirlerin verilerini _dayPlans'e yüklüyor.
+     // Dolayısıyla merge işlemine gerek yok, current state source of truth'tur.
+     final Map<String, List<Map<String, dynamic>>> finalSchedule = {};
+     final currentCity = prefs.getString("selectedCity")?.toLowerCase() ?? "barcelona";
      
      _dayPlans.forEach((day, places) {
-        scheduleMap[day.toString()] = places.map((p) => p.name).toList();
+       final dayKey = day.toString();
+       final dayPlaces = places.map((p) => {
+         'name': p.name,
+         'city': _placeCityMap[p.name] ?? currentCity,
+       }).toList();
+       finalSchedule[dayKey] = dayPlaces;
      });
      
-     await prefs.setString("trip_schedule", jsonEncode(scheduleMap));
+     await prefs.setString("trip_schedule", jsonEncode(finalSchedule));
+      
+      // YENİ: Route Origins kaydet
+      await prefs.setString("trip_route_origins", jsonEncode(_routeOrigins));
+      
+      // Tutorial Check: Removed from here
   }
 
-  List<SuggestedRoute> _generateSuggestedRoutes(CityModel city) {
-    final cityName = city.city;
 
-    // YARDIMCI: Belirli bir bölgeden ve kategorilerden mekan seçici
-    // Bu fonksiyon, belirtilen bölgedeki (veya bölgelerdeki) mekanları tarar
-    // ve istenen kategorilerden çeşitlilik sağlayacak şekilde seçim yapar.
-    List<String> pickMixedPlaces({
-      required List<String> areas, 
-      required List<String> categories, 
-      int count = 5
-    }) {
-      final candidates = city.highlights.where((h) {
-        final areaMatch = areas.any((a) => h.area.toLowerCase().contains(a.toLowerCase()));
-        return areaMatch;
-      }).toList();
-
-      final selected = <String>{};
-      
-      // Önce her kategoriden en az 1 tane bulmaya çalış
-      for (final cat in categories) {
-        if (selected.length >= count) break;
-        final match = candidates.firstWhere(
-          (h) => !selected.contains(h.name) && (h.category.contains(cat) || h.tags.contains(cat)),
-          orElse: () => candidates.isEmpty ? city.highlights.first : candidates.first, 
-        );
-        // firstWhere orElse workaround: eğer match yoksa dummy dönüyor, kontrol et
-        if (candidates.contains(match) && !selected.contains(match.name)) {
-             if (match.category.contains(cat) || match.tags.contains(cat)) {
-                selected.add(match.name);
-             }
-        }
-      }
-
-      // Kalanı popüler olanlardan doldur (çeşitlilik katarak)
-      for (final h in candidates) {
-        if (selected.length >= count) break;
-        if (!selected.contains(h.name)) {
-          selected.add(h.name);
-        }
-      }
-      
-      // Eğer hala sayı yetmediyse genel listeden tamamla (fallback)
-      if (selected.length < count) {
-         for (final h in city.highlights) {
-            if (selected.length >= count) break;
-            if (!selected.contains(h.name)) selected.add(h.name);
-         }
-      }
-
-      return selected.toList();
-    }
-
-    return [
-      SuggestedRoute(
-        id: "classic_tour",
-        name: "Klasik $cityName Turu",
-        description:
-            "Şehrin en ikonik noktalarını keşfedin. İlk kez gelenler için ideal.",
-        duration: "4-5 saat",
-        distance: "3.2 km",
-        difficulty: "Kolay",
-        imageUrl:
-            "https://images.unsplash.com/photo-1583422409516-2895a77efded?w=800",
-        tags: ["Klasik", "Turistik", "Fotoğraf"],
-        placeNames: city.highlights
-            .where((h) => h.category == "Tarihi" || h.category == "Manzara")
-            .take(5)
-            .map((h) => h.name)
-            .toList(),
-        accentColor: accentLight,
-        icon: Icons.account_balance,
-      ),
-      SuggestedRoute(
-        id: "gothic_mix",
-        name: "Gotik & Gizem",
-        description: "Dar sokaklar, tarihi katedraller ve arada gizli kahve molaları.",
-        duration: "4-5 saat",
-        distance: "3.5 km",
-        difficulty: "Kolay",
-        imageUrl: "https://images.unsplash.com/photo-1544415918-ad9d65116749?w=800",
-        tags: ["Tarih", "Mistik", "Yürüyüş"],
-        placeNames: pickMixedPlaces(
-          areas: ["Gothic", "Ciutat Vella", "Gotik"],
-          categories: ["Tarihi", "Kafe", "Meydan", "Restoran"],
-        ),
-        accentColor: const Color(0xFFE67E22), // Bronze
-        icon: Icons.history_edu,
-      ),
-      SuggestedRoute(
-        id: "born_art",
-        name: "Sanat & Lezzet (El Born)",
-        description: "Müzelerle dolu bir sabahın ardından parkta dinlenme ve tapas keyfi.",
-        duration: "5 saat",
-        distance: "4.0 km",
-        difficulty: "Kolay",
-        imageUrl: "https://images.unsplash.com/photo-1545620864-70950a41be74?w=800",
-        tags: ["Sanat", "Tapas", "Park"],
-        placeNames: pickMixedPlaces(
-          areas: ["Born", "Ribera"],
-          categories: ["Müze", "Park", "Bar", "Restoran", "Alışveriş"],
-        ),
-        accentColor: const Color(0xFFE91E63), // Pink
-        icon: Icons.palette,
-      ),
-      SuggestedRoute(
-        id: "gaudi_modern",
-        name: "Gaudí ve Modernizm",
-        description: "Eixample'ın şık caddelerinde mimari bir şölen ve lüks mağazalar.",
-        duration: "6 saat",
-        distance: "5.2 km",
-        difficulty: "Orta",
-        imageUrl: "https://images.unsplash.com/photo-1562699933-40e949987da1?w=800",
-        tags: ["Mimari", "Lüks", "Alışveriş"],
-        placeNames: pickMixedPlaces(
-          areas: ["Eixample", "Passeig"],
-          categories: ["Tarihi", "Alışveriş", "Restoran", "Kafe"],
-        ),
-        accentColor: const Color(0xFF9C27B0), // Purple
-        icon: Icons.architecture,
-      ),
-      SuggestedRoute(
-        id: "gracia_bohem",
-        name: "Bohem Gràcia Ruhu",
-        description: "Turistlerden uzak, yerel halk gibi yaşa. Meydanlar, kafeler ve huzur.",
-        duration: "4 saat",
-        distance: "3.0 km",
-        difficulty: "Kolay",
-        imageUrl: "https://images.unsplash.com/photo-1534353436292-078363401783?w=800",
-        tags: ["Lokal", "Semt", "Keyif"],
-        placeNames: pickMixedPlaces(
-          areas: ["Gracia", "Gràcia"],
-          categories: ["Park", "Kafe", "Meydan", "Bar"],
-        ),
-        accentColor: const Color(0xFF2ECC71), // Emerald
-        icon: Icons.theater_comedy,
-      ),
-      SuggestedRoute(
-        id: "beach_breeze",
-        name: "Deniz & Paella",
-        description: "Barceloneta sahilinde yürüyüş, deniz havası ve eşsiz deniz ürünleri.",
-        duration: "3-4 saat",
-        distance: "2.5 km",
-        difficulty: "Çok Kolay",
-        imageUrl: "https://images.unsplash.com/photo-1563725807-6bb9f25091a1?w=800",
-        tags: ["Plaj", "Yemek", "Manzara"],
-        placeNames: pickMixedPlaces(
-          areas: ["Barceloneta", "Port"],
-          categories: ["Plaj", "Restoran", "Manzara", "Bar"],
-        ),
-        accentColor: const Color(0xFF3498DB), // Blue
-        icon: Icons.waves,
-      ),
-      SuggestedRoute(
-        id: "montjuic_view",
-        name: "Zirveden Bakış",
-        description: "Montjuïc tepesinde panoramik manzaralar, müzeler ve yeşil bahçeler.",
-        duration: "5 saat",
-        distance: "6.0 km",
-        difficulty: "Zor",
-        imageUrl: "https://images.unsplash.com/photo-1528654636952-4fd9ae41865c?w=800",
-        tags: ["Manzara", "Doğa", "Spor"],
-        placeNames: pickMixedPlaces(
-          areas: ["Montjuic", "Montjuïc", "Sants"],
-          categories: ["Manzara", "Müze", "Park", "Tarihi"],
-        ),
-        accentColor: const Color(0xFFF1C40F), // Yellow
-        icon: Icons.landscape,
-      ),
-
-    ];
-  }
 
   void _filterRoutes(int filterIndex) {
     setState(() {
@@ -456,34 +541,69 @@ class _RoutesScreenState extends State<RoutesScreen>
       if (filterIndex == 0) {
         _filteredSuggestedRoutes = _allSuggestedRoutes;
       } else if (filterIndex == 1) {
+        // SANA ÖZEL (FOR YOU)
         _filteredSuggestedRoutes = _allSuggestedRoutes.where((route) {
-          if (_travelStyle == "Lokal" && route.id == "local_life") return true;
-          if (_travelStyle == "Turist" && route.id == "classic_tour")
-            return true;
-          for (var interest in _interests) {
-            if (interest == "Yemek" && route.id == "foodie_tour") return true;
-            if (interest == "Sanat" && route.id == "art_culture") return true;
-            if (interest == "Fotoğraf" && route.id == "sunset_walk")
-              return true;
+          int matchScore = 0;
+
+          // 1. İlgi Alanı Eşleşmesi
+          for (var userInterest in _interests) {
+             // Basit string içerir kontrolü (Case insensitive)
+             if (route.interests.any((rInterest) => rInterest.toLowerCase().contains(userInterest.toLowerCase()))) {
+               matchScore += 2;
+             }
+             if (route.tags.any((tag) => tag.toLowerCase().contains(userInterest.toLowerCase()))) {
+               matchScore += 1;
+             }
           }
-          return false;
+
+          // 2. Seyahat Tarzı Eşleşmesi
+          if (_travelStyle == "Lokal") {
+             if (route.tags.any((t) => t.toLowerCase().contains("local") || t.toLowerCase().contains("lokal") || t.toLowerCase().contains("hidden"))) matchScore += 3;
+          } else if (_travelStyle == "Turist" || _travelStyle == "Tourist") {
+             if (route.tags.any((t) => t.toLowerCase().contains("iconic") || t.toLowerCase().contains("must-see") || t.toLowerCase().contains("top") || t.toLowerCase().contains("popular"))) matchScore += 3;
+          } else if (_travelStyle == "Doğa Sever" || _travelStyle == "Nature") {
+             if (route.tags.any((t) => t.toLowerCase().contains("nature") || t.toLowerCase().contains("park"))) matchScore += 3;
+          }
+
+          return matchScore > 0;
         }).toList();
+
+        // Hiç eşleşme yoksa, en yeni/rasgele 2 taneyi göster (Boş kalmasın)
         if (_filteredSuggestedRoutes.isEmpty) {
           _filteredSuggestedRoutes = _allSuggestedRoutes.take(2).toList();
         }
       } else {
-        _filteredSuggestedRoutes = _allSuggestedRoutes.take(3).toList();
+        // POPÜLER (POPULAR)
+        _filteredSuggestedRoutes = _allSuggestedRoutes.where((route) {
+           final lowerTags = route.tags.map((e) => e.toLowerCase()).toList();
+           return lowerTags.contains("popular") || 
+                  lowerTags.contains("popüler") || 
+                  lowerTags.contains("must-see") ||
+                  lowerTags.contains("iconic") ||
+                  lowerTags.contains("top") ||
+                  lowerTags.contains("best");
+        }).toList();
+        
+        // Eşleşme yoksa ilk 3'ü al (Genelde en iyiler en üsttedir)
+        if (_filteredSuggestedRoutes.isEmpty) {
+          _filteredSuggestedRoutes = _allSuggestedRoutes.take(3).toList();
+        }
       }
     });
   }
 
   Future<void> _removeFromTrip(String name) async {
+    debugPrint("Removing item: $name");
     HapticFeedback.mediumImpact();
     setState(() {
-      _tripPlaceNames.remove(name);
+      _tripPlaceNames.removeWhere((n) => n == name);
       _tripPlaces.removeWhere((p) => p.name == name);
       for (var day in _dayPlans.keys) {
+        final initialLen = _dayPlans[day]?.length ?? 0;
         _dayPlans[day]?.removeWhere((p) => p.name == name);
+        if ((_dayPlans[day]?.length ?? 0) < initialLen) {
+           _routeOrigins.remove(day.toString()); // Only invalidate this day
+        }
       }
     });
 
@@ -497,6 +617,7 @@ class _RoutesScreenState extends State<RoutesScreen>
     setState(() {
       final item = _dayPlans[day]!.removeAt(oldIndex);
       _dayPlans[day]!.insert(newIndex, item);
+      _routeOrigins.remove(day.toString()); // Sıralama değişirse statik rota bozulur
     });
   }
 
@@ -510,15 +631,53 @@ class _RoutesScreenState extends State<RoutesScreen>
     setState(() {});
     ScaffoldMessenger.of(context).showSnackBar(
       SnackBar(
-        content: const Row(
+        content: Row(
           children: [
-            Icon(Icons.check_circle, color: Colors.white, size: 20),
-            SizedBox(width: 12),
-            Text("Rota optimize edildi! ✨"),
+            const Icon(Icons.check_circle, color: accent, size: 20),
+            const SizedBox(width: 12),
+            const Text("Rota optimize edildi! ✨"),
           ],
         ),
-        backgroundColor: Colors.green.shade600,
+        backgroundColor: bgCardLight,
         behavior: SnackBarBehavior.floating,
+        duration: const Duration(milliseconds: 1200),
+        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
+      ),
+    );
+  }
+
+  Future<void> _clearDayPlaces(int day) async {
+    final places = _dayPlans[day] ?? [];
+    if (places.isEmpty) return;
+
+    HapticFeedback.mediumImpact();
+    
+    // Remove all places from this day
+    setState(() {
+      for (var place in places) {
+        _tripPlaceNames.remove(place.name);
+        _tripPlaces.removeWhere((p) => p.name == place.name);
+      }
+      _dayPlans[day] = [];
+      _routeOrigins.remove(day.toString()); // Gün temizlendi, rota bilgisi silindi
+    });
+
+    await _saveTripData();
+    TripUpdateService().notifyTripChanged();
+
+    if (!mounted) return;
+    ScaffoldMessenger.of(context).showSnackBar(
+      SnackBar(
+        content: Row(
+          children: [
+            const Icon(Icons.delete_outline, color: Color(0xFFFF5252), size: 20),
+            const SizedBox(width: 12),
+            Text("${AppLocalizations.instance.day} $day temizlendi"),
+          ],
+        ),
+        backgroundColor: bgCardLight,
+        behavior: SnackBarBehavior.floating,
+        duration: const Duration(milliseconds: 1200),
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
       ),
     );
@@ -530,6 +689,12 @@ class _RoutesScreenState extends State<RoutesScreen>
 
   /// Google Maps'te rotayı başlat - MEKAN İSİMLERİYLE
   Future<void> _startRouteInGoogleMaps(int day) async {
+    // 🔥 Premium Check
+    if (!PremiumService.instance.canGetDirections()) {
+      _showPaywall();
+      return;
+    }
+
     final places = _dayPlans[day] ?? [];
     if (places.length < 2) return;
 
@@ -544,21 +709,28 @@ class _RoutesScreenState extends State<RoutesScreen>
     final origin = encodePlace(places.first);
     final destination = encodePlace(places.last);
     
+    // Dynamic travel mode based on selected transport
+    String travelMode;
+    switch (_selectedTransportMode) {
+      case 1: travelMode = 'bicycling'; break;
+      case 2: travelMode = 'transit'; break;
+      case 3: travelMode = 'driving'; break;
+      default: travelMode = 'walking';
+    }
+
+    // Transit mode doesn't support waypoints in Google Maps
     String waypoints = "";
-    if (places.length > 2) {
+    if (travelMode != 'transit' && places.length > 2) {
        final wpList = places.sublist(1, places.length - 1).map(encodePlace).toList();
        waypoints = "&waypoints=${wpList.join('|')}";
     }
 
-    final url = "https://www.google.com/maps/dir/?api=1&origin=$origin&destination=$destination$waypoints&travelmode=walking";
+    final url = "https://www.google.com/maps/dir/?api=1&origin=$origin&destination=$destination$waypoints&travelmode=$travelMode";
 
     try {
       final uri = Uri.parse(url);
-      if (await canLaunchUrl(uri)) {
-        await launchUrl(uri, mode: LaunchMode.externalApplication);
-      } else {
-        _openMapsWithCoordinates(day); // Fallback
-      }
+      // iOS 26+'da canLaunchUrl bazen false dönebiliyor, direkt deneyelim
+      await launchUrl(uri, mode: LaunchMode.externalApplication);
     } catch (e) {
       _openMapsWithCoordinates(day);
     }
@@ -574,8 +746,17 @@ class _RoutesScreenState extends State<RoutesScreen>
       final origin = "${places.first.lat},${places.first.lng}";
       final destination = "${places.last.lat},${places.last.lng}";
 
+      // Dynamic travel mode
+      String travelMode;
+      switch (_selectedTransportMode) {
+        case 1: travelMode = 'bicycling'; break;
+        case 2: travelMode = 'transit'; break;
+        case 3: travelMode = 'driving'; break;
+        default: travelMode = 'walking';
+      }
+
       String waypointsParam = "";
-      if (places.length > 2) {
+      if (travelMode != 'transit' && places.length > 2) {
         final middlePoints = places.sublist(1, places.length - 1);
         waypointsParam =
             "&waypoints=${middlePoints.map((p) => "${p.lat},${p.lng}").join("|")}";
@@ -586,7 +767,7 @@ class _RoutesScreenState extends State<RoutesScreen>
           "&origin=$origin"
           "&destination=$destination"
           "$waypointsParam"
-          "&travelmode=walking";
+          "&travelmode=$travelMode";
 
       await launchUrl(Uri.parse(url), mode: LaunchMode.externalApplication);
     } catch (e) {
@@ -594,8 +775,9 @@ class _RoutesScreenState extends State<RoutesScreen>
       ScaffoldMessenger.of(context).showSnackBar(
         SnackBar(
           content: const Text("Harita açılamadı"),
-          backgroundColor: Colors.red.shade600,
+          backgroundColor: bgCardLight,
           behavior: SnackBarBehavior.floating,
+          duration: const Duration(milliseconds: 1200),
         ),
       );
     }
@@ -668,6 +850,12 @@ class _RoutesScreenState extends State<RoutesScreen>
   }
 
   Future<void> _applySuggestedRoute(SuggestedRoute route) async {
+    // Premium kontrolü - free kullanıcılar sadece önizleyebilir
+    if (!PremiumService.instance.canApplyCuratedRoute()) {
+      _showPaywall();
+      return;
+    }
+    
     // Önce kullanıcıya gün seçtir
     final selectedDay = await _showDaySelectionDialog(route.name);
     if (selectedDay == null) return; // İptal edildi
@@ -681,78 +869,257 @@ class _RoutesScreenState extends State<RoutesScreen>
     // Yapay gecikme (loader görünsün)
     await Future.delayed(const Duration(milliseconds: 600));
 
-    final prefs = await SharedPreferences.getInstance();
+    // Rota mekanlarını bul ve ekle
+    final List<Highlight> newPlaces = [];
+    if (_city != null) {
+      for (var name in route.placeNames) {
+        try {
+          final p = _city!.highlights.firstWhere(
+            (h) => h.name == name || h.nameEn == name,
+          );
+          if (!newPlaces.contains(p)) {
+            newPlaces.add(p);
+            // Yeni eklenen yerin şehrini map'e ekle
+            _placeCityMap[p.name] = _city!.city.toLowerCase();
+          }
+        } catch (_) {}
+      }
+    }
+
+    if (newPlaces.isNotEmpty) {
+      setState(() {
+        // Yeni gün kontrolü
+        if (selectedDay > _totalDays) {
+          _totalDays = selectedDay;
+          _dayPlans[selectedDay] = [];
+          
+          // Tab controller'ı güncelle
+          _dayTabController?.dispose();
+          _dayTabController = TabController(length: _totalDays, vsync: this);
+        }
+
+        if (_dayPlans[selectedDay] != null && _dayPlans[selectedDay]!.isNotEmpty) {
+          _dayPlans[selectedDay]!.addAll(newPlaces);
+          _routeOrigins.remove(selectedDay.toString()); // Merge edilirse statik rota bozulur
+        } else {
+          _dayPlans[selectedDay] = newPlaces;
+          _routeOrigins[selectedDay.toString()] = route.id; // Tam eşleşme, statik rota aktif!
+        }
+        
+        // Genel listeye de ekle
+        for (var p in newPlaces) {
+          if (!_tripPlaceNames.contains(p.name)) {
+            _tripPlaceNames.add(p.name);
+            _tripPlaces.add(p);
+          }
+        }
+      });
+      
+      await _saveTripData();
+      TripUpdateService().notifyTripChanged();
+    }
 
     setState(() {
       _loading = false;
-      
-      // Eğer yeni gün seçildiyse toplam gün sayısını artır
-      if (selectedDay > _totalDays) {
-          _totalDays = selectedDay;
-          _dayPlans[selectedDay] = [];
-      }
-      
-      // İlgili güne mekanları ekle
-      final targetList = _dayPlans[selectedDay] ?? [];
-
-      for (var placeName in route.placeNames) {
-        if (!_tripPlaceNames.contains(placeName)) {
-          _tripPlaceNames.add(placeName);
-          
-          final place = _city?.highlights
-              .where((h) => h.name == placeName)
-              .firstOrNull;
-              
-          if (place != null) {
-              _tripPlaces.add(place);
-              targetList.add(place);
-          }
-        }
-      }
-      
-      _dayPlans[selectedDay] = targetList;
-
     });
 
-    await _saveTripData();
-    TripUpdateService().notifyTripChanged();
-    
-    // Manuel ekleme olduğu için reorganize yapmıyoruz, 
-    // ancak _tripPlaces listesini güncel tutmak için _dayPlans'den yeniden oluşturabiliriz.
-    // Şimdilik sadece persist ettik.
-    
-    setState(() {
-         // Tab controller'ı güncelle (eğer gün sayısı değiştiyse)
-         if (_dayTabController == null || _dayTabController!.length != _totalDays) {
-              _dayTabController?.dispose();
-              _dayTabController = TabController(length: _totalDays, vsync: this);
-         }
-    });
-    
-    // Geri bildirim
     if (!mounted) return;
+
     ScaffoldMessenger.of(context).showSnackBar(
       SnackBar(
         content: Row(
           children: [
-            const Icon(Icons.check_circle, color: Colors.white, size: 20),
+            const Icon(Icons.check_circle, color: WanderlustColors.accent),
             const SizedBox(width: 12),
-            Expanded(child: Text("${route.name}, ${selectedDay}. güne eklendi! 🎉")),
+            Expanded(
+              child: Text(
+                AppLocalizations.instance.routeAddedToDay(route.name, selectedDay),
+                style: const TextStyle(color: Colors.white),
+              ),
+            ),
           ],
         ),
-        backgroundColor: route.accentColor,
+        backgroundColor: WanderlustColors.bgCardLight,
         behavior: SnackBarBehavior.floating,
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
-        action: SnackBarAction(
-          label: "Görüntüle",
-          textColor: Colors.white,
-          onPressed: () {
-               _mainTabController.animateTo(1);
-               _dayTabController?.animateTo(selectedDay - 1);
-          },
-        ),
       ),
     );
+    
+    // Rotam sekmesine geç
+    _mainTabController?.animateTo(1);
+    
+    // Seçilen güne geç (day tabs are 0-indexed)
+    if (_dayTabController != null && selectedDay <= _dayTabController!.length) {
+      _dayTabController!.animateTo(selectedDay - 1);
+    }
+  }
+
+
+
+  // SHOW PAYWALL
+  void _showPaywall() {
+    showModalBottomSheet(
+      context: context,
+      isScrollControlled: true,
+      backgroundColor: Colors.transparent,
+      builder: (context) => const PaywallScreen(),
+    );
+  }
+  
+  // TUTORIAL
+  void _showRoutesTutorial() {
+    late TutorialCoachMark tutorial;
+    tutorial = TutorialCoachMark(
+      targets: [
+        // Step 1: Tabs
+        TargetFocus(
+          identify: "routes_tab",
+          keyTarget: _routesTabKey,
+          shape: ShapeLightFocus.RRect,
+          radius: 14,
+          paddingFocus: 0,
+          contents: [
+            TargetContent(
+              align: ContentAlign.bottom,
+              builder: (context, controller) {
+                return TutorialOverlayWidget(
+                  title: "Rotanı Seç!",
+                  description: "Şehrin en iyi hazır rotalarını buradan keşfedebilir veya kendi oluşturduğun rotayı 'Rotam' sekmesinden yönetebilirsin.",
+                  onNext: () => controller.next(),
+                  onSkip: () => controller.skip(),
+                  currentStep: 1,
+                  totalSteps: 2,
+                  isArrowUp: true,
+                );
+              },
+            ),
+          ],
+        ),
+        // Step 2: Create Route Button
+        TargetFocus(
+          identify: "create_route_button",
+          keyTarget: _createRouteButtonKey,
+          shape: ShapeLightFocus.RRect,
+          radius: 12,
+          paddingFocus: 4,
+          contents: [
+            TargetContent(
+              align: ContentAlign.top,
+              builder: (context, controller) {
+                return TutorialOverlayWidget(
+                  title: "Rotayı Ekle",
+                  description: "Beğendiğin bir hazır rotayı tek tıkla kendi seyahat planına ekleyebilirsin. Tüm duraklar otomatik olarak 'Rotam' sekmesine eklenir.",
+                  onNext: () {
+                    controller.next();
+                    TutorialService.instance.markTutorialSeen(TutorialService.KEY_TUTORIAL_ROUTES);
+                  },
+                  onSkip: () => controller.skip(),
+                  currentStep: 2,
+                  totalSteps: 2,
+                  isArrowUp: false,
+                );
+              },
+            ),
+          ],
+        ),
+      ],
+      colorShadow: Colors.black.withOpacity(0.8),
+      textSkip: "Atla",
+      paddingFocus: 0,
+      opacityShadow: 0.9,
+      onFinish: () {
+        TutorialService.instance.markTutorialSeen(TutorialService.KEY_TUTORIAL_ROUTES);
+      },
+      onClickTarget: (target) {
+        tutorial.next();
+      },
+      onClickOverlay: (target) {
+        tutorial.next();
+      },
+      onSkip: () {
+        TutorialService.instance.skipAllTutorials();
+        return true;
+      },
+    );
+    tutorial.show(context: context);
+  }
+
+  // TUTORIAL - My Route Tab
+  void _showMyRouteTutorial() {
+    late TutorialCoachMark tutorial;
+    tutorial = TutorialCoachMark(
+      targets: [
+        // Step 1: Stats + Transport Modes
+        TargetFocus(
+          identify: "my_route_stats",
+          keyTarget: _myRouteStatsKey,
+          shape: ShapeLightFocus.RRect,
+          radius: 16,
+          paddingFocus: 4,
+          contents: [
+            TargetContent(
+              align: ContentAlign.bottom,
+              builder: (context, controller) {
+                return TutorialOverlayWidget(
+                  title: "Rota Özeti",
+                  description: "Rotandaki toplam durak sayısını, mesafeyi ve farklı ulaşım modlarına göre süreyi buradan görebilirsin. Yürüyüş, bisiklet, toplu taşıma veya araç seçeneklerinden birini seç.",
+                  onNext: () => controller.next(),
+                  onSkip: () => controller.skip(),
+                  currentStep: 1,
+                  totalSteps: 2,
+                  isArrowUp: true,
+                );
+              },
+            ),
+          ],
+        ),
+        // Step 2: Start Route Button
+        TargetFocus(
+          identify: "start_route_button",
+          keyTarget: _startRouteButtonKey,
+          shape: ShapeLightFocus.RRect,
+          radius: 14,
+          paddingFocus: 4,
+          contents: [
+            TargetContent(
+              align: ContentAlign.top,
+              builder: (context, controller) {
+                return TutorialOverlayWidget(
+                  title: AppLocalizations.instance.startRoute,
+                  description: "Planladığın rotayı tek tıkla başlat, adım adım keşfetmeye başla.",
+                  onNext: () {
+                    controller.next();
+                    TutorialService.instance.markTutorialSeen(TutorialService.KEY_TUTORIAL_MY_ROUTE);
+                  },
+                  onSkip: () => controller.skip(),
+                  currentStep: 2,
+                  totalSteps: 2,
+                  isArrowUp: false,
+                );
+              },
+            ),
+          ],
+        ),
+      ],
+      colorShadow: Colors.black.withOpacity(0.8),
+      textSkip: "Atla",
+      paddingFocus: 0,
+      opacityShadow: 0.9,
+      onFinish: () {
+         TutorialService.instance.markTutorialSeen(TutorialService.KEY_TUTORIAL_MY_ROUTE);
+      },
+      onClickTarget: (target) {
+         tutorial.next();
+      },
+      onClickOverlay: (target) {
+         tutorial.next();
+      },
+      onSkip: () {
+         TutorialService.instance.skipAllTutorials();
+         return true;
+      },
+    );
+    tutorial.show(context: context);
   }
 
   Future<int?> _showDaySelectionDialog(String routeName) async {
@@ -760,7 +1127,7 @@ class _RoutesScreenState extends State<RoutesScreen>
       context: context,
       builder: (context) {
         return Dialog(
-          backgroundColor: bgCard,
+          backgroundColor: const Color(0xFF1E1E2C), // Daha opak arka plan
           shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
           child: Padding(
             padding: const EdgeInsets.all(20),
@@ -768,15 +1135,15 @@ class _RoutesScreenState extends State<RoutesScreen>
               mainAxisSize: MainAxisSize.min,
               children: [
                 Text(
-                  "Hangi Güne Eklensin?",
+                  AppLocalizations.instance.whichDay,
                   style: const TextStyle(
-                      color: textWhite, fontSize: 18, fontWeight: FontWeight.bold),
+                      color: WanderlustColors.textWhite, fontSize: 18, fontWeight: FontWeight.bold),
                 ),
                 const SizedBox(height: 8),
                 Text(
-                  "'$routeName' rotasını hangi gün planına dahil etmek istersiniz?",
+                  AppLocalizations.instance.whichDayPlan(routeName),
                   textAlign: TextAlign.center,
-                  style: const TextStyle(color: textGrey, fontSize: 14),
+                  style: const TextStyle(color: WanderlustColors.textGrey, fontSize: 14),
                 ),
                 const SizedBox(height: 20),
                 ConstrainedBox(
@@ -788,19 +1155,19 @@ class _RoutesScreenState extends State<RoutesScreen>
                              final day = index + 1;
                              final count = _dayPlans[day]?.length ?? 0;
                              return ListTile(
-                               title: Text("Gün $day", style: const TextStyle(color: textWhite)),
-                               subtitle: Text("$count mekan var", style: const TextStyle(color: textGrey, fontSize: 12)),
+                               title: Text(AppLocalizations.instance.dayN(day), style: const TextStyle(color: WanderlustColors.textWhite)),
+                               subtitle: Text(AppLocalizations.instance.nPlaces(count), style: const TextStyle(color: WanderlustColors.textGrey, fontSize: 12)),
                                trailing: const Icon(Icons.arrow_forward_ios, color: accent, size: 16),
                                onTap: () => Navigator.pop(context, day),
                                shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(8)),
                                tileColor: Colors.transparent,
-                               hoverColor: bgCardLight,
+                               hoverColor: WanderlustColors.bgCardLight,
                              );
                          }),
-                         const Divider(color: borderColor),
+                         const Divider(color: WanderlustColors.border),
                          ListTile(
-                             title: const Text("Yeni Gün Oluştur", style: TextStyle(color: textWhite, fontWeight: FontWeight.bold)),
-                             subtitle: Text("Gün ${_totalDays + 1}", style: const TextStyle(color: textGrey, fontSize: 12)),
+                             title: Text(AppLocalizations.instance.createNewDay, style: TextStyle(color: WanderlustColors.textWhite, fontWeight: FontWeight.bold)),
+                             subtitle: Text(AppLocalizations.instance.dayN(_totalDays + 1), style: const TextStyle(color: WanderlustColors.textGrey, fontSize: 12)),
                              leading: const Icon(Icons.add_circle, color: accentGreen),
                              onTap: () => Navigator.pop(context, _totalDays + 1),
                          ),
@@ -871,7 +1238,211 @@ class _RoutesScreenState extends State<RoutesScreen>
   }
 
   int _estimateWalkingTime(int day) =>
-      (_calculateTotalDistance(day) / 5 * 60).round();
+      (_calculateTotalDistance(day) / 5 * 60).round(); // 5 km/h
+
+  int _estimateBikingTime(int day) =>
+      (_calculateTotalDistance(day) / 15 * 60).round(); // 15 km/h
+
+  int _estimateDrivingTime(int day) =>
+      (_calculateTotalDistance(day) / 25 * 60).round(); // 25 km/h (city traffic)
+
+  int _estimateTransitFallback(int day) =>
+      (_calculateTotalDistance(day) / 20 * 60).round(); // ~20 km/h avg for transit
+
+  int _getCurrentTransportTime(int day) {
+    switch (_selectedTransportMode) {
+      case 0: return _estimateWalkingTime(day);
+      case 1: return _estimateBikingTime(day);
+      case 2: return _transitTimeCache ?? _estimateTransitFallback(day); // Transit
+      case 3: return _estimateDrivingTime(day);
+      default: return _estimateWalkingTime(day);
+    }
+  }
+
+  /// Fetch route for selected transport mode with caching
+  Future<void> _fetchRouteForMode(int mode, int day) async {
+    final places = _dayPlans[day] ?? [];
+    if (places.length < 2) return;
+
+    final modeString = _getModeString(mode);
+    final cacheKey = "${modeString}_$day";
+
+    // Check cache first
+    if (_routeCache.containsKey(cacheKey)) {
+      _applyRouteFromCache(cacheKey, mode);
+      return;
+    }
+
+    setState(() {
+      _routeLoading = true;
+      if (mode == 2) _transitLoading = true;
+    });
+
+    try {
+      final result = await DirectionsService().getDirections(
+        origin: LatLng(places.first.lat, places.first.lng),
+        destination: LatLng(places.last.lat, places.last.lng),
+        waypoints: places.length > 2
+            ? places.sublist(1, places.length - 1)
+                .map((p) => LatLng(p.lat, p.lng)).toList()
+            : null,
+        mode: modeString,
+        // Static route ID - tüm modlar için geçerli (her mod için ayrı JSON dosyası var)
+        routeId: _routeOrigins[day.toString()],
+      );
+
+
+      if (result != null && mounted) {
+        // Cache the result
+        _routeCache[cacheKey] = result;
+
+        // Parse duration for transit
+        if (mode == 2) {
+          final seconds = result['duration_seconds'] as double? ?? 0;
+          _transitTimeCache = (seconds / 60).round();
+        }
+
+        // Update polylines with multi-modal visualization
+        _updatePolylinesFromRoute(result, mode);
+
+        setState(() {
+          _routeLoading = false;
+          _transitLoading = false;
+          _currentRouteSteps = List<Map<String, dynamic>>.from(result['steps'] ?? []);
+        });
+      } else {
+        setState(() {
+          _routeLoading = false;
+          _transitLoading = false;
+        });
+      }
+    } catch (e) {
+      print("Route API Error: $e");
+      if (mounted) setState(() {
+        _routeLoading = false;
+        _transitLoading = false;
+      });
+    }
+  }
+
+  String _getModeString(int mode) {
+    switch (mode) {
+      case 0: return 'walking';
+      case 1: return 'bicycling';
+      case 2: return 'transit';
+      case 3: return 'driving';
+      default: return 'walking';
+    }
+  }
+
+  void _applyRouteFromCache(String cacheKey, int mode) {
+    final cached = _routeCache[cacheKey];
+    if (cached == null) return;
+
+    // Apply transit time if transit mode
+    if (mode == 2) {
+      final seconds = cached['duration_seconds'] as double? ?? 0;
+      _transitTimeCache = (seconds / 60).round();
+    }
+
+    _updatePolylinesFromRoute(cached, mode);
+    setState(() {
+      _currentRouteSteps = List<Map<String, dynamic>>.from(cached['steps'] ?? []);
+    });
+  }
+
+  void _updatePolylinesFromRoute(Map<String, dynamic> routeData, int mode) {
+    final steps = routeData['steps'] as List<dynamic>? ?? [];
+    final polylines = <Polyline>{};
+
+    if (steps.isEmpty) {
+      // Fallback to overview polyline
+      final points = routeData['polyline_points'] as List<LatLng>? ?? [];
+      if (points.isNotEmpty) {
+        polylines.add(Polyline(
+          polylineId: const PolylineId('route_overview'),
+          points: points,
+          color: _getColorForMode(mode, null),
+          width: 5,
+          patterns: mode == 0 ? [PatternItem.dash(15), PatternItem.gap(8)] : [],
+        ));
+      }
+    } else {
+      // Multi-modal polylines
+      int stepIndex = 0;
+      for (var step in steps) {
+        final travelMode = step['travel_mode'] as String? ?? 'WALKING';
+        final points = step['polyline_points'] as List<LatLng>? ?? [];
+        
+        if (points.isEmpty) continue;
+
+        Color lineColor;
+        int lineWidth;
+        List<PatternItem> patterns = [];
+
+        if (travelMode == 'WALKING') {
+          lineColor = accent; // Amber for walking
+          lineWidth = 4;
+          patterns = [PatternItem.dash(12), PatternItem.gap(6)];
+        } else if (travelMode == 'TRANSIT') {
+          final transitDetails = step['transit_details'] as Map<String, dynamic>?;
+          final vehicleType = transitDetails?['vehicle_type'] as String? ?? 'BUS';
+          final colorHex = transitDetails?['color'] as String? ?? '#2196F3';
+          
+          // Parse hex color or use defaults
+          if (vehicleType == 'SUBWAY' || vehicleType == 'METRO') {
+            lineColor = _parseHexColor(colorHex) ?? const Color(0xFF2196F3); // Blue
+          } else if (vehicleType == 'TRAM') {
+            lineColor = _parseHexColor(colorHex) ?? const Color(0xFF9C27B0); // Purple
+          } else {
+            lineColor = _parseHexColor(colorHex) ?? const Color(0xFF4CAF50); // Green for bus
+          }
+          lineWidth = 6;
+        } else if (travelMode == 'BICYCLING') {
+          lineColor = const Color(0xFF4CAF50); // Green
+          lineWidth = 5;
+        } else {
+          lineColor = const Color(0xFF9C27B0); // Purple for driving
+          lineWidth = 5;
+        }
+
+        polylines.add(Polyline(
+          polylineId: PolylineId('step_$stepIndex'),
+          points: points,
+          color: lineColor,
+          width: lineWidth,
+          patterns: patterns,
+          jointType: JointType.round,
+          startCap: Cap.roundCap,
+          endCap: Cap.roundCap,
+        ));
+        stepIndex++;
+      }
+    }
+
+    if (!mounted) return;
+    setState(() => _routePolylines = polylines);
+  }
+
+  Color? _parseHexColor(String hex) {
+    try {
+      hex = hex.replaceFirst('#', '');
+      if (hex.length == 6) {
+        return Color(int.parse('FF$hex', radix: 16));
+      }
+    } catch (_) {}
+    return null;
+  }
+
+  Color _getColorForMode(int mode, Map<String, dynamic>? transitDetails) {
+    switch (mode) {
+      case 0: return accent; // Walking - Amber
+      case 1: return const Color(0xFF4CAF50); // Bicycling - Green
+      case 2: return const Color(0xFF2196F3); // Transit - Blue
+      case 3: return const Color(0xFF9C27B0); // Driving - Purple
+      default: return accent;
+    }
+  }
 
   Color _getCategoryColor(String category) {
     final colors = {
@@ -888,6 +1459,7 @@ class _RoutesScreenState extends State<RoutesScreen>
     return colors[category] ?? const Color(0xFF607D8B);
   }
 
+
   // ══════════════════════════════════════════════════════════════════════════
   // BUILD
   // ══════════════════════════════════════════════════════════════════════════
@@ -896,7 +1468,7 @@ class _RoutesScreenState extends State<RoutesScreen>
   Widget build(BuildContext context) {
     if (_loading) {
       return Scaffold(
-        backgroundColor: bgDark,
+        backgroundColor: WanderlustColors.bgDark,
         body: Center(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
@@ -904,7 +1476,7 @@ class _RoutesScreenState extends State<RoutesScreen>
               Container(
                 padding: const EdgeInsets.all(16),
                 decoration: BoxDecoration(
-                  gradient: primaryGradient,
+                  color: accent,
                   borderRadius: BorderRadius.circular(16),
                 ),
                 child: const Icon(
@@ -924,20 +1496,27 @@ class _RoutesScreenState extends State<RoutesScreen>
       );
     }
 
+    // Show fullscreen map if enabled
+    if (_isMapFullscreen) {
+      return _buildFullscreenMap();
+    }
+
     return Scaffold(
-      backgroundColor: bgDark,
-      body: SafeArea(
-        child: Column(
-          children: [
-            _buildHeader(),
-            _buildMainTabs(),
-            Expanded(
-              child: TabBarView(
-                controller: _mainTabController,
-                children: [_buildSuggestedRoutesTab(), _buildMyRouteTab()],
+      backgroundColor: Colors.transparent, // Transparent for map background
+      body: MapBackground(
+        child: SafeArea(
+          child: Column(
+            children: [
+              _buildHeader(),
+              _buildMainTabs(),
+              Expanded(
+                child: TabBarView(
+                  controller: _mainTabController,
+                  children: [_buildSuggestedRoutesTab(), _buildMyRouteTab()],
+                ),
               ),
-            ),
-          ],
+            ],
+          ),
         ),
       ),
     );
@@ -951,7 +1530,7 @@ class _RoutesScreenState extends State<RoutesScreen>
           Container(
             padding: const EdgeInsets.all(12),
             decoration: BoxDecoration(
-              gradient: primaryGradient,
+              color: accent,
               borderRadius: BorderRadius.circular(14),
             ),
             child: const Icon(Icons.route, color: Colors.white, size: 24),
@@ -962,16 +1541,16 @@ class _RoutesScreenState extends State<RoutesScreen>
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(
-                  "${_city?.city ?? ''} Rotaları",
+                  AppLocalizations.instance.cityRoutes(_city?.city ?? ''),
                   style: const TextStyle(
-                    color: textWhite,
-                    fontSize: 22,
-                    fontWeight: FontWeight.w700,
+                    color: WanderlustColors.textWhite,
+                    fontSize: 28,
+                    fontWeight: FontWeight.bold,
                   ),
                 ),
                 Text(
-                  "${_allSuggestedRoutes.length} hazır rota • ${_tripPlaces.length} seçili nokta • $_tripDays gün",
-                  style: const TextStyle(color: textGrey, fontSize: 13),
+                  "${_allSuggestedRoutes.length} ${AppLocalizations.instance.readyRoutes} • ${_tripPlaces.length} ${AppLocalizations.instance.selectedSpotsLabel} • ${AppLocalizations.instance.nDays(_tripDays)}",
+                  style: const TextStyle(color: WanderlustColors.textGrey, fontSize: 13),
                 ),
               ],
             ),
@@ -986,64 +1565,66 @@ class _RoutesScreenState extends State<RoutesScreen>
       margin: const EdgeInsets.fromLTRB(20, 20, 20, 0),
       height: 50,
       decoration: BoxDecoration(
-        color: bgCard,
+        color: WanderlustColors.bgCard,
         borderRadius: BorderRadius.circular(14),
-        border: Border.all(color: borderColor),
       ),
-      child: TabBar(
-        controller: _mainTabController,
-        indicator: BoxDecoration(
-          gradient: primaryGradient,
-          borderRadius: BorderRadius.circular(12),
-        ),
-        indicatorSize: TabBarIndicatorSize.tab,
-        indicatorPadding: const EdgeInsets.all(4),
-        dividerColor: Colors.transparent,
-        labelColor: Colors.white,
-        unselectedLabelColor: textGrey,
-        labelStyle: const TextStyle(fontWeight: FontWeight.w600, fontSize: 14),
-        tabs: [
-          const Tab(
-            child: Row(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                Icon(Icons.auto_awesome, size: 18),
-                SizedBox(width: 8),
-                Text("Hazır Rotalar"),
-              ],
-            ),
+      child: Container(
+        key: _routesTabKey,
+        child: TabBar(
+          controller: _mainTabController,
+          indicator: BoxDecoration(
+            color: accent,
+            borderRadius: BorderRadius.circular(12),
           ),
-          Tab(
-            child: Row(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                const Icon(Icons.edit_road, size: 18),
-                const SizedBox(width: 8),
-                const Text("Benim Rotam"),
-                if (_tripPlaces.isNotEmpty) ...[
-                  const SizedBox(width: 6),
-                  Container(
-                    padding: const EdgeInsets.symmetric(
-                      horizontal: 6,
-                      vertical: 2,
-                    ),
-                    decoration: BoxDecoration(
-                      color: accent,
-                      borderRadius: BorderRadius.circular(10),
-                    ),
-                    child: Text(
-                      "${_tripPlaces.length}",
-                      style: const TextStyle(
-                        fontSize: 10,
-                        fontWeight: FontWeight.w700,
+          indicatorSize: TabBarIndicatorSize.tab,
+          indicatorPadding: const EdgeInsets.all(4),
+          dividerColor: Colors.transparent,
+          labelColor: Colors.white,
+          unselectedLabelColor: WanderlustColors.textGrey,
+          labelStyle: const TextStyle(fontWeight: FontWeight.w600, fontSize: 14),
+          tabs: [
+            Tab(
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Icon(Icons.map_outlined, size: 18),
+                  SizedBox(width: 8),
+                  Text(AppLocalizations.instance.suggestedRoutes),
+                ],
+              ),
+            ),
+            Tab(
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  const Icon(Icons.edit_road, size: 18),
+                  const SizedBox(width: 8),
+                  Text(AppLocalizations.instance.myRoute),
+                  if (_tripPlaces.isNotEmpty) ...[
+                    const SizedBox(width: 6),
+                    Container(
+                      padding: const EdgeInsets.symmetric(
+                        horizontal: 6,
+                        vertical: 2,
+                      ),
+                      decoration: BoxDecoration(
+                        color: accent,
+                        borderRadius: BorderRadius.circular(10),
+                      ),
+                      child: Text(
+                        "${_tripPlaces.length}",
+                        style: const TextStyle(
+                          fontSize: 10,
+                          fontWeight: FontWeight.w700,
+                        ),
                       ),
                     ),
-                  ),
+                  ],
                 ],
-              ],
+              ),
             ),
-          ),
-        ],
+          ],
+        ),
       ),
     );
   }
@@ -1057,29 +1638,46 @@ class _RoutesScreenState extends State<RoutesScreen>
       return _buildEmptyMyRoute();
     }
 
-    return NestedScrollView(
-        headerSliverBuilder: (context, innerBoxIsScrolled) {
+    return Stack(
+      children: [
+        NestedScrollView(
+          controller: _myRouteScrollController,
+          headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
-                SliverToBoxAdapter(
-                    child: Column(
+              SliverToBoxAdapter(
+                child: Column(
+                  mainAxisSize: MainAxisSize.min,
+                  children: [
+                    // Tutorial Step 1: Stats + Transport Mode
+                    Container(
+                      key: _myRouteStatsKey,
+                      child: Column(
                         mainAxisSize: MainAxisSize.min,
                         children: [
-                            _buildStatsBar(),
-                            _buildRealMapPreview(),
-                            _buildStartRouteButton(),
-                            if (_totalDays <= 1 || _dayTabController == null)
-                                const SizedBox(height: 16),
+                          _buildStatsBar(),
+                          _buildTransportModeSelector(),
                         ],
+                      ),
                     ),
+                    // Tutorial Step 2: Start Route Button only
+                    _buildRealMapPreview(),
+                    _buildTransitStepsInfo(),
+                    _buildStartRouteButton(),
+                    const SizedBox(height: 12),
+                    _buildCompleteRouteButton(),
+                    if (_totalDays <= 1 || _dayTabController == null)
+                      const SizedBox(height: 16),
+                  ],
                 ),
-                if (_dayTabController != null && _totalDays > 1)
-                    SliverPersistentHeader(
-                        delegate: _SliverAppBarDelegate(_buildDayTabs()),
-                        pinned: true,
-                    ),
+              ),
+              if (_dayTabController != null && _totalDays > 1)
+                SliverPersistentHeader(
+                  delegate: _SliverAppBarDelegate(_buildDayTabs()),
+                  pinned: true,
+                ),
             ];
-        },
-        body: _dayTabController != null && _totalDays > 1
+          },
+          body: _dayTabController != null && _totalDays > 1
               ? TabBarView(
                   controller: _dayTabController,
                   children: List.generate(
@@ -1088,6 +1686,41 @@ class _RoutesScreenState extends State<RoutesScreen>
                   ),
                 )
               : _buildDayContent(1),
+        ),
+        if (_showScrollToTop)
+          Positioned(
+            right: 20,
+            bottom: 30,
+            child: AnimatedOpacity(
+              opacity: _showScrollToTop ? 1.0 : 0.0,
+              duration: const Duration(milliseconds: 200),
+              child: GestureDetector(
+                onTap: () {
+                  HapticFeedback.lightImpact();
+                  _routesScrollController.animateTo(
+                    0,
+                    duration: const Duration(milliseconds: 500),
+                    curve: Curves.easeOutCubic,
+                  );
+                },
+                child: Container(
+                  width: 44,
+                  height: 44,
+                  decoration: BoxDecoration(
+                    color: WanderlustColors.bgCard.withOpacity(0.8),
+                    shape: BoxShape.circle,
+                    border: Border.all(color: WanderlustColors.border.withOpacity(0.5)),
+                  ),
+                  child: const Icon(
+                    Icons.keyboard_arrow_up_rounded,
+                    color: WanderlustColors.textGrey,
+                    size: 28,
+                  ),
+                ),
+              ),
+            ),
+          ),
+      ],
     );
   }
 
@@ -1099,48 +1732,48 @@ class _RoutesScreenState extends State<RoutesScreen>
           Container(
             padding: const EdgeInsets.all(24),
             decoration: const BoxDecoration(
-              color: bgCard,
+              color: WanderlustColors.bgCard,
               shape: BoxShape.circle,
             ),
-            child: const Icon(Icons.map_outlined, size: 48, color: textGrey),
+            child: const Icon(Icons.map_outlined, size: 48, color: WanderlustColors.textGrey),
           ),
           const SizedBox(height: 24),
-          const Text(
-            "Henüz rotanız boş",
-            style: TextStyle(
-              color: textWhite,
+          Text(
+            AppLocalizations.instance.emptyRouteTitle,
+            style: const TextStyle(
+              color: WanderlustColors.textWhite,
               fontSize: 20,
               fontWeight: FontWeight.w700,
             ),
           ),
           const SizedBox(height: 8),
           Text(
-            "$_tripDays günlük seyahatiniz için\nrotanızı oluşturun",
-            style: const TextStyle(color: textGrey, fontSize: 14),
+            AppLocalizations.instance.createRouteForTrip(_tripDays),
+            style: const TextStyle(color: WanderlustColors.textGrey, fontSize: 14),
             textAlign: TextAlign.center,
           ),
           const SizedBox(height: 32),
           GestureDetector(
             onTap: () => _mainTabController.animateTo(0),
-            child: Container(
-              padding: const EdgeInsets.symmetric(horizontal: 28, vertical: 14),
-              decoration: BoxDecoration(
-                gradient: primaryGradient,
-                borderRadius: BorderRadius.circular(14),
-                boxShadow: [
-                  BoxShadow(
-                    color: accentLight.withOpacity(0.4),
-                    blurRadius: 16,
-                    offset: const Offset(0, 6),
+            child: ClipRRect(
+              borderRadius: BorderRadius.circular(12),
+              child: BackdropFilter(
+                filter: ImageFilter.blur(sigmaX: 8, sigmaY: 8),
+                child: Container(
+                  padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 10),
+                  decoration: BoxDecoration(
+                    color: Colors.white.withOpacity(0.1),
+                    borderRadius: BorderRadius.circular(12),
+                    border: Border.all(color: Colors.white.withOpacity(0.2)),
                   ),
-                ],
-              ),
-              child: const Text(
-                "Hazır Rotalara Göz At",
-                style: TextStyle(
-                  color: Colors.white,
-                  fontSize: 16,
-                  fontWeight: FontWeight.w600,
+                  child: Text(
+                    AppLocalizations.instance.browseReadyRoutes,
+                    style: const TextStyle(
+                      color: Colors.white,
+                      fontSize: 14,
+                      fontWeight: FontWeight.w600,
+                    ),
+                  ),
                 ),
               ),
             ),
@@ -1153,29 +1786,56 @@ class _RoutesScreenState extends State<RoutesScreen>
   Widget _buildStatsBar() {
     final currentDay = (_dayTabController?.index ?? 0) + 1;
     final distance = _calculateTotalDistance(currentDay);
-    final walkTime = _estimateWalkingTime(currentDay);
+    final transportTime = _getCurrentTransportTime(currentDay);
     final placesCount = _dayPlans[currentDay]?.length ?? 0;
+
+    // Dynamic icon and label based on transport mode
+    IconData transportIcon;
+    String transportLabel;
+    switch (_selectedTransportMode) {
+      case 1:
+        transportIcon = Icons.directions_bike;
+        transportLabel = AppLocalizations.instance.bike;
+        break;
+      case 2:
+        transportIcon = Icons.directions_transit;
+        transportLabel = "Toplu T.";
+        break;
+      case 3:
+        transportIcon = Icons.directions_car;
+        transportLabel = AppLocalizations.instance.car;
+        break;
+      default:
+        transportIcon = Icons.directions_walk;
+        transportLabel = AppLocalizations.instance.walk;
+    }
 
     return Container(
       margin: const EdgeInsets.fromLTRB(20, 16, 20, 0),
       padding: const EdgeInsets.all(16),
       decoration: BoxDecoration(
-        color: bgCard,
+        color: WanderlustColors.bgCard.withOpacity(0.8),
         borderRadius: BorderRadius.circular(16),
-        border: Border.all(color: borderColor.withOpacity(0.5)),
+        boxShadow: [
+          BoxShadow(
+            color: Colors.black.withOpacity(0.1),
+            blurRadius: 8,
+            offset: const Offset(0, 4),
+          ),
+        ],
       ),
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceAround,
         children: [
-          _buildStatItem(Icons.place, "$placesCount", "Nokta"),
-          Container(width: 1, height: 40, color: borderColor),
+          _buildStatItem(Icons.place, "$placesCount", AppLocalizations.instance.spots),
+          Container(width: 1, height: 40, color: WanderlustColors.border),
           _buildStatItem(
             Icons.straighten,
             "${distance.toStringAsFixed(1)} km",
-            "Mesafe",
+            AppLocalizations.instance.distance,
           ),
-          Container(width: 1, height: 40, color: borderColor),
-          _buildStatItem(Icons.directions_walk, "$walkTime dk", "Yürüyüş"),
+          Container(width: 1, height: 40, color: WanderlustColors.border),
+          _buildStatItem(transportIcon, "$transportTime ${AppLocalizations.instance.min}", transportLabel),
         ],
       ),
     );
@@ -1189,13 +1849,134 @@ class _RoutesScreenState extends State<RoutesScreen>
         Text(
           value,
           style: const TextStyle(
-            color: textWhite,
+            color: WanderlustColors.textWhite,
             fontSize: 16,
             fontWeight: FontWeight.w700,
           ),
         ),
-        Text(label, style: const TextStyle(color: textGrey, fontSize: 11)),
+        Text(label, style: const TextStyle(color: WanderlustColors.textGrey, fontSize: 11)),
       ],
+    );
+  }
+
+  // ══════════════════════════════════════════════════════════════════════════
+  // TRANSPORT MODE SELECTOR (VibeMaps-Inspired)
+  // ══════════════════════════════════════════════════════════════════════════
+
+  Widget _buildTransportModeSelector() {
+    final currentDay = (_dayTabController?.index ?? 0) + 1;
+    final walkTime = _estimateWalkingTime(currentDay);
+    final bikeTime = _estimateBikingTime(currentDay);
+    final transitTime = _transitTimeCache ?? _estimateTransitFallback(currentDay);
+    final driveTime = _estimateDrivingTime(currentDay);
+
+    final modes = [
+      {"icon": Icons.directions_walk, "time": walkTime, "label": AppLocalizations.instance.min, "name": AppLocalizations.instance.walk},
+      {"icon": Icons.directions_bike, "time": bikeTime, "label": AppLocalizations.instance.min, "name": AppLocalizations.instance.bike},
+      {"icon": Icons.directions_transit, "time": transitTime, "label": AppLocalizations.instance.min, "name": AppLocalizations.instance.publicTransportShort},
+      {"icon": Icons.directions_car, "time": driveTime, "label": AppLocalizations.instance.min, "name": AppLocalizations.instance.car},
+    ];
+
+    return Container(
+      margin: const EdgeInsets.fromLTRB(20, 12, 20, 0),
+      padding: const EdgeInsets.all(4),
+      height: 56, // Fixed height for the pill container
+      decoration: BoxDecoration(
+        color: const Color(0xFF1C1C1E).withOpacity(0.8), // Dark pill background
+        borderRadius: BorderRadius.circular(32), // Fully rounded ends
+        border: Border.all(color: Colors.white.withOpacity(0.1)),
+        boxShadow: [
+          BoxShadow(
+            color: Colors.black.withOpacity(0.2),
+            blurRadius: 10,
+            offset: const Offset(0, 4),
+          ),
+        ],
+      ),
+      child: Stack(
+        children: [
+          // Animated Pill Indicator
+          AnimatedAlign(
+            duration: const Duration(milliseconds: 300),
+            curve: Curves.easeInOutCubic,
+            alignment: Alignment(
+              -1.0 + (_selectedTransportMode * (2.0 / 3.0)),
+              0.0,
+            ),
+            child: FractionallySizedBox(
+              widthFactor: 1 / 4,
+              child: Container(
+                height: 48, // Slightly smaller than container
+                decoration: BoxDecoration(
+                  color: accent, // Solid VibeMap Violet
+                  borderRadius: BorderRadius.circular(28),
+                  boxShadow: [
+                    BoxShadow(
+                      color: accent.withOpacity(0.4),
+                      blurRadius: 8,
+                      offset: const Offset(0, 2),
+                    ),
+                  ],
+                ),
+              ),
+            ),
+          ),
+
+          // Mode Buttons
+          Row(
+            children: List.generate(4, (index) {
+              final mode = modes[index];
+              final isSelected = _selectedTransportMode == index;
+              final isTransit = index == 2;
+
+              return Expanded(
+                child: GestureDetector(
+                  onTap: () {
+                    HapticFeedback.selectionClick();
+                    setState(() => _selectedTransportMode = index);
+                    _fetchRouteForMode(index, currentDay);
+                  },
+                  behavior: HitTestBehavior.opaque,
+                  child: Center(
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      mainAxisSize: MainAxisSize.min, // Center tightly
+                      children: [
+                        if (isTransit && _transitLoading)
+                          SizedBox(
+                            width: 16,
+                            height: 16,
+                            child: CircularProgressIndicator(
+                              strokeWidth: 2,
+                              valueColor: AlwaysStoppedAnimation<Color>(
+                                isSelected ? Colors.white : Colors.white.withOpacity(0.6),
+                              ),
+                            ),
+                          )
+                        else
+                          Icon(
+                            mode["icon"] as IconData,
+                            color: isSelected ? Colors.white : Colors.white.withOpacity(0.9), // Higher contrast for inactive
+                            size: 20, // Slightly larger icons
+                          ),
+                        const SizedBox(width: 6),
+                        Text(
+                          "${mode["time"]} ${mode["label"]}",
+                          style: TextStyle(
+                            color: isSelected ? Colors.white : Colors.white.withOpacity(0.8),
+                            fontSize: 13,
+                            fontWeight: FontWeight.w600,
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+                ),
+              );
+            }),
+          ),
+        ],
+      ),
     );
   }
 
@@ -1354,9 +2135,9 @@ class _RoutesScreenState extends State<RoutesScreen>
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               Text(
-                "Günlük Rota Haritası",
+                AppLocalizations.instance.dailyRouteMap,
                 style: TextStyle(
-                    color: textWhite, 
+                    color: WanderlustColors.textWhite, 
                     fontWeight: FontWeight.bold, 
                     fontSize: 16
                 ),
@@ -1370,6 +2151,7 @@ class _RoutesScreenState extends State<RoutesScreen>
                        // Harita açılınca update et
                        Future.delayed(const Duration(milliseconds: 100), () {
                            _updateRouteMapMarkers(places);
+                           _fetchRouteForMode(_selectedTransportMode, currentDay);
                        });
                    }
                 },
@@ -1377,14 +2159,14 @@ class _RoutesScreenState extends State<RoutesScreen>
                 child: Container(
                   padding: const EdgeInsets.all(8),
                   decoration: BoxDecoration(
-                    color: bgCardLight,
+                    color: WanderlustColors.bgCardLight,
                     borderRadius: BorderRadius.circular(8),
-                    border: Border.all(color: borderColor),
+                    border: Border.all(color: WanderlustColors.border),
                   ),
                   child: Row(
                     children: [
                        Text(
-                         _showMapPreview ? "Gizle" : "Göster", 
+                         _showMapPreview ? AppLocalizations.instance.hide : AppLocalizations.instance.show, 
                          style: const TextStyle(color: accent, fontSize: 12, fontWeight: FontWeight.bold),
                        ),
                        const SizedBox(width: 6),
@@ -1408,36 +2190,788 @@ class _RoutesScreenState extends State<RoutesScreen>
             margin: const EdgeInsets.symmetric(horizontal: 20, vertical: 8),
             decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(16),
-              border: Border.all(color: borderColor),
+              border: Border.all(color: WanderlustColors.border),
               boxShadow: [
                   BoxShadow(color: Colors.black.withOpacity(0.2), blurRadius: 10, offset: const Offset(0,4)),
               ],
             ),
             child: ClipRRect(
               borderRadius: BorderRadius.circular(16),
-              child: GoogleMap(
-                initialCameraPosition: const CameraPosition(target: LatLng(41.3851, 2.1734), zoom: 12), // Barcelona default
-                onMapCreated: (controller) {
-                    _routeMapController = controller;
-                    _routeMapController!.setMapStyle(darkMapStyle);
-                    _updateRouteMapMarkers(places);
-                },
-                markers: _routeMarkers,
-                polylines: _routePolylines,
-                scrollGesturesEnabled: true,
-                zoomGesturesEnabled: true,
-                myLocationButtonEnabled: false,
-                zoomControlsEnabled: true,
-                mapToolbarEnabled: false,
-                compassEnabled: false,
-                trafficEnabled: false,
-              ),
+              child: Stack(
+                children: [
+                GoogleMap(
+                  initialCameraPosition: const CameraPosition(target: LatLng(41.3851, 2.1734), zoom: 12), // Barcelona default
+                  onMapCreated: (controller) {
+                      _routeMapController = controller;
+                      _routeMapController!.setMapStyle(darkMapStyle);
+                      _updateRouteMapMarkers(places);
+                      // Fetch route polyline for current transport mode
+                      _fetchRouteForMode(_selectedTransportMode, currentDay);
+                  },
+                  markers: _routeMarkers,
+                  polylines: _routePolylines,
+                  scrollGesturesEnabled: true,
+                  zoomGesturesEnabled: true,
+                  myLocationButtonEnabled: false,
+                  zoomControlsEnabled: false, // Disabled default, using custom
+                  mapToolbarEnabled: false,
+                  compassEnabled: false,
+                  trafficEnabled: false,
+                ),
+                // Custom Zoom Controls
+                Positioned(
+                  right: 12,
+                  bottom: 12,
+                  child: Column(
+                    children: [
+                      _buildZoomButton(Icons.add, () {
+                        _routeMapController?.animateCamera(CameraUpdate.zoomIn());
+                      }),
+                      const SizedBox(height: 8),
+                      _buildZoomButton(Icons.remove, () {
+                        _routeMapController?.animateCamera(CameraUpdate.zoomOut());
+                      }),
+                    ],
+                  ),
+                ),
+                // Fullscreen Button
+                Positioned(
+                  right: 12,
+                  top: 12,
+                  child: _buildZoomButton(Icons.fullscreen, () {
+                    setState(() => _isMapFullscreen = true);
+                  }),
+                ),
+              ],
             ),
-          )
+          ),
+        )
         else
           // Kapalıyken gösterilecek alternatif (boşluk veya çizgi)
           const SizedBox(height: 0),
       ],
+    );
+  }
+
+  Widget _buildZoomButton(IconData icon, VoidCallback onTap) {
+    return GestureDetector(
+      onTap: () {
+        HapticFeedback.selectionClick();
+        onTap();
+      },
+      child: Container(
+        width: 36,
+        height: 36,
+        decoration: BoxDecoration(
+          color: WanderlustColors.bgCard.withOpacity(0.9),
+          borderRadius: BorderRadius.circular(10),
+          border: Border.all(color: WanderlustColors.border),
+          boxShadow: [
+            BoxShadow(
+              color: Colors.black.withOpacity(0.2),
+              blurRadius: 6,
+              offset: const Offset(0, 2),
+            ),
+          ],
+        ),
+        child: Icon(icon, color: accent, size: 20),
+      ),
+    );
+  }
+
+  /// Fullscreen map overlay with draggable route list
+  Widget _buildFullscreenMap() {
+    final currentDay = (_dayTabController?.index ?? 0) + 1;
+    final places = _dayPlans[currentDay] ?? [];
+    
+    if (places.isEmpty) return const SizedBox.shrink();
+
+    return Scaffold(
+      backgroundColor: WanderlustColors.bgDark,
+      body: SafeArea(
+        child: Stack(
+          children: [
+            // Main content column
+            Column(
+              children: [
+                // Header with close button
+                Padding(
+                  padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+                  child: Row(
+                    children: [
+                      GestureDetector(
+                        onTap: () {
+                          HapticFeedback.selectionClick();
+                          setState(() => _isMapFullscreen = false);
+                        },
+                        child: Container(
+                          padding: const EdgeInsets.all(8),
+                          decoration: BoxDecoration(
+                            color: WanderlustColors.bgCard,
+                            borderRadius: BorderRadius.circular(10),
+                            border: Border.all(color: WanderlustColors.border),
+                          ),
+                          child: Icon(Icons.arrow_back, color: accent, size: 22),
+                        ),
+                      ),
+                      const SizedBox(width: 12),
+                      Text(
+                        AppLocalizations.instance.routeMap,
+                        style: TextStyle(
+                          color: WanderlustColors.textWhite,
+                          fontSize: 18,
+                          fontWeight: FontWeight.w600,
+                        ),
+                      ),
+                      const Spacer(),
+                      // Day indicator if multi-day
+                      if (_totalDays > 1)
+                        Container(
+                          padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
+                          decoration: BoxDecoration(
+                            color: accent.withOpacity(0.2),
+                            borderRadius: BorderRadius.circular(20),
+                          ),
+                          child: Text(
+                            "${AppLocalizations.instance.day} $currentDay",
+                            style: TextStyle(color: accent, fontWeight: FontWeight.w600, fontSize: 13),
+                          ),
+                        ),
+                    ],
+                  ),
+                ),
+                
+                // Transport mode selector
+                _buildTransportModeSelector(),
+                
+                // Map (takes remaining space)
+                Expanded(
+                  child: Container(
+                    margin: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(16),
+                      border: Border.all(color: WanderlustColors.border),
+                    ),
+                    child: ClipRRect(
+                      borderRadius: BorderRadius.circular(16),
+                      child: Stack(
+                        children: [
+                          GoogleMap(
+                            initialCameraPosition: CameraPosition(
+                              target: LatLng(places.first.lat, places.first.lng),
+                              zoom: 13,
+                            ),
+                            onMapCreated: (controller) {
+                              _routeMapController = controller;
+                              _routeMapController!.setMapStyle(darkMapStyle);
+                              _updateRouteMapMarkers(places);
+                              _fetchRouteForMode(_selectedTransportMode, currentDay);
+                            },
+                            markers: _routeMarkers,
+                            polylines: _routePolylines,
+                            scrollGesturesEnabled: true,
+                            zoomGesturesEnabled: true,
+                            myLocationButtonEnabled: false,
+                            zoomControlsEnabled: false,
+                            mapToolbarEnabled: false,
+                            compassEnabled: true,
+                            trafficEnabled: false,
+                          ),
+                          // Zoom controls
+                          Positioned(
+                            right: 12,
+                            bottom: 12,
+                            child: Column(
+                              children: [
+                                _buildZoomButton(Icons.add, () {
+                                  _routeMapController?.animateCamera(CameraUpdate.zoomIn());
+                                }),
+                                const SizedBox(height: 8),
+                                _buildZoomButton(Icons.remove, () {
+                                  _routeMapController?.animateCamera(CameraUpdate.zoomOut());
+                                }),
+                              ],
+                            ),
+                          ),
+                          // Exit fullscreen button
+                          Positioned(
+                            right: 12,
+                            top: 12,
+                            child: _buildZoomButton(Icons.fullscreen_exit, () {
+                              setState(() => _isMapFullscreen = false);
+                            }),
+                          ),
+                        ],
+                      ),
+                    ),
+                  ),
+                ),
+              ],
+            ),
+            
+            // Draggable scrollable sheet for route stops
+            DraggableScrollableSheet(
+              initialChildSize: 0.25,
+              minChildSize: 0.12,
+              maxChildSize: 0.7,
+              builder: (context, scrollController) {
+                return Container(
+                  decoration: BoxDecoration(
+                    color: WanderlustColors.bgCard,
+                    borderRadius: const BorderRadius.vertical(top: Radius.circular(20)),
+                    boxShadow: [
+                      BoxShadow(
+                        color: Colors.black.withOpacity(0.3),
+                        blurRadius: 20,
+                        offset: const Offset(0, -5),
+                      ),
+                    ],
+                  ),
+                  child: Column(
+                    children: [
+                      // Handle bar
+                      Container(
+                        margin: const EdgeInsets.only(top: 12, bottom: 8),
+                        width: 40,
+                        height: 4,
+                        decoration: BoxDecoration(
+                          color: Colors.white.withOpacity(0.3),
+                          borderRadius: BorderRadius.circular(2),
+                        ),
+                      ),
+                      
+                      // Header with start button
+                      Padding(
+                        padding: const EdgeInsets.symmetric(horizontal: 16),
+                        child: Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                          children: [
+                            Text(
+                              AppLocalizations.instance.stops,
+                              style: TextStyle(
+                                color: WanderlustColors.textWhite,
+                                fontSize: 16,
+                                fontWeight: FontWeight.w600,
+                              ),
+                            ),
+                            Text(
+                              "${places.length} ${AppLocalizations.instance.spots.toLowerCase()}",
+                              style: TextStyle(
+                                color: WanderlustColors.textGrey,
+                                fontSize: 13,
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+                      
+                      const SizedBox(height: 8),
+                      
+                      // Scrollable stops list
+                      Expanded(
+                        child: ListView.builder(
+                          controller: scrollController,
+                          padding: const EdgeInsets.symmetric(horizontal: 16),
+                          itemCount: places.length + 1, // +1 for the start button at end
+                          itemBuilder: (context, index) {
+                            if (index == places.length) {
+                              // Start route button at the end
+                              return Padding(
+                                padding: const EdgeInsets.symmetric(vertical: 16),
+                                child: GestureDetector(
+                                  onTap: () => _startRouteInGoogleMaps(currentDay),
+                                  child: Container(
+                                    padding: const EdgeInsets.symmetric(vertical: 14, horizontal: 20),
+                                    decoration: BoxDecoration(
+                                      color: Colors.white.withOpacity(0.95),
+                                      borderRadius: BorderRadius.circular(14),
+                                      boxShadow: [
+                                        BoxShadow(
+                                          color: Colors.black.withOpacity(0.12),
+                                          blurRadius: 10,
+                                          offset: const Offset(0, 4),
+                                        ),
+                                      ],
+                                    ),
+                                    child: Row(
+                                      mainAxisAlignment: MainAxisAlignment.center,
+                                      children: [
+                                        const Icon(Icons.navigation_rounded, color: Color(0xFF1A1A2E), size: 20),
+                                        const SizedBox(width: 10),
+                                        Text(
+                                          AppLocalizations.instance.startRoute,
+                                          style: TextStyle(
+                                            color: const Color(0xFF1A1A2E),
+                                            fontSize: 15,
+                                            fontWeight: FontWeight.w700,
+                                          ),
+                                        ),
+                                      ],
+                                    ),
+                                  ),
+                                ),
+                              );
+                            }
+                            
+                            final place = places[index];
+                            return Padding(
+                              padding: const EdgeInsets.only(bottom: 12),
+                              child: _buildHorizontalPlaceCard(place, index, isReadOnly: true),
+                            );
+                          },
+                        ),
+                      ),
+                    ],
+                  ),
+                );
+              },
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+
+  Widget _buildCompleteRouteButton() {
+    return Padding(
+      padding: const EdgeInsets.symmetric(horizontal: 20),
+      child: GestureDetector(
+        onTap: _completeRoute,
+        child: Container(
+          width: double.infinity,
+          padding: const EdgeInsets.symmetric(vertical: 16),
+          decoration: BoxDecoration(
+            color: WanderlustColors.bgCardLight,
+            borderRadius: BorderRadius.circular(16),
+            border: Border.all(color: accent.withOpacity(0.5)),
+          ),
+          child: Row(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              const Icon(Icons.check_circle_outline, color: accent),
+              const SizedBox(width: 8),
+              Text(
+                AppLocalizations.instance.isEnglish ? "Complete Route" : "Rotayı Tamamla",
+                style: const TextStyle(
+                  color: WanderlustColors.textWhite,
+                  fontSize: 16,
+                  fontWeight: FontWeight.w600,
+                ),
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+
+  Future<void> _completeRoute() async {
+    HapticFeedback.mediumImpact();
+
+    // Show confirmation dialog
+    final confirmed = await showDialog<bool>(
+      barrierColor: Colors.black.withOpacity(0.8),
+      context: context,
+      builder: (context) => AlertDialog(
+        backgroundColor: WanderlustColors.bgCard.withOpacity(0.95),
+        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
+        title: Text(
+          AppLocalizations.instance.isEnglish ? "Complete Trip?" : "Rotayı Tamamla?",
+          style: const TextStyle(color: WanderlustColors.textWhite),
+        ),
+        content: Text(
+          AppLocalizations.instance.isEnglish 
+              ? "This will clear your current route and add it to your completed routes history."
+              : "Mevcut rotanız silinecek ve tamamlanan rotalar geçmişine eklenecek.",
+          style: const TextStyle(color: WanderlustColors.textGrey),
+        ),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.pop(context, false),
+            child: Text(
+              AppLocalizations.instance.cancel,
+              style: const TextStyle(color: WanderlustColors.textGrey),
+            ),
+          ),
+          TextButton(
+            onPressed: () => Navigator.pop(context, true),
+            child: Text(
+              AppLocalizations.instance.confirm,
+              style: const TextStyle(color: accent, fontWeight: FontWeight.bold),
+            ),
+          ),
+        ],
+      ),
+    );
+
+    if (confirmed != true) return;
+
+    // 1. Rota detaylarını hazırla ve geçmişe kaydet
+    try {
+      final prefs = await SharedPreferences.getInstance();
+      
+      // Aktif günü ve yerleri al
+      final activeDayIndex = (_dayTabController?.index ?? 0) + 1;
+      final currentDayPlaces = _dayPlans[activeDayIndex] ?? [];
+      final currentDayPlaceNames = currentDayPlaces.map((p) => p.name).toList();
+
+      if (currentDayPlaces.isEmpty) {
+         if (mounted) {
+          ScaffoldMessenger.of(context).showSnackBar(
+            SnackBar(content: Text(AppLocalizations.instance.isEnglish ? "No places to complete for this day." : "Bu gün için tamamlanacak mekan yok.")),
+          );
+         }
+        return;
+      }
+      
+      // Rota ismini belirle
+      String routeName = AppLocalizations.instance.isEnglish ? "My Trip" : "Gezim";
+      if (_city != null) {
+        routeName = "${_city!.city} ${AppLocalizations.instance.isEnglish ? 'Trip' : 'Gezisi'}";
+      }
+      
+      // Curated route kontrolü (Sadece bu gün için)
+      bool isCurated = false;
+      if (_routeOrigins.containsKey(activeDayIndex.toString())) {
+        final routeId = _routeOrigins[activeDayIndex.toString()];
+        try {
+          final match = _allSuggestedRoutes.firstWhere((r) => r.id == routeId);
+          routeName = match.name;
+          isCurated = true;
+        } catch (_) {}
+      }
+
+      // Eğer custom rota ise kullanıcıya isim sor
+      if (!isCurated) {
+        final customName = await showDialog<String>(
+          context: context,
+          barrierDismissible: false,
+          builder: (context) {
+            String tempName = routeName;
+            return AlertDialog(
+              backgroundColor: WanderlustColors.bgCard.withOpacity(0.95),
+              shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
+              title: Text(
+                 AppLocalizations.instance.isEnglish ? "Name Your Trip" : "Gezinize İsim Verin",
+                 style: const TextStyle(color: WanderlustColors.textWhite),
+              ),
+              content: Column(
+                mainAxisSize: MainAxisSize.min,
+                children: [
+                  Text(
+                    AppLocalizations.instance.isEnglish 
+                      ? "Give your custom route a memorable name."
+                      : "Oluşturduğunuz bu rotaya hatırlanabilir bir isim verin.",
+                    style: const TextStyle(color: WanderlustColors.textGrey, fontSize: 13),
+                  ),
+                  const SizedBox(height: 16),
+                  TextField(
+                    autofocus: true,
+                    style: const TextStyle(color: WanderlustColors.textWhite),
+                    decoration: InputDecoration(
+                      filled: true,
+                      fillColor: WanderlustColors.bgDark,
+                      border: OutlineInputBorder(
+                        borderRadius: BorderRadius.circular(12),
+                        borderSide: const BorderSide(color: WanderlustColors.border),
+                      ),
+                      focusedBorder: OutlineInputBorder(
+                         borderRadius: BorderRadius.circular(12),
+                         borderSide: const BorderSide(color: accent),
+                      ),
+                      hintText: routeName,
+                      hintStyle: TextStyle(color: WanderlustColors.textGrey.withOpacity(0.5)),
+                    ),
+                    controller: TextEditingController(text: routeName),
+                    onChanged: (val) => tempName = val,
+                  ),
+                ],
+              ),
+              actions: [
+                 TextButton(
+                  onPressed: () => Navigator.pop(context, null), // Cancel
+                  child: Text(
+                    AppLocalizations.instance.cancel,
+                    style: const TextStyle(color: WanderlustColors.textGrey),
+                  ),
+                ),
+                TextButton(
+                  onPressed: () => Navigator.pop(context, tempName.isEmpty ? routeName : tempName),
+                  child: Text(
+                    AppLocalizations.instance.save,
+                    style: const TextStyle(color: accent, fontWeight: FontWeight.bold),
+                  ),
+                ),
+              ],
+            );
+          },
+        );
+
+        if (customName == null) return; // Kullanıcı iptal etti
+        routeName = customName;
+      }
+
+      // CompletedRoute objesi oluştur
+      final completedRoute = CompletedRoute(
+        id: DateTime.now().millisecondsSinceEpoch.toString(),
+        name: routeName,
+        cityName: _city?.city ?? "Unknown",
+        date: DateTime.now(),
+        stopCount: currentDayPlaceNames.length,
+        placeNames: List<String>.from(currentDayPlaceNames),
+      );
+
+      // Mevcut geçmişi yükle
+      final historyJson = prefs.getStringList("completed_routes_history") ?? [];
+      
+      // Yeni rotayı başa ekle
+      historyJson.insert(0, completedRoute.toJson());
+      
+      // Kaydet
+      await prefs.setStringList("completed_routes_history", historyJson);
+
+      // 2. İstatistikleri güncelle
+      final currentCount = prefs.getInt("completed_routes_count") ?? 0;
+      await prefs.setInt("completed_routes_count", currentCount + 1);
+
+      // 3. SADECE Tamamlanan Günü Temizle ve State'i Güncelle
+      setState(() {
+        // İlgili günün planını temizle
+        _dayPlans.remove(activeDayIndex);
+        _routeOrigins.remove(activeDayIndex.toString());
+
+        // Trip listelerini yeniden oluştur (Source of Truth: _dayPlans)
+        _tripPlaces.clear();
+        _tripPlaceNames.clear();
+        
+        _dayPlans.forEach((day, places) {
+           _tripPlaces.addAll(places);
+           _tripPlaceNames.addAll(places.map((e) => e.name));
+        });
+      });
+
+      // Yeni durumu kaydet (Diğer günler korunur)
+      await _saveTripData();
+      
+      // Notify updates
+      TripUpdateService().notifyTripChanged();
+      
+    } catch (e) {
+      debugPrint("Error saving route history: $e");
+    }
+
+    if (!mounted) return;
+
+    // Show success & switch to Explore or stay
+    ScaffoldMessenger.of(context).showSnackBar(
+      SnackBar(
+        content: Row(
+          children: [
+            const Icon(Icons.check_circle, color: WanderlustColors.accent),
+            const SizedBox(width: 12),
+            Text(
+              AppLocalizations.instance.isEnglish ? "Route Completed!" : "Rota Tamamlandı!",
+              style: const TextStyle(fontWeight: FontWeight.bold),
+            ),
+          ],
+        ),
+        backgroundColor: WanderlustColors.bgCardLight,
+        behavior: SnackBarBehavior.floating,
+      ),
+    );
+  }
+
+
+  /// Build transit route breakdown display
+  Widget _buildTransitStepsInfo() {
+    if (_selectedTransportMode != 2 || _currentRouteSteps.isEmpty) {
+      return const SizedBox.shrink();
+    }
+
+    // Filter only WALKING and TRANSIT steps
+    final relevantSteps = _currentRouteSteps.where((step) {
+      final mode = step['travel_mode'] as String? ?? '';
+      return mode == 'WALKING' || mode == 'TRANSIT';
+    }).toList();
+
+    if (relevantSteps.isEmpty) return const SizedBox.shrink();
+
+    return Container(
+      margin: const EdgeInsets.fromLTRB(20, 8, 20, 0),
+      padding: const EdgeInsets.all(12),
+      decoration: BoxDecoration(
+        color: WanderlustColors.bgCard,
+        borderRadius: BorderRadius.circular(12),
+        border: Border.all(color: WanderlustColors.border),
+      ),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Row(
+            children: [
+              Icon(Icons.directions_transit, color: accent, size: 18),
+              const SizedBox(width: 8),
+              Text(
+                "Rota Detayları",
+                style: TextStyle(
+                  color: WanderlustColors.textWhite,
+                  fontSize: 14,
+                  fontWeight: FontWeight.w600,
+                ),
+              ),
+            ],
+          ),
+          const SizedBox(height: 10),
+          ...relevantSteps.asMap().entries.map((entry) {
+            final index = entry.key;
+            final step = entry.value;
+            final mode = step['travel_mode'] as String? ?? 'WALKING';
+            final duration = step['duration_text'] as String? ?? '';
+            
+            if (mode == 'WALKING') {
+              // Determine walking context from surrounding transit steps
+              String? walkingContext;
+              
+              // Check if this is the first step (walking to first transit)
+              if (index == 0 && relevantSteps.length > 1) {
+                final nextStep = relevantSteps[1];
+                if (nextStep['travel_mode'] == 'TRANSIT') {
+                  final nextTransit = nextStep['transit_details'] as Map<String, dynamic>?;
+                  final departureStop = nextTransit?['departure_stop'] as String? ?? '';
+                  if (departureStop.isNotEmpty) {
+                    walkingContext = "$departureStop durağına yürü";
+                  }
+                }
+              }
+              // Check if this is the last step (walking from last transit)
+              else if (index == relevantSteps.length - 1 && index > 0) {
+                final prevStep = relevantSteps[index - 1];
+                if (prevStep['travel_mode'] == 'TRANSIT') {
+                  final prevTransit = prevStep['transit_details'] as Map<String, dynamic>?;
+                  final arrivalStop = prevTransit?['arrival_stop'] as String? ?? '';
+                  if (arrivalStop.isNotEmpty) {
+                    walkingContext = AppLocalizations.instance.walkToTarget(arrivalStop);
+                  }
+                }
+              }
+              // Middle walking (between two transit steps)
+              else if (index > 0 && index < relevantSteps.length - 1) {
+                final prevStep = relevantSteps[index - 1];
+                final nextStep = relevantSteps[index + 1];
+                if (prevStep['travel_mode'] == 'TRANSIT' && nextStep['travel_mode'] == 'TRANSIT') {
+                  final prevTransit = prevStep['transit_details'] as Map<String, dynamic>?;
+                  final nextTransit = nextStep['transit_details'] as Map<String, dynamic>?;
+                  final from = prevTransit?['arrival_stop'] as String? ?? '';
+                  final to = nextTransit?['departure_stop'] as String? ?? '';
+                  if (from.isNotEmpty && to.isNotEmpty && from != to) {
+                    walkingContext = "$from → $to";
+                  }
+                }
+              }
+              
+              return _buildTransitStepRow(
+                Icons.directions_walk,
+                accent,
+                AppLocalizations.instance.walk,
+                duration,
+                subtitle: walkingContext,
+              );
+            } else if (mode == 'TRANSIT') {
+              final transitDetails = step['transit_details'] as Map<String, dynamic>?;
+              final lineName = transitDetails?['line_name'] as String? ?? '?';
+              final vehicleType = transitDetails?['vehicle_type'] as String? ?? 'BUS';
+              final departureStop = transitDetails?['departure_stop'] as String? ?? '';
+              final arrivalStop = transitDetails?['arrival_stop'] as String? ?? '';
+              
+              IconData icon;
+              Color color;
+              String typeName;
+              
+              if (vehicleType == 'SUBWAY' || vehicleType == 'METRO') {
+                icon = Icons.subway;
+                color = const Color(0xFF2196F3);
+                typeName = "Metro";
+              } else if (vehicleType == 'TRAM') {
+                icon = Icons.tram;
+                color = const Color(0xFF9C27B0);
+                typeName = "Tramvay";
+              } else if (vehicleType == 'RAIL' || vehicleType == 'TRAIN') {
+                icon = Icons.train;
+                color = const Color(0xFF607D8B);
+                typeName = "Tren";
+              } else {
+                icon = Icons.directions_bus;
+                color = const Color(0xFF4CAF50);
+                typeName = "Otobüs";
+              }
+              
+              return _buildTransitStepRow(
+                icon,
+                color,
+                "$typeName $lineName",
+                duration,
+                subtitle: departureStop.isNotEmpty && arrivalStop.isNotEmpty
+                    ? "$departureStop → $arrivalStop"
+                    : null,
+              );
+            }
+            return const SizedBox.shrink();
+          }),
+        ],
+      ),
+    );
+  }
+
+  Widget _buildTransitStepRow(IconData icon, Color color, String title, String duration, {String? subtitle}) {
+    return Padding(
+      padding: const EdgeInsets.symmetric(vertical: 4),
+      child: Row(
+        children: [
+          Container(
+            width: 28,
+            height: 28,
+            decoration: BoxDecoration(
+              color: color.withOpacity(0.2),
+              borderRadius: BorderRadius.circular(6),
+            ),
+            child: Icon(icon, color: color, size: 16),
+          ),
+          const SizedBox(width: 10),
+          Expanded(
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text(
+                  title,
+                  style: const TextStyle(
+                    color: WanderlustColors.textWhite,
+                    fontSize: 13,
+                    fontWeight: FontWeight.w500,
+                  ),
+                ),
+                if (subtitle != null)
+                  Text(
+                    subtitle,
+                    style: TextStyle(
+                      color: WanderlustColors.textGrey.withOpacity(0.8),
+                      fontSize: 11,
+                    ),
+                    maxLines: 1,
+                    overflow: TextOverflow.ellipsis,
+                  ),
+              ],
+            ),
+          ),
+          Text(
+            duration,
+            style: TextStyle(
+              color: WanderlustColors.textGrey,
+              fontSize: 12,
+              fontWeight: FontWeight.w500,
+            ),
+          ),
+        ],
+      ),
     );
   }
 
@@ -1447,7 +2981,7 @@ class _RoutesScreenState extends State<RoutesScreen>
       painter: RouteMapPainter(
         places: places,
         accentColor: accent,
-        bgColor: bgCardLight,
+        bgColor: WanderlustColors.bgCardLight,
       ),
       size: const Size(double.infinity, 160),
     );
@@ -1488,7 +3022,7 @@ class _RoutesScreenState extends State<RoutesScreen>
           width: 26,
           height: 26,
           decoration: BoxDecoration(
-            gradient: primaryGradient,
+            color: accent,
             shape: BoxShape.circle,
             border: Border.all(color: Colors.white, width: 2),
             boxShadow: [
@@ -1522,64 +3056,56 @@ class _RoutesScreenState extends State<RoutesScreen>
     if (places.isEmpty) return const SizedBox.shrink();
 
     return Container(
+      key: _startRouteButtonKey,
       margin: const EdgeInsets.fromLTRB(20, 12, 20, 0),
       child: GestureDetector(
         onTap: () => _startRouteInGoogleMaps(currentDay),
-        child: Container(
-          width: double.infinity,
-          padding: const EdgeInsets.symmetric(vertical: 16),
-          decoration: BoxDecoration(
-            gradient: greenGradient,
-            borderRadius: BorderRadius.circular(14),
-            boxShadow: [
-              BoxShadow(
-                color: accentGreen.withOpacity(0.4),
-                blurRadius: 16,
-                offset: const Offset(0, 6),
+        child: ClipRRect(
+          borderRadius: BorderRadius.circular(14),
+          child: BackdropFilter(
+            filter: ImageFilter.blur(sigmaX: 10, sigmaY: 10),
+            child: Container(
+              width: double.infinity,
+              padding: const EdgeInsets.symmetric(vertical: 10, horizontal: 16),
+              decoration: BoxDecoration(
+                color: Colors.white,
+                borderRadius: BorderRadius.circular(14),
+                border: Border.all(color: Colors.white),
               ),
-            ],
-          ),
-          child: Row(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: [
-              Container(
-                padding: const EdgeInsets.all(8),
-                decoration: BoxDecoration(
-                  color: Colors.white.withOpacity(0.2),
-                  borderRadius: BorderRadius.circular(10),
-                ),
-                child: const Icon(
-                  Icons.navigation,
-                  color: Colors.white,
-                  size: 20,
-                ),
-              ),
-              const SizedBox(width: 14),
-              Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.center,
                 mainAxisSize: MainAxisSize.min,
                 children: [
-                  const Text(
-                    "Rotayı Başlat",
-                    style: TextStyle(
-                      color: Colors.white,
-                      fontSize: 16,
-                      fontWeight: FontWeight.w700,
-                    ),
+                   const Icon(
+                    Icons.navigation_rounded,
+                    color: Colors.black,
+                    size: 18,
                   ),
-                  Text(
-                    "${places.length} durak • Google Maps'te aç",
-                    style: const TextStyle(color: Colors.white70, fontSize: 11),
+                  const SizedBox(width: 10),
+                  Column(
+                    crossAxisAlignment: CrossAxisAlignment.center,
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      Text(
+                        AppLocalizations.instance.startRoute,
+                        style: const TextStyle(
+                          color: Colors.black,
+                          fontSize: 14,
+                          fontWeight: FontWeight.w700,
+                        ),
+                      ),
+                      Text(
+                        "${AppLocalizations.instance.nStops(places.length)} · Google Maps",
+                        style: TextStyle(
+                          color: Colors.black.withOpacity(0.6),
+                          fontSize: 10,
+                        ),
+                      ),
+                    ],
                   ),
                 ],
               ),
-              const SizedBox(width: 14),
-              const Icon(
-                Icons.arrow_forward_ios,
-                color: Colors.white70,
-                size: 16,
-              ),
-            ],
+            ),
           ),
         ),
       ),
@@ -1596,13 +3122,13 @@ class _RoutesScreenState extends State<RoutesScreen>
         padding: const EdgeInsets.symmetric(horizontal: 16),
         labelPadding: const EdgeInsets.symmetric(horizontal: 6),
         indicator: BoxDecoration(
-          gradient: primaryGradient,
+          color: accent,
           borderRadius: BorderRadius.circular(12),
         ),
         indicatorSize: TabBarIndicatorSize.tab,
         dividerColor: Colors.transparent,
         labelColor: Colors.white,
-        unselectedLabelColor: textGrey,
+        unselectedLabelColor: WanderlustColors.textGrey,
         labelStyle: const TextStyle(fontWeight: FontWeight.w600, fontSize: 14),
         unselectedLabelStyle: const TextStyle(
           fontWeight: FontWeight.w500,
@@ -1618,7 +3144,7 @@ class _RoutesScreenState extends State<RoutesScreen>
               child: Row(
                 mainAxisSize: MainAxisSize.min,
                 children: [
-                  Text("Gün $day"),
+                  Text("${AppLocalizations.instance.day} $day"),
                   if (count > 0) ...[
                     const SizedBox(width: 6),
                     Container(
@@ -1656,17 +3182,17 @@ class _RoutesScreenState extends State<RoutesScreen>
             Icon(
               Icons.wb_sunny_outlined,
               size: 48,
-              color: textGrey.withOpacity(0.5),
+              color: WanderlustColors.textGrey.withOpacity(0.5),
             ),
             const SizedBox(height: 16),
             Text(
-              "Gün $day henüz boş",
-              style: const TextStyle(color: textGrey, fontSize: 16),
+              AppLocalizations.instance.dayEmpty(day),
+              style: const TextStyle(color: WanderlustColors.textGrey, fontSize: 16),
             ),
             const SizedBox(height: 8),
             Text(
-              "Keşfet'ten mekan ekleyin",
-              style: TextStyle(color: textGrey.withOpacity(0.7), fontSize: 13),
+              AppLocalizations.instance.startAddingPlaces,
+              style: TextStyle(color: WanderlustColors.textGrey.withOpacity(0.7), fontSize: 13),
             ),
           ],
         ),
@@ -1676,6 +3202,7 @@ class _RoutesScreenState extends State<RoutesScreen>
     return Stack(
       children: [
         ReorderableListView.builder(
+          buildDefaultDragHandles: false,
           padding: const EdgeInsets.fromLTRB(20, 16, 20, 100),
           itemCount: places.length,
           onReorder: (oldIndex, newIndex) =>
@@ -1702,38 +3229,76 @@ class _RoutesScreenState extends State<RoutesScreen>
             );
           },
         ),
+        // Optimize Et button (right side)
         Positioned(
           right: 20,
-          bottom: 100,
+          bottom: 16,
           child: GestureDetector(
             onTap: _optimizeRoute,
-            child: Container(
-              padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 14),
-              decoration: BoxDecoration(
-                gradient: primaryGradient,
-                borderRadius: BorderRadius.circular(16),
-                boxShadow: [
-                  BoxShadow(
-                    color: accentLight.withOpacity(0.4),
-                    blurRadius: 20,
-                    offset: const Offset(0, 8),
+            child: ClipRRect(
+              borderRadius: BorderRadius.circular(16),
+              child: BackdropFilter(
+                filter: ImageFilter.blur(sigmaX: 10, sigmaY: 10),
+                child: Container(
+                  padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 10),
+                  decoration: BoxDecoration(
+                    color: Colors.black.withOpacity(0.2),
+                    borderRadius: BorderRadius.circular(16),
+                    border: Border.all(color: Colors.white.withOpacity(0.1)),
                   ),
-                ],
+                  child: Row(
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      const Icon(Icons.auto_fix_high, color: Colors.white, size: 18),
+                      const SizedBox(width: 8),
+                      const Text(
+                        "Optimize",
+                        style: TextStyle(
+                          color: Colors.white,
+                          fontSize: 12,
+                          fontWeight: FontWeight.w600,
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
               ),
-              child: const Row(
-                mainAxisSize: MainAxisSize.min,
-                children: [
-                  Icon(Icons.auto_fix_high, color: Colors.white, size: 20),
-                  SizedBox(width: 10),
-                  Text(
-                    "Optimize Et",
-                    style: TextStyle(
-                      color: Colors.white,
-                      fontSize: 14,
-                      fontWeight: FontWeight.w600,
-                    ),
+            ),
+          ),
+        ),
+        // Clear All button (left side)
+        Positioned(
+          left: 20,
+          bottom: 16,
+          child: GestureDetector(
+            onTap: () => _clearDayPlaces(day),
+            child: ClipRRect(
+              borderRadius: BorderRadius.circular(16),
+              child: BackdropFilter(
+                filter: ImageFilter.blur(sigmaX: 10, sigmaY: 10),
+                child: Container(
+                  padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 10),
+                  decoration: BoxDecoration(
+                    color: Colors.black.withOpacity(0.2),
+                    borderRadius: BorderRadius.circular(16),
+                    border: Border.all(color: Colors.white.withOpacity(0.1)),
                   ),
-                ],
+                  child: Row(
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      const Icon(Icons.delete_outline, color: Colors.white, size: 18),
+                      const SizedBox(width: 8),
+                      const Text(
+                        "Temizle",
+                        style: TextStyle(
+                          color: Colors.white,
+                          fontSize: 12,
+                          fontWeight: FontWeight.w600,
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
               ),
             ),
           ),
@@ -1748,171 +3313,156 @@ class _RoutesScreenState extends State<RoutesScreen>
     required int index,
     required bool isLast,
   }) {
-    final hasImage = place.imageUrl != null && place.imageUrl!.isNotEmpty;
-    final color = _getCategoryColor(place.category);
-
-    return Column(
+    return Container(
       key: key,
-      children: [
-        Container(
-          decoration: BoxDecoration(
-            color: bgCard,
-            borderRadius: BorderRadius.circular(16),
-            border: Border.all(color: borderColor.withOpacity(0.5)),
-          ),
-          child: Padding(
-            padding: const EdgeInsets.all(12),
-            child: Row(
-              children: [
-                Container(
-                  width: 30,
-                  height: 30,
-                  decoration: BoxDecoration(
-                    gradient: primaryGradient,
-                    borderRadius: BorderRadius.circular(8),
+      margin: const EdgeInsets.only(bottom: 12),
+      child: Stack(
+        children: [
+          _buildHorizontalPlaceCard(place, index, isLast: isLast),
+          
+          // Drag Handle (Sağ taraf)
+          Positioned(
+            right: 0,
+            top: 0,
+            bottom: 0,
+            child: Center(
+              child: ReorderableDragStartListener(
+                index: index,
+                child: Container(
+                  width: 40,
+                  height: 60,
+                  color: Colors.transparent,
+                  child: const Icon(
+                    Icons.drag_indicator,
+                    color: WanderlustColors.textGrey,
+                    size: 20,
                   ),
-                  child: Center(
-                    child: Text(
-                      String.fromCharCode(65 + index),
-                      style: const TextStyle(
-                        color: Colors.white,
-                        fontSize: 13,
-                        fontWeight: FontWeight.w700,
-                      ),
-                    ),
-                  ),
-                ),
-                const SizedBox(width: 10),
-                ClipRRect(
-                  borderRadius: BorderRadius.circular(10),
-                  child: SizedBox(
-                    width: 50,
-                    height: 50,
-                    child: hasImage
-                        ? Image.network(
-                            place.imageUrl!,
-                            fit: BoxFit.cover,
-                            errorBuilder: (_, __, ___) => Container(
-                              color: color.withOpacity(0.2),
-                              child: Icon(Icons.place, color: color, size: 22),
-                            ),
-                          )
-                        : Container(
-                            color: color.withOpacity(0.2),
-                            child: Icon(Icons.place, color: color, size: 22),
-                          ),
-                  ),
-                ),
-                const SizedBox(width: 12),
-                Expanded(
-                  child: GestureDetector(
-                    onTap: () => Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                        builder: (_) => DetailScreen(place: place),
-                      ),
-                    ),
-                    child: Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        Text(
-                          place.name,
-                          style: const TextStyle(
-                            color: textWhite,
-                            fontSize: 14,
-                            fontWeight: FontWeight.w600,
-                          ),
-                          maxLines: 1,
-                          overflow: TextOverflow.ellipsis,
-                        ),
-                        const SizedBox(height: 4),
-                        Row(
-                          children: [
-                            Container(
-                              padding: const EdgeInsets.symmetric(
-                                horizontal: 6,
-                                vertical: 2,
-                              ),
-                              decoration: BoxDecoration(
-                                color: color.withOpacity(0.15),
-                                borderRadius: BorderRadius.circular(4),
-                              ),
-                              child: Text(
-                                place.category,
-                                style: TextStyle(
-                                  color: color,
-                                  fontSize: 9,
-                                  fontWeight: FontWeight.w600,
-                                ),
-                              ),
-                            ),
-                            const SizedBox(width: 6),
-                            Expanded(
-                              child: Text(
-                                place.area,
-                                style: const TextStyle(
-                                  color: textGrey,
-                                  fontSize: 11,
-                                ),
-                                overflow: TextOverflow.ellipsis,
-                              ),
-                            ),
-                          ],
-                        ),
-                      ],
-                    ),
-                  ),
-                ),
-                Row(
-                  mainAxisSize: MainAxisSize.min,
-                  children: [
-                    ReorderableDragStartListener(
-                      index: index,
-                      child: const Padding(
-                        padding: EdgeInsets.all(8),
-                        child: Icon(
-                          Icons.drag_handle,
-                          color: textGrey,
-                          size: 20,
-                        ),
-                      ),
-                    ),
-                    GestureDetector(
-                      onTap: () => _removeFromTrip(place.name),
-                      child: const Padding(
-                        padding: EdgeInsets.all(8),
-                        child: Icon(
-                          Icons.close,
-                          color: Color(0xFFFF5252),
-                          size: 18,
-                        ),
-                      ),
-                    ),
-                  ],
-                ),
-              ],
-            ),
-          ),
-        ),
-        if (!isLast)
-          Padding(
-            padding: const EdgeInsets.only(left: 28),
-            child: Container(
-              width: 2,
-              height: 20,
-              decoration: BoxDecoration(
-                gradient: LinearGradient(
-                  begin: Alignment.topCenter,
-                  end: Alignment.bottomCenter,
-                  colors: [
-                    accentLight.withOpacity(0.5),
-                    accent.withOpacity(0.3),
-                  ],
                 ),
               ),
             ),
           ),
-      ],
+          
+          // Remove Button (Sağ üst köşe, drag handle'ın hemen solunda veya üstünde)
+          // Kartın içine yerleştirdik, burada ekstra bir şeye gerek yok.
+          // Ama drag handle ile çakışmaması için kart içeriğinde boşluk bıraktık.
+        ],
+      ),
+    );
+  }
+
+  /// Yeni yatay kart tasarımı (Profil ekranındaki favoriler gibi)
+  Widget _buildHorizontalPlaceCard(Highlight place, int index, {bool isReadOnly = false, bool isLast = false}) {
+    final hasImage = place.imageUrl != null && place.imageUrl!.isNotEmpty;
+    final color = _getCategoryColor(place.category);
+    final letter = String.fromCharCode(65 + index); // A, B, C...
+
+    return IntrinsicHeight(
+      child: Row(
+        crossAxisAlignment: CrossAxisAlignment.stretch,
+        children: [
+          // Timeline Sol Sütun
+          SizedBox(
+            width: 48,
+            child: Column(
+              children: [
+                // Üst Çizgi (İlk eleman değilse)
+                Expanded(
+                  child: index == 0 
+                      ? const SizedBox() 
+                      : VerticalDivider(color: Colors.white.withOpacity(0.2), thickness: 2, width: 2),
+                ),
+                // Harf Dairesi (Karemsi)
+                Container(
+                  width: 36,
+                  height: 36,
+                  decoration: BoxDecoration(
+                    color: accent, // Hepsi mor
+                    borderRadius: BorderRadius.circular(12), // Yuvarlatılmış Kare
+                    boxShadow: [
+                        BoxShadow(color: accent.withOpacity(0.4), blurRadius: 8, offset: Offset(0, 2))
+                    ]
+                  ),
+                  child: Center(
+                    child: Text(
+                      letter, 
+                      style: const TextStyle(fontWeight: FontWeight.bold, color: Colors.white, fontSize: 16)
+                    ),
+                  ),
+                ),
+                // Alt Çizgi (Son eleman değilse)
+                Expanded(
+                  child: isLast 
+                      ? const SizedBox() 
+                      : VerticalDivider(color: Colors.white.withOpacity(0.2), thickness: 2, width: 2),
+                ),
+              ],
+            ),
+          ),
+          const SizedBox(width: 12),
+          
+          // İçerik Kartı
+          Expanded(
+            child: GestureDetector(
+               onTap: () => Navigator.push(context, MaterialPageRoute(builder: (_) => DetailScreen(place: place))),
+               child: Container(
+                 padding: const EdgeInsets.all(12),
+                 margin: const EdgeInsets.only(bottom: 12), 
+                 decoration: BoxDecoration(
+                   color: WanderlustColors.bgCard,
+                   borderRadius: BorderRadius.circular(16),
+                 ),
+                 child: Row(
+                   children: [
+                     // Küçük Resim (Varsa)
+                     if (hasImage) 
+                       Padding(
+                         padding: const EdgeInsets.only(right: 12),
+                         child: ClipRRect(
+                           borderRadius: BorderRadius.circular(8),
+                           child: Image.network(place.imageUrl!, width: 48, height: 48, fit: BoxFit.cover),
+                         ),
+                       ),
+                      // Metinler
+                      Expanded(
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: [
+                             Text(place.name, maxLines: 1, overflow: TextOverflow.ellipsis, style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 16, color: Colors.white)),
+                             const SizedBox(height: 4),
+                             Text("${AppLocalizations.instance.translateCategory(place.category.trim())} • ${place.area}", maxLines: 1, overflow: TextOverflow.ellipsis, style: const TextStyle(color: Colors.grey, fontSize: 12)),
+                          ],
+                        ),
+                      ),
+                      
+                      // Delete button (Sadece düzenlenebilir modda)
+                      if (!isReadOnly)
+                        Material(
+                           color: Colors.transparent,
+                           child: InkWell(
+                             onTap: () => _removeFromTrip(place.name),
+                             borderRadius: BorderRadius.circular(20),
+                             child: Padding(
+                               padding: const EdgeInsets.all(8),
+                               child: Icon(Icons.close, color: WanderlustColors.textGrey.withOpacity(0.8), size: 18),
+                             ),
+                           ),
+                        ),
+                        
+                      // ReadOnly ise ok
+                      if (isReadOnly)
+                        const Icon(Icons.chevron_right, color: WanderlustColors.textGrey, size: 20),
+                        
+                      // Drag Handle için boşluk (Eğer düzenlenebilir ise drag handle dışarıda)
+                      if (!isReadOnly)
+                         const SizedBox(width: 24),
+                   ],
+                 ),
+               ),
+            ),
+          ),
+        ],
+      ),
     );
   }
 
@@ -1921,66 +3471,99 @@ class _RoutesScreenState extends State<RoutesScreen>
   // ══════════════════════════════════════════════════════════════════════════
 
   Widget _buildSuggestedRoutesTab() {
-    return Column(
+    return Stack(
       children: [
-        _buildRouteFilters(),
-        Expanded(
-          child: ListView.builder(
-            padding: const EdgeInsets.fromLTRB(20, 16, 20, 100),
-            itemCount: _filteredSuggestedRoutes.length,
-            itemBuilder: (context, index) =>
-                _buildSuggestedRouteCard(_filteredSuggestedRoutes[index]),
-          ),
+        Column(
+          children: [
+            Expanded(
+              child: ListView.builder(
+                controller: _suggestionsScrollController,
+                padding: const EdgeInsets.fromLTRB(20, 8, 20, 100),
+                itemCount: _filteredSuggestedRoutes.length,
+                itemBuilder: (context, index) =>
+                    _buildSuggestedRouteCard(_filteredSuggestedRoutes[index], isFirstCard: index == 0),
+              ),
+            ),
+          ],
         ),
+        if (_showSuggestionsScrollToTop)
+          Positioned(
+            right: 20,
+            bottom: 30,
+            child: AnimatedOpacity(
+              opacity: _showSuggestionsScrollToTop ? 1.0 : 0.0,
+              duration: const Duration(milliseconds: 200),
+              child: GestureDetector(
+                onTap: () {
+                  HapticFeedback.lightImpact();
+                  _suggestionsScrollController.animateTo(
+                    0,
+                    duration: const Duration(milliseconds: 500),
+                    curve: Curves.easeOutCubic,
+                  );
+                },
+                child: Container(
+                  width: 44,
+                  height: 44,
+                  decoration: BoxDecoration(
+                    color: WanderlustColors.bgCard.withOpacity(0.8),
+                    shape: BoxShape.circle,
+                    border: Border.all(color: WanderlustColors.border.withOpacity(0.5)),
+                  ),
+                  child: const Icon(
+                    Icons.keyboard_arrow_up_rounded,
+                    color: WanderlustColors.textGrey,
+                    size: 28,
+                  ),
+                ),
+              ),
+            ),
+          ),
       ],
     );
   }
 
-  Widget _buildRouteFilters() {
-    final filters = [
-      {"label": "Tümü", "icon": Icons.apps},
-      {"label": "Sana Özel", "icon": Icons.auto_awesome},
-      {"label": "Popüler", "icon": Icons.trending_up},
+  Widget _buildRouteFilters({Key? key}) {
+    final List<Map<String, dynamic>> tabs = [
+      {"label": AppLocalizations.instance.tabAll, "icon": Icons.grid_view_rounded},
+      {"label": AppLocalizations.instance.tabForYou, "icon": Icons.recommend_outlined},
+      {"label": AppLocalizations.instance.tabPopular, "icon": Icons.trending_up},
     ];
     return Container(
+      key: key,
       height: 44,
       margin: const EdgeInsets.only(top: 16),
-      child: ListView.builder(
-        scrollDirection: Axis.horizontal,
-        padding: const EdgeInsets.symmetric(horizontal: 16),
-        itemCount: filters.length,
-        itemBuilder: (context, index) {
-          final filter = filters[index];
+      child: Row(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: tabs.asMap().entries.map((entry) {
+          final index = entry.key;
+          final filter = entry.value;
           final isSelected = _selectedRouteFilter == index;
           return Padding(
-            padding: const EdgeInsets.only(right: 10),
+            padding: const EdgeInsets.symmetric(horizontal: 5),
             child: GestureDetector(
               onTap: () => _filterRoutes(index),
               child: AnimatedContainer(
                 duration: const Duration(milliseconds: 200),
                 padding: const EdgeInsets.symmetric(horizontal: 16),
                 decoration: BoxDecoration(
-                  gradient: isSelected ? primaryGradient : null,
-                  color: isSelected ? null : bgCard,
+                  color: isSelected ? accent : WanderlustColors.bgCard,
                   borderRadius: BorderRadius.circular(12),
-                  border: Border.all(
-                    color: isSelected ? Colors.transparent : borderColor,
-                  ),
                 ),
                 child: Row(
                   children: [
                     Icon(
                       filter["icon"] as IconData,
                       size: 18,
-                      color: isSelected ? Colors.white : textGrey,
+                      color: isSelected ? Colors.white : WanderlustColors.textGrey,
                     ),
                     const SizedBox(width: 8),
                     Text(
                       filter["label"] as String,
                       style: TextStyle(
-                        fontSize: 13,
-                        fontWeight: FontWeight.w500,
-                        color: isSelected ? Colors.white : textGrey,
+                        fontSize: 14,
+                        fontWeight: FontWeight.w600,
+                        color: isSelected ? Colors.white : WanderlustColors.textGrey,
                       ),
                     ),
                   ],
@@ -1988,22 +3571,24 @@ class _RoutesScreenState extends State<RoutesScreen>
               ),
             ),
           );
-        },
+        }).toList(),
       ),
     );
   }
 
-  Widget _buildSuggestedRouteCard(SuggestedRoute route) {
+  Widget _buildSuggestedRouteCard(SuggestedRoute route, {Key? key, bool isFirstCard = false}) {
     return GestureDetector(
+      key: key,
       onTap: () => _showRouteDetail(route),
       child: Container(
         margin: const EdgeInsets.only(bottom: 16),
         decoration: BoxDecoration(
-          color: bgCard,
+          color: WanderlustColors.bgCard,
           borderRadius: BorderRadius.circular(20),
-          border: Border.all(color: borderColor.withOpacity(0.5)),
         ),
-        child: Column(
+        child: Stack(
+          children: [
+            Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Stack(
@@ -2022,8 +3607,8 @@ class _RoutesScreenState extends State<RoutesScreen>
                         decoration: BoxDecoration(
                           gradient: LinearGradient(
                             colors: [
-                              route.accentColor,
-                              route.accentColor.withOpacity(0.6),
+                              WanderlustColors.bgCardLight,
+                              WanderlustColors.bgCard,
                             ],
                           ),
                         ),
@@ -2055,33 +3640,47 @@ class _RoutesScreenState extends State<RoutesScreen>
                 Positioned(
                   top: 12,
                   left: 12,
-                  child: Container(
-                    padding: const EdgeInsets.all(10),
-                    decoration: BoxDecoration(
-                      color: route.accentColor,
-                      borderRadius: BorderRadius.circular(12),
+                  child: ClipRRect(
+                    borderRadius: BorderRadius.circular(12),
+                    child: BackdropFilter(
+                      filter: ImageFilter.blur(sigmaX: 10, sigmaY: 10),
+                      child: Container(
+                        padding: const EdgeInsets.all(10),
+                        decoration: BoxDecoration(
+                          color: Colors.white.withOpacity(0.1),
+                          borderRadius: BorderRadius.circular(12),
+                          border: Border.all(color: Colors.white.withOpacity(0.2)),
+                        ),
+                        child: Icon(route.icon, color: Colors.white, size: 20),
+                      ),
                     ),
-                    child: Icon(route.icon, color: Colors.white, size: 20),
                   ),
                 ),
                 Positioned(
                   top: 12,
                   right: 12,
-                  child: Container(
-                    padding: const EdgeInsets.symmetric(
-                      horizontal: 10,
-                      vertical: 5,
-                    ),
-                    decoration: BoxDecoration(
-                      color: Colors.black.withOpacity(0.5),
-                      borderRadius: BorderRadius.circular(8),
-                    ),
-                    child: Text(
-                      route.difficulty,
-                      style: const TextStyle(
-                        color: Colors.white,
-                        fontSize: 11,
-                        fontWeight: FontWeight.w600,
+                  child: ClipRRect(
+                    borderRadius: BorderRadius.circular(8),
+                    child: BackdropFilter(
+                      filter: ImageFilter.blur(sigmaX: 10, sigmaY: 10),
+                      child: Container(
+                        padding: const EdgeInsets.symmetric(
+                          horizontal: 10,
+                          vertical: 5,
+                        ),
+                        decoration: BoxDecoration(
+                          color: Colors.black.withOpacity(0.3),
+                          borderRadius: BorderRadius.circular(8),
+                          border: Border.all(color: Colors.white.withOpacity(0.1)),
+                        ),
+                        child: Text(
+                          route.difficulty,
+                          style: const TextStyle(
+                            color: Colors.white,
+                            fontSize: 11,
+                            fontWeight: FontWeight.w600,
+                          ),
+                        ),
                       ),
                     ),
                   ),
@@ -2097,7 +3696,7 @@ class _RoutesScreenState extends State<RoutesScreen>
                       const SizedBox(width: 8),
                       _buildStatChip(
                         Icons.place,
-                        "${route.placeNames.length} durak",
+                        AppLocalizations.instance.nStops(route.placeNames.length),
                       ),
                     ],
                   ),
@@ -2112,7 +3711,7 @@ class _RoutesScreenState extends State<RoutesScreen>
                   Text(
                     route.name,
                     style: const TextStyle(
-                      color: textWhite,
+                      color: WanderlustColors.textWhite,
                       fontSize: 18,
                       fontWeight: FontWeight.w700,
                     ),
@@ -2121,7 +3720,7 @@ class _RoutesScreenState extends State<RoutesScreen>
                   Text(
                     route.description,
                     style: const TextStyle(
-                      color: textGrey,
+                      color: WanderlustColors.textGrey,
                       fontSize: 13,
                       height: 1.4,
                     ),
@@ -2139,13 +3738,14 @@ class _RoutesScreenState extends State<RoutesScreen>
                               vertical: 5,
                             ),
                             decoration: BoxDecoration(
-                              color: route.accentColor.withOpacity(0.15),
+                              color: WanderlustColors.bgCardLight,
                               borderRadius: BorderRadius.circular(8),
+                              border: Border.all(color: WanderlustColors.border.withOpacity(0.3)),
                             ),
                             child: Text(
                               tag,
-                              style: TextStyle(
-                                color: route.accentColor,
+                              style: const TextStyle(
+                                color: WanderlustColors.textGrey,
                                 fontSize: 11,
                                 fontWeight: FontWeight.w600,
                               ),
@@ -2163,22 +3763,22 @@ class _RoutesScreenState extends State<RoutesScreen>
                           child: Container(
                             padding: const EdgeInsets.symmetric(vertical: 12),
                             decoration: BoxDecoration(
-                              color: bgCardLight,
+                              color: WanderlustColors.bgCardLight,
                               borderRadius: BorderRadius.circular(12),
                             ),
-                            child: const Row(
+                            child: Row(
                               mainAxisAlignment: MainAxisAlignment.center,
                               children: [
                                 Icon(
                                   Icons.visibility,
-                                  color: textGrey,
+                                  color: WanderlustColors.textGrey,
                                   size: 18,
                                 ),
                                 SizedBox(width: 8),
                                 Text(
-                                  "Detaylar",
+                                  AppLocalizations.instance.details,
                                   style: TextStyle(
-                                    color: textGrey,
+                                    color: WanderlustColors.textGrey,
                                     fontSize: 13,
                                     fontWeight: FontWeight.w600,
                                   ),
@@ -2190,35 +3790,90 @@ class _RoutesScreenState extends State<RoutesScreen>
                       ),
                       const SizedBox(width: 12),
                       Expanded(
-                        child: GestureDetector(
-                          onTap: () => _applySuggestedRoute(route),
-                          child: Container(
-                            padding: const EdgeInsets.symmetric(vertical: 12),
-                            decoration: BoxDecoration(
-                              gradient: LinearGradient(
-                                colors: [
-                                  route.accentColor,
-                                  route.accentColor.withOpacity(0.8),
-                                ],
-                              ),
-                              borderRadius: BorderRadius.circular(12),
-                            ),
-                            child: const Row(
-                              mainAxisAlignment: MainAxisAlignment.center,
-                              children: [
-                                Icon(Icons.add, color: Colors.white, size: 18),
-                                SizedBox(width: 8),
-                                Text(
-                                  "Uygula",
-                                  style: TextStyle(
-                                    color: Colors.white,
-                                    fontSize: 13,
-                                    fontWeight: FontWeight.w600,
+                        child: Builder(
+                          builder: (context) {
+                            // Check if active (all places in trip)
+                            // Isimler farkli dilde olabilir, bu yuzden highlight uzerinden kontrol ediyoruz
+                            final bool isApplied = route.placeNames.every((routeName) {
+                              if (_city == null) return false;
+                              try {
+                                final place = _city!.highlights.firstWhere(
+                                  (h) => h.name == routeName || h.nameEn == routeName,
+                                );
+                                return _tripPlaceNames.contains(place.name);
+                              } catch (_) {
+                                return false;
+                              }
+                            });
+                            
+                            // Kullanıcının istediği sarı renk (WanderlustColors.accent)
+                            const activeColor = WanderlustColors.accent; 
+
+                            if (isApplied) {
+                              // Non-clickable when applied
+                              return Container(
+                                padding: const EdgeInsets.symmetric(vertical: 11),
+                                decoration: BoxDecoration(
+                                  color: activeColor,
+                                  borderRadius: BorderRadius.circular(12),
+                                  border: Border.all(
+                                    color: activeColor,
+                                    width: 1.5,
                                   ),
                                 ),
-                              ],
-                            ),
-                          ),
+                                child: Row(
+                                  mainAxisAlignment: MainAxisAlignment.center,
+                                  children: [
+                                    Icon(
+                                      Icons.check, // Checkmark icon
+                                      color: Colors.white,
+                                      size: 18,
+                                    ),
+                                    const SizedBox(width: 8),
+                                    Text(
+                                      AppLocalizations.instance.onRoute, // "Rotada"
+                                      style: TextStyle(
+                                        color: Colors.white,
+                                        fontSize: 13,
+                                        fontWeight: FontWeight.w700,
+                                      ),
+                                    ),
+                                  ],
+                                ),
+                              );
+                            }
+
+                            return GestureDetector(
+                              key: isFirstCard ? _createRouteButtonKey : null,
+                              onTap: () => _applySuggestedRoute(route),
+                              child: Container(
+                                padding: const EdgeInsets.symmetric(vertical: 12),
+                                decoration: BoxDecoration(
+                                  color: WanderlustColors.bgCardLight,
+                                  borderRadius: BorderRadius.circular(12),
+                                ),
+                                child: Row(
+                                  mainAxisAlignment: MainAxisAlignment.center,
+                                  children: [
+                                    Icon(
+                                      Icons.add,
+                                      color: WanderlustColors.textGrey,
+                                      size: 18,
+                                    ),
+                                    SizedBox(width: 8),
+                                    Text(
+                                      AppLocalizations.instance.applyRoute, // "Uygula"
+                                      style: TextStyle(
+                                        color: WanderlustColors.textGrey,
+                                        fontSize: 13,
+                                        fontWeight: FontWeight.w600,
+                                      ),
+                                    ),
+                                  ],
+                                ),
+                              ),
+                            );
+                          }
                         ),
                       ),
                     ],
@@ -2226,6 +3881,8 @@ class _RoutesScreenState extends State<RoutesScreen>
                 ],
               ),
             ),
+          ],
+        ),
           ],
         ),
       ),
@@ -2262,9 +3919,17 @@ class _RoutesScreenState extends State<RoutesScreen>
   // ══════════════════════════════════════════════════════════════════════════
 
   void _showRouteDetail(SuggestedRoute route) {
+    // 🔥 Premium Check
+    if (!PremiumService.instance.canApplyCuratedRoute()) {
+       _showPaywall();
+       return;
+    }
+
     final places = <Highlight>[];
     for (var name in route.placeNames) {
-      final place = _city?.highlights.where((h) => h.name == name).firstOrNull;
+      final place = _city?.highlights
+          .where((h) => h.name == name || h.nameEn == name)
+          .firstOrNull;
       if (place != null) places.add(place);
     }
 
@@ -2279,7 +3944,7 @@ class _RoutesScreenState extends State<RoutesScreen>
         builder: (context, scrollController) {
           return Container(
             decoration: const BoxDecoration(
-              color: bgDark,
+              color: WanderlustColors.bgDark,
               borderRadius: BorderRadius.vertical(top: Radius.circular(24)),
             ),
             child: Column(
@@ -2289,7 +3954,7 @@ class _RoutesScreenState extends State<RoutesScreen>
                   width: 40,
                   height: 4,
                   decoration: BoxDecoration(
-                    color: borderColor,
+                    color: WanderlustColors.border,
                     borderRadius: BorderRadius.circular(2),
                   ),
                 ),
@@ -2300,7 +3965,7 @@ class _RoutesScreenState extends State<RoutesScreen>
                       Container(
                         padding: const EdgeInsets.all(12),
                         decoration: BoxDecoration(
-                          color: route.accentColor,
+                          color: WanderlustColors.accent,
                           borderRadius: BorderRadius.circular(14),
                         ),
                         child: Icon(route.icon, color: Colors.white, size: 24),
@@ -2313,7 +3978,7 @@ class _RoutesScreenState extends State<RoutesScreen>
                             Text(
                               route.name,
                               style: const TextStyle(
-                                color: textWhite,
+                                color: WanderlustColors.textWhite,
                                 fontSize: 20,
                                 fontWeight: FontWeight.w700,
                               ),
@@ -2323,28 +3988,28 @@ class _RoutesScreenState extends State<RoutesScreen>
                               children: [
                                 const Icon(
                                   Icons.schedule,
-                                  color: textGrey,
+                                  color: WanderlustColors.textGrey,
                                   size: 14,
                                 ),
                                 const SizedBox(width: 4),
                                 Text(
                                   route.duration,
                                   style: const TextStyle(
-                                    color: textGrey,
+                                    color: WanderlustColors.textGrey,
                                     fontSize: 13,
                                   ),
                                 ),
                                 const SizedBox(width: 12),
                                 const Icon(
                                   Icons.straighten,
-                                  color: textGrey,
+                                  color: WanderlustColors.textGrey,
                                   size: 14,
                                 ),
                                 const SizedBox(width: 4),
                                 Text(
                                   route.distance,
                                   style: const TextStyle(
-                                    color: textGrey,
+                                    color: WanderlustColors.textGrey,
                                     fontSize: 13,
                                   ),
                                 ),
@@ -2358,12 +4023,12 @@ class _RoutesScreenState extends State<RoutesScreen>
                         child: Container(
                           padding: const EdgeInsets.all(8),
                           decoration: const BoxDecoration(
-                            color: bgCard,
+                            color: WanderlustColors.bgCard,
                             shape: BoxShape.circle,
                           ),
                           child: const Icon(
                             Icons.close,
-                            color: textGrey,
+                            color: WanderlustColors.textGrey,
                             size: 20,
                           ),
                         ),
@@ -2376,7 +4041,7 @@ class _RoutesScreenState extends State<RoutesScreen>
                   child: Text(
                     route.description,
                     style: const TextStyle(
-                      color: textGrey,
+                      color: WanderlustColors.textGrey,
                       fontSize: 14,
                       height: 1.5,
                     ),
@@ -2387,18 +4052,18 @@ class _RoutesScreenState extends State<RoutesScreen>
                   padding: const EdgeInsets.symmetric(horizontal: 20),
                   child: Row(
                     children: [
-                      const Text(
-                        "Duraklar",
-                        style: TextStyle(
-                          color: textWhite,
+                      Text(
+                        AppLocalizations.instance.stops,
+                        style: const TextStyle(
+                          color: WanderlustColors.textWhite,
                           fontSize: 16,
                           fontWeight: FontWeight.w600,
                         ),
                       ),
                       const Spacer(),
                       Text(
-                        "${places.length} nokta",
-                        style: const TextStyle(color: textGrey, fontSize: 13),
+                        "${places.length} ${AppLocalizations.instance.spots.toLowerCase()}",
+                        style: const TextStyle(color: WanderlustColors.textGrey, fontSize: 13),
                       ),
                     ],
                   ),
@@ -2420,56 +4085,102 @@ class _RoutesScreenState extends State<RoutesScreen>
                 Container(
                   padding: const EdgeInsets.all(20),
                   decoration: BoxDecoration(
-                    color: bgCard,
+                    color: WanderlustColors.bgCard,
                     border: Border(
-                      top: BorderSide(color: borderColor.withOpacity(0.5)),
+                      top: BorderSide(color: WanderlustColors.border.withOpacity(0.5)),
                     ),
                   ),
                   child: SafeArea(
-                    child: GestureDetector(
-                      onTap: () {
-                        Navigator.pop(context);
-                        _applySuggestedRoute(route);
-                      },
-                      child: Container(
-                        width: double.infinity,
-                        padding: const EdgeInsets.symmetric(vertical: 16),
-                        decoration: BoxDecoration(
-                          gradient: LinearGradient(
-                            colors: [
-                              route.accentColor,
-                              route.accentColor.withOpacity(0.8),
-                            ],
-                          ),
-                          borderRadius: BorderRadius.circular(14),
-                          boxShadow: [
-                            BoxShadow(
-                              color: route.accentColor.withOpacity(0.4),
-                              blurRadius: 16,
-                              offset: const Offset(0, 6),
+                    child: Builder(
+                      builder: (context) {
+                        // Check if route is already applied
+                        final bool isApplied = route.placeNames.every((routeName) {
+                          if (_city == null) return false;
+                          try {
+                            final place = _city!.highlights.firstWhere(
+                              (h) => h.name == routeName || h.nameEn == routeName,
+                            );
+                            return _tripPlaceNames.contains(place.name);
+                          } catch (_) {
+                            return false;
+                          }
+                        });
+                        
+                        const activeColor = WanderlustColors.accent;
+                        
+                        if (isApplied) {
+                          // Route already applied - non-clickable, yellow border, gray fill
+                          return Container(
+                            width: double.infinity,
+                            padding: const EdgeInsets.symmetric(vertical: 12),
+                            decoration: BoxDecoration(
+                              color: activeColor.withOpacity(0.8),
+                              borderRadius: BorderRadius.circular(12),
                             ),
-                          ],
-                        ),
-                        child: const Row(
-                          mainAxisAlignment: MainAxisAlignment.center,
-                          children: [
-                            Icon(
-                              Icons.add_circle_outline,
-                              color: Colors.white,
-                              size: 22,
+                            child: Row(
+                              mainAxisAlignment: MainAxisAlignment.center,
+                              children: [
+                                const Icon(
+                                  Icons.check,
+                                  color: Colors.white,
+                                  size: 20,
+                                ),
+                                const SizedBox(width: 8),
+                                Text(
+                                  AppLocalizations.instance.routeApplied,
+                                  style: const TextStyle(
+                                    color: Colors.white,
+                                    fontSize: 14,
+                                    fontWeight: FontWeight.w700,
+                                  ),
+                                ),
+                              ],
                             ),
-                            SizedBox(width: 10),
-                            Text(
-                              "Bu Rotayı Uygula",
-                              style: TextStyle(
-                                color: Colors.white,
-                                fontSize: 16,
-                                fontWeight: FontWeight.w700,
+                          );
+                        }
+                        
+                        // Route not applied - gray button
+                        return GestureDetector(
+                          onTap: () {
+                            Navigator.pop(context);
+                            _applySuggestedRoute(route);
+                          },
+                          child: ClipRRect(
+                            borderRadius: BorderRadius.circular(12),
+                            child: BackdropFilter(
+                              filter: ImageFilter.blur(sigmaX: 8, sigmaY: 8),
+                              child: Container(
+                                width: double.infinity,
+                                padding: const EdgeInsets.symmetric(vertical: 12),
+                                decoration: BoxDecoration(
+                                  color: Colors.white.withOpacity(0.1),
+                                  borderRadius: BorderRadius.circular(12),
+                                  border: Border.all(color: Colors.white.withOpacity(0.2)),
+                                ),
+                                child: Row(
+                                  mainAxisAlignment: MainAxisAlignment.center,
+                                  children: [
+                                    const Icon(
+                                      Icons.add_circle_outline,
+                                      color: Colors.white,
+                                      size: 20,
+                                    ),
+                                    const SizedBox(width: 10),
+                                    Text(
+                                      AppLocalizations.instance.createRoute,
+                                      style: const TextStyle(
+                                        color: Colors.white,
+                                        fontSize: 14,
+                                        fontWeight: FontWeight.w700,
+                                      ),
+                                    ),
+                                  ],
+                                ),
                               ),
                             ),
-                          ],
-                        ),
-                      ),
+                          ),
+                        );
+                      }
                     ),
                   ),
                 ),
@@ -2503,9 +4214,8 @@ class _RoutesScreenState extends State<RoutesScreen>
           child: Container(
             padding: const EdgeInsets.all(14),
             decoration: BoxDecoration(
-              color: bgCard,
+              color: WanderlustColors.bgCard,
               borderRadius: BorderRadius.circular(16),
-              border: Border.all(color: borderColor.withOpacity(0.5)),
             ),
             child: Row(
               children: [
@@ -2513,12 +4223,12 @@ class _RoutesScreenState extends State<RoutesScreen>
                   width: 32,
                   height: 32,
                   decoration: BoxDecoration(
-                    color: accentColor,
+                    color: accent,
                     borderRadius: BorderRadius.circular(10),
                   ),
                   child: Center(
                     child: Text(
-                      "${index + 1}",
+                      String.fromCharCode(65 + index),
                       style: const TextStyle(
                         color: Colors.white,
                         fontSize: 14,
@@ -2538,19 +4248,19 @@ class _RoutesScreenState extends State<RoutesScreen>
                             place.imageUrl!,
                             fit: BoxFit.cover,
                             errorBuilder: (_, __, ___) => Container(
-                              color: accentColor.withOpacity(0.2),
+                              color: WanderlustColors.bgCardLight,
                               child: Icon(
                                 Icons.place,
-                                color: accentColor,
+                                color: WanderlustColors.textGrey,
                                 size: 24,
                               ),
                             ),
                           )
                         : Container(
-                            color: accentColor.withOpacity(0.2),
+                            color: WanderlustColors.bgCardLight,
                             child: Icon(
                               Icons.place,
-                              color: accentColor,
+                              color: WanderlustColors.textGrey,
                               size: 24,
                             ),
                           ),
@@ -2564,7 +4274,7 @@ class _RoutesScreenState extends State<RoutesScreen>
                       Text(
                         place.name,
                         style: const TextStyle(
-                          color: textWhite,
+                          color: WanderlustColors.textWhite,
                           fontSize: 14,
                           fontWeight: FontWeight.w600,
                         ),
@@ -2580,13 +4290,13 @@ class _RoutesScreenState extends State<RoutesScreen>
                               vertical: 2,
                             ),
                             decoration: BoxDecoration(
-                              color: accentColor.withOpacity(0.15),
+                              color: WanderlustColors.bgCardLight,
                               borderRadius: BorderRadius.circular(4),
                             ),
                             child: Text(
-                              place.category,
+                              AppLocalizations.instance.translateCategory(place.category.trim()),
                               style: TextStyle(
-                                color: accentColor,
+                                color: WanderlustColors.textGrey,
                                 fontSize: 10,
                                 fontWeight: FontWeight.w600,
                               ),
@@ -2595,9 +4305,9 @@ class _RoutesScreenState extends State<RoutesScreen>
                           const SizedBox(width: 8),
                           Expanded(
                             child: Text(
-                              place.area,
+                              place.area.isNotEmpty ? place.area : (place.city ?? ""),
                               style: const TextStyle(
-                                color: textGrey,
+                                color: WanderlustColors.textGrey,
                                 fontSize: 11,
                               ),
                               overflow: TextOverflow.ellipsis,
@@ -2608,7 +4318,7 @@ class _RoutesScreenState extends State<RoutesScreen>
                     ],
                   ),
                 ),
-                const Icon(Icons.chevron_right, color: textGrey, size: 20),
+                const Icon(Icons.chevron_right, color: WanderlustColors.textGrey, size: 20),
               ],
             ),
           ),
@@ -2626,8 +4336,8 @@ class _RoutesScreenState extends State<RoutesScreen>
                       begin: Alignment.topCenter,
                       end: Alignment.bottomCenter,
                       colors: [
-                        accentColor.withOpacity(0.5),
-                        accentColor.withOpacity(0.2),
+                        WanderlustColors.textGrey.withOpacity(0.5),
+                        WanderlustColors.textGrey.withOpacity(0.2),
                       ],
                     ),
                   ),
@@ -2764,7 +4474,7 @@ class _SliverAppBarDelegate extends SliverPersistentHeaderDelegate {
   Widget build(
       BuildContext context, double shrinkOffset, bool overlapsContent) {
     return Container(
-      color: const Color(0xFF0D0D1A), // bgDark
+      color: WanderlustColors.bgDark, // WanderlustColors.bgDark
       child: child,
     );
   }

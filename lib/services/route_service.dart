@@ -17,7 +17,7 @@ class RouteResult {
 
 class RouteService {
   // TODO: Aynı Google key'ini buraya koy (foto için kullandığın)
-  static const String _apiKey = 'AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0';
+  static const String _apiKey = 'AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g';
 
   static Future<RouteResult?> fetchRoute(List<LatLng> points) async {
     if (points.length < 2) return null;

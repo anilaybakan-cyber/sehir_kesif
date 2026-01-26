@@ -1,0 +1,2157 @@
+// lib/services/curated_routes_service.dart
+// Şehre özgü hazır rotalar servisi
+
+import 'package:flutter/material.dart';
+import '../models/city_model.dart';
+import '../theme/wanderlust_colors.dart';
+import 'dart:math';
+
+class CuratedRoute {
+  final String id;
+  final String name;
+  final String description;
+  final String duration;
+  final String distance;
+  final String difficulty;
+  final String imageUrl;
+  final List<String> tags;
+  final List<String> placeNames;
+  final List<String> interests; // Kullanıcı ilgi alanlarına göre eşleştirme
+  final Color accentColor;
+  final IconData icon;
+
+  const CuratedRoute({
+    required this.id,
+    required this.name,
+    required this.description,
+    required this.duration,
+    required this.distance,
+    required this.difficulty,
+    required this.imageUrl,
+    required this.tags,
+    required this.placeNames,
+    required this.interests,
+    required this.accentColor,
+    required this.icon,
+  });
+}
+
+class CuratedRoutesService {
+  
+  /// Şehir modelinden otomatik rotalar oluşturur
+  static Future<List<CuratedRoute>> generateRoutes(CityModel city, bool isEnglish) async {
+    final existingRoutes = getRoutes(city.city, isEnglish);
+    final allHighlights = List<Highlight>.from(city.highlights);
+    final generatedRoutes = <CuratedRoute>[];
+    
+    // Var olan rota isimlerini kontrol et (çakışmayı önlemek için)
+    final existingNames = existingRoutes.map((r) => r.name).toSet();
+
+    // Yardımcı fonksiyon: Rota ekle
+    void addRoute(CuratedRoute route) {
+      if (!existingNames.contains(route.name)) {
+        generatedRoutes.add(route);
+        existingNames.add(route.name);
+      }
+    }
+
+    // 1. "Iconic [City]" / "[City] Klasikleri" (En yüksek puanlı 6 yer)
+    allHighlights.sort((a, b) => (b.rating ?? 0).compareTo(a.rating ?? 0));
+    final topPlaces = allHighlights.take(6).toList();
+    if (topPlaces.length >= 4) {
+      addRoute(_createRoute(
+        id: "${city.city.toLowerCase()}_top",
+        name: isEnglish ? "Best of ${city.city}" : "${city.city} Klasikleri",
+        description: isEnglish 
+            ? "The absolute must-see landmarks of ${city.city}. Perfect for first-time visitors."
+            : "${city.city}'nin mutlaka görülmesi gereken simge yapıları. İlk kez gelenler için ideal.",
+        places: _optimizeRoute(topPlaces),
+        color: const Color(0xFFE91E63), // Pink
+        icon: Icons.star_rounded,
+        tags: isEnglish ? ["iconic", "must-see", "popular"] : ["ikonik", "popüler", "klasik"],
+        interests: ["history", "photo", "culture"],
+      ));
+    }
+
+    // 2. Kültür ve Tarih Rotası (Müze, Tarihi)
+    final culturePlaces = allHighlights.where((h) => 
+      h.category.toLowerCase().contains("müze") || 
+      h.category.toLowerCase().contains("tarih") ||
+      h.category.toLowerCase().contains("museum") ||
+      h.category.toLowerCase().contains("history")
+    ).toList();
+    
+    if (culturePlaces.length >= 4) {
+      // Yakın bir kafe ekle (mola için)
+      final cafe = allHighlights.firstWhere(
+        (h) => h.category.toLowerCase().contains("kafe") || h.category.toLowerCase().contains("cafe"), 
+        orElse: () => allHighlights.first
+      );
+      if (!culturePlaces.contains(cafe)) culturePlaces.insert(culturePlaces.length ~/ 2, cafe);
+      
+      addRoute(_createRoute(
+        id: "${city.city.toLowerCase()}_culture",
+        name: isEnglish ? "Culture & History Walk" : "Kültür ve Tarih Yürüyüşü",
+        description: isEnglish
+            ? "Immerse yourself in the rich history and artistic heritage of the city."
+            : "Şehrin zengin tarihi ve sanatsal mirasına derin bir yolculuk.",
+        places: _optimizeRoute(culturePlaces.take(6).toList()),
+        color: const Color(0xFF9C27B0), // Purple
+        icon: Icons.museum_rounded,
+        tags: isEnglish ? ["history", "art", "museum"] : ["tarih", "sanat", "müze"],
+        interests: ["history", "art"],
+      ));
+    }
+
+    // 3. Doğa ve Manzara (Park, Manzara)
+    final naturePlaces = allHighlights.where((h) => 
+      h.category.toLowerCase().contains("park") || 
+      h.category.toLowerCase().contains("manzara") ||
+      h.category.toLowerCase().contains("doğa") ||
+      h.category.toLowerCase().contains("nature") ||
+      h.category.toLowerCase().contains("view")
+    ).toList();
+
+    if (naturePlaces.length >= 3) {
+      addRoute(_createRoute(
+        id: "${city.city.toLowerCase()}_nature",
+        name: isEnglish ? "Green & Scenic Views" : "Doğa ve Manzara",
+        description: isEnglish
+            ? "Escape the crowd and enjoy the most beautiful parks and panoramic viewpoints."
+            : "Kalabalıktan kaçın ve şehrin en güzel parkları ile manzaralarının tadını çıkarın.",
+        places: _optimizeRoute(naturePlaces.take(5).toList()),
+        color: const Color(0xFF4CAF50), // Green
+        icon: Icons.landscape_rounded,
+        tags: isEnglish ? ["nature", "parks", "relax"] : ["doğa", "park", "huzur"],
+        interests: ["nature", "photo"],
+      ));
+    }
+
+    // 4. Lezzet Turu (Restoran, Kafe, Yemek)
+    final foodPlaces = allHighlights.where((h) => 
+      h.category.toLowerCase().contains("restoran") || 
+      h.category.toLowerCase().contains("kafe") || 
+      h.category.toLowerCase().contains("yemek") ||
+      h.category.toLowerCase().contains("food") ||
+      h.category.toLowerCase().contains("restaurant") ||
+      h.category.toLowerCase().contains("cafe")
+    ).toList();
+
+    if (foodPlaces.length >= 4) {
+      addRoute(_createRoute(
+        id: "${city.city.toLowerCase()}_food",
+        name: isEnglish ? "Gastronomy Tour" : "Lezzet Durakları",
+        description: isEnglish
+            ? "A delicious journey through local flavors, best cafes and cozy restaurants."
+            : "Yerel lezzetler, en iyi kafeler ve keyifli restoranlarla dolu leziz bir rota.",
+        places: _optimizeRoute(foodPlaces.take(6).toList()),
+        color: const Color(0xFFFF9800), // Orange
+        icon: Icons.restaurant_rounded,
+        tags: isEnglish ? ["food", "local", "delicious"] : ["yemek", "lezzet", "yerel"],
+        interests: ["food"],
+      ));
+    }
+
+    // 5. Gizli Hazineler / Alternatif Rota (Yüksek puanlı ama klasik listede olmayanlar)
+    final usedNames = generatedRoutes.expand((r) => r.placeNames).toSet();
+    final hiddenGems = allHighlights.where((h) => 
+      !usedNames.contains(h.name) && (h.rating ?? 0) >= 4.3
+    ).toList();
+
+    if (hiddenGems.length >= 4) {
+      addRoute(_createRoute(
+        id: "${city.city.toLowerCase()}_hidden",
+        name: isEnglish ? "Hidden Gems" : "Gizli Hazineler",
+        description: isEnglish
+            ? "Discover the lesser-known but highly rated spots loved by locals."
+            : "Turistlerin gözünden kaçan ama yerlilerin sevdiği o özel yerleri keşfedin.",
+        places: _optimizeRoute(hiddenGems.take(5).toList()),
+        color: const Color(0xFF607D8B), // Blue Grey
+        icon: Icons.explore_rounded,
+        tags: isEnglish ? ["secret", "local", "quiet"] : ["gizli", "yerel", "sakin"],
+        interests: ["culture", "photo"],
+      ));
+    }
+
+    // 6. Bölge/Semt Rotaları (Neighborhoods)
+    // Area bazlı grupla
+    final Map<String, List<Highlight>> byArea = {};
+    for (var h in allHighlights) {
+      if (h.area.isNotEmpty) {
+        byArea.putIfAbsent(h.area, () => []).add(h);
+      }
+    }
+
+    byArea.forEach((area, places) {
+      if (places.length >= 4 && generatedRoutes.length + existingRoutes.length < 15) {
+        
+        final titlesEn = ["Explore $area", "Walk through $area", "$area Highlights", "$area Vibes", "Step by Step $area"];
+        final titlesTr = ["Adım Adım $area", "$area Sokakları", "$area Ruhu", "$area Gezintisi", "$area Turu", "$area Keşfi", "$area'yı Yaşa"];
+        
+        final randomTitle = isEnglish 
+            ? titlesEn[Random().nextInt(titlesEn.length)]
+            : titlesTr[Random().nextInt(titlesTr.length)];
+
+        addRoute(_createRoute(
+          id: "${city.city.toLowerCase()}_${area.toLowerCase().replaceAll(' ', '_')}",
+          name: randomTitle,
+          description: isEnglish
+              ? "A focused walking tour through the charming streets of $area."
+              : "$area bölgesinin büyüleyici sokaklarında odaklanmış bir yürüyüş turu.",
+          places: _optimizeRoute(places.take(6).toList()),
+          color: const Color(0xFF3F51B5), // Indigo
+          icon: Icons.map_outlined,
+          tags: isEnglish ? ["neighborhood", "walking", "area"] : ["semt", "yürüyüş", "bölge"],
+          interests: ["culture", "walking"],
+        ));
+      }
+    });
+
+    // Toplam rota sayısı 10'a tamamlanana kadar karışık rotalar ekle (Mix)
+    int attempt = 1;
+    while (generatedRoutes.length + existingRoutes.length < 10 && attempt < 5) {
+      final mixPlaces = (allHighlights..shuffle()).take(6).toList();
+      
+      final mixTitlesEn = ["City Mix", "Day Tripper", "Urban Explorer", "Random Delights", "Full Day Joy"];
+      final mixTitlesTr = ["Günü Yakala", "Karışık Rota", "Şehrin Tadı", "Hızlı Bakış", "Tam Günlük Macera", "Şehir Turu", "Rastgele Rota"];
+      
+      final randomMixTitle = isEnglish 
+          ? "${mixTitlesEn[Random().nextInt(mixTitlesEn.length)]} $attempt"
+          : "${mixTitlesTr[Random().nextInt(mixTitlesTr.length)]} $attempt";
+
+      addRoute(_createRoute(
+        id: "${city.city.toLowerCase()}_mix_$attempt",
+        name: randomMixTitle,
+        description: isEnglish
+            ? "A balanced mix of sights to maximize your day."
+            : "Gününüzü en iyi şekilde değerlendirmeniz için dengeli bir karışım.",
+        places: _optimizeRoute(mixPlaces),
+        color: const Color(0xFF009688), // Teal
+        icon: Icons.directions_walk_rounded,
+        tags: ["mix", "walking"],
+        interests: ["walking"],
+      ));
+      attempt++;
+    }
+
+    return [...existingRoutes, ...generatedRoutes];
+  }
+
+  // Yardımcı: CuratedRoute oluştur
+  static CuratedRoute _createRoute({
+    required String id,
+    required String name,
+    required String description,
+    required List<Highlight> places,
+    required Color color,
+    required IconData icon,
+    required List<String> tags,
+    required List<String> interests,
+  }) {
+    double totalDist = 0;
+    for (int i = 0; i < places.length - 1; i++) {
+      totalDist += _calculateDistance(
+        places[i].lat, places[i].lng, 
+        places[i+1].lat, places[i+1].lng
+      );
+    }
+    
+    // Yürüme hızı ~4km/h + her durakta 45dk
+    final totalHours = (totalDist / 4) + (places.length * 0.75);
+    
+    return CuratedRoute(
+      id: id,
+      name: name,
+      description: description,
+      duration: "${totalHours.toStringAsFixed(1)} h",
+      distance: "${totalDist.toStringAsFixed(1)} km",
+      difficulty: totalDist > 5 ? "Medium" : "Easy",
+      imageUrl: places.first.imageUrl ?? "",
+      tags: tags,
+      placeNames: places.map((h) => h.name).toList(),
+      interests: interests,
+      accentColor: color,
+      icon: icon,
+    );
+  }
+
+  // Yardımcı: Basit TSP (Nearest Neighbor) ile sırala
+  static List<Highlight> _optimizeRoute(List<Highlight> places) {
+    if (places.isEmpty) return [];
+    
+    final sorted = <Highlight>[places.first];
+    final remaining = List<Highlight>.from(places.skip(1));
+    
+    while (remaining.isNotEmpty) {
+      final current = sorted.last;
+      Highlight? nearest;
+      double minDist = double.infinity;
+      
+      for (var p in remaining) {
+        final d = _calculateDistance(current.lat, current.lng, p.lat, p.lng);
+        if (d < minDist) {
+          minDist = d;
+          nearest = p;
+        }
+      }
+      
+      if (nearest != null) {
+        sorted.add(nearest);
+        remaining.remove(nearest);
+      } else {
+        break;
+      }
+    }
+    return sorted;
+  }
+
+  // Haversine
+  static double _calculateDistance(double lat1, double lon1, double lat2, double lon2) {
+    const p = 0.017453292519943295;
+    final a = 0.5 - cos((lat2 - lat1) * p)/2 + 
+              cos(lat1 * p) * cos(lat2 * p) * 
+              (1 - cos((lon2 - lon1) * p))/2;
+    return 12742 * asin(sqrt(a));
+  }
+
+  static List<CuratedRoute> getRoutes(String city, bool isEnglish) {
+    final normalizedCity = city.toLowerCase().trim();
+    
+    switch (normalizedCity) {
+      case 'istanbul':
+      case 'İstanbul':
+        return _getIstanbulRoutes(isEnglish);
+      case 'barcelona':
+        return _getBarcelonaRoutes(isEnglish);
+      case 'paris':
+        return _getParisRoutes(isEnglish);
+      case 'roma':
+      case 'rome':
+        return _getRomeRoutes(isEnglish);
+      case 'londra':
+      case 'london':
+        return _getLondonRoutes(isEnglish);
+      case 'berlin':
+        return _getBerlinRoutes(isEnglish);
+      case 'amsterdam':
+        return _getAmsterdamRoutes(isEnglish);
+      case 'new york':
+      case 'nyc':
+        return _getNewYorkRoutes(isEnglish);
+      case 'tokyo':
+        return _getTokyoRoutes(isEnglish);
+      case 'sevilla':
+      case 'seville':
+        return _getSevillaRoutes(isEnglish);
+      case 'madrid':
+        return _getMadridRoutes(isEnglish);
+      case 'lizbon':
+      case 'lisbon':
+        return _getLisbonRoutes(isEnglish);
+      case 'porto':
+        return _getPortoRoutes(isEnglish);
+      case 'napoli':
+      case 'naples':
+        return _getNaplesRoutes(isEnglish);
+      case 'milano':
+      case 'milan':
+        return _getMilanRoutes(isEnglish);
+      case 'venedik':
+      case 'venice':
+        return _getVeniceRoutes(isEnglish);
+      case 'floransa':
+      case 'florence':
+        return _getFlorenceRoutes(isEnglish);
+      case 'atina':
+      case 'athens':
+        return _getAthensRoutes(isEnglish);
+      case 'viyana':
+      case 'vienna':
+        return _getViennaRoutes(isEnglish);
+      case 'prag':
+      case 'prague':
+        return _getPragueRoutes(isEnglish);
+      case 'budapeste':
+      case 'budapest':
+        return _getBudapestRoutes(isEnglish);
+      case 'zurih':
+      case 'zurich':
+        return _getZurichRoutes(isEnglish);
+      case 'cenevre':
+      case 'geneva':
+        return _getGenevaRoutes(isEnglish);
+      case 'lucerne':
+        return _getLucerneRoutes(isEnglish);
+      case 'kopenhag':
+      case 'copenhagen':
+        return _getCopenhagenRoutes(isEnglish);
+      case 'stockholm':
+        return _getStockholmRoutes(isEnglish);
+      case 'dubai':
+        return _getDubaiRoutes(isEnglish);
+      case 'marakes':
+      case 'marrakech':
+        return _getMarrakechRoutes(isEnglish);
+      case 'bangkok':
+        return _getBangkokRoutes(isEnglish);
+      case 'hongkong':
+        return _getHongKongRoutes(isEnglish);
+      case 'singapur':
+      case 'singapore':
+        return _getSingaporeRoutes(isEnglish);
+      case 'seul':
+      case 'seoul':
+        return _getSeoulRoutes(isEnglish);
+      case 'nice':
+        return _getNiceRoutes(isEnglish);
+      case 'lyon':
+        return _getLyonRoutes(isEnglish);
+      case 'marsilya':
+      case 'marseille':
+        return _getMarseilleRoutes(isEnglish);
+      case 'dublin':
+        return _getDublinRoutes(isEnglish);
+      default:
+        return _getGenericRoutes(city, isEnglish);
+    }
+  }
+
+  // ═══════════════════════════════════════════════════════════════════════════
+  // İSTANBUL ROTALARI
+  // ═══════════════════════════════════════════════════════════════════════════
+  static List<CuratedRoute> _getIstanbulRoutes(bool isEnglish) {
+    return [
+      CuratedRoute(
+        id: "ist_historic",
+        name: isEnglish ? "Historic Peninsula Heritage" : "Tarihi Yarımada Mirası",
+        description: isEnglish 
+          ? "Explore the heart of the empires: Hagia Sophia, Blue Mosque, Topkapi Palace and the deep cisterns"
+          : "İmparatorlukların kalbini keşfedin: Ayasofya, Sultanahmet, Topkapı ve derin sarnıçlar.",
+        duration: isEnglish ? "Full day" : "Tam gün",
+        distance: "4.5 km",
+        difficulty: isEnglish ? "Easy" : "Kolay",
+        imageUrl: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHoVw-XxBvlXL5D7P_59iayIzb2pT9wXh5F7iFP-8txxXBnICskDBXSrxTa9Rbbb1xahn3ijRYiEwjJ03N-ingIbyYz-TmhdrMUL62x8I4R_8AhEVklQc8R8tq5XWF2565yrjtsblgfvMwbHgONWgXZIC_s5SOB-3dBHXKjg8fJhYsRl3gDy454sVvDHIE6brd2h4UQa7Iqt8y2D19VgXuD-lrANEjYZfgpFjE7zopR_7MVSbb60XXYaLu7IZ3xOb2N_hoVcw5pdd4Mulh9VVMxqcgl_iAKC1gl3IyKQ_2Sb60WMYDvVsvJl7HoHYDcrSeWFWhg7zEflTT5i94dM762PsAGDa0CFPYLW7aX4WvzUC2cC5UL-JDFvYqF5fbGz57IdyQZLnog2eJe4U2RClSS2rCAzqYuYJSXXEIK9wm-68w&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+        tags: [isEnglish ? "Historical" : "Tarihi", isEnglish ? "Must See" : "Görülmeli", "UNESCO"],
+        placeNames: ["Ayasofya", "Sultanahmet Camii", "Yerebatan Sarnıcı", "Topkapı Sarayı", "Kapalıçarşı", "Mısır Çarşısı", "Süleymaniye Camii"],
+        interests: ["Tarih", "Mimari", "Kültür"],
+        accentColor: WanderlustColors.accent,
+        icon: Icons.account_balance,
+      ),
+      CuratedRoute(
+        id: "ist_bosphorus",
+        name: isEnglish ? "Bosphorus & Palaces" : "Boğaz & Saraylar Keyfi",
+        description: isEnglish
+          ? "Magnificent palaces and seaside charms from Dolmabahçe to the Rumeli Fortress"
+          : "Dolmabahçe'den Rumeli Hisarı'na muhteşem saraylar ve deniz kenarı durakları.",
+        duration: isEnglish ? "6 hours" : "6 saat",
+        distance: "10 km",
+        difficulty: isEnglish ? "Easy" : "Kolay",
+        imageUrl: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHrLI9j89e2o_oUpKBrykXa1u9djsd_zRVm6gK3BFH_qdZuAVR8-A_TJsTdgjMrscGpJxsQKl8_Rhog1txxo-K4Q9lNCvuXbyt6jlTozsfGBl3Hnwdh-wysZ4YHqFwK1GkHAcO9g1ymJTS-2fIrKEKtBAATstRgIIojWm5t--2w_bXUZ1M-NOtNeJS2Lfb2tywFAFMRmsVLt2CvO-anzvM4w54gRFFs84P0nkprsJJc7RDHzTRXaAd5G27YQwtOElQeonJCEJ46zqRRocaIIru42wy7444v0KI20I97YLZU3D9USLfBr4shbGyLwPpcAa6hy2IzR2dN6GSs33PblvxnAluayfUsZEX9Nv-BLPP_eGG_tX4oSed44lLwifWtYOCAPlltEjhTs2wncQMW9ItrhCqqiYSLgvLt2kW8XVRyDEf0h&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+        tags: [isEnglish ? "Bosphorus" : "Boğaz", isEnglish ? "Palace" : "Saray", "Scenic"],
+        placeNames: ["Boğaz Turu", "Dolmabahçe Sarayı", "Ortaköy", "Bebek", "Galata Kulesi", "Rumeli Hisarı"],
+        interests: ["Tarih", "Fotoğraf", "Manzara"],
+        accentColor: const Color(0xFF3498DB),
+        icon: Icons.directions_boat,
+      ),
+      CuratedRoute(
+        id: "ist_kadikoy",
+        name: isEnglish ? "Kadıköy Local Spirit" : "Kadıköy Lokal Hayat",
+        description: isEnglish 
+          ? "Taste the Asian side: Markets, vintage streets, record stores and the best local food"
+          : "Asya yakasının tadına bakın: Pazarlar, vintage sokaklar, plakçılar ve en iyi yerel yemekler.",
+        duration: isEnglish ? "5-6 hours" : "5-6 saat",
+        distance: "6 km",
+        difficulty: isEnglish ? "Easy" : "Kolay",
+        imageUrl: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHpEm4u8O3e24cXo1jGm5YLiplyTj6zaOdKTkt1uYxkkH1N888qDr83-5o_K8xyp9TbeRck3m8Yo4OaflfJXtlAGSC73pSRdI45jo6WdxyMcTFF_3niOwicCKuBo5KUnwMXWqtZ8_nHlp34dNiASt3BcYan6F9I6vjFTPfTSxNwvw1gWUsdwZekFNTzvvEbMTs0dSoiKxCE8BAfTr7-DK6XqGubY69N7gST0xY-qFP3TZnqB0xaAK-B-6KObeukvyDUB3V0H0P1ilgMuoLpCTv4nEwurugXGNYIjmbbC9Lb56R_EhSDCFotjPvN5CovzqnMcom6LXWjz5WANomZtkxzSBwnvV8QeqWTcwqjZEauL4XrNLyUuQlBFz_vubymeyfceT2BUW6xnrI3KU96s-k6Rvk7trtbkxKJ7_779sOLvVA&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+        tags: [isEnglish ? "Asian Side" : "Anadolu Yakası", "Lifestyle", isEnglish ? "Food" : "Yemek"],
+        placeNames: ["Kadıköy", "Moda", "Çiya Sofrası", "Akmar Pasajı", "Haydarpaşa Garı", "Tellalzade Sokak"],
+        interests: ["Yemek", "Lokal", "Alışveriş"],
+        accentColor: const Color(0xFF9B59B6),
+        icon: Icons.storefront,
+      ),
+      CuratedRoute(
+        id: "ist_food",
+        name: isEnglish ? "Eternal Street Flavors" : "Sokak Lezzetleri Turu",
+        description: isEnglish 
+          ? "From syrupy desserts to iconic kebabs and historical bazaar bites"
+          : "Şerbetli tatlılardan ikonik kebaplara ve tarihi çarşı atıştırmalıklarına.",
+        duration: isEnglish ? "5-6 hours" : "5-6 saat",
+        distance: "5.5 km",
+        difficulty: isEnglish ? "Easy" : "Kolay",
+        imageUrl: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHqWsjpIlTTvBtJJxSHBJ4ZZN1v1UzPJbZr5fnwEXRwQwV6tgY5JcZuk-SOZjyL3te31ogUrdx9cclF3xZwUQpt59GHksao5DH8-fqd_8sGdG0Q4R66RqSacT3j5ZmTsd6YSzHGi2v8fuzEw9oOuaqREoXZ0UM3wVNDQO6aOyhA0aaOcJnysWYxnriZdWAajrDInzTCdAHb4byt6rQ0vNFY4kvcOcNQX2YiMws9K8w7-Ri3X0SthRC2xD8XSd8itxz4DE-jJLmeay4D7KlLrrGjtm0oZPntT4hs1thgXMh0lGWhmO3kZwbmjNgk_6a7J7qiHKYY-jQm9Fl2KaUZrnpwScVCv38XoanDe1tEZm19IMC2gEY2CDpYklHiIIxiCrVFU-1KRtaE1d_TA4O3C-jEmsOqB0MLwtgJFyYcZN_RsHg&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+        tags: [isEnglish ? "Food" : "Yemek", isEnglish ? "Street Food" : "Sokak", isEnglish ? "Local" : "Lokal"],
+        placeNames: ["Mısır Çarşısı", "Kapalıçarşı", "Karaköy Güllüoğlu", "Hafız Mustafa 1864", "Tarihi Sultanahmet Köftecisi", "Şehzade Cağ Kebap"],
+        interests: ["Yemek", "Lokal"],
+        accentColor: const Color(0xFFE74C3C),
+        icon: Icons.restaurant,
+      ),
+      CuratedRoute(
+        id: "ist_art",
+        name: isEnglish ? "Modern Art & Haliç" : "Modern Sanat Rotası",
+        description: isEnglish 
+          ? "Contemporary Istanbul: World-class museums and the colorful streets of Balat"
+          : "Modern İstanbul: Dünya sınıfı müzeler ve Balat'ın renkli sokakları.",
+        duration: isEnglish ? "6 hours" : "6 saat",
+        distance: "5.5 km",
+        difficulty: isEnglish ? "Easy" : "Kolay",
+        imageUrl: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHouQXFpVI8nX5LHGSlHgRbXfR9XlMGdB_0LGiCw7BqH8Y4B_SKv72VOtAjgzVCGqBD3zS3WczPalBeex-UpjDSTUbbz5VzYkv26BAwMxEmI-1Y2mW242JdISXYlOAAZJDXAPrFjiHvhyk3BMpQUtAkqQohJILob9CRWb3gjbGLFxPBY9sXjXr0EqGULPXf0mS_OKhI0LJuUGZH5j1zzm3Xi102wIQ7fyryzXMgFp2fpuLjGpT2h-HtfCSDHjH04mt2iqzXJhThiuwOK1gujyqkQ2pI_UOG2yhtlKZzVDtSXroF9mvIQlAsAJEjq28Anl42NKOHUnVbSDhIZXP8b185c4eeSUXHLN3Z6nQl1aOsx4FVBJbZ6fX4wl4gCI9hoEl7Itpj-Q_6XTArA4g64qsFpVrOX-T4RQvVgdCWImiQledOX&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+        tags: [isEnglish ? "Art" : "Sanat", isEnglish ? "Modern" : "Modern", isEnglish ? "Gallery" : "Galeri"],
+        placeNames: ["İstanbul Modern", "Galata Kulesi", "Balat", "SALT Galata", "Pera Müzesi", "Tersane İstanbul"],
+        interests: ["Sanat", "Kültür"],
+        accentColor: const Color(0xFFE91E63),
+        icon: Icons.palette,
+      ),
+      CuratedRoute(
+        id: "ist_night",
+        name: isEnglish ? "Beyoğlu Night Pulse" : "Beyoğlu Gece Hayatı",
+        description: isEnglish 
+          ? "From high-end fine dining to legendary taverns and live music clubs"
+          : "Şık restoranlardan efsanevi meyhanelere ve canlı müzik kulüplerine.",
+        duration: isEnglish ? "Whole night" : "Tüm gece",
+        distance: "3 km",
+        difficulty: isEnglish ? "Easy" : "Kolay",
+        imageUrl: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHrgYawjvG3Q1bAwmOI8eR9OJSjFa95LsH556mzGAFMFEm13vPw28KNkEFnlEMVSJ7uUayFzV3u8y8qHtCKfPJU9orL64gHktjghMqozkFLUqfdz7ngdvSo31dpW3LRGpYix6Tj8mIT_zfQYqaCUm-PUwMZkXByez_mqGEZmDDln5sHQwQTJz8tPYJq2PxQPIIoOnO5oO4KLegeYSOCda7WP7w4rpJtpoX-wQ5-1KhsNsdXsl9EHALvuQS9pYywfqfhqia4ncekLZP9spgit8PNkN8Ym6-l6Cs2BYVmC97Jz-l0gZrsDzPT8vWnwca0RwS7K9ZLdqhvs5pons6ku2mLtqxrPTfdft0-94TPigmKxR-5mz4YwaDJU0htX-MPvmetU2E_x5Pwg0HOtTIL22_UfC3DFjpKC-AU-Qw7QZ8Sccg&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+        tags: [isEnglish ? "Nightlife" : "Gece Hayatı", isEnglish ? "Bars" : "Barlar", "Meyhane"],
+        placeNames: ["İstiklal Caddesi", "Galata Kulesi", "Mikla", "Asmalı Cavit", "Babylon", "Nevizade Sokak"],
+        interests: ["Gece Hayatı", "Yemek"],
+        accentColor: const Color(0xFF8E44AD),
+        icon: Icons.nightlife,
+      ),
+      CuratedRoute(
+        id: "ist_markets",
+        name: isEnglish ? "Bazaars & Artisans" : "Çarşılar & Baharatlar",
+        description: isEnglish 
+          ? "Uncover hidden gems in the world's most ancient shopping arcades"
+          : "Dünyanın en eski alışveriş pasajlarındaki gizli hazineleri keşfedin.",
+        duration: isEnglish ? "5 hours" : "5 saat",
+        distance: "4 km",
+        difficulty: isEnglish ? "Easy" : "Kolay",
+        imageUrl: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHrp0hRNV6JTCEN4CMUhYQ1pW-7b-0koKlbkMwZd0hU-t3Wq1eIV4ilkys6cjMpUo1Hk3oi7TxOVlxv67WxfQBgocym_ghjsgEchpe4lBwr-u1cBqZz5JfLuUQvS1mAuanXEpWnafF2C3MOOQ9AKWF_-hj9LiXNzi7OlqGCAKL5I7J5d2PZln7BeyahewHRaOpLvQeAiHuHqoSZnWK_0S-xA-QuGyLs4Di0X83wwo__g03GUqO4bTAFXRDyxvxv_XeCDusxkidSb4RRDfJu3Ntile8FHWPPECR8t5zWOEhoBceHtWRQucSK1YRBxUmSdV3zM1Ngnmuv6hgipTvsZx6cdJcLKFFtvKOMCxL6N_SsBX8S9LDgNzP9oxXBMoptAVogMVxFBZH11H0-Ldc6qgaAL2Leb6y3VWl10s6zpapBHKw&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+        tags: [isEnglish ? "Shopping" : "Alışveriş", isEnglish ? "Traditional" : "Geleneksel", isEnglish ? "Spices" : "Baharat"],
+        placeNames: ["Kapalıçarşı", "Mısır Çarşısı", "Hafız Mustafa 1864", "Arasta Çarşısı", "Mahmutpaşa", "Sahaflar Çarşısı"],
+        interests: ["Alışveriş", "Kültür"],
+        accentColor: const Color(0xFFD35400),
+        icon: Icons.shopping_bag,
+      ),
+      CuratedRoute(
+        id: "ist_princes",
+        name: isEnglish ? "Princes' Islands Escape" : "Adalar Kaçamağı",
+        description: isEnglish 
+          ? "No cars, just bikes and horses: A peaceful retreat in Büyükada and Heybeliada"
+          : "Araba yok, sadece bisiklet ve huzur: Büyükada ve Heybeliada'da bir gün.",
+        duration: isEnglish ? "Whole day" : "Tam gün",
+        distance: "15 km",
+        difficulty: isEnglish ? "Medium" : "Orta",
+        imageUrl: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHofhhQsEbJ3SvP8_nh50kSj_uQLosZzb9rnZ_4RPUHFFBYzdtmNqssF7Avh6SeSQN0A18UEUWyg9hppNHGQnYHZwlXGFnfvR8h3_Y0VRa8LFUAhJvDW2LobE0GYvW7keqXAN3voM-h6Pk618DHqmmtqcLWz6ExbWOVsJTLUFlXrhuM0HjFjcY1icWAopXQbSegqH-nKj40r9yE2TQafTiT6Az8B0oY72FBSflmmfNI2_PRp-ExzSE5wGEygKOieJH0CFZFvsPJkxfEJmGGcGTPYVuaVa6Vg4t_CD2f8OfAbz7IXiMr4wPwkQbt2DINmun7kLeV3pmDpYp6wHWXcEJe8hsjbV3spU63pUboxf7yO1rnL52CXj-cfgCVOJYgxQ3nvTOFxLCOgfXWKi1ViP86Dy38rvBi2zlIDEOFzBo1oQaA&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+        tags: [isEnglish ? "Nature" : "Doğa", isEnglish ? "Bike" : "Bisiklet", isEnglish ? "Escape" : "Kaçış"],
+        placeNames: ["Kabataş İskelesi", "Büyükada", "Aya Yorgi Kilisesi", "Büyükada Marina", "Heybeliada", "Dilburnu Tabiat Parkı"],
+        interests: ["Doğa", "Bisiklet", "Romantik"],
+        accentColor: const Color(0xFF27AE60),
+        icon: Icons.pedal_bike,
+      ),
+      CuratedRoute(
+        id: "ist_coffee",
+        name: isEnglish ? "Specialty Coffee Hunt" : "Kahve Avcılığı",
+        description: isEnglish 
+          ? "Third-wave beans and cool aesthetic cafes in the trendiest neighborhoods"
+          : "Şehrin en havalı mahallelerinde nitelikli kahve ve üçüncü dalga kafeler.",
+        duration: isEnglish ? "4 hours" : "4 saat",
+        distance: "5 km",
+        difficulty: isEnglish ? "Easy" : "Kolay",
+        imageUrl: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHrMgNdJbaTlLljPNc3JepgGXxjsl9_HCQW2spvN342OZRZ77uAU-ImB_X62OMLP3V80faUDj19huZ8QT6AbtGDJZgiLia437Smvtc5Un5QCrCRG-oylupDnRTJBydWhyPKLtl6FZsWi5JLD0gwOmpa1r57JjoqaYi2_u2kEWRHm6xYhkgznF_UB3QidEdfMKYGJqluh9fiPJjSyaYm85xbBXHUzainC177whivvxYCSrq3e31OWGTPXrEIpXTM834MzMKLJrnO1f1ki51weUqXOttTWVUgnMLqht13mLxULdA&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+        tags: [isEnglish ? "Coffee" : "Kahve", "Hipster", isEnglish ? "Chill" : "Sakin"],
+        placeNames: ["Petra Roasting", "Kronotrop", "Coffee Sapiens", "MOC", "Mandabatmaz", "Federal Coffee"],
+        interests: ["Kahve", "Lokal"],
+        accentColor: const Color(0xFF795548),
+        icon: Icons.coffee,
+      ),
+      CuratedRoute(
+        id: "ist_sunset",
+        name: isEnglish ? "Golden Hour Views" : "Gün Batımı Noktaları",
+        description: isEnglish 
+          ? "The most photogenic sunset spots over the Bosphorus and Golden Horn"
+          : "Boğaz ve Haliç üzerinde en fotojenik gün batımı noktaları.",
+        duration: isEnglish ? "4 hours" : "4 saat",
+        distance: "15 km",
+        difficulty: isEnglish ? "Easy" : "Kolay",
+        imageUrl: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHpKvPCMcf2nwKoxP7B1RENMGa5KuqjzFUWFtanH-0QgcQrNyebdnmTUh813n6Ftmw96Cy2j_LOA9lKk5GYEjN4nuUzuOvhTuSUBjSDeP58hSNyt7qEqdic_YrEEXWCv8uFnl0PwA5lB3rQOjHiNMijCqhdsBRlbJzrqazMg4j3DkqwU8ZnHnvzLPr5XkoeR1cDaU4ULC-zyrhGbLEphUEhdQG2VUHdYxIXK2ITJcZzX6BX5RVGAvdUeudwQKIRUgxkRMYkGKe1dT5R6TqTuuy-5A8_ACREE93cEfeAaRUtd2glxrv_bektu36mi11HArAxF2bXA0B2XUZISsZohFDsAO-C1R25_xTMv4H3TIm881k_p_93GQX7keXleFJhE_lD1LAbPexyECCLZY5rmdnP2Iy07e5QvWH_IoE8jB_UJ2Q&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+        tags: [isEnglish ? "Sunset" : "Gün Batımı", isEnglish ? "Photo" : "Fotoğraf", isEnglish ? "Romantic" : "Romantik"],
+        placeNames: ["Üsküdar Salacak", "Galata Kulesi", "Pierre Loti", "Süleymaniye", "Maidens Tower (Kız Kulesi)", "Sanatkarlar Parkı"],
+        interests: ["Fotoğraf", "Romantik", "Manzara"],
+        accentColor: const Color(0xFFFF9800),
+        icon: Icons.wb_twilight,
+      ),
+    ];
+  }
+
+  // Placeholder for other cities - will be added
+  static List<CuratedRoute> _getBarcelonaRoutes(bool isEnglish) {
+    return [
+      CuratedRoute(
+        id: "bcn_gothic",
+        name: isEnglish ? "Gothic Quarter & Born Maze" : "Gotik & Born Labirenti",
+        description: isEnglish 
+          ? "Uncover the medieval heart of Barcelona: Roman ruins, hidden squares and the majestic Cathedral"
+          : "Barcelona'nın ortaçağ kalbini keşfedin: Roma kalıntıları, gizli meydanlar ve görkemli Katedral.",
+        duration: isEnglish ? "4-5 hours" : "4-5 saat",
+        distance: "3.5 km",
+        difficulty: isEnglish ? "Easy" : "Kolay",
+        imageUrl: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHquxstJjqDgIz70-Dqr5g3zvbuiPFFCjCZfFplN7QHXmXhFdfZCc6HgaTXkTGB52CLFpZU3fYiqby7LBCJv0Edhrb0qEC5Ka5wMezwhjJAj5UoXSvsXSO-gDnWS9kTDeq3HeGVdBqIOUFehb_NTo4bUvyK1oNlayGcefY_c3K11k0HpiAHj39jiFrVZ2SLOWGrqJE4YGiMAKZ2veojfccdS8ZsINcekoUiZqSFZcDv8dYbakUPCWMc_5SvAnVZ1KNW63BEXIWJLzEDUowZWf_zlkaiW7sNOJP-dDkuWlYt4zE1C58CxwHpo3U7Skdu2XsTPkVzDDOlL5NYCgwXB3VeJPZkQG2Z5tEv2yORYY18570nXZT9U3ik4owjFKV6PLnkhknR1eVnrw4SBskTzXfgZHJ6xwf11MMKrFQ37kcgZZtSm&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+        tags: [isEnglish ? "Historical" : "Tarihi", isEnglish ? "Medieval" : "Ortaçağ", isEnglish ? "Walking" : "Yürüyüş"],
+        placeNames: ["Gothic Quarter", "Plaça Reial", "Las Ramblas", "El Born", "Picasso Müzesi", "Santa Caterina Market"],
+        interests: ["Tarih", "Kültür", "Fotoğraf"],
+        accentColor: const Color(0xFFD35400),
+        icon: Icons.castle,
+      ),
+      CuratedRoute(
+        id: "bcn_gaudi",
+        name: isEnglish ? "Gaudí's Imaginative Path" : "Gaudí'nin Hayal Rotası",
+        description: isEnglish 
+          ? "A deep dive into Modernism: From the unfinished Sagrada Familia to the whimsical Park Güell"
+          : "Modernizmin derinliklerine yolculuk: Bitmeyen Sagrada Familia'dan masalsı Park Güell'e.",
+        duration: isEnglish ? "Whole day" : "Tam gün",
+        distance: "10 km",
+        difficulty: isEnglish ? "Medium" : "Orta",
+        imageUrl: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHriQM49XaWbKy1gU4gGoL82S9F_r_6PkTPiblllEbICllhHt9gqzBG9R5977AEVrAKDvvLI6ULMM7HDZ2wu-xiMf80Pi2HwHkBq1xT60JVNgwVU9wLFWiT4JvMYRhgxmSwOb7AVTHLTvTE0M072o7Bgn9QXKJAE2r8QU20QwwjjENRminBgXa7JwSLRshCJIjkXhq4-u2rtx_dXWJqSUjXXWtZvPO1L8kCcwVJ4m9lySy9ISoMjcTIltYZlgx1UEyl7BpAH9kI2S4bxdxmUkq9x7xdcGBdCWFq_yCzvbPFMB4PdntOxEoHHw4QEC3Y9rRs6qMYSqHvUzdPSmDZLyuxLNygIE5kVC2EGcXtS-EmQiSiGESPx635xyBs4KTSqOqQOcuONrnRFuE8OZK3RWLPeZYjJWEG3WoaBfI1edyzlGvNs&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+        tags: ["Gaudí", isEnglish ? "Architecture" : "Mimari", "UNESCO"],
+        placeNames: ["Sagrada Familia", "Casa Batlló", "Casa Milà (La Pedrera)", "Park Güell", "Casa Vicens"],
+        interests: ["Sanat", "Mimari", "Fotoğraf"],
+        accentColor: const Color(0xFF9C27B0),
+        icon: Icons.architecture,
+      ),
+      CuratedRoute(
+        id: "bcn_beach",
+        name: isEnglish ? "Sea & Salt Breezes" : "Deniz & Tuz Kokusu",
+        description: isEnglish 
+          ? "From the old fisherman's quarter to the modern Olympic port: Beach life and maritime soul"
+          : "Eski balıkçı mahallesinden modern Olimpiyat limanına: Plaj hayatı ve deniz ruhu.",
+        duration: isEnglish ? "5 hours" : "5 saat",
+        distance: "6 km",
+        difficulty: isEnglish ? "Easy" : "Kolay",
+        imageUrl: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHosxB-a7sAxAQeZ1tYHdlwLfmRstlHG-UUAXAq9q76eM0AdFDpt_CaczcqqtpBZzooAbDzwRFCzi07qDt_DtlarzrTSTjl30Rv0FefnShgw4fEB0E7GmKW5qzW3N3kItCwHuauRyzlmC4LZbbX9rEaoDY4jGDZLaefHhJcjCl0Pw51BiOBUCie2I_sG3vIPIyRfq6ZsaxN6JdZlfdHXNAyG0V7uIlx3OLqaSUmzxKCEB8JgMBD25McWQcLNt3qcc3OrhLxFAYoH-cKCl5n33ltdrc-VNnmhZUNcLrH0NFEkP2C4kim6nv-niD5eSyw5UDzWZ9H0Sf2yGsNesmikJXWr2opBZjRfgrKv58HobSKPEAPA_WddOkxAniQYiY1XqrKxQN1vZTZ3tlPloaiDcNPMhLzBzhNjujkYotqoLy8KM7qw&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+        tags: [isEnglish ? "Beach" : "Plaj", "Paella", isEnglish ? "Coastal" : "Sahil"],
+        placeNames: ["Barceloneta Beach", "Barceloneta Mahallesi", "Parc de la Ciutadella", "Poblenou"],
+        interests: ["Plaj", "Yemek", "Romantik"],
+        accentColor: const Color(0xFF3498DB),
+        icon: Icons.beach_access,
+      ),
+      CuratedRoute(
+        id: "bcn_born",
+        name: isEnglish ? "El Born Chic & Culture" : "El Born Şıklığı & Kültür",
+        description: isEnglish 
+          ? "Hip boutiques, world-class art at Picasso Museum and the best mixology bars"
+          : "Hip butikler, Picasso Müzesi'nde dünya sınıfı sanat ve en iyi kokteyl barları.",
+        duration: isEnglish ? "5 hours" : "5 saat",
+        distance: "4 km",
+        difficulty: isEnglish ? "Easy" : "Kolay",
+        imageUrl: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHpDKAlTBiOhGilvqV3AGfMmyeUIoElD7b94crtBxq7SsrIy_h6Im7yE3QogWmHMkmG7T6ye-PvDHcR3HJ4lhjwGOM1g5RLBZF2D-xzrzJw71EmfDNbnO0GLX7rEhFnDuZ4ATzKTvIcV-3q_iF_1ez-p8VkRGTOYQlG1dlQUGKxpVz0VUb9-iHpGc8wLEsWTNWFLbgXbM05pVbKEmBw4RPLTN_sOOPFOcfz9Zipenksf7glWYUtKx9yQ9dg1Wglwca7VctbeBy65ZjbmDkqb4b-AOBR3OyG-5r05a2dcEO5FUaKzunQYAcCmcohUY1-KXODvHgbnhLhJMEyfy-oADPmugL_NKEc3SOV1ypVe4nx_55jj0Pc65I8CHLVbBb_fdp4mhFuS_PZ5FBlJZk0PHNfy44V3RbgRNSt0aGS98BfRZw&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+        tags: [isEnglish ? "Art" : "Sanat", "Tapas", isEnglish ? "Lifestyle" : "Yaşam Tarzı"],
+        placeNames: ["Picasso Müzesi", "El Born", "Santa Caterina Market", "Palau de la Música Catalana"],
+        interests: ["Sanat", "Yemek", "Gece Hayatı"],
+        accentColor: const Color(0xFFE91E63),
+        icon: Icons.palette,
+      ),
+      CuratedRoute(
+        id: "bcn_gracia",
+        name: isEnglish ? "Gracia Village Vibes" : "Gracia Köy Havası",
+        description: isEnglish
+          ? "Local squares, indie shops and vermouth culture"
+          : "Yerel meydanlar, bağımsız dükkanlar ve vermut kültürü.",
+        duration: isEnglish ? "3-4 hours" : "3-4 saat",
+        distance: "2.5 km",
+        difficulty: isEnglish ? "Easy" : "Kolay",
+        imageUrl: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHrvExMjpJwpIGH33Hi9YJKT0q8h3bgJygOSTGVqGf8CknXS8Uhs4VRWfjuEp9_LJ3wBxfsafsRb3XikqKbSj-s5yhQzFpZLJTUn9odUespIBj9fI_mNBs6Ltlrgz7AWstWuGQsQu4POBKwx_OMO_8W-VkyDKiGpXvMxW7St5GlaH1s9wAboA21E7sKUoFhGNIgocmbE-mVI5piqMx2MIHL7bmfoMTm1X5LxKzuqWLUs12V-_inzNcPm4fHWopzjOgItdupHWAYOk6joA0WMvyWzJKcvqvYfCoZgtAhDr6FMfRzWdcjo9ofsyHyp64Xc55JHpKOZZ_iNkDUP5Qv9bClRSXNZJacIAzdggdovmphXz_LZiUj5JcLNzEw1Tu13vvP-GJ2MeYSWnGaO98x_vsI0btqIVc2dOzDOO_dcorOBi3wyvVTfrUweyrp9xBMXAU8hCRrCxLO5EDXIgzOu0g2JFDud1bxoP7XrrUG0xysjxXLzCwkHlvO_MSYdBV2M7xObHZdvjlR6vi1Rq-ALOvuTx6ez1Ap2b5buSf7zKYOvtwwk7ShtG7hMpk_KWJUY3jJ1xV1t&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+        tags: ["Lokal", isEnglish ? "Bohemian" : "Bohem", "Vermut"],
+        placeNames: ["Gràcia", "Park Güell", "Casa Vicens"],
+        interests: ["Lokal", "Yemek", "Alışveriş"],
+        accentColor: const Color(0xFF27AE60),
+        icon: Icons.local_cafe,
+      ),
+      CuratedRoute(
+        id: "bcn_food",
+        name: isEnglish ? "Tapas & Market Trail" : "Tapas & Pazar Turu",
+        description: isEnglish 
+          ? "A culinary journey through world-famous markets and hidden tapas gems"
+          : "Dünyaca ünlü pazarlardan gizli tapas duraklarına lezzet dolu bir yolculuk.",
+        duration: isEnglish ? "5 hours" : "5 saat",
+        distance: "4.5 km",
+        difficulty: isEnglish ? "Easy" : "Kolay",
+        imageUrl: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHrYRFgpRf4Fy6yAm2syST8u58ivMNSl47IA0If6Ce3Xicntb0DMOkLzVIA529Xo1FlqwXGVGDgQgVsJnNC5PM_Ph_c8olD4hAPXlXzrwF0aY7xRecIOvIriI7_GO0dSeasqeFt1YJ9L4xdoNqiP_y0pdlsqHYLpIP0gcJuLhF9jq2jwVAD_r47XcdLVJEemwe6oit3TNCY9Uo2EVDZD_cCnXSP7gbHI8_4Y477_wnTKjR_bhQ1trJqgMDrWFNjlq9Z35S9biQ0YtKGLfI1naH0KbGdTUoPZ-YsLNRr4TMReYTO7wRpv2lQiIrWcRDpcYU6uH933a9BtP_42u9ipKqF1kA-eplOqlyodzmgBmk8OlcTCQFYwcsgaNnYPQD8GQ2rHaZVd8f-GSgDxm8tw5kDO5VzIYrVFJyy_9RyyzMwgzZce5eyHJw24uQQt6w&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+        tags: ["Pintxos", "Tapas", isEnglish ? "Market" : "Pazar"],
+        placeNames: ["La Boqueria", "Santa Caterina Market", "El Born", "El Raval", "Gràcia"],
+        interests: ["Yemek", "Lokal"],
+        accentColor: const Color(0xFFE74C3C),
+        icon: Icons.restaurant,
+      ),
+      CuratedRoute(
+        id: "bcn_montjuic",
+        name: isEnglish ? "Montjuïc Heights" : "Montjuïc Tepeleri",
+        description: isEnglish 
+          ? "Panoramic views, historic fortress and the Magic Fountain's dance"
+          : "Panoramik manzaralar, tarihi kale ve Sihirli Çeşme'nin dansı.",
+        duration: isEnglish ? "6 hours" : "6 saat",
+        distance: "7 km",
+        difficulty: isEnglish ? "Medium" : "Orta",
+        imageUrl: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHo7_wyLWCBVfLyhOMSXZSPIcT6mI9DTVXwd2HEneEsKjdBXIecFh-UqeGHM9afteURlHucLC0U-g8uDpVCXFxb4UeXDlkjhxRmBqbhEKlXMuWLxn46pRqQuLLaKNidm1sO-0UPVPiNqRuJpaBLgdF_4FjRuEhxF9QT51OaaxtJg83XGWwEyYrprqV0i50H17mzN1sUSyNg76VToNEanhb7PJ7rns_MWm6PDsU5ojohZySDZmBOKSfCSu2v6TqsvnLOTr33ZbtgTMKAjY36d8cAgdOGfa1nKJ7ogukjAj1jc-kahHDzizoVOSj8H7wWsj-du38uP6-7W38g5-20h4PxkkjJr-cb0GHVNlZK4J5znu9jQEf_LWZlt08ki5rbZfUHO90FN0K8LMBaIa5apkswv85v-LcLUYCMgbxdiu6q3RT18qi7227IEClXlPGPVP4GtfHvli6A469Rwv-Wh0xYcI9Qlum8MZohydO8g_4zdDu01PM-CXZ_7X1h_I3BDwcjXC6_kIxsxQdWwPi8zhwkXC_UgCAABrD8bAih0UPyEsb1LiZpaaukDUY1Gm-QSJ6cJYg&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+        tags: [isEnglish ? "Views" : "Manzara", isEnglish ? "History" : "Tarih", isEnglish ? "Show" : "Gösteri"],
+        placeNames: ["Montjuïc", "MNAC", "Fundació Joan Miró", "Magic Fountain of Montjuïc"],
+        interests: ["Doğa", "Manzara", "Sanat"],
+        accentColor: const Color(0xFFF1C40F),
+        icon: Icons.landscape,
+      ),
+      CuratedRoute(
+        id: "bcn_raval",
+        name: isEnglish ? "Raval Street Spirit" : "Raval Sokak Ruhu",
+        description: isEnglish 
+          ? "Edgy art, skater vibes and hidden gems in the city's most diverse district"
+          : "Sıradışı sanat, kaykaycı ruhu ve şehrin en kozmopolit semtindeki gizli hazineler.",
+        duration: isEnglish ? "4 hours" : "4 saat",
+        distance: "3.5 km",
+        difficulty: isEnglish ? "Easy" : "Kolay",
+        imageUrl: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHo0OL8qkxvjqXEtVmA6Zooa-5fXpfwhg5UtW5owjnM3hh4ih-2kdu_KCdos4sQV4Oo04y6Pa4KXKVW0efVFGy2HeBGBhjvQbPJCNKrh6XffyCnXIKgc5vUniUYiZ6V3JyUNLswjC8S2KZDN1lPtuWkaQO4LCx40W57C0EffO9E14NJTVa3dTyT92ePR9KX1Pv6L08zJkzZmc2130jm0r4vCAgLFyb0oIXV6ibLPYy2dy802KcWNvXab-Z7PrMCTfXK8nCiA9NRhjN0kZUzaMso0qJ9ZKxpAuLh_vaqtKZ8LcyLoJbjjGV2b2tZ3dWhWUYmIyJbV78pJEHxcoMMUhlju4R5MMxYnGCag0GzpSyC6K3T8qMsQSnLX8V90BGKo1pmgN4E3cmm1wJE7nyLha1qSSzotTWqe3Eiiq9yxWgEtyj_p&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+        tags: [isEnglish ? "Street Art" : "Sokak Sanatı", "Alternative", "Hipster"],
+        placeNames: ["MACBA", "El Raval", "Las Ramblas"],
+        interests: ["Sanat", "Alışveriş"],
+        accentColor: const Color(0xFF1ABC9C),
+        icon: Icons.brush,
+      ),
+      CuratedRoute(
+        id: "bcn_romantic",
+        name: isEnglish ? "Romantic Fairytale" : "Romantik Masal",
+        description: isEnglish 
+          ? "Candlelit gardens, panoramic sunrises and the city's most enchanting spots"
+          : "Mum ışığında bahçeler, panoramik güneş batışları ve şehrin en tılsımlı noktaları.",
+        duration: isEnglish ? "Evening" : "Akşam",
+        distance: "5 km",
+        difficulty: isEnglish ? "Easy" : "Kolay",
+        imageUrl: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHrk-8t0HHzSX_kImNASoafljutvTb0xlnGLkusnqtvXBOKdsZeHcamq1kOgovuB4-laL6-usxPF6kZvQp_Gt0HHRAFhlB2TuqPMcLbP-hNClyw1i6AXdMXL452ZHLk-7uke--3Ggwx22STvyPMKU0ukr51Sya5Ku6Xqoz21SXEfCOTaVfQU4RlvcTDbESqHXwB2KNONbcD0KdySFolIJH0Gi8gXOPqcXfA9k3vzS-Q1Y0OqtAUy08Pc9_VGb-0PqY1jSI7hRhdz35UBBgDM5vNKBhEWyz5fVUmL_60dPjsZ_mwIvSscKQysp2nnMKSdi0-2XVlNPbsEMM7A5LpOFDgqhRS7cYu88nYOYRpmag62ZZvTSMYO5m9ZqqSGmvlGNu7GljD4_gbx7aNCkKL01cJVQEmiLjWtSdIWaazizkgzeg&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+        tags: [isEnglish ? "Romantic" : "Romantik", isEnglish ? "Fairytale" : "Masalsı", isEnglish ? "Sunset" : "Günbatımı"],
+        placeNames: ["Bunkers del Carmel", "Tibidabo", "Parc del Laberint d'Horta", "Parc de la Ciutadella", "Magic Fountain of Montjuïc"],
+        interests: ["Romantik", "Yemek"],
+        accentColor: const Color(0xFFE91E63),
+        icon: Icons.favorite,
+      ),
+      CuratedRoute(
+        id: "bcn_eixample",
+        name: isEnglish ? "Eixample Grandeur" : "Eixample Görkemi",
+        description: isEnglish 
+          ? "Magnificent modernist block, high-end fashion and art nouveau gems"
+          : "Görkemli modernist yapılar, lüks moda ve art nouveau hazineleri.",
+        duration: isEnglish ? "4-5 hours" : "4-5 saat",
+        distance: "5 km",
+        difficulty: isEnglish ? "Easy" : "Kolay",
+        imageUrl: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHrX6V050I0LfTE30mwvIuJ_mbFDtO17_S9okJ-jaiNbk7tR4CeQgMcM-EzBCwmfUNAFvyLUo8CmWhZDsfydbPDOHlFah_Vjb0ZXwNhsY9jODlBXB-s2lcJJrs_Unk3EV9DKv23b9CAHoVk7VOwh2_zkGQX5G1d-ztOGZWIpy4A34xIchHEqYb1zlIY1j7-ZhRQJawt4_qT_ySth66EQj29RmOOETXkuoH576-j75gE3_ssZoLjo_mxrtd2s5q75jCZW2rq-Oo1NlfAoRXVYu6gfHajH_VNeTSYDQJy8TXNntboq2TbA5fGUBWvI8PJ_hZ71pWXDmxXv4-xiSJ5TMjETPjAFNDeOCAcDuQv-PwYQmuLHeMWbtZXZ4AGZ_aDgGQiai5lhU5AJ7vD7CzSIZiv48Go7fM_5IvI&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+        tags: [isEnglish ? "Architecture" : "Mimari", isEnglish ? "Shopping" : "Alışveriş", isEnglish ? "Arty" : "Sanatsal"],
+        placeNames: ["Casa Batlló", "Casa Milà (La Pedrera)", "Sant Pau Recinte Modernista"],
+        interests: ["Mimari", "Alışveriş", "Kahve"],
+        accentColor: const Color(0xFF9B59B6),
+        icon: Icons.apartment,
+      ),
+    ];
+  }
+  static List<CuratedRoute> _getParisRoutes(bool isEnglish) {
+    return [
+      CuratedRoute(
+        id: "par_classic",
+        name: isEnglish ? "Parisian Landmarks" : "Paris İkonları",
+        description: isEnglish 
+          ? "The essential Paris experience: From the Eiffel Tower to the historic Arc de Triomphe"
+          : "Temel Paris deneyimi: Eyfel Kulesi'nden tarihi Zafer Takı'na kadar en ikonik duraklar.",
+        duration: isEnglish ? "6-7 hours" : "6-7 saat",
+        distance: "8 km",
+        difficulty: isEnglish ? "Easy" : "Kolay",
+        imageUrl: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHpgPu6pt6BbzfFxi_H9NGFZow4uJW6o-InNVubu7QAYIHIPeqM37QX6dJwRaAueLCMlp7N49OpeWMWgichOIQge0irS2kdND4LSs8HDu_qO9AJSuYCHkraNJQB1XNLgBQ4MYteCd1hMdMX0ka6091TZotrVuRqAPNXEawVqVyqdkzmoPB5qpzqfqmlAYm_csDNZBW_3dwA7YX-zhdGIyGLPB6s7vf0GFVutJjNSwSjn8wpSmmkr4dSDKlpbzd6EokgmU9dLLcWR_tq9sfL8OyUB8be1H9QU0QUqvIHJ5N7IMC61yWDKlfR_oXU9CMG1vOj5t-jzjGePQzMIKvp3Q5MAAsyO2qQ56WoYqANr7k1y3pvDSyy8EqO0OgG6YvHrbFbth3mEvlRH-OmGkyg5yesUB5eF9NE_QMedDFcR5I4wZHnpcI_ZYa9ORq8RfQIyfNfjIRCjCvvfeN5mY8IFCOUpRfyimLuB12AfrMhLGXcPk7rEOkh_PWR9G0poSDfmBJpDGuzHaBY1dOJQUUfsUAPEA6OGXesaheoGWF-27U8LsjqgWj8QOc85_NZUoi4UYTaYNRb4SpqAbA&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+        tags: [isEnglish ? "Iconic" : "İkonik", "Eiffel", isEnglish ? "Must See" : "Görülmeli"],
+        placeNames: ["Eyfel Kulesi", "Trocadéro", "Arc de Triomphe", "Champs-Élysées", "Place de la Concorde", "Musée d'Orsay"],
+        interests: ["Tarih", "Fotoğraf", "Turist"],
+        accentColor: WanderlustColors.accent,
+        icon: Icons.account_balance,
+      ),
+      CuratedRoute(
+        id: "par_montmartre",
+        name: isEnglish ? "Montmartre's Artistic Soul" : "Montmartre'ın Sanat Ruhu",
+        description: isEnglish 
+          ? "Step into the bohemian village of Paris: Artist squares, hidden vineyards and the white basilica"
+          : "Paris'in bohem köyüne adım atın: Sanatçı meydanları, gizli üzüm bağları ve beyaz bazilika.",
+        duration: isEnglish ? "5 hours" : "5 saat",
+        distance: "4.5 km",
+        difficulty: isEnglish ? "Medium" : "Orta",
+        imageUrl: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHpQoWogH8ZfZBylMLW4ojCOxnzt-BzY3h0VBg03mJRccZoEHfI5fJY05fHetgzrk_GXVbWr3g33dC5mnXRDieaiq5VAW38e8wu2pj9Z5NZaJ0Q1X7ToT8YqnEXXA42M-M2NvMJn3nUbqb36yfmIZFs9wX4TsjHPa5A6M6npl17C4klgSPP1-JPqg9h5PAPa76gy5_PgFy8LqGfm6srM7NirmAT-J8y4sZVynQ-1iSCNTvTweLBdwxFt2rlo_LeXRVr_kJqVz7Cm3R73kPNpg_st4nIeOgoShvTUAO8e5J1GNdo78iRiKrF2DXn5vMUo6ej1D3SXKL01m_SPrJEyhvWTX9wrpiKDPOMd0r20QWTVmWKzgMZaZfTJyOXRc0r8fPWZmBQczHjxVQfLwvfPuQcYnqZmG4g1O0NNaKPtZ8-LGx-kqlZsHmljaqHZZXtLnS983vVDEx3w802CbTCICgAVN4zFYMYtfhI8nlcPPsc7igrnF9T_ZYRRTxbs6Rjx7lKTJztqo5HYbAAeETIqxhjOlttIUviqJ9D1TIG_7Di0Puq6rJ8PJFHoVZWSNrx4ntf5j-33&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+        tags: [isEnglish ? "Art" : "Sanat", isEnglish ? "Village" : "Köy", "Sacré-Cœur"],
+        placeNames: ["Montmartre", "Sacré-Cœur Bazilikası", "Place du Tertre", "Moulin Rouge", "Mur des Je t'aime", "Musée de Montmartre"],
+        interests: ["Sanat", "Fotoğraf", "Romantik"],
+        accentColor: const Color(0xFFE91E63),
+        icon: Icons.palette,
+      ),
+      CuratedRoute(
+        id: "par_marais",
+        name: isEnglish ? "Le Marais Merchant History" : "Le Marais Tüccar Tarihi",
+        description: isEnglish 
+          ? "Uncover the coolest neighborhood: 17th-century mansions, historic Jewish quarter and trendy boutiques"
+          : "En havalı mahalleyi keşfedin: 17. yüzyıl konakları, tarihi Yahudi mahallesi ve trendy butikler.",
+        duration: isEnglish ? "5 hours" : "5 saat",
+        distance: "4.5 km",
+        difficulty: isEnglish ? "Easy" : "Kolay",
+        imageUrl: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHrpFNz2R6Gxn1Wq8WqKsvonVRgiq6WwTaj4c6WEA9cTjoLeVyKznQBd9jwcwInZ16I0cHIi_AWFZjOhFThwpXWw_ih9C9JmJwYaU6ip2EPagtPssKeJcw6Ia-LptV8BuKm7cXvhJ_s8ScdDDo_DoQ86tVd7XSuE-rVOvhApsQ0-IpE_gMk1inWa9SF3XOfNTUuOZZfZ5qY4AXHx_LAKkecjVRALJa6CvRHpZBAgHK_Dxdde0ddiE0c_IZCbvWkOZPY20m_DMqnG5HrsbK4gqj3A7iGh5GiXCJ_7RLa4oiI9Ne8ObZYSxHh1lKzwGBNGT7Nq173sgaUl3gKQCdXAcBoqR7K9ynRi5HCwW_75zKTDNhrPiLlUZAH_lxt6z5dJs0OH3sr2mI-02dvLojv2-HtJMxZDMzGRC64UFD-2XepjgTPGSG-7dLYI5WogiAano1GZUbSWMu_bWsf4qOpe2iMTHTwM3-BplV9MkoGRnWFaGsUE1vIwkdUU9XRnfmEeB8sod9AfAaL9fWmTU9cr9__kNbx_WnQ5xTONc7OySD1eZVzA6cjGtt7tn-Mn_rcK7w7oopSVL_u&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+        tags: ["Marais", "Falafel", isEnglish ? "Trendy" : "Trendy"],
+        placeNames: ["Le Marais", "Place des Vosges", "Rue des Rosiers", "Museé Carnavalet", "Saint-Paul-Saint-Louis", "L'As du Fallafel"],
+        interests: ["Yemek", "Alışveriş", "Lokal"],
+        accentColor: const Color(0xFF9B59B6),
+        icon: Icons.storefront,
+      ),
+      CuratedRoute(
+        id: "par_museums",
+        name: isEnglish ? "Art Immersion Marathon" : "Sanat Maratonu",
+        description: isEnglish 
+          ? "A journey through art history: Royal palaces, Impressionist masterpieces and modern wonders"
+          : "Sanat tarihinde bir yolculuk: Kraliyet sarayları, Empresyonist başyapıtlar ve modern harikalar.",
+        duration: isEnglish ? "Full day" : "Tam gün",
+        distance: "7 km",
+        difficulty: isEnglish ? "Medium" : "Orta",
+        imageUrl: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHpVAu0ZvngY4_Hwhy11BkdnAu5Nsqqs-5w6S14SkcEKV5WRqpKrFdhvdOhLq8Cmpn38AozXlQJ4FlRRlDBrGfy9HLBbd-ve34mhzy9G9xie1ETZZgkgOOgXdFI1jB0XcRWO4M3m8Q1-3d7u0OAZa44O3TWCxc1_ArNzy07VDNoVqF7J0ES9_QtZOtGA9eECJ_S41-zwvFbafniWYlg5uRxR0Fb7tyW-CVBOaXL-SPYYpFl0s6RQQq6j3-tU5YnmMZnscl6VWGHN1RHhMvucQCiixzaE6FqxWYi4ydXy3J7HeeAKoVKVR-xV2xprKZdexu-ibJRi0hegsAZIEzdOhg27bVgBbL_gs5PXQvM4tkuXIFw93LRX4_Y8eM6qFpoEPFhgRw-PW4E7YK0RAOk3Uv6GuDAxPrYuala3ecUjOoygAVgxcgYenblhfDA_XM5KSJ4FibOKKHkpDUqawP6Jgrnq0h7a4nTBQI1Bg6w0TFq3jhetV2ABu3Uu3JEmro8ryRdUtVzp_DSSsnrkoo5OhmSzytAhXi5AyCl8mPqtc3pn9CejQI2dpX4dgJGvg4Ks80jISD2c95G6HQ&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+        tags: [isEnglish ? "Museums" : "Müzeler", "Louvre", "Art"],
+        placeNames: ["Louvre Müzesi", "Musée d'Orsay", "Musée de l'Orangerie", "Centre Pompidou", "Musée Rodin", "Palais Royal"],
+        interests: ["Sanat", "Kültür", "Tarih"],
+        accentColor: const Color(0xFF3498DB),
+        icon: Icons.museum,
+      ),
+      CuratedRoute(
+        id: "par_food",
+        name: isEnglish ? "Gourmet Paris Trail" : "Gurme Paris Rotası",
+        description: isEnglish 
+          ? "Indulge in the finest flavours: Crusty baguettes, aged cheeses and world-class patisseries"
+          : "En iyi lezzetlerin tadını çıkarın: Çıtır bagetler, yıllanmış peynirler ve dünya çapında pastaneler.",
+        duration: isEnglish ? "5 hours" : "5 saat",
+        distance: "5 km",
+        difficulty: isEnglish ? "Easy" : "Kolay",
+        imageUrl: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHrlPjCKQdQ2fEIqX44JrrQdAcvriXtrUkTT3pSfaq0JmG1kGpK8q7HFhjlwAwfhCutoxg7zkpgwDIPR-zy_3AAAU0a0cHNIWKlLSVkbwygmces2bmabb--rr7ALyZIJvQYy9A5c6ynupZt2Z_SEMRRCeyhqh_8UzP83O1WPFEQN1M5s1tkE2eotpqtVHNolhyYgKcnB0ptQFtGfSwJHP6PQKrY7vl170bdWjI_KDKiL5VcjOq2k82mekHiLZE4FdjJlCEHkt8oYJ4lezzAIiB2aDYWp-p3zZT1egVsdfbcrcXohlnK0MyQhohOp7piGpwMNlP_hl8k_hpyz852zvquXrtYG_aRW4HQu3ignSAY_RV8kXYUo15SsLErOZF-oAqUe3QLJC3MK4Vrs5qwr5s2f71CTVgKjs4MkvSKZdJa78SFolg-ZVAgS3dlMD-B5ady6E2i8e9RoCstx3SsGKxO0iTYsC1NksbVDzNfb4ISn0vR7GOOyOfLa6D2OCAyN6potUbgElCLBeri2ixCXa2ARQiplMwwq4IxSuF968Zwn_AcnHhFaL1BFDWoZP4c5855MwxYC&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+        tags: [isEnglish ? "Gastronomy" : "Gastronomi", "Coffee", isEnglish ? "Market" : "Pazar"],
+        placeNames: ["Marché d'Aligre", "Rue Cler", "Saint-Germain-des-Prés", "Café de Flore", "Canal Saint-Martin", "Belleville"],
+        interests: ["Yemek", "Kahve"],
+        accentColor: const Color(0xFFE74C3C),
+        icon: Icons.bakery_dining,
+      ),
+      CuratedRoute(
+        id: "par_seine",
+        name: isEnglish ? "Islands & River Secrets" : "Adalar & Nehir Sırları",
+        description: isEnglish 
+          ? "Wander through the birthplace of Paris: From the Gothic spires of Notre-Dame to romantic riverbanks"
+          : "Paris'in doğduğu topraklarda gezinin: Notre-Dame'ın Gotik kulelerinden romantik nehir kıyılarına.",
+        duration: isEnglish ? "5 hours" : "5 saat",
+        distance: "6 km",
+        difficulty: isEnglish ? "Easy" : "Kolay",
+        imageUrl: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHoaeOWMitePPWX5R56lrTzQfxYPOrL_VS2CzFegASKlbCiyyk3JuTVmG9xrFt1nKj2hugDMAVav8DDD03YW1KLQr9MoMEsXYa79OScd9v34c4pDHqFTChv5hxKDSxXdUb6f_hcaKjjp8-3u3B4eZXpNQaldtqp9uN6DpzRPR5r-b5mBYItuJ884H6Vtu_50AlwwG6W_XPJS6BbG3dCOsf2l_0GjsfWR4KFG3x4zXEWKCzGRWQl0sR3XEpxJDXYISVG-7RUs650Iytm_cZgmzVE2UMYQ9Tw_1mv0heCiSFoSw1mVl_v6opWkPg5CgORX_VQ1UuGpqzIPNyOWZ8awINxXahlQ9LrUY2eeLToSkN-ojVwKmWyCDqeQb2Kf-vxIGZuCueOhHhSMp7a-WPQNLOxvSdJdyGv32IWQm-6ops2xO2S7Z56dVqUCQXyyohLfchYuJGdrWF9De_W3aslVng8wWkYaR9eK-cf0L3G3DAf-hUrHYSDSippooHw2-wKTBTT__Bw9A5yyoX-2OtKAjo1aXm-tXpntZRrMy7GqjIIm2gggJWRiCi3pSnO9C-0quioVZGHrTB5g-Q&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+        tags: ["Seine", isEnglish ? "Picnic" : "Piknik", isEnglish ? "Islands" : "Adalar"],
+        placeNames: ["Notre-Dame Katedrali", "Sainte-Chapelle", "Pont Neuf", "Pont Alexandre III", "Shakespeare and Company", "Île de la Cité"],
+        interests: ["Romantik", "Doğa", "Fotoğraf"],
+        accentColor: const Color(0xFF1ABC9C),
+        icon: Icons.water,
+      ),
+      CuratedRoute(
+        id: "par_latin",
+        name: isEnglish ? "Latin Quarter Scholarly Life" : "Latin Mahallesi Öğrenci Hayatı",
+        description: isEnglish 
+          ? "Explore the intellectual heart: Medieval universities, the Pantheon and charming bookshops"
+          : "Entelektüel kalbi keşfedin: Ortaçağ üniversiteleri, Panthéon ve büyüleyici kitapçılar.",
+        duration: isEnglish ? "4 hours" : "4 saat",
+        distance: "4 km",
+        difficulty: isEnglish ? "Easy" : "Kolay",
+        imageUrl: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHrjfXMlGvZkMT7j1M0K7ZW9KlBYb4-hvlt3BXLwA6DyL3P-7aWZaWgwRgk_-YXzZ-y2Y7DC7hfpNOhDH2c2JHGPvadizAMY7BT6bHpJeOlWoC0kX5QeFWyn0B7VevDjJ4TXNn-v1NtO7d-ALU6pXzvMdSExJsGhKbnvOGT6BHNsp41OKVvyInBVeJ044qpwOWbCYmkAnoZjiLajnLMrJtixl-KDhVjqQsG8DfJgCBgUpYTspLA6NhyuIV0F_ncmZI5-4BaVfuTPNh1IDeEBxKXcAbCNA2nUX4lxh_RYul1hSi08fQ3zKV08H25H4Nv3chqp-n7sDav0afqY0kX3d-WOg36iNip9RKJvbJSCzhnjKlLfdrZV6hxcWv6diGk4GFgxcSk169bbl8F6tIjIcJdnD1787ssiFmZXRtXEg1MhSL0iQ6RQjugB0_OoznbjrqBmZ5aOGDQ79_hsyicvsV8zWjOeJraYrythHPi_Lks_A96ygd2Vvuq55ftW3OPYKU-2DoF7fShWQn8sOiZzDUE96lANb4_-6ajRaxca_x_fsKWV_a7EHm6MHBisQcqd9h2pX4fAeZb8Nw&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+        tags: [isEnglish ? "Scholarly" : "Akademik", "Sorbonne", isEnglish ? "History" : "Tarih"],
+        placeNames: ["Sorbonne", "Panthéon", "Jardin du Luxembourg", "Shakespeare and Company", "Rue Mouffetard", "Latin Quarter"],
+        interests: ["Kültür", "Kahve", "Lokal"],
+        accentColor: const Color(0xFF27AE60),
+        icon: Icons.school,
+      ),
+      CuratedRoute(
+        id: "par_night",
+        name: isEnglish ? "City of Lights Nocturne" : "Işıklar Şehri Gecesi",
+        description: isEnglish 
+          ? "Experience Paris as the sun sets: Illuminated monuments, midnight jazz and shimmering river views"
+          : "Güneş batarken Paris'i deneyimleyin: Işıklı anıtlar, gece yarısı cazı ve parıldayan nehir manzaraları.",
+        duration: isEnglish ? "Evening" : "Akşam",
+        distance: "6 km",
+        difficulty: isEnglish ? "Easy" : "Kolay",
+        imageUrl: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHqAx4e9qIauufdHnbfe1ZFigWuAWeUJdI6_92khNJlFuVUXRUkG8tDzEKVjTRr--cskMb4NjhReTZoi32rNjoKX1N-e0zg6EZl8Yx79dAGI8K7iYg4jJYEZbFREFwtRgRVh09YeT7KoHrzuBx-Ej4Yh0MF_11HQeSZiPiz5Gz5fu1ikZFo2Chi0wWmUNtfpgzxyyrpS7GCUKIcqe6lglpBpFCYOEP7kelOZeiOC-AVh6lq2LAv7YiwVyvBa8wNSB9dLghnDqK5VC60KMH-7fySWj_ATmtM6YN5mi0qb7qPBwx2Nao54Pv_lmtWw7-EleI_2wkv8yzAnbOgihtO49CT8l094gQOTBAOlCOP12sRXWYVpiYUI6fwDW1OPbjn9sIYkME_0E0cj2I4THB3UmkGmTnyl8T7ZAJFifMlMUc99MRRMv-Dpo9QyLdOFqABA-BltLvVGFuY8qKJsiIYZtl6GSgoDOSBww7RoHBT37NoV7hXtRYJZqfOHB4ATFW0zYR8dJBJ3tQwL1pmlNWVBrVcFgSbKYxLBRKW2t8CEH6x2uZ-3relb4VW3MKCp1v4LmsgyySY6&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+        tags: [isEnglish ? "Night" : "Gece", isEnglish ? "Lights" : "Işıklar", isEnglish ? "Evening" : "Akşam"],
+        placeNames: ["Eyfel Kulesi", "Pont Alexandre III", "Moulin Rouge", "Canal Saint-Martin", "Notre-Dame Katedrali", "Arc de Triomphe"],
+        interests: ["Romantik", "Gece Hayatı", "Fotoğraf"],
+        accentColor: const Color(0xFF8E44AD),
+        icon: Icons.nightlight,
+      ),
+      CuratedRoute(
+        id: "par_versailles",
+        name: isEnglish ? "Versailles Royal Escape" : "Versay Kraliyet Kaçamağı",
+        description: isEnglish 
+          ? "Step into the world of French Kings: Hall of Mirrors, majestic gardens and the Queen's Hamlet"
+          : "Fransız Kralları'nın dünyasına adım atın: Aynalı Salon, görkemli bahçeler ve Kraliçe'nin Köyü.",
+        duration: isEnglish ? "Full day" : "Tam gün",
+        distance: "12 km",
+        difficulty: isEnglish ? "Medium" : "Orta",
+        imageUrl: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHq-augFNWADrLi7e7uXXYmYFbGl4naOsJpR6NUE94Rfg50O8MilKZFDUpM14c4BdGZgZAw4Amcvffmr0qSPH3SdZqP3qFl2_5LlQsqeE1gdoaPe-nnjfznhNYvk0ezc5yH3Opj3Truv0_yQou1_r5-xQbffCgfyWBCZ0wlZmbY1G4MrkEOEu1-AkCCDbg9_LEoaYpXdOqJLQ1vEHn7Ph1b2Wq9sE6S8tDQHKEZZ03i-GyefA3-LE_iPfkaxlL-b1rbb2tEmMrqrYIluydZErv_eW_uNqStvU6io6KqRWqM5BBR6PCYSUVt_G0YRDMZax3791ITYpmWvsdPkmJsgZsuT0g0XeJ-nHWMn_jNd4LUJKzRTuhdbQcGseZuoLiClDmk_TyKnqWwLyr37b4A2_KqNjNinXx2cEn5BoZu2fxZUgzoN_rWhWhmMxkn1d1M0ojDoS5tM4ai-8wY5xH_klQguA4-soGoh06KKcze3009MmZvfK1PWarVtkmNzB2EDQw2sKXcYuKNct5rKfSh2RjInKqqXif45qMeGd_py2MgBsPbeezstrxKID7VZZeVylyNxXVm3JOsa4Q&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+        tags: ["Versailles", isEnglish ? "Palace" : "Saray", isEnglish ? "Royal" : "Kraliyet"],
+        placeNames: ["Palace of Versailles", "Gardens of Versailles", "Petit Trianon", "Grand Trianon", "Queen's Hamlet", "Hall of Mirrors"],
+        interests: ["Tarih", "Kültür", "Doğa"],
+        accentColor: const Color(0xFFF1C40F),
+        icon: Icons.castle,
+      ),
+      CuratedRoute(
+        id: "par_canal",
+        name: isEnglish ? "Canal Saint-Martin & Beyond" : "Canal Saint-Martin ve Ötesi",
+        description: isEnglish 
+          ? "The soul of hip Paris: Scenic canal walks, independent boutiques, street art and the best brunch spots"
+          : "Modern Paris'in ruhu: Manzaralı kanal yürüyüşleri, bağımsız butikler, sokak sanatı ve en iyi brunch mekanları.",
+        duration: isEnglish ? "5 hours" : "5 saat",
+        distance: "6 km",
+        difficulty: isEnglish ? "Easy" : "Kolay",
+        imageUrl: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHryHI6WqFcL8EyEu0a0etkiWntPvgfcK1jqoNLLijRM9sxt0xTbfO9LKsXxiarJAM1puQggj6E0Sl-fk4j8N0173DwP__ln_h1GgNwkFzAOwpA4lsNHpN2KtSPuAIAgd2zkUFneJ1gjNTakQs3wpIBj6CEdeyQeX_MhR4vkqQHwEZ0abkOYObmXP0YXDb_RRAMX7yIjKzninzju0r8u7BpOCenWLU9I87G36TeMmfbn2EaO_U_RBqsDlWbK32Ovimtvg4wZzEKRM59ekDnBY-WyW82ZoIAFvHN_3kZtGpNRFCksigRfLQg56u30YIcGuYl8OaDZtMu9-CJjYiKfh6sjM7MjgPAfI6MLXKpG1Z4jgxUht_WrnxumGYpBZH-YIKrEmAavznoznhMzb3tAVfGWXxRI1PacUg-IYjavozZ4JGagJlF4iR1E_W7sddYLI0Ht_7sIJkCpstjr0bemJLdwT_urrXZPmWmEpJHhW4ZawLsT4aO5PIZSDiuyPmCXwm3soig2OwlnbYSab86RokKw3PWyWe3SbE1BY2xP1m_DoKnh5D2ZbZTupan_FsHlzY9iwWs_&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+        tags: ["Canal", "Hipster", isEnglish ? "Local" : "Lokal"],
+        placeNames: ["Canal Saint-Martin", "Belleville", "Buttes-Chaumont Parkı", "Le Marais", "Place de la République", "Bassin de la Villette"],
+        interests: ["Kahve", "Lokal", "Fotoğraf"],
+        accentColor: const Color(0xFF16A085),
+        icon: Icons.local_cafe,
+      ),
+    ];
+  }
+
+  static List<CuratedRoute> _getRomeRoutes(bool isEnglish) {
+    return [
+      CuratedRoute(
+        id: "rom_ancient",
+        name: isEnglish ? "Ancient Imperial Wonders" : "Antik İmparatorluk Yolu",
+        description: isEnglish 
+          ? "Step back in time: The grandeur of the Colosseum, the ruins of the Roman Forum and the Palatine Hill"
+          : "Zamanda geriye gidin: Kolezyum'un ihtişamı, Roma Forumu kalıntıları ve Palatin Tepesi.",
+        duration: isEnglish ? "6 hours" : "6 saat",
+        distance: "6 km",
+        difficulty: isEnglish ? "Medium" : "Orta",
+        imageUrl: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHo96gXuPYb3jdt8-ezfbrVlorHzxIvPSWhaK0-Df1OYccxnzkdZGxlWejhDdDYs3XONuPTPddVQRgSr7d7IwNusCeX0q0ICTkqOtRvLn9fBI3DCuHAeJPQQtFjfOI_T5Rf7uvkclikXmOik62tIvbYvFWPUGjiH219ZHh6npwViRC4GSqrhnfeHYCdtABav_jSPPBNSBsfZ0v8aIa_LStQbirAOmr8UYGmYb2N4o8-NrZLcE33q4Zxm3lAjUxNxrBrCAd5u9cgSA8jOkraHiP9CJI4gDVSyeVpego7WpaI96Cl5D0vRqKNhDxkT1HF4KygsxzGI-_ZP-_zRrTmUjHKTrqjwLPnLEEsgNh1youQfDchrU5_XWNwiEYXloDNpgPqkRFTQQREFj3AXTVFLETFZvjtv_YO4atdDHK9INs_zTVxtRVM5B8La0U3CZS2uqYVTEx3RD-xf1CkcosyIW-VUalvoqhbCGWe1k5KxeEN8LoqH6cgn0Aeuub3Ujo45W4aqPeipYTieEbfWTQC2zoeHgfXA3yXaikSg_pRusK_TQJ-kT_OBhSrAsNb9deweMVtGuZLO&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+        tags: [isEnglish ? "Ancient" : "Antik", "Colosseum", "UNESCO"],
+        placeNames: ["Kolezyum", "Roma Forumu", "Palatin Tepesi", "Altare della Patria", "Largo di Torre Argentina", "Baths of Caracalla"],
+        interests: ["Tarih", "Kültür", "Fotoğraf"],
+        accentColor: const Color(0xFFD35400),
+        icon: Icons.account_balance,
+      ),
+      CuratedRoute(
+        id: "rom_vatican",
+        name: isEnglish ? "Vatican Masterpieces" : "Vatikan Başyapıtları",
+        description: isEnglish 
+          ? "The spiritual and artistic heart: From the Vatican Museums to the majestic St. Peter's Basilica"
+          : "Ruhani ve sanatsal kalp: Vatikan Müzeleri'nden görkemli San Pietro Bazilikası'na.",
+        duration: isEnglish ? "Full day" : "Tam gün",
+        distance: "5 km",
+        difficulty: isEnglish ? "Medium" : "Orta",
+        imageUrl: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHqHl8OXxf9QT-e2yX9NOq7qiqTtvYIMqQZeKkSBRo7_dFYvprq-Gt9-jArVJjVbBTteCjKLt5to_zc0iHwucJBF6bxCxJg5qdksFLtF-Qf3JrQ3-c7wEt6KyxAtIQEFsgUUyLlx-BHqo6X4fW371VQQw5oxYOKdZCK0eDSmtTigivxMeIKoXiDCDR6qtVw7bj5AsVvBdAoSvZN1iULEBoqpe8MC52Uc4MZi0iH2V7pwJWilCmloC83xWIpMNtPhFUYU8B-BDv8gnZ4lEE3y-HT4zDAiNgEQ65WK0EgP2pQhRJEKJc_K3EQ8ckCBvsAknbwdDf1sBzHiLLdmh-UeRxn2WM_hW2dJgBAL8mlFdfAceHaPy9FjYGQDCzUNzWC24kFghaBfZGD5TK9sfOi6hIvuxKPi_ts8-Vt-Y9LX0ah9EtB2bdxlLNXqVp6ztFX_vN8bkvTi_Bg80P1kvcIIWd4hIZLGyEBx-fq-RECBOOGz5KuWDrIZXPhhUtg2crsYvD-NhW4B_oyrGooyHK8xCqI_2n0e9_ycKAvtleq1vI9BP_Fe92NDo1PV73ShWy588ZCsP9LFNqHMRg&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+        tags: ["Vatican", isEnglish ? "Art" : "Sanat", "Holy"],
+        placeNames: ["Vatikan Müzeleri", "San Pietro Bazilikası", "Castel Sant'Angelo", "Borgo", "Villa Farnesina", "Janiculum Hill"],
+        interests: ["Sanat", "Tarih", "Kültür"],
+        accentColor: const Color(0xFF9C27B0),
+        icon: Icons.church,
+      ),
+      CuratedRoute(
+        id: "rom_trastevere",
+        name: isEnglish ? "Trastevere Bohemian Night" : "Trastevere Bohem Gecesi",
+        description: isEnglish 
+          ? "Rome's most charming neighborhood: Ivy-clad walls, vibrant plazas and authentic family-run trattorias"
+          : "Roma'nın en tılsımlı mahallesi: Sarmaşıklı duvarlar, canlı meydanlar ve otantik aile işletmeleri.",
+        duration: isEnglish ? "Evening" : "Akşam",
+        distance: "4 km",
+        difficulty: isEnglish ? "Easy" : "Kolay",
+        imageUrl: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHriShQSsHfrMFSFbJR9ZIoHBwp67i91ok2Dk3NIufjm7SvjuTucpJPwid5EKouOoFEdWG5AjUDJxfCVj9t82coXh9UPXNalAfwYxir6YxFRTuctIWOSpFsnOGwT8fCsi5-tvsrS8BbEGRapTtzYZHM4ijfCLmudINrnFUeSdqMuAvybQlRSI-tfPaCOc4FyVCRnijjYf88cIJj4wNWoDJfuMbDr5PGVS8N3a4tWMTxWWUHN98xufsdwcH-QaKFBEvckq0xDtVJK0tBuseK598JSJYzoAf2DRghKrIgVWfB7uX5JSddC84l3_uGPWdkpWFRgVm8OmdJIFO5lkwtY4AnnBOQXrOQz05Y1B4apfNwzaAnUPcXJLJgpagpO3AnDAYcs_nr62cu3RD_7hf_upad3pkCLgTm54dgDULcs3r01fCY8u6lCQBMQppETyFgEyicvQlF4YUI40utE1TfUKKl3ztQBFz5ZO2Y-dz4FYKuWsO1Qcvj4GHhGkEfq9pAt1SdXcjplawGwHP2OumvuNDyh2JA9MdY-la0IcQmZpSIu_gircwgUmAaOKSGJbKHkc8JQVdlR&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+        tags: ["Trastevere", isEnglish ? "Food" : "Yemek", isEnglish ? "Nightlife" : "Gece Hayatı"],
+        placeNames: ["Trastevere", "Basilica di Santa Maria", "Piazza Trilussa", "Da Enzo", "Supplì Roma", "Vicolo del Moro"],
+        interests: ["Yemek", "Gece Hayatı", "Lokal"],
+        accentColor: const Color(0xFFE74C3C),
+        icon: Icons.nightlife,
+      ),
+      CuratedRoute(
+        id: "rom_food",
+        name: isEnglish ? "Gourmet Roman Flavours" : "Roma Gurme Lezzetler",
+        description: isEnglish 
+          ? "Taste the best of Rome: Authentic carbonara, golden supplì and the freshest market finds"
+          : "Roma'nın en iyilerini tadın: Gerçek carbonara, altın supplì ve en taze pazar keşifleri.",
+        duration: isEnglish ? "5 hours" : "5 saat",
+        distance: "4.5 km",
+        difficulty: isEnglish ? "Easy" : "Kolay",
+        imageUrl: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHpaE4QR_t0r3HFts_dhgzH9Cnhqihe3J9wZPoY5OxDiwio8Kc62zcwumO50-USSPRDfAK2SqeHiuH-QdT4kHGlR78fcZn-Q5aFJNXc_K0Ck-XNnkPDyyUdbaMW8NjyAW0mHs0chYuTotoO20lb5km5De5VMDjZS3auwa_QC-TjoIu4RoKhGukZRAS0lu2bubIwZPaB7t8VFurDFIzpz6RkxeQeIyIcaSpPXvAyMYbH3KrHHgsWC0TDV283lWQtAOASSIAlDwKrkjxHB8LZrZsR0NUD-9DUQpjmdlFLKAuh3jDH43u8&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+        tags: ["Carbonara", "Supplì", isEnglish ? "Gourmet" : "Gurme"],
+        placeNames: ["Mercato di Testaccio", "Roscioli", "Campo de' Fiori", "Da Enzo", "Mordi e Vai", "Supplì Roma"],
+        interests: ["Yemek", "Lokal"],
+        accentColor: const Color(0xFFF39C12),
+        icon: Icons.restaurant,
+      ),
+      CuratedRoute(
+        id: "rom_baroque",
+        name: isEnglish ? "Baroque Squares & Fountains" : "Barok Meydanlar & Çeşmeler",
+        description: isEnglish 
+          ? "Rome's living museum: Masterpieces by Bernini, the Pantheon and the legendary Trevi Fountain"
+          : "Roma'nın yaşayan müzesi: Bernini'nin başyapıtları, Pantheon ve efsanevi Trevi Çeşmesi.",
+        duration: isEnglish ? "5 hours" : "5 saat",
+        distance: "4.5 km",
+        difficulty: isEnglish ? "Easy" : "Kolay",
+        imageUrl: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHrBo5EW0Joit2JFqrkt-8x-PjxTYrDO3LFpPzbWixVu_w0u3Bz_lEAW_RP_fOmAsrkyhzaisfOdEDodWMbhXUQ-L_PbHm6P-rIClEGiVn5kTQYlsgHBKvWvmbNEZfQOzXjiQfODnjbu4ciyvJ-17t8QNKdNGVOkmsl9WBTP44m6t4KjMu2FRZWTRMhsEzw4yhqg3QwQUw16p5Fn1i3hRroUab_vtHUDDYh77XxfNJkATXavX0jzphY4ncbxsD79czr-m-mAoiRRbNx36ioKoypT5vDycNVxdSeRgKKxflWGItAN5VtzmTJlsj5BjVESZKfVvpLUmPllIb75knAnXDoZQNsrzENI21IDNXXs4XE66-KDErqbIWruLaJkQZpcSx-NL2vfzoFxymDRlBUHBFhKu5BCQV-9rxRr5ZpRqrxI8y7yIAj-Ub0VuOqOSTSoHIbBa07mNxnd3kjS1RhBv5g8sidykT-49i0S7emPFFmZpClIiDqF2Y9eZ9fOmwljfyG-Xzt2ktrVVcCr-aqah-cEiQQOwrBPIWYUKXczZvgc8LP0fYsrAJT9DCEKhvByN3h9Qi_KRSyLMzJpArXScGOjv7E&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+        tags: ["Trevi", isEnglish ? "Baroque" : "Barok", isEnglish ? "Squares" : "Meydanlar"],
+        placeNames: ["Trevi Çeşmesi", "Pantheon", "Piazza Navona", "İspanyol Merdivenleri", "Piazza del Popolo", "Piazza Venezia"],
+        interests: ["Tarih", "Fotoğraf", "Romantik"],
+        accentColor: const Color(0xFF3498DB),
+        icon: Icons.view_quilt,
+      ),
+      CuratedRoute(
+        id: "rom_gelato",
+        name: isEnglish ? "Artisanal Gelato Trail" : "Artizan Dondurma Yolu",
+        description: isEnglish 
+          ? "A sweet journey through Rome: From the oldest legendary gelaterias to modern experimental flavours"
+          : "Roma genelinde tatlı bir yolculuk: En eski efsanevi dondurmacılardan modern deneysel lezzetlere.",
+        duration: isEnglish ? "3-4 hours" : "3-4 saat",
+        distance: "5 km",
+        difficulty: isEnglish ? "Easy" : "Kolay",
+        imageUrl: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHrI_nP1643cRmDnPCHspJF8WSrBoZ3W64KxPUo_RRQqMf_pZdqQAqiIZxSTsdkb6QmVZd42AyrtoTIF9NFon45wvxSL_wo2rQR9evC9PFEUG9MlaxgVI-WwDt-gHPJzC9T-XFcQfFtP7vQvCMOfxkgmW2uAuXnH4I9btSOtotmDT2ZyS26Rrg08kInOiaTPnVbJjL8TqhRMXo6eK5zSxkQZdBvfU6W4cvFoabaxvLsO63UChddip9gn-aQcvvH7m80JxbB5NxoBXVdzKrDKMHlHHbWPz02MrGj3d38jkCM2hlJauLg&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+        tags: ["Gelato", isEnglish ? "Sweet" : "Tatlı", isEnglish ? "Artisanal" : "Artizan"],
+        placeNames: ["Giolitti", "Frigidarium", "Fatamorgana", "Gelateria del Teatro", "Old Bridge Gelateria", "Come il Latte"],
+        interests: ["Yemek", "Lokal", "Kültür"],
+        accentColor: const Color(0xFFE91E63),
+        icon: Icons.icecream,
+      ),
+      CuratedRoute(
+        id: "rom_views",
+        name: isEnglish ? "Eternal City Horizons" : "Ebedi Şehir Ufukları",
+        description: isEnglish 
+          ? "Rome's most stunning panoramas: From secret keyholes to historic hills at sunset"
+          : "Roma'nın en etkileyici panoramaları: Gizli anahtar deliklerinden tarihi tepelere gün batımı.",
+        duration: isEnglish ? "5 hours" : "5 saat",
+        distance: "8 km",
+        difficulty: isEnglish ? "Medium" : "Orta",
+        imageUrl: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHqVwkWxoGHewyXU3Tw2o9k1B9oXv-SuBqBA9mUX_OcTry81L8-EGq5fl6I8jEKC4Pa8V_oL-CDoJy6YChY7KVU3IVTtYGFqW2BNVvKmTqA_YFVtK0PueMoqXzXotKJ0__BGijF3I_kGQMMH8zNYjTNCHh2pEAuNu9te2rSNfpsFog2KoiQGtS-HC5l07K6TSJOhmrDWtFLa_twsB9BQNIdYcFtmsPib6jWL6Rr6N4fDgg-NHvdK8tdlBcuGzFzICh2aWExtGCcs_hD4eUKOy8cqNM9jfkP0rDuLlpD3Z1Vyp2avw8ZktWf0Asb98dZDwfY5UE3aVsArHScgmauv2mYl9gKbh4646VbIWRhx6-l5Qc-8ag3ukEexByQGmxLjrBbA66anm92nq5MPROpg_yFJKylQGLdhX0cCAZDenNx9vcCOFKDgBuGruJOOFN2kZX2OV0maYBzZjiD-RqVmlgZpRoO9da6119ZVeEfuqsJ1cbJYcaW2zaCwOWGcHIzzamQKaK19PfRE3MocC_4nBhAYUBJ7zE1o86yUYJNKJo8Gord9AtU-6HtuEATMQccruYsfpaXT_sSMxw&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+        tags: [isEnglish ? "Views" : "Manzara", isEnglish ? "Hills" : "Tepeler", "Sunset"],
+        placeNames: ["Aventine Hill Keyhole", "Giardino degli Aranci", "Pincio Terrace", "Gianicolo Hill", "Villa Borghese", "Altare della Patria"],
+        interests: ["Manzara", "Fotoğraf", "Doğa"],
+        accentColor: const Color(0xFF27AE60),
+        icon: Icons.landscape,
+      ),
+      CuratedRoute(
+        id: "rom_aperitivo",
+        name: isEnglish ? "Aperitivo Hour & Views" : "Aperitivo Saati & Manzaralar",
+        description: isEnglish 
+          ? "Experience the Roman lifestyle: Sunset drinks on the city's best rooftops and historic squares"
+          : "Roma yaşam tarzını deneyimleyin: Şehrin en iyi teraslarında ve tarihi meydanlarında gün batımı içecekleri.",
+        duration: isEnglish ? "Evening" : "Akşam",
+        distance: "4 km",
+        difficulty: isEnglish ? "Easy" : "Kolay",
+        imageUrl: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHoyVfAeQXsSSv_Z_VQd4XQ3NpPDwkxNWFU5tpOjx5deOQa_HOkJQX2BQNkq2jPEr46zzeuqXzoFez3T9t9tYfmRi_yG07lMykSz8Aanf3lF4NAwQVbkmd69Rf-qF2a3MAynzSRKmSUjwGQ0X5Q6THZPfkoEWX59n1u-dzZpHDuQdtRGMm766zO7mSotzlzwW9wd0FI4VbQd2PEdR4ZyfSc7XrHzgRCqjsqqHlS66ekMQiaGocyu506wYyWwCUCUEY1uI7xdCfZTgkfZMnvwt6XqiRcVfwWNokaXdm_9e6Th2afVSCVRT1gFxkz_QVkrIjcMJcJIpgf7t23rmj-O7wEHQybwX9bAzdgHxpsb_61j0nqgNFyxVqFTzaC_ZCYUBjhBQKTZ9G9qAeQHey4IdCGd4c2FaOwvZjJCbmqaZlqdvpSX5lKgnKrr081XWl8qcGhu1PiF7H2TFA0ijhmOPv3-bO_4kBqftSsAbBO0wQma6TB0PUKrL3HkUHDhS4Gg5-XPlfVulfTokCbbsyXF1qYtsQ-snqzI4cy3-Jg9HXXCP338p3SYwafhpoyNl7ydsAbtdQ&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+        tags: ["Aperitivo", isEnglish ? "Rooftop" : "Teras", isEnglish ? "Social" : "Sosyal"],
+        placeNames: ["Hotel Raphael Terrace", "Salotto 42", "Etablì", "Terrazza Borromini", "Freni e Frizioni", "Jerry Thomas Speakeasy"],
+        interests: ["Gece Hayatı", "Yemek", "Romantik"],
+        accentColor: const Color(0xFF8E44AD),
+        icon: Icons.local_bar,
+      ),
+      CuratedRoute(
+        id: "rom_jewish",
+        name: isEnglish ? "Jewish Ghetto Heritage" : "Yahudi Mahallesi Mirası",
+        description: isEnglish 
+          ? "Uncover one of Rome's oldest districts: Historic ruins, profound history and the best artichokes in town"
+          : "Roma'nın en eski bölgelerinden birini keşfedin: Tarihi kalıntılar, derin bir geçmiş ve şehirdeki en iyi enginarlar.",
+        duration: isEnglish ? "4-5 hours" : "4-5 saat",
+        distance: "3.5 km",
+        difficulty: isEnglish ? "Easy" : "Kolay",
+        imageUrl: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHqPlkktVktRCVqxTv42PYHh85jm9a4binMgwLftsfHj0Q2uTVygCJNTZuP1TNn-CNseajmkI4Bq4ibagiikgnvnKp1D82LMhUaGwU8Bvpdbb8IeF6miISrLllkvH_jQeCjxRGccViShSb01jKAADYGRGrr0Us2vFPpmNfaN9ukEDlEGZqk0rlIjZIqOkUkNT2nwh3JpCPZDGsuEveXx3Q-shv6tyVZxeVyT19mEpCg0NX7xt9NrIO930JyDE77sC4o_1DX1qQmLN5-OxmrD2eXnM1shIASP5XHPlMrAww7BUSD_wJhVq3Et57p3KrOj0JgqVpwjiAKpFxZcX8_25g5wXQygod1uAwGNIrryqSGzlytS2_7w1DOKMg_WKZ1dOGHDhwwhI4znNY2wwPfS4Q0pE_SZSYx9UCikI--AMqA6kdZ5vKf5NrVqgGTNdXPj&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+        tags: [isEnglish ? "Historical" : "Tarihi", isEnglish ? "Food" : "Yemek", isEnglish ? "Ghetto" : "Ghetto"],
+        placeNames: ["Portico d'Ottavia", "Great Synagogue", "Nonna Betta", "Turtle Fountain", "Theatre of Marcellus", "Campo de' Fiori"],
+        interests: ["Tarih", "Yemek", "Kültür"],
+        accentColor: const Color(0xFF795548),
+        icon: Icons.synagogue,
+      ),
+      CuratedRoute(
+        id: "rom_morning",
+        name: isEnglish ? "Early Bird's Rome" : "Erken Kuş Roma Turu",
+        description: isEnglish 
+          ? "Beat the crowds: Discover Rome's most famous monuments in the soft morning light and quiet streets"
+          : "Kalabalıklardan korunun: Roma'nın en ünlü anıtlarını yumuşak sabah ışığında ve sessiz sokaklarda keşfedin.",
+        duration: isEnglish ? "4-5 hours" : "4-5 saat",
+        distance: "6 km",
+        difficulty: isEnglish ? "Easy" : "Kolay",
+        imageUrl: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHrBo5EW0Joit2JFqrkt-8x-PjxTYrDO3LFpPzbWixVu_w0u3Bz_lEAW_RP_fOmAsrkyhzaisfOdEDodWMbhXUQ-L_PbHm6P-rIClEGiVn5kTQYlsgHBKvWvmbNEZfQOzXjiQfODnjbu4ciyvJ-17t8QNKdNGVOkmsl9WBTP44m6t4KjMu2FRZWTRMhsEzw4yhqg3QwQUw16p5Fn1i3hRroUab_vtHUDDYh77XxfNJkATXavX0jzphY4ncbxsD79czr-m-mAoiRRbNx36ioKoypT5vDycNVxdSeRgKKxflWGItAN5VtzmTJlsj5BjVESZKfVvpLUmPllIb75knAnXDoZQNsrzENI21IDNXXs4XE66-KDErqbIWruLaJkQZpcSx-NL2vfzoFxymDRlBUHBFhKu5BCQV-9rxRr5ZpRqrxI8y7yIAj-Ub0VuOqOSTSoHIbBa07mNxnd3kjS1RhBv5g8sidykT-49i0S7emPFFmZpClIiDqF2Y9eZ9fOmwljfyG-Xzt2ktrVVcCr-aqah-cEiQQOwrBPIWYUKXczZvgc8LP0fYsrAJT9DCEKhvByN3h9Qi_KRSyLMzJpArXScGOjv7E&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+        tags: [isEnglish ? "Early" : "Erken", isEnglish ? "Quiet" : "Sakin", isEnglish ? "Iconic" : "İkonik"],
+        placeNames: ["Trevi Çeşmesi", "Pantheon", "Piazza Navona", "İspanyol Merdivenleri", "Piazza del Popolo", "Castel Sant'Angelo"],
+        interests: ["Fotoğraf", "Turist", "Sakinlik"],
+        accentColor: const Color(0xFFFF9800),
+        icon: Icons.wb_sunny,
+      ),
+    ];
+  }
+  static List<CuratedRoute> _getLondonRoutes(bool isEnglish) {
+    return [
+      CuratedRoute(
+        id: "lon_royal",
+        name: isEnglish ? "Royal London Walk" : "Kraliyet Londra Turu",
+        description: isEnglish ? "Buckingham, Westminster, Big Ben" : "Buckingham Sarayı, Westminster ve Big Ben.",
+        duration: isEnglish ? "5 hours" : "5 saat",
+        distance: "5 km",
+        difficulty: isEnglish ? "Easy" : "Kolay",
+        imageUrl: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHoh0hkYZ6iakVnhc7QkMe1681Tn8Qt9RdDF0sHAAZrwn9VsbqKmRRa7ORRjIVqdMFxqKsTdMcegyBYJX0DAsATAytFDY1mKP7D_wv4VPLauDHV-kyMy-8E2vVYLaH8jnFhnOXadvvZZ-ASFrTrxUx3RPW8vre2xCtsbwaJgOqGok4CN_OaOeMzlbQH70IqAvBzrMnDXoRlY6lWRf1vR3LHId1NUcjzkk61NA-lePagecnSr6G2xjHeSpqwfzIGMVgL8kR1vWCuPK_9F5O2GMmExnuJxMLAHwAtx2-JqYqQ4kBL9aq7P8LsdtxQ1wVq3zicvLyUntkTq0FF7q2VEzLdLmeqxfAG_nojfhcdN4ejHXxmaWBp3UaJsVUp8bHIhHPzDgY6gljBwZInI1ZaLmNXChTAk-nqnAi_6LD-LOltfSlrlDB9LSNyn0Q2DqcnWFFtXgC0vCDhkC8zrrIRTLqK-Orl2gIyBjW0oBOIhTUHrTtxroW-DyhFWus0s046bi5eC4siObqWen9xrDMt1e_iwTBouhHpkiFqLZHSPfadmD2Yqz2nnl58NcHSONq2omGsaF490B38PAg&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+        tags: [isEnglish ? "Royal" : "Kraliyet", "Big Ben", isEnglish ? "Must See" : "Görülmeli"],
+        placeNames: ["Buckingham Palace", "Big Ben & Westminster", "Tower Bridge", "Hyde Park"],
+        interests: ["Tarih", "Fotoğraf", "Turist"],
+        accentColor: WanderlustColors.accent,
+        icon: Icons.account_balance,
+      ),
+      CuratedRoute(
+        id: "lon_museums",
+        name: isEnglish ? "Free Museum Day" : "Ücretsiz Müze Günü",
+        description: isEnglish ? "British Museum, Tate, V&A - all free!" : "British Museum, Tate, V&A - hepsi ücretsiz!",
+        duration: isEnglish ? "Full day" : "Tam gün",
+        distance: "6 km",
+        difficulty: isEnglish ? "Easy" : "Kolay",
+        imageUrl: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHrWOafBf5sVNOQks6xlgn-QRImmlVnsrWIaYu-K96xEAuijT9Hlct9TqPalf6qROfPDXbRsOgRUINCJyyBzIXq5LdCpzTM4zclR00eGcy8ND0PdOyyb8WtnMEUdp6syHzLSWPhFkwZAn_XlTmOWyR3vqJZHFDiB6kJO9LcAOAZFJC5V6PyEnuSsPS0az0EWqWU3_nsE_HHkqSFoCxMhWuf5T5t_sVTYbqujzp-gkxJA8ve38vF3d5__MII31h86ia0OozoMtcsXzaQBBOzvWWvWxnwABhIPZF7-HFCDfkT3_2-W8wo&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+        tags: [isEnglish ? "Museums" : "Müzeler", isEnglish ? "Free" : "Ücretsiz", isEnglish ? "Art" : "Sanat"],
+        placeNames: ["British Museum", "Natural History Museum", "V&A Museum", "Tate Modern"],
+        interests: ["Sanat", "Tarih", "Kültür"],
+        accentColor: const Color(0xFF3498DB),
+        icon: Icons.museum,
+      ),
+      CuratedRoute(
+        id: "lon_eastend",
+        name: isEnglish ? "East End Street Art" : "East End Sokak Sanatı",
+        description: isEnglish ? "Shoreditch graffiti, Brick Lane curry" : "Shoreditch graffitileri, Brick Lane köri sokağı.",
+        duration: isEnglish ? "4 hours" : "4 saat",
+        distance: "3 km",
+        difficulty: isEnglish ? "Easy" : "Kolay",
+        imageUrl: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHql28GN7vjZfUL-q18NmblFhFAkU9194m58CReA68zYLpwQ7nRhwbOm_ULahrklwqcYHvxoOh3mZUYKyeX0LYcSgxGiMr7VGIm9jPcABsLrdufe1BX7yBiieb8ZDNsr4eeF8r4VKgiiQ5B1MdH7-1aqqHHHZWsfcE72aFR6zXbt8MkdwSxEJ8f7ZPVzctSzc9vFWtBG_OYUa2Lpa2Px6vXdYlwXm5lXk_rK-QqsOn3kh2r9kxMsb9SYcvQCmJjI0mbg9Nn65rSYpVswkvNuEVu3yNFerEt2ui5xAmC2RktZrsbEqqv8bQNWknro0EihwCjY9PdzXU3iSR-cg_5IRvxB_2mkeRU-m7_un1BjTEWDR4kFBIdSdRbDj0Ut1hg800qxT37pWXpuq-SvZ6xQpN2VPtWNAYq9y1BLk-BvawtSNJeVPsHPH9Gv3U9rwGBXRu808r4So60HHlpZUcabGgaioabXzeqW639yGrzKTSLytYzezEhpWp0i3KScMgmsxnIlu3CxuMkbR4Sx-nrNhNL4DAxugvhDL_uKNKw5nfY2Rls9F58nUfkVj8PuQomUgByo0xadyHfyZAEkeFKrsIY1VsI70Q&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+        tags: [isEnglish ? "Street Art" : "Sokak Sanatı", "Shoreditch", "Curry"],
+        placeNames: ["Brick Lane", "Shoreditch", "Borough Market"],
+        interests: ["Sanat", "Yemek", "Lokal"],
+        accentColor: const Color(0xFFE91E63),
+        icon: Icons.brush,
+      ),
+      CuratedRoute(
+        id: "lon_southbank",
+        name: isEnglish ? "South Bank Culture" : "South Bank Kültür Rotası",
+        description: isEnglish ? "Thames walk, Tate, Shakespeare's Globe" : "Thames yürüyüşü, Tate Modern, Shakespeare's Globe.",
+        duration: isEnglish ? "4-5 hours" : "4-5 saat",
+        distance: "4 km",
+        difficulty: isEnglish ? "Easy" : "Kolay",
+        imageUrl: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHroie_jEex98PG9mmR-NpDNZ_iEadNeM85Dx_MGxWOcG88eVdaUMg2OkbK8_gGg37AZ6W1Csf7N6e2lUQly0U4cGiQTl7DowjmoVBFF0ayERvaggFkC9iQ6z-j1GClxY92a3rosSZcSYg2qZsmTCG0LczqxZ7grE1Guxbx4MZiou5u5DsV10hrxOIcrWCgx0M7kL8bpTq1hCaP9aPGnodrfV5nrgiuimRsNqdJp5hlld7AhDGsJLeYqSNut4PMeqOeIXR5wXmmoZ_Nyruy7Eg9v83H8va-0X2HWw0uzmJ5-14znxD-oPoptJiF2EgTM-0DtdEslwibzUTbjgJBbdFC2vs0OBNIFlkj9xkEryEX6poVdEi1fHSHtbbmGpyhTQIfl59L4wQ6_SoKK47QjrnZsNVoHhOXDoPC-hb5jH5H801EO_xBdylxvOiU9HCry0CJ6TRW14C8iHTw9Z1so_2S-2lt5dvocpDdY4QUqtnAv16BOIGNKJyxZtf0UKePcpTA7IEgJ5uBeVVdcQ6vb5eHzb5rSfPui2vaDrBK-FRLFpSiMlSIjAKlE5mLSd3AEs1fY-TZe&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+        tags: ["Thames", "Tate", "Shakespeare"],
+        placeNames: ["Tate Modern", "Borough Market", "Tower Bridge", "St. Paul's Cathedral"],
+        interests: ["Sanat", "Kültür", "Yemek"],
+        accentColor: const Color(0xFF9B59B6),
+        icon: Icons.theater_comedy,
+      ),
+      CuratedRoute(
+        id: "lon_food",
+        name: isEnglish ? "Borough & Beyond" : "Borough Market Turu",
+        description: isEnglish ? "Best food market and Sunday roast pubs" : "En iyi yemek pazarı ve Pazar rostosu pubları.",
+        duration: isEnglish ? "4 hours" : "4 saat",
+        distance: "3 km",
+        difficulty: isEnglish ? "Easy" : "Kolay",
+        imageUrl: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHq9ViOrAGMppyMHD21AIW7TJj7coxBCbqKYeqgKWEi6EVZC25G09hNde6GxKwuLR59SNjrQKZnNn0gHZyyHvZZGUtqZQxgCFKYgI_hdWl_40S5apnppMgr0CYniWB7Y0eUfvOMmdCn3cRKoYU-DwoCXXQHFwjX4CnhyZWbwssoQTezGhn4j8gfBqWySJrJveuwUeuwoNOH9U79x6vmsnk7roIjlm8cpTmiYJCKUYazuifsvIJ0dgIbx35-WCl3WO3aPsjXMTVT_qImt4mjeAbZTptY7LRDD4ctiIThI6wwOHtwQOjx_hb85nDUh9R1tYYF5rKZtQztYBE4F2yydRVM9z64UTA70ncCgWYtXPP7JjudZMCZNB_nVfSLCsM5_3ZS6gEkjZeqQtBR7_CEMsxIwyz6Z6iNe8HeLN496FxZZqMS-9bE1ADtFfeQ4vtraog4mL8V1EtjDS-5o7GzilLoFQjpV-ftesSsj_fVHUIlI_jWVgs5yA2zjEu8oruySK9DiZC_LVgQI6T3n-TtoI-L3cG3P1XiXqa4kK3oj-yuEETm0vrIogEQJRpTzNk6jsyJdcruc&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+        tags: [isEnglish ? "Food" : "Yemek", "Borough", isEnglish ? "Pub" : "Pub"],
+        placeNames: ["Borough Market", "Maltby Street Market", "The George Inn"],
+        interests: ["Yemek", "Lokal"],
+        accentColor: const Color(0xFFE74C3C),
+        icon: Icons.restaurant,
+      ),
+      CuratedRoute(
+        id: "lon_notting",
+        name: isEnglish ? "Notting Hill Colors" : "Notting Hill Renkleri",
+        description: isEnglish ? "Pastel houses, Portobello Market" : "Pastel evler, Portobello Pazarı.",
+        duration: isEnglish ? "3-4 hours" : "3-4 saat",
+        distance: "3 km",
+        difficulty: isEnglish ? "Easy" : "Kolay",
+        imageUrl: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHpe5JrWGFKA13p-MrB_RB3N6QSN-GGxqcWTOr_MRvNZKJO2f3Amx7GZuLtvny7zohuFG3iBF0-idlT3HQm5hpuPa3u7uR6iQEDopndCZ8ITV8jEgwfihqAA0KA0mVN8KZPG1SO1AoRFaT6Yk23y2NB2AR-u9PWZG5tNzUJcmoyz_LDoyIhc72AVk9Of-l0sCgjrsRNDIifnsJcZGg440mggrQbmcBE8hjo5gREmjPn4p3WtX-JviBuItsBoaGlym9N--BBBLunSxiwL7K3GFQ0EQglwfmJWQJ5P8dkk52oFlSiUkjX7H5eU1wBM-Ji3Q2RjO0kUvQ09gXevKwKmmUXJr-mTDdW7hgyRUFQh7XmtGDV4kIFJnghjFTZ91QqR6PPAaX_koyM2CJnYn6mFqoMFsINwHnjykfmyFx6hoHe-E358Lf3CfAuXc0r2NNwjZJFNJL3efVmrDwdMjr_i_CR2XNcSLabSlcrJOLB9uNR_Nrqvr_MTDeiaD2yoVLAi3ShoOv9dw_BC5zPkWA5EJ0bwjbTcsLknmJhiktI7-0z5Ry4TEkAx7K11O6kTK1PUlac5_YWsMZGcOA&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+        tags: ["Notting Hill", "Portobello", isEnglish ? "Vintage" : "Vintage"],
+        placeNames: ["Portobello Road Market", "Notting Hill", "Hyde Park"],
+        interests: ["Fotoğraf", "Alışveriş", "Romantik"],
+        accentColor: const Color(0xFF1ABC9C),
+        icon: Icons.home,
+      ),
+      CuratedRoute(
+        id: "lon_pubs",
+        name: isEnglish ? "Historic Pub Crawl" : "Tarihi Pub Turu",
+        description: isEnglish ? "Oldest and quirkiest pubs in London" : "Londra'nın en eski ve ilginç pubları.",
+        duration: isEnglish ? "Evening" : "Akşam",
+        distance: "4 km",
+        difficulty: isEnglish ? "Easy" : "Kolay",
+        imageUrl: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHpDuf-q79zDwCm2JPDrt1hSvGAts1nBEFXSePxqV1wjA6W_6lzSeOk9eHRyiVidX7TEJZEBFpvmmKwLmmWoR_Y5UCgmXzrtk2YfmW5C-s2LilEEhZ869cGKGe9r4LOLswNbSm2h6LBLkzT6ea0hUg8E57OrbQxaexuN1R8N2Ne21o4nu_6yOVOA7xkkVO99PoFD2ZY6iQLYpc5EBlWOZICNIt_QbxmLbDQDi9ddF2sXRM0tDk0EgtQByA1gEka5mTymoHqHq3YvoGlEV-rpHsG0ngGRDvRHnOteEcmEbSB9BDugphg&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+        tags: ["Pub", isEnglish ? "Historic" : "Tarihi", isEnglish ? "Beer" : "Bira"],
+        placeNames: ["Ye Olde Cheshire Cheese", "The Lamb and Flag", "Gordon's Wine Bar"],
+        interests: ["Gece Hayatı", "Tarih", "Lokal"],
+        accentColor: const Color(0xFF8E44AD),
+        icon: Icons.sports_bar,
+      ),
+      CuratedRoute(
+        id: "lon_parks",
+        name: isEnglish ? "Royal Parks Escape" : "Kraliyet Parkları",
+        description: isEnglish ? "Hyde Park, Kensington Gardens, picnic spots" : "Hyde Park, Kensington Bahçeleri, piknik noktaları.",
+        duration: isEnglish ? "4 hours" : "4 saat",
+        distance: "5 km",
+        difficulty: isEnglish ? "Easy" : "Kolay",
+        imageUrl: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHqpxtRPrdZvoR0-v-rNkVZRomkrjqP9vtPkMoj5ddAK2VOVIUBW5x0lMbTwxEcPezSpWBynLdDqnlwbR_j9FKgDkH-_2nt9igSLtZkuPFtjZOFdW8K6Os0eW4C0anoeynVC4SXu4FE52g9vbX46iviVpsCZw7vWnVbISxE6HqRVOLGUc6GlkIuRmMyQXiUCt4Mvn30otSq5XedNSv-iE0wsSj6Mq-CtHbq0jK2a24Dcri_86qTr0HrTdaaqPCotHn-qAS0bsYsHRekaIGQhjwJKUwTfLuDqU_QONVsvxfh7uMpW3XWWDzjNTKUMe5QolKpJT-xnlvkh5XPISAajmUv6D8XzXQbcjbYF7_8K94VKzjQaLp-TWgq0D7oBamEPiluGSQJj1qTl_WbZTaLF0WGYJHJh17mfqJxiVLN6fmeZMdw-sXeR-b2cXzZDQfuAZqF87_YCu-KeIWxn7DH06-LpTgoqSF7k3nXUMGZ50tMEfZ8wL9pZwDedA2-T6WDDUBi4qO9p0EidqQHJ3vyjPhdIRl3w_pdvQgPoxOK5HENFLu-4mMeJeN_RYYyWxslq_gx0mvMbq2fstQ&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+        tags: [isEnglish ? "Parks" : "Parklar", isEnglish ? "Nature" : "Doğa", isEnglish ? "Picnic" : "Piknik"],
+        placeNames: ["Hyde Park", "Notting Hill", "Regent's Park"],
+        interests: ["Doğa", "Romantik", "Bisiklet"],
+        accentColor: const Color(0xFF27AE60),
+        icon: Icons.park,
+      ),
+      CuratedRoute(
+        id: "lon_views",
+        name: isEnglish ? "Free Viewpoints" : "Ücretsiz Manzara Noktaları",
+        description: isEnglish ? "Sky Garden, Tate roof, Primrose Hill" : "Sky Garden, Tate çatısı, Primrose Hill.",
+        duration: isEnglish ? "4 hours" : "4 saat",
+        distance: "Varies",
+        difficulty: isEnglish ? "Easy" : "Kolay",
+        imageUrl: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHqBEEeBWsMd5jWUzLXZYqlKw3LpEliqoaTYvsW-MKhVZsU2CpPj2uNRuvndtMqlOHwZPai7nojGOtVdWFFNY9xlO2vAIDwM1JN-psd_DynpIPeYcbI_hzDobaVTmWH5KbPW5igolKHQao58lHklVr6QJs7fsCgL-_ieb9E-2jqOBBR-05bKvnEenBhDkkXq7LncZDcWGf0pFLFoKrj6GeNYmOToi9uGCcEuN3W-NgMJ9RBkX1I-eb9JsGVoLy5t6n43WMJt-zM8gPBOn5FfN9fRRmvXHpOtfWhZ_U7z1yOeeNm418BuTednBklFrqGSMIw6Fwn1kdCRghL9msEZ4fwAtERy4pa_8wRCCacYxVdNtuyg84q594I_PxQVb0x2Cvi3-s1cdMg0hzu9ENqCtbKGTUXT1tqENr5W2lh2qTuyUHxrhs2acG0sQs9kLl9G2cZhJ7IDr9NwvaTXSfVP3fpberJjPkGGZgrRC3ZF9yuqO6o-zxFrR-r_3S8n9JGPO2GqcUtWDkk9Zc0ZfwD9pJr-H_IbFmsVI9o4MZEVF08xovuvXEcGLltUcMxtd3Q28pSxTNk7mAtWuw&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+        tags: [isEnglish ? "Views" : "Manzara", isEnglish ? "Free" : "Ücretsiz", isEnglish ? "Photo" : "Fotoğraf"],
+        placeNames: ["Sky Garden", "Tate Modern", "Tower Bridge"],
+        interests: ["Manzara", "Fotoğraf"],
+        accentColor: const Color(0xFFFF9800),
+        icon: Icons.landscape,
+      ),
+      CuratedRoute(
+        id: "lon_camden",
+        name: isEnglish ? "Camden Alternative" : "Camden Alternatif Rota",
+        description: isEnglish ? "Markets, music venues and canal walks" : "Pazarlar, müzik mekanları ve kanal yürüyüşü.",
+        duration: isEnglish ? "4 hours" : "4 saat",
+        distance: "3 km",
+        difficulty: isEnglish ? "Easy" : "Kolay",
+        imageUrl: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHrwviyTwPcfpyU1W_AyPWnz1Y_u5Tw-xexpTCc6NSJlgGkswgigkafje_PeX5wDCslrXdFwio8-zWBnlcY4-v6SNILBL1CfUS_nut2UZbfOHSMqDBrIEoDO0cErKkI8EQLbosIM1ho-rnwhxHugGpPHQ9t6LA51EdEpg7TOStEpulshlmpt7fg4RHdu5PHtFob5XnVyUjagKHfONt1SVYaQ-p2028Hv8lrrf0QzYvOfR1IfdHeOVo6k9mA27CxOKSEl8GOEgCSqsAWWlepmfxlNTf3OOtCdEMFFWZ18nz4ZBis-sG_UIn43k6XJWAoutwARr3nVmIqBYbhWMfcK1LvtsL8PVtSecvegqEZRuPWnmPAjwCa-BpOX-XtFM604O8hItWg-smZF0N7Yk5Tlq-q8xYZW0ESxvMHQ6y8JcUltPoOBokBZ2t743bE1QVz1nu5luVPI0URh5WJC-bCM9x2REHungq7VVZ8ErwGK7eqrxYTQmNyOGmh31QTU544OWbwpPBGXixGRk2rTzFTT7T3TYS4F8WY0J23Jdg7inV13hJgqIZjuMEJpluPqKh-hV8X9mUgE&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+        tags: ["Camden", isEnglish ? "Music" : "Müzik", isEnglish ? "Markets" : "Pazarlar"],
+        placeNames: ["Camden Market", "Shoreditch", "Brick Lane"],
+        interests: ["Alışveriş", "Lokal", "Müzik"],
+        accentColor: const Color(0xFFD35400),
+        icon: Icons.music_note,
+      ),
+    ];
+  }
+
+  static List<CuratedRoute> _getBerlinRoutes(bool isEnglish) {
+    return [
+      CuratedRoute(
+        id: "ber_history",
+        name: isEnglish ? "Cold War Berlin" : "Soğuk Savaş Berlini",
+        description: isEnglish ? "Wall, Checkpoint Charlie, Topography of Terror and more history" : "Duvar, Checkpoint Charlie, Terör Topografyası ve daha fazlası.",
+        duration: isEnglish ? "6-7 hours" : "6-7 saat",
+        distance: "6.5 km",
+        difficulty: isEnglish ? "Easy" : "Kolay",
+        imageUrl: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHpgacWWXTZdHkebBxq0KHO6ythGT398NRuz1F4DIZoydVhOWPthx1Ryd1bJxmKNvGxxhY81UN8BnDsAfqJ1ltojL4-esezIjZvvewCHexKH1Xytjd2xuY8gQqfk9sEI9uoVBgQDUmDDHjZbizVO-sZlY4VgSDtXhp5LjoryVdFiTP-v_Z5QC3zjQg4RwDbz_vzGmnk70DnaaXYgakXIHUrvNGq_C8TMmOHRQJ0nQv_ocAGU6_LlladZb9_hrO8NTg811zEJs8BQekKmznhyI4SujqlEudLVx5vp11J42zqSbalgm0mA0JaSyaUvACHfABqw0_Jp6YLjWmMgXFaB0Uv7oeXv9s-imN1I2PBTED087Vuwq-sbaAsY-36n76JWZ4yhIuzOQrXX7aou1i_4MNm1HIpHxd-w2vGlEjLMMlzjCKxG8dVCQnkIFGdukHvjKV_wDDAFLvvMVTpACGbAb7Yqm8mGu5aw2KRFZ8iDHSMvwrb_6YZhSDS552evwL9oivYSjpwa6o1DRwFJRtTdRI4M7BFDN-OSQ7z77gjiFd8P8ohvbSNNrDS7MpzewkrRAzSyzI0L1InoGw&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+        tags: [isEnglish ? "History" : "Tarih", isEnglish ? "Wall" : "Duvar", "Cold War"],
+        placeNames: ["Berlin Duvarı Anıtı", "Checkpoint Charlie", "Topography of Terror", "Tränenpalast", "Holokost Anıtı", "Potsdamer Platz", "DDR Museum"],
+        interests: ["Tarih", "Kültür"],
+        accentColor: const Color(0xFF795548),
+        icon: Icons.history,
+      ),
+      CuratedRoute(
+        id: "ber_kreuzberg",
+        name: isEnglish ? "Kreuzberg Local Life" : "Kreuzberg Lokal Hayat",
+        description: isEnglish ? "Best döner, canal vibes, parks and street art" : "En iyi döner, kanal kenarı, parklar ve sokak sanatı.",
+        duration: isEnglish ? "6 hours" : "6 saat",
+        distance: "6 km",
+        difficulty: isEnglish ? "Easy" : "Kolay",
+        imageUrl: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHpkZTBnSeP59JhRIiCBLT40lTGhZ6QJniDjNOuMFQ8TTcYUNQqT3HmeL8ZEqVsCAGAnlB2ZVGIxvzexnRiGD1Y4lySXsK2X2IHALPckJrsVNvaWhHz9eyggltSQRU9RD4wl1-lAy_5Clj8mqyGdjjUsCwZK7iU19-HEkZWqHdsLoyeN2sjroDV71ZxRjLbnyr8K2Jtifxq7FosJpSt6eOwnBq6nK78lgIEAQwqSz1l3lodcapFbQL9H3A3S4rWO31j-NUwyNPrPVw4MaKcRNEVx8-pt3rMlFl9nRXlOQuJbrYX_Ho8EIlxczzfZE2Dd9WOdJA_39XlrkqxfPncUjq-DSfGcDDGGWNRHzg8G8-G9BInOlU8wdYGKQBXnXU7Wcde7EBPy0CJncJBNCSJu2iiIpZVgabXNnswsx0SUBaRQFanYCHlnf2HHBn0Pnaag-5hdsfmkliSHcKbuQ1c-F_pnB24Y3fIeG0cbo5KXluHuQ9J2FXRfVCIOgnr7D8Uawf8P-m6iXHAR4yZCPmCtLGMBAfvG6IvvM_TNiXo0FfjIxCEm5-GFGswJ8Bd4HcG3HXFLJKUY&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+        tags: ["Kreuzberg", "Döner", isEnglish ? "Canal" : "Kanal"],
+        placeNames: ["Türkischer Markt", "Markthalle Neun", "Badeschiff", "Victoriapark", "Görlitzer Park", "Oberbaumbrücke", "Curry 36"],
+        interests: ["Yemek", "Lokal", "Sanat"],
+        accentColor: const Color(0xFF9B59B6),
+        icon: Icons.storefront,
+      ),
+      CuratedRoute(
+        id: "ber_museums",
+        name: isEnglish ? "Museum Island" : "Müze Adası",
+        description: isEnglish ? "5 world-class museums on one historic island" : "Tek adada 5 dünya sınıfı müze.",
+        duration: isEnglish ? "Full day" : "Tam gün",
+        distance: "2.5 km",
+        difficulty: isEnglish ? "Easy" : "Kolay",
+        imageUrl: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHrLRBQsXz71xTyR5iE9PO3IZRo_X-687ZZK8ehSjYScjJ_7adtlFFoWkIM8h3v3UIZCqBxws_jLpMZ4AtMPSf5QcwTPxkaJ4FtAasJlKth8G2QnJgg8lrPlEkzu0aQYmMKmrlLXb7n79TJ9Clt6SnpaAqwl8UPGGGwMD09SSKJvd7gLdHvH8PAKEoCnNl1LPKUwAiAbsg_eKrqu6whFbVD7FBJUap_TcbH8CdS7ZwJ7qKvzdmCOjh7hGxwpQ2ftI1RQnQMLlcuiUzP9epPJOWsImZPgxLD3eAsPqsUhZbBIqt3FkPEHCcJQambWqk6o4-FkiAMttowLAMyssuP-lx2fr5FEmYIP69uzpG2lX4a0aTOyobdb-1np2Kzzmyl2mMexc-i7M1da4xkNBKhBQ7C10qxY0avBcSCPKw2TPAgBVgmyS9jLio5lsQImcLn76gUzc1UEDTnhDiJMcPPIs8A75kIhB9stkq-uCOxP9hzVHh1BeZnUSib3AY-E1VHDGu08jYf1djflZl6jqTzAqhwki_L31DJp1njjRZ5dd395TpfYEWpZg1UJVOR-yHE8v_fO9Q&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+        tags: [isEnglish ? "Museums" : "Müzeler", "UNESCO", isEnglish ? "Art" : "Sanat"],
+        placeNames: ["Müze Adası", "Neues Museum", "Berliner Dom", "Altes Museum", "Bode Müzesi", "Pergamon Müzesi", "James Simon Galeri"],
+        interests: ["Sanat", "Tarih", "Kültür"],
+        accentColor: const Color(0xFF3498DB),
+        icon: Icons.museum,
+      ),
+      CuratedRoute(
+        id: "ber_food",
+        name: isEnglish ? "Döner & Currywurst Trail" : "Döner & Currywurst Turu",
+        description: isEnglish ? "Berlin's most iconic street food spots and old imbiss joints" : "Berlin'in en ikonik sokak lezzetleri ve eski büfeleri.",
+        duration: isEnglish ? "5 hours" : "5 saat",
+        distance: "7 km",
+        difficulty: isEnglish ? "Easy" : "Kolay",
+        imageUrl: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHqP7mYtwq4jbTTNTdvWvWXOePoRrYtjOAfIUROQhG3Il8taQjwsrj4x866BxFVwJCn_zLZkJAevVPAUdwIXxdz_s1rGtKvnDjnmxe_3_ff1yVLXmhx81sMoTumFoxFtjqJoTb_NMNaBMlqI7dNqz5nLGGZLWtKyAQR7_7kFwRem-RgC_Zz7j0T8svOrqnQSB6-X0mxZJk00oLthTAt5-mKUCUywzGdqbqg3nr-FrRJjoer4m-k43HtONvpybybpaJzMvtb5H-_O1fnOzjLcXVTOkvqaMpVxReW5rhvDGd5aQVAmY94&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+        tags: ["Döner", "Currywurst", isEnglish ? "Street Food" : "Sokak"],
+        placeNames: ["Mustafa's Gemüse Kebap", "Curry 36", "Burgermeister", "Markthalle Neun", "Konnopke's Imbiss", "Risa Chicken"],
+        interests: ["Yemek", "Lokal"],
+        accentColor: const Color(0xFFE74C3C),
+        icon: Icons.restaurant,
+      ),
+      CuratedRoute(
+        id: "ber_nightlife",
+        name: isEnglish ? "Club Scene Intro" : "Gece Hayatı Girişi",
+        description: isEnglish ? "From industrial rooftop bars to the world's most legendary clubs" : "Endüstriyel teras barlardan dünyanın en efsanevi kulüplerine.",
+        duration: isEnglish ? "Evening/Night" : "Akşam/Gece",
+        distance: "5 km",
+        difficulty: isEnglish ? "Easy" : "Kolay",
+        imageUrl: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHpwCCIUPZ_kFdN21x_yG4kmFBTe3_Z16Y6mlbCozLENYfrerr6YZVvOJ8aIg-2y4t9IEyG6dHZ-_7aE0fyrOl8QHWJqUtqIlh5NEovOAPK6QQiOTyZZHf0Ih7LH2poPxYyp9jvbwEblPCN7VCxJmO8T7jYX4gQyyfr3LlxzQzSGBVeLLtVFQQQHyAexT9aFc1ZAsKORWYED-kKXylOPOL5G7TpxcoH6v8OVScaryxUd13gosSJcn37UQ-5zN_hiEBvrngF3UkAl110dOU2cLfaELh4r0w2I2mt9S-TkKxNtc4SSZGQL9JmoyNovc7wqe9RYM0FKU7oHKqfX2usHdnfeM3G-WGqPIRiVWLRmrdeo6ikL9oQCNZo0_uin3grtQQ4O5-qCnvodmqTZKVSUu2SMM6HSYThZpDS6xJACAOBeQxHGQqjhcrm47HD6lqLHtXuZNPj2P6a7bPD2Ius3fKv4wRKYj8Ars5TnqJgmFssn-06JB-0VOpmfhOddMQvD4ve67lQdYlaUkiDw7sdMhSYAPEOgCdXS8t1V7HXCmbAyHZA_KRTo16nEmjhWULoEzrGfC5_v&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+        tags: [isEnglish ? "Nightlife" : "Gece Hayatı", "Techno", isEnglish ? "Clubs" : "Kulüpler"],
+        placeNames: ["RAW-Gelände", "Urban Spree", "Berghain", "Watergate", "Tresor", "Wilden Renate", "Kater Blau"],
+        interests: ["Gece Hayatı", "Müzik"],
+        accentColor: const Color(0xFF8E44AD),
+        icon: Icons.nightlife,
+      ),
+      CuratedRoute(
+        id: "ber_tempelhof",
+        name: isEnglish ? "Tempelhof Freedom" : "Tempelhof Özgürlüğü",
+        description: isEnglish ? "Skate on runways of abandoned airport and explore local kiez life" : "Terk edilmiş havalimanı pistinde bisiklet ve mahalle hayatı.",
+        duration: isEnglish ? "5 hours" : "5 saat",
+        distance: "8 km",
+        difficulty: isEnglish ? "Easy" : "Kolay",
+        imageUrl: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHpkuGCPOfQ77lTRergCoCKmGIBCF9p45G4o4zNK1FweLICu9Q1o6jyrfjF7qbBEX4NwwbduKXKN9weH7lHPzt6qDjvd1ZuDBg4dskcSaYIAgblJUzC4OG4FSz4-1YbV7sneszOKHKnV6dpE4JlHZIB7-ZNfRwpy7XJQnJKs-ZLzAf3vxw6VTQkdBtiy2XmwbH4TOUuVtum3iZdZBWrcp0o6-Ya333flub7Erm96xej3WXsbIhDhVgP8aC0o9z5U-q8XdaKt7LiRKlYHLU1TDBQm5Uhu8Knvcepvsq2CAgeRWtNmPfGgw3YPAW5fr22cFhGkt71Uf9XAZw31xFgxP0rEH_D4Y6COzZa5P8nt_-mMCJ2vbXprHautNOTr03atWV5wOeWHEORY3wkNNv922jlEn1lcsQRikeOxxt1O_AlF4DFhEe0jKOJxVGgj-e2RahfFpy6mHxUh_gKK6Lq6Eb7ae6nb-QYyzTuY2bjLQdsShYqAHCK_UiiiWeIEvYbbOq2VWKwfPEAq_i7tvD81VUpXKJt6Hu1mSO3EYHGClH5FRaNf5Q3P0i7g50MR65leIuuhxyhU&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+        tags: ["Tempelhof", isEnglish ? "Bike" : "Bisiklet", isEnglish ? "Unique" : "Benzersiz"],
+        placeNames: ["Tempelhof Park", "Schillerkiez", "Klunkerkranich", "Körnerpark", "Hasenheide", "Bergmannkiez"],
+        interests: ["Doğa", "Bisiklet", "Fotoğraf"],
+        accentColor: const Color(0xFF27AE60),
+        icon: Icons.pedal_bike,
+      ),
+      CuratedRoute(
+        id: "ber_mauerpark",
+        name: isEnglish ? "Sunday at Mauerpark" : "Pazar Günü Mauerpark",
+        description: isEnglish ? "Legendary flea market, open-air karaoke and local beer gardens" : "Efsanevi bit pazarı, açık hava karaoke ve lokal bira bahçeleri.",
+        duration: isEnglish ? "6 hours" : "6 saat",
+        distance: "4 km",
+        difficulty: isEnglish ? "Easy" : "Kolay",
+        imageUrl: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHrFTkPFvN0LIZ019QFJuMcw2YWbQHbGjOZFt2B0tSPD9MGiHrFBv4nGHxXqrzjdW9L98FfVBchLpHcpxtjYLlqjlFA-jbErDfGNKIU6ueH9uDuLVj9j4fw3ZYFHXtnN5p_Ol9TlD0BrCgrktCvFASX_udJoOOQH2Or8SkKZczFJdKcb8OjSWzAEwZ0Frq4wvL5uJ3ASXZ5GF0swMjYSnItV4MQTUXsKU9lOI1462OX8zupcMJ-aZHEaPuRxnXtPs66M2ZaEtY24xqK9yfnBCwbHzFLyqrYTJI0fEoOzer5fLGrZPssVfXlWYC5AoXx-kOwOl7PEK7lIUWmpJk7Qd7YoBVoxjYQ_LcVF342xGlFxDEVjiMEDBNcGQhvV13ZCCQ_kawEcPss0evBJ_U9UgtxCCI2wP0RIWNElcagRSLrXceyGoX-gjEYqhfyC3zEdFF3GfoMwsPuuYBykDHlOGGH_GZ98W4gTjDqvSVTxBYkVJgtXNheswEcC_QU6bW0IlYFlym7tdZo55ieBOOxScgmYASTmxE3GRxyxx_SWTwH8F49kZHLcvaPlHP6esLy_RK6WXKQE&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+        tags: ["Mauerpark", isEnglish ? "Flea Market" : "Bit Pazarı", "Karaoke"],
+        placeNames: ["Mauerpark", "Prenzlauer Berg", "Bernauer Strasse", "Kulturbrauerei", "Arkonaplatz Flea Market", "Prater Biergarten"],
+        interests: ["Alışveriş", "Lokal", "Müzik"],
+        accentColor: const Color(0xFFF1C40F),
+        icon: Icons.mic,
+      ),
+      CuratedRoute(
+        id: "ber_prenzlauer",
+        name: isEnglish ? "Prenzlauer Berg Brunch" : "Prenzlauer Berg Kahvaltısı",
+        description: isEnglish ? "Chic cafes, vintage shops and beautiful residential streets" : "Şık kafeler, vintage dükkanlar ve güzel konut sokakları.",
+        duration: isEnglish ? "5 hours" : "5 saat",
+        distance: "5 km",
+        difficulty: isEnglish ? "Easy" : "Kolay",
+        imageUrl: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHrps8LKI7Xk03Qzz4Mql5henfh8P97vd8IEW3Culeegqd3Oug7AJ6Q-Ey1ymOPa1Myre8nrpDJoY4MGUE9feRAg1oTB06_0wR8ExuvxbtGTdc3_H6-5hQC2AZ4S3C7jZkjKqdu1an1oMgnrDTVbY5qXA2v9QmGTQRub7lKztbzc-kVMagB12pIjaI2sbN0Ef8Q3o8b5tn9BDAKXpW-yAUy0ZdW-YWNRLw_7UAuDpsrWS5gTiBA6QXJqGclFfulnwCWJqCAX0hH6xtfljTkSDuL3pB27S1F9EakPavlYuJ8vIFTEmIwzj0GTz1VTJqWesGV3axJvVZtukmsceSbIqtvSNE7Hoq4QDV30VW_whO0aY_c7xIwdfa-ZKFYpLomfoQ0AsNSYTU1VeeJU2h9r0aZcvjSasejphNKf9EzWjJ9LhKlzyTIbXttKzKTIBb9FBxWIYRNMeVsu86f0NyJWl4XYAUgaBkZcT-LBIWg3DyvwJjaBSqWumCjmuFydVCgPHZccEvwNQKJ5yTkAroZHjJ2me8-hqhsKjIhA8oGNsZJ57OLDeZQnmRX-_U5M9eATexGXWelIhoqUiA&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+        tags: ["Brunch", isEnglish ? "Cafes" : "Kafeler", isEnglish ? "Chic" : "Şık"],
+        placeNames: ["Prenzlauer Berg", "Mauerpark", "Kollwitzplatz", "Kastanienallee", "Rykestrasse Synagogue", "Helmholtzplatz"],
+        interests: ["Kahve", "Lokal"],
+        accentColor: const Color(0xFF16A085),
+        icon: Icons.brunch_dining,
+      ),
+      CuratedRoute(
+        id: "ber_jewish",
+        name: isEnglish ? "Jewish Berlin" : "Yahudi Berlin",
+        description: isEnglish ? "Explore the profound history through memorials, museums and the Scheunenviertel" : "Anıtlar, müzeler ve Scheunenviertel üzerinden derin tarihi keşfedin.",
+        duration: isEnglish ? "6 hours" : "6 saat",
+        distance: "6 km",
+        difficulty: isEnglish ? "Easy" : "Kolay",
+        imageUrl: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHpEDwsN-DyaQ3d_A_qLLpdjBbMx0-PGGVO4LruIZQCdhk-ifMW69g4JJ84fQadgX8buqSH_Qjj_DWdSiavvFGgHYZDRV_kAWN2ZF2KspOR4BqoLGnTJqZidFuLmMd-JCim8_zhaAGKsa-fzhMyP9W2DdvWeqoOO5Af1tNtE_XDnG1NNaAmOOa7pq05-ZChv0lmpgxsFWOk5Mp9uBwhtsMxr-N6Ukh9wEPvyzZz2NQvua3BiUxxEDt9JoNY-eg5_Aq4cOlSE53mxYki7z5QszRjsdjxJxAaUlZxr7sJdWxZC6S_n6K2EGfNOoR0tXU3vpuTn7t_K5mlzFMocxFedYb8kHABg1SGylIARP1lXCePFkxljf3NN61U6mxbsXL14bsuxQ5FP-JrGwtAEoXpMW49w8tBr5a6hkInwM2MieShRgE_xn4gVgSTugTmAnHsEUhEOxeDSIn64vK0UB6M-M2ZBwtAfBUOK_lw-PjnVWNUdohryp-5ZZ7s0wbH4muavSllRGqfADJQOLjYriqlz-2ptBz9sgKwAMQdtfUoAx7BEgGgty_snCLlJvrov-FdTb1MX6w&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+        tags: [isEnglish ? "Memorial" : "Anıt", isEnglish ? "History" : "Tarih", isEnglish ? "Culture" : "Kültür"],
+        placeNames: ["Holokost Anıtı", "Jewish Museum", "Topography of Terror", "New Synagogue", "Otto Weidt's Workshop", "Gleis 17"],
+        interests: ["Tarih", "Kültür"],
+        accentColor: const Color(0xFF607D8B),
+        icon: Icons.synagogue,
+      ),
+      CuratedRoute(
+        id: "ber_street_art",
+        name: isEnglish ? "Street Art Safari" : "Sokak Sanatı Turu",
+        description: isEnglish ? "Iconic murals, hidden graffiti alleys and abandoned stations" : "İkonik duvar resimleri, gizli graffiti sokakları ve terk edilmiş istasyonlar.",
+        duration: isEnglish ? "5-6 hours" : "5-6 saat",
+        distance: "8 km",
+        difficulty: isEnglish ? "Easy" : "Kolay",
+        imageUrl: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHoe66wDzJmX8FXOUgPqjrkOeLia5oiDXYlGDRC0JXx7huax9ahwl33U8SUAWVqaxO1ffdWyHUrWgsuHekrBSnRssE0C13lZdAzxzhUJWCCI3PJfBUrI6uIXQLsg1wxbb5noXajfbZE0lnYR1kgmmGzpJ7hW1lSZqLaGHsKeiC7aJJ9GdLkFnFsLUPwfwQ7GQ3xuNYJQLhE1YIG_V0GKvfkyz_W_BlaD56iXe0w2K9LtX6iGoNn3zgqMpHVpTK9E_L2qirPtGPZdfPfv2GYviF-ix3wcjCbPLxhTJ00mRkalO_4QIaLXvMCRq_khS7Qj2W1WtsyseG551TozR-6t2ysGZgnwzbPP7TSJLTeKJbNyViwLgh2oFLZ0ihmrZILG3-K_HATphMECwMFu1wwEi27he7dcuDfWr07uPwbvxvyRzHvCZa17JhKHRAwwns7aFdbtIAeNUD08jbgHgDjWB8nE_djGjxii0fAGcuU_zbX1aKgQwWb6FfUAeBagL-1EaGLlBmYBQzm5uC_P5ExWgm61knFxGLM7rpUI4v6Gdycg5hWbqYNkqHQFU98ATW9QR192-YndHc2Sg6ut-ciPElBa1rM&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+        tags: [isEnglish ? "Street Art" : "Sokak Sanatı", "Graffiti", isEnglish ? "Urban" : "Kentsel"],
+        placeNames: ["East Side Gallery", "RAW Gelände", "Urban Spree", "Haus Schwarzenberg", "Teufelsberg", "Mauerpark Murals"],
+        interests: ["Sanat", "Fotoğraf"],
+        accentColor: const Color(0xFFE91E63),
+        icon: Icons.format_paint,
+      ),
+    ];
+  }
+  static List<CuratedRoute> _getAmsterdamRoutes(bool isEnglish) {
+    return [
+      CuratedRoute(
+        id: "ams_canals",
+        name: isEnglish ? "Golden Age Canals" : "Altın Çağ Kanalları",
+        description: isEnglish 
+          ? "The heart of Amsterdam: UNESCO-protected waterways, historic gabled houses and hidden courtyards"
+          : "Amsterdam'ın kalbi: UNESCO korumalı su yolları, tarihi çatı evleri ve gizli avlular.",
+        duration: isEnglish ? "5 hours" : "5 saat",
+        distance: "6 km",
+        difficulty: isEnglish ? "Easy" : "Kolay",
+        imageUrl: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHomcw21s7Rz9WC-4-0XZTCt5_GRufz0qhiIITHCyFTZvgJTqdxGgXm-wfH8-ukyp6EGHmdTy6ukRWTquGipM5GtZavshXuc6a4jG6uwCWrD655na1dEBAT5JRk20hDSQTGToyoN_vjjaMKDKpMBb5HapkjPUPYgeAbmlEUnaj2aAgmR_m5HXaaMDm6fhQIvIlmAHdqQELXLGw85U63fDr3uxBH2ZyIzfVWnBaaI78WL2U0zPVRtPItoD2luaUKD9X8NMIJC0zNeSIpe1K8q0PXD1Ab6adudfW06jsvARig&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+        tags: [isEnglish ? "Canals" : "Kanallar", "UNESCO", isEnglish ? "Scenic" : "Manzaralı"],
+        placeNames: ["Kanal Turu", "Dam Meydanı", "Begijnhof", "Anne Frank Evi", "Westerkerk", "De 9 Straatjes"],
+        interests: ["Fotoğraf", "Tarih", "Romantik"],
+        accentColor: const Color(0xFF3498DB),
+        icon: Icons.water,
+      ),
+      CuratedRoute(
+        id: "ams_museums",
+        name: isEnglish ? "Art & Masterpieces Trail" : "Sanat & Başyapıtlar Yolu",
+        description: isEnglish 
+          ? "A journey through Dutch brilliance: From Rembrandt's shadows to Van Gogh's vibrant sunflowers"
+          : "Hollanda dehasına yolculuk: Rembrandt'ın gölgelerinden Van Gogh'un canlı günebakanlarına.",
+        duration: isEnglish ? "Full day" : "Tam gün",
+        distance: "4 km",
+        difficulty: isEnglish ? "Easy" : "Kolay",
+        imageUrl: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHoCi0jOW0vwXMl5ooO4omDYHqeM7atbdzNCDF92SQf7vO6qOofMKVA-r6koT6Dq0F7uOQnmEapx667Kx0IX01nUpRPlOhe5TYvJLcAtFaETyNOTwjxbeIbQBmwAq0PigdWVRo0JLRatsz2o5s9Wu9sGkDCoINeo5wn0mxNB4KS5w_VkEmQpK-YOThwLrIf1wiELFhTMBdnABXmLOzDP56ILnh7_4UjO2Yveqw6A5RBMYE-2bp3m2U1qUw0OAbBs8Xw0ZFcBx-lVCL13P2sJbTsFG9-wn_W6vhpZFCOOCDpktc4ziqu1rxTfCJJg60uvYSlQcWX2HkJR1PSCM1Uq6kPF6yDE-GDcqWwhMXuJ-JsU94A5dYiVhp3aO84zF6qXpgznZq6zXGMieemcQR34p7JL0q3TefJTO6j-gFwXXm6Xtew0&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+        tags: ["Van Gogh", isEnglish ? "Museums" : "Müzeler", "Rembrandt"],
+        placeNames: ["Rijksmuseum", "Van Gogh Müzesi", "Stedelijk Museum", "Moco Museum", "Vondelpark", "Concertgebouw"],
+        interests: ["Sanat", "Kültür"],
+        accentColor: WanderlustColors.accent,
+        icon: Icons.museum,
+      ),
+      CuratedRoute(
+        id: "ams_jordaan",
+        name: isEnglish ? "Jordaan Bohemian Wander" : "Jordaan Bohem Gezisi",
+        description: isEnglish 
+          ? "Experience the soul of Amsterdam: Cozy canalside cafes, local art galleries and the Anne Frank House"
+          : "Amsterdam'ın ruhunu deneyimleyin: Samimi kanal kafeleri, yerel sanat galerileri ve Anne Frank Evi.",
+        duration: isEnglish ? "5 hours" : "5 saat",
+        distance: "5 km",
+        difficulty: isEnglish ? "Easy" : "Kolay",
+        imageUrl: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHo3_8oDomygzOfCaGuZkQ2XHEHYE6mfAwdGlfYaSkntfhfli_IafwELkG8Wp2Vz6QRrHaHvR3lPUtu7-gvOJRWaLEm7BsCI9Y2rNwiJtEUuHM0Sd-Ig5E3mZGUW5voInWydWiWpebT56x6LyhuyY3Fgko1HVkxrhAIqn_oQ3xNBUQvkCm99rqkStDqvjk1eF829C62-FqCoKU6RiyFZu__MD5qEZF5wJNZ-KZKchDt9V5zVXXPxhgtKHmR6sPBfDKyGWfcPhmU-uhQC2QdQ4CtHly7qkVC41rWvg2VxTYRLU2KyrADEAu-RtQqa_svVVI_ImQSB9aR0CmNo8QSFA5_w6-MORepNWEXj-rmo46DDwfU4Y9wWo-XQYxcWx5xFyZmenqktJmvLi_FIKBooOOtSJHQUoexFNjqlw5nyuPX9gAa1&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+        tags: ["Jordaan", isEnglish ? "Bohemian" : "Bohem", "Anne Frank"],
+        placeNames: ["Jordaan", "Anne Frank Evi", "Winkel 43", "Noordermarkt", "Prinsengracht", "Westerstraat"],
+        interests: ["Tarih", "Lokal", "Alışveriş"],
+        accentColor: const Color(0xFF27AE60),
+        icon: Icons.storefront,
+      ),
+      CuratedRoute(
+        id: "ams_food",
+        name: isEnglish ? "Dutch Flavours & Markets" : "Hollanda Lezzetleri & Pazarlar",
+        description: isEnglish 
+          ? "A delicious journey through Amsterdam's food scene: From world-famous stroopwafels and herring to local craft beers"
+          : "Amsterdam'ın lezzet sahnesinde nefis bir yolculuk: Dünyaca ünlü stroopwafel ve ringadan yerel biralara.",
+        duration: isEnglish ? "4-5 hours" : "4-5 saat",
+        distance: "4.5 km",
+        difficulty: isEnglish ? "Easy" : "Kolay",
+        imageUrl: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHo7Gw5ixLLlQmOyBljQMPQJDrX4U2Rq5X_m6Z4bPI49k3TUWgGMdVXUePxl0R8dqY8yJSBR_6JGWL_iuYzROooFpU9eg-f5UZi6xMxdeUyAxLwLy7wBLSap-mtY7rbkiHU2K_am-58-JEazW9w3j0u7VtWzCXVdVJvQCDNQ0o0TF0-KyuCg2Pl7bT5XqFOGNT4dn-kq3nVjnoBZ2ISwqm7-0b09ABtTH5M9PCYW334eadJgwQ1ZByLmXci6wCrjDcyLAxRK8zogk9dgUAj6CfBHtECt34OYNMCh5nG7KUjGIKHcZK9NH91Url7L4mMnlhKAmzc2mji4th00g7pDNnXi7xyJuYLwPeFhpAWrFdKNZkm319TJXoYCYB7R2j7a96RjwR6HhsCnF5mKFf837Z2grYTyuK1Yt1IaTaUCgb1eaQ&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+        tags: [isEnglish ? "Food" : "Yemek", "Stroopwafel", isEnglish ? "Markets" : "Pazarlar"],
+        placeNames: ["Albert Cuyp Markt", "Foodhallen", "Heineken Experience", "Brouwerij 't IJ", "Van Stapele", "Winkel 43"],
+        interests: ["Yemek", "Lokal", "Kültür"],
+        accentColor: const Color(0xFFE74C3C),
+        icon: Icons.restaurant,
+      ),
+      CuratedRoute(
+        id: "ams_bike",
+        name: isEnglish ? "Bike Like a Local" : "Yerel Gibi Bisiklet Turu",
+        description: isEnglish 
+          ? "The ultimate Amsterdam experience: Rent a bike and explore the secret alleys, iconic parks and creative waterfronts"
+          : "En temel Amsterdam deneyimi: Bisiklet kiralayın ve gizli sokakları, ikonik parkları ve yaratıcı kıyıları keşfedin.",
+        duration: isEnglish ? "5-6 hours" : "5-6 saat",
+        distance: "12 km",
+        difficulty: isEnglish ? "Medium" : "Orta",
+        imageUrl: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHrvlbTndByt-ciKuYxRVKNZ6XPcUN1wfD00uNwCqjuByIbZcrAk01rKtxmc0HmGPsGDXaIfMjT9vPMdngl49PomY3KznM6ksC71xZJS8tV96-ygutfcFIwJzSD_i7aBiOc_Sz6XbeLA4eqmb6DApjOw0NVEP78Cx8ZoCxJoNT70JBZ9btTRRBtTqmqp2VPLXdQzDN75uZgFAUFG1GQ9jlo_59BokQWj6VFUZZtegKDonaJ5PoiPnnB0f7RbKMO2JxnOAdkwxheYLuMa-irk21N1o_6Wg_xL0c4MA5d_a0T4kVFye_AbsCeo5fx-hfU01HyWcjWt7vHI_Wy5rQdOpXcDUvUEPG9ef-dij8a6IzHsUymR6BEce6q7Y5bKJQOv1nZVfm5jqNba_wKf5EKC1P4mckTBavC76EW5uFXtoa1kGryE&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+        tags: [isEnglish ? "Bike" : "Bisiklet", isEnglish ? "Parks" : "Parklar", isEnglish ? "Local" : "Lokal"],
+        placeNames: ["Vondelpark", "NDSM Wharf", "A'DAM Lookout", "Westerpark", "IJ Ferry Cruise", "Museumplein"],
+        interests: ["Bisiklet", "Doğa", "Lokal"],
+        accentColor: const Color(0xFF9B59B6),
+        icon: Icons.pedal_bike,
+      ),
+      CuratedRoute(
+        id: "ams_depijp",
+        name: isEnglish ? "De Pijp Bohemian Vibes" : "De Pijp Bohem Rotaları",
+        description: isEnglish 
+          ? "Explore the city's trendiest neighborhood: Multicultural markets, hip boutiques and the history of Heineken"
+          : "Şehrin en popüler mahallesini keşfedin: Çok kültürlü pazarlar, havalı butikler ve Heineken'in tarihi.",
+        duration: isEnglish ? "4-5 hours" : "4-5 saat",
+        distance: "3.5 km",
+        difficulty: isEnglish ? "Easy" : "Kolay",
+        imageUrl: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHquemVpUZlVck79w4i4L7ACCtMi8iL6k1U5DZnALp7x8N8d4rGt8C2rzCz97Fkn00mebq8Uq93d3wWTVllltdtx7jYCVYvkhaDk9M-1Q8-3O21G7pwRSGURSqSYHvnIQ_vDmG0yLwvnDv5cQw2td0Yy1o6oBfrNffCSsMfp-he0Y3DHPyWxX7yfVEDmyHVeqpyLURry0xpIbPd_4lmywcofIktCKDgfoOABXdSm_Jyd2CiVLXANgd5DzHdXRnmwXBjyb54N7GnTLyVHu7e8aIRNY7WMgejsmPCGAvTiuvfmyRLQYoPXDrz-lp5Ob69kH15OIU3z9xQ_hkd0U8ECEzAkOTlivKVPHnpcHHqq-fHiVX78Te-tzgzyFRWNDXiK2L6JvuPu6xbPXJt_wderJZmJLCqNq11KjPCnPkRn3AYE2Q&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+        tags: ["De Pijp", isEnglish ? "Bohemian" : "Bohem", "Market"],
+        placeNames: ["Albert Cuyp Markt", "Sarphatipark", "Gerard Douplein", "Heineken Experience", "Museumplein", "Rijksmuseum"],
+        interests: ["Yemek", "Lokal", "Kültür"],
+        accentColor: const Color(0xFF16A085),
+        icon: Icons.brunch_dining,
+      ),
+      CuratedRoute(
+        id: "ams_night",
+        name: isEnglish ? "Red Light & Hidden Gems" : "Red Light & Gizli Cevherler",
+        description: isEnglish 
+          ? "A journey through Amsterdam's historic night: From the oldest streets to elite speakeasy cocktail bars"
+          : "Amsterdam'ın tarihi gecesinde bir yolculuk: En eski sokaklardan seçkin gizli kokteyl barlarına.",
+        duration: isEnglish ? "5 hours" : "5 saat",
+        distance: "4 km",
+        difficulty: isEnglish ? "Easy" : "Kolay",
+        imageUrl: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHrQYaegSMUO8PXkVlszwrUYZmsSPqMRZTrj3BfVUtUNZFqT13FsjaDpt79qgCitPrXDjdRuK0T7iOLa7Yk1mauk7LggfZs6TB8lRgAB0rsHj9twi0fzDtzQ-d2_e1lshk_9LU8ttp2z0DP18vSOgYG_zPxZWmdt0JJMkKYpHE5GYMJVPFZqXUMVlNa5911lQR7we1a5sJ_QR8WhHmsLdYQYt0JxVrdQSdSxZCrHyU-pIizjhE4VvAWXUMmTzfmjAO87aEAtnCdl9M4dQl7LKaILSHwlhPLkz2ls3ffStQYaw&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+        tags: [isEnglish ? "Nightlife" : "Gece Hayatı", isEnglish ? "Hidden" : "Gizli", isEnglish ? "Active" : "Canlı"],
+        placeNames: ["Red Light District", "Nieuwmarkt", "Rembrandtplein", "Door 74", "Tales & Spirits", "SkyLounge Amsterdam"],
+        interests: ["Gece Hayatı", "Tarih", "Kültür"],
+        accentColor: const Color(0xFF8E44AD),
+        icon: Icons.nightlife,
+      ),
+      CuratedRoute(
+        id: "ams_noord",
+        name: isEnglish ? "Noord Industrial Cool" : "Noord Endüstriyel Stil",
+        description: isEnglish 
+          ? "Cross the IJ river: A hub of futuristic architecture, massive street art and creative warehouses"
+          : "IJ nehrini geçin: Fütüristik mimarinin, devasa sokak sanatının ve yaratıcı depoların merkezi.",
+        duration: isEnglish ? "6 hours" : "6 saat",
+        distance: "7 km",
+        difficulty: isEnglish ? "Easy" : "Kolay",
+        imageUrl: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHrTuTiMdgXf1rKNFIc5Tgh7FTkh5Y3JTcNJF3y5lTUnuG5g3V9V0s7uHucugH3htZft4Pv3d3V92rUS9vn0rfpEULAIZTsGtOCgIWph7jkQEGooKnRV8YaXSlrrWUtS03f8s3sA9BoQylbrLyTUERsX7UDAfmPF-invdwtOzxQZpLIXtzMXi-Mwi0ZzbuPUVMv7XbKZkhW2o75Sqwe0Y771M82atGINARAtasBSNMDQP_QYCwrZEjGjzaUkzZERGZjAvSRsi5tN_mnJ7BevDq9VbRj-5gx-5ct-ZL7g7KGQzaWfPKJwze84xQUa5AUFowqZsUz8wJOerW4X6gdNJteVVQBSBlo4OqexkDFJm6clO_2Z7VKVzFxrer3vxvpp8so20Yt4_YcTmxqa08Kku4hzxsfQ9JmDsurAFri_9pZuRCha&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+        tags: ["Noord", "NDSM", isEnglish ? "Modern" : "Modern"],
+        placeNames: ["EYE Filmmuseum", "NDSM Wharf", "A'DAM Lookout", "Straat Museum", "Pllek", "IJ Ferry Cruise"],
+        interests: ["Sanat", "Fotoğraf", "Modern"],
+        accentColor: const Color(0xFFE91E63),
+        icon: Icons.movie,
+      ),
+      CuratedRoute(
+        id: "ams_parks",
+        name: isEnglish ? "Amsterdam's Green Oases" : "Amsterdam'ın Yeşil Bahçeleri",
+        description: isEnglish 
+          ? "Relax and rejuvenate in the city's beautiful parks, botanical gardens and peaceful retreats"
+          : "Şehrin güzel parklarında, botanik bahçelerinde ve huzurlu duraklarında dinlenin ve tazelenin.",
+        duration: isEnglish ? "5-6 hours" : "5-6 saat",
+        distance: "8 km",
+        difficulty: isEnglish ? "Easy" : "Kolay",
+        imageUrl: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHpHTSOw0L7_fmMMTTiIx4FbWnoAtlnluDG5riXXzMQeoOVpCAByos2Sq_o2MrcAXPOvAxDM6UUu7ENOcUIdX69IS2HEq863zsLSoa281X3gvcymbU58pkMc7RTJ2smUKdBuUyPUwT_eLFgVOfz-flfhH_9LwDlQhuqh4R6NJGiBpovfgOZ0Kns5riopOhHd44zPUsgm-sPKEg8S_r2ggFJNeMVqFZ0TnRkltUiNyKHj5ZoVPsR8jW1cFP4GhmDhGvi3_uQH-UBwNGc2o-r8GqKCpAja48-XD-MtIR-xL_ofk23H84xayAbeoKqXCGJSYZ5kJGYlNtWC1nMjxGGSE5vUg9h7yuOluXwNIzSz6a5Mkuz2HoowCBprZqyPXUtMtzdFDqncXpnDy8mjKP353wN4lhFVhPweLUU1NqCpEdAOb0Y&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+        tags: [isEnglish ? "Parks" : "Parklar", isEnglish ? "Nature" : "Doğa", isEnglish ? "Quiet" : "Sessiz"],
+        placeNames: ["Vondelpark", "Hortus Botanicus", "Oosterpark", "Rembrandtpark", "Westerpark", "Beatrixpark"],
+        interests: ["Doğa", "Fotoğraf", "Sakinlik"],
+        accentColor: const Color(0xFF27AE60),
+        icon: Icons.park,
+      ),
+      CuratedRoute(
+        id: "ams_coffee",
+        name: isEnglish ? "Artisanal Coffee & Cafes" : "Artizan Kahve & Kafeler",
+        description: isEnglish 
+          ? "A tour of Amsterdam's third-wave coffee scene, cozy canal-side spots and the best breakfast joints"
+          : "Amsterdam'ın artizan kahve sahnesi, samimi kanal kafeleri ve en iyi kahvaltı durakları turu.",
+        duration: isEnglish ? "4-5 hours" : "4-5 saat",
+        distance: "4.5 km",
+        difficulty: isEnglish ? "Easy" : "Kolay",
+        imageUrl: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHpjL2MOEzzNiG09yJoeoXMsgNNRnyfiGfhEEu2tqlmqVEuPiyXf5kAb_eiM0dcbXgkxYwX07NxRotThCutJL8fkqCyDYRH-fS_NGNvWrweTqX6y1Yb_aCmdXCeocve17aHt_9mhctr28Nr3pUl16n2xz9aW5PsjhAgV0203loaepEXZAADeH05QS1G-lRXjbdGkJo3_UFQWcXBgR44ugg8rG7zVxm9AIvkxc91PlQ7ar0LJPBofTukKrvqYWYoSIaD4yDlGoNuUkxT7Nn-K3qnnBl2H7kdLqIMEkAtwWVbeVWIdO1s08ueozvtf-4EgKH42iKdVMje50AOYRDSB9q50O_SldQM6KuVd6ETWtLTHI6sY4wPAv-XhArb5bdE39ktiPBvBx346qU1D0PUmhmFJjBiGv12ftv1lXIAWRvGP_Q&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+        tags: [isEnglish ? "Coffee" : "Kahve", isEnglish ? "Brunch" : "Brunch", isEnglish ? "Hipster" : "Hipster"],
+        placeNames: ["Lot Sixty One Coffee", "Coffee & Coconuts", "Pluk", "Winkel 43", "De Laatste Kruimel", "Hannekes Boom"],
+        interests: ["Kahve", "Yemek", "Lokal"],
+        accentColor: const Color(0xFF795548),
+        icon: Icons.coffee,
+      ),
+    ];
+  }
+
+  static List<CuratedRoute> _getNewYorkRoutes(bool isEnglish) {
+    return [
+      CuratedRoute(
+        id: "nyc_classic",
+        name: isEnglish ? "Iconic Manhattan" : "İkonik Manhattan",
+        description: isEnglish ? "Times Square, Empire State, Central Park" : "Times Meydanı, Empire State, Central Park.",
+        duration: isEnglish ? "Full day" : "Tam gün",
+        distance: "8 km",
+        difficulty: isEnglish ? "Medium" : "Orta",
+        imageUrl: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHrZTl594IW3yGVfKf7w-1gWouMa4greHl6YlB93N0pG068QC9JgqIhfNNAqB2IUxFm81fXCprVzqKHRvtNW1KSGBSGx-HSiWKAMIascKUzSP3XvNZTdKEnOOrNUuWAoFn5UQJBgATwYiavhmU0bNfhtN9cyWVzI2U11AQwXF7_TtyQdnYaEkQWXmqq-7GT8FC6hmu3PWqKPmwgA0KJJhmkOjIgeXGX4Q3ejAlURxLwCJ2YFdUZ6-xyfxWH9V8xoynCX9Yc0AIklLBcfkh5exkIGP_JtVvUvlcmd3qoWkv8XgZReQNXAzIc5EYY8sK4gG0PR6P_NnGRpd-Gyegz-HIHn2a_zTaERHHq7TUK-CjyCFNabc0nHKMSXIBJdauN4ob8S75U3cnhb5hB0dnEs2aS-rOwG_ZpIZNKCcy4Dx5v2oSjP93MfuwrOu3Jw1ixU8qxaXT8u16FU6BQHKb0EiMzi_3WolxKvYuOUcFyWPAwdYBnn7HvFzr0Qv9nuJsXARHoche0zTKUOFJbw2kcRMLrWUDIj3T6MqV0_EqEsmW2he3EC98b0BEkbqKehfeCA6yyA-PL8Yw9E-g&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+        tags: [isEnglish ? "Iconic" : "İkonik", "Manhattan", isEnglish ? "Must See" : "Görülmeli"],
+        placeNames: ["Times Square", "Empire State Building", "Central Park", "Rockefeller Center"],
+        interests: ["Turist", "Fotoğraf"],
+        accentColor: WanderlustColors.accent,
+        icon: Icons.location_city,
+      ),
+      CuratedRoute(
+        id: "nyc_brooklyn",
+        name: isEnglish ? "Brooklyn Bridge & DUMBO" : "Brooklyn Köprüsü",
+        description: isEnglish ? "Best Manhattan views and pizza" : "En iyi Manhattan manzarası ve pizza.",
+        duration: isEnglish ? "4-5 hours" : "4-5 saat",
+        distance: "5 km",
+        difficulty: isEnglish ? "Easy" : "Kolay",
+        imageUrl: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHr5E-ySHMKsmx0YSlLVxDSJqJmU9r_Q9lSOE4XvvTMCT0yX0i2HWtjSWVidXSGJHtfTwuHo3Ku-nKIGQy7cphmAo7pzNvX2AEsu3wSlBDiMini5UMnmGxkWi_SUBc0eGJ45BSJi4qccLDQ7Jchl8-aElCkRcHrfgOCSwo7m-vFfNP4IqYkVWoTg7SlcIotocOT9G9NkEhbYg5GzWpqvJd-Lq6c7VKEf3CGvNnngldbeYyUUZNYww-qJG0JAUvM3rS2lqewtPkDY00Bm9mTc6OyApUWJIzbpWe6KFd1YIV8nCRQspa5DphwYQyKo2GLtDgrXanGs9iGccnRb23W2Dt2PVggpMGxiyKzuLB8VMRsXPY2FYujB501uGlYA1cW8CtOh1__J-foR0GMDNMvn34lfH4RUAagEaAPYr2QgfikwUZLQs3V1TGsxCBoPwx43-WU5XmB7BRXhsycLjUNHQ5A1o1F2va5C1P6zTKZBfT8fDgW9Lp9gEo0yuJ1qgyFjWtbBEQG7ecjQ9yBLchmBXkjKiUA7w8b8f8RITOEOPqzTsxyU42nvJkomd_vEh7a15PEQiZC6&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+        tags: ["Brooklyn", "DUMBO", isEnglish ? "Views" : "Manzara"],
+        placeNames: ["Brooklyn Bridge", "DUMBO", "Pebble Beach", "Time Out Market", "Brooklyn Bridge Park", "Grimaldi's"],
+        interests: ["Fotoğraf", "Romantik", "Yemek"],
+        accentColor: const Color(0xFF3498DB),
+        icon: Icons.architecture,
+      ),
+      CuratedRoute(
+        id: "nyc_highline",
+        name: isEnglish ? "High Line & Chelsea" : "High Line Parkuru",
+        description: isEnglish ? "Elevated park, galleries and markets" : "Yükseltilmiş park, galeriler ve pazarlar.",
+        duration: isEnglish ? "4 hours" : "4 saat",
+        distance: "4 km",
+        difficulty: isEnglish ? "Easy" : "Kolay",
+        imageUrl: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHoEhii60ScUROBCN0QsiWQnrghD4qm2uMFafWFTETmiK7DoKC9RiHvdCdQiWwEgBnMWS--t61mymLoQSnwQIRm4jHZhZqBaRxGeoDtD6qVtPfgC_3Vqy81GkJ1-AB4K7BFvuicJoDQ8389Br7MWfaxuUnJ70YmJ6AILtVHzIO1fc0bFBr9a3-GpYN-6ON6I3-84d1IRpHs8xVRVA_b1waZZsZXTbBYyIe-ozNlukuU5ykdUk8tz7xht6Mv5RPxaByxdJqNS4IfawCrrtUz5YvgVSdsC-D-qGIvadnsuCj1FcAo4uzwYzc06ZANv8rP121WCAPJ3HefV7JGQXsPZoe9A-P1anWoJ1KjMN0L77vvugfprM-DyPTqxb8pxwUyXRWkVYUmC6TYD0nGQ5MCLby_yylTicn3feYT87TB1VCPMYIHU6HlA8mOGq6KVSBR6Npl8sKOWGJxC1nPYDScnPSlG9qpFrlqHML7uGm9K_dp5W8-c4u5t8Hhu4_rMVMlKpXQhPefD2ymayYTl1T0GfFc3P3RXh5wU_SInJ_jRwYpPeE0RPGYtBv_bF4oPtz1TZNJoT6oq&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+        tags: ["High Line", "Chelsea", isEnglish ? "Art" : "Sanat"],
+        placeNames: ["High Line", "Chelsea Market", "Little Island", "Whitney Museum"],
+        interests: ["Sanat", "Yemek", "Doğa"],
+        accentColor: const Color(0xFF27AE60),
+        icon: Icons.park,
+      ),
+      CuratedRoute(
+        id: "nyc_food",
+        name: isEnglish ? "NYC Food Crawl" : "NY Yemek Turu",
+        description: isEnglish ? "Pizza, bagels, pastrami and cheesecake" : "Pizza, bagel, pastrami ve cheesecake.",
+        duration: isEnglish ? "4 hours" : "4 saat",
+        distance: "5 km",
+        difficulty: isEnglish ? "Easy" : "Kolay",
+        imageUrl: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHoQ2AuSA5_YieJe40pKorQTTAFDd-wSVL5xIxWgO8ATWYdSm19yQ5Jq7GVwWssPAuji5DZe_x0Q1zqPfUVABwb-eclmpMba0CKY1MN_wOHuO_cvkjyxRWUJWi8BECPemQq0lLgBuaFrRmFnUGi8w2X_cnGeUW9cUO6_REay_8IYcl-TYJP4OqYWasbptyzZs4WbLBxGeuv4hMzmlz2txCmvVRz9LlkbWJQi0Rcq4T3i1eqQcpj2-RHAJh23m82OPJl62Dt6sM2FvT0Kz5DMqrJ6r3MyecSbBX-rwqGmtIg8JVuVljo&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+        tags: ["Pizza", "Bagel", isEnglish ? "Food" : "Yemek"],
+        placeNames: ["Joe's Pizza", "Katz's Deli", "Ess-a-Bagel", "Junior's"],
+        interests: ["Yemek", "Lokal"],
+        accentColor: const Color(0xFFE74C3C),
+        icon: Icons.restaurant,
+      ),
+      CuratedRoute(
+        id: "nyc_museums",
+        name: isEnglish ? "Museum Mile" : "Müze Rotası",
+        description: isEnglish ? "Met, MoMA and Guggenheim" : "Met, MoMA ve Guggenheim.",
+        duration: isEnglish ? "Full day" : "Tam gün",
+        distance: "4 km",
+        difficulty: isEnglish ? "Easy" : "Kolay",
+        imageUrl: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHqjMwOxtPLOB7pLpKLwYLiNWiJmj1CQoHKSxAEIjEP15ap01lRfaRfEolvHyPS8m571AaKFhQ8X03aeKrylwDA1GCuxv_7IVsuDOxQm2NeZOQa7K8AKpHd8M9QzWZofY2SB_v3LWf2XCYEMpV35WYz6RciRx5qTGLhLzVlfxpZYQ0xAae9VDWhPqqtm49VeqFz5HMkQ5ut3UhzG2mA-qtWUHIwvNwF0GPvA8yH4RFc6gtJv47v8o7McFsx68okSTK48s_XTlmN5KiKfNqpQk-cwnt-pRDhLXrjIH8cK0GV1hYO6HY51PFwe-szmN-l4UoMrEsfLVTYPowlAH-hjNMVEmCfMx9HLTOXFgzT7BEG8ucbDAvKlCqSE7IRfRw_EDmOuPxfrpt19BTADlaotzUgQXrY7n9vNVbMA4b__fx9s9_3XlROVaQaXlTyspW_IOt2ZkHGK8U52tJRW8Hgll6xnbVTbtQZpYsE6S3lX7d3ZcZ_0qz8fVCKqTWdubVrIn7DB2d31zkU2hZ7nNWF5Hf5puDsrrGmDSY82zbgQs3pKbDS1cmd3h0fowRaQLL5jeGPwJPTCihvZqA&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+        tags: [isEnglish ? "Museums" : "Müzeler", "MoMA", "Met"],
+        placeNames: ["Metropolitan Museum", "MoMA", "Guggenheim", "Neue Galerie"],
+        interests: ["Sanat", "Kültür"],
+        accentColor: const Color(0xFF9B59B6),
+        icon: Icons.museum,
+      ),
+      CuratedRoute(
+        id: "nyc_williamsburg",
+        name: isEnglish ? "Williamsburg Hipster" : "Williamsburg",
+        description: isEnglish ? "Brooklyn's coolest neighborhood" : "Brooklyn'in en cool mahallesi.",
+        duration: isEnglish ? "4-5 hours" : "4-5 saat",
+        distance: "4 km",
+        difficulty: isEnglish ? "Easy" : "Kolay",
+        imageUrl: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHplNDU1TNOe-t6rrqjb_W6vEIMeBl9cLGd7Yk1_oymj_OtrwTtx808uah03-skyJe8N63zJFkW1BnfhICr3pjsh1Z-3oaVVAjL25MOlXAtKZQH1Dwoz8e6DOAXWgnhUTDv_gNOsK2Fru4HRvBBhonC9l9qvDzD5SRvNGpF7FngJXpRCfakYPOwoZ1WuDNAuvDDhob1Qf_xpTjjgrIpqaIPdraYjIjcTNvRC0Nd3eIz4vuH4FzWrGyJWoieuDAOVwF-j-_jruCDqpKy2G99cjNU2bBSNanx_NdAgkmOqMkWKVzj1ytk&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+        tags: ["Williamsburg", "Hipster", isEnglish ? "Coffee" : "Kahve"],
+        placeNames: ["Bedford Avenue", "Smorgasburg", "Domino Park"],
+        interests: ["Lokal", "Kahve", "Alışveriş"],
+        accentColor: const Color(0xFFE91E63),
+        icon: Icons.local_cafe,
+      ),
+      CuratedRoute(
+        id: "nyc_views",
+        name: isEnglish ? "Skyline Views" : "Gökdelen Manzaraları",
+        description: isEnglish ? "Top of the Rock, SUMMIT and Brooklyn" : "Top of the Rock, SUMMIT ve Brooklyn.",
+        duration: isEnglish ? "4 hours" : "4 saat",
+        distance: "Varies",
+        difficulty: isEnglish ? "Easy" : "Kolay",
+        imageUrl: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHqawBlqSwVJWf0mZGVkz3gPkiVxh1PcFmCV2_CNVPoGP_TD96cn01dB_o4Ry9cUo7e3b52TfuLhuu71reXmFYP_t3Dpj3yEoFctkcm6AHy8xFuql63jcaFzoeMaaTQ6KY8VQ6sSaJ3Djxu15e0dQo44_8IFXVI7x1UUlXZlO79WqyYBLpGFkJQP7Hr0J5KTqTqa9pb4GtzQk-s6sYAqFDIQTD3fO2fapHYkAes7HZPFBkHQW_5Z3QhGjxwkU0NE9IPGhx5y_BcFbxteTp8fnC5qzmmw0JkJHrSv7zujf9RzRdwSTUhsOs0z77KPyqJC_nIMHU2lBIpWj8UFsyExiqUw-p3jNZwbakbSpTmaEEclNubX1QcozdmX16nh0NCBkCdJEx-cu7VP_zgXIXq708QfbnMtcRvpgA6Yv7ZSgV-_mnxfJGG_24xbeij5Flt8M03EmE4CVBBaDJIMfBIfkqhUkWWeBIxHDRW1pii07ru7oMDGh8Ojf2vMitNNGiZJZaO9Jag4VE1-Tr5EHyVG_J7ZUDNzVZhR43AZEBCvES-6cSOX0tHhfKaXpYKI9IUON0OVGw&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+        tags: [isEnglish ? "Views" : "Manzara", isEnglish ? "Skyline" : "Siluet", isEnglish ? "Photo" : "Fotoğraf"],
+        placeNames: ["Top of the Rock", "SUMMIT One Vanderbilt", "Brooklyn Promenade"],
+        interests: ["Fotoğraf", "Manzara"],
+        accentColor: const Color(0xFFFF9800),
+        icon: Icons.landscape,
+      ),
+      CuratedRoute(
+        id: "nyc_night",
+        name: isEnglish ? "Broadway & Nightlife" : "Broadway Gecesi",
+        description: isEnglish ? "Shows, rooftop bars and jazz clubs" : "Gösteriler, teras barlar ve caz kulüpleri.",
+        duration: isEnglish ? "Evening" : "Akşam",
+        distance: "3 km",
+        difficulty: isEnglish ? "Easy" : "Kolay",
+        imageUrl: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHq7ylC3QdvkOziqpMGFDzt0FTf6nsq2r4vKQT-5Hd1xc2QOZfSbywgiIK9L4r_LWsoRd4NJ-SvelF-Xejb2T6yby6XpSMxYBZuy2lXDb_qkdjrl7XCAxdrpAnzRJlBs1z9OOs_HEKym4UfRL_Kw_-i5CLFwuXXssgncsk5cacmpn5dlcaBriTtu7PJ98T0uvRMWXSnZdK4KQJ3uxH8aUuYDO_kcLJpLU5jafdXrA9dSYPHnqc4WlKeEypuUhFzRTJ5e2ls23E7nc7StGKQdWcMvFt28HJdB6bObZ_cAunCtXZG6C6b6bOqe4H3AZxBjGb70E99N0-sV_STvMkw5JEdX_BEjOme5diASpHjZitnpQtq6cJB3p8kmvCAQ3IxCVLV6WjJpVpBgLHKxZmfYnmEeROFfW82p1zf1iPv8dlNn5cDhP4hB81M964o8GNk_moWbXt8rhFScnayDgTCw8Iusn53xeSp4-NHQd3ZMnspRiefOi_eOFX_4T-lM0iCWUNRfqZ30SE9nCr0JMr19x0Ehf3FENyZfUzGPBNkh6MCme9-2OQpEMdUiv25aIT1bjUVbnv9Etucct74qeQhpFD3mcX_q9Q&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+        tags: ["Broadway", isEnglish ? "Nightlife" : "Gece Hayatı", "Jazz"],
+        placeNames: ["Broadway Theater District", "230 Fifth Rooftop", "Blue Note"],
+        interests: ["Gece Hayatı", "Kültür", "Müzik"],
+        accentColor: const Color(0xFF8E44AD),
+        icon: Icons.theater_comedy,
+      ),
+      CuratedRoute(
+        id: "nyc_central",
+        name: isEnglish ? "Central Park Deep Dive" : "Central Park Keşfi",
+        description: isEnglish ? "Beyond the basics - hidden gems" : "Klasiklerin ötesi - gizli köşeler.",
+        duration: isEnglish ? "4 hours" : "4 saat",
+        distance: "6 km",
+        difficulty: isEnglish ? "Easy" : "Kolay",
+        imageUrl: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHq5X-3YxzYRsZv4rMn6l1PoVri2RUJ9zsKP1-Z8UrBvnali8nlRKm9iPsUgEFQd5eyK0ledmS1VKGSD9i-MQDYljTFByYj4AZyQbAxXE3IPF37EeC6VpDHAvNeADGgkoJge08Wrh-mrdN4P8mdNQGoMw-mmIifEqHVVUNsckKDYKbWdCsvRk35_voVn2meXhcnorgsYMFBsVNxb5YLuf7uBJOIJtdZBP6O_n1WpFAwH5QIiJbmCjN7TOFFsXhtm1zDs3iQOdrDO7y9Tm_uoN6o5hPLbuBeQifHOAQchoDCseAkYO8A8DKAZMttbqrp2Ph4phZ0Bk6NH9SSR5sV4HaGrMymvuytDPpnfIoDbgkOWsseUcyGQ1sg_FvdA8qqzvyY81Ij8-Hbd9Yt-JiLmf0qqflVuZpGUw3Cf-oANL68BR-ate4EXSWu1ZlzLyKEeCYZv0py4sMD8DHrIDNuYwHBgQg12kBAPLOWQlPIDodKLW2jgTg3RH7zte37ZjNvFrMgXCQf3GhZtKVTd110t-CGAxWIRucXxuhbgt6LJwwul_1f5L8N30c4epv4fNhrYEjRcm4Jz&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+        tags: ["Central Park", isEnglish ? "Nature" : "Doğa", isEnglish ? "Walking" : "Yürüyüş"],
+        placeNames: ["Bethesda Fountain", "The Ramble", "Belvedere Castle"],
+        interests: ["Doğa", "Romantik", "Fotoğraf"],
+        accentColor: const Color(0xFF27AE60),
+        icon: Icons.forest,
+      ),
+      CuratedRoute(
+        id: "nyc_soho",
+        name: isEnglish ? "SoHo Shopping" : "SoHo Alışverişi",
+        description: isEnglish ? "Cast-iron buildings and boutiques" : "Dökme demir binalar ve butikler.",
+        duration: isEnglish ? "3-4 hours" : "3-4 saat",
+        distance: "3 km",
+        difficulty: isEnglish ? "Easy" : "Kolay",
+        imageUrl: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHrfjPJUbB09Cx330n8QeN_pQJ6wxpQRQIwoQ0QnukL7H86-J6Aa8iVqUGMzpvqGQYUh_OepvaGmZpCXq5aOJH1Dkhvx-9Wq4cHy1ghakEQYwBVKUh8Z6scZj37lUBQWU44tm_WrQhy70okSmevdryP7Ffb5cmvLhEp2FASclegvrbhT3CvMQg8DHIkFFLPyS60fYITg45Tp3sYUxoXowpBbM8ctOuLY89EbneuXN_jpFz563gGDIqKT__dXh-yroeMPg8wU4Rgc7kcT1LbQv2AtXb_ZyMNNo19eew1WyWi7vrnA1u_j_XY1gBxdCgD2WJlNk94cIwYyp47eC-4ABpTFUzoxI9PHU7kzpFksKnNrNroF4iHbJ2VRpe_Lm1LmCrI4hrCFfzoakTBUh-kkIBbv9QwnQ_-fAguzTVv-fZ6lvyJmFdJ6SYPmB_kNpp6Z0L1whSbz4JSLwRI72qyJNhKj2LHkKt0jA1B5OPxXek94ggbv1N-yQvnd_EHxeedK896EN7TYx36jeoVkTSlTH8Jy9jfEEIzCw4rs0aRNkBctT3oRWA5Zd5Xtb_iaFSQ2GiGOkvq6sXDuUw&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+        tags: ["SoHo", isEnglish ? "Shopping" : "Alışveriş", isEnglish ? "Architecture" : "Mimari"],
+        placeNames: ["Broadway SoHo", "Greene Street", "Nolita"],
+        interests: ["Alışveriş", "Mimari"],
+        accentColor: const Color(0xFFD35400),
+        icon: Icons.shopping_bag,
+      ),
+    ];
+  }
+
+  static List<CuratedRoute> _getTokyoRoutes(bool isEnglish) {
+    return [
+      CuratedRoute(
+        id: "tok_classic",
+        name: isEnglish ? "Tokyo Essentials" : "Tokyo Temelleri",
+        description: isEnglish ? "Shibuya, Senso-ji, Tokyo Tower" : "Shibuya, Senso-ji, Tokyo Kulesi.",
+        duration: isEnglish ? "Full day" : "Tam gün",
+        distance: "10 km",
+        difficulty: isEnglish ? "Medium" : "Orta",
+        imageUrl: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHrBOa4FC2DPZo-f4Qb69QEjsnjB_WCCFqej9Gesa-QNPfb6R3RwADCVnZS4SRPBywpf27_PC_BYMO-uNo3_pILFacTWnCHTou4sdJAEvNQoROXHlYI_OvKEN1GJEdZnlJ7BrJs2BM_dLlFMgfjp8bEV9v-pWDJMoCqS4nbzR523f0raq9aV9C_hEGlnqL31LhiNCmyhsHDbk-V8H2YN7V10oAKWlzVEKyHiSDV8olKOEIo1vQASSWg3Gs8yTo8h515Phwg0fERmLb4XdLycGmt8Mpy1h6NKHP-a_DA2OE9POjwmxZXSIP1SD1if4mLz3obEOPeLTnkSolzelPLPeJaNrtM6LcQSzTx5kgeq_qDxfA2MX4LX45l6DY9p47Xs3gguATzYZDsu5e1Gs0wfP8JZPxDL5F89gEth-qIkOufdGkY6QHRY8M-yPE7JiCuaFaCTPWsnC5hN4s6-B39yDKp-iwUBLI8l7md1DDTIstnd1M0270hRrdWN9ZKsEjfs37kow4Wc2hoTMawZIE9A7-zRCFWDvySZgia12iFLQIFKrUeZ58It-RvmUPn55v_n2MFi9pbe&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+        tags: [isEnglish ? "Iconic" : "İkonik", "Shibuya", isEnglish ? "Must See" : "Görülmeli"],
+        placeNames: ["Shibuya Crossing", "Hachiko Statue", "Meiji Shrine", "Yoyogi Park", "Senso-ji Temple", "Tokyo Tower"],
+        interests: ["Turist", "Kültür", "Fotoğraf"],
+        accentColor: WanderlustColors.accent,
+        icon: Icons.temple_buddhist,
+      ),
+      CuratedRoute(
+        id: "tok_ramen",
+        name: isEnglish ? "Ramen Pilgrimage" : "Ramen Rotası",
+        description: isEnglish ? "Best ramen shops from different regions" : "Farklı bölgelerden en iyi ramen dükkanları.",
+        duration: isEnglish ? "4 hours" : "4 saat",
+        distance: "5 km",
+        difficulty: isEnglish ? "Easy" : "Kolay",
+        imageUrl: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHrdrTch91AkVZn57ocg_07-UTyEDnUWH-TUwOeKJxsF2ZuWf5G0x83-G4KaN6tyA2m4Wd49sjdRTiyCtyeTC1n-qYNZx5oPPa_D6n0ALR2WL-T-7Z_bDp4MI2E-qjTlFaNptWS_i5lIJbGaberpg0Xe8-T5IYogiZeX24aXwtTZkBhyvHm693XE1M7-GQiO9OOrN_IiTWkMCpmalFa5Jm1X3_3AKjMWaHPAyczdYEcTFngT7BLgh7DcPjhT5bv4cQ3uy7c0nnejThlxXznTSyvuHE4p--F0bUgQOK4zWL53CC57fsmciStoDmjpUkoFoV5kPrcug67W3-6OSfTSiN-g-UgbET3kcumNorwSTc0A1tTaxe-kPZ9Q5cHG5t3Sx72-WvjzMC7Q63xr5uaTFHiVGk4iFHqNzXKmp8YPsP2rOEP6V4yljqND2ayX1oegifiUn-liVJa6tTheJChBrPiEMaM_jE2L6xkXtf976JxrJMiFXflHQL5soMZRaaqzghcnsRytYiFCDbXpMvhMfWnPdRWV78j2qUPUBPcbqRMetnxY5rPVtAiBWKwbSxTgOcOxhuxL&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+        tags: ["Ramen", isEnglish ? "Food" : "Yemek", isEnglish ? "Local" : "Lokal"],
+        placeNames: ["Ichiran", "Afuri", "Fuunji", "Ramen Street Tokyo Station"],
+        interests: ["Yemek", "Lokal"],
+        accentColor: const Color(0xFFE74C3C),
+        icon: Icons.ramen_dining,
+      ),
+      CuratedRoute(
+        id: "tok_akihabara",
+        name: isEnglish ? "Akihabara Geek Tour" : "Akihabara Geek Turu",
+        description: isEnglish ? "Anime, manga and electronics" : "Anime, manga ve elektronik.",
+        duration: isEnglish ? "4-5 hours" : "4-5 saat",
+        distance: "3 km",
+        difficulty: isEnglish ? "Easy" : "Kolay",
+        imageUrl: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHrrkRBcIckFdY76OKv7L3wlGdg-IQTOH7YcSxqRB8jZUEjG16CoAEFerLvm78pkHKN3yzHL0dsiU7p70mMFxDsfraEtST8iLEhhVf1U4LZOjJskY2L3eXmdBsGyGN5TZq3EebdZ0fpB7BSmaObVYgC9wq5u6t5rvgT9X21JH7rLDE7LoyOuG708WTI1VzdL7SPoj0I66jm3_QqvjacSl-3s2KN6MJ6AFrSnDUDfE49N3jw-qFgoLKYADjkzZwzLrHNOJhfNwcYQJ9qUWGpPmPhrKpIdrUMMgZtYatNGqd5qYY987sb_cf0IJHf7uGN1_YBpi48F2-ezha1vQGKwAPp7C8nPDzR0M9RSCYdCfevCNlMc-_3Zjw-fPIOLrwcV03a5KSY915V1ypxrPOZyINV3rhCAAoYxX5VS4sSUlv7IkGe_LYnU2HmxmlSkgAaysK-JLKDrq7cbzS2xa-cJRfYv4oOMx4fvcLfb8NbR8BF-26RME60B77PbDv9HCZ4hIURNwxy-wdt9RWU9ivQcg1y64GAihIWnhvPe2sNXXoCR9t28LIAwDoYw9ctKMiaJm0nzYkYFNS-Uyg&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+        tags: ["Akihabara", "Anime", isEnglish ? "Electronics" : "Elektronik"],
+        placeNames: ["Akihabara Electric Town", "Mandarake", "Yodobashi Camera"],
+        interests: ["Alışveriş", "Kültür"],
+        accentColor: const Color(0xFF9B59B6),
+        icon: Icons.videogame_asset,
+      ),
+      CuratedRoute(
+        id: "tok_shibuya",
+        name: isEnglish ? "Shibuya & Harajuku" : "Shibuya & Harajuku",
+        description: isEnglish ? "Fashion, cafes and youth culture" : "Moda, kafeler ve gençlik kültürü.",
+        duration: isEnglish ? "5 hours" : "5 saat",
+        distance: "4 km",
+        difficulty: isEnglish ? "Easy" : "Kolay",
+        imageUrl: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHqKxmFsaiCkDfeclQNu08VM8t6wd97eak5A6af1nkbyYNesnhYd7SoYcww3SOFNbk-aeTuSAOkcYU3DfzBnGAwvygHAN2wNkGL44jgcvZaa7E4ONZJAXY1wL94LXC8ggkSXZ76G_HehW4hXksDXZULA8tavVgh0Ew4j7cf53LjPnbI-fb8mQyMiwFe2UHkqNV98CdxT8tEOXPbQBaWyOzTKHoeD8f0XRh_249K7vn16jK4aRGZfH9JC1DIKC5LjyOq6btfuv5uZ05G3WpolhSx7zzGYrVpKmM5BojEu4A9LvUdkC59wwxEkHgZj_SF1BVZAb17LBt0Dqbs1AtTP2fJcb2P_O-KLlDXi0-SdtdhXxbuAoYOzy15YsI1aAyovUjW1g2qx0CyYs6mhwuxj2LMQ1l8fq6hpOOOnwRTi13hn8I--xOMJYrDt7d-Afv3ozn9usZR-RqdSsvTpktS_gVvx6kAKsjle4oYN6AfZmpyVzqwL-iT4W9ZDAqSFRMEa9U1f5NTA_Pukgm_z3JX2TgCeB3amSuhBGA1ztxxNBn8thhLYZLTTypVH8WTrSw6cgx6S-RCN&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+        tags: ["Shibuya", "Harajuku", isEnglish ? "Fashion" : "Moda"],
+        placeNames: ["Shibuya Crossing", "Miyashita Park", "Takeshita Street", "Cat Street", "Omotesando"],
+        interests: ["Alışveriş", "Fotoğraf", "Lokal"],
+        accentColor: const Color(0xFFE91E63),
+        icon: Icons.accessibility_new,
+      ),
+      CuratedRoute(
+        id: "tok_tsukiji",
+        name: isEnglish ? "Tsukiji Outer Market" : "Tsukiji Pazar",
+        description: isEnglish ? "Fresh sushi and seafood breakfast" : "Taze sushi ve deniz ürünleri kahvaltısı.",
+        duration: isEnglish ? "3 hours" : "3 saat",
+        distance: "2 km",
+        difficulty: isEnglish ? "Easy" : "Kolay",
+        imageUrl: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHrDrIHFdraO937qE6fNVWazZyM8egDOqqlcGqsFwypmqDdsxUajrhWcO1sbLABFGbQii2P5siB-1weRruqcTCFBhR1fD-Vjs69FJatwUtJ0m1zK3QmtDgko5vlMEcaiByLGi2zmQNubIKY46eTKYpcUr28SCh2hSE4r9GUrnhsnb0Ud9W5F8QJ01dY1Bxy10wbCLwFeD4_Eya6NSO4EoJkPI_Ng9B7meHfpGDzlmQaZQmhgB90orQEkcc541_mZ7nXs7piYbcE1wPVw2Dk9GZ0Ew-auj4c7eaf3sgscX3DsmkfnI0QBvF2Yb5KC2tbZw4rCaQuqfQ5x42k3u7ynfdV8baMez3acA1kpTWdA9_QHns1BOhdo0xi_AXWkjpBys0SjHW8eeWHEkV4cbksFtnEnuknWAad1rF7EyopVMG0ngFJDnslEG1GF1b8jjnB9Q1BaQw-TJvQKFjoT_WDJ1KLsgiPKZhlLX4GfUYTpHljGmg46S61qj-oRDp3AFnvF9Xfs9fTqGOCnrYuuroMe7ZqdCqtJOy2OWUZ3cNRAg8DEAyk-oXCXfX9OTbHXCTvblqw04A2j&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+        tags: ["Tsukiji", isEnglish ? "Sushi" : "Sushi", isEnglish ? "Market" : "Pazar"],
+        placeNames: ["Tsukiji Outer Market", "Sushizanmai", "Tamagoyaki shops"],
+        interests: ["Yemek", "Lokal"],
+        accentColor: const Color(0xFF3498DB),
+        icon: Icons.restaurant,
+      ),
+      CuratedRoute(
+        id: "tok_shinjuku",
+        name: isEnglish ? "Shinjuku Night" : "Shinjuku Gecesi",
+        description: isEnglish ? "Neon lights, Golden Gai and izakayas" : "Neon ışıklar, Golden Gai ve izakayalar.",
+        duration: isEnglish ? "Evening" : "Akşam",
+        distance: "3 km",
+        difficulty: isEnglish ? "Easy" : "Kolay",
+        imageUrl: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHobHpTZSOVjEcwtR7Jgpb0f16qyayJaUM2a9Ozgu4XfGt_zReskGbDxrDWBPkSAEMBfIwZLX_lDMfuEv6DCL7xLEaJwFlvRo9sydY2iiBUNijjaT3qBLbW_Zyo0iel2cyneyH52wNVNcOCgGhA0GpUwEPBJ5_IOTzhomtV61SWUHoK241P0DqWRjH1wedxa8yytTHPullIVGmMSvKasZFvp3gr4FOQRlrmpfUar4l_smsohiBCehDYi0iox6htQHsy-FJAzQsIDaYvTnAsVerNStYU8BsI0HsUkFNL3IAGrc2GEvS-gJJ3nBNDy6WVAt33pz3R0LzdkZyoMbYwqnfPmmIqcqMyTLBRMQloYAPrjVqRm1YBiLXOjg4iRaASNdpg96ohr0IdYOorECyTrHsSiurxe60YZoEwa_KKL83q9Gc9gGmfr35b2A4oN3OaNsraQJ6ebtXDmprZUtB4vR3SBbtJZhT2mhcr9K6BhAjS-wNXg9B6S2FPjLQyaykLsvKdMQU5NzYPuU1qhMWmV2JRv8r6VuSnBvIQcZcJYWq4oRlgsgPya4qD4TwTZHOaLgDU7vF3yxghYpDM-2dGGz6J0Gk4&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+        tags: ["Shinjuku", isEnglish ? "Nightlife" : "Gece Hayatı", "Neon"],
+        placeNames: ["Kabukicho", "Golden Gai", "Omoide Yokocho"],
+        interests: ["Gece Hayatı", "Yemek", "Fotoğraf"],
+        accentColor: const Color(0xFF8E44AD),
+        icon: Icons.nightlife,
+      ),
+      CuratedRoute(
+        id: "tok_teamlab",
+        name: isEnglish ? "TeamLab Digital Art" : "TeamLab Dijital Sanat",
+        description: isEnglish ? "Immersive art museum experience" : "Sürükleyici sanat müzesi deneyimi.",
+        duration: isEnglish ? "3-4 hours" : "3-4 saat",
+        distance: "2 km",
+        difficulty: isEnglish ? "Easy" : "Kolay",
+        imageUrl: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHr3mJPmaNODa1IJ5BD8FRW34vBqNPjUqSJgDisVArLloVw30y7Fk3PTHDxEAL15A9vNJ_6JjG6GZbtpuv7XXONpoovPhFFZ6TRY-S4R3nuuk2iGRbIfPjRpqHkuE9HZs7edNxf8JvdbPQGXlhJp-1wqoSJC82CdJZU3dKyNo6W7Acnf_ILbsH1QZ9VUU9BFcOD-4NP2GFEo05q6EgLckFezht8YmHgdHZUcLQPcZoDO_vHDl6jQpTwDRlddBeEF3Luwl55D504mlA8riUuhCla2cdcXgY2zYt0pKaIRaeC_JESB64uss39h_lxDypXNTRrgeUJmSqatY1WC_ynQ0_KOD5Qi6cDUGT2LYSh-ukXmcFY-zAfR-vz_Z_mSUyqlSn4A7xYW4nExNVOpqkKqd1nksVxat_tvqCFGy19j7-v20INdecZvxU6f2q1oGdR5lErKOo3p13bxfWriPi_rwwx2fmVfZ6yBMb0aeiZl-tUteLi0qx-4CPqc85KNdQogsjW9fxVEzuqVB_u76rThEJrBljkpayayhT5_1VgjTb2ToEZtIYDcEiwEAJd6jD9gk0lXTQ&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+        tags: ["TeamLab", isEnglish ? "Digital Art" : "Dijital Sanat", isEnglish ? "Immersive" : "Sürükleyici"],
+        placeNames: ["TeamLab Planets", "TeamLab Borderless"],
+        interests: ["Sanat", "Fotoğraf"],
+        accentColor: const Color(0xFF1ABC9C),
+        icon: Icons.light_mode,
+      ),
+      CuratedRoute(
+        id: "tok_shimokita",
+        name: isEnglish ? "Shimokitazawa Vintage" : "Shimokitazawa",
+        description: isEnglish ? "Indie shops, cafes and live music" : "Bağımsız dükkanlar, kafeler ve canlı müzik.",
+        duration: isEnglish ? "4 hours" : "4 saat",
+        distance: "2.5 km",
+        difficulty: isEnglish ? "Easy" : "Kolay",
+        imageUrl: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHqHnjhUJt9IqqWvg3hCgDNeJjciin7aIhftfZ4A-WvpcsamgqFqaI7qouiKj4XfyL_OwrSvzlTk0Ykbp_Yq0bgAlR6H2ke6F64lRWlpLAlMi0HKXJjW1bGcnP46z3jql6P2uDB21T_BWgNFTtUer0z3KPMIfoE4W5eMhYDQhoi1XrAiF7fmE5vW8Rn__ANRjfM4a4kDoWp5CUphhtCjMMIVuOfnfDyqz0ZGop4IPgZGesTyFO4bdpZjpte9lngan7_iNAL-AFKeLOMvs_ahoezs5LT7XR0bVQ616zLGdVnS2gKfyxc&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+        tags: ["Shimokitazawa", "Vintage", isEnglish ? "Music" : "Müzik"],
+        placeNames: ["Shimokitazawa Station", "Vintage shops", "Basement Bar"],
+        interests: ["Alışveriş", "Müzik", "Lokal"],
+        accentColor: const Color(0xFFD35400),
+        icon: Icons.music_note,
+      ),
+      CuratedRoute(
+        id: "tok_konbini",
+        name: isEnglish ? "Konbini Food Tour" : "Konbini Turu",
+        description: isEnglish ? "Discover convenience store gourmet" : "Market gurmeliğini keşfet.",
+        duration: isEnglish ? "2 hours" : "2 saat",
+        distance: "3 km",
+        difficulty: isEnglish ? "Easy" : "Kolay",
+        imageUrl: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHptG6t_dEGhQ6H9H_SRVZ0Bb2k4mnUNoEkmAy2MOwnbyG-EMnp2zL65bIOMUoA3jWxEa-0M7HPvaIZ_-dYlN7ptPCKer2O8L4NLTnnqqdAj_20beO1UnwEtkfyeZ77kz8GYpPcgoB3KAoTXBxBLMEAUAahq9esR80bJOevuJFRCcPoSkru0jwpVhAKc4a8k-BVFjXQHU_TV7GaFUTSOzBiCUgTaRMiV_tffOgFrpm5aEBQkse7GlHTc6SGd8foVptqkWcbULcTX-9VKG5bTnGTQ2hKpIzyuqe-PIMfJi-NFVsyxczKWeWkROs9fWHSfvz8MAm61AJr6uZoLQS94j1YbUvaLF9AbWkaAukw49QbEMQ_bAYhPUJOqYrp1uBtvGdurLfRdHp_z_ElKlNXh4nRfTXiiGhRHAy0Ey0gsTdENFp8oBitcxc9zlexI_fX6apsne9e5g0aomAdG2jlNYdW_KPts1EzDVQ3jtcg-eD-M3XUt9Yjwfbpc5vY-pk_k5jcW9wMx4NSPZWcNF7zPDozWgMMSzlpGcxkV_BTFJzKuGug6bL3SF2Nj8L9pQFWOOAm7gYJHAgdDLe5wqUiL37F40I4&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+        tags: ["Konbini", "7-Eleven", isEnglish ? "Street Food" : "Sokak"],
+        placeNames: ["7-Eleven", "Lawson", "Family Mart"],
+        interests: ["Yemek", "Lokal"],
+        accentColor: const Color(0xFF27AE60),
+        icon: Icons.store,
+      ),
+      CuratedRoute(
+        id: "tok_asakusa",
+        name: isEnglish ? "Old Tokyo Asakusa" : "Eski Tokyo Asakusa",
+        description: isEnglish ? "Senso-ji, traditional crafts and street food" : "Senso-ji, geleneksel el sanatları ve sokak yemekleri.",
+        duration: isEnglish ? "4-5 hours" : "4-5 saat",
+        distance: "3 km",
+        difficulty: isEnglish ? "Easy" : "Kolay",
+        imageUrl: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHpw70zWLmPE59Ob9goT_XBmwkVr5QzIKMmE-RUsJfAsJufzn6hfb-mlO-2hOq2M9yqdSo1pBZUkUsJ89cfvn_cdQXah_z7T3Dj7r34eC8AM4kosTBMsTM-whGofRvGa08cSXL0WEXX_lMf3cItbn85__hmJ-AL07ZIh3nlwImH8pa_aAEyz5qDibPL3XXoGSxU0ScmvaKNOuuOuea2OuDMGsqe2tPep4qVy0tXDHRHYobC-7_WQJyoRXlNq5XnXCh3IfDzZhQNG4gKWNyI91_IU5s3yg-QMMoo9Y8Ov-lT7HCvkcXJP-kA9-G3oj_jBFRZTLDf5Q1ZXAi5ZMKqIqkl6wtgQcgI_f4086SdYnrbBU7cnAfcdAz_gTFuOMNUconG6SMR2ZCcxu83OlJFTHP_z3EArPMNpS09m8WtMt0J8T7iih-tX5JHvQqiT0cIn4Os8wnsZzGDTSRATNFciv5gbw5BoD1lEIJ9OnVK8_rddO-QwOhWS55PbIUeK1LYZQz-M50_PP8Xs3g0nBO0wsupYbu8S2TxA25bc01hmcTLb8_eps_NEKR6vOrI666Q2ZrcYX1H8&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+        tags: ["Asakusa", "Senso-ji", isEnglish ? "Traditional" : "Geleneksel"],
+        placeNames: ["Senso-ji Temple", "Nakamise Street", "Kaminarimon Gate"],
+        interests: ["Tarih", "Kültür", "Yemek"],
+        accentColor: const Color(0xFFE74C3C),
+        icon: Icons.temple_buddhist,
+      ),
+    ];
+  }
+
+  // ═══════════════════════════════════════════════════════════════════════════
+  // SEVILLA ROTALARI
+  // ═══════════════════════════════════════════════════════════════════════════
+  static List<CuratedRoute> _getSevillaRoutes(bool isEnglish) {
+    return [
+      CuratedRoute(
+        id: "sev_historic",
+        name: isEnglish ? "Historic Heart of Seville" : "Sevilla'nın Tarihi Kalbi",
+        description: isEnglish 
+          ? "The essential Seville: Cathedral, Alcázar, Jewish Quarter and hidden colonial archives"
+          : "Sevilla'nın olmazsa olmazları: Katedral, Alcázar, Santa Cruz ve koloni arşivleri.",
+        duration: isEnglish ? "7-8 hours" : "7-8 saat",
+        distance: "5 km",
+        difficulty: isEnglish ? "Easy" : "Kolay",
+        imageUrl: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHoAB2cklrOxREE3UNVsxB28Vo_VPALd0Ve3LfJUTXEqG1CxPhqoZvJg8l2cmdcpB7OzNGPbM1WRZZKyUoJkpsi5uf4PZNBlOz7ehLImnxdEfek5D-d8SBOfBhPC7GuRwElBUd58kIQSvxLdS5SDJPnIQg-IO3QRxVStXatoDPJGI0P5XuAnuT-xyNkPvOBGm7sjvWkUYTEDq2Hcau_IBiC0n0kvMs0POKeJX7naeX85kwcLoyOzBLZ5mMR-PsTvihCJ443XQSqWAQDhLMmrZ11FWNV_sJcFWP7-TlG0pRNCtwz-Ewflgan-wf1BWOMPQoVMKXmIILRURVI_AkqtZC1LSw6zgwFOI0rFeoU2bgdYfplo-FnyzDX3okDd0xNIxYk2wNA2iFAuwf1ZNx3tTqfxmrnVuzLrMj7ZFtXyNLZbz7SZHOXIXdRd6f38CCjbyo_zi4jFRe8lVC-FMqfzlxWoao423SOHnDdTfzccusrFXGHr1khw0xYSpXToFrO5-9EC2HXSMR35rcO5SGHwnohuly6ADWoIk1ZC4TQLODp6iEnreXsWDJUa7AxEjEMDB53vRwgJ&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+        tags: [isEnglish ? "Historical" : "Tarihi", "UNESCO", isEnglish ? "Must See" : "Görülmeli"],
+        placeNames: ["Real Alcázar", "Catedral & Giralda", "Plaza de España", "Plaza del Cabildo", "Archivo de Indias", "Santa Cruz Neighborhood", "Hospital de los Venerables", "Jardines de Murillo"],
+        interests: ["Tarih", "Mimari", "Fotoğraf"],
+        accentColor: WanderlustColors.accent,
+        icon: Icons.account_balance,
+      ),
+      CuratedRoute(
+        id: "sev_triana",
+        name: isEnglish ? "Triana & River Vibes" : "Triana & Nehir Keyfi",
+        description: isEnglish
+          ? "Cross the bridge for ceramics, flamenco and riverfront walks in the old sailors' district"
+          : "Köprüyü geçin: Seramikler, flamenko ruhu ve eski denizci mahallesinde nehir yürüyüşü.",
+        duration: isEnglish ? "5-6 hours" : "5-6 saat",
+        distance: "5.5 km",
+        difficulty: isEnglish ? "Easy" : "Kolay",
+        imageUrl: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHq9o1t2-irn83Lc0USHJVNz3D86ID32kHY8cxldUVPHN8LyXiLA94Nbr5B9NEokAvkfQKgbRgyBnwCxrMhfyvMImY9sD4jQM7edsXVBRT5uRLptVsVNZ-JeWDkI43082wrrpHZKue65drB2QwAxWelho7FUT-cfG7aUu2QIcHefRkYIyllelXBGBKDlo1N5QjrXQvCLRyFK-PVl4Q_6UVSRqxVAGUT1feM13ScFRhHdtwdkVz2hGN_LhrDmUwbjNWfsj5cvUpBGaPkvdAfC6rdc9pcmCUDGae0bLJ7wP0wQcETFyb3hZIlLao1AbxAiJ_Tg3BdJL23ap0VNiPFTHDTRac4LqrwbyGZLC8MSEVWZnkJ3ovrHwO9ss5A-Yxod_WWJ-6-7e6HvTAKm7tD9nWz7qfXToG4SQz16MvCYZnYsrn3iyI1I1Xl4a9onSodC5Tc1OTu9s_W14MJkDhlCi4NXkZqb9C3qoHeZ4RINWFup4VJLFd96qjBALJC9JVR9vF7vGoJYrDx1ZcEPtsF1B65p8UHqccyr90LM9cCTQp1tBi_mbuOEh-NeFwZhoh5lPr6Gelr9J27wyfA&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+        tags: ["Triana", isEnglish ? "Flamenco" : "Flamenko", isEnglish ? "Local" : "Lokal"],
+        placeNames: ["Triana", "Torre del Oro", "Mercado Lonja del Barranco", "Castillo de San Jorge", "Calle Betis", "Puente de Isabel II", "Mercado de Triana"],
+        interests: ["Kültür", "Lokal", "Yemek"],
+        accentColor: const Color(0xFFE74C3C),
+        icon: Icons.music_note,
+      ),
+      CuratedRoute(
+        id: "sev_modern",
+        name: isEnglish ? "Modern Seville & Parks" : "Modern Sevilla & Parklar",
+        description: isEnglish
+          ? "Stunning Architecture: From Metropol Parasol to the lush Maria Luisa Park and Expo legacy"
+          : "Göz alıcı mimari: Metropol Parasol'dan Maria Luisa Parkı'na ve Expo mirasına.",
+        duration: isEnglish ? "6 hours" : "6 saat",
+        distance: "7.5 km",
+        difficulty: isEnglish ? "Easy" : "Kolay",
+        imageUrl: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHpNNcvfwr_em605zAzQvATOYaKqmRdGqg6xQaYx72Oo0_BhhcqhYtQ9mksG32jX0vfRMFcmsFPD-hQ9m-eRYIacjYqN7Z1ZF3GZmzzohOyN8WT7_4gdI8DgLOPIKqUXJ0AMxnSwc4RQ3d2Osf7BxtAgKRnFQXyR4I0WRNrTU-xm6a6V0pf-KvLi89Y5WEyR1tQ6t1hMm-0QRc9rlxak3bPZSG1Payl5KL4SOQR5QxT39kAdzjY7a7P2ggg1P-AGJXN2QbWh0hLwlBKDQoY24ny6MR8cUuxT_6VzKBp_wQcETFyb3hZIlLao1AbxAiJ_Tg3BdJL23ap0VNiPFTHDTRac4LqrwbyGZLC8MSEVWZnkJ3ovrHwO9ss5A-Yxod_WWJ-6-7e6HvTAKm7tD9nWz7qfXToG4SQz16MvCYZnYsrn3iyI1I1Xl4a9onSodC5Tc1OTu9s_W14MJkDhlCi4NXkZqb9C3qoHeZ4RINWFup4VJLFd96qjBALJC5JVR9vF7vGoJYrDx1ZcEPtsF1B65p8UHqccyr90LM9cCTQp1tBi_mbuOEh-NeFwZhoh5lPr6Gelr9J27wyfA&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+        tags: [isEnglish ? "Modern" : "Modern", isEnglish ? "Parks" : "Parklar", isEnglish ? "Architecture" : "Mimari"],
+        placeNames: ["Metropol Parasol (Las Setas)", "Plaza de España", "Torre Sevilla", "Maria Luisa Park", "Pabellón de la Navegación", "CaixaForum Sevilla", "Puente de la Barqueta"],
+        interests: ["Mimari", "Fotoğraf", "Doğa"],
+        accentColor: const Color(0xFF3498DB),
+        icon: Icons.architecture,
+      ),
+      CuratedRoute(
+        id: "sev_tapas",
+        name: isEnglish ? "Authentic Tapas Crawl" : "Otantik Tapas Turu",
+        description: isEnglish
+          ? "Sample the best local flavors in the city's oldest and most iconic taverns"
+          : "Şehrin en eski ve ikonik tavernalarında en iyi yerel lezzetleri tadın.",
+        duration: isEnglish ? "5 hours" : "5 saat",
+        distance: "4.5 km",
+        difficulty: isEnglish ? "Easy" : "Kolay",
+        imageUrl: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHpXQaB_DzPtqWZlkhQKlEoesev5cJl3DPS3ktacbNn_Q5-otJJTVvENvppLgKi80CCvPNt8HVxE52GmlFUlv52AuPqy289epIpv0Na4Vp4gvFygs2k77JbrMTjPOe4iOlUnNKOVvd7KH_dcDXK-NR7MHw2GAAwOsw8B8tVItOZ3hxnlmQxeH_jO1MEmyrntNbR_lIVEUraTLvtHQWZp_vw_atO6v9KKjTskxNYXC4bIgZtOLfVDl2t37fNxWVL1VLVEExunT52FMmD_thi9G6bR63GIjxP0XVEPY-u2xJMVYClz1WzcRmCnFZmYgfdEDGg1AB2mwzP0PsH4AWBA6xAMXoGtaSsDwzStn57lZlxzD2vvMQLJcGmNV6ekqv82PD5k5dLxsZDuUfHGwdaYzsxHFa7lYrdElwLNv_M8W5LK-sxNOaU67owCg6OQnxj9oMhwboFNhRqnxifAeU85_h7rZZ-KeXIyAcLNZqlOQK4CJeZEBAJNyzkkQ1d-x56cfNqUDfndPpz0XwzjYxn80ytPGCMS5Wy02rR6J4Ig7e27ikaSu1X3lSitxWeXq1FOf5DbETNZCXZ5HTfPFAB2u_aw6FQ&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+        tags: ["Tapas", isEnglish ? "Food" : "Yemek", isEnglish ? "Local" : "Lokal"],
+        placeNames: ["Bodega Santa Cruz (Las Columnas)", "Eslava", "El Rinconcillo", "Casa Morales", "Las Teresas", "Mercado de la Encarnación", "Cañabota"],
+        interests: ["Yemek", "Lokal", "Yemek"],
+        accentColor: const Color(0xFFC0392B),
+        icon: Icons.restaurant,
+      ),
+    ];
+  }
+
+  // ═══════════════════════════════════════════════════════════════════════════
+  // MADRİD ROTALARI
+  // ═══════════════════════════════════════════════════════════════════════════
+  static List<CuratedRoute> _getMadridRoutes(bool isEnglish) {
+    return [
+      CuratedRoute(
+        id: "mad_classic",
+        name: isEnglish ? "Imperial Madrid Landmarks" : "Kraliyet Madrid İkonları",
+        description: isEnglish 
+          ? "Step into the grandeur of the Spanish Empire: Majestic palaces, historic plazas and the bustling heart of the city"
+          : "İspanya İmparatorluğu'nun ihtişamına adım atın: Görkemli saraylar, tarihi meydanlar ve şehrin kalbi.",
+        duration: isEnglish ? "6 hours" : "6 saat",
+        distance: "6 km",
+        difficulty: isEnglish ? "Easy" : "Kolay",
+        imageUrl: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHrKdmxOIEBeDbAO_Dh5R3_hBoUiFjJovfKSTpLPDZhjVvHVnK4BqEs4yqE_ASeWrZHeOCQ5ztNuQ2AA6R7hY6QqSENOo8G-IxlUZrdewywbSr1kHIAeo3oQQZS_QvkDu2BOkQ_3CniscvJdmnlB9SL-ggAqjF6SWjLbMosvs_fh6Rv3QGPDAWhCKF05w5yADeMSjHmMkBDlJh96nF0AKp2GkQ5OJJBNYxguswMrZSNw0rA-W4TKnwkasE0rwW3vTWCb2Do2p5EV9i8gKHAHIMMxqP3nC82S3IAWev4igYd83o-z1A_aVikIEIJfjSTfzNwfOtHaRfycJ5gJFlgwT-3Wjkuquf6Pa8TypCPutR_szptnOTlul0jP1IeZceYF0pD0ONPsWFalGHEXcI1VhjFTj3rdx_sQQ5pgPRlygZuGRC6YR6R1ZHI6c0OEjoHWxTv4JY7bLEth77ly444lrAMmOxenO2hJNlS3_YG437c6wLu1r33mpHplYF1qtT4IkJ7AClqnAnKNLoocr-Yeg-2G1kajg7HwOrhjTJkB6-xo11uw0Rc6z0lSiGeYlekJgmaTyppRqAMN2wPm1qgq5VzKBwTEPaA&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+        tags: [isEnglish ? "Imperial" : "İmparatorluk", "Palace", isEnglish ? "Historical" : "Tarihi"],
+        placeNames: ["Palacio Real", "Plaza Mayor", "Puerta del Sol", "Gran Vía", "Plaza de Cibeles", "Templo de Debod"],
+        interests: ["Tarih", "Fotoğraf", "Mimari"],
+        accentColor: const Color(0xFFF1C40F),
+        icon: Icons.account_balance,
+      ),
+      CuratedRoute(
+        id: "mad_art",
+        name: isEnglish ? "Art Triangle Masterpieces" : "Sanat Üçgeni Başyapıtları",
+        description: isEnglish 
+          ? "A journey through the world's finest collections: From Velázquez's realism to Picasso's bold Guernica"
+          : "Dünyanın en iyi koleksiyonlarında bir yolculuk: Velázquez'in gerçekçiliğinden Picasso'nun Guernica'sına.",
+        duration: isEnglish ? "Full day" : "Tam gün",
+        distance: "5 km",
+        difficulty: isEnglish ? "Easy" : "Kolay",
+        imageUrl: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHrwJp7l_w4PT2jyChyd4L7Fbyk5KdYQVvijD4MKPXjoEe3f0VUnJA6ddkWHTZEhrCuSKNvTeWtym3ouW6pxgTzpS7PXDK8s-pWwCQYOBtnzd5Y05PFReohHlt0ZFAH3HJdEw4rItFwIWn6CAkiOTRB3mRpcZYmjuCij0at6Kbxb95SrnWcIECkT-64LJSl0g0LqegssDgAWevr3TSdGykNJploJwpKbRTGul7RddEB6Pgs_R8k68R6yYKxn5WiPw_zAAW9RRHBityif_Mq-ntZ1USJcvaQWMEEnuwAeix2xpT9aGnyG4ZSaA8yVxz-eIR6GFIqyWJZATioOPG87Lk4uCO8qyLK8c4eL0xuhItYLQ-f7ft9ANVGVIt39g_VD6lKhR0Hnnt4qyOBz6ifAqYB_pne84nsE7BDFJVOlmQusbyNZKefIzy25EKvO1IpXdzyABD8XyH6bbTfV6BwMWMseIQ0jro1F3weO7e_J4Dq1TWBVGzFEZ8ip_qaBWjyr8Z7GFAWBwCfhXL59knbJ02ZufSxv3yd9ehFEW3VG-oQyeluu7b01QBC0q-aEADiAqoWSe3SytUrtqQ&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+        tags: [isEnglish ? "Art" : "Sanat", "Museums", "Picasso"],
+        placeNames: ["Prado Müzesi", "Reina Sofía Müzesi", "Thyssen-Bornemisza", "Retiro Parkı", "CaixaForum", "Atocha"],
+        interests: ["Sanat", "Kültür", "Tarih"],
+        accentColor: const Color(0xFFE67E22),
+        icon: Icons.museum,
+      ),
+      CuratedRoute(
+        id: "mad_royal",
+        name: isEnglish ? "Royal & Historic Madrid" : "Kraliyet & Tarihi Madrid",
+        description: isEnglish
+          ? "Step into the grandeur of the Spanish Empire: Majestic palaces, historic plazas and the royal gardens of the monarchy"
+          : "İspanya İmparatorluğu'nun ihtişamına adım atın: Görkemli saraylar, tarihi meydanlar ve kraliyet bahçeleri.",
+        duration: isEnglish ? "5-6 hours" : "5-6 saat",
+        distance: "4.5 km",
+        difficulty: isEnglish ? "Easy" : "Kolay",
+        imageUrl: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHrKdmxOIEBeDbAO_Dh5R3_hBoUiFjJovfKSTpLPDZhjVvHVnK4BqEs4yqE_ASeWrZHeOCQ5ztNuQ2AA6R7hY6QqSENOo8G-IxlUZrdewywbSr1kHIAeo3oQQZS_QvkDu2BOkQ_3CniscvJdmnlB9SL-ggAqjF6SWjLbMosvs_fh6Rv3QGPDAWhCKF05w5yADeMSjHmMkBDlJh96nF0AKp2GkQ5OJJBNYxguswMrZSNw0rA-W4TKnwkasE0rwW3vTWCb2Do2p5EV9i8gKHAHIMMxqP3nC82S3IAWev4igYd83o-z1A_aVikIEIJfjSTfzNwfOtHaRfycJ5gJFlgwT-3Wjkuquf6Pa8TypCPutR_szptnOTlul0jP1IeZceYF0pD0ONPsWFalGHEXcI1VhjFTj3rdx_sQQ5pgPRlygZuGRC6YR6R1ZHI6c0OEjoHWxTv4JY7bLEth7ly444lrAMmOxenO2hJNlS3_YG437c6wLu1r33mpHplYF1qtT4IkJ7AClqnAnKNLoocr-Yeg-2G1kajg7HwOrhjTJkB6-xo11uw0Rc6z0lSiGeYlekJgmaTyppRqAMN2wPm1qgq5VzKBwTEPaA&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+        tags: [isEnglish ? "Royal" : "Kraliyet", isEnglish ? "History" : "Tarihi", isEnglish ? "Palace" : "Saray"],
+        placeNames: ["Palacio Real", "Jardines de Sabatini", "Plaza de la Villa", "Teatro Real", "Plaza de España", "Templo de Debod"],
+        interests: ["Tarih", "Mimari", "Fotoğraf"],
+        accentColor: const Color(0xFF3498DB),
+        icon: Icons.castle,
+      ),
+      CuratedRoute(
+        id: "mad_park",
+        name: isEnglish ? "Retiro Park & City Icons" : "Retiro Parkı & Şehir İkonları",
+        description: isEnglish
+          ? "A breath of fresh air followed by Madrid's most iconic monuments, grand boulevards and skyline views"
+          : "Madrid'in ciğerlerinde bir mola; ardından ikonik anıtlar, görkemli bulvarlar ve şehir manzaraları.",
+        duration: isEnglish ? "5-6 hours" : "5-6 saat",
+        distance: "6.5 km",
+        difficulty: isEnglish ? "Medium" : "Orta",
+        imageUrl: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHrUuX6_fPszs4GPhWNYe1Oqt6UCBT1kUbj6AX34SCdr88_kfnpQPmNURZdTJXqrHHMehpwUZ-CmZUPtbVRfc9_-ADnOJqtpIZdfc7DE8Q78kX6909vlNqMDCfnOYah3q7pHh4KfcOxMNSAh296grHIwqvcRnmowmBaW9Cy2TECHIYpU2_chWpbmuN_lQAH5kjtuAzczYM6mJdJ6vLbb1JoxMdjSGAnE-yrJw2L4IKxuaUqXiaLnfh7rahn1bm-F0rAKl4PUpXz_CE3EUXn8p3-Olq_x3dR5AMaPScY8KSVG49Wb0W8hQR9XxG44y9J2-MCsSxRHYuMGEnStlpRMIn4yHT4E7AzqWKM9jp1jqhotfGsjmmBVGjmkMT1MPh1lMPAmONnq8YkPhXG_221hpwrbDEjgQzavt6lAMtQQ0m6VnkFDvM1vemjoln7GHdZ54buUhMVLUX8coepMJnodm50pP_FGp8Nb3tumDuB4rooNn0y7ZoZIGXO8Vm8FPs8CgT4hhAXUEumS_26WHqnnCqjAXYfpG5Pe6cK5ojOrSvHO63g_NUdH5mciyh9Db6j4xQGdjA&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+        tags: [isEnglish ? "Parks" : "Parklar", isEnglish ? "Views" : "Manzara", isEnglish ? "Outdoor" : "Açık Hava"],
+        placeNames: ["Retiro Parkı", "Puerta de Alcalá", "Plaza de Cibeles", "Gran Vía", "Círculo de Bellas Artes", "Edificio Metrópolis"],
+        interests: ["Doğa", "Manzara", "Fotoğraf"],
+        accentColor: const Color(0xFF27AE60),
+        icon: Icons.park,
+      ),
+      CuratedRoute(
+        id: "mad_tapas",
+        name: isEnglish ? "Tapas & Flavours of Old Madrid" : "Eski Madrid'in Tapas Lezzetleri",
+        description: isEnglish
+          ? "A culinary journey through historic markets, legendary tabernas and the most authentic foodie neighborhoods"
+          : "Tarihi pazarlardan, efsanevi meyhanelere ve en otantik lezzet duraklarına gastronomik bir yolculuk.",
+        duration: isEnglish ? "4-5 hours" : "4-5 saat",
+        distance: "4 km",
+        difficulty: isEnglish ? "Easy" : "Kolay",
+        imageUrl: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHoF48j77lDRXLPHIWFVyCO2-NKOUObR1tO8bde5ofdf45L7waXP-Vgi210RpC-jihNvGJUHvo2vqVQFRVff1vDVxD2YQw5ioFovyxbxJ63ot2a7DtYeh4BSGXv6t-26cX3Bei-zWz4dXL3KG-U8PgsI3NfCG_q3VbD-QbeLBq_icCwofRgFMnKNq11nbvDZZLyLPc0z9bd9XbZndEb6vC4yJju6xw8rTPuMtO8Yer1x_dkg6k_cM9om4r08ESc6GR8UIcypLLPm1TL-wk6EeD0lb1DTD75efb_-sDiBV_zwq50Zj9SkkbJC-7S-QlcmxELnQ_6o4ASPWCS6Mm9VU2AvD962HseVabYo-ceAvNWu5S3AvLLvExpekWyHipXI1SvHAb8DrMbFUZKFajNCKaCV2nHRuCaEW0WXYy4moOYOxY8ls_Mzbb7Mm-SFupPYHDwHf0OQaIdYWXFcoYffvCIU-yrtR7BPui0oeM8h1z69i_eBK7sr0oJxY7L-NfQt-VuzKyM7hAqjR8oNBH7EGrH9xAQLO1i8nAhcw7by1xrWld5iFqVLnUKhwLUwXxUjyeVw5YiHF8vGrA&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+        tags: [isEnglish ? "Food" : "Yemek", "Tapas", isEnglish ? "Markets" : "Pazarlar"],
+        placeNames: ["Mercado de San Miguel", "La Latina", "El Rastro", "Chocolatería San Ginés", "Casa Labra", "Sobrino de Botín", "Casa Lucio"],
+        interests: ["Yemek", "Lokal", "Kültür"],
+        accentColor: const Color(0xFFE67E22),
+        icon: Icons.restaurant,
+      ),
+    ];
+  }
+
+  // ═══════════════════════════════════════════════════════════════════════════
+  // FLORANSA ROTALARI
+  // ═══════════════════════════════════════════════════════════════════════════
+  static List<CuratedRoute> _getFlorenceRoutes(bool isEnglish) {
+    return [
+      CuratedRoute(
+        id: "flo_renaissance",
+        name: isEnglish ? "Renaissance Masterpieces" : "Rönesans Başyapıtları",
+        description: isEnglish 
+          ? "The essential sites of the cradle of the Renaissance"
+          : "Rönesans'ın beşiğinin olmazsa olmaz noktaları.",
+        duration: isEnglish ? "Full day" : "Tam gün",
+        distance: "4 km",
+        difficulty: isEnglish ? "Medium" : "Orta",
+        imageUrl: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHosPEEG_n3nMlPy0PL-jwBWhwgqLI7E7IgdRxzj5Bht1fN8TFUqI25U7P3AjZz0EXHFO2gQ_YyttSvW_22qJIiQV4x8gmdrYZuxyTPAQeFy0QJ4Ai9LSA-ziB2MTmMadt7gVwuAMPrgu_oeKFpL5qOEfEvGlv3TL5L9jpfqEMcim2Ca9DTXg2GvDlpo2Lvi4XfJgkjlFMCCHVtOP5c9gSDQLrlpGNdaZw7cgXIL-VLU-p22DZ4S4G-oK6WXbP07jfW9A5EOiXO9MMhTgxM3x7FqXyKXXL9-4ncu3TDHYSE5m2GHad9Gq-866Bl51n01rKPG5gHDEnIrJtYn6jUEBLHhztBdmHNbcj2PW951DgDbemH9tZZTZBRdXZF0TOmjPpS08q91mvyY9Q2pl0FsUlXdQ_PnPLTpjQXua1jk7kZ-xwJXzIoXqqWtBln9P1rtXwpW65PCw1Vb0rCfrwb3j7_ELLx7quGJ7Cq80Frrz768KdQ4vPGYR_8sDJXFZWqsId_FOvz4iHmRs1P_eAfDDSizVF0uvv8Li58oOcm_w2t5A5jcKn3e42RtBn0kpcZrckFvpdDThIL2AQ&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+        tags: [isEnglish ? "Renaissance" : "Rönesans", "UNESCO", isEnglish ? "Must See" : "Görülmeli"],
+        placeNames: ["Duomo (Santa Maria del Fiore)", "Uffizi Galerisi", "Accademia Galerisi", "Palazzo Vecchio"],
+        interests: ["Sanat", "Tarih", "Fotoğraf"],
+        accentColor: WanderlustColors.accent,
+        icon: Icons.palette,
+      ),
+      CuratedRoute(
+        id: "flo_oltrarno",
+        name: isEnglish ? "Oltrarno Discovery" : "Oltrarno Keşfi",
+        description: isEnglish
+          ? "Cross the Arno for artisan workshops, gardens and panoramic views"
+          : "Zanaatkar atölyeleri, bahçeler ve panoramik manzaralar için Arno'nun diğer yakasına geçin.",
+        duration: isEnglish ? "5-6 hours" : "5-6 saat",
+        distance: "5.5 km",
+        difficulty: isEnglish ? "Medium" : "Orta",
+        imageUrl: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHrNWb7tFXSsZ6JC3Ya1_oQ5hWDYNJA9UbcHicQOTRXSoLFn7EOsI67lU84vBB9Z06_U6Mbz0OZiCr28Rx1IMLjRInIlCmD8AxQMfJWfV0EFY6AjYQ1MyO71Cu48z-LVI-eKMIy-P-fFANG_a32E9HO5XXGCpVZrsklT8RZ9b0H8rpIad-qcdXl8hPcBY7Q3v_SnOkOcnBG5FE6U8jKUJjcKb43c6HjR7U9bN9KOwzXGpzZDD90uW4lK1grr_qWv7KNEtgNmgZy8TDPV4R4nGOl2WMHmc_aO2bRv7oZoB3P2bD7zZJpALHkOscADhWN2mJ3U06wzoMITJ0Wr1K2ZwfJAwDpacreqiZ-jM3ZqS49Y2H6_qR3_4vY6GPtXRWU5cOfFJ73p5kqy-p2T0Fruf8n3kedsWHv1DSOrdpmcJMcmNN7skhJaVJ29LljcY4S8yXW_sOdeRlEBQ2I3YsDzYoGLZ9FveQqYsBO3EYw5D6ACbqd9ng8TS82ZirTdO_-5l6NZ0a33MVY4b8FaYOPiF6oEfdIeO_hqAnXP0H6YPV6ddE8u-3Wi8uTF7da9Pfdqtm8G7g&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+        tags: ["Oltrarno", isEnglish ? "Views" : "Manzara", isEnglish ? "Artisans" : "Zanaatkarlar"],
+        placeNames: ["Ponte Vecchio", "Palazzo Pitti", "Boboli Bahçeleri", "Piazzale Michelangelo", "San Miniato al Monte"],
+        interests: ["Manzara", "Doğa", "Fotoğraf"],
+        accentColor: const Color(0xFF27AE60),
+        icon: Icons.landscape,
+      ),
+      CuratedRoute(
+        id: "flo_local",
+        name: isEnglish ? "Local Flavor & Markets" : "Lokal Lezzet & Pazarlar",
+        description: isEnglish
+          ? "A culinary journey through Florence's historic food halls and street corners"
+          : "Floransa'nın tarihi yemek salonlarından ve sokak köşelerinden geçen lezzetli bir yolculuk.",
+        duration: isEnglish ? "4 hours" : "4 saat",
+        distance: "3 km",
+        difficulty: isEnglish ? "Easy" : "Kolay",
+        imageUrl: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHoeZztW_kFiwubTg96B4Y3vC0y4gLOUPLasvQGFyYTevH4glsTKzhplNPn5T81Dugu1Nik6DFYLg3tZB0KIp8Mr_OL5V0BB5sWovyYb8IZTr86C2w2_yLZdf5mRemzwrHHHyhspSxMR3jgi6PW9RbD8aujyYTjBAn6__4TidQe4uKpZ_w5FSh5Sraf1d3aJ1Lu8La_fu2GFqcTswEtleuMkaOAm8MUl3Ij2x1rzWB5PN9wG8CNu-VLgWRR2UTXp5b4ANwXdMvpKRAzgZRVD71peMZoQ1mIaKPtl_h1o_694v2xYZ9reGkA2w2BQ3yqriQ_Bujebt0NdkhCDRGO33Kf5-YiaAHPKp7hpi6zd0xT5hOIheD6wAS2CGKfT7Z46Iv6DxYg0jOg0xo2b64qXYxYmT6j_hh1e76hJ80TAQ0-zpFdKZcF5QwC5fmhoGWKASBrmdkVEKYjzVAn1h1KP8PkNRxvBQTcer_bKUMV_JB7E74iffhYfXQDJBxYciOafy9Ua9WVXoyU6cGFIQgbeEkqlTWZE44eJ8YywneSm71D67v2kG6bvYBCthwj1ZRbLIcoSX1wX_mecZg&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+        tags: [isEnglish ? "Food" : "Yemek", isEnglish ? "Market" : "Pazar", isEnglish ? "Local" : "Lokal"],
+        placeNames: ["Mercato Centrale", "Mercato di Sant'Ambrogio", "Vivoli", "San Lorenzo Pazarı"],
+        interests: ["Yemek", "Lokal", "Kültür"],
+        accentColor: const Color(0xFFE74C3C),
+        icon: Icons.restaurant,
+      ),
+      CuratedRoute(
+        id: "flo_churches",
+        name: isEnglish ? "Sacred Florence" : "Kutsal Floransa",
+        description: isEnglish
+          ? "Explore the city's most beautiful basilicas and hidden chapels"
+          : "Şehrin en güzel bazilikalarını ve gizli şapellerini keşfedin.",
+        duration: isEnglish ? "4-5 hours" : "4-5 saat",
+        distance: "4.5 km",
+        difficulty: isEnglish ? "Easy" : "Kolay",
+        imageUrl: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHp7DQkICjBtiFmoGhfGeAkUALpmcpVof1vUtc6QZO1MmAWbFSSz1DATzplLu4uA4UjMk1NNN365k3odaGL5PlM4d8zDK5EpxftVU5BPei8N5VAEsXBM-v2IlWXA1kHpty70D_VY2Uic9VwfY-gzlwQDLfABwCHBmTVa4i8ZyipEVQrDOaOQMKf8tCzQWwCd6UeV0NvJdGUF35AMjIl2O51NZPdlJJxwrDJ1PcOfCH-VmlZ9IqDTeuArWn5sSpur-37jf6cfZDjLXBDM4TAfadlqLwZqBxvRyK8C05r_MkExqMR5ZvA&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+        tags: [isEnglish ? "Churches" : "Kiliseler", isEnglish ? "Art" : "Sanat", isEnglish ? "History" : "Tarih"],
+        placeNames: ["Santa Maria Novella", "Santa Croce Bazilikası", "Museo San Marco", "Cappelle Medicee"],
+        interests: ["Tarih", "Sanat", "Kültür"],
+        accentColor: const Color(0xFF8E44AD),
+        icon: Icons.church,
+      ),
+    ];
+  }
+
+  // ═══════════════════════════════════════════════════════════════════════════
+  // ATİNA ROTALARI
+  // ═══════════════════════════════════════════════════════════════════════════
+  static List<CuratedRoute> _getAthensRoutes(bool isEnglish) {
+    return [
+      CuratedRoute(
+        id: "ath_glory",
+        name: isEnglish ? "Ancient Glory" : "Antik İhtişam",
+        description: isEnglish 
+          ? "The cradle of Western civilization: Parthenon and the Acropolis"
+          : "Batı medeniyetinin beşiği: Parthenon ve Akropolis.",
+        duration: isEnglish ? "5-6 hours" : "5-6 saat",
+        distance: "4 km",
+        difficulty: isEnglish ? "Medium" : "Orta",
+        imageUrl: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHqN0YzWxODSNwr7ecrwAmdbKn4o3-3s0_KslQSlsHoPoctbwIj8u-QOTg6Ru6vUV_XA7zaloQ9lqTVBHLCgKRyzmFlTzoZ25TQLBjyMXSuMxNusC8TNnbGnv1JHWPHXoEs5W_BcxWlMTsEOp6ooW_qEWT-BPqSZAYfTWSiFDh_vepo6yu6Rog60wiwII-5uCU3gVC_nArCjcTpau_NwlsWa2aftZd11p4pzaF83Mw5oB4pq0fMr0yXE8N3Y4KbbeaDKa_b8EWAHwXbtNv4eZMSvHhdhhL6MtwTBjqPIWkWJeI1QRv6gAIpLMgVZucBkQ10YJj5O7F1fUK7jZqnYYB6k89ZKS8aTdLCmqlEMaJaO8CgOI0kePOwdM-9lROD0HGzvLWOg1Hjl9n3QAuLsP4jnLKOFEzfeCepO8S-YYj5SfCgx6f1D3Cy7QB6Oqs2lZfnhZS3HgmKS49BovkYfpDLM4b2-cdhkk3RLXnVQZXUgJmBCwDEQAlLHoTom3eNfqQRp0KmHb51dOJbbM6h1vP_z4VjLuoz07cUbZgWqkoeE4FvqFOwuF0wWbPhvB4mIj9P6gRC1&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+        tags: [isEnglish ? "Ancient" : "Antik", "UNESCO", "History"],
+        placeNames: ["Akropolis", "Parthenon", "Akropolis Müzesi", "Odeon of Herodes Atticus"],
+        interests: ["Tarih", "Kültür", "Mimari"],
+        accentColor: WanderlustColors.accent,
+        icon: Icons.account_balance,
+      ),
+      CuratedRoute(
+        id: "ath_streets",
+        name: isEnglish ? "Historic Neighborhoods" : "Tarihi Mahalleler",
+        description: isEnglish
+          ? "Stroll through Plaka, Anafiotika and the vibrant Monastiraki"
+          : "Plaka, Anafiotika ve canlı Monastiraki sokaklarında dolaşın.",
+        duration: isEnglish ? "4 hours" : "4 saat",
+        distance: "3.5 km",
+        difficulty: isEnglish ? "Easy" : "Kolay",
+        imageUrl: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHqCcBLkBjAgaDza9UXto-6cFBywII47gJsqsMj0QehuBGYh-IB9PAv04gSxspjLPGwONNoFiq4G6ijwxtoJXbedITkzt5dTfjzcgUNNH8m4lH6gNa7YTFNLL3Pbn2wkFC8JgKbk8pOlQrmMqaP9iK3hIsaLN38Mn2MT5O_uZ2fkAKgFYaavw81NI-AiuiX2NdZWtUU6o1fjCGer9l6hFUIEtVXJ9YFnA2T8ZqO7M9b7OGSCKyPuHa_k-Sco0kGNiA6vr61lYvGqYzecLSHUhUx1Lv5q-X5ms-Riro3QN_MUs93YMpjCGdd_lJI8VWth5trbxQuk6Buz1NRmqMz7Ajsy4QVHMWzQs7Eo198KR_pHTsPQoip_Gsd7wRmfNh96JQ3yTgmQeJWi0ophaVQElZ9cSrmPv9RL99v5FfY8DquZojVQx10LmUq09wzUXv2u3AF77Y4XQRLPvSkytwVgtDFlskGEo_npylTApeewzjerTcMoE8YhtkKsumeGmt_UCigL_VBckW6FKY6IQfV6VLkiKU7AR-8gqLKWk-u02HnYlKC3YEZ6aecexOGXM3SsJ1Q&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+        tags: [isEnglish ? "Atmospheric" : "Atmosferik", isEnglish ? "Local" : "Lokal", isEnglish ? "Walking" : "Yürüyüş"],
+        placeNames: ["Plaka", "Anafiotika", "Monastiraki", "Hadrian's Library"],
+        interests: ["Fotoğraf", "Lokal", "Tarih"],
+        accentColor: const Color(0xFF3498DB),
+        icon: Icons.streetview,
+      ),
+      CuratedRoute(
+        id: "ath_agora",
+        name: isEnglish ? "Agoras & Ancient Markets" : "Agoralar & Antik Pazarlar",
+        description: isEnglish
+          ? "Where democracy was born: Explore the central markets of antiquity"
+          : "Demokrasinin doğduğu yer: Antik çağın merkezi pazarlarını keşfedin.",
+        duration: isEnglish ? "4-5 hours" : "4-5 saat",
+        distance: "3 km",
+        difficulty: isEnglish ? "Easy" : "Kolay",
+        imageUrl: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHpC-bwLec8Fx0JhKw_CRmmrpkd16PXmAXBhmf0hpR2tFh5YTTA8KXQPKpdEzEpmXoffSKa7UKThmFdlnJx5i1FXG8Lxg8erWBq0wqlChvOtMEwNkzS_dYq61lsWOLU6N_vuP-7dwOVmE4nP92UuOKOSbYgCryfVuOcozCLEti63MvuHVoKK_vSe_gODaAzIOgjWQNsE7gkm4wjGrWxYL4lytEin7Ku9zsGDECIY-Ite8aIXOm33swGoKiOOIFRrEwB1FVhy-jk-NqTpGmXZIh-bEFjGHaSZ2F3-pXwRaC-dakXdoPH2q6RkUPN6eCouLsztJY1qXg8zmDz3xSWIb0SKZvTzfybgg6RfMKzfXu7wb1J-dnd1aCstt7zvSp7IKRno4C4v1iej1BfKapSF4k26OHrPtVCQCMIm2gDeAOJnmRE8dreaudYcEhce0ADhWdNPBqcwZWhFEDZkak_cPWr-pBH8azqsuTKobMbVOzCSh-BeQP--jiQqI7Y6P0St2vMQfftUCgGLQat5S0yIdfIG5bppzj34XG5DgcpkdZ3ryM47E_F5fXcpvyxpAmD3Sc9x5U9urw5M-cC8xbO4-jbd6z--iA&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+        tags: [isEnglish ? "Ancient" : "Antik", isEnglish ? "Agora" : "Agora", isEnglish ? "Culture" : "Kültür"],
+        placeNames: ["Antik Agora", "Hephaistos Tapınağı", "Roman Agora", "Areopagus Hill (Mars Hill)"],
+        interests: ["Tarih", "Kültür", "Felsefe"],
+        accentColor: const Color(0xFF1ABC9C),
+        icon: Icons.temple_buddhist,
+      ),
+      CuratedRoute(
+        id: "ath_views",
+        name: isEnglish ? "Heights & Views" : "Tepeler & Manzaralar",
+        description: isEnglish
+          ? "Epic panoramic views of Athens from its most famous hills"
+          : "Atina'nın en ünlü tepelerinden epik panoramik manzaralar.",
+        duration: isEnglish ? "4 hours" : "4 saat",
+        distance: "6 km",
+        difficulty: isEnglish ? "Medium" : "Orta",
+        imageUrl: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AZLasHqfAB_5AlRvR3DNxdvC7ILBLWClHVgWMSCTjpkeqD4btVKu56vj-0R-M67CCExKiEMSKLUAXnoZY7fBXl1KsK_oQIRFScfnMBM3CZLHf5twQLM9eo4o9P7neQfJo2q035BR3Bouh3QmhKrwXG3p2foA6HzxiWjrJ4kaLJu68nDuCNnbV3Evg3-B2nC_bGxKhkMkfDMGDemtLjdzhnWCbKgYfKByY-6pRyKjSZwjl6CIfXf9w8wdE1ZZ5qfmNrTPqGLWa67j6aVrYJmf1iHI2zm6_R0P1K0N2f9gr9qbzAOv60YY-iSNpDpNSC0a9kdXOClbZ2jbnj1pRQpfEOSSo0BljM-iUVhvTPjon2YSp-5j0nZvzv2ME8lv9-cVAPOTIzCJlshoc7bNeMnzUk7_TumAyDEOLD4eJMzumXOO6BoyWy-iZvVC8TUllp88cjTPBmWUWPvN21FUW4yPBZlhIg4HZo0TTf67QDbhv3nBzlJbuPAM2TWXMluG0e8OX2NsnWM-_Ei2LT3Rgc1dC3a9BD7ARRQmv1JWkyIuHSvrQ2fvEvkUZQ1eskiMU26-Lac0EOJM0pMg&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+        tags: [isEnglish ? "Views" : "Manzara", isEnglish ? "Hiking" : "Hafif Yürüyüş", isEnglish ? "Photography" : "Fotoğraf"],
+        placeNames: ["Lykavittos Tepesi", "Filopappos Tepesi", "Syntagma Meydanı"],
+        interests: ["Manzara", "Fotoğraf", "Doğa"],
+        accentColor: const Color(0xFF27AE60),
+        icon: Icons.landscape,
+      ),
+    ];
+  }
+
+  // Placeholder stubs for cities not yet implemented
+  static List<CuratedRoute> _getLisbonRoutes(bool isEnglish) => _getGenericRoutes("Lisbon", isEnglish);
+  static List<CuratedRoute> _getPortoRoutes(bool isEnglish) => _getGenericRoutes("Porto", isEnglish);
+  static List<CuratedRoute> _getNaplesRoutes(bool isEnglish) => _getGenericRoutes("Naples", isEnglish);
+  static List<CuratedRoute> _getMilanRoutes(bool isEnglish) => _getGenericRoutes("Milan", isEnglish);
+  static List<CuratedRoute> _getVeniceRoutes(bool isEnglish) => _getGenericRoutes("Venice", isEnglish);
+  static List<CuratedRoute> _getViennaRoutes(bool isEnglish) => _getGenericRoutes("Vienna", isEnglish);
+  static List<CuratedRoute> _getPragueRoutes(bool isEnglish) => _getGenericRoutes("Prague", isEnglish);
+  static List<CuratedRoute> _getBudapestRoutes(bool isEnglish) => _getGenericRoutes("Budapest", isEnglish);
+  static List<CuratedRoute> _getZurichRoutes(bool isEnglish) => _getGenericRoutes("Zurich", isEnglish);
+  static List<CuratedRoute> _getGenevaRoutes(bool isEnglish) => _getGenericRoutes("Geneva", isEnglish);
+  static List<CuratedRoute> _getLucerneRoutes(bool isEnglish) => _getGenericRoutes("Lucerne", isEnglish);
+  static List<CuratedRoute> _getCopenhagenRoutes(bool isEnglish) => _getGenericRoutes("Copenhagen", isEnglish);
+  static List<CuratedRoute> _getStockholmRoutes(bool isEnglish) => _getGenericRoutes("Stockholm", isEnglish);
+  static List<CuratedRoute> _getDubaiRoutes(bool isEnglish) => _getGenericRoutes("Dubai", isEnglish);
+  static List<CuratedRoute> _getMarrakechRoutes(bool isEnglish) => _getGenericRoutes("Marrakech", isEnglish);
+  static List<CuratedRoute> _getBangkokRoutes(bool isEnglish) => _getGenericRoutes("Bangkok", isEnglish);
+  static List<CuratedRoute> _getHongKongRoutes(bool isEnglish) => _getGenericRoutes("Hong Kong", isEnglish);
+  static List<CuratedRoute> _getSingaporeRoutes(bool isEnglish) => _getGenericRoutes("Singapore", isEnglish);
+  static List<CuratedRoute> _getSeoulRoutes(bool isEnglish) => _getGenericRoutes("Seoul", isEnglish);
+  static List<CuratedRoute> _getNiceRoutes(bool isEnglish) => _getGenericRoutes("Nice", isEnglish);
+  static List<CuratedRoute> _getLyonRoutes(bool isEnglish) => _getGenericRoutes("Lyon", isEnglish);
+  static List<CuratedRoute> _getMarseilleRoutes(bool isEnglish) => _getGenericRoutes("Marseille", isEnglish);
+  static List<CuratedRoute> _getDublinRoutes(bool isEnglish) => _getGenericRoutes("Dublin", isEnglish);
+
+  static List<CuratedRoute> _getGenericRoutes(String city, bool isEnglish) {
+    return [];
+  }
+}

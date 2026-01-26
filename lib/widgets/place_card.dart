@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import '../models/place_model.dart';
+import '../widgets/amber_background_symbols.dart';
 
 class PlaceCard extends StatelessWidget {
   final PlaceModel place;
@@ -94,10 +95,13 @@ class PlaceCard extends StatelessWidget {
           ),
         ],
       ),
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
+      child: Stack(
         children: [
-          // Image
+          const AmberBackgroundSymbols(),
+          Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            // Image
           Stack(
             children: [
               ClipRRect(
@@ -230,6 +234,8 @@ class PlaceCard extends StatelessWidget {
               ],
             ),
           ),
+        ],
+      ),
         ],
       ),
     );

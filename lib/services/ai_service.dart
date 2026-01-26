@@ -4,90 +4,347 @@
 // Kişiselleştirilmiş AI Chat yanıtları
 // =============================================================================
 
-import 'dart:math';
+import 'package:google_generative_ai/google_generative_ai.dart';
 import '../models/city_model.dart';
+import 'city_blog_content.dart';
 
 class AIService {
-  /// Kişiselleştirilmiş AI chat yanıtı üretir
+  // API Key (Normalde .env dosyasında saklanmalı)
+  static const _apiKey = 'AIzaSyDL3n3joYZ_MwVj1lbXF2xTBAEMQqYprYA';
+
+  /// Şehirler için merkezi görsel havuzu
+  static final Map<String, String> _cityImages = {
+    'amsterdam': 'https://images.unsplash.com/photo-1534351590666-13e3e96b5017?w=800',
+    'atina': 'https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/atina/akropolis.jpg',
+    'bangkok': 'https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bangkok/grand_palace.jpg',
+    'barcelona': 'https://images.unsplash.com/photo-1583422409516-2895a77efded?w=800',
+    'berlin': 'https://images.unsplash.com/photo-1560969184-10fe8719e047?w=800',
+    'budapeste': 'https://images.contentstack.io/v3/assets/blt06f605a34f1194ff/bltfde92aef92ecf073/6787eae0bf32fe28813c50fe/BCC-2024-EXPLORER-BUDAPEST-LANDMARKS-HEADER-_MOBILE.jpg?fit=crop&disable=upscale&auto=webp&quality=60&crop=smart',
+    'cenevre': 'https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/cenevre/jet_deau.jpg',
+    'dubai': 'https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=800',
+    'dublin': 'https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/dublin/temple_bar.jpg',
+    'floransa': 'https://italien.expert/wp-content/uploads/2021/05/Florenz-Toskana-Italien0.jpg',
+    'hongkong': 'https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/hongkong/victoria_peak.jpg',
+    'istanbul': 'https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?w=800',
+    'kopenhag': 'https://images.unsplash.com/photo-1513622470522-26c3c8a854bc?w=800',
+    'lizbon': 'https://images.unsplash.com/photo-1585208798174-6cedd86e019a?w=800',
+    'londra': 'https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=800',
+    'lucerne': 'https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/lucerne/chapel_bridge_kapellbrucke.jpg',
+    'lyon': 'https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/lyon/basilica_of_notre_dame_de_fourviere.jpg',
+    'madrid': 'https://images.unsplash.com/photo-1539037116277-4db20889f2d4?w=800',
+    'marakes': 'https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/marakes/jemaa_el_fna.jpg',
+    'marsilya': 'https://images.contentstack.io/v3/assets/blt06f605a34f1194ff/blt0feb4d48a3fc134c/67c5fafa304ea9666082ff3e/iStock-956215674-2-Header_Mobile.jpg?fit=crop&disable=upscale&auto=webp&quality=60&crop=smart',
+    'milano': 'https://images.unsplash.com/photo-1520440229-6469a149ac59?w=800',
+    'napoli': 'https://images.unsplash.com/photo-1516483638261-f4dbaf036963?w=800',
+    'newyork': 'https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?w=800',
+    'nice': 'https://www.flypgs.com/blog/wp-content/uploads/2024/05/nice-sahilleri.jpeg',
+    'paris': 'https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=800',
+    'porto': 'https://images.unsplash.com/photo-1555881400-74d7acaacd8b?w=800',
+    'prag': 'https://images.unsplash.com/photo-1541849546-216549ae216d?w=800',
+    'roma': 'https://images.unsplash.com/photo-1552832230-c0197dd311b5?w=800',
+    'seul': 'https://www.agoda.com/wp-content/uploads/2019/03/Seoul-attractions-Gyeongbokgung-palace.jpg',
+    'sevilla': 'https://images.unsplash.com/photo-1558370781-d6196949e317?w=800',
+    'singapur': 'https://images.unsplash.com/photo-1525625293386-3f8f99389edd?w=800',
+    'stockholm': 'https://images.unsplash.com/photo-1509356843151-3e7d96241e11?w=800',
+    'tokyo': 'https://img.piri.net/mnresize/900/-/resim/imagecrop/2023/01/17/11/54/resized_d9b02-8b17feafkapak2.jpg',
+    'venedik': 'https://images.unsplash.com/photo-1514890547357-a9ee288728e0?w=800',
+    'viyana': 'https://images.unsplash.com/photo-1516550893923-42d28e5677af?w=800',
+    'zurih': 'https://images.unsplash.com/photo-1515488764276-beab7607c1e6?w=800',
+    'fes': 'https://images.unsplash.com/photo-1548013146-72479768bada?w=800',
+    'safsavan': 'https://images.unsplash.com/photo-1558258695-0e4284b3975d?w=800',
+    'kahire': 'https://gezimanya.com/sites/default/files/styles/800x600_/public/lokasyon-detay/2019-11/image-explore-ancient-egypt-merl.jpg',
+    'saraybosna': 'https://images.unsplash.com/photo-1596715694269-80838637ba76?w=800',
+    'mostar': 'https://images.unsplash.com/photo-1605198089408-0138977114b0?w=800',
+    'strazburg': 'https://www.avruparuyasi.com.tr/uploads/tour-gallery/36c44666-5e5a-4c2d-a341-2fa8285c3fb6.webp',
+    'midilli': 'https://www.talyatur.com/images/tour/115540_b.jpg',
+    'antalya': 'https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/kaleici.jpg',
+    'edinburgh': 'https://images.contentstack.io/v3/assets/blt06f605a34f1194ff/blt9d8daa2acc7bb33c/6797dc563b4101992b03092a/iStock-1153650218-MOBILE-HEADER.jpg?fit=crop&disable=upscale&auto=webp&quality=60&crop=smart',
+    'belgrad': 'https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/belgrad/belgrad_kalesi_kalemegdan.jpg',
+    'kotor': 'https://www.etstur.com/letsgo/wp-content/uploads/2025/12/montenegro-kotorda-gezilecek-yerler-en-populer-rotalar-guncel-liste-1024x576.png',
+    'tiran': 'https://images.unsplash.com/photo-1599593442654-e1b088b7538c?w=800',
+    'selanik': 'https://images.unsplash.com/photo-1562608460-f97577579893?w=800',
+    'kapadokya': 'https://images.unsplash.com/photo-1641128324972-af3212f0f6bd?w=800',
+    'rovaniemi': 'https://www.visitfinland.com/dam/jcr:70734834-7ba2-4bf1-9f6e-bf185e014367/central-plaza-santa-claus-village-rovaniemi-lapland-finland%20(1).jpg',
+    'tromso': 'https://www.flightgift.com/media/wp/FG/2024/02/tromso.webp',
+    'zermatt': 'https://holidaystoswitzerland.com/wp-content/uploads/2020/07/Zermatt-and-the-Matterhorn-at-dawn.jpg',
+    'matera': 'https://ita.travel/user/blogimg/ostatni/aerial-view_matera_sunset.jpg',
+    'giethoorn': 'https://www.onedayinacity.com/wp-content/uploads/2021/03/Giethoorn-Village.png',
+    'colmar': 'https://images.goway.com/production/hero/iStock-1423136049.jpg',
+    'sintra': 'https://images.contentstack.io/v3/assets/blt06f605a34f1194ff/blt75a384a61f2efa5b/68848225e7cb649650cc2d81/BCC-2024-EXPLORER-SINTRA-BEST_PLACES_TO_VISIT-HEADER-MOBILE.jpg?format=webp&auto=avif&quality=60&crop=16%3A9&width=1440',
+    'sansebastian': 'https://cdn.bunniktours.com.au/public/posts/images/Europe/Blog%20Header%20-%20Spain%20-%20San%20Sebastian%20-%20credit%20Raul%20Cacho%20Oses%20%28Unsplash%29-feature.jpg',
+    'bologna': 'https://www.datocms-assets.com/57243/1661342703-6245af628d40974c9ab5a7fd_petr-slovacek-sxk8bwkvoxe-unsplash-20-1.jpg?auto=compress%2Cformat',
+    'gaziantep': 'https://www.brandlifemag.com/wp-content/uploads/2021/04/acilis-gaziantep-december-06gaziantep-coppersmith-bazaar-600w-549044518.jpg',
+    'brugge': 'https://gezimanya.com/sites/default/files/styles/800x600_/public/lokasyon-detay/2021-08/brugge-hakkinda-bilinmesi-gerekenler.jpg',
+    'santorini': 'https://www.kucukoteller.com.tr/storage/images/2024/07/14/5e7eaf11eb5ec2dda2f7a602232faa8961347f29.webp',
+    'heidelberg': 'https://image.hurimg.com/i/hurriyet/90/1110x740/56b3325818c7730e3cdb6757.jpg',
+    'bruksel': 'https://images.unsplash.com/photo-1559113513-d5e09c18b9e8?w=800',
+    'oslo': 'https://www.journavel.com/wp-content/uploads/2024/10/IMG_1851-scaled.webp',
+    'hallstatt': 'https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/hallstatt/hallstatt-postcard-viewpoint.jpg',
+  };
+
+  /// Şehir ID'sine göre görsel URL'ini döndürür
+  static String getCityImage(String cityId) {
+    // Normalizasyon (Türkçe karakterler ve boşluklar)
+    final normalized = cityId.toLowerCase().trim()
+      .replaceAll('ü', 'u').replaceAll('ş', 's').replaceAll('ç', 'c')
+      .replaceAll('ö', 'o').replaceAll('ğ', 'g').replaceAll('ı', 'i')
+      .replaceAll(' ', '');
+    
+    // English mapping
+    String lookupId = normalized;
+    if (normalized == 'brussels') lookupId = 'bruksel';
+    if (normalized == 'london') lookupId = 'londra';
+    if (normalized == 'vienna') lookupId = 'viyana';
+    if (normalized == 'rome') lookupId = 'roma';
+    if (normalized == 'venice') lookupId = 'venedik';
+    if (normalized == 'athens') lookupId = 'atina';
+    if (normalized == 'geneva') lookupId = 'cenevre';
+    if (normalized == 'florence') lookupId = 'floransa';
+    if (normalized == 'lisbon') lookupId = 'lizbon';
+    if (normalized == 'milan') lookupId = 'milano';
+    if (normalized == 'naples') lookupId = 'napoli';
+    if (normalized == 'marrakech') lookupId = 'marakes';
+    if (normalized == 'marseille') lookupId = 'marsilya';
+    if (normalized == 'prague') lookupId = 'prag';
+    if (normalized == 'seville') lookupId = 'sevilla';
+    if (normalized == 'strasbourg') lookupId = 'strazburg';
+    if (normalized == 'cairo') lookupId = 'kahire';
+    if (normalized == 'lesvos') lookupId = 'midilli';
+    if (normalized == 'cappadocia') lookupId = 'kapadokya';
+    if (normalized == 'belgrade') lookupId = 'belgrad';
+
+    return _cityImages[lookupId] ?? 'https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=800'; // Default mountain
+  }
+
+  /// Kullanıcının serbest formatlı sorularına yanıt verir (Chat için)
+  Future<String> getChatResponse({
+    required String cityName,
+    required String question,
+    required List<String> interests,
+    required List<Map<String, dynamic>> places,
+    bool isEnglish = false,
+  }) async {
+    try {
+      final model = GenerativeModel(
+        model: 'gemini-2.5-flash',
+        apiKey: _apiKey,
+      );
+
+      // Place listesini string'e çevir
+      final placeNames = places.map((p) => p['name'] as String).join(", ");
+
+      final prompt = '''
+      Sen $cityName için bir yerel rehbersin.
+      Kullanıcı sana bir soru sordu: "$question"
+      
+      MEVCUT YER LİSTESİ: [$placeNames]
+      Sadece bu listeden yer öner, yeni yer uydurma.
+      
+      Yanıtını ${isEnglish ? "İngilizce" : "Türkçe"} olarak ver.
+      Kısa ve öz yanıt ver (max 3-4 cümle).
+      Emoji kullanma.
+      Eğer bir yer öneriyorsan, adını tam olarak yaz.
+      ''';
+
+      final content = [Content.text(prompt)];
+      final response = await model.generateContent(content);
+
+      return response.text ?? (isEnglish ? "Sorry, couldn't generate a response." : "Üzgünüm, yanıt oluşturulamadı.");
+    } catch (e) {
+      print("AI Chat Error: $e");
+      return isEnglish ? "I can't respond right now. Please try again later." : "Şu an yanıt veremiyorum. Lütfen daha sonra tekrar deneyin.";
+    }
+  }
+
+  /// Kişiselleştirilmiş AI chat yanıtı üretir (Gemini Powered)
   static Future<String> getPersonalizedChatResponse({
+    required CityModel cityModel, // Context için eklendi
+    required String userName,
+    required String travelStyle,
+    required List<String> interests,
+    required String budgetLevel,
+    required int tripDays,
+    bool isEnglish = false,
+  }) async {
+    try {
+      // 1. Model Hazırlığı
+      final model = GenerativeModel(
+        model: 'gemini-2.5-flash', 
+        apiKey: _apiKey,
+      );
+
+      // 2. RAG Context Hazırlığı - Yerleri karıştır ve sadece bunlardan öner
+      final shuffledHighlights = List.from(cityModel.highlights)..shuffle();
+      final placeNames = shuffledHighlights.map((h) => h.name).join(", ");
+      final availablePlacesContext = "AVAILABLE PLACES IN DATABASE: [$placeNames]. "
+          "ONLY recommend places from this list. Do NOT invent places.";
+
+      // Rastgelelik için seed oluştur
+      final randomSeed = DateTime.now().millisecondsSinceEpoch;
+      final themes = ['hidden gems', 'local favorites', 'unique experiences', 'must-see spots', 'off the beaten path'];
+      final selectedTheme = themes[randomSeed % themes.length];
+
+      // 3. Prompt Oluşturma
+      final languageInstruction = isEnglish 
+          ? "IMPORTANT: You MUST respond ENTIRELY in English. All text, greetings, descriptions, and tips must be in English."
+          : "IMPORTANT: You MUST respond ENTIRELY in Turkish. All text, greetings, descriptions, and tips must be in Turkish.";
+      
+      final prompt = '''
+      $languageInstruction
+      
+      You are a local guide for ${cityModel.city}.
+      User: $userName. Style: $travelStyle. Interests: ${interests.join(", ")}. Budget: $budgetLevel. Trip: $tripDays days.
+      
+      RANDOMIZATION SEED: $randomSeed
+      TODAY'S THEME: Focus on "$selectedTheme" for today.
+
+      $availablePlacesContext
+
+      Task: Recommend exactly 3 DIFFERENT places from the available list that match the user's style.
+      IMPORTANT: Choose places you haven't recommended before. Be creative and surprising!
+      
+      Output Format (Strict Markdown):
+      Start with a friendly greeting paragraph.
+      Then, for each recommendation use this EXACT format:
+      - [Place Name](search:Place Name) - A short, engaging description (max 2 sentences).
+
+      IMPORTANT RULES:
+      1. ONLY recommend places from the "AVAILABLE PLACES" list.
+      2. DO NOT translate the [Place Name] inside the brackets or parentheses. use the EXACT name from the list. 
+         Example: If list has "Santa Caterina Market", write "[Santa Caterina Market](search:Santa Caterina Market)", NOT "[Santa Caterina Pazarı](search:Santa Caterina Pazarı)".
+      3. The ENTIRE response (greeting, descriptions, tip) must be in ${isEnglish ? "English" : "Turkish"}.
+      4. Do NOT use emojis.
+      5. Each time you respond, pick DIFFERENT places from the list to keep it fresh.
+
+      End with a "${isEnglish ? "Tip:" : "İpucu:"}" section.
+      ''';
+
+
+      // 4. İstek Gönderme
+      final content = [Content.text(prompt)];
+      final response = await model.generateContent(content);
+
+      if (response.text != null) {
+        return response.text!;
+      } else {
+        throw Exception("Empty response");
+      }
+    } catch (e) {
+      print("AI Error: $e");
+      // Fallback: Eski hardcoded yönteme dön
+       return _getFallbackResponse(
+         city: cityModel.city, userName: userName, travelStyle: travelStyle, 
+         interests: interests, budgetLevel: budgetLevel, tripDays: tripDays, isEnglish: isEnglish
+       );
+    }
+  }
+
+  /// Mevcut AI içeriğini başka bir dile çevirir (yeniden üretmek yerine)
+  static Future<String> translateContent({
+    required String content,
+    required bool toEnglish,
+  }) async {
+    try {
+      final model = GenerativeModel(
+        model: 'gemini-2.5-flash',
+        apiKey: _apiKey,
+      );
+
+      final targetLanguage = toEnglish ? "English" : "Turkish";
+      final prompt = '''
+      Translate the following travel recommendation text to $targetLanguage.
+      
+      IMPORTANT RULES:
+      1. Keep the EXACT same formatting (markdown, bullet points, links).
+      2. DO NOT translate place names inside [brackets] or (parentheses).
+         Example: "[Santa Caterina Market](search:Santa Caterina Market)" should stay EXACTLY the same.
+      3. Only translate the descriptions and greeting text.
+      4. Keep "Tip:" or "İpucu:" section.
+      5. Do NOT add or remove any content.
+      
+      TEXT TO TRANSLATE:
+      $content
+      ''';
+
+      final response = await model.generateContent([Content.text(prompt)]);
+      
+      if (response.text != null) {
+        return response.text!;
+      } else {
+        throw Exception("Empty translation response");
+      }
+    } catch (e) {
+      print("Translation Error: $e");
+      // Çeviri başarısız olursa orijinal içeriği döndür
+      return content;
+    }
+  }
+
+  // Eski yöntemi fallback olarak buraya taşıdım (kısaltılmış)
+  static String _getFallbackResponse({
     required String city,
     required String userName,
     required String travelStyle,
     required List<String> interests,
     required String budgetLevel,
     required int tripDays,
-    required String transportMode,
-  }) async {
-    await Future.delayed(const Duration(milliseconds: 800));
-
-    // İlgi alanlarını Türkçe formatlı stringe çevir
-    String interestsText = _formatInterests(interests);
-
-    // Bütçe seviyesi açıklaması
-    String budgetText = _getBudgetText(budgetLevel);
-
-    // Seyahat tarzı açıklaması
-    String styleText = _getStyleText(travelStyle);
-
-    // Şehre özel giriş ve öneriler
-    final cityData = _getCitySpecificContent(
-      city,
-      interests,
-      budgetLevel,
-      travelStyle,
-    );
-
-    // Kişiselleştirilmiş mesaj oluştur
-    String greeting = _getTimeBasedGreeting();
-
-    String response =
-        '''$greeting $userName! ${cityData['intro']}
-
-Senin gibi $interestsText tutkunu, $budgetText bir gezgin için öyle yerler biliyorum ki, $tripDays günlük gezinde her anın tadını çıkaracaksın! $styleText seyahat tarzına uygun 3 "gizli cevher" öneriyorum, kimseye söyleme, aramızda kalsın! 😉
-
-${cityData['recommendations']}
-
-💡 **İpucu:** ${cityData['tip']}''';
-
-    return response;
+    bool isEnglish = false,
+  }) {
+    // ... Eski logic buraya taşınacak (yer tutucu)
+    final cityData = _getCitySpecificContent(city, interests, budgetLevel, travelStyle, isEnglish);
+     final greeting = isEnglish
+        ? "Good evening $userName! Welcome to $city!"
+        : "İyi akşamlar $userName! $city'e hoş geldin!";
+    
+     return isEnglish
+        ? '''$greeting ${cityData['intro']}\n\n${cityData['recommendations']}\n\n**Tip:** ${cityData['tip']}'''
+        : '''$greeting ${cityData['intro']}\n\n${cityData['recommendations']}\n\n**İpucu:** ${cityData['tip']}''';
   }
 
-  static String _getTimeBasedGreeting() {
+  static String _getTimeBasedGreeting(bool isEnglish) {
     final hour = DateTime.now().hour;
+    if (isEnglish) {
+      if (hour < 12) return "Good morning";
+      if (hour < 18) return "Good afternoon";
+      return "Good evening";
+    }
     if (hour < 12) return "Günaydın";
     if (hour < 18) return "İyi günler";
     return "İyi akşamlar";
   }
 
-  static String _formatInterests(List<String> interests) {
-    if (interests.isEmpty) return "keşif";
+  static String _formatInterests(List<String> interests, bool isEnglish) {
+    if (interests.isEmpty) return isEnglish ? "discovery" : "keşif";
     if (interests.length == 1) return interests[0].toLowerCase();
-    if (interests.length == 2)
-      return "${interests[0]} ve ${interests[1]}".toLowerCase();
-    return "${interests.take(2).join(', ')} ve ${interests[2]}".toLowerCase();
+    if (interests.length == 2) {
+      final connector = isEnglish ? "and" : "ve";
+      return "${interests[0]} $connector ${interests[1]}".toLowerCase();
+    }
+    final connector = isEnglish ? "and" : "ve";
+    return "${interests.take(2).join(', ')} $connector ${interests[2]}".toLowerCase();
   }
 
-  static String _getBudgetText(String budgetLevel) {
+  static String _getBudgetText(String budgetLevel, bool isEnglish) {
     switch (budgetLevel.toLowerCase()) {
       case 'ekonomik':
-        return "bütçe dostu";
+        return isEnglish ? "budget-friendly" : "bütçe dostu";
       case 'premium':
-        return "lüks deneyimler arayan";
+        return isEnglish ? "luxury-seeking" : "lüks deneyimler arayan";
       default:
-        return "dengeli bütçeli";
+        return isEnglish ? "balanced-budget" : "dengeli bütçeli";
     }
   }
 
-  static String _getStyleText(String travelStyle) {
+  static String _getStyleText(String travelStyle, bool isEnglish) {
     switch (travelStyle.toLowerCase()) {
       case 'turistik':
-        return "Klasik turistik noktaları da severken";
+        return isEnglish ? "classic tourist" : "Klasik turistik noktaları da severken";
       case 'maceracı':
-        return "Macera arayan ruhuyla";
+        return isEnglish ? "adventurous" : "Macera arayan ruhuyla";
       case 'kültürel':
-        return "Kültür ve tarihe meraklı";
+        return isEnglish ? "culture & history lover" : "Kültür ve tarihe meraklı";
       default:
-        return "Yerel hayatı keşfetmeyi seven";
+        return isEnglish ? "local explorer" : "Yerel hayatı keşfetmeyi seven";
     }
   }
 
@@ -96,377 +353,508 @@ ${cityData['recommendations']}
     List<String> interests,
     String budget,
     String style,
+    bool isEnglish,
   ) {
     final normalizedCity = city.toLowerCase().trim();
 
     switch (normalizedCity) {
       case 'istanbul':
       case 'İstanbul':
-        return _getIstanbulContent(interests, budget);
+        return _getIstanbulContent(interests, budget, isEnglish);
       case 'paris':
-        return _getParisContent(interests, budget);
+        return _getParisContent(interests, budget, isEnglish);
       case 'roma':
       case 'rome':
-        return _getRomaContent(interests, budget);
+        return _getRomaContent(interests, budget, isEnglish);
       case 'londra':
       case 'london':
-        return _getLondraContent(interests, budget);
+        return _getLondraContent(interests, budget, isEnglish);
       case 'berlin':
-        return _getBerlinContent(interests, budget);
+        return _getBerlinContent(interests, budget, isEnglish);
       case 'madrid':
-        return _getMadridContent(interests, budget);
+        return _getMadridContent(interests, budget, isEnglish);
       case 'sevilla':
       case 'seville':
-        return _getSevillaContent(interests, budget);
+        return _getSevillaContent(interests, budget, isEnglish);
       case 'viyana':
       case 'vienna':
-        return _getViyanaContent(interests, budget);
+        return _getViyanaContent(interests, budget, isEnglish);
       case 'prag':
       case 'prague':
-        return _getPragContent(interests, budget);
+        return _getPragContent(interests, budget, isEnglish);
       case 'lizbon':
       case 'lisbon':
-        return _getLizbonContent(interests, budget);
+        return _getLizbonContent(interests, budget, isEnglish);
       case 'milano':
       case 'milan':
-        return _getMilanoContent(interests, budget);
+        return _getMilanoContent(interests, budget, isEnglish);
       case 'amsterdam':
-        return _getAmsterdamContent(interests, budget);
+        return _getAmsterdamContent(interests, budget, isEnglish);
       case 'tokyo':
-        return _getTokyoContent(interests, budget);
+        return _getTokyoContent(interests, budget, isEnglish);
       case 'seul':
       case 'seoul':
-        return _getSeulContent(interests, budget);
+        return _getSeulContent(interests, budget, isEnglish);
       case 'singapur':
       case 'singapore':
-        return _getSingapurContent(interests, budget);
+        return _getSingapurContent(interests, budget, isEnglish);
       case 'dubai':
-        return _getDubaiContent(interests, budget);
+        return _getDubaiContent(interests, budget, isEnglish);
       case 'newyork':
       case 'new york':
-        return _getNewYorkContent(interests, budget);
+        return _getNewYorkContent(interests, budget, isEnglish);
+      case 'bruksel':
+      case 'brussels':
+        return _getBrukselContent(interests, budget, isEnglish);
+      case 'oslo':
+        return _getOsloContent(interests, budget, isEnglish);
       case 'barcelona':
       default:
-        return _getBarcelonaContent(interests, budget);
+        return _getBarcelonaContent(interests, budget, isEnglish);
     }
   }
 
   static Map<String, String> _getIstanbulContent(
     List<String> interests,
     String budget,
+    bool isEnglish,
   ) {
+    if (isEnglish) {
+      return {
+        'intro':
+            "Welcome to Istanbul, I'm glad to hear you're in exploration mode!",
+        'recommendations': '''
+- [Fener & Balat Streets](search:Fener & Balat Streets) - This is an open-air museum! You won't stop taking photos with its colorful bay-windowed houses, narrow cobbled streets, and surprise cafes at every corner. Old churches, synagogues, and mosques all together - a magnificent cultural mosaic. You can find unique pieces in small antique shops, local design stores, and second-hand treasures, perfect for mid-budget shopping. Take your time to catch the spirit of this place!
+
+- [Kuzguncuk](search:Kuzguncuk) - The "quiet village" vibe of the Anatolian Side is here! Like time travel with its narrow streets, nostalgic grocery stores, and colorful wooden houses. You must try İsmail Usta's famous toasts or the Kuzguncuk Borek Shop for weekend breakfast. Sitting on the benches overlooking the Bosphorus, watching seagulls, and catching the golden hour for photos is priceless.
+
+- [Karaköy & Shipyard](search:Karaköy & Shipyard) - This is Istanbul's new creative heart! Art galleries, concept stores, and amazing cafes in old shipyard buildings. Street art walls are great for photos. Experience baklava at Karaköy Güllüoğlu, modern Turkish cuisine at Karaköy Lokantası. Watch the sunset with a Bosphorus view at Istanbul Modern's cafe in the evening.''',
+        'tip':
+            "Go to Balat early on a weekday morning to take photos without crowds and chat with local shopkeepers. Don't refuse if they offer tea!",
+      };
+    }
     return {
       'intro':
           "İstanbul'a hoş geldin, keşif modunda olduğunu duyunca çok sevindim!",
       'recommendations': '''
-⭐ **Fener & Balat Sokakları** - Burası tam bir açık hava müzesi! Renkli cumbalı evleri, Arnavut kaldırımlı daracık sokakları, her köşede karşına çıkacak sürpriz kafeleri ve vintage dükkanlarıyla fotoğraf çekmekten parmakların yorulacak. Eski kiliseler, sinagoglar, camiler bir arada, müthiş bir kültür mozaiği. Küçük antikacılardan, yerel tasarım dükkanlarından ve ikinci el hazinelerinden kendine özgü parçalar bulabilir, orta bütçeyle harika alışveriş yapabilirsin. Buranın ruhunu yakalamak için bolca vakit ayır!
+- [Fener & Balat Sokakları](search:Fener & Balat Sokakları) - Burası tam bir açık hava müzesi! Renkli cumbalı evleri, Arnavut kaldırımlı daracık sokakları, her köşede karşına çıkacak sürpriz kafeleri ve vintage dükkanlarıyla fotoğraf çekmekten parmakların yorulacak. Eski kiliseler, sinagoglar, camiler bir arada, müthiş bir kültür mozaiği. Küçük antikacılardan, yerel tasarım dükkanlarından ve ikinci el hazinelerinden kendine özgü parçalar bulabilir, orta bütçeyle harika alışveriş yapabilirsin. Buranın ruhunu yakalamak için bolca vakit ayır!
 
-⭐ **Kuzguncuk** - Anadolu Yakası'nın o "sakin köy" havası burada! Dar sokakları, nostaljik bakkalları, rengârenk ahşap evleriyle zamanda yolculuk gibi. Hafta sonu kahvaltısı için İsmail Usta'nın meşhur tostlarını veya Kuzguncuk Börekçisi'ni denemelisin. Boğaz'a nazır banklarda oturup martıları izlemek, fotoğraf için altın saatini yakalamak paha biçilmez. Alışveriş için butik tasarım dükkanları ve antikacılar var.
+- [Kuzguncuk](search:Kuzguncuk) - Anadolu Yakası'nın o "sakin köy" havası burada! Dar sokakları, nostaljik bakkalları, rengârenk ahşap evleriyle zamanda yolculuk gibi. Hafta sonu kahvaltısı için İsmail Usta'nın meşhur tostlarını veya Kuzguncuk Börekçisi'ni denemelisin. Boğaz'a nazır banklarda oturup martıları izlemek, fotoğraf için altın saatini yakalamak paha biçilmez. Alışveriş için butik tasarım dükkanları ve antikacılar var.
 
-⭐ **Karaköy & Tersane** - Burası İstanbul'un yeni yaratıcı kalbi! Eski tersane binalarında sanat galerileri, concept store'lar ve muhteşem kafeler var. Street art duvarları fotoğraf için harika. Karaköy Güllüoğlu'nda baklava, Karaköy Lokantası'nda modern Türk mutfağı deneyimle. Akşamüstü İstanbul Modern'in kafesinde Boğaz manzarasıyla gün batımını izle.''',
+- [Karaköy & Tersane](search:Karaköy & Tersane) - Burası İstanbul'un yeni yaratıcı kalbi! Eski tersane binalarında sanat galerileri, concept store'lar ve muhteşem kafeler var. Street art duvarları fotoğraf için harika. Karaköy Güllüoğlu'nda baklava, Karaköy Lokantası'nda modern Türk mutfağı deneyimle. Akşamüstü İstanbul Modern'in kafesinde Boğaz manzarasıyla gün batımını izle.''',
       'tip':
-          "Balat'a hafta içi sabah erken git, hem kalabalıksız fotoğraf çekersin hem de yerel esnafla sohbet edersin. Çay ikram ederlerse reddetme! 🍵",
+          "Balat'a hafta içi sabah erken git, hem kalabalıksız fotoğraf çekersin hem de yerel esnafla sohbet edersin. Çay ikram ederlerse reddetme!",
     };
   }
 
   static Map<String, String> _getBarcelonaContent(
     List<String> interests,
     String budget,
+    bool isEnglish,
   ) {
+    if (isEnglish) {
+      return {
+        'intro':
+            "Welcome to Barcelona! A wonderful adventure awaits in Gaudí's magical city!",
+        'recommendations': '''
+- [Bunkers del Carmel](search:Bunkers del Carmel) - The best viewpoint in Barcelona, unknown to tourists and kept secret by locals! Built on old Civil War bunkers, this hill offers a 360-degree city panorama. Go at sunset, drink wine while the city lights turn on. A paradise for photographers! Free and uncrowded.
+
+- [El Born District](search:El Born District) - The cooler, less touristy version of the Gothic Quarter! You won't get enough of exploring its narrow streets, independent boutiques, vintage shops, and great tapas bars. See Roman ruins at El Born Cultural Center, enter Santa Maria del Mar Church (free and magnificent). Nomad Coffee for coffee, Paradiso (one of the world's best bars) for cocktails.
+
+- [Sant Antoni Market](search:Sant Antoni Market) - The newly restored market building is an architectural wonder. Transforms into a book and antique market on Sunday mornings. Have an Australian-style brunch at Federal Café, eat healthy at Flax & Kale. Surrounding streets are full of vintage shops and street art.''',
+        'tip':
+            "Buy tickets for La Sagrada Familia but go for the first slot at 9 AM. The light is magnificent at that hour and there are no crowds!",
+      };
+    }
     return {
       'intro':
           "Barcelona'ya hoş geldin! Gaudí'nin büyülü şehrinde harika bir macera seni bekliyor!",
       'recommendations': '''
-⭐ **Bunkers del Carmel** - Turistlerin bilmediği, yerellerin gizli sakladığı Barcelona'nın en iyi manzara noktası! Eski İç Savaş sığınakları üzerine kurulu bu tepe, 360 derece şehir panoraması sunuyor. Gün batımında git, şehrin ışıkları yanarken şarap iç. Fotoğrafçılar için cennet! Ücretsiz ve kalabalıksız.
+- [Bunkers del Carmel](search:Bunkers del Carmel) - Turistlerin bilmediği, yerellerin gizli sakladığı Barcelona'nın en iyi manzara noktası! Eski İç Savaş sığınakları üzerine kurulu bu tepe, 360 derece şehir panoraması sunuyor. Gün batımında git, şehrin ışıkları yanarken şarap iç. Fotoğrafçılar için cennet! Ücretsiz ve kalabalıksız.
 
-⭐ **El Born Mahallesi** - Gotik Mahalle'nin daha cool, daha az turistik versiyonu! Dar sokakları, bağımsız butikleri, vintage dükkanları ve harika tapas barlarıyla keşfetmeye doyamazsın. El Born Kültür Merkezi'nde Roma kalıntılarını gör, Santa Maria del Mar Kilisesi'nin içine gir (ücretsiz ve muhteşem). Kahve için Nomad Coffee, kokteyl için Paradiso (dünyanın en iyi barlarından).
+- [El Born Mahallesi](search:El Born Mahallesi) - Gotik Mahalle'nin daha cool, daha az turistik versiyonu! Dar sokakları, bağımsız butikleri, vintage dükkanları ve harika tapas barlarıyla keşfetmeye doyamazsın. El Born Kültür Merkezi'nde Roma kalıntılarını gör, Santa Maria del Mar Kilisesi'nin içine gir (ücretsiz ve muhteşem). Kahve için Nomad Coffee, kokteyl için Paradiso (dünyanın en iyi barlarından).
 
-⭐ **Sant Antoni Pazarı** - Yeni restore edilmiş pazar binası mimari harika. Pazar Pazar günleri kitap ve antika pazarına dönüşüyor. Federal Café'de Avustralya tarzı brunch yap, Flax & Kale'de sağlıklı yemek ye. Çevre sokaklar vintage mağazalar ve street art ile dolu.''',
+- [Sant Antoni Pazarı](search:Sant Antoni Pazarı) - Yeni restore edilmiş pazar binası mimari harika. Pazar Pazar günleri kitap ve antika pazarına dönüşüyor. Federal Café'de Avustralya tarzı brunch yap, Flax & Kale'de sağlıklı yemek ye. Çevre sokaklar vintage mağazalar ve street art ile dolu.''',
       'tip':
-          "La Sagrada Familia'ya bilet al ama sabah 9'da ilk seansta git. Işık o saatte muhteşem ve kalabalık yok! 🌅",
+          "La Sagrada Familia'ya bilet al ama sabah 9'da ilk seansta git. Işık o saatte muhteşem ve kalabalık yok!",
     };
   }
 
   static Map<String, String> _getParisContent(
     List<String> interests,
     String budget,
+    bool isEnglish,
   ) {
+    if (isEnglish) {
+      return {
+        'intro': "Welcome to Paris! The City of Lights is ready to enchant you!",
+        'recommendations': '''
+- [Hidden Courtyards of Le Marais](search:Hidden Courtyards of Le Marais) - While tourists stick to main streets, you dive into courtyards! The garden of Hôtel de Sully, behind Place des Vosges, hidden passages... Vintage shops, Jewish quarter delicacies (L'As du Fallafel is legendary!), LGBTQ+ bars, art galleries. Photo moments at every corner.
+
+- [Canal Saint-Martin](search:Canal Saint-Martin) - Atmosphere straight out of the Amélie movie! Iron bridges, cafe terraces, vintage bookstores. Have coffee at Chez Prune, shop at Antoine et Lili. Join Parisians picnicking by the canal on Sundays. The golden hour is magnificent for photos.
+
+- [Backstreets of Montmartre](search:Backstreets of Montmartre) - Go behind Sacré-Cœur! Buy cheese and wine at the local market on Rue Lepic, take photos in front of La Maison Rose, but the real beauty is in the backstreets. Rue de l'Abreuvoir is the most romantic street in Paris. Don't miss chanson night at Au Lapin Agile.''',
+        'tip':
+            "Walk instead of using the metro! It's the only way to truly explore Paris. Don't be afraid to get lost, the best discoveries happen by accident!",
+      };
+    }
     return {
       'intro': "Paris'e hoş geldin! Işıklar şehri seni büyülemeye hazır!",
       'recommendations': '''
-⭐ **Le Marais'in Gizli Avluları** - Turistler ana caddelerde kalırken, sen avluların içine dal! Hôtel de Sully'nin bahçesi, Place des Vosges'un arkası, gizli pasajlar... Vintage dükkanları, Yahudi mahallesi lezzetleri (L'As du Fallafel efsane!), LGBTQ+ barları, sanat galerileri. Her köşede fotoğraflık anlar.
+- [Le Marais'in Gizli Avluları](search:Le Marais'in Gizli Avluları) - Turistler ana caddelerde kalırken, sen avluların içine dal! Hôtel de Sully'nin bahçesi, Place des Vosges'un arkası, gizli pasajlar... Vintage dükkanları, Yahudi mahallesi lezzetleri (L'As du Fallafel efsane!), LGBTQ+ barları, sanat galerileri. Her köşede fotoğraflık anlar.
 
-⭐ **Canal Saint-Martin** - Amelie filminden çıkma atmosfer! Demir köprüler, kafe terasları, vintage kitapçılar. Chez Prune'de kahve iç, Antoine et Lili'de alışveriş yap. Pazar günleri kanalın kenarında piknik yapan Parisililere katıl. Fotoğraf için altın saat muhteşem.
+- [Canal Saint-Martin](search:Canal Saint-Martin) - Amelie filminden çıkma atmosfer! Demir köprüler, kafe terasları, vintage kitapçılar. Chez Prune'de kahve iç, Antoine et Lili'de alışveriş yap. Pazar günleri kanalın kenarında piknik yapan Parisililere katıl. Fotoğraf için altın saat muhteşem.
 
-⭐ **Montmartre'ın Arka Sokakları** - Sacré-Cœur'ün arkasına dolan! Rue Lepic'te yerel pazarda peynir ve şarap al, La Maison Rose önünde fotoğraf çek ama asıl güzellik arka sokaklarda. Rue de l'Abreuvoir Paris'in en romantik sokağı. Au Lapin Agile'de chanson gecesi kaçırma.''',
+- [Montmartre'ın Arka Sokakları](search:Montmartre'ın Arka Sokakları) - Sacré-Cœur'ün arkasına dolan! Rue Lepic'te yerel pazarda peynir ve şarap al, La Maison Rose önünde fotoğraf çek ama asıl güzellik arka sokaklarda. Rue de l'Abreuvoir Paris'in en romantik sokağı. Au Lapin Agile'de chanson gecesi kaçırma.''',
       'tip':
-          "Metro yerine yürü! Paris'i gerçekten keşfetmenin tek yolu bu. Kaybolmaktan korkma, en güzel keşifler tesadüfen olur! 🚶‍♂️",
+          "Metro yerine yürü! Paris'i gerçekten keşfetmenin tek yolu bu. Kaybolmaktan korkma, en güzel keşifler tesadüfen olur!",
     };
   }
 
   static Map<String, String> _getRomaContent(
     List<String> interests,
     String budget,
+    bool isEnglish,
   ) {
     return {
       'intro':
           "Roma'ya hoş geldin! Ebedi şehir 3000 yıllık hazinelerini sana açmaya hazır!",
       'recommendations': '''
-⭐ **Trastevere** - Roma'nın gerçek kalbi burası! Sarmaşıklı duvarlar, çamaşır asılı dar sokaklar, meydanlarda oynayan çocuklar... Turistik ama hala otantik. Da Enzo al 29'da cacio e pepe ye (sıra bekle ama değer!), Piazza di Santa Maria'da gece çeşmenin önünde otur, Bar San Calisto'da Negroni iç.
+- [Trastevere](search:Trastevere) - Roma'nın gerçek kalbi burası! Sarmaşıklı duvarlar, çamaşır asılı dar sokaklar, meydanlarda oynayan çocuklar... Turistik ama hala otantik. Da Enzo al 29'da cacio e pepe ye (sıra bekle ama değer!), Piazza di Santa Maria'da gece çeşmenin önünde otur, Bar San Calisto'da Negroni iç.
 
-⭐ **Testaccio** - Romalıların Roma'sı! Eski mezbaha binalarında şimdi MACRO müzesi ve gece kulüpleri var. Testaccio Pazarı'nda supplì ve porchetta dene (en iyi street food!). Aventine Tepesi'ndeki Malta Şövalyeleri Kapısı'nın anahtar deliğinden St. Peter's Bazilikası'nı gör - sürpriz manzara!
+- [Testaccio](search:Testaccio) - Romalıların Roma'sı! Eski mezbaha binalarında şimdi MACRO müzesi ve gece kulüpleri var. Testaccio Pazarı'nda supplì ve porchetta dene (en iyi street food!). Aventine Tepesi'ndeki Malta Şövalyeleri Kapısı'nın anahtar deliğinden St. Peter's Bazilikası'nı gör - sürpriz manzara!
 
-⭐ **Garbatella** - Hiçbir turistin bilmediği mahalle! 1920'lerin işçi konutları şimdi bohem sanatçı cenneti. Renkli binalar, gizli bahçeler, yerel barlar. Cesare al Casaletto'da gerçek Roma mutfağı ye. Street art duvarları fotoğraf için harika.''',
+- [Garbatella](search:Garbatella) - Hiçbir turistin bilmediği mahalle! 1920'lerin işçi konutları şimdi bohem sanatçı cenneti. Renkli binalar, gizli bahçeler, yerel barlar. Cesare al Casaletto'da gerçek Roma mutfağı ye. Street art duvarları fotoğraf için harika.''',
       'tip':
-          "Trastevere'de akşam 7'de aperitivo saati başlar. 8-10€'ya içki + sınırsız büfe! En iyi ekonomik akşam yemeği stratejisi 🍷",
+          "Trastevere'de akşam 7'de aperitivo saati başlar. 8-10€'ya içki + sınırsız büfe! En iyi ekonomik akşam yemeği stratejisi",
     };
   }
 
   static Map<String, String> _getLondraContent(
     List<String> interests,
     String budget,
+    bool isEnglish,
   ) {
     return {
       'intro':
           "Londra'ya hoş geldin! Kraliyet şehri modern ve tarihi bir arada sunuyor!",
       'recommendations': '''
-⭐ **Shoreditch & Brick Lane** - Londra'nın en cool mahallesi! Street art duvarları her köşede, vintage marketler, bağımsız tasarımcı dükkanları. Pazar günü Brick Lane Market muhteşem. Beigel Bake'de 24 saat taze bagel, Cereal Killer Cafe'de 120 çeşit mısır gevreği. Akşam rooftop barlarda kokteyl!
+- [Shoreditch & Brick Lane](search:Shoreditch & Brick Lane) - Londra'nın en cool mahallesi! Street art duvarları her köşede, vintage marketler, bağımsız tasarımcı dükkanları. Pazar günü Brick Lane Market muhteşem. Beigel Bake'de 24 saat taze bagel, Cereal Killer Cafe'de 120 çeşit mısır gevreği. Akşam rooftop barlarda kokteyl!
 
-⭐ **South Bank & Borough Market** - Thames kıyısında yürüyüş, Tate Modern (ücretsiz!), Shakespeare's Globe. Borough Market'ta dünya mutfakları: İngiliz pies, İspanyol jamón, Fransız peynir. Neal's Yard Dairy'de peynir tadımı kaçırma. Gece National Theatre'da oyun izle.
+- [South Bank & Borough Market](search:South Bank & Borough Market) - Thames kıyısında yürüyüş, Tate Modern (ücretsiz!), Shakespeare's Globe. Borough Market'ta dünya mutfakları: İngiliz pies, İspanyol jamón, Fransız peynir. Neal's Yard Dairy'de peynir tadımı kaçırma. Gece National Theatre'da oyun izle.
 
-⭐ **Notting Hill & Portobello** - Pastel renkli evler, antika dükkanları, film setleri. Cumartesi Portobello Road Market'ta kaybol. The Churchill Arms pub tamamen çiçeklerle kaplı. Ottolenghi'de brunch, Electric Cinema'da vintage koltuklarda film izle.''',
+- [Notting Hill & Portobello](search:Notting Hill & Portobello) - Pastel renkli evler, antika dükkanları, film setleri. Cumartesi Portobello Road Market'ta kaybol. The Churchill Arms pub tamamen çiçeklerle kaplı. Ottolenghi'de brunch, Electric Cinema'da vintage koltuklarda film izle.''',
       'tip':
-          "Oyster Card al, tüm toplu taşıma için geçerli. Müzelerin çoğu ücretsiz, sanat galerilerine de giriş yok! 🎨",
+          "Oyster Card al, tüm toplu taşıma için geçerli. Müzelerin çoğu ücretsiz, sanat galerilerine de giriş yok!",
     };
   }
 
   static Map<String, String> _getBerlinContent(
     List<String> interests,
     String budget,
+    bool isEnglish,
   ) {
     return {
       'intro':
           "Berlin'e hoş geldin! Özgür ruhlu, yaratıcı ve tarihi derin bir şehir!",
       'recommendations': '''
-⭐ **Kreuzberg** - Berlin'in kalbi burası! Multikulti atmosfer, dönerci, vintage shop, techno kulüp yan yana. Markthalle Neun'da Perşembe Street Food, Görlitzer Park'ta piknik. Oranienstraße'de gece hayatı efsane. Burası gerçek Berlin!
+- [Kreuzberg](search:Kreuzberg) - Berlin'in kalbi burası! Multikulti atmosfer, dönerci, vintage shop, techno kulüp yan yana. Markthalle Neun'da Perşembe Street Food, Görlitzer Park'ta piknik. Oranienstraße'de gece hayatı efsane. Burası gerçek Berlin!
 
-⭐ **Friedrichshain & RAW Gelände** - Eski tren deposu şimdi sanat merkezi! Duvar boyama, pazar, bara, klüp her şey var. East Side Gallery'de Berlin Duvarı'nın en uzun parçası. Boxhagener Platz'da hafta sonu kahvaltı, Simon-Dach-Straße'de bira.
+- [Friedrichshain & RAW Gelände](search:Friedrichshain & RAW Gelände) - Eski tren deposu şimdi sanat merkezi! Duvar boyama, pazar, bara, klüp her şey var. East Side Gallery'de Berlin Duvarı'nın en uzun parçası. Boxhagener Platz'da hafta sonu kahvaltı, Simon-Dach-Straße'de bira.
 
-⭐ **Prenzlauer Berg** - Hipster cennet! Mauerpark'ta Pazar günü karaoke ve bit pazarı. Kastanienallee'de butik alışveriş, Kulturbrauerei'de etkinlikler. Konnopke's Imbiss'te currywurst ye, Pratercarten'de Berlin'in en eski birahane bahçesi.''',
+- [Prenzlauer Berg](search:Prenzlauer Berg) - Hipster cennet! Mauerpark'ta Pazar günü karaoke ve bit pazarı. Kastanienallee'de butik alışveriş, Kulturbrauerei'de etkinlikler. Konnopke's Imbiss'te currywurst ye, Pratercarten'de Berlin'in en eski birahane bahçesi.''',
       'tip':
-          "Berlin ucuz bir şehir. Döner 4€, bira 3€, giriş birçok yere ücretsiz. Club'lara gece 1'den sonra git! 🍺",
+          "Berlin ucuz bir şehir. Döner 4€, bira 3€, giriş birçok yere ücretsiz. Club'lara gece 1'den sonra git!",
     };
   }
 
   static Map<String, String> _getMadridContent(
     List<String> interests,
     String budget,
+    bool isEnglish,
   ) {
     return {
       'intro':
           "Madrid'e hoş geldin! İspanya'nın kalbinde enerji, sanat ve tapas seni bekliyor!",
       'recommendations': '''
-⭐ **La Latina & El Rastro** - Madrid'in en otantik mahallesi! Pazar günü El Rastro bit pazarı efsane. Cava Baja'da tapas bardan bara atla. Casa Lucio'da huevos rotos, Juana la Loca'da pintxo. Akşam La Latina meydanlarında vermouth iç.
+- [La Latina & El Rastro](search:La Latina & El Rastro) - Madrid'in en otantik mahallesi! Pazar günü El Rastro bit pazarı efsane. Cava Baja'da tapas bardan bara atla. Casa Lucio'da huevos rotos, Juana la Loca'da pintxo. Akşam La Latina meydanlarında vermouth iç.
 
-⭐ **Malasaña** - Hipster Madrid! Vintage dükkanları, plak mağazaları, street art. Café Comercial'de kahve, Ojalá'nın kumlu zemininde brunch. Gece Calle Velarde'de bar hopping. La Vía Láctea'da canlı müzik.
+- [Malasaña](search:Malasaña) - Hipster Madrid! Vintage dükkanları, plak mağazaları, street art. Café Comercial'de kahve, Ojalá'nın kumlu zemininde brunch. Gece Calle Velarde'de bar hopping. La Vía Láctea'da canlı müzik.
 
-⭐ **Lavapiés** - Multicultural, gerçek, ucuz! Hint, Çin, Afrika restoranları iç içe. Tabacalera sanat merkezi (ücretsiz), Cine Doré (en eski sinema). El Brillante'de calamares bocadillo ye. Gece açık havada sangria.''',
+- [Lavapiés](search:Lavapiés) - Multicultural, gerçek, ucuz! Hint, Çin, Afrika restoranları iç içe. Tabacalera sanat merkezi (ücretsiz), Cine Doré (en eski sinema). El Brillante'de calamares bocadillo ye. Gece açık havada sangria.''',
       'tip':
-          "İspanyol saatine ayak uydur: Öğle 14:00, akşam yemeği 21:00, gece çıkışı 01:00'den sonra başlar! 🌙",
+          "İspanyol saatine ayak uydur: Öğle 14:00, akşam yemeği 21:00, gece çıkışı 01:00'den sonra başlar!",
     };
   }
 
   static Map<String, String> _getSevillaContent(
     List<String> interests,
     String budget,
+    bool isEnglish,
   ) {
     return {
       'intro':
           "Sevilla'ya hoş geldin! Flamenko, portakal ağaçları ve tutkulu Endülüs ruhu!",
       'recommendations': '''
-⭐ **Triana** - Guadalquivir'in karşı kıyısında gerçek Sevilla! Seramik atölyeleri, flamenko barları, tapas lokantaları. Mercado de Triana'da kahvaltı, Bar Bistec'te carrillada. Akşam nehir kenarında gün batımı, gece Casa de la Memoria'da flamenko.
+- [Triana](search:Triana) - Guadalquivir'in karşı kıyısında gerçek Sevilla! Seramik atölyeleri, flamenko barları, tapas lokantaları. Mercado de Triana'da kahvaltı, Bar Bistec'te carrillada. Akşam nehir kenarında gün batımı, gece Casa de la Memoria'da flamenko.
 
-⭐ **Alameda de Hércules** - Lokal gece hayatının merkezi! Eski mahalle şimdi hipster cenneti. Gün içinde vintage kafeler, gece açık hava barları. El Rinconcillo (1670'den beri!) en eski bar. Duo Tapas'ta modern İspanyol.
+- [Alameda de Hércules](search:Alameda de Hércules) - Lokal gece hayatının merkezi! Eski mahalle şimdi hipster cenneti. Gün içinde vintage kafeler, gece açık hava barları. El Rinconcillo (1670'den beri!) en eski bar. Duo Tapas'ta modern İspanyol.
 
-⭐ **Barrio Santa Cruz** - Evet turistik ama çok güzel! Labirent sokaklar, gizli avlular, jasmin kokusu. Sabah erken git, kalabalıksız. Casa Tomate'de rooftop kahve. Archivo de Indias'ı gör (ücretsiz, Kolomb haritaları).''',
+- [Barrio Santa Cruz](search:Barrio Santa Cruz) - Evet turistik ama çok güzel! Labirent sokaklar, gizli avlular, jasmin kokusu. Sabah erken git, kalabalıksız. Casa Tomate'de rooftop kahve. Archivo de Indias'ı gör (ücretsiz, Kolomb haritaları).''',
       'tip':
-          "Siesta kutsal! 14:00-17:00 arası çoğu yer kapalı. Bu saatleri dinlenmek veya Alcázar bahçelerinde zaman için kullan 🍊",
+          "Siesta kutsal! 14:00-17:00 arası çoğu yer kapalı. Bu saatleri dinlenmek veya Alcázar bahçelerinde zaman için kullan",
     };
   }
 
   static Map<String, String> _getViyanaContent(
     List<String> interests,
     String budget,
+    bool isEnglish,
   ) {
     return {
       'intro':
           "Viyana'ya hoş geldin! İmparatorluk görkemi, kahve kültürü ve müzik şehri!",
       'recommendations': '''
-⭐ **Naschmarkt & Freihausviertel** - Viyana'nın en canlı pazarı! 120+ tezgah: Avusturya, Türk, Balkan lezzetleri. Cumartesi bit pazarı var. Arkasında Freihausviertel'de indie kafeler, vintage mağazalar. Café Savoy'da kahve, Motto'da brunch.
+- [Naschmarkt & Freihausviertel](search:Naschmarkt & Freihausviertel) - Viyana'nın en canlı pazarı! 120+ tezgah: Avusturya, Türk, Balkan lezzetleri. Cumartesi bit pazarı var. Arkasında Freihausviertel'de indie kafeler, vintage mağazalar. Café Savoy'da kahve, Motto'da brunch.
 
-⭐ **MuseumsQuartier** - Dünyanın en büyük sanat komplekslerinden! Leopold Museum, MUMOK, Kunsthalle. Ama asıl önemli olan avludaki dev renkli banklar - Viyanılıların buluşma noktası. Akşam şarap, gece dans. Café Leopold'da rooftop.
+- [MuseumsQuartier](search:MuseumsQuartier) - Dünyanın en büyük sanat komplekslerinden! Leopold Museum, MUMOK, Kunsthalle. Ama asıl önemli olan avludaki dev renkli banklar - Viyanılıların buluşma noktası. Akşam şarap, gece dans. Café Leopold'da rooftop.
 
-⭐ **Spittelberg** - Biedermeier evleri, dar sokaklar, sanat galerileri. Amerlingbeisl'de gizli bahçede yemek. Noel pazarı efsanevi. Yıl boyu butik mağazalar, tasarımcı atölyeleri. Plutzer Bräu'de ev yapımı bira.''',
+- [Spittelberg](search:Spittelberg) - Biedermeier evleri, dar sokaklar, sanat galerileri. Amerlingbeisl'de gizli bahçede yemek. Noel pazarı efsanevi. Yıl boyu butik mağazalar, tasarımcı atölyeleri. Plutzer Bräu'de ev yapımı bira.''',
       'tip':
-          "Kahve bir ritüel! Melange sipariş et, pasta al, gazete oku, acele etme. Türk kahvesi istersen şaşırırlar 😄 ☕",
+          "Kahve bir ritüel! Melange sipariş et, pasta al, gazete oku, acele etme. Türk kahvesi istersen şaşırırlar",
     };
   }
 
   static Map<String, String> _getPragContent(
     List<String> interests,
     String budget,
+    bool isEnglish,
   ) {
     return {
       'intro':
           "Prag'a hoş geldin! Ortaçağ büyüsü, bira cenneti ve uygun fiyatlar!",
       'recommendations': '''
-⭐ **Vinohrady & Žižkov** - Turistsiz Prag! Vinohrady art nouveau binaları, trendy kafeler, LGBT+ dostu. Riegrovy Sady parkında bira bahçesi manzarayla. Žižkov ise underground: ucuz bira, punk bar, yerel pub. Televizyon Kulesi'ne çık.
+- [Vinohrady & Žižkov](search:Vinohrady & Žižkov) - Turistsiz Prag! Vinohrady art nouveau binaları, trendy kafeler, LGBT+ dostu. Riegrovy Sady parkında bira bahçesi manzarayla. Žižkov ise underground: ucuz bira, punk bar, yerel pub. Televizyon Kulesi'ne çık.
 
-⭐ **Holešovice** - Eski endüstri bölgesi şimdi sanat merkezi! DOX çağdaş sanat, Vnitroblock yaratıcı hub. Manifesto Market'ta street food, Cross Club'da cyberpunk gece hayatı. Pazar günü Holešovice pazarı muhteşem.
+- [Holešovice](search:Holešovice) - Eski endüstri bölgesi şimdi sanat merkezi! DOX çağdaş sanat, Vnitroblock yaratıcı hub. Manifesto Market'ta street food, Cross Club'da cyberpunk gece hayatı. Pazar günü Holešovice pazarı muhteşem.
 
-⭐ **Malá Strana** - Evet turistik ama gece sihirli! Gündüz kalabalık, ama akşam 7'den sonra kafeler boşalır. Kampa Adası'nda nehir kenarı, Lennon Duvarı (gece git), U Malého Glena'da jazz. Cafe Lounge'da cheesecake.''',
+- [Malá Strana](search:Malá Strana) - Evet turistik ama gece sihirli! Gündüz kalabalık, ama akşam 7'den sonra kafeler boşalır. Kampa Adası'nda nehir kenarı, Lennon Duvarı (gece git), U Malého Glena'da jazz. Cafe Lounge'da cheesecake.''',
       'tip':
-          "Bira sudan ucuz gerçek! 0.5L 40 Kč (1.5€). Hospoda denen yerel birahane pub'larını ara, turistik olmayan! 🍺",
+          "Bira sudan ucuz gerçek! 0.5L 40 Kč (1.5€). Hospoda denen yerel birahane pub'larını ara, turistik olmayan!",
     };
   }
 
   static Map<String, String> _getLizbonContent(
     List<String> interests,
     String budget,
+    bool isEnglish,
   ) {
     return {
       'intro':
           "Lizbon'a hoş geldin! Yedi tepe, fado müziği ve pastel de nata cenneti!",
       'recommendations': '''
-⭐ **Alfama** - Lizbon'un ruhu burada! Dar sokaklar, azulejo karolar, fado sesleri. Gün batımında Miradouro da Graça'ya çık. Tasca do Chico'da fado (rezervasyon şart), A Baiuca'da yerel deneyim. Feira da Ladra bit pazarı Salı ve Cumartesi.
+- [Alfama](search:Alfama) - Lizbon'un ruhu burada! Dar sokaklar, azulejo karolar, fado sesleri. Gün batımında Miradouro da Graça'ya çık. Tasca do Chico'da fado (rezervasyon şart), A Baiuca'da yerel deneyim. Feira da Ladra bit pazarı Salı ve Cumartesi.
 
-⭐ **LX Factory** - Eski fabrika şimdi yaratıcı cennet! Kitapçı, restoran, galeri, pazar hepsi bir arada. Landeau'da dünyanın en iyi çikolatalı pastası. Hafta sonu açık hava pazarı. Gece rooftop barlarda dans.
+- [LX Factory](search:LX Factory) - Eski fabrika şimdi yaratıcı cennet! Kitapçı, restoran, galeri, pazar hepsi bir arada. Landeau'da dünyanın en iyi çikolatalı pastası. Hafta sonu açık hava pazarı. Gece rooftop barlarda dans.
 
-⭐ **Mouraria** - Turistlerin bilmediği gerçek mahalle! Multicultural, Afrikalı, Hintli, Çinli restoranlar. Zé da Mouraria'da fado, Tia Alice'de ev yemekleri. Street art turları muhteşem. Martim Moniz meydanında dünya mutfakları.''',
+- [Mouraria](search:Mouraria) - Turistlerin bilmediği gerçek mahalle! Multicultural, Afrikalı, Hintli, Çinli restoranlar. Zé da Mouraria'da fado, Tia Alice'de ev yemekleri. Street art turları muhteşem. Martim Moniz meydanında dünya mutfakları.''',
       'tip':
-          "28 numaralı tramvay ikonik ama çok kalabalık. Sabah erken git ya da 12E tramvayını dene, aynı rota daha boş! 🚋",
+          "28 numaralı tramvay ikonik ama çok kalabalık. Sabah erken git ya da 12E tramvayını dene, aynı rota daha boş!",
     };
   }
 
   static Map<String, String> _getMilanoContent(
     List<String> interests,
     String budget,
+    bool isEnglish,
   ) {
     return {
       'intro': "Milano'ya hoş geldin! Moda, tasarım ve gizli avluların şehri!",
       'recommendations': '''
-⭐ **Navigli** - Kanallar boyunca akşam hayatı! Aperitivo kültürü burada doğdu. Fonderie Milanesi'de kokteyl, Rita's'ta Spritz. Pazar günü antika pazarı. Gece clubları Tortona'da. Vintage mağazalar, street art, bohem ruh.
+- [Navigli](search:Navigli) - Kanallar boyunca akşam hayatı! Aperitivo kültürü burada doğdu. Fonderie Milanesi'de kokteyl, Rita's'ta Spritz. Pazar günü antika pazarı. Gece clubları Tortona'da. Vintage mağazalar, street art, bohem ruh.
 
-⭐ **Brera** - Sanat ve tasarım merkezi! Pinacoteca di Brera muhteşem. Dar sokaklarda galeri, butik, tasarımcı mağazalar. Jamaica'da tarihi kafede aperitivo. Gece Bulgari Hotel'in bahçesinde kokteyl (pahalı ama havası var).
+- [Brera](search:Brera) - Sanat ve tasarım merkezi! Pinacoteca di Brera muhteşem. Dar sokaklarda galeri, butik, tasarımcı mağazalar. Jamaica'da tarihi kafede aperitivo. Gece Bulgari Hotel'in bahçesinde kokteyl (pahalı ama havası var).
 
-⭐ **Isola** - Yükselen mahalle! Eski işçi semti şimdi hipster cenneti. Frida'da brunch, Blue Note'da jazz. Corso Como 10 tasarım mağazası. Gece Bosco Verticale'nin önünde fotoğraf, sonra Ceresio 7'de rooftop havuz kenarı.''',
+- [Isola](search:Isola) - Yükselen mahalle! Eski işçi semti şimdi hipster cenneti. Frida'da brunch, Blue Note'da jazz. Corso Como 10 tasarım mağazası. Gece Bosco Verticale'nin önünde fotoğraf, sonra Ceresio 7'de rooftop havuz kenarı.''',
       'tip':
-          "Aperitivo 18:00-21:00 arası: 10€'ya içki + büfe! Navigli'de birkaç bar gez, en dolu büfeyi seç 🍹",
+          "Aperitivo 18:00-21:00 arası: 10€'ya içki + büfe! Navigli'de birkaç bar gez, en dolu büfeyi seç",
     };
   }
 
   static Map<String, String> _getAmsterdamContent(
     List<String> interests,
     String budget,
+    bool isEnglish,
   ) {
     return {
       'intro':
           "Amsterdam'a hoş geldin! Kanallar, bisikletler ve özgür ruhun şehri!",
       'recommendations': '''
-⭐ **De Pijp** - Amsterdam'ın en canlı mahallesi! Albert Cuyp pazarı günlük, stroopwafel taze. Brouwerij 't IJ'de değirmende bira, CT Coffee'de kahve. Sarphatipark'ta piknik. Gece küçük barlarda canlı müzik.
+- [De Pijp](search:De Pijp) - Amsterdam'ın en canlı mahallesi! Albert Cuyp pazarı günlük, stroopwafel taze. Brouwerij 't IJ'de değirmende bira, CT Coffee'de kahve. Sarphatipark'ta piknik. Gece küçük barlarda canlı müzik.
 
-⭐ **Jordaan** - Kanal boyunca masal! 17. yy evleri, gizli avlular (hofjes), vintage dükkanları. Noordermarkt'ta Pazartesi bit pazarı, Cumartesi farmer's market. Café Papeneiland (1642'den beri!) elmalı turta. Gece bruin café'lerde bira.
+- [Jordaan](search:Jordaan) - Kanal boyunca masal! 17. yy evleri, gizli avlular (hofjes), vintage dükkanları. Noordermarkt'ta Pazartesi bit pazarı, Cumartesi farmer's market. Café Papeneiland (1642'den beri!) elmalı turta. Gece bruin café'lerde bira.
 
-⭐ **NDSM Wharf** - Eski tersane şimdi kültür merkezi! Street art, festival, plaj barı. Pllek'te nehir kenarında brunch. IJ-Hallen'de Avrupa'nın en büyük bit pazarı (ayda 2 kez). Ücretsiz feribot merkeze gidiyor.''',
+- [NDSM Wharf](search:NDSM Wharf) - Eski tersane şimdi kültür merkezi! Street art, festival, plaj barı. Pllek'te nehir kenarında brunch. IJ-Hallen'de Avrupa'nın en büyük bit pazarı (ayda 2 kez). Ücretsiz feribot merkeze gidiyor.''',
       'tip':
-          "Bisiklet kirala! 10€/gün, şehri gerçekten keşfetmenin tek yolu. Ama tramvay raylarına dikkat et! 🚲",
+          "Bisiklet kirala! 10€/gün, şehri gerçekten keşfetmenin tek yolu. Ama tramvay raylarına dikkat et!",
     };
   }
 
   static Map<String, String> _getTokyoContent(
     List<String> interests,
     String budget,
+    bool isEnglish,
   ) {
     return {
       'intro':
           "Tokyo'ya hoş geldin! Gelecek ve gelenek, kaos ve düzen bir arada!",
       'recommendations': '''
-⭐ **Shimokitazawa** - Tokyo'nun en cool mahallesi! Vintage dükkanları, küçük kafeler, canlı müzik sahneleri. Trendy olmayan bir şekilde trendy. Shirohige's Cream Puff (Totoro şeklinde!) kaçırma. Gece küçük izakaya'larda sake.
+- [Shimokitazawa](search:Shimokitazawa) - Tokyo'nun en cool mahallesi! Vintage dükkanları, küçük kafeler, canlı müzik sahneleri. Trendy olmayan bir şekilde trendy. Shirohige's Cream Puff (Totoro şeklinde!) kaçırma. Gece küçük izakaya'larda sake.
 
-⭐ **Yanaka** - Eski Tokyo! Edo dönemi atmosferi, ahşap evler, kediler (!). Yanaka Ginza alışveriş sokağı, tapınak ve mezarlık gezisi. Kayaba Coffee tarihi kahve. Sakura zamanı en güzel yer burası.
+- [Yanaka](search:Yanaka) - Eski Tokyo! Edo dönemi atmosferi, ahşap evler, kediler (!). Yanaka Ginza alışveriş sokağı, tapınak ve mezarlık gezisi. Kayaba Coffee tarihi kahve. Sakura zamanı en güzel yer burası.
 
-⭐ **Golden Gai** - 200+ küçük bar sığmış 6 dar sokağa! Her biri 5-10 kişilik, her birinin farklı teması. İlk kez gidenler için ürkütücü ama kapı açık olanları dene. Gece 23:00'den sonra gitmen lazım. Efsanevi deneyim!''',
+- [Golden Gai](search:Golden Gai) - 200+ küçük bar sığmış 6 dar sokağa! Her biri 5-10 kişilik, her birinin farklı teması. İlk kez gidenler için ürkütücü ama kapı açık olanları dene. Gece 23:00'den sonra gitmen lazım. Efsanevi deneyim!''',
       'tip':
-          "Suica kartı al, her yerde geçerli. Kombini'lerde (7-Eleven, Lawson) yemek kaliteli ve ucuz. Onigiri 150¥! 🍙",
+          "Suica kartı al, her yerde geçerli. Kombini'lerde (7-Eleven, Lawson) yemek kaliteli ve ucuz. Onigiri 150¥!",
     };
   }
 
   static Map<String, String> _getSeulContent(
     List<String> interests,
     String budget,
+    bool isEnglish,
   ) {
     return {
       'intro': "Seul'e hoş geldin! K-pop, BBQ ve 24 saat yaşayan megakent!",
       'recommendations': '''
-⭐ **Hongdae** - Gençlik enerjisi! Sokak performansları, indie müzik, gece hayatı 24 saat. Özgür park'ta cuma akşamı konser. Vintage mağazalar, K-beauty dükkanları. Thursday Party'de clubbing. Gece ayak masajı salonları!
+- [Hongdae](search:Hongdae) - Gençlik enerjisi! Sokak performansları, indie müzik, gece hayatı 24 saat. Özgür park'ta cuma akşamı konser. Vintage mağazalar, K-beauty dükkanları. Thursday Party'de clubbing. Gece ayak masajı salonları!
 
-⭐ **Ikseon-dong Hanok** - Eski-yeni karışımı! 100 yıllık hanok evler şimdi trendy kafe ve butik. Seoul Coffee'de kahve, Gyeongbokgung sarayına 5 dakika. Fotoğraf için altın. Gece yerel makgeolli barlarında.
+- [Ikseon-dong Hanok](search:Ikseon-dong Hanok) - Eski-yeni karışımı! 100 yıllık hanok evler şimdi trendy kafe ve butik. Seoul Coffee'de kahve, Gyeongbokgung sarayına 5 dakika. Fotoğraf için altın. Gece yerel makgeolli barlarında.
 
-⭐ **Euljiro** - Hipster Seoul! Eski metal işleri dükkanları arasında gizli kafeler ve barlar. Café Onion eski ev fabrikasında. Euljiro 3-ga'da retro izakaya'lar. Cheonggyecheon deresi boyunca gece yürüyüşü romantik.''',
+- [Euljiro](search:Euljiro) - Hipster Seoul! Eski metal işleri dükkanları arasında gizli kafeler ve barlar. Café Onion eski ev fabrikasında. Euljiro 3-ga'da retro izakaya'lar. Cheonggyecheon deresi boyunca gece yürüyüşü romantik.''',
       'tip':
-          "T-money kart al, metro ve otobüs için. Gece yarısı subway biter, o yüzden 24 saat barlar ve jimjilbang (sauna) var! 🌃",
+          "T-money kart al, metro ve otobüs için. Gece yarısı subway biter, o yüzden 24 saat barlar ve jimjilbang (sauna) var!",
     };
   }
 
   static Map<String, String> _getSingapurContent(
     List<String> interests,
     String budget,
+    bool isEnglish,
   ) {
     return {
       'intro': "Singapur'a hoş geldin! Gelecekten gelen şehir, yemek cenneti!",
       'recommendations': '''
-⭐ **Tiong Bahru** - Singapur'un en eski HDB mahallesi şimdi en cool! Art deco binalar, bağımsız kafeler, kitapçılar. 40 Hands'de kahve, Tiong Bahru Bakery'de croissant. Wet market'ta yerel kahvaltı. Street art yürüyüşü.
+- [Tiong Bahru](search:Tiong Bahru) - Singapur'un en eski HDB mahallesi şimdi en cool! Art deco binalar, bağımsız kafeler, kitapçılar. 40 Hands'de kahve, Tiong Bahru Bakery'de croissant. Wet market'ta yerel kahvaltı. Street art yürüyüşü.
 
-⭐ **Kampong Glam** - Arap Sokağı + hipster! Haji Lane dar sokakta graffiti, butik, vintage. Sultan Camii muhteşem. Zam Zam'da murtabak ye. Gece bar hopping, rooftop'lar. Arab Street'te nargile kafeleri.
+- [Kampong Glam](search:Kampong Glam) - Arap Sokağı + hipster! Haji Lane dar sokakta graffiti, butik, vintage. Sultan Camii muhteşem. Zam Zam'da murtabak ye. Gece bar hopping, rooftop'lar. Arab Street'te nargile kafeleri.
 
-⭐ **Hawker Centres** - Singapur'un gerçek yemek kültürü! Maxwell Food Centre, Lau Pa Sat, Chinatown Complex. Michelin yıldızlı yemekler 5 SGD! Tian Tian Hainanese Chicken Rice efsane. Gece Clarke Quay'de riverside içki.''',
+- [Hawker Centres](search:Hawker Centres) - Singapur'un gerçek yemek kültürü! Maxwell Food Centre, Lau Pa Sat, Chinatown Complex. Michelin yıldızlı yemekler 5 SGD! Tian Tian Hainanese Chicken Rice efsane. Gece Clarke Quay'de riverside içki.''',
       'tip':
-          "Hawker'larda yemek ye, restoranlara gitme. 5 SGD'ye Michelin kalitesi! Kopi (kahve) ve Teh (çay) dene ☕",
+          "Hawker'larda yemek ye, restoranlara gitme. 5 SGD'ye Michelin kalitesi! Kopi (kahve) ve Teh (çay) dene",
     };
   }
 
   static Map<String, String> _getDubaiContent(
     List<String> interests,
     String budget,
+    bool isEnglish,
   ) {
     return {
       'intro': "Dubai'ye hoş geldin! Çöl mucizesi, lüks ve kontrast şehri!",
       'recommendations': '''
-⭐ **Al Fahidi Tarihi Bölgesi** - Dubai'nin ruhu burada! Burj Khalifa'dan önce Dubai böyleydi. Rüzgar kuleleri, müzeler, sanat galerileri. Arabian Tea House'da kahvaltı, XVA Cafe'de öğle. Creek'te abra (1 AED!) ile karşıya geç.
+- [Al Fahidi Tarihi Bölgesi](search:Al Fahidi Tarihi Bölgesi) - Dubai'nin ruhu burada! Burj Khalifa'dan önce Dubai böyleydi. Rüzgar kuleleri, müzeler, sanat galerileri. Arabian Tea House'da kahvaltı, XVA Cafe'de öğle. Creek'te abra (1 AED!) ile karşıya geç.
 
-⭐ **Alserkal Avenue** - Dubai'nin sanat merkezi! Eski endüstri bölgesi şimdi 40+ galeri, tasarım stüdyosu. The Third Line, Carbon 12 önemli galeriler. Tom&Serg'de brunch. Cinema Akil'de bağımsız film.
+- [Alserkal Avenue](search:Alserkal Avenue) - Dubai'nin sanat merkezi! Eski endüstri bölgesi şimdi 40+ galeri, tasarım stüdyosu. The Third Line, Carbon 12 önemli galeriler. Tom&Serg'de brunch. Cinema Akil'de bağımsız film.
 
-⭐ **Jumeirah Beach & Kite Beach** - Şehrin plajı! Burj Al Arab manzarası. Kite Beach'te aktiviteler, Salt burger, Salt'bae değil gerçek Salt! Gece La Mer'de yürüyüş. Madinat Jumeirah'ta abra turu.''',
+- [Jumeirah Beach & Kite Beach](search:Jumeirah Beach & Kite Beach) - Şehrin plajı! Burj Al Arab manzarası. Kite Beach'te aktiviteler, Salt burger, Salt'bae değil gerçek Salt! Gece La Mer'de yürüyüş. Madinat Jumeirah'ta abra turu.''',
       'tip':
-          "Cuma günü brunch kültürü var. 200-400 AED'ye sınırsız yiyecek ve içecek büfeleri. Rezervasyon şart! 🍾",
+          "Cuma günü brunch kültürü var. 200-400 AED'ye sınırsız yiyecek ve içecek büfeleri. Rezervasyon şart!",
     };
   }
 
   static Map<String, String> _getNewYorkContent(
     List<String> interests,
     String budget,
+    bool isEnglish,
   ) {
     return {
       'intro':
           "New York'a hoş geldin! Dünyanın başkenti, 24 saat uyumayan şehir!",
       'recommendations': '''
-⭐ **Lower East Side** - Manhattan'ın en cool mahallesi! Göçmen tarihi + modern sanat. Katz's Deli (pastrami efsane!), Russ & Daughters (bagel). Essex Market'ta yemek turu. Gece rooftop barları, speakeasy'ler (Please Don't Tell!).
+- [Lower East Side](search:Lower East Side) - Manhattan'ın en cool mahallesi! Göçmen tarihi + modern sanat. Katz's Deli (pastrami efsane!), Russ & Daughters (bagel). Essex Market'ta yemek turu. Gece rooftop barları, speakeasy'ler (Please Don't Tell!).
 
-⭐ **Williamsburg, Brooklyn** - Hipster başkenti! Bedford Ave butik mağazalar, vintage, plak. Smorgasburg (hafta sonu yemek pazarı) muhteşem. Domino Park'ta skyline. Gece Music Hall'da konser, Brooklyn Bowl'da bowling.
+- [Williamsburg, Brooklyn](search:Williamsburg, Brooklyn) - Hipster başkenti! Bedford Ave butik mağazalar, vintage, plak. Smorgasburg (hafta sonu yemek pazarı) muhteşem. Domino Park'ta skyline. Gece Music Hall'da konser, Brooklyn Bowl'da bowling.
 
-⭐ **Bushwick, Brooklyn** - Street art cenneti! Duvar boyamaları her yerde. Roberta's'ta pizza (bahçede), House of Yes'te queer party. Gece kulüpleri underground. Gündüz kafeler, gece rave. Brooklyn'in yükselen yıldızı.''',
+- [Bushwick, Brooklyn](search:Bushwick, Brooklyn) - Street art cenneti! Duvar boyamaları her yerde. Roberta's'ta pizza (bahçede), House of Yes'te queer party. Gece kulüpleri underground. Gündüz kafeler, gece rave. Brooklyn'in yükselen yıldızı.''',
       'tip':
-          "Subway 24 saat açık! MetroCard değil OMNY (temassız) kullan. Dollar pizza hala 1\$ ve lezzetli 🍕",
+          "Subway 24 saat açık! MetroCard değil OMNY (temassız) kullan. Dollar pizza hala 1\$ ve lezzetli",
+    };
+  }
+
+  static Map<String, String> _getBrukselContent(
+    List<String> interests,
+    String budget,
+    bool isEnglish,
+  ) {
+    if (isEnglish) {
+      return {
+        'intro':
+            "Welcome to Brussels! The heart of Europe, where history meets comic art and chocolate!",
+        'recommendations': '''
+- [Grand Place & Beyond](search:Grand Place & Beyond) - One of the world's most beautiful squares! But don't just stay there. Dive into the Marolles district for vintage shops and the daily flea market at Place du Jeu de Balle. Visit the Atomium for a futuristic view.
+
+- [Comic Strip Route](search:Comic Strip Route) - Walk the city and find Tintin, Smurfs, and more painted on walls! It's a fun, free open-air museum. Stop by the Comics Art Museum if you want more.
+
+- [Sablon District](search:Sablon District) - For the chocolate lover! Wittamer, Pierre Marcolini... the best chocolatiers are here. Also great for antique hunting and cozy cafes.''',
+        'tip':
+            "Don't leave without trying mussels (moules-frites) and a warm waffle from a street vendor!",
+      };
+    }
+    return {
+      'intro':
+          "Brüksel'e hoş geldin! Avrupa'nın kalbi, tarihin çizgi romanla ve çikolatayla buluştuğu yer!",
+      'recommendations': '''
+- [Grand Place ve Ötesi](search:Grand Place ve Ötesi) - Dünyanın en güzel meydanlarından biri! Ama sadece orada kalma. Marolles mahallesine dal, vintage dükkanları ve Place du Jeu de Balle'deki günlük bit pazarını keşfet. Fütüristik bir manzara için Atomium'a git.
+
+- [Çizgi Roman Rotası](search:Çizgi Roman Rotası) - Şehri yürüyerek gez ve duvarlarda Tenten, Şirinler ve daha fazlasını bul! Eğlenceli, ücretsiz bir açık hava müzesi. Daha fazlasını istersen Çizgi Roman Müzesi'ne uğra.
+
+- [Sablon Bölgesi](search:Sablon Bölgesi) - Çikolata aşıkları için cennet! Wittamer, Pierre Marcolini... en iyi çikolatacılar burada. Ayrıca antika avı ve şirin kafeler için harika.''',
+      'tip':
+          "Midye (moules-frites) ve sokak satıcısından sıcak bir waffle yemeden dönme!",
+    };
+  }
+
+  static Map<String, String> _getOsloContent(
+    List<String> interests,
+    String budget,
+    bool isEnglish,
+  ) {
+    if (isEnglish) {
+      return {
+        'intro':
+            "Welcome to Oslo! Nature and modernity living in perfect harmony by the fjord!",
+        'recommendations': '''
+- [Oslo Opera House](search:Oslo Opera House) - Walk on the roof! This marble masterpiece rises from the fjord like an iceberg. Great for sunset views and photos. Nearby, explore the new Munch Museum.
+
+- [Grünerløkka](search:Grünerløkka) - The hipster heart of Oslo! Street art, independent boutiques, vintage shops, and cool cafes along the Akerselva River. Sunday market at Birkelunden is a must.
+
+- [Vigeland Park](search:Vigeland Park) - The world's largest sculpture park by a single artist. 200+ bronze and granite sculptures. Weird, wonderful, and free! Perfect for a picnic.''',
+        'tip':
+            "Oslo can be expensive. Buy an Oslo Pass for free transport and museum entries, or enjoy the many free parks and nature walks!",
+      };
+    }
+    return {
+      'intro':
+          "Oslo'ya hoş geldin! Doğa ve modernliğin fiyort kenarında mükemmel uyumu!",
+      'recommendations': '''
+- [Oslo Opera Binası](search:Oslo Opera Binası) - Çatısında yürü! Bu mermer şaheser, fiyorttan bir buzdağı gibi yükseliyor. Gün batımı ve fotoğraf için harika. Yakınlardaki yeni Munch Müzesi'ni keşfet.
+
+- [Grünerløkka](search:Grünerløkka) - Oslo'nun hipster kalbi! Akerselva Nehri boyunca sokak sanatı, bağımsız butikler, vintage dükkanlar ve havalı kafeler. Birkelunden'deki Pazar pazarı mutlaka görülmeli.
+
+- [Vigeland Parkı](search:Vigeland Parkı) - Tek bir sanatçı tarafından yapılan dünyanın en büyük heykel parkı. 200'den fazla bronz ve granit heykel. Tuhaf, harika ve ücretsiz! Piknik için mükemmel.''',
+      'tip':
+          "Oslo pahalı olabilir. Ücretsiz ulaşım ve müze girişleri için Oslo Pass al veya birçok ücretsiz parkın ve doğa yürüyüşünün tadını çıkar!",
     };
   }
 
@@ -1243,5 +1631,411 @@ ${cityData['recommendations']}
         ),
       ];
     }
+  }
+  // =========================================================================
+  // CITY GUIDE / BLOG FEATURE
+  // =========================================================================
+
+  /// Şehir rehberi konularını getirir
+  /// Rehber için şehir listesini getirir - TÜM 36 ŞEHİR
+  static List<Map<String, dynamic>> getAllCitiesForGuide(bool isEnglish) {
+    return [
+      // Popüler Şehirler
+      {
+        'city': isEnglish ? 'Istanbul' : 'İstanbul',
+        'subtitle': isEnglish ? 'Where East meets West' : 'İki kıtanın buluşma noktası',
+        'imageUrl': getCityImage('istanbul'),
+      },
+      {
+        'city': 'Barcelona',
+        'subtitle': isEnglish ? 'Gaudí\'s playground' : 'Gaudí\'nin başyapıtı',
+        'imageUrl': getCityImage('barcelona'),
+      },
+      {
+        'city': 'Paris',
+        'subtitle': isEnglish ? 'City of lights & love' : 'Işıklar ve aşk şehri',
+        'imageUrl': getCityImage('paris'),
+      },
+      {
+        'city': isEnglish ? 'Rome' : 'Roma',
+        'subtitle': isEnglish ? 'The eternal city' : 'Ebedi şehir',
+        'imageUrl': getCityImage('roma'),
+      },
+      {
+        'city': isEnglish ? 'London' : 'Londra',
+        'subtitle': isEnglish ? 'Royal history, modern pulse' : 'Kraliyet mirası, modern enerji',
+        'imageUrl': getCityImage('londra'),
+      },
+      // Avrupa
+      {
+        'city': 'Amsterdam',
+        'subtitle': isEnglish ? 'Canals, bikes & culture' : 'Kanallar, bisikletler ve kültür',
+        'imageUrl': getCityImage('amsterdam'),
+      },
+      {
+        'city': isEnglish ? 'Athens' : 'Atina',
+        'subtitle': isEnglish ? 'Cradle of civilization' : 'Medeniyetin beşiği',
+        'imageUrl': getCityImage('atina'),
+      },
+      {
+        'city': 'Berlin',
+        'subtitle': isEnglish ? 'Art, history & freedom' : 'Sanat, tarih ve özgürlük',
+        'imageUrl': getCityImage('berlin'),
+      },
+      {
+        'city': isEnglish ? 'Budapest' : 'Budapeşte',
+        'subtitle': isEnglish ? 'Pearl of the Danube' : 'Tuna\'nın incisi',
+        'imageUrl': getCityImage('budapeste'),
+      },
+      {
+        'city': isEnglish ? 'Copenhagen' : 'Kopenhag',
+        'subtitle': isEnglish ? 'Hygge & design' : 'Hygge ve tasarım',
+        'imageUrl': getCityImage('kopenhag'),
+      },
+      {
+        'city': 'Dublin',
+        'subtitle': isEnglish ? 'Pubs, poets & craic' : 'Publar, şairler ve eğlence',
+        'imageUrl': getCityImage('dublin'),
+      },
+      {
+        'city': isEnglish ? 'Florence' : 'Floransa',
+        'subtitle': isEnglish ? 'Renaissance masterpiece' : 'Rönesans\'ın kalbi',
+        'imageUrl': getCityImage('floransa'),
+      },
+      {
+        'city': isEnglish ? 'Geneva' : 'Cenevre',
+        'subtitle': isEnglish ? 'Luxury meets nature' : 'Lüks ve doğanın buluşması',
+        'imageUrl': getCityImage('cenevre'),
+      },
+      {
+        'city': isEnglish ? 'Lisbon' : 'Lizbon',
+        'subtitle': isEnglish ? 'Hills, tiles & fado' : 'Tepeler, çiniler ve fado',
+        'imageUrl': getCityImage('lizbon'),
+      },
+      {
+        'city': 'Lucerne',
+        'subtitle': isEnglish ? 'Alpine lake paradise' : 'Alp göllerinin cenneti',
+        'imageUrl': getCityImage('lucerne'),
+      },
+      {
+        'city': 'Lyon',
+        'subtitle': isEnglish ? 'Gastronomy capital' : 'Gastronomi başkenti',
+        'imageUrl': getCityImage('lyon'),
+      },
+      {
+        'city': 'Madrid',
+        'subtitle': isEnglish ? 'Art, tapas & nightlife' : 'Sanat, tapas ve gece hayatı',
+        'imageUrl': getCityImage('madrid'),
+      },
+      {
+        'city': isEnglish ? 'Marseille' : 'Marsilya',
+        'subtitle': isEnglish ? 'Mediterranean soul' : 'Akdeniz\'in ruhu',
+        'imageUrl': getCityImage('marsilya'),
+      },
+      {
+        'city': isEnglish ? 'Milan' : 'Milano',
+        'subtitle': isEnglish ? 'Fashion & design hub' : 'Moda ve tasarım merkezi',
+        'imageUrl': getCityImage('milano'),
+      },
+      {
+        'city': isEnglish ? 'Naples' : 'Napoli',
+        'subtitle': isEnglish ? 'Pizza, passion & chaos' : 'Pizza, tutku ve kaos',
+        'imageUrl': getCityImage('napoli'),
+      },
+      {
+        'city': 'Nice',
+        'subtitle': isEnglish ? 'Riviera glamour' : 'Fransız Rivierası\'nın incisi',
+        'imageUrl': getCityImage('nice'),
+      },
+      {
+        'city': 'Porto',
+        'subtitle': isEnglish ? 'Wine & riverside charm' : 'Şarap ve nehir kenarı büyüsü',
+        'imageUrl': getCityImage('porto'),
+      },
+      {
+        'city': isEnglish ? 'Brussels' : 'Brüksel',
+        'subtitle': isEnglish ? 'Heart of Europe' : 'Avrupa\'nın Kalbi',
+        'imageUrl': getCityImage('bruksel'),
+      },
+      {
+        'city': 'Oslo',
+        'subtitle': isEnglish ? 'Fjords & Modernity' : 'Fiyortlar ve Modernizm',
+        'imageUrl': getCityImage('oslo'),
+      },
+      {
+        'city': isEnglish ? 'Prague' : 'Prag',
+        'subtitle': isEnglish ? 'City of a hundred spires' : 'Yüz kuleli şehir',
+        'imageUrl': getCityImage('prag'),
+      },
+      {
+        'city': isEnglish ? 'Seville' : 'Sevilla',
+        'subtitle': isEnglish ? 'Flamenco & orange trees' : 'Flamenko ve portakal ağaçları',
+        'imageUrl': getCityImage('sevilla'),
+      },
+      {
+        'city': 'Stockholm',
+        'subtitle': isEnglish ? 'Nordic elegance' : 'İskandinav zarafeti',
+        'imageUrl': getCityImage('stockholm'),
+      },
+      {
+        'city': isEnglish ? 'Venice' : 'Venedik',
+        'subtitle': isEnglish ? 'Floating romantic dream' : 'Suda yüzen romantizm',
+        'imageUrl': getCityImage('venedik'),
+      },
+      {
+        'city': isEnglish ? 'Vienna' : 'Viyana',
+        'subtitle': isEnglish ? 'Imperial splendor & music' : 'İmparatorluk ihtişamı ve müzik',
+        'imageUrl': getCityImage('viyana'),
+      },
+      {
+        'city': isEnglish ? 'Zurich' : 'Zürih',
+        'subtitle': isEnglish ? 'Swiss precision & lakes' : 'İsviçre kalitesi ve göller',
+        'imageUrl': getCityImage('zurih'),
+      },
+      // Asya
+      {
+        'city': 'Bangkok',
+        'subtitle': isEnglish ? 'Temples, street food & chaos' : 'Tapınaklar, sokak yemekleri ve kaos',
+        'imageUrl': getCityImage('bangkok'),
+      },
+      {
+        'city': 'Dubai',
+        'subtitle': isEnglish ? 'Desert luxury & modernity' : 'Çöl lüksü ve modernlik',
+        'imageUrl': getCityImage('dubai'),
+      },
+      {
+        'city': 'Hong Kong',
+        'subtitle': isEnglish ? 'Skyline & dim sum' : 'Gökdelenler ve dim sum',
+        'imageUrl': getCityImage('hongkong'),
+      },
+      {
+        'city': isEnglish ? 'Seoul' : 'Seul',
+        'subtitle': isEnglish ? 'K-culture & traditions' : 'K-kültürü ve gelenekler',
+        'imageUrl': getCityImage('seul'),
+      },
+      {
+        'city': isEnglish ? 'Singapore' : 'Singapur',
+        'subtitle': isEnglish ? 'Garden city of the future' : 'Geleceğin bahçe şehri',
+        'imageUrl': getCityImage('singapur'),
+      },
+      {
+        'city': 'Tokyo',
+        'subtitle': isEnglish ? 'Neon lights & zen gardens' : 'Neon ışıklar ve zen bahçeleri',
+        'imageUrl': getCityImage('tokyo'),
+      },
+      // Afrika
+      {
+        'city': isEnglish ? 'Marrakech' : 'Marakeş',
+        'subtitle': isEnglish ? 'Medina magic & spices' : 'Medina büyüsü ve baharatlar',
+        'imageUrl': getCityImage('marakes'),
+      },
+      // Amerika
+      {
+        'city': 'New York',
+        'subtitle': isEnglish ? 'The city that never sleeps' : 'Hiç uyumayan şehir',
+        'imageUrl': getCityImage('newyork'),
+      },
+      {
+        'city': 'Rovaniemi',
+        'subtitle': isEnglish ? 'Home of Santa Claus' : 'Noel Baba\'nın Evi',
+        'imageUrl': getCityImage('rovaniemi'),
+      },
+      {
+        'city': 'Tromso',
+        'subtitle': isEnglish ? 'Arctic Gateway' : 'Kutup Kapısı',
+        'imageUrl': getCityImage('tromso'),
+      },
+      {
+        'city': 'Zermatt',
+        'subtitle': isEnglish ? 'Matterhorn & Ski' : 'Matterhorn ve Kayak',
+        'imageUrl': getCityImage('zermatt'),
+      },
+      {
+        'city': 'Matera',
+        'subtitle': isEnglish ? 'City of Stones' : 'Taşların Şehri',
+        'imageUrl': getCityImage('matera'),
+      },
+      {
+        'city': 'Giethoorn',
+        'subtitle': isEnglish ? 'Venice of the North' : 'Kuzeyin Venedik\'i',
+        'imageUrl': getCityImage('giethoorn'),
+      },
+      {
+        'city': 'Kotor',
+        'subtitle': isEnglish ? 'Medieval Fjord' : 'Ortaçağ Fiyortu',
+        'imageUrl': getCityImage('kotor'),
+      },
+      {
+        'city': 'Colmar',
+        'subtitle': isEnglish ? 'Fairytale Town' : 'Masal Kasabası',
+        'imageUrl': getCityImage('colmar'),
+      },
+      {
+        'city': 'Sintra',
+        'subtitle': isEnglish ? 'Mystic Palaces' : 'Mistik Saraylar',
+        'imageUrl': getCityImage('sintra'),
+      },
+      {
+        'city': 'San Sebastian',
+        'subtitle': isEnglish ? 'Culinary Capital' : 'Lezzet Başkenti',
+        'imageUrl': getCityImage('sansebastian'),
+      },
+      {
+        'city': 'Bologna',
+        'subtitle': isEnglish ? 'La Rossa' : 'Kızıl Şehir',
+        'imageUrl': getCityImage('bologna'),
+      },
+      {
+        'city': 'Gaziantep',
+        'subtitle': isEnglish ? 'Taste of History' : 'Tarihin Tadı',
+        'imageUrl': getCityImage('gaziantep'),
+      },
+      {
+        'city': 'Brugge',
+        'subtitle': isEnglish ? 'Canals & Waffles' : 'Kanallar ve Waffle',
+        'imageUrl': getCityImage('brugge'),
+      },
+      {
+        'city': 'Santorini',
+        'subtitle': isEnglish ? 'Blue & White' : 'Mavi ve Beyaz',
+        'imageUrl': getCityImage('santorini'),
+      },
+      {
+        'city': 'Heidelberg',
+        'subtitle': isEnglish ? 'Romantic Ruins' : 'Romantik Harabeler',
+        'imageUrl': getCityImage('heidelberg'),
+      },
+      // Yeni Eklenenler
+      {
+        'city': 'Antalya',
+        'subtitle': isEnglish ? 'Turquoise Coast' : 'Turkuaz Kıyılar',
+        'imageUrl': getCityImage('antalya'),
+      },
+      {
+        'city': isEnglish ? 'Cappadocia' : 'Kapadokya',
+        'subtitle': isEnglish ? 'Fairy Chimneys' : 'Peri Bacaları',
+        'imageUrl': getCityImage('kapadokya'),
+      },
+      {
+        'city': isEnglish ? 'Belgrade' : 'Belgrad',
+        'subtitle': isEnglish ? 'White City' : 'Beyaz Şehir',
+        'imageUrl': getCityImage('belgrad'),
+      },
+      {
+        'city': 'Edinburgh',
+        'subtitle': isEnglish ? 'Gothic Charm' : 'Gotik Büyü',
+        'imageUrl': getCityImage('edinburgh'),
+      },
+      {
+        'city': 'Hallstatt',
+        'subtitle': isEnglish ? 'Alpine Fairytale' : 'Alp Masalı',
+        'imageUrl': getCityImage('hallstatt'),
+      },
+      {
+        'city': isEnglish ? 'Strasbourg' : 'Strazburg',
+        'subtitle': isEnglish ? 'Capital of Christmas' : 'Noel\'in Başkenti',
+        'imageUrl': getCityImage('strazburg'),
+      },
+      {
+        'city': isEnglish ? 'Cairo' : 'Kahire',
+        'subtitle': isEnglish ? 'Pyramids & History' : 'Piramitler ve Tarih',
+        'imageUrl': getCityImage('kahire'),
+      },
+      {
+        'city': 'Fes',
+        'subtitle': isEnglish ? 'Ancient Medina' : 'Antik Medina',
+        'imageUrl': getCityImage('fes'),
+      },
+      {
+        'city': isEnglish ? 'Lesvos' : 'Midilli',
+        'subtitle': isEnglish ? 'Aegean Spirit' : 'Ege Ruhu',
+        'imageUrl': getCityImage('midilli'),
+      },
+    ];
+  }
+
+
+  /// Detaylı blog içeriğini getirir (Markdown formatında)
+  static Future<String> getCityBlogContent(String city, bool isEnglish) async {
+    // Yapay bir bekleme süresi (AI simülasyonu)
+    await Future.delayed(const Duration(milliseconds: 800));
+
+    // Türkçe karakterleri temizle ve normalize et
+    var normalizedCity = city.toLowerCase().trim()
+      .replaceAll('ü', 'u')
+      .replaceAll('ş', 's')
+      .replaceAll('ç', 'c')
+      .replaceAll('ö', 'o')
+      .replaceAll('ğ', 'g')
+      .replaceAll('ı', 'i');
+
+    // English -> Turkish mapping for content lookup
+    if (normalizedCity == 'cappadocia') normalizedCity = 'kapadokya';
+    if (normalizedCity == 'belgrade') normalizedCity = 'belgrad';
+    if (normalizedCity == 'athens') normalizedCity = 'atina';
+    if (normalizedCity == 'rome') normalizedCity = 'roma';
+    if (normalizedCity == 'venice') normalizedCity = 'venedik';
+    if (normalizedCity == 'vienna') normalizedCity = 'viyana';
+    if (normalizedCity == 'london') normalizedCity = 'londra';
+    if (normalizedCity == 'copenhagen') normalizedCity = 'kopenhag';
+    if (normalizedCity == 'naples') normalizedCity = 'napoli';
+    if (normalizedCity == 'brussels') normalizedCity = 'bruksel';
+    if (normalizedCity == 'istnbul') normalizedCity = 'istanbul';
+    
+    // CityBlogContent sınıfından içeriği al (Tüm 36 şehir burada)
+    final content = CityBlogContent.getContent(normalizedCity, isEnglish);
+    
+    if (content.isNotEmpty) {
+      return content;
+    }
+
+    // Eğer içerik bulunamazsa jenerik şablonu döndür
+    return _getGenericCityBlog(city, isEnglish);
+  }
+
+  /// Özel makale içeriğini getirir
+  static Future<String> getArticleContent(String articleId, bool isEnglish) async {
+    await Future.delayed(const Duration(milliseconds: 600)); // Simülasyon
+    return CityBlogContent.getArticleContent(articleId, isEnglish);
+  }
+
+  static String _getGenericCityBlog(String city, bool isEnglish) {
+    if (isEnglish) {
+      return '''# Insider's Notes: $city
+
+Our team hasn't landed in [$city](search:$city) yet, but here is what we know so far from our research.
+
+## 📅 Why Now?
+$city is always a good idea. Check the weather app, grab your coat (or sunglasses), and just go. Spontaneity is the key to travel!
+
+## 🏘️ Finding Your Base
+Avoid hotels right next to major tourist attractions. Look for "up-and-coming" neighborhoods on any map app – that's where the good coffee and cheaper rent live.
+
+## 🍽️ Eat Local
+If a restaurant has photos of food on the menu, run away. Look for places where locals are shouting or laughing loudly. Queue means quality.
+
+## 🚇 Moving Around
+Walking is free and offers the best views. If your feet hurt, public transport is your friend. Download [Citymapper](search:Citymapper) or [Google Maps](search:Google Maps) offline maps before you leave the hotel Wi-Fi.
+
+> Note: A detailed, field-tested guide for $city is in the works. We are packing our bags as we speak! 🎒''';
+    }
+    
+    return '''# Gezgin Notları: $city
+
+Ekibimiz henüz [$city](search:$city) sokaklarını arşınlamadı ama gitmeden önce yaptığımız ön araştırmaları seninle paylaşalım.
+
+## 📅 Neden Şimdi?
+$city her zaman iyi bir fikirdir. Hava durumuna bak, çantanı hazırla ve yola çık. En iyi seyahat, plansız olandır!
+
+## 🏘️ Nerede Üs Kuralım?
+Tam turistik meydanın dibindeki otellerden uzak dur. Haritada "yükselen semtleri" bul; iyi kahve ve uygun fiyatlar oradadır.
+
+## 🍽️ Ne Yiyoruz?
+Menüsünde yemek fotoğrafları olan restorandan koşarak uzaklaş. İçeride yerlilerin yüksek sesle konuştuğu, güldüğü yerleri bul. Sıra varsa, orası iyidir.
+
+## 🚇 Şehirde Tur
+Yürümek bedava ve en iyi manzarayı sunar. Ayaklarına kara sular inince toplu taşımaya geç. Otel Wi-Fi'ından çıkmadan [Google Maps](search:Google Maps) çevrimdışı haritasını indirmeyi unutma.
+
+> Not: $city için bizzat deneyimlenmiş detaylı rehber hazırlık aşamasında. Valizleri topluyoruz, beklemede kal! 🎒''';
   }
 }

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import '../l10n/app_localizations.dart';
 
 class StepByStepScreen extends StatefulWidget {
   final List<String> stops;
@@ -43,7 +44,7 @@ class _StepByStepScreenState extends State<StepByStepScreen> {
                   ),
                   const SizedBox(width: 8),
                   Text(
-                    "Adım Adım Rota",
+                    AppLocalizations.instance.stepByStepRoute,
                     style: const TextStyle(
                       color: Colors.white,
                       fontSize: 20,
@@ -60,7 +61,7 @@ class _StepByStepScreenState extends State<StepByStepScreen> {
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 20),
               child: Text(
-                "Şu anki durak:",
+                AppLocalizations.instance.currentStop,
                 style: TextStyle(color: Colors.white54, fontSize: 14),
               ),
             ),
@@ -139,9 +140,9 @@ class _StepByStepScreenState extends State<StepByStepScreen> {
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
-                            const Text(
-                              "Sonraki durak:",
-                              style: TextStyle(
+                            Text(
+                              AppLocalizations.instance.nextStopLabel,
+                              style: const TextStyle(
                                 color: Colors.white54,
                                 fontSize: 13,
                               ),
@@ -157,7 +158,7 @@ class _StepByStepScreenState extends State<StepByStepScreen> {
                             ),
                             const SizedBox(height: 6),
                             Text(
-                              "Yürüme süresi tahmini: 6-12 dakika",
+                              AppLocalizations.instance.walkingTimeEstimate,
                               style: TextStyle(
                                 color: Colors.white.withOpacity(0.6),
                                 fontSize: 12,
@@ -195,7 +196,7 @@ class _StepByStepScreenState extends State<StepByStepScreen> {
                     ),
                   ),
                   child: Text(
-                    isLast ? "Rotayı Bitir" : "Sonraki Durağa Geç",
+                    isLast ? AppLocalizations.instance.finishRoute : AppLocalizations.instance.nextStop,
                     style: const TextStyle(fontSize: 16),
                   ),
                 ),

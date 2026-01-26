@@ -1,0 +1,3452 @@
+{
+  "city": "Rovaniemi",
+  "country": "Finland",
+  "coordinates": {
+    "lat": 66.5039,
+    "lng": 25.7294
+  },
+  "highlights": [
+    {
+      "name": "Santa Claus Village",
+      "category": "Tarihi",
+      "tags": [
+        "christmas",
+        "santa",
+        "arctic"
+      ],
+      "lat": 66.5434,
+      "lng": 25.8472,
+      "rating": 4.8,
+      "description": "Noel Baba'nın resmi evi olan bu büyülü köy, yılın her günü Noel ruhunu yaşatıyor. Kuzey Kutup Dairesi çizgisini geçebilir, Noel Baba ile tanışabilir ve sevdiklerinize özel mühürlü kartpostallar gönderebilirsiniz.",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AZLasHoyRZk0XdfgkC89qnvMuqsybo_cUhKpLioBR5mtUmpLnvEed89B9ExShhSd_a59VQFufh3DuHOxy1KS-dyxMoPRLCRLPGig6QTJf2x0ivTEzVHsLNNCpT9zVWZOmLJQ9FhFLlLg8Csvi2-hhjTiEyS_ywcZoIHbx8QHAIms-4ti5QxHNnuY5GrTr3rhQWEyB4LzaCVaxfyjdnOj7jtZ3wZ4PcRVxsdSBcMbtD7vNOTj_1v9ALjqhU5RomhMmDwqWtJl0NrFi-DthWTAUx2qSDz_y5YXgAv-YkD1jiQTYWf5hk799lBRPW_cWTmAQRmlszl8vskNdg2ACUmM9d1Vn9AbTn-W__Ox4yv60lMHbIKLmzWA3HAskFVdrrpGKN9QLj29wXPzSjPYozPgKPf9no9sOPmFbW8chqGh6cCtxa3IBbJRDdUPGjXlC9Uf0pKU9hzQJNQVYATe9N3ZO3B0FFg-eCRl_LoI7FmHE1wjNHYOgJL3uix_vfihtRGMEWVN-Yhf834rYfs02sieZcnhI76qJK1fpInu1Lc_SitjGKlYXJosYLlOY7bivkfJdwsF9eTyTcWi&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+      "price": "medium",
+      "bestTime": "09:00 - 18:00",
+      "bestTime_en": "09:00 - 18:00",
+      "tips": "Noel Baba ile fotoğraf çektirmek ücretsizdir ama dijital kopyasını almak ücretlidir.",
+      "tips_en": "Taking a photo with Santa is free, but getting the digital copy costs money.",
+      "description_en": "The official hometown of Santa Claus, this magical village keeps the Christmas spirit alive all year round. You can cross the Arctic Circle line, meet Santa Claus, and send specially stamped postcards to loved ones."
+    },
+    {
+      "name": "Arktikum Science Museum",
+      "category": "Müze",
+      "tags": [
+        "science",
+        "history",
+        "arctic"
+      ],
+      "lat": 66.5085,
+      "lng": 25.7256,
+      "rating": 4.6,
+      "description": "Kuzey Kutbu'nun tarihini ve doğasını anlatan harika bir müze. Sanat ve tarih severlerin mutlaka görmesi gereken bu müze, zengin koleksiyonuyla dikkat çekiyor. Sergilenen eserler, bölgenin kültürel mirasını derinlemesine anlamanızı sağlayacak.",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AZLasHql7KvocZMfx-9cPEsS64AhEskaPGq-P-6Sq__rS9skKF-gwzCSSmtCpr4uLzxyDF7uu6LyiaGt3XEu2culle8iARQ7o953Us_AfheJJfiVahcq4tT0BaCWuLvGE9u9tCCVYAHUCgzve41zLz7NPImkWAStuSwKYnSSgjd5gIpUsDjABzRJAi9duHRl1jfABRjpY_pAvRUlfFCxafo1OOn6JtdN5Zk7KqYvKRjsUC3GD-ggzaTEq225Oi67RuVRLkIILVzBv3rCqhpppw3nFXbfESCnm4Uqzzo7lU4KJ_f7KjRgxwM&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+      "price": "medium",
+      "bestTime": "09:00 - 18:00",
+      "bestTime_en": "09:00 - 18:00",
+      "tips": "Sesli rehber (audio guide) kiralamak deneyimi ikiye katlar.",
+      "tips_en": "Renting an audio guide doubles the experience.",
+      "description_en": "Kuzey Kutbu'nun tarihini ve doğasını anlatan harika bir müze. A must-see for art and history lovers, this museum stands out with its rich collection. The exhibited works will allow you to deeply understand the region's cultural heritage."
+    },
+    {
+      "name": "Ounasvaara Ski Resort",
+      "category": "Park",
+      "tags": [
+        "ski",
+        "nature",
+        "winter"
+      ],
+      "lat": 66.5055,
+      "lng": 25.7755,
+      "rating": 4.7,
+      "description": "Şehir merkezine sadece birkaç dakika uzaklıkta bulunan Ounasvaara, hem kayak hem de doğa yürüyüşü için mükemmel bir kaçış noktasıdır. Tepeden Rovaniemi'nin ve Kemijoki nehrinin nefes kesen manzarasını izleyebilirsiniz.",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AZLasHph4bRrwkh8EippIUCcZRwQ4hxqvN8dYBXP3f1Mpodcfp0Ha33I89zlYWIzsXoR_xgY0BvmBEfyrXEtLp7EKzNJrnUknXVaVQZnLbDWoiofSOxC7BMmUsIRnqvPZgVlADReB5MOaVGOWH6r0QqP0s8N-FJUGrulfOTEMjHuULDpR8XUulqVJ7SFHPZj-qk6ZVuFWC9vKgLFuAG6k4zOjeloGsOCJ3qnagnKjq9xVW1WuIdeuUQxaJqP2Ngs0g0ifwVOD3BmEmPNLDHjR_GWgW5jxvM2TCq4HNzYTrZiI15apmQx-3vOp38X2k6aVphywr8WAjIfCyFCSCsFUQRd8wZZbAJ7sh4pXeWC5qjSEFb7Q1nbYVdehhTtriZiaPkIqfiqPEgcPWGrDh3m2UTOGtUBaNc-2hQB-WD_Ua-D2O0ct5m51tlGfP1bkilIRO5qHvA9PKK7FMJ3hqIwke6kvJen6vFmtcJuqkyYta2PWAkc4x5PDxsXTcXaAzqAHbGKYTNllbn6PnzEbPTf7jKYEgC0br3zrMHTGGvoOzKRSdke7gbKGbUX6OO_iABpkfSyMujwZpmC&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+      "price": "medium",
+      "bestTime": "09:00 - 18:00",
+      "bestTime_en": "09:00 - 18:00",
+      "tips": "Güneş kremi ve şapka almayı unutmayın.",
+      "tips_en": "Don't forget sunscreen and a hat.",
+      "description_en": "Located just minutes from the city center, Ounasvaara is a perfect getaway for both skiing and hiking. From the top, you can enjoy breathtaking views of Rovaniemi and the Kemijoki river."
+    },
+    {
+      "name": "Lordi's Square",
+      "category": "Manzara",
+      "tags": [
+        "square",
+        "center",
+        "music"
+      ],
+      "lat": 66.5028,
+      "lng": 25.7303,
+      "rating": 4.4,
+      "description": "Şehrin kalbi, Eurovizyon şampiyonu Lordi grubuna adanmış meydan. Şehrin en etkileyici manzaralarından birini sunan bu nokta, fotoğraf tutkunları için adeta bir cennet. Özellikle gün batımında büründüğü renkler, ziyaretçilere görsel bir şölen yaşatıyor.",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AZLasHrbpJ_cJ043YXziSSk1Pmb8GoVgbihNh4g7ViCkPKN-Xq_rBAVHIWGP2mnFQf_2JB6sFFXBmqFvkMqv6K0_sVbVxbfsrHpOQ5vFyf4CVrIoTvsF8cL965Gpa_M_gJsiTKBfv3TieNb9uYt3j5HPJqEIfJG-En9xanrhxeiJSUJilW8tcASEfIs5BCNvAY0L5qC6OyCwhZq-1RW2hvux3JlImQxQS2E8QKRwyf6mjWdcreBLxrLv1UJvIEoqKBAP2sbST9Zxi9aAtQ838QllGx-jOYGFJym2P-RInQ8UA50vfE_k22UJHZr_8OkD9F3Y5WlGRFldsT53ODavov7Z3MycobCoJtfI6t3c1FmCils1k7o-BSrwMSjQ3e4BTkxFFPEOtDd95kW3g0ot5idKNl4Xgsd8_x5tWPfu1Zz_DYwEjF6tauQO3eHbbX9XfAkk5rVvc97lQHB_YMbsJmei3ZJ4Fl8lS4xexy7JmxLu8hnoFUS69hWRapAU0r1ok0uJCpjOluTXECWSb8QWwFAYtIwv7GGTZcxSz9mH9BL37E1Ydbvz56V3iX3io4PCeRVZmazKoRUF&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+      "price": "medium",
+      "bestTime": "09:00 - 18:00",
+      "bestTime_en": "09:00 - 18:00",
+      "tips": "Akşam saatlerinde şehir ışıklarını izlemek çok romantik.",
+      "tips_en": "Watching city lights in the evening is very romantic.",
+      "description_en": "Şehrin kalbi, Eurovizyon şampiyonu Lordi grubuna adanmış meydan. Offering one of the most impressive views of the city, this spot is a paradise for photography enthusiasts. The colors it takes on, especially at sunset, provide a visual feast for visitors."
+    },
+    {
+      "name": "Korundi House of Culture",
+      "category": "Müze",
+      "tags": [
+        "art",
+        "modern",
+        "culture"
+      ],
+      "lat": 66.4995,
+      "lng": 25.7215,
+      "rating": 4.5,
+      "description": "Laponya'nın kalbinde yer alan Korundi, modern sanat sergilerine ve Rovaniemi Oda Orkestrası'nın konserlerine ev sahipliği yapıyor. Tarihi kırmızı tuğlalı bina, hem mimarisiyle hem de sunduğu kültürel etkinliklerle sanatseverleri büyülüyor.",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AZLasHoHIX6vrTeNihEga4l_CpHuaZYfYwY99jflYwMHKBxtNIVP_--JddnXsh9JrY3I600oPDE_RUkjaI0witd2viuQ-HQ_tuvoUOfUO81PLyIlzoe7sPzzvls2WrybltJVnzlXZTLVpwNGzVo96gBGcpZVKDtPu_w1MOnJMkiahKP-sFxjove_PtDtNHG2swFTCSMBCEY-RjpjV-JthAFaIg7U-Jf_V-WCoyxff3zBkdEhBbXRFYeqWlQshsnkpOb3EiJ183eM7QyVxktpos0bV5OycTfVDh6QqVA-fZKQHUAcNWmwl68&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+      "price": "medium",
+      "bestTime": "09:00 - 18:00",
+      "bestTime_en": "09:00 - 18:00",
+      "tips": "Bazı günler giriş ücretsiz olabilir, web sitesini kontrol edin.",
+      "tips_en": "Entry might be free on some days, check the website.",
+      "description_en": "Located in the heart of Lapland, Korundi hosts modern art exhibitions and concerts by the Rovaniemi Chamber Orchestra. The historic red brick building captivates art lovers with both its architecture and cultural events."
+    },
+    {
+      "name": "Jätkänkynttilä Bridge",
+      "category": "Manzara",
+      "tags": [
+        "bridge",
+        "landmark",
+        "river"
+      ],
+      "lat": 66.5045,
+      "lng": 25.737,
+      "rating": 4.7,
+      "description": "Rovaniemi'nin sembolü olan asma köprü. Şehrin en etkileyici manzaralarından birini sunan bu nokta, fotoğraf tutkunları için adeta bir cennet. Özellikle gün batımında büründüğü renkler, ziyaretçilere görsel bir şölen yaşatıyor.",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AZLasHpZM6BMKLblBo7lZYBPswjEM5urWfLkzEkOH5cuZe9X6DD4FTgBsizYQthjMY1eZVZxNCaglJY50okpaxJEtagV7d8yS3DdM5qcZ1yDqwu_j2qEGIcCqvQ_SJI2MkuBVMhZmjcC61cF9o6Rv2vGzzUuk6QG-szjqcakXzJ5TkyEO2LlbPtfj5ZkyiUsCW42UfX8iZ46cjHJ1Gj8A6mUo023Pvlp4eAIxjzOg2iXNHPBTm9w_U6aLOjNVtiA1IxZjnwXXphrdlLtqlsTSFdmhYjTHB227tM9BDoSFW-VyKy-moL_qO2w5nq4kektm9EQs4NaxIzYJM-Ywl1w9-s4-5dYcgFRudn9WiH1uo8-oCCb75P0cReFFfZSRYnilqEncSDkB6mt9gB2OkpSJ_GLt_18voFmCivLsxM3TeugkBZPcjAzFoQvcI9NBjNeg1ZyFXHQbkJsC5RXCS25Tf1GMKJa3oH2lySiB07UzaTJKHSNAxU4LFP2vRbi8ercJ8Bj987kIka3mRwFFjfHQ9xOAXh-Jo4-px92QkLtjYuVXg15SQZZasdgSdtIYpAPSQW_CzL3P6Hn&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+      "price": "medium",
+      "bestTime": "09:00 - 18:00",
+      "bestTime_en": "09:00 - 18:00",
+      "tips": "Panoramik fotoğraf için geniş açı lensinizi hazırlayın.",
+      "tips_en": "Prepare your wide-angle lens for panoramic photos.",
+      "description_en": "Rovaniemi'nin sembolü olan asma köprü. Offering one of the most impressive views of the city, this spot is a paradise for photography enthusiasts. The colors it takes on, especially at sunset, provide a visual feast for visitors."
+    },
+    {
+      "name": "SantaPark",
+      "category": "Park",
+      "tags": [
+        "theme park",
+        "kids",
+        "cave"
+      ],
+      "lat": 66.5398,
+      "lng": 25.8033,
+      "rating": 4.5,
+      "description": "Yeraltında kurulmuş Noel Baba temalı eğlence parkı. Doğayla iç içe, huzur dolu anlar yaşamak isteyenler için mükemmel bir kaçış noktası. Şehrin gürültüsünden uzaklaşıp nefes almak ve harika fotoğraflar çekmek için birebir.",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AZLasHqEw4Y-KTl4rlMu0jWn_Pv4JrJ3FBP3N52AcW_92OYbPSH7J2MvdRM-HmOq3ksizJYHiXWMmC1K4ihz6id13Lg3ujUvIoLgJ5OvDX3WRAIdjX5cS3ca4rz9PhvcsSQuA5p0FCVO-DF4SEs5QcQ4M6M38Xv23WBpjM81IDJ_GCskjxligq2luChknPHhlRlvXW3fnoxGcAeF-VnP-4-PRXGgU0mLtLe5bZrN1poFCfSIXUAIqAPeJS9WcvW6MqZrs_DWAeAE5VMpy-68ZVioGhWLrympzmbE9I-q9mbLH6wsBoIFuvHUbp-LtGaaor2x7CkTvo-RH2KR9zUPov1KYHc-aw3kaV-ZCH9WjD0HSqjQT2IhSVcS1KMJbqlLaeyNJxD5PRX3SqQBLWF4ZVfHwsgVzefRqyQi_oD6BpztSxET1tCMxw_ltmYqeGfY-aEJDSCGMUYxiz2WgXmi4XHdUkj2vzwkTHBWoNzWV0mIfAkVxC7uQuA3KClclpp1C4bsWUgxMcki732UbXwhHWcHOUkkoZYhNFdmByDsyiX75MTqGR4OE1PPTXcFzWT1Zg9fCDkBvUWQ&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+      "price": "medium",
+      "bestTime": "09:00 - 18:00",
+      "bestTime_en": "09:00 - 18:00",
+      "tips": "Sabah koşusu veya yoga yapan yerlileri görebilirsiniz.",
+      "tips_en": "You can see locals jogging or doing yoga in the morning.",
+      "description_en": "Yeraltında kurulmuş Noel Baba temalı eğlence parkı. A perfect getaway for those who want to experience peaceful moments in nature. Ideal for getting away from the city noise, taking a breath, and capturing great photos."
+    },
+    {
+      "name": "Ranua Wildlife Park",
+      "category": "Park",
+      "tags": [
+        "zoo",
+        "animals",
+        "arctic"
+      ],
+      "lat": 65.9442,
+      "lng": 26.4746,
+      "rating": 4.6,
+      "description": "Kutup ayılarını görebileceğiniz vahşi yaşam parkı. Doğayla iç içe, huzur dolu anlar yaşamak isteyenler için mükemmel bir kaçış noktası. Şehrin gürültüsünden uzaklaşıp nefes almak ve harika fotoğraflar çekmek için birebir.",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AZLasHqM-wPbNlUltdtLbUEmXUNzblXIuwuFSkdFQHlEeJ9i8K5yGyLK5Xy_LVCiQcGd5uBgOKkKfmy8DdMz91WDYnXG7QA1_MsZawuBMp7WdYjyRttAIaEGFQOpgL3cRaKCrf-ZOKTT4jjDgNkVbvXIV6KEcQSxiiOIROgM7zT0zMhUhvohSOcGeyje6_ss7SrGqPWilpH10Xb8mWfJvrcnwjirSDCiwr6kGmV1b53t5qNOaIoqobovIwu4c6in3ufya5cXHGRLpt0h_sDh03XZ4xZWRH1M_O8AOBEzYCvjnToG7M0BW_E&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+      "price": "medium",
+      "bestTime": "09:00 - 18:00",
+      "bestTime_en": "09:00 - 18:00",
+      "tips": "Yanınıza bir örtü alıp çimlerde piknik yapabilirsiniz.",
+      "tips_en": "Bring a blanket and have a picnic on the grass.",
+      "description_en": "Kutup ayılarını görebileceğiniz vahşi yaşam parkı. A perfect getaway for those who want to experience peaceful moments in nature. Ideal for getting away from the city noise, taking a breath, and capturing great photos."
+    },
+    {
+      "name": "Nili Restaurant",
+      "category": "Restoran",
+      "tags": [
+        "local food",
+        "reindeer",
+        "traditional"
+      ],
+      "lat": 66.5025,
+      "lng": 25.731,
+      "rating": 4.8,
+      "description": "Geleneksel Laponya yemekleri servis eden şık restoran. Yerel lezzetlerin tadına varmak ve keyifli bir akşam geçirmek için harika bir seçenek. Samimi atmosferi ve kaliteli hizmetiyle damak zevkinize hitap edecek unutulmaz bir deneyim sunuyor.",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AZLasHrW_W2AdR7aryuzB3Jsldj9Y632uIXG1y8X0vbM1cQ-srm9s4M-clgrU3nDSlj2nkjEcK2POahFh1KASX9m-LbPj7X0FhXIkNUCLtRgyZmYl73YIQBcJOQ-xdGTOVRaf4KPBC-7jjjiDsNu8nECkNA9Iz8tOKqFQwp-j0XKQh7Lp1NNbacLunUPy4ovVKdRvP-Xk_xkRRAdCVdizWjCGUQhO2ei98A2QPdS9rUlW3fwpNkHtqcvgtJgYtTUd9W99vojSPr_5EDTj36QNBXbXBjBRGX--D_P8X_dWfFGyyDfEXTkvsE&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+      "price": "medium",
+      "bestTime": "09:00 - 18:00",
+      "bestTime_en": "09:00 - 18:00",
+      "tips": "Öğle yemeği menüleri genellikle akşamdan daha uygundur.",
+      "tips_en": "Lunch menus are usually cheaper than dinner.",
+      "description_en": "Geleneksel Laponya yemekleri servis eden şık restoran. A great option to taste local flavors and spend a pleasant evening. It offers an unforgettable experience appealing to your palate with its friendly atmosphere and quality service."
+    },
+    {
+      "name": "Cafe & Bar 21",
+      "category": "Kafe",
+      "tags": [
+        "waffles",
+        "cocktails",
+        "trendy"
+      ],
+      "lat": 66.502,
+      "lng": 25.7315,
+      "rating": 4.7,
+      "description": "Şehrin en popüler waffle ve kokteyl mekanı. Günün yorgunluğunu atmak ve lezzetli bir kahve eşliğinde dinlenmek için en doğru adreslerden biri. Mekanın sıcak ambiyansı ve sunduğu tatlı sürprizler, molanızı keyfe dönüştürecek.",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AZLasHqASdcqySbiIwXLMfDSK1jyTDxPaNAfriRlU3zm-2xNV8gmYFAjDaMQ-TLVsIDW4dH3R_vxT5_oV18c_zH2L5G0V46FNMUn-PlFZGeHnB50xbarCem3Y443r1_8jXzCFXbWEYQm5V-PVbjDpZqRLhw5DsMbmHOIi-BFOfcoNvtmG9gtxqj_ABge2jywTykkcDosI2u7g4lj_xmpWM8kjOmEu--kuXnprdc55ZTYcoFVSJY_nE1skaHAIQn6nWFgUNPANCAeY9QpMMT8_wB5upjj-Z8io3-4ITLNFHHFEZ-kzNo6hlE&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+      "price": "medium",
+      "bestTime": "09:00 - 18:00",
+      "bestTime_en": "09:00 - 18:00",
+      "tips": "Dışarıdaki masalarda oturup gelen geçeni izlemek çok keyifli.",
+      "tips_en": "Sitting at outdoor tables and people-watching is very pleasant.",
+      "description_en": "Şehrin en popüler waffle ve kokteyl mekanı. One of the right addresses to relieve the tiredness of the day and relax with a delicious coffee. The warm ambiance of the venue and the sweet surprises it offers will turn your break into pleasure."
+    },
+    {
+      "name": "Pilke Science Centre",
+      "category": "Müze",
+      "tags": [
+        "science",
+        "forest",
+        "interactive"
+      ],
+      "lat": 66.5082,
+      "lng": 25.726,
+      "rating": 4.5,
+      "description": "Pilke Bilim Merkezi, Finlandiya'nın kuzey ormanlarını ve sürdürülebilir ahşap kullanımını interaktif sergilerle anlatıyor. Ziyaretçiler, gerçek orman makinelerini deneyimleyebilir ve doğa ile iç içe eğlenceli vakit geçirebilirler.",
+      "description_en": "Pilke Science Centre tells the story of northern forests and sustainable wood use through interactive exhibits. Visitors can experience real forest machines and have fun connecting with nature.",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AZLasHpKzL03qXXEL_NCEMcQXOjlysKSUGH7Y4GJEovpkHehN8hwqyKo2vn0yZPT5vyb2ZHuj8Nqf4BxXTVSFG9llKOIbibzx8ID8ZRlW8qaLWCaVlsHO75FEbnPSImNmpcMnrjRLzBSITE3UGI2sSF54Bbx-hSUUd-zplWCWYb9nDDehZUcd8EEEwk76CGDWzsk3wRgteqVPdaJvu3gDcGz_g8RCo5kY0WLrvi7kZ0W7JdxvSqgqnBzuok3MdXsLSH0-WiI2gG0DINnYXtfuqAFyVb5GSaL_5JABqmYbp4a3y-uj6ejMUw&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+      "price": "medium",
+      "distanceFromCenter": 1.0,
+      "bestTime": "09:00 - 18:00",
+      "bestTime_en": "09:00 - 18:00",
+      "tips": "Hafta içi sabah saatleri en sakin zamanıdır.",
+      "tips_en": "Weekday mornings are the quietest times."
+    },
+    {
+      "name": "Rovaniemi Art Museum",
+      "category": "Müze",
+      "tags": [
+        "art",
+        "finnish",
+        "exhibitions"
+      ],
+      "lat": 66.5,
+      "lng": 25.723,
+      "rating": 4.4,
+      "description": "Eski bir posta otobüsü deposundan dönüştürülen bu müze, Fin çağdaş sanatına ve kuzey kültürüne odaklanıyor. Koleksiyonlarında Laponya'nın doğasından ve insanlarından ilham alan etkileyici eserler sergileniyor.",
+      "description_en": "Converted from an old post bus depot, this museum focuses on Finnish contemporary art and northern culture. Its collections feature impressive works inspired by Lapland's nature and people.",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AZLasHrdESzUJpXd9FTDhzB0SRheLrwPmjhYZJliURsDDyhN5v7BOsIVfZGgxpNWRC40hhglUNNE6zZyjHUverVuF_LfsYV1pVMTFjJQ0g5Wd_U256un-NNXNAatD1DS9jAerSKJFCmvZqk9n3O3jvs-X9hEq0m8_DwZh4pW35ZacLQqJ0dXWL-KhM60gIZbXeHigT3rHNSvtPO-3KOSh0xFJZXdWYwDK0kcUc5EdEJOvBK8MEvF5NGOCFVEngZjKal__VqoE5FJ_4_aOgA5PV9Yd0SXpTtMOGXnJNPbssXdKc6YmN3Pmn0LbJ_wtTC56DRZeB2Q9qRTg53WQIcH2cN49T4ExQhM2I-_lhec6md1GyaR48I4oWVJtUJvBIBaXzv1t1w_vyvgT6mib10GZZfhu9tG-BkVRn7EWpBBQL9f19gLjJNl7I1j0Msid8BQUlqo9JaDoClHefwIhaUNwD9oH4_Vw2Kx3J87jy7ZaZw-GtseXzHi9m9zQILDz0wP1qOGH3ttJKQux-FRbKIpnJoRj0NT44Bmu0qK6dW2k3K-zr_PNJKv3HLIE4WMpQP7ENNdGXFWpQ&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+      "price": "medium",
+      "distanceFromCenter": 1.0,
+      "bestTime": "09:00 - 18:00",
+      "bestTime_en": "09:00 - 18:00",
+      "tips": "Hafta içi sabah saatleri en sakin zamanıdır.",
+      "tips_en": "Weekday mornings are the quietest times."
+    },
+    {
+      "name": "Lapland Forestry Museum",
+      "category": "Müze",
+      "tags": [
+        "history",
+        "forestry",
+        "outdoor"
+      ],
+      "lat": 66.51,
+      "lng": 25.74,
+      "rating": 4.3,
+      "description": "Açık hava müzesinde Laponya ormancılığının tarihi. Sanat ve tarih severlerin mutlaka görmesi gereken bu müze, zengin koleksiyonuyla dikkat çekiyor. Sergilenen eserler, bölgenin kültürel mirasını derinlemesine anlamanızı sağlayacak.",
+      "description_en": "Open-air museum showcasing Lapland forestry history. A must-see for art and history lovers, this museum stands out with its rich collection. The exhibited works will allow you to deeply understand the region's cultural heritage.",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AZLasHog7RYpGNBCONSwd0RMuMNVBm8x87QTPv6hogMMjUclQWmQVjXaq_6ToIG1b69tPO8iXXvo6Ytl45Qv1MNQECnCFIEDXBk2vZ0b1T8EN4NQun_m0gyeNJ9s-IpafHG68CfOiKg2txE6VPJPreMpQpUhhJRQW9gjBuN2eM6wk-XMURnXiXs-8XhJT8Hk8jyZV2K26InMkaoxOsVKAq0q0ZkmEbc7euFr9fe-gVpWHVlLh2LcqDk1san_7l2KtzUcMlRvWP-9gihRqaTcmFbgEhZ2oTi-XMwnFkIawIIB4qdRomJeHgfUDfIZMAuClw-IBw798yMgOlf1vJfdKiFITRZtLiwaujWIXtIjHs9YE4WBc-TUR4VH5hoAXmLxLzEsyVx0By3ELyD6KzbC0b8ihIhnb817Zr4AY6Xa3Du52mVTsvgcNKT0teT02bCbkLTcFRLNQEBWSt7ODJcMrnEvE2z0OSkcsDanqXBhYrtnHcA-vbXJ3DTm4Vun9526Tjz0vhNHj4mQv9DEVE8TeUZsF3SFvB_zvPtfHI4Nc5jH4lRle5BWMusc3rrfSelHaXGMeepxP7gWLhUm_w&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+      "price": "medium",
+      "distanceFromCenter": 1.0,
+      "bestTime": "09:00 - 18:00",
+      "bestTime_en": "09:00 - 18:00",
+      "tips": "Sesli rehber (audio guide) kiralamak deneyimi ikiye katlar.",
+      "tips_en": "Renting an audio guide doubles the experience."
+    },
+    {
+      "name": "Angry Birds Activity Park",
+      "category": "Park",
+      "tags": [
+        "kids",
+        "playground",
+        "fun"
+      ],
+      "lat": 66.5038,
+      "lng": 25.728,
+      "rating": 4.4,
+      "description": "Çocuklar için Angry Birds temalı açık hava oyun alanı. Doğayla iç içe, huzur dolu anlar yaşamak isteyenler için mükemmel bir kaçış noktası. Şehrin gürültüsünden uzaklaşıp nefes almak ve harika fotoğraflar çekmek için birebir.",
+      "description_en": "Angry Birds themed outdoor playground for kids. A perfect getaway for those who want to experience peaceful moments in nature. Ideal for getting away from the city noise, taking a breath, and capturing great photos.",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AZLasHofXsXT-olEWYEdegvifL-5Ad5qezlU5S9tFuZ1HsIPbFonUqb0eXrrUqrTIHrZHzM6uHqArP6mjSCLPyz222iDRFcWzpCTtZP9fz1pKU5XtX3_jSOigNuF_kXhMKZZnU4kOqUWnZCRxh4J2zFCTE1r4FPPyqmHnIeXTCO_6KrBrwIcg_beISOGhaAr3-q6HjysZimpNVyEULwq6kIbKNndU2lboTT_Njtg6kM_-KRIqRkM2GoGQ2HY5TGwawVDa6vkbrWB8BE6jXO-R2_RXD4TpnF-UTcO7tllBGd9W-BwyAaiD8c0OgTzbTXsn15v3j847iMkIQHtR_sIxHPfQQIbGtxe-gY_4hTG_E5iqjITcjO6BOyQZofc28_Or0Vb0M-tSlB58UbtxXfZtQujVUDLwwecwQBhIzSvBOifS6lHqOJfylnXM39IAvi5fR8gdMjE_OdKNGWW5ym9IgzsNZ-q-GCdOCCcAroIReLt6S0Eites-prASePu6NTUz9dosPBalH39yjwDeEqOVsyq2TSp8Ht6yZZ7pzZcBIpP7gGoUnm9zp8g330kH5Fx7cIqSPhgaQ&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+      "price": "medium",
+      "distanceFromCenter": 1.0,
+      "bestTime": "09:00 - 18:00",
+      "bestTime_en": "09:00 - 18:00",
+      "tips": "Sabah koşusu veya yoga yapan yerlileri görebilirsiniz.",
+      "tips_en": "You can see locals jogging or doing yoga in the morning."
+    },
+    {
+      "name": "Auttiköngäs Waterfall",
+      "category": "Manzara",
+      "tags": [
+        "waterfall",
+        "nature",
+        "hiking"
+      ],
+      "lat": 66.38,
+      "lng": 27.22,
+      "rating": 4.8,
+      "description": "Bölgenin en etkileyici şelalesi, yürüyüş parkuru ile. Şehrin en etkileyici manzaralarından birini sunan bu nokta, fotoğraf tutkunları için adeta bir cennet. Özellikle gün batımında büründüğü renkler, ziyaretçilere görsel bir şölen yaşatıyor.",
+      "description_en": "The region's most impressive waterfall with hiking trails. Offering one of the most impressive views of the city, this spot is a paradise for photography enthusiasts. The colors it takes on, especially at sunset, provide a visual feast for visitors.",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AZLasHp4FM9B632Y-KGPb4WwbhHUuqJE1uy49bzEYMJVhWfmbvp3rXnQvoun5mrKbRDf4Shv5EjvMHuU73Zer8xMMCsbgvmZCx2vwWNiIPBl4jcoWq30wP1qrvyjmG4raBALG-Aprs6JNm7mjXNfeCvc5g56Psw4jSXHtxsWBK2eSV6NFErMHBlWWc_zzgrDevjXUulC5yLhxgyjQrvMxlsbdK2eo0iykEhamg-siRuYQKckrKjVUeqmaIu5Txr8DsNQ5x6eT_xjOudHKIHNLXZgd73zDeFlDaamJlmjqLfnGIBvXSgisznp4KxQCtMDlWPOEve9EuFAZcv-bspx-utOmHmwhXWzaVycgnqsY1u8oVEIucAleSqyYvuWRKqH4VYNffcv929yEoMaUJobNSyR08TcEfBURZkCedHtzYoCixDve_76C2lCzUIuxu9kY4V67-svEPJnToUUjkFtEupoIySBaDyfzAHqH0blg5_O63WB4pIWzOLRV1TWcXuud0qC7rRY9GgRcp-YqIioZkRPk6POpse1pyrVCoJb_3JffyfyRVpIzIq-DkguP1Ooa75Azzz-vbhp60k38g&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+      "price": "medium",
+      "distanceFromCenter": 1.0,
+      "bestTime": "09:00 - 18:00",
+      "bestTime_en": "09:00 - 18:00",
+      "tips": "Su ve rahat ayakkabı almayı kesinlikle unutmayın.",
+      "tips_en": "Definitely don't forget water and comfortable shoes."
+    },
+    {
+      "name": "Norvajärvi Lake",
+      "category": "Park",
+      "tags": [
+        "lake",
+        "swimming",
+        "camping"
+      ],
+      "lat": 66.45,
+      "lng": 25.6,
+      "rating": 4.5,
+      "description": "Yaz aylarında yüzme ve kamp yapılabilecek sakin göl. Doğayla iç içe, huzur dolu anlar yaşamak isteyenler için mükemmel bir kaçış noktası. Şehrin gürültüsünden uzaklaşıp nefes almak ve harika fotoğraflar çekmek için birebir.",
+      "description_en": "Peaceful lake for swimming and camping in summer. A perfect getaway for those who want to experience peaceful moments in nature. Ideal for getting away from the city noise, taking a breath, and capturing great photos.",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AZLasHp46GNsVkD-s01HApZ3DLSngols5nk72qCLrAOwLceQRdhhflFHSQO_H0CpBzfgmjLLIqr_Nw-w1rwiikZh3hFC4mfFb14J5asmR4KRYlfQHER0_gyfZAVFUjKcN3C7eLDXi3XYizf0yiSCIlJ5yGVqI1_ow1OJp9vR1wq-yUI_YqhiSyBswKU6JtbYTg8QV1P4vnNnUCp5vzx3xSJ2pUPW2dbSbyj0Wv3OkvY1A-pp5yX2Crklif7omnAcGJIlM5Locc4zuZ7Mp6DlwAlJTsqdbnhamZ77AAzu6h6NiaQ_sCSh5y-GxAQgGrg8V8bM_GT3P5jGdW7yWDhUib3juXZXXSjfBvUGnJDPEMYd13gUSYo7nrQTOFiXWzfpZpZVNgEGKb-hizuDtBdvfCdUV1a_PVOY1A2yeeprS75Mmd4mNovLw_dlyu01F3RZjUbSc57kSA2KgJOAty15h1m3NBMOtxiMnSoFDG4rtTQNZwrKEL8gphVIYd2VU_JfOcYYZwFNf2Zl7Pe3PN-OJPqXKoZ9yuXq_zzcyldL81Hz80nZQYgC-eumjf4yDoOrqJZS3lQE2dKg&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+      "price": "medium",
+      "distanceFromCenter": 1.0,
+      "bestTime": "09:00 - 18:00",
+      "bestTime_en": "09:00 - 18:00",
+      "tips": "Yürüyüş ayakkabısı giymeniz önerilir.",
+      "tips_en": "Walking shoes are recommended."
+    },
+    {
+      "name": "Kemijoki River Trail",
+      "category": "Park",
+      "tags": [
+        "walking",
+        "river",
+        "scenic"
+      ],
+      "lat": 66.505,
+      "lng": 25.735,
+      "rating": 4.6,
+      "description": "Nehir boyunca uzanan manzaralı yürüyüş parkuru. Doğayla iç içe, huzur dolu anlar yaşamak isteyenler için mükemmel bir kaçış noktası. Şehrin gürültüsünden uzaklaşıp nefes almak ve harika fotoğraflar çekmek için birebir.",
+      "description_en": "Scenic walking trail along the river. A perfect getaway for those who want to experience peaceful moments in nature. Ideal for getting away from the city noise, taking a breath, and capturing great photos.",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AZLasHpIBhKg1tJMQXrRBHf2HK3uqOjmXfXpEdY5D1o5S9G8lfdT3UnPx1WaZSUFlmELC1yH69-p07Th1yUOyyFux_XbSUMpoDAIs5s3z8MJl0_9N_8JCv--ZH8122RXGJG8Uz2MAlmmkCi7FuslN-kxAPm7T0lghtLa9OK1SltA6yFDAyrFqHr0jTGCYNnU4Q2pz81nTgfjIt_knszMAAdBenVWqLqEeet3F0S9Mv_ExenFw6dliDDMS3M6VCIYmUa6G8g6hIfh98vTGtnpguxzqQn5gka-BvusPe8Kjqj_PGt8bFHmHYOBu0Oba66cKA35lg9iW4AhxDvP2GuPWc2RyQkRG8x-heQoz5mbeCA_ZdBvRMNBqBZYipbRGJRlHYGrj6CTR6jZY3MF78Trn3XYMPxwUPlj3_Z4fvRltlF1jX7Z11eh8ID7QGEUPsrV4jZBs3bElbCOFTFtA8McjWlu9OQXSYhdYCgC1FTuqRF2CcBOfMpqP8xXx72eQlqqb3tQtQfWXnoyUruiCeFepoHXTLfovyGozHVpcJ-LjK4wDG8eClN9NOisqrdiwNAgxBXwa2xXbslv4fqTyA&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+      "price": "medium",
+      "distanceFromCenter": 1.0,
+      "bestTime": "09:00 - 18:00",
+      "bestTime_en": "09:00 - 18:00",
+      "tips": "Su ve rahat ayakkabı almayı kesinlikle unutmayın.",
+      "tips_en": "Definitely don't forget water and comfortable shoes."
+    },
+    {
+      "name": "Husky Safari Center",
+      "category": "Deneyim",
+      "tags": [
+        "husky",
+        "sledding",
+        "dogs"
+      ],
+      "lat": 66.52,
+      "lng": 25.85,
+      "rating": 4.9,
+      "description": "Husky kızağı safari deneyimi ve köpeklerle tanışma. Sıradan bir gezinin ötesine geçip unutulmaz anılar biriktirmek isteyenler için benzersiz bir fırsat. Bu aktivite, seyahatinize heyecan ve renk katarak size farklı bir perspektif kazandıracak.",
+      "description_en": "Husky sled safari experience and meet the dogs. A unique opportunity for those who want to go beyond an ordinary trip and collect unforgettable memories. This activity will add excitement and color to your travel, giving you a different perspective.",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AZLasHq1hCvoKDz1Ph2WoF8mGW170TeCL0Gf4ZowG0dVISPv9OoT-yHXMk5X2Br688gwSkvm9SNSWX3tSreDQJm95IJr9ObXVW6UHrTof9pPRDDUwowF0-DMDOV3UG5NUYpnREkXzENDeQ0AcNSSe1disl78IwptqEfVAdLTx1vOc3c_GNy1uvogkwlTd5rxFgouE4AUn6l_VBPCJskfrJBBPFg0gHZVh3KLX-hJKJtLlnlqANNBCdp01jAUDFOniqr3H8nd6jfxVT9A0K-PvyMe4EOl56JKk8p4QRkrkieuVyuU0-nx1cE&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+      "price": "medium",
+      "distanceFromCenter": 1.0,
+      "bestTime": "09:00 - 18:00",
+      "bestTime_en": "09:00 - 18:00",
+      "tips": "Grup indirimi olup olmadığını sorun.",
+      "tips_en": "Ask if there is a group discount."
+    },
+    {
+      "name": "Northern Lights Tour Point",
+      "category": "Deneyim",
+      "tags": [
+        "aurora",
+        "night",
+        "photography"
+      ],
+      "lat": 66.55,
+      "lng": 25.9,
+      "rating": 4.8,
+      "description": "Kuzey Işıkları izleme turlarının başlangıç noktası. Sıradan bir gezinin ötesine geçip unutulmaz anılar biriktirmek isteyenler için benzersiz bir fırsat. Bu aktivite, seyahatinize heyecan ve renk katarak size farklı bir perspektif kazandıracak.",
+      "description_en": "Starting point for Northern Lights viewing tours. A unique opportunity for those who want to go beyond an ordinary trip and collect unforgettable memories. This activity will add excitement and color to your travel, giving you a different perspective.",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AZLasHrncucqUj6G_B32UwyvH2Vl15sau6PMBmw7ir4-olE3HzBP6V4rAhwuP4Rn6I_B0KoE2ufvqG2L4LbWWXqFZKQVcJacV2poTUvZD05fiAiRkUtG4vgSwnvh5qPBrVt_DWl9pJ814-pIDZxXIHijN0Z75VHgL4ClW3VRozlKs7bIcqRHHk-XvGtgcGOjNOMR07tgdeoz6KGv3M5t3DzRtBQRW7pL1Dyikk9ce3xdoOfmNxVuClS8xBQdPadvtRXQZva5eCEMNPCJx-6vYiHw6fTRFkuZWXQrqeAQesrFT41FzxaHiRrXCwiIx8LsmAJnIaTZi-wA8sjYN2RjVCasfDYnb6TFQPsBWYEFGwBL3WtRexIsyPd2_jSaRuA8zUf5wVhBGURPWY4v2f3bp9S68WROtv7l9XwSqnO8Z1pApZMXT-CQnPKW6wtmIjCksx4i8BxJPuPFMTpRRcpqx1NZlGpOI_yrhEEO0Tn_WulBk79-FFIHbGdhpkX-n5SKyVBskmjPAWmVzxp0QSvqkUyyuEnvZLIWUFwuL4JLLW9Vq-Ehrl2gXHyF6t-aeuVzhHLpgmbCC29r&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+      "price": "medium",
+      "distanceFromCenter": 1.0,
+      "bestTime": "09:00 - 18:00",
+      "bestTime_en": "09:00 - 18:00",
+      "tips": "Kıyafetinizin aktiviteye uygun olduğundan emin olun.",
+      "tips_en": "Ensure your outfit is suitable for the activity."
+    },
+    {
+      "name": "Ice Hotel Experience",
+      "category": "Deneyim",
+      "tags": [
+        "ice",
+        "hotel",
+        "unique"
+      ],
+      "lat": 66.545,
+      "lng": 25.86,
+      "rating": 4.7,
+      "description": "Buzdan inşa edilmiş otelde konaklama veya ziyaret. Sıradan bir gezinin ötesine geçip unutulmaz anılar biriktirmek isteyenler için benzersiz bir fırsat. Bu aktivite, seyahatinize heyecan ve renk katarak size farklı bir perspektif kazandıracak.",
+      "description_en": "Stay or visit the hotel built entirely from ice. A unique opportunity for those who want to go beyond an ordinary trip and collect unforgettable memories. This activity will add excitement and color to your travel, giving you a different perspective.",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AZLasHqpNnz3S_wA1afTHCro5WgtikYSpLQI1uKR4WKWxMgAWufbiyf1q_HtInC48Fvuo1RsKatEWFXMP4_il_ADJbKdHnof9FMiTbbQr3YV0tAgzIm19vY8s5JNVZDurvqXTXNOQ_keN4ZIIPKmRhOnoI7uL414TnaECQJoTwfME4g3SdKgYrqmgibCv135dVjJ9MfnwMd5OlYLIWhDRqy7xh-sRjrhFm6l8XP-42SNUIJ4mtA-EKEmgXG08ok2HMoTgvkWATSk9rYj0RB2WVjYaWlQGIr0tRXEjA5wclPgnMXBLvXebOc&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+      "price": "medium",
+      "distanceFromCenter": 1.0,
+      "bestTime": "09:00 - 18:00",
+      "bestTime_en": "09:00 - 18:00",
+      "tips": "Rehbere soru sormaktan çekinmeyin, çok ilginç hikayeler biliyorlar.",
+      "tips_en": "Don't hesitate to ask the guide questions, they know interesting stories."
+    },
+    {
+      "name": "Reindeer Farm Visit",
+      "category": "Deneyim",
+      "tags": [
+        "reindeer",
+        "sami",
+        "culture"
+      ],
+      "lat": 66.53,
+      "lng": 25.83,
+      "rating": 4.6,
+      "description": "Ren geyiği çiftliğini ziyaret ve Sami kültürünü tanıma. Sıradan bir gezinin ötesine geçip unutulmaz anılar biriktirmek isteyenler için benzersiz bir fırsat. Bu aktivite, seyahatinize heyecan ve renk katarak size farklı bir perspektif kazandıracak.",
+      "description_en": "Visit reindeer farm and learn about Sami culture. A unique opportunity for those who want to go beyond an ordinary trip and collect unforgettable memories. This activity will add excitement and color to your travel, giving you a different perspective.",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AZLasHoasp1o0YDtHyvXC1QaoKsB-zOIpJS8ssAU7UF6BAWlPxsE7jvSanKCQuWU1cjo_M5j3GEvRKcjnH19RQ3Kls41U9CWgRmTha5NtbJt4BTk9yucP01NJwU3V51CLOIlqRY1sNx_sKuWYaMUx9t5cz7qAT-netzCQLCq5qMvNEEN5y_9JNNwNnrThlAjeqvMYqMfwm92DBN9ab2A5zRAf9ieD5qG5Xsz4842KjKwwun7OAn1lpyM47mgpyO_6TZF1v-yARZYKJ5r2mmdoPrwWKPkKBctKxJFws7sHLTEzbTvzo2k86g&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+      "price": "medium",
+      "distanceFromCenter": 1.0,
+      "bestTime": "09:00 - 18:00",
+      "bestTime_en": "09:00 - 18:00",
+      "tips": "Fotoğraf makinenizin şarjının dolu olduğundan emin olun.",
+      "tips_en": "Make sure your camera battery is full."
+    },
+    {
+      "name": "Restaurant Gaissa",
+      "category": "Restoran",
+      "tags": [
+        "arctic",
+        "modern",
+        "seasonal"
+      ],
+      "lat": 66.503,
+      "lng": 25.732,
+      "rating": 4.7,
+      "description": "Mevsimsel Arktik malzemelerle modern mutfak. Yerel lezzetlerin tadına varmak ve keyifli bir akşam geçirmek için harika bir seçenek. Samimi atmosferi ve kaliteli hizmetiyle damak zevkinize hitap edecek unutulmaz bir deneyim sunuyor.",
+      "description_en": "Modern cuisine with seasonal Arctic ingredients. A great option to taste local flavors and spend a pleasant evening. It offers an unforgettable experience appealing to your palate with its friendly atmosphere and quality service.",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AZLasHrbDzoq1bdfKGjwj0LEqy-or9DqaFcihD12PENg4YfL_NE0ku6bHHgZrVdTiajlEf-sQZoEnm4qwDZlCqb2QAsVAxZjhSWPOjb6InwxMtYxmHj0-DAzrdIRdikL9NLQO7eYIX04Bpa0qnxdGuQuDwa2KQN2tIfeOPdzY_Q_G27KrWCrH7lMQCqH9kQXkFAk_0LSiHnKqCqfKBueFzKuUYaXN_8JbRK_0D1SIrFjwvVoeFBqDjc0ynOEgEcisx6FJGe3D1GiEzsJ8xO2T-hAXAv12g6vX6iuyxCGWETNG8oAlpSpy0Cig19c62QPdRQao9_t6BXchmuPbZQQtl-AoJQ5Z0dYIDaz0Ge0kF3cx50du2eV6MstZlbOvHS635Vul3X9zRk3CMBtsGSbH995rN2QZnBtrjP78a_t-Fmw4wCAOHOmwsyMfy3Z6UZQlM0-4r4BD6Q5Q1SjlnxE2SyImZyg9kISFK-f6ytRhwWPlmiA-OkPHVdXa_VkKs5Mfzx_hlzrWDQkLW_TuwcBnXf2je23XZspOYnhoe5SuZ3st8b4sg0Lhh-3g8SBWkC0q4CJ_H1dr_acsEqqn511mQG2bRjPIqZLvQ&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+      "price": "medium",
+      "distanceFromCenter": 1.0,
+      "bestTime": "09:00 - 18:00",
+      "bestTime_en": "09:00 - 18:00",
+      "tips": "Yerel şarapları denemenizi öneririz.",
+      "tips_en": "We recommend trying local wines."
+    },
+    {
+      "name": "Ravintola Monte Rosa",
+      "category": "Restoran",
+      "tags": [
+        "italian",
+        "pizza",
+        "central"
+      ],
+      "lat": 66.502,
+      "lng": 25.73,
+      "rating": 4.4,
+      "description": "Şehir merkezinde kaliteli İtalyan mutfağı. Yerel lezzetlerin tadına varmak ve keyifli bir akşam geçirmek için harika bir seçenek. Samimi atmosferi ve kaliteli hizmetiyle damak zevkinize hitap edecek unutulmaz bir deneyim sunuyor.",
+      "description_en": "Quality Italian cuisine in the city center. A great option to taste local flavors and spend a pleasant evening. It offers an unforgettable experience appealing to your palate with its friendly atmosphere and quality service.",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AZLasHqkCoASBuoIfdjSeiWM1IyADrQ4QyyovUf7QKGEPw0sXO8BdtxAnJnAo3H4n42YqeNku8aeYBQVQEHNkcWGVjPoyn938ITSeJh9z7osMElafXP7IYYqN1q8RGCcCg_1hNwECPWISX-cmYDCXvtmKz1TZ81dg99nP9IB--caUWqXJwu1N2hftJRaaFHTPtOoaKNiHkVU4RgVSiGwf9wEQPgs4UsRxrgVgyIop_zW1PAsY3dzPBEmROF-9zw4zNekEK5cZ6CusPgdKLr7UL_Uf_1kY9oQRvdoIhqEApRghzUMeBwxo6ZLe1s4DwJ27YE7yfzMvYZGofAt-W-vW5p9BD9zz0z7Pq8_DpyUh3LMZwfOczLGD0E2zV-5cHQDr6FRhuXcll6ApDygh809bwCPLtu-zjO-nF52IHCRYMP_ZkRRNPU5XcJY0ZOvb-00rnbv6caom0_p9aUF4vGiRTFrsaIP5OtSUrW6sI5wsi9vp5HI1QZBashy68Hio-nGgO5UuwdRLWsKYzzFDVkPzHp07f13IY-Gj4xpqR9wv-WVyzFrS5h7_1aNSpHDGpCotbRsvm59zA5B&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+      "price": "medium",
+      "distanceFromCenter": 1.0,
+      "bestTime": "09:00 - 18:00",
+      "bestTime_en": "09:00 - 18:00",
+      "tips": "Öğle yemeği menüleri genellikle akşamdan daha uygundur.",
+      "tips_en": "Lunch menus are usually cheaper than dinner."
+    },
+    {
+      "name": "Arctic Boulevard",
+      "category": "Restoran",
+      "tags": [
+        "bistro",
+        "lunch",
+        "casual"
+      ],
+      "lat": 66.5015,
+      "lng": 25.7325,
+      "rating": 4.5,
+      "description": "Günlük öğle yemekleri ve hafif atıştırmalıklar. Yerel lezzetlerin tadına varmak ve keyifli bir akşam geçirmek için harika bir seçenek. Samimi atmosferi ve kaliteli hizmetiyle damak zevkinize hitap edecek unutulmaz bir deneyim sunuyor.",
+      "description_en": "Daily lunch specials and light bites. A great option to taste local flavors and spend a pleasant evening. It offers an unforgettable experience appealing to your palate with its friendly atmosphere and quality service.",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AZLasHpjmsYRRgkLFH6E3hN91vsKPHMhAMR3eAZRF7a1cQE8TSOU7IxI0Tn6CVuq-L0oapAGTMmroElLQW5146x8iLQ9_Eieap4rZubtkPox_Qylf_bXH9IiT5dPGkHn8eDY_EzP5XyQC01FWcgNrY8Bq2G45ELSq-1WVwi-KhKj8GqQJrnOXN6l-81uoaLEa2TgXCPmPZP1o35X0Ddz0Ka9mJNDDGWlX1efsOyzrx8ISd-6mWltqXAB3DI2QpZxSth_sUi1G5SGt2gF45N0jXHjABlUHzCKc_ICagoJ1EP7OZ-JhATPk-rc8hLQunSpvgxOkjPXu4qh-riy_qXVUh-FgMluyYJuObGRFInAYIqnvu34hxsUA6B-KAPD9xILL7mXLPqoxuu-Nsor7P7TKWHEEAR_VC9NmSqRWtrrWZXwHqc4eDHIdWq5Gs8Uz3hxHotIrNqWoCiajB4TkTOkofTU6EO-To2FrT-h0dpirFeF0kPwxtHGHcUDiYon6EMDDoAjjLhODc0TjioPsovdTl8FYDVGMNrahFefZxa3Bt87AO15brp1FCjDTmu-6vl-eNv1rk7yFrFeDw2PXQ&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+      "price": "medium",
+      "distanceFromCenter": 1.0,
+      "bestTime": "09:00 - 18:00",
+      "bestTime_en": "09:00 - 18:00",
+      "tips": "Yerel şarapları denemenizi öneririz.",
+      "tips_en": "We recommend trying local wines."
+    },
+    {
+      "name": "Roka Kitchen & Bar",
+      "category": "Restoran",
+      "tags": [
+        "steakhouse",
+        "cocktails",
+        "dinner"
+      ],
+      "lat": 66.5028,
+      "lng": 25.7315,
+      "rating": 4.6,
+      "description": "Et severler için ideal steakhouse ve kokteyl bar. Yerel lezzetlerin tadına varmak ve keyifli bir akşam geçirmek için harika bir seçenek. Samimi atmosferi ve kaliteli hizmetiyle damak zevkinize hitap edecek unutulmaz bir deneyim sunuyor.",
+      "description_en": "Ideal steakhouse and cocktail bar for meat lovers. A great option to taste local flavors and spend a pleasant evening. It offers an unforgettable experience appealing to your palate with its friendly atmosphere and quality service.",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AZLasHpeI8d9--UlmnPPt3G0KWArwmV8OWWM25MCKTqksZb6px-BuYbym6TWYMvEKgjsTcWQiqEE6v-gjwHfIu4aP7MHdtHTuHKL7rxujE-Z5iifkCLjrhqVpqE4aK_OP1frlxHMHFFhQfx-cJaoIQ7LvFUjSg9ur-Zugyrxu-ONJfVs1MBmO20NvjLUCnd_BuKrSfJ5ddNncwfNHPLtPyF9s6J1obXDAukJ1DlSgmEUduOwfWwir4W9uImBiemIkjXQDwcd7lGf157CCcPXvzZTG24GEf7W2kvTlitblWyuj3dIuQDkum-81OE-R7VMibGIqX94MCGvUIAmsxBpchhANfAn9ABDrq_r1sBg-z4EVYW-N8j1fHoKm2h8qriySiSwqPd8z3Wi8tzSsza1tfAWZQmx7YO8D8rw6kxew8kbRM4w3gMFdqrKV1EZ_o7YEZQLtfHB9Gy4YQMRE8LVpWbjodpCqxud3MJOGTPCRYzEUvJoQ_ufmRKa6n5BRLOLjkZ2UrN7kd9-jbUkLdJD0FnRnvE736N98mfmL8ITrpGr0nRZE9pdKdQFt66p11kXA1mn1UVV8yL5AmaIUw&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+      "price": "medium",
+      "distanceFromCenter": 1.0,
+      "bestTime": "09:00 - 18:00",
+      "bestTime_en": "09:00 - 18:00",
+      "tips": "Öğle yemeği menüleri genellikle akşamdan daha uygundur.",
+      "tips_en": "Lunch menus are usually cheaper than dinner."
+    },
+    {
+      "name": "Kahvila Kauppayhtiö",
+      "category": "Kafe",
+      "tags": [
+        "coffee",
+        "pastry",
+        "historic"
+      ],
+      "lat": 66.5018,
+      "lng": 25.7308,
+      "rating": 4.5,
+      "description": "Tarihi binada geleneksel Fin kahve deneyimi. Günün yorgunluğunu atmak ve lezzetli bir kahve eşliğinde dinlenmek için en doğru adreslerden biri. Mekanın sıcak ambiyansı ve sunduğu tatlı sürprizler, molanızı keyfe dönüştürecek.",
+      "description_en": "Traditional Finnish coffee experience in historic building. One of the right addresses to relieve the tiredness of the day and relax with a delicious coffee. The warm ambiance of the venue and the sweet surprises it offers will turn your break into pleasure.",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AZLasHrGmTaoM-uW4-AL-U08xP8r9vG1LWWWVP3yUVZZa04EaVxu8byGu0z-Ss4Pr99rGI8LBt0XGvx605emFGlhF2si4xgmykMfepYL9XaOfaWw3T3kvwWYL9TbjX0MKdxNxqFHp7Xn6ZRAjzSol7AhQjI2Jsksl6aeKe64BO7PrOXqnPDr6eamIE80ygwrrhO6PA2JKpMPz6Oo1n_eF9-kNfdW3pn5BvpgrGgxDKh6suTc9Yeq-af-wgZKwo2pE12_zuz79QPsKHPx1Ma0kyFZjnhrN8RYcIKBu8kXl4iaUdV_fxvmc_s&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+      "price": "medium",
+      "distanceFromCenter": 1.0,
+      "bestTime": "09:00 - 18:00",
+      "bestTime_en": "09:00 - 18:00",
+      "tips": "Kahvenin yanında ev yapımı tatlılarını mutlaka deneyin.",
+      "tips_en": "Must try their homemade desserts with coffee."
+    },
+    {
+      "name": "Coffee House Rovaniemi",
+      "category": "Kafe",
+      "tags": [
+        "specialty coffee",
+        "modern",
+        "wifi"
+      ],
+      "lat": 66.5022,
+      "lng": 25.7305,
+      "rating": 4.4,
+      "description": "Özel kahve çeşitleri ve çalışmak için ideal ortam. Günün yorgunluğunu atmak ve lezzetli bir kahve eşliğinde dinlenmek için en doğru adreslerden biri. Mekanın sıcak ambiyansı ve sunduğu tatlı sürprizler, molanızı keyfe dönüştürecek.",
+      "description_en": "Specialty coffees and ideal workspace. One of the right addresses to relieve the tiredness of the day and relax with a delicious coffee. The warm ambiance of the venue and the sweet surprises it offers will turn your break into pleasure.",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AZLasHrAVC5ST7jvfIsDSvofZr8w2Gwh-IIMDyB8LOgAJ7y3azIFqSN4I-ufuuSh_EsI9I4T-ZpAtQ2ORrIqinScHDegg71jc1aX7pyzCfwHBGgP-6svQfWShh4YFj8jdF-tSmI3yCbFm9G53T-kXImitNuv6STNRw77L6gSHfwzwWmBs4uIsDDSTKCoKtKNGISjb1gQKN98I8h69GT7GGED7Lq6sx9qoDcIn_Ikk97lE13RDWNsKULe2sh-x0vp_HOeSEeijlyI1_jXwiHDqHawK7W5FlberVdC7yzfRlxZtnYtZyt-3As&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+      "price": "medium",
+      "distanceFromCenter": 1.0,
+      "bestTime": "09:00 - 18:00",
+      "bestTime_en": "09:00 - 18:00",
+      "tips": "Laptop ile çalışmak için uygun, Wi-Fi hızı iyi.",
+      "tips_en": "Suitable for working with a laptop, Wi-Fi is good."
+    },
+    {
+      "name": "Arktikum Bridge",
+      "category": "Manzara",
+      "tags": [
+        "architecture",
+        "glass",
+        "modern"
+      ],
+      "lat": 66.5088,
+      "lng": 25.725,
+      "rating": 4.5,
+      "description": "Arktikum Bilim Merkezi'ne giden bu cam tünel, özellikle kışın donmuş nehir manzarasıyla büyüleyicidir. Kuzey ışıklarını izlemek için şehrin içindeki en iyi ve en romantik noktalardan biridir.",
+      "description_en": "This glass tunnel leading to the Arktikum Science Centre is mesmerizing, especially with frozen river views in winter. It is one of the best and most romantic spots within the city to watch the Northern Lights.",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AZLasHqhffIvR-wY9ZQqjtyM6MyIYPb3XkXanXg7Q-yW_yU7K0EGE0kIdtxbxOVlG-SUxFOyb-SIUzoU7Qymf2tDx0w9qfI-RfnVrHr-gxNEMlWAzvMgcV4iwR-RA0YqOypdcETtIm1mR9oasaOyEOQJOe-fhJ3EXP05cPPcCx-dkJG9py5TchGo-rmN4WFDAkmO7If2qjifSZkO5xI3v19tR0J3f1XyGzXJpqS8aYbyiaORn7qEz1NWjzvZBCA7z-uVrwE6zdLWuif4fUr2K1LiZlDkgpDy0jYhjLhvstU6CbMJzSXMJrOnZHBk5T2dtURyms0sDU9PjPVoLPixWEws_OM277PahHzyMZFNbgqHiAZ8NWaJYXBXhwRAm21cn8917r59WfWXuDs9XENevWazJZ7_yb2vdM3d1t_uecVY0eslbBioO7CbpMSZusT34GEu8PWCaQu6s0LfPE7pJuLYUS0byHpmtFScKAo4l1XFnIEp0O4vIZLv30f6vCj9obdBdVzIM7d7W1IMoey6l3CSE9DNXdCRNm7qkC26L9sxOy664IS08RHTVfpjx2h77wIryI9N1OC3VPGaAg&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+      "price": "medium",
+      "distanceFromCenter": 1.0,
+      "bestTime": "09:00 - 18:00",
+      "bestTime_en": "09:00 - 18:00",
+      "tips": "Panoramik fotoğraf için geniş açı lensinizi hazırlayın.",
+      "tips_en": "Prepare your wide-angle lens for panoramic photos."
+    },
+    {
+      "name": "Rovaniemi Church",
+      "category": "Tarihi",
+      "tags": [
+        "church",
+        "modern",
+        "architecture"
+      ],
+      "lat": 66.501,
+      "lng": 25.729,
+      "rating": 4.3,
+      "description": "Savaş sonrası yeniden inşa edilen modern kilise. Tarih meraklıları için eşsiz bir hazine olan bu mekan, geçmişe ışık tutan detaylarıyla ziyaretçilerini büyülüyor. Kültürel bir yolculuğa çıkmak isteyenler için ideal bir durak.",
+      "description_en": "Post-war reconstructed modern church. A unique treasure for history buffs, this venue captivates visitors with details that shed light on the past. An ideal stop for those wishing to embark on a cultural journey.",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AZLasHoBhLXfER6lH-1aiRA-cILXP3UZAOPgGZQeeomyPfOgwCTCoUog6dSO2TskjxsRcZAB1mwyGIWdu_x-_D8p9KuTaGHBJt8mXY-KMgBYxwqPp-V1uiQ3MVKWgj9_cqcaIia_tPPLGyx-AsShMCmgqbMIIxWhEtHc0n21YlZ7ft91MDnlkmjEbfUHNpNNAZdjnToOOAKVgLJamSPH0Ixk9thczOu7ExDXVd9U6kPo0V9y83jQ_fMtQJY_RaQzWy7UMmtfXcXDs9tEvb5ec-52DsCNNFWQMg0a5woXL6my-Iw7GljaqHnMvGaWj_WYOd5v6hCsEKv-k5thcaFW7W3hUE-QI3A0c7l14kEiK1WhtqsQSArsKLWma8kn1mqZ8JvKysjxh3LjfN9yq5AIsZUoiVYZT2ZKGcrIRlr9ELMTXxxLCFW1fRAzAPEjtWrJ_z8jvAWwfPqpgOJDA4a76Hf0gIZzMsZ1RekZ9Ycgm50swHeg9LNc83LAOXLLzHMUhGcCg13j55hAcYgLKSYlVRxMFJQY5eAMo5buKjyyYWxVM1jbd6ojiLZq9ROiT7LDtboQ2Wsv-bDlxk-bqg&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+      "price": "medium",
+      "distanceFromCenter": 1.0,
+      "bestTime": "09:00 - 18:00",
+      "bestTime_en": "09:00 - 18:00",
+      "tips": "Sabah erken saatlerde giderek turist kalabalığından kaçınabilirsiniz.",
+      "tips_en": "Go early in the morning to avoid tourist crowds."
+    },
+    {
+      "name": "Sampokeskus Shopping Center",
+      "category": "Alışveriş",
+      "tags": [
+        "mall",
+        "brands",
+        "central"
+      ],
+      "lat": 66.5025,
+      "lng": 25.7295,
+      "rating": 4.2,
+      "description": "Şehir merkezinin ana alışveriş merkezi. Bölgeye özgü ürünleri keşfetmek ve sevdiklerinize hediyeler almak için uğramanız gereken bir yer. Renkli dükkanlar ve canlı atmosfer, alışveriş deneyiminizi çok daha keyifli hale getirecek.",
+      "description_en": "Main shopping center in city center. A place you must stop by to discover region-specific products and buy gifts for your loved ones. Colorful shops and a lively atmosphere will make your shopping experience much more enjoyable.",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AZLasHqnPop1FFZp8kAeIMQYEfHhNIzh4CnnAoN-PoaXMW1kWl20bnhGGIwlxU0Xp4cXeRbA04i3GBbbSjn1gPxM837-8zf8ZHy6vZyMqDhsFCXERp1gx1mq7Z7NFanI4171DMVxu7Rfa4SoZb_I9C7ZlFdj7WiZfyA3QW8WRmYaeD-99sl6JYJAWsKtI1UKww7Gn34Cn6gAmL0G5U24GOI8VwbA5Dfb93nvr5dXH11WKbNmFuO-x4nCfAcUJKRSbwd92cU8tIzGRXGEwE4MAYjcRDZUFjZNiqWnvZau4rMhBcpuVEuYa_2shxY-Q6GgpcRglJTHCNHlFWAvQqDfF_3vY7PYANoxQIxRAiwRo7TQXdOD22wtsczgtYIp6paFbESANi6GdHTCYNGkF9yBLpAG_tiH2BJdXiwNJAVp8hdaSoljuqkTl7x9OerII6goO5VFjzc17IK5nHHa8fi9phX_Pm5lCoSPsPN0KOo7uVjqBNAxZc0t1X5AOj4hZNetOen61EVDRBruwQIPJBpIosY0hQP95-BsrBm8F9ILMCiJuJ3dpXWfh3gYrDNAJ-GrC9qOQ-a9aT9zFpRsvOUly95he_6sY8mjjg&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+      "price": "medium",
+      "distanceFromCenter": 1.0,
+      "bestTime": "09:00 - 18:00",
+      "bestTime_en": "09:00 - 18:00",
+      "tips": "Pazar günleri kapalı olabilir, kontrol edin.",
+      "tips_en": "Might be closed on Sundays, do check."
+    },
+    {
+      "name": "Revontuli Shopping Centre",
+      "category": "Alışveriş",
+      "tags": [
+        "mall",
+        "fashion",
+        "entertainment"
+      ],
+      "lat": 66.503,
+      "lng": 25.728,
+      "rating": 4.3,
+      "description": "Moda, eğlence ve restoranların bulunduğu AVM. Bölgeye özgü ürünleri keşfetmek ve sevdiklerinize hediyeler almak için uğramanız gereken bir yer. Renkli dükkanlar ve canlı atmosfer, alışveriş deneyiminizi çok daha keyifli hale getirecek.",
+      "description_en": "Mall with fashion, entertainment and restaurants. A place you must stop by to discover region-specific products and buy gifts for your loved ones. Colorful shops and a lively atmosphere will make your shopping experience much more enjoyable.",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AZLasHp6x5GWaq3XnkVJUzFnScdWy0QOhnXlGdProkPHexP51DgkXuWSa2LzVaI8VO2YGxYeIGzR85BMGhUkfI9tPAKmta64bQOog9LG-VRaO_zg8X-f349o6BitsnKaB34jtLF9LamjA-W34Q-JcFeqUpd5Or8cUnkHO8qsb2zc3XsJqQGZUeVQMbORApW_5YX7UUgsGOcxes9APdDiGVxsQ_-28nB3Vd-0yNue0c129W7-8-XunkY75RhAeUMaege7qOCU2aqLqER5tXNMTqe4NgBwuP_gb9ISJuRRWdQiHF6Dkp9eFSk&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+      "price": "medium",
+      "distanceFromCenter": 1.0,
+      "bestTime": "09:00 - 18:00",
+      "bestTime_en": "09:00 - 18:00",
+      "tips": "Pazarlık yapmayı deneyebilirsiniz (nazikçe).",
+      "tips_en": "You might try bargaining (politely)."
+    },
+    {
+      "name": "Lapin Kultakaivos Gold Mine Gift Shop",
+      "category": "Alışveriş",
+      "tags": [
+        "souvenirs",
+        "gold",
+        "local"
+      ],
+      "lat": 66.5035,
+      "lng": 25.731,
+      "rating": 4.4,
+      "description": "Laponya'dan altın ve yerel hediyelik eşyalar. Bölgeye özgü ürünleri keşfetmek ve sevdiklerinize hediyeler almak için uğramanız gereken bir yer. Renkli dükkanlar ve canlı atmosfer, alışveriş deneyiminizi çok daha keyifli hale getirecek.",
+      "description_en": "Lapland gold and local souvenirs. A place you must stop by to discover region-specific products and buy gifts for your loved ones. Colorful shops and a lively atmosphere will make your shopping experience much more enjoyable.",
+      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AZLasHoUHgAs7vN2RNyfpkIrduT9BD3MysYjHQtDLkZR1Vn43I_-eSBpfH50dPQkcI4GCI7unFxpypGuFST1glg-sTy5SPIBG1BpDBXm8uMEED9QV0HrizCp93s6gv58LY4nXKHnWXOUzzGlJXZ4wVka67unE1QAWVS4Eh-2ACOG3Fh-fvcqfKGo7YVqUCHEaJU46uZy4kj2x55OmF0vlq7fifu2AzvHxemkPnKaOZI3eJNsVaOYBTjMQNE5sB_UwpTjsBpccCvqJ1-_RpbQEceKByhrngskhzQ2BnDnUjbR9YKyo0vtcKI&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+      "price": "medium",
+      "distanceFromCenter": 1.0,
+      "bestTime": "09:00 - 18:00",
+      "bestTime_en": "09:00 - 18:00",
+      "tips": "Tax-free formunu istemeyi unutmayın.",
+      "tips_en": "Don't forget to ask for the Tax-free form."
+    },
+    {
+      "id": "santa-claus-office",
+      "name": "Santa Claus Office",
+      "category": "Görülmesi Gereken Yerler",
+      "tags": [
+        "santa",
+        "christmas",
+        "meet"
+      ],
+      "lat": 66.5434901,
+      "lng": 25.8479321,
+      "rating": 4.6,
+      "description": "Noel Baba ile tanışıp fotoğraf çektirebileceğiniz resmi ofis. Her gün açıktır ve dünyanın her yerinden ziyaretçi ağırlar.",
+      "description_en": "The official office where you can meet Santa Claus and take photos. It is open every day and welcomes visitors from all over the world.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/santa-claus-office.jpg",
+      "price": "free",
+      "tips": "Sıra beklememek için sabah erken veya akşam geç saatlerde gidin.",
+      "tips_en": "Go early in the morning or late in the evening to avoid queues.",
+      "subcategory": "Noel Baba"
+    },
+    {
+      "id": "santa-claus-main-post-office",
+      "name": "Santa Claus Main Post Office",
+      "category": "Görülmesi Gereken Yerler",
+      "tags": [
+        "postcards",
+        "stamps",
+        "letters"
+      ],
+      "lat": 66.5436237,
+      "lng": 25.8456035,
+      "rating": 4.7,
+      "description": "Özel Kuzey Kutbu damgasıyla mektup ve kartpostal gönderebileceğiniz büyülü postane.",
+      "description_en": "A magical post office where you can send letters and postcards with a special Arctic Circle postmark.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/santa-claus-main-post-office.jpg",
+      "price": "low",
+      "tips": "Gelecek Noel için teslim edilmek üzere kart atabilirsiniz.",
+      "tips_en": "You can send a card to be delivered for next Christmas.",
+      "subcategory": "Postane"
+    },
+    {
+      "id": "arctic-circle-line",
+      "name": "Arctic Circle Line",
+      "category": "Görülmesi Gereken Yerler",
+      "tags": [
+        "photo op",
+        "geographic",
+        "line"
+      ],
+      "lat": 66.5435068,
+      "lng": 25.8468584,
+      "rating": 4.8,
+      "description": "Kuzey Kutup Dairesi'nin (66°33′45.9″) geçtiği noktayı işaretleyen, fotoğraf çekilmek için popüler çizgi.",
+      "description_en": "Popular line for photos marking the point where the Arctic Circle (66°33′45.9″) passes.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/arctic-circle-line.jpg",
+      "price": "free",
+      "tips": "Çizginin üzerinden atlarken fotoğraf çekmek bir klasiktir.",
+      "tips_en": "Jumping over the line while taking a photo is a classic.",
+      "subcategory": "Anıt"
+    },
+    {
+      "id": "snowman-world",
+      "name": "Snowman World",
+      "category": "Eğlence",
+      "tags": [
+        "ice slide",
+        "ice bar",
+        "snow"
+      ],
+      "lat": 66.5426492,
+      "lng": 25.8458962,
+      "rating": 4.2,
+      "description": "Kuzey Kutup Dairesi'ndeki kardan adam temalı buz dünyası, buz bar, buz heykeller ve kış aktiviteleri. Sıcak içecekler, buz kızağı ve çocuklar için eğlence.",
+      "description_en": "Snowman-themed ice world at Arctic Circle with ice bar, ice sculptures, and winter activities. Hot drinks, ice sledding, and fun for children.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/snowman-world.jpg",
+      "price": "high",
+      "tips": "Bilet tüm gün geçerlidir, girip çıkabilirsiniz.",
+      "tips_en": "Ticket is valid all day, you can enter and exit.",
+      "subcategory": "Kar Parkı"
+    },
+    {
+      "id": "elfs-farm-yard",
+      "name": "Elf's Farm Yard",
+      "category": "Park",
+      "tags": [
+        "reindeer",
+        "alpaca",
+        "kids"
+      ],
+      "lat": 66.5434518,
+      "lng": 25.8520391,
+      "rating": 4.5,
+      "description": "Ren geyikleri, alpakalar ve diğer çiftlik hayvanlarını besleyip sevebileceğiniz sevimli çiftlik.",
+      "description_en": "Cute farm where you can feed and pet reindeer, alpacas and other farm animals.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/elfs-farm-yard.jpg",
+      "price": "medium",
+      "tips": "Çocuklar için midilli gezintisi yapılabilir.",
+      "tips_en": "Pony rides are available for children.",
+      "subcategory": "Hayvanat Bahçesi"
+    },
+    {
+      "id": "santas-igloos-arctic-circle",
+      "name": "Santa's Igloos Arctic Circle",
+      "category": "Konaklama",
+      "tags": [
+        "igloo",
+        "glass roof",
+        "aurora"
+      ],
+      "lat": 66.5432932,
+      "lng": 25.8609811,
+      "rating": 4.6,
+      "description": "Cam tavanlı iglo konaklama, yataktan Kuzey Işıkları izleme fırsatı. Büyülü kış deneyimi, aurora borealis ve romantik gece.",
+      "description_en": "Glass-roofed igloo accommodation with opportunity to watch Northern Lights from bed. Magical winter experience, aurora borealis, and romantic night.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/santas-igloos-arctic-circle.jpg",
+      "price": "high",
+      "tips": "Aurora alarmı sistemleri vardır, açmayı unutmayın.",
+      "tips_en": "They have Aurora alarm systems, don't forget to turn it on.",
+      "subcategory": "Otel"
+    },
+    {
+      "id": "nova-skyland-hotel",
+      "name": "Nova Skyland Hotel",
+      "category": "Konaklama",
+      "tags": [
+        "luxury",
+        "modern",
+        "forest"
+      ],
+      "lat": 66.54139599999999,
+      "lng": 25.8480039,
+      "rating": 4.8,
+      "description": "Modern tasarımlı cam kulübe konaklama, Lapon doğasında lüks ve konfor. Kuzey Işıkları, sauna ve kış maceraları merkezi.",
+      "description_en": "Modern design glass cabin accommodation with luxury and comfort in Lappish nature. Northern Lights, sauna, and winter adventures center.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/nova-skyland-hotel.jpg",
+      "price": "high",
+      "tips": "Restoranı akşam yemeği için dışarıdan misafir de kabul eder.",
+      "tips_en": "Its restaurant accepts outside guests for dinner.",
+      "subcategory": "Otel"
+    },
+    {
+      "id": "santas-salmon-place",
+      "name": "Santa's Salmon Place",
+      "category": "Restoran",
+      "tags": [
+        "salmon",
+        "fire",
+        "teepee"
+      ],
+      "lat": 66.542902,
+      "lng": 25.8545753,
+      "rating": 4.9,
+      "description": "Geleneksel bir çadırda (kota) açık ateşte pişirilen taze somon balığı sunan efsanevi restoran.",
+      "description_en": "Legendary restaurant serving fresh salmon cooked on open fire in a traditional tent (kota).",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/santas-salmon-place.jpg",
+      "price": "medium",
+      "tips": "Menüde sadece somon ve patates salatası vardır ama dünyanın en iyisidir.",
+      "tips_en": "Menu only maintains salmon and potato salad but it's the best in the world.",
+      "subcategory": "Yerel"
+    },
+    {
+      "id": "three-elves-restaurant",
+      "name": "Three Elves Restaurant",
+      "category": "Restoran",
+      "tags": [
+        "reindeer burger",
+        "cozy",
+        "bar"
+      ],
+      "lat": 66.543092,
+      "lng": 25.844733,
+      "rating": 4.4,
+      "description": "Noel Baba Köyü'nde geleneksel Lapon ve Finlandiya mutfağı sunan restoran. Ren geyiği eti, somon ve kış lezzetleri.",
+      "description_en": "Restaurant serving traditional Lappish and Finnish cuisine in Santa Claus Village. Reindeer meat, salmon, and winter flavors.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/three-elves-restaurant.jpg",
+      "price": "medium",
+      "tips": "Poronkäristys (sote geyik eti) denemelisiniz.",
+      "tips_en": "You must try Poronkäristys (sautéed reindeer).",
+      "subcategory": "Lapon"
+    },
+    {
+      "id": "loft-cafe",
+      "name": "Loft Cafe",
+      "category": "Kafe",
+      "tags": [
+        "coffee",
+        "cakes",
+        "relax"
+      ],
+      "lat": 66.5439566,
+      "lng": 25.8485293,
+      "rating": 4.3,
+      "description": "Şehir merkezinde modern kafe, specialty coffee ve Finlandiya tarzı brunch. Rahat atmosfer, yerel lezzetler ve kahve kültürü.",
+      "description_en": "Modern cafe in city center with specialty coffee and Finnish-style brunch. Relaxed atmosphere, local flavors, and coffee culture.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/loft-cafe.jpg",
+      "price": "medium",
+      "tips": "Büyük pencerelerinden köy meydanını izleyebilirsiniz.",
+      "tips_en": "You can watch the village square from its large windows.",
+      "subcategory": "Kafe"
+    },
+    {
+      "id": "roosevelt-cottage",
+      "name": "Roosevelt Cottage",
+      "category": "Tarihi",
+      "tags": [
+        "history",
+        "first building",
+        "eleanor roosevelt"
+      ],
+      "lat": 66.54380610000001,
+      "lng": 25.8459338,
+      "rating": 4.5,
+      "description": "Kuzey Kutup Dairesi'ndeki ilk bina, Eleanor Roosevelt'in 1950 ziyareti için inşa edilmiştir.",
+      "description_en": "The first building at the Arctic Circle, built for Eleanor Roosevelt's visit in 1950.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/roosevelt-cottage.jpg",
+      "price": "free",
+      "tips": "İçinde küçük bir sergi ve tarihçe vardır.",
+      "tips_en": "There is a small exhibition and history inside.",
+      "subcategory": "Kulübe"
+    },
+    {
+      "id": "santa-claus-reindeer",
+      "name": "Santa Claus Reindeer",
+      "category": "Deneyim",
+      "tags": [
+        "sleigh ride",
+        "reindeer",
+        "winter"
+      ],
+      "lat": 66.5425532,
+      "lng": 25.8489523,
+      "rating": 4.6,
+      "description": "Ren geyiği çiftliği ve safari deneyimi, ren geyiği kızağı turu ve hayvanlarla tanışma. Lapon kültürü, beslemeler ve fotoğraf fırsatı.",
+      "description_en": "Reindeer farm and safari experience with reindeer sleigh tour and meeting animals. Lappish culture, feeding, and photo opportunity.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/santa-claus-reindeer.jpg",
+      "price": "medium",
+      "tips": "400 metrelik kısa tur bile fotoğraf çekmek için yeterlidir.",
+      "tips_en": "Even the 400-meter short tour is enough for taking photos.",
+      "subcategory": "Aktivite"
+    },
+    {
+      "id": "husky-park",
+      "name": "Husky Park",
+      "category": "Deneyim",
+      "tags": [
+        "huskies",
+        "safari",
+        "dogs"
+      ],
+      "lat": 66.543815,
+      "lng": 25.8539961,
+      "rating": 4.7,
+      "description": "Husky köpek kızağı turu ve çiftlik ziyareti, Alaskan malamute ve husky'lerle tanışma. Macera dolu kış aktivitesi ve hayvan sevgisi.",
+      "description_en": "Husky dog sled tour and farm visit, meeting Alaskan malamutes and huskies. Adventure-filled winter activity and animal love.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/husky-park.jpg",
+      "price": "high",
+      "tips": "Köpekleri sevmek için 'Hug Visit' (Sarılma ziyareti) bileti alabilirsiniz.",
+      "tips_en": "You can buy a 'Hug Visit' ticket just to pet the dogs.",
+      "subcategory": "Aktivite"
+    },
+    {
+      "id": "arctic-circle-snowmobile-park",
+      "name": "Arctic Circle Snowmobile Park",
+      "category": "Deneyim",
+      "tags": [
+        "snowmobile",
+        "safari",
+        "adrenaline"
+      ],
+      "lat": 66.5429501,
+      "lng": 25.8504309,
+      "rating": 4.8,
+      "description": "Kar motoru safari ve kış maceraları merkezi, orman turları ve gece safari'leri. Adrenalin, Lapon doğası ve kar deneyimi.",
+      "description_en": "Snowmobile safari and winter adventures center with forest tours and night safaris. Adrenaline, Lappish nature, and snow experience.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/arctic-circle-snowmobile-park.jpg",
+      "price": "high",
+      "tips": "Çocuklar için mini kar motorları mevcuttur.",
+      "tips_en": "Mini snowmobiles are available for children.",
+      "subcategory": "Aktivite"
+    },
+    {
+      "id": "mrs-santa-claus-christmas-cottage",
+      "name": "Mrs. Santa Claus Christmas Cottage",
+      "category": "Görülmesi Gereken Yerler",
+      "tags": [
+        "mrs santa",
+        "stories",
+        "cozy"
+      ],
+      "lat": 66.54264669999999,
+      "lng": 25.8488776,
+      "rating": 4.5,
+      "description": "Noel Anne'nin şirin evi, zencefilli kurabiye yapma atölyesi ve kış masalı. Aileler için aktivite, sıcak çikolata ve Noel ruhu.",
+      "description_en": "Mrs. Santa Claus's charming house with gingerbread cookie making workshop and winter fairy tale. Activity for families, hot chocolate, and Christmas spirit.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/mrs-santa-claus-christmas-cottage.jpg",
+      "price": "medium",
+      "tips": "Noel Anne'nin kurabiyeleri meşhurdur.",
+      "tips_en": "Mrs. Santa's cookies are famous.",
+      "subcategory": "Noel Baba"
+    },
+    {
+      "id": "santas-pizza-burger",
+      "name": "Santa's Pizza & Burger",
+      "category": "Restoran",
+      "tags": [
+        "pizza",
+        "burger",
+        "quick"
+      ],
+      "lat": 66.544394,
+      "lng": 25.8515121,
+      "rating": 4.1,
+      "description": "Noel Baba Köyü'nde casual yeme-içme mekanı, hamburger ve pizza seçenekleri. Aileler için pratik öğle yemeği, çocuk dostu menü.",
+      "description_en": "Casual dining venue in Santa Claus Village with hamburger and pizza options. Practical lunch for families, child-friendly menu.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/santas-pizza-burger.jpg",
+      "price": "medium",
+      "tips": "Pizzaları oldukça büyüktür, paylaşabilirsiniz.",
+      "tips_en": "Pizzas are quite large, you can share.",
+      "subcategory": "Fast Food"
+    },
+    {
+      "id": "iisakki-glass-village",
+      "name": "Iisakki Glass Village",
+      "category": "Konaklama",
+      "tags": [
+        "glass villas",
+        "luxury",
+        "private"
+      ],
+      "lat": 66.12875679999999,
+      "lng": 29.230814,
+      "rating": 4.7,
+      "description": "Cam iglo köyü ve resort, Kuzey Işıkları izleme ve lüks konaklama. Aurora hunting turları, sauna ve nordik wellness.",
+      "description_en": "Glass igloo village and resort with Northern Lights viewing and luxury accommodation. Aurora hunting tours, sauna, and Nordic wellness.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/iisakki-glass-village.jpg",
+      "price": "high",
+      "tips": "Kendi mutfağı olduğu için uzun konaklamalara uygundur.",
+      "tips_en": "Suitable for long stays as it has its own kitchen.",
+      "subcategory": "Otel"
+    },
+    {
+      "id": "wild-nordic-finland",
+      "name": "Wild Nordic Finland",
+      "category": "Deneyim",
+      "tags": [
+        "safari",
+        "wilderness",
+        "guide"
+      ],
+      "lat": 66.54546239999999,
+      "lng": 25.8507064,
+      "rating": 4.6,
+      "description": "Doğa turları ve safari organizatörü, vahşi yaşam fotoğrafçılığı ve macera. Ayı gözlemi, kuş gözlemciliği ve ekolojik turizm.",
+      "description_en": "Nature tours and safari organizer with wildlife photography and adventure. Bear watching, bird watching, and ecological tourism.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/wild-nordic-finland.jpg",
+      "price": "high",
+      "tips": "Gece düzenlenen Aurora safarileri çok popülerdir.",
+      "tips_en": "Night Aurora safaris are very popular.",
+      "subcategory": "Tur"
+    },
+    {
+      "id": "balmuir-store-arctic-circle",
+      "name": "Balmuir Store Arctic Circle",
+      "category": "Alışveriş",
+      "tags": [
+        "design",
+        "fashion",
+        "luxury"
+      ],
+      "lat": 65.0125376,
+      "lng": 25.4678342,
+      "rating": 4.5,
+      "description": "Finlandiya'nın premium ev tekstili markasının mağazası, kaşmir ve lüks ürünler. Nordik tasarım, hediye seçenekleri ve kalite.",
+      "description_en": "Store of Finland's premium home textile brand with cashmere and luxury products. Nordic design, gift options, and quality.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/balmuir-store-arctic-circle.jpg",
+      "price": "high",
+      "tips": "Tiftik (mohair) atkıları çok kalitelidir.",
+      "tips_en": "Mohair scarves are very high quality.",
+      "subcategory": "Butik"
+    },
+    {
+      "id": "marttiini-knife-shop",
+      "name": "Marttiini Knife Shop",
+      "category": "Alışveriş",
+      "tags": [
+        "knives",
+        "traditional",
+        "souvenir"
+      ],
+      "lat": 66.5029177,
+      "lng": 25.7253788,
+      "rating": 4.8,
+      "description": "Finlandiya'nın efsanevi bıçak markasının, isme özel kazıma yapılabilen mağazası.",
+      "description_en": "Store of Finland's legendary knife brand, where name engraving can be done.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/marttiini-knife-shop.jpg",
+      "price": "medium",
+      "tips": "Bıçağın sapına ücretsiz isim yazdırabilirsiniz.",
+      "tips_en": "You can get a name engraved on the knife handle for free.",
+      "subcategory": "Bıçak"
+    },
+    {
+      "id": "valley-of-snowmen",
+      "name": "Valley of Snowmen",
+      "category": "Eğlence",
+      "tags": [
+        "snowmen",
+        "winter",
+        "walk"
+      ],
+      "lat": 66.5426492,
+      "lng": 25.8458962,
+      "rating": 4.3,
+      "description": "Kardan adam temalı eğlence alanı, buz pateni pisti ve kar aktiviteleri. Kış festivali atmosferi, aileler için eğlence.",
+      "description_en": "Snowman-themed entertainment area with ice skating rink and snow activities. Winter festival atmosphere, entertainment for families.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/valley-of-snowmen.jpg",
+      "price": "medium",
+      "tips": "Sadece kış sezonunda açıktır.",
+      "tips_en": "Open only in winter season.",
+      "subcategory": "Park"
+    },
+    {
+      "id": "lapland-restaurant-kotahovi",
+      "name": "Lapland Restaurant Kotahovi",
+      "category": "Restoran",
+      "tags": [
+        "reindeer farm",
+        "traditional",
+        "lunch"
+      ],
+      "lat": 66.54263750000001,
+      "lng": 25.8474632,
+      "rating": 4.6,
+      "description": "Santa Claus Reindeer tesisinin içinde, geleneksel Lapon yemekleri sunan restoran.",
+      "description_en": "Restaurant serving traditional Lappish dishes inside the Santa Claus Reindeer facility.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/lapland-restaurant-kotahovi.jpg",
+      "price": "medium",
+      "tips": "Öğle yemeği için idealdir, ren geyiklerini izleyebilirsiniz.",
+      "tips_en": "Ideal for lunch, you can watch the reindeer.",
+      "subcategory": "Lapon"
+    },
+    {
+      "id": "christmas-house-restaurant-coffee-bar",
+      "name": "Christmas House Restaurant & Coffee Bar",
+      "category": "Restoran",
+      "tags": [
+        "buffet",
+        "large",
+        "family"
+      ],
+      "lat": 66.5430344,
+      "lng": 25.8423489,
+      "rating": 4.0,
+      "description": "Noel temalı restoran ve kafe, Finlandiya tatlıları ve sıcak içecekler. Tatil ruhu, Noel dekorasyonu ve mevsimlik lezzetler.",
+      "description_en": "Christmas-themed restaurant and cafe with Finnish desserts and hot drinks. Holiday spirit, Christmas decorations, and seasonal flavors.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/christmas-house-restaurant-coffee-bar.jpg",
+      "price": "medium",
+      "tips": "Fiyatları köye göre makuldür.",
+      "tips_en": "Prices are reasonable for the village.",
+      "subcategory": "Açık Büfe"
+    },
+    {
+      "id": "pentik-arctic-circle",
+      "name": "Pentik Arctic Circle",
+      "category": "Alışveriş",
+      "tags": [
+        "ceramics",
+        "design",
+        "interior"
+      ],
+      "lat": 66.5433063,
+      "lng": 25.8470596,
+      "rating": 4.6,
+      "description": "Finlandiya seramik ve ev dekorasyonu markasının mağazası. El yapımı çanak çömlek, nordik tasarım ve hediyelik ürünler.",
+      "description_en": "Store of Finnish ceramic and home decoration brand. Handmade pottery, Nordic design, and gift products.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/pentik-arctic-circle.jpg",
+      "price": "medium",
+      "tips": "Kırılmayacak şekilde paketleme yapıyorlar.",
+      "tips_en": "They pack it so it won't break.",
+      "subcategory": "Tasarım"
+    },
+    {
+      "id": "marimekko-outlet",
+      "name": "Marimekko Outlet",
+      "category": "Alışveriş",
+      "tags": [
+        "design",
+        "clothing",
+        "patterns"
+      ],
+      "lat": 66.5435998,
+      "lng": 25.8480533,
+      "rating": 4.5,
+      "description": "İkonik Finlandiya moda markasının outlet mağazası, desenli tekstiller ve giyim. Cesur renkler, Finlandiya stili ve indirimli ürünler.",
+      "description_en": "Outlet store of iconic Finnish fashion brand with patterned textiles and clothing. Bold colors, Finnish style, and discounted products.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/marimekko-outlet.jpg",
+      "price": "medium",
+      "tips": "İndirimli ürünler bulabilirsiniz.",
+      "tips_en": "You can find discounted products.",
+      "subcategory": "Moda"
+    },
+    {
+      "id": "apukka-resort",
+      "name": "Apukka Resort",
+      "category": "Konaklama",
+      "tags": [
+        "ice cabins",
+        "aurora wagon",
+        "activities"
+      ],
+      "lat": 66.5783616,
+      "lng": 26.0153996,
+      "rating": 4.7,
+      "description": "Kuzey ışıkları vagonları ve buz kabinleriyle ünlü, aktiviteler sunan büyük bir tesis.",
+      "description_en": "Large resort famous for northern lights wagons and ice cabins, offering activities.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/apukka-resort.jpg",
+      "price": "high",
+      "tips": "Şehirden servisle ulaşım sağlanabilir.",
+      "tips_en": "Transportation from the city can be provided by shuttle.",
+      "subcategory": "Resort"
+    },
+    {
+      "id": "santa-claus-holiday-village",
+      "name": "Santa Claus Holiday Village",
+      "category": "Konaklama",
+      "tags": [
+        "cabins",
+        "central",
+        "sauna"
+      ],
+      "lat": 66.543419,
+      "lng": 25.8442675,
+      "rating": 4.6,
+      "description": "Noel Baba Köyü'ndeki konaklama ve aktivite merkezi, Noel temalı odalar ve safari turları. Aile tatili, kış maceraları ve Noel büyüsü.",
+      "description_en": "Accommodation and activity center in Santa Claus Village with Christmas-themed rooms and safari tours. Family vacation, winter adventures, and Christmas magic.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/santa-claus-holiday-village.jpg",
+      "price": "high",
+      "tips": "Resepsiyonu 24 saat açıktır.",
+      "tips_en": "Reception is open 24 hours.",
+      "subcategory": "Kır Evi"
+    },
+    {
+      "id": "shell-helmi-simpukka-napapiiri",
+      "name": "Shell Helmi Simpukka Napapiiri",
+      "category": "Restoran",
+      "tags": [
+        "24 hours",
+        "coffee",
+        "meatballs"
+      ],
+      "lat": 66.544332,
+      "lng": 25.8434169,
+      "rating": 4.2,
+      "description": "7/24 açık olan, meşhur Fin köftesi yiyebileceğiniz benzin istasyonu ve restoran.",
+      "description_en": "Gas station and restaurant open 24/7 where you can eat famous Finnish meatballs.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/shell-helmi-simpukka-napapiiri.jpg",
+      "price": "low",
+      "tips": "Gece geç saatte açık tek yer olabilir.",
+      "tips_en": "Might be the only place open late at night.",
+      "subcategory": "Kafeterya"
+    },
+    {
+      "id": "arctic-circle-information",
+      "name": "Arctic Circle Information",
+      "category": "Hizmet",
+      "tags": [
+        "info",
+        "certificates",
+        "help"
+      ],
+      "lat": 66.5439676,
+      "lng": 25.8473226,
+      "rating": 4.4,
+      "description": "Kuzey Kutup Dairesi geçiş sertifikası alabileceğiniz ve bilgi edinebileceğiniz ofis.",
+      "description_en": "Office where you can get the Arctic Circle crossing certificate and information.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/arctic-circle-information.jpg",
+      "price": "free",
+      "tips": "Pasaportunuza 'Arctic Circle' damgası vurdurabilirsiniz (ücretli olabilir).",
+      "tips_en": "You can get an 'Arctic Circle' stamp on your passport (might be paid).",
+      "subcategory": "Turizm Ofisi"
+    },
+    {
+      "id": "glass-resort",
+      "name": "Glass Resort",
+      "category": "Konaklama",
+      "tags": [
+        "glass apartments",
+        "private jacuzzi",
+        "luxury"
+      ],
+      "lat": 66.5412528,
+      "lng": 25.849966,
+      "rating": 4.9,
+      "description": "Her dairesinde özel dış mekan jakuzisi bulunan, cam duvarlı ultra lüks konaklama.",
+      "description_en": "Ultra-luxury accommodation with glass walls, each apartment having a private outdoor jacuzzi.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/glass-resort.jpg",
+      "price": "very high",
+      "tips": "Kar yağarken sıcak jakuziye girmek eşsizdir.",
+      "tips_en": "Entering the hot jacuzzi while it's snowing is unique.",
+      "subcategory": "Otel"
+    },
+    {
+      "id": "lumberjacks-candle-bridge-jtknkynttil",
+      "name": "Lumberjack's Candle Bridge (Jätkänkynttilä)",
+      "category": "Görülmesi Gereken Yerler",
+      "tags": [
+        "landmark",
+        "river",
+        "view"
+      ],
+      "lat": 66.50291299999999,
+      "lng": 25.7423684,
+      "rating": 4.7,
+      "description": "Kemijoki Nehri üzerindeki ikonik aydınlatmalı köprü, şehrin simgesi. Gece yürüyüşü, nehir manzarası ve fotoğraf için ideal.",
+      "description_en": "Iconic illuminated bridge over Kemijoki River, city symbol. Ideal for night walk, river views, and photography.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/lumberjacks-candle-bridge-jtknkynttil.jpg",
+      "price": "free",
+      "tips": "Gece ışıklandırmasında fotoğraf çekin.",
+      "tips_en": "Take photos under the night illumination.",
+      "subcategory": "Köprü"
+    },
+    {
+      "id": "rovaniemi-library",
+      "name": "Rovaniemi Library",
+      "category": "Kültür",
+      "tags": [
+        "alvar aalto",
+        "architecture",
+        "books"
+      ],
+      "lat": 66.4965825,
+      "lng": 25.7225476,
+      "rating": 4.6,
+      "description": "Ünlü mimar Alvar Aalto tarafından tasarlanan, mimari şaheser niteliğindeki kütüphane.",
+      "description_en": "Library designed by famous architect Alvar Aalto, considered an architectural masterpiece.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/rovaniemi-library.jpg",
+      "price": "free",
+      "tips": "Fan şeklindeki mimari yapısını inceleyin.",
+      "tips_en": "Examine its fan-shaped architectural structure.",
+      "subcategory": "Kütüphane"
+    },
+    {
+      "id": "rovaniemi-city-hall",
+      "name": "Rovaniemi City Hall",
+      "category": "Görülmesi Gereken Yerler",
+      "tags": [
+        "alvar aalto",
+        "architecture",
+        "center"
+      ],
+      "lat": 66.5160405,
+      "lng": 25.6997791,
+      "rating": 4.2,
+      "description": "Alvar Aalto'nun tasarladığı modernist belediye binası, Finlandiya mimarisinin ikonu. Post-savaş yeniden inşa ve nordik tasarım.",
+      "description_en": "Modernist city hall designed by Alvar Aalto, icon of Finnish architecture. Post-war reconstruction and Nordic design.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/rovaniemi-city-hall.jpg",
+      "price": "free",
+      "tips": "Aalto merkezinin bir parçasıdır.",
+      "tips_en": "It is part of the Aalto center.",
+      "subcategory": "Bina"
+    },
+    {
+      "id": "lappia-hall",
+      "name": "Lappia Hall",
+      "category": "Kültür",
+      "tags": [
+        "alvar aalto",
+        "theater",
+        "concerts"
+      ],
+      "lat": 66.4970522,
+      "lng": 25.7211697,
+      "rating": 4.4,
+      "description": "Alvar Aalto'nun tasarladığı kültür merkezi, konser salonu ve tiyatro. Modernist mimari, kültürel etkinlikler ve Lapon sanatı.",
+      "description_en": "Cultural center designed by Alvar Aalto with concert hall and theater. Modernist architecture, cultural events, and Lappish art.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/lappia-hall.jpg",
+      "price": "medium",
+      "tips": "Çatısı Laponya dağlarını simgeler.",
+      "tips_en": "Its roof symbolizes the mountains of Lapland.",
+      "subcategory": "Tiyatro"
+    },
+    {
+      "id": "culture-house-wiljami",
+      "name": "Culture House Wiljami",
+      "category": "Kültür",
+      "tags": [
+        "events",
+        "culture",
+        "local"
+      ],
+      "lat": 66.4979848,
+      "lng": 25.7221387,
+      "rating": 4.1,
+      "description": "Yerel kültürel etkinliklere, sergilere ve performanslara ev sahipliği yapan kültür evi.",
+      "description_en": "Culture house hosting local cultural events, exhibitions, and performances.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/culture-house-wiljami.jpg",
+      "price": "varies",
+      "tips": "Girişindeki ilan panosunu kontrol edin.",
+      "tips_en": "Check the bulletin board at the entrance.",
+      "subcategory": "Etkinlik"
+    },
+    {
+      "id": "bio-rex-rovaniemi",
+      "name": "Bio Rex Rovaniemi",
+      "category": "Eğlence",
+      "tags": [
+        "movies",
+        "modern",
+        "comfort"
+      ],
+      "lat": 66.5020603,
+      "lng": 25.7291687,
+      "rating": 4.5,
+      "description": "Şehrin modern sinema kompleksi, uluslararası filmler ve Finlandiya yapımları. Popcorn, film geceleri ve eğlence.",
+      "description_en": "City's modern cinema complex with international films and Finnish productions. Popcorn, movie nights, and entertainment.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/bio-rex-rovaniemi.jpg",
+      "price": "medium",
+      "tips": "Filmler genellikle orijinal dilinde ve Fince altyazılıdır.",
+      "tips_en": "Movies are usually in original language with Finnish subtitles.",
+      "subcategory": "Sinema"
+    },
+    {
+      "id": "rinteenkulma-shopping-centre",
+      "name": "Rinteenkulma Shopping Centre",
+      "category": "Alışveriş",
+      "tags": [
+        "parking",
+        "supermarket",
+        "shops"
+      ],
+      "lat": 66.5027648,
+      "lng": 25.72517,
+      "rating": 4.1,
+      "description": "Şehir merkezindeki alışveriş merkezi, Finlandiya markaları ve günlük ihtiyaçlar. Moda, market ve kış ekipmanları.",
+      "description_en": "Shopping center in city center with Finnish brands and daily necessities. Fashion, market, and winter equipment.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/rinteenkulma-shopping-centre.jpg",
+      "price": "medium",
+      "tips": "Otoparkı geniştir.",
+      "tips_en": "Its parking lot is spacious.",
+      "subcategory": "AVM"
+    },
+    {
+      "id": "taiga-koru",
+      "name": "Taiga Koru",
+      "category": "Alışveriş",
+      "tags": [
+        "handmade",
+        "gold",
+        "lappish"
+      ],
+      "lat": 66.58840789999999,
+      "lng": 25.6479749,
+      "rating": 4.6,
+      "description": "El yapımı Lapon mücevherati ve takı dükkanı, geleneksel Sami tasarımları. Gümüş, ren geyiği boynuzu ve benzersiz hediyeler.",
+      "description_en": "Handmade Lappish jewelry and accessories shop with traditional Sami designs. Silver, reindeer antler, and unique gifts.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/taiga-koru.jpg",
+      "price": "high",
+      "tips": "Özel tasarım yüzükleri çok popülerdir.",
+      "tips_en": "Their custom design rings are very popular.",
+      "subcategory": "Mücevher"
+    },
+    {
+      "id": "lauri-historical-manor",
+      "name": "Lauri Historical Manor",
+      "category": "Tarihi",
+      "tags": [
+        "handicraft",
+        "log house",
+        "architecture"
+      ],
+      "lat": 66.50411079999999,
+      "lng": 25.7187242,
+      "rating": 4.5,
+      "description": "Tarihi Lapon çiftliği ve müze, geleneksel yaşam tarzı ve zanaat atölyeleri. Ahşap işçiliği, folklor ve Lapon kültürü.",
+      "description_en": "Historic Lappish farm and museum with traditional lifestyle and craft workshops. Woodworking, folklore, and Lappish culture.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/lauri-historical-manor.jpg",
+      "price": "free",
+      "tips": "Kendi bıçağınızı yapma atölyesine katılabilirsiniz.",
+      "tips_en": "You can join a workshop to make your own knife.",
+      "subcategory": "Konak"
+    },
+    {
+      "id": "rovaniemi-theater",
+      "name": "Rovaniemi Theater",
+      "category": "Kültür",
+      "tags": [
+        "performance",
+        "arts",
+        "local"
+      ],
+      "lat": 66.4970815,
+      "lng": 25.7211058,
+      "rating": 4.4,
+      "description": "Lappia Hall içinde yer alan, Kuzey Finlandiya'nın en büyük profesyonel tiyatrosu.",
+      "description_en": "The largest professional theater in Northern Finland, located in Lappia Hall.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/rovaniemi-theater.jpg",
+      "price": "medium",
+      "tips": "Fince bilmeseniz bile müzikalleri izleyebilirsiniz.",
+      "tips_en": "You can watch musicals even if you don't know Finnish.",
+      "subcategory": "Tiyatro"
+    },
+    {
+      "id": "curio",
+      "name": "Curio",
+      "category": "Alışveriş",
+      "tags": [
+        "design",
+        "interior",
+        "finnish"
+      ],
+      "lat": 66.5012179,
+      "lng": 25.734052,
+      "rating": 4.5,
+      "description": "Lapon el sanatları ve hediyelik eşya dükkanı, yerel sanatçıların eserleri. Özel tasarımlar, doğa ilhamı ve hatıra.",
+      "description_en": "Lappish handicrafts and souvenir shop with works of local artists. Special designs, nature inspiration, and memorabilia.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/curio.jpg",
+      "price": "high",
+      "tips": "İlginç hediyelik eşyalar bulabilirsiniz.",
+      "tips_en": "You can find interesting souvenirs.",
+      "subcategory": "Tasarım"
+    },
+    {
+      "id": "arctic-design-shop",
+      "name": "Arctic Design Shop",
+      "category": "Alışveriş",
+      "tags": [
+        "local designers",
+        "unique",
+        "souvenirs"
+      ],
+      "lat": 66.502682,
+      "lng": 25.7344444,
+      "rating": 4.7,
+      "description": "Finlandiya tasarımı ve nordik ürünlerin satıldığı konsept mağaza. Modern ev eşyaları, moda aksesuarları ve yaratıcı hediyeler.",
+      "description_en": "Concept store selling Finnish design and Nordic products. Modern home items, fashion accessories, and creative gifts.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/arctic-design-shop.jpg",
+      "price": "medium",
+      "tips": "Seri üretim olmayan özel parçalar için ideal.",
+      "tips_en": "Ideal for special pieces that are not mass-produced.",
+      "subcategory": "Tasarım"
+    },
+    {
+      "id": "mainostoimisto-seven-1",
+      "name": "Mainostoimisto Seven-1",
+      "category": "Hizmet",
+      "tags": [
+        "creative",
+        "design",
+        "local"
+      ],
+      "lat": 66.496742,
+      "lng": 25.6894459,
+      "rating": 4.0,
+      "description": "Yerel yaratıcı ajans ve tasarım stüdyosu, Lapon temalı işler ve projeler. Grafik tasarım, pazarlama ve yaratıcı endüstri.",
+      "description_en": "Local creative agency and design studio with Lappish-themed works and projects. Graphic design, marketing, and creative industry.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/mainostoimisto-seven-1.jpg",
+      "price": "n/a",
+      "tips": "Sadece dışarıdan görülebilir.",
+      "tips_en": "Only visible from outside.",
+      "subcategory": "Ofis"
+    },
+    {
+      "id": "poturi",
+      "name": "Poturi",
+      "category": "Alışveriş",
+      "tags": [
+        "pottery",
+        "handmade",
+        "workshop"
+      ],
+      "lat": 66.41736000000002,
+      "lng": 25.5740481,
+      "rating": 4.6,
+      "description": "Klasik Finlandiya yemekleri ve ev yapımı lezzetler sunan geleneksel restoran. Karjalanpiirakka, lohikeitto ve nordik mutfak.",
+      "description_en": "Traditional restaurant serving classic Finnish dishes and homemade flavors. Karelian pie, salmon soup, and Nordic cuisine.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/poturi.jpg",
+      "price": "medium",
+      "tips": "Seramik yapımını izleyebilirsiniz.",
+      "tips_en": "You can watch pottery making.",
+      "subcategory": "Çömlek"
+    },
+    {
+      "id": "piece-of-lapland",
+      "name": "Piece of Lapland",
+      "category": "Alışveriş",
+      "tags": [
+        "souvenirs",
+        "local",
+        "gifts"
+      ],
+      "lat": 66.5029471,
+      "lng": 25.7295449,
+      "rating": 4.3,
+      "description": "Lapon ürünleri ve gastronomi dükkanı, ren geyiği eti, meyve marmelatları. Yöresel lezzetler, gurme hediyeler ve Lapon mutfağı.",
+      "description_en": "Lappish products and gastronomy shop with reindeer meat and berry jams. Local flavors, gourmet gifts, and Lappish cuisine.",
+      "imageUrl": "",
+      "price": "medium",
+      "tips": "Magnet ve kupa çeşitleri boldur.",
+      "tips_en": "Plenty of magnet and mug varieties.",
+      "subcategory": "Hediyelik"
+    },
+    {
+      "id": "rovaniemi-tourist-information",
+      "name": "Rovaniemi Tourist Information",
+      "category": "Hizmet",
+      "tags": [
+        "info",
+        "maps",
+        "help"
+      ],
+      "lat": 66.50250869999999,
+      "lng": 25.7330334,
+      "rating": 4.5,
+      "description": "Şehir turizmiBürosu, geziBilgisi ve aktivite rezervasyonları. Haritalar, öneriler ve seyahat planlama yardımı.",
+      "description_en": "City tourism office with travel information and activity reservations. Maps, recommendations, and travel planning assistance.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/rovaniemi-tourist-information.jpg",
+      "price": "free",
+      "tips": "Personel çok yardımseverdir.",
+      "tips_en": "Staff is very helpful.",
+      "subcategory": "Turizm Ofisi"
+    },
+    {
+      "id": "arctic-warriors",
+      "name": "Arctic Warriors",
+      "category": "Alışveriş",
+      "tags": [
+        "herbs",
+        "superfood",
+        "local"
+      ],
+      "lat": 66.36250919999999,
+      "lng": 26.355241,
+      "rating": 4.8,
+      "description": "Macera turları ve outdoor aktiviteler organizatörü, hayatta kalma kursları. Doğa becerileri, kış kampı ve ekstrem deneyimler.",
+      "description_en": "Adventure tours and outdoor activities organizer with survival courses. Nature skills, winter camping, and extreme experiences.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/arctic-warriors.jpg",
+      "price": "medium",
+      "tips": "Enerji shotları çok etkilidir.",
+      "tips_en": "Energy shots are very effective.",
+      "subcategory": "Sağlık"
+    },
+    {
+      "id": "lapland-safaris-office",
+      "name": "Lapland Safaris Office",
+      "category": "Deneyim",
+      "tags": [
+        "safari",
+        "booking",
+        "tours"
+      ],
+      "lat": 66.5013951,
+      "lng": 25.7371828,
+      "rating": 4.5,
+      "description": "Laponya'nın en büyük safari operatörü, kar motoru, husky ve ren geyiği turları. Kuzey Işıkları avcılığı ve kış maceraları.",
+      "description_en": "Lapland's largest safari operator with snowmobile, husky, and reindeer tours. Northern Lights hunting and winter adventures.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/lapland-safaris-office.jpg",
+      "price": "high",
+      "tips": "Turlar buradan kalkar, kıyafet buradan temin edilir.",
+      "tips_en": "Tours depart from here, gear is provided here.",
+      "subcategory": "Tur"
+    },
+    {
+      "id": "nordic-unique-travels",
+      "name": "Nordic Unique Travels",
+      "category": "Deneyim",
+      "tags": [
+        "photography",
+        "aurora",
+        "small groups"
+      ],
+      "lat": 66.5020286,
+      "lng": 25.7301325,
+      "rating": 4.7,
+      "description": "Özel tasarım Laponya turları ve lüks seyahat deneyimleri. Butik safari, aurora turları ve kişiselleştirilmiş programlar.",
+      "description_en": "Custom-designed Lapland tours and luxury travel experiences. Boutique safari, aurora tours, and personalized programs.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/nordic-unique-travels.jpg",
+      "price": "high",
+      "tips": "Fotoğraf odaklı turları meşhurdur.",
+      "tips_en": "Their photo-focused tours are famous.",
+      "subcategory": "Tur"
+    },
+    {
+      "id": "santas-hotel-santa-claus",
+      "name": "Santa's Hotel Santa Claus",
+      "category": "Konaklama",
+      "tags": [
+        "central",
+        "classic",
+        "sauna"
+      ],
+      "lat": 66.5025947,
+      "lng": 25.7320278,
+      "rating": 4.3,
+      "description": "Şehir merkezinde Noel temalı otel, aile odaları ve restoran. Merkezi konum, Noel dekorasyonu ve konforlu konaklama.",
+      "description_en": "Christmas-themed hotel in city center with family rooms and restaurant. Central location, Christmas decoration, and comfortable accommodation.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/santas-hotel-santa-claus.jpg",
+      "price": "high",
+      "tips": "Kahvaltısı çok zengindir.",
+      "tips_en": "Its breakfast is very rich.",
+      "subcategory": "Otel"
+    },
+    {
+      "id": "scandic-rovaniemi-city",
+      "name": "Scandic Rovaniemi City",
+      "category": "Konaklama",
+      "tags": [
+        "modern",
+        "scandinavian",
+        "central"
+      ],
+      "lat": 66.50295510000001,
+      "lng": 25.7270839,
+      "rating": 4.4,
+      "description": "Şehir merkezinde modern zincir otel, iş ve leisure konukları için. Finlandiya kahvaltısı, sauna ve şehir manzarası.",
+      "description_en": "Modern chain hotel in city center for business and leisure guests. Finnish breakfast, sauna, and city views.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/scandic-rovaniemi-city.jpg",
+      "price": "high",
+      "tips": "Spor salonu ve saunası mevcuttur.",
+      "tips_en": "Gym and sauna are available.",
+      "subcategory": "Otel"
+    },
+    {
+      "id": "hostel-caf-koti",
+      "name": "Hostel Café Koti",
+      "category": "Konaklama",
+      "tags": [
+        "budget",
+        "stylish",
+        "cafe"
+      ],
+      "lat": 66.5012179,
+      "lng": 25.734052,
+      "rating": 4.6,
+      "description": "Bütçe dostu hostel ve kafe, backpacker'lar ve genç gezginler için. Ortak alanlar, kahve ve sosyal atmosfer.",
+      "description_en": "Budget-friendly hostel and cafe for backpackers and young travelers. Common areas, coffee, and social atmosphere.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/hostel-caf-koti.jpg",
+      "price": "low",
+      "tips": "Kahvaltıda sundukları yulaf lapası çok lezzetlidir.",
+      "tips_en": "The porridge they serve at breakfast is very delicious.",
+      "subcategory": "Hostel"
+    },
+    {
+      "id": "ounasvaara-winter-trail",
+      "name": "Ounasvaara Winter Trail",
+      "category": "Doğa",
+      "tags": [
+        "snowshoeing",
+        "forest",
+        "winter"
+      ],
+      "lat": 66.5015519,
+      "lng": 25.751097,
+      "rating": 4.8,
+      "description": "Kışın karda yürüyüş ve hedikle (snowshoe) gezinti için hazırlanmış, büyüleyici orman rotası.",
+      "description_en": "Enchanting forest route prepared for winter walking and snowshoeing.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/ounasvaara-winter-trail.jpg",
+      "price": "free",
+      "tips": "Rotadaki tabelaları takip edin, kaybolmayın.",
+      "tips_en": "Follow the signs on the route, don't get lost.",
+      "subcategory": "Yürüyüş"
+    },
+    {
+      "id": "arctic-circle-hiking-area",
+      "name": "Arctic Circle Hiking Area",
+      "category": "Doğa",
+      "tags": [
+        "hiking",
+        "rapids",
+        "bridges"
+      ],
+      "lat": 66.5953212,
+      "lng": 26.1190942,
+      "rating": 4.7,
+      "description": "Kuzey Kutup Dairesi üzerinde, nehir kenarında yürüyüş yolları ve asma köprüler sunan muazzam doğa alanı.",
+      "description_en": "Magnificent nature area offering riverside hiking trails and suspension bridges right on the Arctic Circle.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/arctic-circle-hiking-area.jpg",
+      "price": "free",
+      "tips": "Vaattunki tarafındaki 'Köngäs' yürüyüşü çok popülerdir.",
+      "tips_en": "The 'Köngäs' walk on the Vaattunki side is very popular.",
+      "subcategory": "Park"
+    },
+    {
+      "id": "koivusaari-nature-trail",
+      "name": "Koivusaari Nature Trail",
+      "category": "Doğa",
+      "tags": [
+        "birds",
+        "floating duckboards",
+        "river"
+      ],
+      "lat": 66.51589489999999,
+      "lng": 25.7443577,
+      "rating": 4.6,
+      "description": "Ounasjoki nehri üzerindeki adada, su üzerinde yüzen tahta yollarla gezilen doğa parkuru.",
+      "description_en": "Nature trail on an island in Ounasjoki river, traversed by floating wooden duckboards.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/koivusaari-nature-trail.jpg",
+      "price": "free",
+      "tips": "Kuş gözlemciliği için harikadır, dürbün alın.",
+      "tips_en": "Great for bird watching, take binoculars.",
+      "subcategory": "Ada"
+    },
+    {
+      "id": "kuninkaanlaavu-kings-lean-to",
+      "name": "Kuninkaanlaavu (King's Lean-to)",
+      "category": "Doğa",
+      "tags": [
+        "view",
+        "campfire",
+        "hiking"
+      ],
+      "lat": 66.5656917,
+      "lng": 25.696821,
+      "rating": 4.9,
+      "description": "Santavaara tepesinde, Ounasjoki nehrine bakan muhteşem manzaralı bir laavu (açık barınak).",
+      "description_en": "A laavu (lean-to) with magnificent views overlooking the Ounasjoki river on Santavaara hill.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/kuninkaanlaavu-kings-lean-to.jpg",
+      "price": "free",
+      "tips": "Yanınızda sosis götürüp ateşte pişirebilirsiniz.",
+      "tips_en": "You can bring sausages and cook them over the fire.",
+      "subcategory": "Manzara"
+    },
+    {
+      "id": "arktikum-beach-aurora-spot",
+      "name": "Arktikum Beach (Aurora Spot)",
+      "category": "Manzara",
+      "tags": [
+        "northern lights",
+        "river",
+        "photography"
+      ],
+      "lat": 66.5075683,
+      "lng": 25.7261042,
+      "rating": 4.8,
+      "description": "Şehir merkezine yürüme mesafesinde, Kuzey Işıkları'nı izlemek için en popüler ve karanlık nokta.",
+      "description_en": "Most popular and dark spot within walking distance to city center to watch the Northern Lights.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/arktikum-beach-aurora-spot.jpg",
+      "price": "free",
+      "tips": "Kış geceleri çok kalabalık olabilir.",
+      "tips_en": "Can be very crowded on winter nights.",
+      "subcategory": "Park"
+    },
+    {
+      "id": "ounasvaara-observation-tower",
+      "name": "Ounasvaara Observation Tower",
+      "category": "Manzara",
+      "tags": [
+        "panorama",
+        "city view",
+        "hike"
+      ],
+      "lat": 66.5023032,
+      "lng": 25.7666654,
+      "rating": 4.5,
+      "description": "Ounasvaara tepesindeki manzara kulesi, şehir ve orman panoraması. Kuzey Işıkları izleme noktası, fotoğrafçılık ve doğa.",
+      "description_en": "Observation tower on Ounasvaara hill with city and forest panorama. Northern Lights viewing point, photography, and nature.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/ounasvaara-observation-tower.jpg",
+      "price": "free",
+      "tips": "Merdivenleri biraz diktir.",
+      "tips_en": "Expect steep stairs.",
+      "subcategory": "Kule"
+    },
+    {
+      "id": "vikakongs-rapids",
+      "name": "Vikaköngäs Rapids",
+      "category": "Doğa",
+      "tags": [
+        "rapids",
+        "fishing",
+        "accessible"
+      ],
+      "lat": 66.61917439999999,
+      "lng": 26.189115,
+      "rating": 4.6,
+      "description": "Engelli dostu yürüyüş yolları olan, gürül gürül akan nehir ve asma köprü bölgesi.",
+      "description_en": "Rapids and suspension bridge area with accessible hiking trails.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/vikakongs-rapids.jpg",
+      "price": "free",
+      "tips": "Nehir kenarında piknik masaları vardır.",
+      "tips_en": "There are picnic tables by the river.",
+      "subcategory": "Nehir"
+    },
+    {
+      "id": "german-soldier-cemetery",
+      "name": "German Soldier Cemetery",
+      "category": "Tarihi",
+      "tags": [
+        "history",
+        "ww2",
+        "forest"
+      ],
+      "lat": 66.6259358,
+      "lng": 25.7932379,
+      "rating": 4.4,
+      "description": "Norvajärvi gölü kıyısında, ormanın içinde huzurlu ve hüzünlü bir İkinci Dünya Savaşı anıt mezarlığı.",
+      "description_en": "Peaceful and somber WWII memorial cemetery in the forest by Lake Norvajärvi.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/german-soldier-cemetery.jpg",
+      "price": "free",
+      "tips": "Girişindeki taş yapı çok etkileyicidir.",
+      "tips_en": "The stone structure at the entrance is very impressive.",
+      "subcategory": "Anıt"
+    },
+    {
+      "id": "kesrafla-sauna",
+      "name": "Kesärafla Sauna",
+      "category": "Deneyim",
+      "tags": [
+        "sauna",
+        "river swimming",
+        "terrace"
+      ],
+      "lat": 66.51107879999999,
+      "lng": 25.7886699,
+      "rating": 4.7,
+      "description": "Yazın nehir kenarında sauna keyfi yapıp, terasında yemek yiyebileceğiniz popüler mekan.",
+      "description_en": "Popular place where you can enjoy a sauna by the river in summer and eat on its terrace.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/kesrafla-sauna.jpg",
+      "price": "medium",
+      "tips": "Sadece yaz sezonunda açıktır.",
+      "tips_en": "Open only in summer season.",
+      "subcategory": "Sauna"
+    },
+    {
+      "id": "ounaskoski-beach",
+      "name": "Ounaskoski Beach",
+      "category": "Doğa",
+      "tags": [
+        "swimming",
+        "sand",
+        "summer"
+      ],
+      "lat": 66.50063089999999,
+      "lng": 25.7438127,
+      "rating": 4.3,
+      "description": "Kemijoki Nehri kıyısında şehir plajı, yaz aylarında yüzme ve güneşlenme. Piknik alanları, doğa ve nehir kenarı dinlenme.",
+      "description_en": "City beach by Kemijoki River for swimming and sunbathing in summer. Picnic areas, nature, and riverside relaxation.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/ounaskoski-beach.jpg",
+      "price": "free",
+      "tips": "Yazın güneş batmadığı için gece yarısı bile yüzebilirsiniz.",
+      "tips_en": "Since the sun doesn't set in summer, you can swim even at midnight.",
+      "subcategory": "Plaj"
+    },
+    {
+      "id": "santas-forest-joulukan-mets",
+      "name": "Santa's Forest (Joulukan Metsä)",
+      "category": "Doğa",
+      "tags": [
+        "christmas",
+        "magic",
+        "hidden"
+      ],
+      "lat": 66.539625,
+      "lng": 25.7995771,
+      "rating": 4.8,
+      "description": "Noel temalı doğa yürüyüş parkuru, Noel Baba'nın ormanında keşif. Aileler için aktivite, kar yürüyüşü ve masal atmosferi.",
+      "description_en": "Christmas-themed nature walking trail, exploration in Santa's forest. Activity for families, snow walking, and fairy-tale atmosphere.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/santas-forest-joulukan-mets.jpg",
+      "price": "high",
+      "tips": "Sadece özel turlarla gidilebilir.",
+      "tips_en": "Can only be visited with special tours.",
+      "subcategory": "Orman"
+    },
+    {
+      "id": "sky-ounasvaara-roof-terrace",
+      "name": "Sky Ounasvaara Roof Terrace",
+      "category": "Manzara",
+      "tags": [
+        "view",
+        "hotel",
+        "drinks"
+      ],
+      "lat": 66.5019808,
+      "lng": 25.7883219,
+      "rating": 4.6,
+      "description": "Lapland Hotels Sky Ounasvaara'nın çatısında, herkese açık muhteşem manzaralı teras.",
+      "description_en": "Roof terrace with magnificent views at Lapland Hotels Sky Ounasvaara, open to everyone.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/sky-ounasvaara-roof-terrace.jpg",
+      "price": "free",
+      "tips": "Buradan gün batımı veya aurora izlemek harikadır.",
+      "tips_en": "Watching sunset or aurora from here is great.",
+      "subcategory": "Teras"
+    },
+    {
+      "id": "rollohalli",
+      "name": "Rollohalli",
+      "category": "Eğlence",
+      "tags": [
+        "trampoline",
+        "parkour",
+        "kids"
+      ],
+      "lat": 66.51876469999999,
+      "lng": 25.7820269,
+      "rating": 4.5,
+      "description": "Trampolinler, parkur alanları ve kaykay rampalarıyla dolu kapalı aktivite parkı.",
+      "description_en": "Indoor activity park full of trampolines, parkour areas and skate ramps.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/rollohalli.jpg",
+      "price": "medium",
+      "tips": "Enerjik çocuklar için cennettir.",
+      "tips_en": "Paradise for energetic kids.",
+      "subcategory": "Park"
+    },
+    {
+      "id": "santasport-institute",
+      "name": "Santasport Institute",
+      "category": "Eğlence",
+      "tags": [
+        "pool",
+        "spa",
+        "bowling"
+      ],
+      "lat": 66.4971709,
+      "lng": 25.7673823,
+      "rating": 4.4,
+      "description": "Spor ve wellness merkezi, yüzme havuzu, spor salonu ve antrenman tesisleri. Finlandiya olimpik hazırlık merkezi, sağlıklı yaşam.",
+      "description_en": "Sports and wellness center with swimming pool, gym, and training facilities. Finnish Olympic preparation center, healthy living.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/santasport-institute.jpg",
+      "price": "medium",
+      "tips": "Yağmurlu veya çok soğuk günler için idealdir.",
+      "tips_en": "Ideal for rainy or very cold days.",
+      "subcategory": "Spor"
+    },
+    {
+      "id": "ounasvaara-summer-bobsleigh-track",
+      "name": "Ounasvaara Summer Bobsleigh Track",
+      "category": "Eğlence",
+      "tags": [
+        "speed",
+        "view",
+        "summer"
+      ],
+      "lat": 66.5070263,
+      "lng": 25.788123,
+      "rating": 4.7,
+      "description": "Yaz aylarında kızak pisti, yazın bile bobsled heyecanı. Aileler için eğlence, tepe aşağı hız ve macera.",
+      "description_en": "Summer bobsled track, bobsled excitement even in summer. Fun for families, downhill speed, and adventure.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/ounasvaara-summer-bobsleigh-track.jpg",
+      "price": "medium",
+      "tips": "Hızınızı frenle kendiniz ayarlayabilirsiniz.",
+      "tips_en": "You can adjust your speed yourself with the brake.",
+      "subcategory": "Aktivite"
+    },
+    {
+      "id": "kotisaari-island",
+      "name": "Kotisaari Island",
+      "category": "Tarihi",
+      "tags": [
+        "lumberjack",
+        "boat",
+        "history"
+      ],
+      "lat": 66.4872966,
+      "lng": 25.7331188,
+      "rating": 4.8,
+      "description": "Eski oduncuların kalesi olarak bilinen, sadece tekneyle ulaşılabilen tarihi ada.",
+      "description_en": "Historic island known as the stronghold of old lumberjacks, accessible only by boat.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/kotisaari-island.jpg",
+      "price": "high",
+      "tips": "Burada geleneksel oduncu yemekleri tadabilirsiniz.",
+      "tips_en": "You can taste traditional lumberjack meals here.",
+      "subcategory": "Ada"
+    },
+    {
+      "id": "bearhill-husky",
+      "name": "Bearhill Husky",
+      "category": "Deneyim",
+      "tags": [
+        "husky",
+        "ethical",
+        "forest"
+      ],
+      "lat": 66.613912,
+      "lng": 25.4924657,
+      "rating": 4.9,
+      "description": "Husky çiftliği ve köpek kızağı turları, samimi aile işletmesi. Husky tanışma, yavru köpekler ve kış macerası.",
+      "description_en": "Husky farm and dog sled tours, intimate family business. Meeting huskies, puppies, and winter adventure.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/bearhill-husky.jpg",
+      "price": "high",
+      "tips": "Şehirden biraz uzaktır ama transfer sağlarlar.",
+      "tips_en": "A bit far from city but they provide transfer.",
+      "subcategory": "Aktivite"
+    },
+    {
+      "id": "ollero-eco-lodge",
+      "name": "Ollero Eco Lodge",
+      "category": "Konaklama",
+      "tags": [
+        "glass igloo",
+        "sustainable",
+        "river"
+      ],
+      "lat": 66.55794279999999,
+      "lng": 25.6546687,
+      "rating": 4.9,
+      "description": "Sürdürülebilir turizm odaklı eko konaklama, doğa içinde izole kulübeler. Kuzey Işıkları, sessizlik ve çevre dostu tatil.",
+      "description_en": "Eco accommodation focused on sustainable tourism with isolated cabins in nature. Northern Lights, silence, and eco-friendly vacation.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/ollero-eco-lodge.jpg",
+      "price": "high",
+      "tips": "Kendi yemeğinizi yapabileceğiniz mutfağı vardır.",
+      "tips_en": "Has a kitchen where you can cook your own food.",
+      "subcategory": "Eko Otel"
+    },
+    {
+      "id": "syvsenvaara-fell",
+      "name": "Syväsenvaara Fell",
+      "category": "Doğa",
+      "tags": [
+        "view",
+        "hike",
+        "geology"
+      ],
+      "lat": 66.5378729,
+      "lng": 25.7975691,
+      "rating": 4.3,
+      "description": "Rovaniemi yakınındaki tepe, kış sporları ve yaz yürüyüşleri. Kayak, snowboard ve panoramik Laponya manzarası.",
+      "description_en": "Hill near Rovaniemi for winter sports and summer hiking. Skiing, snowboarding, and panoramic Lapland views.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/syvsenvaara-fell.jpg",
+      "price": "free",
+      "tips": "'Hiidenkirnu' (Dev kazanı) oluşumlarını arayın.",
+      "tips_en": "Look for 'Hiidenkirnu' (Devil's churn) formations.",
+      "subcategory": "Tepelik"
+    },
+    {
+      "id": "poyliovaara",
+      "name": "Pöyliövaara",
+      "category": "Doğa",
+      "tags": [
+        "nature",
+        "quiet",
+        "forest"
+      ],
+      "lat": 66.4726542,
+      "lng": 25.7393518,
+      "rating": 4.2,
+      "description": "Doğa yürüyüşü ve outdoor aktiviteler için tepeler, Lapon vahşi doğası. Trekking rotaları, kuş gözlemi ve fotoğrafçılık.",
+      "description_en": "Hills for nature hiking and outdoor activities in Lappish wilderness. Trekking routes, bird watching, and photography.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/poyliovaara.jpg",
+      "price": "free",
+      "tips": "Sonbaharda mantar toplamak için popülerdir.",
+      "tips_en": "Popular for mushroom picking in autumn.",
+      "subcategory": "Tepelik"
+    },
+    {
+      "id": "rovaniemi-disc-golf-park",
+      "name": "Rovaniemi Disc Golf Park",
+      "category": "Eğlence",
+      "tags": [
+        "disc golf",
+        "summer",
+        "fun"
+      ],
+      "lat": 66.517822,
+      "lng": 25.8495711,
+      "rating": 4.6,
+      "description": "Disk golf sahası, doğa içinde eğlenceli spor aktivitesi. Yaz aylarında popüler, aileler ve arkadaşlar için.",
+      "description_en": "Disc golf course, fun sports activity in nature. Popular in summer, for families and friends.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/rovaniemi-disc-golf-park.jpg",
+      "price": "free",
+      "tips": "Frizbinizi yanınızda getirin veya kiralayın.",
+      "tips_en": "Bring your frisbee or rent one.",
+      "subcategory": "Spor"
+    },
+    {
+      "id": "vaattunki-wilderness-area",
+      "name": "Vaattunki Wilderness Area",
+      "category": "Doğa",
+      "tags": [
+        "blind trail",
+        "nature",
+        "peace"
+      ],
+      "lat": 66.5944444,
+      "lng": 26.1191667,
+      "rating": 4.7,
+      "description": "El değmemiş Lapon doğası, trekking ve kamp için vahşi alan. Ayı gözlemi, balıkçılık ve nordik macera.",
+      "description_en": "Untouched Lappish nature, wild area for trekking and camping. Bear watching, fishing, and Nordic adventure.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/vaattunki-wilderness-area.jpg",
+      "price": "free",
+      "tips": "Könkäänvaara rotası manzaralıdır.",
+      "tips_en": "Könkäänvaara route serves views.",
+      "subcategory": "Yürüyüş"
+    },
+    {
+      "id": "kierikki-stone-age-centre",
+      "name": "Kierikki Stone Age Centre",
+      "category": "Müze",
+      "tags": [
+        "prehistoric",
+        "outdoor",
+        "day trip"
+      ],
+      "lat": 66.5075683,
+      "lng": 25.7261042,
+      "rating": 4.5,
+      "description": "Taş Devri yaşamını deneyimleyebileceğiniz, biraz uzakta ama görülmeye değer açık hava müzesi.",
+      "description_en": "Open-air museum where you can experience Stone Age life, a bit far but worth seeing.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/kierikki-stone-age-centre.jpg",
+      "price": "medium",
+      "tips": "Ok atma gibi aktiviteleri deneyebilirsiniz.",
+      "tips_en": "You can try activities like archery.",
+      "subcategory": "Tarih"
+    },
+    {
+      "id": "arctic-golf-finland",
+      "name": "Arctic Golf Finland",
+      "category": "Eğlence",
+      "tags": [
+        "golf",
+        "midnight sun",
+        "summer"
+      ],
+      "lat": 66.50630509999999,
+      "lng": 25.8079896,
+      "rating": 4.5,
+      "description": "Kutup Çizgisi üzerinde, yazın gece yarısı güneşi altında golf oynayabileceğiniz saha.",
+      "description_en": "Course located on the Arctic Circle where you can play golf under the midnight sun in summer.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/arctic-golf-finland.jpg",
+      "price": "high",
+      "tips": "Gece yarısı golf oynamak eşsiz bir deneyimdir.",
+      "tips_en": "Playing golf at midnight is a unique experience.",
+      "subcategory": "Golf"
+    },
+    {
+      "id": "sierijrvi-reindeer-farm",
+      "name": "Sierijärvi Reindeer Farm",
+      "category": "Deneyim",
+      "tags": [
+        "authentic",
+        "reindeer",
+        "culture"
+      ],
+      "lat": 66.46809340000001,
+      "lng": 25.9194346,
+      "rating": 4.8,
+      "description": "Aile işletmesi ren geyiği çiftliği, geleneksel Sami kültürü ve yaşam tarzı. Ren geyiği safari, besleme ve kültürel deneyim.",
+      "description_en": "Family-run reindeer farm with traditional Sami culture and lifestyle. Reindeer safari, feeding, and cultural experience.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/sierijrvi-reindeer-farm.jpg",
+      "price": "high",
+      "tips": "Sahipleri Lapon kültürünü çok güzel anlatır.",
+      "tips_en": "Owners explain Lappish culture very nicely.",
+      "subcategory": "Çiftlik"
+    },
+    {
+      "id": "chalet-hotel-rovaniemi",
+      "name": "Chalet Hotel Rovaniemi",
+      "category": "Konaklama",
+      "tags": [
+        "river view",
+        "log cabins",
+        "nature"
+      ],
+      "lat": 66.5086791,
+      "lng": 25.7874822,
+      "rating": 4.4,
+      "description": "Ounasvaara'daki şale tarzı otel, kayak pistlerine yakın konum. Dağ manzarası, sauna ve kış tatili atmosferi.",
+      "description_en": "Chalet-style hotel in Ounasvaara near ski slopes. Mountain views, sauna, and winter vacation atmosphere.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/chalet-hotel-rovaniemi.jpg",
+      "price": "medium",
+      "tips": "Hem kış hem yaz konaklaması için uygundur.",
+      "tips_en": "Suitable for both winter and summer stays.",
+      "subcategory": "Kır Evi"
+    },
+    {
+      "id": "lapland-hotels-sky-ounasvaara",
+      "name": "Lapland Hotels Sky Ounasvaara",
+      "category": "Konaklama",
+      "tags": [
+        "view",
+        "luxury",
+        "ski-in"
+      ],
+      "lat": 66.5019808,
+      "lng": 25.7883219,
+      "rating": 4.5,
+      "description": "Ounasvaara tepesinde cam odalı otel, Kuzey Işıkları izleme. Aurora borealis, lüks konaklama ve romantik kaçış.",
+      "description_en": "Hotel with glass rooms on Ounasvaara hill for Northern Lights viewing. Aurora borealis, luxury accommodation, and romantic escape.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/lapland-hotels-sky-ounasvaara.jpg",
+      "price": "high",
+      "tips": "Restoranı 'Sky Kitchen' çok ünlüdür.",
+      "tips_en": "Its restaurant 'Sky Kitchen' is very famous.",
+      "subcategory": "Otel"
+    },
+    {
+      "id": "napapiirin-porofarmi",
+      "name": "Napapiirin Porofarmi",
+      "category": "Deneyim",
+      "tags": [
+        "reindeer",
+        "family",
+        "river"
+      ],
+      "lat": 66.5610257,
+      "lng": 25.6481482,
+      "rating": 4.6,
+      "description": "Kuzey Kutup Dairesi'ndeki ren geyiği çiftliği, safari turları ve Sami kültürü. Ren geyiği kızağı, besleme ve fotoğraf.",
+      "description_en": "Reindeer farm at Arctic Circle with safari tours and Sami culture. Reindeer sleigh, feeding, and photography.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/napapiirin-porofarmi.jpg",
+      "price": "medium",
+      "tips": "Nehir turu ile birleştirebilirsiniz.",
+      "tips_en": "You can combine it with a river tour.",
+      "subcategory": "Çiftlik"
+    },
+    {
+      "id": "rovaniemi-local-history-museum",
+      "name": "Rovaniemi Local History Museum",
+      "category": "Müze",
+      "tags": [
+        "farmhouse",
+        "19th century",
+        "culture"
+      ],
+      "lat": 66.4803651,
+      "lng": 25.7420565,
+      "rating": 4.5,
+      "description": "Şehrin yerel tarihini ve Lapon kültürünü anlatan müze. Eski fotoğraflar, günlük yaşam eşyaları ve bölge mirası.",
+      "description_en": "Museum telling city's local history and Lappish culture. Old photos, daily life items, and regional heritage.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/rovaniemi-local-history-museum.jpg",
+      "price": "low",
+      "tips": "Yazın bahçesinde koyunlar otlar.",
+      "tips_en": "Sheep graze in its garden in summer.",
+      "subcategory": "Tarih"
+    },
+    {
+      "id": "gustav-kitchen-bar",
+      "name": "Gustav Kitchen & Bar",
+      "category": "Restoran",
+      "tags": [
+        "modern",
+        "cozy",
+        "delicious"
+      ],
+      "lat": 66.50243030000001,
+      "lng": 25.7329633,
+      "rating": 4.8,
+      "description": "Şehrin en iyi bistrolarından biri, modern ve rahat bir ortamda yaratıcı lezzetler.",
+      "description_en": "One of the best bistros in town, creative flavors in a modern and cozy atmosphere.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/gustav-kitchen-bar.jpg",
+      "price": "medium",
+      "tips": "Akşam yemeği için rezervasyon şarttır.",
+      "tips_en": "Reservation is essential for dinner.",
+      "subcategory": "Bistro"
+    },
+    {
+      "id": "restaurant-aitta",
+      "name": "Restaurant Aitta",
+      "category": "Restoran",
+      "tags": [
+        "traditional",
+        "reindeer",
+        "rustic"
+      ],
+      "lat": 66.5782996,
+      "lng": 26.0160497,
+      "rating": 4.5,
+      "description": "Geleneksel Lapon yemeklerini modern sunumla harmanlayan fine-dining restoran. Ren geyiği, yaban mersini ve nordik gastronomi.",
+      "description_en": "Fine-dining restaurant blending traditional Lappish dishes with modern presentation. Reindeer, lingonberry, and Nordic gastronomy.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/restaurant-aitta.jpg",
+      "price": "medium",
+      "tips": "Pazar günleri brunch servisi vardır.",
+      "tips_en": "There is brunch service on Sundays.",
+      "subcategory": "Lapon"
+    },
+    {
+      "id": "frans-chrie-bistro",
+      "name": "Frans & Chérie Bistro",
+      "category": "Restoran",
+      "tags": [
+        "bistro",
+        "wine",
+        "romantic"
+      ],
+      "lat": 66.502011,
+      "lng": 25.7359854,
+      "rating": 4.4,
+      "description": "Fransız esintili modern bistro, şık atmosfer ve kaliteli yemekler. Brunch, akşam yemeği ve kokteyller.",
+      "description_en": "French-inspired modern bistro with stylish atmosphere and quality food. Brunch, dinner, and cocktails.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/frans-chrie-bistro.jpg",
+      "price": "medium",
+      "tips": "Şarap menüsü oldukça geniştir.",
+      "tips_en": "Wine menu is quite extensive.",
+      "subcategory": "Fransız"
+    },
+    {
+      "id": "amarillo-rovaniemi",
+      "name": "Amarillo Rovaniemi",
+      "category": "Restoran",
+      "tags": [
+        "tex-mex",
+        "party",
+        "social"
+      ],
+      "lat": 66.5021798,
+      "lng": 25.7348062,
+      "rating": 4.2,
+      "description": "Tex-Mex zincir restoranı, burger, fajita ve margarita. Aileler için rahat, renkli atmosfer.",
+      "description_en": "Tex-Mex chain restaurant with burger, fajitas, and margaritas. Comfortable for families, colorful atmosphere.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/amarillo-rovaniemi.jpg",
+      "price": "medium",
+      "tips": "Hafta sonları gece kulübü havasına bürünür.",
+      "tips_en": "Turns into a nightclub atmosphere on weekends.",
+      "subcategory": "Meksika"
+    },
+    {
+      "id": "himo",
+      "name": "Himo",
+      "category": "Restoran",
+      "tags": [
+        "sushi",
+        "asian fusion",
+        "modern"
+      ],
+      "lat": 66.501738,
+      "lng": 25.7339017,
+      "rating": 4.6,
+      "description": "Şehrin popüler gece kulübü, DJ müziği ve dans. Hafta sonu partileri, gece hayatı ve gençlik.",
+      "description_en": "City's popular nightclub with DJ music and dancing. Weekend parties, nightlife, and youth.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/himo.jpg",
+      "price": "high",
+      "tips": "Tadım menüsünü denemenizi öneririz.",
+      "tips_en": "We recommend trying the tasting menu.",
+      "subcategory": "Asya"
+    },
+    {
+      "id": "yuca",
+      "name": "Yuca",
+      "category": "Restoran",
+      "tags": [
+        "tacos",
+        "authentic",
+        "street food"
+      ],
+      "lat": 66.50113859999999,
+      "lng": 25.7270606,
+      "rating": 4.7,
+      "description": "Otantik Meksika sokak lezzetleri ve harika tacolar sunan küçük ama lezzetli mekan.",
+      "description_en": "Small but delicious place offering authentic Mexican street flavors and great tacos.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/yuca.jpg",
+      "price": "medium",
+      "tips": "Margaritaları da çok başarılıdır.",
+      "tips_en": "Their margaritas are also very successful.",
+      "subcategory": "Meksika"
+    },
+    {
+      "id": "hemingways-rovaniemi",
+      "name": "Hemingway's Rovaniemi",
+      "category": "Eğlence",
+      "tags": [
+        "beer",
+        "history",
+        "relaxed"
+      ],
+      "lat": 66.5023168,
+      "lng": 25.7320576,
+      "rating": 4.1,
+      "description": "Geniş kokteyl seçkisi ve rahat atmosferiyle bar-restoran. Akşam içkileri, sosyal ortam ve şehir merkezinde buluşma.",
+      "description_en": "Bar-restaurant with wide cocktail selection and comfortable atmosphere. Evening drinks, social setting, and city center meeting.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/hemingways-rovaniemi.jpg",
+      "price": "medium",
+      "tips": "Geniş bir bira seçeneği vardır.",
+      "tips_en": "Has a wide selection of beers.",
+      "subcategory": "Pub"
+    },
+    {
+      "id": "olivers-corner",
+      "name": "Oliver's Corner",
+      "category": "Eğlence",
+      "tags": [
+        "irish pub",
+        "live music",
+        "sports"
+      ],
+      "lat": 66.5022297,
+      "lng": 25.7328233,
+      "rating": 4.2,
+      "description": "İrlanda tarzı pub, canlı müzik geceleri ve yerel bira. Samimi atmosfer, sports bar ve sosyal mekan.",
+      "description_en": "Irish-style pub with live music nights and local beer. Intimate atmosphere, sports bar, and social venue.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/olivers-corner.jpg",
+      "price": "medium",
+      "tips": "Maç günleri çok kalabalıktır.",
+      "tips_en": "Very crowded on match days.",
+      "subcategory": "Pub"
+    },
+    {
+      "id": "bull-bar-grill",
+      "name": "Bull Bar & Grill",
+      "category": "Restoran",
+      "tags": [
+        "wings",
+        "ribs",
+        "sports bar"
+      ],
+      "lat": 66.5012456,
+      "lng": 25.72961,
+      "rating": 4.3,
+      "description": "Amerikan tarzı steakhouse ve bar, et yemekleri ve sporlar. Büyük porsiyonlar, TV ekranları ve rahat ortam.",
+      "description_en": "American-style steakhouse and bar with meat dishes and sports. Large portions, TV screens, and comfortable setting.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/bull-bar-grill.jpg",
+      "price": "medium",
+      "tips": "Acı kanat yeme yarışmalarına denk gelebilirsiniz.",
+      "tips_en": "You might stumble upon spicy wing eating contests.",
+      "subcategory": "Amerikan"
+    },
+    {
+      "id": "uitto-pub",
+      "name": "Uitto Pub",
+      "category": "Eğlence",
+      "tags": [
+        "lumberjack theme",
+        "cozy",
+        "locals"
+      ],
+      "lat": 66.5019276,
+      "lng": 25.7319335,
+      "rating": 4.4,
+      "description": "Yerel halkın favori pub'ı, Finlandiya biracılık kültürü. Samimi ortam, uygun fiyat ve mahalle barı.",
+      "description_en": "Local favorite pub with Finnish beer culture. Intimate setting, affordable prices, and neighborhood bar.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/uitto-pub.jpg",
+      "price": "medium",
+      "tips": "Yerel halkla sohbet etmek için en iyi yerdir.",
+      "tips_en": "Best place to chat with locals.",
+      "subcategory": "Pub"
+    },
+    {
+      "id": "irish-arms",
+      "name": "Irish Arms",
+      "category": "Eğlence",
+      "tags": [
+        "guinness",
+        "traditional",
+        "terrace"
+      ],
+      "lat": 66.5022297,
+      "lng": 25.7328233,
+      "rating": 4.1,
+      "description": "Klasik İrlanda pub'ı, Guinness ve canlı müzik. Pub quiz geceleri, futbol maçları ve sosyal atmosfer.",
+      "description_en": "Classic Irish pub with Guinness and live music. Pub quiz nights, football matches, and social atmosphere.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/irish-arms.jpg",
+      "price": "medium",
+      "tips": "Canlı müzik akşamlarını takip edin.",
+      "tips_en": "Follow live music nights.",
+      "subcategory": "Pub"
+    },
+    {
+      "id": "roka-street-bistro",
+      "name": "Roka Street Bistro",
+      "category": "Restoran",
+      "tags": [
+        "street food",
+        "quality",
+        "soup"
+      ],
+      "lat": 66.50172069999999,
+      "lng": 25.7253374,
+      "rating": 4.7,
+      "description": "Modern sokak yemekleri ve fusion mutfak konsepti. Yaratıcı tabaklar, casual dining ve genç şefler.",
+      "description_en": "Modern street food and fusion cuisine concept. Creative dishes, casual dining, and young chefs.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/roka-street-bistro.jpg",
+      "price": "medium",
+      "tips": "Somon çorbası (Lohikeitto) çok meşhurdur.",
+      "tips_en": "Salmon soup (Lohikeitto) is very famous.",
+      "subcategory": "Bistro"
+    },
+    {
+      "id": "choco-deli",
+      "name": "Choco Deli",
+      "category": "Kafe",
+      "tags": [
+        "chocolate",
+        "cakes",
+        "bakery"
+      ],
+      "lat": 66.5027362,
+      "lng": 25.724749,
+      "rating": 4.8,
+      "description": "El yapımı çikolata ve tatlılar sunan butik kafe. Sıcak kakao, pralin ve Finlandiya tatlı kültürü.",
+      "description_en": "Boutique cafe serving handmade chocolate and desserts. Hot cocoa, pralines, and Finnish dessert culture.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/choco-deli.jpg",
+      "price": "medium",
+      "tips": "Sıcak çikolatası kış günleri için birebirdir.",
+      "tips_en": "Hot chocolate is perfect for winter days.",
+      "subcategory": "Pastane"
+    },
+    {
+      "id": "antinkaapo",
+      "name": "Antinkaapo",
+      "category": "Kafe",
+      "tags": [
+        "coffee",
+        "bread",
+        "early"
+      ],
+      "lat": 66.4996039,
+      "lng": 25.7261789,
+      "rating": 4.2,
+      "description": "Geleneksel Lapon yemekleri ve bölgesel tarifler sunan restoran. Ev yapımı lezzetler, ren geyiği çorbası ve yöresel mutfak.",
+      "description_en": "Restaurant serving traditional Lappish dishes and regional recipes. Homemade flavors, reindeer soup, and local cuisine.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/antinkaapo.jpg",
+      "price": "low",
+      "tips": "Sabah kahvaltısı için uygundur.",
+      "tips_en": "Suitable for breakfast.",
+      "subcategory": "Fırın"
+    },
+    {
+      "id": "zoomit",
+      "name": "Zoomit",
+      "category": "Kafe",
+      "tags": [
+        "coffee",
+        "drinks",
+        "modern"
+      ],
+      "lat": 66.5025558,
+      "lng": 25.7323474,
+      "rating": 4.0,
+      "description": "Finlandiya fast-food zinciri, hamburger, patates kızartması ve milkshake. Hızlı servis, çocuk menüleri ve pratik yemek.",
+      "description_en": "Finnish fast-food chain with hamburger, fries, and milkshakes. Quick service, kids' menus, and practical meal.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/zoomit.jpg",
+      "price": "medium",
+      "tips": "Santa's Hotel'in giriş katındadır.",
+      "tips_en": "Located on the ground floor of Santa's Hotel.",
+      "subcategory": "Bar"
+    },
+    {
+      "id": "ravintola-valdemari",
+      "name": "Ravintola Valdemari",
+      "category": "Restoran",
+      "tags": [
+        "terrace",
+        "river view",
+        "live music"
+      ],
+      "lat": 66.50175589999999,
+      "lng": 25.7453127,
+      "rating": 4.3,
+      "description": "Finlandiya klasik yemekleri ve nordik lezzetler sunan geleneksel restoran. Lohikeitto, karjalanpiirakka ve aile atmosferi.",
+      "description_en": "Traditional restaurant serving Finnish classic dishes and Nordic flavors. Salmon soup, Karelian pie, and family atmosphere.",
+      "imageUrl": "",
+      "price": "medium",
+      "tips": "Yaz gecelerinde çok hareketlidir.",
+      "tips_en": "Very lively on summer nights.",
+      "subcategory": "Yazlık"
+    },
+    {
+      "id": "saigon-noodle-bar",
+      "name": "Saigon Noodle Bar",
+      "category": "Restoran",
+      "tags": [
+        "pho",
+        "fresh",
+        "asian"
+      ],
+      "lat": 66.501687,
+      "lng": 25.7278615,
+      "rating": 4.5,
+      "description": "Vietnam mutfağı ve noodle çeşitleri sunan Asya restoranı. Pho, banh mi ve Uzak Doğu lezzetleri.",
+      "description_en": "Asian restaurant serving Vietnamese cuisine and noodle varieties. Pho, banh mi, and Far East flavors.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/saigon-noodle-bar.jpg",
+      "price": "medium",
+      "tips": "Porsiyonlar büyüktür.",
+      "tips_en": "Portions are large.",
+      "subcategory": "Vietnam"
+    },
+    {
+      "id": "hai-long",
+      "name": "Hai Long",
+      "category": "Restoran",
+      "tags": [
+        "buffet",
+        "chinese",
+        "lunch"
+      ],
+      "lat": 66.5023829,
+      "lng": 25.7342591,
+      "rating": 4.1,
+      "description": "Çin ve Vietnam mutfağı sunan Asya restoranı. Dim sum, spring roll ve geleneksel tarifler.",
+      "description_en": "Asian restaurant serving Chinese and Vietnamese cuisine. Dim sum, spring rolls, and traditional recipes.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/hai-long.jpg",
+      "price": "medium",
+      "tips": "Büfede sushi de bulunur.",
+      "tips_en": "Sushi is also available in the buffet.",
+      "subcategory": "Çin"
+    },
+    {
+      "id": "rang-mahal",
+      "name": "Rang Mahal",
+      "category": "Restoran",
+      "tags": [
+        "spicy",
+        "curry",
+        "vegetarian"
+      ],
+      "lat": 66.50295510000001,
+      "lng": 25.7270839,
+      "rating": 4.4,
+      "description": "Hint mutfağı ve tandoor yemekleri sunan restoran. Tikka masala, naan ve baharatlı lezzetler.",
+      "description_en": "Restaurant serving Indian cuisine and tandoor dishes. Tikka masala, naan, and spicy flavors.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/rang-mahal.jpg",
+      "price": "medium",
+      "tips": "Vejetaryen seçenekleri boldur.",
+      "tips_en": "Vegetarian options are plentiful.",
+      "subcategory": "Hint"
+    },
+    {
+      "id": "wingston",
+      "name": "Wingston",
+      "category": "Restoran",
+      "tags": [
+        "wings",
+        "fries",
+        "beer"
+      ],
+      "lat": 66.5013475,
+      "lng": 25.7256512,
+      "rating": 4.2,
+      "description": "Tavuk kanat ve Amerikan tarzı pub yemekleri sunan casual mekan. Soslar, bira ve spor izleme.",
+      "description_en": "Casual venue serving chicken wings and American-style pub food. Sauces, beer, and sports watching.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/wingston.jpg",
+      "price": "medium",
+      "tips": "Sos seçenekleri fazladır.",
+      "tips_en": "Has many sauce options.",
+      "subcategory": "Fast Food"
+    },
+    {
+      "id": "pure-pizza",
+      "name": "Pure Pizza",
+      "category": "Restoran",
+      "tags": [
+        "wood fired",
+        "quality",
+        "italian style"
+      ],
+      "lat": 66.502901,
+      "lng": 25.7347499,
+      "rating": 4.6,
+      "description": "Napoli usulü pizza ve İtalyan lezzetler sunan pizzeria. İnce hamur, taze malzemeler ve otantik İtalyan lezzeti.",
+      "description_en": "Pizzeria serving Neapolitan-style pizza and Italian flavors. Thin crust, fresh ingredients, and authentic Italian taste.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/pure-pizza.jpg",
+      "price": "medium",
+      "tips": "Rovaniemi'nin en iyi pizzacısı olarak bilinir.",
+      "tips_en": "Known as the best pizzeria in Rovaniemi.",
+      "subcategory": "Pizza"
+    },
+    {
+      "id": "kauppayhtio",
+      "name": "Kauppayhtiö",
+      "category": "Restoran",
+      "tags": [
+        "reindeer burger",
+        "retro",
+        "terrace"
+      ],
+      "lat": 66.502901,
+      "lng": 25.7347499,
+      "rating": 4.5,
+      "description": "Tarihi binada modern kafe-restoran, Finlandiya kahvaltısı ve brunch. Nostaljik atmosfer, taze pastalar ve kahve.",
+      "description_en": "Modern cafe-restaurant in historic building with Finnish breakfast and brunch. Nostalgic atmosphere, fresh pastries, and coffee.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/kauppayhtio.jpg",
+      "price": "medium",
+      "tips": "Dış avlusu yazın çok keyiflidir.",
+      "tips_en": "Its outer courtyard is very pleasant in summer.",
+      "subcategory": "Burger"
+    },
+    {
+      "id": "hook",
+      "name": "Hook",
+      "category": "Restoran",
+      "tags": [
+        "wings",
+        "sports",
+        "large"
+      ],
+      "lat": 66.5022912,
+      "lng": 25.732379,
+      "rating": 4.3,
+      "description": "Balık ve deniz ürünleri sunan casual restoran. Fish and chips, salmon ve nordik deniz lezzetleri.",
+      "description_en": "Casual restaurant serving fish and seafood. Fish and chips, salmon, and Nordic sea flavors.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/hook.jpg",
+      "price": "medium",
+      "tips": "Öğrenci indirimi olabilir, sorun.",
+      "tips_en": "Might have student discount, ask.",
+      "subcategory": "Spor Bar"
+    },
+    {
+      "id": "cafe-rovaniemi",
+      "name": "Cafe Rovaniemi",
+      "category": "Kafe",
+      "tags": [
+        "lunch",
+        "salad",
+        "coffee"
+      ],
+      "lat": 66.5021431,
+      "lng": 25.7309804,
+      "rating": 4.4,
+      "description": "Şehir merkezinde geleneksel Finlandiya kafesi, kahve ve pulla. Korvapuusti, munkki ve fika kültürü.",
+      "description_en": "Traditional Finnish cafe in city center with coffee and pulla. Cinnamon bun, doughnuts, and fika culture.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/cafe-rovaniemi.jpg",
+      "price": "medium",
+      "tips": "Sampokeskus'un karşısındadır.",
+      "tips_en": "Opposite Sampokeskus.",
+      "subcategory": "Kafe"
+    },
+    {
+      "id": "roy-club",
+      "name": "Roy Club",
+      "category": "Eğlence",
+      "tags": [
+        "dancing",
+        "nightlife",
+        "music"
+      ],
+      "lat": 66.501595,
+      "lng": 25.7305803,
+      "rating": 3.8,
+      "description": "Şehrin gece kulübü, canlı müzik ve dans pistleri. Hafta sonu eğlencesi, DJ geceleri ve sosyal hayat.",
+      "description_en": "City's nightclub with live music and dance floors. Weekend entertainment, DJ nights, and social life.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/roy-club.jpg",
+      "price": "medium",
+      "tips": "Gece yarısından sonra kalabalıklaşır.",
+      "tips_en": "Gets crowded after midnight.",
+      "subcategory": "Gece Kulübü"
+    },
+    {
+      "id": "half-moon-night-club",
+      "name": "Half Moon Night Club",
+      "category": "Eğlence",
+      "tags": [
+        "party",
+        "students",
+        "dj"
+      ],
+      "lat": 66.5027448,
+      "lng": 25.7255345,
+      "rating": 3.7,
+      "description": "Disco ve dans müziği barı, retro atmosfer ve parti. Gece hayatı, kokteyller ve eğlence.",
+      "description_en": "Disco and dance music bar with retro atmosphere and party. Nightlife, cocktails, and entertainment.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/half-moon-night-club.jpg",
+      "price": "medium",
+      "tips": "Çarşamba geceleri öğrenci partisidir.",
+      "tips_en": "Wednesday nights are student parties.",
+      "subcategory": "Gece Kulübü"
+    },
+    {
+      "id": "wanha-mestari",
+      "name": "Wanha Mestari",
+      "category": "Eğlence",
+      "tags": [
+        "karaoke",
+        "beer",
+        "casual"
+      ],
+      "lat": 66.5023168,
+      "lng": 25.7320576,
+      "rating": 4.0,
+      "description": "Eski usul Finlandiya pub'ı, yerel biralar ve samimi ortam. Mahalle barı, canlı sohbetler ve akşam keyfi.",
+      "description_en": "Old-style Finnish pub with local beers and intimate setting. Neighborhood bar, lively conversations, and evening enjoyment.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/wanha-mestari.jpg",
+      "price": "medium",
+      "tips": "Finliler karaoke yapmayı çok sever.",
+      "tips_en": "Finns love doing karaoke.",
+      "subcategory": "Pub"
+    },
+    {
+      "id": "paha-kurki-rockhouse",
+      "name": "Paha Kurki Rockhouse",
+      "category": "Eğlence",
+      "tags": [
+        "rock music",
+        "billiards",
+        "attitude"
+      ],
+      "lat": 66.5019445,
+      "lng": 25.7346215,
+      "rating": 4.3,
+      "description": "Rock müzik barı, canlı konserler ve alternatif sahne. Metal, rock ve underground müzik kültürü.",
+      "description_en": "Rock music bar with live concerts and alternative scene. Metal, rock, and underground music culture.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/paha-kurki-rockhouse.jpg",
+      "price": "medium",
+      "tips": "Müzik ses seviyesi yüksektir.",
+      "tips_en": "Music volume level is high.",
+      "subcategory": "Bar"
+    },
+    {
+      "id": "peoples-pub",
+      "name": "People's Pub",
+      "category": "Eğlence",
+      "tags": [
+        "cheap",
+        "local",
+        "basic"
+      ],
+      "lat": 66.50149669999999,
+      "lng": 25.7257844,
+      "rating": 3.9,
+      "description": "Şehrin popüler halk barı, uygun fiyatlı içecekler ve spor yayınları. Samimi atmosfer, yerel halk ve sosyalleşme.",
+      "description_en": "City's popular people's bar with affordable drinks and sports broadcasts. Intimate atmosphere, locals, and socializing.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/peoples-pub.jpg",
+      "price": "low",
+      "tips": "Yerel halkın günlük uğrak yeridir.",
+      "tips_en": "Daily haunt of locals.",
+      "subcategory": "Pub"
+    },
+    {
+      "id": "korouoma-canyon",
+      "name": "Korouoma Canyon",
+      "category": "Doğa",
+      "tags": [
+        "frozen waterfalls",
+        "hiking",
+        "scenery"
+      ],
+      "lat": 66.1547847,
+      "lng": 27.5397634,
+      "rating": 4.8,
+      "description": "Kışın donmuş şelaleleriyle ünlü, nefes kesici manzaralar sunan 30km uzunluğunda kanyon.",
+      "description_en": "30km long canyon offering breathtaking views, famous for its frozen waterfalls in winter.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/korouoma-canyon.jpg",
+      "price": "free",
+      "tips": "Donmuş şelalelere yürüyüş yaklaşık 5km sürer.",
+      "tips_en": "Hike to frozen waterfalls takes about 5km.",
+      "subcategory": "Kanyon"
+    },
+    {
+      "id": "lampivaara-amethyst-mine",
+      "name": "Lampivaara Amethyst Mine",
+      "category": "Deneyim",
+      "tags": [
+        "amethyst",
+        "digging",
+        "view"
+      ],
+      "lat": 67.119736,
+      "lng": 26.9404489,
+      "rating": 4.4,
+      "description": "Laponya'daki ametist madeni, kendi taşınızı kazabilme deneyimi. Doğal ametist, maden turu ve benzersiz hatıra.",
+      "description_en": "Amethyst mine in Lapland with experience of digging your own stone. Natural amethyst, mine tour, and unique souvenir.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/lampivaara-amethyst-mine.jpg",
+      "price": "medium",
+      "tips": "Bulduğunuz küçük taşları yanınıza alabilirsiniz.",
+      "tips_en": "You can take small stones you find with you.",
+      "subcategory": "Maden"
+    },
+    {
+      "id": "kemi-snowcastle",
+      "name": "Kemi SnowCastle",
+      "category": "Görülmesi Gereken Yerler",
+      "tags": [
+        "snow castle",
+        "ice art",
+        "day trip"
+      ],
+      "lat": 65.726579,
+      "lng": 24.5691821,
+      "rating": 4.2,
+      "description": "Her yıl yeniden inşa edilen, buzdan heykeller ve odalarla dolu devasa kar kalesi.",
+      "description_en": "Hugh snow castle rebuilt every year, full of ice sculptures and rooms.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/kemi-snowcastle.jpg",
+      "price": "medium",
+      "tips": "Trenle veya otobüsle günübirlik gidilebilir.",
+      "tips_en": "Can be visited as a day trip by train or bus.",
+      "subcategory": "Kale"
+    },
+    {
+      "id": "sampo-icebreaker",
+      "name": "Sampo Icebreaker",
+      "category": "Deneyim",
+      "tags": [
+        "icebreaker",
+        "swimming",
+        "unique"
+      ],
+      "lat": 65.726579,
+      "lng": 24.5691821,
+      "rating": 4.6,
+      "description": "Donmuş denizde buzları kırarak ilerleyen dev gemiyle yolculuk ve buzlu suda yüzme deneyimi.",
+      "description_en": "Journey with a giant ship breaking ice on frozen sea and experience swimming in icy water.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/sampo-icebreaker.jpg",
+      "price": "very high",
+      "tips": "Hayatta bir kez yaşanacak pahalı ama eşsiz bir deneyim.",
+      "tips_en": "An expensive but unique once-in-a-lifetime experience.",
+      "subcategory": "Gemi"
+    },
+    {
+      "id": "riisitunturi-national-park",
+      "name": "Riisitunturi National Park",
+      "category": "Doğa",
+      "tags": [
+        "snow monsters",
+        "photography",
+        "hiking"
+      ],
+      "lat": 66.23332789999999,
+      "lng": 28.5001107,
+      "rating": 4.9,
+      "description": "Karla kaplı ağaçların oluşturduğu 'kar canavarları' manzarasıyla ünlü milli park.",
+      "description_en": "National park famous for its 'snow monsters' scenery created by snow-covered trees.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/riisitunturi-national-park.jpg",
+      "price": "free",
+      "tips": "Fotoğrafçılar için dünyadaki en iyi kış manzaralarından biridir.",
+      "tips_en": "One of the best winter landscapes in the world for photographers.",
+      "subcategory": "Park"
+    },
+    {
+      "id": "arctic-light-hotel",
+      "name": "Arctic Light Hotel",
+      "category": "Konaklama",
+      "tags": [
+        "boutique",
+        "luxury",
+        "breakfast"
+      ],
+      "lat": 66.5013421,
+      "lng": 25.7345051,
+      "rating": 4.7,
+      "description": "Eski belediye binasından dönüştürülen, Sara La Fountain imzalı kahvaltısıyla ünlü butik otel.",
+      "description_en": "Boutique hotel converted from old city hall, famous for its breakfast by Sara La Fountain.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/arctic-light-hotel.jpg",
+      "price": "high",
+      "tips": "Kahvaltısı otel dışından gelenlere de açıktır (rezervasyonla).",
+      "tips_en": "Its breakfast is also open to non-guests (with reservation).",
+      "subcategory": "Otel"
+    },
+    {
+      "id": "original-sokos-hotel-vaakuna",
+      "name": "Original Sokos Hotel Vaakuna",
+      "category": "Konaklama",
+      "tags": [
+        "northern lights",
+        "nightclub",
+        "central"
+      ],
+      "lat": 66.5020065,
+      "lng": 25.7363029,
+      "rating": 4.2,
+      "description": "Şehir merkezinde, bünyesinde popüler restoranlar ve gece kulübü barındıran büyük otel.",
+      "description_en": "Large hotel in city center, housing popular restaurants and a nightclub.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/original-sokos-hotel-vaakuna.jpg",
+      "price": "medium",
+      "tips": "Kuzey ışıkları temalı odaları vardır.",
+      "tips_en": "Has Northern Lights themed rooms.",
+      "subcategory": "Otel"
+    },
+    {
+      "id": "haawe-boutique-apart-hotel",
+      "name": "Haawe Boutique Apart Hotel",
+      "category": "Konaklama",
+      "tags": [
+        "design",
+        "luxury",
+        "apartments"
+      ],
+      "lat": 66.50251659999999,
+      "lng": 25.7343114,
+      "rating": 4.9,
+      "description": "Her odası Laponya'nın farklı bir doğa olayından esinlenerek tasarlanmış lüks apart otel.",
+      "description_en": "Luxury apart hotel where each room is designed inspired by a different nature phenomenon of Lapland.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/haawe-boutique-apart-hotel.jpg",
+      "price": "high",
+      "tips": "Sadece 14 odası vardır, erken rezervasyon şart.",
+      "tips_en": "Has only 14 rooms, early booking is essential.",
+      "subcategory": "Otel"
+    },
+    {
+      "id": "scandic-pohjanhovi",
+      "name": "Scandic Pohjanhovi",
+      "category": "Konaklama",
+      "tags": [
+        "legendary",
+        "river view",
+        "large"
+      ],
+      "lat": 66.5021491,
+      "lng": 25.7370433,
+      "rating": 4.1,
+      "description": "Rovaniemi'nin en köklü ve tarihi oteli, nehir kenarında harika bir konuma sahiptir.",
+      "description_en": "Rovaniemi's most established and historic hotel, has a great location by the river.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/scandic-pohjanhovi.jpg",
+      "price": "medium",
+      "tips": "Nehir manzaralı oda isteyin.",
+      "tips_en": "Ask for a river view room.",
+      "subcategory": "Otel"
+    },
+    {
+      "id": "beana-laponia",
+      "name": "Beana Laponia",
+      "category": "Konaklama",
+      "tags": [
+        "wilderness",
+        "adults only",
+        "husky"
+      ],
+      "lat": 66.907073,
+      "lng": 25.3826177,
+      "rating": 4.9,
+      "description": "Şehirden uzakta, sadece yetişkinlere hizmet veren, husky çiftliği de olan butik vahşi doğa oteli.",
+      "description_en": "Boutique wilderness hotel far from the city, adults only, also has a husky farm.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/beana-laponia.jpg",
+      "price": "high",
+      "tips": "Tam sessizlik ve huzur arayanlar için.",
+      "tips_en": "For those seeking complete silence and peace.",
+      "subcategory": "Butik Otel"
+    },
+    {
+      "id": "vaattunki-wilderness-resort",
+      "name": "Vaattunki Wilderness Resort",
+      "category": "Konaklama",
+      "tags": [
+        "log cabins",
+        "nature",
+        "rapids"
+      ],
+      "lat": 66.5944444,
+      "lng": 26.1191667,
+      "rating": 4.5,
+      "description": "Nehir kenarında, doğa yürüyüşü rotalarının başlangıcında yer alan kütük ev tesisi.",
+      "description_en": "Log cabin facility located by the river, at the start of hiking trails.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/vaattunki-wilderness-resort.jpg",
+      "price": "medium",
+      "tips": "Panorama kulübeleri nehir manzaralıdır.",
+      "tips_en": "Panorama cabins have river views.",
+      "subcategory": "Kır Evi"
+    },
+    {
+      "id": "arctic-treehouse-hotel",
+      "name": "Arctic TreeHouse Hotel",
+      "category": "Konaklama",
+      "tags": [
+        "design",
+        "view",
+        "luxury"
+      ],
+      "lat": 66.5394354,
+      "lng": 25.7999938,
+      "rating": 4.6,
+      "description": "Yamaç üzerine kurulu, dev cam cepheli kutu süitleriyle dünyaca ünlü tasarım oteli.",
+      "description_en": "World-famous design hotel with giant glass-fronted box suites set on a hillside.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/arctic-treehouse-hotel.jpg",
+      "price": "very high",
+      "tips": "Odadan orman manzarası büyüleyicidir.",
+      "tips_en": "Forest view from the room is mesmerizing.",
+      "subcategory": "Otel"
+    },
+    {
+      "id": "crystal-arctic-suites",
+      "name": "Crystal Arctic Suites",
+      "category": "Konaklama",
+      "tags": [
+        "modern",
+        "spacious",
+        "family"
+      ],
+      "lat": 66.6382627,
+      "lng": 25.3424934,
+      "rating": 4.7,
+      "description": "Cam tavanlı lüks suit konaklama, Kuzey Işıkları izleme. Aurora borealis, özel romantik deneyim ve nordik lüks.",
+      "description_en": "Luxury suite accommodation with glass ceiling for Northern Lights viewing. Aurora borealis, private romantic experience, and Nordic luxury.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/crystal-arctic-suites.jpg",
+      "price": "medium",
+      "tips": "Kendi yemeğinizi yapmak için mutfakları harikadır.",
+      "tips_en": "Kitchens are great for cooking your own food.",
+      "subcategory": "Apart"
+    },
+    {
+      "id": "motelli-rovaniemi",
+      "name": "Motelli Rovaniemi",
+      "category": "Konaklama",
+      "tags": [
+        "budget",
+        "clean",
+        "roadside"
+      ],
+      "lat": 66.4532095,
+      "lng": 25.5796385,
+      "rating": 4.0,
+      "description": "Bütçe dostu motel konaklama, yol gezginleri için pratik seçenek. Otopark, temiz odalar ve merkezi konum.",
+      "description_en": "Budget-friendly motel accommodation, practical option for road travelers. Parking, clean rooms, and central location.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/motelli-rovaniemi.jpg",
+      "price": "low",
+      "tips": "Araçla seyahat edenler için uygundur.",
+      "tips_en": "Suitable for those traveling by car.",
+      "subcategory": "Motel"
+    },
+    {
+      "id": "guesthouse-borealis",
+      "name": "Guesthouse Borealis",
+      "category": "Konaklama",
+      "tags": [
+        "family run",
+        "cozy",
+        "budget"
+      ],
+      "lat": 66.5000597,
+      "lng": 25.7046891,
+      "rating": 4.3,
+      "description": "Aile işletmesi konuk evi, samimi atmosfer ve yerel ipuçları. Ev yapımı kahvaltı, misafirperverlik ve bütçe dostu.",
+      "description_en": "Family-run guesthouse with intimate atmosphere and local tips. Homemade breakfast, hospitality, and budget-friendly.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/guesthouse-borealis.jpg",
+      "price": "low",
+      "tips": "Sahibi çok yardımseverdir.",
+      "tips_en": "Owner is very helpful.",
+      "subcategory": "Misafir Evi"
+    },
+    {
+      "id": "santasport-apartment-hotel",
+      "name": "Santasport Apartment Hotel",
+      "category": "Konaklama",
+      "tags": [
+        "sports",
+        "family",
+        "active"
+      ],
+      "lat": 66.4971709,
+      "lng": 25.7673823,
+      "rating": 4.4,
+      "description": "Santasport kompleksinde apart otel, uzun konaklamalar ve aileler için. Mutfaklı odalar, spor tesislerine erişim.",
+      "description_en": "Apartment hotel in Santasport complex for extended stays and families. Rooms with kitchen, access to sports facilities.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/santasport-apartment-hotel.jpg",
+      "price": "medium",
+      "tips": "Havuz ve spor olanaklarından ücretsiz yararlanabilirsiniz.",
+      "tips_en": "You can use pool and sports facilities for free.",
+      "subcategory": "Apart"
+    },
+    {
+      "id": "forenom-aparthotel-rovaniemi",
+      "name": "Forenom Aparthotel Rovaniemi",
+      "category": "Konaklama",
+      "tags": [
+        "keyless",
+        "central",
+        "practical"
+      ],
+      "lat": 66.5034409,
+      "lng": 25.7349755,
+      "rating": 4.1,
+      "description": "Şehir merkezinde self-catering daireler, iş ve tatil için. Modern tesisler, mutfak ve ev konforu.",
+      "description_en": "Self-catering apartments in city center for business and vacation. Modern facilities, kitchen, and home comfort.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/forenom-aparthotel-rovaniemi.jpg",
+      "price": "medium",
+      "tips": "Giriş kodu SMS ile gelir.",
+      "tips_en": "Entry code comes via SMS.",
+      "subcategory": "Apart"
+    },
+    {
+      "id": "lomavekarit",
+      "name": "Lomavekarit",
+      "category": "Konaklama",
+      "tags": [
+        "river",
+        "cottages",
+        "value"
+      ],
+      "lat": 66.5309513,
+      "lng": 25.7212146,
+      "rating": 4.5,
+      "description": "Nehir kenarında, şehre yakın ama doğa içinde hissettiren uygun fiyatlı kulübeler.",
+      "description_en": "Affordable cottages by the river, close to city but feeling like nature.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/lomavekarit.jpg",
+      "price": "medium",
+      "tips": "Saunayı önceden ayırtın.",
+      "tips_en": "Book sauna in advance.",
+      "subcategory": "Kır Evi"
+    },
+    {
+      "id": "arctic-lifestyle",
+      "name": "Arctic Lifestyle",
+      "category": "Deneyim",
+      "tags": [
+        "snowmobile",
+        "safari",
+        "local"
+      ],
+      "lat": 66.50524,
+      "lng": 25.7342441,
+      "rating": 4.8,
+      "description": "Laponya yaşam tarzı ürünleri ve hediyelik dükkanı. Nordik tasarım, yerel el sanatları ve arktik temalı ürünler.",
+      "description_en": "Lapland lifestyle products and gift shop. Nordic design, local handicrafts, and Arctic-themed products.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/arctic-lifestyle.jpg",
+      "price": "high",
+      "tips": "Buz balıkçılığı turları keyiflidir.",
+      "tips_en": "Ice fishing tours are enjoyable.",
+      "subcategory": "Tur"
+    },
+    {
+      "id": "access-lapland",
+      "name": "Access Lapland",
+      "category": "Deneyim",
+      "tags": [
+        "ice floating",
+        "accessible",
+        "tours"
+      ],
+      "lat": 66.50119860000001,
+      "lng": 25.7324936,
+      "rating": 4.7,
+      "description": "Safari turları ve macera aktiviteleri organizatörü. Kar motoru, husky ve özelleştirilmiş Laponya deneyimleri.",
+      "description_en": "Safari tours and adventure activities organizer. Snowmobile, husky, and customized Lapland experiences.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/access-lapland.jpg",
+      "price": "high",
+      "tips": "Buzda yüzme deneyimi çok rahatlatıcıdır.",
+      "tips_en": "Ice floating experience is very relaxing.",
+      "subcategory": "Tur"
+    },
+    {
+      "id": "safartica",
+      "name": "Safartica",
+      "category": "Deneyim",
+      "tags": [
+        "experts",
+        "safaris",
+        "rental"
+      ],
+      "lat": 66.5020938,
+      "lng": 25.7337509,
+      "rating": 4.6,
+      "description": "Rovaniemi'nin en köklü safari şirketlerinden biri, kış giysisi kiralama da yapıyorlar.",
+      "description_en": "One of Rovaniemi's most established safari companies, also renting winter gear.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/safartica.jpg",
+      "price": "high",
+      "tips": "Kendi başınıza gezecekseniz buradan tulum kiralayabilirsiniz.",
+      "tips_en": "If sightseeing on your own, you can rent overalls here.",
+      "subcategory": "Tur"
+    },
+    {
+      "id": "beyond-arctic",
+      "name": "Beyond Arctic",
+      "category": "Deneyim",
+      "tags": [
+        "photography",
+        "aurora",
+        "professional"
+      ],
+      "lat": 66.5013249,
+      "lng": 25.7338425,
+      "rating": 4.9,
+      "description": "Lüks ve butik Laponya turları, özel deneyimler ve VIP hizmet. Kuzey Işıkları avcılığı, helikopter turları ve premium macera.",
+      "description_en": "Luxury and boutique Lapland tours with private experiences and VIP service. Northern Lights hunting, helicopter tours, and premium adventure.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/beyond-arctic.jpg",
+      "price": "very high",
+      "tips": "Kendi kameranız yoksa bile harika fotoğraflarınız olur.",
+      "tips_en": "Even if you don't have your own camera, you will have great photos.",
+      "subcategory": "Tur"
+    },
+    {
+      "id": "pyh-luosto-national-park",
+      "name": "Pyhä-Luosto National Park",
+      "category": "Doğa",
+      "tags": [
+        "ancient hills",
+        "hiking",
+        "day trip"
+      ],
+      "lat": 67.0851971,
+      "lng": 26.919739,
+      "rating": 4.8,
+      "description": "Rovaniemi'ye 1.5 saat mesafede, milyarlarca yıllık tepeleri ve kutsal alanlarıyla ünlü milli park.",
+      "description_en": "National park 1.5 hours from Rovaniemi, famous for its billion-year-old hills and sacred sites.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/pyh-luosto-national-park.jpg",
+      "price": "free",
+      "tips": "Isokuru kanyonu görülmeye değerdir.",
+      "tips_en": "Isokuru canyon is worth seeing.",
+      "subcategory": "Park"
+    },
+    {
+      "id": "auttikongs",
+      "name": "Auttiköngäs",
+      "category": "Doğa",
+      "tags": [
+        "waterfall",
+        "forest",
+        "hike"
+      ],
+      "lat": 66.28797630000001,
+      "lng": 27.2012533,
+      "rating": 4.7,
+      "description": "Rovaniemi yakınındaki şelaleli doğa alanı, yürüyüş rotaları ve fotoğrafçılık. Lapon doğası, nehir manzarası ve huzur.",
+      "description_en": "Nature area with waterfalls near Rovaniemi with hiking trails and photography. Lappish nature, river views, and peace.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/auttikongs.jpg",
+      "price": "free",
+      "tips": "Rovaniemi'den bir saatlik sürüş mesafesindedir.",
+      "tips_en": "One hour drive from Rovaniemi.",
+      "subcategory": "Şelale"
+    },
+    {
+      "id": "napapiirin-lahja",
+      "name": "Napapiirin Lahja",
+      "category": "Alışveriş",
+      "tags": [
+        "souvenirs",
+        "traditional",
+        "wood"
+      ],
+      "lat": 66.5577385,
+      "lng": 25.8269092,
+      "rating": 4.3,
+      "description": "Kuzey Kutup Dairesi'nde hediyelik eşya ve Lapon ürünleri dükkanı. Hatıralar, yerel el sanatları ve Finlandiya ürünleri.",
+      "description_en": "Souvenir and Lappish products shop at Arctic Circle. Memorabilia, local handicrafts, and Finnish products.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/napapiirin-lahja.jpg",
+      "price": "medium",
+      "tips": "Kuksa bardakları buradan alabilirsiniz.",
+      "tips_en": "You can buy Kuksa cups here.",
+      "subcategory": "Hediyelik"
+    },
+    {
+      "id": "arctic-snowhotel-glass-igloos",
+      "name": "Arctic SnowHotel & Glass Igloos",
+      "category": "Görülmesi Gereken Yerler",
+      "tags": [
+        "snow hotel",
+        "ice bar",
+        "dinner"
+      ],
+      "lat": 66.6382627,
+      "lng": 25.3424934,
+      "rating": 4.5,
+      "description": "Sadece gezmek ve yemek yemek için de ziyaret edebileceğiniz, buz ve kardan yapılmış otel.",
+      "description_en": "Hotel made of ice and snow that you can visit just for touring and eating.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/arctic-snowhotel-glass-igloos.jpg",
+      "price": "medium",
+      "tips": "Akşam yemeği için 'Ice Restaurant' rezervasyonu yapın.",
+      "tips_en": "Book 'Ice Restaurant' for dinner.",
+      "subcategory": "Otel"
+    },
+    {
+      "id": "snowman-world-glass-resort",
+      "name": "Snowman World Glass Resort",
+      "category": "Konaklama",
+      "tags": [
+        "modern",
+        "glass",
+        "luxury"
+      ],
+      "lat": 66.5426492,
+      "lng": 25.8458962,
+      "rating": 4.8,
+      "description": "Kardan adam temalı cam iglo konaklama, buz bar ve kış aktiviteleri. Kuzey Işıkları, aile eğlencesi ve büyülü atmosfer.",
+      "description_en": "Snowman-themed glass igloo accommodation with ice bar and winter activities. Northern Lights, family fun, and magical atmosphere.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/snowman-world-glass-resort.jpg",
+      "price": "high",
+      "tips": "Her evin özel jakuzisi vardır.",
+      "tips_en": "Each house has a private jacuzzi.",
+      "subcategory": "Otel"
+    },
+    {
+      "id": "levi-ski-resort",
+      "name": "Levi Ski Resort",
+      "category": "Deneyim",
+      "tags": [
+        "skiing",
+        "slopes",
+        "party"
+      ],
+      "lat": 67.8040628,
+      "lng": 24.8082752,
+      "rating": 4.8,
+      "description": "Finlandiya'nın en büyük ve popüler kayak merkezi, Rovaniemi'den günübirlik veya konaklamalı gidilebilir.",
+      "description_en": "Finland's largest and most popular ski resort, can be visited from Rovaniemi for a day or overnight.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/levi-ski-resort.jpg",
+      "price": "high",
+      "tips": "Kayak sonrası (After-ski) partileri meşhurdur.",
+      "tips_en": "After-ski parties are famous.",
+      "subcategory": "Kayak Merkezi"
+    },
+    {
+      "id": "aavasaksa",
+      "name": "Aavasaksa",
+      "category": "Doğa",
+      "tags": [
+        "view",
+        "midnight sun",
+        "unesco"
+      ],
+      "lat": 66.39999999999999,
+      "lng": 23.7333332,
+      "rating": 4.6,
+      "description": "UNESCO Dünya Mirası listesindeki Struve Jeodezik Yayı'nın bir noktası olan, manzaralı tepe.",
+      "description_en": "Scenic hill which is a point of the UNESCO World Heritage listed Struve Geodetic Arc.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/aavasaksa.jpg",
+      "price": "free",
+      "tips": "Yazın gece yarısı güneşini izlemek için en iyi noktalardandır.",
+      "tips_en": "One of the best spots to watch the midnight sun in summer.",
+      "subcategory": "Tepelik"
+    }
+  ]
+}

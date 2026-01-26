@@ -399,6 +399,8 @@ class _AIChatWidgetState extends State<AIChatWidget>
 // HELPER WIDGETS
 // =============================================================================
 
+import 'package:flutter_markdown/flutter_markdown.dart';
+  
 class ChatMessage {
   final String text;
   final bool isUser;
@@ -417,7 +419,9 @@ class _MessageBubble extends StatelessWidget {
     return Padding(
       padding: const EdgeInsets.only(bottom: 12),
       child: Row(
-        mainAxisAlignment: message.isUser ? MainAxisAlignment.end : MainAxisAlignment.start,
+        mainAxisAlignment:
+            message.isUser ? MainAxisAlignment.end : MainAxisAlignment.start,
+        crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           if (!message.isUser) ...[
             Container(
@@ -441,14 +445,41 @@ class _MessageBubble extends StatelessWidget {
                   bottomLeft: message.isUser ? null : const Radius.circular(4),
                   bottomRight: message.isUser ? const Radius.circular(4) : null,
                 ),
+                boxShadow: [
+                  if (!message.isUser)
+                    BoxShadow(
+                      color: Colors.black.withOpacity(0.05),
+                      blurRadius: 5,
+                      offset: const Offset(0, 2),
+                    ),
+                ],
               ),
-              child: Text(
-                message.text,
-                style: AppTypography.bodyMedium.copyWith(
-                  color: message.isUser ? Colors.white : AppColors.textPrimary,
-                  height: 1.4,
-                ),
-              ),
+              child: message.isUser
+                  ? Text(
+                      message.text,
+                      style: AppTypography.bodyMedium.copyWith(
+                        color: Colors.white,
+                        height: 1.4,
+                      ),
+                    )
+                  : MarkdownBody(
+                      data: message.text,
+                      styleSheet: MarkdownStyleSheet(
+                        p: AppTypography.bodyMedium.copyWith(
+                          color: AppColors.textPrimary,
+                          height: 1.5,
+                        ),
+                        strong: AppTypography.bodyMedium.copyWith(
+                          color: AppColors.primary,
+                          fontWeight: FontWeight.w700,
+                        ),
+                        listBullet: AppTypography.bodyMedium.copyWith(
+                          color: AppColors.primary,
+                        ),
+                        blockSpacing: 12.0,
+                      ),
+                      selectable: true,
+                    ),
             ),
           ),
         ],

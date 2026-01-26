@@ -9,6 +9,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 import 'dart:ui';
 import 'dart:io';
 import 'package:url_launcher/url_launcher.dart';
+import 'package:share_plus/share_plus.dart';
 
 import '../models/city_model.dart';
 import '../services/city_data_loader.dart';
@@ -16,6 +17,8 @@ import '../services/trip_update_service.dart';
 import '../services/badge_service.dart';
 import '../services/memory_service.dart';
 import '../models/travel_memory.dart';
+import '../models/completed_route.dart';
+import '../services/tutorial_service.dart';
 
 import '../l10n/app_localizations.dart';
 import 'detail_screen.dart';
@@ -26,9 +29,13 @@ import 'notifications_screen.dart';
 import '../widgets/add_memory_sheet.dart';
 import '../services/premium_service.dart';
 import 'paywall_screen.dart';
+import 'city_switcher_screen.dart';
+import 'package:tutorial_coach_mark/tutorial_coach_mark.dart';
+import '../widgets/tutorial_overlay_widget.dart';
 
 class ProfileScreen extends StatefulWidget {
-  const ProfileScreen({super.key});
+  final bool isVisible;
+  const ProfileScreen({super.key, this.isVisible = false});
 
   @override
   State<ProfileScreen> createState() => _ProfileScreenState();
@@ -69,19 +76,40 @@ class _ProfileScreenState extends State<ProfileScreen>
   List<Highlight> _favoriteHighlights = [];
   String _currentCityName = "-";
   String _memberSince = "2024";
+  int _completedRoutesCount = 0;
+  List<CompletedRoute> _completedRoutes = [];
   
   late TabController _tabController;
   final BadgeService _badgeService = BadgeService();
   final MemoryService _memoryService = MemoryService();
+  
+  // Scroll Controller
+  final ScrollController _scrollController = ScrollController();
+  bool _showScrollToTop = false;
 
+  // Tutorial Key
+  final GlobalKey _memoriesSectionKey = GlobalKey();
 
   @override
   void initState() {
     super.initState();
-    _tabController = TabController(length: 2, vsync: this);
+    _tabController = TabController(length: 3, vsync: this);
     _tabController.addListener(() {
       if (mounted) setState(() {});
     });
+    
+    // Listen for trip updates to refresh history count
+    TripUpdateService().tripUpdated.addListener(_loadData);
+    
+    // Scroll Listener
+    _scrollController.addListener(() {
+      if (_scrollController.offset > 200) {
+        if (!_showScrollToTop) setState(() => _showScrollToTop = true);
+      } else {
+        if (_showScrollToTop) setState(() => _showScrollToTop = false);
+      }
+    });
+
     _initializeBadges();
     _loadData();
     _memoryService.initialize();
@@ -106,6 +134,12 @@ class _ProfileScreenState extends State<ProfileScreen>
   void _onVisitUpdated() => _loadData();
 
   @override
+  void didUpdateWidget(ProfileScreen oldWidget) {
+    super.didUpdateWidget(oldWidget);
+    // Tutorial triggering is controlled, not automatic
+  }
+
+  @override
   void didChangeDependencies() {
     super.didChangeDependencies();
     _loadData();
@@ -114,7 +148,9 @@ class _ProfileScreenState extends State<ProfileScreen>
   @override
   void dispose() {
     TripUpdateService().visitUpdated.removeListener(_onVisitUpdated);
+    TripUpdateService().tripUpdated.removeListener(_loadData);
     _tabController.dispose();
+    _scrollController.dispose();
     super.dispose();
   }
 
@@ -125,12 +161,22 @@ class _ProfileScreenState extends State<ProfileScreen>
   Future<void> _loadData() async {
     final prefs = await SharedPreferences.getInstance();
 
-    _userName = prefs.getString("user_name") ?? "Gezgin";
+    // Load user name - if not set, it will be empty and handled in build method
+    _userName = prefs.getString("user_name") ?? "";
     _travelStyle = prefs.getString("travelStyle") ?? "Lokal";
     _interests = prefs.getStringList("interests") ?? [];
     _favorites = prefs.getStringList("favorite_places") ?? [];
     _visitedPlaces = prefs.getStringList("visited_places") ?? [];
     _tripPlaces = prefs.getStringList("trip_places") ?? [];
+    _completedRoutesCount = prefs.getInt("completed_routes_count") ?? 0;
+    
+    // Load history
+    final historyJson = prefs.getStringList("completed_routes_history") ?? [];
+    try {
+      _completedRoutes = historyJson.map((e) => CompletedRoute.fromJson(e)).toList();
+    } catch (e) {
+      debugPrint("Error parsing history: $e");
+    }
     
     // Get member since date
     final firstLaunch = prefs.getString("first_launch_date");
@@ -159,16 +205,83 @@ class _ProfileScreenState extends State<ProfileScreen>
     }
 
 
-
     if (!mounted) return;
     setState(() {});
+    
+    // Tutorial Check
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      _checkMemoriesTutorial();
+    });
+  }
+
+  void _checkMemoriesTutorial() {
+    if (!widget.isVisible) return;
+    
+    TutorialService.instance.shouldShowTutorial(TutorialService.KEY_TUTORIAL_MEMORIES).then((shouldShow) {
+      if (shouldShow) {
+        Future.delayed(const Duration(milliseconds: 800), () {
+          if (mounted && widget.isVisible) {
+            _showMemoriesTutorial();
+          }
+        });
+      }
+    });
+  }
+
+  void _showMemoriesTutorial() {
+    late TutorialCoachMark tutorial;
+    tutorial = TutorialCoachMark(
+      targets: [
+        TargetFocus(
+          identify: "memories_section",
+          keyTarget: _memoriesSectionKey,
+          shape: ShapeLightFocus.RRect,
+          radius: 24,
+          paddingFocus: 4,
+          contents: [
+            TargetContent(
+              align: ContentAlign.top,
+              builder: (context, controller) {
+                return TutorialOverlayWidget(
+                  title: "Anılarım",
+                  description: "Seyahatlerinden en güzel anları burada sakla! Fotoğraf ekle, şehirlere göre kategorize et. Her gezi bir hikaye, her anı bir hazine!",
+                  onNext: () {
+                    controller.next();
+                    TutorialService.instance.markTutorialSeen(TutorialService.KEY_TUTORIAL_MEMORIES);
+                  },
+                  onSkip: () => controller.skip(),
+                  currentStep: 1,
+                  totalSteps: 1,
+                  isArrowUp: false,
+                );
+              },
+            ),
+          ],
+        ),
+      ],
+      colorShadow: Colors.black.withOpacity(0.8),
+      textSkip: "Atla",
+      paddingFocus: 0,
+      opacityShadow: 0.9,
+      onFinish: () {
+         TutorialService.instance.markTutorialSeen(TutorialService.KEY_TUTORIAL_MEMORIES);
+      },
+      onClickTarget: (target) {
+         tutorial.next();
+      },
+      onClickOverlay: (target) {
+         tutorial.next();
+      },
+      onSkip: () {
+         TutorialService.instance.skipAllTutorials();
+         return true;
+      },
+    );
+    tutorial.show(context: context);
   }
 
   /// Tüm şehirlerdeki favorileri ve ziyaretleri yükle
   Future<void> _loadAllFavoritesAndVisits() async {
-    _favoriteHighlights = [];
-    _visitedHighlights = [];
-    
     final prefs = await SharedPreferences.getInstance();
     final currentCity = (prefs.getString("selectedCity") ?? "barcelona").toLowerCase();
     
@@ -251,7 +364,10 @@ class _ProfileScreenState extends State<ProfileScreen>
     
     return Scaffold(
       backgroundColor: bgDark,
-      body: CustomScrollView(
+      body: Stack(
+        children: [
+          CustomScrollView(
+            controller: _scrollController,
         physics: const BouncingScrollPhysics(),
         slivers: [
           // Airbnb-style Profile Header (includes stats)
@@ -275,17 +391,57 @@ class _ProfileScreenState extends State<ProfileScreen>
               duration: const Duration(milliseconds: 200),
               child: _tabController.index == 0 
                   ? _buildFavoritesContent() 
-                  : _buildVisitedContent(),
+                  : _tabController.index == 1
+                      ? _buildVisitedContent()
+                      : _buildHistoryContent(),
             ),
           ),
 
           // Settings & More
           SliverToBoxAdapter(child: _buildExpandedSettingsSection(isEnglish)),
 
-          // DEBUG: Reset Button
-          SliverToBoxAdapter(child: _buildDebugResetButton()),
+
+
+
+
 
           const SliverToBoxAdapter(child: SizedBox(height: 100)),
+        ],
+      ),
+          // Scroll-to-top Button
+          if (_showScrollToTop)
+            Positioned(
+              right: 20,
+              bottom: 30,
+              child: AnimatedOpacity(
+                opacity: _showScrollToTop ? 1.0 : 0.0,
+                duration: const Duration(milliseconds: 200),
+                child: GestureDetector(
+                  onTap: () {
+                    HapticFeedback.lightImpact();
+                    _scrollController.animateTo(
+                      0,
+                      duration: const Duration(milliseconds: 500),
+                      curve: Curves.easeOutCubic,
+                    );
+                  },
+                  child: Container(
+                    width: 44,
+                    height: 44,
+                    decoration: BoxDecoration(
+                      color: bgCard.withOpacity(0.8),
+                      shape: BoxShape.circle,
+                      border: Border.all(color: borderColor.withOpacity(0.5)),
+                    ),
+                    child: const Icon(
+                      Icons.keyboard_arrow_up_rounded,
+                      color: textGrey,
+                      size: 28,
+                    ),
+                  ),
+                ),
+              ),
+            ),
         ],
       ),
     );
@@ -368,34 +524,44 @@ class _ProfileScreenState extends State<ProfileScreen>
                             Positioned(
                               bottom: 0,
                               right: 0,
-                              child: Container(
-                                padding: const EdgeInsets.all(4),
-                                decoration: BoxDecoration(
-                                  color: const Color(0xFFE91E63),
-                                  shape: BoxShape.circle,
-                                  border: Border.all(color: bgCard, width: 2),
-                                ),
-                                child: const Icon(Icons.check, color: Colors.white, size: 10),
-                              ),
+                              child: PremiumService.instance.hasFullAccess 
+                                ? Container(
+                                    padding: const EdgeInsets.all(4),
+                                    decoration: BoxDecoration(
+                                      color: WanderlustColors.accent,
+                                      shape: BoxShape.circle,
+                                      border: Border.all(color: bgCard, width: 2),
+                                    ),
+                                    child: const Icon(Icons.check, color: Colors.white, size: 12),
+                                  )
+                                : const SizedBox.shrink(),
                             ),
                           ],
                         ),
                       ),
                       const SizedBox(height: 12),
+                      const SizedBox(height: 12),
                       // Name
-                      Text(
-                        _userName,
-                        style: const TextStyle(
-                          color: textWhite,
-                          fontSize: 18,
-                          fontWeight: FontWeight.w700,
+                      GestureDetector(
+                        onTap: _editName,
+                        child: Row(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: [
+                            Text(
+                              _userName.isNotEmpty 
+                                  ? _userName 
+                                  : (isEnglish ? "Explorer" : "Gezgin"),
+                              style: const TextStyle(
+                                color: textWhite,
+                                fontSize: 18,
+                                fontWeight: FontWeight.w700,
+                              ),
+                              textAlign: TextAlign.center,
+                            ),
+                            const SizedBox(width: 6),
+                            const Icon(Icons.edit, color: textGrey, size: 14),
+                          ],
                         ),
-                        textAlign: TextAlign.center,
-                      ),
-                      const SizedBox(height: 4),
-                      Text(
-                        isEnglish ? "Guest" : "Gezgin",
-                        style: TextStyle(color: textGrey.withOpacity(0.7), fontSize: 13),
                       ),
                     ],
                   ),
@@ -414,34 +580,39 @@ class _ProfileScreenState extends State<ProfileScreen>
                   flex: 1,
                   child: Column(
                     children: [
-                      // Row 1 - Simplified for now as we removed stats object source
+                      // Row 1
                       Row(
-                        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                         children: [
-                          _buildMiniStat(
-                            value: _visitedPlaces.length.toString(),
-                            label: isEnglish ? "Visits" : "Ziyaret",
+                          Expanded(
+                            child: _buildMiniStat(
+                              value: _visitedPlaces.length.toString(),
+                              label: isEnglish ? "Visits" : "Ziyaret",
+                            ),
                           ),
-                          _buildMiniStat(
-                            value: _favorites.length.toString(),
-                            label: isEnglish ? "Favorites" : "Favori",
+                          Expanded(
+                            child: _buildMiniStat(
+                              value: _favorites.length.toString(),
+                              label: isEnglish ? "Favorites" : "Favori",
+                            ),
                           ),
                         ],
                       ),
                       const SizedBox(height: 14),
                       // Row 2
                       Row(
-                        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                         children: [
-                          _buildMiniStat(
-                            value: _tripPlaces.length.toString(),
-                            label: isEnglish ? "Routes" : "Rota",
+                          Expanded(
+                            child: _buildMiniStat(
+                              value: _completedRoutesCount.toString(),
+                              label: isEnglish ? "Routes" : "Rota",
+                            ),
                           ),
-                          _buildMiniStat(
-                            value: "${_badgeService.totalDistanceKm.toStringAsFixed(1)} km",
-                            label: isEnglish ? "Walked" : "Yürüme",
+                          Expanded(
+                            child: _buildMiniStat(
+                              value: "${_badgeService.totalDistanceKm.toStringAsFixed(1)} km",
+                              label: isEnglish ? "Walked" : "Yürüme",
+                            ),
                           ),
-
                         ],
                       ),
                     ],
@@ -499,12 +670,12 @@ class _ProfileScreenState extends State<ProfileScreen>
           ),
           const SizedBox(height: 14),
           Wrap(
-            spacing: 10,
-            runSpacing: 10,
+            spacing: 6,
+            runSpacing: 6,
             children: _interests.map((interest) {
               final iconData = _getInterestIcon(interest);
               return Container(
-                padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 10),
+                padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 6),
                 decoration: BoxDecoration(
                   color: bgCard,
                   borderRadius: BorderRadius.circular(24),
@@ -547,6 +718,7 @@ class _ProfileScreenState extends State<ProfileScreen>
       case 'plaj': return Icons.beach_access_rounded;
       case 'spor': return Icons.sports_soccer_rounded;
       case 'müze': return Icons.museum_rounded;
+      case 'müzik': return Icons.music_note_rounded;
       case 'yerel lezzetler': return Icons.local_dining_rounded;
       default: return Icons.interests_rounded;
     }
@@ -565,6 +737,7 @@ class _ProfileScreenState extends State<ProfileScreen>
     return Padding(
       padding: const EdgeInsets.fromLTRB(16, 20, 16, 0),
       child: Container(
+        key: _memoriesSectionKey,
         decoration: BoxDecoration(
           color: bgCard,
           borderRadius: BorderRadius.circular(24),
@@ -792,15 +965,31 @@ class _ProfileScreenState extends State<ProfileScreen>
               left: 6,
               bottom: 6,
               right: 6,
-              child: Text(
-                memory.cityName,
-                maxLines: 1,
-                overflow: TextOverflow.ellipsis,
-                style: const TextStyle(
-                  color: Colors.white,
-                  fontSize: 10,
-                  fontWeight: FontWeight.w600,
-                ),
+              child: Builder(
+                builder: (context) {
+                  // Localize city name
+                  String displayName = memory.cityName;
+                  if (AppLocalizations.instance.isEnglish) {
+                    final cityData = CitySwitcherScreen.allCities.firstWhere(
+                      (c) => c['name'] == memory.cityName || c['id'] == memory.cityId,
+                      orElse: () => {},
+                    );
+                    if (cityData.isNotEmpty && cityData['name_en'] != null) {
+                      displayName = cityData['name_en'];
+                    }
+                  }
+                  
+                  return Text(
+                    displayName,
+                    maxLines: 1,
+                    overflow: TextOverflow.ellipsis,
+                    style: const TextStyle(
+                      color: Colors.white,
+                      fontSize: 10,
+                      fontWeight: FontWeight.w600,
+                    ),
+                  );
+                }
               ),
             ),
           ],
@@ -818,7 +1007,7 @@ class _ProfileScreenState extends State<ProfileScreen>
         context,
         onDismiss: () => Navigator.pop(context),
         onSubscribe: (planId) async {
-          await PremiumService.instance.purchaseSubscription(planId);
+
         },
       );
       return;
@@ -931,7 +1120,7 @@ class _ProfileScreenState extends State<ProfileScreen>
             child: _buildActionCard(
               icon: Icons.tune_rounded,
               title: AppLocalizations.instance.t("Tercihler", "Preferences"),
-              subtitle: _travelStyle,
+              subtitle: AppLocalizations.instance.translateTravelStyle(_travelStyle),
               onTap: _showPreferencesBottomSheet,
             ),
           ),
@@ -970,7 +1159,7 @@ class _ProfileScreenState extends State<ProfileScreen>
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Text(title, style: TextStyle(color: textGrey, fontSize: 11)),
+                  Text(title, style: TextStyle(color: textGrey, fontSize: 12), maxLines: 1, overflow: TextOverflow.ellipsis),
                   const SizedBox(height: 2),
                   Text(
                     subtitle,
@@ -1014,6 +1203,7 @@ class _ProfileScreenState extends State<ProfileScreen>
         tabs: [
           Tab(text: "${AppLocalizations.instance.favorites} (${_favorites.length})"),
           Tab(text: "${AppLocalizations.instance.visited} (${_visitedPlaces.length})"),
+          Tab(text: "${AppLocalizations.instance.isEnglish ? 'Routes' : 'Rotalar'} (${_completedRoutes.length})"),
         ],
       ),
     );
@@ -1055,6 +1245,367 @@ class _ProfileScreenState extends State<ProfileScreen>
     );
   }
 
+  Widget _buildHistoryContent() {
+    if (_completedRoutes.isEmpty) {
+      return _buildEmptyTab(
+        icon: Icons.history_rounded,
+        title: AppLocalizations.instance.isEnglish ? "No route history" : "Henüz geçmiş rota yok",
+        subtitle: AppLocalizations.instance.isEnglish ? "Complete a route to see it here" : "Burada görmek için bir rota tamamla",
+      );
+    }
+
+    return Padding(
+      padding: const EdgeInsets.fromLTRB(24, 16, 24, 0),
+      child: Column(
+        key: const ValueKey('history'),
+        children: _completedRoutes.map((route) => _buildHistoryCard(route)).toList(),
+      ),
+    );
+  }
+
+  Widget _buildHistoryCard(CompletedRoute route) {
+    return GestureDetector(
+      onTap: () => _showHistoryDetails(route),
+      child: Container(
+        margin: const EdgeInsets.only(bottom: 12),
+        padding: const EdgeInsets.all(16),
+        decoration: BoxDecoration(
+          color: bgCard,
+          borderRadius: BorderRadius.circular(16),
+          border: Border.all(color: borderColor.withOpacity(0.5)),
+        ),
+        child: Row(
+          children: [
+            Container(
+              padding: const EdgeInsets.all(12),
+              decoration: BoxDecoration(
+                color: accent.withOpacity(0.15),
+                borderRadius: BorderRadius.circular(12),
+              ),
+              child: const Icon(Icons.map_outlined, color: accent, size: 24),
+            ),
+            const SizedBox(width: 16),
+            Expanded(
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text(
+                    route.name,
+                    style: const TextStyle(
+                      color: textWhite,
+                      fontSize: 15, // 16 -> 15 (sığması için)
+                      fontWeight: FontWeight.w600,
+                    ),
+                    maxLines: 1,
+                    overflow: TextOverflow.ellipsis,
+                  ),
+                  const SizedBox(height: 4),
+                  Row(
+                    children: [
+                      Text(
+                        "${route.cityName} • ${route.stopCount} ${AppLocalizations.instance.isEnglish ? 'stops' : 'durak'}",
+                        style: TextStyle(color: textGrey.withOpacity(0.8), fontSize: 13),
+                      ),
+                    ],
+                  ),
+                  const SizedBox(height: 2),
+                  Text(
+                    "${route.date.day}.${route.date.month}.${route.date.year}",
+                    style: TextStyle(color: textGrey.withOpacity(0.6), fontSize: 12),
+                  ),
+                ],
+              ),
+            ),
+            const Icon(Icons.chevron_right, color: textGrey, size: 20),
+          ],
+        ),
+      ),
+    );
+  }
+
+  void _showHistoryDetails(CompletedRoute route) {
+    showModalBottomSheet(
+      context: context,
+      backgroundColor: Colors.transparent,
+      isScrollControlled: true,
+      builder: (context) => Container(
+        height: MediaQuery.of(context).size.height * 0.7,
+        decoration: const BoxDecoration(
+          color: bgDark,
+          borderRadius: BorderRadius.vertical(top: Radius.circular(24)),
+        ),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            // Handle
+            Center(
+              child: Container(
+                margin: const EdgeInsets.only(top: 12, bottom: 20),
+                width: 40,
+                height: 4,
+                decoration: BoxDecoration(
+                  color: Colors.white.withOpacity(0.3),
+                  borderRadius: BorderRadius.circular(2),
+                ),
+              ),
+            ),
+            
+            // Header
+            Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 24),
+              child: Row(
+                children: [
+                   Container(
+                    padding: const EdgeInsets.all(12),
+                    decoration: BoxDecoration(
+                      color: accent.withOpacity(0.15),
+                      borderRadius: BorderRadius.circular(14),
+                    ),
+                    child: const Icon(Icons.check_circle, color: accent, size: 28),
+                  ),
+                  const SizedBox(width: 16),
+                  Expanded(
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Text(
+                          route.name,
+                          style: const TextStyle(color: textWhite, fontSize: 20, fontWeight: FontWeight.bold),
+                        ),
+                        const SizedBox(height: 4),
+                        Text(
+                          "${route.cityName} • ${route.date.day}.${route.date.month}.${route.date.year}",
+                          style: const TextStyle(color: textGrey, fontSize: 14),
+                        ),
+                      ],
+                    ),
+                  ),
+                ],
+              ),
+            ),
+            
+            const SizedBox(height: 24),
+            const Padding(
+              padding: EdgeInsets.symmetric(horizontal: 24),
+              child: Divider(color: borderColor),
+            ),
+            const SizedBox(height: 16),
+            
+            // Stops List (with FutureBuilder for images)
+            Expanded(
+              child: FutureBuilder<CityModel>(
+                future: CityDataLoader.loadCity(route.cityName),
+                builder: (context, snapshot) {
+                  if (snapshot.connectionState == ConnectionState.waiting) {
+                    return const Center(child: CircularProgressIndicator(color: accent));
+                  }
+                  
+                  final cityHighlights = snapshot.data?.highlights ?? [];
+                  
+                  return ListView.builder(
+                    padding: const EdgeInsets.symmetric(horizontal: 24),
+                    itemCount: route.placeNames.length,
+                    itemBuilder: (context, index) {
+                      final placeName = route.placeNames[index];
+                      // Find highlight object if available
+                      Highlight? place;
+                      try {
+                        place = cityHighlights.firstWhere((h) => h.name == placeName);
+                      } catch (_) {
+                        // Not found
+                      }
+
+                      return Padding(
+                        padding: const EdgeInsets.only(bottom: 16),
+                        child: place != null 
+                          ? _buildHistoryPlaceCard(place, index) 
+                          : _buildSimpleHistoryRow(placeName, index, isLast: index == route.placeNames.length - 1),
+                      );
+                    },
+                  );
+                },
+              ),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+
+  Widget _buildHistoryPlaceCard(Highlight place, int index) {
+    final hasImage = place.imageUrl != null && place.imageUrl!.isNotEmpty;
+    final color = _getCategoryColor(place.category);
+    
+    return Container(
+      padding: const EdgeInsets.all(10),
+      decoration: BoxDecoration(
+        color: bgCard,
+        borderRadius: BorderRadius.circular(14),
+        border: Border.all(color: borderColor.withOpacity(0.5)),
+      ),
+      child: Row(
+        children: [
+          // Resim + Badge
+          Stack(
+            clipBehavior: Clip.none,
+            children: [
+              ClipRRect(
+                borderRadius: BorderRadius.circular(10),
+                child: SizedBox(
+                   width: 56,
+                   height: 56,
+                   child: hasImage
+                       ? Image.network(
+                           place.imageUrl!,
+                           fit: BoxFit.cover,
+                           errorBuilder: (_, __, ___) => Container(
+                             color: color.withOpacity(0.15),
+                             child: Icon(Icons.place, color: color, size: 24),
+                           ),
+                         )
+                       : Container(
+                           color: color.withOpacity(0.15),
+                           child: Icon(Icons.place, color: color, size: 24),
+                         ),
+                ),
+              ),
+              // Number Badge (-1, -1 offset so it hangs off the corner slightly)
+              Positioned(
+                top: -4,
+                left: -4,
+                child: Container(
+                  width: 22,
+                  height: 22,
+                  decoration: BoxDecoration(
+                    color: accent,
+                    shape: BoxShape.circle,
+                    border: Border.all(color: bgCard, width: 2),
+                    boxShadow: [
+                      BoxShadow(color: Colors.black.withOpacity(0.2), blurRadius: 4),
+                    ],
+                  ),
+                  child: Center(
+                    child: Text(
+                      String.fromCharCode('A'.codeUnitAt(0) + index),
+                      style: const TextStyle(
+                        color: Colors.white,
+                        fontSize: 11,
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
+                  ),
+                ),
+              ),
+            ],
+          ),
+          
+          const SizedBox(width: 12),
+          
+          Expanded(
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text(
+                  place.getLocalizedName(AppLocalizations.instance.isEnglish),
+                  style: const TextStyle(
+                    color: textWhite,
+                    fontSize: 15,
+                    fontWeight: FontWeight.w600,
+                  ),
+                  maxLines: 1,
+                  overflow: TextOverflow.ellipsis,
+                ),
+                const SizedBox(height: 4),
+                Row(
+                  children: [
+                    Container(
+                      padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 2),
+                      decoration: BoxDecoration(
+                        color: bgCardLight,
+                        borderRadius: BorderRadius.circular(4),
+                      ),
+                      child: Text(
+                        place.category,
+                        style: TextStyle(
+                          color: textGrey.withOpacity(0.9),
+                          fontSize: 10,
+                          fontWeight: FontWeight.w500,
+                        ),
+                      ),
+                    ),
+                    const SizedBox(width: 8),
+                    if (place.area.isNotEmpty)
+                      Expanded(
+                        child: Text(
+                          place.area,
+                          style: TextStyle(color: textGrey.withOpacity(0.7), fontSize: 11),
+                          maxLines: 1,
+                          overflow: TextOverflow.ellipsis,
+                        ),
+                      ),
+                  ],
+                ),
+              ],
+            ),
+          ),
+          
+          // Go to details
+          GestureDetector(
+             onTap: () => Navigator.push(
+               context,
+               MaterialPageRoute(builder: (_) => DetailScreen(place: place)),
+             ), 
+             child: const Padding(
+               padding: EdgeInsets.all(4.0),
+               child: Icon(Icons.chevron_right, color: textGrey, size: 20),
+             ),
+          ),
+        ],
+      ),
+    );
+  }
+
+  Widget _buildSimpleHistoryRow(String placeName, int index, {required bool isLast}) {
+     return Row(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        Column(
+          children: [
+            Container(
+              width: 24,
+              height: 24,
+              decoration: BoxDecoration(
+                color: bgCardLight,
+                shape: BoxShape.circle,
+                border: Border.all(color: accent.withOpacity(0.5), width: 2),
+              ),
+              child: Center(
+                child: Text(
+                  String.fromCharCode('A'.codeUnitAt(0) + index),
+                  style: const TextStyle(color: textWhite, fontSize: 11, fontWeight: FontWeight.bold),
+                ),
+              ),
+            ),
+            if (!isLast)
+              Container(
+                width: 2,
+                height: 30,
+                color: borderColor,
+                margin: const EdgeInsets.only(top: 4),
+              ),
+          ],
+        ),
+        const SizedBox(width: 16),
+        Expanded(
+          child: Text(
+            placeName,
+            style: const TextStyle(color: textWhite, fontSize: 16, fontWeight: FontWeight.w500),
+          ),
+        ),
+      ],
+    );
+  }
+
   Widget _buildPlaceCard(Highlight place, {bool isVisited = false}) {
     final hasImage = place.imageUrl != null && place.imageUrl!.isNotEmpty;
     final color = _getCategoryColor(place.category);
@@ -1093,7 +1644,7 @@ class _ProfileScreenState extends State<ProfileScreen>
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Text(
-                    place.name,
+                    place.getLocalizedName(AppLocalizations.instance.isEnglish),
                     style: const TextStyle(color: textWhite, fontSize: 14, fontWeight: FontWeight.w600),
                     maxLines: 1,
                     overflow: TextOverflow.ellipsis,
@@ -1220,7 +1771,13 @@ class _ProfileScreenState extends State<ProfileScreen>
                   trailing: const Icon(Icons.chevron_right, color: textGrey, size: 20),
                   onTap: () {
                     HapticFeedback.lightImpact();
-                    // TODO: Share functionality
+                    final appLink = isEnglish 
+                        ? "https://apps.apple.com/app/my-way-route-planner/id6741743515" 
+                        : "https://apps.apple.com/app/my-way-rota-planlayici/id6741743515";
+                    final message = isEnglish
+                        ? "Hey! Check out My Way for smart city routes and personalized travel plans: $appLink"
+                        : "Hey! Akıllı şehir rotaları ve kişiselleştirilmiş seyahat planları için My Way'i incele: $appLink";
+                    Share.share(message);
                   },
                   showDivider: true,
                 ),
@@ -1230,9 +1787,12 @@ class _ProfileScreenState extends State<ProfileScreen>
                   icon: Icons.star_rounded,
                   title: isEnglish ? "Rate Us" : "Bizi Değerlendir",
                   trailing: const Icon(Icons.chevron_right, color: textGrey, size: 20),
-                  onTap: () {
+                  onTap: () async {
                     HapticFeedback.lightImpact();
-                    // TODO: Open app store rating
+                    final Uri url = Uri.parse("https://apps.apple.com/app/id6741743515?action=write-review");
+                    if (await canLaunchUrl(url)) {
+                      await launchUrl(url, mode: LaunchMode.externalApplication);
+                    }
                   },
                   showDivider: true,
                 ),
@@ -1256,7 +1816,7 @@ class _ProfileScreenState extends State<ProfileScreen>
                   trailing: const Icon(Icons.chevron_right, color: textGrey, size: 20),
                   onTap: () async {
                     HapticFeedback.lightImpact();
-                    final Uri url = Uri.parse("https://www.freeprivacypolicy.com/live/74e14526-9766-4123-b153-f4c027814407"); // Temporary placeholder
+                    final Uri url = Uri.parse("https://mywaytravelapp.com/privacy.html");
                     if (await canLaunchUrl(url)) {
                       await launchUrl(url);
                     }
@@ -1358,9 +1918,23 @@ class _ProfileScreenState extends State<ProfileScreen>
             ),
             const SizedBox(height: 24),
             GestureDetector(
-              onTap: () {
-                // TODO: Open email client
+              onTap: () async {
                 Navigator.pop(context);
+                
+                final Uri emailLaunchUri = Uri(
+                  scheme: 'mailto',
+                  path: 'info@mywaytravelapp.com',
+                  query: isEnglish 
+                      ? 'subject=MyWay Support'
+                      : 'subject=MyWay Destek',
+                );
+
+                if (await canLaunchUrl(emailLaunchUri)) {
+                  await launchUrl(emailLaunchUri);
+                } else {
+                  // Fallback for simulators or no email app
+                  debugPrint("Could not launch email client");
+                }
               },
               child: Container(
                 width: double.infinity,
@@ -1414,11 +1988,13 @@ class _ProfileScreenState extends State<ProfileScreen>
   }
 
   double _getTabContentHeight() {
-    final itemCount = _tabController.index == 0 
-        ? _favoriteHighlights.length 
-        : _visitedHighlights.length;
+    int itemCount = 0;
+    if (_tabController.index == 0) itemCount = _favoriteHighlights.length;
+    else if (_tabController.index == 1) itemCount = _visitedHighlights.length;
+    else itemCount = _completedRoutes.length;
+
     if (itemCount == 0) return 150;
-    return (itemCount * 80.0 + 60);
+    return (itemCount * 90.0 + 60); // Kart yüksekliği biraz daha fazla olabilir
   }
 
   Future<void> _editName() async {
@@ -1429,12 +2005,12 @@ class _ProfileScreenState extends State<ProfileScreen>
       builder: (context) => AlertDialog(
         backgroundColor: bgCard,
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
-        title: const Text("İsim Değiştir", style: TextStyle(color: textWhite)),
+        title: Text(AppLocalizations.instance.editName, style: const TextStyle(color: textWhite)),
         content: TextField(
           controller: controller,
           style: const TextStyle(color: textWhite),
           decoration: InputDecoration(
-            hintText: "İsminizi girin",
+            hintText: AppLocalizations.instance.nameHint,
             hintStyle: const TextStyle(color: textGrey),
             filled: true,
             fillColor: bgCardLight,
@@ -1677,6 +2253,42 @@ class _ProfileScreenState extends State<ProfileScreen>
                             }).toList(),
                           ),
                         ),
+                        const SizedBox(height: 16),
+
+                        // Tutorial Reset
+                        _preferenceSection(
+                          icon: Icons.lightbulb_outline,
+                          title: "Tutorial",
+                          child: GestureDetector(
+                            onTap: () async {
+                              await TutorialService.instance.resetAllTutorials();
+                              if (mounted) {
+                                Navigator.pop(context);
+                                ScaffoldMessenger.of(context).showSnackBar(
+                                  const SnackBar(
+                                    content: Text("Tutoriallar sıfırlandı. Ekranları tekrar ziyaret ettiğinizde göreceksiniz."),
+                                    backgroundColor: accent,
+                                  ),
+                                );
+                              }
+                            },
+                            child: Container(
+                              width: double.infinity,
+                              padding: const EdgeInsets.symmetric(vertical: 14),
+                              decoration: BoxDecoration(
+                                color: bgCard,
+                                borderRadius: BorderRadius.circular(12),
+                                border: Border.all(color: borderColor),
+                              ),
+                              child: const Center(
+                                child: Text(
+                                  "Tutorialları Tekrar Aç", 
+                                  style: TextStyle(color: textWhite, fontWeight: FontWeight.w500, fontSize: 13),
+                                ),
+                              ),
+                            ),
+                          ),
+                        ),
                         const SizedBox(height: 30),
                       ],
                     ),
@@ -1744,29 +2356,9 @@ class _ProfileScreenState extends State<ProfileScreen>
     );
   }
 
-  // ══════════════════════════════════════════════════════════════════════════
-  // DEBUG HELPER (Temporary)
-  // ══════════════════════════════════════════════════════════════════════════
-  Widget _buildDebugResetButton() {
-    return Padding(
-      padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 20),
-      child: TextButton(
-        onPressed: () async {
-          await PremiumService.instance.resetTrial();
-          if (mounted) {
-            ScaffoldMessenger.of(context).showSnackBar(
-              const SnackBar(content: Text('✅ Premium Status Reset! Restart app or refresh.')),
-            );
-            setState(() {});
-          }
-        },
-        child: Text(
-          "Dev: Reset Premium Status (Show PRO Button)",
-          style: TextStyle(color: Colors.red.withOpacity(0.7), fontSize: 12),
-        ),
-      ),
-    );
-  }
+
+
+
 
   Widget _preferenceSection({
     required IconData icon,

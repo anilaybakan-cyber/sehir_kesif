@@ -7,102 +7,28 @@ import '../services/directions_service.dart';
 import '../utils/map_theme.dart';
 import 'detail_screen.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+import '../l10n/app_localizations.dart';
 
 class RouteDetailScreen extends StatefulWidget {
   final List<Highlight> places;
+  final String? routeId; // Static route support
 
-  const RouteDetailScreen({super.key, required this.places});
+  const RouteDetailScreen({super.key, required this.places, this.routeId});
 
   @override
   State<RouteDetailScreen> createState() => _RouteDetailScreenState();
 }
 
 class _RouteDetailScreenState extends State<RouteDetailScreen> {
-  late List<Highlight> routeList;
+  // ... (mevcut kodlar)
 
-  // Tema renkleri
-  static const Color accent = Color(0xFFF5A623);
-
-  GoogleMapController? _mapController;
-  final Set<Marker> _markers = {};
-  final Set<Polyline> _polylines = {};
-  String? _darkMapStyle;
-
-  String _infoDistance = "...";
-  String _infoDuration = "Hesaplanıyor...";
-  bool _isLoadingRoute = true;
-
-  @override
-  void initState() {
-    super.initState();
-    routeList = List<Highlight>.from(widget.places);
-    _loadMapStyle();
-
-    if (routeList.isNotEmpty) {
-      _buildMarkers();
-      _fetchRoute();
-    } else {
-      setState(() => _isLoadingRoute = false);
-    }
-  }
-
-  Future<void> _loadMapStyle() async {
-    // Senkron yükleme
-    setState(() => _darkMapStyle = darkMapStyle);
-    if (_mapController != null) {
-      _mapController!.setMapStyle(darkMapStyle);
-    }
-  }
-
-  void _buildMarkers() {
-    for (int i = 0; i < routeList.length; i++) {
-      final h = routeList[i];
-      _markers.add(
-        Marker(
-          markerId: MarkerId(h.name),
-          position: LatLng(h.lat, h.lng),
-          infoWindow: InfoWindow(title: "${i + 1}. ${h.name}", snippet: h.area),
-          icon: BitmapDescriptor.defaultMarkerWithHue(
-            i == 0
-                ? BitmapDescriptor.hueGreen
-                : (i == routeList.length - 1
-                      ? BitmapDescriptor.hueRed
-                      : BitmapDescriptor.hueOrange), // Azure -> Orange
-          ),
-        ),
-      );
-    }
-  }
-
-  Future<void> _fetchRoute() async {
-    if (routeList.length < 2) {
-      if (mounted) {
-        setState(() {
-          _isLoadingRoute = false;
-          _infoDistance = "0 km";
-          _infoDuration = "0 dk";
-        });
-      }
-      return;
-    }
-
-    final service = DirectionsService();
-
-    final origin = LatLng(routeList.first.lat, routeList.first.lng);
-    final destination = LatLng(routeList.last.lat, routeList.last.lng);
-
-    List<LatLng>? waypoints;
-    if (routeList.length > 2) {
-      waypoints = routeList
-          .sublist(1, routeList.length - 1)
-          .map((h) => LatLng(h.lat, h.lng))
-          .toList();
-    }
+// ...
 
     final result = await service.getDirections(
       origin: origin,
       destination: destination,
       waypoints: waypoints,
+      routeId: widget.routeId, // Pass routeId
     );
 
     if (result != null && mounted) {
@@ -192,8 +118,12 @@ class _RouteDetailScreenState extends State<RouteDetailScreen> {
       "&travelmode=walking",
     );
 
-    if (await canLaunchUrl(url)) {
+    // iOS 26+'da canLaunchUrl bazen false dönebiliyor, direkt deneyelim
+    try {
       await launchUrl(url, mode: LaunchMode.externalApplication);
+    } catch (e) {
+      // Hata durumunda sessizce geç
+      debugPrint('Google Maps açılamadı: $e');
     }
   }
 
@@ -204,8 +134,8 @@ class _RouteDetailScreenState extends State<RouteDetailScreen> {
   Widget build(BuildContext context) {
     if (routeList.isEmpty) {
       return Scaffold(
-        appBar: AppBar(title: const Text("Rota Detayı")),
-        body: const Center(child: Text("Mekan seçilmedi")),
+        appBar: AppBar(title: Text(AppLocalizations.instance.routeDetail)),
+        body: Center(child: Text(AppLocalizations.instance.noPlaceSelected)),
       );
     }
 
@@ -281,8 +211,8 @@ class _RouteDetailScreenState extends State<RouteDetailScreen> {
                     onPressed: () => Navigator.pop(context),
                   ),
                 ),
-                title: const Text(
-                  "Rota Planı",
+                title: Text(
+                  AppLocalizations.instance.routePlan,
                   style: TextStyle(
                     color: Colors.black,
                     fontWeight: FontWeight.bold,
@@ -309,7 +239,7 @@ class _RouteDetailScreenState extends State<RouteDetailScreen> {
             ],
           ),
 
-          // ★★★ Alt kısım sabit "Rotayı Başlat" butonu ★★★
+          // ★★★ Alt kısım sabit AppLocalizations.instance.startRoute butonu ★★★
           Positioned(
             bottom: 20,
             left: 20,
@@ -319,7 +249,7 @@ class _RouteDetailScreenState extends State<RouteDetailScreen> {
               child: Container(
                 padding: const EdgeInsets.symmetric(vertical: 18),
                 decoration: BoxDecoration(
-                  color: const Color(0xFFF5A623),
+                  color: const WanderlustColors.accent,
                   borderRadius: BorderRadius.circular(18),
                   boxShadow: [
                     BoxShadow(
@@ -329,9 +259,9 @@ class _RouteDetailScreenState extends State<RouteDetailScreen> {
                     ),
                   ],
                 ),
-                child: const Center(
+                child: Center(
                   child: Text(
-                    "Rotayı Başlat",
+                    AppLocalizations.instance.startRoute,
                     style: TextStyle(
                       color: Colors.white,
                       fontWeight: FontWeight.w700,
@@ -364,11 +294,11 @@ class _RouteDetailScreenState extends State<RouteDetailScreen> {
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceAround,
         children: [
-          _stat(Icons.timer_outlined, _infoDuration, "Süre"),
+          _stat(Icons.timer_outlined, _infoDuration, AppLocalizations.instance.duration),
           Container(height: 24, width: 1, color: Colors.grey.shade200),
-          _stat(Icons.directions_walk, _infoDistance, "Mesafe"),
+          _stat(Icons.directions_walk, _infoDistance, AppLocalizations.instance.distance),
           Container(height: 24, width: 1, color: Colors.grey.shade200),
-          _stat(Icons.place_outlined, "${routeList.length}", "Durak"),
+          _stat(Icons.place_outlined, "${routeList.length}", AppLocalizations.instance.stop),
         ],
       ),
     );
@@ -380,7 +310,7 @@ class _RouteDetailScreenState extends State<RouteDetailScreen> {
       children: [
         Row(
           children: [
-            Icon(icon, size: 18, color: const Color(0xFFF5A623)),
+            Icon(icon, size: 18, color: const WanderlustColors.accent),
             const SizedBox(width: 6),
             Text(
               val,
@@ -461,7 +391,7 @@ class _RouteDetailScreenState extends State<RouteDetailScreen> {
                         borderRadius: BorderRadius.circular(12),
                       ),
                       child: Text(
-                        "${index + 1}. DURAK",
+                        AppLocalizations.instance.stopNumber(index + 1),
                         style: const TextStyle(
                           color: Colors.white,
                           fontWeight: FontWeight.bold,
@@ -484,7 +414,7 @@ class _RouteDetailScreenState extends State<RouteDetailScreen> {
                         borderRadius: BorderRadius.circular(20),
                       ),
                       child: Text(
-                        place.category.toUpperCase(),
+                        AppLocalizations.instance.translateCategory(place.category).toUpperCase(),
                         style: const TextStyle(
                           fontSize: 10,
                           fontWeight: FontWeight.w900,
@@ -502,7 +432,7 @@ class _RouteDetailScreenState extends State<RouteDetailScreen> {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text(
-                      place.name,
+                      place.getLocalizedName(AppLocalizations.instance.isEnglish),
                       style: const TextStyle(
                         fontSize: 20,
                         fontWeight: FontWeight.w800,
@@ -511,7 +441,7 @@ class _RouteDetailScreenState extends State<RouteDetailScreen> {
                     ),
                     const SizedBox(height: 6),
                     Text(
-                      place.area,
+                      place.area.isNotEmpty ? place.area : (place.city ?? ""),
                       style: TextStyle(
                         color: Colors.grey.shade500,
                         fontSize: 14,
@@ -528,13 +458,13 @@ class _RouteDetailScreenState extends State<RouteDetailScreen> {
                             vertical: 5,
                           ),
                           decoration: BoxDecoration(
-                            color: const Color(0xFFF5A623).withOpacity(0.1),
+                            color: const WanderlustColors.accent.withOpacity(0.1),
                             borderRadius: BorderRadius.circular(8),
                           ),
                           child: Text(
-                            "#$tag",
+                            "#${AppLocalizations.instance.translateCategory(tag)}",
                             style: TextStyle(
-                              color: const Color(0xFFF5A623).withOpacity(0.9),
+                              color: const WanderlustColors.accent.withOpacity(0.9),
                               fontSize: 12,
                               fontWeight: FontWeight.w600,
                             ),

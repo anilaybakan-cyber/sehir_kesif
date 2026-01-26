@@ -1,126 +1,128 @@
+#!/usr/bin/env python3
+"""
+Description Enrichment Script using Gemini API
+Enriches short place descriptions with detailed, guide-style content.
+"""
+
 import json
-import os
-import glob
+import time
+import google.generativeai as genai
 
-# Cities directory
-cities_dir = "/Users/anilebru/Desktop/Uygulamalar/sehir_kesif/assets/cities"
+# Gemini API Configuration
+GEMINI_API_KEY = "AIzaSyDL3n3joYZ_MwVj1lbXF2xTBAEMQqYprYA"
+genai.configure(api_key=GEMINI_API_KEY)
+model = genai.GenerativeModel('gemini-2.0-flash')
 
-# 1. SPECIFIC RICH DESCRIPTIONS (Hand-crafted)
-# -----------------------------------------------------------------------------
-rich_descriptions = {
-    # BARCELONA
-    "Sagrada Familia": "Antoni Gaudí'nin 1882'de devraldığı ve hala yapımı süren dünyaca ünlü bazilika. Gotik ve Art Nouveau tarzlarını birleştiren bu mimari şaheser, her cephesinde İncil'den farklı hikayeleri betimleyen, doğadan esinlenmiş sütunları ve ışık oyunlarıyla büyüleyen bir atmosfere sahip.",
-    "Park Güell": "Gaudí'nin en renkli ve hayal gücünü zorlayan eserlerinden biri. Başlangıçta lüks bir konut sitesi olarak planlanan ancak daha sonra halka açık bir parka dönüşen bu alan, organik formları, ünlü mozaik kertenkelesi ve şehri kuş bakışı gören terasıyla masalsı bir deneyim sunuyor.",
-    "Casa Batlló": "Passeig de Gràcia üzerinde yer alan, 'Kemikler Evi' olarak da bilinen modernizm harikası. Dalgalı cephesi, renkli seramikleri ve ejderha sırtını andıran çatısı, Gaudí'nin doğaya olan tutkusunun en sanatsal dışavurumlarından biridir.",
-    "Casa Milà": "Halk arasında 'La Pedrera' (Taş Ocağı) olarak bilinen Casa Milà, Gaudí'nin tamamladığı son sivil yapıdır. Dalgalı taş cephesi ve sürrealist bacalarıyla ünlü terası, mimarlık tarihinin en ikonik yapılarından biri olarak kabul edilir.",
-    "La Rambla": "Şehrin kalbinin attığı, Placa de Catalunya'dan limana kadar uzanan canlı bulvar. Sokak sanatçıları, çiçekçiler, kafeler ve ünlü La Boqueria pazarıyla dolu bu cadde, Barcelona'nın enerjisini hissetmek için en doğru adres.",
-    "Mercado de La Boqueria": "Avrupa'nın en iyi gıda pazarlarından biri. Taze meyvelerden deniz ürünlerine, jamón tezgahlarından tapas barlarına kadar uzanan renkli ve lezzetli bir dünya. Yerel gastronomiyi keşfetmek için bir cennet.",
-    "Barri Gòtic": "Şehrin en eski yerleşimi olan Gotik Mahalle, dar ve labirent gibi sokaklarıyla Roma döneminden günümüze uzanan bir tarih yolculuğu sunuyor. Katedraller, gizli meydanlar ve antik duvarlar arasında kaybolmak büyüleyici.",
-    "Camp Nou": "Futbol tutkunlarının mabedi ve FC Barcelona'nın evi. Avrupa'nın en büyük stadyumu olmasının yanı sıra, kulübün tarihini anlatan müzesiyle sporseverler için unutulmaz bir deneyim sunuyor.",
-    "Picasso Müzesi": "Ünlü ressam Pablo Picasso'nun erken dönem eserlerine ev sahipliği yapan müze, sanatçının Barcelona ile olan derin bağını gözler önüne seriyor. Beş adet gotik sarayın birleşimiyle oluşan bina, başlı başına bir sanat eseri.",
-    "Barceloneta Plajı": "Şehir merkezine yürüme mesafesinde, Akdeniz'in keyfini çıkarabileceğiniz canlı bir sahil şeridi. Altın sarısı kumları, sahil boyu uzanan restoranları (chiringuitos) ve modern mimarisiyle hem dinlenmek hem eğlenmek için ideal.",
+CITY_FILE = "assets/cities/bruksel.json"
+MIN_DESCRIPTION_LENGTH = 80  # Characters
+TARGET_DESCRIPTION_LENGTH = 200  # Target ~200 chars
 
-    # ISTANBUL
-    "Ayasofya": "Yaklaşık 1500 yıllık tarihiyle dünya mimarlık tarihinin en önemli anıtlarından biri. Bizans ve Osmanlı imparatorluklarına tanıklık etmiş, devasa kubbesi ve eşsiz mozaikleriyle büyüleyen bu yapı, İstanbul'un en ikonik simgesi.",
-    "Topkapı Sarayı": "Osmanlı padişahlarına 400 yıl boyunca ev sahipliği yapmış, imparatorluğun yönetim merkezi. Harem dairesi, Kutsal Emanetler bölümü, ihtişamlı avluları ve eşsiz Boğaz manzarasıyla tarihin kalbinde bir yolculuk.",
-    "Sultanahmet Camii": "İç mekanını süsleyen 20.000'den fazla mavi İznik çinisi nedeniyle 'Blue Mosque' olarak da bilinir. 6 minaresi ve zarif kubbe yapısıyla Osmanlı mimarisinin zirve noktalarından biri.",
-    "Kapalıçarşı": "Dünyanın en eski ve en büyük kapalı çarşılarından biri. Labirent gibi sokaklarında kuyumculardan halıcılara, baharatçılardan antikacılara kadar binlerce dükkanın yer aldığı, ticaretin ve tarihin yaşayan merkezi.",
-    "Galata Kulesi": "Cenevizlilerden kalma tarihi kule, İstanbul'un en güzel panoramik manzaralarından birini sunuyor. Tarih boyunca gözetleme kulesi, hapishane ve rasathane olarak kullanılan yapı, günümüzde şehrin en popüler seyir terası.",
-    "Yerebatan Sarnıcı": "Bizans döneminden kalma bu büyüleyici yeraltı sarnıcı, suyun içinden yükselen yüzlerce mermer sütunu ve gizemli Medusa başlarıyla ziyaretçilerini mistik bir atmosfere davet ediyor.",
-    "Dolmabahçe Sarayı": "Osmanlı'nın son dönem ihtişamını yansıtan, Avrupa barok tarzında inşa edilmiş saray. Atatürk'ün hayata gözlerini yumduğu yer olmasıyla da Türk milleti için ayrı bir manevi değere sahip.",
-    "Mısır Çarşısı": "Tarihi İpek Yolu'nun son duraklarından biri. Rengarenk baharatlar, lokumlar, kuruyemişler ve şifalı otlarla dolu tezgahlarıyla hem göze hem damağa hitap eden, kokusuyla baş döndüren bir çarşı.",
-    "Taksim Meydanı": "Modern İstanbul'un kalbi ve buluşma noktası. Cumhuriyet Anıtı'na ev sahipliği yapan meydan, ünlü İstiklal Caddesi'nin başlangıcı olup, şehrin en canlı, kozmopolit ve hareketli noktasıdır.",
-    "Kız Kulesi": "İstanbul Boğazı'nın ortasında süzülen, hakkında sayısız efsane anlatılan zarif yapı. 2500 yıllık tarihiyle şehrin romantik simgesi ve Asya ile Avrupa arasındaki eşsiz bir nöbetçi.",
-}
-
-# 2. TEMPLATES (For places without specific descriptions)
-# -----------------------------------------------------------------------------
-templates = {
-    "Tarihi": "{name}, {area} bölgesinin tarihine ışık tutan önemli bir yapı. Geçmişin izlerini günümüze taşıyan mimarisi ve kültürel mirasıyla, tarih meraklıları için keşfedilmeyi bekleyen bir hazine.",
-    "Manzara": "{name}, şehrin en etkileyici manzaralarından birine ev sahipliği yapıyor. Özellikle gün batımında sunduğu görsel şölen ve {area} bölgesine hakim konumuyla fotoğraf tutkunları için vazgeçilmez bir nokta.",
-    "Park": "{name}, şehir hayatının karmaşasından uzaklaşıp nefes almak isteyenler için {area} bölgesinde yeşil bir vaha. Yürüyüş yolları, dinlenme alanları ve huzurlu atmosferiyle doğayla baş başa kalmak için ideal.",
-    "Müze": "{name}, zengin koleksiyonu ve etkileyici sergileriyle kültür sanat severlerin uğrak noktası. {area} bölgesinde yer alan mekan, ziyaretçilerine ilham verici ve öğretici bir deneyim sunuyor.",
-    "Restoran": "{name}, {area} bölgesinin en popüler lezzet duraklarından biri. Özenle hazırlanan menüsü, kaliteli hizmeti ve {subcategory} mutfağının seçkin örnekleriyle hem göze hem damağa hitap ediyor.",
-    "Kafe": "{name}, {area} sokaklarında keyifli bir mola vermek için harika bir seçenek. Samimi atmosferi, lezzetli kahveleri ve tatlılarıyla gününüze enerji katacak sıcak bir mekan.",
-    "Bar": "{name}, {area} gece hayatının nabzını tutan, enerjisi yüksek bir mekan. Özel kokteylleri, müziği ve canlı atmosferiyle arkadaşlarınızla keyifli vakit geçirebileceğiniz popüler bir adres.",
-    "Alışveriş": "{name}, {area} bölgesinde alışveriş tutkunları için çeşitli seçenekler sunuyor. Yerel tasarımlardan popüler markalara kadar aradığınız pek çok şeyi bulabileceğiniz canlı bir nokta.",
-    "Plaj": "{name}, güneşin ve denizin tadını çıkarmak isteyenler için mükemmel bir kaçış noktası. Temiz kumsalı ve ferah atmosferiyle yaz günlerinin vazgeçilmez adresi.",
-    "Semt": "{name}, şehrin en karakteristik bölgelerinden biri. Renkli sokakları, yerel dükkanları ve kendine has dokusuyla {area} ruhunu en iyi yansıtan, keşfetmeye doyamayacağınız bir semt.",
-    "Semt": "{name}, şehrin en karakteristik bölgelerinden biri. Renkli sokakları, yerel dükkanları ve kendine has dokusuyla {area} ruhunu en iyi yansıtan, keşfetmeye doyamayacağınız bir semt.",
-    "Meydan": "{name}, şehrin ritminin hissedildiği canlı bir buluşma noktası. Tarihi dokusu ve çevresindeki mekanlarla {area} bölgesinin sosyal hayatının kalbi konumunda.",
-    "Eğlence": "{name}, {area} bölgesinde keyifli vakit geçirmek isteyenler için ideal bir durak. Sunduğu aktiviteler ve atmosferiyle ziyaretçilerine unutulmaz anlar yaşatıyor.",
-    "Sanat": "{name}, sanatseverler için ilham verici bir merkez. {area} bölgesinde yer alan mekan, özgün eserleri ve kültürel atmosferiyle ziyaretçilerini büyüleyici bir yolculuğa çıkarıyor."
-}
-
-def generate_description(place, city_name=""):
-    name = place.get("name", "")
-    category = place.get("category", "")
-    area = place.get("area", "Şehir Merkezi")
-    subcategory = place.get("subcategory", "yerel")
+def generate_rich_description(place_name, name_en, category, tags, current_desc, city_name="Brüksel"):
+    """Generate a rich, guide-style description using Gemini."""
     
-    # 1. Check specific descriptions first
-    for key, desc in rich_descriptions.items():
-        if key == name: 
-            return desc
-        if key in name and len(key) > 5:
-            return desc
+    prompt = f"""Sen bir profesyonel seyahat rehberisin. Aşağıdaki yer için Türkçe bir açıklama yaz.
 
-    # 2. Check current description length
-    # EXCEPTION: For Barcelona, we overwrite EVERYTHING (unless it matches the specific description we just returned)
-    current_desc = place.get("description", "")
-    if len(current_desc) > 120 and city_name != "Barcelona":
-        return current_desc
+Yer: {place_name} ({name_en})
+Şehir: {city_name}
+Kategori: {category}
+Etiketler: {', '.join(tags) if tags else 'Yok'}
+Mevcut kısa açıklama: {current_desc}
 
-    # 3. Use template
-    if category in templates:
-        return templates[category].format(
-            name=name, 
-            area=area, 
-            subcategory=subcategory.lower() if subcategory else "yerel"
-        )
+KURALLAR:
+1. Açıklama 150-250 karakter arasında olmalı (2-3 cümle)
+2. Rehber tarzında, samimi ve bilgilendirici ol
+3. Tarihi/kültürel bağlam ekle
+4. Ziyaretçiye pratik değer kat (ne görecek, ne hissedecek)
+5. Abartılı sıfatlardan kaçın, gerçekçi ol
+6. Sadece açıklama metnini döndür, başka bir şey ekleme
+
+ÖRNEK ÇIKTI:
+"Brugge'ün en huzurlu kanallarından biri olan Langerei, turistik kalabalıktan uzak yerel yaşamı deneyimleyebileceğiniz rüya gibi bir güzergah sunar. 14. yüzyıldan beri şehrin önemli su yollarından biri olan bu kanal boyunca tarihi tuğla evler ve söğüt ağaçları eşlik eder."
+
+Şimdi {place_name} için açıklama yaz:"""
+
+    try:
+        response = model.generate_content(prompt)
+        new_desc = response.text.strip().strip('"').strip("'")
+        # Remove any markdown or extra formatting
+        new_desc = new_desc.replace("**", "").replace("*", "")
+        return new_desc
+    except Exception as e:
+        print(f"  ⚠ Gemini error for {place_name}: {e}")
+        return None
+
+def generate_english_description(place_name, turkish_desc):
+    """Translate Turkish description to English."""
     
-    # 4. Fallback (Force update for Barcelona)
-    fallback_desc = f"{name}, {area} bölgesinde yer alan ve ziyaretçilerine {subcategory if subcategory else 'keyifli'} bir deneyim sunan popüler bir {category.lower()} noktası. Şehrin dokusunu hissetmek için harika bir durak."
+    prompt = f"""Translate this Turkish travel description to English. Keep the same guide-style tone.
+
+Turkish: {turkish_desc}
+
+Just return the English translation, nothing else:"""
+
+    try:
+        response = model.generate_content(prompt)
+        return response.text.strip().strip('"').strip("'")
+    except Exception as e:
+        print(f"  ⚠ Translation error: {e}")
+        return None
+
+def enrich_descriptions():
+    """Main function to enrich short descriptions."""
     
-    if city_name == "Barcelona":
-        return fallback_desc
+    print(f"Loading {CITY_FILE}...")
+    with open(CITY_FILE, 'r', encoding='utf-8') as f:
+        data = json.load(f)
+    
+    highlights = data.get('highlights', [])
+    short_count = 0
+    enriched_count = 0
+    
+    # Find places with short descriptions
+    for i, place in enumerate(highlights):
+        desc = place.get('description', '')
         
-    return current_desc if current_desc else fallback_desc
-
-def process_files():
-    json_files = glob.glob(os.path.join(cities_dir, "*.json"))
-    print(f"Found {len(json_files)} JSON files.")
-    
-    total_updated = 0
-    
-    for file_path in json_files:
-        try:
-            with open(file_path, 'r', encoding='utf-8') as f:
-                data = json.load(f)
+        if len(desc) < MIN_DESCRIPTION_LENGTH:
+            short_count += 1
+            print(f"\n[{short_count}] {place.get('name', 'Unknown')} - Current: {len(desc)} chars")
+            print(f"    Old: {desc[:60]}...")
             
-            city_name = data.get("city", "Unknown")
-            highlights = data.get("highlights", [])
-            updated_count = 0
+            # Generate rich description
+            new_desc = generate_rich_description(
+                place_name=place.get('name', ''),
+                name_en=place.get('name_en', ''),
+                category=place.get('category', ''),
+                tags=place.get('tags', []),
+                current_desc=desc
+            )
             
-            for place in highlights:
-                new_desc = generate_description(place, city_name)
-                # Only update if description changed
-                if new_desc != place.get("description", ""):
-                    place["description"] = new_desc
-                    updated_count += 1
-            
-            if updated_count > 0:
-                with open(file_path, 'w', encoding='utf-8') as f:
-                    json.dump(data, f, ensure_ascii=False, indent=2)
-                print(f"Updated {city_name}: Enriched {updated_count} descriptions.")
-                total_updated += updated_count
-            else:
-                print(f"Skipped {city_name}: No updates needed.")
+            if new_desc and len(new_desc) > len(desc):
+                # Also generate English version
+                new_desc_en = generate_english_description(place.get('name', ''), new_desc)
                 
-        except Exception as e:
-            print(f"Error processing {file_path}: {e}")
+                highlights[i]['description'] = new_desc
+                if new_desc_en:
+                    highlights[i]['description_en'] = new_desc_en
+                
+                enriched_count += 1
+                print(f"    New: {new_desc[:80]}...")
+                print(f"    Length: {len(desc)} → {len(new_desc)} chars ✓")
             
-    print(f"Finished! Total {total_updated} descriptions enriched.")
+            # Rate limiting
+            time.sleep(1)
+            
+            # Process in batches of 20
+            if short_count >= 20:
+                print(f"\n--- Batch complete: {enriched_count}/{short_count} enriched ---")
+                break
+    
+    # Save updated data
+    data['highlights'] = highlights
+    with open(CITY_FILE, 'w', encoding='utf-8') as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+    
+    print(f"\n✅ Enriched {enriched_count} descriptions in {CITY_FILE}")
+    return enriched_count
 
 if __name__ == "__main__":
-    process_files()
+    enrich_descriptions()

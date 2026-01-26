@@ -2,6 +2,7 @@
 // CITY SWITCHER SCREEN - MODAL BOTTOM SHEET VERSION
 // Dark theme, açılır pencere şeklinde
 // 6 şehir: Barcelona, Paris, Roma, İstanbul, Amsterdam, Tokyo
+// "Henüz karar vermedim" seçeneği eklendi
 // =============================================================================
 
 import 'dart:ui';
@@ -11,6 +12,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 import '../services/trip_update_service.dart';
 import '../l10n/app_localizations.dart';
 import '../theme/wanderlust_colors.dart';
+import 'dart:math'; // Added for random if needed, but using microsecond/millisecond logic is fine or import math
 
 class CitySwitcherScreen extends StatefulWidget {
   final bool isOnboarding;
@@ -31,68 +33,68 @@ class CitySwitcherScreen extends StatefulWidget {
   }
 
   static final List<Map<String, dynamic>> allCities = [
-    {"id": "amsterdam", "name": "Amsterdam", "country": "Hollanda", "flag": "🇳🇱", "networkImage": "https://images.unsplash.com/photo-1534351590666-13e3e96b5017?w=800"},
-    {"id": "antalya", "name": "Antalya", "country": "Türkiye", "flag": "🇹🇷", "networkImage": "https://emaadmin.emahouses.com//Content/Blog/pVPrGzHbS\u0131dfdsfsd.jpg"},
-    {"id": "atina", "name": "Atina", "country": "Yunanistan", "flag": "🇬🇷", "networkImage": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/atina/akropolis.jpg"},
-    {"id": "bangkok", "name": "Bangkok", "country": "Tayland", "flag": "🇹🇭", "networkImage": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bangkok/grand_palace.jpg"},
-    {"id": "barcelona", "name": "Barcelona", "country": "İspanya", "flag": "🇪🇸", "networkImage": "https://images.unsplash.com/photo-1583422409516-2895a77efded?w=800"},
-    {"id": "belgrad", "name": "Belgrad", "country": "Sırbistan", "flag": "🇷🇸", "networkImage": "https://cdnp.flypgs.com/files/Sehirler-long-tail/Belgrad/belgrad_otelleri.jpg"},
-    {"id": "berlin", "name": "Berlin", "country": "Almanya", "flag": "🇩🇪", "networkImage": "https://images.unsplash.com/photo-1560969184-10fe8719e047?w=800"},
-    {"id": "bruksel", "name": "Brüksel", "country": "Belçika", "flag": "🇧🇪", "networkImage": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Grand_Place_Bruselas_2.jpg"},
-    {"id": "budapeste", "name": "Budapeşte", "country": "Macaristan", "flag": "🇭🇺", "networkImage": "https://images.contentstack.io/v3/assets/blt06f605a34f1194ff/bltfde92aef92ecf073/6787eae0bf32fe28813c50fe/BCC-2024-EXPLORER-BUDAPEST-LANDMARKS-HEADER-_MOBILE.jpg?fit=crop&disable=upscale&auto=webp&quality=60&crop=smart"},
-    {"id": "cenevre", "name": "Cenevre", "country": "İsviçre", "flag": "🇨🇭", "networkImage": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/cenevre/jet_deau.jpg"},
-    {"id": "dubai", "name": "Dubai", "country": "BAE", "flag": "🇦🇪", "networkImage": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=800"},
-    {"id": "dublin", "name": "Dublin", "country": "İrlanda", "flag": "🇮🇪", "networkImage": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/dublin/temple_bar.jpg"},
-    {"id": "edinburgh", "name": "Edinburgh", "country": "İskoçya", "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿", "networkImage": "https://images.contentstack.io/v3/assets/blt06f605a34f1194ff/blt9d8daa2acc7bb33c/6797dc563b4101992b03092a/iStock-1153650218-MOBILE-HEADER.jpg?fit=crop&disable=upscale&auto=webp&quality=60&crop=smart"},
-    {"id": "fes", "name": "Fes", "country": "Fas", "flag": "🇲🇦", "networkImage": "https://images.unsplash.com/photo-1548013146-72479768bada?w=800"},
-    {"id": "floransa", "name": "Floransa", "country": "İtalya", "flag": "🇮🇹", "networkImage": "https://italien.expert/wp-content/uploads/2021/05/Florenz-Toskana-Italien0.jpg"},
-    {"id": "hongkong", "name": "Hong Kong", "country": "Çin (ÖİB)", "flag": "🇭🇰", "networkImage": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/hongkong/victoria_peak.jpg"},
-    {"id": "istanbul", "name": "İstanbul", "country": "Türkiye", "flag": "🇹🇷", "networkImage": "https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?w=800"},
-    {"id": "kahire", "name": "Kahire", "country": "Mısır", "flag": "🇪🇬", "networkImage": "https://gezimanya.com/sites/default/files/styles/800x600_/public/lokasyon-detay/2019-11/image-explore-ancient-egypt-merl.jpg"},
-    {"id": "kapadokya", "name": "Kapadokya", "country": "Türkiye", "flag": "🇹🇷", "networkImage": "https://images.unsplash.com/photo-1641128324972-af3212f0f6bd?w=800"},
-    {"id": "kopenhag", "name": "Kopenhag", "country": "Danimarka", "flag": "🇩🇰", "networkImage": "https://images.unsplash.com/photo-1513622470522-26c3c8a854bc?w=800"},
-    {"id": "kotor", "name": "Kotor", "country": "Karadağ", "flag": "🇲🇪", "networkImage": "https://www.etstur.com/letsgo/wp-content/uploads/2025/12/montenegro-kotorda-gezilecek-yerler-en-populer-rotalar-guncel-liste-1024x576.png"},
-    {"id": "lizbon", "name": "Lizbon", "country": "Portekiz", "flag": "🇵🇹", "networkImage": "https://images.unsplash.com/photo-1585208798174-6cedd86e019a?w=800"},
-    {"id": "londra", "name": "Londra", "country": "İngiltere", "flag": "🇬🇧", "networkImage": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=800"},
-    {"id": "lucerne", "name": "Lucerne", "country": "İsviçre", "flag": "🇨🇭", "networkImage": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/lucerne/chapel_bridge_kapellbrucke.jpg"},
-    {"id": "lyon", "name": "Lyon", "country": "Fransa", "flag": "🇫🇷", "networkImage": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/lyon/basilica_of_notre_dame_de_fourviere.jpg"},
-    {"id": "madrid", "name": "Madrid", "country": "İspanya", "flag": "🇪🇸", "networkImage": "https://images.unsplash.com/photo-1539037116277-4db20889f2d4?w=800"},
-    {"id": "marakes", "name": "Marakeş", "country": "Fas", "flag": "🇲🇦", "networkImage": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/marakes/jemaa_el_fna.jpg"},
-    {"id": "marsilya", "name": "Marsilya", "country": "Fransa", "flag": "🇫🇷", "networkImage": "https://images.contentstack.io/v3/assets/blt06f605a34f1194ff/blt0feb4d48a3fc134c/67c5fafa304ea9666082ff3e/iStock-956215674-2-Header_Mobile.jpg?fit=crop&disable=upscale&auto=webp&quality=60&crop=smart"},
-    {"id": "midilli", "name": "Midilli", "country": "Yunanistan", "flag": "🇬🇷", "networkImage": "https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?w=800"},
-    {"id": "milano", "name": "Milano", "country": "İtalya", "flag": "🇮🇹", "networkImage": "https://images.unsplash.com/photo-1520440229-6469a149ac59?w=800"},
-    {"id": "napoli", "name": "Napoli", "country": "İtalya", "flag": "🇮🇹", "networkImage": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?w=800"},
-    {"id": "newyork", "name": "New York", "country": "ABD", "flag": "🇺🇸", "networkImage": "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?w=800"},
-    {"id": "nice", "name": "Nice", "country": "Fransa", "flag": "🇫🇷", "networkImage": "https://www.flypgs.com/blog/wp-content/uploads/2024/05/nice-sahilleri.jpeg"},
-    {"id": "oslo", "name": "Oslo", "country": "Norveç", "flag": "🇳🇴", "networkImage": "https://www.journavel.com/wp-content/uploads/2024/10/IMG_1851-scaled.webp"},
-    {"id": "paris", "name": "Paris", "country": "Fransa", "flag": "🇫🇷", "networkImage": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=800"},
-    {"id": "porto", "name": "Porto", "country": "Portekiz", "flag": "🇵🇹", "networkImage": "https://images.unsplash.com/photo-1555881400-74d7acaacd8b?w=800"},
-    {"id": "prag", "name": "Prag", "country": "Çekya", "flag": "🇨🇿", "networkImage": "https://images.unsplash.com/photo-1541849546-216549ae216d?w=800"},
-    {"id": "roma", "name": "Roma", "country": "İtalya", "flag": "🇮🇹", "networkImage": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?w=800"},
-    {"id": "saraybosna", "name": "Saraybosna", "country": "Bosna Hersek", "flag": "🇧🇦", "networkImage": "https://images.themagger.net/wp-content/uploads/2022/12/saraybosna-kapak-633x433.jpg"},
-    {"id": "seul", "name": "Seul", "country": "Güney Kore", "flag": "🇰🇷", "networkImage": "https://www.agoda.com/wp-content/uploads/2019/03/Seoul-attractions-Gyeongbokgung-palace.jpg"},
-    {"id": "sevilla", "name": "Sevilla", "country": "İspanya", "flag": "🇪🇸", "networkImage": "https://images.unsplash.com/photo-1558370781-d6196949e317?w=800"},
-    {"id": "singapur", "name": "Singapur", "country": "Singapur", "flag": "🇸🇬", "networkImage": "https://images.unsplash.com/photo-1525625293386-3f8f99389edd?w=800"},
-    {"id": "stockholm", "name": "Stockholm", "country": "İsveç", "flag": "🇸🇪", "networkImage": "https://images.unsplash.com/photo-1509356843151-3e7d96241e11?w=800"},
-    {"id": "strazburg", "name": "Strazburg", "country": "Fransa", "flag": "🇫🇷", "networkImage": "https://www.avruparuyasi.com.tr/uploads/tour-gallery/36c44666-5e5a-4c2d-a341-2fa8285c3fb6.webp"},
-    {"id": "tokyo", "name": "Tokyo", "country": "Japonya", "flag": "🇯🇵", "networkImage": "https://img.piri.net/mnresize/900/-/resim/imagecrop/2023/01/17/11/54/resized_d9b02-8b17feafkapak2.jpg"},
-    {"id": "venedik", "name": "Venedik", "country": "İtalya", "flag": "🇮🇹", "networkImage": "https://images.unsplash.com/photo-1514890547357-a9ee288728e0?w=800"},
-    {"id": "viyana", "name": "Viyana", "country": "Avusturya", "flag": "🇦🇹", "networkImage": "https://images.unsplash.com/photo-1516550893923-42d28e5677af?w=800"},
-    {"id": "zurih", "name": "Zürih", "country": "İsviçre", "flag": "🇨🇭", "networkImage": "https://images.unsplash.com/photo-1515488764276-beab7607c1e6?w=800"},
+    {"id": "amsterdam", "name": "Amsterdam", "name_en": "Amsterdam", "country": "Hollanda", "country_en": "Netherlands", "flag": "🇳🇱", "networkImage": "https://images.unsplash.com/photo-1534351590666-13e3e96b5017?w=800"},
+    {"id": "antalya", "name": "Antalya", "name_en": "Antalya", "country": "Türkiye", "country_en": "Turkey", "flag": "🇹🇷", "networkImage": "https://emaadmin.emahouses.com//Content/Blog/pVPrGzHbS\u0131dfdsfsd.jpg"},
+    {"id": "atina", "name": "Atina", "name_en": "Athens", "country": "Yunanistan", "country_en": "Greece", "flag": "🇬🇷", "networkImage": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/atina/akropolis.jpg"},
+    {"id": "bangkok", "name": "Bangkok", "name_en": "Bangkok", "country": "Tayland", "country_en": "Thailand", "flag": "🇹🇭", "networkImage": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bangkok/grand_palace.jpg"},
+    {"id": "barcelona", "name": "Barcelona", "name_en": "Barcelona", "country": "İspanya", "country_en": "Spain", "flag": "🇪🇸", "networkImage": "https://images.unsplash.com/photo-1583422409516-2895a77efded?w=800"},
+    {"id": "belgrad", "name": "Belgrad", "name_en": "Belgrade", "country": "Sırbistan", "country_en": "Serbia", "flag": "🇷🇸", "networkImage": "https://cdnp.flypgs.com/files/Sehirler-long-tail/Belgrad/belgrad_otelleri.jpg"},
+    {"id": "berlin", "name": "Berlin", "name_en": "Berlin", "country": "Almanya", "country_en": "Germany", "flag": "🇩🇪", "networkImage": "https://images.unsplash.com/photo-1560969184-10fe8719e047?w=800"},
+    {"id": "bruksel", "name": "Brüksel", "name_en": "Brussels", "country": "Belçika", "country_en": "Belgium", "flag": "🇧🇪", "networkImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Grand_Place_Bruselas_2.jpg/1280px-Grand_Place_Bruselas_2.jpg"},
+    {"id": "budapeste", "name": "Budapeşte", "name_en": "Budapest", "country": "Macaristan", "country_en": "Hungary", "flag": "🇭🇺", "networkImage": "https://images.contentstack.io/v3/assets/blt06f605a34f1194ff/bltfde92aef92ecf073/6787eae0bf32fe28813c50fe/BCC-2024-EXPLORER-BUDAPEST-LANDMARKS-HEADER-_MOBILE.jpg?fit=crop&disable=upscale&auto=webp&quality=60&crop=smart"},
+    {"id": "cenevre", "name": "Cenevre", "name_en": "Geneva", "country": "İsviçre", "country_en": "Switzerland", "flag": "🇨🇭", "networkImage": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/cenevre/jet_deau.jpg"},
+    {"id": "dubai", "name": "Dubai", "name_en": "Dubai", "country": "BAE", "country_en": "UAE", "flag": "🇦🇪", "networkImage": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=800"},
+    {"id": "dublin", "name": "Dublin", "name_en": "Dublin", "country": "İrlanda", "country_en": "Ireland", "flag": "🇮🇪", "networkImage": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/dublin/temple_bar.jpg"},
+    {"id": "edinburgh", "name": "Edinburgh", "name_en": "Edinburgh", "country": "İskoçya", "country_en": "Scotland", "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿", "networkImage": "https://images.contentstack.io/v3/assets/blt06f605a34f1194ff/blt9d8daa2acc7bb33c/6797dc563b4101992b03092a/iStock-1153650218-MOBILE-HEADER.jpg?fit=crop&disable=upscale&auto=webp&quality=60&crop=smart"},
+    {"id": "fes", "name": "Fes", "name_en": "Fez", "country": "Fas", "country_en": "Morocco", "flag": "🇲🇦", "networkImage": "https://images.unsplash.com/photo-1548013146-72479768bada?w=800"},
+    {"id": "floransa", "name": "Floransa", "name_en": "Florence", "country": "İtalya", "country_en": "Italy", "flag": "🇮🇹", "networkImage": "https://italien.expert/wp-content/uploads/2021/05/Florenz-Toskana-Italien0.jpg"},
+    {"id": "hongkong", "name": "Hong Kong", "name_en": "Hong Kong", "country": "Çin (ÖİB)", "country_en": "China (SAR)", "flag": "🇭🇰", "networkImage": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/hongkong/victoria_peak.jpg"},
+    {"id": "istanbul", "name": "İstanbul", "name_en": "Istanbul", "country": "Türkiye", "country_en": "Turkey", "flag": "🇹🇷", "networkImage": "https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?w=800"},
+    {"id": "kahire", "name": "Kahire", "name_en": "Cairo", "country": "Mısır", "country_en": "Egypt", "flag": "🇪🇬", "networkImage": "https://gezimanya.com/sites/default/files/styles/800x600_/public/lokasyon-detay/2019-11/image-explore-ancient-egypt-merl.jpg"},
+    {"id": "kapadokya", "name": "Kapadokya", "name_en": "Cappadocia", "country": "Türkiye", "country_en": "Turkey", "flag": "🇹🇷", "networkImage": "https://images.unsplash.com/photo-1641128324972-af3212f0f6bd?w=800"},
+    {"id": "kopenhag", "name": "Kopenhag", "name_en": "Copenhagen", "country": "Danimarka", "country_en": "Denmark", "flag": "🇩🇰", "networkImage": "https://images.unsplash.com/photo-1513622470522-26c3c8a854bc?w=800"},
+    {"id": "kotor", "name": "Kotor", "name_en": "Kotor", "country": "Karadağ", "country_en": "Montenegro", "flag": "🇲🇪", "networkImage": "https://www.etstur.com/letsgo/wp-content/uploads/2025/12/montenegro-kotorda-gezilecek-yerler-en-populer-rotalar-guncel-liste-1024x576.png"},
+    {"id": "lizbon", "name": "Lizbon", "name_en": "Lisbon", "country": "Portekiz", "country_en": "Portugal", "flag": "🇵🇹", "networkImage": "https://images.unsplash.com/photo-1585208798174-6cedd86e019a?w=800"},
+    {"id": "londra", "name": "Londra", "name_en": "London", "country": "İngiltere", "country_en": "United Kingdom", "flag": "🇬🇧", "networkImage": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=800"},
+    {"id": "lucerne", "name": "Lucerne", "name_en": "Lucerne", "country": "İsviçre", "country_en": "Switzerland", "flag": "🇨🇭", "networkImage": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/lucerne/chapel_bridge_kapellbrucke.jpg"},
+    {"id": "lyon", "name": "Lyon", "name_en": "Lyon", "country": "Fransa", "country_en": "France", "flag": "🇫🇷", "networkImage": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/lyon/basilica_of_notre_dame_de_fourviere.jpg"},
+    {"id": "madrid", "name": "Madrid", "name_en": "Madrid", "country": "İspanya", "country_en": "Spain", "flag": "🇪🇸", "networkImage": "https://images.unsplash.com/photo-1539037116277-4db20889f2d4?w=800"},
+    {"id": "marakes", "name": "Marakeş", "name_en": "Marrakech", "country": "Fas", "country_en": "Morocco", "flag": "🇲🇦", "networkImage": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/marakes/jemaa_el_fna.jpg"},
+    {"id": "marsilya", "name": "Marsilya", "name_en": "Marseille", "country": "Fransa", "country_en": "France", "flag": "🇫🇷", "networkImage": "https://images.contentstack.io/v3/assets/blt06f605a34f1194ff/blt0feb4d48a3fc134c/67c5fafa304ea9666082ff3e/iStock-956215674-2-Header_Mobile.jpg?fit=crop&disable=upscale&auto=webp&quality=60&crop=smart"},
+    {"id": "midilli", "name": "Midilli", "name_en": "Mytilene", "country": "Yunanistan", "country_en": "Greece", "flag": "🇬🇷", "networkImage": "https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?w=800"},
+    {"id": "milano", "name": "Milano", "name_en": "Milan", "country": "İtalya", "country_en": "Italy", "flag": "🇮🇹", "networkImage": "https://images.unsplash.com/photo-1520440229-6469a149ac59?w=800"},
+    {"id": "napoli", "name": "Napoli", "name_en": "Naples", "country": "İtalya", "country_en": "Italy", "flag": "🇮🇹", "networkImage": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?w=800"},
+    {"id": "newyork", "name": "New York", "name_en": "New York", "country": "ABD", "country_en": "USA", "flag": "🇺🇸", "networkImage": "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?w=800"},
+    {"id": "nice", "name": "Nice", "name_en": "Nice", "country": "Fransa", "country_en": "France", "flag": "🇫🇷", "networkImage": "https://www.flypgs.com/blog/wp-content/uploads/2024/05/nice-sahilleri.jpeg"},
+    {"id": "oslo", "name": "Oslo", "name_en": "Oslo", "country": "Norveç", "country_en": "Norway", "flag": "🇳🇴", "networkImage": "https://www.journavel.com/wp-content/uploads/2024/10/IMG_1851-scaled.webp"},
+    {"id": "paris", "name": "Paris", "name_en": "Paris", "country": "Fransa", "country_en": "France", "flag": "🇫🇷", "networkImage": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=800"},
+    {"id": "porto", "name": "Porto", "name_en": "Porto", "country": "Portekiz", "country_en": "Portugal", "flag": "🇵🇹", "networkImage": "https://images.unsplash.com/photo-1555881400-74d7acaacd8b?w=800"},
+    {"id": "prag", "name": "Prag", "name_en": "Prague", "country": "Çekya", "country_en": "Czech Republic", "flag": "🇨🇿", "networkImage": "https://images.unsplash.com/photo-1541849546-216549ae216d?w=800"},
+    {"id": "roma", "name": "Roma", "name_en": "Rome", "country": "İtalya", "country_en": "Italy", "flag": "🇮🇹", "networkImage": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?w=800"},
+    {"id": "saraybosna", "name": "Saraybosna", "name_en": "Sarajevo", "country": "Bosna Hersek", "country_en": "Bosnia", "flag": "🇧🇦", "networkImage": "https://images.themagger.net/wp-content/uploads/2022/12/saraybosna-kapak-633x433.jpg"},
+    {"id": "seul", "name": "Seul", "name_en": "Seoul", "country": "Güney Kore", "country_en": "South Korea", "flag": "🇰🇷", "networkImage": "https://www.agoda.com/wp-content/uploads/2019/03/Seoul-attractions-Gyeongbokgung-palace.jpg"},
+    {"id": "sevilla", "name": "Sevilla", "name_en": "Seville", "country": "İspanya", "country_en": "Spain", "flag": "🇪🇸", "networkImage": "https://images.unsplash.com/photo-1558370781-d6196949e317?w=800"},
+    {"id": "singapur", "name": "Singapur", "name_en": "Singapore", "country": "Singapur", "country_en": "Singapore", "flag": "🇸🇬", "networkImage": "https://images.unsplash.com/photo-1525625293386-3f8f99389edd?w=800"},
+    {"id": "stockholm", "name": "Stockholm", "name_en": "Stockholm", "country": "İsveç", "country_en": "Sweden", "flag": "🇸🇪", "networkImage": "https://images.unsplash.com/photo-1509356843151-3e7d96241e11?w=800"},
+    {"id": "strazburg", "name": "Strazburg", "name_en": "Strasbourg", "country": "Fransa", "country_en": "France", "flag": "🇫🇷", "networkImage": "https://www.avruparuyasi.com.tr/uploads/tour-gallery/36c44666-5e5a-4c2d-a341-2fa8285c3fb6.webp"},
+    {"id": "tokyo", "name": "Tokyo", "name_en": "Tokyo", "country": "Japonya", "country_en": "Japan", "flag": "🇯🇵", "networkImage": "https://img.piri.net/mnresize/900/-/resim/imagecrop/2023/01/17/11/54/resized_d9b02-8b17feafkapak2.jpg"},
+    {"id": "venedik", "name": "Venedik", "name_en": "Venice", "country": "İtalya", "country_en": "Italy", "flag": "🇮🇹", "networkImage": "https://images.unsplash.com/photo-1514890547357-a9ee288728e0?w=800"},
+    {"id": "viyana", "name": "Viyana", "name_en": "Vienna", "country": "Avusturya", "country_en": "Austria", "flag": "🇦🇹", "networkImage": "https://images.unsplash.com/photo-1516550893923-42d28e5677af?w=800"},
+    {"id": "zurih", "name": "Zürih", "name_en": "Zurich", "country": "İsviçre", "country_en": "Switzerland", "flag": "🇨🇭", "networkImage": "https://images.unsplash.com/photo-1515488764276-beab7607c1e6?w=800"},
     // New Featured Cities from Guide Articles
-    {"id": "rovaniemi", "name": "Rovaniemi", "country": "Finlandiya", "flag": "🇫🇮", "networkImage": "https://www.visitfinland.com/dam/jcr:70734834-7ba2-4bf1-9f6e-bf185e014367/central-plaza-santa-claus-village-rovaniemi-lapland-finland%20(1).jpg"},
-    {"id": "tromso", "name": "Tromsø", "country": "Norveç", "flag": "🇳🇴", "networkImage": "https://www.flightgift.com/media/wp/FG/2024/02/tromso.webp"},
-    {"id": "zermatt", "name": "Zermatt", "country": "İsviçre", "flag": "🇨🇭", "networkImage": "https://holidaystoswitzerland.com/wp-content/uploads/2020/07/Zermatt-and-the-Matterhorn-at-dawn.jpg"},
-    {"id": "matera", "name": "Matera", "country": "İtalya", "flag": "🇮🇹", "networkImage": "https://ita.travel/user/blogimg/ostatni/aerial-view_matera_sunset.jpg"},
-    {"id": "giethoorn", "name": "Giethoorn", "country": "Hollanda", "flag": "🇳🇱", "networkImage": "https://www.onedayinacity.com/wp-content/uploads/2021/03/Giethoorn-Village.png"},
-    {"id": "colmar", "name": "Colmar", "country": "Fransa", "flag": "🇫🇷", "networkImage": "https://images.goway.com/production/hero/iStock-1423136049.jpg"},
-    {"id": "sintra", "name": "Sintra", "country": "Portekiz", "flag": "🇵🇹", "networkImage": "https://images.contentstack.io/v3/assets/blt06f605a34f1194ff/blt75a384a61f2efa5b/68848225e7cb649650cc2d81/BCC-2024-EXPLORER-SINTRA-BEST_PLACES_TO_VISIT-HEADER-MOBILE.jpg?format=webp&auto=avif&quality=60&crop=16%3A9&width=1440"},
-    {"id": "san_sebastian", "name": "San Sebastian", "country": "İspanya", "flag": "🇪🇸", "networkImage": "https://cdn.bunniktours.com.au/public/posts/images/Europe/Blog%20Header%20-%20Spain%20-%20San%20Sebastian%20-%20credit%20Raul%20Cacho%20Oses%20%28Unsplash%29-feature.jpg"},
-    {"id": "bologna", "name": "Bologna", "country": "İtalya", "flag": "🇮🇹", "networkImage": "https://www.datocms-assets.com/57243/1661342703-6245af628d40974c9ab5a7fd_petr-slovacek-sxk8bwkvoxe-unsplash-20-1.jpg?auto=compress%2Cformat"},
-    {"id": "gaziantep", "name": "Gaziantep", "country": "Türkiye", "flag": "🇹🇷", "networkImage": "https://www.brandlifemag.com/wp-content/uploads/2021/04/acilis-gaziantep-december-06gaziantep-coppersmith-bazaar-600w-549044518.jpg"},
-    {"id": "brugge", "name": "Brugge", "country": "Belçika", "flag": "🇧🇪", "networkImage": "https://gezimanya.com/sites/default/files/styles/800x600_/public/lokasyon-detay/2021-08/brugge-hakkinda-bilinmesi-gerekenler.jpg"},
-    {"id": "santorini", "name": "Santorini", "country": "Yunanistan", "flag": "🇬🇷", "networkImage": "https://www.kucukoteller.com.tr/storage/images/2024/07/14/5e7eaf11eb5ec2dda2f7a602232faa8961347f29.webp"},
-    {"id": "heidelberg", "name": "Heidelberg", "country": "Almanya", "flag": "🇩🇪", "networkImage": "https://image.hurimg.com/i/hurriyet/90/1110x740/56b3325818c7730e3cdb6757.jpg"},
+    {"id": "rovaniemi", "name": "Rovaniemi", "name_en": "Rovaniemi", "country": "Finlandiya", "country_en": "Finland", "flag": "🇫🇮", "networkImage": "https://www.visitfinland.com/dam/jcr:70734834-7ba2-4bf1-9f6e-bf185e014367/central-plaza-santa-claus-village-rovaniemi-lapland-finland%20(1).jpg"},
+    {"id": "tromso", "name": "Tromsø", "name_en": "Tromsø", "country": "Norveç", "country_en": "Norway", "flag": "🇳🇴", "networkImage": "https://www.flightgift.com/media/wp/FG/2024/02/tromso.webp"},
+    {"id": "zermatt", "name": "Zermatt", "name_en": "Zermatt", "country": "İsviçre", "country_en": "Switzerland", "flag": "🇨🇭", "networkImage": "https://holidaystoswitzerland.com/wp-content/uploads/2020/07/Zermatt-and-the-Matterhorn-at-dawn.jpg"},
+    {"id": "matera", "name": "Matera", "name_en": "Matera", "country": "İtalya", "country_en": "Italy", "flag": "🇮🇹", "networkImage": "https://ita.travel/user/blogimg/ostatni/aerial-view_matera_sunset.jpg"},
+    {"id": "giethoorn", "name": "Giethoorn", "name_en": "Giethoorn", "country": "Hollanda", "country_en": "Netherlands", "flag": "🇳🇱", "networkImage": "https://www.onedayinacity.com/wp-content/uploads/2021/03/Giethoorn-Village.png"},
+    {"id": "colmar", "name": "Colmar", "name_en": "Colmar", "country": "Fransa", "country_en": "France", "flag": "🇫🇷", "networkImage": "https://images.goway.com/production/hero/iStock-1423136049.jpg"},
+    {"id": "sintra", "name": "Sintra", "name_en": "Sintra", "country": "Portekiz", "country_en": "Portugal", "flag": "🇵🇹", "networkImage": "https://images.contentstack.io/v3/assets/blt06f605a34f1194ff/blt75a384a61f2efa5b/68848225e7cb649650cc2d81/BCC-2024-EXPLORER-SINTRA-BEST_PLACES_TO_VISIT-HEADER-MOBILE.jpg?format=webp&auto=avif&quality=60&crop=16%3A9&width=1440"},
+    {"id": "san_sebastian", "name": "San Sebastian", "name_en": "San Sebastian", "country": "İspanya", "country_en": "Spain", "flag": "🇪🇸", "networkImage": "https://cdn.bunniktours.com.au/public/posts/images/Europe/Blog%20Header%20-%20Spain%20-%20San%20Sebastian%20-%20credit%20Raul%20Cacho%20Oses%20%28Unsplash%29-feature.jpg"},
+    {"id": "bologna", "name": "Bologna", "name_en": "Bologna", "country": "İtalya", "country_en": "Italy", "flag": "🇮🇹", "networkImage": "https://www.datocms-assets.com/57243/1661342703-6245af628d40974c9ab5a7fd_petr-slovacek-sxk8bwkvoxe-unsplash-20-1.jpg?auto=compress%2Cformat"},
+    {"id": "gaziantep", "name": "Gaziantep", "name_en": "Gaziantep", "country": "Türkiye", "country_en": "Turkey", "flag": "🇹🇷", "networkImage": "https://www.brandlifemag.com/wp-content/uploads/2021/04/acilis-gaziantep-december-06gaziantep-coppersmith-bazaar-600w-549044518.jpg"},
+    {"id": "brugge", "name": "Brugge", "name_en": "Bruges", "country": "Belçika", "country_en": "Belgium", "flag": "🇧🇪", "networkImage": "https://gezimanya.com/sites/default/files/styles/800x600_/public/lokasyon-detay/2021-08/brugge-hakkinda-bilinmesi-gerekenler.jpg"},
+    {"id": "santorini", "name": "Santorini", "name_en": "Santorini", "country": "Yunanistan", "country_en": "Greece", "flag": "🇬🇷", "networkImage": "https://www.kucukoteller.com.tr/storage/images/2024/07/14/5e7eaf11eb5ec2dda2f7a602232faa8961347f29.webp"},
+    {"id": "heidelberg", "name": "Heidelberg", "name_en": "Heidelberg", "country": "Almanya", "country_en": "Germany", "flag": "🇩🇪", "networkImage": "https://image.hurimg.com/i/hurriyet/90/1110x740/56b3325818c7730e3cdb6757.jpg"},
   ];
 }
 
@@ -131,6 +133,14 @@ class _CitySwitcherModalState extends State<_CitySwitcherModal> {
   @override
   void initState() {
     super.initState();
+    // Add "Undecided" option at the top
+    _cities.insert(0, {
+      "id": "undecided",
+      "name": "undecided_label", // Special flag
+      "country": "MyWay",
+      "flag": "🌍",
+      "networkImage": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=800",
+    });
     _loadSelectedCity();
   }
 
@@ -159,10 +169,24 @@ class _CitySwitcherModalState extends State<_CitySwitcherModal> {
 
     if (widget.updateGlobalState) {
       final prefs = await SharedPreferences.getInstance();
-      await prefs.setString("selectedCity", cityId);
+      
+      String finalCityId = cityId;
+      if (cityId == "undecided") {
+         // Pick a random city (excluding the undecided item at index 0)
+         // Use existing list _cities but skip index 0
+         final randomCity = CitySwitcherScreen.allCities[DateTime.now().millisecond % CitySwitcherScreen.allCities.length];
+         finalCityId = randomCity['id'];
+         
+         await prefs.setBool("suggest_city_popup", true);
+      }
+      
+      await prefs.setString("selectedCity", finalCityId);
 
       // Diğer ekranları bilgilendir
       TripUpdateService().notifyCityChanged();
+      
+      // If undecided, we return the decided city id so ExploreScreen knows what to load
+      cityId = finalCityId;
     }
 
     // Kısa bir gecikme ile kapat
@@ -366,7 +390,11 @@ class _CitySwitcherModalState extends State<_CitySwitcherModal> {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Text(
-                    city["name"],
+                    city["id"] == "undecided" 
+                        ? AppLocalizations.instance.undecidedCity 
+                        : (AppLocalizations.instance.isEnglish && city["name_en"] != null 
+                            ? city["name_en"] 
+                            : city["name"]),
                     style: TextStyle(
                       color: isSelected ? _accent : Colors.white,
                       fontSize: 16,
@@ -375,7 +403,11 @@ class _CitySwitcherModalState extends State<_CitySwitcherModal> {
                   ),
                   const SizedBox(height: 2),
                   Text(
-                    AppLocalizations.instance.translateCountry(city["country"]),
+                    city["id"] == "undecided" 
+                        ? AppLocalizations.instance.ourSuggestion
+                        : (AppLocalizations.instance.isEnglish && city["country_en"] != null
+                            ? city["country_en"]
+                            : AppLocalizations.instance.translateCountry(city["country"])),
                     style: TextStyle(
                       color: Colors.white.withOpacity(0.5),
                       fontSize: 13,
@@ -486,16 +518,43 @@ class _CitySwitcherFullPageState extends State<_CitySwitcherFullPage> {
   final List<Map<String, dynamic>> _cities = List.from(CitySwitcherScreen.allCities)
     ..sort((a, b) => (a["name"] as String).compareTo(b["name"] as String));
 
+  @override
+  void initState() {
+    super.initState();
+    // Add "Undecided" option at the top
+    _cities.insert(0, {
+      "id": "undecided",
+      "name": "undecided_label", // Special flag
+      "country": "MyWay",
+      "flag": "🌍",
+      "networkImage": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=800", // Inspirational travel image
+    });
+  }
+
   Future<void> _selectCity(String cityId) async {
     HapticFeedback.mediumImpact();
     final prefs = await SharedPreferences.getInstance();
-    await prefs.setString("selectedCity", cityId);
+
+    String finalCityId = cityId;
+
+    if (cityId == "undecided") {
+        // Pick a random city (excluding the undecided item which is at index 0)
+        // Ensure index 0 is skipped if it's "undecided".
+        // Original allCities is safe to pick from.
+        final randomCity = CitySwitcherScreen.allCities[DateTime.now().millisecond % CitySwitcherScreen.allCities.length];
+        finalCityId = randomCity['id'];
+        
+        // Mark flag to show popup in MainScreen
+        await prefs.setBool("suggest_city_popup", true);
+    } 
+
+    await prefs.setString("selectedCity", finalCityId);
     
-    setState(() => _selectedCity = cityId);
+    setState(() => _selectedCity = finalCityId);
     
     // Kısa gecikme ile callback
     Future.delayed(const Duration(milliseconds: 300), () {
-      widget.onCitySelected(cityId);
+      widget.onCitySelected(finalCityId);
     });
   }
 
@@ -610,7 +669,9 @@ class _CitySwitcherFullPageState extends State<_CitySwitcherFullPage> {
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
                                 Text(
-                                  city["name"],
+                                  city["id"] == "undecided" 
+                                      ? AppLocalizations.instance.undecidedCity 
+                                      : city["name"],
                                   style: TextStyle(
                                     color: isSelected ? _accent : Colors.white,
                                     fontSize: 17,
@@ -618,7 +679,9 @@ class _CitySwitcherFullPageState extends State<_CitySwitcherFullPage> {
                                   ),
                                 ),
                                 Text(
-                                  AppLocalizations.instance.translateCountry(city["country"]),
+                                  city["id"] == "undecided" 
+                                      ? AppLocalizations.instance.ourSuggestion
+                                      : AppLocalizations.instance.translateCountry(city["country"]),
                                   style: TextStyle(color: _textGrey, fontSize: 13),
                                 ),
                               ],

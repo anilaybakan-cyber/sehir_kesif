@@ -11,6 +11,8 @@ class CityModel {
   final String timezone;
   final String emergency;
   final String description;
+  final String? descriptionEn;
+  final String? countryEn;
   final double centerLat;
   final double centerLng;
   final TransportInfo? transport;
@@ -18,6 +20,7 @@ class CityModel {
   final List<Region> regions;
   final List<String> localTips;
   final FoodGuide? foodGuide;
+  final String? heroImage;
 
   CityModel({
     required this.city,
@@ -27,6 +30,8 @@ class CityModel {
     this.timezone = "",
     this.emergency = "112",
     this.description = "",
+    this.descriptionEn,
+    this.countryEn,
     required this.centerLat,
     required this.centerLng,
     this.transport,
@@ -34,6 +39,7 @@ class CityModel {
     this.regions = const [],
     this.localTips = const [],
     this.foodGuide,
+    this.heroImage,
   });
 
   factory CityModel.fromJson(Map<String, dynamic> json) {
@@ -59,6 +65,8 @@ class CityModel {
       timezone: json["timezone"] ?? "",
       emergency: json["emergency"] ?? "112",
       description: json["description"] ?? "",
+      descriptionEn: json["description_en"],
+      countryEn: json["country_en"],
       centerLat: lat,
       centerLng: lng,
       transport: json["transport"] != null
@@ -66,7 +74,7 @@ class CityModel {
           : null,
       highlights:
           (json["highlights"] as List?)
-              ?.map((e) => Highlight.fromJson(e))
+              ?.map((e) => Highlight.fromJson(e, city: json["city"]))
               .toList() ??
           [],
       regions:
@@ -77,6 +85,7 @@ class CityModel {
       foodGuide: json["foodGuide"] != null
           ? FoodGuide.fromJson(json["foodGuide"])
           : null,
+      heroImage: json["heroImage"],
     );
   }
 }
@@ -117,6 +126,7 @@ class Highlight {
   final String name;
   final String area;
   final String category;
+  final String? city;
   final List<String> tags;
   final double distanceFromCenter;
   final double lat;
@@ -125,7 +135,11 @@ class Highlight {
   final String description;
   final String? imageUrl;
   final String? tips;
+  final String? descriptionEn;
+  final String? nameEn;
+  final String? tipsEn;
   final String? bestTime;
+  final String? bestTimeEn;
   final String? duration;
   final double? rating;
   final int? reviewCount;
@@ -143,6 +157,7 @@ class Highlight {
     required this.name,
     required this.area,
     required this.category,
+    this.city,
     required this.tags,
     required this.distanceFromCenter,
     required this.lat,
@@ -151,7 +166,11 @@ class Highlight {
     required this.description,
     this.imageUrl,
     this.tips,
+    this.nameEn,
+    this.descriptionEn,
+    this.tipsEn,
     this.bestTime,
+    this.bestTimeEn,
     this.duration,
     this.rating,
     this.reviewCount,
@@ -169,7 +188,23 @@ class Highlight {
   // Backward compatibility
   String? get displaydetImage => imageUrl;
 
-  factory Highlight.fromJson(Map<String, dynamic> json) {
+  /// Dil seçimine göre isim döndürür. nameEn yoksa name kullanır.
+  String getLocalizedName(bool isEnglish) {
+    if (isEnglish && nameEn != null && nameEn!.isNotEmpty) {
+      return nameEn!;
+    }
+    return name;
+  }
+
+  /// Dil seçimine göre açıklama döndürür. descriptionEn yoksa description kullanır.
+  String getLocalizedDescription(bool isEnglish) {
+    if (isEnglish && descriptionEn != null && descriptionEn!.isNotEmpty) {
+      return descriptionEn!;
+    }
+    return description;
+  }
+
+  factory Highlight.fromJson(Map<String, dynamic> json, {String? city}) {
     // openHours'u parse et
     Map<String, String>? openHours;
     if (json["openHours"] != null) {
@@ -184,6 +219,7 @@ class Highlight {
       name: json["name"] ?? "",
       area: json["area"] ?? "",
       category: json["category"] ?? "",
+      city: city,
       tags: (json["tags"] as List?)?.map((e) => e.toString()).toList() ?? [],
       distanceFromCenter:
           (json["distanceFromCenter"] as num?)?.toDouble() ?? 0.0,
@@ -193,7 +229,11 @@ class Highlight {
       description: json["description"] ?? "",
       imageUrl: json["imageUrl"],
       tips: json["tips"],
+      nameEn: json["name_en"],
+      descriptionEn: json["description_en"],
+      tipsEn: json["tips_en"],
       bestTime: json["bestTime"],
+      bestTimeEn: json["bestTime_en"],
       duration: json["duration"],
       rating: (json["rating"] as num?)?.toDouble(),
       reviewCount: json["reviewCount"] as int?,
@@ -241,7 +281,7 @@ class Region {
           (json["bestFor"] as List?)?.map((e) => e.toString()).toList() ?? [],
       walkability: json["walkability"] ?? 3,
       safetyRating: json["safetyRating"] ?? 4,
-      priceLevel: json["priceLevel"] ?? "medium",
+      priceLevel: json["priceLevel"]?.toString() ?? "medium",
     );
   }
 }

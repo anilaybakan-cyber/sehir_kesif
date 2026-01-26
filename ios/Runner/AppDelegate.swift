@@ -1,6 +1,9 @@
 import UIKit
 import Flutter
-import GoogleMaps   // <-- Bunu mutlaka ekle
+import GoogleMaps
+import FirebaseCore
+import FirebaseMessaging
+import UserNotifications
 
 @main
 @objc class AppDelegate: FlutterAppDelegate {
@@ -10,13 +13,39 @@ import GoogleMaps   // <-- Bunu mutlaka ekle
     didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?
   ) -> Bool {
 
-    // 🚀 Google Maps SDK API Key
-    GMSServices.provideAPIKey("AIzaSyCMEuzJpyZtG-LPG-8DFiNrSn2-KfKrQp0")   // <-- ZORUNLU
+    // 🔥 Firebase Configuration
+    FirebaseApp.configure()
+    
+    // 🔔 Push Notification Setup
+    UNUserNotificationCenter.current().delegate = self
+    
+    let authOptions: UNAuthorizationOptions = [.alert, .badge, .sound]
+    UNUserNotificationCenter.current().requestAuthorization(options: authOptions) { _, _ in }
+    
+    application.registerForRemoteNotifications()
+    
+    // Set Messaging delegate
+    Messaging.messaging().delegate = self
 
-    // (Opsiyonel) Places API kullanacaksan:
-    // GMSPlacesClient.provideAPIKey("BURAYA_API_KEY_YAZ")
+    // 🚀 Google Maps SDK API Key
+    GMSServices.provideAPIKey("AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g")
 
     GeneratedPluginRegistrant.register(with: self)
     return super.application(application, didFinishLaunchingWithOptions: launchOptions)
+  }
+  
+  // Handle FCM Token refresh
+  override func application(_ application: UIApplication,
+                            didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
+    Messaging.messaging().apnsToken = deviceToken
+    super.application(application, didRegisterForRemoteNotificationsWithDeviceToken: deviceToken)
+  }
+}
+
+// MARK: - MessagingDelegate
+extension AppDelegate: MessagingDelegate {
+  func messaging(_ messaging: Messaging, didReceiveRegistrationToken fcmToken: String?) {
+    print("🔔 FCM Token: \(fcmToken ?? "nil")")
+    // Token can be sent to your server here
   }
 }
