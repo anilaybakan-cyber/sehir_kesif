@@ -102,13 +102,14 @@
       "rating": 4.8,
       "description": "Gece aydınlatmasında Arktik Katedrali'nin görüntüsü, ikonik fotoğraf anı. Yıldızlar, Kuzey Işıkları arka planı ve mimari.",
       "description_en": "Arctic Cathedral view in night lighting, iconic photo moment. Stars, Northern Lights background, and architecture.",
-      "imageUrl": "",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/tromso/arctic_cathedral__night_.jpg",
       "price": "free",
       "bestTime": "09:00 - 18:00",
       "bestTime_en": "09:00 - 18:00",
       "tips": "Köprüden gece fotoğrafı çekmeyi unutmayın.",
       "tips_en": "Don't forget to take night photo from the bridge.",
-      "subcategory": "Işıklandırma"
+      "subcategory": "Işıklandırma",
+      "source": "firebase"
     },
     {
       "name": "Arctic University Museum of Norway",
@@ -417,13 +418,14 @@
       "rating": 4.8,
       "description": "Husky kızağı ile Arktik macerasına çıkın. Sıradan bir gezinin ötesine geçip unutulmaz anılar biriktirmek isteyenler için benzersiz bir fırsat. Bu aktivite, seyahatinize heyecan ve renk katarak size farklı bir perspektif kazandıracak.",
       "description_en": "Arctic adventure with husky sled. A unique opportunity for those who want to go beyond an ordinary trip and collect unforgettable memories. This activity will add excitement and color to your travel, giving you a different perspective.",
-      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AZLasHqXkEx-PfetkoNeytVSfUMEYExMQ-HghNb9L8Sv5c0HoQrqO4fN6ZWVSTgH2tf2Um_O5uk3piCABE5CTgEib_lulSOI3jjKXD-0nJ5aWP07sXr8U3PkhXN286jOz3wLaK6D3RPHOFM5l2XsYgMjPyLfEooo_zAbHpwjoDxUiEavWqN_lVsc1kxRaUZqDnFRC9llC-bvKHQzPcu4i8aktDql1ULMGxKZ4Dnh7COVGr1OzO6r2aByvt_l71iS8GED7TsFLk_dhH5ZFsswe9boc5is1v6BK3X0MgSX6paZveCYgSwy9tU&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/tromso/dog_sledding_camp.jpg",
       "price": "medium",
       "distanceFromCenter": 1.0,
       "bestTime": "09:00 - 18:00",
       "bestTime_en": "09:00 - 18:00",
       "tips": "Grup indirimi olup olmadığını sorun.",
-      "tips_en": "Ask if there is a group discount."
+      "tips_en": "Ask if there is a group discount.",
+      "source": "firebase"
     },
     {
       "name": "Dragøy",
@@ -459,13 +461,14 @@
       "rating": 4.8,
       "description": "Samimi ortamda mevsimsel Nordik yemekler. Yerel lezzetlerin tadına varmak ve keyifli bir akşam geçirmek için harika bir seçenek. Samimi atmosferi ve kaliteli hizmetiyle damak zevkinize hitap edecek unutulmaz bir deneyim sunuyor.",
       "description_en": "Seasonal Nordic dishes in intimate setting. A great option to taste local flavors and spend a pleasant evening. It offers an unforgettable experience appealing to your palate with its friendly atmosphere and quality service.",
-      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AZLasHrSfw6hChBfXgkEEbwc16lNonlPlw8sdRzPTYfdEzo_4W4v4H9jVjkWvfHPqUSa1eNyrceZ37SR9Wz-BoXqOXpnZF0ID748kLskLxPUPJp3m32pZIBN0dlzE1YNQIJm5kHtAi-u_FwZmje8wjWmoAkqUAWmgYfELW-_fVhlzXy9Xyeh6ff97tM89LHnv6AVT25qcqlokrieg8C_dTCHOT30U4qdwkn-oudG7YwRMDTudaOZW0gtUSLaG6mZQqZSfQSBB6041of2quCGjqFERSvq5-bv973xfJLjwhu-rNSRRjey8RM&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/tromso/emmas_drommekjokken.jpg",
       "price": "medium",
       "distanceFromCenter": 1.0,
       "bestTime": "09:00 - 18:00",
       "bestTime_en": "09:00 - 18:00",
       "tips": "Nakite hazırlıklı olun, bazı yerel yerler kart kabul etmeyebilir.",
-      "tips_en": "Be prepared with cash, some local places might not accept cards."
+      "tips_en": "Be prepared with cash, some local places might not accept cards.",
+      "source": "firebase"
     },
     {
       "name": "Ersfjord Beach",
@@ -878,13 +881,14 @@
       "rating": 4.5,
       "description": "Güçlü akıntılarıyla bilinen, balık tutmak için popüler bir kıyı bölgesi. Eski ahşap evler de bulunur.",
       "description_en": "Popular coastal area for fishing, known for strong currents. Also has old wooden houses.",
-      "imageUrl": "",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/tromso/hella.jpg",
       "price": "free",
       "bestTime": "09:00 - 18:00",
       "bestTime_en": "09:00 - 18:00",
       "tips": "Kıyıdan olta ile balık tutmak serbesttir.",
       "tips_en": "Fishing with rod from shore is free.",
-      "subcategory": "Kıyı"
+      "subcategory": "Kıyı",
+      "source": "firebase"
     },
     {
       "name": "Hermes II",
@@ -983,13 +987,14 @@
       "rating": 4.6,
       "description": "Yerel kavurma özel kahveler. Günün yorgunluğunu atmak ve lezzetli bir kahve eşliğinde dinlenmek için en doğru adreslerden biri. Mekanın sıcak ambiyansı ve sunduğu tatlı sürprizler, molanızı keyfe dönüştürecek.",
       "description_en": "Locally roasted specialty coffees. One of the right addresses to relieve the tiredness of the day and relax with a delicious coffee. The warm ambiance of the venue and the sweet surprises it offers will turn your break into pleasure.",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/tromso/kaffebønna.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/tromso/kaffebonna.jpg",
       "price": "medium",
       "distanceFromCenter": 1.0,
       "bestTime": "09:00 - 18:00",
       "bestTime_en": "09:00 - 18:00",
       "tips": "Laptop ile çalışmak için uygun, Wi-Fi hızı iyi.",
-      "tips_en": "Suitable for working with a laptop, Wi-Fi is good."
+      "tips_en": "Suitable for working with a laptop, Wi-Fi is good.",
+      "source": "firebase"
     },
     {
       "name": "Kaldfjord",
@@ -1256,13 +1261,14 @@
       "rating": 4.5,
       "description": "Yerel lezzetlerin bir arada olduğu yemek salonu. Yerel lezzetlerin tadına varmak ve keyifli bir akşam geçirmek için harika bir seçenek. Samimi atmosferi ve kaliteli hizmetiyle damak zevkinize hitap edecek unutulmaz bir deneyim sunuyor.",
       "description_en": "Food hall with various local flavors. A great option to taste local flavors and spend a pleasant evening. It offers an unforgettable experience appealing to your palate with its friendly atmosphere and quality service.",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/tromso/mathallen_tromsø.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/tromso/mathallen_tromso.jpg",
       "price": "medium",
       "distanceFromCenter": 1.0,
       "bestTime": "09:00 - 18:00",
       "bestTime_en": "09:00 - 18:00",
       "tips": "Şefin spesiyal tabağını sormaktan çekinmeyin.",
-      "tips_en": "Don't hesitate to ask for the chef's special."
+      "tips_en": "Don't hesitate to ask for the chef's special.",
+      "source": "firebase"
     },
     {
       "name": "Meieriet Chocolate Café",
@@ -1277,13 +1283,14 @@
       "rating": 4.7,
       "description": "El yapımı çikolata ve tatlılar. Günün yorgunluğunu atmak ve lezzetli bir kahve eşliğinde dinlenmek için en doğru adreslerden biri. Mekanın sıcak ambiyansı ve sunduğu tatlı sürprizler, molanızı keyfe dönüştürecek.",
       "description_en": "Handmade chocolates and desserts. One of the right addresses to relieve the tiredness of the day and relax with a delicious coffee. The warm ambiance of the venue and the sweet surprises it offers will turn your break into pleasure.",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/tromso/meieriet_chocolate_café.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/tromso/meieriet_chocolate_cafe.jpg",
       "price": "medium",
       "distanceFromCenter": 1.0,
       "bestTime": "09:00 - 18:00",
       "bestTime_en": "09:00 - 18:00",
       "tips": "Sabah kahvaltısı için erken gitmekte fayda var, taze kruvasanlar bitiyor.",
-      "tips_en": "Go early for breakfast, fresh croissants run out."
+      "tips_en": "Go early for breakfast, fresh croissants run out.",
+      "source": "firebase"
     },
     {
       "name": "Nattmålsfjellet",
@@ -1319,13 +1326,14 @@
       "rating": 4.2,
       "description": "Şehir merkezinin ana alışveriş merkezi. Bölgeye özgü ürünleri keşfetmek ve sevdiklerinize hediyeler almak için uğramanız gereken bir yer. Renkli dükkanlar ve canlı atmosfer, alışveriş deneyiminizi çok daha keyifli hale getirecek.",
       "description_en": "Main shopping center in city center. A place you must stop by to discover region-specific products and buy gifts for your loved ones. Colorful shops and a lively atmosphere will make your shopping experience much more enjoyable.",
-      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AZLasHoTQxoVTLqG5ASrqhh3E2xhVPKNUYgT7LNmZMi2meA_N_crpeuAB50_KX7s7v94h7POAIgc3jrKfnOmOKvV7AjvaPFsBNlNyCxY_j4dd-0nte4nh0F7_K6lLba_l4fH3RYpys5IE6bSkdmalx-q_7Howh5a77jZKzZxIPhVRsU-d1iaB1mP18fMV1ylT5jPQe9vq0751zO-9nPLunj6AgrE0D5KrBsDXP82F4K6Z-svbpVj4DLeBdCzfWEmMIQL7CW3qVnOITc76KwSdoxQ5nGaWBMcVxak-mYj7tpfeFiuyFohf1PsfSYymWVM1rF8dpuXtvNFEQrpZx_L3nGcpm8wKn4-Ipf5ZhdruiuTxnCBV4nCmtDm0x7Mgknvh8wcBoXYU3drZPziedZ4TiHg53BaZCRhoK8jopsCOpQFH1ylA-04QgvZbFxXKvNUmR4SvYrU9R3uolbcU0WamBpyBIl-KxRp9pk1h4yNlCciZDwhbu5Y41fIJOMOYx9GdQtqGtDi7HwRuh1JZVSQHmWN0DJtg_wtqu17nv6nOU4WqL2c_QHVkkldM5FBblDeQvVsi4YebsGj&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/tromso/nerstranda_shopping.jpg",
       "price": "medium",
       "distanceFromCenter": 1.0,
       "bestTime": "09:00 - 18:00",
       "bestTime_en": "09:00 - 18:00",
       "tips": "Pazarlık yapmayı deneyebilirsiniz (nazikçe).",
-      "tips_en": "You might try bargaining (politely)."
+      "tips_en": "You might try bargaining (politely).",
+      "source": "firebase"
     },
     {
       "name": "Nordnorsk Kunstmuseum (Shop)",
@@ -1466,13 +1474,14 @@
       "rating": 4.4,
       "description": "Kuzey Norveç sanatçılarının eserleri. Sanat ve tarih severlerin mutlaka görmesi gereken bu müze, zengin koleksiyonuyla dikkat çekiyor. Sergilenen eserler, bölgenin kültürel mirasını derinlemesine anlamanızı sağlayacak.",
       "description_en": "Works by Northern Norwegian artists. A must-see for art and history lovers, this museum stands out with its rich collection. The exhibited works will allow you to deeply understand the region's cultural heritage.",
-      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AZLasHoyT9W2_O1YwxcdrwhSGXzItC-qUvJNAXLrYY3tUB4FgSAkJ8xj2TIWl0tWqAjBDZljHI-gJ9W0JamNgfVMmAcvGOcy8195zIe01vE-dM5CU2gPwHq8-TN6-HujONj9hpVDdvlzP78_G8DXtp7f9IRd1Sv0a7VuNkUp54IctQiZYsBkGq22ZPauw6b6Dgx5fEUYFegPdbadPJlBND-Mv_vieyf8ZPuVQ5OlQZwDJxH8ui6XXvBoZnM-Bayl8PR8T-49VdP9BVFpaoHt72OiMow6s8AbCiIWEUkmv0wU4cpIkrlVJcw&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/tromso/northern_norwegian_art_museum.jpg",
       "price": "medium",
       "distanceFromCenter": 1.0,
       "bestTime": "09:00 - 18:00",
       "bestTime_en": "09:00 - 18:00",
       "tips": "Çantanızı vestiyere bırakmanız gerekebilir, hazırlıklı olun.",
-      "tips_en": "You might need to leave bags at the cloakroom, be prepared."
+      "tips_en": "You might need to leave bags at the cloakroom, be prepared.",
+      "source": "firebase"
     },
     {
       "name": "OffTrack Observation Center",
@@ -1800,13 +1809,14 @@
       "rating": 4.6,
       "description": "Arktik Okyanus'a bakan sakin kum plajı. Doğayla iç içe, huzur dolu anlar yaşamak isteyenler için mükemmel bir kaçış noktası. Şehrin gürültüsünden uzaklaşıp nefes almak ve harika fotoğraflar çekmek için birebir.",
       "description_en": "Peaceful sandy beach facing Arctic Ocean. A perfect getaway for those who want to experience peaceful moments in nature. Ideal for getting away from the city noise, taking a breath, and capturing great photos.",
-      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AZLasHrxn3mYSJWkezgatgkGKwuRLg_Y_YXuBlIEKXxKi3uL89FzKT-9B4gf-sy-umVguTcnJuCW3pV7V-lHFB9_AlgfCY03LwFVKTq6EzQUPbL_I8pFGbFyYZk1I6oWrllu7iuMWkE26oA7Clv7cAvmqwrWYZm_4Sl6W6Fg_g17tYWp8lc_iw2OH9hHVfbfH_OVw43UmPCdUztFvb-OmDTzLBX5xLYFIWKGHNInE0n28B0JyIWIpMV_ASOYumphx7Pp3Wr-Nq5RYXJTs2Tw2pLheeu3s0vPZ3LO_2XtPZmPBopt9aWcg8NPVGrtOBLWBNa7AvgiMnO2rM81mhuzsiO1fT2sCw0IRVp7HOGRnlBtM1dO6qy4c7XUbWbyfLOJEkD-kNHA3YSL0fWTuqdXQ5l_qgfETNZtRFn-j4HbKBs2VfbulM6bj0vI_X-dYfYboRi5jVBk9n5XVWFh1gNvgXgEW-uzjYjRSXXdosydC5vCKf8GRwxgj5u9DASMIrb8W_Xw170N-J-xG9JeBEV9fLkSK_Qrw9wc43H9UT8vwJTwgwhIxJC3xiwQhjOfZ2e7C39irRPQ6ztD&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/tromso/rekvik_beach.jpg",
       "price": "medium",
       "distanceFromCenter": 1.0,
       "bestTime": "09:00 - 18:00",
       "bestTime_en": "09:00 - 18:00",
       "tips": "Yanınıza bir örtü alıp çimlerde piknik yapabilirsiniz.",
-      "tips_en": "Bring a blanket and have a picnic on the grass."
+      "tips_en": "Bring a blanket and have a picnic on the grass.",
+      "source": "firebase"
     },
     {
       "name": "Risø Mat & Kaffebar",
@@ -1820,13 +1830,14 @@
       "lng": 18.9575,
       "rating": 4.8,
       "description": "Şehrin en iyi kahvesi ve tarçınlı çörekleri. Günün yorgunluğunu atmak ve lezzetli bir kahve eşliğinde dinlenmek için en doğru adreslerden biri. Mekanın sıcak ambiyansı ve sunduğu tatlı sürprizler, molanızı keyfe dönüştürecek.",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/tromso/risø_mat_kaffebar.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/tromso/riso_mat_kaffebar.jpg",
       "price": "medium",
       "bestTime": "09:00 - 18:00",
       "bestTime_en": "09:00 - 18:00",
       "tips": "Sessiz bir köşe bulup kitap okumak için ideal.",
       "tips_en": "Ideal for finding a quiet corner and reading a book.",
-      "description_en": "Şehrin en iyi kahvesi ve tarçınlı çörekleri. One of the right addresses to relieve the tiredness of the day and relax with a delicious coffee. The warm ambiance of the venue and the sweet surprises it offers will turn your break into pleasure."
+      "description_en": "Şehrin en iyi kahvesi ve tarçınlı çörekleri. One of the right addresses to relieve the tiredness of the day and relax with a delicious coffee. The warm ambiance of the venue and the sweet surprises it offers will turn your break into pleasure.",
+      "source": "firebase"
     },
     {
       "name": "Roald Amundsen Statue",
@@ -2093,13 +2104,14 @@
       "rating": 4.1,
       "description": "Bağımsız sanat galerisi ve alternatif sanat mekanı. Yerel sanatçılar, deneysel çalışmalar ve kültür.",
       "description_en": "Independent art gallery and alternative art venue. Local artists, experimental works, and culture.",
-      "imageUrl": "",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/tromso/small_projects.jpg",
       "price": "free",
       "bestTime": "09:00 - 18:00",
       "bestTime_en": "09:00 - 18:00",
       "tips": "Haftasonları kahve ve sohbet etkinlikleri olur.",
       "tips_en": "Coffee and chat events happen on weekends.",
-      "subcategory": "Galeri"
+      "subcategory": "Galeri",
+      "source": "firebase"
     },
     {
       "name": "Smørtorget Café",
@@ -2177,13 +2189,14 @@
       "rating": 4.3,
       "description": "Kattfjord yakınlarında taşlık plaj. Dalga seslerini dinlemek için huzurlu bir yer.",
       "description_en": "Stony beach near Kattfjord. Peaceful place to listen to wave sounds.",
-      "imageUrl": "",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/tromso/steinnyra.jpg",
       "price": "free",
       "bestTime": "09:00 - 18:00",
       "bestTime_en": "09:00 - 18:00",
       "tips": "Deniz kenarında yürüyüş için güzeldir.",
       "tips_en": "Nice for a walk by the sea.",
-      "subcategory": "Plaj"
+      "subcategory": "Plaj",
+      "source": "firebase"
     },
     {
       "name": "Storgata",
@@ -2260,13 +2273,14 @@
       "lng": 18.9135,
       "rating": 4.7,
       "description": "Yazın gece yarısı güneşini izlemek için ideal sahil parkı. Doğayla iç içe, huzur dolu anlar yaşamak isteyenler için mükemmel bir kaçış noktası. Şehrin gürültüsünden uzaklaşıp nefes almak ve harika fotoğraflar çekmek için birebir.",
-      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AZLasHrL885n1vnkdlt5ZKULj98oro4UtuIimbEC972SEdVJwKDmuHkDeYyHHEammWXZ5i_wmmyWgZzrqb4psijq2gWSUOFlA1-aW2NNibbWNOP3iML9cZ5sp2tdlHs3sxKIR3PQ4TLSGoinnpp9cdpvltzIFZIJje9df1s1l71bOS0WPVSFxmuX942oHYbG-NKas6Pz4_yvbks3ClkTSlFKLNY2AsRqYJKORSpr7hpVrw8Aqapcs_eMscfED895zTmR9atLjIT63u3IG5L_Hrn45WYs5bSolc3_Yl6Fx7fpZnAqQdOo-pSA1NbN8QeY62sYW-eGFw1MVUt_JBM_ZYmIDxQJsLJScKFeZAi0raT5cQ94uiMcPrkr4B9XPdbfz_76Z3IjnN043tLXGNTukYAuCPuI9Ppo85YCAk89qQjdv8g5l214VaqCHX4b1ERw4a7LbwWTuIxaD0X-_mc9l29FlV7gR9E81w31iGop2e8LkiBQ2RA7upfAVyb4zeV6Xl7cTWAH6m8l52ekS9OXjcsAAa5sXoq81x_f-OlmhvF5yZrsG_xxPUnc36vYuc8bkkkl59IxJA&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/tromso/telegrafbukta_beach.jpg",
       "price": "medium",
       "bestTime": "09:00 - 18:00",
       "bestTime_en": "09:00 - 18:00",
       "tips": "Güneş kremi ve şapka almayı unutmayın.",
       "tips_en": "Don't forget sunscreen and a hat.",
-      "description_en": "Yazın gece yarısı güneşini izlemek için ideal sahil parkı. A perfect getaway for those who want to experience peaceful moments in nature. Ideal for getting away from the city noise, taking a breath, and capturing great photos."
+      "description_en": "Yazın gece yarısı güneşini izlemek için ideal sahil parkı. A perfect getaway for those who want to experience peaceful moments in nature. Ideal for getting away from the city noise, taking a breath, and capturing great photos.",
+      "source": "firebase"
     },
     {
       "name": "Troll Museum",
@@ -2427,13 +2441,14 @@
       "rating": 4.4,
       "description": "Norveç'in en kuzeyindeki protestan katedrali. Tarih meraklıları için eşsiz bir hazine olan bu mekan, geçmişe ışık tutan detaylarıyla ziyaretçilerini büyülüyor. Kültürel bir yolculuğa çıkmak isteyenler için ideal bir durak.",
       "description_en": "Norway's northernmost protestant cathedral. A unique treasure for history buffs, this venue captivates visitors with details that shed light on the past. An ideal stop for those wishing to embark on a cultural journey.",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/tromso/tromsø_cathedral.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/tromso/tromso_cathedral.jpg",
       "price": "medium",
       "distanceFromCenter": 1.0,
       "bestTime": "09:00 - 18:00",
       "bestTime_en": "09:00 - 18:00",
       "tips": "Sabah erken saatlerde giderek turist kalabalığından kaçınabilirsiniz.",
-      "tips_en": "Go early in the morning to avoid tourist crowds."
+      "tips_en": "Go early in the morning to avoid tourist crowds.",
+      "source": "firebase"
     },
     {
       "name": "Tromsø Center for Contemporary Art",
@@ -2935,13 +2950,14 @@
       "rating": 4.5,
       "description": "Ada çevresinde doğa yürüyüşü parkuru. Doğayla iç içe, huzur dolu anlar yaşamak isteyenler için mükemmel bir kaçış noktası. Şehrin gürültüsünden uzaklaşıp nefes almak ve harika fotoğraflar çekmek için birebir.",
       "description_en": "Nature hiking trail around the island. A perfect getaway for those who want to experience peaceful moments in nature. Ideal for getting away from the city noise, taking a breath, and capturing great photos.",
-      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AZLasHpUzOFZUmIvHv-_25ZuIfoq1T-NGEwew1jvFNRP1iI52KS6jrZT0zabF3fDLTHtDDhhZuGGPpP7PGuRF-gj6oUXJOekptCODtvZBSzVSFkaJVjRsB1MeFVBTrhTjMfyJ2psPUoV2LY0OFG_r_twp9szWOcNQVZkDMjyudGdODRiiaR9lh3_tp1usHbq3t2AKSsF_OZodM5hroXTkQJv6j0taAgqbXXfXcjIFaHSIfVXSCbWXu9dQj-QWPUUiDViZ-8m_OPfnxMnPyoW-wP5-449WE0xdLlS_Iilw-DH94XwM9m8syW0bffXrtR4Ry12WDdD34L1CkoC7bXvFimHIc-zARAeMGeKBRAqpLgiBvVjLTkUBcvqOu3jNyJ0hQF6lzPQX9v3-4Fqhdxp-CDEW6UHAhkqBiNH4c9SZgWCkw66oP9QDjZsTGq_BTaqdXdwyATu-J1WTj_TqTj9QrB2tZmYZLj9b90tOho0QAOsLeXB4_zfnNeio6jYLVqTRrZ61y-PCe8Kcwgl7J1mhW906C1TDQmWiV1r5KLSUk5ShrIuotC6c87nQZYORMoWhRAHj6geesA9mJODzQ&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/tromso/tromsoya_island_trail.jpg",
       "price": "medium",
       "distanceFromCenter": 1.0,
       "bestTime": "09:00 - 18:00",
       "bestTime_en": "09:00 - 18:00",
       "tips": "Su ve rahat ayakkabı almayı kesinlikle unutmayın.",
-      "tips_en": "Definitely don't forget water and comfortable shoes."
+      "tips_en": "Definitely don't forget water and comfortable shoes.",
+      "source": "firebase"
     },
     {
       "name": "Tromvik",
@@ -2998,13 +3014,14 @@
       "rating": 4.3,
       "description": "Tromsøya'nın en yüksek noktası, panoramik şehir ve fiyort manzarası. Kolay tırmanış, fotoğrafçılık ve açık hava.",
       "description_en": "Highest point of Tromsøya with panoramic city and fjord views. Easy climb, photography, and outdoors.",
-      "imageUrl": "",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/tromso/varden.jpg",
       "price": "free",
       "bestTime": "09:00 - 18:00",
       "bestTime_en": "09:00 - 18:00",
       "tips": "Kışın kayak pistleri buradan geçer.",
       "tips_en": "Ski tracks pass through here in winter.",
-      "subcategory": "Tepe"
+      "subcategory": "Tepe",
+      "source": "firebase"
     },
     {
       "name": "Verdensteatret",
@@ -3152,6 +3169,25 @@
       "tips_en": "Reservation is a must for dinner.",
       "description_en": "Tromsø'nün en eski ve ünlü birahanesi. A great option to taste local flavors and spend a pleasant evening. It offers an unforgettable experience appealing to your palate with its friendly atmosphere and quality service.",
       "name_en": "Mack Brewery (Ølhallen)"
+    },
+    {
+      "name": "Fjellheisen (Cable Car)",
+      "name_en": "Fjellheisen",
+      "area": "Tromsø",
+      "category": "Manzara",
+      "tags": [
+        "teleferik",
+        "şehir",
+        "manzara"
+      ],
+      "lat": 69.642,
+      "lng": 18.987,
+      "rating": 4.8,
+      "description": "Tromsø'yü tepeden izlemek için en iyi yer. Kuzey ışıkları için popüler nokta.",
+      "description_en": "The best place to view Tromsø from above. Popular spot for northern lights.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/tromso/fjellheisen_cable_car.jpg",
+      "source": "firebase"
     }
-  ]
+  ],
+  "heroImage": "https://www.flightgift.com/media/wp/FG/2024/02/tromso.webp"
 }

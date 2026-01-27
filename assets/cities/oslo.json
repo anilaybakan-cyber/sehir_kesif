@@ -527,7 +527,7 @@
       "rating": 4.6,
       "bestTime": "Gündüz/Akşam",
       "tips": "Google Haritalar'dan güncel saatlere bakın.",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/oslo/deichman-grünerlokka.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/oslo/deichman_grunerlokka.jpg",
       "source": "firebase",
       "distanceFromCenter": 1.0,
       "description_en": "Modern library in a historic building, known for its comics section (Serieteket) and cinema.",
@@ -712,7 +712,7 @@
       "tips": "Klasik 'Smørbrød' (açık sandviç) öğle yemeği için idealdir.",
       "tips_en": "Classic 'Smørbrød' (open sandwich) is ideal for lunch.",
       "id": "engebret-café",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/oslo/engebret-café.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/oslo/engebret_cafe.jpg",
       "source": "firebase",
       "distanceFromCenter": 0.5
     },
@@ -980,7 +980,7 @@
       "rating": 4.6,
       "bestTime": "Gündüz/Akşam",
       "tips": "Google Haritalar'dan güncel saatlere bakın.",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/oslo/godt-brod-grünerlokka.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/oslo/godt_brod_grunerlokka.jpg",
       "source": "firebase",
       "distanceFromCenter": 1.0,
       "description_en": "Popular organic bakery known for handmade sourdough bread and legendary cinnamon rolls.",
@@ -1118,7 +1118,7 @@
       "tips": "Pazar günleri Birkelunden parkında bit pazarı kurulur.",
       "tips_en": "Flea market is set up in Birkelunden park on Sundays.",
       "id": "grünerlokka",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/oslo/grünerlokka.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/oslo/grunerlokka.jpg",
       "source": "firebase",
       "distanceFromCenter": 1.0
     },
@@ -4003,6 +4003,61 @@
       "distanceFromCenter": 1.0,
       "description_en": "High-end artisan bakery near the Royal Palace using traditional slow-baking methods.",
       "description_tr": "Kraliyet Sarayı yakınında, geleneksel yavaş pişirme yöntemlerini kullanan üst düzey butik fırın."
+    },
+    {
+      "name": "Frogner Park",
+      "name_en": "Frogner Park",
+      "area": "West",
+      "category": "Doğa",
+      "tags": [
+        "park",
+        "sculpture",
+        "outdoor"
+      ],
+      "lat": 59.927,
+      "lng": 10.7008,
+      "description": "Oslo'nun en büyük parkı. İçinde Gustav Vigeland'ın 200'den fazla heykelini barındıran heykel parkıyla ünlüdür.",
+      "description_en": "Oslo's largest park, world-famous for the Vigeland Sculpture Arrangement featuring over 200 sculptures by Gustav Vigeland.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/oslo/frogner.jpg",
+      "rating": 4.8,
+      "price": "free"
+    },
+    {
+      "name": "Salt (Sauna & Food)",
+      "name_en": "SALT",
+      "area": "Waterfront",
+      "category": "Yeme-İçme",
+      "tags": [
+        "sauna",
+        "kültür",
+        "deniz"
+      ],
+      "lat": 59.905,
+      "lng": 10.741,
+      "rating": 4.6,
+      "description": "Oslo sahilinde saunaları, sanat yerleştirmeleri ve sokak lezzetleriyle ünlü hibrit kültürel mekan.",
+      "description_en": "A hybrid cultural venue on Oslo's waterfront famous for its saunas, art installations, and street food.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/oslo/salt_sauna_food.jpg",
+      "source": "firebase"
+    },
+    {
+      "name": "Holmenkollen Ski Museum & Tower",
+      "name_en": "Holmenkollen",
+      "area": "Holmenkollen",
+      "category": "Spor",
+      "tags": [
+        "kayak",
+        "manzara",
+        "ikonik"
+      ],
+      "lat": 59.964,
+      "lng": 10.6675,
+      "rating": 4.8,
+      "description": "Dünyanın en eski kayak müzesi ve Oslo'nun muazzam manzarasını sunan kayak atlama kulesi.",
+      "description_en": "The world's oldest ski museum and a ski jump tower offering immense views of Oslo.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/oslo/holmenkollen_ski_museum_tower.jpg",
+      "source": "firebase"
     }
-  ]
+  ],
+  "heroImage": "https://www.journavel.com/wp-content/uploads/2024/10/IMG_1851-scaled.webp"
 }

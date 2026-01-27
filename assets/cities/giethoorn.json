@@ -86,7 +86,9 @@
       "tips": "Tipik bir Hollanda manzarası için fotoğraf çekin.",
       "tips_en": "Take a photo for a typical Dutch landscape.",
       "id": "archimedes-windmill",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/archimedes_windmill.jpg",
+      "source": "firebase"
     },
     {
       "name": "Bakkerij Toet",
@@ -470,7 +472,9 @@
       "tips": "Vejetaryen burger seçenekleri de mevcut.",
       "tips_en": "Vegetarian burger options are also available.",
       "id": "burgeth",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/burgeth.jpg",
+      "source": "firebase"
     },
     {
       "name": "Café Restaurant De Otterskooi",
@@ -706,7 +710,9 @@
       "tips": "Kurutulmuş çiçek buketleri uzun ömürlü bir hatıradır.",
       "tips_en": "Dried flower bouquets are a long-lasting souvenir.",
       "id": "de-aardigheit",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/de_aardigheit.jpg",
+      "source": "firebase"
     },
     {
       "name": "De Bovenstreek",
@@ -767,7 +773,9 @@
       "tips": "Filmin gösterim saatlerini kontrol edin.",
       "tips_en": "Check the movie screening times.",
       "id": "de-fanfare",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/de_fanfare.jpg",
+      "source": "firebase"
     },
     {
       "name": "De Grachthof",
@@ -1084,7 +1092,9 @@
       "tips": "Dinozor meraklısı çocuklar bayılacak.",
       "tips_en": "Dinosaur enthusiast kids will love it.",
       "id": "dinouk",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/dinouk.jpg",
+      "source": "firebase"
     },
     {
       "name": "Dolmen Center Borger",
@@ -1275,7 +1285,7 @@
       "rating": 4.4,
       "description": "Kanal manzaralı bira bahçesi. Günün yorgunluğunu atmak ve lezzetli bir kahve eşliğinde dinlenmek için en doğru adreslerden biri. Mekanın sıcak ambiyansı ve sunduğu tatlı sürprizler, molanızı keyfe dönüştürecek.",
       "description_en": "Beer garden with canal view. One of the right addresses to relieve the tiredness of the day and relax with a delicious coffee. The warm ambiance of the venue and the sweet surprises it offers will turn your break into pleasure.",
-      "imageUrl": "https://images.unsplash.com/photo-1543783232-af412b852fc7?w=800",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/gebroeders_pilsner.jpg",
       "price": "medium",
       "distanceFromCenter": 1.0,
       "bestTime": "09:00 - 18:00",
@@ -1548,7 +1558,7 @@
       "lng": 6.0815,
       "rating": 4.6,
       "description": "Ünlü Hollanda filmine konu olmuş tarihi kafe. One of the right addresses to relieve the tiredness of the day and relax with a delicious coffee. The warm ambiance of the venue and the sweet surprises it offers will turn your break into pleasure.",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/grand_café_fanfare.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/grand_cafe_fanfare.jpg",
       "price": "medium",
       "bestTime": "09:00 - 18:00",
       "bestTime_en": "09:00 - 18:00",
@@ -1920,7 +1930,9 @@
       "tips": "Hollanda'nın en güzel su yollarından biri seçilmiştir.",
       "tips_en": "Voted one of the most beautiful waterways in the Netherlands.",
       "id": "kalenbergergracht",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/kalenbergergracht.jpg",
+      "source": "firebase"
     },
     {
       "name": "Kamp Westerbork",
@@ -2108,7 +2120,9 @@
       "tips": "Sessiz olursanız geyikleri görebilirsiniz.",
       "tips_en": "You might see deer if you are quiet.",
       "id": "kooibos",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/kooibos.jpg",
+      "source": "firebase"
     },
     {
       "name": "Lemmer",
@@ -2379,7 +2393,9 @@
       "tips": "Buradan bisikletle doğaya çıkmak çok kolaydır.",
       "tips_en": "It is very easy to go out into nature by bike from here.",
       "id": "noorderind",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/noorderind.jpg",
+      "source": "firebase"
     },
     {
       "name": "Orchideeën Hoeve",
@@ -2799,7 +2815,9 @@
       "tips": "Soğuk havalarda sıcak çikolatası meşhurdur.",
       "tips_en": "Its hot chocolate is famous in cold weather.",
       "id": "restaurant-de-pergola",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/restaurant_de_pergola.jpg",
+      "source": "firebase"
     },
     {
       "name": "Restaurant Het Doevehuis",
@@ -2835,7 +2853,7 @@
       "rating": 4.4,
       "description": "Hollanda yemekleri ve dev pannenkoeken. Yerel lezzetlerin tadına varmak ve keyifli bir akşam geçirmek için harika bir seçenek. Samimi atmosferi ve kaliteli hizmetiyle damak zevkinize hitap edecek unutulmaz bir deneyim sunuyor.",
       "description_en": "Dutch dishes and giant pancakes. A great option to taste local flavors and spend a pleasant evening. It offers an unforgettable experience appealing to your palate with its friendly atmosphere and quality service.",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/restaurant_hollands_venetië.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/restaurant_hollands_veneti.jpg",
       "price": "medium",
       "distanceFromCenter": 1.0,
       "bestTime": "09:00 - 18:00",
@@ -3548,7 +3566,7 @@
       "tips": "Renkli okları takip ederek rotada kalın.",
       "tips_en": "Stay on route by following colored arrows.",
       "id": "weerribben-wieden-kano-rotaları",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/weerribben-wieden-kano-rotaları.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/weerribben_wieden_kano_rotalari.jpg",
       "source": "firebase",
       "distanceFromCenter": 1.0
     },
@@ -3676,7 +3694,9 @@
       "tips": "Sessiz elektrikli tekneyle gezmek için harikadır.",
       "tips_en": "Great for touring with a silent electric boat.",
       "id": "zuideindigerwijde",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/zuideindigerwijde.jpg",
+      "source": "firebase"
     },
     {
       "name": "Zuivelhoeve Steenwijk",
@@ -3720,5 +3740,6 @@
       "source": "firebase",
       "distanceFromCenter": 0.5
     }
-  ]
+  ],
+  "heroImage": "https://www.onedayinacity.com/wp-content/uploads/2021/03/Giethoorn-Village.png"
 }

@@ -55,7 +55,7 @@
       "tips": "Taç kapısındaki taş işçiliği muazzamdır.",
       "tips_en": "Stone workmanship on crown gate is magnificent.",
       "id": "ağzıkarahan-caravanserai",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kapadokya/ağzıkarahan-caravanserai.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kapadokya/agzikarahan_caravanserai.jpg",
       "source": "firebase",
       "distanceFromCenter": 0.5
     },
@@ -103,7 +103,7 @@
       "tips": "Bir anne ve kızları için yapıldığı söylenir.",
       "tips_en": "Said to be built for a mother and her daughters.",
       "id": "altı-kapı-tomb",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kapadokya/altı-kapı-tomb.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kapadokya/alti_kapi_tomb.jpg",
       "source": "firebase",
       "distanceFromCenter": 0.5
     },
@@ -151,7 +151,7 @@
       "tips": "İsmini bahçesindeki elma ağacından veya bir freskteki elmadan alır.",
       "tips_en": "Takes its name from apple tree in its garden or apple in a fresco.",
       "id": "apple-church-elmalı-kilise",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kapadokya/apple-church-elmalı-kilise.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kapadokya/apple_church.jpg",
       "source": "firebase",
       "distanceFromCenter": 0.5
     },
@@ -223,7 +223,7 @@
       "tips": "Dizi hayranları için nostaljiktir.",
       "tips_en": "Nostalgic for series fans.",
       "id": "asmalı-konak",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kapadokya/asmalı-konak.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kapadokya/asmali_konak.jpg",
       "source": "firebase",
       "distanceFromCenter": 0.5
     },
@@ -373,7 +373,7 @@
       "tips": "Sabah çok kalabalık olur, yerinizi erken alın.",
       "tips_en": "Gets very crowded in morning, take your spot early.",
       "id": "aydın-kırağı-hill-lovers-hill-viewpoint",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kapadokya/aydın-kırağı-hill-lovers-hill-viewpoint.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kapadokya/aydin_kiragi_hill.jpg",
       "source": "firebase",
       "distanceFromCenter": 0.5
     },
@@ -397,7 +397,7 @@
       "tips": "Yemek kursları burada popülerdir.",
       "tips_en": "Cooking classes are popular here.",
       "id": "ayvalı-village",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kapadokya/ayvalı-village.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kapadokya/ayvali_village.jpg",
       "source": "firebase",
       "distanceFromCenter": 0.5
     },
@@ -495,7 +495,7 @@
       "tips": "Yalnız kalmak isteyenler için idealdir.",
       "tips_en": "Ideal for those who want to be alone.",
       "id": "bağlıdere-valley-love-valley-2",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kapadokya/bağlıdere-valley-love-valley-2.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kapadokya/baglidere_valley.jpg",
       "source": "firebase",
       "distanceFromCenter": 0.5
     },
@@ -543,7 +543,7 @@
       "tips": "Ayaklarınızı suya sokarak alabalık yiyin.",
       "tips_en": "Eat trout while dipping your feet in water.",
       "id": "belisırma-village",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kapadokya/belisırma-village.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kapadokya/belisirma_village.jpg",
       "source": "firebase",
       "distanceFromCenter": 0.5
     },
@@ -567,7 +567,9 @@
       "tips": "Devasa ahşap ve taş düzenek görülmeye değer.",
       "tips_en": "Massive wooden and stone mechanism is worth seeing.",
       "id": "bezirhane-linseed-oil-press",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kapadokya/bezirhane_goreme.jpg",
+      "source": "firebase"
     },
     {
       "name": "Bezirhane Ihlara",
@@ -589,7 +591,9 @@
       "tips": "Kullanım amaçlarının karışımı ilginçtir.",
       "tips_en": "Mix of usage purposes is interesting.",
       "id": "bezirhane-church",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kapadokya/bezirhane_ihlara.jpg",
+      "source": "firebase"
     },
     {
       "name": "Buckle Church",
@@ -611,7 +615,7 @@
       "tips": "Büyüklüğü ve maviliği sizi şaşırtacak.",
       "tips_en": "Its size and blueness will surprise you.",
       "id": "buckle-church-tokalı-kilise",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kapadokya/buckle-church-tokalı-kilise.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kapadokya/buckle_church.jpg",
       "source": "firebase",
       "distanceFromCenter": 0.5
     },
@@ -685,7 +689,7 @@
       "tips": "Bakımsız kalmıştır ama atmosferi güzeldir.",
       "tips_en": "Neglected but atmosphere is nice.",
       "id": "cambazlı-church",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kapadokya/cambazlı-church.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kapadokya/cambazli_church.jpg",
       "source": "firebase",
       "distanceFromCenter": 0.5
     },
@@ -783,7 +787,7 @@
       "tips": "Tepedeki Vaftizci Yahya Kilisesi'ne tırmanın.",
       "tips_en": "Climb to St. John the Baptist Church at the top.",
       "id": "çavuşin-village",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kapadokya/çavuşin-village.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kapadokya/cavusin_village.jpg",
       "source": "firebase",
       "distanceFromCenter": 0.5
     },
@@ -881,7 +885,7 @@
       "tips": "Ulaşım açısından çok merkezi konumdadır.",
       "tips_en": "Very centrally located for transportation.",
       "id": "crowne-plaza-nevşehir",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kapadokya/crowne-plaza-nevşehir.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kapadokya/crowne_plaza_nevsehir.jpg",
       "source": "firebase",
       "distanceFromCenter": 0.5
     },
@@ -929,7 +933,7 @@
       "tips": "Müze girişine ek olarak ekstra bilet gerektirir ama kesinlikle değer.",
       "tips_en": "Requires extra ticket besides museum entry but definitely worth it.",
       "id": "dark-church-karanlık-kilise",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kapadokya/dark-church-karanlık-kilise.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kapadokya/dark_church.jpg",
       "source": "firebase",
       "distanceFromCenter": 0.5
     },
@@ -1305,7 +1309,7 @@
       "tips": "Testi kebabı da yapıyorlar ve fiyatı çok uygun.",
       "tips_en": "They also make pottery kebab and price is very reasonable.",
       "id": "fırın-express",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kapadokya/fırın-express.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kapadokya/firin_express.jpg",
       "source": "firebase",
       "distanceFromCenter": 0.5
     },
@@ -1379,7 +1383,7 @@
       "tips": "Profesyonel fotoğraf çekimi ücretlidir.",
       "tips_en": "Professional photo shoot is paid.",
       "id": "galerie-i̇kman",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kapadokya/galerie-i̇kman.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kapadokya/galerie_ikman.jpg",
       "source": "firebase",
       "distanceFromCenter": 0.5
     },
@@ -1451,7 +1455,7 @@
       "tips": "Hamamı çok güzeldir.",
       "tips_en": "Hamam is very nice.",
       "id": "göreme-kaya-hotel",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kapadokya/göreme-kaya-hotel.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kapadokya/goreme_kaya_hotel.jpg",
       "source": "firebase",
       "distanceFromCenter": 0.5
     },
@@ -1475,7 +1479,7 @@
       "tips": "Menengiç kahvesi için.",
       "tips_en": "Drink Menengiç coffee.",
       "id": "göreme-panorama-point",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kapadokya/göreme-panorama-point.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kapadokya/goreme_panorama_point.jpg",
       "source": "firebase",
       "distanceFromCenter": 0.5
     },
@@ -1523,7 +1527,7 @@
       "tips": "Grup kalabalıklarından kaçmak için idealdir.",
       "tips_en": "Ideal to escape group crowds.",
       "id": "görkundere-valley",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kapadokya/görkundere-valley.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kapadokya/gorkundere_valley.jpg",
       "source": "firebase",
       "distanceFromCenter": 0.5
     },
@@ -1547,7 +1551,7 @@
       "tips": "Manastırlar Vadisi'ni yürüyün.",
       "tips_en": "Walk the Monastery Valley.",
       "id": "güzelyurt-gelveri",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kapadokya/güzelyurt-gelveri.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kapadokya/guzelyurt_antique_city.jpg",
       "source": "firebase",
       "distanceFromCenter": 0.5
     },
@@ -1675,7 +1679,7 @@
       "tips": "Yanında çay içilebilecek bir kulübe vardır.",
       "tips_en": "There is a hut nearby where you can drink tea.",
       "id": "haclı-church-church-with-the-cross",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kapadokya/haclı-church-church-with-the-cross.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kapadokya/hacli_church.jpg",
       "source": "firebase",
       "distanceFromCenter": 0.5
     },
@@ -1749,7 +1753,7 @@
       "tips": "Tavan süslemeleri ilginçtir.",
       "tips_en": "Ceiling decorations are interesting.",
       "id": "hallaç-monastery",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kapadokya/hallaç-monastery.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kapadokya/hallac_monastery.jpg",
       "source": "firebase",
       "distanceFromCenter": 0.5
     },
@@ -1821,7 +1825,7 @@
       "tips": "Balkan Deresi vadisini yürüyebilirsiniz.",
       "tips_en": "You can walk the Balkan Creek valley.",
       "id": "i̇brahimpaşa-babayan",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kapadokya/i̇brahimpaşa-babayan.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kapadokya/ibrahimpasa_village.jpg",
       "source": "firebase",
       "distanceFromCenter": 0.5
     },
@@ -1871,7 +1875,7 @@
       "tips": "Fiyat/performans olarak çok iyidir.",
       "tips_en": "Very good price/performance ratio.",
       "id": "i̇nci-cave-restaurant",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kapadokya/i̇nci-cave-restaurant.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kapadokya/inci_cave_restaurant.jpg",
       "source": "firebase",
       "distanceFromCenter": 0.5
     },
@@ -1919,7 +1923,7 @@
       "tips": "Pencere oyukları çok fotjeniktir.",
       "tips_en": "Window hollows are very photogenic.",
       "id": "kadı-castle",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kapadokya/kadı-castle.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kapadokya/kadi_castle.jpg",
       "source": "firebase",
       "distanceFromCenter": 0.5
     },
@@ -1943,7 +1947,7 @@
       "tips": "Gözleme ve mantı yemek için en iyi ve en doğal yerlerden biri.",
       "tips_en": "One of best and most natural places to eat gozleme and manti.",
       "id": "kadıneli-restaurant",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kapadokya/kadıneli-restaurant.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kapadokya/kadineli_restaurant.jpg",
       "source": "firebase",
       "distanceFromCenter": 0.5
     },
@@ -2043,7 +2047,7 @@
       "tips": "Kendi havuzlu mağara odaları vardır.",
       "tips_en": "Has cave rooms with their own pools.",
       "id": "kayakapı-premium-caves",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kapadokya/kayakapı-premium-caves.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kapadokya/kayakapi_premium_caves.jpg",
       "source": "firebase",
       "distanceFromCenter": 0.5
     },
@@ -2143,7 +2147,7 @@
       "tips": "Taze sıkılmış nar suyu için.",
       "tips_en": "Drink fresh squeezed pomegranate juice.",
       "id": "keleş-cave-cafe",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kapadokya/keleş-cave-cafe.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kapadokya/keles_cave_cafe.jpg",
       "source": "firebase",
       "distanceFromCenter": 0.5
     },
@@ -2191,7 +2195,7 @@
       "tips": "Bekçi Cabir Amca'nın çayını için ve hikayelerini dinleyin.",
       "tips_en": "Drink Caretaker Uncle Cabir's tea and listen to his stories.",
       "id": "keşlik-monastery",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kapadokya/keşlik-monastery.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kapadokya/keslik_monastery.jpg",
       "source": "firebase",
       "distanceFromCenter": 0.5
     },
@@ -2239,7 +2243,7 @@
       "tips": "Göreme Açıkhava Müzesi'nin arkasındadır.",
       "tips_en": "Located behind Goreme Open Air Museum.",
       "id": "kılıçlar-valley-swords-valley",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kapadokya/kılıçlar-valley-swords-valley.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kapadokya/kiliclar_valley.jpg",
       "source": "firebase",
       "distanceFromCenter": 0.5
     },
@@ -2287,7 +2291,7 @@
       "tips": "Tarihi açıdan çok önemlidir.",
       "tips_en": "Very important historically.",
       "id": "kırk-dam-altı-church-st-george",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kapadokya/kırk-dam-altı-church-st-george.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kapadokya/kirk_dam_alti.jpg",
       "source": "firebase",
       "distanceFromCenter": 0.5
     },
@@ -2311,7 +2315,7 @@
       "tips": "Kazlara ekmek atabilirsiniz.",
       "tips_en": "You can feed bread to the geese.",
       "id": "kızılırmak-suspension-bridge",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kapadokya/kızılırmak-suspension-bridge.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kapadokya/kizilirmak_suspension_bridge.jpg",
       "source": "firebase",
       "distanceFromCenter": 0.5
     },
@@ -2335,7 +2339,7 @@
       "tips": "Kalecik Karası şarabı ödüllüdür.",
       "tips_en": "Kalecik Karası wine is award winning.",
       "id": "kocabağ-winery",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kapadokya/kocabağ-winery.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kapadokya/kocabag_winery.jpg",
       "source": "firebase",
       "distanceFromCenter": 0.5
     },
@@ -2483,7 +2487,7 @@
       "tips": "Sabah 05:00'te orada olun.",
       "tips_en": "Be there at 05:00 am.",
       "id": "lovers-hill-aşıklar-tepesi",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kapadokya/lovers-hill-aşıklar-tepesi.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kapadokya/lovers_hill.jpg",
       "source": "firebase",
       "distanceFromCenter": 0.5
     },
@@ -2507,7 +2511,7 @@
       "tips": "Farklı markaları denemek için idealdir.",
       "tips_en": "Ideal to try different brands.",
       "id": "mahzen-şarap-evi",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kapadokya/mahzen-şarap-evi.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kapadokya/mahzen_sarap_evi.jpg",
       "source": "firebase",
       "distanceFromCenter": 0.5
     },
@@ -2555,7 +2559,7 @@
       "tips": "Köy halkı çok misafirperverdir.",
       "tips_en": "Village people are very hospitable.",
       "id": "mazıköy-underground-city",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kapadokya/mazıköy-underground-city.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kapadokya/mazikoy_underground_city.jpg",
       "source": "firebase",
       "distanceFromCenter": 0.5
     },
@@ -2653,7 +2657,9 @@
       "tips": "Kendinize özel bir hatıra almak için ideal.",
       "tips_en": "Ideal to get yourself a special souvenir.",
       "id": "muhterif",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kapadokya/muhterif.jpg",
+      "source": "firebase"
     },
     {
       "name": "Museum Hotel",
@@ -2699,7 +2705,7 @@
       "tips": "Kapı ve pencere işlemelerine dikkat edin.",
       "tips_en": "Pay attention to door and window carvings.",
       "id": "mustafapaşa-sinasos",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kapadokya/mustafapaşa-sinasos.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kapadokya/mustafapasa_village.jpg",
       "source": "firebase",
       "distanceFromCenter": 0.5
     },
@@ -2749,7 +2755,7 @@
       "tips": "Tepeden manzarası harikadır.",
       "tips_en": "View from top is great.",
       "id": "narlıgöl-crater-lake",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kapadokya/narlıgöl-crater-lake.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kapadokya/narligol.jpg",
       "source": "firebase",
       "distanceFromCenter": 0.5
     },
@@ -2773,7 +2779,9 @@
       "tips": "Yer bulmak zordur, erken gidin.",
       "tips_en": "Hard to find space, go early.",
       "id": "nazar-börek",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kapadokya/nazar_borek.jpg",
+      "source": "firebase"
     },
     {
       "name": "Nevsehir Museum",
@@ -2795,7 +2803,7 @@
       "tips": "Kapadokya tarihini anlamak için iyi bir başlangıçtır.",
       "tips_en": "Good start to understand Cappadocia history.",
       "id": "nevşehir-museum",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kapadokya/nevşehir-museum.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kapadokya/nevsehir_museum.jpg",
       "source": "firebase",
       "distanceFromCenter": 0.5
     },
@@ -2869,7 +2877,9 @@
       "tips": "Güvenlik nedeniyle üst katlara çıkış kapalı olabilir.",
       "tips_en": "Upper floors might be closed for safety.",
       "id": "nunnery-kızlar-manastırı",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kapadokya/nunnery.jpg",
+      "source": "firebase"
     },
     {
       "name": "Old Cappadocia Cafe",
@@ -3065,7 +3075,7 @@
       "tips": "Pancarlık Kilisesi'ni mutlaka görün.",
       "tips_en": "Must see Pancarlık Church.",
       "id": "pancarlık-valley",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kapadokya/pancarlık-valley.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kapadokya/pancarlik_valley.jpg",
       "source": "firebase",
       "distanceFromCenter": 0.5
     },
@@ -3189,7 +3199,7 @@
       "tips": "Fix menü şeklinde çalışır, sürpriz tatlara açık olun.",
       "tips_en": "Operates on set menu, be open to surprise tastes.",
       "id": "pumpkin-göreme-restaurant",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kapadokya/pumpkin-göreme-restaurant.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kapadokya/pumpkin_goreme_restaurant.jpg",
       "source": "firebase",
       "distanceFromCenter": 0.5
     },
@@ -3213,7 +3223,7 @@
       "tips": "Fotoğrafçılar için mükemmel bir objedir.",
       "tips_en": "Perfect object for photographers.",
       "id": "red-church-kızıl-kilise",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kapadokya/red-church-kızıl-kilise.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kapadokya/red_church.jpg",
       "source": "firebase",
       "distanceFromCenter": 0.5
     },
@@ -3266,7 +3276,7 @@
       "tips": "Yer bulmak için güneş batmadan 1 saat önce gidin.",
       "tips_en": "Go 1 hour before sunset to find a spot.",
       "id": "kızılçukur-sunset-point",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kapadokya/kızılçukur-sunset-point.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kapadokya/red_valley_viewpoint.jpg",
       "source": "firebase",
       "distanceFromCenter": 0.5
     },
@@ -3410,7 +3420,7 @@
       "tips": "El Nazar Kilisesi'ne yakındır.",
       "tips_en": "Close to El Nazar Church.",
       "id": "saklı-church-hidden-church",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kapadokya/saklı-church-hidden-church.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kapadokya/sakli_church.jpg",
       "source": "firebase",
       "distanceFromCenter": 0.5
     },
@@ -3434,7 +3444,7 @@
       "tips": "Mantısı ev yapımı ve çok lezzetlidir.",
       "tips_en": "Manti is homemade and very delicious.",
       "id": "saklı-konak",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kapadokya/saklı-konak.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kapadokya/sakli_konak.jpg",
       "source": "firebase",
       "distanceFromCenter": 0.5
     },
@@ -3458,7 +3468,7 @@
       "tips": "Son Akşam Yemeği freski çok başarılıdır.",
       "tips_en": "Last Supper fresco is very successful.",
       "id": "sandal-church-çarıklı-kilise",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kapadokya/sandal-church-çarıklı-kilise.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kapadokya/sandal_church.jpg",
       "source": "firebase",
       "distanceFromCenter": 0.5
     },
@@ -3482,7 +3492,7 @@
       "tips": "İzole bir tepededir, manzarası hakimdir.",
       "tips_en": "On an isolated hill, view is dominant.",
       "id": "sarıca-church",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kapadokya/sarıca-church.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kapadokya/sarica_church.jpg",
       "source": "firebase",
       "distanceFromCenter": 0.5
     },
@@ -3507,7 +3517,7 @@
       "tips": "Semazen gösterisi için bilet almalısınız.",
       "tips_en": "Must buy tickets for Whirling Dervish show.",
       "id": "saruhan-caravanserai-sarıhan",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kapadokya/saruhan-caravanserai-sarıhan.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kapadokya/saruhan_caravanserai.jpg",
       "source": "firebase",
       "distanceFromCenter": 0.5
     },
@@ -3653,7 +3663,7 @@
       "tips": "Yarım kalmış bir kilisedir.",
       "tips_en": "It is an unfinished church.",
       "id": "snake-church-yılanlı-kilise",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kapadokya/snake-church-yılanlı-kilise.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kapadokya/snake_church.jpg",
       "source": "firebase",
       "distanceFromCenter": 0.5
     },
@@ -3775,7 +3785,7 @@
       "tips": "Merdivenle inilir.",
       "tips_en": "Descended by stairs.",
       "id": "st-basil-church-mustafapaşa",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kapadokya/st-basil-church-mustafapaşa.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kapadokya/st_basil_mustafapasa.jpg",
       "source": "firebase",
       "distanceFromCenter": 0.5
     },
@@ -3947,7 +3957,7 @@
       "tips": "Anıtsal kapısı fotoğraf için harikadır.",
       "tips_en": "Monumental gate is great for photos.",
       "id": "taşkınpaşa-madrasa",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kapadokya/taşkınpaşa-madrasa.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kapadokya/taskinpasa_madrasa.jpg",
       "source": "firebase",
       "distanceFromCenter": 0.5
     },
@@ -3971,7 +3981,7 @@
       "tips": "Kışın karlar altında jakuzi keyfi eşsizdir.",
       "tips_en": "Jacuzzi enjoyment under snow in winter is unique.",
       "id": "taşkonaklar-hotel",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kapadokya/taşkonaklar-hotel.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kapadokya/taskonaklar.jpg",
       "source": "firebase",
       "distanceFromCenter": 0.5
     },
@@ -4043,7 +4053,7 @@
       "tips": "Şu an sosyal tesis olarak kullanılıyor.",
       "tips_en": "Currently used as social facility.",
       "id": "temenni-library-tahsin-ağa",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kapadokya/temenni-library-tahsin-ağa.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kapadokya/temenni_library.jpg",
       "source": "firebase",
       "distanceFromCenter": 0.5
     },
@@ -4067,7 +4077,7 @@
       "tips": "Arka plandaki Erciyes Dağı manzarasıyla fotoğraf çekin.",
       "tips_en": "Take photos with Mount Erciyes in the background.",
       "id": "three-beauties-üç-güzeller",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kapadokya/three-beauties-üç-güzeller.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kapadokya/three_beauties.jpg",
       "source": "firebase",
       "distanceFromCenter": 0.5
     },
@@ -4091,7 +4101,7 @@
       "tips": "Yürüyüş rotası üzerindedir.",
       "tips_en": "On the hiking route.",
       "id": "three-crosses-church-üç-haçlı",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kapadokya/three-crosses-church-üç-haçlı.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kapadokya/three_crosses_church.jpg",
       "source": "firebase",
       "distanceFromCenter": 0.5
     },
@@ -4191,7 +4201,7 @@
       "tips": "Gün batımı havuz başında izlenmeli.",
       "tips_en": "Sunset should be watched by pool.",
       "id": "uçhisar-kaya-otel",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kapadokya/uçhisar-kaya-otel.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kapadokya/uchisar_kaya_otel.jpg",
       "source": "firebase",
       "distanceFromCenter": 0.5
     },
@@ -4215,7 +4225,7 @@
       "tips": "Kalenin hemen altındadır.",
       "tips_en": "Right below the castle.",
       "id": "uçhisar-old-town-square",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kapadokya/uçhisar-old-town-square.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kapadokya/uchisar_old_square.jpg",
       "source": "firebase",
       "distanceFromCenter": 0.5
     },
@@ -4239,7 +4249,7 @@
       "tips": "Gruplar için idealdir.",
       "tips_en": "Ideal for groups.",
       "id": "uranos-sarıkaya-restaurant",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kapadokya/uranos-sarıkaya-restaurant.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kapadokya/uranos_sarikaya_restaurant.jpg",
       "source": "firebase",
       "distanceFromCenter": 0.5
     },
@@ -4263,7 +4273,7 @@
       "tips": "Namaz vakitleri dışında ziyaret edilebilir.",
       "tips_en": "Can be visited outside prayer times.",
       "id": "ürgüp-grand-mosque-kebir-camii",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kapadokya/ürgüp-grand-mosque-kebir-camii.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kapadokya/urgup_big_mosque.jpg",
       "source": "firebase",
       "distanceFromCenter": 0.5
     },
@@ -4287,7 +4297,9 @@
       "tips": "Yürüyüş sonrası yorgunluk atmak için birebir.",
       "tips_en": "Perfect for relieving fatigue after hiking.",
       "id": "ürgüp-city-bath-hamam",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kapadokya/urgup_hamam.jpg",
+      "source": "firebase"
     },
     {
       "name": "Uzengi Valley",
@@ -4309,7 +4321,7 @@
       "tips": "Maden suyu çıkan doğal kaynağı bulun.",
       "tips_en": "Find the natural spring with mineral water.",
       "id": "üzengi-valley",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kapadokya/üzengi-valley.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kapadokya/uzengi_valley.jpg",
       "source": "firebase",
       "distanceFromCenter": 0.5
     },
@@ -4333,7 +4345,7 @@
       "tips": "Aziz Nichitas için yapılmıştır.",
       "tips_en": "Built for St. Nichitas.",
       "id": "üzümlü-church",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kapadokya/üzümlü-church.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kapadokya/uzumlu_church.jpg",
       "source": "firebase",
       "distanceFromCenter": 0.5
     },
@@ -4455,7 +4467,7 @@
       "tips": "Tagar Kilisesi'nin cam tavanı ilginçtir.",
       "tips_en": "Glass ceiling of Tagar Church is interesting.",
       "id": "yeşilöz-village",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kapadokya/yeşilöz-village.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kapadokya/yesiloz_village.jpg",
       "source": "firebase",
       "distanceFromCenter": 0.5
     },
@@ -4479,7 +4491,7 @@
       "tips": "Manzara tüm vadiye hakimdir.",
       "tips_en": "View dominates entire valley.",
       "id": "high-church-yüksek-kilise",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kapadokya/high-church-yüksek-kilise.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kapadokya/yuksek_kilise.jpg",
       "source": "firebase",
       "distanceFromCenter": 0.5
     },

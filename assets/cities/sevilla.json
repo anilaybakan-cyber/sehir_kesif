@@ -3854,11 +3854,12 @@
       "rating": 4.7,
       "description": "Maria Luisa Parkı'nın içinde yer alan bu yarım daire şeklindeki anıtsal meydan, fayans işçiliğinin (azulejos) zirvesidir. İspanya'nın her bölgesini temsil eden bankları inceleyebilir veya kanalda küçük bir sandalla romantik bir gezintiye çıkabilirsiniz. Star Wars gibi filmlere set olmuştur.",
       "description_en": "Located inside Maria Luisa Park, this semi-circular monumental square is the pinnacle of tile work (azulejos). You can examine benches representing every region of Spain or take a romantic ride in a small boat on the canal. It has been a set for movies like Star Wars.",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sevilla/plaza_de_espana.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sevilla/plaza_de_españa.jpg",
       "bestTime": "Gün batımı",
       "bestTime_en": "Sunset",
       "tips": "Grup indirimi olup olmadığını sorun.",
-      "tips_en": "Ask if there is a group discount."
+      "tips_en": "Ask if there is a group discount.",
+      "source": "firebase"
     },
     {
       "name": "Plaza de Toros de la Maestranza",
@@ -4876,6 +4877,43 @@
       "distanceFromCenter": 1.5,
       "tips": "Hafta içi ziyaret etmek daha sakin bir deneyim sunar.",
       "tips_en": "Visiting on weekdays offers a calmer experience."
+    },
+    {
+      "name": "Santa Cruz Neighborhood",
+      "name_en": "Santa Cruz Neighborhood",
+      "area": "Center",
+      "category": "Tarihi",
+      "tags": [
+        "neighborhood",
+        "history",
+        "narrow streets"
+      ],
+      "lat": 37.3851,
+      "lng": -5.9912,
+      "description": "Sevilla'nın en eski ve büyüleyici mahallesi. Dar sokakları, portakal ağaçları ve begonvilleriyle ünlü eski Yahudi mahallesi.",
+      "description_en": "Seville's oldest and most charming neighborhood. The former Jewish quarter is famous for its narrow alleys and orange trees.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sevilla/santa_cruz.jpg",
+      "rating": 4.8,
+      "price": "free"
+    },
+    {
+      "name": "Plaza de España",
+      "name_en": "Plaza de España",
+      "area": "Parque de María Luisa",
+      "category": "Tarihi",
+      "tags": [
+        "meydan",
+        "tarih",
+        "ikonik",
+        "star wars"
+      ],
+      "lat": 37.3772,
+      "lng": -5.9869,
+      "rating": 4.9,
+      "description": "1929 İbero-Amerikan Sergisi için inşa edilen, yarım daire şeklindeki devasa ve görkemli meydan. Seramik kaplı bankları ve kanalıyla ünlüdür.",
+      "description_en": "Massive and magnificent semi-circular plaza built for the 1929 Ibero-American Exposition. Famous for its ceramic-tiled benches and canal.",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Plaza_de_Espa%C3%B1a_Seville_%2820563465133%29.jpg/800px-Plaza_de_Espa%C3%B1a_Seville_%2820563465133%29.jpg",
+      "price": "free"
     }
   ]
 }

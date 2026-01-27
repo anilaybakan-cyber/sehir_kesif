@@ -532,7 +532,7 @@
       "tips": "Ev yapımı dondurmaları güzeldir.",
       "tips_en": "Their homemade ice creams are good.",
       "id": "café-derbl",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/hallstatt/café-derbl.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/hallstatt/cafe_derbl.jpg",
       "source": "firebase",
       "distanceFromCenter": 0.5
     },
@@ -752,7 +752,9 @@
       "tips": "Çatıların üzerinden gölü izlemek için harika.",
       "tips_en": "Great for watching the lake over the rooftops.",
       "id": "morton-path",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/hallstatt/dr__friedrich_morton_weg.jpg",
+      "source": "firebase"
     },
     {
       "name": "Drachenwand Klettersteig",
@@ -1304,7 +1306,9 @@
       "tips": "Meditasyon yapmak için ideal.",
       "tips_en": "Ideal for meditation.",
       "id": "happiness-spot-obertraun",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/hallstatt/glucksplatz_obertraun.jpg",
+      "source": "firebase"
     },
     {
       "name": "Gmundner Keramik Manufaktur",
@@ -2193,7 +2197,9 @@
       "tips": "Merkez taşını bulun.",
       "tips_en": "Find the center stone.",
       "id": "bad-aussee-park",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/hallstatt/kurpark_bad_aussee.jpg",
+      "source": "firebase"
     },
     {
       "name": "Kurpark Bad Ischl",
@@ -2503,7 +2509,9 @@
       "tips": "Rahat yürüyüş ayakkabısı giyin.",
       "tips_en": "Wear comfortable walking shoes.",
       "id": "painters-trail",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/hallstatt/malerweg_hallstatt.jpg",
+      "source": "firebase"
     },
     {
       "name": "Mammuthöhle Dachstein",
@@ -2742,7 +2750,9 @@
       "tips": "İçindeki orgu mutlaka görün.",
       "tips_en": "Must see the organ inside.",
       "id": "st-nicholas-church",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/hallstatt/nikolauskirche_bad_ischl.jpg",
+      "source": "firebase"
     },
     {
       "name": "Nussensee",
@@ -2980,7 +2990,9 @@
       "tips": "İçeri girilmez ama dışarıdan görülmeye değer.",
       "tips_en": "Cannot enter inside but worth seeing from outside.",
       "id": "red-bull-hq",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/hallstatt/red_bull_headquarters.jpg",
+      "source": "firebase"
     },
     {
       "name": "Rettenbachklamm",
@@ -3219,7 +3231,9 @@
       "tips": "Manzarası çok geniştir.",
       "tips_en": "View is very wide.",
       "id": "sandling-mountain",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/hallstatt/sandling.jpg",
+      "source": "firebase"
     },
     {
       "name": "Sarsteinalm",
@@ -3698,7 +3712,9 @@
       "tips": "Şehrin en iyi kuşbakışı manzaralarından biri.",
       "tips_en": "One of the best bird's eye views of the city.",
       "id": "sophies-view",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/hallstatt/sophien_doppelblick.jpg",
+      "source": "firebase"
     },
     {
       "name": "Spitzvilla",
@@ -4301,5 +4317,6 @@
       "source": "firebase",
       "distanceFromCenter": 0.5
     }
-  ]
+  ],
+  "heroImage": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/hallstatt/hallstatt-postcard-viewpoint.jpg"
 }

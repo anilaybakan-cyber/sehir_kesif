@@ -124,8 +124,8 @@
       "description_en": "Started as ice cream shop but became famous for croissants and coffee too. Small, minimalist and flavor focused.",
       "bestTime": "Öğleden sonra",
       "bestTime_en": "Afternoon",
-      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AZLasHpsflaF701918NLOe8aL1cIkO5MFwVibyalW31SYE3rKX7IObPyWUXargVKMeYp5IP34oQVKwiZU6-5tfrG0CmA-3WAy8QHoxN4IB-oo6fPe-cixwOV19q_rWJk2sZ8pxCEl3XHUiiQLMlUUHa_UDf9yBprMCPLKyRx3daQyhz-kWvqra5xdZS7GEoxv4oBlwRDoGW-Da0WD2d_eu-SD84Crgl5N36x-kpRegb1AGsN1Q-V8y3FmDzab54GiSdP7L1lCj1YEkJhHjX_wue30xq-N-fUXVR-yoYWJ4Agtdde9qma0oyZjcOvCqvxkggG8n51iffXjLbOxpRZ79_8i9hMbEZrDwQBBcwGDfoHZp3yzyqKSs_26tqK4RcWmPqT8biNR2GVGW476XZHb-xPCBk5HHOFRGhWy52JFaZUjbiQ2m35cyezeqDOTF6gkxO3Xej7vgfvSlHmWGpXVpljcRHBj_VcV_oP6hNtr75agbs6H5n4PwqOV-o07TOF4F8l8tFfuW743nLIbl5dYZVOTrcH9Sag_YF_4OCoBNu0-xaM-bhgsqBp4pWy9RouPw8g-8zCmOq8lLEfng&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
-      "source": "google",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kopenhag/alice-ice-cream-_-coffee.jpg",
+      "source": "firebase",
       "id": "alice-ice-cream-&-coffee"
     },
     {
@@ -175,8 +175,8 @@
         "tarih",
         "mimari"
       ],
-      "source": "google",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Amalienborg_Palace_Square.jpg/800px-Amalienborg_Palace_Square.jpg",
+      "source": "firebase",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kopenhag/amalienborg_sarayi.jpg",
       "tips": "Sabah erken saatlerde giderek turist kalabalığından kaçınabilirsiniz.",
       "description_en": "The home of the Danish royal family, consisting of four identical classical palace façades.",
       "tips_en": "Go early in the morning to avoid tourist crowds."
@@ -201,8 +201,8 @@
       "description_en": "Both coffee roaster and bakery. Their cube shaped croissants and espresso soft serve ice creams are stars of Instagram.",
       "bestTime": "Sabah",
       "bestTime_en": "Morning",
-      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AZLasHrmS4uOm59BEv3ocb5EcTwy2t1KYrG9AYegNpQryLMTnMyRCDYc-5fI6sfMnE9qRlWcQwjnGJi4sO-OmwgO4OmAIlK1guGj0WUffuYVJtQ4mK492qLuzIqVM-yNtPK3K4uealtd_7mN420xcbj_szYOCU2BJSraiJtD5T17y2XQiqM0zHxCIWLaQ7o7_FtgGjNhI-2eUZ35Xwg6oVYlpCD6-coFTMjoQcuWrV3LGQ8uO7JinXNTmk1UznDvkBVttJPSahn0OcDNwn68eMZpionLbReSIAptultuu9_paVi4F5uQSCE__UyysEI3zXiuly2h-I6GKYI0qelcgOrHPwfQ7g0bQwBaP2i2Vv1ASHKsqy_XwbXGXfwNGdMKSaGyVh9-iDaq5e4Uz0rjOolmeNdkIg4BNo7kGX2DQjjfAu98knBoDrNVmtuTK0o5PkIiBQ8YlLIrXLBOHPcN7DFYzBStW9F1LzqfReB9WfcRp563D63ArcapKVoeCeyc7QMMjtggU4INwwoOv927cxNKLaFVjusGOIE-d_0kXOxc10IoXtFKfAnSDkmhN94DF2_NrjSY31q6&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
-      "source": "google",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kopenhag/andersen-_-maillard.jpg",
+      "source": "firebase",
       "id": "andersen-&-maillard"
     },
     {
@@ -228,8 +228,8 @@
         "kahvaltı",
         "tatlı"
       ],
-      "source": "google",
-      "imageUrl": "https://lh5.googleusercontent.com/p/AF1QipP_888999000111=w408-h240-k-no-pi-20-ya300-ro0-fo100",
+      "source": "firebase",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kopenhag/andersen_bakery.jpg",
       "tips": "Çevredeki küçük hediyelik eşya dükkanlarına da uğrayın.",
       "description_en": "Danish bakery with a Japanese twist, offering exquisite pastries.",
       "tips_en": "Stop by the small souvenir shops around."
@@ -402,8 +402,8 @@
         "sağlıklı",
         "fotoğraf"
       ],
-      "source": "google",
-      "imageUrl": "https://lh5.googleusercontent.com/p/AF1QipN_112233445566=w408-h240-k-no-pi-20-ya300-ro0-fo100",
+      "source": "firebase",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kopenhag/atelier_september.jpg",
       "tips": "Çevredeki küçük hediyelik eşya dükkanlarına da uğrayın.",
       "description_en": "Chic vegetarian cafe known for its aesthetics and avocado toast.",
       "tips_en": "Stop by the small souvenir shops around."
@@ -500,8 +500,8 @@
       "description_en": "Cute bakery in Enghave Plads loved by locals. Almond croissant and rye bread are very successful.",
       "bestTime": "Sabah",
       "bestTime_en": "Morning",
-      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AZLasHpQVCaa0JCvRFkunK_y-G7XFrPezdjoCRB4qDfTtC8igk2DHbRsnIeXF3vcxwt0bUa9toswnzBiXJSfkwNBojCP5lMYLuUdpquQaRRPfkoI_Bf9offb1WhH5J0eMUNcvpl14RL8pxiaf_rsVij-W9qto3Qg-KIhRhgBqOJrtvloUqBuo5eyIutf3eHDilJVD0noYTTqyE30mSWh_FEE54CoLBT4roEVN4u9KQ5S2Msaj-AXq1WYvmEnxsduw0GI14_HohrWyIpDURePOZIHd9h9SvX3RJC5OOexMV62ue77wwRO-IciYAA2Qb50y3MiVQkQyUW9kH69pcDA6at9kx23km4GfPesbzy02Cko3aOub2vhTc00mIYFup3mWEUxDAyGTQYVx_vOxeqa9Tzel7fFYMHx7Xlyk4CLjwunJ6-If5k0rcm8k-lBJ4Kt-gywupSK2jxalPE19Df8xkd93IfoYPjt72PRVWKDCYkwGwQGhyKPnWq1lGiXc1eXDZQJmQ1K8q7s-Iq6b-wpOsqyXuICPnfbPW3ExMvm24FLTNu34H-6rqRwflAImW_PZTwg2xNVAEmT7oXz_eRnqkHa9Y1Zv8puTg&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
-      "source": "google",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kopenhag/bageriet-brod.jpg",
+      "source": "firebase",
       "id": "bageriet-brod"
     },
     {
@@ -596,8 +596,8 @@
       "description_en": "Huge game cafe hosting thousands of board games. Great for spending hours with friends.",
       "bestTime": "Akşam",
       "bestTime_en": "Evening",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kopenhag/bastard_café.jpg",
-      "source": "google",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kopenhag/bastard_cafe.jpg",
+      "source": "firebase",
       "id": "bastard-café"
     },
     {
@@ -648,8 +648,8 @@
         "dinlenme",
         "fotoğraf"
       ],
-      "source": "google",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Palm_House_Copenhagen_Botanical_Garden.jpg/800px-Palm_House_Copenhagen_Botanical_Garden.jpg",
+      "source": "firebase",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kopenhag/botanical_garden.jpg",
       "tips": "Yürüyüş ayakkabısı giymeniz önerilir.",
       "description_en": "Part of the Natural History Museum of Denmark, famous for its historical glasshouses.",
       "tips_en": "Walking shoes are recommended."
@@ -722,8 +722,8 @@
       "description_en": "With a name meaning 'Passion for bread', truly a passionate bakery. Their rye breads are very famous.",
       "bestTime": "Sabah",
       "bestTime_en": "Morning",
-      "imageUrl": "",
-      "source": "google_failed",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kopenhag/brodflov.jpg",
+      "source": "firebase",
       "id": "brodflov"
     },
     {
@@ -770,8 +770,8 @@
       "description_en": "They make one of best pizzas in world. They even produce their own mozzarella. 'New Nordic' touch to Italian cuisine.",
       "bestTime": "Akşam",
       "bestTime_en": "Evening",
-      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AZLasHqj9FA2xjqXnzm8PYXaWGyZ-aBFD6SOmz0_jH0oqjLVV_PxgY7FOtj4vvDSucFWvuSt8bSmI945wRIBzwTF2bnfiq5l5cnVfmUMoSOvXBD3wdMLq07hMpMoyLJmtBF8Xn2H31LEXk2CsiHPIPIu1EpOt9OPEwaph5gdMGe9ZypU4ECl8vaR6ASpqtQklhYhUINlG09-2DrHsl6C5GIqCFd2JLgswLUWmpIfQmFBcgvytpTosIli2yozDmN39Y5nIFrRAjqb8rYYgKXKHaEAWeCWIl9t8r3hGFGpuZpZ6wXQtvHD35M&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
-      "source": "google",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kopenhag/baest.jpg",
+      "source": "firebase",
       "id": "baest"
     },
     {
@@ -818,8 +818,8 @@
       "description_en": "Classic and beloved cafe under trees in Bopa Plads square. Very enjoyable to drink coffee while watching petanque players.",
       "bestTime": "Gündüz/Akşam",
       "bestTime_en": "Day/Evening",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kopenhag/café_bopa.jpg",
-      "source": "google",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kopenhag/cafe_bopa.jpg",
+      "source": "firebase",
       "id": "café-bopa"
     },
     {
@@ -842,8 +842,8 @@
       "description_en": "One of world's smallest hotels (has only one room!). Cafe underneath is a tiny and very cute coffee stop.",
       "bestTime": "Sabah",
       "bestTime_en": "Morning",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kopenhag/central_hotel_&_café.jpg",
-      "source": "google",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kopenhag/central_hotel_cafe.jpg",
+      "source": "firebase",
       "id": "central-hotel-&-café"
     },
     {
@@ -894,8 +894,8 @@
         "politika",
         "manzara"
       ],
-      "source": "google",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Christiansborg_Slot_2014.jpg/800px-Christiansborg_Slot_2014.jpg",
+      "source": "firebase",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kopenhag/christiansborg_sarayi.jpg",
       "tips": "Müze kartınız varsa girişte sıra beklemezsiniz.",
       "description_en": "Seat of the Danish Parliament, the Prime Minister's Office and the Supreme Court.",
       "tips_en": "You skip the line if you have a museum pass."
@@ -1044,8 +1044,8 @@
         "manzara",
         "inovasyon"
       ],
-      "source": "google",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Amager_Bakke_-_CopenHill.jpg/800px-Amager_Bakke_-_CopenHill.jpg",
+      "source": "firebase",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kopenhag/copenhill__amager_bakke_.jpg",
       "tips": "Kıyafetinizin aktiviteye uygun olduğundan emin olun.",
       "description_en": "Artificial ski slope built on top of a waste-to-energy power plant.",
       "tips_en": "Ensure your outfit is suitable for the activity."
@@ -1070,8 +1070,8 @@
       "description_en": "Outdoor jacuzzis and saunas with harbor view. There is even a spa boat floating in canal.",
       "bestTime": "Kış/Akşam",
       "bestTime_en": "Winter/Evening",
-      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AZLasHoPtwU_3yU7bhub6DrXcOSyYlKHnN3DQF22FMpi9Md9vwnsq0Ut1qyVJUpPCEoUDr2muEoNRY6yDBYwScGBt9cOX6Pc14kNOrpfz6xHuIwurpjtm14aTQg0y5os6xVfg4ecsd0dg01tN815VP7C7uTZJY8sGhpxjgqyg84Z7Iv00qdkr2VeJa0OPVsfKm8Wv4ZirGv2WWNUj5nBI-vKeFwhDWwXVtQuOYYeAp0YVoJe7wW8O2VpMa7w87Zyr5gMxt0Phbhn9CkxqUOtujZzrKWpbkY99pcviQMdqFTgDUDTQeDTJ_o&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
-      "source": "google",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kopenhag/copenhot.jpg",
+      "source": "firebase",
       "id": "copenhot"
     },
     {
@@ -1190,8 +1190,8 @@
       "description_en": "Museum quality gallery selling original Danish furniture from 1920-1970. Worth visiting just to see design classics.",
       "bestTime": "Gündüz",
       "bestTime_en": "Daytime",
-      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AZLasHrCFRbGPpNwXuHg6KBIwC2OXLYTxOxyJANzcuQfr_WRIvVgniAf6S1HSfdzKsXbEQF6nXIA6BxX2PGkWRXVfo5VttVD9tmIjulMuOElZWh9aYoR_Hh_RB64P9wXmgnNrnKN9l5yjFypZA75ZdxYSyxGEthiTp4L773GjYx5w8WLb40aY_2JBmVMFuT4A7YCtfCT-9lSqQzYhu0KOSQifVPQWNwhWY97RF-g1GS2_U8W2HsimA1S7EYLQgpuv_DF-6js6jQH3WDkaZe3jfuomKDJvE18hPOxIspQkYh8YZ0kzliCEdk&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
-      "source": "google",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kopenhag/dansk-mobelkunst-gallery.jpg",
+      "source": "firebase",
       "id": "dansk-mobelkunst-gallery"
     },
     {
@@ -1214,8 +1214,8 @@
       "description_en": "One of warmest and friendliest coffee shops in Nørrebro. A true neighborhood coffee shop with colorful armchairs and cozy atmosphere.",
       "bestTime": "Gündüz",
       "bestTime_en": "Daytime",
-      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AZLasHqNAbFhyR9IUqhrcO7uLcbBk1N-Filiel5iN_cd3wnhSlh48Gn-iWzhY-kh29Jk_JM7JCvdNjR5EgFdXq--S3R-lBBw3aKApIleBOOPM5DbQlzNqRSvt4C5q6a6Gam52MIDYBkB_wcMheDcV4nblah5E0__uaXaNPv8FdujhL82rWzCaKZnmNEkePxZPt1UMp7CjRGt1buXBSCGBIRl71ugTjT4XmWLIFqGSU3Ztoq-SFaAhkC40WKOKrLcl5bH1Yp3I2PfGWdgqwjg7u4jIem_N609Pqc4rGGEZRaHBl-OJleOF8cPxXLgLrE5m8_bVpSuEOZ1jCIV-igADs47ioQdi7mr-AOC-BQHTsiY7atW8cd2mj7Gp4lRqzgkGWqqVJpf1S_ky0wMd3PVWdzbis1wvx--pMv9xj8P9st6gTBOvHwXHCL9bZ0Uv6OmeuQzJzxHdlR251VYGcUEh8uA6Dboiq1KnsG9qmS-8wrBBNQhtqHLC3GAu8QQqGRZ6bYvUrhc7U1bDl10l0xPiyo3254h2YZzWxGsd-jSMiOvFMC8Tfcf8UZPMHJJrzyXh6bQk8eri3ai-F9SteWFyS3mIi8yE6PjFg&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
-      "source": "google",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kopenhag/darcy_s-kaffe.jpg",
+      "source": "firebase",
       "id": "darcy's-kaffe"
     },
     {
@@ -1266,8 +1266,8 @@
         "kahve",
         "çalışma"
       ],
-      "source": "google",
-      "imageUrl": "https://lh5.googleusercontent.com/p/AF1QipM_556677889900=w408-h240-k-no-pi-20-ya300-ro0-fo100",
+      "source": "firebase",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kopenhag/democratic_coffee.jpg",
       "tips": "Hafta içi ziyaret etmek daha sakin bir deneyim sunar.",
       "description_en": "Cafe connected to the main library, famous for its almond croissants.",
       "tips_en": "Visiting on weekdays offers a calmer experience."
@@ -1316,8 +1316,8 @@
       "description_en": "Half grocery, half bar and cafe. A very enjoyable concept with its Montreal style bagels, their own beers and relaxed atmosphere.",
       "bestTime": "Öğle",
       "bestTime_en": "Lunch",
-      "imageUrl": "",
-      "source": "google_failed",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kopenhag/depanneur.jpg",
+      "source": "firebase",
       "id": "depanneur"
     },
     {
@@ -1343,8 +1343,8 @@
         "tasarım",
         "sanat"
       ],
-      "source": "google",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Designmuseum_Danmark_Courtyard.jpg/800px-Designmuseum_Danmark_Courtyard.jpg",
+      "source": "firebase",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kopenhag/designmuseum_danmark.jpg",
       "tips": "Çantanızı vestiyere bırakmanız gerekebilir, hazırlıklı olun.",
       "description_en": "Museum dedicated to Danish and international design and crafts.",
       "tips_en": "You might need to leave bags at the cloakroom, be prepared."
@@ -1513,8 +1513,8 @@
       "description_en": "Magnificent avenue lined with linden trees, resembling Parisian boulevards. One of Copenhagen's most prestigious addresses.",
       "bestTime": "Sonbahar",
       "bestTime_en": "Autumn",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kopenhag/frederiksberg_allé.jpg",
-      "source": "google",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kopenhag/frederiksberg_alle.jpg",
+      "source": "firebase",
       "id": "frederiksberg-allé"
     },
     {
@@ -1564,8 +1564,8 @@
         "kültür",
         "yürüyüş"
       ],
-      "source": "google",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Christiania_Entrance.jpg/800px-Christiania_Entrance.jpg",
+      "source": "firebase",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kopenhag/freetown_christiania.jpg",
       "tips": "Grup indirimi olup olmadığını sorun.",
       "description_en": "A self-proclaimed autonomous anarchist district in the borough of Christianshavn.",
       "tips_en": "Ask if there is a group discount."
@@ -1590,8 +1590,8 @@
       "description_en": "Copenhagen's largest park. City's oxygen tank with football fields, skate park, lake and children's playgrounds.",
       "bestTime": "Gündüz",
       "bestTime_en": "Daytime",
-      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AZLasHoflzltrlRe5dtvMB_Y1Tla3BdbGmzFnfgodjgklBQjlXrTBfIqLrw8UwZ9LW7li-V6m4xW-gG9W_VotgArTm3P1XEffy-S84lOKXagTwenqn8ne0xVqT_V9iKeqvCVGXOW2AAYUN0j8h_sawaMOVrRv_5nTpPGOfeuMFypc4py6zYBEiSQ_ODjyAJ-kv1Sg8YmI6tMDZj0nukJfC6lmGmsbrVDWFchtnbYU59sGDpa1--Ci8Pvi9OS5h37Pqk5JNk-kqRuLpE3i-WIg4feNgwc_cUBiGFgBrM_Si2XFa2-uWG8wcHy7RTCD9U-gKgnGJ9jrBRcGmLtOqkE91o8RghnGjMbqxNlhyveuW8Q36HtXrK5Px9MAGngRPZj9KrOZozopGWAmiCGvanumyHQKrspwmPuNHK0NvTYSd9fcNisll1WV5NuSsqPinbSBQnwsKOtWjt7D-dNq5Hm5FGYKmy7-NeGvpv2HkwMpTBqD4ZZ5IGC__LKXE53WqTH-_JtEeZP-D340a8b0oXFZ1ltTPZALS5YbicuCiB5HS789VnJwqDN5ZBNCWm8lRy6HvYSi-nAfZAhPP6cEw&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
-      "source": "google",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kopenhag/faelledparken.jpg",
+      "source": "firebase",
       "id": "faelledparken"
     },
     {
@@ -1665,8 +1665,8 @@
         "yeme-içme",
         "hızlı"
       ],
-      "source": "google",
-      "imageUrl": "https://lh5.googleusercontent.com/p/AF1QipN_454545454545=w408-h240-k-no-pi-20-ya300-ro0-fo100",
+      "source": "firebase",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kopenhag/gasoline_grill.jpg",
       "tips": "Öğle yemeği menüleri genellikle akşamdan daha uygundur.",
       "description_en": "Famous burger joint located in an operational gas station.",
       "tips_en": "Lunch menus are usually cheaper than dinner."
@@ -1718,8 +1718,8 @@
         "gurme",
         "özel gün"
       ],
-      "source": "google",
-      "imageUrl": "https://lh5.googleusercontent.com/p/AF1QipO_545454545454=w408-h240-k-no-pi-20-ya300-ro0-fo100",
+      "source": "firebase",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kopenhag/geranium.jpg",
       "tips": "Öğle yemeği menüleri genellikle akşamdan daha uygundur.",
       "description_en": "Three-Michelin-starred restaurant offering a world-class tasting menu.",
       "tips_en": "Lunch menus are usually cheaper than dinner."
@@ -1915,8 +1915,8 @@
         "kahvaltı",
         "gurme"
       ],
-      "source": "google",
-      "imageUrl": "https://lh5.googleusercontent.com/p/AF1QipM_121212121212=w408-h240-k-no-pi-20-ya300-ro0-fo100",
+      "source": "firebase",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kopenhag/hart_bageri.jpg",
       "tips": "Google Maps yorumlarına göz atarak ne yiyeceğinize karar verin.",
       "description_en": "Artisanal bakery known for its sourdough bread and Basque cheesecake.",
       "tips_en": "Decide what to eat by checking Google Maps reviews."
@@ -1945,8 +1945,8 @@
         "tasarım",
         "ilham"
       ],
-      "source": "google",
-      "imageUrl": "https://lh5.googleusercontent.com/p/AF1QipP_343434343434=w408-h240-k-no-pi-20-ya300-ro0-fo100",
+      "source": "firebase",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kopenhag/hay_house.jpg",
       "tips": "Yerel tasarımcıların ürünlerine göz atın.",
       "description_en": "Flagship store of the Danish design brand Hay, set in a beautiful apartment-style space.",
       "tips_en": "Check out products from local designers."
@@ -1971,8 +1971,8 @@
       "description_en": "Avant-garde store of famous Danish fashion designer Henrik Vibskov. You can find not only clothes but also interesting art objects.",
       "bestTime": "Gündüz",
       "bestTime_en": "Daytime",
-      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AZLasHrz5E1ezf0c5jP3isN2h-0Zv44HSA0Rwu2fOpf_sLQ03Y1Su4a0ou-ho6JG_JEAu21GL3d69YV8ukIF8k2E7Y7yPmJtPiV7nunZppNBAZU7daa5YzRenBvyULi0t1rz8VJTecB2ph0hjz-Zlt7Kvwjon18-997GoB_nVgBuHeTvO8T0sKbAK42H9lz59J3S_q9iFdtpPrXSsb0BV476rOe3ssGPpzQJwVZQUG_Sjx1ueQ8NPETsqv-wbJPYrUGWnEI4ebTSOzbmLPTfRTZHdXe0DIW3ZDPWYtR00CDluv9R1Dv5FkVaEnUB6YzsmrfMi9D3gblMp7luFqcVrTLmiGEJS_LNMQtwG4rUc2vpGad-NlnI00JRtVuIzNaaH61R4OromdH9e3nJeCkC3Z5yMXeXpBmvhI47ILqfZk2ZMpNtZPFoMKI_GM03bFRsP2Vrigvt4ImxkGl_f_MlE9zyBfRN7cMY1kgW_nT69HDypfjtJWKe0qbZUNMj-3z4LlUeHu7uYMFZTU-vB5bwaWOzgUG4My6fC7mDmwtfEjWB2GCJLlnuk0NhWO6apJ2Q4MAhETMPIWEv&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
-      "source": "google",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kopenhag/henrik-vibskov-boutique.jpg",
+      "source": "firebase",
       "id": "henrik-vibskov-boutique"
     },
     {
@@ -1998,8 +1998,8 @@
         "yeme-içme",
         "sokak lezzeti"
       ],
-      "source": "google",
-      "imageUrl": "https://lh5.googleusercontent.com/p/AF1QipO_676767676767=w408-h240-k-no-pi-20-ya300-ro0-fo100",
+      "source": "firebase",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kopenhag/hija_de_sanchez.jpg",
       "tips": "Akşam yemeği için rezervasyon yaptırmak şart.",
       "description_en": "Authentic Mexican taqueria founded by former Noma pastry chef Rosio Sanchez.",
       "tips_en": "Reservation is a must for dinner."
@@ -2123,8 +2123,8 @@
         "alışveriş",
         "tasarım"
       ],
-      "source": "google",
-      "imageUrl": "https://lh5.googleusercontent.com/p/AF1QipM_898989898989=w408-h240-k-no-pi-20-ya300-ro0-fo100",
+      "source": "firebase",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kopenhag/illums_bolighus.jpg",
       "tips": "El yapımı hediyelikler fabrikasyon olanlardan daha değerlidir.",
       "description_en": "Premier department store for Danish and Scandinavian design.",
       "tips_en": "Handmade souvenirs are more valuable than mass-produced ones."
@@ -2173,8 +2173,8 @@
       "description_en": "Latest star of Copenhagen gastronomy scene. Michelin starred restaurant combining Asian techniques with Scandinavian produce.",
       "bestTime": "Akşam",
       "bestTime_en": "Evening",
-      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AZLasHoxx-Hgsjb4LFXIJRLm43bIhzvNBo2OpKZFeD2VDFtq0xBAVqETG8J1xVvwM3dXHKngYqRInDbgRFDfV_VmtKQDDMWWNt-podT7vpRrgQu58dCPkYetaJL8BP3XJpQhi_JbPWyV0pCHpwYAu37MgazNRSnrW8NZJFR-yzXUv4SZRU4tjDtMOlZUxvFRGzQctC49rtsoSTrFuFb6bm07KuFhMIob-4eLuIJOA_c5EIqP0rv3esGyE3Qr2Cid64D8ArVV7DvpIksFgz--eZt6IqK5bPgqdtTUpn4KraSVTXp_gKQKweM&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
-      "source": "google",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kopenhag/jatak.jpg",
+      "source": "firebase",
       "id": "jatak"
     },
     {
@@ -2345,8 +2345,8 @@
         "tarih",
         "doğa"
       ],
-      "source": "google",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Kastellet_Copenhagen_Aerial.jpg/800px-Kastellet_Copenhagen_Aerial.jpg",
+      "source": "firebase",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kopenhag/kastellet.jpg",
       "tips": "Yapı içerisindeki akustik harika, sessizliği dinleyin.",
       "description_en": "One of the best preserved star fortresses in Northern Europe, featuring a historic windmill.",
       "tips_en": "The acoustics inside satisfy; listen to the silence."
@@ -2371,8 +2371,8 @@
       "description_en": "Award-winning architectural structure known as 'The Snail'. Offers wind-protected sea pool, diving towers and sunbathing terraces.",
       "bestTime": "Yaz",
       "bestTime_en": "Summer",
-      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AZLasHq001OOo_8iiYveLA7g3VpbJHHFHI0yp27Td2GYITtP56bIOlZZuooFKjMa4kS3X2G7C-C1Gj4PA3JJau1xsdm66zxxoLQxKmhkajBpdIaAgTIipT2W8no9xv41YhnYur2h7qlBrfPzWMeu1X6xE1iRdustBWa-ojmcFEMzAdcljiawFXXFiWzH-mWaelqqJYog6yjbGPS6eXdqUGSXUBhlSFSqZ5I2uBs2UQPOdPx_-ONUcfvfcGEhG82M-Z16CRMTYo0EH97vkSW2eNwvyU2ZCOFPkcgKcmoJz8LiBZ12kGJ52-e0mXRJRnghEcc-wExYtmBon2RhhgJH7TUIQKc097aRJroIhOJDRrxAc4fCxKvM8KI9DXlxDcptTfqshxAfAoUaIcN01OcCYO8LLyw3OzcBQwbSWvfVm0V8gSCardnFdOJPkYZqnZEdBp-QjTMmQs6FvZ419WKFwjZbOKOGuW1bjEdQ7Pcu_vEuUFLyBl401qO9yq0xao0w085ZfnuiT5G0BpzR_IfCbxX4B-aqULUmUEvrCLquPVxkfyTgv4gwTJJnJO4-GvMFc8JJokezRFopnO_CGSRnhNSQSwrWb2M&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
-      "source": "google",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kopenhag/kastrup-sobad.jpg",
+      "source": "firebase",
       "id": "kastrup-sobad"
     },
     {
@@ -2419,8 +2419,8 @@
       "description_en": "Great sports and playground built on roof of a parking garage. Offers magnificent view of Nordhavn harbor.",
       "bestTime": "Gündüz",
       "bestTime_en": "Daytime",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kopenhag/konditaget_lüders.jpg",
-      "source": "google",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kopenhag/konditaget_luders.jpg",
+      "source": "firebase",
       "id": "konditaget-lüders"
     },
     {
@@ -2590,8 +2590,8 @@
         "fotoğraf",
         "turist"
       ],
-      "source": "google",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/The_Little_Mermaid_statue_Copenhagen.jpg/800px-The_Little_Mermaid_statue_Copenhagen.jpg",
+      "source": "firebase",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kopenhag/kucuk_deniz_kizi.jpg",
       "tips": "Rüzgarlı olabilir, yanınıza ince bir ceket alın.",
       "description_en": "Iconic bronze statue based on the fairy tale by Hans Christian Andersen.",
       "tips_en": "It can be windy, bring a light jacket."
@@ -2664,8 +2664,8 @@
       "description_en": "Long promenade by the sea. Little Mermaid statue is here. Especially mesmerizing in spring when Sakura (Cherry) trees blossom.",
       "bestTime": "Gündüz",
       "bestTime_en": "Daytime",
-      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AZLasHqDkgeRFk0Hnb2blsaHAnWkiBLqhb9eyalYRtzqdKOMcD-1-PCuJjH5fgYqKOsTcRubQyfYUDxE1jG6ASo-WJKi3lVveBFlWtOFUbpgKEyrEBZqqRjzaAxrc_09RdWQaNxsQvg_dmS0efIfnvr8tGe6CiqW_q7pF_5uRwCRzLa8mHDQRr6sOJATEhAmqu32FJM-fSDCQ7bGUED7ohUuAmMZXFN5pO_GSU4UwmImYJbXqC1pUtkDKVioR380tcUtG4HicgocsMhs-ZT8yveLlLAm5dwlvL5w-dVuNIlUZmgUJoR9SQTw1QLrZpKl7OirwPlRzER_lYr-ncrPoeLQgzwuMJ9Nj-uav_QlxHazbRVXGjFGmJIOV7B04WcnX9UhmBpUfqyxYyYpkkb0FLP2kDxouPw9WtL9lb53mFwlJZY7nhHqrGy_Uhx3ZVidmghhWjdYNThswV8PamIGEGAKs2VAQsKtk2rK87B0fwd7_tbp2hWspph8AFbTGRRzf8fEcXX56lJ82SRc4SApuyt9Wtx-39iqLY-cUbI19aHu79Qr99stEjkHo82TgRFpIdA-qrskSL1A&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
-      "source": "google",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kopenhag/langelinie-park.jpg",
+      "source": "firebase",
       "id": "langelinie-park"
     },
     {
@@ -2760,8 +2760,8 @@
       "description_en": "Last windmill remaining on old ramparts. Now serves as a historic house museum.",
       "bestTime": "Gündüz",
       "bestTime_en": "Daytime",
-      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AZLasHo46Y0GvTKw7IiIdjf55oQqDCFdife5zMFXtwb1fWmRaghQoo6YgZiAHxKheFxdcTOtir-7fX0-QMXb-gjnunFWDV5HHJ6PWG_TcbAVnfRHm8uuUsfLaEJJDpj_ffcRHuIM3S3iPvtXvw38k3FAaZK7nHgoItx0P1FUWtf7yqgUQ_oQShi8reLeh2fBKmqiKU95nLftnlgBbgtV8lVq4NsegtZ_JozX8EPAyZ7gy4wxCkjUxiT4mfD-2eyhOIvuwvvTauyrp7hqJ4xIEf2PG_61hpdMLSIBJYwQrPsXEAWEsgUEguf8An1aiIrEUK3fw7VcvXI6Dsd8JXHtHOh8r5vR7sMzvg42nFkLq0M0165FU_-h7lKxeODuNMzLhcMeSzn61YiNpg1YVVOLbkAnX_VuuWl7D958VtVrZwQk_dsXURuqhNmixEoKufIXzc8G9JfwVG_gniykJpfB3Z3p1NTCuzOFxPZbBnYyLb2BlcwRUjacJKuTfnYb4s1LE-45UOrrfNVdxoijFJBA-t3deMY2-4MzrZSsjwBV0Bu8487ekvjZFPWe9cu8oQ-3czK9vuzEYplm&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
-      "source": "google",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kopenhag/lille-molle.jpg",
+      "source": "firebase",
       "id": "lille-molle"
     },
     {
@@ -2812,8 +2812,8 @@
         "doğa",
         "gezi"
       ],
-      "source": "google",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Louisiana_Museum_of_Modern_Art_2010.jpg/800px-Louisiana_Museum_of_Modern_Art_2010.jpg",
+      "source": "firebase",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kopenhag/louisiana_modern_sanat_muzesi.jpg",
       "tips": "Biletinizi online alarak gişe sırasından kurtulun.",
       "description_en": "Located on the shore of the Øresund Sound, balancing landscape, architecture, and art.",
       "tips_en": "Buy tickets online to skip the box office line."
@@ -2886,8 +2886,8 @@
       "description_en": "Considered city's best pasta place. Simple, authentic and always full.",
       "bestTime": "Akşam",
       "bestTime_en": "Evening",
-      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AZLasHo2bIn5TPVr6juwe7_owZmGNYhAzfd3o2mjz54PFZHDBzHJ4rOXtblLaCSkei8pCWFowPtqTgvkiEBKiCkJO_aLPyHHjbrGecBFQC74v1_ZnOPs8Dic7JBIv-t5GQr6o6WKVMrteSrsaS435bdFsRWwnpjBn1F9cUh4LfyNHbAfbMvmIx3Aua0HWD4TB5JIBkfYU0cW2QLQRmvv-xXsRGbOES5ec5-1jdYMVryCRFVKXFJ2ctAx0m0QXH9sKsnniSQXeHxnL1H5t_0KgCe7ML88nkJkYPU92RVdowOPq6ZPz3aGsOGXISr3b9D0kqQAAcGgY4QFtityUS4sOA9xI320dfnLgH4-9qKXEjRSnoI90SR5i_VibwGhIzhoOFZhYRKLZZFpYMVBeXueGKe70n-TfjDUizuGcOxgrrTWQUEqMGcN03ftMiFJuYe1MYMeudUX4HuQSu1VJOVTblluljINLVrAwIDn_LgIGxEf03hjbZsraZLvt2y4V_FljPgAkeJUSvUBFiTBUAmyuCZ8-CXTohslc8DTTNkyjon7bF8W6podSdr-xjjqLnXuzQasYOe8cKBr&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
-      "source": "google",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kopenhag/mangia.jpg",
+      "source": "firebase",
       "id": "mangia"
     },
     {
@@ -2913,8 +2913,8 @@
         "mimari",
         "fotoğraf"
       ],
-      "source": "google",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Marmorkirken_Copenhagen_2013-09-17.jpg/800px-Marmorkirken_Copenhagen_2013-09-17.jpg",
+      "source": "firebase",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kopenhag/mermer_kilise__frederiks_kirke_.jpg",
       "tips": "Müze kartınız varsa girişte sıra beklemezsiniz.",
       "description_en": "An Evangelical Lutheran church with the largest dome in Scandinavia.",
       "tips_en": "You skip the line if you have a museum pass."
@@ -2939,8 +2939,8 @@
       "description_en": "Bakery of Claus Meyer, father of Nordic cuisine. Their cinnamon buns (kanelsnegle) are considered one of best in city.",
       "bestTime": "Sabah",
       "bestTime_en": "Morning",
-      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AZLasHq9WaYGxkJ6pTqIO0bjZCuK5XiCHvqzYPPLdXhitnrO7AsMzW7lhfzpCqNgImU8NQYCdbWDcyKcuclzaXpgP0k3KWK9qq0jv_oQmbP_FChPgKaO4J7YcajTmU1Cr57Pc-tZYAtSVzDbjSb6Ea5VkxQf2wSkF7yTm-aUE92_S6zlqL9Pljw1zJAb61tdGvrT9FWDfyYJ0Z5tnHc2FRy5wvq4BziIYw-A3LAL2nzQhUzpWREVrlSC3vjZhWdevdqbSv5djaeeekU8GZME-LQH3Tyr1oTcMY0GU0sGw2zl4BH1CglDnAZVsFjWx0j13nWVtNzDgM5whebukuvTRofk7aMO-FyTUFxbWtWLUJqHMdI3Tq5nvfrtYI92lYv6v2JrxrJ5Jhzb40KLvfvilpInmG3BZ2FGwV2_mAcT52iwvI5Wwyw35oqwV8fvowFyIXWZj_SzO3Q9gtpG_Nk1FCWZ62cZekheDItSrrgnrS0QmnX-XTOBBIKqablY7cQeBQbo4UMvScMwKIIM3zO8beaKptXYmoMy9LRiCDZ4-c6js7dJC_kVKbW3xbqdmyDn8H6Ou4INCJc5pf4GKQ&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
-      "source": "google",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kopenhag/meyers-bageri.jpg",
+      "source": "firebase",
       "id": "meyers-bageri"
     },
     {
@@ -2987,8 +2987,8 @@
       "description_en": "Bakery and brunch spot on Guldbergsgade. Famous for their homemade mozzarella cheese and sourdough pizzas too.",
       "bestTime": "Brunch",
       "bestTime_en": "Brunch",
-      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AZLasHp4dDzx1GjjqndiiB0pP4LhHhyexUcxlOyfrt834OORwO0iGw1saMAt5WjYkuhOBXgYADuhOTYJhHOGHzUktbz6qv7cl-oeHn2smwCFG78Qrnvxzq05ztay1xXTB6aid1ofS7qfg7qKwP2l-9um18s-GZegwM8wP7JL79o2XQ8lMk5_9x_pV9txN5OdzwuQPzft4gV-MgdssTnK-xDfcTSzDBmLwTbIqyZVf-kGI8i1_HeTKyEfjyKM4rIlMekCewuVV3KBIAJBYUFhv6q6u5PR3u6rXMqRRHkm8o1FUegAzdC8V9Vozcw9q6Qu1XNAVbRfky7YLNLV7pSPf_IfarKQi38jPIwxXvrYXAjhA_Dg5pyJ-_vBvTSOQ35vE9yMG3uaGgj4YplqESR0nS1LSDtG9bmEA0NhbEqQi3ZXq6-nYtJ9HeRVt2qgV8JsHrGDJ9dzQP3ldsJQYbaT98iuS5PA1MqxqdMwarHJB5GwUYwma6lSkJIpDcH6ipqqLKuyG_kCIVEMs_ZhIiL3YfhWs5hm39AHfhTq_AyRCKl3kf_NcYiVjRN6Z_5aoT_FJRnjLYhbLWI8&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
-      "source": "google",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kopenhag/mirabelle-bakery.jpg",
+      "source": "firebase",
       "id": "mirabelle-bakery"
     },
     {
@@ -3155,8 +3155,8 @@
       "description_en": "Huge showroom located in an old cinema. Most colorful and innovative examples of modern Danish design are here.",
       "bestTime": "Gündüz",
       "bestTime_en": "Daytime",
-      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AZLasHqFU-5LPBxe5-5u6-ZKkklj2PlkFI2afvAfUVAQ-fHW6PqMHgosx1zkdaQSgmKUdI_r09DtfsMwHj88qXkZto0Q01YKL0fiiifgnZs7VM3UXMRxGZ0eorblKBtiQ_mqGNcp3K5OSYiIXFKGBsm71Skp1a2kqhdUlb5UDe04pXwfnXYDTAdgbrPv5HdrnyY8smTXBd4bE8CHOYTUyRAAAnxiNz00nvDJUPTcdHAjX2Ye58CNxZ2xmPmDpyVNWfOgF7eoQACuSyowTWQ8WJThQ-N3Nosk9ejr4pPbQWocQV7c-Tl-ozhsX4GJBfr3AJey_JfUnygz5pl6xeP4Xw6XfMFFygub011dPmZj9RI94Ec7aZhkU9rrv_V9SX-hL0Bkw9DpBO9RyZ2yyH2jDhiGomGDj00M0tV3ecTaG20CPL2SXvsRhtQuVmNsRB7VMyqowrRlEw5QRdVHCr5bKWWHTSXpis23GwvjfdAID1gHHB5BVJiNzeaDlQaXrdLSmhzNuLD4yVt1j6nQs43J7Lr1gtbL4KCFQ9bs8ONSfl3QdOJudV7JrMDRWPqgfLoM3vzapHpl8hkLLkqCUA&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
-      "source": "google",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kopenhag/normann-copenhagen.jpg",
+      "source": "firebase",
       "id": "normann-copenhagen"
     },
     {
@@ -3179,8 +3179,8 @@
       "description_en": "Cute store selling colorful home accessories, kitchenware and decoration items. Prices are relatively affordable.",
       "bestTime": "Gündüz",
       "bestTime_en": "Daytime",
-      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AZLasHq8cPw8alPvNaiJQFcPpS3BN9JtdtYRCAMmC-lD2xZSWC3fvOAYTI7kJz7UpSCPTWkr2o5hgaZbo4YuOOjgTq6NP4usqqzzH0LGwyW1fGi8hObvkvge8Jv8Yo5QYfGy3wNwWHAJaSMpAwhs9YzIXv_HIjmavaMhyU2uC2gWEJXb1hQ26HWzKduesSZ-mPkHIDtjJPtPi5R7xITnf0co0JOxE7_COGH1H-jUiowj2O0Dl5VeHQKaQPTQR-N1gNlssVn-SkU0RUL0hhCIWNXQNlnvFCcZV5lwIRxH_djQ-2l1is432GA4rq9RLMIlK9XpmwrLi-7uCTZb7MmtTeqL7VAhVj2WG-O4K2NZvCVeG08fBpJCaSWgVMRRzKySlio2ApLr4rMjijxbw1147NWX6qhtkdJBZ1oVSJcskMkoz6ciI9tCpI-h4tsb060pBzCqffE9D41XHWREGxvV6d8yEolEsBVjZpQBm8pO2k4ZohTuZtkovVGLzlOm1EMrKF2zGH94j75cyLKl6iBI3m34npZqRH_zVrqkwLl7o23sAeA7KQtkQKHLuevJuSaFlNuO-spZIw&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
-      "source": "google",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kopenhag/notre-dame.jpg",
+      "source": "firebase",
       "id": "notre-dame"
     },
     {
@@ -3207,8 +3207,8 @@
         "müze",
         "fotoğraf"
       ],
-      "source": "google",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Ny_Carlsberg_Glyptotek_Winter_Garden.jpg/800px-Ny_Carlsberg_Glyptotek_Winter_Garden.jpg",
+      "source": "firebase",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kopenhag/ny_carlsberg_glyptotek.jpg",
       "tips": "Çantanızı vestiyere bırakmanız gerekebilir, hazırlıklı olun.",
       "description_en": "Art museum built around the personal collection of Carl Jacobsen, featuring a beautiful winter garden.",
       "tips_en": "You might need to leave bags at the cloakroom, be prepared."
@@ -3239,7 +3239,7 @@
         "yeme-içme"
       ],
       "source": "google",
-      "imageUrl": "https://images.unsplash.com/photo-1513622470522-26c3c8a854bc?w=800",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kopenhag/nyhavn.jpg",
       "tips": "Teleskop/dürbün varsa yanınıza alın.",
       "description_en": "Famous 17th-century waterfront canal with colorful buildings and old wooden ships.",
       "tips_en": "Bring a telescope/binoculars if you have them."
@@ -3384,8 +3384,8 @@
       "description_en": "Permanent restaurant of burger project created by Noma team during pandemic. Burgers with fermented sauces are a must try.",
       "bestTime": "Öğle/Akşam",
       "bestTime_en": "Lunch/Dinner",
-      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AZLasHofK2oox-9QDGVn1AnN25HsR16YyVzK_3yjg3hbWJtAuZIxJzrTLcwvXjSMEdyA-SfSUcXLzNpZcwSMGluusVkDcupq5CKZJN3bCqRAKjCNiOg0e_KrwWhWVYEIG4i8qHb09AyjAkHOtSGhwqdp6H6SPSmKmThv44odCvsI61yZu2Po9u7GPxKqqbkfksgJb-pLITXtNYVgp6yXoVhoQi9HF_jIlvdJRPtNNsnyZw3VMlrAWVxFojlkyICN5zt-0an-Yt-jFAPmPiJ1KpHlKh5ezPtQISG5DJa7J8FVIdQKagXl8N5aYHhtWSE08v8MQTF4XR0spDBOIyhbpBMtngvYPjXQjHeDseNlwfBd5SUtAc916TFdfY6vvvcipWBLyJZ1NQNehP06jUF3jWY7j0807e4prqw9vOyumW-mnBXuHZ3XtY4mA4d9WLJtOuR7t0MM0fur8k9faltHeSRcOKpoRhwfSn0P5MHp8ARxExtB8ZuyjjbD0fcEo0kAQLCBiOqKCKO5soRUkIDGPg63_aSG55cDgXWghWLnFYl9nABTssX0f-EWTIBxg6Nc_k-GsIJyOxoX&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
-      "source": "google",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kopenhag/popl-burger.jpg",
+      "source": "firebase",
       "id": "popl-burger"
     },
     {
@@ -3408,8 +3408,8 @@
       "description_en": "Like having coffee inside an old bookstore. A very atmospheric and 'hygge' place among bookshelves where university students study.",
       "bestTime": "Sabah/Öğle",
       "bestTime_en": "Morning/Lunch",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kopenhag/paludan_bog_&_café.jpg",
-      "source": "google",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kopenhag/paludan_bog_cafe.jpg",
+      "source": "firebase",
       "id": "paludan-bog-&-café"
     },
     {
@@ -3528,8 +3528,8 @@
       "description_en": "Store with Northern Europe's largest collection of posters and prints. Vintage tourist posters can be a great souvenir.",
       "bestTime": "Gündüz",
       "bestTime_en": "Daytime",
-      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AZLasHoAHQlmV_uX0odA-AYewGG52oYPg3QrWkd8NlQCPQeonPMqfYXGv2-LlUwA7zsSAHnK05BaEWHKESdegARNdbbQfH1uUujEgMTJxP-Z8e4dEC40EqNVamobxYGUgYNL15t22Q5tYFdt8S8PROz2jwJMyBXMOcHC73bs8GZ4uHvtVhVxZoj61U7z6nIh3Ks9rxKdibLxpHW-XeWn8VD6pqegP5NafgY8HLl9uwexlvrTYFySF2dKEMPUGTveuhnGOBY9cjGwIuW5Ixb9M2_2sCCyB0iuaRTuzahzAUj0_1ZHhWNrDoUnamSPox51kRhfyawsMpuGVBnDP6TEXYFC2e15a9Qh_b1T7dCPWT3N2sGzRTmgzwx887-TGBbUWesBXY4GzZy4B1RR6b9jW4JPFuxJk7s3lrj4UJqU_DpCDfr_bLIiKnaOQjbxEmphia03t43uaQqPVPFtgDb9fhWkladr_isubse--jGtWxaBKZOki2ZZGds0MXKnMrwQ0T9wlk0mFuF8jEm03Md6sKTkVXs7kYydkRCwfDmC46kmh_WZDfi3g0wpXRdklArEFbNhjSHHdp6QQmXjtA&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
-      "source": "google",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kopenhag/posterland.jpg",
+      "source": "firebase",
       "id": "posterland"
     },
     {
@@ -3576,8 +3576,8 @@
       "description_en": "Cute street not well known by tourists, with a 'Parisian' vibe thanks to friendly restaurants and small shops.",
       "bestTime": "Akşam",
       "bestTime_en": "Evening",
-      "imageUrl": "",
-      "source": "google_failed",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kopenhag/randersgade.jpg",
+      "source": "firebase",
       "id": "randersgade"
     },
     {
@@ -3628,8 +3628,8 @@
         "arkadaş grubu",
         "manzara"
       ],
-      "source": "google",
-      "imageUrl": "https://lh5.googleusercontent.com/p/AF1QipN_123456789012=w408-h240-k-no-pi-20-ya300-ro0-fo100",
+      "source": "firebase",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kopenhag/reffen_street_food.jpg",
       "tips": "Nakite hazırlıklı olun, bazı yerel yerler kart kabul etmeyebilir.",
       "description_en": "Organic street food market located in the creative district Refshaleøen area.",
       "tips_en": "Be prepared with cash, some local places might not accept cards."
@@ -3826,8 +3826,8 @@
         "müze",
         "park"
       ],
-      "source": "google",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Rosenborg_Slot_Copenhagen.jpg/800px-Rosenborg_Slot_Copenhagen.jpg",
+      "source": "firebase",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kopenhag/rosenborg_kalesi.jpg",
       "tips": "Müze kartınız varsa girişte sıra beklemezsiniz.",
       "description_en": "Renaissance castle housing the crown jewels and royal regalia.",
       "tips_en": "You skip the line if you have a museum pass."
@@ -3876,8 +3876,8 @@
       "description_en": "Older sister restaurant of Hija de Sanchez. City's best Latin flavors taking Mexican cuisine to a gourmet level.",
       "bestTime": "Akşam",
       "bestTime_en": "Evening",
-      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AZLasHoUeNxkDANKOzmgDSeYpH8rJsmR2MbybmaQE5mrm8-UZjH4gRPB8qG_N_jBninpG1L-PJJ9ITbnsPRQaJ_KIoLcf33aJkbKQqEgtNqArVcIvjH-xrAZ5Z-0HY0VQ1WXhLWuJgdyl9XYbD6WHGCWDpwe0epOmYHHlA1R9oOJF3b1vjjujsIkZlZ2o6WjDgtXlQJf9xpc_c5trNYNWMKtWQ6SGuEICoeWkiO3XFNLiebRIQQVuWifH_H6njn6DAIqkohEC_G5ntpW1VvR3HtczU2JhXVQj3a2hEz-ZVhfI_t2QkJ3t-t6QIN3JveUXFTh5AVNzX-711-vZz8Dou8nAfHCKNudM6qC5MdjIku-Mze4IAb-njWKK0W30JAxHuOuv57ciNNC5ndDqxMwWliu23aUmmW4bbxXFXscJeqx-3I8JcJicx9Nk3pYp1ojEgIG-uS6DLXA5LKrFqikelm8fV6AGxb7HoVCDrlyVnc8znb0u3AjZAEcA_fLlWBgKX5OFnJTpdrx0CwMjWyF1s_YmW9QFUn3mAbiz8LNWlzTrjQVUBkQDaWi-3DG_N1UYnDs3w3HSMGXe_JZZFqXfu3mLfYnQSc&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
-      "source": "google",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kopenhag/sanchez.jpg",
+      "source": "firebase",
       "id": "sanchez"
     },
     {
@@ -4140,8 +4140,8 @@
       "description_en": "Great design boutique specializing in ceramics, prints and glass works. Ideal for unique gifts.",
       "bestTime": "Gündüz",
       "bestTime_en": "Daytime",
-      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AZLasHrJq4hW_yk3oimBdfxC1T6PEeBFktX4KMmcn_r3H6VKuM7qOktEDA18Jrzcux2BS4ZBdOOisisMU6zICie-mHm6AJPUyzYfcqNglQBQ5pohTXTr5v5WRiK-BP3Li4X0XrS8Ci1HDcaMnTrd6kg1Lt8zl-2qYYk8ahylvLlsWYbZDBW-llYWQ6vMWLYThNL4UIC5xK5LQxeTaoc0tD46Jv-lfsRqeYn1TBGQWeEcA35y6Q6GStGOWJ2qMTnSOCUpeXye46gArLCA_wbknFNG9ijyzr-A1LIFK4OdV7qy3Xn3t-EZ-ePr72ARku26ZNBd-zFZCtD9nd4fX63KoRwpomx73sPRl-kXhUi_7J7CQQTzNVD2_i41UXZrMKpZ01yx5CSK6sMXfv2yxU5d2uZNN2NmqPLHibN8FEbkutba-jN3tupQWoa3G73aUl23Hdh67JeXKY057L7ObOT2iCc2PHeOQDpmYEc1ZKf_H79-0tp8yKCT63YZ0T9_imA4WYr461lFAqiBwiCxScypLYmIQcmBjK6-X64AJIjfN4bElnAVxZyGJIsA4J8OsDErwYOvvdIDw2Q8NW_AtQ&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
-      "source": "google",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kopenhag/stilleben.jpg",
+      "source": "firebase",
       "id": "stilleben"
     },
     {
@@ -4191,8 +4191,8 @@
         "alışveriş",
         "yürüyüş"
       ],
-      "source": "google",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Str%C3%B8get%2C_Copenhagen_-_June_2019.jpg/800px-Str%C3%B8get%2C_Copenhagen_-_June_2019.jpg",
+      "source": "firebase",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kopenhag/stroget.jpg",
       "tips": "Tax-free formunu istemeyi unutmayın.",
       "description_en": "One of Europe's longest pedestrian streets, filled with shops and street performers.",
       "tips_en": "Don't forget to ask for the Tax-free form."
@@ -4217,8 +4217,8 @@
       "description_en": "Design studio famous for its colorful ceramic characters and ghosts. You can watch production process live and shop.",
       "bestTime": "Gündüz",
       "bestTime_en": "Daytime",
-      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AZLasHpbOcTM8g0l5W68c47JUrGdjmDBCwlZNlK60xGxsMMoH-t8uMGb84WW1FFtHFMc338qV4qbu1WgTq6Q3FSawQVHgM62lGVz4-ZOiqhU7dU1yK_kNup4NTm7DqHRdA5omCznh6x8hNnUfJ7H5t6f4kazpF3VsJiYuQKloxLfdoDBBA2KbKHjCNt5Uxhsvh3KMUrzPwWcU3yCk_arrNHcm9Vs8JHjXync_8HkrmFZpr6mmqzd5XaDgeNelBUpk2IvS3GkQwgd3grWeXSup375ylYms81cQF1HzLAmB694DQW4Amp7TX1gS7cn9TjVPULYNr7OSwrGL-EhGKzzBo7fZOkNXm76zKQ7CUbsKu_lm2PMYiwh0tVQ74ABE1c1NaSb1v33UEmyKAcvzSRXBWYIfsS7cRjJOIMmu_DaeMx9sPtaptiMXAFqfWNFd3Hz7mJSxyIQyWhyl-2BSOGHPoSPpTjS2n3tOhvn_QiYmjM7-8p8pEFYUknuqBIfLVOPWkt7HRi3_KjQ4QSEP0Syv7qnAXn4i0FSyaL8eoJtpvtE6jKVRg5a50aMyHn_5uTtBwh6UCJH_LbXlTLgcEHHtG5BNDiXwOc&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
-      "source": "google",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kopenhag/studio-arhoj.jpg",
+      "source": "firebase",
       "id": "studio-arhoj"
     },
     {
@@ -4245,8 +4245,8 @@
         "tasarım",
         "genç"
       ],
-      "source": "google",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Superkilen_Red_Square.jpg/800px-Superkilen_Red_Square.jpg",
+      "source": "firebase",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kopenhag/superkilen_parki.jpg",
       "tips": "Yanınıza bir örtü alıp çimlerde piknik yapabilirsiniz.",
       "description_en": "Public park in Nørrebro designed to bring refugees and locals together, famous for its red, black and green zones.",
       "tips_en": "Bring a blanket and have a picnic on the grass."
@@ -4346,8 +4346,8 @@
         "kahve",
         "mola"
       ],
-      "source": "google",
-      "imageUrl": "https://lh5.googleusercontent.com/p/AF1QipO_334455667788=w408-h240-k-no-pi-20-ya300-ro0-fo100",
+      "source": "firebase",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kopenhag/the_coffee_collective.jpg",
       "tips": "Yerel halkın favori noktalarından biri.",
       "description_en": "World-renowned coffee roastery and coffee shops.",
       "tips_en": "One of the favorite spots of the locals."
@@ -4449,8 +4449,8 @@
         "eğlence",
         "romantik"
       ],
-      "source": "google",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Tivoli_Gardens_Main_Entrance_2017.jpg/800px-Tivoli_Gardens_Main_Entrance_2017.jpg",
+      "source": "firebase",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kopenhag/tivoli_bahceleri.jpg",
       "tips": "Fotoğraf makinenizin şarjının dolu olduğundan emin olun.",
       "description_en": "Famous amusement park and pleasure garden. A must-visit for its unique atmosphere.",
       "tips_en": "Make sure your camera battery is full."
@@ -4526,8 +4526,8 @@
         "yeme-içme",
         "gurme"
       ],
-      "source": "google",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Torvehallerne_KBH.jpg/800px-Torvehallerne_KBH.jpg",
+      "source": "firebase",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kopenhag/torvehallerne.jpg",
       "tips": "Pazar günleri kapalı olabilir, kontrol edin.",
       "description_en": "Urban market place with over 60 stands selling everything from fresh fish and meat to gourmet chocolate and exotic spices.",
       "tips_en": "Might be closed on Sundays, do check."
@@ -4747,8 +4747,8 @@
         "yeme-içme",
         "arkadaş grubu"
       ],
-      "source": "google",
-      "imageUrl": "https://lh5.googleusercontent.com/p/AF1QipN_232323232323=w408-h240-k-no-pi-20-ya300-ro0-fo100",
+      "source": "firebase",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kopenhag/warpigs.jpg",
       "tips": "Yerel şarapları denemenizi öneririz.",
       "description_en": "Authentic Texas BBQ and craft brewery brewpub in the Meatpacking District.",
       "tips_en": "We recommend trying local wines."
@@ -4773,8 +4773,8 @@
       "description_en": "Outlet store of Copenhagen street style pioneer Wood Wood. Perfect for affordable streetwear pieces.",
       "bestTime": "Gündüz",
       "bestTime_en": "Daytime",
-      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AZLasHp1MztMFPp-yQ6x0c4Efywlhf-YAUPxFbryyMWCrZS161AAAsGsyI9pZiH0JNtx2bClS9fKvPHBXFlbfXimthhpY5rpprQTWQnEQHdu7UvXKSkamD8yQNVJ_qQvUGIVu2xzIEDgk_clwX9Tlf8wsS7SEFWOJ2bGnC-iHlf2NcNe_5qsCsRaTQ3kdLfcYWURTDUFhrAseO328vKbk9Tt3c7GDU0HKDHBgRcp4uQPCIEUOukMvrJQai0MwF9ViGNRAq5Pbb78x0l6hAnJAGYrOUW_P6g5MqgWjR-kdS_kL-5-CKwla0x2zSgMSoy9g7m-Ttofybla2Afz7178CfSWRF-99znxlPN85EKIVoc8RzIooqe3NQYafKVl_jqCWsb8PxWBGQHQkLc1p0ooc-e3RrrG_KL-h8sN7k-ZZ69SThSNgrmqmFL5sFOe1OXvLsLp4n0l2AZsxKxBhWpP64ryU8XLyZJ8Itn3VkduptFl1Q7FenyyaWJu_OsQC5sHZ3aJPHoVx7Ps7ye_ykFG3p6N9dLn5A_AJm4fh7upAoIfZB_sP5X96R81HDm3YMJAbbyQ7XM9k-Gn&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
-      "source": "google",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kopenhag/wood-wood-museum.jpg",
+      "source": "firebase",
       "id": "wood-wood-museum"
     },
     {
@@ -4800,8 +4800,8 @@
         "manzara",
         "tarih"
       ],
-      "source": "google",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Rundet%C3%A5rn_K%C3%B8benhavn.jpg/800px-Rundet%C3%A5rn_K%C3%B8benhavn.jpg",
+      "source": "firebase",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kopenhag/yuvarlak_kule__rundetaarn_.jpg",
       "tips": "Akşam saatlerinde şehir ışıklarını izlemek çok romantik.",
       "description_en": "17th-century tower built as an astronomical observatory. Famous for its equestrian staircase (spiral ramp).",
       "tips_en": "Watching city lights in the evening is very romantic."
@@ -4826,8 +4826,8 @@
       "description_en": "Main street of Østerbro. Full of stylish boutiques, gourmet markets and cafes. Shopping spot for Copenhagen's wealthy.",
       "bestTime": "Gündüz",
       "bestTime_en": "Daytime",
-      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AZLasHrUWLYDdPdbT_azEXg6WdB80Yp16dgACLLAR-mV5DjxX83y7utM1juQN7x3bHCnCvlrplm0Ijz5LiVjQ9cmA8NUTLMGCpO4vBZnFTYBCRL2ptTBwkwLhfdIw-JGwf5NUfdzVNav5oZMOSpbjRpiA5jpCtPHzck3dwMAg2O0S7TAgug-4DIE5gMwfUxO_KiTQNEsLpdZkfBboVWhRQtSrMupk2NOkP73YjqH1KeC2ifYN5D_gviUGgbNy9jE-2gtfX4v7w02ke2zupidh20YIrc3VzxC015uXAhcsr8zs_kGR8dJgvcYu8R82bqeF54kbEHksOKO5Q-DRuvt8F0XsvX01981Uepet1PPB2kCPLMm7XdIN2cqXo5kvlb2yrAnQi2gbpogNvKrjwj7dwjxa2RBDT0aIcAint968PMzh7woaGnl4lyPT_toaxMTG1k9QJWS1g5q63qOK-Tr4nzuZfthn7-3-QhalMRAbvGi0hQzgJpy_zc7ALAJU4ePqBzywJoNKela0sC6eaBYsbS0kleKb-IofK3lXBts99WWaKVAdkUWWkCsC0Cz6qwwD78InGU76TMY&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
-      "source": "google",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kopenhag/osterbrogade.jpg",
+      "source": "firebase",
       "id": "osterbrogade"
     }
   ]

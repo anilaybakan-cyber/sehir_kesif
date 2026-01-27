@@ -5030,7 +5030,7 @@
       "area": "Central London",
       "description": "Her yıl 1 Ocak'ta düzenlenen, Londra'nın en büyük ve en renkli yeni yıl kutlaması. Piccadilly'den başlayıp Trafalgar Meydanı üzerinden Parliament Square'e uzanan yaklaşık 3 km'lik güzergahta, dünyanın dört bir yanından bando takımları, çerçeve grupları ve dans toplulukları geçit töreni yapar. Kraliyet ailesi dahil yüz binlerce kişinin izlediği bu görkemli etkinlik, yeni yıla enerjik bir başlangıç yapmanın en iyi yolu. Saat 13:00-16:30 arası yapılır, ücretsiz izlenebilir.",
       "description_en": "London's biggest and most colorful New Year celebration, held every January 1st. Starting from Piccadilly and continuing through Trafalgar Square to Parliament Square, marching bands, cheerleading teams and dance troupes from around the world parade along the 2-mile route. Watched by hundreds of thousands including royalty, this spectacular event is the best way to start the new year with energy. Takes place 1:00-4:30 PM, free to watch.",
-      "imageUrl": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=800",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/londra/lon_new_years_parade.jpg",
       "lat": 51.5074,
       "lng": -0.1278,
       "price": "low",
@@ -5056,7 +5056,7 @@
       "area": "Hyde Park",
       "description": "Avrupa'nın en büyük Noel festivali! Her yıl Kasım ortasından Ocak başına kadar Hyde Park'ı büyülü bir kış ülkesine dönüştürüyor. 150'den fazla lunapark oyunu, İngiltere'nin en büyük açık hava buz pateni pisti, Bavyera köyü, Noel pazarları ve buz heykeli sergisi sizi bekliyor. Dünyanın en büyük portatif lunapark treni Munich Looping'den 70 metre yükseklikteki dönme dolaba kadar her yaş için eğlence var. Giriş ücretsiz (sadece tarih ve saat için ön kayıt gerekli), aktiviteler ayrı ücretli.",
       "description_en": "Europe's largest Christmas festival! Transforming Hyde Park into a magical winter kingdom from mid-November to early January each year. Over 150 rides and attractions, UK's largest outdoor ice rink, Bavarian village, Christmas markets and ice sculpture exhibition await you. Entertainment for all ages from Munich Looping (world's largest portable rollercoaster) to the 70-meter Giant Wheel. Entry is free (just pre-book date and time), activities charged separately.",
-      "imageUrl": "https://images.unsplash.com/photo-1543599538-a6c4f6cc5c05?w=800",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/londra/lon_winter_wonderland.jpg",
       "lat": 51.5073,
       "lng": -0.1657,
       "price": "medium",
@@ -5074,6 +5074,41 @@
       "bestTime_en": "November-January, evening hours",
       "tips": "Hafta içi akşamları daha az kalabalık. Buz pateni ve Magical Ice Kingdom için önceden bilet alın. Soğuğa karşı kat kat giyinin!",
       "tips_en": "Less crowded on weekday evenings. Book ice skating and Magical Ice Kingdom tickets in advance. Layer up against the cold!"
+    },
+    {
+      "name": "The George Inn",
+      "name_en": "The George Inn",
+      "area": "Southwark",
+      "category": "Bar",
+      "tags": [
+        "pub",
+        "tarih",
+        "dickens"
+      ],
+      "lat": 51.5042,
+      "lng": -0.0903,
+      "rating": 4.5,
+      "description": "Londra'nın hayatta kalan son koç oteli pub'ı, 17. yüzyıldan kalma tarihi bir hazine.",
+      "description_en": "London's last surviving galleried coaching inn, a historic 17th-century treasure.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/londra/the_george_inn.jpg",
+      "source": "firebase"
+    },
+    {
+      "name": "The Lamb and Flag",
+      "name_en": "The Lamb and Flag",
+      "area": "Covent Garden",
+      "category": "Bar",
+      "tags": [
+        "pub",
+        "tarih",
+        "gizli"
+      ],
+      "lat": 51.5115,
+      "lng": -0.1255,
+      "rating": 4.6,
+      "description": "Covent Garden'da bir ara sokakta gizlenmiş, bir zamanlar boks maçlarıyla ünlü tarihi pub.",
+      "description_en": "A historic pub hidden in an alley in Covent Garden, once famous for prize-fights.",
+      "imageUrl": "https://images.unsplash.com/photo-1541944743827-e04bb645d993?w=800"
     }
   ]
 }

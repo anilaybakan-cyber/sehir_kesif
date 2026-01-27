@@ -5,7 +5,7 @@
   "country_en": "Belgium",
   "description": "Avrupa'nın kalbi, çikolata ve çizgi romanın başkenti. Tarihi meydanları ve modern yapısıyla büyüleyici.",
   "description_en": "The heart of Europe, capital of chocolate and comics. Fascinating with its historic squares and modern structure.",
-  "heroImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Grand_Place_Bruselas_2.jpg/1280px-Grand_Place_Bruselas_2.jpg",
+  "heroImage": "https://images.unsplash.com/photo-1559113513-d5e09c18b9e8?w=800",
   "coordinates": {
     "lat": 50.8476,
     "lng": 4.3572
@@ -958,7 +958,7 @@
       "tips": "'Carbonnade Flamande' (biralı et yahnisi) burada yenmeli.",
       "tips_en": "'Carbonnade Flamande' should be eaten here.",
       "id": "fin-de-siècle",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bruksel/fin-de-siècle.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bruksel/fin_de_sicle.jpg",
       "source": "firebase",
       "distanceFromCenter": 0.5
     },
@@ -1231,7 +1231,7 @@
       "tips": "Her iki yılda bir ağustos ayında çiçek halısı seriliyor.",
       "tips_en": "Flower carpet is laid every two years in August.",
       "id": "grand-place",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Grand_Place_Bruselas_2.jpg/1280px-Grand_Place_Bruselas_2.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bruksel/grand_place.jpg",
       "source": "firebase",
       "distanceFromCenter": 0.5
     },
@@ -1356,7 +1356,7 @@
       "rating": 4.6,
       "bestTime": "Gündüz",
       "tips": "Ziyaret öncesi saatleri kontrol edin.",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bruksel/hôtel-ciamberlani.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bruksel/htel_ciamberlani.jpg",
       "source": "firebase",
       "distanceFromCenter": 1.0
     },
@@ -1375,7 +1375,7 @@
       "rating": 4.6,
       "bestTime": "Gündüz",
       "tips": "Ziyaret öncesi saatleri kontrol edin.",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bruksel/hôtel-hannon.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bruksel/htel_hannon.jpg",
       "source": "firebase",
       "distanceFromCenter": 1.0
     },
@@ -1394,7 +1394,7 @@
       "rating": 4.6,
       "bestTime": "Gündüz",
       "tips": "Ziyaret öncesi saatleri kontrol edin.",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bruksel/hôtel-solvay.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bruksel/htel_solvay.jpg",
       "source": "firebase",
       "distanceFromCenter": 1.0
     },
@@ -1413,7 +1413,7 @@
       "rating": 4.6,
       "bestTime": "Gündüz",
       "tips": "Ziyaret öncesi saatleri kontrol edin.",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bruksel/hôtel-tassel.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bruksel/htel_tassel.jpg",
       "source": "firebase",
       "distanceFromCenter": 1.0
     },
@@ -1432,7 +1432,7 @@
       "rating": 4.6,
       "bestTime": "Gündüz",
       "tips": "Ziyaret öncesi saatleri kontrol edin.",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bruksel/hôtel-van-eetvelde.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bruksel/htel_van_eetvelde.jpg",
       "source": "firebase",
       "distanceFromCenter": 1.0
     },
@@ -2499,8 +2499,8 @@
       "rating": 4.4,
       "bestTime": "Gündüz",
       "tips": "Ziyaret öncesi saatleri kontrol edin.",
-      "imageUrl": "https://images.unsplash.com/photo-1555990538-dca68da33989?q=80&w=800",
-      "source": "unsplash_fallback",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bruksel/natacha_mural.jpg",
+      "source": "firebase",
       "distanceFromCenter": 1.0
     },
     {
@@ -2669,7 +2669,7 @@
       "rating": 4.6,
       "bestTime": "Gündüz",
       "tips": "Ziyaret öncesi saatleri kontrol edin.",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bruksel/nüetnigenough.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bruksel/nuetnigenough.jpg",
       "source": "firebase",
       "distanceFromCenter": 1.0
     },
@@ -3056,7 +3056,7 @@
       "rating": 4.6,
       "bestTime": "Gündüz",
       "tips": "Ziyaret öncesi saatleri kontrol edin.",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bruksel/place-du-châtelain.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bruksel/place_du_chtelain.jpg",
       "source": "firebase",
       "distanceFromCenter": 1.0
     },
@@ -3135,7 +3135,7 @@
       "rating": 4.4,
       "bestTime": "Gündüz",
       "tips": "Ziyaret öncesi saatleri kontrol edin.",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bruksel/pêle-mêle-ixelles.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bruksel/ple_mle_ixelles.jpg",
       "source": "firebase",
       "distanceFromCenter": 1.0
     },
@@ -3208,7 +3208,7 @@
       "rating": 4.4,
       "bestTime": "Gündüz",
       "tips": "Ziyaret öncesi saatleri kontrol edin.",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bruksel/rouge-cloître.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bruksel/rouge_clotre.jpg",
       "source": "firebase",
       "distanceFromCenter": 1.0
     },

@@ -1359,11 +1359,12 @@
       "rating": 4.8,
       "description": "Dünyanın en büyük gotik katedrali! 3400 heykel, 600 yılda tamamlandı. Çatı terası mükemmel - Alp dağları görünür!",
       "description_en": "World's largest Gothic cathedral! 3400 statues, took 600 years. Rooftop terrace stunning - Alps visible!",
-      "imageUrl": "https://www.turistafaidate.it/wp-content/uploads/2020/03/duomo-milano-194644012015.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/milano/duomo_di_milano.jpg",
       "bestTime": "Çatı: Gün batımı",
       "bestTime_en": "Rooftop: Sunset",
       "tips": "Müze kartınız varsa girişte sıra beklemezsiniz.",
-      "tips_en": "You skip the line if you have a museum pass."
+      "tips_en": "You skip the line if you have a museum pass.",
+      "source": "firebase"
     },
     {
       "id": "gen_ChIJ60DkCcrFhkcRjBTj4GPGSuo",
@@ -1695,11 +1696,12 @@
       "rating": 4.6,
       "description": "Dünyanın en eski alışveriş merkezlerinden biri. Cam kubbesi, mozaik yerleri ve lüks butikleriyle 'Milano'nun Oturma Odası' olarak anılır.",
       "description_en": "One of the world's oldest shopping malls, known as 'Milan's Drawing Room.' Famous for its iron-and-glass dome and luxury flagship stores.",
-      "imageUrl": "https://www.lombardia.info/wp-content/uploads/sites/112/milano-galleria-vittorio-emanuele-ii.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/milano/galleria_vittorio_emanuele_ii.jpg",
       "bestTime": "Akşam (aydınlatma)",
       "bestTime_en": "Evening (lighting)",
       "tips": "Yerel tasarımcıların ürünlerine göz atın.",
-      "tips_en": "Check out products from local designers."
+      "tips_en": "Check out products from local designers.",
+      "source": "firebase"
     },
     {
       "name": "Galleria d'Arte Moderna (GAM)",
@@ -3663,11 +3665,12 @@
       "rating": 4.4,
       "description": "Milano'nun modern yüzü. Gökdelenler, fütüristik meydanlar ve doğayla mimariyi birleştiren projelerle kentin değişimini simgeler.",
       "description_en": "Milan's futuristic business district, showcasing radical modern architecture and the award-winning Bosco Verticale (Vertical Forest) towers.",
-      "imageUrl": "https://ims.ev.mu/174788397_l_normal_none_30fb7afaad/174788397_l_normal_none_30fb7afaad.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/milano/porta_nuova.jpg",
       "bestTime": "Gün batımı",
       "bestTime_en": "Sunset",
       "tips": "Fotoğraf makinenizin şarjının dolu olduğundan emin olun.",
-      "tips_en": "Make sure your camera battery is full."
+      "tips_en": "Make sure your camera battery is full.",
+      "source": "firebase"
     },
     {
       "name": "Porta Ticinese (Antik Kapı)",

@@ -50,7 +50,9 @@
       "tips": "Geleneksel mimarisi güzeldir.",
       "tips_en": "Traditional architecture is nice.",
       "id": "agia-theodosia",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/santorini/agia_theodosia.jpg",
+      "source": "firebase"
     },
     {
       "name": "Agios Charalambos",
@@ -72,7 +74,9 @@
       "tips": "Deniz manzarası etkileyicidir.",
       "tips_en": "Sea view is impressive.",
       "id": "agios-charalambos",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/santorini/agios_charalambos.jpg",
+      "source": "firebase"
     },
     {
       "name": "Agios Eros Church",
@@ -214,7 +218,9 @@
       "tips": "Önündeki meydan geniştir.",
       "tips_en": "Square in front is spacious.",
       "id": "agios-georgios-oia",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/santorini/oia.jpg",
+      "source": "firebase"
     },
     {
       "name": "Agios Gerasimos",
@@ -404,7 +410,9 @@
       "tips": "Sarı ve mavi renkleri çok canlıdır.",
       "tips_en": "Yellow and blue colors are very vivid.",
       "id": "agios-stylianos",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/santorini/agios_stylianos.jpg",
+      "source": "firebase"
     },
     {
       "name": "Agios Theodori",
@@ -495,7 +503,7 @@
       "tips": "Red Beach'e yakın, birlikte gezin.",
       "tips_en": "Close to Red Beach, visit together.",
       "id": "akrotiri-köyü",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/santorini/akrotiri-köyü.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/santorini/akrotiri_koyu.jpg",
       "source": "firebase",
       "distanceFromCenter": 1.0
     },
@@ -945,7 +953,9 @@
       "tips": "Özel günler için ideal.",
       "tips_en": "Ideal for special occasions.",
       "id": "avants-restaurant",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/santorini/avants_suites_restaurant.jpg",
+      "source": "firebase"
     },
     {
       "name": "Baxedes Beach",
@@ -1087,7 +1097,7 @@
       "tips": "Bol su alın, gölge az.",
       "tips_en": "Bring plenty of water, little shade.",
       "id": "caldera-yürüyüş-yolu",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/santorini/caldera-yürüyüş-yolu.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/santorini/caldera_yuruyus_yolu.jpg",
       "source": "firebase",
       "distanceFromCenter": 1.0
     },
@@ -1135,7 +1145,9 @@
       "tips": "Rüzgar çok güçlü olabilir.",
       "tips_en": "Wind can be very strong.",
       "id": "cape-akrotiri",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/santorini/cape_akrotiri.jpg",
+      "source": "firebase"
     },
     {
       "name": "Cape Columbo Beach",
@@ -1587,7 +1599,7 @@
       "tips": "Hayvanlara iyi davranılması için seçici olun.",
       "tips_en": "Be selective for good animal treatment.",
       "id": "eşek-turu",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/santorini/eşek-turu.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/santorini/esek_turu.jpg",
       "source": "firebase",
       "distanceFromCenter": 1.0
     },
@@ -1659,7 +1671,9 @@
       "tips": "Dar sokaklarında kaybolun.",
       "tips_en": "Get lost in its narrow streets.",
       "id": "finikia",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/santorini/finikia_village.jpg",
+      "source": "firebase"
     },
     {
       "name": "Fira - Oia Hike",
@@ -1673,7 +1687,7 @@
       "lng": 25.41,
       "rating": 4.9,
       "description": "Kaldera kenarından yürüyerek iki kasabayı bağlayan muhteşem rota. Doğayla iç içe, huzur dolu anlar yaşamak isteyenler için mükemmel bir kaçış noktası. Şehrin gürültüsünden uzaklaşıp nefes almak ve harika fotoğraflar çekmek için birebir.",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/santorini/fira_-_oia_hike.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/santorini/fira.jpg",
       "price": "medium",
       "bestTime": "09:00 - 18:00",
       "bestTime_en": "09:00 - 18:00",
@@ -1817,7 +1831,7 @@
       "rating": 4.5,
       "description": "Kaldera manzaralı kahvaltı ve kahve. Günün yorgunluğunu atmak ve lezzetli bir kahve eşliğinde dinlenmek için en doğru adreslerden biri. Mekanın sıcak ambiyansı ve sunduğu tatlı sürprizler, molanızı keyfe dönüştürecek.",
       "description_en": "Breakfast and coffee with caldera view. One of the right addresses to relieve the tiredness of the day and relax with a delicious coffee. The warm ambiance of the venue and the sweet surprises it offers will turn your break into pleasure.",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/santorini/galini_café.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/santorini/galini_cafe.jpg",
       "price": "medium",
       "distanceFromCenter": 1.0,
       "bestTime": "09:00 - 18:00",
@@ -2008,7 +2022,7 @@
       "rating": 4.8,
       "description": "Sakin köyden kaldera manzarası. Şehrin en etkileyici manzaralarından birini sunan bu nokta, fotoğraf tutkunları için adeta bir cennet. Özellikle gün batımında büründüğü renkler, ziyaretçilere görsel bir şölen yaşatıyor.",
       "description_en": "Caldera view from quiet village. Offering one of the most impressive views of the city, this spot is a paradise for photography enthusiasts. The colors it takes on, especially at sunset, provide a visual feast for visitors.",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/santorini/imerovigli_viewpoint.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/santorini/imerovigli.jpg",
       "price": "medium",
       "distanceFromCenter": 1.0,
       "bestTime": "09:00 - 18:00",
@@ -2156,7 +2170,7 @@
       "tips": "Oia'dan daha güzel gün batımı olduğu söylenir.",
       "tips_en": "Rumored to have better sunset than Oia.",
       "id": "pyrgos-kasteli",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/santorini/pyrgos-kasteli.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/santorini/pyrgos.jpg",
       "source": "firebase",
       "distanceFromCenter": 1.0
     },
@@ -2389,7 +2403,7 @@
       "rating": 4.5,
       "description": "Uygun fiyatlı gyros ve souvlaki. Yerel lezzetlerin tadına varmak ve keyifli bir akşam geçirmek için harika bir seçenek. Samimi atmosferi ve kaliteli hizmetiyle damak zevkinize hitap edecek unutulmaz bir deneyim sunuyor.",
       "description_en": "Budget-friendly gyros and souvlaki. A great option to taste local flavors and spend a pleasant evening. It offers an unforgettable experience appealing to your palate with its friendly atmosphere and quality service.",
-      "imageUrl": "https://images.unsplash.com/photo-1543783232-af412b852fc7?w=800",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/santorini/luckys_souvlaki.jpg",
       "price": "medium",
       "distanceFromCenter": 1.0,
       "bestTime": "09:00 - 18:00",
@@ -2675,7 +2689,9 @@
       "tips": "Özel tasarım takılara bakın.",
       "tips_en": "Check out custom design jewelry.",
       "id": "mnemossyne",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/santorini/mnemossyne_gallery.jpg",
+      "source": "firebase"
     },
     {
       "name": "MoMix Bar",
@@ -2931,7 +2947,7 @@
       "tips": "Pazarlık yapmayı deneyin.",
       "tips_en": "Try to bargain.",
       "id": "oia-hediyelik-dükkanları",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/santorini/oia-hediyelik-dükkanları.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/santorini/oia_hediyelik_dukkanlari.jpg",
       "source": "firebase",
       "distanceFromCenter": 1.0
     },
@@ -3073,7 +3089,9 @@
       "tips": "Uzo ve meze tabağı isteyin.",
       "tips_en": "Ask for ouzo and mezze plate.",
       "id": "palia-theki",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/santorini/palia_theki.jpg",
+      "source": "firebase"
     },
     {
       "name": "Panagia Episkopi",
@@ -3545,7 +3563,9 @@
       "tips": "Kalabalıktan kaçmak için ideal.",
       "tips_en": "Ideal to escape crowds.",
       "id": "roka",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/santorini/roka.jpg",
+      "source": "firebase"
     },
     {
       "name": "Santo Wines",
@@ -3945,7 +3965,9 @@
       "tips": "Santa Irini kilisesi buradadır.",
       "tips_en": "Santa Irini church is here.",
       "id": "riva-port",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/santorini/thirassia_port__riva_.jpg",
+      "source": "firebase"
     },
     {
       "name": "Three Bells of Fira",
@@ -4012,8 +4034,8 @@
       "tips": "Her yerde deneyin ama yerel tavernalar en iyisi.",
       "tips_en": "Try everywhere but local taverns are best.",
       "id": "tomatakia-domates-köftesi",
-      "imageUrl": "https://images.unsplash.com/photo-1555990538-dca68da33989?q=80&w=800",
-      "source": "unsplash_fallback",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/santorini/tomatakia_domates_koftesi.jpg",
+      "source": "firebase",
       "distanceFromCenter": 1.0
     },
     {
@@ -4369,6 +4391,99 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/santorini/yalos.jpg",
       "source": "firebase",
       "distanceFromCenter": 1.0
+    },
+    {
+      "name": "Blue Domed Churches",
+      "name_en": "Blue Domed Churches (Oia)",
+      "area": "Oia",
+      "category": "Dini",
+      "tags": [
+        "ikonik",
+        "fotoğraf",
+        "manzara"
+      ],
+      "lat": 36.461,
+      "lng": 25.3755,
+      "rating": 4.9,
+      "description": "Santorini'nin dünyaca ünlü simgesi, beyaz binalar üzerindeki mavi kubbeler.",
+      "description_en": "The world-famous symbol of Santorini, blue domes on white buildings.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/santorini/blue_domed_churches.jpg",
+      "source": "firebase"
+    },
+    {
+      "name": "Oia",
+      "name_en": "Oia",
+      "area": "North",
+      "category": "Deneyim",
+      "tags": [
+        "köy",
+        "günbatımı",
+        "ikonik"
+      ],
+      "lat": 36.4618,
+      "lng": 25.3753,
+      "rating": 4.9,
+      "description": "Santorini'nin dünyaca ünlü gün batımı noktası. Beyaz badanalı evleri, mavi kubbeleri ve lüks butikleriyle adanın en popüler köyü.",
+      "description_en": "Santorini's world-famous sunset spot. The most popular village on the island with its whitewashed houses, blue domes, and luxury boutiques.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/santorini/oia.jpg",
+      "price": "free",
+      "source": "firebase"
+    },
+    {
+      "name": "Imerovigli",
+      "name_en": "Imerovigli",
+      "area": "Caldera",
+      "category": "Deneyim",
+      "tags": [
+        "manzara",
+        "sakin",
+        "yürüyüş"
+      ],
+      "lat": 36.4328,
+      "lng": 25.4228,
+      "rating": 4.8,
+      "description": "'Ege'nin Balkonu' olarak bilinen, kalderanın en yüksek noktasındaki sakin köy. Skaros Kayası'na ev sahipliği yapar ve muhteşem manzaralar sunar.",
+      "description_en": "Known as the 'Balcony of the Aegean', a quiet village at the highest point of the caldera. Home to Skaros Rock and offers magnificent views.",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Imerovigli_Santorini.jpg/800px-Imerovigli_Santorini.jpg",
+      "price": "free"
+    },
+    {
+      "name": "Fira",
+      "name_en": "Fira",
+      "area": "Center",
+      "category": "Deneyim",
+      "tags": [
+        "merkez",
+        "alışveriş",
+        "gece hayatı"
+      ],
+      "lat": 36.42,
+      "lng": 25.4317,
+      "rating": 4.7,
+      "description": "Santorini'nin canlı başkenti. Müzeler, restoranlar, barlar ve teleferik ile kalderaya iniş imkanı sunan hareketli merkez.",
+      "description_en": "The lively capital of Santorini. A bustling center offering museums, restaurants, bars, and a cable car ride down to the caldera.",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Fira_Santorini_Greece.jpg/800px-Fira_Santorini_Greece.jpg",
+      "price": "free"
+    },
+    {
+      "name": "Pyrgos",
+      "name_en": "Pyrgos",
+      "area": "Inland",
+      "category": "Tarihi",
+      "tags": [
+        "köy",
+        "kale",
+        "geleneksel"
+      ],
+      "lat": 36.3831,
+      "lng": 25.4494,
+      "rating": 4.7,
+      "description": "Adanın en yüksek köyü ve eski başkenti. Ortaçağ kalesi (Kasteli), dar sokakları ve panoramik manzarasıyla otantik bir deneyim.",
+      "description_en": "The highest village on the island and the former capital. An authentic experience with its medieval castle (Kasteli), narrow streets, and panoramic views.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/santorini/pyrgos.jpg",
+      "price": "free",
+      "source": "firebase"
     }
-  ]
+  ],
+  "heroImage": "https://www.kucukoteller.com.tr/storage/images/2024/07/14/5e7eaf11eb5ec2dda2f7a602232faa8961347f29.webp"
 }

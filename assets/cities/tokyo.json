@@ -4547,6 +4547,183 @@
       "distanceFromCenter": 1.5,
       "tips": "Çevredeki küçük hediyelik eşya dükkanlarına da uğrayın.",
       "tips_en": "Stop by the small souvenir shops around."
+    },
+    {
+      "name": "Hachiko Statue",
+      "name_en": "Hachiko Statue",
+      "area": "Shibuya",
+      "category": "İkonik",
+      "tags": [
+        "dog",
+        "loyal",
+        "landmark"
+      ],
+      "lat": 35.6591,
+      "lng": 139.7006,
+      "description": "Shibuya İstasyonu önünde, sahibini dokuz yıl boyunca bekleyen sadık köpek Hachiko'nun dünyaca ünlü heykeli.",
+      "description_en": "The world-famous statue of the loyal dog Hachiko, who waited for his owner at Shibuya Station for nine years.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/tokyo/hachiko.jpg",
+      "rating": 4.6,
+      "price": "free"
+    },
+    {
+      "name": "TeamLab Borderless (Azabudai Hills)",
+      "name_en": "teamLab Borderless",
+      "area": "Azabudai Hills",
+      "category": "Deneyim",
+      "tags": [
+        "digital art",
+        "immersive",
+        "modern"
+      ],
+      "lat": 35.6631,
+      "lng": 139.7423,
+      "description": "TeamLab'in haritasız bir dünyada sınırları kaldıran, dijital sanatın ve ışığın büyüleyici dansını sunan müzesi.",
+      "description_en": "An immersive digital art museum where art pieces move seamlessly between rooms and interact with visitors.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/tokyo/borderless.jpg",
+      "rating": 4.9,
+      "price": "high"
+    },
+    {
+      "name": "Fuunji (Tsukemen)",
+      "name_en": "Fuunji",
+      "area": "Shinjuku",
+      "category": "Yeme-İçme",
+      "tags": [
+        "ramen",
+        "tsukemen",
+        "lokal"
+      ],
+      "lat": 35.6865,
+      "lng": 139.6975,
+      "rating": 4.8,
+      "description": "Shinjuku'da efsanevi tsukemen (banılan ramen) yapan, önünde her zaman sıra olan küçük ama etkili mekan.",
+      "description_en": "A small but powerful Shinjuku spot serving legendary tsukemen (dipping ramen), always with a line outside.",
+      "imageUrl": "https://images.unsplash.com/photo-1591814447921-1f5035640280?w=800"
+    },
+    {
+      "name": "Rokurinsha",
+      "name_en": "Rokurinsha",
+      "area": "Tokyo Station",
+      "category": "Yeme-İçme",
+      "tags": [
+        "tsukemen",
+        "istasyon",
+        "ikonik"
+      ],
+      "lat": 35.6815,
+      "lng": 139.767,
+      "rating": 4.6,
+      "description": "Tokyo İstasyonu'ndaki Ramen sokağının en ünlü tsukemen durağı.",
+      "description_en": "The most famous tsukemen stop on Tokyo Station's Ramen Street.",
+      "imageUrl": "https://images.unsplash.com/photo-1591814447921-1f5035640280?w=800"
+    },
+    {
+      "name": "Mandarake Complex",
+      "name_en": "Mandarake Complex",
+      "area": "Akihabara",
+      "category": "Alışveriş",
+      "tags": [
+        "anime",
+        "manga",
+        "retro"
+      ],
+      "lat": 35.7005,
+      "lng": 139.7715,
+      "rating": 4.7,
+      "description": "Sekiz katlı devasa bir anime, manga ve retro oyuncak deposu. Koleksiyonerlerin cenneti.",
+      "description_en": "A massive eight-story anime, manga, and retro toy warehouse. A collector's paradise.",
+      "imageUrl": "https://images.unsplash.com/photo-1560932763-0453775f280a?w=800"
+    },
+    {
+      "name": "Cat Street",
+      "name_en": "Cat Street",
+      "area": "Harajuku",
+      "category": "Alışveriş",
+      "tags": [
+        "fashion",
+        "hipster",
+        "sokak"
+      ],
+      "lat": 35.666,
+      "lng": 139.7065,
+      "rating": 4.8,
+      "description": "Harajuku ve Shibuya arasındaki butikleri, kafeleri ve şık yerlileriyle ünlü 'cool' sokak.",
+      "description_en": "The 'cool' street between Harajuku and Shibuya, famous for boutiques, cafes, and stylish locals.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/tokyo/cat_street.jpg",
+      "source": "firebase"
+    },
+    {
+      "name": "Tsukiji Hongwanji Temple",
+      "name_en": "Tsukiji Hongwanji",
+      "area": "Tsukiji",
+      "category": "Dini",
+      "tags": [
+        "mimari",
+        "tapınak",
+        "hint tarzı"
+      ],
+      "lat": 35.6663,
+      "lng": 139.7731,
+      "rating": 4.5,
+      "description": "Geleneksel Japon tapınaklarından farklı olarak Hint mimarisinden esinlenmiş mimarisiyle dikkat çeken görkemli yapı.",
+      "description_en": "A grand building standing out with its Indian-inspired architecture, unlike traditional Japanese temples.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/tokyo/tsukiji_hongwanji_temple.jpg",
+      "source": "firebase"
+    },
+    {
+      "name": "Hanazono Shrine",
+      "name_en": "Hanazono Shrine",
+      "area": "Shinjuku",
+      "category": "Dini",
+      "tags": [
+        "şinto",
+        "dingin",
+        "gizli"
+      ],
+      "lat": 35.6931,
+      "lng": 139.7042,
+      "rating": 4.6,
+      "description": "Shinjuku'nun gökdelenleri arasında gizlenmiş, kırmızı torii kapılarıyla huzurlu bir Şinto tapınağı.",
+      "description_en": "A peaceful Shinto shrine hidden among Shinjuku's skyscrapers, featuring red torii gates.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/tokyo/hanazono_shrine.jpg",
+      "source": "firebase"
+    },
+    {
+      "name": "Mori Art Museum",
+      "name_en": "Mori Art Museum",
+      "area": "Roppongi",
+      "category": "Sanat",
+      "tags": [
+        "modern",
+        "manzara",
+        "müze"
+      ],
+      "lat": 35.6605,
+      "lng": 139.729,
+      "rating": 4.7,
+      "description": "Roppongi Hills'in 53. katında yer alan, hem modern sanat hem de muazzam şehir manzarası sunan müze.",
+      "description_en": "Museum on the 53rd floor of Roppongi Hills, offering both contemporary art and incredible city views.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/tokyo/mori_art_museum.jpg",
+      "source": "firebase"
+    },
+    {
+      "name": "Super Potato",
+      "name_en": "Super Potato",
+      "area": "Akihabara",
+      "category": "Alışveriş",
+      "tags": [
+        "video oyun",
+        "retro",
+        "nostalji"
+      ],
+      "lat": 35.7,
+      "lng": 139.771,
+      "rating": 4.7,
+      "description": "Retro video oyunlarının dünyadaki en ikonik mağazası. 80'ler ve 90'lar nostaljisi.",
+      "description_en": "The world's most iconic retro video game store. Total 80s and 90s nostalgia.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/tokyo/super_potato.jpg",
+      "source": "firebase"
     }
   ]
 }

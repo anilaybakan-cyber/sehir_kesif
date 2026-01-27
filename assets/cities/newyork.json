@@ -670,22 +670,45 @@
       "tags": [
         "manzara",
         "yürüyüş",
-        "park",
-        "piknik",
-        "köprü"
+        "köprü",
+        "ikonik"
       ],
       "distanceFromCenter": 3.0,
       "lat": 40.7061,
       "lng": -73.9969,
       "price": "low",
-      "rating": 4.7,
-      "description": "Geçmişin görkemini günümüze taşıyan Brooklyn Bridge, Brooklyn'nın en önemli tarihi yapılarından biri. Restorasyonlarla korunan özgün dokusu, dönemin yaşam tarzını yansıtan eserleri ve muhteşem mimarisiyle keşfedilmeyi bekliyor.",
-      "description_en": "Geçmişin görkemini günümüze taşıyan Brooklyn Bridge, Brooklyn'nın en önemli tarihi yapılarından biri. Restorasyonlarla korunan özgün dokusu, dönemin yaşam tarzını yansıtan eserleri ve muhteşem mimarisiyle keşfedilmeyi bekliyor.",
+      "rating": 4.8,
+      "description": "Dünyanın en ikonik asma köprülerinden biri. Manhattan ve Brooklyn'i birbirine bağlayan bu mimari şaheser, her iki yakadan da muhteşem manzaralar sunar.",
+      "description_en": "One of the most iconic suspension bridges in the world. Connecting Manhattan and Brooklyn, this architectural masterpiece offers stunning views from both sides.",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/newyork/brooklyn_bridge.jpg",
       "bestTime": "Gün batımı",
       "bestTime_en": "Sunset",
-      "tips": "Rehberli turla gezmek detayları anlamak için çok daha verimli.",
-      "tips_en": "A guided tour is much more efficient to understand the details.",
+      "tips": "Genellikle yürümek 30-40 dakika sürer.",
+      "tips_en": "Usually takes 30-40 minutes to walk across.",
+      "name_en": "Brooklyn Bridge"
+    },
+    {
+      "name": "Brooklyn Bridge Park",
+      "area": "Brooklyn",
+      "category": "Park",
+      "tags": [
+        "manzara",
+        "park",
+        "piknik",
+        "keşfet"
+      ],
+      "distanceFromCenter": 3.2,
+      "lat": 40.7013,
+      "lng": -73.9976,
+      "price": "low",
+      "rating": 4.8,
+      "description": "Brooklyn Köprüsü'nün hemen altında yer alan bu devasa sahil parkı, Manhattan silüetinin en iyi manzaralarını ve yemyeşil alanları sunar.",
+      "description_en": "Located right under the Brooklyn Bridge, this massive waterfront park offers the best views of the Manhattan skyline and lush green spaces.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/newyork/brooklyn_bridge_park.jpg",
+      "bestTime": "Gün batımı",
+      "bestTime_en": "Sunset",
+      "tips": "Piknik yapmak için harika bir yer.",
+      "tips_en": "A great place for a picnic.",
       "name_en": "Brooklyn Bridge Park"
     },
     {
@@ -1833,12 +1856,13 @@
       "rating": 4.6,
       "description": "Frank Lloyd Wright'ın mimari başyapıtı. Spiral rampada yürürken sanatı keşfedin. Binası kadar koleksiyonu da etkileyici.",
       "description_en": "Frank Lloyd Wright's architectural masterpiece. Discover art while walking the spiral ramp. Building as impressive as collection.",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Guggenheim_museum_exterior.jpg/800px-Guggenheim_museum_exterior.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/newyork/guggenheim_museum.jpg",
       "bestTime": "Hafta içi sabah",
       "bestTime_en": "Weekday morning",
       "tips": "Sesli rehber (audio guide) kiralamak deneyimi ikiye katlar.",
       "tips_en": "Renting an audio guide doubles the experience.",
-      "name_en": "Guggenheim"
+      "name_en": "Guggenheim",
+      "source": "firebase"
     },
     {
       "name": "Harlem",
@@ -2589,28 +2613,29 @@
       "tips_en": "Visiting on weekdays offers a calmer experience."
     },
     {
-      "name": "Metropolitan Museum of Art",
+      "name": "Metropolitan Museum",
+      "name_en": "The Met",
       "area": "Upper East Side",
       "category": "Müze",
       "tags": [
         "ikonik",
         "tarih",
         "sanat",
-        "dev"
+        "dev",
+        "müze"
       ],
       "distanceFromCenter": 3.5,
       "lat": 40.7794,
       "lng": -73.9632,
-      "price": "medium",
+      "price": "high",
       "rating": 4.9,
-      "description": "Metropolitan Museum of Art, New York'nin sanat sahnesinin nabzını tutan önemli bir kültür merkezi. Upper East Side bölgesindeki modern binası, kalıcı ve geçici sergiler, atölye çalışmaları ve özel etkinlikleriyle yıl boyunca ziyaret edilmeye değer.",
-      "description_en": "One of world's largest art museums housing 5,000 years of art history. Egyptian temple, European masters, and Central Park views.",
+      "description": "Dünyanın en prestijli sanat müzelerinden biri. 5000 yıllık medeniyet tarihini devasa bir koleksiyonla, Central Park'ın hemen yanında sunar.",
+      "description_en": "One of the world's most prestigious art museums, housing 5,000 years of art history right next to Central Park.",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/newyork/metropolitan_museum_of_art.jpg",
       "bestTime": "Hafta içi sabah",
       "bestTime_en": "Weekday morning",
-      "tips": "Bazı günler giriş ücretsiz olabilir, web sitesini kontrol edin.",
-      "tips_en": "Entry might be free on some days, check the website.",
-      "name_en": "The Metropolitan Museum of Art"
+      "tips": "Müzenin teras katında (The Roof Garden) harika bir Central Park manzarası vardır.",
+      "tips_en": "Check out the Roof Garden for amazing views of Central Park."
     },
     {
       "id": "gen_ChIJTzijtpFZwokRmOeHGIqJPmg",
@@ -4666,6 +4691,283 @@
       "bestTime_en": "Weekend",
       "tips": "Yerel halkın favori noktalarından biri.",
       "tips_en": "One of the favorite spots of the locals."
+    },
+    {
+      "name": "Pebble Beach",
+      "name_en": "Pebble Beach",
+      "area": "DUMBO",
+      "category": "Doğa",
+      "tags": [
+        "manzara",
+        "köprü",
+        "huzur"
+      ],
+      "lat": 40.7042,
+      "lng": -73.9928,
+      "description": "Manhattan Köprüsü'nü en iyi gören, Brooklyn Bridge Park içindeki küçük ama ikonik plaj alanı.",
+      "description_en": "The best spot to view the Manhattan Bridge, a small yet iconic beach area within Brooklyn Bridge Park.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/newyork/pebble_beach.jpg",
+      "rating": 4.8,
+      "price": "free"
+    },
+    {
+      "name": "Time Out Market",
+      "name_en": "Time Out Market",
+      "area": "DUMBO",
+      "category": "Yeme-İçme",
+      "tags": [
+        "yemek",
+        "gurme",
+        "manzara"
+      ],
+      "lat": 40.7034,
+      "lng": -73.9921,
+      "description": "NYC'nin en iyi yemek duraklarını tek bir çatı altında toplayan, üst katındaki manzara terasıyla ünlü gurme alanı.",
+      "description_en": "A gourmet complex bringing NYC's best eateries together, famous for its terrace views of the Brooklyn Bridge.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/newyork/timeout_market.jpg",
+      "rating": 4.6,
+      "price": "medium"
+    },
+    {
+      "name": "Broadway Theater District",
+      "name_en": "Broadway Theater District",
+      "area": "Midtown",
+      "category": "Kültür",
+      "tags": [
+        "müzikal",
+        "tiyatro",
+        "gece"
+      ],
+      "lat": 40.758,
+      "lng": -73.9855,
+      "description": "Dünya tiyatrosunun ve müzikal sanatının kalbi. Onlarca tarihi tiyatro salonu ve parlayan tabelalarıyla NYC'nin ruhu.",
+      "description_en": "The heart of world theater. Home to dozens of historic playhouses and the glowing soul of NYC.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/newyork/broadway.jpg",
+      "rating": 4.8,
+      "price": "high"
+    },
+    {
+      "name": "Grimaldi's",
+      "name_en": "Grimaldi's Pizzeria",
+      "area": "DUMBO",
+      "category": "Yeme-İçme",
+      "tags": [
+        "pizza",
+        "iconic",
+        "brooklyn"
+      ],
+      "lat": 40.7026,
+      "lng": -73.9935,
+      "description": "Köprünün altında, kömür ateşinde pişen efsanevi New York pizzası.",
+      "description_en": "Legendary New York coal-fired brick oven pizza right under the Brooklyn Bridge.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/newyork/grimaldis.jpg",
+      "rating": 4.5,
+      "price": "medium"
+    },
+    {
+      "name": "Neue Galerie",
+      "name_en": "Neue Galerie New York",
+      "area": "Upper East Side",
+      "category": "Müze",
+      "tags": [
+        "sanat",
+        "avusturya",
+        "ikonik",
+        "altınlı kadın"
+      ],
+      "lat": 40.7794,
+      "lng": -73.9601,
+      "rating": 4.7,
+      "description": "20. yüzyıl başı Alman ve Avusturya sanatına adanmış muhteşem bir galeri. Klimt'in 'Altınlı Kadın' tablosuna ev sahipliği yapar.",
+      "description_en": "A museum of early 20th-century German and Austrian art. Home to Gustav Klimt's famous 'Woman in Gold'.",
+      "imageUrl": "https://images.unsplash.com/photo-1590523277543-a94d2e5eb00b?w=800",
+      "tips": "Café Sabarsky'de mutlaka Viyana usulü kahve için.",
+      "tips_en": "Must try the Viennese coffee at Café Sabarsky."
+    },
+    {
+      "name": "Bedford Avenue",
+      "name_en": "Bedford Avenue",
+      "area": "Williamsburg",
+      "category": "Alışveriş",
+      "tags": [
+        "trendy",
+        "hipster",
+        "butik",
+        "sokak"
+      ],
+      "lat": 40.7161,
+      "lng": -73.9586,
+      "rating": 4.6,
+      "description": "Williamsburg'un kalbi. Butikleri, kafeleri ve grafitileriyle Brooklyn'in en havalı ana caddesi.",
+      "description_en": "The heart of Williamsburg. Brooklyn's coolest main street with boutiques, cafes, and street art.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/newyork/bedford_avenue.jpg",
+      "tips": "Ara sokaklardaki vintage dükkanları keşfedin.",
+      "tips_en": "Explore vintage shops in the side streets.",
+      "source": "firebase"
+    },
+    {
+      "name": "Brooklyn Promenade",
+      "name_en": "Brooklyn Heights Promenade",
+      "area": "Brooklyn Heights",
+      "category": "Manzara",
+      "tags": [
+        "manzara",
+        "manhattan",
+        "yürüyüş",
+        "romantik"
+      ],
+      "lat": 40.6976,
+      "lng": -73.9961,
+      "rating": 4.9,
+      "description": "Manhattan silüetini ve Özgürlük Anıtı'nı izlemek için en iyi yerlerden biri. Uzun ve keyifli bir yürüyüş yolu.",
+      "description_en": "One of the best spots to view the Manhattan skyline and Statue of Liberty. A long and pleasant walkway.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/newyork/brooklyn_promenade.jpg",
+      "tips": "Gün batımı saatinde gelmek unutulmaz bir deneyim sunar.",
+      "tips_en": "Coming at sunset provides an unforgettable experience.",
+      "source": "firebase"
+    },
+    {
+      "name": "230 Fifth Rooftop",
+      "name_en": "230 Fifth Rooftop Bar",
+      "area": "Flatiron",
+      "category": "Gece Hayatı",
+      "tags": [
+        "rooftop",
+        "manzara",
+        "empire state",
+        "bar"
+      ],
+      "lat": 40.7441,
+      "lng": -73.9884,
+      "rating": 4.4,
+      "description": "Empire State Building manzarasına sahip, New York'un en büyük ve en popüler teras barlarından biri.",
+      "description_en": "One of NYC's largest and most popular rooftop bars with stunning views of the Empire State Building.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/newyork/230_fifth_rooftop.jpg",
+      "tips": "Kışın ısıtmalı iglolarda oturabilirsiniz.",
+      "tips_en": "In winter, you can sit in heated igloos.",
+      "source": "firebase"
+    },
+    {
+      "name": "Bethesda Fountain",
+      "name_en": "Bethesda Fountain",
+      "area": "Central Park",
+      "category": "Tarihi",
+      "tags": [
+        "park",
+        "heykel",
+        "ikonik",
+        "meydan"
+      ],
+      "lat": 40.7738,
+      "lng": -73.9709,
+      "rating": 4.8,
+      "description": "Central Park'ın kalbi sayılan Bethesda Terrace'ın merkezindeki meşhur çeşme. 'Angel of the Waters' heykeli ile ünlüdür.",
+      "description_en": "The famous fountain at the center of Bethesda Terrace, considered the heart of Central Park. Famous for the 'Angel of the Waters' statue.",
+      "imageUrl": "https://images.unsplash.com/photo-1541093223450-077bcb2a096a?w=800",
+      "tips": "Alt geçitteki (terrace) akustiği dinlemek için sokak sanatçılarını bekleyin.",
+      "tips_en": "Wait for street musicians to hear the amazing acoustics in the underpass."
+    },
+    {
+      "name": "The Ramble",
+      "name_en": "The Ramble",
+      "area": "Central Park",
+      "category": "Doğa",
+      "tags": [
+        "doğa",
+        "yürüyüş",
+        "sessizlik"
+      ],
+      "lat": 40.777,
+      "lng": -73.9708,
+      "rating": 4.7,
+      "description": "Central Park içinde vahşi bir orman hissi veren, dolambaçlı yolları ve derecikleriyle bilinen doğal alan.",
+      "description_en": "A wild woodland area within Central Park known for its winding paths and streams.",
+      "imageUrl": "https://images.unsplash.com/photo-1533512930330-4e4881ae9b9e?w=800",
+      "tips": "Kuş gözlemciliği için parkın en popüler noktasıdır.",
+      "tips_en": "Most popular spot in the park for bird watching."
+    },
+    {
+      "name": "Belvedere Castle",
+      "name_en": "Belvedere Castle",
+      "area": "Central Park",
+      "category": "Tarihi",
+      "tags": [
+        "kale",
+        "manzara",
+        "gözlem",
+        "ikonik"
+      ],
+      "lat": 40.7794,
+      "lng": -73.9691,
+      "rating": 4.6,
+      "description": "Central Park'ın en yüksek noktalarından biri olan Vista Rock üzerinde yükselen minyatür kale. Parkın panoramik manzarasını sunar.",
+      "description_en": "A miniature castle sitting on Vista Rock, one of the highest points in Central Park. Offers panoramic park views.",
+      "imageUrl": "https://images.unsplash.com/photo-1563200155-22d733221b7c?w=800",
+      "tips": "Kuleye çıkarak 360 derecelik park manzarasını izleyin.",
+      "tips_en": "Go up the tower for a 360-degree view of the park."
+    },
+    {
+      "name": "Broadway SoHo",
+      "name_en": "Broadway (SoHo)",
+      "area": "SoHo",
+      "category": "Alışveriş",
+      "tags": [
+        "moda",
+        "marka",
+        "popüler",
+        "mağaza"
+      ],
+      "lat": 40.7226,
+      "lng": -73.9984,
+      "rating": 4.5,
+      "description": "SoHo'nun dünyaca ünlü markaların mağazalarıyla dolu ana alışveriş caddesi.",
+      "description_en": "SoHo's world-famous main shopping street lined with major brand flagship stores.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/newyork/broadway_soho.jpg",
+      "tips": "Hafta sonları çok kalabalık olur, hafta içi sabahı tercih edin.",
+      "tips_en": "Very crowded on weekends, prefer weekday mornings.",
+      "source": "firebase"
+    },
+    {
+      "name": "Greene Street",
+      "name_en": "Greene Street",
+      "area": "SoHo",
+      "category": "Mimari",
+      "tags": [
+        "cast-iron",
+        "tarihi",
+        "parke taşı",
+        "butik"
+      ],
+      "lat": 40.7237,
+      "lng": -74.0004,
+      "rating": 4.7,
+      "description": "SoHo'nun en ikonik demir döküm (cast-iron) binalarının ve arnavut kaldırımı sokaklarının bulunduğu prestijli cadde.",
+      "description_en": "Prestigious street featuring SoHo's most iconic cast-iron buildings and cobblestone pavement.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/newyork/greene_street.jpg",
+      "tips": "Binaların mimari detaylarını incelemek için başınızı yukarı kaldırmayı unutmayın.",
+      "tips_en": "Don't forget to look up to appreciate the architectural details of the buildings.",
+      "source": "firebase"
+    },
+    {
+      "name": "Nolita",
+      "name_en": "Nolita",
+      "area": "Manhattan",
+      "category": "Keşfet",
+      "tags": [
+        "trendy",
+        "butik",
+        "kafe",
+        "mahalle"
+      ],
+      "lat": 40.723,
+      "lng": -73.9947,
+      "rating": 4.6,
+      "description": "North of Little Italy. Küçük butikleri, şık kafeleri ve bohem atmosferiyle Manhattan'ın en keyifli mahallelerinden biri.",
+      "description_en": "North of Little Italy. One of Manhattan's most pleasant neighborhoods with tiny boutiques, chic cafes, and bohemian vibe.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/newyork/nolita.jpg",
+      "tips": "Elizabeth Street Garden'da mola verin.",
+      "tips_en": "Take a break at the Elizabeth Street Garden.",
+      "source": "firebase"
     }
   ]
 }

@@ -252,7 +252,9 @@
       "tips": "Nargile ve çay keyfi için ideal.",
       "tips_en": "Ideal for shisha and tea.",
       "id": "cairo-stock-exchange-area",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kahire/al_bursa_el_qadima.jpg",
+      "source": "firebase"
     },
     {
       "name": "Al-Hakim Mosque",
@@ -637,7 +639,9 @@
       "tips": "Dekorasyonu çok güzeldir.",
       "tips_en": "Decoration is very beautiful.",
       "id": "babel-zamalek",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kahire/babel.jpg",
+      "source": "firebase"
     },
     {
       "name": "Baron Empain Palace",
@@ -1131,7 +1135,9 @@
       "tips": "Havuçlu keki efsanedir.",
       "tips_en": "Carrot cake is legendary.",
       "id": "cake-cafe-zamalek",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kahire/cake_cafe.jpg",
+      "source": "firebase"
     },
     {
       "name": "Capital Business Park",
@@ -1297,7 +1303,9 @@
       "tips": "Rehberle gezilmesi önerilir.",
       "tips_en": "Recommended to visit with guide.",
       "id": "city-of-the-dead",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kahire/city_of_the_dead.jpg",
+      "source": "firebase"
     },
     {
       "name": "Citystars Heliopolis",
@@ -1418,7 +1426,9 @@
       "tips": "Çikolatalı fondanı meşhurdur.",
       "tips_en": "Chocolate fondant is famous.",
       "id": "crave",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kahire/craves.jpg",
+      "source": "firebase"
     },
     {
       "name": "Crimson Bar & Grill",
@@ -1939,7 +1949,9 @@
       "tips": "Hızlı bir karın doyurma noktasıdır.",
       "tips_en": "Quick spot to get full.",
       "id": "gad-restaurant",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kahire/gad.jpg",
+      "source": "firebase"
     },
     {
       "name": "Gaper-Anderson Museum",
@@ -2456,7 +2468,9 @@
       "tips": "Ciğerli sandviç meşhurdur.",
       "tips_en": "Liver sandwich is famous.",
       "id": "kazaz-restaurant",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kahire/kazaz.jpg",
+      "source": "firebase"
     },
     {
       "name": "Khan el-Khalili",
@@ -4113,7 +4127,9 @@
       "tips": "Türkçe anlatım seçeneği olabilir.",
       "tips_en": "May have Turkish narration option.",
       "id": "giza-sound-and-light-show",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kahire/sound_and_light_show_giza.jpg",
+      "source": "firebase"
     },
     {
       "name": "Souq al-Gomaa",

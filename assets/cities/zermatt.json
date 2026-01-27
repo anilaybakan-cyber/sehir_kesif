@@ -53,7 +53,7 @@
       "tips": "Fluhalp'ta öğle yemeği molası verin.",
       "tips_en": "Stop at Fluhalp for lunch.",
       "id": "5-seenweg-beş-gol-yuruyuşu",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/zermatt/5-seenweg-beş-gol-yuruyuşu.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/zermatt/5_seenweg_bes_gol_yuruyusu.jpg",
       "source": "firebase",
       "distanceFromCenter": 1.0
     },
@@ -195,7 +195,9 @@
       "tips": "Yüksek dağ turları için önceden plan yapın.",
       "tips_en": "Plan ahead for high mountain tours.",
       "id": "alpine-center",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/zermatt/alpine_center_zermatt.jpg",
+      "source": "firebase"
     },
     {
       "name": "Backstage Hotel Vernissage",
@@ -455,7 +457,9 @@
       "tips": "Rehber eşliğinde tırmanılması önerilir.",
       "tips_en": "Climbing with a guide is recommended.",
       "id": "breithorn",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/zermatt/breithorn.jpg",
+      "source": "firebase"
     },
     {
       "name": "Broken Bar",
@@ -518,7 +522,7 @@
       "rating": 4.5,
       "description": "Köprü yanında manzaralı kahve molası. Günün yorgunluğunu atmak ve lezzetli bir kahve eşliğinde dinlenmek için en doğru adreslerden biri. Mekanın sıcak ambiyansı ve sunduğu tatlı sürprizler, molanızı keyfe dönüştürecek.",
       "description_en": "Coffee break with view by the bridge. One of the right addresses to relieve the tiredness of the day and relax with a delicious coffee. The warm ambiance of the venue and the sweet surprises it offers will turn your break into pleasure.",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/zermatt/café_du_pont.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/zermatt/cafe_du_pont.jpg",
       "price": "medium",
       "distanceFromCenter": 1.0,
       "bestTime": "09:00 - 18:00",
@@ -729,7 +733,7 @@
       "rating": 4.6,
       "description": "El yapımı İsviçre çikolataları. Bölgeye özgü ürünleri keşfetmek ve sevdiklerinize hediyeler almak için uğramanız gereken bir yer. Renkli dükkanlar ve canlı atmosfer, alışveriş deneyiminizi çok daha keyifli hale getirecek.",
       "description_en": "Handmade Swiss chocolates. A place you must stop by to discover region-specific products and buy gifts for your loved ones. Colorful shops and a lively atmosphere will make your shopping experience much more enjoyable.",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/zermatt/chocolate_shop_hörnli.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/zermatt/chocolate_shop_hornli.jpg",
       "price": "medium",
       "distanceFromCenter": 1.0,
       "bestTime": "09:00 - 18:00",
@@ -1458,7 +1462,9 @@
       "tips": "Biyologlar ve doğa severler için cennet.",
       "tips_en": "Paradise for biologists and nature lovers.",
       "id": "grindjisee",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/zermatt/grindjisee.jpg",
+      "source": "firebase"
     },
     {
       "name": "Grünsee",
@@ -1742,7 +1748,9 @@
       "tips": "Freeride kayak için idealdir.",
       "tips_en": "Ideal for freeride skiing.",
       "id": "hohtalli",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/zermatt/hohtalli.jpg",
+      "source": "firebase"
     },
     {
       "name": "Horu Trophy Curling",
@@ -1764,7 +1772,9 @@
       "tips": "Curling dersi alabilirsiniz.",
       "tips_en": "You can take curling lesson.",
       "id": "curling",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/zermatt/horu_trophy_curling.jpg",
+      "source": "firebase"
     },
     {
       "name": "Hotel Bahnhof",
@@ -2074,7 +2084,9 @@
       "tips": "Arkadaşlarla sohbet için uygundur.",
       "tips_en": "Suitable for chat with friends.",
       "id": "kushion",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/zermatt/kushion.jpg",
+      "source": "firebase"
     },
     {
       "name": "Leisee",
@@ -2533,7 +2545,8 @@
       "tips": "Gornergrat'tan buzul geçişi ile ulaşılır, rehber şart.",
       "tips_en": "Reached from Gornergrat via glacier crossing, guide required.",
       "id": "monte-rosa-hut",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/zermatt/monte_rosa_hutte_hut.jpg"
     },
     {
       "name": "Moosjisee",
@@ -3007,7 +3020,9 @@
       "tips": "Tripodunuzu yanınıza alın.",
       "tips_en": "Take your tripod with you.",
       "id": "riedweg-viewpoint",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/zermatt/riedweg.jpg",
+      "source": "firebase"
     },
     {
       "name": "Riffelalp Cinema",
@@ -3195,7 +3210,9 @@
       "tips": "Sıcak yaz günlerinde serinlemek için ideal.",
       "tips_en": "Ideal to cool off on hot summer days.",
       "id": "schalisee",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/zermatt/schalisee.jpg",
+      "source": "firebase"
     },
     {
       "name": "Schwarzsee",
@@ -3641,7 +3658,7 @@
       "rating": 4.5,
       "description": "Lüks İsviçre saatleri. Bölgeye özgü ürünleri keşfetmek ve sevdiklerinize hediyeler almak için uğramanız gereken bir yer. Renkli dükkanlar ve canlı atmosfer, alışveriş deneyiminizi çok daha keyifli hale getirecek.",
       "description_en": "Luxury Swiss watches. A place you must stop by to discover region-specific products and buy gifts for your loved ones. Colorful shops and a lively atmosphere will make your shopping experience much more enjoyable.",
-      "imageUrl": "https://images.unsplash.com/photo-1543783232-af412b852fc7?w=800",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/zermatt/swiss_watch_boutique.jpg",
       "price": "medium",
       "distanceFromCenter": 1.0,
       "bestTime": "09:00 - 18:00",
@@ -4078,7 +4095,9 @@
       "tips": "Bölgenin ruhunu hissetmek için ideal.",
       "tips_en": "Ideal to feel spirit of region.",
       "id": "old-house",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/zermatt/z_alt_hischi.jpg",
+      "source": "firebase"
     },
     {
       "name": "Zermatt Matterhorn Viewpoint",
@@ -4146,7 +4165,7 @@
       "tips": "Kiralama için önceden rezervasyon.",
       "tips_en": "Book rental in advance.",
       "id": "zermatt-spor-dukkanları",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/zermatt/zermatt-spor-dukkanları.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/zermatt/zermatt_spor_dukkanlari.jpg",
       "source": "firebase",
       "distanceFromCenter": 1.0
     },
@@ -4315,6 +4334,25 @@
       "tips": "Akşam yemeği için rezervasyon yaptırmak şart.",
       "tips_en": "Reservation is a must for dinner.",
       "source": "firebase"
+    },
+    {
+      "name": "Gornergrat Platform",
+      "name_en": "Gornergrat Platform",
+      "area": "Summit",
+      "category": "Manzara",
+      "tags": [
+        "dağ",
+        "buzul",
+        "matterhorn"
+      ],
+      "lat": 45.983,
+      "lng": 7.785,
+      "rating": 4.9,
+      "description": "Matterhorn ve 29 alp zirvesinin nefes kesici panoramik manzarasını sunan yüksek rakımlı gözlem noktası.",
+      "description_en": "High-altitude observation point offering breathtaking panoramic views of the Matterhorn and 29 alpine peaks.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/zermatt/gornergrat_platform.jpg",
+      "source": "firebase"
     }
-  ]
+  ],
+  "heroImage": "https://holidaystoswitzerland.com/wp-content/uploads/2020/07/Zermatt-and-the-Matterhorn-at-dawn.jpg"
 }

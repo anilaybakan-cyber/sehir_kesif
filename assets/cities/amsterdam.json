@@ -5145,6 +5145,201 @@
       "distanceFromCenter": 1.5,
       "tips": "Öğle yemeği menüleri genellikle akşamdan daha uygundur.",
       "tips_en": "Lunch menus are usually cheaper than dinner."
+    },
+    {
+      "name": "Dam Meydanı",
+      "name_en": "Dam Square",
+      "area": "Center",
+      "category": "İkonik",
+      "tags": [
+        "square",
+        "history",
+        "center"
+      ],
+      "lat": 52.3731,
+      "lng": 4.8926,
+      "description": "Amsterdam'ın kalbi ve en önemli meydanı. Kraliyet Sarayı ve Ulusal Anıt burada bulunur.",
+      "description_en": "The historical heart of Amsterdam, home to the Royal Palace and the National Monument.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/amsterdam/dam.jpg",
+      "rating": 4.7,
+      "price": "free"
+    },
+    {
+      "name": "Museumplein",
+      "name_en": "Museumplein",
+      "area": "South",
+      "category": "Kültür",
+      "tags": [
+        "museums",
+        "park",
+        "art"
+      ],
+      "lat": 52.3582,
+      "lng": 4.8833,
+      "description": "Rijksmuseum, Van Gogh ve Stedelijk müzelerinin çevrelediği, Amsterdam'ın en büyük ve en sanatsal meydanı.",
+      "description_en": "Amsterdam's grand cultural hub, surrounded by world-class museums like the Rijksmuseum and Van Gogh Museum.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/amsterdam/museumplein.jpg",
+      "rating": 4.8,
+      "price": "free"
+    },
+    {
+      "name": "Prinsengracht",
+      "name_en": "Prinsengracht",
+      "area": "Canal Belt",
+      "category": "İkonik",
+      "tags": [
+        "canal",
+        "walk",
+        "historic"
+      ],
+      "lat": 52.3703,
+      "lng": 4.8837,
+      "description": "Amsterdam'ın en ünlü ve en uzun ana kanalı. Kıyı boyunca uzanan tarihi evlerle şehrin ruhunu yansıtır.",
+      "description_en": "The longest and most famous of Amsterdam's main canals, lined with historic Dutch architecture.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/amsterdam/prinsengracht.jpg",
+      "rating": 4.8,
+      "price": "free"
+    },
+    {
+      "name": "Concertgebouw",
+      "name_en": "Royal Concertgebouw",
+      "area": "Museum Quarter",
+      "category": "Müzik",
+      "tags": [
+        "konser",
+        "mimari",
+        "klasik"
+      ],
+      "lat": 52.3563,
+      "lng": 4.8791,
+      "rating": 4.9,
+      "description": "Dünyanın en iyi akustiğine sahip konser salonlarından biri, görkemli bir mimari yapı.",
+      "description_en": "One of the world's finest concert halls for acoustics, a magnificent architectural building.",
+      "imageUrl": "https://images.unsplash.com/photo-1549918837-33561a05232a?w=800"
+    },
+    {
+      "name": "Sarphatipark",
+      "name_en": "Sarphatipark",
+      "area": "De Pijp",
+      "category": "Park",
+      "tags": [
+        "yeşil",
+        "lokal",
+        "huzur"
+      ],
+      "lat": 52.3545,
+      "lng": 4.8965,
+      "rating": 4.6,
+      "description": "De Pijp semtinde, yerlilerin güneşli günlerde buluştuğu şirin ve yeşil vaha.",
+      "description_en": "A charming green oasis in De Pijp where locals gather on sunny days.",
+      "imageUrl": "https://images.unsplash.com/photo-1549918837-33561a05232a?w=800"
+    },
+    {
+      "name": "Gerard Douplein",
+      "name_en": "Gerard Douplein",
+      "area": "De Pijp",
+      "category": "Meydan",
+      "tags": [
+        "bar",
+        "kafe",
+        "canlı"
+      ],
+      "lat": 52.3555,
+      "lng": 4.892,
+      "rating": 4.7,
+      "description": "De Pijp'in en canlı meydanı, çevresindeki onlarca popüler bar ve kafeyle akşamları çok hareketli.",
+      "description_en": "The liveliest square in De Pijp, very busy in the evenings with dozens of popular bars and cafes.",
+      "imageUrl": "https://images.unsplash.com/photo-1549918837-33561a05232a?w=800"
+    },
+    {
+      "name": "Straat Museum",
+      "name_en": "STRAAT Museum",
+      "area": "Noord",
+      "category": "Müze",
+      "tags": [
+        "graffiti",
+        "modern",
+        "noord"
+      ],
+      "lat": 52.401,
+      "lng": 4.8935,
+      "rating": 4.8,
+      "description": "Eski bir tersanede yer alan, dünyanın en büyük graffiti ve sokak sanatı müzesi.",
+      "description_en": "The world's largest street art and graffiti museum, located in an old shipyard.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/amsterdam/straat_museum.jpg",
+      "source": "firebase"
+    },
+    {
+      "name": "Pllek",
+      "name_en": "Pllek",
+      "area": "Noord",
+      "category": "Yeme-İçme",
+      "tags": [
+        "plaj",
+        "konteyner",
+        "manzara"
+      ],
+      "lat": 41.018,
+      "lng": 29.007,
+      "rating": 4.6,
+      "description": "Eski konteynerlerden inşa edilmiş, IJ nehri kıyısında plaj havasında bir restoran ve bar.",
+      "description_en": "A restaurant and bar built from old shipping containers with a beach vibe on the banks of the IJ river.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/amsterdam/pllek.jpg",
+      "source": "firebase"
+    },
+    {
+      "name": "IJ Ferry Cruise",
+      "name_en": "IJ Ferry",
+      "area": "Centraal Station",
+      "category": "Ulaşım",
+      "tags": [
+        "tekne",
+        "bedava",
+        "nehir"
+      ],
+      "lat": 52.379,
+      "lng": 4.9,
+      "rating": 4.8,
+      "description": "Amsterdam'ın kuzeyi ile merkezini birleştiren, IJ nehri üzerinde ücretsiz vapur keyfi.",
+      "description_en": "Free ferry ride across the IJ river, connecting Amsterdam's north with the center.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/amsterdam/ij_ferry_cruise.jpg",
+      "source": "firebase"
+    },
+    {
+      "name": "Newmarkt",
+      "name_en": "Nieuwmarkt",
+      "area": "Center",
+      "category": "Meydan",
+      "tags": [
+        "tarih",
+        "kale",
+        "pazar"
+      ],
+      "lat": 52.3725,
+      "lng": 4.9005,
+      "rating": 4.5,
+      "description": "Merkezde yer alan tarihi Waag binasının bulunduğu, pazarlar ve canlı cafelerle çevrili meydan.",
+      "description_en": "Historic square featuring the Waag building, surrounded by markets and lively cafes.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/amsterdam/newmarkt.jpg",
+      "source": "firebase"
+    },
+    {
+      "name": "Coffee & Coconuts",
+      "name_en": "Coffee & Coconuts",
+      "area": "De Pijp",
+      "category": "Kafe",
+      "tags": [
+        "tropikal",
+        "büyük",
+        "brunch"
+      ],
+      "lat": 52.3533,
+      "lng": 4.8912,
+      "rating": 4.7,
+      "description": "Eski bir sinemada kurulmuş, tropikal havası ve geniş alanıyla Amsterdam'ın en ikonik kafelerinden.",
+      "description_en": "Housed in an old cinema, one of Amsterdam's most iconic cafes with its tropical vibe and spacious interior.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/amsterdam/coffee_coconuts.jpg",
+      "source": "firebase"
     }
   ]
 }

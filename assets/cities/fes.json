@@ -470,11 +470,12 @@
       "rating": 4.0,
       "description": "Medinanın batısındaki tarihi kapı, Karaouine Camii'ne yakın stratejik giriş. Yaya trafiği ve eski şehir yaşamı.",
       "description_en": "Historic gate west of medina, strategic entry near Karaouine Mosque. Pedestrian traffic and old city life.",
-      "imageUrl": "",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/bab_jiaf.jpg",
       "price": "free",
       "tips": "Biraz harap durumdadır ama atmosferiktir.",
       "tips_en": "A bit in ruins but atmospheric.",
-      "subcategory": "Kapı"
+      "subcategory": "Kapı",
+      "source": "firebase"
     },
     {
       "id": "bab-khoukha",
@@ -2630,11 +2631,12 @@
       "rating": 4.1,
       "description": "Place Baghdadi, Fes'in bin yıllık tarihinin izlerini taşıyan, keşfedilmeyi bekleyen bir detaydır. Dar sokakların arasında karşınıza çıkan bu nokta, şehrin mistik ve egzotik havasını solumanız için size bir pencere açar.",
       "description_en": "Place Baghdadi is a detail waiting to be discovered, bearing traces of Fes's thousand-year history. This spot, appearing among narrow streets, opens a window for you to breathe in the city's mystical and exotic atmosphere.",
-      "imageUrl": "",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/place_baghdadi.jpg",
       "price": "free",
       "tips": "Bazen sokak sanatçılarına ve festivallere ev sahipliği yapar.",
       "tips_en": "Sometimes hosts street performers and festivals.",
-      "subcategory": "Meydan"
+      "subcategory": "Meydan",
+      "source": "firebase"
     },
     {
       "id": "place-el-hedim",

@@ -218,7 +218,9 @@
       "tips": "Minnewater'dan yürüyerek geçilebilir.",
       "tips_en": "Can be walked from Minnewater.",
       "id": "baron-ruzette-park",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/brugge/baron_ruzettepark.jpg",
+      "source": "firebase"
     },
     {
       "name": "Basilica of the Holy Blood",
@@ -710,7 +712,7 @@
       "tips": "Flat white tavsiye edilir.",
       "tips_en": "Flat white is recommended.",
       "id": "cafuné-specialty-coffee",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/brugge/cafuné-specialty-coffee.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/brugge/cafune_specialty_coffee.jpg",
       "source": "firebase",
       "distanceFromCenter": 0.5
     },
@@ -1746,7 +1748,9 @@
       "tips": "Fotoğraf için çok uygundur.",
       "tips_en": "Very suitable for photography.",
       "id": "st-joseph-almshouse",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/brugge/godshuis_st_jozef.jpg",
+      "source": "firebase"
     },
     {
       "name": "Godshuis Van Campen",
@@ -1792,7 +1796,9 @@
       "tips": "Gün batımında ışık çok güzeldir.",
       "tips_en": "Light is very nice at sunset.",
       "id": "vette-vispoort-almshouse",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/brugge/godshuis_vette_vispoort.jpg",
+      "source": "firebase"
     },
     {
       "name": "Godshuizen",
@@ -2142,7 +2148,9 @@
       "tips": "Şehrin içinde köy havası yaşatır.",
       "tips_en": "Gives village vibe inside the city.",
       "id": "hof-de-jonghe",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/brugge/hof_de_jonghe.jpg",
+      "source": "firebase"
     },
     {
       "name": "Hof van Watervliet",
@@ -2257,7 +2265,9 @@
       "tips": "Fotoğraf için ışık sabah daha iyidir.",
       "tips_en": "Light is better in morning for photography.",
       "id": "huis-de-crombrugghe",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/brugge/huis_de_crombrugghe.jpg",
+      "source": "firebase"
     },
     {
       "name": "Jan van Eyckplein",
@@ -2682,7 +2692,9 @@
       "tips": "Sadece dışarıdan görülebilir.",
       "tips_en": "Can only be seen from outside.",
       "id": "masonic-lodge",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/brugge/loge_van_de_vrijmetselarij.jpg",
+      "source": "firebase"
     },
     {
       "name": "Lumina Domestica",
@@ -4135,7 +4147,7 @@
       "tips": "Merkez dışındadır ama gitmeye değer.",
       "tips_en": "Outside center but worth going.",
       "id": "tête-pressée",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/brugge/tête-pressée.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/brugge/tte_pressee.jpg",
       "source": "firebase",
       "distanceFromCenter": 0.5
     },
@@ -4398,5 +4410,6 @@
       "source": "firebase",
       "distanceFromCenter": 0.5
     }
-  ]
+  ],
+  "heroImage": "https://gezimanya.com/sites/default/files/styles/800x600_/public/lokasyon-detay/2021-08/brugge-hakkinda-bilinmesi-gerekenler.jpg"
 }

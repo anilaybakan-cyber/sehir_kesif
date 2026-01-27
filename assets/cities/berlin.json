@@ -3347,11 +3347,12 @@
       "rating": 4.7,
       "description": "Dünyanın en büyük monte edilmiş dinozor iskeletine (Giraffatitan) ev sahipliği yapan, doğa ve bilim meraklıları için büyüleyici bir müze.",
       "description_en": "A fascinating museum for nature and science enthusiasts, home to the world's largest mounted dinosaur skeleton (Giraffatitan).",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/berlin/museum_für_naturkunde.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/berlin/museum_fur_naturkunde.jpg",
       "bestTime": "Hafta içi",
       "bestTime_en": "Weekday",
       "tips": "Sesli rehber (audio guide) kiralamak deneyimi ikiye katlar.",
-      "tips_en": "Renting an audio guide doubles the experience."
+      "tips_en": "Renting an audio guide doubles the experience.",
+      "source": "firebase"
     },
     {
       "name": "Mustafa's Gemüse Kebap",
@@ -5289,6 +5290,251 @@
       "distanceFromCenter": 1.5,
       "tips": "Öğle yemeği menüleri genellikle akşamdan daha uygundur.",
       "tips_en": "Lunch menus are usually cheaper than dinner."
+    },
+    {
+      "name": "James Simon Galeri",
+      "name_en": "James Simon Gallery",
+      "area": "Mitte",
+      "category": "Mimari",
+      "tags": [
+        "museum",
+        "modern",
+        "entrance"
+      ],
+      "lat": 52.5201,
+      "lng": 13.3978,
+      "description": "Müzeler Adası'nın modern giriş binası. David Chipperfield imzalı, ikonik sütunlarıyla dikkat çeken mimari şaheser.",
+      "description_en": "The modern entrance building to Museum Island, designed by David Chipperfield, known for its iconic colonnades.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/berlin/james_simon.jpg",
+      "rating": 4.5,
+      "price": "free"
+    },
+    {
+      "name": "Tresor",
+      "name_en": "Tresor",
+      "area": "Mitte",
+      "category": "Gece Hayatı",
+      "tags": [
+        "techno",
+        "club",
+        "industrial"
+      ],
+      "lat": 52.5106,
+      "lng": 13.4194,
+      "description": "Berlin techno sahnesinin en köklü kulübü. Eski bir termik santralin devasa endüstriyel atmosferinde eşsiz bir müzik deneyimi.",
+      "description_en": "A legendary cornerstone of the Berlin techno scene, located in a massive decommissioned power plant.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/berlin/tresor.jpg",
+      "rating": 4.4,
+      "price": "high"
+    },
+    {
+      "name": "Altes Museum",
+      "name_en": "Old Museum",
+      "area": "Mitte",
+      "category": "Müze",
+      "tags": [
+        "history",
+        "museum island",
+        "neoclassical"
+      ],
+      "lat": 52.5194,
+      "lng": 13.3989,
+      "description": "Prusya'nın ilk halka açık müzesi. Klasik Yunan ve Roma sanat koleksiyonlarıyla ünlü bir mimari şaheser.",
+      "description_en": "Berlin's first public museum, housing a world-class collection of Greek and Roman antiquities on Museum Island.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/berlin/altes_museum.jpg",
+      "rating": 4.7,
+      "price": "medium"
+    },
+    {
+      "name": "Victoriapark",
+      "name_en": "Victoriapark",
+      "area": "Kreuzberg",
+      "category": "Park",
+      "tags": [
+        "manzara",
+        "şelale",
+        "yeşil"
+      ],
+      "lat": 52.4878,
+      "lng": 13.3792,
+      "rating": 4.7,
+      "description": "Kreuzberg tepesinde, yapay şelalesi ve Berlin manzarasıyla ünlü huzurlu bir park.",
+      "description_en": "A peaceful park atop Kreuzberg hill, famous for its artificial waterfall and Berlin views.",
+      "imageUrl": "https://images.unsplash.com/photo-1549918837-33561a05232a?w=800"
+    },
+    {
+      "name": "Görlitzer Park",
+      "name_en": "Görlitzer Park",
+      "area": "Kreuzberg",
+      "category": "Park",
+      "tags": [
+        "sosyal",
+        "özgür",
+        "yeşil"
+      ],
+      "lat": 52.4967,
+      "lng": 13.4388,
+      "rating": 4.1,
+      "description": "Kreuzberg'in sosyal kalbi, Berlin'in en dinamik ve sıra dışı atmosferine sahip parkı.",
+      "description_en": "The social heart of Kreuzberg, the park with Berlin's most dynamic and unconventional atmosphere.",
+      "imageUrl": "https://images.unsplash.com/photo-1549918837-33561a05232a?w=800"
+    },
+    {
+      "name": "Konnopke's Imbiss",
+      "name_en": "Konnopke's Imbiss",
+      "area": "Prenzlauer Berg",
+      "category": "Yeme-İçme",
+      "tags": [
+        "currywurst",
+        "lokal",
+        "tarihi"
+      ],
+      "lat": 52.5398,
+      "lng": 13.4124,
+      "rating": 4.5,
+      "description": "1930'dan beri Berlin'in en iyi Currywurst'ünü yapan efsanevi büfe.",
+      "description_en": "Legendary stand serving Berlin's best Currywurst since 1930.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/berlin/konnopkes_imbiss.jpg",
+      "source": "firebase"
+    },
+    {
+      "name": "Risa Chicken",
+      "name_en": "Risa Chicken",
+      "area": "Neukölln",
+      "category": "Yeme-İçme",
+      "tags": [
+        "tavuk",
+        "lokal",
+        "hızlı"
+      ],
+      "lat": 52.482,
+      "lng": 13.435,
+      "rating": 4.4,
+      "description": "Berlinlilerin favori közde tavukçusu, Neukölln'ün simgesi haline gelmiş mekan.",
+      "description_en": "Berliners' favorite charcoal-grilled chicken spot, an icon of Neukölln.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/berlin/risa_chicken.jpg",
+      "source": "firebase"
+    },
+    {
+      "name": "Kater Blau",
+      "name_en": "Kater Blau",
+      "area": "Friedrichshain",
+      "category": "Gece Hayatı",
+      "tags": [
+        "klüp",
+        "nehir kenarı",
+        "tekno"
+      ],
+      "lat": 52.511,
+      "lng": 13.4285,
+      "rating": 4.3,
+      "description": "Spree nehri kıyısında, efsanevi Bar25'in mirasını sürdüren renkli tekno klüp.",
+      "description_en": "A colorful techno club on the banks of the Spree river, carrying the legacy of Bar25.",
+      "imageUrl": "https://images.unsplash.com/photo-1594132483833-2ba37a1a4f00?w=800"
+    },
+    {
+      "name": "Wilden Renate",
+      "name_en": "Salon Zur Wilden Renate",
+      "area": "Friedrichshain",
+      "category": "Gece Hayatı",
+      "tags": [
+        "labirent",
+        "surreal",
+        "klüp"
+      ],
+      "lat": 52.503,
+      "lng": 13.468,
+      "rating": 4.4,
+      "description": "Eski bir apartmanda yer alan, labirent gibi odalarıyla gerçeküstü bir parti deneyimi sunan klüp.",
+      "description_en": "A club in an old apartment building offering a surreal party experience with labyrinth-like rooms.",
+      "imageUrl": "https://images.unsplash.com/photo-1594132483833-2ba37a1a4f00?w=800"
+    },
+    {
+      "name": "Hasenheide",
+      "name_en": "Volkspark Hasenheide",
+      "area": "Neukölln",
+      "category": "Park",
+      "tags": [
+        "yeşil",
+        "açık hava",
+        "rahat"
+      ],
+      "lat": 52.483,
+      "lng": 13.415,
+      "rating": 4.3,
+      "description": "Neukölln ve Kreuzberg arasında yer alan, geniş çimleri ve özgür ruhuyla bilinen park.",
+      "description_en": "A park between Neukölln and Kreuzberg known for its wide lawns and free spirit.",
+      "imageUrl": "https://images.unsplash.com/photo-1549918837-33561a05232a?w=800"
+    },
+    {
+      "name": "Bergmannkiez",
+      "name_en": "Bergmannkiez",
+      "area": "Kreuzberg",
+      "category": "Bölge",
+      "tags": [
+        "kafe",
+        "vintage",
+        "mimari"
+      ],
+      "lat": 52.4895,
+      "lng": 13.3888,
+      "rating": 4.8,
+      "description": "Berlin'in en güzel mahallelerinden biri; şık kafeler, tasarım dükkanları ve tarihi binalar.",
+      "description_en": "One of Berlin's most beautiful neighborhoods; chic cafes, design shops, and historic buildings.",
+      "imageUrl": "https://images.unsplash.com/photo-1550133730-6924840e6c53?w=800"
+    },
+    {
+      "name": "Haus Schwarzenberg",
+      "name_en": "Haus Schwarzenberg",
+      "area": "Mitte",
+      "category": "Sanat",
+      "tags": [
+        "street art",
+        "alternatif",
+        "avlu"
+      ],
+      "lat": 52.5245,
+      "lng": 13.4022,
+      "rating": 4.7,
+      "description": "Mitte'nin ortasında kalmış, her yerinde grafitiler olan gizli ve alternatif bir sanat avlusu.",
+      "description_en": "A hidden alternative art courtyard in the middle of Mitte, covered in street art.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/berlin/haus_schwarzenberg.jpg",
+      "source": "firebase"
+    },
+    {
+      "name": "New Synagogue",
+      "name_en": "New Synagogue Berlin",
+      "area": "Mitte",
+      "category": "Tarihi",
+      "tags": [
+        "altın kubbe",
+        "yahudi",
+        "mimari"
+      ],
+      "lat": 52.5255,
+      "lng": 13.3945,
+      "rating": 4.6,
+      "description": "Berlin'in en görkemli dini yapılarından biri, parlayan altın kubbesiyle ünlü.",
+      "description_en": "One of Berlin's most magnificent religious buildings, famous for its shining golden dome.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/berlin/new_synagogue.jpg",
+      "source": "firebase"
+    },
+    {
+      "name": "Bernauer Strasse",
+      "name_en": "Memorial to the Berlin Wall",
+      "area": "Mitte",
+      "category": "Tarihi",
+      "tags": [
+        "duvar",
+        "tarih",
+        "anı"
+      ],
+      "lat": 52.535,
+      "lng": 13.391,
+      "rating": 4.9,
+      "description": "Berlin Duvarı kalıntılarının ve hikayesinin en iyi korunduğu açık hava anıt alanı.",
+      "description_en": "An open-air memorial site where the remains and the story of the Berlin Wall are best preserved.",
+      "imageUrl": "https://images.unsplash.com/photo-1550114680-980caaff582a?w=800"
     }
   ]
 }

@@ -461,13 +461,14 @@
       "rating": 4.4,
       "description": "Merkezi meydanda tarihi kahve molası. Günün yorgunluğunu atmak ve lezzetli bir kahve eşliğinde dinlenmek için en doğru adreslerden biri. Mekanın sıcak ambiyansı ve sunduğu tatlı sürprizler, molanızı keyfe dönüştürecek.",
       "description_en": "Historic coffee break in central square. One of the right addresses to relieve the tiredness of the day and relax with a delicious coffee. The warm ambiance of the venue and the sweet surprises it offers will turn your break into pleasure.",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/matera/caffè_tripoli.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/matera/caff_tripoli.jpg",
       "price": "medium",
       "distanceFromCenter": 1.0,
       "bestTime": "09:00 - 18:00",
       "bestTime_en": "09:00 - 18:00",
       "tips": "Sabah kahvaltısı için erken gitmekte fayda var, taze kruvasanlar bitiyor.",
-      "tips_en": "Go early for breakfast, fresh croissants run out."
+      "tips_en": "Go early for breakfast, fresh croissants run out.",
+      "source": "firebase"
     },
     {
       "name": "Casa Cava",
@@ -976,7 +977,7 @@
       "rating": 4.7,
       "description": "Orecchiette yapımı öğrenin. Sıradan bir gezinin ötesine geçip unutulmaz anılar biriktirmek isteyenler için benzersiz bir fırsat. Bu aktivite, seyahatinize heyecan ve renk katarak size farklı bir perspektif kazandıracak.",
       "description_en": "Learn to make Orecchiette. A unique opportunity for those who want to go beyond an ordinary trip and collect unforgettable memories. This activity will add excitement and color to your travel, giving you a different perspective.",
-      "imageUrl": "https://images.unsplash.com/photo-1543783232-af412b852fc7?w=800",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/matera/cooking_class.jpg",
       "price": "medium",
       "distanceFromCenter": 1.0,
       "bestTime": "09:00 - 18:00",
@@ -1052,7 +1053,7 @@
       "tips": "Makarna satın da alabilirsiniz.",
       "tips_en": "You can also buy pasta.",
       "id": "da-nicolò",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/matera/da-nicolò.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/matera/da_nicolo.jpg",
       "source": "firebase",
       "distanceFromCenter": 0.5
     },
@@ -1381,13 +1382,14 @@
       "rating": 4.7,
       "description": "Şehrin hemen yanındaki dramatik kanyon. Doğayla iç içe, huzur dolu anlar yaşamak isteyenler için mükemmel bir kaçış noktası. Şehrin gürültüsünden uzaklaşıp nefes almak ve harika fotoğraflar çekmek için birebir.",
       "description_en": "Dramatic canyon right next to the city. A perfect getaway for those who want to experience peaceful moments in nature. Ideal for getting away from the city noise, taking a breath, and capturing great photos.",
-      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AZLasHpVO75YVyWchPE23bKnCAhzpBt_rsmxQEBcCQeCSFG3x3qcaMdvEK2IT4QgsFZlbBsTVxtC6VnD8c6Zhz2w7SoOIJRPUQ1HEv-Sl3FwM91ArIG7ycSJYLLKGd9HkGcU_dIED7oopZ72yE4ESww7h0akyJB9J6t-CJO0WHi-XUcgIwFOgIVpfr7DGke04g_MsJNVDYy7srisu0mJdOQv8-NlI1krQiPTwbKsvHyGbmk8NvNvxOhhJrRtgLiv6AiCbwMJ0umzdeRBF_IAqRakOJbcB1MNhlVAH1KpqOmA_RQpNWMDddkjr-NpYIxmH9xYtkFhbOcVsaHw6Fqej0wglgi2dfUDBLSOEJH9-jnm-rFq3ukBZOJ_OZZO5_5Z6S1Sq15B5KB8KOSrHTEODP4vBRF3okA0Vu_ZUyn3N31E6Ou-eah9fKYDlRmABlWHUX3EuUehqkUosuHYoep8LRRTPDehLOD2thrHnJ4tR4EmRMEWw85nQqK160YksZZpdFFtBXyTQsrBQVa7hx1G0sk3sKWQoN_8ZpwBcLjKZjpzooos1xVLUTalPh0Tc3ZWMvC4RS4r5X0avK4uub0jVf83ksSpF4f36Q&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/matera/gravina_di_matera.jpg",
       "price": "medium",
       "distanceFromCenter": 1.0,
       "bestTime": "09:00 - 18:00",
       "bestTime_en": "09:00 - 18:00",
       "tips": "Sabah koşusu veya yoga yapan yerlileri görebilirsiniz.",
-      "tips_en": "You can see locals jogging or doing yoga in the morning."
+      "tips_en": "You can see locals jogging or doing yoga in the morning.",
+      "source": "firebase"
     },
     {
       "name": "Grotta Palazzese",
@@ -1481,7 +1483,9 @@
       "tips": "Mojito'su meşhurdur.",
       "tips_en": "Famous for its Mojito.",
       "id": "hemingway-bistrot",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/matera/hemingway_bistrot.jpg",
+      "source": "firebase"
     },
     {
       "name": "Il Forno di Gennaro",
@@ -1544,13 +1548,14 @@
       "rating": 4.5,
       "description": "No Time to Die film çekim lokasyonları turu. Sıradan bir gezinin ötesine geçip unutulmaz anılar biriktirmek isteyenler için benzersiz bir fırsat. Bu aktivite, seyahatinize heyecan ve renk katarak size farklı bir perspektif kazandıracak.",
       "description_en": "No Time to Die filming locations tour. A unique opportunity for those who want to go beyond an ordinary trip and collect unforgettable memories. This activity will add excitement and color to your travel, giving you a different perspective.",
-      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AZLasHpKVOPLoMO8rdJ7mni0t9M_cMYMX1TXSSYdso5zLd1Z9-KgBq2wcpbcyWATe64oLP9yUGkvPk4spUsyRNoxhrxNKNdTsVLNKDbdJwQBuuhBvOw2GMAA-WVXeYoE8nHl7z_Zond9p3EKnq-N3_rLx4nvOG397NAZ36L6D4q3okRyw3H-fYtnvZQ3uiEbV5pSCiTyCB_h1QMQanzix0pnuWrlLwCW6V5C-EfnipH6XSpu0i_vq25U5UMW6m-qUr2E0dW5_xeri6uEfg2nnsRmbKTPEngU7kxi0RZcCvFqFNXh4asnyVw&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/matera/james_bond_set_tour.jpg",
       "price": "medium",
       "distanceFromCenter": 1.0,
       "bestTime": "09:00 - 18:00",
       "bestTime_en": "09:00 - 18:00",
       "tips": "Fotoğraf makinenizin şarjının dolu olduğundan emin olun.",
-      "tips_en": "Make sure your camera battery is full."
+      "tips_en": "Make sure your camera battery is full.",
+      "source": "firebase"
     },
     {
       "name": "Jazzo Gattini",
@@ -1620,7 +1625,7 @@
       "tips": "Hafta sonları çok canlıdır.",
       "tips_en": "Very lively on weekends.",
       "id": "keiv-cafè",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/matera/keiv-cafè.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/matera/keiv_caf.jpg",
       "source": "firebase",
       "distanceFromCenter": 0.5
     },
@@ -1761,7 +1766,7 @@
       "tips": "Hediyelik eşya için orijinaldir.",
       "tips_en": "Original for souvenirs.",
       "id": "laboratorio-della-civiltà-contadina",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/matera/laboratorio-della-civiltà-contadina.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/matera/laboratorio_della_civilt_contadina.jpg",
       "source": "firebase",
       "distanceFromCenter": 0.5
     },
@@ -2132,7 +2137,9 @@
       "tips": "Mimari yapısı sergilerden daha ilginçtir.",
       "tips_en": "Architectural structure is more interesting than exhibits.",
       "id": "territory-museum",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/matera/museo_del_territorio.jpg",
+      "source": "firebase"
     },
     {
       "name": "Museo della Civiltà Contadina",
@@ -2147,13 +2154,14 @@
       "rating": 4.3,
       "description": "Geleneksel köy yaşamı ve tarım aletleri. Sanat ve tarih severlerin mutlaka görmesi gereken bu müze, zengin koleksiyonuyla dikkat çekiyor. Sergilenen eserler, bölgenin kültürel mirasını derinlemesine anlamanızı sağlayacak.",
       "description_en": "Traditional rural life and farming tools. A must-see for art and history lovers, this museum stands out with its rich collection. The exhibited works will allow you to deeply understand the region's cultural heritage.",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/matera/laboratorio-della-civiltà-contadina.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/matera/museo_della_civilt_contadina.jpg",
       "price": "medium",
       "distanceFromCenter": 1.0,
       "bestTime": "09:00 - 18:00",
       "bestTime_en": "09:00 - 18:00",
       "tips": "Çantanızı vestiyere bırakmanız gerekebilir, hazırlıklı olun.",
-      "tips_en": "You might need to leave bags at the cloakroom, be prepared."
+      "tips_en": "You might need to leave bags at the cloakroom, be prepared.",
+      "source": "firebase"
     },
     {
       "name": "Nadi",
@@ -2175,7 +2183,9 @@
       "tips": "Çorbaları (Crapiata) meşhurdur.",
       "tips_en": "Soups (Crapiata) are famous.",
       "id": "nadi",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/matera/nadi.jpg",
+      "source": "firebase"
     },
     {
       "name": "Oi Marì",
@@ -2190,13 +2200,14 @@
       "rating": 4.6,
       "description": "Ev yapımı makarna ve terastan manzara. Yerel lezzetlerin tadına varmak ve keyifli bir akşam geçirmek için harika bir seçenek. Samimi atmosferi ve kaliteli hizmetiyle damak zevkinize hitap edecek unutulmaz bir deneyim sunuyor.",
       "description_en": "Homemade pasta and terrace views. A great option to taste local flavors and spend a pleasant evening. It offers an unforgettable experience appealing to your palate with its friendly atmosphere and quality service.",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/matera/oi_marì.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/matera/oi_mar.jpg",
       "price": "medium",
       "distanceFromCenter": 1.0,
       "bestTime": "09:00 - 18:00",
       "bestTime_en": "09:00 - 18:00",
       "tips": "Nakite hazırlıklı olun, bazı yerel yerler kart kabul etmeyebilir.",
-      "tips_en": "Be prepared with cash, some local places might not accept cards."
+      "tips_en": "Be prepared with cash, some local places might not accept cards.",
+      "source": "firebase"
     },
     {
       "name": "Osteria Al Casale",
@@ -2314,7 +2325,9 @@
       "tips": "Gece ışıklandırması güzeldir.",
       "tips_en": "Night lighting is nice.",
       "id": "government-palace",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/matera/palazzo_del_governo.jpg",
+      "source": "firebase"
     },
     {
       "name": "Palombaro Lungo",
@@ -2380,7 +2393,7 @@
       "tips": "Focaccia barese denemeden çıkmayın.",
       "tips_en": "Don't leave without trying Focaccia barese.",
       "id": "panificio-di-gesù",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/matera/panificio-di-gesù.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/matera/panificio_di_ges.jpg",
       "source": "firebase",
       "distanceFromCenter": 0.5
     },
@@ -2476,7 +2489,9 @@
       "tips": "Yaban domuzlarına dikkat edin.",
       "tips_en": "Watch out for wild boars.",
       "id": "parco-dei-monaci",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/matera/parco_dei_monaci.jpg",
+      "source": "firebase"
     },
     {
       "name": "Parco della Murgia Materana",
@@ -2490,13 +2505,14 @@
       "lng": 16.62,
       "rating": 4.8,
       "description": "Kaya kiliseleriyle dolu doğa parkı. A perfect getaway for those who want to experience peaceful moments in nature. Ideal for getting away from the city noise, taking a breath, and capturing great photos.",
-      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AZLasHooD620SecV0kqEIQe6_QxVHfPZQFsKJINepimb2JmXYLqa49STPoA0AsASz79PAgN0aiEJUMXLFgYYgDs-0j6aDxGO212Zh74AT6C1_QGecAkmYTipoCiCplaDXb1g8kxahSQvq1JzUKlVexJcaNQGKeFAzpnerdjwNORB47S3ZbSpIypdVGHccIpUmUOMHMsI1ZzY08HT6bHqkH5oGweujdyCzLW-PRPf6I5ChYdjzzDeJCkQw55emMFx3k3WC4hrEU2QiQ-DLMOHMDf9FyIuAL6MFCjOwPeMGbBw_sFKzmTPq5QGMz8-IFHuTiogSdWg7B4cb8t-8cajhqCnmlUeeP__Uz-MIy9Ypcn5l3r4_lIWN9GlLUw69LnofGvbSfm2brLsMqX_esJSPnPsitSuiRaZYftiM11feHP_3ESUuxfvncRufTcKkOdAYJFD9D_9DIfQX6WkYnJCm5GYyRGQUd4XO-ofrZLoq6jbPF_A5OVbGeh20u8aWKfThqtjym23HitB-IhKzVGxwNereouQNDvLXbVvjwqolHR4OnUKtshteokpDAZCsZ5D_ivkp2plZtLlpeqIIw&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/matera/parco_della_murgia_materana.jpg",
       "price": "medium",
       "bestTime": "09:00 - 18:00",
       "bestTime_en": "09:00 - 18:00",
       "tips": "Yanınıza bir örtü alıp çimlerde piknik yapabilirsiniz.",
       "tips_en": "Bring a blanket and have a picnic on the grass.",
-      "description_en": "Kaya kiliseleriyle dolu doğa parkı. A perfect getaway for those who want to experience peaceful moments in nature. Ideal for getting away from the city noise, taking a breath, and capturing great photos."
+      "description_en": "Kaya kiliseleriyle dolu doğa parkı. A perfect getaway for those who want to experience peaceful moments in nature. Ideal for getting away from the city noise, taking a breath, and capturing great photos.",
+      "source": "firebase"
     },
     {
       "name": "Pasticceria Schiuma",
@@ -2683,7 +2699,9 @@
       "tips": "Kanyona inen patika buradan başlar.",
       "tips_en": "Path going down to canyon starts here.",
       "id": "porta-pistola",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/matera/porta_pistola.jpg",
+      "source": "firebase"
     },
     {
       "name": "Pulo di Altamura",
@@ -2777,7 +2795,9 @@
       "tips": "Ara sokaklara girin, kalabalıktan kaçın.",
       "tips_en": "Enter side streets, avoid crowds.",
       "id": "rione-monti",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/matera/rione_monti.jpg",
+      "source": "firebase"
     },
     {
       "name": "Ristorante Francesca",
@@ -2949,13 +2969,14 @@
       "lng": 16.6043,
       "rating": 4.9,
       "description": "Binlerce yıllık mağara evlerden oluşan tarihi bölge. A unique treasure for history buffs, this venue captivates visitors with details that shed light on the past. An ideal stop for those wishing to embark on a cultural journey.",
-      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AZLasHrSlecw67PTSpAJ4Sc9P8mhz77gN9R_I5gJ8uj2uOLvZgsBFxGKOWjG9bOoUL6bLV4YkfrQwknHjy7q51BxqqI6P0pPVVJlfpyw7OIrSivfZK9brk384vX06-PdNMMqO-8auV0fZNyJPjqAGkc8eltH8FTijMFsfNCdgY5S4Scc0pZDjuOYhmqTanMLVFLMeSPhwiytAPHEvfaGZJBLL9QD3eMMqUJLoTv5Ju9xfVqQTzQLtt2MzQLppLyTEtoPDzVhOo-N8N6Th_nhPP-gLQxUEGIbpAmDa1PhCTEBGaUZKcDEjMaW9oKZ3xVXcVcgH6CvbGBARa_S22gzfp09-KQ_ta66nTUuRsWt6JdyVELzlgKs5dSoCoc9uC_ed8_4hls9UdhyxcIen4Txa4wuyRYedXde6-b4xwi56e_Bs9gn2x-ZpIjTpJ8yXj3v_ujnMa8zy_GBHPhKkmpXo-uJlZlx8ezdQk_Waw1cDnSgR877NRnbEsNYWKXumKSeFiCslen5_b2oX0WKrn3xDGmCL2sdK3C6eeVMmYEBWP4lRHN1TtIEQ78fttbvfAH_lKRTJi3Bywb1&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/matera/sassi_di_matera.jpg",
       "price": "medium",
       "bestTime": "09:00 - 18:00",
       "bestTime_en": "09:00 - 18:00",
       "tips": "Rahat yürüyüş ayakkabıları şart, zemin çok kaygan olabilir. Gün batımında ışıkların yanışını izlemek büyülüdür.",
       "tips_en": "Comfortable walking shoes are a must, the ground can be slippery. Watching the lights turn on at sunset is magical.",
-      "description_en": "Binlerce yıllık mağara evlerden oluşan tarihi bölge. A unique treasure for history buffs, this venue captivates visitors with details that shed light on the past. An ideal stop for those wishing to embark on a cultural journey."
+      "description_en": "Binlerce yıllık mağara evlerden oluşan tarihi bölge. A unique treasure for history buffs, this venue captivates visitors with details that shed light on the past. An ideal stop for those wishing to embark on a cultural journey.",
+      "source": "firebase"
     },
     {
       "name": "Sassi in Miniatura",
@@ -3001,7 +3022,9 @@
       "tips": "Sunumları sanat eseri gibidir.",
       "tips_en": "Presentations are like works of art.",
       "id": "sassula",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/matera/sassula.jpg",
+      "source": "firebase"
     },
     {
       "name": "Sextantio Le Grotte della Civita",
@@ -3181,13 +3204,14 @@
       "rating": 4.3,
       "description": "Yarım kalmış ortaçağ kalesi kalıntıları. Tarih meraklıları için eşsiz bir hazine olan bu mekan, geçmişe ışık tutan detaylarıyla ziyaretçilerini büyülüyor. Kültürel bir yolculuğa çıkmak isteyenler için ideal bir durak.",
       "description_en": "Unfinished medieval castle ruins. A unique treasure for history buffs, this venue captivates visitors with details that shed light on the past. An ideal stop for those wishing to embark on a cultural journey.",
-      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AZLasHqO1U5V0nuzvvQsBIDliTI5Nb8c0URjZp793juu0Jk5zsnHLZXKf937eY0LughReY6tWBkVxxZctT4a_Qk4iMXnPaLM9VcJHlO8wxasBAYdS83Ff8eGdmSR0_IrdfP2RH0pTX4FQVRJHLkbyGaXHHHKlMj0DOyz92n78IFe2w0T2MDKrRHN2gRcVMnwSP172JThCxH1JMtgD4Pa-KZsflqGvj6oGFenibSEJFAJS73mIZe5Tbe_Bl1mJ-td-afA-pc8862KNyEvaSW4rZq6FLwXDcfHlNue-8oKMwcFJPeaoWx94-349FOg1zhciHqIUFMZgQA7B5T4GPAE555eWwPhrVRen9w2jXKUpJ52FX_5uTNv3gBqwMcwaWj6DulAhrUxtoOcsPTgrbHQFg1B3E2bXggm2u50-awB1h6AiYAEXViO7684wopdHNS_0UZRMB4rMZEXDJpaJL9u95-N0DRvwTZ4l-WzgHJS7OrVqvo4ADDMhp8Tg-uylHx9Yq-qVKp1bx7LrDmdCuzTk5R6I-gvwZAgwUFURDtx6hIehCi1mhA5VvhWz9tVva2gWcdTwJZzm3hXl74QCg&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/matera/tramontano_castle.jpg",
       "price": "medium",
       "distanceFromCenter": 1.0,
       "bestTime": "09:00 - 18:00",
       "bestTime_en": "09:00 - 18:00",
       "tips": "Rehberli turla gezmek detayları anlamak için çok daha verimli.",
-      "tips_en": "A guided tour is much more efficient to understand the details."
+      "tips_en": "A guided tour is much more efficient to understand the details.",
+      "source": "firebase"
     },
     {
       "name": "Trattoria Lucana",
@@ -3343,13 +3367,14 @@
       "rating": 4.6,
       "description": "Tarihi sokakta yürüyüş ve fotoğraf noktaları. Şehrin en etkileyici manzaralarından birini sunan bu nokta, fotoğraf tutkunları için adeta bir cennet. Özellikle gün batımında büründüğü renkler, ziyaretçilere görsel bir şölen yaşatıyor.",
       "description_en": "Walk and photo spots on historic street. Offering one of the most impressive views of the city, this spot is a paradise for photography enthusiasts. The colors it takes on, especially at sunset, provide a visual feast for visitors.",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/matera/via_madonna_delle_virtù.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/matera/via_madonna_delle_virt.jpg",
       "price": "medium",
       "distanceFromCenter": 1.0,
       "bestTime": "09:00 - 18:00",
       "bestTime_en": "09:00 - 18:00",
       "tips": "Su ve rahat ayakkabı almayı kesinlikle unutmayın.",
-      "tips_en": "Definitely don't forget water and comfortable shoes."
+      "tips_en": "Definitely don't forget water and comfortable shoes.",
+      "source": "firebase"
     },
     {
       "name": "Via delle Beccherie",
@@ -3395,7 +3420,9 @@
       "tips": "Sesli anlatımı dinleyin.",
       "tips_en": "Listen to audio narration.",
       "id": "vico-solitario-museum",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/matera/vico_solitario.jpg",
+      "source": "firebase"
     },
     {
       "name": "Villaggio Neolitico di Murgia Timone",
@@ -3481,13 +3508,15 @@
       "lng": 16.609,
       "rating": 4.8,
       "description": "Ayaküstü atıştırmak için harika Panzerotti'ler. One of the right addresses to relieve the tiredness of the day and relax with a delicious coffee. The warm ambiance of the venue and the sweet surprises it offers will turn your break into pleasure.",
-      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AZLasHp2FG8Ixk4OnD7Frt0lkVdw8w2GBFBetMb0zT6RNfS9c4fus2CTF3EX5jO1MtsmBxC0PSos-EG7mdwCWYzWADuGU0TKPDRYURevTp30wvXzJ1Hag5hWQ2yjDBussjgFzOXhdvyz1OrfBYduKWj55kxC7gwv3csZR95muiGB5pXWu_wb3RGmyBXuUFz_KGcDGpZwb9Ymp8KmgTegap-uqBuPQ07Hzz3xkiODaxbz9FWjgiNBNdV56WD0YuGisEqGNCUKQLEXfxjCmBI-QyIlrG7L3-jE4kyhMdXk5BtR0Z3M7KGAsYoXZSihsdkaKtYE6rQAXnc0ne2hbF3RAq_qbVVVFVR4jX0sK19rPThbeKeZdNBC-cPFQ4iYHKBIL1QlbbRDUNFckIJ14Pf2vhJc5MrOu6Jeah0aWscvmX3MoGOF1cz1ugG-gzNyPA5A5R0GrlF9grKVuBDkMPMzPc5L9X6DazsT83PGGklOvWRLWHAc3_-Zeic2I0f2ROwQBJFGvZnCyKiWjQEPKw3pFps490UpLopVsiDMDTEYPbUc35pg03LHKO_HIn4aXsAxZnlcRYIqOfL5-l_bisybhDFT1mvEj2DmOg&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/matera/zia_bruna.jpg",
       "price": "medium",
       "bestTime": "09:00 - 18:00",
       "bestTime_en": "09:00 - 18:00",
       "tips": "Dışarıdaki masalarda oturup gelen geçeni izlemek çok keyifli.",
       "tips_en": "Sitting at outdoor tables and people-watching is very pleasant.",
-      "description_en": "Ayaküstü atıştırmak için harika Panzerotti'ler. One of the right addresses to relieve the tiredness of the day and relax with a delicious coffee. The warm ambiance of the venue and the sweet surprises it offers will turn your break into pleasure."
+      "description_en": "Ayaküstü atıştırmak için harika Panzerotti'ler. One of the right addresses to relieve the tiredness of the day and relax with a delicious coffee. The warm ambiance of the venue and the sweet surprises it offers will turn your break into pleasure.",
+      "source": "firebase"
     }
-  ]
+  ],
+  "heroImage": "https://ita.travel/user/blogimg/ostatni/aerial-view_matera_sunset.jpg"
 }

@@ -1289,7 +1289,9 @@
       "tips": "Festival zamanı trafiğe kapatılıp dev bir açık hava restoranına dönüşür.",
       "tips_en": "During the festival, it's closed to traffic and becomes a giant open-air restaurant.",
       "id": "george-street",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/george_street.jpg",
+      "source": "firebase"
     },
     {
       "name": "Gilmerton Cove",
@@ -1308,7 +1310,9 @@
       "tips": "Sadece randevulu turlarla gezilebilir, önceden arayın.",
       "tips_en": "Can only be visited by appointment tours, call ahead.",
       "id": "gilmerton-cove",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/gilmerton_cove.jpg",
+      "source": "firebase"
     },
     {
       "name": "Gladstone's Land",
@@ -1773,7 +1777,9 @@
       "tips": "Yerdeki taşlara kazınmış edebi alıntıları okumayı unutmayın.",
       "tips_en": "Don't forget to read the literary quotes carved into the paving stones.",
       "id": "lady-stairs-close",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/lady_stair_s_close.jpg",
+      "source": "firebase"
     },
     {
       "name": "Lauriston Castle",
@@ -1994,8 +2000,8 @@
       "bestFor": [
         "herkes"
       ],
-      "source": "google",
-      "imageUrl": "https://images.unsplash.com/photo-1552084117-56a987667949?q=80&w=800",
+      "source": "firebase",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/multrees_walk.jpg",
       "tips": "Tax-free formunu istemeyi unutmayın.",
       "description_en": "Multrees Walk is a highlight of Edinburgh in the St Andrew Square area.",
       "tips_en": "Don't forget to ask for the Tax-free form."
@@ -2978,7 +2984,9 @@
       "tips_en": "You can start your hike towards the hills from here.",
       "id": "swanston-village",
       "distanceFromCenter": 0.5,
-      "name_en": "Duddingston Village"
+      "name_en": "Duddingston Village",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/swanston_village.jpg",
+      "source": "firebase"
     },
     {
       "name": "Talbot Rice Gallery",
@@ -3959,7 +3967,9 @@
       "tips": "Özel mülk olduğu için sessiz olmaya özen gösterin.",
       "tips_en": "Be respecting of the silence as it is private property.",
       "id": "white-horse-close",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/white_horse_close.jpg",
+      "source": "firebase"
     },
     {
       "name": "World's End",
@@ -3981,11 +3991,12 @@
       "bestFor": [
         "herkes"
       ],
-      "source": "google",
+      "source": "firebase",
       "heroImage": "https://images.contentstack.io/v3/assets/blt06f605a34f1194ff/blt9d8daa2acc7bb33c/6797dc563b4101992b03092a/iStock-1153650218-MOBILE-HEADER.jpg?fit=crop&disable=upscale&auto=webp&quality=60&crop=smart",
       "tips": "Çevredeki küçük hediyelik eşya dükkanlarına da uğrayın.",
       "description_en": "A friendly, spacious local serving up cask ales and an extensive menu featuring speciality burgers.",
-      "tips_en": "Stop by the small souvenir shops around."
+      "tips_en": "Stop by the small souvenir shops around.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/world_s_end.jpg"
     },
     {
       "name": "İskoçya Ulusal Galerisi",

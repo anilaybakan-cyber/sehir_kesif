@@ -2,7 +2,7 @@
   "city": "Saraybosna",
   "country": "Bosna Hersek",
   "description": "Doğu'nun Batı ile buluştuğu yer. Osmanlı mirası Başçarşı, Avusturya mimarisi, hüzünlü savaş tarihi ve misafirperver halkıyla Balkanların kalbi.",
-  "heroImage": "https://images.themagger.net/wp-content/uploads/2022/12/saraybosna-kapak-633x433.jpg",
+  "heroImage": "https://images.unsplash.com/photo-1596715694269-80838637ba76?w=800",
   "coordinates": {
     "lat": 43.8563,
     "lng": 18.4131
@@ -31,8 +31,8 @@
       "tips": "Özel bir kutlama için (evlilik teklifi vb.) mükemmeldir.",
       "tips_en": "Perfect for a special celebration (proposal etc.).",
       "id": "4-sobe-gospode-safije",
-      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AZLasHoDYZ4EkrVuaheXzgORy0UO0w-OEuxpfBvHyCC8BIjdSH1_Mu4WaJIn8jIyV4enQqnZeO7SkKn6IO26fyVUalMDdjYhH-T8SFYuMGbKouVtnngRaHch0H2QPmz1nNFgYp6153Nly4hxI3S1fRE3750RGt-w4TDRvHUN_uvzMERK9zI12XUcoCDajaOShmbBcF4G1PC9GHFMSA3xi9TwTOoghQbILky1yQhEiaIpMfAFUvSwF_n-iTzqw18QsOQ-Ya2ox_8cEFzGuVGTPONRbZ3kkE3n4Y4u6VPNFAx-67_pjw2RiE8ipBakYZHL2DUv-VQF-dEbtCvW6w7E6cUfZRQ9WnARiQXKERuzvs49Ih-PvXYFnolRmXhNJAIPcUx4N1ZK5-uhEUDyNGd2rI0_nmTtxiERFMvFF8-4hvGJGGNYlo72ZUeyu8UVTxtd95RTAdAE0Rb2A2M2TGZK5T0Lnjr_K9Nf5S4RJJ7yz5LP3g-oXyDvVe4u_IahAzelYr96BeiEDUmupEKODFYMzGAZ5mwjV6DQSNFBc58kt34T-HYfXg83jykrM8ePZ3rq2GLict8x7jafcCZOOsX8QntpXLy9Vptbaw&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
-      "source": "google"
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/saraybosna/4-sobe-gospode-safije.jpg",
+      "source": "firebase"
     },
     {
       "name": "Akademi Güzel Sanatlar",
@@ -161,8 +161,8 @@
       "tips": "Renzo Piano tarafından tasarlanan köprüyü geçerek müzeye ulaşın.",
       "tips_en": "Reach the museum by crossing the bridge designed by Renzo Piano.",
       "id": "ars-aevi",
-      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AZLasHr9c1JBiZe_szkjmQ9Yd1-jsKVoJ-r0Ud8pufuY0sJVlgRWvzFxVT98FaFUOedyhGx9Mlv9_COEK9GbIZaOjT2HY3nCCD9SXGsmMIShtRXBR4_s1y100oPSDCrOtsYz3n0Axdu6v4y7d2JFQgy_NoEc9oA_p0QwkJxOaY29fDnW2BquuIvB2D9ALXug6i6C32weCGKxyGW3INviAmBN4DgnxZAdKw2nz9rHx8h4zMbI8PDNnTqBjs2ODdAuj-nV1hnBpCu0MOc9XTS_ndtOBpOYvOAfTGoaJQ8iBfb4kfDeFW6Cmd-yEGSXRovH6dEgxZ5GUbsxIdD9ussMIFi9unkWS9NkoXOfieH5Rg4cHCVxf6oeTGsNAjDH7p8YSqBeNjYT20uruiJ9Go_k0w406iLBL5eYJ6PYogTatc0X1FdmiQHHqpqyjcQeBJzxfBNny3-s5EeNNNPzAl6XFkSgc2Q_VmIqWxBVy5F2BIiHhq6S_-7Lt0rHkspxUyH5ixMXgtw1rVpCtBryXPL3B-aXLQj34ihik14OxqYBgw3fE1l_HDrVWwvmvW3xV_XoCAZMU1QvMc8t&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
-      "source": "google"
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/saraybosna/ars-aevi.jpg",
+      "source": "firebase"
     },
     {
       "name": "Ars Aevi Köprüsü",
@@ -239,8 +239,8 @@
       "tips": "Ziyaret saatleri kısıtlı olabilir, önceden kontrol edin.",
       "tips_en": "Visiting hours might be limited, check in advance.",
       "id": "ashkenazi-sinagogu",
-      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AZLasHp-CfDHjyE5VJX4MybvHSylhw5nqxYZyP7sjwJn4tIGegNJzA0migEhagYHZk6JqWjqNqpd1OzDk2W5o-uHpP7w2mTWNomsfVmtJ_x5x17uewc6VX5CFd3zVPRBTTJ5C7W7sLP4imuFCD9lw8Z_y2SrMrlNDmOjjHvSjDd7wGgN7JL-_t7GrwVB5bhoNDirYgxhs8TEgXvyoqztftztluohAjMhDim8aUn5710dLDqu7rtRkkZNeb6NlOCu-g_VWMkjmrhre_L-aff2rE23oPqtjiTg_svshlBRVPaBucNlixHChwg&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
-      "source": "google"
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/saraybosna/ashkenazi-sinagogu.jpg",
+      "source": "firebase"
     },
     {
       "name": "At Mejdan Parkı",
@@ -473,8 +473,8 @@
       "tips": "Yanındaki parkta oturup dinlenmek çok huzurludur.",
       "tips_en": "Sitting and resting in the park next to it is very peaceful.",
       "id": "bakr-baba-camii",
-      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AZLasHrEso7ddjBWOlPCIKBjks9axEsKZmvVfYBo04hi1z8f1TLSBfv04PGaQn2G-f62jCLR9Ozku4EkL5rB5TS88zyhlF7O_ytvTKvVJfMYf69VUtWh1j2XfPUgahrX6mynW6uudbhDak3D9R66CSQI-Ge9qZGg6YJ-F9dsgxS9-eaQup4eeDbu-ptdYGmKWTnu-10IvjPEQXuYKkHYzykY2lY2ShtQVbJU8W1gwH_LBPBc_TNaELmJ38F7XsXrrVnjDSdfZ0H9IHdoS5G6yhtPiDjlhFgiZjy0_WKAMzw4HNFwz21Tv00_ORYllZE_NQ0u9yMx3OWlMP3NcWPsG5Am7MzWilt_ktbuAm07iW6fwSvC57ybXtRJBKt7joO-du2vhvc4i1gve0S3uFrb_EA6a7I4m4QadDPvtlhNdEvzWqNJUf2ocw1zYE1cFn7Ww1MtEImKJHMehbNaJomqfODL4z4RyumhzQiMiogpv-b1dbcW3-QzOH9Q-rXhXrFnxCR6zLKKlragUUv4HK4e5DAPT5YacVzxO491czm7DiZ0UeXLVlJuMSQ7To1D7KvQhBanWE28hRY1MjKtbXDGpL54Pq43-HHb0w&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
-      "source": "google"
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/saraybosna/bakr-baba-camii.jpg",
+      "source": "firebase"
     },
     {
       "name": "Bakırcılar Çarşısı (Kazandziluk)",
@@ -552,7 +552,7 @@
       "tips": "Çavljak zirvesine buradan yürüyebilirsiniz.",
       "tips_en": "You can walk to Cavljak summit from here.",
       "id": "barice",
-      "imageUrl": "https://images.unsplash.com/photo-1565430852026-626a5929255e?q=80&w=800&auto=format&fit=crop",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/saraybosna/barice.jpg",
       "source": "unsplash_fallback"
     },
     {
@@ -631,8 +631,8 @@
       "tips": "Hemen yanındaki Hayvanat Bahçesi (Pionirska Dolina) çocuklu aileler için idealdir.",
       "tips_en": "The Zoo (Pionirska Dolina) right next to it is ideal for families with children.",
       "id": "betanija-park",
-      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AZLasHraUyRD4xmRiXDhXzdOt3xKiofRG1t34ZxRiKhnp1S2V-wgBu-OrNVO0Sh7FpXdR8-rAgKZteEhg1ZqVm-I_nbOfEou7QQ__9gU3YUpe_sejGUbumd-7t9YJFEYjmPcyO1EwzK8uXAsHrsy5c9Gnt0ywNXBMJ6PehmBAjlIl171Ia3lw-q72WLsM9F3PA45y4B2iY8r9IrNiPh4ijpIOtPYDyadi_5h2NCCbJVW2lh9okzI9bYaaDmsf3Wx8JGCsHo-pX26GAB1sE4vx4f5uYU0V1g4dn2iUBu2624w2CIoKXXwtnNYKbw8mjdmSAo43m7OuMPMqBH9ghe2E1P0p5dYHm3dYo_mUk_LQ6hnSLpDV0B9-0L7mTZR7GipkriFVTww1VcaAqBbdiTuvu9o4hPA4hvkStSvpQT51QTPoQ6If7EoHrBa3Jl8JtQfXqznSnbJ2jQ7v50tR35OxsKu5kIBgjJ7q0W_mCFszm_XY1ZHE8GvqkLWem2IEVuXbYE2tjSg38fJmlM2LJN4yHVeB2Q-0Rb2_CiyPs--H1yYCj613QK3vJw5SX2Lhk8n1oa_OwQ49Ia1&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
-      "source": "google"
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/saraybosna/betanija-park.jpg",
+      "source": "firebase"
     },
     {
       "name": "Beyaz Tabya (Bijela Tabija)",
@@ -736,8 +736,8 @@
       "tips": "Mağaranın içi yazın bile soğuktur, yanınıza hırka alın.",
       "tips_en": "Inside the cave is cold even in summer, take a cardigan with you.",
       "id": "bijambare-magaralari",
-      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AZLasHr7z_Az9Dq0uAk6FMoMz7g64WMzXyKliOKCZYYdkV_1LhJSlaOZZzirZvBpBOYt95hHda42noOgqVSxgr-BTHj1nP7e64rOEcbGL5rS3IEH8VxD5M2V1gm2xl6WS3sjlrMvadEG8nqZysnUMj4auKAIskWuNRviST2E8RQBEurnp4J_6Bp3W5RG3kxDkT6tAFK1tyCUQHIWdPpgs3V4ymyY62Eixiksc5tSwRuFqCHFRqVGQ_NLKuQRBKFzTc6DJTiVGXYzOyglVPopAt_mg3MiG0Yxqf4xiR68Fvx0AqMOfQr-t9tJkRkjv0PYPtfdoZG8NjGs5BSKBTGHTDbtE9rUgVoN6jLqTO_uUSWNHGaojXzTCvcx1P0YX0Wy8haTsubRmHCgZLYYAtH1ALoORHUH_3zhNON1Oz4cTvvk9mDOchaxHrwHEHWXggghn9OAn5T3sADrxO2wsk47RtawEmiwxXQTInpcmTfQyWCORgqjSvEEgqkgXnvygEv7hRF63MO358leAqGirSBcjDaHG1PdM4Y1rCgKrT4PT4ehhivqkZ_DOiVN-EWx4GsabEvr7ipEV-V6MwF0-A&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
-      "source": "google"
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/saraybosna/bijambare-magaralari.jpg",
+      "source": "firebase"
     },
     {
       "name": "Bingo City Center",
@@ -788,8 +788,8 @@
       "tips": "Şu anda müze ve sergi alanı olarak düzenlenmiştir.",
       "tips_en": "It is currently organized as a museum and exhibition area.",
       "id": "bistrik-i̇stasyonu",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/saraybosna/bistrik_i̇stasyonu.jpg",
-      "source": "google"
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/saraybosna/bistrik_istasyonu.jpg",
+      "source": "firebase"
     },
     {
       "name": "Bjelave Mahallesi",
@@ -840,8 +840,8 @@
       "tips": "Yazın giderseniz telesiyejle zirveye çıkıp manzaranın tadını çıkarın.",
       "tips_en": "If you go in summer, take the chairlift to the summit and enjoy the view.",
       "id": "bjelasnica-kayak-merkezi",
-      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AZLasHqi5ChtSn_K7ooOMsyzlRkkl2lYsDzn5tRE7w4a0c9eSUeMc7kff9Bpp3u3CL4yBdWMr97W4yKJnpr38a2lDxrjI67QwcuAY5Exz1P13JXKpIn3tIohdNL4Uc8uoo2HiE0J_CtCxYu1Easx60k-M4IafD7tVbVVfKyQ_TVQVBRD3lMLb8g_WBYDz56byfmakZ9j5cHXH1bwa5TH_X6TaJ_ZZ7uFQ0RUBlZBOLlyIc0CT4VAPXs2gEQVWjlQgKl0pEoxHehdRQjcKIqST1Tm7x127V3WYvcLL8MotbHzNdZ5pwRU7_EQwhUtNWSqLZI6yHdr121UAX8PdMIw63ITBHum_Rbr9wpXw52ue1Y4fP9eVKDHjLQG-lAoQSIaBeS2O439DCaKKkYt7PtFHmZT_5Hacbml6pG7q2ikvdQBCusugb2urJsAWbJ2IRRA27ecANwQLdmWlPrCZ1Gyo85NsOhA1iKpA3H22lfEuaSiym14n4VD7Zcii3zC2Sf6Nk8CI87jqZzsUGyMMlT0gWTAzmuP1BPG2wZBpQgpUSerpdn-emVlF-4eVXTqDAHbD5RXGtVqRA&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
-      "source": "google"
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/saraybosna/bjelasnica-kayak-merkezi.jpg",
+      "source": "firebase"
     },
     {
       "name": "Blind Tiger",
@@ -896,8 +896,8 @@
       "tips": "Kalabalık gruplar için rezervasyon şart.",
       "tips_en": "Reservation is a must for large groups.",
       "id": "board-room",
-      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AZLasHrrpErj3nCDjeIPbzojimJpRTuZe_U9ilwRPCcvg4GbxFWrqKAxhwr9wP7KAjD-kDvn3Db6_BtsjMTx-mTa69Yp4-_rMns-RCv8TSOvme4kZjUxOJO3gZa1P3bPevlUiG6ONNxWv1EVt6cDYmnM7CulPDXRutMo-HXnTXWmAEOJKOLV5sxhQ6cdpproarb3mBn_RUvcL0SF02t7qLy1jthutgvt2ru8wpNisMXhydB4kfwAurTbvoAqgNrAlIH1LbRMyr7-kB3UmWdAiBioM5lkdQHLpw3bH_5qouNBFNb0BMNIZ9aHR0x4c2jcNdSHhB0UiRiexKrZZcXg93s68tuq2u9xFbQq7gSVRd4xzIwHpmE14TXo8TfOmGH2IcYj0alT3Gep72dwi6PKCTJ91XVl9nBPbZG8Z1zo7BbUK8XI4RcTDm18FlW_h2F14M70HdheDpoAUtnI-OMYWHLvsje4mGb7zdrV7XWZ1Yge043wJCWf55juReLJc-MMnFiKuzrQ4TUIVIMtimaZDzG4f8XWNzvNIxAumcUfR3SkIJI6Tfv7D3Fm2z_DgoRuR6nlxm5vhZvX&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
-      "source": "google"
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/saraybosna/board-room.jpg",
+      "source": "firebase"
     },
     {
       "name": "Bobovac Kalesi",
@@ -922,8 +922,8 @@
       "tips": "Kraljeva Sutjeska ile aynı gün gezilebilir.",
       "tips_en": "Can be visited on the same day as Kraljeva Sutjeska.",
       "id": "bobovac-kalesi",
-      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AZLasHrmHIdfdcg06jO8SonN6eN6CX10MFUYuuRUh1ZwouUXyBWdmi9uGMyyBspf-KJIuBwuiHtf8xH4msFECuYabIaYNMhJfPf5oFh6nLE0bv2aH3NFMfohfwWnC9I9FAoflfbud7bh2IVR_wyR5Rkz9RxToJzFlBm6SCM04c0Tx6B1uqfAG4OfbTAy47GR3gLa0EQo2tTXDwAnAtO4nlaFGr_l3lK0RhBmk20j_a3F9LLT7rFycD92FHqw5i2f1YKbV7dszfI3GltaSvdSFBnAqv1oPUenMEc7PCuCuVckEuYkUlFT4jUpzjXMmNL3b5xRWGPF_NQxg7esU2HLDz1DLp4fV3iY94KOkdPhyFtOQkiJ_BkEYm6KhxdYhsGX6VarFyo721H8WE9E2p0UUEJCIbW5wJ6rfW3ZoyvodOb4Z3YdjWYJelNvwkjHB_wRPQ6qc1vme8voQOGVNVW6pueGViPrS4nXDFGK5A8A-EU1G3EtdNDD-mHiXy6r9lNxcqtmNY4tRHam9cPSLiDnS8JANpPPP9yJ7K-tEC0Feqfgs8c2SbwHABiGZbGM-VsermEfkWqVVECx&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
-      "source": "google"
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/saraybosna/bobovac-kalesi.jpg",
+      "source": "firebase"
     },
     {
       "name": "Bosmal City Center",
@@ -1000,8 +1000,8 @@
       "tips": "Buradan bisiklet kiralayabilirsiniz.",
       "tips_en": "You can rent bicycles here.",
       "id": "brus-piknik-alani",
-      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AZLasHqcS_d6rTvDQR8SzGA7hylu4KRe1AILljMLbQoPpeU2VVCuuR8bx_TaP9eHCjsCXqU5ZjA3rRkJKwNysYksL5l_81NcWPeOCCPn8gq8vgDNYd1TVerbP0yVT79PqCom75VFUOthYfMZmE5B88KrQ3pP2pRtQn84nITZqNk2HACanR01N4hYTkOQnEbSARNKPuPUgXWBnEWxTY5L3z6KuJmoZPHCWhFKRD4WAESQk3Ll9cAl7S4A9INyFLsPCcwUG2PrkL--zRQUNbTO2hliy7Rr8y3zJJhDLR2tMqaQVsLv9AukKQZFG6Wde1FynsCRXfBv-HC9_PPrtfDWGC9lYdu5MDmLcOF-bl5ynPag3cXU0uNqzX6Dp908yu0ZHN5EkL3HRo9UlwnJEkcFsmnJfQf9uuUgwVUjQgG2DZn7KWvyy7Y_unu0-B13KyKtwCr94XVczZe2cwGfo_B2KTzkdltHQIFgUKHu939bs8nGMQELIuMoZ0AMWFtqfd8DMnCWlhtTUy0tIuwWQeL-2i1PlPevXOMJrWM0x0E0gSAfoQxI_1rDHQDHRBhzhNBp72juSO9JRzox&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
-      "source": "google"
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/saraybosna/brus-piknik-alani.jpg",
+      "source": "firebase"
     },
     {
       "name": "Buregdzinica Bosna",
@@ -1159,8 +1159,8 @@
       "tips": "Heykelin arkasındaki ironik hikayeyi mutlaka okuyun.",
       "tips_en": "Definitely read the ironic story behind the statue.",
       "id": "canned-beef-monument",
-      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AZLasHoqW6w6utuR4swXm6AJ84LarYva0h0PRB65lCccz99NnKwmu2uqpoW2ZMxT2pFhw1dnmtPjkfwMDzeiJ49Rclelfz6uw1o-ajc0WpvgdGaAMB0hQnnKW6eKYTD29vuqdTNfjVi-vE96XUa0fFx_eMbxbyLr1zJnEGbyllyhN1TSc24Tsz-VDuSBXMXi0TZBfyMXlU7R6FtvuBY8avTHb4h1kqSywbhvko3gLtDswnwHMmukRfyBWQvxd8Q5tuCc4FU0V98sBEMM_OAuLJ-_OWWdZLwJvZ2nbYkt-gMQ7q6tNLYUNv7ag6hgELynkUUDt7IUHhmeu6jhTLf4AajxfzWGvoi7JZ8x6w5NBZBugiWtuYQBKktgETU2PqR_f7YLXL8UzrNM5_ulTihmZvcwZyyfIGGd8mLAj8moIwNO7SF1-_Plso8xVIBMJ1LMR7Oz7Gqxg9hIj5rQET2p2ehp0BqYTeJJjtZJn2H4Z1KQho4dkA3v4awbO6fTuGKzsMPpIOZDKNkQLtIVwaienmjf-ecTyiy-eSXaWjidG-jv5zeIqOBXQuDGvFtw&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
-      "source": "google"
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/saraybosna/canned-beef-monument.jpg",
+      "source": "firebase"
     },
     {
       "name": "Carigrad",
@@ -1526,7 +1526,7 @@
       "tips": "Kışın ellerinizi ısıtmak için uğrayabilirsiniz.",
       "tips_en": "You can stop by to warm your hands in winter.",
       "id": "ebedi-ates-(vjecna-vatra)",
-      "imageUrl": "https://images.unsplash.com/photo-1565430852026-626a5929255e?q=80&w=800&auto=format&fit=crop",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/saraybosna/ebedi_ates_(vjecna_vatra).jpg",
       "source": "unsplash_fallback"
     },
     {
@@ -1604,7 +1604,7 @@
       "tips": "Üst kattaki koltuklar çok rahattır.",
       "tips_en": "The armchairs on the upper floor are very comfortable.",
       "id": "espressolab-sarajevo",
-      "imageUrl": "https://images.unsplash.com/photo-1565430852026-626a5929255e?q=80&w=800&auto=format&fit=crop",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/saraybosna/espressolab_sarajevo.jpg",
       "source": "unsplash_fallback"
     },
     {
@@ -1684,8 +1684,8 @@
       "tips": "İçindeki sanat eserlerini görmek için kapı açıksa mutlaka girin.",
       "tips_en": "Create sure to enter if the door is open to see the artworks inside.",
       "id": "fransisken-manastiri-ve-kilisesi",
-      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AZLasHqDXEYpHdDeuN36t7w-5LEYOqNs3nQnQ-G_M5qDMRFbndNttTzZU3tQXidjJnp-VqnH9N9L7uTarcKgU60x5c5hnFZL7ngwV5jXj6_S3ASSEnTRRCTWGZbNMj6bOyWjE8Lcmd9rMCHFyPybLnFMzI2njHz-oIYBy1xwT5DZiOJQU3tRj_qFM3D5DwUn74OETs9miwIApdtP4ySdXNtuSxpHKwqVZ2Dr34MnmCXT6OJMNvbDoVTgfUDLri2vH5MHT5pxPlYwePeip0bVLuyel9LV9Pq1tzZOaBqWQR8qWsm_mQbVyHP9T0q4gzEqCNcJ-NKm6nsnxY9nQ36PBHAsuIQNk0jpUsiOzvq62ScsmZgHyPfn8RcORgsEElQaMIJbHa3w8Sc_lzbuQ6U9stFMqwFbicfTP-ApqkmVKBzJALSPHt4yhe4a_PMXyCRszuawPZOy-rLlExlupirpsRIRROGS_cxe5iNegqyWW8m2W98W_eSIvp45fzy-wrvD74-8eM0r_jjevWbw8Njlu2OOqxah2gpz_hpPgCg0iIcuNuSC2vVokRPyMTkw0irLPoc0sm0Pb07BohF7fA&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
-      "source": "google"
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/saraybosna/fransisken-manastiri-ve-kilisesi.jpg",
+      "source": "firebase"
     },
     {
       "name": "Galerija 11/07/95",
@@ -1868,7 +1868,7 @@
       "tips": "Mahalle hayatını gözlemlemek için idealdir.",
       "tips_en": "Ideal for observing neighborhood life.",
       "id": "hrid",
-      "imageUrl": "https://images.unsplash.com/photo-1565430852026-626a5929255e?q=80&w=800&auto=format&fit=crop",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/saraybosna/hrid.jpg",
       "source": "unsplash_fallback"
     },
     {
@@ -1920,8 +1920,8 @@
       "tips": "Araba kiralayarak gitmeniz en iyisidir.",
       "tips_en": "It is best to go by renting a car.",
       "id": "igman-dagi-(atlama-kuleleri)",
-      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AZLasHpN4LrHcPPfhewAyCDTV4JPtZGR-u-q_JnBj3pFN--OEd43C9Dg7KL6eoEBtXfauDZRAiN8gm2a_psEWI8i3YQH--kCkOlcOA9DTRkSCC1VwvmaqtblgiITMr5gvRaEAEFl5a0hZU6c12EVUlc3AluuYotsw5Mv5daQ2IEjFHwzAP2M67V98QQ87qVAnMvw3pv6wXzPRc12rtTRSkHtZPreACRS9tAZl3bQvDobX8QKhWVY1dZeWK-4mQ7Fwhlww-rwrN1XXVm2bfl_WvraQbgtAnkd3zMRsrYpGyzlrXd1UxNv4XArQhViFIcwTea4YEnYOdKqcHj3oOWss7EwE-9xNy-5Ffljgg6I7u7tCBrA633BBvoDkeVXOiBfgMqSuv3JnhmfHRs156XARpPl62VySLZTYgaQYkNq7KazRGJXIZNI0aZIyAy0ilMq7x9JzT_ob_F8HECKu4EKTkhQhjo9ElF3sUvU0s6NPLfzvInD1KBRXy9QWsxr4ZzwPUDWVLDGN1EM3rMz7wKzuDhiq0MRErrUTqoPiSiWvGqSRKuysh8I57L66vjXm8osmS6g1KlZUm31&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
-      "source": "google"
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/saraybosna/igman-dagi-_atlama-kuleleri_.jpg",
+      "source": "firebase"
     },
     {
       "name": "Inat Kuca",
@@ -1999,8 +1999,8 @@
       "tips": "Bjelasnica'ya göre daha fazla otel ve eğlence seçeneği vardır.",
       "tips_en": "There are more hotel and entertainment options compared to Bjelasnica.",
       "id": "jahorina-kayak-merkezi",
-      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AZLasHoin-ZhW7o1VcqDFSjdNryN4h3_iU6W9gr6vAzp3d3wutjI-SGzYjYOG24ivEWl2BPOAYU2Q2N7jefDbXWWnNUEXMwC53GFuMGKz2YFpnT-HthddVboYW8vn0wEcQRyOe1aJrM_O79mCoWA33Wk0cySqJBl2j8d_XGACf6Wz_PFD-KAlx37J13NoFwmfBktAKm-Vx4HGMGOEgeL--Ht1kKMUDQ1P1CyEtM5UwIwH3bnGZ50XK7uC3Kzop2MCkkjV3D-uc5PVQJ-39fBniO1_CuUeCmKsaeKRZQQDNsQJh9oSuldwWr4Lsv_bqJTCZ3PP3eQUrZjBwvJcb01sIJtDSQZArSarxzpgWEUx3EmHXCDtWUYI0nDCn03QuBauNfWCbHVabtiQjDgwZ1uJJkixFgKJC2YRSU0K6u_SFVZxpHAIKBAxhPEGdeRVoJX7rfHBHthqo0YSsz6jce5hvj8frq49d9D-MXvmRQq3X-igkqTYPppi11L-V08_gepGFDuX2e7NXW5zcXvaile6xYEWftEVyMPl2qXxNodGqkXHOvwCsr7RUzFNjdT5eiGy6XDMip4Q8zm1-gQ8JsBzN5Cv_Ef7fimzQ&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
-      "source": "google"
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/saraybosna/jahorina-kayak-merkezi.jpg",
+      "source": "firebase"
     },
     {
       "name": "Jarčedoli",
@@ -2025,8 +2025,8 @@
       "tips": "Buradaki 'Sunnyland'e giden yol üzerindedir.",
       "tips_en": "Located on the way to 'Sunnyland' here.",
       "id": "jarcedoli",
-      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AZLasHqtrWnhHSTSaqUlmcGnRHDmyIdOyXDyprxYCtuJhpHg5ihydKylU2K1OsMSX69fbeefVO1zIqqvkMbFrd6WK4HNjy7V3EDXRoBF8GmNuiD7WnOpJtsUT50tGi5V-UPBVs1zzB2vSA355hlgTS-LBqV6BnV5us9BZHdxwkscZPS3Ca0y_S2LJkSH79EDU5CrlU2T_ukf-q5gtpMFLBZUNtRnx0hZsEez_g6_eLmEIIslr3xhXTihXBIV5Gzh1C2w1xjAV_q-igMRANPYJgw6LffvJneRhksblloayxSq4hZ_9uWDqF19YeXPDQhDwvauuLT8SucR0IHOEIa_HAgdmEIxd7Fs10mgWdNExSUq8P_MqAgdqtYt309b8dCmN6bSpiCzO-dVAnYadf2pnhuB4fBx_NGqNIjGK3-YdxVYb6pH5-QhiVff_DP-aEAoePXo-erLlVPu3D2JQeB0YUMPWTNS4K0Ww0ZENune3YO1pEwx-AvQoDJk9lLFf0w4OQs1oJ16Hav7g0gtL87xeMSXs2rd8mUG51upbv53LF-wk9KcLA4n4U8lqK71jFRQetoe-N7yyK-P4xM2Kg&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
-      "source": "google"
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/saraybosna/jarcedoli.jpg",
+      "source": "firebase"
     },
     {
       "name": "Jedileri (Yedi Kardeşler Türbesi)",
@@ -2077,8 +2077,8 @@
       "tips": "Sıcak dağ çayı içip ev sahibinin hikayelerini dinleyin.",
       "tips_en": "Drink hot mountain tea and listen to the host's stories.",
       "id": "jure-franko-mountain-hut",
-      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AZLasHoyuv2b_Rd1ew0KUV1Dq8P4OmQ0-PayBoI1Us1Cif3Oxc1u5BEz6c8VhOQJeFz_TBGPBeoCRoey7YSfdhjjBHfRX-4SgRvzFAuaZyRvgKptl8_vaHgOhtrYIOgBthCAx4oc0JFIAYqDYKShd2_5SZ4qEfIUFB3QTnl3t1ePOtOuNe4qpoNQRp-xGa2a538zlgzCSZTk5A6flABce_WGPW8QJQHs0Aj8KZLC6meunsDNfbKzxvAUD_t4ESab5kTqEU523yglJh7ite2npQCnJ1qA7hlhEUWTI3izNIv2vAjr87jiNBzXaQFkErHzX7FyzUY0Gj3KFf8dTZe4Cx0BVLkfR37aW76rE6yLKhREa6Yr2SWRqRq_9gof-v_ONDvTsXRBoLn_71pKRa-OpjNernPzo2-QoBg-eNNt1qYVmqQq7VhfOATC0pLnYdQGANyTiwlp4y1Uinot2UiDfEvqzN5ATXoUrTSjRqHtd5na8FfE0xvaThfGxk935YdTtqtcZ3fEJR34E3cxkEU6P0EhL8DQ0LfWyjiP_x9Iqd8uYNOe5JIP8C5o8xlZziN2sJCVngiiiguUp633OLIYtwZmZRbP4FotEA&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
-      "source": "google"
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/saraybosna/jure-franko-mountain-hut.jpg",
+      "source": "firebase"
     },
     {
       "name": "Kafana Ribica",
@@ -2103,7 +2103,7 @@
       "tips": "Akşam saatlerinde yer bulmak zor olabilir.",
       "tips_en": "It might be hard to find a place in the evening.",
       "id": "kafana-ribica",
-      "imageUrl": "https://images.unsplash.com/photo-1565430852026-626a5929255e?q=80&w=800&auto=format&fit=crop",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/saraybosna/kafana_ribica.jpg",
       "source": "unsplash_fallback"
     },
     {
@@ -2233,8 +2233,8 @@
       "tips": "Mutlaka önceden rezervasyon yaptırın, yer bulmak zordur.",
       "tips_en": "Definitely book in advance, it is hard to find a table.",
       "id": "kibe-mahala",
-      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AZLasHr3ze5pr7IvBmWDvqI7JEI075alurUf7lMrXth65wxm5Lp1wdkNCtVOoUYV3EkptJL4GxnbPmWxCi-BJ7uL9L46RvulFuhakE6CfN_fe2dRgsBJpBa5_nHfcXtm_dpbz7tQU5sfk2QEfjwrfuUO5LcYNdkkvXyOt31kY5Ga0NZCHzV0u3YtEHtXKPoVMJk8l0hDQigvy8JVYFGaoJtxXxV3epwIIsf4P83Vp88tSYq07usfpSt4VltNf4Jg79dBvhKf0o5AWrzs-w65UpSm8jyVAhnLi8LP1OLfCTWLLj5ET_CRrLPodeZkF2FFYls__Jd2Ce6kY6m3E-TMxcZrY8AWH1Ceg357kFDIHBo2rJO7tRO48fXvwOLmcMZGo6YVaA2LVqxzwXcRBaR9le3Jnfl3Uk93SQvfJU6YQUZy5EcvTg-hswjGsP9kMrazgSylVjIJnUxOth6A9_83AZY5Bkb6rkTt69G9k9cqe-bkR8E0NtWH0YwCkEtL9gYXdsvUlIE8XAgESzFgsXFheFqx7B3fYHsw1evRE9S12wU_vxczSForOlqtz8D-8_BX6_PrClWOIT9RBEuMLg&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
-      "source": "google"
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/saraybosna/kibe-mahala.jpg",
+      "source": "firebase"
     },
     {
       "name": "Kino Bosna",
@@ -2259,8 +2259,8 @@
       "tips": "Pazartesi geceleri yapılan canlı müzik seansları efsanedir.",
       "tips_en": "Live music sessions held on Monday nights are legendary.",
       "id": "kino-bosna",
-      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AZLasHpuqmbo2LECT27WEHArccsHoLnOAfbly0BUphDPVs-p09ij45AnFX9sPsfyQputmH1qU9Jd6iN3bjNJrsVuotNBuQl257GkGXflsLscm65RRmIGzBocKRSKcIME941tt_awhjrLuRZO4U75bdmwDF9DRE_84iNR7aNjU4nQlMavUj7rcCbvO-wNPgEOYB3zRCQzKgksuK0E8oXOko6xVRHG89BDGmiROgn6ctu2a57ZGkBSWrkEpcPryEcgbJoeIMHtNLxxnxMQSmlwAcRkMwjZW3Lxp0nmu-IQdVsv4qBOJkth4mGMKiqvBgAAwz9nfvLlUxIFG75bbEOJaWW55tx21ZdPi-zUmcVW2bouSLrsBWpXpnaVpD1K3RuhcakIX4CUsicKDKkwSzxtxa6iZfPDictZlNxCmgPSx2N739r2F00noTnGcuLyqJLJ-pI1SN2zfd8jEuAXLLkNfDe4uzSJHM_2KM6Mhcct5jXMR5h-URE8dioiPWie4WreE1Puzzv9Wl1jcGk5rvWYa8EPSjUMrRUEtPUJLZbslXw8y_ruDZQSr6yj4q_23NDv3IcpIu-H-Q&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
-      "source": "google"
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/saraybosna/kino-bosna.jpg",
+      "source": "firebase"
     },
     {
       "name": "Kino Meeting Point",
@@ -2389,8 +2389,8 @@
       "tips": "Şehre yürüyerek dönmek istemezseniz yakından otobüs geçer.",
       "tips_en": "If you don't want to walk back to the city, a bus passes nearby.",
       "id": "kozija-cuprija-(keci-koprusu)",
-      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AZLasHrNl6qFnoaWaWA3ERp2q1QP0KeS01fWfx3OPUz-nt8-0uwYKSs_rqesH-sQrtv0tmdWlC7mSO_7QuA6U1_21jnkPfMEvIVd7F07XkCgR_Xb-slqUZzlBG5oLAZLuDcCXo6n9P0u9ZUTeXWy_Of8qoKejOHFqK5LW1MP2HElUPz-jYqRtwj-VVotZzk-SJCLt6zFSnoLbjL4Z06M7zo_2c5uA8ZU5DPknr5dCivxTXM9urxNT3oHIBZXuTh1XIz-egbKAV6tMe5EjM-y8UCHCvkyH9FI5kISVCvJId0KEfO_vO9a_uDuQWmfCN_CfoLgZBkZhB1sQ2inQ9YBdccyr9b0BRGQboggx_5nMFLIbUB4au3Y4I8NTFS8CcbMA6Fh6fFTGOy-rN1BXo44djj32T9n5lNBscFYTbZ2GDS9gAiAKHJYrX0AsmKNFGKU5O-uJVvaWlGHZExTHgNDEJQNJUrRqihJcdep_KMsQORNX7mmiQ4TNoM_8CCn-kVFxuHy4Se8hLKYlluR4vDdirK1GJRXwquEDV-VQ7R109lmAB8xPqXnHx3IjoeJr9sO4YWVApEppg&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
-      "source": "google"
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/saraybosna/kozija-cuprija-_keci-koprusu_.jpg",
+      "source": "firebase"
     },
     {
       "name": "Kraljeva Sutjeska",
@@ -2415,8 +2415,8 @@
       "tips": "Bosna'nın en eski camilerinden biri de buradadır (Fatih Sultan Mehmet Camii).",
       "tips_en": "One of Bosnia's oldest mosques is also here (Fatih Sultan Mehmet Mosque).",
       "id": "kraljeva-sutjeska",
-      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AZLasHrbMQJK8AS07eHMiuspcskY26qIEBt97h70--ofOZ7l9D_hivEzk-rIML4qd0gfGzD6oOMIbVqVtNY9v1RWP64d2ak64l3PVZQ-XqJAk70SjaT6Hh_SH9f1hEIn5o4xFO5r8oolHpFn3mDM9b-vsnAwJTb1yTLeNha6yy1a8JkqAzYFd763dSggxorC8bJqdgZrSQicGmNopxCX0FgDYVcxEdtUIcxfywdGpiXucuJUwYoIDstNZPYoNiTqwpngf68P7xltStGnIg2zlm2Nrej0jp99MmVfkrIIDfY29j_suGhLwQW8j2FE9ElF64YOkW8frx4u-MgPYkiZdcEgKQBXYdX7SoPFfM2OHYnH8MHZdR7oeVgpQWw4U6mKmTAJ2gVZwfKJ_uOGSEZvMdeI6IYDlK6pH5Ig-TfCT5uUoNFLhVQFwEuO3lfNY2ngeeKaHdYZJec9h_fsKMghQjEKufuOwVgB01KoRsGf1Leu-kjnx4g-bBjSl0lZoZ9YC_AeU-awCNtmVThT9T7IHGNRjDQTrucy_f5zYZooQHeyoJkjU4S4nvFvdDs7ImTVBl2_ncqM8Jpk&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
-      "source": "google"
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/saraybosna/kraljeva-sutjeska.jpg",
+      "source": "firebase"
     },
     {
       "name": "Latin Köprüsü",
@@ -2468,8 +2468,8 @@
       "tips": "Kışın yollar kapalı olur, sadece Mayıs-Ekim arası gidilebilir.",
       "tips_en": "Roads are closed in winter, accessible only between May-October.",
       "id": "lukomir-koyu",
-      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AZLasHqgafORtZKUhp4bXyAEBBDkiEBmXT-_WjgeiKJwyLvXcqiZpEMr2U3y1Sin7wY5YF3A3Nn_sZoArjFMt3w702Khdy_PNMWXEtWIUFHqLmSQ3ZXQ6ndIjVEiDoNDqnR8T9kS_yly6xBsVNlaV6B73oiTNXKSzUbWDbwElLvfpkvzSsU5LTpYHXpwjciyMe3Vrk7XA_w0Gvj4kBvHMldrRddYyA_wOTFZN9aAMsGIbedPfEPnqCOobnpawLGDBEaO24hL9c-nxYPbT8a_9nZjS6ki8Dp5obNxlJlj4lahOpxwrKYL1RjdBCZJQ-QAsHFzPM_KeoUT4VyZ6ZuRMmItTz2rdhbLg7N-iZCFbH-4Wod9spohptnVDTEHpuhMTKG4zP0t5ay8A6gC2cl0e4gMloq6iusqicK5StpPX1GqkP97gawsStCqgVKmCAnaNfaidVGFwVJ2vK1JbDJpNtf43O76QZhAO2t5Are1eKF61m-ZiAfD433LFHnXeknjHFyNoHPwvYYlrCJBnTssY6GtiMVroIeozVNrnPAnGI5fGUfIcOHIk3-RsUiWgcnDPj4OEYKbVJl9&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
-      "source": "google"
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/saraybosna/lukomir-koyu.jpg",
+      "source": "firebase"
     },
     {
       "name": "Magaza",
@@ -2520,8 +2520,8 @@
       "tips": "Açık görüşlü olun ve şefe güvenin.",
       "tips_en": "Be open-minded and trust the chef.",
       "id": "mala-kuhinja",
-      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AZLasHrD3ve6GLwsUxrw-IVCYXiRYqqLFWPIXgo77LUbMuACwfw0V1hWTahhpi1yB4KIkmK2ow9_oRgYGjeW0SY3svdvDtwUVqKqG286GXjUaIZ_ccByzndipCOj0GRa9_xwCcDZC5xWS99i8RzPX-6DGf9pL9r6ZbBw1bZUJ0s9KiRMoRNJFsshPfKeqWPktXqFmOdWv_2ddwIo1Gpgcoz_En8f9piT-t6eGpQc87i0Dcr8aya3BlnZ_ZAPt1QZQwfcDvhwT6rS66IkzZfcLhWbOnRmBI7ZX8NMB6NxRn27_b8CPKyxig0&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
-      "source": "google"
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/saraybosna/mala-kuhinja.jpg",
+      "source": "firebase"
     },
     {
       "name": "Manolo",
@@ -2884,8 +2884,8 @@
       "tips": "Vučko (olimpiyat maskotu) ile fotoğraf çektirmeyi unutmayın.",
       "tips_en": "Don't forget to take a photo with Vucko (the Olympic mascot).",
       "id": "olimpiyat-muzesi",
-      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AZLasHru_Mc70rgCgy6t1dCRLzlrAoDxcSEVIRPEXxTRae1xKuS_Xik2hhgfp1txITk1B1zcFJgG6PIBg4FAVJwV8ukquKMrhfZbcviXWiNKIi_xth7Su6U32OghZgyDePvO6cUNCsicuImLf4XdfNsI9nu3nsvqB2dvyulffsFyU0ixJQVm9FhrtFMm5snChYxrYvPAvHFrKQ_9FUC5ckxsdAbfLhqB2JmzZ9Q4ldiVKpJcb7iE3q6pc6s1TGzrL6sF49aoMM9ySAUawMk3_mocQN0DfsRUNoKmFq8224vk3dRO8v857l6H43pmFx7S1upJ-ePbEEvi9Kf1f6mzbQCZO0Ur_3BjFURepdA8DgUmHPHlPYud_P_twBHeFcvP1qN7ULqvIWspmls1Vrgfi7wrmyXL0zAR1UDrGk18C9BKL6guDwf-5PInwN2kR3FpM9Ah526FLMTVI9XG6WhcHxq8-soXGnYf1ReA0kVW4zJ-gSN4MVsVgzE7gqLV_q5QSCBnd6hW6QLz2HMQai6u01-4M9sxV01chZUaqEB2rnbH9bK16527gFnRKMeR2zqOnJijT9kM_ZkC10rOlOn5xFVbN1-GNkk-lA&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
-      "source": "google"
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/saraybosna/olimpiyat-muzesi.jpg",
+      "source": "firebase"
     },
     {
       "name": "Papagajka Binası",
@@ -2988,8 +2988,8 @@
       "tips": "Gece geç saatte karnınız acıkırsa pizza servisi vardır.",
       "tips_en": "There is pizza service if you get hungry late at night.",
       "id": "pink-houdini",
-      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AZLasHqYKXK18MHnIAqgAveLlUuL_nCjrNIqayknPyWt_USuQwOFitc2DIm7mwHpC5vb4FJWuMl0LmeCIrFzNSNjgudJNo12ec3DM12rwRUsNawpsgT0_VtE6VPfcvCQpv-gmCNQ9mNb0QMe00_15n2FtjGSIxa4roaUP5g-uSZ5zEBW0HBpXlpEPAVS7Rh59eiUZ1DDGkESFPF6SZfR0JW9914Y3ywhVQcCvGkDSPZmnbStKdM1Oc59-4xLRdkt_DGA4dQXkA1ePOW1yRNZduH5KPOyiWL7sFRVqdqM3QVMPk9TxF0sqmU&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
-      "source": "google"
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/saraybosna/pink-houdini.jpg",
+      "source": "firebase"
     },
     {
       "name": "Pino Nature Hotel",
@@ -3118,8 +3118,8 @@
       "tips": "Mimari meraklıları için görülmeye değer.",
       "tips_en": "Worth seeing for architecture enthusiasts.",
       "id": "rtv-evi-(gri-ev)",
-      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AZLasHoiNZrXxNp-MUtxHPSeMlPz7pL0yZsnmI7PLWIf9B-KtrxYCuZ7O393yos4e6KSIqpfUh948T1r0TjuBVXwYLwbodiw4UzF05383CoSLzurJ8bVPEV-ZYH_hKumYASXdeSDN3JGWmbQVkAbSpdyx_EC7QBnsfqvMeD-ZIxEePu7QNHRj2UJ40tAMBxDHJDmDDFk4bGjlQzqrYbuib5TmDaG3MptEEfJ_8FsRJVqrIY-RPnvIEt5xcMeHnCwbhI7PHktXItnnbUGOJwXDAmbfzF5iDHbAW5WWfXzBvfEtCcDdQAZ1jRJEQCHtgp3vctZ4vPaYszww72bmggioYQojmMeFWyvkfoJGlWfC20zVRVH22s-xWIrQ5TNZAHcYCKWeTyafOW-Jb400GNDQkGjzaLFiNgtcoqX6Jx9RvcIlql9rlHPgWaJL0p0zNWOwxLGpXDaXS38ov7PpGMWgbEEorrcg5wzqoG8rEBJA_XmuNezdqxHhaiBAyMR4ELhGw-Jj6p-fDdF2cHqcn-hqXX4po-PLr-RuI7lVaZrrK3mpFnJ8XqRKwxVFRUValrOu4IXM-KyMiXGryfFeBIEzSTkoFCO6EaNhg&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
-      "source": "google"
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/saraybosna/rtv-evi-_gri-ev_.jpg",
+      "source": "firebase"
     },
     {
       "name": "Ramis",
@@ -3170,8 +3170,8 @@
       "tips": "Bisiklet kiralayıp Vrelo Bosne'den buraya sürebilirsiniz.",
       "tips_en": "You can rent a bike and ride here from Vrelo Bosne.",
       "id": "rimski-most-(roma-koprusu)",
-      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AZLasHo_fyMJLo04HhU3MW6glD5Td0LJGfwWJbawLfNCsCuD06EmEI4icdksqMdgwJm9_h_oTPMKpR1hn2FdleeMPEj7Ww1fC4xZDc8EAGRGFAWnZH59HGZ2rgQiAwH_SJA_ETY9ZOAz2wrVaXQLQJl2A9kcHojAKL12bLK9vOQHWWCtNrQQXjp2L5xt1ZqGhXi6EBi_54_MaU5m6k8uDEn3PDxCT5Zyg0J45j7dCFKRMDz8gibmxjH-jBhVcA1QdfMKtrU4nTQXGcLDA4OCWZ7_JaI-UiLKgZhQenPcY1TuC51v691yToZePYtsmEgEwFQRBnMeXRvimT84dRZ4_0KbkLgheJkrT7ecEYOQ7X2sisIcx5KgPm6HEKl6C3KvXYxMF1_RdILk5Ri8zRsmv31XO2-uzEBQgwhReX0n1BMZP6xFE5rYClbUV235z6DlxRnxwXM3uu7v_5PS-HghWnjXsZ_HiFdrELlWAnhe5C5oO4RyL07DsmxYciJjYMHHNMHmErzELIjmuuEHmChEcKzKpW0JGBUKLRWbYH4QqR9Z5pA-W5bZ39v3wP3GW1iHT8T3QopKpNYy8Hn6hg&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
-      "source": "google"
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/saraybosna/rimski-most-_roma-koprusu_.jpg",
+      "source": "firebase"
     },
     {
       "name": "SARTR (Saraybosna Savaş Tiyatrosu)",
@@ -3196,8 +3196,8 @@
       "tips": "Oyunları genellikle politik ve toplumsal mesajlar içerir.",
       "tips_en": "Their plays usually contain political and social messages.",
       "id": "sartr-(saraybosna-savas-tiyatrosu)",
-      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AZLasHr0gMp3JtOKdQ_BMb0jfQXiZgsWSAq2eQIoy0RCNaUs6rJx8dRxpQrxnB9D0SznFiB-Ne21k3iB9E0CrMx61hTgX3Prf5FmReWZP3eQAbu17K5WxJxkn5TD5XLGKHKHQkVT8HFAIvqXjLuPClJGl54eu3SZPnAemoU5yzc7FBdk_BEPNS1KLVKMRzT9oCnl-8XjcfQaQFCcDVDvZZdbJIrmEv0fBchsKEDAP8td8sD7tc-v6IrtSyXULiI8RRhLvCc_x32J0QCAV0osIpq1UJjJYgeq0TGnleT0oD2vZAxBzCgXJrYXhZGLQHhKSpPkfkCvzxoTnHzT1GS59QVoNABOOqtxG1E_xuhroppF4N-_yV6XvRQG60Zh--JStE8H3Ni1daHWVZVdYe3qC5etH64f4g_2Mu7JJa0UQf2SJLdax7Mn34x7mNKM-qJVLLxrJ9EDl2jtogavwfapZ3dz6jbk6oYz7tnK3uDAawLo4RlIYiaxUIuv8mABPAi5CrnThPF4dRf3GJM-DVHsHmTMaP4QNJyJ719mwxJ0f4-4BPzJlYSDrvWoCk0ZQB5K97jocXH_nlq-ZdZXUQ&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
-      "source": "google"
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/saraybosna/sartr-_saraybosna-savas-tiyatrosu_.jpg",
+      "source": "firebase"
     },
     {
       "name": "Saborna Crkva (Ortodoks Katedrali)",
@@ -3274,8 +3274,8 @@
       "tips": "Hamburgerin sosu çok bol, üstünüze dökmemeye dikkat edin.",
       "tips_en": "The burger sauce is plentiful, be careful not to spill it on yourself.",
       "id": "sahbaz",
-      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AZLasHrB5TVGSjTQCREO34Tx9cWGOnsSR0qIBhs4DsrHDyLgsH4qvuCCu2U-KKIuqikQFsJN6L5fJTr2shw9-jfGU2yMZ5yVy8s5LZ7o1e3U0RyoSfR9sj9c3hxEdOSe2vdqP0ISEblUjwDPf1MdeIe1WXYOqkbdgm9O7zzcuPGPQbStwj-e-CW8L88vrt0YTn3CRzfxEiPn_Jh4AtGz-n67fwjMy3enYlBeup0pPiS3nBZbEuR8dnI5HzTrti1wgh5IgXCEjCL4oTxQLioxwYis26DOEbsYG8h27sioEMPjOr17Tfst853Ql8VnBiUuB01a1fKlNAkIq5x8bKG9EiNj5ECMQ_tfQ8Ti8evGh17WjNlhzeMANQM4rqPGdlfa3VetfU6fxx2ZZYGoU6CK3ENfJN9THkayFtjdbS_Cv9UVx-AJqCnzksmgbH9V1WRA0bJbFdIwEh7pk4xiRXI6Z97M9IYF20jKXO32sTM0Yvb5ZPy9uGGLjzlzeKT0dxal3_OqBYbiNnA9GqF_XbzcgCyAylX6tOclHUi1sJrK9q64SMpnSZW1kiA495nMB0BsSU1E45kTpPjX&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
-      "source": "google"
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/saraybosna/sahbaz.jpg",
+      "source": "firebase"
     },
     {
       "name": "Saint Joseph's Church",
@@ -3353,8 +3353,8 @@
       "tips": "Sadece Pazar günleri açıktır, erken giden kazanır.",
       "tips_en": "Only open on Sundays, early bird gets the worm.",
       "id": "sarajevo-flea-market-(auto-pijaca)",
-      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AZLasHqe9I56yflydDowlBcYi0O7_DQcamkntP2QnCorklHBReEANEOUN0KbRxEbFxex-DKhu8RuJRIcUiMNHaqeUvm1EvZCk5RiiD35LQ8dai32ji_2ySeJOrznHC6TbudFgd6Z0VyaJb7iORmYCussRmd-Bn48UKJ9Tya6Wvv05PTgqT8zvM5LRRo7wG7Pd1S6Y8pdMjJdIrRGD7v-4JE0K67sQJkF5G1sKETIY13dfF6l_bSXcRwTJMZRdQYzhHRcfma4hhXFewRr2__GMmJbojla81WjArvzgdy_hlXLmewMTCfydgaC8lKRlp3_dv_F9QhIHT0M46o7j6kqsljC6oq_m7GTo23g-dNG2Ayrnm_3nYCpSH5Mu-02gbFXtFW9f1gfqEbt_mU7i7R6GU5IRG8syWBJHYk1I9Z4mQBH2lRyYmmanxJs33_SnGVE9knUsHqxPdsz-Djrm-uqqF-RqgLLann3rfFbAoC_v4ucDiNX1XZEQ8iLP20knjiOvqSfOHL6aeM365EcL80JIgHq3iR0vAgm8HQR-1brSnB9-17KjWneXsmMr8pjTMgKysbptHvVcWkQ&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
-      "source": "google"
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/saraybosna/sarajevo-flea-market-_auto-pijaca_.jpg",
+      "source": "firebase"
     },
     {
       "name": "Saraybosna Bira Fabrikası (Pivnica HS)",
@@ -3591,8 +3591,8 @@
       "tips": "Yürüyerek çıkmak zordur, taksi veya minibüs kullanın.",
       "tips_en": "Hard to walk up, use a taxi or minibus.",
       "id": "sedrenik",
-      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AZLasHrlOgKmtEKoCJpBm2rLTcetoMeMkfZURKTLm4uASqaVc-puaAYQW5gOEQygFm4vD-dTwvl3wa2Nj-yvr-uEo9z9Q6oCxvx945TLdwQMkOC_PBAr-CDlYydGPxUTVI8Ef-jTkx86BI45Gco0Ubbs8ckqYlbOHl-e-NIuYsdMmH3uR4u6pGFw8AbF0LGekto7KAtRJlZPReHLFnTKBwPWwJNiSWp6dvXnerONGSGZ6ITZFq_p4OwRuxh7MqxSiZJoy3u2KsAaMuA07ZkrbZqCO8wI_GeTXesReL446BLxVgbYcoDvPN07aeaNxvNxBsLFpk5swAPhVu1kQkgC7BHi7LNK4KfGu1YR89gJyCEY4XDJYUk5bmH7g3oWTYrBK2JSbujt48WvA9yzjTPUIg5msMgLrr0auLOvlrIjscD8sotZKEMHcB6n9hd4HBYhWsOMNPVW0ndTR4R-SYep_hftKxruox148-7ELIvfDZBouVPEbnysva3OVB59CLNp2ATPZGiXzZucNzUiwboTZ4EANUZZzIreN3TOucCe128P-YhnM259Pu8zrJPquUIkwH3qWEKxV1cMLk0Q-g&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
-      "source": "google"
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/saraybosna/sedrenik.jpg",
+      "source": "firebase"
     },
     {
       "name": "Sevdah Art House",
@@ -3721,8 +3721,8 @@
       "tips": "Bademli pastası çok hafiftir.",
       "tips_en": "Their almond cake is very light.",
       "id": "slasticarna-kup",
-      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AZLasHqoKl5zC1V-r8KcNkqYb0hAfG-335G3C4n9JIWIKp0RQ56776siT7NDxhdTHEvgQ6Hq2ufGhlsMGQJfHyjtxN0QFugPwIwPi23qnelxZP1G37b6jGoX9m8HIIfBL8Bw2AylFfH01tTgW6gKJUWyb5FmEj63QWosk-0fGrOqtKCdsjgYdK-1jCj8GI2t6bPSD6i1Ap3xnqRl-Zo1afjWB3tf97SPqPyVj86A9SA3N4WrkHrf8r4MwFjvOLcfapF50IFwQwA6aCHPE6t0kQlzvZsEdbN9UTQmfzEzcj7Zuo4iWAYV6qcfQe3j71ZUFsYxLVrRiIeJ7Z4-jQPs9YoneqR8mlDxKOCcBmy_l36Al9eQ3UgQw_sOJAfTxvVe4PX0Le31DoUkFBhwODHDchtRbTGIQywuR2eVH22NZIrk1bNK3Yu5cnB2zuB3FFZXim-E2dk_D2bamByLmHrZOeYKvGLjAprtAFsijgrNsnFBiQvAd8sYn1vpsECzFTUcKlC43g3yIAT0VFKGQMs2t6FJnh5SiX48pAQ8_2dUuaMzLOTGMjDmzCv0pw0j7ppYNJq7IV1wjq2c&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
-      "source": "google"
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/saraybosna/slasticarna-kup.jpg",
+      "source": "firebase"
     },
     {
       "name": "Sloga",
@@ -3773,8 +3773,8 @@
       "tips": "Sarı renkli Holiday Inn binasını gördüğünüzde buradasınız demektir.",
       "tips_en": "When you see the yellow Holiday Inn building, you are here.",
       "id": "sniper-alley-(ulica-zmaja-od-bosne)",
-      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AZLasHpBninVFB8wQJtwa_xZJ0lZzSipm8J2xAOQ7Bf-vNDCTae_D6cgs98lv6l32o9TyCNQy3lVAf7d_udb_NxAc2aqaJ7eW-siXn0fqu_dwHA87nTmHWCxBxQPBeJFbDIT3orJSiXQFGtlaueYMgs57RIZ_LEMTr6toubU-Cqt6p2vqvCIgmKqcwxaGnurTVTB3STAnQIXsCkM5rL5GBh8sS4hlV03EawGHYmYXOZvkNfFTdaxvYs6blqFgh8jJL209Z3r5Y14Vo3xL5MJDL78LJbpGlI29Rauc3FJf81nWryWKHGiK-NOjf0yCXT8T66gzdTIZXF6tNyu_eNGeGk2nxlNg1HDUcWoFyo2HP0p5Ua2GkUK1xPAP3LV3T85k0M8A3rIv8qyCvNZhf3953QX7MTO4hNnGBY6Dew5yAyLqklR4T-Qg4PLE4ptCsdS5U3rt0XF9tMnD61VcAuoElxOfQtUhS7vMx46Izma2MJD2J3zO_DBUiBhGk0KySQcBzPwQaBUsXTjZ-hXsC1n9bWdf7phVZvYwhWZ0JyiSrBaooMwgbFyS_6czodYTc_WKIfmbia6pexSxB9f8ey3WmMhQ_ctcRM&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
-      "source": "google"
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/saraybosna/sniper-alley-_ulica-zmaja-od-bosne_.jpg",
+      "source": "firebase"
     },
     {
       "name": "Soukbunar",
@@ -3799,8 +3799,8 @@
       "tips": "Merdivenleri tırmanmak iyi bir kondisyon gerektirir.",
       "tips_en": "Climbing the stairs requires good condition.",
       "id": "soukbunar",
-      "imageUrl": "https://images.unsplash.com/photo-1565430852026-626a5929255e?q=80&w=800&auto=format&fit=crop",
-      "source": "unsplash_fallback"
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/saraybosna/soukbunar.jpg",
+      "source": "firebase"
     },
     {
       "name": "Spajalica",
@@ -3851,8 +3851,8 @@
       "tips": "Mangal yakmak serbesttir (belirlenen alanlarda).",
       "tips_en": "Barbecuing is allowed (in designated areas).",
       "id": "stojcevac",
-      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AZLasHqzU8kXTOfoSCY5cOQTi1rAKEBu385kiKiUC1GS-l2aA5qMgYpipk8lSWVUX3llfRJEi_EO7ubkqrjO2Jc7pVgINnBu95Ye3V920cqAF0kPZN4WTofQ-7fpnHyvdLZs3TUcdMmAFZUtbcw_uMnd54-72dNO0iJ-tlkO0NKZmkE0t9p1qpZUCwTPMWSAUtHk393VNMpaBW-4VfPeD4dTBYIWoLPr3a_3jgbA2fhM0mJFENZCnYcqHD4uZxcQCDcsBJ40A48l0apurFaBFEj7KzwVUyco3cb9rc71hcjn76N7ybF7xapKpIzB2tjcxRus0SfGytM7_SuRUZVQA8t_jSjQjkdnbK-x3ASVzmDoxSUBRiN0UakbQc664vrr--2R26vFm-z6ZYEqjPLFP8h0hh5sYJNqNh0p7zcDrHcuXQTaJV5v1Xerpf07i7gy8g_A_bQxCj26K1KMJVERm-cgDFg6aidFeyozQvQOLgT9wqUBqRB-UDHEV5-dKdQFBFDiCxE_qDalfXusxVf7zC8lT6bjLJyokYspoCvWp5rs25DiT5cxJOs9icVK_-ud28FNeFgWLjlS&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
-      "source": "google"
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/saraybosna/stojcevac.jpg",
+      "source": "firebase"
     },
     {
       "name": "Suada ve Olga Köprüsü",
@@ -3987,8 +3987,8 @@
       "tips": "Hafta sonu yer bulmak zordur.",
       "tips_en": "Hard to find a seat on weekends.",
       "id": "talks-&-giggles",
-      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AZLasHqBuaUzO44HtuDGI2jhzSsJLGPEI3rAgmwrUcPWrAzBM9D9XkwWSczKWe4z_-EDIGwBG7ObNA4p9Neyc4iViPdVTggJNgfe9hjtMuFcZBfq_-twTvVFDMZglngkVh5lpMWyIYAGOodHkVNi1axsji5gv_b2B30Nx5pMTi-avK5pn3QDFEHksa8u6SeY1epwqzBVN6hEHcDKJWpVkCn3u965apv_30BM-r34ON8_y0_Oa8y_EdGxOzz4dPJatNxr-RiC9__bhMvSCZFC8-7i3Vq6l0hzlIEaGFyzw-h6d8ts0Di1fUjPgoYIqL_SLvfriKU5Wuw9UpgTsyg7-ic_GyYVFbw-GFuQR_NZPr-fYImGE57WKrqxLX_wOziZksTVTpcBti-DdMltuZkYkL2_UMoMpaKdUnVnePXf2XwntQj6ZWTypiXcOmp9G9OkkiFcd9z_BtrhkHfMjmM0M0spihuQGDbUEz56r1hXt0UJgdJ8PurOEBufxtMKKG8fNFn3Uu7UaDyaC2_kaIL664feP8bDIbiwMAbVLZ9TtFnwIJGmDmKXX0CNkeYxHntXqpLGImm_AEf6&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
-      "source": "google"
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/saraybosna/talks-_-giggles.jpg",
+      "source": "firebase"
     },
     {
       "name": "Tarih Müzesi Cafe (Tito Cafe)",
@@ -4068,8 +4068,8 @@
       "tips": "Sahibinden çay önerisi isteyin, çok bilgilidir.",
       "tips_en": "Ask the owner for a tea recommendation, they are very knowledgeable.",
       "id": "teahouse-dzirlo",
-      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AZLasHrcst4MwJKH3AvI-8Cloj4HygdiS4ASJvKz6AtnHR5LDWJioZzxThQN_LoGTY1IpqwXdGlExpWVlzp462gXOUAw1FvvEZfeDHqlA9jc_UkV9pbXcX-FaXe2e2A0rWkRmZ9BdItkWPnYjByxOFkY_Psnbx8gRrZPK1cKd33ypwobrHYJjmHAn1tTrhghF7RLq7j_AqW04KVME7pkAiVCVuu0_TSyBAnVdhSn37Xp5x-goD7PUg868VRjtVAXIuP0XuSnJrPHr7f-CbmMXQCQ84jTIElwcYOoeRCYh8SV_c9KLIcM_sTBIq5JHu9kFpw6siGbaVoybtsuIZdH0NupCiEzfOB2o6N6OGmkFOGUX87RKt1WBUk3m66yHMHqayOE-M7mVz73Ac--1M3bmGnUWKjW0OLOYW-8m-kCu5IF__s3w0fdoFeG445nxGCf3nAuoNhlx564anO57QShSR0X1nGyiYhp_ZeNqA7x7NGGcAYgwp57CTQoGby-8bauA1LoWQ85NjQUED1KQ1lS6unsfUqByPk3Y4MGVzHp-cmjrYvgbigrh4-rgCVE8euahU2gDAMPI-JD&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
-      "source": "google"
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/saraybosna/teahouse-dzirlo.jpg",
+      "source": "firebase"
     },
     {
       "name": "Termal Riviera Ilidža",
@@ -4120,8 +4120,8 @@
       "tips": "Yerel IPA biralarını sorun.",
       "tips_en": "Ask for local IPA beers.",
       "id": "the-brew-pub",
-      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AZLasHrMLBBih71-taHBARvXjs-THKkzYdi6gaj2oknTBteiBTkOrlrN5_APeqnaa7cOZ9jRlVsIbM3BqTr3CfzfGyksoMwgoP-0df4SbIdixR2J0IDd18r72GD38NBVQa_CfUzcmOdc8-dcrPIpE2EFCWEITK-t5fq0Wofqx_kq4SQhKWmk45uGZvc5yuvwVt35ZJBo7byi37_VT9EMmO9DGcjfkFDiGUVKJ6WmctcqOqx6LfIi3PBjk3ZivbvaMdy1vB0qUJqaq-qhiDrSLmxvOLktdIPLUFuHIzDSZlxAbYBu_xOOxXg7uIhz5ZWl6KrR30sNqBI0g6C3lirkRcNbS4ygkOxvvBWqE0OrVNfFCiduWBbraBr43aMl75J1il4tGEEE9--nUV0y9QyWys2Hr_EXAdaZU-RgkGqdAMrgDsDMgiqm8y4AWj3bVPg767IXPaM6f0ElNe02SynHcSxMC5LLqsZ7O37k4E-uXvumagn_Ve0XLw3_WEoXCBGwm4uh1PJAp0JKuZ6C4Bd_BaJalP_4mmVQ83mUKfgEgJXet-uFXX8GEUH2ix8PakSfhDZHPD82XD2n&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
-      "source": "google"
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/saraybosna/the-brew-pub.jpg",
+      "source": "firebase"
     },
     {
       "name": "Torte i to",
@@ -4172,8 +4172,8 @@
       "tips": "Arka bahçesi varsa (mevsime göre) orada oturun.",
       "tips_en": "Sit in the backyard if available (seasonal).",
       "id": "tracak",
-      "imageUrl": "https://images.unsplash.com/photo-1565430852026-626a5929255e?q=80&w=800&auto=format&fit=crop",
-      "source": "unsplash_fallback"
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/saraybosna/tracak.jpg",
+      "source": "firebase"
     },
     {
       "name": "Trebević Bobsled Track",
@@ -4198,8 +4198,8 @@
       "tips": "Parkur boyunca aşağı doğru yürüyüp teleferik istasyonuna geri dönebilirsiniz.",
       "tips_en": "You can walk down along the track and return to the cable car station.",
       "id": "trebevic-bobsled-track",
-      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AZLasHrzBq0GyuFEuXeh-HzI22qc4q3FCqk8wRBM9fXHi8TGKwADV97bw8WSFH0_Nh-6YMsIfsBDoVzuC_Hb2XTT_XSaXcuhiJxRVY3S2tR6xk7h6p97QaTzlFxPBTPdVLTMa4YaMV7GRmzgZS1Ek156J8LRNJKDx4s4Yi8NS1CBD9_GY484ogRkr1ZMyKzZ4ktO0Gv_l-XtNVc-bKEBH3XRwPqwQIpJPaf7LFFayZ4llkg1AMKt3BoVPApnkzW1rQNT0_CKJ2VNdJ5Zt3ml9ZNQNofbc2CUUyAKYI55BknqpM51EMhAV_iaqlKWTWrdOeADA6rmNSe_F-YA5e-XUqekBl5Hrf0EjfqwP6H9HvIed1iY9YM9Ru6Te1GymaFV1z7CyX2v_2cu7vEJolcSyswACjU8HfB4dSdqjrsyUj1lrlJGajg4TQ4XqYG9VpuZFZrR3vnD01rwUM86n401epReOVG2aHkdAs1yDPrlC-I7XF0ByAr0asoOIMLqH9XiTCfELUDG-ewL6tJn6qpn1cfZQNuQS4-WBCYYNcbiQCu8zGWnacmrT1MPITAINPvMOlfczdImiUM47NRZyg&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
-      "source": "google"
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/saraybosna/trebevic-bobsled-track.jpg",
+      "source": "firebase"
     },
     {
       "name": "Trebević Dağı (Teleferik)",
@@ -4303,8 +4303,8 @@
       "tips": "Köydeki caminin minaresi alışılmadık bir yapıdadır, dikkat edin.",
       "tips_en": "The minaret of the mosque in the village has an unusual structure, take notice.",
       "id": "umoljani-koyu",
-      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AZLasHpgm6A9fmc8uK0-3W1PVKOx9lF1HJ4Z29OyLohkeuojo2BlBRXUgD_IWevrHngTLZWG82ca-2RSO79taTIJDgk-POGkq2LDYJe9OGP7_K3w1niohM7viLK2fgkrKywiDcTY7yJLc-npnoj8lN6gVCc8IfT8m0q4S8BVbyBpBWlPauRApHKmE-uJFymFgVl3ey9eCJy09Yf-2lp-FXCUAEvhH5zeLnaBzYKYx7KUhasn9wC_qLA5KqIVGR43VxnHlPtGdNk1YZ9DprEEjrcCcAujoWxAgCTcGari5C9Rmlo3OuckXdlUJqnRb6OWn1Fxwqow0d0bvkPJfBQ1E2lMYw57NAStwEu2Y6C6WHolTODP5-eL6SYJtM6Ko5mNFFLVUlspcAdjb09Lmzd-ZYWReWJk-g8deEer4KoQXjrYnWnCHFq_X5BWF0mpH7m28t1PE1did7q-2JraxPQTRK0CS4BXe1p5IXKCKLXwW_SZpLBYNAsuJH4zK9z2S4CmsoMR72TUj67HfLboLnW3wg-h9sPPbKmuCxI-Mijotgadrxv1v5QvMV8MCswgDuo2zEg34rC3J6sh&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
-      "source": "google"
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/saraybosna/umoljani-koyu.jpg",
+      "source": "firebase"
     },
     {
       "name": "Umut Tüneli (Tunnel of Hope)",
@@ -4408,8 +4408,8 @@
       "tips": "Faytonla gezmek klasik bir turist aktivitesidir.",
       "tips_en": "Riding a phaeton is a classic tourist activity.",
       "id": "velika-aleja",
-      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AZLasHrI8y-bYh0i0xvN4dXboO3E6QmuS4PGIKNUi9XRWHL_gE3uQVek2GBhHiZBUUX3U5xdTZVJBcp8WDzokWn7ILZeGQ-H1Vikk4Z_6SHLwEURWd8rEVaqFKfMVCgQ454YyBsMBJ8pbwX3ktac0oQwK8TB655oe1pCtTKy13y--dbpRUbZZDTKxRqcK--8TcYQK8soxLvXKNTSTryz9acOI0jDXMDrR_6Lx7JMGdMDg6ygLXMSSA7cHwLpODUzyvqEjxf8KdZKF6lyTarO-es-Op8zOuNupCTV-Opx2aGmuEVLxztvgBWtvzj-kS4LRDn2di-PP6KOcJpYJdKqz_iXLqOtmIHmOHpvUamYrEJIpG-l91TwjPq3lLsrpN-nDGqidRTCsXHwMvt5TkYtDcWxRnbsOaBV7mEEJkXxy6nRCyX-WTu595fUiQZPmQWo9W8Hz5WBNrfX6uTqcNu6fkCWuqdNgQcCqsY38HKtLp2yAXmcbiGVxCYl786DCB64wV3u-7K-4kss0aLJ7gdx6EpVI2deIEj0jMgtlQaC0XyioG732Ee1oGDPz6blaiYn4bK9VpeVxuKi&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
-      "source": "google"
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/saraybosna/velika-aleja.jpg",
+      "source": "firebase"
     },
     {
       "name": "Veliki Park",
@@ -4460,8 +4460,8 @@
       "tips": "Buradan şehrin ışıklarını izlemek büyüleyicidir.",
       "tips_en": "Watching the city lights from here is mesmerizing.",
       "id": "vidikovac-zmajevac",
-      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AZLasHrDhghpnOErDH_AB45pVE6F0EnNtAEnKPLQuqQP90uj9ltKwE-JvifolUeGwuz0e2nxZokBhHyKMSrDcItc1WHLb_DDKGvLlfkUP10FGRok8c-7N8m-m5pyAHZ0h9y9n7_mdtstNhSWzJo7IbR0cLfxnV9LxWp5jUWoNl2nJIxq1rnqj-zQihPbS7A8d7hDwjLSkghFB8kLAYzh0n1qJPzRY381gOFpCOUFEkDbUV6DbHOttd_8S8bQtIgcd9xzy4yyaXQUKU9kZMT3Mt1BAr2scqiX4e4ySHp6qCz_-Ak8A0WL1_5kSJB_B8LcTIUzMQUFhu8SXJgFCmyXo16ADxTHGEfS2q-zEFqwkc9sENTo_WVIeF6x67isdCkDGRYakYvu2qUdf0anCrY6x3ABCLC49YeVOSYJ_FwRLO_q9PsV2XkMtyPAt336lqaV8xfCqmu7Wo5Ns8QN6dN-F6hJMGYaZAdrOGHaEWtu-fi_vQElxjH4RaZPmHAdB7JExPAxjMGCj2nqUA0q6dwmZZIiz8Tq5e0-O-EqPS6wsAiqZTvr0Ie5qRU9aK50ks-F9mQZllfSdMcI&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
-      "source": "google"
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/saraybosna/vidikovac-zmajevac.jpg",
+      "source": "firebase"
     },
     {
       "name": "Vijećnica (Belediye Binası)",
@@ -4513,7 +4513,7 @@
       "tips": "Duvarlardaki isimlerin çokluğu savaşın acı yüzünü gösterir.",
       "tips_en": "The multitude of names on the walls shows the bitter face of war.",
       "id": "vraca-anit-parki",
-      "imageUrl": "https://images.unsplash.com/photo-1565430852026-626a5929255e?q=80&w=800&auto=format&fit=crop",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/saraybosna/vraca_anit_parki.jpg",
       "source": "unsplash_fallback"
     },
     {
@@ -4696,8 +4696,8 @@
       "tips": "Şehrin gürültüsünden uzaklaşmak için ideal.",
       "tips_en": "Ideal for getting away from the city noise.",
       "id": "yedi-orman-(sedam-suma)",
-      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AZLasHpZpNA2Gpe3HYbPmqHm6FAoF7vo0hxLe_bLOuuSvbbm_Pv_Wpx0yg_CUB_S7cqHPX1byD9k0BhAY1ELcHFgnYWYiav3zwtrQdbBVjtZrv6KwsolgS4KoDqbdheQ0f5EQf1RFwrTkJM0pzm9n3iFq1fhXZJxGVM5VeJT4HrT5cuns1QQQ1DIiSpdYLVQRRII_1V0TE5HcmTlbBTVCw-DRSleJ77YJxjzzXrGWOqnn4zeFAOZdCImdwar0DfjucOLQNMfW7lMGwNEebSu_FzatI5SFQpakf3zgEk8pOYe-dDjLyKe6ak&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
-      "source": "google"
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/saraybosna/yedi-orman-_sedam-suma_.jpg",
+      "source": "firebase"
     },
     {
       "name": "Zlatna Ribica",
@@ -4749,8 +4749,8 @@
       "tips": "Dağ evinde fasulye çorbası (grah) içmek bir gelenektir.",
       "tips_en": "Drinking bean soup (grah) at the mountain lodge is a tradition.",
       "id": "cavljak",
-      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AZLasHrp10H6QrKzd3JA-KauUbqylYlM7kU1JjrQxCE77aj7VerlwZuGTQSeZRCpw_x1raLcwVQ6xdSRraXfalg38VPiWFVz6yRzjizIETaCZa8ti6iuJkbqZ2b6y7j_xQkDae3sEBKVC4aXOnZfnfigykj409A1s-2zMyS2cGziqmxSo6ubIrv63YKghyMfBx3qAvA4CqQ5zjygRN-DshDIMcp_EsHTiGhRISj0C7Fjv5QQ7Ha7cF5b81tk1dSvaf4-XEej39omxj-4rpal0qU1ueRjf5joWLeHSJLjj7lbuC5cUN2-DZk&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
-      "source": "google"
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/saraybosna/cavljak.jpg",
+      "source": "firebase"
     },
     {
       "name": "Çaycı Saray",
@@ -4853,8 +4853,8 @@
       "tips": "Avlusu çok geniştir ve nehirden girişi etkileyicidir.",
       "tips_en": "Its courtyard is very large and the entrance from the river is impressive.",
       "id": "i̇mparator-camii-(careva-dzamija)",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/saraybosna/i̇mparator_camii_(careva_dzamija).jpg",
-      "source": "google"
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/saraybosna/imparator_camii_careva_dzamija.jpg",
+      "source": "firebase"
     },
     {
       "name": "İmparator Camii (Hünkar Camii)",
@@ -4879,8 +4879,8 @@
       "tips": "Caminin arkasındaki mezarlık bölümü de oldukça tarihi.",
       "tips_en": "The cemetery section behind the mosque is also quite historic.",
       "id": "i̇mparator-camii-(hunkar-camii)",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/saraybosna/i̇mparator_camii_(hunkar_camii).jpg",
-      "source": "google"
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/saraybosna/imparator_camii_hunkar_camii.jpg",
+      "source": "firebase"
     },
     {
       "name": "İnsanlığa Karşı Suçlar ve Soykırım Müzesi",
@@ -4905,8 +4905,8 @@
       "tips": "Ziyaret için en az 1-2 saat ayırmalısınız.",
       "tips_en": "You should allocate at least 1-2 hours for the visit.",
       "id": "i̇nsanliga-karsi-suclar-ve-soykirim-muzesi",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/saraybosna/i̇nsanliga_karsi_suclar_ve_soykirim_muzesi.jpg",
-      "source": "google"
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/saraybosna/insanliga_karsi_suclar_ve_soykirim_muzesi.jpg",
+      "source": "firebase"
     },
     {
       "name": "Şeher Ćehaja Köprüsü",

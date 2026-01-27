@@ -145,8 +145,9 @@
       "description_en": "Popular bar located in hipster area Krymská, offering countless beer varieties including their own.",
       "bestTime": "Akşam",
       "bestTime_en": "Evening",
-      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AZLasHrhLQxOybLQ3JVRTGvEmkeoAuGHB3IFy_dmW5mTmGLgdaVshqQXVWQVfSp_PCwxwwFJDnPqHp4o8vPUJ5SYxhf6dQE8gNoSyXCPcMvNr0uBFG87Wshrwdzu87cvVCjytGvN7Jx1QuLodv-L3u6u3-lUFLKX5BvMwuzUmmH6Sg-dSGvwoASc-Td5NOPnY7GpDPKGzHYJwd1oLMxG-jPEoYYjbe9UB40NehjUJtQY_vJSc4fTZX1BOssvi0tLpF1lg23DjXpBlXNPf19S0fb6QKWsn_EgBiZ_l4opVcAHMQGk7YQVc0M1lFYC0AwzeumQq8pHRJWJZNBujzWwCJLrss2XeGtfqNAMpc6VWexpAqhzY5Edme3mInLoRQkR9YC8QKeGklwLFV_ue0X91bwRxHrWiT0pyHjknCWsZxlfQoIsAHp2qC-BW7uTzrkCRDJbhJI7s7uWpzY6KJQKG_ZcRTINqZ1Q-77MYw_qLSDpyeqJHlMqDQ8gicMfW2Zgxn51qz6vsLPNuHF_5IziQ7bagJCy6oyHF6GFxeNWPnt29r4ZjrOAVMjeNnUBiyRY97fnAopI2YVk&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
-      "id": "bad-flash-bar"
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/prag/bad-flash-bar.jpg",
+      "id": "bad-flash-bar",
+      "source": "firebase"
     },
     {
       "name": "Banh Mi Ba",
@@ -283,8 +284,9 @@
       "description_en": "Boutique bookstore with carefully curated books. Focus on design, art and lifestyle. Like therapy.",
       "bestTime": "Gündüz",
       "bestTime_en": "Daytime",
-      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AZLasHqH6a34w7VNckXvysjc5K9doyOSRAOr15drha5ThRzBFMPEddRqgQ7j-8sPvIuYdlstYxaUCOBe02wmPng9rGEEEOQxqz17LBC06Cv_JiPJT-61bmeBx4EdtMP2-GEEZLLsKu2IVwrICc89kDauKJl3ai9m7gadw2ha9Xk-s__xhcxA7r2GaiTLMRNPXk_w6dCyyV6T7p0fNjxuXWAMGklJ91L2ws5t0O4Noqgy8PZvr3IvIWKIF9Nzwu2-1oQZSUL_ZiAErwYBS6jrHcMUKo0gIIQxKzFrLrNeoTl9wX4Pa6VXs6TEqLHzsddMnkvz_SD3h3Ri_XjNda-N2fAMZ33wNJl2J09-d9O4Fm5vLsN91BgYszPkMAhiTAOPO7EXHvkkO3Ja5XIyHQnsd4z6795xRMGTPtWBf9_I9lIZAf46QGoMoNic2bzBuvmwTyVUcSqSN_8IsBCwe5A2nQtRDc24u185t4Pns3d5jQ_U21vVXF42VlJCM7hngbdiGd_jIGXu_S0fyTWQMl-72AZ3apgwU-_fN6ZU7X1m9eEvDpes7E_mEuJvEcyfD-5ejFzspa2FXvtI7wD1xA&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
-      "id": "book-therapy"
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/prag/book-therapy.jpg",
+      "id": "book-therapy",
+      "source": "firebase"
     },
     {
       "name": "Cafe Louvre",
@@ -644,8 +646,9 @@
       "description_en": "Known as best ice cream shop in Prague. Legendary Italian style, thick consistency and natural ingredient ice creams.",
       "bestTime": "Öğleden sonra",
       "bestTime_en": "Afternoon",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/prag/crème_de_la_crème.jpg",
-      "id": "crème-de-la-crème"
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/prag/crme_de_la_crme.jpg",
+      "id": "crème-de-la-crème",
+      "source": "firebase"
     },
     {
       "name": "Cukrárna Myšák",
@@ -761,8 +764,9 @@
       "description_en": "Competes for the title of best burger in the city. 'Dish Burger' is their signature. Reservation required.",
       "bestTime": "Akşam",
       "bestTime_en": "Evening",
-      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AZLasHp8moX6EHiDOsffxSjS9bV_xKg7iZczUbHFkoEBHif6yqHpbV_7CEQ3wO7aeKNZmY1Tx7rUUTgwMfRQDajOKwPDAqZKmN4T1gF22WMxrhXl1wnoQ7sgijlYZEWi_9kVmTlrdvpQo3uQJ_g5vy0iLL6sc4f5pvkOjGBVrbe_G9N1ul8AoT_5mxqx-hGW5lVPUSBGMGZl7pEEypsStaXF8oTPsdO3fP_Cn8zDdAH0SfWZh5CiNUPmBCVzezY-yoeaa89FKVElPskRDBXHNQ7KxCalWGW3mTKFhG_7xKWqU7uKWgP7vPU&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
-      "id": "dish-fine-burger-bistro"
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/prag/dish-fine-burger-bistro.jpg",
+      "id": "dish-fine-burger-bistro",
+      "source": "firebase"
     },
     {
       "name": "Divoká Šárka",
@@ -901,8 +905,9 @@
       "description_en": "Bakery and restaurant together in an old fabric factory. Michelin recommended place meeting traditional with modern techniques.",
       "bestTime": "Brunch",
       "bestTime_en": "Brunch",
-      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AZLasHrNJEmDIxVrjhRMbGOlLge96rse3pmKI-q7yWmqQotoDjxpet7FfXb_omq64LmFb4S2klSPSa4gWYRyoh-D_sZ4ry2cwfTzo_qoXT1VNVdlyzrLKcgXeSVZ0B0FxMG4ebEMQKPIoaOYeEsjKbJBM5oVYEJgPlea-h6YkueHHIom0HI08ZrTYnJjslJ4gWuTo9QYnRIwXrFo_wVId4ucuYXiGZjbzn8EnGYrRY5A1z7LtQkW0gYYZ4Uu8ht_cXZotE7WYSKjWr6aJDTscTHLhn5UrY5pwbhfsqBxy5o8jCbi6byjmek&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
-      "id": "eska"
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/prag/eska.jpg",
+      "id": "eska",
+      "source": "firebase"
     },
     {
       "name": "Field",
@@ -917,13 +922,14 @@
       "rating": 4.7,
       "description": "Michelin yıldızlı yaratıcı restoran. Yerel lezzetlerin tadına varmak ve keyifli bir akşam geçirmek için harika bir seçenek. Samimi atmosferi ve kaliteli hizmetiyle damak zevkinize hitap edecek unutulmaz bir deneyim sunuyor.",
       "description_en": "Michelin starred creative restaurant. A great option to taste local flavors and spend a pleasant evening. It offers an unforgettable experience appealing to your palate with its friendly atmosphere and quality service.",
-      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AZLasHq6c2fdBNdh9RQtlc0Uvn9g0cXsYRSCho3hT8CwKdRFMloGf1NKiSkhGYz794lgdijB3O-3n7mtMI5mrGA5zoG7iFiRDU3dR4-tb7OrzgK1bNSo9VcDUzEhfFFWxZbpEDAQ-11LVmLvpanJ1NxuNDUZPNnSAYP8SVHfqJbLZJA4dd172uXjCmDPASa8VYXkNPqhPOoBzleXPHw1FS6seTZtsH91HwxhmIGYpDr2MSzKOAvQxeF0ycOnC_uCn8czJMW_DMwGdeMT2twLszbEnBB-tuHnsQWRPZVyS8UpIRnaAKAc-5LIVZp8Oj5HzL3xJVEFhTnLmC7KOiRkFGZ_b6sN3LsCYew7A_bQp11um4nEpH2FKvTF418s3D_viNU2tfFvVd2YQdnGGbSF6yPqO11NGJ7s80cC_EemNf44OL0W8YbkhO3KIb1YbLfDLbfAywN1IVP5q94intju-83YTspvoh7R8Gz8Woub4Zr9BklOXYhNl7QsM45Fjtk5ckhzxNvz__R68WC7wTeXlw0IRhoXZm1_VGrQssSFu57jzuLg_wVPlwFp2AP05nH1x58-dYWLgROI&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/prag/field.jpg",
       "price": "medium",
       "distanceFromCenter": 1.0,
       "bestTime": "09:00 - 18:00",
       "bestTime_en": "09:00 - 18:00",
       "tips": "Nakite hazırlıklı olun, bazı yerel yerler kart kabul etmeyebilir.",
-      "tips_en": "Be prepared with cash, some local places might not accept cards."
+      "tips_en": "Be prepared with cash, some local places might not accept cards.",
+      "source": "firebase"
     },
     {
       "name": "Franciscan Gardens",
@@ -1193,13 +1199,14 @@
       "rating": 4.7,
       "description": "Dünyanın en iyi kokteyl barlarından biri. Günün yorgunluğunu atmak ve lezzetli bir kahve eşliğinde dinlenmek için en doğru adreslerden biri. Mekanın sıcak ambiyansı ve sunduğu tatlı sürprizler, molanızı keyfe dönüştürecek.",
       "description_en": "One of the world's best cocktail bars. One of the right addresses to relieve the tiredness of the day and relax with a delicious coffee. The warm ambiance of the venue and the sweet surprises it offers will turn your break into pleasure.",
-      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AZLasHqvMNTFC337cNwnjlVt4xzySKhXHCs_DMIlsdoqx0NK_LHdRTfx87yWzrxz1MviETQI7gHscxZMEUUav6M-rJRRbeyp-JD7LFqOeMixNwp6_4sGtQ20B_DR4fKa6-T_hfwNO8UrlLSexzfQ7XdaonN0VNqVsOguc3uoH7NsEksiApUl-x9IrdpLlqSmSlYEpKN0EuBFN_xNvzBfm8gX-gNL_xUupVX77m1lEVVMvFwpjlshymI5iFZFCt4-73S1f8kKK-jpPG9mj7V9TNkRcD8-RN4IAOo0ZinpMxzlrv6BFaUj0VU&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/prag/hemingway_bar.jpg",
       "price": "medium",
       "distanceFromCenter": 1.0,
       "bestTime": "09:00 - 18:00",
       "bestTime_en": "09:00 - 18:00",
       "tips": "Dışarıdaki masalarda oturup gelen geçeni izlemek çok keyifli.",
-      "tips_en": "Sitting at outdoor tables and people-watching is very pleasant."
+      "tips_en": "Sitting at outdoor tables and people-watching is very pleasant.",
+      "source": "firebase"
     },
     {
       "name": "House at the Two Suns",
@@ -1244,8 +1251,9 @@
       "description_en": "Elegant cafe inside historic Werich villa on Kampa island. Desserts are like artworks.",
       "bestTime": "Öğleden sonra",
       "bestTime_en": "Afternoon",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/prag/if_café_(werichova_vila).jpg",
-      "id": "if-café-(werichova-vila)"
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/prag/if_cafe_werichova_vila.jpg",
+      "id": "if-café-(werichova-vila)",
+      "source": "firebase"
     },
     {
       "name": "Idiom (Book Tower)",
@@ -1418,13 +1426,14 @@
       "rating": 4.5,
       "description": "Modern yorumda Çek mutfağı. Yerel lezzetlerin tadına varmak ve keyifli bir akşam geçirmek için harika bir seçenek. Samimi atmosferi ve kaliteli hizmetiyle damak zevkinize hitap edecek unutulmaz bir deneyim sunuyor.",
       "description_en": "Czech cuisine with modern interpretation. A great option to taste local flavors and spend a pleasant evening. It offers an unforgettable experience appealing to your palate with its friendly atmosphere and quality service.",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/prag/kantýna.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/prag/kantyna.jpg",
       "price": "medium",
       "distanceFromCenter": 1.0,
       "bestTime": "09:00 - 18:00",
       "bestTime_en": "09:00 - 18:00",
       "tips": "Nakite hazırlıklı olun, bazı yerel yerler kart kabul etmeyebilir.",
-      "tips_en": "Be prepared with cash, some local places might not accept cards."
+      "tips_en": "Be prepared with cash, some local places might not accept cards.",
+      "source": "firebase"
     },
     {
       "name": "Karel Zeman Museum",
@@ -1485,13 +1494,14 @@
       "rating": 4.4,
       "description": "Nehir manzaralı sanatçıların kafesi. Günün yorgunluğunu atmak ve lezzetli bir kahve eşliğinde dinlenmek için en doğru adreslerden biri. Mekanın sıcak ambiyansı ve sunduğu tatlı sürprizler, molanızı keyfe dönüştürecek.",
       "description_en": "Artists' cafe with river view. One of the right addresses to relieve the tiredness of the day and relax with a delicious coffee. The warm ambiance of the venue and the sweet surprises it offers will turn your break into pleasure.",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/prag/kavárna_slavia.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/prag/kavarna_slavia.jpg",
       "price": "medium",
       "distanceFromCenter": 1.0,
       "bestTime": "09:00 - 18:00",
       "bestTime_en": "09:00 - 18:00",
       "tips": "Sessiz bir köşe bulup kitap okumak için ideal.",
-      "tips_en": "Ideal for finding a quiet corner and reading a book."
+      "tips_en": "Ideal for finding a quiet corner and reading a book.",
+      "source": "firebase"
     },
     {
       "name": "Kavárna co hledá jméno",
@@ -1513,8 +1523,9 @@
       "description_en": "Transformed from an old carpentry workshop. With its courtyard, brick walls and breakfasts, it's the coolest spot in Smichov.",
       "bestTime": "Sabah/Öğle",
       "bestTime_en": "Morning/Noon",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/prag/kavarna_co_hleda_jméno.jpg",
-      "id": "kavarna-co-hleda-jméno"
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/prag/kavarna_co_hleda_jmeno.jpg",
+      "id": "kavarna-co-hleda-jméno",
+      "source": "firebase"
     },
     {
       "name": "Klausen Synagogue",
@@ -1896,8 +1907,9 @@
       "description_en": "Old structure (mill) on Petrin hill transformed into a fantastic world by an artist. Like Alice in Wonderland.",
       "bestTime": "Öğleden sonra",
       "bestTime_en": "Afternoon",
-      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AZLasHrYQol-cVvupXYDFg8VxDsl6MblAiOshbFUCoEjfPEWEGAxJWgKHsNl4-i7YLhjvA_Z4t997FVOFxvu73TakvZOhvtXHz3DMaIjTMGFqipg_iD5EOtXrJjW0nsipoY1XnTIyj8nPuNU3UXMRFuIsjASy9BLTKqhE5DHgi5VtRbdYvwojSwJEXU58RIv2fTDPG2iXm5Ah4SFMDNjvspBpBjNVLXhzZicdUyScCYa6punQNa_xJTVPtKDSuGLe0ccUKDgwJ0-vtWnFDbf3SaZxvKfprImmosVMPpHSN3L2HwAfpOXFicDnfg64LNxWWdz9AYNGbzFeJMyUR7faF_TiELCbu1tiW1RwvS8XlI717sXXW1V7GXmYnF0C6s3Z8vxnSbUaZrFKjDatvPkxeF366AJm1y6jDLURnF8LeFeCEpFjn2I04-h4V92UWKmvNSmJVFsIsdQLpfwP2HBsW6CgmugePTq46zhvokWT7WYsGnUqP5T2Yp7LLk5C0mE_Ie4VdwytX5SpxHJ5qiTdI17D3L_APF-YVBp1PyjfH4oxFYqm_pQKp0vEPJt4jVJQpEpFZDfPw&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
-      "id": "magical-cavern"
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/prag/magical-cavern.jpg",
+      "id": "magical-cavern",
+      "source": "firebase"
     },
     {
       "name": "Maisel Synagogue",
@@ -2174,8 +2186,9 @@
       "description_en": "One of the spots that made Karlin popular. Doubleshot coffees and English breakfast are very good.",
       "bestTime": "Hafta sonu",
       "bestTime_en": "Weekend",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/prag/můj_salek_kavy.jpg",
-      "id": "můj-salek-kavy"
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/prag/mj_salek_kavy.jpg",
+      "id": "můj-salek-kavy",
+      "source": "firebase"
     },
     {
       "id": "naplavka-farmers-market",
@@ -2604,7 +2617,7 @@
       "price": "free",
       "lat": 50.0861714,
       "lng": 14.341556,
-      "imageUrl": "",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/prag/petrin_hill_gardens.jpg",
       "rating": 4.6,
       "source": "firebase"
     },
@@ -2650,8 +2663,9 @@
       "description_en": "Restaurant famous for duck dishes (Bun Ngan) in Sapa. Favorite of local Vietnamese community.",
       "bestTime": "Öğle yemeği",
       "bestTime_en": "Lunch",
-      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AZLasHpPHZbXPjNPwJYut95EfHfStXrzzjTOBAeZvWiUXugfeX06WuKw_u4ei3_5x95dfrtvPq2BPkmGZXi9golxsLjZfmF1Xxlz4KtoZq5_X-Hzibheyj9WuWu80Zmm_z0_9yEyhMjPJkXMgmzJu-9ZniIZhRJmlYfiXjv32O54Me39AsRR2UNLYWGRd_2WAuauljmV1DuEvj3fDaCFGslN2u_kCrrXrs5vc61m_WDHxkzCUudXwBCJfj7HH23aR6cuZL6lYI_z3N48NYDvf-O9T72lOVObFm0r0YH8mrVW7905WoW8Y51WDnPNEIv2Hr4jLEDdoiVUrAwcnUmC5vvYS2ng0mB4qkBtG4-N9PHFkiNKAANBH0vsjaApk3x2Ro8nUyS-CqJ0h7TEEianMsUOL9t-QCuzi6Sg4r1eprW1DbUNTw9hKXNhqDxFq8XgzXyIG65Y4GSa6lhO-Ssa-4ojexkNw5iQ-GSlmIk8zeFj0uCKW91GG5lHoNiyqDmIFaCYAmDgIuFWKQCxJNlUwu5tZy7aRgnCA8uW-WIb_AFWk8NHSJKU3lod5AmeZCaR_xNiQqA-S66MGLVS4oTWZU2we_fTkjw&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
-      "id": "phở-tùng"
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/prag/ph_tng.jpg",
+      "id": "phở-tùng",
+      "source": "firebase"
     },
     {
       "name": "Pinkas Synagogue",
@@ -2696,8 +2710,9 @@
       "description_en": "Spacious restaurant brewing its own beers and serving traditional Czech cuisine with a modern twist.",
       "bestTime": "Öğle yemeği",
       "bestTime_en": "Lunch",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/prag/pivovarsky_dům_benedict.jpg",
-      "id": "pivovarsky-dům-benedict"
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/prag/pivovarsky_dm_benedict.jpg",
+      "id": "pivovarsky-dům-benedict",
+      "source": "firebase"
     },
     {
       "name": "Platýz Passage",
@@ -2888,8 +2903,9 @@
       "description_en": "Reliable address in Old Town providing quality and authentic Vietnamese dishes for those with no time to go to Sapa.",
       "bestTime": "Akşam yemeği",
       "bestTime_en": "Dinner",
-      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AZLasHoZATclMcF0F5wBe6gi48nYrfGCMmwXbOyMmZQrQdPs8LZQLRLr3eZd_LQhlla2RdozH2vCOo9vQoM_Df8K-vOFp2sVgWPrN3sxjeqXi0NDNsIJXEAn_FxHrDpz9Ym2yTM6eQRSDop2fg9eBFn7Z8spsiZSpTRbDGHY5vtm6fZG1rItPEyYs_b8Hrr8C1XrMz9apJmpdljoduxi3A9CA9twGj97x2mAcYJmBq3K2_Hjjskfyl6MBlP05LPwb9BVkrFvUUIvS1rGUuwDHlxu8Dl_UaEVD5IvqTRtP1HA1oeWT8DwMl0CVOh99hinjd61fOpGEIhLaAv7fycYYFHVTjS9ZPfQZqJMYXq0DxtIeFYBlzDhD8YEshsY9XgYzsWqVXvlmYoLXhtQ2FuBbqd6hY8V8IyJec1f74Bn3jgOfkylr8vvHd756t55A1H0jaW9Y_NaNo6X4btms0mFGfdgzn6cWFlz2SaU87wWsnPOAFXB3YqZDSD-fyBEohxiqrtBGyXRH3kKla6cq6XFXA5ndpLjOrOQaNczwZMtUwmjxQk9gOaBPAvxPCgucQaGpRqQiqIlk2-Y&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
-      "id": "remember-vietnamese-food"
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/prag/remember-vietnamese-food.jpg",
+      "id": "remember-vietnamese-food",
+      "source": "firebase"
     },
     {
       "name": "Riegrovy Sady",
@@ -2934,8 +2950,9 @@
       "description_en": "Pioneer of Asian fusion cuisine in Prague. Famous for shared plates and nose-to-tail concept.",
       "bestTime": "Akşam",
       "bestTime_en": "Evening",
-      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AZLasHo-ZL4ku-9Y8ZqKgqvbll2WHNYCIWC2ruWhqWUtUAEDZ4ZydeEx_XcmabW95zO8ws03STA4cWH45HOj_pPicFNc0r6FVeUmuqMaCnWMi_zEhs6z6Zvc0_8gBq9PQ-1DESEcPuw9zgM1kOSwDT3sBCDj3iQktlYQRLFnjAyxZOGriAiWCFDTMvfHHPA2Yb3V6hiKkzuNZRM_MwfpdfdM3cH3Jxay5lUbSveyT-vA2_ATdSWf7Gbfj71qB_ixH8mBe8cV5LltgLoHsIYtWiVLltyHW-ShXA8DwnZ0hWlZ--hNpZF8Liw&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
-      "id": "sansho"
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/prag/sansho.jpg",
+      "id": "sansho",
+      "source": "firebase"
     },
     {
       "name": "Sapa Market (Little Hanoi)",
@@ -3466,8 +3483,9 @@
       "description_en": "Legendary local, old school pub near Prague Castle, hard for tourists to enter (due to lack of space).",
       "bestTime": "Akşam",
       "bestTime_en": "Evening",
-      "imageUrl": "",
-      "id": "u-hrocha"
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/prag/u_hrocha.jpg",
+      "id": "u-hrocha",
+      "source": "firebase"
     },
     {
       "name": "U Medvídků",
@@ -3489,8 +3507,9 @@
       "description_en": "Beer hall since 1466. You can try X33, one of the strongest beers in the world. Historic and authentic.",
       "bestTime": "Akşam",
       "bestTime_en": "Evening",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/prag/u_medvidků.jpg",
-      "id": "u-medvidků"
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/prag/u_medvidk.jpg",
+      "id": "u-medvidků",
+      "source": "firebase"
     },
     {
       "name": "U Parlamentu",
@@ -3535,8 +3554,9 @@
       "description_en": "Historic pub where Pilsner Urquell was first served in Prague (1843). Its garden leaning against a Gothic church wall is very beautiful.",
       "bestTime": "Akşam",
       "bestTime_en": "Evening",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/prag/u_pinkasů.jpg",
-      "id": "u-pinkasů"
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/prag/u_pinkas.jpg",
+      "id": "u-pinkasů",
+      "source": "firebase"
     },
     {
       "name": "U Rudolfina",
@@ -3581,8 +3601,9 @@
       "description_en": "Legendary spot frequented by Bohumil Hrabal, where Bill Clinton drank beer. Only Pilsner Urquell is served.",
       "bestTime": "Akşam",
       "bestTime_en": "Evening",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/prag/u_zlatého_tygra.jpg",
-      "id": "u-zlatého-tygra"
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/prag/u_zlateho_tygra.jpg",
+      "id": "u-zlatého-tygra",
+      "source": "firebase"
     },
     {
       "name": "U Černého vola",
@@ -3604,8 +3625,9 @@
       "description_en": "Rare non-tourist trap spot in the castle area. Old school, friendly and has great Kozel beer.",
       "bestTime": "Öğleden sonra",
       "bestTime_en": "Afternoon",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/prag/u_cerného_vola.jpg",
-      "id": "u-cerného-vola"
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/prag/u_cerneho_vola.jpg",
+      "id": "u-cerného-vola",
+      "source": "firebase"
     },
     {
       "name": "Velká Amerika",
@@ -3670,8 +3692,9 @@
       "description_en": "Masterpiece of Adolf Loos. One of the most important examples of modernist architecture and 'Raumplan' concept in the world. (Reservation required)",
       "bestTime": "Gündüz",
       "bestTime_en": "Daytime",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/prag/villa_müller.jpg",
-      "id": "villa-müller"
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/prag/villa_muller.jpg",
+      "id": "villa-müller",
+      "source": "firebase"
     },
     {
       "name": "Villa Winternitz",
@@ -3693,8 +3716,9 @@
       "description_en": "Another modernist villa designed by Adolf Loos. Hosts exhibitions and is open to public.",
       "bestTime": "Gündüz",
       "bestTime_en": "Daytime",
-      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AZLasHpT5jro1mIjCk52STQla6cNqghpggwurzj9Dfqrcle20uDElgQV-_FHn3O41nqN3W68GoRVKYVS6K4t0gf5Htnl-WELZjixsoBkbAWLE_KI8xYS7UMBd_VSBoc9eDqOunMWrFSpQc_DbW4Tz1ySsMGOqPGklByRN1C-FIlM2Z5W1-beiq4qZHLV3Eln6KAqs33uolFvyYbiXv3Cd9E-L8ndn6qjBkO9eUZ59lDNEq5B1DZYEeiOp_zatMCf3xbe-7zatsbJM4VOogFsJQm7QoLVT06TBFOyvXvAzKi_BYtcRlqUYTo&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
-      "id": "villa-winternitz"
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/prag/villa-winternitz.jpg",
+      "id": "villa-winternitz",
+      "source": "firebase"
     },
     {
       "name": "Vinarna Certovka (Narrowest Street)",
@@ -4112,5 +4136,6 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/prag/zofin_palace.jpg",
       "id": "zofin-palace"
     }
-  ]
+  ],
+  "heroImage": "https://images.unsplash.com/photo-1541849546-216549ae216d?w=800"
 }

@@ -131,7 +131,7 @@
         "tarih"
       ],
       "source": "firebase",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/strazburg/alsace_müzesi.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/strazburg/alsace_muzesi.jpg",
       "tips": "Biletinizi online alarak gişe sırasından kurtulun.",
       "description_en": "Dedicated to all aspects of daily life in pre-industrial and early industrial Alsace.",
       "tips_en": "Buy tickets online to skip the box office line."
@@ -507,8 +507,8 @@
         "manzara",
         "fotoğraf"
       ],
-      "source": "google",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Strasbourg_Barrage_Vauban_01.jpg/800px-Strasbourg_Barrage_Vauban_01.jpg",
+      "source": "firebase",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/strazburg/barrage_vauban.jpg",
       "tips": "Teleskop/dürbün varsa yanınıza alın.",
       "description_en": "A defensive work erected in the 17th century offering a panoramic terrace view of Petite France and the cathedral.",
       "tips_en": "Bring a telescope/binoculars if you have them."
@@ -736,7 +736,7 @@
         "mola"
       ],
       "source": "firebase",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/strazburg/café_bretelles.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/strazburg/cafe_bretelles.jpg",
       "tips": "Hafta içi ziyaret etmek daha sakin bir deneyim sunar.",
       "description_en": "Trendy coffee shop offering artisan roasts and homemade cakes.",
       "tips_en": "Visiting on weekdays offers a calmer experience."
@@ -837,8 +837,8 @@
         "tarih",
         "şarap"
       ],
-      "source": "google",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Cave_Historique_des_Hospices_de_Strasbourg.jpg/800px-Cave_Historique_des_Hospices_de_Strasbourg.jpg",
+      "source": "firebase",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/strazburg/cave_des_hospices_de_strasbourg.jpg",
       "tips": "Müze kartınız varsa girişte sıra beklemezsiniz.",
       "description_en": "Historic wine cellar of the Strasbourg University Hospitals, dating back to 1395.",
       "tips_en": "You skip the line if you have a museum pass."
@@ -950,8 +950,8 @@
         "aile",
         "romantik"
       ],
-      "source": "google",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/March%C3%A9_de_No%C3%ABl_Strasbourg_2011.jpg/800px-March%C3%A9_de_No%C3%ABl_Strasbourg_2011.jpg",
+      "source": "firebase",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/strazburg/christkindelsmarik_noel_pazari.jpg",
       "tips": "Rehbere soru sormaktan çekinmeyin, çok ilginç hikayeler biliyorlar.",
       "description_en": "The oldest Christmas market in France, dating back to 1570. The city becomes a winter wonderland.",
       "tips_en": "Don't hesitate to ask the guide questions, they know interesting stories."
@@ -1147,7 +1147,7 @@
       "tips": "Bisiklet kiralayıp gitmek en keyifli ulaşım yoludur.",
       "tips_en": "Renting a bike and going is the most enjoyable way of transport.",
       "id": "forêt-de-la-robertsau",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/strazburg/forêt-de-la-robertsau.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/strazburg/fort_de_la_robertsau.jpg",
       "source": "firebase"
     },
     {
@@ -2184,8 +2184,8 @@
       "bestFor": [
         "sanat"
       ],
-      "source": "google",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/MAMCS_Strasbourg.jpg/800px-MAMCS_Strasbourg.jpg",
+      "source": "firebase",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/strazburg/mamcs_modern_sanat_muzesi.jpg",
       "tips": "Bazı günler giriş ücretsiz olabilir, web sitesini kontrol edin.",
       "description_en": "Strasbourg Museum of Modern and Contemporary Art.",
       "tips_en": "Entry might be free on some days, check the website."
@@ -2214,8 +2214,8 @@
         "mimari",
         "yeme-içme"
       ],
-      "source": "google",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Maison_Kammerzell_Strasbourg.jpg/800px-Maison_Kammerzell_Strasbourg.jpg",
+      "source": "firebase",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/strazburg/maison_kammerzell.jpg",
       "tips": "Fotoğraf çekimi için en iyi ışık gün batımına yakındır.",
       "description_en": "One of the most famous buildings in Strasbourg, a preserved medieval building with detailed wood carvings, now a restaurant.",
       "tips_en": "Best light for photography is near sunset."
@@ -2269,8 +2269,8 @@
         "tarih",
         "romantik"
       ],
-      "source": "google",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Maison_des_Tanneurs_Strasbourg.jpg/800px-Maison_des_Tanneurs_Strasbourg.jpg",
+      "source": "firebase",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/strazburg/maison_des_tanneurs.jpg",
       "tips": "Şefin spesiyal tabağını sormaktan çekinmeyin.",
       "description_en": "Historic restaurant housed in a 16th-century tanner's house, serving traditional Alsatian cuisine.",
       "tips_en": "Don't hesitate to ask for the chef's special."
@@ -2640,8 +2640,8 @@
         "yürüyüş",
         "fotoğraf"
       ],
-      "source": "google",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Palais_du_Rhin_Strasbourg.jpg/800px-Palais_du_Rhin_Strasbourg.jpg",
+      "source": "firebase",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/strazburg/neustadt.jpg",
       "tips": "Rüzgarlı olabilir, yanınıza ince bir ceket alın.",
       "description_en": "The German imperial quarter with grand architecture, listed as a UNESCO World Heritage site.",
       "tips_en": "It can be windy, bring a light jacket."
@@ -2789,8 +2789,8 @@
         "piknik",
         "dinlenme"
       ],
-      "source": "google",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Pavillon_Josephine_Parc_de_l%27Orangerie_Strasbourg.jpg/800px-Pavillon_Josephine_Parc_de_l%27Orangerie_Strasbourg.jpg",
+      "source": "firebase",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/strazburg/parc_de_l_orangerie.jpg",
       "tips": "Gün batımını izlemek için şehirdeki en iyi noktalardan biri.",
       "description_en": "The city's oldest park, featuring a lake, a mini-zoo, and stork reintroduction center.",
       "tips_en": "One of the best spots in the city to watch the sunset."
@@ -2892,8 +2892,8 @@
       "tips": "Kalabalıktan kaçıp kestirme yol olarak kullanın.",
       "tips_en": "Use as a shortcut to escape the crowd.",
       "id": "passage-de-la-pomme-de-pin",
-      "imageUrl": "https://images.unsplash.com/photo-1549141974-95856488d575?w=800",
-      "source": "unsplash_fallback"
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/strazburg/passage_de_la_pomme_de_pin.jpg",
+      "source": "firebase"
     },
     {
       "id": "passerelle-mimram",
@@ -3044,8 +3044,8 @@
         "yürüyüş",
         "fotoğraf"
       ],
-      "source": "google",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Place_Gutenberg_Strasbourg.jpg/800px-Place_Gutenberg_Strasbourg.jpg",
+      "source": "firebase",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/strazburg/place_gutenberg.jpg",
       "tips": "Müze kartınız varsa girişte sıra beklemezsiniz.",
       "description_en": "Square named after the inventor of the printing press, featuring his statue and a vintage carousel.",
       "tips_en": "You skip the line if you have a museum pass."
@@ -3073,8 +3073,8 @@
         "alışveriş",
         "yürüyüş"
       ],
-      "source": "google",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Place_Kl%C3%A9ber_-_Strasbourg.jpg/800px-Place_Kl%C3%A9ber_-_Strasbourg.jpg",
+      "source": "firebase",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/strazburg/place_kleber.jpg",
       "tips": "El yapımı hediyelikler fabrikasyon olanlardan daha değerlidir.",
       "description_en": "The largest square in the city center, a meeting place for locals and home to the giant Christmas tree during winter.",
       "tips_en": "Handmade souvenirs are more valuable than mass-produced ones."
@@ -3267,8 +3267,8 @@
         "fotoğraf",
         "tarih"
       ],
-      "source": "google",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Ponts_Couverts_Strasbourg_Ext.jpg/800px-Ponts_Couverts_Strasbourg_Ext.jpg",
+      "source": "firebase",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/strazburg/ponts_couverts_kapali_kopruler.jpg",
       "tips": "Akşam saatlerinde şehir ışıklarını izlemek çok romantik.",
       "description_en": "A set of three bridges and four towers that are part of the city's historic fortifications.",
       "tips_en": "Watching city lights in the evening is very romantic."
@@ -3517,8 +3517,8 @@
         "sanat",
         "tarih"
       ],
-      "source": "google",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Palais_Rohan_Strasbourg_Facade.jpg/800px-Palais_Rohan_Strasbourg_Facade.jpg",
+      "source": "firebase",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/strazburg/rohan_sarayi.jpg",
       "tips": "Sesli rehber (audio guide) kiralamak deneyimi ikiye katlar.",
       "description_en": "An 18th-century palace housing three museums: Archaeological, Decorative Arts, and Fine Arts.",
       "tips_en": "Renting an audio guide doubles the experience."
@@ -4031,7 +4031,7 @@
         "grafik"
       ],
       "source": "firebase",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/strazburg/tomi_ungerer_müzesi.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/strazburg/tomi_ungerer_muzesi.jpg",
       "tips": "Sesli rehber (audio guide) kiralamak deneyimi ikiye katlar.",
       "description_en": "Museum dedicated to the work of Strasbourg-born artist Tomi Ungerer.",
       "tips_en": "Renting an audio guide doubles the experience."
@@ -4106,7 +4106,7 @@
       "tips": "El boyaması cam süsler çok zariftir.",
       "tips_en": "Hand-painted glass ornaments are very elegant.",
       "id": "un-noël-en-alsace",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/strazburg/un-noël-en-alsace.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/strazburg/un_nol_en_alsace.jpg",
       "source": "firebase"
     },
     {
@@ -4378,8 +4378,8 @@
         "tarih",
         "muzik"
       ],
-      "source": "google",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Eglise_St_Thomas_Strasbourg_Ext_Sud.jpg/800px-Eglise_St_Thomas_Strasbourg_Ext_Sud.jpg",
+      "source": "firebase",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/strazburg/eglise_saint_thomas.jpg",
       "tips": "Müze kartınız varsa girişte sıra beklemezsiniz.",
       "description_en": "The main Protestant church in Strasbourg, famous for its Silbermann organ played by Mozart.",
       "tips_en": "You skip the line if you have a museum pass."

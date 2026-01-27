@@ -5053,6 +5053,24 @@
       "distanceFromCenter": 1.5,
       "tips": "Hafta içi ziyaret etmek daha sakin bir deneyim sunar.",
       "tips_en": "Visiting on weekdays offers a calmer experience."
+    },
+    {
+      "name": "Mercado de San Miguel",
+      "name_en": "San Miguel Market",
+      "area": "Center",
+      "category": "Yeme-İçme",
+      "tags": [
+        "market",
+        "tapas",
+        "gourmet"
+      ],
+      "lat": 40.4153,
+      "lng": -3.709,
+      "description": "Madrid'in tarihi çelik yapılı gastronomi pazarı. En taze deniz ürünleri ve tapas çeşitleriyle şehrin lezzet merkezi.",
+      "description_en": "Madrid's historic steel-framed gourmet market. A culinary landmark offering the best Spanish seafood and tapas.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/madrid/san_miguel.jpg",
+      "rating": 4.7,
+      "price": "high"
     }
   ]
 }

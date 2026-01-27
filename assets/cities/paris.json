@@ -5623,6 +5623,254 @@
       "tips": "Gün doğumu burada büyüleyicidir, uykunuzdan feragat etmeye değer.",
       "tips_en": "Sunrise is magical here, worth sacrificing sleep.",
       "area_en": "15th Arr."
+    },
+    {
+      "name": "Place de la Concorde",
+      "name_en": "Place de la Concorde",
+      "area": "8th Arr.",
+      "category": "İkonik",
+      "tags": [
+        "meydan",
+        "tarih",
+        "dikilitaş"
+      ],
+      "lat": 48.8656,
+      "lng": 2.3212,
+      "description": "Paris'in en büyük meydanı. Ortasında 3300 yıllık Luksor Obeliski bulunur ve Fransız Devrimi'nin en önemli mekanlarından biridir.",
+      "description_en": "Paris's largest square, featuring the 3300-year-old Luxor Obelisk and rich in French Revolution history.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/paris/concorde.jpg",
+      "rating": 4.7,
+      "price": "free"
+    },
+    {
+      "name": "Place du Tertre",
+      "name_en": "Place du Tertre",
+      "area": "Montmartre",
+      "category": "Kültür",
+      "tags": [
+        "sanat",
+        "ressamlar",
+        "bohem"
+      ],
+      "lat": 48.8865,
+      "lng": 2.3408,
+      "description": "Montmartre'ın kalbinde, sokak ressamları ve karikatüristleriyle ünlü bohem meydan.",
+      "description_en": "The bohemian heart of Montmartre, famous for its street artists, portraitists, and cafes.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/paris/tertre.jpg",
+      "rating": 4.6,
+      "price": "free"
+    },
+    {
+      "name": "Sorbonne",
+      "name_en": "Sorbonne University",
+      "area": "Latin Quarter",
+      "category": "Kültür",
+      "tags": [
+        "üniversite",
+        "tarih",
+        "mimari"
+      ],
+      "lat": 48.8485,
+      "lng": 2.343,
+      "description": "Dünyanın en eski üniversitelerinden biri. Latin Mahallesi'nin entelektüel merkezi.",
+      "description_en": "One of the oldest universities in the world and the intellectual heart of the Latin Quarter.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/paris/sorbonne.jpg",
+      "rating": 4.5,
+      "price": "free"
+    },
+    {
+      "name": "Palace of Versailles",
+      "name_en": "Palace of Versailles",
+      "area": "Versailles",
+      "category": "Tarihi",
+      "tags": [
+        "saray",
+        "kraliyet",
+        "bahçe"
+      ],
+      "lat": 48.8049,
+      "lng": 2.1204,
+      "description": "Güneş Kral 14. Louis'nin muazzam şaheseri. Fransız mutlakiyetçiliğinin ve ihtişamının simgesi.",
+      "description_en": "The grand masterpiece of the Sun King, Louis XIV. The symbol of French royal power and absolute splendor.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/paris/versailles.jpg",
+      "rating": 4.8,
+      "price": "high"
+    },
+    {
+      "name": "Musée de Montmartre",
+      "name_en": "Montmartre Museum",
+      "area": "Montmartre",
+      "category": "Müze",
+      "tags": [
+        "art",
+        "history",
+        "gardens"
+      ],
+      "lat": 48.8877,
+      "lng": 2.3406,
+      "description": "Montmartre'ın sanat dolu tarihini yansıtan, bahçeleriyle ünlü tarihi müze.",
+      "description_en": "A charming museum dedicated to the artistic history of Montmartre, featuring beautiful gardens.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/paris/montmartre_museum.jpg",
+      "rating": 4.7,
+      "price": "medium"
+    },
+    {
+      "name": "Rue Cler",
+      "name_en": "Rue Cler",
+      "area": "7th Arr.",
+      "category": "Yeme-İçme",
+      "tags": [
+        "market",
+        "food",
+        "cafes"
+      ],
+      "lat": 48.8571,
+      "lng": 2.3061,
+      "description": "Paris'in en ünlü pazar caddesi. Gurme şarküterileri ve şık kafeleriyle otantik bir Fransız deneyimi sunar.",
+      "description_en": "One of Paris's most famous market streets, known for its gourmet food shops and authentic vibes.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/paris/rue_cler.jpg",
+      "rating": 4.7,
+      "price": "medium"
+    },
+    {
+      "name": "Saint-Paul-Saint-Louis",
+      "name_en": "Église Saint-Paul-Saint-Louis",
+      "area": "Le Marais",
+      "category": "Kilise",
+      "tags": [
+        "mimari",
+        "barok",
+        "tarihi"
+      ],
+      "lat": 48.855,
+      "lng": 2.361,
+      "rating": 4.5,
+      "description": "Marais semtinin kalbinde yer alan görkemli bir Cizvit kilisesi.",
+      "description_en": "A magnificent Jesuit church located in the heart of the Marais district.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/paris/saint_paul_saint_louis.jpg",
+      "source": "firebase"
+    },
+    {
+      "name": "Île de la Cité",
+      "name_en": "Île de la Cité",
+      "area": "Center",
+      "category": "Bölge",
+      "tags": [
+        "notre dame",
+        "tarih",
+        "ada"
+      ],
+      "lat": 48.8545,
+      "lng": 2.347,
+      "rating": 4.9,
+      "description": "Paris'in kalbi ve Notre Dame Katedrali'nin bulunduğu tarihi ada.",
+      "description_en": "The heart of Paris and the historic island where Notre Dame Cathedral is located.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/paris/île_de_la_cité.jpg",
+      "source": "firebase"
+    },
+    {
+      "name": "Gardens of Versailles",
+      "name_en": "Gardens of Versailles",
+      "area": "Versailles",
+      "category": "Doğa",
+      "tags": [
+        "saray",
+        "bahçe",
+        "havuz",
+        "heykel"
+      ],
+      "lat": 48.8048,
+      "lng": 2.103,
+      "rating": 4.9,
+      "description": "Dünyanın en görkemli kraliyet bahçeleri, fıskiyeleri ve geometrik yollarıyla ünlü.",
+      "description_en": "The world's most magnificent royal gardens, famous for fountains and geometric paths.",
+      "imageUrl": "https://images.unsplash.com/photo-1590523277543-a94d2e5eb00b?w=800"
+    },
+    {
+      "name": "Petit Trianon",
+      "name_en": "Petit Trianon",
+      "area": "Versailles",
+      "category": "Mimari",
+      "tags": [
+        "marie antoinette",
+        "saray",
+        "zarafet"
+      ],
+      "lat": 48.8158,
+      "lng": 2.11,
+      "rating": 4.7,
+      "description": "Marie Antoinette'in kalabalıktan kaçıp sığındığı zarif küçük saray.",
+      "description_en": "The elegant small palace where Marie Antoinette sought refuge from the crowds.",
+      "imageUrl": "https://images.unsplash.com/photo-1582610116397-edb318620fba?w=800"
+    },
+    {
+      "name": "Grand Trianon",
+      "name_en": "Grand Trianon",
+      "area": "Versailles",
+      "category": "Mimari",
+      "tags": [
+        "pembe mermer",
+        "saray",
+        "mimari"
+      ],
+      "lat": 48.8148,
+      "lng": 2.103,
+      "rating": 4.7,
+      "description": "XIV. Louis tarafından yaptırılan pembe mermerden, İtalyan tarzı muazzam bir yapı.",
+      "description_en": "A magnificent pink marble, Italian-style building commissioned by Louis XIV.",
+      "imageUrl": "https://images.unsplash.com/photo-1582610116397-edb318620fba?w=800"
+    },
+    {
+      "name": "Queen's Hamlet",
+      "name_en": "Hameau de la Reine",
+      "area": "Versailles",
+      "category": "Mimari",
+      "tags": [
+        "köy",
+        "çiftlik",
+        "marie antoinette"
+      ],
+      "lat": 48.819,
+      "lng": 2.1095,
+      "rating": 4.9,
+      "description": "Marie Antoinette için yaptırılan, rüya gibi rustik bir köy ve çiftlik kompleksi.",
+      "description_en": "A dreamlike rustic village and farm complex built for Marie Antoinette.",
+      "imageUrl": "https://images.unsplash.com/photo-1582610116397-edb318620fba?w=800"
+    },
+    {
+      "name": "Hall of Mirrors",
+      "name_en": "Galerie des Glaces",
+      "area": "Versailles",
+      "category": "Tarihi",
+      "tags": [
+        "ayna",
+        "altın",
+        "saray",
+        "ihtişam"
+      ],
+      "lat": 48.8048,
+      "lng": 2.12,
+      "rating": 5.0,
+      "description": "Versay Sarayı'nın en görkemli odası, yüzlerce ayna ve kristal avizelerle süslü.",
+      "description_en": "The most magnificent room of the Palace of Versailles, decorated with hundreds of mirrors and crystal chandeliers.",
+      "imageUrl": "https://images.unsplash.com/photo-1590523277543-a94d2e5eb00b?w=800"
+    },
+    {
+      "name": "Place de la République",
+      "name_en": "Place de la République",
+      "area": "Center",
+      "category": "Meydan",
+      "tags": [
+        "heykel",
+        "buluşma",
+        "şehir"
+      ],
+      "lat": 48.8675,
+      "lng": 2.3638,
+      "rating": 4.4,
+      "description": "Paris'in en büyük meydanlarından biri ve Fransız Cumhuriyeti'nin sembolü.",
+      "description_en": "One of Paris's largest squares and a symbol of the French Republic.",
+      "imageUrl": "https://images.unsplash.com/photo-1550098612-da64c673e0b3?w=800"
     }
   ]
 }

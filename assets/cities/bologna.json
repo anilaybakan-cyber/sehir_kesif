@@ -498,7 +498,7 @@
       "rating": 4.6,
       "description": "Özel kavurma espresso. Günün yorgunluğunu atmak ve lezzetli bir kahve eşliğinde dinlenmek için en doğru adreslerden biri. Mekanın sıcak ambiyansı ve sunduğu tatlı sürprizler, molanızı keyfe dönüştürecek.",
       "description_en": "Specialty roasted espresso. One of the right addresses to relieve the tiredness of the day and relax with a delicious coffee. The warm ambiance of the venue and the sweet surprises it offers will turn your break into pleasure.",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bologna/caffè_terzi.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bologna/caff_terzi.jpg",
       "price": "medium",
       "distanceFromCenter": 1.0,
       "bestTime": "09:00 - 18:00",
@@ -520,7 +520,7 @@
       "rating": 4.5,
       "description": "Tarihi elegant pastane. Günün yorgunluğunu atmak ve lezzetli bir kahve eşliğinde dinlenmek için en doğru adreslerden biri. Mekanın sıcak ambiyansı ve sunduğu tatlı sürprizler, molanızı keyfe dönüştürecek.",
       "description_en": "Historic elegant pastry shop. One of the right addresses to relieve the tiredness of the day and relax with a delicious coffee. The warm ambiance of the venue and the sweet surprises it offers will turn your break into pleasure.",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bologna/caffè_zanarini.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bologna/caff_zanarini.jpg",
       "price": "medium",
       "distanceFromCenter": 1.0,
       "bestTime": "09:00 - 18:00",
@@ -978,7 +978,9 @@
       "tips": "İndirim sepetlerini kontrol edin.",
       "tips_en": "Check discount baskets.",
       "id": "disney-store",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bologna/disney_store.jpg",
+      "source": "firebase"
     },
     {
       "name": "Dozza",
@@ -1166,7 +1168,9 @@
       "tips": "Müze gezinizden sonra soluklanın.",
       "tips_en": "Take a breath after your museum tour.",
       "id": "ex-forno",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bologna/ex_forno_mambo.jpg",
+      "source": "firebase"
     },
     {
       "name": "FICO Eataly World",
@@ -1330,7 +1334,9 @@
       "tips": "Şehrin en eski çeşmelerinden biridir.",
       "tips_en": "One of oldest fountains in city.",
       "id": "old-fountain",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bologna/fontana_vecchia.jpg",
+      "source": "firebase"
     },
     {
       "name": "Fontana del Nettuno",
@@ -4333,5 +4339,6 @@
       "source": "firebase",
       "distanceFromCenter": 1.0
     }
-  ]
+  ],
+  "heroImage": "https://www.datocms-assets.com/57243/1661342703-6245af628d40974c9ab5a7fd_petr-slovacek-sxk8bwkvoxe-unsplash-20-1.jpg?auto=compress%2Cformat"
 }

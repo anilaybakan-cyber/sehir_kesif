@@ -29,7 +29,7 @@
       "tips": "Kale biletine dahil, ekstra ücret yok.",
       "tips_en": "Included in castle ticket, no extra charge.",
       "id": "alman-eczacılık-muzesi",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/heidelberg/alman-eczacılık-muzesi.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/heidelberg/alman_eczacilik_muzesi.jpg",
       "source": "firebase"
     },
     {
@@ -81,7 +81,7 @@
       "tips": "Kaybolun bu sokaklarda, her köşede sürpriz keşfedeceksiniz.",
       "tips_en": "Get lost in these streets, you'll discover surprises at every corner.",
       "id": "altstadt-eski-şehir",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/heidelberg/altstadt-eski-şehir.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/heidelberg/altstadt_eski_sehir.jpg",
       "source": "firebase"
     },
     {
@@ -155,7 +155,7 @@
       "tips": "Seralar kış aylarında bile güzel.",
       "tips_en": "Greenhouses are nice even in winter.",
       "id": "botanik-bahçesi",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/heidelberg/botanik-bahçesi.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/heidelberg/botanik_bahcesi.jpg",
       "source": "firebase"
     },
     {
@@ -244,7 +244,7 @@
       "lng": 8.71,
       "rating": 4.5,
       "description": "'Öğrenci öpücüğü' çikolatalarıyla ünlü tarihi kafe. One of the right addresses to relieve the tiredness of the day and relax with a delicious coffee. The warm ambiance of the venue and the sweet surprises it offers will turn your break into pleasure.",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/heidelberg/cafe_knösel.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/heidelberg/cafe_knosel.jpg",
       "price": "medium",
       "bestTime": "09:00 - 18:00",
       "bestTime_en": "09:00 - 18:00",
@@ -267,13 +267,14 @@
       "rating": 4.4,
       "description": "Zarif atmosferde pasta ve kahve. Günün yorgunluğunu atmak ve lezzetli bir kahve eşliğinde dinlenmek için en doğru adreslerden biri. Mekanın sıcak ambiyansı ve sunduğu tatlı sürprizler, molanızı keyfe dönüştürecek.",
       "description_en": "Pastry and coffee in elegant atmosphere. One of the right addresses to relieve the tiredness of the day and relax with a delicious coffee. The warm ambiance of the venue and the sweet surprises it offers will turn your break into pleasure.",
-      "imageUrl": "https://images.unsplash.com/photo-1543783232-af412b852fc7?w=800",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/heidelberg/cafe_burkardt.jpg",
       "price": "medium",
       "distanceFromCenter": 1.0,
       "bestTime": "09:00 - 18:00",
       "bestTime_en": "09:00 - 18:00",
       "tips": "Kahvenin yanında ev yapımı tatlılarını mutlaka deneyin.",
-      "tips_en": "Must try their homemade desserts with coffee."
+      "tips_en": "Must try their homemade desserts with coffee.",
+      "source": "firebase"
     },
     {
       "name": "Carl Bosch Müzesi",
@@ -425,7 +426,7 @@
       "tips": "Gün batımı turları en popüler.",
       "tips_en": "Sunset tours most popular.",
       "id": "fotoğraf-yuruyuşu",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/heidelberg/fotoğraf-yuruyuşu.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/heidelberg/fotograf_yuruyusu.jpg",
       "source": "firebase"
     },
     {
@@ -441,7 +442,7 @@
       "rating": 4.5,
       "description": "Tarihi kableyle kaleye çıkış. Sıradan bir gezinin ötesine geçip unutulmaz anılar biriktirmek isteyenler için benzersiz bir fırsat. Bu aktivite, seyahatinize heyecan ve renk katarak size farklı bir perspektif kazandıracak.",
       "description_en": "Historic cable car ride to castle. A unique opportunity for those who want to go beyond an ordinary trip and collect unforgettable memories. This activity will add excitement and color to your travel, giving you a different perspective.",
-      "imageUrl": "https://images.unsplash.com/photo-1543783232-af412b852fc7?w=800",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/heidelberg/funicular_to_castle.jpg",
       "price": "medium",
       "distanceFromCenter": 1.0,
       "bestTime": "09:00 - 18:00",
@@ -556,13 +557,14 @@
       "rating": 4.6,
       "description": "Modern Alman gurme mutfağı. Yerel lezzetlerin tadına varmak ve keyifli bir akşam geçirmek için harika bir seçenek. Samimi atmosferi ve kaliteli hizmetiyle damak zevkinize hitap edecek unutulmaz bir deneyim sunuyor.",
       "description_en": "Modern German gourmet cuisine. A great option to taste local flavors and spend a pleasant evening. It offers an unforgettable experience appealing to your palate with its friendly atmosphere and quality service.",
-      "imageUrl": "https://images.unsplash.com/photo-1543783232-af412b852fc7?w=800",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/heidelberg/hackteufel.jpg",
       "price": "medium",
       "distanceFromCenter": 1.0,
       "bestTime": "09:00 - 18:00",
       "bestTime_en": "09:00 - 18:00",
       "tips": "Akşam yemeği için rezervasyon yaptırmak şart.",
-      "tips_en": "Reservation is a must for dinner."
+      "tips_en": "Reservation is a must for dinner.",
+      "source": "firebase"
     },
     {
       "name": "Handschuhsheim Bağları",
@@ -585,7 +587,7 @@
       "tips": "Bağbozumu zamanı (Eylül-Ekim) en güzel.",
       "tips_en": "Harvest time (Sept-Oct) is most beautiful.",
       "id": "handschuhsheim-bağları",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/heidelberg/handschuhsheim-bağları.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/heidelberg/handschuhsheim_baglari.jpg",
       "source": "firebase"
     },
     {
@@ -694,7 +696,7 @@
       "tips": "Hafta içi daha az kalabalık.",
       "tips_en": "Less crowded on weekdays.",
       "id": "heidelberg-hayvanat-bahçesi",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/heidelberg/heidelberg-hayvanat-bahçesi.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/heidelberg/heidelberg_hayvanat_bahcesi.jpg",
       "source": "firebase"
     },
     {
@@ -720,7 +722,7 @@
       "tips": "Alte Brücke veya Philosophenweg'den izleyin.",
       "tips_en": "Watch from Alte Brücke or Philosophenweg.",
       "id": "heidelberg-kalesi-işık-gosterisi",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/heidelberg/heidelberg-kalesi-işık-gosterisi.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/heidelberg/heidelberg_kalesi_isik_gosterisi.jpg",
       "source": "firebase"
     },
     {
@@ -843,7 +845,7 @@
       "tips": "Şimdi kadın hastalıkları kliniğinin parçası.",
       "tips_en": "Now part of women's clinic.",
       "id": "hexenturm-cadı-kulesi",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/heidelberg/hexenturm-cadı-kulesi.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/heidelberg/hexenturm_cadi_kulesi.jpg",
       "source": "firebase"
     },
     {
@@ -1082,7 +1084,7 @@
       "tips": "Cumartesi sabahı yerel pazarı deneyimleyin.",
       "tips_en": "Experience local market on Saturday morning.",
       "id": "marktplatz-pazar-meydanı",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/heidelberg/marktplatz-pazar-meydanı.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/heidelberg/marktplatz_pazar_meydani.jpg",
       "source": "firebase"
     },
     {
@@ -1106,7 +1108,7 @@
       "tips": "Öğrenci yemekhanesinde ucuz öğle yemeği.",
       "tips_en": "Cheap lunch at student cafeteria.",
       "id": "marstall-eski-ahır",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/heidelberg/marstall-eski-ahır.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/heidelberg/marstall_eski_ahir.jpg",
       "source": "firebase"
     },
     {
@@ -1231,7 +1233,7 @@
       "tips": "Akşam ışıkları altında daha büyülü.",
       "tips_en": "More magical under evening lights.",
       "id": "noel-pazarı",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/heidelberg/noel-pazarı.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/heidelberg/noel_pazari.jpg",
       "source": "firebase"
     },
     {
@@ -1327,7 +1329,7 @@
       "tips": "Gün batımında gidin, Heidelberg'in en güzel manzarası burada.",
       "tips_en": "Go at sunset, the most beautiful view of Heidelberg is here.",
       "id": "philosophenweg-filozoflar-yolu",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/heidelberg/philosophenweg-filozoflar-yolu.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/heidelberg/philosophenweg.jpg",
       "source": "firebase"
     },
     {
@@ -1353,7 +1355,7 @@
       "tips": "Daha özgün hediyelikler için buraya gelin.",
       "tips_en": "Come here for more unique souvenirs.",
       "id": "plock-sokağı",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/heidelberg/plock-sokağı.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/heidelberg/plock_sokagi.jpg",
       "source": "firebase"
     },
     {
@@ -1471,7 +1473,7 @@
       "tips": "Gün batımında gelin, kaleye girmeden bile harika manzara.",
       "tips_en": "Come at sunset, great view even without entering the castle.",
       "id": "schlossgarten-kale-bahçesi",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/heidelberg/schlossgarten-kale-bahçesi.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/heidelberg/schlossgarten_kale_bahcesi.jpg",
       "source": "firebase"
     },
     {
@@ -1518,7 +1520,7 @@
       "tips": "Spargelzeit (kuşkonmaz sezonu) Nisan-Haziran çok özel.",
       "tips_en": "Spargelzeit (asparagus season) April-June is very special.",
       "id": "schwetzingen-sarayı-gunluk-gezi",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/heidelberg/schwetzingen-sarayı-gunluk-gezi.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/heidelberg/schwetzingen_sarayi_gunluk_gezi.jpg",
       "source": "firebase"
     },
     {
@@ -1566,7 +1568,7 @@
       "tips": "Her seviye için yürüyüş rotaları mevcut.",
       "tips_en": "Hiking routes for all levels available.",
       "id": "stadtwald-şehir-ormanı",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/heidelberg/stadtwald-şehir-ormanı.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/heidelberg/stadtwald_sehir_ormani.jpg",
       "source": "firebase"
     },
     {
@@ -1613,7 +1615,7 @@
       "tips": "Duvar yazıları yüzyılın öğrenci mizahını yansıtıyor.",
       "tips_en": "Wall writings reflect a century of student humor.",
       "id": "studentenkarzer-oğrenci-hapishanesi",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/heidelberg/studentenkarzer-oğrenci-hapishanesi.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/heidelberg/studentenkarzer_ogrenci_hapishanesi.jpg",
       "source": "firebase"
     },
     {
@@ -1663,7 +1665,7 @@
       "tips": "Philosophenweg'den yürüyerek ulaşılabilir.",
       "tips_en": "Can be reached by walking from Philosophenweg.",
       "id": "thingstatte",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/heidelberg/thingstatte.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/heidelberg/thingstätte.jpg",
       "source": "firebase"
     },
     {
@@ -1715,7 +1717,7 @@
       "tips": "Perşembe ve Cuma en kalabalık geceler.",
       "tips_en": "Thursday and Friday are busiest nights.",
       "id": "untere-strasse-bar-sokağı",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/heidelberg/untere-strasse-bar-sokağı.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/heidelberg/untere_strae_bar_sokagi.jpg",
       "source": "firebase"
     },
     {
@@ -1881,8 +1883,64 @@
       "tips": "Riesling ve Spätburgunder'i deneyin.",
       "tips_en": "Try Riesling and Spätburgunder.",
       "id": "şarap-tadımı-turu",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/heidelberg/şarap-tadımı-turu.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/heidelberg/sarap_tadimi_turu.jpg",
       "source": "firebase"
+    },
+    {
+      "name": "Philosophenweg",
+      "name_en": "Philosopher's Way",
+      "area": "Neuenheim",
+      "category": "Park",
+      "tags": [
+        "yürüyüş",
+        "manzara",
+        "doğa"
+      ],
+      "lat": 49.4152,
+      "lng": 8.7003,
+      "rating": 4.9,
+      "description": "Şehri ve kaleyi karşıdan gören, egzotik bitkilerle çevrili, şairlere ilham vermiş ünlü yürüyüş yolu. En iyi Heidelberg manzarası buradan görülür.",
+      "description_en": "Famous walking path overlooking the city and castle, surrounded by exotic plants, which inspired poets. The best view of Heidelberg can be seen from here.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/heidelberg/philosophenweg.jpg",
+      "price": "free",
+      "source": "firebase"
+    },
+    {
+      "name": "Studentenkarzer",
+      "name_en": "Student Prison",
+      "area": "Altstadt",
+      "category": "Müze",
+      "tags": [
+        "tarih",
+        "üniversite",
+        "ilginç"
+      ],
+      "lat": 49.4113,
+      "lng": 8.7067,
+      "rating": 4.7,
+      "description": "Üniversite öğrencilerinin cezalı oldukları dönemde kaldıkları tarihi hapishane. Duvarlardaki grafiti ve çizimler yüzyıllık öğrenci yaşamını yansıtır.",
+      "description_en": "Historic prison where university students stayed when punished. Graffiti and drawings on the walls reflect centuries of student life.",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Heidelberg_Studentenkarzer_01.jpg/800px-Heidelberg_Studentenkarzer_01.jpg",
+      "price": "medium"
+    },
+    {
+      "name": "Thingstätte",
+      "name_en": "Thingstätte Amphitheater",
+      "area": "Heiligenberg",
+      "category": "Tarihi",
+      "tags": [
+        "amfitiyatro",
+        "tarih",
+        "doğa"
+      ],
+      "lat": 49.4239,
+      "lng": 8.7062,
+      "rating": 4.6,
+      "description": "Nazi döneminde inşa edilen, orman içinde devasa açık hava amfitiyatrosu. Bugün etkileyici bir mimari kalıntı ve huzurlu bir dinlenme alanıdır.",
+      "description_en": "Massive open-air amphitheater in the forest built during the Nazi era. Today it is an impressive architectural ruin and a peaceful recreation area.",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Thingstaette_Heidelberg.jpg/800px-Thingstaette_Heidelberg.jpg",
+      "price": "free"
     }
-  ]
+  ],
+  "heroImage": "https://image.hurimg.com/i/hurriyet/90/1110x740/56b3325818c7730e3cdb6757.jpg"
 }

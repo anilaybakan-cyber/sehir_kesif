@@ -79,13 +79,14 @@
       "rating": 4.4,
       "description": "Çocuklar için Angry Birds temalı açık hava oyun alanı. Doğayla iç içe, huzur dolu anlar yaşamak isteyenler için mükemmel bir kaçış noktası. Şehrin gürültüsünden uzaklaşıp nefes almak ve harika fotoğraflar çekmek için birebir.",
       "description_en": "Angry Birds themed outdoor playground for kids. A perfect getaway for those who want to experience peaceful moments in nature. Ideal for getting away from the city noise, taking a breath, and capturing great photos.",
-      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AZLasHofXsXT-olEWYEdegvifL-5Ad5qezlU5S9tFuZ1HsIPbFonUqb0eXrrUqrTIHrZHzM6uHqArP6mjSCLPyz222iDRFcWzpCTtZP9fz1pKU5XtX3_jSOigNuF_kXhMKZZnU4kOqUWnZCRxh4J2zFCTE1r4FPPyqmHnIeXTCO_6KrBrwIcg_beISOGhaAr3-q6HjysZimpNVyEULwq6kIbKNndU2lboTT_Njtg6kM_-KRIqRkM2GoGQ2HY5TGwawVDa6vkbrWB8BE6jXO-R2_RXD4TpnF-UTcO7tllBGd9W-BwyAaiD8c0OgTzbTXsn15v3j847iMkIQHtR_sIxHPfQQIbGtxe-gY_4hTG_E5iqjITcjO6BOyQZofc28_Or0Vb0M-tSlB58UbtxXfZtQujVUDLwwecwQBhIzSvBOifS6lHqOJfylnXM39IAvi5fR8gdMjE_OdKNGWW5ym9IgzsNZ-q-GCdOCCcAroIReLt6S0Eites-prASePu6NTUz9dosPBalH39yjwDeEqOVsyq2TSp8Ht6yZZ7pzZcBIpP7gGoUnm9zp8g330kH5Fx7cIqSPhgaQ&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/angry_birds_activity_park.jpg",
       "price": "medium",
       "distanceFromCenter": 1.0,
       "bestTime": "09:00 - 18:00",
       "bestTime_en": "09:00 - 18:00",
       "tips": "Sabah koşusu veya yoga yapan yerlileri görebilirsiniz.",
-      "tips_en": "You can see locals jogging or doing yoga in the morning."
+      "tips_en": "You can see locals jogging or doing yoga in the morning.",
+      "source": "firebase"
     },
     {
       "id": "antinkaapo",
@@ -1084,13 +1085,14 @@
       "rating": 4.9,
       "description": "Husky kızağı safari deneyimi ve köpeklerle tanışma. Sıradan bir gezinin ötesine geçip unutulmaz anılar biriktirmek isteyenler için benzersiz bir fırsat. Bu aktivite, seyahatinize heyecan ve renk katarak size farklı bir perspektif kazandıracak.",
       "description_en": "Husky sled safari experience and meet the dogs. A unique opportunity for those who want to go beyond an ordinary trip and collect unforgettable memories. This activity will add excitement and color to your travel, giving you a different perspective.",
-      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AZLasHq1hCvoKDz1Ph2WoF8mGW170TeCL0Gf4ZowG0dVISPv9OoT-yHXMk5X2Br688gwSkvm9SNSWX3tSreDQJm95IJr9ObXVW6UHrTof9pPRDDUwowF0-DMDOV3UG5NUYpnREkXzENDeQ0AcNSSe1disl78IwptqEfVAdLTx1vOc3c_GNy1uvogkwlTd5rxFgouE4AUn6l_VBPCJskfrJBBPFg0gHZVh3KLX-hJKJtLlnlqANNBCdp01jAUDFOniqr3H8nd6jfxVT9A0K-PvyMe4EOl56JKk8p4QRkrkieuVyuU0-nx1cE&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/husky_safari_center.jpg",
       "price": "medium",
       "distanceFromCenter": 1.0,
       "bestTime": "09:00 - 18:00",
       "bestTime_en": "09:00 - 18:00",
       "tips": "Grup indirimi olup olmadığını sorun.",
-      "tips_en": "Ask if there is a group discount."
+      "tips_en": "Ask if there is a group discount.",
+      "source": "firebase"
     },
     {
       "name": "Ice Hotel Experience",
@@ -1105,13 +1107,14 @@
       "rating": 4.7,
       "description": "Buzdan inşa edilmiş otelde konaklama veya ziyaret. Sıradan bir gezinin ötesine geçip unutulmaz anılar biriktirmek isteyenler için benzersiz bir fırsat. Bu aktivite, seyahatinize heyecan ve renk katarak size farklı bir perspektif kazandıracak.",
       "description_en": "Stay or visit the hotel built entirely from ice. A unique opportunity for those who want to go beyond an ordinary trip and collect unforgettable memories. This activity will add excitement and color to your travel, giving you a different perspective.",
-      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AZLasHqpNnz3S_wA1afTHCro5WgtikYSpLQI1uKR4WKWxMgAWufbiyf1q_HtInC48Fvuo1RsKatEWFXMP4_il_ADJbKdHnof9FMiTbbQr3YV0tAgzIm19vY8s5JNVZDurvqXTXNOQ_keN4ZIIPKmRhOnoI7uL414TnaECQJoTwfME4g3SdKgYrqmgibCv135dVjJ9MfnwMd5OlYLIWhDRqy7xh-sRjrhFm6l8XP-42SNUIJ4mtA-EKEmgXG08ok2HMoTgvkWATSk9rYj0RB2WVjYaWlQGIr0tRXEjA5wclPgnMXBLvXebOc&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/ice_hotel_experience.jpg",
       "price": "medium",
       "distanceFromCenter": 1.0,
       "bestTime": "09:00 - 18:00",
       "bestTime_en": "09:00 - 18:00",
       "tips": "Rehbere soru sormaktan çekinmeyin, çok ilginç hikayeler biliyorlar.",
-      "tips_en": "Don't hesitate to ask the guide questions, they know interesting stories."
+      "tips_en": "Don't hesitate to ask the guide questions, they know interesting stories.",
+      "source": "firebase"
     },
     {
       "id": "iisakki-glass-village",
@@ -1165,13 +1168,14 @@
       "lng": 25.737,
       "rating": 4.7,
       "description": "Rovaniemi'nin sembolü olan asma köprü. Şehrin en etkileyici manzaralarından birini sunan bu nokta, fotoğraf tutkunları için adeta bir cennet. Özellikle gün batımında büründüğü renkler, ziyaretçilere görsel bir şölen yaşatıyor.",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/jätkänkynttilä_bridge.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/jatkankynttila_bridge.jpg",
       "price": "medium",
       "bestTime": "09:00 - 18:00",
       "bestTime_en": "09:00 - 18:00",
       "tips": "Panoramik fotoğraf için geniş açı lensinizi hazırlayın.",
       "tips_en": "Prepare your wide-angle lens for panoramic photos.",
-      "description_en": "Rovaniemi'nin sembolü olan asma köprü. Offering one of the most impressive views of the city, this spot is a paradise for photography enthusiasts. The colors it takes on, especially at sunset, provide a visual feast for visitors."
+      "description_en": "Rovaniemi'nin sembolü olan asma köprü. Offering one of the most impressive views of the city, this spot is a paradise for photography enthusiasts. The colors it takes on, especially at sunset, provide a visual feast for visitors.",
+      "source": "firebase"
     },
     {
       "name": "Kahvila Kauppayhtiö",
@@ -1247,13 +1251,14 @@
       "rating": 4.6,
       "description": "Nehir boyunca uzanan manzaralı yürüyüş parkuru. Doğayla iç içe, huzur dolu anlar yaşamak isteyenler için mükemmel bir kaçış noktası. Şehrin gürültüsünden uzaklaşıp nefes almak ve harika fotoğraflar çekmek için birebir.",
       "description_en": "Scenic walking trail along the river. A perfect getaway for those who want to experience peaceful moments in nature. Ideal for getting away from the city noise, taking a breath, and capturing great photos.",
-      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AZLasHpIBhKg1tJMQXrRBHf2HK3uqOjmXfXpEdY5D1o5S9G8lfdT3UnPx1WaZSUFlmELC1yH69-p07Th1yUOyyFux_XbSUMpoDAIs5s3z8MJl0_9N_8JCv--ZH8122RXGJG8Uz2MAlmmkCi7FuslN-kxAPm7T0lghtLa9OK1SltA6yFDAyrFqHr0jTGCYNnU4Q2pz81nTgfjIt_knszMAAdBenVWqLqEeet3F0S9Mv_ExenFw6dliDDMS3M6VCIYmUa6G8g6hIfh98vTGtnpguxzqQn5gka-BvusPe8Kjqj_PGt8bFHmHYOBu0Oba66cKA35lg9iW4AhxDvP2GuPWc2RyQkRG8x-heQoz5mbeCA_ZdBvRMNBqBZYipbRGJRlHYGrj6CTR6jZY3MF78Trn3XYMPxwUPlj3_Z4fvRltlF1jX7Z11eh8ID7QGEUPsrV4jZBs3bElbCOFTFtA8McjWlu9OQXSYhdYCgC1FTuqRF2CcBOfMpqP8xXx72eQlqqb3tQtQfWXnoyUruiCeFepoHXTLfovyGozHVpcJ-LjK4wDG8eClN9NOisqrdiwNAgxBXwa2xXbslv4fqTyA&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/kemijoki_river_trail.jpg",
       "price": "medium",
       "distanceFromCenter": 1.0,
       "bestTime": "09:00 - 18:00",
       "bestTime_en": "09:00 - 18:00",
       "tips": "Su ve rahat ayakkabı almayı kesinlikle unutmayın.",
-      "tips_en": "Definitely don't forget water and comfortable shoes."
+      "tips_en": "Definitely don't forget water and comfortable shoes.",
+      "source": "firebase"
     },
     {
       "id": "kesrafla-sauna",
@@ -1449,13 +1454,14 @@
       "rating": 4.3,
       "description": "Açık hava müzesinde Laponya ormancılığının tarihi. Sanat ve tarih severlerin mutlaka görmesi gereken bu müze, zengin koleksiyonuyla dikkat çekiyor. Sergilenen eserler, bölgenin kültürel mirasını derinlemesine anlamanızı sağlayacak.",
       "description_en": "Open-air museum showcasing Lapland forestry history. A must-see for art and history lovers, this museum stands out with its rich collection. The exhibited works will allow you to deeply understand the region's cultural heritage.",
-      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AZLasHog7RYpGNBCONSwd0RMuMNVBm8x87QTPv6hogMMjUclQWmQVjXaq_6ToIG1b69tPO8iXXvo6Ytl45Qv1MNQECnCFIEDXBk2vZ0b1T8EN4NQun_m0gyeNJ9s-IpafHG68CfOiKg2txE6VPJPreMpQpUhhJRQW9gjBuN2eM6wk-XMURnXiXs-8XhJT8Hk8jyZV2K26InMkaoxOsVKAq0q0ZkmEbc7euFr9fe-gVpWHVlLh2LcqDk1san_7l2KtzUcMlRvWP-9gihRqaTcmFbgEhZ2oTi-XMwnFkIawIIB4qdRomJeHgfUDfIZMAuClw-IBw798yMgOlf1vJfdKiFITRZtLiwaujWIXtIjHs9YE4WBc-TUR4VH5hoAXmLxLzEsyVx0By3ELyD6KzbC0b8ihIhnb817Zr4AY6Xa3Du52mVTsvgcNKT0teT02bCbkLTcFRLNQEBWSt7ODJcMrnEvE2z0OSkcsDanqXBhYrtnHcA-vbXJ3DTm4Vun9526Tjz0vhNHj4mQv9DEVE8TeUZsF3SFvB_zvPtfHI4Nc5jH4lRle5BWMusc3rrfSelHaXGMeepxP7gWLhUm_w&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/lapland_forestry_museum.jpg",
       "price": "medium",
       "distanceFromCenter": 1.0,
       "bestTime": "09:00 - 18:00",
       "bestTime_en": "09:00 - 18:00",
       "tips": "Sesli rehber (audio guide) kiralamak deneyimi ikiye katlar.",
-      "tips_en": "Renting an audio guide doubles the experience."
+      "tips_en": "Renting an audio guide doubles the experience.",
+      "source": "firebase"
     },
     {
       "id": "lapland-hotels-sky-ounasvaara",
@@ -1850,7 +1856,7 @@
       "rating": 4.8,
       "description": "Kuzey Işıkları izleme turlarının başlangıç noktası. Sıradan bir gezinin ötesine geçip unutulmaz anılar biriktirmek isteyenler için benzersiz bir fırsat. Bu aktivite, seyahatinize heyecan ve renk katarak size farklı bir perspektif kazandıracak.",
       "description_en": "Starting point for Northern Lights viewing tours. A unique opportunity for those who want to go beyond an ordinary trip and collect unforgettable memories. This activity will add excitement and color to your travel, giving you a different perspective.",
-      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AZLasHrncucqUj6G_B32UwyvH2Vl15sau6PMBmw7ir4-olE3HzBP6V4rAhwuP4Rn6I_B0KoE2ufvqG2L4LbWWXqFZKQVcJacV2poTUvZD05fiAiRkUtG4vgSwnvh5qPBrVt_DWl9pJ814-pIDZxXIHijN0Z75VHgL4ClW3VRozlKs7bIcqRHHk-XvGtgcGOjNOMR07tgdeoz6KGv3M5t3DzRtBQRW7pL1Dyikk9ce3xdoOfmNxVuClS8xBQdPadvtRXQZva5eCEMNPCJx-6vYiHw6fTRFkuZWXQrqeAQesrFT41FzxaHiRrXCwiIx8LsmAJnIaTZi-wA8sjYN2RjVCasfDYnb6TFQPsBWYEFGwBL3WtRexIsyPd2_jSaRuA8zUf5wVhBGURPWY4v2f3bp9S68WROtv7l9XwSqnO8Z1pApZMXT-CQnPKW6wtmIjCksx4i8BxJPuPFMTpRRcpqx1NZlGpOI_yrhEEO0Tn_WulBk79-FFIHbGdhpkX-n5SKyVBskmjPAWmVzxp0QSvqkUyyuEnvZLIWUFwuL4JLLW9Vq-Ehrl2gXHyF6t-aeuVzhHLpgmbCC29r&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/northern_lights_tour_point.jpg",
       "price": "medium",
       "distanceFromCenter": 1.0,
       "bestTime": "09:00 - 18:00",
@@ -1871,13 +1877,14 @@
       "rating": 4.5,
       "description": "Yaz aylarında yüzme ve kamp yapılabilecek sakin göl. Doğayla iç içe, huzur dolu anlar yaşamak isteyenler için mükemmel bir kaçış noktası. Şehrin gürültüsünden uzaklaşıp nefes almak ve harika fotoğraflar çekmek için birebir.",
       "description_en": "Peaceful lake for swimming and camping in summer. A perfect getaway for those who want to experience peaceful moments in nature. Ideal for getting away from the city noise, taking a breath, and capturing great photos.",
-      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AZLasHp46GNsVkD-s01HApZ3DLSngols5nk72qCLrAOwLceQRdhhflFHSQO_H0CpBzfgmjLLIqr_Nw-w1rwiikZh3hFC4mfFb14J5asmR4KRYlfQHER0_gyfZAVFUjKcN3C7eLDXi3XYizf0yiSCIlJ5yGVqI1_ow1OJp9vR1wq-yUI_YqhiSyBswKU6JtbYTg8QV1P4vnNnUCp5vzx3xSJ2pUPW2dbSbyj0Wv3OkvY1A-pp5yX2Crklif7omnAcGJIlM5Locc4zuZ7Mp6DlwAlJTsqdbnhamZ77AAzu6h6NiaQ_sCSh5y-GxAQgGrg8V8bM_GT3P5jGdW7yWDhUib3juXZXXSjfBvUGnJDPEMYd13gUSYo7nrQTOFiXWzfpZpZVNgEGKb-hizuDtBdvfCdUV1a_PVOY1A2yeeprS75Mmd4mNovLw_dlyu01F3RZjUbSc57kSA2KgJOAty15h1m3NBMOtxiMnSoFDG4rtTQNZwrKEL8gphVIYd2VU_JfOcYYZwFNf2Zl7Pe3PN-OJPqXKoZ9yuXq_zzcyldL81Hz80nZQYgC-eumjf4yDoOrqJZS3lQE2dKg&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/norvajarvi_lake.jpg",
       "price": "medium",
       "distanceFromCenter": 1.0,
       "bestTime": "09:00 - 18:00",
       "bestTime_en": "09:00 - 18:00",
       "tips": "Yürüyüş ayakkabısı giymeniz önerilir.",
-      "tips_en": "Walking shoes are recommended."
+      "tips_en": "Walking shoes are recommended.",
+      "source": "firebase"
     },
     {
       "id": "nova-skyland-hotel",
@@ -2133,11 +2140,12 @@
       "rating": 4.3,
       "description": "Lapon ürünleri ve gastronomi dükkanı, ren geyiği eti, meyve marmelatları. Yöresel lezzetler, gurme hediyeler ve Lapon mutfağı.",
       "description_en": "Lappish products and gastronomy shop with reindeer meat and berry jams. Local flavors, gourmet gifts, and Lappish cuisine.",
-      "imageUrl": "",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/piece_of_lapland.jpg",
       "price": "medium",
       "tips": "Magnet ve kupa çeşitleri boldur.",
       "tips_en": "Plenty of magnet and mug varieties.",
-      "subcategory": "Hediyelik"
+      "subcategory": "Hediyelik",
+      "source": "firebase"
     },
     {
       "name": "Pilke Science Centre",
@@ -2174,11 +2182,12 @@
       "rating": 4.6,
       "description": "Klasik Finlandiya yemekleri ve ev yapımı lezzetler sunan geleneksel restoran. Karjalanpiirakka, lohikeitto ve nordik mutfak.",
       "description_en": "Traditional restaurant serving classic Finnish dishes and homemade flavors. Karelian pie, salmon soup, and Nordic cuisine.",
-      "imageUrl": "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=800",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/poturi.jpg",
       "price": "medium",
       "tips": "Seramik yapımını izleyebilirsiniz.",
       "tips_en": "You can watch pottery making.",
-      "subcategory": "Çömlek"
+      "subcategory": "Çömlek",
+      "source": "firebase"
     },
     {
       "id": "pure-pizza",
@@ -2315,11 +2324,12 @@
       "rating": 4.3,
       "description": "Finlandiya klasik yemekleri ve nordik lezzetler sunan geleneksel restoran. Lohikeitto, karjalanpiirakka ve aile atmosferi.",
       "description_en": "Traditional restaurant serving Finnish classic dishes and Nordic flavors. Salmon soup, Karelian pie, and family atmosphere.",
-      "imageUrl": "",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/ravintola_valdemari.jpg",
       "price": "medium",
       "tips": "Yaz gecelerinde çok hareketlidir.",
       "tips_en": "Very lively on summer nights.",
-      "subcategory": "Yazlık"
+      "subcategory": "Yazlık",
+      "source": "firebase"
     },
     {
       "name": "Reindeer Farm Visit",
@@ -2334,13 +2344,14 @@
       "rating": 4.6,
       "description": "Ren geyiği çiftliğini ziyaret ve Sami kültürünü tanıma. Sıradan bir gezinin ötesine geçip unutulmaz anılar biriktirmek isteyenler için benzersiz bir fırsat. Bu aktivite, seyahatinize heyecan ve renk katarak size farklı bir perspektif kazandıracak.",
       "description_en": "Visit reindeer farm and learn about Sami culture. A unique opportunity for those who want to go beyond an ordinary trip and collect unforgettable memories. This activity will add excitement and color to your travel, giving you a different perspective.",
-      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AZLasHoasp1o0YDtHyvXC1QaoKsB-zOIpJS8ssAU7UF6BAWlPxsE7jvSanKCQuWU1cjo_M5j3GEvRKcjnH19RQ3Kls41U9CWgRmTha5NtbJt4BTk9yucP01NJwU3V51CLOIlqRY1sNx_sKuWYaMUx9t5cz7qAT-netzCQLCq5qMvNEEN5y_9JNNwNnrThlAjeqvMYqMfwm92DBN9ab2A5zRAf9ieD5qG5Xsz4842KjKwwun7OAn1lpyM47mgpyO_6TZF1v-yARZYKJ5r2mmdoPrwWKPkKBctKxJFws7sHLTEzbTvzo2k86g&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/reindeer_farm_visit.jpg",
       "price": "medium",
       "distanceFromCenter": 1.0,
       "bestTime": "09:00 - 18:00",
       "bestTime_en": "09:00 - 18:00",
       "tips": "Fotoğraf makinenizin şarjının dolu olduğundan emin olun.",
-      "tips_en": "Make sure your camera battery is full."
+      "tips_en": "Make sure your camera battery is full.",
+      "source": "firebase"
     },
     {
       "id": "restaurant-aitta",
@@ -3432,6 +3443,25 @@
       "tips": "Santa's Hotel'in giriş katındadır.",
       "tips_en": "Located on the ground floor of Santa's Hotel.",
       "subcategory": "Bar"
+    },
+    {
+      "name": "Reindeer Sleigh Ride",
+      "name_en": "Reindeer Sleigh Ride",
+      "area": "Santa Claus Village",
+      "category": "Eğlence",
+      "tags": [
+        "geyik",
+        "safari",
+        "kar"
+      ],
+      "lat": 66.5435,
+      "lng": 25.845,
+      "rating": 4.9,
+      "description": "Laponya'da ren geyikleriyle yapılan geleneksel ve büyülü bir kızak yolculuğu.",
+      "description_en": "A traditional and magical sleigh ride with reindeer in Lapland.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/reindeer_sleigh_ride.jpg",
+      "source": "firebase"
     }
-  ]
+  ],
+  "heroImage": "https://www.visitfinland.com/dam/jcr:70734834-7ba2-4bf1-9f6e-bf185e014367/central-plaza-santa-claus-village-rovaniemi-lapland-finland%20(1).jpg"
 }

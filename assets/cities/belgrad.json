@@ -2,7 +2,7 @@
   "city": "Belgrad",
   "country": "Sırbistan",
   "description": "Tuna ve Sava nehirlerinin buluştuğu, Avrupa'nın en eski şehirlerinden biri. Hareketli gece hayatı, zengin tarihi ve lezzetli Balkan mutfağıyla vizesiz cennet.",
-  "heroImage": "https://cdnp.flypgs.com/files/Sehirler-long-tail/Belgrad/belgrad_otelleri.jpg",
+  "heroImage": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/belgrad/belgrad_kalesi_kalemegdan.jpg",
   "coordinates": {
     "lat": 44.7866,
     "lng": 20.4489
@@ -914,7 +914,9 @@
       "tips": "25. May spor merkezi buradadır.",
       "tips_en": "25. May sports center is here.",
       "id": "danube-quay",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/belgrad/danube_quay.jpg",
+      "source": "firebase"
     },
     {
       "name": "Djerdap National Park",
@@ -1084,7 +1086,9 @@
       "tips": "Burgerleri çok başarılıdır.",
       "tips_en": "Their burgers are very successful.",
       "id": "endorfin",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/belgrad/endorfin.jpg",
+      "source": "firebase"
     },
     {
       "name": "Epigenia",
@@ -1106,7 +1110,9 @@
       "tips": "Prokupac üzümünden şarabı deneyin.",
       "tips_en": "Try wine made from Prokupac grape.",
       "id": "epigenia",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/belgrad/epigenia.jpg",
+      "source": "firebase"
     },
     {
       "name": "Etnografya Müzesi",
@@ -1888,7 +1894,7 @@
       "tips": "Kaymak ve peynir tadımı yapın.",
       "tips_en": "Taste kajmak and cheese.",
       "id": "kalenić-green-market",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/belgrad/kalenić-green-market.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/belgrad/kaleni_green_market.jpg",
       "source": "firebase",
       "distanceFromCenter": 0.5
     },
@@ -1936,7 +1942,7 @@
       "tips": "Ivo Andric'in masası hala buradadır.",
       "tips_en": "Ivo Andric's table is still here.",
       "id": "klub-književnika",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/belgrad/klub-književnika.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/belgrad/klub_knjizevnika.jpg",
       "source": "firebase",
       "distanceFromCenter": 0.5
     },
@@ -2202,7 +2208,7 @@
       "tips": "Kokteylleri çok tazedir.",
       "tips_en": "Cocktails are very fresh.",
       "id": "ljutić",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/belgrad/ljutić.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/belgrad/ljuti.jpg",
       "source": "firebase",
       "distanceFromCenter": 0.5
     },
@@ -2400,7 +2406,7 @@
       "tips": "Zeytinyağları Girit'ten gelir.",
       "tips_en": "Olive oils come from Crete.",
       "id": "mezestoran-dvorište",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/belgrad/mezestoran-dvorište.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/belgrad/mezestoran_dvoriste.jpg",
       "source": "firebase",
       "distanceFromCenter": 0.5
     },
@@ -2688,7 +2694,7 @@
       "tips": "Yunan şair Rigas Feraios burada ölmüştür.",
       "tips_en": "Greek poet Rigas Feraios died here.",
       "id": "nebojša-tower",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/belgrad/nebojša-tower.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/belgrad/nebojsa_tower.jpg",
       "source": "firebase",
       "distanceFromCenter": 0.5
     },
@@ -4162,7 +4168,7 @@
       "tips": "En üst kattan manzara güzeldir.",
       "tips_en": "View from top floor is nice.",
       "id": "ušće-tower",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/belgrad/ušće-tower.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/belgrad/use_tower.jpg",
       "source": "firebase",
       "distanceFromCenter": 0.5
     },
@@ -4631,6 +4637,59 @@
       "tips": "Yapı içerisindeki akustik harika, sessizliği dinleyin.",
       "description_en": "Çiçek Evi (Tito'nun Mezarı) is a highlight of Belgrade in the Dedinje area.",
       "tips_en": "The acoustics inside satisfy; listen to the silence."
+    },
+    {
+      "name": "Kalemegdan Fortress",
+      "name_en": "Belgrade Fortress",
+      "area": "Center",
+      "category": "Tarihi",
+      "tags": [
+        "kale",
+        "manzara",
+        "tarih"
+      ],
+      "lat": 44.8235,
+      "lng": 20.45,
+      "rating": 4.9,
+      "description": "Tuna ve Sava nehirlerinin birleştiği noktada yükselen, Belgrad'ın en önemli tarihi simgesi.",
+      "description_en": "The most important historic landmark of Belgrade, rising at the confluence of the Danube and Sava rivers.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/belgrad/kalemegdan_fortress.jpg",
+      "source": "firebase"
+    },
+    {
+      "name": "Knez Mihailova Street",
+      "name_en": "Knez Mihailova",
+      "area": "Center",
+      "category": "Alışveriş",
+      "tags": [
+        "yürüyüş",
+        "canlı",
+        "mimari"
+      ],
+      "lat": 44.816,
+      "lng": 20.46,
+      "rating": 4.8,
+      "description": "Belgrad'ın kalbi sayılan, tarihi binalarla dolu enerjik yaya ve alışveriş caddesi.",
+      "description_en": "The heart of Belgrade, an energetic pedestrian and shopping street full of historic buildings.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/belgrad/knez_mihailova_street.jpg",
+      "source": "firebase"
+    },
+    {
+      "name": "Nikola Tesla Museum",
+      "name_en": "Nikola Tesla Museum",
+      "area": "Vračar",
+      "category": "Müze",
+      "tags": [
+        "bilim",
+        "tesla",
+        "inovasyon"
+      ],
+      "lat": 44.8051,
+      "lng": 20.4707,
+      "rating": 4.7,
+      "description": "Efsanevi dahi Nikola Tesla'nın hayatına ve dehasına adanmış tek resmi müze.",
+      "description_en": "The only official museum dedicated to the life and genius of the legendary Nikola Tesla.",
+      "imageUrl": "https://images.unsplash.com/photo-1518998053574-53fd61580b06?w=800"
     }
   ]
 }

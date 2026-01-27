@@ -26,7 +26,9 @@
       "tips": "Tadım menüsünü deneyin.",
       "tips_en": "Try the tasting menu.",
       "id": "a-fuego-negro",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/san_sebastian/a_fuego_negro.jpg",
+      "source": "firebase"
     },
     {
       "name": "Aia",
@@ -310,7 +312,9 @@
       "tips": "Rota tavsiyesi almak için idealdir.",
       "tips_en": "Ideal to get route advice.",
       "id": "aralar-mountain-club",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/san_sebastian/aralar_mendi_elkartea.jpg",
+      "source": "firebase"
     },
     {
       "name": "Arzak",
@@ -324,7 +328,7 @@
       "lng": -1.96,
       "rating": 4.9,
       "description": "Dünyanın en iyi restoranlarından biri, 3 Michelin yıldızlı. Yerel lezzetlerin tadına varmak ve keyifli bir akşam geçirmek için harika bir seçenek. Samimi atmosferi ve kaliteli hizmetiyle damak zevkinize hitap edecek unutulmaz bir deneyim sunuyor.",
-      "imageUrl": "https://images.unsplash.com/photo-1543783232-af412b852fc7?w=800",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/san_sebastian/arzak.jpg",
       "price": "medium",
       "bestTime": "09:00 - 18:00",
       "bestTime_en": "09:00 - 18:00",
@@ -400,7 +404,9 @@
       "tips": "Premium cin menüsü çok geniştir.",
       "tips_en": "Premium gin menu is very extensive.",
       "id": "atari",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/san_sebastian/atari.jpg",
+      "source": "firebase"
     },
     {
       "name": "Atari Gastroteka",
@@ -842,7 +848,7 @@
       "rating": 4.5,
       "description": "Geleneksel Bask aile restoranı. Yerel lezzetlerin tadına varmak ve keyifli bir akşam geçirmek için harika bir seçenek. Samimi atmosferi ve kaliteli hizmetiyle damak zevkinize hitap edecek unutulmaz bir deneyim sunuyor.",
       "description_en": "Traditional Basque family restaurant. A great option to taste local flavors and spend a pleasant evening. It offers an unforgettable experience appealing to your palate with its friendly atmosphere and quality service.",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/san_sebastian/bodegón_alejandro.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/san_sebastian/bodegon_alejandro.jpg",
       "price": "medium",
       "distanceFromCenter": 1.0,
       "bestTime": "09:00 - 18:00",
@@ -936,7 +942,7 @@
       "rating": 4.5,
       "description": "Sahil kenarında zarif kafe. Günün yorgunluğunu atmak ve lezzetli bir kahve eşliğinde dinlenmek için en doğru adreslerden biri. Mekanın sıcak ambiyansı ve sunduğu tatlı sürprizler, molanızı keyfe dönüştürecek.",
       "description_en": "Elegant cafe by the promenade. One of the right addresses to relieve the tiredness of the day and relax with a delicious coffee. The warm ambiance of the venue and the sweet surprises it offers will turn your break into pleasure.",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/san_sebastian/café_de_la_concha.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/san_sebastian/cafe_de_la_concha.jpg",
       "price": "medium",
       "distanceFromCenter": 1.0,
       "bestTime": "09:00 - 18:00",
@@ -1967,7 +1973,9 @@
       "tips": "Plaj konserleri ücretsizdir, sandalyenizi alın gidin.",
       "tips_en": "Beach concerts are free, take your chair and go.",
       "id": "jazz-festival",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/san_sebastian/jazzaldia.jpg",
+      "source": "firebase"
     },
     {
       "name": "KATA4",
@@ -2310,7 +2318,7 @@
       "lng": -1.9845,
       "rating": 4.9,
       "description": "San Sebastian Cheesecake'in doğduğu yer. Yerel lezzetlerin tadına varmak ve keyifli bir akşam geçirmek için harika bir seçenek. Samimi atmosferi ve kaliteli hizmetiyle damak zevkinize hitap edecek unutulmaz bir deneyim sunuyor.",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/san_sebastian/la_viña.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/san_sebastian/la_vina.jpg",
       "price": "medium",
       "bestTime": "09:00 - 18:00",
       "bestTime_en": "09:00 - 18:00",
@@ -2786,7 +2794,9 @@
       "tips": "Deniz altını görebilirsiniz.",
       "tips_en": "You can see underwater.",
       "id": "island-boat",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/san_sebastian/motorboat_to_santa_clara.jpg",
+      "source": "firebase"
     },
     {
       "name": "Mugaritz",
@@ -3252,7 +3262,9 @@
       "tips": "Festivallerin ana merkezidir.",
       "tips_en": "Main center of festivals.",
       "id": "constitution-square",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/san_sebastian/plaza_de_la_constitucion.jpg",
+      "source": "firebase"
     },
     {
       "name": "Polloe Cemetery",
@@ -3634,7 +3646,9 @@
       "tips": "Küçük tekneyle karşı kıyıya geçin.",
       "tips_en": "Cross to other side with small boat.",
       "id": "pasajes-san-pedro",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/san_sebastian/san_pedro_pasai.jpg",
+      "source": "firebase"
     },
     {
       "name": "San Sebastian Food",
@@ -3656,7 +3670,9 @@
       "tips": "Pazar turu ve yemek pişirme atölyesine katılın.",
       "tips_en": "Join market tour and cooking workshop.",
       "id": "mimo",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/san_sebastian/san_sebastian_food.jpg",
+      "source": "firebase"
     },
     {
       "name": "San Sebastian International Film Festival",

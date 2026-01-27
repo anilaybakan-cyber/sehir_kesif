@@ -1285,7 +1285,7 @@
       "tips": "Sertifikalı ve sertifikasız seçenekler var.",
       "tips_en": "Certified and uncertified options available.",
       "id": "dalış-diving",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kotor/dalış-diving.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kotor/dalis_diving.jpg",
       "source": "firebase",
       "distanceFromCenter": 1.0
     },
@@ -1378,7 +1378,9 @@
       "tips": "Akşam ışıklandırmasında çok fotojeniktir.",
       "tips_en": "Very photogenic in evening lighting.",
       "id": "flour-square",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kotor/flour_square.jpg",
+      "source": "firebase"
     },
     {
       "name": "Fort Arza",
@@ -2172,7 +2174,7 @@
       "tips": "Eski şehrin en sakin köşesi.",
       "tips_en": "Quietest corner of old town.",
       "id": "karampana-meydanı",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kotor/karampana-meydanı.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kotor/karampana_meydani.jpg",
       "source": "firebase",
       "distanceFromCenter": 1.0
     },
@@ -2908,7 +2910,7 @@
       "tips": "Kotor'dan 1.5 saat. 25 viraj yolda.",
       "tips_en": "1.5 hours from Kotor. 25 hairpin turns on the road.",
       "id": "lovcen-milli-parkı",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kotor/lovcen-milli-parkı.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kotor/lovcen_milli_parki.jpg",
       "source": "firebase",
       "distanceFromCenter": 1.0
     },
@@ -3967,7 +3969,7 @@
       "tips": "Perast'ın en güzel Barok binası.",
       "tips_en": "Perast's most beautiful Baroque building.",
       "id": "perast-müzesi",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kotor/perast-müzesi.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kotor/perast_muzesi.jpg",
       "source": "firebase",
       "distanceFromCenter": 1.0
     },
@@ -4009,7 +4011,7 @@
       "tips": "Gerçek köy yaşamını görmek için yürüyüş yapın.",
       "tips_en": "Take a walk to see real village life.",
       "id": "pestori",
-      "imageUrl": "",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kotor/pestori.jpg",
       "source": "firebase",
       "distanceFromCenter": 1.0
     },
@@ -4166,7 +4168,7 @@
       "tips": "Fotoğraf için en güzel Barok cephe.",
       "tips_en": "Best Baroque facade for photos.",
       "id": "pima-sarayı",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kotor/pima-sarayı.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kotor/pima_sarayi.jpg",
       "source": "firebase",
       "distanceFromCenter": 1.0
     },
@@ -5284,7 +5286,7 @@
       "tips": "Manzara Perast'ın en iyisidir ama tırmanış zordur.",
       "tips_en": "View is the best of Perast but the climb is hard.",
       "id": "sveti-andrije",
-      "imageUrl": "",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kotor/sveti_andrije.jpg",
       "source": "firebase",
       "distanceFromCenter": 1.0
     },
@@ -5473,7 +5475,9 @@
       "tips": "Mimarisi çok etkileyicidir.",
       "tips_en": "Architecture is very impressive.",
       "id": "tripkovic-palace",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kotor/tripkovic_palace.jpg",
+      "source": "firebase"
     },
     {
       "name": "Trsteno Beach",
@@ -5822,9 +5826,28 @@
       "tips": "Bölgenin en güçlü piskoposu Andrija Zmajevic burada yaşamıştır.",
       "tips_en": "The region's most powerful bishop Andrija Zmajevic lived here.",
       "id": "zmajevic-palace",
-      "imageUrl": "",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kotor/zmajevic_palace.jpg",
       "source": "firebase",
       "distanceFromCenter": 1.0
+    },
+    {
+      "name": "Trail Cheese Shop",
+      "name_en": "Village Shop",
+      "area": "Old Town Steps",
+      "category": "Yeme-İçme",
+      "tags": [
+        "peynir",
+        "şarap",
+        "lokal"
+      ],
+      "lat": 42.426,
+      "lng": 18.7735,
+      "rating": 4.8,
+      "description": "Kotor kalesine çıkan yol üzerinde, yerel Karadağ peynirlerini ve şaraplarını tadabileceğiniz minik bir dükkan.",
+      "description_en": "A tiny shop on the trail to Kotor fortress where you can taste local Montenegrin cheeses and wines.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kotor/trail_cheese_shop.jpg",
+      "source": "firebase"
     }
-  ]
+  ],
+  "heroImage": "https://www.etstur.com/letsgo/wp-content/uploads/2025/12/montenegro-kotorda-gezilecek-yerler-en-populer-rotalar-guncel-liste-1024x576.png"
 }

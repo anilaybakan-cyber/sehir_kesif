@@ -2,7 +2,7 @@
   "city": "İstanbul",
   "country": "Türkiye",
   "description": "Doğu ile Batı'nın buluştuğu eşsiz metropol. 2500 yıllık tarih, Boğaz manzarası ve eşsiz mutfak.",
-  "heroImage": "https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?w=800",
+  "heroImage": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/istanbul/istanbul_skyline.jpg",
   "coordinates": {
     "lat": 41.0082,
     "lng": 28.9784
@@ -3024,8 +3024,8 @@
       "bestFor": [
         "herkes"
       ],
-      "source": "google",
-      "imageUrl": "https://images.unsplash.com/photo-1599309605427-e4c194bbaf39?q=80&w=800",
+      "source": "firebase",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/istanbul/mabeyin_restaurant.jpg",
       "tips": "Akşam yemeği için rezervasyon yaptırmak şart.",
       "description_en": "Mabeyin Restaurant is a unique spot in Istanbul's Kısıklı district.",
       "tips_en": "Reservation is a must for dinner."
@@ -4514,7 +4514,7 @@
       "bestFor": [
         "herkes"
       ],
-      "source": "tripadvisor",
+      "source": "firebase",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/istanbul/suleymaniye_camii.jpg",
       "tips": "Fotoğraf çekimi için en iyi ışık gün batımına yakındır.",
       "description_en": "Carrying the glory of the past to the present, Süleymaniye Camii is one of Fatih's most important historical structures. Its preserved original texture and magnificent architecture await discovery.",
@@ -5391,6 +5391,313 @@
       "tips": "Nakite hazırlıklı olun, bazı yerel yerler kart kabul etmeyebilir.",
       "description_en": "İstiklal Caddesi is one of İstanbul's most iconic and vibrant streets. This avenue in Beyoğlu is worth exploring from day to night with its historic buildings, street performers, boutique shops and various restaurants.",
       "tips_en": "Be prepared with cash, some local places might not accept cards."
+    },
+    {
+      "name": "Rumeli Hisarı",
+      "name_en": "Rumeli Fortress",
+      "area": "Sarıyer",
+      "category": "Tarihi",
+      "tags": [
+        "kale",
+        "manzara",
+        "tarih"
+      ],
+      "lat": 41.0847,
+      "lng": 29.0561,
+      "description": "Fatih Sultan Mehmet tarafından İstanbul'un fethi öncesinde Boğaz'ın kuzeyini kontrol etmek amacıyla 4 ayda inşa edilen muazzam hisar.",
+      "description_en": "A majestic fortress built in just 4 months by Sultan Mehmed the Conqueror to control the Bosphorus before the fall of Constantinople.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/istanbul/rumeli_hisari.jpg",
+      "rating": 4.8,
+      "price": "medium"
+    },
+    {
+      "name": "Akmar Pasajı",
+      "name_en": "Akmar Passage",
+      "area": "Kadıköy",
+      "category": "Alışveriş",
+      "tags": [
+        "kitap",
+        "müzik",
+        "nostalji"
+      ],
+      "lat": 40.9915,
+      "lng": 29.027,
+      "description": "Kadıköy'ün efsanevi sahaf ve müzik pasajı. Özellikle ağır metal ve rock müzik kültürü ile nadir kitapların merkezi.",
+      "description_en": "Kadıköy's legendary book and music passage. A hub for rock culture and rare second-hand books.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/istanbul/akmar_pasaji.jpg",
+      "rating": 4.6,
+      "price": "low",
+      "source": "firebase"
+    },
+    {
+      "name": "Tarihi Sultanahmet Köftecisi",
+      "name_en": "Historic Sultanahmet Meatballer",
+      "area": "Sultanahmet",
+      "category": "Yeme-İçme",
+      "tags": [
+        "köfte",
+        "geleneksel",
+        "ikonik"
+      ],
+      "lat": 41.0083,
+      "lng": 28.9774,
+      "description": "1920'den beri değişmeyen lezzetiyle İstanbul'un en meşhur köftecisi. Klasik piyaz ve irmik helvası eşliğinde.",
+      "description_en": "Istanbul's most famous meatball restaurant since 1920. Best enjoyed with traditional bean salad and semolina halva.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/istanbul/sultanahmet_koftecisi.jpg",
+      "rating": 4.5,
+      "price": "medium"
+    },
+    {
+      "name": "Şehzade Cağ Kebap",
+      "name_en": "Şehzade Cağ Kebap",
+      "area": "Sirkeci",
+      "category": "Yeme-İçme",
+      "tags": [
+        "kebap",
+        "gurme",
+        "lokal"
+      ],
+      "lat": 41.0125,
+      "lng": 28.9772,
+      "description": "Erzurum'un meşhur yatık döneri cağ kebabını İstanbul'da en iyi yapan yerlerden biri. Sirkeci'nin lezzet durağı.",
+      "description_en": "One of the best places in Istanbul for Erzurum's horizontal lamb kebab. A true gourmet gem in Sirkeci.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/istanbul/sehzade_cag_kebap.jpg",
+      "rating": 4.7,
+      "price": "medium"
+    },
+    {
+      "name": "Sahaflar Çarşısı",
+      "name_en": "Old Book Bazaar",
+      "area": "Beyazıt",
+      "category": "Kültür",
+      "tags": [
+        "kitap",
+        "tarih",
+        "bazar"
+      ],
+      "lat": 41.0105,
+      "lng": 28.966,
+      "description": "Osmanlı'dan günümüze kağıt ve kitap ticaretinin kalbi olan tarihi çarşı. Beyazıt Camii ile Kapalıçarşı arasındadır.",
+      "description_en": "A historic market that has been the heart of paper and book trade since the Ottoman era, located near the Grand Bazaar.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/istanbul/sahaflar_carsisi.jpg",
+      "rating": 4.6,
+      "price": "low"
+    },
+    {
+      "name": "Aya Yorgi Kilisesi",
+      "name_en": "Ayios Georgios Church",
+      "area": "Büyükada",
+      "category": "Tarihi",
+      "tags": [
+        "kilise",
+        "manzara",
+        "ada"
+      ],
+      "lat": 40.8546,
+      "lng": 29.1186,
+      "description": "Büyükada'nın en yüksek tepesinde bulunan, dileklerin dilendiği meşhur Ortodoks kilisesi. Muazzam bir Marmara manzarasına sahiptir.",
+      "description_en": "A famous Orthodox church atop the highest hill of Büyükada, where people come to make wishes. Offers stunning sea views.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/istanbul/aya_yorgi.jpg",
+      "rating": 4.7,
+      "price": "free"
+    },
+    {
+      "name": "Maidens Tower (Kız Kulesi)",
+      "name_en": "Maiden's Tower",
+      "area": "Üsküdar",
+      "category": "İkonik",
+      "tags": [
+        "kule",
+        "deniz",
+        "manzara"
+      ],
+      "lat": 41.0211,
+      "lng": 29.0041,
+      "description": "Boğaz'ın ortasında, efsanelere konu olmuş 2500 yıllık kule. İstanbul'un en romantik simgesidir.",
+      "description_en": "A 2500-year-old legendary tower in the middle of the Bosphorus. Istanbul's most romantic landmark.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/istanbul/kiz_kulesi.jpg",
+      "rating": 4.7,
+      "price": "medium"
+    },
+    {
+      "name": "Süleymaniye",
+      "name_en": "Süleymaniye Mosque",
+      "area": "Fatih",
+      "category": "Tarihi",
+      "tags": [
+        "mosque",
+        "architecture",
+        "sinan"
+      ],
+      "lat": 41.0162,
+      "lng": 28.9639,
+      "description": "Mimar Sinan'ın kalfalık eseri. Osmanlı mimarisinin zirvesi ve şehrin silüetinin en güçlü parçası.",
+      "description_en": "Masterpiece of Mimar Sinan. The pinnacle of Ottoman architecture and a powerful part of the city's skyline.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/istanbul/suleymaniye.jpg",
+      "rating": 4.9,
+      "price": "free",
+      "source": "firebase"
+    },
+    {
+      "name": "Mahmutpaşa",
+      "name_en": "Mahmutpasha Bazaar",
+      "area": "Fatih",
+      "category": "Alışveriş",
+      "tags": [
+        "shopping",
+        "bazaar",
+        "historic"
+      ],
+      "lat": 41.0111,
+      "lng": 28.9702,
+      "description": "İstanbul'un en eski ve en hareketli çarşılardan biri. Uygun fiyatlı alışverişin kalbi.",
+      "description_en": "One of Istanbul's oldest and busiest bazaars, known as the heart of affordable shopping.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/istanbul/mahmutpasa.jpg",
+      "rating": 4.4,
+      "price": "low",
+      "source": "firebase"
+    },
+    {
+      "name": "Kabataş İskelesi",
+      "name_en": "Kabataş Pier",
+      "area": "Beyoğlu",
+      "category": "Deneyim",
+      "tags": [
+        "transport",
+        "pier",
+        "bosphorus"
+      ],
+      "lat": 41.0347,
+      "lng": 28.9922,
+      "description": "Adalar ve Boğaz hatlarının merkezi iskelesi. Tramvay ve funiküler bağlantılarıyla şehrin ana arterlerinden biri.",
+      "description_en": "A major transport hub for Bosphorus and Princes' Islands ferry lines, connecting tram and funicular routes.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/istanbul/kabatas.jpg",
+      "rating": 4.5,
+      "price": "free"
+    },
+    {
+      "name": "Büyükada Marina",
+      "name_en": "Buyukada Marina",
+      "area": "Princes' Islands",
+      "category": "Ulaşım",
+      "tags": [
+        "ada",
+        "deniz",
+        "manzara"
+      ],
+      "lat": 40.8748,
+      "lng": 29.1283,
+      "rating": 4.5,
+      "description": "Büyükada'nın giriş kapısı, teknelerin ve vapur rıhtımlarının bulunduğu canlı merkez.",
+      "description_en": "The gateway to Buyukada, a lively center with boat docks and ferry piers.",
+      "imageUrl": "https://images.unsplash.com/photo-1545153997-42468869df61?w=800"
+    },
+    {
+      "name": "Heybeliada",
+      "name_en": "Heybeliada",
+      "area": "Princes' Islands",
+      "category": "Ada",
+      "tags": [
+        "doğa",
+        "huzur",
+        "tarih"
+      ],
+      "lat": 40.8767,
+      "lng": 29.1,
+      "rating": 4.7,
+      "description": "İstanbul'un en yeşil adası. Ruhban Okulu ve çam ormanlarıyla ünlü.",
+      "description_en": "The greenest of the Princes' Islands. Famous for the Naval Academy and pine forests.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/istanbul/heybeliada.jpg",
+      "source": "firebase"
+    },
+    {
+      "name": "Dilburnu Tabiat Parkı",
+      "name_en": "Dilburnu Nature Park",
+      "area": "Büyükada",
+      "category": "Doğa",
+      "tags": [
+        "piknik",
+        "çamlık",
+        "deniz"
+      ],
+      "lat": 40.855,
+      "lng": 29.11,
+      "rating": 4.4,
+      "description": "Büyükada'nın batı ucunda, çam ağaçları altında piknik yapılabilecek muazzam manzaralı bir burun.",
+      "description_en": "A beautiful cape at the western tip of Buyukada, perfect for picnics under pine trees.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/istanbul/dilburnu_tabiat_parki.jpg",
+      "source": "firebase"
+    },
+    {
+      "name": "Petra Roasting",
+      "name_en": "Petra Roasting Co.",
+      "area": "Gayrettepe",
+      "category": "Kafe",
+      "tags": [
+        "kahve",
+        "modern",
+        "brunch"
+      ],
+      "lat": 41.0601,
+      "lng": 29.008,
+      "rating": 4.6,
+      "description": "İstanbul'un nitelikli kahve akımının öncülerinden. Endüstriyel şık bir ortam.",
+      "description_en": "One of the pioneers of specialty coffee in Istanbul. Industrial chic atmosphere.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/istanbul/petra_roasting.jpg",
+      "source": "firebase"
+    },
+    {
+      "name": "Kronotrop",
+      "name_en": "Kronotrop",
+      "area": "Cihangir",
+      "category": "Kafe",
+      "tags": [
+        "kahve",
+        "lokal",
+        "specialty"
+      ],
+      "lat": 41.0315,
+      "lng": 28.9812,
+      "rating": 4.7,
+      "description": "Cihangir'in en sevilen kahvecilerinden biri, ödüllü çekirdekler.",
+      "description_en": "One of Cihangir's most beloved coffee shops, award-winning beans.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/istanbul/kronotrop.jpg",
+      "source": "firebase"
+    },
+    {
+      "name": "Üsküdar Salacak",
+      "name_en": "Salacak",
+      "area": "Üsküdar",
+      "category": "Manzara",
+      "tags": [
+        "kız kulesi",
+        "gün batımı",
+        "yürüyüş"
+      ],
+      "lat": 41.018,
+      "lng": 29.007,
+      "rating": 4.9,
+      "description": "Kız Kule'sine karşı çay içip gün batımını izlemek için dünyanın en iyi noktalarından biri.",
+      "description_en": "One of the world's best spots to watch the sunset against the Maiden's Tower.",
+      "imageUrl": "https://images.unsplash.com/photo-1545153997-42468869df61?w=800"
+    },
+    {
+      "name": "Sanatkarlar Parkı",
+      "name_en": "Sanatkarlar Parki",
+      "area": "Cihangir",
+      "category": "Park",
+      "tags": [
+        "manzara",
+        "boğaz",
+        "huzur"
+      ],
+      "lat": 41.028,
+      "lng": 28.983,
+      "rating": 4.8,
+      "description": "Cihangir'den Boğaz'a ve Tarihi Yarımada'ya bakan gizli bir cennet.",
+      "description_en": "A hidden gem in Cihangir with views of the Bosphorus and the Historical Peninsula.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/istanbul/sanatkarlar_parki.jpg",
+      "source": "firebase"
     }
   ]
 }

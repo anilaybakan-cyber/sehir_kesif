@@ -5,7 +5,7 @@
   "country_en": "Switzerland",
   "description": "Ortaçağ köprüleri ve göl manzarasıyla İsviçre'nin en romantik şehri. Alpler'in kalbi.",
   "description_en": "Most romantic city in Switzerland with medieval bridges and lake views. Heart of the Alps.",
-  "heroImage": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/lucerne/alag_bar_kriens.jpg",
+  "heroImage": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/lucerne/chapel_bridge_kapellbrucke.jpg",
   "coordinates": {
     "lat": 47.0502,
     "lng": 8.3093
@@ -4798,6 +4798,93 @@
       "distanceFromCenter": 1.5,
       "tips": "Akşam yemeği için rezervasyon yaptırmak şart.",
       "tips_en": "Reservation is a must for dinner."
+    },
+    {
+      "name": "Water Tower",
+      "name_en": "Water Tower",
+      "area": "Chapel Bridge",
+      "category": "Tarihi",
+      "tags": [
+        "tower",
+        "lake",
+        "iconic"
+      ],
+      "lat": 47.0514,
+      "lng": 8.3076,
+      "description": "Chapel Köprüsü'nün yanında yükselen, Lucerne'in en çok fotoğraflanan simgesi olan tarihi sekizgen kule.",
+      "description_en": "The iconic octagonal stone tower standing next to Chapel Bridge, Lucerne's most photographed landmark.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/lucerne/water_tower.jpg",
+      "rating": 4.8,
+      "price": "free"
+    },
+    {
+      "name": "Zyt Tower",
+      "name_en": "Zyt Tower",
+      "area": "Old Town",
+      "category": "Tarihi",
+      "tags": [
+        "saat",
+        "kule",
+        "manzara"
+      ],
+      "lat": 47.0535,
+      "lng": 8.3035,
+      "rating": 4.6,
+      "description": "Lucerne'in en eski saat kulesi. Şehrin diğer saatlerinden tam bir dakika önce çalmasıyla ünlü.",
+      "description_en": "Lucerne's oldest clock tower. Famous for striking exactly one minute before all other clocks in the city.",
+      "imageUrl": "https://images.unsplash.com/photo-1516298756846-bc982a8740d5?w=800"
+    },
+    {
+      "name": "Männleturm",
+      "name_en": "Männleturm",
+      "area": "Musegg Wall",
+      "category": "Tarihi",
+      "tags": [
+        "kule",
+        "sur",
+        "manzara"
+      ],
+      "lat": 47.0545,
+      "lng": 8.3045,
+      "rating": 4.5,
+      "description": "Musegg Surları'nın üzerinde yer alan, demir bir figürle (Männli) taçlandırılmış tarihi kule.",
+      "description_en": "A historic tower on the Musegg Wall, topped with a small iron figure (Männli).",
+      "imageUrl": "https://images.unsplash.com/photo-1516298756846-bc982a8740d5?w=800"
+    },
+    {
+      "name": "Lake Promenade",
+      "name_en": "Lucerne Lake Promenade",
+      "area": "Lakeside",
+      "category": "Manzara",
+      "tags": [
+        "göl",
+        "yürüyüş",
+        "çiçek"
+      ],
+      "lat": 47.0505,
+      "lng": 8.315,
+      "rating": 4.9,
+      "description": "Lucerne Gölü kıyısı boyunca uzanan, Alpler'in eşsiz manzarasına sahip çiçeklerle bezeli yürüyüş yolu.",
+      "description_en": "A flower-lined promenade along Lake Lucerne with unique views of the Alps.",
+      "imageUrl": "https://images.unsplash.com/photo-1533154823122-c322b6045d99?w=800"
+    },
+    {
+      "name": "Pilatus Kulm",
+      "name_en": "Pilatus Kulm",
+      "area": "Mount Pilatus",
+      "category": "Manzara",
+      "tags": [
+        "dağ",
+        "panorama",
+        "zirve"
+      ],
+      "lat": 46.979,
+      "lng": 8.256,
+      "rating": 4.9,
+      "description": "Pilatus Dağı'nın zirvesi, Lucerne ve çevresindeki göllerin 360 derecelik panoramik görüntüsünü sunar.",
+      "description_en": "The summit of Mount Pilatus, offering a 360-degree panoramic view of Lucerne and the surrounding lakes.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/lucerne/pilatus_kulm.jpg",
+      "source": "firebase"
     }
   ]
 }

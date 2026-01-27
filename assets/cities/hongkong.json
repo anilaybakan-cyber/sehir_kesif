@@ -5,7 +5,7 @@
   "country_en": "China (SAR)",
   "description": "Doğu Batı buluşması! Gökdelenler, dim sum, Victoria Peak ve neon sokaklar.",
   "description_en": "East meets West! Skyscrapers, dim sum, Victoria Peak and neon streets.",
-  "heroImage": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/hongkong/1881_heritage.jpg",
+  "heroImage": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/hongkong/victoria_peak.jpg",
   "coordinates": {
     "lat": 22.3193,
     "lng": 114.1694
@@ -4678,6 +4678,60 @@
       "distanceFromCenter": 1.5,
       "tips": "Çevredeki küçük hediyelik eşya dükkanlarına da uğrayın.",
       "tips_en": "Stop by the small souvenir shops around."
+    },
+    {
+      "name": "Peak Tram",
+      "name_en": "Peak Tram",
+      "area": "Central",
+      "category": "Deneyim",
+      "tags": [
+        "tram",
+        "view",
+        "iconic"
+      ],
+      "lat": 22.2776,
+      "lng": 114.1557,
+      "description": "Hong Kong'un en ikonik ulaşım aracı. Dik bir yamaçtan Victoria Zirvesi'ne çıkarken şehrin gökdelenlerini eşsiz bir açıdan görün.",
+      "description_en": "Hong Kong's most iconic transport. A steep funicular ride to Victoria Peak offering gravity-defying views of the skyline.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/hongkong/peak_tram.jpg",
+      "rating": 4.8,
+      "price": "medium"
+    },
+    {
+      "name": "Sneaker Street",
+      "name_en": "Sneaker Street",
+      "area": "Mong Kok",
+      "category": "Alışveriş",
+      "tags": [
+        "spor ayakkabı",
+        "moda",
+        "pazar"
+      ],
+      "lat": 22.319,
+      "lng": 114.172,
+      "rating": 4.4,
+      "description": "Fa Yuen Street olarak da bilinen, yüzlerce spor ayakkabı mağazasının bulunduğu enerjik cadde.",
+      "description_en": "An energetic street also known as Fa Yuen Street, home to hundreds of sneaker shops.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/hongkong/sneaker_street.jpg",
+      "source": "firebase"
+    },
+    {
+      "name": "Wisdom Path",
+      "name_en": "Wisdom Path",
+      "area": "Lantau Island",
+      "category": "Doğa",
+      "tags": [
+        "spiritüel",
+        "yürüyüş",
+        "manzara"
+      ],
+      "lat": 22.2545,
+      "lng": 113.908,
+      "rating": 4.7,
+      "description": "Ahşap sütunlar üzerine kazınmış antik duaların bulunduğu, doğa içinde huzurlu bir yürüyüş yolu.",
+      "description_en": "A peaceful walking path in nature featuring ancient prayers carved onto wooden columns.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/hongkong/wisdom_path.jpg",
+      "source": "firebase"
     }
   ]
 }

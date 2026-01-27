@@ -5105,6 +5105,41 @@
       "bestTime_en": "Afternoon",
       "tips": "Grup indirimi olup olmadığını sorun.",
       "tips_en": "Ask if there is a group discount."
+    },
+    {
+      "name": "Souk Al Bahar",
+      "name_en": "Souk Al Bahar",
+      "area": "Downtown",
+      "category": "Alışveriş",
+      "tags": [
+        "souk",
+        "luxury",
+        "view"
+      ],
+      "lat": 25.1947,
+      "lng": 55.2778,
+      "description": "Burj Lake kenarında, modern ve geleneksel Arap mimarisini birleştiren şık alışveriş ve yemek kompleksi.",
+      "description_en": "A vibrant shopping and dining destination located on Burj Lake, blending modern luxury with traditional Arabic architecture.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/dubai/souk_al_bahar.jpg",
+      "rating": 4.7,
+      "price": "high"
+    },
+    {
+      "name": "Dubai Desert Conservation Reserve",
+      "name_en": "Dubai Desert Conservation Reserve",
+      "area": "Desert",
+      "category": "Doğa",
+      "tags": [
+        "safari",
+        "koruma",
+        "kum"
+      ],
+      "lat": 24.83,
+      "lng": 55.48,
+      "rating": 4.8,
+      "description": "Dubai'nin doğal çöl ekosistemini koruyan en büyük milli parkı. Lüks safari deneyimleri burada yapılır.",
+      "description_en": "Dubai's largest national park protecting the natural desert ecosystem. Home to luxury safari experiences.",
+      "imageUrl": "https://images.unsplash.com/photo-1451337513563-094194098485?w=800"
     }
   ]
 }

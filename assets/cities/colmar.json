@@ -40,7 +40,7 @@
       "rating": 4.8,
       "description": "Alsace Şarap Yolu'nun başlangıç noktası. Sıradan bir gezinin ötesine geçip unutulmaz anılar biriktirmek isteyenler için benzersiz bir fırsat. Bu aktivite, seyahatinize heyecan ve renk katarak size farklı bir perspektif kazandıracak.",
       "description_en": "Starting point of Alsace Wine Route. A unique opportunity for those who want to go beyond an ordinary trip and collect unforgettable memories. This activity will add excitement and color to your travel, giving you a different perspective.",
-      "imageUrl": "https://images.unsplash.com/photo-1543783232-af412b852fc7?w=800",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/colmar/alsace_wine_route_start.jpg",
       "price": "medium",
       "distanceFromCenter": 1.0,
       "bestTime": "09:00 - 18:00",
@@ -89,7 +89,7 @@
       "tips": "İç avlusu fotoğraf için çok güzel.",
       "tips_en": "Inner courtyard is very nice for photos.",
       "id": "ancienne-douane-koïfhus",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/colmar/ancienne-douane-koïfhus.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/colmar/ancienne_douane_kofhus.jpg",
       "source": "firebase",
       "distanceFromCenter": 1.0
     },
@@ -126,7 +126,7 @@
       "lng": 7.357,
       "rating": 4.7,
       "description": "Eski tarz Fransız pastanesi atmosferi. Günün yorgunluğunu atmak ve lezzetli bir kahve eşliğinde dinlenmek için en doğru adreslerden biri. Mekanın sıcak ambiyansı ve sunduğu tatlı sürprizler, molanızı keyfe dönüştürecek.",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/colmar/au_croissant_doré.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/colmar/au_croissant_dore.jpg",
       "price": "medium",
       "bestTime": "09:00 - 18:00",
       "bestTime_en": "09:00 - 18:00",
@@ -621,7 +621,7 @@
       "tips": "'Le Château des Défis' oyunu aileler için harikadır.",
       "tips_en": "'Le Château des Défis' game is great for families.",
       "id": "château-de-fleckenstein",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/colmar/château-de-fleckenstein.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/colmar/chteau_de_fleckenstein.jpg",
       "source": "firebase",
       "distanceFromCenter": 0.5
     },
@@ -642,7 +642,7 @@
       "tips": "Ortenbourg'dan yürüyerek 5 dakikadır.",
       "tips_en": "A 5-minute walk from Ortenbourg.",
       "id": "château-de-ramstein",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/colmar/château-de-ramstein.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/colmar/chteau_de_ramstein.jpg",
       "source": "firebase",
       "distanceFromCenter": 0.5
     },
@@ -663,7 +663,7 @@
       "tips": "Manzara tüm Alsace ovasına hakimdir.",
       "tips_en": "The view dominates the entire Alsace plain.",
       "id": "château-de-saint-ulrich",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/colmar/château-de-saint-ulrich.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/colmar/chteau_de_saint_ulrich.jpg",
       "source": "firebase",
       "distanceFromCenter": 0.5
     },
@@ -684,7 +684,7 @@
       "tips": "Beşgen kulesi (Donjon) çok iyi korunmuştur.",
       "tips_en": "Its pentagonal tower (Donjon) is very well preserved.",
       "id": "château-de-lortenbourg",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/colmar/château-de-lortenbourg.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/colmar/chteau_de_lortenbourg.jpg",
       "source": "firebase",
       "distanceFromCenter": 0.5
     },
@@ -705,7 +705,7 @@
       "tips": "Müzesindeki arkeolojik eserleri inceleyin.",
       "tips_en": "Examine the archaeological artifacts in its museum.",
       "id": "château-des-rohan",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/colmar/château-des-rohan.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/colmar/chteau_des_rohan.jpg",
       "source": "firebase",
       "distanceFromCenter": 0.5
     },
@@ -726,7 +726,7 @@
       "tips": "İki kaleyi birbirine bağlayan patikayı kullanın.",
       "tips_en": "Use the path connecting the two castles.",
       "id": "château-du-girsberg",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/colmar/château-du-girsberg.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/colmar/chteau_du_girsberg.jpg",
       "source": "firebase",
       "distanceFromCenter": 0.5
     },
@@ -747,7 +747,7 @@
       "tips": "Surlardan Kara Ormanları bile görebilirsiniz.",
       "tips_en": "You can even see the Black Forest from the ramparts.",
       "id": "château-du-haut-koenigsbourg",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/colmar/château-du-haut-koenigsbourg.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/colmar/chteau_du_haut_koenigsbourg.jpg",
       "source": "firebase",
       "distanceFromCenter": 0.5
     },
@@ -768,7 +768,7 @@
       "tips": "Tırmanış biraz diktir, dikkatli olun.",
       "tips_en": "The climb is a bit steep, be careful.",
       "id": "château-du-haut-ribeaupierre",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/colmar/château-du-haut-ribeaupierre.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/colmar/chteau_du_haut_ribeaupierre.jpg",
       "source": "firebase",
       "distanceFromCenter": 0.5
     },
@@ -789,7 +789,7 @@
       "tips": "Surların üzerinden 360 derece manzara vardır.",
       "tips_en": "There is a 360-degree view from the ramparts.",
       "id": "château-du-hohlandsbourg",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/colmar/château-du-hohlandsbourg.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/colmar/chteau_du_hohlandsbourg.jpg",
       "source": "firebase",
       "distanceFromCenter": 0.5
     },
@@ -831,7 +831,7 @@
       "tips": "Rotadan Ren vadisinin ve Kara Ormanların manzarası eşsizdir.",
       "tips_en": "The view of the Rhine valley and Black Forest from the route is unique.",
       "id": "circuit-des-trois-châteaux-(eguisheim)",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/colmar/circuit-des-trois-châteaux-(eguisheim).jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/colmar/circuit_des_trois_chteaux_eguisheim.jpg",
       "source": "firebase",
       "distanceFromCenter": 0.5
     },
@@ -1171,7 +1171,9 @@
       "tips": "Tatlıları ev yapımıdır ve çok hafiftir.",
       "tips_en": "Desserts are homemade and very light.",
       "id": "fanny-&-fabrice",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/colmar/fanny___fabrice.jpg",
+      "source": "firebase"
     },
     {
       "name": "Fishmonger's District",
@@ -1337,7 +1339,7 @@
       "rating": 4.4,
       "description": "Meydanda kahve ve insanları izleme. Günün yorgunluğunu atmak ve lezzetli bir kahve eşliğinde dinlenmek için en doğru adreslerden biri. Mekanın sıcak ambiyansı ve sunduğu tatlı sürprizler, molanızı keyfe dönüştürecek.",
       "description_en": "Coffee and people watching in the square. One of the right addresses to relieve the tiredness of the day and relax with a delicious coffee. The warm ambiance of the venue and the sweet surprises it offers will turn your break into pleasure.",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/colmar/fénelon_café.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/colmar/fenelon_cafe.jpg",
       "price": "medium",
       "distanceFromCenter": 1.0,
       "bestTime": "09:00 - 18:00",
@@ -1581,7 +1583,9 @@
       "tips": "Öğle arası açık büfe seçeneği vardır.",
       "tips_en": "There is an open buffet option during lunch break.",
       "id": "japonais-nagoya",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/colmar/japonais_nagoya.jpg",
+      "source": "firebase"
     },
     {
       "name": "Jardin des Deux Rives",
@@ -1682,7 +1686,7 @@
       "lng": 7.3585,
       "rating": 4.6,
       "description": "Eski gümrük binası, şimdi etkinlik merkezi. Tarih meraklıları için eşsiz bir hazine olan bu mekan, geçmişe ışık tutan detaylarıyla ziyaretçilerini büyülüyor. Kültürel bir yolculuğa çıkmak isteyenler için ideal bir durak.",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/colmar/koïfhus.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/colmar/kofhus.jpg",
       "price": "medium",
       "bestTime": "09:00 - 18:00",
       "bestTime_en": "09:00 - 18:00",
@@ -1878,7 +1882,9 @@
       "tips": "Hans Kayası'ndan (Rocher Hans) gölü kuşbakışı izleyin.",
       "tips_en": "View the lake from a bird's eye view from Hans Rock (Rocher Hans).",
       "id": "lac-blanc",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/colmar/lac_blanc.jpg",
+      "source": "firebase"
     },
     {
       "name": "Lac de Gérardmer",
@@ -2213,7 +2219,9 @@
       "tips": "Sokağın çatallandığı noktada harika bir perspektif verir.",
       "tips_en": "Gives a great perspective where the street forks.",
       "id": "maison-fleischhauer",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/colmar/maison_fleischhauer.jpg",
+      "source": "firebase"
     },
     {
       "name": "Maison Gintzburger",
@@ -2312,7 +2320,7 @@
       "rating": 4.6,
       "description": "111 kafayla süslü Rönesans cephesi. Tarih meraklıları için eşsiz bir hazine olan bu mekan, geçmişe ışık tutan detaylarıyla ziyaretçilerini büyülüyor. Kültürel bir yolculuğa çıkmak isteyenler için ideal bir durak.",
       "description_en": "Renaissance facade decorated with 111 heads. A unique treasure for history buffs, this venue captivates visitors with details that shed light on the past. An ideal stop for those wishing to embark on a cultural journey.",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/colmar/maison_des_têtes.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/colmar/maison_des_ttes.jpg",
       "price": "medium",
       "distanceFromCenter": 1.0,
       "bestTime": "09:00 - 18:00",
@@ -2375,7 +2383,7 @@
       "lng": 7.3595,
       "rating": 4.4,
       "description": "Kanal kenarındaki tarihi kapalı pazar yeri. A place you must stop by to discover region-specific products and buy gifts for your loved ones. Colorful shops and a lively atmosphere will make your shopping experience much more enjoyable.",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/colmar/marché_couvert.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/colmar/marche_couvert.jpg",
       "price": "medium",
       "bestTime": "09:00 - 18:00",
       "bestTime_en": "09:00 - 18:00",
@@ -3102,7 +3110,7 @@
       "tips": "Kouglof ve Bretzel (tuzlu simit) denemelisiniz.",
       "tips_en": "You must try Kouglof and Bretzel.",
       "id": "pâtisserie-gilg",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/colmar/pâtisserie-gilg.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/colmar/ptisserie_gilg.jpg",
       "source": "firebase",
       "distanceFromCenter": 0.5
     },
@@ -3123,7 +3131,7 @@
       "tips": "Makaronları şehrin en iyileri arasındadır.",
       "tips_en": "Its macarons are among the best in the city.",
       "id": "pâtisserie-schmitt",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/colmar/pâtisserie-schmitt.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/colmar/ptisserie_schmitt.jpg",
       "source": "firebase",
       "distanceFromCenter": 0.5
     },
@@ -3339,7 +3347,9 @@
       "tips": "Kışın kapalı olabilir, kontrol edin.",
       "tips_en": "Might be closed in winter, check.",
       "id": "route-des-crêtes",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/colmar/route_des_crtes.jpg",
+      "source": "firebase"
     },
     {
       "name": "Rue des Marchands",
@@ -3439,7 +3449,7 @@
       "rating": 4.5,
       "description": "Zarif çay salonu ve pastalar. Günün yorgunluğunu atmak ve lezzetli bir kahve eşliğinde dinlenmek için en doğru adreslerden biri. Mekanın sıcak ambiyansı ve sunduğu tatlı sürprizler, molanızı keyfe dönüştürecek.",
       "description_en": "Elegant tea room and pastries. One of the right addresses to relieve the tiredness of the day and relax with a delicious coffee. The warm ambiance of the venue and the sweet surprises it offers will turn your break into pleasure.",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/colmar/salon_de_thé_un_moment_à_colmar.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/colmar/salon_de_the_un_moment_colmar.jpg",
       "price": "medium",
       "distanceFromCenter": 1.0,
       "bestTime": "09:00 - 18:00",
@@ -3681,7 +3691,7 @@
       "tips": "Bir temsil izlemeyecekseniz bile dış mimarisini inceleyin.",
       "tips_en": "Even if you won't watch a performance, examine its exterior architecture.",
       "id": "theâtre-municipal-de-colmar",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/colmar/theâtre-municipal-de-colmar.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/colmar/thetre_municipal_de_colmar.jpg",
       "source": "firebase",
       "distanceFromCenter": 0.5
     },
@@ -3890,7 +3900,7 @@
       "rating": 4.7,
       "description": "Yerel şarap mahzenlerinde tadım. Sıradan bir gezinin ötesine geçip unutulmaz anılar biriktirmek isteyenler için benzersiz bir fırsat. Bu aktivite, seyahatinize heyecan ve renk katarak size farklı bir perspektif kazandıracak.",
       "description_en": "Tasting in local wine cellars. A unique opportunity for those who want to go beyond an ordinary trip and collect unforgettable memories. This activity will add excitement and color to your travel, giving you a different perspective.",
-      "imageUrl": "https://images.unsplash.com/photo-1543783232-af412b852fc7?w=800",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/colmar/wine_tasting_cellars.jpg",
       "price": "medium",
       "distanceFromCenter": 1.0,
       "bestTime": "09:00 - 18:00",
@@ -4023,6 +4033,45 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/colmar/eglise-des-dominicains.jpg",
       "source": "firebase",
       "distanceFromCenter": 0.5
+    },
+    {
+      "name": "Petite Venise",
+      "name_en": "Little Venice",
+      "area": "Petite Venise",
+      "category": "Deneyim",
+      "tags": [
+        "kanal",
+        "romantik",
+        "fotoğraf"
+      ],
+      "lat": 48.0739,
+      "lng": 7.3575,
+      "rating": 4.9,
+      "description": "Colmar'ın en pitoresk bölgesi. Kanallar boyunca sıralanan renkli, yarı ahşap evleriyle Venedik'i andıran, kartpostal güzelliğinde bir mahalle.",
+      "description_en": "Colmar's most picturesque district. A postcard-beautiful neighborhood reminiscent of Venice with its colorful half-timbered houses lining the canals.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/colmar/petite_venise.jpg",
+      "price": "free",
+      "source": "firebase"
+    },
+    {
+      "name": "Statue of Liberty",
+      "name_en": "Statue of Liberty Replica",
+      "area": "North Entrance",
+      "category": "Tarihi",
+      "tags": [
+        "heykel",
+        "özgürlük",
+        "bartholdi"
+      ],
+      "lat": 48.1087,
+      "lng": 7.3637,
+      "rating": 4.5,
+      "description": "Özgürlük Heykeli'nin heykeltıraşı Bartholdi'nin memleketi Colmar'ın girişinde yer alan, 12 metre yüksekliğindeki replika.",
+      "description_en": "A 12-meter high replica located at the entrance of Colmar, the hometown of Bartholdi, the sculptor of the Statue of Liberty.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/colmar/statue_of_liberty.jpg",
+      "price": "free",
+      "source": "firebase"
     }
-  ]
+  ],
+  "heroImage": "https://images.goway.com/production/hero/iStock-1423136049.jpg"
 }

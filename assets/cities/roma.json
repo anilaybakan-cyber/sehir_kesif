@@ -5394,6 +5394,401 @@
       "bestTime_en": "Early morning",
       "tips": "Grup indirimi olup olmadığını sorun.",
       "tips_en": "Ask if there is a group discount."
+    },
+    {
+      "name": "Palatino Tepesi (Palatine Hill)",
+      "name_en": "Palatine Hill",
+      "area": "Palatino",
+      "category": "Tarihi",
+      "tags": [
+        "tarih",
+        "saray",
+        "manzara"
+      ],
+      "lat": 41.8885,
+      "lng": 12.4866,
+      "rating": 4.8,
+      "description": "Roma'nın kuruluş yeri sayılan yedi tepeden biri, imparatorluk saraylarının kalıntıları burada yer alır.",
+      "description_en": "One of the seven hills considered the birthplace of Rome, home to the ruins of imperial palaces.",
+      "imageUrl": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?w=800"
+    },
+    {
+      "name": "St. Peter's Basilica (San Pietro Bazilikası)",
+      "name_en": "St. Peter's Basilica",
+      "area": "Vatican",
+      "category": "Kilise",
+      "tags": [
+        "vatican",
+        "mimari",
+        "rönesans"
+      ],
+      "lat": 41.9022,
+      "lng": 12.4539,
+      "rating": 5.0,
+      "description": "Dünyanın en büyük ve en görkemli kilisesi, Mikelanjelo'nun kubbesi ile ünlü.",
+      "description_en": "The world's largest and most magnificent church, famous for Michelangelo's dome.",
+      "imageUrl": "https://images.unsplash.com/photo-1531572751524-ce38d97bd3cd?w=800"
+    },
+    {
+      "name": "Borgo",
+      "name_en": "Borgo",
+      "area": "Vatican City",
+      "category": "Keşfet",
+      "tags": [
+        "vatican",
+        "tarih",
+        "sokak"
+      ],
+      "lat": 41.903,
+      "lng": 12.46,
+      "rating": 4.5,
+      "description": "Vatikan'ın hemen yanındaki dar sokakları ve tarihi binalarıyla ünlü karakteristik semt.",
+      "description_en": "A characteristic district next to the Vatican, famous for its narrow streets and historic buildings.",
+      "imageUrl": "https://images.unsplash.com/photo-1515542641795-85ed3b82160d?w=800"
+    },
+    {
+      "name": "Basilica di Santa Maria in Trastevere",
+      "name_en": "Basilica di Santa Maria in Trastevere",
+      "area": "Trastevere",
+      "category": "Kilise",
+      "tags": [
+        "mozaik",
+        "tarih",
+        "trastevere"
+      ],
+      "lat": 41.8894,
+      "lng": 12.4697,
+      "rating": 4.8,
+      "description": "Roma'nın en eski kiliselerinden biri, muhteşem mozaikleriyle ünlü.",
+      "description_en": "One of the oldest churches in Rome, famous for its magnificent mosaics.",
+      "imageUrl": "https://images.unsplash.com/photo-1533105079780-92b9be482077?w=800"
+    },
+    {
+      "name": "Piazza Trilussa",
+      "name_en": "Piazza Trilussa",
+      "area": "Trastevere",
+      "category": "Meydan",
+      "tags": [
+        "trastevere",
+        "gece",
+        "gençlik"
+      ],
+      "lat": 41.8903,
+      "lng": 12.469,
+      "rating": 4.6,
+      "description": "Trastevere'nin kalbi, akşamları gençlerin buluşma noktası olan canlı meydan.",
+      "description_en": "The heart of Trastevere, a lively square that is a meeting point for young people in the evenings.",
+      "imageUrl": "https://images.unsplash.com/photo-1525874684015-58379d421a52?w=800"
+    },
+    {
+      "name": "Vicolo del Moro",
+      "name_en": "Vicolo del Moro",
+      "area": "Trastevere",
+      "category": "Eğlence",
+      "tags": [
+        "sokak",
+        "fotoğraf",
+        "trastevere"
+      ],
+      "lat": 41.891,
+      "lng": 12.47,
+      "rating": 4.7,
+      "description": "Trastevere'nin en fotojenik, sarmaşıklarla kaplı dar sokaklarından biri.",
+      "description_en": "One of the most photogenic, ivy-covered narrow streets in Trastevere.",
+      "imageUrl": "https://images.unsplash.com/photo-1528114039593-4366cc08227d?w=800"
+    },
+    {
+      "name": "Mordi e Vai",
+      "name_en": "Mordi e Vai",
+      "area": "Testaccio",
+      "category": "Yeme-İçme",
+      "tags": [
+        "sandviç",
+        "lokal",
+        "pazar"
+      ],
+      "lat": 41.875,
+      "lng": 12.478,
+      "rating": 4.9,
+      "description": "Testaccio Pazarı'nda efsanevi Roma usulü etli sandviçler yapan meşhur büfe.",
+      "description_en": "A famous stand in Testaccio Market making legendary Roman-style meat sandwiches.",
+      "imageUrl": "https://images.unsplash.com/photo-1509722747041-616f39b57569?w=800"
+    },
+    {
+      "name": "Spanish Steps (İspanyol Merdivenleri)",
+      "name_en": "Spanish Steps",
+      "area": "Center",
+      "category": "Tarihi",
+      "tags": [
+        "meydan",
+        "ikonik",
+        "buluşma"
+      ],
+      "lat": 41.906,
+      "lng": 12.4827,
+      "rating": 4.7,
+      "description": "Piazza di Spagna'yı Trinità dei Monti kilisesine bağlayan dünyaca ünlü basamaklar.",
+      "description_en": "The world-famous steps connecting Piazza di Spagna to the Trinità dei Monti church.",
+      "imageUrl": "https://images.unsplash.com/photo-1543323719-5d298418f780?w=800"
+    },
+    {
+      "name": "Piazza Venezia",
+      "name_en": "Piazza Venezia",
+      "area": "Center",
+      "category": "Meydan",
+      "tags": [
+        "anıt",
+        "merkez",
+        "tarih"
+      ],
+      "lat": 41.896,
+      "lng": 12.482,
+      "rating": 4.6,
+      "description": "Roma'nın ulaşım kalbi ve devasa Vittoriano anıtına ev sahipliği yapan görkemli meydan.",
+      "description_en": "The transport heart of Rome and a magnificent square home to the massive Vittoriano monument.",
+      "imageUrl": "https://images.unsplash.com/photo-1529260830199-42c24126f198?w=800"
+    },
+    {
+      "name": "Fatamorgana",
+      "name_en": "Fatamorgana",
+      "area": "Trastevere",
+      "category": "Yeme-İçme",
+      "tags": [
+        "dondurma",
+        "lokal",
+        "gelato"
+      ],
+      "lat": 41.889,
+      "lng": 12.471,
+      "rating": 4.8,
+      "description": "Yaratıcı aromaları ve doğal malzemeleriyle bilinen Roma'nın en iyi dondurmacılarından biri.",
+      "description_en": "One of Rome's best gelaterias, known for creative flavors and natural ingredients.",
+      "imageUrl": "https://images.unsplash.com/photo-1501443762214-5291771cc152?w=800"
+    },
+    {
+      "name": "Gelateria del Teatro",
+      "name_en": "Gelateria del Teatro",
+      "area": "Center",
+      "category": "Yeme-İçme",
+      "tags": [
+        "dondurma",
+        "el yapımı",
+        "artisanal"
+      ],
+      "lat": 41.9,
+      "lng": 12.4695,
+      "rating": 4.9,
+      "description": "Via dei Coronari'de zanaatkar dondurmanın zirvesi.",
+      "description_en": "The pinnacle of artisanal gelato on Via dei Coronari.",
+      "imageUrl": "https://images.unsplash.com/photo-1501443762214-5291771cc152?w=800"
+    },
+    {
+      "name": "Hotel Raphael Terrace",
+      "name_en": "Hotel Raphael Terrace",
+      "area": "Navona",
+      "category": "Yeme-İçme",
+      "tags": [
+        "rooftop",
+        "manzara",
+        "aperitivo"
+      ],
+      "lat": 41.9005,
+      "lng": 12.472,
+      "rating": 4.9,
+      "description": "Piazza Navona manzaralı, Roma'nın en lüks ve panoramik teras barlarından biri.",
+      "description_en": "One of Rome's most luxurious and panoramic rooftop bars with views of Piazza Navona.",
+      "imageUrl": "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?w=800"
+    },
+    {
+      "name": "Salotto 42",
+      "name_en": "Salotto 42",
+      "area": "Pantheon",
+      "category": "Bar",
+      "tags": [
+        "aperitivo",
+        "trend",
+        "pantheon"
+      ],
+      "lat": 41.9,
+      "lng": 12.479,
+      "rating": 4.7,
+      "description": "Hadrian Tapınağı'na bakan, şık ve popüler bir kitap-bar konsepti.",
+      "description_en": "A chic and popular book-bar concept overlooking the Temple of Hadrian.",
+      "imageUrl": "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?w=800"
+    },
+    {
+      "name": "Etablì",
+      "name_en": "Etablì",
+      "area": "Navona",
+      "category": "Bar",
+      "tags": [
+        "bar",
+        "vintage",
+        "şarap"
+      ],
+      "lat": 41.9008,
+      "lng": 12.4715,
+      "rating": 4.6,
+      "description": "Vintage dekorasyonuyla hem şarap barı hem de kafe olarak popüler bir mekan.",
+      "description_en": "A popular spot with vintage decor that serves as both a wine bar and cafe.",
+      "imageUrl": "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?w=800"
+    },
+    {
+      "name": "Terrazza Borromini",
+      "name_en": "Terrazza Borromini",
+      "area": "Navona",
+      "category": "Yeme-İçme",
+      "tags": [
+        "rooftop",
+        "manzara",
+        "navona"
+      ],
+      "lat": 41.898,
+      "lng": 12.473,
+      "rating": 4.9,
+      "description": "Piazza Navona'nın tam üstünde, kilise kuleleri arasında unutulmaz bir manzara.",
+      "description_en": "An unforgettable view right above Piazza Navona, between the church towers.",
+      "imageUrl": "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?w=800"
+    },
+    {
+      "name": "Freni e Frizioni",
+      "name_en": "Freni e Frizioni",
+      "area": "Trastevere",
+      "category": "Bar",
+      "tags": [
+        "aperitivo",
+        "buffet",
+        "gençlik"
+      ],
+      "lat": 41.89,
+      "lng": 12.467,
+      "rating": 4.8,
+      "description": "Eski bir tamirhaneden dönüştürülen, Trastevere'nin en popüler aperitivo mekanı.",
+      "description_en": "Converted from an old repair shop, the most popular aperitivo spot in Trastevere.",
+      "imageUrl": "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?w=800"
+    },
+    {
+      "name": "Jerry Thomas Speakeasy",
+      "name_en": "The Jerry Thomas Project",
+      "area": "Navona",
+      "category": "Bar",
+      "tags": [
+        "kokteyl",
+        "gizli",
+        "speakeasy"
+      ],
+      "lat": 41.899,
+      "lng": 12.469,
+      "rating": 4.8,
+      "description": "Dünyanın en iyi 50 barı listesinde yer alan, gizli parola ile girilen kokteyl barı.",
+      "description_en": "A cocktail bar featured in the World's 50 Best Bars list, accessible via a secret password.",
+      "imageUrl": "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?w=800"
+    },
+    {
+      "name": "Portico d'Ottavia",
+      "name_en": "Portico d'Ottavia",
+      "area": "Jewish Ghetto",
+      "category": "Tarihi",
+      "tags": [
+        "antik",
+        "yahudi",
+        "tarih"
+      ],
+      "lat": 41.8925,
+      "lng": 12.4785,
+      "rating": 4.7,
+      "description": "Yahudi Mahallesi'nin kalbinde, antik Roma kalıntıları ve ortaçağ mimarisinin iç içe geçtiği yer.",
+      "description_en": "In the heart of the Jewish Ghetto, where ancient Roman ruins and medieval architecture intertwine.",
+      "imageUrl": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?w=800"
+    },
+    {
+      "name": "Great Synagogue",
+      "name_en": "Great Synagogue of Rome",
+      "area": "Jewish Ghetto",
+      "category": "Dini",
+      "tags": [
+        "sinagog",
+        "yahudi",
+        "tarih"
+      ],
+      "lat": 41.8918,
+      "lng": 12.478,
+      "rating": 4.8,
+      "description": "Roma'nın en büyük sinagogu, görkemli kubbesi nehrin her yerinden görülür.",
+      "description_en": "The largest synagogue in Rome, its magnificent dome can be seen from everywhere along the river.",
+      "imageUrl": "https://images.unsplash.com/photo-1515542641795-85ed3b82160d?w=800"
+    },
+    {
+      "name": "Nonna Betta",
+      "name_en": "Nonna Betta",
+      "area": "Jewish Ghetto",
+      "category": "Yeme-İçme",
+      "tags": [
+        "enginar",
+        "koşer",
+        "lokal"
+      ],
+      "lat": 41.892,
+      "lng": 12.4788,
+      "rating": 4.6,
+      "description": "Kızarmış enginarı (Carciofi alla Giudia) ile ünlü geleneksel Yahudi-Roma mutfağı.",
+      "description_en": "Traditional Jewish-Roman cuisine famous for its fried artichokes (Carciofi alla Giudia).",
+      "imageUrl": "https://images.unsplash.com/photo-1516714435131-44d6b64dc6a2?w=800"
+    },
+    {
+      "name": "Turtle Fountain",
+      "name_en": "Fontana delle Tartarughe",
+      "area": "Jewish Ghetto",
+      "category": "Mimari",
+      "tags": [
+        "çeşme",
+        "heykel",
+        "rönesans"
+      ],
+      "lat": 41.8938,
+      "lng": 12.4775,
+      "rating": 4.8,
+      "description": "Piazza Mattei'de yer alan zarif kaplumbağa figürlü çeşme.",
+      "description_en": "An elegant fountain with turtle figures located in Piazza Mattei.",
+      "imageUrl": "https://images.unsplash.com/photo-1529260830199-42c24126f198?w=800"
+    },
+    {
+      "name": "Gianicolo Hill",
+      "name_en": "Gianicolo Hill (Janiculum)",
+      "area": "Trastevere",
+      "category": "Manzara",
+      "tags": [
+        "tepe",
+        "manzara",
+        "panoroma"
+      ],
+      "lat": 41.8883,
+      "lng": 12.4567,
+      "rating": 4.8,
+      "description": "Roma'nın 'sekizinci tepesi'. Panoramik şehir manzarası, Garibaldi heykeli ve her gün öğlen patlayan topuyla ünlüdür.",
+      "description_en": "Rome's 'eighth hill'. Famous for its panoramic city views, Garibaldi statue, and the cannon fired every day at noon.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/roma/gianicolo_hill.jpg",
+      "price": "free",
+      "source": "firebase"
+    },
+    {
+      "name": "Pincio Terrazza",
+      "name_en": "Pincio Terrace",
+      "area": "Villa Borghese",
+      "category": "Manzara",
+      "tags": [
+        "teras",
+        "günbatımı",
+        "bahçe"
+      ],
+      "lat": 41.9113,
+      "lng": 12.4778,
+      "rating": 4.8,
+      "description": "Piazza del Popolo'ya bakan, gün batımının en güzel izlendiği romantik teras. Villa Borghese bahçelerinin bir parçasıdır.",
+      "description_en": "A romantic terrace overlooking Piazza del Popolo, perfect for watching the sunset. Part of the Villa Borghese gardens.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/roma/pincio_terrace.jpg",
+      "price": "free",
+      "source": "firebase"
     }
   ]
 }

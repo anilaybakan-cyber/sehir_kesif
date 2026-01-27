@@ -111,9 +111,10 @@
       "rating": 4.8,
       "description": "Tuna nehrinin eski kolu, şimdi durgun bir göl. Elektrikli tekne kiralayabilir veya kıyısındaki plajlarda yüzebilirsiniz.",
       "description_en": "Old arm of the Danube, now a still lake. You can rent electric boats or swim at the beaches along its shore.",
-      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AZLasHrzKSVwi5khZX6QZlVHg6fAgDcWRmBBrc9864VtuYoB8juJgPo7_tjL5B1YKlotIVgUFhX8BxjDD1yeLdyhJW_vsAHsuJDtGJhCqe6ABVIiv2Qwm9FbCioeOIczXIT-RB2wAzAkIYTHq3sMdcm75KJVqF3oibQhoOifuzqnyP2SKw39_OVL6Do1CFblc7eKpYLhTJqZfaDJNSouuhefWFFS7iZSUN2UvMYzWT45Babw0WC1TdRFQ3nE1Iuw8h1ntuTTfyE1sG3rtpFZxiKvQHoH51Dfb4Beg8kBeC0u6PQ43eBfEFhHa0D8YnJecSiPRoyqTPT0wM89QKb_rX4RmvtfGshNkUmApgbHcDw_Z3oXDhe_GK5dZHmXQvwwB7elUqcomZ8Fg3ERwGiYbu-XtQQBotuQxZIm7nhm371hH2x0R1_3Sas7NDfSZtn1FfCTuqnZzlLYnRUfqrC9tyTi6Y-9rrgVKqLLMvuCQVR1o2jKG2ZTVZTrdqO3n2U3yqzUUSI4cS-9dZc-ywlVbEpK7wlgpjhvBnlrimXc3djBOSKIzGfsFKYz0qbEFW9tt4qs_BaxNA&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/viyana/alte_donau.jpg",
       "bestTime": "Yaz günü",
-      "bestTime_en": "Summer day"
+      "bestTime_en": "Summer day",
+      "source": "firebase"
     },
     {
       "name": "Am Himmel",
@@ -307,9 +308,10 @@
       "rating": 4.6,
       "description": "Zentralfriedhof içinde yer alan, Viyana'nın ölümle olan ilginç ve bazen mizahi ilişkisini anlatan benzersiz müze.",
       "description_en": "Unique museum inside Zentralfriedhof telling Vienna's interesting and sometimes humorous relationship with death.",
-      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AZLasHrVffbNZaWr45431rc7JG79X5l6BUXPfa1IBWDTe_9Jod_kShOEgYFRWBtmEYVf3T7NzFccZxNzKuQ1QJyP6ASj1cbD3LU1ERc6QzS52zXLa6E7jWWl1RYEXTjSnuVA_eQqrNPNrUk7r4Im0ykSvwJkJJKXZ3CJ0PD8hhf9fH_bLsSXmWG79rU2YxlxbrNm6Wcwia_8yJpL8BGv1x0qasB_zffJpnADb1MCjO8LTYcOzmCKCVgYpS3cdLbgnDfQGfUZRAVx-t0GwJCKMiXJLvlNjmt8XA4fTfzSYyN_LSy1Dl7N_yI&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/viyana/bestattungsmuseum.jpg",
       "bestTime": "Gündüz",
-      "bestTime_en": "Daytime"
+      "bestTime_en": "Daytime",
+      "source": "firebase"
     },
     {
       "name": "Bitzinger Würstelstand",
@@ -351,9 +353,10 @@
       "rating": 4.9,
       "description": "Yenilebilir çiçekler ve baharatlarla yapılan benzersiz el yapımı çikolatalar. Ihlamur, mürver çiçeği gibi aromalar var.",
       "description_en": "Unique handmade chocolates made with edible flowers and spices. Flavors like linden and elderflower.",
-      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AZLasHrFYBmsAqt2rmWXQJRYxOLSA2tQ8MrqTH2zd4NtbKtiEQJv8lUPJjc03cvxGwuAlmRtpMzrV6H1iCQ6pD_XaHPf55YkDIHcv-3mB6uP_CxCwh6OwSsU1E_iLwjHePJfKz4vrou34JoGkVvF1vm93x_NZtoLc6IEEB8oDWjJuXG6A8Yvu2EZveU5dOCyK-HwCx81ZvCTajK5RcpAIA7qK_ZfG4HhH2SQQR-0Uj08ho5qafukuJXyj1kKSzcbztp4qfS38VfQhEES-B350LmwOlEsJQENFrerGkr90P5oloEQPtrZH8eknSOWE0y1pC59LawRQttwWXv1XRZszqeK7IQgS3lFhbjurWli5gzAP1rSD-UEYkWwxXu_z0NYYbe2UK64sDcOM0WI3MKTnZVg1IVYu1JhrEdK0n1I98_FWPrPeQSyQvE35SHWh_UghPhhlD5NUPNad7ZxIVaOhRVMaSG6ddoH3Or9Ge0SZsdMvEG4qB6An8N78Za7yr2zRYxGryhmOq62ACfxOfDv7x84k8ZrNmzXpodIpI7l7t5YDeobK_Vfsu2WmlpJNRAK9wxHvscB06g60tBZuQ&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/viyana/bluhendes_konfekt.jpg",
       "bestTime": "Gündüz",
-      "bestTime_en": "Daytime"
+      "bestTime_en": "Daytime",
+      "source": "firebase"
     },
     {
       "name": "Bogi Park",
@@ -373,9 +376,10 @@
       "rating": 4.4,
       "description": "Viyana'nın en büyük kapalı oyun parkı. Yağmurlu günlerde çocukların enerjisini atması için mükemmel bir yer.",
       "description_en": "Vienna's largest indoor playground. Perfect place for kids to burn off energy on rainy days.",
-      "imageUrl": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/viyana/bogi_park.jpg",
       "bestTime": "Kış günü",
-      "bestTime_en": "Winter day"
+      "bestTime_en": "Winter day",
+      "source": "firebase"
     },
     {
       "name": "Bootik 54",
@@ -1025,9 +1029,10 @@
       "rating": 4.5,
       "description": "Tuna Kanalı boyunca uzanan, sürekli değişen graffitilerle dolu açık hava galerisi. Akşamları gençler için popüler bir takılma alanı.",
       "description_en": "Open-air gallery full of ever-changing graffiti along the Danube Canal. Popular hang-out spot for youth in evenings.",
-      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AZLasHq5hyOetoGi7nH6ugSIo7paJLiTjZbNYABS0z6oqfjPUQmAu3ys0b5XlSGYP4MwmVvszDyIUuUK8W9CJbQRG6cjr0L7SzKNj6KT_zwx_4nUHKSGJVWiFiBqSmXhfr1wdaIWIrSVVuLY9km61vZ0sJ6ZUwz4osmpXcJc65zDuVl7ydGB7EyARC6-4TEU-SRKkFZbR1T8jDcEKlogVtWjs5sy6_NfG18y_9NGVeIG0vJGqeci6zOjy4zBOFQzUlLqBXFP1kV5npuJRYwiBIc74VlMGiKd4_mtz3lpcPeyTGqBhSLCMsFVqBclExFR49Lrud90VVCcOuLrvVMX6gYfDCFxhKewEitKxCxspjS43Sxlif7E9zaYExzd12NY_IugZ97UlIqehS7QRHzHuz3KEtAx_Tlw7XWXxMwu3HoNfzeFJhp70HCrGsZcpIzejAwxIJ-g2E5dEDDRXiGlzLVeQqKoHC19bmQ4_jHWJpRDxI9s-kcE0N2wVHBxMUGSSDOQtMEDt_cnh8N_JZFCtisT2eAr0QpPcKAX2xSRHXLKu6Cmb9GRD3d6b1Na0WVmbcJN8uPa5b4ofGjeGTR7CcT1Ou2U46arjA&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/viyana/donaukanal_street_art.jpg",
       "bestTime": "Akşamüstü",
-      "bestTime_en": "Late afternoon"
+      "bestTime_en": "Late afternoon",
+      "source": "firebase"
     },
     {
       "name": "Donauturm",
@@ -1069,9 +1074,10 @@
       "rating": 4.8,
       "description": "Viyana'nın güney ucunda, Mauer bölgesinde yer alan, 1629'dan beri hizmet veren çok şık ve gurme bir Heuriger.",
       "description_en": "Very stylish and gourmet Heuriger located in Mauer at the southern tip of Vienna, serving since 1629.",
-      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AZLasHqBju_oV8s5vRNVlf6K8uEI4jhD434zKYy2Ott8B-1AytElu6gYIH9dRNPDGfw6Dp_qH4yOECAnSwP_TJlz5w0s3I3kS4n12SNMdoUkopveLEgNTQPtPQ8pMBrP5euiMEcBNqLbg93VYicuFk9rjop04jYLgW1QW-4h6SUWzDOYgECw-XCKvT1Nv4SMFRO6-YO7w1Vc-k1nc7Lhqv5Ogkg_75THTGwoAMBfeY8u61c9SxyDgEJ9LObEl-kUUYvR_Cq4Fwv2fJpLR7B4d-X6DKsElsAaQgo8RCgEfQa3f3u0JBq_28OE3KzWF-0t_Qzq9ZhxpSNS6yIMxtjdQzTjvg_jnpqHldEoZjZU9J3TBSTCAFD09EBVCkQWcQZJ5WBz4x4rHzrn13ItU6ybwAdNI6FxBSwjIXQY-uaYvnhartbLFrI9qfXADwjuGY8rwbwfk8wlxKHKnvo-quLdponWTmpHkV_YTU5_OuHo6E8Sp1ZFPHjGfWLkTN12GSCzRrHieVN0mXZoFNXTWzoPn-I6MeuUqhvYjmOKJrhK4QP-avFK9jQQgRehiIcUq1kvd8CbB3ERlU94ZBuvbw&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/viyana/edlmoser.jpg",
       "bestTime": "Akşam yemeği",
-      "bestTime_en": "Dinner"
+      "bestTime_en": "Dinner",
+      "source": "firebase"
     },
     {
       "name": "Eigensinnig Wien",
@@ -1204,9 +1210,10 @@
       "rating": 4.6,
       "description": "Augarten içinde yer alan Avusturya Film Arşivi. Yazın açık hava sinema gösterimleri ('Kino wie noch nie') çok popülerdir.",
       "description_en": "Austrian Film Archive located in Augarten. Open-air cinema screenings ('Kino wie noch nie') are very popular in summer.",
-      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AZLasHpLOfDST9kQGcKHu5rufnbg6Lp0e3S5W83n-b7J574xpHsp-oL72LJPx_5JkbMAs0NCaSFSGwOXxY3oflFHqqFHcYbN56YxJOIeyyFjdNGv5wEFc3JFoD9rgN2DEuxB-wfanzwvReW4ZLK7VYeg_d_EZmtqoGUuC0DbIfwK0IUtQpa1Xr3gOrnkeemPedPEVyhH-c3pVcN6ZijX3Yv6dWmHLbI9Qh4N0vj49JwHDGBlRg_-xvndOyN9I8RRfYIf36XkQUe680vlcd6RNiAITJoPgoM6DnmNb3AQ9R7Cebs9est6y48&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/viyana/film_archiev_austria__augarten_.jpg",
       "bestTime": "Yaz akşamı",
-      "bestTime_en": "Summer evening"
+      "bestTime_en": "Summer evening",
+      "source": "firebase"
     },
     {
       "name": "Flex",
@@ -1270,9 +1277,10 @@
       "rating": 4.6,
       "description": "Etrafı saraylarla çevrili şık meydan. Ferstel Pasajı buradadır. Noel pazarı ve organik çiftçi pazarı ile ünlüdür.",
       "description_en": "Elegant square surrounded by palaces. Ferstel Passage is here. Famous for its Christmas market and organic farmers market.",
-      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AZLasHoDCPzgGD40KIiUvxGhmJfs7qo0Yfay3WH35JxLeKWCBJyhbgD39IQwhMF-hQbur1dw5ZAvCipa_nsXYLs_jJgX-4dJAZT5G0wKao00jfWyTj7HwKChZDVwKPozy518oY2D1fVLR8Lw2zHJ-LEsnJ7bUTN8fD-cn_0sAJtQr2yn-CLNIMzhi6nNM91-WAPqtgJjyhnQj6oavr9BCz2Uv68bSPL-V2p2VVysogRqrtANUZ564fNlcn6eyyCJLBPuBFYQerW0D0L9D0WP7CEens80d4bjwWRzj5r_YEhE3Hq6BWFmb_F594TbwXwjgExBRGzYxvFUUPFkiLJfgodlG2xhOwQDbZC1Lm_LTKfY6wQVZSXE0i4cO9BuVcQ-XhIk5_8r1r1EXxkJ7vl3Qs1pp1rINCGKuLoqi75fTHconk9ZpVnpg7HB-M7Ya5UGwHLum_4g0nwSGbKRJOurgm0ynV8hqwGAzLmhXQry1CMwITHSnFrFAC6-OVoMYlNLiq_VfzmBBTYYswF93Lz4nESlgvd8S2TYbfexBnKgDEiOS-VnDJ1SQSq0njofe4NX3WyORaY&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/viyana/freyung.jpg",
       "bestTime": "Gündüz",
-      "bestTime_en": "Daytime"
+      "bestTime_en": "Daytime",
+      "source": "firebase"
     },
     {
       "name": "Fuhrgassl-Huber",
@@ -1292,9 +1300,10 @@
       "rating": 4.7,
       "description": "Neustift am Walde'nin en popüler ve büyük Heuriger'i. Teraslı bahçesi ve rustik salonları çok keyiflidir. Aileler için uygun.",
       "description_en": "Most popular and large Heuriger in Neustift am Walde. Its terraced garden and rustic halls are delightful. Suitable for families.",
-      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AZLasHpXISTZrqjXX2FKaRhf4yovPE4fjlkSMRaZqxO4kii2gD2W6ucigSpT_6NrB1wIA0ocu6gGteJ_2vUaFQSYiYBFSq03mXyBNfLUVRmXH_0m_NDNNJDjLGMTRw7s8UcvRZKLT9-rZ8TcQCotWOLS2t9_aOnuS9ul-JN8IAwgM1oFQ_fL4BWv6xfFm3RHCqO4p1U-nhucFAC2_BvbTDb0Hwax-1Ox1kqspA-YwhYx-GhsTEefok9NSQdupihlhm9j0a9A6zA5ARIIWszPI-dbw8CTcIL8BozdW8913873tzu_w0YWf-Q&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/viyana/fuhrgassl-huber.jpg",
       "bestTime": "Hafta sonu öğle",
-      "bestTime_en": "Weekend lunch"
+      "bestTime_en": "Weekend lunch",
+      "source": "firebase"
     },
     {
       "name": "Gabarage Upcycling Design",
@@ -1644,9 +1653,10 @@
       "rating": 4.7,
       "description": "Ödüllü şarapları ve kaliteli mutfağıyla bilinen, Salı akşamları canlı Viyana şarkıları (Wienerlied) söylenen mekan.",
       "description_en": "Known for award-winning wines and quality cuisine, hosting live Viennese songs (Wienerlied) on Tuesday evenings.",
-      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AZLasHpeCPkKy82OwRxwL-JzUZfSJugw0ko7kv-_y_IB4GYTT3aDSEvsLqOpQQDrR6GPzlb_0PuhWbdTqNL2mElCbTzVyYsZSG9a8jzAo7AjbhU8Niao5PT7oaxzUIq5AB82QQ7weBp2n-YINwHSA0Q6-zFRvy943nhf5_kg22uudsNkE4pcBWv3-UNdNZVQl4k5x9xPBBHjsSpUv2ZGQc1rCHNsVg3OQVik5U7U0L9QdN76--aTtrj6_01VvsGcAsS3A0jkui28p5aJHC-4usWIH-FbAvM0Fz1epBV7Nr1ZghkRaCIqSSY39FhUoNJlCv7izOPShqhaoQdarxpIzGzj7xVBtWqIp9oqe_yoPmxtEyO_1pqJrcwY0M_YZ8m5_Ds43q26rr_lehBtCxvgoY8roepSBWnYAYMg745ENxfiaQTdkDAhpyzFSsPxs4LAIZ8VJAebIcod8qasH9gqvq-6gZm4Dm79LUCl3rXfVSuWyeFDLlXp5M7-ZLS6kHwWKsJP5xfYCaN3kK1SF2Txs9cSORAXoTC2VmUNVjFfvrVBXWCL-4YOmaiOIKMchGnv6XIf624lbqLw&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/viyana/hengl-haselbrunner.jpg",
       "bestTime": "Salı akşamı",
-      "bestTime_en": "Tuesday evening"
+      "bestTime_en": "Tuesday evening",
+      "source": "firebase"
     },
     {
       "name": "Hermesvilla",
@@ -1666,9 +1676,10 @@
       "rating": 4.6,
       "description": "Lainzer Tiergarten içinde, İmparator Franz Joseph'in eşi Sisi için yaptırdığı 'Rüyalar Şatosu'.",
       "description_en": "'Castle of Dreams' built by Emperor Franz Joseph for his wife Sisi, located inside Lainzer Tiergarten.",
-      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AZLasHr_XQuRYWBaT79kdKp7iQutsyZ9UGiS1ytGED7jDJT_6YRc288aNNFCkhLevEeZBB7R2XEtyE4VrYMAZx-0jBf2QndHmkWNiREVUzOOm_cv9CkX87T3ey5nhQYj6uiTE29-jEzYVMfxFiS_dnTXCuuqEmsNfZQh6T-HH3NmrJx4uPVuTlFa5E_9xL2WbDRoFj3mGsTKZMFWq58ZNwJCthr8f0mAL2cR2nVdYIKh7vMOC9t7mLG-ymTsHt9y7fYRDE4cwnEyVDLU_bBrmyWbHInwe8QfzpKDk8ex8RLWHz0HFftr788&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/viyana/hermesvilla.jpg",
       "bestTime": "Öğleden sonra",
-      "bestTime_en": "Afternoon"
+      "bestTime_en": "Afternoon",
+      "source": "firebase"
     },
     {
       "name": "Heuriger Sirbu",
@@ -1688,9 +1699,10 @@
       "rating": 4.6,
       "description": "Kahlenberg yolunda, muhteşem Tuna nehri manzarasına sahip, daha sakin ve romantik bir Heuriger.",
       "description_en": "A quieter and more romantic Heuriger on the way to Kahlenberg with magnificent Danube river views.",
-      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AZLasHrsWDL_B96t1_1RANqo5OPl96b_Pv6zfGsSKeRAelNk73gUy_5WCwO1yXaJX-Z6W3m64_V5GOJjP8Xkirkc-3kfftimg61zrpoyDuzA15fqDH58p2nMgOQRISBReDnIi5_BPqYRiccmBz8NoGpUZFBG0dSkWNYyz66ptYWbzqX3UugZKHHO5JLd--WV62gh15403soalub2-PGKI0fq0q21St_iIpew8P6iQb8H-Zblx1Dh1t0flH_D8R_hwmxd7R_fFeZc3afoT5EOOPQqIJw8c2X40G37AtRcMC98cqARX-yJJDM&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/viyana/heuriger_sirbu.jpg",
       "bestTime": "Gün batımı",
-      "bestTime_en": "Sunset"
+      "bestTime_en": "Sunset",
+      "source": "firebase"
     },
     {
       "name": "Hofburg",
@@ -1756,7 +1768,7 @@
       "rating": 4.5,
       "description": "Brütalist ve minimalist tasarımıyla dikkat çeken, hipster kitlenin favorisi olan karanlık ve cool bir bar.",
       "description_en": "Dark and cool bar favored by hipsters, notable for its brutalist and minimalist design.",
-      "imageUrl": "https://images.unsplash.com/photo-1543007630-9710e4a00a20?w=800",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/viyana/if_dogs_run_free.jpg",
       "bestTime": "Gece geç saat",
       "bestTime_en": "Late night"
     },
@@ -1888,9 +1900,10 @@
       "rating": 4.7,
       "description": "Viyana Ormanları içinde yer alan, şehri ve çevresini 360 derece görebileceğiniz ücretsiz bir gözetleme kulesi.",
       "description_en": "Free observation tower in the Vienna Woods offering 360-degree views of the city and surroundings.",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/viyana/jubiläumswarte.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/viyana/jubilaumswarte.jpg",
       "bestTime": "Açık hava",
-      "bestTime_en": "Clear weather"
+      "bestTime_en": "Clear weather",
+      "source": "firebase"
     },
     {
       "name": "Judenplatz",
@@ -2216,9 +2229,10 @@
       "rating": 4.8,
       "description": "Viyana'nın güneyinde, termal banyolara ev sahipliği yapan, tematik bahçeleri ve göletleriyle ünlü devasa park.",
       "description_en": "Massive park in south Vienna hosting thermal baths, famous for thematic gardens and ponds.",
-      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AZLasHqf-rqkN_V4wJUTRdFg1BTlrx7qZv4CfVdd2Ei36WN3UYwLJgVXKid8DUmqqU7Kf2od9KQllo3cBmiA-QJ3tvUzB-y4hgyNGYmRSTHYxbLK-HKknTHDJDlGftNeyDprKpdozVGQHBFkTaWLdGxJXRimCUtoMwm1p4ZGtr5txu6MYRvLfEEXHQVlg5gqIKmYSWop6DHfeOvIsI8w2GbZaDuLauRm3lxHgG6Us5_KXMw2divzt0_EiEqhZAL9bWjgiseplXsNnePaMz0fvGta24qL6A5cSxOvk2k0kcePc-jOhw-rOhcmySK58Mi6Q14AGjlOO-wGAZNOMMFe64HzLGSi03LEncvocEL_Kcj_XE6GcMZaNbpeULZIl272mCQxnMgDr3U9dtU5-5jGe46perIaOUozUNOIlex2l6IpXuyoCJdb9JBRRT1SQ9v1NNLGw2yQzjEbgfcpZlLHjACkKVnF_h2EFdBGNxxkh6wB050oSmGMwBuQ1igK_cLmpEr0E-6NqDHUNFl7RhB3Bg91G01m4lGS1gByNblKR6fMTRVn7_wdo-TFFUixB9ACKlUxb1kCIVLe&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/viyana/kurpark_oberlaa.jpg",
       "bestTime": "İlkbahar",
-      "bestTime_en": "Spring"
+      "bestTime_en": "Spring",
+      "source": "firebase"
     },
     {
       "name": "Kutschkermarkt",
@@ -2282,9 +2296,10 @@
       "rating": 4.7,
       "description": "Avusturya'nın meşhur Leberkäse'sinin (bir tür fırın sosis) en iyi adresi. Gece geç saatlerde hayat kurtarır.",
       "description_en": "Best address for Austria's famous Leberkäse (meatloaf). A life saver late at night.",
-      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AZLasHoYcDLde6YOxN8XLxkNTM4cVAk0G_pezAq1pAFmsovWkR0LpfLh0OiF4bmgfW4K-x6mr0PvFIMHXmNRKAuv3M2vYwFz20_QRsJbxzTzWw7YHt5fbiFmPsBYqqMNhnoQcaLODRM3emc87uVkR7GO5IbgBzAHFJ0_2KFbI4ZWTnCrG7HGJUf22U8WFPKM1cJfH0y00L1DUWdbki6dUjJOlpUsi3NErRfShiENBUJT2x9O3O5JuOZ9-2fB22B0rLMohgNxW0Oh9wh9ePhZtzFugo18Y5mZfn_D9bymurgnadsnX7bdRkY&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/viyana/leberkas-pepi.jpg",
       "bestTime": "Gece",
-      "bestTime_en": "Night"
+      "bestTime_en": "Night",
+      "source": "firebase"
     },
     {
       "name": "Lederleitner Stadthaus",
@@ -2304,9 +2319,10 @@
       "rating": 4.8,
       "description": "Eski Borsa binasında yer alan, muhteşem çiçek aranjmanları ve ev dekorasyon ürünleri sunan lüks konsept mağaza.",
       "description_en": "Luxury concept store in the Old Stock Exchange building offering magnificent flower arrangements and home decor.",
-      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AZLasHq-umcexi_ie3AGovNfQyr3LnXfbnR2qgRkfauXWoSyV7AxgrRI2P47Hnj5qvHTB8SsFTjcpSCe89uIK-SKwky_pNblTuUb0_id433GjvGdijUijtP50X8nuQ8mZP4NNqauZCu6X0dXYr1gaP0sNuXHw7wdQtv18nyprxaB_x1fprTIcSlkMtI_WwKVtiv0qlJcO0ac0mEuYY3kcD4-noqJeiEaGBdjI93CXk0E3UWUNFHwJTezJOjJIRnRrr2PbNAjDjd1ZI6Q8QMCcw2AwGGGRqaH51a6D7ufvssUB7YcFu07EFk&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/viyana/lederleitner_stadthaus.jpg",
       "bestTime": "Gündüz",
-      "bestTime_en": "Daytime"
+      "bestTime_en": "Daytime",
+      "source": "firebase"
     },
     {
       "name": "Leopold Museum",
@@ -2524,9 +2540,10 @@
       "rating": 4.5,
       "description": "Viyana'nın renkli gece hayatının sevilen duraklarından. Samimi atmosferi ve denizci temasıyla bilinen popüler bir LGBT dostu bar.",
       "description_en": "One of the beloved stops of Vienna's colorful nightlife. A popular LGBT-friendly bar known for its friendly atmosphere and sailor theme.",
-      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AZLasHrYxc0LMUF88lD4vQ6C_Nvyog-FD0twn0lcH1CL7CX263q-ZMSM5iHWs4RHdB-q8Dx1HHjf9RFDAUl0-BrU3o8MgDWhZ9ZQ4GpRCcrcrbwyssx-_BD-l494PE56NqsmnYEpIX8BHZhRrawstfmOlIEt-7DJ0jh_vJcee913KTb6eoOoKYe8rIA1xQDqYTZ0MO0KSY2qL0mk1DNihk5CdU0V9BwUdM36sQKz7cczGNy-pgsdLDDqKdMeC5rWU8ZQpCHMVvlK2DPisOmQsBjiwW8dXKGevLzqxx8iWVQvq8FF4EDKzrurfw6wnrqNa9RzTQ_LJDSeFBeoyiH9luOcGyMWtMtzK47Rq4Jckzr1Vqi6yJ45-goI5v9_B9yjVsHvy6egIWRlt6fQjDWbxbqpztpTGPbrNSCDOCX6_lkNkM0SHZSepjM2suaIhaINdIMWzO4DA-1iP-udt5ehb1I56lZxi1PDPLvThLuAo-cGL-7jCySdkFCfzfvsXnIdhcRzsosH9Vs-1jIYPKdVSpPRdDadUz1wagFNsnN0YOXM_ougqc12gtSWEfacd3Ohd_iguF1D4QO7&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/viyana/marea_alta.jpg",
       "bestTime": "Gece",
-      "bestTime_en": "Night"
+      "bestTime_en": "Night",
+      "source": "firebase"
     },
     {
       "name": "Maria-Theresien-Platz",
@@ -2568,9 +2585,10 @@
       "rating": 4.5,
       "description": "Viyana'nın İstiklal Caddesi. Yüzlerce mağaza, restoran ve kafenin bulunduğu en büyük alışveriş caddesi.",
       "description_en": "Vienna's main shopping street. Hundreds of shops, restaurants and cafes.",
-      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AZLasHqjp86WMOUCpnCEayZmTvHh-x_0geIqxDw93_NL86ebgBzP3kIOnUiH3T_RcTDCry5o0Qyz62qc7y4wIvbPPAZlydtnWoiyYTPJSMLWxu8_ddrHTFOByofER4EHIBLQsZV2PiN2VjpYPcLEC_Y61kbwtGCPunCsZ3IQxOoRThRruuDzQ4ghshojEKlR9NBMdbh6ciFvick2n5FM5OIXcwe-enx0bgmHbeq8IUf_fpL08lAYFVIsUNYkuG8V7Oqu73Qkw3O5pk0j9NrNPBN-l5wxuAywM_HDEFU_iVmE2ZNsnslRw11ii9MRyn8GCrXGpUCFj2Ger5Lhzli-jpB55B1tMvF1qaHnRL5rCe-R09U4v4TW0EsiFIQzTn08lVJxLxjbxJptPrR1BfY8jWA2zIvXl0IRi35P1rp5iMiCme_6HS3ZTfMe2VVDUzdYq2CP522MbJF_bOnc6J2Ri1khPNv9UxDBwmIZJXElTqlA7DEMr6JOMiml5Qub-bk-b8HBxZBNkyWgvPJpaXTm3CfLxgc-bXmlK7_KIH3wD16qRZDOWGo7PWcr_oFWfsH4_WEO7hQaPM7e&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/viyana/mariahilfer_strae.jpg",
       "bestTime": "Cumartesi",
-      "bestTime_en": "Saturday"
+      "bestTime_en": "Saturday",
+      "source": "firebase"
     },
     {
       "name": "Mayer am Nussberg",
@@ -2786,9 +2804,10 @@
       "rating": 4.8,
       "description": "1903'ten beri el yapımı şapkalar üreten aile işletmesi. Brad Pitt ve Yoko Ono gibi müşterileri var.",
       "description_en": "Family business making handmade hats since 1903. Celebrity clients include Brad Pitt and Yoko Ono.",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/viyana/mühlbauer_hutmanufaktur.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/viyana/muhlbauer_hutmanufaktur.jpg",
       "bestTime": "Gündüz",
-      "bestTime_en": "Daytime"
+      "bestTime_en": "Daytime",
+      "source": "firebase"
     },
     {
       "name": "NENI am Naschmarkt",
@@ -3144,9 +3163,10 @@
       "rating": 4.2,
       "description": "Prater parkında bulunan, sanatçı Edwin Lipburger tarafından ilan edilen küre şeklindeki mikro ulus.",
       "description_en": "Spherical micro-nation in Prater park, declared by artist Edwin Lipburger.",
-      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AZLasHqExT3YUuncHFWOuWV-aLNe4ewmouuqB1DhMn8Oo4PHgdaUlng2oYRB5JwI5hoaW86IFyjwHgQFfLC4HDvfAGSYBR58ywnh4xkWlsOfQau_Asnz0RlIKoUFaWtFSOjDjG-onRD_zsF6a10_G5ww4T4zvmJfRSkAcFRhE9eRw1YADWb6PUfXeOkto5C7Lq8N7ehFCJGUDDKY6-War8WA-ezJlhImFCCDFLX3QFiWyPP51yunODx60d9Zzw4hhrgiwEvYUtdg9gbJUqZHk2it0OoO2Pf_CBj769hSJ392iTM0CrFNaww&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/viyana/republic_of_kugelmugel.jpg",
       "bestTime": "Gündüz",
-      "bestTime_en": "Daytime"
+      "bestTime_en": "Daytime",
+      "source": "firebase"
     },
     {
       "name": "Ribs of Vienna",
@@ -3210,9 +3230,10 @@
       "rating": 4.6,
       "description": "Belvedere Sarayı'nın hemen yanında, kendi birasını üreten ve dev porsiyon kaburgalarıyla ünlü tarihi bira evi.",
       "description_en": "Historic brewery right next to Belvedere Palace, brewing its own beer and famous for huge portions of ribs.",
-      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AZLasHrN5OWU6HjpgMe5DMHC8MtsZNEbtAlvyKorXFmENTzxO-WW2mapCqgNkabuusVL9rvjh9WpfDk30IX9pBWf8cIS6QtgMhdEQjdOMVTPHOInhUiwOVZiKAgEHWm9ajHBEK8NpJCuIWeVcvgKFFXADPIXhGuJ3NzKjULOJIMnH6wGWo5dhIqCCl9gYtoDDazYyeHvtGxBET4owIACC7iuCen8jAmjUavScKiJ5PTcii3pDTxjN259pakJvcvvOUrf1Cs4JAxPnSsyOiHSu9q9x6LCeRZIQerWmiIFgDRazHjYfGAq6TE&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/viyana/salm_brau.jpg",
       "bestTime": "Akşam",
-      "bestTime_en": "Evening"
+      "bestTime_en": "Evening",
+      "source": "firebase"
     },
     {
       "name": "Salonplafond",
@@ -3254,9 +3275,10 @@
       "rating": 4.5,
       "description": "Heindl çikolata fabrikasının içindeki müze. Çikolatanın yapımını izleyebilir ve sınırsız tadım yapabilirsiniz.",
       "description_en": "Museum inside Heindl chocolate factory. You can watch chocolate being made and enjoy unlimited tasting.",
-      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AZLasHpUhXYfb4RvKVawW8g79p85ESWOeIviUrjbJWAATMw4ZuQ01bPyAyi7kPFDaYMjWYOMkPI2dxrIBzKBTXZDshsJJKqgPi1I1o92ZPs8liYEckBzEicIw_qeaBmbHTkcFeRS7YqveeOy6wSAsSoVyFvziecZugZjCSMjsnpZ9G5v4rjhW_589rRRdExxTkanuiV-sjYtl25XVGRCwHN0SN1ttHHwTYXSQW1tHmq4RBhEBlghwxNTNqXjFgNeoTonGQNiL0HH5hj_0uVTyyLp9x4Ut-vU7jefV9hNgDkCqz0pMivnuyq7fH3gMK1FQcHa9Y4Ia7BVhSwvvuSTgRysuDGZKEAca_kKCItCugceedY2QjpP3AXLUP2vKlIX36fJ9c0O5tyx42YcDzPqN9E4zw1_Tr7chaZhnJ-GV-SsDNM2mTC6yQS8RpJiWg46EGCxU-SHiRRKHWgVH2UO2zhLI53BTOLSAzsKSLxyQaefUP-wOrdhHUhF9TNgfPiOHlem_pj4iqeSDJ1dMNK0ufnAir-mZQ0Xpd9uzVGbQD8ix4YzczK4maX9beBMgup-4dkDv4tDWO1-8Wq7gg&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/viyana/schoko_museum__heindl_.jpg",
       "bestTime": "Hafta içi",
-      "bestTime_en": "Weekdays"
+      "bestTime_en": "Weekdays",
+      "source": "firebase"
     },
     {
       "name": "Schwarzenbergplatz",
@@ -3646,9 +3668,10 @@
       "rating": 4.7,
       "description": "2005'ten beri Viyana'nın kaykay ve sokak modası merkezi. En iyi sneaker koleksiyonlarını ve skater giyim ürünlerini burada bulursunuz.",
       "description_en": "Vienna's hub for skate and street fashion since 2005. Find the best sneaker collections and skater apparel here.",
-      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AZLasHrYaQoYZkbygkT2FNwDrlToUBloEfGss_tGNexc0MlCJVR2_kJ_ma0gu_r4lmQoNuJzTbmE7EjEDDT1_ZIGy61I_SzRqu2CSvsLIEraF-naTJoQcpKgtXfo7exH5YtseAWZxSW92-lpQUxCrzkxYxf3Ise810hhWDgqqKkpPHXEbB7IDDGmeFYRYzc79wEsKE3jL1IdaoecbWGYBnz4Do26vT7D8vZQlST-Z03XBqKMQJb3-JgymTGrCJ7lNUm5lpQHAp8t7Ber7sAkDJrrP2AoPOCZ_lElgXzPA2kuUx2umVX2_6anXBqxvGen9BwA5J_K6wRX8YAdoJgHlIpqNHIxlbVlCfMlQDakcbGqfOkOfZhHKtJc9k0C3ouGfKkYrIrAVJKU1Qi9SR8snRonTVAgGt4EeeeZkBVppBF3tgMHX1h6iD1RyWxLg0K6TK7jMCsfRjvN0RxeJT3EKgXJAEAGWtVJU7e17e_zkpY2U1p4_dhWvmTEtpRQlykyzx73bRN22xm0TaeKTlWh13NK7udRDpAkmAhIq8_ov7ha4zG4ez7U_77FDbq6aab4FsDW2YPzkHeO&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/viyana/stil-laden.jpg",
       "bestTime": "Gündüz",
-      "bestTime_en": "Daytime"
+      "bestTime_en": "Daytime",
+      "source": "firebase"
     },
     {
       "name": "Strudlhofstiege",
@@ -3691,9 +3714,10 @@
       "rating": 4.7,
       "description": "Analog dünyaya adanmış bir tapınak. Analog fotoğrafçılık, baskı, müzik ve kafe bir arada. Muhteşem bir atmosfer.",
       "description_en": "A temple dedicated to the analog world. Analog photography, printing, music, and cafe all in one. Amazing atmosphere.",
-      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AZLasHrchnytxAW9KDSsUiCrwGZR74Vhk7ptr0mETLkpIFVe_2QnIMy7zczHXrEtJm4N6fxc7RcJ_t7L1tG7jZORQGfOUmvf5H9NqlKCW8hf0i6Z2o2gCBN0XlnXMcqlGLHzTHRJTJxcf-tfOqyZJ_L-LjFiQDj56jvCJEP2Swp_rlzAK8N1B7b9IURyYGSYtsSGg9_fXgzS2Dnz9_3pbJ38gKwk0LdqScIGCzI0EVtvX1yc8q9WNQTwXRBsXHbcu9jKvoPoYM5jdG-B2uGkL2BT1ZEItLQ_Y1CqDOrtKEkJU4qgRIjddAwdmPCdbT97YpXW4weni8kylFV7whpg9nBb1o-uzc0CZW8B_ZVOLZPu4w_3FtxQTvXEOAtHDAKXK15di9ITvHl5M5zGS5XsB65o1n1rwATO12vobiEnKwe97v4SMK1nZ9bY8AfRRZM1DbZxs2yr2dfaf99GDAbQLz-CgECysGSz2BZJ9YgzJ0jcuPyqmQVDSm93gjCDZ7olHS7FCytgMVYC7ZuvAjq9tQ6s_7WGoWn2VVxQ52rqjBxZLXI8KcVBZtmfrkWT68oVw_GfGY54lGKv&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/viyana/supersense.jpg",
       "bestTime": "Gündüz",
-      "bestTime_en": "Daytime"
+      "bestTime_en": "Daytime",
+      "source": "firebase"
     },
     {
       "name": "Swing Kitchen",
@@ -3713,9 +3737,10 @@
       "rating": 4.5,
       "description": "Viyana doğumlu vegan burger zinciri. Et yemeyenler için bile inanılmaz lezzetli burgerler sunuyor.",
       "description_en": "Vienna-born vegan burger chain. Offers incredibly delicious burgers even for non-vegans.",
-      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AZLasHrdsYXH9W5G0RJsteF9Jfwr_P_hhYlipNohTOtUXWtlEtswg6mxSrKpSs-Lz1GDAuhjvkyBnfkqw2KYUjtHnkbRO5qx2WAMPUOoisE05DPJrsrEVe5sxm0zY0eG31zq0cy42GDIHLkETklnctd6ocu-lOGBPn-1bl1ud9HFXCBCbmBptk-GUlCr0GeQ6N2Ak9r8-QRS1S244CjRCuq7Idh-Kvkvt7rtZ9HcO2YD2JpglRvQHYd6M1TJhThCDr72qXmCpwlrjbc5-tR4uV-EvnixYL-EFr8uNhn5x3tduR-RjkcXgHg&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/viyana/swing_kitchen.jpg",
       "bestTime": "Öğle yemeği",
-      "bestTime_en": "Lunch"
+      "bestTime_en": "Lunch",
+      "source": "firebase"
     },
     {
       "name": "Technisches Museum Wien",
@@ -3757,9 +3782,10 @@
       "rating": 4.8,
       "description": "Dünyanın en iyi barları listesine giren, kokteyl sunumlarını sanata dönüştüren ödüllü lounge.",
       "description_en": "Award-winning lounge listed among world's best bars, turning cocktail presentations into art.",
-      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AZLasHpAxtdl67DaRr6J1b0okmpoajLSvjqMjvTcJpE9DRo6o0HxOe4X00ubFoT85TC_MpGkTV2e4t84BZ64Qh_niimMBapcbjtnaLKWdCwxPnWRU3BPxhQhKJEUi8-Q882E_1kO82KEoyq94xbuk4AKeeXf6CC6lfR0Ly96UNWpY3W6eK4rqv8p6jCFQDufQX740X1mfyKbMGeBelnKZjL9JylHKKQNQNAk1DwAIHN4lbhkcyc9WPOvCFfux6CtWSLstuLfQTywwy9rEw7PzOnWWjSNV6spcLO0dPaLQQeRcRDr_HGvG7k&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/viyana/the_sign_lounge.jpg",
       "bestTime": "Hafta içi akşam",
-      "bestTime_en": "Weekday evening"
+      "bestTime_en": "Weekday evening",
+      "source": "firebase"
     },
     {
       "name": "Third Man Museum",
@@ -3867,9 +3893,10 @@
       "rating": 4.8,
       "description": "Sadece zile basarak girilen, menüsü olmayan bir ev barı. Barmen sizin damak tadınıza göre özel kokteyl hazırlar.",
       "description_en": "A home bar with no menu, entered only by ringing the bell. Bartender prepares custom cocktails for your taste.",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/viyana/tür_7.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/viyana/tur_7.jpg",
       "bestTime": "Gece (Rezervasyonlu)",
-      "bestTime_en": "Night (Reserved)"
+      "bestTime_en": "Night (Reserved)",
+      "source": "firebase"
     },
     {
       "name": "Türkenschanzpark",
@@ -3889,9 +3916,10 @@
       "rating": 4.8,
       "description": "Viyana'nın 2. Viyana Kuşatması'ndaki tarihi siperlerin bulunduğu yere kurulmuş, şelaleler ve göletlerle dolu romantik park.",
       "description_en": "Romantic park with waterfalls and ponds, built on the site of historic trenches from the 2nd Siege of Vienna.",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/viyana/türkenschanzpark.jpg",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/viyana/turkenschanzpark.jpg",
       "bestTime": "Pazar öğleden sonra",
-      "bestTime_en": "Sunday afternoon"
+      "bestTime_en": "Sunday afternoon",
+      "source": "firebase"
     },
     {
       "name": "Ulrich",
@@ -3911,7 +3939,7 @@
       "rating": 4.5,
       "description": "St. Ulrich kilisesi meydanında, özellikle hafta sonu kahvaltıları ve Flat White kahvesiyle ünlü popüler mekan.",
       "description_en": "Popular spot on St. Ulrich church square, famous especially for weekend breakfasts and Flat White coffee.",
-      "imageUrl": "https://images.unsplash.com/photo-1466978913421-dad938661248?w=800",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/viyana/ulrich.jpg",
       "bestTime": "Sabah",
       "bestTime_en": "Morning"
     },
@@ -3933,9 +3961,10 @@
       "rating": 4.8,
       "description": "Viyana'da dondurma devrimi yapan tamamen vegan dondurmacı. Fesleğen, lavanta gibi yaratıcı çeşitleri var.",
       "description_en": "Fully vegan ice cream shop that revolutionized ice cream in Vienna. Has creative varieties like basil, lavender.",
-      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AZLasHp2M9MFm_pGeBv_JWP9zjnifR_b4lshZZ6hzJrSYWMY-SWAY7jyRnVt0QV7l2xg6ohS4AL_yA72f1ZAQfaeSW2CvGtGyLOeubB0JOGedsyTLCuVNC7GBGNOxy5s9SV1AAzvwHRuaOnyTQI1QNnLBoIktf5K_3VPCO5EZiQjSdzCfR2PCJjqHU_GRjz0gQn5PqTgalfx_PO88bKjzPiffvNxcR3G8tA7uKUB51ORVaPPKBUPvMuQZ6uTrSRU7IswtpxrIKL1d7tcyIxF_gFo9Mpn-k3gS_lZ9AI78evUyZWTrKk0Hv0&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/viyana/veganista.jpg",
       "bestTime": "Yaz günü",
-      "bestTime_en": "Summer day"
+      "bestTime_en": "Summer day",
+      "source": "firebase"
     },
     {
       "name": "Vienna State Opera",
@@ -4040,9 +4069,10 @@
       "rating": 4.5,
       "description": "Kore ve İskandinav modasını birleştiren, genç tasarımcıların ürünlerini satan renkli bir butik.",
       "description_en": "Colorful boutique combining Korean and Scandinavian fashion, selling products from young designers.",
-      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AZLasHrevlQ6EkUSmPgJe0q2KaQGP678E5jSND0L4Ri5dhwqQOlkXQvCfmGg6N2ELEKIhzl3Nckf68YzM9dZ0Yb8ncxuyE5B9OviHBqZFCzhQyJFhV-s7T8QSVu9-sMUSe2GvZLSx6YSr7UI21ZSkDySqCbzdH66EkUrzt6sz1br-9ME56t9mF76SbvLMiBFGtNnvqqDbvNrkt3-5x0BS5j3PqMCSa3fujzJe9Sa3Fh1AdbwqHC_Kse03GzzhtU15Es6M2Fn0jecqedit-mP5hpLy4B2VkAv-lMyitS-cYyNZZSkrsqUKhQ&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/viyana/we_bandits.jpg",
       "bestTime": "Gündüz",
-      "bestTime_en": "Daytime"
+      "bestTime_en": "Daytime",
+      "source": "firebase"
     },
     {
       "name": "Weltmuseum Wien",
@@ -4084,9 +4114,10 @@
       "rating": 4.8,
       "description": "Viyana'nın en iyi manzarasını sunan şarap tavernalarından biri. Nussberg tepesindeki üzüm bağları arasında, sadece açık havada hizmet verir.",
       "description_en": "One of the best wine taverns offering Vienna's best view. Located among the vineyards on Nussberg hill, serves outdoors only.",
-      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AZLasHqkyb8c1XHtdLQsR-oq0QUmEn01VYALyzLCf43brgTzkQ3W191HhD5l8qcaGq2Ig-Kghq82EcXc7ov2Sd2zdGZIYTh1q7FX9rEZQ6iE8CGeyAd2Kh5pVxYfHmXAiQnqkw5_5Ao0PqSORBcTrQJrFJyqWPY13RlO5QSU-G6APZL5b-PMSeMjlmdtQP5IvvhbVQbnnbdeFnuPF-TDUul3NImGTRX0GIg0JhGQ93q5dDOeg13SA5G_XR51ChoW5Tlzz-FNsRaJ-JaE38FGlp5buZvC7c27LHApFgtf_gM5DSPojF_MtzcfoRN7rih9EPBw7qnYcAvVKSAoo01N0E_Eg8KF5cxst7CcSCGpX8MvPaTnRvC66NBAOoaqd6jJa6_1SuTwKNXQ6Yb6x6y9jOWtjiLzGq2NTx0GESAcbdWv4HxITjotannmKpGpUgtVphIaY7j9_yHsnLs3eU_H9g1CCNmxDwn8HGfEnYQnUMEWvDFFX43pqa9zSdYu2g2GTRS1Rfve9MC7uKYHcgBmL1gOFxorPfns-2JapgGDL5K8BxRsRHAe2lJcPtoDqLwK-_ATVIOYWJ-C&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/viyana/wieninger_am_nussberg.jpg",
       "bestTime": "Güneşli hafta sonu",
-      "bestTime_en": "Sunny weekend"
+      "bestTime_en": "Sunny weekend",
+      "source": "firebase"
     },
     {
       "name": "Wotrubakirche",
@@ -4150,9 +4181,10 @@
       "rating": 4.6,
       "description": "Viyanalıların favori Kore restoranlarından biri. Kendi masanızda barbekü keyfi yapabilirsiniz.",
       "description_en": "One of the favorite Korean restaurants of Viennese locals. You can enjoy BBQ at your own table.",
-      "imageUrl": "https://images.unsplash.com/photo-1498654896293-37aacf113fd9?w=800",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/viyana/zzam.jpg",
       "bestTime": "Akşam yemeği",
-      "bestTime_en": "Dinner"
+      "bestTime_en": "Dinner",
+      "source": "firebase"
     },
     {
       "name": "Zacherlfabrik",
@@ -4172,9 +4204,10 @@
       "rating": 4.5,
       "description": "Eski bir böcek ilacı fabrikası olan bu bina, camiiyi andıran oryantalist mimarisiyle Viyana'nın en sıra dışı yapılarından biridir.",
       "description_en": "Former insecticide factory, this building is one of Vienna's most unusual structures with its mosque-like Orientalist architecture.",
-      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AZLasHp6GiG0YweJCkXTOSa2prJhTOO6zVSSoamM6cXdXr-5s-UTuhG0N0kdfIvSmf7PRMLh2BchMvdG6-eSceOLDIeU7WqiTZlKF3ef5vFTVRFb8mRcwze_S0e84_VLj7p9S4XbtOCP1jZxNjRHwfPyrFdHIFMW5N6bFiVWi3LHB5nuJWaQrWQjhKnCMg0wlji4eHlxa2_QM5zuji8sBvTHPnnKKS1_HxszcYtt7E459FD-2mkkgowqK3qGZY6eVu4ijgDhWtYT_Ig_vuRkk3dnmVJEw_5d5P7N_DHhDhBHxMe2vZPM4SiL8o4dQSlbNwKxc0WhG3dazpLrGWBdmPjNZZUUK0P2bKWE9EDQaD7NDZI0xMetaOA6R_08gyifV-P-4z2E9HXd37kwQLnxUI7hjbBpA4bB6s0wjJ9vh1g8GeKTxD1iz75iMZ7TyH2kbrDa05MSOZEw6rGdEqF5gv7rgPyLBSgJb9QhbV6m2cTExlINwi8YI-ratYo0IAkjI3M8kFsC2WBRs7XetiwurjK8xKQ-zP2ogqHEMLuPO2Y_12QnYVp7B0ofPodit0-8kxQfTv2lcc6N&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/viyana/zacherlfabrik.jpg",
       "bestTime": "Gündüz",
-      "bestTime_en": "Daytime"
+      "bestTime_en": "Daytime",
+      "source": "firebase"
     },
     {
       "name": "Zanoni & Zanoni",
@@ -4194,9 +4227,10 @@
       "rating": 4.5,
       "description": "Lugeck meydanında, dev porsiyonları ve gece geç saate kadar açık olmasıyla bilinen popüler dondurmacı.",
       "description_en": "Popular ice cream parlor at Lugeck square, known for huge portions and being open until late at night.",
-      "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=AZLasHqtNZFdkqgdvD6M1stCQEVsnswm_G9F8c0ovlZGR5axJtl7XOykCnvn7HBw0Os2u38FpzJbr9tsEOlSzRQ091UqOfKmJKV2sLCn6ejgsHi33cjveM6e6ENM8sXkZv4hPtxRyjSjBFoIns8klOnAe3rLY6wfe5vIrYZufSzV2yEyNLTfyJtMrsak9Th7ZFU1BNH1KniMYbnY-fyRH_6Y6ZNwqLCdq3kq0iqhceiE5UHMLTLdmikCzDSUSDD_KydkGWDdEPwUVnJyfQxzeq3DJpWHficx73WvOaa3Zdloz3wTFjUx3_TipGKUlxQRDlBZ-k3QoaejPUrtA7TreOMirQA17YmlN-9ixHfGWS-cw9UKnPLXh-FEDp0OgSY1z8ZFfdTTTlFBKmfEs-X9hWRUVJrHoq5oiFeCUSsIpi2EDyHmDpWWpWsYGlUMRCHepygQe119fGFHo2XzbrF9dkYHCAKyI87SmLoVQoMQ-ssEOarrA6XyWQRhcfIMfIAcONTP0z-mJlgCC5eNsfMqKg4x_763CMqm8w4Kjec63Fhd6VYHKo-6OFCG2NH0Fg0cBidGOq-tufXD&key=AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/viyana/zanoni___zanoni.jpg",
       "bestTime": "Gece",
-      "bestTime_en": "Night"
+      "bestTime_en": "Night",
+      "source": "firebase"
     },
     {
       "name": "Zentralfriedhof",
@@ -4263,5 +4297,6 @@
       "tips": "Ev yapımı şaraplarını denemeden dönmeyin.",
       "tips_en": "Don't leave without trying their house wines."
     }
-  ]
+  ],
+  "heroImage": "https://images.unsplash.com/photo-1516550893923-42d28e5677af?w=800"
 }
