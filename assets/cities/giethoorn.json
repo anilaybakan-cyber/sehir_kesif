@@ -25,7 +25,8 @@
       "id": "t-olde-maat-uus",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/t-olde-maat-uus.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "'t Olde Maat Uus"
     },
     {
       "name": "'t Vonder",
@@ -46,7 +47,8 @@
       "id": "t-vonder",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/t-vonder.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "'t Vonder"
     },
     {
       "name": "Aquarium Giethoorn",
@@ -67,7 +69,8 @@
       "id": "aquarium-giethoorn",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/aquarium-giethoorn.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Aquarium Giethoorn"
     },
     {
       "name": "Archimedes Windmill",
@@ -88,7 +91,8 @@
       "id": "archimedes-windmill",
       "distanceFromCenter": 0.5,
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/archimedes_windmill.jpg",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Archimedes Windmill"
     },
     {
       "name": "Bakkerij Toet",
@@ -109,7 +113,8 @@
       "id": "bakkerij-toet",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/bakkerij-toet.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Bakkerij Toet"
     },
     {
       "name": "Beachclub Bodelaeke",
@@ -130,7 +135,8 @@
       "id": "beachclub-bodelaeke",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/beachclub-bodelaeke.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Beachclub Bodelaeke"
     },
     {
       "name": "Bed & Breakfast Giethoorn",
@@ -151,7 +157,8 @@
       "id": "bed-&-breakfast-giethoorn",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/bed-&-breakfast-giethoorn.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Bed & Breakfast Giethoorn"
     },
     {
       "name": "Belt-Schutsloot",
@@ -172,7 +179,8 @@
       "id": "belt-schutsloot",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/belt-schutsloot.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Belt-Schutsloot"
     },
     {
       "name": "Belterwijde",
@@ -193,7 +201,8 @@
       "id": "belterwijde",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/belterwijde.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Belterwijde"
     },
     {
       "name": "Beulakerwijde",
@@ -214,7 +223,8 @@
       "id": "beulakerwijde",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/beulakerwijde.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Beulakerwijde"
     },
     {
       "name": "Beulakerwijde Viewpoint",
@@ -235,7 +245,8 @@
       "id": "beulakerwijde-viewpoint",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/beulakerwijde-viewpoint.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Beulakerwijde Viewpoint"
     },
     {
       "name": "Bezoekerscentrum De Wieden",
@@ -256,7 +267,8 @@
       "id": "bezoekerscentrum-de-wieden",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/bezoekerscentrum-de-wieden.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Bezoekerscentrum De Wieden"
     },
     {
       "name": "Binnenpad",
@@ -299,7 +311,8 @@
       "id": "black-sheep-hostel",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/black-sheep-hostel.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Black Sheep Hostel"
     },
     {
       "name": "Blauwe Hand",
@@ -320,7 +333,8 @@
       "id": "blauwe-hand",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/blauwe-hand.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Blauwe Hand"
     },
     {
       "name": "Blokzijl",
@@ -390,7 +404,8 @@
       "id": "botterwerf",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/botterwerf.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Botterwerf"
     },
     {
       "name": "Bovenmeester",
@@ -411,7 +426,8 @@
       "id": "bovenmeester",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/bovenmeester.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Bovenmeester"
     },
     {
       "name": "Bovenwijde Lake",
@@ -432,7 +448,8 @@
       "tips": "Güneş kremi ve şapka almayı unutmayın.",
       "tips_en": "Don't forget sunscreen and a hat.",
       "description_en": "Tekneyle açılmak için geniş and sığ göl. A perfect getaway for those who want to experience peaceful moments in nature. Ideal for getting away from the city noise, taking a breath, and capturing great photos.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Bovenwijde Lake"
     },
     {
       "name": "Buitencentrum Weerribben",
@@ -453,7 +470,8 @@
       "id": "buitencentrum-weerribben",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/buitencentrum-weerribben.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Buitencentrum Weerribben"
     },
     {
       "name": "Burgeth",
@@ -474,7 +492,8 @@
       "id": "burgeth",
       "distanceFromCenter": 0.5,
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/burgeth.jpg",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Burgeth"
     },
     {
       "name": "Café Restaurant De Otterskooi",
@@ -495,7 +514,8 @@
       "id": "cafe-restaurant-de-otterskooi",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/cafe-restaurant-de-otterskooi.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Café Restaurant De Otterskooi"
     },
     {
       "name": "Café-Restaurant De Rietstulp",
@@ -540,7 +560,8 @@
       "id": "camping-de-sloothaak",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/camping-de-sloothaak.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Camping De Sloothaak"
     },
     {
       "name": "Camping Tussen de Diepen",
@@ -561,7 +582,8 @@
       "id": "camping-tussen-de-diepen",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/camping-tussen-de-diepen.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Camping Tussen de Diepen"
     },
     {
       "name": "Canal Grande",
@@ -607,7 +629,8 @@
       "id": "canal-grande-giethoorn",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/canal-grande-giethoorn.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Canal Grande Giethoorn"
     },
     {
       "name": "Chaletpark Kroondomein",
@@ -628,7 +651,8 @@
       "id": "chaletpark-kroondomein",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/chaletpark-kroondomein.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Chaletpark Kroondomein"
     },
     {
       "name": "Chinees Indisch Restaurant 'Lotus'",
@@ -649,7 +673,8 @@
       "id": "chinees-indisch-restaurant-lotus",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/chinees-indisch-restaurant-lotus.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Chinees Indisch Restaurant 'Lotus'"
     },
     {
       "name": "Clogs Workshop",
@@ -671,7 +696,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Fotoğraf makinenizin şarjının dolu olduğundan emin olun.",
       "tips_en": "Make sure your camera battery is full.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Clogs Workshop"
     },
     {
       "name": "Cornelisgracht",
@@ -692,7 +718,8 @@
       "id": "cornelisgracht",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/cornelisgracht.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Cornelisgracht"
     },
     {
       "name": "De Aardigheit",
@@ -713,7 +740,8 @@
       "id": "de-aardigheit",
       "distanceFromCenter": 0.5,
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/de_aardigheit.jpg",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "De Aardigheit"
     },
     {
       "name": "De Bovenstreek",
@@ -734,7 +762,8 @@
       "id": "de-bovenstreek",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/de-bovenstreek.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "De Bovenstreek"
     },
     {
       "name": "De Eetkamer van Giethoorn",
@@ -755,7 +784,8 @@
       "id": "de-eetkamer-van-giethoorn",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/de-eetkamer-van-giethoorn.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "De Eetkamer van Giethoorn"
     },
     {
       "name": "De Fanfare",
@@ -776,7 +806,8 @@
       "id": "de-fanfare",
       "distanceFromCenter": 0.5,
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/de_fanfare.jpg",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "De Fanfare"
     },
     {
       "name": "De Grachthof",
@@ -797,7 +828,8 @@
       "id": "de-grachthof",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/de-grachthof.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "De Grachthof"
     },
     {
       "name": "De Grachthof Lounge",
@@ -818,7 +850,8 @@
       "id": "de-grachthof-lounge",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/de-grachthof-lounge.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "De Grachthof Lounge"
     },
     {
       "name": "De Herberg van Smallingerland",
@@ -839,7 +872,8 @@
       "id": "de-herberg-van-smallingerland",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/de-herberg-van-smallingerland.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "De Herberg van Smallingerland"
     },
     {
       "name": "De Kruumte",
@@ -860,7 +894,8 @@
       "id": "de-kruumte",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/de-kruumte.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "De Kruumte"
     },
     {
       "name": "De Lindenhof",
@@ -881,7 +916,8 @@
       "tips": "Nakite hazırlıklı olun, bazı yerel yerler kart kabul etmeyebilir.",
       "tips_en": "Be prepared with cash, some local places might not accept cards.",
       "description_en": "2 Michelin yıldızlı üst düzey gastronomi experiencei. A great option to taste local flavors and spend a pleasant eandning. It offers an unforgettable experience appealing to your palate with its friendly atmosphere and quality service.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "De Lindenhof"
     },
     {
       "name": "De Markht",
@@ -902,7 +938,8 @@
       "id": "de-markht",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/de-markht.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "De Markht"
     },
     {
       "name": "De Otters",
@@ -924,7 +961,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Akşam yemeği için rezervasyon yaptırmak şart.",
       "tips_en": "Reservation is a must for dinner.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "De Otters"
     },
     {
       "name": "De Oude Aarde",
@@ -945,7 +983,8 @@
       "tips": "Sesli rehber (audio guide) kiralamak deneyimi ikiye katlar.",
       "tips_en": "Renting an audio guide doubles the experience.",
       "description_en": "Değerli taşlar and mineraller müzesi. A must-see for art and history loandrs, this museum stands out with its rich collection. The exhibited works will allow you to deeply understand the region's cultural heritage.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "De Oude Aarde"
     },
     {
       "name": "De Piccardt",
@@ -966,7 +1005,8 @@
       "id": "de-piccardt",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/de-piccardt.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "De Piccardt"
     },
     {
       "name": "De Rietstulp",
@@ -1012,7 +1052,8 @@
       "id": "de-sloothaak",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/de-sloothaak.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "De Sloothaak"
     },
     {
       "name": "De Witte Eend",
@@ -1033,7 +1074,8 @@
       "id": "de-witte-eend",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/de-witte-eend.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "De Witte Eend"
     },
     {
       "name": "De Witte Hoeve",
@@ -1054,7 +1096,8 @@
       "id": "de-witte-hoeve",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/de-witte-hoeve.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "De Witte Hoeve"
     },
     {
       "name": "De Zwieseborg",
@@ -1075,7 +1118,8 @@
       "id": "de-zwieseborg",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/de-zwieseborg.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "De Zwieseborg"
     },
     {
       "name": "Dinouk",
@@ -1096,7 +1140,8 @@
       "id": "dinouk",
       "distanceFromCenter": 0.5,
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/dinouk.jpg",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Dinouk"
     },
     {
       "name": "Dolmen Center Borger",
@@ -1117,7 +1162,8 @@
       "id": "dolmen-center-borger",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/dolmen-center-borger.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Dolmen Center Borger"
     },
     {
       "name": "Doopsgezinde Kerk Giethoorn",
@@ -1138,7 +1184,8 @@
       "id": "doopsgezinde-kerk-giethoorn",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/doopsgezinde-kerk-giethoorn.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Doopsgezinde Kerk Giethoorn"
     },
     {
       "name": "Drukkerijmuseum Meppel",
@@ -1159,7 +1206,8 @@
       "id": "drukkerijmuseum-meppel",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/drukkerijmuseum-meppel.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Drukkerijmuseum Meppel"
     },
     {
       "name": "Dwarsgracht",
@@ -1204,7 +1252,8 @@
       "id": "dwingelderveld-national-park",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/dwingelderveld-national-park.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Dwingelderveld National Park"
     },
     {
       "name": "E-Chopper Rental",
@@ -1249,7 +1298,8 @@
       "id": "eetcafe-de-fanfare",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/eetcafe-de-fanfare.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Eetcafé de Fanfare"
     },
     {
       "name": "Fietspad (Bike Path)",
@@ -1293,7 +1343,8 @@
       "bestTime": "09:00 - 18:00",
       "bestTime_en": "09:00 - 18:00",
       "tips": "Laptop ile çalışmak için uygun, Wi-Fi hızı iyi.",
-      "tips_en": "Suitable for working with a laptop, Wi-Fi is good."
+      "tips_en": "Suitable for working with a laptop, Wi-Fi is good.",
+      "name_en": "Gebroeders Pilsner"
     },
     {
       "name": "Geertien",
@@ -1314,7 +1365,8 @@
       "id": "geertien",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/geertien.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Geertien"
     },
     {
       "name": "Gemaal A.F. Stroink",
@@ -1335,7 +1387,8 @@
       "id": "gemaal-af-stroink",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/gemaal-af-stroink.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Gemaal A.F. Stroink"
     },
     {
       "name": "Giethoorn Boat",
@@ -1356,7 +1409,8 @@
       "id": "giethoorn-boat",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/giethoorn-boat.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Giethoorn Boat"
     },
     {
       "name": "Giethoorn Canals",
@@ -1377,7 +1431,8 @@
       "tips": "Teleskop/dürbün varsa yanınıza alın.",
       "tips_en": "Bring a telescope/binoculars if you have them.",
       "description_en": "These peaceful canals, earning Giethoorn the nickname 'Venice of the North', form the village's main transportation network. While gliding through these waters where motorized vehicles are banned, you can enjoy the enchanting view of thatched-roof houses.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Giethoorn Canals"
     },
     {
       "name": "Giethoorn Floramics",
@@ -1398,7 +1453,8 @@
       "id": "giethoorn-floramics",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/giethoorn-floramics.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Giethoorn Floramics"
     },
     {
       "name": "Giethoorn High Bridge",
@@ -1419,7 +1475,8 @@
       "id": "giethoorn-high-bridge",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/giethoorn-high-bridge.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Giethoorn High Bridge"
     },
     {
       "name": "Giethoorn Punterbuurt",
@@ -1440,7 +1497,8 @@
       "id": "giethoorn-punterbuurt",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/giethoorn-punterbuurt.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Giethoorn Punterbuurt"
     },
     {
       "name": "Giethoorn Supermarket Plus",
@@ -1461,7 +1519,8 @@
       "id": "giethoorn-supermarket-plus",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/giethoorn-supermarket-plus.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Giethoorn Supermarket Plus"
     },
     {
       "name": "Giethoorn Village Shops",
@@ -1483,7 +1542,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Tax-free formunu istemeyi unutmayın.",
       "tips_en": "Don't forget to ask for the Tax-free form.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Giethoorn Village Shops"
     },
     {
       "name": "Gloria Maris Schelpengalerie",
@@ -1504,7 +1564,8 @@
       "tips": "Pazar günleri kapalı olabilir, kontrol edin.",
       "tips_en": "Might be closed on Sundays, do check.",
       "description_en": "Deniz kabukları and mercan galerisi. A place you must stop by to discoandr region-specific products and buy gifts for your loandd ones. Colorful shops and a liandly atmosphere will make your shopping experience much more enjoyable.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Gloria Maris Schelpengalerie"
     },
     {
       "name": "Grand Café Bergveen",
@@ -1525,7 +1586,8 @@
       "id": "grand-cafe-bergveen",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/grand-cafe-bergveen.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Grand Café Bergveen"
     },
     {
       "name": "Grand Café De Eendracht",
@@ -1546,7 +1608,8 @@
       "id": "grand-cafe-de-eendracht",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/grand-cafe-de-eendracht.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Grand Café De Eendracht"
     },
     {
       "name": "Grand Café Fanfare",
@@ -1567,7 +1630,8 @@
       "tips": "Dışarıdaki masalarda oturup gelen geçeni izlemek çok keyifli.",
       "tips_en": "Sitting at outdoor tables and people-watching is very pleasant.",
       "description_en": "famous Hollanda filmine konu olmuş historic kafe. One of the right addresses to relieand the tiredness of the day and relax with a delicious coffee. The warm ambiance of the andnue and the sweet surprises it offers will turn your break into pleasure.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Grand Café Fanfare"
     },
     {
       "name": "Havelte",
@@ -1588,7 +1652,8 @@
       "id": "havelte",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/havelte.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Havelte"
     },
     {
       "name": "Havezate Oldruitenborgh",
@@ -1609,7 +1674,8 @@
       "id": "havezate-oldruitenborgh",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/havezate-oldruitenborgh.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Havezate Oldruitenborgh"
     },
     {
       "name": "Het Proeflokaal",
@@ -1630,7 +1696,8 @@
       "id": "het-proeflokaal",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/het-proeflokaal.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Het Proeflokaal"
     },
     {
       "name": "Het Wapen van Giethoorn",
@@ -1651,7 +1718,8 @@
       "id": "het-wapen-van-giethoorn",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/het-wapen-van-giethoorn.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Het Wapen van Giethoorn"
     },
     {
       "name": "HistoMobil Giethoorn",
@@ -1672,7 +1740,8 @@
       "id": "histomobil-giethoorn",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/histomobil-giethoorn.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "HistoMobil Giethoorn"
     },
     {
       "name": "Histomobil",
@@ -1694,7 +1763,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Hafta içi sabah saatleri en sakin zamanıdır.",
       "tips_en": "Weekday mornings are the quietest times.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Histomobil"
     },
     {
       "name": "Hotel-Restaurant De Harmonie",
@@ -1715,7 +1785,8 @@
       "id": "hotel-restaurant-de-harmonie",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/hotel-restaurant-de-harmonie.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Hotel-Restaurant De Harmonie"
     },
     {
       "name": "Hunebed D53",
@@ -1736,7 +1807,8 @@
       "id": "hunebed-d53",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/hunebed-d53.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Hunebed D53"
     },
     {
       "name": "IJs & Zo",
@@ -1757,7 +1829,8 @@
       "id": "ijs-&-zo",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/ijs-&-zo.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "IJs & Zo"
     },
     {
       "name": "Ice Skating",
@@ -1779,7 +1852,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Fotoğraf makinenizin şarjının dolu olduğundan emin olun.",
       "tips_en": "Make sure your camera battery is full.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Ice Skating"
     },
     {
       "name": "Ijssalon 't Olde Huis",
@@ -1801,7 +1875,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Sessiz bir köşe bulup kitap okumak için ideal.",
       "tips_en": "Ideal for finding a quiet corner and reading a book.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Ijssalon 't Olde Huis"
     },
     {
       "name": "Ir. D.F. Woudagemaal",
@@ -1822,7 +1897,8 @@
       "id": "ir-df-woudagemaal",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/ir-df-woudagemaal.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Ir. D.F. Woudagemaal"
     },
     {
       "name": "Jonen",
@@ -1843,7 +1919,8 @@
       "id": "jonen",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/jonen.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Jonen"
     },
     {
       "name": "Kaasboerderij de Derde Mijl",
@@ -1865,7 +1942,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Kıyafetinizin aktiviteye uygun olduğundan emin olun.",
       "tips_en": "Ensure your outfit is suitable for the activity.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Kaasboerderij de Derde Mijl"
     },
     {
       "name": "Kaatje bij de Sluis",
@@ -1934,7 +2012,8 @@
       "id": "kalenbergergracht",
       "distanceFromCenter": 0.5,
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/kalenbergergracht.jpg",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Kalenbergergracht"
     },
     {
       "name": "Kamp Westerbork",
@@ -1955,7 +2034,8 @@
       "id": "kamp-westerbork",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/kamp-westerbork.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Kamp Westerbork"
     },
     {
       "name": "Kasteel Coevorden",
@@ -1976,7 +2056,8 @@
       "id": "kasteel-coevorden",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/kasteel-coevorden.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Kasteel Coevorden"
     },
     {
       "name": "Kasteel Oldenaller",
@@ -1997,7 +2078,8 @@
       "id": "kasteel-oldenaller",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/kasteel-oldenaller.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Kasteel Oldenaller"
     },
     {
       "name": "Kayak & Canoe Rental",
@@ -2019,7 +2101,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Kıyafetinizin aktiviteye uygun olduğundan emin olun.",
       "tips_en": "Ensure your outfit is suitable for the activity.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Kayak & Canoe Rental"
     },
     {
       "name": "Kerkje aan Zee",
@@ -2040,7 +2123,8 @@
       "id": "kerkje-aan-zee",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/kerkje-aan-zee.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Kerkje aan Zee"
     },
     {
       "name": "Kiersche Wijde",
@@ -2061,7 +2145,8 @@
       "id": "kiersche-wijde",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/kiersche-wijde.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Kiersche Wijde"
     },
     {
       "name": "Klimbos Avontuurlijk Paasloo",
@@ -2082,7 +2167,8 @@
       "id": "klimbos-avontuurlijk-paasloo",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/klimbos-avontuurlijk-paasloo.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Klimbos Avontuurlijk Paasloo"
     },
     {
       "name": "Klompenmakerij",
@@ -2103,7 +2189,8 @@
       "id": "klompenmakerij",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/klompenmakerij.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Klompenmakerij"
     },
     {
       "name": "Kooibos",
@@ -2124,7 +2211,8 @@
       "id": "kooibos",
       "distanceFromCenter": 0.5,
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/kooibos.jpg",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Kooibos"
     },
     {
       "name": "Lemmer",
@@ -2145,7 +2233,8 @@
       "id": "lemmer",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/lemmer.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Lemmer"
     },
     {
       "name": "Meppel",
@@ -2166,7 +2255,8 @@
       "id": "meppel",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/meppel.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Meppel"
     },
     {
       "name": "Molen De Vlijt",
@@ -2187,7 +2277,8 @@
       "id": "molen-de-vlijt",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/molen-de-vlijt.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Molen De Vlijt"
     },
     {
       "name": "Molenplaats",
@@ -2208,7 +2299,8 @@
       "id": "molenplaats",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/molenplaats.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Molenplaats"
     },
     {
       "name": "Muggenbeet",
@@ -2229,7 +2321,8 @@
       "id": "muggenbeet",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/muggenbeet.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Muggenbeet"
     },
     {
       "name": "Museum De Fundatie",
@@ -2250,7 +2343,8 @@
       "id": "museum-de-fundatie",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/museum-de-fundatie.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Museum De Fundatie"
     },
     {
       "name": "Museum Giethoorn 't Olde Maat Uus",
@@ -2271,7 +2365,8 @@
       "tips": "Biletinizi online alarak gişe sırasından kurtulun.",
       "tips_en": "Buy tickets online to skip the box office line.",
       "description_en": "Set in a historic farmhouse, this museum reveals the lifestyle and peat mining history of Giethoorn over the last century. You can travel back in time in rooms furnished with traditional costumes and household items.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Museum Giethoorn 't Olde Maat Uus"
     },
     {
       "name": "Museum Schokland",
@@ -2292,7 +2387,8 @@
       "id": "museum-schokland",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/museum-schokland.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Museum Schokland"
     },
     {
       "name": "Museum Schoonewelle",
@@ -2313,7 +2409,8 @@
       "id": "museum-schoonewelle",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/museum-schoonewelle.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Museum Schoonewelle"
     },
     {
       "name": "Museum Staphorst",
@@ -2334,7 +2431,8 @@
       "id": "museum-staphorst",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/museum-staphorst.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Museum Staphorst"
     },
     {
       "name": "Museum de Oude Aarde",
@@ -2355,7 +2453,8 @@
       "id": "museum-de-oude-aarde",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/museum-de-oude-aarde.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Museum de Oude Aarde"
     },
     {
       "name": "Netl de Wildste Tuin",
@@ -2376,7 +2475,8 @@
       "id": "netl-de-wildste-tuin",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/netl-de-wildste-tuin.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Netl de Wildste Tuin"
     },
     {
       "name": "Noorderind",
@@ -2397,7 +2497,8 @@
       "id": "noorderind",
       "distanceFromCenter": 0.5,
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/noorderind.jpg",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Noorderind"
     },
     {
       "name": "Orchideeën Hoeve",
@@ -2418,7 +2519,8 @@
       "id": "orchideeen-hoeve",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/orchideeen-hoeve.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Orchideeën Hoeve"
     },
     {
       "name": "Ossenzijl",
@@ -2439,7 +2541,8 @@
       "id": "ossenzijl",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/ossenzijl.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Ossenzijl"
     },
     {
       "name": "Pantropica",
@@ -2460,7 +2563,8 @@
       "id": "pantropica",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/pantropica.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Pantropica"
     },
     {
       "name": "Paviljoen De Witte Hoeve",
@@ -2481,7 +2585,8 @@
       "id": "paviljoen-de-witte-hoeve",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/paviljoen-de-witte-hoeve.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Paviljoen De Witte Hoeve"
     },
     {
       "name": "Piccola Roma",
@@ -2502,7 +2607,8 @@
       "id": "piccola-roma",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/piccola-roma.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Piccola Roma"
     },
     {
       "name": "Planetron",
@@ -2523,7 +2629,8 @@
       "id": "planetron",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/planetron.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Planetron"
     },
     {
       "name": "Plompeblad",
@@ -2544,7 +2651,8 @@
       "id": "plompeblad",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/plompeblad.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Plompeblad"
     },
     {
       "name": "Plopsa Indoor Coevorden",
@@ -2565,7 +2673,8 @@
       "id": "plopsa-indoor-coevorden",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/plopsa-indoor-coevorden.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Plopsa Indoor Coevorden"
     },
     {
       "name": "Pontje Jonen",
@@ -2586,7 +2695,8 @@
       "id": "pontje-jonen",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/pontje-jonen.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Pontje Jonen"
     },
     {
       "name": "Pottenbakkerij Rhoda",
@@ -2607,7 +2717,8 @@
       "id": "pottenbakkerij-rhoda",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/pottenbakkerij-rhoda.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Pottenbakkerij Rhoda"
     },
     {
       "name": "Potterie Giethoorn",
@@ -2628,7 +2739,8 @@
       "id": "potterie-giethoorn",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/potterie-giethoorn.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Potterie Giethoorn"
     },
     {
       "name": "Punter Boat Tour",
@@ -2650,7 +2762,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Rehbere soru sormaktan çekinmeyin, çok ilginç hikayeler biliyorlar.",
       "tips_en": "Don't hesitate to ask the guide questions, they know interesting stories.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Punter Boat Tour"
     },
     {
       "name": "Punterwerf Wildeboer",
@@ -2671,7 +2784,8 @@
       "id": "punterwerf-wildeboer",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/punterwerf-wildeboer.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Punterwerf Wildeboer"
     },
     {
       "name": "Recreatiecentrum De Kluft",
@@ -2692,7 +2806,8 @@
       "id": "recreatiecentrum-de-kluft",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/recreatiecentrum-de-kluft.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Recreatiecentrum De Kluft"
     },
     {
       "name": "Reed Islands",
@@ -2714,7 +2829,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Yanınıza bir örtü alıp çimlerde piknik yapabilirsiniz.",
       "tips_en": "Bring a blanket and have a picnic on the grass.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Reed Islands"
     },
     {
       "name": "Restaurant 't Zwaantje",
@@ -2735,7 +2851,8 @@
       "id": "restaurant-t-zwaantje",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/restaurant-t-zwaantje.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Restaurant 't Zwaantje"
     },
     {
       "name": "Restaurant 141",
@@ -2756,7 +2873,8 @@
       "id": "restaurant-141",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/restaurant-141.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Restaurant 141"
     },
     {
       "name": "Restaurant De Dames van de Jonge",
@@ -2777,7 +2895,8 @@
       "id": "restaurant-de-dames-van-de-jonge",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/restaurant-de-dames-van-de-jonge.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Restaurant De Dames van de Jonge"
     },
     {
       "name": "Restaurant De Gele Lis",
@@ -2798,7 +2917,8 @@
       "id": "restaurant-de-gele-lis",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/restaurant-de-gele-lis.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Restaurant De Gele Lis"
     },
     {
       "name": "Restaurant De Pergola",
@@ -2819,7 +2939,8 @@
       "id": "restaurant-de-pergola",
       "distanceFromCenter": 0.5,
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/restaurant_de_pergola.jpg",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Restaurant De Pergola"
     },
     {
       "name": "Restaurant Het Doevehuis",
@@ -2840,7 +2961,8 @@
       "id": "restaurant-het-doevehuis",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/restaurant-het-doevehuis.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Restaurant Het Doevehuis"
     },
     {
       "name": "Restaurant Hollands Venetië",
@@ -2862,7 +2984,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Yerel şarapları denemenizi öneririz.",
       "tips_en": "We recommend trying local wines.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Restaurant Hollands Venetië"
     },
     {
       "name": "Restaurant't Achterhuus",
@@ -2884,7 +3007,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Nakite hazırlıklı olun, bazı yerel yerler kart kabul etmeyebilir.",
       "tips_en": "Be prepared with cash, some local places might not accept cards.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Restaurant't Achterhuus"
     },
     {
       "name": "Ristorante Fratelli",
@@ -2930,7 +3054,8 @@
       "id": "rondvaart-zuideinde",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/rondvaart-zuideinde.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Rondvaart Zuideinde"
     },
     {
       "name": "Scheepswerf Schreur",
@@ -2951,7 +3076,8 @@
       "id": "scheepswerf-schreur",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/scheepswerf-schreur.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Scheepswerf Schreur"
     },
     {
       "name": "Scheerwolde",
@@ -2972,7 +3098,8 @@
       "id": "scheerwolde",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/scheerwolde.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Scheerwolde"
     },
     {
       "name": "Schokland",
@@ -2993,7 +3120,8 @@
       "id": "schokland",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/schokland.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Schokland"
     },
     {
       "name": "Shell Gallery Gloria Maris",
@@ -3014,7 +3142,8 @@
       "id": "shell-gallery-gloria-maris",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/shell-gallery-gloria-maris.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Shell Gallery Gloria Maris"
     },
     {
       "name": "Sint-Jansklooster",
@@ -3035,7 +3164,8 @@
       "id": "sint-jansklooster",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/sint-jansklooster.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Sint-Jansklooster"
     },
     {
       "name": "Sint-Steen (St. Stephen's Stone)",
@@ -3056,7 +3186,8 @@
       "id": "sint-steen-(st-stephens-stone)",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/sint-steen-(st-stephens-stone).jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Sint-Steen (St. Stephen's Stone)"
     },
     {
       "name": "Sluiszicht",
@@ -3077,7 +3208,8 @@
       "id": "sluiszicht",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/sluiszicht.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Sluiszicht"
     },
     {
       "name": "Smit Giethoorn Catering",
@@ -3098,7 +3230,8 @@
       "id": "smit-giethoorn-catering",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/smit-giethoorn-catering.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Smit Giethoorn Catering"
     },
     {
       "name": "Smit's Paviljoen",
@@ -3141,7 +3274,8 @@
       "id": "smits-paviljoen-boat-rental",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/smits-paviljoen-boat-rental.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Smit's Paviljoen Boat Rental"
     },
     {
       "name": "Snackpoint Giethoorn",
@@ -3162,7 +3296,8 @@
       "id": "snackpoint-giethoorn",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/snackpoint-giethoorn.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Snackpoint Giethoorn"
     },
     {
       "name": "Spar ter Schure",
@@ -3183,7 +3318,8 @@
       "id": "spar-ter-schure",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/spar-ter-schure.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Spar ter Schure"
     },
     {
       "name": "Staphorst",
@@ -3204,7 +3340,8 @@
       "id": "staphorst",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/staphorst.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Staphorst"
     },
     {
       "name": "Steenwijkerwold",
@@ -3225,7 +3362,8 @@
       "id": "steenwijkerwold",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/steenwijkerwold.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Steenwijkerwold"
     },
     {
       "name": "Sunset Viewing Spot",
@@ -3247,7 +3385,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Gün batımından 30 dakika önce gelip yerinizi alın, manzara muazzam.",
       "tips_en": "Arrive 30 mins before sunset to secure a spot, the view is magnificent.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Sunset Viewing Spot"
     },
     {
       "name": "Taman Indonesia",
@@ -3268,7 +3407,8 @@
       "id": "taman-indonesia",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/taman-indonesia.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Taman Indonesia"
     },
     {
       "name": "Taman Indonesia Restaurant",
@@ -3289,7 +3429,8 @@
       "id": "taman-indonesia-restaurant",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/taman-indonesia-restaurant.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Taman Indonesia Restaurant"
     },
     {
       "name": "Tjasker Kalenberg",
@@ -3310,7 +3451,8 @@
       "id": "tjasker-kalenberg",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/tjasker-kalenberg.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Tjasker Kalenberg"
     },
     {
       "name": "Uitkijktoren Woldberg",
@@ -3355,7 +3497,8 @@
       "id": "urk",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/urk.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Urk"
     },
     {
       "name": "Venezia Ijs",
@@ -3376,7 +3519,8 @@
       "id": "venezia-ijs",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/venezia-ijs.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Venezia Ijs"
     },
     {
       "name": "Vishandel Gerrits & De Boer",
@@ -3397,7 +3541,8 @@
       "id": "vishandel-gerrits-&-de-boer",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/vishandel-gerrits-&-de-boer.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Vishandel Gerrits & De Boer"
     },
     {
       "name": "Vlinderparadijs Papiliorama",
@@ -3418,7 +3563,8 @@
       "id": "vlinderparadijs-papiliorama",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/vlinderparadijs-papiliorama.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Vlinderparadijs Papiliorama"
     },
     {
       "name": "Vollenhove",
@@ -3439,7 +3585,8 @@
       "id": "vollenhove",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/vollenhove.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Vollenhove"
     },
     {
       "name": "Vuurtoren van Urk",
@@ -3460,7 +3607,8 @@
       "id": "vuurtoren-van-urk",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/vuurtoren-van-urk.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Vuurtoren van Urk"
     },
     {
       "name": "Waanders In de Broeren",
@@ -3481,7 +3629,8 @@
       "id": "waanders-in-de-broeren",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/waanders-in-de-broeren.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Waanders In de Broeren"
     },
     {
       "name": "Wanneperveen",
@@ -3526,7 +3675,8 @@
       "id": "waterreijk-weerribben-wieden",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/waterreijk-weerribben-wieden.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Waterreijk Weerribben Wieden"
     },
     {
       "name": "Weerribben-Wieden",
@@ -3547,7 +3697,8 @@
       "tips": "Yürüyüş ayakkabısı giymeniz önerilir.",
       "tips_en": "Walking shoes are recommended.",
       "description_en": "Köyün çevresindeki devasa milli park. A perfect getaway for those who want to experience peaceful moments in nature. Ideal for getting away from the city noise, taking a breath, and capturing great photos.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Weerribben-Wieden"
     },
     {
       "name": "Weerribben-Wieden Kano Rotaları",
@@ -3593,7 +3744,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Gün batımını izlemek için şehirdeki en iyi noktalardan biri.",
       "tips_en": "One of the best spots in the city to watch the sunset.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Weerribben-Wieden National Park"
     },
     {
       "name": "Whisper Boat Rental",
@@ -3615,7 +3767,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Fotoğraf makinenizin şarjının dolu olduğundan emin olun.",
       "tips_en": "Make sure your camera battery is full.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Whisper Boat Rental"
     },
     {
       "name": "Wierschuur",
@@ -3636,7 +3789,8 @@
       "id": "wierschuur",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/wierschuur.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Wierschuur"
     },
     {
       "name": "Wildlands Adventure Zoo Emmen",
@@ -3657,7 +3811,8 @@
       "id": "wildlands-adventure-zoo-emmen",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/wildlands-adventure-zoo-emmen.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Wildlands Adventure Zoo Emmen"
     },
     {
       "name": "Zuideinde",
@@ -3678,7 +3833,8 @@
       "id": "zuideinde",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/zuideinde.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Zuideinde"
     },
     {
       "name": "Zuideindigerwijde",
@@ -3699,7 +3855,8 @@
       "id": "zuideindigerwijde",
       "distanceFromCenter": 0.5,
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/zuideindigerwijde.jpg",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Zuideindigerwijde"
     },
     {
       "name": "Zuivelhoeve Steenwijk",
@@ -3720,7 +3877,8 @@
       "id": "zuivelhoeve-steenwijk",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/zuivelhoeve-steenwijk.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Zuivelhoeve Steenwijk"
     },
     {
       "name": "Zwartsluis",
@@ -3741,7 +3899,8 @@
       "id": "zwartsluis",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/zwartsluis.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Zwartsluis"
     }
   ],
   "heroImage": "https://www.onedayinacity.com/wp-content/uploads/2021/03/Giethoorn-Village.png",

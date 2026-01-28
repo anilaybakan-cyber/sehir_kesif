@@ -25,7 +25,8 @@
       "id": "a-raposa",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/a-raposa.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "A Raposa"
     },
     {
       "name": "Park of Pena",
@@ -67,7 +68,8 @@
       "id": "adega-regional-de-colares",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/adega-regional-de-colares.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Adega Regional de Colares"
     },
     {
       "name": "Aldeia da Mata Pequena",
@@ -88,7 +90,8 @@
       "id": "aldeia-da-mata-pequena",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/aldeia-da-mata-pequena.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Aldeia da Mata Pequena"
     },
     {
       "name": "Aldeia da Praia",
@@ -109,7 +112,8 @@
       "id": "aldeia-da-praia",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/aldeia-da-praia.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Aldeia da Praia"
     },
     {
       "name": "Anta de Adrenunes",
@@ -130,7 +134,8 @@
       "id": "anta-de-adrenunes",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/anta-de-adrenunes.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Anta de Adrenunes"
     },
     {
       "name": "Apeadeiro",
@@ -176,7 +181,8 @@
       "id": "arribas-de-sintra",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/arribas-de-sintra.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Arribas de Sintra"
     },
     {
       "name": "Azenhas do Mar",
@@ -198,7 +204,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Rüzgarlı olabilir, yanınıza ince bir ceket alın.",
       "tips_en": "It can be windy, bring a light jacket.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Azenhas do Mar"
     },
     {
       "name": "Bacalhau na Vila",
@@ -219,7 +226,8 @@
       "id": "bacalhau-na-vila",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/bacalhau-na-vila.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Bacalhau na Vila"
     },
     {
       "name": "Bar Saloon",
@@ -240,7 +248,8 @@
       "id": "bar-saloon",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/bar-saloon.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Bar Saloon"
     },
     {
       "name": "Bar do Fundo",
@@ -285,7 +294,8 @@
       "id": "bazaar-do-povo",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/bazaar-do-povo.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Bazaar do Povo"
     },
     {
       "name": "Biester Palace",
@@ -331,7 +341,8 @@
       "id": "boca-do-inferno",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/boca-do-inferno.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Boca do Inferno"
     },
     {
       "name": "Bristol Bar",
@@ -352,7 +363,8 @@
       "id": "bristol-bar",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/bristol-bar.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Bristol Bar"
     },
     {
       "name": "Buraco do Fojo",
@@ -373,7 +385,8 @@
       "id": "buraco-do-fojo",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/buraco-do-fojo.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Buraco do Fojo"
     },
     {
       "name": "Cabo Raso",
@@ -394,7 +407,8 @@
       "id": "cabo-raso",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/cabo-raso.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Cabo Raso"
     },
     {
       "name": "Cabo Raso Lighthouse",
@@ -415,7 +429,8 @@
       "id": "cabo-raso-lighthouse",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/cabo-raso-lighthouse.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Cabo Raso Lighthouse"
     },
     {
       "name": "Cabo da Roca",
@@ -436,7 +451,8 @@
       "tips": "Teleskop/dürbün varsa yanınıza alın.",
       "tips_en": "Bring a telescope/binoculars if you have them.",
       "description_en": "Avrupa kıtasının en batı ucu, muhteşem okyanus manzarası. Offering one of the most impressiand views of the city, this spot is a paradise for photography enthusiasts. The colors it takes on, especially at sunset, provide a visual feast for visitors.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Cabo da Roca"
     },
     {
       "name": "Caffe da Villa",
@@ -457,7 +473,8 @@
       "id": "caffe-da-villa",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/caffe-da-villa.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Caffe da Villa"
     },
     {
       "name": "Café Paris",
@@ -479,7 +496,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Dışarıdaki masalarda oturup gelen geçeni izlemek çok keyifli.",
       "tips_en": "Sitting at outdoor tables and people-watching is very pleasant.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Café Paris"
     },
     {
       "name": "Café Saudade",
@@ -525,7 +543,8 @@
       "id": "cafe-da-natalia",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/cafe-da-natalia.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Café da Natália"
     },
     {
       "name": "Camara Municipal de Sintra",
@@ -546,7 +565,8 @@
       "id": "camara-municipal-de-sintra",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/camara-municipal-de-sintra.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Camara Municipal de Sintra"
     },
     {
       "name": "Cantinho Gourmet",
@@ -567,7 +587,8 @@
       "id": "cantinho-gourmet",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/cantinho-gourmet.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Cantinho Gourmet"
     },
     {
       "name": "Cantinho de São Pedro",
@@ -589,7 +610,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Akşam yemeği için rezervasyon yaptırmak şart.",
       "tips_en": "Reservation is a must for dinner.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Cantinho de São Pedro"
     },
     {
       "name": "Capuchos Convent",
@@ -611,7 +633,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Rehberli turla gezmek detayları anlamak için çok daha verimli.",
       "tips_en": "A guided tour is much more efficient to understand the details.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Capuchos Convent"
     },
     {
       "name": "Casa Piriquita",
@@ -632,7 +655,8 @@
       "tips": "Dışarıdaki masalarda oturup gelen geçeni izlemek çok keyifli.",
       "tips_en": "Sitting at outdoor tables and people-watching is very pleasant.",
       "description_en": "Meşhur 'Traandsseiros' tatlısının doğduğu yer. One of the right addresses to relieand the tiredness of the day and relax with a delicious coffee. The warm ambiance of the andnue and the sweet surprises it offers will turn your break into pleasure.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Casa Piriquita"
     },
     {
       "name": "Casa das Histórias Paula Rego",
@@ -653,7 +677,8 @@
       "id": "casa-das-historias-paula-rego",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/casa-das-historias-paula-rego.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Casa das Histórias Paula Rego"
     },
     {
       "name": "Casa de Santa Maria",
@@ -674,7 +699,8 @@
       "id": "casa-de-santa-maria",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/casa-de-santa-maria.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Casa de Santa Maria"
     },
     {
       "name": "Casa do Cipreste",
@@ -695,7 +721,8 @@
       "id": "casa-do-cipreste",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/casa-do-cipreste.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Casa do Cipreste"
     },
     {
       "name": "Casa do Preto",
@@ -716,7 +743,8 @@
       "id": "casa-do-preto",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/casa-do-preto.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Casa do Preto"
     },
     {
       "name": "Cascais",
@@ -737,7 +765,8 @@
       "id": "cascais",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/cascais.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Cascais"
     },
     {
       "name": "Cascata de Anços",
@@ -758,7 +787,8 @@
       "id": "cascata-de-ancos",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/cascata-de-ancos.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Cascata de Anços"
     },
     {
       "name": "Cascata de Pisões",
@@ -779,7 +809,8 @@
       "id": "cascata-de-pisoes",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/cascata-de-pisoes.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Cascata de Pisões"
     },
     {
       "name": "Centro Cultural Olga Cadaval",
@@ -800,7 +831,8 @@
       "id": "centro-cultural-olga-cadaval",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/centro-cultural-olga-cadaval.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Centro Cultural Olga Cadaval"
     },
     {
       "name": "Centro de Interpretação da Natureza",
@@ -821,7 +853,8 @@
       "id": "centro-de-interpretacao-da-natureza",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/centro-de-interpretacao-da-natureza.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Centro de Interpretação da Natureza"
     },
     {
       "name": "Chalet of Countess d'Edla",
@@ -865,7 +898,8 @@
       "id": "citadel-of-cascais",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/citadel-of-cascais.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Citadel of Cascais"
     },
     {
       "name": "Ciência Viva Center of Sintra",
@@ -886,7 +920,8 @@
       "id": "ciencia-viva-center-of-sintra",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/ciencia-viva-center-of-sintra.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Ciência Viva Center of Sintra"
     },
     {
       "name": "Convento da Trindade",
@@ -907,7 +942,8 @@
       "id": "convento-da-trindade",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/convento-da-trindade.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Convento da Trindade"
     },
     {
       "name": "Convento de São Saturnino",
@@ -928,7 +964,8 @@
       "id": "convento-de-sao-saturnino",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/convento-de-sao-saturnino.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Convento de São Saturnino"
     },
     {
       "name": "Convento dos Capuchos Walk",
@@ -949,7 +986,8 @@
       "id": "convento-dos-capuchos-walk",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/convento-dos-capuchos-walk.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Convento dos Capuchos Walk"
     },
     {
       "name": "Cruz Alta",
@@ -971,7 +1009,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Akşam saatlerinde şehir ışıklarını izlemek çok romantik.",
       "tips_en": "Watching city lights in the evening is very romantic.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Cruz Alta"
     },
     {
       "name": "Curral dos Caprinos",
@@ -1017,7 +1056,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Öğle yemeği menüleri genellikle akşamdan daha uygundur.",
       "tips_en": "Lunch menus are usually cheaper than dinner.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Dom Pipas"
     },
     {
       "name": "Dona Maria",
@@ -1038,7 +1078,8 @@
       "id": "dona-maria",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/dona_maria.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Dona Maria"
     },
     {
       "name": "Duna da Cresmina",
@@ -1059,7 +1100,8 @@
       "id": "duna-da-cresmina",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/duna-da-cresmina.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Duna da Cresmina"
     },
     {
       "name": "Ericeira",
@@ -1080,7 +1122,8 @@
       "id": "ericeira",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/ericeira.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Ericeira"
     },
     {
       "name": "Ermida de Santa Eufémia",
@@ -1101,7 +1144,8 @@
       "id": "ermida-de-santa-eufemia",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/ermida-de-santa-eufemia.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Ermida de Santa Eufémia"
     },
     {
       "name": "Estoril",
@@ -1122,7 +1166,8 @@
       "id": "estoril",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/estoril.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Estoril"
     },
     {
       "name": "Farol do Cabo da Roca",
@@ -1143,7 +1188,8 @@
       "id": "farol-do-cabo-da-roca",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/farol-do-cabo-da-roca.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Farol do Cabo da Roca"
     },
     {
       "name": "Ferreira de Castro Museum",
@@ -1164,7 +1210,8 @@
       "id": "ferreira-de-castro-museum",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/ferreira-de-castro-museum.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Ferreira de Castro Museum"
     },
     {
       "name": "Fojo dos Morcegos",
@@ -1185,7 +1232,8 @@
       "id": "fojo-dos-morcegos",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/fojo-dos-morcegos.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Fojo dos Morcegos"
     },
     {
       "name": "Fonte Mourisca",
@@ -1206,7 +1254,8 @@
       "id": "fonte-mourisca",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/fonte-mourisca.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Fonte Mourisca"
     },
     {
       "name": "Fonte da Pipa",
@@ -1227,7 +1276,8 @@
       "id": "fonte-da-pipa",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/fonte-da-pipa.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Fonte da Pipa"
     },
     {
       "name": "Fonte da Sabuga",
@@ -1248,7 +1298,8 @@
       "id": "fonte-da-sabuga",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/fonte-da-sabuga.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Fonte da Sabuga"
     },
     {
       "name": "Fonte dos Pisões",
@@ -1269,7 +1320,8 @@
       "id": "fonte-dos-pisoes",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/fonte-dos-pisoes.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Fonte dos Pisões"
     },
     {
       "name": "Forte da Cresmina",
@@ -1290,7 +1342,8 @@
       "id": "forte-da-cresmina",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/forte-da-cresmina.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Forte da Cresmina"
     },
     {
       "name": "Forte da Roca",
@@ -1311,7 +1364,8 @@
       "id": "forte-da-roca",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/forte-da-roca.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Forte da Roca"
     },
     {
       "name": "Forte de São Jorge de Oitavos",
@@ -1332,7 +1386,8 @@
       "id": "forte-de-sao-jorge-de-oitavos",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/forte-de-sao-jorge-de-oitavos.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Forte de São Jorge de Oitavos"
     },
     {
       "name": "Forte do Guincho",
@@ -1353,7 +1408,8 @@
       "id": "forte-do-guincho",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/forte-do-guincho.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Forte do Guincho"
     },
     {
       "name": "Foz do Lizandro",
@@ -1374,7 +1430,8 @@
       "id": "foz-do-lizandro",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/foz-do-lizandro.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Foz do Lizandro"
     },
     {
       "name": "Fábrica das Verdadeiras Queijadas",
@@ -1396,7 +1453,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Sabah kahvaltısı için erken gitmekte fayda var, taze kruvasanlar bitiyor.",
       "tips_en": "Go early for breakfast, fresh croissants run out.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Fábrica das Verdadeiras Queijadas"
     },
     {
       "name": "Garagem Café",
@@ -1417,7 +1475,8 @@
       "id": "garagem-cafe",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/garagem-cafe.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Garagem Café"
     },
     {
       "name": "Gelato Davvero",
@@ -1438,7 +1497,8 @@
       "id": "gelato-davvero",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/gelato-davvero.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Gelato Davvero"
     },
     {
       "name": "Hamburgueria do Maçãs",
@@ -1459,7 +1519,8 @@
       "id": "hamburgueria-do-macas",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/hamburgueria-do-macas.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Hamburgueria do Maçãs"
     },
     {
       "name": "Hipódromo Manuel Possolo",
@@ -1480,7 +1541,8 @@
       "id": "hipodromo-manuel-possolo",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/hipodromo-manuel-possolo.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Hipódromo Manuel Possolo"
     },
     {
       "name": "Hop-Sin Brew",
@@ -1501,7 +1563,8 @@
       "id": "hop-sin-brew",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/hop-sin-brew.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Hop-Sin Brew"
     },
     {
       "name": "Horse Carriage Ride",
@@ -1523,7 +1586,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Grup indirimi olup olmadığını sorun.",
       "tips_en": "Ask if there is a group discount.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Horse Carriage Ride"
     },
     {
       "name": "Igreja de Nossa Senhora da Assunção",
@@ -1544,7 +1608,8 @@
       "id": "igreja-de-nossa-senhora-da-assuncao",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/igreja-de-nossa-senhora-da-assuncao.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Igreja de Nossa Senhora da Assunção"
     },
     {
       "name": "Igreja de Santa Maria",
@@ -1565,7 +1630,8 @@
       "id": "igreja-de-santa-maria",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/igreja-de-santa-maria.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Igreja de Santa Maria"
     },
     {
       "name": "Igreja de Santo André",
@@ -1586,7 +1652,8 @@
       "id": "igreja-de-santo-andre",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/igreja-de-santo-andre.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Igreja de Santo André"
     },
     {
       "name": "Igreja de São Martinho",
@@ -1607,7 +1674,8 @@
       "id": "igreja-de-sao-martinho",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/igreja-de-sao-martinho.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Igreja de São Martinho"
     },
     {
       "name": "Incomum",
@@ -1628,7 +1696,8 @@
       "tips": "Akşam yemeği için rezervasyon yaptırmak şart.",
       "tips_en": "Reservation is a must for dinner.",
       "description_en": "Şef Luis Santos'tan yaratıcı Portekiz mutfağı. A great option to taste local flavors and spend a pleasant eandning. It offers an unforgettable experience appealing to your palate with its friendly atmosphere and quality service.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Incomum"
     },
     {
       "name": "Jardim Visconde da Luz",
@@ -1649,7 +1718,8 @@
       "id": "jardim-visconde-da-luz",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/jardim_visconde_da_luz.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Jardim Visconde da Luz"
     },
     {
       "name": "Jardim da Comenda",
@@ -1670,7 +1740,8 @@
       "id": "jardim-da-comenda",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/jardim-da-comenda.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Jardim da Comenda"
     },
     {
       "name": "Jardim da Vigia",
@@ -1691,7 +1762,8 @@
       "id": "jardim-da-vigia",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/jardim-da-vigia.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Jardim da Vigia"
     },
     {
       "name": "Jardim do Cerco",
@@ -1712,7 +1784,8 @@
       "id": "jardim-do-cerco",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/jardim-do-cerco.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Jardim do Cerco"
     },
     {
       "name": "Lagoa Azul",
@@ -1733,7 +1806,8 @@
       "id": "lagoa-azul",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/lagoa_azul.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Lagoa Azul"
     },
     {
       "name": "Loba (Wolf) Rock",
@@ -1754,7 +1828,8 @@
       "id": "loba-wolf-rock",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/loba-wolf-rock.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Loba (Wolf) Rock"
     },
     {
       "name": "MU.SA - Museu das Artes de Sintra",
@@ -1775,7 +1850,8 @@
       "id": "musa---museu-das-artes-de-sintra",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/musa---museu-das-artes-de-sintra.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "MU.SA - Museu das Artes de Sintra"
     },
     {
       "name": "Mafra National Palace Library",
@@ -1796,7 +1872,8 @@
       "id": "mafra-national-palace-library",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/mafra-national-palace-library.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Mafra National Palace Library"
     },
     {
       "name": "Marina de Cascais",
@@ -1817,7 +1894,8 @@
       "id": "marina-de-cascais",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/marina-de-cascais.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Marina de Cascais"
     },
     {
       "name": "Mercado da Vila Cascais",
@@ -1838,7 +1916,8 @@
       "id": "mercado-da-vila-cascais",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/mercado-da-vila-cascais.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Mercado da Vila Cascais"
     },
     {
       "name": "Metamorphosis",
@@ -1859,7 +1938,8 @@
       "id": "metamorphosis",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/metamorphosis.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Metamorphosis"
     },
     {
       "name": "Miradouro da Praia das Maçãs",
@@ -1880,7 +1960,8 @@
       "id": "miradouro-da-praia-das-macas",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/miradouro-da-praia-das-macas.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Miradouro da Praia das Maçãs"
     },
     {
       "name": "Miradouro da Vigia",
@@ -1901,7 +1982,8 @@
       "id": "miradouro-da-vigia",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/miradouro-da-vigia.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Miradouro da Vigia"
     },
     {
       "name": "Miradouro de Ribeira d'Ilhas",
@@ -1922,7 +2004,8 @@
       "id": "miradouro-de-ribeira-d-ilhas",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/miradouro-de-ribeira-d-ilhas.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Miradouro de Ribeira d'Ilhas"
     },
     {
       "name": "Miradouro de Santa Eufémia",
@@ -1943,7 +2026,8 @@
       "id": "miradouro-de-santa-eufemia",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/miradouro-de-santa-eufemia.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Miradouro de Santa Eufémia"
     },
     {
       "name": "Moinho Ibérico",
@@ -1964,7 +2048,8 @@
       "id": "moinho-iberico",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/moinho-iberico.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Moinho Ibérico"
     },
     {
       "name": "Moinho de Don Quixote",
@@ -1985,7 +2070,8 @@
       "id": "moinho-de-don-quixote",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/moinho-de-don-quixote.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Moinho de Don Quixote"
     },
     {
       "name": "Moinho de Vento",
@@ -2006,7 +2092,8 @@
       "id": "moinho-de-vento",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/moinho-de-vento.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Moinho de Vento"
     },
     {
       "name": "Moinho do Penedo",
@@ -2027,7 +2114,8 @@
       "id": "moinho-do-penedo",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/moinho-do-penedo.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Moinho do Penedo"
     },
     {
       "name": "Monserrate Palace",
@@ -2048,7 +2136,8 @@
       "tips": "Sabah koşusu veya yoga yapan yerlileri görebilirsiniz.",
       "tips_en": "You can see locals jogging or doing yoga in the morning.",
       "description_en": "Egzotik bahçeler içinde Arap mimarisi esintili saray. A perfect getaway for those who want to experience peaceful moments in nature. Ideal for getting away from the city noise, taking a breath, and capturing great photos.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Monserrate Palace"
     },
     {
       "name": "Moorish Castle",
@@ -2069,7 +2158,8 @@
       "tips": "Rehberli turla gezmek detayları anlamak için çok daha verimli.",
       "tips_en": "A guided tour is much more efficient to understand the details.",
       "description_en": "Tüm bölgeyi gören eski Mağribi kalesi surları. A unique treasure for history buffs, this andnue captivates visitors with details that shed light on the past. An ideal stop for those wishing to embark on a cultural journey.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Moorish Castle"
     },
     {
       "name": "Museu Anjos Teixeira",
@@ -2090,7 +2180,8 @@
       "id": "museu-anjos-teixeira",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/museu-anjos-teixeira.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Museu Anjos Teixeira"
     },
     {
       "name": "Museu Arqueológico de São Miguel de Odrinhas",
@@ -2133,7 +2224,8 @@
       "id": "museu-de-historia-natural-de-sintra",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/museu-de-historia-natural-de-sintra.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Museu de História Natural de Sintra"
     },
     {
       "name": "Museu do Ar",
@@ -2154,7 +2246,8 @@
       "id": "museu-do-ar",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/museu-do-ar.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Museu do Ar"
     },
     {
       "name": "Nau Palatina",
@@ -2176,7 +2269,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Akşam yemeği için rezervasyon yaptırmak şart.",
       "tips_en": "Reservation is a must for dinner.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Nau Palatina"
     },
     {
       "name": "News Museum",
@@ -2197,7 +2291,8 @@
       "id": "news-museum",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/news-museum.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "News Museum"
     },
     {
       "name": "Nortada",
@@ -2218,7 +2313,8 @@
       "id": "nortada",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/nortada.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Nortada"
     },
     {
       "name": "Odrinhas",
@@ -2239,7 +2335,8 @@
       "id": "odrinhas",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/odrinhas.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Odrinhas"
     },
     {
       "name": "Old Town Steps",
@@ -2260,7 +2357,8 @@
       "id": "old-town-steps",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/old-town-steps.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Old Town Steps"
     },
     {
       "name": "Palácio dos Condes de Castro Guimarães",
@@ -2281,7 +2379,8 @@
       "id": "palacio-dos-condes-de-castro-guimaraes",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/palacio-dos-condes-de-castro-guimaraes.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Palácio dos Condes de Castro Guimarães"
     },
     {
       "name": "Parque Marechal Carmona",
@@ -2302,7 +2401,8 @@
       "id": "parque-marechal-carmona",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/parque-marechal-carmona.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Parque Marechal Carmona"
     },
     {
       "name": "Parque Urbano de Rana",
@@ -2323,7 +2423,8 @@
       "id": "parque-urbano-de-rana",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/parque-urbano-de-rana.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Parque Urbano de Rana"
     },
     {
       "name": "Parque da Liberdade",
@@ -2344,7 +2445,8 @@
       "id": "parque-da-liberdade",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/parque-da-liberdade.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Parque da Liberdade"
     },
     {
       "name": "Parque das Merendas",
@@ -2365,7 +2467,8 @@
       "id": "parque-das-merendas",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/parque-das-merendas.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Parque das Merendas"
     },
     {
       "name": "Pedra Amarela Field Camp",
@@ -2386,7 +2489,8 @@
       "id": "pedra-amarela-field-camp",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/pedra-amarela-field-camp.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Pedra Amarela Field Camp"
     },
     {
       "name": "Pedra da Agulha",
@@ -2407,7 +2511,8 @@
       "id": "pedra-da-agulha",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/pedra-da-agulha.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Pedra da Agulha"
     },
     {
       "name": "Pelourinho de Sintra",
@@ -2428,7 +2533,8 @@
       "id": "pelourinho-de-sintra",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/pelourinho-de-sintra.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Pelourinho de Sintra"
     },
     {
       "name": "Pena Palace",
@@ -2449,21 +2555,22 @@
       "tips": "Yapı içerisindeki akustik harika, sessizliği dinleyin.",
       "tips_en": "The acoustics inside satisfy; listen to the silence.",
       "description_en": "Rising atop the hill with its yellow and red towers, Pena Palace is the world's most striking example of Romanticist architecture. Its fairytale appearance and exotic gardens invite visitors into the dream world of kings.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Pena Palace"
     },
     {
-      "name": "Pena Park",
-      "category": "Park",
+      "name": "Pena Gardens",
+      "category": "Doğa",
       "tags": [
         "forest",
         "trails",
         "exotic plants"
       ],
-      "lat": 38788.0,
-      "lng": -9392.0,
+      "lat": 38787.0,
+      "lng": -9.39,
       "rating": 4.7,
-      "description": "Pena Sarayı çevresinde 200 hektar orman parkı. Doğayla iç içe, huzur dolu anlar yaşamak isteyenler için mükemmel bir kaçış noktası. Şehrin gürültüsünden uzaklaşıp nefes almak ve harika fotoğraflar çekmek için birebir.",
-      "description_en": "200 hectare forest park around Pena Palace. A perfect getaway for those who want to experience peaceful moments in nature. Ideal for getting away from the city noise, taking a breath, and capturing great photos.",
+      "description": "Pena Sarayı'nı saran, egzotik bitkiler ve gizemli yollarla dolu devasa romantik park.",
+      "description_en": "A massive romantic park surrounding Pena Palace, filled with exotic plants and mysterious paths.",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/pena_park.jpg",
       "price": "medium",
       "distanceFromCenter": 1.0,
@@ -2471,7 +2578,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Sabah koşusu veya yoga yapan yerlileri görebilirsiniz.",
       "tips_en": "You can see locals jogging or doing yoga in the morning.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Pena Park"
     },
     {
       "name": "Penedo",
@@ -2492,7 +2600,8 @@
       "id": "penedo",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/penedo.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Penedo"
     },
     {
       "name": "Peninha Sanctuary",
@@ -2514,7 +2623,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Rüzgarlı olabilir, yanınıza ince bir ceket alın.",
       "tips_en": "It can be windy, bring a light jacket.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Peninha Sanctuary"
     },
     {
       "name": "Pinhal da Nazaré",
@@ -2535,7 +2645,8 @@
       "id": "pinhal-da-nazare",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/pinhal-da-nazare.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Pinhal da Nazaré"
     },
     {
       "name": "Piriquita II",
@@ -2556,7 +2667,8 @@
       "id": "piriquita-ii",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/piriquita-ii.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Piriquita II"
     },
     {
       "name": "Praia Grande",
@@ -2578,7 +2690,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Gün batımını izlemek için şehirdeki en iyi noktalardan biri.",
       "tips_en": "One of the best spots in the city to watch the sunset.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Praia Grande"
     },
     {
       "name": "Praia Pequena do Rodízio",
@@ -2599,7 +2712,8 @@
       "id": "praia-pequena-do-rodizio",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/praia-pequena-do-rodizio.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Praia Pequena do Rodízio"
     },
     {
       "name": "Praia da Adraga",
@@ -2620,7 +2734,8 @@
       "id": "praia-da-adraga",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/praia-da-adraga.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Praia da Adraga"
     },
     {
       "name": "Praia da Aguda",
@@ -2641,7 +2756,8 @@
       "id": "praia-da-aguda",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/praia-da-aguda.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Praia da Aguda"
     },
     {
       "name": "Praia da Duquesa",
@@ -2662,7 +2778,8 @@
       "id": "praia-da-duquesa",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/praia-da-duquesa.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Praia da Duquesa"
     },
     {
       "name": "Praia da Grota",
@@ -2683,7 +2800,8 @@
       "id": "praia-da-grota",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/praia-da-grota.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Praia da Grota"
     },
     {
       "name": "Praia da Rainha",
@@ -2704,7 +2822,8 @@
       "id": "praia-da-rainha",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/praia-da-rainha.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Praia da Rainha"
     },
     {
       "name": "Praia da Ursa",
@@ -2753,7 +2872,8 @@
       "id": "praia-da-viuva",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/praia-da-viuva.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Praia da Viúva"
     },
     {
       "name": "Praia das Azenhas do Mar",
@@ -2774,7 +2894,8 @@
       "id": "praia-das-azenhas-do-mar",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/praia-das-azenhas-do-mar.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Praia das Azenhas do Mar"
     },
     {
       "name": "Praia das Maçãs",
@@ -2796,7 +2917,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Güneş kremi ve şapka almayı unutmayın.",
       "tips_en": "Don't forget sunscreen and a hat.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Praia das Maçãs"
     },
     {
       "name": "Praia de Samarra",
@@ -2817,7 +2939,8 @@
       "id": "praia-de-samarra",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/praia-de-samarra.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Praia de Samarra"
     },
     {
       "name": "Praia de São Julião",
@@ -2838,7 +2961,8 @@
       "id": "praia-de-sao-juliao",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/praia-de-sao-juliao.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Praia de São Julião"
     },
     {
       "name": "Praia do Abano",
@@ -2859,7 +2983,8 @@
       "id": "praia-do-abano",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/praia-do-abano.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Praia do Abano"
     },
     {
       "name": "Praia do Magoito",
@@ -2904,7 +3029,8 @@
       "id": "praia-do-sul",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/praia-do-sul.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Praia do Sul"
     },
     {
       "name": "Praia dos Pescadores",
@@ -2925,7 +3051,8 @@
       "id": "praia-dos-pescadores",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/praia-dos-pescadores.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Praia dos Pescadores"
     },
     {
       "name": "Queijadas da Sapa",
@@ -2947,7 +3074,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Sabah kahvaltısı için erken gitmekte fayda var, taze kruvasanlar bitiyor.",
       "tips_en": "Go early for breakfast, fresh croissants run out.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Queijadas da Sapa"
     },
     {
       "name": "Queluz National Palace",
@@ -2968,7 +3096,8 @@
       "id": "queluz-national-palace",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/queluz-national-palace.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Queluz National Palace"
     },
     {
       "name": "Quinta da Amizade",
@@ -2989,7 +3118,8 @@
       "id": "quinta-da-amizade",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/quinta-da-amizade.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Quinta da Amizade"
     },
     {
       "name": "Quinta da Regaleira",
@@ -3032,7 +3162,8 @@
       "id": "quinta-da-ribafria",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/quinta-da-ribafria.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Quinta da Ribafria"
     },
     {
       "name": "Quinta da Vigia",
@@ -3053,7 +3184,8 @@
       "id": "quinta-da-vigia",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/quinta-da-vigia.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Quinta da Vigia"
     },
     {
       "name": "Quinta do Relógio",
@@ -3074,7 +3206,8 @@
       "id": "quinta-do-relogio",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/quinta_do_relogio.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Quinta do Relógio"
     },
     {
       "name": "Quinta dos Pisões",
@@ -3095,7 +3228,8 @@
       "id": "quinta-dos-pisoes",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/quinta-dos-pisoes.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Quinta dos Pisões"
     },
     {
       "name": "Quintinha de Monserrate",
@@ -3116,7 +3250,8 @@
       "id": "quintinha-de-monserrate",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/quintinha-de-monserrate.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Quintinha de Monserrate"
     },
     {
       "name": "Ramalhão Palace",
@@ -3137,7 +3272,8 @@
       "id": "ramalhao-palace",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/ramalho_palace.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Ramalhão Palace"
     },
     {
       "name": "Refúgio do Ciclista",
@@ -3158,7 +3294,8 @@
       "id": "refugio-do-ciclista",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/refugio-do-ciclista.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Refúgio do Ciclista"
     },
     {
       "name": "Restaurante Regional de Sintra",
@@ -3179,7 +3316,8 @@
       "id": "restaurante-regional-de-sintra",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/restaurante-regional-de-sintra.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Restaurante Regional de Sintra"
     },
     {
       "name": "Rio da Mula",
@@ -3200,7 +3338,8 @@
       "id": "rio-da-mula",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/rio-da-mula.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Rio da Mula"
     },
     {
       "name": "Romaria de Baco",
@@ -3221,7 +3360,8 @@
       "id": "romaria-de-baco",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/romaria-de-baco.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Romaria de Baco"
     },
     {
       "name": "Rua das Padarias",
@@ -3243,7 +3383,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Pazar günleri kapalı olabilir, kontrol edin.",
       "tips_en": "Might be closed on Sundays, do check.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Rua das Padarias"
     },
     {
       "name": "Sanctuary of Peninha Viewpoint",
@@ -3264,7 +3405,8 @@
       "id": "sanctuary-of-peninha-viewpoint",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/sanctuary-of-peninha-viewpoint.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Sanctuary of Peninha Viewpoint"
     },
     {
       "name": "Santa Marta Lighthouse Museum",
@@ -3285,7 +3427,8 @@
       "id": "santa-marta-lighthouse-museum",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/santa-marta-lighthouse-museum.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Santa Marta Lighthouse Museum"
     },
     {
       "name": "Santuario da Peninha",
@@ -3306,7 +3449,8 @@
       "id": "santuario-da-peninha",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/santuario-da-peninha.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Santuario da Peninha"
     },
     {
       "name": "Seteais Palace",
@@ -3327,7 +3471,8 @@
       "tips": "Rehberli turla gezmek detayları anlamak için çok daha verimli.",
       "tips_en": "A guided tour is much more efficient to understand the details.",
       "description_en": "Lüks bir otele dönüştürülmüş neoklasik saray. A unique treasure for history buffs, this andnue captivates visitors with details that shed light on the past. An ideal stop for those wishing to embark on a cultural journey.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Seteais Palace"
     },
     {
       "name": "Sintra Artisan Market",
@@ -3349,7 +3494,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Pazar günleri kapalı olabilir, kontrol edin.",
       "tips_en": "Might be closed on Sundays, do check.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Sintra Artisan Market"
     },
     {
       "name": "Sintra Bazaar",
@@ -3370,7 +3516,8 @@
       "id": "sintra-bazaar",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/sintra-bazaar.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Sintra Bazaar"
     },
     {
       "name": "Sintra National Palace",
@@ -3391,7 +3538,8 @@
       "tips": "Müze kartınız varsa girişte sıra beklemezsiniz.",
       "tips_en": "You skip the line if you have a museum pass.",
       "description_en": "İkonik konik bacalarıyla şehir merkezindeki saray. A unique treasure for history buffs, this andnue captivates visitors with details that shed light on the past. An ideal stop for those wishing to embark on a cultural journey.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Sintra National Palace"
     },
     {
       "name": "Sintra Terrace",
@@ -3412,7 +3560,8 @@
       "id": "sintra-terrace",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/sintra-terrace.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Sintra Terrace"
     },
     {
       "name": "Sintra Tram",
@@ -3434,7 +3583,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Grup indirimi olup olmadığını sorun.",
       "tips_en": "Ask if there is a group discount.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Sintra Tram"
     },
     {
       "name": "Sobreiro",
@@ -3455,7 +3605,8 @@
       "id": "sobreiro",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/sobreiro.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Sobreiro"
     },
     {
       "name": "Tacho Real",
@@ -3476,7 +3627,8 @@
       "id": "tacho-real",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/tacho-real.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Tacho Real"
     },
     {
       "name": "Tapada Nacional de Mafra",
@@ -3497,7 +3649,8 @@
       "id": "tapada-nacional-de-mafra",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/tapada-nacional-de-mafra.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Tapada Nacional de Mafra"
     },
     {
       "name": "Tapada das Necessidades",
@@ -3518,7 +3671,8 @@
       "id": "tapada-das-necessidades",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/tapada-das-necessidades.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Tapada das Necessidades"
     },
     {
       "name": "Tasca do Xico",
@@ -3539,7 +3693,8 @@
       "id": "tasca-do-xico",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/tasca-do-xico.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Tasca do Xico"
     },
     {
       "name": "Tascantiga",
@@ -3586,7 +3741,8 @@
       "id": "tholos-do-monge",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/tholos-do-monge.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Tholos do Monge"
     },
     {
       "name": "Toca do Javali",
@@ -3607,7 +3763,8 @@
       "id": "toca-do-javali",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/toca-do-javali.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Toca do Javali"
     },
     {
       "name": "Valenças Palace",
@@ -3628,7 +3785,8 @@
       "id": "valencas-palace",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/valencas-palace.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Valenças Palace"
     },
     {
       "name": "Valley of Lakes",
@@ -3673,7 +3831,8 @@
       "id": "vigia-da-urca",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/vigia_da_urca.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Vigia da Urca"
     },
     {
       "name": "Vila Sassetti",
@@ -3719,7 +3878,8 @@
       "id": "volta-do-duche",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/volta-do-duche.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Volta do Duche"
     },
     {
       "name": "Wine Tasting in Colares",
@@ -3741,7 +3901,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Ev yapımı şaraplarını denemeden dönmeyin.",
       "tips_en": "Don't leave without trying their house wines.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Wine Tasting in Colares"
     },
     {
       "name": "Pena Gardens",

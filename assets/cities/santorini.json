@@ -457,7 +457,8 @@
       "tips": "Biletinizi online alarak gişe sırasından kurtulun.",
       "tips_en": "Buy tickets online to skip the box office line.",
       "description_en": "Yunanistan'ın Pompeii'si, volkan külleri altında kalmış antik kent. A must-see for art and history loandrs, this museum stands out with its rich collection. The exhibited works will allow you to deeply understand the region's cultural heritage.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Akrotiri Archaeological Site"
     },
     {
       "name": "Akrotiri Excavations",
@@ -669,7 +670,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Akşam yemeği için rezervasyon yaptırmak şart.",
       "tips_en": "Reservation is a must for dinner.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Amoudi Bay Taverns"
     },
     {
       "name": "Anastasi Church",
@@ -715,7 +717,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Rehberli turla gezmek detayları anlamak için çok daha verimli.",
       "tips_en": "A guided tour is much more efficient to understand the details.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Ancient Thera"
     },
     {
       "name": "Ancient Thera Road",
@@ -1193,7 +1196,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Gün batımından 30 dakika önce gelip yerinizi alın, manzara muazzam.",
       "tips_en": "Arrive 30 mins before sunset to secure a spot, the view is magnificent.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Catamaran Cruise"
     },
     {
       "name": "Catholic Cathedral of St. John",
@@ -1676,7 +1680,7 @@
       "source": "firebase"
     },
     {
-      "name": "Fira - Oia Hike",
+      "name": "Fira",
       "category": "Deneyim",
       "tags": [
         "hike",
@@ -1838,7 +1842,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Sabah kahvaltısı için erken gitmekte fayda var, taze kruvasanlar bitiyor.",
       "tips_en": "Go early for breakfast, fresh croissants run out.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Galini Café"
     },
     {
       "name": "Gavalas Winery",
@@ -1983,7 +1988,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Grup indirimi olup olmadığını sorun.",
       "tips_en": "Ask if there is a group discount.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Hot Springs"
     },
     {
       "name": "Icon Museum",
@@ -2010,7 +2016,7 @@
       "distanceFromCenter": 1.0
     },
     {
-      "name": "Imerovigli Viewpoint",
+      "name": "Imerovigli",
       "category": "Deneyim",
       "tags": [
         "village",
@@ -2076,7 +2082,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Sabah koşusu veya yoga yapan yerlileri görebilirsiniz.",
       "tips_en": "You can see locals jogging or doing yoga in the morning.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Kamari Beach"
     },
     {
       "name": "Kambia Beach",
@@ -2409,7 +2416,8 @@
       "bestTime": "09:00 - 18:00",
       "bestTime_en": "09:00 - 18:00",
       "tips": "Öğle yemeği menüleri genellikle akşamdan daha uygundur.",
-      "tips_en": "Lunch menus are usually cheaper than dinner."
+      "tips_en": "Lunch menus are usually cheaper than dinner.",
+      "name_en": "Lucky's Souvlaki"
     },
     {
       "name": "Mama Thira",
@@ -2598,7 +2606,8 @@
       "tips": "Yerel şarapları denemenizi öneririz.",
       "tips_en": "We recommend trying local wines.",
       "description_en": "Oia'da lezzetli meze and tapaslar. A great option to taste local flavors and spend a pleasant eandning. It offers an unforgettable experience appealing to your palate with its friendly atmosphere and quality service.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Melitini"
     },
     {
       "name": "Metaxi Mas",
@@ -2619,7 +2628,8 @@
       "tips": "Nakite hazırlıklı olun, bazı yerel yerler kart kabul etmeyebilir.",
       "tips_en": "Be prepared with cash, some local places might not accept cards.",
       "description_en": "Yerel halkın favorisi gizli bir taandrna. A great option to taste local flavors and spend a pleasant eandning. It offers an unforgettable experience appealing to your palate with its friendly atmosphere and quality service.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Metaxi Mas"
     },
     {
       "name": "Meteor Cafe",
@@ -2808,7 +2818,8 @@
       "tips": "Biletinizi online alarak gişe sırasından kurtulun.",
       "tips_en": "Buy tickets online to skip the box office line.",
       "description_en": "Adanın tarih öncesi dönemine ait eserler. A must-see for art and history loandrs, this museum stands out with its rich collection. The exhibited works will allow you to deeply understand the region's cultural heritage.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Museum of Prehistoric Thera"
     },
     {
       "name": "Naoussa Restaurant",
@@ -2925,7 +2936,8 @@
       "tips": "Gün batımı için en popüler nokta, iyi bir yer kapmak için en az 1.5 saat önce gitmelisiniz.",
       "tips_en": "The most popular spot for sunset; arrive at least 1.5 hours early to secure a good spot.",
       "description_en": "Home to one of the world's most famous sunset views, Oia Castle welcomes thousands of visitors eandry eandning. The orange and pink hues of the sun setting oandr the endless blue of the Aegean Sea offer an unforgettable visual feast.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Oia Castle"
     },
     {
       "name": "Oia Hediyelik Dükkanları",
@@ -3019,7 +3031,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Gün batımından 30 dakika önce gelip yerinizi alın, manzara muazzam.",
       "tips_en": "Arrive 30 mins before sunset to secure a spot, the view is magnificent.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "PK Cocktail Bar"
     },
     {
       "name": "Palea Kameni",
@@ -3496,7 +3509,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Fotoğraf çekimi için en iyi ışık gün batımına yakındır.",
       "tips_en": "Best light for photography is near sunset.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Pyrgos Village"
     },
     {
       "name": "Red Beach",
@@ -3517,7 +3531,8 @@
       "tips": "Yanınıza bir örtü alıp çimlerde piknik yapabilirsiniz.",
       "tips_en": "Bring a blanket and have a picnic on the grass.",
       "description_en": "With its volcanic red cliffs and dark sands, this is one of Santorini's most striking beaches. Located near the ancient site of Akrotiri, it is a unique natural beauty offering both history and seaside enjoyment.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Red Beach"
     },
     {
       "name": "Resurrection of the Lord",
@@ -3801,7 +3816,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Akşam yemeği için rezervasyon yaptırmak şart.",
       "tips_en": "Reservation is a must for dinner.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Selene"
     },
     {
       "name": "Skaros Rock",
@@ -3823,7 +3839,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Su ve rahat ayakkabı almayı kesinlikle unutmayın.",
       "tips_en": "Definitely don't forget water and comfortable shoes.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Skaros Rock"
     },
     {
       "name": "Sun Spirit",
@@ -3988,7 +4005,8 @@
       "tips": "Gün doğumu burada büyüleyicidir, uykunuzdan feragat etmeye değer.",
       "tips_en": "Sunrise is magical here, worth sacrificing sleep.",
       "description_en": "Mavi kubbeli ikonik kilise manzarası. Offering one of the most impressiand views of the city, this spot is a paradise for photography enthusiasts. The colors it takes on, especially at sunset, provide a visual feast for visitors.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Three Bells of Fira"
     },
     {
       "name": "To Psaraki",
@@ -4202,7 +4220,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Gün batımından 30 dakika önce gelip yerinizi alın, manzara muazzam.",
       "tips_en": "Arrive 30 mins before sunset to secure a spot, the view is magnificent.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Venetsanos Winery"
     },
     {
       "name": "Vlihada Beach",
@@ -4248,7 +4267,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Su ve rahat ayakkabı almayı kesinlikle unutmayın.",
       "tips_en": "Definitely don't forget water and comfortable shoes.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Volcano Hike"
     },
     {
       "name": "Volkan on the Rocks",
@@ -4342,7 +4362,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Yürüyüş ayakkabısı giymeniz önerilir.",
       "tips_en": "Walking shoes are recommended.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "White Beach"
     },
     {
       "name": "Wine Museum Koutsogiannopoulos",

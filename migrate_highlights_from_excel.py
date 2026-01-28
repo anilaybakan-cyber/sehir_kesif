@@ -65,6 +65,12 @@ def main():
                     # Update fields
                     h['category'] = str(row['Category'])
                     h['description'] = str(row['Description_TR'])
+                    
+                    # Update Name EN if missing or changed
+                    raw_name_en = str(row['Name_EN'])
+                    if "Müze Island" in raw_name_en: raw_name_en = raw_name_en.replace("Müze Island", "Museum Island")
+                    h['name_en'] = raw_name_en
+
                     if 'Description_EN' in row and pd.notna(row['Description_EN']):
                         h['description_en'] = str(row['Description_EN'])
                     

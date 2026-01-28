@@ -60,7 +60,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/7_mehmet.jpg",
       "tips": "Yerel şarapları denemenizi öneririz.",
       "description_en": "The flagship of Antalya gastronomy, 7 Mehmet masterfully works with seasonal and local ingredients. A must-visit for authentic Turkish cuisine.",
-      "tips_en": "We recommend trying local wines."
+      "tips_en": "We recommend trying local wines.",
+      "name_en": "7 Mehmet"
     },
     {
       "id": "7-mehmet-restoran",
@@ -581,7 +582,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/aspendos_antik_tiyatrosu.jpg",
       "tips": "Yapı içerisindeki akustik harika, sessizliği dinleyin.",
       "description_en": "One of the best-preserved Roman theaters in the world. Still hosts opera and ballet performances with perfect acoustics after 2000 years.",
-      "tips_en": "The acoustics inside satisfy; listen to the silence."
+      "tips_en": "The acoustics inside satisfy; listen to the silence.",
+      "name_en": "Aspendos Antik Tiyatrosu"
     },
     {
       "name": "Atatürk Evi Müzesi",
@@ -854,7 +856,8 @@
       "tips": "Akşam yemeği için rezervasyon yaptırmak şart.",
       "description_en": "A notable destination in Antalya offering unique experiences and memorable moments.",
       "tips_en": "Reservation is a must for dinner.",
-      "area_en": "Center"
+      "area_en": "Center",
+      "name_en": "Börekçi Tevfik"
     },
     {
       "name": "Cafe Terra",
@@ -1240,7 +1243,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/duden_selalesi_yukari.jpg",
       "tips": "Yürüyüş ayakkabısı giymeniz önerilir.",
       "description_en": "Spectacular waterfall surrounded by lush greenery, perfect for nature lovers.",
-      "tips_en": "Walking shoes are recommended."
+      "tips_en": "Walking shoes are recommended.",
+      "name_en": "Düden Waterfall (Yukarı)"
     },
     {
       "name": "Falez Kafeleri",
@@ -1389,7 +1393,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/hadrian_kapisi_uc_kapilar.jpg",
       "tips": "Müze kartınız varsa girişte sıra beklemezsiniz.",
       "description_en": "Historic site showcasing the rich ancient heritage of the Antalya region.",
-      "tips_en": "You skip the line if you have a museum pass."
+      "tips_en": "You skip the line if you have a museum pass.",
+      "name_en": "Hadrian Kapısı (Üç Kapılar)"
     },
     {
       "name": "Hasanağa Restaurant",
@@ -1463,7 +1468,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/hidirlik_kulesi.jpg",
       "tips": "Fotoğraf çekimi için en iyi ışık gün batımına yakındır.",
       "description_en": "Ancient Roman tower offering panoramic views over the bay and old marina. Perfect spot for sunset photography.",
-      "tips_en": "Best light for photography is near sunset."
+      "tips_en": "Best light for photography is near sunset.",
+      "name_en": "Hıdırlık Tower"
     },
     {
       "name": "Jeep Safari Toros Dağları",
@@ -1516,7 +1522,8 @@
       "tips": "Fotoğraf makinenizin şarjının dolu olduğundan emin olun.",
       "description_en": "A culinary destination in Antalya offering authentic local flavors and memorable dining experience.",
       "tips_en": "Make sure your camera battery is full.",
-      "area_en": "Center"
+      "area_en": "Center",
+      "name_en": "Kaleiçi"
     },
     {
       "id": "kaleici-bazaar",
@@ -1800,7 +1807,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/kaputas_plaji.jpg",
       "tips": "Rüzgarlı olabilir, yanınıza ince bir ceket alın.",
       "description_en": "One of Turkey's most photographed beaches. Turquoise waters embraced by dramatic cliffs, accessed by steep stairs.",
-      "tips_en": "It can be windy, bring a light jacket."
+      "tips_en": "It can be windy, bring a light jacket.",
+      "name_en": "Kaputaş Beach"
     },
     {
       "name": "Karaali Parkı",
@@ -2071,7 +2079,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/kesik_minare_korkut_camii.jpg",
       "tips": "Müze kartınız varsa girişte sıra beklemezsiniz.",
       "description_en": "Historic site showcasing the rich ancient heritage of the Antalya region.",
-      "tips_en": "You skip the line if you have a museum pass."
+      "tips_en": "You skip the line if you have a museum pass.",
+      "name_en": "Kesik Minare (Korkut Mosque)"
     },
     {
       "id": "kesik-minare-camii",
@@ -2097,7 +2106,7 @@
     },
     {
       "id": "kleopatra-plaji",
-      "name": "Kleopatra Plajı",
+      "name": "Kleopatra Plajı (Alanya)",
       "name_en": "Cleopatra Beach",
       "description": "Efsaneye göre Mısır Kraliçesi Kleopatra'nın yüzdüğü ve kumu özel olarak getirilen plaj. Berrak turkuaz suları, altın sarısı kumu ve hemen tepesindeki Alanya Kalesi manzarasıyla dünyaca ünlüdür.",
       "description_en": "Beautiful beach destination with crystal-clear Mediterranean waters and stunning coastal scenery.",
@@ -2128,7 +2137,7 @@
         "kumsal"
       ],
       "distanceFromCenter": 130.0,
-      "lat": 36.545,
+      "lat": 36545.0,
       "lng": 31.99,
       "price": "free",
       "rating": 4.7,
@@ -2267,7 +2276,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/kursunlu_selalesi.png",
       "tips": "Yanınıza bir örtü alıp çimlerde piknik yapabilirsiniz.",
       "description_en": "A hidden paradise waterfall in a fairy-tale forest setting. Natural pools, walking trails, and abundant wildlife.",
-      "tips_en": "Bring a blanket and have a picnic on the grass."
+      "tips_en": "Bring a blanket and have a picnic on the grass.",
+      "name_en": "Kurşunlu Waterfall"
     },
     {
       "name": "Köprülü Kanyon",
@@ -2294,7 +2304,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/koprulu_kanyon.jpg",
       "tips": "Hafta içi ziyaret etmek daha sakin bir deneyim sunar.",
       "description_en": "Spectacular canyon perfect for rafting and canyoning. Ancient Roman bridge spans the emerald green river.",
-      "tips_en": "Visiting on weekdays offers a calmer experience."
+      "tips_en": "Visiting on weekdays offers a calmer experience.",
+      "name_en": "Köprülü Kanyon"
     },
     {
       "name": "Künefe Evi",
@@ -2452,7 +2463,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/lara_plaji.jpg",
       "tips": "Gün doğumu burada büyüleyicidir, uykunuzdan feragat etmeye değer.",
       "description_en": "Long sandy beach lined with luxury resorts. Known for all-inclusive hotels and beach clubs.",
-      "tips_en": "Sunrise is magical here, worth sacrificing sleep."
+      "tips_en": "Sunrise is magical here, worth sacrificing sleep.",
+      "name_en": "Lara Beach"
     },
     {
       "name": "Lara Tantuni",
@@ -2605,7 +2617,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/manavgat_selalesi.jpg",
       "tips": "Gün doğumu burada büyüleyicidir, uykunuzdan feragat etmeye değer.",
       "description_en": "Wide and powerful waterfall on the Manavgat River. Surrounding park with restaurants and riverside cafes.",
-      "tips_en": "Sunrise is magical here, worth sacrificing sleep."
+      "tips_en": "Sunrise is magical here, worth sacrificing sleep.",
+      "name_en": "Manavgat Waterfall"
     },
     {
       "name": "Mark Antalya AVM",
@@ -2966,7 +2979,8 @@
       "tips": "Öğle yemeği menüleri genellikle akşamdan daha uygundur.",
       "description_en": "Vibrant nightlife venue in Antalya with great drinks, music, and entertainment.",
       "tips_en": "Lunch menus are usually cheaper than dinner.",
-      "area_en": "Center"
+      "area_en": "Center",
+      "name_en": "Paçacı Şemsi"
     },
     {
       "name": "Perge Antik Kenti",
@@ -3049,7 +3063,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/phaselis_antik_kenti.jpg",
       "tips": "Sabah erken saatlerde giderek turist kalabalığından kaçınabilirsiniz.",
       "description_en": "Ancient port city set on three scenic bays. Pine-shaded ruins perfect for combining history with swimming.",
-      "tips_en": "Go early in the morning to avoid tourist crowds."
+      "tips_en": "Go early in the morning to avoid tourist crowds.",
+      "name_en": "Phaselis Antik Kenti"
     },
     {
       "name": "Pio Gastro Bar & Bistro",
@@ -3076,7 +3091,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/pio_gastro_bar_and_bistro.jpg",
       "tips": "Akşam yemeği için rezervasyon yaptırmak şart.",
       "description_en": "Vibrant nightlife venue in Antalya with great drinks, music, and entertainment.",
-      "tips_en": "Reservation is a must for dinner."
+      "tips_en": "Reservation is a must for dinner.",
+      "name_en": "Pio Gastro Bar & Bistro"
     },
     {
       "name": "Piyaz Evi",
@@ -3761,7 +3777,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/termessos_antik_kenti.jpg",
       "tips": "Yapı içerisindeki akustik harika, sessizliği dinleyin.",
       "description_en": "The 'Eagle's Nest' - an unconquered ancient city at 1000m altitude among dramatic mountains.",
-      "tips_en": "The acoustics inside satisfy; listen to the silence."
+      "tips_en": "The acoustics inside satisfy; listen to the silence.",
+      "name_en": "Termessos Antik Kenti"
     },
     {
       "name": "TerraCity AVM",
@@ -3813,7 +3830,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/the_castle_cafe_and_bistro.jpg",
       "tips": "Çevredeki küçük hediyelik eşya dükkanlarına da uğrayın.",
       "description_en": "Popular cafe in Antalya known for its quality coffee, relaxed atmosphere, and friendly service.",
-      "tips_en": "Stop by the small souvenir shops around."
+      "tips_en": "Stop by the small souvenir shops around.",
+      "name_en": "The Castle Cafe & Bistro"
     },
     {
       "name": "Tophane (Tersane)",
@@ -3912,7 +3930,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/vanilla.png",
       "tips": "Nakite hazırlıklı olun, bazı yerel yerler kart kabul etmeyebilir.",
       "description_en": "Historic site showcasing the rich ancient heritage of the Antalya region.",
-      "tips_en": "Be prepared with cash, some local places might not accept cards."
+      "tips_en": "Be prepared with cash, some local places might not accept cards.",
+      "name_en": "Vanilla"
     },
     {
       "id": "vanilla-lounge",
@@ -3986,7 +4005,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/yanartas_chimaera.jpg",
       "tips": "Hafta içi ziyaret etmek daha sakin bir deneyim sunar.",
       "description_en": "Vibrant nightlife venue in Antalya with great drinks, music, and entertainment.",
-      "tips_en": "Visiting on weekdays offers a calmer experience."
+      "tips_en": "Visiting on weekdays offers a calmer experience.",
+      "name_en": "Yanartaş (Chimaera)"
     },
     {
       "name": "Yivli Minare",
@@ -4013,7 +4033,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/yivli_minare.jpg",
       "tips": "Yapı içerisindeki akustik harika, sessizliği dinleyin.",
       "description_en": "The iconic 13th-century fluted minaret, symbol of Antalya. Landmark visible from anywhere in the old town.",
-      "tips_en": "The acoustics inside satisfy; listen to the silence."
+      "tips_en": "The acoustics inside satisfy; listen to the silence.",
+      "name_en": "Yivli Minare"
     },
     {
       "name": "Çıralı Plajı",

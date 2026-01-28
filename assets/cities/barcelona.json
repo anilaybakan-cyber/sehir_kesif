@@ -33,7 +33,8 @@
       "tips": "Yerel şarapları denemenizi öneririz.",
       "description_en": "Legendary seafood restaurant serving since 1836. Known for its paella and traditional Catalan cuisine. Icon of Barceloneta.",
       "tips_en": "We recommend trying local wines.",
-      "bestTime_en": "Lunch"
+      "bestTime_en": "Lunch",
+      "name_en": "7 Portes"
     },
     {
       "id": "gen_ChIJZ45huwCjpBIRA2de0hBdZAg",
@@ -57,7 +58,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Şefin spesiyal tabağını sormaktan çekinmeyin.",
-      "tips_en": "Don't hesitate to ask for the chef's special."
+      "tips_en": "Don't hesitate to ask for the chef's special.",
+      "name_en": "ABANIC"
     },
     {
       "name": "ABaC",
@@ -84,7 +86,8 @@
       "tips": "Yerel şarapları denemenizi öneririz.",
       "description_en": "Chef Jordi Cruz's 3 Michelin-starred fine dining restaurant. Pinnacle of Catalan haute cuisine with creative tasting menus.",
       "tips_en": "We recommend trying local wines.",
-      "bestTime_en": "Dinner"
+      "bestTime_en": "Dinner",
+      "name_en": "ABaC"
     },
     {
       "id": "gen_ChIJG8EPnV6jpBIRVxO-Gm4lWl0",
@@ -108,7 +111,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Google Maps yorumlarına göz atarak ne yiyeceğinize karar verin.",
-      "tips_en": "Decide what to eat by checking Google Maps reviews."
+      "tips_en": "Decide what to eat by checking Google Maps reviews.",
+      "name_en": "AYAME Pastisseria Japonesa"
     },
     {
       "id": "gen_ChIJPXuu11-ZpBIRXo7wTS2MwR0",
@@ -157,7 +161,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Çevredeki küçük hediyelik eşya dükkanlarına da uğrayın.",
-      "tips_en": "Stop by the small souvenir shops around."
+      "tips_en": "Stop by the small souvenir shops around.",
+      "name_en": "Al Arabiya Restaurant & Cafe"
     },
     {
       "id": "gen_ChIJuSucRvmjpBIR_y46jUvkZCw",
@@ -181,7 +186,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Şefin spesiyal tabağını sormaktan çekinmeyin.",
-      "tips_en": "Don't hesitate to ask for the chef's special."
+      "tips_en": "Don't hesitate to ask for the chef's special.",
+      "name_en": "Aldea Cocktail Bar"
     },
     {
       "name": "Antic Teatre",
@@ -208,7 +214,8 @@
       "tips": "Çevredeki küçük hediyelik eşya dükkanlarına da uğrayın.",
       "description_en": "An alternative cultural space with a magical outdoor bar terrace, live performances, and independent shows.",
       "tips_en": "Stop by the small souvenir shops around.",
-      "bestTime_en": "Evening"
+      "bestTime_en": "Evening",
+      "name_en": "Antic Teatre"
     },
     {
       "id": "gen_ChIJ4zScjHejpBIRLLM6qL401Zw",
@@ -232,7 +239,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Şefin spesiyal tabağını sormaktan çekinmeyin.",
-      "tips_en": "Don't hesitate to ask for the chef's special."
+      "tips_en": "Don't hesitate to ask for the chef's special.",
+      "name_en": "Artesano Panadería y Pastelería"
     },
     {
       "id": "gen_ChIJbb4rMZSjpBIRJLW2ravIHZU",
@@ -256,7 +264,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Çevredeki küçük hediyelik eşya dükkanlarına da uğrayın.",
-      "tips_en": "Stop by the small souvenir shops around."
+      "tips_en": "Stop by the small souvenir shops around.",
+      "name_en": "Asun Brunch & Bakery Barcelona"
     },
     {
       "id": "gen_ChIJo3waD_-jpBIRgZOQPvUhv8g",
@@ -280,7 +289,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Google Maps yorumlarına göz atarak ne yiyeceğinize karar verin.",
-      "tips_en": "Decide what to eat by checking Google Maps reviews."
+      "tips_en": "Decide what to eat by checking Google Maps reviews.",
+      "name_en": "Austral Coffee Bar"
     },
     {
       "id": "gen_ChIJ03aWNACjpBIRhDX9Zb9g-LI",
@@ -304,7 +314,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Yerel şarapları denemenizi öneririz.",
-      "tips_en": "We recommend trying local wines."
+      "tips_en": "We recommend trying local wines.",
+      "name_en": "BAR ROSA BARCELONA"
     },
     {
       "id": "gen_ChIJt5ayg9ujpBIRB-x8NP5gU0k",
@@ -328,7 +339,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Yerel halkın favori noktalarından biri.",
-      "tips_en": "One of the favorite spots of the locals."
+      "tips_en": "One of the favorite spots of the locals.",
+      "name_en": "BLACKBIRD Coffee Corner"
     },
     {
       "id": "gen_ChIJef1HPBWjpBIRnbC1J-cB5W8",
@@ -352,7 +364,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Öğle yemeği menüleri genellikle akşamdan daha uygundur.",
-      "tips_en": "Lunch menus are usually cheaper than dinner."
+      "tips_en": "Lunch menus are usually cheaper than dinner.",
+      "name_en": "BODEGA OLIVA"
     },
     {
       "id": "gen_ChIJCVgmm52jpBIRdJ87YMcZs1g",
@@ -376,7 +389,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Akşam yemeği için rezervasyon yaptırmak şart.",
-      "tips_en": "Reservation is a must for dinner."
+      "tips_en": "Reservation is a must for dinner.",
+      "name_en": "BRASA GAUCHA GRILL"
     },
     {
       "id": "gen_ChIJiRWw0MqjpBIRZXx4p1dnAck",
@@ -400,7 +414,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Öğle yemeği menüleri genellikle akşamdan daha uygundur.",
-      "tips_en": "Lunch menus are usually cheaper than dinner."
+      "tips_en": "Lunch menus are usually cheaper than dinner.",
+      "name_en": "Back to back Cafè d'Especialitat"
     },
     {
       "name": "Bar Bodega Quimet",
@@ -427,7 +442,8 @@
       "tips": "Yerel halkın favori noktalarından biri.",
       "description_en": "Authentic tapas bar keeping traditional bodega spirit alive, famous for award-winning homemade vermouth and quality canned goods (conservas). Montaditos varieties are great.",
       "tips_en": "One of the favorite spots of the locals.",
-      "bestTime_en": "Afternoon"
+      "bestTime_en": "Afternoon",
+      "name_en": "Bar Bodega Quimet"
     },
     {
       "name": "Bar Calders",
@@ -454,7 +470,8 @@
       "tips": "Yerel şarapları denemenizi öneririz.",
       "description_en": "A popular local bar in Sant Antoni known for vermouth, tapas, and its lively terrace.",
       "tips_en": "We recommend trying local wines.",
-      "bestTime_en": "Afternoon"
+      "bestTime_en": "Afternoon",
+      "name_en": "Bar Calders"
     },
     {
       "name": "Bar Cañete",
@@ -481,7 +498,8 @@
       "tips": "Şefin spesiyal tabağını sormaktan çekinmeyin.",
       "description_en": "Lively bar near La Rambla famous for fresh seafood and Catalan tapas. 'Fritura de pescado' and paella are must-try. Sitting at the bar counter is recommended.",
       "tips_en": "Don't hesitate to ask for the chef's special.",
-      "bestTime_en": "Evening"
+      "bestTime_en": "Evening",
+      "name_en": "Bar Cañete"
     },
     {
       "name": "Bar del Pla",
@@ -508,7 +526,8 @@
       "tips": "Şefin spesiyal tabağını sormaktan çekinmeyin.",
       "description_en": "Friendly spot in El Born serving traditional tapas with modern interpretations. Mushroom carpaccio and octopus are favorites. Natural wine selection is impressive.",
       "tips_en": "Don't hesitate to ask for the chef's special.",
-      "bestTime_en": "Evening"
+      "bestTime_en": "Evening",
+      "name_en": "Bar del Pla"
     },
     {
       "name": "Barcelona Aquarium",
@@ -535,7 +554,8 @@
       "tips": "Sesli rehber (audio guide) kiralamak deneyimi ikiye katlar.",
       "description_en": "One of Europe's largest aquariums with a spectacular oceanarium and glass tunnel with sharks.",
       "tips_en": "Renting an audio guide doubles the experience.",
-      "bestTime_en": "Morning"
+      "bestTime_en": "Morning",
+      "name_en": "Barcelona Aquarium"
     },
     {
       "name": "Barcelona Zoo",
@@ -562,7 +582,8 @@
       "tips": "Yanınıza bir örtü alıp çimlerde piknik yapabilirsiniz.",
       "description_en": "Aksiyon and eğlence dolu bir gün geçirmek isteyenler için Barcelona Zoo ideal. Çeşitli aktiviteleri and enerjik atmosferiyle Ciutadella'nın en popüler noktalarından.",
       "tips_en": "Bring a blanket and have a picnic on the grass.",
-      "bestTime_en": "Morning"
+      "bestTime_en": "Morning",
+      "name_en": "Barcelona Zoo"
     },
     {
       "name": "Barceloneta Mahallesi",
@@ -643,7 +664,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Yerel halkın favori noktalarından biri.",
-      "tips_en": "One of the favorite spots of the locals."
+      "tips_en": "One of the favorite spots of the locals.",
+      "name_en": "Bari Coffee"
     },
     {
       "id": "gen_ChIJDV6I8mCjpBIRbb3utMnYKp4",
@@ -667,7 +689,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Yerel halkın favori noktalarından biri.",
-      "tips_en": "One of the favorite spots of the locals."
+      "tips_en": "One of the favorite spots of the locals.",
+      "name_en": "Bendito Café de especialidad | Brunch Barcelona"
     },
     {
       "id": "gen_ChIJBT4bqlqjpBIRF3a4gqRVY2Y",
@@ -691,7 +714,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Çevredeki küçük hediyelik eşya dükkanlarına da uğrayın.",
-      "tips_en": "Stop by the small souvenir shops around."
+      "tips_en": "Stop by the small souvenir shops around.",
+      "name_en": "Bestiari"
     },
     {
       "name": "Bike Tour Barcelona",
@@ -719,7 +743,8 @@
       "description_en": "Explore Barcelona by bike with guided tours covering the main sights and hidden gems of the city.",
       "tips_en": "Don't hesitate to ask the guide questions, they know interesting stories.",
       "bestTime_en": "Morning",
-      "area_en": "Center"
+      "area_en": "Center",
+      "name_en": "Bike Tour Barcelona"
     },
     {
       "id": "gen_ChIJ99-fqTujpBIR_1f5H30YaQo",
@@ -743,7 +768,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Şefin spesiyal tabağını sormaktan çekinmeyin.",
-      "tips_en": "Don't hesitate to ask for the chef's special."
+      "tips_en": "Don't hesitate to ask for the chef's special.",
+      "name_en": "Bistro Sagrada"
     },
     {
       "name": "Bitter Cocktail Bar",
@@ -770,7 +796,8 @@
       "tips": "Akşam yemeği için rezervasyon yaptırmak şart.",
       "description_en": "An intimate cocktail bar in Gràcia specializing in bitters and creative cocktails.",
       "tips_en": "Reservation is a must for dinner.",
-      "bestTime_en": "Evening"
+      "bestTime_en": "Evening",
+      "name_en": "Bitter Cocktail Bar"
     },
     {
       "id": "gen_ChIJz03MMYCjpBIRe1oNMf6VJOM",
@@ -794,7 +821,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Yerel şarapları denemenizi öneririz.",
-      "tips_en": "We recommend trying local wines."
+      "tips_en": "We recommend trying local wines.",
+      "name_en": "Bloome By Sasha | Brunch Sin Gluten Gótico"
     },
     {
       "name": "Boadas Cocktails",
@@ -822,7 +850,8 @@
       "tips": "Hafta içi ziyaret etmek daha sakin bir deneyim sunar.",
       "description_en": "Barcelona's oldest cocktail bar, serving since 1933. It will take you on a journey through time with its classic cocktails and historic atmosphere.",
       "tips_en": "Visiting on weekdays offers a calmer experience.",
-      "bestTime_en": "Late afternoon"
+      "bestTime_en": "Late afternoon",
+      "name_en": "Boadas Cocktails"
     },
     {
       "id": "gen_ChIJA-c18FeipBIRw8n-UGwjVLk",
@@ -846,7 +875,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Yerel şarapları denemenizi öneririz.",
-      "tips_en": "We recommend trying local wines."
+      "tips_en": "We recommend trying local wines.",
+      "name_en": "Bodega Biarritz 1881"
     },
     {
       "name": "Bogatell Plajı",
@@ -901,7 +931,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Yerel halkın favori noktalarından biri.",
-      "tips_en": "One of the favorite spots of the locals."
+      "tips_en": "One of the favorite spots of the locals.",
+      "name_en": "Botanicus Cocktail Bar"
     },
     {
       "id": "gen_ChIJJ-W4yYmjpBIR7C5-gQPiuc8",
@@ -925,7 +956,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Nakite hazırlıklı olun, bazı yerel yerler kart kabul etmeyebilir.",
-      "tips_en": "Be prepared with cash, some local places might not accept cards."
+      "tips_en": "Be prepared with cash, some local places might not accept cards.",
+      "name_en": "Breakfast Club Brunch & Bar – Barcelona"
     },
     {
       "id": "gen_ChIJ04zRNRqjpBIREtiKOTLPNwM",
@@ -949,7 +981,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Nakite hazırlıklı olun, bazı yerel yerler kart kabul etmeyebilir.",
-      "tips_en": "Be prepared with cash, some local places might not accept cards."
+      "tips_en": "Be prepared with cash, some local places might not accept cards.",
+      "name_en": "Btao barcelona"
     },
     {
       "name": "Bunkers del Carmel",
@@ -977,7 +1010,8 @@
       "tips": "Gün doğumu burada büyüleyicidir, uykunuzdan feragat etmeye değer.",
       "description_en": "Bunkers del Carmel offers one of the city's most impressive views. With its spectacular sunset visuals and commanding position over the Carmel area, it's an unmissable spot for photography enthusiasts.",
       "tips_en": "Sunrise is magical here, worth sacrificing sleep.",
-      "bestTime_en": "Sunset"
+      "bestTime_en": "Sunset",
+      "name_en": "Bunkers del Carmel"
     },
     {
       "id": "gen_ChIJMeAmJY-ipBIRQ4ARzZk2T7c",
@@ -1001,7 +1035,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Yerel halkın favori noktalarından biri.",
-      "tips_en": "One of the favorite spots of the locals."
+      "tips_en": "One of the favorite spots of the locals.",
+      "name_en": "COBBLER COCKTAIL BAR"
     },
     {
       "name": "CaixaForum",
@@ -1028,7 +1063,8 @@
       "tips": "Biletinizi online alarak gişe sırasından kurtulun.",
       "description_en": "A stunning cultural center in a renovated modernist factory hosting world-class art exhibitions.",
       "tips_en": "Buy tickets online to skip the box office line.",
-      "bestTime_en": "Afternoon"
+      "bestTime_en": "Afternoon",
+      "name_en": "CaixaForum"
     },
     {
       "name": "Cal Pep",
@@ -1055,7 +1091,8 @@
       "tips": "Akşam yemeği için rezervasyon yaptırmak şart.",
       "description_en": "Legendary tapas bar in El Born. No menu; the chef prepares surprise flavors with day's freshest ingredients. Sit at the bar and experience it like a theater.",
       "tips_en": "Reservation is a must for dinner.",
-      "bestTime_en": "Lunch"
+      "bestTime_en": "Lunch",
+      "name_en": "Cal Pep"
     },
     {
       "name": "Camp Nou",
@@ -1082,7 +1119,8 @@
       "tips": "Rehbere soru sormaktan çekinmeyin, çok ilginç hikayeler biliyorlar.",
       "description_en": "The temple for football enthusiasts and home of FC Barcelona. Besides being Europe's largest stadium, its museum tells the club's history, offering an unforgettable experience for sports fans.",
       "tips_en": "Don't hesitate to ask the guide questions, they know interesting stories.",
-      "bestTime_en": "Match day"
+      "bestTime_en": "Match day",
+      "name_en": "Camp Nou"
     },
     {
       "name": "Can Culleretes",
@@ -1109,7 +1147,8 @@
       "tips": "Nakite hazırlıklı olun, bazı yerel yerler kart kabul etmeyebilir.",
       "description_en": "Oldest restaurant in Catalonia serving since 1786. Offers traditional Catalan cuisine. Cannelloni and escudella (Catalan stew) classics should be tried.",
       "tips_en": "Be prepared with cash, some local places might not accept cards.",
-      "bestTime_en": "Lunch"
+      "bestTime_en": "Lunch",
+      "name_en": "Can Culleretes"
     },
     {
       "name": "Can Paixano (La Xampanyeria)",
@@ -1136,7 +1175,8 @@
       "tips": "Akşam yemeği için rezervasyon yaptırmak şart.",
       "description_en": "A tiny, standing-room-only cava bar in Barceloneta serving cheap sparkling wine and simple sandwiches.",
       "tips_en": "Reservation is a must for dinner.",
-      "bestTime_en": "Afternoon"
+      "bestTime_en": "Afternoon",
+      "name_en": "Can Paixano (La Xampanyeria)"
     },
     {
       "name": "Carrer Blai",
@@ -1163,7 +1203,8 @@
       "tips": "Fotoğraf makinenizin şarjının dolu olduğundan emin olun.",
       "description_en": "A favorite among foodies, Carrer Blai is one of Poble Sec's most beloved dining destinations. The chef's special recipes and intimate atmosphere elevate the dining experience.",
       "tips_en": "Make sure your camera battery is full.",
-      "bestTime_en": "8:00 PM"
+      "bestTime_en": "8:00 PM",
+      "name_en": "Carrer Blai"
     },
     {
       "name": "Carretera de les Aigües",
@@ -1190,7 +1231,8 @@
       "tips": "Fotoğraf makinenizin şarjının dolu olduğundan emin olun.",
       "description_en": "A scenic flat path in the Collserola hills with amazing views of Barcelona, great for jogging or walking.",
       "tips_en": "Make sure your camera battery is full.",
-      "bestTime_en": "Sunset"
+      "bestTime_en": "Sunset",
+      "name_en": "Carretera de les Aigües"
     },
     {
       "id": "gen_ChIJcVA_AeyipBIR7AVyApkU0Ow",
@@ -1214,7 +1256,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Nakite hazırlıklı olun, bazı yerel yerler kart kabul etmeyebilir.",
-      "tips_en": "Be prepared with cash, some local places might not accept cards."
+      "tips_en": "Be prepared with cash, some local places might not accept cards.",
+      "name_en": "Casa Amàlia"
     },
     {
       "name": "Casa Batlló",
@@ -1241,7 +1284,8 @@
       "tips": "Bazı günler giriş ücretsiz olabilir, web sitesini kontrol edin.",
       "description_en": "A modernism marvel on Passeig de Gràcia, also known as the 'House of Bones'. Its wavy facade, colorful ceramics, and dragon-like rooftop are among the most artistic expressions of Gaudí's passion for nature.",
       "tips_en": "Entry might be free on some days, check the website.",
-      "bestTime_en": "Sunset"
+      "bestTime_en": "Sunset",
+      "name_en": "Casa Batlló"
     },
     {
       "name": "Casa Lolea",
@@ -1268,7 +1312,8 @@
       "tips": "Şefin spesiyal tabağını sormaktan çekinmeyin.",
       "description_en": "Fresh and lively tapas bar serving Barcelona's best sangria. Patatas bravas and Bellota ham are highly praised. Friendly bodega atmosphere.",
       "tips_en": "Don't hesitate to ask for the chef's special.",
-      "bestTime_en": "Afternoon"
+      "bestTime_en": "Afternoon",
+      "name_en": "Casa Lolea"
     },
     {
       "name": "Casa Milà (La Pedrera)",
@@ -1295,7 +1340,8 @@
       "tips": "Çantanızı vestiyere bırakmanız gerekebilir, hazırlıklı olun.",
       "description_en": "Casa Milà, known as 'La Pedrera' (The Quarry), is the last civil building Gaudí completed. Its wavy stone facade and famous rooftop with surrealist chimneys are considered one of the most iconic structures in architecture history.",
       "tips_en": "You might need to leave bags at the cloakroom, be prepared.",
-      "bestTime_en": "Night (rooftop)"
+      "bestTime_en": "Night (rooftop)",
+      "name_en": "Casa Milà (La Pedrera)"
     },
     {
       "name": "Casa Vicens",
@@ -1322,7 +1368,8 @@
       "tips": "Biletinizi online alarak gişe sırasından kurtulun.",
       "description_en": "Casa Vicens houses one of Barcelona's most valuable cultural treasures. Located in Gràcia, this venue promises a unique artistic journey with its rich collection and carefully curated exhibitions.",
       "tips_en": "Buy tickets online to skip the box office line.",
-      "bestTime_en": "Morning"
+      "bestTime_en": "Morning",
+      "name_en": "Casa Vicens"
     },
     {
       "name": "Casa de les Punxes",
@@ -1350,7 +1397,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/barcelona/casa_de_les_punxes.jpg",
       "tips": "Yapı içerisindeki akustik harika, sessizliği dinleyin.",
       "description_en": "Casa de les Punxes is a cool spot in Barcelona's Eixample.",
-      "tips_en": "The acoustics inside satisfy; listen to the silence."
+      "tips_en": "The acoustics inside satisfy; listen to the silence.",
+      "name_en": "Casa de les Punxes"
     },
     {
       "id": "gen_ChIJO9Q5t1-ipBIR6j1w_MTknys",
@@ -1374,7 +1422,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Akşam yemeği için rezervasyon yaptırmak şart.",
-      "tips_en": "Reservation is a must for dinner."
+      "tips_en": "Reservation is a must for dinner.",
+      "name_en": "Cera 23"
     },
     {
       "name": "Cervecería Catalana",
@@ -1401,7 +1450,8 @@
       "tips": "Öğle yemeği menüleri genellikle akşamdan daha uygundur.",
       "description_en": "Classic venue in Eixample famous for wide tapas variety and daily changing montaditos. Can be crowded but worth the wait.",
       "tips_en": "Lunch menus are usually cheaper than dinner.",
-      "bestTime_en": "Evening"
+      "bestTime_en": "Evening",
+      "name_en": "Cervecería Catalana"
     },
     {
       "name": "Churreria Laietana",
@@ -1429,7 +1479,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/barcelona/churreria_laietana.jpg",
       "tips": "Yerel halkın favori noktalarından biri.",
       "description_en": "Churreria Laietana is a cool spot in Barcelona's Gothic Quarter.",
-      "tips_en": "One of the favorite spots of the locals."
+      "tips_en": "One of the favorite spots of the locals.",
+      "name_en": "Churreria Laietana"
     },
     {
       "id": "gen_ChIJdXdnMCKjpBIRZZWYXywNKG4",
@@ -1453,7 +1504,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Yerel şarapları denemenizi öneririz.",
-      "tips_en": "We recommend trying local wines."
+      "tips_en": "We recommend trying local wines.",
+      "name_en": "Circolo Popolare Barcelona"
     },
     {
       "id": "gen_ChIJo8YZE_yipBIRxL9NIqb34ws",
@@ -1477,7 +1529,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Yerel halkın favori noktalarından biri.",
-      "tips_en": "One of the favorite spots of the locals."
+      "tips_en": "One of the favorite spots of the locals.",
+      "name_en": "Coffee Casa"
     },
     {
       "name": "Collserola Natural Park",
@@ -1504,7 +1557,8 @@
       "tips": "Sabah koşusu veya yoga yapan yerlileri görebilirsiniz.",
       "description_en": "A vast natural park overlooking Barcelona, perfect for hiking, cycling, and escaping the city.",
       "tips_en": "You can see locals jogging or doing yoga in the morning.",
-      "bestTime_en": "Morning"
+      "bestTime_en": "Morning",
+      "name_en": "Collserola Natural Park"
     },
     {
       "id": "gen_ChIJnfGRnLyjpBIRjgQ8Aagzudw",
@@ -1528,7 +1582,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Yerel halkın favori noktalarından biri.",
-      "tips_en": "One of the favorite spots of the locals."
+      "tips_en": "One of the favorite spots of the locals.",
+      "name_en": "Core Coffee"
     },
     {
       "id": "gen_ChIJGeVecwqjpBIRzv7UiHcmt4M",
@@ -1552,7 +1607,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Yerel halkın favori noktalarından biri.",
-      "tips_en": "One of the favorite spots of the locals."
+      "tips_en": "One of the favorite spots of the locals.",
+      "name_en": "Corgi Cafe | Eixample"
     },
     {
       "name": "CosmoCaixa",
@@ -1579,7 +1635,8 @@
       "tips": "Biletinizi online alarak gişe sırasından kurtulun.",
       "description_en": "A fantastic science museum with interactive exhibits, a real rainforest section, and a planetarium.",
       "tips_en": "Buy tickets online to skip the box office line.",
-      "bestTime_en": "Morning"
+      "bestTime_en": "Morning",
+      "name_en": "CosmoCaixa"
     },
     {
       "id": "gen_ChIJMbKaZC2jpBIRiJfNo2ms8YQ",
@@ -1603,7 +1660,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Yerel halkın favori noktalarından biri.",
-      "tips_en": "One of the favorite spots of the locals."
+      "tips_en": "One of the favorite spots of the locals.",
+      "name_en": "Couleur Café Barcelona"
     },
     {
       "id": "gen_ChIJRaLiAo2ZpBIRlPeu8CRS0ck",
@@ -1627,7 +1685,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Hafta içi ziyaret etmek daha sakin bir deneyim sunar.",
-      "tips_en": "Visiting on weekdays offers a calmer experience."
+      "tips_en": "Visiting on weekdays offers a calmer experience.",
+      "name_en": "Cuqui Postres | Pastelería Artesanal Barcelona"
     },
     {
       "id": "gen_ChIJ7XfEYNKjpBIRxyX0253ZGbI",
@@ -1651,7 +1710,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Hafta içi ziyaret etmek daha sakin bir deneyim sunar.",
-      "tips_en": "Visiting on weekdays offers a calmer experience."
+      "tips_en": "Visiting on weekdays offers a calmer experience.",
+      "name_en": "DER Bar - Drink, Eat, Repeat"
     },
     {
       "id": "gen_ChIJGTvFP_SipBIRdspP6yj9d6A",
@@ -1675,7 +1735,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Çevredeki küçük hediyelik eşya dükkanlarına da uğrayın.",
-      "tips_en": "Stop by the small souvenir shops around."
+      "tips_en": "Stop by the small souvenir shops around.",
+      "name_en": "Dalston Coffee Barcelona - Cafè d'especialitat - Coffee Roasters"
     },
     {
       "id": "gen_ChIJL3iwTPSjpBIRUSgo5tgpZuU",
@@ -1699,7 +1760,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Şefin spesiyal tabağını sormaktan çekinmeyin.",
-      "tips_en": "Don't hesitate to ask for the chef's special."
+      "tips_en": "Don't hesitate to ask for the chef's special.",
+      "name_en": "Desi Galli - Indian Restaurant & Street Food Barcelona"
     },
     {
       "id": "gen_ChIJJVeNx8OjpBIRfR-fSfmS7Zo",
@@ -1723,7 +1785,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Yerel şarapları denemenizi öneririz.",
-      "tips_en": "We recommend trying local wines."
+      "tips_en": "We recommend trying local wines.",
+      "name_en": "Desoriente | Poblenou Restaurant"
     },
     {
       "id": "gen_ChIJV6y1TWWjpBIR2n6HwqXePjM",
@@ -1747,7 +1810,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Hafta içi ziyaret etmek daha sakin bir deneyim sunar.",
-      "tips_en": "Visiting on weekdays offers a calmer experience."
+      "tips_en": "Visiting on weekdays offers a calmer experience.",
+      "name_en": "Diebar"
     },
     {
       "name": "Disfrutar",
@@ -1774,7 +1838,8 @@
       "tips": "Nakite hazırlıklı olun, bazı yerel yerler kart kabul etmeyebilir.",
       "description_en": "World's #1 restaurant and 3 Michelin stars (2023). Theatrical gastronomy experience by El Bulli chefs offering creative Mediterranean tasting menus.",
       "tips_en": "Be prepared with cash, some local places might not accept cards.",
-      "bestTime_en": "Dinner"
+      "bestTime_en": "Dinner",
+      "name_en": "Disfrutar"
     },
     {
       "id": "gen_ChIJP9t20GijpBIRRoc04WuZuwI",
@@ -1798,7 +1863,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Şefin spesiyal tabağını sormaktan çekinmeyin.",
-      "tips_en": "Don't hesitate to ask for the chef's special."
+      "tips_en": "Don't hesitate to ask for the chef's special.",
+      "name_en": "Don Asador"
     },
     {
       "name": "Dr. Stravinsky",
@@ -1825,7 +1891,8 @@
       "tips": "Çevredeki küçük hediyelik eşya dükkanlarına da uğrayın.",
       "description_en": "A stylish speakeasy-style cocktail bar with expertly crafted classic and creative cocktails.",
       "tips_en": "Stop by the small souvenir shops around.",
-      "bestTime_en": "Evening"
+      "bestTime_en": "Evening",
+      "name_en": "Dr. Stravinsky"
     },
     {
       "name": "Dry Martini",
@@ -1852,7 +1919,8 @@
       "tips": "Hafta içi ziyaret etmek daha sakin bir deneyim sunar.",
       "description_en": "Among world's best bars with 30+ years history. Classic English style where leather meets wood decor. Millions of Dry Martinis served!",
       "tips_en": "Visiting on weekdays offers a calmer experience.",
-      "bestTime_en": "Evening"
+      "bestTime_en": "Evening",
+      "name_en": "Dry Martini"
     },
     {
       "id": "gen_ChIJxRcGuP6ipBIRAwX8RwYnvZg",
@@ -1876,7 +1944,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Yerel halkın favori noktalarından biri.",
-      "tips_en": "One of the favorite spots of the locals."
+      "tips_en": "One of the favorite spots of the locals.",
+      "name_en": "Dux Gin & Cocktail Bar Barcelona"
     },
     {
       "id": "gen_ChIJOYA7QzijpBIRg8hVOMpIIgg",
@@ -1900,7 +1969,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Yerel şarapları denemenizi öneririz.",
-      "tips_en": "We recommend trying local wines."
+      "tips_en": "We recommend trying local wines.",
+      "name_en": "ESPECIARIUM BAR | Barcelona"
     },
     {
       "name": "EatMyTrip",
@@ -1927,7 +1997,8 @@
       "tips": "Akşam yemeği için rezervasyon yaptırmak şart.",
       "description_en": "A food tour and cooking class experience showcasing authentic Catalan cuisine and local food culture.",
       "tips_en": "Reservation is a must for dinner.",
-      "bestTime_en": "Morning"
+      "bestTime_en": "Morning",
+      "name_en": "EatMyTrip"
     },
     {
       "id": "gen_ChIJizVm8DmjpBIRJoQxUR5Iy3M",
@@ -1951,7 +2022,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Çevredeki küçük hediyelik eşya dükkanlarına da uğrayın.",
-      "tips_en": "Stop by the small souvenir shops around."
+      "tips_en": "Stop by the small souvenir shops around.",
+      "name_en": "EatMyTrip Specialty Coffee & Brunch Barcelona"
     },
     {
       "id": "gen_ChIJ4WBEXFmjpBIRqYJ8rDbpjSQ",
@@ -1975,7 +2047,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Öğle yemeği menüleri genellikle akşamdan daha uygundur.",
-      "tips_en": "Lunch menus are usually cheaper than dinner."
+      "tips_en": "Lunch menus are usually cheaper than dinner.",
+      "name_en": "EdeNova Restaurant Barcelona"
     },
     {
       "id": "gen_ChIJGdSiASujpBIRQo9zFtzqsgQ",
@@ -1999,7 +2072,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Şefin spesiyal tabağını sormaktan çekinmeyin.",
-      "tips_en": "Don't hesitate to ask for the chef's special."
+      "tips_en": "Don't hesitate to ask for the chef's special.",
+      "name_en": "El Bandoler by La Alcoba - Bar de Tapas"
     },
     {
       "name": "El Born",
@@ -2026,7 +2100,8 @@
       "tips": "Müze kartınız varsa girişte sıra beklemezsiniz.",
       "description_en": "A chic bohemian district where medieval architecture meets modern boutiques and cool nightlife, also home to the Picasso Museum.",
       "tips_en": "You skip the line if you have a museum pass.",
-      "bestTime_en": "Evening"
+      "bestTime_en": "Evening",
+      "name_en": "El Born"
     },
     {
       "name": "El Born Centre de Cultura",
@@ -2054,7 +2129,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/barcelona/el_born_centre_de_cultura.jpg",
       "tips": "Sesli rehber (audio guide) kiralamak deneyimi ikiye katlar.",
       "description_en": "El Born Centre de Cultura is a cool spot in Barcelona's El Born.",
-      "tips_en": "Renting an audio guide doubles the experience."
+      "tips_en": "Renting an audio guide doubles the experience.",
+      "name_en": "El Born Centre de Cultura"
     },
     {
       "name": "El Bosc de les Fades",
@@ -2081,7 +2157,8 @@
       "tips": "Nakite hazırlıklı olun, bazı yerel yerler kart kabul etmeyebilir.",
       "description_en": "A quirky fairy-tale themed bar with forest decorations, waterfalls, and magical atmosphere.",
       "tips_en": "Be prepared with cash, some local places might not accept cards.",
-      "bestTime_en": "Evening"
+      "bestTime_en": "Evening",
+      "name_en": "El Bosc de les Fades"
     },
     {
       "name": "El Jardí",
@@ -2108,7 +2185,8 @@
       "tips": "Rehbere soru sormaktan çekinmeyin, çok ilginç hikayeler biliyorlar.",
       "description_en": "A charming outdoor café bar in the courtyard of the Gothic Hospital, a peaceful hidden oasis.",
       "tips_en": "Don't hesitate to ask the guide questions, they know interesting stories.",
-      "bestTime_en": "Afternoon"
+      "bestTime_en": "Afternoon",
+      "name_en": "El Jardí"
     },
     {
       "name": "El Nacional",
@@ -2135,7 +2213,8 @@
       "tips": "Nakite hazırlıklı olun, bazı yerel yerler kart kabul etmeyebilir.",
       "description_en": "Unique gastronomic space on Passeig de Gràcia housing multiple restaurants and bars. Colorful experience with 'Tapas al Cante' concept.",
       "tips_en": "Be prepared with cash, some local places might not accept cards.",
-      "bestTime_en": "Evening"
+      "bestTime_en": "Evening",
+      "name_en": "El Nacional"
     },
     {
       "name": "El Raval",
@@ -2162,7 +2241,8 @@
       "tips": "Çantanızı vestiyere bırakmanız gerekebilir, hazırlıklı olun.",
       "description_en": "For those who want to feel the pulse of local life, El Raval is an ideal starting point. The narrow streets, colorful facades and vibrant atmosphere of Ciutat Vella await you.",
       "tips_en": "You might need to leave bags at the cloakroom, be prepared.",
-      "bestTime_en": "Evening"
+      "bestTime_en": "Evening",
+      "name_en": "El Raval"
     },
     {
       "name": "El Xampanyet",
@@ -2189,7 +2269,8 @@
       "tips": "Şefin spesiyal tabağını sormaktan çekinmeyin.",
       "description_en": "Legendary family-run tapas bar since the 1930s. Famous for homemade cava and excellent anchovies. Near Picasso Museum, lively and nostalgic.",
       "tips_en": "Don't hesitate to ask for the chef's special.",
-      "bestTime_en": "Evening"
+      "bestTime_en": "Evening",
+      "name_en": "El Xampanyet"
     },
     {
       "id": "gen_ChIJEUf3NT2jpBIRThD9Ohp7lL4",
@@ -2213,7 +2294,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Çevredeki küçük hediyelik eşya dükkanlarına da uğrayın.",
-      "tips_en": "Stop by the small souvenir shops around."
+      "tips_en": "Stop by the small souvenir shops around.",
+      "name_en": "Eleven Shisha Lounge Barcelona & Cocktails"
     },
     {
       "id": "gen_ChIJfezQGF2jpBIRuvVmxWU8l_k",
@@ -2237,7 +2319,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Şefin spesiyal tabağını sormaktan çekinmeyin.",
-      "tips_en": "Don't hesitate to ask for the chef's special."
+      "tips_en": "Don't hesitate to ask for the chef's special.",
+      "name_en": "FLIPÁ . brunch & vermut ."
     },
     {
       "id": "gen_ChIJq7TeaMajpBIRIG0afQDlvek",
@@ -2261,7 +2344,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Çevredeki küçük hediyelik eşya dükkanlarına da uğrayın.",
-      "tips_en": "Stop by the small souvenir shops around."
+      "tips_en": "Stop by the small souvenir shops around.",
+      "name_en": "FOCO"
     },
     {
       "id": "gen_ChIJb4UjvMijpBIRp3UJ5UWSw6M",
@@ -2285,7 +2369,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Yerel şarapları denemenizi öneririz.",
-      "tips_en": "We recommend trying local wines."
+      "tips_en": "We recommend trying local wines.",
+      "name_en": "FOODY VIET - Vietnam Authentic Restaurant"
     },
     {
       "id": "gen_ChIJrYQNDgejpBIRay4BITEgCsE",
@@ -2309,7 +2394,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Akşam yemeği için rezervasyon yaptırmak şart.",
-      "tips_en": "Reservation is a must for dinner."
+      "tips_en": "Reservation is a must for dinner.",
+      "name_en": "Faire. Brunch & Drinks"
     },
     {
       "name": "Federal Café",
@@ -2336,7 +2422,8 @@
       "tips": "Google Maps yorumlarına göz atarak ne yiyeceğinize karar verin.",
       "description_en": "Australian-style brunch café with excellent coffee, avocado toast, and a sunny terrace in the Gothic Quarter.",
       "tips_en": "Decide what to eat by checking Google Maps reviews.",
-      "bestTime_en": "Brunch"
+      "bestTime_en": "Brunch",
+      "name_en": "Federal Café"
     },
     {
       "name": "Flamenco Show Tablao Cordobés",
@@ -2363,7 +2450,8 @@
       "tips": "Öğle yemeği menüleri genellikle akşamdan daha uygundur.",
       "description_en": "Aksiyon and eğlence dolu bir gün geçirmek isteyenler için Flamenco Show Tablao Cordobés ideal. Çeşitli aktiviteleri and enerjik atmosferiyle Las Ramblas'nın en popüler noktalarından.",
       "tips_en": "Lunch menus are usually cheaper than dinner.",
-      "bestTime_en": "Evening"
+      "bestTime_en": "Evening",
+      "name_en": "Flamenco Show Tablao Cordobés"
     },
     {
       "name": "Flax & Kale",
@@ -2390,7 +2478,8 @@
       "tips": "Nakite hazırlıklı olun, bazı yerel yerler kart kabul etmeyebilir.",
       "description_en": "Modern restaurant standing out with healthy and flexitarian cuisine. Offers plant-based dishes and fish options. Protein smoothies are fantastic.",
       "tips_en": "Be prepared with cash, some local places might not accept cards.",
-      "bestTime_en": "Lunch"
+      "bestTime_en": "Lunch",
+      "name_en": "Flax & Kale"
     },
     {
       "name": "Fundació Joan Miró",
@@ -2417,7 +2506,8 @@
       "tips": "Hafta içi sabah saatleri en sakin zamanıdır.",
       "description_en": "Fundació Joan Miró houses one of Barcelona's most valuable cultural treasures. Located in Montjuïc, this venue promises a unique artistic journey with its rich collection and carefully curated exhibitions.",
       "tips_en": "Weekday mornings are the quietest times.",
-      "bestTime_en": "Afternoon"
+      "bestTime_en": "Afternoon",
+      "name_en": "Fundació Joan Miró"
     },
     {
       "id": "gen_ChIJTzsdvD-jpBIR917EZ8uElRU",
@@ -2441,7 +2531,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Şefin spesiyal tabağını sormaktan çekinmeyin.",
-      "tips_en": "Don't hesitate to ask for the chef's special."
+      "tips_en": "Don't hesitate to ask for the chef's special.",
+      "name_en": "Furnos"
     },
     {
       "id": "gen_ChIJXeVHlK6jpBIRjRlhP--X_Rw",
@@ -2465,7 +2556,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Akşam yemeği için rezervasyon yaptırmak şart.",
-      "tips_en": "Reservation is a must for dinner."
+      "tips_en": "Reservation is a must for dinner.",
+      "name_en": "GRASA"
     },
     {
       "id": "gen_ChIJ-8pnOY6jpBIReMzfFpsYmTk",
@@ -2489,7 +2581,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Yerel halkın favori noktalarından biri.",
-      "tips_en": "One of the favorite spots of the locals."
+      "tips_en": "One of the favorite spots of the locals.",
+      "name_en": "Gangsta’s Paradise - Cocktail Bar, Speakeasy en Barcelona"
     },
     {
       "id": "gen_ChIJb7hWM5KZpBIRfNC8mwmJ2fI",
@@ -2514,7 +2607,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Hafta içi ziyaret etmek daha sakin bir deneyim sunar.",
-      "tips_en": "Visiting on weekdays offers a calmer experience."
+      "tips_en": "Visiting on weekdays offers a calmer experience.",
+      "name_en": "Garage Coffee"
     },
     {
       "id": "gen_ChIJl5eY8VmjpBIRxvPBseTDqec",
@@ -2539,7 +2633,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Hafta içi ziyaret etmek daha sakin bir deneyim sunar.",
-      "tips_en": "Visiting on weekdays offers a calmer experience."
+      "tips_en": "Visiting on weekdays offers a calmer experience.",
+      "name_en": "Gelateria Da Gallo"
     },
     {
       "id": "gen_ChIJ7YU7Fn6jpBIRE-ur8uBlBrg",
@@ -2563,7 +2658,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Şefin spesiyal tabağını sormaktan çekinmeyin.",
-      "tips_en": "Don't hesitate to ask for the chef's special."
+      "tips_en": "Don't hesitate to ask for the chef's special.",
+      "name_en": "Gloria Osteria Barcelona"
     },
     {
       "name": "Gothic Quarter",
@@ -2590,7 +2686,8 @@
       "tips": "Rehberli turla gezmek detayları anlamak için çok daha verimli.",
       "description_en": "Built on Roman foundations, the city's historic heart with narrow medieval streets, a grand cathedral, and hidden squares.",
       "tips_en": "A guided tour is much more efficient to understand the details.",
-      "bestTime_en": "Morning or evening"
+      "bestTime_en": "Morning or evening",
+      "name_en": "Gothic Quarter"
     },
     {
       "name": "Grec Theatre",
@@ -2617,7 +2714,8 @@
       "tips": "Yanınıza bir örtü alıp çimlerde piknik yapabilirsiniz.",
       "description_en": "An open-air Greek-style amphitheater on Montjuïc hosting the famous Grec summer festival.",
       "tips_en": "Bring a blanket and have a picnic on the grass.",
-      "bestTime_en": "Evening"
+      "bestTime_en": "Evening",
+      "name_en": "Grec Theatre"
     },
     {
       "name": "Gràcia",
@@ -2645,7 +2743,8 @@
       "tips": "Müze kartınız varsa girişte sıra beklemezsiniz.",
       "description_en": "For those who want to feel the pulse of local life, Gràcia is an ideal starting point. The narrow streets, colorful facades and vibrant atmosphere of Gràcia await you.",
       "tips_en": "You skip the line if you have a museum pass.",
-      "bestTime_en": "Evening"
+      "bestTime_en": "Evening",
+      "name_en": "Gràcia"
     },
     {
       "id": "gen_ChIJ8zglNUOjpBIR00lABFXZ2wo",
@@ -2669,7 +2768,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Öğle yemeği menüleri genellikle akşamdan daha uygundur.",
-      "tips_en": "Lunch menus are usually cheaper than dinner."
+      "tips_en": "Lunch menus are usually cheaper than dinner.",
+      "name_en": "Henry's Bar"
     },
     {
       "name": "Hospital de Sant Pau",
@@ -2697,7 +2797,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/barcelona/hospital_de_sant_pau.jpg",
       "tips": "Yapı içerisindeki akustik harika, sessizliği dinleyin.",
       "description_en": "Hospital de Sant Pau is a cool spot in Barcelona's Eixample.",
-      "tips_en": "The acoustics inside satisfy; listen to the silence."
+      "tips_en": "The acoustics inside satisfy; listen to the silence.",
+      "name_en": "Hospital de Sant Pau"
     },
     {
       "id": "gen_ChIJYTLzQf6jpBIRoK4w8JrP_wE",
@@ -2750,7 +2851,8 @@
       "tips": "Güneş kremi ve şapka almayı unutmayın.",
       "description_en": "Beautiful gardens on Montjuïc with an impressive collection of cacti and stunning sea views.",
       "tips_en": "Don't forget sunscreen and a hat.",
-      "bestTime_en": "Afternoon"
+      "bestTime_en": "Afternoon",
+      "name_en": "Jardins de Mossèn Costa i Llobera"
     },
     {
       "id": "gen_ChIJU0O7lLajpBIRNU1sKNIaG7M",
@@ -2774,7 +2876,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Öğle yemeği menüleri genellikle akşamdan daha uygundur.",
-      "tips_en": "Lunch menus are usually cheaper than dinner."
+      "tips_en": "Lunch menus are usually cheaper than dinner.",
+      "name_en": "JoEs TaBLe • Social Fine Dining •"
     },
     {
       "id": "gen_ChIJsURvwQujpBIRIakRRrHcPcc",
@@ -2799,7 +2902,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Yerel halkın favori noktalarından biri.",
-      "tips_en": "One of the favorite spots of the locals."
+      "tips_en": "One of the favorite spots of the locals.",
+      "name_en": "Kafenion Barcelona"
     },
     {
       "id": "gen_ChIJs3-imnajpBIRMVE_VIfGPhA",
@@ -2823,7 +2927,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Şefin spesiyal tabağını sormaktan çekinmeyin.",
-      "tips_en": "Don't hesitate to ask for the chef's special."
+      "tips_en": "Don't hesitate to ask for the chef's special.",
+      "name_en": "La Alcoba Azul - Bar de Tapas en Rambla Catalunya"
     },
     {
       "name": "La Boqueria",
@@ -2850,7 +2955,8 @@
       "tips": "Grup indirimi olup olmadığını sorun.",
       "description_en": "One of the world's most famous covered markets. A feast of fresh seafood, fruit, Spanish hams, and local tapas stalls.",
       "tips_en": "Ask if there is a group discount.",
-      "bestTime_en": "10:00 AM"
+      "bestTime_en": "10:00 AM",
+      "name_en": "La Boqueria"
     },
     {
       "id": "gen_ChIJ82bdGp6jpBIRkQd_F_Bc8Fg",
@@ -2875,7 +2981,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Google Maps yorumlarına göz atarak ne yiyeceğinize karar verin.",
-      "tips_en": "Decide what to eat by checking Google Maps reviews."
+      "tips_en": "Decide what to eat by checking Google Maps reviews.",
+      "name_en": "La Cherry Coffee Co."
     },
     {
       "name": "La Flauta",
@@ -2902,7 +3009,8 @@
       "tips": "Nakite hazırlıklı olun, bazı yerel yerler kart kabul etmeyebilir.",
       "description_en": "Lively and affordable venue famous for baguette sandwiches ('flauta') and quality tapas. Patatas bravas and bacallá a la llauna are favorites.",
       "tips_en": "Be prepared with cash, some local places might not accept cards.",
-      "bestTime_en": "Lunch"
+      "bestTime_en": "Lunch",
+      "name_en": "La Flauta"
     },
     {
       "name": "La Pepita",
@@ -2929,7 +3037,8 @@
       "tips": "Öğle yemeği menüleri genellikle akşamdan daha uygundur.",
       "description_en": "Local favorite restaurant in Gràcia serving classic and reinvented tapas. Popular for creative 'pepito' sandwiches and friendly atmosphere.",
       "tips_en": "Lunch menus are usually cheaper than dinner.",
-      "bestTime_en": "Evening"
+      "bestTime_en": "Evening",
+      "name_en": "La Pepita"
     },
     {
       "name": "La Xampanyeria",
@@ -2957,7 +3066,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/barcelona/la_xampanyeria.jpg",
       "tips": "Öğle yemeği menüleri genellikle akşamdan daha uygundur.",
       "description_en": "La Xampanyeria is a cool spot in Barcelona's Barceloneta.",
-      "tips_en": "Lunch menus are usually cheaper than dinner."
+      "tips_en": "Lunch menus are usually cheaper than dinner.",
+      "name_en": "La Xampanyeria"
     },
     {
       "name": "Las Ramblas",
@@ -2984,7 +3094,8 @@
       "tips": "Fotoğraf makinenizin şarjının dolu olduğundan emin olun.",
       "description_en": "Las Ramblas is one of Barcelona's most iconic streets. With historic buildings, street artists and vibrant atmosphere, it offers a magical walking experience both day and night.",
       "tips_en": "Make sure your camera battery is full.",
-      "bestTime_en": "Evening"
+      "bestTime_en": "Evening",
+      "name_en": "Las Ramblas"
     },
     {
       "name": "Lasarte",
@@ -3011,7 +3122,8 @@
       "tips": "Öğle yemeği menüleri genellikle akşamdan daha uygundur.",
       "description_en": "Martín Berasategui's 3-Michelin-star signature in Barcelona. An impeccable experience blending Basque precision with Catalan ingredients.",
       "tips_en": "Lunch menus are usually cheaper than dinner.",
-      "bestTime_en": "Evening"
+      "bestTime_en": "Evening",
+      "name_en": "Lasarte"
     },
     {
       "id": "gen_ChIJfcggVvijpBIRqDTuG8NJyk0",
@@ -3036,7 +3148,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Hafta içi ziyaret etmek daha sakin bir deneyim sunar.",
-      "tips_en": "Visiting on weekdays offers a calmer experience."
+      "tips_en": "Visiting on weekdays offers a calmer experience.",
+      "name_en": "Lilly Bakery"
     },
     {
       "id": "gen_ChIJf8Zst1-jpBIRkov6YZvFOpY",
@@ -3060,7 +3173,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Şefin spesiyal tabağını sormaktan çekinmeyin.",
-      "tips_en": "Don't hesitate to ask for the chef's special."
+      "tips_en": "Don't hesitate to ask for the chef's special.",
+      "name_en": "Local Tapas"
     },
     {
       "id": "gen_ChIJ9-4RZPejpBIRQHk0be_mtGY",
@@ -3084,7 +3198,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Akşam yemeği için rezervasyon yaptırmak şart.",
-      "tips_en": "Reservation is a must for dinner."
+      "tips_en": "Reservation is a must for dinner.",
+      "name_en": "Loras Bar"
     },
     {
       "name": "MACBA",
@@ -3111,7 +3226,8 @@
       "tips": "Bazı günler giriş ücretsiz olabilir, web sitesini kontrol edin.",
       "description_en": "MACBA houses one of Barcelona's most valuable cultural treasures. Located in El Raval, this venue promises a unique artistic journey with its rich collection and carefully curated exhibitions.",
       "tips_en": "Entry might be free on some days, check the website.",
-      "bestTime_en": "Afternoon"
+      "bestTime_en": "Afternoon",
+      "name_en": "MACBA"
     },
     {
       "id": "gen_ChIJGYB_zT2jpBIReSmAAeCHwPs",
@@ -3136,7 +3252,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Çantanızı vestiyere bırakmanız gerekebilir, hazırlıklı olun.",
-      "tips_en": "You might need to leave bags at the cloakroom, be prepared."
+      "tips_en": "You might need to leave bags at the cloakroom, be prepared.",
+      "name_en": "MALA HIERBA | Cocktail Bar"
     },
     {
       "name": "MNAC",
@@ -3163,7 +3280,8 @@
       "tips": "Çantanızı vestiyere bırakmanız gerekebilir, hazırlıklı olun.",
       "description_en": "Catalonia's National Art Museum. Enchanting with its vast collection from Romanesque church frescoes to modern art, all set in a majestic palace.",
       "tips_en": "You might need to leave bags at the cloakroom, be prepared.",
-      "bestTime_en": "Morning"
+      "bestTime_en": "Morning",
+      "name_en": "MNAC"
     },
     {
       "name": "MOCO Museum Barcelona",
@@ -3191,7 +3309,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/barcelona/moco_museum_barcelona.jpg",
       "tips": "Biletinizi online alarak gişe sırasından kurtulun.",
       "description_en": "MOCO Museum Barcelona is a cool spot in Barcelona's El Born.",
-      "tips_en": "Buy tickets online to skip the box office line."
+      "tips_en": "Buy tickets online to skip the box office line.",
+      "name_en": "MOCO Museum Barcelona"
     },
     {
       "id": "gen_ChIJYyeF6qqjpBIR76osAo9HVBA",
@@ -3215,7 +3334,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Zaman zaman sıra olabilir ama beklemeye kesinlikle değer.",
-      "tips_en": "There might be a queue occasionally, but it is absolutely worth the wait."
+      "tips_en": "There might be a queue occasionally, but it is absolutely worth the wait.",
+      "name_en": "MYFRIENDCOFFEE Brunch Halal"
     },
     {
       "name": "Magic Fountain of Montjuïc",
@@ -3242,7 +3362,8 @@
       "tips": "Yanınıza bir örtü alıp çimlerde piknik yapabilirsiniz.",
       "description_en": "A synchronized dance of light, music, and water. This spectacular show at the foot of Montjuïc is an essential Barcelona evening experience.",
       "tips_en": "Bring a blanket and have a picnic on the grass.",
-      "bestTime_en": "Thursday-Sunday evening"
+      "bestTime_en": "Thursday-Sunday evening",
+      "name_en": "Magic Fountain of Montjuïc"
     },
     {
       "id": "gen_ChIJGXrTXgejpBIRes9UAwJl6dU",
@@ -3267,7 +3388,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Yerel halkın favori noktalarından biri.",
-      "tips_en": "One of the favorite spots of the locals."
+      "tips_en": "One of the favorite spots of the locals.",
+      "name_en": "Maison coffee"
     },
     {
       "name": "Mar Bella Beach",
@@ -3294,7 +3416,8 @@
       "tips": "Yürüyüş ayakkabısı giymeniz önerilir.",
       "description_en": "A hip beach with watersports facilities and a section for nudists. Popular with locals and the LGBTQ+ community.",
       "tips_en": "Walking shoes are recommended.",
-      "bestTime_en": "Afternoon"
+      "bestTime_en": "Afternoon",
+      "name_en": "Mar Bella Beach"
     },
     {
       "id": "gen_ChIJCYRnt6OjpBIRMsca2JGNEvw",
@@ -3318,7 +3441,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Yerel halkın favori noktalarından biri.",
-      "tips_en": "One of the favorite spots of the locals."
+      "tips_en": "One of the favorite spots of the locals.",
+      "name_en": "Mariposa Negra Cocktail Bar - Cocteleria artesana"
     },
     {
       "id": "gen_ChIJ--t0RgijpBIRszSvo39WgrU",
@@ -3342,7 +3466,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Öğle yemeği menüleri genellikle akşamdan daha uygundur.",
-      "tips_en": "Lunch menus are usually cheaper than dinner."
+      "tips_en": "Lunch menus are usually cheaper than dinner.",
+      "name_en": "Maska GastroPub"
     },
     {
       "name": "Mercat de Sant Antoni",
@@ -3370,7 +3495,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/barcelona/mercat_de_sant_antoni.jpg",
       "tips": "Tax-free formunu istemeyi unutmayın.",
       "description_en": "Mercat de Sant Antoni is a cool spot in Barcelona's Sant Antoni.",
-      "tips_en": "Don't forget to ask for the Tax-free form."
+      "tips_en": "Don't forget to ask for the Tax-free form.",
+      "name_en": "Mercat de Sant Antoni"
     },
     {
       "name": "Mercat de la Llibertat",
@@ -3397,7 +3523,8 @@
       "tips": "Grup indirimi olup olmadığını sorun.",
       "description_en": "A beautiful modernist market in Gràcia, less touristy than Boqueria, with fresh local produce.",
       "tips_en": "Ask if there is a group discount.",
-      "bestTime_en": "Morning"
+      "bestTime_en": "Morning",
+      "name_en": "Mercat de la Llibertat"
     },
     {
       "id": "gen_ChIJHfVnleOjpBIRK10KOb7FL4Q",
@@ -3422,7 +3549,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Google Maps yorumlarına göz atarak ne yiyeceğinize karar verin.",
-      "tips_en": "Decide what to eat by checking Google Maps reviews."
+      "tips_en": "Decide what to eat by checking Google Maps reviews.",
+      "name_en": "Merle Coffee"
     },
     {
       "name": "Milk Bar & Bistro",
@@ -3449,7 +3577,8 @@
       "tips": "Yerel şarapları denemenizi öneririz.",
       "description_en": "A beloved brunch spot in El Born serving generous portions of comfort food and excellent cocktails.",
       "tips_en": "We recommend trying local wines.",
-      "bestTime_en": "Brunch"
+      "bestTime_en": "Brunch",
+      "name_en": "Milk Bar & Bistro"
     },
     {
       "id": "gen_ChIJSeyLTUCjpBIROH4q6KiLu1Q",
@@ -3473,7 +3602,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Şefin spesiyal tabağını sormaktan çekinmeyin.",
-      "tips_en": "Don't hesitate to ask for the chef's special."
+      "tips_en": "Don't hesitate to ask for the chef's special.",
+      "name_en": "Mog Barcelona"
     },
     {
       "id": "gen_ChIJSQoAKsyjpBIR6NNQ2ac2wFI",
@@ -3497,7 +3627,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Akşam yemeği için rezervasyon yaptırmak şart.",
-      "tips_en": "Reservation is a must for dinner."
+      "tips_en": "Reservation is a must for dinner.",
+      "name_en": "Molinet Cafè Antic - Bistro & Brunch"
     },
     {
       "id": "gen_ChIJhV0nSPOjpBIRnaiO5QG4srw",
@@ -3521,7 +3652,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Şefin spesiyal tabağını sormaktan çekinmeyin.",
-      "tips_en": "Don't hesitate to ask for the chef's special."
+      "tips_en": "Don't hesitate to ask for the chef's special.",
+      "name_en": "Monte Marinero"
     },
     {
       "name": "Montjuïc",
@@ -3548,7 +3680,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/barcelona/montjuic.jpg",
       "description_en": "Montjuïc offers one of the city's most impressive views. With its spectacular sunset visuals and commanding position over the Montjuïc area, it's an unmissable spot for photography enthusiasts.",
       "tips_en": "Bring a telescope/binoculars if you have them.",
-      "bestTime_en": "Sunset"
+      "bestTime_en": "Sunset",
+      "name_en": "Montjuïc"
     },
     {
       "name": "Montjuïc Castle",
@@ -3575,7 +3708,8 @@
       "tips": "Hafta içi sabah saatleri en sakin zamanıdır.",
       "description_en": "Montjuïc Castle is a magnificent structure witnessing Barcelona's rich history. This monumental venue in Montjuïc enchants both history buffs and architecture lovers with its centuries-old architecture and cultural significance.",
       "tips_en": "Weekday mornings are the quietest times.",
-      "bestTime_en": "Sunset"
+      "bestTime_en": "Sunset",
+      "name_en": "Montjuïc Castle"
     },
     {
       "name": "Moog",
@@ -3602,7 +3736,8 @@
       "tips": "Google Maps yorumlarına göz atarak ne yiyeceğinize karar verin.",
       "description_en": "An intimate electronic music club in the Raval, a must for techno and house music lovers.",
       "tips_en": "Decide what to eat by checking Google Maps reviews.",
-      "bestTime_en": "Late night"
+      "bestTime_en": "Late night",
+      "name_en": "Moog"
     },
     {
       "name": "Museu Nacional d'Art de Catalunya",
@@ -3630,7 +3765,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/barcelona/museu_nacional_dart_de_catalunya.jpg",
       "tips": "Biletinizi online alarak gişe sırasından kurtulun.",
       "description_en": "Museu Nacional d'Art de Catalunya is a cool spot in Barcelona's Montjuïc.",
-      "tips_en": "Buy tickets online to skip the box office line."
+      "tips_en": "Buy tickets online to skip the box office line.",
+      "name_en": "Museu Nacional d'Art de Catalunya"
     },
     {
       "name": "Museu del Disseny",
@@ -3657,7 +3793,8 @@
       "tips": "Biletinizi online alarak gişe sırasından kurtulun.",
       "description_en": "Barcelona's design museum showcasing the history of design, decorative arts, and contemporary creation.",
       "tips_en": "Buy tickets online to skip the box office line.",
-      "bestTime_en": "Afternoon"
+      "bestTime_en": "Afternoon",
+      "name_en": "Museu del Disseny"
     },
     {
       "id": "gen_ChIJv5B2t1CjpBIRAo75ECnuXFE",
@@ -3682,7 +3819,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Google Maps yorumlarına göz atarak ne yiyeceğinize karar verin.",
-      "tips_en": "Decide what to eat by checking Google Maps reviews."
+      "tips_en": "Decide what to eat by checking Google Maps reviews.",
+      "name_en": "Nerea Bakery"
     },
     {
       "id": "gen_ChIJ3QZxaVmjpBIR_3UyNBuUcGc",
@@ -3706,7 +3844,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Hafta içi ziyaret etmek daha sakin bir deneyim sunar.",
-      "tips_en": "Visiting on weekdays offers a calmer experience."
+      "tips_en": "Visiting on weekdays offers a calmer experience.",
+      "name_en": "Never"
     },
     {
       "id": "gen_ChIJDz5L73KjpBIRPfPZU3PsjVw",
@@ -3730,7 +3869,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Öğle yemeği menüleri genellikle akşamdan daha uygundur.",
-      "tips_en": "Lunch menus are usually cheaper than dinner."
+      "tips_en": "Lunch menus are usually cheaper than dinner.",
+      "name_en": "Nix Tapas & Drinks"
     },
     {
       "name": "Nomad Coffee",
@@ -3787,7 +3927,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Çevredeki küçük hediyelik eşya dükkanlarına da uğrayın.",
-      "tips_en": "Stop by the small souvenir shops around."
+      "tips_en": "Stop by the small souvenir shops around.",
+      "name_en": "Noor | Specialty Coffee"
     },
     {
       "id": "gen_ChIJqWNT-U2jpBIRnZyrFN3AALY",
@@ -3811,7 +3952,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Barmenlerden size özel bir 'Custom Creation' kokteyl yapmalarını isteyin.",
-      "tips_en": "Ask the bartenders to mix a 'Custom Creation' cocktail just for you."
+      "tips_en": "Ask the bartenders to mix a 'Custom Creation' cocktail just for you.",
+      "name_en": "Número Tres bar"
     },
     {
       "id": "gen_ChIJlTEM1M6jpBIRjGOFSKywOYQ",
@@ -3836,7 +3978,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Hafta içi ziyaret etmek daha sakin bir deneyim sunar.",
-      "tips_en": "Visiting on weekdays offers a calmer experience."
+      "tips_en": "Visiting on weekdays offers a calmer experience.",
+      "name_en": "ONIS COFFEE"
     },
     {
       "id": "gen_ChIJ3fVu9JajpBIR2lSCyW4WH6U",
@@ -3861,7 +4004,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Hafta içi ziyaret etmek daha sakin bir deneyim sunar.",
-      "tips_en": "Visiting on weekdays offers a calmer experience."
+      "tips_en": "Visiting on weekdays offers a calmer experience.",
+      "name_en": "Obrador del Croissant"
     },
     {
       "id": "gen_ChIJifkA9v2jpBIRDCqfUDQmItM",
@@ -3885,7 +4029,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Yerel şarapları denemenizi öneririz.",
-      "tips_en": "We recommend trying local wines."
+      "tips_en": "We recommend trying local wines.",
+      "name_en": "Olivia Bistro"
     },
     {
       "id": "gen_ChIJdddVPoiYpBIRH-u56MmnugE",
@@ -3909,7 +4054,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Akşam yemeği için rezervasyon yaptırmak şart.",
-      "tips_en": "Reservation is a must for dinner."
+      "tips_en": "Reservation is a must for dinner.",
+      "name_en": "Olivos Comida y Vinos Restaurante"
     },
     {
       "name": "Opium Barcelona",
@@ -3936,7 +4082,8 @@
       "tips": "Yerel şarapları denemenizi öneririz.",
       "description_en": "A famous beachfront club on the Barceloneta strip, one of the city's most popular nightlife venues.",
       "tips_en": "We recommend trying local wines.",
-      "bestTime_en": "Late night"
+      "bestTime_en": "Late night",
+      "name_en": "Opium Barcelona"
     },
     {
       "id": "gen_ChIJ4dXaWFCjpBIRQPK66USqrsU",
@@ -3961,7 +4108,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Çevredeki küçük hediyelik eşya dükkanlarına da uğrayın.",
-      "tips_en": "Stop by the small souvenir shops around."
+      "tips_en": "Stop by the small souvenir shops around.",
+      "name_en": "PUFF Sandwich | Authentic Ingredients | Coffee | Organic Matcha"
     },
     {
       "id": "gen_ChIJl6v8JzajpBIR3FpeaY3QgXk",
@@ -3985,7 +4133,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Öğle yemeği menüleri genellikle akşamdan daha uygundur.",
-      "tips_en": "Lunch menus are usually cheaper than dinner."
+      "tips_en": "Lunch menus are usually cheaper than dinner.",
+      "name_en": "Pachamama Wines & Bar"
     },
     {
       "name": "Paco Meralgo",
@@ -4012,7 +4161,8 @@
       "tips": "Nakite hazırlıklı olun, bazı yerel yerler kart kabul etmeyebilir.",
       "description_en": "Elegant venue known for high-quality seafood and creative tapas, featured in the Michelin Guide. Montaditos and fresh fish varieties are recommended.",
       "tips_en": "Be prepared with cash, some local places might not accept cards.",
-      "bestTime_en": "Lunch"
+      "bestTime_en": "Lunch",
+      "name_en": "Paco Meralgo"
     },
     {
       "name": "Palau Güell",
@@ -4041,7 +4191,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/barcelona/palau_guell.jpg",
       "tips": "Çatı katındaki renkli bacaları görmeden ve bodrum katındaki ahırları gezmeden çıkmayın.",
       "description_en": "Antoni Gaudí's first major palace designed for the industrial Catalan bourgeoisie. This dark and magnificent blend of Gothic and Art Nouveau is fascinating, especially with its sky-effect dome in the main hall and unique chimneys.",
-      "tips_en": "Don't leave without seeing the colorful chimneys on the rooftop and visiting the stables in the basement."
+      "tips_en": "Don't leave without seeing the colorful chimneys on the rooftop and visiting the stables in the basement.",
+      "name_en": "Palau Güell"
     },
     {
       "name": "Palau de la Música Catalana",
@@ -4068,7 +4219,8 @@
       "tips": "Fotoğraf makinenizin şarjının dolu olduğundan emin olun.",
       "description_en": "A modernism masterpiece designed by Lluís Domènech i Montaner. One of the world's most beautiful concert halls with its stained-glass ceiling.",
       "tips_en": "Make sure your camera battery is full.",
-      "bestTime_en": "Evening concert"
+      "bestTime_en": "Evening concert",
+      "name_en": "Palau de la Música Catalana"
     },
     {
       "name": "Paradiso",
@@ -4096,7 +4248,8 @@
       "tips": "Giriş için Pastrami Bar'dan geçmeniz gerekir. Erken gitmenizi öneririz.",
       "description_en": "Named World's Best Bar in 2022! Speakeasy disguised as pastrami shop in El Born. Enter through the fridge door, discover experimental cocktails in Gaudí-inspired setting.",
       "tips_en": "You need to walk through the Pastrami Bar to enter. We recommend going early to avoid long queues.",
-      "bestTime_en": "Evening"
+      "bestTime_en": "Evening",
+      "name_en": "Paradiso"
     },
     {
       "name": "Parc de la Ciutadella",
@@ -4124,7 +4277,8 @@
       "tips": "Gün batımını izlemek için şehirdeki en iyi noktalardan biri.",
       "description_en": "Barcelona's main green lung. The city's most popular green space with its 19th-century giant waterfall, pond, statues, and onsite zoo.",
       "tips_en": "One of the best spots in the city to watch the sunset.",
-      "bestTime_en": "Afternoon"
+      "bestTime_en": "Afternoon",
+      "name_en": "Parc de la Ciutadella"
     },
     {
       "name": "Parc del Laberint d'Horta",
@@ -4152,7 +4306,8 @@
       "tips": "Yürüyüş ayakkabısı giymeniz önerilir.",
       "description_en": "Parc del Laberint d'Horta is a green oasis in the Horta area for those who want to escape the city's hustle. Ideal for being with nature with its walking paths, resting areas, and peaceful atmosphere.",
       "tips_en": "Walking shoes are recommended.",
-      "bestTime_en": "Morning"
+      "bestTime_en": "Morning",
+      "name_en": "Parc del Laberint d'Horta"
     },
     {
       "name": "Park Güell",
@@ -4179,7 +4334,8 @@
       "tips": "Ücretsiz kısımları da güzeldir ama anıtsal bölge için bilet şarttır ve önceden alınmalıdır.",
       "description_en": "One of Gaudí's most colorful and imaginative works. Originally planned as a luxury housing estate but later transformed into a public park, this area offers a fairytale experience with its organic forms, famous mosaic lizard, and terrace overlooking the city.",
       "tips_en": "Free parts are nice too, but a ticket is must for the monumental zone and should be bought in advance.",
-      "bestTime_en": "8:00 AM"
+      "bestTime_en": "8:00 AM",
+      "name_en": "Park Güell"
     },
     {
       "id": "gen_ChIJYa1Q20qjpBIRsq6cBkqVT6s",
@@ -4204,7 +4360,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Yerel halkın favori noktalarından biri.",
-      "tips_en": "One of the favorite spots of the locals."
+      "tips_en": "One of the favorite spots of the locals.",
+      "name_en": "Pasteleria Wake & Bakery"
     },
     {
       "id": "gen_ChIJq1M-N529pBIR3bSfWPJAnpA",
@@ -4229,7 +4386,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Yerel halkın favori noktalarından biri.",
-      "tips_en": "One of the favorite spots of the locals."
+      "tips_en": "One of the favorite spots of the locals.",
+      "name_en": "Pastelería Barcelona Dulces Intenciones"
     },
     {
       "name": "Pedralbes Monastery",
@@ -4256,7 +4414,8 @@
       "tips": "Sesli rehber (audio guide) kiralamak deneyimi ikiye katlar.",
       "description_en": "A peaceful 14th-century Gothic monastery with beautiful cloisters and medieval art.",
       "tips_en": "Renting an audio guide doubles the experience.",
-      "bestTime_en": "Morning"
+      "bestTime_en": "Morning",
+      "name_en": "Pedralbes Monastery"
     },
     {
       "id": "gen_ChIJNZTfv0ejpBIRkWHbSz0WEjU",
@@ -4280,7 +4439,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Akşam yemeği için rezervasyon yaptırmak şart.",
-      "tips_en": "Reservation is a must for dinner."
+      "tips_en": "Reservation is a must for dinner.",
+      "name_en": "Petit Tapas"
     },
     {
       "name": "Museu Picasso",
@@ -4335,7 +4495,8 @@
       "tips": "Fotoğraf çekimi için en iyi ışık gün batımına yakındır.",
       "description_en": "One of the city's most elegant squares next to La Rambla, featuring Gaudi-designed lampposts, palm trees, and many restaurants.",
       "tips_en": "Best light for photography is near sunset.",
-      "bestTime_en": "Evening"
+      "bestTime_en": "Evening",
+      "name_en": "Plaça Reial"
     },
     {
       "name": "Plaça Sant Felip Neri",
@@ -4362,7 +4523,8 @@
       "tips": "Grup indirimi olup olmadığını sorun.",
       "description_en": "A hidden square in the Gothic Quarter with a tragic history, now a peaceful spot with a beautiful fountain.",
       "tips_en": "Ask if there is a group discount.",
-      "bestTime_en": "Morning"
+      "bestTime_en": "Morning",
+      "name_en": "Plaça Sant Felip Neri"
     },
     {
       "name": "Plaça de la Vila de Gràcia",
@@ -4389,7 +4551,8 @@
       "tips": "Yapı içerisindeki akustik harika, sessizliği dinleyin.",
       "description_en": "The main square of Gràcia with its iconic clock tower, surrounded by local cafés and shops.",
       "tips_en": "The acoustics inside satisfy; listen to the silence.",
-      "bestTime_en": "Afternoon"
+      "bestTime_en": "Afternoon",
+      "name_en": "Plaça de la Vila de Gràcia"
     },
     {
       "name": "Plaça del Sol",
@@ -4416,7 +4579,8 @@
       "tips": "Rehberli turla gezmek detayları anlamak için çok daha verimli.",
       "description_en": "The heart of Gràcia neighborhood, a lively square surrounded by cafés and bars, perfect for people-watching.",
       "tips_en": "A guided tour is much more efficient to understand the details.",
-      "bestTime_en": "Evening"
+      "bestTime_en": "Evening",
+      "name_en": "Plaça del Sol"
     },
     {
       "name": "Poble Espanyol",
@@ -4444,7 +4608,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/barcelona/poble_espanyol.jpg",
       "tips": "Biletinizi online alarak gişe sırasından kurtulun.",
       "description_en": "Poble Espanyol is a cool spot in Barcelona's Montjuïc.",
-      "tips_en": "Buy tickets online to skip the box office line."
+      "tips_en": "Buy tickets online to skip the box office line.",
+      "name_en": "Poble Espanyol"
     },
     {
       "name": "Poblenou",
@@ -4471,7 +4636,8 @@
       "tips": "Müze kartınız varsa girişte sıra beklemezsiniz.",
       "description_en": "Poblenou is one of Barcelona's most characteristic neighborhoods. With its historic texture, boutique shops and street culture, it best reflects the city's soul. Don't be afraid to get lost and explore.",
       "tips_en": "You skip the line if you have a museum pass.",
-      "bestTime_en": "Afternoon"
+      "bestTime_en": "Afternoon",
+      "name_en": "Poblenou"
     },
     {
       "name": "Port Olímpic",
@@ -4498,7 +4664,8 @@
       "tips": "Kıyafetinizin aktiviteye uygun olduğundan emin olun.",
       "description_en": "Port Olímpic is an ideal stop for those who want to have a pleasant time in the Barceloneta area. It offers unforgettable moments to visitors with its activities and atmosphere.",
       "tips_en": "Ensure your outfit is suitable for the activity.",
-      "bestTime_en": "Night"
+      "bestTime_en": "Night",
+      "name_en": "Port Olímpic"
     },
     {
       "name": "Port Vell Aerial Tramway",
@@ -4525,7 +4692,8 @@
       "tips": "Fotoğraf makinenizin şarjının dolu olduğundan emin olun.",
       "description_en": "Aksiyon and eğlence dolu bir gün geçirmek isteyenler için Port andll Aerial Tramway ideal. Çeşitli aktiviteleri and enerjik atmosferiyle Barceloneta'nın en popüler noktalarından.",
       "tips_en": "Make sure your camera battery is full.",
-      "bestTime_en": "Afternoon"
+      "bestTime_en": "Afternoon",
+      "name_en": "Port Vell Aerial Tramway"
     },
     {
       "id": "gen_ChIJvddCynKjpBIRUYr8yYZUbRA",
@@ -4549,7 +4717,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Yerel şarapları denemenizi öneririz.",
-      "tips_en": "We recommend trying local wines."
+      "tips_en": "We recommend trying local wines.",
+      "name_en": "Rasoi Ghar Restaurant indian"
     },
     {
       "name": "Razzmatazz",
@@ -4576,7 +4745,8 @@
       "tips": "Google Maps yorumlarına göz atarak ne yiyeceğinize karar verin.",
       "description_en": "Barcelona's biggest club with 5 different rooms playing different music styles. A legendary nightlife institution.",
       "tips_en": "Decide what to eat by checking Google Maps reviews.",
-      "bestTime_en": "Late night"
+      "bestTime_en": "Late night",
+      "name_en": "Razzmatazz"
     },
     {
       "name": "Recinte Modernista de Sant Pau",
@@ -4597,7 +4767,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/barcelona/recinte_modernista_de_sant_pau.jpg",
       "bestTime": "Sabah",
       "tips": "Fotoğraf makinenizin şarjının dolu olduğundan emin olun.",
-      "tips_en": "Make sure your camera battery is full."
+      "tips_en": "Make sure your camera battery is full.",
+      "name_en": "Recinte Modernista de Sant Pau"
     },
     {
       "id": "gen_ChIJi8OIIzyjpBIRubWcU35Mp5c",
@@ -4621,7 +4792,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Öğle yemeği menüleri genellikle akşamdan daha uygundur.",
-      "tips_en": "Lunch menus are usually cheaper than dinner."
+      "tips_en": "Lunch menus are usually cheaper than dinner.",
+      "name_en": "Restaurant La Forquilla | Barcelona"
     },
     {
       "id": "gen_ChIJ_0VdAECjpBIRrzq106UdwJY",
@@ -4645,7 +4817,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Nakite hazırlıklı olun, bazı yerel yerler kart kabul etmeyebilir.",
-      "tips_en": "Be prepared with cash, some local places might not accept cards."
+      "tips_en": "Be prepared with cash, some local places might not accept cards.",
+      "name_en": "Restaurant Malaysian Street Delights"
     },
     {
       "id": "gen_ChIJrWYCjZmjpBIRyMyyH2x0R6U",
@@ -4669,7 +4842,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Akşam yemeği için rezervasyon yaptırmak şart.",
-      "tips_en": "Reservation is a must for dinner."
+      "tips_en": "Reservation is a must for dinner.",
+      "name_en": "Restaurante Gòtico – Authentic Barcelona Catalan Spanish Tapas & Paella"
     },
     {
       "id": "gen_ChIJjdu7KpijpBIR_bEdjwLPZeY",
@@ -4694,7 +4868,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Çevredeki küçük hediyelik eşya dükkanlarına da uğrayın.",
-      "tips_en": "Stop by the small souvenir shops around."
+      "tips_en": "Stop by the small souvenir shops around.",
+      "name_en": "Ripa Coffee - Eixample"
     },
     {
       "id": "gen_ChIJIyJmvvW0GkkR0A5zk_CwAFE",
@@ -4718,7 +4893,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Çevredeki küçük hediyelik eşya dükkanlarına da uğrayın.",
-      "tips_en": "Stop by the small souvenir shops around."
+      "tips_en": "Stop by the small souvenir shops around.",
+      "name_en": "Sacsejar Cocktail Class"
     },
     {
       "id": "gen_ChIJ4119PJujpBIRsFU4-Q6OG0Y",
@@ -4743,7 +4919,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Yerel halkın favori noktalarından biri.",
-      "tips_en": "One of the favorite spots of the locals."
+      "tips_en": "One of the favorite spots of the locals.",
+      "name_en": "Sagra Specialty Coffee & Brunch"
     },
     {
       "name": "Sagrada Familia",
@@ -4771,7 +4948,8 @@
       "tips": "İçeri giren ışık oyunlarını en iyi görmek için güneşli bir günde öğleden sonrayı tercih edin.",
       "description_en": "The world-famous basilica that Antoni Gaudí took over in 1882 and is still under construction. This architectural masterpiece combining Gothic and Art Nouveau styles features nature-inspired columns and mesmerizing light plays, depicting different stories from the Bible on each facade.",
       "tips_en": "Prefer a sunny afternoon to best see the light play inside.",
-      "bestTime_en": "Early morning"
+      "bestTime_en": "Early morning",
+      "name_en": "Sagrada Familia"
     },
     {
       "name": "Sala Apolo",
@@ -4798,7 +4976,8 @@
       "tips": "Çevredeki küçük hediyelik eşya dükkanlarına da uğrayın.",
       "description_en": "A legendary music venue and club in a former ballroom, known for live concerts and famous club nights.",
       "tips_en": "Stop by the small souvenir shops around.",
-      "bestTime_en": "Night"
+      "bestTime_en": "Night",
+      "name_en": "Sala Apolo"
     },
     {
       "id": "gen_ChIJTx6tYpKjpBIRvqoBiQpOXG0",
@@ -4822,7 +5001,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Hafta içi ziyaret etmek daha sakin bir deneyim sunar.",
-      "tips_en": "Visiting on weekdays offers a calmer experience."
+      "tips_en": "Visiting on weekdays offers a calmer experience.",
+      "name_en": "Salut Wine Studio"
     },
     {
       "name": "Sant Antoni Market",
@@ -4849,7 +5029,8 @@
       "tips": "Grup indirimi olup olmadığını sorun.",
       "description_en": "A stunning renovated modernist market with a Sunday book and vintage market. A local favorite.",
       "tips_en": "Ask if there is a group discount.",
-      "bestTime_en": "Sunday morning"
+      "bestTime_en": "Sunday morning",
+      "name_en": "Sant Antoni Market"
     },
     {
       "name": "Sant Pau Recinte Modernista",
@@ -4876,7 +5057,8 @@
       "tips": "Fotoğraf makinenizin şarjının dolu olduğundan emin olun.",
       "description_en": "Sant Pau Recinte Modernista is an important structure illuminating the history of the Sant Pau area. With its architecture carrying traces of the past and cultural heritage, it's a treasure waiting to be discovered by history enthusiasts.",
       "tips_en": "Make sure your camera battery is full.",
-      "bestTime_en": "Morning"
+      "bestTime_en": "Morning",
+      "name_en": "Sant Pau Recinte Modernista"
     },
     {
       "name": "Santa Caterina Market",
@@ -4903,7 +5085,8 @@
       "tips": "Grup indirimi olup olmadığını sorun.",
       "description_en": "A favorite among foodies, Santa Caterina Market is one of El Born's most beloved dining destinations. The chef's special recipes and intimate atmosphere elevate the dining experience.",
       "tips_en": "Ask if there is a group discount.",
-      "bestTime_en": "Morning"
+      "bestTime_en": "Morning",
+      "name_en": "Santa Caterina Market"
     },
     {
       "id": "gen_ChIJd89uNxmjpBIRNwJZ_PqLluA",
@@ -4927,7 +5110,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Akşam yemeği için rezervasyon yaptırmak şart.",
-      "tips_en": "Reservation is a must for dinner."
+      "tips_en": "Reservation is a must for dinner.",
+      "name_en": "Santa Rita Experience"
     },
     {
       "name": "Satan's Coffee Corner",
@@ -4954,7 +5138,8 @@
       "tips": "Hafta içi ziyaret etmek daha sakin bir deneyim sunar.",
       "description_en": "A trendy specialty coffee shop in the Gothic Quarter known for its quality brews and cool atmosphere.",
       "tips_en": "Visiting on weekdays offers a calmer experience.",
-      "bestTime_en": "Morning"
+      "bestTime_en": "Morning",
+      "name_en": "Satan's Coffee Corner"
     },
     {
       "name": "Sercotel Rosselló Rooftop",
@@ -4981,7 +5166,8 @@
       "tips": "Hafta içi ziyaret etmek daha sakin bir deneyim sunar.",
       "description_en": "A hidden gem rooftop bar with direct views of Sagrada Familia. Perfect for a relaxed drink with an iconic backdrop.",
       "tips_en": "Visiting on weekdays offers a calmer experience.",
-      "bestTime_en": "Night"
+      "bestTime_en": "Night",
+      "name_en": "Sercotel Rosselló Rooftop"
     },
     {
       "id": "gen_ChIJccnX6-GjpBIRicXjIkhr6ig",
@@ -5005,7 +5191,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Akşam yemeği için rezervasyon yaptırmak şart.",
-      "tips_en": "Reservation is a must for dinner."
+      "tips_en": "Reservation is a must for dinner.",
+      "name_en": "Seven Under bar"
     },
     {
       "name": "Sips",
@@ -5032,7 +5219,8 @@
       "tips": "Çevredeki küçük hediyelik eşya dükkanlarına da uğrayın.",
       "description_en": "Sips captures the pulse of Eixample's nightlife with high energy. A popular address where you can have a pleasant time with friends with its special cocktails, music, and lively atmosphere.",
       "tips_en": "Stop by the small souvenir shops around.",
-      "bestTime_en": "Evening"
+      "bestTime_en": "Evening",
+      "name_en": "Sips"
     },
     {
       "name": "Sky Bar Grand Hotel Central",
@@ -5059,7 +5247,8 @@
       "tips": "Yerel şarapları denemenizi öneririz.",
       "description_en": "A rooftop bar with stunning views of Barcelona's skyline and the old town. Perfect for sunset drinks.",
       "tips_en": "We recommend trying local wines.",
-      "bestTime_en": "Sunset"
+      "bestTime_en": "Sunset",
+      "name_en": "Sky Bar Grand Hotel Central"
     },
     {
       "name": "SlowMov",
@@ -5086,7 +5275,8 @@
       "tips": "Yerel halkın favori noktalarından biri.",
       "description_en": "A cozy specialty coffee shop in El Born with a focus on slow brewing methods and quality beans.",
       "tips_en": "One of the favorite spots of the locals.",
-      "bestTime_en": "Afternoon"
+      "bestTime_en": "Afternoon",
+      "name_en": "SlowMov"
     },
     {
       "id": "gen_ChIJ05ZmIkOjpBIRkH_LNV3MFmg",
@@ -5110,7 +5300,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Yerel halkın favori noktalarından biri.",
-      "tips_en": "One of the favorite spots of the locals."
+      "tips_en": "One of the favorite spots of the locals.",
+      "name_en": "Strange Cocktail Bar"
     },
     {
       "id": "gen_ChIJM2QD3ICjpBIRmN_HoM4ngFo",
@@ -5134,7 +5325,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Grup indirimi olup olmadığını sorun.",
-      "tips_en": "Ask if there is a group discount."
+      "tips_en": "Ask if there is a group discount.",
+      "name_en": "Sweet n' Ice Gelateria a Barcelona"
     },
     {
       "id": "gen_ChIJmxhkUZmjpBIRjFUtz0o6pxc",
@@ -5159,7 +5351,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Yerel halkın favori noktalarından biri.",
-      "tips_en": "One of the favorite spots of the locals."
+      "tips_en": "One of the favorite spots of the locals.",
+      "name_en": "Syra Coffee | H&M"
     },
     {
       "id": "gen_ChIJyVm-kaGipBIRJg2nYxPU3T8",
@@ -5183,7 +5376,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Hafta içi ziyaret etmek daha sakin bir deneyim sunar.",
-      "tips_en": "Visiting on weekdays offers a calmer experience."
+      "tips_en": "Visiting on weekdays offers a calmer experience.",
+      "name_en": "Tacadevi | Wine Tasting & Tours Barcelona"
     },
     {
       "id": "gen_ChIJ45BGMGCjpBIR9Lz_X3lW3d0",
@@ -5208,7 +5402,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Hafta içi ziyaret etmek daha sakin bir deneyim sunar.",
-      "tips_en": "Visiting on weekdays offers a calmer experience."
+      "tips_en": "Visiting on weekdays offers a calmer experience.",
+      "name_en": "Tartas en Barcelona - LORENA BAKERY (Click&collect) (Servicio domicilio)"
     },
     {
       "name": "Teatre del Liceu",
@@ -5235,7 +5430,8 @@
       "tips": "Rehbere soru sormaktan çekinmeyin, çok ilginç hikayeler biliyorlar.",
       "description_en": "Barcelona's grand opera house on Las Ramblas, one of Europe's most prestigious opera venues.",
       "tips_en": "Don't hesitate to ask the guide questions, they know interesting stories.",
-      "bestTime_en": "Evening"
+      "bestTime_en": "Evening",
+      "name_en": "Teatre del Liceu"
     },
     {
       "name": "Telefèric de Montjuïc",
@@ -5288,7 +5484,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Nakite hazırlıklı olun, bazı yerel yerler kart kabul etmeyebilir.",
-      "tips_en": "Be prepared with cash, some local places might not accept cards."
+      "tips_en": "Be prepared with cash, some local places might not accept cards.",
+      "name_en": "The Alchemix"
     },
     {
       "name": "The Roof at EDITION",
@@ -5315,7 +5512,8 @@
       "tips": "Yerel şarapları denemenizi öneririz.",
       "description_en": "A stylish rooftop bar at The Barcelona EDITION hotel with panoramic city views and craft cocktails.",
       "tips_en": "We recommend trying local wines.",
-      "bestTime_en": "Sunset"
+      "bestTime_en": "Sunset",
+      "name_en": "The Roof at EDITION"
     },
     {
       "name": "Three Marks Coffee",
@@ -5342,7 +5540,8 @@
       "tips": "Çevredeki küçük hediyelik eşya dükkanlarına da uğrayın.",
       "description_en": "Specialty coffee roasters with a beautiful industrial space. Known for their carefully sourced and roasted beans.",
       "tips_en": "Stop by the small souvenir shops around.",
-      "bestTime_en": "Morning"
+      "bestTime_en": "Morning",
+      "name_en": "Three Marks Coffee"
     },
     {
       "name": "Tibidabo",
@@ -5370,7 +5569,8 @@
       "tips": "Teleskop/dürbün varsa yanınıza alın.",
       "description_en": "Tibidabo offers one of the city's most impressive views. With its spectacular sunset visuals and commanding position over the Tibidabo area, it's an unmissable spot for photography enthusiasts.",
       "tips_en": "Bring a telescope/binoculars if you have them.",
-      "bestTime_en": "Sunset"
+      "bestTime_en": "Sunset",
+      "name_en": "Tibidabo"
     },
     {
       "name": "Tickets",
@@ -5397,7 +5597,8 @@
       "tips": "Nakite hazırlıklı olun, bazı yerel yerler kart kabul etmeyebilir.",
       "description_en": "Was Albert Adrià's (elBulli) iconic Michelin-starred tapas bar. Closed in 2021, but holds an important place in Barcelona's gastronomy history.",
       "tips_en": "Be prepared with cash, some local places might not accept cards.",
-      "bestTime_en": "Dinner"
+      "bestTime_en": "Dinner",
+      "name_en": "Tickets"
     },
     {
       "name": "Two Schmucks",
@@ -5424,7 +5625,8 @@
       "tips": "Hafta içi ziyaret etmek daha sakin bir deneyim sunar.",
       "description_en": "Five-star dive bar concept in El Raval. Rose to #7 on World's 50 Best Bars. Graffiti walls, friendly atmosphere and creative cocktails.",
       "tips_en": "Visiting on weekdays offers a calmer experience.",
-      "bestTime_en": "Evening"
+      "bestTime_en": "Evening",
+      "name_en": "Two Schmucks"
     },
     {
       "id": "gen_ChIJZ54_dtqjpBIRTBM2X2GGgmw",
@@ -5448,7 +5650,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Hafta içi ziyaret etmek daha sakin bir deneyim sunar.",
-      "tips_en": "Visiting on weekdays offers a calmer experience."
+      "tips_en": "Visiting on weekdays offers a calmer experience.",
+      "name_en": "UNCORQT Bodega Wine Bar"
     },
     {
       "id": "gen_ChIJ06SRlDajpBIR-QvQhN8Zqso",
@@ -5473,7 +5676,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Google Maps yorumlarına göz atarak ne yiyeceğinize karar verin.",
-      "tips_en": "Decide what to eat by checking Google Maps reviews."
+      "tips_en": "Decide what to eat by checking Google Maps reviews.",
+      "name_en": "Vanta Coffee"
     },
     {
       "id": "gen_ChIJoW3KxVeipBIRWyvQI76z4cA",
@@ -5497,7 +5701,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Yerel şarapları denemenizi öneririz.",
-      "tips_en": "We recommend trying local wines."
+      "tips_en": "We recommend trying local wines.",
+      "name_en": "Viana Barcelona"
     },
     {
       "id": "gen_ChIJo_SXGqajpBIRNXLdOuKjThQ",
@@ -5521,7 +5726,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Akşam yemeği için rezervasyon yaptırmak şart.",
-      "tips_en": "Reservation is a must for dinner."
+      "tips_en": "Reservation is a must for dinner.",
+      "name_en": "Vietnam authentic restaurant"
     },
     {
       "id": "gen_ChIJo5FU_lGZpBIRSIsiSmOWv8Q",
@@ -5545,7 +5751,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Hafta içi ziyaret etmek daha sakin bir deneyim sunar.",
-      "tips_en": "Visiting on weekdays offers a calmer experience."
+      "tips_en": "Visiting on weekdays offers a calmer experience.",
+      "name_en": "Wine Factory"
     },
     {
       "id": "gen_ChIJk_HrSDGjpBIRn7-3xoIJrlw",
@@ -5570,7 +5777,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Çevredeki küçük hediyelik eşya dükkanlarına da uğrayın.",
-      "tips_en": "Stop by the small souvenir shops around."
+      "tips_en": "Stop by the small souvenir shops around.",
+      "name_en": "XILOTECA COFFEE + BOTIGA"
     },
     {
       "id": "gen_ChIJ6_fckBijpBIRKuN4tjfLq3s",
@@ -5594,7 +5802,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Akşam yemeği için rezervasyon yaptırmak şart.",
-      "tips_en": "Reservation is a must for dinner."
+      "tips_en": "Reservation is a must for dinner.",
+      "name_en": "Xera Restaurant"
     }
   ],
   "country_en": "Spain",

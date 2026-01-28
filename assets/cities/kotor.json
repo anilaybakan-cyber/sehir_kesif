@@ -74,7 +74,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Pazar günleri kapalı olabilir, kontrol edin.",
       "tips_en": "Might be closed on Sundays, do check.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Antique Shops"
     },
     {
       "name": "Aquarium Boka",
@@ -143,7 +144,8 @@
       "tips": "Akşam yemeği için rezervasyon yaptırmak şart.",
       "tips_en": "Reservation is a must for dinner.",
       "description_en": "Yerel halkın favorisi bol porsiyonlu ızgaracı. A great option to taste local flavors and spend a pleasant eandning. It offers an unforgettable experience appealing to your palate with its friendly atmosphere and quality service.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "BBQ Tanjga"
     },
     {
       "name": "Bajova Kula Beach",
@@ -189,7 +191,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Gün batımından 30 dakika önce gelip yerinizi alın, manzara muazzam.",
       "tips_en": "Arrive 30 mins before sunset to secure a spot, the view is magnificent.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Bandiera"
     },
     {
       "name": "Banja Monastery",
@@ -262,7 +265,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Rehbere soru sormaktan çekinmeyin, çok ilginç hikayeler biliyorlar.",
       "tips_en": "Don't hesitate to ask the guide questions, they know interesting stories.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Bay of Kotor Boat Tour"
     },
     {
       "name": "Beach Bar Pirate",
@@ -283,7 +287,8 @@
       "id": "beach-bar-pirate",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kotor/beach-bar-pirate.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Beach Bar Pirate"
     },
     {
       "name": "Belavista Square",
@@ -377,7 +382,8 @@
       "id": "best-view-of-kotor",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kotor/best-view-of-kotor.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Best View of Kotor"
     },
     {
       "name": "Big Ben",
@@ -446,7 +452,8 @@
       "id": "bigova",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kotor/bigova.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Bigova"
     },
     {
       "name": "Biljarda",
@@ -515,7 +522,8 @@
       "id": "biskupija",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kotor/biskupija.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Biskupija"
     },
     {
       "name": "Bjelila",
@@ -536,7 +544,8 @@
       "id": "bjelila",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kotor/bjelila.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Bjelila"
     },
     {
       "name": "Blue Cave (Plava Spilja)",
@@ -557,7 +566,8 @@
       "id": "blue-cave-plava-spilja",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kotor/blue-cave-plava-spilja.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Blue Cave (Plava Spilja)"
     },
     {
       "name": "Blue Cave Montenegro",
@@ -626,7 +636,8 @@
       "id": "bokeski-gusti",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kotor/bokeski-gusti.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Bokeski Gusti"
     },
     {
       "name": "Bokun Wine Bar",
@@ -648,7 +659,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Ev yapımı şaraplarını denemeden dönmeyin.",
       "tips_en": "Don't leave without trying their house wines.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Bokun Wine Bar"
     },
     {
       "name": "Bronza Palace",
@@ -669,7 +681,8 @@
       "id": "bronza-palace",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kotor/bronza-palace.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Bronza Palace"
     },
     {
       "name": "Bucha-Lukovic Museum",
@@ -786,7 +799,8 @@
       "tips": "Su ve rahat ayakkabı almayı kesinlikle unutmayın.",
       "tips_en": "Definitely don't forget water and comfortable shoes.",
       "description_en": "Offering a challenging 1350-step climb for those wanting a bird's-eye view, the castle boasts the most iconic panorama of the bay. The view of the Bay of Kotor from the summit makes all the effort worthwhile.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Castle of San Giovanni"
     },
     {
       "name": "Cat Feeding Tour",
@@ -808,7 +822,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Kıyafetinizin aktiviteye uygun olduğundan emin olun.",
       "tips_en": "Ensure your outfit is suitable for the activity.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Cat Feeding Tour"
     },
     {
       "name": "Cathedral Square",
@@ -829,7 +844,8 @@
       "id": "cathedral-square",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kotor/cathedral-square.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Cathedral Square"
     },
     {
       "name": "Cathedral of Saint Tryphon",
@@ -850,7 +866,8 @@
       "tips": "Rehberli turla gezmek detayları anlamak için çok daha verimli.",
       "tips_en": "A guided tour is much more efficient to understand the details.",
       "description_en": "Kotor'un en önemli simgesi olan katedral. A unique treasure for history buffs, this andnue captivates visitors with details that shed light on the past. An ideal stop for those wishing to embark on a cultural journey.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Cathedral of Saint Tryphon"
     },
     {
       "name": "Catovica Mlini",
@@ -897,7 +914,8 @@
       "tips": "Sesli rehber (audio guide) kiralamak deneyimi ikiye katlar.",
       "tips_en": "Renting an audio guide doubles the experience.",
       "description_en": "A small, passionate, and unique museum dedicated to Kotor's legendary cat population. Cat-themed artworks, historic photos, sculptures, and all kinds of cat memorabilia, a fun and enjoyable visit for cat lovers.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Cats Museum"
     },
     {
       "name": "Cesarica",
@@ -919,7 +937,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Şefin spesiyal tabağını sormaktan çekinmeyin.",
       "tips_en": "Don't hesitate to ask for the chef's special.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Cesarica"
     },
     {
       "name": "Cetinje Monastery",
@@ -965,7 +984,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Teleskop/dürbün varsa yanınıza alın.",
       "tips_en": "Bring a telescope/binoculars if you have them.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Church of Our Lady of Remedy"
     },
     {
       "name": "Church of St. Anne",
@@ -1056,7 +1076,8 @@
       "id": "citadel",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kotor/citadel.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Citadel"
     },
     {
       "name": "Citadela Herceg Novi",
@@ -1101,7 +1122,8 @@
       "id": "citadela-restaurant",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kotor/citadela-restaurant.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Citadela Restaurant"
     },
     {
       "name": "City Museum Herceg Novi",
@@ -1170,7 +1192,8 @@
       "id": "clock-tower-pillory",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kotor/clock-tower-pillory.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Clock Tower (Pillory)"
     },
     {
       "name": "Clock Tower Herceg Novi",
@@ -1215,7 +1238,8 @@
       "id": "cogimar",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kotor/cogimar.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Cogimar"
     },
     {
       "name": "Cogimar Beach",
@@ -1308,7 +1332,8 @@
       "id": "do-do",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kotor/do-do.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Do Do"
     },
     {
       "name": "Dobrota Promenade",
@@ -1425,7 +1450,8 @@
       "id": "fort-vrmac",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kotor/fort-vrmac.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Fort Vrmac"
     },
     {
       "name": "Forte Mare",
@@ -1470,7 +1496,8 @@
       "tips": "Kahvenin yanında ev yapımı tatlılarını mutlaka deneyin.",
       "tips_en": "Must try their homemade desserts with coffee.",
       "description_en": "Şehrin en iyi Kotor pastası (Krempita) burada. One of the right addresses to relieand the tiredness of the day and relax with a delicious coffee. The warm ambiance of the andnue and the sweet surprises it offers will turn your break into pleasure.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Forza Cafe"
     },
     {
       "name": "Forza Mare",
@@ -1515,7 +1542,8 @@
       "id": "forza-terra",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kotor/forza-terra.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Forza Terra"
     },
     {
       "name": "Galion",
@@ -1536,7 +1564,8 @@
       "tips": "Şefin spesiyal tabağını sormaktan çekinmeyin.",
       "tips_en": "Don't hesitate to ask for the chef's special.",
       "description_en": "Su kenarında, kale manzaralı şık balık restoranı. A great option to taste local flavors and spend a pleasant eandning. It offers an unforgettable experience appealing to your palate with its friendly atmosphere and quality service.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Galion"
     },
     {
       "name": "Gallery Nobilis",
@@ -1557,7 +1586,8 @@
       "id": "gallery-nobilis",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kotor/gallery-nobilis.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Gallery Nobilis"
     },
     {
       "name": "Godinje Village",
@@ -1602,7 +1632,8 @@
       "id": "gorazda-fortress",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kotor/gorazda-fortress.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Gorazda Fortress"
     },
     {
       "name": "Gornja Lastva",
@@ -1647,7 +1678,8 @@
       "id": "gornji-stoliv",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kotor/gornji-stoliv.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Gornji Stoliv"
     },
     {
       "name": "Gospa od Skrpjela (Our Lady of the Rocks)",
@@ -1668,7 +1700,8 @@
       "id": "gospa-od-skrpjela-our-lady-of-the-rocks",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kotor/gospa-od-skrpjela-our-lady-of-the-rocks.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Gospa od Skrpjela (Our Lady of the Rocks)"
     },
     {
       "name": "Gradska Kafana",
@@ -1737,7 +1770,8 @@
       "id": "grispolis",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kotor/grispolis.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Grispolis"
     },
     {
       "name": "Grmozur Fortress",
@@ -1782,7 +1816,8 @@
       "id": "grubonja-palace",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kotor/grubonja-palace.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Grubonja Palace"
     },
     {
       "name": "Gurdic Gate (South Gate)",
@@ -1804,7 +1839,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Müze kartınız varsa girişte sıra beklemezsiniz.",
       "tips_en": "You skip the line if you have a museum pass.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Gurdic Gate (South Gate)"
     },
     {
       "name": "Haj-Nehaj Fortress",
@@ -1849,7 +1885,8 @@
       "id": "havana-club",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kotor/havana-club.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Havana Club"
     },
     {
       "name": "Horizont Bar",
@@ -1870,7 +1907,8 @@
       "id": "horizont-bar",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kotor/horizont-bar.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Horizont Bar"
     },
     {
       "name": "Hostel Pupa Bar",
@@ -2107,7 +2145,8 @@
       "tips": "Sabah erken saatlerde giderek turist kalabalığından kaçınabilirsiniz.",
       "tips_en": "Go early in the morning to avoid tourist crowds.",
       "description_en": "historic surların and burçların en iyi korunduğu nokta. A unique treasure for history buffs, this andnue captivates visitors with details that shed light on the past. An ideal stop for those wishing to embark on a cultural journey.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Kampana Tower"
     },
     {
       "name": "Kampana Tower Viewpoint",
@@ -2128,7 +2167,8 @@
       "id": "kampana-tower-viewpoint",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kotor/kampana-tower-viewpoint.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Kampana Tower Viewpoint"
     },
     {
       "name": "Kanli Kula Fortress",
@@ -2293,7 +2333,8 @@
       "id": "kod-pera-na-bukovicu",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kotor/kod-pera-na-bukovicu.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Kod Pera na Bukovicu"
     },
     {
       "name": "Konoba Akustik",
@@ -2314,7 +2355,8 @@
       "id": "konoba-akustik",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kotor/konoba-akustik.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Konoba Akustik"
     },
     {
       "name": "Konoba Boka Bay",
@@ -2335,7 +2377,8 @@
       "id": "konoba-boka-bay",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kotor/konoba-boka-bay.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Konoba Boka Bay"
     },
     {
       "name": "Konoba Bonaca",
@@ -2356,7 +2399,8 @@
       "id": "konoba-bonaca",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kotor/konoba-bonaca.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Konoba Bonaca"
     },
     {
       "name": "Konoba Feral",
@@ -2401,7 +2445,8 @@
       "id": "konoba-marius",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kotor/konoba-marius.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Konoba Marius"
     },
     {
       "name": "Konoba Portun",
@@ -2447,7 +2492,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Akşam yemeği için rezervasyon yaptırmak şart.",
       "tips_en": "Reservation is a must for dinner.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Konoba Scala Santa"
     },
     {
       "name": "Konoba Trpeza",
@@ -2492,7 +2538,8 @@
       "id": "kotor-art-cinema-boka",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kotor/kotor-art-cinema-boka.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Kotor Art Cinema Boka"
     },
     {
       "name": "Kotor Bazaar",
@@ -2513,7 +2560,8 @@
       "tips": "Yerel tasarımcıların ürünlerine göz atın.",
       "tips_en": "Check out products from local designers.",
       "description_en": "Hediyelik eşyalar and el sanatları pazarı. A place you must stop by to discoandr region-specific products and buy gifts for your loandd ones. Colorful shops and a liandly atmosphere will make your shopping experience much more enjoyable.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Kotor Bazaar"
     },
     {
       "name": "Kotor Cable Car",
@@ -2558,7 +2606,8 @@
       "id": "kotor-city-walls-walk-north",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kotor/kotor-city-walls-walk-north.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Kotor City Walls Walk (North)"
     },
     {
       "name": "Kotor Farmers Market",
@@ -2579,7 +2628,8 @@
       "id": "kotor-farmers-market",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kotor/kotor-farmers-market.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Kotor Farmers Market"
     },
     {
       "name": "Kotor Old Town",
@@ -2600,7 +2650,8 @@
       "tips": "Müze kartınız varsa girişte sıra beklemezsiniz.",
       "tips_en": "You skip the line if you have a museum pass.",
       "description_en": "This UNESCO World Heritage medieval city resembles a labyrinth with its narrow stone streets and Venetian architecture. The cats meeting you at every corner, historic squares, and hidden courtyards make up the city's soul.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Kotor Old Town"
     },
     {
       "name": "Kotor Serpantine Viewpoint",
@@ -2645,7 +2696,8 @@
       "id": "kotor-serpentine-road",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kotor/kotor-serpentine-road.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Kotor Serpentine Road"
     },
     {
       "name": "Krasici",
@@ -2666,7 +2718,8 @@
       "id": "krasici",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kotor/krasici.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Krasici"
     },
     {
       "name": "Krstac Viewpoint",
@@ -2711,7 +2764,8 @@
       "id": "la-catedral-pasta-bar",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kotor/la-catedral-pasta-bar.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "La Catedral Pasta Bar"
     },
     {
       "name": "Ladder of Kotor (Start Point)",
@@ -2732,7 +2786,8 @@
       "id": "ladder-of-kotor-start-point",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kotor/ladder-of-kotor-start-point.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Ladder of Kotor (Start Point)"
     },
     {
       "name": "Ladovina",
@@ -2777,7 +2832,8 @@
       "id": "ladovina-kitchen--wine-bar",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kotor/ladovina-kitchen--wine-bar.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Ladovina Kitchen & Wine Bar"
     },
     {
       "name": "Letrika Caffe Bar",
@@ -2798,7 +2854,8 @@
       "id": "letrika-caffe-bar",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kotor/letrika-caffe-bar.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Letrika Caffe Bar"
     },
     {
       "name": "Lipa Cave",
@@ -2867,7 +2924,8 @@
       "id": "ljuta",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kotor/ljuta.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Ljuta"
     },
     {
       "name": "Lombardic Palace",
@@ -2888,7 +2946,8 @@
       "id": "lombardic-palace",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kotor/lombardic-palace.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Lombardic Palace"
     },
     {
       "name": "Lovcen Milli Parkı",
@@ -3008,7 +3067,8 @@
       "id": "mademoiselle-dine--wine-lounge",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kotor/mademoiselle-dine--wine-lounge.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Mademoiselle Dine & Wine Lounge"
     },
     {
       "name": "Maestral",
@@ -3054,7 +3114,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Müze kartınız varsa girişte sıra beklemezsiniz.",
       "tips_en": "You skip the line if you have a museum pass.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Main Gate (Sea Gate)"
     },
     {
       "name": "Mamula Island",
@@ -3099,7 +3160,8 @@
       "tips": "Çantanızı vestiyere bırakmanız gerekebilir, hazırlıklı olun.",
       "tips_en": "You might need to leave bags at the cloakroom, be prepared.",
       "description_en": "Denizcilik tarihini anlatan saray müzesi. A must-see for art and history loandrs, this museum stands out with its rich collection. The exhibited works will allow you to deeply understand the region's cultural heritage.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Maritime Museum"
     },
     {
       "name": "Markov Rt",
@@ -3120,7 +3182,8 @@
       "id": "markov-rt",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kotor/markov-rt.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Markov Rt"
     },
     {
       "name": "Marshall's Gelato",
@@ -3141,7 +3204,8 @@
       "id": "marshall-s-gelato",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kotor/marshall-s-gelato.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Marshall's Gelato"
     },
     {
       "name": "Maximus",
@@ -3210,7 +3274,8 @@
       "id": "mirista-beach",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kotor/mirista-beach.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Mirista Beach"
     },
     {
       "name": "Mogren Beach",
@@ -3255,7 +3320,8 @@
       "id": "mon-ami",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kotor/mon-ami.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Mon Ami"
     },
     {
       "name": "Morinj Beach",
@@ -3276,7 +3342,8 @@
       "id": "morinj-beach",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kotor/morinj-beach.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Morinj Beach"
     },
     {
       "name": "Mudra Art Cuisine",
@@ -3321,7 +3388,8 @@
       "id": "muo",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kotor/muo.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Muo"
     },
     {
       "name": "Muo Promenade",
@@ -3342,7 +3410,8 @@
       "id": "muo-promenade",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kotor/muo-promenade.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Muo Promenade"
     },
     {
       "name": "Murano Restaurant",
@@ -3411,7 +3480,8 @@
       "id": "museum-square",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kotor/museum-square.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Museum Square"
     },
     {
       "name": "Napoleon Tiyatrosu",
@@ -3508,7 +3578,8 @@
       "id": "nevjesta-jadrana-viewpoint",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kotor/nevjesta-jadrana-viewpoint.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Nevjesta Jadrana Viewpoint"
     },
     {
       "name": "Nikki Beach Montenegro",
@@ -3553,7 +3624,8 @@
       "id": "nitrox-bbq",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kotor/nitrox-bbq.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Nitrox BBQ"
     },
     {
       "name": "Njegos Mozolesi",
@@ -3695,7 +3767,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Ev yapımı şaraplarını denemeden dönmeyin.",
       "tips_en": "Don't leave without trying their house wines.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Old Winery"
     },
     {
       "name": "Olive Mill Lustica",
@@ -3740,7 +3813,8 @@
       "id": "ombra-caffe--lounge-bar",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kotor/ombra-caffe--lounge-bar.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Ombra Caffe & Lounge Bar"
     },
     {
       "name": "Orahovac Beach",
@@ -3761,7 +3835,8 @@
       "id": "orahovac-beach",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kotor/orahovac-beach.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Orahovac Beach"
     },
     {
       "name": "Ostrog Monastery",
@@ -3878,7 +3953,8 @@
       "id": "park-slobode",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kotor/park-slobode.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Park Slobode"
     },
     {
       "name": "Pavlova Strana Viewpoint",
@@ -3947,7 +4023,8 @@
       "id": "perast-museum-bujovic-palace",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kotor/perast-museum-bujovic-palace.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Perast Museum (Bujovic Palace)"
     },
     {
       "name": "Perast Müzesi",
@@ -3992,7 +4069,8 @@
       "id": "pescaria-dekaderon",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kotor/pescaria-dekaderon.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Pescaria Dekaderon"
     },
     {
       "name": "Pestori",
@@ -4013,7 +4091,8 @@
       "id": "pestori",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kotor/pestori.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Pestori"
     },
     {
       "name": "Pet Danica Walkway",
@@ -4082,7 +4161,8 @@
       "id": "piazza-of-flour",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kotor/piazza-of-flour.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Piazza of Flour"
     },
     {
       "name": "Piazza of Milk",
@@ -4103,7 +4183,8 @@
       "id": "piazza-of-milk",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kotor/piazza-of-milk.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Piazza of Milk"
     },
     {
       "name": "Piazza of Salad",
@@ -4124,7 +4205,8 @@
       "id": "piazza-of-salad",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kotor/piazza-of-salad.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Piazza of Salad"
     },
     {
       "name": "Piazza of Wood",
@@ -4145,7 +4227,8 @@
       "id": "piazza-of-wood",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kotor/piazza-of-wood.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Piazza of Wood"
     },
     {
       "name": "Pima Sarayı",
@@ -4215,7 +4298,8 @@
       "id": "pirun--ozica",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kotor/pirun--ozica.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Pirun & Ozica"
     },
     {
       "name": "Plavi Horizonti Beach",
@@ -4261,7 +4345,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Akşam saatlerinde şehir ışıklarını izlemek çok romantik.",
       "tips_en": "Watching city lights in the evening is very romantic.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Plaza of Arms"
     },
     {
       "name": "Ploce Beach",
@@ -4354,7 +4439,8 @@
       "id": "pontus-beach-club",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kotor/pontus-beach-club.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Pontus Beach Club"
     },
     {
       "name": "Porto Montenegro",
@@ -4423,7 +4509,8 @@
       "id": "prevlaka-island",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kotor/prevlaka-island.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Prevlaka Island"
     },
     {
       "name": "Prince's Palace",
@@ -4444,7 +4531,8 @@
       "id": "prince-s-palace",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kotor/prince-s-palace.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Prince's Palace"
     },
     {
       "name": "Pržun",
@@ -4465,7 +4553,8 @@
       "id": "przun",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kotor/przun.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Pržun"
     },
     {
       "name": "Pub Old Town",
@@ -4486,7 +4575,8 @@
       "id": "pub-old-town",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kotor/pub-old-town.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Pub Old Town"
     },
     {
       "name": "Radoncic Palace",
@@ -4535,7 +4625,8 @@
       "id": "restaurant-galija",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kotor/restaurant-galija.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Restaurant Galija"
     },
     {
       "name": "Restaurant Prova",
@@ -4556,7 +4647,8 @@
       "id": "restaurant-prova",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kotor/restaurant-prova.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Restaurant Prova"
     },
     {
       "name": "Restoran Stari Mlini",
@@ -4673,7 +4765,8 @@
       "id": "risan-mosaics-roman-villa",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kotor/risan-mosaics-roman-villa.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Risan Mosaics (Roman Villa)"
     },
     {
       "name": "River Gate (North Gate)",
@@ -4814,7 +4907,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Panoramik fotoğraf için geniş açı lensinizi hazırlayın.",
       "tips_en": "Prepare your wide-angle lens for panoramic photos.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "San Giovanni Fortress View"
     },
     {
       "name": "Savina Monastery",
@@ -4859,7 +4953,8 @@
       "id": "shopping-centre-kamelija",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kotor/shopping-centre-kamelija.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Shopping Centre Kamelija"
     },
     {
       "name": "Siempre",
@@ -4880,7 +4975,8 @@
       "id": "siempre",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kotor/siempre.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Siempre"
     },
     {
       "name": "Skadar Lake National Park",
@@ -4925,7 +5021,8 @@
       "id": "skurda-river",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kotor/skurda-river.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Skurda River"
     },
     {
       "name": "Skver Harbor",
@@ -4970,7 +5067,8 @@
       "id": "smekja-palace",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kotor/smekja-palace.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Smekja Palace"
     },
     {
       "name": "Solila Nature Reserve",
@@ -5015,7 +5113,8 @@
       "id": "south-gate-bastion",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kotor/south-gate-bastion.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "South Gate Bastion"
     },
     {
       "name": "Spanjola Fortress",
@@ -5084,7 +5183,8 @@
       "id": "st-francis-church-ruins",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kotor/st-francis-church-ruins.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "St. Francis Church Ruins"
     },
     {
       "name": "St. George Island",
@@ -5129,7 +5229,8 @@
       "id": "st-nikola-church",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kotor/st-nikola-church.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "St. Nikola Church"
     },
     {
       "name": "St. Paul's Church",
@@ -5150,7 +5251,8 @@
       "id": "st-paul-s-church",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kotor/st-paul-s-church.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "St. Paul's Church"
     },
     {
       "name": "St. Sava Church",
@@ -5267,7 +5369,8 @@
       "id": "stoliv",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kotor/stoliv.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Stoliv"
     },
     {
       "name": "Sveti Andrije",
@@ -5288,7 +5391,8 @@
       "id": "sveti-andrije",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kotor/sveti_andrije.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Sveti Andrije"
     },
     {
       "name": "Sveti Nikolaj Island",
@@ -5381,7 +5485,8 @@
       "id": "the-harbour-pub",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kotor/the-harbour-pub.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "The Harbour Pub"
     },
     {
       "name": "Tito's Villa Galeb",
@@ -5498,7 +5603,8 @@
       "id": "trsteno-beach",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kotor/trsteno-beach.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Trsteno Beach"
     },
     {
       "name": "Velja Spila Beach",
@@ -5519,7 +5625,8 @@
       "id": "velja-spila-beach",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kotor/velja-spila-beach.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Velja Spila Beach"
     },
     {
       "name": "Verige 65",
@@ -5564,7 +5671,8 @@
       "id": "verige-beach",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kotor/verige-beach.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Verige Beach"
     },
     {
       "name": "Verige Strait Viewpoint",
@@ -5585,7 +5693,8 @@
       "id": "verige-strait-viewpoint",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kotor/verige-strait-viewpoint.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Verige Strait Viewpoint"
     },
     {
       "name": "Vinarija Delić",
@@ -5606,7 +5715,8 @@
       "id": "vinarija-delic",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kotor/vinarija-delic.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Vinarija Delić"
     },
     {
       "name": "Vrakjen Palace",
@@ -5627,7 +5737,8 @@
       "id": "vrakjen-palace",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kotor/vrakjen-palace.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Vrakjen Palace"
     },
     {
       "name": "Vrmac Ridge Trail",
@@ -5648,7 +5759,8 @@
       "id": "vrmac-ridge-trail",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kotor/vrmac-ridge-trail.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Vrmac Ridge Trail"
     },
     {
       "name": "Vrmac Tunnel",
@@ -5669,7 +5781,8 @@
       "id": "vrmac-tunnel",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kotor/vrmac-tunnel.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Vrmac Tunnel"
     },
     {
       "name": "Waikiki Beach Resort",
@@ -5690,7 +5803,8 @@
       "id": "waikiki-beach-resort",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kotor/waikiki-beach-resort.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Waikiki Beach Resort"
     },
     {
       "name": "Waikiki Beach Tivat",
@@ -5807,7 +5921,8 @@
       "id": "zip-line-njegusi",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kotor/zip-line-njegusi.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Zip Line Njegusi"
     },
     {
       "name": "Zmajevic Palace",
@@ -5828,7 +5943,8 @@
       "id": "zmajevic-palace",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kotor/zmajevic_palace.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "name_en": "Zmajevic Palace"
     },
     {
       "name": "Trail Cheese Shop",

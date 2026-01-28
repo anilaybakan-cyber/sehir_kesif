@@ -24,7 +24,8 @@
       "price": "free",
       "tips": "Yazın gece yarısı güneşini izlemek için en iyi noktalardandır.",
       "tips_en": "One of the best spots to watch the midnight sun in summer.",
-      "subcategory": "Tepelik"
+      "subcategory": "Tepelik",
+      "name_en": "Aavasaksa"
     },
     {
       "id": "access-lapland",
@@ -44,7 +45,8 @@
       "price": "high",
       "tips": "Buzda yüzme deneyimi çok rahatlatıcıdır.",
       "tips_en": "Ice floating experience is very relaxing.",
-      "subcategory": "Tur"
+      "subcategory": "Tur",
+      "name_en": "Access Lapland"
     },
     {
       "id": "amarillo-rovaniemi",
@@ -64,7 +66,8 @@
       "price": "medium",
       "tips": "Hafta sonları gece kulübü havasına bürünür.",
       "tips_en": "Turns into a nightclub atmosphere on weekends.",
-      "subcategory": "Meksika"
+      "subcategory": "Meksika",
+      "name_en": "Amarillo Rovaniemi"
     },
     {
       "name": "Angry Birds Activity Park",
@@ -86,7 +89,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Sabah koşusu veya yoga yapan yerlileri görebilirsiniz.",
       "tips_en": "You can see locals jogging or doing yoga in the morning.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Angry Birds Activity Park"
     },
     {
       "id": "antinkaapo",
@@ -106,7 +110,8 @@
       "price": "low",
       "tips": "Sabah kahvaltısı için uygundur.",
       "tips_en": "Suitable for breakfast.",
-      "subcategory": "Fırın"
+      "subcategory": "Fırın",
+      "name_en": "Antinkaapo"
     },
     {
       "id": "apukka-resort",
@@ -126,7 +131,8 @@
       "price": "high",
       "tips": "Şehirden servisle ulaşım sağlanabilir.",
       "tips_en": "Transportation from the city can be provided by shuttle.",
-      "subcategory": "Resort"
+      "subcategory": "Resort",
+      "name_en": "Apukka Resort"
     },
     {
       "name": "Arctic Boulevard",
@@ -147,7 +153,8 @@
       "bestTime": "09:00 - 18:00",
       "bestTime_en": "09:00 - 18:00",
       "tips": "Yerel şarapları denemenizi öneririz.",
-      "tips_en": "We recommend trying local wines."
+      "tips_en": "We recommend trying local wines.",
+      "name_en": "Arctic Boulevard"
     },
     {
       "id": "arctic-circle-hiking-area",
@@ -167,7 +174,8 @@
       "price": "free",
       "tips": "Vaattunki tarafındaki 'Köngäs' yürüyüşü çok popülerdir.",
       "tips_en": "The 'Köngäs' walk on the Vaattunki side is very popular.",
-      "subcategory": "Park"
+      "subcategory": "Park",
+      "name_en": "Arctic Circle Hiking Area"
     },
     {
       "id": "arctic-circle-information",
@@ -187,7 +195,8 @@
       "price": "free",
       "tips": "Pasaportunuza 'Arctic Circle' damgası vurdurabilirsiniz (ücretli olabilir).",
       "tips_en": "You can get an 'Arctic Circle' stamp on your passport (might be paid).",
-      "subcategory": "Turizm Ofisi"
+      "subcategory": "Turizm Ofisi",
+      "name_en": "Arctic Circle Information"
     },
     {
       "id": "arctic-circle-line",
@@ -207,7 +216,8 @@
       "price": "free",
       "tips": "Çizginin üzerinden atlarken fotoğraf çekmek bir klasiktir.",
       "tips_en": "Jumping over the line while taking a photo is a classic.",
-      "subcategory": "Anıt"
+      "subcategory": "Anıt",
+      "name_en": "Arctic Circle Line"
     },
     {
       "id": "arctic-circle-snowmobile-park",
@@ -227,7 +237,8 @@
       "price": "high",
       "tips": "Çocuklar için mini kar motorları mevcuttur.",
       "tips_en": "Mini snowmobiles are available for children.",
-      "subcategory": "Aktivite"
+      "subcategory": "Aktivite",
+      "name_en": "Arctic Circle Snowmobile Park"
     },
     {
       "id": "arctic-design-shop",
@@ -247,7 +258,8 @@
       "price": "medium",
       "tips": "Seri üretim olmayan özel parçalar için ideal.",
       "tips_en": "Ideal for special pieces that are not mass-produced.",
-      "subcategory": "Tasarım"
+      "subcategory": "Tasarım",
+      "name_en": "Arctic Design Shop"
     },
     {
       "id": "arctic-golf-finland",
@@ -267,7 +279,8 @@
       "price": "high",
       "tips": "Gece yarısı golf oynamak eşsiz bir deneyimdir.",
       "tips_en": "Playing golf at midnight is a unique experience.",
-      "subcategory": "Golf"
+      "subcategory": "Golf",
+      "name_en": "Arctic Golf Finland"
     },
     {
       "id": "arctic-lifestyle",
@@ -287,7 +300,8 @@
       "price": "high",
       "tips": "Buz balıkçılığı turları keyiflidir.",
       "tips_en": "Ice fishing tours are enjoyable.",
-      "subcategory": "Tur"
+      "subcategory": "Tur",
+      "name_en": "Arctic Lifestyle"
     },
     {
       "id": "arctic-light-hotel",
@@ -307,7 +321,8 @@
       "price": "high",
       "tips": "Kahvaltısı otel dışından gelenlere de açıktır (rezervasyonla).",
       "tips_en": "Its breakfast is also open to non-guests (with reservation).",
-      "subcategory": "Otel"
+      "subcategory": "Otel",
+      "name_en": "Arctic Light Hotel"
     },
     {
       "id": "arctic-snowhotel-glass-igloos",
@@ -327,7 +342,8 @@
       "price": "medium",
       "tips": "Akşam yemeği için 'Ice Restaurant' rezervasyonu yapın.",
       "tips_en": "Book 'Ice Restaurant' for dinner.",
-      "subcategory": "Otel"
+      "subcategory": "Otel",
+      "name_en": "Arctic SnowHotel & Glass Igloos"
     },
     {
       "id": "arctic-treehouse-hotel",
@@ -347,7 +363,8 @@
       "price": "very high",
       "tips": "Odadan orman manzarası büyüleyicidir.",
       "tips_en": "Forest view from the room is mesmerizing.",
-      "subcategory": "Otel"
+      "subcategory": "Otel",
+      "name_en": "Arctic TreeHouse Hotel"
     },
     {
       "id": "arctic-warriors",
@@ -367,7 +384,8 @@
       "price": "medium",
       "tips": "Enerji shotları çok etkilidir.",
       "tips_en": "Energy shots are very effective.",
-      "subcategory": "Sağlık"
+      "subcategory": "Sağlık",
+      "name_en": "Arctic Warriors"
     },
     {
       "id": "arktikum-beach-aurora-spot",
@@ -387,7 +405,8 @@
       "price": "free",
       "tips": "Kış geceleri çok kalabalık olabilir.",
       "tips_en": "Can be very crowded on winter nights.",
-      "subcategory": "Park"
+      "subcategory": "Park",
+      "name_en": "Arktikum Beach (Aurora Spot)"
     },
     {
       "name": "Arktikum Bridge",
@@ -408,7 +427,8 @@
       "bestTime": "09:00 - 18:00",
       "bestTime_en": "09:00 - 18:00",
       "tips": "Panoramik fotoğraf için geniş açı lensinizi hazırlayın.",
-      "tips_en": "Prepare your wide-angle lens for panoramic photos."
+      "tips_en": "Prepare your wide-angle lens for panoramic photos.",
+      "name_en": "Arktikum Bridge"
     },
     {
       "name": "Arktikum Science Museum",
@@ -428,7 +448,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Sesli rehber (audio guide) kiralamak deneyimi ikiye katlar.",
       "tips_en": "Renting an audio guide doubles the experience.",
-      "description_en": "Kuzey Kutbu'nun tarihini and doğasını anlatan harika bir museum. A must-see for art and history loandrs, this museum stands out with its rich collection. The exhibited works will allow you to deeply understand the region's cultural heritage."
+      "description_en": "Kuzey Kutbu'nun tarihini and doğasını anlatan harika bir museum. A must-see for art and history loandrs, this museum stands out with its rich collection. The exhibited works will allow you to deeply understand the region's cultural heritage.",
+      "name_en": "Arktikum Science Museum"
     },
     {
       "id": "auttikongs",
@@ -448,7 +469,8 @@
       "price": "free",
       "tips": "Rovaniemi'den bir saatlik sürüş mesafesindedir.",
       "tips_en": "One hour drive from Rovaniemi.",
-      "subcategory": "Şelale"
+      "subcategory": "Şelale",
+      "name_en": "Auttiköngäs"
     },
     {
       "name": "Auttiköngäs Waterfall",
@@ -469,7 +491,8 @@
       "bestTime": "09:00 - 18:00",
       "bestTime_en": "09:00 - 18:00",
       "tips": "Su ve rahat ayakkabı almayı kesinlikle unutmayın.",
-      "tips_en": "Definitely don't forget water and comfortable shoes."
+      "tips_en": "Definitely don't forget water and comfortable shoes.",
+      "name_en": "Auttiköngäs Waterfall"
     },
     {
       "id": "balmuir-store-arctic-circle",
@@ -489,7 +512,8 @@
       "price": "high",
       "tips": "Tiftik (mohair) atkıları çok kalitelidir.",
       "tips_en": "Mohair scarves are very high quality.",
-      "subcategory": "Butik"
+      "subcategory": "Butik",
+      "name_en": "Balmuir Store Arctic Circle"
     },
     {
       "id": "beana-laponia",
@@ -509,7 +533,8 @@
       "price": "high",
       "tips": "Tam sessizlik ve huzur arayanlar için.",
       "tips_en": "For those seeking complete silence and peace.",
-      "subcategory": "Butik Otel"
+      "subcategory": "Butik Otel",
+      "name_en": "Beana Laponia"
     },
     {
       "id": "bearhill-husky",
@@ -529,7 +554,8 @@
       "price": "high",
       "tips": "Şehirden biraz uzaktır ama transfer sağlarlar.",
       "tips_en": "A bit far from city but they provide transfer.",
-      "subcategory": "Aktivite"
+      "subcategory": "Aktivite",
+      "name_en": "Bearhill Husky"
     },
     {
       "id": "beyond-arctic",
@@ -549,7 +575,8 @@
       "price": "very high",
       "tips": "Kendi kameranız yoksa bile harika fotoğraflarınız olur.",
       "tips_en": "Even if you don't have your own camera, you will have great photos.",
-      "subcategory": "Tur"
+      "subcategory": "Tur",
+      "name_en": "Beyond Arctic"
     },
     {
       "id": "bio-rex-rovaniemi",
@@ -569,7 +596,8 @@
       "price": "medium",
       "tips": "Filmler genellikle orijinal dilinde ve Fince altyazılıdır.",
       "tips_en": "Movies are usually in original language with Finnish subtitles.",
-      "subcategory": "Sinema"
+      "subcategory": "Sinema",
+      "name_en": "Bio Rex Rovaniemi"
     },
     {
       "id": "bull-bar-grill",
@@ -589,7 +617,8 @@
       "price": "medium",
       "tips": "Acı kanat yeme yarışmalarına denk gelebilirsiniz.",
       "tips_en": "You might stumble upon spicy wing eating contests.",
-      "subcategory": "Amerikan"
+      "subcategory": "Amerikan",
+      "name_en": "Bull Bar & Grill"
     },
     {
       "name": "Cafe & Bar 21",
@@ -609,7 +638,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Dışarıdaki masalarda oturup gelen geçeni izlemek çok keyifli.",
       "tips_en": "Sitting at outdoor tables and people-watching is very pleasant.",
-      "description_en": "Şehrin en popüler waffle and kokteyl venueı. One of the right addresses to relieand the tiredness of the day and relax with a delicious coffee. The warm ambiance of the andnue and the sweet surprises it offers will turn your break into pleasure."
+      "description_en": "Şehrin en popüler waffle and kokteyl venueı. One of the right addresses to relieand the tiredness of the day and relax with a delicious coffee. The warm ambiance of the andnue and the sweet surprises it offers will turn your break into pleasure.",
+      "name_en": "Cafe & Bar 21"
     },
     {
       "id": "cafe-rovaniemi",
@@ -629,7 +659,8 @@
       "price": "medium",
       "tips": "Sampokeskus'un karşısındadır.",
       "tips_en": "Opposite Sampokeskus.",
-      "subcategory": "Kafe"
+      "subcategory": "Kafe",
+      "name_en": "Cafe Rovaniemi"
     },
     {
       "id": "chalet-hotel-rovaniemi",
@@ -649,7 +680,8 @@
       "price": "medium",
       "tips": "Hem kış hem yaz konaklaması için uygundur.",
       "tips_en": "Suitable for both winter and summer stays.",
-      "subcategory": "Kır Evi"
+      "subcategory": "Kır Evi",
+      "name_en": "Chalet Hotel Rovaniemi"
     },
     {
       "id": "choco-deli",
@@ -669,7 +701,8 @@
       "price": "medium",
       "tips": "Sıcak çikolatası kış günleri için birebirdir.",
       "tips_en": "Hot chocolate is perfect for winter days.",
-      "subcategory": "Pastane"
+      "subcategory": "Pastane",
+      "name_en": "Choco Deli"
     },
     {
       "id": "christmas-house-restaurant-coffee-bar",
@@ -689,7 +722,8 @@
       "price": "medium",
       "tips": "Fiyatları köye göre makuldür.",
       "tips_en": "Prices are reasonable for the village.",
-      "subcategory": "Açık Büfe"
+      "subcategory": "Açık Büfe",
+      "name_en": "Christmas House Restaurant & Coffee Bar"
     },
     {
       "name": "Coffee House Rovaniemi",
@@ -710,7 +744,8 @@
       "bestTime": "09:00 - 18:00",
       "bestTime_en": "09:00 - 18:00",
       "tips": "Laptop ile çalışmak için uygun, Wi-Fi hızı iyi.",
-      "tips_en": "Suitable for working with a laptop, Wi-Fi is good."
+      "tips_en": "Suitable for working with a laptop, Wi-Fi is good.",
+      "name_en": "Coffee House Rovaniemi"
     },
     {
       "id": "crystal-arctic-suites",
@@ -730,7 +765,8 @@
       "price": "medium",
       "tips": "Kendi yemeğinizi yapmak için mutfakları harikadır.",
       "tips_en": "Kitchens are great for cooking your own food.",
-      "subcategory": "Apart"
+      "subcategory": "Apart",
+      "name_en": "Crystal Arctic Suites"
     },
     {
       "id": "culture-house-wiljami",
@@ -750,7 +786,8 @@
       "price": "varies",
       "tips": "Girişindeki ilan panosunu kontrol edin.",
       "tips_en": "Check the bulletin board at the entrance.",
-      "subcategory": "Etkinlik"
+      "subcategory": "Etkinlik",
+      "name_en": "Culture House Wiljami"
     },
     {
       "id": "curio",
@@ -770,7 +807,8 @@
       "price": "high",
       "tips": "İlginç hediyelik eşyalar bulabilirsiniz.",
       "tips_en": "You can find interesting souvenirs.",
-      "subcategory": "Tasarım"
+      "subcategory": "Tasarım",
+      "name_en": "Curio"
     },
     {
       "id": "elfs-farm-yard",
@@ -790,7 +828,8 @@
       "price": "medium",
       "tips": "Çocuklar için midilli gezintisi yapılabilir.",
       "tips_en": "Pony rides are available for children.",
-      "subcategory": "Hayvanat Bahçesi"
+      "subcategory": "Hayvanat Bahçesi",
+      "name_en": "Elf's Farm Yard"
     },
     {
       "id": "forenom-aparthotel-rovaniemi",
@@ -810,7 +849,8 @@
       "price": "medium",
       "tips": "Giriş kodu SMS ile gelir.",
       "tips_en": "Entry code comes via SMS.",
-      "subcategory": "Apart"
+      "subcategory": "Apart",
+      "name_en": "Forenom Aparthotel Rovaniemi"
     },
     {
       "id": "frans-chrie-bistro",
@@ -830,7 +870,8 @@
       "price": "medium",
       "tips": "Şarap menüsü oldukça geniştir.",
       "tips_en": "Wine menu is quite extensive.",
-      "subcategory": "Fransız"
+      "subcategory": "Fransız",
+      "name_en": "Frans & Chérie Bistro"
     },
     {
       "id": "german-soldier-cemetery",
@@ -850,7 +891,8 @@
       "price": "free",
       "tips": "Girişindeki taş yapı çok etkileyicidir.",
       "tips_en": "The stone structure at the entrance is very impressive.",
-      "subcategory": "Anıt"
+      "subcategory": "Anıt",
+      "name_en": "German Soldier Cemetery"
     },
     {
       "id": "glass-resort",
@@ -870,7 +912,8 @@
       "price": "very high",
       "tips": "Kar yağarken sıcak jakuziye girmek eşsizdir.",
       "tips_en": "Entering the hot jacuzzi while it's snowing is unique.",
-      "subcategory": "Otel"
+      "subcategory": "Otel",
+      "name_en": "Glass Resort"
     },
     {
       "id": "guesthouse-borealis",
@@ -890,7 +933,8 @@
       "price": "low",
       "tips": "Sahibi çok yardımseverdir.",
       "tips_en": "Owner is very helpful.",
-      "subcategory": "Misafir Evi"
+      "subcategory": "Misafir Evi",
+      "name_en": "Guesthouse Borealis"
     },
     {
       "id": "gustav-kitchen-bar",
@@ -910,7 +954,8 @@
       "price": "medium",
       "tips": "Akşam yemeği için rezervasyon şarttır.",
       "tips_en": "Reservation is essential for dinner.",
-      "subcategory": "Bistro"
+      "subcategory": "Bistro",
+      "name_en": "Gustav Kitchen & Bar"
     },
     {
       "id": "haawe-boutique-apart-hotel",
@@ -930,7 +975,8 @@
       "price": "high",
       "tips": "Sadece 14 odası vardır, erken rezervasyon şart.",
       "tips_en": "Has only 14 rooms, early booking is essential.",
-      "subcategory": "Otel"
+      "subcategory": "Otel",
+      "name_en": "Haawe Boutique Apart Hotel"
     },
     {
       "id": "hai-long",
@@ -950,7 +996,8 @@
       "price": "medium",
       "tips": "Büfede sushi de bulunur.",
       "tips_en": "Sushi is also available in the buffet.",
-      "subcategory": "Çin"
+      "subcategory": "Çin",
+      "name_en": "Hai Long"
     },
     {
       "id": "half-moon-night-club",
@@ -970,7 +1017,8 @@
       "price": "medium",
       "tips": "Çarşamba geceleri öğrenci partisidir.",
       "tips_en": "Wednesday nights are student parties.",
-      "subcategory": "Gece Kulübü"
+      "subcategory": "Gece Kulübü",
+      "name_en": "Half Moon Night Club"
     },
     {
       "id": "hemingways-rovaniemi",
@@ -990,7 +1038,8 @@
       "price": "medium",
       "tips": "Geniş bir bira seçeneği vardır.",
       "tips_en": "Has a wide selection of beers.",
-      "subcategory": "Pub"
+      "subcategory": "Pub",
+      "name_en": "Hemingway's Rovaniemi"
     },
     {
       "id": "himo",
@@ -1010,7 +1059,8 @@
       "price": "high",
       "tips": "Tadım menüsünü denemenizi öneririz.",
       "tips_en": "We recommend trying the tasting menu.",
-      "subcategory": "Asya"
+      "subcategory": "Asya",
+      "name_en": "Himo"
     },
     {
       "id": "hook",
@@ -1030,7 +1080,8 @@
       "price": "medium",
       "tips": "Öğrenci indirimi olabilir, sorun.",
       "tips_en": "Might have student discount, ask.",
-      "subcategory": "Spor Bar"
+      "subcategory": "Spor Bar",
+      "name_en": "Hook"
     },
     {
       "id": "hostel-caf-koti",
@@ -1050,7 +1101,8 @@
       "price": "low",
       "tips": "Kahvaltıda sundukları yulaf lapası çok lezzetlidir.",
       "tips_en": "The porridge they serve at breakfast is very delicious.",
-      "subcategory": "Hostel"
+      "subcategory": "Hostel",
+      "name_en": "Hostel Café Koti"
     },
     {
       "id": "husky-park",
@@ -1070,7 +1122,8 @@
       "price": "high",
       "tips": "Köpekleri sevmek için 'Hug Visit' (Sarılma ziyareti) bileti alabilirsiniz.",
       "tips_en": "You can buy a 'Hug Visit' ticket just to pet the dogs.",
-      "subcategory": "Aktivite"
+      "subcategory": "Aktivite",
+      "name_en": "Husky Park"
     },
     {
       "name": "Husky Safari Center",
@@ -1092,7 +1145,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Grup indirimi olup olmadığını sorun.",
       "tips_en": "Ask if there is a group discount.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Husky Safari Center"
     },
     {
       "name": "Ice Hotel Experience",
@@ -1114,7 +1168,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Rehbere soru sormaktan çekinmeyin, çok ilginç hikayeler biliyorlar.",
       "tips_en": "Don't hesitate to ask the guide questions, they know interesting stories.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Ice Hotel Experience"
     },
     {
       "id": "iisakki-glass-village",
@@ -1134,7 +1189,8 @@
       "price": "high",
       "tips": "Kendi mutfağı olduğu için uzun konaklamalara uygundur.",
       "tips_en": "Suitable for long stays as it has its own kitchen.",
-      "subcategory": "Otel"
+      "subcategory": "Otel",
+      "name_en": "Iisakki Glass Village"
     },
     {
       "id": "irish-arms",
@@ -1154,7 +1210,8 @@
       "price": "medium",
       "tips": "Canlı müzik akşamlarını takip edin.",
       "tips_en": "Follow live music nights.",
-      "subcategory": "Pub"
+      "subcategory": "Pub",
+      "name_en": "Irish Arms"
     },
     {
       "name": "Jätkänkynttilä Bridge",
@@ -1175,7 +1232,8 @@
       "tips": "Panoramik fotoğraf için geniş açı lensinizi hazırlayın.",
       "tips_en": "Prepare your wide-angle lens for panoramic photos.",
       "description_en": "Rovaniemi'nin sembolü olan asma köprü. Offering one of the most impressiand views of the city, this spot is a paradise for photography enthusiasts. The colors it takes on, especially at sunset, provide a visual feast for visitors.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Jätkänkynttilä Bridge"
     },
     {
       "name": "Kahvila Kauppayhtiö",
@@ -1196,7 +1254,8 @@
       "bestTime": "09:00 - 18:00",
       "bestTime_en": "09:00 - 18:00",
       "tips": "Kahvenin yanında ev yapımı tatlılarını mutlaka deneyin.",
-      "tips_en": "Must try their homemade desserts with coffee."
+      "tips_en": "Must try their homemade desserts with coffee.",
+      "name_en": "Kahvila Kauppayhtiö"
     },
     {
       "id": "kauppayhtio",
@@ -1216,7 +1275,8 @@
       "price": "medium",
       "tips": "Dış avlusu yazın çok keyiflidir.",
       "tips_en": "Its outer courtyard is very pleasant in summer.",
-      "subcategory": "Burger"
+      "subcategory": "Burger",
+      "name_en": "Kauppayhtiö"
     },
     {
       "id": "kemi-snowcastle",
@@ -1236,7 +1296,8 @@
       "price": "medium",
       "tips": "Trenle veya otobüsle günübirlik gidilebilir.",
       "tips_en": "Can be visited as a day trip by train or bus.",
-      "subcategory": "Kale"
+      "subcategory": "Kale",
+      "name_en": "Kemi SnowCastle"
     },
     {
       "name": "Kemijoki River Trail",
@@ -1258,7 +1319,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Su ve rahat ayakkabı almayı kesinlikle unutmayın.",
       "tips_en": "Definitely don't forget water and comfortable shoes.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Kemijoki River Trail"
     },
     {
       "id": "kesrafla-sauna",
@@ -1278,7 +1340,8 @@
       "price": "medium",
       "tips": "Sadece yaz sezonunda açıktır.",
       "tips_en": "Open only in summer season.",
-      "subcategory": "Sauna"
+      "subcategory": "Sauna",
+      "name_en": "Kesärafla Sauna"
     },
     {
       "id": "kierikki-stone-age-centre",
@@ -1298,7 +1361,8 @@
       "price": "medium",
       "tips": "Ok atma gibi aktiviteleri deneyebilirsiniz.",
       "tips_en": "You can try activities like archery.",
-      "subcategory": "Tarih"
+      "subcategory": "Tarih",
+      "name_en": "Kierikki Stone Age Centre"
     },
     {
       "id": "koivusaari-nature-trail",
@@ -1318,7 +1382,8 @@
       "price": "free",
       "tips": "Kuş gözlemciliği için harikadır, dürbün alın.",
       "tips_en": "Great for bird watching, take binoculars.",
-      "subcategory": "Ada"
+      "subcategory": "Ada",
+      "name_en": "Koivusaari Nature Trail"
     },
     {
       "id": "korouoma-canyon",
@@ -1338,7 +1403,8 @@
       "price": "free",
       "tips": "Donmuş şelalelere yürüyüş yaklaşık 5km sürer.",
       "tips_en": "Hike to frozen waterfalls takes about 5km.",
-      "subcategory": "Kanyon"
+      "subcategory": "Kanyon",
+      "name_en": "Korouoma Canyon"
     },
     {
       "name": "Korundi House of Culture",
@@ -1358,7 +1424,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Bazı günler giriş ücretsiz olabilir, web sitesini kontrol edin.",
       "tips_en": "Entry might be free on some days, check the website.",
-      "description_en": "Located in the heart of Lapland, Korundi hosts modern art exhibitions and concerts by the Rovaniemi Chamber Orchestra. The historic red brick building captivates art lovers with both its architecture and cultural events."
+      "description_en": "Located in the heart of Lapland, Korundi hosts modern art exhibitions and concerts by the Rovaniemi Chamber Orchestra. The historic red brick building captivates art lovers with both its architecture and cultural events.",
+      "name_en": "Korundi House of Culture"
     },
     {
       "id": "kotisaari-island",
@@ -1378,7 +1445,8 @@
       "price": "high",
       "tips": "Burada geleneksel oduncu yemekleri tadabilirsiniz.",
       "tips_en": "You can taste traditional lumberjack meals here.",
-      "subcategory": "Ada"
+      "subcategory": "Ada",
+      "name_en": "Kotisaari Island"
     },
     {
       "id": "kuninkaanlaavu-kings-lean-to",
@@ -1398,7 +1466,8 @@
       "price": "free",
       "tips": "Yanınızda sosis götürüp ateşte pişirebilirsiniz.",
       "tips_en": "You can bring sausages and cook them over the fire.",
-      "subcategory": "Manzara"
+      "subcategory": "Manzara",
+      "name_en": "Kuninkaanlaavu (King's Lean-to)"
     },
     {
       "id": "lampivaara-amethyst-mine",
@@ -1418,7 +1487,8 @@
       "price": "medium",
       "tips": "Bulduğunuz küçük taşları yanınıza alabilirsiniz.",
       "tips_en": "You can take small stones you find with you.",
-      "subcategory": "Maden"
+      "subcategory": "Maden",
+      "name_en": "Lampivaara Amethyst Mine"
     },
     {
       "name": "Lapin Kultakaivos Gold Mine Gift Shop",
@@ -1439,7 +1509,8 @@
       "bestTime": "09:00 - 18:00",
       "bestTime_en": "09:00 - 18:00",
       "tips": "Tax-free formunu istemeyi unutmayın.",
-      "tips_en": "Don't forget to ask for the Tax-free form."
+      "tips_en": "Don't forget to ask for the Tax-free form.",
+      "name_en": "Lapin Kultakaivos Gold Mine Gift Shop"
     },
     {
       "name": "Lapland Forestry Museum",
@@ -1461,7 +1532,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Sesli rehber (audio guide) kiralamak deneyimi ikiye katlar.",
       "tips_en": "Renting an audio guide doubles the experience.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Lapland Forestry Museum"
     },
     {
       "id": "lapland-hotels-sky-ounasvaara",
@@ -1481,7 +1553,8 @@
       "price": "high",
       "tips": "Restoranı 'Sky Kitchen' çok ünlüdür.",
       "tips_en": "Its restaurant 'Sky Kitchen' is very famous.",
-      "subcategory": "Otel"
+      "subcategory": "Otel",
+      "name_en": "Lapland Hotels Sky Ounasvaara"
     },
     {
       "id": "lapland-restaurant-kotahovi",
@@ -1501,7 +1574,8 @@
       "price": "medium",
       "tips": "Öğle yemeği için idealdir, ren geyiklerini izleyebilirsiniz.",
       "tips_en": "Ideal for lunch, you can watch the reindeer.",
-      "subcategory": "Lapon"
+      "subcategory": "Lapon",
+      "name_en": "Lapland Restaurant Kotahovi"
     },
     {
       "id": "lapland-safaris-office",
@@ -1521,7 +1595,8 @@
       "price": "high",
       "tips": "Turlar buradan kalkar, kıyafet buradan temin edilir.",
       "tips_en": "Tours depart from here, gear is provided here.",
-      "subcategory": "Tur"
+      "subcategory": "Tur",
+      "name_en": "Lapland Safaris Office"
     },
     {
       "id": "lappia-hall",
@@ -1541,7 +1616,8 @@
       "price": "medium",
       "tips": "Çatısı Laponya dağlarını simgeler.",
       "tips_en": "Its roof symbolizes the mountains of Lapland.",
-      "subcategory": "Tiyatro"
+      "subcategory": "Tiyatro",
+      "name_en": "Lappia Hall"
     },
     {
       "id": "lauri-historical-manor",
@@ -1561,7 +1637,8 @@
       "price": "free",
       "tips": "Kendi bıçağınızı yapma atölyesine katılabilirsiniz.",
       "tips_en": "You can join a workshop to make your own knife.",
-      "subcategory": "Konak"
+      "subcategory": "Konak",
+      "name_en": "Lauri Historical Manor"
     },
     {
       "id": "levi-ski-resort",
@@ -1581,7 +1658,8 @@
       "price": "high",
       "tips": "Kayak sonrası (After-ski) partileri meşhurdur.",
       "tips_en": "After-ski parties are famous.",
-      "subcategory": "Kayak Merkezi"
+      "subcategory": "Kayak Merkezi",
+      "name_en": "Levi Ski Resort"
     },
     {
       "id": "loft-cafe",
@@ -1601,7 +1679,8 @@
       "price": "medium",
       "tips": "Büyük pencerelerinden köy meydanını izleyebilirsiniz.",
       "tips_en": "You can watch the village square from its large windows.",
-      "subcategory": "Kafe"
+      "subcategory": "Kafe",
+      "name_en": "Loft Cafe"
     },
     {
       "id": "lomavekarit",
@@ -1621,7 +1700,8 @@
       "price": "medium",
       "tips": "Saunayı önceden ayırtın.",
       "tips_en": "Book sauna in advance.",
-      "subcategory": "Kır Evi"
+      "subcategory": "Kır Evi",
+      "name_en": "Lomavekarit"
     },
     {
       "name": "Lordi's Square",
@@ -1641,7 +1721,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Akşam saatlerinde şehir ışıklarını izlemek çok romantik.",
       "tips_en": "Watching city lights in the evening is very romantic.",
-      "description_en": "Şehrin kalbi, Eurovizyon şampiyonu Lordi grubuna adanmış meydan. Offering one of the most impressiand views of the city, this spot is a paradise for photography enthusiasts. The colors it takes on, especially at sunset, provide a visual feast for visitors."
+      "description_en": "Şehrin kalbi, Eurovizyon şampiyonu Lordi grubuna adanmış meydan. Offering one of the most impressiand views of the city, this spot is a paradise for photography enthusiasts. The colors it takes on, especially at sunset, provide a visual feast for visitors.",
+      "name_en": "Lordi's Square"
     },
     {
       "id": "lumberjacks-candle-bridge-jtknkynttil",
@@ -1661,7 +1742,8 @@
       "price": "free",
       "tips": "Gece ışıklandırmasında fotoğraf çekin.",
       "tips_en": "Take photos under the night illumination.",
-      "subcategory": "Köprü"
+      "subcategory": "Köprü",
+      "name_en": "Lumberjack's Candle Bridge (Jätkänkynttilä)"
     },
     {
       "id": "mainostoimisto-seven-1",
@@ -1681,7 +1763,8 @@
       "price": "n/a",
       "tips": "Sadece dışarıdan görülebilir.",
       "tips_en": "Only visible from outside.",
-      "subcategory": "Ofis"
+      "subcategory": "Ofis",
+      "name_en": "Mainostoimisto Seven-1"
     },
     {
       "id": "marimekko-outlet",
@@ -1701,7 +1784,8 @@
       "price": "medium",
       "tips": "İndirimli ürünler bulabilirsiniz.",
       "tips_en": "You can find discounted products.",
-      "subcategory": "Moda"
+      "subcategory": "Moda",
+      "name_en": "Marimekko Outlet"
     },
     {
       "id": "marttiini-knife-shop",
@@ -1721,7 +1805,8 @@
       "price": "medium",
       "tips": "Bıçağın sapına ücretsiz isim yazdırabilirsiniz.",
       "tips_en": "You can get a name engraved on the knife handle for free.",
-      "subcategory": "Bıçak"
+      "subcategory": "Bıçak",
+      "name_en": "Marttiini Knife Shop"
     },
     {
       "id": "motelli-rovaniemi",
@@ -1741,7 +1826,8 @@
       "price": "low",
       "tips": "Araçla seyahat edenler için uygundur.",
       "tips_en": "Suitable for those traveling by car.",
-      "subcategory": "Motel"
+      "subcategory": "Motel",
+      "name_en": "Motelli Rovaniemi"
     },
     {
       "id": "mrs-santa-claus-christmas-cottage",
@@ -1761,7 +1847,8 @@
       "price": "medium",
       "tips": "Noel Anne'nin kurabiyeleri meşhurdur.",
       "tips_en": "Mrs. Santa's cookies are famous.",
-      "subcategory": "Noel Baba"
+      "subcategory": "Noel Baba",
+      "name_en": "Mrs. Santa Claus Christmas Cottage"
     },
     {
       "id": "napapiirin-lahja",
@@ -1781,7 +1868,8 @@
       "price": "medium",
       "tips": "Kuksa bardakları buradan alabilirsiniz.",
       "tips_en": "You can buy Kuksa cups here.",
-      "subcategory": "Hediyelik"
+      "subcategory": "Hediyelik",
+      "name_en": "Napapiirin Lahja"
     },
     {
       "id": "napapiirin-porofarmi",
@@ -1801,7 +1889,8 @@
       "price": "medium",
       "tips": "Nehir turu ile birleştirebilirsiniz.",
       "tips_en": "You can combine it with a river tour.",
-      "subcategory": "Çiftlik"
+      "subcategory": "Çiftlik",
+      "name_en": "Napapiirin Porofarmi"
     },
     {
       "name": "Nili Restaurant",
@@ -1821,7 +1910,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Öğle yemeği menüleri genellikle akşamdan daha uygundur.",
       "tips_en": "Lunch menus are usually cheaper than dinner.",
-      "description_en": "Geleneksel Laponya yemekleri servis eden şık restoran. A great option to taste local flavors and spend a pleasant eandning. It offers an unforgettable experience appealing to your palate with its friendly atmosphere and quality service."
+      "description_en": "Geleneksel Laponya yemekleri servis eden şık restoran. A great option to taste local flavors and spend a pleasant eandning. It offers an unforgettable experience appealing to your palate with its friendly atmosphere and quality service.",
+      "name_en": "Nili Restaurant"
     },
     {
       "id": "nordic-unique-travels",
@@ -1841,7 +1931,8 @@
       "price": "high",
       "tips": "Fotoğraf odaklı turları meşhurdur.",
       "tips_en": "Their photo-focused tours are famous.",
-      "subcategory": "Tur"
+      "subcategory": "Tur",
+      "name_en": "Nordic Unique Travels"
     },
     {
       "name": "Northern Lights Tour Point",
@@ -1862,7 +1953,8 @@
       "bestTime": "09:00 - 18:00",
       "bestTime_en": "09:00 - 18:00",
       "tips": "Kıyafetinizin aktiviteye uygun olduğundan emin olun.",
-      "tips_en": "Ensure your outfit is suitable for the activity."
+      "tips_en": "Ensure your outfit is suitable for the activity.",
+      "name_en": "Northern Lights Tour Point"
     },
     {
       "name": "Norvajärvi Lake",
@@ -1884,7 +1976,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Yürüyüş ayakkabısı giymeniz önerilir.",
       "tips_en": "Walking shoes are recommended.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Norvajärvi Lake"
     },
     {
       "id": "nova-skyland-hotel",
@@ -1904,7 +1997,8 @@
       "price": "high",
       "tips": "Restoranı akşam yemeği için dışarıdan misafir de kabul eder.",
       "tips_en": "Its restaurant accepts outside guests for dinner.",
-      "subcategory": "Otel"
+      "subcategory": "Otel",
+      "name_en": "Nova Skyland Hotel"
     },
     {
       "id": "olivers-corner",
@@ -1924,7 +2018,8 @@
       "price": "medium",
       "tips": "Maç günleri çok kalabalıktır.",
       "tips_en": "Very crowded on match days.",
-      "subcategory": "Pub"
+      "subcategory": "Pub",
+      "name_en": "Oliver's Corner"
     },
     {
       "id": "ollero-eco-lodge",
@@ -1944,7 +2039,8 @@
       "price": "high",
       "tips": "Kendi yemeğinizi yapabileceğiniz mutfağı vardır.",
       "tips_en": "Has a kitchen where you can cook your own food.",
-      "subcategory": "Eko Otel"
+      "subcategory": "Eko Otel",
+      "name_en": "Ollero Eco Lodge"
     },
     {
       "id": "original-sokos-hotel-vaakuna",
@@ -1964,7 +2060,8 @@
       "price": "medium",
       "tips": "Kuzey ışıkları temalı odaları vardır.",
       "tips_en": "Has Northern Lights themed rooms.",
-      "subcategory": "Otel"
+      "subcategory": "Otel",
+      "name_en": "Original Sokos Hotel Vaakuna"
     },
     {
       "id": "ounaskoski-beach",
@@ -1984,7 +2081,8 @@
       "price": "free",
       "tips": "Yazın güneş batmadığı için gece yarısı bile yüzebilirsiniz.",
       "tips_en": "Since the sun doesn't set in summer, you can swim even at midnight.",
-      "subcategory": "Plaj"
+      "subcategory": "Plaj",
+      "name_en": "Ounaskoski Beach"
     },
     {
       "id": "ounasvaara-observation-tower",
@@ -2004,7 +2102,8 @@
       "price": "free",
       "tips": "Merdivenleri biraz diktir.",
       "tips_en": "Expect steep stairs.",
-      "subcategory": "Kule"
+      "subcategory": "Kule",
+      "name_en": "Ounasvaara Observation Tower"
     },
     {
       "name": "Ounasvaara Ski Resort",
@@ -2024,7 +2123,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Güneş kremi ve şapka almayı unutmayın.",
       "tips_en": "Don't forget sunscreen and a hat.",
-      "description_en": "Located just minutes from the city center, Ounasvaara is a perfect getaway for both skiing and hiking. From the top, you can enjoy breathtaking views of Rovaniemi and the Kemijoki river."
+      "description_en": "Located just minutes from the city center, Ounasvaara is a perfect getaway for both skiing and hiking. From the top, you can enjoy breathtaking views of Rovaniemi and the Kemijoki river.",
+      "name_en": "Ounasvaara Ski Resort"
     },
     {
       "id": "ounasvaara-summer-bobsleigh-track",
@@ -2044,7 +2144,8 @@
       "price": "medium",
       "tips": "Hızınızı frenle kendiniz ayarlayabilirsiniz.",
       "tips_en": "You can adjust your speed yourself with the brake.",
-      "subcategory": "Aktivite"
+      "subcategory": "Aktivite",
+      "name_en": "Ounasvaara Summer Bobsleigh Track"
     },
     {
       "id": "ounasvaara-winter-trail",
@@ -2064,7 +2165,8 @@
       "price": "free",
       "tips": "Rotadaki tabelaları takip edin, kaybolmayın.",
       "tips_en": "Follow the signs on the route, don't get lost.",
-      "subcategory": "Yürüyüş"
+      "subcategory": "Yürüyüş",
+      "name_en": "Ounasvaara Winter Trail"
     },
     {
       "id": "paha-kurki-rockhouse",
@@ -2084,7 +2186,8 @@
       "price": "medium",
       "tips": "Müzik ses seviyesi yüksektir.",
       "tips_en": "Music volume level is high.",
-      "subcategory": "Bar"
+      "subcategory": "Bar",
+      "name_en": "Paha Kurki Rockhouse"
     },
     {
       "id": "pentik-arctic-circle",
@@ -2104,7 +2207,8 @@
       "price": "medium",
       "tips": "Kırılmayacak şekilde paketleme yapıyorlar.",
       "tips_en": "They pack it so it won't break.",
-      "subcategory": "Tasarım"
+      "subcategory": "Tasarım",
+      "name_en": "Pentik Arctic Circle"
     },
     {
       "id": "peoples-pub",
@@ -2124,7 +2228,8 @@
       "price": "low",
       "tips": "Yerel halkın günlük uğrak yeridir.",
       "tips_en": "Daily haunt of locals.",
-      "subcategory": "Pub"
+      "subcategory": "Pub",
+      "name_en": "People's Pub"
     },
     {
       "id": "piece-of-lapland",
@@ -2145,7 +2250,8 @@
       "tips": "Magnet ve kupa çeşitleri boldur.",
       "tips_en": "Plenty of magnet and mug varieties.",
       "subcategory": "Hediyelik",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Piece of Lapland"
     },
     {
       "name": "Pilke Science Centre",
@@ -2166,7 +2272,8 @@
       "bestTime": "09:00 - 18:00",
       "bestTime_en": "09:00 - 18:00",
       "tips": "Hafta içi sabah saatleri en sakin zamanıdır.",
-      "tips_en": "Weekday mornings are the quietest times."
+      "tips_en": "Weekday mornings are the quietest times.",
+      "name_en": "Pilke Science Centre"
     },
     {
       "id": "poturi",
@@ -2187,7 +2294,8 @@
       "tips": "Seramik yapımını izleyebilirsiniz.",
       "tips_en": "You can watch pottery making.",
       "subcategory": "Çömlek",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Poturi"
     },
     {
       "id": "pure-pizza",
@@ -2207,7 +2315,8 @@
       "price": "medium",
       "tips": "Rovaniemi'nin en iyi pizzacısı olarak bilinir.",
       "tips_en": "Known as the best pizzeria in Rovaniemi.",
-      "subcategory": "Pizza"
+      "subcategory": "Pizza",
+      "name_en": "Pure Pizza"
     },
     {
       "id": "pyh-luosto-national-park",
@@ -2227,7 +2336,8 @@
       "price": "free",
       "tips": "Isokuru kanyonu görülmeye değerdir.",
       "tips_en": "Isokuru canyon is worth seeing.",
-      "subcategory": "Park"
+      "subcategory": "Park",
+      "name_en": "Pyhä-Luosto National Park"
     },
     {
       "id": "poyliovaara",
@@ -2247,7 +2357,8 @@
       "price": "free",
       "tips": "Sonbaharda mantar toplamak için popülerdir.",
       "tips_en": "Popular for mushroom picking in autumn.",
-      "subcategory": "Tepelik"
+      "subcategory": "Tepelik",
+      "name_en": "Pöyliövaara"
     },
     {
       "id": "rang-mahal",
@@ -2267,7 +2378,8 @@
       "price": "medium",
       "tips": "Vejetaryen seçenekleri boldur.",
       "tips_en": "Vegetarian options are plentiful.",
-      "subcategory": "Hint"
+      "subcategory": "Hint",
+      "name_en": "Rang Mahal"
     },
     {
       "name": "Ranua Wildlife Park",
@@ -2287,7 +2399,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Yanınıza bir örtü alıp çimlerde piknik yapabilirsiniz.",
       "tips_en": "Bring a blanket and have a picnic on the grass.",
-      "description_en": "Kutup ayılarını görebwithceğiniz vahşi yaşam parkı. A perfect getaway for those who want to experience peaceful moments in nature. Ideal for getting away from the city noise, taking a breath, and capturing great photos."
+      "description_en": "Kutup ayılarını görebwithceğiniz vahşi yaşam parkı. A perfect getaway for those who want to experience peaceful moments in nature. Ideal for getting away from the city noise, taking a breath, and capturing great photos.",
+      "name_en": "Ranua Wildlife Park"
     },
     {
       "name": "Ravintola Monte Rosa",
@@ -2308,7 +2421,8 @@
       "bestTime": "09:00 - 18:00",
       "bestTime_en": "09:00 - 18:00",
       "tips": "Öğle yemeği menüleri genellikle akşamdan daha uygundur.",
-      "tips_en": "Lunch menus are usually cheaper than dinner."
+      "tips_en": "Lunch menus are usually cheaper than dinner.",
+      "name_en": "Ravintola Monte Rosa"
     },
     {
       "id": "ravintola-valdemari",
@@ -2329,7 +2443,8 @@
       "tips": "Yaz gecelerinde çok hareketlidir.",
       "tips_en": "Very lively on summer nights.",
       "subcategory": "Yazlık",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Ravintola Valdemari"
     },
     {
       "name": "Reindeer Farm Visit",
@@ -2351,7 +2466,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Fotoğraf makinenizin şarjının dolu olduğundan emin olun.",
       "tips_en": "Make sure your camera battery is full.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Reindeer Farm Visit"
     },
     {
       "id": "restaurant-aitta",
@@ -2371,7 +2487,8 @@
       "price": "medium",
       "tips": "Pazar günleri brunch servisi vardır.",
       "tips_en": "There is brunch service on Sundays.",
-      "subcategory": "Lapon"
+      "subcategory": "Lapon",
+      "name_en": "Restaurant Aitta"
     },
     {
       "name": "Restaurant Gaissa",
@@ -2392,7 +2509,8 @@
       "bestTime": "09:00 - 18:00",
       "bestTime_en": "09:00 - 18:00",
       "tips": "Yerel şarapları denemenizi öneririz.",
-      "tips_en": "We recommend trying local wines."
+      "tips_en": "We recommend trying local wines.",
+      "name_en": "Restaurant Gaissa"
     },
     {
       "name": "Revontuli Shopping Centre",
@@ -2413,7 +2531,8 @@
       "bestTime": "09:00 - 18:00",
       "bestTime_en": "09:00 - 18:00",
       "tips": "Pazarlık yapmayı deneyebilirsiniz (nazikçe).",
-      "tips_en": "You might try bargaining (politely)."
+      "tips_en": "You might try bargaining (politely).",
+      "name_en": "Revontuli Shopping Centre"
     },
     {
       "id": "riisitunturi-national-park",
@@ -2433,7 +2552,8 @@
       "price": "free",
       "tips": "Fotoğrafçılar için dünyadaki en iyi kış manzaralarından biridir.",
       "tips_en": "One of the best winter landscapes in the world for photographers.",
-      "subcategory": "Park"
+      "subcategory": "Park",
+      "name_en": "Riisitunturi National Park"
     },
     {
       "id": "rinteenkulma-shopping-centre",
@@ -2453,7 +2573,8 @@
       "price": "medium",
       "tips": "Otoparkı geniştir.",
       "tips_en": "Its parking lot is spacious.",
-      "subcategory": "AVM"
+      "subcategory": "AVM",
+      "name_en": "Rinteenkulma Shopping Centre"
     },
     {
       "name": "Roka Kitchen & Bar",
@@ -2474,7 +2595,8 @@
       "bestTime": "09:00 - 18:00",
       "bestTime_en": "09:00 - 18:00",
       "tips": "Öğle yemeği menüleri genellikle akşamdan daha uygundur.",
-      "tips_en": "Lunch menus are usually cheaper than dinner."
+      "tips_en": "Lunch menus are usually cheaper than dinner.",
+      "name_en": "Roka Kitchen & Bar"
     },
     {
       "id": "roka-street-bistro",
@@ -2494,7 +2616,8 @@
       "price": "medium",
       "tips": "Somon çorbası (Lohikeitto) çok meşhurdur.",
       "tips_en": "Salmon soup (Lohikeitto) is very famous.",
-      "subcategory": "Bistro"
+      "subcategory": "Bistro",
+      "name_en": "Roka Street Bistro"
     },
     {
       "id": "rollohalli",
@@ -2514,7 +2637,8 @@
       "price": "medium",
       "tips": "Enerjik çocuklar için cennettir.",
       "tips_en": "Paradise for energetic kids.",
-      "subcategory": "Park"
+      "subcategory": "Park",
+      "name_en": "Rollohalli"
     },
     {
       "id": "roosevelt-cottage",
@@ -2534,7 +2658,8 @@
       "price": "free",
       "tips": "İçinde küçük bir sergi ve tarihçe vardır.",
       "tips_en": "There is a small exhibition and history inside.",
-      "subcategory": "Kulübe"
+      "subcategory": "Kulübe",
+      "name_en": "Roosevelt Cottage"
     },
     {
       "name": "Rovaniemi Art Museum",
@@ -2555,7 +2680,8 @@
       "bestTime": "09:00 - 18:00",
       "bestTime_en": "09:00 - 18:00",
       "tips": "Hafta içi sabah saatleri en sakin zamanıdır.",
-      "tips_en": "Weekday mornings are the quietest times."
+      "tips_en": "Weekday mornings are the quietest times.",
+      "name_en": "Rovaniemi Art Museum"
     },
     {
       "name": "Rovaniemi Church",
@@ -2576,7 +2702,8 @@
       "bestTime": "09:00 - 18:00",
       "bestTime_en": "09:00 - 18:00",
       "tips": "Sabah erken saatlerde giderek turist kalabalığından kaçınabilirsiniz.",
-      "tips_en": "Go early in the morning to avoid tourist crowds."
+      "tips_en": "Go early in the morning to avoid tourist crowds.",
+      "name_en": "Rovaniemi Church"
     },
     {
       "id": "rovaniemi-city-hall",
@@ -2596,7 +2723,8 @@
       "price": "free",
       "tips": "Aalto merkezinin bir parçasıdır.",
       "tips_en": "It is part of the Aalto center.",
-      "subcategory": "Bina"
+      "subcategory": "Bina",
+      "name_en": "Rovaniemi City Hall"
     },
     {
       "id": "rovaniemi-disc-golf-park",
@@ -2616,7 +2744,8 @@
       "price": "free",
       "tips": "Frizbinizi yanınızda getirin veya kiralayın.",
       "tips_en": "Bring your frisbee or rent one.",
-      "subcategory": "Spor"
+      "subcategory": "Spor",
+      "name_en": "Rovaniemi Disc Golf Park"
     },
     {
       "id": "rovaniemi-library",
@@ -2636,7 +2765,8 @@
       "price": "free",
       "tips": "Fan şeklindeki mimari yapısını inceleyin.",
       "tips_en": "Examine its fan-shaped architectural structure.",
-      "subcategory": "Kütüphane"
+      "subcategory": "Kütüphane",
+      "name_en": "Rovaniemi Library"
     },
     {
       "id": "rovaniemi-local-history-museum",
@@ -2656,7 +2786,8 @@
       "price": "low",
       "tips": "Yazın bahçesinde koyunlar otlar.",
       "tips_en": "Sheep graze in its garden in summer.",
-      "subcategory": "Tarih"
+      "subcategory": "Tarih",
+      "name_en": "Rovaniemi Local History Museum"
     },
     {
       "id": "rovaniemi-theater",
@@ -2676,7 +2807,8 @@
       "price": "medium",
       "tips": "Fince bilmeseniz bile müzikalleri izleyebilirsiniz.",
       "tips_en": "You can watch musicals even if you don't know Finnish.",
-      "subcategory": "Tiyatro"
+      "subcategory": "Tiyatro",
+      "name_en": "Rovaniemi Theater"
     },
     {
       "id": "rovaniemi-tourist-information",
@@ -2696,7 +2828,8 @@
       "price": "free",
       "tips": "Personel çok yardımseverdir.",
       "tips_en": "Staff is very helpful.",
-      "subcategory": "Turizm Ofisi"
+      "subcategory": "Turizm Ofisi",
+      "name_en": "Rovaniemi Tourist Information"
     },
     {
       "id": "roy-club",
@@ -2716,7 +2849,8 @@
       "price": "medium",
       "tips": "Gece yarısından sonra kalabalıklaşır.",
       "tips_en": "Gets crowded after midnight.",
-      "subcategory": "Gece Kulübü"
+      "subcategory": "Gece Kulübü",
+      "name_en": "Roy Club"
     },
     {
       "id": "safartica",
@@ -2736,7 +2870,8 @@
       "price": "high",
       "tips": "Kendi başınıza gezecekseniz buradan tulum kiralayabilirsiniz.",
       "tips_en": "If sightseeing on your own, you can rent overalls here.",
-      "subcategory": "Tur"
+      "subcategory": "Tur",
+      "name_en": "Safartica"
     },
     {
       "id": "saigon-noodle-bar",
@@ -2756,7 +2891,8 @@
       "price": "medium",
       "tips": "Porsiyonlar büyüktür.",
       "tips_en": "Portions are large.",
-      "subcategory": "Vietnam"
+      "subcategory": "Vietnam",
+      "name_en": "Saigon Noodle Bar"
     },
     {
       "id": "sampo-icebreaker",
@@ -2776,7 +2912,8 @@
       "price": "very high",
       "tips": "Hayatta bir kez yaşanacak pahalı ama eşsiz bir deneyim.",
       "tips_en": "An expensive but unique once-in-a-lifetime experience.",
-      "subcategory": "Gemi"
+      "subcategory": "Gemi",
+      "name_en": "Sampo Icebreaker"
     },
     {
       "name": "Sampokeskus Shopping Center",
@@ -2797,7 +2934,8 @@
       "bestTime": "09:00 - 18:00",
       "bestTime_en": "09:00 - 18:00",
       "tips": "Pazar günleri kapalı olabilir, kontrol edin.",
-      "tips_en": "Might be closed on Sundays, do check."
+      "tips_en": "Might be closed on Sundays, do check.",
+      "name_en": "Sampokeskus Shopping Center"
     },
     {
       "id": "santa-claus-holiday-village",
@@ -2817,7 +2955,8 @@
       "price": "high",
       "tips": "Resepsiyonu 24 saat açıktır.",
       "tips_en": "Reception is open 24 hours.",
-      "subcategory": "Kır Evi"
+      "subcategory": "Kır Evi",
+      "name_en": "Santa Claus Holiday Village"
     },
     {
       "id": "santa-claus-main-post-office",
@@ -2858,7 +2997,8 @@
       "price": "free",
       "tips": "Sıra beklememek için sabah erken veya akşam geç saatlerde gidin.",
       "tips_en": "Go early in the morning or late in the evening to avoid queues.",
-      "subcategory": "Noel Baba"
+      "subcategory": "Noel Baba",
+      "name_en": "Santa Claus Office"
     },
     {
       "id": "santa-claus-reindeer",
@@ -2878,7 +3018,8 @@
       "price": "medium",
       "tips": "400 metrelik kısa tur bile fotoğraf çekmek için yeterlidir.",
       "tips_en": "Even the 400-meter short tour is enough for taking photos.",
-      "subcategory": "Aktivite"
+      "subcategory": "Aktivite",
+      "name_en": "Santa Claus Reindeer"
     },
     {
       "name": "Santa Claus Village",
@@ -2898,7 +3039,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Noel Baba ile fotoğraf çektirmek ücretsizdir ama dijital kopyasını almak ücretlidir.",
       "tips_en": "Taking a photo with Santa is free, but getting the digital copy costs money.",
-      "description_en": "The official hometown of Santa Claus, this magical village keeps the Christmas spirit alive all year round. You can cross the Arctic Circle line, meet Santa Claus, and send specially stamped postcards to loved ones."
+      "description_en": "The official hometown of Santa Claus, this magical village keeps the Christmas spirit alive all year round. You can cross the Arctic Circle line, meet Santa Claus, and send specially stamped postcards to loved ones.",
+      "name_en": "Santa Claus Village"
     },
     {
       "id": "santas-forest-joulukan-mets",
@@ -2918,7 +3060,8 @@
       "price": "high",
       "tips": "Sadece özel turlarla gidilebilir.",
       "tips_en": "Can only be visited with special tours.",
-      "subcategory": "Orman"
+      "subcategory": "Orman",
+      "name_en": "Santa's Forest (Joulukan Metsä)"
     },
     {
       "id": "santas-hotel-santa-claus",
@@ -2938,7 +3081,8 @@
       "price": "high",
       "tips": "Kahvaltısı çok zengindir.",
       "tips_en": "Its breakfast is very rich.",
-      "subcategory": "Otel"
+      "subcategory": "Otel",
+      "name_en": "Santa's Hotel Santa Claus"
     },
     {
       "id": "santas-igloos-arctic-circle",
@@ -2958,7 +3102,8 @@
       "price": "high",
       "tips": "Aurora alarmı sistemleri vardır, açmayı unutmayın.",
       "tips_en": "They have Aurora alarm systems, don't forget to turn it on.",
-      "subcategory": "Otel"
+      "subcategory": "Otel",
+      "name_en": "Santa's Igloos Arctic Circle"
     },
     {
       "id": "santas-pizza-burger",
@@ -2978,7 +3123,8 @@
       "price": "medium",
       "tips": "Pizzaları oldukça büyüktür, paylaşabilirsiniz.",
       "tips_en": "Pizzas are quite large, you can share.",
-      "subcategory": "Fast Food"
+      "subcategory": "Fast Food",
+      "name_en": "Santa's Pizza & Burger"
     },
     {
       "id": "santas-salmon-place",
@@ -3019,7 +3165,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Sabah koşusu veya yoga yapan yerlileri görebilirsiniz.",
       "tips_en": "You can see locals jogging or doing yoga in the morning.",
-      "description_en": "Yeraltında kurulmuş Noel Baba temalı eğlence parkı. A perfect getaway for those who want to experience peaceful moments in nature. Ideal for getting away from the city noise, taking a breath, and capturing great photos."
+      "description_en": "Yeraltında kurulmuş Noel Baba temalı eğlence parkı. A perfect getaway for those who want to experience peaceful moments in nature. Ideal for getting away from the city noise, taking a breath, and capturing great photos.",
+      "name_en": "SantaPark"
     },
     {
       "id": "santasport-apartment-hotel",
@@ -3039,7 +3186,8 @@
       "price": "medium",
       "tips": "Havuz ve spor olanaklarından ücretsiz yararlanabilirsiniz.",
       "tips_en": "You can use pool and sports facilities for free.",
-      "subcategory": "Apart"
+      "subcategory": "Apart",
+      "name_en": "Santasport Apartment Hotel"
     },
     {
       "id": "santasport-institute",
@@ -3059,7 +3207,8 @@
       "price": "medium",
       "tips": "Yağmurlu veya çok soğuk günler için idealdir.",
       "tips_en": "Ideal for rainy or very cold days.",
-      "subcategory": "Spor"
+      "subcategory": "Spor",
+      "name_en": "Santasport Institute"
     },
     {
       "id": "scandic-pohjanhovi",
@@ -3079,7 +3228,8 @@
       "price": "medium",
       "tips": "Nehir manzaralı oda isteyin.",
       "tips_en": "Ask for a river view room.",
-      "subcategory": "Otel"
+      "subcategory": "Otel",
+      "name_en": "Scandic Pohjanhovi"
     },
     {
       "id": "scandic-rovaniemi-city",
@@ -3099,7 +3249,8 @@
       "price": "high",
       "tips": "Spor salonu ve saunası mevcuttur.",
       "tips_en": "Gym and sauna are available.",
-      "subcategory": "Otel"
+      "subcategory": "Otel",
+      "name_en": "Scandic Rovaniemi City"
     },
     {
       "id": "shell-helmi-simpukka-napapiiri",
@@ -3119,7 +3270,8 @@
       "price": "low",
       "tips": "Gece geç saatte açık tek yer olabilir.",
       "tips_en": "Might be the only place open late at night.",
-      "subcategory": "Kafeterya"
+      "subcategory": "Kafeterya",
+      "name_en": "Shell Helmi Simpukka Napapiiri"
     },
     {
       "id": "sierijrvi-reindeer-farm",
@@ -3139,7 +3291,8 @@
       "price": "high",
       "tips": "Sahipleri Lapon kültürünü çok güzel anlatır.",
       "tips_en": "Owners explain Lappish culture very nicely.",
-      "subcategory": "Çiftlik"
+      "subcategory": "Çiftlik",
+      "name_en": "Sierijärvi Reindeer Farm"
     },
     {
       "id": "sky-ounasvaara-roof-terrace",
@@ -3159,7 +3312,8 @@
       "price": "free",
       "tips": "Buradan gün batımı veya aurora izlemek harikadır.",
       "tips_en": "Watching sunset or aurora from here is great.",
-      "subcategory": "Teras"
+      "subcategory": "Teras",
+      "name_en": "Sky Ounasvaara Roof Terrace"
     },
     {
       "id": "snowman-world",
@@ -3179,7 +3333,8 @@
       "price": "high",
       "tips": "Bilet tüm gün geçerlidir, girip çıkabilirsiniz.",
       "tips_en": "Ticket is valid all day, you can enter and exit.",
-      "subcategory": "Kar Parkı"
+      "subcategory": "Kar Parkı",
+      "name_en": "Snowman World"
     },
     {
       "id": "snowman-world-glass-resort",
@@ -3199,7 +3354,8 @@
       "price": "high",
       "tips": "Her evin özel jakuzisi vardır.",
       "tips_en": "Each house has a private jacuzzi.",
-      "subcategory": "Otel"
+      "subcategory": "Otel",
+      "name_en": "Snowman World Glass Resort"
     },
     {
       "id": "syvsenvaara-fell",
@@ -3219,7 +3375,8 @@
       "price": "free",
       "tips": "'Hiidenkirnu' (Dev kazanı) oluşumlarını arayın.",
       "tips_en": "Look for 'Hiidenkirnu' (Devil's churn) formations.",
-      "subcategory": "Tepelik"
+      "subcategory": "Tepelik",
+      "name_en": "Syväsenvaara Fell"
     },
     {
       "id": "taiga-koru",
@@ -3239,7 +3396,8 @@
       "price": "high",
       "tips": "Özel tasarım yüzükleri çok popülerdir.",
       "tips_en": "Their custom design rings are very popular.",
-      "subcategory": "Mücevher"
+      "subcategory": "Mücevher",
+      "name_en": "Taiga Koru"
     },
     {
       "id": "three-elves-restaurant",
@@ -3259,7 +3417,8 @@
       "price": "medium",
       "tips": "Poronkäristys (sote geyik eti) denemelisiniz.",
       "tips_en": "You must try Poronkäristys (sautéed reindeer).",
-      "subcategory": "Lapon"
+      "subcategory": "Lapon",
+      "name_en": "Three Elves Restaurant"
     },
     {
       "id": "uitto-pub",
@@ -3279,7 +3438,8 @@
       "price": "medium",
       "tips": "Yerel halkla sohbet etmek için en iyi yerdir.",
       "tips_en": "Best place to chat with locals.",
-      "subcategory": "Pub"
+      "subcategory": "Pub",
+      "name_en": "Uitto Pub"
     },
     {
       "id": "vaattunki-wilderness-area",
@@ -3322,7 +3482,8 @@
       "price": "medium",
       "tips": "Sadece kış sezonunda açıktır.",
       "tips_en": "Open only in winter season.",
-      "subcategory": "Park"
+      "subcategory": "Park",
+      "name_en": "Valley of Snowmen"
     },
     {
       "id": "vikakongs-rapids",
@@ -3342,7 +3503,8 @@
       "price": "free",
       "tips": "Nehir kenarında piknik masaları vardır.",
       "tips_en": "There are picnic tables by the river.",
-      "subcategory": "Nehir"
+      "subcategory": "Nehir",
+      "name_en": "Vikaköngäs Rapids"
     },
     {
       "id": "wanha-mestari",
@@ -3362,7 +3524,8 @@
       "price": "medium",
       "tips": "Finliler karaoke yapmayı çok sever.",
       "tips_en": "Finns love doing karaoke.",
-      "subcategory": "Pub"
+      "subcategory": "Pub",
+      "name_en": "Wanha Mestari"
     },
     {
       "id": "wild-nordic-finland",
@@ -3382,7 +3545,8 @@
       "price": "high",
       "tips": "Gece düzenlenen Aurora safarileri çok popülerdir.",
       "tips_en": "Night Aurora safaris are very popular.",
-      "subcategory": "Tur"
+      "subcategory": "Tur",
+      "name_en": "Wild Nordic Finland"
     },
     {
       "id": "wingston",
@@ -3402,7 +3566,8 @@
       "price": "medium",
       "tips": "Sos seçenekleri fazladır.",
       "tips_en": "Has many sauce options.",
-      "subcategory": "Fast Food"
+      "subcategory": "Fast Food",
+      "name_en": "Wingston"
     },
     {
       "id": "yuca",
@@ -3422,7 +3587,8 @@
       "price": "medium",
       "tips": "Margaritaları da çok başarılıdır.",
       "tips_en": "Their margaritas are also very successful.",
-      "subcategory": "Meksika"
+      "subcategory": "Meksika",
+      "name_en": "Yuca"
     },
     {
       "id": "zoomit",
@@ -3442,7 +3608,8 @@
       "price": "medium",
       "tips": "Santa's Hotel'in giriş katındadır.",
       "tips_en": "Located on the ground floor of Santa's Hotel.",
-      "subcategory": "Bar"
+      "subcategory": "Bar",
+      "name_en": "Zoomit"
     },
     {
       "name": "Reindeer Sleigh Ride",

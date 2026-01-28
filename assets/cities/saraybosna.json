@@ -505,7 +505,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/saraybosna/bakircilar_carsisi_kazandziluk.jpg",
       "tips": "Pazar günleri kapalı olabilir, kontrol edin.",
       "description_en": "Bakırcılar Çarşısı (Kazandziluk) is a highlight of Sarajevo in the Başçarşı area.",
-      "tips_en": "Might be closed on Sundays, do check."
+      "tips_en": "Might be closed on Sundays, do check.",
+      "name_en": "Bakırcılar Bazaar (Kazandziluk)"
     },
     {
       "name": "Barhana",
@@ -585,7 +586,8 @@
       "tips": "Rehbere soru sormaktan çekinmeyin, çok ilginç hikayeler biliyorlar.",
       "description_en": "Başçarşı is a highlight of Sarajevo in the Merkez area.",
       "tips_en": "Don't hesitate to ask the guide questions, they know interesting stories.",
-      "area_en": "Center"
+      "area_en": "Center",
+      "name_en": "Başçarşı"
     },
     {
       "name": "Başçarşı Camii (Hoca Durak)",
@@ -716,7 +718,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/saraybosna/bezistan_kapali_carsi.jpg",
       "tips": "Tax-free formunu istemeyi unutmayın.",
       "description_en": "Bezistan (Kapalı Çarşı) is a highlight of Sarajevo in the Başçarşı area.",
-      "tips_en": "Don't forget to ask for the Tax-free form."
+      "tips_en": "Don't forget to ask for the Tax-free form.",
+      "name_en": "Bezistan (Kapalı Çarşı)"
     },
     {
       "name": "Bijambare Mağaraları",
@@ -1012,7 +1015,7 @@
       "source": "firebase"
     },
     {
-      "name": "Buregdzinica Bosna",
+      "name": "Buregdžinica Sač",
       "area": "Başçarşı",
       "category": "Yeme-İçme",
       "subcategory": "Restoran",
@@ -1051,8 +1054,8 @@
         "ucuz"
       ],
       "distanceFromCenter": 0.1,
-      "lat": 43.859,
-      "lng": 18.431,
+      "lat": 43859.0,
+      "lng": 18431.0,
       "price": "low",
       "rating": 4.7,
       "description": "Geleneksel 'saç' altında pişen börekleriyle ünlü mekan. Kıymalı (Burek), peynirli (Sirnica) ve ıspanaklı (Zeljanica) çeşitleri vardır.",
@@ -1143,7 +1146,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/saraybosna/cajdzinica_dzirlo.jpg",
       "tips": "Hafta içi ziyaret etmek daha sakin bir deneyim sunar.",
       "description_en": "Cajdzinica Dzirlo is a highlight of Sarajevo in the Kovaci area.",
-      "tips_en": "Visiting on weekdays offers a calmer experience."
+      "tips_en": "Visiting on weekdays offers a calmer experience.",
+      "name_en": "Cajdzinica Dzirlo"
     },
     {
       "name": "Canned Beef Monument",
@@ -1223,7 +1227,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/saraybosna/cevabdzinica_petica_ferhatovic.jpg",
       "tips": "Şefin spesiyal tabağını sormaktan çekinmeyin.",
       "description_en": "Cevabdzinica Petica Ferhatovic is a highlight of Sarajevo in the Başçarşı area.",
-      "tips_en": "Don't hesitate to ask for the chef's special."
+      "tips_en": "Don't hesitate to ask for the chef's special.",
+      "name_en": "Cevabdzinica Petica Ferhatovic"
     },
     {
       "name": "Cevabdzinica Zeljo",
@@ -1250,7 +1255,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/saraybosna/cevabdzinica_zeljo.jpg",
       "tips": "Nakite hazırlıklı olun, bazı yerel yerler kart kabul etmeyebilir.",
       "description_en": "Cevabdzinica Zeljo is a highlight of Sarajevo in the Başçarşı area.",
-      "tips_en": "Be prepared with cash, some local places might not accept cards."
+      "tips_en": "Be prepared with cash, some local places might not accept cards.",
+      "name_en": "Cevabdzinica Zeljo"
     },
     {
       "name": "Chipas",
@@ -1307,7 +1313,7 @@
       "area_en": "Center"
     },
     {
-      "name": "City Market (Markale Pazarı)",
+      "name": "Markale Pazarı",
       "name_en": "Markale Market Hall",
       "area": "Merkez",
       "category": "Tarihi",
@@ -1489,7 +1495,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/saraybosna/dveri.jpg",
       "tips": "Şefin spesiyal tabağını sormaktan çekinmeyin.",
       "description_en": "Dandri is a highlight of Sarajevo in the Başçarşı area.",
-      "tips_en": "Don't hesitate to ask for the chef's special."
+      "tips_en": "Don't hesitate to ask for the chef's special.",
+      "name_en": "Dveri"
     },
     {
       "name": "Dženita",
@@ -1727,7 +1734,8 @@
       "tips": "Çantanızı vestiyere bırakmanız gerekebilir, hazırlıklı olun.",
       "description_en": "Galerija 11/07/95 is a highlight of Sarajevo in the Merkez area.",
       "tips_en": "You might need to leave bags at the cloakroom, be prepared.",
-      "area_en": "Center"
+      "area_en": "Center",
+      "name_en": "Galerija 11/07/95"
     },
     {
       "name": "Gazi Husrev Bey Hamamı",
@@ -1780,7 +1788,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/saraybosna/gazi_husrev_bey_camii.jpg",
       "tips": "Rehberli turla gezmek detayları anlamak için çok daha verimli.",
       "description_en": "Gazi Hüsrev Bey Camii is a highlight of Sarajevo in the Başçarşı area.",
-      "tips_en": "A guided tour is much more efficient to understand the details."
+      "tips_en": "A guided tour is much more efficient to understand the details.",
+      "name_en": "Gazi Hüsrev Bey Mosque"
     },
     {
       "name": "Gradska Tržnica (Pazar Yeri)",
@@ -1965,7 +1974,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/saraybosna/inat_kuca.png",
       "tips": "Öğle yemeği menüleri genellikle akşamdan daha uygundur.",
       "description_en": "Inat Kuca is a highlight of Sarajevo in the Miljacka area.",
-      "tips_en": "Lunch menus are usually cheaper than dinner."
+      "tips_en": "Lunch menus are usually cheaper than dinner.",
+      "name_en": "Inat Kuca"
     },
     {
       "name": "Isfahan Gallery",
@@ -2464,7 +2474,8 @@
       "tips": "Müze kartınız varsa girişte sıra beklemezsiniz.",
       "description_en": "Latin Köprüsü is a highlight of Sarajevo in the Merkez area.",
       "tips_en": "You skip the line if you have a museum pass.",
-      "area_en": "Center"
+      "area_en": "Center",
+      "name_en": "Latin Bridge"
     },
     {
       "name": "Lukomir Köyü",
@@ -2584,7 +2595,7 @@
       ],
       "distanceFromCenter": 0.2,
       "lat": 43.8585,
-      "lng": 18.423,
+      "lng": 18423.0,
       "price": "free",
       "rating": 4.4,
       "description": "Savaş sırasında trajik saldırıların yaşandığı tarihi kapalı pazar yeri. Arka tarafında anıt duvar bulunur.",
@@ -3096,7 +3107,7 @@
       "area_en": "Center"
     },
     {
-      "name": "Pivnica HS (Saraybosna Bira Fabrikası)",
+      "name": "Saraybosna Bira Fabrikası (Pivnica HS)",
       "name_en": "Sarajevo Brewery",
       "area": "Bistrik",
       "category": "Yeme-İçme",
@@ -3355,7 +3366,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/saraybosna/sarajevo_city_center.jpg",
       "tips": "Tax-free formunu istemeyi unutmayın.",
       "description_en": "Sarajevo City Center is a highlight of Sarajevo in the Marijin Dvor area.",
-      "tips_en": "Don't forget to ask for the Tax-free form."
+      "tips_en": "Don't forget to ask for the Tax-free form.",
+      "name_en": "Sarajevo City Center"
     },
     {
       "name": "Sarajevo Flea Market (Auto Pijaca)",
@@ -3395,8 +3407,8 @@
         "canlı müzik"
       ],
       "distanceFromCenter": 0.5,
-      "lat": 43.856,
-      "lng": 18.435,
+      "lat": 43856.0,
+      "lng": 18435.0,
       "price": "medium",
       "rating": 4.5,
       "description": "1864'ten beri üretim yapan tarihi fabrika ve bitişiğindeki devasa restoran. Taze 'Sarajevsko' birası içmek için en doğru adres.",
@@ -3460,7 +3472,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/saraybosna/saraybosna_katedrali.jpg",
       "tips": "Yapı içerisindeki akustik harika, sessizliği dinleyin.",
       "description_en": "Saraybosna Katedrali is a highlight of Sarajevo in the Ferhadiye area.",
-      "tips_en": "The acoustics inside satisfy; listen to the silence."
+      "tips_en": "The acoustics inside satisfy; listen to the silence.",
+      "name_en": "Saraybosna Katedrali"
     },
     {
       "name": "Saraybosna Müzesi 1878-1918",
@@ -3487,7 +3500,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/saraybosna/saraybosna_muzesi_1878_1918.jpg",
       "tips": "Bazı günler giriş ücretsiz olabilir, web sitesini kontrol edin.",
       "description_en": "Saraybosna Müzesi 1878-1918 is a highlight of Sarajevo in the Latin Köprüsü area.",
-      "tips_en": "Entry might be free on some days, check the website."
+      "tips_en": "Entry might be free on some days, check the website.",
+      "name_en": "Saraybosna Museum 1878-1918"
     },
     {
       "name": "Saraybosna Ulusal Tiyatrosu",
@@ -3541,7 +3555,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/saraybosna/sari_tabya_yellow_bastion.jpg",
       "tips": "Teleskop/dürbün varsa yanınıza alın.",
       "description_en": "Sarı Tabya (Yellow Bastion) is a highlight of Sarajevo in the Vratnik area.",
-      "tips_en": "Bring a telescope/binoculars if you have them."
+      "tips_en": "Bring a telescope/binoculars if you have them.",
+      "name_en": "Sarı Tabya (Yellow Bastion)"
     },
     {
       "name": "Savaş Çocukluğu Müzesi",
@@ -3594,7 +3609,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/saraybosna/sebil_sebilj_brunnen.jpg",
       "tips": "Müze kartınız varsa girişte sıra beklemezsiniz.",
       "description_en": "18th-century Ottoman wooden fountain in heart of Baščaršija. City's meeting point and symbol famous for pigeons.",
-      "tips_en": "You skip the line if you have a museum pass."
+      "tips_en": "You skip the line if you have a museum pass.",
+      "name_en": "Sebil (Sebilj Brunnen)"
     },
     {
       "name": "Sedrenik",
@@ -3993,7 +4009,8 @@
       "tips": "Çantanızı vestiyere bırakmanız gerekebilir, hazırlıklı olun.",
       "description_en": "Svrzo'nun Evi is a highlight of Sarajevo in the Merkez area.",
       "tips_en": "You might need to leave bags at the cloakroom, be prepared.",
-      "area_en": "Center"
+      "area_en": "Center",
+      "name_en": "Svrzo'nun Evi"
     },
     {
       "name": "Talks & Giggles",
@@ -4262,7 +4279,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/saraybosna/trebevi_dagi_teleferik.jpg",
       "tips": "Panoramik fotoğraf için geniş açı lensinizi hazırlayın.",
       "description_en": "Trebević Dağı (Teleferik) is a highlight of Sarajevo in the Trebević area.",
-      "tips_en": "Prepare your wide-angle lens for panoramic photos."
+      "tips_en": "Prepare your wide-angle lens for panoramic photos.",
+      "name_en": "Trebević Mountain (Teleferik)"
     },
     {
       "name": "Ulusal Müze (Zemaljski Muzej)",
@@ -4368,7 +4386,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/saraybosna/umut_tuneli_tunnel_of_hope.jpg",
       "tips": "Sesli rehber (audio guide) kiralamak deneyimi ikiye katlar.",
       "description_en": "Umut Tüneli (Tunnel of Hope) is a highlight of Sarajevo in the Havalimanı Yanı area.",
-      "tips_en": "Renting an audio guide doubles the experience."
+      "tips_en": "Renting an audio guide doubles the experience.",
+      "name_en": "Umut Tüneli (Tunnel of Hope)"
     },
     {
       "name": "Unitic Kuleleri",
@@ -4527,7 +4546,8 @@
       "tips": "Rehberli turla gezmek detayları anlamak için çok daha verimli.",
       "description_en": "Vijećnica (Belediye Binası) is a highlight of Sarajevo in the Merkez area.",
       "tips_en": "A guided tour is much more efficient to understand the details.",
-      "area_en": "Center"
+      "area_en": "Center",
+      "name_en": "Vijećnica (Belediye Binası)"
     },
     {
       "name": "Vraca Anıt Parkı",
@@ -4632,7 +4652,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/saraybosna/vrelo_bosne.jpg",
       "tips": "Yanınıza bir örtü alıp çimlerde piknik yapabilirsiniz.",
       "description_en": "Vrelo Bosne is a highlight of Sarajevo in the Ilidža area.",
-      "tips_en": "Bring a blanket and have a picnic on the grass."
+      "tips_en": "Bring a blanket and have a picnic on the grass.",
+      "name_en": "Vrelo Bosne"
     },
     {
       "name": "Vučko",
@@ -4765,7 +4786,8 @@
       "tips": "Google Maps yorumlarına göz atarak ne yiyeceğinize karar verin.",
       "description_en": "Cafe-bar filled with antiques, like a museum. Jazz music, nostalgic decor, and city's most interesting toilet.",
       "tips_en": "Decide what to eat by checking Google Maps reviews.",
-      "area_en": "Center"
+      "area_en": "Center",
+      "name_en": "Zlatna Ribica"
     },
     {
       "name": "Çavljak",
@@ -4873,7 +4895,7 @@
       "source": "google"
     },
     {
-      "name": "İmparator Camii (Careva Džamija)",
+      "name": "İmparator Camii (Hünkar Camii)",
       "name_en": "Emperor's Mosque",
       "area": "Başçarşı",
       "category": "Tarihi",

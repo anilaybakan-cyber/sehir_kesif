@@ -26,7 +26,8 @@
       "price": "free",
       "tips": "Gerçek Fes yaşamını görmek için ideal.",
       "tips_en": "Ideal to see real Fes life.",
-      "subcategory": "Mahalle"
+      "subcategory": "Mahalle",
+      "name_en": "Ain Azliten"
     },
     {
       "id": "ain-nokbi",
@@ -46,7 +47,8 @@
       "price": "free",
       "tips": "Art Naji gibi büyük kooperatifler buradadır.",
       "tips_en": "Big cooperatives like Art Naji are here.",
-      "subcategory": "Zanaat"
+      "subcategory": "Zanaat",
+      "name_en": "Ain Nokbi"
     },
     {
       "id": "ain-vittel",
@@ -66,7 +68,8 @@
       "price": "free",
       "tips": "Yazın serinlemek için idealdir.",
       "tips_en": "Ideal for cooling off in summer.",
-      "subcategory": "Şelale"
+      "subcategory": "Şelale",
+      "name_en": "Ain Vittel"
     },
     {
       "name": "Al-Attarine Medresesi",
@@ -93,7 +96,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/al_attarine_medresesi.jpg",
       "tips": "Rehberli turla gezmek detayları anlamak için çok daha verimli.",
       "description_en": "Built by the Marinid sultan in 1325, this madrasa is one of the most elegant examples of Islamic architecture. The intricate 'zellij' tilework, carved cedar wood panels, and marble columns in its courtyard display the perfect harmony of art and faith.",
-      "tips_en": "A guided tour is much more efficient to understand the details."
+      "tips_en": "A guided tour is much more efficient to understand the details.",
+      "name_en": "Al-Attarine Medresesi"
     },
     {
       "name": "Al-Qarawiyyin Üniversitesi",
@@ -120,7 +124,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/al_qarawiyyin_universitesi.jpg",
       "tips": "Müze kartınız varsa girişte sıra beklemezsiniz.",
       "description_en": "Founded by Fatima al-Fihri in 859, this structure is considered the oldest university in the world. With its green-tiled roof and massive library, it has been the center of learning in the Islamic world; its library houses Quran copies written on camel skin dating back to the 9th century.",
-      "tips_en": "You skip the line if you have a museum pass."
+      "tips_en": "You skip the line if you have a museum pass.",
+      "name_en": "Al-Qarawiyyin Üniversitesi"
     },
     {
       "id": "andalusian-mosque",
@@ -140,7 +145,8 @@
       "price": "free",
       "tips": "Dış cephesi ve kapısı fotoğraf için muazzamdır.",
       "tips_en": "Its exterior and door are magnificent for photos.",
-      "subcategory": "Cami"
+      "subcategory": "Cami",
+      "name_en": "Andalusian Mosque"
     },
     {
       "id": "antique-shop-fes",
@@ -160,7 +166,8 @@
       "price": "high",
       "tips": "Müze gezer gibi gezebilirsiniz.",
       "tips_en": "You can tour it like visiting a museum.",
-      "subcategory": "Antika"
+      "subcategory": "Antika",
+      "name_en": "Antique Shop Fes"
     },
     {
       "id": "argansouss",
@@ -180,7 +187,8 @@
       "price": "medium",
       "tips": "Yemeklik ve kozmetik argan yağı farkını öğrenin.",
       "tips_en": "Learn the difference between culinary and cosmetic argan oil.",
-      "subcategory": "Kozmetik"
+      "subcategory": "Kozmetik",
+      "name_en": "Argansouss"
     },
     {
       "id": "art-naji",
@@ -200,7 +208,8 @@
       "price": "medium",
       "tips": "Üretim sürecini baştan sona izleyebilirsiniz.",
       "tips_en": "You can watch the production process from start to finish.",
-      "subcategory": "Atölye"
+      "subcategory": "Atölye",
+      "name_en": "Art Naji"
     },
     {
       "name": "Art Naji (Seramik)",
@@ -227,7 +236,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/art_naji_seramik.jpg",
       "tips": "Tax-free formunu istemeyi unutmayın.",
       "description_en": "Art Naji (Seramik) is a highlight of Fes in the Medina Dışı area.",
-      "tips_en": "Don't forget to ask for the Tax-free form."
+      "tips_en": "Don't forget to ask for the Tax-free form.",
+      "name_en": "Art Naji (Seramik)"
     },
     {
       "id": "atlas-film-studios-ouarzazate",
@@ -247,7 +257,8 @@
       "price": "medium",
       "tips": "Gladiator ve Kingdom of Heaven setlerini görebilirsiniz.",
       "tips_en": "You can see Gladiator and Kingdom of Heaven sets.",
-      "subcategory": "Stüdyo"
+      "subcategory": "Stüdyo",
+      "name_en": "Atlas Film Studios (Ouarzazate)"
     },
     {
       "id": "au-fil-dor",
@@ -267,7 +278,8 @@
       "price": "high",
       "tips": "Düğünlük kaftanlar sanat eseri gibidir.",
       "tips_en": "Wedding caftans are like artworks.",
-      "subcategory": "Tekstil"
+      "subcategory": "Tekstil",
+      "name_en": "Au Fil d'Or"
     },
     {
       "id": "avenue-hassan-ii",
@@ -287,7 +299,8 @@
       "price": "free",
       "tips": "Akşam yürüyüşü (piyasa) burada yapılır.",
       "tips_en": "Evening walk (promenade) is done here.",
-      "subcategory": "Cadde"
+      "subcategory": "Cadde",
+      "name_en": "Avenue Hassan II"
     },
     {
       "id": "azrou-cedar-forest",
@@ -307,7 +320,8 @@
       "price": "free",
       "tips": "Maymunları beslerken dikkatli olun.",
       "tips_en": "Be careful when feeding monkeys.",
-      "subcategory": "Orman"
+      "subcategory": "Orman",
+      "name_en": "Azrou Cedar Forest"
     },
     {
       "id": "bab-bou-jeloud",
@@ -327,7 +341,8 @@
       "price": "free",
       "tips": "Medina'ya giriş için en popüler noktadır.",
       "tips_en": "Most popular point to enter the Medina.",
-      "subcategory": "Kapı"
+      "subcategory": "Kapı",
+      "name_en": "Bab Bou Jeloud"
     },
     {
       "name": "Bab Boujloud (Mavi Kapı)",
@@ -354,7 +369,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/bab_boujloud_mavi_kapi.jpg",
       "tips": "Fotoğraf çekimi için en iyi ışık gün batımına yakındır.",
       "description_en": "The most magnificent entry point to the old city (Fes el Bali), this monumental gate symbolizes Fes with blue tiles on the outside and Islam with green tiles on the inside. Passing through the gate, you feel like leaving the modern world behind and stepping into a thousand-year-old labyrinth.",
-      "tips_en": "Best light for photography is near sunset."
+      "tips_en": "Best light for photography is near sunset.",
+      "name_en": "Bab Boujloud (Mavi Kapı)"
     },
     {
       "id": "bab-chorfa",
@@ -374,7 +390,8 @@
       "price": "free",
       "tips": "Akşam ışıklandırması çok güzeldir.",
       "tips_en": "Evening lighting is very beautiful.",
-      "subcategory": "Kapı"
+      "subcategory": "Kapı",
+      "name_en": "Bab Chorfa"
     },
     {
       "id": "bab-dekkakin",
@@ -394,7 +411,8 @@
       "price": "free",
       "tips": "Fotoğraf için çok simetrik bir yapıdır.",
       "tips_en": "Very symmetrical structure for photos.",
-      "subcategory": "Kapı"
+      "subcategory": "Kapı",
+      "name_en": "Bab Dekkakin"
     },
     {
       "id": "bab-ftitou",
@@ -414,7 +432,8 @@
       "price": "free",
       "tips": "Yakınında çömlek atölyeleri vardır.",
       "tips_en": "There are pottery workshops nearby.",
-      "subcategory": "Kapı"
+      "subcategory": "Kapı",
+      "name_en": "Bab Ftitou"
     },
     {
       "id": "bab-guissa",
@@ -434,7 +453,8 @@
       "price": "free",
       "tips": "Akşam vakti buradan şehri izlemek keyiflidir.",
       "tips_en": "It is pleasant to watch the city from here in the evening.",
-      "subcategory": "Kapı"
+      "subcategory": "Kapı",
+      "name_en": "Bab Guissa"
     },
     {
       "id": "bab-guissa-mosque",
@@ -454,7 +474,8 @@
       "price": "free",
       "tips": "Namaz vakitleri dışında avlusunu görebilirsiniz.",
       "tips_en": "You can see its courtyard outside prayer times.",
-      "subcategory": "Cami"
+      "subcategory": "Cami",
+      "name_en": "Bab Guissa Mosque"
     },
     {
       "id": "bab-jiaf",
@@ -475,7 +496,8 @@
       "tips": "Biraz harap durumdadır ama atmosferiktir.",
       "tips_en": "A bit in ruins but atmospheric.",
       "subcategory": "Kapı",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Bab Jiaf"
     },
     {
       "id": "bab-khoukha",
@@ -495,7 +517,8 @@
       "price": "free",
       "tips": "Turist kalabalığından uzaktır.",
       "tips_en": "Away from tourist crowds.",
-      "subcategory": "Kapı"
+      "subcategory": "Kapı",
+      "name_en": "Bab Khoukha"
     },
     {
       "id": "bab-mahrouk",
@@ -515,7 +538,8 @@
       "price": "free",
       "tips": "Yerel pazar yerine yakındır.",
       "tips_en": "Close to local marketplace.",
-      "subcategory": "Kapı"
+      "subcategory": "Kapı",
+      "name_en": "Bab Mahrouk"
     },
     {
       "id": "bab-makina",
@@ -535,7 +559,8 @@
       "price": "free",
       "tips": "Festival zamanı (Haziran) bilet bulmak zordur.",
       "tips_en": "Hard to find tickets during festival time (June).",
-      "subcategory": "Meydan"
+      "subcategory": "Meydan",
+      "name_en": "Bab Makina"
     },
     {
       "id": "bab-mansour-laleuj",
@@ -555,7 +580,8 @@
       "price": "free",
       "tips": "Fes'ten trenle kolayca gidilebilir.",
       "tips_en": "Easily accessible by train from Fes.",
-      "subcategory": "Kapı"
+      "subcategory": "Kapı",
+      "name_en": "Bab Mansour Laleuj"
     },
     {
       "id": "bab-rcif",
@@ -575,7 +601,8 @@
       "price": "free",
       "tips": "Buradan iç kısımlara doğru kaybolmak kolaydır.",
       "tips_en": "It is easy to get lost towards the inner parts from here.",
-      "subcategory": "Kapı"
+      "subcategory": "Kapı",
+      "name_en": "Bab R'cif"
     },
     {
       "id": "bab-segma",
@@ -595,7 +622,8 @@
       "price": "free",
       "tips": "Surları dışarıdan fotoğraflamak için güzel bir açıdır.",
       "tips_en": "A nice angle to photograph the walls from outside.",
-      "subcategory": "Kapı"
+      "subcategory": "Kapı",
+      "name_en": "Bab Segma"
     },
     {
       "id": "bab-semmarine",
@@ -615,7 +643,8 @@
       "price": "free",
       "tips": "Kapının çevresindeki pazarda taze gıdalar satılır.",
       "tips_en": "Fresh foods are sold in the market around the gate.",
-      "subcategory": "Kapı"
+      "subcategory": "Kapı",
+      "name_en": "Bab Semmarine"
     },
     {
       "id": "bab-el-amer",
@@ -635,7 +664,8 @@
       "price": "free",
       "tips": "Hemen yanında taksi durağı vardır.",
       "tips_en": "There is a taxi stand right next to it.",
-      "subcategory": "Kapı"
+      "subcategory": "Kapı",
+      "name_en": "Bab el-Amer"
     },
     {
       "id": "bhalil",
@@ -655,7 +685,8 @@
       "price": "free",
       "tips": "Sefrou şehrine çok yakındır.",
       "tips_en": "Very close to Sefrou city.",
-      "subcategory": "Köy"
+      "subcategory": "Köy",
+      "name_en": "Bhalil"
     },
     {
       "name": "Borj Nord",
@@ -683,7 +714,8 @@
       "tips": "Çantanızı vestiyere bırakmanız gerekebilir, hazırlıklı olun.",
       "description_en": "Overlooking the city, this 16th-century fortress now houses the Museum of Arms. Climbing its ramparts offers the best panoramic view where you can see the labyrinthine streets, minarets, and tanneries of Fes el Bali from a bird's eye view.",
       "tips_en": "You might need to leave bags at the cloakroom, be prepared.",
-      "area_en": "Hill"
+      "area_en": "Hill",
+      "name_en": "Borj Nord"
     },
     {
       "id": "borj-sheikh-ahmed",
@@ -703,7 +735,8 @@
       "price": "free",
       "tips": "Yürüyüş rotası üzerindedir.",
       "tips_en": "On the hiking route.",
-      "subcategory": "Kule"
+      "subcategory": "Kule",
+      "name_en": "Borj Sheikh Ahmed"
     },
     {
       "id": "borj-sud",
@@ -723,7 +756,8 @@
       "price": "low",
       "tips": "Gün batımında gitmek şarttır.",
       "tips_en": "Going at sunset is a must.",
-      "subcategory": "Kale"
+      "subcategory": "Kale",
+      "name_en": "Borj Sud"
     },
     {
       "name": "Bou Inania Medresesi",
@@ -750,7 +784,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/bou_inania_medresesi.jpg",
       "tips": "Sabah erken saatlerde giderek turist kalabalığından kaçınabilirsiniz.",
       "description_en": "Bou Inania Medresesi is a highlight of Fes in the Medina area.",
-      "tips_en": "Go early in the morning to avoid tourist crowds."
+      "tips_en": "Go early in the morning to avoid tourist crowds.",
+      "name_en": "Bou Inania Medresesi"
     },
     {
       "id": "broderie-de-fes",
@@ -770,7 +805,8 @@
       "price": "medium",
       "tips": "Masa örtüleri çok şıktır.",
       "tips_en": "Tablecloths are very stylish.",
-      "subcategory": "Nakış"
+      "subcategory": "Nakış",
+      "name_en": "Broderie de Fes"
     },
     {
       "id": "cafe-clock",
@@ -818,7 +854,8 @@
       "price": "medium",
       "tips": "Bahçe gezisinden sonra dinlenmek için ideal.",
       "tips_en": "Ideal for resting after garden tour.",
-      "subcategory": "Cafe"
+      "subcategory": "Cafe",
+      "name_en": "Cafe La Noria"
     },
     {
       "id": "cafe-restaurant-al-oud",
@@ -838,7 +875,8 @@
       "price": "low",
       "tips": "Sahipleri çok misafirperverdir.",
       "tips_en": "Owners are very hospitable.",
-      "subcategory": "Cafe"
+      "subcategory": "Cafe",
+      "name_en": "Cafe Restaurant Al Oud"
     },
     {
       "id": "centre-de-formation-aux-metiers-de-lartisanat",
@@ -858,7 +896,8 @@
       "price": "free",
       "tips": "Öğrencilerin çalışmalarını izlemek mümkündür.",
       "tips_en": "Possible to watch students' work.",
-      "subcategory": "Okul"
+      "subcategory": "Okul",
+      "name_en": "Centre de Formation aux Metiers de l'Artisanat"
     },
     {
       "id": "chefchaouen-day-trip",
@@ -878,7 +917,8 @@
       "price": "high",
       "tips": "Erken çıkıp geç dönmeye değer.",
       "tips_en": "Worth leaving early and returning late.",
-      "subcategory": "Tur"
+      "subcategory": "Tur",
+      "name_en": "Chefchaouen Day Trip"
     },
     {
       "id": "chez-rachid",
@@ -898,7 +938,8 @@
       "price": "low",
       "tips": "Ortam çok hareketli ve gürültülüdür.",
       "tips_en": "Environment is very lively and noisy.",
-      "subcategory": "Esnaf Lokantası"
+      "subcategory": "Esnaf Lokantası",
+      "name_en": "Chez Rachid"
     },
     {
       "id": "chez-les-potiers",
@@ -918,7 +959,8 @@
       "price": "medium",
       "tips": "Paketlemeleri çok sağlamdır.",
       "tips_en": "Their packaging is very sturdy.",
-      "subcategory": "Seramik"
+      "subcategory": "Seramik",
+      "name_en": "Chez les Potiers"
     },
     {
       "name": "Chouara Tabakhaneleri",
@@ -945,7 +987,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/chouara_tabakhaneleri.jpg",
       "tips": "Grup indirimi olup olmadığını sorun.",
       "description_en": "Tannery & leather trader treating & selling locally-crafted goods with a terrace for dyeing.",
-      "tips_en": "Ask if there is a group discount."
+      "tips_en": "Ask if there is a group discount.",
+      "name_en": "Chouara Tabakhaneleri"
     },
     {
       "id": "chouara-tannery",
@@ -965,7 +1008,8 @@
       "price": "free",
       "tips": "Kokuya karşı nane dalı verirler, kabul edin.",
       "tips_en": "They give mint sprigs against the smell, accept it.",
-      "subcategory": "Tabakhane"
+      "subcategory": "Tabakhane",
+      "name_en": "Chouara Tannery"
     },
     {
       "name": "Cinema Cafe",
@@ -992,7 +1036,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/cinema_cafe.jpg",
       "tips": "Çevredeki küçük hediyelik eşya dükkanlarına da uğrayın.",
       "description_en": "Cinema Cafe is a highlight of Fes in the Medina area.",
-      "tips_en": "Stop by the small souvenir shops around."
+      "tips_en": "Stop by the small souvenir shops around.",
+      "name_en": "Cinema Cafe"
     },
     {
       "id": "coin-berbere",
@@ -1012,7 +1057,8 @@
       "price": "high",
       "tips": "Dünyanın her yerine kargo yaparlar.",
       "tips_en": "They ship all over the world.",
-      "subcategory": "Mağaza"
+      "subcategory": "Mağaza",
+      "name_en": "Coin Berbere"
     },
     {
       "id": "cooperative-de-tissage",
@@ -1032,7 +1078,8 @@
       "price": "medium",
       "tips": "Buradan alarak yerel halka destek olursunuz.",
       "tips_en": "By buying from here you support locals.",
-      "subcategory": "Kooperatif"
+      "subcategory": "Kooperatif",
+      "name_en": "Cooperative de Tissage"
     },
     {
       "id": "crafts-of-fez",
@@ -1052,7 +1099,8 @@
       "price": "medium",
       "tips": "Zamanı kısıtlı olanlar için pratiktir.",
       "tips_en": "Practical for those with limited time.",
-      "subcategory": "Hediyelik"
+      "subcategory": "Hediyelik",
+      "name_en": "Crafts of Fez"
     },
     {
       "id": "cremerie-la-place",
@@ -1072,7 +1120,8 @@
       "price": "low",
       "tips": "Avokado suyu (Jus d'avocat) denemelisiniz.",
       "tips_en": "You must try Avocado juice (Jus d'avocat).",
-      "subcategory": "Dondurma"
+      "subcategory": "Dondurma",
+      "name_en": "Cremerie La Place"
     },
     {
       "id": "culture-box",
@@ -1092,7 +1141,8 @@
       "price": "medium",
       "tips": "Vejetaryen burgerleri çok iyidir.",
       "tips_en": "Vegetarian burgers are very good.",
-      "subcategory": "Cafe"
+      "subcategory": "Cafe",
+      "name_en": "Culture Box"
     },
     {
       "id": "dar-batha",
@@ -1112,7 +1162,8 @@
       "price": "medium",
       "tips": "Mavi Fes seramiklerinin en güzel örnekleri buradadır.",
       "tips_en": "Best examples of Blue Fes ceramics are here.",
-      "subcategory": "Saray"
+      "subcategory": "Saray",
+      "name_en": "Dar Batha"
     },
     {
       "name": "Dar Batha Müzesi",
@@ -1139,7 +1190,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/dar_batha_muzesi.jpg",
       "tips": "Sesli rehber (audio guide) kiralamak deneyimi ikiye katlar.",
       "description_en": "Dar Batha Müzesi is a highlight of Fes in the Medina area.",
-      "tips_en": "Renting an audio guide doubles the experience."
+      "tips_en": "Renting an audio guide doubles the experience.",
+      "name_en": "Dar Batha Museum"
     },
     {
       "id": "dar-el-ghalia",
@@ -1159,7 +1211,8 @@
       "price": "high",
       "tips": "Satıcılar çok bilgilidir, halı dersi gibi geçer.",
       "tips_en": "Sellers are very knowledgeable, goes like a carpet class.",
-      "subcategory": "Halı"
+      "subcategory": "Halı",
+      "name_en": "Dar El Ghalia"
     },
     {
       "id": "dar-jamai-museum",
@@ -1179,7 +1232,8 @@
       "price": "medium",
       "tips": "Müzik aletleri koleksiyonu çok geniştir.",
       "tips_en": "Musical instruments collection is very wide.",
-      "subcategory": "Müze"
+      "subcategory": "Müze",
+      "name_en": "Dar Jamai Museum"
     },
     {
       "name": "Dar Roumana",
@@ -1206,7 +1260,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/dar_roumana.jpg",
       "tips": "Akşam yemeği için rezervasyon yaptırmak şart.",
       "description_en": "Dar Roumana is a highlight of Fes in the Medina area.",
-      "tips_en": "Reservation is a must for dinner."
+      "tips_en": "Reservation is a must for dinner.",
+      "name_en": "Dar Roumana"
     },
     {
       "id": "dar-saada",
@@ -1226,7 +1281,8 @@
       "price": "medium",
       "tips": "İç mekan fotoğrafları çok güzel çıkar.",
       "tips_en": "Interior photos come out very beautiful.",
-      "subcategory": "Restoran"
+      "subcategory": "Restoran",
+      "name_en": "Dar Saada"
     },
     {
       "id": "dar-al-magana",
@@ -1246,7 +1302,8 @@
       "price": "free",
       "tips": "Mekanizması hala tam olarak çözülememiştir, sadece dışarıdan görülebilir.",
       "tips_en": "Its mechanism is still not fully understood, only visible from outside.",
-      "subcategory": "Anıt"
+      "subcategory": "Anıt",
+      "name_en": "Dar al-Magana"
     },
     {
       "id": "dar-al-makhzen-royal-palace",
@@ -1266,7 +1323,8 @@
       "price": "free",
       "tips": "Sabah ışığında altın kapılar parlar.",
       "tips_en": "Golden gates shine in the morning light.",
-      "subcategory": "Saray"
+      "subcategory": "Saray",
+      "name_en": "Dar al-Makhzen (Royal Palace)"
     },
     {
       "id": "darori-resto",
@@ -1286,7 +1344,8 @@
       "price": "medium",
       "tips": "Sanki birinin evine misafir olmuşsunuz gibi.",
       "tips_en": "As if you are a guest at someone's house.",
-      "subcategory": "Restoran"
+      "subcategory": "Restoran",
+      "name_en": "Darori Resto"
     },
     {
       "id": "diamant-vert",
@@ -1306,7 +1365,8 @@
       "price": "medium",
       "tips": "Yaz haftasonları çok kalabalıktır.",
       "tips_en": "Very crowded on summer weekends.",
-      "subcategory": "Su Parkı"
+      "subcategory": "Su Parkı",
+      "name_en": "Diamant Vert"
     },
     {
       "id": "ensemble-artisanal",
@@ -1326,7 +1386,8 @@
       "price": "medium",
       "tips": "Pazarlık sevmiyorsanız alışveriş için en iyi yerdir.",
       "tips_en": "Best place for shopping if you don't like bargaining.",
-      "subcategory": "Merkez"
+      "subcategory": "Merkez",
+      "name_en": "Ensemble Artisanal"
     },
     {
       "id": "fes-country-club",
@@ -1346,7 +1407,8 @@
       "price": "high",
       "tips": "Çocuklu aileler için aktivite alanları vardır.",
       "tips_en": "There are activity areas for families with children.",
-      "subcategory": "Kulüp"
+      "subcategory": "Kulüp",
+      "name_en": "Fes Country Club"
     },
     {
       "id": "fes-drum-shop",
@@ -1366,7 +1428,8 @@
       "price": "medium",
       "tips": "Dükkan sahibi bazen mini konser verir.",
       "tips_en": "Shop owner sometimes gives mini concerts.",
-      "subcategory": "Müzik"
+      "subcategory": "Müzik",
+      "name_en": "Fes Drum Shop"
     },
     {
       "id": "fes-saiss-airport",
@@ -1386,7 +1449,8 @@
       "price": "free",
       "tips": "Şehre otobüs veya taksi ile ulaşım mümkündür.",
       "tips_en": "Transport to city is possible by bus or taxi.",
-      "subcategory": "Havalimanı"
+      "subcategory": "Havalimanı",
+      "name_en": "Fes Saiss Airport"
     },
     {
       "name": "Fes el-Bali",
@@ -1413,7 +1477,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/fes_el_bali.jpg",
       "tips": "Yapı içerisindeki akustik harika, sessizliği dinleyin.",
       "description_en": "Fes el-Bali is a detail waiting to be discovered, bearing traces of Fes's thousand-year history. This spot, appearing among narrow streets, opens a window for you to breathe in the city's mystical and exotic atmosphere.",
-      "tips_en": "The acoustics inside satisfy; listen to the silence."
+      "tips_en": "The acoustics inside satisfy; listen to the silence.",
+      "name_en": "Fes el-Bali"
     },
     {
       "id": "fez-cafe",
@@ -1461,7 +1526,8 @@
       "price": "medium",
       "tips": "UNESCO Dünya Mirası listesindedir.",
       "tips_en": "It is on the UNESCO World Heritage list.",
-      "subcategory": "Kervansaray"
+      "subcategory": "Kervansaray",
+      "name_en": "Funduq al-Najjarin"
     },
     {
       "id": "galerie-chez-zemama",
@@ -1481,7 +1547,8 @@
       "price": "medium",
       "tips": "Şehirden bir anı tablosu alabilirsiniz.",
       "tips_en": "You can buy a memory painting from the city.",
-      "subcategory": "Sanat"
+      "subcategory": "Sanat",
+      "name_en": "Galerie Chez Zemama"
     },
     {
       "id": "gare-de-fes",
@@ -1501,7 +1568,8 @@
       "price": "free",
       "tips": "Meknes, Rabat ve Kazablanka'ya sık seferler vardır.",
       "tips_en": "Frequent trips to Meknes, Rabat and Casablanca.",
-      "subcategory": "İstasyon"
+      "subcategory": "İstasyon",
+      "name_en": "Gare de Fes"
     },
     {
       "id": "gaudy-palace-palais-el-glaoui---meknes",
@@ -1521,7 +1589,8 @@
       "price": "medium",
       "tips": "Endülüs tarzı bahçesi çok güzeldir.",
       "tips_en": "Andalusian style garden is very beautiful.",
-      "subcategory": "Saray"
+      "subcategory": "Saray",
+      "name_en": "Gaudy Palace (Palais El Glaoui - Meknes)"
     },
     {
       "name": "Glaoui Sarayı",
@@ -1548,7 +1617,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/glaoui_sarayi.jpg",
       "tips": "Sabah erken saatlerde giderek turist kalabalığından kaçınabilirsiniz.",
       "description_en": "Glaoui Sarayı is a highlight of Fes in the Medina area.",
-      "tips_en": "Go early in the morning to avoid tourist crowds."
+      "tips_en": "Go early in the morning to avoid tourist crowds.",
+      "name_en": "Glaoui Palace"
     },
     {
       "id": "hammam-cinq-mondes",
@@ -1568,7 +1638,8 @@
       "price": "very high",
       "tips": "Rahatlama garantilidir.",
       "tips_en": "Relaxation guaranteed.",
-      "subcategory": "Spa"
+      "subcategory": "Spa",
+      "name_en": "Hammam Cinq Mondes"
     },
     {
       "id": "hammam-mernissi",
@@ -1588,7 +1659,8 @@
       "price": "medium",
       "tips": "Kese (gommage) yaptırmayı unutmayın.",
       "tips_en": "Don't forget to get a scrub (gommage).",
-      "subcategory": "Hamam"
+      "subcategory": "Hamam",
+      "name_en": "Hammam Mernissi"
     },
     {
       "id": "hammam-moulay-yacoub",
@@ -1608,7 +1680,8 @@
       "price": "medium",
       "tips": "Yerel halk haftasonları akın eder.",
       "tips_en": "Locals flock here on weekends.",
-      "subcategory": "Kaplıca"
+      "subcategory": "Kaplıca",
+      "name_en": "Hammam Moulay Yacoub"
     },
     {
       "id": "hammam-de-la-poste",
@@ -1628,7 +1701,8 @@
       "price": "low",
       "tips": "Kendi sabun ve havlunuzu götürün.",
       "tips_en": "Bring your own soap and towel.",
-      "subcategory": "Hamam"
+      "subcategory": "Hamam",
+      "name_en": "Hammam de la Poste"
     },
     {
       "id": "herboristerie-avicenne",
@@ -1648,7 +1722,8 @@
       "price": "medium",
       "tips": "Argan yağı konusunda uzmandırlar.",
       "tips_en": "They are experts on Argan oil.",
-      "subcategory": "Aktar"
+      "subcategory": "Aktar",
+      "name_en": "Herboristerie Avicenne"
     },
     {
       "id": "heri-es-souani",
@@ -1668,7 +1743,8 @@
       "price": "low",
       "tips": "Game of Thrones gibi yapımlarda set olarak kullanıldı.",
       "tips_en": "Used as set in productions like Game of Thrones.",
-      "subcategory": "Tahıl Ambarı"
+      "subcategory": "Tahıl Ambarı",
+      "name_en": "Heri es-Souani"
     },
     {
       "id": "hotel-sahrai",
@@ -1688,7 +1764,8 @@
       "price": "very high",
       "tips": "Terasındaki barda gün batımı efsanedir.",
       "tips_en": "Sunset at its terrace bar is legendary.",
-      "subcategory": "Otel"
+      "subcategory": "Otel",
+      "name_en": "Hotel Sahrai"
     },
     {
       "name": "Ibn Danan Sinagogu",
@@ -1715,7 +1792,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/ibn_danan_sinagogu.jpg",
       "tips": "Müze kartınız varsa girişte sıra beklemezsiniz.",
       "description_en": "Ibn Danan Sinagogu is a highlight of Fes in the Mellah area.",
-      "tips_en": "You skip the line if you have a museum pass."
+      "tips_en": "You skip the line if you have a museum pass.",
+      "name_en": "Ibn Danan Sinagogu"
     },
     {
       "id": "ifrane",
@@ -1735,7 +1813,8 @@
       "price": "free",
       "tips": "Kışın kar yağar ve kayak yapılır.",
       "tips_en": "It snows and skiing is possible in winter.",
-      "subcategory": "Şehir"
+      "subcategory": "Şehir",
+      "name_en": "Ifrane"
     },
     {
       "id": "imouzzer-kandar",
@@ -1755,7 +1834,8 @@
       "price": "free",
       "tips": "Yol üstü mola vermek için güzeldir.",
       "tips_en": "Nice for a roadside break.",
-      "subcategory": "Kasaba"
+      "subcategory": "Kasaba",
+      "name_en": "Imouzzer Kandar"
     },
     {
       "id": "jawharat-fes",
@@ -1775,7 +1855,8 @@
       "price": "medium",
       "tips": "Gün ortasında dinlenmek için iyidir.",
       "tips_en": "Good for resting in the middle of the day.",
-      "subcategory": "Restoran"
+      "subcategory": "Restoran",
+      "name_en": "Jawharat Fes"
     },
     {
       "id": "jewish-cemetery",
@@ -1795,7 +1876,8 @@
       "price": "low",
       "tips": "Sinagog bekçisinden giriş için yardım isteyebilirsiniz.",
       "tips_en": "You can ask the synagogue keeper for help with entry.",
-      "subcategory": "Mezarlık"
+      "subcategory": "Mezarlık",
+      "name_en": "Jewish Cemetery"
     },
     {
       "id": "jnan-palace",
@@ -1815,7 +1897,8 @@
       "price": "high",
       "tips": "Sıcaktan bunalanlar için vaha gibidir.",
       "tips_en": "Like an oasis for those overwhelmed by heat.",
-      "subcategory": "Otel"
+      "subcategory": "Otel",
+      "name_en": "Jnan Palace"
     },
     {
       "name": "Jnan Sbil Bahçeleri",
@@ -1842,7 +1925,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/jnan_sbil_bahceleri.jpg",
       "tips": "Sabah koşusu veya yoga yapan yerlileri görebilirsiniz.",
       "description_en": "Jnan Sbil Bahçeleri is a highlight of Fes in the Fes el-Jdid area.",
-      "tips_en": "You can see locals jogging or doing yoga in the morning."
+      "tips_en": "You can see locals jogging or doing yoga in the morning.",
+      "name_en": "Jnan Sbil Bahçeleri"
     },
     {
       "id": "jnan-sbil-gardens",
@@ -1862,7 +1946,8 @@
       "price": "free",
       "tips": "Pazartesi günleri kapalı olabilir.",
       "tips_en": "Might be closed on Mondays.",
-      "subcategory": "Park"
+      "subcategory": "Park",
+      "name_en": "Jnan Sbil Gardens"
     },
     {
       "name": "Karawan Riad",
@@ -1889,7 +1974,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/karawan_riad.jpg",
       "tips": "Rehbere soru sormaktan çekinmeyin, çok ilginç hikayeler biliyorlar.",
       "description_en": "Upscale riad in a former 1600s harem featuring dining, a hammam & a courtyard, plus a rooftop patio.",
-      "tips_en": "Don't hesitate to ask the guide questions, they know interesting stories."
+      "tips_en": "Don't hesitate to ask the guide questions, they know interesting stories.",
+      "name_en": "Karawan Riad"
     },
     {
       "id": "kasbah-an-nouar",
@@ -1909,7 +1995,8 @@
       "price": "free",
       "tips": "Turistlerin az bildiği sakin bir bölgedir.",
       "tips_en": "A quiet area little known to tourists.",
-      "subcategory": "Kasbah"
+      "subcategory": "Kasbah",
+      "name_en": "Kasbah An-Nouar"
     },
     {
       "id": "kasbah-cherarda",
@@ -1929,7 +2016,8 @@
       "price": "free",
       "tips": "Surları çok heybetlidir.",
       "tips_en": "Its walls are very imposing.",
-      "subcategory": "Kasbah"
+      "subcategory": "Kasbah",
+      "name_en": "Kasbah Cherarda"
     },
     {
       "id": "kissaria-al-kifah",
@@ -1949,7 +2037,8 @@
       "price": "medium",
       "tips": "Modern bir restorasyon geçirmiştir.",
       "tips_en": "It has undergone a modern restoration.",
-      "subcategory": "Çarşı"
+      "subcategory": "Çarşı",
+      "name_en": "Kissaria al-Kifah"
     },
     {
       "name": "Kraliyet Sarayı (Dar al-Makhzen)",
@@ -1976,7 +2065,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/kraliyet_sarayi_dar_al_makhzen.jpg",
       "tips": "Rehberli turla gezmek detayları anlamak için çok daha verimli.",
       "description_en": "Royal palace, popular for photos in front of a colorful, imposing facade & gold-colored doors.",
-      "tips_en": "A guided tour is much more efficient to understand the details."
+      "tips_en": "A guided tour is much more efficient to understand the details.",
+      "name_en": "Kraliyet Palace (Dar al-Makhzen)"
     },
     {
       "name": "Kına Çarşısı (Souk el-Henna)",
@@ -2003,7 +2093,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/kina_carsisi_souk_el_henna.jpg",
       "tips": "Pazar günleri kapalı olabilir, kontrol edin.",
       "description_en": "Kına Çarşısı (Souk el-Henna) is a highlight of Fes in the Medina area.",
-      "tips_en": "Might be closed on Sundays, do check."
+      "tips_en": "Might be closed on Sundays, do check.",
+      "name_en": "Kına Bazaar (Souk el-Henna)"
     },
     {
       "id": "lamandier-palais-faraj",
@@ -2023,7 +2114,8 @@
       "price": "very high",
       "tips": "Sadece bir şeyler içmek için bile gidilir.",
       "tips_en": "Worth going even just for a drink.",
-      "subcategory": "Fine Dining"
+      "subcategory": "Fine Dining",
+      "name_en": "L'Amandier Palais Faraj"
     },
     {
       "id": "le-tarbouche-fes",
@@ -2043,7 +2135,8 @@
       "price": "low",
       "tips": "Fas usülü tacoları çok lezzetlidir.",
       "tips_en": "Moroccan style tacos are very tasty.",
-      "subcategory": "Restoran"
+      "subcategory": "Restoran",
+      "name_en": "Le Tarbouche Fes"
     },
     {
       "id": "les-jardins-de-sheherazade",
@@ -2063,7 +2156,8 @@
       "price": "very high",
       "tips": "Özel bir kutlama için mükemmeldir.",
       "tips_en": "Perfect for a special celebration.",
-      "subcategory": "Restoran"
+      "subcategory": "Restoran",
+      "name_en": "Les Jardins de Sheherazade"
     },
     {
       "id": "les-tanneries-de-fes",
@@ -2083,7 +2177,8 @@
       "price": "medium",
       "tips": "Deri kokusunu seviyorsanız burası cennet.",
       "tips_en": "If you love leather smell, this is heaven.",
-      "subcategory": "Mağaza"
+      "subcategory": "Mağaza",
+      "name_en": "Les Tanneries de Fes"
     },
     {
       "name": "Made in M",
@@ -2110,7 +2205,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/made_in_m.jpg",
       "tips": "Hafta içi ziyaret etmek daha sakin bir deneyim sunar.",
       "description_en": "Made in M is a highlight of Fes in the Medina area.",
-      "tips_en": "Visiting on weekdays offers a calmer experience."
+      "tips_en": "Visiting on weekdays offers a calmer experience.",
+      "name_en": "Made in M"
     },
     {
       "id": "maison-moi-anan",
@@ -2130,7 +2226,8 @@
       "price": "medium",
       "tips": "Fes'te Asya yemeği yemek ilginç bir deneyimdir.",
       "tips_en": "Eating Asian food in Fes is an interesting experience.",
-      "subcategory": "Restoran"
+      "subcategory": "Restoran",
+      "name_en": "Maison Moi Anan"
     },
     {
       "name": "Marinid Mezarları",
@@ -2158,7 +2255,8 @@
       "tips": "Rüzgarlı olabilir, yanınıza ince bir ceket alın.",
       "description_en": "Hilltop ruins of 2 tall mausoleums with horseshoe-shaped entrances built in the 14th century.",
       "tips_en": "It can be windy, bring a light jacket.",
-      "area_en": "Hill"
+      "area_en": "Hill",
+      "name_en": "Marinid Mezarları"
     },
     {
       "id": "medinart",
@@ -2178,7 +2276,8 @@
       "price": "high",
       "tips": "Modern hediyelikler için idealdir.",
       "tips_en": "Ideal for modern souvenirs.",
-      "subcategory": "Butik"
+      "subcategory": "Butik",
+      "name_en": "Medin'Art"
     },
     {
       "id": "meknes-medina",
@@ -2198,7 +2297,8 @@
       "price": "free",
       "tips": "Pazarda fiyatlar Fes'ten daha uygundur.",
       "tips_en": "Market prices are better than Fes.",
-      "subcategory": "Bölge"
+      "subcategory": "Bölge",
+      "name_en": "Meknes Medina"
     },
     {
       "name": "Mellah (Yahudi Mahallesi)",
@@ -2225,7 +2325,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/mellah_yahudi_mahallesi.jpg",
       "tips": "Yapı içerisindeki akustik harika, sessizliği dinleyin.",
       "description_en": "Mellah (Yahudi Mahallesi) is a highlight of Fes in the Fes el-Jdid area.",
-      "tips_en": "The acoustics inside satisfy; listen to the silence."
+      "tips_en": "The acoustics inside satisfy; listen to the silence.",
+      "name_en": "Mellah (Yahudi Mahallesi)"
     },
     {
       "id": "merenid-tombs",
@@ -2245,7 +2346,8 @@
       "price": "free",
       "tips": "Gün batımında ezan sesleri eşliğinde manzarayı izleyin.",
       "tips_en": "Watch the view at sunset accompanied by the call to prayer.",
-      "subcategory": "Harabe"
+      "subcategory": "Harabe",
+      "name_en": "Merenid Tombs"
     },
     {
       "id": "mezzanine",
@@ -2265,7 +2367,8 @@
       "price": "high",
       "tips": "Alkol servisi vardır.",
       "tips_en": "Alcohol service is available.",
-      "subcategory": "Bar"
+      "subcategory": "Bar",
+      "name_en": "Mezzanine"
     },
     {
       "id": "mosaique-et-poterie-de-fes",
@@ -2285,7 +2388,8 @@
       "price": "medium",
       "tips": "Bahçeniz için büyük parçalar bakabilirsiniz.",
       "tips_en": "You can look for big pieces for your garden.",
-      "subcategory": "Fabrika"
+      "subcategory": "Fabrika",
+      "name_en": "Mosaique et Poterie de Fes"
     },
     {
       "id": "moulay-abdellah-quarter",
@@ -2305,7 +2409,8 @@
       "price": "free",
       "tips": "Turistlerden uzak, yerel hayatı gözlemlemek için ideal.",
       "tips_en": "Ideal for observing local life away from tourists.",
-      "subcategory": "Mahalle"
+      "subcategory": "Mahalle",
+      "name_en": "Moulay Abdellah Quarter"
     },
     {
       "id": "moulay-idriss-zerhoun",
@@ -2325,7 +2430,8 @@
       "price": "free",
       "tips": "Silindirik minaresi Fas'ta tektir.",
       "tips_en": "Its cylindrical minaret is unique in Morocco.",
-      "subcategory": "Kutsal Şehir"
+      "subcategory": "Kutsal Şehir",
+      "name_en": "Moulay Idriss Zerhoun"
     },
     {
       "id": "mount-zalagh",
@@ -2345,7 +2451,8 @@
       "price": "free",
       "tips": "Arabayla zirveye yakın bir noktaya kadar gidilebilir.",
       "tips_en": "Accessible by car up to a point near summit.",
-      "subcategory": "Dağ"
+      "subcategory": "Dağ",
+      "name_en": "Mount Zalagh"
     },
     {
       "id": "musee-belghazi",
@@ -2365,7 +2472,8 @@
       "price": "medium",
       "tips": "Müze içindeki avlu çok huzurludur.",
       "tips_en": "The courtyard inside the museum is very peaceful.",
-      "subcategory": "Sanat"
+      "subcategory": "Sanat",
+      "name_en": "Musee Belghazi"
     },
     {
       "id": "musee-des-armes-borj-nord",
@@ -2385,7 +2493,8 @@
       "price": "low",
       "tips": "Terastan panoramik Fes manzarası harikadır.",
       "tips_en": "Panoramic tour of Fes from the terrace is great.",
-      "subcategory": "Kültür"
+      "subcategory": "Kültür",
+      "name_en": "Musee des Armes (Borj Nord)"
     },
     {
       "id": "nach-mama",
@@ -2405,7 +2514,8 @@
       "price": "medium",
       "tips": "Yemek kursları da düzenliyorlar.",
       "tips_en": "They also organize cooking classes.",
-      "subcategory": "Restoran"
+      "subcategory": "Restoran",
+      "name_en": "Nach Mama"
     },
     {
       "name": "Nagham Cafe",
@@ -2432,7 +2542,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/nagham_cafe.jpg",
       "tips": "Nakite hazırlıklı olun, bazı yerel yerler kart kabul etmeyebilir.",
       "description_en": "Nagham Cafe is a highlight of Fes in the Bab Boujloud area.",
-      "tips_en": "Be prepared with cash, some local places might not accept cards."
+      "tips_en": "Be prepared with cash, some local places might not accept cards.",
+      "name_en": "Nagham Cafe"
     },
     {
       "name": "Nejjarine Ahşap Sanatları Müzesi",
@@ -2459,7 +2570,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/nejjarine_ahsap_sanatlari_muzesi.jpg",
       "tips": "Çantanızı vestiyere bırakmanız gerekebilir, hazırlıklı olun.",
       "description_en": "Former inn, now a 3-story museum featuring intricate wood carvings & various art pieces & crafts.",
-      "tips_en": "You might need to leave bags at the cloakroom, be prepared."
+      "tips_en": "You might need to leave bags at the cloakroom, be prepared.",
+      "name_en": "Nejjarine Ahşap Sanatları Museum"
     },
     {
       "name": "Nur Restaurant",
@@ -2486,7 +2598,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/nur_restaurant.jpg",
       "tips": "Öğle yemeği menüleri genellikle akşamdan daha uygundur.",
       "description_en": "Nur Restaurant is a highlight of Fes in the Medina area.",
-      "tips_en": "Lunch menus are usually cheaper than dinner."
+      "tips_en": "Lunch menus are usually cheaper than dinner.",
+      "name_en": "Nur Restaurant"
     },
     {
       "id": "palais-de-fes-dar-tazi",
@@ -2557,7 +2670,8 @@
       "price": "medium",
       "tips": "Resim yapan sanatçı Abdou burada yaşar ve rehberlik eder.",
       "tips_en": "Artist Abdou lives here and acts as a guide.",
-      "subcategory": "Saray"
+      "subcategory": "Saray",
+      "name_en": "Palais Glaoui"
     },
     {
       "id": "palais-mnebhi",
@@ -2577,7 +2691,8 @@
       "price": "medium",
       "tips": "Sadece içini gezmek için de izin isteyebilirsiniz.",
       "tips_en": "You can ask for permission just to tour inside.",
-      "subcategory": "Saray"
+      "subcategory": "Saray",
+      "name_en": "Palais Mnebhi"
     },
     {
       "id": "palais-royal-dar-el-makhzen",
@@ -2597,7 +2712,8 @@
       "price": "free",
       "tips": "Muhafızlarla fotoğraf çekmeye çalışmayın.",
       "tips_en": "Do not try to take photos with guards.",
-      "subcategory": "Saray"
+      "subcategory": "Saray",
+      "name_en": "Palais Royal Dar El Makhzen"
     },
     {
       "id": "petit-mechouar",
@@ -2617,7 +2733,8 @@
       "price": "free",
       "tips": "Restoranların olduğu bölgeye geçiş noktasıdır.",
       "tips_en": "Transition point to the restaurant area.",
-      "subcategory": "Meydan"
+      "subcategory": "Meydan",
+      "name_en": "Petit Mechouar"
     },
     {
       "id": "place-baghdadi",
@@ -2638,7 +2755,8 @@
       "tips": "Bazen sokak sanatçılarına ve festivallere ev sahipliği yapar.",
       "tips_en": "Sometimes hosts street performers and festivals.",
       "subcategory": "Meydan",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Place Baghdadi"
     },
     {
       "id": "place-el-hedim",
@@ -2658,7 +2776,8 @@
       "price": "free",
       "tips": "Bab Mansour kapısının hemen önündedir.",
       "tips_en": "Right in front of Bab Mansour gate.",
-      "subcategory": "Meydan"
+      "subcategory": "Meydan",
+      "name_en": "Place El-Hedim"
     },
     {
       "id": "place-rcif",
@@ -2678,7 +2797,8 @@
       "price": "free",
       "tips": "Akşamları yerel halkın sosyalleştiği bir alandır.",
       "tips_en": "It is an area where locals socialize in the evenings.",
-      "subcategory": "Meydan"
+      "subcategory": "Meydan",
+      "name_en": "Place R'cif"
     },
     {
       "id": "place-seffarine",
@@ -2698,7 +2818,8 @@
       "price": "free",
       "tips": "Bakır tepsiler harika hediyeliklerdir.",
       "tips_en": "Copper trays are great souvenirs.",
-      "subcategory": "Meydan"
+      "subcategory": "Meydan",
+      "name_en": "Place Seffarine"
     },
     {
       "id": "place-de-florence",
@@ -2718,7 +2839,8 @@
       "price": "free",
       "tips": "Akşamları çok canlıdır.",
       "tips_en": "Very lively in evenings.",
-      "subcategory": "Park"
+      "subcategory": "Park",
+      "name_en": "Place de Florence"
     },
     {
       "id": "place-des-alaouites",
@@ -2738,7 +2860,8 @@
       "price": "free",
       "tips": "Akşamları yerel ailelerin yürüyüş yaptığı bir yerdir.",
       "tips_en": "A place where local families take walks in the evenings.",
-      "subcategory": "Meydan"
+      "subcategory": "Meydan",
+      "name_en": "Place des Alaouites"
     },
     {
       "id": "pottery-cooperative",
@@ -2758,7 +2881,8 @@
       "price": "medium",
       "tips": "Tajin kaplarını buradan almak daha güvenlidir.",
       "tips_en": "Safer to buy Tajine pots from here.",
-      "subcategory": "Atölye"
+      "subcategory": "Atölye",
+      "name_en": "Pottery Cooperative"
     },
     {
       "name": "Rainbow Street Art",
@@ -2785,7 +2909,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/rainbow_street_art.jpg",
       "tips": "Akşam saatlerinde şehir ışıklarını izlemek çok romantik.",
       "description_en": "Rainbow Street Art is a highlight of Fes in the Medina area.",
-      "tips_en": "Watching city lights in the evening is very romantic."
+      "tips_en": "Watching city lights in the evening is very romantic.",
+      "name_en": "Rainbow Street Art"
     },
     {
       "id": "restaurant-al-fassia",
@@ -2805,7 +2930,8 @@
       "price": "high",
       "tips": "Tam bir Fas gecesi deneyimi sunar.",
       "tips_en": "Offers a complete Moroccan night experience.",
-      "subcategory": "Restoran"
+      "subcategory": "Restoran",
+      "name_en": "Restaurant Al Fassia"
     },
     {
       "name": "Restaurant Dar Hatim",
@@ -2832,7 +2958,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/restaurant_dar_hatim.jpg",
       "tips": "Öğle yemeği menüleri genellikle akşamdan daha uygundur.",
       "description_en": "Restaurant Dar Hatim is a highlight of Fes in the Medina area.",
-      "tips_en": "Lunch menus are usually cheaper than dinner."
+      "tips_en": "Lunch menus are usually cheaper than dinner.",
+      "name_en": "Restaurant Dar Hatim"
     },
     {
       "id": "restaurant-ouliya",
@@ -2852,7 +2979,8 @@
       "price": "medium",
       "tips": "Çalışanlar çok yardımcıdır.",
       "tips_en": "Staff is very helpful.",
-      "subcategory": "Restoran"
+      "subcategory": "Restoran",
+      "name_en": "Restaurant Ouliya"
     },
     {
       "id": "restaurant-sekaya",
@@ -2872,7 +3000,8 @@
       "price": "medium",
       "tips": "Şeftali tajini (mevsiminde) denemelisiniz.",
       "tips_en": "You must try peach tagine (in season).",
-      "subcategory": "Restoran"
+      "subcategory": "Restoran",
+      "name_en": "Restaurant Sekaya"
     },
     {
       "name": "Riad Fes",
@@ -2899,7 +3028,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/riad_fes.jpg",
       "tips": "Fotoğraf makinenizin şarjının dolu olduğundan emin olun.",
       "description_en": "Ornate Moorish-style quarters in a lavish hotel with fine dining, a rooftop terrace & a plush spa.",
-      "tips_en": "Make sure your camera battery is full."
+      "tips_en": "Make sure your camera battery is full.",
+      "name_en": "Riad Fes"
     },
     {
       "id": "riad-fes---relais-chteaux",
@@ -2919,7 +3049,8 @@
       "price": "very high",
       "tips": "Sadece akşam yemeği veya içki için de gidilebilir.",
       "tips_en": "Can go just for dinner or drinks.",
-      "subcategory": "Riad"
+      "subcategory": "Riad",
+      "name_en": "Riad Fes - Relais & Châteaux"
     },
     {
       "id": "riad-rcif",
@@ -2939,7 +3070,8 @@
       "price": "high",
       "tips": "Şehre giriş çıkışı kolaydır.",
       "tips_en": "Easy access to enter and exit the city.",
-      "subcategory": "Restoran"
+      "subcategory": "Restoran",
+      "name_en": "Riad Rcif"
     },
     {
       "id": "royal-golf-de-fes",
@@ -2959,7 +3091,8 @@
       "price": "high",
       "tips": "Ekipman kiralanabilir.",
       "tips_en": "Equipment is rentable.",
-      "subcategory": "Golf"
+      "subcategory": "Golf",
+      "name_en": "Royal Golf de Fes"
     },
     {
       "id": "rue-talaa-kebira",
@@ -2979,7 +3112,8 @@
       "price": "free",
       "tips": "Blue Gate'den başlayıp aşağı doğru yürümek daha az yorucudur.",
       "tips_en": "Starting from Blue Gate and walking down is less tiring.",
-      "subcategory": "Cadde"
+      "subcategory": "Cadde",
+      "name_en": "Rue Talaa Kebira"
     },
     {
       "id": "rue-talaa-seghira",
@@ -2999,7 +3133,8 @@
       "price": "free",
       "tips": "Daha yerel dükkanlar bulabilirsiniz.",
       "tips_en": "You can find more local shops.",
-      "subcategory": "Cadde"
+      "subcategory": "Cadde",
+      "name_en": "Rue Talaa Seghira"
     },
     {
       "id": "rue-des-mrinides",
@@ -3019,7 +3154,8 @@
       "price": "free",
       "tips": "Fiyatlar Medina'ya göre daha uygundur.",
       "tips_en": "Prices are more affordable than Medina.",
-      "subcategory": "Cadde"
+      "subcategory": "Cadde",
+      "name_en": "Rue des Mérinides"
     },
     {
       "id": "sahara-tours-from-fes",
@@ -3039,7 +3175,8 @@
       "price": "very high",
       "tips": "Zamanınız varsa mutlaka çöle gidin.",
       "tips_en": "If you have time, definitely go to desert.",
-      "subcategory": "Tur"
+      "subcategory": "Tur",
+      "name_en": "Sahara Tours from Fes"
     },
     {
       "id": "sahrij-medersa",
@@ -3059,7 +3196,8 @@
       "price": "low",
       "tips": "Bou Inania kadar kalabalık değildir.",
       "tips_en": "Not as crowded as Bou Inania.",
-      "subcategory": "Medrese"
+      "subcategory": "Medrese",
+      "name_en": "Sahrij Medersa"
     },
     {
       "name": "Seffarine Meydanı",
@@ -3086,7 +3224,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/seffarine_meydani.jpg",
       "tips": "Yerel tasarımcıların ürünlerine göz atın.",
       "description_en": "Seffarine Meydanı is a highlight of Fes in the Medina area.",
-      "tips_en": "Check out products from local designers."
+      "tips_en": "Check out products from local designers.",
+      "name_en": "Seffarine Square"
     },
     {
       "id": "sefrou-falls",
@@ -3106,7 +3245,8 @@
       "price": "free",
       "tips": "Haziran ayında Kiraz Festivali yapılır.",
       "tips_en": "Cherry Festival is held in June.",
-      "subcategory": "Şelale"
+      "subcategory": "Şelale",
+      "name_en": "Sefrou Falls"
     },
     {
       "id": "sidi-harazem-oasis",
@@ -3126,7 +3266,8 @@
       "price": "low",
       "tips": "Sidi Harazem suyu Fas'ta çok meşhurdur.",
       "tips_en": "Sidi Harazem water is very famous in Morocco.",
-      "subcategory": "Vaha"
+      "subcategory": "Vaha",
+      "name_en": "Sidi Harazem Oasis"
     },
     {
       "id": "sidi-mguild",
@@ -3146,7 +3287,8 @@
       "price": "free",
       "tips": "Halı meraklıları için kaynak noktasıdır.",
       "tips_en": "Source point for carpet enthusiasts.",
-      "subcategory": "Köy"
+      "subcategory": "Köy",
+      "name_en": "Sidi Mguild"
     },
     {
       "id": "sidi-moussa-tannery",
@@ -3166,7 +3308,8 @@
       "price": "free",
       "tips": "Daha yakından fotoğraf çekme şansı bulabilirsiniz.",
       "tips_en": "You might find a chance to take photos closer.",
-      "subcategory": "Tabakhane"
+      "subcategory": "Tabakhane",
+      "name_en": "Sidi Moussa Tannery"
     },
     {
       "id": "souk-al-attarine",
@@ -3186,7 +3329,8 @@
       "price": "medium",
       "tips": "Safran alacaksanız buradan alın.",
       "tips_en": "If buying saffron, buy from here.",
-      "subcategory": "Çarşı"
+      "subcategory": "Çarşı",
+      "name_en": "Souk Al-Attarine"
     },
     {
       "id": "souk-haik",
@@ -3206,7 +3350,8 @@
       "price": "medium",
       "tips": "Daha çok yerel halk alışveriş yapar.",
       "tips_en": "Mostly locals shop here.",
-      "subcategory": "Çarşı"
+      "subcategory": "Çarşı",
+      "name_en": "Souk Haik"
     },
     {
       "id": "souk-jeld",
@@ -3226,7 +3371,8 @@
       "price": "low",
       "tips": "Görüntü biraz sert olabilir.",
       "tips_en": "Sight might be a bit harsh.",
-      "subcategory": "Çarşı"
+      "subcategory": "Çarşı",
+      "name_en": "Souk Jeld"
     },
     {
       "id": "souk-mejjad",
@@ -3246,7 +3392,8 @@
       "price": "high",
       "tips": "Halılardaki desenlerin anlamlarını sorun.",
       "tips_en": "Ask for the meanings of patterns on carpets.",
-      "subcategory": "Çarşı"
+      "subcategory": "Çarşı",
+      "name_en": "Souk Mejjad"
     },
     {
       "id": "souk-nejjarine",
@@ -3266,7 +3413,8 @@
       "price": "high",
       "tips": "El oyması satranç takımları harikadır.",
       "tips_en": "Hand-carved chess sets are wonderful.",
-      "subcategory": "Çarşı"
+      "subcategory": "Çarşı",
+      "name_en": "Souk Nejjarine"
     },
     {
       "id": "souk-seffarine",
@@ -3286,7 +3434,8 @@
       "price": "medium",
       "tips": "Gürültüye hazırlıklı olun.",
       "tips_en": "Be prepared for noise.",
-      "subcategory": "Çarşı"
+      "subcategory": "Çarşı",
+      "name_en": "Souk Seffarine"
     },
     {
       "id": "souk-serrajine",
@@ -3306,7 +3455,8 @@
       "price": "medium",
       "tips": "Sarı renkli olanlar geleneksel erkek terliğidir.",
       "tips_en": "Yellow ones are traditional men's slippers.",
-      "subcategory": "Çarşı"
+      "subcategory": "Çarşı",
+      "name_en": "Souk Serrajine"
     },
     {
       "id": "souk-tillis",
@@ -3326,7 +3476,8 @@
       "price": "low",
       "tips": "Fotoğrafçılar için doku ve renk cennetidir.",
       "tips_en": "Texture and color heaven for photographers.",
-      "subcategory": "Çarşı"
+      "subcategory": "Çarşı",
+      "name_en": "Souk Tillis"
     },
     {
       "id": "souk-el-henna",
@@ -3346,7 +3497,8 @@
       "price": "medium",
       "tips": "Doğal sabunlar ve Rhassoul kili buradan alınır.",
       "tips_en": "Natural soaps and Rhassoul clay are bought here.",
-      "subcategory": "Çarşı"
+      "subcategory": "Çarşı",
+      "name_en": "Souk el-Henna"
     },
     {
       "id": "spa-laaroussa",
@@ -3366,7 +3518,8 @@
       "price": "high",
       "tips": "Hamam ritüeli en az 1 saat sürer.",
       "tips_en": "Hammam ritual takes at least 1 hour.",
-      "subcategory": "Spa"
+      "subcategory": "Spa",
+      "name_en": "Spa Laaroussa"
     },
     {
       "id": "synagogue-aben-danan",
@@ -3386,7 +3539,8 @@
       "price": "low",
       "tips": "Bodrum katındaki mikve (ritüel banyosu) mutlaka görülmeli.",
       "tips_en": "The mikveh (ritual bath) in the basement is a must-see.",
-      "subcategory": "Sinagog"
+      "subcategory": "Sinagog",
+      "name_en": "Synagogue Aben Danan"
     },
     {
       "id": "terrasse-des-tanneurs",
@@ -3406,7 +3560,8 @@
       "price": "free",
       "tips": "Çıkışta bahşiş veya mağazaya göz atmanızı beklerler.",
       "tips_en": "They expect a tip or viewing the shop upon exit.",
-      "subcategory": "Teras"
+      "subcategory": "Teras",
+      "name_en": "Terrasse des Tanneurs"
     },
     {
       "id": "thamis",
@@ -3426,7 +3581,8 @@
       "price": "low",
       "tips": "Yerel halkla iç içe yemek yersiniz.",
       "tips_en": "You eat intertwined with locals.",
-      "subcategory": "Sokak Lezzeti"
+      "subcategory": "Sokak Lezzeti",
+      "name_en": "Thami's"
     },
     {
       "name": "The Ruined Garden",
@@ -3453,7 +3609,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/the_ruined_garden.jpg",
       "tips": "Öğle yemeği menüleri genellikle akşamdan daha uygundur.",
       "description_en": "Built on the ruins of a collapsed Riad, this restaurant is like a hidden oasis in the chaos of the medina. In its lush garden, you can find peace accompanied by bird sounds while eating wood-fired lamb tagine or freshly baked 'khobz' bread.",
-      "tips_en": "Lunch menus are usually cheaper than dinner."
+      "tips_en": "Lunch menus are usually cheaper than dinner.",
+      "name_en": "The Ruined Garden"
     },
     {
       "id": "tissages-berbres",
@@ -3473,7 +3630,8 @@
       "price": "medium",
       "tips": "Dokuma tezgahlarını çalışırken görebilirsiniz.",
       "tips_en": "You can see weaving looms in action.",
-      "subcategory": "Dokuma"
+      "subcategory": "Dokuma",
+      "name_en": "Tissages Berbères"
     },
     {
       "id": "veggie-pause",
@@ -3493,7 +3651,8 @@
       "price": "medium",
       "tips": "Sebzeli kuskusu çok hafiftir.",
       "tips_en": "Vegetable couscous is very light.",
-      "subcategory": "Restoran"
+      "subcategory": "Restoran",
+      "name_en": "Veggie-pause"
     },
     {
       "id": "ville-nouvelle-french-city",
@@ -3513,7 +3672,8 @@
       "price": "free",
       "tips": "Modern kafeler ve markalar için buraya gelin.",
       "tips_en": "Come here for modern cafes and brands.",
-      "subcategory": "Bölge"
+      "subcategory": "Bölge",
+      "name_en": "Ville Nouvelle (French City)"
     },
     {
       "id": "volubilis",
@@ -3533,7 +3693,8 @@
       "price": "medium",
       "tips": "Gölge yoktur, şapka ve su şart.",
       "tips_en": "No shade, hat and water are essential.",
-      "subcategory": "Antik Kent"
+      "subcategory": "Antik Kent",
+      "name_en": "Volubilis"
     },
     {
       "name": "Zaouia Moulay Idriss II",
@@ -3560,7 +3721,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/zaouia_moulay_idriss_ii.jpg",
       "tips": "Rehberli turla gezmek detayları anlamak için çok daha verimli.",
       "description_en": "Zaouia Moulay Idriss II is a highlight of Fes in the Medina area.",
-      "tips_en": "A guided tour is much more efficient to understand the details."
+      "tips_en": "A guided tour is much more efficient to understand the details.",
+      "name_en": "Zaouia Moulay Idriss II"
     },
     {
       "id": "zaouia-sidi-ahmed-tijani",
@@ -3580,7 +3742,8 @@
       "price": "free",
       "tips": "Müslüman olmayanların girişine izin verilmez ama kapıdan görülebilir.",
       "tips_en": "Non-Muslims are not allowed to enter but can be seen from the door.",
-      "subcategory": "Türbe"
+      "subcategory": "Türbe",
+      "name_en": "Zaouia Sidi Ahmed Tijani"
     }
   ],
   "city_en": "Fez",

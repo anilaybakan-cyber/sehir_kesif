@@ -27,7 +27,8 @@
       "id": "advocates-close",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/advocates-close.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Advocates Close"
     },
     {
       "name": "Aizle",
@@ -53,7 +54,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/aizle.jpg",
       "tips": "Yerel şarapları denemenizi öneririz.",
       "description_en": "Locally inspired and seasonal tasting menus in a refined dining room with a countryside vibe.",
-      "tips_en": "We recommend trying local wines."
+      "tips_en": "We recommend trying local wines.",
+      "name_en": "Aizle"
     },
     {
       "name": "Almond Valley Heritage Centre",
@@ -74,7 +76,8 @@
       "id": "almond-valley-heritage-centre",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/almond-valley-heritage-centre.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Almond Valley Heritage Centre"
     },
     {
       "name": "Anatomical Museum",
@@ -95,7 +98,8 @@
       "id": "anatomical-museum",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/anatomical-museum.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Anatomical Museum"
     },
     {
       "name": "Angels with Bagpipes",
@@ -121,7 +125,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/angels_with_bagpipes.jpg",
       "tips": "Nakite hazırlıklı olun, bazı yerel yerler kart kabul etmeyebilir.",
       "description_en": "Lush decor in a 16th-century building creates intimate mood for stylish Scottish fine dining.",
-      "tips_en": "Be prepared with cash, some local places might not accept cards."
+      "tips_en": "Be prepared with cash, some local places might not accept cards.",
+      "name_en": "Angels with Bagpipes"
     },
     {
       "name": "Arthur's Seat",
@@ -147,7 +152,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/arthurs_seat.jpg",
       "tips": "Akşam saatlerinde şehir ışıklarını izlemek çok romantik.",
       "description_en": "Arthur's Seat is a highlight of Edinburgh in the Holyrood Park area.",
-      "tips_en": "Watching city lights in the evening is very romantic."
+      "tips_en": "Watching city lights in the evening is very romantic.",
+      "name_en": "Arthur's Seat"
     },
     {
       "name": "Bakehouse Close",
@@ -168,7 +174,8 @@
       "id": "bakehouse-close",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/bakehouse-close.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Bakehouse Close"
     },
     {
       "name": "Bass Rock",
@@ -189,7 +196,8 @@
       "id": "bass-rock",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/bass-rock.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Bass Rock"
     },
     {
       "name": "Bedlam Theatre",
@@ -210,7 +218,8 @@
       "id": "bedlam-theatre",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/bedlam-theatre.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Bedlam Theatre"
     },
     {
       "name": "Beecraigs Country Park",
@@ -231,7 +240,8 @@
       "id": "beecraigs-country-park",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/beecraigs-country-park.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Beecraigs Country Park"
     },
     {
       "name": "Blackness Castle",
@@ -252,7 +262,8 @@
       "id": "blackness-castle",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/blackness-castle.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Blackness Castle"
     },
     {
       "name": "Bramble Bar & Lounge",
@@ -273,7 +284,8 @@
       "id": "bramble-bar-&-lounge",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/bramble-bar-&-lounge.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Bramble Bar & Lounge"
     },
     {
       "name": "BrewDog Edinburgh",
@@ -294,7 +306,8 @@
       "id": "brewdog-edinburgh",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/brewdog-edinburgh.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "BrewDog Edinburgh"
     },
     {
       "name": "Bross Bagels",
@@ -315,7 +328,8 @@
       "id": "bross-bagels",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/bross-bagels.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Bross Bagels"
     },
     {
       "name": "Cabaret Voltaire",
@@ -336,7 +350,8 @@
       "id": "cabaret-voltaire",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/cabaret-voltaire.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Cabaret Voltaire"
     },
     {
       "name": "Cairngorm Coffee",
@@ -362,7 +377,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/cairngorm_coffee.jpg",
       "tips": "Yerel halkın favori noktalarından biri.",
       "description_en": "Modern, white-walled shop serving specialty coffee sips, sweets & grilled cheese sandwiches.",
-      "tips_en": "One of the favorite spots of the locals."
+      "tips_en": "One of the favorite spots of the locals.",
+      "name_en": "Cairngorm Coffee"
     },
     {
       "name": "Cairnpapple Hill",
@@ -383,7 +399,8 @@
       "id": "cairnpapple-hill",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/cairnpapple-hill.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Cairnpapple Hill"
     },
     {
       "name": "Calton Hill",
@@ -409,7 +426,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/calton_hill.jpg",
       "tips": "Panoramik fotoğraf için geniş açı lensinizi hazırlayın.",
       "description_en": "Calton Hill is a highlight of Edinburgh in the Calton area.",
-      "tips_en": "Prepare your wide-angle lens for panoramic photos."
+      "tips_en": "Prepare your wide-angle lens for panoramic photos.",
+      "name_en": "Calton Hill"
     },
     {
       "name": "Cameo Picturehouse",
@@ -430,7 +448,8 @@
       "id": "cameo-picturehouse",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/cameo-picturehouse.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Cameo Picturehouse"
     },
     {
       "name": "Camera Obscura",
@@ -456,7 +475,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/camera_obscura.jpg",
       "tips": "Çantanızı vestiyere bırakmanız gerekebilir, hazırlıklı olun.",
       "description_en": "Camera Obscura is a highlight of Edinburgh in the Royal Mile area.",
-      "tips_en": "You might need to leave bags at the cloakroom, be prepared."
+      "tips_en": "You might need to leave bags at the cloakroom, be prepared.",
+      "name_en": "Camera Obscura"
     },
     {
       "name": "Canongate Kirk",
@@ -477,7 +497,8 @@
       "id": "canongate-kirk",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/canongate-kirk.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Canongate Kirk"
     },
     {
       "name": "Captain's Bar",
@@ -498,7 +519,8 @@
       "id": "captains-bar",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/captains-bar.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Captain's Bar"
     },
     {
       "name": "Charlotte Square",
@@ -519,7 +541,8 @@
       "id": "charlotte-square",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/charlotte-square.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Charlotte Square"
     },
     {
       "name": "Circus Lane",
@@ -540,7 +563,8 @@
       "id": "circus-lane",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/circus-lane.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Circus Lane"
     },
     {
       "name": "City Art Centre",
@@ -561,7 +585,8 @@
       "id": "city-art-centre",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/city-art-centre.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "City Art Centre"
     },
     {
       "name": "Cold Town House",
@@ -582,7 +607,8 @@
       "id": "cold-town-house",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/cold-town-house.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Cold Town House"
     },
     {
       "name": "Colinton Tunnel",
@@ -603,7 +629,8 @@
       "id": "colinton-tunnel",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/colinton-tunnel.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Colinton Tunnel"
     },
     {
       "name": "Collective",
@@ -624,7 +651,8 @@
       "id": "collective",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/collective.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Collective"
     },
     {
       "name": "Craigmillar Castle",
@@ -645,7 +673,8 @@
       "id": "craigmillar-castle",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/craigmillar-castle.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Craigmillar Castle"
     },
     {
       "name": "Cramond Island",
@@ -666,7 +695,8 @@
       "id": "cramond-island",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/cramond-island.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Cramond Island"
     },
     {
       "name": "Dalkeith Country Park",
@@ -687,7 +717,8 @@
       "id": "dalkeith-country-park",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/dalkeith-country-park.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Dalkeith Country Park"
     },
     {
       "name": "David Hume Statue",
@@ -708,7 +739,8 @@
       "id": "david-hume-statue",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/david-hume-statue.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "David Hume Statue"
     },
     {
       "name": "Deacon Brodie's Tavern",
@@ -729,7 +761,8 @@
       "id": "deacon-brodies-tavern",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/deacon-brodies-tavern.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Deacon Brodie's Tavern"
     },
     {
       "name": "Dean Village",
@@ -750,7 +783,8 @@
       "id": "dean-village",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/dean-village.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Dean Village"
     },
     {
       "name": "Deep Sea World",
@@ -771,7 +805,8 @@
       "id": "deep-sea-world",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/deep-sea-world.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Deep Sea World"
     },
     {
       "name": "Dishoom Edinburgh",
@@ -797,7 +832,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/dishoom_edinburgh.jpg",
       "tips": "Yerel şarapları denemenizi öneririz.",
       "description_en": "Dishoom Edinburgh is a highlight of Edinburgh in the St Andrew Square area.",
-      "tips_en": "We recommend trying local wines."
+      "tips_en": "We recommend trying local wines.",
+      "name_en": "Dishoom Edinburgh"
     },
     {
       "name": "Dovecot Studios",
@@ -818,7 +854,8 @@
       "id": "dovecot-studios",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/dovecot-studios.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Dovecot Studios"
     },
     {
       "name": "Dr Neil's Garden",
@@ -839,7 +876,8 @@
       "id": "dr-neils-garden",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/dr-neils-garden.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Dr Neil's Garden"
     },
     {
       "name": "Dugald Stewart Monument",
@@ -860,7 +898,8 @@
       "id": "dugald-stewart-monument",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/dugald-stewart-monument.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Dugald Stewart Monument"
     },
     {
       "name": "Dunbar",
@@ -881,7 +920,8 @@
       "id": "dunbar",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/dunbar.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Dunbar"
     },
     {
       "name": "Dunbar's Close Garden",
@@ -902,7 +942,8 @@
       "id": "dunbars-close-garden",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/dunbars-close-garden.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Dunbar's Close Garden"
     },
     {
       "name": "Dynamic Earth",
@@ -923,7 +964,8 @@
       "id": "dynamic-earth",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/dynamic-earth.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Dynamic Earth"
     },
     {
       "name": "Edinburgh Butterfly & Insect World",
@@ -944,7 +986,8 @@
       "id": "edinburgh-butterfly-&-insect-world",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/edinburgh-butterfly-&-insect-world.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Edinburgh Butterfly & Insect World"
     },
     {
       "name": "Edinburgh Dungeon",
@@ -970,7 +1013,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/edinburgh_dungeon.jpg",
       "tips": "Grup indirimi olup olmadığını sorun.",
       "description_en": "Edinburgh Dungeon is a highlight of Edinburgh in the Market Street area.",
-      "tips_en": "Ask if there is a group discount."
+      "tips_en": "Ask if there is a group discount.",
+      "name_en": "Edinburgh Dungeon"
     },
     {
       "name": "Edinburgh Farmers' Market",
@@ -991,7 +1035,8 @@
       "id": "edinburgh-farmers-market",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/edinburgh-farmers-market.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Edinburgh Farmers' Market"
     },
     {
       "name": "Edinburgh Festival Fringe",
@@ -1012,7 +1057,8 @@
       "id": "edinburgh-festival-fringe",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/edinburgh-festival-fringe.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Edinburgh Festival Fringe"
     },
     {
       "name": "Edinburgh Festival Theatre",
@@ -1033,7 +1079,8 @@
       "id": "edinburgh-festival-theatre",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/edinburgh-festival-theatre.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Edinburgh Festival Theatre"
     },
     {
       "name": "Edinburgh Kalesi",
@@ -1081,7 +1128,8 @@
       "id": "edinburgh-playhouse",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/edinburgh-playhouse.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Edinburgh Playhouse"
     },
     {
       "name": "Edinburgh Vaults",
@@ -1102,7 +1150,8 @@
       "id": "edinburgh-vaults",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/edinburgh-vaults.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Edinburgh Vaults"
     },
     {
       "name": "Edinburgh Zoo",
@@ -1123,7 +1172,8 @@
       "id": "edinburgh-zoo",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/edinburgh-zoo.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Edinburgh Zoo"
     },
     {
       "name": "El Cartel",
@@ -1144,7 +1194,8 @@
       "id": "el-cartel",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/el-cartel.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "El Cartel"
     },
     {
       "name": "Falkirk Wheel",
@@ -1165,7 +1216,8 @@
       "id": "falkirk-wheel",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/falkirk-wheel.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Falkirk Wheel"
     },
     {
       "name": "Filmhouse",
@@ -1186,7 +1238,8 @@
       "id": "filmhouse",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/filmhouse.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Filmhouse"
     },
     {
       "name": "Five Sisters Zoo",
@@ -1207,7 +1260,8 @@
       "id": "five-sisters-zoo",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/five-sisters-zoo.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Five Sisters Zoo"
     },
     {
       "name": "Flodden Wall",
@@ -1228,7 +1282,8 @@
       "id": "flodden-wall",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/flodden-wall.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Flodden Wall"
     },
     {
       "name": "Frankenstein",
@@ -1249,7 +1304,8 @@
       "id": "frankenstein",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/frankenstein.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Frankenstein"
     },
     {
       "name": "Fruitmarket Gallery",
@@ -1270,7 +1326,8 @@
       "id": "fruitmarket-gallery",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/fruitmarket-gallery.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Fruitmarket Gallery"
     },
     {
       "name": "George Street",
@@ -1291,7 +1348,8 @@
       "id": "george-street",
       "distanceFromCenter": 0.5,
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/george_street.jpg",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "George Street"
     },
     {
       "name": "Gilmerton Cove",
@@ -1312,7 +1370,8 @@
       "id": "gilmerton-cove",
       "distanceFromCenter": 0.5,
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/gilmerton_cove.jpg",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Gilmerton Cove"
     },
     {
       "name": "Gladstone's Land",
@@ -1333,7 +1392,8 @@
       "id": "gladstones-land",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/gladstones-land.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Gladstone's Land"
     },
     {
       "name": "Glenkinchie Distillery",
@@ -1354,7 +1414,8 @@
       "id": "glenkinchie-distillery",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/glenkinchie-distillery.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Glenkinchie Distillery"
     },
     {
       "name": "Grassmarket",
@@ -1380,7 +1441,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/grassmarket.jpg",
       "tips": "Fotoğraf makinenizin şarjının dolu olduğundan emin olun.",
       "description_en": "Grassmarket is a highlight of Edinburgh in the Old Town area.",
-      "tips_en": "Make sure your camera battery is full."
+      "tips_en": "Make sure your camera battery is full.",
+      "name_en": "Grassmarket"
     },
     {
       "name": "Grassmarket Gallows",
@@ -1401,7 +1463,8 @@
       "id": "grassmarket-gallows",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/grassmarket-gallows.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Grassmarket Gallows"
     },
     {
       "name": "Greyfriars Bobby Statue",
@@ -1422,7 +1485,8 @@
       "id": "greyfriars-bobby-statue",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/greyfriars-bobby-statue.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Greyfriars Bobby Statue"
     },
     {
       "name": "Greyfriars Bobby's Bar",
@@ -1443,7 +1507,8 @@
       "id": "greyfriars-bobbys-bar",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/greyfriars-bobbys-bar.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Greyfriars Bobby's Bar"
     },
     {
       "name": "Greyfriars Kirkyard",
@@ -1469,7 +1534,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/greyfriars_kirkyard.jpg",
       "tips": "Fotoğraf çekimi için en iyi ışık gün batımına yakındır.",
       "description_en": "Greyfriars Kirkyard is a highlight of Edinburgh in the Candlemaker Row area.",
-      "tips_en": "Best light for photography is near sunset."
+      "tips_en": "Best light for photography is near sunset.",
+      "name_en": "Greyfriars Kirkyard"
     },
     {
       "name": "Harlaw Reservoir",
@@ -1490,7 +1556,8 @@
       "id": "harlaw-reservoir",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/harlaw-reservoir.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Harlaw Reservoir"
     },
     {
       "name": "Heart of Midlothian Mosaic",
@@ -1511,7 +1578,8 @@
       "id": "heart-of-midlothian-mosaic",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/heart-of-midlothian-mosaic.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Heart of Midlothian Mosaic"
     },
     {
       "name": "Hogmanay Street Party",
@@ -1532,7 +1600,8 @@
       "id": "hogmanay-street-party",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/hogmanay-street-party.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Hogmanay Street Party"
     },
     {
       "name": "Holyrood Distillery",
@@ -1553,7 +1622,8 @@
       "id": "holyrood-distillery",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/holyrood-distillery.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Holyrood Distillery"
     },
     {
       "name": "Holyrood Sarayı",
@@ -1601,7 +1671,8 @@
       "id": "hopetoun-house",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/hopetoun-house.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Hopetoun House"
     },
     {
       "name": "Howies",
@@ -1627,7 +1698,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/howies.jpg",
       "tips": "Akşam yemeği için rezervasyon yaptırmak şart.",
       "description_en": "Howies is a highlight of Edinburgh in the Victoria Street area.",
-      "tips_en": "Reservation is a must for dinner."
+      "tips_en": "Reservation is a must for dinner.",
+      "name_en": "Howies"
     },
     {
       "name": "Innis & Gunn Taproom",
@@ -1648,7 +1720,8 @@
       "id": "innis-&-gunn-taproom",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/innis-&-gunn-taproom.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Innis & Gunn Taproom"
     },
     {
       "name": "Inverleith Park",
@@ -1669,7 +1742,8 @@
       "id": "inverleith-park",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/inverleith-park.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Inverleith Park"
     },
     {
       "name": "Jenners",
@@ -1695,7 +1769,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/jenners.jpg",
       "tips": "Pazarlık yapmayı deneyebilirsiniz (nazikçe).",
       "description_en": "Jenners is a highlight of Edinburgh in the Princes Street area.",
-      "tips_en": "You might try bargaining (politely)."
+      "tips_en": "You might try bargaining (politely).",
+      "name_en": "Jenners"
     },
     {
       "name": "John Knox House",
@@ -1716,7 +1791,8 @@
       "id": "john-knox-house",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/john-knox-house.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "John Knox House"
     },
     {
       "name": "Johnnie Walker Princes Street",
@@ -1737,7 +1813,8 @@
       "id": "johnnie-walker-princes-street",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/johnnie-walker-princes-street.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Johnnie Walker Princes Street"
     },
     {
       "name": "Jupiter Artland",
@@ -1758,7 +1835,8 @@
       "id": "jupiter-artland",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/jupiter-artland.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Jupiter Artland"
     },
     {
       "name": "Lady Stair's Close",
@@ -1779,7 +1857,8 @@
       "id": "lady-stairs-close",
       "distanceFromCenter": 0.5,
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/lady_stair_s_close.jpg",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Lady Stair's Close"
     },
     {
       "name": "Lauriston Castle",
@@ -1800,7 +1879,8 @@
       "id": "lauriston-castle",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/lauriston-castle.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Lauriston Castle"
     },
     {
       "name": "Leith Limanı",
@@ -1826,7 +1906,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/leith_limani.jpg",
       "tips": "Fotoğraf makinenizin şarjının dolu olduğundan emin olun.",
       "description_en": "Casual seafood bistro offering fish entrees & shellfish specialties in a polished environment.",
-      "tips_en": "Make sure your camera battery is full."
+      "tips_en": "Make sure your camera battery is full.",
+      "name_en": "Leith Limanı"
     },
     {
       "name": "Linlithgow Palace",
@@ -1847,7 +1928,8 @@
       "id": "linlithgow-palace",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/linlithgow-palace.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Linlithgow Palace"
     },
     {
       "name": "Maid of the Forth",
@@ -1868,7 +1950,8 @@
       "id": "maid-of-the-forth",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/maid-of-the-forth.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Maid of the Forth"
     },
     {
       "name": "Makars Gourmet Mash Bar",
@@ -1894,7 +1977,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/makars_gourmet_mash_bar.png",
       "tips": "Akşam yemeği için rezervasyon yaptırmak şart.",
       "description_en": "Unfussy restaurant specialising in mashed potatoes flavoured with meat or vegetarian toppings.",
-      "tips_en": "Reservation is a must for dinner."
+      "tips_en": "Reservation is a must for dinner.",
+      "name_en": "Makars Gourmet Mash Bar"
     },
     {
       "name": "Malleny Garden",
@@ -1915,7 +1999,8 @@
       "id": "malleny-garden",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/malleny-garden.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Malleny Garden"
     },
     {
       "name": "Mary's Milk Bar",
@@ -1936,7 +2021,8 @@
       "id": "marys-milk-bar",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/marys-milk-bar.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Mary's Milk Bar"
     },
     {
       "name": "Mercat Cross",
@@ -1957,7 +2043,8 @@
       "id": "mercat-cross",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/mercat-cross.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Mercat Cross"
     },
     {
       "name": "Midhope Castle",
@@ -1978,7 +2065,8 @@
       "id": "midhope-castle",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/midhope-castle.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Midhope Castle"
     },
     {
       "name": "Multrees Walk",
@@ -2004,7 +2092,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/multrees_walk.jpg",
       "tips": "Tax-free formunu istemeyi unutmayın.",
       "description_en": "Multrees Walk is a highlight of Edinburgh in the St Andrew Square area.",
-      "tips_en": "Don't forget to ask for the Tax-free form."
+      "tips_en": "Don't forget to ask for the Tax-free form.",
+      "name_en": "Multrees Walk"
     },
     {
       "name": "Museum of Edinburgh",
@@ -2025,7 +2114,8 @@
       "id": "museum-of-edinburgh",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/museum-of-edinburgh.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Museum of Edinburgh"
     },
     {
       "name": "National Monument of Scotland",
@@ -2046,7 +2136,8 @@
       "id": "national-monument-of-scotland",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/national-monument-of-scotland.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "National Monument of Scotland"
     },
     {
       "name": "National Museum of Flight",
@@ -2067,7 +2158,8 @@
       "id": "national-museum-of-flight",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/national-museum-of-flight.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "National Museum of Flight"
     },
     {
       "name": "National Wallace Monument",
@@ -2088,7 +2180,8 @@
       "id": "national-wallace-monument",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/national-wallace-monument.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "National Wallace Monument"
     },
     {
       "name": "Nelson Monument",
@@ -2109,7 +2202,8 @@
       "id": "nelson-monument",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/nelson-monument.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Nelson Monument"
     },
     {
       "name": "New Calton Burial Ground",
@@ -2130,7 +2224,8 @@
       "id": "new-calton-burial-ground",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/new-calton-burial-ground.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "New Calton Burial Ground"
     },
     {
       "name": "Nobles Cafe Bar",
@@ -2151,7 +2246,8 @@
       "id": "nobles-cafe-bar",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/nobles-cafe-bar.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Nobles Cafe Bar"
     },
     {
       "name": "North Berwick",
@@ -2172,7 +2268,8 @@
       "id": "north-berwick",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/north-berwick.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "North Berwick"
     },
     {
       "name": "Oink",
@@ -2198,7 +2295,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/oink.jpg",
       "tips": "Şefin spesiyal tabağını sormaktan çekinmeyin.",
       "description_en": "Simple joint serving Scottish hog roasts in a roll with sauces, with basic seating or take away.",
-      "tips_en": "Don't hesitate to ask for the chef's special."
+      "tips_en": "Don't hesitate to ask for the chef's special.",
+      "name_en": "Oink"
     },
     {
       "name": "Panda & Sons",
@@ -2224,7 +2322,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/panda_and_sons.jpg",
       "tips": "Google Maps yorumlarına göz atarak ne yiyeceğinize karar verin.",
       "description_en": "Dark, vintage, speakeasy-inspired bar offering a robust wine list, inventive cocktails & craft beer.",
-      "tips_en": "Decide what to eat by checking Google Maps reviews."
+      "tips_en": "Decide what to eat by checking Google Maps reviews.",
+      "name_en": "Panda & Sons"
     },
     {
       "name": "Parliament Hall",
@@ -2245,7 +2344,8 @@
       "id": "parliament-hall",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/parliament-hall.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Parliament Hall"
     },
     {
       "name": "Pentland Hills Regional Park",
@@ -2266,7 +2366,8 @@
       "id": "pentland-hills-regional-park",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/pentland-hills-regional-park.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Pentland Hills Regional Park"
     },
     {
       "name": "Pleasance Courtyard",
@@ -2287,7 +2388,8 @@
       "id": "pleasance-courtyard",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/pleasance-courtyard.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Pleasance Courtyard"
     },
     {
       "name": "Portobello Beach",
@@ -2308,7 +2410,8 @@
       "id": "portobello-beach",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/portobello-beach.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Portobello Beach"
     },
     {
       "name": "Princes Street Bahçeleri",
@@ -2334,7 +2437,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/princes_street_bahceleri.jpg",
       "tips": "Yürüyüş ayakkabısı giymeniz önerilir.",
       "description_en": "Princes Street Bahçeleri is a highlight of Edinburgh in the City Centre area.",
-      "tips_en": "Walking shoes are recommended."
+      "tips_en": "Walking shoes are recommended.",
+      "name_en": "Princes Street Bahçeleri"
     },
     {
       "name": "Rose Street",
@@ -2355,7 +2459,8 @@
       "id": "rose-street",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/rose-street.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Rose Street"
     },
     {
       "name": "Roslin Glen Country Park",
@@ -2376,7 +2481,8 @@
       "id": "roslin-glen-country-park",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/roslin-glen-country-park.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Roslin Glen Country Park"
     },
     {
       "name": "Rosslyn Chapel",
@@ -2397,7 +2503,8 @@
       "id": "rosslyn-chapel",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/rosslyn-chapel.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Rosslyn Chapel"
     },
     {
       "name": "Royal Botanic Garden",
@@ -2423,7 +2530,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/royal_botanic_garden.jpg",
       "tips": "Güneş kremi ve şapka almayı unutmayın.",
       "description_en": "Royal Botanic Garden is a highlight of Edinburgh in the Inverleith area.",
-      "tips_en": "Don't forget sunscreen and a hat."
+      "tips_en": "Don't forget sunscreen and a hat.",
+      "name_en": "Royal Botanic Garden"
     },
     {
       "name": "Royal Lyceum Theatre",
@@ -2444,7 +2552,8 @@
       "id": "royal-lyceum-theatre",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/royal-lyceum-theatre.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Royal Lyceum Theatre"
     },
     {
       "name": "Royal Mile",
@@ -2497,7 +2606,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/royal_yacht_britannia.jpg",
       "tips": "Rehbere soru sormaktan çekinmeyin, çok ilginç hikayeler biliyorlar.",
       "description_en": "Royal Yacht Britannia is a highlight of Edinburgh in the Leith area.",
-      "tips_en": "Don't hesitate to ask the guide questions, they know interesting stories."
+      "tips_en": "Don't hesitate to ask the guide questions, they know interesting stories.",
+      "name_en": "Royal Yacht Britannia"
     },
     {
       "name": "Salt Horse",
@@ -2518,7 +2628,8 @@
       "id": "salt-horse",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/salt-horse.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Salt Horse"
     },
     {
       "name": "Sandy Bell's",
@@ -2544,7 +2655,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/sandy_bells.jpg",
       "tips": "Google Maps yorumlarına göz atarak ne yiyeceğinize karar verin.",
       "description_en": "Small, friendly local with real ales, plentiful malts and live Scottish folk music most nights.",
-      "tips_en": "Decide what to eat by checking Google Maps reviews."
+      "tips_en": "Decide what to eat by checking Google Maps reviews.",
+      "name_en": "Sandy Bell's"
     },
     {
       "name": "Saughton Park",
@@ -2565,7 +2677,8 @@
       "id": "saughton-park",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/saughton-park.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Saughton Park"
     },
     {
       "name": "Scotch Whisky Experience",
@@ -2591,7 +2704,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/scotch_whisky_experience.jpg",
       "tips": "Rehbere soru sormaktan çekinmeyin, çok ilginç hikayeler biliyorlar.",
       "description_en": "Long-running attraction for a journey through the world of Scotch whisky with tours, a shop & a restaurant.",
-      "tips_en": "Don't hesitate to ask the guide questions, they know interesting stories."
+      "tips_en": "Don't hesitate to ask the guide questions, they know interesting stories.",
+      "name_en": "Scotch Whisky Experience"
     },
     {
       "name": "Scott Anıtı",
@@ -2617,7 +2731,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/scott_aniti.jpg",
       "tips": "Sabah erken saatlerde giderek turist kalabalığından kaçınabilirsiniz.",
       "description_en": "Scott Anıtı is a highlight of Edinburgh in the Princes Street Gardens area.",
-      "tips_en": "Go early in the morning to avoid tourist crowds."
+      "tips_en": "Go early in the morning to avoid tourist crowds.",
+      "name_en": "Scott Anıtı"
     },
     {
       "name": "Scottish National Gallery of Modern Art (Modern One)",
@@ -2638,7 +2753,8 @@
       "id": "scottish-national-gallery-of-modern-art-(modern-one)",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/scottish-national-gallery-of-modern-art-(modern-one).jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Scottish National Gallery of Modern Art (Modern One)"
     },
     {
       "name": "Scottish National Portrait Gallery",
@@ -2659,7 +2775,8 @@
       "id": "scottish-national-portrait-gallery",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/scottish-national-portrait-gallery.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Scottish National Portrait Gallery"
     },
     {
       "name": "Scottish Parliament Building",
@@ -2680,7 +2797,8 @@
       "id": "scottish-parliament-building",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/scottish-parliament-building.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Scottish Parliament Building"
     },
     {
       "name": "Signet Library",
@@ -2701,7 +2819,8 @@
       "id": "signet-library",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/signet-library.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Signet Library"
     },
     {
       "name": "Sneaky Pete's",
@@ -2722,7 +2841,8 @@
       "id": "sneaky-petes",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/sneaky-petes.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Sneaky Pete's"
     },
     {
       "name": "South Queensferry",
@@ -2743,7 +2863,8 @@
       "id": "south-queensferry",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/south-queensferry.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "South Queensferry"
     },
     {
       "name": "St Andrew Square",
@@ -2764,7 +2885,8 @@
       "id": "st-andrew-square",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/st-andrew-square.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "St Andrew Square"
     },
     {
       "name": "St Bernard's Well",
@@ -2785,7 +2907,8 @@
       "id": "st-bernards-well",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/st-bernards-well.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "St Bernard's Well"
     },
     {
       "name": "St Cecilia's Hall",
@@ -2806,7 +2929,8 @@
       "id": "st-cecilias-hall",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/st-cecilias-hall.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "St Cecilia's Hall"
     },
     {
       "name": "St Giles Katedrali",
@@ -2854,7 +2978,8 @@
       "id": "st-marys-episcopal-cathedral",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/st-marys-episcopal-cathedral.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "St Mary's Episcopal Cathedral"
     },
     {
       "name": "Stirling Castle",
@@ -2875,7 +3000,8 @@
       "id": "stirling-castle",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/stirling-castle.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Stirling Castle"
     },
     {
       "name": "Stockbridge Colonies",
@@ -2896,7 +3022,8 @@
       "id": "stockbridge-colonies",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/stockbridge-colonies.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Stockbridge Colonies"
     },
     {
       "name": "Stockbridge Market",
@@ -2917,7 +3044,8 @@
       "id": "stockbridge-market",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/stockbridge-market.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Stockbridge Market"
     },
     {
       "name": "Summerhall",
@@ -2938,7 +3066,8 @@
       "id": "summerhall",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/summerhall.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Summerhall"
     },
     {
       "name": "Surgeons' Hall Museums",
@@ -2964,7 +3093,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/surgeons_hall_museums.jpg",
       "tips": "Bazı günler giriş ücretsiz olabilir, web sitesini kontrol edin.",
       "description_en": "Surgeons' Hall Museums is a highlight of Edinburgh in the South Bridge area.",
-      "tips_en": "Entry might be free on some days, check the website."
+      "tips_en": "Entry might be free on some days, check the website.",
+      "name_en": "Surgeons' Hall Museums"
     },
     {
       "name": "Swanston Village",
@@ -3007,7 +3137,8 @@
       "id": "talbot-rice-gallery",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/talbot-rice-gallery.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Talbot Rice Gallery"
     },
     {
       "name": "Tantallon Castle",
@@ -3028,7 +3159,8 @@
       "id": "tantallon-castle",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/tantallon-castle.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Tantallon Castle"
     },
     {
       "name": "Teuchters Landing",
@@ -3049,7 +3181,8 @@
       "id": "teuchters-landing",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/teuchters-landing.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Teuchters Landing"
     },
     {
       "name": "The Assembly Rooms",
@@ -3070,7 +3203,8 @@
       "id": "the-assembly-rooms",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/the-assembly-rooms.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "The Assembly Rooms"
     },
     {
       "name": "The Balmoral",
@@ -3091,7 +3225,8 @@
       "id": "the-balmoral",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/the-balmoral.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "The Balmoral"
     },
     {
       "name": "The Banshee Labyrinth",
@@ -3112,7 +3247,8 @@
       "id": "the-banshee-labyrinth",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/the-banshee-labyrinth.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "The Banshee Labyrinth"
     },
     {
       "name": "The Bon Vivant",
@@ -3133,7 +3269,8 @@
       "id": "the-bon-vivant",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/the-bon-vivant.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "The Bon Vivant"
     },
     {
       "name": "The Devil's Advocate",
@@ -3154,7 +3291,8 @@
       "id": "the-devils-advocate",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/the-devils-advocate.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "The Devil's Advocate"
     },
     {
       "name": "The Dome",
@@ -3180,7 +3318,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/the_dome.jpg",
       "tips": "Google Maps yorumlarına göz atarak ne yiyeceğinize karar verin.",
       "description_en": "Corinthian columns, marble bars and palms in separate rooms for fine dining, light lunches or teas.",
-      "tips_en": "Decide what to eat by checking Google Maps reviews."
+      "tips_en": "Decide what to eat by checking Google Maps reviews.",
+      "name_en": "The Dome"
     },
     {
       "name": "The Elephant House",
@@ -3206,7 +3345,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/the_elephant_house.png",
       "tips": "Yerel halkın favori noktalarından biri.",
       "description_en": "The Elephant House is a highlight of Edinburgh in the George IV Bridge area.",
-      "tips_en": "One of the favorite spots of the locals."
+      "tips_en": "One of the favorite spots of the locals.",
+      "name_en": "The Elephant House"
     },
     {
       "name": "The Georgian House",
@@ -3227,7 +3367,8 @@
       "id": "the-georgian-house",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/the-georgian-house.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "The Georgian House"
     },
     {
       "name": "The Hanging Bat",
@@ -3248,7 +3389,8 @@
       "id": "the-hanging-bat",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/the-hanging-bat.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "The Hanging Bat"
     },
     {
       "name": "The Hive",
@@ -3269,7 +3411,8 @@
       "id": "the-hive",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/the-hive.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "The Hive"
     },
     {
       "name": "The Jazz Bar",
@@ -3290,7 +3433,8 @@
       "id": "the-jazz-bar",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/the-jazz-bar.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "The Jazz Bar"
     },
     {
       "name": "The Kelpies",
@@ -3311,7 +3455,8 @@
       "id": "the-kelpies",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/the-kelpies.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "The Kelpies"
     },
     {
       "name": "The Kitchin",
@@ -3337,7 +3482,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/the_kitchin.jpg",
       "tips": "Şefin spesiyal tabağını sormaktan çekinmeyin.",
       "description_en": "The Kitchin is a highlight of Edinburgh in the Leith area.",
-      "tips_en": "Don't hesitate to ask for the chef's special."
+      "tips_en": "Don't hesitate to ask for the chef's special.",
+      "name_en": "The Kitchin"
     },
     {
       "name": "The Last Drop",
@@ -3363,7 +3509,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/the_last_drop.jpg",
       "tips": "Google Maps yorumlarına göz atarak ne yiyeceğinize karar verin.",
       "description_en": "Atmospheric pub serving range of real ales and Scottish dishes next to the old execution site.",
-      "tips_en": "Decide what to eat by checking Google Maps reviews."
+      "tips_en": "Decide what to eat by checking Google Maps reviews.",
+      "name_en": "The Last Drop"
     },
     {
       "name": "The Liquid Room",
@@ -3384,7 +3531,8 @@
       "id": "the-liquid-room",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/the-liquid-room.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "The Liquid Room"
     },
     {
       "name": "The Milkman",
@@ -3410,7 +3558,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/the_milkman.jpg",
       "tips": "Hafta içi ziyaret etmek daha sakin bir deneyim sunar.",
       "description_en": "The Milkman is a highlight of Edinburgh in the Cockburn Street area.",
-      "tips_en": "Visiting on weekdays offers a calmer experience."
+      "tips_en": "Visiting on weekdays offers a calmer experience.",
+      "name_en": "The Milkman"
     },
     {
       "name": "The Outsider",
@@ -3431,7 +3580,8 @@
       "id": "the-outsider",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/the-outsider.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "The Outsider"
     },
     {
       "name": "The Oxford Bar",
@@ -3452,7 +3602,8 @@
       "id": "the-oxford-bar",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/the-oxford-bar.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "The Oxford Bar"
     },
     {
       "name": "The People's Story Museum",
@@ -3473,7 +3624,8 @@
       "id": "the-peoples-story-museum",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/the-peoples-story-museum.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "The People's Story Museum"
     },
     {
       "name": "The Real Mary King's Close",
@@ -3521,7 +3673,8 @@
       "id": "the-roseleaf",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/the-roseleaf.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "The Roseleaf"
     },
     {
       "name": "The Royal Edinburgh Military Tattoo",
@@ -3542,7 +3695,8 @@
       "id": "the-royal-edinburgh-military-tattoo",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/the-royal-edinburgh-military-tattoo.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "The Royal Edinburgh Military Tattoo"
     },
     {
       "name": "The Scran & Scallie",
@@ -3563,7 +3717,8 @@
       "id": "the-scran-&-scallie",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/the-scran-&-scallie.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "The Scran & Scallie"
     },
     {
       "name": "The Secret Herb Garden",
@@ -3584,7 +3739,8 @@
       "id": "the-secret-herb-garden",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/the-secret-herb-garden.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "The Secret Herb Garden"
     },
     {
       "name": "The Sheep Heid Inn",
@@ -3627,7 +3783,8 @@
       "id": "the-stand-comedy-club",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/the-stand-comedy-club.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "The Stand Comedy Club"
     },
     {
       "name": "The Three Sisters",
@@ -3648,7 +3805,8 @@
       "id": "the-three-sisters",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/the-three-sisters.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "The Three Sisters"
     },
     {
       "name": "The Witchery by the Castle",
@@ -3674,7 +3832,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/the_witchery_by_the_castle.png",
       "tips": "Şefin spesiyal tabağını sormaktan çekinmeyin.",
       "description_en": "The Witchery by the Castle is a highlight of Edinburgh in the Royal Mile area.",
-      "tips_en": "Don't hesitate to ask for the chef's special."
+      "tips_en": "Don't hesitate to ask for the chef's special.",
+      "name_en": "The Witchery by the Castle"
     },
     {
       "name": "The Writers' Museum",
@@ -3723,7 +3882,8 @@
       "id": "threipmuir-reservoir",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/threipmuir-reservoir.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Threipmuir Reservoir"
     },
     {
       "name": "Timberyard",
@@ -3744,7 +3904,8 @@
       "id": "timberyard",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/timberyard.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Timberyard"
     },
     {
       "name": "Tolbooth Tavern",
@@ -3765,7 +3926,8 @@
       "id": "tolbooth-tavern",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/tolbooth-tavern.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Tolbooth Tavern"
     },
     {
       "name": "Traverse Theatre",
@@ -3786,7 +3948,8 @@
       "id": "traverse-theatre",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/traverse-theatre.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Traverse Theatre"
     },
     {
       "name": "Usher Hall",
@@ -3807,7 +3970,8 @@
       "id": "usher-hall",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/usher-hall.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Usher Hall"
     },
     {
       "name": "Vault City Brewing",
@@ -3828,7 +3992,8 @@
       "id": "vault-city-brewing",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/vault-city-brewing.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Vault City Brewing"
     },
     {
       "name": "Victoria Street",
@@ -3854,7 +4019,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/victoria_street.jpg",
       "tips": "Pazarlık yapmayı deneyebilirsiniz (nazikçe).",
       "description_en": "Charming street built in the 1800s featuring quaint, old-fashioned landmarks, shops & eateries.",
-      "tips_en": "You might try bargaining (politely)."
+      "tips_en": "You might try bargaining (politely).",
+      "name_en": "Victoria Street"
     },
     {
       "name": "Victoria Terrace",
@@ -3875,7 +4041,8 @@
       "id": "victoria-terrace",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/victoria-terrace.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Victoria Terrace"
     },
     {
       "name": "Water of Leith",
@@ -3901,7 +4068,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/water_of_leith.jpg",
       "tips": "Yürüyüş ayakkabısı giymeniz önerilir.",
       "description_en": "12-mile path that runs alongside the small Water of Leith river & popular with walkers & cyclists.",
-      "tips_en": "Walking shoes are recommended."
+      "tips_en": "Walking shoes are recommended.",
+      "name_en": "Water of Leith"
     },
     {
       "name": "Waverley Mall",
@@ -3927,7 +4095,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/waverley_mall.jpg",
       "tips": "Tax-free formunu istemeyi unutmayın.",
       "description_en": "Waverley Mall is a highlight of Edinburgh in the Waverley area.",
-      "tips_en": "Don't forget to ask for the Tax-free form."
+      "tips_en": "Don't forget to ask for the Tax-free form.",
+      "name_en": "Waverley Mall"
     },
     {
       "name": "Waverley Station",
@@ -3948,7 +4117,8 @@
       "id": "waverley-station",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/waverley-station.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "name_en": "Waverley Station"
     },
     {
       "name": "White Horse Close",
@@ -3969,7 +4139,8 @@
       "id": "white-horse-close",
       "distanceFromCenter": 0.5,
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/white_horse_close.jpg",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "White Horse Close"
     },
     {
       "name": "World's End",
@@ -3996,7 +4167,8 @@
       "tips": "Çevredeki küçük hediyelik eşya dükkanlarına da uğrayın.",
       "description_en": "A friendly, spacious local serving up cask ales and an extensive menu featuring speciality burgers.",
       "tips_en": "Stop by the small souvenir shops around.",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/world_s_end.jpg"
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/world_s_end.jpg",
+      "name_en": "World's End"
     },
     {
       "name": "İskoçya Ulusal Galerisi",
@@ -4022,7 +4194,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/iskocya_ulusal_galerisi.jpg",
       "tips": "Sesli rehber (audio guide) kiralamak deneyimi ikiye katlar.",
       "description_en": "İskoçya Ulusal Galerisi is a highlight of Edinburgh in the The Mound area.",
-      "tips_en": "Renting an audio guide doubles the experience."
+      "tips_en": "Renting an audio guide doubles the experience.",
+      "name_en": "İskoçya Ulusal Galerisi"
     },
     {
       "name": "İskoçya Ulusal Müzesi",
@@ -4048,7 +4221,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/iskocya_ulusal_muzesi.jpg",
       "tips": "Biletinizi online alarak gişe sırasından kurtulun.",
       "description_en": "İskoçya Ulusal Müzesi is a highlight of Edinburgh in the Old Town area.",
-      "tips_en": "Buy tickets online to skip the box office line."
+      "tips_en": "Buy tickets online to skip the box office line.",
+      "name_en": "İskoçya Ulusal Museum"
     }
   ],
   "city_en": "Edinburgh",

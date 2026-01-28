@@ -9,7 +9,7 @@
   },
   "highlights": [
     {
-      "name": " Château Musée Vodou",
+      "name": "Musée Vodou",
       "name_en": "Vodou Museum",
       "area": "Gare",
       "category": "Müze",
@@ -134,7 +134,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/strazburg/alsace_muzesi.jpg",
       "tips": "Biletinizi online alarak gişe sırasından kurtulun.",
       "description_en": "Dedicated to all aspects of daily life in pre-industrial and early industrial Alsace.",
-      "tips_en": "Buy tickets online to skip the box office line."
+      "tips_en": "Buy tickets online to skip the box office line.",
+      "name_en": "Alsace Museum"
     },
     {
       "name": "Ancienne Douane (Eski Gümrük Binası)",
@@ -283,7 +284,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/strazburg/au_pont_saint-martin.jpg",
       "tips": "Öğle yemeği menüleri genellikle akşamdan daha uygundur.",
       "description_en": "Rustic venue with a riverfront terrace serving Alsatian meat dishes and Tartes flambées.",
-      "tips_en": "Lunch menus are usually cheaper than dinner."
+      "tips_en": "Lunch menus are usually cheaper than dinner.",
+      "name_en": "Au Pont Saint-Martin"
     },
     {
       "name": "Au Vieux Strasbourg",
@@ -412,7 +414,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/strazburg/avrupa_parlamentosu.jpg",
       "tips": "Sabah erken saatlerde giderek turist kalabalığından kaçınabilirsiniz.",
       "description_en": "The official seat of the European Parliament. The modern building on the banks of the Ill is impressive.",
-      "tips_en": "Go early in the morning to avoid tourist crowds."
+      "tips_en": "Go early in the morning to avoid tourist crowds.",
+      "name_en": "Avrupa Parlamentosu"
     },
     {
       "name": "Avrupa İnsan Hakları Mahkemesi",
@@ -514,7 +517,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/strazburg/barrage_vauban.jpg",
       "tips": "Teleskop/dürbün varsa yanınıza alın.",
       "description_en": "A defensive work erected in the 17th century offering a panoramic terrace view of Petite France and the cathedral.",
-      "tips_en": "Bring a telescope/binoculars if you have them."
+      "tips_en": "Bring a telescope/binoculars if you have them.",
+      "name_en": "Barrage Vauban"
     },
     {
       "name": "Barrage Vauban (Panoramik Teras)",
@@ -596,7 +600,8 @@
       "tips": "Fotoğraf makinenizin şarjının dolu olduğundan emin olun.",
       "description_en": "Boat tours on the River Ill offering a unique perspective of the city, from Petite France to the European Parliament.",
       "tips_en": "Make sure your camera battery is full.",
-      "area_en": "Center"
+      "area_en": "Center",
+      "name_en": "Batorama Tekne Turu"
     },
     {
       "id": "bibliothèque-nationale-et-universitaire",
@@ -746,7 +751,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/strazburg/cafe_bretelles.jpg",
       "tips": "Hafta içi ziyaret etmek daha sakin bir deneyim sunar.",
       "description_en": "Trendy coffee shop offering artisan roasts and homemade cakes.",
-      "tips_en": "Visiting on weekdays offers a calmer experience."
+      "tips_en": "Visiting on weekdays offers a calmer experience.",
+      "name_en": "Café Bretelles"
     },
     {
       "name": "Café de l'Opéra",
@@ -851,7 +857,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/strazburg/cave_des_hospices_de_strasbourg.jpg",
       "tips": "Müze kartınız varsa girişte sıra beklemezsiniz.",
       "description_en": "Historic wine cellar of the Strasbourg University Hospitals, dating back to 1395.",
-      "tips_en": "You skip the line if you have a museum pass."
+      "tips_en": "You skip the line if you have a museum pass.",
+      "name_en": "Cave des Hospices de Strasbourg"
     },
     {
       "name": "Centre Commercial L'Aubette",
@@ -907,7 +914,8 @@
       "tips": "Akşam yemeği için rezervasyon yaptırmak şart.",
       "description_en": "A historic winstub frequent by celebrities and politicians, serving classic Alsatian cuisine.",
       "tips_en": "Reservation is a must for dinner.",
-      "area_en": "Center"
+      "area_en": "Center",
+      "name_en": "Chez Yvonne"
     },
     {
       "name": "Christian",
@@ -937,7 +945,8 @@
       "tips": "Yerel halkın favori noktalarından biri.",
       "description_en": "Famous pâtisserie and tea room known for exquisite pastries and chocolates.",
       "tips_en": "One of the favorite spots of the locals.",
-      "area_en": "Center"
+      "area_en": "Center",
+      "name_en": "Christian"
     },
     {
       "name": "Christkindelsmärik (Noel Pazarı)",
@@ -967,7 +976,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/strazburg/christkindelsmarik_noel_pazari.jpg",
       "tips": "Rehbere soru sormaktan çekinmeyin, çok ilginç hikayeler biliyorlar.",
       "description_en": "The oldest Christmas market in France, dating back to 1570. The city becomes a winter wonderland.",
-      "tips_en": "Don't hesitate to ask the guide questions, they know interesting stories."
+      "tips_en": "Don't hesitate to ask the guide questions, they know interesting stories.",
+      "name_en": "Christkindelsmärik (Noel Market)"
     },
     {
       "id": "cinéma-odyssée",
@@ -1090,7 +1100,7 @@
       "source": "firebase"
     },
     {
-      "name": "Eglise Saint-Pierre-le-Jeune Protestant",
+      "name": "Église Saint-Pierre-le-Jeune",
       "name_en": "Saint-Pierre-le-Jeune Protestant Church",
       "area": "Merkez",
       "category": "Tarihi",
@@ -1788,7 +1798,8 @@
       "tips": "Öğle yemeği menüleri genellikle akşamdan daha uygundur.",
       "description_en": "Traditional Alsatian winstub serving hearty local dishes in a cozy setting.",
       "tips_en": "Lunch menus are usually cheaper than dinner.",
-      "area_en": "Center"
+      "area_en": "Center",
+      "name_en": "Le Clou"
     },
     {
       "name": "Le Clou de Girofle",
@@ -2068,7 +2079,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/strazburg/le_vaisseau.jpg",
       "tips": "Sesli rehber (audio guide) kiralamak deneyimi ikiye katlar.",
       "description_en": "Interactive science center designed for children and families.",
-      "tips_en": "Renting an audio guide doubles the experience."
+      "tips_en": "Renting an audio guide doubles the experience.",
+      "name_en": "Le Vaisseau"
     },
     {
       "name": "Les Aviateurs",
@@ -2220,7 +2232,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/strazburg/mamcs_modern_sanat_muzesi.jpg",
       "tips": "Bazı günler giriş ücretsiz olabilir, web sitesini kontrol edin.",
       "description_en": "Strasbourg Museum of Modern and Contemporary Art.",
-      "tips_en": "Entry might be free on some days, check the website."
+      "tips_en": "Entry might be free on some days, check the website.",
+      "name_en": "MAMCS (Modern Sanat Museum)"
     },
     {
       "name": "Maison Kammerzell",
@@ -2250,7 +2263,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/strazburg/maison_kammerzell.jpg",
       "tips": "Fotoğraf çekimi için en iyi ışık gün batımına yakındır.",
       "description_en": "One of the most famous buildings in Strasbourg, a preserved medieval building with detailed wood carvings, now a restaurant.",
-      "tips_en": "Best light for photography is near sunset."
+      "tips_en": "Best light for photography is near sunset.",
+      "name_en": "Maison Kammerzell"
     },
     {
       "name": "Maison Kammerzell (Dış Cephe Detayları)",
@@ -2306,7 +2320,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/strazburg/maison_des_tanneurs.jpg",
       "tips": "Şefin spesiyal tabağını sormaktan çekinmeyin.",
       "description_en": "Historic restaurant housed in a 16th-century tanner's house, serving traditional Alsatian cuisine.",
-      "tips_en": "Don't hesitate to ask for the chef's special."
+      "tips_en": "Don't hesitate to ask for the chef's special.",
+      "name_en": "Maison des Tanneurs"
     },
     {
       "id": "marché-aux-puces",
@@ -2454,7 +2469,7 @@
       "area_en": "Center"
     },
     {
-      "name": "Musée Historique de Strasbourg",
+      "name": "Strazburg Tarih Müzesi (Musée Historique)",
       "name_en": "Historical Museum of the City of Strasbourg",
       "area": "Merkez",
       "category": "Müze",
@@ -2480,7 +2495,7 @@
       "area_en": "Center"
     },
     {
-      "name": "Musée Tomi Ungerer",
+      "name": "Tomi Ungerer Müzesi",
       "name_en": "Tomi Ungerer Museum",
       "area": "Orangerie",
       "category": "Müze",
@@ -2516,7 +2531,7 @@
         "mistik"
       ],
       "distanceFromCenter": 1.2,
-      "lat": 48.581,
+      "lat": 48581.0,
       "lng": 7.73,
       "price": "medium",
       "rating": 4.5,
@@ -2682,7 +2697,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/strazburg/neustadt.jpg",
       "tips": "Rüzgarlı olabilir, yanınıza ince bir ceket alın.",
       "description_en": "The German imperial quarter with grand architecture, listed as a UNESCO World Heritage site.",
-      "tips_en": "It can be windy, bring a light jacket."
+      "tips_en": "It can be windy, bring a light jacket.",
+      "name_en": "Neustadt"
     },
     {
       "id": "observatoire-astronomique-de-strasbourg",
@@ -2832,7 +2848,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/strazburg/parc_de_l_orangerie.jpg",
       "tips": "Gün batımını izlemek için şehirdeki en iyi noktalardan biri.",
       "description_en": "The city's oldest park, featuring a lake, a mini-zoo, and stork reintroduction center.",
-      "tips_en": "One of the best spots in the city to watch the sunset."
+      "tips_en": "One of the best spots in the city to watch the sunset.",
+      "name_en": "Parc de l'Orangerie"
     },
     {
       "name": "Parc de l'Étoile",
@@ -3012,7 +3029,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/strazburg/petite_france.jpg",
       "tips": "Panoramik fotoğraf için geniş açı lensinizi hazırlayın.",
       "description_en": "The most photogenic area of the city with half-timbered houses and canals. Formerly home to tanners and millers.",
-      "tips_en": "Prepare your wide-angle lens for panoramic photos."
+      "tips_en": "Prepare your wide-angle lens for panoramic photos.",
+      "name_en": "Petite France"
     },
     {
       "id": "place-broglie",
@@ -3090,7 +3108,8 @@
       "tips": "Müze kartınız varsa girişte sıra beklemezsiniz.",
       "description_en": "Square named after the inventor of the printing press, featuring his statue and a vintage carousel.",
       "tips_en": "You skip the line if you have a museum pass.",
-      "area_en": "Center"
+      "area_en": "Center",
+      "name_en": "Place Gutenberg"
     },
     {
       "name": "Place Kléber",
@@ -3120,7 +3139,8 @@
       "tips": "El yapımı hediyelikler fabrikasyon olanlardan daha değerlidir.",
       "description_en": "The largest square in the city center, a meeting place for locals and home to the giant Christmas tree during winter.",
       "tips_en": "Handmade souvenirs are more valuable than mass-produced ones.",
-      "area_en": "Center"
+      "area_en": "Center",
+      "name_en": "Place Kléber"
     },
     {
       "id": "place-saint-étienne",
@@ -3314,7 +3334,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/strazburg/ponts_couverts_kapali_kopruler.jpg",
       "tips": "Akşam saatlerinde şehir ışıklarını izlemek çok romantik.",
       "description_en": "A set of three bridges and four towers that are part of the city's historic fortifications.",
-      "tips_en": "Watching city lights in the evening is very romantic."
+      "tips_en": "Watching city lights in the evening is very romantic.",
+      "name_en": "Ponts Couverts (Kapalı Köprüler)"
     },
     {
       "name": "Porcus",
@@ -3568,7 +3589,8 @@
       "tips": "Sesli rehber (audio guide) kiralamak deneyimi ikiye katlar.",
       "description_en": "An 18th-century palace housing three museums: Archaeological, Decorative Arts, and Fine Arts.",
       "tips_en": "Renting an audio guide doubles the experience.",
-      "area_en": "Center"
+      "area_en": "Center",
+      "name_en": "Rohan Palace"
     },
     {
       "id": "route-des-vins-dalsace",
@@ -3936,7 +3958,8 @@
       "tips": "Fotoğraf çekimi için en iyi ışık gün batımına yakındır.",
       "description_en": "A masterpiece of Gothic art described by Victor Hugo as a 'gigantic and delicate marvel'. Don't miss the Astronomical Clock inside.",
       "tips_en": "Best light for photography is near sunset.",
-      "area_en": "Center"
+      "area_en": "Center",
+      "name_en": "Strazburg Katedrali"
     },
     {
       "name": "Strazburg Tarih Müzesi (Musée Historique)",
@@ -4086,7 +4109,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/strazburg/tomi_ungerer_muzesi.jpg",
       "tips": "Sesli rehber (audio guide) kiralamak deneyimi ikiye katlar.",
       "description_en": "Museum dedicated to the work of Strasbourg-born artist Tomi Ungerer.",
-      "tips_en": "Renting an audio guide doubles the experience."
+      "tips_en": "Renting an audio guide doubles the experience.",
+      "name_en": "Tomi Ungerer Museum"
     },
     {
       "name": "Tonton Gâteau",
@@ -4438,7 +4462,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/strazburg/eglise_saint_thomas.jpg",
       "tips": "Müze kartınız varsa girişte sıra beklemezsiniz.",
       "description_en": "The main Protestant church in Strasbourg, famous for its Silbermann organ played by Mozart.",
-      "tips_en": "You skip the line if you have a museum pass."
+      "tips_en": "You skip the line if you have a museum pass.",
+      "name_en": "Église Saint-Thomas"
     },
     {
       "name": "Église Sainte-Madeleine",

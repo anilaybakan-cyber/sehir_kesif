@@ -168,7 +168,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Nakite hazırlıklı olun, bazı yerel yerler kart kabul etmeyebilir.",
       "tips_en": "Be prepared with cash, some local places might not accept cards.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "After Seven"
     },
     {
       "name": "Air Zermatt Heliport",
@@ -286,7 +287,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Tax-free formunu istemeyi unutmayın.",
       "tips_en": "Don't forget to ask for the Tax-free form.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Bahnhofstrasse"
     },
     {
       "name": "Bar 55",
@@ -573,7 +575,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Dışarıdaki masalarda oturup gelen geçeni izlemek çok keyifli.",
       "tips_en": "Sitting at outdoor tables and people-watching is very pleasant.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Café du Pont"
     },
     {
       "name": "Camping Attermenzen",
@@ -762,7 +765,8 @@
       "tips": "Akşam yemeği için rezervasyon yaptırmak şart.",
       "tips_en": "Reservation is a must for dinner.",
       "description_en": "Pist kenarında Michelin rehberine girmiş dağ restoranı. A great option to taste local flavors and spend a pleasant eandning. It offers an unforgettable experience appealing to your palate with its friendly atmosphere and quality service.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Chez Vrony"
     },
     {
       "name": "Chocolate Shop Hörnli",
@@ -784,7 +788,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Yerel tasarımcıların ürünlerine göz atın.",
       "tips_en": "Check out products from local designers.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Chocolate Shop Hörnli"
     },
     {
       "name": "Cinema Lounge",
@@ -950,7 +955,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Ev yapımı şaraplarını denemeden dönmeyin.",
       "tips_en": "Don't leave without trying their house wines.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Elsie's Bar"
     },
     {
       "name": "English Church",
@@ -972,7 +978,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Sabah erken saatlerde giderek turist kalabalığından kaçınabilirsiniz.",
       "tips_en": "Go early in the morning to avoid tourist crowds.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "English Church"
     },
     {
       "name": "Escape Room Zermatt",
@@ -1066,7 +1073,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Öğle yemeği menüleri genellikle akşamdan daha uygundur.",
       "tips_en": "Lunch menus are usually cheaper than dinner.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Findlerhof"
     },
     {
       "name": "Five Lakes Walk",
@@ -1087,7 +1095,8 @@
       "tips": "Su ve rahat ayakkabı almayı kesinlikle unutmayın.",
       "tips_en": "Definitely don't forget water and comfortable shoes.",
       "description_en": "Beş farklı dağ gölünü gören harika yürüyüş parkuru. A perfect getaway for those who want to experience peaceful moments in nature. Ideal for getting away from the city noise, taking a breath, and capturing great photos.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Five Lakes Walk"
     },
     {
       "name": "Fluhalp",
@@ -1156,7 +1165,8 @@
       "tips": "Dışarıdaki masalarda oturup gelen geçeni izlemek çok keyifli.",
       "tips_en": "Sitting at outdoor tables and people-watching is very pleasant.",
       "description_en": "Dağcı ekmeği (Bergführerbrot) with famous fırın. One of the right addresses to relieand the tiredness of the day and relax with a delicious coffee. The warm ambiance of the andnue and the sweet surprises it offers will turn your break into pleasure.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Fuchs Bakery"
     },
     {
       "name": "Furi",
@@ -1345,7 +1355,8 @@
       "tips": "Su ve rahat ayakkabı almayı kesinlikle unutmayın.",
       "tips_en": "Definitely don't forget water and comfortable shoes.",
       "description_en": "Ahşap yollardan geçwithn dramatik bir kanyon. A perfect getaway for those who want to experience peaceful moments in nature. Ideal for getting away from the city noise, taking a breath, and capturing great photos.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Gorner Gorge"
     },
     {
       "name": "Gornergrat",
@@ -1390,7 +1401,8 @@
       "tips": "Akşam saatlerinde şehir ışıklarını izlemek çok romantik.",
       "tips_en": "Watching city lights in the evening is very romantic.",
       "description_en": "Matterhorn manzaraları eşliğinde 3000 metreye çıkan tren. Offering one of the most impressiand views of the city, this spot is a paradise for photography enthusiasts. The colors it takes on, especially at sunset, provide a visual feast for visitors.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Gornergrat Railway"
     },
     {
       "name": "Grampi's Bar",
@@ -1436,7 +1448,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Laptop ile çalışmak için uygun, Wi-Fi hızı iyi.",
       "tips_en": "Suitable for working with a laptop, Wi-Fi is good.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Grampi's Pub"
     },
     {
       "name": "Grand Hotel Zermatterhof",
@@ -2638,7 +2651,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Fotoğraf çekimi için en iyi ışık gün batımına yakındır.",
       "tips_en": "Best light for photography is near sunset.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Mountaineers' Cemetery"
     },
     {
       "name": "Murmeli Brunnen",
@@ -2996,7 +3010,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Öğle yemeği menüleri genellikle akşamdan daha uygundur.",
       "tips_en": "Lunch menus are usually cheaper than dinner.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Restaurant Klein Matterhorn"
     },
     {
       "name": "Restaurant Sonnmatten",
@@ -3280,7 +3295,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Yanınıza bir örtü alıp çimlerde piknik yapabilirsiniz.",
       "tips_en": "Bring a blanket and have a picnic on the grass.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Schwarzsee"
     },
     {
       "name": "Schwarzsee Paradise",
@@ -3642,7 +3658,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Akşam saatlerinde şehir ışıklarını izlemek çok romantik.",
       "tips_en": "Watching city lights in the evening is very romantic.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Sunnegga Paradise"
     },
     {
       "name": "Swiss Chalet",
@@ -3711,7 +3728,8 @@
       "bestTime": "09:00 - 18:00",
       "bestTime_en": "09:00 - 18:00",
       "tips": "El yapımı hediyelikler fabrikasyon olanlardan daha değerlidir.",
-      "tips_en": "Handmade souvenirs are more valuable than mass-produced ones."
+      "tips_en": "Handmade souvenirs are more valuable than mass-produced ones.",
+      "name_en": "Swiss Watch Boutique"
     },
     {
       "name": "The Cavern",
@@ -3805,7 +3823,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Teleskop/dürbün varsa yanınıza alın.",
       "tips_en": "Bring a telescope/binoculars if you have them.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Trockener Steg"
     },
     {
       "name": "Täsch",
@@ -4191,7 +4210,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "El yapımı hediyelikler fabrikasyon olanlardan daha değerlidir.",
       "tips_en": "Handmade souvenirs are more valuable than mass-produced ones.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Zermatt Souvenirs"
     },
     {
       "name": "Zermatt Spor Dükkanları",
@@ -4382,7 +4402,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Akşam yemeği için rezervasyon yaptırmak şart.",
       "tips_en": "Reservation is a must for dinner.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Zum See"
     },
     {
       "name": "Gornergrat Platform",

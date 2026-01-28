@@ -33,7 +33,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Yerel halkın favori noktalarından biri.",
-      "tips_en": "One of the favorite spots of the locals."
+      "tips_en": "One of the favorite spots of the locals.",
+      "name_en": "+Bread Bakery"
     },
     {
       "name": "1881 Heritage",
@@ -55,7 +56,8 @@
       "bestTime": "Akşam",
       "bestTime_en": "Evening",
       "tips": "Pazarlık yapmayı deneyebilirsiniz (nazikçe).",
-      "tips_en": "You might try bargaining (politely)."
+      "tips_en": "You might try bargaining (politely).",
+      "name_en": "1881 Heritage"
     },
     {
       "id": "gen_ChIJrQWEfvYBBDQRJklZDHwElVM",
@@ -79,7 +81,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Hafta içi ziyaret etmek daha sakin bir deneyim sunar.",
-      "tips_en": "Visiting on weekdays offers a calmer experience."
+      "tips_en": "Visiting on weekdays offers a calmer experience.",
+      "name_en": "25:00 Twenty Fifth Hour"
     },
     {
       "id": "gen_ChIJKRSGK3sABDQR0n0YqXWDMKs",
@@ -103,7 +106,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Öğle yemeği menüleri genellikle akşamdan daha uygundur.",
-      "tips_en": "Lunch menus are usually cheaper than dinner."
+      "tips_en": "Lunch menus are usually cheaper than dinner.",
+      "name_en": "A Lux"
     },
     {
       "id": "gen_ChIJE6Of0YwBBDQRL1dqfjfy_B4",
@@ -127,7 +131,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Google Maps yorumlarına göz atarak ne yiyeceğinize karar verin.",
-      "tips_en": "Decide what to eat by checking Google Maps reviews."
+      "tips_en": "Decide what to eat by checking Google Maps reviews.",
+      "name_en": "ARTISTA PERFETTO (Causeway Bay)"
     },
     {
       "id": "gen_ChIJ-e5L3GQBBDQRvJhmdKqVu-c",
@@ -151,7 +156,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Nakite hazırlıklı olun, bazı yerel yerler kart kabul etmeyebilir.",
-      "tips_en": "Be prepared with cash, some local places might not accept cards."
+      "tips_en": "Be prepared with cash, some local places might not accept cards.",
+      "name_en": "AVOCA"
     },
     {
       "name": "Aberdeen & Jumbo",
@@ -168,12 +174,13 @@
       "price": "medium",
       "rating": 4.0,
       "description": "Aksiyon dolu bir gün geçirmek isteyenler için Aberdeen & Jumbo ideal bir tercih. Aberdeen'daki bu mekanda hem fiziksel aktiviteler hem de interaktif deneyimlerle enerjinizi yükseltebilirsiniz.",
-      "description_en": "Aksiyon dolu bir gün geçirmek isteyenler için Aberdeen & Jumbo ideal bir tercih. Aberdeen'daki bu mekanda hem fiziksel aktiviteler hem de interaktif deneyimlerle enerjinizi yükseltebilirsiniz.",
+      "description_en": "For those looking for an action-packed day, Aberdeen & Jumbo an ideal choice. Aberdeen'daki at this andnue both physical activities both de interactive experiences you can boost your energy.",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/hongkong/aberdeen_and_jumbo.jpg",
       "bestTime": "Öğleden sonra",
       "bestTime_en": "Afternoon",
       "tips": "Kıyafetinizin aktiviteye uygun olduğundan emin olun.",
-      "tips_en": "Ensure your outfit is suitable for the activity."
+      "tips_en": "Ensure your outfit is suitable for the activity.",
+      "name_en": "Aberdeen & Jumbo"
     },
     {
       "id": "gen_ChIJqVTTlp4BBDQREy4sLjYNCzI",
@@ -197,7 +204,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Çevredeki küçük hediyelik eşya dükkanlarına da uğrayın.",
-      "tips_en": "Stop by the small souvenir shops around."
+      "tips_en": "Stop by the small souvenir shops around.",
+      "name_en": "Apothecary"
     },
     {
       "id": "gen_ChIJyYqGUgABBDQRGtqngB2bSZo",
@@ -221,7 +229,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Nakite hazırlıklı olun, bazı yerel yerler kart kabul etmeyebilir.",
-      "tips_en": "Be prepared with cash, some local places might not accept cards."
+      "tips_en": "Be prepared with cash, some local places might not accept cards.",
+      "name_en": "Arte by Padaria"
     },
     {
       "name": "Australian Dairy Company",
@@ -239,7 +248,8 @@
       "description": "Efsanevi kahvaltı mekanı, scrambled eggs ve toast. Yam Yee'nin yoğun atmosferi, hızlı servis.",
       "tips": "Öğle yemeği menüleri genellikle akşamdan daha uygundur.",
       "tips_en": "Lunch menus are usually cheaper than dinner.",
-      "description_en": "Legendary breakfast venue with scrambled eggs and toast. Yam Yee's intense atmosphere, quick service."
+      "description_en": "Legendary breakfast venue with scrambled eggs and toast. Yam Yee's intense atmosphere, quick service.",
+      "name_en": "Australian Dairy Company"
     },
     {
       "name": "Avenue of Stars",
@@ -261,7 +271,8 @@
       "bestTime": "Akşam (Symphony of Lights)",
       "bestTime_en": "Evening (Symphony of Lights)",
       "tips": "Rüzgarlı olabilir, yanınıza ince bir ceket alın.",
-      "tips_en": "It can be windy, bring a light jacket."
+      "tips_en": "It can be windy, bring a light jacket.",
+      "name_en": "Avenue of Stars"
     },
     {
       "id": "gen_ChIJqw7gDX2rBjQRz6uauf_kQxY",
@@ -285,7 +296,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Çevredeki küçük hediyelik eşya dükkanlarına da uğrayın.",
-      "tips_en": "Stop by the small souvenir shops around."
+      "tips_en": "Stop by the small souvenir shops around.",
+      "name_en": "Bakehouse"
     },
     {
       "id": "gen_ChIJfRP0z2QABDQRvKFdZmq8a6A",
@@ -309,7 +321,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Çevredeki küçük hediyelik eşya dükkanlarına da uğrayın.",
-      "tips_en": "Stop by the small souvenir shops around."
+      "tips_en": "Stop by the small souvenir shops around.",
+      "name_en": "Bar De Luxe"
     },
     {
       "name": "Big Buddha",
@@ -326,7 +339,7 @@
       "price": "medium",
       "rating": 4.5,
       "description": "Geçmişin görkemini günümüze taşıyan Big Buddha, Lantau'nın en önemli tarihi yapılarından biri. Restorasyonlarla korunan özgün dokusu, dönemin yaşam tarzını yansıtan eserleri ve muhteşem mimarisiyle keşfedilmeyi bekliyor.",
-      "description_en": "Geçmişin görkemini günümüze taşıyan Big Buddha, Lantau'nın en önemli tarihi yapılarından biri. Restorasyonlarla korunan özgün dokusu, dönemin yaşam tarzını yansıtan eserleri ve muhteşem mimarisiyle keşfedilmeyi bekliyor.",
+      "description_en": "Geçmişin görkemini günümüze taşıyan Big Buddha, Lantau'nın en önemli historic yapılarından biri. Restorasyonlarla korunan özgün dokusu, dönemin yaşam tarzını yansıtan eserleri and muhteşem mimarisiyle keşfedilmeyi bekliyor.",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/hongkong/big_buddha.jpg",
       "bestTime": "Sabah",
       "bestTime_en": "Morning",
@@ -356,7 +369,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Yerel şarapları denemenizi öneririz.",
-      "tips_en": "We recommend trying local wines."
+      "tips_en": "We recommend trying local wines.",
+      "name_en": "Birria Y Birria"
     },
     {
       "id": "gen_ChIJqYsXGF3_AzQRRCCqj9sZKPI",
@@ -380,7 +394,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Nakite hazırlıklı olun, bazı yerel yerler kart kabul etmeyebilir.",
-      "tips_en": "Be prepared with cash, some local places might not accept cards."
+      "tips_en": "Be prepared with cash, some local places might not accept cards.",
+      "name_en": "Blend & Grind Kennedy Town"
     },
     {
       "id": "gen_ChIJO_KBAfj_AzQRxc63loDmy38",
@@ -404,7 +419,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Google Maps yorumlarına göz atarak ne yiyeceğinize karar verin.",
-      "tips_en": "Decide what to eat by checking Google Maps reviews."
+      "tips_en": "Decide what to eat by checking Google Maps reviews.",
+      "name_en": "Blotto"
     },
     {
       "name": "Blue House",
@@ -422,7 +438,8 @@
       "description": "1920'lerden kalma mavi renk tarihi bina, Wan Chai. UNESCO ödüllü restorasyon, yerel hikayeler.",
       "tips": "Hafta içi sabah saatleri en sakin zamanıdır.",
       "tips_en": "Weekday mornings are the quietest times.",
-      "description_en": "Blue-colored historic building from 1920s in Wan Chai. UNESCO award restoration, local stories."
+      "description_en": "Blue-colored historic building from 1920s in Wan Chai. UNESCO award restoration, local stories.",
+      "name_en": "Blue House"
     },
     {
       "id": "gen_ChIJySHfRvYBBDQR17uRovdwxhc",
@@ -446,7 +463,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Yerel şarapları denemenizi öneririz.",
-      "tips_en": "We recommend trying local wines."
+      "tips_en": "We recommend trying local wines.",
+      "name_en": "Bochord"
     },
     {
       "id": "gen_ChIJzejj3NABBDQRVOic2LRK12o",
@@ -470,7 +488,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Google Maps yorumlarına göz atarak ne yiyeceğinize karar verin.",
-      "tips_en": "Decide what to eat by checking Google Maps reviews."
+      "tips_en": "Decide what to eat by checking Google Maps reviews.",
+      "name_en": "Bourke's"
     },
     {
       "id": "gen_ChIJWasA3IsBBDQR4ecbMpK7OI4",
@@ -494,7 +513,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Şefin spesiyal tabağını sormaktan çekinmeyin.",
-      "tips_en": "Don't hesitate to ask for the chef's special."
+      "tips_en": "Don't hesitate to ask for the chef's special.",
+      "name_en": "BÀRBAR"
     },
     {
       "id": "gen_ChIJtVuL108BBDQRdymLG-o4oYk",
@@ -518,7 +538,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Rehbere soru sormaktan çekinmeyin, çok ilginç hikayeler biliyorlar.",
-      "tips_en": "Don't hesitate to ask the guide questions, they know interesting stories."
+      "tips_en": "Don't hesitate to ask the guide questions, they know interesting stories.",
+      "name_en": "C Dessert"
     },
     {
       "id": "gen_ChIJ91O_K4cBBDQRhqhmZIUCkNw",
@@ -542,7 +563,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Yerel halkın favori noktalarından biri.",
-      "tips_en": "One of the favorite spots of the locals."
+      "tips_en": "One of the favorite spots of the locals.",
+      "name_en": "C108"
     },
     {
       "id": "gen_ChIJAWM82kwBBDQReHjgNJ3hROE",
@@ -566,7 +588,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Yerel şarapları denemenizi öneririz.",
-      "tips_en": "We recommend trying local wines."
+      "tips_en": "We recommend trying local wines.",
+      "name_en": "CALL ME AL"
     },
     {
       "id": "gen_ChIJ__9zd3wABDQR9jco3PBl3bg",
@@ -590,7 +613,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Çevredeki küçük hediyelik eşya dükkanlarına da uğrayın.",
-      "tips_en": "Stop by the small souvenir shops around."
+      "tips_en": "Stop by the small souvenir shops around.",
+      "name_en": "COA"
     },
     {
       "id": "gen_ChIJcUegvnX_AzQRiyKs2FVeh5c",
@@ -614,7 +638,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Hafta içi ziyaret etmek daha sakin bir deneyim sunar.",
-      "tips_en": "Visiting on weekdays offers a calmer experience."
+      "tips_en": "Visiting on weekdays offers a calmer experience.",
+      "name_en": "CODA • Jazz Kissa 爵士喫茶 • Cafe & Bar • Live music • Vinyl"
     },
     {
       "id": "gen_ChIJN4G-RtIBBDQRBpQDs5dzShI",
@@ -638,7 +663,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Google Maps yorumlarına göz atarak ne yiyeceğinize karar verin.",
-      "tips_en": "Decide what to eat by checking Google Maps reviews."
+      "tips_en": "Decide what to eat by checking Google Maps reviews.",
+      "name_en": "CORKS Wine & Bar - Sheung Wan"
     },
     {
       "id": "gen_ChIJzbDWTWIABDQRfEbzv7wxi40",
@@ -662,7 +688,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Yerel şarapları denemenizi öneririz.",
-      "tips_en": "We recommend trying local wines."
+      "tips_en": "We recommend trying local wines.",
+      "name_en": "Caprice"
     },
     {
       "id": "gen_ChIJDSrY2X0ABDQRAqYK6XhBgcI",
@@ -686,7 +713,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Yerel halkın favori noktalarından biri.",
-      "tips_en": "One of the favorite spots of the locals."
+      "tips_en": "One of the favorite spots of the locals.",
+      "name_en": "Captain's Bar"
     },
     {
       "id": "gen_ChIJZaoiF0EBBDQR5WuARaasbdo",
@@ -710,7 +738,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Şefin spesiyal tabağını sormaktan çekinmeyin.",
-      "tips_en": "Don't hesitate to ask for the chef's special."
+      "tips_en": "Don't hesitate to ask for the chef's special.",
+      "name_en": "Carat Fine Indian and Mediterranean Cuisine"
     },
     {
       "id": "gen_ChIJp-qB4HcBBDQRv3S3IBvuwLM",
@@ -734,7 +763,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Akşam yemeği için rezervasyon yaptırmak şart.",
-      "tips_en": "Reservation is a must for dinner."
+      "tips_en": "Reservation is a must for dinner.",
+      "name_en": "Carna by Dario Cecchini"
     },
     {
       "name": "Central & Western Heritage Trail",
@@ -747,7 +777,7 @@
       ],
       "distanceFromCenter": 0.2,
       "lat": 22.2824,
-      "lng": 114.155,
+      "lng": 114155.0,
       "price": "low",
       "rating": 4.2,
       "description": "Central & Western Heritage Trail, Hong Kong'de eğlence ve macera arayanlar için harika bir seçenek. Central bölgesindeki bu mekan, adrenalin dolu aktiviteleri, eğitici deneyimleri ve aile dostu etkinlikleriyle keyifli saatler vaat ediyor.",
@@ -756,7 +786,8 @@
       "bestTime": "Sabah",
       "bestTime_en": "Morning",
       "tips": "Bazı günler giriş ücretsiz olabilir, web sitesini kontrol edin.",
-      "tips_en": "Entry might be free on some days, check the website."
+      "tips_en": "Entry might be free on some days, check the website.",
+      "name_en": "Central & Western Heritage Trail"
     },
     {
       "name": "Central Escalator",
@@ -773,7 +804,7 @@
       "price": "low",
       "rating": 4.2,
       "description": "Aksiyon dolu bir gün geçirmek isteyenler için Central Escalator ideal bir tercih. Central'daki bu mekanda hem fiziksel aktiviteler hem de interaktif deneyimlerle enerjinizi yükseltebilirsiniz.",
-      "description_en": "Aksiyon dolu bir gün geçirmek isteyenler için Central Escalator ideal bir tercih. Central'daki bu mekanda hem fiziksel aktiviteler hem de interaktif deneyimlerle enerjinizi yükseltebilirsiniz.",
+      "description_en": "For those looking for an action-packed day, Central Escalator an ideal choice. Central'daki at this andnue both physical activities both de interactive experiences you can boost your energy.",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/hongkong/central_escalator.jpg",
       "bestTime": "Akşam",
       "bestTime_en": "Evening",
@@ -803,7 +834,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Çevredeki küçük hediyelik eşya dükkanlarına da uğrayın.",
-      "tips_en": "Stop by the small souvenir shops around."
+      "tips_en": "Stop by the small souvenir shops around.",
+      "name_en": "Chart Coffee (Central Market)"
     },
     {
       "name": "Cheung Chau",
@@ -821,7 +853,8 @@
       "description": "Arabasız küçük ada, plajlar ve balıkçı köyü. Bun festivali, deniz ürünleri ve yerel yaşam.",
       "tips": "Fotoğraf makinenizin şarjının dolu olduğundan emin olun.",
       "tips_en": "Make sure your camera battery is full.",
-      "description_en": "Small car-free island with beaches and fishing village. Bun festival, seafood, and local life."
+      "description_en": "Small car-free island with beaches and fishing village. Bun festival, seafood, and local life.",
+      "name_en": "Cheung Chau"
     },
     {
       "name": "Cheung Chau Island",
@@ -838,12 +871,13 @@
       "price": "low",
       "rating": 4.4,
       "description": "Aksiyon dolu bir gün geçirmek isteyenler için Cheung Chau Island ideal bir tercih. Cheung Chau'daki bu mekanda hem fiziksel aktiviteler hem de interaktif deneyimlerle enerjinizi yükseltebilirsiniz.",
-      "description_en": "Aksiyon dolu bir gün geçirmek isteyenler için Cheung Chau Island ideal bir tercih. Cheung Chau'daki bu mekanda hem fiziksel aktiviteler hem de interaktif deneyimlerle enerjinizi yükseltebilirsiniz.",
+      "description_en": "For those looking for an action-packed day, Cheung Chau Island an ideal choice. Cheung Chau'daki at this andnue both physical activities both de interactive experiences you can boost your energy.",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/hongkong/cheung_chau_island.jpg",
       "bestTime": "Hafta içi",
       "bestTime_en": "Weekday",
       "tips": "Rehbere soru sormaktan çekinmeyin, çok ilginç hikayeler biliyorlar.",
-      "tips_en": "Don't hesitate to ask the guide questions, they know interesting stories."
+      "tips_en": "Don't hesitate to ask the guide questions, they know interesting stories.",
+      "name_en": "Cheung Chau Island"
     },
     {
       "name": "Chi Lin Nunnery",
@@ -861,7 +895,8 @@
       "description": "Çivisiz inşa edilen geleneksel ahşap Budist manastırı. Tang mimarisi, lotus göleti ve meditasyon.",
       "tips": "Müze kartınız varsa girişte sıra beklemezsiniz.",
       "tips_en": "You skip the line if you have a museum pass.",
-      "description_en": "Traditional wooden Buddhist nunnery built without nails. Tang architecture, lotus pond, and meditation."
+      "description_en": "Traditional wooden Buddhist nunnery built without nails. Tang architecture, lotus pond, and meditation.",
+      "name_en": "Chi Lin Nunnery"
     },
     {
       "id": "gen_ChIJEdExFpMBBDQRxU5-lgMzbfE",
@@ -885,7 +920,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Çevredeki küçük hediyelik eşya dükkanlarına da uğrayın.",
-      "tips_en": "Stop by the small souvenir shops around."
+      "tips_en": "Stop by the small souvenir shops around.",
+      "name_en": "Ching Ching Desserts"
     },
     {
       "name": "Choi Hung Estate",
@@ -907,7 +943,8 @@
       "bestTime": "Gündüz",
       "bestTime_en": "Daytime",
       "tips": "Fotoğraf çekimi için en iyi ışık gün batımına yakındır.",
-      "tips_en": "Best light for photography is near sunset."
+      "tips_en": "Best light for photography is near sunset.",
+      "name_en": "Choi Hung Estate"
     },
     {
       "name": "Chungking Mansions",
@@ -929,7 +966,8 @@
       "bestTime": "Öğle",
       "bestTime_en": "Lunch",
       "tips": "Pazar günleri kapalı olabilir, kontrol edin.",
-      "tips_en": "Might be closed on Sundays, do check."
+      "tips_en": "Might be closed on Sundays, do check.",
+      "name_en": "Chungking Mansions"
     },
     {
       "id": "gen_ChIJ_2ZuQ6wBBDQR_ps4kONpL9Y",
@@ -953,7 +991,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Hafta içi ziyaret etmek daha sakin bir deneyim sunar.",
-      "tips_en": "Visiting on weekdays offers a calmer experience."
+      "tips_en": "Visiting on weekdays offers a calmer experience.",
+      "name_en": "Cloud Nine Specialty Coffee"
     },
     {
       "id": "gen_ChIJB8p6_DMBBDQRk0Z-7zTYnlo",
@@ -977,7 +1016,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Hafta içi ziyaret etmek daha sakin bir deneyim sunar.",
-      "tips_en": "Visiting on weekdays offers a calmer experience."
+      "tips_en": "Visiting on weekdays offers a calmer experience.",
+      "name_en": "Coffee Analog"
     },
     {
       "id": "gen_ChIJ05YmVesBBDQR62yFmr0a6-0",
@@ -1001,7 +1041,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Çevredeki küçük hediyelik eşya dükkanlarına da uğrayın.",
-      "tips_en": "Stop by the small souvenir shops around."
+      "tips_en": "Stop by the small souvenir shops around.",
+      "name_en": "Courtroom"
     },
     {
       "id": "gen_ChIJL4HriLkABDQR6KzcrPHk_uM",
@@ -1025,7 +1066,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Google Maps yorumlarına göz atarak ne yiyeceğinize karar verin.",
-      "tips_en": "Decide what to eat by checking Google Maps reviews."
+      "tips_en": "Decide what to eat by checking Google Maps reviews.",
+      "name_en": "Craft Coffee Roaster (Tai Kok Tsui)"
     },
     {
       "id": "gen_ChIJObaa_5b_AzQRfK5z-lPjNks",
@@ -1049,7 +1091,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Hafta içi ziyaret etmek daha sakin bir deneyim sunar.",
-      "tips_en": "Visiting on weekdays offers a calmer experience."
+      "tips_en": "Visiting on weekdays offers a calmer experience.",
+      "name_en": "Crushed Wine Bar + Retail"
     },
     {
       "id": "gen_ChIJTSBtBBEBBDQR8okXnYV4_HY",
@@ -1073,7 +1116,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Hafta içi ziyaret etmek daha sakin bir deneyim sunar.",
-      "tips_en": "Visiting on weekdays offers a calmer experience."
+      "tips_en": "Visiting on weekdays offers a calmer experience.",
+      "name_en": "Dead Poets HK"
     },
     {
       "id": "gen_ChIJE90KU_8BBDQRmDnBRD0LYWQ",
@@ -1097,7 +1141,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Nakite hazırlıklı olun, bazı yerel yerler kart kabul etmeyebilir.",
-      "tips_en": "Be prepared with cash, some local places might not accept cards."
+      "tips_en": "Be prepared with cash, some local places might not accept cards.",
+      "name_en": "Delhi 6 Indian Restaurant & Bar"
     },
     {
       "id": "gen_ChIJIQYxngEBBDQRtvqf3Q8aSu0",
@@ -1121,7 +1166,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Şefin spesiyal tabağını sormaktan çekinmeyin.",
-      "tips_en": "Don't hesitate to ask for the chef's special."
+      "tips_en": "Don't hesitate to ask for the chef's special.",
+      "name_en": "Dilliwale - The Indian Food Paradise | Halal Certified"
     },
     {
       "name": "Dim Sum",
@@ -1143,7 +1189,8 @@
       "bestTime": "Brunch (09:00-14:00)",
       "bestTime_en": "Brunch (9am-2pm)",
       "tips": "Akşam yemeği için rezervasyon yaptırmak şart.",
-      "tips_en": "Reservation is a must for dinner."
+      "tips_en": "Reservation is a must for dinner.",
+      "name_en": "Dim Sum"
     },
     {
       "id": "gen_ChIJ5wF9axEBBDQRV_J4k9z2nrc",
@@ -1167,7 +1214,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Çevredeki küçük hediyelik eşya dükkanlarına da uğrayın.",
-      "tips_en": "Stop by the small souvenir shops around."
+      "tips_en": "Stop by the small souvenir shops around.",
+      "name_en": "Double Black"
     },
     {
       "name": "Dragon's Back",
@@ -1189,7 +1237,8 @@
       "bestTime": "Sabah",
       "bestTime_en": "Morning",
       "tips": "Grup indirimi olup olmadığını sorun.",
-      "tips_en": "Ask if there is a group discount."
+      "tips_en": "Ask if there is a group discount.",
+      "name_en": "Dragon's Back"
     },
     {
       "id": "gen_ChIJhxQ753QBBDQRHGyw8bvY7Es",
@@ -1213,7 +1262,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Google Maps yorumlarına göz atarak ne yiyeceğinize karar verin.",
-      "tips_en": "Decide what to eat by checking Google Maps reviews."
+      "tips_en": "Decide what to eat by checking Google Maps reviews.",
+      "name_en": "Dragonfly"
     },
     {
       "id": "gen_ChIJz4velQQBBDQRadtrLjE66Ng",
@@ -1237,7 +1287,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Şefin spesiyal tabağını sormaktan çekinmeyin.",
-      "tips_en": "Don't hesitate to ask for the chef's special."
+      "tips_en": "Don't hesitate to ask for the chef's special.",
+      "name_en": "Embla"
     },
     {
       "id": "gen_ChIJxSWqCPUBBDQR8gdYC_CAPfg",
@@ -1261,7 +1312,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Çevredeki küçük hediyelik eşya dükkanlarına da uğrayın.",
-      "tips_en": "Stop by the small souvenir shops around."
+      "tips_en": "Stop by the small souvenir shops around.",
+      "name_en": "Espresso Alchemy (海港城店)"
     },
     {
       "id": "gen_ChIJM9sO-JkBBDQRn-1VP3-x13E",
@@ -1285,7 +1337,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Akşam yemeği için rezervasyon yaptırmak şart.",
-      "tips_en": "Reservation is a must for dinner."
+      "tips_en": "Reservation is a must for dinner.",
+      "name_en": "FRANCIS west"
     },
     {
       "id": "gen_ChIJAfJO_8oBBDQRiq9Cv0N9ZfM",
@@ -1309,7 +1362,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Şefin spesiyal tabağını sormaktan çekinmeyin.",
-      "tips_en": "Don't hesitate to ask for the chef's special."
+      "tips_en": "Don't hesitate to ask for the chef's special.",
+      "name_en": "Feuille"
     },
     {
       "id": "gen_ChIJf6ycdbwBBDQR-SAfHc5Dbwk",
@@ -1333,7 +1387,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Akşam yemeği için rezervasyon yaptırmak şart.",
-      "tips_en": "Reservation is a must for dinner."
+      "tips_en": "Reservation is a must for dinner.",
+      "name_en": "Fireside"
     },
     {
       "id": "gen_ChIJoX4My3sBBDQREjix-pMRv5o",
@@ -1357,7 +1412,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Google Maps yorumlarına göz atarak ne yiyeceğinize karar verin.",
-      "tips_en": "Decide what to eat by checking Google Maps reviews."
+      "tips_en": "Decide what to eat by checking Google Maps reviews.",
+      "name_en": "Frenchie Toquee HK"
     },
     {
       "id": "gen_ChIJl5Zk_1oBBDQRCUvKEZ7sAIw",
@@ -1381,7 +1437,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Çevredeki küçük hediyelik eşya dükkanlarına da uğrayın.",
-      "tips_en": "Stop by the small souvenir shops around."
+      "tips_en": "Stop by the small souvenir shops around.",
+      "name_en": "Freshfresh Bakery"
     },
     {
       "id": "gen_ChIJ51fZ1JQABDQRLfF3yRqgobA",
@@ -1405,7 +1462,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Yerel halkın favori noktalarından biri.",
-      "tips_en": "One of the favorite spots of the locals."
+      "tips_en": "One of the favorite spots of the locals.",
+      "name_en": "Funky Monkey"
     },
     {
       "name": "Golden Bauhinia Square",
@@ -1417,7 +1475,7 @@
         "bayrak"
       ],
       "distanceFromCenter": 1.5,
-      "lat": 22.284,
+      "lat": 22284.0,
       "lng": 114.1732,
       "price": "free",
       "rating": 4.0,
@@ -1427,7 +1485,8 @@
       "bestTime": "Sabah (08:00)",
       "bestTime_en": "Morning (8am)",
       "tips": "Grup indirimi olup olmadığını sorun.",
-      "tips_en": "Ask if there is a group discount."
+      "tips_en": "Ask if there is a group discount.",
+      "name_en": "Golden Bauhinia Square"
     },
     {
       "id": "gen_ChIJdce-TuEBBDQRF6hawFy6erQ",
@@ -1451,7 +1510,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Google Maps yorumlarına göz atarak ne yiyeceğinize karar verin.",
-      "tips_en": "Decide what to eat by checking Google Maps reviews."
+      "tips_en": "Decide what to eat by checking Google Maps reviews.",
+      "name_en": "Good Day Coffee Co."
     },
     {
       "id": "gen_ChIJjUY85dQBBDQRA2WGH8B6WYU",
@@ -1475,7 +1535,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Öğle yemeği menüleri genellikle akşamdan daha uygundur.",
-      "tips_en": "Lunch menus are usually cheaper than dinner."
+      "tips_en": "Lunch menus are usually cheaper than dinner.",
+      "name_en": "HANDS - Craft Beer & Magic"
     },
     {
       "id": "gen_ChIJAQAhpH4ABDQRJ9C5gcbz0II",
@@ -1499,7 +1560,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Hafta içi ziyaret etmek daha sakin bir deneyim sunar.",
-      "tips_en": "Visiting on weekdays offers a calmer experience."
+      "tips_en": "Visiting on weekdays offers a calmer experience.",
+      "name_en": "Halfway Coffee"
     },
     {
       "id": "gen_ChIJFzcdifABBDQRsow5ZPYmZvs",
@@ -1523,7 +1585,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Akşam yemeği için rezervasyon yaptırmak şart.",
-      "tips_en": "Reservation is a must for dinner."
+      "tips_en": "Reservation is a must for dinner.",
+      "name_en": "Hand Shaken Cocktail bar"
     },
     {
       "name": "Happy Valley Racecourse",
@@ -1535,8 +1598,8 @@
         "heyecan"
       ],
       "distanceFromCenter": 2.0,
-      "lat": 22.272,
-      "lng": 114.181,
+      "lat": 22272.0,
+      "lng": 114181.0,
       "price": "low",
       "rating": 4.6,
       "description": "Happy Valley Racecourse, Hong Kong'de eğlence ve macera arayanlar için harika bir seçenek. Happy Valley bölgesindeki bu mekan, adrenalin dolu aktiviteleri, eğitici deneyimleri ve aile dostu etkinlikleriyle keyifli saatler vaat ediyor.",
@@ -1545,7 +1608,8 @@
       "bestTime": "Çarşamba Akşamı",
       "bestTime_en": "Wednesday Evening",
       "tips": "Yerel şarapları denemenizi öneririz.",
-      "tips_en": "We recommend trying local wines."
+      "tips_en": "We recommend trying local wines.",
+      "name_en": "Happy Valley Racecourse"
     },
     {
       "id": "gen_ChIJEY3QJT4BBDQRYs_9fONgMQs",
@@ -1569,7 +1633,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Nakite hazırlıklı olun, bazı yerel yerler kart kabul etmeyebilir.",
-      "tips_en": "Be prepared with cash, some local places might not accept cards."
+      "tips_en": "Be prepared with cash, some local places might not accept cards.",
+      "name_en": "Heimat by Peter Find"
     },
     {
       "id": "gen_ChIJAaxK2xUBBDQR6anMrdxlauM",
@@ -1593,7 +1658,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Yerel halkın favori noktalarından biri.",
-      "tips_en": "One of the favorite spots of the locals."
+      "tips_en": "One of the favorite spots of the locals.",
+      "name_en": "Heya Hong Kong"
     },
     {
       "id": "gen_ChIJX105jMIBBDQR6K-Azfd80ro",
@@ -1617,7 +1683,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Kıyafetinizin aktiviteye uygun olduğundan emin olun.",
-      "tips_en": "Ensure your outfit is suitable for the activity."
+      "tips_en": "Ensure your outfit is suitable for the activity.",
+      "name_en": "Ho Kee Dessert"
     },
     {
       "id": "gen_ChIJK7upo3sABDQRFp3oQQqsI5U",
@@ -1641,7 +1708,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Şefin spesiyal tabağını sormaktan çekinmeyin.",
-      "tips_en": "Don't hesitate to ask for the chef's special."
+      "tips_en": "Don't hesitate to ask for the chef's special.",
+      "name_en": "Ho Lan Jeng"
     },
     {
       "name": "Ho Lee Fook",
@@ -1659,7 +1727,8 @@
       "description": "Çağdaş Kantonca mutfak ve yaratıcı kokteyller. Trendy atmosfer, paylaşımlı tabaklar ve gece hayatı.",
       "tips": "Nakite hazırlıklı olun, bazı yerel yerler kart kabul etmeyebilir.",
       "tips_en": "Be prepared with cash, some local places might not accept cards.",
-      "description_en": "Contemporary Cantonese cuisine and creative cocktails. Trendy atmosphere, sharing plates, and nightlife."
+      "description_en": "Contemporary Cantonese cuisine and creative cocktails. Trendy atmosphere, sharing plates, and nightlife.",
+      "name_en": "Ho Lee Fook"
     },
     {
       "name": "Hong Kong Disneyland",
@@ -1671,7 +1740,7 @@
         "aile"
       ],
       "distanceFromCenter": 15.0,
-      "lat": 22.313,
+      "lat": 22313.0,
       "lng": 114.0413,
       "price": "high",
       "rating": 4.5,
@@ -1681,7 +1750,8 @@
       "bestTime": "Hafta içi",
       "bestTime_en": "Weekday",
       "tips": "Fotoğraf makinenizin şarjının dolu olduğundan emin olun.",
-      "tips_en": "Make sure your camera battery is full."
+      "tips_en": "Make sure your camera battery is full.",
+      "name_en": "Hong Kong Disneyland"
     },
     {
       "name": "Hong Kong Museum of History",
@@ -1703,7 +1773,8 @@
       "bestTime": "Yağmurlu gün",
       "bestTime_en": "Rainy day",
       "tips": "Sesli rehber (audio guide) kiralamak deneyimi ikiye katlar.",
-      "tips_en": "Renting an audio guide doubles the experience."
+      "tips_en": "Renting an audio guide doubles the experience.",
+      "name_en": "Hong Kong Museum of History"
     },
     {
       "name": "Hong Kong Palace Museum",
@@ -1721,7 +1792,8 @@
       "description": "Beijing Yasak Şehir'den hazineler, Çin imparatorluk sanatı. West Kowloon'da, altın eserler ve tarih.",
       "tips": "Bazı günler giriş ücretsiz olabilir, web sitesini kontrol edin.",
       "tips_en": "Entry might be free on some days, check the website.",
-      "description_en": "Treasures from Beijing Forbidden City, Chinese imperial art. In West Kowloon, golden artifacts, and history."
+      "description_en": "Treasures from Beijing Forbidden City, Chinese imperial art. In West Kowloon, golden artifacts, and history.",
+      "name_en": "Hong Kong Palace Museum"
     },
     {
       "name": "Hong Kong Park",
@@ -1743,7 +1815,8 @@
       "bestTime": "Sabah",
       "bestTime_en": "Morning",
       "tips": "Güneş kremi ve şapka almayı unutmayın.",
-      "tips_en": "Don't forget sunscreen and a hat."
+      "tips_en": "Don't forget sunscreen and a hat.",
+      "name_en": "Hong Kong Park"
     },
     {
       "id": "gen_ChIJoW514yEBBDQR6h-kX5vWXl0",
@@ -1767,7 +1840,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Çevredeki küçük hediyelik eşya dükkanlarına da uğrayın.",
-      "tips_en": "Stop by the small souvenir shops around."
+      "tips_en": "Stop by the small souvenir shops around.",
+      "name_en": "Hong Kong Pub Crawl"
     },
     {
       "name": "Hong Kong Tramway",
@@ -1780,11 +1854,11 @@
       ],
       "distanceFromCenter": 0.5,
       "lat": 22.2845,
-      "lng": 114.158,
+      "lng": 114158.0,
       "price": "low",
       "rating": 4.4,
       "description": "Aksiyon dolu bir gün geçirmek isteyenler için Hong Kong Tramway ideal bir tercih. HK Island'daki bu mekanda hem fiziksel aktiviteler hem de interaktif deneyimlerle enerjinizi yükseltebilirsiniz.",
-      "description_en": "Aksiyon dolu bir gün geçirmek isteyenler için Hong Kong Tramway ideal bir tercih. HK Island'daki bu mekanda hem fiziksel aktiviteler hem de interaktif deneyimlerle enerjinizi yükseltebilirsiniz.",
+      "description_en": "For those looking for an action-packed day, Hong Kong Tramway an ideal choice. HK Island'daki at this andnue both physical activities both de interactive experiences you can boost your energy.",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/hongkong/hong_kong_tramway.jpg",
       "bestTime": "Gün içi",
       "bestTime_en": "Daytime",
@@ -1814,7 +1888,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Akşam yemeği için rezervasyon yaptırmak şart.",
-      "tips_en": "Reservation is a must for dinner."
+      "tips_en": "Reservation is a must for dinner.",
+      "name_en": "Honky Tonks Tavern"
     },
     {
       "id": "gen_ChIJpXiKYxwFBDQRtAmiHLcdoQA",
@@ -1838,7 +1913,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Yerel halkın favori noktalarından biri.",
-      "tips_en": "One of the favorite spots of the locals."
+      "tips_en": "One of the favorite spots of the locals.",
+      "name_en": "Hookee Dessert Shop"
     },
     {
       "id": "gen_ChIJxUguQV4BBDQRanXfTju3GmM",
@@ -1862,7 +1938,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Yerel halkın favori noktalarından biri.",
-      "tips_en": "One of the favorite spots of the locals."
+      "tips_en": "One of the favorite spots of the locals.",
+      "name_en": "Hops"
     },
     {
       "id": "gen_ChIJD2q125gBBDQRo-LoYwsy-a0",
@@ -1886,7 +1963,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Google Maps yorumlarına göz atarak ne yiyeceğinize karar verin.",
-      "tips_en": "Decide what to eat by checking Google Maps reviews."
+      "tips_en": "Decide what to eat by checking Google Maps reviews.",
+      "name_en": "House Welley Whisky Bar"
     },
     {
       "id": "gen_ChIJp8DwR_UBBDQRZPetuNnc8TI",
@@ -1910,7 +1988,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Google Maps yorumlarına göz atarak ne yiyeceğinize karar verin.",
-      "tips_en": "Decide what to eat by checking Google Maps reviews."
+      "tips_en": "Decide what to eat by checking Google Maps reviews.",
+      "name_en": "Hubbly Bubbly"
     },
     {
       "name": "IFC Mall & Rooftop",
@@ -1932,7 +2011,8 @@
       "bestTime": "Gün batımı",
       "bestTime_en": "Sunset",
       "tips": "Yanınıza bir örtü alıp çimlerde piknik yapabilirsiniz.",
-      "tips_en": "Bring a blanket and have a picnic on the grass."
+      "tips_en": "Bring a blanket and have a picnic on the grass.",
+      "name_en": "IFC Mall & Rooftop"
     },
     {
       "id": "gen_ChIJPUCPSQABBDQRPmfGo6D6ito",
@@ -1956,7 +2036,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Hafta içi ziyaret etmek daha sakin bir deneyim sunar.",
-      "tips_en": "Visiting on weekdays offers a calmer experience."
+      "tips_en": "Visiting on weekdays offers a calmer experience.",
+      "name_en": "Islet Coffee Lab (Central)"
     },
     {
       "id": "gen_ChIJTyRka3sABDQREap6hkNNWlY",
@@ -1980,7 +2061,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Şefin spesiyal tabağını sormaktan çekinmeyin.",
-      "tips_en": "Don't hesitate to ask for the chef's special."
+      "tips_en": "Don't hesitate to ask for the chef's special.",
+      "name_en": "Ivan The Kozak 東歐餐廳"
     },
     {
       "id": "gen_ChIJNYi4nXwABDQR2LINieqIIRQ",
@@ -2004,7 +2086,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Google Maps yorumlarına göz atarak ne yiyeceğinize karar verin.",
-      "tips_en": "Decide what to eat by checking Google Maps reviews."
+      "tips_en": "Decide what to eat by checking Google Maps reviews.",
+      "name_en": "Jaa Bar"
     },
     {
       "name": "K11 MUSEA",
@@ -2026,7 +2109,8 @@
       "bestTime": "Her zaman",
       "bestTime_en": "Anytime",
       "tips": "Yerel tasarımcıların ürünlerine göz atın.",
-      "tips_en": "Check out products from local designers."
+      "tips_en": "Check out products from local designers.",
+      "name_en": "K11 MUSEA"
     },
     {
       "name": "Kam Wah Cafe",
@@ -2048,7 +2132,8 @@
       "bestTime": "Kahvaltı",
       "bestTime_en": "Breakfast",
       "tips": "Google Maps yorumlarına göz atarak ne yiyeceğinize karar verin.",
-      "tips_en": "Decide what to eat by checking Google Maps reviews."
+      "tips_en": "Decide what to eat by checking Google Maps reviews.",
+      "name_en": "Kam Wah Cafe"
     },
     {
       "name": "Kam's Roast Goose",
@@ -2066,7 +2151,8 @@
       "description": "50 yıllık Kantonca kaz rosto geleneği, Michelin yıldızlı. Çıtır deri, sulu et ve klasik lezzet.",
       "tips": "Yerel şarapları denemenizi öneririz.",
       "tips_en": "We recommend trying local wines.",
-      "description_en": "50-year Cantonese roast goose tradition, Michelin-starred. Crispy skin, juicy meat, and classic flavor."
+      "description_en": "50-year Cantonese roast goose tradition, Michelin-starred. Crispy skin, juicy meat, and classic flavor.",
+      "name_en": "Kam's Roast Goose"
     },
     {
       "name": "Kau Kee Beef Brisket",
@@ -2084,7 +2170,8 @@
       "description": "100 yılı aşkın sığır eti noodle çorbası efsanesi. Michelin tavsiyeli, erişte ustası ve yerel favorisi.",
       "tips": "Yerel şarapları denemenizi öneririz.",
       "tips_en": "We recommend trying local wines.",
-      "description_en": "Over 100 years beef noodle soup legend. Michelin recommended, noodle master, and local favorite."
+      "description_en": "Over 100 years beef noodle soup legend. Michelin recommended, noodle master, and local favorite.",
+      "name_en": "Kau Kee Beef Brisket"
     },
     {
       "name": "Kowloon",
@@ -2106,7 +2193,8 @@
       "bestTime": "Gece",
       "bestTime_en": "Night",
       "tips": "Sabah erken saatlerde giderek turist kalabalığından kaçınabilirsiniz.",
-      "tips_en": "Go early in the morning to avoid tourist crowds."
+      "tips_en": "Go early in the morning to avoid tourist crowds.",
+      "name_en": "Kowloon"
     },
     {
       "id": "gen_ChIJ8TgQDNEBBDQREcrQS4Y1isY",
@@ -2130,7 +2218,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Yerel şarapları denemenizi öneririz.",
-      "tips_en": "We recommend trying local wines."
+      "tips_en": "We recommend trying local wines.",
+      "name_en": "L'Envol"
     },
     {
       "id": "gen_ChIJ3ZpLNicBBDQRAeb2lrv0Boo",
@@ -2154,7 +2243,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Şefin spesiyal tabağını sormaktan çekinmeyin.",
-      "tips_en": "Don't hesitate to ask for the chef's special."
+      "tips_en": "Don't hesitate to ask for the chef's special.",
+      "name_en": "LALA Hong Kong"
     },
     {
       "id": "gen_ChIJ-Qrmt8n_AzQRR49PTOMU-mg",
@@ -2178,7 +2268,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Google Maps yorumlarına göz atarak ne yiyeceğinize karar verin.",
-      "tips_en": "Decide what to eat by checking Google Maps reviews."
+      "tips_en": "Decide what to eat by checking Google Maps reviews.",
+      "name_en": "La Cave"
     },
     {
       "id": "gen_ChIJS6NWpagBBDQRaCblYPquU4M",
@@ -2202,7 +2293,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Yerel halkın favori noktalarından biri.",
-      "tips_en": "One of the favorite spots of the locals."
+      "tips_en": "One of the favorite spots of the locals.",
+      "name_en": "LaLa Bar 嘉芙"
     },
     {
       "name": "Ladies Market",
@@ -2243,7 +2335,8 @@
       "bestTime": "Tüm gün",
       "bestTime_en": "Full day",
       "tips": "Yürüyüş ayakkabısı giymeniz önerilir.",
-      "tips_en": "Walking shoes are recommended."
+      "tips_en": "Walking shoes are recommended.",
+      "name_en": "Lamma Island"
     },
     {
       "name": "Lan Fong Yuen",
@@ -2280,7 +2373,8 @@
       "description": "Central'daki gece hayatı bölgesi, barlar ve kulüpler. Ekspat cenneti, parti atmosferi ve kokteyller.",
       "tips": "Şefin spesiyal tabağını sormaktan çekinmeyin.",
       "tips_en": "Don't hesitate to ask for the chef's special.",
-      "description_en": "Nightlife district in Central with bars and clubs. Expat paradise, party atmosphere, and cocktails."
+      "description_en": "Nightlife district in Central with bars and clubs. Expat paradise, party atmosphere, and cocktails.",
+      "name_en": "Lan Kwai Fong"
     },
     {
       "id": "gen_ChIJpZfBnnsABDQRTxtk1F1FvVA",
@@ -2304,7 +2398,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Nakite hazırlıklı olun, bazı yerel yerler kart kabul etmeyebilir.",
-      "tips_en": "Be prepared with cash, some local places might not accept cards."
+      "tips_en": "Be prepared with cash, some local places might not accept cards.",
+      "name_en": "Le Moment"
     },
     {
       "name": "Lion Rock Country Park",
@@ -2326,7 +2421,8 @@
       "bestTime": "Sabah erken",
       "bestTime_en": "Early morning",
       "tips": "Gün batımını izlemek için şehirdeki en iyi noktalardan biri.",
-      "tips_en": "One of the best spots in the city to watch the sunset."
+      "tips_en": "One of the best spots in the city to watch the sunset.",
+      "name_en": "Lion Rock Country Park"
     },
     {
       "name": "M+ Museum",
@@ -2338,7 +2434,7 @@
         "kültür"
       ],
       "distanceFromCenter": 2.0,
-      "lat": 22.301,
+      "lat": 22301.0,
       "lng": 114.16,
       "price": "medium",
       "rating": 4.7,
@@ -2348,7 +2444,8 @@
       "bestTime": "Öğleden sonra",
       "bestTime_en": "Afternoon",
       "tips": "Çantanızı vestiyere bırakmanız gerekebilir, hazırlıklı olun.",
-      "tips_en": "You might need to leave bags at the cloakroom, be prepared."
+      "tips_en": "You might need to leave bags at the cloakroom, be prepared.",
+      "name_en": "M+ Museum"
     },
     {
       "id": "gen_ChIJCx5dprEBBDQR0ulHVcrC7Os",
@@ -2372,7 +2469,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Nakite hazırlıklı olun, bazı yerel yerler kart kabul etmeyebilir.",
-      "tips_en": "Be prepared with cash, some local places might not accept cards."
+      "tips_en": "Be prepared with cash, some local places might not accept cards.",
+      "name_en": "MONO"
     },
     {
       "id": "gen_ChIJsc5Qp1MBBDQRiTGHggMdsXc",
@@ -2396,7 +2494,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Nakite hazırlıklı olun, bazı yerel yerler kart kabul etmeyebilir.",
-      "tips_en": "Be prepared with cash, some local places might not accept cards."
+      "tips_en": "Be prepared with cash, some local places might not accept cards.",
+      "name_en": "MY KITCHEN (Tibetan Halal Homemade Food Restaurant)"
     },
     {
       "id": "gen_ChIJn2xz6c8BBDQRGWzutf0ElKw",
@@ -2420,7 +2519,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Google Maps yorumlarına göz atarak ne yiyeceğinize karar verin.",
-      "tips_en": "Decide what to eat by checking Google Maps reviews."
+      "tips_en": "Decide what to eat by checking Google Maps reviews.",
+      "name_en": "Maggie Choo's Hong Kong"
     },
     {
       "name": "Man Mo Temple",
@@ -2442,7 +2542,8 @@
       "bestTime": "Sabah",
       "bestTime_en": "Morning",
       "tips": "Sabah erken saatlerde giderek turist kalabalığından kaçınabilirsiniz.",
-      "tips_en": "Go early in the morning to avoid tourist crowds."
+      "tips_en": "Go early in the morning to avoid tourist crowds.",
+      "name_en": "Man Mo Temple"
     },
     {
       "id": "gen_ChIJ6QVXxroBBDQRexPdRPhQy3E",
@@ -2466,7 +2567,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Hafta içi ziyaret etmek daha sakin bir deneyim sunar.",
-      "tips_en": "Visiting on weekdays offers a calmer experience."
+      "tips_en": "Visiting on weekdays offers a calmer experience.",
+      "name_en": "Marouf & Puff Bake"
     },
     {
       "id": "gen_ChIJ8QWaCkQBBDQRY5tcpyfLPJ4",
@@ -2490,7 +2592,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Google Maps yorumlarına göz atarak ne yiyeceğinize karar verin.",
-      "tips_en": "Decide what to eat by checking Google Maps reviews."
+      "tips_en": "Decide what to eat by checking Google Maps reviews.",
+      "name_en": "Marouf Coffee"
     },
     {
       "name": "Maxim's Palace",
@@ -2508,7 +2611,8 @@
       "description": "Klasik Hong Kong dim sum salonu, arabalarla servis. Hafta sonu brunch, gelin kıyafeti ve nostalji.",
       "tips": "Öğle yemeği menüleri genellikle akşamdan daha uygundur.",
       "tips_en": "Lunch menus are usually cheaper than dinner.",
-      "description_en": "Classic Hong Kong dim sum hall with cart service. Weekend brunch, wedding outfits, and nostalgia."
+      "description_en": "Classic Hong Kong dim sum hall with cart service. Weekend brunch, wedding outfits, and nostalgia.",
+      "name_en": "Maxim's Palace"
     },
     {
       "id": "gen_ChIJVVUB-TQJBDQREqdJdy1NugE",
@@ -2532,7 +2636,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Yerel halkın favori noktalarından biri.",
-      "tips_en": "One of the favorite spots of the locals."
+      "tips_en": "One of the favorite spots of the locals.",
+      "name_en": "Mayse Artisan Bakery"
     },
     {
       "id": "gen_ChIJJSWK5k4BBDQRkS94InVkMHk",
@@ -2556,7 +2661,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Çevredeki küçük hediyelik eşya dükkanlarına da uğrayın.",
-      "tips_en": "Stop by the small souvenir shops around."
+      "tips_en": "Stop by the small souvenir shops around.",
+      "name_en": "Meanwhile Coffee"
     },
     {
       "id": "gen_ChIJL5wAxQ7_AzQRqfdZpQvEDUQ",
@@ -2580,7 +2686,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Hafta içi ziyaret etmek daha sakin bir deneyim sunar.",
-      "tips_en": "Visiting on weekdays offers a calmer experience."
+      "tips_en": "Visiting on weekdays offers a calmer experience.",
+      "name_en": "Miam Bakery"
     },
     {
       "id": "gen_ChIJuUxTAloABDQRqwQJPpJVXU0",
@@ -2604,7 +2711,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Yerel halkın favori noktalarından biri.",
-      "tips_en": "One of the favorite spots of the locals."
+      "tips_en": "One of the favorite spots of the locals.",
+      "name_en": "Mizunara: The Library"
     },
     {
       "name": "Mong Kok",
@@ -2626,7 +2734,8 @@
       "bestTime": "Öğleden sonra / Akşam",
       "bestTime_en": "Afternoon / Evening",
       "tips": "Fotoğraf çekimi için en iyi ışık gün batımına yakındır.",
-      "tips_en": "Best light for photography is near sunset."
+      "tips_en": "Best light for photography is near sunset.",
+      "name_en": "Mong Kok"
     },
     {
       "name": "Mott 32",
@@ -2644,7 +2753,8 @@
       "description": "Lüks modern Çin restoranı, pekin ördeği ve dim sum. Speakeasy atmosfer, fine-dining ve tasarım.",
       "tips": "Şefin spesiyal tabağını sormaktan çekinmeyin.",
       "tips_en": "Don't hesitate to ask for the chef's special.",
-      "description_en": "Luxury modern Chinese restaurant with Peking duck and dim sum. Speakeasy atmosphere, fine-dining, and design."
+      "description_en": "Luxury modern Chinese restaurant with Peking duck and dim sum. Speakeasy atmosphere, fine-dining, and design.",
+      "name_en": "Mott 32"
     },
     {
       "id": "gen_ChIJb0aJsrcBBDQR3H89p2_4sD8",
@@ -2668,7 +2778,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Nakite hazırlıklı olun, bazı yerel yerler kart kabul etmeyebilir.",
-      "tips_en": "Be prepared with cash, some local places might not accept cards."
+      "tips_en": "Be prepared with cash, some local places might not accept cards.",
+      "name_en": "Mu"
     },
     {
       "name": "Nan Lian Garden",
@@ -2680,8 +2791,8 @@
         "huzur"
       ],
       "distanceFromCenter": 5.0,
-      "lat": 22.339,
-      "lng": 114.205,
+      "lat": 22339.0,
+      "lng": 114205.0,
       "price": "free",
       "rating": 4.7,
       "description": "Tang Hanedanlığı tarzı Çin bahçesi, altın köşk ve bonsai. Diamond Hill'de huzur, ücretsiz giriş ve zen.",
@@ -2690,7 +2801,8 @@
       "bestTime": "Sabah",
       "bestTime_en": "Morning",
       "tips": "Yürüyüş ayakkabısı giymeniz önerilir.",
-      "tips_en": "Walking shoes are recommended."
+      "tips_en": "Walking shoes are recommended.",
+      "name_en": "Nan Lian Garden"
     },
     {
       "name": "Ngong Ping 360",
@@ -2733,7 +2845,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Google Maps yorumlarına göz atarak ne yiyeceğinize karar verin.",
-      "tips_en": "Decide what to eat by checking Google Maps reviews."
+      "tips_en": "Decide what to eat by checking Google Maps reviews.",
+      "name_en": "Nook Coffee"
     },
     {
       "id": "gen_ChIJdegvwk0BBDQRDNpODnhKbrk",
@@ -2757,7 +2870,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Yerel halkın favori noktalarından biri.",
-      "tips_en": "One of the favorite spots of the locals."
+      "tips_en": "One of the favorite spots of the locals.",
+      "name_en": "ORCHARD"
     },
     {
       "id": "gen_ChIJq6d_WSsBBDQRUjQ7sSLYXDs",
@@ -2781,7 +2895,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Nakite hazırlıklı olun, bazı yerel yerler kart kabul etmeyebilir.",
-      "tips_en": "Be prepared with cash, some local places might not accept cards."
+      "tips_en": "Be prepared with cash, some local places might not accept cards.",
+      "name_en": "ORKA Restaurant & Bar"
     },
     {
       "name": "Ocean Park",
@@ -2803,7 +2918,8 @@
       "bestTime": "Tüm gün",
       "bestTime_en": "Full day",
       "tips": "Rehbere soru sormaktan çekinmeyin, çok ilginç hikayeler biliyorlar.",
-      "tips_en": "Don't hesitate to ask the guide questions, they know interesting stories."
+      "tips_en": "Don't hesitate to ask the guide questions, they know interesting stories.",
+      "name_en": "Ocean Park"
     },
     {
       "name": "Oddies Foodies",
@@ -2821,7 +2937,8 @@
       "description": "Modern Hong Kong sokak yemekleri ve fusion mutfağı. Eğlenceli konsept, instagramlık tabaklar.",
       "tips": "Fotoğraf makinenizin şarjının dolu olduğundan emin olun.",
       "tips_en": "Make sure your camera battery is full.",
-      "description_en": "Modern Hong Kong street food and fusion cuisine. Fun concept, instagrammable plates."
+      "description_en": "Modern Hong Kong street food and fusion cuisine. Fun concept, instagrammable plates.",
+      "name_en": "Oddies Foodies"
     },
     {
       "id": "gen_ChIJUUrZxKcBBDQRCpMIgU49-vU",
@@ -2845,7 +2962,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Nakite hazırlıklı olun, bazı yerel yerler kart kabul etmeyebilir.",
-      "tips_en": "Be prepared with cash, some local places might not accept cards."
+      "tips_en": "Be prepared with cash, some local places might not accept cards.",
+      "name_en": "Omnia Restaurant Hong Kong"
     },
     {
       "id": "gen_ChIJj-rmUF8BBDQRg5_QaEI8124",
@@ -2869,7 +2987,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Akşam yemeği için rezervasyon yaptırmak şart.",
-      "tips_en": "Reservation is a must for dinner."
+      "tips_en": "Reservation is a must for dinner.",
+      "name_en": "Once You Go Craft"
     },
     {
       "id": "gen_ChIJgdgGLFkBBDQR6nIiA-Et744",
@@ -2893,7 +3012,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Hafta içi ziyaret etmek daha sakin bir deneyim sunar.",
-      "tips_en": "Visiting on weekdays offers a calmer experience."
+      "tips_en": "Visiting on weekdays offers a calmer experience.",
+      "name_en": "Out Of The Brew"
     },
     {
       "name": "Ozone",
@@ -2911,7 +3031,8 @@
       "description": "Dünyanın en yüksek barı, Ritz-Carlton 118. kat. Victoria Harbour manzarası, kokteyller ve lüks.",
       "tips": "Çevredeki küçük hediyelik eşya dükkanlarına da uğrayın.",
       "tips_en": "Stop by the small souvenir shops around.",
-      "description_en": "World's highest bar, Ritz-Carlton 118th floor. Victoria Harbour views, cocktails, and luxury."
+      "description_en": "World's highest bar, Ritz-Carlton 118th floor. Victoria Harbour views, cocktails, and luxury.",
+      "name_en": "Ozone"
     },
     {
       "name": "Ozone Bar",
@@ -2933,7 +3054,8 @@
       "bestTime": "Gün batımı",
       "bestTime_en": "Sunset",
       "tips": "Çevredeki küçük hediyelik eşya dükkanlarına da uğrayın.",
-      "tips_en": "Stop by the small souvenir shops around."
+      "tips_en": "Stop by the small souvenir shops around.",
+      "name_en": "Ozone Bar"
     },
     {
       "name": "PMQ",
@@ -2955,7 +3077,8 @@
       "bestTime": "Öğleden sonra",
       "bestTime_en": "Afternoon",
       "tips": "Hafta içi sabah saatleri en sakin zamanıdır.",
-      "tips_en": "Weekday mornings are the quietest times."
+      "tips_en": "Weekday mornings are the quietest times.",
+      "name_en": "PMQ"
     },
     {
       "id": "gen_ChIJT0xt_aUBBDQRZCKue5PBbMw",
@@ -2979,7 +3102,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Akşam yemeği için rezervasyon yaptırmak şart.",
-      "tips_en": "Reservation is a must for dinner."
+      "tips_en": "Reservation is a must for dinner.",
+      "name_en": "Pakeeza Food Restaurant"
     },
     {
       "id": "gen_ChIJEyOMYwABBDQRbM6mfk3gq_o",
@@ -3003,7 +3127,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Grup indirimi olup olmadığını sorun.",
-      "tips_en": "Ask if there is a group discount."
+      "tips_en": "Ask if there is a group discount.",
+      "name_en": "Patisserie Jane"
     },
     {
       "id": "gen_ChIJYbZCyJ4BBDQRIHrp1evDmDw",
@@ -3027,7 +3152,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Yerel şarapları denemenizi öneririz.",
-      "tips_en": "We recommend trying local wines."
+      "tips_en": "We recommend trying local wines.",
+      "name_en": "Paul's Kitchen TST"
     },
     {
       "id": "gen_ChIJYxUcSV0ABDQRBJHH0jdyPSM",
@@ -3051,7 +3177,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Yerel şarapları denemenizi öneririz.",
-      "tips_en": "We recommend trying local wines."
+      "tips_en": "We recommend trying local wines.",
+      "name_en": "Pici"
     },
     {
       "id": "gen_ChIJ___TmnsABDQRPuC88CvvwfU",
@@ -3075,7 +3202,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Akşam yemeği için rezervasyon yaptırmak şart.",
-      "tips_en": "Reservation is a must for dinner."
+      "tips_en": "Reservation is a must for dinner.",
+      "name_en": "Pici Central"
     },
     {
       "id": "gen_ChIJH5AVEi8BBDQRRc7ueZZyeuI",
@@ -3099,7 +3227,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Şefin spesiyal tabağını sormaktan çekinmeyin.",
-      "tips_en": "Don't hesitate to ask for the chef's special."
+      "tips_en": "Don't hesitate to ask for the chef's special.",
+      "name_en": "Plaisance by Mauro Colagreco"
     },
     {
       "name": "Pottinger Street (Stone Slabs)",
@@ -3116,12 +3245,13 @@
       "price": "free",
       "rating": 4.4,
       "description": "Geçmişin görkemini günümüze taşıyan Pottinger Street (Stone Slabs), Central'nın en önemli tarihi yapılarından biri. Restorasyonlarla korunan özgün dokusu, dönemin yaşam tarzını yansıtan eserleri ve muhteşem mimarisiyle keşfedilmeyi bekliyor.",
-      "description_en": "Geçmişin görkemini günümüze taşıyan Pottinger Street (Stone Slabs), Central'nın en önemli tarihi yapılarından biri. Restorasyonlarla korunan özgün dokusu, dönemin yaşam tarzını yansıtan eserleri ve muhteşem mimarisiyle keşfedilmeyi bekliyor.",
+      "description_en": "Geçmişin görkemini günümüze taşıyan Pottinger Street (Stone Slabs), Central'nın en önemli historic yapılarından biri. Restorasyonlarla korunan özgün dokusu, dönemin yaşam tarzını yansıtan eserleri and muhteşem mimarisiyle keşfedilmeyi bekliyor.",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/hongkong/pottinger_street_stone_slabs.jpg",
       "bestTime": "Gündüz",
       "bestTime_en": "Daytime",
       "tips": "Müze kartınız varsa girişte sıra beklemezsiniz.",
-      "tips_en": "You skip the line if you have a museum pass."
+      "tips_en": "You skip the line if you have a museum pass.",
+      "name_en": "Pottinger Street (Stone Slabs)"
     },
     {
       "id": "gen_ChIJH240eocBBDQR-Wmrd1WEriQ",
@@ -3145,7 +3275,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Şefin spesiyal tabağını sormaktan çekinmeyin.",
-      "tips_en": "Don't hesitate to ask for the chef's special."
+      "tips_en": "Don't hesitate to ask for the chef's special.",
+      "name_en": "Prince and The Peacock"
     },
     {
       "name": "Quinary",
@@ -3163,7 +3294,8 @@
       "description": "Moleküler kokteyl barı, bilimsel içki yapımı. Five senses konsepti, yenilikçi lezzetler.",
       "tips": "Yerel halkın favori noktalarından biri.",
       "tips_en": "One of the favorite spots of the locals.",
-      "description_en": "Molecular cocktail bar with scientific drink-making. Five senses concept, innovative flavors."
+      "description_en": "Molecular cocktail bar with scientific drink-making. Five senses concept, innovative flavors.",
+      "name_en": "Quinary"
     },
     {
       "name": "Repulse Bay (The Pulse)",
@@ -3185,7 +3317,8 @@
       "bestTime": "Gündüz",
       "bestTime_en": "Daytime",
       "tips": "El yapımı hediyelikler fabrikasyon olanlardan daha değerlidir.",
-      "tips_en": "Handmade souvenirs are more valuable than mass-produced ones."
+      "tips_en": "Handmade souvenirs are more valuable than mass-produced ones.",
+      "name_en": "Repulse Bay (The Pulse)"
     },
     {
       "id": "gen_ChIJYflTD-oBBDQRM6IR244lvXU",
@@ -3209,7 +3342,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Akşam yemeği için rezervasyon yaptırmak şart.",
-      "tips_en": "Reservation is a must for dinner."
+      "tips_en": "Reservation is a must for dinner.",
+      "name_en": "Roganic Hong Kong"
     },
     {
       "id": "gen_ChIJwzSnvkEBBDQRFrdQ-hl73tE",
@@ -3233,7 +3367,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Çevredeki küçük hediyelik eşya dükkanlarına da uğrayın.",
-      "tips_en": "Stop by the small souvenir shops around."
+      "tips_en": "Stop by the small souvenir shops around.",
+      "name_en": "SILÈNE"
     },
     {
       "name": "Sai Kung",
@@ -3251,7 +3386,8 @@
       "description": "Hong Kong'un arka bahçesi, tekne turları ve deniz ürünleri. Adalar, yürüyüş ve hafta sonu kaçışı.",
       "tips": "Rehbere soru sormaktan çekinmeyin, çok ilginç hikayeler biliyorlar.",
       "tips_en": "Don't hesitate to ask the guide questions, they know interesting stories.",
-      "description_en": "Hong Kong's backyard with boat tours and seafood. Islands, hiking, and weekend escape."
+      "description_en": "Hong Kong's backyard with boat tours and seafood. Islands, hiking, and weekend escape.",
+      "name_en": "Sai Kung"
     },
     {
       "name": "Sai Kung Seafood Street",
@@ -3273,7 +3409,8 @@
       "bestTime": "Hafta sonu öğle",
       "bestTime_en": "Weekend lunch",
       "tips": "Kıyafetinizin aktiviteye uygun olduğundan emin olun.",
-      "tips_en": "Ensure your outfit is suitable for the activity."
+      "tips_en": "Ensure your outfit is suitable for the activity.",
+      "name_en": "Sai Kung Seafood Street"
     },
     {
       "id": "gen_ChIJTxMsvDYBBDQRik9WCZl9L8M",
@@ -3297,7 +3434,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Google Maps yorumlarına göz atarak ne yiyeceğinize karar verin.",
-      "tips_en": "Decide what to eat by checking Google Maps reviews."
+      "tips_en": "Decide what to eat by checking Google Maps reviews.",
+      "name_en": "Sam Fancy"
     },
     {
       "name": "Sham Shui Po",
@@ -3344,7 +3482,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Hafta içi ziyaret etmek daha sakin bir deneyim sunar.",
-      "tips_en": "Visiting on weekdays offers a calmer experience."
+      "tips_en": "Visiting on weekdays offers a calmer experience.",
+      "name_en": "Sheer Coffee"
     },
     {
       "name": "Sik Sik Yuen Wong Tai Sin",
@@ -3366,7 +3505,8 @@
       "bestTime": "Sabah",
       "bestTime_en": "Morning",
       "tips": "Yapı içerisindeki akustik harika, sessizliği dinleyin.",
-      "tips_en": "The acoustics inside satisfy; listen to the silence."
+      "tips_en": "The acoustics inside satisfy; listen to the silence.",
+      "name_en": "Sik Sik Yuen Wong Tai Sin"
     },
     {
       "name": "Sky100",
@@ -3384,7 +3524,8 @@
       "description": "International Commerce Centre'ın 100. katında gözlem güvertesi. Victoria Harbour 360 derece panorama.",
       "tips": "Kıyafetinizin aktiviteye uygun olduğundan emin olun.",
       "tips_en": "Ensure your outfit is suitable for the activity.",
-      "description_en": "Observation deck on 100th floor of International Commerce Centre. Victoria Harbour 360-degree panorama."
+      "description_en": "Observation deck on 100th floor of International Commerce Centre. Victoria Harbour 360-degree panorama.",
+      "name_en": "Sky100"
     },
     {
       "name": "Sky100 Observation Deck",
@@ -3406,7 +3547,8 @@
       "bestTime": "Gün batımı",
       "bestTime_en": "Sunset",
       "tips": "Teleskop/dürbün varsa yanınıza alın.",
-      "tips_en": "Bring a telescope/binoculars if you have them."
+      "tips_en": "Bring a telescope/binoculars if you have them.",
+      "name_en": "Sky100 Observation Deck"
     },
     {
       "name": "SoHo Escalatros",
@@ -3424,7 +3566,8 @@
       "description": "Dünyanın en uzun açık hava yürüyen merdivenleri, 800 metre. Central-Mid Levels bağlantısı, kafeler ve barlar.",
       "tips": "Kıyafetinizin aktiviteye uygun olduğundan emin olun.",
       "tips_en": "Ensure your outfit is suitable for the activity.",
-      "description_en": "World's longest outdoor escalator system, 800 meters. Central-Mid Levels connection, cafes, and bars."
+      "description_en": "World's longest outdoor escalator system, 800 meters. Central-Mid Levels connection, cafes, and bars.",
+      "name_en": "SoHo Escalatros"
     },
     {
       "id": "gen_ChIJl22tagABBDQRybg9jRI-y0k",
@@ -3448,7 +3591,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Yerel şarapları denemenizi öneririz.",
-      "tips_en": "We recommend trying local wines."
+      "tips_en": "We recommend trying local wines.",
+      "name_en": "Spice Bazaar - Modern Indian Barbeque Hong Kong"
     },
     {
       "id": "gen_ChIJ79BEa40BBDQRfeWiGKpmxEc",
@@ -3472,7 +3616,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Akşam yemeği için rezervasyon yaptırmak şart.",
-      "tips_en": "Reservation is a must for dinner."
+      "tips_en": "Reservation is a must for dinner.",
+      "name_en": "Spice Restaurant & Bar"
     },
     {
       "name": "Stanley Market",
@@ -3494,7 +3639,8 @@
       "bestTime": "Öğle",
       "bestTime_en": "Lunch",
       "tips": "Kıyafetinizin aktiviteye uygun olduğundan emin olun.",
-      "tips_en": "Ensure your outfit is suitable for the activity."
+      "tips_en": "Ensure your outfit is suitable for the activity.",
+      "name_en": "Stanley Market"
     },
     {
       "name": "Star Ferry",
@@ -3541,7 +3687,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Hafta içi ziyaret etmek daha sakin bir deneyim sunar.",
-      "tips_en": "Visiting on weekdays offers a calmer experience."
+      "tips_en": "Visiting on weekdays offers a calmer experience.",
+      "name_en": "Sugar Brothers hk"
     },
     {
       "id": "gen_ChIJO3QqtpABBDQR_SUs5fL2I4U",
@@ -3565,7 +3712,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Google Maps yorumlarına göz atarak ne yiyeceğinize karar verin.",
-      "tips_en": "Decide what to eat by checking Google Maps reviews."
+      "tips_en": "Decide what to eat by checking Google Maps reviews.",
+      "name_en": "Sweet Secrets - keto, gluten-free, vegan, sugar-free and bespoke cakes."
     },
     {
       "name": "Symphony of Lights",
@@ -3587,7 +3735,8 @@
       "bestTime": "20:00",
       "bestTime_en": "8pm",
       "tips": "Kıyafetinizin aktiviteye uygun olduğundan emin olun.",
-      "tips_en": "Ensure your outfit is suitable for the activity."
+      "tips_en": "Ensure your outfit is suitable for the activity.",
+      "name_en": "Symphony of Lights"
     },
     {
       "id": "gen_ChIJlRpgqnsABDQRnPOTTc7WkCQ",
@@ -3611,7 +3760,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Nakite hazırlıklı olun, bazı yerel yerler kart kabul etmeyebilir.",
-      "tips_en": "Be prepared with cash, some local places might not accept cards."
+      "tips_en": "Be prepared with cash, some local places might not accept cards.",
+      "name_en": "TATE Dining Room"
     },
     {
       "id": "gen_ChIJB-qdUXsABDQRlotSKcO6_3Q",
@@ -3635,7 +3785,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Öğle yemeği menüleri genellikle akşamdan daha uygundur.",
-      "tips_en": "Lunch menus are usually cheaper than dinner."
+      "tips_en": "Lunch menus are usually cheaper than dinner.",
+      "name_en": "Ta Vie"
     },
     {
       "name": "Tai Cheong Bakery",
@@ -3653,7 +3804,8 @@
       "description": "Şehrin en ünlü egg tart'ı, 1954'ten beri. Chris Patten favorisi, çıtır kabuk ve pürüzsüz dolgu.",
       "tips": "Yerel halkın favori noktalarından biri.",
       "tips_en": "One of the favorite spots of the locals.",
-      "description_en": "City's most famous egg tart since 1954. Chris Patten's favorite, crispy crust, and smooth filling."
+      "description_en": "City's most famous egg tart since 1954. Chris Patten's favorite, crispy crust, and smooth filling.",
+      "name_en": "Tai Cheong Bakery"
     },
     {
       "name": "Tai Kwun",
@@ -3665,7 +3817,7 @@
         "yemek"
       ],
       "distanceFromCenter": 0.4,
-      "lat": 22.282,
+      "lat": 22282.0,
       "lng": 114.1544,
       "price": "free",
       "rating": 4.6,
@@ -3675,7 +3827,8 @@
       "bestTime": "Öğleden sonra",
       "bestTime_en": "Afternoon",
       "tips": "Sesli rehber (audio guide) kiralamak deneyimi ikiye katlar.",
-      "tips_en": "Renting an audio guide doubles the experience."
+      "tips_en": "Renting an audio guide doubles the experience.",
+      "name_en": "Tai Kwun"
     },
     {
       "name": "Tai O Fishing Village",
@@ -3697,7 +3850,8 @@
       "bestTime": "Sabah",
       "bestTime_en": "Morning",
       "tips": "Grup indirimi olup olmadığını sorun.",
-      "tips_en": "Ask if there is a group discount."
+      "tips_en": "Ask if there is a group discount.",
+      "name_en": "Tai O Fishing Village"
     },
     {
       "id": "gen_ChIJGaUczn0ABDQRBws0zMXas6Q",
@@ -3721,7 +3875,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Google Maps yorumlarına göz atarak ne yiyeceğinize karar verin.",
-      "tips_en": "Decide what to eat by checking Google Maps reviews."
+      "tips_en": "Decide what to eat by checking Google Maps reviews.",
+      "name_en": "Tartes & Pop"
     },
     {
       "id": "gen_ChIJCQRTIMQBBDQRlbmNEGvZ2lc",
@@ -3745,7 +3900,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Google Maps yorumlarına göz atarak ne yiyeceğinize karar verin.",
-      "tips_en": "Decide what to eat by checking Google Maps reviews."
+      "tips_en": "Decide what to eat by checking Google Maps reviews.",
+      "name_en": "Tell Camellia"
     },
     {
       "name": "Temple Street Night Market",
@@ -3767,7 +3923,8 @@
       "bestTime": "19:00 sonrası",
       "bestTime_en": "After 7pm",
       "tips": "Fotoğraf makinenizin şarjının dolu olduğundan emin olun.",
-      "tips_en": "Make sure your camera battery is full."
+      "tips_en": "Make sure your camera battery is full.",
+      "name_en": "Temple Street Night Market"
     },
     {
       "name": "Ten Thousand Buddhas Monastery",
@@ -3789,7 +3946,8 @@
       "bestTime": "Sabah (serin saat)",
       "bestTime_en": "Morning (cool hours)",
       "tips": "Fotoğraf çekimi için en iyi ışık gün batımına yakındır.",
-      "tips_en": "Best light for photography is near sunset."
+      "tips_en": "Best light for photography is near sunset.",
+      "name_en": "Ten Thousand Buddhas Monastery"
     },
     {
       "id": "gen_ChIJjYYtUVIBBDQR5DWJ-IDxEwI",
@@ -3813,7 +3971,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Google Maps yorumlarına göz atarak ne yiyeceğinize karar verin.",
-      "tips_en": "Decide what to eat by checking Google Maps reviews."
+      "tips_en": "Decide what to eat by checking Google Maps reviews.",
+      "name_en": "The Diplomat Hong Kong"
     },
     {
       "id": "gen_ChIJjdMFOvgBBDQRCaaWdcVXijo",
@@ -3837,7 +3996,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Şefin spesiyal tabağını sormaktan çekinmeyin.",
-      "tips_en": "Don't hesitate to ask for the chef's special."
+      "tips_en": "Don't hesitate to ask for the chef's special.",
+      "name_en": "The Mansion, Wyndham St"
     },
     {
       "id": "gen_ChIJ7_X0w2T_AzQR9LvhwhEdtdo",
@@ -3861,7 +4021,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Yerel halkın favori noktalarından biri.",
-      "tips_en": "One of the favorite spots of the locals."
+      "tips_en": "One of the favorite spots of the locals.",
+      "name_en": "The Missing Piece Cafe"
     },
     {
       "id": "gen_ChIJEdMYic0BBDQRC25jLZ-S3hs",
@@ -3885,7 +4046,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Yerel halkın favori noktalarından biri.",
-      "tips_en": "One of the favorite spots of the locals."
+      "tips_en": "One of the favorite spots of the locals.",
+      "name_en": "The Mixing Room"
     },
     {
       "name": "The Old Man",
@@ -3903,7 +4065,8 @@
       "description": "Asya'nın en iyi barları listesinde, Hemingway temalı. Yaratıcı kokteyller, Central'da gizli mücevher.",
       "tips": "Çevredeki küçük hediyelik eşya dükkanlarına da uğrayın.",
       "tips_en": "Stop by the small souvenir shops around.",
-      "description_en": "On Asia's best bars list, Hemingway-themed. Creative cocktails, hidden gem in Central."
+      "description_en": "On Asia's best bars list, Hemingway-themed. Creative cocktails, hidden gem in Central.",
+      "name_en": "The Old Man"
     },
     {
       "id": "gen_ChIJ5YflD3sABDQRslxfEP_Kd_Q",
@@ -3927,7 +4090,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Yerel halkın favori noktalarından biri.",
-      "tips_en": "One of the favorite spots of the locals."
+      "tips_en": "One of the favorite spots of the locals.",
+      "name_en": "The Pontiac"
     },
     {
       "id": "gen_ChIJQdmKoKMBBDQRWLj35FF1heg",
@@ -3951,7 +4115,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Hafta içi ziyaret etmek daha sakin bir deneyim sunar.",
-      "tips_en": "Visiting on weekdays offers a calmer experience."
+      "tips_en": "Visiting on weekdays offers a calmer experience.",
+      "name_en": "The Savory Project"
     },
     {
       "id": "gen_ChIJMVVKbBMBBDQR2N-iQqUqPRc",
@@ -3975,7 +4140,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Çevredeki küçük hediyelik eşya dükkanlarına da uğrayın.",
-      "tips_en": "Stop by the small souvenir shops around."
+      "tips_en": "Stop by the small souvenir shops around.",
+      "name_en": "The Wise King - SOHO, Hong Kong."
     },
     {
       "id": "gen_ChIJvZPIy28BBDQRU5M_tgkj_3Q",
@@ -3999,7 +4165,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Akşam yemeği için rezervasyon yaptırmak şart.",
-      "tips_en": "Reservation is a must for dinner."
+      "tips_en": "Reservation is a must for dinner.",
+      "name_en": "ThinkWine"
     },
     {
       "id": "gen_ChIJ40xsZcYBBDQRjNExjq03r6U",
@@ -4023,7 +4190,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Çevredeki küçük hediyelik eşya dükkanlarına da uğrayın.",
-      "tips_en": "Stop by the small souvenir shops around."
+      "tips_en": "Stop by the small souvenir shops around.",
+      "name_en": "Thirsty Shaker Cocktail Bar"
     },
     {
       "name": "Tian Tan Buddha",
@@ -4041,7 +4209,8 @@
       "description": "Lantau Adası'ndaki dev oturan Buda heykeli, 34 metre yükseklikte bronz. 268 basamak, Po Lin Manastırı ve spiritüel atmosfer.",
       "tips": "Fotoğraf makinenizin şarjının dolu olduğundan emin olun.",
       "tips_en": "Make sure your camera battery is full.",
-      "description_en": "Giant seated Buddha statue on Lantau Island, 34 meters bronze. 268 steps, Po Lin Monastery, and spiritual atmosphere."
+      "description_en": "Giant seated Buddha statue on Lantau Island, 34 meters bronze. 268 steps, Po Lin Monastery, and spiritual atmosphere.",
+      "name_en": "Tian Tan Buddha"
     },
     {
       "name": "Tim Ho Wan",
@@ -4059,7 +4228,8 @@
       "description": "Michelin yıldızlı en ucuz restoran, dim sum efsanesi. Baked BBQ pork buns, hong kong tarzı.",
       "tips": "Nakite hazırlıklı olun, bazı yerel yerler kart kabul etmeyebilir.",
       "tips_en": "Be prepared with cash, some local places might not accept cards.",
-      "description_en": "Cheapest Michelin-starred restaurant, dim sum legend. Baked BBQ pork buns, Hong Kong style."
+      "description_en": "Cheapest Michelin-starred restaurant, dim sum legend. Baked BBQ pork buns, Hong Kong style.",
+      "name_en": "Tim Ho Wan"
     },
     {
       "name": "Tsz Shan Monastery",
@@ -4102,7 +4272,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Şefin spesiyal tabağını sormaktan çekinmeyin.",
-      "tips_en": "Don't hesitate to ask for the chef's special."
+      "tips_en": "Don't hesitate to ask for the chef's special.",
+      "name_en": "Twist & Buckle Churros Specialists Tsim Sha Tsui"
     },
     {
       "id": "gen_ChIJm2DZWCr_AzQRw3Ly0bPF7bQ",
@@ -4126,7 +4297,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Çevredeki küçük hediyelik eşya dükkanlarına da uğrayın.",
-      "tips_en": "Stop by the small souvenir shops around."
+      "tips_en": "Stop by the small souvenir shops around.",
+      "name_en": "Two-and-a-Half Street"
     },
     {
       "id": "gen_ChIJEdtpr3ABBDQRAN1ERPidxMo",
@@ -4150,7 +4322,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Yerel halkın favori noktalarından biri.",
-      "tips_en": "One of the favorite spots of the locals."
+      "tips_en": "One of the favorite spots of the locals.",
+      "name_en": "Uncle Ben Coffee"
     },
     {
       "id": "gen_ChIJNVpBNqEBBDQR4NbOLJMd948",
@@ -4174,7 +4347,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Yerel şarapları denemenizi öneririz.",
-      "tips_en": "We recommend trying local wines."
+      "tips_en": "We recommend trying local wines.",
+      "name_en": "Underpass Restaurant & Bar"
     },
     {
       "id": "gen_ChIJtyL2liIBBDQRgDPU3kxFLHo",
@@ -4198,7 +4372,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Hafta içi ziyaret etmek daha sakin bir deneyim sunar.",
-      "tips_en": "Visiting on weekdays offers a calmer experience."
+      "tips_en": "Visiting on weekdays offers a calmer experience.",
+      "name_en": "Urban Coffee Roaster SOHO"
     },
     {
       "name": "Victoria Peak",
@@ -4220,7 +4395,8 @@
       "bestTime": "Gün batımı / Gece",
       "bestTime_en": "Sunset / Night",
       "tips": "Rüzgarlı olabilir, yanınıza ince bir ceket alın.",
-      "tips_en": "It can be windy, bring a light jacket."
+      "tips_en": "It can be windy, bring a light jacket.",
+      "name_en": "Victoria Peak"
     },
     {
       "id": "gen_ChIJZegdeEYBBDQRd2SUzHDNhIA",
@@ -4244,7 +4420,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Şefin spesiyal tabağını sormaktan çekinmeyin.",
-      "tips_en": "Don't hesitate to ask for the chef's special."
+      "tips_en": "Don't hesitate to ask for the chef's special.",
+      "name_en": "WAKARAN"
     },
     {
       "id": "gen_ChIJ9TB5jAcBBDQREQJ8mH5EaVw",
@@ -4268,7 +4445,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Öğle yemeği menüleri genellikle akşamdan daha uygundur.",
-      "tips_en": "Lunch menus are usually cheaper than dinner."
+      "tips_en": "Lunch menus are usually cheaper than dinner.",
+      "name_en": "WING Restaurant"
     },
     {
       "name": "Wan Chai",
@@ -4290,7 +4468,8 @@
       "bestTime": "Akşam",
       "bestTime_en": "Evening",
       "tips": "Fotoğraf çekimi için en iyi ışık gün batımına yakındır.",
-      "tips_en": "Best light for photography is near sunset."
+      "tips_en": "Best light for photography is near sunset.",
+      "name_en": "Wan Chai"
     },
     {
       "name": "West Kowloon Cultural District (M+)",
@@ -4312,7 +4491,8 @@
       "bestTime": "Öğleden sonra",
       "bestTime_en": "Afternoon",
       "tips": "Fotoğraf makinenizin şarjının dolu olduğundan emin olun.",
-      "tips_en": "Make sure your camera battery is full."
+      "tips_en": "Make sure your camera battery is full.",
+      "name_en": "West Kowloon Cultural District (M+)"
     },
     {
       "id": "gen_ChIJ0WyLxIsBBDQR51TyoN7Tw0U",
@@ -4336,7 +4516,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Hafta içi ziyaret etmek daha sakin bir deneyim sunar.",
-      "tips_en": "Visiting on weekdays offers a calmer experience."
+      "tips_en": "Visiting on weekdays offers a calmer experience.",
+      "name_en": "Whisky & Words"
     },
     {
       "name": "Wong Tai Sin Temple",
@@ -4358,7 +4539,8 @@
       "bestTime": "Sabah",
       "bestTime_en": "Morning",
       "tips": "Müze kartınız varsa girişte sıra beklemezsiniz.",
-      "tips_en": "You skip the line if you have a museum pass."
+      "tips_en": "You skip the line if you have a museum pass.",
+      "name_en": "Wong Tai Sin Temple"
     },
     {
       "id": "gen_ChIJk5e96RoBBDQRnAB1rvimPvI",
@@ -4382,7 +4564,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Akşam yemeği için rezervasyon yaptırmak şart.",
-      "tips_en": "Reservation is a must for dinner."
+      "tips_en": "Reservation is a must for dinner.",
+      "name_en": "YAMA"
     },
     {
       "name": "Yardbird",
@@ -4400,7 +4583,8 @@
       "description": "Japon yakitori barı, en iyi tavuk şişleri ve sake. SoHo'da, rahat atmosfer ve gece.",
       "tips": "Öğle yemeği menüleri genellikle akşamdan daha uygundur.",
       "tips_en": "Lunch menus are usually cheaper than dinner.",
-      "description_en": "Japanese yakitori bar with best chicken skewers and sake. In SoHo, relaxed atmosphere, and night."
+      "description_en": "Japanese yakitori bar with best chicken skewers and sake. In SoHo, relaxed atmosphere, and night.",
+      "name_en": "Yardbird"
     },
     {
       "id": "gen_ChIJ5T-MKRIBBDQRLDTIY5VlZ40",
@@ -4424,7 +4608,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Yerel şarapları denemenizi öneririz.",
-      "tips_en": "We recommend trying local wines."
+      "tips_en": "We recommend trying local wines.",
+      "name_en": "Yardleys Taproom"
     },
     {
       "name": "Yat Lok",
@@ -4461,7 +4646,8 @@
       "description": "Transformers filminden ünlü sık apartman bloğu, Instagram noktası. Quarry Bay'de, Hong Kong yoğunluğu simgesi.",
       "tips": "Kıyafetinizin aktiviteye uygun olduğundan emin olun.",
       "tips_en": "Ensure your outfit is suitable for the activity.",
-      "description_en": "Dense apartment block famous from Transformers movie, Instagram spot. In Quarry Bay, symbol of Hong Kong density."
+      "description_en": "Dense apartment block famous from Transformers movie, Instagram spot. In Quarry Bay, symbol of Hong Kong density.",
+      "name_en": "Yik Cheong Building"
     },
     {
       "id": "gen_ChIJ21AqSmsBBDQR0B81ATQblF4",
@@ -4485,7 +4671,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Çevredeki küçük hediyelik eşya dükkanlarına da uğrayın.",
-      "tips_en": "Stop by the small souvenir shops around."
+      "tips_en": "Stop by the small souvenir shops around.",
+      "name_en": "ZZURA"
     },
     {
       "id": "gen_ChIJ-5k_iRcBBDQRt_Qq7PEXFJA",
@@ -4509,7 +4696,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Google Maps yorumlarına göz atarak ne yiyeceğinize karar verin.",
-      "tips_en": "Decide what to eat by checking Google Maps reviews."
+      "tips_en": "Decide what to eat by checking Google Maps reviews.",
+      "name_en": "Zero One Coffee & Roastery"
     },
     {
       "id": "gen_ChIJ4-KM_jABBDQRyb_0UvLx1OE",
@@ -4533,7 +4721,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Hafta içi ziyaret etmek daha sakin bir deneyim sunar.",
-      "tips_en": "Visiting on weekdays offers a calmer experience."
+      "tips_en": "Visiting on weekdays offers a calmer experience.",
+      "name_en": "Zombie Specialty Coffee"
     },
     {
       "id": "gen_ChIJUacZE8YBBDQR7cZ3cgf-1qE",
@@ -4557,7 +4746,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Sesli rehber (audio guide) kiralamak deneyimi ikiye katlar.",
-      "tips_en": "Renting an audio guide doubles the experience."
+      "tips_en": "Renting an audio guide doubles the experience.",
+      "name_en": "commaa ，coffee meets art and architecture"
     },
     {
       "id": "gen_ChIJc26K1vcBBDQRMyoahW2_eyE",
@@ -4581,7 +4771,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Google Maps yorumlarına göz atarak ne yiyeceğinize karar verin.",
-      "tips_en": "Decide what to eat by checking Google Maps reviews."
+      "tips_en": "Decide what to eat by checking Google Maps reviews.",
+      "name_en": "layback cafe & bar"
     },
     {
       "id": "gen_ChIJt4RAU6gBBDQRKQTlu2C6L-w",
@@ -4605,7 +4796,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Çevredeki küçük hediyelik eşya dükkanlarına da uğrayın.",
-      "tips_en": "Stop by the small souvenir shops around."
+      "tips_en": "Stop by the small souvenir shops around.",
+      "name_en": "life? coffee and cakes (不定時營業，開門時間參考IG notice📍"
     },
     {
       "id": "gen_ChIJTRCPFfkBBDQRrHB6BhKI8u8",
@@ -4629,7 +4821,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Öğle yemeği menüleri genellikle akşamdan daha uygundur.",
-      "tips_en": "Lunch menus are usually cheaper than dinner."
+      "tips_en": "Lunch menus are usually cheaper than dinner.",
+      "name_en": "racines"
     },
     {
       "id": "gen_ChIJWz3JtCYBBDQRvSi7_SULkm8",
@@ -4653,7 +4846,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Yerel halkın favori noktalarından biri.",
-      "tips_en": "One of the favorite spots of the locals."
+      "tips_en": "One of the favorite spots of the locals.",
+      "name_en": "ztoryhome"
     },
     {
       "id": "gen_ChIJKQNbT7wBBDQRkvOkruH0i8A",
@@ -4677,7 +4871,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Çevredeki küçük hediyelik eşya dükkanlarına da uğrayın.",
-      "tips_en": "Stop by the small souvenir shops around."
+      "tips_en": "Stop by the small souvenir shops around.",
+      "name_en": "酒未 Zau Mei Wine Bar"
     },
     {
       "name": "Peak Tram",
@@ -4707,8 +4902,8 @@
         "moda",
         "pazar"
       ],
-      "lat": 22.319,
-      "lng": 114.172,
+      "lat": 22319.0,
+      "lng": 114172.0,
       "rating": 4.4,
       "description": "Fa Yuen Street olarak da bilinen, yüzlerce spor ayakkabı mağazasının bulunduğu enerjik cadde.",
       "description_en": "An energetic street also known as Fa Yuen Street, home to hundreds of sneaker shops.",
@@ -4726,7 +4921,7 @@
         "manzara"
       ],
       "lat": 22.2545,
-      "lng": 113.908,
+      "lng": 113908.0,
       "rating": 4.7,
       "description": "Ahşap sütunlar üzerine kazınmış antik duaların bulunduğu, doğa içinde huzurlu bir yürüyüş yolu.",
       "description_en": "A peaceful walking path in nature featuring ancient prayers carved onto wooden columns.",

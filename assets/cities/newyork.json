@@ -20,7 +20,7 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/newyork/ess_a_bagel.jpg",
       "location": "831 3rd Ave, New York, NY 10022",
       "lat": 40.7595,
-      "lng": -73.968,
+      "lng": -73968.0,
       "rating": 4.6,
       "price": "medium",
       "tags": [
@@ -29,7 +29,8 @@
         "ikonik"
       ],
       "tips": "Sıra her zaman uzundur ama hızlı ilerler.",
-      "tips_en": "The line is always long but moves fast."
+      "tips_en": "The line is always long but moves fast.",
+      "name_en": "Ess-a-Bagel"
     },
     {
       "name": "Junior's",
@@ -40,7 +41,7 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/newyork/juniors.jpg",
       "location": "1515 Broadway, New York, NY 10036",
       "lat": 40.7585,
-      "lng": -73.986,
+      "lng": -73986.0,
       "rating": 4.5,
       "price": "medium",
       "tags": [
@@ -49,7 +50,8 @@
         "diner"
       ],
       "tips": "Sade (plain) cheesecake en favorisidir.",
-      "tips_en": "Plain cheesecake is the favorite."
+      "tips_en": "Plain cheesecake is the favorite.",
+      "name_en": "Junior's"
     },
     {
       "id": "gen_ChIJRWo8v4RZwokRbggnxWmoWpA",
@@ -98,7 +100,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Hafta içi ziyaret etmek daha sakin bir deneyim sunar.",
-      "tips_en": "Visiting on weekdays offers a calmer experience."
+      "tips_en": "Visiting on weekdays offers a calmer experience.",
+      "name_en": "787 Coffee Co."
     },
     {
       "name": "9/11 Memorial & Museum",
@@ -120,7 +123,8 @@
       "bestTime": "Sabah",
       "bestTime_en": "Morning",
       "tips": "Hafta içi sabah saatleri en sakin zamanıdır.",
-      "tips_en": "Weekday mornings are the quietest times."
+      "tips_en": "Weekday mornings are the quietest times.",
+      "name_en": "9/11 Memorial & Museum"
     },
     {
       "id": "gen_ChIJ5QOQdQtZwokRSy16jOl97Uc",
@@ -144,7 +148,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Öğle yemeği menüleri genellikle akşamdan daha uygundur.",
-      "tips_en": "Lunch menus are usually cheaper than dinner."
+      "tips_en": "Lunch menus are usually cheaper than dinner.",
+      "name_en": "AURA Tapas & Cocktail Bar"
     },
     {
       "id": "gen_ChIJY2VbwAVZwokRcQF0eOq-v7E",
@@ -168,7 +173,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Nakite hazırlıklı olun, bazı yerel yerler kart kabul etmeyebilir.",
-      "tips_en": "Be prepared with cash, some local places might not accept cards."
+      "tips_en": "Be prepared with cash, some local places might not accept cards.",
+      "name_en": "Al-Andalus"
     },
     {
       "id": "gen_ChIJIRWJmBVZwokRZA5hGN68TgA",
@@ -192,7 +198,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Öğle yemeği menüleri genellikle akşamdan daha uygundur.",
-      "tips_en": "Lunch menus are usually cheaper than dinner."
+      "tips_en": "Lunch menus are usually cheaper than dinner.",
+      "name_en": "Altair Restaurant NYC"
     },
     {
       "name": "American Museum of Natural History",
@@ -205,7 +212,7 @@
       ],
       "distanceFromCenter": 4.0,
       "lat": 40.7813,
-      "lng": -73.974,
+      "lng": -73974.0,
       "price": "medium",
       "rating": 4.7,
       "description": "Dünyanın en büyük doğa tarihi müzelerinden biri, dinozor fosilleri ve uzay bölümüyle. Aileler için eğitici, Gece Müzede filmi çekimi.",
@@ -214,14 +221,15 @@
       "bestTime": "Hafta içi",
       "bestTime_en": "Weekday",
       "tips": "Sesli rehber (audio guide) kiralamak deneyimi ikiye katlar.",
-      "tips_en": "Renting an audio guide doubles the experience."
+      "tips_en": "Renting an audio guide doubles the experience.",
+      "name_en": "American Museum of Natural History"
     },
     {
       "id": "gen_ChIJObMZS51ZwokR0ffmCsI0qFQ",
       "name": "Amor y Amargo",
       "category": "Bar",
       "area": "443 E 6th St",
-      "description": "Intimate bar offering an extensive list of cocktails that showcase classic Italian & craft bitters.",
+      "description": "Intimate bar sunan an extensive list of cocktails that showcase classic Italian & craft bitters.",
       "description_en": "Intimate bar offering an extensive list of cocktails that showcase classic Italian & craft bitters.",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/newyork/amor_y_amargo.jpg",
       "location": "443 E 6th St, New York, NY 10009, Amerika Birleşik Devletleri",
@@ -238,7 +246,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Çevredeki küçük hediyelik eşya dükkanlarına da uğrayın.",
-      "tips_en": "Stop by the small souvenir shops around."
+      "tips_en": "Stop by the small souvenir shops around.",
+      "name_en": "Amor y Amargo"
     },
     {
       "name": "Apollo Theater",
@@ -260,14 +269,15 @@
       "bestTime": "Çarşamba (Amateur Night)",
       "bestTime_en": "Wednesday (Amateur Night)",
       "tips": "Rehbere soru sormaktan çekinmeyin, çok ilginç hikayeler biliyorlar.",
-      "tips_en": "Don't hesitate to ask the guide questions, they know interesting stories."
+      "tips_en": "Don't hesitate to ask the guide questions, they know interesting stories.",
+      "name_en": "Apollo Theater"
     },
     {
       "id": "gen_ChIJYYa4bIRZwokRfF05m4Pogfw",
       "name": "BAR GOTO",
       "category": "Yeme-İçme",
       "area": "245 Eldridge St",
-      "description": "Kenta Goto (ex Pegu Club) offers cocktails & food with a Japanese spin at this contemporary izakaya.",
+      "description": "Kenta Goto (ex Pegu Club) sunar cocktails & food with a Japanese spin at this contemporary izakaya.",
       "description_en": "Kenta Goto (ex Pegu Club) offers cocktails & food with a Japanese spin at this contemporary izakaya.",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/newyork/bar_goto.jpg",
       "location": "245 Eldridge St, New York, NY 10002, Amerika Birleşik Devletleri",
@@ -284,7 +294,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Şefin spesiyal tabağını sormaktan çekinmeyin.",
-      "tips_en": "Don't hesitate to ask for the chef's special."
+      "tips_en": "Don't hesitate to ask for the chef's special.",
+      "name_en": "BAR GOTO"
     },
     {
       "id": "gen_ChIJafcWm6FZwokRAD6WiHiQdpE",
@@ -308,7 +319,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Yerel şarapları denemenizi öneririz.",
-      "tips_en": "We recommend trying local wines."
+      "tips_en": "We recommend trying local wines.",
+      "name_en": "BARBOUNIA"
     },
     {
       "id": "gen_ChIJdflBaZVZwokRJx2EmWYW0lA",
@@ -332,7 +344,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Nakite hazırlıklı olun, bazı yerel yerler kart kabul etmeyebilir.",
-      "tips_en": "Be prepared with cash, some local places might not accept cards."
+      "tips_en": "Be prepared with cash, some local places might not accept cards.",
+      "name_en": "BONSAII Tapas & Wine Bar"
     },
     {
       "id": "gen_ChIJkWwoQQBZwokRmJlOtDn_8zo",
@@ -356,7 +369,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Google Maps yorumlarına göz atarak ne yiyeceğinize karar verin.",
-      "tips_en": "Decide what to eat by checking Google Maps reviews."
+      "tips_en": "Decide what to eat by checking Google Maps reviews.",
+      "name_en": "Bar Florine"
     },
     {
       "id": "gen_ChIJBS2a7ehZwokR1Gj4ELBwN5Y",
@@ -380,7 +394,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Yerel şarapları denemenizi öneririz.",
-      "tips_en": "We recommend trying local wines."
+      "tips_en": "We recommend trying local wines.",
+      "name_en": "Bisou"
     },
     {
       "id": "gen_ChIJz1VKCAJZwokRc0_POSBm8X0",
@@ -404,7 +419,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Google Maps yorumlarına göz atarak ne yiyeceğinize karar verin.",
-      "tips_en": "Decide what to eat by checking Google Maps reviews."
+      "tips_en": "Decide what to eat by checking Google Maps reviews.",
+      "name_en": "Blank Street Coffee"
     },
     {
       "id": "gen_ChIJsQ9CzHgrkqUR7CzbnNwGVVM",
@@ -428,7 +444,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Google Maps yorumlarına göz atarak ne yiyeceğinize karar verin.",
-      "tips_en": "Decide what to eat by checking Google Maps reviews."
+      "tips_en": "Decide what to eat by checking Google Maps reviews.",
+      "name_en": "Blue Dove Coffee"
     },
     {
       "name": "Blue Note Jazz Club",
@@ -474,7 +491,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Hafta içi ziyaret etmek daha sakin bir deneyim sunar.",
-      "tips_en": "Visiting on weekdays offers a calmer experience."
+      "tips_en": "Visiting on weekdays offers a calmer experience.",
+      "name_en": "Bluestone Lane Battery Park Café"
     },
     {
       "id": "gen_ChIJm2NKsR5bwokRKD1F9gpDTTc",
@@ -498,7 +516,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Çevredeki küçük hediyelik eşya dükkanlarına da uğrayın.",
-      "tips_en": "Stop by the small souvenir shops around."
+      "tips_en": "Stop by the small souvenir shops around.",
+      "name_en": "Bluestone Lane Tribeca Café"
     },
     {
       "id": "gen_ChIJc1Vf7KFZwokR1YL2Rn9oxi8",
@@ -522,7 +541,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Akşam yemeği için rezervasyon yaptırmak şart.",
-      "tips_en": "Reservation is a must for dinner."
+      "tips_en": "Reservation is a must for dinner.",
+      "name_en": "Boucherie Union Square"
     },
     {
       "id": "gen_ChIJq58thpNZwokRcsvqjnNzYcc",
@@ -546,7 +566,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Şefin spesiyal tabağını sormaktan çekinmeyin.",
-      "tips_en": "Don't hesitate to ask for the chef's special."
+      "tips_en": "Don't hesitate to ask for the chef's special.",
+      "name_en": "Boucherie West Village"
     },
     {
       "id": "gen_ChIJFXZOSPhZwokRIFJbmRS6YYQ",
@@ -570,7 +591,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Nakite hazırlıklı olun, bazı yerel yerler kart kabul etmeyebilir.",
-      "tips_en": "Be prepared with cash, some local places might not accept cards."
+      "tips_en": "Be prepared with cash, some local places might not accept cards.",
+      "name_en": "Bowlpie"
     },
     {
       "id": "gen_ChIJZ3m5L6xZwokRq3Gyu3EDuuE",
@@ -594,7 +616,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Google Maps yorumlarına göz atarak ne yiyeceğinize karar verin.",
-      "tips_en": "Decide what to eat by checking Google Maps reviews."
+      "tips_en": "Decide what to eat by checking Google Maps reviews.",
+      "name_en": "Brick Wine Bar"
     },
     {
       "id": "gen_ChIJme4A6d5bwokR7QwUdTNRp5E",
@@ -618,7 +641,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Akşam yemeği için rezervasyon yaptırmak şart.",
-      "tips_en": "Reservation is a must for dinner."
+      "tips_en": "Reservation is a must for dinner.",
+      "name_en": "Brickyard Craft Kitchen & Bar"
     },
     {
       "name": "Bronx Zoo",
@@ -631,7 +655,7 @@
       ],
       "distanceFromCenter": 10.0,
       "lat": 40.8506,
-      "lng": -73.877,
+      "lng": -73877.0,
       "price": "medium",
       "rating": 4.6,
       "description": "Amerika'nın en büyük şehir hayvanat bahçesi, 265 hektar alanda binlerce hayvan. Aileler için eğitici, safari deneyimi.",
@@ -639,7 +663,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/newyork/bronx_zoo.jpg",
       "bestTime": "Çarşamba (bağış)",
       "tips": "Sabah koşusu veya yoga yapan yerlileri görebilirsiniz.",
-      "tips_en": "You can see locals jogging or doing yoga in the morning."
+      "tips_en": "You can see locals jogging or doing yoga in the morning.",
+      "name_en": "Bronx Zoo"
     },
     {
       "name": "Brooklyn Botanic Garden",
@@ -661,7 +686,8 @@
       "bestTime": "İlkbahar (Mart-Nisan)",
       "bestTime_en": "Spring (March-April)",
       "tips": "Yanınıza bir örtü alıp çimlerde piknik yapabilirsiniz.",
-      "tips_en": "Bring a blanket and have a picnic on the grass."
+      "tips_en": "Bring a blanket and have a picnic on the grass.",
+      "name_en": "Brooklyn Botanic Garden"
     },
     {
       "name": "Brooklyn Bridge",
@@ -731,7 +757,8 @@
       "bestTime": "Öğle",
       "bestTime_en": "Lunch",
       "tips": "Yanınıza bir örtü alıp çimlerde piknik yapabilirsiniz.",
-      "tips_en": "Bring a blanket and have a picnic on the grass."
+      "tips_en": "Bring a blanket and have a picnic on the grass.",
+      "name_en": "Bryant Park"
     },
     {
       "id": "gen_ChIJBT-bg5xZwokRKJJbJvvRz-w",
@@ -755,7 +782,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Hafta içi ziyaret etmek daha sakin bir deneyim sunar.",
-      "tips_en": "Visiting on weekdays offers a calmer experience."
+      "tips_en": "Visiting on weekdays offers a calmer experience.",
+      "name_en": "Burp Castle"
     },
     {
       "id": "gen_ChIJ5eg8WQBbwokRR6Z_pk3F2o4",
@@ -779,7 +807,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Çevredeki küçük hediyelik eşya dükkanlarına da uğrayın.",
-      "tips_en": "Stop by the small souvenir shops around."
+      "tips_en": "Stop by the small souvenir shops around.",
+      "name_en": "Cafe Diem NYC"
     },
     {
       "id": "gen_ChIJL5sU4-RbwokR9JEHRXDICBo",
@@ -803,7 +832,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Hafta içi ziyaret etmek daha sakin bir deneyim sunar.",
-      "tips_en": "Visiting on weekdays offers a calmer experience."
+      "tips_en": "Visiting on weekdays offers a calmer experience.",
+      "name_en": "Cafe Rumi"
     },
     {
       "id": "gen_ChIJT61W-d1ZwokRkm8o2LkSgCM",
@@ -827,7 +857,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Hafta içi ziyaret etmek daha sakin bir deneyim sunar.",
-      "tips_en": "Visiting on weekdays offers a calmer experience."
+      "tips_en": "Visiting on weekdays offers a calmer experience.",
+      "name_en": "Café Chrystie"
     },
     {
       "id": "gen_ChIJ4_QmJfBbwokRGRVlTifKl0w",
@@ -851,7 +882,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Hafta içi ziyaret etmek daha sakin bir deneyim sunar.",
-      "tips_en": "Visiting on weekdays offers a calmer experience."
+      "tips_en": "Visiting on weekdays offers a calmer experience.",
+      "name_en": "Cellar 36"
     },
     {
       "name": "Central Park",
@@ -873,7 +905,8 @@
       "bestTime": "Sabah veya ilkbahar",
       "bestTime_en": "Morning or spring",
       "tips": "Gün batımını izlemek için şehirdeki en iyi noktalardan biri.",
-      "tips_en": "One of the best spots in the city to watch the sunset."
+      "tips_en": "One of the best spots in the city to watch the sunset.",
+      "name_en": "Central Park"
     },
     {
       "id": "gen_ChIJhWNXb1tZwokRyLpRsan63bo",
@@ -897,7 +930,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Google Maps yorumlarına göz atarak ne yiyeceğinize karar verin.",
-      "tips_en": "Decide what to eat by checking Google Maps reviews."
+      "tips_en": "Decide what to eat by checking Google Maps reviews.",
+      "name_en": "Charlotte Cafe"
     },
     {
       "name": "Chelsea Market",
@@ -919,7 +953,8 @@
       "bestTime": "Öğle yemeği",
       "bestTime_en": "Lunch",
       "tips": "Grup indirimi olup olmadığını sorun.",
-      "tips_en": "Ask if there is a group discount."
+      "tips_en": "Ask if there is a group discount.",
+      "name_en": "Chelsea Market"
     },
     {
       "name": "Chinatown",
@@ -940,7 +975,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/newyork/chinatown.jpg",
       "bestTime": "Öğle",
       "tips": "Biletinizi online alarak gişe sırasından kurtulun.",
-      "tips_en": "Buy tickets online to skip the box office line."
+      "tips_en": "Buy tickets online to skip the box office line.",
+      "name_en": "Chinatown"
     },
     {
       "name": "Chinatown Ice Cream Factory",
@@ -952,8 +988,8 @@
         "asya"
       ],
       "distanceFromCenter": 2.0,
-      "lat": 40.715,
-      "lng": -73.998,
+      "lat": 40715.0,
+      "lng": -73998.0,
       "price": "medium",
       "rating": 4.5,
       "description": "Chinatown Ice Cream Factory, New York'nin gastronomi sahnesinde önemli bir yere sahip. Chinatown'daki bu mekan, geleneksel tariflere modern dokunuşlar ekleyen yaratıcı mutfağı ve seçkin içecek menüsüyle özel bir deneyim vaat ediyor.",
@@ -962,7 +998,8 @@
       "bestTime": "Akşam",
       "bestTime_en": "Evening",
       "tips": "Fotoğraf makinenizin şarjının dolu olduğundan emin olun.",
-      "tips_en": "Make sure your camera battery is full."
+      "tips_en": "Make sure your camera battery is full.",
+      "name_en": "Chinatown Ice Cream Factory"
     },
     {
       "id": "gen_ChIJ94GeJvpYwokRDDyWW8XAEHY",
@@ -986,7 +1023,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Akşam yemeği için rezervasyon yaptırmak şart.",
-      "tips_en": "Reservation is a must for dinner."
+      "tips_en": "Reservation is a must for dinner.",
+      "name_en": "Cinco de Mayo"
     },
     {
       "id": "gen_ChIJD1nl_lBawokRmefauQpPr7Q",
@@ -1010,7 +1048,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Şefin spesiyal tabağını sormaktan çekinmeyin.",
-      "tips_en": "Don't hesitate to ask for the chef's special."
+      "tips_en": "Don't hesitate to ask for the chef's special.",
+      "name_en": "Clover Club"
     },
     {
       "name": "Color Factory",
@@ -1031,7 +1070,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/newyork/color_factory.jpg",
       "bestTime": "Hafta içi",
       "tips": "Hafta içi sabah saatleri en sakin zamanıdır.",
-      "tips_en": "Weekday mornings are the quietest times."
+      "tips_en": "Weekday mornings are the quietest times.",
+      "name_en": "Color Factory"
     },
     {
       "name": "Comedy Cellar",
@@ -1052,7 +1092,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/newyork/comedy_cellar.jpg",
       "bestTime": "Gece",
       "tips": "Kıyafetinizin aktiviteye uygun olduğundan emin olun.",
-      "tips_en": "Ensure your outfit is suitable for the activity."
+      "tips_en": "Ensure your outfit is suitable for the activity.",
+      "name_en": "Comedy Cellar"
     },
     {
       "id": "gen_ChIJrxo4GABbwokRuo7wgcXbj7w",
@@ -1076,7 +1117,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Yerel halkın favori noktalarından biri.",
-      "tips_en": "One of the favorite spots of the locals."
+      "tips_en": "One of the favorite spots of the locals.",
+      "name_en": "Complete Cafe, LLC"
     },
     {
       "name": "Coney Island",
@@ -1098,7 +1140,8 @@
       "bestTime": "Yaz hafta sonu",
       "bestTime_en": "Summer weekend",
       "tips": "Rehbere soru sormaktan çekinmeyin, çok ilginç hikayeler biliyorlar.",
-      "tips_en": "Don't hesitate to ask the guide questions, they know interesting stories."
+      "tips_en": "Don't hesitate to ask the guide questions, they know interesting stories.",
+      "name_en": "Coney Island"
     },
     {
       "id": "gen_ChIJR-faCfhZwokRr2eLEWntd8w",
@@ -1122,7 +1165,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Çevredeki küçük hediyelik eşya dükkanlarına da uğrayın.",
-      "tips_en": "Stop by the small souvenir shops around."
+      "tips_en": "Stop by the small souvenir shops around.",
+      "name_en": "Copper Mug Coffee"
     },
     {
       "id": "gen_ChIJd-JJsaFZwokRcv9CCDEcP0g",
@@ -1146,7 +1190,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Yerel halkın favori noktalarından biri.",
-      "tips_en": "One of the favorite spots of the locals."
+      "tips_en": "One of the favorite spots of the locals.",
+      "name_en": "Cork Wine Bar"
     },
     {
       "id": "gen_ChIJL0-ImdhZwokRAb3mgzlbcFE",
@@ -1170,7 +1215,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Kıyafetinizin aktiviteye uygun olduğundan emin olun.",
-      "tips_en": "Ensure your outfit is suitable for the activity."
+      "tips_en": "Ensure your outfit is suitable for the activity.",
+      "name_en": "Cozymeal Cooking Classes NYC"
     },
     {
       "id": "gen_ChIJZ7NzA5xZwokRTas45YCdIW4",
@@ -1194,7 +1240,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Yerel halkın favori noktalarından biri.",
-      "tips_en": "One of the favorite spots of the locals."
+      "tips_en": "One of the favorite spots of the locals.",
+      "name_en": "Crumbly Cafe & Bakery"
     },
     {
       "id": "gen_ChIJB6qX54RZwokR6mrd0V1iOuw",
@@ -1218,7 +1265,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Çevredeki küçük hediyelik eşya dükkanlarına da uğrayın.",
-      "tips_en": "Stop by the small souvenir shops around."
+      "tips_en": "Stop by the small souvenir shops around.",
+      "name_en": "Current Coffee"
     },
     {
       "name": "DUMBO",
@@ -1240,7 +1288,8 @@
       "bestTime": "Öğleden sonra",
       "bestTime_en": "Afternoon",
       "tips": "Sabah erken saatlerde giderek turist kalabalığından kaçınabilirsiniz.",
-      "tips_en": "Go early in the morning to avoid tourist crowds."
+      "tips_en": "Go early in the morning to avoid tourist crowds.",
+      "name_en": "DUMBO"
     },
     {
       "id": "gen_ChIJOzmwIsFbwokR_2gYLvKJnyg",
@@ -1264,7 +1313,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Yerel halkın favori noktalarından biri.",
-      "tips_en": "One of the favorite spots of the locals."
+      "tips_en": "One of the favorite spots of the locals.",
+      "name_en": "Della's"
     },
     {
       "id": "gen_ChIJZzRtHIlZwokRYU5sVES5WNM",
@@ -1288,7 +1338,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Öğle yemeği menüleri genellikle akşamdan daha uygundur.",
-      "tips_en": "Lunch menus are usually cheaper than dinner."
+      "tips_en": "Lunch menus are usually cheaper than dinner.",
+      "name_en": "Despaña"
     },
     {
       "name": "Dominique Ansel Bakery",
@@ -1309,7 +1360,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/newyork/dominique_ansel_bakery.jpg",
       "bestTime": "Sabah erken",
       "tips": "Çevredeki küçük hediyelik eşya dükkanlarına da uğrayın.",
-      "tips_en": "Stop by the small souvenir shops around."
+      "tips_en": "Stop by the small souvenir shops around.",
+      "name_en": "Dominique Ansel Bakery"
     },
     {
       "name": "Domino Park",
@@ -1331,7 +1383,8 @@
       "bestTime": "Gün batımı",
       "bestTime_en": "Sunset",
       "tips": "Gün batımını izlemek için şehirdeki en iyi noktalardan biri.",
-      "tips_en": "One of the best spots in the city to watch the sunset."
+      "tips_en": "One of the best spots in the city to watch the sunset.",
+      "name_en": "Domino Park"
     },
     {
       "id": "gen_ChIJUSvTeP9fwokR2KFysbirIn4",
@@ -1355,7 +1408,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Şefin spesiyal tabağını sormaktan çekinmeyin.",
-      "tips_en": "Don't hesitate to ask for the chef's special."
+      "tips_en": "Don't hesitate to ask for the chef's special.",
+      "name_en": "Drinkology NYC"
     },
     {
       "id": "gen_ChIJyfJXNphZwokRbo-oe0DjVT4",
@@ -1379,7 +1433,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Biletinizi online alarak gişe sırasından kurtulun.",
-      "tips_en": "Buy tickets online to skip the box office line."
+      "tips_en": "Buy tickets online to skip the box office line.",
+      "name_en": "Drip Drop Café, coffee shop"
     },
     {
       "id": "gen_ChIJh_Zg5VZZwokRcAQHgIikiQ8",
@@ -1403,7 +1458,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Akşam yemeği için rezervasyon yaptırmak şart.",
-      "tips_en": "Reservation is a must for dinner."
+      "tips_en": "Reservation is a must for dinner.",
+      "name_en": "Délice Macarons"
     },
     {
       "id": "gen_ChIJvZ0A4FBZwokR3__wBQO-f_E",
@@ -1427,7 +1483,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Akşam yemeği için rezervasyon yaptırmak şart.",
-      "tips_en": "Reservation is a must for dinner."
+      "tips_en": "Reservation is a must for dinner.",
+      "name_en": "EZ Paella & Tapas"
     },
     {
       "name": "Edge NYC",
@@ -1448,7 +1505,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/newyork/edge_nyc.jpg",
       "bestTime": "Gün batımı",
       "tips": "Kıyafetinizin aktiviteye uygun olduğundan emin olun.",
-      "tips_en": "Ensure your outfit is suitable for the activity."
+      "tips_en": "Ensure your outfit is suitable for the activity.",
+      "name_en": "Edge NYC"
     },
     {
       "id": "gen_ChIJee7mMAtZwokRnwfNO093pQY",
@@ -1472,7 +1530,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Şefin spesiyal tabağını sormaktan çekinmeyin.",
-      "tips_en": "Don't hesitate to ask for the chef's special."
+      "tips_en": "Don't hesitate to ask for the chef's special.",
+      "name_en": "El Delicioso NY Food Truck"
     },
     {
       "name": "Eleven Madison Park",
@@ -1493,7 +1552,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/newyork/eleven_madison_park.jpg",
       "bestTime": "Özel Akşam",
       "tips": "Akşam yemeği için rezervasyon yaptırmak şart.",
-      "tips_en": "Reservation is a must for dinner."
+      "tips_en": "Reservation is a must for dinner.",
+      "name_en": "Eleven Madison Park"
     },
     {
       "name": "Ellis Island",
@@ -1515,7 +1575,8 @@
       "bestTime": "Sabah",
       "bestTime_en": "Morning",
       "tips": "Hafta içi sabah saatleri en sakin zamanıdır.",
-      "tips_en": "Weekday mornings are the quietest times."
+      "tips_en": "Weekday mornings are the quietest times.",
+      "name_en": "Ellis Island"
     },
     {
       "name": "Empire State Building",
@@ -1537,7 +1598,8 @@
       "bestTime": "Gün batımı",
       "bestTime_en": "Sunset",
       "tips": "Çantanızı vestiyere bırakmanız gerekebilir, hazırlıklı olun.",
-      "tips_en": "You might need to leave bags at the cloakroom, be prepared."
+      "tips_en": "You might need to leave bags at the cloakroom, be prepared.",
+      "name_en": "Empire State Building"
     },
     {
       "id": "gen_ChIJAQC8ixP2wokRA33P9pyei_U",
@@ -1561,7 +1623,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Nakite hazırlıklı olun, bazı yerel yerler kart kabul etmeyebilir.",
-      "tips_en": "Be prepared with cash, some local places might not accept cards."
+      "tips_en": "Be prepared with cash, some local places might not accept cards.",
+      "name_en": "Enoteca Harlem"
     },
     {
       "id": "gen_ChIJM0VMwFVZwokRwkNE8e6JcTY",
@@ -1585,7 +1648,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Akşam yemeği için rezervasyon yaptırmak şart.",
-      "tips_en": "Reservation is a must for dinner."
+      "tips_en": "Reservation is a must for dinner.",
+      "name_en": "Everything's Jake NYC Bar & Lounge"
     },
     {
       "name": "Fifth Avenue",
@@ -1598,7 +1662,7 @@
       ],
       "distanceFromCenter": 0.5,
       "lat": 40.7589,
-      "lng": -73.977,
+      "lng": -73977.0,
       "price": "free",
       "rating": 4.5,
       "description": "Dünyanın en ünlü alışveriş caddesi, lüks markalar ve ikonik mağazalar. Tiffany's, Saks ve Empire State Building.",
@@ -1606,7 +1670,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/newyork/fifth_avenue.jpg",
       "bestTime": "Noel zamanı",
       "tips": "Pazar günleri kapalı olabilir, kontrol edin.",
-      "tips_en": "Might be closed on Sundays, do check."
+      "tips_en": "Might be closed on Sundays, do check.",
+      "name_en": "Fifth Avenue"
     },
     {
       "name": "Flatiron Building",
@@ -1628,7 +1693,8 @@
       "bestTime": "Sabah",
       "bestTime_en": "Morning",
       "tips": "Grup indirimi olup olmadığını sorun.",
-      "tips_en": "Ask if there is a group discount."
+      "tips_en": "Ask if there is a group discount.",
+      "name_en": "Flatiron Building"
     },
     {
       "id": "gen_ChIJL6-NTmBZwokRGacx3GWq3D0",
@@ -1652,7 +1718,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Hafta içi sabah saatleri en sakin zamanıdır.",
-      "tips_en": "Weekday mornings are the quietest times."
+      "tips_en": "Weekday mornings are the quietest times.",
+      "name_en": "Frevo"
     },
     {
       "id": "gen_ChIJib3-DrVZwokRpQqAy8Xs34g",
@@ -1676,7 +1743,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Şefin spesiyal tabağını sormaktan çekinmeyin.",
-      "tips_en": "Don't hesitate to ask for the chef's special."
+      "tips_en": "Don't hesitate to ask for the chef's special.",
+      "name_en": "Fyahbun Creative"
     },
     {
       "id": "gen_ChIJhxCTWhJZwokRIAYkdUUdRz0",
@@ -1700,7 +1768,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Hafta içi ziyaret etmek daha sakin bir deneyim sunar.",
-      "tips_en": "Visiting on weekdays offers a calmer experience."
+      "tips_en": "Visiting on weekdays offers a calmer experience.",
+      "name_en": "GRIND THE NYC COFFEE SHOP & BAGEL HOUSE"
     },
     {
       "id": "gen_ChIJM72y7c_zwokR5GE8rEiyNRQ",
@@ -1724,7 +1793,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Nakite hazırlıklı olun, bazı yerel yerler kart kabul etmeyebilir.",
-      "tips_en": "Be prepared with cash, some local places might not accept cards."
+      "tips_en": "Be prepared with cash, some local places might not accept cards.",
+      "name_en": "Galicia Tapas"
     },
     {
       "id": "gen_ChIJm-xEoHxZwokRTStZFhfbrKA",
@@ -1748,7 +1818,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Hafta içi ziyaret etmek daha sakin bir deneyim sunar.",
-      "tips_en": "Visiting on weekdays offers a calmer experience."
+      "tips_en": "Visiting on weekdays offers a calmer experience.",
+      "name_en": "Gold coffee"
     },
     {
       "name": "Governors Island",
@@ -1770,7 +1841,8 @@
       "bestTime": "Hafta sonu",
       "bestTime_en": "Weekend",
       "tips": "Yanınıza bir örtü alıp çimlerde piknik yapabilirsiniz.",
-      "tips_en": "Bring a blanket and have a picnic on the grass."
+      "tips_en": "Bring a blanket and have a picnic on the grass.",
+      "name_en": "Governors Island"
     },
     {
       "name": "Grand Central Terminal",
@@ -1792,7 +1864,8 @@
       "bestTime": "Öğleden sonra",
       "bestTime_en": "Afternoon",
       "tips": "Fotoğraf makinenizin şarjının dolu olduğundan emin olun.",
-      "tips_en": "Make sure your camera battery is full."
+      "tips_en": "Make sure your camera battery is full.",
+      "name_en": "Grand Central Terminal"
     },
     {
       "id": "gen_ChIJV_YACwD3wokRv2Zt5Pm_eoc",
@@ -1816,7 +1889,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Çevredeki küçük hediyelik eşya dükkanlarına da uğrayın.",
-      "tips_en": "Stop by the small souvenir shops around."
+      "tips_en": "Stop by the small souvenir shops around.",
+      "name_en": "Green Lane Coffee"
     },
     {
       "name": "Greenwich Village",
@@ -1838,7 +1912,8 @@
       "bestTime": "Akşam",
       "bestTime_en": "Evening",
       "tips": "Müze kartınız varsa girişte sıra beklemezsiniz.",
-      "tips_en": "You skip the line if you have a museum pass."
+      "tips_en": "You skip the line if you have a museum pass.",
+      "name_en": "Greenwich Village"
     },
     {
       "name": "Guggenheim Museum",
@@ -1884,7 +1959,8 @@
       "bestTime": "Pazar (gospel brunch)",
       "bestTime_en": "Sunday (gospel brunch)",
       "tips": "Sabah erken saatlerde giderek turist kalabalığından kaçınabilirsiniz.",
-      "tips_en": "Go early in the morning to avoid tourist crowds."
+      "tips_en": "Go early in the morning to avoid tourist crowds.",
+      "name_en": "Harlem"
     },
     {
       "id": "gen_ChIJD5EbjMpZwokRZrPRJuwodns",
@@ -1908,7 +1984,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Yerel şarapları denemenizi öneririz.",
-      "tips_en": "We recommend trying local wines."
+      "tips_en": "We recommend trying local wines.",
+      "name_en": "Haswell Green's"
     },
     {
       "id": "gen_ChIJ0QUBXPNbwokRGC3ihVh2NP4",
@@ -1932,7 +2009,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Yerel halkın favori noktalarından biri.",
-      "tips_en": "One of the favorite spots of the locals."
+      "tips_en": "One of the favorite spots of the locals.",
+      "name_en": "Hide Rooftop"
     },
     {
       "name": "High Line",
@@ -1944,7 +2022,7 @@
         "yürüyüş"
       ],
       "distanceFromCenter": 2.5,
-      "lat": 40.748,
+      "lat": 40748.0,
       "lng": -74.0048,
       "price": "low",
       "rating": 4.7,
@@ -1954,7 +2032,8 @@
       "bestTime": "Gün batımı",
       "bestTime_en": "Sunset",
       "tips": "Yürüyüş ayakkabısı giymeniz önerilir.",
-      "tips_en": "Walking shoes are recommended."
+      "tips_en": "Walking shoes are recommended.",
+      "name_en": "High Line"
     },
     {
       "name": "Intrepid Sea, Air & Space Museum",
@@ -1976,7 +2055,8 @@
       "bestTime": "Sabah",
       "bestTime_en": "Morning",
       "tips": "Bazı günler giriş ücretsiz olabilir, web sitesini kontrol edin.",
-      "tips_en": "Entry might be free on some days, check the website."
+      "tips_en": "Entry might be free on some days, check the website.",
+      "name_en": "Intrepid Sea, Air & Space Museum"
     },
     {
       "id": "gen_ChIJV9twMKRZwokRkXW1n1miJeQ",
@@ -2000,7 +2080,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Şefin spesiyal tabağını sormaktan çekinmeyin.",
-      "tips_en": "Don't hesitate to ask for the chef's special."
+      "tips_en": "Don't hesitate to ask for the chef's special.",
+      "name_en": "Isabelle's Osteria"
     },
     {
       "id": "gen_ChIJg0ZHaSRZwokRHymWtw9gKJk",
@@ -2024,7 +2105,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Şefin spesiyal tabağını sormaktan çekinmeyin.",
-      "tips_en": "Don't hesitate to ask for the chef's special."
+      "tips_en": "Don't hesitate to ask for the chef's special.",
+      "name_en": "Jiang Nan NYC"
     },
     {
       "id": "gen_ChIJqz-3FVVYwokRo_z9ZJDCM3g",
@@ -2048,7 +2130,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Google Maps yorumlarına göz atarak ne yiyeceğinize karar verin.",
-      "tips_en": "Decide what to eat by checking Google Maps reviews."
+      "tips_en": "Decide what to eat by checking Google Maps reviews.",
+      "name_en": "Jimmy's Corner"
     },
     {
       "name": "Joe's Pizza",
@@ -2070,7 +2153,8 @@
       "bestTime": "Gece geç",
       "bestTime_en": "Late night",
       "tips": "Öğle yemeği menüleri genellikle akşamdan daha uygundur.",
-      "tips_en": "Lunch menus are usually cheaper than dinner."
+      "tips_en": "Lunch menus are usually cheaper than dinner.",
+      "name_en": "Joe's Pizza"
     },
     {
       "name": "Katz's Delicatessen",
@@ -2092,7 +2176,8 @@
       "bestTime": "Öğle yemeği",
       "bestTime_en": "Lunch",
       "tips": "Şefin spesiyal tabağını sormaktan çekinmeyin.",
-      "tips_en": "Don't hesitate to ask for the chef's special."
+      "tips_en": "Don't hesitate to ask for the chef's special.",
+      "name_en": "Katz's Delicatessen"
     },
     {
       "id": "gen_ChIJZ77sUzxbwokR_tqJzDm3zDs",
@@ -2116,7 +2201,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Yerel halkın favori noktalarından biri.",
-      "tips_en": "One of the favorite spots of the locals."
+      "tips_en": "One of the favorite spots of the locals.",
+      "name_en": "Koré Coffee"
     },
     {
       "id": "gen_ChIJ6WooklRYwokR3qd-J59t-k0",
@@ -2169,7 +2255,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Yerel halkın favori noktalarından biri.",
-      "tips_en": "One of the favorite spots of the locals."
+      "tips_en": "One of the favorite spots of the locals.",
+      "name_en": "La Cabra Bakery"
     },
     {
       "id": "gen_ChIJ58OtM8pZwokRbd6DT6gcVys",
@@ -2193,7 +2280,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Nakite hazırlıklı olun, bazı yerel yerler kart kabul etmeyebilir.",
-      "tips_en": "Be prepared with cash, some local places might not accept cards."
+      "tips_en": "Be prepared with cash, some local places might not accept cards.",
+      "name_en": "La Grande Boucherie"
     },
     {
       "id": "gen_ChIJPf0L06VZwokRD6L-7RV-7Yg",
@@ -2201,7 +2289,7 @@
       "category": "Yeme-İçme",
       "area": "1133 Broadway",
       "description": "Yerel malzemelerle yapılan İtalyan mutfağı yemekleri, bölgeye özgü şaraplar ve aperitifler servis edilen şık ve aydınlık restoran.",
-      "description_en": "Yerel malzemelerle yapılan İtalyan mutfağı yemekleri, bölgeye özgü şaraplar ve aperitifler servis edilen şık ve aydınlık restoran.",
+      "description_en": "Yerel malzemelerle yapılan İtalyan mutfağı yemekleri, bölgeye özgü şaraplar and aperitifler servis edwithn şık and aydınlık restoran.",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/newyork/la_pecora_bianca_nomad.jpg",
       "location": "1133 Broadway, New York, NY 10010, Amerika Birleşik Devletleri",
       "lat": 40.7436754,
@@ -2217,7 +2305,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Öğle yemeği menüleri genellikle akşamdan daha uygundur.",
-      "tips_en": "Lunch menus are usually cheaper than dinner."
+      "tips_en": "Lunch menus are usually cheaper than dinner.",
+      "name_en": "La Pecora Bianca NoMad"
     },
     {
       "name": "Le Bernardin",
@@ -2238,7 +2327,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/newyork/le_bernardin.jpg",
       "bestTime": "Akşam",
       "tips": "Yerel şarapları denemenizi öneririz.",
-      "tips_en": "We recommend trying local wines."
+      "tips_en": "We recommend trying local wines.",
+      "name_en": "Le Bernardin"
     },
     {
       "id": "gen_ChIJnzkPKwBZwokRmUk0EzQbaNE",
@@ -2262,7 +2352,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Çevredeki küçük hediyelik eşya dükkanlarına da uğrayın.",
-      "tips_en": "Stop by the small souvenir shops around."
+      "tips_en": "Stop by the small souvenir shops around.",
+      "name_en": "Le Parisien Bakery"
     },
     {
       "id": "gen_ChIJVUy4WwBZwokR9nHye_VblD8",
@@ -2286,7 +2377,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Yerel halkın favori noktalarından biri.",
-      "tips_en": "One of the favorite spots of the locals."
+      "tips_en": "One of the favorite spots of the locals.",
+      "name_en": "Le Vin Coeur"
     },
     {
       "id": "gen_ChIJL0Xk3Y1ZwokRNQ5KqVisHHk",
@@ -2310,7 +2402,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Google Maps yorumlarına göz atarak ne yiyeceğinize karar verin.",
-      "tips_en": "Decide what to eat by checking Google Maps reviews."
+      "tips_en": "Decide what to eat by checking Google Maps reviews.",
+      "name_en": "Les Gateaux de Marie"
     },
     {
       "name": "Levain Bakery",
@@ -2331,7 +2424,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/newyork/levain_bakery.jpg",
       "bestTime": "Sabah",
       "tips": "Yerel halkın favori noktalarından biri.",
-      "tips_en": "One of the favorite spots of the locals."
+      "tips_en": "One of the favorite spots of the locals.",
+      "name_en": "Levain Bakery"
     },
     {
       "name": "Little Island",
@@ -2353,7 +2447,8 @@
       "bestTime": "Gün batımı",
       "bestTime_en": "Sunset",
       "tips": "Güneş kremi ve şapka almayı unutmayın.",
-      "tips_en": "Don't forget sunscreen and a hat."
+      "tips_en": "Don't forget sunscreen and a hat.",
+      "name_en": "Little Island"
     },
     {
       "name": "Little Italy",
@@ -2374,7 +2469,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/newyork/little_italy.jpg",
       "bestTime": "Akşam",
       "tips": "Biletinizi online alarak gişe sırasından kurtulun.",
-      "tips_en": "Buy tickets online to skip the box office line."
+      "tips_en": "Buy tickets online to skip the box office line.",
+      "name_en": "Little Italy"
     },
     {
       "name": "Little Italy & Chinatown",
@@ -2396,7 +2492,8 @@
       "bestTime": "Öğle yemeği",
       "bestTime_en": "Lunch",
       "tips": "Akşam yemeği için rezervasyon yaptırmak şart.",
-      "tips_en": "Reservation is a must for dinner."
+      "tips_en": "Reservation is a must for dinner.",
+      "name_en": "Little Italy & Chinatown"
     },
     {
       "id": "gen_ChIJHZigegBZwokRWh80A__yZaA",
@@ -2420,7 +2517,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Akşam yemeği için rezervasyon yaptırmak şart.",
-      "tips_en": "Reservation is a must for dinner."
+      "tips_en": "Reservation is a must for dinner.",
+      "name_en": "Lola's"
     },
     {
       "id": "gen_ChIJORusnddbwokROPe35bFTv4M",
@@ -2444,7 +2542,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Öğle yemeği menüleri genellikle akşamdan daha uygundur.",
-      "tips_en": "Lunch menus are usually cheaper than dinner."
+      "tips_en": "Lunch menus are usually cheaper than dinner.",
+      "name_en": "London & Martin Co."
     },
     {
       "name": "Lower East Side",
@@ -2466,7 +2565,8 @@
       "bestTime": "Akşam",
       "bestTime_en": "Evening",
       "tips": "Google Maps yorumlarına göz atarak ne yiyeceğinize karar verin.",
-      "tips_en": "Decide what to eat by checking Google Maps reviews."
+      "tips_en": "Decide what to eat by checking Google Maps reviews.",
+      "name_en": "Lower East Side"
     },
     {
       "id": "gen_ChIJ2V6T8ixZwokRlJ9kJkQmcmY",
@@ -2490,7 +2590,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Akşam yemeği için rezervasyon yaptırmak şart.",
-      "tips_en": "Reservation is a must for dinner."
+      "tips_en": "Reservation is a must for dinner.",
+      "name_en": "Luthun"
     },
     {
       "id": "gen_ChIJqUTQkGdZwokR9RosCA4orHE",
@@ -2514,7 +2615,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Öğle yemeği menüleri genellikle akşamdan daha uygundur.",
-      "tips_en": "Lunch menus are usually cheaper than dinner."
+      "tips_en": "Lunch menus are usually cheaper than dinner.",
+      "name_en": "MOE EATS NYC"
     },
     {
       "id": "gen_ChIJ3VxUrJRZwokR2Ci4WWNlcIg",
@@ -2538,7 +2640,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Şefin spesiyal tabağını sormaktan çekinmeyin.",
-      "tips_en": "Don't hesitate to ask for the chef's special."
+      "tips_en": "Don't hesitate to ask for the chef's special.",
+      "name_en": "Madame Bonté Wine Bar"
     },
     {
       "id": "gen_ChIJHXg8BINZwokRpUSDvY8f-3I",
@@ -2562,7 +2665,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Çevredeki küçük hediyelik eşya dükkanlarına da uğrayın.",
-      "tips_en": "Stop by the small souvenir shops around."
+      "tips_en": "Stop by the small souvenir shops around.",
+      "name_en": "Madame George"
     },
     {
       "id": "gen_ChIJoTXWl8dbwokRpKA2BJFVsGA",
@@ -2586,7 +2690,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Nakite hazırlıklı olun, bazı yerel yerler kart kabul etmeyebilir.",
-      "tips_en": "Be prepared with cash, some local places might not accept cards."
+      "tips_en": "Be prepared with cash, some local places might not accept cards.",
+      "name_en": "Manhatta"
     },
     {
       "id": "gen_ChIJGdCSd5tZwokRfYvMyzO7qtE",
@@ -2610,7 +2715,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Hafta içi ziyaret etmek daha sakin bir deneyim sunar.",
-      "tips_en": "Visiting on weekdays offers a calmer experience."
+      "tips_en": "Visiting on weekdays offers a calmer experience.",
+      "name_en": "McSorley’s Old Ale House"
     },
     {
       "name": "Metropolitan Museum",
@@ -2642,7 +2748,7 @@
       "name": "Mille-Feuille Bakery",
       "category": "Kafe",
       "area": "552 LaGuardia Pl",
-      "description": "Small French bakery/cafe offering croissants, macarons, Napoleons, cakes & other treats.",
+      "description": "Small French bakery/cafe sunan croissants, macarons, Napoleons, cakes & other treats.",
       "description_en": "Small French bakery/cafe offering croissants, macarons, Napoleons, cakes & other treats.",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/newyork/mille_feuille_bakery.png",
       "location": "552 LaGuardia Pl, New York, NY 10012, Amerika Birleşik Devletleri",
@@ -2659,7 +2765,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Çevredeki küçük hediyelik eşya dükkanlarına da uğrayın.",
-      "tips_en": "Stop by the small souvenir shops around."
+      "tips_en": "Stop by the small souvenir shops around.",
+      "name_en": "Mille-Feuille Bakery"
     },
     {
       "name": "MoMA",
@@ -2681,7 +2788,8 @@
       "bestTime": "Cuma 16:00-20:00 (ücretsiz)",
       "bestTime_en": "Friday 4-8pm (free)",
       "tips": "Çantanızı vestiyere bırakmanız gerekebilir, hazırlıklı olun.",
-      "tips_en": "You might need to leave bags at the cloakroom, be prepared."
+      "tips_en": "You might need to leave bags at the cloakroom, be prepared.",
+      "name_en": "MoMA"
     },
     {
       "name": "Morgan Library & Museum",
@@ -2703,7 +2811,8 @@
       "bestTime": "Cuma akşam (ücretsiz saatler)",
       "bestTime_en": "Friday evening (free hours)",
       "tips": "Biletinizi online alarak gişe sırasından kurtulun.",
-      "tips_en": "Buy tickets online to skip the box office line."
+      "tips_en": "Buy tickets online to skip the box office line.",
+      "name_en": "Morgan Library & Museum"
     },
     {
       "id": "gen_ChIJ7XjS19L3wokRXa-onkubxlM",
@@ -2727,7 +2836,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Öğle yemeği menüleri genellikle akşamdan daha uygundur.",
-      "tips_en": "Lunch menus are usually cheaper than dinner."
+      "tips_en": "Lunch menus are usually cheaper than dinner.",
+      "name_en": "Musette Wine Bar"
     },
     {
       "id": "gen_ChIJkWzIVWtZwokRI4QPE8mVHvA",
@@ -2751,7 +2861,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Akşam yemeği için rezervasyon yaptırmak şart.",
-      "tips_en": "Reservation is a must for dinner."
+      "tips_en": "Reservation is a must for dinner.",
+      "name_en": "NOMAD"
     },
     {
       "id": "gen_ChIJUUmZv0NZwokR0Ugc9AncjYQ",
@@ -2775,7 +2886,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Çevredeki küçük hediyelik eşya dükkanlarına da uğrayın.",
-      "tips_en": "Stop by the small souvenir shops around."
+      "tips_en": "Stop by the small souvenir shops around.",
+      "name_en": "NY Bakery and Desserts NoMad"
     },
     {
       "id": "gen_ChIJj6Zpx-ddwokRm5R41uLVdJI",
@@ -2799,7 +2911,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Akşam yemeği için rezervasyon yaptırmak şart.",
-      "tips_en": "Reservation is a must for dinner."
+      "tips_en": "Reservation is a must for dinner.",
+      "name_en": "Neir's Tavern"
     },
     {
       "name": "New York Botanical Garden",
@@ -2820,7 +2933,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/newyork/new_york_botanical_garden.jpg",
       "bestTime": "Bahar",
       "tips": "Bazı günler giriş ücretsiz olabilir, web sitesini kontrol edin.",
-      "tips_en": "Entry might be free on some days, check the website."
+      "tips_en": "Entry might be free on some days, check the website.",
+      "name_en": "New York Botanical Garden"
     },
     {
       "name": "New York Public Library",
@@ -2842,7 +2956,8 @@
       "bestTime": "Sabah",
       "bestTime_en": "Morning",
       "tips": "Sesli rehber (audio guide) kiralamak deneyimi ikiye katlar.",
-      "tips_en": "Renting an audio guide doubles the experience."
+      "tips_en": "Renting an audio guide doubles the experience.",
+      "name_en": "New York Public Library"
     },
     {
       "id": "gen_ChIJ68CshahZwokR7bpCVWPDK_I",
@@ -2866,7 +2981,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Google Maps yorumlarına göz atarak ne yiyeceğinize karar verin.",
-      "tips_en": "Decide what to eat by checking Google Maps reviews."
+      "tips_en": "Decide what to eat by checking Google Maps reviews.",
+      "name_en": "Noise NYC"
     },
     {
       "id": "gen_ChIJ_RUJvZZZwokRNUEv3K4nSik",
@@ -2890,7 +3006,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Nakite hazırlıklı olun, bazı yerel yerler kart kabul etmeyebilir.",
-      "tips_en": "Be prepared with cash, some local places might not accept cards."
+      "tips_en": "Be prepared with cash, some local places might not accept cards.",
+      "name_en": "OLIO E PIÙ"
     },
     {
       "id": "gen_ChIJq7G-HTtZwokRkQvXiYeiuco",
@@ -2914,7 +3031,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Öğle yemeği menüleri genellikle akşamdan daha uygundur.",
-      "tips_en": "Lunch menus are usually cheaper than dinner."
+      "tips_en": "Lunch menus are usually cheaper than dinner.",
+      "name_en": "Oceans"
     },
     {
       "name": "Oculus",
@@ -2935,7 +3053,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/newyork/oculus.jpg",
       "bestTime": "Gündüz",
       "tips": "Tax-free formunu istemeyi unutmayın.",
-      "tips_en": "Don't forget to ask for the Tax-free form."
+      "tips_en": "Don't forget to ask for the Tax-free form.",
+      "name_en": "Oculus"
     },
     {
       "id": "gen_ChIJfzH7GylZwokRsEDAJ1psdZ8",
@@ -2959,7 +3078,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Şefin spesiyal tabağını sormaktan çekinmeyin.",
-      "tips_en": "Don't hesitate to ask for the chef's special."
+      "tips_en": "Don't hesitate to ask for the chef's special.",
+      "name_en": "Odd Sister"
     },
     {
       "name": "One World Observatory",
@@ -2981,7 +3101,8 @@
       "bestTime": "Gün batımı",
       "bestTime_en": "Sunset",
       "tips": "Öğle yemeği menüleri genellikle akşamdan daha uygundur.",
-      "tips_en": "Lunch menus are usually cheaper than dinner."
+      "tips_en": "Lunch menus are usually cheaper than dinner.",
+      "name_en": "One World Observatory"
     },
     {
       "id": "gen_ChIJeezZS4tbwokRjLkpQk2sLyA",
@@ -3005,7 +3126,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Hafta içi ziyaret etmek daha sakin bir deneyim sunar.",
-      "tips_en": "Visiting on weekdays offers a calmer experience."
+      "tips_en": "Visiting on weekdays offers a calmer experience.",
+      "name_en": "Paper Sons Cafe"
     },
     {
       "name": "Peter Luger Steak House",
@@ -3026,7 +3148,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/newyork/peter_luger_steak_house.jpg",
       "bestTime": "Akşam",
       "tips": "Öğle yemeği menüleri genellikle akşamdan daha uygundur.",
-      "tips_en": "Lunch menus are usually cheaper than dinner."
+      "tips_en": "Lunch menus are usually cheaper than dinner.",
+      "name_en": "Peter Luger Steak House"
     },
     {
       "id": "gen_ChIJye1nGZRZwokRpt8fmbCxNLE",
@@ -3050,14 +3173,15 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Şefin spesiyal tabağını sormaktan çekinmeyin.",
-      "tips_en": "Don't hesitate to ask for the chef's special."
+      "tips_en": "Don't hesitate to ask for the chef's special.",
+      "name_en": "Petite Boucherie"
     },
     {
       "id": "gen_ChIJswsgr1FYwokRwkvNT9-_H8c",
       "name": "Pocket Bar NYC",
       "category": "Bar",
       "area": "455 W 48th St",
-      "description": "Cozy hangout offering beer & wine by the glass or carafe in an intimate setting, plus sangria.",
+      "description": "Cozy hangout sunan beer & wine by the glass or carafe in an intimate setting, plus sangria.",
       "description_en": "Cozy hangout offering beer & wine by the glass or carafe in an intimate setting, plus sangria.",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/newyork/pocket_bar_nyc.jpg",
       "location": "455 W 48th St, New York, NY 10036, Amerika Birleşik Devletleri",
@@ -3074,7 +3198,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Çevredeki küçük hediyelik eşya dükkanlarına da uğrayın.",
-      "tips_en": "Stop by the small souvenir shops around."
+      "tips_en": "Stop by the small souvenir shops around.",
+      "name_en": "Pocket Bar NYC"
     },
     {
       "name": "Prospect Park",
@@ -3087,7 +3212,7 @@
       ],
       "distanceFromCenter": 6.0,
       "lat": 40.6602,
-      "lng": -73.969,
+      "lng": -73969.0,
       "price": "low",
       "rating": 4.6,
       "description": "Brooklyn'in Central Park'ı - Olmsted & Vaux tarafından tasarlandı. Boathouse, LeFrak Center, hayvanat bahçesi.",
@@ -3096,7 +3221,8 @@
       "bestTime": "Hafta sonu sabah",
       "bestTime_en": "Weekend morning",
       "tips": "Yanınıza bir örtü alıp çimlerde piknik yapabilirsiniz.",
-      "tips_en": "Bring a blanket and have a picnic on the grass."
+      "tips_en": "Bring a blanket and have a picnic on the grass.",
+      "name_en": "Prospect Park"
     },
     {
       "id": "gen_ChIJZXnagSJZwokRWmfyaDj8KAE",
@@ -3120,7 +3246,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Çevredeki küçük hediyelik eşya dükkanlarına da uğrayın.",
-      "tips_en": "Stop by the small souvenir shops around."
+      "tips_en": "Stop by the small souvenir shops around.",
+      "name_en": "Qahwah House W Village"
     },
     {
       "id": "gen_ChIJJc-lUgBZwokRAxNUXtdi8X0",
@@ -3144,7 +3271,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Çevredeki küçük hediyelik eşya dükkanlarına da uğrayın.",
-      "tips_en": "Stop by the small souvenir shops around."
+      "tips_en": "Stop by the small souvenir shops around.",
+      "name_en": "Radiant Café & Wine Bar"
     },
     {
       "name": "Radio City Music Hall",
@@ -3165,7 +3293,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/newyork/radio_city_music_hall.jpg",
       "bestTime": "Etkinlik zamanı",
       "tips": "Grup indirimi olup olmadığını sorun.",
-      "tips_en": "Ask if there is a group discount."
+      "tips_en": "Ask if there is a group discount.",
+      "name_en": "Radio City Music Hall"
     },
     {
       "id": "gen_ChIJX7vXkQVZwokRgltC2oqZ9Fw",
@@ -3189,7 +3318,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Hafta içi ziyaret etmek daha sakin bir deneyim sunar.",
-      "tips_en": "Visiting on weekdays offers a calmer experience."
+      "tips_en": "Visiting on weekdays offers a calmer experience.",
+      "name_en": "Rake Wine Bar"
     },
     {
       "name": "Rockefeller Center",
@@ -3211,7 +3341,8 @@
       "bestTime": "Kış (Kasım-Ocak)",
       "bestTime_en": "Winter (November-January)",
       "tips": "Kıyafetinizin aktiviteye uygun olduğundan emin olun.",
-      "tips_en": "Ensure your outfit is suitable for the activity."
+      "tips_en": "Ensure your outfit is suitable for the activity.",
+      "name_en": "Rockefeller Center"
     },
     {
       "name": "Roosevelt Island Tram",
@@ -3240,7 +3371,7 @@
       "name": "Rudy's Bar & Grill",
       "category": "Yeme-İçme",
       "area": "627 9th Ave",
-      "description": "A neighborhood staple since 1933, this tavern is known for its no-frills atmosphere & free hot dogs.",
+      "description": "A neighborhood staple since 1933, this tavern is known for its no-frills atmosfer & free hot dogs.",
       "description_en": "A neighborhood staple since 1933, this tavern is known for its no-frills atmosphere & free hot dogs.",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/newyork/rudys_bar_and_grill.jpg",
       "location": "627 9th Ave, New York, NY 10036, Amerika Birleşik Devletleri",
@@ -3257,7 +3388,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Öğle yemeği menüleri genellikle akşamdan daha uygundur.",
-      "tips_en": "Lunch menus are usually cheaper than dinner."
+      "tips_en": "Lunch menus are usually cheaper than dinner.",
+      "name_en": "Rudy's Bar & Grill"
     },
     {
       "id": "gen_ChIJHfvtRp1ZwokREpFE8Z1BEKs",
@@ -3281,7 +3413,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Nakite hazırlıklı olun, bazı yerel yerler kart kabul etmeyebilir.",
-      "tips_en": "Be prepared with cash, some local places might not accept cards."
+      "tips_en": "Be prepared with cash, some local places might not accept cards.",
+      "name_en": "Ruffian"
     },
     {
       "name": "Russ & Daughters",
@@ -3302,7 +3435,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/newyork/russ_and_daughters.jpg",
       "bestTime": "Kahvaltı",
       "tips": "Nakite hazırlıklı olun, bazı yerel yerler kart kabul etmeyebilir.",
-      "tips_en": "Be prepared with cash, some local places might not accept cards."
+      "tips_en": "Be prepared with cash, some local places might not accept cards.",
+      "name_en": "Russ & Daughters"
     },
     {
       "name": "SUMMIT One Vanderbilt",
@@ -3352,7 +3486,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Nakite hazırlıklı olun, bazı yerel yerler kart kabul etmeyebilir.",
-      "tips_en": "Be prepared with cash, some local places might not accept cards."
+      "tips_en": "Be prepared with cash, some local places might not accept cards.",
+      "name_en": "Salinas Restaurant"
     },
     {
       "id": "gen_ChIJYfgPUEFZwokRZ5mk9JqnxSc",
@@ -3376,7 +3511,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Nakite hazırlıklı olun, bazı yerel yerler kart kabul etmeyebilir.",
-      "tips_en": "Be prepared with cash, some local places might not accept cards."
+      "tips_en": "Be prepared with cash, some local places might not accept cards.",
+      "name_en": "Sea Salt NYC"
     },
     {
       "name": "Serendipity 3",
@@ -3398,7 +3534,8 @@
       "bestTime": "Öğleden sonra",
       "bestTime_en": "Afternoon",
       "tips": "Nakite hazırlıklı olun, bazı yerel yerler kart kabul etmeyebilir.",
-      "tips_en": "Be prepared with cash, some local places might not accept cards."
+      "tips_en": "Be prepared with cash, some local places might not accept cards.",
+      "name_en": "Serendipity 3"
     },
     {
       "id": "gen_ChIJkaIm1slZwokRBXefA_48C1s",
@@ -3422,7 +3559,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Nakite hazırlıklı olun, bazı yerel yerler kart kabul etmeyebilir.",
-      "tips_en": "Be prepared with cash, some local places might not accept cards."
+      "tips_en": "Be prepared with cash, some local places might not accept cards.",
+      "name_en": "Shaken Not Stirred"
     },
     {
       "id": "gen_ChIJuabZo6hZwokRhGPoGjo0H6k",
@@ -3446,7 +3584,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Akşam yemeği için rezervasyon yaptırmak şart.",
-      "tips_en": "Reservation is a must for dinner."
+      "tips_en": "Reservation is a must for dinner.",
+      "name_en": "Shukette"
     },
     {
       "id": "gen_ChIJu31WZgBbwokRfZL2jUuHW14",
@@ -3470,7 +3609,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Google Maps yorumlarına göz atarak ne yiyeceğinize karar verin.",
-      "tips_en": "Decide what to eat by checking Google Maps reviews."
+      "tips_en": "Decide what to eat by checking Google Maps reviews.",
+      "name_en": "Simpl Coffee"
     },
     {
       "id": "gen_ChIJfWVsl1ZYwokR9qnmtWV2pEg",
@@ -3494,7 +3634,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Nakite hazırlıklı olun, bazı yerel yerler kart kabul etmeyebilir.",
-      "tips_en": "Be prepared with cash, some local places might not accept cards."
+      "tips_en": "Be prepared with cash, some local places might not accept cards.",
+      "name_en": "Sir Henry’s"
     },
     {
       "id": "gen_ChIJ385rlW9ZwokRHTamoLqoosI",
@@ -3518,7 +3659,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Şefin spesiyal tabağını sormaktan çekinmeyin.",
-      "tips_en": "Don't hesitate to ask for the chef's special."
+      "tips_en": "Don't hesitate to ask for the chef's special.",
+      "name_en": "Sixty Three Clinton"
     },
     {
       "name": "Sleep No More",
@@ -3539,7 +3681,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/newyork/sleep_no_more.jpg",
       "bestTime": "Akşam",
       "tips": "Grup indirimi olup olmadığını sorun.",
-      "tips_en": "Ask if there is a group discount."
+      "tips_en": "Ask if there is a group discount.",
+      "name_en": "Sleep No More"
     },
     {
       "name": "Smorgasburg",
@@ -3560,7 +3703,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/newyork/smorgasburg.jpg",
       "bestTime": "Cumartesi",
       "tips": "Rehbere soru sormaktan çekinmeyin, çok ilginç hikayeler biliyorlar.",
-      "tips_en": "Don't hesitate to ask the guide questions, they know interesting stories."
+      "tips_en": "Don't hesitate to ask the guide questions, they know interesting stories.",
+      "name_en": "Smorgasburg"
     },
     {
       "name": "SoHo Manhattan",
@@ -3582,7 +3726,8 @@
       "bestTime": "Öğleden sonra",
       "bestTime_en": "Afternoon",
       "tips": "Müze kartınız varsa girişte sıra beklemezsiniz.",
-      "tips_en": "You skip the line if you have a museum pass."
+      "tips_en": "You skip the line if you have a museum pass.",
+      "name_en": "SoHo Manhattan"
     },
     {
       "name": "SoHo Shopping",
@@ -3595,7 +3740,7 @@
       ],
       "distanceFromCenter": 3.5,
       "lat": 40.7233,
-      "lng": -74.003,
+      "lng": -74003.0,
       "price": "free",
       "rating": 4.5,
       "description": "Cast-iron binaları ve butik mağazalarıyla ünlü alışveriş mahallesi. Tasarımcı butikler, sanat galerileri ve moda.",
@@ -3603,7 +3748,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/newyork/soho_shopping.jpg",
       "bestTime": "Hafta sonu",
       "tips": "Rehbere soru sormaktan çekinmeyin, çok ilginç hikayeler biliyorlar.",
-      "tips_en": "Don't hesitate to ask the guide questions, they know interesting stories."
+      "tips_en": "Don't hesitate to ask the guide questions, they know interesting stories.",
+      "name_en": "SoHo Shopping"
     },
     {
       "id": "gen_ChIJB6FQ8R9ZwokRdEx5bayDGlU",
@@ -3627,7 +3773,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Çevredeki küçük hediyelik eşya dükkanlarına da uğrayın.",
-      "tips_en": "Stop by the small souvenir shops around."
+      "tips_en": "Stop by the small souvenir shops around.",
+      "name_en": "Sogno Toscano Cafe´& Wine Bar"
     },
     {
       "name": "Solomon R. Guggenheim Museum",
@@ -3639,8 +3786,8 @@
         "frank lloyd wright"
       ],
       "distanceFromCenter": 4.0,
-      "lat": 40.783,
-      "lng": -73.959,
+      "lat": 40783.0,
+      "lng": -73959.0,
       "price": "medium",
       "rating": 4.5,
       "description": "Frank Lloyd Wright'ın spiral tasarımı, hem bina hem koleksiyon başyapıt. Modern ve çağdaş sanat, ikonik mimari.",
@@ -3648,7 +3795,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/newyork/solomon_r_guggenheim_museum.jpg",
       "bestTime": "Sabah",
       "tips": "Bazı günler giriş ücretsiz olabilir, web sitesini kontrol edin.",
-      "tips_en": "Entry might be free on some days, check the website."
+      "tips_en": "Entry might be free on some days, check the website.",
+      "name_en": "Solomon R. Guggenheim Museum"
     },
     {
       "id": "gen_ChIJSeHeZ6ZZwokRMWhy805YXs8",
@@ -3672,7 +3820,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Hafta içi ziyaret etmek daha sakin bir deneyim sunar.",
-      "tips_en": "Visiting on weekdays offers a calmer experience."
+      "tips_en": "Visiting on weekdays offers a calmer experience.",
+      "name_en": "Somm Time"
     },
     {
       "id": "gen_ChIJL_NcKb1ZwokR1DgbX3uNjDc",
@@ -3696,7 +3845,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Yerel şarapları denemenizi öneririz.",
-      "tips_en": "We recommend trying local wines."
+      "tips_en": "We recommend trying local wines.",
+      "name_en": "Sorso'"
     },
     {
       "id": "gen_ChIJwR4noh5ZwokREcz36jnEQbo",
@@ -3720,7 +3870,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Hafta içi ziyaret etmek daha sakin bir deneyim sunar.",
-      "tips_en": "Visiting on weekdays offers a calmer experience."
+      "tips_en": "Visiting on weekdays offers a calmer experience.",
+      "name_en": "Sote Coffee Roasters"
     },
     {
       "name": "Spyscape",
@@ -3741,7 +3892,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/newyork/spyscape.jpg",
       "bestTime": "Öğleden sonra",
       "tips": "Sesli rehber (audio guide) kiralamak deneyimi ikiye katlar.",
-      "tips_en": "Renting an audio guide doubles the experience."
+      "tips_en": "Renting an audio guide doubles the experience.",
+      "name_en": "Spyscape"
     },
     {
       "name": "St. Patrick's Cathedral",
@@ -3763,7 +3915,8 @@
       "bestTime": "Sabah",
       "bestTime_en": "Morning",
       "tips": "Rehberli turla gezmek detayları anlamak için çok daha verimli.",
-      "tips_en": "A guided tour is much more efficient to understand the details."
+      "tips_en": "A guided tour is much more efficient to understand the details.",
+      "name_en": "St. Patrick's Cathedral"
     },
     {
       "name": "Staten Island Ferry",
@@ -3785,7 +3938,8 @@
       "bestTime": "Gün batımı",
       "bestTime_en": "Sunset",
       "tips": "Fotoğraf makinenizin şarjının dolu olduğundan emin olun.",
-      "tips_en": "Make sure your camera battery is full."
+      "tips_en": "Make sure your camera battery is full.",
+      "name_en": "Staten Island Ferry"
     },
     {
       "name": "Statue of Liberty",
@@ -3807,7 +3961,8 @@
       "bestTime": "Sabah erken",
       "bestTime_en": "Early morning",
       "tips": "Müze kartınız varsa girişte sıra beklemezsiniz.",
-      "tips_en": "You skip the line if you have a museum pass."
+      "tips_en": "You skip the line if you have a museum pass.",
+      "name_en": "Statue of Liberty"
     },
     {
       "id": "gen_ChIJJQAPYXlpwokRgvICh9Dog-o",
@@ -3831,7 +3986,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Google Maps yorumlarına göz atarak ne yiyeceğinize karar verin.",
-      "tips_en": "Decide what to eat by checking Google Maps reviews."
+      "tips_en": "Decide what to eat by checking Google Maps reviews.",
+      "name_en": "Street Bites NYC"
     },
     {
       "id": "gen_ChIJ___iQYlawokR1pE_9rihJ7A",
@@ -3855,7 +4011,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Çevredeki küçük hediyelik eşya dükkanlarına da uğrayın.",
-      "tips_en": "Stop by the small souvenir shops around."
+      "tips_en": "Stop by the small souvenir shops around.",
+      "name_en": "Sunken Harbor Club"
     },
     {
       "id": "gen_ChIJlcb1So9awokRGb-r3HkH0wg",
@@ -3879,7 +4036,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Çevredeki küçük hediyelik eşya dükkanlarına da uğrayın.",
-      "tips_en": "Stop by the small souvenir shops around."
+      "tips_en": "Stop by the small souvenir shops around.",
+      "name_en": "Sunny's"
     },
     {
       "id": "gen_ChIJQT44NBdZwokRM11r-GqyLtI",
@@ -3903,7 +4061,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Grup indirimi olup olmadığını sorun.",
-      "tips_en": "Ask if there is a group discount."
+      "tips_en": "Ask if there is a group discount.",
+      "name_en": "Sweet Cats Union Square"
     },
     {
       "id": "gen_ChIJ20Lo8cdZwokRyW0EGwA-wwk",
@@ -3927,7 +4086,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Şefin spesiyal tabağını sormaktan çekinmeyin.",
-      "tips_en": "Don't hesitate to ask for the chef's special."
+      "tips_en": "Don't hesitate to ask for the chef's special.",
+      "name_en": "Tara Mor | NYC"
     },
     {
       "id": "gen_ChIJpx_u6NZZwokR0gixoJrE5Ww",
@@ -3951,14 +4111,15 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Şefin spesiyal tabağını sormaktan çekinmeyin.",
-      "tips_en": "Don't hesitate to ask for the chef's special."
+      "tips_en": "Don't hesitate to ask for the chef's special.",
+      "name_en": "Tara Rose| NYC"
     },
     {
       "id": "gen_ChIJg-QDdKFZwokRumpX4_PxJuU",
       "name": "Tasca NYC",
       "category": "Yeme-İçme",
       "area": "505 Columbus Ave",
-      "description": "Genteel tavern with a patio offering a fusion of Spanish & Caribbean cuisine, plus cocktails.",
+      "description": "Genteel tavern with a patio sunan a fusion of Spanish & Caribbean cuisine, plus cocktails.",
       "description_en": "Genteel tavern with a patio offering a fusion of Spanish & Caribbean cuisine, plus cocktails.",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/newyork/tasca_nyc.jpg",
       "location": "505 Columbus Ave, New York, NY 10024, Amerika Birleşik Devletleri",
@@ -3975,7 +4136,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Yerel şarapları denemenizi öneririz.",
-      "tips_en": "We recommend trying local wines."
+      "tips_en": "We recommend trying local wines.",
+      "name_en": "Tasca NYC"
     },
     {
       "name": "Tenement Museum",
@@ -3997,7 +4159,8 @@
       "bestTime": "Öğleden sonra",
       "bestTime_en": "Afternoon",
       "tips": "Hafta içi sabah saatleri en sakin zamanıdır.",
-      "tips_en": "Weekday mornings are the quietest times."
+      "tips_en": "Weekday mornings are the quietest times.",
+      "name_en": "Tenement Museum"
     },
     {
       "id": "gen_ChIJB1FM2IhZwokRDsby9_KYVz8",
@@ -4021,7 +4184,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Yerel şarapları denemenizi öneririz.",
-      "tips_en": "We recommend trying local wines."
+      "tips_en": "We recommend trying local wines.",
+      "name_en": "The Alvin Public House"
     },
     {
       "id": "gen_ChIJ6QUKUXRbwokRYn1IeT8kWls",
@@ -4045,7 +4209,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Öğle yemeği menüleri genellikle akşamdan daha uygundur.",
-      "tips_en": "Lunch menus are usually cheaper than dinner."
+      "tips_en": "Lunch menus are usually cheaper than dinner.",
+      "name_en": "The Canary"
     },
     {
       "name": "The Cloisters",
@@ -4067,7 +4232,8 @@
       "bestTime": "Sabah",
       "bestTime_en": "Morning",
       "tips": "Çantanızı vestiyere bırakmanız gerekebilir, hazırlıklı olun.",
-      "tips_en": "You might need to leave bags at the cloakroom, be prepared."
+      "tips_en": "You might need to leave bags at the cloakroom, be prepared.",
+      "name_en": "The Cloisters"
     },
     {
       "id": "gen_ChIJIRiJaRRawokR2KyQ984qa-o",
@@ -4091,7 +4257,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Şefin spesiyal tabağını sormaktan çekinmeyin.",
-      "tips_en": "Don't hesitate to ask for the chef's special."
+      "tips_en": "Don't hesitate to ask for the chef's special.",
+      "name_en": "The Dead Rabbit"
     },
     {
       "id": "gen_ChIJXz1QXE5ZwokRLwJIVmQhyEc",
@@ -4115,7 +4282,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Akşam yemeği için rezervasyon yaptırmak şart.",
-      "tips_en": "Reservation is a must for dinner."
+      "tips_en": "Reservation is a must for dinner.",
+      "name_en": "The Dickens"
     },
     {
       "name": "The Edge",
@@ -4137,7 +4305,8 @@
       "bestTime": "Gün batımı",
       "bestTime_en": "Sunset",
       "tips": "Kıyafetinizin aktiviteye uygun olduğundan emin olun.",
-      "tips_en": "Ensure your outfit is suitable for the activity."
+      "tips_en": "Ensure your outfit is suitable for the activity.",
+      "name_en": "The Edge"
     },
     {
       "name": "The High Line",
@@ -4149,7 +4318,7 @@
         "modern"
       ],
       "distanceFromCenter": 2.0,
-      "lat": 40.748,
+      "lat": 40748.0,
       "lng": -74.0048,
       "price": "free",
       "rating": 4.8,
@@ -4158,7 +4327,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/newyork/the_high_line.jpg",
       "bestTime": "Gün batımı",
       "tips": "Sabah koşusu veya yoga yapan yerlileri görebilirsiniz.",
-      "tips_en": "You can see locals jogging or doing yoga in the morning."
+      "tips_en": "You can see locals jogging or doing yoga in the morning.",
+      "name_en": "The High Line"
     },
     {
       "id": "gen_ChIJx4mRX0RZwokR2MzGQveMqzs",
@@ -4182,7 +4352,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Yerel şarapları denemenizi öneririz.",
-      "tips_en": "We recommend trying local wines."
+      "tips_en": "We recommend trying local wines.",
+      "name_en": "The Ivory Peacock"
     },
     {
       "id": "gen_ChIJZY-q_uFZwokRSJ8hpK_vV_A",
@@ -4206,7 +4377,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Hafta içi ziyaret etmek daha sakin bir deneyim sunar.",
-      "tips_en": "Visiting on weekdays offers a calmer experience."
+      "tips_en": "Visiting on weekdays offers a calmer experience.",
+      "name_en": "The Lavaux"
     },
     {
       "name": "The Loeb Boathouse",
@@ -4227,7 +4399,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/newyork/the_loeb_boathouse.jpg",
       "bestTime": "Brunch",
       "tips": "Nakite hazırlıklı olun, bazı yerel yerler kart kabul etmeyebilir.",
-      "tips_en": "Be prepared with cash, some local places might not accept cards."
+      "tips_en": "Be prepared with cash, some local places might not accept cards.",
+      "name_en": "The Loeb Boathouse"
     },
     {
       "id": "gen_ChIJw4INJQBZwokRQDsl00Ujaig",
@@ -4251,7 +4424,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Yerel şarapları denemenizi öneririz.",
-      "tips_en": "We recommend trying local wines."
+      "tips_en": "We recommend trying local wines.",
+      "name_en": "The Purple Tongue Wine Bar"
     },
     {
       "id": "gen_ChIJD7oqAXb3wokRfNimnOgQRdw",
@@ -4275,7 +4449,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Yerel halkın favori noktalarından biri.",
-      "tips_en": "One of the favorite spots of the locals."
+      "tips_en": "One of the favorite spots of the locals.",
+      "name_en": "The Townhouse Cafe"
     },
     {
       "name": "The Vessel",
@@ -4297,7 +4472,8 @@
       "bestTime": "Sabah",
       "bestTime_en": "Morning",
       "tips": "Rehbere soru sormaktan çekinmeyin, çok ilginç hikayeler biliyorlar.",
-      "tips_en": "Don't hesitate to ask the guide questions, they know interesting stories."
+      "tips_en": "Don't hesitate to ask the guide questions, they know interesting stories.",
+      "name_en": "The Vessel"
     },
     {
       "name": "Times Square",
@@ -4309,7 +4485,7 @@
         "broadway"
       ],
       "distanceFromCenter": 0.0,
-      "lat": 40.758,
+      "lat": 40758.0,
       "lng": -73.9855,
       "price": "low",
       "rating": 4.6,
@@ -4319,7 +4495,8 @@
       "bestTime": "Gece",
       "bestTime_en": "Night",
       "tips": "Kıyafetinizin aktiviteye uygun olduğundan emin olun.",
-      "tips_en": "Ensure your outfit is suitable for the activity."
+      "tips_en": "Ensure your outfit is suitable for the activity.",
+      "name_en": "Times Square"
     },
     {
       "id": "gen_ChIJ11rLS5jzwokRqT9qZUyz8YU",
@@ -4343,7 +4520,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Nakite hazırlıklı olun, bazı yerel yerler kart kabul etmeyebilir.",
-      "tips_en": "Be prepared with cash, some local places might not accept cards."
+      "tips_en": "Be prepared with cash, some local places might not accept cards.",
+      "name_en": "Tiny Tapas and Bites"
     },
     {
       "name": "Top of the Rock",
@@ -4365,7 +4543,8 @@
       "bestTime": "Gün batımı",
       "bestTime_en": "Sunset",
       "tips": "Fotoğraf makinenizin şarjının dolu olduğundan emin olun.",
-      "tips_en": "Make sure your camera battery is full."
+      "tips_en": "Make sure your camera battery is full.",
+      "name_en": "Top of the Rock"
     },
     {
       "id": "gen_ChIJQ7QgPpq5yhQRGYW67qu_c_s",
@@ -4389,7 +4568,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Öğle yemeği menüleri genellikle akşamdan daha uygundur.",
-      "tips_en": "Lunch menus are usually cheaper than dinner."
+      "tips_en": "Lunch menus are usually cheaper than dinner.",
+      "name_en": "Turkish Cuisine"
     },
     {
       "id": "gen_ChIJL8iG0HNZwokR70zQBzoMKTc",
@@ -4413,7 +4593,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Google Maps yorumlarına göz atarak ne yiyeceğinize karar verin.",
-      "tips_en": "Decide what to eat by checking Google Maps reviews."
+      "tips_en": "Decide what to eat by checking Google Maps reviews.",
+      "name_en": "Twist Bar"
     },
     {
       "id": "gen_ChIJheD4kfxYwokR-5X6NNDNYnk",
@@ -4437,7 +4618,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Akşam yemeği için rezervasyon yaptırmak şart.",
-      "tips_en": "Reservation is a must for dinner."
+      "tips_en": "Reservation is a must for dinner.",
+      "name_en": "Uncle Gussy's"
     },
     {
       "name": "Union Square Greenmarket",
@@ -4459,7 +4641,8 @@
       "bestTime": "Sabah",
       "bestTime_en": "Morning",
       "tips": "Kıyafetinizin aktiviteye uygun olduğundan emin olun.",
-      "tips_en": "Ensure your outfit is suitable for the activity."
+      "tips_en": "Ensure your outfit is suitable for the activity.",
+      "name_en": "Union Square Greenmarket"
     },
     {
       "id": "gen_ChIJ52QMLUtZwokRZwW4R7FUo2M",
@@ -4483,7 +4666,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Hafta içi ziyaret etmek daha sakin bir deneyim sunar.",
-      "tips_en": "Visiting on weekdays offers a calmer experience."
+      "tips_en": "Visiting on weekdays offers a calmer experience.",
+      "name_en": "Unregular Bakery"
     },
     {
       "id": "gen_ChIJv6INkhtZwokR5Ol7iuc6TJc",
@@ -4507,7 +4691,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Çevredeki küçük hediyelik eşya dükkanlarına da uğrayın.",
-      "tips_en": "Stop by the small souvenir shops around."
+      "tips_en": "Stop by the small souvenir shops around.",
+      "name_en": "Urban Backyard"
     },
     {
       "id": "gen_ChIJhR1-MupZwokR76yCUh3Xprs",
@@ -4531,7 +4716,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Rehbere soru sormaktan çekinmeyin, çok ilginç hikayeler biliyorlar.",
-      "tips_en": "Don't hesitate to ask the guide questions, they know interesting stories."
+      "tips_en": "Don't hesitate to ask the guide questions, they know interesting stories.",
+      "name_en": "Venchi"
     },
     {
       "name": "Wall Street",
@@ -4553,7 +4739,8 @@
       "bestTime": "Hafta içi sabah",
       "bestTime_en": "Weekday morning",
       "tips": "Sabah erken saatlerde giderek turist kalabalığından kaçınabilirsiniz.",
-      "tips_en": "Go early in the morning to avoid tourist crowds."
+      "tips_en": "Go early in the morning to avoid tourist crowds.",
+      "name_en": "Wall Street"
     },
     {
       "name": "Washington Square Park",
@@ -4574,7 +4761,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/newyork/washington_square_park.jpg",
       "bestTime": "Öğleden sonra",
       "tips": "Sabah koşusu veya yoga yapan yerlileri görebilirsiniz.",
-      "tips_en": "You can see locals jogging or doing yoga in the morning."
+      "tips_en": "You can see locals jogging or doing yoga in the morning.",
+      "name_en": "Washington Square Park"
     },
     {
       "id": "gen_ChIJPezLOSdawokROjWJSsqLdZg",
@@ -4598,7 +4786,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Akşam yemeği için rezervasyon yaptırmak şart.",
-      "tips_en": "Reservation is a must for dinner."
+      "tips_en": "Reservation is a must for dinner.",
+      "name_en": "Whiskey Tavern"
     },
     {
       "id": "gen_ChIJ3ziX-h9ZwokRgTE-XdwJuIQ",
@@ -4622,7 +4811,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Çevredeki küçük hediyelik eşya dükkanlarına da uğrayın.",
-      "tips_en": "Stop by the small souvenir shops around."
+      "tips_en": "Stop by the small souvenir shops around.",
+      "name_en": "White Noise Coffee - Coffee Shop & Roastery"
     },
     {
       "id": "gen_ChIJ3zjtdppZwokRhZZwPc4gsj0",
@@ -4646,7 +4836,8 @@
       ],
       "distanceFromCenter": 1.5,
       "tips": "Öğle yemeği menüleri genellikle akşamdan daha uygundur.",
-      "tips_en": "Lunch menus are usually cheaper than dinner."
+      "tips_en": "Lunch menus are usually cheaper than dinner.",
+      "name_en": "White Oak Tavern"
     },
     {
       "name": "Whitney Museum",
@@ -4668,7 +4859,8 @@
       "bestTime": "Cuma akşamı (ne isterseniz ödeyin)",
       "bestTime_en": "Friday evening (pay what you wish)",
       "tips": "Bazı günler giriş ücretsiz olabilir, web sitesini kontrol edin.",
-      "tips_en": "Entry might be free on some days, check the website."
+      "tips_en": "Entry might be free on some days, check the website.",
+      "name_en": "Whitney Museum"
     },
     {
       "name": "Williamsburg",
@@ -4690,7 +4882,8 @@
       "bestTime": "Hafta sonu",
       "bestTime_en": "Weekend",
       "tips": "Yerel halkın favori noktalarından biri.",
-      "tips_en": "One of the favorite spots of the locals."
+      "tips_en": "One of the favorite spots of the locals.",
+      "name_en": "Williamsburg"
     },
     {
       "name": "Pebble Beach",
@@ -4738,7 +4931,7 @@
         "tiyatro",
         "gece"
       ],
-      "lat": 40.758,
+      "lat": 40758.0,
       "lng": -73.9855,
       "description": "Dünya tiyatrosunun ve müzikal sanatının kalbi. Onlarca tarihi tiyatro salonu ve parlayan tabelalarıyla NYC'nin ruhu.",
       "description_en": "The heart of world theater. Home to dozens of historic playhouses and the glowing soul of NYC.",
@@ -4877,7 +5070,7 @@
         "yürüyüş",
         "sessizlik"
       ],
-      "lat": 40.777,
+      "lat": 40777.0,
       "lng": -73.9708,
       "rating": 4.7,
       "description": "Central Park içinde vahşi bir orman hissi veren, dolambaçlı yolları ve derecikleriyle bilinen doğal alan.",
@@ -4959,7 +5152,7 @@
         "kafe",
         "mahalle"
       ],
-      "lat": 40.723,
+      "lat": 40723.0,
       "lng": -73.9947,
       "rating": 4.6,
       "description": "North of Little Italy. Küçük butikleri, şık kafeleri ve bohem atmosferiyle Manhattan'ın en keyifli mahallelerinden biri.",

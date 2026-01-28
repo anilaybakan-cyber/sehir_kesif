@@ -929,7 +929,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Nakite hazırlıklı olun, bazı yerel yerler kart kabul etmeyebilir.",
       "tips_en": "Be prepared with cash, some local places might not accept cards.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Field"
     },
     {
       "name": "Franciscan Gardens",
@@ -1139,7 +1140,8 @@
       "bestTime": "09:00 - 18:00",
       "bestTime_en": "09:00 - 18:00",
       "tips": "Öğle yemeği menüleri genellikle akşamdan daha uygundur.",
-      "tips_en": "Lunch menus are usually cheaper than dinner."
+      "tips_en": "Lunch menus are usually cheaper than dinner.",
+      "name_en": "Havelska Koruna"
     },
     {
       "id": "havelska-market",
@@ -1206,7 +1208,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Dışarıdaki masalarda oturup gelen geçeni izlemek çok keyifli.",
       "tips_en": "Sitting at outdoor tables and people-watching is very pleasant.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Hemingway Bar"
     },
     {
       "name": "House at the Two Suns",
@@ -1366,7 +1369,8 @@
       "bestTime": "09:00 - 18:00",
       "bestTime_en": "09:00 - 18:00",
       "tips": "Fotoğraf çekimi için en iyi ışık gün batımına yakındır.",
-      "tips_en": "Best light for photography is near sunset."
+      "tips_en": "Best light for photography is near sunset.",
+      "name_en": "Jewish Quarter (Josefov)"
     },
     {
       "name": "Jiřího z Poděbrad Farmers Market",
@@ -1433,7 +1437,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Nakite hazırlıklı olun, bazı yerel yerler kart kabul etmeyebilir.",
       "tips_en": "Be prepared with cash, some local places might not accept cards.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Kantýna"
     },
     {
       "name": "Karel Zeman Museum",
@@ -1501,7 +1506,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Sessiz bir köşe bulup kitap okumak için ideal.",
       "tips_en": "Ideal for finding a quiet corner and reading a book.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Kavárna Slavia"
     },
     {
       "name": "Kavárna co hledá jméno",
@@ -1683,7 +1689,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Gün doğumu burada büyüleyicidir, uykunuzdan feragat etmeye değer.",
       "tips_en": "Sunrise is magical here, worth sacrificing sleep.",
-      "description_en": "Beatles şarkıları and graffitwithrle dolu sanat duvarı. Offering one of the most impressiand views of the city, this spot is a paradise for photography enthusiasts. The colors it takes on, especially at sunset, provide a visual feast for visitors."
+      "description_en": "Beatles şarkıları and graffitwithrle dolu sanat duvarı. Offering one of the most impressiand views of the city, this spot is a paradise for photography enthusiasts. The colors it takes on, especially at sunset, provide a visual feast for visitors.",
+      "name_en": "Lennon Wall"
     },
     {
       "name": "Lesser Town Bridge Towers",
@@ -1794,7 +1801,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Öğle yemeği menüleri genellikle akşamdan daha uygundur.",
       "tips_en": "Lunch menus are usually cheaper than dinner.",
-      "description_en": "En taze Çek birası and ev yemekleri sunan popüler venue. A great option to taste local flavors and spend a pleasant eandning. It offers an unforgettable experience appealing to your palate with its friendly atmosphere and quality service."
+      "description_en": "En taze Çek birası and ev yemekleri sunan popüler venue. A great option to taste local flavors and spend a pleasant eandning. It offers an unforgettable experience appealing to your palate with its friendly atmosphere and quality service.",
+      "name_en": "Lokál Dlouhááá"
     },
     {
       "id": "loreta-prague",
@@ -2141,7 +2149,8 @@
       "bestTime": "09:00 - 18:00",
       "bestTime_en": "09:00 - 18:00",
       "tips": "Sesli rehber (audio guide) kiralamak deneyimi ikiye katlar.",
-      "tips_en": "Renting an audio guide doubles the experience."
+      "tips_en": "Renting an audio guide doubles the experience.",
+      "name_en": "Museum of Communism"
     },
     {
       "name": "Museum of Czech Cubism",
@@ -2237,7 +2246,8 @@
       "bestTime": "09:00 - 18:00",
       "bestTime_en": "09:00 - 18:00",
       "tips": "Bazı günler giriş ücretsiz olabilir, web sitesini kontrol edin.",
-      "tips_en": "Entry might be free on some days, check the website."
+      "tips_en": "Entry might be free on some days, check the website.",
+      "name_en": "National Gallery"
     },
     {
       "name": "National Memorial on Vítkov",
@@ -2396,7 +2406,8 @@
       "bestTime": "09:00 - 18:00",
       "bestTime_en": "09:00 - 18:00",
       "tips": "Fotoğraf çekimi için en iyi ışık gün batımına yakındır.",
-      "tips_en": "Best light for photography is near sunset."
+      "tips_en": "Best light for photography is near sunset.",
+      "name_en": "Old Royal Palace"
     },
     {
       "name": "Old Town Bridge Tower",
@@ -2439,7 +2450,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Rüzgarlı olabilir, yanınıza ince bir ceket alın.",
       "tips_en": "It can be windy, bring a light jacket.",
-      "description_en": "Astronomik Saat Kulesi'nin bulunduğu historic meydan. Offering one of the most impressiand views of the city, this spot is a paradise for photography enthusiasts. The colors it takes on, especially at sunset, provide a visual feast for visitors."
+      "description_en": "Astronomik Saat Kulesi'nin bulunduğu historic meydan. Offering one of the most impressiand views of the city, this spot is a paradise for photography enthusiasts. The colors it takes on, especially at sunset, provide a visual feast for visitors.",
+      "name_en": "Old Town Square"
     },
     {
       "name": "Old-New Synagogue",
@@ -2597,7 +2609,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Yanınıza bir örtü alıp çimlerde piknik yapabilirsiniz.",
       "tips_en": "Bring a blanket and have a picnic on the grass.",
-      "description_en": "Şehri tepeden gören, Eiffel benzeri kulesi olan yeşil alan. A perfect getaway for those who want to experience peaceful moments in nature. Ideal for getting away from the city noise, taking a breath, and capturing great photos."
+      "description_en": "Şehri tepeden gören, Eiffel benzeri kulesi olan yeşil alan. A perfect getaway for those who want to experience peaceful moments in nature. Ideal for getting away from the city noise, taking a breath, and capturing great photos.",
+      "name_en": "Petrin Hill"
     },
     {
       "id": "petrin-hill-gardens",
@@ -3110,7 +3123,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Sabah erken saatlerde giderek turist kalabalığından kaçınabilirsiniz.",
       "tips_en": "Go early in the morning to avoid tourist crowds.",
-      "description_en": "Kale içindeki muazzam gotik katedral. A unique treasure for history buffs, this andnue captivates visitors with details that shed light on the past. An ideal stop for those wishing to embark on a cultural journey."
+      "description_en": "Kale içindeki muazzam gotik katedral. A unique treasure for history buffs, this andnue captivates visitors with details that shed light on the past. An ideal stop for those wishing to embark on a cultural journey.",
+      "name_en": "St. Vitus Cathedral"
     },
     {
       "name": "Stalin (Metronome)",
@@ -3440,7 +3454,8 @@
       "bestTime": "09:00 - 18:00",
       "bestTime_en": "09:00 - 18:00",
       "tips": "Rehberli turla gezmek detayları anlamak için çok daha verimli.",
-      "tips_en": "A guided tour is much more efficient to understand the details."
+      "tips_en": "A guided tour is much more efficient to understand the details.",
+      "name_en": "Tyn Church"
     },
     {
       "name": "U Fleků",
@@ -3461,7 +3476,8 @@
       "bestTime": "09:00 - 18:00",
       "bestTime_en": "09:00 - 18:00",
       "tips": "Öğle yemeği menüleri genellikle akşamdan daha uygundur.",
-      "tips_en": "Lunch menus are usually cheaper than dinner."
+      "tips_en": "Lunch menus are usually cheaper than dinner.",
+      "name_en": "U Fleků"
     },
     {
       "name": "U Hrocha",
@@ -3670,7 +3686,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Çok popüler olduğu için rezervasyon yapmak veya erken gitmek şart.",
       "tips_en": "Since it's very popular, reservation or going early is a must.",
-      "description_en": "Modern Prag'ın alışandriş and iş merkezi. A place you must stop by to discoandr region-specific products and buy gifts for your loandd ones. Colorful shops and a liandly atmosphere will make your shopping experience much more enjoyable."
+      "description_en": "Modern Prag'ın alışandriş and iş merkezi. A place you must stop by to discoandr region-specific products and buy gifts for your loandd ones. Colorful shops and a liandly atmosphere will make your shopping experience much more enjoyable.",
+      "name_en": "Venceslas Square"
     },
     {
       "name": "Villa Müller",

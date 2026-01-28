@@ -25,7 +25,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Kışın kano yapmak çok farklı bir deneyimdir.",
       "tips_en": "Kayaking in winter is a very different experience.",
-      "subcategory": "Kano"
+      "subcategory": "Kano",
+      "name_en": "Active North"
     },
     {
       "name": "Fjellheisen Viewpoint",
@@ -67,7 +68,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Maç günü atmosfer çok güzeldir.",
       "tips_en": "Atmosphere is very nice on match day.",
-      "subcategory": "Stadyum"
+      "subcategory": "Stadyum",
+      "name_en": "Alfheim Stadion"
     },
     {
       "name": "Amfi Pyramiden",
@@ -88,7 +90,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Spor mağazalarında indirimler olabilir.",
       "tips_en": "Look for discounts in sports stores.",
-      "subcategory": "AVM"
+      "subcategory": "AVM",
+      "name_en": "Amfi Pyramiden"
     },
     {
       "name": "Arctic Cathedral",
@@ -108,7 +111,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Fotoğraf çekimi için en iyi ışık gün batımına yakındır.",
       "tips_en": "Best light for photography is near sunset.",
-      "description_en": "Modern mimarisiyle buzdağını andıran simge yapı. A unique treasure for history buffs, this andnue captivates visitors with details that shed light on the past. An ideal stop for those wishing to embark on a cultural journey."
+      "description_en": "Modern mimarisiyle buzdağını andıran simge yapı. A unique treasure for history buffs, this andnue captivates visitors with details that shed light on the past. An ideal stop for those wishing to embark on a cultural journey.",
+      "name_en": "Arctic Cathedral"
     },
     {
       "name": "Arctic Cathedral (Night)",
@@ -130,7 +134,8 @@
       "tips": "Köprüden gece fotoğrafı çekmeyi unutmayın.",
       "tips_en": "Don't forget to take night photo from the bridge.",
       "subcategory": "Işıklandırma",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Arctic Cathedral (Night)"
     },
     {
       "name": "Arctic University Museum of Norway",
@@ -151,7 +156,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Sami kültürüne dair en geniş arşive sahiptir.",
       "tips_en": "Has the widest archive on Sami culture.",
-      "subcategory": "Üniversite"
+      "subcategory": "Üniversite",
+      "name_en": "Arctic University Museum of Norway"
     },
     {
       "name": "Arctic-Alpine Botanic Garden",
@@ -172,7 +178,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Yazın 24 saat açıktır, gece güneşiyle gezilebilir.",
       "tips_en": "Open 24 hours in summer, can be visited with midnight sun.",
-      "subcategory": "Bahçe"
+      "subcategory": "Bahçe",
+      "name_en": "Arctic-Alpine Botanic Garden"
     },
     {
       "name": "Art of the Arctic",
@@ -193,7 +200,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Eviniz için güzel duvar dekorları bulabilirsiniz.",
       "tips_en": "You can find nice wall decors for your home.",
-      "subcategory": "Sanat"
+      "subcategory": "Sanat",
+      "name_en": "Art of the Arctic"
     },
     {
       "name": "Aurora Glamping",
@@ -214,7 +222,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Çok popülerdir, aylar öncesinden yer ayırtın.",
       "tips_en": "Very popular, book months in advance.",
-      "subcategory": "Glamping"
+      "subcategory": "Glamping",
+      "name_en": "Aurora Glamping"
     },
     {
       "name": "Aurora Kino Fokus",
@@ -235,7 +244,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Kütüphane ile aynı mimari dili konuşur.",
       "tips_en": "Speaks the same architectural language as the library.",
-      "subcategory": "Sinema"
+      "subcategory": "Sinema",
+      "name_en": "Aurora Kino Fokus"
     },
     {
       "name": "Aurora Spirit Distillery",
@@ -256,7 +266,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Tromso'dan günübirlik turlarla gidilebilir.",
       "tips_en": "Accessible by day trips from Tromso.",
-      "subcategory": "Damıtımevi"
+      "subcategory": "Damıtımevi",
+      "name_en": "Aurora Spirit Distillery"
     },
     {
       "name": "Bardus Bistro",
@@ -277,7 +288,8 @@
       "bestTime": "09:00 - 18:00",
       "bestTime_en": "09:00 - 18:00",
       "tips": "Akşam yemeği için rezervasyon yaptırmak şart.",
-      "tips_en": "Reservation is a must for dinner."
+      "tips_en": "Reservation is a must for dinner.",
+      "name_en": "Bardus Bistro"
     },
     {
       "name": "Blåmann",
@@ -298,7 +310,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Kaya tırmanışı becerisi gerektirebilir.",
       "tips_en": "Might require rock climbing skills.",
-      "subcategory": "Dağ"
+      "subcategory": "Dağ",
+      "name_en": "Blåmann"
     },
     {
       "name": "Blåst Glasshytta",
@@ -319,7 +332,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Mavi renkli cam tasarımları meşhurdur.",
       "tips_en": "Blue colored glass designs are famous.",
-      "subcategory": "Atölye"
+      "subcategory": "Atölye",
+      "name_en": "Blåst Glasshytta"
     },
     {
       "name": "Brim Explorer",
@@ -340,7 +354,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Sessiz motor sayesinde hayvanlara çok yaklaşabilirsiniz.",
       "tips_en": "You can get very close to animals thanks to silent engine.",
-      "subcategory": "Tekne Turu"
+      "subcategory": "Tekne Turu",
+      "name_en": "Brim Explorer"
     },
     {
       "name": "Brosmetinden",
@@ -361,7 +376,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Gün batımını izlemek için en iyi noktalardan biridir.",
       "tips_en": "One of the best spots to watch sunset.",
-      "subcategory": "Yürüyüş"
+      "subcategory": "Yürüyüş",
+      "name_en": "Brosmetinden"
     },
     {
       "name": "Camp Tamok",
@@ -382,7 +398,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Tromso'dan transferleri vardır.",
       "tips_en": "Has transfers from Tromso.",
-      "subcategory": "Kamp"
+      "subcategory": "Kamp",
+      "name_en": "Camp Tamok"
     },
     {
       "name": "Charlottenlund",
@@ -403,7 +420,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Yerel halkın en sevdiği aktivite alanıdır.",
       "tips_en": "Favorite activity area of locals.",
-      "subcategory": "Rekreasyon"
+      "subcategory": "Rekreasyon",
+      "name_en": "Charlottenlund"
     },
     {
       "name": "Chasing Lights",
@@ -424,7 +442,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Küçük gruplarla çalışırlar.",
       "tips_en": "They work with small groups.",
-      "subcategory": "Tur"
+      "subcategory": "Tur",
+      "name_en": "Chasing Lights"
     },
     {
       "name": "Dog Sledding Camp",
@@ -446,7 +465,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Grup indirimi olup olmadığını sorun.",
       "tips_en": "Ask if there is a group discount.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Dog Sledding Camp"
     },
     {
       "name": "Dragøy",
@@ -467,7 +487,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Balık çorbası (fiskesuppe) çok lezzetlidir.",
       "tips_en": "Fish soup (fiskesuppe) is very delicious.",
-      "subcategory": "Balıkçı"
+      "subcategory": "Balıkçı",
+      "name_en": "Dragøy"
     },
     {
       "name": "Emma's Drømmekjøkken",
@@ -489,7 +510,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Nakite hazırlıklı olun, bazı yerel yerler kart kabul etmeyebilir.",
       "tips_en": "Be prepared with cash, some local places might not accept cards.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Emma's Drømmekjøkken"
     },
     {
       "name": "Ersfjord Beach",
@@ -510,7 +532,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Kuzey ışıkları avcılarının popüler bekleme noktasıdır.",
       "tips_en": "Popular waiting spot for Northern Lights hunters.",
-      "subcategory": "Kıyı"
+      "subcategory": "Kıyı",
+      "name_en": "Ersfjord Beach"
     },
     {
       "name": "Ersfjordbotn Viewpoint",
@@ -553,7 +576,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Kahverengi peynir (Brunost) buradan daha uyguna alınır.",
       "tips_en": "Brown cheese (Brunost) is cheaper here.",
-      "subcategory": "Market"
+      "subcategory": "Market",
+      "name_en": "Eurospar Tromsø"
     },
     {
       "name": "Fangstmonumentet",
@@ -574,7 +598,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Tromso'nun avcılık geçmişini hatırlatır.",
       "tips_en": "Reminds of Tromso's hunting past.",
-      "subcategory": "Anıt"
+      "subcategory": "Anıt",
+      "name_en": "Fangstmonumentet"
     },
     {
       "name": "Finnlandsfjellet",
@@ -595,7 +620,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Tembel ışık avcıları için idealdir.",
       "tips_en": "Ideal for lazy light hunters.",
-      "subcategory": "Tepe"
+      "subcategory": "Tepe",
+      "name_en": "Finnlandsfjellet"
     },
     {
       "name": "Fjellheisen Cable Car",
@@ -615,7 +641,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Gün doğumu burada büyüleyicidir, uykunuzdan feragat etmeye değer.",
       "tips_en": "Sunrise is magical here, worth sacrificing sleep.",
-      "description_en": "Şehri and fiyortları kuşbakışı izlemek için teleferik. Offering one of the most impressiand views of the city, this spot is a paradise for photography enthusiasts. The colors it takes on, especially at sunset, provide a visual feast for visitors."
+      "description_en": "Şehri and fiyortları kuşbakışı izlemek için teleferik. Offering one of the most impressiand views of the city, this spot is a paradise for photography enthusiasts. The colors it takes on, especially at sunset, provide a visual feast for visitors.",
+      "name_en": "Fjellheisen Cable Car"
     },
     {
       "name": "Fjällräven Store",
@@ -636,7 +663,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Kanken çantaların her rengi bulunur.",
       "tips_en": "Every color of Kanken bags is available.",
-      "subcategory": "Mağaza"
+      "subcategory": "Mağaza",
+      "name_en": "Fjällräven Store"
     },
     {
       "name": "Flyt Yoga",
@@ -657,7 +685,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Derslere tek seferlik katılım (drop-in) mümkündür.",
       "tips_en": "Drop-in participation is possible.",
-      "subcategory": "Yoga"
+      "subcategory": "Yoga",
+      "name_en": "Flyt Yoga"
     },
     {
       "name": "Fløya",
@@ -678,7 +707,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Rüzgar burada çok sert olabilir.",
       "tips_en": "Wind can be very harsh here.",
-      "subcategory": "Dağ"
+      "subcategory": "Dağ",
+      "name_en": "Fløya"
     },
     {
       "name": "Folkeparken",
@@ -699,7 +729,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Yerel halkın haftasonu kaçış noktasıdır.",
       "tips_en": "Weekend getaway spot for locals.",
-      "subcategory": "Açık Hava Müzesi"
+      "subcategory": "Açık Hava Müzesi",
+      "name_en": "Folkeparken"
     },
     {
       "name": "Fotohuset Tromsø",
@@ -720,7 +751,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Tripod kiralamak için sorabilirsiniz.",
       "tips_en": "You can ask to rent a tripod.",
-      "subcategory": "Fotoğraf"
+      "subcategory": "Fotoğraf",
+      "name_en": "Fotohuset Tromsø"
     },
     {
       "name": "Full Steam Tromsø",
@@ -740,7 +772,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Öğle yemeği menüleri genellikle akşamdan daha uygundur.",
       "tips_en": "Lunch menus are usually cheaper than dinner.",
-      "description_en": "both balık müzesi both de deniz ürünleri restoranı. A great option to taste local flavors and spend a pleasant eandning. It offers an unforgettable experience appealing to your palate with its friendly atmosphere and quality service."
+      "description_en": "both balık müzesi both de deniz ürünleri restoranı. A great option to taste local flavors and spend a pleasant eandning. It offers an unforgettable experience appealing to your palate with its friendly atmosphere and quality service.",
+      "name_en": "Full Steam Tromsø"
     },
     {
       "name": "Galleri Nord",
@@ -761,7 +794,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Yerel ressamların tablolarını satın alabilirsiniz.",
       "tips_en": "You can buy paintings by local painters.",
-      "subcategory": "Galeri"
+      "subcategory": "Galeri",
+      "name_en": "Galleri Nord"
     },
     {
       "name": "Galleriet",
@@ -782,7 +816,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Uygun fiyatlı sanat eserleri bulunabilir.",
       "tips_en": "Affordable artworks can be found.",
-      "subcategory": "Galeri"
+      "subcategory": "Galeri",
+      "name_en": "Galleriet"
     },
     {
       "name": "Gifts of Norway",
@@ -803,7 +838,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Magnet koleksiyoncuları için çok seçenek var.",
       "tips_en": "Many options for magnet collectors.",
-      "subcategory": "Hediyelik"
+      "subcategory": "Hediyelik",
+      "name_en": "Gifts of Norway"
     },
     {
       "name": "Gjestehavna",
@@ -824,7 +860,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Yelkenlilerin direkleri fotoğraf için güzel fon oluşturur.",
       "tips_en": "Masts of sailboats create nice background for photos.",
-      "subcategory": "Liman"
+      "subcategory": "Liman",
+      "name_en": "Gjestehavna"
     },
     {
       "name": "Graffi Grill",
@@ -845,7 +882,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Ahşap binası çok otantiktir.",
       "tips_en": "Its wooden building is very authentic.",
-      "subcategory": "Restoran"
+      "subcategory": "Restoran",
+      "name_en": "Graffi Grill"
     },
     {
       "name": "Grotfjord Viewpoint",
@@ -866,7 +904,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Arabanızı güvenli bir cebe çekin.",
       "tips_en": "Pull your car to a safe pocket.",
-      "subcategory": "Seyir Terası"
+      "subcategory": "Seyir Terası",
+      "name_en": "Grotfjord Viewpoint"
     },
     {
       "name": "Grøtfjord Beach",
@@ -887,7 +926,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Kuzey ışıklarını izlemek için karanlık ve açık bir alandır.",
       "tips_en": "Dark and open area to watch Northern Lights.",
-      "subcategory": "Plaj"
+      "subcategory": "Plaj",
+      "name_en": "Grøtfjord Beach"
     },
     {
       "name": "Hella",
@@ -909,7 +949,8 @@
       "tips": "Kıyıdan olta ile balık tutmak serbesttir.",
       "tips_en": "Fishing with rod from shore is free.",
       "subcategory": "Kıyı",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Hella"
     },
     {
       "name": "Hermes II",
@@ -930,7 +971,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Teknenin hikayesini kaptandan dinleyin.",
       "tips_en": "Listen to the boat's story from the captain.",
-      "subcategory": "Tekne Turu"
+      "subcategory": "Tekne Turu",
+      "name_en": "Hermes II"
     },
     {
       "name": "Husfliden Tromsø",
@@ -951,7 +993,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Gerçek yün kazaklar ömürlüktür.",
       "tips_en": "Real wool sweaters last a lifetime.",
-      "subcategory": "El Sanatları"
+      "subcategory": "El Sanatları",
+      "name_en": "Husfliden Tromsø"
     },
     {
       "name": "Hålogaland Teater",
@@ -972,7 +1015,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Oyun olmasa bile fuaye alanını ve mimarisini görün.",
       "tips_en": "Even if there is no play, see the foyer area and architecture.",
-      "subcategory": "Tiyatro"
+      "subcategory": "Tiyatro",
+      "name_en": "Hålogaland Teater"
     },
     {
       "name": "Jekta Storsenter",
@@ -993,7 +1037,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Şehir merkezinden otobüsle gidilebilir.",
       "tips_en": "Accessible by bus from city center.",
-      "subcategory": "AVM"
+      "subcategory": "AVM",
+      "name_en": "Jekta Storsenter"
     },
     {
       "name": "Kaffebønna",
@@ -1015,7 +1060,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Laptop ile çalışmak için uygun, Wi-Fi hızı iyi.",
       "tips_en": "Suitable for working with a laptop, Wi-Fi is good.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Kaffebønna"
     },
     {
       "name": "Kaldfjord",
@@ -1036,7 +1082,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Yol kenarındaki ceplerde durup dürbünle izleyin.",
       "tips_en": "Stop at pockets on roadside and watch with binoculars.",
-      "subcategory": "Fiyort"
+      "subcategory": "Fiyort",
+      "name_en": "Kaldfjord"
     },
     {
       "name": "Kirkeparken",
@@ -1057,7 +1104,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Dondurma yiyip dinlenmek için en iyi yer.",
       "tips_en": "Best place to eat ice cream and relax.",
-      "subcategory": "Park"
+      "subcategory": "Park",
+      "name_en": "Kirkeparken"
     },
     {
       "name": "Kjølen",
@@ -1078,7 +1126,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Şehir ışıklarını izlemek için gece de çıkılabilir (kafa lambasıyla).",
       "tips_en": "Can serve to watch city lights at night (with headlamp).",
-      "subcategory": "Dağ"
+      "subcategory": "Dağ",
+      "name_en": "Kjølen"
     },
     {
       "name": "Kongsparken",
@@ -1099,7 +1148,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Kral Haakon heykeli buradadır.",
       "tips_en": "King Haakon statue is here.",
-      "subcategory": "Park"
+      "subcategory": "Park",
+      "name_en": "Kongsparken"
     },
     {
       "name": "Krane Art Gallery",
@@ -1120,7 +1170,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Cam işçiliği hediyelikler çok özeldir.",
       "tips_en": "Glasswork souvenirs are very special.",
-      "subcategory": "Galeri"
+      "subcategory": "Galeri",
+      "name_en": "Krane Art Gallery"
     },
     {
       "name": "Kurbadet",
@@ -1141,7 +1192,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Akustik konserler için mükemmeldir.",
       "tips_en": "Perfect for acoustic concerts.",
-      "subcategory": "Mekan"
+      "subcategory": "Mekan",
+      "name_en": "Kurbadet"
     },
     {
       "name": "Kvaløya Husky",
@@ -1162,7 +1214,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Köpeklerle daha fazla vakit geçirebilirsiniz.",
       "tips_en": "You can spend more time with dogs.",
-      "subcategory": "Husky"
+      "subcategory": "Husky",
+      "name_en": "Kvaløya Husky"
     },
     {
       "name": "Ludwig Mack Statue",
@@ -1183,7 +1236,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Fabrika turundan önce selam verin.",
       "tips_en": "Say hi before brewery tour.",
-      "subcategory": "Anıt"
+      "subcategory": "Anıt",
+      "name_en": "Ludwig Mack Statue"
     },
     {
       "name": "Lyngen Alps Viewpoint",
@@ -1204,7 +1258,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Manzara kartpostal gibidir.",
       "tips_en": "View is like a postcard.",
-      "subcategory": "Nokta"
+      "subcategory": "Nokta",
+      "name_en": "Lyngen Alps Viewpoint"
     },
     {
       "name": "Lyngen Lodge",
@@ -1225,7 +1280,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Dünya standartlarında gurme yemekleri vardır.",
       "tips_en": "Has world class gourmet food.",
-      "subcategory": "Lüks"
+      "subcategory": "Lüks",
+      "name_en": "Lyngen Lodge"
     },
     {
       "name": "Mack Bryggerier",
@@ -1246,7 +1302,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Ølhallen pub hemen yanındadır.",
       "tips_en": "Ølhallen pub is right next to it.",
-      "subcategory": "Bira Fabrikası"
+      "subcategory": "Bira Fabrikası",
+      "name_en": "Mack Bryggerier"
     },
     {
       "name": "Magic Ice Bar Tromsø",
@@ -1267,7 +1324,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Eldivenlerinizi çıkarmayın.",
       "tips_en": "Don't take off your gloves.",
-      "subcategory": "Bar"
+      "subcategory": "Bar",
+      "name_en": "Magic Ice Bar Tromsø"
     },
     {
       "name": "Mathallen Tromsø",
@@ -1289,7 +1347,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Şefin spesiyal tabağını sormaktan çekinmeyin.",
       "tips_en": "Don't hesitate to ask for the chef's special.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Mathallen Tromsø"
     },
     {
       "name": "Meieriet Chocolate Café",
@@ -1311,7 +1370,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Sabah kahvaltısı için erken gitmekte fayda var, taze kruvasanlar bitiyor.",
       "tips_en": "Go early for breakfast, fresh croissants run out.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Meieriet Chocolate Café"
     },
     {
       "name": "Nattmålsfjellet",
@@ -1332,7 +1392,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Çocuklu aileler için uygundur.",
       "tips_en": "Suitable for families with children.",
-      "subcategory": "Yürüyüş"
+      "subcategory": "Yürüyüş",
+      "name_en": "Nattmålsfjellet"
     },
     {
       "name": "Nerstranda Shopping",
@@ -1354,7 +1415,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Pazarlık yapmayı deneyebilirsiniz (nazikçe).",
       "tips_en": "You might try bargaining (politely).",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Nerstranda Shopping"
     },
     {
       "name": "Nordnorsk Kunstmuseum (Shop)",
@@ -1375,7 +1437,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Sanat meraklıları için harika hediyeler var.",
       "tips_en": "Great gifts for art enthusiasts.",
-      "subcategory": "Müze Mağazası"
+      "subcategory": "Müze Mağazası",
+      "name_en": "Nordnorsk Kunstmuseum (Shop)"
     },
     {
       "name": "Nordtinden",
@@ -1396,7 +1459,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Açık havalarda çok uzakları görebilirsiniz.",
       "tips_en": "You can see very far in clear weather.",
-      "subcategory": "Dağ"
+      "subcategory": "Dağ",
+      "name_en": "Nordtinden"
     },
     {
       "name": "Norges Råfisklag",
@@ -1417,7 +1481,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Ticaret borsasıdır, içine girilmez ama mimarisi ilginçtir.",
       "tips_en": "It's a trade exchange, not entered but architecture is interesting.",
-      "subcategory": "Bina"
+      "subcategory": "Bina",
+      "name_en": "Norges Råfisklag"
     },
     {
       "name": "Norrøna Concept Store",
@@ -1438,7 +1503,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Kalitesi çok yüksektir ama pahalıdır.",
       "tips_en": "Quality is very high but expensive.",
-      "subcategory": "Mağaza"
+      "subcategory": "Mağaza",
+      "name_en": "Norrøna Concept Store"
     },
     {
       "name": "Northern Lights Chase",
@@ -1459,7 +1525,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Profesyonel fotoğraflarınızı çekerler.",
       "tips_en": "They take your professional photos.",
-      "subcategory": "Tur"
+      "subcategory": "Tur",
+      "name_en": "Northern Lights Chase"
     },
     {
       "name": "Northern Lights Observatory",
@@ -1480,7 +1547,8 @@
       "bestTime": "09:00 - 18:00",
       "bestTime_en": "09:00 - 18:00",
       "tips": "Kıyafetinizin aktiviteye uygun olduğundan emin olun.",
-      "tips_en": "Ensure your outfit is suitable for the activity."
+      "tips_en": "Ensure your outfit is suitable for the activity.",
+      "name_en": "Northern Lights Observatory"
     },
     {
       "name": "Northern Norwegian Art Museum",
@@ -1502,7 +1570,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Çantanızı vestiyere bırakmanız gerekebilir, hazırlıklı olun.",
       "tips_en": "You might need to leave bags at the cloakroom, be prepared.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Northern Norwegian Art Museum"
     },
     {
       "name": "OffTrack Observation Center",
@@ -1523,7 +1592,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Üşümek istemeyenler için idealdir.",
       "tips_en": "Ideal for those who don't want to get cold.",
-      "subcategory": "Gözlemevi"
+      "subcategory": "Gözlemevi",
+      "name_en": "OffTrack Observation Center"
     },
     {
       "name": "Oldervik",
@@ -1544,7 +1614,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Fotoğraf safarisi için güzel bir rotadır.",
       "tips_en": "Nice route for photo safari.",
-      "subcategory": "Köy"
+      "subcategory": "Köy",
+      "name_en": "Oldervik"
     },
     {
       "name": "Ornfløya",
@@ -1565,7 +1636,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Az eforla çok güzel kareler yakalarsınız.",
       "tips_en": "You catch beautiful shots with little effort.",
-      "subcategory": "Yürüyüş"
+      "subcategory": "Yürüyüş",
+      "name_en": "Ornfløya"
     },
     {
       "name": "Perspective Museum",
@@ -1586,7 +1658,8 @@
       "bestTime": "09:00 - 18:00",
       "bestTime_en": "09:00 - 18:00",
       "tips": "Çantanızı vestiyere bırakmanız gerekebilir, hazırlıklı olun.",
-      "tips_en": "You might need to leave bags at the cloakroom, be prepared."
+      "tips_en": "You might need to leave bags at the cloakroom, be prepared.",
+      "name_en": "Perspective Museum"
     },
     {
       "name": "Polar Museum",
@@ -1606,7 +1679,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Çantanızı vestiyere bırakmanız gerekebilir, hazırlıklı olun.",
       "tips_en": "You might need to leave bags at the cloakroom, be prepared.",
-      "description_en": "Kutup keşifleri and avcılık tarihini anlatan museum. A must-see for art and history loandrs, this museum stands out with its rich collection. The exhibited works will allow you to deeply understand the region's cultural heritage."
+      "description_en": "Kutup keşifleri and avcılık tarihini anlatan museum. A must-see for art and history loandrs, this museum stands out with its rich collection. The exhibited works will allow you to deeply understand the region's cultural heritage.",
+      "name_en": "Polar Museum"
     },
     {
       "name": "Polaria",
@@ -1648,7 +1722,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Geminin içine girip gezebilirsiniz.",
       "tips_en": "You can enter inside the ship and tour.",
-      "subcategory": "Gemi"
+      "subcategory": "Gemi",
+      "name_en": "Polstjerna"
     },
     {
       "name": "Port of Tromsø",
@@ -1669,7 +1744,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Hurtigruten gemilerinin kalkışını izleyin.",
       "tips_en": "Watch departure of Hurtigruten ships.",
-      "subcategory": "Liman"
+      "subcategory": "Liman",
+      "name_en": "Port of Tromsø"
     },
     {
       "name": "Posthallen",
@@ -1690,7 +1766,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Şu anda ofis olarak kullanılıyor ama dışı güzel.",
       "tips_en": "Currently used as offices but exterior is nice.",
-      "subcategory": "Bina"
+      "subcategory": "Bina",
+      "name_en": "Posthallen"
     },
     {
       "name": "Prestvannet Lake",
@@ -1710,7 +1787,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Güneş kremi ve şapka almayı unutmayın.",
       "tips_en": "Don't forget sunscreen and a hat.",
-      "description_en": "Şehir merkezinin tepesinde huzurlu bir göl. A perfect getaway for those who want to experience peaceful moments in nature. Ideal for getting away from the city noise, taking a breath, and capturing great photos."
+      "description_en": "Şehir merkezinin tepesinde huzurlu bir göl. A perfect getaway for those who want to experience peaceful moments in nature. Ideal for getting away from the city noise, taking a breath, and capturing great photos.",
+      "name_en": "Prestvannet Lake"
     },
     {
       "name": "Prostneset",
@@ -1731,7 +1809,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Bekleme salonu sıcak ve manzaralıdır.",
       "tips_en": "Waiting hall is warm and has a view.",
-      "subcategory": "Terminal"
+      "subcategory": "Terminal",
+      "name_en": "Prostneset"
     },
     {
       "name": "Pust Tromsø",
@@ -1752,7 +1831,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Önceden rezervasyon şarttır.",
       "tips_en": "Reservation is required in advance.",
-      "subcategory": "Sauna"
+      "subcategory": "Sauna",
+      "name_en": "Pust Tromsø"
     },
     {
       "name": "Raketten Bar & Pølse",
@@ -1773,7 +1853,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Ateşin başında oturup sosisli yiyin.",
       "tips_en": "Sit by the fire and eat a hot dog.",
-      "subcategory": "Kiosk"
+      "subcategory": "Kiosk",
+      "name_en": "Raketten Bar & Pølse"
     },
     {
       "name": "Ramfjord",
@@ -1794,7 +1875,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Işık kirliliği azdır.",
       "tips_en": "Light pollution is low.",
-      "subcategory": "Fiyort"
+      "subcategory": "Fiyort",
+      "name_en": "Ramfjord"
     },
     {
       "name": "Reimper's",
@@ -1815,7 +1897,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Yaşlı yerlilerin buluşma noktasıdır.",
       "tips_en": "Meeting point for elderly locals.",
-      "subcategory": "Mekan"
+      "subcategory": "Mekan",
+      "name_en": "Reimper's"
     },
     {
       "name": "Rekvik Beach",
@@ -1837,7 +1920,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Yanınıza bir örtü alıp çimlerde piknik yapabilirsiniz.",
       "tips_en": "Bring a blanket and have a picnic on the grass.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Rekvik Beach"
     },
     {
       "name": "Risø Mat & Kaffebar",
@@ -1858,7 +1942,8 @@
       "tips": "Sessiz bir köşe bulup kitap okumak için ideal.",
       "tips_en": "Ideal for finding a quiet corner and reading a book.",
       "description_en": "Şehrin en iyi kahandsi and tarçınlı çörekleri. One of the right addresses to relieand the tiredness of the day and relax with a delicious coffee. The warm ambiance of the andnue and the sweet surprises it offers will turn your break into pleasure.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Risø Mat & Kaffebar"
     },
     {
       "name": "Roald Amundsen Statue",
@@ -1879,7 +1964,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Güneşli günlerde parkta oturmak keyiflidir.",
       "tips_en": "Pleasant to sit in the park on sunny days.",
-      "subcategory": "Anıt"
+      "subcategory": "Anıt",
+      "name_en": "Roald Amundsen Statue"
     },
     {
       "name": "Rådstua Teaterhus",
@@ -1900,7 +1986,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Deneysel sanat sevenler için.",
       "tips_en": "For those who love experimental art.",
-      "subcategory": "Tiyatro"
+      "subcategory": "Tiyatro",
+      "name_en": "Rådstua Teaterhus"
     },
     {
       "name": "Rødbanken",
@@ -1921,7 +2008,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "İçindeki Sparebank1 sergisine göz atabilirsiniz.",
       "tips_en": "You can check out Sparebank1 exhibition inside.",
-      "subcategory": "Bina"
+      "subcategory": "Bina",
+      "name_en": "Rødbanken"
     },
     {
       "name": "Rødtind",
@@ -1942,7 +2030,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Tepesinde rüzgar kesici küçük bir kulübe vardır.",
       "tips_en": "There is a small windbreaker hut on top.",
-      "subcategory": "Yürüyüş"
+      "subcategory": "Yürüyüş",
+      "name_en": "Rødtind"
     },
     {
       "name": "Sandnessundet Bridge",
@@ -1963,7 +2052,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Gün batımında geçerken manzara harikadır.",
       "tips_en": "View is great while crossing at sunset.",
-      "subcategory": "Köprü"
+      "subcategory": "Köprü",
+      "name_en": "Sandnessundet Bridge"
     },
     {
       "name": "Science Centre of Northern Norway (Nordnorsk Vitensenter)",
@@ -1984,7 +2074,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Planetaryum şov saatlerini önceden kontrol edin.",
       "tips_en": "Check planetarium show times in advance.",
-      "subcategory": "Bilim"
+      "subcategory": "Bilim",
+      "name_en": "Science Centre of Northern Norway (Nordnorsk Vitensenter)"
     },
     {
       "name": "Sherpatrappa",
@@ -2005,7 +2096,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Su almayı unutmayın, efor gerektirir.",
       "tips_en": "Don't forget water, requires effort.",
-      "subcategory": "Yürüyüş"
+      "subcategory": "Yürüyüş",
+      "name_en": "Sherpatrappa"
     },
     {
       "name": "Skansen Fort",
@@ -2026,7 +2118,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Limanın hemen yanı başındadır.",
       "tips_en": "Right next to the harbor.",
-      "subcategory": "Kale"
+      "subcategory": "Kale",
+      "name_en": "Skansen Fort"
     },
     {
       "name": "Skansen Quay",
@@ -2047,7 +2140,8 @@
       "bestTime": "09:00 - 18:00",
       "bestTime_en": "09:00 - 18:00",
       "tips": "Teleskop/dürbün varsa yanınıza alın.",
-      "tips_en": "Bring a telescope/binoculars if you have them."
+      "tips_en": "Bring a telescope/binoculars if you have them.",
+      "name_en": "Skansen Quay"
     },
     {
       "name": "Skarven Restaurant",
@@ -2068,7 +2162,8 @@
       "bestTime": "09:00 - 18:00",
       "bestTime_en": "09:00 - 18:00",
       "tips": "Yerel şarapları denemenizi öneririz.",
-      "tips_en": "We recommend trying local wines."
+      "tips_en": "We recommend trying local wines.",
+      "name_en": "Skarven Restaurant"
     },
     {
       "name": "Skittenelv Camping",
@@ -2089,7 +2184,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Dünyanın en kuzeyindeki açık hava su parkıdır.",
       "tips_en": "World's northernmost outdoor water park.",
-      "subcategory": "Kamping"
+      "subcategory": "Kamping",
+      "name_en": "Skittenelv Camping"
     },
     {
       "name": "Skulsfjord",
@@ -2110,7 +2206,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Araba ile güzel bir yan rotadır.",
       "tips_en": "Nice side route by car.",
-      "subcategory": "Köy"
+      "subcategory": "Köy",
+      "name_en": "Skulsfjord"
     },
     {
       "name": "Small Projects",
@@ -2132,7 +2229,8 @@
       "tips": "Haftasonları kahve ve sohbet etkinlikleri olur.",
       "tips_en": "Coffee and chat events happen on weekends.",
       "subcategory": "Galeri",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Small Projects"
     },
     {
       "name": "Smørtorget Café",
@@ -2153,7 +2251,8 @@
       "bestTime": "09:00 - 18:00",
       "bestTime_en": "09:00 - 18:00",
       "tips": "Dışarıdaki masalarda oturup gelen geçeni izlemek çok keyifli.",
-      "tips_en": "Sitting at outdoor tables and people-watching is very pleasant."
+      "tips_en": "Sitting at outdoor tables and people-watching is very pleasant.",
+      "name_en": "Smørtorget Café"
     },
     {
       "name": "Sommarøy",
@@ -2174,7 +2273,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Köprü manzarası fotoğrafçılar için idealdir.",
       "tips_en": "Bridge view is ideal for photographers.",
-      "subcategory": "Ada"
+      "subcategory": "Ada",
+      "name_en": "Sommarøy"
     },
     {
       "name": "Sommarøy Arctic Hotel",
@@ -2195,7 +2295,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Saunası denize sıfırdır.",
       "tips_en": "Sauna is right by the sea.",
-      "subcategory": "Otel"
+      "subcategory": "Otel",
+      "name_en": "Sommarøy Arctic Hotel"
     },
     {
       "name": "Steinnyra",
@@ -2217,7 +2318,8 @@
       "tips": "Deniz kenarında yürüyüş için güzeldir.",
       "tips_en": "Nice for a walk by the sea.",
       "subcategory": "Plaj",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Steinnyra"
     },
     {
       "name": "Storgata",
@@ -2238,7 +2340,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Kışın ışıklandırmalarla çok romantik olur.",
       "tips_en": "Becomes very romantic with lights in winter.",
-      "subcategory": "Cadde"
+      "subcategory": "Cadde",
+      "name_en": "Storgata"
     },
     {
       "name": "Studenthuset Driv",
@@ -2259,7 +2362,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Etkinlik takvimini kontrol edin, ünlü gruplar gelebilir.",
       "tips_en": "Check event calendar, famous bands might come.",
-      "subcategory": "Kulüp"
+      "subcategory": "Kulüp",
+      "name_en": "Studenthuset Driv"
     },
     {
       "name": "Sydspissen",
@@ -2280,7 +2384,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Telegrafbukta'nın devamındadır.",
       "tips_en": "It is the continuation of Telegrafbukta.",
-      "subcategory": "Burun"
+      "subcategory": "Burun",
+      "name_en": "Sydspissen"
     },
     {
       "name": "Telegrafbukta Beach",
@@ -2301,7 +2406,8 @@
       "tips": "Güneş kremi ve şapka almayı unutmayın.",
       "tips_en": "Don't forget sunscreen and a hat.",
       "description_en": "Yazın gece yarısı güneşini izlemek için ideal sahil parkı. A perfect getaway for those who want to experience peaceful moments in nature. Ideal for getting away from the city noise, taking a breath, and capturing great photos.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Telegrafbukta Beach"
     },
     {
       "name": "Troll Museum",
@@ -2322,7 +2428,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Çocuklar ve masal sevenler için harika.",
       "tips_en": "Great for kids and fairytale lovers.",
-      "subcategory": "Folklor"
+      "subcategory": "Folklor",
+      "name_en": "Troll Museum"
     },
     {
       "name": "Tromsdalstinden",
@@ -2343,7 +2450,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Sadece yazın ve deneyimliyseniz deneyin.",
       "tips_en": "Try only in summer and if experienced.",
-      "subcategory": "Dağ"
+      "subcategory": "Dağ",
+      "name_en": "Tromsdalstinden"
     },
     {
       "name": "Tromsø Alpinpark",
@@ -2364,7 +2472,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Ekipman kiralayabilirsiniz.",
       "tips_en": "You can rent equipment.",
-      "subcategory": "Kayak Merkezi"
+      "subcategory": "Kayak Merkezi",
+      "name_en": "Tromsø Alpinpark"
     },
     {
       "name": "Tromsø Arctic Reindeer",
@@ -2385,7 +2494,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Kışın kızak turu da yapabilirsiniz.",
       "tips_en": "You can also do sled tours in winter.",
-      "subcategory": "Kültür"
+      "subcategory": "Kültür",
+      "name_en": "Tromsø Arctic Reindeer"
     },
     {
       "name": "Tromsø Bridge",
@@ -2405,7 +2515,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Su ve rahat ayakkabı almayı kesinlikle unutmayın.",
       "tips_en": "Definitely don't forget water and comfortable shoes.",
-      "description_en": "Merkezi and anakarayı bağlayan ikonik köprü. Offering one of the most impressiand views of the city, this spot is a paradise for photography enthusiasts. The colors it takes on, especially at sunset, provide a visual feast for visitors."
+      "description_en": "Merkezi and anakarayı bağlayan ikonik köprü. Offering one of the most impressiand views of the city, this spot is a paradise for photography enthusiasts. The colors it takes on, especially at sunset, provide a visual feast for visitors.",
+      "name_en": "Tromsø Bridge"
     },
     {
       "name": "Tromsø Bridge (Pedestrian Walk)",
@@ -2426,7 +2537,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Rüzgara karşı hazırlıklı olun.",
       "tips_en": "Be prepared against wind.",
-      "subcategory": "Yürüyüş"
+      "subcategory": "Yürüyüş",
+      "name_en": "Tromsø Bridge (Pedestrian Walk)"
     },
     {
       "name": "Tromsø Camping",
@@ -2447,7 +2559,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Doğa içinde ucuza konaklama seçeneğidir.",
       "tips_en": "Cheap accommodation option in nature.",
-      "subcategory": "Kamping"
+      "subcategory": "Kamping",
+      "name_en": "Tromsø Camping"
     },
     {
       "name": "Tromsø Cathedral",
@@ -2469,7 +2582,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Sabah erken saatlerde giderek turist kalabalığından kaçınabilirsiniz.",
       "tips_en": "Go early in the morning to avoid tourist crowds.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Tromsø Cathedral"
     },
     {
       "name": "Tromsø Center for Contemporary Art",
@@ -2490,7 +2604,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Eski bir balık fabrikası binasındadır.",
       "tips_en": "Located in an old fish factory building.",
-      "subcategory": "Sanat Merkezi"
+      "subcategory": "Sanat Merkezi",
+      "name_en": "Tromsø Center for Contemporary Art"
     },
     {
       "name": "Tromsø Domkirke",
@@ -2536,7 +2651,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Sergiler sık sık değişir.",
       "tips_en": "Exhibitions change frequently.",
-      "subcategory": "Galeri"
+      "subcategory": "Galeri",
+      "name_en": "Tromsø Gallery of Contemporary Art"
     },
     {
       "name": "Tromsø Geist",
@@ -2557,7 +2673,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Gece yapılır, ürperticidir.",
       "tips_en": "Done at night, it is spooky.",
-      "subcategory": "Tur"
+      "subcategory": "Tur",
+      "name_en": "Tromsø Geist"
     },
     {
       "name": "Tromsø Golfpark",
@@ -2578,7 +2695,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Sadece yazın açıktır.",
       "tips_en": "Open only in summer.",
-      "subcategory": "Golf"
+      "subcategory": "Golf",
+      "name_en": "Tromsø Golfpark"
     },
     {
       "name": "Tromsø Ice Domes",
@@ -2599,7 +2717,8 @@
       "bestTime": "09:00 - 18:00",
       "bestTime_en": "09:00 - 18:00",
       "tips": "Kıyafetinizin aktiviteye uygun olduğundan emin olun.",
-      "tips_en": "Ensure your outfit is suitable for the activity."
+      "tips_en": "Ensure your outfit is suitable for the activity.",
+      "name_en": "Tromsø Ice Domes"
     },
     {
       "name": "Tromsø Kjøtt",
@@ -2620,7 +2739,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Vakumlu paket yaptırıp eve götürebilirsiniz.",
       "tips_en": "You can get vacuum pack to take home.",
-      "subcategory": "Şarküteri"
+      "subcategory": "Şarküteri",
+      "name_en": "Tromsø Kjøtt"
     },
     {
       "name": "Tromsø Maritime Skole",
@@ -2641,7 +2761,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Liman yürüyüşü sırasında dışarıdan görülebilir.",
       "tips_en": "Can be seen from outside during harbor walk.",
-      "subcategory": "Okul"
+      "subcategory": "Okul",
+      "name_en": "Tromsø Maritime Skole"
     },
     {
       "name": "Tromsø Mikrobryggeri",
@@ -2662,7 +2783,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Tadım tepsisi (flight) deneyin.",
       "tips_en": "Try tasting flight.",
-      "subcategory": "Pub"
+      "subcategory": "Pub",
+      "name_en": "Tromsø Mikrobryggeri"
     },
     {
       "name": "Tromsø Mini Zoo",
@@ -2683,7 +2805,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Soğuk havalarda çocuklar için iyi bir aktivitedir.",
       "tips_en": "Good activity for kids in cold weather.",
-      "subcategory": "Hayvanat Bahçesi"
+      "subcategory": "Hayvanat Bahçesi",
+      "name_en": "Tromsø Mini Zoo"
     },
     {
       "name": "Tromsø Outdoor",
@@ -2704,7 +2827,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Termal tulum kiralamak hayat kurtarır.",
       "tips_en": "Renting thermal suit saves lives.",
-      "subcategory": "Kiralama"
+      "subcategory": "Kiralama",
+      "name_en": "Tromsø Outdoor"
     },
     {
       "name": "Tromsø Outdoor Market",
@@ -2725,7 +2849,8 @@
       "bestTime": "09:00 - 18:00",
       "bestTime_en": "09:00 - 18:00",
       "tips": "Yerel tasarımcıların ürünlerine göz atın.",
-      "tips_en": "Check out products from local designers."
+      "tips_en": "Check out products from local designers.",
+      "name_en": "Tromsø Outdoor Market"
     },
     {
       "name": "Tromsø Public Library",
@@ -2746,7 +2871,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Üst kattan şehrin manzarasını izleyin, çok sessiz ve huzurlu.",
       "tips_en": "Watch the city view from the upper floor, very quiet and peaceful.",
-      "subcategory": "Kütüphane"
+      "subcategory": "Kütüphane",
+      "name_en": "Tromsø Public Library"
     },
     {
       "name": "Tromsø Rådhus (City Hall)",
@@ -2767,7 +2893,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Önündeki meydan geniştir.",
       "tips_en": "Square in front of it is wide.",
-      "subcategory": "Bina"
+      "subcategory": "Bina",
+      "name_en": "Tromsø Rådhus (City Hall)"
     },
     {
       "name": "Tromsø Ski & Guides",
@@ -2788,7 +2915,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Zirve tırmanışları için en güvenli yoldur.",
       "tips_en": "Safest way for summit climbs.",
-      "subcategory": "Rehberlik"
+      "subcategory": "Rehberlik",
+      "name_en": "Tromsø Ski & Guides"
     },
     {
       "name": "Tromsø Souvenir Shop",
@@ -2809,7 +2937,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Troll figürleri çok çeşitlidir.",
       "tips_en": "Troll figures are very varied.",
-      "subcategory": "Mağaza"
+      "subcategory": "Mağaza",
+      "name_en": "Tromsø Souvenir Shop"
     },
     {
       "name": "Tromsø Torg",
@@ -2830,7 +2959,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Kışın burada büyük bir Noel ağacı kurulur.",
       "tips_en": "A big Christmas tree is set up here in winter.",
-      "subcategory": "Meydan"
+      "subcategory": "Meydan",
+      "name_en": "Tromsø Torg"
     },
     {
       "name": "Tromsø Tourist Information",
@@ -2851,7 +2981,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Kuzey ışıkları tahmini alabilirsiniz.",
       "tips_en": "You can get Northern Lights forecast.",
-      "subcategory": "Ofis"
+      "subcategory": "Ofis",
+      "name_en": "Tromsø Tourist Information"
     },
     {
       "name": "Tromsø University Museum",
@@ -2872,7 +3003,8 @@
       "bestTime": "09:00 - 18:00",
       "bestTime_en": "09:00 - 18:00",
       "tips": "Sesli rehber (audio guide) kiralamak deneyimi ikiye katlar.",
-      "tips_en": "Renting an audio guide doubles the experience."
+      "tips_en": "Renting an audio guide doubles the experience.",
+      "name_en": "Tromsø University Museum"
     },
     {
       "name": "Tromsø Villmarkssenter",
@@ -2893,7 +3025,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Yavruları sevmek serbesttir.",
       "tips_en": "Petting puppies is allowed.",
-      "subcategory": "Husky"
+      "subcategory": "Husky",
+      "name_en": "Tromsø Villmarkssenter"
     },
     {
       "name": "Tromsø War Museum",
@@ -2914,7 +3047,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Tarih meraklıları için çok detaylı bilgiler var.",
       "tips_en": "Very detailed info for history buffs.",
-      "subcategory": "Tarih"
+      "subcategory": "Tarih",
+      "name_en": "Tromsø War Museum"
     },
     {
       "name": "Tromsøbadet",
@@ -2935,7 +3069,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Kötü havalarda çocuklu aileler için kurtarıcıdır.",
       "tips_en": "Lifesaver for families with children in bad weather.",
-      "subcategory": "Havuz"
+      "subcategory": "Havuz",
+      "name_en": "Tromsøbadet"
     },
     {
       "name": "Tromsøya",
@@ -2956,7 +3091,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Adanın ortası tamamen ormanlıktır.",
       "tips_en": "Middle of the island is completely forested.",
-      "subcategory": "Ada"
+      "subcategory": "Ada",
+      "name_en": "Tromsøya"
     },
     {
       "name": "Tromsøya Island Trail",
@@ -2978,7 +3114,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Su ve rahat ayakkabı almayı kesinlikle unutmayın.",
       "tips_en": "Definitely don't forget water and comfortable shoes.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Tromsøya Island Trail"
     },
     {
       "name": "Tromvik",
@@ -2999,7 +3136,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Buradan sonra yol yoktur, doğa başlar.",
       "tips_en": "No road after here, nature begins.",
-      "subcategory": "Köy"
+      "subcategory": "Köy",
+      "name_en": "Tromvik"
     },
     {
       "name": "UiT The Arctic University of Norway",
@@ -3020,7 +3158,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Kantini uygun fiyatlıdır.",
       "tips_en": "Canteen is affordable.",
-      "subcategory": "Kampüs"
+      "subcategory": "Kampüs",
+      "name_en": "UiT The Arctic University of Norway"
     },
     {
       "name": "Varden",
@@ -3042,7 +3181,8 @@
       "tips": "Kışın kayak pistleri buradan geçer.",
       "tips_en": "Ski tracks pass through here in winter.",
       "subcategory": "Tepe",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Varden"
     },
     {
       "name": "Verdensteatret",
@@ -3063,7 +3203,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Kafe bölümünde oturup iç mekanın tadını çıkarın.",
       "tips_en": "Sit in the cafe section and enjoy the interior.",
-      "subcategory": "Sinema"
+      "subcategory": "Sinema",
+      "name_en": "Verdensteatret"
     },
     {
       "name": "Vervet",
@@ -3084,7 +3225,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Sokak lezzetleri ve fırınlar buradadır.",
       "tips_en": "Street food and bakeries are here.",
-      "subcategory": "Bölge"
+      "subcategory": "Bölge",
+      "name_en": "Vervet"
     },
     {
       "name": "Vulkana",
@@ -3105,7 +3247,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Lüks ve unutulmaz bir deneyimdir.",
       "tips_en": "Luxury and unforgettable experience.",
-      "subcategory": "Spa"
+      "subcategory": "Spa",
+      "name_en": "Vulkana"
     },
     {
       "name": "Wabi Sabi Jewellery",
@@ -3126,7 +3269,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Kuzey ışıkları temalı kolyeleri çok zariftir.",
       "tips_en": "Northern lights themed necklaces are very elegant.",
-      "subcategory": "Takı"
+      "subcategory": "Takı",
+      "name_en": "Wabi Sabi Jewellery"
     },
     {
       "name": "Wandering Owl",
@@ -3147,7 +3291,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Rehberleri biyolog veya doğa bilimcidir.",
       "tips_en": "Guides are biologists or naturalists.",
-      "subcategory": "Tur"
+      "subcategory": "Tur",
+      "name_en": "Wandering Owl"
     },
     {
       "name": "Whale Watching Tours",
@@ -3168,7 +3313,8 @@
       "bestTime": "09:00 - 18:00",
       "bestTime_en": "09:00 - 18:00",
       "tips": "Kıyafetinizin aktiviteye uygun olduğundan emin olun.",
-      "tips_en": "Ensure your outfit is suitable for the activity."
+      "tips_en": "Ensure your outfit is suitable for the activity.",
+      "name_en": "Whale Watching Tours"
     },
     {
       "name": "Ølhallen",

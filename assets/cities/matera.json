@@ -25,7 +25,8 @@
       "bestTime": "09:00 - 18:00",
       "bestTime_en": "09:00 - 18:00",
       "tips": "Ev yapımı şaraplarını denemeden dönmeyin.",
-      "tips_en": "Don't leave without trying their house wines."
+      "tips_en": "Don't leave without trying their house wines.",
+      "name_en": "19a Buca Winery"
     },
     {
       "name": "5 Lire",
@@ -213,7 +214,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Dışarıdaki masalarda oturup gelen geçeni izlemek çok keyifli.",
       "tips_en": "Sitting at outdoor tables and people-watching is very pleasant.",
-      "description_en": "Akşamları canlanan, film seti gibi bir venue. One of the right addresses to relieand the tiredness of the day and relax with a delicious coffee. The warm ambiance of the andnue and the sweet surprises it offers will turn your break into pleasure."
+      "description_en": "Akşamları canlanan, film seti gibi bir venue. One of the right addresses to relieand the tiredness of the day and relax with a delicious coffee. The warm ambiance of the andnue and the sweet surprises it offers will turn your break into pleasure.",
+      "name_en": "Area 8"
     },
     {
       "name": "Baccanti",
@@ -234,7 +236,8 @@
       "bestTime": "09:00 - 18:00",
       "bestTime_en": "09:00 - 18:00",
       "tips": "Ev yapımı şaraplarını denemeden dönmeyin.",
-      "tips_en": "Don't leave without trying their house wines."
+      "tips_en": "Don't leave without trying their house wines.",
+      "name_en": "Baccanti"
     },
     {
       "name": "Bar Ridola",
@@ -350,7 +353,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Su ve rahat ayakkabı almayı kesinlikle unutmayın.",
       "tips_en": "Definitely don't forget water and comfortable shoes.",
-      "description_en": "Şehir manzarasının en iyi göründüğü karşı tepe. Offering one of the most impressiand views of the city, this spot is a paradise for photography enthusiasts. The colors it takes on, especially at sunset, provide a visual feast for visitors."
+      "description_en": "Şehir manzarasının en iyi göründüğü karşı tepe. Offering one of the most impressiand views of the city, this spot is a paradise for photography enthusiasts. The colors it takes on, especially at sunset, provide a visual feast for visitors.",
+      "name_en": "Belvedere di Murgia Timone"
     },
     {
       "name": "Bernalda",
@@ -468,7 +472,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Sabah kahvaltısı için erken gitmekte fayda var, taze kruvasanlar bitiyor.",
       "tips_en": "Go early for breakfast, fresh croissants run out.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Caffè Tripoli"
     },
     {
       "name": "Casa Cava",
@@ -536,7 +541,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Sesli rehber (audio guide) kiralamak deneyimi ikiye katlar.",
       "tips_en": "Renting an audio guide doubles the experience.",
-      "description_en": "Eski mağara yaşamını gösteren mobilyalı museum ev. A must-see for art and history loandrs, this museum stands out with its rich collection. The exhibited works will allow you to deeply understand the region's cultural heritage."
+      "description_en": "Eski mağara yaşamını gösteren mobilyalı museum ev. A must-see for art and history loandrs, this museum stands out with its rich collection. The exhibited works will allow you to deeply understand the region's cultural heritage.",
+      "name_en": "Casa Grotta nei Sassi"
     },
     {
       "name": "Casa Noha",
@@ -557,7 +563,8 @@
       "bestTime": "09:00 - 18:00",
       "bestTime_en": "09:00 - 18:00",
       "tips": "Bazı günler giriş ücretsiz olabilir, web sitesini kontrol edin.",
-      "tips_en": "Entry might be free on some days, check the website."
+      "tips_en": "Entry might be free on some days, check the website.",
+      "name_en": "Casa Noha"
     },
     {
       "name": "Castel del Monte",
@@ -698,7 +705,8 @@
       "bestTime": "09:00 - 18:00",
       "bestTime_en": "09:00 - 18:00",
       "tips": "Fotoğraf makinenizin şarjının dolu olduğundan emin olun.",
-      "tips_en": "Make sure your camera battery is full."
+      "tips_en": "Make sure your camera battery is full.",
+      "name_en": "Cave Hotel Stay"
     },
     {
       "name": "Centro Storico Monopoli",
@@ -983,7 +991,8 @@
       "bestTime": "09:00 - 18:00",
       "bestTime_en": "09:00 - 18:00",
       "tips": "Rehbere soru sormaktan çekinmeyin, çok ilginç hikayeler biliyorlar.",
-      "tips_en": "Don't hesitate to ask the guide questions, they know interesting stories."
+      "tips_en": "Don't hesitate to ask the guide questions, they know interesting stories.",
+      "name_en": "Cooking Class"
     },
     {
       "name": "Craco Ghost Town",
@@ -1389,7 +1398,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Sabah koşusu veya yoga yapan yerlileri görebilirsiniz.",
       "tips_en": "You can see locals jogging or doing yoga in the morning.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Gravina di Matera"
     },
     {
       "name": "Grotta Palazzese",
@@ -1555,7 +1565,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Fotoğraf makinenizin şarjının dolu olduğundan emin olun.",
       "tips_en": "Make sure your camera battery is full.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "James Bond Set Tour"
     },
     {
       "name": "Jazzo Gattini",
@@ -1720,7 +1731,8 @@
       "bestTime": "09:00 - 18:00",
       "bestTime_en": "09:00 - 18:00",
       "tips": "Öğle yemeği menüleri genellikle akşamdan daha uygundur.",
-      "tips_en": "Lunch menus are usually cheaper than dinner."
+      "tips_en": "Lunch menus are usually cheaper than dinner.",
+      "name_en": "La Lopa"
     },
     {
       "name": "La Talpa",
@@ -1906,7 +1918,8 @@
       "bestTime": "09:00 - 18:00",
       "bestTime_en": "09:00 - 18:00",
       "tips": "Rehberli turla gezmek detayları anlamak için çok daha verimli.",
-      "tips_en": "A guided tour is much more efficient to understand the details."
+      "tips_en": "A guided tour is much more efficient to understand the details.",
+      "name_en": "Madonna de Idris"
     },
     {
       "name": "Masseria Dragone",
@@ -1950,7 +1963,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Öğle 12:00-15:00 arası siesta nedeniyle kapalı olabilir, ziyaretinizi buna göre planlayın.",
       "tips_en": "It might be closed for siesta between 12:00-15:00, plan your visit accordingly.",
-      "description_en": "Şehrin en yüksek noktasındaki 13. yüzyıl katedrali. A unique treasure for history buffs, this andnue captivates visitors with details that shed light on the past. An ideal stop for those wishing to embark on a cultural journey."
+      "description_en": "Şehrin en yüksek noktasındaki 13. yüzyıl katedrali. A unique treasure for history buffs, this andnue captivates visitors with details that shed light on the past. An ideal stop for those wishing to embark on a cultural journey.",
+      "name_en": "Matera Cathedral"
     },
     {
       "name": "Matera Central Station",
@@ -2115,7 +2129,8 @@
       "bestTime": "09:00 - 18:00",
       "bestTime_en": "09:00 - 18:00",
       "tips": "Çantanızı vestiyere bırakmanız gerekebilir, hazırlıklı olun.",
-      "tips_en": "You might need to leave bags at the cloakroom, be prepared."
+      "tips_en": "You might need to leave bags at the cloakroom, be prepared.",
+      "name_en": "Museo Ridola"
     },
     {
       "name": "Museo del Territorio",
@@ -2161,7 +2176,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Çantanızı vestiyere bırakmanız gerekebilir, hazırlıklı olun.",
       "tips_en": "You might need to leave bags at the cloakroom, be prepared.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Museo della Civiltà Contadina"
     },
     {
       "name": "Nadi",
@@ -2207,7 +2223,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Nakite hazırlıklı olun, bazı yerel yerler kart kabul etmeyebilir.",
       "tips_en": "Be prepared with cash, some local places might not accept cards.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Oi Marì"
     },
     {
       "name": "Osteria Al Casale",
@@ -2347,7 +2364,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Rehberli turla gezmek detayları anlamak için çok daha verimli.",
       "tips_en": "A guided tour is much more efficient to understand the details.",
-      "description_en": "Meydanın altında gizli devasa yeraltı su sarnıcı. A unique treasure for history buffs, this andnue captivates visitors with details that shed light on the past. An ideal stop for those wishing to embark on a cultural journey."
+      "description_en": "Meydanın altında gizli devasa yeraltı su sarnıcı. A unique treasure for history buffs, this andnue captivates visitors with details that shed light on the past. An ideal stop for those wishing to embark on a cultural journey.",
+      "name_en": "Palombaro Lungo"
     },
     {
       "name": "Panificio Cifarelli",
@@ -2512,7 +2530,8 @@
       "tips": "Yanınıza bir örtü alıp çimlerde piknik yapabilirsiniz.",
       "tips_en": "Bring a blanket and have a picnic on the grass.",
       "description_en": "Kaya kiliseleriyle dolu doğa parkı. A perfect getaway for those who want to experience peaceful moments in nature. Ideal for getting away from the city noise, taking a breath, and capturing great photos.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Parco della Murgia Materana"
     },
     {
       "name": "Pasticceria Schiuma",
@@ -2605,7 +2624,8 @@
       "bestTime": "09:00 - 18:00",
       "bestTime_en": "09:00 - 18:00",
       "tips": "Gün batımından 30 dakika önce gelip yerinizi alın, manzara muazzam.",
-      "tips_en": "Arrive 30 mins before sunset to secure a spot, the view is magnificent."
+      "tips_en": "Arrive 30 mins before sunset to secure a spot, the view is magnificent.",
+      "name_en": "Piazzetta Pascoli"
     },
     {
       "name": "Pietrapertosa",
@@ -2817,7 +2837,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Nakite hazırlıklı olun, bazı yerel yerler kart kabul etmeyebilir.",
       "tips_en": "Be prepared with cash, some local places might not accept cards.",
-      "description_en": "Mağara içinde servis edwithn yöresel makarna 'Orecchiette'. A great option to taste local flavors and spend a pleasant eandning. It offers an unforgettable experience appealing to your palate with its friendly atmosphere and quality service."
+      "description_en": "Mağara içinde servis edwithn yöresel makarna 'Orecchiette'. A great option to taste local flavors and spend a pleasant eandning. It offers an unforgettable experience appealing to your palate with its friendly atmosphere and quality service.",
+      "name_en": "Ristorante Francesca"
     },
     {
       "name": "Ristorante Il Terrazzino",
@@ -2862,7 +2883,8 @@
       "bestTime": "09:00 - 18:00",
       "bestTime_en": "09:00 - 18:00",
       "tips": "Fotoğraf çekimi için en iyi ışık gün batımına yakındır.",
-      "tips_en": "Best light for photography is near sunset."
+      "tips_en": "Best light for photography is near sunset.",
+      "name_en": "San Giovanni Battista"
     },
     {
       "name": "San Nicola dei Greci",
@@ -2907,7 +2929,8 @@
       "bestTime": "09:00 - 18:00",
       "bestTime_en": "09:00 - 18:00",
       "tips": "Müze kartınız varsa girişte sıra beklemezsiniz.",
-      "tips_en": "You skip the line if you have a museum pass."
+      "tips_en": "You skip the line if you have a museum pass.",
+      "name_en": "San Pietro Caveoso"
     },
     {
       "name": "San Severino Lucano",
@@ -2976,7 +2999,8 @@
       "tips": "Rahat yürüyüş ayakkabıları şart, zemin çok kaygan olabilir. Gün batımında ışıkların yanışını izlemek büyülüdür.",
       "tips_en": "Comfortable walking shoes are a must, the ground can be slippery. Watching the lights turn on at sunset is magical.",
       "description_en": "Binlerce yıllık mağara evlerden oluşan historic bölge. A unique treasure for history buffs, this andnue captivates visitors with details that shed light on the past. An ideal stop for those wishing to embark on a cultural journey.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Sassi di Matera"
     },
     {
       "name": "Sassi in Miniatura",
@@ -3093,7 +3117,8 @@
       "bestTime": "09:00 - 18:00",
       "bestTime_en": "09:00 - 18:00",
       "tips": "Nakite hazırlıklı olun, bazı yerel yerler kart kabul etmeyebilir.",
-      "tips_en": "Be prepared with cash, some local places might not accept cards."
+      "tips_en": "Be prepared with cash, some local places might not accept cards.",
+      "name_en": "Soul Kitchen"
     },
     {
       "name": "Stadio XXI Settembre",
@@ -3211,7 +3236,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Rehberli turla gezmek detayları anlamak için çok daha verimli.",
       "tips_en": "A guided tour is much more efficient to understand the details.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Tramontano Castle"
     },
     {
       "name": "Trattoria Lucana",
@@ -3232,7 +3258,8 @@
       "bestTime": "09:00 - 18:00",
       "bestTime_en": "09:00 - 18:00",
       "tips": "Öğle yemeği menüleri genellikle akşamdan daha uygundur.",
-      "tips_en": "Lunch menus are usually cheaper than dinner."
+      "tips_en": "Lunch menus are usually cheaper than dinner.",
+      "name_en": "Trattoria Lucana"
     },
     {
       "name": "Trattoria Stano",
@@ -3374,7 +3401,8 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Su ve rahat ayakkabı almayı kesinlikle unutmayın.",
       "tips_en": "Definitely don't forget water and comfortable shoes.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Via Madonna delle Virtù"
     },
     {
       "name": "Via delle Beccherie",
@@ -3515,7 +3543,8 @@
       "tips": "Dışarıdaki masalarda oturup gelen geçeni izlemek çok keyifli.",
       "tips_en": "Sitting at outdoor tables and people-watching is very pleasant.",
       "description_en": "Ayaküstü atıştırmak için harika Panzerotti'ler. One of the right addresses to relieand the tiredness of the day and relax with a delicious coffee. The warm ambiance of the andnue and the sweet surprises it offers will turn your break into pleasure.",
-      "source": "firebase"
+      "source": "firebase",
+      "name_en": "Zia Bruna"
     }
   ],
   "heroImage": "https://ita.travel/user/blogimg/ostatni/aerial-view_matera_sunset.jpg",

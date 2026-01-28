@@ -37,7 +37,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/stockholm/abba_the_museum.jpg",
       "tips": "Bazı günler giriş ücretsiz olabilir, web sitesini kontrol edin.",
       "description_en": "Interactive exhibition about the pop band ABBA.",
-      "tips_en": "Entry might be free on some days, check the website."
+      "tips_en": "Entry might be free on some days, check the website.",
+      "name_en": "Abba The Museum"
     },
     {
       "name": "Acne Archive",
@@ -557,7 +558,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/stockholm/chokladkoppen.jpg",
       "tips": "Google Maps yorumlarına göz atarak ne yiyeceğinize karar verin.",
       "description_en": "Cosy cafe on Stortorget famous for its large bowls of hot chocolate and cinnamon buns.",
-      "tips_en": "Decide what to eat by checking Google Maps reviews."
+      "tips_en": "Decide what to eat by checking Google Maps reviews.",
+      "name_en": "Chokladkoppen"
     },
     {
       "name": "Dansmuseet",
@@ -633,7 +635,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/stockholm/djurgarden.jpg",
       "tips": "Sabah koşusu veya yoga yapan yerlileri görebilirsiniz.",
       "description_en": "Green island right in the middle of Stockholm, home to many historical buildings and museums.",
-      "tips_en": "You can see locals jogging or doing yoga in the morning."
+      "tips_en": "You can see locals jogging or doing yoga in the morning.",
+      "name_en": "Djurgården"
     },
     {
       "name": "Drop Coffee",
@@ -785,7 +788,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/stockholm/fabrique.jpg",
       "tips": "Hafta içi ziyaret etmek daha sakin bir deneyim sunar.",
       "description_en": "Artisanal stone-oven bakery famous for its sourdough bread and cardamom buns.",
-      "tips_en": "Visiting on weekdays offers a calmer experience."
+      "tips_en": "Visiting on weekdays offers a calmer experience.",
+      "name_en": "Fabrique"
     },
     {
       "name": "Fikabaren",
@@ -927,7 +931,7 @@
       "source": "firebase"
     },
     {
-      "name": "Fotografiska",
+      "name": "Fotografiska Museum",
       "area": "Södermalm",
       "category": "Müze",
       "subcategory": "Sanat",
@@ -939,11 +943,11 @@
         "fotoğraf"
       ],
       "distanceFromCenter": 0,
-      "lat": 59.31796189999999,
-      "lng": 18.0848269,
+      "lat": 59.3178,
+      "lng": 18.0822,
       "price": "medium",
       "rating": 4.5,
-      "description": "Dünyanın en büyük çağdaş fotoğraf müzelerinden biri. Eski bir gümrük binasında yer alır. Sergileri kadar üst katındaki ödüllü restoranı ve şehir manzaralı kafesi de ünlüdür.",
+      "description": "Dünyanın en büyük fotoğraf müzelerinden biri. Modern sergileri ve liman manzaralı kafesiyle Södermalm'ın gözdesi.",
       "bestTime": "Akşam",
       "bestFor": [
         "sanat",
@@ -953,9 +957,9 @@
       "source": "firebase",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/stockholm/fotografiska.jpg",
       "tips": "Çantanızı vestiyere bırakmanız gerekebilir, hazırlıklı olun.",
-      "description_en": "Centre for contemporary photography in the Södermalm district.",
+      "description_en": "One of the world's largest centers for contemporary photography, featuring a top-floor cafe with amazing harbor views.",
       "tips_en": "You might need to leave bags at the cloakroom, be prepared.",
-      "name_en": "Fotografiska Museum"
+      "name_en": "Fotografiska"
     },
     {
       "name": "Fåfängan",
@@ -1009,7 +1013,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/stockholm/gamla_stan.jpg",
       "tips": "Grup indirimi olup olmadığını sorun.",
       "description_en": "The Old Town, featuring colorful buildings, cobblestone streets, and the Royal Palace.",
-      "tips_en": "Ask if there is a group discount."
+      "tips_en": "Ask if there is a group discount.",
+      "name_en": "Gamla Stan"
     },
     {
       "name": "Gast Café",
@@ -1363,7 +1368,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/stockholm/hermans.jpg",
       "tips": "Yerel şarapları denemenizi öneririz.",
       "description_en": "Plant-based buffet restaurant with stunning views over Stockholm's inlet.",
-      "tips_en": "We recommend trying local wines."
+      "tips_en": "We recommend trying local wines.",
+      "name_en": "Hermans"
     },
     {
       "name": "Himlen",
@@ -1601,7 +1607,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/stockholm/junibacken.jpg",
       "tips": "Bazı günler giriş ücretsiz olabilir, web sitesini kontrol edin.",
       "description_en": "Children's cultural centre devoted to Swedish children's literature, especially Astrid Lindgren.",
-      "tips_en": "Entry might be free on some days, check the website."
+      "tips_en": "Entry might be free on some days, check the website.",
+      "name_en": "Junibacken"
     },
     {
       "name": "K25",
@@ -1838,7 +1845,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/stockholm/kungstradgarden_metro_istasyonu.jpg",
       "tips": "Çevredeki küçük hediyelik eşya dükkanlarına da uğrayın.",
       "description_en": "Metro station resembling an archaeological dig, featuring relics and statues.",
-      "tips_en": "Stop by the small souvenir shops around."
+      "tips_en": "Stop by the small souvenir shops around.",
+      "name_en": "Kungsträdgården Metro İstasyonu"
     },
     {
       "name": "Kvarnen",
@@ -2121,7 +2129,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/stockholm/meatballs_for_the_people.jpg",
       "tips": "Nakite hazırlıklı olun, bazı yerel yerler kart kabul etmeyebilir.",
       "description_en": "Trendy spot dedicated to Swedish meatballs, offering various types of meat including moose and reindeer.",
-      "tips_en": "Be prepared with cash, some local places might not accept cards."
+      "tips_en": "Be prepared with cash, some local places might not accept cards.",
+      "name_en": "Meatballs for the People"
     },
     {
       "name": "Medelhavsmuseet",
@@ -2505,7 +2514,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/stockholm/nobel_odulu_muzesi.jpg",
       "tips": "Biletinizi online alarak gişe sırasından kurtulun.",
       "description_en": "Museum devoted to the Nobel Prize and its laureates.",
-      "tips_en": "Buy tickets online to skip the box office line."
+      "tips_en": "Buy tickets online to skip the box office line.",
+      "name_en": "Nobel Ödülü Museum"
     },
     {
       "name": "Nordiska Müzesi",
@@ -2534,7 +2544,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/stockholm/nordiska_muzesi.jpg",
       "tips": "Biletinizi online alarak gişe sırasından kurtulun.",
       "description_en": "Museum dedicated to Swedish cultural history and ethnography.",
-      "tips_en": "Buy tickets online to skip the box office line."
+      "tips_en": "Buy tickets online to skip the box office line.",
+      "name_en": "Nordiska Museum"
     },
     {
       "name": "Norr Mälarstrand",
@@ -2749,7 +2760,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/stockholm/pelikan.jpg",
       "tips": "Akşam yemeği için rezervasyon yaptırmak şart.",
       "description_en": "Traditional Swedish beer hall serving classic husmanskost dishes.",
-      "tips_en": "Reservation is a must for dinner."
+      "tips_en": "Reservation is a must for dinner.",
+      "name_en": "Pelikan"
     },
     {
       "name": "Polismuseet",
@@ -2869,7 +2881,7 @@
       "source": "firebase"
     },
     {
-      "name": "Riddarholmen Church",
+      "name": "Riddarholmen Kilisesi",
       "name_en": "Riddarholmen Church",
       "area": "Gamla Stan",
       "category": "Dini",
@@ -3139,7 +3151,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/stockholm/skansen_acik_hava_muzesi.jpg",
       "tips": "Çantanızı vestiyere bırakmanız gerekebilir, hazırlıklı olun.",
       "description_en": "The world's oldest open-air museum and zoo, showcasing Swedish history and Nordic animals.",
-      "tips_en": "You might need to leave bags at the cloakroom, be prepared."
+      "tips_en": "You might need to leave bags at the cloakroom, be prepared.",
+      "name_en": "Skansen Açık Hava Museum"
     },
     {
       "name": "Skeppsholmen",
@@ -3215,10 +3228,11 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/stockholm/sofo_south_of_folkungagatan.jpg",
       "tips": "Yerel tasarımcıların ürünlerine göz atın.",
       "description_en": "Trendy district known for its eclectic shops, fashion, vintage stores, and cafes.",
-      "tips_en": "Check out products from local designers."
+      "tips_en": "Check out products from local designers.",
+      "name_en": "SoFo (South of Folkungagatan)"
     },
     {
-      "name": "Solna Centrum Metro",
+      "name": "Solna Centrum Metro İstasyonu",
       "name_en": "Solna Centrum Metro Station",
       "area": "Solna",
       "category": "Sanat",
@@ -3335,7 +3349,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/stockholm/stadion_metro_i_stasyonu.jpg",
       "tips": "Google Maps yorumlarına göz atarak ne yiyeceğinize karar verin.",
       "description_en": "Metro station known for its bright rainbow painting against a cave-blue sky.",
-      "tips_en": "Decide what to eat by checking Google Maps reviews."
+      "tips_en": "Decide what to eat by checking Google Maps reviews.",
+      "name_en": "Stadion Metro İstasyonu"
     },
     {
       "name": "Stadsbiblioteket (Public Library)",
@@ -3387,7 +3402,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/stockholm/stockholm_belediye_binasi_stadshuset.jpg",
       "tips": "Rehberli turla gezmek detayları anlamak için çok daha verimli.",
       "description_en": "Famous for its grand ceremonial halls and unique art pieces and is the venue of the Nobel Prize banquet.",
-      "tips_en": "A guided tour is much more efficient to understand the details."
+      "tips_en": "A guided tour is much more efficient to understand the details.",
+      "name_en": "Stockholm Belediye Binası (Stadshuset)"
     },
     {
       "name": "Stockholm Halk Kütüphanesi",
@@ -3416,7 +3432,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/stockholm/stockholm_halk_kutuphanesi.jpg",
       "tips": "Sabah erken saatlerde giderek turist kalabalığından kaçınabilirsiniz.",
       "description_en": "Rotunda library designed by Gunnar Asplund, a masterpiece of Nordic Classicism.",
-      "tips_en": "Go early in the morning to avoid tourist crowds."
+      "tips_en": "Go early in the morning to avoid tourist crowds.",
+      "name_en": "Stockholm Halk Kütüphanesi"
     },
     {
       "name": "Stockholm Sarayı",
@@ -3445,7 +3462,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/stockholm/stockholm_sarayi.jpg",
       "tips": "Fotoğraf çekimi için en iyi ışık gün batımına yakındır.",
       "description_en": "The official residence and major royal palace of the Swedish monarch.",
-      "tips_en": "Best light for photography is near sunset."
+      "tips_en": "Best light for photography is near sunset.",
+      "name_en": "Stockholm Palace"
     },
     {
       "name": "Stockholm Waterfront",
@@ -3543,7 +3561,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/stockholm/stortorget.jpg",
       "tips": "Akşam saatlerinde şehir ışıklarını izlemek çok romantik.",
       "description_en": "The oldest square in Stockholm, famous for its colorful gabled buildings.",
-      "tips_en": "Watching city lights in the evening is very romantic."
+      "tips_en": "Watching city lights in the evening is very romantic.",
+      "name_en": "Stortorget"
     },
     {
       "name": "Strandvägen",
@@ -3571,7 +3590,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/stockholm/strandvagen.jpg",
       "tips": "Gün doğumu burada büyüleyicidir, uykunuzdan feragat etmeye değer.",
       "description_en": "Stockholm's most exclusive boulevard, perfect for a seaside promenade.",
-      "tips_en": "Sunrise is magical here, worth sacrificing sleep."
+      "tips_en": "Sunrise is magical here, worth sacrificing sleep.",
+      "name_en": "Strandvägen"
     },
     {
       "name": "Strindbergsmuseet",
@@ -3784,7 +3804,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/stockholm/t_centralen_metro_i_stasyonu.jpg",
       "tips": "Hafta içi ziyaret etmek daha sakin bir deneyim sunar.",
       "description_en": "The main hub of Stockholm's metro, famous for its blue vine motifs on the cave-like walls.",
-      "tips_en": "Visiting on weekdays offers a calmer experience."
+      "tips_en": "Visiting on weekdays offers a calmer experience.",
+      "name_en": "T-Centralen Metro İstasyonu"
     },
     {
       "name": "Tak Stockholm",
@@ -4278,7 +4299,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/stockholm/vasa_muzesi.jpg",
       "tips": "Biletinizi online alarak gişe sırasından kurtulun.",
       "description_en": "Maritime museum displaying the only almost fully intact 17th-century ship that has ever been salvaged.",
-      "tips_en": "Buy tickets online to skip the box office line."
+      "tips_en": "Buy tickets online to skip the box office line.",
+      "name_en": "Vasa Museum"
     },
     {
       "name": "Vasa Parken",
@@ -4378,7 +4400,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/stockholm/vete_katten.jpg",
       "tips": "Yerel halkın favori noktalarından biri.",
       "description_en": "A classic Swedish patisserie and coffee house dating back to 1928, perfect for traditional Fika.",
-      "tips_en": "One of the favorite spots of the locals."
+      "tips_en": "One of the favorite spots of the locals.",
+      "name_en": "Vete-Katten"
     },
     {
       "name": "Victoria Tower",
@@ -4548,7 +4571,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/stockholm/ostermalms_saluhall.jpg",
       "tips": "Tax-free formunu istemeyi unutmayın.",
       "description_en": "Historic food hall serving exclusive Swedish delicacies and seafood.",
-      "tips_en": "Don't forget to ask for the Tax-free form."
+      "tips_en": "Don't forget to ask for the Tax-free form.",
+      "name_en": "Östermalms Saluhall"
     },
     {
       "name": "Stockholm City Hall (Stadshuset)",
@@ -4614,7 +4638,7 @@
         "street art",
         "mağara"
       ],
-      "lat": 59.359,
+      "lat": 59359.0,
       "lng": 17.9985,
       "rating": 4.8,
       "description": "Kıpkırmızı tavanı ve yeşil orman detaylarıyla dünyanın en fotojenik metro istasyonlarından biri.",
