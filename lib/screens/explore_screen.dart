@@ -555,9 +555,12 @@ class _ExploreScreenState extends State<ExploreScreen>
       final query = _searchQuery.toLowerCase();
       filtered = filtered.where((h) {
         return h.name.toLowerCase().contains(query) ||
+            (h.nameEn?.toLowerCase().contains(query) ?? false) ||
             h.area.toLowerCase().contains(query) ||
+            (h.areaEn?.toLowerCase().contains(query) ?? false) ||
             h.category.toLowerCase().contains(query) ||
             (h.description.toLowerCase().contains(query)) ||
+            (h.descriptionEn?.toLowerCase().contains(query) ?? false) ||
             h.tags.any((tag) => tag.toLowerCase().contains(query));
       }).toList();
     }
@@ -3040,7 +3043,7 @@ class _ExploreScreenState extends State<ExploreScreen>
                           const SizedBox(width: 2),
                           Expanded(
                             child: Text(
-                              place.area.isNotEmpty ? place.area : (place.city ?? ""),
+                              place.getLocalizedArea(isEnglish).isNotEmpty ? place.getLocalizedArea(isEnglish) : (place.city ?? ""),
                               style: const TextStyle(color: textGrey, fontSize: 11),
                               maxLines: 1,
                               overflow: TextOverflow.ellipsis,

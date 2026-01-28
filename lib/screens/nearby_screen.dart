@@ -181,14 +181,15 @@ class _NearbyScreenState extends State<NearbyScreen>
       final places = cityData.highlights
           .map((h) {
              final distMeters = LocationContextService.instance.getDistance(h.lat, h.lng);
+             final isEnglish = AppLocalizations.instance.isEnglish;
              return _NearbyPlace(
-              name: h.name,
+              name: h.getLocalizedName(isEnglish),
               category: h.category,
               distanceKm: double.parse((distMeters / 1000).toStringAsFixed(1)),
               rating: h.rating ?? 4.5,
-              area: h.area,
+              area: h.getLocalizedArea(isEnglish),
               imageUrl: h.imageUrl,
-              description: h.description,
+              description: h.getLocalizedDescription(isEnglish),
               price: h.price,
               highlight: h,
             );
@@ -228,14 +229,15 @@ class _NearbyScreenState extends State<NearbyScreen>
       
       final updatedPlaces = _allPlaces.map((p) {
          final distMeters = LocationContextService.instance.getDistance(p.highlight.lat, p.highlight.lng);
+         final isEnglish = AppLocalizations.instance.isEnglish;
          return _NearbyPlace(
-            name: p.name,
+            name: p.highlight.getLocalizedName(isEnglish),
             category: p.category,
             distanceKm: double.parse((distMeters / 1000).toStringAsFixed(1)),
             rating: p.rating,
-            area: p.area,
+            area: p.highlight.getLocalizedArea(isEnglish),
             imageUrl: p.imageUrl,
-            description: p.description,
+            description: p.highlight.getLocalizedDescription(isEnglish),
             price: p.price,
             highlight: p.highlight,
          );
@@ -280,9 +282,11 @@ class _NearbyScreenState extends State<NearbyScreen>
 
     // Search filter
     if (_searchQuery.isNotEmpty) {
+      final query = _searchQuery.toLowerCase();
       filtered = filtered.where((p) => 
-        p.name.toLowerCase().contains(_searchQuery.toLowerCase()) ||
-        p.area.toLowerCase().contains(_searchQuery.toLowerCase())
+        p.name.toLowerCase().contains(query) ||
+        p.area.toLowerCase().contains(query) ||
+        (p.description?.toLowerCase().contains(query) ?? false)
       ).toList();
     }
 
@@ -1310,7 +1314,7 @@ class _NearbyScreenState extends State<NearbyScreen>
                   child: GestureDetector(
                     onTap: () {
                       Navigator.pop(ctx);
-                      _toggleRoute(place.name);
+                      _toggleRoute(place.highlight.name);
                     },
                     child: Container(
                       padding: const EdgeInsets.symmetric(vertical: 14),
@@ -1533,7 +1537,7 @@ class _NearbyScreenState extends State<NearbyScreen>
                       ),
                       const SizedBox(height: 10),
                       Text(
-                        place.description!,
+                        place.highlight.getLocalizedDescription(AppLocalizations.instance.isEnglish),
                         style: const TextStyle(
                           fontSize: 15,
                           color: textSecondary,
@@ -1613,7 +1617,7 @@ class _NearbyScreenState extends State<NearbyScreen>
                           child: GestureDetector(
                             onTap: () {
                               Navigator.pop(ctx);
-                              _toggleRoute(place.name);
+                              _toggleRoute(place.highlight.name);
                             },
                             child: Container(
                               padding: const EdgeInsets.symmetric(vertical: 16),

@@ -3459,7 +3459,7 @@ class _RoutesScreenState extends State<RoutesScreen>
                           crossAxisAlignment: CrossAxisAlignment.start,
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
-                             Text(place.name, maxLines: 1, overflow: TextOverflow.ellipsis, style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 16, color: Colors.white)),
+                             Text(place.getLocalizedName(AppLocalizations.instance.isEnglish), maxLines: 1, overflow: TextOverflow.ellipsis, style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 16, color: Colors.white)),
                              const SizedBox(height: 4),
                              Text("${AppLocalizations.instance.translateCategory(place.category.trim())} • ${place.getLocalizedArea(AppLocalizations.instance.isEnglish)}", maxLines: 1, overflow: TextOverflow.ellipsis, style: const TextStyle(color: Colors.grey, fontSize: 12)),
                           ],
@@ -4340,7 +4340,7 @@ class _RoutesScreenState extends State<RoutesScreen>
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Text(
-                        place.name,
+                        place.getLocalizedName(AppLocalizations.instance.isEnglish),
                         style: const TextStyle(
                           color: WanderlustColors.textWhite,
                           fontSize: 14,

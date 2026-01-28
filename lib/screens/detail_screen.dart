@@ -1098,7 +1098,9 @@ class _DetailScreenState extends State<DetailScreen>
                 child: _buildInfoCard(
                   icon: Icons.location_on_outlined,
                   title: AppLocalizations.instance.location,
-                  value: place.area.isNotEmpty ? place.area : (place.city ?? "-"),
+                  value: place.getLocalizedArea(AppLocalizations.instance.isEnglish).isNotEmpty 
+                      ? place.getLocalizedArea(AppLocalizations.instance.isEnglish) 
+                      : (place.city ?? "-"),
                   color: const Color(0xFF4CAF50),
                 ),
               ),
