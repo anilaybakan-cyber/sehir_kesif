@@ -11,6 +11,7 @@ def clean_en_name(name, tr_name):
         return tr_name # Fallback
     n = str(name).strip()
     n = n.replace("Müze Island", "Museum Island")
+    n = n.replace("Holokost Anıtı", "Holocaust Memorial")
     if "Müze" in n and "Museum" not in n:
         n = n.replace("Müze", "Museum")
     return n
