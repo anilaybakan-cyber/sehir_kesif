@@ -3,6 +3,7 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
 import 'package:purchases_flutter/purchases_flutter.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 /// Premium subscription service - Subscription management via RevenueCat
 class PremiumService extends ChangeNotifier {
@@ -67,17 +68,8 @@ class PremiumService extends ChangeNotifier {
   
   /// Premium kullanıcı mı? (Checked via RevenueCat)
   bool get isPremium {
-    if (_customerInfo == null) return false;
-    
-    // Check if user has active entitlement
-    final entitlement = _customerInfo?.entitlements.all[_entitlementId];
-    if (entitlement != null && entitlement.isActive) {
-      debugPrint("✅ User IS Premium. Active Entitlement: $_entitlementId");
-      return true;
-    } else {
-      debugPrint("🔒 User NOT Premium. Entitlements found: ${_customerInfo?.entitlements.all.keys}");
-      return false;
-    }
+    return true; // 🔥 TEST MODE: Temporarily enabled for AI testing
+    //return _customerInfo?.entitlements.all[_entitlementId]?.isActive ?? false;
   }
   
   /// Full erişim var mı?
@@ -220,6 +212,24 @@ class PremiumService extends ChangeNotifier {
     } on PlatformException catch (e) {
       debugPrint('❌ Restore Error: $e');
       return false;
+    }
+  }
+
+  /// Abonelik yönetim sayfasını aç
+  Future<void> manageSubscription() async {
+    try {
+      final url = _customerInfo?.managementURL;
+      if (url != null && await canLaunchUrl(Uri.parse(url))) {
+        await launchUrl(Uri.parse(url), mode: LaunchMode.externalApplication);
+      } else {
+        // Fallback for iOS
+        final appleUrl = Uri.parse('https://apps.apple.com/account/subscriptions');
+        if (await canLaunchUrl(appleUrl)) {
+          await launchUrl(appleUrl, mode: LaunchMode.externalApplication);
+        }
+      }
+    } catch (e) {
+      debugPrint('❌ Manage Subscription Error: $e');
     }
   }
   

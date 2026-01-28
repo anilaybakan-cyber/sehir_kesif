@@ -12,6 +12,7 @@ class CityModel {
   final String emergency;
   final String description;
   final String? descriptionEn;
+  final String? cityEn;
   final String? countryEn;
   final double centerLat;
   final double centerLng;
@@ -31,6 +32,7 @@ class CityModel {
     this.emergency = "112",
     this.description = "",
     this.descriptionEn,
+    this.cityEn,
     this.countryEn,
     required this.centerLat,
     required this.centerLng,
@@ -66,6 +68,7 @@ class CityModel {
       emergency: json["emergency"] ?? "112",
       description: json["description"] ?? "",
       descriptionEn: json["description_en"],
+      cityEn: json["city_en"],
       countryEn: json["country_en"],
       centerLat: lat,
       centerLng: lng,
@@ -87,6 +90,14 @@ class CityModel {
           : null,
       heroImage: json["heroImage"],
     );
+  }
+
+  /// Dil seçimine göre şehir ismini döndürür.
+  String getLocalizedCityName(bool isEnglish) {
+    if (isEnglish && cityEn != null && cityEn!.isNotEmpty) {
+      return cityEn!;
+    }
+    return city;
   }
 }
 

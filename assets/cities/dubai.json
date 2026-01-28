@@ -194,6 +194,28 @@
       "tips_en": "Ask if there is a group discount."
     },
     {
+      "name": "Dune Bashing & Camel Rides",
+      "name_en": "Dune Bashing & Camel Rides",
+      "area": "Lahbab Desert",
+      "category": "Deneyim",
+      "tags": [
+        "safari",
+        "çöl",
+        "macera",
+        "deve"
+      ],
+      "distanceFromCenter": 45.0,
+      "lat": 24.9658,
+      "lng": 55.6325,
+      "price": "high",
+      "rating": 4.9,
+      "description": "Dubai çöllerinin kızıl kumlarında adrenalin dolu bir macera. 4x4 araçlarla yapılan heyecan verici kum sörfünden sonra batan güneşe karşı deve üzerinde huzurlu bir yürüyüş ve geleneksel Bedevi yaşamını hissedeceğiniz çöl kampı deneyimi.",
+      "description_en": "An adrenaline-pumping adventure in the red sands of Dubai's deserts. Thrilling dune bashing in 4x4 vehicles followed by a peaceful camel ride against the setting sun and a desert camp experience where you'll feel traditional Bedouin life.",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Safari_Dubai_Desert.jpg/1280px-Safari_Dubai_Desert.jpg",
+      "tips": "Mideniz hassassa turdan önce ağır yemek yemeyin, kum sörfü oldukça hareketlidir!",
+      "tips_en": "Avoid heavy meals before the tour if you have a sensitive stomach; dune bashing is quite active!"
+    },
+    {
       "name": "Al Fahidi Historical District",
       "area": "Bur Dubai",
       "category": "Deneyim",
@@ -834,6 +856,50 @@
       "bestTime_en": "Sunset (from outside)",
       "tips": "Fotoğraf makinenizin şarjının dolu olduğundan emin olun.",
       "tips_en": "Make sure your camera battery is full."
+    },
+    {
+      "name": "Dragon Mart",
+      "name_en": "Dragon Mart",
+      "area": "International City",
+      "category": "Alışveriş",
+      "tags": [
+        "market",
+        "çin",
+        "ucuz",
+        "devasa"
+      ],
+      "distanceFromCenter": 15.0,
+      "lat": 25.1746,
+      "lng": 55.4174,
+      "price": "low",
+      "rating": 4.1,
+      "description": "Çin dışındaki en büyük Çin ticaret merkezi. Ejderha şeklindeki 1.2 kilometrelik devasa yapısıyla, elektronikten tekstile, ev eşyasından oyuncağa kadar akla gelebilecek her şeyi inanılmaz uygun fiyatlara bulabileceğiniz bir alışveriş cenneti.",
+      "description_en": "The largest Chinese trading hub outside mainland China. A 1.2-kilometer long dragon-shaped building where you can find everything from electronics to textiles and home decor at incredibly affordable prices.",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Dragon_mart_pano.jpg/1280px-Dragon_mart_pano.jpg",
+      "tips": "Pazarlık yapmayı unutmayın ve rahat ayakkabılar giyin; Ejderha çok uzun!",
+      "tips_en": "Don't forget to bargain and wear comfortable shoes; the Dragon is very long!"
+    },
+    {
+      "name": "Desert Safari (Dune Bashing)",
+      "name_en": "Desert Safari (Dune Bashing)",
+      "area": "Lahbab Desert",
+      "category": "Macera",
+      "tags": [
+        "çöl",
+        "safari",
+        "kum",
+        "4x4"
+      ],
+      "distanceFromCenter": 45.0,
+      "lat": 24.9658,
+      "lng": 55.6025,
+      "price": "high",
+      "rating": 4.9,
+      "description": "Dubai'nin altın renkli kum tepelerinde 4x4 araçlarla yapılan adrenalin dolu bir yolculuk. Dune bashing sonrası deve binme, kum sörfü ve Bedevi kampında akşam yemeği ile gerçek bir çöl deneyimi.",
+      "description_en": "An adrenaline-pumping 4x4 journey across Dubai's golden sand dunes. Followed by camel riding, sandboarding, and a traditional Bedouin camp dinner for a true desert experience.",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Dubai_Camel_Riding.jpg/1280px-Dubai_Camel_Riding.jpg",
+      "tips": "Gün batımı safarisi en güzel ışığı ve atmosferi sunar.",
+      "tips_en": "Evening safaris offer the most beautiful light and atmosphere."
     },
     {
       "name": "Burj Khalifa",
@@ -2195,7 +2261,8 @@
       "bestTime": "Kışın tüm gün",
       "bestTime_en": "Winter full day",
       "tips": "Sabah koşusu veya yoga yapan yerlileri görebilirsiniz.",
-      "tips_en": "You can see locals jogging or doing yoga in the morning."
+      "tips_en": "You can see locals jogging or doing yoga in the morning.",
+      "area_en": "Hatta (Day Trip)"
     },
     {
       "name": "Hatta Wadi Hub",
@@ -2939,7 +3006,8 @@
       "bestTime": "Gündüz",
       "bestTime_en": "Daytime",
       "tips": "Hafta içi sabah saatleri en sakin zamanıdır.",
-      "tips_en": "Weekday mornings are the quietest times."
+      "tips_en": "Weekday mornings are the quietest times.",
+      "area_en": "Abu Dhabi (Day Trip)"
     },
     {
       "name": "Love Lake",
@@ -4100,7 +4168,8 @@
       "bestTime": "İkindi ve gün batımı",
       "bestTime_en": "Late afternoon and sunset",
       "tips": "Yapı içerisindeki akustik harika, sessizliği dinleyin.",
-      "tips_en": "The acoustics inside satisfy; listen to the silence."
+      "tips_en": "The acoustics inside satisfy; listen to the silence.",
+      "area_en": "Abu Dhabi (Day Trip)"
     },
     {
       "name": "Ski Dubai",

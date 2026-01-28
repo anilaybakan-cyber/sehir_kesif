@@ -114,6 +114,8 @@ class AppLocalizations {
   String get seeAll => t('Tümünü Gör', 'See All');
   String get recommendations => t('Sana Özel', 'For You');
   String get categories => t('Kategoriler', 'Categories');
+  String get foodDrink => t('Yeme-İçme', 'Food & Drink');
+  String get categoryViewpoint => t('Manzara', 'Viewpoint');
 
   // ═══════════════════════════════════════════════════════════════════════════
   // NEARBY SCREEN
@@ -168,7 +170,11 @@ class AppLocalizations {
   String get settings => t('Ayarlar', 'Settings');
   String get travelStyle => t('Seyahat Tarzı', 'Travel Style');
   String get interests => t('İlgi Alanları', 'Interests');
+  String get preferencesSavedMessage => t('Tercihler kaydedildi!', 'Preferences saved!');
   String get editName => t('İsim Değiştir', 'Edit Name');
+  String get manageSubscription => t('Aboneliği Yönet', 'Manage Subscription');
+  String get premiumStatus => t('Premium Durumu', 'Premium Status');
+  String get activePremium => t('Aktif Premium', 'Active Premium');
 
   String get languageLabel => t('Dil', 'Language');
   String get turkish => t('Türkçe', 'Turkish');
@@ -187,6 +193,7 @@ class AppLocalizations {
   String get share => t('Paylaş', 'Share');
   String get imHere => t('Buradayım', 'I\'m Here');
   String get visitedCheck => t('Ziyaret Edildi', 'Visited');
+  String get highlightFeatures => t('Öne Çıkanlar', 'Highlights');
 
   // ═══════════════════════════════════════════════════════════════════════════
   // CITY SWITCHER
@@ -209,6 +216,10 @@ class AppLocalizations {
   String get letsStart => t('Başlayalım!', 'Let\'s Start!');
   String get next => t('İleri', 'Next');
   String get back => t('Geri', 'Back');
+  
+  String get moodSakin => t('Sakin', 'Calm');
+  String get moodKesif => t('Keşif', 'Exploration');
+  String get moodPopuler => t('Popüler', 'Popular');
 
   // Travel Styles
   String get styleTourist => t('Turistik', 'Tourist');
@@ -454,6 +465,33 @@ class AppLocalizations {
 
 
 
+
+
+  // Budget Level Translation
+  String translateBudgetLevel(String budget) {
+    if (language == AppLanguage.tr) return budget;
+    switch (budget) {
+      case 'Ekonomik': return 'Economy';
+      case 'Dengeli': return 'Balanced';
+      case 'Premium': return 'Premium';
+      default: return budget;
+    }
+  }
+
+  // Walking Level Labels Translation
+  String translateWalkingLevel(int level) {
+    final labels = [
+      walkingLight,
+      walkingNormal,
+      walkingActive,
+      walkingAthlete
+    ];
+    if (level >= 0 && level < labels.length) {
+      return labels[level];
+    }
+    return walkingNormal;
+  }
+
   // Transport Mode Translation
   String translateTransportMode(String mode) {
     switch(mode) {
@@ -489,52 +527,108 @@ class AppLocalizations {
 
   // Feature Translation (used in place details)
   String translateFeature(String feature) {
-    switch(feature) {
-      case 'WiFi': return 'WiFi';
-      case 'Açık Alan': return t('Açık Alan', 'Outdoor Area');
-      case 'Teras': return t('Teras', 'Terrace');
-      case 'Otopark': return t('Otopark', 'Parking');
-      case 'Engelli Erişimi': return t('Engelli Erişimi', 'Wheelchair Access');
-      case 'Çocuk Dostu': return t('Çocuk Dostu', 'Kid Friendly');
-      case 'Evcil Hayvan': return t('Evcil Hayvan', 'Pet Friendly');
-      case 'Rezervasyon': return t('Rezervasyon', 'Reservation');
-      case 'Kredi Kartı': return t('Kredi Kartı', 'Credit Card');
-      case 'Ücretsiz Giriş': return t('Ücretsiz Giriş', 'Free Entry');
-      case 'Sesli Rehber': return t('Sesli Rehber', 'Audio Guide');
-      case 'Rehberli Tur': return t('Rehberli Tur', 'Guided Tour');
-      case 'Hediyelik Mağaza': return t('Hediyelik Mağaza', 'Gift Shop');
-      case 'Kafe': return t('Kafe', 'Café');
-      case 'Restoran': return t('Restoran', 'Restaurant');
-      case 'Manzara': return t('Manzara', 'View');
-      case 'Fotoğraf Noktası': return t('Fotoğraf Noktası', 'Photo Spot');
-      case 'Gün Batımı': return t('Gün Batımı', 'Sunset View');
-      case 'Tarihi': return t('Tarihi', 'Historical');
-      case 'Mimari': return t('Mimari', 'Architecture');
-      case 'Ücretsiz WiFi': return t('Ücretsiz WiFi', 'Free WiFi');
-      case 'Canlı Müzik': return t('Canlı Müzik', 'Live Music');
-      case 'Happy Hour': return 'Happy Hour';
-      case 'Kokteyl': return t('Kokteyl', 'Cocktails');
-      case 'Vejetaryen': return t('Vejetaryen', 'Vegetarian');
-      case 'Vegan': return 'Vegan';
-      case 'Glutensiz': return t('Glutensiz', 'Gluten Free');
-      case 'gizli': return t('gizli', 'hidden');
-      case 'tarihi': return t('tarihi', 'historical');
-      case 'huzurlu': return t('huzurlu', 'peaceful');
-      case 'sakin': return t('sakin', 'quiet');
-      case 'popüler': return t('popüler', 'popular');
-      case 'romantik': return t('romantik', 'romantic');
-      case 'doğal': return t('doğal', 'natural');
-      case 'yerel': return t('yerel', 'local');
-      case 'turistik': return t('turistik', 'touristic');
-      case 'modern': return t('modern', 'modern');
-      case 'geleneksel': return t('geleneksel', 'traditional');
-      case 'lüks': return t('lüks', 'luxury');
-      case 'bütçe dostu': return t('bütçe dostu', 'budget friendly');
-      case 'aile': return t('aile', 'family');
-      case 'çift': return t('çift', 'couple');
-      case 'solo': return t('solo', 'solo');
-      default: return feature;
-    }
+    if (language == AppLanguage.tr) return feature;
+    
+    // Normalize input
+    final f = feature.toLowerCase().trim();
+    
+    // Exact mapping for common features and tags
+    final mappings = {
+      'wifi': 'WiFi',
+      'ücretsiz wifi': 'Free WiFi',
+      'otopark': 'Parking',
+      'açık alan': 'Outdoor Area',
+      'teras': 'Terrace',
+      'engelli erişimi': 'Wheelchair Access',
+      'çocuk dostu': 'Kid Friendly',
+      'evcil hayvan': 'Pet Friendly',
+      'rezervasyon': 'Reservation',
+      'kredi kartı': 'Credit Card',
+      'ücretsiz giriş': 'Free Entry',
+      'sesli rehber': 'Audio Guide',
+      'rehberli tur': 'Guided Tour',
+      'hediyelik mağaza': 'Gift Shop',
+      'kafe': 'Café',
+      'restoran': 'Restaurant',
+      'manzara': 'View',
+      'fotoğraf noktası': 'Photo Spot',
+      'gün batımı': 'Sunset View',
+      'tarihi': 'Historical',
+      'mimari': 'Architecture',
+      'canlı müzik': 'Live Music',
+      'happy hour': 'Happy Hour',
+      'kokteyl': 'Cocktails',
+      'vejetaryen': 'Vegetarian',
+      'vegan': 'Vegan',
+      'glutensiz': 'Gluten Free',
+      'gizli': 'hidden',
+      'huzurlu': 'peaceful',
+      'sakin': 'quiet',
+      'popüler': 'popular',
+      'romantik': 'romantic',
+      'doğal': 'natural',
+      'yerel': 'local',
+      'turistik': 'touristic',
+      'modern': 'modern',
+      'geleneksel': 'traditional',
+      'lüks': 'luxury',
+      'bütçe dostu': 'budget friendly',
+      'aile': 'family',
+      'çift': 'couple',
+      'solo': 'solo',
+      'ikonik': 'iconic',
+      'kahvaltı': 'breakfast',
+      'öğle yemeği': 'lunch',
+      'akşam yemeği': 'dinner',
+      'keşfet': 'explore',
+      'hazine': 'treasure',
+      'doğa': 'nature',
+      'deniz': 'sea',
+      'sanat': 'art',
+      'müzeler': 'museums',
+      'tarih': 'history',
+      'gece': 'night',
+      'eğlence': 'fun',
+      'panoramik': 'panoramic',
+      'kale': 'castle',
+      'katedral': 'cathedral',
+      'kilise': 'church',
+      'cami': 'mosque',
+      'saray': 'palace',
+      'köprü': 'bridge',
+      'meydan': 'square',
+      'cadde': 'street',
+      'bulvar': 'boulevard',
+      'bahçe': 'garden',
+      'fırın': 'bakery',
+      'pastane': 'patisserie',
+      'pizza': 'pizza',
+      'makarna': 'pasta',
+      'deniz ürünü': 'seafood',
+      'et': 'meat',
+      'kebap': 'kebab',
+      'yerel lezzet': 'local delicacy',
+      'gurme': 'gourmet',
+      'şarap': 'wine',
+      'bira': 'beer',
+      'kokteyller': 'cocktails',
+      'teras bar': 'rooftop bar',
+      'antik': 'antique',
+      'vintage': 'vintage',
+      'butik': 'boutique',
+      ' tasarım': 'design',
+      'moda': 'fashion',
+      'kitapçı': 'bookstore',
+      'hediyelik': 'gift',
+      'el yapımı': 'handmade',
+      'sanat galerisi': 'art gallery',
+      'sergi': 'exhibition',
+      'ücretsiz': 'free',
+      'uygun': 'affordable',
+      'premium': 'premium',
+    };
+
+    return mappings[f] ?? feature;
   }
   
   String get whereTo => t('Nereye gidiyoruz?', 'Where are we going?');
@@ -595,6 +689,7 @@ class AppLocalizations {
   String get popularSpots => t('Popüler Noktalar', 'Popular Spots');
   String get clear => t('Temizle', 'Clear');
   String get selectAll => t('Tümünü Seç', 'Select All');
+  String get optimize => t('Optimize Et', 'Optimize'); // Added
   
   // Eksik Explore Strings
   String recommendationBasedOn(String interests) => t('$interests ilginize göre', 'Based on your $interests interests');
@@ -603,6 +698,9 @@ class AppLocalizations {
   String get basedOnCityCenter => t('Şehir merkezi baz alınıyor', 'Based on city center');
   String placesFound(int count) => t('$count yer bulundu', '$count places found');
   String get maxDistance => t('Maksimum Mesafe', 'Max Distance');
+  String get sortByDistance => t('Mesafe', 'Distance');
+  String get sortByRating => t('Puan', 'Rating');
+  String get sortByName => t('İsim', 'Name');
   
   // Eksik Routes Strings
   String cityRoutes(String city) => t('$city Rotaları', '$city Routes');
@@ -746,7 +844,7 @@ class AppLocalizations {
       'Fransa': 'France',
       'İtalya': 'Italy',
       'Hollanda': 'Netherlands',
-      'İngiltere': 'England',
+      'İngiltere': 'United Kingdom',
       'Almanya': 'Germany',
       'Avusturya': 'Austria',
       'Çekya': 'Czechia',
@@ -756,8 +854,62 @@ class AppLocalizations {
       'Singapur': 'Singapore',
       'BAE': 'UAE',
       'ABD': 'USA',
+      'Yunanistan': 'Greece',
+      'Tayland': 'Thailand',
+      'Sırbistan': 'Serbia',
+      'Belçika': 'Belgium',
+      'Macaristan': 'Hungary',
+      'İsviçre': 'Switzerland',
+      'İrlanda': 'Ireland',
+      'İskoçya': 'Scotland',
+      'Fas': 'Morocco',
+      'Çin (ÖİB)': 'China (SAR)',
+      'Mısır': 'Egypt',
+      'Danimarka': 'Denmark',
+      'Karadağ': 'Montenegro',
+      'Norveç': 'Norway',
+      'Bosna Hersek': 'Bosnia and Herzegovina',
+      'İsveç': 'Sweden',
+      'Finlandiya': 'Finland',
     };
     return translations[country] ?? country;
+  }
+
+  // ═══════════════════════════════════════════════════════════════════════════
+  // ŞEHİR ÇEVİRİLERİ
+  // ═══════════════════════════════════════════════════════════════════════════
+
+  String translateCity(String city) {
+    if (language == AppLanguage.tr) return city;
+    
+    final translations = {
+      'Atina': 'Athens',
+      'Belgrad': 'Belgrade',
+      'Brüksel': 'Brussels',
+      'Budapeşte': 'Budapest',
+      'Cenevre': 'Geneva',
+      'Floransa': 'Florence',
+      'Kahire': 'Cairo',
+      'Kapadokya': 'Cappadocia',
+      'Kopenhag': 'Copenhagen',
+      'Lizbon': 'Lisbon',
+      'Londra': 'London',
+      'Marakeş': 'Marrakech',
+      'Milano': 'Milan',
+      'Napoli': 'Naples',
+      'Prag': 'Prague',
+      'Roma': 'Rome',
+      'Saraybosna': 'Sarajevo',
+      'Seul': 'Seoul',
+      'Sevilla': 'Seville',
+      'Singapur': 'Singapore',
+      'Strazburg': 'Strasbourg',
+      'Venedik': 'Venice',
+      'Viyana': 'Vienna',
+      'Zürih': 'Zurich',
+      'Finlandiya': 'Finland',
+    };
+    return translations[city] ?? city;
   }
 
   // ═══════════════════════════════════════════════════════════════════════════
@@ -775,6 +927,16 @@ class AppLocalizations {
   String get aiRecommendations => t('Bugün Yönün Neresi?', 'Where is your direction today?');
   String get askAI => t('Öneri Oluştur', 'Create Suggestion');
   String get aiThinking => t('Düşünüyorum...', 'Thinking...');
+  String get askAnotherQuestion => t('Başka Bir Soru Sor', 'Ask Another Question');
+  String get bestBrunchSpots => t('En iyi brunch mekanları?', 'Best brunch spots?');
+  String get rooftopBars => t('Teras barları?', 'Rooftop bars?');
+  String get hiddenGems => t('Gizli hazineler?', 'Hidden gems?');
+  String get offTheBeatenPath => t('Turistik olmayan yerler?', 'Off the beaten path?');
+  String get bestViewpoints => t('En iyi manzara noktaları?', 'Best viewpoints?');
+  String get mustSeeMuseums => t('Görülmesi gereken müzeler?', 'Must-see museums?');
+  String get artGalleries => t('Sanat galerileri?', 'Art galleries?');
+  String get romanticDinnerSpot => t('Romantik akşam yemeği', 'Romantic dinner spot');
+  String get uniqueDateIdeas => t('Farklı bir randevu fikri?', 'Unique date ideas?');
   String placeNotFound(String query) => t("'$query' bulunamadı.", "'$query' not found.");
   
   // Rota Detayları
@@ -800,6 +962,8 @@ class AppLocalizations {
   String get offlineMode => t('Çevrimdışı Mod', 'Offline Mode');
   String get clearCache => t('Önbelleği Temizle', 'Clear Cache');
   String get confirmClearCache => t('Tüm indirilen şehir verileri silinecek. Offline modda kullanılamayacaklar.\n\nDevam etmek istiyor musun?', 'All downloaded city data will be deleted. They won\'t be available offline.\n\nDo you want to continue?');
+
+  String get manageSubscriptionTitle => t('Abonelik Yönetimi', 'Subscription Management');
   
   // Gün seçim dialogu  
   String selectDayForPlace(String placeName) => t('$placeName için gün seç', 'Select day for $placeName');
@@ -858,5 +1022,5 @@ class AppLocalizations {
   String get moodLively => t('Canlı', 'Lively');
   String get moodDiscover => t('Keşfet', 'Discover');
   String walkToTarget(String from) => t('$from\'dan hedefe yürü', 'Walk from $from to target');
-  String get onboardingTagline => t('Turist haritasını yak, gerçek şehri bul.', 'Burn the tourist map, find the real city.');
+  String get onboardingTagline => t('FIND YOUR OWN PATH.', 'FIND YOUR OWN PATH.');
 }

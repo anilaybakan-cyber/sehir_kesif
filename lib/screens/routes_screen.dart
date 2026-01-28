@@ -13,6 +13,7 @@ import 'dart:math' as math;
 import 'dart:ui' as ui;
 import 'dart:convert';
 import '../services/trip_update_service.dart';
+import '../services/badge_service.dart';
 import '../l10n/app_localizations.dart';
 import '../models/city_model.dart';
 import '../services/city_data_loader.dart';
@@ -1210,7 +1211,7 @@ class _RoutesScreenState extends State<RoutesScreen>
     });
   }
 
-  double _calculateTotalDistance(int day) {
+  double _calculateTotalDistance(int day, {double detourFactor = 1.0}) {
     final places = _dayPlans[day] ?? [];
     double total = 0;
     for (int i = 0; i < places.length - 1; i++) {
@@ -1221,7 +1222,7 @@ class _RoutesScreenState extends State<RoutesScreen>
         places[i + 1].lng,
       );
     }
-    return total;
+    return total * detourFactor;
   }
 
   double _haversine(double lat1, double lon1, double lat2, double lon2) {
@@ -1238,16 +1239,16 @@ class _RoutesScreenState extends State<RoutesScreen>
   }
 
   int _estimateWalkingTime(int day) =>
-      (_calculateTotalDistance(day) / 5 * 60).round(); // 5 km/h
+      (_calculateTotalDistance(day, detourFactor: 1.25) / 5 * 60).round(); // 5 km/h + 25% curve
 
   int _estimateBikingTime(int day) =>
-      (_calculateTotalDistance(day) / 15 * 60).round(); // 15 km/h
+      (_calculateTotalDistance(day, detourFactor: 1.15) / 15 * 60).round(); // 15 km/h + 15% curve
 
   int _estimateDrivingTime(int day) =>
-      (_calculateTotalDistance(day) / 25 * 60).round(); // 25 km/h (city traffic)
+      (_calculateTotalDistance(day, detourFactor: 1.2) / 25 * 60).round(); // 25 km/h + 20% curve
 
   int _estimateTransitFallback(int day) =>
-      (_calculateTotalDistance(day) / 20 * 60).round(); // ~20 km/h avg for transit
+      (_calculateTotalDistance(day, detourFactor: 1.2) / 20 * 60).round(); // ~20 km/h avg for transit
 
   int _getCurrentTransportTime(int day) {
     switch (_selectedTransportMode) {
@@ -1810,6 +1811,29 @@ class _RoutesScreenState extends State<RoutesScreen>
         transportLabel = AppLocalizations.instance.walk;
     }
 
+    // --- REAL DATA OVERRIDE ---
+    // If we have real route data in cache, use it for stats
+    final modeString = _getModeString(_selectedTransportMode);
+    final cacheKey = "${modeString}_$currentDay";
+    String? realDistanceText;
+    int? realDurationMin;
+
+    if (_routeCache.containsKey(cacheKey)) {
+      final cached = _routeCache[cacheKey];
+      realDistanceText = cached?['distance_text'];
+      final double? seconds = cached?['duration_seconds'];
+      if (seconds != null) {
+        realDurationMin = (seconds / 60).round();
+      }
+    }
+    // -------------------------
+
+    // Use corrected estimates if no real data
+    final detourFactor = _selectedTransportMode == 0 ? 1.25 : 1.15; // 0=walking, others slightly less
+    final correctedDistance = _calculateTotalDistance(currentDay, detourFactor: detourFactor);
+    final distanceLabel = realDistanceText ?? "${correctedDistance.toStringAsFixed(1)} km";
+    final timeLabel = realDurationMin ?? transportTime;
+
     return Container(
       margin: const EdgeInsets.fromLTRB(20, 16, 20, 0),
       padding: const EdgeInsets.all(16),
@@ -1831,11 +1855,11 @@ class _RoutesScreenState extends State<RoutesScreen>
           Container(width: 1, height: 40, color: WanderlustColors.border),
           _buildStatItem(
             Icons.straighten,
-            "${distance.toStringAsFixed(1)} km",
+            distanceLabel,
             AppLocalizations.instance.distance,
           ),
           Container(width: 1, height: 40, color: WanderlustColors.border),
-          _buildStatItem(transportIcon, "$transportTime ${AppLocalizations.instance.min}", transportLabel),
+          _buildStatItem(transportIcon, "$timeLabel ${AppLocalizations.instance.min}", transportLabel),
         ],
       ),
     );
@@ -2734,6 +2758,13 @@ class _RoutesScreenState extends State<RoutesScreen>
       final currentCount = prefs.getInt("completed_routes_count") ?? 0;
       await prefs.setInt("completed_routes_count", currentCount + 1);
 
+      // Rota mesafesini hesapla ve ekle
+      final routeDistance = _calculateTotalDistance(activeDayIndex);
+      if (routeDistance > 0) {
+        await BadgeService().addDistance(routeDistance);
+        debugPrint("📍 Rota tamamlandı: $routeDistance km eklendi.");
+      }
+
       // 3. SADECE Tamamlanan Günü Temizle ve State'i Güncelle
       setState(() {
         // İlgili günün planını temizle
@@ -3251,8 +3282,8 @@ class _RoutesScreenState extends State<RoutesScreen>
                     children: [
                       const Icon(Icons.auto_fix_high, color: Colors.white, size: 18),
                       const SizedBox(width: 8),
-                      const Text(
-                        "Optimize",
+                      Text(
+                        AppLocalizations.instance.optimize,
                         style: TextStyle(
                           color: Colors.white,
                           fontSize: 12,
@@ -3288,8 +3319,8 @@ class _RoutesScreenState extends State<RoutesScreen>
                     children: [
                       const Icon(Icons.delete_outline, color: Colors.white, size: 18),
                       const SizedBox(width: 8),
-                      const Text(
-                        "Temizle",
+                      Text(
+                        AppLocalizations.instance.clear,
                         style: TextStyle(
                           color: Colors.white,
                           fontSize: 12,
@@ -3430,7 +3461,7 @@ class _RoutesScreenState extends State<RoutesScreen>
                           children: [
                              Text(place.name, maxLines: 1, overflow: TextOverflow.ellipsis, style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 16, color: Colors.white)),
                              const SizedBox(height: 4),
-                             Text("${AppLocalizations.instance.translateCategory(place.category.trim())} • ${place.area}", maxLines: 1, overflow: TextOverflow.ellipsis, style: const TextStyle(color: Colors.grey, fontSize: 12)),
+                             Text("${AppLocalizations.instance.translateCategory(place.category.trim())} • ${place.getLocalizedArea(AppLocalizations.instance.isEnglish)}", maxLines: 1, overflow: TextOverflow.ellipsis, style: const TextStyle(color: Colors.grey, fontSize: 12)),
                           ],
                         ),
                       ),
@@ -3674,7 +3705,7 @@ class _RoutesScreenState extends State<RoutesScreen>
                           border: Border.all(color: Colors.white.withOpacity(0.1)),
                         ),
                         child: Text(
-                          route.difficulty,
+                          _getLocalizedDifficulty(route.difficulty),
                           style: const TextStyle(
                             color: Colors.white,
                             fontSize: 11,
@@ -3889,6 +3920,18 @@ class _RoutesScreenState extends State<RoutesScreen>
     );
   }
 
+  String _getLocalizedDifficulty(String difficulty) {
+    final d = difficulty.toLowerCase().trim();
+    if (d.contains('easy') || d.contains('kolay')) {
+      return AppLocalizations.instance.difficultyEasy;
+    } else if (d.contains('medium') || d.contains('orta')) {
+      return AppLocalizations.instance.difficultyMedium;
+    } else if (d.contains('hard') || d.contains('zor') || d.contains('difficult')) {
+      return AppLocalizations.instance.difficultyHard;
+    }
+    return difficulty;
+  }
+
   Widget _buildStatChip(IconData icon, String text) {
     return Container(
       padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
@@ -3927,10 +3970,35 @@ class _RoutesScreenState extends State<RoutesScreen>
 
     final places = <Highlight>[];
     for (var name in route.placeNames) {
-      final place = _city?.highlights
+      final normalizedTarget = name.toLowerCase().trim();
+      
+      // Strategy 1: Exact Match
+      var place = _city?.highlights
           .where((h) => h.name == name || h.nameEn == name)
           .firstOrNull;
-      if (place != null) places.add(place);
+          
+      // Strategy 2: Case Insensitive
+      place ??= _city?.highlights
+          .where((h) => 
+              h.name.toLowerCase().trim() == normalizedTarget || 
+              (h.nameEn?.toLowerCase().trim() == normalizedTarget))
+          .firstOrNull;
+
+      // Strategy 3: Fuzzy / Substring
+      place ??= _city?.highlights
+          .where((h) => 
+              h.name.toLowerCase().contains(normalizedTarget) || 
+              normalizedTarget.contains(h.name.toLowerCase()))
+          .firstOrNull;
+
+      if (place != null) {
+        // Avoid duplicates
+        if (!places.any((p) => p.name == place!.name)) {
+          places.add(place);
+        }
+      } else {
+        debugPrint("⚠️ Route stop NOT FOUND: $name");
+      }
     }
 
     showModalBottomSheet(

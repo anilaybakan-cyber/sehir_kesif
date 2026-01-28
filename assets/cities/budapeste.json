@@ -879,7 +879,8 @@
       "bestTime": "Öğleden sonra",
       "bestTime_en": "Afternoon",
       "tips": "Çevredeki küçük hediyelik eşya dükkanlarına da uğrayın.",
-      "tips_en": "Stop by the small souvenir shops around."
+      "tips_en": "Stop by the small souvenir shops around.",
+      "area_en": "Vörösmarty Squareı"
     },
     {
       "name": "Cave Church (Sziklatemplom)",
@@ -901,7 +902,8 @@
       "bestTime": "Gündüz",
       "bestTime_en": "Daytime",
       "tips": "Fotoğraf çekimi için en iyi ışık gün batımına yakındır.",
-      "tips_en": "Best light for photography is near sunset."
+      "tips_en": "Best light for photography is near sunset.",
+      "area_en": "Gellért Hillsi"
     },
     {
       "id": "gen_ChIJRRlFRG_cQUcRDTXj5Pi_-v4",
@@ -1023,7 +1025,8 @@
       "bestTime": "Gece",
       "bestTime_en": "Night",
       "tips": "Sesli rehber (audio guide) kiralamak deneyimi ikiye katlar.",
-      "tips_en": "Renting an audio guide doubles the experience."
+      "tips_en": "Renting an audio guide doubles the experience.",
+      "area_en": "Gellért Hillsi"
     },
     {
       "name": "City Park (Városliget)",
@@ -1405,7 +1408,8 @@
       "bestTime": "Akşam",
       "bestTime_en": "Evening",
       "tips": "Google Maps yorumlarına göz atarak ne yiyeceğinize karar verin.",
-      "tips_en": "Decide what to eat by checking Google Maps reviews."
+      "tips_en": "Decide what to eat by checking Google Maps reviews.",
+      "area_en": "Jewish Quarter"
     },
     {
       "name": "Dobrumba",
@@ -1429,7 +1433,8 @@
       "bestTime": "Öğle veya Akşam",
       "bestTime_en": "Noon or Evening",
       "tips": "Akşam yemeği için rezervasyon yaptırmak şart.",
-      "tips_en": "Reservation is a must for dinner."
+      "tips_en": "Reservation is a must for dinner.",
+      "area_en": "Jewish Quarter"
     },
     {
       "name": "Dohány Synagogu",
@@ -1446,12 +1451,13 @@
       "price": "medium",
       "rating": 4.5,
       "description": "Geçmişin görkemini günümüze taşıyan Dohány Synagogu, Yahudi Mahallesi'nın en önemli tarihi yapılarından biri. Restorasyonlarla korunan özgün dokusu, dönemin yaşam tarzını yansıtan eserleri ve muhteşem mimarisiyle keşfedilmeyi bekliyor.",
-      "description_en": "Geçmişin görkemini günümüze taşıyan Dohány Synagogu, Yahudi Mahallesi'nın en önemli tarihi yapılarından biri. Restorasyonlarla korunan özgün dokusu, dönemin yaşam tarzını yansıtan eserleri ve muhteşem mimarisiyle keşfedilmeyi bekliyor.",
+      "description_en": "Dohány Street Synagogue, carrying the grandeur of the past to the present, is one of the most important historical structures of the Jewish Quarter. With its original texture preserved through restorations, artifacts reflecting the lifestyle of the period, and magnificent architecture, it awaits discovery.",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/budapeste/dohany_synagogu.jpg",
       "bestTime": "Sabah",
       "bestTime_en": "Morning",
       "tips": "Yapı içerisindeki akustik harika, sessizliği dinleyin.",
-      "tips_en": "The acoustics inside satisfy; listen to the silence."
+      "tips_en": "The acoustics inside satisfy; listen to the silence.",
+      "area_en": "Jewish Quarter"
     },
     {
       "name": "ELTE Füvészkert (Botanik Bahçesi)",
@@ -1526,8 +1532,8 @@
       "tips_en": "Lunch menus are usually cheaper than dinner."
     },
     {
-      "name": "Eger (Günübirlik)",
-      "area": "Günübirlik",
+      "name": "Eger",
+      "area": "Eger",
       "category": "Deneyim",
       "tags": [
         "şarap",
@@ -1539,13 +1545,14 @@
       "lng": 20.37,
       "price": "medium",
       "rating": 4.6,
-      "description": "Eger (Günübirlik), Budapeşte'nin Günübirlik bölgesinde bulunan dikkat çekici bir nokta. Eşsiz özellikleri ve sunduğu deneyimle ziyaretçilerine unutulmaz anlar yaşatıyor. Bölgenin en çok ziyaret edilen yerlerinden biri olarak her gezginin listesinde yer almalı.",
-      "description_en": "Baroque architecture and wine city. 'Bull's Blood' wine and Valley of Beautiful Women.",
+      "description": "Kuzey Macaristan'da, barok mimarisi, şarapları (Boğa Kanı) ve Osmanlı minaresiyle ünlü tarihi bir şehir. Budapeşte'den günübirlik harika bir kaçış rotası.",
+      "description_en": "A historic city in Northern Hungary famous for its baroque architecture, wines (Bull's Blood), and Ottoman minaret. A great day trip route from Budapest.",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/budapeste/eger_gunubirlik.jpg",
       "bestTime": "Tüm gün",
       "bestTime_en": "Full day",
       "tips": "Grup indirimi olup olmadığını sorun.",
-      "tips_en": "Ask if there is a group discount."
+      "tips_en": "Ask if there is a group discount.",
+      "area_en": "Day Trip"
     },
     {
       "id": "gen_ChIJsaZh2ELdQUcRXcy9-jSwdgs",
@@ -1617,7 +1624,8 @@
       "bestTime": "Akşam",
       "bestTime_en": "Evening",
       "tips": "Fotoğraf çekimi için en iyi ışık gün batımına yakındır.",
-      "tips_en": "Best light for photography is near sunset."
+      "tips_en": "Best light for photography is near sunset.",
+      "area_en": "Center"
     },
     {
       "name": "Elisabeth Lookout (Erzsébet-kilátó)",
@@ -1691,7 +1699,7 @@
     },
     {
       "name": "Esztergom Basilica",
-      "area": "Günübirlik",
+      "area": "Esztergom",
       "category": "Tarihi",
       "tags": [
         "bazilika",
@@ -1703,13 +1711,14 @@
       "lng": 18.745,
       "price": "medium",
       "rating": 4.7,
-      "description": "Geçmişin görkemini günümüze taşıyan Esztergom Basilica, Günübirlik'nın en önemli tarihi yapılarından biri. Restorasyonlarla korunan özgün dokusu, dönemin yaşam tarzını yansıtan eserleri ve muhteşem mimarisiyle keşfedilmeyi bekliyor.",
-      "description_en": "Geçmişin görkemini günümüze taşıyan Esztergom Basilica, Günübirlik'nın en önemli tarihi yapılarından biri. Restorasyonlarla korunan özgün dokusu, dönemin yaşam tarzını yansıtan eserleri ve muhteşem mimarisiyle keşfedilmeyi bekliyor.",
+      "description": "Macaristan'ın en büyük kilisesi. Tuna Nehri kıyısında, Budapeşte'ye yaklaşık 45 km mesafedeki tarihi başkent Esztergom'da bulunur. Kraliyet taç giyme törenlerine ev sahipliği yapmış muhteşem bir yapı.",
+      "description_en": "The largest church in Hungary. Located in the historic capital Esztergom, about 45 km from Budapest on the banks of the Danube. A magnificent structure that hosted royal coronations.",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/budapeste/esztergom_basilica.jpg",
       "bestTime": "Tüm gün",
       "bestTime_en": "Full day",
       "tips": "Rehberli turla gezmek detayları anlamak için çok daha verimli.",
-      "tips_en": "A guided tour is much more efficient to understand the details."
+      "tips_en": "A guided tour is much more efficient to understand the details.",
+      "area_en": "Esztergom"
     },
     {
       "name": "Faust Wine Cellar",
@@ -1803,7 +1812,8 @@
       "bestTime": "Gündüz",
       "bestTime_en": "Daytime",
       "tips": "Biletinizi online alarak gişe sırasından kurtulun.",
-      "tips_en": "Buy tickets online to skip the box office line."
+      "tips_en": "Buy tickets online to skip the box office line.",
+      "area_en": "Kahramanlar Squareı"
     },
     {
       "id": "gen_ChIJQYNiDFDdQUcRLpO7iKagjnE",
@@ -2057,7 +2067,8 @@
       "bestTime": "Öğle veya akşam",
       "bestTime_en": "Lunch or dinner",
       "tips": "Yerel şarapları denemenizi öneririz.",
-      "tips_en": "We recommend trying local wines."
+      "tips_en": "We recommend trying local wines.",
+      "area_en": "Jewish Quarter"
     },
     {
       "id": "gen_ChIJwbXdUUTcQUcR6PfiKmPbJOI",
@@ -2105,7 +2116,8 @@
       "bestTime": "Akşam",
       "bestTime_en": "Evening",
       "tips": "Rehbere soru sormaktan çekinmeyin, çok ilginç hikayeler biliyorlar.",
-      "tips_en": "Don't hesitate to ask the guide questions, they know interesting stories."
+      "tips_en": "Don't hesitate to ask the guide questions, they know interesting stories.",
+      "area_en": "Jewish Quarter"
     },
     {
       "name": "Gozsdu Weekend Market",
@@ -2129,7 +2141,8 @@
       "bestTime": "Cumartesi öğle",
       "bestTime_en": "Saturday noon",
       "tips": "Yerel halkın favori noktalarından biri.",
-      "tips_en": "One of the favorite spots of the locals."
+      "tips_en": "One of the favorite spots of the locals.",
+      "area_en": "Jewish Quarter"
     },
     {
       "id": "gen_ChIJYUt_alTdQUcRzaMCbz-vWHE",
@@ -2206,7 +2219,7 @@
     {
       "name": "Gödöllő Royal Palace",
       "name_en": "Godollo Royal Palace",
-      "area": "Günübirlik",
+      "area": "Gödöllő Royal Palace",
       "category": "Müze",
       "tags": [
         "saray",
@@ -2225,7 +2238,8 @@
       "bestTime": "Tüm gün",
       "bestTime_en": "Full day",
       "tips": "Sesli rehber (audio guide) kiralamak deneyimi ikiye katlar.",
-      "tips_en": "Renting an audio guide doubles the experience."
+      "tips_en": "Renting an audio guide doubles the experience.",
+      "area_en": "Gödöllő Royal Palace"
     },
     {
       "name": "Gül Baba Türbesi",
@@ -2601,7 +2615,8 @@
       "bestTime": "Gece",
       "bestTime_en": "Night",
       "tips": "Akşam yemeği için rezervasyon yaptırmak şart.",
-      "tips_en": "Reservation is a must for dinner."
+      "tips_en": "Reservation is a must for dinner.",
+      "area_en": "Jewish Quarter"
     },
     {
       "id": "gen_ChIJswJGLwzdQUcRJ8ebdwx9IkA",
@@ -2747,7 +2762,8 @@
       "bestTime": "Akşam",
       "bestTime_en": "Evening",
       "tips": "Akşam yemeği için rezervasyon yaptırmak şart.",
-      "tips_en": "Reservation is a must for dinner."
+      "tips_en": "Reservation is a must for dinner.",
+      "area_en": "Jewish Quarter"
     },
     {
       "id": "gen_ChIJ2_tWiTvdQUcRjVNgNzCzkcA",
@@ -3324,7 +3340,8 @@
       "bestTime": "Akşam",
       "bestTime_en": "Evening",
       "tips": "Şefin spesiyal tabağını sormaktan çekinmeyin.",
-      "tips_en": "Don't hesitate to ask for the chef's special."
+      "tips_en": "Don't hesitate to ask for the chef's special.",
+      "area_en": "Jewish Quarter"
     },
     {
       "name": "Memento Park",
@@ -3608,7 +3625,8 @@
       "bestTime": "Öğleden sonra",
       "bestTime_en": "Afternoon",
       "tips": "Çantanızı vestiyere bırakmanız gerekebilir, hazırlıklı olun.",
-      "tips_en": "You might need to leave bags at the cloakroom, be prepared."
+      "tips_en": "You might need to leave bags at the cloakroom, be prepared.",
+      "area_en": "Kahramanlar Squareı"
     },
     {
       "id": "gen_ChIJ3YUMrvXcQUcRQzUeQE9vK20",
@@ -3774,7 +3792,8 @@
       "bestTime": "Sabah",
       "bestTime_en": "Morning",
       "tips": "Hafta içi ziyaret etmek daha sakin bir deneyim sunar.",
-      "tips_en": "Visiting on weekdays offers a calmer experience."
+      "tips_en": "Visiting on weekdays offers a calmer experience.",
+      "area_en": "Jewish Quarter"
     },
     {
       "id": "gen_ChIJ3QfzC1fdQUcR29zJ12VGXjc",
@@ -4753,7 +4772,7 @@
     },
     {
       "name": "Szentendre, Hungary",
-      "area": "Günübirlik",
+      "area": "Szentendre",
       "category": "Deneyim",
       "tags": [
         "sanat",
@@ -4771,7 +4790,8 @@
       "bestTime": "Tüm gün",
       "bestTime_en": "Full day",
       "tips": "Kıyafetinizin aktiviteye uygun olduğundan emin olun.",
-      "tips_en": "Ensure your outfit is suitable for the activity."
+      "tips_en": "Ensure your outfit is suitable for the activity.",
+      "area_en": "Szentendre"
     },
     {
       "name": "Szimpla Kert",
@@ -4793,7 +4813,8 @@
       "bestTime": "Gece veya Pazar sabahı",
       "bestTime_en": "Night or Sunday morning",
       "tips": "Yerel halkın favori noktalarından biri.",
-      "tips_en": "One of the favorite spots of the locals."
+      "tips_en": "One of the favorite spots of the locals.",
+      "area_en": "Jewish Quarter"
     },
     {
       "name": "Szimpla Pazar",
@@ -4817,7 +4838,8 @@
       "bestTime": "Pazar sabahı",
       "bestTime_en": "Sunday morning",
       "tips": "Fotoğraf makinenizin şarjının dolu olduğundan emin olun.",
-      "tips_en": "Make sure your camera battery is full."
+      "tips_en": "Make sure your camera battery is full.",
+      "area_en": "Jewish Quarter"
     },
     {
       "id": "gen_ChIJu6cm20bcQUcRVaYMYw-rxdU",
@@ -5031,7 +5053,8 @@
       "bestTime": "Akşamüstü",
       "bestTime_en": "Late afternoon",
       "tips": "Biletinizi online alarak gişe sırasından kurtulun.",
-      "tips_en": "Buy tickets online to skip the box office line."
+      "tips_en": "Buy tickets online to skip the box office line.",
+      "area_en": "Jewish Quarter"
     },
     {
       "name": "Terror Háza (Terör Evi)",
@@ -5417,7 +5440,7 @@
     },
     {
       "name": "Visegrád Citadel",
-      "area": "Günübirlik",
+      "area": "Visegrád",
       "category": "Tarihi",
       "tags": [
         "kale",
@@ -5435,7 +5458,8 @@
       "bestTime": "Yarım gün",
       "bestTime_en": "Half day",
       "tips": "Fotoğraf çekimi için en iyi ışık gün batımına yakındır.",
-      "tips_en": "Best light for photography is near sunset."
+      "tips_en": "Best light for photography is near sunset.",
+      "area_en": "Visegrád"
     },
     {
       "name": "Váci Utca",
@@ -5599,7 +5623,8 @@
       "bestTime": "Gece",
       "bestTime_en": "Night",
       "tips": "Fotoğraf çekimi için en iyi ışık gün batımına yakındır.",
-      "tips_en": "Best light for photography is near sunset."
+      "tips_en": "Best light for photography is near sunset.",
+      "area_en": "Center"
     },
     {
       "name": "Zincirli Köprü (Chain Bridge)",
@@ -5651,7 +5676,8 @@
       "bestTime": "Gündüz",
       "bestTime_en": "Daytime",
       "tips": "Rehberli turla gezmek detayları anlamak için çok daha verimli.",
-      "tips_en": "A guided tour is much more efficient to understand the details."
+      "tips_en": "A guided tour is much more efficient to understand the details.",
+      "area_en": "Jewish Quarter"
     },
     {
       "name": "Zugliget Chairlift (Libegő)",

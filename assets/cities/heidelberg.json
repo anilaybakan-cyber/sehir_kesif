@@ -82,7 +82,8 @@
       "tips_en": "Get lost in these streets, you'll discover surprises at every corner.",
       "id": "altstadt-eski-şehir",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/heidelberg/altstadt_eski_sehir.jpg",
-      "source": "firebase"
+      "source": "firebase",
+      "area_en": "Center"
     },
     {
       "name": "Antiquariat Hatry",
@@ -157,6 +158,50 @@
       "id": "botanik-bahçesi",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/heidelberg/botanik_bahcesi.jpg",
       "source": "firebase"
+    },
+    {
+      "name": "Thingstätte Amphitheatre",
+      "name_en": "Thingstätte Amphitheatre",
+      "area": "Heiligenberg",
+      "category": "Tarihi",
+      "tags": [
+        "amfitiyatro",
+        "açık hava",
+        "manzara",
+        "tarih"
+      ],
+      "distanceFromCenter": 2.5,
+      "lat": 49.4239,
+      "lng": 8.7062,
+      "price": "free",
+      "rating": 4.6,
+      "description": "Heiligenberg tepesinde yer alan devasa bir açık hava amfitiyatrosu. 1930'larda antik Yunan tiyatroları örnek alınarak inşa edilen bu yapı, etkileyici taş basamakları ve mistik atmosferiyle şehrin en sıra dışı noktalarından biridir.",
+      "description_en": "A massive open-air amphitheater on the Heiligenberg hill. Built in the 1930s based on ancient Greek models, this structure is one of the city's most unusual spots with its impressive stone tiers and mystical atmosphere.",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Thingstaette_Heidelberg.jpg/1280px-Thingstaette_Heidelberg.jpg",
+      "tips": "Tiyatronun tepesine çıkıp ormanın ve nehrin manzarasını izlemeyi unutmayın.",
+      "tips_en": "Don't forget to climb to the top of the theater for views of the forest and the river."
+    },
+    {
+      "name": "Neuburg Abbey",
+      "name_en": "Neuburg Abbey",
+      "area": "Ziegelhausen",
+      "category": "Tarihi",
+      "tags": [
+        "manastır",
+        "bahçe",
+        "huzur",
+        "lokal"
+      ],
+      "distanceFromCenter": 3.0,
+      "lat": 49.4195,
+      "lng": 8.7398,
+      "price": "free",
+      "rating": 4.7,
+      "description": "Boyunca Neckar Nehri'nin kıyısında yer alan, 12. yüzyıldan kalma huzurlu bir Benedictine manastırı. Organik marketi, şirin bahçeleri ve sakin atmosferiyle şehrin kalabalığından uzaklaşmak için harika bir durak.",
+      "description_en": "A peaceful 12th-century Benedictine monastery located along the banks of the Neckar River. With its organic shop, charming gardens, and serene atmosphere, it's a great stop for escaping the city crowds.",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Stift_Neuburg_Ziegelhausen_HD.jpg/1280px-Stift_Neuburg_Ziegelhausen_HD.jpg",
+      "tips": "Manastırın kendi üretimi olan taze ürünleri ve ekolojik biraları mutlaka deneyin.",
+      "tips_en": "Be sure to try the fresh produce and ecological beers produced at the monastery."
     },
     {
       "name": "Brauhaus Vetter",
@@ -1942,5 +1987,7 @@
       "price": "free"
     }
   ],
-  "heroImage": "https://image.hurimg.com/i/hurriyet/90/1110x740/56b3325818c7730e3cdb6757.jpg"
+  "heroImage": "https://image.hurimg.com/i/hurriyet/90/1110x740/56b3325818c7730e3cdb6757.jpg",
+  "city_en": "Heidelberg",
+  "country_en": "Germany"
 }

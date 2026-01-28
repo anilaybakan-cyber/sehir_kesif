@@ -853,7 +853,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/borekci_tevfik.jpg",
       "tips": "Akşam yemeği için rezervasyon yaptırmak şart.",
       "description_en": "A notable destination in Antalya offering unique experiences and memorable moments.",
-      "tips_en": "Reservation is a must for dinner."
+      "tips_en": "Reservation is a must for dinner.",
+      "area_en": "Center"
     },
     {
       "name": "Cafe Terra",
@@ -1514,7 +1515,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/kaleici.jpg",
       "tips": "Fotoğraf makinenizin şarjının dolu olduğundan emin olun.",
       "description_en": "A culinary destination in Antalya offering authentic local flavors and memorable dining experience.",
-      "tips_en": "Make sure your camera battery is full."
+      "tips_en": "Make sure your camera battery is full.",
+      "area_en": "Center"
     },
     {
       "id": "kaleici-bazaar",
@@ -1537,6 +1539,72 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/kaleici-bazaar.jpg",
       "rating": 4,
       "source": "firebase"
+    },
+    {
+      "name": "Falez Parkı",
+      "name_en": "Falez Park",
+      "area": "Lara",
+      "category": "Park",
+      "tags": [
+        "manzara",
+        "yürüyüş",
+        "deniz",
+        "falez"
+      ],
+      "distanceFromCenter": 2.5,
+      "lat": 36.8702,
+      "lng": 30.7183,
+      "price": "free",
+      "rating": 4.8,
+      "description": "Antalya'nın simgesi falezlerin üzerinde, Akdeniz'in masmavi çarşaf gibi uzandığı muazzam bir park. Yürüyüş yolları, seyir terasları ve heykel sanatı ile şehrin en huzurlu kaçış noktalarından biri.",
+      "description_en": "A magnificent park perched on Antalya's iconic cliffs, offering panoramic views of the turquoise Mediterranean. With walking paths and viewing terraces, it's one of the city's most peaceful escapes.",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Antalya_cliffs_at_sunset.jpg/1280px-Antalya_cliffs_at_sunset.jpg",
+      "tips": "Özellikle gün batımını burada izlemek bir Antalya klasiğidir.",
+      "tips_en": "Watching the sunset here is a quintessential Antalya tradition."
+    },
+    {
+      "name": "Eski Lara Caddesi",
+      "name_en": "Old Lara Street",
+      "area": "Lara",
+      "category": "Cadde",
+      "tags": [
+        "yürüyüş",
+        "kafe",
+        "deniz manzarası",
+        "popüler"
+      ],
+      "distanceFromCenter": 3.0,
+      "lat": 36.8665,
+      "lng": 30.7380,
+      "price": "free",
+      "rating": 4.7,
+      "description": "Falezler boyunca uzanan, her köşesinde ayrı bir sahil manzarası barındıran Antalya'nın en popüler yürüyüş ve sosyal yaşam caddesi. Şık kafeler ve butiklerle dolu, yaşayan bir rota.",
+      "description_en": "Antalya's most popular social and walking street stretching along the cliffs. Lined with stylish cafes and boutiques, it offers stunning seaside views at every turn.",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Antalya_Lara_T%C3%BCrkiye_-_panoramio.jpg/1280px-Antalya_Lara_T%C3%BCrkiye_-_panoramio.jpg",
+      "tips": "Hafta sonu sabahları deniz kokusu eşliğinde yürüyüş yapmak harikadır.",
+      "tips_en": "Walking here on weekend mornings with the smell of the sea is wonderful."
+    },
+    {
+      "name": "Lara Balıkçı Barınağı",
+      "name_en": "Lara Fishermen Shelter",
+      "area": "Lara",
+      "category": "Lokal",
+      "tags": [
+        "balık",
+        "tekne",
+        "huzur",
+        "yerel"
+      ],
+      "distanceFromCenter": 8.0,
+      "lat": 36.8510,
+      "lng": 30.8831,
+      "price": "free",
+      "rating": 4.5,
+      "description": "Antalya'nın modern yüzü Lara'da, hala eski balıkçılık kültürünün izlerini taşıyan samimi bir durak. Küçük tekneler, ağ tamir eden balıkçılar ve deniz kokusuyla tam bir lokal deneyim.",
+      "description_en": "A charming, intimate spot in the modern Lara district that still carries traces of old fishing culture. Small boats and local fisherman create a nostalgic maritime atmosphere.",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Antalya_harbor_view.jpg/1280px-Antalya_harbor_view.jpg",
+      "tips": "Barınak çevresindeki salaş balıkçılarda taze deniz ürünlerini tadabilirsiniz.",
+      "tips_en": "Try fresh seafood at the modest local fish restaurants around the shelter."
     },
     {
       "name": "Kaleiçi Marina (Yat Limanı)",
@@ -2869,7 +2937,8 @@
       "tips_en": "Set up on Mondays.",
       "id": "pazartesi-pazari-yerli-pazari",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/pazartesi-pazari-yerli-pazari.jpg",
-      "source": "firebase"
+      "source": "firebase",
+      "area_en": "Center"
     },
     {
       "name": "Paçacı Şemsi",
@@ -2896,7 +2965,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/pacaci_semsi.jpg",
       "tips": "Öğle yemeği menüleri genellikle akşamdan daha uygundur.",
       "description_en": "Vibrant nightlife venue in Antalya with great drinks, music, and entertainment.",
-      "tips_en": "Lunch menus are usually cheaper than dinner."
+      "tips_en": "Lunch menus are usually cheaper than dinner.",
+      "area_en": "Center"
     },
     {
       "name": "Perge Antik Kenti",
@@ -3031,7 +3101,8 @@
       "tips_en": "Get shish kofte with piyaz.",
       "id": "piyaz-evi",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/piyaz-evi.jpg",
-      "source": "firebase"
+      "source": "firebase",
+      "area_en": "Center"
     },
     {
       "id": "piyaz-lokantalari",
@@ -4086,7 +4157,8 @@
       "tips_en": "Queue forms at lunch times.",
       "id": "sis-kofteci-mudurum",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/sis-kofteci-mudurum.jpg",
-      "source": "firebase"
+      "source": "firebase",
+      "area_en": "Center"
     },
     {
       "name": "Düden Şelalesi (Aşağı)",
@@ -4124,5 +4196,7 @@
       "rating": 4.6,
       "price": "free"
     }
-  ]
+  ],
+  "city_en": "Antalya",
+  "country_en": "Turkey"
 }

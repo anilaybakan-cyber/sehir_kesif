@@ -3240,6 +3240,116 @@
       "tips_en": "Decide what to eat by checking Google Maps reviews."
     },
     {
+      "name": "Kaminarimon Gate",
+      "name_en": "Kaminarimon Gate",
+      "area": "Asakusa",
+      "category": "Tarihi",
+      "tags": [
+        "tapınak",
+        "kapı",
+        "fener",
+        "ikonik"
+      ],
+      "distanceFromCenter": 4.5,
+      "lat": 35.7111,
+      "lng": 139.7963,
+      "price": "free",
+      "rating": 4.8,
+      "description": "Senso-ji Tapınağı'nın girişinde bulunan büyüleyici 'Gök Gürültüsü Kapısı'. Dev kırmızı feneri ve devasa heykelleriyle Tokyo'nun en çok fotoğraflanan simgelerinden biridir.",
+      "description_en": "The iconic 'Thunder Gate' at the entrance of Senso-ji Temple. Famous for its massive red lantern and giant statues, it's one of Tokyo's most photographed landmarks.",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Kaminarimon_Gate_at_Senso-ji_Temple_Asakusa_Tokyo_Japan.jpg/1280px-Kaminarimon_Gate_at_Senso-ji_Temple_Asakusa_Tokyo_Japan.jpg",
+      "tips": "Fenerin hemen altındaki ejderha oymalarını incelemeyi unutmayın.",
+      "tips_en": "Don't forget to look at the dragon carvings at the base of the lantern."
+    },
+    {
+      "name": "Nakamise Street",
+      "name_en": "Nakamise Street",
+      "area": "Asakusa",
+      "category": "Alışveriş",
+      "tags": [
+        "sokak lezzetleri",
+        "hediyelik",
+        "tarihi",
+        "gezinti"
+      ],
+      "distanceFromCenter": 4.6,
+      "lat": 35.7118,
+      "lng": 139.7967,
+      "price": "free",
+      "rating": 4.7,
+      "description": "Kaminarimon kapısından Senso-ji Tapınağı'na uzanan, Japonya'nın en eski alışveriş caddelerinden biri. Geleneksel atıştırmalıklar, el yapımı eşyalar ve renkli fenerlerle dolu nostaljik bir atmosfer sunar.",
+      "description_en": "One of Japan's oldest shopping streets, stretching from Kaminarimon to Senso-ji Temple. Filled with traditional snacks, handmade crafts, and a nostalgic Edo-period vibe.",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Nakamise-dori_Asakusa_Tokyo_Japan.jpg/1280px-Nakamise-dori_Asakusa_Tokyo_Japan.jpg",
+      "tips": "Taze pişirilmiş 'ningyoyaki' (kek) veya 'sembei' (kraker) denemeden geçmeyin.",
+      "tips_en": "Don't miss a chance to try freshly toasted 'ningyoyaki' or rice crackers."
+    },
+    {
+      "name": "7-Eleven",
+      "name_en": "7-Eleven",
+      "area": "Kojimachi",
+      "category": "Deneyim",
+      "tags": [
+        "konbini",
+        "market",
+        "lokal",
+        "hızlı tüketim"
+      ],
+      "distanceFromCenter": 1.5,
+      "lat": 35.6882,
+      "lng": 139.7423,
+      "price": "low",
+      "rating": 4.5,
+      "description": "Japonya'nın konbini kültürünün bir numaralı ismi. Kojimachi'deki bu amiral gemisi mağazası, en yeni ürünlerin denendiği ve sınırlı sayıda özel lezzetlerin bulunduğu bir duraktır.",
+      "description_en": "The leader of Japan's convenience store culture. This flagship store in Kojimachi often tests new products and offers exclusive items you won't find elsewhere.",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/7-Eleven_store_in_Tokyo%2C_Japan.jpg/1280px-7-Eleven_store_in_Tokyo%2C_Japan.jpg",
+      "tips": "Efsanevi yumurtalı sandviçlerini veya 7-Select marka tatlılarını deneyin.",
+      "tips_en": "Try their legendary egg sandwiches or 7-Select premium sweets."
+    },
+    {
+      "name": "Lawson",
+      "name_en": "Lawson",
+      "area": "Akihabara",
+      "category": "Deneyim",
+      "tags": [
+        "konbini",
+        "tematik",
+        "tatlı",
+        "popüler"
+      ],
+      "distanceFromCenter": 3.0,
+      "lat": 35.7001,
+      "lng": 139.7719,
+      "price": "low",
+      "rating": 4.6,
+      "description": "Özellikle 'Karaage-kun' tavukları ve 'Uchi Cafe' tatlılarıyla ünlü popüler Japon zinciri. Akihabara'daki bu şube, oyun temalı dekorasyonlarıyla eşsiz bir deneyim sunar.",
+      "description_en": "A popular Japanese chain famous for 'Karaage-kun' fried chicken and premium desserts. This Akihabara location features unique themed decorations that delight gamers.",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Lawson_Japan.jpg/1280px-Lawson_Japan.jpg",
+      "tips": "Meşhur 'Premium Roll Cake' tatlısını mutlaka tadın.",
+      "tips_en": "Make sure to taste their famous 'Premium Roll Cake'."
+    },
+    {
+      "name": "Family Mart",
+      "name_en": "Family Mart",
+      "area": "Ebisu",
+      "category": "Deneyim",
+      "tags": [
+        "konbini",
+        "famichiki",
+        "tasarım",
+        "lokal"
+      ],
+      "distanceFromCenter": 4.0,
+      "lat": 35.6426,
+      "lng": 139.7118,
+      "price": "low",
+      "rating": 4.5,
+      "description": "Efsanevi 'Famichiki'si (kızarmış tavuk) ile bilinen zincirin, Ebisu'daki şık ve modern tasarımlı mağazası. Japon şehir hayatının en temel parçalarından biri.",
+      "description_en": "Famous for the legendary 'Famichiki' fried chicken. This Ebisu branch features a sleek, upscale design that represents the modern face of Japanese convenience stores.",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Family_Mart.jpg/1280px-Family_Mart.jpg",
+      "tips": "Sıcak dolaptan taze bir Famichiki alıp hemen tadına bakın.",
+      "tips_en": "Grab a fresh Famichiki from the hot counter for the ultimate snack experience."
+    },
+    {
       "name": "Senso-ji Tapınağı",
       "area": "Asakusa",
       "category": "Tarihi",

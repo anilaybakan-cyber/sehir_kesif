@@ -682,7 +682,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/borj_nord.jpg",
       "tips": "Çantanızı vestiyere bırakmanız gerekebilir, hazırlıklı olun.",
       "description_en": "Overlooking the city, this 16th-century fortress now houses the Museum of Arms. Climbing its ramparts offers the best panoramic view where you can see the labyrinthine streets, minarets, and tanneries of Fes el Bali from a bird's eye view.",
-      "tips_en": "You might need to leave bags at the cloakroom, be prepared."
+      "tips_en": "You might need to leave bags at the cloakroom, be prepared.",
+      "area_en": "Hill"
     },
     {
       "id": "borj-sheikh-ahmed",
@@ -2156,7 +2157,8 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/marinid_mezarlari.jpg",
       "tips": "Rüzgarlı olabilir, yanınıza ince bir ceket alın.",
       "description_en": "Hilltop ruins of 2 tall mausoleums with horseshoe-shaped entrances built in the 14th century.",
-      "tips_en": "It can be windy, bring a light jacket."
+      "tips_en": "It can be windy, bring a light jacket.",
+      "area_en": "Hill"
     },
     {
       "id": "medinart",
@@ -3580,5 +3582,7 @@
       "tips_en": "Non-Muslims are not allowed to enter but can be seen from the door.",
       "subcategory": "Türbe"
     }
-  ]
+  ],
+  "city_en": "Fez",
+  "country_en": "Morocco"
 }

@@ -12,6 +12,28 @@
   },
   "highlights": [
     {
+      "name": "The Lookout",
+      "area": "City of London",
+      "category": "Deneyim",
+      "tags": [
+        "manzara",
+        "ücretsiz",
+        "gökdelen"
+      ],
+      "distanceFromCenter": 0.5,
+      "lat": 51.5135,
+      "lng": -0.0818,
+      "price": "free",
+      "rating": 4.8,
+      "description": "8 Bishopsgate'in 50. katında yer alan ücretsiz seyir terası. Şehir manzarasını izlemek için harika bir nokta.",
+      "description_en": "Free viewing gallery on the 50th floor of 8 Bishopsgate. A great spot to view the city skyline.",
+      "imageUrl": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=800",
+      "bestTime": "Gündüz",
+      "bestTime_en": "Daytime",
+      "tips": "Önceden rezervasyon yapmanız gerekebilir.",
+      "tips_en": "You may need to book in advance."
+    },
+    {
       "id": "gen_ChIJY6aASbAddkgRda6Hx_NGCgQ",
       "name": "215 Hackney | Cafe & Brunch",
       "category": "Kafe",
@@ -125,7 +147,8 @@
       "tags": [
         "kafe",
         "popüler",
-        "keşfet"
+        "keşfet",
+        "not_curated"
       ],
       "distanceFromCenter": 1.5,
       "tips": "Hafta içi ziyaret etmek daha sakin bir deneyim sunar.",
@@ -196,7 +219,8 @@
       "tags": [
         "kafe",
         "popüler",
-        "keşfet"
+        "keşfet",
+        "not_curated"
       ],
       "distanceFromCenter": 1.5,
       "tips": "Yerel halkın favori noktalarından biri.",
@@ -242,7 +266,8 @@
       "tags": [
         "kafe",
         "popüler",
-        "keşfet"
+        "keşfet",
+        "not_curated"
       ],
       "distanceFromCenter": 1.5,
       "tips": "Hafta içi ziyaret etmek daha sakin bir deneyim sunar.",
@@ -266,7 +291,8 @@
       "tags": [
         "kafe",
         "popüler",
-        "keşfet"
+        "keşfet",
+        "not_curated"
       ],
       "distanceFromCenter": 1.5,
       "tips": "Yerel halkın favori noktalarından biri.",
@@ -290,7 +316,8 @@
       "tags": [
         "kafe",
         "popüler",
-        "keşfet"
+        "keşfet",
+        "not_curated"
       ],
       "distanceFromCenter": 1.5,
       "tips": "Çevredeki küçük hediyelik eşya dükkanlarına da uğrayın.",
@@ -338,7 +365,8 @@
       "tags": [
         "bar",
         "popüler",
-        "keşfet"
+        "keşfet",
+        "not_curated"
       ],
       "distanceFromCenter": 1.5,
       "tips": "Yerel halkın favori noktalarından biri.",
@@ -438,7 +466,8 @@
       "tags": [
         "kafe",
         "popüler",
-        "keşfet"
+        "keşfet",
+        "not_curated"
       ],
       "distanceFromCenter": 1.5,
       "tips": "Çevredeki küçük hediyelik eşya dükkanlarına da uğrayın.",
@@ -522,7 +551,8 @@
       "tags": [
         "kafe",
         "popüler",
-        "keşfet"
+        "keşfet",
+        "not_curated"
       ],
       "distanceFromCenter": 1.5,
       "tips": "Çevredeki küçük hediyelik eşya dükkanlarına da uğrayın.",
@@ -729,7 +759,8 @@
       "tags": [
         "kafe",
         "popüler",
-        "keşfet"
+        "keşfet",
+        "not_curated"
       ],
       "distanceFromCenter": 1.5,
       "tips": "Hafta içi ziyaret etmek daha sakin bir deneyim sunar.",
@@ -753,7 +784,8 @@
       "tags": [
         "kafe",
         "popüler",
-        "keşfet"
+        "keşfet",
+        "not_curated"
       ],
       "distanceFromCenter": 1.5,
       "tips": "Yerel halkın favori noktalarından biri.",
@@ -777,7 +809,8 @@
       "tags": [
         "kafe",
         "popüler",
-        "keşfet"
+        "keşfet",
+        "not_curated"
       ],
       "distanceFromCenter": 1.5,
       "tips": "Yerel halkın favori noktalarından biri.",
@@ -840,7 +873,8 @@
       "tags": [
         "kafe",
         "popüler",
-        "keşfet"
+        "keşfet",
+        "not_curated"
       ],
       "distanceFromCenter": 1.5,
       "tips": "Çevredeki küçük hediyelik eşya dükkanlarına da uğrayın.",
@@ -864,7 +898,8 @@
       "tags": [
         "kafe",
         "popüler",
-        "keşfet"
+        "keşfet",
+        "not_curated"
       ],
       "distanceFromCenter": 1.5,
       "tips": "Google Maps yorumlarına göz atarak ne yiyeceğinize karar verin.",
@@ -888,7 +923,8 @@
       "tags": [
         "kafe",
         "popüler",
-        "keşfet"
+        "keşfet",
+        "not_curated"
       ],
       "distanceFromCenter": 1.5,
       "tips": "Yerel halkın favori noktalarından biri.",
@@ -1023,7 +1059,8 @@
       "tags": [
         "kafe",
         "popüler",
-        "keşfet"
+        "keşfet",
+        "not_curated"
       ],
       "distanceFromCenter": 1.5,
       "tips": "Hafta içi ziyaret etmek daha sakin bir deneyim sunar.",
@@ -1125,7 +1162,8 @@
       "tags": [
         "kafe",
         "popüler",
-        "keşfet"
+        "keşfet",
+        "not_curated"
       ],
       "distanceFromCenter": 1.5,
       "tips": "Google Maps yorumlarına göz atarak ne yiyeceğinize karar verin.",
@@ -1353,7 +1391,8 @@
       "tags": [
         "bar",
         "popüler",
-        "keşfet"
+        "keşfet",
+        "not_curated"
       ],
       "distanceFromCenter": 1.5,
       "tips": "Hafta içi ziyaret etmek daha sakin bir deneyim sunar.",
@@ -1377,7 +1416,8 @@
       "tags": [
         "kafe",
         "popüler",
-        "keşfet"
+        "keşfet",
+        "not_curated"
       ],
       "distanceFromCenter": 1.5,
       "tips": "Çevredeki küçük hediyelik eşya dükkanlarına da uğrayın.",
@@ -1535,7 +1575,8 @@
       "tags": [
         "kafe",
         "popüler",
-        "keşfet"
+        "keşfet",
+        "not_curated"
       ],
       "distanceFromCenter": 1.5,
       "tips": "Google Maps yorumlarına göz atarak ne yiyeceğinize karar verin.",
@@ -1833,7 +1874,8 @@
       "tags": [
         "kafe",
         "popüler",
-        "keşfet"
+        "keşfet",
+        "not_curated"
       ],
       "distanceFromCenter": 1.5,
       "tips": "Hafta içi ziyaret etmek daha sakin bir deneyim sunar.",
@@ -1939,7 +1981,8 @@
       "tags": [
         "kafe",
         "popüler",
-        "keşfet"
+        "keşfet",
+        "not_curated"
       ],
       "distanceFromCenter": 1.5,
       "tips": "Hafta içi ziyaret etmek daha sakin bir deneyim sunar.",
@@ -2114,7 +2157,8 @@
       "tags": [
         "kafe",
         "popüler",
-        "keşfet"
+        "keşfet",
+        "not_curated"
       ],
       "distanceFromCenter": 1.5,
       "tips": "Google Maps yorumlarına göz atarak ne yiyeceğinize karar verin.",
@@ -2405,7 +2449,8 @@
       "tags": [
         "kafe",
         "popüler",
-        "keşfet"
+        "keşfet",
+        "not_curated"
       ],
       "distanceFromCenter": 1.5,
       "tips": "Yerel halkın favori noktalarından biri.",
@@ -2445,7 +2490,8 @@
       "tags": [
         "kafe",
         "popüler",
-        "keşfet"
+        "keşfet",
+        "not_curated"
       ],
       "distanceFromCenter": 1.5,
       "tips": "Yerel halkın favori noktalarından biri.",
@@ -2656,7 +2702,8 @@
       "tags": [
         "kafe",
         "popüler",
-        "keşfet"
+        "keşfet",
+        "not_curated"
       ],
       "distanceFromCenter": 1.5,
       "tips": "Hafta içi ziyaret etmek daha sakin bir deneyim sunar.",
@@ -2772,7 +2819,8 @@
       "tags": [
         "kafe",
         "popüler",
-        "keşfet"
+        "keşfet",
+        "not_curated"
       ],
       "distanceFromCenter": 1.5,
       "tips": "Hafta içi ziyaret etmek daha sakin bir deneyim sunar.",
@@ -2883,7 +2931,8 @@
       "tags": [
         "kafe",
         "popüler",
-        "keşfet"
+        "keşfet",
+        "not_curated"
       ],
       "distanceFromCenter": 1.5,
       "tips": "Yerel halkın favori noktalarından biri.",
@@ -3093,7 +3142,8 @@
       "tags": [
         "kafe",
         "popüler",
-        "keşfet"
+        "keşfet",
+        "not_curated"
       ],
       "distanceFromCenter": 1.5,
       "tips": "Google Maps yorumlarına göz atarak ne yiyeceğinize karar verin.",
@@ -3392,7 +3442,8 @@
       "tags": [
         "kafe",
         "popüler",
-        "keşfet"
+        "keşfet",
+        "not_curated"
       ],
       "distanceFromCenter": 1.5,
       "tips": "Çevredeki küçük hediyelik eşya dükkanlarına da uğrayın.",
@@ -3548,7 +3599,8 @@
       "tags": [
         "kafe",
         "popüler",
-        "keşfet"
+        "keşfet",
+        "not_curated"
       ],
       "distanceFromCenter": 1.5,
       "tips": "Çevredeki küçük hediyelik eşya dükkanlarına da uğrayın.",
@@ -3612,7 +3664,8 @@
       "tags": [
         "kafe",
         "popüler",
-        "keşfet"
+        "keşfet",
+        "not_curated"
       ],
       "distanceFromCenter": 1.5,
       "tips": "Yerel halkın favori noktalarından biri.",
@@ -4239,7 +4292,8 @@
       "tags": [
         "kafe",
         "popüler",
-        "keşfet"
+        "keşfet",
+        "not_curated"
       ],
       "distanceFromCenter": 1.5,
       "tips": "Çevredeki küçük hediyelik eşya dükkanlarına da uğrayın.",
@@ -4807,7 +4861,8 @@
       "tags": [
         "kafe",
         "popüler",
-        "keşfet"
+        "keşfet",
+        "not_curated"
       ],
       "distanceFromCenter": 1.5,
       "tips": "Hafta içi ziyaret etmek daha sakin bir deneyim sunar.",
@@ -4968,7 +5023,8 @@
       "tags": [
         "kafe",
         "popüler",
-        "keşfet"
+        "keşfet",
+        "not_curated"
       ],
       "distanceFromCenter": 1.5,
       "tips": "Hafta içi ziyaret etmek daha sakin bir deneyim sunar.",

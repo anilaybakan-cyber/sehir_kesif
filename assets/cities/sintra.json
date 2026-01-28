@@ -28,6 +28,27 @@
       "distanceFromCenter": 1.0
     },
     {
+      "name": "Park of Pena",
+      "name_en": "Park of Pena",
+      "area": "Sintra",
+      "category": "Park",
+      "tags": [
+        "bahçe",
+        "romantik",
+        "doğa",
+        "egzotik"
+      ],
+      "lat": 38.7877,
+      "lng": -9.3905,
+      "price": "medium",
+      "rating": 4.8,
+      "description": "Pena Sarayı'nı çevreleyen, devasa ve büyüleyici bir romantik park. Dünyanın dört bir yanından getirilen egzotik ağaçlar, gizli yollar, yapay mağaralar ve muhteşem göletlerle dolu olan bu park, Sintra'nın mistik atmosferini en iyi hissedeceğiniz yerdir.",
+      "description_en": "A vast and enchanting romantic park surrounding the Pena Palace. Filled with exotic trees from around the world, hidden paths, artificial caves, and magnificent ponds, this park is the best place to experience the mystical atmosphere of Sintra.",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Parque_da_Pena_%2828612185257%29.jpg/1280px-Parque_da_Pena_%2828612185257%29.jpg",
+      "tips": "Sarayın kalabalığından kaçıp parkın göletler bölgesinde (Valley of Lakes) huzur bulun.",
+      "tips_en": "Escape the palace crowds and find peace in the Valley of Lakes section of the park."
+    },
+    {
       "name": "Adega Regional de Colares",
       "area": "Colares",
       "category": "Yeme-İçme",
@@ -133,7 +154,8 @@
       "id": "apeadeiro",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/apeadeiro.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "area_en": "Station"
     },
     {
       "name": "Arribas de Sintra",
@@ -287,7 +309,8 @@
       "id": "biester-palace",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/biester-palace.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "area_en": "Center"
     },
     {
       "name": "Boca do Inferno",
@@ -480,7 +503,8 @@
       "id": "café-saudade",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/cafe_saudade.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "area_en": "Station"
     },
     {
       "name": "Café da Natália",
@@ -3673,7 +3697,8 @@
       "id": "vila-sassetti",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sintra/vila-sassetti.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "area_en": "Center"
     },
     {
       "name": "Volta do Duche",
@@ -3737,5 +3762,7 @@
       "source": "firebase"
     }
   ],
-  "heroImage": "https://images.contentstack.io/v3/assets/blt06f605a34f1194ff/blt75a384a61f2efa5b/68848225e7cb649650cc2d81/BCC-2024-EXPLORER-SINTRA-BEST_PLACES_TO_VISIT-HEADER-MOBILE.jpg?format=webp&auto=avif&quality=60&crop=16%3A9&width=1440"
+  "heroImage": "https://images.contentstack.io/v3/assets/blt06f605a34f1194ff/blt75a384a61f2efa5b/68848225e7cb649650cc2d81/BCC-2024-EXPLORER-SINTRA-BEST_PLACES_TO_VISIT-HEADER-MOBILE.jpg?format=webp&auto=avif&quality=60&crop=16%3A9&width=1440",
+  "city_en": "Sintra",
+  "country_en": "Portugal"
 }

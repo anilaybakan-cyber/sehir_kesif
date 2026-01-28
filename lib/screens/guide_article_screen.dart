@@ -81,11 +81,16 @@ class _GuideArticleScreenState extends State<GuideArticleScreen> {
                 child: Stack(
                   fit: StackFit.expand,
                   children: [
-                    CachedNetworkImage(
-                      imageUrl: widget.imageUrl,
+                    Image.network(
+                      widget.imageUrl,
                       fit: BoxFit.cover,
                       color: Colors.black.withOpacity(0.3),
                       colorBlendMode: BlendMode.darken,
+                      loadingBuilder: (context, child, loadingProgress) {
+                        if (loadingProgress == null) return child;
+                        return Container(color: WanderlustColors.bgDark);
+                      },
+                      errorBuilder: (context, error, stackTrace) => Container(color: WanderlustColors.bgDark),
                     ),
                     Positioned(
                       bottom: -1, // -1 to avoid any gap
@@ -273,7 +278,7 @@ class _GuideArticleScreenState extends State<GuideArticleScreen> {
               title,
               style: GoogleFonts.poppins(
                 color: Colors.white,
-                fontSize: 18,
+                fontSize: 16,
                 fontWeight: FontWeight.bold,
                 letterSpacing: 0.5,
               ),
@@ -303,7 +308,20 @@ class _GuideArticleScreenState extends State<GuideArticleScreen> {
     // Link pattern: [DisplayName](search:SearchName)
     final linkPattern = RegExp(r'\[([^\]]+)\]\(search:([^\)]+)\)');
     
-    // Önce linkleri işle
+    // Link yoksa ve bold yoksa düz Text döndür
+    if (!linkPattern.hasMatch(text) && !text.contains('**')) {
+      return Text(
+        text,
+        style: GoogleFonts.poppins(
+          color: Colors.white.withOpacity(0.8), 
+          fontSize: 16, 
+          height: 1.6, 
+          fontWeight: FontWeight.w400
+        ),
+      );
+    }
+
+    // Link varsa isle
     if (linkPattern.hasMatch(text)) {
       final List<InlineSpan> spans = [];
       int lastEnd = 0;
@@ -354,16 +372,26 @@ class _GuideArticleScreenState extends State<GuideArticleScreen> {
 
       return RichText(
         text: TextSpan(
-          style: GoogleFonts.poppins(color: Colors.white.withOpacity(0.85), fontSize: 16, height: 1.6),
+          style: GoogleFonts.poppins(
+            color: Colors.white.withOpacity(0.8), 
+            fontSize: 16, 
+            height: 1.6,
+            fontWeight: FontWeight.w400,
+          ),
           children: spans,
         ),
       );
     }
 
-    // Link yoksa sadece bold parsing yap
+    // Link yoksa ama bold varsa
     return RichText(
       text: TextSpan(
-        style: GoogleFonts.poppins(color: Colors.white.withOpacity(0.85), fontSize: 16, height: 1.6),
+        style: GoogleFonts.poppins(
+          color: Colors.white.withOpacity(0.8), 
+          fontSize: 16, 
+          height: 1.6,
+          fontWeight: FontWeight.w400,
+        ),
         children: _parseTextWithBold(text),
       ),
     );
@@ -372,7 +400,14 @@ class _GuideArticleScreenState extends State<GuideArticleScreen> {
   /// Bold text içeren metni parse eder
   List<InlineSpan> _parseTextWithBold(String text) {
     if (!text.contains('**')) {
-      return [TextSpan(text: text)];
+      return [TextSpan(
+        text: text,
+        style: GoogleFonts.poppins(
+          color: Colors.white.withOpacity(0.8),
+          fontSize: 16,
+          fontWeight: FontWeight.w400,
+        ),
+      )];
     }
 
     final List<InlineSpan> spans = [];
@@ -380,11 +415,27 @@ class _GuideArticleScreenState extends State<GuideArticleScreen> {
 
     for (int i = 0; i < parts.length; i++) {
         if (i % 2 == 0) {
-          if (parts[i].isNotEmpty) spans.add(TextSpan(text: parts[i]));
+          if (parts[i].isNotEmpty) {
+            spans.add(TextSpan(
+              text: parts[i],
+              style: GoogleFonts.poppins(
+                color: Colors.white.withOpacity(0.8),
+                fontSize: 16,
+                fontWeight: FontWeight.w400,
+              ),
+            ));
+          }
         } else {
+          // Sadece sonu : ile biten kelimeler (örn "Note:", "İpucu:") bold olsun
+          final isKey = parts[i].trim().endsWith(':');
+          
           spans.add(TextSpan(
             text: parts[i],
-            style: GoogleFonts.poppins(color: Colors.white, fontWeight: FontWeight.bold),
+            style: GoogleFonts.poppins(
+              color: isKey ? Colors.white : Colors.white.withOpacity(0.8), 
+              fontSize: 16,
+              fontWeight: isKey ? FontWeight.bold : FontWeight.w400,
+            ),
           ));
         }
     }
@@ -396,36 +447,62 @@ class _GuideArticleScreenState extends State<GuideArticleScreen> {
   void _navigateToPlace(String query) async {
     try {
       String? targetCity;
-      String searchPlace = query;
+      String searchPlace = query.trim();
+      final searchPlaceLower = searchPlace.toLowerCase();
 
-      // 1. Query içinde şehir adı var mı kontrol et
       final allCities = CityDataLoader.supportedCities;
+      List<String> citiesToSearch = [];
+      
+      // 1. Query içinde şehir adı var mı kontrol et
       for (var cityId in allCities) {
-        if (query.toLowerCase().contains(cityId)) {
+        if (searchPlaceLower.contains(cityId)) {
           targetCity = cityId;
           break;
         }
       }
 
-      // 2. Arama yapılacak şehirler listesi
-      // Eğer hedef şehir bulunamadıysa popüler ve olası şehirlerde sırayla ara
-      List<String> citiesToSearch = targetCity != null 
-          ? [targetCity] 
-          : ['roma', 'paris', 'barcelona', 'istanbul', 'londra', 'viyana', 'prag', 'lizbon', 'rovaniemi', 'matera', 'sintra', 'colmar'];
+      if (targetCity != null) {
+        citiesToSearch = [targetCity];
+      } else {
+        // Default sıralama (popüler şehirler üstte olabilir veya olduğu gibi)
+        citiesToSearch = CityDataLoader.supportedCities;
+      }
       
       Highlight? foundPlace;
 
+      // PASS 1: EXACT MATCH
       for (var cityId in citiesToSearch) {
         final cityModel = await CityDataLoader.loadCity(cityId);
         try {
-          // Tam eşleşme veya içerik kontrolü
           foundPlace = cityModel.highlights.firstWhere(
-            (h) => h.name.toLowerCase().trim() == searchPlace.toLowerCase().trim() || 
-                   searchPlace.toLowerCase().contains(h.name.toLowerCase().trim()) ||
-                   h.name.toLowerCase().contains(searchPlace.toLowerCase().trim())
+            (h) => h.name.toLowerCase().trim() == searchPlaceLower
           );
           if (foundPlace != null) break;
         } catch (_) {}
+      }
+
+       // PASS 2: SMART PARTIAL MATCH
+      if (foundPlace == null) {
+        for (var cityId in citiesToSearch) {
+          final cityModel = await CityDataLoader.loadCity(cityId);
+          try {
+             foundPlace = cityModel.highlights.firstWhere((h) {
+                final hNameLower = h.name.toLowerCase().trim();
+                
+                // Durum A: Yer adı, aranan kelimeyi içeriyor (Örn: Place="Noma Restaurant", Query="Noma") -> KABUL
+                if (hNameLower.contains(searchPlaceLower)) return true;
+
+                // Durum B: Aranan kelime, yer adını içeriyor
+                if (searchPlaceLower.contains(hNameLower)) {
+                   final pattern = RegExp(r'(?:^|\s|[^a-z0-9])' + RegExp.escape(hNameLower) + r'(?:$|\s|[^a-z0-9])');
+                   return pattern.hasMatch(searchPlaceLower);
+                }
+
+                return false;
+             });
+             if (foundPlace != null) break;
+          } catch (_) {}
+        }
       }
 
       if (foundPlace != null && mounted) {

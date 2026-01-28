@@ -43,3 +43,22 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Security
+service_account.json
+
+# Large Binaries
+*.ipa
+*.aab
+ios/build/
+
+# Temporary / Untracked Media
+fixed_istanbul_photos/
+fresh_photos/
+temp_*/
+*.mov
+*.png
+!assets/**/*.png
+!assets/**/*.jpg
+!ios/**/*.png
+!android/**/*.png

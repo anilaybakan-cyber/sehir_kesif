@@ -219,7 +219,8 @@
       "tags": [
         "kafe",
         "popüler",
-        "keşfet"
+        "keşfet",
+        "not_curated"
       ],
       "distanceFromCenter": 1.5,
       "tips": "Yerel halkın favori noktalarından biri.",
@@ -267,7 +268,8 @@
       "tags": [
         "kafe",
         "popüler",
-        "keşfet"
+        "keşfet",
+        "not_curated"
       ],
       "distanceFromCenter": 1.5,
       "tips": "Hafta içi ziyaret etmek daha sakin bir deneyim sunar.",
@@ -409,7 +411,8 @@
       "tags": [
         "kafe",
         "popüler",
-        "keşfet"
+        "keşfet",
+        "not_curated"
       ],
       "distanceFromCenter": 1.5,
       "tips": "Hafta içi ziyaret etmek daha sakin bir deneyim sunar.",
@@ -603,7 +606,8 @@
       "tags": [
         "kafe",
         "popüler",
-        "keşfet"
+        "keşfet",
+        "not_curated"
       ],
       "distanceFromCenter": 1.5,
       "tips": "Google Maps yorumlarına göz atarak ne yiyeceğinize karar verin.",
@@ -842,6 +846,160 @@
       "distanceFromCenter": 1.5,
       "tips": "Hafta içi ziyaret etmek daha sakin bir deneyim sunar.",
       "tips_en": "Visiting on weekdays offers a calmer experience."
+    },
+    {
+      "name": "Schillerkiez",
+      "name_en": "Schillerkiez",
+      "area": "Neukölln",
+      "category": "Deneyim",
+      "tags": [
+        "mimari",
+        "mahalle",
+        "lokal",
+        "gezinti"
+      ],
+      "distanceFromCenter": 4.5,
+      "lat": 52.477,
+      "lng": 13.442,
+      "price": "free",
+      "rating": 4.6,
+      "description": "Berlin'in Neukölln bölgesinde yer alan, Wilhelminian tarzı mimarisi ve tree-lined Schillerpromenade caddesiyle ünlü popüler bir mahalle. Tempelhofer Feld'in hemen yanında olması burayı sanatçılar ve yerel halk için huzurlu bir vaha haline getiriyor.",
+      "description_en": "A popular Wilhelminian-style neighborhood in Neukölln, known for its quiet atmosphere and the tree-lined Schillerpromenade. Borders Tempelhofer Feld, making it a green oasis for artists and locals.",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/46/Berlin-neukoelln-schillerkiez-schillerpromenade-2005.jpg",
+      "tips": "Schillerpromenade üzerinde bir kahve alıp Tempelhofer Feld'e yürüyün.",
+      "tips_en": "Grab a coffee on Schillerpromenade and walk to Tempelhofer Feld."
+    },
+    {
+      "name": "Arkonaplatz Flea Market",
+      "name_en": "Arkonaplatz Flea Market",
+      "area": "Mitte",
+      "category": "Deneyim",
+      "tags": [
+        "pazar",
+        "vintage",
+        "antika",
+        "gezinti"
+      ],
+      "distanceFromCenter": 1.5,
+      "lat": 52.5372,
+      "lng": 13.4019,
+      "price": "free",
+      "rating": 4.7,
+      "description": "Berlin'in en şirin ve mahalle havasını en iyi yansıtan Pazar pazarlarından biri. Ihlamur ve kestane ağaçlarının altında, antikalar, el sanatları ve nostaljik eşyalar arasında kaybolacağınız butik bir bit pazarı.",
+      "description_en": "One of Berlin's most charming and neighborly Sunday flea markets. Set under Linden and chestnut trees, it offers a relaxed vibe for finding antiques, handicrafts, and vintage treasures.",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Berlin_Arkonaplatz_Flohmarkt.jpg/1280px-Berlin_Arkonaplatz_Flohmarkt.jpg",
+      "tips": "Pazarın etrafındaki butik kafelerde mola vermeyi unutmayın.",
+      "tips_en": "Don't forget to take a break at the boutique cafes around the square."
+    },
+    {
+      "name": "Kastanienallee",
+      "name_en": "Kastanienallee",
+      "area": "Prenzlauer Berg",
+      "category": "Deneyim",
+      "tags": [
+        "alışveriş",
+        "tasarım",
+        "moda",
+        "kafe"
+      ],
+      "distanceFromCenter": 2.2,
+      "lat": 52.5386,
+      "lng": 13.4097,
+      "price": "free",
+      "rating": 4.5,
+      "description": "Prenzlauer Berg'in en canlı caddelerinden biri. Tasarım dükkanları, butikleri ve kafe kültürüyle ünlü bu cadde, Berlin'in en eski bira bahçesi olan Prater'e de ev sahipliği yapar.",
+      "description_en": "One of Prenzlauer Berg's most vibrant streets, famous for its cafe culture, design shops, and boutiques. Home to Prater, Berlin's oldest beer garden.",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Kastanienallee%2C_Berlin%2C_Prenzlauer_Berg_-_panoramio.jpg",
+      "tips": "Prater Biergarten'da mola verip geleneksel Berlin atmosferini yaşayın.",
+      "tips_en": "Take a break at Prater Biergarten to experience the traditional Berlin atmosphere."
+    },
+    {
+      "name": "Rykestrasse Synagogue",
+      "name_en": "Rykestrasse Synagogue",
+      "area": "Prenzlauer Berg",
+      "category": "Tarihi",
+      "tags": [
+        "sinagog",
+        "mimari",
+        "tarih",
+        "yahudi kültürü"
+      ],
+      "distanceFromCenter": 2.0,
+      "lat": 52.5354,
+      "lng": 13.4186,
+      "price": "medium",
+      "rating": 4.8,
+      "description": "Almanya'nın en büyük sinagogu olan bu Neo-Romanesk yapı, Prenzlauer Berg'in kalbinde gizli bir mücevher. 1904'ten beri ayakta olan sinagog, etkileyici mimarisi ve devasa iç hacmiyle Yahudi tarihinin en önemli tanıklarından biridir.",
+      "description_en": "Germany's largest synagogue, a Neo-Romanesque gem in the heart of Prenzlauer Berg. Built in 1904, it stands as a majestic witness to the city's Jewish history with its impressive architecture.",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Berlin_Prenzlauer_Berg_Rykestra%C3%9Fe_Synagoge_Aussenansicht.jpg/1280px-Berlin_Prenzlauer_Berg_Rykestra%C3%9Fe_Synagoge_Aussenansicht.jpg",
+      "tips": "Sinagogu ziyaret etmeden önce çalışma saatlerini ve güvenlik kurallarını kontrol edin.",
+      "tips_en": "Check opening hours and security rules before visiting the synagogue."
+    },
+    {
+      "name": "Helmholtzplatz",
+      "name_en": "Helmholtzplatz",
+      "area": "Prenzlauer Berg",
+      "category": "Doğa",
+      "tags": [
+        "park",
+        "lokal",
+        "çocuk",
+        "sosyal"
+      ],
+      "distanceFromCenter": 2.5,
+      "lat": 52.5431,
+      "lng": 13.4189,
+      "price": "free",
+      "rating": 4.4,
+      "description": "Helmholtzkiez mahallesinin kalbi olan bu meydan, park alanları ve çocuk oyun alanlarıyla dolu canlı bir sosyal merkezdir. Çevredeki kafeler ve butiklerle birleşen huzurlu atmosferiyle gerçek Berlin mahalle hayatını yansıtır.",
+      "description_en": "The heart of the Helmholtzkiez, this square is a vibrant social hub with park areas, playgrounds, and a lively neighborhood feel surrounded by cafes and boutiques.",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Helmholtzplatz_Berlin_Prenzlauer_Berg_2011.jpg/1280px-Helmholtzplatz_Berlin_Prenzlauer_Berg_2011.jpg",
+      "tips": "Meydanın çevresindeki butik dükkanları keşfedin.",
+      "tips_en": "Explore the boutique shops surrounding the square."
+    },
+    {
+      "name": "Otto Weidt's Workshop",
+      "name_en": "Otto Weidt's Workshop",
+      "area": "Mitte",
+      "category": "Müze",
+      "tags": [
+        "tarih",
+        "kahraman",
+        "yahudi",
+        "direniş"
+      ],
+      "distanceFromCenter": 1.0,
+      "lat": 52.5270,
+      "lng": 13.4026,
+      "price": "free",
+      "rating": 4.8,
+      "description": "II. Dünya Savaşı sırasında kör ve sağır Yahudi çalışanlarını koruyarak onları toplama kamplarından kurtaran kahraman Otto Weidt'in fırça ve süpürge atölyesi. Bugün bu insanlık öyküsünü anlatan etkileyici bir müze olarak hizmet veriyor.",
+      "description_en": "The workshop of Otto Weidt, who saved his blind and deaf Jewish employees from the Holocaust. Now a moving museum, it tells the story of his courage and the secret rooms used for hiding.",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Blindenwerkstatt_Otto_Weidt_Haus_Berlin.jpg/1280px-Blindenwerkstatt_Otto_Weidt_Haus_Berlin.jpg",
+      "tips": "Hackescher Markt yakınlarındaki bu gizli avluyu bulmak için Tabelaları takip edin.",
+      "tips_en": "Follow the signs to find this hidden courtyard near Hackescher Markt."
+    },
+    {
+      "name": "Gleis 17",
+      "name_en": "Gleis 17",
+      "area": "Grunewald",
+      "category": "Tarihi",
+      "tags": [
+        "anıt",
+        "tarih",
+        "yolculuk",
+        "yahudi"
+      ],
+      "distanceFromCenter": 7.0,
+      "lat": 52.4890,
+      "lng": 13.2649,
+      "price": "free",
+      "rating": 4.9,
+      "description": "Grunewald istasyonundaki 17 numaralı peron, Berlin'den Yahudilerin toplama kamplarına gönderildiği ana kalkış noktalarından biriydi. Raylar boyunca uzanan metal plakalarda her sevkiyatın tarihi ve kişi sayısı yazılarak bu acı geçmiş anıtlaştırılmıştır.",
+      "description_en": "Platform 17 at Grunewald station, from where thousands of Berlin's Jews were deported to concentration camps. The memorial features chronological steel plates along the tracks, each documenting a deportation date and count.",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Berlin_-_Mahmnmal_Gleis_17_-_01.jpg/1280px-Berlin_-_Mahmnmal_Gleis_17_-_01.jpg",
+      "tips": "Sessiz ve saygılı bir ziyaret yapmayı unutmayın; burası bir anma noktasıdır.",
+      "tips_en": "Please maintain silence and respect as this is a memorial site."
     },
     {
       "name": "Brandenburg Kapısı",
@@ -1099,7 +1257,8 @@
       "tags": [
         "kafe",
         "popüler",
-        "keşfet"
+        "keşfet",
+        "not_curated"
       ],
       "distanceFromCenter": 1.5,
       "tips": "Yerel halkın favori noktalarından biri.",
@@ -1195,7 +1354,8 @@
       "tags": [
         "kafe",
         "popüler",
-        "keşfet"
+        "keşfet",
+        "not_curated"
       ],
       "distanceFromCenter": 1.5,
       "tips": "Yerel halkın favori noktalarından biri.",
@@ -1243,7 +1403,8 @@
       "tags": [
         "kafe",
         "popüler",
-        "keşfet"
+        "keşfet",
+        "not_curated"
       ],
       "distanceFromCenter": 1.5,
       "tips": "Google Maps yorumlarına göz atarak ne yiyeceğinize karar verin.",
@@ -1267,7 +1428,8 @@
       "tags": [
         "kafe",
         "popüler",
-        "keşfet"
+        "keşfet",
+        "not_curated"
       ],
       "distanceFromCenter": 1.5,
       "tips": "Çevredeki küçük hediyelik eşya dükkanlarına da uğrayın.",
@@ -1291,7 +1453,8 @@
       "tags": [
         "kafe",
         "popüler",
-        "keşfet"
+        "keşfet",
+        "not_curated"
       ],
       "distanceFromCenter": 1.5,
       "tips": "Hafta içi ziyaret etmek daha sakin bir deneyim sunar.",
@@ -1407,7 +1570,8 @@
       "tags": [
         "kafe",
         "popüler",
-        "keşfet"
+        "keşfet",
+        "not_curated"
       ],
       "distanceFromCenter": 1.5,
       "tips": "Çevredeki küçük hediyelik eşya dükkanlarına da uğrayın.",
@@ -1479,7 +1643,8 @@
       "tags": [
         "kafe",
         "popüler",
-        "keşfet"
+        "keşfet",
+        "not_curated"
       ],
       "distanceFromCenter": 1.5,
       "tips": "Google Maps yorumlarına göz atarak ne yiyeceğinize karar verin.",
@@ -1525,7 +1690,8 @@
       "tags": [
         "kafe",
         "popüler",
-        "keşfet"
+        "keşfet",
+        "not_curated"
       ],
       "distanceFromCenter": 1.5,
       "tips": "Hafta içi ziyaret etmek daha sakin bir deneyim sunar.",
@@ -1597,7 +1763,8 @@
       "tags": [
         "bar",
         "popüler",
-        "keşfet"
+        "keşfet",
+        "not_curated"
       ],
       "distanceFromCenter": 1.5,
       "tips": "Çevredeki küçük hediyelik eşya dükkanlarına da uğrayın.",
@@ -1860,7 +2027,8 @@
       "tags": [
         "kafe",
         "popüler",
-        "keşfet"
+        "keşfet",
+        "not_curated"
       ],
       "distanceFromCenter": 1.5,
       "tips": "Yerel halkın favori noktalarından biri.",
@@ -1982,7 +2150,8 @@
       "tags": [
         "kafe",
         "popüler",
-        "keşfet"
+        "keşfet",
+        "not_curated"
       ],
       "distanceFromCenter": 1.5,
       "tips": "Çevredeki küçük hediyelik eşya dükkanlarına da uğrayın.",
@@ -2098,7 +2267,8 @@
       "tags": [
         "kafe",
         "popüler",
-        "keşfet"
+        "keşfet",
+        "not_curated"
       ],
       "distanceFromCenter": 1.5,
       "tips": "Çevredeki küçük hediyelik eşya dükkanlarına da uğrayın.",
@@ -2167,7 +2337,8 @@
       "tags": [
         "kafe",
         "popüler",
-        "keşfet"
+        "keşfet",
+        "not_curated"
       ],
       "distanceFromCenter": 1.5,
       "tips": "Çevredeki küçük hediyelik eşya dükkanlarına da uğrayın.",
@@ -2238,7 +2409,8 @@
       "tags": [
         "kafe",
         "popüler",
-        "keşfet"
+        "keşfet",
+        "not_curated"
       ],
       "distanceFromCenter": 1.5,
       "tips": "Yerel halkın favori noktalarından biri.",
@@ -2539,7 +2711,8 @@
       "tags": [
         "kafe",
         "popüler",
-        "keşfet"
+        "keşfet",
+        "not_curated"
       ],
       "distanceFromCenter": 1.5,
       "tips": "Hafta içi ziyaret etmek daha sakin bir deneyim sunar.",
@@ -2895,7 +3068,8 @@
       "tags": [
         "kafe",
         "popüler",
-        "keşfet"
+        "keşfet",
+        "not_curated"
       ],
       "distanceFromCenter": 1.5,
       "tips": "Hafta içi ziyaret etmek daha sakin bir deneyim sunar.",
@@ -3844,7 +4018,8 @@
       "tags": [
         "kafe",
         "popüler",
-        "keşfet"
+        "keşfet",
+        "not_curated"
       ],
       "distanceFromCenter": 1.5,
       "tips": "Yerel halkın favori noktalarından biri.",
@@ -4646,7 +4821,8 @@
       "tags": [
         "kafe",
         "popüler",
-        "keşfet"
+        "keşfet",
+        "not_curated"
       ],
       "distanceFromCenter": 1.5,
       "tips": "Yerel halkın favori noktalarından biri.",

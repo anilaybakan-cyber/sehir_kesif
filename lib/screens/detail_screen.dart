@@ -1123,11 +1123,7 @@ class _DetailScreenState extends State<DetailScreen>
                         );
                     }
                   
-                    final distLabel = LocationContextService.instance.getDistanceLabel(
-                       place.lat, 
-                       place.lng, 
-                       AppLocalizations.instance.isEnglish
-                    );
+                    final distLabel = LocationContextService.instance.getDistanceLabel(place.lat, place.lng);
                     
                     return _buildInfoCard(
                       icon: Icons.straighten,
@@ -1293,7 +1289,7 @@ class _DetailScreenState extends State<DetailScreen>
                   border: Border.all(color: borderColor),
                 ),
                 child: Text(
-                  tag,
+                  AppLocalizations.instance.translateFeature(tag),
                   style: GoogleFonts.poppins(fontSize: 13, color: textGrey),
                 ),
               );
@@ -1402,9 +1398,9 @@ class _DetailScreenState extends State<DetailScreen>
                 size: 20,
               ),
               const SizedBox(width: 10),
-              const Text(
-                "Öne Çıkanlar",
-                style: TextStyle(
+              Text(
+                AppLocalizations.instance.highlightFeatures,
+                style: const TextStyle(
                   color: textWhite,
                   fontSize: 16,
                   fontWeight: FontWeight.w600,

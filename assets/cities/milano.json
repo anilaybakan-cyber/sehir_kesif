@@ -1316,6 +1316,50 @@
       "tips_en": "One of the favorite spots of the locals."
     },
     {
+      "name": "La Rinascente",
+      "name_en": "La Rinascente",
+      "area": "Duomo",
+      "category": "Alışveriş",
+      "tags": [
+        "moda",
+        "lüks",
+        "department store",
+        "manzara"
+      ],
+      "distanceFromCenter": 0.1,
+      "lat": 45.4649,
+      "lng": 9.1918,
+      "price": "high",
+      "rating": 4.6,
+      "description": "Dünyanın en prestijli çok katlı mağazalarından biri. Piazza del Duomo'nun kalbinde yer alan bu moda mabedi, lüks markaların yanı sıra teras katındaki gurme marketi ve katedral manzarasıyla ünlüdür.",
+      "description_en": "One of the world's most prestigious department stores. Located in the heart of Piazza del Duomo, it offers luxury brands, a gourmet food hall, and an incredible rooftop view of the cathedral.",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Rinascente_Milano.jpg/1280px-Rinascente_Milano.jpg",
+      "tips": "En üst kattaki terasta Duomo kulelerini izleyerek bir kahve molası verin.",
+      "tips_en": "Take a coffee break on the rooftop terrace to enjoy a close-up view of the Duomo spires."
+    },
+    {
+      "name": "Porta Ticinese",
+      "name_en": "Porta Ticinese",
+      "area": "Navigli",
+      "category": "Tarihi",
+      "tags": [
+        "kapı",
+        "tarihi",
+        "navigli",
+        "gece hayatı"
+      ],
+      "distanceFromCenter": 1.5,
+      "lat": 45.4525,
+      "lng": 9.1802,
+      "price": "free",
+      "rating": 4.5,
+      "description": "Milan'ın tarihi kapılarından biri ve Navigli bölgesine açılan kapı. Neoklasik tasarımlı bu anıtsal kemer, akşamları gençlerin ve yerel halkın buluşma noktası olan canlı bir bölgededir.",
+      "description_en": "One of Milan's historic city gates and the gateway to the Navigli district. This neoclassical monumental arch is the center of a vibrant area, popular for evening social life.",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Arco_di_Porta_Ticinese_%28Milan%29.jpg/1280px-Arco_di_Porta_Ticinese_%28Milan%29.jpg",
+      "tips": "Navigli kanallarına yürümeden önce burada fotoğraf çekin.",
+      "tips_en": "Take a photo here before heading for a walk along the Navigli canals."
+    },
+    {
       "name": "Duomo Terası",
       "area": "Centro Storico",
       "category": "Manzara",

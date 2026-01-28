@@ -52,7 +52,8 @@
       "id": "philharmonic-academy",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bologna/philharmonic-academy.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "area_en": "Center"
     },
     {
       "name": "Acetaia Giusti",
@@ -122,7 +123,8 @@
       "id": "apple-store",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bologna/apple-store.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "area_en": "Center"
     },
     {
       "name": "Museo Civico Archeologico",
@@ -149,7 +151,8 @@
       "id": "museo-civico-archeologico",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bologna/museo-civico-archeologico.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "area_en": "Center"
     },
     {
       "name": "Archiginnasio",
@@ -195,7 +198,8 @@
       "id": "arena-del-sole",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bologna/arena-del-sole.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "area_en": "Center"
     },
     {
       "name": "Autodromo di Imola",
@@ -387,7 +391,8 @@
       "id": "archiginnasio-library",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bologna/archiginnasio-library.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "area_en": "Center"
     },
     {
       "name": "Botanica Lab",
@@ -411,7 +416,8 @@
       "id": "botanica-lab",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bologna/botanica-lab.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "area_en": "Center"
     },
     {
       "name": "Brisighella",
@@ -483,7 +489,8 @@
       "id": "ca-pelletti",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bologna/ca-pelletti.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "area_en": "Center"
     },
     {
       "name": "Caffè Terzi",
@@ -551,7 +558,8 @@
       "id": "camera-a-sud",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bologna/camera-a-sud.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "area_en": "Center"
     },
     {
       "name": "Carpi",
@@ -623,7 +631,8 @@
       "id": "morandis-house",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bologna/morandis-house.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "area_en": "Center"
     },
     {
       "name": "Casa Pavarotti",
@@ -767,7 +776,8 @@
       "id": "lumiere-cinema",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bologna/lumiere-cinema.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "area_en": "Center"
     },
     {
       "name": "Collegio di Spagna",
@@ -863,7 +873,8 @@
       "id": "lamentation-group",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bologna/lamentation-group.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "area_en": "Center"
     },
     {
       "name": "Costarena",
@@ -980,7 +991,8 @@
       "id": "disney-store",
       "distanceFromCenter": 1.0,
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bologna/disney_store.jpg",
-      "source": "firebase"
+      "source": "firebase",
+      "area_en": "Center"
     },
     {
       "name": "Dozza",
@@ -1074,7 +1086,8 @@
       "id": "eataly",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bologna/eataly.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "area_en": "Center"
     },
     {
       "name": "Enoteca Italiana",
@@ -1098,7 +1111,8 @@
       "id": "enoteca-italiana",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bologna/enoteca-italiana.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "area_en": "Center"
     },
     {
       "name": "Enzo Ferrari Museum",
@@ -1312,7 +1326,8 @@
       "id": "tiger",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bologna/tiger.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "area_en": "Center"
     },
     {
       "name": "Fontana Vecchia",
@@ -1336,7 +1351,8 @@
       "id": "old-fountain",
       "distanceFromCenter": 1.0,
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bologna/fontana_vecchia.jpg",
-      "source": "firebase"
+      "source": "firebase",
+      "area_en": "Center"
     },
     {
       "name": "Fontana del Nettuno",
@@ -1384,7 +1400,8 @@
       "id": "forno-brisa",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bologna/forno-brisa.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "area_en": "Center"
     },
     {
       "name": "Fresco",
@@ -1432,7 +1449,8 @@
       "id": "cavour-gallery",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bologna/cavour-gallery.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "area_en": "Center"
     },
     {
       "name": "Gamberini",
@@ -1456,7 +1474,8 @@
       "id": "gamberini",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bologna/gamberini.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "area_en": "Center"
     },
     {
       "name": "Gelateria Galliera 49",
@@ -1480,7 +1499,8 @@
       "id": "galliera-49",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bologna/galliera-49.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "area_en": "Center"
     },
     {
       "name": "Gelateria Gianni",
@@ -1574,7 +1594,8 @@
       "id": "kiko",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bologna/kiko.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "area_en": "Center"
     },
     {
       "name": "La Prosciutteria Bologna",
@@ -1598,7 +1619,8 @@
       "id": "la-prosciutteria",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bologna/la-prosciutteria.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "area_en": "Center"
     },
     {
       "name": "La Sorbetteria",
@@ -1694,7 +1716,8 @@
       "id": "le-due-torri-asinelli-and-garisenda",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bologna/le-due-torri-asinelli-and-garisenda.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "area_en": "Center"
     },
     {
       "name": "Le Stanze",
@@ -1718,7 +1741,8 @@
       "id": "le-stanze",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bologna/le-stanze.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "area_en": "Center"
     },
     {
       "name": "Lego Store",
@@ -1742,7 +1766,8 @@
       "id": "lego-store",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bologna/lego-store.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "area_en": "Center"
     },
     {
       "name": "Libreria Coop Ambasciatori",
@@ -1790,7 +1815,8 @@
       "id": "lush",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bologna/lush.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "area_en": "Center"
     },
     {
       "name": "MAMbo",
@@ -1836,7 +1862,8 @@
       "id": "majani-chocolate",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bologna/majani-chocolate.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "area_en": "Center"
     },
     {
       "name": "Maranello Ferrari Museum",
@@ -2074,7 +2101,8 @@
       "id": "mortadella-lab",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bologna/mortadella-lab.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "area_en": "Center"
     },
     {
       "name": "Mozzarella e Basilico",
@@ -2098,7 +2126,8 @@
       "id": "mozzarella-e-basilico",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bologna/mozzarella-e-basilico.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "area_en": "Center"
     },
     {
       "name": "Museo Ducati",
@@ -2218,7 +2247,8 @@
       "id": "medieval-museum",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bologna/medieval-museum.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "area_en": "Center"
     },
     {
       "name": "Museo Morandi",
@@ -2266,7 +2296,8 @@
       "id": "davia-bargellini-museum",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bologna/davia-bargellini-museum.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "area_en": "Center"
     },
     {
       "name": "Museo del Patrimonio Industriale",
@@ -2362,7 +2393,8 @@
       "id": "communication-museum",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bologna/communication-museum.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "area_en": "Center"
     },
     {
       "name": "Museo della Musica",
@@ -2386,7 +2418,8 @@
       "id": "music-museum",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bologna/music-museum.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "area_en": "Center"
     },
     {
       "name": "Museo della Resistenza",
@@ -2410,7 +2443,8 @@
       "id": "resistance-museum",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bologna/resistance-museum.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "area_en": "Center"
     },
     {
       "name": "Museo della Sanità",
@@ -2458,7 +2492,8 @@
       "id": "museo-della-storia-di-bologna",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bologna/museo-della-storia-di-bologna.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "area_en": "Center"
     },
     {
       "name": "Museo di Anatomia Patologica",
@@ -2622,7 +2657,8 @@
       "id": "opificio",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bologna/opificio.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "area_en": "Center"
     },
     {
       "name": "Opificio Golinelli",
@@ -2670,7 +2706,8 @@
       "id": "battuti-oratory",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bologna/battuti-oratory.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "area_en": "Center"
     },
     {
       "name": "Oratorio dello Spirito Santo",
@@ -2694,7 +2731,8 @@
       "id": "holy-spirit-oratory",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bologna/holy-spirit-oratory.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "area_en": "Center"
     },
     {
       "name": "Oratorio di San Filippo Neri",
@@ -2718,7 +2756,8 @@
       "id": "san-filippo-neri",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bologna/san-filippo-neri.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "area_en": "Center"
     },
     {
       "name": "Oratorio di Santa Cecilia",
@@ -2859,7 +2898,8 @@
       "id": "palazzo-belloni",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bologna/palazzo-belloni.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "area_en": "Center"
     },
     {
       "name": "Palazzo Fava",
@@ -2883,7 +2923,8 @@
       "id": "palazzo-fava",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bologna/palazzo-fava.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "area_en": "Center"
     },
     {
       "name": "Palazzo Pepoli Campogrande",
@@ -2907,7 +2948,8 @@
       "id": "palazzo-pepoli",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bologna/palazzo-pepoli.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "area_en": "Center"
     },
     {
       "name": "Palazzo Re Enzo",
@@ -3260,7 +3302,8 @@
       "id": "pinacoteca-nazionale",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bologna/pinacoteca-nazionale.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "area_en": "Center"
     },
     {
       "name": "Pizzeria Da Michele Bologna",
@@ -3284,7 +3327,8 @@
       "id": "da-michele",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bologna/da-michele.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "area_en": "Center"
     },
     {
       "name": "Porta Galliera",
@@ -3423,7 +3467,8 @@
       "id": "quadrilatero-eski-pazar",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bologna/quadrilatero-eski-pazar.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "area_en": "Center"
     },
     {
       "name": "Ravenna Mosaics (San Vitale)",
@@ -3471,7 +3516,8 @@
       "id": "donatello",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bologna/donatello.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "area_en": "Center"
     },
     {
       "name": "Rocchetta Mattei",
@@ -3543,7 +3589,8 @@
       "id": "san-colombano-museum",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bologna/san-colombano-museum.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "area_en": "Center"
     },
     {
       "name": "San Luca Portico Walk",
@@ -3676,7 +3723,8 @@
       "id": "gastronomic-tailoring",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bologna/gastronomic-tailoring.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "area_en": "Center"
     },
     {
       "name": "Sassi di Roccamalatina",
@@ -3938,7 +3986,8 @@
       "id": "prendiparte-tower",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bologna/prendiparte-tower.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "area_en": "Center"
     },
     {
       "name": "Torre Unipol",
@@ -3986,7 +4035,8 @@
       "id": "asinelli-tower",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bologna/asinelli-tower.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "area_en": "Center"
     },
     {
       "name": "Trattoria Anna Maria",
@@ -4010,7 +4060,8 @@
       "id": "trattoria-anna-maria",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bologna/trattoria-anna-maria.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "area_en": "Center"
     },
     {
       "name": "Trattoria di Via Serra",
@@ -4169,7 +4220,8 @@
       "id": "frog-alley",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bologna/frog-alley.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "area_en": "Center"
     },
     {
       "name": "Victoria's Secret",
@@ -4193,7 +4245,8 @@
       "id": "victorias-secret",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bologna/victorias-secret.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "area_en": "Center"
     },
     {
       "name": "Vignola Castle",
@@ -4289,7 +4342,8 @@
       "id": "vineria-favalli",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bologna/vineria-favalli.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "area_en": "Center"
     },
     {
       "name": "Zerocinquantino",
@@ -4337,8 +4391,11 @@
       "id": "zoo",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bologna/zoo.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "area_en": "Center"
     }
   ],
-  "heroImage": "https://www.datocms-assets.com/57243/1661342703-6245af628d40974c9ab5a7fd_petr-slovacek-sxk8bwkvoxe-unsplash-20-1.jpg?auto=compress%2Cformat"
+  "heroImage": "https://www.datocms-assets.com/57243/1661342703-6245af628d40974c9ab5a7fd_petr-slovacek-sxk8bwkvoxe-unsplash-20-1.jpg?auto=compress%2Cformat",
+  "city_en": "Bologna",
+  "country_en": "Italy"
 }

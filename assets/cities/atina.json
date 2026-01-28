@@ -12,6 +12,28 @@
   },
   "highlights": [
     {
+      "name": "Lycabettus Hill",
+      "area": "Kolonaki",
+      "category": "Deneyim",
+      "tags": [
+        "manzara",
+        "tepe",
+        "günbatımı"
+      ],
+      "distanceFromCenter": 1.5,
+      "lat": 37.9818,
+      "lng": 23.7432,
+      "price": "free",
+      "rating": 4.7,
+      "description": "Atina'nın en yüksek tepesi. Panoramik manzara ve gün batımı için eşsiz bir nokta.",
+      "description_en": "The highest hill in Athens. A unique spot for panoramic views and sunsets.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/atina/akropolis.jpg",
+      "bestTime": "Gün batımı",
+      "bestTime_en": "Sunset",
+      "tips": "Teleferikle veya yürüyerek çıkabilirsiniz.",
+      "tips_en": "You can go up by cable car or on foot."
+    },
+    {
       "id": "gen_ChIJm0fsCkK9oRQRb_Mgt4VwR3Y",
       "name": "A Little Taste of Home Restaurant",
       "category": "Yeme-İçme",
@@ -121,7 +143,8 @@
       "bestTime": "Tüm gün",
       "bestTime_en": "Full day",
       "tips": "Güneş kremi ve şapka almayı unutmayın.",
-      "tips_en": "Don't forget sunscreen and a hat."
+      "tips_en": "Don't forget sunscreen and a hat.",
+      "area_en": "Adalar (Day Trip)"
     },
     {
       "id": "gen_ChIJgUXF6129oRQRNRWrQDVgjfQ",
@@ -2073,7 +2096,8 @@
       "bestTime": "Tüm gün",
       "bestTime_en": "Full day",
       "tips": "Yanınıza bir örtü alıp çimlerde piknik yapabilirsiniz.",
-      "tips_en": "Bring a blanket and have a picnic on the grass."
+      "tips_en": "Bring a blanket and have a picnic on the grass.",
+      "area_en": "Adalar (Day Trip)"
     },
     {
       "id": "gen_ChIJJ0_KAD69oRQRX32cZoNJdtM",
@@ -3840,7 +3864,8 @@
       "bestTime": "Gün batımı",
       "bestTime_en": "Sunset",
       "tips": "Rehberli turla gezmek detayları anlamak için çok daha verimli.",
-      "tips_en": "A guided tour is much more efficient to understand the details."
+      "tips_en": "A guided tour is much more efficient to understand the details.",
+      "area_en": "Sounion (Day Trip)"
     },
     {
       "name": "The Clumsies",

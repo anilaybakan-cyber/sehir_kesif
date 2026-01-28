@@ -130,8 +130,8 @@
       "tips_en": "Don't hesitate to ask for the chef's special."
     },
     {
-      "name": "Aix-en-Provence (Günübirlik)",
-      "area": "Günübirlik",
+      "name": "Aix-en-Provence",
+      "area": "Aix-en-Provence",
       "category": "Deneyim",
       "tags": [
         "zarif",
@@ -149,7 +149,8 @@
       "bestTime": "Tüm gün",
       "bestTime_en": "Full day",
       "tips": "Fotoğraf makinenizin şarjının dolu olduğundan emin olun.",
-      "tips_en": "Make sure your camera battery is full."
+      "tips_en": "Make sure your camera battery is full.",
+      "area_en": "Aix-en-Provence"
     },
     {
       "id": "gen_ChIJd1UYV7zByRIRmyf4UzvbOEA",
@@ -962,8 +963,8 @@
       "tips_en": "Decide what to eat by checking Google Maps reviews."
     },
     {
-      "name": "Carry-le-Rouet (Günübirlik)",
-      "area": "Günübirlik",
+      "name": "Carry-le-Rouet",
+      "area": "Carry-le-Rouet",
       "category": "Tarihi",
       "tags": [
         "plaj",
@@ -981,11 +982,12 @@
       "bestTime": "Pazar öğle",
       "bestTime_en": "Sunday lunch",
       "tips": "Yapı içerisindeki akustik harika, sessizliği dinleyin.",
-      "tips_en": "The acoustics inside satisfy; listen to the silence."
+      "tips_en": "The acoustics inside satisfy; listen to the silence.",
+      "area_en": "Carry-le-Rouet"
     },
     {
-      "name": "Cassis (Günübirlik)",
-      "area": "Günübirlik",
+      "name": "Cassis",
+      "area": "Cassis",
       "category": "Deneyim",
       "tags": [
         "liman",
@@ -1003,7 +1005,8 @@
       "bestTime": "Tüm gün",
       "bestTime_en": "Full day",
       "tips": "Grup indirimi olup olmadığını sorun.",
-      "tips_en": "Ask if there is a group discount."
+      "tips_en": "Ask if there is a group discount.",
+      "area_en": "Cassis"
     },
     {
       "name": "Cathédrale La Major",
@@ -2390,7 +2393,8 @@
       "bestTime": "Sabah koşusu",
       "bestTime_en": "Morning run",
       "tips": "Rehbere soru sormaktan çekinmeyin, çok ilginç hikayeler biliyorlar.",
-      "tips_en": "Don't hesitate to ask the guide questions, they know interesting stories."
+      "tips_en": "Don't hesitate to ask the guide questions, they know interesting stories.",
+      "area_en": "Coast"
     },
     {
       "id": "gen_ChIJpQ6ZIh3ByRIRuFB1PJesneE",
@@ -4345,7 +4349,8 @@
       "bestTime": "Sabah",
       "bestTime_en": "Morning",
       "tips": "Yanınıza bir örtü alıp çimlerde piknik yapabilirsiniz.",
-      "tips_en": "Bring a blanket and have a picnic on the grass."
+      "tips_en": "Bring a blanket and have a picnic on the grass.",
+      "area_en": "Coast"
     },
     {
       "name": "Plage du Prado",
@@ -4653,7 +4658,8 @@
       "bestTime": "Gündüz",
       "bestTime_en": "Daytime",
       "tips": "El yapımı hediyelikler fabrikasyon olanlardan daha değerlidir.",
-      "tips_en": "Handmade souvenirs are more valuable than mass-produced ones."
+      "tips_en": "Handmade souvenirs are more valuable than mass-produced ones.",
+      "area_en": "Center"
     },
     {
       "name": "Rue de Rome",
@@ -4699,7 +4705,8 @@
       "bestTime": "Gündüz",
       "bestTime_en": "Daytime",
       "tips": "Hafta içi ziyaret etmek daha sakin bir deneyim sunar.",
-      "tips_en": "Visiting on weekdays offers a calmer experience."
+      "tips_en": "Visiting on weekdays offers a calmer experience.",
+      "area_en": "Center"
     },
     {
       "id": "gen_ChIJq6qqqtXAyRIRolMBwUBJCMY",

@@ -227,8 +227,8 @@
       "tips_en": "We recommend trying local wines."
     },
     {
-      "name": "Annecy (Günübirlik)",
-      "area": "Günübirlik",
+      "name": "Annecy",
+      "area": "Annecy",
       "category": "Müze",
       "tags": [
         "göl",
@@ -246,7 +246,8 @@
       "bestTime": "Tüm gün",
       "bestTime_en": "Full day",
       "tips": "Biletinizi online alarak gişe sırasından kurtulun.",
-      "tips_en": "Buy tickets online to skip the box office line."
+      "tips_en": "Buy tickets online to skip the box office line.",
+      "area_en": "Annecy"
     },
     {
       "id": "gen_ChIJ6YHyaEbq9EcRIhNP-WgbpTM",
@@ -317,6 +318,72 @@
       "distanceFromCenter": 1.5,
       "tips": "Çevredeki küçük hediyelik eşya dükkanlarına da uğrayın.",
       "tips_en": "Stop by the small souvenir shops around."
+    },
+    {
+      "name": "Musée Gallo-Romain",
+      "name_en": "Lugdunum Museum",
+      "area": "Fourvière",
+      "category": "Müze",
+      "tags": [
+        "roma",
+        "tarih",
+        "arkeoloji",
+        "mimari"
+      ],
+      "distanceFromCenter": 1.2,
+      "lat": 45.7604,
+      "lng": 4.8199,
+      "price": "medium",
+      "rating": 4.7,
+      "description": "Fourvière tepesinde, Roma tiyatrosunun hemen yanında yer alan bu modern arkeoloji müzesi, Lyon'un (Lugdunum) Gallo-Romen geçmişine ayna tutuyor. Bernard Zehrfuss tarafından tasarlanan, tepenin içine gömülü büyüleyici bir beton sarmal yapı.",
+      "description_en": "Located on Fourvière hill next to the Roman theaters, this modern archaeological museum showcases Lyon's (Lugdunum) Gallo-Roman past. Its avant-garde half-buried concrete structure was designed by Bernard Zehrfuss.",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Musee_galloromain_Lyon5_fr_entree.JPG/1600px-Musee_galloromain_Lyon5_fr_entree.JPG",
+      "tips": "Müzedeki 'Claudius Tablası'nı ve muhteşem mozaikleri görmeyi unutmayın.",
+      "tips_en": "Don't miss the 'Claudius Table' and the magnificent Roman mosaics."
+    },
+    {
+      "name": "Mur des Canuts",
+      "name_en": "Mur des Canuts",
+      "area": "Croix-Rousse",
+      "category": "Sanat",
+      "tags": [
+        "fresco",
+        "mural",
+        "trompe-l'oeil",
+        "lokal"
+      ],
+      "distanceFromCenter": 2.5,
+      "lat": 45.7797,
+      "lng": 4.8279,
+      "price": "free",
+      "rating": 4.8,
+      "description": "Avrupa'nın en büyük freski. Croix-Rousse tepesindeki bu devasa trompe-l'oeil (göz yanılması) duvar resmi, ipek işçilerinin (Canuts) gündelik hayatını ve sokağın değişimini inanılmaz bir gerçekçilikle anlatır.",
+      "description_en": "The largest fresco in Europe. This massive trompe-l'oeil mural on Croix-Rousse hill depicts the daily life of silk weavers (Canuts) and the neighborhood's evolution with stunning realism.",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Lyon_4e_-_Mur_des_Canuts_-_Vue_d%27ensemble.jpg/1280px-Lyon_4e_-_Mur_des_Canuts_-_Vue_d%27ensemble.jpg",
+      "tips": "Resimdeki figürlerin ve sokağın her güncellemede yaşlandığını fark ettiniz mi?",
+      "tips_en": "Did you notice that the figures and the street age with every update of the mural?"
+    },
+    {
+      "name": "La Fresque des Lyonnais",
+      "name_en": "La Fresque des Lyonnais",
+      "area": "Presqu'île",
+      "category": "Sanat",
+      "tags": [
+        "fresco",
+        "mural",
+        "tarihi figürler",
+        "fotoğraf"
+      ],
+      "distanceFromCenter": 0.8,
+      "lat": 45.7681,
+      "lng": 4.8278,
+      "price": "free",
+      "rating": 4.7,
+      "description": "Lumière kardeşlerden Antoine de Saint-Exupéry'ye, Lyon tarihine damga vurmuş 30 ünlü ismin pencerelerden ve balkonlardan size gülümsediği muazzam bir duvar resmi. Saône nehri kıyısında şehrin yaşayan tarihi.",
+      "description_en": "A massive mural where 30 famous figures from Lyon's history, from the Lumière brothers to Saint-Exupéry, smile at you from balconies and windows. A living history on the banks of the Saône.",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Fresque_des_Lyonnais_-_Lyon_-_DSC00854.jpg/1280px-Fresque_des_Lyonnais_-_Lyon_-_DSC00854.jpg",
+      "tips": "Küçük Prens'in yazarını ve Antoine de Saint-Exupéry'yi bulmaya çalışın.",
+      "tips_en": "Try to spot Little Prince's author and Antoine de Saint-Exupéry."
     },
     {
       "name": "Auditorium-Orchestre National de Lyon",
@@ -513,7 +580,7 @@
     },
     {
       "name": "Beaujolais Vineyards",
-      "area": "Günübirlik",
+      "area": "Beaujolais Vineyards",
       "category": "Bar",
       "tags": [
         "şarap",
@@ -531,7 +598,8 @@
       "bestTime": "Tüm gün",
       "bestTime_en": "Full day",
       "tips": "Hafta içi ziyaret etmek daha sakin bir deneyim sunar.",
-      "tips_en": "Visiting on weekdays offers a calmer experience."
+      "tips_en": "Visiting on weekdays offers a calmer experience.",
+      "area_en": "Beaujolais Vineyards"
     },
     {
       "name": "Berges du Rhône (Rıhtım Boyu)",
@@ -4078,8 +4146,8 @@
       "tips_en": "We recommend trying local wines."
     },
     {
-      "name": "Pérouges (Günübirlik)",
-      "area": "Günübirlik",
+      "name": "Pérouges",
+      "area": "Pérouges",
       "category": "Deneyim",
       "tags": [
         "ortaçağ",
@@ -4097,7 +4165,8 @@
       "bestTime": "Öğleden sonra",
       "bestTime_en": "Afternoon",
       "tips": "Kıyafetinizin aktiviteye uygun olduğundan emin olun.",
-      "tips_en": "Ensure your outfit is suitable for the activity."
+      "tips_en": "Ensure your outfit is suitable for the activity.",
+      "area_en": "Pérouges"
     },
     {
       "name": "Quai de la Pêcherie (Sahaf Pazarı)",
@@ -4521,7 +4590,8 @@
       "bestTime": "Gündüz",
       "bestTime_en": "Daytime",
       "tips": "Rehbere soru sormaktan çekinmeyin, çok ilginç hikayeler biliyorlar.",
-      "tips_en": "Don't hesitate to ask the guide questions, they know interesting stories."
+      "tips_en": "Don't hesitate to ask the guide questions, they know interesting stories.",
+      "area_en": "Harbor"
     },
     {
       "id": "gen_ChIJQ9HPIWzq9EcRCRSrsDshK9E",
@@ -5071,7 +5141,7 @@
     },
     {
       "name": "Vienne, Isère (France)",
-      "area": "Günübirlik",
+      "area": "Vienne",
       "category": "Deneyim",
       "tags": [
         "roma",
@@ -5089,7 +5159,8 @@
       "bestTime": "Tüm gün",
       "bestTime_en": "Full day",
       "tips": "Grup indirimi olup olmadığını sorun.",
-      "tips_en": "Ask if there is a group discount."
+      "tips_en": "Ask if there is a group discount.",
+      "area_en": "Vienne"
     },
     {
       "name": "Vieux Lyon (Rönesans Avluları)",

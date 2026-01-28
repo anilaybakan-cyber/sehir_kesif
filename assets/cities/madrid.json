@@ -1289,7 +1289,7 @@
     },
     {
       "name": "El Escorial",
-      "area": "Günübirlik",
+      "area": "El Escorial",
       "category": "Tarihi",
       "tags": [
         "manastır",
@@ -1307,7 +1307,8 @@
       "bestTime": "Tüm gün",
       "bestTime_en": "Full day",
       "tips": "Rehberli turla gezmek detayları anlamak için çok daha verimli.",
-      "tips_en": "A guided tour is much more efficient to understand the details."
+      "tips_en": "A guided tour is much more efficient to understand the details.",
+      "area_en": "El Escorial"
     },
     {
       "name": "El Rastro",
@@ -3480,6 +3481,50 @@
       "tips_en": "Stop by the small souvenir shops around."
     },
     {
+      "name": "Atocha",
+      "name_en": "Atocha",
+      "area": "Arganzuela",
+      "category": "Deneyim",
+      "tags": [
+        "istasyon",
+        "bahçe",
+        "tarihi",
+        "mimari"
+      ],
+      "distanceFromCenter": 1.8,
+      "lat": 40.4065,
+      "lng": -3.6893,
+      "price": "free",
+      "rating": 4.6,
+      "description": "Madrid'in en eski ve en büyük tren istasyonu. Ancak burayı özel kılan sadece ulaşım değil, eski bekleme salonunun ortasında yer alan 7.000'den fazla bitkiye ev sahipliği yapan devasa tropikal bahçesidir.",
+      "description_en": "Madrid's oldest and largest railway station. More than a transport hub, it's famous for the massive tropical garden with over 7,000 plants inside its historic station hall.",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Estaci%C3%B3n_de_Atocha%2C_Madrid.jpg/1280px-Estaci%C3%B3n_de_Atocha%2C_Madrid.jpg",
+      "tips": "İstasyon içindeki kaplumbağa havuzunu ve tropik bitkileri görmek için mola verin.",
+      "tips_en": "Take a break to see the tropical garden and the turtle pond inside the station."
+    },
+    {
+      "name": "Edificio Metrópolis",
+      "name_en": "Edificio Metrópolis",
+      "area": "Centro",
+      "category": "Mimari",
+      "tags": [
+        "ikonik",
+        "mimari",
+        "fotoğraf",
+        "gran via"
+      ],
+      "distanceFromCenter": 0.5,
+      "lat": 40.4180,
+      "lng": -3.6917,
+      "price": "free",
+      "rating": 4.8,
+      "description": "Alcalá Caddesi ile Gran Vía'nın kesiştiği noktada yükselen, Madrid'in en ikonik binalarından biri. Siyah kubbesindeki altın varaklı detaylar ve tepesindeki Kanatlı Zafer heykeliyle şehrin silüetini süsler.",
+      "description_en": "One of Madrid's most iconic buildings, standing at the intersection of Calle de Alcalá and Gran Vía. Famous for its black dome with gold leaf details and the Winged Victory statue on top.",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Edificio_Metr%C3%B3polis_02.jpg/1280px-Edificio_Metr%C3%B3polis_02.jpg",
+      "tips": "Özellikle geceleri ışıklandırmasıyla harika görünür, fotoğraf makinenizi yanınıza alın.",
+      "tips_en": "It looks spectacular when illuminated at night, bring your camera."
+    },
+    {
       "name": "Plaza Mayor",
       "area": "Centro",
       "category": "Deneyim",
@@ -4445,7 +4490,7 @@
     },
     {
       "name": "Segovia, Spain",
-      "area": "Günübirlik",
+      "area": "Segovia",
       "category": "Tarihi",
       "tags": [
         "su kemeri",
@@ -4463,7 +4508,8 @@
       "bestTime": "Tüm gün",
       "bestTime_en": "Full day",
       "tips": "Müze kartınız varsa girişte sıra beklemezsiniz.",
-      "tips_en": "You skip the line if you have a museum pass."
+      "tips_en": "You skip the line if you have a museum pass.",
+      "area_en": "Segovia"
     },
     {
       "id": "gen_ChIJx9pQB4coQg0RbWWu0GDHNTw",
@@ -4866,7 +4912,7 @@
     },
     {
       "name": "Toledo, Spain Historic City",
-      "area": "Günübirlik",
+      "area": "Toledo",
       "category": "Deneyim",
       "tags": [
         "ortaçağ",
@@ -4884,7 +4930,8 @@
       "bestTime": "Tüm gün",
       "bestTime_en": "Full day",
       "tips": "Rehbere soru sormaktan çekinmeyin, çok ilginç hikayeler biliyorlar.",
-      "tips_en": "Don't hesitate to ask the guide questions, they know interesting stories."
+      "tips_en": "Don't hesitate to ask the guide questions, they know interesting stories.",
+      "area_en": "Toledo"
     },
     {
       "id": "gen_ChIJx7ATIQApQg0RFupCvcgSBDg",

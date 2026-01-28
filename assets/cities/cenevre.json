@@ -84,8 +84,8 @@
       "tips_en": "Be prepared with cash, some local places might not accept cards."
     },
     {
-      "name": "Annecy (Günübirlik)",
-      "area": "Günübirlik",
+      "name": "Annecy",
+      "area": "Annecy",
       "category": "Deneyim",
       "tags": [
         "kanal",
@@ -103,7 +103,8 @@
       "bestTime": "Tüm gün",
       "bestTime_en": "Full day",
       "tips": "Fotoğraf makinenizin şarjının dolu olduğundan emin olun.",
-      "tips_en": "Make sure your camera battery is full."
+      "tips_en": "Make sure your camera battery is full.",
+      "area_en": "Annecy"
     },
     {
       "id": "gen_ChIJfQSjkuBljEcRA-Dzp710Kms",
@@ -597,7 +598,8 @@
       "bestTime": "Gündüz",
       "bestTime_en": "Daytime",
       "tips": "Nakite hazırlıklı olun, bazı yerel yerler kart kabul etmeyebilir.",
-      "tips_en": "Be prepared with cash, some local places might not accept cards."
+      "tips_en": "Be prepared with cash, some local places might not accept cards.",
+      "area_en": "Center"
     },
     {
       "name": "Bordier-Brunnen",
@@ -669,7 +671,8 @@
       "bestTime": "Sabah",
       "bestTime_en": "Morning",
       "tips": "Hafta içi ziyaret etmek daha sakin bir deneyim sunar.",
-      "tips_en": "Visiting on weekdays offers a calmer experience."
+      "tips_en": "Visiting on weekdays offers a calmer experience.",
+      "area_en": "Center"
     },
     {
       "name": "Bottle Brothers (Cocktail Bar)",
@@ -789,7 +792,8 @@
       "bestTime": "Gündüz",
       "bestTime_en": "Daytime",
       "tips": "Grup indirimi olup olmadığını sorun.",
-      "tips_en": "Ask if there is a group discount."
+      "tips_en": "Ask if there is a group discount.",
+      "area_en": "Center"
     },
     {
       "id": "gen_ChIJyY6-pEZ7jEcRDNBDyarql6s",
@@ -1094,8 +1098,8 @@
       "tips_en": "Reservation is a must for dinner."
     },
     {
-      "name": "Chamonix-Mont-Blanc (Günübirlik)",
-      "area": "Günübirlik",
+      "name": "Chamonix-Mont-Blanc",
+      "area": "Chamonix-Mont-Blanc",
       "category": "Deneyim",
       "tags": [
         "alpler",
@@ -1113,7 +1117,8 @@
       "bestTime": "Sabah erken",
       "bestTime_en": "Early morning",
       "tips": "Fotoğraf makinenizin şarjının dolu olduğundan emin olun.",
-      "tips_en": "Make sure your camera battery is full."
+      "tips_en": "Make sure your camera battery is full.",
+      "area_en": "Chamonix-Mont-Blanc"
     },
     {
       "id": "gen_ChIJE7jBffhljEcRhVf6Amjzxh0",
@@ -1209,7 +1214,8 @@
       "bestTime": "Gündüz",
       "bestTime_en": "Daytime",
       "tips": "Fotoğraf makinenizin şarjının dolu olduğundan emin olun.",
-      "tips_en": "Make sure your camera battery is full."
+      "tips_en": "Make sure your camera battery is full.",
+      "area_en": "Center / Quai des Bergues"
     },
     {
       "id": "gen_ChIJz8m5UyhljEcRru7ds7yhOwY",
@@ -1237,7 +1243,7 @@
     },
     {
       "name": "Château de Gruyères",
-      "area": "Günübirlik",
+      "area": "Château de Gruyères",
       "category": "Müze",
       "tags": [
         "peynir",
@@ -1255,7 +1261,8 @@
       "bestTime": "Tüm gün",
       "bestTime_en": "Full day",
       "tips": "Biletinizi online alarak gişe sırasından kurtulun.",
-      "tips_en": "Buy tickets online to skip the box office line."
+      "tips_en": "Buy tickets online to skip the box office line.",
+      "area_en": "Château de Gruyères"
     },
     {
       "name": "Cité du Temps",
@@ -2563,7 +2570,7 @@
     },
     {
       "name": "Lausanne Cathedral",
-      "area": "Günübirlik",
+      "area": "Lausanne",
       "category": "Tarihi",
       "tags": [
         "olimpiyat",
@@ -2581,7 +2588,8 @@
       "bestTime": "Tüm gün",
       "bestTime_en": "Full day",
       "tips": "Müze kartınız varsa girişte sıra beklemezsiniz.",
-      "tips_en": "You skip the line if you have a museum pass."
+      "tips_en": "You skip the line if you have a museum pass.",
+      "area_en": "Lausanne"
     },
     {
       "id": "gen_ChIJb_hFm9ZljEcRAhQ4ftEzQPY",
@@ -3151,7 +3159,8 @@
       "bestTime": "Öğle yemeği",
       "bestTime_en": "Lunch",
       "tips": "El yapımı hediyelikler fabrikasyon olanlardan daha değerlidir.",
-      "tips_en": "Handmade souvenirs are more valuable than mass-produced ones."
+      "tips_en": "Handmade souvenirs are more valuable than mass-produced ones.",
+      "area_en": "Center"
     },
     {
       "id": "gen_ChIJ-VvFQwBljEcRqSJaNkbHb9k",
@@ -3248,8 +3257,8 @@
       "tips_en": "Lunch menus are usually cheaper than dinner."
     },
     {
-      "name": "Mont Salève (Günübirlik)",
-      "area": "Günübirlik",
+      "name": "Mont Salève",
+      "area": "Mont Salève",
       "category": "Park",
       "tags": [
         "dağ",
@@ -3267,11 +3276,12 @@
       "bestTime": "Pazar",
       "bestTime_en": "Sunday",
       "tips": "Sabah koşusu veya yoga yapan yerlileri görebilirsiniz.",
-      "tips_en": "You can see locals jogging or doing yoga in the morning."
+      "tips_en": "You can see locals jogging or doing yoga in the morning.",
+      "area_en": "Mont Salève"
     },
     {
-      "name": "Montreux (Günübirlik)",
-      "area": "Günübirlik",
+      "name": "Montreux",
+      "area": "Montreux",
       "category": "Deneyim",
       "tags": [
         "caz",
@@ -3289,7 +3299,8 @@
       "bestTime": "Tüm gün",
       "bestTime_en": "Full day",
       "tips": "Grup indirimi olup olmadığını sorun.",
-      "tips_en": "Ask if there is a group discount."
+      "tips_en": "Ask if there is a group discount.",
+      "area_en": "Montreux"
     },
     {
       "name": "Mr. Pickwick Pub",
@@ -3502,8 +3513,8 @@
       "tips_en": "Ask if there is a group discount."
     },
     {
-      "name": "Nyon (Günübirlik)",
-      "area": "Günübirlik",
+      "name": "Nyon",
+      "area": "Nyon",
       "category": "Müze",
       "tags": [
         "roma",
@@ -3521,7 +3532,8 @@
       "bestTime": "Tüm gün",
       "bestTime_en": "Full day",
       "tips": "Hafta içi sabah saatleri en sakin zamanıdır.",
-      "tips_en": "Weekday mornings are the quietest times."
+      "tips_en": "Weekday mornings are the quietest times.",
+      "area_en": "Nyon"
     },
     {
       "id": "gen_ChIJlZqphhN7jEcRW2Wm7H2TjPw",
@@ -4313,7 +4325,8 @@
       "bestTime": "Cumartesi sabah",
       "bestTime_en": "Saturday morning",
       "tips": "Fotoğraf makinenizin şarjının dolu olduğundan emin olun.",
-      "tips_en": "Make sure your camera battery is full."
+      "tips_en": "Make sure your camera battery is full.",
+      "area_en": "Center"
     },
     {
       "name": "Rue de l'Hôtel-de-Ville",
@@ -4359,7 +4372,8 @@
       "bestTime": "Gündüz",
       "bestTime_en": "Daytime",
       "tips": "Yerel tasarımcıların ürünlerine göz atın.",
-      "tips_en": "Check out products from local designers."
+      "tips_en": "Check out products from local designers.",
+      "area_en": "Center"
     },
     {
       "id": "gen_ChIJUygf5fhljEcRWz2twkXM5Pc",
@@ -4954,8 +4968,8 @@
       "tips_en": "Lunch menus are usually cheaper than dinner."
     },
     {
-      "name": "Yvoire (Günübirlik)",
-      "area": "Günübirlik",
+      "name": "Yvoire",
+      "area": "Yvoire",
       "category": "Tarihi",
       "tags": [
         "ortaçağ",
@@ -4973,7 +4987,8 @@
       "bestTime": "Öğleden sonra",
       "bestTime_en": "Afternoon",
       "tips": "Sabah erken saatlerde giderek turist kalabalığından kaçınabilirsiniz.",
-      "tips_en": "Go early in the morning to avoid tourist crowds."
+      "tips_en": "Go early in the morning to avoid tourist crowds.",
+      "area_en": "Yvoire"
     },
     {
       "id": "gen_ChIJC_dsuDd7jEcRnY72RdSuuo8",
@@ -5091,7 +5106,8 @@
       "bestTime": "Öğleden sonra",
       "bestTime_en": "Afternoon",
       "tips": "Sabah koşusu veya yoga yapan yerlileri görebilirsiniz.",
-      "tips_en": "You can see locals jogging or doing yoga in the morning."
+      "tips_en": "You can see locals jogging or doing yoga in the morning.",
+      "area_en": "Center"
     }
   ]
 }

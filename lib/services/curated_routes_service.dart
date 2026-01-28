@@ -5,6 +5,9 @@ import 'package:flutter/material.dart';
 import '../models/city_model.dart';
 import '../theme/wanderlust_colors.dart';
 import 'dart:math';
+import 'dart:io';
+import 'dart:convert';
+import 'package:path_provider/path_provider.dart';
 
 class CuratedRoute {
   final String id;
@@ -16,11 +19,11 @@ class CuratedRoute {
   final String imageUrl;
   final List<String> tags;
   final List<String> placeNames;
-  final List<String> interests; // Kullanıcı ilgi alanlarına göre eşleştirme
+  final List<String> interests;
   final Color accentColor;
   final IconData icon;
 
-  const CuratedRoute({
+  CuratedRoute({
     required this.id,
     required this.name,
     required this.description,
@@ -34,348 +37,94 @@ class CuratedRoute {
     required this.accentColor,
     required this.icon,
   });
+
+  factory CuratedRoute.fromJson(Map<String, dynamic> json, bool isEnglish) {
+    String getString(dynamic data) {
+      if (data is Map) return data[isEnglish ? 'en' : 'tr']?.toString() ?? '';
+      return data?.toString() ?? '';
+    }
+
+    List<String> getList(dynamic data) {
+      if (data is Map) {
+        final list = data[isEnglish ? 'en' : 'tr'];
+        if (list is List) return list.map((e) => e.toString()).toList();
+        return [];
+      }
+      if (data is List) return data.map((e) => e.toString()).toList();
+      return [];
+    }
+
+    return CuratedRoute(
+      id: json['id'] ?? '',
+      name: getString(json['name']),
+      description: getString(json['description']),
+      duration: getString(json['duration']),
+      distance: json['distance']?.toString() ?? '',
+      difficulty: getString(json['difficulty']),
+      imageUrl: json['imageUrl'] ?? '',
+      tags: getList(json['tags']),
+      placeNames: (json['placeNames'] as List?)?.map((e) => e.toString()).toList() ?? [],
+      interests: (json['interests'] as List?)?.map((e) => e.toString()).toList() ?? [],
+      accentColor: _parseColor(json['accentColor']),
+      icon: _parseIcon(json['icon']),
+    );
+  }
+
+  static Color _parseColor(dynamic val) {
+    if (val == null) return const Color(0xFFE91E63);
+    String hex = val.toString();
+    if (hex.contains('0x')) {
+      hex = hex.replaceAll('0x', '');
+      return Color(int.parse(hex, radix: 16));
+    }
+    return const Color(0xFFE91E63);
+  }
+
+  static IconData _parseIcon(dynamic val) {
+    final iconName = val?.toString() ?? '';
+    switch (iconName) {
+      case 'Icons.star_rounded': return Icons.star_rounded;
+      case 'Icons.account_balance': return Icons.account_balance;
+      case 'Icons.museum': return Icons.museum;
+      case 'Icons.temple_buddhist': return Icons.temple_buddhist;
+      case 'Icons.directions_walk_rounded': return Icons.directions_walk_rounded;
+      case 'Icons.explore_rounded': return Icons.explore_rounded;
+      case 'Icons.restaurant_rounded': return Icons.restaurant_rounded;
+      case 'Icons.landscape_rounded': return Icons.landscape_rounded;
+      case 'Icons.nightlife': return Icons.nightlife;
+      case 'Icons.movie': return Icons.movie;
+      case 'Icons.park': return Icons.park;
+      case 'Icons.coffee': return Icons.coffee;
+      case 'Icons.architecture': return Icons.architecture;
+      case 'Icons.restaurant': return Icons.restaurant;
+      case 'Icons.local_cafe': return Icons.local_cafe;
+      case 'Icons.landscape': return Icons.landscape;
+      case 'Icons.theater_comedy': return Icons.theater_comedy;
+      case 'Icons.forest': return Icons.forest;
+      case 'Icons.shopping_bag': return Icons.shopping_bag;
+      case 'Icons.map_outlined': return Icons.map_outlined;
+      case 'Icons.directions_boat': return Icons.directions_boat;
+      case 'Icons.camera_alt': return Icons.camera_alt;
+      case 'Icons.location_city': return Icons.location_city;
+      case 'Icons.light_mode': return Icons.light_mode;
+      case 'Icons.videogame_asset': return Icons.videogame_asset;
+      case 'Icons.accessibility_new': return Icons.accessibility_new;
+      case 'Icons.ramen_dining': return Icons.ramen_dining;
+      default: return Icons.directions_walk_rounded;
+    }
+  }
 }
 
 class CuratedRoutesService {
   
   /// Şehir modelinden otomatik rotalar oluşturur
   static Future<List<CuratedRoute>> generateRoutes(CityModel city, bool isEnglish) async {
-    final existingRoutes = getRoutes(city.city, isEnglish);
-    final allHighlights = List<Highlight>.from(city.highlights);
-    final generatedRoutes = <CuratedRoute>[];
+    final remoteRoutes = await getRemoteRoutes(city.city, isEnglish);
+    final existingRoutes = remoteRoutes.isNotEmpty ? remoteRoutes : getRoutes(city.city, isEnglish);
     
-    // Var olan rota isimlerini kontrol et (çakışmayı önlemek için)
-    final existingNames = existingRoutes.map((r) => r.name).toSet();
-
-    // Yardımcı fonksiyon: Rota ekle
-    void addRoute(CuratedRoute route) {
-      if (!existingNames.contains(route.name)) {
-        generatedRoutes.add(route);
-        existingNames.add(route.name);
-      }
-    }
-
-    // 1. "Iconic [City]" / "[City] Klasikleri" (En yüksek puanlı 6 yer - Coğrafi Olarak Kümelenmiş)
-    allHighlights.sort((a, b) => (b.rating ?? 0).compareTo(a.rating ?? 0));
-    
-    if (allHighlights.isNotEmpty) {
-      final anchor = allHighlights.first;
-      // Anchor'a yakın (maks 80km) ve yüksek puanlı diğer yerleri bul
-      final nearbyTopPlaces = _getNearbyHighlights(anchor, allHighlights, 80.0);
-      // Puanına göre sırala ve ilk 6'yı al (Anchor dahil)
-      nearbyTopPlaces.sort((a, b) => (b.rating ?? 0).compareTo(a.rating ?? 0));
-      final topPlaces = nearbyTopPlaces.take(6).toList();
-
-      if (topPlaces.length >= 4) {
-        addRoute(_createRoute(
-          id: "${city.city.toLowerCase()}_top",
-          name: isEnglish ? "Best of ${city.city}" : "${city.city} Klasikleri",
-          description: isEnglish 
-              ? "The absolute must-see landmarks of ${city.city}. Perfect for first-time visitors."
-              : "${city.city}'nin mutlaka görülmesi gereken simge yapıları. İlk kez gelenler için ideal.",
-          places: _optimizeRoute(topPlaces),
-          color: const Color(0xFFE91E63), // Pink
-          icon: Icons.star_rounded,
-          tags: isEnglish ? ["iconic", "must-see", "popular"] : ["ikonik", "popüler", "klasik"],
-          interests: ["history", "photo", "culture"],
-        ));
-      }
-    }
-
-    // 2. Kültür ve Tarih Rotası (Müze, Tarihi - Coğrafi Kümelenmiş)
-    final culturePlaces = allHighlights.where((h) => 
-      h.category.toLowerCase().contains("müze") || 
-      h.category.toLowerCase().contains("tarih") ||
-      h.category.toLowerCase().contains("museum") ||
-      h.category.toLowerCase().contains("history")
-    ).toList();
-    
-    if (culturePlaces.isNotEmpty) {
-       // En popüler tarihi yeri merkez al
-       culturePlaces.sort((a, b) => (b.rating ?? 0).compareTo(a.rating ?? 0));
-       final anchor = culturePlaces.first;
-       final nearbyCulture = _getNearbyHighlights(anchor, culturePlaces, 50.0);
-       
-        if (nearbyCulture.length >= 4) {
-          // Yakın bir kafe ekle (mola için)
-          final cafe = allHighlights.firstWhere(
-            (h) => (h.category.toLowerCase().contains("kafe") || h.category.toLowerCase().contains("cafe")) &&
-                   _calculateDistance(anchor.lat, anchor.lng, h.lat, h.lng) < 5.0, // 5km içindeki kafe
-            orElse: () => allHighlights.first
-          );
-          
-          // Eğer kafe gerçekten yakınsa ve listede yoksa ekle
-          if (!nearbyCulture.contains(cafe) && _calculateDistance(anchor.lat, anchor.lng, cafe.lat, cafe.lng) < 10.0) {
-             nearbyCulture.insert(nearbyCulture.length ~/ 2, cafe);
-          }
-          
-          addRoute(_createRoute(
-            id: "${city.city.toLowerCase()}_culture",
-            name: isEnglish ? "Culture & History Walk" : "Kültür ve Tarih Yürüyüşü",
-            description: isEnglish
-                ? "Immerse yourself in the rich history and artistic heritage of the city."
-                : "Şehrin zengin tarihi ve sanatsal mirasına derin bir yolculuk.",
-            places: _optimizeRoute(nearbyCulture.take(6).toList()),
-            color: const Color(0xFF9C27B0), // Purple
-            icon: Icons.museum_rounded,
-            tags: isEnglish ? ["history", "art", "museum"] : ["tarih", "sanat", "müze"],
-            interests: ["history", "art"],
-          ));
-        }
-    }
-
-    // 3. Doğa ve Manzara (Park, Manzara - Coğrafi Kümelenmiş)
-    final naturePlaces = allHighlights.where((h) => 
-      h.category.toLowerCase().contains("park") || 
-      h.category.toLowerCase().contains("manzara") ||
-      h.category.toLowerCase().contains("doğa") ||
-      h.category.toLowerCase().contains("nature") ||
-      h.category.toLowerCase().contains("view")
-    ).toList();
-
-    if (naturePlaces.isNotEmpty) {
-      naturePlaces.sort((a, b) => (b.rating ?? 0).compareTo(a.rating ?? 0));
-      final anchor = naturePlaces.first;
-      final nearbyNature = _getNearbyHighlights(anchor, naturePlaces, 60.0);
-
-      if (nearbyNature.length >= 3) {
-        addRoute(_createRoute(
-          id: "${city.city.toLowerCase()}_nature",
-          name: isEnglish ? "Green & Scenic Views" : "Doğa ve Manzara",
-          description: isEnglish
-              ? "Escape the crowd and enjoy the most beautiful parks and panoramic viewpoints."
-              : "Kalabalıktan kaçın ve şehrin en güzel parkları ile manzaralarının tadını çıkarın.",
-          places: _optimizeRoute(nearbyNature.take(5).toList()),
-          color: const Color(0xFF4CAF50), // Green
-          icon: Icons.landscape_rounded,
-          tags: isEnglish ? ["nature", "parks", "relax"] : ["doğa", "park", "huzur"],
-          interests: ["nature", "photo"],
-        ));
-      }
-    }
-
-    // 4. Lezzet Turu (Restoran, Kafe, Yemek - Coğrafi Kümelenmiş)
-    final foodPlaces = allHighlights.where((h) => 
-      h.category.toLowerCase().contains("restoran") || 
-      h.category.toLowerCase().contains("kafe") || 
-      h.category.toLowerCase().contains("yemek") ||
-      h.category.toLowerCase().contains("food") ||
-      h.category.toLowerCase().contains("restaurant") ||
-      h.category.toLowerCase().contains("cafe")
-    ).toList();
-
-    if (foodPlaces.isNotEmpty) {
-      foodPlaces.shuffle(); // Lezzette rastgelelik iyidir ama yakınlık şart
-      final anchor = foodPlaces.first;
-      final nearbyFood = _getNearbyHighlights(anchor, foodPlaces, 15.0); // Yemek için daha dar alan (yürünebilir)
-      
-      if (nearbyFood.length >= 4) {
-        addRoute(_createRoute(
-          id: "${city.city.toLowerCase()}_food",
-          name: isEnglish ? "Gastronomy Tour" : "Lezzet Durakları",
-          description: isEnglish
-              ? "A delicious journey through local flavors, best cafes and cozy restaurants."
-              : "Yerel lezzetler, en iyi kafeler ve keyifli restoranlarla dolu leziz bir rota.",
-          places: _optimizeRoute(nearbyFood.take(6).toList()),
-          color: const Color(0xFFFF9800), // Orange
-          icon: Icons.restaurant_rounded,
-          tags: isEnglish ? ["food", "local", "delicious"] : ["yemek", "lezzet", "yerel"],
-          interests: ["food"],
-        ));
-      }
-    }
-
-    // 5. Gizli Hazineler / Alternatif Rota (Yüksek puanlı ama klasik listede olmayanlar - Coğrafi)
-    final usedNames = generatedRoutes.expand((r) => r.placeNames).toSet();
-    final hiddenGems = allHighlights.where((h) => 
-      !usedNames.contains(h.name) && (h.rating ?? 0) >= 4.3
-    ).toList();
-
-    if (hiddenGems.isNotEmpty) {
-       hiddenGems.shuffle();
-       final anchor = hiddenGems.first;
-       final nearbyHidden = _getNearbyHighlights(anchor, hiddenGems, 40.0);
-
-       if (nearbyHidden.length >= 4) {
-        addRoute(_createRoute(
-          id: "${city.city.toLowerCase()}_hidden",
-          name: isEnglish ? "Hidden Gems" : "Gizli Hazineler",
-          description: isEnglish
-              ? "Discover the lesser-known but highly rated spots loved by locals."
-              : "Turistlerin gözünden kaçan ama yerlilerin sevdiği o özel yerleri keşfedin.",
-          places: _optimizeRoute(nearbyHidden.take(5).toList()),
-          color: const Color(0xFF607D8B), // Blue Grey
-          icon: Icons.explore_rounded,
-          tags: isEnglish ? ["secret", "local", "quiet"] : ["gizli", "yerel", "sakin"],
-          interests: ["culture", "photo"],
-        ));
-      }
-    }
-
-    // 6. Bölge/Semt Rotaları (Neighborhoods)
-    // Area bazlı grupla
-    final Map<String, List<Highlight>> byArea = {};
-    for (var h in allHighlights) {
-      if (h.area.isNotEmpty) {
-        byArea.putIfAbsent(h.area, () => []).add(h);
-      }
-    }
-
-    byArea.forEach((area, places) {
-      if (places.length >= 4 && generatedRoutes.length + existingRoutes.length < 15) {
-        
-        final titlesEn = ["Explore $area", "Walk through $area", "$area Highlights", "$area Vibes", "Step by Step $area"];
-        final titlesTr = ["Adım Adım $area", "$area Sokakları", "$area Ruhu", "$area Gezintisi", "$area Turu", "$area Keşfi", "$area'yı Yaşa"];
-        
-        final randomTitle = isEnglish 
-            ? titlesEn[Random().nextInt(titlesEn.length)]
-            : titlesTr[Random().nextInt(titlesTr.length)];
-
-        addRoute(_createRoute(
-          id: "${city.city.toLowerCase()}_${area.toLowerCase().replaceAll(' ', '_')}",
-          name: randomTitle,
-          description: isEnglish
-              ? "A focused walking tour through the charming streets of $area."
-              : "$area bölgesinin büyüleyici sokaklarında odaklanmış bir yürüyüş turu.",
-          places: _optimizeRoute(places.take(6).toList()),
-          color: const Color(0xFF3F51B5), // Indigo
-          icon: Icons.map_outlined,
-          tags: isEnglish ? ["neighborhood", "walking", "area"] : ["semt", "yürüyüş", "bölge"],
-          interests: ["culture", "walking"],
-        ));
-      }
-    });
-
-    // Toplam rota sayısı 10'a tamamlanana kadar karışık rotalar ekle (Mix - Coğrafi Kümelenmiş)
-    int attempt = 1;
-    while (generatedRoutes.length + existingRoutes.length < 10 && attempt < 10) { // attempt limitini artırdık
-      
-      // Rastgele bir başlangıç noktası seç
-      final potentialAnchors = allHighlights.toList()..shuffle();
-      if (potentialAnchors.isEmpty) break;
-      
-      final anchor = potentialAnchors.first;
-      
-      // Bu anchor'a yakın (maks 50km) diğer noktaları bul
-      final nearbyCluster = _getNearbyHighlights(anchor, allHighlights, 50.0);
-      
-      // Kendi içinde karıştır
-      nearbyCluster.shuffle();
-      
-      if (nearbyCluster.length >= 4) {
-         final mixPlaces = nearbyCluster.take(6).toList();
-         
-         final mixTitlesEn = ["City Mix", "Day Tripper", "Urban Explorer", "Random Delights", "Full Day Joy"];
-         final mixTitlesTr = ["Günü Yakala", "Karışık Rota", "Şehrin Tadı", "Hızlı Bakış", "Tam Günlük Macera", "Şehir Turu", "Rastgele Rota"];
-         
-         final randomMixTitle = isEnglish 
-             ? "${mixTitlesEn[Random().nextInt(mixTitlesEn.length)]} $attempt"
-             : "${mixTitlesTr[Random().nextInt(mixTitlesTr.length)]} $attempt";
-
-         // Benzer isimde rota var mı kontrol et (Döngüye girmesin)
-         if (!generatedRoutes.any((r) => r.name == randomMixTitle)) {
-             addRoute(_createRoute(
-               id: "${city.city.toLowerCase()}_mix_$attempt",
-               name: randomMixTitle,
-               description: isEnglish
-                   ? "A balanced mix of sights to maximize your day."
-                   : "Gününüzü en iyi şekilde değerlendirmeniz için dengeli bir karışım.",
-               places: _optimizeRoute(mixPlaces),
-               color: const Color(0xFF009688), // Teal
-               icon: Icons.directions_walk_rounded,
-               tags: ["mix", "walking"],
-               interests: ["walking"],
-             ));
-         }
-      }
-      attempt++;
-    }
-
-    // TÜM ROTALARI BİRLEŞTİR VE GÖRSEL KONTROLÜ YAP (HARDCODED DAHİL)
-    final allRoutesResult = [...existingRoutes, ...generatedRoutes];
-    final enrichedRoutes = <CuratedRoute>[];
-
-    // Mekanları hızlı bulmak için Map yapısı
-    // Mekanları hızlı bulmak için Map yapısı
-    final highlightsMap = <String, Highlight>{};
-    for (var h in allHighlights) {
-      highlightsMap[h.name] = h;
-      if (h.nameEn != null && h.nameEn!.isNotEmpty) {
-        highlightsMap[h.nameEn!] = h;
-      }
-    }
-
-    for (var route in allRoutesResult) {
-      // Eğer görseli varsa ve geçerli bir URL ise dokunma
-      bool hasValidImage = route.imageUrl.isNotEmpty && 
-                           !route.imageUrl.contains("placeholder") &&
-                           route.imageUrl.startsWith("http");
-
-      if (hasValidImage) {
-        enrichedRoutes.add(route);
-        continue;
-      }
-
-      // Görsel yoksa veya geçersizse, rota içindeki mekanlardan bul
-      String newImage = route.imageUrl;
-      
-      // 1. Önce tam eşleşme ara
-      if (newImage.isEmpty || !newImage.startsWith("http")) {
-        for (var placeName in route.placeNames) {
-          final highlight = highlightsMap[placeName];
-          if (highlight != null && 
-              highlight.imageUrl != null && 
-              highlight.imageUrl!.isNotEmpty &&
-              highlight.imageUrl!.startsWith("http")) {
-            newImage = highlight.imageUrl!;
-            break;
-          }
-        }
-      }
-
-      // 2. Hala görsel yoksa, gevşek eşleşme (contains) ara
-      if (newImage.isEmpty || !newImage.startsWith("http")) {
-         for (var placeName in route.placeNames) {
-            // Mekan ismini normalize et
-            final normalizedPlace = placeName.toLowerCase().trim();
-            
-            // Tüm highlight'ları tara
-            try {
-              final bestMatch = allHighlights.firstWhere((h) => 
-                h.imageUrl != null && 
-                h.imageUrl!.startsWith("http") &&
-                (h.name.toLowerCase().contains(normalizedPlace) || normalizedPlace.contains(h.name.toLowerCase()))
-              );
-              newImage = bestMatch.imageUrl!;
-              break;
-            } catch (e) {
-              // Eşleşme yoksa devam et
-            }
-         }
-      }
-
-      // Rotayı güncelle (CuratedRoute immutable olduğu için yeni instance oluştur)
-      if (newImage != route.imageUrl) {
-         enrichedRoutes.add(CuratedRoute(
-            id: route.id,
-            name: route.name,
-            description: route.description,
-            duration: route.duration,
-            distance: route.distance,
-            difficulty: route.difficulty,
-            imageUrl: newImage, // Güncellenmiş görsel
-            tags: route.tags,
-            placeNames: route.placeNames,
-            interests: route.interests,
-            accentColor: route.accentColor,
-            icon: route.icon,
-         ));
-      } else {
-        enrichedRoutes.add(route);
-      }
-    }
-
-    return enrichedRoutes;
+    // Tüm otomatik oluşturma mantığını kullanıcının isteği üzerine devre dışı bıraktık.
+    // Sadece el ile kürasyonu yapılmış (local veya remote) rotalar dönecek.
+    return existingRoutes;
   }
 
   // Yardımcı: CuratedRoute oluştur
@@ -472,7 +221,32 @@ class CuratedRoutesService {
     }).toList();
   }
 
+  /// GitHub'dan indirilen rotaları yükler
+  static Future<List<CuratedRoute>> getRemoteRoutes(String city, bool isEnglish) async {
+    try {
+      final normalizedCity = city.toLowerCase().trim()
+          .replaceAll('new york', 'newyork')
+          .replaceAll('nyc', 'newyork')
+          .replaceAll('hong kong', 'hongkong')
+          .replaceAll('san sebastian', 'sansebastian');
+          
+      final directory = await getApplicationDocumentsDirectory();
+      final file = File('${directory.path}/routes/$normalizedCity.json');
+
+      if (await file.exists()) {
+        final String content = await file.readAsString();
+        final List<dynamic> jsonList = json.decode(content);
+        return jsonList.map((j) => CuratedRoute.fromJson(j, isEnglish)).toList();
+      }
+    } catch (e) {
+      debugPrint("⚠️ CuratedRoutesService: Uzak rotalar yüklenemedi: $e");
+    }
+    return [];
+  }
+
   static List<CuratedRoute> getRoutes(String city, bool isEnglish) {
+    // NOT: Bu metod senkron olduğu için sadece 'hardcoded' verileri döner.
+    // Uygulama genelinde 'generateRoutes' veya yeni 'getRemoteRoutes' (async) kullanılmalıdır.
     final normalizedCity = city.toLowerCase().trim();
     
     switch (normalizedCity) {
@@ -1008,7 +782,7 @@ class CuratedRoutesService {
         difficulty: isEnglish ? "Easy" : "Kolay",
         imageUrl: "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/paris/le_marais.jpg",
         tags: ["Marais", "Falafel", isEnglish ? "Trendy" : "Trendy"],
-        placeNames: ["Le Marais", "Place des Vosges", "Rue des Rosiers", "Museé Carnavalet", "Saint-Paul-Saint-Louis", "L'As du Fallafel"],
+        placeNames: ["Le Marais", "Place des Vosges", "Rue des Rosiers", "Musée Carnavalet", "Saint-Paul-Saint-Louis", "L'As du Fallafel"],
         interests: ["Yemek", "Alışveriş", "Lokal"],
         accentColor: const Color(0xFF9B59B6),
         icon: Icons.storefront,

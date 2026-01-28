@@ -788,7 +788,8 @@
       "tags": [
         "kafe",
         "popüler",
-        "keşfet"
+        "keşfet",
+        "not_curated"
       ],
       "distanceFromCenter": 1.5,
       "tips": "Hafta içi ziyaret etmek daha sakin bir deneyim sunar.",
@@ -848,6 +849,27 @@
       "tips": "Rehbere soru sormaktan çekinmeyin, çok ilginç hikayeler biliyorlar.",
       "description_en": "Aksiyon dolu bir gün geçirmek isteyenler için Boğaz Turu ideal bir tercih. Eminönü'daki bu mekanda hem fiziksel aktiviteler hem de interaktif deneyimlerle enerjinizi yükseltebilirsiniz.",
       "tips_en": "Don't hesitate to ask the guide questions, they know interesting stories."
+    },
+    {
+      "name": "Tellalzade Sokak",
+      "name_en": "Tellalzade Street",
+      "area": "Kadıköy",
+      "category": "Deneyim",
+      "tags": [
+        "antika",
+        "nostalji",
+        "alışveriş"
+      ],
+      "distanceFromCenter": 0.5,
+      "lat": 40.9882,
+      "lng": 29.0268,
+      "price": "medium",
+      "rating": 4.7,
+      "description": "Kadıköy'ün meşhur Antikacılar Sokağı. Eski mobilyalar, nadir objeler, plaklar ve nostaljik bir atmosferle dolu büyüleyici bir sokak.",
+      "description_en": "Istanbul's famous antique street in Kadıköy. A charming street filled with vintage furniture, rare objects, vinyls, and a nostalgic atmosphere.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/istanbul/tellalzade_sokak.jpg",
+      "tips": "Antikacıları gezerken plakçılara uğramayı ve köşe başındaki butik kafelerde mola vermeyi unutmayın.",
+      "tips_en": "Don't forget to visit the record stores while browsing antiques and take a break at the boutique cafes on the corner."
     },
     {
       "name": "Burger No.7",
@@ -995,7 +1017,8 @@
       "tags": [
         "kafe",
         "popüler",
-        "keşfet"
+        "keşfet",
+        "not_curated"
       ],
       "distanceFromCenter": 1.5,
       "tips": "Çevredeki küçük hediyelik eşya dükkanlarına da uğrayın.",
@@ -1019,7 +1042,8 @@
       "tags": [
         "kafe",
         "popüler",
-        "keşfet"
+        "keşfet",
+        "not_curated"
       ],
       "distanceFromCenter": 1.5,
       "tips": "Google Maps yorumlarına göz atarak ne yiyeceğinize karar verin.",
@@ -1043,7 +1067,8 @@
       "tags": [
         "kafe",
         "popüler",
-        "keşfet"
+        "keşfet",
+        "not_curated"
       ],
       "distanceFromCenter": 1.5,
       "tips": "Google Maps yorumlarına göz atarak ne yiyeceğinize karar verin.",
@@ -1067,7 +1092,8 @@
       "tags": [
         "kafe",
         "popüler",
-        "keşfet"
+        "keşfet",
+        "not_curated"
       ],
       "distanceFromCenter": 1.5,
       "tips": "Hafta içi ziyaret etmek daha sakin bir deneyim sunar.",
@@ -1215,7 +1241,8 @@
       "tags": [
         "kafe",
         "popüler",
-        "keşfet"
+        "keşfet",
+        "not_curated"
       ],
       "distanceFromCenter": 1.5,
       "tips": "Hafta içi ziyaret etmek daha sakin bir deneyim sunar.",
@@ -1239,7 +1266,8 @@
       "tags": [
         "kafe",
         "popüler",
-        "keşfet"
+        "keşfet",
+        "not_curated"
       ],
       "distanceFromCenter": 1.5,
       "tips": "Yerel halkın favori noktalarından biri.",
@@ -1289,7 +1317,8 @@
       "tags": [
         "kafe",
         "popüler",
-        "keşfet"
+        "keşfet",
+        "not_curated"
       ],
       "distanceFromCenter": 1.5,
       "tips": "Google Maps yorumlarına göz atarak ne yiyeceğinize karar verin.",
@@ -1313,7 +1342,8 @@
       "tags": [
         "kafe",
         "popüler",
-        "keşfet"
+        "keşfet",
+        "not_curated"
       ],
       "distanceFromCenter": 1.5,
       "tips": "Hafta içi ziyaret etmek daha sakin bir deneyim sunar.",
@@ -1364,7 +1394,8 @@
       "tags": [
         "kafe",
         "popüler",
-        "keşfet"
+        "keşfet",
+        "not_curated"
       ],
       "distanceFromCenter": 1.5,
       "tips": "Çevredeki küçük hediyelik eşya dükkanlarına da uğrayın.",
@@ -1488,7 +1519,8 @@
       "tags": [
         "kafe",
         "popüler",
-        "keşfet"
+        "keşfet",
+        "not_curated"
       ],
       "distanceFromCenter": 1.5,
       "tips": "Google Maps yorumlarına göz atarak ne yiyeceğinize karar verin.",
@@ -1512,31 +1544,8 @@
       "tags": [
         "kafe",
         "popüler",
-        "keşfet"
-      ],
-      "distanceFromCenter": 1.5,
-      "tips": "Yerel halkın favori noktalarından biri.",
-      "tips_en": "One of the favorite spots of the locals."
-    },
-    {
-      "id": "gen_ChIJm7WKV0vHyhQRrdl2gFlVFXE",
-      "name": "EHLİ KEYF CAFE",
-      "category": "Kafe",
-      "area": "Hoca Paşa",
-      "description": "İstanbul'nin popüler kafelerinden biri. Kahve tutkunları için mükemmel bir mola noktası, samimi atmosfer ve lezzetli atıştırmalıklar.",
-      "description_en": "Relaxed café for enjoying Turkish coffee and leisurely atmosphere.",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/istanbul/ehli_keyf_cafe.jpg",
-      "location": "Hoca Paşa, hocapasa camii sokak no 7, 34093 Fatih/İstanbul, Türkiye",
-      "lat": 41.0137751,
-      "lng": 28.975513,
-      "rating": 4.9,
-      "reviewCount": 2443,
-      "price": "medium",
-      "website": "https://ehlikeyfcafe.com.tr/",
-      "tags": [
-        "kafe",
-        "popüler",
-        "keşfet"
+        "keşfet",
+        "not_curated"
       ],
       "distanceFromCenter": 1.5,
       "tips": "Yerel halkın favori noktalarından biri.",
@@ -1560,7 +1569,8 @@
       "tags": [
         "kafe",
         "popüler",
-        "keşfet"
+        "keşfet",
+        "not_curated"
       ],
       "distanceFromCenter": 1.5,
       "tips": "Yerel halkın favori noktalarından biri.",
@@ -1584,7 +1594,8 @@
       "tags": [
         "kafe",
         "popüler",
-        "keşfet"
+        "keşfet",
+        "not_curated"
       ],
       "distanceFromCenter": 1.5,
       "tips": "Google Maps yorumlarına göz atarak ne yiyeceğinize karar verin.",
@@ -2090,7 +2101,8 @@
       "tags": [
         "kafe",
         "popüler",
-        "keşfet"
+        "keşfet",
+        "not_curated"
       ],
       "distanceFromCenter": 1.5,
       "tips": "Yerel halkın favori noktalarından biri.",
@@ -2114,7 +2126,8 @@
       "tags": [
         "restoran",
         "popüler",
-        "keşfet"
+        "keşfet",
+        "not_curated"
       ],
       "distanceFromCenter": 1.5,
       "tips": "Yerel halkın favori noktalarından biri.",
@@ -2165,7 +2178,8 @@
       "tags": [
         "kafe",
         "popüler",
-        "keşfet"
+        "keşfet",
+        "not_curated"
       ],
       "distanceFromCenter": 1.5,
       "tips": "Hafta içi ziyaret etmek daha sakin bir deneyim sunar.",
@@ -2752,7 +2766,8 @@
       "tags": [
         "kafe",
         "popüler",
-        "keşfet"
+        "keşfet",
+        "not_curated"
       ],
       "distanceFromCenter": 1.5,
       "tips": "Hafta içi ziyaret etmek daha sakin bir deneyim sunar.",
@@ -2848,7 +2863,8 @@
       "tags": [
         "kafe",
         "popüler",
-        "keşfet"
+        "keşfet",
+        "not_curated"
       ],
       "distanceFromCenter": 1.5,
       "tips": "Yerel halkın favori noktalarından biri.",
@@ -3048,7 +3064,8 @@
       "tags": [
         "kafe",
         "popüler",
-        "keşfet"
+        "keşfet",
+        "not_curated"
       ],
       "distanceFromCenter": 1.5,
       "tips": "Hafta içi ziyaret etmek daha sakin bir deneyim sunar.",
@@ -3330,7 +3347,8 @@
       "tags": [
         "kafe",
         "popüler",
-        "keşfet"
+        "keşfet",
+        "not_curated"
       ],
       "distanceFromCenter": 1.5,
       "tips": "Yerel halkın favori noktalarından biri.",
@@ -3496,7 +3514,7 @@
       "tips": "Şefin spesiyal tabağını sormaktan çekinmeyin.",
       "description_en": "Nevizade Sokak is a noteworthy destination in İstanbul's Beyoğlu district. With its unique features and experiences, it offers unforgettable moments to visitors. As one of the most visited places in the area, it deserves a spot on every traveler's list.",
       "tips_en": "Don't hesitate to ask for the chef's special.",
-      "name_en": "Tellalzade Sokak"
+      "name_en": "Nevizade Street"
     },
     {
       "name": "Nicole",
@@ -3570,7 +3588,8 @@
       "tags": [
         "kafe",
         "popüler",
-        "keşfet"
+        "keşfet",
+        "not_curated"
       ],
       "distanceFromCenter": 1.5,
       "tips": "Google Maps yorumlarına göz atarak ne yiyeceğinize karar verin.",
@@ -3644,7 +3663,8 @@
       "tags": [
         "kafe",
         "popüler",
-        "keşfet"
+        "keşfet",
+        "not_curated"
       ],
       "distanceFromCenter": 1.5,
       "tips": "Google Maps yorumlarına göz atarak ne yiyeceğinize karar verin.",
@@ -3773,7 +3793,8 @@
       "tags": [
         "kafe",
         "popüler",
-        "keşfet"
+        "keşfet",
+        "not_curated"
       ],
       "distanceFromCenter": 1.5,
       "tips": "Google Maps yorumlarına göz atarak ne yiyeceğinize karar verin.",
@@ -3902,7 +3923,8 @@
       "tags": [
         "kafe",
         "popüler",
-        "keşfet"
+        "keşfet",
+        "not_curated"
       ],
       "distanceFromCenter": 1.5,
       "tips": "Yerel halkın favori noktalarından biri.",
@@ -3977,7 +3999,8 @@
       "tags": [
         "kafe",
         "popüler",
-        "keşfet"
+        "keşfet",
+        "not_curated"
       ],
       "distanceFromCenter": 1.5,
       "tips": "Çevredeki küçük hediyelik eşya dükkanlarına da uğrayın.",
@@ -4001,7 +4024,8 @@
       "tags": [
         "kafe",
         "popüler",
-        "keşfet"
+        "keşfet",
+        "not_curated"
       ],
       "distanceFromCenter": 1.5,
       "tips": "Google Maps yorumlarına göz atarak ne yiyeceğinize karar verin.",
@@ -4332,7 +4356,8 @@
       "tags": [
         "kafe",
         "popüler",
-        "keşfet"
+        "keşfet",
+        "not_curated"
       ],
       "distanceFromCenter": 1.5,
       "tips": "Çevredeki küçük hediyelik eşya dükkanlarına da uğrayın.",
@@ -4610,7 +4635,8 @@
       "tags": [
         "restoran",
         "popüler",
-        "keşfet"
+        "keşfet",
+        "not_curated"
       ],
       "distanceFromCenter": 1.5,
       "tips": "Google Maps yorumlarına göz atarak ne yiyeceğinize karar verin.",
@@ -4634,7 +4660,8 @@
       "tags": [
         "kafe",
         "popüler",
-        "keşfet"
+        "keşfet",
+        "not_curated"
       ],
       "distanceFromCenter": 1.5,
       "tips": "Yerel halkın favori noktalarından biri.",
@@ -4868,7 +4895,8 @@
       "tags": [
         "kafe",
         "popüler",
-        "keşfet"
+        "keşfet",
+        "not_curated"
       ],
       "distanceFromCenter": 1.5,
       "tips": "Çevredeki küçük hediyelik eşya dükkanlarına da uğrayın.",
@@ -5052,7 +5080,8 @@
       "tags": [
         "kafe",
         "popüler",
-        "keşfet"
+        "keşfet",
+        "not_curated"
       ],
       "distanceFromCenter": 1.5,
       "tips": "Hafta içi ziyaret etmek daha sakin bir deneyim sunar.",
@@ -5076,7 +5105,8 @@
       "tags": [
         "kafe",
         "popüler",
-        "keşfet"
+        "keşfet",
+        "not_curated"
       ],
       "distanceFromCenter": 1.5,
       "tips": "Çevredeki küçük hediyelik eşya dükkanlarına da uğrayın.",
@@ -5699,5 +5729,7 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/istanbul/sanatkarlar_parki.jpg",
       "source": "firebase"
     }
-  ]
+  ],
+  "city_en": "Istanbul",
+  "country_en": "Turkey"
 }

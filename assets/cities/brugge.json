@@ -52,7 +52,8 @@
       "id": "t-bagientje",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/brugge/t-bagientje.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "area_en": "Station"
     },
     {
       "name": "'t Brugs Beertje",
@@ -76,7 +77,8 @@
       "id": "t-brugs-beertje",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/brugge/t-brugs-beertje.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "area_en": "Center"
     },
     {
       "name": "'t Zand",
@@ -102,7 +104,8 @@
       "id": "t-zand",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/brugge/t-zand.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "area_en": "Center"
     },
     {
       "name": "2be Beer Wall",
@@ -148,7 +151,8 @@
       "id": "arentshuis",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/brugge/arentshuis.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "area_en": "Center"
     },
     {
       "name": "Augustijnenrei",
@@ -172,7 +176,8 @@
       "id": "augustinian-canal",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/brugge/augustinian-canal.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "area_en": "Center"
     },
     {
       "name": "Bar Des Amis",
@@ -196,7 +201,8 @@
       "id": "bar-des-amis",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/brugge/bar-des-amis.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "area_en": "Center"
     },
     {
       "name": "Baron Ruzettepark",
@@ -356,7 +362,8 @@
       "id": "episcopal-palace",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/brugge/episcopal-palace.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "area_en": "Center"
     },
     {
       "name": "Bistro Bruut",
@@ -380,7 +387,8 @@
       "id": "bistro-bruut",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/brugge/bistro-bruut.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "area_en": "Center"
     },
     {
       "name": "Blackbird",
@@ -428,7 +436,8 @@
       "id": "hof-bladelin",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/brugge/hof-bladelin.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "area_en": "Center"
     },
     {
       "name": "Blankenberge Pier",
@@ -476,7 +485,8 @@
       "id": "bonifacius-bridge",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/brugge/bonifacius-bridge.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "area_en": "Center"
     },
     {
       "name": "Books & Brunch",
@@ -500,7 +510,8 @@
       "id": "books-&-brunch",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/brugge/books-&-brunch.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "area_en": "Center"
     },
     {
       "name": "Boudewijn Seapark",
@@ -548,7 +559,8 @@
       "id": "bourgogne-des-flandres-brewery",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/brugge/bourgogne-des-flandres-brewery.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "area_en": "Center"
     },
     {
       "name": "Bruges Beer Experience",
@@ -572,7 +584,8 @@
       "id": "bruges-beer-experience",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/brugge/bruges-beer-experience.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "area_en": "Center"
     },
     {
       "name": "Brugse Vrije",
@@ -690,7 +703,8 @@
       "id": "cafe-rose-red",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/brugge/cafe-rose-red.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "area_en": "Center"
     },
     {
       "name": "Cafuné Specialty Coffee",
@@ -714,7 +728,8 @@
       "id": "cafuné-specialty-coffee",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/brugge/cafune_specialty_coffee.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "area_en": "Center"
     },
     {
       "name": "Cambrinus",
@@ -738,7 +753,8 @@
       "id": "cambrinus",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/brugge/cambrinus.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "area_en": "Center"
     },
     {
       "name": "Canal Boat Tour",
@@ -784,7 +800,8 @@
       "id": "charlie-rockets",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/brugge/charlie-rockets.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "area_en": "Center"
     },
     {
       "name": "Chartreuse Nature Reserve",
@@ -832,7 +849,8 @@
       "id": "cherrys",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/brugge/cherrys.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "area_en": "Center"
     },
     {
       "name": "Chez Albert",
@@ -923,7 +941,8 @@
       "id": "chocolatier-van-oost",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/brugge/chocolatier-van-oost.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "area_en": "Center"
     },
     {
       "name": "Church of Our Lady",
@@ -969,7 +988,8 @@
       "id": "comptoir-des-arts",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/brugge/comptoir-des-arts.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "area_en": "Center"
     },
     {
       "name": "Concertgebouw",
@@ -1041,7 +1061,8 @@
       "id": "da-vinci",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/brugge/da-vinci.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "area_en": "Center"
     },
     {
       "name": "Damme Village",
@@ -1089,7 +1110,8 @@
       "id": "de-garre",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/brugge/de-garre.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "area_en": "Center"
     },
     {
       "name": "De Haan",
@@ -1180,7 +1202,8 @@
       "id": "de-republiek",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/brugge/de-republiek.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "area_en": "Center"
     },
     {
       "name": "De Stoepa",
@@ -1204,7 +1227,8 @@
       "id": "de-stoepa",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/brugge/de-stoepa.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "area_en": "Station"
     },
     {
       "name": "De Stove",
@@ -1250,7 +1274,8 @@
       "id": "de-vlaamsche-pot",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/brugge/de-vlaamsche-pot.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "area_en": "Center"
     },
     {
       "name": "De Windmolen",
@@ -1298,7 +1323,8 @@
       "id": "den-amand",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/brugge/den-amand.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "area_en": "Center"
     },
     {
       "name": "Diamond Museum",
@@ -1390,7 +1416,8 @@
       "id": "english-college",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/brugge/english-college.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "area_en": "Center"
     },
     {
       "name": "Estaminet",
@@ -1512,7 +1539,8 @@
       "id": "freds-waffles",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/brugge/freds-waffles.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "area_en": "Center"
     },
     {
       "name": "Frietmuseum",
@@ -1630,7 +1658,8 @@
       "id": "almshouse-de-meulenaere",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/brugge/almshouse-de-meulenaere.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "area_en": "Center"
     },
     {
       "name": "Godshuis De Moor",
@@ -1654,7 +1683,8 @@
       "id": "almshouse-de-moor",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/brugge/almshouse-de-moor.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "area_en": "Center"
     },
     {
       "name": "Godshuis De Vos",
@@ -1678,7 +1708,8 @@
       "id": "almshouse-de-vos",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/brugge/almshouse-de-vos.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "area_en": "Center"
     },
     {
       "name": "Godshuis Rooms Convent",
@@ -1702,7 +1733,8 @@
       "id": "rooms-convent-almshouse",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/brugge/rooms-convent-almshouse.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "area_en": "Center"
     },
     {
       "name": "Godshuis Spanoghe",
@@ -1726,7 +1758,8 @@
       "id": "almshouse-spanoghe",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/brugge/almshouse-spanoghe.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "area_en": "Center"
     },
     {
       "name": "Godshuis St Jozef",
@@ -1750,7 +1783,8 @@
       "id": "st-joseph-almshouse",
       "distanceFromCenter": 0.5,
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/brugge/godshuis_st_jozef.jpg",
-      "source": "firebase"
+      "source": "firebase",
+      "area_en": "Center"
     },
     {
       "name": "Godshuis Van Campen",
@@ -1774,7 +1808,8 @@
       "id": "almshouse-van-campen",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/brugge/almshouse-van-campen.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "area_en": "Center"
     },
     {
       "name": "Godshuis Vette Vispoort",
@@ -1798,7 +1833,8 @@
       "id": "vette-vispoort-almshouse",
       "distanceFromCenter": 0.5,
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/brugge/godshuis_vette_vispoort.jpg",
-      "source": "firebase"
+      "source": "firebase",
+      "area_en": "Center"
     },
     {
       "name": "Godshuizen",
@@ -1846,7 +1882,8 @@
       "id": "golden-hand-canal",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/brugge/golden-hand-canal.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "area_en": "Center"
     },
     {
       "name": "Graaf Visartpark",
@@ -1894,7 +1931,8 @@
       "id": "gran-kaffe-de-passage",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/brugge/gran-kaffe-de-passage.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "area_en": "Center"
     },
     {
       "name": "Groenerei",
@@ -1918,7 +1956,8 @@
       "id": "green-canal",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/brugge/green-canal.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "area_en": "Center"
     },
     {
       "name": "Groeningemuseum",
@@ -1963,7 +2002,8 @@
       "id": "groot-vlaenderen",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/brugge/groot-vlaenderen.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "area_en": "Center"
     },
     {
       "name": "Grootseminarie",
@@ -2032,7 +2072,8 @@
       "id": "gruuthusemuseum",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/brugge/gruuthusemuseum.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "area_en": "Center"
     },
     {
       "name": "Guild of Archers St. Sebastian",
@@ -2126,7 +2167,8 @@
       "id": "arents-park",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/brugge/arents-park.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "area_en": "Center"
     },
     {
       "name": "Hof De Jonghe",
@@ -2174,7 +2216,8 @@
       "id": "hof-van-watervliet",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/brugge/hof-van-watervliet.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "area_en": "Center"
     },
     {
       "name": "House of Waffles",
@@ -2219,7 +2262,8 @@
       "id": "tanners-square",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/brugge/tanners-square.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "area_en": "Center"
     },
     {
       "name": "Huis 't Schaep",
@@ -2243,7 +2287,8 @@
       "id": "house-t-schaep",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/brugge/house-t-schaep.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "area_en": "Center"
     },
     {
       "name": "Huis de Crombrugghe",
@@ -2267,7 +2312,8 @@
       "id": "huis-de-crombrugghe",
       "distanceFromCenter": 0.5,
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/brugge/huis_de_crombrugghe.jpg",
-      "source": "firebase"
+      "source": "firebase",
+      "area_en": "Center"
     },
     {
       "name": "Jan van Eyckplein",
@@ -2291,7 +2337,8 @@
       "id": "jan-van-eyckplein",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/brugge/jan-van-eyckplein.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "area_en": "Center"
     },
     {
       "name": "Jeruzalemkerk",
@@ -2339,7 +2386,8 @@
       "id": "joeys-cafe",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/brugge/joeys-cafe.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "area_en": "Center"
     },
     {
       "name": "Kantcentrum",
@@ -2387,7 +2435,8 @@
       "id": "carmelite-convent",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/brugge/carmelite-convent.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "area_en": "Center"
     },
     {
       "name": "Kasteel van Loppem",
@@ -2507,7 +2556,8 @@
       "id": "koningin-astridpark",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/brugge/koningin-astridpark.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "area_en": "Center"
     },
     {
       "name": "Kruispoort",
@@ -2622,7 +2672,8 @@
       "id": "lebowski-bar",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/brugge/lebowski-bar.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "area_en": "Center"
     },
     {
       "name": "Li O Lait",
@@ -2646,7 +2697,8 @@
       "id": "li-o-lait",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/brugge/li-o-lait.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "area_en": "Center"
     },
     {
       "name": "Lissewege",
@@ -2742,7 +2794,8 @@
       "id": "h-magdalenakerk",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/brugge/h-magdalenakerk.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "area_en": "Center"
     },
     {
       "name": "Maze of Loppem",
@@ -2790,7 +2843,8 @@
       "id": "meebrug",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/brugge/meebrug.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "area_en": "Center"
     },
     {
       "name": "Minnewater Bridge",
@@ -2838,7 +2892,8 @@
       "id": "salvador-dali-exhibition",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/brugge/salvador-dali-exhibition.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "area_en": "Center"
     },
     {
       "name": "One Restaurant",
@@ -2862,7 +2917,8 @@
       "id": "one-restaurant",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/brugge/one-restaurant.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "area_en": "Center"
     },
     {
       "name": "Onze-Lieve-Vrouw-ter-Potterie",
@@ -2934,7 +2990,8 @@
       "id": "otto-waffle-atelier",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/brugge/otto-waffle-atelier.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "area_en": "Center"
     },
     {
       "name": "Oyya Waffles",
@@ -2958,7 +3015,8 @@
       "id": "oyya-waffles",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/brugge/oyya-waffles.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "area_en": "Center"
     },
     {
       "name": "Park Restaurant",
@@ -2982,7 +3040,8 @@
       "id": "park-restaurant",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/brugge/park-restaurant.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "area_en": "Center"
     },
     {
       "name": "Park Sebrechts",
@@ -3006,7 +3065,8 @@
       "id": "sebrechts-park",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/brugge/sebrechts-park.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "area_en": "Center"
     },
     {
       "name": "Peerdenbrug",
@@ -3030,7 +3090,8 @@
       "id": "horse-bridge",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/brugge/horse-bridge.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "area_en": "Center"
     },
     {
       "name": "Permeke Museum",
@@ -3078,7 +3139,8 @@
       "id": "pomperlut",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/brugge/pomperlut.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "area_en": "Center"
     },
     {
       "name": "Poortersloge",
@@ -3102,7 +3164,8 @@
       "id": "burghers-lodge",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/brugge/burghers-lodge.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "area_en": "Center"
     },
     {
       "name": "Potterierei",
@@ -3174,7 +3237,8 @@
       "id": "provincial-court",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/brugge/provincial-court.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "area_en": "Center"
     },
     {
       "name": "Reliva",
@@ -3246,7 +3310,8 @@
       "id": "rock-fort",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/brugge/rock-fort.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "area_en": "Center"
     },
     {
       "name": "Rococo Lace",
@@ -3270,7 +3335,8 @@
       "id": "rococo-lace",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/brugge/rococo-lace.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "area_en": "Center"
     },
     {
       "name": "Rozenhoedkaai",
@@ -3361,7 +3427,8 @@
       "id": "sanseveria-bagel-salon",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/brugge/sanseveria-bagel-salon.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "area_en": "Center"
     },
     {
       "name": "Sashuis",
@@ -3505,7 +3572,8 @@
       "id": "simon-stevin-square",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/brugge/simon-stevin-square.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "area_en": "Center"
     },
     {
       "name": "Sint-Janshospitaal",
@@ -3529,7 +3597,8 @@
       "id": "sint-janshospitaal",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/brugge/sint-janshospitaal.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "area_en": "Center"
     },
     {
       "name": "Sint-Janshuis Mill",
@@ -3699,7 +3768,8 @@
       "id": "minstrels-canal",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/brugge/minstrels-canal.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "area_en": "Center"
     },
     {
       "name": "Spegelaere Chocolatier",
@@ -3747,7 +3817,8 @@
       "id": "mirror-canal",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/brugge/mirror-canal.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "area_en": "Center"
     },
     {
       "name": "St Salvator's Cathedral",
@@ -3819,7 +3890,8 @@
       "id": "sint-gilliskerk",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/brugge/sint-gilliskerk.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "area_en": "Center"
     },
     {
       "name": "St. Walburga Church",
@@ -3843,7 +3915,8 @@
       "id": "sint-walburgakerk",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/brugge/sint-walburgakerk.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "area_en": "Center"
     },
     {
       "name": "Stadhuis van Brugge",
@@ -3959,7 +4032,8 @@
       "id": "the-chocolate-line",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/brugge/the-chocolate-line.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "area_en": "Center"
     },
     {
       "name": "The Monk",
@@ -3983,7 +4057,8 @@
       "id": "the-monk",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/brugge/the-monk.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "area_en": "Center"
     },
     {
       "name": "The Old Chocolate House",
@@ -4029,7 +4104,8 @@
       "id": "the-olive-tree",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/brugge/the-olive-tree.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "area_en": "Center"
     },
     {
       "name": "The Potato Bar",
@@ -4053,7 +4129,8 @@
       "id": "the-potato-bar",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/brugge/the-potato-bar.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "area_en": "Center"
     },
     {
       "name": "Tillegembos",
@@ -4101,7 +4178,8 @@
       "id": "torture-museum-oude-steen",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/brugge/torture-museum-oude-steen.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "area_en": "Center"
     },
     {
       "name": "Tudor Castle",
@@ -4221,7 +4299,8 @@
       "id": "fish-market",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/brugge/fish-market.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "area_en": "Center"
     },
     {
       "name": "Vlissinghe",
@@ -4290,7 +4369,8 @@
       "id": "walplein-square",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/brugge/walplein-square.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "area_en": "Center"
     },
     {
       "name": "Wijngaardplein",
@@ -4360,7 +4440,8 @@
       "id": "yesterdays-world",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/brugge/yesterdays-world.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "area_en": "Center"
     },
     {
       "name": "Zeebrugge Beach",
@@ -4411,5 +4492,7 @@
       "distanceFromCenter": 0.5
     }
   ],
-  "heroImage": "https://gezimanya.com/sites/default/files/styles/800x600_/public/lokasyon-detay/2021-08/brugge-hakkinda-bilinmesi-gerekenler.jpg"
+  "heroImage": "https://gezimanya.com/sites/default/files/styles/800x600_/public/lokasyon-detay/2021-08/brugge-hakkinda-bilinmesi-gerekenler.jpg",
+  "city_en": "Bruges",
+  "country_en": "Belgium"
 }

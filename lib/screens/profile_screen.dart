@@ -115,6 +115,7 @@ class _ProfileScreenState extends State<ProfileScreen>
     _memoryService.initialize();
     
     TripUpdateService().visitUpdated.addListener(_onVisitUpdated);
+    TripUpdateService().favoritesUpdated.addListener(_loadData);
     _badgeService.badgesNotifier.addListener(_onBadgesUpdated);
     _memoryService.memoriesNotifier.addListener(_onMemoriesUpdated);
   }
@@ -149,6 +150,7 @@ class _ProfileScreenState extends State<ProfileScreen>
   void dispose() {
     TripUpdateService().visitUpdated.removeListener(_onVisitUpdated);
     TripUpdateService().tripUpdated.removeListener(_loadData);
+    TripUpdateService().favoritesUpdated.removeListener(_loadData);
     _tabController.dispose();
     _scrollController.dispose();
     super.dispose();
@@ -511,7 +513,9 @@ class _ProfileScreenState extends State<ProfileScreen>
                                 borderRadius: BorderRadius.circular(40),
                                 child: Center(
                                   child: Text(
-                                    _userName.isNotEmpty ? _userName[0].toUpperCase() : "G",
+                                    _userName.isNotEmpty 
+                                        ? _userName[0].toUpperCase() 
+                                        : (isEnglish ? "E" : "G"),
                                     style: const TextStyle(
                                       color: textWhite,
                                       fontSize: 32,
@@ -1650,7 +1654,7 @@ class _ProfileScreenState extends State<ProfileScreen>
                     overflow: TextOverflow.ellipsis,
                   ),
                   const SizedBox(height: 4),
-                  Text(place.area.isNotEmpty ? place.area : (place.city ?? ""), style: const TextStyle(color: textGrey, fontSize: 12)),
+                  Text(place.getLocalizedArea(AppLocalizations.instance.isEnglish).isNotEmpty ? place.getLocalizedArea(AppLocalizations.instance.isEnglish) : (place.city ?? ""), style: const TextStyle(color: textGrey, fontSize: 12)),
                 ],
               ),
             ),
@@ -1821,8 +1825,21 @@ class _ProfileScreenState extends State<ProfileScreen>
                       await launchUrl(url);
                     }
                   },
-                  showDivider: false,
+                  showDivider: true,
                 ),
+
+                // Manage Subscription (Visible if Premium)
+                if (PremiumService.instance.hasFullAccess)
+                  _buildSettingsItem(
+                    icon: Icons.card_membership_rounded,
+                    title: AppLocalizations.instance.manageSubscription,
+                    trailing: const Icon(Icons.chevron_right, color: textGrey, size: 20),
+                    onTap: () {
+                      HapticFeedback.mediumImpact();
+                      PremiumService.instance.manageSubscription();
+                    },
+                    showDivider: false,
+                  ),
               ],
             ),
           ),
@@ -2097,10 +2114,10 @@ class _ProfileScreenState extends State<ProfileScreen>
                         child: const Icon(Icons.tune, color: Colors.white, size: 22),
                       ),
                       const SizedBox(width: 14),
-                      const Expanded(
+                      Expanded(
                         child: Text(
-                          "Tercihlerini Düzenle",
-                          style: TextStyle(color: textWhite, fontSize: 20, fontWeight: FontWeight.w700),
+                          AppLocalizations.instance.editPreferences,
+                          style: const TextStyle(color: textWhite, fontSize: 20, fontWeight: FontWeight.w700),
                         ),
                       ),
                       GestureDetector(
@@ -2229,7 +2246,7 @@ class _ProfileScreenState extends State<ProfileScreen>
                         // Budget
                         _preferenceSection(
                           icon: Icons.account_balance_wallet,
-                          title: "Bütçe Tercihi",
+                          title: AppLocalizations.instance.budgetPreference,
                           child: Row(
                             children: ["Ekonomik", "Dengeli", "Premium"].map((budget) {
                               final isSelected = budgetLevel == budget;
@@ -2245,7 +2262,7 @@ class _ProfileScreenState extends State<ProfileScreen>
                                       border: Border.all(color: isSelected ? accent : borderColor),
                                     ),
                                     child: Center(
-                                      child: Text(budget, style: TextStyle(color: isSelected ? Colors.white : textGrey, fontWeight: FontWeight.w500, fontSize: 13)),
+                                      child: Text(AppLocalizations.instance.translateBudgetLevel(budget), style: TextStyle(color: isSelected ? Colors.white : textGrey, fontWeight: FontWeight.w500, fontSize: 13)),
                                     ),
                                   ),
                                 ),
@@ -2253,42 +2270,7 @@ class _ProfileScreenState extends State<ProfileScreen>
                             }).toList(),
                           ),
                         ),
-                        const SizedBox(height: 16),
 
-                        // Tutorial Reset
-                        _preferenceSection(
-                          icon: Icons.lightbulb_outline,
-                          title: "Tutorial",
-                          child: GestureDetector(
-                            onTap: () async {
-                              await TutorialService.instance.resetAllTutorials();
-                              if (mounted) {
-                                Navigator.pop(context);
-                                ScaffoldMessenger.of(context).showSnackBar(
-                                  const SnackBar(
-                                    content: Text("Tutoriallar sıfırlandı. Ekranları tekrar ziyaret ettiğinizde göreceksiniz."),
-                                    backgroundColor: accent,
-                                  ),
-                                );
-                              }
-                            },
-                            child: Container(
-                              width: double.infinity,
-                              padding: const EdgeInsets.symmetric(vertical: 14),
-                              decoration: BoxDecoration(
-                                color: bgCard,
-                                borderRadius: BorderRadius.circular(12),
-                                border: Border.all(color: borderColor),
-                              ),
-                              child: const Center(
-                                child: Text(
-                                  "Tutorialları Tekrar Aç", 
-                                  style: TextStyle(color: textWhite, fontWeight: FontWeight.w500, fontSize: 13),
-                                ),
-                              ),
-                            ),
-                          ),
-                        ),
                         const SizedBox(height: 30),
                       ],
                     ),
@@ -2316,7 +2298,7 @@ class _ProfileScreenState extends State<ProfileScreen>
                         _loadData();
                         ScaffoldMessenger.of(context).showSnackBar(
                           SnackBar(
-                            content: const Text("Tercihler kaydedildi!"),
+                            content: Text(AppLocalizations.instance.preferencesSavedMessage),
                             backgroundColor: bgCardLight,
                             behavior: SnackBarBehavior.floating,
                             duration: const Duration(milliseconds: 1200),

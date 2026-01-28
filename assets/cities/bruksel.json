@@ -70,7 +70,8 @@
       "tips": "Ziyaret öncesi saatleri kontrol edin.",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bruksel/asterix-and-obelix-mural.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "area_en": "Center"
     },
     {
       "name": "Atomium",
@@ -113,7 +114,8 @@
       "tips": "Ziyaret öncesi saatleri kontrol edin.",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bruksel/au-bon-vieux-temps.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "area_en": "Center"
     },
     {
       "name": "Autoworld",
@@ -161,7 +163,8 @@
       "id": "aux-merveilleux-de-fred",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bruksel/aux-merveilleux-de-fred.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "area_en": "Center"
     },
     {
       "name": "Ballekes",
@@ -302,7 +305,8 @@
       "tips": "Ziyaret öncesi saatleri kontrol edin.",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bruksel/bip-bip-_road-runner_-statue.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "area_en": "Center"
     },
     {
       "name": "Black Tower (Tour Noire)",
@@ -482,7 +486,8 @@
       "tips": "Ziyaret öncesi saatleri kontrol edin.",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bruksel/cafe-capitale.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "area_en": "Center"
     },
     {
       "name": "Caméléon",
@@ -521,7 +526,8 @@
       "tips": "Ziyaret öncesi saatleri kontrol edin.",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bruksel/cathedral-of-st-michael-and-st-gudula.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "area_en": "Center"
     },
     {
       "name": "Chez Léon",
@@ -545,7 +551,8 @@
       "id": "chez-leon",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bruksel/chez-leon.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "area_en": "Center"
     },
     {
       "name": "Chez Richard",
@@ -585,7 +592,8 @@
       "tips": "Ziyaret öncesi saatleri kontrol edin.",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bruksel/choco-story-brussels.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "area_en": "Center"
     },
     {
       "name": "Church of Saint-Jacques-sur-Coudenberg",
@@ -630,7 +638,8 @@
       "id": "comic-art-museum",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bruksel/comic-art-museum.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "area_en": "Center"
     },
     {
       "name": "Comte de Flandre Metro Art",
@@ -669,7 +678,8 @@
       "tips": "Ziyaret öncesi saatleri kontrol edin.",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bruksel/corica-coffee-shop.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "area_en": "Center"
     },
     {
       "name": "Coudenberg Palace",
@@ -735,7 +745,8 @@
       "id": "delirium-cafe",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bruksel/delirium-cafe.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "area_en": "Center"
     },
     {
       "name": "Design Museum Brussels",
@@ -918,7 +929,8 @@
       "tips": "Ziyaret öncesi saatleri kontrol edin.",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bruksel/fashion-_-lace-museum.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "area_en": "Center"
     },
     {
       "name": "Filigranes",
@@ -1002,7 +1014,8 @@
       "tips": "Ziyaret öncesi saatleri kontrol edin.",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bruksel/frank.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "area_en": "Center"
     },
     {
       "name": "Frederic Blondeel",
@@ -1092,7 +1105,8 @@
       "id": "galeries-royales-saint-hubert",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bruksel/galeries-royales-saint-hubert.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "area_en": "Center"
     },
     {
       "name": "GardeRobe MannekenPis",
@@ -1113,7 +1127,8 @@
       "tips": "Ziyaret öncesi saatleri kontrol edin.",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bruksel/garderobe-mannekenpis.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "area_en": "Center"
     },
     {
       "name": "Gaston",
@@ -1153,7 +1168,8 @@
       "tips": "Ziyaret öncesi saatleri kontrol edin.",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bruksel/gaston-lagaffe-mural.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "area_en": "Center"
     },
     {
       "name": "Gaston Lagaffe Statue",
@@ -1172,7 +1188,8 @@
       "tips": "Ziyaret öncesi saatleri kontrol edin.",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bruksel/gaston-lagaffe-statue.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "area_en": "Center"
     },
     {
       "name": "Gile Jourdan Mural",
@@ -1209,7 +1226,8 @@
       "tips": "Ziyaret öncesi saatleri kontrol edin.",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bruksel/goupil-le-fol.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "area_en": "Center"
     },
     {
       "name": "Grand Place",
@@ -1233,7 +1251,8 @@
       "id": "grand-place",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bruksel/grand_place.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "area_en": "Center"
     },
     {
       "name": "Halle Gate",
@@ -1619,7 +1638,8 @@
       "tips": "Ziyaret öncesi saatleri kontrol edin.",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bruksel/kinky-and-cosy-mural.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "area_en": "Center"
     },
     {
       "name": "Koko Bill Mural",
@@ -1733,7 +1753,8 @@
       "tips": "Ziyaret öncesi saatleri kontrol edin.",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bruksel/la-porte-noire.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "area_en": "Center"
     },
     {
       "name": "Laurent Gerbaud Chocolatier",
@@ -1757,7 +1778,8 @@
       "id": "laurent-gerbaud-chocolatier",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bruksel/laurent-gerbaud-chocolatier.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "area_en": "Center"
     },
     {
       "name": "Le Chat Mural",
@@ -1883,7 +1905,8 @@
       "description_en": "A Belle Époque brasserie where time has stopped with unchanged wooden tables and chairs, mirrors and brass accents since 1910. Their namesake 'Mort Subite' (Sudden Death) lambic beer is produced here. A legendary spot also frequented by Jacques Brel.",
       "tips_en": "Drink their own beer 'Mort Subite' (Sudden Death).",
       "lat": 50.849,
-      "lng": 4.3575
+      "lng": 4.3575,
+      "area_en": "Center"
     },
     {
       "name": "Le Pré Salé",
@@ -1978,7 +2001,8 @@
       "tips": "Ziyaret öncesi saatleri kontrol edin.",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bruksel/lucky-luke-mural.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "area_en": "Center"
     },
     {
       "name": "MOK Coffee Dansaert",
@@ -2018,7 +2042,8 @@
       "tips": "Ziyaret öncesi saatleri kontrol edin.",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bruksel/madame-chapeau-statue.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "area_en": "Center"
     },
     {
       "name": "Magritte Museum",
@@ -2186,7 +2211,8 @@
       "tips": "Ziyaret öncesi saatleri kontrol edin.",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bruksel/manhattns-burgers.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "area_en": "Center"
     },
     {
       "name": "Manneken Pis",
@@ -2210,7 +2236,8 @@
       "id": "manneken-pis",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bruksel/manneken-pis.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "area_en": "Center"
     },
     {
       "name": "Marché du Midi",
@@ -2396,7 +2423,8 @@
       "tips": "Ziyaret öncesi saatleri kontrol edin.",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bruksel/monsieur-jean-mural.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "area_en": "Center"
     },
     {
       "name": "Mont des Arts",
@@ -2420,7 +2448,8 @@
       "id": "mont-des-arts",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bruksel/mont-des-arts.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "area_en": "Center"
     },
     {
       "name": "Monument to the Dynasty",
@@ -2586,7 +2615,8 @@
       "id": "neuhaus-chocolates---galerie-de-la-reine",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bruksel/neuhaus-chocolates---galerie-de-la-reine.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "area_en": "Center"
     },
     {
       "name": "Nona Pizza",
@@ -2671,7 +2701,8 @@
       "tips": "Ziyaret öncesi saatleri kontrol edin.",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bruksel/nuetnigenough.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "area_en": "Center"
     },
     {
       "name": "OR Coffee",
@@ -2692,7 +2723,8 @@
       "tips": "Ziyaret öncesi saatleri kontrol edin.",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bruksel/or-coffee.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "area_en": "Center"
     },
     {
       "name": "Odilon Verjus Mural",
@@ -2731,7 +2763,8 @@
       "tips": "Ziyaret öncesi saatleri kontrol edin.",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bruksel/old-city-wall.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "area_en": "Center"
     },
     {
       "name": "Pannenhuis Metro Station",
@@ -2854,7 +2887,8 @@
       "tips": "Ziyaret öncesi saatleri kontrol edin.",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bruksel/passage-du-nord.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "area_en": "Center"
     },
     {
       "name": "Passe-Moi L'Ciel Mural",
@@ -2896,7 +2930,8 @@
       "id": "peck-47",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bruksel/peck-47.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "area_en": "Center"
     },
     {
       "name": "Pierre Marcolini",
@@ -3015,7 +3050,8 @@
       "tips": "Ziyaret öncesi saatleri kontrol edin.",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bruksel/place-saint-gery.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "area_en": "Center"
     },
     {
       "name": "Place Sainte-Catherine",
@@ -3101,7 +3137,8 @@
       "tips": "Ziyaret öncesi saatleri kontrol edin.",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bruksel/poechenellekelder.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "area_en": "Center"
     },
     {
       "name": "Porte de Hal Metro Art",
@@ -3174,7 +3211,8 @@
       "tips": "Ziyaret öncesi saatleri kontrol edin.",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bruksel/ric-hochet-mural.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "area_en": "Center"
     },
     {
       "name": "Rob The Gourmets' Market",
@@ -3319,7 +3357,8 @@
       "tips": "Ziyaret öncesi saatleri kontrol edin.",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bruksel/smurfs-mural-_putterie_.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "area_en": "Center"
     },
     {
       "name": "Spike and Suzy Mural (Bob et Bobette)",
@@ -3420,7 +3459,8 @@
       "id": "st.-michael-and-st.-gudula-cathedral",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bruksel/st_-michael-and-st_-gudula-cathedral.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "area_en": "Center"
     },
     {
       "name": "Statue of Brabant",
@@ -3520,7 +3560,8 @@
       "tips": "Ziyaret öncesi saatleri kontrol edin.",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bruksel/thorgal-mural.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "area_en": "Center"
     },
     {
       "name": "Tintin Comic Mural",
@@ -3544,7 +3585,8 @@
       "id": "tintin-comic-mural",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bruksel/tintin-comic-mural.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "area_en": "Center"
     },
     {
       "name": "Tintin and Captain Haddock Mural",
@@ -3563,7 +3605,8 @@
       "tips": "Ziyaret öncesi saatleri kontrol edin.",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bruksel/tintin-and-captain-haddock-mural.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "area_en": "Center"
     },
     {
       "name": "Train World",
@@ -3624,7 +3667,8 @@
       "tips": "Ziyaret öncesi saatleri kontrol edin.",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bruksel/victor-sackville-mural.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "area_en": "Center"
     },
     {
       "name": "Walvis",
@@ -3664,7 +3708,8 @@
       "tips": "Ziyaret öncesi saatleri kontrol edin.",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bruksel/wolf-sharing-food-market.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "area_en": "Center"
     },
     {
       "name": "Woluwe Shopping Center",
@@ -3701,7 +3746,8 @@
       "tips": "Ziyaret öncesi saatleri kontrol edin.",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bruksel/xiii-mural.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "area_en": "Center"
     },
     {
       "name": "Yi Chan",
@@ -3739,7 +3785,8 @@
       "tips": "Ziyaret öncesi saatleri kontrol edin.",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bruksel/yoko-tsuno-mural.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "area_en": "Center"
     },
     {
       "name": "Zinneke Pis",

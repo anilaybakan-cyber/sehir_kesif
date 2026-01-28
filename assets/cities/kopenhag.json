@@ -4829,6 +4829,32 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kopenhag/osterbrogade.jpg",
       "source": "firebase",
       "id": "osterbrogade"
+    },
+    {
+      "name": "Noma",
+      "name_en": "Noma",
+      "area": "Refshaleøen",
+      "category": "Yeme-İçme",
+      "tags": [
+        "michelin",
+        "gastronomi",
+        "nordic",
+        "efsane"
+      ],
+      "distanceFromCenter": 3.5,
+      "lat": 55.683,
+      "lng": 12.61,
+      "price": "luxury",
+      "rating": 4.9,
+      "description": "Dünyanın en iyi restoranı seçilen, Yeni İskandinav Mutfağı'nın öncüsü. Seraların ortasında, mevsimsel ve deneysel tadım menüleri sunar (Rezervasyon aylar öncesinden gerekir).",
+      "description_en": "Voted world's best restaurant, pioneer of New Nordic Cuisine. Offers seasonal and experimental tasting menus amidst greenhouses (Reservations required months in advance).",
+      "bestTime": "Akşam",
+      "bestTime_en": "Evening",
+      "imageUrl": "https://images.adsttc.com/media/images/5b9a/6a8c/f197/cc55/1d00/017c/large_jpg/02_Noma_-_Rasmus_Hjortshoj.jpg",
+      "source": "google",
+      "id": "noma"
     }
-  ]
+  ],
+  "city_en": "Copenhagen",
+  "country_en": "Denmark"
 }

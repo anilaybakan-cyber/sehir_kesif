@@ -467,7 +467,8 @@
       "bestTime": "Güneşli gün",
       "bestTime_en": "Sunny day",
       "tips": "Sabah koşusu veya yoga yapan yerlileri görebilirsiniz.",
-      "tips_en": "You can see locals jogging or doing yoga in the morning."
+      "tips_en": "You can see locals jogging or doing yoga in the morning.",
+      "area_en": "Bray (Day Trip)"
     },
     {
       "id": "gen_ChIJAxDcpo0PZ0gRS2ovWTPVhq8",
@@ -1007,7 +1008,8 @@
       "bestTime": "Öğle",
       "bestTime_en": "Lunch",
       "tips": "Biletinizi online alarak gişe sırasından kurtulun.",
-      "tips_en": "Buy tickets online to skip the box office line."
+      "tips_en": "Buy tickets online to skip the box office line.",
+      "area_en": "Dalkey (Day Trip)"
     },
     {
       "id": "gen_ChIJFYr86CcMZ0gRV0f-OELulf8",
@@ -1163,7 +1165,8 @@
       "bestTime": "Pazar öğleden sonra",
       "bestTime_en": "Sunday afternoon",
       "tips": "Kıyafetinizin aktiviteye uygun olduğundan emin olun.",
-      "tips_en": "Ensure your outfit is suitable for the activity."
+      "tips_en": "Ensure your outfit is suitable for the activity.",
+      "area_en": "Dun Laoghaire (Day Trip)"
     },
     {
       "name": "EPIC The Irish Emigration Museum",
@@ -1578,7 +1581,8 @@
       "bestTime": "Tüm gün",
       "bestTime_en": "Full day",
       "tips": "Güneş kremi ve şapka almayı unutmayın.",
-      "tips_en": "Don't forget sunscreen and a hat."
+      "tips_en": "Don't forget sunscreen and a hat.",
+      "area_en": "Wicklow (Day Trip)"
     },
     {
       "id": "gen_ChIJnzE5E0sPZ0gRjNWjd1DkvpI",
@@ -1739,6 +1743,28 @@
       "tips_en": "Visiting on weekdays offers a calmer experience."
     },
     {
+      "name": "Famine Memorial",
+      "name_en": "Famine Memorial",
+      "area": "Docklands",
+      "category": "Tarihi",
+      "tags": [
+        "anıt",
+        "tarih",
+        "heykel",
+        "nehir"
+      ],
+      "distanceFromCenter": 1.2,
+      "lat": 53.3480,
+      "lng": -6.2501,
+      "price": "free",
+      "rating": 4.7,
+      "description": "Liffey Nehri kıyısında yer alan, İrlanda'nın Büyük Kıtlık dönemini (1845-1849) anan sarsıcı bronz heykeller. Limana doğru yürüyen zayıf düşmüş figürler, Dublin'in en duygusal ve etkileyici anıtlarından biridir.",
+      "description_en": "Searing bronze sculptures on the banks of the River Liffey, commemorating the Great Famine (1845-1849). These life-size figures walking towards the docks form one of Dublin's most moving memorials.",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Famine_Memorial_Dublin.jpg/1280px-Famine_Memorial_Dublin.jpg",
+      "tips": "Heykellerin yanındaki 'Jeanie Johnston' kıtlık gemisini de ziyaret edebilirsiniz.",
+      "tips_en": "You can also visit the 'Jeanie Johnston' famine ship located nearby."
+    },
+    {
       "name": "Guinness Storehouse",
       "area": "St James's Gate",
       "category": "Deneyim",
@@ -1851,7 +1877,8 @@
       "bestTime_en": "Sunny day",
       "tips": "Fotoğraf makinenizin şarjının dolu olduğundan emin olun.",
       "tips_en": "Make sure your camera battery is full.",
-      "name_en": "Howth Market"
+      "name_en": "Howth Market",
+      "area_en": "Howth (Day Trip)"
     },
     {
       "name": "Howth Cliff Walk",
@@ -2580,7 +2607,8 @@
       "bestTime": "Sabah",
       "bestTime_en": "Morning",
       "tips": "Fotoğraf çekimi için en iyi ışık gün batımına yakındır.",
-      "tips_en": "Best light for photography is near sunset."
+      "tips_en": "Best light for photography is near sunset.",
+      "area_en": "Malahide (Day Trip)"
     },
     {
       "id": "gen_ChIJ32qpLkkPZ0gRIoI3RP_roc4",

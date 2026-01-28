@@ -554,7 +554,7 @@ class _OnboardingScreenState extends State<OnboardingScreen>
           },
           child: Center(
             child: Text(
-              "FIND YOUR OWN PATH",
+              AppLocalizations.instance.onboardingTagline.toUpperCase(),
               style: GoogleFonts.poppins(
                 color: Colors.white,
                 fontSize: 12,
@@ -605,11 +605,11 @@ class _OnboardingScreenState extends State<OnboardingScreen>
         Row(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Expanded(child: _dayCard("1-2", AppLocalizations.instance.t('Gün', 'Days'), Icons.weekend_rounded, _tripDays <= 2, () => setState(() => _tripDays = 2))),
+            Expanded(child: _dayCard("1-2", AppLocalizations.instance.days, Icons.weekend_rounded, _tripDays <= 2, () => setState(() => _tripDays = 2))),
             const SizedBox(width: 12),
-            Expanded(child: _dayCard("3-5", AppLocalizations.instance.t('Gün', 'Days'), Icons.calendar_today_rounded, _tripDays >= 3 && _tripDays <= 5, () => setState(() => _tripDays = 4))),
+            Expanded(child: _dayCard("3-5", AppLocalizations.instance.days, Icons.calendar_today_rounded, _tripDays >= 3 && _tripDays <= 5, () => setState(() => _tripDays = 4))),
             const SizedBox(width: 12),
-            Expanded(child: _dayCard("7+", AppLocalizations.instance.t('Gün', 'Days'), Icons.date_range_rounded, _tripDays > 5, () => setState(() => _tripDays = 7))),
+            Expanded(child: _dayCard("7+", AppLocalizations.instance.days, Icons.date_range_rounded, _tripDays > 5, () => setState(() => _tripDays = 7))),
           ],
         ),
         const SizedBox(height: 30),
@@ -875,7 +875,7 @@ class _OnboardingScreenState extends State<OnboardingScreen>
   }
 
   Widget _walkSlider({required bool isActive}) {
-    final labels = ["Hafif", "Normal", "Aktif", "Sporcu"];
+    // final labels = ["Hafif", "Normal", "Aktif", "Sporcu"];
 
     return AnimatedOpacity(
       duration: const Duration(milliseconds: 300),
@@ -909,7 +909,7 @@ class _OnboardingScreenState extends State<OnboardingScreen>
                     borderRadius: BorderRadius.circular(8),
                   ),
                   child: Text(
-                    labels[_walkingLevel],
+                    AppLocalizations.instance.translateWalkingLevel(_walkingLevel),
                     style: GoogleFonts.poppins(
                       color: isActive ? Colors.white : Colors.white54,
                       fontSize: 12,

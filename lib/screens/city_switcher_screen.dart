@@ -10,6 +10,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import '../services/trip_update_service.dart';
+import '../services/ai_service.dart';
 import '../l10n/app_localizations.dart';
 import '../theme/wanderlust_colors.dart';
 import 'dart:math'; // Added for random if needed, but using microsecond/millisecond logic is fine or import math
@@ -124,15 +125,27 @@ class _CitySwitcherModalState extends State<_CitySwitcherModal> {
   static const _accentLight = Color(0xFFFFB800); // Gold
   static const _textGrey = Color(0xFF9CA3AF);
 
-  // Alphabetical sort
-  final List<Map<String, dynamic>> _cities = List.from(CitySwitcherScreen.allCities)
-    ..sort((a, b) => (a["name"] as String).compareTo(b["name"] as String));
+  final List<Map<String, dynamic>> _cities = List.from(CitySwitcherScreen.allCities);
     
   final ScrollController _scrollController = ScrollController();
 
   @override
   void initState() {
     super.initState();
+    _loadSelectedCity();
+  }
+
+  @override
+  void didChangeDependencies() {
+    super.didChangeDependencies();
+    _initializeAndSortCities();
+  }
+
+  void _initializeAndSortCities() {
+    // Reset list from source
+    _cities.clear();
+    _cities.addAll(CitySwitcherScreen.allCities);
+
     // Add "Undecided" option at the top
     _cities.insert(0, {
       "id": "undecided",
@@ -141,7 +154,24 @@ class _CitySwitcherModalState extends State<_CitySwitcherModal> {
       "flag": "🌍",
       "networkImage": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=800",
     });
-    _loadSelectedCity();
+
+    // Sort remaining cities alphabetically based on current language
+    final isEnglish = AppLocalizations.instance.isEnglish;
+    
+    // Sort logic: Keep index 0 (undecided) at top, sort the rest
+    final undecided = _cities.first;
+    final others = _cities.sublist(1);
+    
+    others.sort((a, b) {
+       final nameA = isEnglish ? (a["name_en"] ?? a["name"]) : a["name"];
+       final nameB = isEnglish ? (b["name_en"] ?? b["name"]) : b["name"];
+       return (nameA as String).compareTo(nameB as String);
+    });
+    
+    // Reconstruct list
+    _cities.clear();
+    _cities.add(undecided);
+    _cities.addAll(others);
   }
 
   Future<void> _loadSelectedCity() async {
@@ -200,15 +230,12 @@ class _CitySwitcherModalState extends State<_CitySwitcherModal> {
     final bottomPadding = MediaQuery.of(context).padding.bottom;
 
     return Container(
-      constraints: BoxConstraints(
-        maxHeight: MediaQuery.of(context).size.height * 0.65,
-      ),
+      height: MediaQuery.of(context).size.height * 0.65,
       decoration: const BoxDecoration(
         color: _bgDark,
         borderRadius: BorderRadius.vertical(top: Radius.circular(28)),
       ),
       child: Column(
-        mainAxisSize: MainAxisSize.min,
         children: [
           // Handle bar
           Container(
@@ -292,10 +319,14 @@ class _CitySwitcherModalState extends State<_CitySwitcherModal> {
             child: Builder(
               builder: (context) {
                 // Filtreleme
+                final isEnglish = AppLocalizations.instance.isEnglish;
                 final filteredCities = _cities.where((city) {
                   if (_searchQuery.isEmpty) return true;
-                  final name = city["name"].toString().toLowerCase();
-                  final country = city["country"].toString().toLowerCase();
+                  
+                  // Dile göre arama (Sadece seçili dilin ismini ve ülkesini kontrol et)
+                  final name = (isEnglish ? (city["name_en"] ?? city["name"]) : city["name"]).toString().toLowerCase();
+                  final country = (isEnglish ? (city["country_en"] ?? city["country"]) : city["country"]).toString().toLowerCase();
+                  
                   return name.contains(_searchQuery) || country.contains(_searchQuery);
                 }).toList();
 
@@ -317,7 +348,7 @@ class _CitySwitcherModalState extends State<_CitySwitcherModal> {
 
                 return ListView.builder(
                   controller: _scrollController,
-                  shrinkWrap: true,
+                  // shrinkWrap removed to allow filling the expanded space
                   padding: EdgeInsets.fromLTRB(16, 4, 16, bottomPadding + 16),
                   itemCount: filteredCities.length,
                   itemBuilder: (context, index) {
@@ -358,7 +389,9 @@ class _CitySwitcherModalState extends State<_CitySwitcherModal> {
                 width: 56,
                 height: 56,
                 child: Image.network(
-                  city["networkImage"],
+                  city["id"] == "undecided" 
+                      ? city["networkImage"] 
+                      : AIService.getCityImage(city["id"]),
                   fit: BoxFit.cover,
                   errorBuilder: (context, error, stackTrace) {
                     return Container(
@@ -515,12 +548,24 @@ class _CitySwitcherFullPageState extends State<_CitySwitcherFullPage> {
   static const _textGrey = Color(0xFF9CA3AF);
 
   // Alphabetically sorted city list
-  final List<Map<String, dynamic>> _cities = List.from(CitySwitcherScreen.allCities)
-    ..sort((a, b) => (a["name"] as String).compareTo(b["name"] as String));
+  final List<Map<String, dynamic>> _cities = List.from(CitySwitcherScreen.allCities);
 
   @override
   void initState() {
     super.initState();
+  }
+
+  @override
+  void didChangeDependencies() {
+    super.didChangeDependencies();
+    _initializeAndSortCities();
+  }
+
+  void _initializeAndSortCities() {
+    // Reset list from source
+    _cities.clear();
+    _cities.addAll(CitySwitcherScreen.allCities);
+
     // Add "Undecided" option at the top
     _cities.insert(0, {
       "id": "undecided",
@@ -529,6 +574,24 @@ class _CitySwitcherFullPageState extends State<_CitySwitcherFullPage> {
       "flag": "🌍",
       "networkImage": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=800", // Inspirational travel image
     });
+
+    // Sort remaining cities alphabetically based on current language
+    final isEnglish = AppLocalizations.instance.isEnglish;
+    
+    // Sort logic
+    final undecided = _cities.first;
+    final others = _cities.sublist(1);
+    
+    others.sort((a, b) {
+       final nameA = isEnglish ? (a["name_en"] ?? a["name"]) : a["name"];
+       final nameB = isEnglish ? (b["name_en"] ?? b["name"]) : b["name"];
+       return (nameA as String).compareTo(nameB as String);
+    });
+    
+    // Reconstruct list
+    _cities.clear();
+    _cities.add(undecided);
+    _cities.addAll(others);
   }
 
   Future<void> _selectCity(String cityId) async {
@@ -650,7 +713,9 @@ class _CitySwitcherFullPageState extends State<_CitySwitcherFullPage> {
                           ClipRRect(
                             borderRadius: BorderRadius.circular(12),
                             child: Image.network(
-                              city["networkImage"],
+                              city["id"] == "undecided" 
+                                  ? city["networkImage"] 
+                                  : AIService.getCityImage(city["id"]),
                               width: 60,
                               height: 60,
                               fit: BoxFit.cover,
@@ -671,7 +736,9 @@ class _CitySwitcherFullPageState extends State<_CitySwitcherFullPage> {
                                 Text(
                                   city["id"] == "undecided" 
                                       ? AppLocalizations.instance.undecidedCity 
-                                      : city["name"],
+                                      : (AppLocalizations.instance.isEnglish && city["name_en"] != null 
+                                          ? city["name_en"] 
+                                          : city["name"]),
                                   style: TextStyle(
                                     color: isSelected ? _accent : Colors.white,
                                     fontSize: 17,
@@ -681,7 +748,9 @@ class _CitySwitcherFullPageState extends State<_CitySwitcherFullPage> {
                                 Text(
                                   city["id"] == "undecided" 
                                       ? AppLocalizations.instance.ourSuggestion
-                                      : AppLocalizations.instance.translateCountry(city["country"]),
+                                      : (AppLocalizations.instance.isEnglish && city["country_en"] != null
+                                          ? city["country_en"]
+                                          : AppLocalizations.instance.translateCountry(city["country"])),
                                   style: TextStyle(color: _textGrey, fontSize: 13),
                                 ),
                               ],

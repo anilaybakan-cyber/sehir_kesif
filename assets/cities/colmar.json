@@ -91,7 +91,8 @@
       "id": "ancienne-douane-koïfhus",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/colmar/ancienne_douane_kofhus.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "area_en": "Center"
     },
     {
       "name": "Au Chasseur",
@@ -1303,7 +1304,8 @@
       "id": "fortwenger",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/colmar/fortwenger.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "area_en": "Center"
     },
     {
       "name": "Four à Chaux",
@@ -1434,7 +1436,8 @@
       "id": "grand-rue",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/colmar/grand-rue.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "area_en": "Center"
     },
     {
       "name": "Grotte Saint-Vit",
@@ -1564,7 +1567,8 @@
       "id": "jadis-et-gourmande",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/colmar/jadis-et-gourmande.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "area_en": "Center"
     },
     {
       "name": "Japonais Nagoya",
@@ -2857,7 +2861,8 @@
       "id": "parc-du-champ-de-mars",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/colmar/parc-du-champ-de-mars.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "area_en": "Center"
     },
     {
       "name": "Parc du Petit Prince",
@@ -3028,7 +3033,8 @@
       "id": "place-des-dominicains",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/colmar/place-des-dominicains.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "area_en": "Center"
     },
     {
       "name": "Plan Incliné de Saint-Louis-Arzviller",
@@ -3650,7 +3656,8 @@
       "id": "sezanne",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/colmar/sezanne.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "area_en": "Center"
     },
     {
       "name": "Tanners' Quarter",
@@ -3864,7 +3871,8 @@
       "id": "vins-dalsace-robert-karcher",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/colmar/vins-dalsace-robert-karcher.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "area_en": "Center"
     },
     {
       "name": "Volerie des Aigles",
@@ -4073,5 +4081,7 @@
       "source": "firebase"
     }
   ],
-  "heroImage": "https://images.goway.com/production/hero/iStock-1423136049.jpg"
+  "heroImage": "https://images.goway.com/production/hero/iStock-1423136049.jpg",
+  "city_en": "Colmar",
+  "country_en": "France"
 }

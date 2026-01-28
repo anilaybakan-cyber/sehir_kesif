@@ -60,8 +60,8 @@
       "tips_en": "Visiting on weekdays offers a calmer experience."
     },
     {
-      "name": "Antibes (Günübirlik)",
-      "area": "Günübirlik",
+      "name": "Antibes",
+      "area": "Antibes",
       "category": "Deneyim",
       "tags": [
         "picasso",
@@ -79,7 +79,8 @@
       "bestTime": "Tüm gün",
       "bestTime_en": "Full day",
       "tips": "Kıyafetinizin aktiviteye uygun olduğundan emin olun.",
-      "tips_en": "Ensure your outfit is suitable for the activity."
+      "tips_en": "Ensure your outfit is suitable for the activity.",
+      "area_en": "Antibes"
     },
     {
       "id": "gen_ChIJNeUTL7razRIRoocN3gyw1cE",
@@ -219,7 +220,8 @@
       "bestTime": "Gündüz",
       "bestTime_en": "Daytime",
       "tips": "Yerel tasarımcıların ürünlerine göz atın.",
-      "tips_en": "Check out products from local designers."
+      "tips_en": "Check out products from local designers.",
+      "area_en": "Center"
     },
     {
       "id": "gen_ChIJ8R1r1ODbzRIR7jeJtaim4T8",
@@ -821,7 +823,7 @@
     },
     {
       "name": "Cannes, France",
-      "area": "Günübirlik",
+      "area": "Cannes",
       "category": "Deneyim",
       "tags": [
         "film festivali",
@@ -839,7 +841,8 @@
       "bestTime": "Tüm gün",
       "bestTime_en": "Full day",
       "tips": "Fotoğraf makinenizin şarjının dolu olduğundan emin olun.",
-      "tips_en": "Make sure your camera battery is full."
+      "tips_en": "Make sure your camera battery is full.",
+      "area_en": "Cannes"
     },
     {
       "id": "gen_ChIJeytrEZTbzRIReSUeCrpG0M0",
@@ -1655,7 +1658,8 @@
       "bestTime": "Öğle",
       "bestTime_en": "Lunch",
       "tips": "Hafta içi ziyaret etmek daha sakin bir deneyim sunar.",
-      "tips_en": "Visiting on weekdays offers a calmer experience."
+      "tips_en": "Visiting on weekdays offers a calmer experience.",
+      "area_en": "Coast"
     },
     {
       "name": "Hotel Negresco",
@@ -1677,7 +1681,8 @@
       "bestTime": "Akşam",
       "bestTime_en": "Evening",
       "tips": "Fotoğraf makinenizin şarjının dolu olduğundan emin olun.",
-      "tips_en": "Make sure your camera battery is full."
+      "tips_en": "Make sure your camera battery is full.",
+      "area_en": "Coast"
     },
     {
       "name": "Hôtel Le Negresco",
@@ -1822,7 +1827,8 @@
       "bestTime": "Gündüz",
       "bestTime_en": "Daytime",
       "tips": "Yanınıza bir örtü alıp çimlerde piknik yapabilirsiniz.",
-      "tips_en": "Bring a blanket and have a picnic on the grass."
+      "tips_en": "Bring a blanket and have a picnic on the grass.",
+      "area_en": "Center"
     },
     {
       "id": "gen_ChIJN9LW-YXRzRIR-DygnUqna0M",
@@ -2680,7 +2686,8 @@
       "bestTime": "Öğleden sonra",
       "bestTime_en": "Afternoon",
       "tips": "Çantanızı vestiyere bırakmanız gerekebilir, hazırlıklı olun.",
-      "tips_en": "You might need to leave bags at the cloakroom, be prepared."
+      "tips_en": "You might need to leave bags at the cloakroom, be prepared.",
+      "area_en": "Center"
     },
     {
       "id": "gen_ChIJGcVymFbbzRIRzeh_B98LKKc",
@@ -2922,8 +2929,8 @@
       "tips_en": "Entry might be free on some days, check the website."
     },
     {
-      "name": "Menton (Günübirlik)",
-      "area": "Günübirlik",
+      "name": "Menton",
+      "area": "Menton",
       "category": "Deneyim",
       "tags": [
         "limon",
@@ -2941,7 +2948,8 @@
       "bestTime": "Tüm gün",
       "bestTime_en": "Full day",
       "tips": "Grup indirimi olup olmadığını sorun.",
-      "tips_en": "Ask if there is a group discount."
+      "tips_en": "Ask if there is a group discount.",
+      "area_en": "Menton"
     },
     {
       "id": "gen_ChIJDbMywKTbzRIRgg-ZOE_QFp0",
@@ -2968,8 +2976,8 @@
       "tips_en": "Lunch menus are usually cheaper than dinner."
     },
     {
-      "name": "Monaco / Monte Carlo (Günübirlik)",
-      "area": "Günübirlik",
+      "name": "Monaco / Monte Carlo",
+      "area": "Monaco / Monte Carlo",
       "category": "Deneyim",
       "tags": [
         "lüks",
@@ -2987,7 +2995,8 @@
       "bestTime": "Tüm gün",
       "bestTime_en": "Full day",
       "tips": "Kıyafetinizin aktiviteye uygun olduğundan emin olun.",
-      "tips_en": "Ensure your outfit is suitable for the activity."
+      "tips_en": "Ensure your outfit is suitable for the activity.",
+      "area_en": "Monaco / Monte Carlo"
     },
     {
       "name": "Mont Boron",
@@ -3621,7 +3630,8 @@
       "bestTime": "Öğle yemeği",
       "bestTime_en": "Lunch",
       "tips": "Google Maps yorumlarına göz atarak ne yiyeceğinize karar verin.",
-      "tips_en": "Decide what to eat by checking Google Maps reviews."
+      "tips_en": "Decide what to eat by checking Google Maps reviews.",
+      "area_en": "Center"
     },
     {
       "name": "Place Masséna (Scribens)",
@@ -3927,7 +3937,8 @@
       "bestTime": "Gün batımı",
       "bestTime_en": "Sunset",
       "tips": "Akşam saatlerinde şehir ışıklarını izlemek çok romantik.",
-      "tips_en": "Watching city lights in the evening is very romantic."
+      "tips_en": "Watching city lights in the evening is very romantic.",
+      "area_en": "Coast"
     },
     {
       "name": "Promenade du Paillon",
@@ -3949,7 +3960,8 @@
       "bestTime": "Sıcak gün",
       "bestTime_en": "Hot day",
       "tips": "Sabah koşusu veya yoga yapan yerlileri görebilirsiniz.",
-      "tips_en": "You can see locals jogging or doing yoga in the morning."
+      "tips_en": "You can see locals jogging or doing yoga in the morning.",
+      "area_en": "Center"
     },
     {
       "id": "gen_ChIJKR8Dg8zbzRIRUtXOzfWt_PI",
@@ -4404,8 +4416,8 @@
       "tips_en": "One of the favorite spots of the locals."
     },
     {
-      "name": "Saint-Paul-de-Vence (Günübirlik)",
-      "area": "Günübirlik",
+      "name": "Saint-Paul-de-Vence",
+      "area": "Saint-Paul-de-Vence",
       "category": "Deneyim",
       "tags": [
         "sanat",
@@ -4423,7 +4435,8 @@
       "bestTime": "Öğleden sonra",
       "bestTime_en": "Afternoon",
       "tips": "Fotoğraf makinenizin şarjının dolu olduğundan emin olun.",
-      "tips_en": "Make sure your camera battery is full."
+      "tips_en": "Make sure your camera battery is full.",
+      "area_en": "Saint-Paul-de-Vence"
     },
     {
       "name": "Sentier de la Cascade (Gairaut)",
@@ -4828,8 +4841,8 @@
       "tips_en": "Bring a blanket and have a picnic on the grass."
     },
     {
-      "name": "Villa Ephrussi de Rothschild (Günübirlik)",
-      "area": "Günübirlik",
+      "name": "Villa Ephrussi de Rothschild",
+      "area": "Villa Ephrussi de Rothschild",
       "category": "Müze",
       "tags": [
         "villa",
@@ -4847,7 +4860,8 @@
       "bestTime": "Gündüz",
       "bestTime_en": "Daytime",
       "tips": "Biletinizi online alarak gişe sırasından kurtulun.",
-      "tips_en": "Buy tickets online to skip the box office line."
+      "tips_en": "Buy tickets online to skip the box office line.",
+      "area_en": "Villa Ephrussi de Rothschild"
     },
     {
       "name": "Villa Masséna",
@@ -4917,11 +4931,12 @@
       "bestTime": "Sabah",
       "bestTime_en": "Morning",
       "tips": "Sesli rehber (audio guide) kiralamak deneyimi ikiye katlar.",
-      "tips_en": "Renting an audio guide doubles the experience."
+      "tips_en": "Renting an audio guide doubles the experience.",
+      "area_en": "Coast"
     },
     {
-      "name": "Villefranche-sur-Mer (Günübirlik)",
-      "area": "Günübirlik",
+      "name": "Villefranche-sur-Mer",
+      "area": "Villefranche-sur-Mer",
       "category": "Deneyim",
       "tags": [
         "plaj",
@@ -4939,7 +4954,8 @@
       "bestTime": "Plaj günü",
       "bestTime_en": "Beach day",
       "tips": "Grup indirimi olup olmadığını sorun.",
-      "tips_en": "Ask if there is a group discount."
+      "tips_en": "Ask if there is a group discount.",
+      "area_en": "Villefranche-sur-Mer"
     },
     {
       "name": "Villefranche-sur-Mer Viewpoint",
@@ -5009,7 +5025,8 @@
       "bestTime": "Gün batımı",
       "bestTime_en": "Sunset",
       "tips": "Öğle yemeği menüleri genellikle akşamdan daha uygundur.",
-      "tips_en": "Lunch menus are usually cheaper than dinner."
+      "tips_en": "Lunch menus are usually cheaper than dinner.",
+      "area_en": "Coast"
     },
     {
       "name": "Wayne's Bar",
@@ -5202,8 +5219,8 @@
       "tips_en": "Lunch menus are usually cheaper than dinner."
     },
     {
-      "name": "Èze Village (Günübirlik)",
-      "area": "Günübirlik",
+      "name": "Èze Village",
+      "area": "Èze Village",
       "category": "Deneyim",
       "tags": [
         "ortaçağ",
@@ -5221,7 +5238,8 @@
       "bestTime": "Sabah erken",
       "bestTime_en": "Early morning",
       "tips": "Kıyafetinizin aktiviteye uygun olduğundan emin olun.",
-      "tips_en": "Ensure your outfit is suitable for the activity."
+      "tips_en": "Ensure your outfit is suitable for the activity.",
+      "area_en": "Èze Village"
     },
     {
       "id": "gen_ChIJM4pIxo_RzRIRwqwm5M_C2RE",

@@ -79,7 +79,8 @@
       "bestTime": "Gündüz",
       "bestTime_en": "Daytime",
       "tips": "Yerel şarapları denemenizi öneririz.",
-      "tips_en": "We recommend trying local wines."
+      "tips_en": "We recommend trying local wines.",
+      "area_en": "Center"
     },
     {
       "id": "gen_ChIJqQBUZpv7j0cRXdSsvJ-E9rw",
@@ -441,8 +442,8 @@
       "tips_en": "Reservation is a must for dinner."
     },
     {
-      "name": "Bellinzona Castles (Günübirlik)",
-      "area": "Günübirlik",
+      "name": "Bellinzona Castles",
+      "area": "Bellinzona Castles",
       "category": "Tarihi",
       "tags": [
         "kale",
@@ -460,11 +461,12 @@
       "bestTime": "Tüm gün",
       "bestTime_en": "Full day",
       "tips": "Sabah erken saatlerde giderek turist kalabalığından kaçınabilirsiniz.",
-      "tips_en": "Go early in the morning to avoid tourist crowds."
+      "tips_en": "Go early in the morning to avoid tourist crowds.",
+      "area_en": "Bellinzona Castles"
     },
     {
       "name": "Bern Old Town",
-      "area": "Günübirlik",
+      "area": "Bern",
       "category": "Deneyim",
       "tags": [
         "başkent",
@@ -482,7 +484,8 @@
       "bestTime": "Tüm gün",
       "bestTime_en": "Full day",
       "tips": "Fotoğraf makinenizin şarjının dolu olduğundan emin olun.",
-      "tips_en": "Make sure your camera battery is full."
+      "tips_en": "Make sure your camera battery is full.",
+      "area_en": "Bern"
     },
     {
       "id": "gen_ChIJK6JAL3b7j0cRKlCeTJiLZM4",
@@ -666,7 +669,8 @@
       "bestTime": "Gündüz",
       "bestTime_en": "Daytime",
       "tips": "Hafta içi sabah saatleri en sakin zamanıdır.",
-      "tips_en": "Weekday mornings are the quietest times."
+      "tips_en": "Weekday mornings are the quietest times.",
+      "area_en": "Center"
     },
     {
       "name": "Brasserie Bodu",
@@ -735,8 +739,8 @@
       "tips_en": "Decide what to eat by checking Google Maps reviews."
     },
     {
-      "name": "Brunnen (Günübirlik)",
-      "area": "Günübirlik",
+      "name": "Brunnen",
+      "area": "Brunnen",
       "category": "Deneyim",
       "tags": [
         "göl",
@@ -754,7 +758,8 @@
       "bestTime": "Tüm gün",
       "bestTime_en": "Full day",
       "tips": "Kıyafetinizin aktiviteye uygun olduğundan emin olun.",
-      "tips_en": "Ensure your outfit is suitable for the activity."
+      "tips_en": "Ensure your outfit is suitable for the activity.",
+      "area_en": "Brunnen"
     },
     {
       "name": "Buergenstock Resort",
@@ -1105,7 +1110,8 @@
       "bestTime": "Öğleden sonra",
       "bestTime_en": "Afternoon",
       "tips": "Grup indirimi olup olmadığını sorun.",
-      "tips_en": "Ask if there is a group discount."
+      "tips_en": "Ask if there is a group discount.",
+      "area_en": "Hilller"
     },
     {
       "id": "gen_ChIJeZl-5aH7j0cRtCj6ue4ngF0",
@@ -1325,7 +1331,7 @@
     },
     {
       "name": "Engelberg Monastery",
-      "area": "Günübirlik",
+      "area": "Engelberg",
       "category": "Tarihi",
       "tags": [
         "manastır",
@@ -1343,7 +1349,8 @@
       "bestTime": "Öğleden sonra",
       "bestTime_en": "Afternoon",
       "tips": "Yapı içerisindeki akustik harika, sessizliği dinleyin.",
-      "tips_en": "The acoustics inside satisfy; listen to the silence."
+      "tips_en": "The acoustics inside satisfy; listen to the silence.",
+      "area_en": "Engelberg"
     },
     {
       "id": "gen_ChIJ_3-Ww-X7j0cRhesIL-XdWVs",
@@ -1591,7 +1598,8 @@
       "bestTime": "Öğleden sonra",
       "bestTime_en": "Afternoon",
       "tips": "Çantanızı vestiyere bırakmanız gerekebilir, hazırlıklı olun.",
-      "tips_en": "You might need to leave bags at the cloakroom, be prepared."
+      "tips_en": "You might need to leave bags at the cloakroom, be prepared.",
+      "area_en": "Center"
     },
     {
       "id": "gen_ChIJHzfvk4VYcAYR-pVASPbw93c",
@@ -1637,7 +1645,8 @@
       "bestTime": "Sabah",
       "bestTime_en": "Morning",
       "tips": "Gün doğumu burada büyüleyicidir, uykunuzdan feragat etmeye değer.",
-      "tips_en": "Sunrise is magical here, worth sacrificing sleep."
+      "tips_en": "Sunrise is magical here, worth sacrificing sleep.",
+      "area_en": "Station"
     },
     {
       "name": "Grand Casino Luzern",
@@ -2083,11 +2092,12 @@
       "bestTime": "Yaz akşamı",
       "bestTime_en": "Summer evening",
       "tips": "Gün batımını izlemek için şehirdeki en iyi noktalardan biri.",
-      "tips_en": "One of the best spots in the city to watch the sunset."
+      "tips_en": "One of the best spots in the city to watch the sunset.",
+      "area_en": "Station"
     },
     {
       "name": "Interlaken, Switzerland",
-      "area": "Günübirlik",
+      "area": "Interlaken",
       "category": "Deneyim",
       "tags": [
         "adrenalin",
@@ -2105,7 +2115,8 @@
       "bestTime": "Tüm gün",
       "bestTime_en": "Full day",
       "tips": "Grup indirimi olup olmadığını sorun.",
-      "tips_en": "Ask if there is a group discount."
+      "tips_en": "Ask if there is a group discount.",
+      "area_en": "Interlaken"
     },
     {
       "id": "gen_ChIJpbB9QnL7j0cRXzGlWQfdtPU",
@@ -2243,7 +2254,8 @@
       "bestTime": "Akşam",
       "bestTime_en": "Evening",
       "tips": "Kıyafetinizin aktiviteye uygun olduğundan emin olun.",
-      "tips_en": "Ensure your outfit is suitable for the activity."
+      "tips_en": "Ensure your outfit is suitable for the activity.",
+      "area_en": "Station"
     },
     {
       "id": "gen_ChIJOf_AtGX7j0cRrjKrLj6U_mA",
@@ -2294,8 +2306,8 @@
       "tips_en": "Decide what to eat by checking Google Maps reviews."
     },
     {
-      "name": "Kambly Experience (Günübirlik)",
-      "area": "Günübirlik",
+      "name": "Kambly Experience",
+      "area": "Kambly Experience",
       "category": "Deneyim",
       "tags": [
         "bisküvi",
@@ -2313,7 +2325,8 @@
       "bestTime": "Hafta içi",
       "bestTime_en": "Weekday",
       "tips": "Rehbere soru sormaktan çekinmeyin, çok ilginç hikayeler biliyorlar.",
-      "tips_en": "Don't hesitate to ask the guide questions, they know interesting stories."
+      "tips_en": "Don't hesitate to ask the guide questions, they know interesting stories.",
+      "area_en": "Kambly Experience"
     },
     {
       "id": "gen_ChIJFwH9m6H7j0cRFn7JeAtWB3A",
@@ -2581,7 +2594,8 @@
       "bestTime": "Sabah erken",
       "bestTime_en": "Early morning",
       "tips": "Fotoğraf çekimi için en iyi ışık gün batımına yakındır.",
-      "tips_en": "Best light for photography is near sunset."
+      "tips_en": "Best light for photography is near sunset.",
+      "area_en": "Center"
     },
     {
       "name": "Louis Bar",
@@ -2650,8 +2664,8 @@
       "tips_en": "Ensure your outfit is suitable for the activity."
     },
     {
-      "name": "Lungern (Günübirlik)",
-      "area": "Günübirlik",
+      "name": "Lungern",
+      "area": "Lungern",
       "category": "Deneyim",
       "tags": [
         "göl",
@@ -2669,7 +2683,8 @@
       "bestTime": "Gündüz",
       "bestTime_en": "Daytime",
       "tips": "Rehbere soru sormaktan çekinmeyin, çok ilginç hikayeler biliyorlar.",
-      "tips_en": "Don't hesitate to ask the guide questions, they know interesting stories."
+      "tips_en": "Don't hesitate to ask the guide questions, they know interesting stories.",
+      "area_en": "Lungern"
     },
     {
       "id": "gen_ChIJt_qT6p77j0cRhvPoDfSqzMU",
@@ -3000,8 +3015,8 @@
       "description_en": "Central Switzerland's highest peak with rotating cable car (Rotair). Glacier cave, suspension bridge, and snow-covered adventure."
     },
     {
-      "name": "Mount Titlis (Günübirlik)",
-      "area": "Günübirlik",
+      "name": "Mount Titlis",
+      "area": "Mount Titlis",
       "category": "Deneyim",
       "tags": [
         "kar",
@@ -3019,7 +3034,8 @@
       "bestTime": "Sabah",
       "bestTime_en": "Morning",
       "tips": "Grup indirimi olup olmadığını sorun.",
-      "tips_en": "Ask if there is a group discount."
+      "tips_en": "Ask if there is a group discount.",
+      "area_en": "Mount Titlis"
     },
     {
       "id": "gen_ChIJ1WXPJ5_7j0cRr9vtUJXeuug",
@@ -4062,8 +4078,8 @@
       "tips_en": "Ensure your outfit is suitable for the activity."
     },
     {
-      "name": "Stoos Ridge Hike (Günübirlik)",
-      "area": "Günübirlik",
+      "name": "Stoos Ridge Hike",
+      "area": "Stoos Ridge Hike",
       "category": "Park",
       "tags": [
         "yürüyüş",
@@ -4081,7 +4097,8 @@
       "bestTime": "Yaz",
       "bestTime_en": "Summer",
       "tips": "Sabah koşusu veya yoga yapan yerlileri görebilirsiniz.",
-      "tips_en": "You can see locals jogging or doing yoga in the morning."
+      "tips_en": "You can see locals jogging or doing yoga in the morning.",
+      "area_en": "Stoos Ridge Hike"
     },
     {
       "id": "gen_ChIJyyZMAp_7j0cRfXFpVCgXOeo",
@@ -4438,8 +4455,8 @@
       "tips_en": "One of the best spots in the city to watch the sunset."
     },
     {
-      "name": "Weggis (Günübirlik)",
-      "area": "Günübirlik",
+      "name": "Weggis",
+      "area": "Weggis",
       "category": "Tarihi",
       "tags": [
         "gül",
@@ -4457,7 +4474,8 @@
       "bestTime": "Yaz",
       "bestTime_en": "Summer",
       "tips": "Yapı içerisindeki akustik harika, sessizliği dinleyin.",
-      "tips_en": "The acoustics inside satisfy; listen to the silence."
+      "tips_en": "The acoustics inside satisfy; listen to the silence.",
+      "area_en": "Weggis"
     },
     {
       "name": "Werkstatt",
@@ -4521,7 +4539,8 @@
       "bestTime": "Akşam yemeği",
       "bestTime_en": "Dinner",
       "tips": "Şefin spesiyal tabağını sormaktan çekinmeyin.",
-      "tips_en": "Don't hesitate to ask for the chef's special."
+      "tips_en": "Don't hesitate to ask for the chef's special.",
+      "area_en": "Center"
     },
     {
       "id": "gen_ChIJmXab8p_7j0cR-vDnr3WXCl8",

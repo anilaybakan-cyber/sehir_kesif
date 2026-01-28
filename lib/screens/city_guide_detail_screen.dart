@@ -87,11 +87,16 @@ class _CityGuideDetailScreenState extends State<CityGuideDetailScreen> {
                 child: Stack(
                   fit: StackFit.expand,
                   children: [
-                    CachedNetworkImage(
-                      imageUrl: widget.imageUrl,
+                    Image.network(
+                      widget.imageUrl,
                       fit: BoxFit.cover,
                       color: Colors.black.withOpacity(0.3),
                       colorBlendMode: BlendMode.darken,
+                      loadingBuilder: (context, child, loadingProgress) {
+                        if (loadingProgress == null) return child;
+                         return Container(color: WanderlustColors.bgDark);
+                      },
+                      errorBuilder: (context, error, stackTrace) => Container(color: WanderlustColors.bgDark),
                     ),
                     Positioned(
                       bottom: -1, // -1 to avoid any gap
@@ -305,7 +310,7 @@ class _CityGuideDetailScreenState extends State<CityGuideDetailScreen> {
               title,
               style: GoogleFonts.poppins(
                 color: Colors.white,
-                fontSize: 18,
+                fontSize: 16,
                 fontWeight: FontWeight.bold,
                 letterSpacing: 0.5,
               ),
@@ -340,9 +345,21 @@ class _CityGuideDetailScreenState extends State<CityGuideDetailScreen> {
   Widget _buildRichText(String text) {
     // Link pattern: [DisplayName](search:SearchName)
     final linkPattern = RegExp(r'\[([^\]]+)\]\(search:([^\)]+)\)');
-    final boldPattern = RegExp(r'\*\*([^\*]+)\*\*');
     
-    // Önce linkleri işle
+    // Link yoksa ve bold yoksa düz Text döndür
+    if (!linkPattern.hasMatch(text) && !text.contains('**')) {
+      return Text(
+        text,
+        style: GoogleFonts.poppins(
+          color: Colors.white.withOpacity(0.8), 
+          fontSize: 16, 
+          height: 1.6, 
+          fontWeight: FontWeight.w400
+        ),
+      );
+    }
+
+    // Link varsa isle
     if (linkPattern.hasMatch(text)) {
       final List<InlineSpan> spans = [];
       int lastEnd = 0;
@@ -382,6 +399,9 @@ class _CityGuideDetailScreenState extends State<CityGuideDetailScreen> {
             ),
           ),
         ));
+        
+        // Zero-width space to break style inheritance
+        spans.add(const TextSpan(text: '\u200B'));
 
         lastEnd = match.end;
       }
@@ -391,40 +411,29 @@ class _CityGuideDetailScreenState extends State<CityGuideDetailScreen> {
         spans.addAll(_parseTextWithBold(text.substring(lastEnd)));
       }
 
-      return RichText(
-        text: TextSpan(
-          style: GoogleFonts.poppins(color: Colors.white.withOpacity(0.85), fontSize: 16, height: 1.6),
+      return Text.rich(
+        TextSpan(
+          style: GoogleFonts.poppins(
+            color: Colors.white.withOpacity(0.8), 
+            fontSize: 16, 
+            height: 1.6,
+            fontWeight: FontWeight.w400,
+          ),
           children: spans,
         ),
       );
     }
 
-    // Link yoksa sadece bold parsing yap
-    if (!text.contains('**')) {
-      return Text(
-        text,
-        style: GoogleFonts.poppins(color: Colors.white.withOpacity(0.85), fontSize: 16, height: 1.6),
-      );
-    }
-
-    final List<TextSpan> spans = [];
-    final parts = text.split('**');
-
-    for (int i = 0; i < parts.length; i++) {
-      if (i % 2 == 0) {
-        spans.add(TextSpan(text: parts[i]));
-      } else {
-        spans.add(TextSpan(
-          text: parts[i],
-          style: GoogleFonts.poppins(color: Colors.white, fontWeight: FontWeight.bold),
-        ));
-      }
-    }
-
-    return RichText(
-      text: TextSpan(
-        style: GoogleFonts.poppins(color: Colors.white.withOpacity(0.85), fontSize: 16, height: 1.6),
-        children: spans,
+    // Link yoksa ama bold varsa
+    return Text.rich(
+      TextSpan(
+        style: GoogleFonts.poppins(
+          color: Colors.white.withOpacity(0.8), 
+          fontSize: 16, 
+          height: 1.6,
+          fontWeight: FontWeight.w400,
+        ),
+        children: _parseTextWithBold(text),
       ),
     );
   }
@@ -432,7 +441,14 @@ class _CityGuideDetailScreenState extends State<CityGuideDetailScreen> {
   /// Bold text içeren metni parse eder
   List<InlineSpan> _parseTextWithBold(String text) {
     if (!text.contains('**')) {
-      return [TextSpan(text: text)];
+      return [TextSpan(
+        text: text,
+        style: GoogleFonts.poppins(
+          color: Colors.white.withOpacity(0.8), // Updated opacity
+          fontSize: 16,
+          fontWeight: FontWeight.w400,
+        ),
+      )];
     }
 
     final List<InlineSpan> spans = [];
@@ -440,11 +456,27 @@ class _CityGuideDetailScreenState extends State<CityGuideDetailScreen> {
 
     for (int i = 0; i < parts.length; i++) {
       if (i % 2 == 0) {
-        spans.add(TextSpan(text: parts[i]));
+        if (parts[i].isNotEmpty) {
+          spans.add(TextSpan(
+            text: parts[i],
+            style: GoogleFonts.poppins(
+              color: Colors.white.withOpacity(0.8), // Updated opacity
+              fontSize: 16,
+              fontWeight: FontWeight.w400,
+            ),
+          ));
+        }
       } else {
+        // Sadece sonu : ile biten kelimeler (örn "Note:", "İpucu:") bold olsun
+        final isKey = parts[i].trim().endsWith(':');
+        
         spans.add(TextSpan(
           text: parts[i],
-          style: GoogleFonts.poppins(color: Colors.white, fontWeight: FontWeight.bold),
+          style: GoogleFonts.poppins(
+            color: isKey ? Colors.white : Colors.white.withOpacity(0.8), 
+            fontSize: 16,
+            fontWeight: isKey ? FontWeight.bold : FontWeight.w400,
+          ),
         ));
       }
     }
@@ -456,46 +488,80 @@ class _CityGuideDetailScreenState extends State<CityGuideDetailScreen> {
   void _navigateToPlace(String query) async {
     try {
       String? targetCity;
-      String searchPlace = query;
+      String searchPlace = query.trim();
+      final searchPlaceLower = searchPlace.toLowerCase();
 
-      // 1. Önce mevcut şehri dene
+      // 1. Önce mevcut şehri bir kontrol et (Exact Match)
       final currentCityModel = await CityDataLoader.loadCity(widget.city);
       Highlight? foundPlace;
 
       try {
+        // Öncelik 1: Tam Eşleşme (Mevcut Şehir)
         foundPlace = currentCityModel.highlights.firstWhere(
-          (h) => h.name.toLowerCase().trim() == searchPlace.toLowerCase().trim() || 
-                 searchPlace.toLowerCase().contains(h.name.toLowerCase().trim()) ||
-                 h.name.toLowerCase().contains(searchPlace.toLowerCase().trim())
+          (h) => h.name.toLowerCase().trim() == searchPlaceLower
         );
       } catch (_) {}
 
-      // 2. Bulunamadıysa cross-city ara
+      // 2. Mevcut şehirde tam eşleşme yoksa, tüm şehirlerde Tam Eşleşme ara
       if (foundPlace == null) {
-        // Query içinde şehir adı var mı kontrol et
         final allCities = CityDataLoader.supportedCities;
+        
+        // Target city varsa önce ona bak, yoksa hepsine
+        List<String> citiesToSearch = [];
+        
+        // Query içinde şehir adı var mı kontrol et
         for (var cityId in allCities) {
-          if (query.toLowerCase().contains(cityId)) {
+          if (searchPlaceLower.contains(cityId)) {
             targetCity = cityId;
             break;
           }
         }
 
-        List<String> citiesToSearch = targetCity != null 
-            ? [targetCity] 
-            : ['roma', 'paris', 'barcelona', 'istanbul', 'londra', 'viyana', 'prag', 'lizbon', 'rovaniemi', 'matera', 'sintra', 'colmar'];
-        
+        if (targetCity != null) {
+          citiesToSearch = [targetCity];
+        } else {
+          // Mevcut şehri başa al, diğerlerini ekle
+          citiesToSearch = [widget.city, ...allCities.where((c) => c != widget.city)];
+        }
+
+        // PASS 1: EXACT MATCH
         for (var cityId in citiesToSearch) {
-          if (cityId == widget.city) continue; // Zaten aradık
           final cityModel = await CityDataLoader.loadCity(cityId);
           try {
             foundPlace = cityModel.highlights.firstWhere(
-              (h) => h.name.toLowerCase().trim() == searchPlace.toLowerCase().trim() || 
-                     searchPlace.toLowerCase().contains(h.name.toLowerCase().trim()) ||
-                     h.name.toLowerCase().contains(searchPlace.toLowerCase().trim())
+              (h) => h.name.toLowerCase().trim() == searchPlaceLower
             );
             if (foundPlace != null) break;
           } catch (_) {}
+        }
+
+        // PASS 2: SMART PARTIAL MATCH (Eğer hala bulunamadıysa)
+        if (foundPlace == null) {
+          for (var cityId in citiesToSearch) {
+            final cityModel = await CityDataLoader.loadCity(cityId);
+            try {
+              foundPlace = cityModel.highlights.firstWhere((h) {
+                final hNameLower = h.name.toLowerCase().trim();
+                
+                // Durum A: Yer adı, aranan kelimeyi içeriyor (Örn: Place="Noma Restaurant", Query="Noma") -> KABUL
+                if (hNameLower.contains(searchPlaceLower)) return true;
+
+                // Durum B: Aranan kelime, yer adını içeriyor (Örn: Query="Visit Eiffel Tower", Place="Eiffel")
+                // BURADA STRICT KONTROL LAZIM: "Noma" içinde "OMA" var ama bu bir eşleşme olmamalı.
+                // Sadece kelime sınırı (word boundary) varsa kabul et.
+                if (searchPlaceLower.contains(hNameLower)) {
+                   // Regex ile kelime sınırı kontrolü
+                   // \bOMA\b, Noma içinde eşleşmez.
+                   // Ama adımız çok kısaysa (3 harften az) riskli olabilir, yine de word boundary güvenlidir.
+                   final pattern = RegExp(r'(?:^|\s|[^a-z0-9])' + RegExp.escape(hNameLower) + r'(?:$|\s|[^a-z0-9])');
+                   return pattern.hasMatch(searchPlaceLower);
+                }
+
+                return false;
+              });
+              if (foundPlace != null) break;
+            } catch (_) {}
+          }
         }
       }
 

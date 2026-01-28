@@ -28,6 +28,27 @@
       "subcategory": "Kano"
     },
     {
+      "name": "Fjellheisen Viewpoint",
+      "name_en": "Fjellheisen Viewpoint",
+      "area": "Tromsdalen",
+      "category": "Manzara",
+      "tags": [
+        "panaroma",
+        "teleferik",
+        "kuzey ışıkları",
+        "şehir manzarası"
+      ],
+      "lat": 69.6410,
+      "lng": 18.9872,
+      "price": "high",
+      "rating": 4.9,
+      "description": "Tromsø'nun ve çevredeki fiyortların nefes kesen panoramik manzarasını sunan, Storsteinen dağı üzerindeki gözlem noktası. Kuzey ışıklarını izlemek veya gece yarısı güneşini görmek için şehrin en iyi noktasıdır.",
+      "description_en": "Observatory on Mount Storsteinen offering breathtaking panoramic views of Tromsø and surrounding fjords. It's the best spot in town for watching the aurora borealis or the midnight sun.",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Tromsoe_View_from_Storsteinen.jpg/1280px-Tromsoe_View_from_Storsteinen.jpg",
+      "tips": "Teleferikle yukarı çıkarken kameranızı hazırlayın, manzara yükseldikçe güzelleşiyor.",
+      "tips_en": "Have your camera ready as you ascend the cable car; the view gets better as you go higher."
+    },
+    {
       "name": "Alfheim Stadion",
       "category": "Deneyim",
       "tags": [
@@ -3189,5 +3210,7 @@
       "source": "firebase"
     }
   ],
-  "heroImage": "https://www.flightgift.com/media/wp/FG/2024/02/tromso.webp"
+  "heroImage": "https://www.flightgift.com/media/wp/FG/2024/02/tromso.webp",
+  "city_en": "Tromsø",
+  "country_en": "Norway"
 }

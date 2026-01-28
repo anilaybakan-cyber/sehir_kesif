@@ -341,7 +341,8 @@
       "id": "brauhaus",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/hallstatt/brauhaus.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "area_en": "Center"
     },
     {
       "name": "Breininghütte",
@@ -414,7 +415,8 @@
       "id": "maislinger-bakery",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/hallstatt/maislinger-bakery.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "area_en": "Center"
     },
     {
       "name": "Cafe Nannerl",
@@ -462,7 +464,8 @@
       "id": "cafe-polreich",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/hallstatt/cafe-polreich.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "area_en": "Center"
     },
     {
       "name": "Cafe Ramsauer",
@@ -754,7 +757,8 @@
       "id": "morton-path",
       "distanceFromCenter": 0.5,
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/hallstatt/dr__friedrich_morton_weg.jpg",
-      "source": "firebase"
+      "source": "firebase",
+      "area_en": "Center"
     },
     {
       "name": "Drachenwand Klettersteig",
@@ -922,7 +926,8 @@
       "id": "evangelical-church-of-hallstatt",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/hallstatt/evangelical-church-of-hallstatt.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "area_en": "Center"
     },
     {
       "name": "Ewige Wand",
@@ -1212,7 +1217,8 @@
       "id": "gasthof-simony-restaurant",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/hallstatt/gasthof-simony-restaurant.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "area_en": "Center"
     },
     {
       "name": "Gasthof Weisses Lamm",
@@ -1236,7 +1242,8 @@
       "id": "white-lamb-inn",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/hallstatt/white-lamb-inn.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "area_en": "Center"
     },
     {
       "name": "Gjaid Alm",
@@ -1477,7 +1484,8 @@
       "id": "hallstatt-woodworking-school",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/hallstatt/hallstatt-woodworking-school.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "area_en": "Center"
     },
     {
       "name": "Halleralm",
@@ -1525,7 +1533,8 @@
       "id": "world-heritage-museum",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/hallstatt/world-heritage-museum.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "area_en": "Center"
     },
     {
       "name": "Hallstatt Postcard Viewpoint",
@@ -1742,7 +1751,8 @@
       "id": "restaurant-im-kainz",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/hallstatt/restaurant-im-kainz.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "area_en": "Center"
     },
     {
       "name": "Jainzenberg",
@@ -1790,7 +1800,8 @@
       "id": "janu-sport-shop",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/hallstatt/janu-sport-shop.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "area_en": "Center"
     },
     {
       "name": "Johannesbergkapelle",
@@ -2006,7 +2017,8 @@
       "id": "ceramics-hallstatt",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/hallstatt/ceramics-hallstatt.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "area_en": "Center"
     },
     {
       "name": "Kirchenwirt Gosau",
@@ -2560,7 +2572,8 @@
       "id": "catholic-church-of-hallstatt",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/hallstatt/catholic-church-of-hallstatt.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "area_en": "Center"
     },
     {
       "name": "Marktplatz Hallstatt",
@@ -2584,7 +2597,8 @@
       "id": "marktplatz-hallstatt",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/hallstatt/marktplatz-hallstatt.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "area_en": "Center"
     },
     {
       "name": "Marmorschlössl",
@@ -3161,7 +3175,8 @@
       "id": "salt-shop-hallstatt",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/hallstatt/salt-shop-hallstatt.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "area_en": "Center"
     },
     {
       "name": "Salzwelten Altaussee",
@@ -3329,7 +3344,8 @@
       "id": "umbrella-bar-hallstatt",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/hallstatt/umbrella-bar-hallstatt.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "area_en": "Center"
     },
     {
       "name": "Schloss Fuschl",
@@ -3401,7 +3417,8 @@
       "id": "schnapps-&-wood",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/hallstatt/schnapps-&-wood.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "area_en": "Center"
     },
     {
       "name": "Schwarzensee",
@@ -3473,7 +3490,8 @@
       "id": "seecafe-frundsberg",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/hallstatt/seecafe-frundsberg.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "area_en": "Center"
     },
     {
       "name": "Seestrasse Hallstatt",
@@ -3545,7 +3563,8 @@
       "id": "seewirt-zauner",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/hallstatt/seewirt-zauner.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "area_en": "Center"
     },
     {
       "name": "Simonyhütte",
@@ -3859,7 +3878,8 @@
       "id": "daily-fresh-baked",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/hallstatt/daily-fresh-baked.jpg",
       "source": "firebase",
-      "distanceFromCenter": 0.5
+      "distanceFromCenter": 0.5,
+      "area_en": "Center"
     },
     {
       "name": "Toplitzsee",
@@ -4318,5 +4338,7 @@
       "distanceFromCenter": 0.5
     }
   ],
-  "heroImage": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/hallstatt/hallstatt-postcard-viewpoint.jpg"
+  "heroImage": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/hallstatt/hallstatt-postcard-viewpoint.jpg",
+  "city_en": "Hallstatt",
+  "country_en": "Austria"
 }

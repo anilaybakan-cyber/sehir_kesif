@@ -2095,7 +2095,8 @@
       "id": "kursaal-bridge",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/san_sebastian/kursaal-bridge.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "area_en": "Center"
     },
     {
       "name": "Kursaal Congress Centre",
@@ -4382,5 +4383,7 @@
       "source": "firebase",
       "distanceFromCenter": 0.5
     }
-  ]
+  ],
+  "city_en": "San Sebastian",
+  "country_en": "Spain"
 }

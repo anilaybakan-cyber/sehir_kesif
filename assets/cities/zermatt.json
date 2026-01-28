@@ -34,6 +34,49 @@
       "distanceFromCenter": 1.0
     },
     {
+      "name": "3100 Kulmhotel",
+      "name_en": "3100 Kulmhotel",
+      "area": "Gornergrat",
+      "category": "Deneyim",
+      "tags": [
+        "otel",
+        "gözlem",
+        "yüksek",
+        "zirve",
+        "yıldızlar"
+      ],
+      "lat": 45.9833,
+      "lng": 7.7836,
+      "price": "high",
+      "rating": 4.8,
+      "description": "İsviçre Alpleri'nin kalbinde, 3100 metre yükseklikte yer alan bu tarihi hotel, Matterhorn'un en ikonik manzaralarından birini sunar. Buzulların üzerinde konaklamak veya sadece terasında kahve içmek unutulmaz bir deneyimdir.",
+      "description_en": "This historic hotel, located at 3100 meters in the heart of the Swiss Alps, offers one of the most iconic views of the Matterhorn. Staying above the glaciers or just having coffee on its terrace is an unforgettable experience.",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/3100_Kulmhotel_Gornergrat_winter.jpg/1280px-3100_Kulmhotel_Gornergrat_winter.jpg",
+      "tips": "Otelin içindeki gözlemevinde yıldızları teleskopla izlemeyi deneyin.",
+      "tips_en": "Try observing the stars through a telescope at the hotel's on-site observatory."
+    },
+    {
+      "name": "Matterhorn Viewpoint",
+      "name_en": "Matterhorn Viewpoint",
+      "area": "Zermatt",
+      "category": "Manzara",
+      "tags": [
+        "panaroma",
+        "ikonik",
+        "fotoğraf",
+        "matterhorn"
+      ],
+      "lat": 46.0147,
+      "lng": 7.7424,
+      "price": "free",
+      "rating": 5.0,
+      "description": "Matterhorn'u tüm görkemiyle, klasik 'Toblerone' açısıyla görebileceğiniz en meşhur fotoğraf noktası. Şehrin hemen üzerinde, dağın yansımasını görebileceğiniz göletlere giden yol üzerinde yer alır.",
+      "description_en": "The most famous photo spot where you can see the Matterhorn in all its glory from the classic 'Toblerone' angle. Located just above the town, on the path to the ponds where you can see the mountain's reflection.",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Matterhorn_from_Zermatt_2.jpg/1280px-Matterhorn_from_Zermatt_2.jpg",
+      "tips": "En keskin ve kızıla çalan görüntüler için gün doğumunda burada olun.",
+      "tips_en": "Be here at sunrise for the sharpest images and the famous alpenglow effect."
+    },
+    {
       "name": "5-Seenweg (Beş Göl Yürüyüşü)",
       "name_en": "Five Lakes Hike",
       "area": "Rothorn",
@@ -507,7 +550,8 @@
       "id": "brown-cow-pub",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/zermatt/brown-cow-pub.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "area_en": "Center"
     },
     {
       "name": "Café du Pont",
@@ -1654,7 +1698,8 @@
       "id": "hinterdorf-eski-koy",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/zermatt/hinterdorf-eski-koy.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "area_en": "Center"
     },
     {
       "name": "Hinterdorfstrasse",
@@ -2355,7 +2400,8 @@
       "id": "matterhorn-muzesi-zermatlantis",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/zermatt/matterhorn-muzesi-zermatlantis.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "area_en": "Center"
     },
     {
       "name": "Matterhorn Photo Point",
@@ -3429,7 +3475,8 @@
       "id": "st.-mauritius-kilisesi",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/zermatt/st_-mauritius-kilisesi.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "area_en": "Center"
     },
     {
       "name": "St. Peter's Church",
@@ -3977,7 +4024,8 @@
       "id": "whymper-stube",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/zermatt/whymper-stube.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "area_en": "Center"
     },
     {
       "name": "Wolli Park",
@@ -4167,7 +4215,8 @@
       "id": "zermatt-spor-dukkanları",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/zermatt/zermatt_spor_dukkanlari.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "area_en": "Center"
     },
     {
       "name": "Zermatt Tourism Office",
@@ -4354,5 +4403,7 @@
       "source": "firebase"
     }
   ],
-  "heroImage": "https://holidaystoswitzerland.com/wp-content/uploads/2020/07/Zermatt-and-the-Matterhorn-at-dawn.jpg"
+  "heroImage": "https://holidaystoswitzerland.com/wp-content/uploads/2020/07/Zermatt-and-the-Matterhorn-at-dawn.jpg",
+  "city_en": "Zermatt",
+  "country_en": "Switzerland"
 }

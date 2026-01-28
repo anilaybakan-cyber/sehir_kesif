@@ -1,6 +1,7 @@
 import 'package:geolocator/geolocator.dart';
 import 'package:flutter/foundation.dart';
 import '../models/city_model.dart';
+import '../l10n/app_localizations.dart';
 
 enum LocationMode {
   planning, // Remote: Distance from City Center
@@ -88,16 +89,14 @@ class LocationContextService with ChangeNotifier {
 
   /// Returns a formatted label for the distance
   /// e.g. "Merkeze 1.2 km" or "Sana 500 m"
-  String getDistanceLabel(double targetLat, double targetLng, bool isEnglish) {
+  String getDistanceLabel(double targetLat, double targetLng) {
     final dist = getDistance(targetLat, targetLng);
+    final isEnglish = AppLocalizations.instance.isEnglish;
     final distStr = dist >= 1000 
         ? "${(dist / 1000).toStringAsFixed(1)} km" 
         : "${dist.toInt()} m";
 
-    if (_mode == LocationMode.travel) {
-         return isEnglish ? "$distStr away" : "Sana $distStr";
-    } else {
-         return isEnglish ? "$distStr to center" : "Merkeze $distStr";
-    }
+    // User requested only distance value for UI compactness
+    return distStr;
   }
 }

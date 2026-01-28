@@ -533,11 +533,14 @@ class _CityGuideScreenState extends State<CityGuideScreen> {
           fit: StackFit.expand,
           children: [
             // Image
-            CachedNetworkImage(
-              imageUrl: item['image']!,
+            Image.network(
+              item['image']!,
               fit: BoxFit.cover,
-              placeholder: (context, url) => Container(color: const Color(0xFF1E1E2C)),
-              errorWidget: (context, url, error) => Container(color: const Color(0xFF1E1E2C)),
+              loadingBuilder: (context, child, loadingProgress) {
+                if (loadingProgress == null) return child;
+                return Container(color: const Color(0xFF1E1E2C));
+              },
+              errorBuilder: (context, error, stackTrace) => Container(color: const Color(0xFF1E1E2C)),
             ),
             
             // Gradient Overlay
@@ -585,7 +588,7 @@ class _CityGuideScreenState extends State<CityGuideScreen> {
                     item['title']!,
                     style: GoogleFonts.poppins(
                       color: Colors.white,
-                      fontSize: 18,
+                      fontSize: 20,
                       fontWeight: FontWeight.bold,
                     ),
                   ),
@@ -597,6 +600,7 @@ class _CityGuideScreenState extends State<CityGuideScreen> {
                     style: GoogleFonts.poppins(
                       color: Colors.white.withValues(alpha: 0.8),
                       fontSize: 12,
+                      fontWeight: FontWeight.w400,
                     ),
                   ),
                 ],

@@ -31,6 +31,7 @@ import 'services/premium_service.dart';
 import 'screens/paywall_screen.dart';
 import 'services/content_update_service.dart';
 import 'services/remote_config_service.dart';
+import 'services/ai_service.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -63,6 +64,11 @@ void main() async {
   debugPrint('🌍 RemoteConfigService initialization starting...');
   await RemoteConfigService.instance.init();
   debugPrint('🌍 RemoteConfigService initialized');
+
+  // 🤖 AI Service Initialization (Load Dynamic Images)
+  debugPrint('🤖 AIService initialization starting...');
+  await AIService.initializeComponents();
+  debugPrint('🤖 AIService initialized');
 
   // Status bar stilini ayarla
   SystemChrome.setSystemUIOverlayStyle(

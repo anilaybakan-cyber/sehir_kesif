@@ -10,6 +10,8 @@ class ContentUpdateService {
   // GITHUB RAW CONTENT
   // Üretim URL'leri
   static const String _baseUrl = 'https://raw.githubusercontent.com/anilaybakan-cyber/myway-data/refs/heads/main/cities';
+  static const String _routesUrl = 'https://raw.githubusercontent.com/anilaybakan-cyber/myway-data/refs/heads/main/routes';
+  static const String _guidesUrl = 'https://raw.githubusercontent.com/anilaybakan-cyber/myway-data/refs/heads/main/guides';
   
   // Versiyon kontrolü için manifest dosyası
   static const String _manifestUrl = 'https://raw.githubusercontent.com/anilaybakan-cyber/myway-data/refs/heads/main/version_manifest.json';
@@ -35,14 +37,42 @@ class ContentUpdateService {
 
       // 2. Her şehir için kontrol et
       for (final city in remoteManifest.keys) {
+        if (city == 'version' || city == 'lastUpdated' || city == 'updateNotes' || city == 'routes' || city == 'guides') continue;
+
         final int remoteVersion = remoteManifest[city] ?? 0;
         final int localVersion = prefs.getInt('version_$city') ?? 0;
 
         if (remoteVersion > localVersion) {
             debugPrint("⬇️ $city için güncelleme bulundu (v$localVersion -> v$remoteVersion). İndiriliyor...");
             await _downloadAndSaveCity(city, remoteVersion, prefs);
-        } else {
-            // debugPrint("✅ $city güncel.");
+        }
+      }
+
+      // 3. Rotalar için kontrol et (Manifest'te "routes" objesi varsa)
+      if (remoteManifest.containsKey('routes')) {
+        final Map<String, dynamic> remoteRoutes = remoteManifest['routes'];
+        for (final city in remoteRoutes.keys) {
+           final int remoteRouteVersion = remoteRoutes[city] ?? 0;
+           final int localRouteVersion = prefs.getInt('version_route_$city') ?? 0;
+
+           if (remoteRouteVersion > localRouteVersion) {
+              debugPrint("⬇️ $city rotası için güncelleme bulundu (v$localRouteVersion -> v$remoteRouteVersion). İndiriliyor...");
+              await _downloadAndSaveRoute(city, remoteRouteVersion, prefs);
+           }
+        }
+      }
+
+      // 4. Rehberler (Guides) için kontrol et
+      if (remoteManifest.containsKey('guides')) {
+        final Map<String, dynamic> remoteGuides = remoteManifest['guides'];
+        for (final city in remoteGuides.keys) {
+           final int remoteGuideVersion = remoteGuides[city] ?? 0;
+           final int localGuideVersion = prefs.getInt('version_guide_$city') ?? 0;
+
+           if (remoteGuideVersion > localGuideVersion) {
+              debugPrint("⬇️ $city rehberi için güncelleme bulundu (v$localGuideVersion -> v$remoteGuideVersion). İndiriliyor...");
+              await _downloadAndSaveGuide(city, remoteGuideVersion, prefs);
+           }
         }
       }
       
@@ -102,6 +132,56 @@ class ContentUpdateService {
 
     } catch (e) {
       debugPrint("❌ Cache temizleme hatası: $e");
+    }
+  }
+
+  /// Tek bir rehberi indir ve kaydet
+  static Future<void> _downloadAndSaveGuide(String city, int version, SharedPreferences prefs) async {
+    try {
+      final url = '$_guidesUrl/$city.json';
+      final response = await http.get(Uri.parse(url));
+
+      if (response.statusCode == 200) {
+        final String jsonContent = utf8.decode(response.bodyBytes);
+        try { json.decode(jsonContent); } catch (e) { return; }
+
+        final dir = await getApplicationDocumentsDirectory();
+        final file = File('${dir.path}/guides/$city.json');
+        if (!await file.parent.exists()) await file.parent.create(recursive: true);
+
+        await file.writeAsString(jsonContent);
+        await prefs.setInt('version_guide_$city', version);
+        debugPrint("✅ $city rehberi güncellendi.");
+      }
+    } catch (e) {
+      debugPrint("❌ Rehber indirme hatası ($city): $e");
+    }
+  }
+
+  /// Tek bir rotayı indir ve kaydet
+  static Future<void> _downloadAndSaveRoute(String city, int version, SharedPreferences prefs) async {
+    try {
+      final url = '$_routesUrl/$city.json';
+      final response = await http.get(Uri.parse(url));
+
+      if (response.statusCode == 200) {
+        final String jsonContent = utf8.decode(response.bodyBytes);
+        
+        try { json.decode(jsonContent); } catch (e) {
+          debugPrint("❌ İndirilen $city.json (rota) hatalı.");
+          return;
+        }
+
+        final dir = await getApplicationDocumentsDirectory();
+        final file = File('${dir.path}/routes/$city.json');
+        if (!await file.parent.exists()) await file.parent.create(recursive: true);
+
+        await file.writeAsString(jsonContent);
+        await prefs.setInt('version_route_$city', version);
+        debugPrint("✅ $city rotası güncellendi.");
+      }
+    } catch (e) {
+      debugPrint("❌ Rota indirme hatası ($city): $e");
     }
   }
 

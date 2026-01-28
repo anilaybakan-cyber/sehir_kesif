@@ -2635,6 +2635,28 @@
       "name_en": "Noordermarkt"
     },
     {
+      "name": "Westerstraat",
+      "name_en": "Westerstraat",
+      "area": "Jordaan",
+      "category": "Deneyim",
+      "tags": [
+        "sokak",
+        "market",
+        "yerel",
+        "gezinti"
+      ],
+      "distanceFromCenter": 0.8,
+      "lat": 52.3787,
+      "lng": 4.8850,
+      "price": "free",
+      "rating": 4.6,
+      "description": "Jordaan'ın en ikonik ve hayat dolu sokaklarından biri. Pazartesi günleri kurulan Noordermarkt pazarı, şık butikleri ve her zaman canlı atmosferiyle gerçek Amsterdam'ı hissedebileceğiniz bir yer.",
+      "description_en": "One of the most iconic and lively streets in Jordaan. Home to the Monday Noordermarkt, chic boutiques, and a vibrant atmosphere where you can feel the true heart of Amsterdam.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/amsterdam/westerstraat.jpg",
+      "tips": "Pazartesi günü bit pazarını (Noordermarkt) ziyaret etmeyi ve yol boyunca butik dükkanları keşfetmeyi unutmayın.",
+      "tips_en": "Don't forget to visit the flea market (Noordermarkt) on Mondays and explore the boutique shops along the way."
+    },
+    {
       "id": "gen_ChIJS8I5UrgLxkcRPeVbJmFpf5U",
       "name": "MOKAFE",
       "category": "Kafe",
@@ -4784,6 +4806,50 @@
       "tips_en": "Lunch menus are usually cheaper than dinner."
     },
     {
+      "name": "Rembrandtpark",
+      "name_en": "Rembrandtpark",
+      "area": "Nieuw-West",
+      "category": "Doğa",
+      "tags": [
+        "park",
+        "doğa",
+        "yürüyüş",
+        "lokal"
+      ],
+      "distanceFromCenter": 3.5,
+      "lat": 52.3646,
+      "lng": 4.8460,
+      "price": "free",
+      "rating": 4.6,
+      "description": "Amsterdam'ın batısında yer alan, 45 hektarlık geniş bir yeşil alan. İsmini ünlü ressam Rembrandt'tan alan park, göletleri, yürüyüş yolları ve çocuklar için devasa oyun alanlarıyla yerel halkın en sevdiği hafta sonu kaçış noktalarından biridir.",
+      "description_en": "A spacious 45-hectare urban park in Amsterdam's west, named after the 17th-century painter Rembrandt van Rijn. It's a green oasis offering ponds, diverse wildlife, and family-friendly paths for walking and cycling.",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Rembrandtpark.JPG",
+      "tips": "Park içindeki 'het Landje' oyun alanına uğramayı unutmayın.",
+      "tips_en": "Don't forget to visit 'het Landje' playground inside the park."
+    },
+    {
+      "name": "Beatrixpark",
+      "name_en": "Beatrixpark",
+      "area": "Zuid",
+      "category": "Doğa",
+      "tags": [
+        "park",
+        "tarihi",
+        "huzur",
+        "manzara"
+      ],
+      "distanceFromCenter": 2.5,
+      "lat": 52.3428,
+      "lng": 4.8819,
+      "price": "free",
+      "rating": 4.7,
+      "description": "Amsterdam-Zuid bölgesinde yer alan, şehrin en eski ve en bakımlı parklarından biri. İsmini Kraliçe Beatrix'ten alan park, romantik İngiliz bahçesi tarzındaki peyzajı, sakin atmosferi ve çocuk havuzlarıyla huzurlu bir mola yeri.",
+      "description_en": "One of Amsterdam's oldest and most well-maintained parks, located in the Zuid borough. Named after former Queen Beatrix, it features a romantic English garden style, a peaceful atmosphere, and various wading pools.",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Beatrixpark4.JPG",
+      "tips": "Parkın en eski ve anıtsal kısmındaki gölet kenarında yürüyüş yapın.",
+      "tips_en": "Take a walk by the pond in the oldest and monumental part of the park."
+    },
+    {
       "name": "Vondelpark",
       "name_en": "Vondelpark",
       "area": "Oud-Zuid",
@@ -5341,5 +5407,7 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/amsterdam/coffee_coconuts.jpg",
       "source": "firebase"
     }
-  ]
+  ],
+  "city_en": "Amsterdam",
+  "country_en": "Netherlands"
 }

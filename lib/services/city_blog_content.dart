@@ -1,6 +1,36 @@
+import 'dart:io';
+import 'dart:convert';
+import 'package:path_provider/path_provider.dart';
+import 'package:flutter/foundation.dart';
+
 /// City Blog Content - Detailed guide content for all cities
 class CityBlogContent {
   
+  static Future<String> getRemoteContent(String city, bool isEnglish) async {
+    try {
+      final normalizedCity = city.toLowerCase().trim()
+          .replaceAll(' ', '')
+          .replaceAll('İstanbul', 'istanbul')
+          .replaceAll('i̇stanbul', 'istanbul')
+          .replaceAll('stokholm', 'stockholm')
+          .replaceAll('zürih', 'zurih')
+          .replaceAll('budapeşte', 'budapeste')
+          .replaceAll('strazburg', 'strasbourg');
+          
+      final directory = await getApplicationDocumentsDirectory();
+      final file = File('${directory.path}/guides/$normalizedCity.json');
+
+      if (await file.exists()) {
+        final String content = await file.readAsString();
+        final Map<String, dynamic> jsonData = json.decode(content);
+        return jsonData[isEnglish ? 'en' : 'tr']?.toString() ?? '';
+      }
+    } catch (e) {
+      debugPrint("⚠️ CityBlogContent: Uzak rehber yüklenemedi: $e");
+    }
+    return getContent(city, isEnglish); // Fallback to hardcoded
+  }
+
   static String getContent(String city, bool isEnglish) {
     final c = city.toLowerCase().trim();
     
@@ -109,6 +139,7 @@ class CityBlogContent {
         return isEnglish ? _newyorkEN : _newyorkTR;
       case 'antalya':
         return isEnglish ? _antalyaEN : _antalyaTR;
+      case 'cappadocia':
       case 'kapadokya':
         return isEnglish ? _kapadokyaEN : _kapadokyaTR;
       case 'gaziantep':
@@ -199,7 +230,7 @@ Roma sadece bir şehir değil, açık hava müzesidir. Her köşesinde binlerce 
 - **Termini Uyarısı:** Ana tren istasyonu geceleri biraz tekinsiz olabilir, eşyalarınıza dikkat edin.
 
 ## 💎 Lokal Sırlar & İpuçları
-- **[Gizli Anahtar Deliği](search:Piazza dei Cavalieri di Malta):** Aventine Tepesi'ndeki *Piazza dei Cavalieri di Malta*'da bulunan meşhur delikten bakınca, Aziz Petrus Bazilikası'nı harika bir perspektifle görebilirsiniz.
+- [Gizli Anahtar Deliği](search:Piazza dei Cavalieri di Malta): Aventine Tepesi'ndeki *Piazza dei Cavalieri di Malta*'da bulunan meşhur delikten bakınca, Aziz Petrus Bazilikası'nı harika bir perspektifle görebilirsiniz.
 - **Ücretsiz Manzara:** [Gianicolo Tepesi](search:Gianicolo Tepesi) veya [Pincio Terrazza](search:Pincio Terrazza), gün batımında şehri izlemek için en romantik noktalardır.
 - **Güvenlik:** Trevi Çeşmesi ve Kolezyum gibi çok kalabalık yerlerde yankesicilere karşı tetikte olun. Çantanız hep önünüzde olsun.''';
 
@@ -229,7 +260,7 @@ Rome isn't just a destination; it's an open-air museum. Every corner whispers th
 - **Termini Safety:** The main station can be sketchy at night; keep a close eye on your belongings.
 
 ## 💎 Local Secrets & Insights
-- **[The Secret Keyhole](search:Piazza dei Cavalieri di Malta):** Head to the [Piazza dei Cavalieri di Malta](search:Piazza dei Cavalieri di Malta) on Aventine Hill. Look through the famous keyhole for a perfectly framed view of St. Peter's Basilica.
+- [The Secret Keyhole](search:Piazza dei Cavalieri di Malta): Head to the [Piazza dei Cavalieri di Malta](search:Piazza dei Cavalieri di Malta) on Aventine Hill. Look through the famous keyhole for a perfectly framed view of St. Peter's Basilica.
 - **Free Views:** [Gianicolo Hill](search:Gianicolo Hill) or [Pincio Terrazza](search:Pincio Terrazza) are the most romantic spots to watch the sunset over the city silhouette.
 - **Safety Specifics:** Be extremely vigilant about pickpockets in crowded areas like the Trevi Fountain and the Colosseum. Keep your bags in front of you at all times.''';
 
@@ -322,9 +353,9 @@ Berlin; sadece Almanya'nın başkenti değil, aynı zamanda Avrupa'nın yaratıc
 - **Bilet Onayı:** Biletinizi makineye okutmayı (validate) sakın unutmayın; kontrolörler çok katıdır.
 
 ## 💎 Lokal Sırlar & İpuçları
-- **[Tempelhofer Feld](search:Tempelhofer Feld):** Kapatılan devasa bir havalimanının uçak pistlerinde yürümek, paten kaymak veya mangal yapmak sadece Berlin'de yaşayacağınız bir deneyimdir.
-- **[Thai Park](search:Thai Park):** Hafta sonları Preußenpark'ta kurulan, Taylandlı kadınların ev yapımı yemekler sattığı bu açık hava pazarı gerçek bir gizli cevherdir.
-- **[Teufelsberg](search:Teufelsberg):** Soğuk Savaş döneminden kalma terk edilmiş dinleme istasyonu. Hem tarihi bir gizem hem de muhteşem bir şehir manzarası sunar.''';
+- [Tempelhofer Feld](search:Tempelhof Park): Kapatılan devasa bir havalimanının uçak pistlerinde yürümek, paten kaymak veya mangal yapmak sadece Berlin'de yaşayacağınız bir deneyimdir.
+- [Thai Park](search:Thai Park): Hafta sonları Preußenpark'ta kurulan, Taylandlı kadınların ev yapımı yemekler sattığı bu açık hava pazarı gerçek bir gizli cevherdir.
+- [Teufelsberg](search:Teufelsberg): Soğuk Savaş döneminden kalma terk edilmiş dinleme istasyonu. Hem tarihi bir gizem hem de muhteşem bir şehir manzarası sunar.''';
 
   static const _berlinEN = '''# Berlin Guide: History, Art & The Free Spirit 🇩🇪
 
@@ -353,9 +384,9 @@ Berlin is more than just Germany's capital; it’s the creative pulse of Europe.
 - **Validation:** Always validate your paper ticket at the yellow or red machines on the platform; inspectors are strict and fines are high.
 
 ## 💎 Local Secrets & Insights
-- **[Tempelhofer Feld](search:Tempelhofer Feld):** Walking, skating, or BBQing on the runways of a massive former airport is an experience you can only find in Berlin.
-- **[Thai Park](search:Thai Park):** An open-air weekend market in Preußenpark where local Thai grandmas sell incredible home-cooked food. A true hidden gem.
-- **[Teufelsberg](search:Teufelsberg):** An abandoned Cold War listening station. It offers a mix of historical mystery, street art, and one of the highest viewpoints in the city.''';
+- [Tempelhofer Feld](search:Tempelhof Park): Walking, skating, or BBQing on the runways of a massive former airport is an experience you can only find in Berlin.
+- [Thai Park](search:Thai Park): An open-air weekend market in Preußenpark where local Thai grandmas sell incredible home-cooked food. A true hidden gem.
+- [Teufelsberg](search:Teufelsberg): An abandoned Cold War listening station. It offers a mix of historical mystery, street art, and one of the highest viewpoints in the city.''';
 
   // AMSTERDAM
   static const _amsterdamTR = '''# Amsterdam Rehberi: Kanallar, Bisikletler ve Özgürlük 🇳🇱
@@ -384,8 +415,8 @@ Amsterdam sadece kanallardan ibaret değildir; o, her köşesinde yaratıcılı�
 - **Bisiklet Kiralama:** Eğer kendinize güveniyorsanız kiralayın, ancak trafiğin hızına ayak uydurmak ilk başta zorlayıcı olabilir.
 
 ## 💎 Lokal Sırlar & İpuçları
-- **[Gizli Avlu (Begijnhof)](search:Begijnhof):** Kalabalık alışveriş caddesinin ortasındaki gizli bir kapıdan girilen bu 14. yüzyıl avlusu, şehrin en sessiz ve huzurlu noktasıdır.
-- **[NDSM Wharf](search:NDSM Wharf):** Eski bir tersane bölgesidir; feribotla geçilen bu alan sokak sanatı, sanatçılar ve endüstriyel kafelerle doludur.
+- [Gizli Avlu (Begijnhof)](search:Begijnhof): Kalabalık alışveriş caddesinin ortasındaki gizli bir kapıdan girilen bu 14. yüzyıl avlusu, şehrin en sessiz ve huzurlu noktasıdır.
+- [NDSM Wharf](search:NDSM Wharf): Eski bir tersane bölgesidir; feribotla geçilen bu alan sokak sanatı, sanatçılar ve endüstriyel kafelerle doludur.
 - **Saygı:** Red Light District'te fotoğraf çekmek yasaktır ve büyük bir saygısızlıktır. Lütfen kurallara uyun.''';
 
   static const _amsterdamEN = '''# Amsterdam Guide: Canals, Bikes & Freedom 🇳🇱
@@ -414,8 +445,8 @@ Amsterdam is more than just canals; it's a living work of art where creativity a
 - **Bike Rental:** Rent one if you feel confident, but keeping up with the speed and rules of the local traffic can be challenging at first.
 
 ## 💎 Local Secrets & Insights
-- **[Hidden Courtyard (Begijnhof)](search:Begijnhof):** Entered through a discrete door in the middle of the busy shopping street, this 14th-century courtyard is the quietest spot in town.
-- **[NDSM Wharf](search:NDSM Wharf):** An old shipyard area accessible by ferry; this space is filled with street art, artist studios, and industrial-style cafes.
+- [Hidden Courtyard (Begijnhof)](search:Begijnhof): Entered through a discrete door in the middle of the busy shopping street, this 14th-century courtyard is the quietest spot in town.
+- [NDSM Wharf](search:NDSM Wharf): An old shipyard area accessible by ferry; this space is filled with street art, artist studios, and industrial-style cafes.
 - **Respect:** Taking photos in the Red Light District is forbidden and disrespectful. Please follow the local rules.''';
 
   // TOKYO
@@ -445,8 +476,8 @@ Tokyo sadece bir şehir değil, farklı evrenlerin bir araya geldiği devasa bir
 - **Yürüyüş:** Tokyo devasadır ama her mahalle kendi içinde yürünerek keşfedilecek binlerce detay sunar.
 
 ## 💎 Lokal Sırlar & İpuçları
-- **[Golden Gai](search:Golden Gai):** Shinjuku'da sadece 5-6 kişinin sığabildiği minicik barların olduğu labirent sokaklar. Gerçek Tokyo ruhu burada.
-- **[Nakano Broadway](search:Nakano Broadway):** Akihabara çok popülerdir ama gerçek koleksiyonerler ve anime aşıkları Nakano'yu tercih eder.
+- [Golden Gai](search:Golden Gai): Shinjuku'da sadece 5-6 kişinin sığabildiği minicik barların olduğu labirent sokaklar. Gerçek Tokyo ruhu burada.
+- [Nakano Broadway](search:Nakano Broadway): Akihabara çok popülerdir ama gerçek koleksiyonerler ve anime aşıkları Nakano'yu tercih eder.
 - **Görgü Kuralları:** Yürürken yemek yemek hoş karşılanmaz. Aldığınız şeyi aldığınız yerin önünde veya oturarak yiyin.''';
 
   static const _tokyoEN = '''# Tokyo Guide: Journey to the Future 🇯🇵
@@ -475,8 +506,8 @@ Tokyo isn't just a city; it's a massive ecosystem where different universes coll
 - **Walking:** Tokyo is massive, but each neighborhood offers thousands of details that are best discovered by wandering on foot.
 
 ## 💎 Local Secrets & Insights
-- **[Golden Gai](search:Golden Gai):** A maze of tiny alleys in Shinjuku with bars that fit only 5 or 6 people. This is the real soul of Tokyo.
-- **[Nakano Broadway](search:Nakano Broadway):** While Akihabara is famous, true collectors and anime lovers prefer the hidden treasures of Nakano.
+- [Golden Gai](search:Golden Gai): A maze of tiny alleys in Shinjuku with bars that fit only 5 or 6 people. This is the real soul of Tokyo.
+- [Nakano Broadway](search:Nakano Broadway): While Akihabara is famous, true collectors and anime lovers prefer the hidden treasures of Nakano.
 - **Etiquette:** Eating while walking is generally looked down upon. Eat what you buy in front of the shop or find a place to sit.''';
 
   // NEW YORK
@@ -506,9 +537,9 @@ New York; bitmek bilmeyen enerjisi, gökyüzüne uzanan binaları ve her köşes
 - **Ayağınıza Güvenin:** New York çok yürünecek bir yer. Rahat bir ayakkabı hayat kurtarır.
 
 ## 💎 Lokal Sırlar & İpuçları
-- **[High Line](search:High Line):** Eski bir tren hattından park haline getirilen bu yolda gün batımında yürüyün. Şehre çok farklı bir perspektiften bakarsınız.
-- **[Roosevelt Island Tramway](search:Roosevelt Island Tramway):** Sadece bir metro biletine Manhattan manzarasını teleferikle havadan izleyebilirsiniz.
-- **[Chelsea Market](search:Chelsea Market):** Bir öğle yemeğinizi buradaki farklı dünya lezzetlerine ayırın.''';
+- [High Line](search:High Line): Eski bir tren hattından park haline getirilen bu yolda gün batımında yürüyün. Şehre çok farklı bir perspektiften bakarsınız.
+- [Roosevelt Island Tramway](search:Roosevelt Island Tramway): Sadece bir metro biletine Manhattan manzarasını teleferikle havadan izleyebilirsiniz.
+- [Chelsea Market](search:Chelsea Market): Bir öğle yemeğinizi buradaki farklı dünya lezzetlerine ayırın.''';
 
   static const _newyorkEN = '''# New York Guide: The City That Never Sleeps 🇺🇸
 
@@ -536,9 +567,9 @@ New York feels like a permanent movie set with its endless energy, sky-scraping 
 - **Trust Your Feet:** New York is a city meant for walking. A comfortable pair of sneakers is an absolute lifesaver.
 
 ## 💎 Local Secrets & Insights
-- **[The High Line](search:High Line):** Walk this elevated park built on a historic freight rail line at sunset. It offers a unique perspective of the city's architecture.
-- **[Roosevelt Island Tramway](search:Roosevelt Island Tramway):** Use a standard metro fare to get an aerial view of the Manhattan skyline from a cable car.
-- **[Chelsea Market](search:Chelsea Market):** Dedicate a lunch to exploring the diverse global flavors inside this historic food hall.''';
+- [The High Line](search:High Line): Walk this elevated park built on a historic freight rail line at sunset. It offers a unique perspective of the city's architecture.
+- [Roosevelt Island Tramway](search:Roosevelt Island Tramway): Use a standard metro fare to get an aerial view of the Manhattan skyline from a cable car.
+- [Chelsea Market](search:Chelsea Market): Dedicate a lunch to exploring the diverse global flavors inside this historic food hall.''';
 
   // BANGKOK
   static const _bangkokTR = '''# Bangkok Rehberi: Kaotik ve Büyüleyici 🇹🇭
@@ -567,8 +598,8 @@ Bangkok; altın varaklı tapınakların, tüten sokak yemeği tezgahlarının ve
 - **Tuk-tuk Deneyimi:** Turistik bir klişe olsa da en az bir kere deneyin. Binmeden önce mutlaka fiyat üzerinde anlaşın.
 
 ## 💎 Lokal Sırlar & İpuçları
-- **[Khlong Lat Mayom](search:Khlong Lat Mayom):** Turistik yüzen pazarlar yerine yerlilerin gittiği bu pazarı tercih edin. Gerçek yemek deneyimi burada.
-- **[Chatuchak Hafta Sonu Pazarı](search:Chatuchak Market):** Devasa bir labirent. Aradığınız her şeyi (evet, her şeyi) burada bulabilirsiniz.
+- [Khlong Lat Mayom](search:Khlong Lat Mayom): Turistik yüzen pazarlar yerine yerlilerin gittiği bu pazarı tercih edin. Gerçek yemek deneyimi burada.
+- [Chatuchak Hafta Sonu Pazarı](search:Chatuchak Market): Devasa bir labirent. Aradığınız her şeyi (evet, her şeyi) burada bulabilirsiniz.
 - **Çatı Barları:** Sahra otellerin çatı barları yerine daha az bilinen terasları keşfedin; manzara aynı, fiyatlar daha makul.''';
 
   static const _bangkokEN = '''# Bangkok Guide: Chaotic & Mesmerizing 🇹🇭
@@ -597,8 +628,8 @@ Bangkok is a sensory explosion where gold-leafed temples, steaming street food s
 - **Tuk-tuk Experience:** A total tourist cliché, but you must try it at least once. Always agree on the price before you hop in.
 
 ## 💎 Local Secrets & Insights
-- **[Khlong Lat Mayom](search:Khlong Lat Mayom):** Skip the overly touristy floating markets for this local favorite. The food here is authentic and much cheaper.
-- **[Chatuchak Weekend Market](search:Chatuchak Market):** A massive labyrinth. You can find everything (literally everything) here. Wear comfortable shoes.
+- [Khlong Lat Mayom](search:Khlong Lat Mayom): Skip the overly touristy floating markets for this local favorite. The food here is authentic and much cheaper.
+- [Chatuchak Weekend Market](search:Chatuchak Market): A massive labyrinth. You can find everything (literally everything) here. Wear comfortable shoes.
 - **Rooftop Bars:** Instead of the mega-famous ones, look for smaller boutique rooftops for similar views without the dress codes and high prices.''';
 
   // SINGAPUR
@@ -628,9 +659,9 @@ Singapur; kusursuz düzeni, devasa yapay ağaçları ve çok kültürlü mutfağ
 - **Yürüyüş:** Şehir inanılmaz yeşildir ama yoğun nem nedeniyle uzun yürüyüşler yorucu olabilir; AVM'lerin klimaları arasında geçiş yapın!
 
 ## 💎 Lokal Sırlar & İpuçları
-- **[Henderson Waves](search:Henderson Waves):** Gün batımında bu dalga şeklindeki köprüde yürüyün. Şehir manzarası ve doğa bir arada.
-- **[Haji Lane](search:Haji Lane):** Gece modası ve canlı müzik için bu dar ve renkli sokağa uğrayın.
-- **[Havalimanı (Jewel Changi)](search:Jewel Changi):** Sırf o dev şelaleyi görmek için bile havalimanına birkaç saat erken gidin.''';
+- [Henderson Waves](search:Henderson Waves): Gün batımında bu dalga şeklindeki köprüde yürüyün. Şehir manzarası ve doğa bir arada.
+- [Haji Lane](search:Haji Lane): Gece modası ve canlı müzik için bu dar ve renkli sokağa uğrayın.
+- [Havalimanı (Jewel Changi)](search:Jewel Changi): Sırf o dev şelaleyi görmek için bile havalimanına birkaç saat erken gidin.''';
 
   static const _singapurEN = '''# Singapore Guide: The Garden City of the Future 🇸🇬
 
@@ -658,9 +689,9 @@ Singapore is the most modern city-state of the 21st century, with its perfect or
 - **Walking:** The city is incredibly green, but long walks can be tiring due to the intense humidity; switch between the air-conditioners of the malls!
 
 ## 💎 Local Secrets & Insights
-- **[Henderson Waves](search:Henderson Waves):** Walk on this wave-shaped bridge at sunset. City views and nature combined.
-- **[Haji Lane](search:Haji Lane):** Swing by this narrow and colorful street for nightlife fashion and live music.
-- **[The Airport (Jewel Changi)](search:Jewel Changi):** Go to the airport a few hours early just to see that massive indoor waterfall.''';
+- [Henderson Waves](search:Henderson Waves): Walk on this wave-shaped bridge at sunset. City views and nature combined.
+- [Haji Lane](search:Haji Lane): Swing by this narrow and colorful street for nightlife fashion and live music.
+- [The Airport (Jewel Changi)](search:Jewel Changi): Go to the airport a few hours early just to see that massive indoor waterfall.''';
 
   // SEUL
   static const _seulTR = '''# Seul Rehberi: Gelenek ve K-Pop Arasında 🇰🇷
@@ -689,8 +720,8 @@ Seul; 500 yıllık sarayların devasa dijital ekranlarla yan yana durduğu, gün
 - **Naver Maps / Kakao Maps:** Google Maps Kore'de çok iyi çalışmayabilir; bu yerel uygulamalar hayat kurtarır.
 
 ## 💎 Lokal Sırlar & İpuçları
-- **[Han Nehrinde Ramen](search:Han River Park):** Yerliler gibi yapın; nehir kenarındaki marketlerden otomatik makinede pişen hazır ramenlerden alın ve piknik yapın.
-- **[Gece Pazarları](search:Dongdaemun Market):** Dongdaemun pazarı sabaha karşı saat 4'e kadar canlıdır. Alışverişun saati yoktur!
+- [Han Nehrinde Ramen](search:Han River Park): Yerliler gibi yapın; nehir kenarındaki marketlerden otomatik makinede pişen hazır ramenlerden alın ve piknik yapın.
+- [Gece Pazarları](search:Dongdaemun Market): Dongdaemun pazarı sabaha karşı saat 4'e kadar canlıdır. Alışverişun saati yoktur!
 - **Sessiz Vagonlar:** Metroda sessizliğe dikkat edin; yüksek sesle konuşmak hoş karşılanmaz.''';
 
   static const _seulEN = '''# Seoul Guide: Between Tradition & K-Pop 🇰🇷
@@ -719,8 +750,8 @@ Seoul is a dynamic city where 500-year-old palaces stand alongside massive digit
 - **Naver Maps / Kakao Maps:** Google Maps might not work well in Korea; these local apps are essential for navigation.
 
 ## 💎 Local Secrets & Insights
-- **[Han River Ramen](search:Han River Park):** Do as the locals do; buy instant ramen from a convenience store by the river, cook it in the automatic machines, and have a picnic.
-- **[Night Markets](search:Dongdaemun Market):** Dongdaemun market is alive until 4 AM. There's no time limit for shopping in this city!
+- [Han River Ramen](search:Han River Park): Do as the locals do; buy instant ramen from a convenience store by the river, cook it in the automatic machines, and have a picnic.
+- [Night Markets](search:Dongdaemun Market): Dongdaemun market is alive until 4 AM. There's no time limit for shopping in this city!
 - **Quiet Carriages:** Pay attention to the volume of your voice in the subway; loud conversations are frowned upon.''';
 
 
@@ -752,8 +783,8 @@ Lizbon; sarı tramvayları, melankolik Fado müziği ve Atlas Okyanusu'ndan gele
 - **Yürüyüş:** Lizbon'un meşhur kalsada (kaldırım taşları) kaygandır; mutlaka iyi yol tutan bir ayakkabı giyin.
 
 ## 💎 Lokal Sırlar & İpuçları
-- **[Miradouros](search:Miradouro da Senhora do Monte):** Şehrin her yerindeki teraslar (seyir noktaları). Gün batımında *Miradouro da Senhora do Monte* en geniş ve en güzel manzarayı sunar.
-- **[LX Factory](search:LX Factory):** Eski bir fabrika alanının sanat galerileri, restoranlar ve meşhur kitapçılarla dolu bir yaşam alanına dönüşmüş hali.
+- [Miradouros](search:Miradouro da Senhora do Monte): Şehrin her yerindeki teraslar (seyir noktaları). Gün batımında *Miradouro da Senhora do Monte* en geniş ve en güzel manzarayı sunar.
+- [LX Factory](search:LX Factory): Eski bir fabrika alanının sanat galerileri, restoranlar ve meşhur kitapçılarla dolu bir yaşam alanına dönüşmüş hali.
 - **Yankesicilik:** Tramvaylarda ve kalabalık meydanlarda eşyalarınıza dikkat edin; Lizbon genel olarak güvenli olsa da bu bir klasik sorundur.''';
 
   static const _lizbonEN = '''# Lisbon Guide: The City of Seven Hills and Golden Light 🇵🇹
@@ -782,8 +813,8 @@ Lisbon is one of Europe's most atmospheric capitals, with its iconic yellow tram
 - **Walking:** Lisbon's famous cobblestones (calcada) are slippery; always wear shoes with good grip.
 
 ## 💎 Local Secrets & Insights
-- **[Miradouros](search:Miradouro da Senhora do Monte):** These are the viewpoints scattered across the city. *Miradouro da Senhora do Monte* offers the widest and arguably most beautiful sunset view.
-- **[LX Factory](search:LX Factory):** An old industrial site transformed into a hub of art galleries, restaurants, and one of the world's coolest bookstores.
+- [Miradouros](search:Miradouro da Senhora do Monte): These are the viewpoints scattered across the city. *Miradouro da Senhora do Monte* offers the widest and arguably most beautiful sunset view.
+- [LX Factory](search:LX Factory): An old industrial site transformed into a hub of art galleries, restaurants, and one of the world's coolest bookstores.
 - **Pickpockets:** Be vigilant with your belongings on the trams and in crowded squares; it's a common issue in an otherwise very safe city.''';
 
   // PORTO
@@ -810,8 +841,8 @@ Porto; Douro Nehri kıyısına dizilmiş rengarenk evleri, heybetli köprüleri 
 - **Metro:** Havaalanından şehre ulaşım için en pratik yoldur.
 
 ## 💎 Lokal Sırlar & İpuçları
-- **[Jardim do Morro](search:Jardim do Morro):** Karşı kıyıda (Gaia), gün batımında yerlilerin toplanıp müzik yaptığı ve Porto manzarasını izlediği en popüler nokta.
-- **[Sao Bento İstasyonu](search:Sao Bento Station):** Dünyanın en güzel tren istasyonlarından biri. İçerideki "azulejo" (mavi-beyaz seramik) panolarını incelemek için mutlaka uğrayın.''';
+- [Jardim do Morro](search:Jardim do Morro): Karşı kıyıda (Gaia), gün batımında yerlilerin toplanıp müzik yaptığı ve Porto manzarasını izlediği en popüler nokta.
+- [Sao Bento İstasyonu](search:Sao Bento Station): Dünyanın en güzel tren istasyonlarından biri. İçerideki "azulejo" (mavi-beyaz seramik) panolarını incelemek için mutlaka uğrayın.''';
 
   static const _portoEN = '''# Porto Guide: Magic of River and Granite 🇵🇹
 
@@ -836,8 +867,8 @@ Porto offers a more intimate version of Portugal's famous melancholy, with its c
 - **Metro:** The most practical way to get from the airport to the city center.
 
 ## 💎 Local Secrets & Insights
-- **[Jardim do Morro](search:Jardim do Morro):** Located on the Gaia side, this is the most popular spot for locals to gather at sunset, play music, and watch the city light up.
-- **[Sao Bento Station](search:Sao Bento Station):** One of the most beautiful train stations in the world. Stop by to admire the stunning "azulejo" (blue and white ceramic) panels.''';
+- [Jardim do Morro](search:Jardim do Morro): Located on the Gaia side, this is the most popular spot for locals to gather at sunset, play music, and watch the city light up.
+- [Sao Bento Station](search:Sao Bento Station): One of the most beautiful train stations in the world. Stop by to admire the stunning "azulejo" (blue and white ceramic) panels.''';
 
   // MADRID
   static const _madridTR = '''# Madrid Rehberi: İspanya'nın Sosyal Ruhu 🇪🇸
@@ -864,9 +895,9 @@ Madrid; geniş caddeleri, görkemli müzeleri ve bitmek bilmeyen sosyal hayatıy
 - **Yürüyüş:** Şehir merkezi geniştir ama yürüyerek keşfetmek çok keyiflidir.
 
 ## 💎 Lokal Sırlar & İpuçları
-- **[Templo de Debod](search:Templo de Debod):** Mısır'dan getirilmiş gerçek bir tapınak. Gün batımında Madrid'in en büyülü manzarası buradadır.
-- **[Retiro Parkı](search:Retiro Park):** Sadece bir park değil, Madrid'in akciğeridir. İçindeki [Palacio de Cristal](search:Palacio de Cristal)'i (Kristal Saray) mutlaka görün.
-- **[El Rastro](search:El Rastro):** Pazar sabahı kalabalığına karışın ama eşyalarınıza dikkat edin.''';
+- [Templo de Debod](search:Templo de Debod): Mısır'dan getirilmiş gerçek bir tapınak. Gün batımında Madrid'in en büyülü manzarası buradadır.
+- [Retiro Parkı](search:Retiro Park): Sadece bir park değil, Madrid'in akciğeridir. İçindeki [Palacio de Cristal](search:Palacio de Cristal)'i (Kristal Saray) mutlaka görün.
+- [El Rastro](search:El Rastro): Pazar sabahı kalabalığına karışın ama eşyalarınıza dikkat edin.''';
 
   static const _madridEN = '''# Madrid Guide: The Social Soul of Spain 🇪🇸
 
@@ -892,9 +923,9 @@ Madrid is the beating heart of Spain, with its grand boulevards, majestic museum
 - **Walking:** The city center is sprawling but very rewarding to explore on foot.
 
 ## 💎 Local Secrets & Insights
-- **[Templo de Debod](search:Templo de Debod):** An authentic ancient Egyptian temple gifted to Spain. It's the most magical spot in Madrid during sunset.
-- **[Retiro Park](search:Retiro Park):** It’s the lungs of Madrid. Make sure to visit the [Palacio de Cristal](search:Palacio de Cristal) (Crystal Palace) inside for some stunning photos.
-- **[El Rastro](search:El Rastro):** Immerse yourself in the Sunday morning market crowd, but keep a cautious eye on your belongings.''';
+- [Templo de Debod](search:Templo de Debod): An authentic ancient Egyptian temple gifted to Spain. It's the most magical spot in Madrid during sunset.
+- [Retiro Park](search:Retiro Park): It’s the lungs of Madrid. Make sure to visit the [Palacio de Cristal](search:Palacio de Cristal) (Crystal Palace) inside for some stunning photos.
+- [El Rastro](search:El Rastro): Immerse yourself in the Sunday morning market crowd, but keep a cautious eye on your belongings.''';
 
   // SEVILLA
   static const _sevillaTR = '''# Sevilla Rehberi: Endülüs'ün Ruhunu Keşfedin 🇪🇸
@@ -920,8 +951,8 @@ Sevilla; portakal çiçeği kokulu sokakları, tutkulu Flamenco müziği ve dün
 - **Bisiklet (Sevici):** Şehir genelinde çok iyi bir bisiklet yolu ağı vardır.
 
 ## 💎 Lokal Sırlar & İpuçları
-- **[Plaza de España](search:Plaza de España):** Sabah erken gidin; henüz kalabalık yokken o görkemi ve seramiklerin (azulejos) detaylarını tek başınıza görün.
-- **[Metropol Parasol (Setas)](search:Metropol Parasol):** Dünyanın en büyük ahşap yapısı. Gün batımında çatısına çıkıp Sevilla'nın damlarını izlemek harikadır.''';
+- [Plaza de España](search:Plaza de España): Sabah erken gidin; henüz kalabalık yokken o görkemi ve seramiklerin (azulejos) detaylarını tek başınıza görün.
+- [Metropol Parasol (Setas)](search:Metropol Parasol): Dünyanın en büyük ahşap yapısı. Gün batımında çatısına çıkıp Sevilla'nın damlarını izlemek harikadır.''';
 
   static const _sevillaEN = '''# Seville Guide: Discover the Soul of Andalusia 🇪🇸
 
@@ -946,8 +977,8 @@ Seville is the vibrant capital of Andalusia, where the air smells of orange blos
 - **Bikes (Sevici):** Seville has an excellent bike-sharing system and many dedicated cycle lanes across the city.
 
 ## 💎 Local Secrets & Insights
-- **[Plaza de España](search:Plaza de España):** Visit early in the morning. Witness the grandeur and the intricate ceramic details (azulejos) before the crowds arrive.
-- **[Metropol Parasol (The Mushrooms)](search:Metropol Parasol):** The largest wooden structure in the world. Head to the top at sunset to walk the winding pathways above the rooftops of Seville.''';
+- [Plaza de España](search:Plaza de España): Visit early in the morning. Witness the grandeur and the intricate ceramic details (azulejos) before the crowds arrive.
+- [Metropol Parasol (The Mushrooms)](search:Metropol Parasol): The largest wooden structure in the world. Head to the top at sunset to walk the winding pathways above the rooftops of Seville.''';
 
 
   // ISTANBUL
@@ -978,7 +1009,7 @@ Seville is the vibrant capital of Andalusia, where the air smells of orange blos
 - **Metro ve Trafik:** Trafik saatlerinde taksi bulmak imkansızlaşabilir. Metro (M2) ve Tramvay (T1) ağını kullanmak her zaman en hızlı çözümdür.
 
 ## 💎 Lokal Sırlar & İpuçları
-- **Alternatif Gün Batımı:** [Galata Kulesi](search:Galata Tower) önündeki kuyrukta saatler harcamayın. Çevredeki teraslı kafeler veya Üsküdar *[Salacak](search:Salacak)* sahili, tarihi yarımada silüetini izlemek için çok daha keyiflidir.
+- **Alternatif Gün Batımı:** [Galata Kulesi](search:Galata Kulesi) önündeki kuyrukta saatler harcamayın. Çevredeki teraslı kafeler veya Üsküdar *[Salacak](search:Salacak)* sahili, tarihi yarımada silüetini izlemek için çok daha keyiflidir.
 - **Şehrin Gerçek Sahipleri:** Kediler her yerde. Onlara saygılı davranın; onlar İstanbul'un ruhudur.
 - **Müze Kart:** Uzun bilet kuyruklarından kurtulmak için mutlaka bir müze kart edinin veya biletinizi online alın.''';
 
@@ -1040,8 +1071,8 @@ Filmlerdeki o kusursuz sahneleri bir kenara bırakın. Gerçek Paris daha karma�
 
 ## 💎 Lokal Sırlar & İpuçları
 - **Eyfel Manzarası:** Kuleye çıkmak yerine [Zafer Takı (Arc de Triomphe)](search:Arc de Triomphe) tepesine çıkın. Hem şehri hem de bizzat Eyfel'i görebilirsiniz.
-- **[Orsay Müzesi](search:Musée d'Orsay):** Louvre çok devasadır ve yorucudur. Daha insancıl bir ölçekte sanat deneyimi için Eski bir tren garı olan Orsay'ı tercih edin.
-- **[Passage des Panoramas](search:Passage des Panoramas):** Paris'in tarihi pasajlarını keşfedin. Antikacılar ve küçük restonranlarla dolu bu pasajlar sizi zamanda yolculuğa çıkarır.''';
+- [Orsay Müzesi](search:Musée d'Orsay): Louvre çok devasadır ve yorucudur. Daha insancıl bir ölçekte sanat deneyimi için Eski bir tren garı olan Orsay'ı tercih edin.
+- [Passage des Panoramas](search:Passage des Panoramas): Paris'in tarihi pasajlarını keşfedin. Antikacılar ve küçük restonranlarla dolu bu pasajlar sizi zamanda yolculuğa çıkarır.''';
 
   static const _parisEN = '''# The Real Paris: Beyond the Clichés 🇫🇷
 
@@ -1069,8 +1100,8 @@ Forget the flawless movie scenes. Real Paris is more complex, cooler, and defini
 
 ## 💎 Local Secrets & Insights
 - **The Best Eiffel View:** Instead of climbing the Tower, go to the top of the [Arc de Triomphe](search:Arc de Triomphe). You get the whole city view, including the Eiffel Tower itself!
-- **[Orsay over Louvre](search:Musée d'Orsay):** The Louvre is massive and exhausting. For a more digestible art experience, visit the *Musée d'Orsay*, housed in a stunning former train station.
-- **[Passage des Panoramas](search:Passage des Panoramas):** Discover the historic covered passages. Filled with stamp collectors and tiny bistros, they feel like stepping back in time.''';
+- [Orsay over Louvre](search:Musée d'Orsay): The Louvre is massive and exhausting. For a more digestible art experience, visit the *Musée d'Orsay*, housed in a stunning former train station.
+- [Passage des Panoramas](search:Passage des Panoramas): Discover the historic covered passages. Filled with stamp collectors and tiny bistros, they feel like stepping back in time.''';
 
   // BARCELONA
 
@@ -1100,9 +1131,9 @@ Floransa bir şehir değil, devasa bir sanat galerisidir. Michelangelo ve Da Vin
 - **Bisiklet:** Şehir merkezinde bisiklet sürmek hem keyifli hem de pratiktir.
 
 ## 💎 Lokal Sırlar & İpuçları
-- **[Piazzale Michelangelo](search:Piazzale Michelangelo):** Gün batımında mutlaka burada olun. Floransa'nın o meşhur turuncu damlı manzarasını en iyi buradan izlersiniz.
-- **[Derici Pazarı (San Lorenzo)](search:San Lorenzo Market):** Kaliteli deri ürünler bulabilirsiniz ama pazarlık yapmayı unutmayın!
-- **Rezervasyon:** *Uffizi* ve *Academia* müzeleri için biletlerinizi haftalar öncesinden online alın, aksi takdirde gününüz kuyruklarda geçebilir.''';
+- [Piazzale Michelangelo](search:Piazzale Michelangelo): Gün batımında mutlaka burada olun. Floransa'nın o meşhur turuncu damlı manzarasını en iyi buradan izlersiniz.
+- [Derici Pazarı (San Lorenzo)](search:San Lorenzo Pazarı): Kaliteli deri ürünler bulabilirsiniz ama pazarlık yapmayı unutmayın!
+- **Rezervasyon:** [Uffizi](search:Uffizi Galerisi) ve [Academia](search:Accademia Galerisi) müzeleri için biletlerinizi haftalar öncesinden online alın, aksi takdirde gününüz kuyruklarda geçebilir.''';
 
   static const _floransaEN = '''# Florence Guide: Cradle of the Renaissance 🇮🇹
 
@@ -1129,9 +1160,9 @@ Florence isn't just a city; it's a massive art gallery. It's an enchanting place
 - **Biking:** Cycling through the center is both enjoyable and practical, though watch out for the cobblestones.
 
 ## 💎 Local Secrets & Insights
-- **[Piazzale Michelangelo](search:Piazzale Michelangelo):** Make sure to be here at sunset. It offers the most iconic panoramic view of Florence's terracotta rooftops.
-- **[Leather Market (San Lorenzo)](search:San Lorenzo Market):** You can find high-quality leather goods here, but remember to bargain for the best price.
-- **Bookings:** Get your tickets for the [Uffizi](search:Uffizi Gallery) and [Academia](search:Accademia Gallery) galleries weeks in advance online, otherwise you'll spend your day in endless queues.''';
+- [Piazzale Michelangelo](search:Piazzale Michelangelo): Make sure to be here at sunset. It offers the most iconic panoramic view of Florence's terracotta rooftops.
+- [Leather Market (San Lorenzo)](search:San Lorenzo Pazarı): You can find high-quality leather goods here, but remember to bargain for the best price.
+- **Bookings:** Get your tickets for the [Uffizi](search:Uffizi Galerisi) and [Academia](search:Accademia Galerisi) galleries weeks in advance online, otherwise you'll spend your day in endless queues.''';
 
   // VENEDIK
   static const _venedikTR = '''# Venedik Rehberi: Su Üstündeki Rüya 🇮🇹
@@ -1160,8 +1191,8 @@ Venedik; suyun üzerine inşa edilmiş mermer sarayları, sessizce süzülen gon
 - **Traghetto:** Büyük kanalı geçmek için kullanılan daha ucuz, basitleştirilmiş gondollardır. Sadece birkaç Euro'ya gondol deneyimini yaşarsınız.
 
 ## 💎 Lokal Sırlar & İpuçları
-- **[Libreria Acqua Alta](search:Libreria Acqua Alta):** Dünyanın en güzel kitapçılarından biri. Kitapların botlar ve gondollar içinde durduğu, su baskınlarına karşı korunmuş bu büyüleyici mekana mutlaka uğrayın.
-- **[Burano Adası](search:Burano):** Venedik'ten feribotla geçilen, rengarenk evleriyle meşhur bu ada, fotoğraf tutkunları için bir cennettir.
+- [Libreria Acqua Alta](search:Libreria Acqua Alta): Dünyanın en güzel kitapçılarından biri. Kitapların botlar ve gondollar içinde durduğu, su baskınlarına karşı korunmuş bu büyüleyici mekana mutlaka uğrayın.
+- [Burano Adası](search:Burano): Venedik'ten feribotla geçilen, rengarenk evleriyle meşhur bu ada, fotoğraf tutkunları için bir cennettir.
 - **Acqua Alta (Yüksek Su):** Kış aylarında şehirde su seviyesi yükselebilir. Bu bir felaket değil, Venedik hayatının bir parçasıdır.''';
 
   static const _venedikEN = '''# Venice Guide: A Dream Floating on Water 🇮🇹
@@ -1190,8 +1221,8 @@ Venice is the world's most unique city, with its marble palaces built over the l
 - **Traghetto:** These are simplified gondolas used to cross the Grand Canal for just a few Euros—a great way to get a gondola experience on a budget.
 
 ## 💎 Local Secrets & Insights
-- **[Libreria Acqua Alta](search:Libreria Acqua Alta):** One of the world's most beautiful bookstores. Books are stored in boats and bathtubs to protect them from high tides—don't miss the staircase made of old books!
-- **[Burano Island](search:Burano):** A short ferry ride from Venice, this island is famous for its brightly colored houses. A photographer's paradise.
+- [Libreria Acqua Alta](search:Libreria Acqua Alta): One of the world's most beautiful bookstores. Books are stored in boats and bathtubs to protect them from high tides—don't miss the staircase made of old books!
+- [Burano Island](search:Burano): A short ferry ride from Venice, this island is famous for its brightly colored houses. A photographer's paradise.
 - **Acqua Alta (High Water):** During winter, the water level can rise. It's not a disaster; it's a unique part of Venetian life.''';
 
   // MILANO
@@ -1219,8 +1250,8 @@ Milano; İtalya'nın modern yüzü, moda dünyasının kalbi ve tasarımın baş
 - **Eski Tramvaylar:** 1920'lerden kalma ahşap koltuklu tramvaylarla (örneğin 1 numara) bir şehir turu yapın.
 
 ## 💎 Lokal Sırlar & İpuçları
-- **[Duomo'nun Çatısı](search:Duomo di Milano):** Katedralin içine girmek yetmez, asansörle çatısına çıkın. Gotik kulelerin arasından Alpler'e kadar uzanan bir manzara sizi bekliyor.
-- **[10 Corso Como](search:10 Corso Como):** Bir sanat galerisi, kitapçı, butik ve kafe; tasarım dünyasına kısa bir yolculuk.
+- [Duomo'nun Çatısı](search:Duomo di Milano): Katedralin içine girmek yetmez, asansörle çatısına çıkın. Gotik kulelerin arasından Alpler'e kadar uzanan bir manzara sizi bekliyor.
+- [10 Corso Como](search:10 Corso Como): Bir sanat galerisi, kitapçı, butik ve kafe; tasarım dünyasına kısa bir yolculuk.
 - **İndirim Zamanı:** Büyük indirim sezonları Ocak başında ve Temmuz başında başlar.''';
 
   static const _milanoEN = '''# Milan Guide: Fashion, Design & Aesthetics 🇮🇹
@@ -1247,8 +1278,8 @@ Milan is the modern face of Italy, the heart of the global fashion world, and th
 - **Vintage Trams:** Take a ride on the 1920s wooden trams (line 1 is great) for a nostalgic city tour at the cost of a standard ticket.
 
 ## 💎 Local Secrets & Insights
-- **[The Duomo Rooftop](search:Duomo di Milano):** Don't just go inside the cathedral; take the lift to the terrace. Walking among the Gothic spires with a view of the Alps is unforgettable.
-- **[10 Corso Como](search:10 Corso Como):** A unique mix of a gallery, bookstore, boutique, and cafe—a must-visit for design lovers.
+- [The Duomo Rooftop](search:Duomo di Milano): Don't just go inside the cathedral; take the lift to the terrace. Walking among the Gothic spires with a view of the Alps is unforgettable.
+- [10 Corso Como](search:10 Corso Como): A unique mix of a gallery, bookstore, boutique, and cafe—a must-visit for design lovers.
 - **Sale Season:** Major sales start in early January and early July.''';
 
   // NAPOLI
@@ -1277,8 +1308,8 @@ Napoli; kaotik, gürültülü ama bir o kadar da içten ve lezzetli bir şehirdi
 - **Sanat Metrosu:** Linea 1 (1. Hat) istasyonları birer sanat galerisidir (özellikle Toledo istasyonu).
 
 ## 💎 Lokal Sırlar & İpuçları
-- **[Castel Sant'Elmo](search:Castel Sant'Elmo):** Şehri, Vezüv Yanardağı'nı ve denizi 360 derece izlemek için en iyi seyir noktası.
-- **[Yeraltı Napolisi (Napoli Sotterranea)](search:Napoli Sotterranea):** Şehrin altına inip antik Roma tiyatrolarını ve II. Dünya Savaşı sığınaklarını keşfedin.
+- [Castel Sant'Elmo](search:Castel Sant'Elmo): Şehri, Vezüv Yanardağı'nı ve denizi 360 derece izlemek için en iyi seyir noktası.
+- [Yeraltı Napolisi (Napoli Sotterranea)](search:Napoli Sotterranea): Şehrin altına inip antik Roma tiyatrolarını ve II. Dünya Savaşı sığınaklarını keşfedin.
 - **Günübirlik Gezi:** Procida adası, Capri'ye göre daha az turistik ve çok daha renklidir.''';
 
   static const _napoliEN = '''# Naples Guide: The Wild Heart of the Mediterranean 🇮🇹
@@ -1306,8 +1337,8 @@ Naples is chaotic, noisy, and raw, but it's also incredibly sincere and deliciou
 - **Metro Art Stations:** Line 1 stations are underground art galleries—Toledo station is widely considered one of the most beautiful in Europe.
 
 ## 💎 Local Secrets & Insights
-- **[Castel Sant'Elmo](search:Castel Sant'Elmo):** The best vantage point for a 360-degree view of the city, the Bay of Naples, and Mount Vesuvius.
-- **[Napoli Sotterranea (Underground Naples)](search:Napoli Sotterranea):** Descend below the streets to explore ancient Roman theaters and WWII air-raid shelters.
+- [Castel Sant'Elmo](search:Castel Sant'Elmo): The best vantage point for a 360-degree view of the city, the Bay of Naples, and Mount Vesuvius.
+- [Napoli Sotterranea (Underground Naples)](search:Napoli Sotterranea): Descend below the streets to explore ancient Roman theaters and WWII air-raid shelters.
 - **Day Trip:** The island of Procida is less touristy than Capri and significantly more colorful and authentic.''';
 
   // ATINA
@@ -1336,7 +1367,7 @@ Atina; sadece Akropolis değil, tarihle modern sokak sanatının, kadim felsefey
 - **Yürüyüş:** Tarihi merkez (Plaka, Monastiraki, Thissio) tamamen yürünebilir bir ring hattı üzerindedir.
 
 ## 💎 Lokal Sırlar & İpuçları
-- **[Lycabettus Tepesi](search:Lycabettus Hill):** Şehrin en yüksek noktası. Gün batımında veya gece Atina'nın sonsuz ışıklarını izlemek için buraya çıkın.
+- [Lycabettus Tepesi](search:Lycabettus Hill): Şehrin en yüksek noktası. Gün batımında veya gece Atina'nın sonsuz ışıklarını izlemek için buraya çıkın.
 - **Laiki (Semt Pazarları):** Mahallelerde kurulan taze meyve ve sebze pazarları gerçek yerel hayatı gözlemlemek için harikadır.
 - **Bedava Müzeler:** Ayın belirli Pazar günleri antik alanlara girişler ücretsiz olabilir, gitmeden önce kontrol edin.''';
 
@@ -1365,7 +1396,7 @@ Athens is more than just the Acropolis; it's an energetic city where ancient his
 - **Walking:** The historical heart (Plaka, Monastiraki, Thissio) is connected by a pedestrian ring that makes walking the best way to see the sights.
 
 ## 💎 Local Secrets & Insights
-- **[Lycabettus Hill](search:Lycabettus Hill):** The highest point in the city center. Head up here at night to see the sprawling lights of Athens stretch all the way to the sea.
+- [Lycabettus Hill](search:Lycabettus Hill): The highest point in the city center. Head up here at night to see the sprawling lights of Athens stretch all the way to the sea.
 - **Laiki Markets:** These local farmers' markets are held weekly in different neighborhoods—the best place to see authentic local life.
 - **Free Entry:** Many archaeological sites are free to the public on the first Sunday of the month during the winter season.''';
 
@@ -1458,7 +1489,7 @@ Prag; Arnavut kaldırımlı sokakları, Ortaçağ'dan kalma astronomik saati ve 
 
 ## 💎 Lokal Sırlar & İpuçları
 - **Döviz Bozdurma:** Sokaktaki döviz bürolarına çok dikkat edin. "0% Komisyon" yazanların çoğu gizli ücretler alır. *Honest Guide* videolarına göz atmadan para bozdurmayın!
-- **[Letná Park](search:Letná Park):** Şehrin en iyi bira bahçesi ve Vltava üzerindeki köprülerin en güzel fotoğraf karesi buradadır.
+- [Letná Park](search:Letná Park): Şehrin en iyi bira bahçesi ve Vltava üzerindeki köprülerin en güzel fotoğraf karesi buradadır.
 - **Kütüphane Büyüsü:** *[Strahov Manastırı](search:Strahov Monastery)* kütüphanesini görün; kendinizi Harry Potter filminde hissedeceksiniz.''';
 
   static const _pragEN = '''# Prague Guide: The City of a Hundred Spires 🇨🇿
@@ -1487,7 +1518,7 @@ Prague feels like a page out of a fairytale, with its cobblestone streets, medie
 
 ## 💎 Local Secrets & Insights
 - **Currency Exchange:** Be very cautious with street bureaux de change. Some advertise "0% commission" but use horrible rates. Use reputable places recommended by locals.
-- **[Letná Park](search:Letná Park):** Home to the city's best beer garden and the iconic viewpoint overlooking the bridges of the Vltava.
+- [Letná Park](search:Letná Park): Home to the city's best beer garden and the iconic viewpoint overlooking the bridges of the Vltava.
 - **Strahov Library:** Visit the library at [Strahov Monastery](search:Strahov Monastery); it's one of the most breathtaking libraries in the world and feels like stepping into a movie set.''';
 
   // VIYANA
@@ -1514,8 +1545,8 @@ Viyana; geniş caddeleri, heybetli sarayları ve dünyaca ünlü klasik müzik m
 - **Ringstrasse Tramvayı:** 1 ve 2 numaralı tramvaylarla şehrin etrafındaki o meşhur dairesel bulvarda tur atıp en görkemli binaları görebilirsiniz.
 
 ## 💎 Lokal Sırlar & İpuçları
-- **[Devlet Operası (Staatsoper)](search:Vienna State Opera):** Pahalı koltuklar yerine, oyun başlamadan 80 dakika önce satılan çok ucuz "ayakta bilet"lerden (standing tickets) alıp o görkemi yaşayabilirsiniz.
-- **[Hundertwasserhaus](search:Hundertwasserhaus):** Klasik mimariden sıkıldıysanız, bu renkli ve eğimli binayı mutlaka görün; doğayla mimarinin barışmış hali.
+- [Devlet Operası (Staatsoper)](search:Vienna State Opera): Pahalı koltuklar yerine, oyun başlamadan 80 dakika önce satılan çok ucuz "ayakta bilet"lerden (standing tickets) alıp o görkemi yaşayabilirsiniz.
+- [Hundertwasserhaus](search:Hundertwasserhaus): Klasik mimariden sıkıldıysanız, bu renkli ve eğimli binayı mutlaka görün; doğayla mimarinin barışmış hali.
 - **Musluk Suyu:** Viyana'nın musluk suyu doğrudan Alpler'den gelir ve dünyanın en temiz sularından biridir; boşuna para vermeyin!''';
 
   static const _viyanaEN = '''# Vienna Guide: Imperial Elegance & Coffee Tradition 🇦🇹
@@ -1541,8 +1572,8 @@ Vienna is one of Europe's most noble cities, with its grand boulevards, majestic
 - **Ringstrasse Trams:** Take trams 1 or 2 for a full loop around the famous circular boulevard to see the city's most monumental architecture.
 
 ## 💎 Local Secrets & Insights
-- **[State Opera (Staatsoper)](search:Vienna State Opera):** Instead of expensive seats, you can buy very cheap standing tickets sold about 80 minutes before each performance.
-- **[Hundertwasserhaus](search:Hundertwasserhaus):** If you get tired of classical symmetry, visit this colorful, curvy apartment block—an artistic vision of building in harmony with nature.
+- [State Opera (Staatsoper)](search:Vienna State Opera): Instead of expensive seats, you can buy very cheap standing tickets sold about 80 minutes before each performance.
+- [Hundertwasserhaus](search:Hundertwasserhaus): If you get tired of classical symmetry, visit this colorful, curvy apartment block—an artistic vision of building in harmony with nature.
 - **Tap Water:** Vienna’s tap water comes directly from the Alps and is some of the cleanest in the world; don't bother buying bottled water!''';
 
   // BUDAPESTE
@@ -1572,8 +1603,8 @@ Budapeşte; Buda'nın tarihi sükuneti ile Pest'in hareketli gece hayatının, t
 - **Yürüyüş:** Buda'dan Pest'e yürüyerek geçmek, özellikle ışıklandırılmış Zincir Köprü üzerinden, şehrin ruhunu hissettirir.
 
 ## 💎 Lokal Sırlar & İpuçları
-- **[Balıkçı Tabyası (Halászbástya)](search:Fisherman's Bastion):** Gün doğumu veya gece gidin; manzara o kadar masalsıdır ki kendinizi bir film setinde sanabilirsiniz.
-- **[Margaret Adası](search:Margaret Island):** Şehrin gürültüsünden kaçmak için Tuna'nın ortasındaki bu yeşil adaya sığının.
+- [Balıkçı Tabyası (Halászbástya)](search:Fisherman's Bastion): Gün doğumu veya gece gidin; manzara o kadar masalsıdır ki kendinizi bir film setinde sanabilirsiniz.
+- [Margaret Adası](search:Margaret Island): Şehrin gürültüsünden kaçmak için Tuna'nın ortasındaki bu yeşil adaya sığının.
 - **Market Hall:** Taze paprika, Macar salamı ve hediyelik eşya almak için büyük pazar alanına uğrayın (üst katta yerel yemekler tadılabilir).''';
 
   static const _budapesteEN = '''# Budapest Guide: The Pearl of the Danube 🇭🇺
@@ -1632,8 +1663,8 @@ Kopenhag; "Hygge" felsefesiyle ısınan evleri, dünyaca ünlü tasarım anlayı
 - **Kopenhag Kart:** Müzeler ve ulaşım için oldukça karlı olabilir.
 
 ## 💎 Lokal Sırlar & İpuçları
-- **[Reffen](search:Reffen):** Eski bir endüstriyel alanda kurulan devasa sokak yemeği pazarı. Yaz akşamlarının vazgeçilmezidir.
-- **[Christiania (Özgür Şehir)](search:Freetown Christiania):** Kendi kuralları olan bu özerk bölgeyi ziyaret edin; graffitileri ve alternatif yaşam tarzı ile benzersizdir (fotoğraf çekme kurallarına dikkat edin!).
+- [Reffen](search:Reffen): Eski bir endüstriyel alanda kurulan devasa sokak yemeği pazarı. Yaz akşamlarının vazgeçilmezidir.
+- [Christiania (Özgür Şehir)](search:Freetown Christiania): Kendi kuralları olan bu özerk bölgeyi ziyaret edin; graffitileri ve alternatif yaşam tarzı ile benzersizdir (fotoğraf çekme kurallarına dikkat edin!).
 - **Kanalda Yüzmek:** Şehrin ortasındaki kanalların suyu tertemizdir. Yazın yerlilerle birlikte bu "havuzlara" atlayın.''';
 
   static const _kopenhagEN = '''# Copenhagen Guide: Capital of Design & Happiness 🇩🇰
@@ -1661,8 +1692,8 @@ Copenhagen is one of the most liveable cities in the world, defined by the "Hygg
 - **Copenhagen Card:** Offers great value if you plan to visit multiple museums and use public transport within the wider metropolitan area.
 
 ## 💎 Local Secrets & Insights
-- **[Reffen](search:Reffen):** A massive outdoor street food market on a former industrial site. It’s the ultimate place for summer evening vibes.
-- **[Freetown Christiania](search:Freetown Christiania):** Visit this self-governing autonomous district for its unique street art and alternative lifestyle (be sure to follow their internal rules regarding photography).
+- [Reffen](search:Reffen): A massive outdoor street food market on a former industrial site. It’s the ultimate place for summer evening vibes.
+- [Freetown Christiania](search:Freetown Christiania): Visit this self-governing autonomous district for its unique street art and alternative lifestyle (be sure to follow their internal rules regarding photography).
 - **Canal Swimming:** The water in Copenhagen's canals is exceptionally clean. Join the locals at Harbor Bath Islands Brygge for a refreshing summer dip.''';
 
   // STOKHOLM
@@ -1692,8 +1723,8 @@ Stokholm; 14 ada üzerine yayılmış, 50'den fazla köprüyle birbirine bağlan
 - **Feribotlar:** Toplu taşıma kartınız feribotlarda da geçerlidir. Adalar arasında deniz yoluyla seyahat etmek hem ucuz hem de manzaralıdır.
 
 ## 💎 Lokal Sırlar & İpuçları
-- **[Monteliusvägen](search:Monteliusvägen):** Södermalm'da bulunan bu yürüyüş yolu, Gamla Stan ve belediye binasının en güzel manzarasını sunar; özellikle gün batımında unutulmazdır.
-- **[Rosendals Trädgård](search:Rosendals Trädgård):** Djurgården'ın derinliklerinde saklı bir bahçe kafe. Kendi yetiştirdikleri ürünlerle yaptıkları yemekler ve sera atmosferi büyüleyicidir.
+- [Monteliusvägen](search:Monteliusvägen): Södermalm'da bulunan bu yürüyüş yolu, Gamla Stan ve belediye binasının en güzel manzarasını sunar; özellikle gün batımında unutulmazdır.
+- [Rosendals Trädgård](search:Rosendals Trädgård): Djurgården'ın derinliklerinde saklı bir bahçe kafe. Kendi yetiştirdikleri ürünlerle yaptıkları yemekler ve sera atmosferi büyüleyicidir.
 - **Nakit:** İsveç neredeyse tamamen nakitsiz bir toplumdur. Birçok yer "Card Only" çalışır; nakit paraya ihtiyacınız olmayacaktır.''';
 
   static const _stokholmEN = '''# Stockholm Guide: Elegance on the Water 🇸🇪
@@ -1722,8 +1753,8 @@ Stockholm is spread across 14 islands connected by over 50 bridges, seamlessly b
 - **Ferries:** Your public transport card is valid on many ferries. Crossing between islands by water is both economical and offers the best perspectives of the city.
 
 ## 💎 Local Secrets & Insights
-- **[Monteliusvägen](search:Monteliusvägen):** This walking path on Södermalm offers the single best panoramic view of Gamla Stan and the City Hall, especially stunning at sunset.
-- **[Rosendals Trädgård](search:Rosendals Trädgård):** A hidden garden cafe in the middle of Djurgården island, where food is prepared with ingredients grown on-site in a greenhouse setting.
+- [Monteliusvägen](search:Monteliusvägen): This walking path on Södermalm offers the single best panoramic view of Gamla Stan and the City Hall, especially stunning at sunset.
+- [Rosendals Trädgård](search:Rosendals Trädgård): A hidden garden cafe in the middle of Djurgården island, where food is prepared with ingredients grown on-site in a greenhouse setting.
 - **Cashless Society:** Sweden is almost entirely cashless. Most places are "Card Only," so don't worry about carrying physical currency.''';
 
   // ZURIH
@@ -1752,8 +1783,8 @@ Zürih; dünyanın finans başkentlerinden biri olmasının yanı sıra, tertemi
 - **Tekne turları:** Gölde kısa bir tur yapmak şehrin siluetini görmek için en iyi yoldur.
 
 ## 💎 Lokal Sırlar & İpuçları
-- **[Lindenhof](search:Lindenhof):** Eski şehirde, nehir ve katedrallere karşı oturup dinlenmek için en huzurlu tepe noktası.
-- **[Thermalbad & Spa Zurich](search:Thermalbad & Spa Zurich):** Eski bir bira fabrikasının içinde yer alan bu spa, özellikle çatısındaki açık havuzuyla şehre tepeden bakarken dinlenme imkanı sunar.
+- [Lindenhof](search:Lindenhof): Eski şehirde, nehir ve katedrallere karşı oturup dinlenmek için en huzurlu tepe noktası.
+- [Thermalbad & Spa Zurich](search:Thermalbad & Spa Zurich): Eski bir bira fabrikasının içinde yer alan bu spa, özellikle çatısındaki açık havuzuyla şehre tepeden bakarken dinlenme imkanı sunar.
 - **Musluk Suyu:** Şehrin her yerindeki fıskiyelerden akan su içilebilir ve Alp tazeliğindedir.''';
 
   static const _zurihEN = '''# Zurich Guide: Alpine Peaks & Lakeside Luxury 🇨🇭
@@ -1781,8 +1812,8 @@ Zurich is not just a global financial hub; it's a city of pristine waters, river
 - **Lake Boats:** A short cruise on Lake Zurich is the best way to see the city's skyline against the mountains.
 
 ## 💎 Local Secrets & Insights
-- **[Lindenhof](search:Lindenhof):** A quiet hilltop in the old town providing a beautiful panorama of the river and the iconic twin towers of Grossmünster.
-- **[Thermalbad & Spa Zurich](search:Thermalbad & Spa Zurich):** Built inside an old brewery, its rooftop pool offers a unique opportunity to soak in thermal waters with a view over the city.
+- [Lindenhof](search:Lindenhof): A quiet hilltop in the old town providing a beautiful panorama of the river and the iconic twin towers of Grossmünster.
+- [Thermalbad & Spa Zurich](search:Thermalbad & Spa Zurich): Built inside an old brewery, its rooftop pool offers a unique opportunity to soak in thermal waters with a view over the city.
 - **Free Water:** The fountains scattered across the city flow with drinkable, cold Alpine water—bring a reusable bottle!''';
 
   // CENEVRE
@@ -1809,8 +1840,8 @@ Cenevre; Alpler'in ortasında, devasa bir gölün kenarında yer alan, çok dill
 - **Mouettes:** Gölün iki yakası arasında ulaşım sağlayan küçük sarı tekneler; hem keyifli hem de hızlıdır.
 
 ## 💎 Lokal Sırlar & İpuçları
-- **[Jet d'Eau](search:Jet d'Eau):** Şehrin sembolü olan bu dev fıskıye rüzgarlı havalarda kapatılır. Akşamları ışıklandırıldığında çok daha etkileyicidir.
-- **[CERN](search:CERN):** Bilim meraklıları için dünyanın en büyük parçacık fiziği laboratuvarı şehir merkezine tramvayla sadece 20 dakika uzaklıktadır; turlar için aylar öncesinden rezervasyon yapın.''';
+- [Jet d'Eau](search:Jet d'Eau): Şehrin sembolü olan bu dev fıskıye rüzgarlı havalarda kapatılır. Akşamları ışıklandırıldığında çok daha etkileyicidir.
+- [CERN](search:CERN (Globe of Science)): Bilim meraklıları için dünyanın en büyük parçacık fiziği laboratuvarı şehir merkezine tramvayla sadece 20 dakika uzaklıktadır; turlar için aylar öncesinden rezervasyon yapın.''';
 
   static const _cenevreEN = '''# Geneva Guide: Diplomacy, Watches & Alpine Charm 🇨🇭
 
@@ -1835,8 +1866,8 @@ Geneva is a multilingual, highly cosmopolitan hub of diplomacy situated on the s
 - **Mouettes:** These small yellow water taxis are the most charming way to cross the lake and are included in the local transport network.
 
 ## 💎 Local Secrets & Insights
-- **[Jet d'Eau](search:Jet d'Eau):** The city's 140-meter-high water fountain. Note that it's turned off in high winds and is most beautiful when illuminated at night.
-- **[CERN](search:CERN):** Science enthusiasts shouldn't miss the world's largest particle physics lab, just a 20-minute tram ride from the center. (Book tours well in advance!).''';
+- [Jet d'Eau](search:Jet d'Eau): The city's 140-meter-high water fountain. Note that it's turned off in high winds and is most beautiful when illuminated at night.
+- [CERN](search:CERN (Globe of Science)): Science enthusiasts shouldn't miss the world's largest particle physics lab, just a 20-minute tram ride from the center. (Book tours well in advance!).''';
 
   // LUCERNE
   static const _lucerneTR = '''# Lucerne Rehberi: Kartpostallık Bir İsviçre Masalı 🇨🇭
@@ -1861,9 +1892,9 @@ Lucerne (Luzern); karlarla örtülü Alpler'in ve masmavi bir gölün kıyısın
 - **Göl Feribotları:** Lucerne Gölü'nde (Vierwaldstättersee) eski tip buharlı gemilerle bir tur yapmadan dönmeyin.
 
 ## 💎 Lokal Sırlar & İpuçları
-- **[Kapellbrücke (Şapel Köprüsü)](search:Chapel Bridge):** Dünyanın en eski ahşap köprülerinden biridir. Sabah çok erken giderseniz turist kalabalığı olmadan fotoğraflayabilirsiniz.
-- **[Mt. Pilatus](search:Mount Pilatus):** Dünyanın en dik dişli treniyle dağın zirvesine çıkın; manzara sizi büyüleyecektir.
-- **[Lion Monument](search:Lion Monument):** Mark Twain'in "dünyanın en hüzünlü ve etkileyici taş parçası" olarak tanımladığı bu anıtı mutlaka görün.''';
+- [Kapellbrücke (Şapel Köprüsü)](search:Chapel Bridge): Dünyanın en eski ahşap köprülerinden biridir. Sabah çok erken giderseniz turist kalabalığı olmadan fotoğraflayabilirsiniz.
+- [Mt. Pilatus](search:Mount Pilatus): Dünyanın en dik dişli treniyle dağın zirvesine çıkın; manzara sizi büyüleyecektir.
+- [Lion Monument](search:Lion Monument): Mark Twain'in "dünyanın en hüzünlü ve etkileyici taş parçası" olarak tanımladığı bu anıtı mutlaka görün.''';
 
   static const _lucerneEN = '''# Lucerne Guide: A Postcard-Perfect Swiss Fairytale 🇨🇭
 
@@ -1887,9 +1918,9 @@ Lucerne (Luzern) is the literal heart of Switzerland, famous for its historic co
 - **Steamers:** A boat trip on Lake Lucerne (Vierwaldstättersee) using the historic paddlewheel steamers is an essential Lucerne experience.
 
 ## 💎 Local Secrets & Insights
-- **[Kapellbrücke (Chapel Bridge)](search:Chapel Bridge):** One of the world's oldest covered bridges. Arrive early at dawn for the best photos without the tourist crowds.
-- **[Mt. Pilatus](search:Mount Pilatus):** Take the world's steepest cogwheel railway to the summit for a 360-degree view that will leave you speechless.
-- **[Lion Monument](search:Lion Monument):** Described by Mark Twain as "the most mournful and moving piece of stone in the world"—visit it early to appreciate the quiet solemnity.''';
+- [Kapellbrücke (Chapel Bridge)](search:Chapel Bridge): One of the world's oldest covered bridges. Arrive early at dawn for the best photos without the tourist crowds.
+- [Mt. Pilatus](search:Mount Pilatus): Take the world's steepest cogwheel railway to the summit for a 360-degree view that will leave you speechless.
+- [Lion Monument](search:Lion Monument): Described by Mark Twain as "the most mournful and moving piece of stone in the world"—visit it early to appreciate the quiet solemnity.''';
 
   // LYON
   static const _lyonTR = '''# Lyon Rehberi: Lezzet ve Işığın Başkenti 🇫🇷
@@ -1915,8 +1946,8 @@ Lyon; Fransa'nın gastronomi kalbi, iki nehrin buluştuğu nokta ve gizli geçit
 - **Füniküler:** "Ficelle" denilen fünikülerle Fourvière Tepesi'ne kolayca çıkabilirsiniz.
 
 ## 💎 Lokal Sırlar & İpuçları
-- **[Traboules](search:Vieux Lyon):** Binaların içinden geçen bu gizli geçitleri keşfedin (özellikle Vieux Lyon ve Croix-Rousse'da). İpek işçilerinin kumaşları yağmurdan korumak için kullandığı yollardır.
-- **[Les Halles de Lyon Paul Bocuse](search:Les Halles de Lyon Paul Bocuse):** Şehrin dev kapalı gurme pazarı. Dünyanın en iyi peynirlerini ve şaraplarını burada tadabilirsiniz.''';
+- [Traboules](search:Vieux Lyon): Binaların içinden geçen bu gizli geçitleri keşfedin (özellikle Vieux Lyon ve Croix-Rousse'da). İpek işçilerinin kumaşları yağmurdan korumak için kullandığı yollardır.
+- [Les Halles de Lyon Paul Bocuse](search:Les Halles de Lyon Paul Bocuse): Şehrin dev kapalı gurme pazarı. Dünyanın en iyi peynirlerini ve şaraplarını burada tadabilirsiniz.''';
 
   static const _lyonEN = '''# Lyon Guide: The Capital of Flavors & Light 🇫🇷
 
@@ -1941,8 +1972,8 @@ Lyon is the gastronomic heart of France, famously situated at the confluence of 
 - **The Funicular:** Known by locals as "La Ficelle," it takes you up to Fourvière hill for the best panoramic views.
 
 ## 💎 Local Secrets & Insights
-- **[The Traboules](search:Vieux Lyon):** These secret passages allowed silk workers to transport fabrics without exposing them to rain. Many are open to the public during the day.
-- **[Les Halles de Lyon Paul Bocuse](search:Les Halles de Lyon Paul Bocuse):** A massive indoor food market named after the legendary chef. It's a paradise for cheese, wine, and gourmet deli lovers.''';
+- [The Traboules](search:Vieux Lyon): These secret passages allowed silk workers to transport fabrics without exposing them to rain. Many are open to the public during the day.
+- [Les Halles de Lyon Paul Bocuse](search:Les Halles de Lyon Paul Bocuse): A massive indoor food market named after the legendary chef. It's a paradise for cheese, wine, and gourmet deli lovers.''';
 
   // MARSILYA
   static const _marsilyaTR = '''# Marsilya Rehberi: Akdeniz'in Vahşi ve Renkli Yüzü 🇫🇷
@@ -1968,8 +1999,8 @@ Marsilya; kaotik, güneşe boğulmuş, çok kültürlü ve son derece samimi bir
 - **Feribot:** Vieux-Port'tan karşı kıyıya veya Frioul adalarına giden feribotlar harika manzaralar sunar.
 
 ## 💎 Lokal Sırlar & İpuçları
-- **[Les Calanques](search:Calanques National Park):** Şehir merkezinden kısa bir otobüs veya tekne yolculuğuyla ulaşılan bu masmavi fiyortlarda yüzmek unutulmaz bir deneyimdir.
-- **[Cours Julien](search:Cours Julien):** Alternatif bir ruh arıyorsanız, grafiti dolu sokakları ve canlı gece hayatıyla bu bölge tam size göre.
+- [Les Calanques](search:Calanques National Park): Şehir merkezinden kısa bir otobüs veya tekne yolculuğuyla ulaşılan bu masmavi fiyortlarda yüzmek unutulmaz bir deneyimdir.
+- [Cours Julien](search:Cours Julien): Alternatif bir ruh arıyorsanız, grafiti dolu sokakları ve canlı gece hayatıyla bu bölge tam size göre.
 - **Güvenlik:** Her büyük liman şehri gibi Marsilya'da da özellikle kalabalık yerlerde eşyalarınıza dikkat edin ve ıssız sokaklardan kaçının.''';
 
   static const _marsilyaEN = '''# Marseille Guide: The Wild & Colorful Heart of the Med 🇫🇷
@@ -1995,8 +2026,8 @@ Marseille is a sun-drenched, multicultural, and raw port city. As France's oldes
 - **Ferry Boats:** Take the small ferry across the Old Port or catch a larger boat to the historic Frioul Islands and the Château d'If.
 
 ## 💎 Local Secrets & Insights
-- **[The Calanques](search:Calanques National Park):** These stunning limestone sea inlets with turquoise water are just a bus or boat ride away. Ideal for hiking and swimming.
-- **[Cours Julien](search:Cours Julien):** If you’re looking for an alternative vibe, this is the center of Marseille’s street art scene, filled with bars and indie bookstores.
+- [The Calanques](search:Calanques National Park): These stunning limestone sea inlets with turquoise water are just a bus or boat ride away. Ideal for hiking and swimming.
+- [Cours Julien](search:Cours Julien): If you’re looking for an alternative vibe, this is the center of Marseille’s street art scene, filled with bars and indie bookstores.
 - **Safety Specifics:** Like any major port city, stay aware of your surroundings in crowded tourist areas and keep an eye on your belongings.''';
 
   // NICE
@@ -2026,9 +2057,9 @@ Nice; Côte d'Azur'un kalbinde, çakıllı plajları, masmavi denizi ve İtalyan
 - **Trenler (TER):** Nice, Riviera'daki diğer şehirleri gezmek için mükemmel bir merkezdir. Sadece 20-30 dakikada Monaco veya Cannes'a gidebilirsiniz.
 
 ## 💎 Lokal Sırlar & İpuçları
-- **[Colline du Château (Kale Tepesi)](search:Castle Hill Nice):** Şehrin ve denizin o meşhur manzarasını görmek için buraya mutlaka çıkın (Asansör ücretsizdir).
-- **[Cours Saleya](search:Cours Saleya):** Gündüz çiçek pazarı, akşam ise dev açık hava restoranına dönüşen bu meydanın atmosferi büyüleyicidir.
-- **[Villefranche-sur-Mer](search:Villefranche-sur-Mer):** Sadece bir durak ötedeki bu küçük koy, çok daha sakin bir plaj ve büyüleyici bir balıkçı kasabası atmosferi sunar.''';
+- [Colline du Château (Kale Tepesi)](search:Castle Hill Nice): Şehrin ve denizin o meşhur manzarasını görmek için buraya mutlaka çıkın (Asansör ücretsizdir).
+- [Cours Saleya](search:Cours Saleya): Gündüz çiçek pazarı, akşam ise dev açık hava restoranına dönüşen bu meydanın atmosferi büyüleyicidir.
+- [Villefranche-sur-Mer](search:Villefranche-sur-Mer): Sadece bir durak ötedeki bu küçük koy, çok daha sakin bir plaj ve büyüleyici bir balıkçı kasabası atmosferi sunar.''';
 
   static const _niceEN = '''# Nice Guide: The Radiant Capital of the French Riviera 🇫🇷
 
@@ -2056,9 +2087,9 @@ Nice is the heart of the Côte d'Azur, a city of pebbles and blue shutters, wher
 - **Regional Trains (TER):** Nice is a brilliant hub. Monaco, Cannes, and Antibes are all within a 30-minute train ride along the coast.
 
 ## 💎 Local Secrets & Insights
-- **[Castle Hill (Colline du Château)](search:Castle Hill Nice):** Climb up (or take the free elevator) for the most famous panorama of the Bay of Angels.
-- **[Cours Saleya](search:Cours Saleya):** A vibrant flower and produce market by day that turns into a massive outdoor dining space at night.
-- **[Villefranche-sur-Mer](search:Villefranche-sur-Mer):** Just one train stop away, this bay offers a sandier beach and a much more peaceful, picturesque fishing village vibe.''';
+- [Castle Hill (Colline du Château)](search:Castle Hill Nice): Climb up (or take the free elevator) for the most famous panorama of the Bay of Angels.
+- [Cours Saleya](search:Cours Saleya): A vibrant flower and produce market by day that turns into a massive outdoor dining space at night.
+- [Villefranche-sur-Mer](search:Villefranche-sur-Mer): Just one train stop away, this bay offers a sandier beach and a much more peaceful, picturesque fishing village vibe.''';
 
   // MARAKES
   static const _marakesTR = '''# Marakeş Rehberi: Baharat, Saraylar ve Çöl Ruhu 🇲🇦
@@ -2086,9 +2117,9 @@ Marakeş; kırmızı duvarları, labirent gibi çarşıları ve bitmek bilmeyen 
 - **Petit Taxi:** Şehir içi kısa mesafeler için ekonomik ve pratik olan bu küçük arabaları kullanın (mutlaka taksimetre açtırın).
 
 ## 💎 Lokal Sırlar & İpuçları
-- **[Majorelle Bahçesi](search:Jardin Majorelle):** Yves Saint Laurent'ın şehre mirası olan bu masmavi bahçeyi mutlaka sabah erken saatlerde ziyaret edin.
-- **[Bahia Sarayı](search:Bahia Palace):** Fas mimarisinin ve çini sanatının en güzel örneklerini burada görebilirsiniz.
-- **[Jemaa el-Fna](search:Jemaa el-Fna):** Güneş battığında bu meydan dev bir açık hava mutfağına ve gösteri alanına dönüşür; bir teras kafesinden izlemek harikadır.''';
+- [Majorelle Bahçesi](search:Jardin Majorelle): Yves Saint Laurent'ın şehre mirası olan bu masmavi bahçeyi mutlaka sabah erken saatlerde ziyaret edin.
+- [Bahia Sarayı](search:Bahia Palace): Fas mimarisinin ve çini sanatının en güzel örneklerini burada görebilirsiniz.
+- [Jemaa el-Fna](search:Jemaa el-Fna): Güneş battığında bu meydan dev bir açık hava mutfağına ve gösteri alanına dönüşür; bir teras kafesinden izlemek harikadır.''';
 
   static const _marakesEN = '''# Marrakech Guide: Spices, Palaces & Desert Soul 🇲🇦
 
@@ -2115,8 +2146,8 @@ Marrakech, known as the "Red City," is a sensory feast of intricate architecture
 - **Petit Taxis:** Small brown cars for city transfers. They are inexpensive, but always insist on using the meter (the "compteur").
 
 ## 💎 Local Secrets & Insights
-- **[Jardin Majorelle](search:Jardin Majorelle):** The famous cobalt-blue garden owned by Yves Saint Laurent. Buy tickets online in advance to avoid long queues.
-- **[Bahia Palace](search:Bahia Palace):** A 19th-century masterpiece showing the very best of Islamic architecture and Moroccan mosaics (zellij).
+- [Jardin Majorelle](search:Jardin Majorelle): The famous cobalt-blue garden owned by Yves Saint Laurent. Buy tickets online in advance to avoid long queues.
+- [Bahia Palace](search:Bahia Palace): A 19th-century masterpiece showing the very best of Islamic architecture and Moroccan mosaics (zellij).
 - **[Jemaa el-Fna](search:Jemaa el-Fna) at Night:** As dusk falls, the main square transforms into a massive open-air grill. Watch the chaos from a safe distance at a rooftop cafe.''';
 
   // DUBAI
@@ -2145,7 +2176,7 @@ Dubai; imkansızın mümkün kılındığı, dünyanın en yüksek binalarının
 
 ## 💎 Lokal Sırlar & İpuçları
 - **Abra Yolculuğu:** [Dubai Creek](search:Dubai Creek)'te karşıdan karşıya geçmek için kullanılan geleneksel tekneler sadece 1-2 Dirhem'dir; en ucuz ve keyifli deneyimdir.
-- **[Al Qudra Gölleri](search:Al Qudra Lakes):** Şehir merkezinden uzakta, çölde yıldızları izlemek ve gün batımı pikniği yapmak için yerlilerin tercihidir.
+- [Al Qudra Gölleri](search:Al Qudra Lakes): Şehir merkezinden uzakta, çölde yıldızları izlemek ve gün batımı pikniği yapmak için yerlilerin tercihidir.
 - **[Burj Khalifa](search:Burj Khalifa) İpucu:** Manzara için biletinizi haftalar öncesinden online alın; gün batımı saatleri en popüler olanlardır.''';
 
   static const _dubaiEN = '''# Dubai Guide: A Vision of the Future in the Desert 🇦🇪
@@ -2173,7 +2204,7 @@ Dubai is a modern marvel where the impossible becomes possible—a city of recor
 
 ## 💎 Local Secrets & Insights
 - **The Abra Ride:** Crossing the [Dubai Creek](search:Dubai Creek) in a traditional wooden boat costs only 1 Dirham—the most authentic and affordable experience in town.
-- **[Al Qudra Lakes](search:Al Qudra Lakes):** A man-made desert oasis perfect for a sunset picnic or stargazing, far from the city's neon lights.
+- [Al Qudra Lakes](search:Al Qudra Lakes): A man-made desert oasis perfect for a sunset picnic or stargazing, far from the city's neon lights.
 - **[Burj Khalifa](search:Burj Khalifa) View:** Book your "At The Top" tickets online weeks in advance; choosing a slot just before sunset gives you the best of both day and night views.''';
 
   // HONG KONG
@@ -2203,9 +2234,9 @@ Hong Kong; sislere bürünmüş yeşil tepelerin, devasa gökdelenlerin ve harek
 - **MTR:** Dünyanın en verimli metro sistemlerinden biri; her yere ulaşır.
 
 ## 💎 Lokal Sırlar & İpuçları
-- **[Victoria Peak](search:Victoria Peak):** Tepeye çıkmak için meşhur füniküler (Peak Tram) yerine 15 numaralı otobüsü kullanın; yolculuk daha uzun sürer ama manzara harikadır.
-- **[Dragon's Back](search:Dragon's Back):** Şehir merkezinden sadece 30 dakikada ulaşabileceğiniz bu yürüyüş rotası, gökdelenlerin ardındaki muhteşem doğayı gösterir.
-- **[Lamma Adası](search:Lamma Island):** Araba trafiğinin olmadığı bu adaya gidip taze deniz mahsulleri yiyerek şehirden tamamen uzaklaşabilirsiniz.''';
+- [Victoria Peak](search:Victoria Peak): Tepeye çıkmak için meşhur füniküler (Peak Tram) yerine 15 numaralı otobüsü kullanın; yolculuk daha uzun sürer ama manzara harikadır.
+- [Dragon's Back](search:Dragon's Back): Şehir merkezinden sadece 30 dakikada ulaşabileceğiniz bu yürüyüş rotası, gökdelenlerin ardındaki muhteşem doğayı gösterir.
+- [Lamma Adası](search:Lamma Island): Araba trafiğinin olmadığı bu adaya gidip taze deniz mahsulleri yiyerek şehirden tamamen uzaklaşabilirsiniz.''';
 
   static const _hongKongEN = '''# Hong Kong Guide: Where Skyscrapers Meet the Sea 🇭🇰
 
@@ -2233,9 +2264,9 @@ Hong Kong is a vertical marvel—a city of mist-covered green peaks, endless sky
 - **MTR:** Exceptionally clean, fast, and punctual—the MTR covers almost every corner of the metropolitan area.
 
 ## 💎 Local Secrets & Insights
-- **[Victoria Peak](search:Victoria Peak):** Instead of the crowded Peak Tram, take Bus 15 from Central. It’s cheaper and offers stunning winding views of the island's lush hills.
-- **[Dragon's Back Hike](search:Dragon's Back):** A stunning ridge-top walk just 30 minutes from the city center, offering breathtaking views of the coastline and beaches.
-- **[Lamma Island](search:Lamma Island):** A car-free sanctuary just a ferry ride away. Go for the fresh seafood restaurants and the peaceful, bohemian vibe.''';
+- [Victoria Peak](search:Victoria Peak): Instead of the crowded Peak Tram, take Bus 15 from Central. It’s cheaper and offers stunning winding views of the island's lush hills.
+- [Dragon's Back Hike](search:Dragon's Back): A stunning ridge-top walk just 30 minutes from the city center, offering breathtaking views of the coastline and beaches.
+- [Lamma Island](search:Lamma Island): A car-free sanctuary just a ferry ride away. Go for the fresh seafood restaurants and the peaceful, bohemian vibe.''';
 
   // DUBLIN
   static const _dublinTR = '''# Dublin Rehberi: Edebiyat, Publar ve Samimi Bir Ruh 🇮🇪
@@ -2264,9 +2295,9 @@ Dublin; Georgian tarzı sokakları, bin yıllık tarihi, meşhur bira kültürü
 - **Yürüyüş:** Dublin merkezi oldukça kompakttır; çoğu yer birbirine yürüme mesafesindedir.
 
 ## 💎 Lokal Sırlar & İpuçları
-- **[Trinity College Kütüphanesi](search:Trinity College Library):** Dünyanın en güzel kütüphanelerinden biridir ve bin yıllık "Book of Kells" el yazmasına ev sahipliği yapar.
-- **[Phoenix Park](search:Phoenix Park):** Avrupa'nın en büyük şehir parklarından biri. İçinde serbestçe dolaşan geyikleri görebilirsiniz.
-- **[Howth Cliff Walk](search:Howth Cliff Walk):** Şehir merkezinden DART ile 25 dakikada ulaşabileceğiniz bu falez yürüyüşü, muhteşem bir okyanus manzarası sunar.''';
+- [Trinity College Kütüphanesi](search:Trinity College): Dünyanın en güzel kütüphanelerinden biridir ve bin yıllık "Book of Kells" el yazmasına ev sahipliği yapar.
+- [Phoenix Park](search:Phoenix Park): Avrupa'nın en büyük şehir parklarından biri. İçinde serbestçe dolaşan geyikleri görebilirsiniz.
+- [Howth Cliff Walk](search:Howth Cliff Walk): Şehir merkezinden DART ile 25 dakikada ulaşabileceğiniz bu falez yürüyüşü, muhteşem bir okyanus manzarası sunar.''';
 
   static const _dublinEN = '''# Dublin Guide: Literature, Pubs & A Warm Soul 🇮🇪
 
@@ -2294,9 +2325,9 @@ Dublin is a city of stories—from its Viking roots and Georgian architecture to
 - **Leap Card:** A prepaid card that saves money on all city buses, trams, and trains.
 
 ## 💎 Local Secrets & Insights
-- **[The Long Room (Trinity College)](search:Trinity College Library):** One of the most beautiful libraries in the world, home to the ancient Book of Kells.
-- **[Phoenix Park](search:Phoenix Park):** One of the largest walled city parks in Europe. Keep an eye out for the herds of wild fallow deer that roam freely.
-- **[Howth Cliff Walk](search:Howth Cliff Walk):** Just 25 minutes from the center via DART, this rugged coastal path offers stunning views of the Irish Sea and fresh seafood at the harbor.''';
+- [The Long Room (Trinity College)](search:Trinity College): One of the most beautiful libraries in the world, home to the ancient Book of Kells.
+- [Phoenix Park](search:Phoenix Park): One of the largest walled city parks in Europe. Keep an eye out for the herds of wild fallow deer that roam freely.
+- [Howth Cliff Walk](search:Howth Cliff Walk): Just 25 minutes from the center via DART, this rugged coastal path offers stunning views of the Irish Sea and fresh seafood at the harbor.''';
   // ===================================
   // FEATURED ARTICLES
   // ===================================
@@ -2333,7 +2364,7 @@ Kışın Avrupa bir başka güzel. Karlı çatılar, sıcak şarap kokusu ve per
 Kutup dairesinin kalbi. Balina izleme turları ve gece yarısı güneşinin tersi "polar gece" deneyimi. Şehir hayatı ve vahşi doğa iç içe.
 
 ## 5. Zermatt, İsviçre
-[Matterhorn](search:Matterhorn) dağının gölgesinde, araç trafiğine kapalı bir masal kasabası. Dünyanın en iyi kayak pistleri ve fondü restoranları burada.
+[Matterhorn](search:Matterhorn Glacier Paradise) dağının gölgesinde, araç trafiğine kapalı bir masal kasabası. Dünyanın en iyi kayak pistleri ve fondü restoranları burada.
 ''';
 
   static const _winterRoutesEN = '''# Top 5 Winter Holiday Routes
@@ -2354,7 +2385,7 @@ The city looks like a ballroom. The massive ice rink at [Rathausplatz](search:Ra
 The heart of the Arctic Circle. Whale watching tours and the "polar night" experience. City life and wild nature intertwined.
 
 ## 5. Zermatt, Switzerland
-A car-free fairytale village in the shadow of the [Matterhorn](search:Matterhorn). Home to the world's best ski slopes and fondue restaurants.
+A car-free fairytale village in the shadow of the [Matterhorn](search:Matterhorn Glacier Paradise). Home to the world's best ski slopes and fondue restaurants.
 ''';
 
   static const _hiddenGemsTR = '''# Avrupa'nın Gizli Hazineleri
@@ -2369,7 +2400,7 @@ Taş devrinden kalma mağara evlerin olduğu bu şehir, sanki başka bir gezegen
 "Kuzeyin Venedik'i" ama motor sesi yok. Sadece elektrikli sessiz tekneler, saz çatılı evler ve kanallar. Tam bir huzur cenneti.
 
 ## 3. Kotor, Karadağ
-Fiyortların arasında saklanmış ortaçağ şehri. Kedileriyle meşhur! [Kale surlarına](search:Kotor Fortress) tırmanıp o muhteşem manzarayı izlemek paha biçilemez.
+Fiyortların arasında saklanmış ortaçağ şehri. Kedileriyle meşhur! [Kale surlarına](search:Castle of San Giovanni) tırmanıp o muhteşem manzarayı izlemek paha biçilemez.
 
 ## 4. Colmar, Fransa
 Alsace şarap yolunun başkenti. Yarı ahşap renkli evleriyle Disney filmi (Güzel ve Çirkin) setinden fırlamış gibi.
@@ -2390,7 +2421,7 @@ A city of cave dwellings dating back to the Stone Age; it feels like another pla
 "Venice of the North" but without engine noise. Only silent electric boats, thatched-roof houses, and canals. A total haven of peace.
 
 ## 3. Kotor, Montenegro
-A medieval city hidden among fjords. Famous for its cats! Climbing the [fortress walls](search:Kotor Fortress) to see that magnificent view is priceless.
+A medieval city hidden among fjords. Famous for its cats! Climbing the [fortress walls](search:Castle of San Giovanni) to see that magnificent view is priceless.
 
 ## 4. Colmar, France
 Capital of the Alsace wine route. With its half-timbered colorful houses, it looks straight out of a Disney movie (Beauty and the Beast).
@@ -2457,7 +2488,7 @@ Watching the sunset in [Oia](search:Oia Santorini) is a bucket list item. White 
 Germany's most romantic city. An old castle on the hill, the Neckar river below, and the philosophical walking path ([Philosophenweg](search:Philosophenweg)).
 
 ## 5. Seville, Spain
-Passion, flamenco, and orange trees. Taking a carriage ride in [Plaza de España](search:Plaza de España) and getting lost in the [Santa Cruz](search:Santa Cruz Seville) neighborhood.
+Passion, flamenco, and orange trees. Taking a carriage ride in [Plaza de España](search:Plaza de España Seville) and getting lost in the [Santa Cruz](search:Barrio Santa Cruz) neighborhood.
 ''';
 
   static const _romanticTR = '''# Romantik Haftasonu Kaçamakları
@@ -2478,7 +2509,7 @@ Bir çikolata kutusu gibi. Ortaçağ binaları, kanallarda kuğular ve her yerde
 Almanya'nın en romantik şehri. Tepede eski bir kale, aşağıda Neckar nehri ve filozoflar yolu ([Philosophenweg](search:Philosophenweg)).
 
 ## 5. Sevilla, İspanya
-Tutku, flamenko ve portakal ağaçları. [Plaza de España](search:Plaza de España)'da fayton turu yapmak ve Santa Cruz mahallesinde kaybolmak.
+Tutku, flamenko ve portakal ağaçları. [Plaza de España](search:Plaza de España Sevilla)'da fayton turu yapmak ve [Santa Cruz](search:Barrio Santa Cruz) mahallesinde kaybolmak.
 ''';
 
   // ANTALYA
@@ -2506,9 +2537,9 @@ Antalya sadece otellerden ibaret değildir; antik kentleri, şelaleleri ve yaşa
 - **Nostaljik Tramvay:** Kaleiçi'nin üst tarafında sahil boyunca giden bu tramvay harika manzaralar sunar.
 
 ## 💎 Lokal Sırlar & İpuçları
-- **[Düden Şelalesi](search:Duden Waterfalls):** Şelalenin denize döküldüğü noktayı görmek için Lara tarafındaki parka gidin; manzara büyüleyicidir.
-- **[Falezler](search:Falezler):** Konyaaltı Varyant'tan inerek falezlerin altındaki plajları keşfedin; su burada kristal berraklığındadır.
-- **[Likya Yolu](search:Lycian Way):** Dünyanın en iyi yürüyüş rotalarından biri buradan başlar; en azından kısa bir parkurunu yürüyün.''';
+- [Düden Şelalesi](search:Duden Waterfalls): Şelalenin denize döküldüğü noktayı görmek için Lara tarafındaki parka gidin; manzara büyüleyicidir.
+- [Falezler](search:Falezler): Konyaaltı Varyant'tan inerek falezlerin altındaki plajları keşfedin; su burada kristal berraklığındadır.
+- [Likya Yolu](search:Lycian Way): Dünyanın en iyi yürüyüş rotalarından biri buradan başlar; en azından kısa bir parkurunu yürüyün.''';
 
   static const _antalyaEN = '''# Antalya Guide: The Blue Pearl of the Mediterranean 🇹🇷
 
@@ -2534,9 +2565,9 @@ Antalya is far more than just resorts; it's a vibrant port city filled with anci
 - **Nostalgic Tram:** Runs along the coast above Kaleiçi, offering stunning panoramic views.
 
 ## 💎 Local Secrets & Insights
-- **[Lower Düden Waterfall](search:Duden Waterfalls):** Visit the park in Lara to see the massive waterfall plunging directly into the sea—it's a spectacular sight.
-- **[The Cliffs](search:Antalya Cliffs):** Explore the beach clubs tucked under the massive cliffs near Variant for crystal-clear water.
-- **[Lycian Way](search:Lycian Way):** One of the world's best hiking trails starts nearby; try walking a short section for breathtaking views.''';
+- [Lower Düden Waterfall](search:Duden Waterfalls): Visit the park in Lara to see the massive waterfall plunging directly into the sea—it's a spectacular sight.
+- [The Cliffs](search:Antalya Cliffs): Explore the beach clubs tucked under the massive cliffs near Variant for crystal-clear water.
+- [Lycian Way](search:Lycian Way): One of the world's best hiking trails starts nearby; try walking a short section for breathtaking views.''';
 
   // KAPADOKYA
   static const _kapadokyaTR = '''# Kapadokya Rehberi: Masal Diyarında Yolculuk 🇹🇷
@@ -2557,12 +2588,12 @@ Kapadokya, doğanın ve tarihin el ele vererek yarattığı, dünyada eşi benze
 ## 🍽️ Ne Yenir ve İçilir?
 - **Testi Kebabı:** Yemeğiniz masada kırılarak servis edilir. Hem lezzetli hem de izlemesi keyifli bir ritüeldir.
 - **Şarap:** Bölge binlerce yıldır bağcılık merkezidir. Yerel üzümlerden yapılan şarapları mutlaka tadın.
-- **Kabak Çiçeği Dolması:** Sabah erken toplanan çiçeklerle yapılan narin bir lezzet.
+- **Mantı (Nevşehir Mantısı):** İnce hamuru ve özel sosuyla Kayseri ve Nevşehir bölgesinin en meşhur yemeğidir.
 
 ## 💎 Lokal Sırlar & İpuçları
-- **[Gün Doğumu](search:Göreme Sunset Point):** Balona binmeseniz bile sabah 05:30'da kalkın ve balonların kalkışını izleyin. Göreme'deki "Aşıklar Tepesi" (Sunset Point) en iyi noktadır.
-- **[Yeraltı Şehirleri](search:Derinkuyu Underground City):** Derinkuyu veya Kaymaklı'ya gidin. 8 kat aşağı inmek klostrofobik olabilir ama mühendislik karşısında büyüleneceksiniz.
-- **[ATV Turu](search:Love Valley):** Gün batımında tozlu yollarda ATV turu yapmak, vadileri keşfetmenin en eğlenceli yoludur.''';
+- [Gün Doğumu](search:Göreme Sunset Point): Balona binmeseniz bile sabah 05:30'da kalkın ve balonların kalkışını izleyin. Göreme'deki "Aşıklar Tepesi" (Sunset Point) en iyi noktadır.
+- [Yeraltı Şehirleri](search:Derinkuyu Underground City): Derinkuyu veya Kaymaklı'ya gidin. 8 kat aşağı inmek klostrofobik olabilir ama mühendislik karşısında büyüleneceksiniz.
+- [ATV Turu](search:Love Valley): Gün batımında tozlu yollarda ATV turu yapmak, vadileri keşfetmenin en eğlenceli yoludur.''';
 
   static const _kapadokyaEN = '''# Cappadocia Guide: A Journey to Fairyland 🇹🇷
 
@@ -2582,11 +2613,11 @@ Cappadocia is a unique landscape created by nature and history hand in hand. Wit
 ## 🍽️ Food & Drink
 - **Pottery Kebab (Testi Kebabı):** A meat stew cooked in a sealed clay pot which is broken open at your table. A delicious ritual.
 - **Local Wine:** This region has been a winemaking center for millennia. Be sure to taste wines made from local grapes.
-- **Stuffed Pumpkin Flowers:** A delicate delicacy made with flowers picked early in the morning.
+- **Manti (Turkish Ravioli):** Tiny dumplings served with garlic yogurt and spiced butter. A staple of the region.
 
 ## 💎 Local Secrets & Insights
-- **[Sunrise Spectacle](search:Göreme Sunset Point):** Even if you don't fly, wake up at 5:30 AM to watch the balloons launch. "Sunset Point" in Göreme offers the best panoramic view.
-- **[Underground Cities](search:Derinkuyu Underground City):** Visit Derinkuyu or Kaymaklı. Going 8 levels deep might challenge claustrophobia, but the engineering is mind-blowing.
+- [Sunrise Spectacle](search:Göreme Sunset Point): Even if you don't fly, wake up at 5:30 AM to watch the balloons launch. "Sunset Point" in Göreme offers the best panoramic view.
+- [Underground Cities](search:Derinkuyu Underground City): Visit Derinkuyu or Kaymaklı. Going 8 levels deep might challenge claustrophobia, but the engineering is mind-blowing.
 - **ATV Tour:** An ATV safari at sunset is the most fun way to explore the dusty trails and hidden valleys.''';
 
   // GAZIANTEP
@@ -2660,9 +2691,9 @@ Belgrad, Tuna ve Sava nehirlerinin buluştuğu noktada, fırtınalı tarihini m�
 - **Rakija:** Erik, ayva veya kayısıdan yapılan sert meyve rakısı. Yemeğin üstüne "şifa niyetine" ikram edilir.
 
 ## 💎 Lokal Sırlar & İpuçları
-- **[Kalemegdan](search:Belgrade Fortress):** Gün batımında kaleye çıkın ve iki nehrin (Sava ve Tuna) birleştiği noktayı izleyin. "Victor" heykeli buranın sembolüdür.
-- **[Skadarlija](search:Skadarlija):** Belgrad'ın Montmartre'ı. Canlı müzik, çiçekli restoranlar ve eski bohem hava. Turistik ama görülmeye değer.
-- **[Nikola Tesla Müzesi](search:Nikola Tesla Museum):** Dünyanın en büyük mucitlerinden birine adanmış bu küçük müzede, elektrik deneyimlerini bizzat yaşayabilirsiniz.''';
+- [Kalemegdan](search:Belgrade Fortress): Gün batımında kaleye çıkın ve iki nehrin (Sava ve Tuna) birleştiği noktayı izleyin. "Victor" heykeli buranın sembolüdür.
+- [Skadarlija](search:Skadarlija): Belgrad'ın Montmartre'ı. Canlı müzik, çiçekli restoranlar ve eski bohem hava. Turistik ama görülmeye değer.
+- [Nikola Tesla Müzesi](search:Nikola Tesla Museum): Dünyanın en büyük mucitlerinden birine adanmış bu küçük müzede, elektrik deneyimlerini bizzat yaşayabilirsiniz.''';
 
   static const _belgradEN = '''# Belgrade Guide: The City That Never Sleeps 🇷🇸
 
@@ -2684,9 +2715,9 @@ Situated at the confluence of the Danube and Sava rivers, Belgrade ("White City"
 - **Rakija:** A strong fruit brandy (usually plum, quince, or apricot). Often offered after meals as a digestive.
 
 ## 💎 Local Secrets & Insights
-- **[Kalemegdan Fortress](search:Belgrade Fortress):** Visit at sunset to watch the confluence of the Sava and Danube rivers. The "Victor" monument stands guard here.
-- **[Skadarlija](search:Skadarlija):** Belgrade's Bohemian quarter. Live folk music, flower-adorned restaurants, and a vintage atmosphere. Touristy but charming.
-- **[Nikola Tesla Museum](search:Nikola Tesla Museum):** A small but interactive museum dedicated to one of the greatest inventors of all time. You can participate in live electrical demonstrations.''';
+- [Kalemegdan Fortress](search:Belgrade Fortress): Visit at sunset to watch the confluence of the Sava and Danube rivers. The "Victor" monument stands guard here.
+- [Skadarlija](search:Skadarlija): Belgrade's Bohemian quarter. Live folk music, flower-adorned restaurants, and a vintage atmosphere. Touristy but charming.
+- [Nikola Tesla Museum](search:Nikola Tesla Museum): A small but interactive museum dedicated to one of the greatest inventors of all time. You can participate in live electrical demonstrations.''';
 
   // SARAYBOSNA
   static const _saraybosnaTR = '''# Saraybosna Rehberi: Avrupa'nın Kudüs'ü 🇧🇦
@@ -2708,9 +2739,9 @@ Doğu ile Batı'nın, cami ile kilisenin, hüzün ile umudun iç içe geçtiği 
 - **Boşnak Kahvesi:** Türk kahvesine benzer ama sunumu farklıdır; cezve (džezva) ile gelir, yanında lokumla ikram edilir.
 
 ## 💎 Lokal Sırlar & İpuçları
-- **[Sarı Tabya (Žuta Tabija)](search:Yellow Bastion):** Gün batımında şehri tepeden izlemek için en iyi nokta. Ramazan'da iftar topu buradan atılır.
-- **[Vrelo Bosne](search:Vrelo Bosne):** Faytonla gidilebilen, Bosna nehrinin kaynağının olduğu yemyeşil bir park. Şehrin gürültüsünden kaçış noktası.
-- **[Doğu-Batı Çizgisi](search:Sarajevo Meeting of Cultures):** Ferhadija caddesinde yere bakın; "Sarajevo Meeting of Cultures" yazısını göreceksiniz. Bir taraf Osmanlı, diğer taraf Avusturya mimarisidir.''';
+- [Sarı Tabya (Žuta Tabija)](search:Yellow Bastion): Gün batımında şehri tepeden izlemek için en iyi nokta. Ramazan'da iftar topu buradan atılır.
+- [Vrelo Bosne](search:Vrelo Bosne): Faytonla gidilebilen, Bosna nehrinin kaynağının olduğu yemyeşil bir park. Şehrin gürültüsünden kaçış noktası.
+- [Doğu-Batı Çizgisi](search:Sarajevo Meeting of Cultures): Ferhadija caddesinde yere bakın; "Sarajevo Meeting of Cultures" yazısını göreceksiniz. Bir taraf Osmanlı, diğer taraf Avusturya mimarisidir.''';
 
   static const _saraybosnaEN = '''# Sarajevo Guide: The Jerusalem of Europe 🇧🇦
 
@@ -2731,9 +2762,9 @@ Where East meets West, mosque meets church, and sorrow meets hope. Sarajevo is a
 - **Bosnian Coffee:** Similar to Turkish coffee but served in a copper pot (džezva) with a Turkish delight on the side.
 
 ## 💎 Local Secrets & Insights
-- **[Yellow Bastion (Žuta Tabija)](search:Yellow Bastion):** The best sunset spot overlooking the valley. During Ramadan, the cannon signaling iftar is fired from here.
-- **[Vrelo Bosne](search:Vrelo Bosne):** A lush park at the spring of the Bosna River. You can take a horse carriage ride down the long, tree-lined avenue to get there.
-- **[East-West Line](search:Sarajevo Meeting of Cultures):** Look down on Ferhadija street for the "Sarajevo Meeting of Cultures" marker. Face one way to see Ottoman architecture; turn around to see Austro-Hungarian styles.''';
+- [Yellow Bastion (Žuta Tabija)](search:Yellow Bastion): The best sunset spot overlooking the valley. During Ramadan, the cannon signaling iftar is fired from here.
+- [Vrelo Bosne](search:Vrelo Bosne): A lush park at the spring of the Bosna River. You can take a horse carriage ride down the long, tree-lined avenue to get there.
+- [East-West Line](search:Sarajevo Meeting of Cultures): Look down on Ferhadija street for the "Sarajevo Meeting of Cultures" marker. Face one way to see Ottoman architecture; turn around to see Austro-Hungarian styles.''';
 
   // KOTOR
   static const _kotorTR = '''# Kotor Rehberi: Fiyortların Gizli Hazinesi 🇲🇪
@@ -2755,8 +2786,8 @@ Kotor Körfezi'nin derinliklerinde, sarp dağların gölgesinde saklanan bu orta
 - **Şarap:** Karadağ'ın yerel "Vranac" kırmızı şarabını deneyin.
 
 ## 💎 Lokal Sırlar & İpuçları
-- **[Kayaların Leydisi (Our Lady of the Rocks)](search:Our Lady of the Rocks):** Perast'tan tekneyle bu yapay adaya gidin. Efsaneye göre denizcilerin attığı taşlarla oluşturulmuştur.
-- **[Kedi Müzesi](search:Cats Museum Kotor):** Kotor kedileriyle meşhurdur. Geliri sokak kedilerine giden bu küçük müzeyi ziyaret edebilirsiniz.
+- [Kayaların Leydisi (Our Lady of the Rocks)](search:Our Lady of the Rocks): Perast'tan tekneyle bu yapay adaya gidin. Efsaneye göre denizcilerin attığı taşlarla oluşturulmuştur.
+- [Kedi Müzesi](search:Cats Museum Kotor): Kotor kedileriyle meşhurdur. Geliri sokak kedilerine giden bu küçük müzeyi ziyaret edebilirsiniz.
 - **Pazar:** Kapı önünde kurulan pazardan yerel tütsülenmiş proşutto (Njeguski prsut) ve peynir almayı unutmayın.''';
 
   static const _kotorEN = '''# Kotor Guide: Hidden Gem of the Fjords 🇲🇪
@@ -2778,8 +2809,8 @@ Tucked deep within the Bay of Kotor under the shadow of dramatic limestone cliff
 - **Wine:** Try "Vranac," the robust local red wine of Montenegro.
 
 ## 💎 Local Secrets & Insights
-- **[Our Lady of the Rocks](search:Our Lady of the Rocks):** Take a boat from Perast to this artificial island. Legend says it was built by sailors throwing rocks into the sea over centuries.
-- **[Cat Museum](search:Cats Museum Kotor):** Kotor is obsessive about its cats. Visit this quirky museum where proceeds go to feeding the strays.
+- [Our Lady of the Rocks](search:Our Lady of the Rocks): Take a boat from Perast to this artificial island. Legend says it was built by sailors throwing rocks into the sea over centuries.
+- [Cat Museum](search:Cats Museum Kotor): Kotor is obsessive about its cats. Visit this quirky museum where proceeds go to feeding the strays.
 - **Farmers Market:** Just outside the city walls, buy some "Njeguski prsut" (smoked ham) and local cheese from the morning market.''';
 
   // OSLO
@@ -2802,9 +2833,9 @@ Oslo; fiyortların kıyısında, modern mimarinin ve ormanların buluştuğu sak
 - **Kahve:** Oslo, dünyanın en iyi kahve kavurucularından bazılarına (Tim Wendelboe gibi) ev sahipliği yapar.
 
 ## 💎 Lokal Sırlar & İpuçları
-- **[Opera Binasının Çatısı](search:Oslo Opera House):** Mermer çatısında yürümek serbesttir. Şehrin ve fiyordun en güzel manzarası buradadır.
+- [Opera Binasının Çatısı](search:Oslo Opera House): Mermer çatısında yürümek serbesttir. Şehrin ve fiyordun en güzel manzarası buradadır.
 - **Sauna Kültürü:** Fiyort kenarındaki yüzer saunalardan (KOK veya SALT) birine gidin, terleyip buz gibi denize atlayın. Tam bir Viking deneyimi!
-- **[Vigeland Parkı](search:Vigeland Park):** Dünyanın en büyük heykel parklarından biri. Gustav Vigeland'ın insan doğasını anlatan 200'den fazla heykeli buradadır.''';
+- [Vigeland Parkı](search:Vigeland Park): Dünyanın en büyük heykel parklarından biri. Gustav Vigeland'ın insan doğasını anlatan 200'den fazla heykeli buradadır.''';
 
   static const _osloEN = '''# Oslo Guide: Modern Life Embracing Nature 🇳🇴
 
@@ -2825,9 +2856,9 @@ Oslo is a calm yet striking capital where modern architecture meets deep forests
 - **Coffee:** Oslo is home to some of the world's best coffee roasters (like Tim Wendelboe). A must for caffeine lovers.
 
 ## 💎 Local Secrets & Insights
-- **[Opera House Roof](search:Oslo Opera House):** Walking on the marble roof is allowed and encouraged. It offers the best panoramic views of the city and fjord.
+- [Opera House Roof](search:Oslo Opera House): Walking on the marble roof is allowed and encouraged. It offers the best panoramic views of the city and fjord.
 - **Sauna Culture:** Visit one of the floating saunas (like KOK or SALT) on the fjord. Sweat it out, then jump into the icy water—a true Viking experience!
-- **[Vigeland Park](search:Vigeland Park):** The world's largest sculpture park by a single artist, featuring over 200 sculptures depicting the cycle of human life.''';
+- [Vigeland Park](search:Vigeland Park): The world's largest sculpture park by a single artist, featuring over 200 sculptures depicting the cycle of human life.''';
 
   // ROVANIEMI
   static const _rovaniemiTR = '''# Rovaniemi Rehberi: Noel Baba'nın Resmi Evi 🇫🇮
@@ -2939,9 +2970,9 @@ Edinburgh, sönmüş bir yanardağın üzerine kurulu kalesi, yeraltı şehirler
 - **Shortbread:** Tereyağlı İskoç kurabiyesi. Çay veya kahve yanına mükemmel gider.
 
 ## 💎 Lokal Sırlar & İpuçları
-- **[Arthur’s Seat](search:Arthur’s Seat):** Şehrin ortasındaki bu sönmüş yanardağa tırmanın. 45 dakikalık yürüyüşle tüm şehri ayaklarınızın altında göreceksiniz.
+- [Arthur’s Seat](search:Arthur’s Seat): Şehrin ortasındaki bu sönmüş yanardağa tırmanın. 45 dakikalık yürüyüşle tüm şehri ayaklarınızın altında göreceksiniz.
 - **Hayalet Turları:** Edinburgh dünyanın en "perili" şehirlerinden biridir. *[Mary King's Close](search:Mary King's Close)* gibi yeraltı turlarına katılın.
-- **[Victoria Street](search:Victoria Street):** Renkli dükkanlarıyla meşhur bu kıvrımlı sokak, Harry Potter'daki *Diagon Yolu*nun gerçek hayattaki karşılığıdır.''';
+- [Victoria Street](search:Victoria Street): Renkli dükkanlarıyla meşhur bu kıvrımlı sokak, Harry Potter'daki *Diagon Yolu*nun gerçek hayattaki karşılığıdır.''';
 
   static const _edinburghEN = '''# Edinburgh Guide: Gothic, Mysterious & Enchanting 🏴󠁧󠁢󠁳󠁣󠁴󠁿
 
@@ -2962,9 +2993,9 @@ Dominated by a castle atop an extinct volcano, filled with underground vaults an
 - **Shortbread:** Rich, buttery Scottish biscuits. Perfect with afternoon tea.
 
 ## 💎 Local Secrets & Insights
-- **[Arthur’s Seat](search:Arthur’s Seat):** Hike up this extinct volcano right in the city center. A 45-minute walk rewards you with panoramic views of the entire city and sea.
+- [Arthur’s Seat](search:Arthur’s Seat): Hike up this extinct volcano right in the city center. A 45-minute walk rewards you with panoramic views of the entire city and sea.
 - **Ghost Tours:** Edinburgh is one of the most haunted cities in the world. Join a tour of the underground vaults like *[Mary King's Close](search:Mary King's Close)*.
-- **[Victoria Street](search:Victoria Street):** With its colorful shopfronts and curved cobblestones, this street is the real-life inspiration for *Diagon Alley*.''';
+- [Victoria Street](search:Victoria Street): With its colorful shopfronts and curved cobblestones, this street is the real-life inspiration for *Diagon Alley*.''';
 
   // BRUKSEL
   static const _brukselTR = '''# Brüksel Rehberi: Avrupa'nın Çikolata Başkenti 🇧🇪
@@ -2987,7 +3018,7 @@ Avrupa Birliği'nin başkenti Brüksel, ciddi siyasi yüzünün altında eğlenc
 
 ## 💎 Lokal Sırlar & İpuçları
 - **Çizgi Roman Rotası:** Tenten, Şirinler gibi karakterlerin duvar resimlerini takip ederek şehri gezmek çok eğlencelidir.
-- **[Delirium Café](search:Delirium Café):** 2000'den fazla bira çeşidiyle Guinness rekorlar kitabına giren bu bara mutlaka uğrayın.
+- [Delirium Café](search:Delirium Café): 2000'den fazla bira çeşidiyle Guinness rekorlar kitabına giren bu bara mutlaka uğrayın.
 - **İşeyen Heykeller:** Sadece meşhur işeyen çocuk ([Manneken Pis](search:Manneken Pis)) değil, bir de işeyen kız (Jeanneke Pis) ve işeyen köpek (Zinneke Pis) heykeli vardır; hepsini bulun!''';
 
   static const _brukselEN = '''# Brussels Guide: The Chocolate Capital of Europe 🇧🇪
@@ -3010,7 +3041,7 @@ The capital of the EU hides a playful, chocolate-scented, and comic-book-loving 
 
 ## 💎 Local Secrets & Insights
 - **Comic Strip Route:** Walking the city by following murals of Tintin, The Smurfs, and other characters is a fun way to explore.
-- **[Delirium Café](search:Delirium Café):** Visit this bar holding the Guinness World Record for offering over 2,000 types of beer.
+- [Delirium Café](search:Delirium Café): Visit this bar holding the Guinness World Record for offering over 2,000 types of beer.
 - **Pissing Statues:** Don't just see the famous [Manneken Pis](search:Manneken Pis); try to find his sister (Jeanneke Pis) and their dog (Zinneke Pis) too!''';
 
   // BRUGGE
@@ -3033,7 +3064,7 @@ Kendinizi bir zaman makinesinde hissedeceğiniz Brugge, kanalları, kuğuları v
 
 ## 💎 Lokal Sırlar & İpuçları
 - **Kanal Turu:** Çok turistiktir ama Brugge'da kanal turu yapmak zorunludur. Şehri su seviyesinden görmek bambaşkadır.
-- **[Yel Değirmenleri](search:Sint-Janshuismolen):** Şehir merkezinin biraz dışına yürüyerek tarihi yel değirmenlerinin olduğu parka gidin.
+- [Yel Değirmenleri](search:Sint-Janshuismolen): Şehir merkezinin biraz dışına yürüyerek tarihi yel değirmenlerinin olduğu parka gidin.
 - **Dantel:** Brugge danteli meşhurdur ama gerçek el yapımı olanları pahalıdır; ucuz olanlar fabrikasyondur, dikkat edin.''';
 
   static const _bruggeEN = '''# Bruges Guide: A Medieval Fairytale 🇧🇪
@@ -3055,7 +3086,7 @@ Bruges feels like a time machine. With its canals, swans, and untouched medieval
 
 ## 💎 Local Secrets & Insights
 - **Canal Boat Tour:** It's touristy, but mandatory. Seeing the medieval facades from the water is a unique perspective.
-- **[Windmills](search:Sint-Janshuismolen):** Walk to the edge of the city center to find a row of historic windmills set in a grassy park.
+- [Windmills](search:Sint-Janshuismolen): Walk to the edge of the city center to find a row of historic windmills set in a grassy park.
 - **Lace:** Bruges lace is famous. Be aware that real handmade lace is expensive; cheap versions are machine-made.''';
 
   // STRAZBURG
@@ -3078,8 +3109,8 @@ Fransa ile Almanya sınırında, her iki kültürün en güzel özelliklerini al
 - **Kugelhopf:** Kuru üzümlü ve bademli, kalıpta pişen geleneksel kek.
 
 ## 💎 Lokal Sırlar & İpuçları
-- **[Astronomik Saat](search:Strasbourg Cathedral):** Katedralin içindeki saat her gün 12:30'da (biletli) figürlerini hareket ettirerek bir şov yapar.
-- **[Vauban Barajı (Barrage Vauban)](search:Barrage Vauban):** Ücretsiz olarak çatısına çıkın ve Petite France'ın en güzel panoramik fotoğrafını çekin.
+- [Astronomik Saat](search:Strasbourg Cathedral): Katedralin içindeki saat her gün 12:30'da (biletli) figürlerini hareket ettirerek bir şov yapar.
+- [Vauban Barajı (Barrage Vauban)](search:Barrage Vauban): Ücretsiz olarak çatısına çıkın ve Petite France'ın en güzel panoramik fotoğrafını çekin.
 - **Bisiklet:** Strazburg Fransa'nın en bisiklet dostu şehridir; bir bisiklet kiralayıp kanalları takip edin.''';
 
   static const _strazburgEN = '''# Strasbourg Guide: A French-German Romance 🇫🇷
@@ -3101,8 +3132,8 @@ Sitting on the border of France and Germany, Strasbourg takes the best of both c
 - **Kugelhopf:** A traditional bundt cake with raisins and almonds.
 
 ## 💎 Local Secrets & Insights
-- **[Astronomical Clock](search:Strasbourg Cathedral):** Inside the cathedral, the clock puts on a mechanical show with moving figures every day at 12:30 PM (ticket required).
-- **[Vauban Dam (Barrage Vauban)](search:Barrage Vauban):** Climb to the roof terrace (free) for the best panoramic photo of Petite France and the covered bridges.
+- [Astronomical Clock](search:Strasbourg Cathedral): Inside the cathedral, the clock puts on a mechanical show with moving figures every day at 12:30 PM (ticket required).
+- [Vauban Dam (Barrage Vauban)](search:Barrage Vauban): Climb to the roof terrace (free) for the best panoramic photo of Petite France and the covered bridges.
 - **Cycling:** Strasbourg is France's most bike-friendly city; rent a bike and follow the canal paths.''';
 
   // HEIDELBERG
@@ -3124,8 +3155,8 @@ Neckar nehri kıyısında, tepedeki kızıl kalesi ve dünyanın en eski üniver
 - **Schneeballen:** "Kar topu" tatlısı. Kırarak yenen sert hamurlu bir kurabiye.
 
 ## 💎 Lokal Sırlar & İpuçları
-- **[Hapishane (Studentenkarzer)](search:Studentenkarzer):** Üniversitenin yaramaz öğrencileri eskiden buraya hapsedilirmiş. Duvarlardaki yüzyıllık graffitiler çok ilginçtir.
-- **[Thingstätte](search:Thingstätte):** Tepedeki ormanın içinde, Nazi döneminden kalma devasa bir açık hava amfitiyatrosu. Biraz ürkütücü ama etkileyici.''';
+- [Hapishane (Studentenkarzer)](search:Studentenkarzer): Üniversitenin yaramaz öğrencileri eskiden buraya hapsedilirmiş. Duvarlardaki yüzyıllık graffitiler çok ilginçtir.
+- [Thingstätte](search:Thingstätte): Tepedeki ormanın içinde, Nazi döneminden kalma devasa bir açık hava amfitiyatrosu. Biraz ürkütücü ama etkileyici.''';
 
   static const _heidelbergEN = '''# Heidelberg Guide: Capital of Romance 🇩🇪
 
@@ -3145,8 +3176,8 @@ With its red sandstone castle perched above the Neckar River and one of the worl
 - **Schneeballen:** "Snowball" pastry. A hard shortcrust pastry that you smash to eat.
 
 ## 💎 Local Secrets & Insights
-- **[Student Prison (Studentenkarzer)](search:Studentenkarzer):** Naughty university students were once locked up here. The century-old graffiti on the walls is fascinating.
-- **[Thingstätte](search:Thingstätte):** Hidden in the forest on the hill, this massive open-air amphitheater from the Nazi era is eerie but impressive.''';
+- [Student Prison (Studentenkarzer)](search:Studentenkarzer): Naughty university students were once locked up here. The century-old graffiti on the walls is fascinating.
+- [Thingstätte](search:Thingstätte): Hidden in the forest on the hill, this massive open-air amphitheater from the Nazi era is eerie but impressive.''';
 
   // COLMAR
   static const _colmarTR = '''# Colmar Rehberi: Masal Kitabından Bir Sayfa 🇫🇷
@@ -3158,16 +3189,16 @@ Alsas Şarap Yolu'nun başkenti Colmar, kanalları ve çiçekli pencereleriyle "
 - **Bağ Bozumu (Eylül-Ekim):** Şarap severler için en iyi zamandır.
 
 ## 🏘️ Gezilecek Yerler
-- **[La Petite Venise](search:Little Venice Colmar) (Küçük Venedik):** Lauch nehri kenarındaki rengarenk evler. Sandalla gezinti yapabilirsiniz.
-- **[Pfister Evi](search:Maison Pfister):** "Howl'un Yürüyen Şatosu" animesine ilham veren, ahşap işlemeli tarihi bina.
-- **[Unterlinden Müzesi](search:Unterlinden Museum):** Eski bir manastırda yer alan önemli bir sanat müzesi.
+- [La Petite Venise](search:Little Venice Colmar) (Küçük Venedik): Lauch nehri kenarındaki rengarenk evler. Sandalla gezinti yapabilirsiniz.
+- [Pfister Evi](search:Maison Pfister): "Howl'un Yürüyen Şatosu" animesine ilham veren, ahşap işlemeli tarihi bina.
+- [Unterlinden Müzesi](search:Unterlinden Museum): Eski bir manastırda yer alan önemli bir sanat müzesi.
 
 ## 🍽️ Ne Yenir ve İçilir?
 - **Alsas Şarapları:** Riesling ve Gewürztraminer şaraplarını yerel mahzenlerde tadın.
 - **Pretzel (Bretzel):** Burada her köşe başında devasa, sıcak ve tuzlu pretzeller bulabilirsiniz.
 
 ## 💎 Lokal Sırlar & İpuçları
-- **[Özgürlük Heykeli](search:Statue of Liberty Colmar):** New York'taki heykelin heykeltıraşı Bartholdi Colmarlıdır. Şehrin girişindeki 12 metrelik replikayı görünce şaşırmayın.
+- [Özgürlük Heykeli](search:Statue of Liberty Colmar): New York'taki heykelin heykeltıraşı Bartholdi Colmarlıdır. Şehrin girişindeki 12 metrelik replikayı görünce şaşırmayın.
 - **Işıklandırma:** Cuma ve Cumartesi akşamları şehir özel bir sistemle aydınlatılır, gece yürüyüşü yapmayı ihmal etmeyin.''';
 
   static const _colmarEN = '''# Colmar Guide: A Page from a Fairytale 🇫🇷
@@ -3179,16 +3210,16 @@ The capital of the Alsace Wine Route, Colmar is known as "Little Venice" for its
 - **Harvest (Sept-Oct):** The absolute best time for wine lovers.
 
 ## 🏘️ Places to Visit
-- **[La Petite Venise](search:Little Venice Colmar):** Colorful houses lining the Lauch river. You can take a flat-bottomed boat tour here.
-- **[Maison Pfister](search:Maison Pfister):** An ornate wooden house that inspired the anime "Howl's Moving Castle."
-- **[Unterlinden Museum](search:Unterlinden Museum):** An important art museum housed in a former medieval convent.
+- [La Petite Venise](search:Little Venice Colmar): Colorful houses lining the Lauch river. You can take a flat-bottomed boat tour here.
+- [Maison Pfister](search:Maison Pfister): An ornate wooden house that inspired the anime "Howl's Moving Castle."
+- [Unterlinden Museum](search:Unterlinden Museum): An important art museum housed in a former medieval convent.
 
 ## 🍽️ Food & Drink
 - **Alsace Wines:** Taste Riesling and Gewürztraminer in local cellars ("Caveau").
 - **Pretzel (Bretzel):** Giant, warm, salty soft pretzels are available on every corner.
 
 ## 💎 Local Secrets & Insights
-- **[Statue of Liberty](search:Statue of Liberty Colmar):** Bartholdi, the sculptor of the Statue of Liberty, was born in Colmar. Don't be surprised to see a 12-meter replica at the town entrance.
+- [Statue of Liberty](search:Statue of Liberty Colmar): Bartholdi, the sculptor of the Statue of Liberty, was born in Colmar. Don't be surprised to see a 12-meter replica at the town entrance.
 - **Illumination:** On Friday and Saturday nights, the city is lit up by a special light design—perfect for a night walk.''';
 
   // GIETHOORN
@@ -3209,7 +3240,7 @@ The capital of the Alsace Wine Route, Colmar is known as "Little Venice" for its
 - **Peynir:** Hollanda peynirlerinin tadına bakabileceğiniz küçük dükkanlar vardır.
 
 ## 💎 Lokal Sırlar & İpuçları
-- **[Müze Çiftlik](search:Museum 't Olde Maat Uus) (Museum 't Olde Maat Uus):** 100 yıl önce burada hayatın nasıl olduğunu gösteren, oyuncuların olduğu canlı bir müze.
+- [Müze Çiftlik](search:Museum 't Olde Maat Uus) (Museum 't Olde Maat Uus): 100 yıl önce burada hayatın nasıl olduğunu gösteren, oyuncuların olduğu canlı bir müze.
 - **Sessizlik:** Yerel halkın huzuruna saygı gösterin; bahçelerine girmeyin veya yüksek sesle konuşmayın.''';
 
   static const _giethoornEN = '''# Giethoorn Guide: The Sound of Silence 🇳🇱
@@ -3229,7 +3260,7 @@ Known as the "Venice of the North," Giethoorn has no roads and no cars. Only can
 - **Cheese:** Visit the small local shops to taste authentic Dutch cheeses.
 
 ## 💎 Local Secrets & Insights
-- **[Museum Farm](search:Museum 't Olde Maat Uus) ('t Olde Maat Uus):** A living museum with actors showing what life in Giethoorn was like a century ago.
+- [Museum Farm](search:Museum 't Olde Maat Uus) ('t Olde Maat Uus): A living museum with actors showing what life in Giethoorn was like a century ago.
 - **Respect:** Remember people live here. Respect their privacy, stay off private bridges, and keep noise levels down.''';
 
   // SINTRA
@@ -3243,16 +3274,16 @@ Lizbon'un hemen yanı başında, sisli dağların üzerine kurulu sarayları ve 
 - **İpucu:** Yazın çok kalabalıktır, erken gitmeye çalışın.
 
 ## 🏘️ Gezilecek Yerler
-- **[Pena Sarayı](search:Pena Palace) (Palácio da Pena):** Sarı ve kırmızı renkli, Disney şatolarını andıran zirvedeki saray.
-- **[Quinta da Regaleira](search:Quinta da Regaleira):** Gotik mimarisi, gizli geçitleri ve meşhur "Başlangıç Kuyusu" (Initiation Well) ile burası bir labirenttir.
-- **[Mağribi Kalesi](search:Castelo dos Mouros) (Castelo dos Mouros):** Tepelere yayılan surlarda yürüyerek okyanusu ve sarayları izleyin.
+- [Pena Sarayı](search:Pena Palace) (Palácio da Pena): Sarı ve kırmızı renkli, Disney şatolarını andıran zirvedeki saray.
+- [Quinta da Regaleira](search:Quinta da Regaleira): Gotik mimarisi, gizli geçitleri ve meşhur "Başlangıç Kuyusu" (Initiation Well) ile burası bir labirenttir.
+- [Mağribi Kalesi](search:Castelo dos Mouros) (Castelo dos Mouros): Tepelere yayılan surlarda yürüyerek okyanusu ve sarayları izleyin.
 
 ## 🍽️ Ne Yenir ve İçilir?
 - **Travesseiro:** "Yastık" anlamına gelen, badem kremalı milföy tatlısı. *Piriquita* pastanesinde yiyin.
 - **Queijada:** Peynir, yumurta, süt ve şekerle yapılan küçük tart.
 
 ## 💎 Lokal Sırlar & İpuçları
-- **[Monserrate Sarayı](search:Monserrate Palace):** Kalabalıktan kaçmak için buraya gidin. Arap ve Gotik mimari karışımı sarayı ve botanik bahçesi çok huzurludur.
+- [Monserrate Sarayı](search:Monserrate Palace): Kalabalıktan kaçmak için buraya gidin. Arap ve Gotik mimari karışımı sarayı ve botanik bahçesi çok huzurludur.
 - **Ulaşım:** Sintra'da araba park etmek kabustur. Lizbon'dan trenle gelin ve içeride otobüs (434 hattı) kullanın.''';
 
   static const _sintraEN = '''# Sintra Guide: A Fairytale Escape 🇵🇹
@@ -3265,16 +3296,16 @@ Just outside Lisbon, with its palaces perched on misty peaks and exotic gardens,
 - **Tip:** It gets very crowded in summer; try to arrive early.
 
 ## 🏘️ Places to Visit
-- **[Pena Palace](search:Pena Palace):** The yellow and red romanticist castle on the peak that looks like it's straight out of Disney.
-- **[Quinta da Regaleira](search:Quinta da Regaleira):** A gothic estate filled with secret tunnels, grottoes, and the famous "Initiation Well."
-- **[Moorish Castle](search:Castle of the Moors):** Walk along the ancient walls for breathtaking views of the ocean and palaces.
+- [Pena Palace](search:Pena Palace): The yellow and red romanticist castle on the peak that looks like it's straight out of Disney.
+- [Quinta da Regaleira](search:Quinta da Regaleira): A gothic estate filled with secret tunnels, grottoes, and the famous "Initiation Well."
+- [Moorish Castle](search:Castle of the Moors): Walk along the ancient walls for breathtaking views of the ocean and palaces.
 
 ## 🍽️ Food & Drink
 - **Travesseiro:** Meaning "pillow," this puff pastry filled with almond cream is a local legend. Try it at *Piriquita*.
 - **Queijada:** A delicious small tart made with fresh cheese, eggs, milk, and sugar.
 
 ## 💎 Local Secrets & Insights
-- **[Monserrate Palace](search:Monserrate Palace):** Escape the crowds here. The blend of Arabic and Gothic architecture surrounded by botanical gardens is incredibly peaceful.
+- [Monserrate Palace](search:Monserrate Palace): Escape the crowds here. The blend of Arabic and Gothic architecture surrounded by botanical gardens is incredibly peaceful.
 - **Transport:** Parking is a nightmare. Take the train from Lisbon and use the bus (line 434) to get around.''';
 
   // SAN SEBASTIAN
@@ -3287,9 +3318,9 @@ Bask bölgesinin incisi Donostia (San Sebastian), dünyada metrekareye en çok M
 - **Eylül:** Film Festivali zamanı şehir yıldızlarla dolar.
 
 ## 🏘️ Gezilecek Yerler
-- **[La Concha](search:La Concha Beach):** İspanya'nın, hatta Avrupa'nın en güzel şehir plajı. Yarım ay şeklindeki kumsalda yürüyüş yapın.
+- [La Concha](search:La Concha Beach): İspanya'nın, hatta Avrupa'nın en güzel şehir plajı. Yarım ay şeklindeki kumsalda yürüyüş yapın.
 - **Parte Vieja (Eski Şehir):** Dar sokaklar, kiliseler ve sayısız Pintxos barı burada.
-- **[Monte Igueldo](search:Monte Igueldo):** Fünikülerle tepeye çıkın ve o meşhur koy manzarasını fotoğraflayın.
+- [Monte Igueldo](search:Monte Igueldo): Fünikülerle tepeye çıkın ve o meşhur koy manzarasını fotoğraflayın.
 
 ## 🍽️ Ne Yenir ve İçilir?
 - **Pintxos (Pinçoz):** Bask usulü tapas. Barların tezgahlarındaki yüzlerce çeşit arasından seçin. Kürdanları atmayın, hesap kürdan sayısına göre ödenir!
@@ -3310,9 +3341,9 @@ Donostia (San Sebastian), the pearl of the Basque Country, holds one of the high
 - **September:** The city fills with stars during the International Film Festival.
 
 ## 🏘️ Places to Visit
-- **[La Concha](search:La Concha Beach):** Arguably the most beautiful city beach in Europe. Take a stroll along the crescent-shaped bay.
+- [La Concha](search:La Concha Beach): Arguably the most beautiful city beach in Europe. Take a stroll along the crescent-shaped bay.
 - **Parte Vieja (Old Town):** Narrow streets packed with churches and endless Pintxos bars.
-- **[Monte Igueldo](search:Monte Igueldo):** Take the funicular to the top for the iconic panoramic photo of the bay.
+- [Monte Igueldo](search:Monte Igueldo): Take the funicular to the top for the iconic panoramic photo of the bay.
 
 ## 🍽️ Food & Drink
 - **Pintxos:** Basque tapas. Pick from hundreds of options displayed on bar counters. Keep your toothpicks; the bill is calculated by counting them!
@@ -3334,8 +3365,8 @@ Donostia (San Sebastian), the pearl of the Basque Country, holds one of the high
 - **Yaz:** Çok sıcak ve nemli olabilir.
 
 ## 🏘️ Gezilecek Yerler
-- **[Piazza Maggiore](search:Piazza Maggiore):** Şehrin kalbi. San Petronio Bazilikası ve Neptün Çeşmesi buradadır.
-- **[İki Kule](search:Two Towers Bologna) (Due Torri):** Şehrin sembolü olan bu eğik kulelerden Asinelli'ye (498 basamak) çıkıp manzarayı izleyin.
+- [Piazza Maggiore](search:Piazza Maggiore): Şehrin kalbi. San Petronio Bazilikası ve Neptün Çeşmesi buradadır.
+- [İki Kule](search:Two Towers Bologna) (Due Torri): Şehrin sembolü olan bu eğik kulelerden Asinelli'ye (498 basamak) çıkıp manzarayı izleyin.
 - **Portikolar:** UNESCO listesindeki 40 km'lik revaklar (kemerli yollar) sayesinde yağmurda bile ıslanmadan tüm şehri gezebilirsiniz.
 
 ## 🍽️ Ne Yenir ve İçilir?
@@ -3344,9 +3375,9 @@ Donostia (San Sebastian), the pearl of the Basque Country, holds one of the high
 - **Tortellini in Brodo:** Et suyunda servis edilen minik, dolgulu makarnalar.
 
 ## 💎 Lokal Sırlar & İpuçları
-- **[San Luca](search:Sanctuary of the Madonna di San Luca):** Şehir merkezinden başlayıp tepeye kadar uzanan dünyanın en uzun portikosunu (3.8 km) yürüyün.
-- **[Venedik Penceresi](search:Finestrella):** Via Piella'daki küçük pencereden bakınca, binaların arasındaki gizli kanalı görüp kendinizi Venedik'te zannedersiniz.
-- **[Eski Üniversite](search:Archiginnasio of Bologna):** Archiginnasio sarayındaki eski anatomi tiyatrosunu (tamamen ahşap) mutlaka görün.''';
+- [San Luca](search:Sanctuary of the Madonna di San Luca): Şehir merkezinden başlayıp tepeye kadar uzanan dünyanın en uzun portikosunu (3.8 km) yürüyün.
+- [Venedik Penceresi](search:Finestrella): Via Piella'daki küçük pencereden bakınca, binaların arasındaki gizli kanalı görüp kendinizi Venedik'te zannedersiniz.
+- [Eski Üniversite](search:Archiginnasio of Bologna): Archiginnasio sarayındaki eski anatomi tiyatrosunu (tamamen ahşap) mutlaka görün.''';
 
   static const _bolognaEN = '''# Bologna Guide: The Red, The Learned, The Fat 🇮🇹
 
@@ -3357,8 +3388,8 @@ Italy's food capital. Nicknamed "The Red" (brick buildings), "The Learned" (olde
 - **Summer:** Can be very hot and humid.
 
 ## 🏘️ Places to Visit
-- **[Piazza Maggiore](search:Piazza Maggiore):** The heart of the city, flanked by San Petronio Basilica and the Fountain of Neptune.
-- **[Two Towers](search:Two Towers Bologna) (Due Torri):** Climb the Asinelli Tower (498 steps) for a stunning view. These leaning towers are the city's symbol.
+- [Piazza Maggiore](search:Piazza Maggiore): The heart of the city, flanked by San Petronio Basilica and the Fountain of Neptune.
+- [Two Towers](search:Two Towers Bologna) (Due Torri): Climb the Asinelli Tower (498 steps) for a stunning view. These leaning towers are the city's symbol.
 - **Porticoes:** Thanks to 40 km of UNESCO-listed arcades, you can walk the entire city without getting wet in the rain.
 
 ## 🍽️ Food & Drink
@@ -3367,9 +3398,9 @@ Italy's food capital. Nicknamed "The Red" (brick buildings), "The Learned" (olde
 - **Tortellini in Brodo:** Tiny stuffed pasta served in a rich meat broth.
 
 ## 💎 Local Secrets & Insights
-- **[San Luca](search:Sanctuary of the Madonna di San Luca):** Walk the world's longest portico (3.8 km) from the city center up to the Sanctuary on the hill.
-- **[Venice Window](search:Finestrella):** Look through the small window on Via Piella to see a hidden canal flowing between buildings—a glimpse of Venice.
-- **[Old University](search:Archiginnasio of Bologna):** Visit the Archiginnasio and see the stunning wooden Anatomical Theatre.''';
+- [San Luca](search:Sanctuary of the Madonna di San Luca): Walk the world's longest portico (3.8 km) from the city center up to the Sanctuary on the hill.
+- [Venice Window](search:Finestrella): Look through the small window on Via Piella to see a hidden canal flowing between buildings—a glimpse of Venice.
+- [Old University](search:Archiginnasio of Bologna): Visit the Archiginnasio and see the stunning wooden Anatomical Theatre.''';
 
   // MATERA
   static const _materaTR = '''# Matera Rehberi: Taşların Şehri 🇮🇹
@@ -3381,16 +3412,16 @@ Tarih öncesi çağlardan beri yerleşim olan Matera, kayalara oyulmuş evleri (
 - **Kış:** Noel zamanı burası canlı bir "doğuş sahnesi"ne (Nativity Scene) dönüşür.
 
 ## 🏘️ Gezilecek Yerler
-- **[Sassi di Matera](search:Sassi di Matera):** Sasso Caveoso ve Sasso Barisano bölgelerinde kaybolun. Mağara kiliseleri ve evleri inceleyin.
-- **[Kaya Kiliseleri](search:Rupestrian Churches Matera):** Santa Maria de Idris gibi kayanın içine oyulmuş ve fresklerle süslü kiliseler büyüleyicidir.
-- **[Palombaro Lungo](search:Palombaro Lungo):** Şehrin altındaki devasa tarihi su sarnıcı. Bir film setini andırır.
+- [Sassi di Matera](search:Sassi di Matera): Sasso Caveoso ve Sasso Barisano bölgelerinde kaybolun. Mağara kiliseleri ve evleri inceleyin.
+- [Kaya Kiliseleri](search:Rupestrian Churches Matera): Santa Maria de Idris gibi kayanın içine oyulmuş ve fresklerle süslü kiliseler büyüleyicidir.
+- [Palombaro Lungo](search:Palombaro Lungo): Şehrin altındaki devasa tarihi su sarnıcı. Bir film setini andırır.
 
 ## 🍽️ Ne Yenir ve İçilir?
 - **Pane di Matera:** İtalya'nın en iyi ekmeklerinden biri. Sert kabuklu, içi yumuşacık durum buğdayı ekmeği.
 - **Peperoni Cruschi:** Kurutulup kızartılmış, cips gibi yenen tatlı kırmızı biberler.
 
 ## 💎 Lokal Sırlar & İpuçları
-- **[Belvedere](search:Belvedere Murgia Timone):** Şehri karşıdan, Murgia Parkı tarafından gün batımında izleyin. Işıklar yanınca şehir büyülü görünür.
+- [Belvedere](search:Belvedere Murgia Timone): Şehri karşıdan, Murgia Parkı tarafından gün batımında izleyin. Işıklar yanınca şehir büyülü görünür.
 - **Konaklama:** Mutlaka bir "mağara otel"de kalın. İçi lüks ama duvarları binlerce yıllık taş olan odalar unutulmazdır.
 - **Film Seti:** James Bond "No Time to Die" ve Mel Gibson'ın "Passion of the Christ" filmleri burada çekilmiştir.''';
 
@@ -3403,16 +3434,16 @@ Inhabited since prehistoric times, Matera is unique for its cave dwellings (Sass
 - **Winter:** At Christmas, the city transforms into a living Nativity Scene.
 
 ## 🏘️ Places to Visit
-- **[Sassi di Matera](search:Sassi di Matera):** Get lost in Sasso Caveoso and Sasso Barisano. Explore the cave houses and ancient dwellings.
-- **[Rupestrian Churches](search:Rupestrian Churches Matera):** Rock-hewn churches like Santa Maria de Idris, decorated with ancient frescoes.
-- **[Palombaro Lungo](search:Palombaro Lungo):** A massive historic water cistern under the city that looks like a cathedral.
+- [Sassi di Matera](search:Sassi di Matera): Get lost in Sasso Caveoso and Sasso Barisano. Explore the cave houses and ancient dwellings.
+- [Rupestrian Churches](search:Rupestrian Churches Matera): Rock-hewn churches like Santa Maria de Idris, decorated with ancient frescoes.
+- [Palombaro Lungo](search:Palombaro Lungo): A massive historic water cistern under the city that looks like a cathedral.
 
 ## 🍽️ Food & Drink
 - **Pane di Matera:** One of Italy's best breads. Crunchy crust, soft inside, made from durum wheat.
 - **Peperoni Cruschi:** Dried and fried sweet red peppers, eaten like chips.
 
 ## 💎 Local Secrets & Insights
-- **[Belvedere](search:Belvedere Murgia Timone):** View the city from the Murgia Park side at sunset. When the lights come on, it's magical.
+- [Belvedere](search:Belvedere Murgia Timone): View the city from the Murgia Park side at sunset. When the lights come on, it's magical.
 - **Accommodation:** You must stay in a "cave hotel." Sleeping in a room carved into rock but with modern luxury is unforgettable.
 - **Film Set:** Films like James Bond's "No Time to Die" and Mel Gibson's "Passion of the Christ" were shot here.''';
 
@@ -3426,9 +3457,9 @@ Volkanik bir patlama sonucu oluşan hilal şeklindeki ada; beyaz badanalı evler
 - **İpucu:** Kışın birçok otel ve restoran kapalı olabilir.
 
 ## 🏘️ Köy Rehberi
-- **[Oia](search:Oia Santorini):** O meşhur gün batımı ve mavi kubbelerin olduğu lüks köy.
-- **[Fira](search:Fira Santorini):** Adanın başkenti. Alışveriş, gece hayatı ve teleferik burada.
-- **[Pyrgos](search:Pyrgos Santorini):** Adanın en yüksek ve daha az turistik, geleneksel köyü.
+- [Oia](search:Oia Santorini): O meşhur gün batımı ve mavi kubbelerin olduğu lüks köy.
+- [Fira](search:Fira Santorini): Adanın başkenti. Alışveriş, gece hayatı ve teleferik burada.
+- [Pyrgos](search:Pyrgos Santorini): Adanın en yüksek ve daha az turistik, geleneksel köyü.
 
 ## 🍽️ Ne Yenir ve İçilir?
 - **Fava:** Santorini'ye özgü sarı mercimekten yapılan meze.
@@ -3437,8 +3468,8 @@ Volkanik bir patlama sonucu oluşan hilal şeklindeki ada; beyaz badanalı evler
 
 ## 💎 Lokal Sırlar & İpuçları
 - **Yürüyüş Rotası:** Fira'dan Oia'ya kraterin kenarından (Caldera) yapılan 10 km'lik yürüyüş, dünyanın en güzel manzaralı rotalarından biridir.
-- **[Ammoudi Körfezi](search:Ammoudi Bay):** Oia'nın altındaki bu küçük limana 300 basamak inin; taze balık yiyin ve kayalardan denize girin.
-- **[Kızıl Plaj (Red Beach)](search:Red Beach Santorini):** Kırmızı volkanik kayalarla çevrili plajı görmeden dönmeyin.''';
+- [Ammoudi Körfezi](search:Ammoudi Bay): Oia'nın altındaki bu küçük limana 300 basamak inin; taze balık yiyin ve kayalardan denize girin.
+- [Kızıl Plaj (Red Beach)](search:Red Beach Santorini): Kırmızı volkanik kayalarla çevrili plajı görmeden dönmeyin.''';
 
   static const _santoriniEN = '''# Santorini Guide: A Sunset Dream 🇬🇷
 
@@ -3449,9 +3480,9 @@ Formed by a volcanic eruption, this crescent-shaped island with its whitewashed 
 - **Tip:** Many hotels and restaurants close during winter.
 
 ## 🏘️ Village Guide
-- **[Oia](search:Oia Santorini):** The famous village with the sunset views and blue domes.
-- **[Fira](search:Fira Santorini):** The capital. Hub for shopping, nightlife, and the cable car.
-- **[Pyrgos](search:Pyrgos Santorini):** The highest village, more traditional and less touristy.
+- [Oia](search:Oia Santorini): The famous village with the sunset views and blue domes.
+- [Fira](search:Fira Santorini): The capital. Hub for shopping, nightlife, and the cable car.
+- [Pyrgos](search:Pyrgos Santorini): The highest village, more traditional and less touristy.
 
 ## 🍽️ Food & Drink
 - **Fava:** A creamy puree made from yellow split peas native to the island.
@@ -3460,8 +3491,8 @@ Formed by a volcanic eruption, this crescent-shaped island with its whitewashed 
 
 ## 💎 Local Secrets & Insights
 - **Hiking:** The 10km hike from Fira to Oia along the caldera edge offers the most spectacular views imaginable.
-- **[Ammoudi Bay](search:Ammoudi Bay):** Walk down 300 steps from Oia to this tiny port for fresh seafood and swimming off the rocks.
-- **[Red Beach](search:Red Beach Santorini):** Don't miss the unique beach surrounded by towering red volcanic cliffs.''';
+- [Ammoudi Bay](search:Ammoudi Bay): Walk down 300 steps from Oia to this tiny port for fresh seafood and swimming off the rocks.
+- [Red Beach](search:Red Beach Santorini): Don't miss the unique beach surrounded by towering red volcanic cliffs.''';
 
   // KAHIRE
   static const _kahireTR = '''# Kahire Rehberi: Kaosun ve Tarihin Şehri 🇪🇬
@@ -3472,9 +3503,9 @@ Piramitlerin gölgesinde, İslami mimari, korna sesleri, baharat kokuları ve Ni
 - **Ekim-Nisan:** Hava gezmek için idealdir. Yazın sıcaklık dayanılmaz olabilir.
 
 ## 🏘️ Gezilecek Yerler
-- **[Giza Piramitleri ve Sfenks](search:Giza Necropolis):** Dünyanın yedi harikasından ayakta kalan tek yapı. Şehrin hemen kıyısındadır.
-- **[Mısır Müzesi](search:Egyptian Museum):** Tutankamon'un hazineleri ve mumyalar burada. (Yeni Büyük Mısır Müzesi'ni de kontrol edin).
-- **[Han el-Halili](search:Khan el-Khalili):** Ortaçağdan kalma devasa çarşı. Baharat, lamba ve hediyelik eşya cenneti.
+- [Giza Piramitleri ve Sfenks](search:Giza Necropolis): Dünyanın yedi harikasından ayakta kalan tek yapı. Şehrin hemen kıyısındadır.
+- [Mısır Müzesi](search:Egyptian Museum): Tutankamon'un hazineleri ve mumyalar burada. (Yeni Büyük Mısır Müzesi'ni de kontrol edin).
+- [Han el-Halili](search:Khan el-Khalili): Ortaçağdan kalma devasa çarşı. Baharat, lamba ve hediyelik eşya cenneti.
 
 ## 🍽️ Ne Yenir ve İçilir?
 - **Koshary:** Mısır'ın milli yemeği. Pirinç, makarna, mercimek, nohut ve kızarmış soğanın domates sosuyla karışımı. Karbonhidrat bombası!
@@ -3494,9 +3525,9 @@ In the shadow of the Pyramids, Cairo assaults all your senses with Islamic archi
 - **October-April:** The weather is pleasant. Summer heat can be unbearable.
 
 ## 🏘️ Places to Visit
-- **[Pyramids of Giza & Sphinx](search:Giza Necropolis):** The only surviving wonder of the ancient world. Located right on the edge of the city.
-- **[Egyptian Museum](search:Egyptian Museum):** Home to Tutankhamun's treasures. (Check if the new Grand Egyptian Museum is open).
-- **[Khan el-Khalili](search:Khan el-Khalili):** A massive medieval bazaar. Heaven for spices, lamps, and souvenirs.
+- [Pyramids of Giza & Sphinx](search:Giza Necropolis): The only surviving wonder of the ancient world. Located right on the edge of the city.
+- [Egyptian Museum](search:Egyptian Museum): Home to Tutankhamun's treasures. (Check if the new Grand Egyptian Museum is open).
+- [Khan el-Khalili](search:Khan el-Khalili): A massive medieval bazaar. Heaven for spices, lamps, and souvenirs.
 
 ## 🍽️ Food & Drink
 - **Koshary:** Egypt's national dish. A mix of rice, pasta, lentils, chickpeas, and fried onions topped with tomato sauce. A carb bomb!
@@ -3518,9 +3549,9 @@ Dünyanın en büyük trafiğe kapalı şehirsel alanı olan Fes el-Bali (Eski F
 - **İpucu:** Fes Müzik Festivali zamanı şehir çok canlıdır.
 
 ## 🏘️ Gezilecek Yerler
-- **[Tabakhaneler](search:Chouara Tannery) (Chouara Tannery):** Yüzyıllardır aynı ilkel yöntemlerle deri boyanan dev kuyular. Kokuya hazırlıklı olun (nane yaprağı koklayın)!
-- **[Al Quaraouiyine](search:Al Quaraouiyine):** Dünyanın en eski üniversitesi kabul edilir. Cami ve kütüphanesi muazzamdır.
-- **[Bou Inania Medresesi](search:Bou Inania Madrasa):** İslami mimarinin, ahşap oymacılığının ve çini sanatının zirvesi.
+- [Tabakhaneler](search:Chouara Tannery) (Chouara Tannery): Yüzyıllardır aynı ilkel yöntemlerle deri boyanan dev kuyular. Kokuya hazırlıklı olun (nane yaprağı koklayın)!
+- [Al Quaraouiyine](search:Al Quaraouiyine): Dünyanın en eski üniversitesi kabul edilir. Cami ve kütüphanesi muazzamdır.
+- [Bou Inania Medresesi](search:Bou Inania Madrasa): İslami mimarinin, ahşap oymacılığının ve çini sanatının zirvesi.
 
 ## 🍽️ Ne Yenir ve İçilir?
 - **Tagine:** Kuskus ve etin o meşhur konik kaplarda ağır ağır pişmesi.
@@ -3541,9 +3572,9 @@ Fes el-Bali is the world's largest car-free urban area. It's a time capsule. Get
 - **Tip:** The city comes alive during the Sacred Music Festival.
 
 ## 🏘️ Places to Visit
-- **[Chouara Tannery](search:Chouara Tannery):** Giant vats where leather has been dyed manually for centuries. Be prepared for the smell (hold fresh mint to your nose)!
-- **[Al Quaraouiyine](search:Al Quaraouiyine):** Considered the oldest existing university in the world. Its mosque and library are stunning.
-- **[Bou Inania Madrasa](search:Bou Inania Madrasa):** A masterpiece of Islamic architecture, wood carving, and tile work.
+- [Chouara Tannery](search:Chouara Tannery): Giant vats where leather has been dyed manually for centuries. Be prepared for the smell (hold fresh mint to your nose)!
+- [Al Quaraouiyine](search:Al Quaraouiyine): Considered the oldest existing university in the world. Its mosque and library are stunning.
+- [Bou Inania Madrasa](search:Bou Inania Madrasa): A masterpiece of Islamic architecture, wood carving, and tile work.
 
 ## 🍽️ Food & Drink
 - **Tagine:** Slow-cooked meat and couscous in the famous conical clay pots.
@@ -3565,9 +3596,9 @@ Fes el-Bali is the world's largest car-free urban area. It's a time capsule. Get
 - **Yaz (Temmuz-Ağustos):** Yemyeşil vadilerde yürüyüş (hiking) yapmak için.
 
 ## 🏘️ Gezilecek Yerler
-- **[Gornergrat](search:Gornergrat):** Trenle 3089 metreye çıkın. Matterhorn ve buzulların manzarası nefes kesicidir.
-- **[Matterhorn Glacier Paradise](search:Matterhorn Glacier Paradise):** Avrupa'nın teleferikle çıkılan en yüksek noktası (3883m). Yazın bile kar vardır.
-- **[Hinterdorf](search:Hinterdorf Zermatt):** Zermatt'ın en eski bölgesi. 16. yüzyıldan kalma ahşap ambarları görün.
+- [Gornergrat](search:Gornergrat): Trenle 3089 metreye çıkın. Matterhorn ve buzulların manzarası nefes kesicidir.
+- [Matterhorn Glacier Paradise](search:Matterhorn Glacier Paradise): Avrupa'nın teleferikle çıkılan en yüksek noktası (3883m). Yazın bile kar vardır.
+- [Hinterdorf](search:Hinterdorf Zermatt): Zermatt'ın en eski bölgesi. 16. yüzyıldan kalma ahşap ambarları görün.
 
 ## 🍽️ Ne Yenir ve İçilir?
 - **Peynir Fondü:** İsviçre klasiği. Dağ manzarasına karşı erimiş peynire ekmek batırmak bir ritüeldir.
@@ -3576,7 +3607,7 @@ Fes el-Bali is the world's largest car-free urban area. It's a time capsule. Get
 ## 💎 Lokal Sırlar & İpuçları
 - **Toblerone:** O meşhur çikolatanın üzerindeki dağ işte buradaki Matterhorn'dur. Bir paket alıp dağa karşı fotoğraf çekilin.
 - **Elektrikli Taksiler:** Kasabada benzinli araba yasaktır. Tren istasyonundan otelinize bu sessiz, kutu gibi taksilerle gidersiniz.
-- **[5 Göller Yolu](search:5 Lakes Walk Zermatt):** Yazın gidiyorsanız bu yürüyüş rotasında Matterhorn'un göllere yansıyan silüetini yakalayabilirsiniz.''';
+- [5 Göller Yolu](search:5 Lakes Walk Zermatt): Yazın gidiyorsanız bu yürüyüş rotasında Matterhorn'un göllere yansıyan silüetini yakalayabilirsiniz.''';
 
   static const _zermattEN = '''# Zermatt Guide: In the Shadow of the Matterhorn 🇨🇭
 
@@ -3587,9 +3618,9 @@ In the heart of the Swiss Alps, a car-free village where luxury meets nature at 
 - **Summer (Jul-Aug):** For hiking in lush green valleys.
 
 ## 🏘️ Places to Visit
-- **[Gornergrat](search:Gornergrat):** Take the cogwheel train up to 3089m. The view of the Matterhorn and glaciers is breathtaking.
-- **[Matterhorn Glacier Paradise](search:Matterhorn Glacier Paradise):** The highest cable car station in Europe (3883m). There is snow even in summer.
-- **[Hinterdorf](search:Hinterdorf Zermatt):** The oldest part of Zermatt. See the wooden barns dating back to the 16th century.
+- [Gornergrat](search:Gornergrat): Take the cogwheel train up to 3089m. The view of the Matterhorn and glaciers is breathtaking.
+- [Matterhorn Glacier Paradise](search:Matterhorn Glacier Paradise): The highest cable car station in Europe (3883m). There is snow even in summer.
+- [Hinterdorf](search:Hinterdorf Zermatt): The oldest part of Zermatt. See the wooden barns dating back to the 16th century.
 
 ## 🍽️ Food & Drink
 - **Cheese Fondue:** The Swiss classic. Dipping bread into melted cheese with a mountain view is a ritual.
@@ -3598,7 +3629,7 @@ In the heart of the Swiss Alps, a car-free village where luxury meets nature at 
 ## 💎 Local Secrets & Insights
 - **Toblerone:** The mountain on the famous chocolate bar is the Matterhorn right here. Buy a bar and take a photo matching it to the peak!
 - **Electric Taxis:** Gas cars are banned. You travel from the station to your hotel in these quiet, boxy electric taxis.
-- **[5 Lakes Walk](search:5 Lakes Walk Zermatt):** If visiting in summer, hike this trail to see the Matterhorn's reflection in crystal clear alpine lakes.''';
+- [5 Lakes Walk](search:5 Lakes Walk Zermatt): If visiting in summer, hike this trail to see the Matterhorn's reflection in crystal clear alpine lakes.''';
   static const _hallstattTR = '''# Hallstatt Rehberi: Masalsı Alp Köyü 🇦🇹
 
 Hallstatt, Avusturya Alpleri'nin eteğinde, göl kenarına kurulmuş, dünyanın en fotojenik köylerinden biridir. O kadar güzeldir ki Çin'de bir kopyası bile yapılmıştır.
@@ -3622,9 +3653,9 @@ Hallstatt, Avusturya Alpleri'nin eteğinde, göl kenarına kurulmuş, dünyanın
 - **Yürüyüş:** Köy araç trafiğine kapalıdır (sadece yerliler girebilir). Her yere yürüyerek gideceksiniz.
 
 ## 💎 Lokal Sırlar & İpuçları
-- **[Skywalk](search:Hallstatt Skywalk):** Köyün hemen üzerindeki bu seyir terası, o meşhur "Dünya Mirası" manzarasını tepeden görmenizi sağlar. Fünikülerle çıkabilirsiniz.
-- **[Tuz Madenleri](search:Hallstatt Salt Mines):** Dünyanın en eski tuz madenleri buradadır. İçindeki yer altı kaydırağı çok eğlencelidir!
-- **[Mezarlık (Beinhaus)](search:Hallstatt Charnel House):** Yer kısıtlı olduğu için eski kemiklerin boyanıp saklandığı "Kemik Evi" ilginç ve biraz ürkütücü bir duraktır.''';
+- [Skywalk](search:Hallstatt Skywalk): Köyün hemen üzerindeki bu seyir terası, o meşhur "Dünya Mirası" manzarasını tepeden görmenizi sağlar. Fünikülerle çıkabilirsiniz.
+- [Tuz Madenleri](search:Hallstatt Salt Mines): Dünyanın en eski tuz madenleri buradadır. İçindeki yer altı kaydırağı çok eğlencelidir!
+- [Mezarlık (Beinhaus)](search:Hallstatt Charnel House): Yer kısıtlı olduğu için eski kemiklerin boyanıp saklandığı "Kemik Evi" ilginç ve biraz ürkütücü bir duraktır.''';
 
   static const _hallstattEN = '''# Hallstatt Guide: Fairytale Alpine Village 🇦🇹
 
@@ -3649,7 +3680,7 @@ Hallstatt is one of the most photogenic villages in the world, nestled at the fo
 - **Walking:** The village is closed to car traffic (only locals can enter). You will be walking everywhere.
 
 ## 💎 Local Secrets & Insights
-- **[Skywalk](search:Hallstatt Skywalk):** This viewing platform just above the village allows you to see that famous "World Heritage" view from above. You can go up by funicular.
-- **[Salt Mines](search:Hallstatt Salt Mines):** The world's oldest salt mines are here. The underground slide inside is widely fun!
-- **[Cemetery (Beinhaus)](search:Hallstatt Charnel House):** Because space is limited, the "Bone House" where old painted skulls are stored is an interesting and slightly spooky stop.''';
+- [Skywalk](search:Hallstatt Skywalk): This viewing platform just above the village allows you to see that famous "World Heritage" view from above. You can go up by funicular.
+- [Salt Mines](search:Hallstatt Salt Mines): The world's oldest salt mines are here. The underground slide inside is widely fun!
+- [Cemetery (Beinhaus)](search:Hallstatt Charnel House): Because space is limited, the "Bone House" where old painted skulls are stored is an interesting and slightly spooky stop.''';
 }

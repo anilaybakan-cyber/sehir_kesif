@@ -24,6 +24,8 @@ class MemoriesScreen extends StatefulWidget {
 class _MemoriesScreenState extends State<MemoriesScreen> {
   final _memoryService = MemoryService();
   String? _selectedCityFilter;
+  int? _selectedYearFilter;
+  int? _selectedMonthFilter; // 1-12
   final ScrollController _scrollController = ScrollController();
   bool _showScrollToTop = false;
 
@@ -61,10 +63,16 @@ class _MemoriesScreenState extends State<MemoriesScreen> {
   void _onMemoriesUpdated() => setState(() {});
 
   List<TravelMemory> get _filteredMemories {
-    if (_selectedCityFilter == null) {
-      return _memoryService.memories;
-    }
-    return _memoryService.getMemoriesByCity(_selectedCityFilter!);
+    return _memoryService.memories.where((m) {
+      final cityMatch = _selectedCityFilter == null || m.cityId == _selectedCityFilter;
+      final yearMatch = _selectedYearFilter == null || m.date.year == _selectedYearFilter;
+      final monthMatch = _selectedMonthFilter == null || m.date.month == _selectedMonthFilter;
+      return cityMatch && yearMatch && monthMatch;
+    }).toList();
+  }
+
+  List<int> get _availableYears {
+    return _memoryService.memories.map((m) => m.date.year).toSet().toList()..sort((a, b) => b.compareTo(a));
   }
 
   @override
@@ -84,102 +92,65 @@ class _MemoriesScreenState extends State<MemoriesScreen> {
         elevation: 0,
         leading: IconButton(
           icon: const Icon(Icons.arrow_back_ios_rounded, color: Colors.white),
-          onPressed: () {
-            if (_selectedCityFilter != null && cities.length > 1) {
-              // Filtre varsa geri tuşu klasörlere döner
-              setState(() => _selectedCityFilter = null);
-            } else {
-              Navigator.pop(context);
-            }
-          },
+          onPressed: () => Navigator.pop(context),
         ),
         title: Text(
-          _selectedCityFilter != null
-            ? _memoryService.getMemoriesByCity(_selectedCityFilter!).first.cityName
-            : (isEnglish ? 'My Memories' : 'Anılarım'),
+          isEnglish ? 'My Memories' : 'Anılarım',
           style: const TextStyle(
             color: Colors.white,
             fontSize: 20,
             fontWeight: FontWeight.w700,
           ),
         ),
-        actions: [
-          // Filter button (Sadece grid modunda ve birden çok şehir varsa göster)
-          if (!showFolders && cities.length > 1)
-            PopupMenuButton<String?>(
-              icon: Icon(
-                _selectedCityFilter != null ? Icons.filter_alt : Icons.filter_alt_outlined,
-                color: _selectedCityFilter != null ? WanderlustColors.accent : Colors.white70,
-              ),
-              color: WanderlustColors.bgCard,
-              onSelected: (value) {
-                setState(() => _selectedCityFilter = value);
-              },
-              itemBuilder: (context) => [
-                PopupMenuItem(
-                  value: null,
-                  child: Text(
-                    isEnglish ? 'All Folders' : 'Tüm Klasörler',
-                    style: const TextStyle(color: Colors.white),
-                  ),
-                ),
-                ...cities.map((cityId) {
-                  final cityMemories = _memoryService.getMemoriesByCity(cityId);
-                  final cityName = cityMemories.first.cityName;
-                  return PopupMenuItem(
-                    value: cityId,
-                    child: Text(
-                      '$cityName (${cityMemories.length})',
-                      style: TextStyle(
-                        color: _selectedCityFilter == cityId ? WanderlustColors.accent : Colors.white,
+      ),
+      body: Column(
+        children: [
+          // Filters Section
+          _buildFilterSection(),
+          
+          // Grid Section
+          Expanded(
+            child: Stack(
+              children: [
+                memories.isEmpty
+                    ? _buildEmptyState()
+                    : _buildMemoriesGrid(memories),
+                if (_showScrollToTop)
+                  Positioned(
+                    right: 20,
+                    bottom: 30,
+                    child: AnimatedOpacity(
+                      opacity: _showScrollToTop ? 1.0 : 0.0,
+                      duration: const Duration(milliseconds: 200),
+                      child: GestureDetector(
+                        onTap: () {
+                          HapticFeedback.lightImpact();
+                          _scrollController.animateTo(
+                            0, 
+                            duration: const Duration(milliseconds: 500), 
+                            curve: Curves.easeOutCubic
+                          );
+                        },
+                        child: Container(
+                          width: 44,
+                          height: 44,
+                          decoration: BoxDecoration(
+                            color: WanderlustColors.bgCard.withOpacity(0.8),
+                            shape: BoxShape.circle,
+                            border: Border.all(color: WanderlustColors.border.withOpacity(0.5)),
+                          ),
+                          child: const Icon(
+                            Icons.keyboard_arrow_up_rounded,
+                            color: WanderlustColors.textGrey,
+                            size: 28,
+                          ),
+                        ),
                       ),
                     ),
-                  );
-                }),
+                  ),
               ],
             ),
-        ],
-      ),
-      body: Stack(
-        children: [
-          showFolders
-              ? _buildCityFolders(cities)
-              : (memories.isEmpty
-                  ? _buildEmptyState()
-                  : _buildMemoriesGrid(memories)),
-          if (_showScrollToTop)
-            Positioned(
-              right: 20,
-              bottom: 30, // Adjust if FAB interferes, but this screen has FAB at bottom right
-              child: AnimatedOpacity(
-                opacity: _showScrollToTop ? 1.0 : 0.0,
-                duration: const Duration(milliseconds: 200),
-                child: GestureDetector(
-                  onTap: () {
-                    HapticFeedback.lightImpact();
-                    _scrollController.animateTo(
-                      0, 
-                      duration: const Duration(milliseconds: 500), 
-                      curve: Curves.easeOutCubic
-                    );
-                  },
-                  child: Container(
-                    width: 44,
-                    height: 44,
-                    decoration: BoxDecoration(
-                      color: WanderlustColors.bgCard.withOpacity(0.8),
-                      shape: BoxShape.circle,
-                      border: Border.all(color: WanderlustColors.border.withOpacity(0.5)),
-                    ),
-                    child: const Icon(
-                      Icons.keyboard_arrow_up_rounded,
-                      color: WanderlustColors.textGrey,
-                      size: 28,
-                    ),
-                  ),
-                ),
-              ),
-            ),
+          ),
         ],
       ),
       floatingActionButton: FloatingActionButton.extended(
@@ -205,141 +176,321 @@ class _MemoriesScreenState extends State<MemoriesScreen> {
     );
   }
 
-  Widget _buildCityFolders(List<String> cities) {
-    return CustomScrollView(
-      controller: _scrollController,
-      slivers: [
-        SliverPadding(
-          padding: const EdgeInsets.all(20),
-          sliver: SliverGrid(
-            gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-              crossAxisCount: 2,
-              mainAxisSpacing: 16,
-              crossAxisSpacing: 16,
-              childAspectRatio: 0.85,
-            ),
-            delegate: SliverChildBuilderDelegate(
-              (context, index) {
-                final cityId = cities[index];
-                final cityMemories = _memoryService.getMemoriesByCity(cityId);
-                // En yeni anı kapak olsun
-                final cover = cityMemories.first; 
-                
-                return _buildCityFolderCard(
-                  cityId: cityId,
-                  cityName: cover.cityName,
-                  count: cityMemories.length,
-                  coverImage: cover.imagePath,
-                  onTap: () {
-                    setState(() => _selectedCityFilter = cityId);
-                  },
-                );
-              },
-              childCount: cities.length,
+  Widget _buildFilterSection() {
+    final hasFilters = _selectedCityFilter != null || _selectedYearFilter != null || _selectedMonthFilter != null;
+
+    String cityLabel = isEnglish ? 'All Cities' : 'Tüm Şehirler';
+    if (_selectedCityFilter != null) {
+      final cityMemories = _memoryService.getMemoriesByCity(_selectedCityFilter!);
+      if (cityMemories.isNotEmpty) cityLabel = cityMemories.first.cityName;
+    }
+
+    String dateLabel = isEnglish ? 'All Time' : 'Tüm Zamanlar';
+    if (_selectedYearFilter != null) {
+      if (_selectedMonthFilter != null) {
+        final months = isEnglish
+            ? ['', 'Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
+            : ['', 'Oca', 'Şub', 'Mar', 'Nis', 'May', 'Haz', 'Tem', 'Ağu', 'Eyl', 'Eki', 'Kas', 'Ara'];
+        dateLabel = '${months[_selectedMonthFilter!]} $_selectedYearFilter';
+      } else {
+        dateLabel = '$_selectedYearFilter';
+      }
+    } else if (_selectedMonthFilter != null) {
+      final months = isEnglish
+          ? ['', 'January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
+          : ['', 'Ocak', 'Şubat', 'Mart', 'Nisan', 'Mayıs', 'Haziran', 'Temmuz', 'Ağustos', 'Eylül', 'Ekim', 'Kasım', 'Aralık'];
+      dateLabel = months[_selectedMonthFilter!];
+    }
+
+    return Container(
+      padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 12),
+      decoration: BoxDecoration(
+        color: WanderlustColors.bgDark,
+        border: Border(bottom: BorderSide(color: WanderlustColors.border.withOpacity(0.3))),
+      ),
+      child: Row(
+        children: [
+          // City Filter Button
+          Expanded(
+            child: _buildFilterButton(
+              icon: Icons.location_city_rounded,
+              label: cityLabel,
+              isActive: _selectedCityFilter != null,
+              onTap: _showCityPicker,
             ),
           ),
-        ),
-      ],
+          const SizedBox(width: 12),
+          // Date Filter Button
+          Expanded(
+            child: _buildFilterButton(
+              icon: Icons.calendar_month_rounded,
+              label: dateLabel,
+              isActive: _selectedYearFilter != null || _selectedMonthFilter != null,
+              onTap: _showDatePicker,
+            ),
+          ),
+          if (hasFilters) ...[
+            const SizedBox(width: 8),
+            GestureDetector(
+              onTap: () {
+                HapticFeedback.lightImpact();
+                setState(() {
+                  _selectedCityFilter = null;
+                  _selectedYearFilter = null;
+                  _selectedMonthFilter = null;
+                });
+              },
+              child: Container(
+                padding: const EdgeInsets.all(8),
+                decoration: BoxDecoration(
+                  color: WanderlustColors.error.withOpacity(0.1),
+                  shape: BoxShape.circle,
+                ),
+                child: const Icon(Icons.close_rounded, color: WanderlustColors.error, size: 20),
+              ),
+            ),
+          ],
+        ],
+      ),
     );
   }
 
-  Widget _buildCityFolderCard({
-    required String cityId,
-    required String cityName,
-    required int count,
-    required String coverImage,
+  Widget _buildFilterButton({
+    required IconData icon,
+    required String label,
+    required bool isActive,
     required VoidCallback onTap,
   }) {
     return GestureDetector(
-      onTap: onTap,
+      onTap: () {
+        HapticFeedback.lightImpact();
+        onTap();
+      },
       child: Container(
+        padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 10),
         decoration: BoxDecoration(
-          borderRadius: BorderRadius.circular(20),
-          boxShadow: [
-            BoxShadow(
-              color: Colors.black.withOpacity(0.2),
-              blurRadius: 8,
-              offset: const Offset(0, 4),
+          color: isActive ? WanderlustColors.accent.withOpacity(0.15) : WanderlustColors.bgCard.withOpacity(0.4),
+          borderRadius: BorderRadius.circular(14),
+          border: Border.all(
+            color: isActive ? WanderlustColors.accent.withOpacity(0.5) : WanderlustColors.border,
+          ),
+        ),
+        child: Row(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Icon(icon, color: isActive ? WanderlustColors.accent : Colors.white60, size: 18),
+            const SizedBox(width: 8),
+            Flexible(
+              child: Text(
+                label,
+                style: TextStyle(
+                  color: isActive ? Colors.white : Colors.white70,
+                  fontSize: 13,
+                  fontWeight: isActive ? FontWeight.w600 : FontWeight.w400,
+                ),
+                maxLines: 1,
+                overflow: TextOverflow.ellipsis,
+              ),
+            ),
+            const SizedBox(width: 4),
+            Icon(Icons.keyboard_arrow_down_rounded, color: isActive ? WanderlustColors.accent : Colors.white30, size: 16),
+          ],
+        ),
+      ),
+    );
+  }
+
+  void _showCityPicker() {
+    final cities = _memoryService.citiesWithMemories;
+    showModalBottomSheet(
+      context: context,
+      backgroundColor: Colors.transparent,
+      isScrollControlled: true,
+      builder: (context) => Container(
+        height: MediaQuery.of(context).size.height * 0.6,
+        decoration: BoxDecoration(
+          color: WanderlustColors.bgDark,
+          borderRadius: const BorderRadius.vertical(top: Radius.circular(24)),
+          border: Border.all(color: WanderlustColors.border),
+        ),
+        child: Column(
+          children: [
+            const SizedBox(height: 12),
+            Container(width: 40, height: 4, decoration: BoxDecoration(color: Colors.white24, borderRadius: BorderRadius.circular(2))),
+            const SizedBox(height: 20),
+            Text(isEnglish ? 'Select City' : 'Şehir Seç', style: const TextStyle(color: Colors.white, fontSize: 18, fontWeight: FontWeight.bold)),
+            const SizedBox(height: 20),
+            Expanded(
+              child: ListView(
+                padding: const EdgeInsets.symmetric(horizontal: 20),
+                children: [
+                   ListTile(
+                    title: Text(isEnglish ? 'All Cities' : 'Tüm Şehirler', style: const TextStyle(color: Colors.white70)),
+                    leading: const Icon(Icons.location_on_outlined, color: Colors.white38),
+                    trailing: _selectedCityFilter == null ? const Icon(Icons.check_circle, color: WanderlustColors.accent) : null,
+                    onTap: () {
+                      setState(() => _selectedCityFilter = null);
+                      Navigator.pop(context);
+                    },
+                  ),
+                  ...cities.map((cityId) {
+                    final memories = _memoryService.getMemoriesByCity(cityId);
+                    final name = memories.first.cityName;
+                    final isSelected = _selectedCityFilter == cityId;
+                    return ListTile(
+                      title: Text(name, style: TextStyle(color: isSelected ? Colors.white : Colors.white70)),
+                      subtitle: Text('${memories.length} ${isEnglish ? 'memories' : 'anı'}', style: const TextStyle(color: Colors.white38, fontSize: 12)),
+                      leading: Icon(Icons.location_on, color: isSelected ? WanderlustColors.accent : Colors.white30),
+                      trailing: isSelected ? const Icon(Icons.check_circle, color: WanderlustColors.accent) : null,
+                      onTap: () {
+                        setState(() => _selectedCityFilter = cityId);
+                        Navigator.pop(context);
+                      },
+                    );
+                  }),
+                ],
+              ),
             ),
           ],
         ),
-        child: ClipRRect(
-          borderRadius: BorderRadius.circular(20),
-          child: Stack(
-            fit: StackFit.expand,
+      ),
+    );
+  }
+
+  void _showDatePicker() {
+    final years = _availableYears;
+    final months = isEnglish
+        ? ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
+        : ['Ocak', 'Şubat', 'Mart', 'Nisan', 'Mayıs', 'Haziran', 'Temmuz', 'Ağustos', 'Eylül', 'Ekim', 'Kasım', 'Aralık'];
+
+    showModalBottomSheet(
+      context: context,
+      backgroundColor: Colors.transparent,
+      isScrollControlled: true,
+      builder: (context) => StatefulBuilder(
+        builder: (context, setLocalState) => Container(
+          height: MediaQuery.of(context).size.height * 0.7,
+          decoration: BoxDecoration(
+            color: WanderlustColors.bgDark,
+            borderRadius: const BorderRadius.vertical(top: Radius.circular(24)),
+            border: Border.all(color: WanderlustColors.border),
+          ),
+          child: Column(
             children: [
-              // Cover Image
-              Image.file(
-                File(coverImage),
-                fit: BoxFit.cover,
-                errorBuilder: (_, __, ___) => Container(
-                  color: WanderlustColors.bgCard,
-                  child: const Icon(Icons.broken_image, color: Colors.white38),
+              const SizedBox(height: 12),
+              Container(width: 40, height: 4, decoration: BoxDecoration(color: Colors.white24, borderRadius: BorderRadius.circular(2))),
+              const SizedBox(height: 20),
+              Text(isEnglish ? 'Select Date' : 'Tarih Seç', style: const TextStyle(color: Colors.white, fontSize: 18, fontWeight: FontWeight.bold)),
+              const SizedBox(height: 20),
+              
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 20),
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: [
+                    Text(isEnglish ? 'Year' : 'Yıl', style: const TextStyle(color: Colors.white70, fontWeight: FontWeight.w600)),
+                    if (_selectedYearFilter != null)
+                      TextButton(
+                        onPressed: () {
+                          setLocalState(() => _selectedYearFilter = null);
+                          setState(() => _selectedYearFilter = null);
+                        },
+                        child: Text(isEnglish ? 'Clear' : 'Sıfırla', style: const TextStyle(color: WanderlustColors.error, fontSize: 12)),
+                      ),
+                  ],
+                ),
+              ),
+              SizedBox(
+                height: 50,
+                child: ListView(
+                  scrollDirection: Axis.horizontal,
+                  padding: const EdgeInsets.symmetric(horizontal: 16),
+                  children: years.map((year) {
+                    final isSelected = _selectedYearFilter == year;
+                    return Padding(
+                      padding: const EdgeInsets.symmetric(horizontal: 4),
+                      child: ChoiceChip(
+                        label: Text(year.toString()),
+                        selected: isSelected,
+                        onSelected: (val) {
+                          setLocalState(() => _selectedYearFilter = year);
+                          setState(() => _selectedYearFilter = year);
+                        },
+                        backgroundColor: WanderlustColors.bgCard,
+                        selectedColor: WanderlustColors.accent,
+                        labelStyle: TextStyle(color: isSelected ? Colors.white : Colors.white70),
+                      ),
+                    );
+                  }).toList(),
                 ),
               ),
               
-              // Gradient Overlay
-              Container(
-                decoration: BoxDecoration(
-                  gradient: LinearGradient(
-                    begin: Alignment.topCenter,
-                    end: Alignment.bottomCenter,
-                    colors: [
-                      Colors.transparent,
-                      Colors.black.withOpacity(0.8),
-                    ],
-                    stops: const [0.5, 1.0],
-                  ),
-                ),
-              ),
-
-              // Folder Icon Badge
-              Positioned(
-                top: 12,
-                right: 12,
-                child: Container(
-                  padding: const EdgeInsets.all(8),
-                  decoration: BoxDecoration(
-                    color: Colors.black.withOpacity(0.4),
-                    shape: BoxShape.circle,
-                    border: Border.all(color: Colors.white.withOpacity(0.2)),
-                  ),
-                  child: const Icon(
-                    Icons.folder_open_rounded,
-                    color: Colors.white,
-                    size: 16,
-                  ),
-                ),
-              ),
-
-              // Content
-              Positioned(
-                left: 16,
-                right: 16,
-                bottom: 16,
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
+              const SizedBox(height: 20),
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 20),
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
-                    Text(
-                      cityName,
-                      style: const TextStyle(
-                        color: Colors.white,
-                        fontSize: 16,
-                        fontWeight: FontWeight.w700,
+                    Text(isEnglish ? 'Month' : 'Ay', style: const TextStyle(color: Colors.white70, fontWeight: FontWeight.w600)),
+                    if (_selectedMonthFilter != null)
+                      TextButton(
+                        onPressed: () {
+                          setLocalState(() => _selectedMonthFilter = null);
+                          setState(() => _selectedMonthFilter = null);
+                        },
+                        child: Text(isEnglish ? 'Clear' : 'Sıfırla', style: const TextStyle(color: WanderlustColors.error, fontSize: 12)),
                       ),
-                      maxLines: 1,
-                      overflow: TextOverflow.ellipsis,
-                    ),
-                    const SizedBox(height: 4),
-                    Text(
-                      '$count ${isEnglish ? 'memories' : 'anı'}',
-                      style: const TextStyle(
-                        color: Colors.white70,
-                        fontSize: 12,
-                        fontWeight: FontWeight.w500,
-                      ),
-                    ),
                   ],
+                ),
+              ),
+              Expanded(
+                child: GridView.builder(
+                  padding: const EdgeInsets.all(20),
+                  gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
+                    crossAxisCount: 3,
+                    childAspectRatio: 2.5,
+                    crossAxisSpacing: 10,
+                    mainAxisSpacing: 10,
+                  ),
+                  itemCount: months.length,
+                  itemBuilder: (context, index) {
+                    final monthIdx = index + 1;
+                    final isSelected = _selectedMonthFilter == monthIdx;
+                    return GestureDetector(
+                      onTap: () {
+                        setLocalState(() => _selectedMonthFilter = monthIdx);
+                        setState(() => _selectedMonthFilter = monthIdx);
+                      },
+                      child: Container(
+                        alignment: Alignment.center,
+                        decoration: BoxDecoration(
+                          color: isSelected ? WanderlustColors.accent : WanderlustColors.bgCard.withOpacity(0.5),
+                          borderRadius: BorderRadius.circular(10),
+                          border: Border.all(color: isSelected ? WanderlustColors.accent : WanderlustColors.border),
+                        ),
+                        child: Text(
+                          months[index],
+                          style: TextStyle(color: isSelected ? Colors.white : Colors.white70, fontSize: 12, fontWeight: isSelected ? FontWeight.bold : FontWeight.normal),
+                        ),
+                      ),
+                    );
+                  },
+                ),
+              ),
+              
+              Padding(
+                padding: const EdgeInsets.all(20),
+                child: SizedBox(
+                  width: double.infinity,
+                  height: 50,
+                  child: ElevatedButton(
+                    style: ElevatedButton.styleFrom(
+                      backgroundColor: WanderlustColors.accent,
+                      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(14)),
+                    ),
+                    onPressed: () => Navigator.pop(context),
+                    child: Text(isEnglish ? 'Apply' : 'Uygula', style: const TextStyle(color: Colors.white, fontWeight: FontWeight.bold)),
+                  ),
                 ),
               ),
             ],
@@ -597,6 +748,30 @@ class _MemoryCard extends StatelessWidget {
                 ),
               ),
 
+              // Delete button
+              Positioned(
+                top: 8,
+                right: 8,
+                child: GestureDetector(
+                  onTap: () {
+                     HapticFeedback.mediumImpact();
+                     onDelete();
+                  },
+                  child: Container(
+                    padding: const EdgeInsets.all(6),
+                    decoration: BoxDecoration(
+                      color: Colors.black.withOpacity(0.4),
+                      shape: BoxShape.circle,
+                    ),
+                    child: const Icon(
+                      Icons.delete_outline_rounded,
+                      color: Colors.white,
+                      size: 18,
+                    ),
+                  ),
+                ),
+              ),
+
               // City badge
               Positioned(
                 top: 10,
@@ -604,7 +779,7 @@ class _MemoryCard extends StatelessWidget {
                 child: Container(
                   padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 4),
                   decoration: BoxDecoration(
-                    color: WanderlustColors.accent,
+                    color: WanderlustColors.accent.withOpacity(0.85),
                     borderRadius: BorderRadius.circular(12),
                   ),
                   child: Text(

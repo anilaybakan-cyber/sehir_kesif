@@ -21,7 +21,7 @@ import 'city_switcher_screen.dart';
 import '../l10n/app_localizations.dart';
 import '../theme/wanderlust_colors.dart';
 import '../widgets/map_background.dart';
-import 'dart:ui'; // For ImageFilter
+// For ImageFilter
 import '../services/notification_service.dart';
 import '../services/trending_service.dart';
 import 'city_guide_detail_screen.dart';
@@ -32,6 +32,7 @@ import '../services/premium_service.dart';
 import 'package:tutorial_coach_mark/tutorial_coach_mark.dart';
 import '../services/tutorial_service.dart';
 import '../widgets/tutorial_overlay_widget.dart';
+import '../services/location_context_service.dart';
 
 class ExploreScreen extends StatefulWidget {
   final bool isVisible;
@@ -125,22 +126,22 @@ class _ExploreScreenState extends State<ExploreScreen>
 
   List<Map<String, dynamic>> get _categories => [
     {"id": "Tümü", "label": AppLocalizations.instance.allCategories},
-    {"id": "Yeme-İçme", "label": "Yeme-İçme"}, // Restoran yerine Yeme-İçme
+    {"id": "Yeme-İçme", "label": AppLocalizations.instance.foodDrink},
     {"id": "Kafe", "label": AppLocalizations.instance.cafe},
     {"id": "Müze", "label": AppLocalizations.instance.museum},
     {"id": "Park", "label": AppLocalizations.instance.park},
     {"id": "Bar", "label": AppLocalizations.instance.bar},
     {"id": "Tarihi", "label": AppLocalizations.instance.historical},
-    {"id": "Manzara", "label": "Manzara"}, // Manzara filtresi eklendi (Localization later)
+    {"id": "Manzara", "label": AppLocalizations.instance.categoryViewpoint},
     {"id": "Deneyim", "label": AppLocalizations.instance.experience},
     {"id": "Alışveriş", "label": AppLocalizations.instance.shopping},
     {"id": "Plaj", "label": AppLocalizations.instance.beach},
   ];
 
-  final List<Map<String, dynamic>> _moods = const [
-    {"id": 0, "label": "Sakin"},
-    {"id": 1, "label": "Keşif"},
-    {"id": 2, "label": "Popüler"},
+  List<Map<String, dynamic>> get _moods => [
+    {"id": 0, "label": AppLocalizations.instance.moodSakin},
+    {"id": 1, "label": AppLocalizations.instance.moodKesif},
+    {"id": 2, "label": AppLocalizations.instance.moodPopuler},
   ];
 
   // ══════════════════════════════════════════════════════════════════════════
@@ -410,7 +411,9 @@ class _ExploreScreenState extends State<ExploreScreen>
                         ),
                         const SizedBox(height: 8),
                         Text(
-                          cityData['name'],
+                          (AppLocalizations.instance.isEnglish && cityData['name_en'] != null 
+                            ? cityData['name_en'] 
+                            : cityData['name']),
                           style: const TextStyle(
                             color: Colors.white,
                             fontSize: 28,
@@ -426,7 +429,9 @@ class _ExploreScreenState extends State<ExploreScreen>
                             ),
                             const SizedBox(width: 6),
                             Text(
-                              AppLocalizations.instance.translateCountry(cityData['country']),
+                              (AppLocalizations.instance.isEnglish && cityData['country_en'] != null
+                                  ? cityData['country_en']
+                                  : AppLocalizations.instance.translateCountry(cityData['country'])),
                               style: const TextStyle(
                                 color: Colors.white70,
                                 fontSize: 14,
@@ -1745,7 +1750,7 @@ class _ExploreScreenState extends State<ExploreScreen>
     if (_city == null) return const SizedBox.shrink();
 
     final isEnglish = AppLocalizations.instance.isEnglish;
-    final cityName = _city!.city;
+    final cityName = _city!.getLocalizedCityName(isEnglish);
     // Şehir görselini bul (Artık AIService üzerinden merkezi olarak alınıyor)
     final imageUrl = AIService.getCityImage(_currentCityId);
 
@@ -1783,13 +1788,16 @@ class _ExploreScreenState extends State<ExploreScreen>
               fit: StackFit.expand,
               children: [
                 // 1. Arka Plan Resmi
-                CachedNetworkImage(
-                  imageUrl: imageUrl,
+                Image.network(
+                  imageUrl,
                   fit: BoxFit.cover,
                   color: Colors.black.withOpacity(0.2), // Hafif karartma
                   colorBlendMode: BlendMode.darken,
-                  placeholder: (context, url) => Container(color: bgCard),
-                  errorWidget: (context, url, error) => Container(color: bgCard),
+                  loadingBuilder: (context, child, loadingProgress) {
+                    if (loadingProgress == null) return child;
+                    return Container(color: bgCard);
+                  },
+                  errorBuilder: (context, error, stackTrace) => Container(color: bgCard),
                 ),
 
                 // 2. Gradient Overlay (Okunabilirlik için)
@@ -2022,7 +2030,7 @@ class _ExploreScreenState extends State<ExploreScreen>
                         ),
                         const SizedBox(width: 8),
                         Text(
-                          _city?.city ?? AppLocalizations.instance.city,
+                          AppLocalizations.instance.translateCity(_city?.city ?? AppLocalizations.instance.city),
                           style: const TextStyle(
                             color: Colors.white,
                             fontSize: 14,
@@ -2208,14 +2216,18 @@ class _ExploreScreenState extends State<ExploreScreen>
                                   children: [
                                     Icon(Icons.auto_awesome, color: accent, size: 12),
                                     const SizedBox(width: 4),
-                                    Text(
-                                      _interests.isNotEmpty 
-                                        ? AppLocalizations.instance.t("Senin tercihlerine göre öneriler", "Suggestions based on your interests")
-                                        : AppLocalizations.instance.t("Kişiselleştirilmiş öneriler", "Personalized suggestions"),
-                                      style: TextStyle(
-                                        color: accent.withOpacity(0.9),
-                                        fontSize: 11,
-                                        fontWeight: FontWeight.w500,
+                                    Flexible(
+                                      child: Text(
+                                        _interests.isNotEmpty 
+                                          ? AppLocalizations.instance.t("Senin tercihlerine göre öneriler", "Suggestions based on your interests")
+                                          : AppLocalizations.instance.t("Kişiselleştirilmiş öneriler", "Personalized suggestions"),
+                                        style: TextStyle(
+                                          color: accent.withOpacity(0.9),
+                                          fontSize: 11,
+                                          fontWeight: FontWeight.w500,
+                                        ),
+                                        overflow: TextOverflow.ellipsis,
+                                        maxLines: 1,
                                       ),
                                     ),
                                   ],
@@ -2421,7 +2433,7 @@ class _ExploreScreenState extends State<ExploreScreen>
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Text(
-          AppLocalizations.instance.preparingRecommendations(_city?.city ?? AppLocalizations.instance.city, _tripDays),
+          AppLocalizations.instance.preparingRecommendations(AppLocalizations.instance.translateCity(_city?.city ?? AppLocalizations.instance.city), _tripDays),
           style: const TextStyle(
             color: textGrey,
             fontSize: 14,
@@ -2696,13 +2708,16 @@ class _ExploreScreenState extends State<ExploreScreen>
               child: Stack(
                 fit: StackFit.expand,
                 children: [
-                  CachedNetworkImage(
-                    imageUrl: imageUrl,
+                  Image.network(
+                    imageUrl,
                     fit: BoxFit.cover,
-                    placeholder: (context, url) => Container(
-                      color: Colors.white.withOpacity(0.1),
-                    ),
-                    errorWidget: (context, url, error) => Container(
+                    loadingBuilder: (context, child, loadingProgress) {
+                      if (loadingProgress == null) return child;
+                      return Container(
+                        color: Colors.white.withOpacity(0.1),
+                      );
+                    },
+                    errorBuilder: (context, error, stackTrace) => Container(
                       color: Colors.grey[900],
                       child: const Icon(Icons.image_not_supported, color: Colors.white54),
                     ),
@@ -3202,7 +3217,7 @@ class _ExploreScreenState extends State<ExploreScreen>
         },
         style: const TextStyle(color: textWhite, fontSize: 15),
         decoration: InputDecoration(
-          hintText: AppLocalizations.instance.searchInCity(_city?.city ?? AppLocalizations.instance.city),
+          hintText: AppLocalizations.instance.searchInCity(AppLocalizations.instance.translateCity(_city?.city ?? AppLocalizations.instance.city)),
           hintStyle: TextStyle(color: textGrey.withOpacity(0.6)),
           prefixIcon: Icon(Icons.search, color: textGrey.withOpacity(0.6)),
           suffixIcon: _searchQuery.isNotEmpty
@@ -3620,7 +3635,7 @@ class _ExploreScreenState extends State<ExploreScreen>
                   ),
                 ),
 
-                // Rating - tıklanabilir (Google Maps'e yönlendirir)
+                // Rating - tıklanabilir (Google Maps'e yönlendirir - PRO ONLY)
                 if (place.rating != null)
                   Positioned(
                     bottom: 12,
@@ -3628,6 +3643,18 @@ class _ExploreScreenState extends State<ExploreScreen>
                     child: GestureDetector(
                       onTap: () async {
                         HapticFeedback.lightImpact();
+                        
+                        // Premium kontrolü
+                        if (!PremiumService.instance.isPremium) {
+                          showModalBottomSheet(
+                            context: context,
+                            isScrollControlled: true,
+                            backgroundColor: Colors.transparent,
+                            builder: (context) => const PaywallScreen(),
+                          );
+                          return;
+                        }
+
                         final query = Uri.encodeComponent('${place.name} ${_city?.city ?? ""}');
                         final url = 'https://www.google.com/maps/search/?api=1&query=$query';
                         if (await canLaunchUrl(Uri.parse(url))) {
@@ -3696,7 +3723,7 @@ class _ExploreScreenState extends State<ExploreScreen>
                       const SizedBox(width: 4),
                       Expanded(
                         child: Text(
-                          place.area.isNotEmpty ? place.area : (place.city ?? ""),
+                          place.getLocalizedArea(AppLocalizations.instance.isEnglish).isNotEmpty ? place.getLocalizedArea(AppLocalizations.instance.isEnglish) : (place.city ?? ""),
                           style: TextStyle(color: textGrey, fontSize: 13),
                           overflow: TextOverflow.ellipsis,
                         ),
@@ -3708,26 +3735,37 @@ class _ExploreScreenState extends State<ExploreScreen>
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
-                      // Mesafe
-                      if (place.distanceFromCenter != null)
-                        Container(
-                          padding: const EdgeInsets.symmetric(
-                            horizontal: 10,
-                            vertical: 5,
-                          ),
-                          decoration: BoxDecoration(
-                            color: bgCardLight,
-                            borderRadius: BorderRadius.circular(8),
-                          ),
-                          child: Text(
-                            "${place.distanceFromCenter} km",
-                            style: TextStyle(
-                              color: Colors.white, // White text
-                              fontSize: 12,
-                              fontWeight: FontWeight.w500,
+                      // Mesafe (LocationContextServiceClient ile güncellendi)
+                      AnimatedBuilder(
+                        animation: LocationContextService.instance,
+                        builder: (context, child) {
+                          String distLabel = "";
+                          if (place.lat == 0 && place.lng == 0) {
+                            distLabel = "${place.distanceFromCenter.toStringAsFixed(1)} km";
+                          } else {
+                            distLabel = LocationContextService.instance.getDistanceLabel(place.lat, place.lng);
+                          }
+
+                          return Container(
+                            padding: const EdgeInsets.symmetric(
+                              horizontal: 10,
+                              vertical: 5,
                             ),
-                          ),
-                        ),
+                            decoration: BoxDecoration(
+                              color: bgCardLight,
+                              borderRadius: BorderRadius.circular(8),
+                            ),
+                            child: Text(
+                              distLabel,
+                              style: const TextStyle(
+                                color: Colors.white,
+                                fontSize: 12,
+                                fontWeight: FontWeight.w500,
+                              ),
+                            ),
+                          );
+                        },
+                      ),
                       // Rotaya ekle butonu
                       GestureDetector(
                         key: null, // 🔥 FIRST ITEM KEY

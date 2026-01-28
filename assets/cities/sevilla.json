@@ -714,29 +714,6 @@
       "tips_en": "Be prepared with cash, some local places might not accept cards."
     },
     {
-      "name": "Barrio Santa Cruz",
-      "name_en": "Barrio Santa Cruz",
-      "area": "Santa Cruz",
-      "category": "Bar",
-      "tags": [
-        "yahudi",
-        "labirent",
-        "romantik"
-      ],
-      "distanceFromCenter": 0.2,
-      "lat": 37.3853,
-      "lng": -5.9875,
-      "price": "low",
-      "rating": 4.5,
-      "description": "Eski Yahudi mahallesi olan bu dar sokaklar labirenti, Sevilla'nın en fotojenik ve romantik kısmıdır.",
-      "description_en": "This labyrinth of narrow streets, the former Jewish quarter, is the most photogenic and romantic part of Seville.",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sevilla/barrio_santa_cruz.jpg",
-      "bestTime": "Öğleden sonra",
-      "bestTime_en": "Afternoon",
-      "tips": "Yerel halkın favori noktalarından biri.",
-      "tips_en": "One of the favorite spots of the locals."
-    },
-    {
       "name": "Basilica de la Macarena",
       "area": "Macarena",
       "category": "Tarihi",
@@ -1134,7 +1111,7 @@
     },
     {
       "name": "Carmona",
-      "area": "Günübirlik",
+      "area": "Carmona",
       "category": "Tarihi",
       "tags": [
         "kasaba",
@@ -1152,7 +1129,8 @@
       "bestTime": "Yarım gün",
       "bestTime_en": "Half day",
       "tips": "Fotoğraf çekimi için en iyi ışık gün batımına yakındır.",
-      "tips_en": "Best light for photography is near sunset."
+      "tips_en": "Best light for photography is near sunset.",
+      "area_en": "Carmona"
     },
     {
       "id": "gen_ChIJhYXtoZxtEg0RGuBG9HfcmMU",
@@ -1292,6 +1270,50 @@
       "bestTime_en": "Afternoon",
       "tips": "Rehbere soru sormaktan çekinmeyin, çok ilginç hikayeler biliyorlar.",
       "tips_en": "Don't hesitate to ask the guide questions, they know interesting stories."
+    },
+    {
+      "name": "Santa Cruz Neighborhood",
+      "name_en": "Santa Cruz Neighborhood",
+      "area": "Santa Cruz",
+      "category": "Tarihi",
+      "tags": [
+        "mahalle",
+        "eskis şehir",
+        "yahudi mahallesi",
+        "gezinti"
+      ],
+      "distanceFromCenter": 0.2,
+      "lat": 37.3828,
+      "lng": -5.9732,
+      "price": "free",
+      "rating": 4.8,
+      "description": "Sevilla'nın en eski ve büyüleyici mahallesi. Orta Çağ'dan kalma daracık sokakları, bembeyaz boyalı evleri ve çiçeklerle bezeli balkonlarıyla adeta bir labirenti andırır. Eski Yahudi mahallesi olan bu bölge, şehrin en ikonik meydanlarına ev sahipliği yapar.",
+      "description_en": "Seville's oldest and most charming neighborhood. A labyrinth of narrow medieval streets, whitewashed houses, and flower-filled balconies. Once the Jewish quarter, it remains the historic heart of the city.",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Plaza_de_Do%C3%B1a_Elvira_Sevilla_2011.jpg/1280px-Plaza_de_Do%C3%B1a_Elvira_Sevilla_2011.jpg",
+      "tips": "Meydanlarda dinlenin ve dar sokaklarda kaybolmanın tadını çıkarın.",
+      "tips_en": "Relax in the squares and enjoy getting lost in the narrow alleys."
+    },
+    {
+      "name": "Puente de Isabel II",
+      "name_en": "Puente de Isabel II",
+      "area": "Triana",
+      "category": "Tarihi",
+      "tags": [
+        "köprü",
+        "triana",
+        "nehir",
+        "manzara"
+      ],
+      "distanceFromCenter": 0.8,
+      "lat": 37.3863,
+      "lng": -6.0025,
+      "price": "free",
+      "rating": 4.7,
+      "description": "Popüler adıyla Triana Köprüsü. Guadalquivir Nehri üzerinde, Triana mahallesi ile şehir merkezini birbirine bağlayan bu zarif metal köprü, 19. yüzyıl endüstriyel mimarisinin en güzel örneklerinden biridir.",
+      "description_en": "Popularly known as the Triana Bridge. This elegant 19th-century metal arch bridge connects the Triana district with the city center across the Guadalquivir River.",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Puente_de_Isabel_II_%28Triana%29_-_Sevilla.jpg/1280px-Puente_de_Isabel_II_%28Triana%29_-_Sevilla.jpg",
+      "tips": "Köprü üzerindeki gün batımı manzarası Sevilla'nın en iyilerinden biri.",
+      "tips_en": "The sunset view from the bridge is one of the best in Seville."
     },
     {
       "name": "Catedral & Giralda",
@@ -1553,7 +1575,7 @@
     },
     {
       "name": "Cádiz Cathedral",
-      "area": "Günübirlik",
+      "area": "Cádiz Cathedral",
       "category": "Tarihi",
       "tags": [
         "plaj",
@@ -1571,7 +1593,8 @@
       "bestTime": "Tüm gün",
       "bestTime_en": "Full day",
       "tips": "Fotoğraf çekimi için en iyi ışık gün batımına yakındır.",
-      "tips_en": "Best light for photography is near sunset."
+      "tips_en": "Best light for photography is near sunset.",
+      "area_en": "Cádiz Cathedral"
     },
     {
       "name": "Córdoba (Mezquita)",
@@ -1593,7 +1616,8 @@
       "bestTime": "Tüm gün",
       "bestTime_en": "Full day",
       "tips": "Fotoğraf çekimi için en iyi ışık gün batımına yakındır.",
-      "tips_en": "Best light for photography is near sunset."
+      "tips_en": "Best light for photography is near sunset.",
+      "area_en": "Córdoba (Day Trip)"
     },
     {
       "id": "gen_ChIJb0fHcZ9tEg0R-L1SWJQnSq4",
@@ -4025,7 +4049,7 @@
     },
     {
       "name": "Puente Nuevo Ronda",
-      "area": "Günübirlik",
+      "area": "Ronda",
       "category": "Deneyim",
       "tags": [
         "köprü",
@@ -4043,7 +4067,8 @@
       "bestTime": "Tüm gün",
       "bestTime_en": "Full day",
       "tips": "Kıyafetinizin aktiviteye uygun olduğundan emin olun.",
-      "tips_en": "Ensure your outfit is suitable for the activity."
+      "tips_en": "Ensure your outfit is suitable for the activity.",
+      "area_en": "Ronda"
     },
     {
       "name": "Puente de San Telmo",
@@ -4879,22 +4904,27 @@
       "tips_en": "Visiting on weekdays offers a calmer experience."
     },
     {
-      "name": "Santa Cruz Neighborhood",
-      "name_en": "Santa Cruz Neighborhood",
-      "area": "Center",
+      "name": "Barrio Santa Cruz",
+      "name_en": "Barrio Santa Cruz",
+      "area": "Santa Cruz",
       "category": "Tarihi",
       "tags": [
-        "neighborhood",
-        "history",
-        "narrow streets"
+        "yahudi",
+        "labirent",
+        "romantik"
       ],
-      "lat": 37.3851,
-      "lng": -5.9912,
-      "description": "Sevilla'nın en eski ve büyüleyici mahallesi. Dar sokakları, portakal ağaçları ve begonvilleriyle ünlü eski Yahudi mahallesi.",
-      "description_en": "Seville's oldest and most charming neighborhood. The former Jewish quarter is famous for its narrow alleys and orange trees.",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sevilla/santa_cruz.jpg",
-      "rating": 4.8,
-      "price": "free"
+      "distanceFromCenter": 0.2,
+      "lat": 37.3853,
+      "lng": -5.9875,
+      "price": "low",
+      "rating": 4.5,
+      "description": "Eski Yahudi mahallesi olan bu dar sokaklar labirenti, Sevilla'nın en fotojenik ve romantik kısmıdır.",
+      "description_en": "This labyrinth of narrow streets, the former Jewish quarter, is the most photogenic and romantic part of Seville.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sevilla/barrio_santa_cruz.jpg",
+      "bestTime": "Öğleden sonra",
+      "bestTime_en": "Afternoon",
+      "tips": "Yerel halkın favori noktalarından biri.",
+      "tips_en": "One of the favorite spots of the locals."
     },
     {
       "name": "Plaza de España",

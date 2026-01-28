@@ -7,6 +7,72 @@
   },
   "highlights": [
     {
+      "name": "Kutnu Kumaş Atölyeleri",
+      "name_en": "Kutnu Fabric Workshops",
+      "area": "Tarihi Çarşılar",
+      "category": "Zanaat",
+      "tags": [
+        "geleneksel",
+        "ipek",
+        "dokuma",
+        "saray kumaşı"
+      ],
+      "distanceFromCenter": 0.5,
+      "lat": 37.0664,
+      "lng": 37.3820,
+      "price": "medium",
+      "rating": 4.8,
+      "description": "16. yüzyıldan beri Gaziantep'te dokunan, Osmanlı sultanlarının kaftanlarında kullanılan efsanevi 'saray kumaşı' kutnu. İpek ve pamuğun birleştiği, rengarenk çizgili bu kumaşın tezgah seslerini duyabileceğiniz yaşayan atölyeler.",
+      "description_en": "The legendary 'palace fabric' kutnu, woven in Gaziantep since the 16th century and used for Ottoman sultans' kaftans. Living workshops where you can hear the rhythmic sounds of looms weaving silk and cotton.",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Anatolian_textile_weaving.jpg/1280px-Anatolian_textile_weaving.jpg",
+      "tips": "Orijinal kutnu kumaşını parlaklığından ve dokusundan ayırt edebilirsiniz.",
+      "tips_en": "You can distinguish original kutnu fabric by its unique sheen and texture."
+    },
+    {
+      "name": "Sedef Kakma Atölyesi",
+      "name_en": "Mother-of-Pearl Inlay Workshop",
+      "area": "Tarihi Çarşılar",
+      "category": "Zanaat",
+      "tags": [
+        "zanaat",
+        "sanat",
+        "geleneksel",
+        "ustalık"
+      ],
+      "distanceFromCenter": 0.6,
+      "lat": 37.0665,
+      "lng": 37.3821,
+      "price": "free",
+      "rating": 4.9,
+      "description": "Ceviz ağacına açılan yuvalara sedef ve gümüş tellerin büyük bir sabırla yerleştirildiği, UNESCO listesine giren kadim bir sanat. Ustaların çekiç sesleri arasında tarihin nasıl şekillendiğine tanık olun.",
+      "description_en": "An ancient UNESCO-recognized art where mother-of-pearl and silver wires are meticulously inlaid into walnut wood. Witness how history is shaped amidst the rhythmic tapping of masters' hammers.",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Mother_of_pearl_inlay_process.jpg/1280px-Mother_of_pearl_inlay_process.jpg",
+      "tips": "Sedef koleksiyonluk eşyalar için en özel Gaziantep hatırasıdır.",
+      "tips_en": "Mother-of-pearl items are among the most special collectibles to bring home from Gaziantep."
+    },
+    {
+      "name": "Tarihi Gümrük Hanı",
+      "name_en": "Historical Sebat Customs Inn",
+      "area": "Şahinbey",
+      "category": "Tarihi",
+      "tags": [
+        "han",
+        "osmanlı",
+        "müze",
+        "mimari"
+      ],
+      "distanceFromCenter": 0.4,
+      "lat": 37.0663,
+      "lng": 37.3822,
+      "price": "free",
+      "rating": 4.7,
+      "description": "1873 yılında inşa edilen ve bugün 'Yaşayan Müze' olarak hizmet veren muazzam bir Osmanlı hanı. İçerisindeki atölyelerde kaybolmaya yüz tutmuş onlarca zanaatın hala yaşadığını görebilir, avlusunda kahvenizi yudumlayabilirsiniz.",
+      "description_en": "A magnificent Ottoman inn built in 1873, now serving as a 'Living Museum'. Explore workshops where dozens of nearly-forgotten crafts are kept alive, or simply enjoy a coffee in its historic courtyard.",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Gaziantep_historical_inn.jpg/1280px-Gaziantep_historical_inn.jpg",
+      "tips": "Hanın üst katındaki geleneksel el sanatları ürünlerini mutlaka inceleyin.",
+      "tips_en": "Be sure to check out the traditional handicrafts on the upper floor of the inn."
+    },
+    {
       "name": "100. Yıl Atatürk Kültür Parkı",
       "name_en": "100th Year Ataturk Culture Park",
       "area": "Şahinbey",
@@ -1442,7 +1508,8 @@
       "tips_en": "Go very hungry, there are many tastings.",
       "id": "gastronomi-turu",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/gaziantep/gastronomi-turu.jpg",
-      "source": "firebase"
+      "source": "firebase",
+      "area_en": "Center"
     },
     {
       "name": "Gaziantep Hayvanat Bahçesi",
@@ -1637,7 +1704,8 @@
       "tips_en": "Castle looks very impressive at night.",
       "id": "gece-sehir-turu",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/gaziantep/gece-sehir-turu.jpg",
-      "source": "firebase"
+      "source": "firebase",
+      "area_en": "Center"
     },
     {
       "name": "Geleneksel Oyun Gecesi",
@@ -4522,5 +4590,7 @@
       "source": "firebase"
     }
   ],
-  "heroImage": "https://www.brandlifemag.com/wp-content/uploads/2021/04/acilis-gaziantep-december-06gaziantep-coppersmith-bazaar-600w-549044518.jpg"
+  "heroImage": "https://www.brandlifemag.com/wp-content/uploads/2021/04/acilis-gaziantep-december-06gaziantep-coppersmith-bazaar-600w-549044518.jpg",
+  "city_en": "Gaziantep",
+  "country_en": "Turkey"
 }

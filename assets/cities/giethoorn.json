@@ -585,7 +585,8 @@
       "id": "canal-grande",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/canal-grande.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "area_en": "Center"
     },
     {
       "name": "Canal Grande Giethoorn",
@@ -989,7 +990,8 @@
       "id": "de-rietstulp",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/de-rietstulp.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "area_en": "Center"
     },
     {
       "name": "De Sloothaak",
@@ -2906,7 +2908,8 @@
       "id": "ristorante-fratelli",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/ristorante-fratelli.jpg",
       "source": "firebase",
-      "distanceFromCenter": 1.0
+      "distanceFromCenter": 1.0,
+      "area_en": "Center"
     },
     {
       "name": "Rondvaart Zuideinde",
@@ -3741,5 +3744,7 @@
       "distanceFromCenter": 0.5
     }
   ],
-  "heroImage": "https://www.onedayinacity.com/wp-content/uploads/2021/03/Giethoorn-Village.png"
+  "heroImage": "https://www.onedayinacity.com/wp-content/uploads/2021/03/Giethoorn-Village.png",
+  "city_en": "Giethoorn",
+  "country_en": "Netherlands"
 }

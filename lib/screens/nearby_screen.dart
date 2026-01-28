@@ -11,6 +11,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
+import 'package:url_launcher/url_launcher.dart';
 import '../utils/map_theme.dart';
 import '../services/city_data_loader.dart';
 import '../models/city_model.dart';
@@ -52,10 +53,10 @@ class _NearbyScreenState extends State<NearbyScreen>
   List<_NearbyPlace> _filteredPlaces = [];
   bool _loading = true;
   String _selectedCity = "berlin";
-  Position? _userPosition; // Kullanıcının GPS konumu
+
 
   String _selectedCategory = "Tümü";
-  String _selectedSort = "Mesafe";
+  String _selectedSort = AppLocalizations.instance.sortByDistance;
   double _maxDistance = 100.0;
 
   List<String> _routePlaces = [];
@@ -115,9 +116,8 @@ class _NearbyScreenState extends State<NearbyScreen>
     _scrollController.addListener(_onScroll);
     _setupAnimations();
     _loadMapStyle();
-    _loadData();
+    _loadData(); // This now handles location context
     TripUpdateService().tripUpdated.addListener(_onTripDataChanged);
-    TripUpdateService().cityChanged.addListener(_onCityChanged);
     TripUpdateService().cityChanged.addListener(_onCityChanged);
     TripUpdateService().favoritesUpdated.addListener(_onFavoritesChanged);
     LocationContextService.instance.addListener(_onLocationModeChanged);
@@ -133,7 +133,9 @@ class _NearbyScreenState extends State<NearbyScreen>
   }
 
   void _onLocationModeChanged() {
-    if (mounted) setState(() {});
+    if (mounted) {
+      _recalculateDistances();
+    }
   }
 
   Future<void> _loadMapStyle() async {
@@ -166,29 +168,31 @@ class _NearbyScreenState extends State<NearbyScreen>
     }
     _favorites = prefs.getStringList("favorite_places") ?? [];
     
-    // Kullanıcının GPS konumunu al
-    await _getUserLocation();
-    
-    await Future.delayed(const Duration(milliseconds: 300));
-
     // Gerçek şehir verisini yükle
     try {
       final cityData = await CityDataLoader.loadCity(_selectedCity);
-
+      
+      // Update Location Context (This triggers location fetch and mode update)
+      // We do this BEFORE creating places so we might get a quick result, 
+      // but if not, the listener will catch it later.
+      LocationContextService.instance.updateContext(cityData);
+      
+      // Initial calculation might be waiting for location, so we use whatever service has
       final places = cityData.highlights
-          .map(
-            (h) => _NearbyPlace(
+          .map((h) {
+             final distMeters = LocationContextService.instance.getDistance(h.lat, h.lng);
+             return _NearbyPlace(
               name: h.name,
               category: h.category,
-              distanceKm: h.distanceFromCenter, // Şimdilik şehir merkezine göre (canlıda GPS'e çevrilecek)
+              distanceKm: double.parse((distMeters / 1000).toStringAsFixed(1)),
               rating: h.rating ?? 4.5,
               area: h.area,
               imageUrl: h.imageUrl,
               description: h.description,
               price: h.price,
               highlight: h,
-            ),
-          )
+            );
+          })
           .toList();
 
       if (mounted) {
@@ -219,55 +223,31 @@ class _NearbyScreenState extends State<NearbyScreen>
     }
   }
 
-  /// Kullanıcının GPS konumunu al
-  Future<void> _getUserLocation() async {
-    try {
-      // Konum izni kontrolü
-      LocationPermission permission = await Geolocator.checkPermission();
-      if (permission == LocationPermission.denied) {
-        permission = await Geolocator.requestPermission();
-        if (permission == LocationPermission.denied) {
-          debugPrint("📍 Konum izni reddedildi");
-          return;
-        }
-      }
+  void _recalculateDistances() {
+      if (_allPlaces.isEmpty) return;
       
-      if (permission == LocationPermission.deniedForever) {
-        debugPrint("📍 Konum izni kalıcı olarak reddedildi");
-        return;
-      }
+      final updatedPlaces = _allPlaces.map((p) {
+         final distMeters = LocationContextService.instance.getDistance(p.highlight.lat, p.highlight.lng);
+         return _NearbyPlace(
+            name: p.name,
+            category: p.category,
+            distanceKm: double.parse((distMeters / 1000).toStringAsFixed(1)),
+            rating: p.rating,
+            area: p.area,
+            imageUrl: p.imageUrl,
+            description: p.description,
+            price: p.price,
+            highlight: p.highlight,
+         );
+      }).toList();
 
-      // GPS konumunu al
-      final position = await Geolocator.getCurrentPosition(
-        desiredAccuracy: LocationAccuracy.medium,
-        timeLimit: const Duration(seconds: 10),
-      );
-      
-      _userPosition = position;
-      debugPrint("📍 Kullanıcı konumu: ${position.latitude}, ${position.longitude}");
-    } catch (e) {
-      debugPrint("📍 Konum alınamadı: $e");
-    }
+      setState(() {
+          _allPlaces = updatedPlaces;
+      });
+      _applyFilters();
   }
 
-  /// Kullanıcı konumundan hedefe mesafe hesapla (km cinsinden)
-  double _calculateDistance(double targetLat, double targetLng) {
-    if (_userPosition == null) {
-      // Konum yoksa fallback olarak merkeze mesafeyi döndür
-      return 0.0;
-    }
-    
-    // Haversine formülü ile mesafe hesapla (Geolocator bunu yapıyor)
-    final distanceInMeters = Geolocator.distanceBetween(
-      _userPosition!.latitude,
-      _userPosition!.longitude,
-      targetLat,
-      targetLng,
-    );
-    
-    // Metre'yi km'ye çevir ve 1 ondalık basamağa yuvarla
-    return double.parse((distanceInMeters / 1000).toStringAsFixed(1));
-  }
+
 
   void _applyFilters() {
     if (_allPlaces.isEmpty) return;
@@ -306,16 +286,12 @@ class _NearbyScreenState extends State<NearbyScreen>
       ).toList();
     }
 
-    switch (_selectedSort) {
-      case "Mesafe":
-        filtered.sort((a, b) => a.distanceKm.compareTo(b.distanceKm));
-        break;
-      case "Puan":
-        filtered.sort((a, b) => b.rating.compareTo(a.rating));
-        break;
-      case "İsim":
-        filtered.sort((a, b) => a.name.compareTo(b.name));
-        break;
+    if (_selectedSort == AppLocalizations.instance.sortByDistance) {
+      filtered.sort((a, b) => a.distanceKm.compareTo(b.distanceKm));
+    } else if (_selectedSort == AppLocalizations.instance.sortByRating) {
+      filtered.sort((a, b) => b.rating.compareTo(a.rating));
+    } else if (_selectedSort == AppLocalizations.instance.sortByName) {
+      filtered.sort((a, b) => a.name.compareTo(b.name));
     }
 
     setState(() => _filteredPlaces = filtered);
@@ -620,46 +596,72 @@ class _NearbyScreenState extends State<NearbyScreen>
   }
 
   String _getCityDisplayName(String cityId) {
+    final isEnglish = AppLocalizations.instance.isEnglish;
     final names = {
-      'istanbul': 'İstanbul',
+      'istanbul': isEnglish ? 'Istanbul' : 'İstanbul',
+      'kapadokya': isEnglish ? 'Cappadocia' : 'Kapadokya',
+      'cappadocia': isEnglish ? 'Cappadocia' : 'Kapadokya',
       'barcelona': 'Barcelona',
       'paris': 'Paris',
-      'roma': 'Roma',
+      'roma': isEnglish ? 'Rome' : 'Roma',
       'berlin': 'Berlin',
-      'londra': 'Londra',
+      'londra': isEnglish ? 'London' : 'Londra',
       'amsterdam': 'Amsterdam',
       'tokyo': 'Tokyo',
-      'atina': 'Atina',
+      'atina': isEnglish ? 'Athens' : 'Atina',
       'bangkok': 'Bangkok',
-      'budapeste': 'Budapeşte',
-      'cenevre': 'Cenevre',
+      'budapeste': isEnglish ? 'Budapest' : 'Budapeşte',
+      'cenevre': isEnglish ? 'Geneva' : 'Cenevre',
       'dubai': 'Dubai',
       'dublin': 'Dublin',
-      'floransa': 'Floransa',
+      'floransa': isEnglish ? 'Florence' : 'Floransa',
       'hongkong': 'Hong Kong',
-      'kopenhag': 'Kopenhag',
-      'lizbon': 'Lizbon',
+      'kopenhag': isEnglish ? 'Copenhagen' : 'Kopenhag',
+      'lizbon': isEnglish ? 'Lisbon' : 'Lizbon',
       'lucerne': 'Lucerne',
       'lyon': 'Lyon',
       'madrid': 'Madrid',
-      'marakes': 'Marakeş',
-      'marsilya': 'Marsilya',
-      'milano': 'Milano',
-      'napoli': 'Napoli',
+      'marakes': isEnglish ? 'Marrakech' : 'Marakeş',
+      'marsilya': isEnglish ? 'Marseille' : 'Marsilya',
+      'milano': isEnglish ? 'Milan' : 'Milano',
+      'napoli': isEnglish ? 'Naples' : 'Napoli',
       'newyork': 'New York',
       'nice': 'Nice',
       'porto': 'Porto',
-      'prag': 'Prag',
-      'seul': 'Seul',
-      'sevilla': 'Sevilla',
-      'singapur': 'Singapur',
+      'prag': isEnglish ? 'Prague' : 'Prag',
+      'seul': isEnglish ? 'Seoul' : 'Seul',
+      'sevilla': isEnglish ? 'Seville' : 'Sevilla',
+      'singapur': isEnglish ? 'Singapore' : 'Singapur',
       'stockholm': 'Stockholm',
-      'venedik': 'Venedik',
-      'viyana': 'Viyana',
-      'zurih': 'Zürih',
+      'venedik': isEnglish ? 'Venice' : 'Venedik',
+      'viyana': isEnglish ? 'Vienna' : 'Viyana',
+      'zurih': isEnglish ? 'Zurich' : 'Zürih',
+      'antalya': 'Antalya',
+      'belgrad': isEnglish ? 'Belgrade' : 'Belgrad',
+      'edinburgh': 'Edinburgh',
+      'hallstatt': 'Hallstatt',
+      'strazburg': isEnglish ? 'Strasbourg' : 'Strazburg',
+      'kahire': isEnglish ? 'Cairo' : 'Kahire',
+      'fes': 'Fes',
+      'brugge': isEnglish ? 'Bruges' : 'Brugge',
+      'santorini': 'Santorini',
+      'heidelberg': 'Heidelberg',
+      'colmar': 'Colmar',
+      'sintra': 'Sintra',
+      'sansebastian': 'San Sebastian',
+      'bologna': 'Bologna',
+      'matera': 'Matera',
+      'gaziantep': 'Gaziantep',
+      'oslo': 'Oslo',
+      'rovaniemi': 'Rovaniemi',
+      'tromso': 'Tromso',
+      'zermatt': 'Zermatt',
+      'giethoorn': 'Giethoorn',
+      'kotor': 'Kotor',
+
     };
     // Eğer bulunamazsa baş harfi büyük yap
-    return names[cityId] ?? cityId[0].toUpperCase() + cityId.substring(1);
+    return names[cityId.toLowerCase()] ?? cityId[0].toUpperCase() + cityId.substring(1);
   }
 
   @override
@@ -1259,7 +1261,9 @@ class _NearbyScreenState extends State<NearbyScreen>
                       ),
                       const SizedBox(height: 4),
                       Text(
-                        place.area.isNotEmpty ? place.area : (place.highlight.city ?? ""),
+                        place.highlight.getLocalizedArea(AppLocalizations.instance.isEnglish).isNotEmpty 
+                            ? place.highlight.getLocalizedArea(AppLocalizations.instance.isEnglish) 
+                            : (place.highlight.city ?? ""),
                         style: const TextStyle(
                           fontSize: 14,
                           color: textSecondary,
@@ -1489,7 +1493,9 @@ class _NearbyScreenState extends State<NearbyScreen>
                         ),
                         const SizedBox(width: 6),
                         Text(
-                          place.area.isNotEmpty ? place.area : (place.highlight.city ?? ""),
+                          place.highlight.getLocalizedArea(AppLocalizations.instance.isEnglish).isNotEmpty 
+                              ? place.highlight.getLocalizedArea(AppLocalizations.instance.isEnglish) 
+                              : (place.highlight.city ?? ""),
                           style: const TextStyle(
                             fontSize: 15,
                             color: textSecondary,
@@ -1916,7 +1922,7 @@ class _NearbyScreenState extends State<NearbyScreen>
                     mainAxisAlignment: MainAxisAlignment.center, // Center vertically
                     children: [
                       // Top Row: Category & Rating
-                      Row(
+                        Row(
                         children: [
                           Container(
                             padding: const EdgeInsets.symmetric(
@@ -1941,15 +1947,41 @@ class _NearbyScreenState extends State<NearbyScreen>
                             ),
                           ),
                           const Spacer(),
-                          const Icon(Icons.star_rounded,
-                              size: 14, color: Color(0xFFFDCB6E)),
-                          const SizedBox(width: 4),
-                          Text(
-                            place.rating.toStringAsFixed(1),
-                            style: const TextStyle(
-                              fontSize: 12,
-                              fontWeight: FontWeight.w700,
-                              color: textPrimary,
+                          // Review score click -> Google Maps (PRO ONLY)
+                          GestureDetector(
+                            onTap: () async {
+                              HapticFeedback.lightImpact();
+                              // Premium kontrolü
+                              if (!PremiumService.instance.isPremium) {
+                                showModalBottomSheet(
+                                  context: context,
+                                  isScrollControlled: true,
+                                  backgroundColor: Colors.transparent,
+                                  builder: (context) => const PaywallScreen(),
+                                );
+                                return;
+                              }
+
+                              final query = Uri.encodeComponent('${place.name} ${_selectedCity}');
+                              final url = 'https://www.google.com/maps/search/?api=1&query=$query';
+                              if (await canLaunchUrl(Uri.parse(url))) {
+                                await launchUrl(Uri.parse(url), mode: LaunchMode.externalApplication);
+                              }
+                            },
+                            child: Row(
+                              children: [
+                                const Icon(Icons.star_rounded,
+                                    size: 14, color: Color(0xFFFDCB6E)),
+                                const SizedBox(width: 4),
+                                Text(
+                                  place.rating.toStringAsFixed(1),
+                                  style: const TextStyle(
+                                    fontSize: 12,
+                                    fontWeight: FontWeight.w700,
+                                    color: textPrimary,
+                                  ),
+                                ),
+                              ],
                             ),
                           ),
                         ],
@@ -2063,33 +2095,38 @@ class _NearbyScreenState extends State<NearbyScreen>
                           const SizedBox(width: 8),
                           
                           // Mesafe badge
-                          Container(
-                            height: 32, // Match button height
-                            padding: const EdgeInsets.symmetric(
-                                horizontal: 8),
-                            decoration: BoxDecoration(
-                              color: bgCardLight,
-                              borderRadius: BorderRadius.circular(8),
-                            ),
-                            child: Row(
-                              mainAxisSize: MainAxisSize.min,
-                              children: [
-                                Icon(
-                                  Icons.directions_walk_rounded,
-                                  size: 13,
-                                  color: accent,
+                          AnimatedBuilder(
+                            animation: LocationContextService.instance,
+                            builder: (context, child) {
+                              return Container(
+                                height: 32, // Match button height
+                                padding: const EdgeInsets.symmetric(
+                                    horizontal: 8),
+                                decoration: BoxDecoration(
+                                  color: bgCardLight,
+                                  borderRadius: BorderRadius.circular(8),
                                 ),
-                                const SizedBox(width: 2),
-                                Text(
-                                  "${place.distanceKm} km",
-                                  style: const TextStyle(
-                                    fontSize: 11,
-                                    fontWeight: FontWeight.w600,
-                                    color: textPrimary,
-                                  ),
+                                child: Row(
+                                  mainAxisSize: MainAxisSize.min,
+                                  children: [
+                                    Icon(
+                                      Icons.directions_walk_rounded,
+                                      size: 13,
+                                      color: accent,
+                                    ),
+                                    const SizedBox(width: 2),
+                                    Text(
+                                      LocationContextService.instance.getDistanceLabel(place.highlight.lat, place.highlight.lng),
+                                      style: const TextStyle(
+                                        fontSize: 11,
+                                        fontWeight: FontWeight.w600,
+                                        color: textPrimary,
+                                      ),
+                                    ),
+                                  ],
                                 ),
-                              ],
-                            ),
+                              );
+                            },
                           ),
                         ],
                       ),

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import '../l10n/app_localizations.dart';
 import '../models/city_model.dart';
 import '../models/chat_message.dart';
@@ -46,25 +47,25 @@ class _AIChatScreenState extends State<AIChatScreen> {
     // Yemek & İçecek
     AppLocalizations.instance.bestCoffeeWhere,
     AppLocalizations.instance.localFoodWhere,
-    AppLocalizations.instance.isEnglish ? "Best brunch spots?" : "En iyi brunch mekanları?",
-    AppLocalizations.instance.isEnglish ? "Rooftop bars?" : "Teras barları?",
+    AppLocalizations.instance.bestBrunchSpots,
+    AppLocalizations.instance.rooftopBars,
     
     // Keşif & Gizli Yerler
-    AppLocalizations.instance.isEnglish ? "Hidden gems?" : "Gizli hazineler?",
-    AppLocalizations.instance.isEnglish ? "Off the beaten path?" : "Turistik olmayan yerler?",
+    AppLocalizations.instance.hiddenGems,
+    AppLocalizations.instance.offTheBeatenPath,
     
     // Doğa & Manzara
     AppLocalizations.instance.sunsetSpotWhere,
     AppLocalizations.instance.quietParkSuggest,
-    AppLocalizations.instance.isEnglish ? "Best viewpoints?" : "En iyi manzara noktaları?",
+    AppLocalizations.instance.bestViewpoints,
     
     // Kültür & Sanat
-    AppLocalizations.instance.isEnglish ? "Must-see museums?" : "Görülmesi gereken müzeler?",
-    AppLocalizations.instance.isEnglish ? "Art galleries?" : "Sanat galerileri?",
+    AppLocalizations.instance.mustSeeMuseums,
+    AppLocalizations.instance.artGalleries,
     
     // Romantik & Özel
-    AppLocalizations.instance.isEnglish ? "Romantic dinner spot" : "Romantik akşam yemeği",
-    AppLocalizations.instance.isEnglish ? "Unique date ideas?" : "Farklı bir randevu fikri?",
+    AppLocalizations.instance.romanticDinnerSpot,
+    AppLocalizations.instance.uniqueDateIdeas,
   ];
 
   @override
@@ -123,9 +124,9 @@ class _AIChatScreenState extends State<AIChatScreen> {
         places: widget.allHighlights
             .map((h) => {
                   'name': h.name,
-                  'category': h.category,
+                  'category': AppLocalizations.instance.translateCategory(h.category),
                   'rating': h.rating,
-                  'description': h.description,
+                  'description': AppLocalizations.instance.isEnglish ? (h.descriptionEn ?? h.description) : h.description,
                 })
             .toList(),
         isEnglish: AppLocalizations.instance.isEnglish,
@@ -193,15 +194,17 @@ class _AIChatScreenState extends State<AIChatScreen> {
 
         List<String> citiesToSearch = targetCity != null 
             ? [targetCity] 
-            : ['roma', 'paris', 'barcelona', 'istanbul', 'londra', 'viyana', 'prag', 'lizbon', 'rovaniemi', 'matera', 'sintra', 'colmar'];
+            : ['roma', 'paris', 'barcelona', 'istanbul', 'londra', 'viyana', 'prag', 'lizbon', 'rovaniemi', 'matera', 'sintra', 'colmar', 'newyork', 'seul', 'singapur', 'tokyo'];
         
         for (var cityId in citiesToSearch) {
-          final cityModel = await CityDataLoader.loadCity(cityId);
           try {
+            final cityModel = await CityDataLoader.loadCity(cityId);
             foundPlace = cityModel.highlights.firstWhere(
-              (h) => h.name.toLowerCase().trim() == searchPlace.toLowerCase().trim() || 
-                     searchPlace.toLowerCase().contains(h.name.toLowerCase().trim()) ||
-                     h.name.toLowerCase().contains(searchPlace.toLowerCase().trim())
+              (h) {
+                final hName = h.name.toLowerCase().trim();
+                final sName = searchPlace.toLowerCase().trim();
+                return hName == sName || sName.contains(hName) || hName.contains(sName);
+              }
             );
             if (foundPlace != null) break;
           } catch (_) {}
@@ -472,7 +475,7 @@ class _AIChatScreenState extends State<AIChatScreen> {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Text(
-            AppLocalizations.instance.isEnglish ? "Ask Another Question" : "Başka Bir Soru Sor",
+            AppLocalizations.instance.askAnotherQuestion,
             style: const TextStyle(color: textGrey, fontSize: 13, fontWeight: FontWeight.w600),
           ),
           const SizedBox(height: 12),
@@ -603,26 +606,37 @@ class _AIChatScreenState extends State<AIChatScreen> {
       spans.add(WidgetSpan(
         alignment: PlaceholderAlignment.middle,
         child: GestureDetector(
-          onTap: () => _navigateToPlace(searchName),
+          onTap: () {
+            HapticFeedback.selectionClick();
+            _navigateToPlace(searchName);
+          },
           child: Container(
-            margin: const EdgeInsets.symmetric(horizontal: 4, vertical: 2),
+            constraints: BoxConstraints(
+              maxWidth: MediaQuery.of(context).size.width * 0.6, // %60 screen width max
+            ),
+            margin: const EdgeInsets.symmetric(horizontal: 2, vertical: 2),
             padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 5),
             decoration: BoxDecoration(
-              color: accent.withOpacity(0.15),
-              borderRadius: BorderRadius.circular(8),
-              border: Border.all(color: accent.withOpacity(0.4)),
+              color: accent.withOpacity(0.12),
+              borderRadius: BorderRadius.circular(10),
+              border: Border.all(color: accent.withOpacity(0.35), width: 1),
             ),
             child: Row(
               mainAxisSize: MainAxisSize.min,
               children: [
-                Icon(Icons.place_rounded, size: 14, color: accent),
+                const Icon(Icons.location_on_rounded, size: 14, color: accent),
                 const SizedBox(width: 4),
-                Text(
-                  displayName,
-                  style: const TextStyle(
-                    color: accent,
-                    fontSize: 14,
-                    fontWeight: FontWeight.w600,
+                Flexible(
+                  child: Text(
+                    displayName,
+                    style: const TextStyle(
+                      color: Colors.white,
+                      fontSize: 13,
+                      fontWeight: FontWeight.w600,
+                      letterSpacing: -0.2,
+                    ),
+                    overflow: TextOverflow.ellipsis,
+                    maxLines: 1,
                   ),
                 ),
               ],

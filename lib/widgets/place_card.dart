@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import '../models/place_model.dart';
 import '../widgets/amber_background_symbols.dart';
+import '../l10n/app_localizations.dart';
 
 class PlaceCard extends StatelessWidget {
   final PlaceModel place;
@@ -138,7 +139,7 @@ class PlaceCard extends StatelessWidget {
                     borderRadius: BorderRadius.circular(8),
                   ),
                   child: Text(
-                    place.category,
+                    AppLocalizations.instance.translateCategory(place.category),
                     style: TextStyle(
                       fontSize: 10,
                       fontWeight: FontWeight.w700,

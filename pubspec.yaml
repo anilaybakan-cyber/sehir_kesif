@@ -2,7 +2,7 @@ name: sehir_kesif
 description: "A new Flutter project."
 publish_to: 'none'
 
-version: 1.0.0+10
+version: 1.0.0+26
 
 environment:
   sdk: ^3.9.2
@@ -39,7 +39,7 @@ dependencies:
   flutter_local_notifications: ^17.2.3
   package_info_plus: ^9.0.0
   flutter_markdown: ^0.7.7+1
-  google_generative_ai: ^0.4.4
+  google_generative_ai: ^0.4.6
   image_picker: ^1.2.1
   tutorial_coach_mark: ^1.2.9 # 🔥 Tutorial için
   purchases_flutter: ^8.0.0  # RevenueCat

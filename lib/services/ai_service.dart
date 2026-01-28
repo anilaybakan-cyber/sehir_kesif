@@ -4,13 +4,67 @@
 // Kişiselleştirilmiş AI Chat yanıtları
 // =============================================================================
 
+import 'dart:io';
+import 'dart:convert';
+import 'package:flutter/foundation.dart';
+import 'package:path_provider/path_provider.dart';
 import 'package:google_generative_ai/google_generative_ai.dart';
 import '../models/city_model.dart';
 import 'city_blog_content.dart';
 
 class AIService {
   // API Key (Normalde .env dosyasında saklanmalı)
-  static const _apiKey = 'AIzaSyDL3n3joYZ_MwVj1lbXF2xTBAEMQqYprYA';
+  static const _apiKey = 'AIzaSyAOXa8SaHbJi0tnUTacqQfFCiLcUq5UX0M';
+
+  /// Dinamik olarak yüklenen (JSON'dan gelen) görseller
+  static final Map<String, String> _dynamicImageOverrides = {};
+
+  /// Bileşenleri başlat ve yerel JSON'lardan görselleri yükle
+  static Future<void> initializeComponents() async {
+    try {
+      // DEBUG: List available models
+      try {
+        final model = GenerativeModel(model: 'gemini-2.0-flash', apiKey: _apiKey);
+        // Note: The SDK might not expose listModels directly on the model instance in this version,
+        // but let's try a simple generation to trigger the error with detail or refer to SDK capability.
+        // Actually, for this specific SDK version, let's just log that we are trying to init.
+        print("🤖 AI Service: Initializing and checking availability...");
+      } catch (e) {
+        print("🤖 AI Service Init Check Error: $e");
+      }
+
+      final directory = await getApplicationDocumentsDirectory();
+      final citiesDir = Directory('${directory.path}/cities');
+
+      if (await citiesDir.exists()) {
+        final List<FileSystemEntity> files = citiesDir.listSync();
+        for (final file in files) {
+          if (file is File && file.path.endsWith('.json')) {
+            try {
+              final String content = await file.readAsString();
+              final Map<String, dynamic> data = json.decode(content);
+              
+              // Dosya adından şehir slug'ını al (örn: /.../bruksel.json -> bruksel)
+              final String filename = file.uri.pathSegments.last;
+              final String citySlug = filename.replaceAll('.json', '');
+
+              if (data.containsKey('heroImage') && data['heroImage'] != null) {
+                final String heroImage = data['heroImage'];
+                if (heroImage.isNotEmpty) {
+                  _dynamicImageOverrides[citySlug] = heroImage;
+                  debugPrint("🖼️ Dynamic Image Loaded: $citySlug -> $heroImage");
+                }
+              }
+            } catch (e) {
+              debugPrint("⚠️ JSON parse error ($file): $e");
+            }
+          }
+        }
+      }
+    } catch (e) {
+      debugPrint("❌ AIService initialization error: $e");
+    }
+  }
 
   /// Şehirler için merkezi görsel havuzu
   static final Map<String, String> _cityImages = {
@@ -77,7 +131,7 @@ class AIService {
     'brugge': 'https://gezimanya.com/sites/default/files/styles/800x600_/public/lokasyon-detay/2021-08/brugge-hakkinda-bilinmesi-gerekenler.jpg',
     'santorini': 'https://www.kucukoteller.com.tr/storage/images/2024/07/14/5e7eaf11eb5ec2dda2f7a602232faa8961347f29.webp',
     'heidelberg': 'https://image.hurimg.com/i/hurriyet/90/1110x740/56b3325818c7730e3cdb6757.jpg',
-    'bruksel': 'https://images.unsplash.com/photo-1559113513-d5e09c18b9e8?w=800',
+    'bruksel': 'https://gezipgordum.com/wp-content/uploads/2022/01/Brukselde-nerede-kalinir-1.jpg.webp',
     'oslo': 'https://www.journavel.com/wp-content/uploads/2024/10/IMG_1851-scaled.webp',
     'hallstatt': 'https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/hallstatt/hallstatt-postcard-viewpoint.jpg',
   };
@@ -113,6 +167,12 @@ class AIService {
     if (normalized == 'cappadocia') lookupId = 'kapadokya';
     if (normalized == 'belgrade') lookupId = 'belgrad';
 
+    // 1. Önce dinamik override listesine bak (JSON'dan gelen)
+    if (_dynamicImageOverrides.containsKey(lookupId)) {
+      return _dynamicImageOverrides[lookupId]!;
+    }
+
+    // 2. Yoksa hardcoded listeye bak
     return _cityImages[lookupId] ?? 'https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=800'; // Default mountain
   }
 
@@ -125,8 +185,9 @@ class AIService {
     bool isEnglish = false,
   }) async {
     try {
+      print("🔑 AI Chat Key Prefix: ${_apiKey.substring(0, 6)}...");
       final model = GenerativeModel(
-        model: 'gemini-2.5-flash',
+        model: 'gemini-2.0-flash',
         apiKey: _apiKey,
       );
 
@@ -143,7 +204,10 @@ class AIService {
       Yanıtını ${isEnglish ? "İngilizce" : "Türkçe"} olarak ver.
       Kısa ve öz yanıt ver (max 3-4 cümle).
       Emoji kullanma.
-      Eğer bir yer öneriyorsan, adını tam olarak yaz.
+
+      ÖNEMLİ: Bir yerden bahsederken mutlaka şu formatı kullan: [Yer Adı](search:Yer Adı)
+      Örnek: "Sana [Eiffel Kulesi](search:Eiffel Kulesi) öneririm."
+      Yer adlarını köşeli parantez ve parantez içinde ASLA çevirme, listedeki tam adını kullan.
       ''';
 
       final content = [Content.text(prompt)];
@@ -167,9 +231,12 @@ class AIService {
     bool isEnglish = false,
   }) async {
     try {
+      print("🔑 USED API KEY: $_apiKey"); // FULL KEY PRINT FOR DEBUGGING
+      print("🤖 AI Service Model request: gemini-2.0-flash");
+      
       // 1. Model Hazırlığı
       final model = GenerativeModel(
-        model: 'gemini-2.5-flash', 
+        model: 'gemini-2.0-flash', 
         apiKey: _apiKey,
       );
 
@@ -246,7 +313,7 @@ class AIService {
   }) async {
     try {
       final model = GenerativeModel(
-        model: 'gemini-2.5-flash',
+        model: 'gemini-1.5-flash',
         apiKey: _apiKey,
       );
 
@@ -408,6 +475,9 @@ class AIService {
         return _getBrukselContent(interests, budget, isEnglish);
       case 'oslo':
         return _getOsloContent(interests, budget, isEnglish);
+      case 'kapadokya':
+      case 'cappadocia':
+        return _getKapadokyaContent(interests, budget, isEnglish);
       case 'barcelona':
       default:
         return _getBarcelonaContent(interests, budget, isEnglish);
@@ -855,6 +925,37 @@ class AIService {
 - [Vigeland Parkı](search:Vigeland Parkı) - Tek bir sanatçı tarafından yapılan dünyanın en büyük heykel parkı. 200'den fazla bronz ve granit heykel. Tuhaf, harika ve ücretsiz! Piknik için mükemmel.''',
       'tip':
           "Oslo pahalı olabilir. Ücretsiz ulaşım ve müze girişleri için Oslo Pass al veya birçok ücretsiz parkın ve doğa yürüyüşünün tadını çıkar!",
+    };
+  }
+
+  static Map<String, String> _getKapadokyaContent(
+    List<String> interests,
+    String budget,
+    bool isEnglish,
+  ) {
+    if (isEnglish) {
+      return {
+        'intro': "Welcome to Cappadocia! A fairytale land of fairy chimneys and balloons!",
+        'recommendations': '''
+- [Goreme Open Air Museum](search:Goreme Open Air Museum) - A UNESCO World Heritage site! Historic rock-cut churches, colorful frescoes, and monastic life. The Dark Church is a must-see (extra ticket but worth it). Visit early in the morning.
+
+- [Uchisar Castle](search:Uchisar Castle) - The highest point of Cappadocia! Magnificent panoramic view. Watch the sunset here, seeing Mount Erciyes and all the valleys under your feet. The rooms carved into the rock inside the castle are fascinating.
+
+- [Pasabag Valley (Monks Valley)](search:Pasabag Valley) - The best place to see fairy chimneys! Some are multi-headed. Legend has it monks used to live here in seclusion. Perfect for walking and taking photos. Admission is free.''',
+        'tip':
+            "A hot air balloon flight at sunrise is an unforgettable experience! If it exceeds your budget, get up early and watch the balloons from the panoramic hill in cafes.",
+      };
+    }
+    return {
+      'intro': "Kapadokya'ya hoş geldin! Peribacaları ve balonların masalsı diyarı!",
+      'recommendations': '''
+- [Göreme Açık Hava Müzesi](search:Göreme Açık Hava Müzesi) - UNESCO Dünya Mirası! Kayalara oyulmuş tarihi kiliseler, renkli freskler ve manastır hayatı. Karanlık Kilise'yi mutlaka gör (ekstra biletli ama değer). Sabah erken saatte gez.
+
+- [Uçhisar Kalesi](search:Uçhisar Kalesi) - Kapadokya'nın zirvesi! Muhteşem panoramik manzara. Gün batımını buradan izle, Erciyes Dağı ve tüm vadiler ayaklarının altında. Kale içindeki kayaya oyulmuş odalar büyüleyici.
+
+- [Paşabağları (Rahipler Vadisi)](search:Paşabağları) - Peribacalarını en net görebileceğin yer! Bazıları çok başlı. Efsaneye göre eskiden rahipler burada inzivaya çekilirmiş. Yürüyüş ve fotoğraf için harika. Giriş ücretsiz.''',
+      'tip':
+          "Gün doğumunda sıcak hava balonu turu unutulmaz bir deneyim! Bütçeni aşıyorsa, erken kalkıp kafelerden veya tepeden balonların havalanışını izle.",
     };
   }
 
@@ -1954,83 +2055,12 @@ class AIService {
   static Future<String> getCityBlogContent(String city, bool isEnglish) async {
     // Yapay bir bekleme süresi (AI simülasyonu)
     await Future.delayed(const Duration(milliseconds: 800));
-
-    // Türkçe karakterleri temizle ve normalize et
-    var normalizedCity = city.toLowerCase().trim()
-      .replaceAll('ü', 'u')
-      .replaceAll('ş', 's')
-      .replaceAll('ç', 'c')
-      .replaceAll('ö', 'o')
-      .replaceAll('ğ', 'g')
-      .replaceAll('ı', 'i');
-
-    // English -> Turkish mapping for content lookup
-    if (normalizedCity == 'cappadocia') normalizedCity = 'kapadokya';
-    if (normalizedCity == 'belgrade') normalizedCity = 'belgrad';
-    if (normalizedCity == 'athens') normalizedCity = 'atina';
-    if (normalizedCity == 'rome') normalizedCity = 'roma';
-    if (normalizedCity == 'venice') normalizedCity = 'venedik';
-    if (normalizedCity == 'vienna') normalizedCity = 'viyana';
-    if (normalizedCity == 'london') normalizedCity = 'londra';
-    if (normalizedCity == 'copenhagen') normalizedCity = 'kopenhag';
-    if (normalizedCity == 'naples') normalizedCity = 'napoli';
-    if (normalizedCity == 'brussels') normalizedCity = 'bruksel';
-    if (normalizedCity == 'istnbul') normalizedCity = 'istanbul';
-    
-    // CityBlogContent sınıfından içeriği al (Tüm 36 şehir burada)
-    final content = CityBlogContent.getContent(normalizedCity, isEnglish);
-    
-    if (content.isNotEmpty) {
-      return content;
-    }
-
-    // Eğer içerik bulunamazsa jenerik şablonu döndür
-    return _getGenericCityBlog(city, isEnglish);
+    return CityBlogContent.getRemoteContent(city, isEnglish);
   }
 
   /// Özel makale içeriğini getirir
   static Future<String> getArticleContent(String articleId, bool isEnglish) async {
     await Future.delayed(const Duration(milliseconds: 600)); // Simülasyon
     return CityBlogContent.getArticleContent(articleId, isEnglish);
-  }
-
-  static String _getGenericCityBlog(String city, bool isEnglish) {
-    if (isEnglish) {
-      return '''# Insider's Notes: $city
-
-Our team hasn't landed in [$city](search:$city) yet, but here is what we know so far from our research.
-
-## 📅 Why Now?
-$city is always a good idea. Check the weather app, grab your coat (or sunglasses), and just go. Spontaneity is the key to travel!
-
-## 🏘️ Finding Your Base
-Avoid hotels right next to major tourist attractions. Look for "up-and-coming" neighborhoods on any map app – that's where the good coffee and cheaper rent live.
-
-## 🍽️ Eat Local
-If a restaurant has photos of food on the menu, run away. Look for places where locals are shouting or laughing loudly. Queue means quality.
-
-## 🚇 Moving Around
-Walking is free and offers the best views. If your feet hurt, public transport is your friend. Download [Citymapper](search:Citymapper) or [Google Maps](search:Google Maps) offline maps before you leave the hotel Wi-Fi.
-
-> Note: A detailed, field-tested guide for $city is in the works. We are packing our bags as we speak! 🎒''';
-    }
-    
-    return '''# Gezgin Notları: $city
-
-Ekibimiz henüz [$city](search:$city) sokaklarını arşınlamadı ama gitmeden önce yaptığımız ön araştırmaları seninle paylaşalım.
-
-## 📅 Neden Şimdi?
-$city her zaman iyi bir fikirdir. Hava durumuna bak, çantanı hazırla ve yola çık. En iyi seyahat, plansız olandır!
-
-## 🏘️ Nerede Üs Kuralım?
-Tam turistik meydanın dibindeki otellerden uzak dur. Haritada "yükselen semtleri" bul; iyi kahve ve uygun fiyatlar oradadır.
-
-## 🍽️ Ne Yiyoruz?
-Menüsünde yemek fotoğrafları olan restorandan koşarak uzaklaş. İçeride yerlilerin yüksek sesle konuştuğu, güldüğü yerleri bul. Sıra varsa, orası iyidir.
-
-## 🚇 Şehirde Tur
-Yürümek bedava ve en iyi manzarayı sunar. Ayaklarına kara sular inince toplu taşımaya geç. Otel Wi-Fi'ından çıkmadan [Google Maps](search:Google Maps) çevrimdışı haritasını indirmeyi unutma.
-
-> Not: $city için bizzat deneyimlenmiş detaylı rehber hazırlık aşamasında. Valizleri topluyoruz, beklemede kal! 🎒''';
   }
 }

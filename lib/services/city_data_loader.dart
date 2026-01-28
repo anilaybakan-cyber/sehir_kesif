@@ -49,6 +49,7 @@ class CityDataLoader {
     'saraybosna',
     'mostar',
     'strazburg',
+    'zermatt',
 
     'antalya',
     'matera',
@@ -81,24 +82,23 @@ class CityDataLoader {
     try {
       String jsonString;
       
-      // 1. Önce Cache'i kontrol et (Güncel veri için)
+      // 1. Önce Asset'i Dene (FIX: Cache sorunu için Asset öncelikli yapıldı)
       try {
-        final File? localFile = await ContentUpdateService.getLocalCityFile(normalizedName);
-        
-        if (localFile != null && await localFile.exists()) {
-          debugPrint("📂 CACHE: Yerel dosya bulundu, yükleniyor.");
-          jsonString = await localFile.readAsString();
-        } else {
-          throw Exception("Cache file not found");
-        }
-      } catch (cacheError) {
-        // 2. Cache yoksa Asset'i dene (Fallback)
-        // debugPrint("⚠️ Cache yok, Asset deneniyor... ($cacheError)");
+        jsonString = await rootBundle.loadString("assets/cities/$normalizedName.json");
+        // debugPrint("📦 ASSET: Uygulama içinden yüklendi.");
+      } catch (assetError) {
+        // 2. Asset yoksa Cache'i dene (Fallback)
         try {
-          jsonString = await rootBundle.loadString("assets/cities/$normalizedName.json");
-          // debugPrint("📦 ASSET: Uygulama içinden yüklendi.");
-        } catch (assetError) {
-          debugPrint("❌ Hem Cache hem Asset bulunamadı!");
+          final File? localFile = await ContentUpdateService.getLocalCityFile(normalizedName);
+          
+          if (localFile != null && await localFile.exists()) {
+            debugPrint("📂 CACHE: Yerel dosya bulundu, yükleniyor.");
+            jsonString = await localFile.readAsString();
+          } else {
+            throw Exception("Cache file not found");
+          }
+        } catch (cacheError) {
+          debugPrint("❌ Hem Asset hem Cache bulunamadı!");
           rethrow;
         }
       }
