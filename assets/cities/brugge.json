@@ -16,8 +16,8 @@
         "antika",
         "el yapımı"
       ],
-      "lat": 51.214,
-      "lng": 3.234,
+      "lat": 51214.0,
+      "lng": 3234.0,
       "price": "high",
       "rating": 4.8,
       "description": "Gerçek el yapımı ve antika Brugge dantelleri satan otantik dükkan. Makinede üretilen Çin mallarından farklı, nesiller boyu sürdürülen geleneksel zanaatın canlı temsilcisi.",
@@ -40,7 +40,7 @@
         "belçika",
         "teras"
       ],
-      "lat": 51.198,
+      "lat": 51198.0,
       "lng": 3.22,
       "price": "medium",
       "rating": 4.4,
@@ -65,8 +65,8 @@
         "pub",
         "çeşit"
       ],
-      "lat": 51.206,
-      "lng": 3.221,
+      "lat": 51206.0,
+      "lng": 3221.0,
       "price": "medium",
       "rating": 4.7,
       "description": "300'den fazla farklı Belçika birası sunan, bira tutkunlarının kutsal mekanı sayılan kült bar. Vintage posterleri, ahşap dekorasyonu ve bilgili personeli ile otantik bir Belçika bira deneyiminin adresi.",
@@ -92,8 +92,8 @@
         "meydan",
         "büyük"
       ],
-      "lat": 51.204,
-      "lng": 3.219,
+      "lat": 51204.0,
+      "lng": 3219.0,
       "price": "free",
       "rating": 4.4,
       "description": "Şehrin en büyük meydanı, altında büyük bir otoparkı barındıran ve haftalık pazarların kurulduğu canlı alan. Konser, festival ve etkinliklere ev sahipliği yapan bu geniş açıklık, yerel yaşamın nabzını tutmak için ideal.",
@@ -164,8 +164,8 @@
         "köprü",
         "tarihi"
       ],
-      "lat": 51.212,
-      "lng": 3.225,
+      "lat": 51212.0,
+      "lng": 3225.0,
       "price": "free",
       "rating": 4.7,
       "description": "Augustinian köprüsünün altından geçen, yeşillikler ve tarihi binalarla çevrili pitoresk kanal. Şehrin daha az bilinen güzel köşelerinden biri, fotoğraf meraklıları için gizli bir mücevher.",
@@ -189,8 +189,8 @@
         "lokal",
         "eğlence"
       ],
-      "lat": 51.209,
-      "lng": 3.225,
+      "lat": 51209.0,
+      "lng": 3225.0,
       "price": "medium",
       "rating": 4.4,
       "description": "Grote Markt'a çok yakın, gece geç saatlere kadar açık popüler bar. Canlı atmosferi, geniş bira menüsü ve merkezi konumuyla, turistlerin ve yerel halkın buluşma noktası.",
@@ -214,8 +214,8 @@
         "kanal",
         "modern"
       ],
-      "lat": 51.198,
-      "lng": 3.228,
+      "lat": 51198.0,
+      "lng": 3228.0,
       "price": "free",
       "rating": 4.2,
       "description": "Kanal kenarında, modern düzenlemeleriyle dikkat çeken şehir parkı. Çocuk oyun alanları, bank sıraları ve güzel bitki örtüsüyle, yerel ailelerin tercih ettiği huzurlu bir yeşil alan.",
@@ -236,7 +236,7 @@
         "relic",
         "gothic"
       ],
-      "lat": 51.208,
+      "lat": 51208.0,
       "lng": 3.2265,
       "rating": 4.6,
       "description": "Kutsal kan kalıntısının saklandığı bazilika. Tarih meraklıları için eşsiz bir hazine olan bu mekan, geçmişe ışık tutan detaylarıyla ziyaretçilerini büyülüyor. Kültürel bir yolculuğa çıkmak isteyenler için ideal bir durak.",
@@ -246,7 +246,7 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Yapı içerisindeki akustik harika, sessizliği dinleyin.",
       "tips_en": "The acoustics inside satisfy; listen to the silence.",
-      "description_en": "Kutsal kan kalıntısının saklandığı bazilika. A unique treasure for history buffs, this venue captivates visitors with details that shed light on the past. An ideal stop for those wishing to embark on a cultural journey.",
+      "description_en": "Kutsal kan kalıntısının saklandığı bazilika. A unique treasure for history buffs, this andnue captivates visitors with details that shed light on the past. An ideal stop for those wishing to embark on a cultural journey.",
       "source": "firebase"
     },
     {
@@ -259,8 +259,8 @@
         "genç",
         "canlı"
       ],
-      "lat": 51.213,
-      "lng": 3.236,
+      "lat": 51213.0,
+      "lng": 3236.0,
       "price": "low",
       "rating": 4.4,
       "description": "Sırtçantalı gezginlerin buluşma noktası, canlı barı ve sosyal atmosferiyle popüler hostel. Bütçe dostu fiyatları, parti havası ve merkezi konumuyla genç turistlerin favorisi.",
@@ -282,7 +282,7 @@
         "unesco"
       ],
       "lat": 51.2005,
-      "lng": 3.224,
+      "lng": 3224.0,
       "rating": 4.8,
       "description": "UNESCO Mirası huzurlu ortaçağ manastır kompleksi. Tarih meraklıları için eşsiz bir hazine olan bu mekan, geçmişe ışık tutan detaylarıyla ziyaretçilerini büyülüyor. Kültürel bir yolculuğa çıkmak isteyenler için ideal bir durak.",
       "description_en": "UNESCO Heritage peaceful medieval monastery complex. A unique treasure for history buffs, this venue captivates visitors with details that shed light on the past. An ideal stop for those wishing to embark on a cultural journey.",
@@ -305,7 +305,7 @@
         "doğa",
         "uzay"
       ],
-      "lat": 51.178,
+      "lat": 51178.0,
       "lng": 3.17,
       "price": "medium",
       "rating": 4.6,
@@ -337,7 +337,7 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "366 basamak dar ve diktir. Çıkışta ve inişte beklemeler olabilir, klostrofobisi olanlar dikkat etmeli.",
       "tips_en": "The 366 steps are narrow and steep. Expect waits going up and down; claustrophobics beware.",
-      "description_en": "Meydanda yükselen ve harika manzara sunan tarihi çan kulesi. A unique treasure for history buffs, this venue captivates visitors with details that shed light on the past. An ideal stop for those wishing to embark on a cultural journey.",
+      "description_en": "Meydanda yükselen and harika manzara sunan historic çan kulesi. A unique treasure for history buffs, this andnue captivates visitors with details that shed light on the past. An ideal stop for those wishing to embark on a cultural journey.",
       "source": "firebase"
     },
     {
@@ -350,8 +350,8 @@
         "dini",
         "mimari"
       ],
-      "lat": 51.207,
-      "lng": 3.222,
+      "lat": 51207.0,
+      "lng": 3222.0,
       "price": "free",
       "rating": 4.3,
       "description": "Brugge piskoposunun resmi ikametgahı olan görkemli barok saray. Genellikle ziyarete kapalı olsa da, dış mimarisi ve bahçesi gözlemlenebilir.",
@@ -425,7 +425,7 @@
         "medici"
       ],
       "lat": 51.2105,
-      "lng": 3.223,
+      "lng": 3223.0,
       "price": "free",
       "rating": 4.4,
       "description": "Medici bankasının şubesini kuran Pieter Bladelin'in evi. İtalyan Rönesans etkileri taşır.",
@@ -498,7 +498,7 @@
         "kitap",
         "sağlıklı"
       ],
-      "lat": 51.205,
+      "lat": 51205.0,
       "lng": 3.2235,
       "price": "medium",
       "rating": 4.7,
@@ -523,8 +523,8 @@
         "eğlence",
         "aile"
       ],
-      "lat": 51.185,
-      "lng": 3.215,
+      "lat": 51185.0,
+      "lng": 3215.0,
       "price": "high",
       "rating": 4.2,
       "description": "Yunus gösterileri, denizaslanı performansları ve lunapark oyuncaklarıyla aileler için eğlence parkı. Su parkı, roller coaster ve hayvan showlarıyla, çocuklu aileler için tam gün eğlence.",
@@ -548,7 +548,7 @@
         "kanal"
       ],
       "lat": 51.2075,
-      "lng": 3.226,
+      "lng": 3226.0,
       "price": "medium",
       "rating": 4.6,
       "description": "Kanal kenarında romantik konumuyla öne çıkan, geleneksel Flaman kırmızı birası üretilen butik bira fabrikası. Tur ve tadım seanslarıyla, şehrin su kenarında en atmosferik bira deneyimini sunan mekan.",
@@ -643,7 +643,7 @@
         "town hall",
         "historic"
       ],
-      "lat": 51.208,
+      "lat": 51208.0,
       "lng": 3.2265,
       "rating": 4.7,
       "description": "Belediye binası ve Kutsal Kan Bazilikası meydanı. Şehrin en etkileyici manzaralarından birini sunan bu nokta, fotoğraf tutkunları için adeta bir cennet. Özellikle gün batımında büründüğü renkler, ziyaretçilere görsel bir şölen yaşatıyor.",
@@ -667,7 +667,7 @@
         "hollanda",
         "kum"
       ],
-      "lat": 51.365,
+      "lat": 51365.0,
       "lng": 3.4,
       "price": "free",
       "rating": 4.6,
@@ -716,8 +716,8 @@
         "üçüncü dalga",
         "kavurma"
       ],
-      "lat": 51.205,
-      "lng": 3.222,
+      "lat": 51205.0,
+      "lng": 3222.0,
       "price": "medium",
       "rating": 4.8,
       "description": "Brugge'deki en iyi üçüncü dalga kahvecilerden biri. Kendi kavrumlarını yapıyorlar.",
@@ -741,8 +741,8 @@
         "bira",
         "yemek"
       ],
-      "lat": 51.209,
-      "lng": 3.227,
+      "lat": 51209.0,
+      "lng": 3227.0,
       "price": "medium",
       "rating": 4.6,
       "description": "Bira kralı Cambrinus'un adını taşıyan, 400 çeşit bira ve harika yemekler sunan brasserie.",
@@ -789,7 +789,7 @@
         "rock"
       ],
       "lat": 51.21,
-      "lng": 3.227,
+      "lng": 3227.0,
       "price": "low",
       "rating": 4.3,
       "description": "Eski bir sinemadan dönüştürülmüş, büyük ekranda filmler izlenebilen hostel ve bar. Retro atmosferi, canlı müzik geceleri ve sosyal etkinlikleriyle, alternatif bir konaklama deneyimi.",
@@ -813,8 +813,8 @@
         "yürüyüş",
         "kuş"
       ],
-      "lat": 51.185,
-      "lng": 3.205,
+      "lat": 51185.0,
+      "lng": 3205.0,
       "price": "free",
       "rating": 4.4,
       "description": "Brugge yakınında, çeşitli kuş türleri ve yaban hayatını barındıran korunan doğa alanı. Kuş gözlemi, fotoğrafçılık ve doğa yürüyüşleri için ideal, şehir gürültüsünden kaçış.",
@@ -837,8 +837,8 @@
         "milkshake",
         "renkli"
       ],
-      "lat": 51.208,
-      "lng": 3.223,
+      "lat": 51208.0,
+      "lng": 3223.0,
       "price": "medium",
       "rating": 4.2,
       "description": "Renkli dekorasyonu, dev milkshake'leri ve Amerikan tarzı menüsüyle eğlenceli aile restoranı. Çocuklarla gelen aileler için ideal, nostaljik 50'ler Amerika'sını anımsatan retro mekan.",
@@ -916,7 +916,7 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Sesli rehber (audio guide) kiralamak deneyimi ikiye katlar.",
       "tips_en": "Renting an audio guide doubles the experience.",
-      "description_en": "Belçika çikolatasının tarihini anlatan lezzetli müze. A must-see for art and history lovers, this museum stands out with its rich collection. The exhibited works will allow you to deeply understand the region's cultural heritage.",
+      "description_en": "Belçika çikolatasının tarihini anlatan lezzetli museum. A must-see for art and history loandrs, this museum stands out with its rich collection. The exhibited works will allow you to deeply understand the region's cultural heritage.",
       "source": "firebase"
     },
     {
@@ -930,7 +930,7 @@
         "kalite"
       ],
       "lat": 51.2075,
-      "lng": 3.226,
+      "lng": 3226.0,
       "price": "medium",
       "rating": 4.6,
       "description": "El yapımı pralinler ve trüfleriyle ünlü, üç nesil deneyime sahip geleneksel çikolata ustası. Taze üretim, kaliteli hammadde ve zarif sunumla, çikolata tutkunlarının durağı.",
@@ -976,8 +976,8 @@
         "blues",
         "canlı"
       ],
-      "lat": 51.211,
-      "lng": 3.224,
+      "lat": 51211.0,
+      "lng": 3224.0,
       "price": "medium",
       "rating": 4.7,
       "description": "Canlı caz ve blues performanslarını izleyebileceğiniz, sanat ve müziğin buluştuğu atmosferik bar. Vintage dekorasyonu, kaliteli kokteylleri ve kültürel etkinlikleriyle, şehrin sanat sahnesinin kalbi.",
@@ -1002,7 +1002,7 @@
         "mimari"
       ],
       "lat": 51.2035,
-      "lng": 3.218,
+      "lng": 3218.0,
       "price": "variable",
       "rating": 4.5,
       "description": "21. yüzyılın başında inşa edilen, 30.000'den fazla terra cotta kiremitle kaplı çarpıcı çağdaş konser salonu ve kültür merkezi. Klasik müzikten çağdaş dansa geniş programıyla, Brugge'ün modern kültür yüzü.",
@@ -1025,7 +1025,7 @@
         "modern",
         "mimari"
       ],
-      "lat": 51.203,
+      "lat": 51203.0,
       "lng": 3.22,
       "price": "medium",
       "rating": 4.6,
@@ -1050,7 +1050,7 @@
         "taze"
       ],
       "lat": 51.2078,
-      "lng": 3.222,
+      "lng": 3222.0,
       "price": "medium",
       "rating": 4.5,
       "description": "Brugge'deki en iyi İtalyan usulü dondurma (gelato) sunan, el yapımı ve taze malzemelerle çalışan dondurmacı. Geleneksel İtalyan tariflerle hazırlanan onlarca çeşidi ile tatlı molası için mükemmel.",
@@ -1146,7 +1146,7 @@
         "brewery"
       ],
       "lat": 51.2025,
-      "lng": 3.224,
+      "lng": 3224.0,
       "rating": 4.7,
       "description": "Tarihi aile bira fabrikası, turu çok popüler. A unique opportunity for those who want to go beyond an ordinary trip and collect unforgettable memories. This activity will add excitement and color to your travel, giving you a different perspective.",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/brugge/de_halve_maan_brewery.jpg",
@@ -1155,7 +1155,7 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Grup indirimi olup olmadığını sorun.",
       "tips_en": "Ask if there is a group discount.",
-      "description_en": "Tarihi aile bira fabrikası, turu çok popüler. A unique opportunity for those who want to go beyond an ordinary trip and collect unforgettable memories. This activity will add excitement and color to your travel, giving you a different perspective.",
+      "description_en": "historic awith bira fabrikası, turu çok popüler. A unique opportunity for those who want to go beyond an ordinary trip and collect unforgettable memories. This activity will add excitement and color to your traandl, giving you a different perspectiand.",
       "source": "firebase"
     },
     {
@@ -1191,7 +1191,7 @@
         "bahçe"
       ],
       "lat": 51.2095,
-      "lng": 3.221,
+      "lng": 3221.0,
       "price": "medium",
       "rating": 4.6,
       "description": "Kültür merkezi bünyesinde, geniş iç mekanı ve çeşitli etkinlikleriyle dikkat çeken çok amaçlı mekan. Konserler, sergiler, kahve ve yemek bir arada, şehrin alternatif kültür merkezi.",
@@ -1215,8 +1215,8 @@
         "bahçe",
         "rahat"
       ],
-      "lat": 51.199,
-      "lng": 3.222,
+      "lat": 51199.0,
+      "lng": 3222.0,
       "price": "medium",
       "rating": 4.5,
       "description": "Minnewater (Aşk Gölü) yakınında, güzel bahçe terasıyla dikkat çeken vejetaryen ve vegan dostu kafe. Sağlıklı yemekler, organik içecekler ve huzurlu atmosferiyle, alternatif yaşam tarzı arayanların durağı.",
@@ -1238,8 +1238,8 @@
         "cozy",
         "small"
       ],
-      "lat": 51.207,
-      "lng": 3.223,
+      "lat": 51207.0,
+      "lng": 3223.0,
       "rating": 4.6,
       "description": "Samimi ortamda otantik Belçika yemekleri. Yerel lezzetlerin tadına varmak ve keyifli bir akşam geçirmek için harika bir seçenek. Samimi atmosferi ve kaliteli hizmetiyle damak zevkinize hitap edecek unutulmaz bir deneyim sunuyor.",
       "description_en": "Authentic Belgian dishes in cozy setting. A great option to taste local flavors and spend a pleasant evening. It offers an unforgettable experience appealing to your palate with its friendly atmosphere and quality service.",
@@ -1312,7 +1312,7 @@
         "taze"
       ],
       "lat": 51.2088,
-      "lng": 3.223,
+      "lng": 3223.0,
       "price": "medium",
       "rating": 4.6,
       "description": "Yerel malzemelerle hazırlanan modern Belçika mutfağı sunan samimi restoran. Şefin günlük menüsü, dikkatli servis ve dostane atmosferiyle, yerel halkın favorisi.",
@@ -1334,7 +1334,7 @@
         "jewelry",
         "history"
       ],
-      "lat": 51.204,
+      "lat": 51204.0,
       "lng": 3.2235,
       "rating": 4.3,
       "description": "Brugge'ün elmas işçiliği mirası. Sanat ve tarih severlerin mutlaka görmesi gereken bu müze, zengin koleksiyonuyla dikkat çekiyor. Sergilenen eserler, bölgenin kültürel mirasını derinlemesine anlamanızı sağlayacak.",
@@ -1357,7 +1357,7 @@
         "quality"
       ],
       "lat": 51.2065,
-      "lng": 3.225,
+      "lng": 3225.0,
       "rating": 4.8,
       "description": "El yapımı Belçika pralinleri. Bölgeye özgü ürünleri keşfetmek ve sevdiklerinize hediyeler almak için uğramanız gereken bir yer. Renkli dükkanlar ve canlı atmosfer, alışveriş deneyiminizi çok daha keyifli hale getirecek.",
       "description_en": "Handmade Belgian pralines. A place you must stop by to discover region-specific products and buy gifts for your loved ones. Colorful shops and a lively atmosphere will make your shopping experience much more enjoyable.",
@@ -1380,8 +1380,8 @@
         "kubbe",
         "nadir"
       ],
-      "lat": 51.214,
-      "lng": 3.231,
+      "lat": 51214.0,
+      "lng": 3231.0,
       "price": "free",
       "rating": 4.6,
       "description": "17. yüzyılda İngiliz Katolik rahibeler tarafından kurulan, nadir bulunan kubbeli kilisesiyle dikkat çeken manastır. Huzurlu atmosferi ve tarihi önemi ile rehberli turlar eşliğinde ziyaret edilebilir.",
@@ -1404,8 +1404,8 @@
         "ingiliz",
         "tarihi"
       ],
-      "lat": 51.211,
-      "lng": 3.229,
+      "lat": 51211.0,
+      "lng": 3229.0,
       "price": "free",
       "rating": 4.2,
       "description": "17. yüzyılda İngilizce konuşan Katolikler için kurulan, tarihi bir teoloji okulu ve ruhani merkez. İngiliz-Belçika dini bağlarına tanıklık eden özel atmosferli yapı.",
@@ -1455,8 +1455,8 @@
         "su",
         "manzara"
       ],
-      "lat": 51.218,
-      "lng": 3.218,
+      "lat": 51218.0,
+      "lng": 3218.0,
       "price": "free",
       "rating": 4.5,
       "description": "Su ile çevrili hendekler arasında, kuğuların yüzdüğü masalsı ortamda yükselen 14. yüzyıldan kalma şehir kapısı. Gentpoort'tan sonra en iyi korunmuş kapı olarak, ortaçağ atmosferini hissetmek için mükemmel.",
@@ -1479,7 +1479,7 @@
         "tarih",
         "ww2"
       ],
-      "lat": 51.325,
+      "lat": 51325.0,
       "lng": 3.25,
       "price": "medium",
       "rating": 4.8,
@@ -1504,7 +1504,7 @@
         "doğa"
       ],
       "lat": 51.23,
-      "lng": 3.245,
+      "lng": 3245.0,
       "price": "free",
       "rating": 4.3,
       "description": "18. yüzyıldan kalma toprak surlar ve hendekler. Doğa yürüyüşü için huzurlu bir rota.",
@@ -1550,7 +1550,7 @@
         "quirky",
         "belgian"
       ],
-      "lat": 51.209,
+      "lat": 51209.0,
       "lng": 3.2245,
       "rating": 4.4,
       "description": "Patates kızartmasının tarihini anlatan ilginç müze. Sanat ve tarih severlerin mutlaka görmesi gereken bu müze, zengin koleksiyonuyla dikkat çekiyor. Sergilenen eserler, bölgenin kültürel mirasını derinlemesine anlamanızı sağlayacak.",
@@ -1574,7 +1574,7 @@
         "kızartma",
         "hızlı"
       ],
-      "lat": 51.202,
+      "lat": 51202.0,
       "lng": 3.2245,
       "price": "low",
       "rating": 4.5,
@@ -1598,8 +1598,8 @@
         "sur",
         "ortaçağ"
       ],
-      "lat": 51.201,
-      "lng": 3.235,
+      "lat": 51201.0,
+      "lng": 3235.0,
       "price": "low",
       "rating": 4.4,
       "description": "Brugge'ün günümüze ulaşan dört ortaçağ şehir kapısından biri, 15. yüzyıldan kalma etkileyici savunma yapısı. Gent şehrine giden yol üzerindeki bu anıtsal kapı, şehrin bir zamanlar surlarla çevrili olduğunun canlı kanıtı.",
@@ -1623,7 +1623,7 @@
         "şair"
       ],
       "lat": 51.2165,
-      "lng": 3.234,
+      "lng": 3234.0,
       "price": "medium",
       "rating": 4.3,
       "description": "Ünlü Flaman şair Guido Gezelle'nin doğduğu ve büyüdüğü tarihi ev, şimdi hayatını ve eserlerini sergileyen müze. Romantik bahçesi ve 19. yüzyıl atmosferiyle, edebiyat meraklıları için özel durak.",
@@ -1646,8 +1646,8 @@
         "şapel",
         "küçük"
       ],
-      "lat": 51.204,
-      "lng": 3.227,
+      "lat": 51204.0,
+      "lng": 3227.0,
       "price": "free",
       "rating": 4.4,
       "description": "17. yüzyıldan kalma, küçük bir şapeli ve iç avlusu olan tarihi almshouse. Brugge'ün hayırseverlik geleneğini yaşatan, huzurlu ve fotojenik bir köşe.",
@@ -1671,7 +1671,7 @@
         "sakin",
         "avlusu"
       ],
-      "lat": 51.208,
+      "lat": 51208.0,
       "lng": 3.2205,
       "price": "free",
       "rating": 4.4,
@@ -1696,7 +1696,7 @@
         "bahçe",
         "sosyal"
       ],
-      "lat": 51.205,
+      "lat": 51205.0,
       "lng": 3.2205,
       "price": "free",
       "rating": 4.7,
@@ -1746,8 +1746,8 @@
         "sarı",
         "çiçek"
       ],
-      "lat": 51.206,
-      "lng": 3.235,
+      "lat": 51206.0,
+      "lng": 3235.0,
       "price": "free",
       "rating": 4.5,
       "description": "Parlak sarı kapıları ve çiçekli pencereleriyle en fotojenik almshouse'lardan biri.",
@@ -1772,7 +1772,7 @@
         "geleneksel"
       ],
       "lat": 51.2035,
-      "lng": 3.221,
+      "lng": 3221.0,
       "price": "free",
       "rating": 4.5,
       "description": "Geleneksel Flaman mimarisini en iyi yansıtan tarihi hayır evi, beyaz badanalı cepheleri ve düzenli bahçesiyle dikkat çekiyor. Yaşlılar için inşa edilen bu sakin ortam, ortaçağ sosyal sisteminin canlı örneği.",
@@ -1797,7 +1797,7 @@
         "küçük"
       ],
       "lat": 51.2045,
-      "lng": 3.219,
+      "lng": 3219.0,
       "price": "free",
       "rating": 4.3,
       "description": "1636'da kurulan tarihi almshouse, Brugge'ün hayırseverlik geleneğinin canlı temsilcisi. Huzurlu iç avlusu ve geleneksel mimarisiyle, turistlerden uzak sakin bir köşe.",
@@ -1821,8 +1821,8 @@
         "manzara",
         "kanal"
       ],
-      "lat": 51.203,
-      "lng": 3.218,
+      "lat": 51203.0,
+      "lng": 3218.0,
       "price": "free",
       "rating": 4.4,
       "description": "Balık tüccarları loncası tarafından finanse edilen, nadir bulunan özel amaçlı almshouse. Brugge balıkçılık tarihine ve lonca sistemine ışık tutan benzersiz sosyal kurum.",
@@ -1846,7 +1846,7 @@
         "beyaz",
         "bahçe"
       ],
-      "lat": 51.203,
+      "lat": 51203.0,
       "lng": 3.22,
       "price": "free",
       "rating": 4.7,
@@ -1870,8 +1870,8 @@
         "sessiz",
         "yürüyüş"
       ],
-      "lat": 51.213,
-      "lng": 3.226,
+      "lat": 51213.0,
+      "lng": 3226.0,
       "price": "free",
       "rating": 4.8,
       "description": "Brugge'ün en sessiz ve huzurlu kanallarından biri, altın el anlamına gelen adıyla tarihi ticaret rotası. Söğüt ağaçları, taş köprüler ve tarihi evlerle çevrili romantik yürüyüş güzergahı.",
@@ -1895,8 +1895,8 @@
         "trafik",
         "çiçek"
       ],
-      "lat": 51.215,
-      "lng": 3.215,
+      "lat": 51215.0,
+      "lng": 3215.0,
       "price": "free",
       "rating": 4.3,
       "description": "Şehrin kuzeybatısında geniş yeşil alanları, göletleri ve spor tesisleriyle dikkat çeken popüler halk parkı. Koşu yolları, çocuk oyun alanları ve piknik noktalarıyla, yerel halkın hafta sonu favorisi.",
@@ -1919,8 +1919,8 @@
         "art deco",
         "şık"
       ],
-      "lat": 51.205,
-      "lng": 3.221,
+      "lat": 51205.0,
+      "lng": 3221.0,
       "price": "medium",
       "rating": 4.6,
       "description": "Art Deco tarzı zarif bir pasajın içinde konumlanan, nostaljik dekorasyonuyla büyüleyici kafe. Vintage ortamı, lezzetli pastaları ve klasik Avrupa kafe atmosferiyle, zamanda yolculuk deneyimi.",
@@ -1945,7 +1945,7 @@
         "sarmaşık"
       ],
       "lat": 51.2068,
-      "lng": 3.229,
+      "lng": 3229.0,
       "price": "free",
       "rating": 4.9,
       "description": "Brugge'ün en yeşil ve huzurlu kanallarından biri, söğüt ağaçlarının suya değdiği romantik manzarasıyla ünlü. Tekne turlarının geçtiği bu kanal, şehrin doğayla iç içe geçmiş güzelliğini yansıtıyor.",
@@ -1968,7 +1968,7 @@
         "paintings"
       ],
       "lat": 51.2055,
-      "lng": 3.227,
+      "lng": 3227.0,
       "rating": 4.6,
       "description": "Flaman ilkel ressamların eserlerinin sergilendiği müze. Sanat ve tarih severlerin mutlaka görmesi gereken bu müze, zengin koleksiyonuyla dikkat çekiyor. Sergilenen eserler, bölgenin kültürel mirasını derinlemesine anlamanızı sağlayacak.",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/brugge/groeningemuseum.jpg",
@@ -1977,7 +1977,7 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Çantanızı vestiyere bırakmanız gerekebilir, hazırlıklı olun.",
       "tips_en": "You might need to leave bags at the cloakroom, be prepared.",
-      "description_en": "Flaman ilkel ressamların eserlerinin sergilendiği müze. A must-see for art and history lovers, this museum stands out with its rich collection. The exhibited works will allow you to deeply understand the region's cultural heritage.",
+      "description_en": "Flaman ilkel ressamların eserlerinin sergwithndiği museum. A must-see for art and history loandrs, this museum stands out with its rich collection. The exhibited works will allow you to deeply understand the region's cultural heritage.",
       "source": "firebase"
     },
     {
@@ -2038,7 +2038,7 @@
         "center"
       ],
       "lat": 51.2085,
-      "lng": 3.224,
+      "lng": 3224.0,
       "rating": 4.9,
       "description": "Rengarenk lonca evleri ve görkemli Çan Kulesi ile çevrili Market Meydanı, Brugge'ün atan kalbidir. Meydandaki kafelerde oturup bu masalsı manzarayı izlemek veya at arabalarıyla tura çıkmak unutulmaz bir deneyimdir.",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/brugge/grote_markt.jpg",
@@ -2060,8 +2060,8 @@
         "tarih",
         "lüks"
       ],
-      "lat": 51.205,
-      "lng": 3.225,
+      "lat": 51205.0,
+      "lng": 3225.0,
       "price": "medium",
       "rating": 4.6,
       "description": "15. yüzyılda Brugge'ün en güçlü ailelerinden birinin sarayında kurulan, şehrin zengin tarihini ve aristokrat yaşamını sergileyen kapsamlı müze. Goblenler, dantel, silahlar ve dönem mobilyalarıyla, Flaman lüksüne dalış.",
@@ -2085,8 +2085,8 @@
         "lonca",
         "tarihi"
       ],
-      "lat": 51.215,
-      "lng": 3.235,
+      "lat": 51215.0,
+      "lng": 3235.0,
       "price": "medium",
       "rating": 4.6,
       "description": "600 yılı aşkın süredir faaliyet gösteren, hala aktif okçuluk loncası ve müzesi. Tarihi silahlar, madalyalar ve geleneksel kıyafetlerle, Brugge'ün ortaçağ lonca kültürünü yaşatan benzersiz mekan.",
@@ -2155,8 +2155,8 @@
         "heykel",
         "mahşer"
       ],
-      "lat": 51.205,
-      "lng": 3.225,
+      "lat": 51205.0,
+      "lng": 3225.0,
       "price": "free",
       "rating": 4.6,
       "description": "Gruuthuse müzesinin yakınında, huzurlu atmosferi ve Bonifacius köprüsü manzarasıyla gizli bahçe. Şehrin en romantik ve sakin köşelerinden biri, fotoğraf çekimi için mükemmel.",
@@ -2180,8 +2180,8 @@
         "koyun",
         "sessiz"
       ],
-      "lat": 51.216,
-      "lng": 3.232,
+      "lat": 51216.0,
+      "lng": 3232.0,
       "price": "free",
       "rating": 4.7,
       "description": "İçinde koyunların otladığı, turistlerden uzak saklı bir bahçe ve tarihi avlu. Şehrin en az bilinen köşelerinden biri olarak, ortaçağ Brugge'ünün kırsal yaşamını hissettiren huzurlu bir kaçış.",
@@ -2204,7 +2204,7 @@
         "rokoko",
         "bahçe"
       ],
-      "lat": 51.209,
+      "lat": 51209.0,
       "lng": 3.2215,
       "price": "free",
       "rating": 4.3,
@@ -2237,7 +2237,7 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Kahvenin yanında ev yapımı tatlılarını mutlaka deneyin.",
       "tips_en": "Must try their homemade desserts with coffee.",
-      "description_en": "Tuzlu karamelli waffle'ı deneyin. One of the right addresses to relieve the tiredness of the day and relax with a delicious coffee. The warm ambiance of the venue and the sweet surprises it offers will turn your break into pleasure.",
+      "description_en": "Tuzlu karamelli waffle'ı deneyin. One of the right addresses to relieand the tiredness of the day and relax with a delicious coffee. The warm ambiance of the andnue and the sweet surprises it offers will turn your break into pleasure.",
       "source": "firebase"
     },
     {
@@ -2250,8 +2250,8 @@
         "restoran",
         "tarihi"
       ],
-      "lat": 51.208,
-      "lng": 3.227,
+      "lat": 51208.0,
+      "lng": 3227.0,
       "price": "free",
       "rating": 4.5,
       "description": "Eskiden deri işleyicilerinin bulunduğu, şimdi şık restoranlarla çevrili küçük meydan.",
@@ -2275,8 +2275,8 @@
         "tarihi",
         "mimari"
       ],
-      "lat": 51.206,
-      "lng": 3.221,
+      "lat": 51206.0,
+      "lng": 3221.0,
       "price": "variable",
       "rating": 4.5,
       "description": "17. yüzyıldan kalma tarihi ev, şimdi küçük bir müze ve kültürel etkinliklere ev sahipliği yapan mekan. Geleneksel Flaman mimarisi ve iç dekorasyonuyla, dönem yaşamına göz atma fırsatı.",
@@ -2300,7 +2300,7 @@
         "tarihi",
         "cephe"
       ],
-      "lat": 51.208,
+      "lat": 51208.0,
       "lng": 3.22,
       "price": "free",
       "rating": 4.2,
@@ -2326,7 +2326,7 @@
         "tarihi"
       ],
       "lat": 51.2115,
-      "lng": 3.226,
+      "lng": 3226.0,
       "price": "free",
       "rating": 4.6,
       "description": "Flaman resim sanatının babası kabul edilen ünlü ressam Jan van Eyck'in heykelinin bulunduğu, ortaçağda ticaret limanı olarak kullanılan tarihi meydan. Kanalların kesiştiği bu pittoresk köşe, kafeleri ve antik binaları ile şehrin en fotoğrafik noktalarından.",
@@ -2374,7 +2374,7 @@
         "kokteyl",
         "blues"
       ],
-      "lat": 51.206,
+      "lat": 51206.0,
       "lng": 3.2215,
       "price": "medium",
       "rating": 4.7,
@@ -2423,8 +2423,8 @@
         "bahçe",
         "huzur"
       ],
-      "lat": 51.211,
-      "lng": 3.222,
+      "lat": 51211.0,
+      "lng": 3222.0,
       "price": "free",
       "rating": 4.5,
       "description": "Huzurlu bahçesi, ortaçağ kütüphanesi ve sessiz atmosferiyle bilinen aktif Carmelite manastırı. Şehrin kalabalığından kaçış arayan ziyaretçiler için meditasyon ve düşünce mekanı.",
@@ -2448,8 +2448,8 @@
         "neo-gotik",
         "park"
       ],
-      "lat": 51.155,
-      "lng": 3.205,
+      "lat": 51155.0,
+      "lng": 3205.0,
       "price": "medium",
       "rating": 4.7,
       "description": "Neo-Gotik mimarisi, iç dekorasyonu ve labirent bahçesiyle mükemmel korunan 19. yüzyıl şatosu. Antik mobilyalar, sanat eserleri ve dönem atmosferiyle, aristokrat yaşamına göz atma fırsatı.",
@@ -2472,8 +2472,8 @@
         "plaj",
         "sanat"
       ],
-      "lat": 51.345,
-      "lng": 3.285,
+      "lat": 51345.0,
+      "lng": 3285.0,
       "price": "high",
       "rating": 4.5,
       "description": "Belçika'nın en lüks sahil kasabası. Sanat galerileri ve lüks mağazalarıyla ünlüdür.",
@@ -2496,8 +2496,8 @@
         "fotoğraf",
         "park"
       ],
-      "lat": 51.217,
-      "lng": 3.237,
+      "lat": 51217.0,
+      "lng": 3237.0,
       "price": "free",
       "rating": 4.5,
       "description": "Kruispoort yakınındaki diğer tarihi yel değirmeni. İçine girilemez ama çok fotjeniktir.",
@@ -2520,7 +2520,7 @@
         "fransız",
         "kalite"
       ],
-      "lat": 51.214,
+      "lat": 51214.0,
       "lng": 3.2185,
       "price": "high",
       "rating": 4.7,
@@ -2544,7 +2544,7 @@
         "sakin",
         "yerel"
       ],
-      "lat": 51.206,
+      "lat": 51206.0,
       "lng": 3.23,
       "price": "free",
       "rating": 4.6,
@@ -2570,7 +2570,7 @@
         "ortaçağ"
       ],
       "lat": 51.2145,
-      "lng": 3.239,
+      "lng": 3239.0,
       "price": "free",
       "rating": 4.6,
       "description": "Brugge'ün en iyi korunmuş şehir kapılarından biri. 1400'lerden kalma bu yapı hala ayaktadır.",
@@ -2591,7 +2591,7 @@
         "traditional",
         "handmade"
       ],
-      "lat": 51.207,
+      "lat": 51207.0,
       "lng": 3.2245,
       "rating": 4.4,
       "description": "Geleneksel el yapımı Brugge danteli. Bölgeye özgü ürünleri keşfetmek ve sevdiklerinize hediyeler almak için uğramanız gereken bir yer. Renkli dükkanlar ve canlı atmosfer, alışveriş deneyiminizi çok daha keyifli hale getirecek.",
@@ -2623,7 +2623,7 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Yürüyüş ayakkabısı giymeniz önerilir.",
       "tips_en": "Walking shoes are recommended.",
-      "description_en": "Kuğuları ve sükunetiyle ünlü romantik park. A perfect getaway for those who want to experience peaceful moments in nature. Ideal for getting away from the city noise, taking a breath, and capturing great photos.",
+      "description_en": "Kuğuları and sükunetiyle famous romantik park. A perfect getaway for those who want to experience peaceful moments in nature. Ideal for getting away from the city noise, taking a breath, and capturing great photos.",
       "source": "firebase"
     },
     {
@@ -2636,8 +2636,8 @@
         "uzun",
         "yerel"
       ],
-      "lat": 51.215,
-      "lng": 3.229,
+      "lat": 51215.0,
+      "lng": 3229.0,
       "price": "free",
       "rating": 4.6,
       "description": "Turistik merkezden biraz uzak, yerel yaşamı ve günlük Brugge'ü deneyimleyebileceğiniz sakin kanal. Balıkçılar, bisikletliler ve şehir halkının ritmiyle, otantik atmosferin tadını çıkarın.",
@@ -2660,8 +2660,8 @@
         "gece",
         "film"
       ],
-      "lat": 51.209,
-      "lng": 3.223,
+      "lat": 51209.0,
+      "lng": 3223.0,
       "price": "medium",
       "rating": 4.5,
       "description": "Kült film 'The Big Lebowski'den ilham alan, geniş kokteyl menüsü ve rahat atmosferiyle eğlenceli bar. Film severler ve kokteyl tutkunları için benzersiz bir deneyim.",
@@ -2710,8 +2710,8 @@
         "beyaz",
         "kilise"
       ],
-      "lat": 51.295,
-      "lng": 3.195,
+      "lat": 51295.0,
+      "lng": 3195.0,
       "price": "free",
       "rating": 4.7,
       "description": "Beyaz boyalı evleri nedeniyle 'Beyaz Köy' olarak bilinen, Belçika'nın en güzel köylerinden biri.",
@@ -2734,8 +2734,8 @@
         "gizemli",
         "bina"
       ],
-      "lat": 51.212,
-      "lng": 3.228,
+      "lat": 51212.0,
+      "lng": 3228.0,
       "price": "free",
       "rating": 4.1,
       "description": "Tarihi Mason Locası binası, Brugge'ün 18. yüzyıldaki sivil toplum hayatına ışık tutan ilginç yapı. Gizemli sembolizmi ve ayarı mimari stili ile meraklı gezginlerin durağı.",
@@ -2759,7 +2759,7 @@
         "koleksiyon"
       ],
       "lat": 51.2095,
-      "lng": 3.225,
+      "lng": 3225.0,
       "price": "medium",
       "rating": 4.3,
       "description": "Dünyanın en büyük lamba koleksiyonlarından birine ev sahipliği yapan, 6.000 antik lamba ve aydınlatma cihazı sergileyen ilginç müze. Meşale çağından elektriğe uzanan aydınlatma tarihinin büyüleyici yolculuğu.",
@@ -2782,7 +2782,7 @@
         "modern",
         "sanat"
       ],
-      "lat": 51.201,
+      "lat": 51201.0,
       "lng": 3.23,
       "price": "free",
       "rating": 4.5,
@@ -2807,8 +2807,8 @@
         "eğlence",
         "çocuk"
       ],
-      "lat": 51.156,
-      "lng": 3.206,
+      "lat": 51156.0,
+      "lng": 3206.0,
       "price": "low",
       "rating": 4.5,
       "description": "1873 yılında tasarlanmış, Belçika'nın en eski ve büyük çit labirentlerinden biri. Loppem Şatosu'nun bahçesinde, çocuklar ve yetişkinler için eğlenceli macera deneyimi.",
@@ -2832,7 +2832,7 @@
         "kanal"
       ],
       "lat": 51.2065,
-      "lng": 3.228,
+      "lng": 3228.0,
       "price": "free",
       "rating": 4.6,
       "description": "Brugge'ün en eski taş köprülerinden biri, dar kanalda ahşap evler ve tarihi binalar arasında konumlanan pittoresk yapı. Kalabalıktan uzak, otantik fotoğraf kareleri için mükemmel bir köşe.",
@@ -2856,8 +2856,8 @@
         "romantik",
         "göl"
       ],
-      "lat": 51.199,
-      "lng": 3.224,
+      "lat": 51199.0,
+      "lng": 3224.0,
       "price": "free",
       "rating": 4.8,
       "description": "Aşk Gölü üzerindeki ikonik köprü. Efsaneye göre burada öpüşenlerin aşkı sonsuz olur.",
@@ -2881,7 +2881,7 @@
         "dali"
       ],
       "lat": 51.2085,
-      "lng": 3.224,
+      "lng": 3224.0,
       "price": "medium",
       "rating": 4.2,
       "description": "Belfry kulesinin içinde bulunan, Salvador Dali'nin eserlerinin sergilendiği galeri.",
@@ -2930,7 +2930,7 @@
         "hastane",
         "hazine"
       ],
-      "lat": 51.217,
+      "lat": 51217.0,
       "lng": 3.2305,
       "price": "medium",
       "rating": 4.4,
@@ -2954,8 +2954,8 @@
         "kanal",
         "kale"
       ],
-      "lat": 51.275,
-      "lng": 3.295,
+      "lat": 51275.0,
+      "lng": 3295.0,
       "price": "free",
       "rating": 4.6,
       "description": "Damme yakınlarında sakin ve pittoresk köy, tarihi kilisesi ve yeşil manzaralarıyla dikkat çekiyor. Bisiklet rotaları üzerinde mola noktası, otantik Flaman kırsal yaşamının örneği.",
@@ -2978,8 +2978,8 @@
         "yulaf",
         "farklı"
       ],
-      "lat": 51.204,
-      "lng": 3.223,
+      "lat": 51204.0,
+      "lng": 3223.0,
       "price": "medium",
       "rating": 4.6,
       "description": "Dantel desenlerini yansıtan özel yulaf waffle'ları ve yaratıcı tatlı sunumlarıyla öne çıkan butik waffle dükkanı. Geleneksel Belçika waffle'ından farklı, hafif ve artistik bir alternatif arayanların durağı.",
@@ -3028,8 +3028,8 @@
         "fransız",
         "şık"
       ],
-      "lat": 51.212,
-      "lng": 3.225,
+      "lat": 51212.0,
+      "lng": 3225.0,
       "price": "high",
       "rating": 4.9,
       "description": "Minnewater parkına bakan, romantik konumu ve yaratıcı mutfağıyla dikkat çeken restoran. Gün batımında terasta yemek, şehrin en romantik deneyimlerinden biri.",
@@ -3054,7 +3054,7 @@
         "meyve"
       ],
       "lat": 51.2065,
-      "lng": 3.219,
+      "lng": 3219.0,
       "price": "free",
       "rating": 4.3,
       "description": "Eski bir özel bahçeden kamusal parka dönüştürülmüş, merkeze yakın gizli yeşil vaha. Romantik havuzları, gölgeli patikları ve sakin atmosferiyle, kalabalık sokaklardan kaçış noktası.",
@@ -3078,7 +3078,7 @@
         "kanal",
         "manzara"
       ],
-      "lat": 51.207,
+      "lat": 51207.0,
       "lng": 3.2285,
       "price": "free",
       "rating": 4.5,
@@ -3127,8 +3127,8 @@
         "dekor",
         "mantar"
       ],
-      "lat": 51.203,
-      "lng": 3.226,
+      "lat": 51203.0,
+      "lng": 3226.0,
       "price": "high",
       "rating": 4.5,
       "description": "Tradisyonel Flaman yemeklerini ev yapımı atmosferde sunan, samimi aile restoranı. Anne eli lezzetleri, doyurucu porsiyonlar ve uygun fiyatlarıyla, yerel deneyim arayanlar için.",
@@ -3152,7 +3152,7 @@
         "tarihi",
         "arşiv"
       ],
-      "lat": 51.211,
+      "lat": 51211.0,
       "lng": 3.2265,
       "price": "low",
       "rating": 4.3,
@@ -3177,7 +3177,7 @@
         "hastane",
         "tarihi"
       ],
-      "lat": 51.216,
+      "lat": 51216.0,
       "lng": 3.23,
       "price": "free",
       "rating": 4.5,
@@ -3202,7 +3202,7 @@
         "nostalji"
       ],
       "lat": 51.2125,
-      "lng": 3.235,
+      "lng": 3235.0,
       "price": "medium",
       "rating": 4.5,
       "description": "Yerel ve mevsimlik malzemelere odaklanan, küçük ama nitelikli Michelin tavsiyeli restoran. Yaratıcı tabaklar, özenli servis ve samimi ortamıyla, gurmelerin durağı.",
@@ -3251,7 +3251,7 @@
         "şarap"
       ],
       "lat": 51.1995,
-      "lng": 3.227,
+      "lng": 3227.0,
       "price": "medium",
       "rating": 4.7,
       "description": "Sağlıklı ve hafif öğünler sunan, vejetaryen ve vegan dostu modern kafe-restoran. Taze malzemeler, yaratıcı salatalar ve smoothie'lerle, bilinçli beslenenlerin durağı.",
@@ -3274,8 +3274,8 @@
         "bira",
         "sınırsız"
       ],
-      "lat": 51.215,
-      "lng": 3.219,
+      "lat": 51215.0,
+      "lng": 3219.0,
       "price": "medium",
       "rating": 4.8,
       "description": "Adından da anlaşılacağı gibi, kaburga ve bira kombinasyonu uzmanı Amerikan tarzı restoran. Doyurucu porsiyonlar, geniş bira seçkisi ve samimi atmosferiyle et severler için ideal.",
@@ -3347,7 +3347,7 @@
         "canals"
       ],
       "lat": 51.2065,
-      "lng": 3.226,
+      "lng": 3226.0,
       "rating": 4.9,
       "description": "Brugge'ün en çok fotoğraflanan noktası olan Rozenhoedkaai, kanalların birleştiği büyüleyici bir manzaraya sahiptir. Özellikle gün batımında ve gece ışıklandırmasında, suyun üzerindeki yansımalarla tam bir kartpostal görüntüsü sunar.",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/brugge/rozenhoedkaai.jpg",
@@ -3369,8 +3369,8 @@
         "orman",
         "neo-gotik"
       ],
-      "lat": 51.205,
-      "lng": 3.285,
+      "lat": 51205.0,
+      "lng": 3285.0,
       "price": "free",
       "rating": 4.4,
       "description": "Büyülü Ryckeveldebos ormanının yanında, şato, park ve hayvan çiftliğiyle aile dostu rekreasyon alanı. Yürüyüş parkurları, çocuk oyun alanları ve kafesiyle, hafta sonu gezisi için ideal.",
@@ -3441,7 +3441,7 @@
         "manzara"
       ],
       "lat": 51.1985,
-      "lng": 3.225,
+      "lng": 3225.0,
       "price": "free",
       "rating": 4.5,
       "description": "Minnewater (Aşk Gölü) üzerindeki su seviyesini düzenleyen, 16. yüzyıldan kalma tarihi savak evi. Gotik mimarisi ve romantik konumuyla, Brugge'ün hidrolojik mühendislik tarihine tanıklık eden yapı.",
@@ -3464,8 +3464,8 @@
         "manzara",
         "doğa"
       ],
-      "lat": 51.252,
-      "lng": 3.285,
+      "lat": 51252.0,
+      "lng": 3285.0,
       "price": "free",
       "rating": 4.5,
       "description": "Damme kanalının kenarında pitoresk manzarasıyla dikkat çeken tarihi yel değirmeni. Bisiklet rotası üzerinde mola vermek ve fotoğraf çekmek için ideal, Brugge kırsalının simgesi.",
@@ -3488,8 +3488,8 @@
         "fok",
         "aile"
       ],
-      "lat": 51.315,
-      "lng": 3.135,
+      "lat": 51315.0,
+      "lng": 3135.0,
       "price": "medium",
       "rating": 4.3,
       "description": "Çeşitli deniz canlılarını barındıran akvaryum, köpekbalıkları ve denizanaları ile ailelere yönelik merkez. Eğitici sergiler, dokunma havuzları ve çocuk aktiviteleriyle, yağmurlu gün planı.",
@@ -3512,8 +3512,8 @@
         "denizaltı",
         "liman"
       ],
-      "lat": 51.328,
-      "lng": 3.205,
+      "lat": 51328.0,
+      "lng": 3205.0,
       "price": "medium",
       "rating": 4.3,
       "description": "Eski balık halinde kurulu denizcilik müzesi. Gerçek bir Rus denizaltısını gezebilirsiniz.",
@@ -3536,7 +3536,7 @@
         "yılan",
         "ilginç"
       ],
-      "lat": 51.314,
+      "lat": 51314.0,
       "lng": 3.13,
       "price": "medium",
       "rating": 4.2,
@@ -3560,8 +3560,8 @@
         "heykel",
         "çikolata"
       ],
-      "lat": 51.206,
-      "lng": 3.222,
+      "lat": 51206.0,
+      "lng": 3222.0,
       "price": "free",
       "rating": 4.4,
       "description": "Ondalık kesir sisteminin mucidi matematikçi Simon Stevin'in heykelinin bulunduğu, kafeleri ve restoranlarıyla canlı meydan. Büyük Pazar'a yakın konumuyla, turistik keşif arasında mola vermek için ideal.",
@@ -3586,7 +3586,7 @@
         "tarihi"
       ],
       "lat": 51.2045,
-      "lng": 3.224,
+      "lng": 3224.0,
       "price": "medium",
       "rating": 4.7,
       "description": "800 yılı aşkın tarihiyle Avrupa'nın en eski hastanelerinden biri, şimdi ortaçağ tıbbı ve ünlü ressam Hans Memling'in şaheserlerini sergileyen müze. Gotik mimarisi, antik eczanesi ve dini sanat eserleriyle benzersiz bir kültürel deneyim.",
@@ -3612,8 +3612,8 @@
         "tarihi",
         "yel değirmeni"
       ],
-      "lat": 51.214,
-      "lng": 3.238,
+      "lat": 51214.0,
+      "lng": 3238.0,
       "price": "low",
       "rating": 4.6,
       "description": "Hala aktif olarak un öğüten ve içine girilebilen tarihi yel değirmeni. 1770'lerden kalma bu çalışan değirmen, Brugge'ün tarım geçmişine açılan canlı bir pencere ve kanalların panoramik manzarasını sunuyor.",
@@ -3660,8 +3660,8 @@
         "alışveriş",
         "sınır"
       ],
-      "lat": 51.308,
-      "lng": 3.388,
+      "lat": 51308.0,
+      "lng": 3388.0,
       "price": "free",
       "rating": 4.5,
       "description": "Hollanda sınırının hemen ötesinde, güzel evleri ve zengin alışveriş olanaklarıyla ünlü kasaba. Sınır ötesi günübirlik gezi, pazarcılar ve turist dostu mağazalarla dolu.",
@@ -3684,8 +3684,8 @@
         "bronz",
         "kafatanı"
       ],
-      "lat": 51.204,
-      "lng": 3.212,
+      "lat": 51204.0,
+      "lng": 3212.0,
       "price": "free",
       "rating": 4.4,
       "description": "Üzerinde bronz bir kafatası bulunan, demirciler loncasıyla ilişkili tarihi kapı.",
@@ -3708,7 +3708,7 @@
         "yürüyüş",
         "sur"
       ],
-      "lat": 51.203,
+      "lat": 51203.0,
       "lng": 3.21,
       "price": "free",
       "rating": 4.5,
@@ -3732,7 +3732,7 @@
         "konser",
         "ucuz"
       ],
-      "lat": 51.215,
+      "lat": 51215.0,
       "lng": 3.22,
       "price": "low",
       "rating": 4.5,
@@ -3757,7 +3757,7 @@
         "kuğu"
       ],
       "lat": 51.21,
-      "lng": 3.218,
+      "lng": 3218.0,
       "price": "free",
       "rating": 4.6,
       "description": "Şehrin kuzeybatısında, yeşillikler içinde sakin bir kanal manzarası sunan romantik köşe. Müzisyenler kanalı anlamına gelen adıyla, ortaçağda gezici müzisyenlerin yaşadığı bölge.",
@@ -3781,8 +3781,8 @@
         "gizli",
         "yerel"
       ],
-      "lat": 51.216,
-      "lng": 3.218,
+      "lat": 51216.0,
+      "lng": 3218.0,
       "price": "medium",
       "rating": 4.9,
       "description": "1963'ten beri aile işletmesi olarak çalışan, otantik Belçika çikolataları üreten butik atölye. Klasik tatlar, geleneksel teknikler ve sıcak servisyle, çikolata deneyimi.",
@@ -3805,8 +3805,8 @@
         "yansıma",
         "sessiz"
       ],
-      "lat": 51.211,
-      "lng": 3.227,
+      "lat": 51211.0,
+      "lng": 3227.0,
       "price": "free",
       "rating": 4.7,
       "description": "Jan van Eyck meydanından uzanan, suya yansıyan tarihi binaların görsel şöleni sunan kanal. Gece aydınlatmasıyla büyüleyici, gündüz ise canlı renkleriyle dikkat çeken fotojenik güzergah.",
@@ -3855,7 +3855,7 @@
         "düğün"
       ],
       "lat": 51.2125,
-      "lng": 3.233,
+      "lng": 3233.0,
       "price": "free",
       "rating": 4.5,
       "description": "Zengin sanat koleksiyonu ve bağışçı ailelerinin anıtsal mezarlarıyla dikkat çeken tarihi kilise. Gotik mimarisi, Flaman resim şaheserleri ve yakındaki sanat galerisiyle, sanat tarihi tutkunlarının durağı.",
@@ -3878,8 +3878,8 @@
         "gotik",
         "yerel"
       ],
-      "lat": 51.213,
-      "lng": 3.225,
+      "lat": 51213.0,
+      "lng": 3225.0,
       "price": "free",
       "rating": 4.4,
       "description": "13. yüzyıldan kalma, ünlü Flaman ressamların (Memling, Van Eyck) ibadet ettiği ve bazılarının gömüldüğü tarihi kilise. Sanat tarihine tutkulu olanlar için özel bir hac noktası.",
@@ -3904,7 +3904,7 @@
         "beyaz"
       ],
       "lat": 51.21,
-      "lng": 3.228,
+      "lng": 3228.0,
       "price": "free",
       "rating": 4.6,
       "description": "Brugge'deki en etkileyici Barok kilisesi, muhteşem mermer sunağı ve ahşap heykelleriyle göz kamaştırıyor. Yaz akşamları organ konserlerine ev sahipliği yapan bu yapı, dini sanat ve müziğin buluşma noktası.",
@@ -3929,7 +3929,7 @@
         "tarihi"
       ],
       "lat": 51.2082,
-      "lng": 3.227,
+      "lng": 3227.0,
       "price": "medium",
       "rating": 4.5,
       "description": "1376'da inşa edilen, Belçika'nın en eski belediye binalarından biri. Gotik salonu büyüleyicidir.",
@@ -3951,7 +3951,7 @@
         "walk"
       ],
       "lat": 51.2065,
-      "lng": 3.222,
+      "lng": 3222.0,
       "rating": 4.3,
       "description": "Ana alışveriş caddesi. Bölgeye özgü ürünleri keşfetmek ve sevdiklerinize hediyeler almak için uğramanız gereken bir yer. Renkli dükkanlar ve canlı atmosfer, alışveriş deneyiminizi çok daha keyifli hale getirecek.",
       "description_en": "Main shopping street. A place you must stop by to discover region-specific products and buy gifts for your loved ones. Colorful shops and a lively atmosphere will make your shopping experience much more enjoyable.",
@@ -3974,8 +3974,8 @@
         "tahıl",
         "gotik"
       ],
-      "lat": 51.285,
-      "lng": 3.205,
+      "lat": 51285.0,
+      "lng": 3205.0,
       "price": "free",
       "rating": 4.6,
       "description": "13. yüzyıldan kalma devasa tuğla tahıl ambarıyla ünlü eski Cistercian manastırı. Gotik tarım mimarisi harikası, yanındaki gurme restoran ve huzurlu atmosferiyle kırsal kaçamak.",
@@ -3996,7 +3996,7 @@
         "coffee",
         "modern"
       ],
-      "lat": 51.206,
+      "lat": 51206.0,
       "lng": 3.2225,
       "rating": 4.5,
       "description": "Modern brunch ve kahve. Günün yorgunluğunu atmak ve lezzetli bir kahve eşliğinde dinlenmek için en doğru adreslerden biri. Mekanın sıcak ambiyansı ve sunduğu tatlı sürprizler, molanızı keyfe dönüştürecek.",
@@ -4021,7 +4021,7 @@
         "deneysel"
       ],
       "lat": 51.2065,
-      "lng": 3.222,
+      "lng": 3222.0,
       "price": "high",
       "rating": 4.7,
       "description": "Belçika çikolata ustası Dominique Persoone'un çılgın ve ödüllü çikolata kreasyonlarını sunan dünyaca ünlü atölye. Wasabi, bira ve acı biber gibi sıra dışı tatlarla, çikolata dünyasının sınırlarını zorlayan yaratıcı bir deneyim.",
@@ -4046,7 +4046,7 @@
         "bira"
       ],
       "lat": 51.21,
-      "lng": 3.222,
+      "lng": 3222.0,
       "price": "low",
       "rating": 4.3,
       "description": "Geniş bira menüsü, bilardo masaları ve rahat ortamıyla ünlü geleneksel Belçika barı. Yerel halk arasında popüler, turistik olmayan otantik bar deneyimi arayanlar için ideal.",
@@ -4092,7 +4092,7 @@
         "akdeniz",
         "sıcak"
       ],
-      "lat": 51.207,
+      "lat": 51207.0,
       "lng": 3.2205,
       "price": "medium",
       "rating": 4.6,
@@ -4118,7 +4118,7 @@
         "modern"
       ],
       "lat": 51.2095,
-      "lng": 3.224,
+      "lng": 3224.0,
       "price": "medium",
       "rating": 4.5,
       "description": "Belçika'nın meşhur patates kızartmasını gurme lezzetlerle birleştiren modern bar.",
@@ -4142,7 +4142,7 @@
         "piknik",
         "orman"
       ],
-      "lat": 51.175,
+      "lat": 51175.0,
       "lng": 3.2,
       "price": "free",
       "rating": 4.5,
@@ -4166,8 +4166,8 @@
         "tarih",
         "karanlık"
       ],
-      "lat": 51.208,
-      "lng": 3.227,
+      "lat": 51208.0,
+      "lng": 3227.0,
       "price": "medium",
       "rating": 4.2,
       "description": "Eski bir hapishanede kurulan, ortaçağ Avrupa'sının karanlık yargı ve ceza sistemini gözler önüne seren müze. Gerçek işkence aletleri, idam yöntemleri ve korkutucu hikayelerle, tarihin karanlık yüzüyle yüzleşme.",
@@ -4215,8 +4215,8 @@
         "yerel",
         "market"
       ],
-      "lat": 51.195,
-      "lng": 3.215,
+      "lat": 51195.0,
+      "lng": 3215.0,
       "price": "high",
       "rating": 4.7,
       "description": "Geleneksel Belçika ve Fransız mutfağını modern yorumlarla sunan şık bistro. Mevsimlik menüsü, kaliteli şarapları ve zarif sunumuyla, özel bir yemek deneyimi.",
@@ -4239,8 +4239,8 @@
         "edebiyat",
         "kahraman"
       ],
-      "lat": 51.251,
-      "lng": 3.281,
+      "lat": 51251.0,
+      "lng": 3281.0,
       "price": "low",
       "rating": 4.3,
       "description": "Efsanevi Flaman halk kahramanı Tijl Uilenspiegel'e adanmış küçük ama büyüleyici müze. Folklor, yerel efsaneler ve mizah tarihine ışık tutan koleksiyonuyla, bölge kültürüne dalış.",
@@ -4310,7 +4310,7 @@
         "historic",
         "beer"
       ],
-      "lat": 51.212,
+      "lat": 51212.0,
       "lng": 3.2295,
       "rating": 4.7,
       "description": "1515'ten beri açık olan Brugge'ün en eski barı. Yerel lezzetlerin tadına varmak ve keyifli bir akşam geçirmek için harika bir seçenek. Samimi atmosferi ve kaliteli hizmetiyle damak zevkinize hitap edecek unutulmaz bir deneyim sunuyor.",
@@ -4320,7 +4320,7 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Öğle yemeği menüleri genellikle akşamdan daha uygundur.",
       "tips_en": "Lunch menus are usually cheaper than dinner.",
-      "description_en": "1515'ten beri açık olan Brugge'ün en eski barı. A great option to taste local flavors and spend a pleasant evening. It offers an unforgettable experience appealing to your palate with its friendly atmosphere and quality service.",
+      "description_en": "1515'ten beri açık olan Brugge'ün en eski barı. A great option to taste local flavors and spend a pleasant eandning. It offers an unforgettable experience appealing to your palate with its friendly atmosphere and quality service.",
       "source": "firebase"
     },
     {
@@ -4357,7 +4357,7 @@
         "bira",
         "heykel"
       ],
-      "lat": 51.202,
+      "lat": 51202.0,
       "lng": 3.2245,
       "price": "free",
       "rating": 4.6,
@@ -4382,7 +4382,7 @@
         "kulu",
         "sessiz"
       ],
-      "lat": 51.201,
+      "lat": 51201.0,
       "lng": 3.2235,
       "price": "free",
       "rating": 4.7,
@@ -4404,8 +4404,8 @@
         "walk",
         "views"
       ],
-      "lat": 51.215,
-      "lng": 3.235,
+      "lat": 51215.0,
+      "lng": 3235.0,
       "rating": 4.5,
       "description": "Tarihi yel değirmenleri ve yürüyüş parkuru. Doğayla iç içe, huzur dolu anlar yaşamak isteyenler için mükemmel bir kaçış noktası. Şehrin gürültüsünden uzaklaşıp nefes almak ve harika fotoğraflar çekmek için birebir.",
       "description_en": "Historic windmills and walking path. A perfect getaway for those who want to experience peaceful moments in nature. Ideal for getting away from the city noise, taking a breath, and capturing great photos.",
@@ -4428,8 +4428,8 @@
         "oyuncak",
         "kafe"
       ],
-      "lat": 51.205,
-      "lng": 3.227,
+      "lat": 51205.0,
+      "lng": 3227.0,
       "price": "medium",
       "rating": 4.5,
       "description": "Eski oyuncaklar, nostaljik eşyalar ve 20. yüzyıl yaşam tarzını sergileyen vintage müze-mağaza. Çocukluk anılarına yolculuk ve benzersiz hediyelik eşyalar için keyifli bir durak.",

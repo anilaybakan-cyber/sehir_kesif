@@ -62,7 +62,7 @@
         "jewelry",
         "art"
       ],
-      "lat": 42.425,
+      "lat": 42425.0,
       "lng": 18.7722,
       "rating": 4.4,
       "description": "Antika takı ve sanat eserleri. Bölgeye özgü ürünleri keşfetmek ve sevdiklerinize hediyeler almak için uğramanız gereken bir yer. Renkli dükkanlar ve canlı atmosfer, alışveriş deneyiminizi çok daha keyifli hale getirecek.",
@@ -86,8 +86,8 @@
         "deniz yaşamı",
         "aile"
       ],
-      "lat": 42.432,
-      "lng": 18.769,
+      "lat": 42432.0,
+      "lng": 18769.0,
       "price": "medium",
       "rating": 4.5,
       "description": "Adriyatik denizi ve Kotor Körfezi'nin zengin deniz yaşamını tanıtan, Karadağ'ın kuzey bölgesindeki tek akvaryum. Çocuklar ve aileler için eğitici, yağmurlu günlerde ziyaret edilebilecek keyifli bir mekan.",
@@ -142,7 +142,7 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Akşam yemeği için rezervasyon yaptırmak şart.",
       "tips_en": "Reservation is a must for dinner.",
-      "description_en": "Yerel halkın favorisi bol porsiyonlu ızgaracı. A great option to taste local flavors and spend a pleasant evening. It offers an unforgettable experience appealing to your palate with its friendly atmosphere and quality service.",
+      "description_en": "Yerel halkın favorisi bol porsiyonlu ızgaracı. A great option to taste local flavors and spend a pleasant eandning. It offers an unforgettable experience appealing to your palate with its friendly atmosphere and quality service.",
       "source": "firebase"
     },
     {
@@ -204,8 +204,8 @@
         "orthodox",
         "huzur"
       ],
-      "lat": 42.513,
-      "lng": 18.697,
+      "lat": 42513.0,
+      "lng": 18697.0,
       "price": "free",
       "rating": 4.6,
       "description": "Risan'ın yakınında, Kotor Körfezi'nin sakin bir köşesinde konumlanan, 12. yüzyılda kurulan huzurlu Ortodoks manastırı. Deniz kıyısındaki konumu, tarihi freskleri ve manastır bahçesinin sessizliğiyle, meditasyon ve dini keşif için ideal bir sığınak.",
@@ -228,7 +228,7 @@
         "romantic"
       ],
       "lat": 42.4235,
-      "lng": 18.773,
+      "lng": 18773.0,
       "rating": 4.7,
       "description": "Romantik akşam yemeği için deniz kenarı. Yerel lezzetlerin tadına varmak ve keyifli bir akşam geçirmek için harika bir seçenek. Samimi atmosferi ve kaliteli hizmetiyle damak zevkinize hitap edecek unutulmaz bir deneyim sunuyor.",
       "description_en": "Seaside for romantic dinner. A great option to taste local flavors and spend a pleasant evening. It offers an unforgettable experience appealing to your palate with its friendly atmosphere and quality service.",
@@ -250,8 +250,8 @@
         "bay",
         "scenic"
       ],
-      "lat": 42.426,
-      "lng": 18.769,
+      "lat": 42426.0,
+      "lng": 18769.0,
       "rating": 4.8,
       "description": "Körfez turunda adalar ve köyler. Sıradan bir gezinin ötesine geçip unutulmaz anılar biriktirmek isteyenler için benzersiz bir fırsat. Bu aktivite, seyahatinize heyecan ve renk katarak size farklı bir perspektif kazandıracak.",
       "description_en": "Islands and villages on bay tour. A unique opportunity for those who want to go beyond an ordinary trip and collect unforgettable memories. This activity will add excitement and color to your travel, giving you a different perspective.",
@@ -295,8 +295,8 @@
         "kilise",
         "eski şehir"
       ],
-      "lat": 42.452,
-      "lng": 18.537,
+      "lat": 42452.0,
+      "lng": 18537.0,
       "price": "free",
       "rating": 4.5,
       "description": "Herceg Novi'nin eski şehrinin (Stari Grad) ana meydanı, şehrin vizyonunu ve anlamını temsil eden başmelek Mikail heykeline ev sahipliği yapıyor. Kafeler, butikler ve panoramik manzarasıyla, tarihi merkezin kalbi.",
@@ -319,8 +319,8 @@
         "manzara",
         "göl"
       ],
-      "lat": 42.245,
-      "lng": 19.092,
+      "lat": 42245.0,
+      "lng": 19092.0,
       "price": "low",
       "rating": 4.5,
       "description": "Virpazar kasabasına hakim tepede konumlanan, Skadar Gölü'nün muhteşem manzarasını sunan Osmanlı dönemi kalesi. Surlarından gölün tamamını görebilir, kalenin içindeki restoranda yerel yemeklerin tadını çıkarabilirsiniz.",
@@ -389,8 +389,8 @@
         "teras",
         "kahvaltı"
       ],
-      "lat": 42.428,
-      "lng": 18.698,
+      "lat": 42428.0,
+      "lng": 18698.0,
       "price": "medium",
       "rating": 4.5,
       "description": "Tivat'ın deniz kenarında, geniş terasıyla yerel halkın ve turistlerin buluştuğu popüler kafe ve restoran. Kahvaltıdan gece içkilerine kadar geniş menüsü ve rahat ortamıyla, her saate uygun bir mekan.",
@@ -413,8 +413,8 @@
         "yeşil",
         "sakin"
       ],
-      "lat": 42.432,
-      "lng": 18.694,
+      "lat": 42432.0,
+      "lng": 18694.0,
       "price": "free",
       "rating": 4.5,
       "description": "19. yüzyıldan kalma, egzotik bitkilerle dolu Adriyatik'in en büyük botanik bahçelerinden biri.",
@@ -458,8 +458,8 @@
         "tarih",
         "bilardo"
       ],
-      "lat": 42.389,
-      "lng": 18.923,
+      "lat": 42389.0,
+      "lng": 18923.0,
       "price": "medium",
       "rating": 4.6,
       "description": "Petar II Petrovic-Njegos'un ikametgahı. Adını Njegos'un çok sevdiği bilardo masasından alır.",
@@ -569,8 +569,8 @@
         "yüzme",
         "mavi"
       ],
-      "lat": 42.361,
-      "lng": 18.591,
+      "lat": 42361.0,
+      "lng": 18591.0,
       "price": "medium",
       "rating": 4.6,
       "description": "Işığın kırılmasıyla suyun fosforlu mavi renge büründüğü büyüleyici deniz mağarası. Sadece tekneyle ulaşılır.",
@@ -593,8 +593,8 @@
         "mavi",
         "cumhurbaşkanı"
       ],
-      "lat": 42.385,
-      "lng": 18.925,
+      "lat": 42385.0,
+      "lng": 18925.0,
       "price": "free",
       "rating": 4.4,
       "description": "Veliaht Prens Danilo için yapılan, mavi rengiyle dikkat çeken saray. Günümüzde Cumhurbaşkanlığı konutudur.",
@@ -682,7 +682,7 @@
         "sanat"
       ],
       "lat": 42.4305,
-      "lng": 18.697,
+      "lng": 18697.0,
       "price": "low",
       "rating": 4.5,
       "description": "500 yıllık soylu ailesi yazlık evi. Günümüzde galeri ve açık hava tiyatrosu olarak kullanılır.",
@@ -775,8 +775,8 @@
         "fortress",
         "view"
       ],
-      "lat": 42.423,
-      "lng": 18.776,
+      "lat": 42423.0,
+      "lng": 18776.0,
       "rating": 4.9,
       "description": "Şehri kuşbakışı izlemek isteyenler için 1350 basamaklı zorlu bir tırmanış sunan kale, körfezin en ikonik manzarasına sahiptir. Zirveye ulaştığınızda göreceğiniz Kotor Körfezi manzarası, tüm yorgunluğunuza değecek.",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kotor/castle_of_san_giovanni.jpg",
@@ -849,7 +849,7 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Rehberli turla gezmek detayları anlamak için çok daha verimli.",
       "tips_en": "A guided tour is much more efficient to understand the details.",
-      "description_en": "Kotor'un en önemli simgesi olan katedral. A unique treasure for history buffs, this venue captivates visitors with details that shed light on the past. An ideal stop for those wishing to embark on a cultural journey.",
+      "description_en": "Kotor'un en önemli simgesi olan katedral. A unique treasure for history buffs, this andnue captivates visitors with details that shed light on the past. An ideal stop for those wishing to embark on a cultural journey.",
       "source": "firebase"
     },
     {
@@ -864,8 +864,8 @@
         "doğa",
         "doğal"
       ],
-      "lat": 42.484,
-      "lng": 18.648,
+      "lat": 42484.0,
+      "lng": 18648.0,
       "price": "high",
       "rating": 4.8,
       "description": "Kotor Körfezi'nin en romantik restoranlarından biri: 300 yıllık antik değirmenlerin içinde, küçük bir şelalenin hemen yanında konumlanan masalsı mekan. Işıl ışıl aydınlatılmış bahçesinde, su sesi eşliğinde Karadağ'ın en iyi mutfağını deneyimleyin.",
@@ -887,7 +887,7 @@
         "fun"
       ],
       "lat": 42.4252,
-      "lng": 18.771,
+      "lng": 18771.0,
       "rating": 4.4,
       "description": "Kotor'un efsanevi kedi nüfusuna adanmış küçük, tutkulu ve benzersiz müze. Kedi temalı sanat eserleri, tarihi fotoğraflar, heykeller ve her türden kedi memorabiliası, kedi severler için eğlenceli ve keyifli bir ziyaret.",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kotor/cats_museum.jpg",
@@ -931,8 +931,8 @@
         "tarih",
         "rölik"
       ],
-      "lat": 42.388,
-      "lng": 18.922,
+      "lat": 42388.0,
+      "lng": 18922.0,
       "price": "free",
       "rating": 4.6,
       "description": "Eski başkent Cetinje'de bulunan, Vaftizci Yahya'nın sağ elinin saklandığı tarihi manastır.",
@@ -999,7 +999,7 @@
         "anıtsal",
         "merdiven"
       ],
-      "lat": 42.445,
+      "lat": 42445.0,
       "lng": 18.75,
       "price": "free",
       "rating": 4.7,
@@ -1024,7 +1024,7 @@
         "sinema"
       ],
       "lat": 42.4252,
-      "lng": 18.772,
+      "lng": 18772.0,
       "price": "free",
       "rating": 4.5,
       "description": "Ortasında asırlık büyük bir ağacın gölgelendirdiği, eski sinema binasının bulunduğu atmosferik meydan. Şimdi açık hava kafeleri, küçük sergiler ve yerel müzisyenlere ev sahipliği yapan canlı bir buluşma noktası.",
@@ -1069,7 +1069,7 @@
         "deniz"
       ],
       "lat": 42.4495,
-      "lng": 18.536,
+      "lng": 18536.0,
       "price": "free",
       "rating": 4.3,
       "description": "1979 depreminde büyük hasar görerek kısmen denize doğru yıkılan, Herceg Novi'nin tarihi kale kalıntıları. Osmanlı ve Venedik dönemlerinin izlerini taşıyan bu atmosferik harabe, şehrin dramatik tarihine tanıklık eden etkileyici bir anıt.",
@@ -1137,7 +1137,7 @@
         "canlı müzik",
         "yerel"
       ],
-      "lat": 42.425,
+      "lat": 42425.0,
       "lng": 18.7715,
       "price": "medium",
       "rating": 4.3,
@@ -1182,7 +1182,7 @@
         "simgesel",
         "meydan"
       ],
-      "lat": 42.451,
+      "lat": 42451.0,
       "lng": 18.5365,
       "price": "free",
       "rating": 4.4,
@@ -1227,12 +1227,12 @@
         "bar",
         "genç"
       ],
-      "lat": 42.455,
-      "lng": 18.758,
+      "lat": 42455.0,
+      "lng": 18758.0,
       "price": "medium",
       "rating": 4.4,
       "description": "Gündüz güneş ve deniz keyfi, akşam ise kokteyl ve müzik eşliğinde eğlence sunan çok amaçlı plaj mekanı. DJ setleri, plaj partileri ve şık atmosferiyle, Kotor'un genç ve enerjik kitlesinin favorisi.",
-      "description_en": "A multipurpose beach venue offering sun and sea enjoyment by day, entertainment with cocktails and music by evening. A favorite of Kotor's young and energetic crowd with DJ sets, beach parties, and stylish atmosphere.",
+      "description_en": "A multipurpose beach andnue offering sun and sea enjoyment by day, entertainment with cocktails and music by eandning. A favorite of Kotor's young and energetic crowd with DJ sets, beach parties, and stylish atmosphere.",
       "bestTime": "Tüm gün",
       "tips": "Şezlong kiralamak mümkündür.",
       "tips_en": "Possible to rent sunbeds.",
@@ -1256,7 +1256,7 @@
       "price": "high",
       "rating": 4.7,
       "description": "Perast'ın körfeze bakan en iyi restoranlarından biri, taze deniz ürünleri ve şaraplarıyla tanınıyor. Our Lady of the Rocks adasına karşı masanızda, güneşin suya yansımasını izlerken unutulmaz bir Adriyatik mutfağı deneyimi sunuyor.",
-      "description_en": "One of Perast's best restaurants overlooking the bay, known for its fresh seafood and wines. At your table facing Our Lady of the Rocks island, it offers an unforgettable Adriatic cuisine experience while watching the sun reflect on the water.",
+      "description_en": "One of Perast's best restaurants oandrlooking the bay, known for its fresh seafood and wines. At your table facing Our Lady of the Rocks island, it offers an unforgettable Adriatic cuisine experience whwith watching the sun reflect on the water.",
       "bestTime": "Gün batımı",
       "tips": "Gün batımı için teras masası alın.",
       "tips_en": "Get terrace table for sunset.",
@@ -1276,7 +1276,7 @@
         "macera"
       ],
       "lat": 42.42,
-      "lng": 18.765,
+      "lng": 18765.0,
       "price": "high",
       "rating": 4.6,
       "description": "Kotor Körfezi'nin berrak sularında, batık gemileri, su altı mağaralarını ve zengin deniz yaşamını keşfedin. Hem yeni başlayanlar için sertifikalı dersler hem de deneyimli dalgıçlar için ileri düzey dalış noktaları sunan profesyonel dalış merkezleri mevcut.",
@@ -1344,7 +1344,7 @@
         "ejderha",
         "gotik"
       ],
-      "lat": 42.424,
+      "lat": 42424.0,
       "lng": 18.7722,
       "price": "free",
       "rating": 4.5,
@@ -1392,8 +1392,8 @@
         "kalıntı",
         "manzara"
       ],
-      "lat": 42.393,
-      "lng": 18.555,
+      "lat": 42393.0,
+      "lng": 18555.0,
       "price": "free",
       "rating": 4.5,
       "description": "Avusturya-Macaristan İmparatorluğu döneminden kalma, Lustica yarımadasının ucunda denize bakan etkileyici deniz kalesi. Restore edilerek butik bir otele dönüştürülmüş olup, tarihi atmosferde benzersiz bir konaklama sunuyor.",
@@ -1438,7 +1438,7 @@
         "savunma"
       ],
       "lat": 42.4505,
-      "lng": 18.536,
+      "lng": 18536.0,
       "price": "medium",
       "rating": 4.6,
       "description": "Deniz kıyısında, şehrin savunması için inşa edilmiş tarihi kale. Yazın sinema olarak kullanılır.",
@@ -1469,7 +1469,7 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Kahvenin yanında ev yapımı tatlılarını mutlaka deneyin.",
       "tips_en": "Must try their homemade desserts with coffee.",
-      "description_en": "Şehrin en iyi Kotor pastası (Krempita) burada. One of the right addresses to relieve the tiredness of the day and relax with a delicious coffee. The warm ambiance of the venue and the sweet surprises it offers will turn your break into pleasure.",
+      "description_en": "Şehrin en iyi Kotor pastası (Krempita) burada. One of the right addresses to relieand the tiredness of the day and relax with a delicious coffee. The warm ambiance of the andnue and the sweet surprises it offers will turn your break into pleasure.",
       "source": "firebase"
     },
     {
@@ -1482,8 +1482,8 @@
         "butik",
         "deniz"
       ],
-      "lat": 42.448,
-      "lng": 18.761,
+      "lat": 42448.0,
+      "lng": 18761.0,
       "price": "very_high",
       "rating": 4.8,
       "description": "Ünlü yıldızların ve jet sosyetenin tercih ettiği, Kotor Körfezi'nin en lüks butik otellerinden biri. Özel plajı, spa'sı, gurme restoranı ve Adriyatik manzaralı süitleriyle, benzersiz bir lüks deneyim sunuyor.",
@@ -1525,7 +1525,7 @@
         "view",
         "upscale"
       ],
-      "lat": 42.421,
+      "lat": 42421.0,
       "lng": 18.7735,
       "rating": 4.8,
       "description": "Su kenarında, kale manzaralı şık balık restoranı. Yerel lezzetlerin tadına varmak ve keyifli bir akşam geçirmek için harika bir seçenek. Samimi atmosferi ve kaliteli hizmetiyle damak zevkinize hitap edecek unutulmaz bir deneyim sunuyor.",
@@ -1535,7 +1535,7 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Şefin spesiyal tabağını sormaktan çekinmeyin.",
       "tips_en": "Don't hesitate to ask for the chef's special.",
-      "description_en": "Su kenarında, kale manzaralı şık balık restoranı. A great option to taste local flavors and spend a pleasant evening. It offers an unforgettable experience appealing to your palate with its friendly atmosphere and quality service.",
+      "description_en": "Su kenarında, kale manzaralı şık balık restoranı. A great option to taste local flavors and spend a pleasant eandning. It offers an unforgettable experience appealing to your palate with its friendly atmosphere and quality service.",
       "source": "firebase"
     },
     {
@@ -1614,8 +1614,8 @@
         "taş",
         "manzara"
       ],
-      "lat": 42.455,
-      "lng": 18.705,
+      "lat": 42455.0,
+      "lng": 18705.0,
       "price": "free",
       "rating": 4.6,
       "description": "Vrmac dağının yamaçlarında, Tivat körfezine bakan terk edilmiş ama çok iyi korunmuş taş köy.",
@@ -1680,8 +1680,8 @@
         "teras",
         "manzara"
       ],
-      "lat": 42.453,
-      "lng": 18.538,
+      "lat": 42453.0,
+      "lng": 18538.0,
       "price": "medium",
       "rating": 4.6,
       "description": "Eski Avusturya-Macaristan subay gazinosu binasında, muazzam teraslı tarihi kafe.",
@@ -1792,8 +1792,8 @@
         "springs",
         "quiet"
       ],
-      "lat": 42.422,
-      "lng": 18.772,
+      "lat": 42422.0,
+      "lng": 18772.0,
       "rating": 4.3,
       "description": "Güney kapısı ve doğal pınarlar. Tarih meraklıları için eşsiz bir hazine olan bu mekan, geçmişe ışık tutan detaylarıyla ziyaretçilerini büyülüyor. Kültürel bir yolculuğa çıkmak isteyenler için ideal bir durak.",
       "description_en": "Southern gate and natural springs. A unique treasure for history buffs, this venue captivates visitors with details that shed light on the past. An ideal stop for those wishing to embark on a cultural journey.",
@@ -1816,7 +1816,7 @@
         "zirve",
         "yürüyüş"
       ],
-      "lat": 42.155,
+      "lat": 42155.0,
       "lng": 19.03,
       "price": "free",
       "rating": 4.3,
@@ -1906,7 +1906,7 @@
         "sağlık",
         "plaj"
       ],
-      "lat": 42.458,
+      "lat": 42458.0,
       "lng": 18.49,
       "price": "free",
       "rating": 4.2,
@@ -1954,8 +1954,8 @@
         "ada",
         "huzur"
       ],
-      "lat": 42.406,
-      "lng": 18.703,
+      "lat": 42406.0,
+      "lng": 18703.0,
       "price": "free",
       "rating": 4.5,
       "description": "Arhangel Mihail Manastırı'nın kalıntılarına ev sahipliği yapan, huzurlu ve yeşil bir yarımada.",
@@ -2074,8 +2074,8 @@
         "turkuaz",
         "genç"
       ],
-      "lat": 42.275,
-      "lng": 18.875,
+      "lat": 42275.0,
+      "lng": 18875.0,
       "price": "medium",
       "rating": 4.6,
       "description": "Budva ile Becici arasında, turkuaz rengi berrak deniziyle ünlü, kayalıklarla çevrili pitoresk plaj. Şezlong ve restoran imkanlarıyla donatılmış bu kumsal, hem dinlenme hem de aktif su sporları için mükemmel bir denge sunuyor.",
@@ -2106,7 +2106,7 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Sabah erken saatlerde giderek turist kalabalığından kaçınabilirsiniz.",
       "tips_en": "Go early in the morning to avoid tourist crowds.",
-      "description_en": "Tarihi surların ve burçların en iyi korunduğu nokta. A unique treasure for history buffs, this venue captivates visitors with details that shed light on the past. An ideal stop for those wishing to embark on a cultural journey.",
+      "description_en": "historic surların and burçların en iyi korunduğu nokta. A unique treasure for history buffs, this andnue captivates visitors with details that shed light on the past. An ideal stop for those wishing to embark on a cultural journey.",
       "source": "firebase"
     },
     {
@@ -2140,8 +2140,8 @@
         "tiyatro",
         "osmanlı"
       ],
-      "lat": 42.454,
-      "lng": 18.535,
+      "lat": 42454.0,
+      "lng": 18535.0,
       "price": "medium",
       "rating": 4.6,
       "description": "Osmanlı döneminden kalma, günümüzde açık hava tiyatrosu olarak kullanılan tarihi kale. İsmi Türkçe 'Kanlı Kule'den gelir.",
@@ -2164,7 +2164,7 @@
         "gizli",
         "sakin"
       ],
-      "lat": 42.424,
+      "lat": 42424.0,
       "lng": 18.7708,
       "price": "free",
       "rating": 4.3,
@@ -2212,7 +2212,7 @@
         "macera",
         "su"
       ],
-      "lat": 42.426,
+      "lat": 42426.0,
       "lng": 18.77,
       "price": "medium",
       "rating": 4.7,
@@ -2369,7 +2369,7 @@
         "liman"
       ],
       "lat": 42.45,
-      "lng": 18.537,
+      "lng": 18537.0,
       "price": "medium",
       "rating": 4.7,
       "description": "Limanın hemen yanında, her zaman taze balık ve deniz mahsulleri sunan aile işletmesi.",
@@ -2413,8 +2413,8 @@
         "balık",
         "romantik"
       ],
-      "lat": 42.442,
-      "lng": 18.763,
+      "lat": 42442.0,
+      "lng": 18763.0,
       "price": "medium",
       "rating": 4.8,
       "description": "Denizin hemen dibinde masaları olan, gün batımı için mükemmel bir balık restoranı.",
@@ -2435,8 +2435,8 @@
         "local",
         "cozy"
       ],
-      "lat": 42.424,
-      "lng": 18.771,
+      "lat": 42424.0,
+      "lng": 18771.0,
       "rating": 4.6,
       "description": "Karadağ geleneksel yemekleri. Yerel lezzetlerin tadına varmak ve keyifli bir akşam geçirmek için harika bir seçenek. Samimi atmosferi ve kaliteli hizmetiyle damak zevkinize hitap edecek unutulmaz bir deneyim sunuyor.",
       "description_en": "Traditional Montenegrin dishes. A great option to taste local flavors and spend a pleasant evening. It offers an unforgettable experience appealing to your palate with its friendly atmosphere and quality service.",
@@ -2460,7 +2460,7 @@
         "avlu"
       ],
       "lat": 42.4252,
-      "lng": 18.773,
+      "lng": 18773.0,
       "price": "high",
       "rating": 4.7,
       "description": "Taze Adriyatik balıkları ve deniz ürünlerinin zarif sunumlarıyla öne çıkan, Kotor'un en kaliteli restoranlarından biri. Şarap kavı, profesyonel servisi ve romantik atmosferiyle özel akşam yemekleri için ideal bir adres.",
@@ -2503,7 +2503,7 @@
         "local"
       ],
       "lat": 42.4255,
-      "lng": 18.773,
+      "lng": 18773.0,
       "rating": 4.3,
       "description": "Hediyelik eşyalar ve el sanatları pazarı. Bölgeye özgü ürünleri keşfetmek ve sevdiklerinize hediyeler almak için uğramanız gereken bir yer. Renkli dükkanlar ve canlı atmosfer, alışveriş deneyiminizi çok daha keyifli hale getirecek.",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kotor/kotor_bazaar.jpg",
@@ -2512,7 +2512,7 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Yerel tasarımcıların ürünlerine göz atın.",
       "tips_en": "Check out products from local designers.",
-      "description_en": "Hediyelik eşyalar ve el sanatları pazarı. A place you must stop by to discover region-specific products and buy gifts for your loved ones. Colorful shops and a lively atmosphere will make your shopping experience much more enjoyable.",
+      "description_en": "Hediyelik eşyalar and el sanatları pazarı. A place you must stop by to discoandr region-specific products and buy gifts for your loandd ones. Colorful shops and a liandly atmosphere will make your shopping experience much more enjoyable.",
       "source": "firebase"
     },
     {
@@ -2678,7 +2678,7 @@
         "panorama",
         "dağ"
       ],
-      "lat": 42.405,
+      "lat": 42405.0,
       "lng": 18.82,
       "price": "free",
       "rating": 4.7,
@@ -2745,7 +2745,7 @@
         "mezeler"
       ],
       "lat": 42.4245,
-      "lng": 18.771,
+      "lng": 18771.0,
       "price": "medium",
       "rating": 4.5,
       "description": "Kotor'un tarihi sokaklarında, Karadağ'ın yerel şaraplarını ve geleneksel mezelerini keşfetmek için mükemmel bir şarap evi ve tapas barı. Vranac şarabı, pršut jambonu ve Njeguški peyniri eşliğinde, şehrin otantik lezzetlerine dalın.",
@@ -2834,8 +2834,8 @@
         "resim",
         "tarih"
       ],
-      "lat": 42.488,
-      "lng": 18.665,
+      "lat": 42488.0,
+      "lng": 18665.0,
       "price": "free",
       "rating": 4.3,
       "description": "M.Ö. 8. yüzyıla tarihlenen, kaya yüzeyine oyulmuş geyik avı sahnelerini içeren tarih öncesi mağara sanatı. Risan yakınlarında bulunan bu antik eserler, bölgenin binlerce yıllık insan yerleşiminin kanıtı.",
@@ -2924,8 +2924,8 @@
         "koy",
         "çam"
       ],
-      "lat": 42.202,
-      "lng": 18.945,
+      "lat": 42202.0,
+      "lng": 18945.0,
       "price": "medium",
       "rating": 4.7,
       "description": "Petrovac'ın hemen yanında, çam ağaçlarıyla çevrili, kristal berraklığında suya sahip koy.",
@@ -2948,7 +2948,7 @@
         "taş bina",
         "et"
       ],
-      "lat": 42.424,
+      "lat": 42424.0,
       "lng": 18.7735,
       "price": "medium",
       "rating": 4.4,
@@ -2986,8 +2986,8 @@
       "distanceFromCenter": 1.0,
       "name_en": "Luštica Bay",
       "bestTime": "Gündüz",
-      "lat": 42.388,
-      "lng": 18.665
+      "lat": 42388.0,
+      "lng": 18665.0
     },
     {
       "name": "Mademoiselle Dine & Wine Lounge",
@@ -3020,7 +3020,7 @@
         "yerel",
         "samimi"
       ],
-      "lat": 42.427,
+      "lat": 42427.0,
       "lng": 18.7,
       "price": "medium",
       "rating": 4.4,
@@ -3042,7 +3042,7 @@
         "entrance",
         "landmark"
       ],
-      "lat": 42.426,
+      "lat": 42426.0,
       "lng": 18.77,
       "rating": 4.6,
       "description": "Surlu şehrin ana deniz kapısı. Tarih meraklıları için eşsiz bir hazine olan bu mekan, geçmişe ışık tutan detaylarıyla ziyaretçilerini büyülüyor. Kültürel bir yolculuğa çıkmak isteyenler için ideal bir durak.",
@@ -3066,8 +3066,8 @@
         "ada",
         "otel"
       ],
-      "lat": 42.396,
-      "lng": 18.558,
+      "lat": 42396.0,
+      "lng": 18558.0,
       "price": "high",
       "rating": 4.5,
       "description": "Eski bir Avusturya-Macaristan kalesi olan ve günümüzde lüks otele dönüştürülen ada.",
@@ -3089,7 +3089,7 @@
         "sea"
       ],
       "lat": 42.4248,
-      "lng": 18.772,
+      "lng": 18772.0,
       "rating": 4.5,
       "description": "Denizcilik tarihini anlatan saray müzesi. Sanat ve tarih severlerin mutlaka görmesi gereken bu müze, zengin koleksiyonuyla dikkat çekiyor. Sergilenen eserler, bölgenin kültürel mirasını derinlemesine anlamanızı sağlayacak.",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kotor/maritime_museum.jpg",
@@ -3098,7 +3098,7 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Çantanızı vestiyere bırakmanız gerekebilir, hazırlıklı olun.",
       "tips_en": "You might need to leave bags at the cloakroom, be prepared.",
-      "description_en": "Denizcilik tarihini anlatan saray müzesi. A must-see for art and history lovers, this museum stands out with its rich collection. The exhibited works will allow you to deeply understand the region's cultural heritage.",
+      "description_en": "Denizcilik tarihini anlatan saray müzesi. A must-see for art and history loandrs, this museum stands out with its rich collection. The exhibited works will allow you to deeply understand the region's cultural heritage.",
       "source": "firebase"
     },
     {
@@ -3154,7 +3154,7 @@
         "teras"
       ],
       "lat": 42.4255,
-      "lng": 18.772,
+      "lng": 18772.0,
       "price": "medium",
       "rating": 4.4,
       "description": "Kotor'un ortaçağ surlarına ve limanına bakan konumuyla, gün batımında kokteyl içmek için şehrin en şık barlarından biri. Profesyonelce hazırlanan karışımları, zarif dekorasyonu ve muhteşem manzarasıyla, romantik bir akşam için mükemmel bir tercih.",
@@ -3424,7 +3424,7 @@
         "tarihi"
       ],
       "lat": 42.4252,
-      "lng": 18.772,
+      "lng": 18772.0,
       "price": "low",
       "rating": 4.2,
       "description": "Fransız işgali döneminden (1807-1813) kalma, Kotor'un dar sokaklarında gizlenmiş tarihi küçük tiyatro. Napolyon ordusunun askerleri için inşa edilmiş bu yapı, şehrin çok katmanlı tarihine ve Fransız etkisine tanıklık ediyor.",
@@ -3450,7 +3450,7 @@
         "history",
         "tiyatro"
       ],
-      "lat": 42.425,
+      "lat": 42425.0,
       "lng": 18.7702,
       "price": "free",
       "rating": 4.4,
@@ -3475,8 +3475,8 @@
         "müze",
         "tarih"
       ],
-      "lat": 42.436,
-      "lng": 18.693,
+      "lat": 42436.0,
+      "lng": 18693.0,
       "price": "medium",
       "rating": 4.7,
       "description": "Eski Yugoslav donanmasına ait P-821 Heroj denizaltısının sergilendiği etkileyici denizcilik müzesi.",
@@ -3520,8 +3520,8 @@
         "parti",
         "lüks"
       ],
-      "lat": 42.404,
-      "lng": 18.707,
+      "lat": 42404.0,
+      "lng": 18707.0,
       "price": "very_high",
       "rating": 4.4,
       "description": "Dünyaca ünlü lüks plaj kulübü zincirinin Karadağ şubesi. Müzik, eğlence ve lüks.",
@@ -3613,8 +3613,8 @@
         "sakin",
         "manzara"
       ],
-      "lat": 42.435,
-      "lng": 18.515,
+      "lat": 42435.0,
+      "lng": 18515.0,
       "price": "medium",
       "rating": 4.4,
       "description": "Herceg Novi'nin karşısında, 'Kraljičina Plaža' (Kraliçe Plajı) olarak da bilinen sakin plaj.",
@@ -3773,7 +3773,7 @@
         "kaya",
         "kutsal"
       ],
-      "lat": 42.675,
+      "lat": 42675.0,
       "lng": 19.03,
       "price": "free",
       "rating": 4.9,
@@ -3821,8 +3821,8 @@
         "otel",
         "iskele"
       ],
-      "lat": 42.443,
-      "lng": 18.764,
+      "lat": 42443.0,
+      "lng": 18764.0,
       "price": "high",
       "rating": 4.6,
       "description": "18. yüzyıldan kalma tarihi bir kaptan sarayından dönüştürülmüş, deniz kenarında konumlanan lüks butik otel. Antik mobilyalar, özgün dekorasyon ve Adriyatik manzaralı odalarıyla, romantik bir konaklama deneyimi sunuyor.",
@@ -3960,7 +3960,7 @@
         "barok"
       ],
       "lat": 42.4865,
-      "lng": 18.698,
+      "lng": 18698.0,
       "price": "low",
       "rating": 4.5,
       "description": "Bujovic Sarayı'nın zarif barok mimarisi içinde kurulu, Perast'ın görkemli denizcilik tarihini anlatan kapsamlı müze. Venedik döneminin haritaları, gemicilik aletleri, silah koleksiyonu ve tarihi portrelerle, kasabanın altın çağına ışık tutuyor.",
@@ -4025,7 +4025,7 @@
         "sahil",
         "uzun"
       ],
-      "lat": 42.452,
+      "lat": 42452.0,
       "lng": 18.53,
       "price": "free",
       "rating": 4.7,
@@ -4049,7 +4049,7 @@
         "kum",
         "tarihi"
       ],
-      "lat": 42.205,
+      "lat": 42205.0,
       "lng": 18.94,
       "price": "medium",
       "rating": 4.5,
@@ -4183,7 +4183,7 @@
         "palmiye"
       ],
       "lat": 42.43,
-      "lng": 18.696,
+      "lng": 18696.0,
       "price": "free",
       "rating": 4.6,
       "description": "Tivat'ın kalbi. Palmiye ağaçları, kafeler ve deniz manzarasıyla dolu harika bir kordon boyu.",
@@ -4227,8 +4227,8 @@
         "kum",
         "aile"
       ],
-      "lat": 42.385,
-      "lng": 18.682,
+      "lat": 42385.0,
+      "lng": 18682.0,
       "price": "medium",
       "rating": 4.6,
       "description": "Karadağ'ın nadir kumlu plajlarından biri. Sığ deniziyle çocuklu aileler için idealdir.",
@@ -4297,8 +4297,8 @@
         "fresk",
         "sakin"
       ],
-      "lat": 42.295,
-      "lng": 18.825,
+      "lat": 42295.0,
+      "lng": 18825.0,
       "price": "free",
       "rating": 4.6,
       "description": "Budva'nın tepelerinde, şehre hakim konumda 15. yüzyıl manastırı. 'Cehennem' freskiyle bilinir.",
@@ -4322,7 +4322,7 @@
         "yerel"
       ],
       "lat": 42.44,
-      "lng": 18.688,
+      "lng": 18688.0,
       "price": "free",
       "rating": 4.5,
       "description": "Deniz fenerinin bulunduğu burnun ucunda, düz kayalar üzerinde güneşlenme ve yüzme için ideal bir nokta. Şezlong veya restoran olmayan, doğal haliyle korunan, yerel halkın favorisi sakin bir köşe.",
@@ -4366,8 +4366,8 @@
         "lüks",
         "alışveriş"
       ],
-      "lat": 42.433,
-      "lng": 18.694,
+      "lat": 42433.0,
+      "lng": 18694.0,
       "price": "high",
       "rating": 4.8,
       "description": "Dünya standartlarında süper lüks marina. Mağazalar, restoranlar ve yürüyüş yollarıyla modern Karadağ'ın yüzü. (15 dk mesafe)",
@@ -4390,8 +4390,8 @@
         "lüks",
         "yeni"
       ],
-      "lat": 42.434,
-      "lng": 18.583,
+      "lat": 42434.0,
+      "lng": 18583.0,
       "price": "high",
       "rating": 4.8,
       "description": "Ultra lüks marina köyü. One&Only oteli, butikler ve şık restoranlarıyla yeni bir cazibe merkezi.",
@@ -4513,8 +4513,8 @@
       "distanceFromCenter": 1.0,
       "name_en": "Radonicich Palace",
       "bestTime": "Gündüz",
-      "lat": 42.435,
-      "lng": 18.768
+      "lat": 42435.0,
+      "lng": 18768.0
     },
     {
       "name": "Restaurant Galija",
@@ -4568,8 +4568,8 @@
         "nehir",
         "doğa"
       ],
-      "lat": 42.445,
-      "lng": 18.735,
+      "lat": 42445.0,
+      "lng": 18735.0,
       "price": "medium",
       "rating": 4.8,
       "description": "Ljuta nehri kıyısında, asırlık su değirmenlerinin restore edilmesiyle oluşturulmuş büyüleyici bir restoran. Nehrin şırıltısı eşliğinde taze alabalık, kuzu çevirme ve geleneksel Karadağ mezelerini tadabileceğiniz, romantik ve nostaljik bir yemek deneyimi.",
@@ -4592,7 +4592,7 @@
         "sahil",
         "efsane"
       ],
-      "lat": 42.225,
+      "lat": 42225.0,
       "lng": 18.91,
       "price": "free",
       "rating": 4.6,
@@ -4616,8 +4616,8 @@
         "taze",
         "gün batımı"
       ],
-      "lat": 42.397,
-      "lng": 18.577,
+      "lat": 42397.0,
+      "lng": 18577.0,
       "price": "high",
       "rating": 4.7,
       "description": "Zanjice yakınlarında, kendi tuttukları balıkları servis eden harika bir restoran.",
@@ -4640,8 +4640,8 @@
         "osmanlı",
         "manzara"
       ],
-      "lat": 42.355,
-      "lng": 19.025,
+      "lat": 42355.0,
+      "lng": 19025.0,
       "price": "free",
       "rating": 4.6,
       "description": "Eski ticaret yolunda, Crnojevic Nehri üzerine kurulu, 15. yüzyıldan kalma pitoresk taş köprü. At nalı şeklindeki kemeriyle, Karadağ'ın en fotoğrafik yerlerinden biri olan bu tarihi yapı, gün batımında büyüleyici yansımalar oluşturuyor.",
@@ -4708,8 +4708,8 @@
         "roma",
         "tarih"
       ],
-      "lat": 42.515,
-      "lng": 18.694,
+      "lat": 42515.0,
+      "lng": 18694.0,
       "price": "medium",
       "rating": 4.5,
       "description": "2. yüzyıldan kalma Roma villasının taban mozaikleri. Uyku Tanrısı Hypnos'un dünyadaki tek mozaiği buradadır.",
@@ -4732,8 +4732,8 @@
         "köy",
         "gün batımı"
       ],
-      "lat": 42.428,
-      "lng": 18.555,
+      "lat": 42428.0,
+      "lng": 18555.0,
       "price": "free",
       "rating": 4.8,
       "description": "Lustica yarımadasının ucunda, Venedik tarzı evleriyle zamanın durduğu şirin balıkçı köyü.",
@@ -4892,7 +4892,7 @@
         "milli park",
         "pelikan"
       ],
-      "lat": 42.246,
+      "lat": 42246.0,
       "lng": 19.09,
       "price": "low",
       "rating": 4.8,
@@ -4937,8 +4937,8 @@
         "kafe",
         "yürüyüş"
       ],
-      "lat": 42.449,
-      "lng": 18.535,
+      "lat": 42449.0,
+      "lng": 18535.0,
       "price": "free",
       "rating": 4.6,
       "description": "Herceg Novi'nin kalbi ve ana buluşma noktası olan tarihi liman meydanı. Denizcilerin, balıkçıların ve gezginlerin kaynaştığı bu canlı alan, sahil restoranları, tatlı dükkanları ve tekne turlarının hareket noktası.",
@@ -4982,8 +4982,8 @@
         "doğa",
         "rezerv"
       ],
-      "lat": 42.395,
-      "lng": 18.708,
+      "lat": 42395.0,
+      "lng": 18708.0,
       "price": "free",
       "rating": 4.4,
       "description": "Eski tuz tavalarında oluşturulmuş, flamingo ve diğer kuş türlerini gözlemleyebileceğiniz doğa parkı.",
@@ -5027,8 +5027,8 @@
         "manzara",
         "ispanyol"
       ],
-      "lat": 42.458,
-      "lng": 18.533,
+      "lat": 42458.0,
+      "lng": 18533.0,
       "price": "free",
       "rating": 4.4,
       "description": "Şehrin en tepesinde, İspanyollar tarafından başlatılıp Osmanlılarca tamamlanan kale.",
@@ -5162,7 +5162,7 @@
         "büyük",
         "ortodoks"
       ],
-      "lat": 42.431,
+      "lat": 42431.0,
       "lng": 18.6965,
       "price": "free",
       "rating": 4.7,
@@ -5186,8 +5186,8 @@
         "tarihi",
         "film"
       ],
-      "lat": 42.449,
-      "lng": 18.534,
+      "lat": 42449.0,
+      "lng": 18534.0,
       "price": "medium",
       "rating": 4.5,
       "description": "Eski tren istasyonu binasında hizmet veren, ünlü yönetmen Emir Kusturica'ya ait kafe.",
@@ -5210,8 +5210,8 @@
         "tarih",
         "osmanlı"
       ],
-      "lat": 42.094,
-      "lng": 19.133,
+      "lat": 42094.0,
+      "lng": 19133.0,
       "price": "low",
       "rating": 4.7,
       "description": "Rumija dağının eteklerinde, binlerce yıllık tarihe sahip terk edilmiş antik şehir ve kale.",
@@ -5234,8 +5234,8 @@
         "nehir",
         "gurme"
       ],
-      "lat": 42.483,
-      "lng": 18.766,
+      "lat": 42483.0,
+      "lng": 18766.0,
       "price": "very_high",
       "rating": 4.7,
       "description": "Ljuta nehri kıyısında, tarihi un değirmeni içinde hizmet veren ülkenin en ünlü restoranlarından biri.",
@@ -5301,7 +5301,7 @@
         "hawaii"
       ],
       "lat": 42.27,
-      "lng": 18.845,
+      "lng": 18845.0,
       "price": "medium",
       "rating": 4.4,
       "description": "'Hawaii' olarak da bilinen, Budva'nın karşısındaki en büyük ada. Vahşi doğası ve plajlarıyla ünlü.",
@@ -5349,7 +5349,7 @@
         "sosyal"
       ],
       "lat": 42.4328,
-      "lng": 18.695,
+      "lng": 18695.0,
       "price": "medium",
       "rating": 4.7,
       "description": "Porto Montenegro marinasında, yat sahiplerinin ve marina personelinin buluşma noktası olan rahat bar ve restoran. Canlı atmosfer, spor yayınları ve kaliteli içkilerle, marinanın sosyal merkezi.",
@@ -5393,7 +5393,7 @@
         "tarih",
         "yugoslavya"
       ],
-      "lat": 42.455,
+      "lat": 42455.0,
       "lng": 18.51,
       "price": "medium",
       "rating": 4.5,
@@ -5417,7 +5417,7 @@
         "bar",
         "gün batımı"
       ],
-      "lat": 42.485,
+      "lat": 42485.0,
       "lng": 18.65,
       "price": "medium",
       "rating": 4.5,
@@ -5441,8 +5441,8 @@
         "efsane",
         "gotik"
       ],
-      "lat": 42.443,
-      "lng": 18.749,
+      "lat": 42443.0,
+      "lng": 18749.0,
       "price": "free",
       "rating": 4.4,
       "description": "Aynı kaptana aşık olan üç kız kardeşin hüzünlü hikayesine ev sahipliği yapan tarihi saray.",
@@ -5465,8 +5465,8 @@
         "barok",
         "görkemli"
       ],
-      "lat": 42.438,
-      "lng": 18.767,
+      "lat": 42438.0,
+      "lng": 18767.0,
       "price": "free",
       "rating": 4.7,
       "description": "18. yüzyıldan kalma, Dobrota'nın en görkemli ve büyük tarihi saraylarından biri. Venedik tarzı cephe süslemeleri, geniş bahçesi ve denize bakan konumuyla, kaptan ailelerinin zenginliğini gözler önüne seriyor.",
@@ -5531,7 +5531,7 @@
         "modern",
         "panoramik"
       ],
-      "lat": 42.476,
+      "lat": 42476.0,
       "lng": 18.69,
       "price": "medium",
       "rating": 4.8,
@@ -5702,7 +5702,7 @@
         "konfor",
         "restoran"
       ],
-      "lat": 42.438,
+      "lat": 42438.0,
       "lng": 18.69,
       "price": "medium",
       "rating": 4.3,
@@ -5750,7 +5750,7 @@
         "tadım",
         "yerel"
       ],
-      "lat": 42.235,
+      "lat": 42235.0,
       "lng": 19.08,
       "price": "medium",
       "rating": 4.8,
@@ -5774,8 +5774,8 @@
         "temiz",
         "çakıl"
       ],
-      "lat": 42.398,
-      "lng": 18.577,
+      "lat": 42398.0,
+      "lng": 18577.0,
       "price": "medium",
       "rating": 4.7,
       "description": "Berrak suyu ve zeytin ağaçlarıyla çevrili konumuyla yarımadanın en güzel plajlarından biri.",
@@ -5840,7 +5840,7 @@
         "şarap",
         "lokal"
       ],
-      "lat": 42.426,
+      "lat": 42426.0,
       "lng": 18.7735,
       "rating": 4.8,
       "description": "Kotor kalesine çıkan yol üzerinde, yerel Karadağ peynirlerini ve şaraplarını tadabileceğiniz minik bir dükkan.",

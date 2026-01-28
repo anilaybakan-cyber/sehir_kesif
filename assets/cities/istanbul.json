@@ -31,7 +31,7 @@
       "source": "tripadvisor",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/istanbul/16_roof.jpg",
       "tips": "Yerel şarapları denemenizi öneririz.",
-      "description_en": "16 Roof is one of the most exciting stops in İstanbul's nightlife. This venue in Beşiktaş adds color to the night with its special cocktails, live music and energetic atmosphere.",
+      "description_en": "16 Roof is one of the most exciting stops in İstanbul's nightlife. This andnue in Beşiktaş adds color to the night with its special cocktails, liand music and energetic atmosphere.",
       "tips_en": "We recommend trying local wines."
     },
     {
@@ -45,8 +45,8 @@
         "ünlü"
       ],
       "distanceFromCenter": 2.1,
-      "lat": 41.034,
-      "lng": 28.977,
+      "lat": 41034.0,
+      "lng": 28977.0,
       "price": "high",
       "rating": 4.5,
       "description": "360 Istanbul, Beyoğlu gece hayatının nabzını tutan, enerjisi yüksek bir mekan. Özel kokteylleri, müziği ve canlı atmosferiyle arkadaşlarınızla keyifli vakit geçirebileceğiniz popüler bir adres.",
@@ -57,7 +57,7 @@
       "source": "tripadvisor",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/istanbul/360_istanbul.jpg",
       "tips": "Akşam yemeği için rezervasyon yaptırmak şart.",
-      "description_en": "360 Istanbul is one of the most exciting stops in İstanbul's nightlife. This venue in Beyoğlu adds color to the night with its special cocktails, live music and energetic atmosphere.",
+      "description_en": "360 Istanbul is one of the most exciting stops in İstanbul's nightlife. This andnue in Beyoğlu adds color to the night with its special cocktails, liand music and energetic atmosphere.",
       "tips_en": "Reservation is a must for dinner."
     },
     {
@@ -95,8 +95,8 @@
         "lüks"
       ],
       "distanceFromCenter": 0.5,
-      "lat": 41.008,
-      "lng": 28.981,
+      "lat": 41008.0,
+      "lng": 28981.0,
       "price": "luxury",
       "rating": 4.7,
       "description": "A'YA Lounge, Sultanahmet gece hayatının nabzını tutan, enerjisi yüksek bir mekan. Özel kokteylleri, müziği ve canlı atmosferiyle arkadaşlarınızla keyifli vakit geçirebileceğiniz popüler bir adres.",
@@ -107,7 +107,7 @@
       "source": "tripadvisor",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/istanbul/aya_lounge.jpg",
       "tips": "Akşam yemeği için rezervasyon yaptırmak şart.",
-      "description_en": "A'YA Lounge is one of the most exciting stops in İstanbul's nightlife. This venue in Sultanahmet adds color to the night with its special cocktails, live music and energetic atmosphere.",
+      "description_en": "A'YA Lounge is one of the most exciting stops in İstanbul's nightlife. This andnue in Sultanahmet adds color to the night with its special cocktails, liand music and energetic atmosphere.",
       "tips_en": "Reservation is a must for dinner."
     },
     {
@@ -121,7 +121,7 @@
         "bisiklet"
       ],
       "distanceFromCenter": 18.0,
-      "lat": 40.858,
+      "lat": 40858.0,
       "lng": 29.1191,
       "price": "medium",
       "rating": 4.7,
@@ -133,7 +133,7 @@
       "source": "tripadvisor",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/istanbul/adalar_buyukada.jpg",
       "tips": "Rehbere soru sormaktan çekinmeyin, çok ilginç hikayeler biliyorlar.",
-      "description_en": "Adalar (Büyükada) is a noteworthy destination in İstanbul's Adalar district. With its unique features and experiences, it offers unforgettable moments to visitors. As one of the most visited places in the area, it deserves a spot on every traveler's list.",
+      "description_en": "Adalar (Büyükada) is a noteworthy destination in İstanbul's Adalar district. With its unique features and experiences, it offers unforgettable moments to visitors. As one of the most visited places in the area, it deserands a spot on eandry traandler's list.",
       "tips_en": "Don't hesitate to ask the guide questions, they know interesting stories.",
       "name_en": "Büyükada"
     },
@@ -217,7 +217,7 @@
       "source": "michelin",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/istanbul/araka.jpg",
       "tips": "Şefin spesiyal tabağını sormaktan çekinmeyin.",
-      "description_en": "A hidden gem in Yeniköy focused on Chef Pınar Taşdemir's creative, vegetable-forward seasonal menu.",
+      "description_en": "A hidden gem in Yeniköy focused on Chef Pınar Taşdemir's creatiand, andgetable-forward seasonal menu.",
       "tips_en": "Don't hesitate to ask for the chef's special.",
       "bestTime_en": "Saturday lunch"
     },
@@ -257,7 +257,7 @@
         "sakin"
       ],
       "distanceFromCenter": 0.3,
-      "lat": 41.005,
+      "lat": 41005.0,
       "lng": 28.9755,
       "price": "medium",
       "rating": 4.4,
@@ -269,7 +269,7 @@
       "source": "local",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/istanbul/arasta_carsisi.jpg",
       "tips": "Pazar günleri kapalı olabilir, kontrol edin.",
-      "description_en": "Arasta Çarşısı is a noteworthy destination in İstanbul's Sultanahmet district. With its unique features and experiences, it offers unforgettable moments to visitors. As one of the most visited places in the area, it deserves a spot on every traveler's list.",
+      "description_en": "Arasta Çarşısı is a noteworthy destination in İstanbul's Sultanahmet district. With its unique features and experiences, it offers unforgettable moments to visitors. As one of the most visited places in the area, it deserands a spot on eandry traandler's list.",
       "tips_en": "Might be closed on Sundays, do check."
     },
     {
@@ -372,7 +372,7 @@
       "source": "local",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/istanbul/asmali_cavit.jpg",
       "tips": "Şefin spesiyal tabağını sormaktan çekinmeyin.",
-      "description_en": "Asmalı Cavit hosts gastronomy enthusiasts in Beyoğlu as one of İstanbul's most prestigious restaurants. With the chef's signature dishes, seasonal menus and careful wine selection, it's a perfect choice for special evenings.",
+      "description_en": "Asmalı Cavit hosts gastronomy enthusiasts in Beyoğlu as one of İstanbul's most prestigious restaurants. With the chef's signature dishes, seasonal menus and careful wine selection, it's a perfect choice for special eandnings.",
       "tips_en": "Don't hesitate to ask for the chef's special."
     },
     {
@@ -546,7 +546,7 @@
         "uygun fiyat"
       ],
       "distanceFromCenter": 2.3,
-      "lat": 41.033,
+      "lat": 41033.0,
       "lng": 28.9762,
       "price": "medium",
       "rating": 4.4,
@@ -558,7 +558,7 @@
       "source": "local",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/istanbul/balkon.jpg",
       "tips": "Akşam yemeği için rezervasyon yaptırmak şart.",
-      "description_en": "Balkon is one of the most exciting stops in İstanbul's nightlife. This venue in Beyoğlu adds color to the night with its special cocktails, live music and energetic atmosphere.",
+      "description_en": "Balkon is one of the most exciting stops in İstanbul's nightlife. This andnue in Beyoğlu adds color to the night with its special cocktails, liand music and energetic atmosphere.",
       "tips_en": "Reservation is a must for dinner.",
       "name_en": "Babylon"
     },
@@ -613,7 +613,7 @@
       "source": "local",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/istanbul/bayramoglu_doner.jpg",
       "tips": "Yerel şarapları denemenizi öneririz.",
-      "description_en": "Bayramoğlu Döner hosts gastronomy enthusiasts in Sultanahmet as one of İstanbul's most prestigious restaurants. With the chef's signature dishes, seasonal menus and careful wine selection, it's a perfect choice for special evenings.",
+      "description_en": "Bayramoğlu Döner hosts gastronomy enthusiasts in Sultanahmet as one of İstanbul's most prestigious restaurants. With the chef's signature dishes, seasonal menus and careful wine selection, it's a perfect choice for special eandnings.",
       "tips_en": "We recommend trying local wines."
     },
     {
@@ -690,7 +690,7 @@
       "source": "local",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/istanbul/bebek_sahili.jpg",
       "tips": "Gün batımını izlemek için şehirdeki en iyi noktalardan biri.",
-      "description_en": "The most elite and pleasant coastline of Istanbul. The walking path from Arnavutköy to Bebek offers the best Bosphorus views in every season.",
+      "description_en": "The most elite and pleasant coastline of Istanbul. The walking path from Arnavutköy to Bebek offers the best Bosphorus views in eandry season.",
       "tips_en": "One of the best spots in the city to watch the sunset.",
       "bestTime_en": "Sunday morning"
     },
@@ -717,7 +717,7 @@
       "source": "local",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/istanbul/belgrad_ormani.jpg",
       "tips": "Yürüyüş ayakkabısı giymeniz önerilir.",
-      "description_en": "Belgrad Ormanı is a noteworthy destination in İstanbul's Sarıyer district. With its unique features and experiences, it offers unforgettable moments to visitors. As one of the most visited places in the area, it deserves a spot on every traveler's list.",
+      "description_en": "Belgrad Ormanı is a noteworthy destination in İstanbul's Sarıyer district. With its unique features and experiences, it offers unforgettable moments to visitors. As one of the most visited places in the area, it deserands a spot on eandry traandler's list.",
       "tips_en": "Walking shoes are recommended."
     },
     {
@@ -847,7 +847,7 @@
       "source": "local",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/istanbul/bogaz_turu.jpg",
       "tips": "Rehbere soru sormaktan çekinmeyin, çok ilginç hikayeler biliyorlar.",
-      "description_en": "Aksiyon dolu bir gün geçirmek isteyenler için Boğaz Turu ideal bir tercih. Eminönü'daki bu mekanda hem fiziksel aktiviteler hem de interaktif deneyimlerle enerjinizi yükseltebilirsiniz.",
+      "description_en": "For those looking for an action-packed day, Boğaz Turu an ideal choice. Eminönü'daki at this andnue both physical activities both de interactive experiences you can boost your energy.",
       "tips_en": "Don't hesitate to ask the guide questions, they know interesting stories."
     },
     {
@@ -883,7 +883,7 @@
       ],
       "distanceFromCenter": 5.3,
       "lat": 40.9897,
-      "lng": 29.026,
+      "lng": 29026.0,
       "price": "medium",
       "rating": 4.5,
       "description": "Kaliteli et ve yaratıcı toppinglerle gurme burgerler sunan popüler bir mekan.",
@@ -1153,7 +1153,7 @@
       "category": "Yeme-İçme",
       "area": "Kemankeş Karamustafa Paşa",
       "description": "Karaköy'ün yenilenmiş sokaklarında, yerel craft bira kültürünü yaşatan samimi bir bar. Türk mikro bira yapımcılarının seçkin ürünleri ve lezzetli burger menüsüyle, after-work keyfi için ideal.",
-      "description_en": "An intimate bar keeping local craft beer culture alive in the renewed streets of Karaköy. Ideal for after-work enjoyment with select products from Turkish microbreweries and delicious burger menu.",
+      "description_en": "An intimate bar keeping local craft beer culture aliand in the renewed streets of Karaköy. Ideal for after-work enjoyment with select products from Turkish microbreweries and delicious burger menu.",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/istanbul/cheers_karakoy.jpg",
       "location": "Kemankeş Karamustafa Paşa, Mumhane Cd. No:31A, 34425 Beyoğlu/İstanbul, Türkiye",
       "lat": 41.0241724,
@@ -1183,7 +1183,7 @@
       ],
       "distanceFromCenter": 2.5,
       "lat": 41.0318,
-      "lng": 28.983,
+      "lng": 28983.0,
       "price": "medium",
       "rating": 4.5,
       "description": "Yerel yaşamın en canlı hali Cihangir'de karşınıza çıkıyor. Beyoğlu bölgesindeki bu semt, sabah pazarları, aile işletmesi kafeler, vintage dükkanlar ve gece hayatıyla 24 saat yaşayan bir atmosfer sunuyor.",
@@ -1284,7 +1284,7 @@
         "popüler"
       ],
       "distanceFromCenter": 2.0,
-      "lat": 41.023,
+      "lat": 41023.0,
       "lng": 28.9755,
       "price": "medium",
       "rating": 4.6,
@@ -1296,7 +1296,7 @@
       "source": "local",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/istanbul/coffee_sapiens.jpg",
       "tips": "Yerel halkın favori noktalarından biri.",
-      "description_en": "Coffee Sapiens offers one of the finest examples of İstanbul's coffee culture. This cozy venue in Karaköy is ideal for a break with its carefully crafted drinks, homemade desserts and peaceful atmosphere.",
+      "description_en": "Coffee Sapiens offers one of the finest examples of İstanbul's coffee culture. This cozy andnue in Karaköy is ideal for a break with its carefully crafted drinks, homemade desserts and peaceful atmosphere.",
       "tips_en": "One of the favorite spots of the locals."
     },
     {
@@ -1361,7 +1361,7 @@
         "gemi"
       ],
       "distanceFromCenter": 4.0,
-      "lat": 41.043,
+      "lat": 41043.0,
       "lng": 29.0055,
       "price": "medium",
       "rating": 4.4,
@@ -1373,7 +1373,7 @@
       "source": "local",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/istanbul/deniz_muzesi.jpg",
       "tips": "Sesli rehber (audio guide) kiralamak deneyimi ikiye katlar.",
-      "description_en": "Deniz Müzesi showcases one of the finest examples of İstanbul's cultural richness. Located in Beşiktaş, this museum appeals to visitors of all ages with its world-renowned works, interactive exhibits, and educational programs.",
+      "description_en": "Deniz Müzesi showcases one of the finest examples of İstanbul's cultural richness. Located in Beşiktaş, this museum appeals to visitors of all ages with its world-renowned works, interactiand exhibits, and educational programs.",
       "tips_en": "Renting an audio guide doubles the experience."
     },
     {
@@ -1425,7 +1425,7 @@
       "source": "tripadvisor",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/istanbul/dolmabahce_sarayi.jpg",
       "tips": "Sabah erken saatlerde giderek turist kalabalığından kaçınabilirsiniz.",
-      "description_en": "Dolmabahçe Sarayı showcases one of the finest examples of İstanbul's cultural richness. Located in Beşiktaş, this museum appeals to visitors of all ages with its world-renowned works, interactive exhibits, and educational programs.",
+      "description_en": "Dolmabahçe Sarayı showcases one of the finest examples of İstanbul's cultural richness. Located in Beşiktaş, this museum appeals to visitors of all ages with its world-renowned works, interactiand exhibits, and educational programs.",
       "tips_en": "Go early in the morning to avoid tourist crowds."
     },
     {
@@ -1483,7 +1483,7 @@
       "category": "Yeme-İçme",
       "area": "Asmalı Mescit",
       "description": "İstanbul'un en eski İrlanda publarından biri, Beyoğlu'nun canlı sokaklarında. Whiskey seçkisi, canlı müzik geceleri ve dost canlısı barmenlerle, evden uzakta bir ev hissi yaşayın.",
-      "description_en": "One of Istanbul's oldest Irish pubs in the lively streets of Beyoğlu. Feel at home away from home with whiskey selection, live music nights, and friendly bartenders.",
+      "description_en": "One of Istanbul's oldest Irish pubs in the liandly streets of Beyoğlu. Feel at home away from home with whiskey selection, liand music nights, and friendly bartenders.",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/istanbul/dublin_irish_pub.jpg",
       "location": "Asmalı Mescit, Asmalı Mescit Cd. No:9, 34430 Beyoğlu/İstanbul, Türkiye",
       "lat": 41.0296707,
@@ -1624,7 +1624,7 @@
       "source": "local",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/istanbul/emirgan_korusu.jpg",
       "tips": "Güneş kremi ve şapka almayı unutmayın.",
-      "description_en": "Emirgan Korusu awaits those seeking peace in Sarıyer as one of İstanbul's green lungs. With its wide lawns, shaded walking paths, children's playgrounds and picnic spots, it's a favorite among families and nature lovers.",
+      "description_en": "Emirgan Korusu awaits those seeking peace in Sarıyer as one of İstanbul's green lungs. With its wide lawns, shaded walking paths, children's playgrounds and picnic spots, it's a favorite among families and nature loandrs.",
       "tips_en": "Don't forget sunscreen and a hat."
     },
     {
@@ -1638,7 +1638,7 @@
         "zincir"
       ],
       "distanceFromCenter": 2.0,
-      "lat": 41.034,
+      "lat": 41034.0,
       "lng": 28.9768,
       "price": "medium",
       "rating": 4.5,
@@ -1650,7 +1650,7 @@
       "source": "local",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/istanbul/espresso_lab.jpg",
       "tips": "Yerel halkın favori noktalarından biri.",
-      "description_en": "Espresso Lab offers one of the finest examples of İstanbul's coffee culture. This cozy venue in Beyoğlu is ideal for a break with its carefully crafted drinks, homemade desserts and peaceful atmosphere.",
+      "description_en": "Espresso Lab offers one of the finest examples of İstanbul's coffee culture. This cozy andnue in Beyoğlu is ideal for a break with its carefully crafted drinks, homemade desserts and peaceful atmosphere.",
       "tips_en": "One of the favorite spots of the locals."
     },
     {
@@ -1701,7 +1701,7 @@
       "source": "local",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/istanbul/eyup_sultan_camii.jpg",
       "tips": "Sabah erken saatlerde giderek turist kalabalığından kaçınabilirsiniz.",
-      "description_en": "Carrying the glory of the past to the present, Eyüp Sultan Camii is one of Eyüp's most important historical structures. Its preserved original texture and magnificent architecture await discovery.",
+      "description_en": "Carrying the glory of the past to the present, Eyüp Sultan Camii is one of Eyüp's most important historical structures. Its preserandd original texture and magnificent architecture await discoandry.",
       "tips_en": "Go early in the morning to avoid tourist crowds."
     },
     {
@@ -1740,7 +1740,7 @@
       ],
       "distanceFromCenter": 1.2,
       "lat": 41.01,
-      "lng": 28.967,
+      "lng": 28967.0,
       "price": "low",
       "rating": 4.5,
       "description": "Beyazıt'ın ara sokaklarında gizlenmiş, esnaf lokantası kültürünün en lezzetli temsilcilerinden. Günlük çıkan tencere yemekleri, samimi ortamı ve uygun fiyatlarıyla, gerçek İstanbul lezzetlerini arayanların uğrak noktası.",
@@ -1751,7 +1751,7 @@
       "source": "local",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/istanbul/fahri_usta.jpg",
       "tips": "Şefin spesiyal tabağını sormaktan çekinmeyin.",
-      "description_en": "Fahri Usta hosts gastronomy enthusiasts in Beyazıt as one of İstanbul's most prestigious restaurants. With the chef's signature dishes, seasonal menus and careful wine selection, it's a perfect choice for special evenings.",
+      "description_en": "Fahri Usta hosts gastronomy enthusiasts in Beyazıt as one of İstanbul's most prestigious restaurants. With the chef's signature dishes, seasonal menus and careful wine selection, it's a perfect choice for special eandnings.",
       "tips_en": "Don't hesitate to ask for the chef's special."
     },
     {
@@ -1805,7 +1805,7 @@
       "source": "local",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/istanbul/ferikoy_antika_pazari.jpg",
       "tips": "Yapı içerisindeki akustik harika, sessizliği dinleyin.",
-      "description_en": "Feriköy Antika Pazarı is a noteworthy destination in İstanbul's Şişli district. With its unique features and experiences, it offers unforgettable moments to visitors. As one of the most visited places in the area, it deserves a spot on every traveler's list.",
+      "description_en": "Feriköy Antika Pazarı is a noteworthy destination in İstanbul's Şişli district. With its unique features and experiences, it offers unforgettable moments to visitors. As one of the most visited places in the area, it deserands a spot on eandry traandler's list.",
       "tips_en": "The acoustics inside satisfy; listen to the silence."
     },
     {
@@ -1862,7 +1862,7 @@
       "category": "Yeme-İçme",
       "area": "Hoca Paşa",
       "description": "FÜLANE RESTAURANT, İstanbul'un zengin gastronomi sahnesinde kendine özgü bir yer edinen, kaliteli sunumu ve sıcak misafirperverliğiyle bilinen bir mekan. Geleneksel ve modern lezzetlerin buluştuğu menüsüyle, damağınıza hitap ediyor.",
-      "description_en": "FÜLANE RESTAURANT is a venue known for its quality presentation and warm hospitality, carving its own unique place in Istanbul's rich gastronomy scene. Appealing to your palate with a menu where traditional and modern flavors meet.",
+      "description_en": "FÜLANE RESTAURANT is a andnue known for its quality presentation and warm hospitality, carving its own unique place in Istanbul's rich gastronomy scene. Appealing to your palate with a menu where traditional and modern flavors meet.",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/istanbul/fulane_restaurant.jpg",
       "location": "Hoca Paşa, Dervişler Sokağı No:7 D:2, 34110 Fatih/İstanbul, Türkiye",
       "lat": 41.0137753,
@@ -1903,7 +1903,7 @@
       "source": "local",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/istanbul/ficcin.jpg",
       "tips": "Yerel şarapları denemenizi öneririz.",
-      "description_en": "Fıccın hosts gastronomy enthusiasts in Galata as one of İstanbul's most prestigious restaurants. With the chef's signature dishes, seasonal menus and careful wine selection, it's a perfect choice for special evenings.",
+      "description_en": "Fıccın hosts gastronomy enthusiasts in Galata as one of İstanbul's most prestigious restaurants. With the chef's signature dishes, seasonal menus and careful wine selection, it's a perfect choice for special eandnings.",
       "tips_en": "We recommend trying local wines."
     },
     {
@@ -1969,7 +1969,7 @@
       ],
       "distanceFromCenter": 2.5,
       "lat": 41.0228,
-      "lng": 28.983,
+      "lng": 28983.0,
       "price": "high",
       "rating": 4.4,
       "description": "Galataport, Karaköy bölgesinde alışveriş tutkunları için çeşitli seçenekler sunuyor. Yerel tasarımlardan popüler markalara kadar aradığınız pek çok şeyi bulabileceğiniz canlı bir nokta.",
@@ -1980,7 +1980,7 @@
       "source": "local",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/istanbul/galataport.jpg",
       "tips": "El yapımı hediyelikler fabrikasyon olanlardan daha değerlidir.",
-      "description_en": "Galataport is a noteworthy destination in İstanbul's Karaköy district. With its unique features and experiences, it offers unforgettable moments to visitors. As one of the most visited places in the area, it deserves a spot on every traveler's list.",
+      "description_en": "Galataport is a noteworthy destination in İstanbul's Karaköy district. With its unique features and experiences, it offers unforgettable moments to visitors. As one of the most visited places in the area, it deserands a spot on eandry traandler's list.",
       "tips_en": "Handmade souvenirs are more valuable than mass-produced ones."
     },
     {
@@ -2017,7 +2017,7 @@
       "category": "Yeme-İçme",
       "area": "Inside of Garden House Hotel",
       "description": "Bahçe ve terasın bulunduğu rahat bir ortamda sunulan geleneksel mezeler ve ana yemekler.",
-      "description_en": "Bahçe ve terasın bulunduğu rahat bir ortamda sunulan geleneksel mezeler ve ana yemekler.",
+      "description_en": "Bahçe and terasın bulunduğu rahat bir ortamda sunulan geleneksel mezeler and ana yemekler.",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/istanbul/garden_1897_restaurant.jpg",
       "location": "Inside of Garden House Hotel, Küçük Ayasofya, Şht. Mehmet Paşa Sk. No5, 34122 Fatih/İstanbul, Türkiye",
       "lat": 41.0040252,
@@ -2157,7 +2157,7 @@
       "source": "local",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/istanbul/gulhane_parki.jpg",
       "tips": "Sabah koşusu veya yoga yapan yerlileri görebilirsiniz.",
-      "description_en": "For those seeking escape from the city's crowds, Gülhane Parkı is a perfect sanctuary. This green oasis in Sultanahmet offers different beauty each visit with its botanical diversity and seasonal flower gardens.",
+      "description_en": "For those seeking escape from the city's crowds, Gülhane Parkı is a perfect sanctuary. This green oasis in Sultanahmet offers different beauty each visit with its botanical diandrsity and seasonal flower gardens.",
       "tips_en": "You can see locals jogging or doing yoga in the morning."
     },
     {
@@ -2208,7 +2208,7 @@
       "source": "local",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/istanbul/hafiz_mustafa_1864.jpg",
       "tips": "Hafta içi ziyaret etmek daha sakin bir deneyim sunar.",
-      "description_en": "Hafız Mustafa 1864 is a noteworthy destination in İstanbul's Sirkeci district. With its unique features and experiences, it offers unforgettable moments to visitors. As one of the most visited places in the area, it deserves a spot on every traveler's list.",
+      "description_en": "Hafız Mustafa 1864 is a noteworthy destination in İstanbul's Sirkeci district. With its unique features and experiences, it offers unforgettable moments to visitors. As one of the most visited places in the area, it deserands a spot on eandry traandler's list.",
       "tips_en": "Visiting on weekdays offers a calmer experience."
     },
     {
@@ -2217,7 +2217,7 @@
       "category": "Kafe",
       "area": "Alemdar",
       "description": "Çok çeşitli içecekler ve tütün aromalarının yanı sıra klasik tatlılar sunan ilginç nargile salonu.",
-      "description_en": "Çok çeşitli içecekler ve tütün aromalarının yanı sıra klasik tatlılar sunan ilginç nargile salonu.",
+      "description_en": "Çok çeşitli içecekler and tütün aromalarının yanı sıra klasik tatlılar sunan ilginç nargwith salonu.",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/istanbul/harabbe_cafe_and_hookah_lounge.jpg",
       "location": "Alemdar, Ticarethane Çk. No:4B, 34122 Fatih/İstanbul, Türkiye",
       "lat": 41.0084009,
@@ -2282,7 +2282,7 @@
       "source": "local",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/istanbul/haydarpasa_gari.jpg",
       "tips": "Sabah erken saatlerde giderek turist kalabalığından kaçınabilirsiniz.",
-      "description_en": "Carrying the glory of the past to the present, Haydarpaşa Garı is one of Kadıköy's most important historical structures. Its preserved original texture and magnificent architecture await discovery.",
+      "description_en": "Carrying the glory of the past to the present, Haydarpaşa Garı is one of Kadıköy's most important historical structures. Its preserandd original texture and magnificent architecture await discoandry.",
       "tips_en": "Go early in the morning to avoid tourist crowds."
     },
     {
@@ -2443,7 +2443,7 @@
       ],
       "distanceFromCenter": 5.2,
       "lat": 40.9905,
-      "lng": 29.026,
+      "lng": 29026.0,
       "price": "medium",
       "rating": 4.4,
       "description": "Kadıköy Bar Street, İstanbul'nin Kadıköy bölgesinde bulunan dikkat çekici bir nokta. Eşsiz özellikleri ve sunduğu deneyimle ziyaretçilerine unutulmaz anlar yaşatıyor. Bölgenin en çok ziyaret edilen yerlerinden biri olarak her gezginin listesinde yer almalı.",
@@ -2454,7 +2454,7 @@
       "source": "local",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/istanbul/kadikoy_bar_street.jpg",
       "tips": "Google Maps yorumlarına göz atarak ne yiyeceğinize karar verin.",
-      "description_en": "Kadıköy Bar Street is a noteworthy destination in İstanbul's Kadıköy district. With its unique features and experiences, it offers unforgettable moments to visitors. As one of the most visited places in the area, it deserves a spot on every traveler's list.",
+      "description_en": "Kadıköy Bar Street is a noteworthy destination in İstanbul's Kadıköy district. With its unique features and experiences, it offers unforgettable moments to visitors. As one of the most visited places in the area, it deserands a spot on eandry traandler's list.",
       "tips_en": "Decide what to eat by checking Google Maps reviews."
     },
     {
@@ -2480,7 +2480,7 @@
       "source": "local",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/istanbul/kahve_dunyasi.jpg",
       "tips": "Rehbere soru sormaktan çekinmeyin, çok ilginç hikayeler biliyorlar.",
-      "description_en": "Kahve Dünyası offers one of the finest examples of İstanbul's coffee culture. This cozy venue in Çeşitli is ideal for a break with its carefully crafted drinks, homemade desserts and peaceful atmosphere.",
+      "description_en": "Kahand Dünyası offers one of the finest examples of İstanbul's coffee culture. This cozy andnue in Çeşitli is ideal for a break with its carefully crafted drinks, homemade desserts and peaceful atmosphere.",
       "tips_en": "Don't hesitate to ask the guide questions, they know interesting stories."
     },
     {
@@ -2506,7 +2506,7 @@
       "source": "local",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/istanbul/kanaat_lokantasi.jpg",
       "tips": "Öğle yemeği menüleri genellikle akşamdan daha uygundur.",
-      "description_en": "Kanaat Lokantası hosts gastronomy enthusiasts in Üsküdar as one of İstanbul's most prestigious restaurants. With the chef's signature dishes, seasonal menus and careful wine selection, it's a perfect choice for special evenings.",
+      "description_en": "Kanaat Lokantası hosts gastronomy enthusiasts in Üsküdar as one of İstanbul's most prestigious restaurants. With the chef's signature dishes, seasonal menus and careful wine selection, it's a perfect choice for special eandnings.",
       "tips_en": "Lunch menus are usually cheaper than dinner."
     },
     {
@@ -2521,7 +2521,7 @@
       ],
       "distanceFromCenter": 1.0,
       "lat": 41.0108,
-      "lng": 28.968,
+      "lng": 28968.0,
       "price": "low",
       "rating": 4.6,
       "description": "Dünyanın en eski ve en büyük kapalı çarşılarından biri. Labirent gibi sokaklarında kuyumculardan halıcılara, baharatçılardan antikacılara kadar binlerce dükkanın yer aldığı, ticaretin ve tarihin yaşayan merkezi.",
@@ -2532,7 +2532,7 @@
       "source": "tripadvisor",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/istanbul/kapalicarsi.jpg",
       "tips": "Grup indirimi olup olmadığını sorun.",
-      "description_en": "Kapalıçarşı is a noteworthy destination in İstanbul's Beyazıt district. With its unique features and experiences, it offers unforgettable moments to visitors. As one of the most visited places in the area, it deserves a spot on every traveler's list.",
+      "description_en": "Kapalıçarşı is a noteworthy destination in İstanbul's Beyazıt district. With its unique features and experiences, it offers unforgettable moments to visitors. As one of the most visited places in the area, it deserands a spot on eandry traandler's list.",
       "tips_en": "Ask if there is a group discount."
     },
     {
@@ -2558,7 +2558,7 @@
       "source": "local",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/istanbul/karadeniz_sahili_yuruyusu.jpg",
       "tips": "Yürüyüş ayakkabısı giymeniz önerilir.",
-      "description_en": "Karadeniz Sahili Yürüyüşü is a great choice for those seeking fun and adventure in İstanbul. This venue in Sarıyer promises enjoyable hours with its adrenaline-filled activities, educational experiences and family-friendly events.",
+      "description_en": "Karadeniz Sahili Yürüyüşü is a great choice for those seeking fun and adandnture in İstanbul. This andnue in Sarıyer promises enjoyable hours with its adrenaline-filled activities, educational experiences and family-friendly eandnts.",
       "tips_en": "Walking shoes are recommended."
     },
     {
@@ -2573,7 +2573,7 @@
       ],
       "distanceFromCenter": 2.0,
       "lat": 41.0225,
-      "lng": 28.975,
+      "lng": 28975.0,
       "price": "high",
       "rating": 4.5,
       "description": "Karaköy'de, klasik Türk lezzetlerini modern yorumlarla sunan şık bir restoran.",
@@ -2610,7 +2610,7 @@
       "source": "local",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/istanbul/karakoy_gulluoglu.jpg",
       "tips": "Fotoğraf makinenizin şarjının dolu olduğundan emin olun.",
-      "description_en": "Karaköy Güllüoğlu is a noteworthy destination in İstanbul's Karaköy district. With its unique features and experiences, it offers unforgettable moments to visitors. As one of the most visited places in the area, it deserves a spot on every traveler's list.",
+      "description_en": "Karaköy Güllüoğlu is a noteworthy destination in İstanbul's Karaköy district. With its unique features and experiences, it offers unforgettable moments to visitors. As one of the most visited places in the area, it deserands a spot on eandry traandler's list.",
       "tips_en": "Make sure your camera battery is full."
     },
     {
@@ -2637,7 +2637,7 @@
       "source": "tripadvisor",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/istanbul/kariye_muzesi.png",
       "tips": "Hafta içi sabah saatleri en sakin zamanıdır.",
-      "description_en": "Kariye Müzesi showcases one of the finest examples of İstanbul's cultural richness. Located in Edirnekapı, this museum appeals to visitors of all ages with its world-renowned works, interactive exhibits, and educational programs.",
+      "description_en": "Kariye Müzesi showcases one of the finest examples of İstanbul's cultural richness. Located in Edirnekapı, this museum appeals to visitors of all ages with its world-renowned works, interactiand exhibits, and educational programs.",
       "tips_en": "Weekday mornings are the quietest times."
     },
     {
@@ -2652,7 +2652,7 @@
       ],
       "distanceFromCenter": 6.0,
       "lat": 41.0392,
-      "lng": 29.035,
+      "lng": 29035.0,
       "price": "low",
       "rating": 4.5,
       "description": "Kuzguncuk, İstanbul'nin karakterini en iyi yansıtan semtlerden biri. Tarihi binaları, dar sokakları, yerel dükkanları ve sokak sanatıyla dolu duvarlarıyla gezginin kaybolmak isteyeceği türden bir mahalle. Her köşede yeni bir keşif sizi bekliyor.",
@@ -2725,7 +2725,7 @@
       "name": "Kız Kulesi",
       "name_en": "Maiden's Tower",
       "area": "Üsküdar",
-      "category": "Tarihi",
+      "category": "İkonik",
       "subcategory": "Tarihi",
       "tags": [
         "boğaz",
@@ -2737,7 +2737,7 @@
       "lng": 29.0041,
       "price": "medium",
       "rating": 4.6,
-      "description": "İstanbul Boğazı'nın ortasında süzülen, hakkında sayısız efsane anlatılan zarif yapı. 2500 yıllık tarihiyle şehrin romantik simgesi ve Asya ile Avrupa arasındaki eşsiz bir nöbetçi.",
+      "description": "Boğaz'ın ortasında, efsanelere konu olmuş 2500 yıllık kule. İstanbul'un en romantik simgesidir.",
       "bestTime": "Gün batımı",
       "bestFor": [
         "çiftler"
@@ -2745,7 +2745,7 @@
       "source": "local",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/istanbul/kiz_kulesi.jpg",
       "tips": "Sabah erken saatlerde giderek turist kalabalığından kaçınabilirsiniz.",
-      "description_en": "Kız Kulesi is one of the best viewpoints offering a breathtaking panorama of İstanbul. This spot in Üsküdar is paradise for photographers, especially at sunset when gold and purple tones fill the sky.",
+      "description_en": "A 2500-year-old legendary tower in the middle of the Bosphorus. Istanbul's most romantic landmark.",
       "tips_en": "Go early in the morning to avoid tourist crowds."
     },
     {
@@ -2803,7 +2803,7 @@
       "category": "Yeme-İçme",
       "area": "Alemdar",
       "description": "Tuğla duvarlı, şömineli ve açık oturma alanlı rahat bir mekanda sunulan Türk ve dünya yemekleri.",
-      "description_en": "Tuğla duvarlı, şömineli ve açık oturma alanlı rahat bir mekanda sunulan Türk ve dünya yemekleri.",
+      "description_en": "Tuğla duvarlı, şömineli and açık oturma alanlı rahat bir venueda sunulan Türk and dünya yemekleri.",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/istanbul/las_tapas_fish_and_kebap_restaurant.png",
       "location": "Alemdar, Çatalçeşme Sk. No:5, 34110 Fatih/İstanbul, Türkiye",
       "lat": 41.008693,
@@ -2917,7 +2917,7 @@
       "source": "local",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/istanbul/loti_roof_lounge.jpg",
       "tips": "Akşam yemeği için rezervasyon yaptırmak şart.",
-      "description_en": "Loti Roof Lounge is one of the most exciting stops in İstanbul's nightlife. This venue in Sultanahmet adds color to the night with its special cocktails, live music and energetic atmosphere.",
+      "description_en": "Loti Roof Lounge is one of the most exciting stops in İstanbul's nightlife. This andnue in Sultanahmet adds color to the night with its special cocktails, liand music and energetic atmosphere.",
       "tips_en": "Reservation is a must for dinner."
     },
     {
@@ -2926,7 +2926,7 @@
       "category": "Yeme-İçme",
       "area": "Balabanağa",
       "description": "Deniz manzaraları, nargile, dünya yemekleri ve yaratıcı kokteyllerin sunulduğu şık çatı mekanı.",
-      "description_en": "Deniz manzaraları, nargile, dünya yemekleri ve yaratıcı kokteyllerin sunulduğu şık çatı mekanı.",
+      "description_en": "Deniz manzaraları, nargwith, dünya yemekleri and yaratıcı kokteyllerin sunulduğu şık çatı venueı.",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/istanbul/lotiz_lounge_and_hookah.jpg",
       "location": "Balabanağa, Vidinli Tevfikpaşa Cd, 34134 Fatih/İstanbul, Türkiye",
       "lat": 41.0117431,
@@ -3003,7 +3003,7 @@
         "minimal"
       ],
       "distanceFromCenter": 5.0,
-      "lat": 40.987,
+      "lat": 40987.0,
       "lng": 29.0243,
       "price": "medium",
       "rating": 4.6,
@@ -3015,7 +3015,7 @@
       "source": "local",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/istanbul/moc.jpg",
       "tips": "Yerel şarapları denemenizi öneririz.",
-      "description_en": "MOC offers one of the finest examples of İstanbul's coffee culture. This cozy venue in Kadıköy is ideal for a break with its carefully crafted drinks, homemade desserts and peaceful atmosphere.",
+      "description_en": "MOC offers one of the finest examples of İstanbul's coffee culture. This cozy andnue in Kadıköy is ideal for a break with its carefully crafted drinks, homemade desserts and peaceful atmosphere.",
       "tips_en": "We recommend trying local wines."
     },
     {
@@ -3094,7 +3094,7 @@
       "source": "local",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/istanbul/mandabatmaz.jpg",
       "tips": "Hafta içi ziyaret etmek daha sakin bir deneyim sunar.",
-      "description_en": "Mandabatmaz offers one of the finest examples of İstanbul's coffee culture. This cozy venue in Beyoğlu is ideal for a break with its carefully crafted drinks, homemade desserts and peaceful atmosphere.",
+      "description_en": "Mandabatmaz offers one of the finest examples of İstanbul's coffee culture. This cozy andnue in Beyoğlu is ideal for a break with its carefully crafted drinks, homemade desserts and peaceful atmosphere.",
       "tips_en": "Visiting on weekdays offers a calmer experience."
     },
     {
@@ -3120,7 +3120,7 @@
       "source": "local",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/istanbul/mangal_56.jpg",
       "tips": "Fotoğraf makinenizin şarjının dolu olduğundan emin olun.",
-      "description_en": "Mangal 56 hosts gastronomy enthusiasts in Beşiktaş as one of İstanbul's most prestigious restaurants. With the chef's signature dishes, seasonal menus and careful wine selection, it's a perfect choice for special evenings.",
+      "description_en": "Mangal 56 hosts gastronomy enthusiasts in Beşiktaş as one of İstanbul's most prestigious restaurants. With the chef's signature dishes, seasonal menus and careful wine selection, it's a perfect choice for special eandnings.",
       "tips_en": "Make sure your camera battery is full."
     },
     {
@@ -3210,8 +3210,8 @@
         "türk-iskandinav"
       ],
       "distanceFromCenter": 2.5,
-      "lat": 41.034,
-      "lng": 28.977,
+      "lat": 41034.0,
+      "lng": 28977.0,
       "price": "luxury",
       "rating": 4.8,
       "description": "The Marmara Pera otelinin en üst katında yer alan Mikla, Şef Mehmet Gürs'ün 'Yeni Anadolu Mutfağı' konseptiyle geleneksel lezzetleri modern tekniklerle harmanlıyor. Nefes kesen Haliç ve Tarihi Yarımada manzarası eşliğinde, Michelin yıldızlı bir gastronomi yolculuğu.",
@@ -3222,7 +3222,7 @@
       "source": "michelin",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/istanbul/mikla.jpg",
       "tips": "Nakite hazırlıklı olun, bazı yerel yerler kart kabul etmeyebilir.",
-      "description_en": "Mikla hosts gastronomy enthusiasts in Beyoğlu as one of İstanbul's most prestigious restaurants. With the chef's signature dishes, seasonal menus and careful wine selection, it's a perfect choice for special evenings.",
+      "description_en": "Mikla hosts gastronomy enthusiasts in Beyoğlu as one of İstanbul's most prestigious restaurants. With the chef's signature dishes, seasonal menus and careful wine selection, it's a perfect choice for special eandnings.",
       "tips_en": "Be prepared with cash, some local places might not accept cards."
     },
     {
@@ -3236,8 +3236,8 @@
         "kokteyl"
       ],
       "distanceFromCenter": 2.5,
-      "lat": 41.034,
-      "lng": 28.977,
+      "lat": 41034.0,
+      "lng": 28977.0,
       "price": "high",
       "rating": 4.7,
       "description": "Mikla Bar, Beyoğlu gece hayatının nabzını tutan, enerjisi yüksek bir mekan. Özel kokteylleri, müziği ve canlı atmosferiyle arkadaşlarınızla keyifli vakit geçirebileceğiniz popüler bir adres.",
@@ -3248,7 +3248,7 @@
       "source": "tripadvisor",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/istanbul/mikla_bar.jpg",
       "tips": "Akşam yemeği için rezervasyon yaptırmak şart.",
-      "description_en": "Mikla Bar is one of the most exciting stops in İstanbul's nightlife. This venue in Beyoğlu adds color to the night with its special cocktails, live music and energetic atmosphere.",
+      "description_en": "Mikla Bar is one of the most exciting stops in İstanbul's nightlife. This andnue in Beyoğlu adds color to the night with its special cocktails, liand music and energetic atmosphere.",
       "tips_en": "Reservation is a must for dinner."
     },
     {
@@ -3302,7 +3302,7 @@
       "source": "tripadvisor",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/istanbul/miniaturk.jpg",
       "tips": "Sesli rehber (audio guide) kiralamak deneyimi ikiye katlar.",
-      "description_en": "Miniatürk is a great choice for those seeking fun and adventure in İstanbul. This venue in Sütlüce promises enjoyable hours with its adrenaline-filled activities, educational experiences and family-friendly events.",
+      "description_en": "Miniatürk is a great choice for those seeking fun and adandnture in İstanbul. This andnue in Sütlüce promises enjoyable hours with its adrenaline-filled activities, educational experiences and family-friendly eandnts.",
       "tips_en": "Renting an audio guide doubles the experience."
     },
     {
@@ -3311,7 +3311,7 @@
       "category": "Kafe",
       "area": "Emin Sinan",
       "description": "Kahvaltı, kebap ve ızgaraların yanı sıra biftek ve güveçlerin sunulduğu popüler mekan.",
-      "description_en": "Kahvaltı, kebap ve ızgaraların yanı sıra biftek ve güveçlerin sunulduğu popüler mekan.",
+      "description_en": "Kahvaltı, kebap and ızgaraların yanı sıra biftek and güandçlerin sunulduğu popüler venue.",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/istanbul/mivan_restaurant_cafe.jpg",
       "location": "Emin Sinan, Piyer Loti Cd. No:34, 34130 Fatih/İstanbul, Türkiye",
       "lat": 41.0062206,
@@ -3403,7 +3403,7 @@
       "source": "local",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/istanbul/monkey_istanbul.jpg",
       "tips": "Hafta içi ziyaret etmek daha sakin bir deneyim sunar.",
-      "description_en": "Monkey İstanbul is one of the most exciting stops in İstanbul's nightlife. This venue in Şişhane adds color to the night with its special cocktails, live music and energetic atmosphere.",
+      "description_en": "Monkey İstanbul is one of the most exciting stops in İstanbul's nightlife. This andnue in Şişhane adds color to the night with its special cocktails, liand music and energetic atmosphere.",
       "tips_en": "Visiting on weekdays offers a calmer experience."
     },
     {
@@ -3458,7 +3458,7 @@
       "source": "tripadvisor",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/istanbul/misir_carsisi.jpg",
       "tips": "Kıyafetinizin aktiviteye uygun olduğundan emin olun.",
-      "description_en": "Mısır Çarşısı is a noteworthy destination in İstanbul's Eminönü district. With its unique features and experiences, it offers unforgettable moments to visitors. As one of the most visited places in the area, it deserves a spot on every traveler's list.",
+      "description_en": "Mısır Çarşısı is a noteworthy destination in İstanbul's Eminönü district. With its unique features and experiences, it offers unforgettable moments to visitors. As one of the most visited places in the area, it deserands a spot on eandry traandler's list.",
       "tips_en": "Ensure your outfit is suitable for the activity."
     },
     {
@@ -3500,7 +3500,7 @@
         "canlı"
       ],
       "distanceFromCenter": 2.2,
-      "lat": 41.033,
+      "lat": 41033.0,
       "lng": 28.9762,
       "price": "medium",
       "rating": 4.5,
@@ -3512,7 +3512,7 @@
       "source": "local",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/istanbul/nevizade_sokak.jpg",
       "tips": "Şefin spesiyal tabağını sormaktan çekinmeyin.",
-      "description_en": "Nevizade Sokak is a noteworthy destination in İstanbul's Beyoğlu district. With its unique features and experiences, it offers unforgettable moments to visitors. As one of the most visited places in the area, it deserves a spot on every traveler's list.",
+      "description_en": "Nevizade Sokak is a noteworthy destination in İstanbul's Beyoğlu district. With its unique features and experiences, it offers unforgettable moments to visitors. As one of the most visited places in the area, it deserands a spot on eandry traandler's list.",
       "tips_en": "Don't hesitate to ask for the chef's special.",
       "name_en": "Nevizade Street"
     },
@@ -3567,7 +3567,7 @@
       "source": "local",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/istanbul/norm_coffee.jpg",
       "tips": "Google Maps yorumlarına göz atarak ne yiyeceğinize karar verin.",
-      "description_en": "Norm Coffee offers one of the finest examples of İstanbul's coffee culture. This cozy venue in Cihangir is ideal for a break with its carefully crafted drinks, homemade desserts and peaceful atmosphere.",
+      "description_en": "Norm Coffee offers one of the finest examples of İstanbul's coffee culture. This cozy andnue in Cihangir is ideal for a break with its carefully crafted drinks, homemade desserts and peaceful atmosphere.",
       "tips_en": "Decide what to eat by checking Google Maps reviews."
     },
     {
@@ -3642,7 +3642,7 @@
       "source": "local",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/istanbul/old_java_coffee.png",
       "tips": "Google Maps yorumlarına göz atarak ne yiyeceğinize karar verin.",
-      "description_en": "Old Java Coffee offers one of the finest examples of İstanbul's coffee culture. This cozy venue in Galata is ideal for a break with its carefully crafted drinks, homemade desserts and peaceful atmosphere.",
+      "description_en": "Old Java Coffee offers one of the finest examples of İstanbul's coffee culture. This cozy andnue in Galata is ideal for a break with its carefully crafted drinks, homemade desserts and peaceful atmosphere.",
       "tips_en": "Decide what to eat by checking Google Maps reviews."
     },
     {
@@ -3744,7 +3744,7 @@
       "source": "local",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/istanbul/ortakoy_camii.jpg",
       "tips": "Rehberli turla gezmek detayları anlamak için çok daha verimli.",
-      "description_en": "Ortaköy Camii is a magnificent structure witnessing İstanbul's rich history. This monumental venue in Ortaköy enchants both history buffs and architecture lovers with its centuries-old architecture and cultural significance.",
+      "description_en": "Ortaköy Camii is a magnificent structure witnessing İstanbul's rich history. This monumental andnue in Ortaköy enchants both history buffs and architecture loandrs with its centuries-old architecture and cultural significance.",
       "tips_en": "A guided tour is much more efficient to understand the details."
     },
     {
@@ -3824,7 +3824,7 @@
       "source": "local",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/istanbul/pandeli.png",
       "tips": "Yerel şarapları denemenizi öneririz.",
-      "description_en": "Pandeli hosts gastronomy enthusiasts in Eminönü as one of İstanbul's most prestigious restaurants. With the chef's signature dishes, seasonal menus and careful wine selection, it's a perfect choice for special evenings.",
+      "description_en": "Pandeli hosts gastronomy enthusiasts in Eminönü as one of İstanbul's most prestigious restaurants. With the chef's signature dishes, seasonal menus and careful wine selection, it's a perfect choice for special eandnings.",
       "tips_en": "We recommend trying local wines."
     },
     {
@@ -3954,7 +3954,7 @@
       "source": "tripadvisor",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/istanbul/rahmi_koc_muzesi.jpg",
       "tips": "Hafta içi sabah saatleri en sakin zamanıdır.",
-      "description_en": "Rahmi Koç Müzesi showcases one of the finest examples of İstanbul's cultural richness. Located in Haliç, this museum appeals to visitors of all ages with its world-renowned works, interactive exhibits, and educational programs.",
+      "description_en": "Rahmi Koç Müzesi showcases one of the finest examples of İstanbul's cultural richness. Located in Haliç, this museum appeals to visitors of all ages with its world-renowned works, interactiand exhibits, and educational programs.",
       "tips_en": "Weekday mornings are the quietest times."
     },
     {
@@ -4217,7 +4217,7 @@
       "category": "Yeme-İçme",
       "area": "Muhsine Hatun",
       "description": "Sezgin Pub & Restaurant (mekandayız), canlı atmosferi ve zengin içki seçkisiyle öne çıkan samimi bir pub. Maç geceleri, canlı müzik ve dost canlısı ortamıyla, İstanbul'un kozmopolit gece hayatının bir parçası.",
-      "description_en": "Sezgin Pub & Restaurant (mekandayız) is an intimate pub standing out with its lively atmosphere and rich drink selection. Part of Istanbul's cosmopolitan nightlife with match nights, live music, and friendly environment.",
+      "description_en": "Sezgin Pub & Restaurant (venuedayız) is an intimate pub standing out with its liandly atmosphere and rich drink selection. Part of Istanbul's cosmopolitan nightlife with match nights, liand music, and friendly environment.",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/istanbul/sezgin_pub_and_restaurant_mekandayiz.jpg",
       "location": "Muhsine Hatun, Ördekli Bakkal Sk. No:22, 34130 Fatih/İstanbul, Türkiye",
       "lat": 41.0037972,
@@ -4246,8 +4246,8 @@
         "şık"
       ],
       "distanceFromCenter": 2.3,
-      "lat": 41.032,
-      "lng": 28.975,
+      "lat": 41032.0,
+      "lng": 28975.0,
       "price": "high",
       "rating": 4.5,
       "description": "Simone, Beyoğlu gece hayatının nabzını tutan, enerjisi yüksek bir mekan. Özel kokteylleri, müziği ve canlı atmosferiyle arkadaşlarınızla keyifli vakit geçirebileceğiniz popüler bir adres.",
@@ -4258,7 +4258,7 @@
       "source": "local",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/istanbul/simone.jpg",
       "tips": "Nakite hazırlıklı olun, bazı yerel yerler kart kabul etmeyebilir.",
-      "description_en": "Simone is one of the most exciting stops in İstanbul's nightlife. This venue in Beyoğlu adds color to the night with its special cocktails, live music and energetic atmosphere.",
+      "description_en": "Simone is one of the most exciting stops in İstanbul's nightlife. This andnue in Beyoğlu adds color to the night with its special cocktails, liand music and energetic atmosphere.",
       "tips_en": "Be prepared with cash, some local places might not accept cards."
     },
     {
@@ -4273,7 +4273,7 @@
       ],
       "distanceFromCenter": 2.0,
       "lat": 41.0225,
-      "lng": 28.976,
+      "lng": 28976.0,
       "price": "high",
       "rating": 4.5,
       "description": "Sky Karaköy, Karaköy gece hayatının nabzını tutan, enerjisi yüksek bir mekan. Özel kokteylleri, müziği ve canlı atmosferiyle arkadaşlarınızla keyifli vakit geçirebileceğiniz popüler bir adres.",
@@ -4284,7 +4284,7 @@
       "source": "tripadvisor",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/istanbul/sky_karakoy.png",
       "tips": "Çevredeki küçük hediyelik eşya dükkanlarına da uğrayın.",
-      "description_en": "Sky Karaköy is one of the most exciting stops in İstanbul's nightlife. This venue in Karaköy adds color to the night with its special cocktails, live music and energetic atmosphere.",
+      "description_en": "Sky Karaköy is one of the most exciting stops in İstanbul's nightlife. This andnue in Karaköy adds color to the night with its special cocktails, liand music and energetic atmosphere.",
       "tips_en": "Stop by the small souvenir shops around."
     },
     {
@@ -4293,7 +4293,7 @@
       "category": "Yeme-İçme",
       "area": "Tomtom",
       "description": "Beyoğlu'nun dar sokaklarında gizli bir şarap cenneti. 1100'den fazla Türk şarabını barındıran bu butik mekan, sahibi Süleyman Bey'in tutkulu anlatımlarıyla şarap keşif yolculuğuna çıkarıyor. Meze ve peynir tabakları eşliğinde samimi bir akşam.",
-      "description_en": "A hidden wine paradise in the narrow streets of Beyoğlu. This boutique venue housing over 1100 Turkish wines takes you on a wine discovery journey with owner Süleyman's passionate narrations. An intimate evening with meze and cheese plates.",
+      "description_en": "A hidden wine paradise in the narrow streets of Beyoğlu. This boutique andnue housing oandr 1100 Turkish wines takes you on a wine discoandry journey with owner Süleyman's passionate narrations. An intimate eandning with meze and cheese plates.",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/istanbul/solera_winery.jpg",
       "location": "Tomtom, Yeni Çarşı Cd. No:44, 34433 Beyoğlu/İstanbul, Türkiye",
       "lat": 41.03202599999999,
@@ -4323,7 +4323,7 @@
       ],
       "distanceFromCenter": 3.5,
       "lat": 41.0454,
-      "lng": 28.993,
+      "lng": 28993.0,
       "price": "luxury",
       "rating": 4.6,
       "description": "Spago İstanbul, Harbiye gece hayatının nabzını tutan, enerjisi yüksek bir mekan. Özel kokteylleri, müziği ve canlı atmosferiyle arkadaşlarınızla keyifli vakit geçirebileceğiniz popüler bir adres.",
@@ -4334,7 +4334,7 @@
       "source": "tripadvisor",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/istanbul/spago_istanbul.jpg",
       "tips": "Nakite hazırlıklı olun, bazı yerel yerler kart kabul etmeyebilir.",
-      "description_en": "Spago İstanbul is one of the most exciting stops in İstanbul's nightlife. This venue in Harbiye adds color to the night with its special cocktails, live music and energetic atmosphere.",
+      "description_en": "Spago İstanbul is one of the most exciting stops in İstanbul's nightlife. This andnue in Harbiye adds color to the night with its special cocktails, liand music and energetic atmosphere.",
       "tips_en": "Be prepared with cash, some local places might not accept cards.",
       "name_en": "Tersane İstanbul"
     },
@@ -4398,7 +4398,7 @@
         "ünlü"
       ],
       "distanceFromCenter": 1.5,
-      "lat": 41.016,
+      "lat": 41016.0,
       "lng": 28.9648,
       "price": "medium",
       "rating": 4.5,
@@ -4437,7 +4437,7 @@
       "source": "tripadvisor",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/istanbul/sultanahmet_camii.jpg",
       "tips": "Fotoğraf çekimi için en iyi ışık gün batımına yakındır.",
-      "description_en": "Sultanahmet Camii is a magnificent structure witnessing İstanbul's rich history. This monumental venue in Sultanahmet enchants both history buffs and architecture lovers with its centuries-old architecture and cultural significance.",
+      "description_en": "Sultanahmet Camii is a magnificent structure witnessing İstanbul's rich history. This monumental andnue in Sultanahmet enchants both history buffs and architecture loandrs with its centuries-old architecture and cultural significance.",
       "tips_en": "Best light for photography is near sunset."
     },
     {
@@ -4475,8 +4475,8 @@
         "romantik"
       ],
       "distanceFromCenter": 6.0,
-      "lat": 41.057,
-      "lng": 29.032,
+      "lat": 41057.0,
+      "lng": 29032.0,
       "price": "luxury",
       "rating": 4.6,
       "description": "Muhteşem Boğaz manzarası ve gün batımı eşliğinde füzyon mutfak sunan lüks restoran.",
@@ -4530,11 +4530,11 @@
         "manzara"
       ],
       "distanceFromCenter": 1.5,
-      "lat": 41.0163,
-      "lng": 28.9644,
+      "lat": 41.0162,
+      "lng": 28.9639,
       "price": "low",
       "rating": 4.8,
-      "description": "Mimar Sinan'ın 'kalfalık eserim' dediği, Osmanlı mimarisinin zirve noktalarından biri. Şehrin siluetine damgasını vuran bu muhteşem külliye, sadece bir ibadethane değil, aynı zamanda matematik ve estetiğin kusursuz birleşimi.",
+      "description": "Mimar Sinan'ın kalfalık eseri. Osmanlı mimarisinin zirvesi ve şehrin silüetinin en güçlü parçası.",
       "bestTime": "Sabah",
       "bestFor": [
         "herkes"
@@ -4542,7 +4542,7 @@
       "source": "firebase",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/istanbul/suleymaniye_camii.jpg",
       "tips": "Fotoğraf çekimi için en iyi ışık gün batımına yakındır.",
-      "description_en": "Carrying the glory of the past to the present, Süleymaniye Camii is one of Fatih's most important historical structures. Its preserved original texture and magnificent architecture await discovery.",
+      "description_en": "Masterpiece of Mimar Sinan. The pinnacle of Ottoman architecture and a powerful part of the city's skyline.",
       "tips_en": "Best light for photography is near sunset."
     },
     {
@@ -4551,7 +4551,7 @@
       "category": "Yeme-İçme",
       "area": "Bozkurt",
       "description": "Nişantaşı'nın şık atmosferinde, tapas konseptini İstanbul yorumuyla sunan trendy bir bar. İspanyol ve Türk mutfaklarının füzyonu, seçkin şaraplar ve yaratıcı kokteylerle, sofistike bir akşam için ideal.",
-      "description_en": "A trendy bar serving the tapas concept with an Istanbul interpretation in Nişantaşı's chic atmosphere. Ideal for a sophisticated evening with fusion of Spanish and Turkish cuisines, select wines, and creative cocktails.",
+      "description_en": "A trendy bar serving the tapas concept with an Istanbul interpretation in Nişantaşı's chic atmosphere. Ideal for a sophisticated eandning with fusion of Spanish and Turkish cuisines, select wines, and creatiand cocktails.",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/istanbul/tappa_bar.jpg",
       "location": "Bozkurt, Baysungur Sk No: 21/B, 34375 Şişli/İstanbul, Türkiye",
       "lat": 41.0512773,
@@ -4651,7 +4651,7 @@
       "description_en": "Wonderland-themed coffee shop in Sultanahmet.",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/istanbul/the_rabbit_hole_coffee_sultanahmet.jpg",
       "location": "Küçük Ayasofya, Şht. Mehmetpaşa Ykş. No:48A, 34122 Fatih/İstanbul, Türkiye",
-      "lat": 41.005,
+      "lat": 41005.0,
       "lng": 28.97164,
       "rating": 4.8,
       "reviewCount": 730,
@@ -4739,7 +4739,7 @@
       "source": "tripadvisor",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/istanbul/topkapi_sarayi.jpg",
       "tips": "Çantanızı vestiyere bırakmanız gerekebilir, hazırlıklı olun.",
-      "description_en": "Topkapı Sarayı showcases one of the finest examples of İstanbul's cultural richness. Located in Sultanahmet, this museum appeals to visitors of all ages with its world-renowned works, interactive exhibits, and educational programs.",
+      "description_en": "Topkapı Sarayı showcases one of the finest examples of İstanbul's cultural richness. Located in Sultanahmet, this museum appeals to visitors of all ages with its world-renowned works, interactiand exhibits, and educational programs.",
       "tips_en": "You might need to leave bags at the cloakroom, be prepared."
     },
     {
@@ -4793,7 +4793,7 @@
       "source": "michelin",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/istanbul/turk_fatih_tutak.png",
       "tips": "Yerel şarapları denemenizi öneririz.",
-      "description_en": "Türk Fatih Tutak hosts gastronomy enthusiasts in Harbiye as one of İstanbul's most prestigious restaurants. With the chef's signature dishes, seasonal menus and careful wine selection, it's a perfect choice for special evenings.",
+      "description_en": "Türk Fatih Tutak hosts gastronomy enthusiasts in Harbiye as one of İstanbul's most prestigious restaurants. With the chef's signature dishes, seasonal menus and careful wine selection, it's a perfect choice for special eandnings.",
       "tips_en": "We recommend trying local wines.",
       "bestTime_en": "Evening (Reservation required)",
       "name_en": "Türk Fatih Tutak"
@@ -4809,8 +4809,8 @@
         "kültür"
       ],
       "distanceFromCenter": 0.5,
-      "lat": 41.007,
-      "lng": 28.976,
+      "lat": 41007.0,
+      "lng": 28976.0,
       "price": "high",
       "rating": 4.6,
       "description": "Türk Hamamı Deneyimi, İstanbul'de eğlence ve macera arayanlar için harika bir seçenek. Sultanahmet bölgesindeki bu mekan, adrenalin dolu aktiviteleri, eğitici deneyimleri ve aile dostu etkinlikleriyle keyifli saatler vaat ediyor.",
@@ -4821,7 +4821,7 @@
       "source": "tripadvisor",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/istanbul/turk_hamami_deneyimi.jpg",
       "tips": "Rehbere soru sormaktan çekinmeyin, çok ilginç hikayeler biliyorlar.",
-      "description_en": "Türk Hamamı Deneyimi is a great choice for those seeking fun and adventure in İstanbul. This venue in Sultanahmet promises enjoyable hours with its adrenaline-filled activities, educational experiences and family-friendly events.",
+      "description_en": "Türk Hamamı experiencei is a great choice for those seeking fun and adandnture in İstanbul. This andnue in Sultanahmet promises enjoyable hours with its adrenaline-filled activities, educational experiences and family-friendly eandnts.",
       "tips_en": "Don't hesitate to ask the guide questions, they know interesting stories."
     },
     {
@@ -4847,7 +4847,7 @@
       "source": "local",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/istanbul/vefa_bozacisi.jpg",
       "tips": "Google Maps yorumlarına göz atarak ne yiyeceğinize karar verin.",
-      "description_en": "Serving since 1876, the most iconic spot for Boza (Turkish fermented malt drink). Atatürk's glass is preserved here.",
+      "description_en": "Serving since 1876, the most iconic spot for Boza (Turkish fermented malt drink). Atatürk's glass is preserandd here.",
       "tips_en": "Decide what to eat by checking Google Maps reviews.",
       "bestTime_en": "Winter evenings"
     },
@@ -4863,7 +4863,7 @@
       ],
       "distanceFromCenter": 6.5,
       "lat": 40.9785,
-      "lng": 29.025,
+      "lng": 29025.0,
       "price": "medium",
       "rating": 4.4,
       "description": "Walter's Coffee Roastery, Moda sokaklarında keyifli bir mola vermek için harika bir seçenek. Samimi atmosferi, lezzetli kahveleri ve tatlılarıyla gününüze enerji katacak sıcak bir mekan.",
@@ -4874,7 +4874,7 @@
       "source": "local",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/istanbul/walters_coffee_roastery.jpg",
       "tips": "Yerel halkın favori noktalarından biri.",
-      "description_en": "Walter's Coffee Roastery offers one of the finest examples of İstanbul's coffee culture. This cozy venue in Moda is ideal for a break with its carefully crafted drinks, homemade desserts and peaceful atmosphere.",
+      "description_en": "Walter's Coffee Roastery offers one of the finest examples of İstanbul's coffee culture. This cozy andnue in Moda is ideal for a break with its carefully crafted drinks, homemade desserts and peaceful atmosphere.",
       "tips_en": "One of the favorite spots of the locals."
     },
     {
@@ -4913,7 +4913,7 @@
         "fotoğraf"
       ],
       "distanceFromCenter": 5.5,
-      "lat": 40.987,
+      "lat": 40987.0,
       "lng": 29.0228,
       "price": "low",
       "rating": 4.5,
@@ -4925,7 +4925,7 @@
       "source": "local",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/istanbul/yeldegirmeni_street_art.jpg",
       "tips": "Hafta içi sabah saatleri en sakin zamanıdır.",
-      "description_en": "Yeldeğirmeni Street Art is a noteworthy destination in İstanbul's Kadıköy district. With its unique features and experiences, it offers unforgettable moments to visitors. As one of the most visited places in the area, it deserves a spot on every traveler's list.",
+      "description_en": "Yeldeğirmeni Street Art is a noteworthy destination in İstanbul's Kadıköy district. With its unique features and experiences, it offers unforgettable moments to visitors. As one of the most visited places in the area, it deserands a spot on eandry traandler's list.",
       "tips_en": "Weekday mornings are the quietest times."
     },
     {
@@ -4951,7 +4951,7 @@
       "source": "tripadvisor",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/istanbul/yerebatan_sarnici.png",
       "tips": "Biletinizi online alarak gişe sırasından kurtulun.",
-      "description_en": "Yerebatan Sarnıcı is a magnificent structure witnessing İstanbul's rich history. This monumental venue in Sultanahmet enchants both history buffs and architecture lovers with its centuries-old architecture and cultural significance.",
+      "description_en": "Yerebatan Sarnıcı is a magnificent structure witnessing İstanbul's rich history. This monumental andnue in Sultanahmet enchants both history buffs and architecture loandrs with its centuries-old architecture and cultural significance.",
       "tips_en": "Buy tickets online to skip the box office line."
     },
     {
@@ -5007,7 +5007,7 @@
       "source": "local",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/istanbul/yildiz_parki.jpg",
       "tips": "Gün batımını izlemek için şehirdeki en iyi noktalardan biri.",
-      "description_en": "For those seeking escape from the city's crowds, Yıldız Parkı is a perfect sanctuary. This green oasis in Beşiktaş offers different beauty each visit with its botanical diversity and seasonal flower gardens.",
+      "description_en": "For those seeking escape from the city's crowds, Yıldız Parkı is a perfect sanctuary. This green oasis in Beşiktaş offers different beauty each visit with its botanical diandrsity and seasonal flower gardens.",
       "tips_en": "One of the best spots in the city to watch the sunset."
     },
     {
@@ -5142,7 +5142,7 @@
       "category": "Yeme-İçme",
       "area": "Küçük Ayasofya",
       "description": "Yerel ve uluslararası yemekler sunan, taş duvarlı ve açık hava oturma alanlı klasik restoran.",
-      "description_en": "Yerel ve uluslararası yemekler sunan, taş duvarlı ve açık hava oturma alanlı klasik restoran.",
+      "description_en": "Yerel and uluslararası yemekler sunan, taş duvarlı and açık hava oturma alanlı klasik restoran.",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/istanbul/istanbul_anatolian_cuisine.jpg",
       "location": "Küçük Ayasofya, Cami Sk. No:7, 34122 Fatih/İstanbul, Türkiye",
       "lat": 41.0033804,
@@ -5166,7 +5166,7 @@
       "category": "Yeme-İçme",
       "area": "Şehit Muhtar",
       "description": "İrlanda fıçı biraları, TV'de ragbi ile diğer canlı maç yayınları ve İrlanda halk müziği sunan eğlenceli bar.",
-      "description_en": "İrlanda fıçı biraları, TV'de ragbi ile diğer canlı maç yayınları ve İrlanda halk müziği sunan eğlenceli bar.",
+      "description_en": "İrlanda fıçı biraları, TV'de ragbi with diğer canlı maç yayınları and İrlanda halk müziği sunan eğlenceli bar.",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/istanbul/u2_istanbul_irish_pub.jpg",
       "location": "Şehit Muhtar, Bekar Sk. No:21, 34435 Beyoğlu/İstanbul, Türkiye",
       "lat": 41.036447,
@@ -5207,7 +5207,7 @@
       "source": "tripadvisor",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/istanbul/ciya_sofrasi.jpg",
       "tips": "Akşam yemeği için rezervasyon yaptırmak şart.",
-      "description_en": "Çiya Sofrası hosts gastronomy enthusiasts in Kadıköy as one of İstanbul's most prestigious restaurants. With the chef's signature dishes, seasonal menus and careful wine selection, it's a perfect choice for special evenings.",
+      "description_en": "Çiya Sofrası hosts gastronomy enthusiasts in Kadıköy as one of İstanbul's most prestigious restaurants. With the chef's signature dishes, seasonal menus and careful wine selection, it's a perfect choice for special eandnings.",
       "tips_en": "Reservation is a must for dinner."
     },
     {
@@ -5288,7 +5288,7 @@
       "source": "local",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/istanbul/ciragan_sarayi.jpg",
       "tips": "Sabah erken saatlerde giderek turist kalabalığından kaçınabilirsiniz.",
-      "description_en": "Carrying the glory of the past to the present, Çırağan Sarayı is one of Beşiktaş's most important historical structures. Its preserved original texture and magnificent architecture await discovery.",
+      "description_en": "Carrying the glory of the past to the present, Çırağan Sarayı is one of Beşiktaş's most important historical structures. Its preserandd original texture and magnificent architecture await discoandry.",
       "tips_en": "Go early in the morning to avoid tourist crowds."
     },
     {
@@ -5302,8 +5302,8 @@
         "yerel"
       ],
       "distanceFromCenter": 0,
-      "lat": 41.034,
-      "lng": 28.977,
+      "lat": 41034.0,
+      "lng": 28977.0,
       "price": "medium",
       "rating": 4.5,
       "description": "Üçüncü Dalga Kahvecileri, Çeşitli sokaklarında keyifli bir mola vermek için harika bir seçenek. Samimi atmosferi, lezzetli kahveleri ve tatlılarıyla gününüze enerji katacak sıcak bir mekan.",
@@ -5314,7 +5314,7 @@
       "source": "local",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/istanbul/ucuncu_dalga_kahvecileri.jpg",
       "tips": "Google Maps yorumlarına göz atarak ne yiyeceğinize karar verin.",
-      "description_en": "Üçüncü Dalga Kahvecileri offers one of the finest examples of İstanbul's coffee culture. This cozy venue in Çeşitli is ideal for a break with its carefully crafted drinks, homemade desserts and peaceful atmosphere.",
+      "description_en": "Üçüncü Dalga Kahandcwithri offers one of the finest examples of İstanbul's coffee culture. This cozy andnue in Çeşitli is ideal for a break with its carefully crafted drinks, homemade desserts and peaceful atmosphere.",
       "tips_en": "Decide what to eat by checking Google Maps reviews."
     },
     {
@@ -5340,7 +5340,7 @@
       "source": "tripadvisor",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/istanbul/istanbul_aquarium.jpg",
       "tips": "Hafta içi sabah saatleri en sakin zamanıdır.",
-      "description_en": "Aksiyon dolu bir gün geçirmek isteyenler için İstanbul Aquarium ideal bir tercih. Florya'daki bu mekanda hem fiziksel aktiviteler hem de interaktif deneyimlerle enerjinizi yükseltebilirsiniz.",
+      "description_en": "For those looking for an action-packed day, İstanbul Aquarium an ideal choice. Florya'daki at this andnue both physical activities both de interactive experiences you can boost your energy.",
       "tips_en": "Weekday mornings are the quietest times."
     },
     {
@@ -5381,8 +5381,8 @@
         "mimari"
       ],
       "distanceFromCenter": 2.0,
-      "lat": 41.026,
-      "lng": 28.988,
+      "lat": 41026.0,
+      "lng": 28988.0,
       "price": "medium",
       "rating": 4.6,
       "description": "Sanat ve tarih tutkunlarının vazgeçilmez durağı İstanbul Modern. Karaköy'da konumlanan müze, nadir eserleri ve interaktif sergileriyle hem öğretici hem ilham verici bir deneyim sunuyor.",
@@ -5407,8 +5407,8 @@
         "gece hayatı"
       ],
       "distanceFromCenter": 2.0,
-      "lat": 41.034,
-      "lng": 28.977,
+      "lat": 41034.0,
+      "lng": 28977.0,
       "price": "low",
       "rating": 4.4,
       "description": "Taksim Meydanı'ndan Tünel'e uzanan, şehrin 24 saat uyumayan ana damarı. Nostaljik tramvayı, tarihi pasajları, sinemaları, sokak müzisyenleri ve her köşede karşınıza çıkan sürprizleriyle İstanbul'un özeti.",
@@ -5419,7 +5419,7 @@
       "source": "tripadvisor",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/istanbul/istiklal_caddesi.jpg",
       "tips": "Nakite hazırlıklı olun, bazı yerel yerler kart kabul etmeyebilir.",
-      "description_en": "İstiklal Caddesi is one of İstanbul's most iconic and vibrant streets. This avenue in Beyoğlu is worth exploring from day to night with its historic buildings, street performers, boutique shops and various restaurants.",
+      "description_en": "İstiklal Caddesi is one of İstanbul's most iconic and vibrant streets. This aandnue in Beyoğlu is worth exploring from day to night with its historic buildings, street performers, boutique shops and various restaurants.",
       "tips_en": "Be prepared with cash, some local places might not accept cards."
     },
     {
@@ -5451,7 +5451,7 @@
         "nostalji"
       ],
       "lat": 40.9915,
-      "lng": 29.027,
+      "lng": 29027.0,
       "description": "Kadıköy'ün efsanevi sahaf ve müzik pasajı. Özellikle ağır metal ve rock müzik kültürü ile nadir kitapların merkezi.",
       "description_en": "Kadıköy's legendary book and music passage. A hub for rock culture and rare second-hand books.",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/istanbul/akmar_pasaji.jpg",
@@ -5506,7 +5506,7 @@
         "bazar"
       ],
       "lat": 41.0105,
-      "lng": 28.966,
+      "lng": 28966.0,
       "description": "Osmanlı'dan günümüze kağıt ve kitap ticaretinin kalbi olan tarihi çarşı. Beyazıt Camii ile Kapalıçarşı arasındadır.",
       "description_en": "A historic market that has been the heart of paper and book trade since the Ottoman era, located near the Grand Bazaar.",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/istanbul/sahaflar_carsisi.jpg",
@@ -5650,7 +5650,7 @@
         "çamlık",
         "deniz"
       ],
-      "lat": 40.855,
+      "lat": 40855.0,
       "lng": 29.11,
       "rating": 4.4,
       "description": "Büyükada'nın batı ucunda, çam ağaçları altında piknik yapılabilecek muazzam manzaralı bir burun.",
@@ -5669,7 +5669,7 @@
         "brunch"
       ],
       "lat": 41.0601,
-      "lng": 29.008,
+      "lng": 29008.0,
       "rating": 4.6,
       "description": "İstanbul'un nitelikli kahve akımının öncülerinden. Endüstriyel şık bir ortam.",
       "description_en": "One of the pioneers of specialty coffee in Istanbul. Industrial chic atmosphere.",
@@ -5704,8 +5704,8 @@
         "gün batımı",
         "yürüyüş"
       ],
-      "lat": 41.018,
-      "lng": 29.007,
+      "lat": 41018.0,
+      "lng": 29007.0,
       "rating": 4.9,
       "description": "Kız Kule'sine karşı çay içip gün batımını izlemek için dünyanın en iyi noktalarından biri.",
       "description_en": "One of the world's best spots to watch the sunset against the Maiden's Tower.",
@@ -5721,8 +5721,8 @@
         "boğaz",
         "huzur"
       ],
-      "lat": 41.028,
-      "lng": 28.983,
+      "lat": 41028.0,
+      "lng": 28983.0,
       "rating": 4.8,
       "description": "Cihangir'den Boğaz'a ve Tarihi Yarımada'ya bakan gizli bir cennet.",
       "description_en": "A hidden gem in Cihangir with views of the Bosphorus and the Historical Peninsula.",

@@ -36,7 +36,7 @@
         "tour"
       ],
       "lat": 48.08,
-      "lng": 7.355,
+      "lng": 7355.0,
       "rating": 4.8,
       "description": "Alsace Şarap Yolu'nun başlangıç noktası. Sıradan bir gezinin ötesine geçip unutulmaz anılar biriktirmek isteyenler için benzersiz bir fırsat. Bu aktivite, seyahatinize heyecan ve renk katarak size farklı bir perspektif kazandıracak.",
       "description_en": "Starting point of Alsace Wine Route. A unique opportunity for those who want to go beyond an ordinary trip and collect unforgettable memories. This activity will add excitement and color to your travel, giving you a different perspective.",
@@ -123,8 +123,8 @@
         "breakfast",
         "cute"
       ],
-      "lat": 48.076,
-      "lng": 7.357,
+      "lat": 48076.0,
+      "lng": 7357.0,
       "rating": 4.7,
       "description": "Eski tarz Fransız pastanesi atmosferi. Günün yorgunluğunu atmak ve lezzetli bir kahve eşliğinde dinlenmek için en doğru adreslerden biri. Mekanın sıcak ambiyansı ve sunduğu tatlı sürprizler, molanızı keyfe dönüştürecek.",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/colmar/au_croissant_dore.jpg",
@@ -133,7 +133,7 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Sabah kahvaltısı için erken gitmekte fayda var, taze kruvasanlar bitiyor.",
       "tips_en": "Go early for breakfast, fresh croissants run out.",
-      "description_en": "Eski tarz Fransız pastanesi atmosferi. One of the right addresses to relieve the tiredness of the day and relax with a delicious coffee. The warm ambiance of the venue and the sweet surprises it offers will turn your break into pleasure.",
+      "description_en": "Eski tarz Fransız pastanesi atmosferi. One of the right addresses to relieand the tiredness of the day and relax with a delicious coffee. The warm ambiance of the andnue and the sweet surprises it offers will turn your break into pleasure.",
       "source": "firebase"
     },
     {
@@ -187,7 +187,7 @@
         "elegant"
       ],
       "lat": 48.0765,
-      "lng": 7.357,
+      "lng": 7357.0,
       "rating": 4.6,
       "description": "Tarihi binada zarif Alsace mutfağı. Yerel lezzetlerin tadına varmak ve keyifli bir akşam geçirmek için harika bir seçenek. Samimi atmosferi ve kaliteli hizmetiyle damak zevkinize hitap edecek unutulmaz bir deneyim sunuyor.",
       "description_en": "Elegant Alsatian cuisine in historic building. A great option to taste local flavors and spend a pleasant evening. It offers an unforgettable experience appealing to your palate with its friendly atmosphere and quality service.",
@@ -527,8 +527,8 @@
         "kanal",
         "geleneksel"
       ],
-      "lat": 48.074,
-      "lng": 7.359,
+      "lat": 48074.0,
+      "lng": 7359.0,
       "price": "medium",
       "rating": 4.5,
       "description": "Tarihi şarap mahzeninde tadım mekanı, Alsace şarapları ve yöresel atıştırmalıklar. Romantik atmosfer ve şarap eğitimi.",
@@ -591,7 +591,7 @@
         "christmas",
         "festive"
       ],
-      "lat": 48.077,
+      "lat": 48077.0,
       "lng": 7.3578,
       "rating": 4.9,
       "description": "Avrupa'nın en güzel Noel pazarlarından biri. Sıradan bir gezinin ötesine geçip unutulmaz anılar biriktirmek isteyenler için benzersiz bir fırsat. Bu aktivite, seyahatinize heyecan ve renk katarak size farklı bir perspektif kazandıracak.",
@@ -1061,7 +1061,7 @@
       "rating": 4.5,
       "description": "Riquewihr'deki tarihi kilise, köyün dini ve kültürel merkezlerinden. Ortaçağ mimarisi ve huzurlu atmosfer.",
       "description_en": "Historic church in Riquewihr, one of village's religious and cultural centers. Medieval architecture and peaceful atmosphere.",
-      "tips": " Vitrayları 15. yüzyıldan kalmadır.",
+      "tips": "Vitrayları 15. yüzyıldan kalmadır.",
       "tips_en": "Its stained glass dates back to the 15th century.",
       "id": "eglise-saint-georges",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/colmar/eglise-saint-georges.jpg",
@@ -1078,8 +1078,8 @@
         "çiçek",
         "şarap"
       ],
-      "lat": 48.044,
-      "lng": 7.307,
+      "lat": 48044.0,
+      "lng": 7307.0,
       "price": "free",
       "rating": 4.9,
       "description": "Fransa'nın en güzel köylerinden biri, dairesel ortaçağ yerleşimi ve çiçekli evleriyle. Şarap mahzenleri, kale kalıntıları ve masalsı Alsace atmosferi.",
@@ -1293,7 +1293,7 @@
         "hediyelik"
       ],
       "lat": 48.0775,
-      "lng": 7.358,
+      "lng": 7358.0,
       "price": "medium",
       "rating": 4.8,
       "description": "Alsace zencefilli kurabiyeleri ve geleneksel tatlıların satıldığı tarihi mağaza. Pain d'épices, bredele ve Noel lezzetleri.",
@@ -1424,7 +1424,7 @@
         "tarihi",
         "yürüyüş"
       ],
-      "lat": 48.077,
+      "lat": 48077.0,
       "lng": 7.3575,
       "price": "free",
       "rating": 4.6,
@@ -1532,7 +1532,7 @@
         "fine dining",
         "river"
       ],
-      "lat": 48.075,
+      "lat": 48075.0,
       "lng": 7.3588,
       "rating": 4.8,
       "description": "Kanal kenarında iki Michelin yıldızlı restoran. Yerel lezzetlerin tadına varmak ve keyifli bir akşam geçirmek için harika bir seçenek. Samimi atmosferi ve kaliteli hizmetiyle damak zevkinize hitap edecek unutulmaz bir deneyim sunuyor.",
@@ -1542,7 +1542,7 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Şefin spesiyal tabağını sormaktan çekinmeyin.",
       "tips_en": "Don't hesitate to ask for the chef's special.",
-      "description_en": "Kanal kenarında iki Michelin yıldızlı restoran. A great option to taste local flavors and spend a pleasant evening. It offers an unforgettable experience appealing to your palate with its friendly atmosphere and quality service.",
+      "description_en": "Kanal kenarında iki Michelin yıldızlı restoran. A great option to taste local flavors and spend a pleasant eandning. It offers an unforgettable experience appealing to your palate with its friendly atmosphere and quality service.",
       "source": "firebase"
     },
     {
@@ -1555,8 +1555,8 @@
         "oyuncak",
         "kahvaltı"
       ],
-      "lat": 48.077,
-      "lng": 7.357,
+      "lat": 48077.0,
+      "lng": 7357.0,
       "price": "medium",
       "rating": 4.6,
       "description": "Nostaljik dekorasyonlu çikolata ve şekerleme dükkanı, el yapımı lezzetler. Alsace bisküvileri, pralin ve hediyelik kutular.",
@@ -1643,8 +1643,8 @@
         "kale",
         "nehir"
       ],
-      "lat": 48.138,
-      "lng": 7.264,
+      "lat": 48138.0,
+      "lng": 7264.0,
       "price": "free",
       "rating": 4.8,
       "description": "Albert Schweitzer'ın doğduğu ortaçağ köyü, kale kalıntıları ve nehir kenarı manzarası. Şarap mahzenleri, müze ve Alsace zanaatları.",
@@ -1696,7 +1696,7 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Yapı içerisindeki akustik harika, sessizliği dinleyin.",
       "tips_en": "The acoustics inside satisfy; listen to the silence.",
-      "description_en": "Eski gümrük binası, şimdi etkinlik merkezi. A unique treasure for history buffs, this venue captivates visitors with details that shed light on the past. An ideal stop for those wishing to embark on a cultural journey.",
+      "description_en": "Eski gümrük binası, şimdi etkinlik merkezi. A unique treasure for history buffs, this andnue captivates visitors with details that shed light on the past. An ideal stop for those wishing to embark on a cultural journey.",
       "source": "firebase"
     },
     {
@@ -1813,7 +1813,7 @@
         "iconic"
       ],
       "lat": 48.0745,
-      "lng": 7.359,
+      "lng": 7359.0,
       "rating": 4.9,
       "description": "Lauch nehri boyunca sıralanmış rengarenk yarı ahşap evleriyle Colmar'ın en romantik ve fotojenik bölgesidir. Küçük teknelerle yapacağınız gezinti, bu masalsı atmosferi su üzerinden deneyimlemenizi sağlar.",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/colmar/la_petite_venise.jpg",
@@ -2024,7 +2024,7 @@
         "tarte flambée",
         "wine"
       ],
-      "lat": 48.077,
+      "lat": 48077.0,
       "lng": 7.3575,
       "rating": 4.5,
       "description": "Flammekueche (Alsace pizzası) için ideal. Yerel lezzetlerin tadına varmak ve keyifli bir akşam geçirmek için harika bir seçenek. Samimi atmosferi ve kaliteli hizmetiyle damak zevkinize hitap edecek unutulmaz bir deneyim sunuyor.",
@@ -2319,8 +2319,8 @@
         "heads",
         "renaissance"
       ],
-      "lat": 48.079,
-      "lng": 7.356,
+      "lat": 48079.0,
+      "lng": 7356.0,
       "rating": 4.6,
       "description": "111 kafayla süslü Rönesans cephesi. Tarih meraklıları için eşsiz bir hazine olan bu mekan, geçmişe ışık tutan detaylarıyla ziyaretçilerini büyülüyor. Kültürel bir yolculuğa çıkmak isteyenler için ideal bir durak.",
       "description_en": "Renaissance facade decorated with 111 heads. A unique treasure for history buffs, this venue captivates visitors with details that shed light on the past. An ideal stop for those wishing to embark on a cultural journey.",
@@ -2383,7 +2383,7 @@
         "food",
         "local"
       ],
-      "lat": 48.074,
+      "lat": 48074.0,
       "lng": 7.3595,
       "rating": 4.4,
       "description": "Kanal kenarındaki tarihi kapalı pazar yeri. A place you must stop by to discover region-specific products and buy gifts for your loved ones. Colorful shops and a lively atmosphere will make your shopping experience much more enjoyable.",
@@ -2393,7 +2393,7 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "El yapımı hediyelikler fabrikasyon olanlardan daha değerlidir.",
       "tips_en": "Handmade souvenirs are more valuable than mass-produced ones.",
-      "description_en": "Kanal kenarındaki tarihi kapalı pazar yeri. A place you must stop by to discover region-specific products and buy gifts for your loved ones. Colorful shops and a lively atmosphere will make your shopping experience much more enjoyable.",
+      "description_en": "Kanal kenarındaki historic kapalı pazar yeri. A place you must stop by to discoandr region-specific products and buy gifts for your loandd ones. Colorful shops and a liandly atmosphere will make your shopping experience much more enjoyable.",
       "source": "firebase",
       "name_en": "Covered Market (Marché Couvert)"
     },
@@ -2679,7 +2679,7 @@
         "geology"
       ],
       "lat": 48.0788,
-      "lng": 7.354,
+      "lng": 7354.0,
       "rating": 4.3,
       "description": "Bölgenin doğal tarihi ve jeolojisi. Sanat ve tarih severlerin mutlaka görmesi gereken bu müze, zengin koleksiyonuyla dikkat çekiyor. Sergilenen eserler, bölgenin kültürel mirasını derinlemesine anlamanızı sağlayacak.",
       "description_en": "Natural history and geology of the region. A must-see for art and history lovers, this museum stands out with its rich collection. The exhibited works will allow you to deeply understand the region's cultural heritage.",
@@ -2849,8 +2849,8 @@
         "piknik",
         "heykeller"
       ],
-      "lat": 48.073,
-      "lng": 7.352,
+      "lat": 48073.0,
+      "lng": 7352.0,
       "price": "free",
       "rating": 4.5,
       "description": "Şehir merkezindeki büyük yeşil alan, çeşmeler, çocuk oyun alanları ve piknik. Aileler için huzurlu mola ve açık hava aktiviteleri.",
@@ -2935,8 +2935,8 @@
         "wood",
         "famous"
       ],
-      "lat": 48.078,
-      "lng": 7.355,
+      "lat": 48078.0,
+      "lng": 7355.0,
       "rating": 4.5,
       "description": "Ortaçağ mimarisinin en süslü örneği. Tarih meraklıları için eşsiz bir hazine olan bu mekan, geçmişe ışık tutan detaylarıyla ziyaretçilerini büyülüyor. Kültürel bir yolculuğa çıkmak isteyenler için ideal bir durak.",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/colmar/pfister_house.jpg",
@@ -2945,7 +2945,7 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Sabah erken saatlerde giderek turist kalabalığından kaçınabilirsiniz.",
       "tips_en": "Go early in the morning to avoid tourist crowds.",
-      "description_en": "Ortaçağ mimarisinin en süslü örneği. A unique treasure for history buffs, this venue captivates visitors with details that shed light on the past. An ideal stop for those wishing to embark on a cultural journey.",
+      "description_en": "Ortaçağ mimarisinin en süslü örneği. A unique treasure for history buffs, this andnue captivates visitors with details that shed light on the past. An ideal stop for those wishing to embark on a cultural journey.",
       "source": "firebase"
     },
     {
@@ -3256,8 +3256,8 @@
         "üç kale",
         "festival"
       ],
-      "lat": 48.195,
-      "lng": 7.319,
+      "lat": 48195.0,
+      "lng": 7319.0,
       "price": "free",
       "rating": 4.7,
       "description": "Üç kalenin gölgesindeki şarap köyü, ortaçağ festivalleriyle ünlü. Gewürztraminer, müzisyenler alayı ve yarı ahşap mimari.",
@@ -3280,8 +3280,8 @@
         "tarihi",
         "surlar"
       ],
-      "lat": 48.166,
-      "lng": 7.297,
+      "lat": 48166.0,
+      "lng": 7297.0,
       "price": "free",
       "rating": 4.8,
       "description": "Şarap rotasının incisi, 16. yüzyıldan kalma sur içi ortaçağ köyü. Riesling tadımları, yarı ahşap evler ve Disneyland ilham kaynağı.",
@@ -3588,7 +3588,7 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Fotoğraf çekimi için en iyi ışık gün batımına yakındır.",
       "tips_en": "Best light for photography is near sunset.",
-      "description_en": "Gotik mimarili etkileyici şehir kilisesi. A unique treasure for history buffs, this venue captivates visitors with details that shed light on the past. An ideal stop for those wishing to embark on a cultural journey.",
+      "description_en": "Gotik mimarili etkwithyici şehir kilisesi. A unique treasure for history buffs, this andnue captivates visitors with details that shed light on the past. An ideal stop for those wishing to embark on a cultural journey.",
       "source": "firebase",
       "name_en": "Saint Martin's Church"
     },
@@ -3644,8 +3644,8 @@
         "taze",
         "yerel"
       ],
-      "lat": 48.076,
-      "lng": 7.356,
+      "lat": 48076.0,
+      "lng": 7356.0,
       "price": "medium",
       "rating": 4.7,
       "description": "Alsace mutfağı ve şarapları sunan geleneksel restoran. Choucroute, tarte flambée ve yöresel lezzetlerle Alsace deneyimi.",
@@ -3667,8 +3667,8 @@
         "timber",
         "walk"
       ],
-      "lat": 48.075,
-      "lng": 7.358,
+      "lat": 48075.0,
+      "lng": 7358.0,
       "rating": 4.7,
       "description": "Eski tabakhanelerin bulunduğu tarihi sokak. Şehrin en etkileyici manzaralarından birini sunan bu nokta, fotoğraf tutkunları için adeta bir cennet. Özellikle gün batımında büründüğü renkler, ziyaretçilere görsel bir şölen yaşatıyor.",
       "description_en": "Historic street with old tanneries. Offering one of the most impressive views of the city, this spot is a paradise for photography enthusiasts. The colors it takes on, especially at sunset, provide a visual feast for visitors.",
@@ -3711,7 +3711,7 @@
         "fun"
       ],
       "lat": 48.0785,
-      "lng": 7.353,
+      "lng": 7353.0,
       "rating": 4.5,
       "description": "Her yaştan çocuğa hitap eden oyuncak müzesi. Sanat ve tarih severlerin mutlaka görmesi gereken bu müze, zengin koleksiyonuyla dikkat çekiyor. Sergilenen eserler, bölgenin kültürel mirasını derinlemesine anlamanızı sağlayacak.",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/colmar/toy_museum.jpg",
@@ -3720,7 +3720,7 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Biletinizi online alarak gişe sırasından kurtulun.",
       "tips_en": "Buy tickets online to skip the box office line.",
-      "description_en": "Her yaştan çocuğa hitap eden oyuncak müzesi. A must-see for art and history lovers, this museum stands out with its rich collection. The exhibited works will allow you to deeply understand the region's cultural heritage.",
+      "description_en": "Her yaştan çocuğa hitap eden oyuncak müzesi. A must-see for art and history loandrs, this museum stands out with its rich collection. The exhibited works will allow you to deeply understand the region's cultural heritage.",
       "source": "firebase"
     },
     {
@@ -3904,7 +3904,7 @@
         "riesling"
       ],
       "lat": 48.0775,
-      "lng": 7.356,
+      "lng": 7356.0,
       "rating": 4.7,
       "description": "Yerel şarap mahzenlerinde tadım. Sıradan bir gezinin ötesine geçip unutulmaz anılar biriktirmek isteyenler için benzersiz bir fırsat. Bu aktivite, seyahatinize heyecan ve renk katarak size farklı bir perspektif kazandıracak.",
       "description_en": "Tasting in local wine cellars. A unique opportunity for those who want to go beyond an ordinary trip and collect unforgettable memories. This activity will add excitement and color to your travel, giving you a different perspective.",
@@ -3934,7 +3934,7 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Nakite hazırlıklı olun, bazı yerel yerler kart kabul etmeyebilir.",
       "tips_en": "Be prepared with cash, some local places might not accept cards.",
-      "description_en": "Geleneksel Alsace yemekleri (Choucroute) için ideal. A great option to taste local flavors and spend a pleasant evening. It offers an unforgettable experience appealing to your palate with its friendly atmosphere and quality service.",
+      "description_en": "Geleneksel Alsace yemekleri (Choucroute) için ideal. A great option to taste local flavors and spend a pleasant eandning. It offers an unforgettable experience appealing to your palate with its friendly atmosphere and quality service.",
       "source": "firebase"
     },
     {

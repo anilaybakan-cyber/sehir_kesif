@@ -75,7 +75,7 @@
         "fun"
       ],
       "lat": 66.5038,
-      "lng": 25.728,
+      "lng": 25728.0,
       "rating": 4.4,
       "description": "Çocuklar için Angry Birds temalı açık hava oyun alanı. Doğayla iç içe, huzur dolu anlar yaşamak isteyenler için mükemmel bir kaçış noktası. Şehrin gürültüsünden uzaklaşıp nefes almak ve harika fotoğraflar çekmek için birebir.",
       "description_en": "Angry Birds themed outdoor playground for kids. A perfect getaway for those who want to experience peaceful moments in nature. Ideal for getting away from the city noise, taking a breath, and capturing great photos.",
@@ -398,7 +398,7 @@
         "modern"
       ],
       "lat": 66.5088,
-      "lng": 25.725,
+      "lng": 25725.0,
       "rating": 4.5,
       "description": "Arktikum Bilim Merkezi'ne giden bu cam tünel, özellikle kışın donmuş nehir manzarasıyla büyüleyicidir. Kuzey ışıklarını izlemek için şehrin içindeki en iyi ve en romantik noktalardan biridir.",
       "description_en": "This glass tunnel leading to the Arktikum Science Centre is mesmerizing, especially with frozen river views in winter. It is one of the best and most romantic spots within the city to watch the Northern Lights.",
@@ -428,7 +428,7 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Sesli rehber (audio guide) kiralamak deneyimi ikiye katlar.",
       "tips_en": "Renting an audio guide doubles the experience.",
-      "description_en": "Kuzey Kutbu'nun tarihini ve doğasını anlatan harika bir müze. A must-see for art and history lovers, this museum stands out with its rich collection. The exhibited works will allow you to deeply understand the region's cultural heritage."
+      "description_en": "Kuzey Kutbu'nun tarihini and doğasını anlatan harika bir museum. A must-see for art and history loandrs, this museum stands out with its rich collection. The exhibited works will allow you to deeply understand the region's cultural heritage."
     },
     {
       "id": "auttikongs",
@@ -599,7 +599,7 @@
         "cocktails",
         "trendy"
       ],
-      "lat": 66.502,
+      "lat": 66502.0,
       "lng": 25.7315,
       "rating": 4.7,
       "description": "Şehrin en popüler waffle ve kokteyl mekanı. One of the right addresses to relieve the tiredness of the day and relax with a delicious coffee. The warm ambiance of the venue and the sweet surprises it offers will turn your break into pleasure.",
@@ -609,7 +609,7 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Dışarıdaki masalarda oturup gelen geçeni izlemek çok keyifli.",
       "tips_en": "Sitting at outdoor tables and people-watching is very pleasant.",
-      "description_en": "Şehrin en popüler waffle ve kokteyl mekanı. One of the right addresses to relieve the tiredness of the day and relax with a delicious coffee. The warm ambiance of the venue and the sweet surprises it offers will turn your break into pleasure."
+      "description_en": "Şehrin en popüler waffle and kokteyl venueı. One of the right addresses to relieand the tiredness of the day and relax with a delicious coffee. The warm ambiance of the andnue and the sweet surprises it offers will turn your break into pleasure."
     },
     {
       "id": "cafe-rovaniemi",
@@ -1102,7 +1102,7 @@
         "hotel",
         "unique"
       ],
-      "lat": 66.545,
+      "lat": 66545.0,
       "lng": 25.86,
       "rating": 4.7,
       "description": "Buzdan inşa edilmiş otelde konaklama veya ziyaret. Sıradan bir gezinin ötesine geçip unutulmaz anılar biriktirmek isteyenler için benzersiz bir fırsat. Bu aktivite, seyahatinize heyecan ve renk katarak size farklı bir perspektif kazandıracak.",
@@ -1165,7 +1165,7 @@
         "river"
       ],
       "lat": 66.5045,
-      "lng": 25.737,
+      "lng": 25737.0,
       "rating": 4.7,
       "description": "Rovaniemi'nin sembolü olan asma köprü. Şehrin en etkileyici manzaralarından birini sunan bu nokta, fotoğraf tutkunları için adeta bir cennet. Özellikle gün batımında büründüğü renkler, ziyaretçilere görsel bir şölen yaşatıyor.",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/jatkankynttila_bridge.jpg",
@@ -1174,7 +1174,7 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Panoramik fotoğraf için geniş açı lensinizi hazırlayın.",
       "tips_en": "Prepare your wide-angle lens for panoramic photos.",
-      "description_en": "Rovaniemi'nin sembolü olan asma köprü. Offering one of the most impressive views of the city, this spot is a paradise for photography enthusiasts. The colors it takes on, especially at sunset, provide a visual feast for visitors.",
+      "description_en": "Rovaniemi'nin sembolü olan asma köprü. Offering one of the most impressiand views of the city, this spot is a paradise for photography enthusiasts. The colors it takes on, especially at sunset, provide a visual feast for visitors.",
       "source": "firebase"
     },
     {
@@ -1246,8 +1246,8 @@
         "river",
         "scenic"
       ],
-      "lat": 66.505,
-      "lng": 25.735,
+      "lat": 66505.0,
+      "lng": 25735.0,
       "rating": 4.6,
       "description": "Nehir boyunca uzanan manzaralı yürüyüş parkuru. Doğayla iç içe, huzur dolu anlar yaşamak isteyenler için mükemmel bir kaçış noktası. Şehrin gürültüsünden uzaklaşıp nefes almak ve harika fotoğraflar çekmek için birebir.",
       "description_en": "Scenic walking trail along the river. A perfect getaway for those who want to experience peaceful moments in nature. Ideal for getting away from the city noise, taking a breath, and capturing great photos.",
@@ -1429,7 +1429,7 @@
         "local"
       ],
       "lat": 66.5035,
-      "lng": 25.731,
+      "lng": 25731.0,
       "rating": 4.4,
       "description": "Laponya'dan altın ve yerel hediyelik eşyalar. Bölgeye özgü ürünleri keşfetmek ve sevdiklerinize hediyeler almak için uğramanız gereken bir yer. Renkli dükkanlar ve canlı atmosfer, alışveriş deneyiminizi çok daha keyifli hale getirecek.",
       "description_en": "Lapland gold and local souvenirs. A place you must stop by to discover region-specific products and buy gifts for your loved ones. Colorful shops and a lively atmosphere will make your shopping experience much more enjoyable.",
@@ -1641,7 +1641,7 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Akşam saatlerinde şehir ışıklarını izlemek çok romantik.",
       "tips_en": "Watching city lights in the evening is very romantic.",
-      "description_en": "Şehrin kalbi, Eurovizyon şampiyonu Lordi grubuna adanmış meydan. Offering one of the most impressive views of the city, this spot is a paradise for photography enthusiasts. The colors it takes on, especially at sunset, provide a visual feast for visitors."
+      "description_en": "Şehrin kalbi, Eurovizyon şampiyonu Lordi grubuna adanmış meydan. Offering one of the most impressiand views of the city, this spot is a paradise for photography enthusiasts. The colors it takes on, especially at sunset, provide a visual feast for visitors."
     },
     {
       "id": "lumberjacks-candle-bridge-jtknkynttil",
@@ -1812,7 +1812,7 @@
         "traditional"
       ],
       "lat": 66.5025,
-      "lng": 25.731,
+      "lng": 25731.0,
       "rating": 4.8,
       "description": "Geleneksel Laponya yemekleri servis eden şık restoran. A great option to taste local flavors and spend a pleasant evening. It offers an unforgettable experience appealing to your palate with its friendly atmosphere and quality service.",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/rovaniemi/restaurant-aitta.jpg",
@@ -1821,7 +1821,7 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Öğle yemeği menüleri genellikle akşamdan daha uygundur.",
       "tips_en": "Lunch menus are usually cheaper than dinner.",
-      "description_en": "Geleneksel Laponya yemekleri servis eden şık restoran. A great option to taste local flavors and spend a pleasant evening. It offers an unforgettable experience appealing to your palate with its friendly atmosphere and quality service."
+      "description_en": "Geleneksel Laponya yemekleri servis eden şık restoran. A great option to taste local flavors and spend a pleasant eandning. It offers an unforgettable experience appealing to your palate with its friendly atmosphere and quality service."
     },
     {
       "id": "nordic-unique-travels",
@@ -2156,7 +2156,7 @@
         "interactive"
       ],
       "lat": 66.5082,
-      "lng": 25.726,
+      "lng": 25726.0,
       "rating": 4.5,
       "description": "Pilke Bilim Merkezi, Finlandiya'nın kuzey ormanlarını ve sürdürülebilir ahşap kullanımını interaktif sergilerle anlatıyor. Ziyaretçiler, gerçek orman makinelerini deneyimleyebilir ve doğa ile iç içe eğlenceli vakit geçirebilirler.",
       "description_en": "Pilke Science Centre tells the story of northern forests and sustainable wood use through interactive exhibits. Visitors can experience real forest machines and have fun connecting with nature.",
@@ -2287,7 +2287,7 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Yanınıza bir örtü alıp çimlerde piknik yapabilirsiniz.",
       "tips_en": "Bring a blanket and have a picnic on the grass.",
-      "description_en": "Kutup ayılarını görebileceğiniz vahşi yaşam parkı. A perfect getaway for those who want to experience peaceful moments in nature. Ideal for getting away from the city noise, taking a breath, and capturing great photos."
+      "description_en": "Kutup ayılarını görebwithceğiniz vahşi yaşam parkı. A perfect getaway for those who want to experience peaceful moments in nature. Ideal for getting away from the city noise, taking a breath, and capturing great photos."
     },
     {
       "name": "Ravintola Monte Rosa",
@@ -2297,7 +2297,7 @@
         "pizza",
         "central"
       ],
-      "lat": 66.502,
+      "lat": 66502.0,
       "lng": 25.73,
       "rating": 4.4,
       "description": "Şehir merkezinde kaliteli İtalyan mutfağı. Yerel lezzetlerin tadına varmak ve keyifli bir akşam geçirmek için harika bir seçenek. Samimi atmosferi ve kaliteli hizmetiyle damak zevkinize hitap edecek unutulmaz bir deneyim sunuyor.",
@@ -2381,8 +2381,8 @@
         "modern",
         "seasonal"
       ],
-      "lat": 66.503,
-      "lng": 25.732,
+      "lat": 66503.0,
+      "lng": 25732.0,
       "rating": 4.7,
       "description": "Mevsimsel Arktik malzemelerle modern mutfak. Yerel lezzetlerin tadına varmak ve keyifli bir akşam geçirmek için harika bir seçenek. Samimi atmosferi ve kaliteli hizmetiyle damak zevkinize hitap edecek unutulmaz bir deneyim sunuyor.",
       "description_en": "Modern cuisine with seasonal Arctic ingredients. A great option to taste local flavors and spend a pleasant evening. It offers an unforgettable experience appealing to your palate with its friendly atmosphere and quality service.",
@@ -2402,8 +2402,8 @@
         "fashion",
         "entertainment"
       ],
-      "lat": 66.503,
-      "lng": 25.728,
+      "lat": 66503.0,
+      "lng": 25728.0,
       "rating": 4.3,
       "description": "Moda, eğlence ve restoranların bulunduğu AVM. Bölgeye özgü ürünleri keşfetmek ve sevdiklerinize hediyeler almak için uğramanız gereken bir yer. Renkli dükkanlar ve canlı atmosfer, alışveriş deneyiminizi çok daha keyifli hale getirecek.",
       "description_en": "Mall with fashion, entertainment and restaurants. A place you must stop by to discover region-specific products and buy gifts for your loved ones. Colorful shops and a lively atmosphere will make your shopping experience much more enjoyable.",
@@ -2545,7 +2545,7 @@
         "exhibitions"
       ],
       "lat": 66.5,
-      "lng": 25.723,
+      "lng": 25723.0,
       "rating": 4.4,
       "description": "Eski bir posta otobüsü deposundan dönüştürülen bu müze, Fin çağdaş sanatına ve kuzey kültürüne odaklanıyor. Koleksiyonlarında Laponya'nın doğasından ve insanlarından ilham alan etkileyici eserler sergileniyor.",
       "description_en": "Converted from an old post bus depot, this museum focuses on Finnish contemporary art and northern culture. Its collections feature impressive works inspired by Lapland's nature and people.",
@@ -2565,8 +2565,8 @@
         "modern",
         "architecture"
       ],
-      "lat": 66.501,
-      "lng": 25.729,
+      "lat": 66501.0,
+      "lng": 25729.0,
       "rating": 4.3,
       "description": "Savaş sonrası yeniden inşa edilen modern kilise. Tarih meraklıları için eşsiz bir hazine olan bu mekan, geçmişe ışık tutan detaylarıyla ziyaretçilerini büyülüyor. Kültürel bir yolculuğa çıkmak isteyenler için ideal bir durak.",
       "description_en": "Post-war reconstructed modern church. A unique treasure for history buffs, this venue captivates visitors with details that shed light on the past. An ideal stop for those wishing to embark on a cultural journey.",
@@ -3455,7 +3455,7 @@
         "kar"
       ],
       "lat": 66.5435,
-      "lng": 25.845,
+      "lng": 25845.0,
       "rating": 4.9,
       "description": "Laponya'da ren geyikleriyle yapılan geleneksel ve büyülü bir kızak yolculuğu.",
       "description_en": "A traditional and magical sleigh ride with reindeer in Lapland.",

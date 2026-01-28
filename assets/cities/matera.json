@@ -37,8 +37,8 @@
         "aperitivo",
         "genç"
       ],
-      "lat": 40.667,
-      "lng": 16.606,
+      "lat": 40667.0,
+      "lng": 16606.0,
       "price": "low",
       "rating": 4.5,
       "description": "Nostaljik dekorasyonlu bar ve restoran, İtalyan retro atmosferi. Uygun fiyat, sosyal mekan ve yerli favorisi.",
@@ -62,7 +62,7 @@
         "avlu"
       ],
       "lat": 40.55,
-      "lng": 16.666,
+      "lng": 16666.0,
       "price": "low",
       "rating": 4.6,
       "description": "Matera'ya yakın en büyük Benediktin manastırlarından biri. Avluları ve freskleri görülmeye değer.",
@@ -109,8 +109,8 @@
         "sakin",
         "yaşam"
       ],
-      "lat": 40.784,
-      "lng": 17.239,
+      "lat": 40784.0,
+      "lng": 17239.0,
       "price": "free",
       "rating": 4.8,
       "description": "Turistik dükkanların olmadığı, hala yerel halkın yaşadığı sakin ve otantik Trulli bölgesi.",
@@ -157,8 +157,8 @@
         "gotik",
         "mimari"
       ],
-      "lat": 40.829,
-      "lng": 16.553,
+      "lat": 40829.0,
+      "lng": 16553.0,
       "price": "free",
       "rating": 4.8,
       "description": "İmparator II. Friedrich tarafından yaptırılan, benzersiz portalı ile ünlü Gotik katedral. (15 dk mesafe)",
@@ -181,8 +181,8 @@
         "havuz",
         "tasarım"
       ],
-      "lat": 40.664,
-      "lng": 16.612,
+      "lat": 40664.0,
+      "lng": 16612.0,
       "price": "very_high",
       "rating": 4.8,
       "description": "Yeraltı sarnıçlarının yüzme havuzuna dönüştürüldüğü fütüristik tasarımlı spa oteli.",
@@ -203,8 +203,8 @@
         "cocktails",
         "vibes"
       ],
-      "lat": 40.664,
-      "lng": 16.611,
+      "lat": 40664.0,
+      "lng": 16611.0,
       "rating": 4.6,
       "description": "Akşamları canlanan, film seti gibi bir mekan. One of the right addresses to relieve the tiredness of the day and relax with a delicious coffee. The warm ambiance of the venue and the sweet surprises it offers will turn your break into pleasure.",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/matera/area_8.jpg",
@@ -213,7 +213,7 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Dışarıdaki masalarda oturup gelen geçeni izlemek çok keyifli.",
       "tips_en": "Sitting at outdoor tables and people-watching is very pleasant.",
-      "description_en": "Akşamları canlanan, film seti gibi bir mekan. One of the right addresses to relieve the tiredness of the day and relax with a delicious coffee. The warm ambiance of the venue and the sweet surprises it offers will turn your break into pleasure."
+      "description_en": "Akşamları canlanan, film seti gibi bir venue. One of the right addresses to relieand the tiredness of the day and relax with a delicious coffee. The warm ambiance of the andnue and the sweet surprises it offers will turn your break into pleasure."
     },
     {
       "name": "Baccanti",
@@ -223,7 +223,7 @@
         "creative",
         "wine"
       ],
-      "lat": 40.666,
+      "lat": 40666.0,
       "lng": 16.6085,
       "rating": 4.8,
       "description": "Yaratıcı Güney İtalyan mutfağı ve şarap. Yerel lezzetlerin tadına varmak ve keyifli bir akşam geçirmek için harika bir seçenek. Samimi atmosferi ve kaliteli hizmetiyle damak zevkinize hitap edecek unutulmaz bir deneyim sunuyor.",
@@ -246,8 +246,8 @@
         "teras",
         "geleneksel"
       ],
-      "lat": 40.665,
-      "lng": 16.609,
+      "lat": 40665.0,
+      "lng": 16609.0,
       "price": "medium",
       "rating": 4.4,
       "description": "Piazza Ridola'daki popüler kafe-bar, espresso ve aperitivo. Meydan manzarası, tarihi konum ve sosyal sahne.",
@@ -270,8 +270,8 @@
         "gece",
         "atıştırmalık"
       ],
-      "lat": 40.671,
-      "lng": 16.602,
+      "lat": 40671.0,
+      "lng": 16602.0,
       "price": "low",
       "rating": 4.6,
       "description": "Dondurma ve taze içecekler sunan yaz mekanı. Granita, meyveli içecekler ve serinletici mola.",
@@ -294,7 +294,7 @@
         "manzara",
         "ücretsiz"
       ],
-      "lat": 40.668,
+      "lat": 40668.0,
       "lng": 16.6065,
       "price": "free",
       "rating": 4.7,
@@ -319,7 +319,7 @@
         "fotoğraf"
       ],
       "lat": 40.7825,
-      "lng": 17.236,
+      "lng": 17236.0,
       "price": "free",
       "rating": 4.9,
       "description": "Binlerce koni çatılı trullo evini tepeden görebileceğiniz en iyi manzara noktası.",
@@ -341,7 +341,7 @@
         "hiking"
       ],
       "lat": 40.6645,
-      "lng": 16.619,
+      "lng": 16619.0,
       "rating": 4.9,
       "description": "Şehir manzarasının en iyi göründüğü karşı tepe. Şehrin en etkileyici manzaralarından birini sunan bu nokta, fotoğraf tutkunları için adeta bir cennet. Özellikle gün batımında büründüğü renkler, ziyaretçilere görsel bir şölen yaşatıyor.",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/matera/belvedere_di_murgia_timone.jpg",
@@ -350,7 +350,7 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Su ve rahat ayakkabı almayı kesinlikle unutmayın.",
       "tips_en": "Definitely don't forget water and comfortable shoes.",
-      "description_en": "Şehir manzarasının en iyi göründüğü karşı tepe. Offering one of the most impressive views of the city, this spot is a paradise for photography enthusiasts. The colors it takes on, especially at sunset, provide a visual feast for visitors."
+      "description_en": "Şehir manzarasının en iyi göründüğü karşı tepe. Offering one of the most impressiand views of the city, this spot is a paradise for photography enthusiasts. The colors it takes on, especially at sunset, provide a visual feast for visitors."
     },
     {
       "name": "Bernalda",
@@ -386,7 +386,7 @@
         "pub",
         "yerel"
       ],
-      "lat": 40.667,
+      "lat": 40667.0,
       "lng": 16.6065,
       "price": "medium",
       "rating": 4.5,
@@ -434,8 +434,8 @@
         "doğal",
         "meyveli"
       ],
-      "lat": 40.817,
-      "lng": 16.416,
+      "lat": 40817.0,
+      "lng": 16416.0,
       "price": "low",
       "rating": 4.7,
       "description": "Gravina'nın en sevilen dondurmacısı. Mevsim meyveleriyle yapılan sorbeleri harikadır.",
@@ -481,7 +481,7 @@
         "modern"
       ],
       "lat": 40.6675,
-      "lng": 16.609,
+      "lng": 16609.0,
       "price": "medium",
       "rating": 4.7,
       "description": "Eski bir tüf taş ocağının modern bir kültür merkezi ve oditoryuma dönüştürülmüş hali.",
@@ -505,7 +505,7 @@
         "harç"
       ],
       "lat": 40.7835,
-      "lng": 17.237,
+      "lng": 17237.0,
       "price": "free",
       "rating": 4.5,
       "description": "Harç kullanılarak (yasal olarak) yapılan ilk trullo binası. Özgürlüğün simgesidir.",
@@ -526,8 +526,8 @@
         "cave house",
         "life"
       ],
-      "lat": 40.663,
-      "lng": 16.613,
+      "lat": 40663.0,
+      "lng": 16613.0,
       "rating": 4.6,
       "description": "Eski mağara yaşamını gösteren mobilyalı müze ev. A must-see for art and history lovers, this museum stands out with its rich collection. The exhibited works will allow you to deeply understand the region's cultural heritage.",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/matera/casa_grotta_nei_sassi.jpg",
@@ -536,7 +536,7 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Sesli rehber (audio guide) kiralamak deneyimi ikiye katlar.",
       "tips_en": "Renting an audio guide doubles the experience.",
-      "description_en": "Eski mağara yaşamını gösteren mobilyalı müze ev. A must-see for art and history lovers, this museum stands out with its rich collection. The exhibited works will allow you to deeply understand the region's cultural heritage."
+      "description_en": "Eski mağara yaşamını gösteren mobilyalı museum ev. A must-see for art and history loandrs, this museum stands out with its rich collection. The exhibited works will allow you to deeply understand the region's cultural heritage."
     },
     {
       "name": "Casa Noha",
@@ -569,7 +569,7 @@
         "kale",
         "sekizgen"
       ],
-      "lat": 41.085,
+      "lat": 41085.0,
       "lng": 16.27,
       "price": "medium",
       "rating": 4.8,
@@ -830,8 +830,8 @@
         "kilise",
         "kemikler"
       ],
-      "lat": 40.816,
-      "lng": 16.418,
+      "lat": 40816.0,
+      "lng": 16418.0,
       "price": "low",
       "rating": 4.6,
       "description": "Kayaya oyulmuş ortaçağ kilisesi, Bizans freskleri ve mağara mimarisi. Dini miras ve arkeolojik değer.",
@@ -878,8 +878,8 @@
         "trulli",
         "ilginç"
       ],
-      "lat": 40.781,
-      "lng": 17.234,
+      "lat": 40781.0,
+      "lng": 17234.0,
       "price": "free",
       "rating": 4.6,
       "description": "Trullo mimarisiyle inşa edilmiş dünyadaki tek kilise. Koni şeklindeki kubbeleriyle çok ilginçtir.",
@@ -903,7 +903,7 @@
         "meydan"
       ],
       "lat": 40.6685,
-      "lng": 16.607,
+      "lng": 16607.0,
       "price": "free",
       "rating": 4.5,
       "description": "Gotik ve Romanesk mimarinin harmanlandığı ortaçağ kilisesi. Dini sanat, fresk kalıntıları ve tarihi atmosfer.",
@@ -927,7 +927,7 @@
         "bizans"
       ],
       "lat": 40.6695,
-      "lng": 16.611,
+      "lng": 16611.0,
       "price": "medium",
       "rating": 4.7,
       "description": "Sasso Barisano'da, çok iyi korunmuş fresklere sahip küçük ama etkileyici kaya kilisesi.",
@@ -950,8 +950,8 @@
         "kompleks",
         "tarih"
       ],
-      "lat": 40.665,
-      "lng": 16.613,
+      "lat": 40665.0,
+      "lng": 16613.0,
       "price": "medium",
       "rating": 4.7,
       "description": "Dört kayaya oyulmuş kiliseden oluşan kompleks, Bizans freskleri ve dini miras. Sassi'nin en iyi korunmuş mağara kiliseleri.",
@@ -995,7 +995,7 @@
         "terkedilmiş",
         "sinematik"
       ],
-      "lat": 40.378,
+      "lat": 40378.0,
       "lng": 16.44,
       "price": "low",
       "rating": 4.8,
@@ -1043,8 +1043,8 @@
         "taze",
         "atölye"
       ],
-      "lat": 40.666,
-      "lng": 16.609,
+      "lat": 40666.0,
+      "lng": 16609.0,
       "price": "medium",
       "rating": 4.6,
       "description": "Kendi yaptıkları taze makarnaları pişirip servis eden makarna atölyesi ve restoran.",
@@ -1068,7 +1068,7 @@
         "deneyim"
       ],
       "lat": 40.6635,
-      "lng": 16.614,
+      "lng": 16614.0,
       "price": "medium",
       "rating": 4.8,
       "description": "Mağara içinde kurulan yaratıcı gastronomi restoranı, modern İtalyan mutfağı. Fine-dining, sanat ve yeraltı deneyimi.",
@@ -1163,7 +1163,7 @@
         "tadım",
         "yerel"
       ],
-      "lat": 40.667,
+      "lat": 40667.0,
       "lng": 16.6055,
       "price": "medium",
       "rating": 4.6,
@@ -1259,8 +1259,8 @@
         "geleneksel",
         "tatlı"
       ],
-      "lat": 40.668,
-      "lng": 16.606,
+      "lat": 40668.0,
+      "lng": 16606.0,
       "price": "medium",
       "rating": 4.6,
       "description": "Artisan dondurma ve sorbe sunan geleneksel gelateria. Taze meyve tatları, İtalyan gelato sanatı ve yaz serinliği.",
@@ -1284,7 +1284,7 @@
         "efsane"
       ],
       "lat": 40.6665,
-      "lng": 16.607,
+      "lng": 16607.0,
       "price": "medium",
       "rating": 4.8,
       "description": "Artisan dondurma ve tatlılar sunan popüler dondurma dükkanı. Doğal malzemeler, yerel tatlar ve İtalyan gelato.",
@@ -1307,8 +1307,8 @@
         "zanaat",
         "hediyelik"
       ],
-      "lat": 40.668,
-      "lng": 16.608,
+      "lat": 40668.0,
+      "lng": 16608.0,
       "price": "medium",
       "rating": 4.8,
       "description": "Ahşap el sanatları ve oyuncak dükkanı, Pinocchio temalı ürünler. Hediyelik, İtalyan zanaatı ve nostaljik mağaza.",
@@ -1355,8 +1355,8 @@
         "tünel",
         "mahzen"
       ],
-      "lat": 40.818,
-      "lng": 16.417,
+      "lat": 40818.0,
+      "lng": 16417.0,
       "price": "medium",
       "rating": 4.8,
       "description": "Gravina di Puglia'daki yeraltı şehri turları. Mağaralar, kiliseler ve gizli geçitler.",
@@ -1378,7 +1378,7 @@
         "wildlife"
       ],
       "lat": 40.66,
-      "lng": 16.618,
+      "lng": 16618.0,
       "rating": 4.7,
       "description": "Şehrin hemen yanındaki dramatik kanyon. Doğayla iç içe, huzur dolu anlar yaşamak isteyenler için mükemmel bir kaçış noktası. Şehrin gürültüsünden uzaklaşıp nefes almak ve harika fotoğraflar çekmek için birebir.",
       "description_en": "Dramatic canyon right next to the city. A perfect getaway for those who want to experience peaceful moments in nature. Ideal for getting away from the city noise, taking a breath, and capturing great photos.",
@@ -1401,8 +1401,8 @@
         "lüks",
         "romantik"
       ],
-      "lat": 40.997,
-      "lng": 17.222,
+      "lat": 40997.0,
+      "lng": 17222.0,
       "price": "very_high",
       "rating": 4.5,
       "description": "Deniz üzerindeki doğal bir mağaranın içine kurulmuş, dünyanın en ünlü ve romantik restoranlarından biri.",
@@ -1473,8 +1473,8 @@
         "füzyon",
         "kokteyl"
       ],
-      "lat": 40.667,
-      "lng": 16.606,
+      "lat": 40667.0,
+      "lng": 16606.0,
       "price": "medium",
       "rating": 4.6,
       "description": "Edebiyat temalı dekorasyonlu bistro-bar, kokteyller ve hafif yemekler. Kitap rafları, rahat ortam ve akşam keyfi.",
@@ -1497,7 +1497,7 @@
         "bisküvi",
         "tarihi"
       ],
-      "lat": 40.667,
+      "lat": 40667.0,
       "lng": 16.6045,
       "price": "low",
       "rating": 4.7,
@@ -1521,8 +1521,8 @@
         "şehir",
         "tarih"
       ],
-      "lat": 40.669,
-      "lng": 16.607,
+      "lat": 40669.0,
+      "lng": 16607.0,
       "price": "medium",
       "rating": 4.7,
       "description": "Yeraltı sarnıç sistemini ve antik su mühendisliğini anlatan müze. Labirent tüneller, ortaçağ toplama sistemi ve arkeoloji.",
@@ -1543,7 +1543,7 @@
         "007",
         "guided"
       ],
-      "lat": 40.666,
+      "lat": 40666.0,
       "lng": 16.6045,
       "rating": 4.5,
       "description": "No Time to Die film çekim lokasyonları turu. Sıradan bir gezinin ötesine geçip unutulmaz anılar biriktirmek isteyenler için benzersiz bir fırsat. Bu aktivite, seyahatinize heyecan ve renk katarak size farklı bir perspektif kazandıracak.",
@@ -1567,7 +1567,7 @@
         "müze",
         "doğa"
       ],
-      "lat": 40.666,
+      "lat": 40666.0,
       "lng": 16.62,
       "price": "low",
       "rating": 4.5,
@@ -1591,8 +1591,8 @@
         "samimi",
         "lezzet"
       ],
-      "lat": 40.667,
-      "lng": 16.608,
+      "lat": 40667.0,
+      "lng": 16608.0,
       "price": "medium",
       "rating": 4.6,
       "description": "Lokal bitkiler ve bölgesel malzemelerle üretilen Matera cin markası. Damıtma turu, tadım ve yerel üretim.",
@@ -1615,8 +1615,8 @@
         "mağara",
         "müzik"
       ],
-      "lat": 40.666,
-      "lng": 16.607,
+      "lat": 40666.0,
+      "lng": 16607.0,
       "price": "medium",
       "rating": 4.5,
       "description": "Sassi'de modern kafe ve bar, espresso ve hafif öğle yemeği. Terrasa görünümü, brunch ve kahve kültürü.",
@@ -1639,8 +1639,8 @@
         "et",
         "yerel"
       ],
-      "lat": 40.664,
-      "lng": 16.612,
+      "lat": 40664.0,
+      "lng": 16612.0,
       "price": "medium",
       "rating": 4.6,
       "description": "Geleneksel Lucania (Basilicata) mutfağını en iyi temsil eden restoranlardan biri.",
@@ -1663,8 +1663,8 @@
         "hızlı",
         "lezzetli"
       ],
-      "lat": 40.666,
-      "lng": 16.608,
+      "lat": 40666.0,
+      "lng": 16608.0,
       "price": "low",
       "rating": 4.8,
       "description": "Deniz ürünleri ve balık yemekleriyle ünlü şık restoran. Taze malzemeler, Akdeniz lezzetleri ve fine-dining.",
@@ -1688,7 +1688,7 @@
         "sıcak"
       ],
       "lat": 40.6675,
-      "lng": 16.605,
+      "lng": 16605.0,
       "price": "low",
       "rating": 4.8,
       "description": "Taze pişmiş focaccia ve kahvaltı lezzetleri sunan sabah fırını. Yerel malzemeler, ev yapımı hamur işleri ve sabah enerjisi.",
@@ -1710,7 +1710,7 @@
         "budget"
       ],
       "lat": 40.6655,
-      "lng": 16.607,
+      "lng": 16607.0,
       "rating": 4.8,
       "description": "Ünlü Materan focacciası burada yenir. Yerel lezzetlerin tadına varmak ve keyifli bir akşam geçirmek için harika bir seçenek. Samimi atmosferi ve kaliteli hizmetiyle damak zevkinize hitap edecek unutulmaz bir deneyim sunuyor.",
       "description_en": "Famous Materan focaccia is eaten here. A great option to taste local flavors and spend a pleasant evening. It offers an unforgettable experience appealing to your palate with its friendly atmosphere and quality service.",
@@ -1732,8 +1732,8 @@
         "ekonomik",
         "kalabalık"
       ],
-      "lat": 40.664,
-      "lng": 16.611,
+      "lat": 40664.0,
+      "lng": 16611.0,
       "price": "low",
       "rating": 4.3,
       "description": "Mağara içinde kurulan otantik restoran, geleneksel Basilicata yemekleri. Yeraltı atmosferi, yerel tarifler ve şarap.",
@@ -1756,8 +1756,8 @@
         "gelenek",
         "yapım"
       ],
-      "lat": 40.665,
-      "lng": 16.612,
+      "lat": 40665.0,
+      "lng": 16612.0,
       "price": "low",
       "rating": 4.6,
       "description": "Güney İtalya köylü yaşamını sergileyen etnografik müze. Tarım aletleri, ev eşyaları ve kırsal miras.",
@@ -1804,7 +1804,7 @@
         "ikonik",
         "deniz"
       ],
-      "lat": 40.996,
+      "lat": 40996.0,
       "lng": 17.22,
       "price": "free",
       "rating": 4.7,
@@ -1852,8 +1852,8 @@
         "tarih",
         "tadımı"
       ],
-      "lat": 40.662,
-      "lng": 16.613,
+      "lat": 40662.0,
+      "lng": 16613.0,
       "price": "medium",
       "rating": 4.5,
       "description": "Zeytinyağı üretiminin tarihini ve geleneğini anlatan müze. Antik presler, tadım ve Basilicata gastromisi.",
@@ -1874,8 +1874,8 @@
         "art",
         "caves"
       ],
-      "lat": 40.667,
-      "lng": 16.612,
+      "lat": 40667.0,
+      "lng": 16612.0,
       "rating": 4.7,
       "description": "Mağaralar içine oyulmuş çağdaş heykel müzesi. A must-see for art and history lovers, this museum stands out with its rich collection. The exhibited works will allow you to deeply understand the region's cultural heritage.",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/matera/musma.jpg",
@@ -1884,7 +1884,7 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Bazı günler giriş ücretsiz olabilir, web sitesini kontrol edin.",
       "tips_en": "Entry might be free on some days, check the website.",
-      "description_en": "Mağaralar içine oyulmuş çağdaş heykel müzesi. A must-see for art and history lovers, this museum stands out with its rich collection. The exhibited works will allow you to deeply understand the region's cultural heritage.",
+      "description_en": "Mağaralar içine oyulmuş çağdaş heykel müzesi. A must-see for art and history loandrs, this museum stands out with its rich collection. The exhibited works will allow you to deeply understand the region's cultural heritage.",
       "name_en": "MUSMA Museum"
     },
     {
@@ -1950,7 +1950,7 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Öğle 12:00-15:00 arası siesta nedeniyle kapalı olabilir, ziyaretinizi buna göre planlayın.",
       "tips_en": "It might be closed for siesta between 12:00-15:00, plan your visit accordingly.",
-      "description_en": "Şehrin en yüksek noktasındaki 13. yüzyıl katedrali. A unique treasure for history buffs, this venue captivates visitors with details that shed light on the past. An ideal stop for those wishing to embark on a cultural journey."
+      "description_en": "Şehrin en yüksek noktasındaki 13. yüzyıl katedrali. A unique treasure for history buffs, this andnue captivates visitors with details that shed light on the past. An ideal stop for those wishing to embark on a cultural journey."
     },
     {
       "name": "Matera Central Station",
@@ -1963,7 +1963,7 @@
         "istasyon"
       ],
       "lat": 40.67,
-      "lng": 16.603,
+      "lng": 16603.0,
       "price": "free",
       "rating": 4.4,
       "description": "Ünlü mimar Stefano Boeri tarafından tasarlanan, Matera'nın modern yüzünü simgeleyen yeni tren istasyonu.",
@@ -2010,8 +2010,8 @@
         "taze",
         "yerel"
       ],
-      "lat": 40.672,
-      "lng": 16.598,
+      "lat": 40672.0,
+      "lng": 16598.0,
       "price": "low",
       "rating": 4.4,
       "description": "Yerel meyve ve sebzelerin satıldığı pazar. Taze ürünler, Basilicata tarımı ve yerel yaşam.",
@@ -2058,8 +2058,8 @@
         "barok",
         "manzara"
       ],
-      "lat": 40.669,
-      "lng": 16.607,
+      "lat": 40669.0,
+      "lng": 16607.0,
       "price": "free",
       "rating": 4.6,
       "description": "Ortaçağ manastırı, dini sanat ve mimari miras. Avlu, fresk kalıntıları ve tarihi atmosfer.",
@@ -2082,8 +2082,8 @@
         "şık",
         "romantik"
       ],
-      "lat": 40.665,
-      "lng": 16.605,
+      "lat": 40665.0,
+      "lng": 16605.0,
       "price": "high",
       "rating": 4.7,
       "description": "Modern İtalyan mutfağını geleneksel tariflerle harmanlayan şık restoran. Fine-dining, yerel malzemeler ve yaratıcı sunum.",
@@ -2173,8 +2173,8 @@
         "geleneksel",
         "mağara"
       ],
-      "lat": 40.663,
-      "lng": 16.612,
+      "lat": 40663.0,
+      "lng": 16612.0,
       "price": "medium",
       "rating": 4.6,
       "description": "Vejetaryen ve sağlıklı yemek seçenekleri sunan modern kafe. Organik malzemeler, smoothie ve hafif öğle yemeği.",
@@ -2195,7 +2195,7 @@
         "homemade",
         "terrace"
       ],
-      "lat": 40.665,
+      "lat": 40665.0,
       "lng": 16.6095,
       "rating": 4.6,
       "description": "Ev yapımı makarna ve terastan manzara. Yerel lezzetlerin tadına varmak ve keyifli bir akşam geçirmek için harika bir seçenek. Samimi atmosferi ve kaliteli hizmetiyle damak zevkinize hitap edecek unutulmaz bir deneyim sunuyor.",
@@ -2220,7 +2220,7 @@
         "mağara"
       ],
       "lat": 40.6695,
-      "lng": 16.608,
+      "lng": 16608.0,
       "price": "medium",
       "rating": 4.5,
       "description": "Eski bir peynir fabrikasından dönüştürülmüş mekanda harika pizza ve yöresel yemekler.",
@@ -2243,8 +2243,8 @@
         "rustik",
         "peynir"
       ],
-      "lat": 40.668,
-      "lng": 16.609,
+      "lat": 40668.0,
+      "lng": 16609.0,
       "price": "medium",
       "rating": 4.5,
       "description": "Çok katlı bir mağara sisteminde hizmet veren, peynir ve şarküteri tabaklarıyla ünlü mekan.",
@@ -2267,7 +2267,7 @@
         "yerel",
         "şık"
       ],
-      "lat": 40.666,
+      "lat": 40666.0,
       "lng": 16.6085,
       "price": "medium",
       "rating": 4.6,
@@ -2291,8 +2291,8 @@
         "tarih",
         "ortaçağ"
       ],
-      "lat": 40.664,
-      "lng": 16.611,
+      "lat": 40664.0,
+      "lng": 16611.0,
       "price": "medium",
       "rating": 4.6,
       "description": "Ortaçağ ve Modern Sanat Müzesi'ne ev sahipliği yapan muhteşem 17. yüzyıl sarayı.",
@@ -2315,8 +2315,8 @@
         "yönetim",
         "mimari"
       ],
-      "lat": 40.666,
-      "lng": 16.607,
+      "lat": 40666.0,
+      "lng": 16607.0,
       "price": "free",
       "rating": 4.4,
       "description": "Valilik binası, 19. yüzyıl mimarisi ve resmi yapı. Piazza Vittorio Veneto'da konumlu, şehir yönetimi.",
@@ -2337,7 +2337,7 @@
         "underground",
         "water"
       ],
-      "lat": 40.666,
+      "lat": 40666.0,
       "lng": 16.6075,
       "rating": 4.8,
       "description": "Meydanın altında gizli devasa yeraltı su sarnıcı. A unique treasure for history buffs, this venue captivates visitors with details that shed light on the past. An ideal stop for those wishing to embark on a cultural journey.",
@@ -2347,7 +2347,7 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Rehberli turla gezmek detayları anlamak için çok daha verimli.",
       "tips_en": "A guided tour is much more efficient to understand the details.",
-      "description_en": "Meydanın altında gizli devasa yeraltı su sarnıcı. A unique treasure for history buffs, this venue captivates visitors with details that shed light on the past. An ideal stop for those wishing to embark on a cultural journey."
+      "description_en": "Meydanın altında gizli devasa yeraltı su sarnıcı. A unique treasure for history buffs, this andnue captivates visitors with details that shed light on the past. An ideal stop for those wishing to embark on a cultural journey."
     },
     {
       "name": "Panificio Cifarelli",
@@ -2359,8 +2359,8 @@
         "ekmek",
         "kokusu"
       ],
-      "lat": 40.665,
-      "lng": 16.611,
+      "lat": 40665.0,
+      "lng": 16611.0,
       "price": "low",
       "rating": 4.7,
       "description": "Geleneksel Matera ekmeği ve fırın ürünleri. IGP korumalı pane di Matera, focaccia ve sabah lezzetleri.",
@@ -2384,7 +2384,7 @@
         "focaccia"
       ],
       "lat": 40.83,
-      "lng": 16.554,
+      "lng": 16554.0,
       "price": "low",
       "rating": 4.7,
       "description": "Dünyaca ünlü DOP Altamura Ekmeği'nin (Pane di Altamura) yapıldığı en eski fırınlardan biri.",
@@ -2408,7 +2408,7 @@
         "tarihi"
       ],
       "lat": 40.6685,
-      "lng": 16.604,
+      "lng": 16604.0,
       "price": "low",
       "rating": 4.8,
       "description": "Matera'nın ünlü ekmekçisi, geleneksel pane di Matera üretimi. Odun fırını, el yapımı ekmek ve sabah lezzetleri.",
@@ -2431,8 +2431,8 @@
         "dinlenme",
         "aile"
       ],
-      "lat": 40.662,
-      "lng": 16.602,
+      "lat": 40662.0,
+      "lng": 16602.0,
       "price": "free",
       "rating": 4.3,
       "description": "Şehir parkı, yürüyüş yolları ve dinlenme alanları. Aileler için yeşil alan, piknik ve açık hava.",
@@ -2501,7 +2501,7 @@
         "nature",
         "churches"
       ],
-      "lat": 40.665,
+      "lat": 40665.0,
       "lng": 16.62,
       "rating": 4.8,
       "description": "Kaya kiliseleriyle dolu doğa parkı. A perfect getaway for those who want to experience peaceful moments in nature. Ideal for getting away from the city noise, taking a breath, and capturing great photos.",
@@ -2525,7 +2525,7 @@
         "kahvaltı"
       ],
       "lat": 40.67,
-      "lng": 16.605,
+      "lng": 16605.0,
       "price": "medium",
       "rating": 4.5,
       "description": "Matera'nın en iyi pastanelerinden. Özellikle 'Tette delle Monache' (Rahibe Memesi) tatlısı efsanedir.",
@@ -2572,8 +2572,8 @@
         "konservatuar",
         "canlı"
       ],
-      "lat": 40.666,
-      "lng": 16.608,
+      "lat": 40666.0,
+      "lng": 16608.0,
       "price": "free",
       "rating": 4.6,
       "description": "Eskiden belediye binasının olduğu, şimdi müzik konservatuarına ev sahipliği yapan şirin meydan.",
@@ -2594,8 +2594,8 @@
         "sunset",
         "photo spot"
       ],
-      "lat": 40.665,
-      "lng": 16.608,
+      "lat": 40665.0,
+      "lng": 16608.0,
       "rating": 4.8,
       "description": "Gün batımı için mükemmel teras manzarası. Şehrin en etkileyici manzaralarından birini sunan bu nokta, fotoğraf tutkunları için adeta bir cennet. Özellikle gün batımında büründüğü renkler, ziyaretçilere görsel bir şölen yaşatıyor.",
       "description_en": "Perfect terrace view for sunset. Offering one of the most impressive views of the city, this spot is a paradise for photography enthusiasts. The colors it takes on, especially at sunset, provide a visual feast for visitors.",
@@ -2641,8 +2641,8 @@
         "james bond",
         "kanyon"
       ],
-      "lat": 40.815,
-      "lng": 16.415,
+      "lat": 40815.0,
+      "lng": 16415.0,
       "price": "free",
       "rating": 4.8,
       "description": "James Bond 'No Time to Die' filminde Daniel Craig'in atladığı ikonik kemerli köprü. (20 dk mesafe)",
@@ -2665,8 +2665,8 @@
         "doğa",
         "yürüyüş"
       ],
-      "lat": 40.664,
-      "lng": 16.618,
+      "lat": 40664.0,
+      "lng": 16618.0,
       "price": "free",
       "rating": 4.8,
       "description": "Gravina kanyonu üzerindeki asma köprü, tırmanış ve macera deneyimi. Panoramik manzara, adrenalin ve doğa.",
@@ -2690,7 +2690,7 @@
         "bakış"
       ],
       "lat": 40.6645,
-      "lng": 16.615,
+      "lng": 16615.0,
       "price": "free",
       "rating": 4.7,
       "description": "Sasso Caveoso'nun bittiği ve kanyon manzarasının başladığı doğal bir 'kapı' noktası.",
@@ -2737,7 +2737,7 @@
         "manzara",
         "şık"
       ],
-      "lat": 40.666,
+      "lat": 40666.0,
       "lng": 16.61,
       "price": "high",
       "rating": 4.6,
@@ -2785,8 +2785,8 @@
         "sokak",
         "alışveriş"
       ],
-      "lat": 40.783,
-      "lng": 17.235,
+      "lat": 40783.0,
+      "lng": 17235.0,
       "price": "free",
       "rating": 4.7,
       "description": "1000'den fazla trullo evinin bulunduğu, hediyelik eşya dükkanlarıyla dolu masalsı bölge.",
@@ -2817,7 +2817,7 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Nakite hazırlıklı olun, bazı yerel yerler kart kabul etmeyebilir.",
       "tips_en": "Be prepared with cash, some local places might not accept cards.",
-      "description_en": "Mağara içinde servis edilen yöresel makarna 'Orecchiette'. A great option to taste local flavors and spend a pleasant evening. It offers an unforgettable experience appealing to your palate with its friendly atmosphere and quality service."
+      "description_en": "Mağara içinde servis edwithn yöresel makarna 'Orecchiette'. A great option to taste local flavors and spend a pleasant eandning. It offers an unforgettable experience appealing to your palate with its friendly atmosphere and quality service."
     },
     {
       "name": "Ristorante Il Terrazzino",
@@ -2829,7 +2829,7 @@
         "geleneksel",
         "teras"
       ],
-      "lat": 40.667,
+      "lat": 40667.0,
       "lng": 16.6075,
       "price": "medium",
       "rating": 4.4,
@@ -2851,8 +2851,8 @@
         "norman",
         "medieval"
       ],
-      "lat": 40.668,
-      "lng": 16.605,
+      "lat": 40668.0,
+      "lng": 16605.0,
       "rating": 4.4,
       "description": "12. yüzyıl Norman mimarisi kilisesi. Tarih meraklıları için eşsiz bir hazine olan bu mekan, geçmişe ışık tutan detaylarıyla ziyaretçilerini büyülüyor. Kültürel bir yolculuğa çıkmak isteyenler için ideal bir durak.",
       "description_en": "12th century Norman architecture church. A unique treasure for history buffs, this venue captivates visitors with details that shed light on the past. An ideal stop for those wishing to embark on a cultural journey.",
@@ -2896,8 +2896,8 @@
         "rock",
         "cave"
       ],
-      "lat": 40.663,
-      "lng": 16.615,
+      "lat": 40663.0,
+      "lng": 16615.0,
       "rating": 4.6,
       "description": "Kayalara oyulmuş atmosferik mağara kilisesi. Tarih meraklıları için eşsiz bir hazine olan bu mekan, geçmişe ışık tutan detaylarıyla ziyaretçilerini büyülüyor. Kültürel bir yolculuğa çıkmak isteyenler için ideal bir durak.",
       "description_en": "Atmospheric rock-hewn cave church. A unique treasure for history buffs, this venue captivates visitors with details that shed light on the past. An ideal stop for those wishing to embark on a cultural journey.",
@@ -2975,7 +2975,7 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Rahat yürüyüş ayakkabıları şart, zemin çok kaygan olabilir. Gün batımında ışıkların yanışını izlemek büyülüdür.",
       "tips_en": "Comfortable walking shoes are a must, the ground can be slippery. Watching the lights turn on at sunset is magical.",
-      "description_en": "Binlerce yıllık mağara evlerden oluşan tarihi bölge. A unique treasure for history buffs, this venue captivates visitors with details that shed light on the past. An ideal stop for those wishing to embark on a cultural journey.",
+      "description_en": "Binlerce yıllık mağara evlerden oluşan historic bölge. A unique treasure for history buffs, this andnue captivates visitors with details that shed light on the past. An ideal stop for those wishing to embark on a cultural journey.",
       "source": "firebase"
     },
     {
@@ -2988,8 +2988,8 @@
         "taş",
         "hediyelik"
       ],
-      "lat": 40.664,
-      "lng": 16.613,
+      "lat": 40664.0,
+      "lng": 16613.0,
       "price": "medium",
       "rating": 4.6,
       "description": "Matera'nın Sassi mahallelerinin minyatür modellerini sergileyen atölye. Hediyelik, el yapımı ve detaylı çalışma.",
@@ -3012,7 +3012,7 @@
         "tadım",
         "mağara"
       ],
-      "lat": 40.664,
+      "lat": 40664.0,
       "lng": 16.6125,
       "price": "high",
       "rating": 4.6,
@@ -3036,8 +3036,8 @@
         "mum ışığı",
         "lüks"
       ],
-      "lat": 40.669,
-      "lng": 16.608,
+      "lat": 40669.0,
+      "lng": 16608.0,
       "price": "very_high",
       "rating": 4.9,
       "description": "Mağaraların orijinal dokusunu bozmadan restore edilen, sadece mum ışığıyla aydınlatılan efsanevi otel.",
@@ -3060,8 +3060,8 @@
         "füzyon",
         "modern"
       ],
-      "lat": 40.669,
-      "lng": 16.605,
+      "lat": 40669.0,
+      "lng": 16605.0,
       "price": "high",
       "rating": 4.5,
       "description": "Japon mutfağı ve sushi sunan modern restoran. Uzak Doğu lezzetleri, fusion yorumlar ve şık atmosfer.",
@@ -3105,7 +3105,7 @@
         "tarih",
         "yerel"
       ],
-      "lat": 40.673,
+      "lat": 40673.0,
       "lng": 16.6,
       "price": "medium",
       "rating": 4.2,
@@ -3129,8 +3129,8 @@
         "sinema",
         "manzara"
       ],
-      "lat": 40.665,
-      "lng": 16.612,
+      "lat": 40665.0,
+      "lng": 16612.0,
       "price": "free",
       "rating": 4.8,
       "description": "'The Passion of the Christ' filminde Hz. İsa'nın çarmıha gerilme yolunda yürüdüğü ikonik merdivenler.",
@@ -3199,8 +3199,8 @@
         "ruins",
         "history"
       ],
-      "lat": 40.669,
-      "lng": 16.602,
+      "lat": 40669.0,
+      "lng": 16602.0,
       "rating": 4.3,
       "description": "Yarım kalmış ortaçağ kalesi kalıntıları. Tarih meraklıları için eşsiz bir hazine olan bu mekan, geçmişe ışık tutan detaylarıyla ziyaretçilerini büyülüyor. Kültürel bir yolculuğa çıkmak isteyenler için ideal bir durak.",
       "description_en": "Unfinished medieval castle ruins. A unique treasure for history buffs, this venue captivates visitors with details that shed light on the past. An ideal stop for those wishing to embark on a cultural journey.",
@@ -3221,7 +3221,7 @@
         "cheap eats",
         "local"
       ],
-      "lat": 40.664,
+      "lat": 40664.0,
       "lng": 16.61,
       "rating": 4.5,
       "description": "Uygun fiyatlı geleneksel yöresel yemekler. Yerel lezzetlerin tadına varmak ve keyifli bir akşam geçirmek için harika bir seçenek. Samimi atmosferi ve kaliteli hizmetiyle damak zevkinize hitap edecek unutulmaz bir deneyim sunuyor.",
@@ -3244,8 +3244,8 @@
         "samimi",
         "lezzetli"
       ],
-      "lat": 40.666,
-      "lng": 16.606,
+      "lat": 40666.0,
+      "lng": 16606.0,
       "price": "medium",
       "rating": 4.6,
       "description": "Yerel halkın favori tratoriası, ev yapımı makarna ve bölgesel lezzetler. Otantik atmosfer, uygun fiyat ve doyurucu porsiyonlar.",
@@ -3268,8 +3268,8 @@
         "müze",
         "unesco"
       ],
-      "lat": 40.786,
-      "lng": 17.238,
+      "lat": 40786.0,
+      "lng": 17238.0,
       "price": "low",
       "rating": 4.6,
       "description": "Alberobello'nun tek iki katlı trullosu. İçi müze olarak gezilebilir. (55 dk mesafe)",
@@ -3363,7 +3363,7 @@
         "walk"
       ],
       "lat": 40.6655,
-      "lng": 16.611,
+      "lng": 16611.0,
       "rating": 4.6,
       "description": "Tarihi sokakta yürüyüş ve fotoğraf noktaları. Şehrin en etkileyici manzaralarından birini sunan bu nokta, fotoğraf tutkunları için adeta bir cennet. Özellikle gün batımında büründüğü renkler, ziyaretçilere görsel bir şölen yaşatıyor.",
       "description_en": "Walk and photo spots on historic street. Offering one of the most impressive views of the city, this spot is a paradise for photography enthusiasts. The colors it takes on, especially at sunset, provide a visual feast for visitors.",
@@ -3386,8 +3386,8 @@
         "mağaza",
         "yürüyüş"
       ],
-      "lat": 40.667,
-      "lng": 16.606,
+      "lat": 40667.0,
+      "lng": 16606.0,
       "price": "free",
       "rating": 4.5,
       "description": "Şık butikler, hediyelik eşya dükkanları ve kafelerle dolu tarihi alışveriş caddesi.",
@@ -3410,8 +3410,8 @@
         "tarih",
         "yaşam"
       ],
-      "lat": 40.663,
-      "lng": 16.613,
+      "lat": 40663.0,
+      "lng": 16613.0,
       "price": "low",
       "rating": 4.7,
       "description": "1950'lere kadar bir ailenin hayvanlarıyla birlikte nasıl yaşadığını gösteren müze ev.",
@@ -3434,8 +3434,8 @@
         "kazı",
         "tarih"
       ],
-      "lat": 40.665,
-      "lng": 16.621,
+      "lat": 40665.0,
+      "lng": 16621.0,
       "price": "free",
       "rating": 4.4,
       "description": "Neolitik dönem köy kalıntıları, prehistorik Matera yaşamı. Arkeolojik alan, kaya mezarları ve tarih öncesi.",
@@ -3458,7 +3458,7 @@
         "mağara",
         "yıldızlı"
       ],
-      "lat": 40.663,
+      "lat": 40663.0,
       "lng": 16.6145,
       "price": "very_high",
       "rating": 4.9,
@@ -3482,8 +3482,8 @@
         "adrenalin",
         "uçuş"
       ],
-      "lat": 40.525,
-      "lng": 16.055,
+      "lat": 40525.0,
+      "lng": 16055.0,
       "price": "high",
       "rating": 4.9,
       "description": "Castelmezzano ve Pietrapertosa arasında, vadinin üzerinden saatte 120 km hızla uçarak geçilen zipline.",
@@ -3505,7 +3505,7 @@
         "street food"
       ],
       "lat": 40.6665,
-      "lng": 16.609,
+      "lng": 16609.0,
       "rating": 4.8,
       "description": "Ayaküstü atıştırmak için harika Panzerotti'ler. One of the right addresses to relieve the tiredness of the day and relax with a delicious coffee. The warm ambiance of the venue and the sweet surprises it offers will turn your break into pleasure.",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/matera/zia_bruna.jpg",
@@ -3514,7 +3514,7 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Dışarıdaki masalarda oturup gelen geçeni izlemek çok keyifli.",
       "tips_en": "Sitting at outdoor tables and people-watching is very pleasant.",
-      "description_en": "Ayaküstü atıştırmak için harika Panzerotti'ler. One of the right addresses to relieve the tiredness of the day and relax with a delicious coffee. The warm ambiance of the venue and the sweet surprises it offers will turn your break into pleasure.",
+      "description_en": "Ayaküstü atıştırmak için harika Panzerotti'ler. One of the right addresses to relieand the tiredness of the day and relax with a delicious coffee. The warm ambiance of the andnue and the sweet surprises it offers will turn your break into pleasure.",
       "source": "firebase"
     }
   ],

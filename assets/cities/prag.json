@@ -299,8 +299,8 @@
         "klasik",
         "historic"
       ],
-      "lat": 50.082,
-      "lng": 14.419,
+      "lat": 50082.0,
+      "lng": 14419.0,
       "rating": 4.6,
       "description": "Kafka ve Einstein'ın uğrak yeri olan tarihi kafe. Günün yorgunluğunu atmak ve lezzetli bir kahve eşliğinde dinlenmek için en doğru adreslerden biri. Mekanın sıcak ambiyansı ve sunduğu tatlı sürprizler, molanızı keyfe dönüştürecek.",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/prag/cafe_louvre.jpg",
@@ -309,7 +309,7 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Sabah kahvaltısı için erken gitmekte fayda var, taze kruvasanlar bitiyor.",
       "tips_en": "Go early for breakfast, fresh croissants run out.",
-      "description_en": "Kafka ve Einstein'ın uğrak yeri olan tarihi kafe. One of the right addresses to relieve the tiredness of the day and relax with a delicious coffee. The warm ambiance of the venue and the sweet surprises it offers will turn your break into pleasure.",
+      "description_en": "Kafka and Einstein'ın uğrak yeri olan historic kafe. One of the right addresses to relieand the tiredness of the day and relax with a delicious coffee. The warm ambiance of the andnue and the sweet surprises it offers will turn your break into pleasure.",
       "name_en": "Café Louvre",
       "area": "Nove Mesto"
     },
@@ -730,7 +730,7 @@
         "manzara",
         "frank gehry"
       ],
-      "lat": 50.076,
+      "lat": 50076.0,
       "lng": 14.4135,
       "rating": 4.4,
       "description": "Frank Gehry tasarımı ikonik modern bina. Şehrin en etkileyici manzaralarından birini sunan bu nokta, fotoğraf tutkunları için adeta bir cennet. Özellikle gün batımında büründüğü renkler, ziyaretçilere görsel bir şölen yaşatıyor.",
@@ -740,7 +740,7 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Teleskop/dürbün varsa yanınıza alın.",
       "tips_en": "Bring a telescope/binoculars if you have them.",
-      "description_en": "Frank Gehry tasarımı ikonik modern bina. Offering one of the most impressive views of the city, this spot is a paradise for photography enthusiasts. The colors it takes on, especially at sunset, provide a visual feast for visitors.",
+      "description_en": "Frank Gehry tasarımı ikonik modern bina. Offering one of the most impressiand views of the city, this spot is a paradise for photography enthusiasts. The colors it takes on, especially at sunset, provide a visual feast for visitors.",
       "name_en": "Dancing House",
       "area": "Nove Mesto"
     },
@@ -918,7 +918,7 @@
         "creative"
       ],
       "lat": 50.0875,
-      "lng": 14.423,
+      "lng": 14423.0,
       "rating": 4.7,
       "description": "Michelin yıldızlı yaratıcı restoran. Yerel lezzetlerin tadına varmak ve keyifli bir akşam geçirmek için harika bir seçenek. Samimi atmosferi ve kaliteli hizmetiyle damak zevkinize hitap edecek unutulmaz bir deneyim sunuyor.",
       "description_en": "Michelin starred creative restaurant. A great option to taste local flavors and spend a pleasant evening. It offers an unforgettable experience appealing to your palate with its friendly atmosphere and quality service.",
@@ -986,7 +986,7 @@
         "kafka",
         "literature"
       ],
-      "lat": 50.088,
+      "lat": 50088.0,
       "lng": 14.4095,
       "rating": 4.4,
       "description": "Kafkaesk atmosferde yazar müzesi. Sanat ve tarih severlerin mutlaka görmesi gereken bu müze, zengin koleksiyonuyla dikkat çekiyor. Sergilenen eserler, bölgenin kültürel mirasını derinlemesine anlamanızı sağlayacak.",
@@ -1037,7 +1037,7 @@
         "tarihi"
       ],
       "lat": 50.0912,
-      "lng": 14.402,
+      "lng": 14402.0,
       "rating": 4.5,
       "description": "Renkli küçük evlerin olduğu tarihi sokak. Tarih meraklıları için eşsiz bir hazine olan bu mekan, geçmişe ışık tutan detaylarıyla ziyaretçilerini büyülüyor. Kültürel bir yolculuğa çıkmak isteyenler için ideal bir durak.",
       "description_en": "Historic street with colorful small houses. A unique treasure for history buffs, this venue captivates visitors with details that shed light on the past. An ideal stop for those wishing to embark on a cultural journey.",
@@ -1128,7 +1128,7 @@
         "cheap eats",
         "authentic"
       ],
-      "lat": 50.085,
+      "lat": 50085.0,
       "lng": 14.42,
       "rating": 4.3,
       "description": "Uygun fiyatlı geleneksel Çek yemekleri. Yerel lezzetlerin tadına varmak ve keyifli bir akşam geçirmek için harika bir seçenek. Samimi atmosferi ve kaliteli hizmetiyle damak zevkinize hitap edecek unutulmaz bir deneyim sunuyor.",
@@ -1195,7 +1195,7 @@
         "intimate"
       ],
       "lat": 50.0862,
-      "lng": 14.418,
+      "lng": 14418.0,
       "rating": 4.7,
       "description": "Dünyanın en iyi kokteyl barlarından biri. Günün yorgunluğunu atmak ve lezzetli bir kahve eşliğinde dinlenmek için en doğru adreslerden biri. Mekanın sıcak ambiyansı ve sunduğu tatlı sürprizler, molanızı keyfe dönüştürecek.",
       "description_en": "One of the world's best cocktail bars. One of the right addresses to relieve the tiredness of the day and relax with a delicious coffee. The warm ambiance of the venue and the sweet surprises it offers will turn your break into pleasure.",
@@ -1225,7 +1225,7 @@
       "price": "free",
       "rating": 4.5,
       "description": "Nerudova caddesindeki en ünlü bina. Çek şair Jan Neruda burada yaşamıştır. Cephesindeki iki güneş sembolü dikkat çeker.",
-      "description_en": "Most famous building on Nerudova street. Czech poet Jan Neruda lived here. Two sun symbols on its facade are notable.",
+      "description_en": "Most famous building on Nerudova street. Czech poet Jan Neruda liandd here. Two sun symbols on its facade are notable.",
       "bestTime": "Gündüz",
       "bestTime_en": "Daytime",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/prag/house_at_the_two_suns.jpg",
@@ -1356,7 +1356,7 @@
         "cemetery"
       ],
       "lat": 50.09,
-      "lng": 14.418,
+      "lng": 14418.0,
       "rating": 4.7,
       "description": "Sinagoglar ve tarihi Yahudi mezarlığı. Tarih meraklıları için eşsiz bir hazine olan bu mekan, geçmişe ışık tutan detaylarıyla ziyaretçilerini büyülüyor. Kültürel bir yolculuğa çıkmak isteyenler için ideal bir durak.",
       "description_en": "Synagogues and historic Jewish cemetery. A unique treasure for history buffs, this venue captivates visitors with details that shed light on the past. An ideal stop for those wishing to embark on a cultural journey.",
@@ -1490,7 +1490,7 @@
         "artists"
       ],
       "lat": 50.0815,
-      "lng": 14.414,
+      "lng": 14414.0,
       "rating": 4.4,
       "description": "Nehir manzaralı sanatçıların kafesi. Günün yorgunluğunu atmak ve lezzetli bir kahve eşliğinde dinlenmek için en doğru adreslerden biri. Mekanın sıcak ambiyansı ve sunduğu tatlı sürprizler, molanızı keyfe dönüştürecek.",
       "description_en": "Artists' cafe with river view. One of the right addresses to relieve the tiredness of the day and relax with a delicious coffee. The warm ambiance of the venue and the sweet surprises it offers will turn your break into pleasure.",
@@ -1683,7 +1683,7 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Gün doğumu burada büyüleyicidir, uykunuzdan feragat etmeye değer.",
       "tips_en": "Sunrise is magical here, worth sacrificing sleep.",
-      "description_en": "Beatles şarkıları ve graffitilerle dolu sanat duvarı. Offering one of the most impressive views of the city, this spot is a paradise for photography enthusiasts. The colors it takes on, especially at sunset, provide a visual feast for visitors."
+      "description_en": "Beatles şarkıları and graffitwithrle dolu sanat duvarı. Offering one of the most impressiand views of the city, this spot is a paradise for photography enthusiasts. The colors it takes on, especially at sunset, provide a visual feast for visitors."
     },
     {
       "name": "Lesser Town Bridge Towers",
@@ -1794,7 +1794,7 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Öğle yemeği menüleri genellikle akşamdan daha uygundur.",
       "tips_en": "Lunch menus are usually cheaper than dinner.",
-      "description_en": "En taze Çek birası ve ev yemekleri sunan popüler mekan. A great option to taste local flavors and spend a pleasant evening. It offers an unforgettable experience appealing to your palate with its friendly atmosphere and quality service."
+      "description_en": "En taze Çek birası and ev yemekleri sunan popüler venue. A great option to taste local flavors and spend a pleasant eandning. It offers an unforgettable experience appealing to your palate with its friendly atmosphere and quality service."
     },
     {
       "id": "loreta-prague",
@@ -2130,8 +2130,8 @@
         "soviet",
         "cold war"
       ],
-      "lat": 50.085,
-      "lng": 14.428,
+      "lat": 50085.0,
+      "lng": 14428.0,
       "rating": 4.4,
       "description": "Komünist dönem tarihi ve günlük yaşam. Sanat ve tarih severlerin mutlaka görmesi gereken bu müze, zengin koleksiyonuyla dikkat çekiyor. Sergilenen eserler, bölgenin kültürel mirasını derinlemesine anlamanızı sağlayacak.",
       "description_en": "Communist era history and daily life. A must-see for art and history lovers, this museum stands out with its rich collection. The exhibited works will allow you to deeply understand the region's cultural heritage.",
@@ -2227,7 +2227,7 @@
         "palaces"
       ],
       "lat": 50.0905,
-      "lng": 14.401,
+      "lng": 14401.0,
       "rating": 4.5,
       "description": "Birden fazla sarayda dağıtılan sanat koleksiyonları. Sanat ve tarih severlerin mutlaka görmesi gereken bu müze, zengin koleksiyonuyla dikkat çekiyor. Sergilenen eserler, bölgenin kültürel mirasını derinlemesine anlamanızı sağlayacak.",
       "description_en": "Art collections spread across multiple palaces. A must-see for art and history lovers, this museum stands out with its rich collection. The exhibited works will allow you to deeply understand the region's cultural heritage.",
@@ -2386,7 +2386,7 @@
         "history"
       ],
       "lat": 50.0905,
-      "lng": 14.401,
+      "lng": 14401.0,
       "rating": 4.5,
       "description": "Vladislav Hall ve Rönesans mimarisi. Tarih meraklıları için eşsiz bir hazine olan bu mekan, geçmişe ışık tutan detaylarıyla ziyaretçilerini büyülüyor. Kültürel bir yolculuğa çıkmak isteyenler için ideal bir durak.",
       "description_en": "Vladislav Hall and Renaissance architecture. A unique treasure for history buffs, this venue captivates visitors with details that shed light on the past. An ideal stop for those wishing to embark on a cultural journey.",
@@ -2439,7 +2439,7 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Rüzgarlı olabilir, yanınıza ince bir ceket alın.",
       "tips_en": "It can be windy, bring a light jacket.",
-      "description_en": "Astronomik Saat Kulesi'nin bulunduğu tarihi meydan. Offering one of the most impressive views of the city, this spot is a paradise for photography enthusiasts. The colors it takes on, especially at sunset, provide a visual feast for visitors."
+      "description_en": "Astronomik Saat Kulesi'nin bulunduğu historic meydan. Offering one of the most impressiand views of the city, this spot is a paradise for photography enthusiasts. The colors it takes on, especially at sunset, provide a visual feast for visitors."
     },
     {
       "name": "Old-New Synagogue",
@@ -2588,7 +2588,7 @@
         "tower"
       ],
       "lat": 50.0833,
-      "lng": 14.395,
+      "lng": 14395.0,
       "rating": 4.7,
       "description": "Şehri tepeden gören, Eiffel benzeri kulesi olan yeşil alan. A perfect getaway for those who want to experience peaceful moments in nature. Ideal for getting away from the city noise, taking a breath, and capturing great photos.",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/prag/petin_tepesi.jpg",
@@ -3110,7 +3110,7 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Sabah erken saatlerde giderek turist kalabalığından kaçınabilirsiniz.",
       "tips_en": "Go early in the morning to avoid tourist crowds.",
-      "description_en": "Kale içindeki muazzam gotik katedral. A unique treasure for history buffs, this venue captivates visitors with details that shed light on the past. An ideal stop for those wishing to embark on a cultural journey."
+      "description_en": "Kale içindeki muazzam gotik katedral. A unique treasure for history buffs, this andnue captivates visitors with details that shed light on the past. An ideal stop for those wishing to embark on a cultural journey."
     },
     {
       "name": "Stalin (Metronome)",
@@ -3670,7 +3670,7 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Çok popüler olduğu için rezervasyon yapmak veya erken gitmek şart.",
       "tips_en": "Since it's very popular, reservation or going early is a must.",
-      "description_en": "Modern Prag'ın alışveriş ve iş merkezi. A place you must stop by to discover region-specific products and buy gifts for your loved ones. Colorful shops and a lively atmosphere will make your shopping experience much more enjoyable."
+      "description_en": "Modern Prag'ın alışandriş and iş merkezi. A place you must stop by to discoandr region-specific products and buy gifts for your loandd ones. Colorful shops and a liandly atmosphere will make your shopping experience much more enjoyable."
     },
     {
       "name": "Villa Müller",

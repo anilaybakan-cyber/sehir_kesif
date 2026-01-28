@@ -356,8 +356,8 @@
         "boat route",
         "lake access"
       ],
-      "lat": 52.745,
-      "lng": 6.083,
+      "lat": 52745.0,
+      "lng": 6083.0,
       "rating": 4.7,
       "description": "Kuzey yönünde sakin tekne rotası. Şehrin en etkileyici manzaralarından birini sunan bu nokta, fotoğraf tutkunları için adeta bir cennet. Özellikle gün batımında büründüğü renkler, ziyaretçilere görsel bir şölen yaşatıyor.",
       "description_en": "Southern boat route leading to the lake. Offering one of the most impressive views of the city, this spot is a paradise for photography enthusiasts. The colors it takes on, especially at sunset, provide a visual feast for visitors.",
@@ -421,7 +421,7 @@
         "sailing",
         "nature"
       ],
-      "lat": 52.735,
+      "lat": 52735.0,
       "lng": 6.09,
       "rating": 4.7,
       "description": "Tekneyle açılmak için geniş ve sığ göl. A perfect getaway for those who want to experience peaceful moments in nature. Ideal for getting away from the city noise, taking a breath, and capturing great photos.",
@@ -431,7 +431,7 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Güneş kremi ve şapka almayı unutmayın.",
       "tips_en": "Don't forget sunscreen and a hat.",
-      "description_en": "Tekneyle açılmak için geniş ve sığ göl. A perfect getaway for those who want to experience peaceful moments in nature. Ideal for getting away from the city noise, taking a breath, and capturing great photos.",
+      "description_en": "Tekneyle açılmak için geniş and sığ göl. A perfect getaway for those who want to experience peaceful moments in nature. Ideal for getting away from the city noise, taking a breath, and capturing great photos.",
       "source": "firebase"
     },
     {
@@ -573,8 +573,8 @@
         "teras",
         "merkez"
       ],
-      "lat": 52.739,
-      "lng": 6.081,
+      "lat": 52739.0,
+      "lng": 6081.0,
       "price": "medium",
       "rating": 4.3,
       "description": "Giethoorn'un ana su yolu, teknelerin geçtiği ve kanal evlerinin sıralandığı pitoresk kanal. Şişme motorlu tekneler yasak, sadece elektrikli veya kürekli tekneler.",
@@ -870,8 +870,8 @@
         "fine dining",
         "luxury"
       ],
-      "lat": 52.745,
-      "lng": 6.075,
+      "lat": 52745.0,
+      "lng": 6075.0,
       "rating": 4.9,
       "description": "2 Michelin yıldızlı üst düzey gastronomi deneyimi. Yerel lezzetlerin tadına varmak ve keyifli bir akşam geçirmek için harika bir seçenek. Samimi atmosferi ve kaliteli hizmetiyle damak zevkinize hitap edecek unutulmaz bir deneyim sunuyor.",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/de_lindenhof.jpg",
@@ -880,7 +880,7 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Nakite hazırlıklı olun, bazı yerel yerler kart kabul etmeyebilir.",
       "tips_en": "Be prepared with cash, some local places might not accept cards.",
-      "description_en": "2 Michelin yıldızlı üst düzey gastronomi deneyimi. A great option to taste local flavors and spend a pleasant evening. It offers an unforgettable experience appealing to your palate with its friendly atmosphere and quality service.",
+      "description_en": "2 Michelin yıldızlı üst düzey gastronomi experiencei. A great option to taste local flavors and spend a pleasant eandning. It offers an unforgettable experience appealing to your palate with its friendly atmosphere and quality service.",
       "source": "firebase"
     },
     {
@@ -935,7 +935,7 @@
         "shop"
       ],
       "lat": 52.7375,
-      "lng": 6.079,
+      "lng": 6079.0,
       "rating": 4.5,
       "description": "Değerli taşlar ve mineraller müzesi. Sanat ve tarih severlerin mutlaka görmesi gereken bu müze, zengin koleksiyonuyla dikkat çekiyor. Sergilenen eserler, bölgenin kültürel mirasını derinlemesine anlamanızı sağlayacak.",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/de_oude_aarde.jpg",
@@ -944,7 +944,7 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Sesli rehber (audio guide) kiralamak deneyimi ikiye katlar.",
       "tips_en": "Renting an audio guide doubles the experience.",
-      "description_en": "Değerli taşlar ve mineraller müzesi. A must-see for art and history lovers, this museum stands out with its rich collection. The exhibited works will allow you to deeply understand the region's cultural heritage.",
+      "description_en": "Değerli taşlar and mineraller müzesi. A must-see for art and history loandrs, this museum stands out with its rich collection. The exhibited works will allow you to deeply understand the region's cultural heritage.",
       "source": "firebase"
     },
     {
@@ -1216,8 +1216,8 @@
         "elektrikli",
         "eğlence"
       ],
-      "lat": 52.742,
-      "lng": 6.085,
+      "lat": 52742.0,
+      "lng": 6085.0,
       "price": "medium",
       "rating": 4.6,
       "description": "Elektrikli scooter kiralama noktası, çevreyi sessiz ve çevre dostu şekilde keşfetmek için. Kalenberg, Belt-Schutsloot ve çevre köylere eğlenceli ulaşım.",
@@ -1260,8 +1260,8 @@
         "scenic",
         "path"
       ],
-      "lat": 52.738,
-      "lng": 6.085,
+      "lat": 52738.0,
+      "lng": 6085.0,
       "rating": 4.7,
       "description": "Kanalların yanından giden ünlü bisiklet yolu. Şehrin en etkileyici manzaralarından birini sunan bu nokta, fotoğraf tutkunları için adeta bir cennet. Özellikle gün batımında büründüğü renkler, ziyaretçilere görsel bir şölen yaşatıyor.",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/fietspad__bike_path_.jpg",
@@ -1270,7 +1270,7 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Rüzgarlı olabilir, yanınıza ince bir ceket alın.",
       "tips_en": "It can be windy, bring a light jacket.",
-      "description_en": "Kanalların yanından giden ünlü bisiklet yolu. Offering one of the most impressive views of the city, this spot is a paradise for photography enthusiasts. The colors it takes on, especially at sunset, provide a visual feast for visitors.",
+      "description_en": "Kanalların yanından giden famous bisiklet yolu. Offering one of the most impressiand views of the city, this spot is a paradise for photography enthusiasts. The colors it takes on, especially at sunset, provide a visual feast for visitors.",
       "source": "firebase",
       "name_en": "Fietspad Bike Path"
     },
@@ -1493,7 +1493,7 @@
         "souvenirs",
         "sea"
       ],
-      "lat": 52.739,
+      "lat": 52739.0,
       "lng": 6.08,
       "rating": 4.4,
       "description": "Deniz kabukları ve mercan galerisi. Bölgeye özgü ürünleri keşfetmek ve sevdiklerinize hediyeler almak için uğramanız gereken bir yer. Renkli dükkanlar ve canlı atmosfer, alışveriş deneyiminizi çok daha keyifli hale getirecek.",
@@ -1503,7 +1503,7 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Pazar günleri kapalı olabilir, kontrol edin.",
       "tips_en": "Might be closed on Sundays, do check.",
-      "description_en": "Deniz kabukları ve mercan galerisi. A place you must stop by to discover region-specific products and buy gifts for your loved ones. Colorful shops and a lively atmosphere will make your shopping experience much more enjoyable.",
+      "description_en": "Deniz kabukları and mercan galerisi. A place you must stop by to discoandr region-specific products and buy gifts for your loandd ones. Colorful shops and a liandly atmosphere will make your shopping experience much more enjoyable.",
       "source": "firebase"
     },
     {
@@ -1556,7 +1556,7 @@
         "famous",
         "classic"
       ],
-      "lat": 52.741,
+      "lat": 52741.0,
       "lng": 6.0815,
       "rating": 4.6,
       "description": "Ünlü Hollanda filmine konu olmuş tarihi kafe. One of the right addresses to relieve the tiredness of the day and relax with a delicious coffee. The warm ambiance of the venue and the sweet surprises it offers will turn your break into pleasure.",
@@ -1566,7 +1566,7 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Dışarıdaki masalarda oturup gelen geçeni izlemek çok keyifli.",
       "tips_en": "Sitting at outdoor tables and people-watching is very pleasant.",
-      "description_en": "Ünlü Hollanda filmine konu olmuş tarihi kafe. One of the right addresses to relieve the tiredness of the day and relax with a delicious coffee. The warm ambiance of the venue and the sweet surprises it offers will turn your break into pleasure.",
+      "description_en": "famous Hollanda filmine konu olmuş historic kafe. One of the right addresses to relieand the tiredness of the day and relax with a delicious coffee. The warm ambiance of the andnue and the sweet surprises it offers will turn your break into pleasure.",
       "source": "firebase"
     },
     {
@@ -1683,7 +1683,7 @@
         "antique"
       ],
       "lat": 52.7355,
-      "lng": 6.087,
+      "lng": 6087.0,
       "rating": 4.4,
       "description": "Antika otomobil ve motorsiklet koleksiyonu. Sanat ve tarih severlerin mutlaka görmesi gereken bu müze, zengin koleksiyonuyla dikkat çekiyor. Sergilenen eserler, bölgenin kültürel mirasını derinlemesine anlamanızı sağlayacak.",
       "description_en": "Antique car and motorcycle collection. A must-see for art and history lovers, this museum stands out with its rich collection. The exhibited works will allow you to deeply understand the region's cultural heritage.",
@@ -1853,8 +1853,8 @@
         "farm",
         "tasting"
       ],
-      "lat": 52.743,
-      "lng": 6.075,
+      "lat": 52743.0,
+      "lng": 6075.0,
       "rating": 4.6,
       "description": "Peynir çiftliğinde tadım ve üretim izleme. Sıradan bir gezinin ötesine geçip unutulmaz anılar biriktirmek isteyenler için benzersiz bir fırsat. Bu aktivite, seyahatinize heyecan ve renk katarak size farklı bir perspektif kazandıracak.",
       "description_en": "Cheese tasting and production viewing at farm. A unique opportunity for those who want to go beyond an ordinary trip and collect unforgettable memories. This activity will add excitement and color to your travel, giving you a different perspective.",
@@ -2260,8 +2260,8 @@
         "farm",
         "local"
       ],
-      "lat": 52.742,
-      "lng": 6.082,
+      "lat": 52742.0,
+      "lng": 6082.0,
       "rating": 4.6,
       "description": "Tarihi bir çiftlik evinde kurulan bu müze, Giethoorn'un son yüzyıldaki yaşam tarzını ve turba çıkarma tarihini gözler önüne seriyor. Geleneksel kostümler ve ev eşyalarıyla donatılmış odalarda geçmişe yolculuk yapabilirsiniz.",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/museum_giethoorn__t_olde_maat_uus.jpg",
@@ -2638,7 +2638,7 @@
         "traditional",
         "punter"
       ],
-      "lat": 52.741,
+      "lat": 52741.0,
       "lng": 6.0805,
       "rating": 4.7,
       "description": "Geleneksel kayıkla rehberli kanal turu. Sıradan bir gezinin ötesine geçip unutulmaz anılar biriktirmek isteyenler için benzersiz bir fırsat. Bu aktivite, seyahatinize heyecan ve renk katarak size farklı bir perspektif kazandıracak.",
@@ -2702,8 +2702,8 @@
         "nature",
         "peace"
       ],
-      "lat": 52.742,
-      "lng": 6.082,
+      "lat": 52742.0,
+      "lng": 6082.0,
       "rating": 4.6,
       "description": "Kanallar arasında doğal saz adaları. Doğayla iç içe, huzur dolu anlar yaşamak isteyenler için mükemmel bir kaçış noktası. Şehrin gürültüsünden uzaklaşıp nefes almak ve harika fotoğraflar çekmek için birebir.",
       "description_en": "Natural reed islands among the canals. A perfect getaway for those who want to experience peaceful moments in nature. Ideal for getting away from the city noise, taking a breath, and capturing great photos.",
@@ -2896,8 +2896,8 @@
         "kanal",
         "romantik"
       ],
-      "lat": 52.738,
-      "lng": 6.079,
+      "lat": 52738.0,
+      "lng": 6079.0,
       "price": "medium",
       "rating": 4.5,
       "description": "Giethoorn'da İtalyan mutfağı sunan, pizza ve makarna çeşitleriyle ünlü restoran. Kanal manzarası, açık hava terası ve Akdeniz lezzetleri.",
@@ -3108,8 +3108,8 @@
         "traditional",
         "lunch"
       ],
-      "lat": 52.734,
-      "lng": 6.088,
+      "lat": 52734.0,
+      "lng": 6088.0,
       "rating": 4.5,
       "description": "Göl kenarında harika manzaralı restoran. A great option to taste local flavors and spend a pleasant evening. It offers an unforgettable experience appealing to your palate with its friendly atmosphere and quality service.",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/giethoorn/smit_s_paviljoen.jpg",
@@ -3118,7 +3118,7 @@
       "bestTime_en": "09:00 - 18:00",
       "tips": "Yerel şarapları denemenizi öneririz.",
       "tips_en": "We recommend trying local wines.",
-      "description_en": "Göl kenarında harika manzaralı restoran. A great option to taste local flavors and spend a pleasant evening. It offers an unforgettable experience appealing to your palate with its friendly atmosphere and quality service.",
+      "description_en": "Göl kenarında harika manzaralı restoran. A great option to taste local flavors and spend a pleasant eandning. It offers an unforgettable experience appealing to your palate with its friendly atmosphere and quality service.",
       "source": "firebase",
       "name_en": "Smit's Paviljoen (Lunch)"
     },
@@ -3236,7 +3236,7 @@
         "photography"
       ],
       "lat": 52.7395,
-      "lng": 6.081,
+      "lng": 6081.0,
       "rating": 4.8,
       "description": "Gün batımını izlemek için en iyi nokta. Şehrin en etkileyici manzaralarından birini sunan bu nokta, fotoğraf tutkunları için adeta bir cennet. Özellikle gün batımında büründüğü renkler, ziyaretçilere görsel bir şölen yaşatıyor.",
       "description_en": "Best spot for watching sunset. Offering one of the most impressive views of the city, this spot is a paradise for photography enthusiasts. The colors it takes on, especially at sunset, provide a visual feast for visitors.",
