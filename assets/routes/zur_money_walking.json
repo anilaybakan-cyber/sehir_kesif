@@ -1,0 +1,541 @@
+{
+  "routes": [
+    {
+      "overview_polyline": {
+        "points": "mic`Hmtbs@u@RE@E@IBG?C@E@@F?J@FHvA?PBBFHLb@PZRZDF\\j@BDHLJP`@r@FJLXDFHPHNBD\\j@r@fADFLRHQDIf@_Al@iA~AsCFOLUz@_BN[DIVi@BC@CHMLMBCBC~@y@LMd@a@n@k@h@i@ZUPO~AuALMd@e@JINMNEFKFGRYDEBABCFGFIDKDBFFJNNVJRN^DHRh@z@tBHVFJDL@@FPfBpEl@vAN^Tj@L\\DJr@fBnA`DL\\FR^CLAD?j@Cl@Cb@CZCF?xCK`AALAn@CL?dAEj@AXAh@A|@Al@CHAt@CF?f@AnBEvAEr@D\\H`@JRHlAv@lAp@dAd@\\JPDRFz@Pj@JB@l@LbAN|@HdAFvA@hC@~AA~AItBMjAG~@ElBCp@?zB?F?vAAXAN?vAA|@@fDCxA?z@AlA?`@Ab@ElAK^EXIZMZUd@YXS^WREDCb@YFEd@Yd@c@BABCPMx@k@`@WbAq@BADEx@g@|@g@f@UDCb@QvAk@x@[`@OdDsALGXKh@U|@]ZKl@WvAk@\\OjBw@jAm@JGn@c@VSj@g@p@w@f@s@^m@PYHKVa@f@u@JQZg@JQPUVa@BEDGfAcB^k@d@q@|@qAt@_Ad@k@VWPWf@i@j@k@HKHGNMjAy@PKpCkBjBoAxAaAfAu@TQDCXSt@c@LG`@Sh@SbAa@`A_@d@QLGd@STIh@Qf@O~@Y??jBe@jBo@rB_AnCqAfAc@dAc@bAc@t@[ZMz@a@TIPIZKDA\\MPEHATE\\GzBa@j@Ip@Ql@Sj@YrAw@h@]f@YJGTORMJGTMHEDCd@Yd@_@\\YNQTWDGLONUJMT]v@cAX_@v@eAHMr@aAPU^a@VQZQRMTvATnALx@DTSHWJULDTJz@BDjBfBF~@G_AiAgAa@_@CEK{@EUm@b@_@XE@A?C?ECUs@GQQi@Uq@EIILw@dAY^w@bAU\\KLOTMNEFUVOP]Xe@^e@XEBIDULKFSLUNKFg@Xi@\\sAv@k@Xm@Rq@Pk@H{B`@]FUDI@QD]LE@[JQHUH{@`@[Lu@ZcAb@eAb@gAb@oCpAsB~@kBn@kBd@??_AXg@Ni@PUHe@RMFe@PaA^cA`@i@Ra@RMFu@b@YREBUPgAt@yA`AkBnAqCjBQJkAx@OLIFIJk@j@g@h@QVWVe@j@u@~@}@pAe@p@_@j@gAbBEFCDW`@QTKP[f@KPg@t@W`@IJQX_@l@g@r@q@v@k@f@WRo@b@KFkAl@kBv@]NwAj@m@V[J}@\\i@TYJMFeDrAa@Ny@ZwAj@c@PEBg@T}@f@y@f@EDC@cAp@a@Vy@j@QLCBC@i@Ve@Ts@b@MT_@VYRe@X[T[LYH_@DmAJc@Da@@mA?{@@yA?gDB}@AwA@O?Y@wA@G?{B?q@?mBB_ADkAFuBL_BH_B@iCAwAAeAG}@IcAOm@MCAk@K{@QSGQE]KeAe@IJUB[?a@?O?E?e@@k@FkE^O@g@FQB_BNsCVYDSBs@DyAPe@B]DeBNi@F_@DSDODWFWF{@TKBU@G?YFWJsChA}Ap@A@E@GDG@WD{@^mAh@EG{@mDCKCKCGGW[mA[mACKEMCMc@cBCKGWMHIFa@Vi@\\cAp@IF]PYJI@[JWHaAT[HKBwA^]JQFMHKHIHA@EDKNMOGIq@eAMUEGEGa@s@c@s@c@s@CEMSMSEGs@gA]k@CEIOIQEGMYGKa@s@KQHKFMBELQ^k@FKbA{ABAHGb@nAVt@BF@DtAoBHOHMx@gAPYXc@DI@E@GNFJDDDBDBDHMRYPWZU\\UTUUTy@j@QVSXILHL\\f@FHHLJNb@r@P\\BDP`@DJHPb@hAFRDRPj@Ld@H^LfAXRDBBAn@c@XULITOd@]DELICO_A}DAGGUGQYsAEQCUCYIy@QkBCYE[S_B?GEWUFeAZm@Nm@PeAVIBUD[DM?K@AK?GOuB"
+      },
+      "legs": [
+        {
+          "distance": {
+            "value": 15908.9,
+            "text": "15.9 km"
+          },
+          "duration": {
+            "value": 1772.5,
+            "text": "29 mins"
+          },
+          "steps": [
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 53.4
+              },
+              "duration": {
+                "value": 13
+              },
+              "polyline": {
+                "points": "mic`Hmtbs@u@RE@E@IBG?C@E@"
+              },
+              "html_instructions": "depart Bahnhofstrasse"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 51.6
+              },
+              "duration": {
+                "value": 11.9
+              },
+              "polyline": {
+                "points": "klc`Hmsbs@@F?J@FHvA?P"
+              },
+              "html_instructions": "turn Pelikanstrasse"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 251.2
+              },
+              "duration": {
+                "value": 43.9
+              },
+              "polyline": {
+                "points": "}kc`Hgobs@BBFHLb@PZRZDF\\j@BDHLJP`@r@FJLXDFHPHNBD\\j@r@fADFLR"
+              },
+              "html_instructions": "continue Pelikanstrasse"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 638.3
+              },
+              "duration": {
+                "value": 71.8
+              },
+              "polyline": {
+                "points": "cbc`Hi`bs@HQDIf@_Al@iA~AsCFOLUz@_BN[DIVi@BC@CHMLMBCBC~@y@LMd@a@n@k@h@i@ZUPO~AuALMd@e@JINMNEFKFGRYDEBABCFGFIDK"
+              },
+              "html_instructions": "turn Talstrasse"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 510.8
+              },
+              "duration": {
+                "value": 57.4
+              },
+              "polyline": {
+                "points": "sfb`Hkacs@DBFFJNNVJRN^DHRh@z@tBHVFJDL@@FPfBpEl@vAN^Tj@L\\DJr@fBnA`DL\\FR"
+              },
+              "html_instructions": "turn General-Guisan-Quai"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 114.9
+              },
+              "duration": {
+                "value": 12.4
+              },
+              "polyline": {
+                "points": "kua`Hw_bs@^CLAD?j@Cl@Cb@CZC"
+              },
+              "html_instructions": "continue General-Guisan-Quai"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 2146.2
+              },
+              "duration": {
+                "value": 194.9
+              },
+              "polyline": {
+                "points": "}na`Hm`bs@F?xCK`AALAn@CL?dAEj@AXAh@A|@Al@CHAt@CF?f@AnBEvAEr@D\\H`@JRHlAv@lAp@dAd@\\JPDRFz@Pj@JB@l@LbAN|@HdAFvA@hC@~AA~AItBMjAG~@ElBCp@?zB?F?vAAXAN?vAA|@@fDCxA?z@AlA?`@Ab@ElAK^EXIZMZUd@YXS^WREDCb@YFEd@Y"
+              },
+              "html_instructions": "new name Mythenquai"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 3399.5
+              },
+              "duration": {
+                "value": 313.7
+              },
+              "polyline": {
+                "points": "ex}_Hkabs@d@c@BABCPMx@k@`@WbAq@BADEx@g@|@g@f@UDCb@QvAk@x@[`@OdDsALGXKh@U|@]ZKl@WvAk@\\OjBw@jAm@JGn@c@VSj@g@p@w@f@s@^m@PYHKVa@f@u@JQZg@JQPUVa@BEDGfAcB^k@d@q@|@qAt@_Ad@k@VWPWf@i@j@k@HKHGNMjAy@PKpCkBjBoAxAaAfAu@TQDCXSt@c@LG`@Sh@SbAa@`A_@d@QLGd@STIh@Qf@O~@Y??jBe@jBo@rB_AnCqAfAc@dAc@bAc@t@[ZMz@a@TIPIZKDA\\MPEHATE\\GzBa@j@Ip@Ql@Sj@YrAw@h@]f@YJGTORMJGTMHEDCd@Yd@_@\\YNQTWDGLONUJMT]v@cAX_@v@eAHMr@aAPU^a@VQZQRM"
+              },
+              "html_instructions": "new name Seestrasse"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 138.9
+              },
+              "duration": {
+                "value": 27.7
+              },
+              "polyline": {
+                "points": "mnx_Hczes@TvATnALx@DTSHWJUL"
+              },
+              "html_instructions": "turn Schwalbenstrasse"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 107.4
+              },
+              "duration": {
+                "value": 16.2
+              },
+              "polyline": {
+                "points": "onx_Hgqes@DTJz@BDjBfB"
+              },
+              "html_instructions": "turn Im Wiesental"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 24.8
+              },
+              "duration": {
+                "value": 33.4
+              },
+              "polyline": {
+                "points": "mjx_Hgkes@F~@"
+              },
+              "html_instructions": "turn Lindenweg"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 24.8
+              },
+              "duration": {
+                "value": 6.7
+              },
+              "polyline": {
+                "points": "ejx_Hgies@G_A"
+              },
+              "html_instructions": "continue Lindenweg"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 49.9
+              },
+              "duration": {
+                "value": 7.5
+              },
+              "polyline": {
+                "points": "mjx_Hgkes@iAgA"
+              },
+              "html_instructions": "turn Im Wiesental"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "wlx_Homes@"
+              },
+              "html_instructions": "arrive Im Wiesental"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 57.5
+              },
+              "duration": {
+                "value": 14.8
+              },
+              "polyline": {
+                "points": "wlx_Homes@a@_@CEK{@EU"
+              },
+              "html_instructions": "depart Im Wiesental"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 137
+              },
+              "duration": {
+                "value": 26.9
+              },
+              "polyline": {
+                "points": "onx_Hgqes@m@b@_@XE@A?C?ECUs@GQQi@Uq@EI"
+              },
+              "html_instructions": "turn Pilgerweg"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 3283.2
+              },
+              "duration": {
+                "value": 301
+              },
+              "polyline": {
+                "points": "{sx_Hwtes@ILw@dAY^w@bAU\\KLOTMNEFUVOP]Xe@^e@XEBIDULKFSLUNKFg@Xi@\\sAv@k@Xm@Rq@Pk@H{B`@]FUDI@QD]LE@[JQHUH{@`@[Lu@ZcAb@eAb@gAb@oCpAsB~@kBn@kBd@??_AXg@Ni@PUHe@RMFe@PaA^cA`@i@Ra@RMFu@b@YREBUPgAt@yA`AkBnAqCjBQJkAx@OLIFIJk@j@g@h@QVWVe@j@u@~@}@pAe@p@_@j@gAbBEFCDW`@QTKP[f@KPg@t@W`@IJQX_@l@g@r@q@v@k@f@WRo@b@KFkAl@kBv@]NwAj@m@V[J}@\\i@TYJMFeDrAa@Ny@ZwAj@c@PEBg@T}@f@y@f@EDC@cAp@a@Vy@j@QLCBC@i@V"
+              },
+              "html_instructions": "turn Seestrasse"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 1468.5
+              },
+              "duration": {
+                "value": 132.1
+              },
+              "polyline": {
+                "points": "ix}_Hwabs@e@Ts@b@MT_@VYRe@X[T[LYH_@DmAJc@Da@@mA?{@@yA?gDB}@AwA@O?Y@wA@G?{B?q@?mBB_ADkAFuBL_BH_B@iCAwAAeAG}@IcAOm@MCAk@K{@QSGQE]KeAe@"
+              },
+              "html_instructions": "turn Mythenquai"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 933
+              },
+              "duration": {
+                "value": 87.9
+              },
+              "polyline": {
+                "points": "oi``Hw}as@IJUB[?a@?O?E?e@@k@FkE^O@g@FQB_BNsCVYDSBs@DyAPe@B]DeBNi@F_@DSDODWFWF{@TKBU@G?YFWJsChA}Ap@A@E@GD"
+              },
+              "html_instructions": "turn Alfred-Escher-Strasse"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 99.7
+              },
+              "duration": {
+                "value": 10.2
+              },
+              "polyline": {
+                "points": "}|a`Hkqas@G@WD{@^mAh@"
+              },
+              "html_instructions": "continue Alfred-Escher-Strasse"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 243.1
+              },
+              "duration": {
+                "value": 38.7
+              },
+              "polyline": {
+                "points": "gbb`Hynas@EG{@mDCKCKCGGW[mA[mACKEMCMc@cBCKGW"
+              },
+              "html_instructions": "turn Dreik\u00f6nigstrasse"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 355.2
+              },
+              "duration": {
+                "value": 40.8
+              },
+              "polyline": {
+                "points": "shb`Hs`bs@MHIFa@Vi@\\cAp@IF]PYJI@[JWHaAT[HKBwA^]JQFMHKHIHA@EDKN"
+              },
+              "html_instructions": "turn Stockerstrasse"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 101.2
+              },
+              "duration": {
+                "value": 11.1
+              },
+              "polyline": {
+                "points": "e{b`Hmvas@MOGIq@eAMUEGEGa@s@"
+              },
+              "html_instructions": "turn Brandschenkestrasse"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 229.3
+              },
+              "duration": {
+                "value": 32.8
+              },
+              "polyline": {
+                "points": "i_c`Hg|as@c@s@c@s@CEMSMSEGs@gA]k@CEIOIQEGMYGKa@s@KQ"
+              },
+              "html_instructions": "new name Pelikanstrasse"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 118.1
+              },
+              "duration": {
+                "value": 19
+              },
+              "polyline": {
+                "points": "khc`Huibs@HKFMBELQ^k@FKbA{ABAHG"
+              },
+              "html_instructions": "turn N\u00fcschelerstrasse"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 67.1
+              },
+              "duration": {
+                "value": 15.9
+              },
+              "polyline": {
+                "points": "mcc`Hepbs@b@nAVt@BF@D"
+              },
+              "html_instructions": "turn St. Peterstrasse"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 192.7
+              },
+              "duration": {
+                "value": 20.9
+              },
+              "polyline": {
+                "points": "kac`Hqkbs@tAoBHOHMx@gAPYXc@DI@E@GNFJDDDBDBD"
+              },
+              "html_instructions": "turn Talacker"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 53.6
+              },
+              "duration": {
+                "value": 12.8
+              },
+              "polyline": {
+                "points": "gyb`H}sbs@HMRYPWZU"
+              },
+              "html_instructions": "turn Tiefenh\u00f6fe"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "{vb`Hsvbs@"
+              },
+              "html_instructions": "arrive Tiefenh\u00f6fe"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 33
+              },
+              "duration": {
+                "value": 35.4
+              },
+              "polyline": {
+                "points": "{vb`Hsvbs@\\UTU"
+              },
+              "html_instructions": "depart Tiefenh\u00f6fe"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 86.6
+              },
+              "duration": {
+                "value": 26.7
+              },
+              "polyline": {
+                "points": "gub`H_xbs@UTy@j@QVSXIL"
+              },
+              "html_instructions": "continue Tiefenh\u00f6fe"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 258.6
+              },
+              "duration": {
+                "value": 41.2
+              },
+              "polyline": {
+                "points": "gyb`H}sbs@HL\\f@FHHLJNb@r@P\\BDP`@DJHPb@hAFRDRPj@Ld@H^LfA"
+              },
+              "html_instructions": "end of road Bleicherweg"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 127.4
+              },
+              "duration": {
+                "value": 26.4
+              },
+              "polyline": {
+                "points": "{pb`H{bbs@XRDBBAn@c@XULITOd@]DELI"
+              },
+              "html_instructions": "turn Beethovenstrasse"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 191.5
+              },
+              "duration": {
+                "value": 19.1
+              },
+              "polyline": {
+                "points": "ojb`Hgfbs@CO_A}DAGGUGQYsAEQCUCYIy@"
+              },
+              "html_instructions": "turn Dreik\u00f6nigstrasse"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 113.2
+              },
+              "duration": {
+                "value": 22.1
+              },
+              "polyline": {
+                "points": "wnb`Hutbs@QkBCYE[S_B?GEW"
+              },
+              "html_instructions": "new name B\u00f6rsenstrasse"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 194.6
+              },
+              "duration": {
+                "value": 18.3
+              },
+              "polyline": {
+                "points": "mpb`Hw}bs@UFeAZm@Nm@PeAVIBUD[DM?K@"
+              },
+              "html_instructions": "turn Bahnhofstrasse"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "a{b`Hgzbs@"
+              },
+              "html_instructions": "arrive Bahnhofstrasse"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 53.2
+              },
+              "duration": {
+                "value": 7.9
+              },
+              "polyline": {
+                "points": "a{b`Hgzbs@AK?GOuB"
+              },
+              "html_instructions": "depart Poststrasse"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "s{b`Hq~bs@"
+              },
+              "html_instructions": "arrive Poststrasse"
+            }
+          ]
+        }
+      ],
+      "bounds": {
+        "northeast": {
+          "lat": 47.37238,
+          "lng": 8.55474
+        },
+        "southwest": {
+          "lat": 47.31571,
+          "lng": 8.53245
+        }
+      }
+    }
+  ],
+  "status": "OK"
+}

@@ -1,0 +1,242 @@
+{
+  "routes": [
+    {
+      "overview_polyline": {
+        "points": "yjdkF|{dw@c@PKDkBt@WC[He@mE[}C[qCEc@iAwKi@sFK}ACe@?MIyBMgCG}Ak@kMKsCMoCMaBMaBKgA[cEAO]wDC[Y{CIoAEc@Ee@IaAI{@E]AMYoC_@}D[wCi@}DUyA_@sB]gBa@gBcAeEsAwEq@mBoAmDq@cBu@mB}@gCsAgEi@{AG]Wu@ISEMIQM[k@wA]_A]m@q@qBIWK]EMa@uASu@GYE[Ky@Im@Eo@Ei@Co@EmAA}C?qA@Q?K@IJaA?M?IAGCICGEEEEECCAEAG?a@AkC@c@?KAMAICYEiHaAy@KEAUESC??o@KOAc@GuB[k@IiA[eAc@}@k@CCGEa@[}@cAg@k@CEQSAAaAoAeC{CaAiAMYOUMQQUu@o@[_@mCgDgBuBQS[m@UYGMGUGSEUAIACACCKMUKKGEMEYCMC]C}@Is@Ao@?]@MAGCIEGMAIAOGeAKiBMuB?ODAFEBI@I?KCIEEGCG?E@GBCFsA}@aDwBQMOKIGa@Yk@]QMSOiAw@o@c@k@_@sBsAQMGEW_@W]KSGUCKIe@CMAGCUIs@K}@KSEO?AOa@[[EIQa@EKy@iBi@qA[u@i@kAQc@i@kAw@iBMYO]u@eBKSO]]}@Q_@IUMe@m@uAIOWo@KWMWWm@IQo@wACKIQk@oAEKQ_@m@qAEGKIIAI@IACAc@?kACWAo@ASASIIGIKqAiBKOKOSYKOg@s@MOGMiA_BIKKMu@gAGKEKAKCMBU?IHcD?_@@e@BaBFwC@_@?O@]DsB?OBiA?IFgD?U@g@@S@Q@I@SF]FSDQDIDMDKJUJQN[FMLSFK^c@f@a@DEDI@EBI@IDoABy@DwA@S@O@U@m@TU^_@n@m@^[tCqCDELMHKDChAqALQJKBEBA|@eAd@g@FIDE`@CTGLIb@Yd@YdAo@h@[rBoADCBC@CBEj@{ADOHIDAB?D?B@BBLNHFLFLDD?D@L@F?DANAPEJANGLIj@a@BAHGJELCX?FAL?N?P?L@NBNDJ@H@XFB?JBN@RBL@N?"
+      },
+      "legs": [
+        {
+          "distance": {
+            "value": 9137.3,
+            "text": "9.1 km"
+          },
+          "duration": {
+            "value": 769.7,
+            "text": "12 mins"
+          },
+          "steps": [
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 122.9
+              },
+              "duration": {
+                "value": 31.6
+              },
+              "polyline": {
+                "points": "yjdkF|{dw@c@PKDkBt@WC[H"
+              },
+              "html_instructions": "depart "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 3583.4
+              },
+              "duration": {
+                "value": 247.3
+              },
+              "polyline": {
+                "points": "iqdkFp~dw@e@mE[}C[qCEc@iAwKi@sFK}ACe@?MIyBMgCG}Ak@kMKsCMoCMaBMaBKgA[cEAO]wDC[Y{CIoAEc@Ee@IaAI{@E]AMYoC_@}D[wCi@}DUyA_@sB]gBa@gBcAeEsAwEq@mBoAmDq@cBu@mB}@gCsAgEi@{AG]Wu@ISEMIQM[k@wA]_A]m@q@qBIWK]EMa@uASu@GYE[Ky@Im@Eo@Ei@Co@EmAA}C?qA@Q?K@IJaA?M?IAGCICGEEEEECCAEAG?a@AkC@c@?"
+              },
+              "html_instructions": "turn Avenida de Bras\u00edlia"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 1206.9
+              },
+              "duration": {
+                "value": 77.1
+              },
+              "polyline": {
+                "points": "_nfkFps}v@KAMAICYEiHaAy@KEAUESC??o@KOAc@GuB[k@IiA[eAc@}@k@CCGEa@[}@cAg@k@CEQSAAaAoAeC{CaAiAMYOUMQQUu@o@[_@mCgDgBuBQS[m@UY"
+              },
+              "html_instructions": "new name Avenida Infante Santo"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 244.5
+              },
+              "duration": {
+                "value": 17.8
+              },
+              "polyline": {
+                "points": "eghkFvj|v@GMGUGSEUAIACACCKMUKKGEMEYCMC]C}@Is@Ao@?]@MAGC"
+              },
+              "html_instructions": "new name Rua da Estrela"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 161.5
+              },
+              "duration": {
+                "value": 12.4
+              },
+              "polyline": {
+                "points": "yrhkF`e|v@IEGMAIAOGeAKiBMuB?O"
+              },
+              "html_instructions": "turn Rua de S\u00e3o Jorge"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 511.8
+              },
+              "duration": {
+                "value": 33.2
+              },
+              "polyline": {
+                "points": "qthkF|y{v@DAFEBI@I?KCIEEGCG?E@GBCFsA}@aDwBQMOKIGa@Yk@]QMSOiAw@o@c@k@_@sBsAQMGE"
+              },
+              "html_instructions": "roundabout turn Avenida Pedro \u00c1lvares Cabral"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 190.7
+              },
+              "duration": {
+                "value": 14.6
+              },
+              "polyline": {
+                "points": "skikF|g{v@W_@W]KSGUCKIe@CMAGCUIs@K}@KSEO?AOa@"
+              },
+              "html_instructions": "new name Largo do Rato"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 828.1
+              },
+              "duration": {
+                "value": 78
+              },
+              "polyline": {
+                "points": "gpikF|{zv@[[EIQa@EKy@iBi@qA[u@i@kAQc@i@kAw@iBMYO]u@eBKSO]]}@Q_@IUMe@m@uAIOWo@KWMWWm@IQo@wACKIQk@oAEKQ_@m@qA"
+              },
+              "html_instructions": "new name Rua Alexandre Herculano"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 573.2
+              },
+              "duration": {
+                "value": 59.1
+              },
+              "polyline": {
+                "points": "sjjkF|jyv@EGKIIAI@IACAc@?kACWAo@ASASIIGIKqAiBKOKOSYKOg@s@MOGMiA_BIKKMu@gAGKEKAKCMBU?IHcD?_@"
+              },
+              "html_instructions": "new name Rua do Conde de Redondo"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 146.2
+              },
+              "duration": {
+                "value": 13.5
+              },
+              "polyline": {
+                "points": "__kkF`rxv@@e@BaBFwC@_@?O"
+              },
+              "html_instructions": "new name Rua Joaquim Bonif\u00e1cio"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 410.3
+              },
+              "duration": {
+                "value": 43.3
+              },
+              "polyline": {
+                "points": "o~jkFpgxv@@]DsB?OBiA?IFgD?U@g@@S@Q@I@SF]FSDQDIDMDKJUJQN[FMLSFK^c@f@a@DEDI"
+              },
+              "html_instructions": "new name Rua Jacinta Marto"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 120
+              },
+              "duration": {
+                "value": 11.8
+              },
+              "polyline": {
+                "points": "owjkF`mwv@@EBI@IDoABy@DwA@S"
+              },
+              "html_instructions": "new name Rua Febo Moniz"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 422.4
+              },
+              "duration": {
+                "value": 57.3
+              },
+              "polyline": {
+                "points": "uvjkFpdwv@@O@U@m@TU^_@n@m@^[tCqCDELMHKDChAqALQJKBEBA|@eAd@g@FIDE"
+              },
+              "html_instructions": "turn Rua do Forno do Tijolo"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 297.9
+              },
+              "duration": {
+                "value": 26.9
+              },
+              "polyline": {
+                "points": "qejkFppvv@`@CTGLIb@Yd@YdAo@h@[rBoADCBC@CBEj@{ADO"
+              },
+              "html_instructions": "new name Rua Angelina Vidal"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 317.5
+              },
+              "duration": {
+                "value": 45.8
+              },
+              "polyline": {
+                "points": "{wikFlevv@HIDAB?D?B@BBLNHFLFLDD?D@L@F?DANAPEJANGLIj@a@BAHGJELCX?FAL?N?P?L@NBNDJ@H@XFB?JBN@RBL@N?"
+              },
+              "html_instructions": "fork Rua da Gra\u00e7a"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "{fikF~dvv@"
+              },
+              "html_instructions": "arrive Rua da Gra\u00e7a"
+            }
+          ]
+        }
+      ],
+      "bounds": {
+        "northeast": {
+          "lat": 38.72775,
+          "lng": -9.12974
+        },
+        "southwest": {
+          "lat": 38.69373,
+          "lng": -9.20569
+        }
+      }
+    }
+  ],
+  "status": "OK"
+}

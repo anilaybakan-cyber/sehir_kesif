@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleDisplayName</key>
+	<string>MyWay</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>MyWay</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(FLUTTER_BUILD_NAME)</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>$(FLUTTER_BUILD_NUMBER)</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIMainStoryboardFile</key>
+	<string>Main</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>MyWay uses your location to show your position on the map and find nearby attractions. Your location data is processed locally and is not tracked or stored on our servers.</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>MyWay uses your location to show your position on the map and find nearby attractions. Your location data is processed locally and is not tracked or stored on our servers.</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>MyWay uses your location to show your position on the map and find nearby attractions. Your location data is processed locally and is not tracked or stored on our servers.</string>
+	<key>NSCameraUsageDescription</key>
+	<string>We need camera access to let you capture travel memories. Photos are stored locally on your device and are never uploaded to external servers without your permission.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>We need access to your photo library to let you add existing photos to your travel memories. Your media remains private and is not uploaded to cloud servers.</string>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+	<!-- ios/Runner/Info.plist -->
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+  		<string>https</string>
+  		<string>comgooglemaps</string>
+	</array>
+	<key>CADisableMinimumFrameDurationOnPhone</key>
+	<true/>
+	<key>UIApplicationSupportsIndirectInputEvents</key>
+	<true/>
+	<!-- Push Notifications Background Mode -->
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>fetch</string>
+		<string>remote-notification</string>
+	</array>
+	<!-- Firebase Configuration -->
+	<key>FirebaseAppDelegateProxyEnabled</key>
+	<false/>
+	<!-- Encryption Settings -->
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
+</dict>
+</plist>

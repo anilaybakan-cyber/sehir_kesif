@@ -1,0 +1,190 @@
+{
+  "routes": [
+    {
+      "overview_polyline": {
+        "points": "okujG{{noBWt@?BM`@?DAD?f@@v@?LBhC?l@@t@DjB@bA?P@X?B@n@@z@Bb@FtALvBFz@Ft@DND\\BJ@FHh@FZ@L@BLv@Ht@V~B?FLfAFt@BPHv@JjAF?rAGD?F?hDQFALzCDVD^@FB?@AFAx@KXAD?VDb@BF?LA?SCoBKuG?c@AQ?EA}@A_AAc@Em@Cc@Eg@E_@Kk@_@eBCQI]CICOCKOu@YkASeAQw@G]EUEUMkAE]AO?CUoBKaACWQmAKo@AIGa@QoAK{@a@iC[uBAGCW@ADABABAb@QFCDAESCQGg@CUAMCwA?K@OF]EC"
+      },
+      "legs": [
+        {
+          "distance": {
+            "value": 2201,
+            "text": "2.2 km"
+          },
+          "duration": {
+            "value": 243.7,
+            "text": "4 mins"
+          },
+          "steps": [
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 42.5
+              },
+              "duration": {
+                "value": 4.6
+              },
+              "polyline": {
+                "points": "okujG{{noBWt@?BM`@"
+              },
+              "html_instructions": "depart Telali"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 705.8
+              },
+              "duration": {
+                "value": 47.1
+              },
+              "polyline": {
+                "points": "ulujG_ynoB?DAD?f@@v@?LBhC?l@@t@DjB@bA?P@X?B@n@@z@Bb@FtALvBFz@Ft@DND\\BJ@FHh@FZ@L@BLv@Ht@V~B?FLfAFt@BPHv@JjA"
+              },
+              "html_instructions": "new name Mula Mustafe Ba\u0161eskije"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 158.4
+              },
+              "duration": {
+                "value": 24.6
+              },
+              "polyline": {
+                "points": "ofujGccmoBF?rAGD?F?hDQFA"
+              },
+              "html_instructions": "turn \u0106emalu\u0161a"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 90.2
+              },
+              "duration": {
+                "value": 17.6
+              },
+              "polyline": {
+                "points": "s}tjG_dmoBLzCDVD^@F"
+              },
+              "html_instructions": "turn Branilaca Sarajeva"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 103.9
+              },
+              "duration": {
+                "value": 30
+              },
+              "polyline": {
+                "points": "w|tjGc}loBB?@AFAx@KXAD?VDb@BF?LA"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 614.4
+              },
+              "duration": {
+                "value": 53.9
+              },
+              "polyline": {
+                "points": "}vtjGm}loB?SCoBKuG?c@AQ?EA}@A_AAc@Em@Cc@Eg@E_@Kk@_@eBCQI]CICOCKOu@YkASeAQw@G]EUEUMkAE]AO?C"
+              },
+              "html_instructions": "end of road Obala Kulina bana"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "k~tjGoknoB"
+              },
+              "html_instructions": "arrive Obala Kulina bana"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 336.2
+              },
+              "duration": {
+                "value": 31.3
+              },
+              "polyline": {
+                "points": "k~tjGoknoBUoBKaACWQmAKo@AIGa@QoAK{@a@iC[uBAGCW"
+              },
+              "html_instructions": "depart Obala Kulina bana"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 39
+              },
+              "duration": {
+                "value": 14.6
+              },
+              "polyline": {
+                "points": "{cujGodooB@ADABABAb@QFCDA"
+              },
+              "html_instructions": "turn Novi most"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 106.9
+              },
+              "duration": {
+                "value": 19.1
+              },
+              "polyline": {
+                "points": "yaujGoeooBESCQGg@CUAMCwA?K@OF]"
+              },
+              "html_instructions": "turn Obala Isa-bega Isakovi\u0107a"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 3.7
+              },
+              "duration": {
+                "value": 0.9
+              },
+              "polyline": {
+                "points": "kbujGsmooBEC"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "qbujGwmooB"
+              },
+              "html_instructions": "arrive "
+            }
+          ]
+        }
+      ],
+      "bounds": {
+        "northeast": {
+          "lat": 43.86012,
+          "lng": 18.43436
+        },
+        "southwest": {
+          "lat": 43.85663,
+          "lng": 18.42146
+        }
+      }
+    }
+  ],
+  "status": "OK"
+}

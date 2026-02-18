@@ -1,0 +1,8670 @@
+# Potential Duplicate Places Report
+
+## Amsterdam (amsterdam.json)
+- **A'DAM Lookout** vs **This is Holland (Uçuş Deneyimi)**
+  - Reason: Coordinates Match (23m)
+- **Albert Cuyp Markt** vs **Rudi’s Original Stroopwafels**
+  - Reason: Coordinates Match (17m)
+- **Amsterdam Museum** vs **The Seafood Bar**
+  - Reason: Coordinates Match (48m)
+- **Backstage Bar** vs **Brouwerij de Prael**
+  - Reason: Coordinates Match (45m)
+- **Bar TwentySeven** vs **Restaurant Bougainville**
+  - Reason: Coordinates Match (4m)
+- **Begijnhof** vs **Hans Egstorf (Bakery)**
+  - Reason: Coordinates Match (20m)
+- **Begijnhof** vs **Van Stapele Koekmakerij**
+  - Reason: Coordinates Match (42m)
+- **Blue Amsterdam** vs **Law & Order Cocktail Bar**
+  - Reason: Coordinates Match (43m)
+- **CIMA Rooftop Bar** vs **Super Lyan**
+  - Reason: Coordinates Match (46m)
+- **Cafe Chris** vs **Café Chris**
+  - Reason: Fuzzy Name Match (0.90)
+- **Café Chris** vs **Jordaan**
+  - Reason: Coordinates Match (47m)
+- **Café Chris** vs **Kafenion Amsterdam**
+  - Reason: Coordinates Match (47m)
+- **Café De Dokter** vs **Van Stapele Koekmakerij**
+  - Reason: Coordinates Match (41m)
+- **Dak Showroom by Dak Coffee Roasters** vs **Margo's Amsterdam**
+  - Reason: Coordinates Match (30m)
+- **Dam Meydanı (Dam Square)** vs **FEBO Amsterdam (Otomatik Atıştırmalık)**
+  - Reason: Coordinates Match (0m)
+- **De 9 Straatjes** vs **Pluk**
+  - Reason: Coordinates Match (35m)
+- **Elevate Coffee Lab** vs **Miri Mary Indian Restaurant Amsterdam**
+  - Reason: Coordinates Match (47m)
+- **Fitz's Bar Amsterdam** vs **VanOost Restaurant**
+  - Reason: Coordinates Match (0m)
+- **Florentin brunch** vs **WALDO chocolade & patisserie**
+  - Reason: Coordinates Match (19m)
+- **H.Murray's Amsterdam** vs **Priesthood**
+  - Reason: Coordinates Match (43m)
+- **H.Murray's Amsterdam** vs **T'aart**
+  - Reason: Coordinates Match (37m)
+- **Hans Egstorf** vs **Hans Egstorf (Bakery)**
+  - Reason: Name matches Name_En
+- **Hollandse pot** vs **The Pantry**
+  - Reason: Coordinates Match (11m)
+- **Jordaan** vs **Kafenion Amsterdam**
+  - Reason: Coordinates Match (22m)
+- **Kanal Turu** vs **Magna Plaza**
+  - Reason: Coordinates Match (30m)
+- **Kanal Turu** vs **Nieuwe Kerk (Yeni Kilise)**
+  - Reason: Coordinates Match (42m)
+- **Magna Plaza** vs **Nieuwe Kerk (Yeni Kilise)**
+  - Reason: Coordinates Match (39m)
+- **Mister NATA** vs **Mister Nata**
+  - Reason: Exact Name Match
+- **Moeders** vs **Moeders (Anneler) Restoranı**
+  - Reason: Coordinates Match (0m)
+- **Morning Owl Coffee** vs **Nam Kee (Çin Mutfağı)**
+  - Reason: Coordinates Match (49m)
+- **NU koffie & delicatessen** vs **Rebel Wines**
+  - Reason: Coordinates Match (25m)
+- **Ons' Lieve Heer op Solder (Tavan Arasındaki Kilise)** vs **T'aart**
+  - Reason: Coordinates Match (44m)
+- **Portuguese Synagogue (Portekiz Sinagogu)** vs **Waterlooplein Pazarı**
+  - Reason: Coordinates Match (39m)
+- **Priesthood** vs **T'aart**
+  - Reason: Coordinates Match (44m)
+- **Rembrandt Evi** vs **Rembrandthuis (Rembrandt Evi Müzesi)**
+  - Reason: Coordinates Match (17m)
+- **Restaurant Watergang** vs **Spiegelkwartier**
+  - Reason: Coordinates Match (40m)
+- **Sins of Sal** vs **The Pancake Bakery**
+  - Reason: Coordinates Match (24m)
+- **Stroopwafels van Lanskroon** vs **Vleminckx de Sausmeester**
+  - Reason: Coordinates Match (47m)
+- **Van Stapele** vs **Van Stapele Koekmakerij**
+  - Reason: Name matches Name_En
+- **WALDO Chocolade & Patisserie** vs **WALDO chocolade & patisserie**
+  - Reason: Exact Name Match
+
+## Antalya (antalya.json)
+- **5M Migros AVM** vs **Migros AVM**
+  - Reason: Fuzzy Name Match (0.87)
+- **7 Mehmet** vs **7 Mehmet Restoran**
+  - Reason: Coordinates Match (6m)
+- **Alacakaranlık (Seraser)** vs **Kaleiçi Tarihi Çarşı**
+  - Reason: Coordinates Match (26m)
+- **Alacakaranlık (Seraser)** vs **Pio Gastro Bar & Bistro**
+  - Reason: Coordinates Match (35m)
+- **Alacakaranlık (Seraser)** vs **Seraser Fine Dining**
+  - Reason: Name_En matches Name + Coordinates Match
+- **Alanya Arkeoloji Müzesi** vs **Antalya Arkeoloji Müzesi**
+  - Reason: Fuzzy Name Match (0.89)
+- **Antalya Akvaryum** vs **Antalya Aquarium**
+  - Reason: Exact English Name Match
+- **Antalya Arkeoloji Müzesi** vs **Antalya Müzesi**
+  - Reason: Coordinates Match (0m)
+- **Arma Restaurant** vs **Club Arma**
+  - Reason: Coordinates Match (37m)
+- **Arma Restaurant** vs **Parlak Restaurant**
+  - Reason: Fuzzy Name Match (0.88)
+- **Asmani** vs **Suna-İnan Kıraç Kaleiçi Müzesi**
+  - Reason: Coordinates Match (44m)
+- **Belek Golf Sahaları** vs **Belek Golf Sahası**
+  - Reason: Fuzzy Name Match (0.89)
+- **Cafe Terra** vs **Kaleiçi Marina (Yat Limanı)**
+  - Reason: Coordinates Match (44m)
+- **Cafe Terra** vs **Sim Restaurant**
+  - Reason: Coordinates Match (19m)
+- **Cafe Terra** vs **Tekne Turu Antalya**
+  - Reason: Coordinates Match (44m)
+- **Chimaera (Yanartaş)** vs **Yanartaş (Chimaera)**
+  - Reason: Coordinates Match (0m)
+- **Club Ally** vs **Saat Kulesi**
+  - Reason: Coordinates Match (47m)
+- **Düden Şelalesi (Alt)** vs **Düden Şelalesi (Aşağı)**
+  - Reason: Fuzzy Name Match (0.86)
+- **Düden Şelalesi (Alt)** vs **Düden Şelalesi (Üst)**
+  - Reason: Coordinates Match (0m)
+- **Hadrian Kapısı** vs **Hadrian Kapısı (Üç Kapılar)**
+  - Reason: Coordinates Match (0m)
+- **Hıdırlık Kulesi** vs **The Castle Cafe & Bistro**
+  - Reason: Coordinates Match (44m)
+- **Kaleiçi** vs **Mermerli Plajı**
+  - Reason: Coordinates Match (35m)
+- **Kaleiçi Marina (Yat Limanı)** vs **Tekne Turu Antalya**
+  - Reason: Coordinates Match (0m)
+- **Kaleiçi Meyhane Sokağı** vs **Tuvana Hotel Restaurant**
+  - Reason: Coordinates Match (44m)
+- **Kaleiçi Sokakları Yürüyüşü** vs **Kesik Minare (Korkut Camii)**
+  - Reason: Coordinates Match (26m)
+- **Kaleiçi Sokakları Yürüyüşü** vs **Kesik Minare Camii**
+  - Reason: Coordinates Match (26m)
+- **Kaleiçi Tarihi Çarşı** vs **Pio Gastro Bar & Bistro**
+  - Reason: Coordinates Match (47m)
+- **Kaleiçi Tarihi Çarşı** vs **Seraser Fine Dining**
+  - Reason: Coordinates Match (26m)
+- **Kaleiçi Çay Bahçesi** vs **The Castle Cafe & Bistro**
+  - Reason: Coordinates Match (39m)
+- **Karaali Parkı** vs **Karaalioğlu Parkı**
+  - Reason: Fuzzy Name Match (0.87)
+- **Kesik Minare (Korkut Camii)** vs **Kesik Minare Camii**
+  - Reason: Coordinates Match (0m)
+- **Kleopatra Plajı** vs **Kleopatra Plajı (Alanya)**
+  - Reason: Exact English Name Match
+- **Konyaaltı Plaj Parkı** vs **Konyaaltı Plajı**
+  - Reason: Fuzzy Name Match (0.86)
+- **Künefe Evi** vs **Pio Gastro Bar & Bistro**
+  - Reason: Coordinates Match (19m)
+- **Künefe Evi** vs **Tekeli Mehmet Paşa Camii**
+  - Reason: Coordinates Match (44m)
+- **Land of Legends** vs **The Land of Legends**
+  - Reason: Coordinates Match (0m)
+- **Limyra Antik Kenti** vs **Myra Antik Kenti**
+  - Reason: Fuzzy Name Match (0.94)
+- **Mark Antalya AVM** vs **MarkAntalya AVM**
+  - Reason: Fuzzy Name Match (0.97)
+- **Olimpos Antik Kenti** vs **Olympos Antik Kenti**
+  - Reason: Coordinates Match (0m)
+- **Perge Antik Kenti** vs **Selge Antik Kenti**
+  - Reason: Fuzzy Name Match (0.88)
+- **Pio Gastro Bar & Bistro** vs **Seraser Fine Dining**
+  - Reason: Coordinates Match (35m)
+- **Portakal Çiçeği Kahvesi** vs **Tuvana Hotel Restaurant**
+  - Reason: Coordinates Match (44m)
+- **Saat Kulesi** vs **Yivli Minare**
+  - Reason: Coordinates Match (44m)
+- **Vanilla** vs **Vanilla Lounge**
+  - Reason: Coordinates Match (0m)
+
+## Atina (atina.json)
+- **ANTHES RESTAURANT** vs **Athena 's Cook**
+  - Reason: Coordinates Match (27m)
+- **Agape** vs **Φ Bar**
+  - Reason: Coordinates Match (34m)
+- **Alysso Restaurant** vs **Psiri**
+  - Reason: Coordinates Match (18m)
+- **Alysso Restaurant** vs **Tapfield**
+  - Reason: Coordinates Match (47m)
+- **Anima Athens Bistro** vs **Wine Tunnel**
+  - Reason: Coordinates Match (13m)
+- **Bandiera** vs **Not So Bar Athens**
+  - Reason: Coordinates Match (44m)
+- **Bandiera** vs **Via Maris**
+  - Reason: Coordinates Match (34m)
+- **Bonnot Athens** vs **Exarchia**
+  - Reason: Coordinates Match (37m)
+- **Central Market (Varvakeios)** vs **Coffee Lab Athens**
+  - Reason: Coordinates Match (22m)
+- **Chimichurri Athens** vs **Stucco Thiseio**
+  - Reason: Coordinates Match (30m)
+- **Cicchetto Cantina** vs **KAYA**
+  - Reason: Coordinates Match (44m)
+- **Coffee Joint** vs **Fika coffee & croissant**
+  - Reason: Coordinates Match (34m)
+- **Favorita** vs **Taf The Art Foundation**
+  - Reason: Coordinates Match (36m)
+- **Favorita** vs **The Kyklamino**
+  - Reason: Coordinates Match (37m)
+- **ILIADA** vs **Victory**
+  - Reason: Coordinates Match (17m)
+- **Little Kook** vs **The Frogs Bar**
+  - Reason: Coordinates Match (45m)
+- **Little Kook** vs **Via Maris**
+  - Reason: Coordinates Match (48m)
+- **Loukoumadaki Athens** vs **Old fashioned bar**
+  - Reason: Coordinates Match (14m)
+- **Norman Athens Bar** vs **Taf The Art Foundation**
+  - Reason: Coordinates Match (38m)
+- **Norman Athens Bar** vs **The Kyklamino**
+  - Reason: Coordinates Match (23m)
+- **Not So Bar Athens** vs **Via Maris**
+  - Reason: Coordinates Match (46m)
+- **O Kostas** vs **The New Era Authentic Greek Cuisine**
+  - Reason: Coordinates Match (43m)
+- **O Thanasis** vs **Thanasis**
+  - Reason: Fuzzy Name Match (0.89)
+- **Oroscopo restaurant** vs **Secta Bar Athens**
+  - Reason: Coordinates Match (13m)
+- **Psiri** vs **Tapfield**
+  - Reason: Coordinates Match (39m)
+- **Taf The Art Foundation** vs **The Kyklamino**
+  - Reason: Coordinates Match (22m)
+- **Taf The Art Foundation** vs **ΚΑΝΑΚΗΣ (Ice cream - Pastry - Catering)**
+  - Reason: Coordinates Match (40m)
+- **Vegan Beat Athens** vs **Yphes Restaurant Athens**
+  - Reason: Coordinates Match (25m)
+
+## Bangkok (bangkok.json)
+- **A KEEN HOUSE - One Bangkok** vs **Maru Waffle (One Bangkok)**
+  - Reason: Coordinates Match (24m)
+- **A KEEN HOUSE - One Bangkok** vs **Pura Brasa Thailand (One Bangkok)**
+  - Reason: Coordinates Match (47m)
+- **After You Dessert Cafe** vs **Siam Paragon**
+  - Reason: Coordinates Match (39m)
+- **Alley Cocktail Bar** vs **Gaze Cocktail Bar**
+  - Reason: Fuzzy Name Match (0.86)
+- **Ari Neighborhood (Lo-fi Vibes)** vs **Samsen Nai (Craft Beer Scene)**
+  - Reason: Coordinates Match (0m)
+- **BACC (Bangkok Art and Culture Centre)** vs **Bangkok Art and Culture Centre**
+  - Reason: Coordinates Match (0m)
+- **BEANS COFFEE ROASTER SILOM** vs **BEANS Coffee Roaster Songwat**
+  - Reason: Fuzzy Name Match (0.85)
+- **BEANS COFFEE ROASTER SILOM** vs **Beans Coffee Roasters**
+  - Reason: Fuzzy Name Match (0.89)
+- **BEANS Coffee Roaster Songwat** vs **Beans Coffee Roasters**
+  - Reason: Fuzzy Name Match (0.86)
+- **Chatuchak Pazarı** vs **Chatuchak Weekend Market**
+  - Reason: Coordinates Match (44m)
+- **Erawan Shrine (Phra Phrom)** vs **Paste Bangkok (Michelin Star)**
+  - Reason: Coordinates Match (39m)
+- **FATT Chicken Rice - One Bangkok** vs **Kope Hya Tai Kee @One bangkok**
+  - Reason: Coordinates Match (13m)
+- **FATT Chicken Rice - One Bangkok** vs **Sarnies One Bangkok**
+  - Reason: Coordinates Match (43m)
+- **FATT Chicken Rice - One Bangkok** vs **Thank you Cup - One Bangkok**
+  - Reason: Coordinates Match (11m)
+- **FATT Chicken Rice - One Bangkok** vs **แซ่บนิรันดร์ - ZAABNIRAN One Bangkok**
+  - Reason: Coordinates Match (18m)
+- **Jodd Fairs** vs **Manifattura (Jodd Fairs Rama 9)**
+  - Reason: Name matches Name_En
+- **King Power Mahanakhon (Observation Deck)** vs **Mahanakhon SkyWalk**
+  - Reason: Coordinates Match (0m)
+- **Kope Hya Tai Kee @One bangkok** vs **Sarnies One Bangkok**
+  - Reason: Coordinates Match (41m)
+- **Kope Hya Tai Kee @One bangkok** vs **Thank you Cup - One Bangkok**
+  - Reason: Coordinates Match (3m)
+- **Kope Hya Tai Kee @One bangkok** vs **แซ่บนิรันดร์ - ZAABNIRAN One Bangkok**
+  - Reason: Coordinates Match (21m)
+- **Luscious Creamery One Bangkok** vs **The Coffee House by DoiTung**
+  - Reason: Coordinates Match (44m)
+- **Luscious Creamery One Bangkok** vs **Warabimochi Kamakura (One Bangkok)**
+  - Reason: Coordinates Match (36m)
+- **MOCA (Museum of Contemporary Art)** vs **MOCA Museum of Contemporary Art Bangkok**
+  - Reason: Coordinates Match (0m)
+- **Maha Rat Riverside Walkway** vs **Wichit Mukda (Amulet Market)**
+  - Reason: Coordinates Match (0m)
+- **Malar Thai-Indian Cuisine** vs **Suda - Thai & Vegetarian Restaurant**
+  - Reason: Coordinates Match (48m)
+- **Maru Waffle (One Bangkok)** vs **Pura Brasa Thailand (One Bangkok)**
+  - Reason: Coordinates Match (27m)
+- **Maru Waffle (One Bangkok)** vs **Sarnies One Bangkok**
+  - Reason: Coordinates Match (49m)
+- **Museum Siam (Interactive)** vs **Museum of Siam**
+  - Reason: Coordinates Match (15m)
+- **Octave Rooftop Bar (Marriott Thong Lo)** vs **Thong Lo Neighborhood (Trendy Area)**
+  - Reason: Coordinates Match (33m)
+- **Pratunam Market** vs **Pratunam Wholesale Market**
+  - Reason: Name matches Name_En + Coordinates Match
+- **Proud Coffee Roaster - Riverside Plaza - Specialty Coffee Shop** vs **SIN Rooftop Bar Bangkok**
+  - Reason: Coordinates Match (35m)
+- **Proud Coffee Roaster - Riverside Plaza - Specialty Coffee Shop** vs **THE COFFEE CLUB - Riverside Plaza**
+  - Reason: Coordinates Match (35m)
+- **Pura Brasa Thailand (One Bangkok)** vs **Sarnies One Bangkok**
+  - Reason: Coordinates Match (36m)
+- **Pura Brasa Thailand (One Bangkok)** vs **แซ่บนิรันดร์ - ZAABNIRAN One Bangkok**
+  - Reason: Coordinates Match (41m)
+- **Rooftop Barlar** vs **YOU KNOW WHERE**
+  - Reason: Coordinates Match (41m)
+- **SIN Rooftop Bar Bangkok** vs **THE COFFEE CLUB - Riverside Plaza**
+  - Reason: Coordinates Match (26m)
+- **SIP WINE Shop and Bistro** vs **The Little Prince Café Bangkok**
+  - Reason: Coordinates Match (39m)
+- **SIP WINE Shop and Bistro** vs **Vol de Nuit, The Hidden Bar**
+  - Reason: Coordinates Match (43m)
+- **Sarnies One Bangkok** vs **Thank you Cup - One Bangkok**
+  - Reason: Coordinates Match (39m)
+- **Sarnies One Bangkok** vs **แซ่บนิรันดร์ - ZAABNIRAN One Bangkok**
+  - Reason: Coordinates Match (25m)
+- **Siam Paragon** vs **Thai dessert หยกสด ขนมไทยใบเตยแท้100% - Siam Paragon (สยามพารากอน)**
+  - Reason: Coordinates Match (32m)
+- **Suda - Thai & Vegetarian Restaurant** vs **The Island Restaurant Thai food & Vegetarian And Bar.**
+  - Reason: Coordinates Match (37m)
+- **THE BRANCH Sourdough Sandwiches.Coffee.Cake & Juice** vs **YABAR Secret Bar & Rooftop**
+  - Reason: Coordinates Match (6m)
+- **Thank you Cup - One Bangkok** vs **แซ่บนิรันดร์ - ZAABNIRAN One Bangkok**
+  - Reason: Coordinates Match (18m)
+- **The Coffee House by DoiTung** vs **Warabimochi Kamakura (One Bangkok)**
+  - Reason: Coordinates Match (8m)
+- **The Giant Swing (Sao Ching Cha)** vs **Wat Suthat**
+  - Reason: Coordinates Match (34m)
+- **The Giant Swing (Sao Ching Cha)** vs **Wat Suthat & Giant Swing**
+  - Reason: Coordinates Match (39m)
+- **The Little Prince Café Bangkok** vs **Vol de Nuit, The Hidden Bar**
+  - Reason: Coordinates Match (4m)
+- **Wat Suthat** vs **Wat Suthat & Giant Swing**
+  - Reason: Coordinates Match (11m)
+
+## Barcelona (barcelona.json)
+- **ABANIC** vs **EdeNova Restaurant Barcelona**
+  - Reason: Coordinates Match (18m)
+- **ABANIC** vs **Gloria Osteria Barcelona**
+  - Reason: Coordinates Match (49m)
+- **Aflamas Restaurant** vs **Amades Restaurant**
+  - Reason: Fuzzy Name Match (0.86)
+- **Al Arabiya Restaurant & Cafe** vs **BODEGA OLIVA**
+  - Reason: Coordinates Match (25m)
+- **Al Arabiya Restaurant & Cafe** vs **El Bosc de les Fades**
+  - Reason: Coordinates Match (41m)
+- **Al Arabiya Restaurant & Cafe** vs **Nix Tapas & Drinks**
+  - Reason: Coordinates Match (12m)
+- **Al Arabiya Restaurant & Cafe** vs **PUFF Sandwich | Authentic Ingredients | Coffee | Organic Matcha**
+  - Reason: Coordinates Match (12m)
+- **Al Arabiya Restaurant & Cafe** vs **Viana Barcelona**
+  - Reason: Coordinates Match (28m)
+- **Aldea Cocktail Bar** vs **El Born**
+  - Reason: Coordinates Match (20m)
+- **BAR ROSA BARCELONA** vs **Olivia Bistro**
+  - Reason: Coordinates Match (42m)
+- **BODEGA OLIVA** vs **El Bosc de les Fades**
+  - Reason: Coordinates Match (29m)
+- **BODEGA OLIVA** vs **Nix Tapas & Drinks**
+  - Reason: Coordinates Match (35m)
+- **BODEGA OLIVA** vs **PUFF Sandwich | Authentic Ingredients | Coffee | Organic Matcha**
+  - Reason: Coordinates Match (22m)
+- **BODEGA OLIVA** vs **Viana Barcelona**
+  - Reason: Coordinates Match (14m)
+- **Bar Bodega Quimet** vs **Plaça del Sol**
+  - Reason: Coordinates Match (41m)
+- **Bar del Pla** vs **MOCO Museum Barcelona**
+  - Reason: Coordinates Match (30m)
+- **Bar del Pla** vs **Picasso Müzesi**
+  - Reason: Coordinates Match (27m)
+- **Bike Tour Barcelona** vs **Milk Bar & Bistro**
+  - Reason: Coordinates Match (41m)
+- **Bogatell Beach** vs **Bogatell Plajı**
+  - Reason: Name matches Name_En
+- **Cal Pep** vs **The Roof at EDITION**
+  - Reason: Coordinates Match (47m)
+- **Casa Batlló** vs **El Nacional**
+  - Reason: Coordinates Match (23m)
+- **Casa Lolea** vs **Satan's Coffee Corner**
+  - Reason: Coordinates Match (34m)
+- **Cera 23** vs **Never**
+  - Reason: Coordinates Match (15m)
+- **Coffee Casa** vs **Santa Caterina Market**
+  - Reason: Coordinates Match (25m)
+- **Dalston Coffee Barcelona - Cafè d'especialitat - Coffee Roasters** vs **Flax & Kale**
+  - Reason: Coordinates Match (15m)
+- **Dr. Stravinsky** vs **Paradiso**
+  - Reason: Coordinates Match (47m)
+- **EatMyTrip** vs **La Pepita**
+  - Reason: Coordinates Match (43m)
+- **EdeNova Restaurant Barcelona** vs **Gloria Osteria Barcelona**
+  - Reason: Coordinates Match (48m)
+- **El Bosc de les Fades** vs **PUFF Sandwich | Authentic Ingredients | Coffee | Organic Matcha**
+  - Reason: Coordinates Match (45m)
+- **El Bosc de les Fades** vs **Plaça Reial**
+  - Reason: Coordinates Match (43m)
+- **El Bosc de les Fades** vs **Viana Barcelona**
+  - Reason: Coordinates Match (44m)
+- **Gothic Quarter** vs **Plaça Sant Felip Neri**
+  - Reason: Coordinates Match (41m)
+- **JUST Specialty Coffee** vs **OTTO Specialty Coffee**
+  - Reason: Fuzzy Name Match (0.86)
+- **La Xampanyeria** vs **Rasoi Ghar Restaurant indian**
+  - Reason: Coordinates Match (19m)
+- **MACBA** vs **Two Schmucks**
+  - Reason: Coordinates Match (13m)
+- **MALA HIERBA | Cocktail Bar** vs **Sala Apolo**
+  - Reason: Coordinates Match (21m)
+- **MNAC** vs **Museu Nacional d'Art de Catalunya**
+  - Reason: Coordinates Match (23m)
+- **Museu Picasso** vs **Picasso Müzesi**
+  - Reason: Coordinates Match (30m)
+- **Nix Tapas & Drinks** vs **PUFF Sandwich | Authentic Ingredients | Coffee | Organic Matcha**
+  - Reason: Coordinates Match (15m)
+- **Nix Tapas & Drinks** vs **Viana Barcelona**
+  - Reason: Coordinates Match (34m)
+- **Nomad Coffee** vs **Nomad Coffee Lab**
+  - Reason: Fuzzy Name Match (0.86)
+- **Noor | Specialty Coffee** vs **OTTO Specialty Coffee**
+  - Reason: Fuzzy Name Match (0.86)
+- **Número Tres bar** vs **Xera Restaurant**
+  - Reason: Coordinates Match (30m)
+- **Obrador del Croissant** vs **Pastelería Barcelona Dulces Intenciones**
+  - Reason: Coordinates Match (0m)
+- **PUFF Sandwich | Authentic Ingredients | Coffee | Organic Matcha** vs **Viana Barcelona**
+  - Reason: Coordinates Match (19m)
+- **Telefèric de Montjuïc** vs **Teleféric de Montjuïc**
+  - Reason: Fuzzy Name Match (0.95)
+
+## Belgrad (belgrad.json)
+- **Akademski Park** vs **Muha Bar**
+  - Reason: Coordinates Match (0m)
+- **Ambar** vs **Cantina de Frida**
+  - Reason: Coordinates Match (30m)
+- **Ambar** vs **Toro Latin GastroBar**
+  - Reason: Coordinates Match (47m)
+- **Bajrakli Mosque** vs **Bloom**
+  - Reason: Coordinates Match (0m)
+- **Bajrakli Mosque** vs **Supermarket Deli**
+  - Reason: Coordinates Match (0m)
+- **Balkon** vs **Belgrade City Museum**
+  - Reason: Coordinates Match (0m)
+- **Barutana** vs **Belgrad Kalesi (Kalemegdan)**
+  - Reason: Coordinates Match (20m)
+- **Belgrade Fortress Clock Tower** vs **Military Museum**
+  - Reason: Coordinates Match (0m)
+- **Beton Hala** vs **Sakura**
+  - Reason: Coordinates Match (37m)
+- **Beton Hala** vs **Toro Latin GastroBar**
+  - Reason: Coordinates Match (45m)
+- **Bloom** vs **Supermarket Deli**
+  - Reason: Coordinates Match (0m)
+- **Burger House** vs **Knez Mihailova Caddesi**
+  - Reason: Coordinates Match (29m)
+- **Comunale Caffe e Cucina** vs **Sakura**
+  - Reason: Coordinates Match (27m)
+- **Dva Jelena** vs **Red Bar**
+  - Reason: Coordinates Match (25m)
+- **Dva Jelena** vs **Skadarlija**
+  - Reason: Coordinates Match (45m)
+- **Dva Jelena** vs **Zlatni Bokal**
+  - Reason: Coordinates Match (47m)
+- **Endorfin** vs **Red Bread**
+  - Reason: Coordinates Match (0m)
+- **Epigenia** vs **Toplicin Venac**
+  - Reason: Coordinates Match (0m)
+- **Etnografya Müzesi** vs **Gallery of Frescoes**
+  - Reason: Coordinates Match (46m)
+- **Gardoş Kulesi** vs **Kula Sibinjanin Janka**
+  - Reason: Coordinates Match (45m)
+- **Guli** vs **Red Bar**
+  - Reason: Coordinates Match (39m)
+- **Guli** vs **Skadarlija**
+  - Reason: Coordinates Match (37m)
+- **Hotel Moskva** vs **Hotel Moskva Café**
+  - Reason: Coordinates Match (44m)
+- **House of Flowers** vs **Çiçek Evi (Tito'nun Mezarı)**
+  - Reason: Coordinates Match (43m)
+- **Illusions Museum** vs **Samo Pivo**
+  - Reason: Coordinates Match (49m)
+- **Ivo Andric Museum** vs **Old Palace (Stari Dvor)**
+  - Reason: Coordinates Match (39m)
+- **Josif Pancic Park** vs **Studentski Park**
+  - Reason: Coordinates Match (39m)
+- **Josif Pancic Park** vs **Tezga Bar**
+  - Reason: Coordinates Match (0m)
+- **Kafana Question Mark** vs **Kafana Znak Pitanja**
+  - Reason: Coordinates Match (27m)
+- **Kafana Question Mark** vs **Makadam**
+  - Reason: Coordinates Match (0m)
+- **Kafana Question Mark** vs **Prenses Ljubica Konağı**
+  - Reason: Coordinates Match (30m)
+- **Kafana Znak Pitanja** vs **Makadam**
+  - Reason: Coordinates Match (27m)
+- **Kafana Znak Pitanja** vs **Prenses Ljubica Konağı**
+  - Reason: Coordinates Match (9m)
+- **Kafana Znak Pitanja** vs **Znak Pitanja**
+  - Reason: Coordinates Match (40m)
+- **Kafeterija Magazin 1907** vs **Kralja Petra Street**
+  - Reason: Coordinates Match (18m)
+- **Kafeterija Magazin 1907** vs **Manufaktura**
+  - Reason: Coordinates Match (43m)
+- **Kralja Petra Street** vs **Manufaktura**
+  - Reason: Coordinates Match (29m)
+- **Little Bay** vs **Studentski Park**
+  - Reason: Coordinates Match (39m)
+- **Makadam** vs **Prenses Ljubica Konağı**
+  - Reason: Coordinates Match (30m)
+- **Mama Shelter Rooftop** vs **Zepter Museum**
+  - Reason: Coordinates Match (39m)
+- **Mladost** vs **Salon 1905**
+  - Reason: Coordinates Match (39m)
+- **Prenses Ljubica Konağı** vs **Znak Pitanja**
+  - Reason: Coordinates Match (40m)
+- **Red Bar** vs **Skadarlija**
+  - Reason: Coordinates Match (35m)
+- **Sakura** vs **Toro Latin GastroBar**
+  - Reason: Coordinates Match (27m)
+- **Skadarlija** vs **Tri Sesira**
+  - Reason: Coordinates Match (37m)
+- **Studentski Park** vs **Tezga Bar**
+  - Reason: Coordinates Match (39m)
+
+## Berlin (berlin.json)
+- **Aapka - Restaurant Berlin Alexanderplatz** vs **Anjoy Pastry**
+  - Reason: Coordinates Match (34m)
+- **Café Modo** vs **GEM Bar**
+  - Reason: Coordinates Match (34m)
+- **DDR Museum** vs **DDR Müzesi**
+  - Reason: Coordinates Match (21m)
+- **Five Elephant** vs **L'apéro Bar**
+  - Reason: Coordinates Match (17m)
+- **Jewish Museum** vs **Yahudi Müzesi (Jewish Museum)**
+  - Reason: Coordinates Match (20m)
+
+## Bologna (bologna.json)
+- **Accademia Filarmonica** vs **Basilica di Santo Stefano**
+  - Reason: Coordinates Match (26m)
+- **All'Osteria Bottega** vs **Mercato di Mezzo**
+  - Reason: Coordinates Match (0m)
+- **All'Osteria Bottega** vs **Pasta Making Class**
+  - Reason: Coordinates Match (45m)
+- **All'Osteria Bottega** vs **Quadrilatero (Eski Pazar)**
+  - Reason: Coordinates Match (45m)
+- **Archaeological Museum** vs **Ca' Pelletti**
+  - Reason: Coordinates Match (39m)
+- **Archaeological Museum** vs **Museo Civico Archeologico**
+  - Reason: Name matches Name_En
+- **Archiginnasio** vs **Biblioteca dell'Archiginnasio**
+  - Reason: Coordinates Match (39m)
+- **Archiginnasio** vs **Palazzo dell'Archiginnasio**
+  - Reason: Coordinates Match (27m)
+- **Archiginnasio** vs **Teatro Anatomico**
+  - Reason: Coordinates Match (0m)
+- **Biblioteca Salaborsa** vs **Fontana del Nettuno**
+  - Reason: Coordinates Match (41m)
+- **Biblioteca Salaborsa** vs **Museo Civico Archeologico**
+  - Reason: Coordinates Match (36m)
+- **Biblioteca dell'Archiginnasio** vs **Galleria Cavour**
+  - Reason: Coordinates Match (39m)
+- **Biblioteca dell'Archiginnasio** vs **Teatro Anatomico**
+  - Reason: Coordinates Match (39m)
+- **Caffè Zanarini** vs **Eataly Bologna**
+  - Reason: Coordinates Match (39m)
+- **Caffè Zanarini** vs **Libreria Coop Ambasciatori**
+  - Reason: Coordinates Match (39m)
+- **Caffè Zanarini** vs **Paolo Atti & Figli**
+  - Reason: Coordinates Match (39m)
+- **Caffè Zanarini** vs **Tamburini**
+  - Reason: Coordinates Match (0m)
+- **Caffè Zanarini** vs **Tigellino**
+  - Reason: Coordinates Match (45m)
+- **Caffè Zanarini** vs **Zerocinquantino**
+  - Reason: Coordinates Match (23m)
+- **Camera a Sud** vs **Gelateria Gianni**
+  - Reason: Coordinates Match (36m)
+- **Cinema Lumière - Cineteca di Bologna** vs **Mercato Ritrovato**
+  - Reason: Coordinates Match (0m)
+- **Collezioni Comunali d'Arte** vs **Fontana del Nettuno**
+  - Reason: Coordinates Match (41m)
+- **Collezioni Comunali d'Arte** vs **Osteria del Sole**
+  - Reason: Coordinates Match (45m)
+- **Collezioni Comunali d'Arte** vs **Palazzo Re Enzo**
+  - Reason: Coordinates Match (0m)
+- **Collezioni Comunali d'Arte** vs **Palazzo d'Accursio**
+  - Reason: Coordinates Match (27m)
+- **Collezioni Comunali d'Arte** vs **Piazza Maggiore**
+  - Reason: Coordinates Match (27m)
+- **Collezioni Comunali d'Arte** vs **Sfoglia Rina**
+  - Reason: Coordinates Match (27m)
+- **Collezioni Comunali d'Arte** vs **Vicolo dei Ranocchi**
+  - Reason: Coordinates Match (0m)
+- **Collezioni Comunali d'Arte** vs **Victoria's Secret**
+  - Reason: Coordinates Match (0m)
+- **Compianto sul Cristo Morto** vs **Oltre**
+  - Reason: Coordinates Match (0m)
+- **Compianto sul Cristo Morto** vs **Oratorio dei Battuti**
+  - Reason: Coordinates Match (0m)
+- **Compianto sul Cristo Morto** vs **Santa Maria della Vita**
+  - Reason: Coordinates Match (0m)
+- **Disney Store** vs **Porticoes of Bologna**
+  - Reason: Coordinates Match (0m)
+- **Disney Store** vs **Sfoglia Rina**
+  - Reason: Coordinates Match (36m)
+- **Drogheria della Rosa** vs **Vineria Favalli**
+  - Reason: Coordinates Match (39m)
+- **Eataly Bologna** vs **Libreria Coop Ambasciatori**
+  - Reason: Coordinates Match (0m)
+- **Eataly Bologna** vs **Tamburini**
+  - Reason: Coordinates Match (39m)
+- **Eataly Bologna** vs **Zerocinquantino**
+  - Reason: Coordinates Match (15m)
+- **Ex Forno Mambo** vs **MAMbo**
+  - Reason: Coordinates Match (0m)
+- **Ex Forno Mambo** vs **Museo Morandi**
+  - Reason: Coordinates Match (0m)
+- **Finestrella (Venedik Penceresi)** vs **Forno Brisa**
+  - Reason: Coordinates Match (0m)
+- **Fontana del Nettuno** vs **Palazzo Re Enzo**
+  - Reason: Coordinates Match (41m)
+- **Fontana del Nettuno** vs **Palazzo d'Accursio**
+  - Reason: Coordinates Match (40m)
+- **Fontana del Nettuno** vs **Sfoglia Rina**
+  - Reason: Coordinates Match (26m)
+- **Fontana del Nettuno** vs **Vicolo dei Ranocchi**
+  - Reason: Coordinates Match (41m)
+- **Fontana del Nettuno** vs **Victoria's Secret**
+  - Reason: Coordinates Match (41m)
+- **Fresco** vs **Porta Saragozza**
+  - Reason: Coordinates Match (0m)
+- **Gamberini** vs **Lego Store**
+  - Reason: Coordinates Match (0m)
+- **Gamberini** vs **Oratorio di San Filippo Neri**
+  - Reason: Coordinates Match (0m)
+- **Le Due Torri (Asinelli & Garisenda)** vs **Torre degli Asinelli**
+  - Reason: Coordinates Match (39m)
+- **Le Stanze** vs **Museo della Musica**
+  - Reason: Coordinates Match (0m)
+- **Le Stanze** vs **Zoo**
+  - Reason: Coordinates Match (0m)
+- **Lego Store** vs **Oratorio di San Filippo Neri**
+  - Reason: Coordinates Match (0m)
+- **Libreria Coop Ambasciatori** vs **Tamburini**
+  - Reason: Coordinates Match (39m)
+- **Libreria Coop Ambasciatori** vs **Zerocinquantino**
+  - Reason: Coordinates Match (15m)
+- **MAMbo** vs **Museo Morandi**
+  - Reason: Coordinates Match (0m)
+- **Majani Cioccolato** vs **Palazzo Belloni**
+  - Reason: Coordinates Match (0m)
+- **Mercato di Mezzo** vs **Pasta Making Class**
+  - Reason: Coordinates Match (45m)
+- **Mercato di Mezzo** vs **Quadrilatero (Eski Pazar)**
+  - Reason: Coordinates Match (45m)
+- **Museo Civico Archeologico** vs **Palazzo d'Accursio**
+  - Reason: Coordinates Match (48m)
+- **Museo del Tessuto e della Tappezzeria** vs **Villa Spada**
+  - Reason: Coordinates Match (0m)
+- **Museo della Beata Vergine di San Luca** vs **Santuario di San Luca**
+  - Reason: Coordinates Match (0m)
+- **Museo della Musica** vs **Zoo**
+  - Reason: Coordinates Match (0m)
+- **Museo di Palazzo Poggi** vs **Pinacoteca Nazionale**
+  - Reason: Coordinates Match (0m)
+- **Oltre** vs **Oratorio dei Battuti**
+  - Reason: Coordinates Match (0m)
+- **Oltre** vs **Santa Maria della Vita**
+  - Reason: Coordinates Match (0m)
+- **Oratorio dei Battuti** vs **Santa Maria della Vita**
+  - Reason: Coordinates Match (0m)
+- **Osteria del Sole** vs **Palazzo Re Enzo**
+  - Reason: Coordinates Match (45m)
+- **Osteria del Sole** vs **Paolo Atti & Figli**
+  - Reason: Coordinates Match (45m)
+- **Osteria del Sole** vs **Piazza Maggiore**
+  - Reason: Coordinates Match (23m)
+- **Osteria del Sole** vs **San Petronio Basilica**
+  - Reason: Coordinates Match (33m)
+- **Osteria del Sole** vs **Tigellino**
+  - Reason: Coordinates Match (39m)
+- **Osteria del Sole** vs **Vicolo dei Ranocchi**
+  - Reason: Coordinates Match (45m)
+- **Osteria del Sole** vs **Victoria's Secret**
+  - Reason: Coordinates Match (45m)
+- **Palazzo Re Enzo** vs **Palazzo d'Accursio**
+  - Reason: Coordinates Match (27m)
+- **Palazzo Re Enzo** vs **Piazza Maggiore**
+  - Reason: Coordinates Match (27m)
+- **Palazzo Re Enzo** vs **Sfoglia Rina**
+  - Reason: Coordinates Match (27m)
+- **Palazzo Re Enzo** vs **Vicolo dei Ranocchi**
+  - Reason: Coordinates Match (0m)
+- **Palazzo Re Enzo** vs **Victoria's Secret**
+  - Reason: Coordinates Match (0m)
+- **Palazzo d'Accursio** vs **Piazza Maggiore**
+  - Reason: Coordinates Match (31m)
+- **Palazzo d'Accursio** vs **Sfoglia Rina**
+  - Reason: Coordinates Match (44m)
+- **Palazzo d'Accursio** vs **Vicolo dei Ranocchi**
+  - Reason: Coordinates Match (27m)
+- **Palazzo d'Accursio** vs **Victoria's Secret**
+  - Reason: Coordinates Match (27m)
+- **Palazzo dell'Archiginnasio** vs **Teatro Anatomico**
+  - Reason: Coordinates Match (27m)
+- **Paolo Atti & Figli** vs **Tamburini**
+  - Reason: Coordinates Match (39m)
+- **Paolo Atti & Figli** vs **Tigellino**
+  - Reason: Coordinates Match (22m)
+- **Pasta Making Class** vs **Quadrilatero (Eski Pazar)**
+  - Reason: Coordinates Match (0m)
+- **Piazza Maggiore** vs **San Petronio Basilica**
+  - Reason: Coordinates Match (40m)
+- **Piazza Maggiore** vs **Vicolo dei Ranocchi**
+  - Reason: Coordinates Match (27m)
+- **Piazza Maggiore** vs **Victoria's Secret**
+  - Reason: Coordinates Match (27m)
+- **Portico di San Luca** vs **San Luca Portico Walk**
+  - Reason: Coordinates Match (0m)
+- **Porticoes of Bologna** vs **Sfoglia Rina**
+  - Reason: Coordinates Match (36m)
+- **Sfoglia Rina** vs **Vicolo dei Ranocchi**
+  - Reason: Coordinates Match (27m)
+- **Sfoglia Rina** vs **Victoria's Secret**
+  - Reason: Coordinates Match (27m)
+- **Tamburini** vs **Tigellino**
+  - Reason: Coordinates Match (45m)
+- **Tamburini** vs **Zerocinquantino**
+  - Reason: Coordinates Match (23m)
+- **Torre degli Asinelli** vs **Two Towers (Due Torri)**
+  - Reason: Coordinates Match (26m)
+- **Vicolo dei Ranocchi** vs **Victoria's Secret**
+  - Reason: Coordinates Match (0m)
+
+## Brugge (brugge.json)
+- **'t Brugs Beertje** vs **Huis 't Schaep**
+  - Reason: Coordinates Match (0m)
+- **'t Brugs Beertje** vs **Joey's Cafe**
+  - Reason: Coordinates Match (34m)
+- **'t Zand** vs **'t Zand Square**
+  - Reason: Exact English Name Match
+- **'t Zand Square** vs **Godshuis Van Campen**
+  - Reason: Coordinates Match (34m)
+- **2be Beer Wall** vs **Canal Boat Tour**
+  - Reason: Coordinates Match (39m)
+- **2be Beer Wall** vs **Rococo Lace**
+  - Reason: Coordinates Match (39m)
+- **2be Beer Wall** vs **Rozenhoedkaai**
+  - Reason: Coordinates Match (36m)
+- **2be Beer Wall** vs **Sans Cravate**
+  - Reason: Coordinates Match (49m)
+- **Arentshuis** vs **Gruuthusemuseum**
+  - Reason: Coordinates Match (26m)
+- **Arentshuis** vs **Hof Arents**
+  - Reason: Coordinates Match (26m)
+- **Augustijnenrei** vs **Park Restaurant**
+  - Reason: Coordinates Match (0m)
+- **Bar Des Amis** vs **Bruges Beer Experience**
+  - Reason: Coordinates Match (26m)
+- **Bar Des Amis** vs **Frietmuseum**
+  - Reason: Coordinates Match (34m)
+- **Basilica of the Holy Blood** vs **Burg Square**
+  - Reason: Coordinates Match (0m)
+- **Basilica of the Holy Blood** vs **Chez Albert**
+  - Reason: Coordinates Match (23m)
+- **Basilica of the Holy Blood** vs **Huidenvettersplein**
+  - Reason: Coordinates Match (34m)
+- **Basilica of the Holy Blood** vs **Stadhuis van Brugge**
+  - Reason: Coordinates Match (41m)
+- **Basilica of the Holy Blood** vs **Torture Museum Oude Steen**
+  - Reason: Coordinates Match (34m)
+- **Belfry of Bruges** vs **Cafe Rose Red**
+  - Reason: Coordinates Match (33m)
+- **Belfry of Bruges** vs **De Garre**
+  - Reason: Coordinates Match (23m)
+- **Belfry of Bruges** vs **Grote Markt**
+  - Reason: Coordinates Match (48m)
+- **Belfry of Bruges** vs **Museum-Gallery Xpo Salvador Dali**
+  - Reason: Coordinates Match (48m)
+- **Belfry of Bruges** vs **Provinciaal Hof**
+  - Reason: Coordinates Match (49m)
+- **Blackbird** vs **Jan van Eyckplein**
+  - Reason: Coordinates Match (36m)
+- **Bonifacius Bridge** vs **Gruuthusemuseum**
+  - Reason: Coordinates Match (41m)
+- **Bonifacius Bridge** vs **Hof Arents**
+  - Reason: Coordinates Match (41m)
+- **Bourgogne des Flandres Brewery** vs **Chocolatier Van Oost**
+  - Reason: Coordinates Match (0m)
+- **Bourgogne des Flandres Brewery** vs **Groot Vlaenderen**
+  - Reason: Coordinates Match (34m)
+- **Bruges Beer Experience** vs **Cafe Rose Red**
+  - Reason: Coordinates Match (39m)
+- **Bruges Beer Experience** vs **Frietmuseum**
+  - Reason: Coordinates Match (30m)
+- **Bruges Beer Experience** vs **Historium Bruges**
+  - Reason: Coordinates Match (41m)
+- **Bruges Beer Experience** vs **Provinciaal Hof**
+  - Reason: Coordinates Match (47m)
+- **Brugse Vrije** vs **Stadhuis van Brugge**
+  - Reason: Coordinates Match (48m)
+- **Brugse Vrije** vs **Vismarkt Brugge**
+  - Reason: Coordinates Match (0m)
+- **Burg Square** vs **Chez Albert**
+  - Reason: Coordinates Match (23m)
+- **Burg Square** vs **Huidenvettersplein**
+  - Reason: Coordinates Match (34m)
+- **Burg Square** vs **Stadhuis van Brugge**
+  - Reason: Coordinates Match (41m)
+- **Burg Square** vs **Torture Museum Oude Steen**
+  - Reason: Coordinates Match (34m)
+- **Cafe Rose Red** vs **De Garre**
+  - Reason: Coordinates Match (30m)
+- **Cafe Rose Red** vs **Grote Markt**
+  - Reason: Coordinates Match (34m)
+- **Cafe Rose Red** vs **Historium Bruges**
+  - Reason: Coordinates Match (39m)
+- **Cafe Rose Red** vs **Museum-Gallery Xpo Salvador Dali**
+  - Reason: Coordinates Match (34m)
+- **Cafe Rose Red** vs **Provinciaal Hof**
+  - Reason: Coordinates Match (23m)
+- **Canal Boat Tour** vs **Dumon Chocolatier**
+  - Reason: Coordinates Match (34m)
+- **Canal Boat Tour** vs **Rococo Lace**
+  - Reason: Coordinates Match (0m)
+- **Canal Boat Tour** vs **Rozenhoedkaai**
+  - Reason: Coordinates Match (34m)
+- **Cherry's** vs **Oyya Waffles**
+  - Reason: Coordinates Match (41m)
+- **Chez Albert** vs **Huidenvettersplein**
+  - Reason: Coordinates Match (17m)
+- **Chez Albert** vs **Stadhuis van Brugge**
+  - Reason: Coordinates Match (17m)
+- **Chez Albert** vs **Torture Museum Oude Steen**
+  - Reason: Coordinates Match (17m)
+- **Chez Olivier** vs **Dumon Chocolatier**
+  - Reason: Coordinates Match (36m)
+- **Chez Olivier** vs **Lace Shops**
+  - Reason: Coordinates Match (30m)
+- **Choco-Story** vs **Lumina Domestica**
+  - Reason: Coordinates Match (34m)
+- **Chocolatier Van Oost** vs **Groot Vlaenderen**
+  - Reason: Coordinates Match (34m)
+- **Concertgebouw Brugge** vs **Godshuizen**
+  - Reason: Coordinates Match (0m)
+- **Da Vinci** vs **Oyya Waffles**
+  - Reason: Coordinates Match (34m)
+- **De Garre** vs **Grote Markt**
+  - Reason: Coordinates Match (26m)
+- **De Garre** vs **Museum-Gallery Xpo Salvador Dali**
+  - Reason: Coordinates Match (26m)
+- **De Garre** vs **Provinciaal Hof**
+  - Reason: Coordinates Match (33m)
+- **De Koetse** vs **Fred's Waffles**
+  - Reason: Coordinates Match (39m)
+- **De Koetse** vs **House of Waffles**
+  - Reason: Coordinates Match (20m)
+- **De Koetse** vs **The Old Chocolate House**
+  - Reason: Coordinates Match (43m)
+- **De Stove** vs **Fred's Waffles**
+  - Reason: Coordinates Match (41m)
+- **De Vlaamsche Pot** vs **Godshuis Rooms Convent**
+  - Reason: Coordinates Match (0m)
+- **Den Amand** vs **Lebowski Bar**
+  - Reason: Coordinates Match (22m)
+- **Diamond Museum** vs **Otto Waffle Atelier**
+  - Reason: Coordinates Match (34m)
+- **Dumon Chocolatier** vs **Rococo Lace**
+  - Reason: Coordinates Match (34m)
+- **Estaminet** vs **Koningin Astridpark**
+  - Reason: Coordinates Match (41m)
+- **Estaminet** vs **L'Estaminet**
+  - Reason: Coordinates Match (48m)
+- **Fred's Waffles** vs **House of Waffles**
+  - Reason: Coordinates Match (33m)
+- **Fred's Waffles** vs **The Old Chocolate House**
+  - Reason: Coordinates Match (48m)
+- **Frietmuseum** vs **Historium Bruges**
+  - Reason: Coordinates Match (30m)
+- **Frietmuseum** vs **Provinciaal Hof**
+  - Reason: Coordinates Match (49m)
+- **Frituur De Halve Maan** vs **Walplein**
+  - Reason: Coordinates Match (0m)
+- **Godshuis De Moor** vs **Huis de Crombrugghe**
+  - Reason: Coordinates Match (34m)
+- **Godshuis De Vos** vs **Gran Kaffe De Passage**
+  - Reason: Coordinates Match (34m)
+- **Groenerei** vs **Peerdenbrug**
+  - Reason: Coordinates Match (41m)
+- **Grote Markt** vs **Historium Bruges**
+  - Reason: Coordinates Match (36m)
+- **Grote Markt** vs **Museum-Gallery Xpo Salvador Dali**
+  - Reason: Coordinates Match (0m)
+- **Grote Markt** vs **Provinciaal Hof**
+  - Reason: Coordinates Match (17m)
+- **Gruuthusemuseum** vs **Hof Arents**
+  - Reason: Coordinates Match (0m)
+- **Guild of Archers St. Sebastian** vs **Windmills Park**
+  - Reason: Coordinates Match (0m)
+- **Historium Bruges** vs **Museum-Gallery Xpo Salvador Dali**
+  - Reason: Coordinates Match (36m)
+- **Historium Bruges** vs **Provinciaal Hof**
+  - Reason: Coordinates Match (22m)
+- **Huidenvettersplein** vs **Stadhuis van Brugge**
+  - Reason: Coordinates Match (22m)
+- **Huidenvettersplein** vs **Torture Museum Oude Steen**
+  - Reason: Coordinates Match (0m)
+- **Huis 't Schaep** vs **Joey's Cafe**
+  - Reason: Coordinates Match (34m)
+- **Joey's Cafe** vs **Simon Stevinplein**
+  - Reason: Coordinates Match (34m)
+- **Lace Shops** vs **The Old Chocolate House**
+  - Reason: Coordinates Match (30m)
+- **Lake of Love (Minnewater)** vs **Sashuis**
+  - Reason: Coordinates Match (34m)
+- **Museum-Gallery Xpo Salvador Dali** vs **Provinciaal Hof**
+  - Reason: Coordinates Match (17m)
+- **Poortersloge** vs **Spiegelrei**
+  - Reason: Coordinates Match (34m)
+- **Rococo Lace** vs **Rozenhoedkaai**
+  - Reason: Coordinates Match (34m)
+- **Simon Stevinplein** vs **That's Toast**
+  - Reason: Coordinates Match (34m)
+- **Sint-Janshuis Mill** vs **Sint-Janshuismolen**
+  - Reason: Exact English Name Match
+- **St. Anne's Church** vs **St. James's Church**
+  - Reason: Fuzzy Name Match (0.86)
+- **Stadhuis van Brugge** vs **Torture Museum Oude Steen**
+  - Reason: Coordinates Match (22m)
+- **Stadhuis van Brugge** vs **Vismarkt Brugge**
+  - Reason: Coordinates Match (48m)
+- **Steenstraat** vs **The Chocolate Line**
+  - Reason: Coordinates Match (0m)
+
+## Brüksel (bruksel.json)
+- **Belgian Beer World** vs **OR Coffee**
+  - Reason: Coordinates Match (0m)
+- **Cathedral of St. Michael and St. Gudula** vs **St. Michael and St. Gudula Cathedral**
+  - Reason: Coordinates Match (11m)
+- **Chez Léon** vs **Delirium Café**
+  - Reason: Coordinates Match (23m)
+- **Chez Léon** vs **Jeanneke Pis**
+  - Reason: Coordinates Match (34m)
+- **Cubitus Mural** vs **Cubitus Mural 2**
+  - Reason: Fuzzy Name Match (0.93)
+- **Delirium Café** vs **Jeanneke Pis**
+  - Reason: Coordinates Match (17m)
+- **Fashion & Lace Museum** vs **Statue of Everard t'Serclaes**
+  - Reason: Coordinates Match (35m)
+- **GardeRobe MannekenPis** vs **Manneken Pis**
+  - Reason: Coordinates Match (11m)
+- **Grand Place** vs **Maison Dandoy - Grand Place**
+  - Reason: Coordinates Match (17m)
+- **Grand Place** vs **Museum of the City of Brussels**
+  - Reason: Coordinates Match (11m)
+- **Grand Place** vs **Statue of Everard t'Serclaes**
+  - Reason: Coordinates Match (35m)
+- **Jardin du Mont des Arts** vs **Mont des Arts**
+  - Reason: Coordinates Match (0m)
+- **Le Mort Subite** vs **À La Mort Subite**
+  - Reason: Fuzzy Name Match (0.87)
+- **Magritte Museum** vs **Musical Instruments Museum**
+  - Reason: Coordinates Match (36m)
+- **Maison Dandoy - Grand Place** vs **Museum of the City of Brussels**
+  - Reason: Coordinates Match (14m)
+- **Moeder Lambic Fontainas** vs **Old City Wall**
+  - Reason: Coordinates Match (0m)
+- **Museum of the City of Brussels** vs **Statue of Everard t'Serclaes**
+  - Reason: Coordinates Match (43m)
+
+## Budapeşte (budapeste.json)
+- **9BAR** vs **Free - Gluten Free Bakery Pest**
+  - Reason: Coordinates Match (30m)
+- **9BAR** vs **Grease Monkey Budapest**
+  - Reason: Coordinates Match (19m)
+- **Aziz Stephen Bazilikası** vs **Gelarto Rosa**
+  - Reason: Coordinates Match (12m)
+- **Aziz Stephen Bazilikası** vs **St. Stephen's Basilika**
+  - Reason: Coordinates Match (17m)
+- **Bajor Sör-Ház - HB Traunstein Beer House Budapest** vs **Gemini Lounge**
+  - Reason: Coordinates Match (9m)
+- **Bajor Sör-Ház - HB Traunstein Beer House Budapest** vs **The Pub-Aaron's Pub - Hungarian traditional beer & Streetfood**
+  - Reason: Coordinates Match (34m)
+- **Balıkçı Kalesi** vs **Balıkçı Tabyası (Fisherman's Bastion)**
+  - Reason: Coordinates Match (31m)
+- **Bilanx** vs **Gettó Gulyás**
+  - Reason: Coordinates Match (38m)
+- **Bilanx** vs **M1 Metro Hattı**
+  - Reason: Coordinates Match (38m)
+- **Bilanx** vs **Retek Bisztro**
+  - Reason: Coordinates Match (38m)
+- **Bilanx** vs **Retró Lángos Büfé**
+  - Reason: Coordinates Match (38m)
+- **Blueberry Brunch** vs **Málna The Pastry Shop**
+  - Reason: Coordinates Match (0m)
+- **Bors Gastro Bar** vs **Bors GasztroBár**
+  - Reason: Fuzzy Name Match (0.87)
+- **Bors GasztroBár** vs **Karavan Street Food**
+  - Reason: Coordinates Match (23m)
+- **Bors GasztroBár** vs **Szimpla Kert**
+  - Reason: Coordinates Match (23m)
+- **Bors GasztroBár** vs **Szimpla Pazar**
+  - Reason: Coordinates Match (23m)
+- **Boutiq' Bar** vs **Kazamata Club**
+  - Reason: Coordinates Match (45m)
+- **CONI Bar & Brunch** vs **Chez Dodo**
+  - Reason: Coordinates Match (15m)
+- **Café Gerbeaud** vs **Edison & Jupiter Specialty Cafe and gastrolab**
+  - Reason: Coordinates Match (8m)
+- **Cave Church (Sziklatemplom)** vs **Gellert Hamamı**
+  - Reason: Coordinates Match (40m)
+- **Caviar & Bull Budapest** vs **Step Bar&Cafe**
+  - Reason: Coordinates Match (48m)
+- **Caviar & Bull Budapest** vs **UNCENSORED Restaurant Budapest**
+  - Reason: Coordinates Match (32m)
+- **Children's Railway** vs **Children's Railway (Gyermekvasút)**
+  - Reason: Name matches Name_En
+- **Comme Chez Soi** vs **Final Table Budapest**
+  - Reason: Coordinates Match (45m)
+- **CoolDown Budapest** vs **Warm Up Cocktail bar**
+  - Reason: Coordinates Match (33m)
+- **Cork breakfast & wine** vs **Edy's French Tacos**
+  - Reason: Coordinates Match (8m)
+- **Csupor - Specialty Coffee** vs **Százéves Étterem**
+  - Reason: Coordinates Match (34m)
+- **DARK SIDE BUDAPEST Coffee, Desserts, Cakes, Shisha, Hookah, Cocktail, Alcohol bar** vs **Hungarikum Bisztró**
+  - Reason: Coordinates Match (36m)
+- **DARK SIDE BUDAPEST Coffee, Desserts, Cakes, Shisha, Hookah, Cocktail, Alcohol bar** vs **Mamie • Artizán Budapest**
+  - Reason: Coordinates Match (11m)
+- **Dohány Synagogu** vs **Zsinagóga Garden (Holokost Anıtı)**
+  - Reason: Coordinates Match (0m)
+- **Elisabeth Lookout (Erzsébet-kilátó)** vs **János-hegy & Elisabeth Lookout**
+  - Reason: Coordinates Match (46m)
+- **Elisabeth Lookout (Erzsébet-kilátó)** vs **Zugliget Chairlift (Libegő)**
+  - Reason: Coordinates Match (0m)
+- **Final Table Budapest** vs **Mon Petit Dessert Boutique**
+  - Reason: Coordinates Match (43m)
+- **Fine Arts Museum (Szépművészeti Múzeum)** vs **Museum of Fine Arts**
+  - Reason: Name_En matches Name
+- **For Sale Pub** vs **Stand25 Bisztró**
+  - Reason: Coordinates Match (37m)
+- **Free - Gluten Free Bakery Pest** vs **Grease Monkey Budapest**
+  - Reason: Coordinates Match (11m)
+- **Gelarto Rosa** vs **St. Stephen's Basilika**
+  - Reason: Coordinates Match (7m)
+- **Gellert Hamamı** vs **Gellért Hamamı**
+  - Reason: Fuzzy Name Match (0.93)
+- **Gellert Tepesi** vs **Gellért Tepesi**
+  - Reason: Fuzzy Name Match (0.93)
+- **Gemini Lounge** vs **The Pub-Aaron's Pub - Hungarian traditional beer & Streetfood**
+  - Reason: Coordinates Match (33m)
+- **Gettó Gulyás** vs **M1 Metro Hattı**
+  - Reason: Coordinates Match (0m)
+- **Gettó Gulyás** vs **Retek Bisztro**
+  - Reason: Coordinates Match (37m)
+- **Gettó Gulyás** vs **Retró Lángos Büfé**
+  - Reason: Coordinates Match (0m)
+- **Gettó Gulyás** vs **SALT Bakery X CAUSE**
+  - Reason: Coordinates Match (46m)
+- **GoodSpirit Whisky & Cocktail Bar** vs **Indian Palate - Indian Restaurant in Budapest**
+  - Reason: Coordinates Match (40m)
+- **Gozsdu Udvar** vs **Gozsdu Weekend Market**
+  - Reason: Coordinates Match (13m)
+- **Gozsdu Udvar** vs **KAA Mixology**
+  - Reason: Coordinates Match (31m)
+- **Gozsdu Udvar** vs **Telep Art Bar**
+  - Reason: Coordinates Match (32m)
+- **Gozsdu Weekend Market** vs **KAA Mixology**
+  - Reason: Coordinates Match (20m)
+- **Gozsdu Weekend Market** vs **Telep Art Bar**
+  - Reason: Coordinates Match (37m)
+- **Heroes' Square** vs **Kahramanlar Meydanı**
+  - Reason: Coordinates Match (16m)
+- **Hungarian National Gallery (Magyar Nemzeti Galéria)** vs **National Széchényi Library**
+  - Reason: Coordinates Match (45m)
+- **Hungarikum Bisztró** vs **Mamie • Artizán Budapest**
+  - Reason: Coordinates Match (43m)
+- **János-hegy & Elisabeth Lookout** vs **Zugliget Chairlift (Libegő)**
+  - Reason: Coordinates Match (46m)
+- **KAA Mixology** vs **Telep Art Bar**
+  - Reason: Coordinates Match (39m)
+- **Karavan Street Food** vs **Szimpla Kert**
+  - Reason: Coordinates Match (0m)
+- **Karavan Street Food** vs **Szimpla Pazar**
+  - Reason: Coordinates Match (0m)
+- **Kazamata Club** vs **Telep Art Bar**
+  - Reason: Coordinates Match (45m)
+- **La Siesta Budapest** vs **Mitico Budapest**
+  - Reason: Coordinates Match (34m)
+- **M1 Metro Hattı** vs **Retek Bisztro**
+  - Reason: Coordinates Match (37m)
+- **M1 Metro Hattı** vs **Retró Lángos Büfé**
+  - Reason: Coordinates Match (0m)
+- **M1 Metro Hattı** vs **SALT Bakery X CAUSE**
+  - Reason: Coordinates Match (46m)
+- **Mai Manó Ház** vs **Parlé**
+  - Reason: Coordinates Match (34m)
+- **Mai Manó Ház** vs **Press House 47**
+  - Reason: Coordinates Match (35m)
+- **Mai Manó Ház** vs **Robert Capa Photography Center**
+  - Reason: Coordinates Match (36m)
+- **Mon Petit Dessert Boutique** vs **Rumour by Rácz Jenő**
+  - Reason: Coordinates Match (19m)
+- **MongKok Tea 旺角冰室** vs **Zincenco Kitchen (Fine dining - Lakásétterem, Apartment restaurant)**
+  - Reason: Coordinates Match (37m)
+- **Mozata** vs **Parisi 6**
+  - Reason: Coordinates Match (14m)
+- **ONYX Restaurant Budapest** vs **Onyx**
+  - Reason: Coordinates Match (6m)
+- **Parlamento** vs **Parlamento Binası**
+  - Reason: Coordinates Match (22m)
+- **Parlé** vs **Press House 47**
+  - Reason: Coordinates Match (1m)
+- **Parlé** vs **Robert Capa Photography Center**
+  - Reason: Coordinates Match (20m)
+- **Pichler Chimney Cake & Gelato** vs **Sweet Hungary Chimney Cake**
+  - Reason: Coordinates Match (19m)
+- **Press House 47** vs **Robert Capa Photography Center**
+  - Reason: Coordinates Match (22m)
+- **Retek Bisztro** vs **Retró Lángos Büfé**
+  - Reason: Coordinates Match (37m)
+- **Retró Lángos Büfé** vs **SALT Bakery X CAUSE**
+  - Reason: Coordinates Match (46m)
+- **Robert Capa Contemporary Photography Center** vs **Stand Étterem**
+  - Reason: Coordinates Match (44m)
+- **Robert Capa Contemporary Photography Center** vs **Trofea Grill Restaurant**
+  - Reason: Coordinates Match (47m)
+- **Ruszwurm** vs **Ruszwurm Confectionery**
+  - Reason: Coordinates Match (25m)
+- **SEVEN Cocktail Bar** vs **VINYL & WOOD - Get Lost in Wonderland**
+  - Reason: Coordinates Match (20m)
+- **SEVEN Cocktail Bar** vs **Warm Up Cocktail bar**
+  - Reason: Coordinates Match (41m)
+- **SEVEN Cocktail Bar** vs **arán bakery budapest**
+  - Reason: Coordinates Match (23m)
+- **Semmelweis Medical Museum** vs **Várkert Bazár**
+  - Reason: Coordinates Match (45m)
+- **Stand Étterem** vs **Trofea Grill Restaurant**
+  - Reason: Coordinates Match (36m)
+- **Szimpla Kert** vs **Szimpla Pazar**
+  - Reason: Coordinates Match (0m)
+- **Tasting Table Budapest (Wine Shop)** vs **Tasting Table Cellar (by Taste Hungary)**
+  - Reason: Coordinates Match (34m)
+- **VINYL & WOOD - Get Lost in Wonderland** vs **arán bakery budapest**
+  - Reason: Coordinates Match (5m)
+- **Zincir Köprüsü** vs **Zincirli Köprü (Chain Bridge)**
+  - Reason: Coordinates Match (22m)
+
+## Cenevre (cenevre.json)
+- **Amaro Café** vs **Café des Banques**
+  - Reason: Coordinates Match (47m)
+- **Arakel** vs **HC Organic Wine Bar**
+  - Reason: Coordinates Match (28m)
+- **Arakel** vs **Le Blanc Valet**
+  - Reason: Coordinates Match (39m)
+- **Au Coin du Bar** vs **Ginger Donuts**
+  - Reason: Coordinates Match (32m)
+- **Bambou Bar Speakeasy** vs **Indian Plaza | Halal Food in Geneva**
+  - Reason: Coordinates Match (16m)
+- **Baristar Coffee & Tea Shop** vs **Black Sheep**
+  - Reason: Coordinates Match (30m)
+- **Baristar Coffee & Tea Shop** vs **La Bretelle Bar Associatif**
+  - Reason: Coordinates Match (24m)
+- **Baristar Coffee & Tea Shop** vs **À l'ancienne**
+  - Reason: Coordinates Match (0m)
+- **Bayview by Michel Roth** vs **Glow Bar**
+  - Reason: Coordinates Match (17m)
+- **Beau-Rivage Genève** vs **Quai du Mont-Blanc**
+  - Reason: Coordinates Match (26m)
+- **Black Sheep** vs **La Bretelle Bar Associatif**
+  - Reason: Coordinates Match (42m)
+- **Black Sheep** vs **UVA Genève**
+  - Reason: Coordinates Match (49m)
+- **Black Sheep** vs **À l'ancienne**
+  - Reason: Coordinates Match (30m)
+- **Bologne** vs **Luma café & more**
+  - Reason: Coordinates Match (46m)
+- **Bongénie Grieder** vs **Rue du Rhône**
+  - Reason: Coordinates Match (44m)
+- **Bordier-Brunnen** vs **Old Town (Vieille Ville)**
+  - Reason: Coordinates Match (23m)
+- **Bordier-Brunnen** vs **Passage des Degrés-de-Poules**
+  - Reason: Coordinates Match (32m)
+- **Bordier-Brunnen** vs **St. Pierre Cathedral**
+  - Reason: Coordinates Match (23m)
+- **Bottle Brothers (Cocktail Bar)** vs **Hanae**
+  - Reason: Coordinates Match (38m)
+- **Bottle Brothers (Cocktail Bar)** vs **Smala (Shopping)**
+  - Reason: Coordinates Match (0m)
+- **Brunswick Monument** vs **Cottage Café**
+  - Reason: Coordinates Match (0m)
+- **Brunswick Monument** vs **Dans le Noir ? Genève**
+  - Reason: Coordinates Match (37m)
+- **Café Calico** vs **Krispy Kreme (Manor Genève), Doughnuts**
+  - Reason: Coordinates Match (46m)
+- **Café Calico** vs **La Basquerie**
+  - Reason: Coordinates Match (31m)
+- **Café Calico** vs **Le Phare**
+  - Reason: Coordinates Match (44m)
+- **Café PAPON** vs **International Museum of the Reformation**
+  - Reason: Coordinates Match (37m)
+- **Café PAPON** vs **Les Armures**
+  - Reason: Coordinates Match (37m)
+- **Café PAPON** vs **Maison Tavel**
+  - Reason: Coordinates Match (37m)
+- **Cave de l'Hôtel de Ville** vs **Rue de l'Hôtel-de-Ville**
+  - Reason: Coordinates Match (25m)
+- **Chez ma Cousine (Bourg-de-Four)** vs **HELIA**
+  - Reason: Coordinates Match (37m)
+- **Chez ma Cousine (Bourg-de-Four)** vs **La Clémence (Teras)**
+  - Reason: Coordinates Match (15m)
+- **Chez ma Cousine (Bourg-de-Four)** vs **Place du Bourg-de-Four**
+  - Reason: Coordinates Match (18m)
+- **Corde Coffee** vs **Crossroads Pub**
+  - Reason: Coordinates Match (27m)
+- **Cottage Café** vs **Dans le Noir ? Genève**
+  - Reason: Coordinates Match (37m)
+- **HC Organic Wine Bar** vs **Le Blanc Valet**
+  - Reason: Coordinates Match (45m)
+- **HELIA** vs **La Clémence (Teras)**
+  - Reason: Coordinates Match (36m)
+- **HELIA** vs **Le Radar de Poche**
+  - Reason: Coordinates Match (33m)
+- **HELIA** vs **Place du Bourg-de-Four**
+  - Reason: Coordinates Match (47m)
+- **Hanae** vs **L'Adresse (Boutique & Café)**
+  - Reason: Coordinates Match (35m)
+- **Hanae** vs **Smala (Shopping)**
+  - Reason: Coordinates Match (38m)
+- **International Museum of the Reformation** vs **L'Ancien Arsenal**
+  - Reason: Coordinates Match (38m)
+- **International Museum of the Reformation** vs **Les Armures**
+  - Reason: Coordinates Match (0m)
+- **International Museum of the Reformation** vs **Maison Tavel**
+  - Reason: Coordinates Match (0m)
+- **International Museum of the Reformation** vs **Restaurant Les Armures**
+  - Reason: Coordinates Match (40m)
+- **Jacques Genève - Bar de quartier** vs **Rue de l'Hôtel-de-Ville**
+  - Reason: Coordinates Match (44m)
+- **Krispy Kreme (Manor Genève), Doughnuts** vs **La Basquerie**
+  - Reason: Coordinates Match (27m)
+- **L'Adresse (Boutique & Café)** vs **L'Epicentre**
+  - Reason: Coordinates Match (38m)
+- **L'Ancien Arsenal** vs **Les Armures**
+  - Reason: Coordinates Match (38m)
+- **L'Ancien Arsenal** vs **Maison Tavel**
+  - Reason: Coordinates Match (38m)
+- **L'Ancien Arsenal** vs **Old Town (Vieille Ville)**
+  - Reason: Coordinates Match (38m)
+- **L'Ancien Arsenal** vs **Restaurant Les Armures**
+  - Reason: Coordinates Match (42m)
+- **L'Ancien Arsenal** vs **St. Pierre Cathedral**
+  - Reason: Coordinates Match (38m)
+- **L'Apothicaire Cocktail-Club** vs **Oh no Lulu!**
+  - Reason: Coordinates Match (16m)
+- **La Basquerie** vs **Le Phare**
+  - Reason: Coordinates Match (27m)
+- **La Boulangerie Des Grottes** vs **La Taverne Bar a Vins et Tapas**
+  - Reason: Coordinates Match (28m)
+- **La Bretelle Bar Associatif** vs **À l'ancienne**
+  - Reason: Coordinates Match (24m)
+- **La Chocolaterie de Genève** vs **Marina Mezze**
+  - Reason: Coordinates Match (48m)
+- **La Chocolaterie de Genève** vs **Saj Eat**
+  - Reason: Coordinates Match (20m)
+- **La Clémence (Teras)** vs **Place du Bourg-de-Four**
+  - Reason: Coordinates Match (11m)
+- **La Tenuta Wine Shop, Bar & Restaurant** vs **Le Calbar Genève**
+  - Reason: Coordinates Match (31m)
+- **Le Brise Glace** vs **Le Scandale**
+  - Reason: Coordinates Match (35m)
+- **Les Armures** vs **Maison Tavel**
+  - Reason: Coordinates Match (0m)
+- **Les Armures** vs **Restaurant Les Armures**
+  - Reason: Coordinates Match (40m)
+- **Les Ciboulettes** vs **Mr.Barber**
+  - Reason: Coordinates Match (11m)
+- **Les Ciboulettes** vs **Ogeessa coffee**
+  - Reason: Coordinates Match (47m)
+- **Les Ciboulettes** vs **Sublime Coffee**
+  - Reason: Coordinates Match (34m)
+- **Maison Tavel** vs **Restaurant Les Armures**
+  - Reason: Coordinates Match (40m)
+- **Manor Geneva (Department Store)** vs **UVA Genève**
+  - Reason: Coordinates Match (5m)
+- **Mr.Barber** vs **Ogeessa coffee**
+  - Reason: Coordinates Match (49m)
+- **Mr.Barber** vs **Sublime Coffee**
+  - Reason: Coordinates Match (36m)
+- **Musée Patek Philippe** vs **Patek Philippe Museum**
+  - Reason: Coordinates Match (0m)
+- **Ogeessa coffee** vs **Sublime Coffee**
+  - Reason: Coordinates Match (13m)
+- **Old Town (Vieille Ville)** vs **Passage des Degrés-de-Poules**
+  - Reason: Coordinates Match (47m)
+- **Old Town (Vieille Ville)** vs **St. Pierre Cathedral**
+  - Reason: Coordinates Match (0m)
+- **Parc des Bastions** vs **Promenade de la Treille**
+  - Reason: Coordinates Match (0m)
+- **Passage des Degrés-de-Poules** vs **Restaurant Les Armures**
+  - Reason: Coordinates Match (45m)
+- **Passage des Degrés-de-Poules** vs **St. Pierre Cathedral**
+  - Reason: Coordinates Match (47m)
+- **Rollmance Geneva** vs **Sam's Grill House Geneva - Mont-Blanc**
+  - Reason: Coordinates Match (19m)
+
+## Colmar (colmar.json)
+- **Alsace Wine Route Start** vs **Unterlinden Museum**
+  - Reason: Coordinates Match (43m)
+- **Ancienne Douane (Koïfhus)** vs **Fénelon Café**
+  - Reason: Coordinates Match (22m)
+- **Ancienne Douane (Koïfhus)** vs **Koïfhus**
+  - Reason: Coordinates Match (0m)
+- **Ancienne Douane (Koïfhus)** vs **Schwendi Bier-und Weinstub**
+  - Reason: Coordinates Match (0m)
+- **Au Croissant Doré** vs **La Table du Brocanteur**
+  - Reason: Coordinates Match (43m)
+- **Au Croissant Doré** vs **Salon de Thé Un Moment à Colmar**
+  - Reason: Coordinates Match (26m)
+- **Aux Armes de Colmar** vs **Gilg**
+  - Reason: Coordinates Match (36m)
+- **Aux Armes de Colmar** vs **Rue des Marchands**
+  - Reason: Coordinates Match (14m)
+- **Aux Armes de Colmar** vs **Salon de Thé Un Moment à Colmar**
+  - Reason: Coordinates Match (36m)
+- **Bartholdi Museum** vs **Gilg**
+  - Reason: Coordinates Match (49m)
+- **Bartholdi Museum** vs **Hansi Boutique**
+  - Reason: Coordinates Match (22m)
+- **Bartholdi Museum** vs **Jadis et Gourmande**
+  - Reason: Coordinates Match (43m)
+- **Bartholdi Museum** vs **Wine Tasting Cellars**
+  - Reason: Coordinates Match (49m)
+- **Boat Ride on Lauch** vs **Caveau Saint-Pierre**
+  - Reason: Coordinates Match (26m)
+- **Boat Ride on Lauch** vs **La Petite Venise**
+  - Reason: Coordinates Match (36m)
+- **Boat Ride on Lauch** vs **Marché couvert**
+  - Reason: Coordinates Match (31m)
+- **Caveau Saint-Pierre** vs **Marché couvert**
+  - Reason: Coordinates Match (37m)
+- **Christmas Market** vs **Grand Rue**
+  - Reason: Coordinates Match (22m)
+- **Christmas Market** vs **Le Fer Rouge**
+  - Reason: Coordinates Match (22m)
+- **Dominican Church** vs **Place des Dominicains**
+  - Reason: Coordinates Match (0m)
+- **Fishmonger's District** vs **JY's**
+  - Reason: Coordinates Match (22m)
+- **Fishmonger's District** vs **La Petite Venise**
+  - Reason: Coordinates Match (36m)
+- **Fishmonger's District** vs **Wistub Brenner**
+  - Reason: Coordinates Match (44m)
+- **Fortwenger** vs **St Martin's Church**
+  - Reason: Coordinates Match (14m)
+- **Fénelon Café** vs **Koïfhus**
+  - Reason: Coordinates Match (22m)
+- **Fénelon Café** vs **Schwendi Bier-und Weinstub**
+  - Reason: Coordinates Match (22m)
+- **Gilg** vs **Jadis et Gourmande**
+  - Reason: Coordinates Match (26m)
+- **Gilg** vs **Rue des Marchands**
+  - Reason: Coordinates Match (33m)
+- **Grand Rue** vs **Jadis et Gourmande**
+  - Reason: Coordinates Match (37m)
+- **Grand Rue** vs **Le Fer Rouge**
+  - Reason: Coordinates Match (0m)
+- **Hansi Boutique** vs **Wine Tasting Cellars**
+  - Reason: Coordinates Match (36m)
+- **JY's** vs **Wistub Brenner**
+  - Reason: Coordinates Match (49m)
+- **Jadis et Gourmande** vs **Le Fer Rouge**
+  - Reason: Coordinates Match (37m)
+- **Koïfhus** vs **Schwendi Bier-und Weinstub**
+  - Reason: Coordinates Match (0m)
+- **La Table du Brocanteur** vs **Sézanne**
+  - Reason: Coordinates Match (43m)
+- **Rue des Marchands** vs **Salon de Thé Un Moment à Colmar**
+  - Reason: Coordinates Match (44m)
+- **Tanners' Quarter** vs **Wistub Brenner**
+  - Reason: Coordinates Match (26m)
+
+## Dubai (dubai.json)
+- **21grams** vs **Orfali Bros Bistro**
+  - Reason: Coordinates Match (0m)
+- **ARTE Museum Dubai** vs **Dubai Aquarium & Underwater Zoo**
+  - Reason: Coordinates Match (0m)
+- **ARTE Museum Dubai** vs **Dubai Ice Rink**
+  - Reason: Coordinates Match (0m)
+- **ARTE Museum Dubai** vs **Dubai Mall**
+  - Reason: Coordinates Match (0m)
+- **ARTE Museum Dubai** vs **Tiger Sugar**
+  - Reason: Coordinates Match (44m)
+- **ARTE Museum Dubai** vs **VR Park Dubai Mall**
+  - Reason: Coordinates Match (0m)
+- **Al Bastakiya Quarter** vs **Al Fahidi Historical District**
+  - Reason: Coordinates Match (0m)
+- **Al Bastakiya Quarter** vs **Arabian Tea House**
+  - Reason: Coordinates Match (0m)
+- **Al Bastakiya Quarter** vs **Dubai Museum (Al Fahidi Fort)**
+  - Reason: Coordinates Match (0m)
+- **Al Fahidi Historical District** vs **Arabian Tea House**
+  - Reason: Coordinates Match (0m)
+- **Al Fahidi Historical District** vs **Dubai Museum (Al Fahidi Fort)**
+  - Reason: Coordinates Match (0m)
+- **Al Mallah** vs **Ravi Restaurant**
+  - Reason: Coordinates Match (0m)
+- **Al Qudra Lakes** vs **Love Lake**
+  - Reason: Coordinates Match (0m)
+- **Al Seef** vs **Museum of Illusions**
+  - Reason: Coordinates Match (0m)
+- **Arabian Tea House** vs **Dubai Museum (Al Fahidi Fort)**
+  - Reason: Coordinates Match (0m)
+- **At.mosphere** vs **Burj Khalifa**
+  - Reason: Coordinates Match (0m)
+- **Atlantis Aquaventure** vs **Nobu Dubai**
+  - Reason: Coordinates Match (0m)
+- **Atlantis Aquaventure** vs **Ossiano**
+  - Reason: Coordinates Match (0m)
+- **Atlantis Aquaventure** vs **The Lost Chambers Aquarium**
+  - Reason: Coordinates Match (0m)
+- **Attibassi Coffee** vs **Butter & Bread - BurJuman Mall**
+  - Reason: Coordinates Match (23m)
+- **Aura Skypool** vs **Palm Jumeirah**
+  - Reason: Coordinates Match (44m)
+- **Aura Skypool** vs **The View at The Palm**
+  - Reason: Coordinates Match (0m)
+- **BOCA** vs **Tresind Studio**
+  - Reason: Coordinates Match (0m)
+- **BOCA** vs **Zuma Dubai**
+  - Reason: Coordinates Match (0m)
+- **Bar Dali** vs **Soiree restaurant and lounge**
+  - Reason: Coordinates Match (0m)
+- **Bar Dali** vs **The MAINE Land Brasserie Restaurant, Business Bay Dubai**
+  - Reason: Coordinates Match (28m)
+- **Bollywood Parks Dubai** vs **Dubai Parks and Resorts**
+  - Reason: Coordinates Match (0m)
+- **Bollywood Parks Dubai** vs **Real Madrid World**
+  - Reason: Coordinates Match (0m)
+- **Bosporus Turkish Cuisine - The Dubai Mall** vs **Peet's Coffee**
+  - Reason: Coordinates Match (45m)
+- **Bosporus Turkish Cuisine - The Dubai Mall** vs **Rang Dubai Mall**
+  - Reason: Coordinates Match (30m)
+- **Burj Al Arab** vs **Jumeirah Beach**
+  - Reason: Coordinates Match (0m)
+- **Cavo Lounge Dubai** vs **Zoloto karaoke & lounge**
+  - Reason: Coordinates Match (49m)
+- **Choco Fondue** vs **Lebanushi Restaurant & Lounge**
+  - Reason: Coordinates Match (34m)
+- **DECK TOO** vs **The Patisserie at Address Sky View**
+  - Reason: Coordinates Match (33m)
+- **Dubai Aquarium & Underwater Zoo** vs **Dubai Ice Rink**
+  - Reason: Coordinates Match (0m)
+- **Dubai Aquarium & Underwater Zoo** vs **Dubai Mall**
+  - Reason: Coordinates Match (0m)
+- **Dubai Aquarium & Underwater Zoo** vs **Tiger Sugar**
+  - Reason: Coordinates Match (44m)
+- **Dubai Aquarium & Underwater Zoo** vs **VR Park Dubai Mall**
+  - Reason: Coordinates Match (0m)
+- **Dubai Butterfly Garden** vs **Dubai Miracle Garden**
+  - Reason: Coordinates Match (38m)
+- **Dubai Butterfly Garden** vs **Miracle Garden**
+  - Reason: Coordinates Match (0m)
+- **Dubai Creek** vs **Meena Bazaar**
+  - Reason: Coordinates Match (0m)
+- **Dubai Frame** vs **Zabeel Park**
+  - Reason: Coordinates Match (0m)
+- **Dubai Ice Rink** vs **Dubai Mall**
+  - Reason: Coordinates Match (0m)
+- **Dubai Ice Rink** vs **Tiger Sugar**
+  - Reason: Coordinates Match (44m)
+- **Dubai Ice Rink** vs **VR Park Dubai Mall**
+  - Reason: Coordinates Match (0m)
+- **Dubai Mall** vs **Tiger Sugar**
+  - Reason: Coordinates Match (44m)
+- **Dubai Mall** vs **VR Park Dubai Mall**
+  - Reason: Coordinates Match (0m)
+- **Dubai Miracle Garden** vs **Miracle Garden**
+  - Reason: Coordinates Match (38m)
+- **Dubai Parks and Resorts** vs **Real Madrid World**
+  - Reason: Coordinates Match (0m)
+- **JBR Beach** vs **The Beach at JBR**
+  - Reason: Coordinates Match (0m)
+- **Jovee - Japanese & European Restaurant** vs **Maison De Curry | Restaurant with the best views of Burj Khalifa & Dubai Fountains**
+  - Reason: Coordinates Match (28m)
+- **Jovee - Japanese & European Restaurant** vs **The Tap House, Downtown**
+  - Reason: Coordinates Match (42m)
+- **Kite Beach** vs **SALT Kite Beach**
+  - Reason: Coordinates Match (0m)
+- **Legoland Dubai** vs **Motiongate Dubai**
+  - Reason: Coordinates Match (0m)
+- **Madinat Jumeirah** vs **Pierchic**
+  - Reason: Coordinates Match (0m)
+- **Madinat Jumeirah** vs **Souk Madinat Jumeirah**
+  - Reason: Coordinates Match (0m)
+- **Maison De Curry | Restaurant with the best views of Burj Khalifa & Dubai Fountains** vs **The Tap House, Downtown**
+  - Reason: Coordinates Match (14m)
+- **Mall of the Emirates** vs **Ski Dubai**
+  - Reason: Coordinates Match (0m)
+- **Mr Toad’s Pub & Kitchen** vs **Mr. Toad's Pub & Kitchen**
+  - Reason: Fuzzy Name Match (0.94)
+- **Nido Restaurant & Bar** vs **Vyne Restaurant & Bar**
+  - Reason: Fuzzy Name Match (0.86)
+- **Nobu Dubai** vs **Ossiano**
+  - Reason: Coordinates Match (0m)
+- **Nobu Dubai** vs **The Lost Chambers Aquarium**
+  - Reason: Coordinates Match (0m)
+- **O Dubai - Lounge & Club** vs **Windows Bar & Lounge**
+  - Reason: Coordinates Match (28m)
+- **Ossiano** vs **The Lost Chambers Aquarium**
+  - Reason: Coordinates Match (0m)
+- **Palm Jumeirah** vs **The View at The Palm**
+  - Reason: Coordinates Match (44m)
+- **Peet's Coffee** vs **Rang Dubai Mall**
+  - Reason: Coordinates Match (32m)
+- **Peet's Coffee** vs **Time Out Market Dubai**
+  - Reason: Coordinates Match (39m)
+- **Pierchic** vs **Souk Madinat Jumeirah**
+  - Reason: Coordinates Match (0m)
+- **Risen Café and Artisanal Bakery, Business Bay** vs **The Blacksmith Bar & Eatery, Business Bay**
+  - Reason: Coordinates Match (33m)
+- **Risen Café and Artisanal Bakery, Business Bay** vs **Vyne Restaurant & Bar**
+  - Reason: Coordinates Match (34m)
+- **Soiree restaurant and lounge** vs **The MAINE Land Brasserie Restaurant, Business Bay Dubai**
+  - Reason: Coordinates Match (28m)
+- **The Blacksmith Bar & Eatery, Business Bay** vs **Vyne Restaurant & Bar**
+  - Reason: Coordinates Match (14m)
+- **Tiger Sugar** vs **VR Park Dubai Mall**
+  - Reason: Coordinates Match (44m)
+- **Tresind Studio** vs **Zuma Dubai**
+  - Reason: Coordinates Match (0m)
+
+## Dublin (dublin.json)
+- **A Taste of Spain SPANISH GOURMET SHOP.** vs **Mister S**
+  - Reason: Coordinates Match (41m)
+- **A Taste of Spain SPANISH GOURMET SHOP.** vs **Sitting Room at Delahunt**
+  - Reason: Coordinates Match (34m)
+- **Andhra Bhavan (Marlborough St)** vs **The Confession Box**
+  - Reason: Coordinates Match (19m)
+- **BANG Restaurant & Wine Bar Dublin D02 KW61** vs **O'Donoghue's Pub**
+  - Reason: Coordinates Match (32m)
+- **BANG Restaurant & Wine Bar Dublin D02 KW61** vs **O'Donoghues Bar**
+  - Reason: Coordinates Match (42m)
+- **BAR 1661** vs **Craft Cocktails X Cuckoo Lane**
+  - Reason: Coordinates Match (0m)
+- **Boom Coffee Roasters Francis Street** vs **Rumi Cafe Francis Street**
+  - Reason: Coordinates Match (5m)
+- **Boss Stop Restaurant** vs **George's Street Arcade**
+  - Reason: Coordinates Match (32m)
+- **Central Brew Coffee** vs **Ella's Heaven Cafe & Bakery**
+  - Reason: Coordinates Match (40m)
+- **Chester Beatty Library** vs **Dublin Castle**
+  - Reason: Coordinates Match (34m)
+- **Coffeeangel** vs **Pichet**
+  - Reason: Coordinates Match (23m)
+- **Cookieboy** vs **It's a Trap**
+  - Reason: Coordinates Match (36m)
+- **Cookieboy** vs **Uno Mas**
+  - Reason: Coordinates Match (39m)
+- **Etto** vs **O'Donoghues Bar**
+  - Reason: Coordinates Match (21m)
+- **F.X. Buckley Steakhouse Pembroke Street** vs **FX Buckley Steakhouse Crow Street**
+  - Reason: Fuzzy Name Match (0.86)
+- **First Chapter** vs **George's Street Arcade**
+  - Reason: Coordinates Match (24m)
+- **Gen Bar** vs **The Cobblestone**
+  - Reason: Coordinates Match (23m)
+- **It's a Trap** vs **Uno Mas**
+  - Reason: Coordinates Match (38m)
+- **Jay Kays Cafe** vs **Sfuso**
+  - Reason: Coordinates Match (49m)
+- **Kalabasa Market** vs **Vice Coffee Inc**
+  - Reason: Coordinates Match (44m)
+- **Kicky's** vs **The Long Hall**
+  - Reason: Coordinates Match (47m)
+- **La Gordita** vs **Two Faced**
+  - Reason: Coordinates Match (27m)
+- **Le Gazin Restaurant** vs **Mandy's Bakery**
+  - Reason: Coordinates Match (25m)
+- **Mae Restaurant Dublin** vs **SASHA’S Coffee Bar**
+  - Reason: Coordinates Match (27m)
+- **Mae Restaurant Dublin** vs **The French Paradox**
+  - Reason: Coordinates Match (6m)
+- **Marsh's Library** vs **St. Patrick's Cathedral**
+  - Reason: Coordinates Match (41m)
+- **Mister S** vs **Sitting Room at Delahunt**
+  - Reason: Coordinates Match (39m)
+- **Mulligan's** vs **Shoe Lane Coffee**
+  - Reason: Coordinates Match (32m)
+- **Mulligan's** vs **The Vintage Kitchen**
+  - Reason: Coordinates Match (17m)
+- **O'Donoghue's** vs **O'Donoghue's Pub**
+  - Reason: Fuzzy Name Match (0.86)
+- **O'Donoghue's Pub** vs **O'Donoghues Bar**
+  - Reason: Coordinates Match (33m)
+- **Pearl Brasserie** vs **Restaurant Patrick Guilbaud**
+  - Reason: Coordinates Match (31m)
+- **SASHA’S Coffee Bar** vs **The French Paradox**
+  - Reason: Coordinates Match (26m)
+- **Shoe Lane Coffee** vs **The Vintage Kitchen**
+  - Reason: Coordinates Match (39m)
+- **St Stephen's Green** vs **St. Stephen's Green**
+  - Reason: Fuzzy Name Match (0.97)
+- **Stephen's Green Shopping Centre** vs **Traditional Asian Cake**
+  - Reason: Coordinates Match (42m)
+- **Temple Bar** vs **The Temple Bar Pub**
+  - Reason: Coordinates Match (15m)
+- **Temple Bar** vs **The Whiskey Reserve | Whiskey Tasting Dublin**
+  - Reason: Coordinates Match (39m)
+- **The Dame Tavern** vs **The Stag's Head**
+  - Reason: Coordinates Match (47m)
+- **The Temple Bar Pub** vs **The Whiskey Reserve | Whiskey Tasting Dublin**
+  - Reason: Coordinates Match (25m)
+
+## Edinburgh (edinburgh.json)
+- **Angels with Bagpipes** vs **St Giles Katedrali**
+  - Reason: Coordinates Match (41m)
+- **Angels with Bagpipes** vs **The Real Mary King's Close**
+  - Reason: Coordinates Match (35m)
+- **Camera Obscura** vs **Scotch Whisky Experience**
+  - Reason: Coordinates Match (27m)
+- **Camera Obscura** vs **The Witchery by the Castle**
+  - Reason: Coordinates Match (13m)
+- **Edinburgh Dungeon** vs **The Milkman**
+  - Reason: Coordinates Match (49m)
+- **Howies** vs **Victoria Street**
+  - Reason: Coordinates Match (21m)
+- **Makars Gourmet Mash Bar** vs **Writers' Museum**
+  - Reason: Coordinates Match (48m)
+- **Scotch Whisky Experience** vs **The Witchery by the Castle**
+  - Reason: Coordinates Match (18m)
+- **The Writers' Museum** vs **Writers' Museum**
+  - Reason: Fuzzy Name Match (0.88)
+
+## Fes (fes.json)
+- **Al-Attarine Medresesi** vs **Al-Qarawiyyin Üniversitesi**
+  - Reason: Coordinates Match (31m)
+- **Antique Shop Fes** vs **Argansouss**
+  - Reason: Coordinates Match (24m)
+- **Antique Shop Fes** vs **Coin Berbere**
+  - Reason: Coordinates Match (0m)
+- **Antique Shop Fes** vs **Le Tarbouche Fes**
+  - Reason: Coordinates Match (30m)
+- **Argansouss** vs **Coin Berbere**
+  - Reason: Coordinates Match (24m)
+- **Argansouss** vs **Le Tarbouche Fes**
+  - Reason: Coordinates Match (18m)
+- **Art Naji** vs **Art Naji (Seramik)**
+  - Reason: Coordinates Match (0m)
+- **Bab Bou Jeloud** vs **Bab Boujloud (Mavi Kapı)**
+  - Reason: Coordinates Match (0m)
+- **Bab Bou Jeloud** vs **Chez Rachid**
+  - Reason: Coordinates Match (43m)
+- **Bab Bou Jeloud** vs **Hammam Mernissi**
+  - Reason: Coordinates Match (27m)
+- **Bab Bou Jeloud** vs **Hammam de la Poste**
+  - Reason: Coordinates Match (27m)
+- **Bab Bou Jeloud** vs **Nagham Cafe**
+  - Reason: Coordinates Match (34m)
+- **Bab Bou Jeloud** vs **Thami's**
+  - Reason: Coordinates Match (44m)
+- **Bab Boujloud (Mavi Kapı)** vs **Chez Rachid**
+  - Reason: Coordinates Match (43m)
+- **Bab Boujloud (Mavi Kapı)** vs **Hammam Mernissi**
+  - Reason: Coordinates Match (27m)
+- **Bab Boujloud (Mavi Kapı)** vs **Hammam de la Poste**
+  - Reason: Coordinates Match (27m)
+- **Bab Boujloud (Mavi Kapı)** vs **Nagham Cafe**
+  - Reason: Coordinates Match (34m)
+- **Bab Boujloud (Mavi Kapı)** vs **Thami's**
+  - Reason: Coordinates Match (44m)
+- **Bab Guissa** vs **Bab Guissa Mosque**
+  - Reason: Coordinates Match (0m)
+- **Bab Segma** vs **Kasbah Cherarda**
+  - Reason: Coordinates Match (30m)
+- **Borj Nord** vs **Musee des Armes (Borj Nord)**
+  - Reason: Coordinates Match (0m)
+- **Bou Inania Medresesi** vs **Cafe Clock**
+  - Reason: Coordinates Match (23m)
+- **Bou Inania Medresesi** vs **Café Clock**
+  - Reason: Coordinates Match (23m)
+- **Bou Inania Medresesi** vs **Dar al-Magana**
+  - Reason: Coordinates Match (13m)
+- **Bou Inania Medresesi** vs **Nach Mama**
+  - Reason: Coordinates Match (24m)
+- **Bou Inania Medresesi** vs **Rainbow Street Art**
+  - Reason: Coordinates Match (42m)
+- **Cafe Clock** vs **Café Clock**
+  - Reason: Coordinates Match (0m)
+- **Cafe Clock** vs **Dar al-Magana**
+  - Reason: Coordinates Match (24m)
+- **Cafe Clock** vs **Nach Mama**
+  - Reason: Coordinates Match (47m)
+- **Cafe La Noria** vs **Cooperative de Tissage**
+  - Reason: Coordinates Match (45m)
+- **Cafe La Noria** vs **Pottery Cooperative**
+  - Reason: Coordinates Match (45m)
+- **Cafe Restaurant Al Oud** vs **Made in M**
+  - Reason: Coordinates Match (14m)
+- **Cafe Restaurant Al Oud** vs **Maison Moi Anan**
+  - Reason: Coordinates Match (32m)
+- **Café Clock** vs **Dar al-Magana**
+  - Reason: Coordinates Match (24m)
+- **Café Clock** vs **Nach Mama**
+  - Reason: Coordinates Match (47m)
+- **Chez Rachid** vs **Hammam Mernissi**
+  - Reason: Coordinates Match (22m)
+- **Chez Rachid** vs **Hammam de la Poste**
+  - Reason: Coordinates Match (22m)
+- **Chez Rachid** vs **Thami's**
+  - Reason: Coordinates Match (7m)
+- **Chez les Potiers** vs **Mosaique et Poterie de Fes**
+  - Reason: Coordinates Match (0m)
+- **Chouara Tabakhaneleri** vs **Chouara Tannery**
+  - Reason: Coordinates Match (0m)
+- **Coin Berbere** vs **Le Tarbouche Fes**
+  - Reason: Coordinates Match (30m)
+- **Cooperative de Tissage** vs **Pottery Cooperative**
+  - Reason: Coordinates Match (0m)
+- **Crafts of Fez** vs **Souk Haik**
+  - Reason: Coordinates Match (43m)
+- **Cremerie La Place** vs **Place Seffarine**
+  - Reason: Coordinates Match (14m)
+- **Cremerie La Place** vs **Seffarine Meydanı**
+  - Reason: Coordinates Match (14m)
+- **Culture Box** vs **Terrasse des Tanneurs**
+  - Reason: Coordinates Match (40m)
+- **Culture Box** vs **Veggie-pause**
+  - Reason: Coordinates Match (17m)
+- **Dar Batha** vs **Dar Batha Müzesi**
+  - Reason: Coordinates Match (0m)
+- **Dar Saada** vs **Kına Çarşısı (Souk el-Henna)**
+  - Reason: Coordinates Match (17m)
+- **Dar Saada** vs **Souk Al-Attarine**
+  - Reason: Coordinates Match (21m)
+- **Dar Saada** vs **Souk Nejjarine**
+  - Reason: Coordinates Match (17m)
+- **Dar Saada** vs **Souk Serrajine**
+  - Reason: Coordinates Match (17m)
+- **Dar Saada** vs **Souk el-Henna**
+  - Reason: Coordinates Match (17m)
+- **Dar al-Magana** vs **Nach Mama**
+  - Reason: Coordinates Match (27m)
+- **Dar al-Makhzen (Royal Palace)** vs **Kraliyet Sarayı (Dar al-Makhzen)**
+  - Reason: Coordinates Match (0m)
+- **Darori Resto** vs **Place R'cif**
+  - Reason: Coordinates Match (46m)
+- **Fez Cafe** vs **Fez Café**
+  - Reason: Coordinates Match (9m)
+- **Funduq al-Najjarin** vs **Les Tanneries de Fes**
+  - Reason: Coordinates Match (46m)
+- **Funduq al-Najjarin** vs **Nejjarine Ahşap Sanatları Müzesi**
+  - Reason: Coordinates Match (0m)
+- **Gaudy Palace (Palais El Glaoui - Meknes)** vs **Glaoui Sarayı**
+  - Reason: Coordinates Match (0m)
+- **Gaudy Palace (Palais El Glaoui - Meknes)** vs **Palais Glaoui**
+  - Reason: Coordinates Match (0m)
+- **Glaoui Sarayı** vs **Palais Glaoui**
+  - Reason: Coordinates Match (0m)
+- **Hammam Cinq Mondes** vs **Riad Fes**
+  - Reason: Coordinates Match (17m)
+- **Hammam Cinq Mondes** vs **Riad Fes - Relais & Châteaux**
+  - Reason: Coordinates Match (17m)
+- **Hammam Mernissi** vs **Hammam de la Poste**
+  - Reason: Coordinates Match (0m)
+- **Hammam Mernissi** vs **Nagham Cafe**
+  - Reason: Coordinates Match (44m)
+- **Hammam Mernissi** vs **Thami's**
+  - Reason: Coordinates Match (20m)
+- **Hammam de la Poste** vs **Nagham Cafe**
+  - Reason: Coordinates Match (44m)
+- **Hammam de la Poste** vs **Thami's**
+  - Reason: Coordinates Match (20m)
+- **Ibn Danan Sinagogu** vs **Synagogue Aben Danan**
+  - Reason: Coordinates Match (0m)
+- **Ifrane** vs **Meknes Medina**
+  - Reason: Coordinates Match (0m)
+- **Jnan Sbil Bahçeleri** vs **Jnan Sbil Gardens**
+  - Reason: Coordinates Match (0m)
+- **Jnan Sbil Bahçeleri** vs **Mezzanine**
+  - Reason: Coordinates Match (33m)
+- **Jnan Sbil Gardens** vs **Mezzanine**
+  - Reason: Coordinates Match (33m)
+- **Kissaria al-Kifah** vs **Moulay Idriss Zerhoun**
+  - Reason: Coordinates Match (33m)
+- **Kissaria al-Kifah** vs **Zaouia Moulay Idriss II**
+  - Reason: Coordinates Match (33m)
+- **Kına Çarşısı (Souk el-Henna)** vs **Souk Al-Attarine**
+  - Reason: Coordinates Match (37m)
+- **Kına Çarşısı (Souk el-Henna)** vs **Souk Nejjarine**
+  - Reason: Coordinates Match (0m)
+- **Kına Çarşısı (Souk el-Henna)** vs **Souk Serrajine**
+  - Reason: Coordinates Match (0m)
+- **Kına Çarşısı (Souk el-Henna)** vs **Souk el-Henna**
+  - Reason: Coordinates Match (0m)
+- **Les Tanneries de Fes** vs **Nejjarine Ahşap Sanatları Müzesi**
+  - Reason: Coordinates Match (46m)
+- **Les Tanneries de Fes** vs **Sidi Moussa Tannery**
+  - Reason: Coordinates Match (40m)
+- **Made in M** vs **Maison Moi Anan**
+  - Reason: Coordinates Match (38m)
+- **Marinid Mezarları** vs **Merenid Tombs**
+  - Reason: Coordinates Match (0m)
+- **Medin'Art** vs **Nur Restaurant**
+  - Reason: Coordinates Match (32m)
+- **Moulay Idriss Zerhoun** vs **Zaouia Moulay Idriss II**
+  - Reason: Coordinates Match (0m)
+- **Nach Mama** vs **Rainbow Street Art**
+  - Reason: Coordinates Match (37m)
+- **Nur Restaurant** vs **Spa Laaroussa**
+  - Reason: Coordinates Match (36m)
+- **Palais De Fes Dar Tazi** vs **Palais De Fès Dar Tazi**
+  - Reason: Coordinates Match (0m)
+- **Palais El Mokri** vs **Palais Mokri**
+  - Reason: Coordinates Match (0m)
+- **Palais Mnebhi** vs **Spa Laaroussa**
+  - Reason: Coordinates Match (32m)
+- **Place Seffarine** vs **Seffarine Meydanı**
+  - Reason: Coordinates Match (0m)
+- **Riad Fes** vs **Riad Fes - Relais & Châteaux**
+  - Reason: Coordinates Match (0m)
+- **Rue Talaa Seghira** vs **Souk Haik**
+  - Reason: Coordinates Match (10m)
+- **Souk Al-Attarine** vs **Souk Nejjarine**
+  - Reason: Coordinates Match (37m)
+- **Souk Al-Attarine** vs **Souk Serrajine**
+  - Reason: Coordinates Match (37m)
+- **Souk Al-Attarine** vs **Souk el-Henna**
+  - Reason: Coordinates Match (37m)
+- **Souk Mejjad** vs **Souk Tillis**
+  - Reason: Coordinates Match (0m)
+- **Souk Nejjarine** vs **Souk Serrajine**
+  - Reason: Coordinates Match (0m)
+- **Souk Nejjarine** vs **Souk el-Henna**
+  - Reason: Coordinates Match (0m)
+- **Souk Serrajine** vs **Souk el-Henna**
+  - Reason: Coordinates Match (0m)
+- **Terrasse des Tanneurs** vs **Veggie-pause**
+  - Reason: Coordinates Match (38m)
+
+## Floransa (floransa.json)
+- **Alibi Craft Beer & Kitchen** vs **Il Cantuccio di San Lorenzo**
+  - Reason: Coordinates Match (6m)
+- **Angie’s Pub - Age of Pavona** vs **Paolo e Francesca**
+  - Reason: Coordinates Match (15m)
+- **Archea Brewery** vs **Lunetta Brunch & Lunch**
+  - Reason: Coordinates Match (40m)
+- **Archea Brewery** vs **Sbrino - Gelatificio Contadino**
+  - Reason: Coordinates Match (30m)
+- **Bar Oltrarno** vs **Ostro San Frediano**
+  - Reason: Coordinates Match (32m)
+- **Bardini Bahçesi** vs **Bardini Garden (Secret View)**
+  - Reason: Coordinates Match (26m)
+- **Bargello National Museum** vs **Museo Nazionale del Bargello (Donatello David)**
+  - Reason: Coordinates Match (8m)
+- **Bargello National Museum** vs **Vivoli Gelato**
+  - Reason: Coordinates Match (44m)
+- **Basilica di San Lorenzo** vs **Biblioteca Medicea Laurenziana**
+  - Reason: Coordinates Match (13m)
+- **Basilica di San Lorenzo** vs **San Lorenzo Pazarı**
+  - Reason: Coordinates Match (41m)
+- **Basilica di Santa Maria Novella** vs **Officina Profumo-Farmaceutica di Santa Maria Novella**
+  - Reason: Coordinates Match (32m)
+- **Basilica di Santo Spirito** vs **Santo Spirito Pazarı**
+  - Reason: Coordinates Match (13m)
+- **Basilica di Santo Spirito** vs **Volume**
+  - Reason: Coordinates Match (19m)
+- **Bella Italia Ice Cream** vs **Il Vinile**
+  - Reason: Coordinates Match (38m)
+- **Bella Italia Ice Cream** vs **Retrobottega - Cibarie e Mescita**
+  - Reason: Coordinates Match (12m)
+- **Biblioteca Medicea Laurenziana** vs **San Lorenzo Pazarı**
+  - Reason: Coordinates Match (47m)
+- **Birreria Art. 17** vs **Coffee Mantra**
+  - Reason: Coordinates Match (19m)
+- **Birreria Art. 17** vs **FLUID - Specialty Coffee & Sharing**
+  - Reason: Coordinates Match (47m)
+- **Bottega Enoteca Sant'Agostino** vs **Lunetta Brunch & Lunch**
+  - Reason: Coordinates Match (30m)
+- **Buca Mario** vs **Daunbailo' Irish Pub**
+  - Reason: Coordinates Match (14m)
+- **Caffe Gilli** vs **Caffe Paszkowski**
+  - Reason: Coordinates Match (24m)
+- **Caffe Gilli** vs **La Rinascente Rooftop**
+  - Reason: Coordinates Match (27m)
+- **Caffe Gilli** vs **Piazza della Repubblica (Tarihi Meydan)**
+  - Reason: Coordinates Match (16m)
+- **Caffe Paszkowski** vs **La Rinascente Rooftop**
+  - Reason: Coordinates Match (23m)
+- **Caffe Paszkowski** vs **Piazza della Repubblica (Tarihi Meydan)**
+  - Reason: Coordinates Match (8m)
+- **Caffè Canto Alla Mela** vs **Forno Ghibellina**
+  - Reason: Coordinates Match (16m)
+- **Caffè Del Mercato di Ermal Molla** vs **Ditta Artigianale Mercato San Lorenzo**
+  - Reason: Coordinates Match (45m)
+- **Cantina del Gelato Il Gelato Artigianale** vs **De'Bardi Ristorante Enoteca Buchetta del Vino**
+  - Reason: Coordinates Match (29m)
+- **Cappelle Medicee** vs **San Lorenzo Pazarı**
+  - Reason: Coordinates Match (41m)
+- **Clet Abraham Studio** vs **Sbrino**
+  - Reason: Coordinates Match (48m)
+- **Coffee Mantra** vs **FLUID - Specialty Coffee & Sharing**
+  - Reason: Coordinates Match (28m)
+- **Cosimo Terzo - Enoteca Vitis Bar** vs **Spritzeria Fiorentina**
+  - Reason: Coordinates Match (43m)
+- **Ditta Artigianale** vs **Paolo e Francesca**
+  - Reason: Coordinates Match (43m)
+- **Dove Firenze - Ristorante & Cocktail Bar** vs **MANLY The Office**
+  - Reason: Coordinates Match (15m)
+- **Enoteca Nazionale** vs **Fibbi Giovanni Firenze**
+  - Reason: Coordinates Match (29m)
+- **Firstglass** vs **La Terrazza (Hotel Continentale)**
+  - Reason: Coordinates Match (16m)
+- **Galleria Palatina** vs **Palatine Gallery (Pitti Sarayı)**
+  - Reason: Exact English Name Match + Coordinates Match
+- **Galleria Palatina** vs **Palazzo Pitti**
+  - Reason: Coordinates Match (45m)
+- **Gelateria Santa Trinita** vs **Ponte Santa Trinita Florence**
+  - Reason: Coordinates Match (23m)
+- **Giacosa 1815** vs **Il Ciccio pasticceria orientale**
+  - Reason: Coordinates Match (49m)
+- **Giacosa 1815** vs **Il Latini**
+  - Reason: Coordinates Match (22m)
+- **Giardino delle Rose** vs **Rose Garden (Gül Bahçesi)**
+  - Reason: Coordinates Match (39m)
+- **Giardino delle Rose** vs **Rose Garden Florence**
+  - Reason: Coordinates Match (32m)
+- **Gucci Garden Boutique** vs **Gucci Garden Florence**
+  - Reason: Coordinates Match (11m)
+- **Gucci Garden Boutique** vs **Gucci Garden Museo**
+  - Reason: Coordinates Match (0m)
+- **Gucci Garden Boutique** vs **Gucci Osteria da Massimo Bottura**
+  - Reason: Coordinates Match (16m)
+- **Gucci Garden Boutique** vs **La Tenda Rossa**
+  - Reason: Coordinates Match (35m)
+- **Gucci Garden Boutique** vs **Wine Window Signoria**
+  - Reason: Coordinates Match (45m)
+- **Gucci Garden Florence** vs **Gucci Garden Museo**
+  - Reason: Coordinates Match (11m)
+- **Gucci Garden Florence** vs **Gucci Osteria da Massimo Bottura**
+  - Reason: Coordinates Match (19m)
+- **Gucci Garden Florence** vs **La Tenda Rossa**
+  - Reason: Coordinates Match (46m)
+- **Gucci Garden Florence** vs **Palazzo Vecchio**
+  - Reason: Coordinates Match (41m)
+- **Gucci Garden Museo** vs **Gucci Osteria da Massimo Bottura**
+  - Reason: Coordinates Match (16m)
+- **Gucci Garden Museo** vs **La Tenda Rossa**
+  - Reason: Coordinates Match (35m)
+- **Gucci Garden Museo** vs **Wine Window Signoria**
+  - Reason: Coordinates Match (45m)
+- **Gucci Osteria da Massimo Bottura** vs **La Tenda Rossa**
+  - Reason: Coordinates Match (40m)
+- **Gucci Osteria da Massimo Bottura** vs **Palazzo Vecchio**
+  - Reason: Coordinates Match (45m)
+- **Gustapanino** vs **Santo Spirito Church**
+  - Reason: Coordinates Match (23m)
+- **Gustapanino** vs **Santo Spirito Pazarı**
+  - Reason: Coordinates Match (47m)
+- **Gustapanino** vs **Volume**
+  - Reason: Coordinates Match (45m)
+- **I Fratellini** vs **Loggia del Mercato Nuovo (Straw Market)**
+  - Reason: Coordinates Match (46m)
+- **I Fratellini** vs **Mercato Nuovo (Pazar)**
+  - Reason: Coordinates Match (46m)
+- **I Fratellini** vs **Mezè Wild Dining**
+  - Reason: Coordinates Match (38m)
+- **I' Girone De' Ghiotti** vs **Museo della Bistecca - Bisteccheria Piazza della Signoria**
+  - Reason: Coordinates Match (44m)
+- **Il Bussolotto** vs **La Petite**
+  - Reason: Coordinates Match (32m)
+- **Il Bussolotto** vs **Mezè Wild Dining**
+  - Reason: Coordinates Match (31m)
+- **Il Bussolotto** vs **The Old Stove Irish Pub**
+  - Reason: Coordinates Match (49m)
+- **Il Vinile** vs **Retrobottega - Cibarie e Mescita**
+  - Reason: Coordinates Match (36m)
+- **La Divina Enoteca** vs **THE CORNER BAR**
+  - Reason: Coordinates Match (42m)
+- **La Gelatiera** vs **Palazzo Medici Riccardi**
+  - Reason: Coordinates Match (39m)
+- **La Petite** vs **Mezè Wild Dining**
+  - Reason: Coordinates Match (36m)
+- **La Petite** vs **Orsanmichele**
+  - Reason: Coordinates Match (46m)
+- **La Rinascente Rooftop** vs **Orsanmichele**
+  - Reason: Coordinates Match (33m)
+- **La Rinascente Rooftop** vs **Piazza della Repubblica (Tarihi Meydan)**
+  - Reason: Coordinates Match (22m)
+- **La Tenda Rossa** vs **Wine Window Signoria**
+  - Reason: Coordinates Match (13m)
+- **La Terrazza (Hotel Continentale)** vs **Loggia dei Lanzi**
+  - Reason: Coordinates Match (34m)
+- **Le Murate Progetti Arte Contemporanea** vs **Leonardo**
+  - Reason: Coordinates Match (34m)
+- **Le Murate Progetti Arte Contemporanea** vs **Osteria Cancello dei Macci**
+  - Reason: Coordinates Match (16m)
+- **Le Volpi e l'Uva** vs **Ristorante dei Rossi Ponte Vecchio**
+  - Reason: Coordinates Match (8m)
+- **Leonardo** vs **Osteria Cancello dei Macci**
+  - Reason: Coordinates Match (36m)
+- **Loggia dei Lanzi** vs **Ponte Vecchio**
+  - Reason: Coordinates Match (37m)
+- **Loggia del Mercato Nuovo (Straw Market)** vs **Mercato Nuovo (Pazar)**
+  - Reason: Coordinates Match (0m)
+- **Loggia del Mercato Nuovo (Straw Market)** vs **Porcellino (Bronz Domuz)**
+  - Reason: Coordinates Match (41m)
+- **Loggia del Mercato Nuovo (Straw Market)** vs **Porcellino Fountain**
+  - Reason: Coordinates Match (41m)
+- **Loggia del Mercato Nuovo (Straw Market)** vs **Porcellino Heykeli (Şans Domuzu)**
+  - Reason: Coordinates Match (41m)
+- **Loggia del Mercato Nuovo (Straw Market)** vs **Porcellino Market (Mercato Nuovo)**
+  - Reason: Coordinates Match (41m)
+- **Loggia del Mercato Nuovo (Straw Market)** vs **The Old Stove Irish Pub**
+  - Reason: Coordinates Match (20m)
+- **Love Craft** vs **Old river pub**
+  - Reason: Coordinates Match (40m)
+- **Love Craft** vs **Ostro San Frediano**
+  - Reason: Coordinates Match (43m)
+- **Lunetta Brunch & Lunch** vs **Sbrino - Gelatificio Contadino**
+  - Reason: Coordinates Match (33m)
+- **Mercato Centrale** vs **Vino Tasting Global Srl**
+  - Reason: Coordinates Match (24m)
+- **Mercato Nuovo (Pazar)** vs **Porcellino (Bronz Domuz)**
+  - Reason: Coordinates Match (41m)
+- **Mercato Nuovo (Pazar)** vs **Porcellino Fountain**
+  - Reason: Coordinates Match (41m)
+- **Mercato Nuovo (Pazar)** vs **Porcellino Heykeli (Şans Domuzu)**
+  - Reason: Coordinates Match (41m)
+- **Mercato Nuovo (Pazar)** vs **Porcellino Market (Mercato Nuovo)**
+  - Reason: Coordinates Match (41m)
+- **Mercato Nuovo (Pazar)** vs **The Old Stove Irish Pub**
+  - Reason: Coordinates Match (20m)
+- **Mercato di Sant'Ambrogio** vs **Sant'Ambrogio Market**
+  - Reason: Coordinates Match (37m)
+- **Mezè Wild Dining** vs **Orsanmichele**
+  - Reason: Coordinates Match (48m)
+- **Museo Nazionale del Bargello (Donatello David)** vs **Vivoli Gelato**
+  - Reason: Coordinates Match (45m)
+- **Oratio** vs **Osteria Antica Casa Torre**
+  - Reason: Coordinates Match (37m)
+- **Oratio** vs **Ristorante CINTO**
+  - Reason: Coordinates Match (18m)
+- **Osteria Antica Casa Torre** vs **Ristorante CINTO**
+  - Reason: Coordinates Match (19m)
+- **Osteria Antica Casa Torre** vs **RivaReno Gelato Firenze**
+  - Reason: Coordinates Match (27m)
+- **Palatine Gallery (Pitti Sarayı)** vs **Palazzo Pitti**
+  - Reason: Coordinates Match (45m)
+- **Palazzo Strozzi** vs **Procacci**
+  - Reason: Coordinates Match (41m)
+- **Pasticceria Buonamici** vs **Wild Buns Bakery | san Frediano**
+  - Reason: Coordinates Match (27m)
+- **Pitti Express** vs **Tuscan Taste**
+  - Reason: Coordinates Match (14m)
+- **Porcellino (Bronz Domuz)** vs **Porcellino Fountain**
+  - Reason: Coordinates Match (0m)
+- **Porcellino (Bronz Domuz)** vs **Porcellino Heykeli (Şans Domuzu)**
+  - Reason: Coordinates Match (0m)
+- **Porcellino (Bronz Domuz)** vs **Porcellino Market (Mercato Nuovo)**
+  - Reason: Coordinates Match (0m)
+- **Porcellino (Bronz Domuz)** vs **The Old Stove Irish Pub**
+  - Reason: Coordinates Match (37m)
+- **Porcellino Fountain** vs **Porcellino Heykeli (Şans Domuzu)**
+  - Reason: Coordinates Match (0m)
+- **Porcellino Fountain** vs **Porcellino Market (Mercato Nuovo)**
+  - Reason: Coordinates Match (0m)
+- **Porcellino Fountain** vs **The Old Stove Irish Pub**
+  - Reason: Coordinates Match (37m)
+- **Porcellino Heykeli (Şans Domuzu)** vs **Porcellino Market (Mercato Nuovo)**
+  - Reason: Coordinates Match (0m)
+- **Porcellino Heykeli (Şans Domuzu)** vs **The Old Stove Irish Pub**
+  - Reason: Coordinates Match (37m)
+- **Porcellino Market (Mercato Nuovo)** vs **The Old Stove Irish Pub**
+  - Reason: Coordinates Match (37m)
+- **Ristorante CINTO** vs **RivaReno Gelato Firenze**
+  - Reason: Coordinates Match (43m)
+- **Rose Garden (Gül Bahçesi)** vs **Rose Garden Florence**
+  - Reason: Coordinates Match (8m)
+- **San Firenze (Meydan ve Mimari)** vs **Vivoli Gelato**
+  - Reason: Coordinates Match (32m)
+- **Santo Spirito Church** vs **Santo Spirito Pazarı**
+  - Reason: Coordinates Match (45m)
+- **Santo Spirito Church** vs **Volume**
+  - Reason: Coordinates Match (47m)
+- **Santo Spirito Pazarı** vs **Volume**
+  - Reason: Coordinates Match (8m)
+- **THE ARTS INN** vs **Wine Window Matteoni (Buchetta del Vino)**
+  - Reason: Coordinates Match (24m)
+- **Uffizi (Galleria)** vs **Uffizi Galerisi**
+  - Reason: Coordinates Match (0m)
+
+## Gaziantep (gaziantep.json)
+- **Ahşap Oymacılık** vs **Antep Evleri Çay Bahçesi**
+  - Reason: Coordinates Match (34m)
+- **Ahşap Oymacılık** vs **Baharatçı**
+  - Reason: Coordinates Match (0m)
+- **Ahşap Oymacılık** vs **Boyacı Camii**
+  - Reason: Coordinates Match (0m)
+- **Ahşap Oymacılık** vs **Ekşili Köfte Evi**
+  - Reason: Coordinates Match (37m)
+- **Ahşap Oymacılık** vs **Esnaf Lokantası**
+  - Reason: Coordinates Match (34m)
+- **Ahşap Oymacılık** vs **Etnografya Sergisi**
+  - Reason: Coordinates Match (28m)
+- **Ahşap Oymacılık** vs **Geleneksel Oyun Gecesi**
+  - Reason: Coordinates Match (37m)
+- **Ahşap Oymacılık** vs **Güllüoğlu**
+  - Reason: Coordinates Match (28m)
+- **Ahşap Oymacılık** vs **Gümrük Hanı**
+  - Reason: Coordinates Match (37m)
+- **Ahşap Oymacılık** vs **Hammam Deneyimi**
+  - Reason: Coordinates Match (34m)
+- **Ahşap Oymacılık** vs **Hanlar Bölgesi**
+  - Reason: Coordinates Match (0m)
+- **Ahşap Oymacılık** vs **Kaburga Dolma Evi**
+  - Reason: Coordinates Match (37m)
+- **Ahşap Oymacılık** vs **Kelle Paça**
+  - Reason: Coordinates Match (34m)
+- **Ahşap Oymacılık** vs **Kent Müzesi**
+  - Reason: Coordinates Match (28m)
+- **Ahşap Oymacılık** vs **Kitap Kafe**
+  - Reason: Coordinates Match (28m)
+- **Ahşap Oymacılık** vs **Kuruyemişçi Çarşısı**
+  - Reason: Coordinates Match (34m)
+- **Ahşap Oymacılık** vs **Mercimek Köftecisi**
+  - Reason: Coordinates Match (0m)
+- **Ahşap Oymacılık** vs **Minyatür Müzesi**
+  - Reason: Coordinates Match (28m)
+- **Ahşap Oymacılık** vs **Yemeniciler Çarşısı**
+  - Reason: Coordinates Match (0m)
+- **Ahşap Oymacılık** vs **Zincirli Bedesten**
+  - Reason: Coordinates Match (34m)
+- **Ahşap Oymacılık** vs **Çarşı Rehberli Tur**
+  - Reason: Coordinates Match (34m)
+- **Ahşap Oymacılık** vs **Şıllık Tatlıcısı**
+  - Reason: Coordinates Match (37m)
+- **Alaüddevle Camii** vs **Papirüs Kafe**
+  - Reason: Coordinates Match (37m)
+- **Almacı Pazarı** vs **Altın Çarşısı**
+  - Reason: Coordinates Match (45m)
+- **Almacı Pazarı** vs **Antep Evleri Çay Bahçesi**
+  - Reason: Coordinates Match (37m)
+- **Almacı Pazarı** vs **Bakır Atölyesi Workshop**
+  - Reason: Coordinates Match (45m)
+- **Almacı Pazarı** vs **Bakırcı Atölyesi Ziyareti**
+  - Reason: Coordinates Match (45m)
+- **Almacı Pazarı** vs **Bakırcılar Çarşısı**
+  - Reason: Coordinates Match (34m)
+- **Almacı Pazarı** vs **Elmacı Pazarı**
+  - Reason: Coordinates Match (0m)
+- **Almacı Pazarı** vs **Esnaf Lokantası**
+  - Reason: Coordinates Match (37m)
+- **Almacı Pazarı** vs **Etnografya Sergisi**
+  - Reason: Coordinates Match (42m)
+- **Almacı Pazarı** vs **Güllüoğlu**
+  - Reason: Coordinates Match (42m)
+- **Almacı Pazarı** vs **Hammam Deneyimi**
+  - Reason: Coordinates Match (37m)
+- **Almacı Pazarı** vs **Kelle Paça**
+  - Reason: Coordinates Match (37m)
+- **Almacı Pazarı** vs **Kent Müzesi**
+  - Reason: Coordinates Match (42m)
+- **Almacı Pazarı** vs **Kitap Kafe**
+  - Reason: Coordinates Match (42m)
+- **Almacı Pazarı** vs **Kuruyemişçi Çarşısı**
+  - Reason: Coordinates Match (37m)
+- **Almacı Pazarı** vs **Minyatür Müzesi**
+  - Reason: Coordinates Match (42m)
+- **Almacı Pazarı** vs **Naib Hamamı**
+  - Reason: Coordinates Match (45m)
+- **Almacı Pazarı** vs **Zincirli Bedesten**
+  - Reason: Coordinates Match (37m)
+- **Almacı Pazarı** vs **Çarşı Rehberli Tur**
+  - Reason: Coordinates Match (37m)
+- **Almacı Pazarı** vs **Çiğ Köfte Ustası**
+  - Reason: Coordinates Match (45m)
+- **Altın Çarşısı** vs **Antep Evleri Çay Bahçesi**
+  - Reason: Coordinates Match (34m)
+- **Altın Çarşısı** vs **Bakır Atölyesi Workshop**
+  - Reason: Coordinates Match (0m)
+- **Altın Çarşısı** vs **Elmacı Pazarı**
+  - Reason: Coordinates Match (45m)
+- **Altın Çarşısı** vs **Emine Göğüş Mutfak Müzesi**
+  - Reason: Coordinates Match (28m)
+- **Altın Çarşısı** vs **Esnaf Lokantası**
+  - Reason: Coordinates Match (34m)
+- **Altın Çarşısı** vs **Hammam Deneyimi**
+  - Reason: Coordinates Match (34m)
+- **Altın Çarşısı** vs **Hediyelik Eşya Dükkanı**
+  - Reason: Coordinates Match (37m)
+- **Altın Çarşısı** vs **Kelle Paça**
+  - Reason: Coordinates Match (34m)
+- **Altın Çarşısı** vs **Kuruyemişçi Çarşısı**
+  - Reason: Coordinates Match (34m)
+- **Altın Çarşısı** vs **Naib Hamamı**
+  - Reason: Coordinates Match (0m)
+- **Altın Çarşısı** vs **Sedefçiler Çarşısı**
+  - Reason: Coordinates Match (28m)
+- **Altın Çarşısı** vs **Zincirli Bedesten**
+  - Reason: Coordinates Match (34m)
+- **Altın Çarşısı** vs **Çarşı Rehberli Tur**
+  - Reason: Coordinates Match (34m)
+- **Altın Çarşısı** vs **Çiğ Köfte Ustası**
+  - Reason: Coordinates Match (0m)
+- **Ana Lokantası** vs **Analı Kızlı Lokantası**
+  - Reason: Coordinates Match (34m)
+- **Ana Lokantası** vs **Dokumacılar Çarşısı**
+  - Reason: Coordinates Match (34m)
+- **Ana Lokantası** vs **Esnaf Lokantası**
+  - Reason: Fuzzy Name Match (0.86)
+- **Ana Lokantası** vs **Kendirci Camii**
+  - Reason: Coordinates Match (34m)
+- **Ana Lokantası** vs **Mahallebaşı**
+  - Reason: Coordinates Match (44m)
+- **Ana Lokantası** vs **Menengiç Kahvecisi**
+  - Reason: Coordinates Match (44m)
+- **Ana Lokantası** vs **Mumbar Dolma Evi**
+  - Reason: Coordinates Match (34m)
+- **Ana Lokantası** vs **Nakış Atölyesi**
+  - Reason: Coordinates Match (0m)
+- **Ana Lokantası** vs **Oruk Evi**
+  - Reason: Coordinates Match (34m)
+- **Ana Lokantası** vs **Patlıcan Kebabı Evi**
+  - Reason: Coordinates Match (0m)
+- **Ana Lokantası** vs **Seramik Atölyesi**
+  - Reason: Coordinates Match (34m)
+- **Ana Lokantası** vs **Tahmis Kahvesi**
+  - Reason: Coordinates Match (44m)
+- **Ana Lokantası** vs **Tarihi Yuvalama Evi**
+  - Reason: Coordinates Match (44m)
+- **Ana Lokantası** vs **Tirit Lokantası**
+  - Reason: Coordinates Match (34m)
+- **Ana Lokantası** vs **Çulcuoğlu Baklava**
+  - Reason: Coordinates Match (34m)
+- **Ana Lokantası** vs **Ömer Ersoy Camii**
+  - Reason: Coordinates Match (44m)
+- **Analı Kızlı Lokantası** vs **Helva Evi**
+  - Reason: Coordinates Match (42m)
+- **Analı Kızlı Lokantası** vs **Kendirci Camii**
+  - Reason: Coordinates Match (0m)
+- **Analı Kızlı Lokantası** vs **Menengiç Kahvecisi**
+  - Reason: Coordinates Match (28m)
+- **Analı Kızlı Lokantası** vs **Mumbar Dolma Evi**
+  - Reason: Coordinates Match (0m)
+- **Analı Kızlı Lokantası** vs **Nakış Atölyesi**
+  - Reason: Coordinates Match (34m)
+- **Analı Kızlı Lokantası** vs **Patlıcan Kebabı Evi**
+  - Reason: Coordinates Match (34m)
+- **Analı Kızlı Lokantası** vs **Salça Çarşısı**
+  - Reason: Coordinates Match (37m)
+- **Analı Kızlı Lokantası** vs **Tahmis Kahvesi**
+  - Reason: Coordinates Match (28m)
+- **Analı Kızlı Lokantası** vs **Tantuni Durağı**
+  - Reason: Coordinates Match (37m)
+- **Analı Kızlı Lokantası** vs **Tarihi Yuvalama Evi**
+  - Reason: Coordinates Match (28m)
+- **Analı Kızlı Lokantası** vs **Ömer Ersoy Camii**
+  - Reason: Coordinates Match (28m)
+- **Antep Evleri** vs **Antika Pazarı**
+  - Reason: Coordinates Match (0m)
+- **Antep Evleri** vs **Dokumacılar Çarşısı**
+  - Reason: Coordinates Match (42m)
+- **Antep Evleri** vs **Ekşili Köfte Evi**
+  - Reason: Coordinates Match (44m)
+- **Antep Evleri** vs **Fotoğraf Müzesi**
+  - Reason: Coordinates Match (0m)
+- **Antep Evleri** vs **Geleneksel Oyun Gecesi**
+  - Reason: Coordinates Match (44m)
+- **Antep Evleri** vs **Gümrük Hanı**
+  - Reason: Coordinates Match (44m)
+- **Antep Evleri** vs **Kaburga Dolma Evi**
+  - Reason: Coordinates Match (44m)
+- **Antep Evleri** vs **Oruk Evi**
+  - Reason: Coordinates Match (42m)
+- **Antep Evleri** vs **Seramik Atölyesi**
+  - Reason: Coordinates Match (42m)
+- **Antep Evleri** vs **Simit Sarayı Gaziantep**
+  - Reason: Coordinates Match (0m)
+- **Antep Evleri** vs **Tahta Kahve Camii**
+  - Reason: Coordinates Match (0m)
+- **Antep Evleri** vs **Tirit Lokantası**
+  - Reason: Coordinates Match (42m)
+- **Antep Evleri** vs **Çulcuoğlu Baklava**
+  - Reason: Coordinates Match (42m)
+- **Antep Evleri** vs **İmam Çağdaş**
+  - Reason: Coordinates Match (0m)
+- **Antep Evleri** vs **Şire Han**
+  - Reason: Coordinates Match (0m)
+- **Antep Evleri** vs **Şıllık Tatlıcısı**
+  - Reason: Coordinates Match (44m)
+- **Antep Evleri Çay Bahçesi** vs **Baharatçı**
+  - Reason: Coordinates Match (34m)
+- **Antep Evleri Çay Bahçesi** vs **Bakır Atölyesi Workshop**
+  - Reason: Coordinates Match (34m)
+- **Antep Evleri Çay Bahçesi** vs **Boyacı Camii**
+  - Reason: Coordinates Match (34m)
+- **Antep Evleri Çay Bahçesi** vs **Elmacı Pazarı**
+  - Reason: Coordinates Match (37m)
+- **Antep Evleri Çay Bahçesi** vs **Emine Göğüş Mutfak Müzesi**
+  - Reason: Coordinates Match (44m)
+- **Antep Evleri Çay Bahçesi** vs **Esnaf Lokantası**
+  - Reason: Coordinates Match (0m)
+- **Antep Evleri Çay Bahçesi** vs **Etnografya Sergisi**
+  - Reason: Coordinates Match (44m)
+- **Antep Evleri Çay Bahçesi** vs **Güllüoğlu**
+  - Reason: Coordinates Match (44m)
+- **Antep Evleri Çay Bahçesi** vs **Hammam Deneyimi**
+  - Reason: Coordinates Match (0m)
+- **Antep Evleri Çay Bahçesi** vs **Hanlar Bölgesi**
+  - Reason: Coordinates Match (34m)
+- **Antep Evleri Çay Bahçesi** vs **Kelle Paça**
+  - Reason: Coordinates Match (0m)
+- **Antep Evleri Çay Bahçesi** vs **Kent Müzesi**
+  - Reason: Coordinates Match (44m)
+- **Antep Evleri Çay Bahçesi** vs **Kitap Kafe**
+  - Reason: Coordinates Match (44m)
+- **Antep Evleri Çay Bahçesi** vs **Kuruyemişçi Çarşısı**
+  - Reason: Coordinates Match (0m)
+- **Antep Evleri Çay Bahçesi** vs **Mercimek Köftecisi**
+  - Reason: Coordinates Match (34m)
+- **Antep Evleri Çay Bahçesi** vs **Minyatür Müzesi**
+  - Reason: Coordinates Match (44m)
+- **Antep Evleri Çay Bahçesi** vs **Naib Hamamı**
+  - Reason: Coordinates Match (34m)
+- **Antep Evleri Çay Bahçesi** vs **Sedefçiler Çarşısı**
+  - Reason: Coordinates Match (44m)
+- **Antep Evleri Çay Bahçesi** vs **Yemeniciler Çarşısı**
+  - Reason: Coordinates Match (34m)
+- **Antep Evleri Çay Bahçesi** vs **Zincirli Bedesten**
+  - Reason: Coordinates Match (0m)
+- **Antep Evleri Çay Bahçesi** vs **Çarşı Rehberli Tur**
+  - Reason: Coordinates Match (0m)
+- **Antep Evleri Çay Bahçesi** vs **Çiğ Köfte Ustası**
+  - Reason: Coordinates Match (34m)
+- **Antep Mutfağı Kursu** vs **Gaziantep Kebap Atölyesi**
+  - Reason: Coordinates Match (0m)
+- **Antep Mutfağı Kursu** vs **Gaziantep Savunma ve Kahramanlık Panoramik Müzesi**
+  - Reason: Coordinates Match (0m)
+- **Antep Çay Evi** vs **Firik Pilavı Evi**
+  - Reason: Coordinates Match (0m)
+- **Antep Çay Evi** vs **Kadayıfçı Cemil Usta**
+  - Reason: Coordinates Match (44m)
+- **Antep Çay Evi** vs **Söylemez Pasajı**
+  - Reason: Coordinates Match (44m)
+- **Antep Çay Evi** vs **Tütün Hanı**
+  - Reason: Coordinates Match (44m)
+- **Antika Pazarı** vs **Dokumacılar Çarşısı**
+  - Reason: Coordinates Match (42m)
+- **Antika Pazarı** vs **Ekşili Köfte Evi**
+  - Reason: Coordinates Match (44m)
+- **Antika Pazarı** vs **Fotoğraf Müzesi**
+  - Reason: Coordinates Match (0m)
+- **Antika Pazarı** vs **Geleneksel Oyun Gecesi**
+  - Reason: Coordinates Match (44m)
+- **Antika Pazarı** vs **Gümrük Hanı**
+  - Reason: Coordinates Match (44m)
+- **Antika Pazarı** vs **Kaburga Dolma Evi**
+  - Reason: Coordinates Match (44m)
+- **Antika Pazarı** vs **Oruk Evi**
+  - Reason: Coordinates Match (42m)
+- **Antika Pazarı** vs **Seramik Atölyesi**
+  - Reason: Coordinates Match (42m)
+- **Antika Pazarı** vs **Simit Sarayı Gaziantep**
+  - Reason: Coordinates Match (0m)
+- **Antika Pazarı** vs **Tahta Kahve Camii**
+  - Reason: Coordinates Match (0m)
+- **Antika Pazarı** vs **Tirit Lokantası**
+  - Reason: Coordinates Match (42m)
+- **Antika Pazarı** vs **Çulcuoğlu Baklava**
+  - Reason: Coordinates Match (42m)
+- **Antika Pazarı** vs **İmam Çağdaş**
+  - Reason: Coordinates Match (0m)
+- **Antika Pazarı** vs **Şire Han**
+  - Reason: Coordinates Match (0m)
+- **Antika Pazarı** vs **Şıllık Tatlıcısı**
+  - Reason: Coordinates Match (44m)
+- **Baharatçı** vs **Boyacı Camii**
+  - Reason: Coordinates Match (0m)
+- **Baharatçı** vs **Ekşili Köfte Evi**
+  - Reason: Coordinates Match (37m)
+- **Baharatçı** vs **Esnaf Lokantası**
+  - Reason: Coordinates Match (34m)
+- **Baharatçı** vs **Etnografya Sergisi**
+  - Reason: Coordinates Match (28m)
+- **Baharatçı** vs **Geleneksel Oyun Gecesi**
+  - Reason: Coordinates Match (37m)
+- **Baharatçı** vs **Güllüoğlu**
+  - Reason: Coordinates Match (28m)
+- **Baharatçı** vs **Gümrük Hanı**
+  - Reason: Coordinates Match (37m)
+- **Baharatçı** vs **Hammam Deneyimi**
+  - Reason: Coordinates Match (34m)
+- **Baharatçı** vs **Hanlar Bölgesi**
+  - Reason: Coordinates Match (0m)
+- **Baharatçı** vs **Kaburga Dolma Evi**
+  - Reason: Coordinates Match (37m)
+- **Baharatçı** vs **Kelle Paça**
+  - Reason: Coordinates Match (34m)
+- **Baharatçı** vs **Kent Müzesi**
+  - Reason: Coordinates Match (28m)
+- **Baharatçı** vs **Kitap Kafe**
+  - Reason: Coordinates Match (28m)
+- **Baharatçı** vs **Kuruyemişçi Çarşısı**
+  - Reason: Coordinates Match (34m)
+- **Baharatçı** vs **Mercimek Köftecisi**
+  - Reason: Coordinates Match (0m)
+- **Baharatçı** vs **Minyatür Müzesi**
+  - Reason: Coordinates Match (28m)
+- **Baharatçı** vs **Yemeniciler Çarşısı**
+  - Reason: Coordinates Match (0m)
+- **Baharatçı** vs **Zincirli Bedesten**
+  - Reason: Coordinates Match (34m)
+- **Baharatçı** vs **Çarşı Rehberli Tur**
+  - Reason: Coordinates Match (34m)
+- **Baharatçı** vs **Şıllık Tatlıcısı**
+  - Reason: Coordinates Match (37m)
+- **Baklava Yapım Kursu** vs **Gaziantep Kalesi**
+  - Reason: Coordinates Match (0m)
+- **Baklava Yapım Kursu** vs **Hışvahan**
+  - Reason: Coordinates Match (0m)
+- **Bakır Atölyesi Workshop** vs **Elmacı Pazarı**
+  - Reason: Coordinates Match (45m)
+- **Bakır Atölyesi Workshop** vs **Emine Göğüş Mutfak Müzesi**
+  - Reason: Coordinates Match (28m)
+- **Bakır Atölyesi Workshop** vs **Esnaf Lokantası**
+  - Reason: Coordinates Match (34m)
+- **Bakır Atölyesi Workshop** vs **Hammam Deneyimi**
+  - Reason: Coordinates Match (34m)
+- **Bakır Atölyesi Workshop** vs **Hediyelik Eşya Dükkanı**
+  - Reason: Coordinates Match (37m)
+- **Bakır Atölyesi Workshop** vs **Kelle Paça**
+  - Reason: Coordinates Match (34m)
+- **Bakır Atölyesi Workshop** vs **Kuruyemişçi Çarşısı**
+  - Reason: Coordinates Match (34m)
+- **Bakır Atölyesi Workshop** vs **Naib Hamamı**
+  - Reason: Coordinates Match (0m)
+- **Bakır Atölyesi Workshop** vs **Sedefçiler Çarşısı**
+  - Reason: Coordinates Match (28m)
+- **Bakır Atölyesi Workshop** vs **Zincirli Bedesten**
+  - Reason: Coordinates Match (34m)
+- **Bakır Atölyesi Workshop** vs **Çarşı Rehberli Tur**
+  - Reason: Coordinates Match (34m)
+- **Bakır Atölyesi Workshop** vs **Çiğ Köfte Ustası**
+  - Reason: Coordinates Match (0m)
+- **Bakırcı Atölyesi Ziyareti** vs **Bakırcılar Çarşısı**
+  - Reason: Coordinates Match (37m)
+- **Bakırcı Atölyesi Ziyareti** vs **Elmacı Pazarı**
+  - Reason: Coordinates Match (45m)
+- **Bakırcı Atölyesi Ziyareti** vs **Etnografya Sergisi**
+  - Reason: Coordinates Match (28m)
+- **Bakırcı Atölyesi Ziyareti** vs **Güllüoğlu**
+  - Reason: Coordinates Match (28m)
+- **Bakırcı Atölyesi Ziyareti** vs **Kent Müzesi**
+  - Reason: Coordinates Match (28m)
+- **Bakırcı Atölyesi Ziyareti** vs **Kitap Kafe**
+  - Reason: Coordinates Match (28m)
+- **Bakırcı Atölyesi Ziyareti** vs **Minyatür Müzesi**
+  - Reason: Coordinates Match (28m)
+- **Bakırcılar Çarşısı** vs **Elmacı Pazarı**
+  - Reason: Coordinates Match (34m)
+- **Beyran Ustası** vs **Katmerci Zekeriya Usta**
+  - Reason: Coordinates Match (44m)
+- **Beyran Ustası** vs **Metanet Lokantası**
+  - Reason: Coordinates Match (44m)
+- **Beyran Ustası** vs **Orkide Pastanesi**
+  - Reason: Coordinates Match (33m)
+- **Bira Evi** vs **Gece Pazarı**
+  - Reason: Coordinates Match (0m)
+- **Bisiklet Turu** vs **Gaziantep Hayvanat Bahçesi**
+  - Reason: Coordinates Match (0m)
+- **Boyacı Camii** vs **Ekşili Köfte Evi**
+  - Reason: Coordinates Match (37m)
+- **Boyacı Camii** vs **Esnaf Lokantası**
+  - Reason: Coordinates Match (34m)
+- **Boyacı Camii** vs **Etnografya Sergisi**
+  - Reason: Coordinates Match (28m)
+- **Boyacı Camii** vs **Geleneksel Oyun Gecesi**
+  - Reason: Coordinates Match (37m)
+- **Boyacı Camii** vs **Güllüoğlu**
+  - Reason: Coordinates Match (28m)
+- **Boyacı Camii** vs **Gümrük Hanı**
+  - Reason: Coordinates Match (37m)
+- **Boyacı Camii** vs **Hammam Deneyimi**
+  - Reason: Coordinates Match (34m)
+- **Boyacı Camii** vs **Hanlar Bölgesi**
+  - Reason: Coordinates Match (0m)
+- **Boyacı Camii** vs **Kaburga Dolma Evi**
+  - Reason: Coordinates Match (37m)
+- **Boyacı Camii** vs **Kelle Paça**
+  - Reason: Coordinates Match (34m)
+- **Boyacı Camii** vs **Kent Müzesi**
+  - Reason: Coordinates Match (28m)
+- **Boyacı Camii** vs **Kitap Kafe**
+  - Reason: Coordinates Match (28m)
+- **Boyacı Camii** vs **Kuruyemişçi Çarşısı**
+  - Reason: Coordinates Match (34m)
+- **Boyacı Camii** vs **Mercimek Köftecisi**
+  - Reason: Coordinates Match (0m)
+- **Boyacı Camii** vs **Minyatür Müzesi**
+  - Reason: Coordinates Match (28m)
+- **Boyacı Camii** vs **Yemeniciler Çarşısı**
+  - Reason: Coordinates Match (0m)
+- **Boyacı Camii** vs **Zincirli Bedesten**
+  - Reason: Coordinates Match (34m)
+- **Boyacı Camii** vs **Çarşı Rehberli Tur**
+  - Reason: Coordinates Match (34m)
+- **Boyacı Camii** vs **Şıllık Tatlıcısı**
+  - Reason: Coordinates Match (37m)
+- **Café 37** vs **Etçi Mehmet**
+  - Reason: Coordinates Match (0m)
+- **Café 37** vs **Güneş Battı Bar**
+  - Reason: Coordinates Match (0m)
+- **Café 37** vs **Specialty Coffee**
+  - Reason: Coordinates Match (0m)
+- **Ciğer Sarayı** vs **Ciğerci Ali Haydar Usta**
+  - Reason: Coordinates Match (44m)
+- **Dokumacılar Çarşısı** vs **Ekşili Köfte Evi**
+  - Reason: Coordinates Match (37m)
+- **Dokumacılar Çarşısı** vs **Fotoğraf Müzesi**
+  - Reason: Coordinates Match (42m)
+- **Dokumacılar Çarşısı** vs **Geleneksel Oyun Gecesi**
+  - Reason: Coordinates Match (37m)
+- **Dokumacılar Çarşısı** vs **Gümrük Hanı**
+  - Reason: Coordinates Match (37m)
+- **Dokumacılar Çarşısı** vs **Kaburga Dolma Evi**
+  - Reason: Coordinates Match (37m)
+- **Dokumacılar Çarşısı** vs **Mahallebaşı**
+  - Reason: Coordinates Match (28m)
+- **Dokumacılar Çarşısı** vs **Nakış Atölyesi**
+  - Reason: Coordinates Match (34m)
+- **Dokumacılar Çarşısı** vs **Oruk Evi**
+  - Reason: Coordinates Match (0m)
+- **Dokumacılar Çarşısı** vs **Patlıcan Kebabı Evi**
+  - Reason: Coordinates Match (34m)
+- **Dokumacılar Çarşısı** vs **Seramik Atölyesi**
+  - Reason: Coordinates Match (0m)
+- **Dokumacılar Çarşısı** vs **Simit Sarayı Gaziantep**
+  - Reason: Coordinates Match (42m)
+- **Dokumacılar Çarşısı** vs **Tahta Kahve Camii**
+  - Reason: Coordinates Match (42m)
+- **Dokumacılar Çarşısı** vs **Tirit Lokantası**
+  - Reason: Coordinates Match (0m)
+- **Dokumacılar Çarşısı** vs **Çulcuoğlu Baklava**
+  - Reason: Coordinates Match (0m)
+- **Dokumacılar Çarşısı** vs **İmam Çağdaş**
+  - Reason: Coordinates Match (42m)
+- **Dokumacılar Çarşısı** vs **Şire Han**
+  - Reason: Coordinates Match (42m)
+- **Dokumacılar Çarşısı** vs **Şıllık Tatlıcısı**
+  - Reason: Coordinates Match (37m)
+- **Dürümcü Recep Usta** vs **Kültür Merkezi**
+  - Reason: Coordinates Match (0m)
+- **Ekşili Köfte Evi** vs **Fotoğraf Müzesi**
+  - Reason: Coordinates Match (44m)
+- **Ekşili Köfte Evi** vs **Geleneksel Oyun Gecesi**
+  - Reason: Coordinates Match (0m)
+- **Ekşili Köfte Evi** vs **Gümrük Hanı**
+  - Reason: Coordinates Match (0m)
+- **Ekşili Köfte Evi** vs **Hanlar Bölgesi**
+  - Reason: Coordinates Match (37m)
+- **Ekşili Köfte Evi** vs **Kaburga Dolma Evi**
+  - Reason: Coordinates Match (0m)
+- **Ekşili Köfte Evi** vs **Mercimek Köftecisi**
+  - Reason: Coordinates Match (37m)
+- **Ekşili Köfte Evi** vs **Oruk Evi**
+  - Reason: Coordinates Match (37m)
+- **Ekşili Köfte Evi** vs **Seramik Atölyesi**
+  - Reason: Coordinates Match (37m)
+- **Ekşili Köfte Evi** vs **Simit Sarayı Gaziantep**
+  - Reason: Coordinates Match (44m)
+- **Ekşili Köfte Evi** vs **Tahta Kahve Camii**
+  - Reason: Coordinates Match (44m)
+- **Ekşili Köfte Evi** vs **Tirit Lokantası**
+  - Reason: Coordinates Match (37m)
+- **Ekşili Köfte Evi** vs **Yemeniciler Çarşısı**
+  - Reason: Coordinates Match (37m)
+- **Ekşili Köfte Evi** vs **Çulcuoğlu Baklava**
+  - Reason: Coordinates Match (37m)
+- **Ekşili Köfte Evi** vs **İmam Çağdaş**
+  - Reason: Coordinates Match (44m)
+- **Ekşili Köfte Evi** vs **Şire Han**
+  - Reason: Coordinates Match (44m)
+- **Ekşili Köfte Evi** vs **Şıllık Tatlıcısı**
+  - Reason: Coordinates Match (0m)
+- **Elmacı Pazarı** vs **Esnaf Lokantası**
+  - Reason: Coordinates Match (37m)
+- **Elmacı Pazarı** vs **Etnografya Sergisi**
+  - Reason: Coordinates Match (42m)
+- **Elmacı Pazarı** vs **Güllüoğlu**
+  - Reason: Coordinates Match (42m)
+- **Elmacı Pazarı** vs **Hammam Deneyimi**
+  - Reason: Coordinates Match (37m)
+- **Elmacı Pazarı** vs **Kelle Paça**
+  - Reason: Coordinates Match (37m)
+- **Elmacı Pazarı** vs **Kent Müzesi**
+  - Reason: Coordinates Match (42m)
+- **Elmacı Pazarı** vs **Kitap Kafe**
+  - Reason: Coordinates Match (42m)
+- **Elmacı Pazarı** vs **Kuruyemişçi Çarşısı**
+  - Reason: Coordinates Match (37m)
+- **Elmacı Pazarı** vs **Minyatür Müzesi**
+  - Reason: Coordinates Match (42m)
+- **Elmacı Pazarı** vs **Naib Hamamı**
+  - Reason: Coordinates Match (45m)
+- **Elmacı Pazarı** vs **Zincirli Bedesten**
+  - Reason: Coordinates Match (37m)
+- **Elmacı Pazarı** vs **Çarşı Rehberli Tur**
+  - Reason: Coordinates Match (37m)
+- **Elmacı Pazarı** vs **Çiğ Köfte Ustası**
+  - Reason: Coordinates Match (45m)
+- **Emine Göğüş Mutfak Müzesi** vs **Esnaf Lokantası**
+  - Reason: Coordinates Match (44m)
+- **Emine Göğüş Mutfak Müzesi** vs **Hammam Deneyimi**
+  - Reason: Coordinates Match (44m)
+- **Emine Göğüş Mutfak Müzesi** vs **Kelle Paça**
+  - Reason: Coordinates Match (44m)
+- **Emine Göğüş Mutfak Müzesi** vs **Kuruyemişçi Çarşısı**
+  - Reason: Coordinates Match (44m)
+- **Emine Göğüş Mutfak Müzesi** vs **Naib Hamamı**
+  - Reason: Coordinates Match (28m)
+- **Emine Göğüş Mutfak Müzesi** vs **Sedefçiler Çarşısı**
+  - Reason: Coordinates Match (0m)
+- **Emine Göğüş Mutfak Müzesi** vs **Zincirli Bedesten**
+  - Reason: Coordinates Match (44m)
+- **Emine Göğüş Mutfak Müzesi** vs **Çarşı Rehberli Tur**
+  - Reason: Coordinates Match (44m)
+- **Emine Göğüş Mutfak Müzesi** vs **Çiğ Köfte Ustası**
+  - Reason: Coordinates Match (28m)
+- **Esnaf Lokantası** vs **Etnografya Sergisi**
+  - Reason: Coordinates Match (44m)
+- **Esnaf Lokantası** vs **Güllüoğlu**
+  - Reason: Coordinates Match (44m)
+- **Esnaf Lokantası** vs **Hammam Deneyimi**
+  - Reason: Coordinates Match (0m)
+- **Esnaf Lokantası** vs **Hanlar Bölgesi**
+  - Reason: Coordinates Match (34m)
+- **Esnaf Lokantası** vs **Kelle Paça**
+  - Reason: Coordinates Match (0m)
+- **Esnaf Lokantası** vs **Kent Müzesi**
+  - Reason: Coordinates Match (44m)
+- **Esnaf Lokantası** vs **Kitap Kafe**
+  - Reason: Coordinates Match (44m)
+- **Esnaf Lokantası** vs **Kuruyemişçi Çarşısı**
+  - Reason: Coordinates Match (0m)
+- **Esnaf Lokantası** vs **Mercimek Köftecisi**
+  - Reason: Coordinates Match (34m)
+- **Esnaf Lokantası** vs **Minyatür Müzesi**
+  - Reason: Coordinates Match (44m)
+- **Esnaf Lokantası** vs **Naib Hamamı**
+  - Reason: Coordinates Match (34m)
+- **Esnaf Lokantası** vs **Sedefçiler Çarşısı**
+  - Reason: Coordinates Match (44m)
+- **Esnaf Lokantası** vs **Yemeniciler Çarşısı**
+  - Reason: Coordinates Match (34m)
+- **Esnaf Lokantası** vs **Zincirli Bedesten**
+  - Reason: Coordinates Match (0m)
+- **Esnaf Lokantası** vs **Çarşı Rehberli Tur**
+  - Reason: Coordinates Match (0m)
+- **Esnaf Lokantası** vs **Çiğ Köfte Ustası**
+  - Reason: Coordinates Match (34m)
+- **Etnografya Sergisi** vs **Güllüoğlu**
+  - Reason: Coordinates Match (0m)
+- **Etnografya Sergisi** vs **Hammam Deneyimi**
+  - Reason: Coordinates Match (44m)
+- **Etnografya Sergisi** vs **Hanlar Bölgesi**
+  - Reason: Coordinates Match (28m)
+- **Etnografya Sergisi** vs **Kelle Paça**
+  - Reason: Coordinates Match (44m)
+- **Etnografya Sergisi** vs **Kent Müzesi**
+  - Reason: Coordinates Match (0m)
+- **Etnografya Sergisi** vs **Kitap Kafe**
+  - Reason: Coordinates Match (0m)
+- **Etnografya Sergisi** vs **Kuruyemişçi Çarşısı**
+  - Reason: Coordinates Match (44m)
+- **Etnografya Sergisi** vs **Mercimek Köftecisi**
+  - Reason: Coordinates Match (28m)
+- **Etnografya Sergisi** vs **Minyatür Müzesi**
+  - Reason: Coordinates Match (0m)
+- **Etnografya Sergisi** vs **Yemeniciler Çarşısı**
+  - Reason: Coordinates Match (28m)
+- **Etnografya Sergisi** vs **Zincirli Bedesten**
+  - Reason: Coordinates Match (44m)
+- **Etnografya Sergisi** vs **Çarşı Rehberli Tur**
+  - Reason: Coordinates Match (44m)
+- **Etçi Mehmet** vs **Güneş Battı Bar**
+  - Reason: Coordinates Match (0m)
+- **Etçi Mehmet** vs **Specialty Coffee**
+  - Reason: Coordinates Match (0m)
+- **Firik Pilavı Evi** vs **Kadayıfçı Cemil Usta**
+  - Reason: Coordinates Match (44m)
+- **Firik Pilavı Evi** vs **Söylemez Pasajı**
+  - Reason: Coordinates Match (44m)
+- **Firik Pilavı Evi** vs **Tütün Hanı**
+  - Reason: Coordinates Match (44m)
+- **Fotoğraf Müzesi** vs **Geleneksel Oyun Gecesi**
+  - Reason: Coordinates Match (44m)
+- **Fotoğraf Müzesi** vs **Gümrük Hanı**
+  - Reason: Coordinates Match (44m)
+- **Fotoğraf Müzesi** vs **Kaburga Dolma Evi**
+  - Reason: Coordinates Match (44m)
+- **Fotoğraf Müzesi** vs **Oruk Evi**
+  - Reason: Coordinates Match (42m)
+- **Fotoğraf Müzesi** vs **Seramik Atölyesi**
+  - Reason: Coordinates Match (42m)
+- **Fotoğraf Müzesi** vs **Simit Sarayı Gaziantep**
+  - Reason: Coordinates Match (0m)
+- **Fotoğraf Müzesi** vs **Tahta Kahve Camii**
+  - Reason: Coordinates Match (0m)
+- **Fotoğraf Müzesi** vs **Tirit Lokantası**
+  - Reason: Coordinates Match (42m)
+- **Fotoğraf Müzesi** vs **Çulcuoğlu Baklava**
+  - Reason: Coordinates Match (42m)
+- **Fotoğraf Müzesi** vs **İmam Çağdaş**
+  - Reason: Coordinates Match (0m)
+- **Fotoğraf Müzesi** vs **Şire Han**
+  - Reason: Coordinates Match (0m)
+- **Fotoğraf Müzesi** vs **Şıllık Tatlıcısı**
+  - Reason: Coordinates Match (44m)
+- **Fıstık Pazarı** vs **Hediyelik Eşya Dükkanı**
+  - Reason: Coordinates Match (37m)
+- **Fıstık Pazarı** vs **Kurtuluş Camii**
+  - Reason: Coordinates Match (28m)
+- **Gastronomi Turu** vs **Gece Şehir Turu**
+  - Reason: Coordinates Match (0m)
+- **Gastronomi Turu** vs **Kurtuluş Camileri**
+  - Reason: Coordinates Match (49m)
+- **Gaziantep Kalesi** vs **Hışvahan**
+  - Reason: Coordinates Match (0m)
+- **Gaziantep Kebap Atölyesi** vs **Gaziantep Savunma ve Kahramanlık Panoramik Müzesi**
+  - Reason: Coordinates Match (0m)
+- **Gaziler Caddesi** vs **Şeyh Fethullah Camii**
+  - Reason: Coordinates Match (0m)
+- **Gece Şehir Turu** vs **Kurtuluş Camileri**
+  - Reason: Coordinates Match (49m)
+- **Geleneksel Oyun Gecesi** vs **Gümrük Hanı**
+  - Reason: Coordinates Match (0m)
+- **Geleneksel Oyun Gecesi** vs **Hanlar Bölgesi**
+  - Reason: Coordinates Match (37m)
+- **Geleneksel Oyun Gecesi** vs **Kaburga Dolma Evi**
+  - Reason: Coordinates Match (0m)
+- **Geleneksel Oyun Gecesi** vs **Mercimek Köftecisi**
+  - Reason: Coordinates Match (37m)
+- **Geleneksel Oyun Gecesi** vs **Oruk Evi**
+  - Reason: Coordinates Match (37m)
+- **Geleneksel Oyun Gecesi** vs **Seramik Atölyesi**
+  - Reason: Coordinates Match (37m)
+- **Geleneksel Oyun Gecesi** vs **Simit Sarayı Gaziantep**
+  - Reason: Coordinates Match (44m)
+- **Geleneksel Oyun Gecesi** vs **Tahta Kahve Camii**
+  - Reason: Coordinates Match (44m)
+- **Geleneksel Oyun Gecesi** vs **Tirit Lokantası**
+  - Reason: Coordinates Match (37m)
+- **Geleneksel Oyun Gecesi** vs **Yemeniciler Çarşısı**
+  - Reason: Coordinates Match (37m)
+- **Geleneksel Oyun Gecesi** vs **Çulcuoğlu Baklava**
+  - Reason: Coordinates Match (37m)
+- **Geleneksel Oyun Gecesi** vs **İmam Çağdaş**
+  - Reason: Coordinates Match (44m)
+- **Geleneksel Oyun Gecesi** vs **Şire Han**
+  - Reason: Coordinates Match (44m)
+- **Geleneksel Oyun Gecesi** vs **Şıllık Tatlıcısı**
+  - Reason: Coordinates Match (0m)
+- **Güllüoğlu** vs **Hammam Deneyimi**
+  - Reason: Coordinates Match (44m)
+- **Güllüoğlu** vs **Hanlar Bölgesi**
+  - Reason: Coordinates Match (28m)
+- **Güllüoğlu** vs **Kelle Paça**
+  - Reason: Coordinates Match (44m)
+- **Güllüoğlu** vs **Kent Müzesi**
+  - Reason: Coordinates Match (0m)
+- **Güllüoğlu** vs **Kitap Kafe**
+  - Reason: Coordinates Match (0m)
+- **Güllüoğlu** vs **Kuruyemişçi Çarşısı**
+  - Reason: Coordinates Match (44m)
+- **Güllüoğlu** vs **Mercimek Köftecisi**
+  - Reason: Coordinates Match (28m)
+- **Güllüoğlu** vs **Minyatür Müzesi**
+  - Reason: Coordinates Match (0m)
+- **Güllüoğlu** vs **Yemeniciler Çarşısı**
+  - Reason: Coordinates Match (28m)
+- **Güllüoğlu** vs **Zincirli Bedesten**
+  - Reason: Coordinates Match (44m)
+- **Güllüoğlu** vs **Çarşı Rehberli Tur**
+  - Reason: Coordinates Match (44m)
+- **Gümrük Hanı** vs **Hanlar Bölgesi**
+  - Reason: Coordinates Match (37m)
+- **Gümrük Hanı** vs **Kaburga Dolma Evi**
+  - Reason: Coordinates Match (0m)
+- **Gümrük Hanı** vs **Mercimek Köftecisi**
+  - Reason: Coordinates Match (37m)
+- **Gümrük Hanı** vs **Oruk Evi**
+  - Reason: Coordinates Match (37m)
+- **Gümrük Hanı** vs **Seramik Atölyesi**
+  - Reason: Coordinates Match (37m)
+- **Gümrük Hanı** vs **Simit Sarayı Gaziantep**
+  - Reason: Coordinates Match (44m)
+- **Gümrük Hanı** vs **Tahta Kahve Camii**
+  - Reason: Coordinates Match (44m)
+- **Gümrük Hanı** vs **Tirit Lokantası**
+  - Reason: Coordinates Match (37m)
+- **Gümrük Hanı** vs **Yemeniciler Çarşısı**
+  - Reason: Coordinates Match (37m)
+- **Gümrük Hanı** vs **Çulcuoğlu Baklava**
+  - Reason: Coordinates Match (37m)
+- **Gümrük Hanı** vs **İmam Çağdaş**
+  - Reason: Coordinates Match (44m)
+- **Gümrük Hanı** vs **Şire Han**
+  - Reason: Coordinates Match (44m)
+- **Gümrük Hanı** vs **Şıllık Tatlıcısı**
+  - Reason: Coordinates Match (0m)
+- **Güneş Battı Bar** vs **Specialty Coffee**
+  - Reason: Coordinates Match (0m)
+- **Hammam Deneyimi** vs **Hanlar Bölgesi**
+  - Reason: Coordinates Match (34m)
+- **Hammam Deneyimi** vs **Kelle Paça**
+  - Reason: Coordinates Match (0m)
+- **Hammam Deneyimi** vs **Kent Müzesi**
+  - Reason: Coordinates Match (44m)
+- **Hammam Deneyimi** vs **Kitap Kafe**
+  - Reason: Coordinates Match (44m)
+- **Hammam Deneyimi** vs **Kuruyemişçi Çarşısı**
+  - Reason: Coordinates Match (0m)
+- **Hammam Deneyimi** vs **Mercimek Köftecisi**
+  - Reason: Coordinates Match (34m)
+- **Hammam Deneyimi** vs **Minyatür Müzesi**
+  - Reason: Coordinates Match (44m)
+- **Hammam Deneyimi** vs **Naib Hamamı**
+  - Reason: Coordinates Match (34m)
+- **Hammam Deneyimi** vs **Sedefçiler Çarşısı**
+  - Reason: Coordinates Match (44m)
+- **Hammam Deneyimi** vs **Yemeniciler Çarşısı**
+  - Reason: Coordinates Match (34m)
+- **Hammam Deneyimi** vs **Zincirli Bedesten**
+  - Reason: Coordinates Match (0m)
+- **Hammam Deneyimi** vs **Çarşı Rehberli Tur**
+  - Reason: Coordinates Match (0m)
+- **Hammam Deneyimi** vs **Çiğ Köfte Ustası**
+  - Reason: Coordinates Match (34m)
+- **Hanlar Bölgesi** vs **Kaburga Dolma Evi**
+  - Reason: Coordinates Match (37m)
+- **Hanlar Bölgesi** vs **Kelle Paça**
+  - Reason: Coordinates Match (34m)
+- **Hanlar Bölgesi** vs **Kent Müzesi**
+  - Reason: Coordinates Match (28m)
+- **Hanlar Bölgesi** vs **Kitap Kafe**
+  - Reason: Coordinates Match (28m)
+- **Hanlar Bölgesi** vs **Kuruyemişçi Çarşısı**
+  - Reason: Coordinates Match (34m)
+- **Hanlar Bölgesi** vs **Mercimek Köftecisi**
+  - Reason: Coordinates Match (0m)
+- **Hanlar Bölgesi** vs **Minyatür Müzesi**
+  - Reason: Coordinates Match (28m)
+- **Hanlar Bölgesi** vs **Yemeniciler Çarşısı**
+  - Reason: Coordinates Match (0m)
+- **Hanlar Bölgesi** vs **Zincirli Bedesten**
+  - Reason: Coordinates Match (34m)
+- **Hanlar Bölgesi** vs **Çarşı Rehberli Tur**
+  - Reason: Coordinates Match (34m)
+- **Hanlar Bölgesi** vs **Şıllık Tatlıcısı**
+  - Reason: Coordinates Match (37m)
+- **Hasan Süzer Etnografya Müzesi** vs **Kır Kahvesi (Gaziantep Kalesi)**
+  - Reason: Coordinates Match (22m)
+- **Hasan Süzer Etnografya Müzesi** vs **Mevlevi Hamamı**
+  - Reason: Coordinates Match (41m)
+- **Hediyelik Eşya Dükkanı** vs **Naib Hamamı**
+  - Reason: Coordinates Match (37m)
+- **Hediyelik Eşya Dükkanı** vs **Çiğ Köfte Ustası**
+  - Reason: Coordinates Match (37m)
+- **Helva Evi** vs **Katmerci Zekeriya Usta**
+  - Reason: Coordinates Match (44m)
+- **Helva Evi** vs **Kendirci Camii**
+  - Reason: Coordinates Match (42m)
+- **Helva Evi** vs **Mumbar Dolma Evi**
+  - Reason: Coordinates Match (42m)
+- **Helva Evi** vs **Salça Çarşısı**
+  - Reason: Coordinates Match (44m)
+- **Helva Evi** vs **Tantuni Durağı**
+  - Reason: Coordinates Match (44m)
+- **Kaburga Dolma Evi** vs **Mercimek Köftecisi**
+  - Reason: Coordinates Match (37m)
+- **Kaburga Dolma Evi** vs **Oruk Evi**
+  - Reason: Coordinates Match (37m)
+- **Kaburga Dolma Evi** vs **Seramik Atölyesi**
+  - Reason: Coordinates Match (37m)
+- **Kaburga Dolma Evi** vs **Simit Sarayı Gaziantep**
+  - Reason: Coordinates Match (44m)
+- **Kaburga Dolma Evi** vs **Tahta Kahve Camii**
+  - Reason: Coordinates Match (44m)
+- **Kaburga Dolma Evi** vs **Tirit Lokantası**
+  - Reason: Coordinates Match (37m)
+- **Kaburga Dolma Evi** vs **Yemeniciler Çarşısı**
+  - Reason: Coordinates Match (37m)
+- **Kaburga Dolma Evi** vs **Çulcuoğlu Baklava**
+  - Reason: Coordinates Match (37m)
+- **Kaburga Dolma Evi** vs **İmam Çağdaş**
+  - Reason: Coordinates Match (44m)
+- **Kaburga Dolma Evi** vs **Şire Han**
+  - Reason: Coordinates Match (44m)
+- **Kaburga Dolma Evi** vs **Şıllık Tatlıcısı**
+  - Reason: Coordinates Match (0m)
+- **Kadayıfçı Cemil Usta** vs **Tütün Hanı**
+  - Reason: Coordinates Match (0m)
+- **Kahve Durağı** vs **Karaoğlu Baklava**
+  - Reason: Coordinates Match (0m)
+- **Kahve Durağı** vs **Rooftop Bar**
+  - Reason: Coordinates Match (0m)
+- **Kahve Durağı** vs **Sanat Galerisi**
+  - Reason: Coordinates Match (0m)
+- **Karaoğlu Baklava** vs **Rooftop Bar**
+  - Reason: Coordinates Match (0m)
+- **Karaoğlu Baklava** vs **Sanat Galerisi**
+  - Reason: Coordinates Match (0m)
+- **Katmer Dünyası** vs **Şerbet Evi**
+  - Reason: Coordinates Match (37m)
+- **Kelle Paça** vs **Kent Müzesi**
+  - Reason: Coordinates Match (44m)
+- **Kelle Paça** vs **Kitap Kafe**
+  - Reason: Coordinates Match (44m)
+- **Kelle Paça** vs **Kuruyemişçi Çarşısı**
+  - Reason: Coordinates Match (0m)
+- **Kelle Paça** vs **Mercimek Köftecisi**
+  - Reason: Coordinates Match (34m)
+- **Kelle Paça** vs **Minyatür Müzesi**
+  - Reason: Coordinates Match (44m)
+- **Kelle Paça** vs **Naib Hamamı**
+  - Reason: Coordinates Match (34m)
+- **Kelle Paça** vs **Sedefçiler Çarşısı**
+  - Reason: Coordinates Match (44m)
+- **Kelle Paça** vs **Yemeniciler Çarşısı**
+  - Reason: Coordinates Match (34m)
+- **Kelle Paça** vs **Zincirli Bedesten**
+  - Reason: Coordinates Match (0m)
+- **Kelle Paça** vs **Çarşı Rehberli Tur**
+  - Reason: Coordinates Match (0m)
+- **Kelle Paça** vs **Çiğ Köfte Ustası**
+  - Reason: Coordinates Match (34m)
+- **Kendirci Camii** vs **Menengiç Kahvecisi**
+  - Reason: Coordinates Match (28m)
+- **Kendirci Camii** vs **Mumbar Dolma Evi**
+  - Reason: Coordinates Match (0m)
+- **Kendirci Camii** vs **Nakış Atölyesi**
+  - Reason: Coordinates Match (34m)
+- **Kendirci Camii** vs **Patlıcan Kebabı Evi**
+  - Reason: Coordinates Match (34m)
+- **Kendirci Camii** vs **Salça Çarşısı**
+  - Reason: Coordinates Match (37m)
+- **Kendirci Camii** vs **Tahmis Kahvesi**
+  - Reason: Coordinates Match (28m)
+- **Kendirci Camii** vs **Tantuni Durağı**
+  - Reason: Coordinates Match (37m)
+- **Kendirci Camii** vs **Tarihi Yuvalama Evi**
+  - Reason: Coordinates Match (28m)
+- **Kendirci Camii** vs **Ömer Ersoy Camii**
+  - Reason: Coordinates Match (28m)
+- **Kent Müzesi** vs **Kitap Kafe**
+  - Reason: Coordinates Match (0m)
+- **Kent Müzesi** vs **Kuruyemişçi Çarşısı**
+  - Reason: Coordinates Match (44m)
+- **Kent Müzesi** vs **Mercimek Köftecisi**
+  - Reason: Coordinates Match (28m)
+- **Kent Müzesi** vs **Minyatür Müzesi**
+  - Reason: Coordinates Match (0m)
+- **Kent Müzesi** vs **Yemeniciler Çarşısı**
+  - Reason: Coordinates Match (28m)
+- **Kent Müzesi** vs **Zincirli Bedesten**
+  - Reason: Coordinates Match (44m)
+- **Kent Müzesi** vs **Çarşı Rehberli Tur**
+  - Reason: Coordinates Match (44m)
+- **Kitap Kafe** vs **Kuruyemişçi Çarşısı**
+  - Reason: Coordinates Match (44m)
+- **Kitap Kafe** vs **Mercimek Köftecisi**
+  - Reason: Coordinates Match (28m)
+- **Kitap Kafe** vs **Minyatür Müzesi**
+  - Reason: Coordinates Match (0m)
+- **Kitap Kafe** vs **Yemeniciler Çarşısı**
+  - Reason: Coordinates Match (28m)
+- **Kitap Kafe** vs **Zincirli Bedesten**
+  - Reason: Coordinates Match (44m)
+- **Kitap Kafe** vs **Çarşı Rehberli Tur**
+  - Reason: Coordinates Match (44m)
+- **Kurtuluş Camii** vs **Kurtuluş Camileri**
+  - Reason: Fuzzy Name Match (0.90)
+- **Kuruyemişçi Çarşısı** vs **Mercimek Köftecisi**
+  - Reason: Coordinates Match (34m)
+- **Kuruyemişçi Çarşısı** vs **Minyatür Müzesi**
+  - Reason: Coordinates Match (44m)
+- **Kuruyemişçi Çarşısı** vs **Naib Hamamı**
+  - Reason: Coordinates Match (34m)
+- **Kuruyemişçi Çarşısı** vs **Sedefçiler Çarşısı**
+  - Reason: Coordinates Match (44m)
+- **Kuruyemişçi Çarşısı** vs **Yemeniciler Çarşısı**
+  - Reason: Coordinates Match (34m)
+- **Kuruyemişçi Çarşısı** vs **Zincirli Bedesten**
+  - Reason: Coordinates Match (0m)
+- **Kuruyemişçi Çarşısı** vs **Çarşı Rehberli Tur**
+  - Reason: Coordinates Match (0m)
+- **Kuruyemişçi Çarşısı** vs **Çiğ Köfte Ustası**
+  - Reason: Coordinates Match (34m)
+- **Kutnu Kumaş Tanıtım Merkezi** vs **Şehir Parkı**
+  - Reason: Coordinates Match (0m)
+- **Küşlemeci Halil Usta** vs **Zeugma Mozaik Müzesi**
+  - Reason: Coordinates Match (0m)
+- **Kır Kahvesi (Gaziantep Kalesi)** vs **Mevlevi Hamamı**
+  - Reason: Coordinates Match (28m)
+- **Mahallebaşı** vs **Nakış Atölyesi**
+  - Reason: Coordinates Match (44m)
+- **Mahallebaşı** vs **Orkide Pastanesi**
+  - Reason: Coordinates Match (49m)
+- **Mahallebaşı** vs **Oruk Evi**
+  - Reason: Coordinates Match (28m)
+- **Mahallebaşı** vs **Patlıcan Kebabı Evi**
+  - Reason: Coordinates Match (44m)
+- **Mahallebaşı** vs **Seramik Atölyesi**
+  - Reason: Coordinates Match (28m)
+- **Mahallebaşı** vs **Tirit Lokantası**
+  - Reason: Coordinates Match (28m)
+- **Mahallebaşı** vs **Çulcuoğlu Baklava**
+  - Reason: Coordinates Match (28m)
+- **Menengiç Kahvecisi** vs **Mumbar Dolma Evi**
+  - Reason: Coordinates Match (28m)
+- **Menengiç Kahvecisi** vs **Nakış Atölyesi**
+  - Reason: Coordinates Match (44m)
+- **Menengiç Kahvecisi** vs **Patlıcan Kebabı Evi**
+  - Reason: Coordinates Match (44m)
+- **Menengiç Kahvecisi** vs **Tahmis Kahvesi**
+  - Reason: Coordinates Match (0m)
+- **Menengiç Kahvecisi** vs **Tarihi Yuvalama Evi**
+  - Reason: Coordinates Match (0m)
+- **Menengiç Kahvecisi** vs **Ömer Ersoy Camii**
+  - Reason: Coordinates Match (0m)
+- **Mercimek Köftecisi** vs **Minyatür Müzesi**
+  - Reason: Coordinates Match (28m)
+- **Mercimek Köftecisi** vs **Yemeniciler Çarşısı**
+  - Reason: Coordinates Match (0m)
+- **Mercimek Köftecisi** vs **Zincirli Bedesten**
+  - Reason: Coordinates Match (34m)
+- **Mercimek Köftecisi** vs **Çarşı Rehberli Tur**
+  - Reason: Coordinates Match (34m)
+- **Mercimek Köftecisi** vs **Şıllık Tatlıcısı**
+  - Reason: Coordinates Match (37m)
+- **Minyatür Müzesi** vs **Yemeniciler Çarşısı**
+  - Reason: Coordinates Match (28m)
+- **Minyatür Müzesi** vs **Zincirli Bedesten**
+  - Reason: Coordinates Match (44m)
+- **Minyatür Müzesi** vs **Çarşı Rehberli Tur**
+  - Reason: Coordinates Match (44m)
+- **Mumbar Dolma Evi** vs **Nakış Atölyesi**
+  - Reason: Coordinates Match (34m)
+- **Mumbar Dolma Evi** vs **Patlıcan Kebabı Evi**
+  - Reason: Coordinates Match (34m)
+- **Mumbar Dolma Evi** vs **Salça Çarşısı**
+  - Reason: Coordinates Match (37m)
+- **Mumbar Dolma Evi** vs **Tahmis Kahvesi**
+  - Reason: Coordinates Match (28m)
+- **Mumbar Dolma Evi** vs **Tantuni Durağı**
+  - Reason: Coordinates Match (37m)
+- **Mumbar Dolma Evi** vs **Tarihi Yuvalama Evi**
+  - Reason: Coordinates Match (28m)
+- **Mumbar Dolma Evi** vs **Ömer Ersoy Camii**
+  - Reason: Coordinates Match (28m)
+- **Naib Hamamı** vs **Sedefçiler Çarşısı**
+  - Reason: Coordinates Match (28m)
+- **Naib Hamamı** vs **Zincirli Bedesten**
+  - Reason: Coordinates Match (34m)
+- **Naib Hamamı** vs **Çarşı Rehberli Tur**
+  - Reason: Coordinates Match (34m)
+- **Naib Hamamı** vs **Çiğ Köfte Ustası**
+  - Reason: Coordinates Match (0m)
+- **Nakış Atölyesi** vs **Oruk Evi**
+  - Reason: Coordinates Match (34m)
+- **Nakış Atölyesi** vs **Patlıcan Kebabı Evi**
+  - Reason: Coordinates Match (0m)
+- **Nakış Atölyesi** vs **Seramik Atölyesi**
+  - Reason: Coordinates Match (34m)
+- **Nakış Atölyesi** vs **Tahmis Kahvesi**
+  - Reason: Coordinates Match (44m)
+- **Nakış Atölyesi** vs **Tarihi Yuvalama Evi**
+  - Reason: Coordinates Match (44m)
+- **Nakış Atölyesi** vs **Tirit Lokantası**
+  - Reason: Coordinates Match (34m)
+- **Nakış Atölyesi** vs **Çulcuoğlu Baklava**
+  - Reason: Coordinates Match (34m)
+- **Nakış Atölyesi** vs **Ömer Ersoy Camii**
+  - Reason: Coordinates Match (44m)
+- **Oruk Evi** vs **Patlıcan Kebabı Evi**
+  - Reason: Coordinates Match (34m)
+- **Oruk Evi** vs **Seramik Atölyesi**
+  - Reason: Coordinates Match (0m)
+- **Oruk Evi** vs **Simit Sarayı Gaziantep**
+  - Reason: Coordinates Match (42m)
+- **Oruk Evi** vs **Tahta Kahve Camii**
+  - Reason: Coordinates Match (42m)
+- **Oruk Evi** vs **Tirit Lokantası**
+  - Reason: Coordinates Match (0m)
+- **Oruk Evi** vs **Çulcuoğlu Baklava**
+  - Reason: Coordinates Match (0m)
+- **Oruk Evi** vs **İmam Çağdaş**
+  - Reason: Coordinates Match (42m)
+- **Oruk Evi** vs **Şire Han**
+  - Reason: Coordinates Match (42m)
+- **Oruk Evi** vs **Şıllık Tatlıcısı**
+  - Reason: Coordinates Match (37m)
+- **Panorama 25 Aralık Müzesi** vs **Şahinbey Milli Mücadele Müzesi**
+  - Reason: Coordinates Match (0m)
+- **Patlıcan Kebabı Evi** vs **Seramik Atölyesi**
+  - Reason: Coordinates Match (34m)
+- **Patlıcan Kebabı Evi** vs **Tahmis Kahvesi**
+  - Reason: Coordinates Match (44m)
+- **Patlıcan Kebabı Evi** vs **Tarihi Yuvalama Evi**
+  - Reason: Coordinates Match (44m)
+- **Patlıcan Kebabı Evi** vs **Tirit Lokantası**
+  - Reason: Coordinates Match (34m)
+- **Patlıcan Kebabı Evi** vs **Çulcuoğlu Baklava**
+  - Reason: Coordinates Match (34m)
+- **Patlıcan Kebabı Evi** vs **Ömer Ersoy Camii**
+  - Reason: Coordinates Match (44m)
+- **Rooftop Bar** vs **Sanat Galerisi**
+  - Reason: Coordinates Match (0m)
+- **Salça Çarşısı** vs **Tantuni Durağı**
+  - Reason: Coordinates Match (0m)
+- **Sedefçiler Çarşısı** vs **Zincirli Bedesten**
+  - Reason: Coordinates Match (44m)
+- **Sedefçiler Çarşısı** vs **Çarşı Rehberli Tur**
+  - Reason: Coordinates Match (44m)
+- **Sedefçiler Çarşısı** vs **Çiğ Köfte Ustası**
+  - Reason: Coordinates Match (28m)
+- **Seramik Atölyesi** vs **Simit Sarayı Gaziantep**
+  - Reason: Coordinates Match (42m)
+- **Seramik Atölyesi** vs **Tahta Kahve Camii**
+  - Reason: Coordinates Match (42m)
+- **Seramik Atölyesi** vs **Tirit Lokantası**
+  - Reason: Coordinates Match (0m)
+- **Seramik Atölyesi** vs **Çulcuoğlu Baklava**
+  - Reason: Coordinates Match (0m)
+- **Seramik Atölyesi** vs **İmam Çağdaş**
+  - Reason: Coordinates Match (42m)
+- **Seramik Atölyesi** vs **Şire Han**
+  - Reason: Coordinates Match (42m)
+- **Seramik Atölyesi** vs **Şıllık Tatlıcısı**
+  - Reason: Coordinates Match (37m)
+- **Simit Sarayı Gaziantep** vs **Tahta Kahve Camii**
+  - Reason: Coordinates Match (0m)
+- **Simit Sarayı Gaziantep** vs **Tirit Lokantası**
+  - Reason: Coordinates Match (42m)
+- **Simit Sarayı Gaziantep** vs **Çulcuoğlu Baklava**
+  - Reason: Coordinates Match (42m)
+- **Simit Sarayı Gaziantep** vs **İmam Çağdaş**
+  - Reason: Coordinates Match (0m)
+- **Simit Sarayı Gaziantep** vs **Şire Han**
+  - Reason: Coordinates Match (0m)
+- **Simit Sarayı Gaziantep** vs **Şıllık Tatlıcısı**
+  - Reason: Coordinates Match (44m)
+- **Tahmis Kahvesi** vs **Tarihi Yuvalama Evi**
+  - Reason: Coordinates Match (0m)
+- **Tahmis Kahvesi** vs **Ömer Ersoy Camii**
+  - Reason: Coordinates Match (0m)
+- **Tahta Kahve Camii** vs **Tirit Lokantası**
+  - Reason: Coordinates Match (42m)
+- **Tahta Kahve Camii** vs **Çulcuoğlu Baklava**
+  - Reason: Coordinates Match (42m)
+- **Tahta Kahve Camii** vs **İmam Çağdaş**
+  - Reason: Coordinates Match (0m)
+- **Tahta Kahve Camii** vs **Şire Han**
+  - Reason: Coordinates Match (0m)
+- **Tahta Kahve Camii** vs **Şıllık Tatlıcısı**
+  - Reason: Coordinates Match (44m)
+- **Tarihi Yuvalama Evi** vs **Ömer Ersoy Camii**
+  - Reason: Coordinates Match (0m)
+- **Tatlidede** vs **Çikolata Evi**
+  - Reason: Coordinates Match (0m)
+- **Tirit Lokantası** vs **Çulcuoğlu Baklava**
+  - Reason: Coordinates Match (0m)
+- **Tirit Lokantası** vs **İmam Çağdaş**
+  - Reason: Coordinates Match (42m)
+- **Tirit Lokantası** vs **Şire Han**
+  - Reason: Coordinates Match (42m)
+- **Tirit Lokantası** vs **Şıllık Tatlıcısı**
+  - Reason: Coordinates Match (37m)
+- **Yemeniciler Çarşısı** vs **Zincirli Bedesten**
+  - Reason: Coordinates Match (34m)
+- **Yemeniciler Çarşısı** vs **Çarşı Rehberli Tur**
+  - Reason: Coordinates Match (34m)
+- **Yemeniciler Çarşısı** vs **Şıllık Tatlıcısı**
+  - Reason: Coordinates Match (37m)
+- **Zincirli Bedesten** vs **Çarşı Rehberli Tur**
+  - Reason: Coordinates Match (0m)
+- **Zincirli Bedesten** vs **Çiğ Köfte Ustası**
+  - Reason: Coordinates Match (34m)
+- **Çarşı Rehberli Tur** vs **Çiğ Köfte Ustası**
+  - Reason: Coordinates Match (34m)
+- **Çulcuoğlu Baklava** vs **İmam Çağdaş**
+  - Reason: Coordinates Match (42m)
+- **Çulcuoğlu Baklava** vs **Şire Han**
+  - Reason: Coordinates Match (42m)
+- **Çulcuoğlu Baklava** vs **Şıllık Tatlıcısı**
+  - Reason: Coordinates Match (37m)
+- **İmam Çağdaş** vs **Şire Han**
+  - Reason: Coordinates Match (0m)
+- **İmam Çağdaş** vs **Şıllık Tatlıcısı**
+  - Reason: Coordinates Match (44m)
+- **Şire Han** vs **Şıllık Tatlıcısı**
+  - Reason: Coordinates Match (44m)
+
+## Giethoorn (giethoorn.json)
+- **Boating Trail North** vs **Boating Trail South**
+  - Reason: Fuzzy Name Match (0.89)
+- **Boating Trail South** vs **Fietspad (Bike Path)**
+  - Reason: Coordinates Match (0m)
+- **Boating Trail South** vs **Fietspad Bike Path**
+  - Reason: Coordinates Match (0m)
+- **Café-Restaurant De Rietstulp** vs **Restaurant De Rietstulp**
+  - Reason: Fuzzy Name Match (0.90)
+- **Canal Grande** vs **Gebroeders Pilsner**
+  - Reason: Coordinates Match (25m)
+- **Clogs Workshop** vs **Gebroeders Pilsner**
+  - Reason: Coordinates Match (38m)
+- **Clogs Workshop** vs **Restaurant Hollands Venetië**
+  - Reason: Coordinates Match (38m)
+- **Clogs Workshop** vs **Sunset Viewing Spot**
+  - Reason: Coordinates Match (33m)
+- **De Otters** vs **Ijssalon 't Olde Huis**
+  - Reason: Coordinates Match (38m)
+- **De Rietstulp** vs **Giethoorn Canals**
+  - Reason: Coordinates Match (0m)
+- **De Rietstulp** vs **Giethoorn Village Shops**
+  - Reason: Coordinates Match (25m)
+- **De Rietstulp** vs **Ice Skating**
+  - Reason: Coordinates Match (0m)
+- **De Rietstulp** vs **Restaurant Hollands Venetië**
+  - Reason: Coordinates Match (25m)
+- **Fietspad (Bike Path)** vs **Fietspad Bike Path**
+  - Reason: Coordinates Match (0m)
+- **Gebroeders Pilsner** vs **Sunset Viewing Spot**
+  - Reason: Coordinates Match (35m)
+- **Giethoorn Canals** vs **Giethoorn Village Shops**
+  - Reason: Coordinates Match (25m)
+- **Giethoorn Canals** vs **Ice Skating**
+  - Reason: Coordinates Match (0m)
+- **Giethoorn Canals** vs **Restaurant Hollands Venetië**
+  - Reason: Coordinates Match (25m)
+- **Giethoorn Village Shops** vs **Ice Skating**
+  - Reason: Coordinates Match (25m)
+- **Giethoorn Village Shops** vs **Whisper Boat Rental**
+  - Reason: Coordinates Match (38m)
+- **Ice Skating** vs **Restaurant Hollands Venetië**
+  - Reason: Coordinates Match (25m)
+- **Kayak & Canoe Rental** vs **Sunset Viewing Spot**
+  - Reason: Coordinates Match (33m)
+- **Museum Giethoorn 't Olde Maat Uus** vs **Reed Islands**
+  - Reason: Coordinates Match (0m)
+- **Weerribben-Wieden** vs **Weerribben-Wieden National Park**
+  - Reason: Coordinates Match (0m)
+
+## Hallstatt (hallstatt.json)
+- **5 Fingers** vs **Krippenstein Lodge**
+  - Reason: Coordinates Match (0m)
+- **Beinhaus** vs **Maria Himmelfahrt Hallstatt**
+  - Reason: Coordinates Match (36m)
+- **Brauhaus** vs **Janu Sport**
+  - Reason: Coordinates Match (37m)
+- **Brauhaus** vs **Salzkontor Hallstatt**
+  - Reason: Coordinates Match (40m)
+- **Brauhaus** vs **Schnaps & Holz**
+  - Reason: Coordinates Match (40m)
+- **Brauhaus** vs **Taglich Frisch Gebacken**
+  - Reason: Coordinates Match (0m)
+- **Cafe Bakeries Maislinger** vs **Lake Hallstatt Boat Rental**
+  - Reason: Coordinates Match (0m)
+- **Cafe Polreich** vs **Seestrasse Hallstatt**
+  - Reason: Coordinates Match (37m)
+- **Cafe Ramsauer** vs **Konditorei Zauner**
+  - Reason: Coordinates Match (43m)
+- **Café Derbl** vs **Evangelische Christuskirche Hallstatt**
+  - Reason: Coordinates Match (37m)
+- **Café Derbl** vs **Gasthof Simony**
+  - Reason: Coordinates Match (33m)
+- **Café Derbl** vs **Hallstatt Museum**
+  - Reason: Coordinates Match (34m)
+- **Café Derbl** vs **Im Kainz**
+  - Reason: Coordinates Match (25m)
+- **Café Derbl** vs **Marktplatz Hallstatt**
+  - Reason: Coordinates Match (13m)
+- **Café Derbl** vs **Navia Zillen**
+  - Reason: Coordinates Match (13m)
+- **Café Derbl** vs **Schnaps & Holz**
+  - Reason: Coordinates Match (40m)
+- **Café Derbl** vs **Seewirt Zauner**
+  - Reason: Coordinates Match (45m)
+- **Dorfalm St. Wolfgang** vs **Dorfplatz St. Wolfgang**
+  - Reason: Fuzzy Name Match (0.86)
+- **Echerntal** vs **Waldbachstrub Waterfall**
+  - Reason: Coordinates Match (0m)
+- **Evangelische Christuskirche Hallstatt** vs **Gasthof Simony**
+  - Reason: Coordinates Match (32m)
+- **Evangelische Christuskirche Hallstatt** vs **Hallstättersee Schifffahrt**
+  - Reason: Coordinates Match (43m)
+- **Evangelische Christuskirche Hallstatt** vs **Im Kainz**
+  - Reason: Coordinates Match (34m)
+- **Evangelische Christuskirche Hallstatt** vs **Keramik Hallstatt**
+  - Reason: Coordinates Match (22m)
+- **Evangelische Christuskirche Hallstatt** vs **Seewirt Zauner**
+  - Reason: Coordinates Match (31m)
+- **Gasthof Simony** vs **Im Kainz**
+  - Reason: Coordinates Match (49m)
+- **Gasthof Simony** vs **Keramik Hallstatt**
+  - Reason: Coordinates Match (32m)
+- **Gasthof Simony** vs **Marktplatz Hallstatt**
+  - Reason: Coordinates Match (45m)
+- **Gasthof Simony** vs **Navia Zillen**
+  - Reason: Coordinates Match (45m)
+- **Gasthof Simony** vs **Seewirt Zauner**
+  - Reason: Coordinates Match (13m)
+- **Hallstatt Museum** vs **Im Kainz**
+  - Reason: Coordinates Match (37m)
+- **Hallstatt Museum** vs **Janu Sport**
+  - Reason: Coordinates Match (33m)
+- **Hallstatt Museum** vs **Marktplatz Hallstatt**
+  - Reason: Coordinates Match (22m)
+- **Hallstatt Museum** vs **Navia Zillen**
+  - Reason: Coordinates Match (22m)
+- **Hallstatt Museum** vs **Schnaps & Holz**
+  - Reason: Coordinates Match (15m)
+- **Hallstättersee Schifffahrt** vs **Keramik Hallstatt**
+  - Reason: Coordinates Match (37m)
+- **Im Kainz** vs **Marktplatz Hallstatt**
+  - Reason: Coordinates Match (30m)
+- **Im Kainz** vs **Navia Zillen**
+  - Reason: Coordinates Match (30m)
+- **Janu Sport** vs **Salzkontor Hallstatt**
+  - Reason: Coordinates Match (36m)
+- **Janu Sport** vs **Schnaps & Holz**
+  - Reason: Coordinates Match (36m)
+- **Janu Sport** vs **Taglich Frisch Gebacken**
+  - Reason: Coordinates Match (37m)
+- **Keramik Hallstatt** vs **Seewirt Zauner**
+  - Reason: Coordinates Match (22m)
+- **Marktplatz Hallstatt** vs **Navia Zillen**
+  - Reason: Coordinates Match (0m)
+- **Marktplatz Hallstatt** vs **Schnaps & Holz**
+  - Reason: Coordinates Match (26m)
+- **Navia Zillen** vs **Schnaps & Holz**
+  - Reason: Coordinates Match (26m)
+- **Rudolfsturm** vs **Skywalk Hallstatt**
+  - Reason: Coordinates Match (43m)
+- **Salzkontor Hallstatt** vs **Taglich Frisch Gebacken**
+  - Reason: Coordinates Match (40m)
+- **Schnaps & Holz** vs **Taglich Frisch Gebacken**
+  - Reason: Coordinates Match (40m)
+- **Siriuskogel** vs **Siriuskogl**
+  - Reason: Fuzzy Name Match (0.95)
+- **Weisses Rössl** vs **Wolfgangsee Schifffahrt**
+  - Reason: Coordinates Match (43m)
+
+## Heidelberg (heidelberg.json)
+- **Alman Eczacılık Müzesi** vs **Great Wine Barrel**
+  - Reason: Coordinates Match (18m)
+- **Alman Eczacılık Müzesi** vs **Heidelberg Castle**
+  - Reason: Coordinates Match (33m)
+- **Alman Eczacılık Müzesi** vs **Heidelberg Kalesi (Schloss)**
+  - Reason: Coordinates Match (18m)
+- **Alman Eczacılık Müzesi** vs **Heidelberg Kalesi Işık Gösterisi**
+  - Reason: Coordinates Match (18m)
+- **Alman Eczacılık Müzesi** vs **Pharmacy Museum**
+  - Reason: Coordinates Match (23m)
+- **Alte Brücke (Karl Theodor Köprüsü)** vs **Cafe Knösel**
+  - Reason: Coordinates Match (23m)
+- **Alte Brücke (Karl Theodor Köprüsü)** vs **Café Knösel**
+  - Reason: Coordinates Match (23m)
+- **Alte Brücke (Karl Theodor Köprüsü)** vs **Church of the Holy Spirit**
+  - Reason: Coordinates Match (28m)
+- **Alte Brücke (Karl Theodor Köprüsü)** vs **Palatinate Museum**
+  - Reason: Coordinates Match (7m)
+- **Altstadt (Eski Şehir)** vs **Fotoğraf Yürüyüşü**
+  - Reason: Coordinates Match (18m)
+- **Altstadt (Eski Şehir)** vs **Heidelberg Üniversitesi**
+  - Reason: Coordinates Match (31m)
+- **Altstadt (Eski Şehir)** vs **Sakura Sushi**
+  - Reason: Coordinates Match (46m)
+- **Altstadt (Eski Şehir)** vs **Segway Turu Heidelberg**
+  - Reason: Coordinates Match (24m)
+- **Brauhaus Vetter** vs **Marktplatz (Pazar Meydanı)**
+  - Reason: Coordinates Match (44m)
+- **Brauhaus Vetter** vs **Noel Pazarı**
+  - Reason: Coordinates Match (49m)
+- **Brauhaus Vetter** vs **Palmbrau Gasse**
+  - Reason: Coordinates Match (0m)
+- **Brauhaus Vetter** vs **Wochenmarkt**
+  - Reason: Coordinates Match (44m)
+- **Cafe Gundel** vs **Galeria Kaufhof**
+  - Reason: Coordinates Match (36m)
+- **Cafe Gundel** vs **Hauptstraße**
+  - Reason: Coordinates Match (49m)
+- **Cafe Gundel** vs **Hexenturm (Cadı Kulesi)**
+  - Reason: Coordinates Match (49m)
+- **Cafe Gundel** vs **Segway Turu Heidelberg**
+  - Reason: Coordinates Match (49m)
+- **Cafe Gundel** vs **Universitätsplatz**
+  - Reason: Coordinates Match (22m)
+- **Cafe Knösel** vs **Café Knösel**
+  - Reason: Coordinates Match (0m)
+- **Cafe Knösel** vs **Church of the Holy Spirit**
+  - Reason: Coordinates Match (42m)
+- **Cafe Knösel** vs **Market Square (Marktplatz)**
+  - Reason: Coordinates Match (42m)
+- **Cafe Knösel** vs **Marktplatz**
+  - Reason: Coordinates Match (42m)
+- **Cafe Knösel** vs **Palatinate Museum**
+  - Reason: Coordinates Match (22m)
+- **Café Burkardt** vs **Neckar Nehri Tekne Turu**
+  - Reason: Coordinates Match (26m)
+- **Café Knösel** vs **Church of the Holy Spirit**
+  - Reason: Coordinates Match (42m)
+- **Café Knösel** vs **Market Square (Marktplatz)**
+  - Reason: Coordinates Match (42m)
+- **Café Knösel** vs **Marktplatz**
+  - Reason: Coordinates Match (42m)
+- **Café Knösel** vs **Palatinate Museum**
+  - Reason: Coordinates Match (22m)
+- **Chocolaterie Yilliy** vs **Heidelberg Seramik**
+  - Reason: Coordinates Match (21m)
+- **Church of the Holy Spirit** vs **Heiliggeistkirche (Kutsal Ruh Kilisesi)**
+  - Reason: Name matches Name_En
+- **Church of the Holy Spirit** vs **Market Square (Marktplatz)**
+  - Reason: Coordinates Match (44m)
+- **Church of the Holy Spirit** vs **Marktplatz**
+  - Reason: Coordinates Match (44m)
+- **Church of the Holy Spirit** vs **Palatinate Museum**
+  - Reason: Coordinates Match (36m)
+- **Essighaus** vs **Marstall (Eski Ahır)**
+  - Reason: Coordinates Match (44m)
+- **Essighaus** vs **Schnitzelbank**
+  - Reason: Coordinates Match (42m)
+- **Fotoğraf Yürüyüşü** vs **Gelato Go**
+  - Reason: Coordinates Match (36m)
+- **Fotoğraf Yürüyüşü** vs **Heidelberg Üniversitesi**
+  - Reason: Coordinates Match (14m)
+- **Fotoğraf Yürüyüşü** vs **Segway Turu Heidelberg**
+  - Reason: Coordinates Match (36m)
+- **Galeria Kaufhof** vs **Hauptstraße**
+  - Reason: Coordinates Match (33m)
+- **Galeria Kaufhof** vs **Hexenturm (Cadı Kulesi)**
+  - Reason: Coordinates Match (33m)
+- **Galeria Kaufhof** vs **Jesuitenkirche**
+  - Reason: Coordinates Match (42m)
+- **Galeria Kaufhof** vs **Universitätsplatz**
+  - Reason: Coordinates Match (42m)
+- **Gelato Go** vs **Heidelberg Üniversitesi**
+  - Reason: Coordinates Match (21m)
+- **Gelato Go** vs **Studentenkarzer (Öğrenci Hapishanesi)**
+  - Reason: Coordinates Match (49m)
+- **Goldener Hecht** vs **Zum Roten Ochsen**
+  - Reason: Coordinates Match (36m)
+- **Great Wine Barrel** vs **Heidelberg Castle**
+  - Reason: Coordinates Match (26m)
+- **Great Wine Barrel** vs **Heidelberg Kalesi (Schloss)**
+  - Reason: Coordinates Match (0m)
+- **Great Wine Barrel** vs **Heidelberg Kalesi Işık Gösterisi**
+  - Reason: Coordinates Match (0m)
+- **Great Wine Barrel** vs **Pharmacy Museum**
+  - Reason: Coordinates Match (13m)
+- **Hackteufel** vs **Kurpfälzisches Museum**
+  - Reason: Coordinates Match (0m)
+- **Hackteufel** vs **Tee Kontor**
+  - Reason: Coordinates Match (49m)
+- **Handschuhsheim Bağları** vs **Şarap Tadımı Turu**
+  - Reason: Coordinates Match (0m)
+- **Hauptstrasse** vs **Hauptstraße**
+  - Reason: Fuzzy Name Match (0.87)
+- **Hauptstraße** vs **Hexenturm (Cadı Kulesi)**
+  - Reason: Coordinates Match (0m)
+- **Havana Bar** vs **Untere Straße (Bar Sokağı)**
+  - Reason: Coordinates Match (49m)
+- **Heidelberg Castle** vs **Heidelberg Kalesi (Schloss)**
+  - Reason: Name matches Name_En + Coordinates Match
+- **Heidelberg Castle** vs **Heidelberg Kalesi Işık Gösterisi**
+  - Reason: Coordinates Match (26m)
+- **Heidelberg Castle** vs **Pharmacy Museum**
+  - Reason: Coordinates Match (13m)
+- **Heidelberg Kalesi (Schloss)** vs **Heidelberg Kalesi Işık Gösterisi**
+  - Reason: Coordinates Match (0m)
+- **Heidelberg Kalesi (Schloss)** vs **Pharmacy Museum**
+  - Reason: Coordinates Match (13m)
+- **Heidelberg Kalesi Işık Gösterisi** vs **Pharmacy Museum**
+  - Reason: Coordinates Match (13m)
+- **Heidelberg University** vs **Heidelberg Üniversitesi**
+  - Reason: Name matches Name_En
+- **Heiliggeistkirche (Kutsal Ruh Kilisesi)** vs **Marktplatz (Pazar Meydanı)**
+  - Reason: Coordinates Match (28m)
+- **Heiliggeistkirche (Kutsal Ruh Kilisesi)** vs **Noel Pazarı**
+  - Reason: Coordinates Match (7m)
+- **Heiliggeistkirche (Kutsal Ruh Kilisesi)** vs **Wirtshaus Zum Nepomuk**
+  - Reason: Coordinates Match (13m)
+- **Heiliggeistkirche (Kutsal Ruh Kilisesi)** vs **Wochenmarkt**
+  - Reason: Coordinates Match (28m)
+- **Kurpfälzisches Museum** vs **Palatinate Museum**
+  - Reason: Name_En matches Name
+- **Kurpfälzisches Museum** vs **Tee Kontor**
+  - Reason: Coordinates Match (49m)
+- **Market Square (Marktplatz)** vs **Marktplatz**
+  - Reason: Coordinates Match (0m)
+- **Marktplatz (Pazar Meydanı)** vs **Noel Pazarı**
+  - Reason: Coordinates Match (21m)
+- **Marktplatz (Pazar Meydanı)** vs **Palmbrau Gasse**
+  - Reason: Coordinates Match (44m)
+- **Marktplatz (Pazar Meydanı)** vs **Wirtshaus Zum Nepomuk**
+  - Reason: Coordinates Match (37m)
+- **Marktplatz (Pazar Meydanı)** vs **Wochenmarkt**
+  - Reason: Coordinates Match (0m)
+- **Marstall (Eski Ahır)** vs **Schnitzelbank**
+  - Reason: Coordinates Match (42m)
+- **Noel Pazarı** vs **Palmbrau Gasse**
+  - Reason: Coordinates Match (49m)
+- **Noel Pazarı** vs **Wirtshaus Zum Nepomuk**
+  - Reason: Coordinates Match (18m)
+- **Noel Pazarı** vs **Wochenmarkt**
+  - Reason: Coordinates Match (21m)
+- **Old Bridge (Karl Theodor Bridge)** vs **River Cruise**
+  - Reason: Coordinates Match (36m)
+- **Palmbrau Gasse** vs **Wochenmarkt**
+  - Reason: Coordinates Match (44m)
+- **Philosophenweg (Filozoflar Yolu)** vs **Philosophers' Walk**
+  - Reason: Name_En matches Name
+- **Plöck Sokağı** vs **Weinstube Schnitzelbank**
+  - Reason: Coordinates Match (36m)
+- **Plöck Sokağı** vs **Zum Seppl**
+  - Reason: Coordinates Match (49m)
+- **Studentenkarzer (Öğrenci Hapishanesi)** vs **Tee Kontor**
+  - Reason: Coordinates Match (44m)
+- **Wirtshaus Zum Nepomuk** vs **Wochenmarkt**
+  - Reason: Coordinates Match (37m)
+
+## Hong Kong (hongkong.json)
+- **AVOCA** vs **Carna by Dario Cecchini**
+  - Reason: Coordinates Match (12m)
+- **Apothecary** vs **Bar De Luxe**
+  - Reason: Coordinates Match (33m)
+- **Apothecary** vs **Fireside**
+  - Reason: Coordinates Match (33m)
+- **Apothecary** vs **Ivan The Kozak 東歐餐廳**
+  - Reason: Coordinates Match (49m)
+- **Apothecary** vs **Maggie Choo's Hong Kong**
+  - Reason: Coordinates Match (36m)
+- **Apothecary** vs **Tai Kwun**
+  - Reason: Coordinates Match (41m)
+- **Apothecary** vs **The Diplomat Hong Kong**
+  - Reason: Coordinates Match (46m)
+- **Apothecary** vs **The Mansion, Wyndham St**
+  - Reason: Coordinates Match (0m)
+- **Apothecary** vs **The Mixing Room**
+  - Reason: Coordinates Match (37m)
+- **Bar De Luxe** vs **Fireside**
+  - Reason: Coordinates Match (0m)
+- **Bar De Luxe** vs **Maggie Choo's Hong Kong**
+  - Reason: Coordinates Match (17m)
+- **Bar De Luxe** vs **Tai Kwun**
+  - Reason: Coordinates Match (15m)
+- **Bar De Luxe** vs **Tell Camellia**
+  - Reason: Coordinates Match (23m)
+- **Bar De Luxe** vs **The Diplomat Hong Kong**
+  - Reason: Coordinates Match (20m)
+- **Bar De Luxe** vs **The Mansion, Wyndham St**
+  - Reason: Coordinates Match (33m)
+- **Bar De Luxe** vs **The Mixing Room**
+  - Reason: Coordinates Match (10m)
+- **Bourke's** vs **Courtroom**
+  - Reason: Coordinates Match (42m)
+- **Bourke's** vs **FRANCIS west**
+  - Reason: Coordinates Match (6m)
+- **Bourke's** vs **Le Moment**
+  - Reason: Coordinates Match (13m)
+- **Bourke's** vs **Omnia Restaurant Hong Kong**
+  - Reason: Coordinates Match (32m)
+- **Bourke's** vs **Thirsty Shaker Cocktail Bar**
+  - Reason: Coordinates Match (46m)
+- **BÀRBAR** vs **WAKARAN**
+  - Reason: Coordinates Match (0m)
+- **C108** vs **The Pontiac**
+  - Reason: Coordinates Match (9m)
+- **C108** vs **The Savory Project**
+  - Reason: Coordinates Match (41m)
+- **CALL ME AL** vs **ztoryhome**
+  - Reason: Coordinates Match (18m)
+- **COA** vs **Nook Coffee**
+  - Reason: Coordinates Match (38m)
+- **COA** vs **Out Of The Brew**
+  - Reason: Coordinates Match (14m)
+- **COA** vs **Whisky & Words**
+  - Reason: Coordinates Match (22m)
+- **Carat Fine Indian and Mediterranean Cuisine** vs **Spice Bazaar - Modern Indian Barbeque Hong Kong**
+  - Reason: Coordinates Match (20m)
+- **Carna by Dario Cecchini** vs **Twist & Buckle Churros Specialists Tsim Sha Tsui**
+  - Reason: Coordinates Match (45m)
+- **Central & Western Heritage Trail** vs **The Diplomat Hong Kong**
+  - Reason: Coordinates Match (45m)
+- **Central Escalator** vs **Honky Tonks Tavern**
+  - Reason: Coordinates Match (48m)
+- **Central Escalator** vs **Nook Coffee**
+  - Reason: Coordinates Match (38m)
+- **Central Escalator** vs **SILÈNE**
+  - Reason: Coordinates Match (31m)
+- **Central Escalator** vs **Whisky & Words**
+  - Reason: Coordinates Match (43m)
+- **Courtroom** vs **FRANCIS west**
+  - Reason: Coordinates Match (43m)
+- **Courtroom** vs **Le Moment**
+  - Reason: Coordinates Match (43m)
+- **Courtroom** vs **Omnia Restaurant Hong Kong**
+  - Reason: Coordinates Match (28m)
+- **Courtroom** vs **The Wise King - SOHO, Hong Kong.**
+  - Reason: Coordinates Match (12m)
+- **Crushed Wine Bar + Retail** vs **The Missing Piece Cafe**
+  - Reason: Coordinates Match (39m)
+- **Dragonfly** vs **Prince and The Peacock**
+  - Reason: Coordinates Match (18m)
+- **Embla** vs **racines**
+  - Reason: Coordinates Match (15m)
+- **FRANCIS west** vs **Le Moment**
+  - Reason: Coordinates Match (19m)
+- **FRANCIS west** vs **Omnia Restaurant Hong Kong**
+  - Reason: Coordinates Match (37m)
+- **FRANCIS west** vs **Thirsty Shaker Cocktail Bar**
+  - Reason: Coordinates Match (40m)
+- **Feuille** vs **WING Restaurant**
+  - Reason: Coordinates Match (16m)
+- **Fireside** vs **Maggie Choo's Hong Kong**
+  - Reason: Coordinates Match (18m)
+- **Fireside** vs **Tai Kwun**
+  - Reason: Coordinates Match (16m)
+- **Fireside** vs **Tell Camellia**
+  - Reason: Coordinates Match (22m)
+- **Fireside** vs **The Diplomat Hong Kong**
+  - Reason: Coordinates Match (19m)
+- **Fireside** vs **The Mansion, Wyndham St**
+  - Reason: Coordinates Match (33m)
+- **Fireside** vs **The Mixing Room**
+  - Reason: Coordinates Match (11m)
+- **Halfway Coffee** vs **Man Mo Temple**
+  - Reason: Coordinates Match (47m)
+- **Heimat by Peter Find** vs **Ho Lan Jeng**
+  - Reason: Coordinates Match (47m)
+- **Heimat by Peter Find** vs **ORKA Restaurant & Bar**
+  - Reason: Coordinates Match (46m)
+- **Ho Lan Jeng** vs **Hong Kong Pub Crawl**
+  - Reason: Coordinates Match (42m)
+- **Honky Tonks Tavern** vs **Jaa Bar**
+  - Reason: Coordinates Match (38m)
+- **Honky Tonks Tavern** vs **SILÈNE**
+  - Reason: Coordinates Match (36m)
+- **House Welley Whisky Bar** vs **Zero One Coffee & Roastery**
+  - Reason: Coordinates Match (40m)
+- **Islet Coffee Lab (Central)** vs **MONO**
+  - Reason: Coordinates Match (26m)
+- **Ivan The Kozak 東歐餐廳** vs **The Mansion, Wyndham St**
+  - Reason: Coordinates Match (49m)
+- **Jaa Bar** vs **ORCHARD**
+  - Reason: Coordinates Match (21m)
+- **Jaa Bar** vs **Sheer Coffee**
+  - Reason: Coordinates Match (20m)
+- **LALA Hong Kong** vs **Urban Coffee Roaster SOHO**
+  - Reason: Coordinates Match (44m)
+- **La Cave** vs **Miam Bakery**
+  - Reason: Coordinates Match (20m)
+- **La Cave** vs **Two-and-a-Half Street**
+  - Reason: Coordinates Match (45m)
+- **Le Moment** vs **Omnia Restaurant Hong Kong**
+  - Reason: Coordinates Match (24m)
+- **Le Moment** vs **The Wise King - SOHO, Hong Kong.**
+  - Reason: Coordinates Match (49m)
+- **Maggie Choo's Hong Kong** vs **Tai Kwun**
+  - Reason: Coordinates Match (7m)
+- **Maggie Choo's Hong Kong** vs **Tell Camellia**
+  - Reason: Coordinates Match (38m)
+- **Maggie Choo's Hong Kong** vs **The Diplomat Hong Kong**
+  - Reason: Coordinates Match (37m)
+- **Maggie Choo's Hong Kong** vs **The Mansion, Wyndham St**
+  - Reason: Coordinates Match (36m)
+- **Maggie Choo's Hong Kong** vs **The Mixing Room**
+  - Reason: Coordinates Match (7m)
+- **Miam Bakery** vs **Two-and-a-Half Street**
+  - Reason: Coordinates Match (25m)
+- **Nook Coffee** vs **Out Of The Brew**
+  - Reason: Coordinates Match (23m)
+- **Nook Coffee** vs **Whisky & Words**
+  - Reason: Coordinates Match (18m)
+- **ORCHARD** vs **Sheer Coffee**
+  - Reason: Coordinates Match (20m)
+- **Omnia Restaurant Hong Kong** vs **The Wise King - SOHO, Hong Kong.**
+  - Reason: Coordinates Match (27m)
+- **Out Of The Brew** vs **Whisky & Words**
+  - Reason: Coordinates Match (12m)
+- **Pottinger Street (Stone Slabs)** vs **Ta Vie**
+  - Reason: Coordinates Match (38m)
+- **SILÈNE** vs **Whisky & Words**
+  - Reason: Coordinates Match (43m)
+- **Sik Sik Yuen Wong Tai Sin** vs **Wong Tai Sin Temple**
+  - Reason: Coordinates Match (0m)
+- **Tai Kwun** vs **Tell Camellia**
+  - Reason: Coordinates Match (31m)
+- **Tai Kwun** vs **The Diplomat Hong Kong**
+  - Reason: Coordinates Match (32m)
+- **Tai Kwun** vs **The Mansion, Wyndham St**
+  - Reason: Coordinates Match (41m)
+- **Tai Kwun** vs **The Mixing Room**
+  - Reason: Coordinates Match (4m)
+- **Tai Kwun** vs **ZZURA**
+  - Reason: Coordinates Match (45m)
+- **Tell Camellia** vs **The Diplomat Hong Kong**
+  - Reason: Coordinates Match (9m)
+- **Tell Camellia** vs **The Mixing Room**
+  - Reason: Coordinates Match (30m)
+- **The Diplomat Hong Kong** vs **The Mansion, Wyndham St**
+  - Reason: Coordinates Match (46m)
+- **The Diplomat Hong Kong** vs **The Mixing Room**
+  - Reason: Coordinates Match (29m)
+- **The Mansion, Wyndham St** vs **The Mixing Room**
+  - Reason: Coordinates Match (37m)
+- **The Mixing Room** vs **ZZURA**
+  - Reason: Coordinates Match (49m)
+- **The Pontiac** vs **The Savory Project**
+  - Reason: Coordinates Match (42m)
+- **ThinkWine** vs **Urban Coffee Roaster SOHO**
+  - Reason: Coordinates Match (18m)
+- **Urban Coffee Roaster SOHO** vs **ZZURA**
+  - Reason: Coordinates Match (47m)
+
+## İstanbul (istanbul.json)
+- **360 Istanbul** vs **Espresso Lab**
+  - Reason: Coordinates Match (16m)
+- **360 Istanbul** vs **Mikla**
+  - Reason: Coordinates Match (0m)
+- **360 Istanbul** vs **Mikla Bar**
+  - Reason: Coordinates Match (0m)
+- **360 Istanbul** vs **Üçüncü Dalga Kahvecileri**
+  - Reason: Coordinates Match (0m)
+- **360 Istanbul** vs **İstiklal Caddesi**
+  - Reason: Coordinates Match (0m)
+- **Agora Meyhanesi** vs **Çıfıtçı Çarşısı**
+  - Reason: Coordinates Match (36m)
+- **Balkon** vs **Nevizade Sokak**
+  - Reason: Coordinates Match (0m)
+- **Bağ Pera** vs **FredBarİstanbul**
+  - Reason: Coordinates Match (49m)
+- **Bebek Sahili** vs **Sankai by Nagaya**
+  - Reason: Coordinates Match (45m)
+- **Bomontiada** vs **Turk Fatih Tutak**
+  - Reason: Coordinates Match (47m)
+- **CAMPUS PUB** vs **Espresso Lab**
+  - Reason: Coordinates Match (48m)
+- **Celtic Irish Pub Istanbul** vs **Museum of Illusions**
+  - Reason: Coordinates Match (16m)
+- **Cihangir** vs **Norm Coffee**
+  - Reason: Coordinates Match (16m)
+- **Ciya Takviye** vs **Çiya Sofrası**
+  - Reason: Coordinates Match (23m)
+- **Doruk Rooftop Restaurant** vs **Queb Rooftop Restaurant**
+  - Reason: Fuzzy Name Match (0.85)
+- **Dublin Irish Pub** vs **Museum of Illusions**
+  - Reason: Coordinates Match (43m)
+- **Dublin Irish Pub** vs **Raskol İstanbul**
+  - Reason: Coordinates Match (30m)
+- **EHLİ KEYF CAFE** vs **Hafız Mustafa 1864**
+  - Reason: Coordinates Match (49m)
+- **Espresso Lab** vs **Mikla**
+  - Reason: Coordinates Match (16m)
+- **Espresso Lab** vs **Mikla Bar**
+  - Reason: Coordinates Match (16m)
+- **Espresso Lab** vs **Üçüncü Dalga Kahvecileri**
+  - Reason: Coordinates Match (16m)
+- **Espresso Lab** vs **İstiklal Caddesi**
+  - Reason: Coordinates Match (16m)
+- **FLEKK** vs **Nicole**
+  - Reason: Coordinates Match (40m)
+- **FLEKK** vs **Solera Winery**
+  - Reason: Coordinates Match (24m)
+- **Food Palace 1981 Anatolian Restaurant** vs **Hidden Garden Restaurant Sultanahmet**
+  - Reason: Coordinates Match (7m)
+- **Food Palace 1981 Anatolian Restaurant** vs **Sultanahmet Rooftop**
+  - Reason: Coordinates Match (28m)
+- **Galata Kulesi** vs **Old Java Coffee**
+  - Reason: Coordinates Match (33m)
+- **Galata Kulesi** vs **Tower Pub**
+  - Reason: Coordinates Match (21m)
+- **Golden Horn Terrace Restaurant** vs **Green Hill Cafe Restaurant**
+  - Reason: Coordinates Match (46m)
+- **Hafız Mustafa 1864** vs **Old City Rooftop**
+  - Reason: Coordinates Match (30m)
+- **Hafız Mustafa 1864** vs **Old İstanbul Rooftop Mezze & Seafood Restaurant**
+  - Reason: Coordinates Match (21m)
+- **Hidden Garden Restaurant Sultanahmet** vs **Sultanahmet Rooftop**
+  - Reason: Coordinates Match (21m)
+- **Irısh Corner Pub** vs **Istanbul Party Pub Crawl**
+  - Reason: Coordinates Match (35m)
+- **Irısh Corner Pub** vs **Just Bar**
+  - Reason: Coordinates Match (36m)
+- **Irısh Corner Pub** vs **The Shadow Barbecue and Steak House**
+  - Reason: Coordinates Match (30m)
+- **Istanbul Party Pub Crawl** vs **Just Bar**
+  - Reason: Coordinates Match (2m)
+- **Istanbul Party Pub Crawl** vs **The Shadow Barbecue and Steak House**
+  - Reason: Coordinates Match (5m)
+- **Just Bar** vs **The Shadow Barbecue and Steak House**
+  - Reason: Coordinates Match (6m)
+- **Karakoy Lokantasi** vs **Karaköy Güllüoğlu**
+  - Reason: Coordinates Match (16m)
+- **Las Tapas fish and kebap Restaurant** vs **Suad Restaurant**
+  - Reason: Coordinates Match (48m)
+- **Little Sofia Cafe & Restaurant** vs **istanbul Anatolian Cuisine**
+  - Reason: Coordinates Match (30m)
+- **Marlen Bar** vs **Zübeyir Ocakbaşı**
+  - Reason: Coordinates Match (43m)
+- **Mikla** vs **Mikla Bar**
+  - Reason: Coordinates Match (0m)
+- **Mikla** vs **Üçüncü Dalga Kahvecileri**
+  - Reason: Coordinates Match (0m)
+- **Mikla** vs **İstiklal Caddesi**
+  - Reason: Coordinates Match (0m)
+- **Mikla Bar** vs **Üçüncü Dalga Kahvecileri**
+  - Reason: Coordinates Match (0m)
+- **Mikla Bar** vs **İstiklal Caddesi**
+  - Reason: Coordinates Match (0m)
+- **Moda** vs **Walter's Coffee Roastery**
+  - Reason: Coordinates Match (47m)
+- **Mısır Çarşısı** vs **Pandeli**
+  - Reason: Coordinates Match (16m)
+- **Neolokal** vs **Old Java Coffee**
+  - Reason: Coordinates Match (35m)
+- **Old City Rooftop** vs **Old İstanbul Rooftop Mezze & Seafood Restaurant**
+  - Reason: Coordinates Match (13m)
+- **Old Java Coffee** vs **Tower Pub**
+  - Reason: Coordinates Match (47m)
+- **Queb Rooftop Restaurant** vs **Rounders İrish Bar**
+  - Reason: Coordinates Match (30m)
+- **Suleymaniye Fatih** vs **Süleymaniye Camii**
+  - Reason: Coordinates Match (47m)
+- **Turk Fatih Tutak** vs **Türk Fatih Tutak**
+  - Reason: Fuzzy Name Match (0.94)
+- **Üçüncü Dalga Kahvecileri** vs **İstiklal Caddesi**
+  - Reason: Coordinates Match (0m)
+
+## Kahire (kahire.json)
+- **Al-Aqmar Mosque** vs **Al-Azhar Mosque**
+  - Reason: Fuzzy Name Match (0.87)
+- **Al-Aqmar Mosque** vs **Hammams of Cairo**
+  - Reason: Coordinates Match (48m)
+- **Al-Azhar Mosque** vs **Beit Al-Harrawi**
+  - Reason: Coordinates Match (48m)
+- **Al-Rifa'i Mosque** vs **Sultan Hasan Camii**
+  - Reason: Coordinates Match (36m)
+- **Asılı Kilise (Hanging Church)** vs **Hunging Church**
+  - Reason: Coordinates Match (31m)
+- **Beit El-Suhaymi** vs **Textile Museum**
+  - Reason: Coordinates Match (48m)
+- **Ben Ezra Sinagogu** vs **Ben Ezra Synagogue**
+  - Reason: Fuzzy Name Match (0.91)
+- **Ben Ezra Synagogue** vs **Church of St. Barbara**
+  - Reason: Coordinates Match (48m)
+- **Ben Ezra Synagogue** vs **Coptic Museum**
+  - Reason: Coordinates Match (44m)
+- **Büyük Giza Sfenksi** vs **Great Sphinx of Giza**
+  - Reason: Coordinates Match (4m)
+- **Cave Church** vs **Garbage City (Manastır)**
+  - Reason: Coordinates Match (38m)
+- **Church of St. Barbara** vs **Coptic Museum**
+  - Reason: Coordinates Match (29m)
+- **Church of St. Barbara** vs **Kıpti Müzesi**
+  - Reason: Coordinates Match (10m)
+- **Coptic Museum** vs **Kıpti Müzesi**
+  - Reason: Coordinates Match (27m)
+- **Craves** vs **Diwan Bookstore**
+  - Reason: Coordinates Match (48m)
+- **Craves** vs **Zamalek District**
+  - Reason: Coordinates Match (0m)
+- **Diwan Bookstore** vs **Zamalek District**
+  - Reason: Coordinates Match (48m)
+- **Downtown Cairo** vs **El Horreya**
+  - Reason: Coordinates Match (48m)
+- **El Abd Patisserie** vs **Talaat Harb Street**
+  - Reason: Coordinates Match (0m)
+- **El Fishawy** vs **El Fishawy Cafe**
+  - Reason: Coordinates Match (37m)
+- **El Fishawy** vs **Han el-Halili Çarşısı**
+  - Reason: Coordinates Match (25m)
+- **El Fishawy** vs **Khan el-Khalili**
+  - Reason: Coordinates Match (34m)
+- **El Fishawy Cafe** vs **Han el-Halili Çarşısı**
+  - Reason: Coordinates Match (36m)
+- **El Fishawy Cafe** vs **Khan el-Khalili**
+  - Reason: Coordinates Match (38m)
+- **Felfela** vs **Felfela Downtown**
+  - Reason: Name matches Name_En
+- **Han el-Halili Çarşısı** vs **Khan el-Khalili**
+  - Reason: Coordinates Match (8m)
+- **Kahire Kalesi (Selahaddin Eyyubi)** vs **Mehmet Ali Paşa Camii**
+  - Reason: Coordinates Match (34m)
+- **Kahire Kalesi (Selahaddin Eyyubi)** vs **Mosque of Muhammad Ali**
+  - Reason: Coordinates Match (18m)
+- **Koshary Abou Tarek** vs **Townhouse Gallery**
+  - Reason: Coordinates Match (23m)
+- **Mehmet Ali Paşa Camii** vs **Mosque of Muhammad Ali**
+  - Reason: Coordinates Match (39m)
+- **Mosque of Al-Salih Tala'i** vs **Tentmakers Market**
+  - Reason: Coordinates Match (0m)
+- **Osana Family Wellness** vs **Road 9 Maadi**
+  - Reason: Coordinates Match (0m)
+
+## Kapadokya (kapadokya.json)
+- **Ansia Hotel** vs **House of Memories**
+  - Reason: Coordinates Match (43m)
+- **Ansia Hotel** vs **Keles Cave Cafe**
+  - Reason: Coordinates Match (0m)
+- **Ansia Hotel** vs **Kocabag Winery**
+  - Reason: Coordinates Match (43m)
+- **Ansia Hotel** vs **Lila Restaurant**
+  - Reason: Coordinates Match (43m)
+- **Ansia Hotel** vs **Museum Hotel**
+  - Reason: Coordinates Match (43m)
+- **Ansia Hotel** vs **Reserved Restaurant**
+  - Reason: Coordinates Match (34m)
+- **Ansia Hotel** vs **Uchisar Old Square**
+  - Reason: Coordinates Match (43m)
+- **Ansia Hotel** vs **Uçhisar Kalesi**
+  - Reason: Coordinates Match (13m)
+- **Apple Church** vs **Dark Church**
+  - Reason: Coordinates Match (34m)
+- **Apple Church** vs **Göreme Açık Hava Müzesi**
+  - Reason: Coordinates Match (18m)
+- **Apple Church** vs **Sandal Church**
+  - Reason: Coordinates Match (48m)
+- **Apple Church** vs **Snake Church**
+  - Reason: Coordinates Match (14m)
+- **Argos in Cappadocia** vs **Paşabağ Peribacaları**
+  - Reason: Coordinates Match (32m)
+- **Argos in Cappadocia** vs **Taskonaklar**
+  - Reason: Coordinates Match (0m)
+- **Asmali Konak** vs **Revithia**
+  - Reason: Coordinates Match (0m)
+- **Asmali Konak** vs **Ürgüp Halı Mağazaları**
+  - Reason: Coordinates Match (42m)
+- **Avanos Çömlekçiler Çarşısı** vs **Çömlek Atölyesi**
+  - Reason: Coordinates Match (0m)
+- **Aydin Kiragi Hill** vs **Lovers Hill**
+  - Reason: Coordinates Match (48m)
+- **Ayvali Village** vs **Gomeda Valley**
+  - Reason: Coordinates Match (0m)
+- **Babayan Evi** vs **Ibrahimpasa Village**
+  - Reason: Coordinates Match (0m)
+- **Bezirhane Goreme** vs **Inci Cave Restaurant**
+  - Reason: Coordinates Match (43m)
+- **Bezirhane Goreme** vs **Pumpkin Goreme**
+  - Reason: Coordinates Match (26m)
+- **Buckle Church** vs **Refectory**
+  - Reason: Coordinates Match (37m)
+- **Buckle Church** vs **St. Catherine Chapel**
+  - Reason: Coordinates Match (43m)
+- **Butterfly Balloons** vs **Sultan Cave Suites**
+  - Reason: Coordinates Match (43m)
+- **Cafe Safak** vs **Pumpkin Goreme**
+  - Reason: Coordinates Match (46m)
+- **Coffee House Goreme** vs **Firin Express**
+  - Reason: Coordinates Match (27m)
+- **Coffee House Goreme** vs **Kadirs Cave**
+  - Reason: Coordinates Match (30m)
+- **Coffee House Goreme** vs **Sedef Restaurant**
+  - Reason: Coordinates Match (41m)
+- **Coffeedocia** vs **Nostalji Restaurant**
+  - Reason: Coordinates Match (28m)
+- **Coffeedocia** vs **Sedef Restaurant**
+  - Reason: Coordinates Match (42m)
+- **Dark Church** vs **Göreme Açık Hava Müzesi**
+  - Reason: Coordinates Match (37m)
+- **Dark Church** vs **Sandal Church**
+  - Reason: Coordinates Match (14m)
+- **Dark Church** vs **Snake Church**
+  - Reason: Coordinates Match (20m)
+- **Dibek Restaurant** vs **Fat Boys**
+  - Reason: Coordinates Match (17m)
+- **Dibek Restaurant** vs **Fat Boys Bar**
+  - Reason: Coordinates Match (33m)
+- **Dibek Restaurant** vs **Hopper Coffee House**
+  - Reason: Coordinates Match (20m)
+- **Dibek Restaurant** vs **Kings Coffee Shop**
+  - Reason: Coordinates Match (25m)
+- **Dibek Restaurant** vs **My Mother's Cafe**
+  - Reason: Coordinates Match (33m)
+- **Dibek Restaurant** vs **Old Cappadocia Cafe**
+  - Reason: Coordinates Match (38m)
+- **Dibek Restaurant** vs **Seten Anatolian Cuisine**
+  - Reason: Coordinates Match (38m)
+- **Elai Restaurant** vs **Lila Restaurant**
+  - Reason: Fuzzy Name Match (0.87)
+- **Elai Restaurant** vs **Seki Restaurant**
+  - Reason: Fuzzy Name Match (0.87)
+- **Elis Hamam** vs **Hopper Coffee House**
+  - Reason: Coordinates Match (43m)
+- **Elis Hamam** vs **My Mother's Cafe**
+  - Reason: Coordinates Match (45m)
+- **Fat Boys** vs **Fat Boys Bar**
+  - Reason: Coordinates Match (16m)
+- **Fat Boys** vs **Hopper Coffee House**
+  - Reason: Coordinates Match (37m)
+- **Fat Boys** vs **Kings Coffee Shop**
+  - Reason: Coordinates Match (28m)
+- **Fat Boys** vs **My Mother's Cafe**
+  - Reason: Coordinates Match (34m)
+- **Fat Boys** vs **Old Cappadocia Cafe**
+  - Reason: Coordinates Match (28m)
+- **Fat Boys** vs **Seten Anatolian Cuisine**
+  - Reason: Coordinates Match (28m)
+- **Fat Boys Bar** vs **Kings Coffee Shop**
+  - Reason: Coordinates Match (36m)
+- **Fat Boys Bar** vs **My Mother's Cafe**
+  - Reason: Coordinates Match (44m)
+- **Fat Boys Bar** vs **Old Cappadocia Cafe**
+  - Reason: Coordinates Match (28m)
+- **Fat Boys Bar** vs **Seten Anatolian Cuisine**
+  - Reason: Coordinates Match (28m)
+- **Firin Express** vs **Sedef Restaurant**
+  - Reason: Coordinates Match (26m)
+- **Galerie Ikman** vs **Red Red Wine House**
+  - Reason: Coordinates Match (28m)
+- **Galerie Ikman** vs **Royal Balloon**
+  - Reason: Coordinates Match (0m)
+- **Goreme Roman Castle** vs **Omurca Art Cave**
+  - Reason: Coordinates Match (28m)
+- **Goreme Roman Castle** vs **Pumpkin Goreme Restaurant**
+  - Reason: Coordinates Match (0m)
+- **Goreme Roman Castle** vs **Topdeck Cave Restaurant**
+  - Reason: Coordinates Match (45m)
+- **Göreme Açık Hava Müzesi** vs **Snake Church**
+  - Reason: Coordinates Match (24m)
+- **Hopper Coffee House** vs **Kings Coffee Shop**
+  - Reason: Coordinates Match (36m)
+- **Hopper Coffee House** vs **My Mother's Cafe**
+  - Reason: Coordinates Match (41m)
+- **House of Memories** vs **Keles Cave Cafe**
+  - Reason: Coordinates Match (43m)
+- **House of Memories** vs **Kocabag Winery**
+  - Reason: Coordinates Match (0m)
+- **Inci Cave Restaurant** vs **Pumpkin Goreme**
+  - Reason: Coordinates Match (35m)
+- **Kadi Castle** vs **Turasan Winery**
+  - Reason: Coordinates Match (0m)
+- **Kadineli Restaurant** vs **Muhterif**
+  - Reason: Coordinates Match (43m)
+- **Kadineli Restaurant** vs **Reserved Restaurant**
+  - Reason: Coordinates Match (42m)
+- **Kale Cafe** vs **Lila Restaurant**
+  - Reason: Coordinates Match (43m)
+- **Kale Cafe** vs **Museum Hotel**
+  - Reason: Coordinates Match (43m)
+- **Kale Cafe** vs **Oze Coffee**
+  - Reason: Coordinates Match (40m)
+- **Kale Cafe** vs **Petra Inn**
+  - Reason: Coordinates Match (13m)
+- **Kale Cafe** vs **Uchisar Old Square**
+  - Reason: Coordinates Match (43m)
+- **Kale Cafe** vs **Uçhisar Kalesi**
+  - Reason: Coordinates Match (44m)
+- **Kebapzade** vs **Sedef Cafe**
+  - Reason: Coordinates Match (37m)
+- **Kelebek Special Cave** vs **Keyif Cafe**
+  - Reason: Coordinates Match (44m)
+- **Kelebek Special Cave** vs **Sultan Cave Suites**
+  - Reason: Coordinates Match (48m)
+- **Keles Cave Cafe** vs **Kocabag Winery**
+  - Reason: Coordinates Match (43m)
+- **Keles Cave Cafe** vs **Lila Restaurant**
+  - Reason: Coordinates Match (43m)
+- **Keles Cave Cafe** vs **Museum Hotel**
+  - Reason: Coordinates Match (43m)
+- **Keles Cave Cafe** vs **Reserved Restaurant**
+  - Reason: Coordinates Match (34m)
+- **Keles Cave Cafe** vs **Uchisar Old Square**
+  - Reason: Coordinates Match (43m)
+- **Keles Cave Cafe** vs **Uçhisar Kalesi**
+  - Reason: Coordinates Match (13m)
+- **Keyif Cafe** vs **Sultan Cave Suites**
+  - Reason: Coordinates Match (48m)
+- **Koza Cave Hotel** vs **Sunset Point Göreme**
+  - Reason: Coordinates Match (49m)
+- **Lil'a Restaurant** vs **Lila Restaurant**
+  - Reason: Name matches Name_En
+- **Lila Restaurant** vs **Museum Hotel**
+  - Reason: Coordinates Match (0m)
+- **Lila Restaurant** vs **Reserved Restaurant**
+  - Reason: Coordinates Match (28m)
+- **Lila Restaurant** vs **Sakli Konak**
+  - Reason: Coordinates Match (48m)
+- **Lila Restaurant** vs **Uchisar Old Square**
+  - Reason: Coordinates Match (0m)
+- **Lila Restaurant** vs **Uçhisar Kalesi**
+  - Reason: Coordinates Match (36m)
+- **Millocal Restaurant** vs **Paşabağ Peribacaları**
+  - Reason: Coordinates Match (40m)
+- **Millocal Restaurant** vs **Petra Inn**
+  - Reason: Coordinates Match (37m)
+- **Muhterif** vs **Reserved Restaurant**
+  - Reason: Coordinates Match (37m)
+- **Museum Hotel** vs **Reserved Restaurant**
+  - Reason: Coordinates Match (28m)
+- **Museum Hotel** vs **Sakli Konak**
+  - Reason: Coordinates Match (48m)
+- **Museum Hotel** vs **Uchisar Old Square**
+  - Reason: Coordinates Match (0m)
+- **Museum Hotel** vs **Uçhisar Kalesi**
+  - Reason: Coordinates Match (36m)
+- **My Mother's Cafe** vs **Old Cappadocia Cafe**
+  - Reason: Coordinates Match (24m)
+- **My Mother's Cafe** vs **Seten Anatolian Cuisine**
+  - Reason: Coordinates Match (24m)
+- **Nunnery** vs **St. Basil Chapel**
+  - Reason: Coordinates Match (28m)
+- **Old Cappadocia Cafe** vs **Seten Anatolian Cuisine**
+  - Reason: Coordinates Match (0m)
+- **Omurca Art Cave** vs **Pumpkin Goreme Restaurant**
+  - Reason: Coordinates Match (28m)
+- **Omurca Art Cave** vs **Topdeck Cave Restaurant**
+  - Reason: Coordinates Match (19m)
+- **Orient Cafe** vs **Viewpoint Cafe**
+  - Reason: Coordinates Match (45m)
+- **Oze Coffee** vs **Petra Inn**
+  - Reason: Coordinates Match (43m)
+- **Oze Coffee** vs **Uçhisar Kalesi**
+  - Reason: Coordinates Match (45m)
+- **Paşabağ Peribacaları** vs **Taskonaklar**
+  - Reason: Coordinates Match (32m)
+- **Pumpkin Goreme Restaurant** vs **Topdeck Cave Restaurant**
+  - Reason: Coordinates Match (45m)
+- **Red Red Wine House** vs **Royal Balloon**
+  - Reason: Coordinates Match (28m)
+- **Red Valley Viewpoint** vs **Rose Valley Viewpoint**
+  - Reason: Fuzzy Name Match (0.93)
+- **Refectory** vs **St. Catherine Chapel**
+  - Reason: Coordinates Match (42m)
+- **Reserved Restaurant** vs **Uchisar Old Square**
+  - Reason: Coordinates Match (28m)
+- **Reserved Restaurant** vs **Uçhisar Kalesi**
+  - Reason: Coordinates Match (37m)
+- **Revithia** vs **Ürgüp Halı Mağazaları**
+  - Reason: Coordinates Match (42m)
+- **Sakli Konak** vs **Uchisar Old Square**
+  - Reason: Coordinates Match (48m)
+- **Sandal Church** vs **Snake Church**
+  - Reason: Coordinates Match (34m)
+- **Saruhan Caravanserai** vs **Saruhan Exhibition**
+  - Reason: Coordinates Match (0m)
+- **Saruhan Caravanserai** vs **Sultanhan Caravanserai**
+  - Reason: Fuzzy Name Match (0.86)
+- **Sedef Cafe** vs **Voyager Balloons**
+  - Reason: Coordinates Match (43m)
+- **St. Barbara Chapel** vs **St. Basil Chapel**
+  - Reason: Coordinates Match (28m)
+- **St. Barbara Chapel** vs **St. Catherine Chapel**
+  - Reason: Coordinates Match (42m)
+- **Temenni Library** vs **Ziggy Cafe**
+  - Reason: Coordinates Match (43m)
+- **Uchisar Old Square** vs **Uçhisar Kalesi**
+  - Reason: Coordinates Match (36m)
+- **Ziggy Cafe** vs **Ürgüp Halı Mağazaları**
+  - Reason: Coordinates Match (35m)
+
+## Kopenhag (kopenhag.json)
+- **Absalon** vs **Sanchez**
+  - Reason: Coordinates Match (0m)
+- **Apotek 57** vs **Frama Studio Store**
+  - Reason: Coordinates Match (0m)
+- **Ark Books** vs **Møllegade**
+  - Reason: Coordinates Match (0m)
+- **Barabba** vs **Gasoline Grill**
+  - Reason: Coordinates Match (26m)
+- **Bæst** vs **Mirabelle Bakery**
+  - Reason: Coordinates Match (0m)
+- **Café Bopa** vs **Pixie**
+  - Reason: Coordinates Match (0m)
+- **Christiansborg Sarayı** vs **Slotskælderen hos Gitte Kik**
+  - Reason: Coordinates Match (41m)
+- **Granola** vs **Værnedamsvej**
+  - Reason: Coordinates Match (0m)
+- **H. Skjalm P.** vs **Hay House**
+  - Reason: Coordinates Match (35m)
+- **Hart Bageri** vs **Tommi's Burger Joint**
+  - Reason: Coordinates Match (37m)
+- **Hay House** vs **Illums Bolighus**
+  - Reason: Coordinates Match (31m)
+- **Hija de Sanchez** vs **Torvehallerne**
+  - Reason: Coordinates Match (22m)
+- **Jolene** vs **Kødbyen**
+  - Reason: Coordinates Match (0m)
+- **Jægersborggade** vs **Silberbauers Bistro**
+  - Reason: Coordinates Match (0m)
+- **Lille Petra** vs **Restaurant Palægade**
+  - Reason: Coordinates Match (0m)
+- **Magstræde** vs **Restaurant Kronborg**
+  - Reason: Coordinates Match (0m)
+- **Nikolaj Kunsthal** vs **Original Coffee Illum**
+  - Reason: Coordinates Match (0m)
+- **Olufs Is** vs **Olufsvej**
+  - Reason: Coordinates Match (0m)
+
+## Kotor (kotor.json)
+- **Al Posto Giusto** vs **Buddha-Bar Beach**
+  - Reason: Coordinates Match (41m)
+- **Al Posto Giusto** vs **Porto Montenegro**
+  - Reason: Coordinates Match (27m)
+- **Antique Shops** vs **Cinema Square**
+  - Reason: Coordinates Match (27m)
+- **Antique Shops** vs **Grgurina Palace**
+  - Reason: Coordinates Match (33m)
+- **Antique Shops** vs **Karampana Well**
+  - Reason: Coordinates Match (13m)
+- **Antique Shops** vs **Maritime Museum**
+  - Reason: Coordinates Match (27m)
+- **Antique Shops** vs **Napoleon Tiyatrosu**
+  - Reason: Coordinates Match (27m)
+- **Antique Shops** vs **Pima Palace**
+  - Reason: Coordinates Match (16m)
+- **Antique Shops** vs **Pima Sarayı**
+  - Reason: Coordinates Match (39m)
+- **Astoria Restaurant** vs **Plaza of Arms**
+  - Reason: Coordinates Match (46m)
+- **Bandiera** vs **Kayak Turu**
+  - Reason: Coordinates Match (22m)
+- **Bandiera** vs **Main Gate (Sea Gate)**
+  - Reason: Coordinates Match (22m)
+- **Banja Monastery** vs **Banjo Monastery**
+  - Reason: Fuzzy Name Match (0.93)
+- **Bastion** vs **Salad Square**
+  - Reason: Coordinates Match (37m)
+- **Beskuca Palace** vs **Bokun Wine Bar**
+  - Reason: Coordinates Match (11m)
+- **Beskuca Palace** vs **Buca Palace**
+  - Reason: Coordinates Match (22m)
+- **Beskuca Palace** vs **Cat Feeding Tour**
+  - Reason: Coordinates Match (24m)
+- **Beskuca Palace** vs **Cesarica**
+  - Reason: Coordinates Match (41m)
+- **Beskuca Palace** vs **Flour Square**
+  - Reason: Coordinates Match (13m)
+- **Beskuca Palace** vs **Kotor Old Town**
+  - Reason: Coordinates Match (24m)
+- **Beskuca Palace** vs **Maritime Museum**
+  - Reason: Coordinates Match (37m)
+- **Beskuca Palace** vs **Pima Sarayı**
+  - Reason: Coordinates Match (33m)
+- **Beskuca Palace** vs **Saat Kulesi (Clock Tower)**
+  - Reason: Coordinates Match (42m)
+- **Bokun Wine Bar** vs **Buca Palace**
+  - Reason: Coordinates Match (11m)
+- **Bokun Wine Bar** vs **Cat Feeding Tour**
+  - Reason: Coordinates Match (27m)
+- **Bokun Wine Bar** vs **Flour Square**
+  - Reason: Coordinates Match (8m)
+- **Bokun Wine Bar** vs **Kotor Old Town**
+  - Reason: Coordinates Match (27m)
+- **Bokun Wine Bar** vs **Maritime Museum**
+  - Reason: Coordinates Match (47m)
+- **Bokun Wine Bar** vs **Pima Sarayı**
+  - Reason: Coordinates Match (44m)
+- **Bokun Wine Bar** vs **Saat Kulesi (Clock Tower)**
+  - Reason: Coordinates Match (46m)
+- **Buca Palace** vs **Cat Feeding Tour**
+  - Reason: Coordinates Match (33m)
+- **Buca Palace** vs **Drago Palace**
+  - Reason: Coordinates Match (46m)
+- **Buca Palace** vs **Flour Square**
+  - Reason: Coordinates Match (13m)
+- **Buca Palace** vs **Kotor Old Town**
+  - Reason: Coordinates Match (33m)
+- **Cat Feeding Tour** vs **Cesarica**
+  - Reason: Coordinates Match (33m)
+- **Cat Feeding Tour** vs **Flour Square**
+  - Reason: Coordinates Match (34m)
+- **Cat Feeding Tour** vs **Forza Cafe**
+  - Reason: Coordinates Match (41m)
+- **Cat Feeding Tour** vs **Kotor Old Town**
+  - Reason: Coordinates Match (0m)
+- **Cat Feeding Tour** vs **Ladovina**
+  - Reason: Coordinates Match (41m)
+- **Cat Feeding Tour** vs **Pima Sarayı**
+  - Reason: Coordinates Match (41m)
+- **Cat Feeding Tour** vs **Saat Kulesi (Clock Tower)**
+  - Reason: Coordinates Match (19m)
+- **Cathedral of Saint Tryphon** vs **Drago Palace**
+  - Reason: Coordinates Match (33m)
+- **Cathedral of Saint Tryphon** vs **Salad Square**
+  - Reason: Coordinates Match (24m)
+- **Catovica Mlini** vs **Restoran Catovica Mlini**
+  - Reason: Exact English Name Match
+- **Cats Museum** vs **City Pub**
+  - Reason: Coordinates Match (46m)
+- **Cats Museum** vs **Plaza of Arms**
+  - Reason: Coordinates Match (37m)
+- **Cesarica** vs **City Pub**
+  - Reason: Coordinates Match (22m)
+- **Cesarica** vs **Kotor Old Town**
+  - Reason: Coordinates Match (33m)
+- **Cesarica** vs **Maritime Museum**
+  - Reason: Coordinates Match (41m)
+- **Cesarica** vs **Pima Palace**
+  - Reason: Coordinates Match (46m)
+- **Cesarica** vs **Pima Sarayı**
+  - Reason: Coordinates Match (24m)
+- **Cesarica** vs **Saat Kulesi (Clock Tower)**
+  - Reason: Coordinates Match (27m)
+- **Cinema Square** vs **City Pub**
+  - Reason: Coordinates Match (46m)
+- **Cinema Square** vs **Karampana Well**
+  - Reason: Coordinates Match (41m)
+- **Cinema Square** vs **Maritime Museum**
+  - Reason: Coordinates Match (44m)
+- **Cinema Square** vs **Maximus**
+  - Reason: Coordinates Match (33m)
+- **Cinema Square** vs **Napoleon Tiyatrosu**
+  - Reason: Coordinates Match (0m)
+- **Cinema Square** vs **Pima Palace**
+  - Reason: Coordinates Match (22m)
+- **Cinema Square** vs **Pima Sarayı**
+  - Reason: Coordinates Match (47m)
+- **City Pub** vs **Maritime Museum**
+  - Reason: Coordinates Match (46m)
+- **City Pub** vs **Napoleon Tiyatrosu**
+  - Reason: Coordinates Match (46m)
+- **City Pub** vs **Pima Palace**
+  - Reason: Coordinates Match (41m)
+- **City Pub** vs **Pima Sarayı**
+  - Reason: Coordinates Match (33m)
+- **City Pub** vs **Saat Kulesi (Clock Tower)**
+  - Reason: Coordinates Match (47m)
+- **Conte Nautilus** vs **Perast**
+  - Reason: Coordinates Match (26m)
+- **Flour Square** vs **Kotor Old Town**
+  - Reason: Coordinates Match (34m)
+- **Flour Square** vs **Maritime Museum**
+  - Reason: Coordinates Match (45m)
+- **Flour Square** vs **Pima Sarayı**
+  - Reason: Coordinates Match (45m)
+- **Forza Cafe** vs **Karampana Meydanı**
+  - Reason: Coordinates Match (39m)
+- **Forza Cafe** vs **Konoba Scala Santa**
+  - Reason: Coordinates Match (27m)
+- **Forza Cafe** vs **Kotor Old Town**
+  - Reason: Coordinates Match (41m)
+- **Forza Cafe** vs **Ladovina**
+  - Reason: Coordinates Match (37m)
+- **Forza Cafe** vs **Saat Kulesi (Clock Tower)**
+  - Reason: Coordinates Match (45m)
+- **Grgurina Palace** vs **Karampana Well**
+  - Reason: Coordinates Match (19m)
+- **Grgurina Palace** vs **Maritime Museum**
+  - Reason: Coordinates Match (41m)
+- **Grgurina Palace** vs **O'Clock Coffee**
+  - Reason: Coordinates Match (33m)
+- **Grgurina Palace** vs **Pima Palace**
+  - Reason: Coordinates Match (46m)
+- **Jazz Club Evergreen** vs **Kotor Bazaar**
+  - Reason: Coordinates Match (41m)
+- **Jazz Club Evergreen** vs **Maximus**
+  - Reason: Coordinates Match (41m)
+- **Kampana Tower** vs **River Gate (North Gate)**
+  - Reason: Coordinates Match (33m)
+- **Karampana Meydanı** vs **Konoba Scala Santa**
+  - Reason: Coordinates Match (16m)
+- **Karampana Well** vs **Maritime Museum**
+  - Reason: Coordinates Match (27m)
+- **Karampana Well** vs **Napoleon Tiyatrosu**
+  - Reason: Coordinates Match (41m)
+- **Karampana Well** vs **O'Clock Coffee**
+  - Reason: Coordinates Match (47m)
+- **Karampana Well** vs **Pima Palace**
+  - Reason: Coordinates Match (27m)
+- **Karampana Well** vs **Pima Sarayı**
+  - Reason: Coordinates Match (42m)
+- **Kayak Turu** vs **Main Gate (Sea Gate)**
+  - Reason: Coordinates Match (0m)
+- **Konoba Trpeza** vs **Kotor Bazaar**
+  - Reason: Coordinates Match (33m)
+- **Kotor Old Town** vs **Ladovina**
+  - Reason: Coordinates Match (41m)
+- **Kotor Old Town** vs **Pima Sarayı**
+  - Reason: Coordinates Match (41m)
+- **Kotor Old Town** vs **Saat Kulesi (Clock Tower)**
+  - Reason: Coordinates Match (19m)
+- **Ladovina** vs **Old Winery**
+  - Reason: Coordinates Match (19m)
+- **Ladovina** vs **Saat Kulesi (Clock Tower)**
+  - Reason: Coordinates Match (27m)
+- **Lustica Bay** vs **Luštica Bay**
+  - Reason: Fuzzy Name Match (0.91)
+- **Maritime Museum** vs **Napoleon Tiyatrosu**
+  - Reason: Coordinates Match (44m)
+- **Maritime Museum** vs **Pima Palace**
+  - Reason: Coordinates Match (22m)
+- **Maritime Museum** vs **Pima Sarayı**
+  - Reason: Coordinates Match (16m)
+- **Maximus** vs **Napoleon Tiyatrosu**
+  - Reason: Coordinates Match (33m)
+- **Milk Square** vs **Plaza of Arms**
+  - Reason: Coordinates Match (41m)
+- **Murano Restaurant** vs **The Clubhouse**
+  - Reason: Coordinates Match (37m)
+- **Napoleon Tiyatrosu** vs **Pima Palace**
+  - Reason: Coordinates Match (22m)
+- **Napoleon Tiyatrosu** vs **Pima Sarayı**
+  - Reason: Coordinates Match (47m)
+- **Napoleon's Theater** vs **Napoleon's Theatre**
+  - Reason: Fuzzy Name Match (0.94)
+- **Napoleon's Theater** vs **Square of Arms**
+  - Reason: Coordinates Match (33m)
+- **Old Winery** vs **Saat Kulesi (Clock Tower)**
+  - Reason: Coordinates Match (41m)
+- **Old Winery** vs **Square of Arms**
+  - Reason: Coordinates Match (33m)
+- **Perast** vs **Perast Müzesi**
+  - Reason: Coordinates Match (27m)
+- **Pima Palace** vs **Pima Sarayı**
+  - Reason: Exact English Name Match + Coordinates Match
+- **Pima Sarayı** vs **Saat Kulesi (Clock Tower)**
+  - Reason: Coordinates Match (46m)
+- **Radoncic Palace** vs **Radonicich Palace**
+  - Reason: Fuzzy Name Match (0.94)
+- **Restoran Catovica Mlini** vs **Tramontana Beach Bar**
+  - Reason: Coordinates Match (0m)
+
+## Lizbon (lizbon.json)
+- **A Ginjinha** vs **Ginjinha**
+  - Reason: Fuzzy Name Match (0.89)
+- **A Nossa Casa** vs **Jimmy's bar # 1**
+  - Reason: Coordinates Match (45m)
+- **A Vida Portuguesa** vs **Cantina Do Bairro Alto - Tapas & Bar**
+  - Reason: Coordinates Match (44m)
+- **A Vida Portuguesa** vs **Manteigaria**
+  - Reason: Coordinates Match (38m)
+- **A Vida Portuguesa** vs **O Trevo**
+  - Reason: Coordinates Match (47m)
+- **Agave Cocktail Lab** vs **Bico Cultura do Vinho | Wine Bar Lisbon**
+  - Reason: Coordinates Match (25m)
+- **Agência bar** vs **Oh! Sweet**
+  - Reason: Coordinates Match (46m)
+- **Agência bar** vs **Uva Livre**
+  - Reason: Coordinates Match (30m)
+- **Belém Kulesi** vs **Belém Tower**
+  - Reason: Coordinates Match (2m)
+- **Bonjardim** vs **Casa do Alentejo**
+  - Reason: Coordinates Match (38m)
+- **Bubbles** vs **Tanoa Café**
+  - Reason: Coordinates Match (15m)
+- **Bubbles** vs **Tasca Mastai**
+  - Reason: Coordinates Match (40m)
+- **Cantina Do Bairro Alto - Tapas & Bar** vs **Manteigaria**
+  - Reason: Coordinates Match (42m)
+- **Carmo Convent** vs **Convento do Carmo**
+  - Reason: Coordinates Match (20m)
+- **Carmo Convent** vs **Häagen-Dazs**
+  - Reason: Coordinates Match (49m)
+- **Castelo de S. Jorge** vs **Castelo de São Jorge**
+  - Reason: Coordinates Match (10m)
+- **Conserveira de Lisboa** vs **da Prata 52**
+  - Reason: Coordinates Match (40m)
+- **Elevador de Santa Justa** vs **Santa Justa Lift**
+  - Reason: Coordinates Match (11m)
+- **Embaixada** vs **Príncipe Real**
+  - Reason: Coordinates Match (42m)
+- **Espresso arte - Lisbon Caffé** vs **Illy espresso White Lady Coffee Alfama**
+  - Reason: Coordinates Match (3m)
+- **Espresso arte - Lisbon Caffé** vs **The Coffee**
+  - Reason: Coordinates Match (9m)
+- **Frade dos Mares** vs **Liberty: brunch, coffee & books**
+  - Reason: Coordinates Match (42m)
+- **Gal Café - Vegan Food & Specialty Coffee** vs **Taiyaki Café 台之燒 - Taiwanese wheel cake, tea & coffee**
+  - Reason: Coordinates Match (19m)
+- **Häagen-Dazs** vs **The Secret Poets Society**
+  - Reason: Coordinates Match (43m)
+- **Illy espresso White Lady Coffee Alfama** vs **The Coffee**
+  - Reason: Coordinates Match (11m)
+- **Jay'z Bar @ Bairro Alto** vs **Jimmy's bar # 1**
+  - Reason: Coordinates Match (43m)
+- **Jerónimos Manastırı** vs **Jerónimos Monastery**
+  - Reason: Coordinates Match (8m)
+- **LX Factory** vs **Ler Devagar**
+  - Reason: Coordinates Match (22m)
+- **Madame Bacchus** vs **Maria Palato - Wine Bar**
+  - Reason: Coordinates Match (49m)
+- **Nova Wine Bar** vs **O Cerveirense - a popular local seafood restaurant in Lisbon**
+  - Reason: Coordinates Match (21m)
+- **Pasteis de Belem** vs **Pastéis de Belém**
+  - Reason: Coordinates Match (6m)
+- **Pata Gastrobar** vs **Quattro Teste**
+  - Reason: Coordinates Match (26m)
+- **Pena Palace** vs **Sintra**
+  - Reason: Coordinates Match (46m)
+- **QG Atelier bar** vs **Wel Well**
+  - Reason: Coordinates Match (17m)
+- **SUNNY Kitchen & Coffee** vs **Taverna das Marias**
+  - Reason: Coordinates Match (11m)
+- **Tanoa Café** vs **Tasca Mastai**
+  - Reason: Coordinates Match (25m)
+- **Tejo Bar** vs **doVigário PubandRecords**
+  - Reason: Coordinates Match (44m)
+
+## Londra (londra.json)
+- **Alex Coffee** vs **Broken Eggs**
+  - Reason: Coordinates Match (18m)
+- **Baaria - Italian Café, Wine and Cocktail Bar** vs **Le Beaujolais**
+  - Reason: Coordinates Match (20m)
+- **Bantof** vs **Blacklock Soho**
+  - Reason: Coordinates Match (20m)
+- **Bantof** vs **Hideaway Coffee House**
+  - Reason: Coordinates Match (46m)
+- **Bantof** vs **The Thin White Duke**
+  - Reason: Coordinates Match (17m)
+- **Beigel Bake** vs **The Cocktail Trading Co. | Shoreditch**
+  - Reason: Coordinates Match (45m)
+- **Blacklock Soho** vs **The Thin White Duke**
+  - Reason: Coordinates Match (22m)
+- **British Museum** vs **The British Museum**
+  - Reason: Coordinates Match (0m)
+- **Café Vins** vs **Carnaby Street**
+  - Reason: Coordinates Match (18m)
+- **Café Vins** vs **El Pollote - Carnaby**
+  - Reason: Coordinates Match (36m)
+- **Carnaby Street** vs **El Pollote - Carnaby**
+  - Reason: Coordinates Match (18m)
+- **Chill House Coffee Shop** vs **Noble Rot Mayfair**
+  - Reason: Coordinates Match (35m)
+- **Covent Garden** vs **West End & Covent Garden**
+  - Reason: Coordinates Match (41m)
+- **Duck & Waffle** vs **SAMBA ROOM**
+  - Reason: Coordinates Match (17m)
+- **Fatt Pundit** vs **The Breakfast Club**
+  - Reason: Coordinates Match (48m)
+- **Hyde Park** vs **Hyde Park Winter Wonderland**
+  - Reason: Coordinates Match (0m)
+- **Kew Gardens** vs **Royal Botanic Gardens, Kew**
+  - Reason: Coordinates Match (6m)
+- **Le Magritte Bar** vs **Mercato Mayfair**
+  - Reason: Coordinates Match (47m)
+- **Leadenhall Market** vs **Rosslyn Coffee Leadenhall Market**
+  - Reason: Coordinates Match (45m)
+- **Mallow Borough Market** vs **Salt Yard Borough**
+  - Reason: Coordinates Match (27m)
+- **Monmouth Coffee Company** vs **Neal's Yard**
+  - Reason: Coordinates Match (33m)
+- **OMA** vs **Padella**
+  - Reason: Coordinates Match (20m)
+- **Old Spitalfields Market** vs **Spitalfields Market**
+  - Reason: Fuzzy Name Match (0.90)
+- **Rosslyn Coffee Queen Victoria Street** vs **The Cocktail Club - Cocktail Bar near Mansion House**
+  - Reason: Coordinates Match (7m)
+- **Scarlett Green** vs **Simmons Bar**
+  - Reason: Coordinates Match (42m)
+- **St Paul's Cathedral** vs **St. Paul's Cathedral**
+  - Reason: Coordinates Match (6m)
+- **The Beauchamp** vs **VATAVARAN**
+  - Reason: Coordinates Match (24m)
+- **The Little Blue Door** vs **The Little Violet Door**
+  - Reason: Fuzzy Name Match (0.86)
+- **V&A Museum** vs **Victoria and Albert Museum**
+  - Reason: Coordinates Match (4m)
+
+## Lucerne (lucerne.json)
+- **Alfred Take Away** vs **Parterre**
+  - Reason: Coordinates Match (42m)
+- **Alpineum Kaffeehaus°Bar** vs **Glacier Garden (Gletschergarten)**
+  - Reason: Coordinates Match (35m)
+- **Alpineum Kaffeehaus°Bar** vs **Lion Monument (Löwendenkmal)**
+  - Reason: Coordinates Match (35m)
+- **Ampersand** vs **La Gazzetta**
+  - Reason: Coordinates Match (29m)
+- **Ampersand** vs **Matrix**
+  - Reason: Coordinates Match (40m)
+- **Aux Merveilleux de Fred** vs **Kornmarkt Lucerne**
+  - Reason: Coordinates Match (35m)
+- **Aux Merveilleux de Fred** vs **Old Town Squares**
+  - Reason: Coordinates Match (35m)
+- **Aux Merveilleux de Fred** vs **ROKKA Café I Bar I Fusion Food**
+  - Reason: Coordinates Match (44m)
+- **Aux Merveilleux de Fred** vs **SiP Café**
+  - Reason: Coordinates Match (49m)
+- **Aux Merveilleux de Fred** vs **Storchen**
+  - Reason: Coordinates Match (22m)
+- **BAYTS GmbH** vs **GARDIST Weinbar**
+  - Reason: Coordinates Match (36m)
+- **Babalas Bar** vs **Bourbaki Panorama**
+  - Reason: Coordinates Match (35m)
+- **Bachmann** vs **Schwanenplatz**
+  - Reason: Coordinates Match (0m)
+- **Banh Mi Pho Luzern** vs **Bierliebe & Friends**
+  - Reason: Coordinates Match (19m)
+- **Banh Mi Pho Luzern** vs **Hotel Pickwick Luzern**
+  - Reason: Coordinates Match (36m)
+- **Banh Mi Pho Luzern** vs **Mr. Pickwick Pub Luzern**
+  - Reason: Coordinates Match (39m)
+- **Banh Mi Pho Luzern** vs **PURA PASTA**
+  - Reason: Coordinates Match (25m)
+- **Bar 58** vs **Die Kneipe**
+  - Reason: Coordinates Match (7m)
+- **Bar Berlin** vs **Helen Eritrean Lounge & Restaurant**
+  - Reason: Coordinates Match (22m)
+- **Bar Capitol** vs **Bolero**
+  - Reason: Coordinates Match (38m)
+- **Bar León** vs **Raedwulf Pub**
+  - Reason: Coordinates Match (20m)
+- **Bierliebe & Friends** vs **Hotel Pickwick Luzern**
+  - Reason: Coordinates Match (34m)
+- **Bierliebe & Friends** vs **Mr. Pickwick Pub Luzern**
+  - Reason: Coordinates Match (34m)
+- **Bierliebe & Friends** vs **PURA PASTA**
+  - Reason: Coordinates Match (32m)
+- **Bistro Krienbrüggli** vs **Old City Take Away**
+  - Reason: Coordinates Match (40m)
+- **Bistro Krienbrüggli** vs **Wirtshaus Taube Luzern**
+  - Reason: Coordinates Match (32m)
+- **Blue Bar & Smokers Lounge** vs **Confiserie Bachmann Kantonalbank**
+  - Reason: Coordinates Match (45m)
+- **Blue Bar & Smokers Lounge** vs **Raviolibar**
+  - Reason: Coordinates Match (43m)
+- **Blue Bar & Smokers Lounge** vs **la vie en rose**
+  - Reason: Coordinates Match (35m)
+- **Bombay Alley – Indian Street Food** vs **FED Restaurant & Bar**
+  - Reason: Coordinates Match (42m)
+- **Buergenstock Resort** vs **Bürgenstock Resort**
+  - Reason: Fuzzy Name Match (0.92)
+- **Bäckerei Macchi** vs **Restaurant Maihöfli » Fleisch | Vegan | Fisch | Vegetarisch**
+  - Reason: Coordinates Match (30m)
+- **Bäckerei Moos** vs **Jesuitenplatz**
+  - Reason: Coordinates Match (48m)
+- **Café Tacuba Neustadt** vs **L'arbre Luzern**
+  - Reason: Coordinates Match (38m)
+- **Café Tacuba Neustadt** vs **La Gazzetta**
+  - Reason: Coordinates Match (49m)
+- **Café Tacuba Neustadt** vs **Matrix**
+  - Reason: Coordinates Match (20m)
+- **Confiserie Bachmann Kantonalbank** vs **Taburettli**
+  - Reason: Coordinates Match (36m)
+- **Confiserie Bachmann Kantonalbank** vs **db public house**
+  - Reason: Coordinates Match (46m)
+- **Confiserie Bachmann Kantonalbank** vs **la vie en rose**
+  - Reason: Coordinates Match (37m)
+- **Confiseur Bachmann AG - Rössligasse** vs **ROKKA Café I Bar I Fusion Food**
+  - Reason: Coordinates Match (42m)
+- **Confiseur Bachmann AG - Rössligasse** vs **SiP Café**
+  - Reason: Coordinates Match (32m)
+- **Dal Mattino** vs **KASPAR**
+  - Reason: Coordinates Match (33m)
+- **Das weisse Schaf** vs **Restaurant Gleis 1 - Luzern Bahnhof**
+  - Reason: Coordinates Match (30m)
+- **Das weisse Schaf** vs **Suite Rooftop Lounge & Bar**
+  - Reason: Coordinates Match (35m)
+- **Down Town** vs **Lucky Cat - Bubble Tea & Taiyaki in Luzern**
+  - Reason: Coordinates Match (14m)
+- **Down Town** vs **Restaurant Bündnerland Luzern**
+  - Reason: Coordinates Match (13m)
+- **Down Town** vs **magdi beiz & bar**
+  - Reason: Coordinates Match (19m)
+- **Four Hundred (MG) Max Chocolatier** vs **Max Chocolatier Boutique Luzern**
+  - Reason: Coordinates Match (0m)
+- **Gelateria Bakery at the Quai** vs **Schiffrestaurant Wilhelm Tell**
+  - Reason: Coordinates Match (36m)
+- **Glacier Garden (Gletschergarten)** vs **Lion Monument (Löwendenkmal)**
+  - Reason: Coordinates Match (0m)
+- **Historisches Museum** vs **Mill'Feu**
+  - Reason: Coordinates Match (0m)
+- **Hofgarten** vs **Thai Frosch**
+  - Reason: Coordinates Match (40m)
+- **Hofkirche St. Leodegar** vs **Vesper**
+  - Reason: Coordinates Match (39m)
+- **Hofkirche St. Leodegar** vs **Äss-Bar**
+  - Reason: Coordinates Match (25m)
+- **Hotel Pickwick Luzern** vs **Mr. Pickwick Pub Luzern**
+  - Reason: Coordinates Match (4m)
+- **Hotel Pickwick Luzern** vs **PURA PASTA**
+  - Reason: Coordinates Match (18m)
+- **Hotel des Balances** vs **Tiglio Osteria**
+  - Reason: Coordinates Match (15m)
+- **Jesuit Church** vs **Liebenau • Bar • Fein • Wein**
+  - Reason: Coordinates Match (4m)
+- **Jesuit Church** vs **tschuppi's wonderbar**
+  - Reason: Coordinates Match (25m)
+- **KASPAR** vs **Moderne Bar & Karussell**
+  - Reason: Coordinates Match (24m)
+- **KASPAR** vs **Raviolibar**
+  - Reason: Coordinates Match (41m)
+- **Kornmarkt Lucerne** vs **Old Town Squares**
+  - Reason: Coordinates Match (0m)
+- **Kornmarkt Lucerne** vs **ROKKA Café I Bar I Fusion Food**
+  - Reason: Coordinates Match (39m)
+- **Kornmarkt Lucerne** vs **SiP Café**
+  - Reason: Coordinates Match (24m)
+- **Kornmarkt Lucerne** vs **Tiglio Osteria**
+  - Reason: Coordinates Match (42m)
+- **Kuchenhaus Annamelie** vs **Thai Frosch**
+  - Reason: Coordinates Match (44m)
+- **La Gazzetta** vs **Matrix**
+  - Reason: Coordinates Match (29m)
+- **Liebenau • Bar • Fein • Wein** vs **tschuppi's wonderbar**
+  - Reason: Coordinates Match (29m)
+- **Lucky Cat - Bubble Tea & Taiyaki in Luzern** vs **Restaurant Bündnerland Luzern**
+  - Reason: Coordinates Match (25m)
+- **Lucky Cat - Bubble Tea & Taiyaki in Luzern** vs **magdi beiz & bar**
+  - Reason: Coordinates Match (6m)
+- **Moderne Bar & Karussell** vs **Raviolibar**
+  - Reason: Coordinates Match (48m)
+- **Mr. Pickwick Pub Luzern** vs **PURA PASTA**
+  - Reason: Coordinates Match (22m)
+- **Nachbar** vs **Restaurant Weisses Schloss**
+  - Reason: Coordinates Match (11m)
+- **Natur-Museum Luzern** vs **Old City Take Away**
+  - Reason: Coordinates Match (39m)
+- **Old Town Squares** vs **ROKKA Café I Bar I Fusion Food**
+  - Reason: Coordinates Match (39m)
+- **Old Town Squares** vs **SiP Café**
+  - Reason: Coordinates Match (24m)
+- **Old Town Squares** vs **Tiglio Osteria**
+  - Reason: Coordinates Match (42m)
+- **ROKKA Café I Bar I Fusion Food** vs **SiP Café**
+  - Reason: Coordinates Match (24m)
+- **Raedwulf Pub** vs **tschuppi's wonderbar**
+  - Reason: Coordinates Match (46m)
+- **Raviolibar** vs **la vie en rose**
+  - Reason: Coordinates Match (13m)
+- **Restaurant Bündnerland Luzern** vs **magdi beiz & bar**
+  - Reason: Coordinates Match (31m)
+- **Restaurant Gleis 1 - Luzern Bahnhof** vs **Vögeligärtli**
+  - Reason: Coordinates Match (42m)
+- **SiP Café** vs **Tiglio Osteria**
+  - Reason: Coordinates Match (42m)
+- **Vesper** vs **Äss-Bar**
+  - Reason: Coordinates Match (21m)
+- **Vögeligärtli** vs **Zentralbar**
+  - Reason: Coordinates Match (29m)
+
+## Lyon (lyon.json)
+- **ART Restaurant Lyon** vs **Astral Restaurant Lyon**
+  - Reason: Fuzzy Name Match (0.88)
+- **Amphithéâtre des Trois Gaules** vs **FIKA ROASTERS**
+  - Reason: Coordinates Match (37m)
+- **Amphithéâtre des Trois Gaules** vs **Fika Lyon**
+  - Reason: Coordinates Match (38m)
+- **Astral Restaurant Lyon** vs **The Phantom of the Opera**
+  - Reason: Coordinates Match (18m)
+- **BAR DE BON-SECOURS** vs **Musée Gadagne**
+  - Reason: Coordinates Match (15m)
+- **Basilica of Notre-Dame de Fourvière** vs **Basilique Notre-Dame de Fourvière**
+  - Reason: Coordinates Match (40m)
+- **Bis'Corner** vs **Boulangerie Saint Paul | Lyon**
+  - Reason: Coordinates Match (43m)
+- **Bis'Corner** vs **Söma**
+  - Reason: Coordinates Match (40m)
+- **Bouchon Daniel & Denise** vs **Palais de la Bourse**
+  - Reason: Coordinates Match (23m)
+- **Bouchon Tupin** vs **Pompette**
+  - Reason: Coordinates Match (19m)
+- **Boulangerie Saint Paul | Lyon** vs **Mill Factory café - Pâtisseries/Torréfacteur/coffeeshop/Cantine/Brunch**
+  - Reason: Coordinates Match (18m)
+- **Boulangerie Saint Paul | Lyon** vs **Söma**
+  - Reason: Coordinates Match (8m)
+- **Boulangerie du Palais (Praline)** vs **Musée Cinéma et Miniature**
+  - Reason: Coordinates Match (38m)
+- **CAVE ROOSEVELT** vs **GRANIT Bar à Vins**
+  - Reason: Coordinates Match (12m)
+- **Café Joyeux** vs **François Pralus - Lyon Presqu'île**
+  - Reason: Coordinates Match (33m)
+- **Canaima Restaurant** vs **Eglise Saint-Polycarpe**
+  - Reason: Coordinates Match (43m)
+- **Canaima Restaurant** vs **Kachka**
+  - Reason: Coordinates Match (28m)
+- **Carmelo** vs **Soul brothers**
+  - Reason: Coordinates Match (12m)
+- **Celsius Roasters** vs **Kafé Stockholm**
+  - Reason: Coordinates Match (41m)
+- **Celsius Roasters** vs **La Beer Fabrique - Atelier bière et microbrasserie**
+  - Reason: Coordinates Match (32m)
+- **Contrast.** vs **Cuisiné Sensée et Inspirée**
+  - Reason: Coordinates Match (21m)
+- **Croix-Rousse** vs **Dr Yeast**
+  - Reason: Coordinates Match (7m)
+- **Duclef Café Pâtisserie** vs **Le Bœuf d'Argent**
+  - Reason: Coordinates Match (37m)
+- **Duclef Café Pâtisserie** vs **Ô Passage**
+  - Reason: Coordinates Match (49m)
+- **ESPERANTO LYON 2 - Tapas Restaurant - Cocktails & Wine** vs **ESPERANTO LYON 6 - Tapas Restaurant - Cocktails & Wine -**
+  - Reason: Fuzzy Name Match (0.96)
+- **ESPERANTO LYON 2 - Tapas Restaurant - Cocktails & Wine** vs **François Pralus - Lyon Presqu'île**
+  - Reason: Coordinates Match (29m)
+- **FIKA ROASTERS** vs **Fika Lyon**
+  - Reason: Coordinates Match (2m)
+- **Fresque des Lyonnais** vs **La Bouteillerie**
+  - Reason: Coordinates Match (25m)
+- **Fresque des Lyonnais** vs **La Fresque des Lyonnais**
+  - Reason: Fuzzy Name Match (0.93)
+- **Kafé Stockholm** vs **La Beer Fabrique - Atelier bière et microbrasserie**
+  - Reason: Coordinates Match (9m)
+- **L Bar food & drink** vs **Maison Moly**
+  - Reason: Coordinates Match (44m)
+- **L'Atelier des Augustins** vs **Passerelle Saint-Vincent**
+  - Reason: Coordinates Match (31m)
+- **LE BIG LYON "l'officiel"** vs **Saint-Antoine (Gastronomi Yürüyüşü)**
+  - Reason: Coordinates Match (42m)
+- **La Clef de Voûte** vs **Repère(s)**
+  - Reason: Coordinates Match (31m)
+- **Le Bœuf d'Argent** vs **Ô Passage**
+  - Reason: Coordinates Match (17m)
+- **Le Mur des Canuts** vs **Mur des Canuts**
+  - Reason: Fuzzy Name Match (0.90)
+- **Le PoliGone** vs **Monsieur P**
+  - Reason: Coordinates Match (32m)
+- **Le PoliGone** vs **Théâtre des Célestins**
+  - Reason: Coordinates Match (44m)
+- **Lyon Opera House (Opéra Nouvel)** vs **Opéra de Lyon**
+  - Reason: Coordinates Match (40m)
+- **Marché Saint-Antoine** vs **Saint-Antoine (Gastronomi Yürüyüşü)**
+  - Reason: Coordinates Match (32m)
+- **Mill Factory café - Pâtisseries/Torréfacteur/coffeeshop/Cantine/Brunch** vs **Söma**
+  - Reason: Coordinates Match (23m)
+- **Monsieur P** vs **Théâtre des Célestins**
+  - Reason: Coordinates Match (23m)
+- **Musée des Beaux-Arts** vs **Place des Terreaux**
+  - Reason: Coordinates Match (0m)
+- **My Little Babka** vs **Soif !**
+  - Reason: Coordinates Match (27m)
+- **My Little Babka** vs **Équilibres Café**
+  - Reason: Coordinates Match (31m)
+- **Place Sathonay** vs **UFO - Restaurant (brunch - café - cocktails - restaurant - studio)**
+  - Reason: Coordinates Match (21m)
+- **Pélican - Lyon - cocktails & tapas** vs **Soif !**
+  - Reason: Coordinates Match (41m)
+- **Pélican - Lyon - cocktails & tapas** vs **Équilibres Café**
+  - Reason: Coordinates Match (38m)
+- **Pépée Pia** vs **Restaurant Rustique* - Lyon**
+  - Reason: Coordinates Match (23m)
+- **Soif !** vs **Équilibres Café**
+  - Reason: Coordinates Match (5m)
+- **Théâtre Antique (Manzara)** vs **Théâtre Antique de Lyon**
+  - Reason: Coordinates Match (32m)
+- **Traboule du Boeuf** vs **Ô Passage**
+  - Reason: Coordinates Match (43m)
+
+## Madrid (madrid.json)
+- **Alchemist 1967** vs **Delito Madrid**
+  - Reason: Coordinates Match (25m)
+- **Artemisa Moulin Lounge | Restaurante con espectáculo Madrid** vs **Calle 365 l Discoteca Madrid**
+  - Reason: Coordinates Match (25m)
+- **Artemisa Moulin Lounge | Restaurante con espectáculo Madrid** vs **Lovo Cocktail Bar Madrid**
+  - Reason: Coordinates Match (48m)
+- **BARGANZO** vs **Chueca**
+  - Reason: Coordinates Match (43m)
+- **BUNA SPECIALTY COFFEE** vs **NAJI SPECIALTY COFFEE**
+  - Reason: Fuzzy Name Match (0.90)
+- **Barrio de las Letras** vs **Fat Cats Cocktail House**
+  - Reason: Coordinates Match (27m)
+- **Botequim Brunch & Tapas Bar** vs **Casa Botella**
+  - Reason: Coordinates Match (19m)
+- **Calle 365 l Discoteca Madrid** vs **Lovo Cocktail Bar Madrid**
+  - Reason: Coordinates Match (23m)
+- **Calle de Fuencarral** vs **La Dulcería Café |Tartas de Queso Artesanas|Specialty Cheesecakes. Desserts-Postres**
+  - Reason: Coordinates Match (15m)
+- **Cava Baja (Tapas Sokağı)** vs **Plaza del Humilladero**
+  - Reason: Coordinates Match (20m)
+- **Dumpling House, Restaurante de empanadillas chinas** vs **Sole Mio | Specialty Coffee**
+  - Reason: Coordinates Match (42m)
+- **Dumpling House, Restaurante de empanadillas chinas** vs **TastyCakes**
+  - Reason: Coordinates Match (0m)
+- **El Columpio Bar** vs **Funambulista Bar**
+  - Reason: Coordinates Match (18m)
+- **El Columpio Bar** vs **MARCELLE**
+  - Reason: Coordinates Match (42m)
+- **El Columpio Bar** vs **Moratin**
+  - Reason: Coordinates Match (38m)
+- **Estadio Santiago Bernabéu** vs **Santiago Bernabéu**
+  - Reason: Coordinates Match (27m)
+- **Industria Bar** vs **The Pubcrawl Company Madrid**
+  - Reason: Coordinates Match (41m)
+- **KLARE SPECIALTY COFFEE & BRUNCH** vs **Muá! Specialty Coffee & Brunch**
+  - Reason: Fuzzy Name Match (0.85)
+- **KLARE SPECIALTY COFFEE & BRUNCH** vs **Pascal Specialty Coffee & Brunch**
+  - Reason: Fuzzy Name Match (0.86)
+- **Kkori Korean Cakery & Specialty Coffee** vs **Vino & Compañía**
+  - Reason: Coordinates Match (31m)
+- **La Cucharona - Comida casera para llevar** vs **Plaza de Olavide**
+  - Reason: Coordinates Match (46m)
+- **La Mallorquina** vs **Puerta del Sol**
+  - Reason: Coordinates Match (43m)
+- **La Produ Natural Wines - Vinos Naturales** vs **chök - Chueca | Pastelería sin gluten Madrid**
+  - Reason: Coordinates Match (37m)
+- **MARCELLE** vs **Moratin**
+  - Reason: Coordinates Match (22m)
+- **Mercado de Motores** vs **Museo del Ferrocarril**
+  - Reason: Coordinates Match (0m)
+- **Museo del Prado** vs **Prado Müzesi**
+  - Reason: Coordinates Match (0m)
+- **Plaza del Dos de Mayo** vs **Salty Dog Madrid**
+  - Reason: Coordinates Match (9m)
+- **Restaurante Argentino Madrid Lost Grill I Steakhouse I** vs **chök - Chueca | Pastelería sin gluten Madrid**
+  - Reason: Coordinates Match (21m)
+- **Sole Mio | Specialty Coffee** vs **TastyCakes**
+  - Reason: Coordinates Match (42m)
+
+## Marakeş (marakes.json)
+- **Almoravid Koubba** vs **Ben Youssef Medersa**
+  - Reason: Coordinates Match (48m)
+- **Anzar** vs **Chez Bismilah SAND Coffee**
+  - Reason: Coordinates Match (24m)
+- **Anzar** vs **Moroccan Teahouse Restaurant - 1112 Marrakech**
+  - Reason: Coordinates Match (34m)
+- **Anzar** vs **la Joie**
+  - Reason: Coordinates Match (25m)
+- **Arroz Bar Restaurant** vs **BAROMETRE MARRAKECH**
+  - Reason: Coordinates Match (22m)
+- **Atay Cafe** vs **Ben Youssef Medersa**
+  - Reason: Coordinates Match (48m)
+- **Atay Cafe** vs **Marrakech Museum**
+  - Reason: Coordinates Match (28m)
+- **Atay Cafe** vs **Moroccan Teahouse Restaurant - 1112 Marrakech**
+  - Reason: Coordinates Match (34m)
+- **Back to the 80's Marrakech** vs **Cantobar**
+  - Reason: Coordinates Match (45m)
+- **Ben Jamil (Lebanese)** vs **Wafflez By Sophie**
+  - Reason: Coordinates Match (10m)
+- **Ben Youssef Madrasa** vs **Ben Youssef Medersa**
+  - Reason: Fuzzy Name Match (0.89)
+- **Cafe des Epices** vs **Café des Épices**
+  - Reason: Fuzzy Name Match (0.87)
+- **Café Carmel Marrakech** vs **Gelateria Da Vinci**
+  - Reason: Coordinates Match (18m)
+- **Café des Épices** vs **Rahba Kedima Square (Spice Square)**
+  - Reason: Coordinates Match (0m)
+- **Calle Ocho Marrakech** vs **L'auberge Espagnole**
+  - Reason: Coordinates Match (22m)
+- **Chez Bismilah SAND Coffee** vs **la Joie**
+  - Reason: Coordinates Match (0m)
+- **Chez Madame Khadija** vs **Gazélia pâtisserie**
+  - Reason: Coordinates Match (14m)
+- **Cocktail Bar & Jazz Club, Marrakech** vs **La Pergola & Le bistro Arabe**
+  - Reason: Coordinates Match (5m)
+- **Cocktail Bar & Jazz Club, Marrakech** vs **Le Bistro Arabe - Moroccan Jazz Restaurant in Marrakech**
+  - Reason: Coordinates Match (4m)
+- **Coffee Houmti ️ قهوة حومتي** vs **Mokhtar Resto Imo**
+  - Reason: Coordinates Match (37m)
+- **Drywich crepes** vs **Zouhal Food**
+  - Reason: Coordinates Match (49m)
+- **El Badi Palace** vs **Rooftop Restaurant Koulchi Zine**
+  - Reason: Coordinates Match (22m)
+- **Good vibes Coffee shop** vs **Table Des Délices Marrakech**
+  - Reason: Coordinates Match (37m)
+- **Gueliz (Yeni Şehir)** vs **Terra mia café**
+  - Reason: Coordinates Match (6m)
+- **Hyuna House Cafe** vs **Le Jardin Restaurant**
+  - Reason: Coordinates Match (43m)
+- **Jemaa el-Fna** vs **Jemaa el-Fnaa**
+  - Reason: Fuzzy Name Match (0.96)
+- **Kesh cup Marrakech** vs **Secret Garden**
+  - Reason: Coordinates Match (44m)
+- **Kesh cup Marrakech** vs **Sweet & Sook - Glacier à L'orientale - Mouassine**
+  - Reason: Coordinates Match (37m)
+- **Kesh cup Marrakech** vs **Terrasse des épices**
+  - Reason: Coordinates Match (41m)
+- **Kosy Kawa** vs **Kosybar rooftop Marrakesh**
+  - Reason: Coordinates Match (10m)
+- **Kosy Kawa** vs **Tinsmiths Square**
+  - Reason: Coordinates Match (38m)
+- **Kosybar rooftop Marrakesh** vs **Tinsmiths Square**
+  - Reason: Coordinates Match (35m)
+- **La Pergola & Le bistro Arabe** vs **Le Bistro Arabe - Moroccan Jazz Restaurant in Marrakech**
+  - Reason: Coordinates Match (2m)
+- **La fontaine des épices** vs **Sweet & Sook - Glacier à L'orientale - Mouassine**
+  - Reason: Coordinates Match (20m)
+- **Le Mart** vs **Maison de la Photographie**
+  - Reason: Coordinates Match (49m)
+- **Le Mart** vs **Secret Garden**
+  - Reason: Coordinates Match (47m)
+- **Le Mart** vs **Terrasse des épices**
+  - Reason: Coordinates Match (49m)
+- **Les Bains de Marrakech** vs **Naranj Libanese**
+  - Reason: Coordinates Match (46m)
+- **MARRAK** vs **Nola By Ari - Votre Restaurant à Marrakech**
+  - Reason: Coordinates Match (35m)
+- **MY Kechmara** vs **Tapero Restaurant Méditerranéen & International**
+  - Reason: Coordinates Match (11m)
+- **Marrakech Museum** vs **Moroccan Teahouse Restaurant - 1112 Marrakech**
+  - Reason: Coordinates Match (29m)
+- **Mellah (Yahudi Mahallesi)** vs **Otto**
+  - Reason: Coordinates Match (48m)
+- **Naranj Libanese** vs **Pâtisserie Corne de Gazelle**
+  - Reason: Coordinates Match (21m)
+- **O’Mulligan Resto Pub** vs **le zar**
+  - Reason: Coordinates Match (37m)
+- **Palmeraei** vs **Palmeraie**
+  - Reason: Fuzzy Name Match (0.89)
+- **Restaurant Granada Marrakech** vs **Restaurant Le Grand Bazar Marrakech**
+  - Reason: Fuzzy Name Match (0.86)
+- **Rooftop Restaurant El Kennaria** vs **Tanjia secrets**
+  - Reason: Coordinates Match (37m)
+- **Sabich Marrakech Medina** vs **Simple specialty coffee**
+  - Reason: Coordinates Match (24m)
+- **Safran by Kôya** vs **Sky Bar Wow**
+  - Reason: Coordinates Match (37m)
+- **Secret Garden** vs **Sweet & Sook - Glacier à L'orientale - Mouassine**
+  - Reason: Coordinates Match (42m)
+- **Secret Garden** vs **Terrasse des épices**
+  - Reason: Coordinates Match (3m)
+- **Secret Garden** vs **The Secret Garden**
+  - Reason: Fuzzy Name Match (0.87)
+- **Sweet & Sook - Glacier à L'orientale - Mouassine** vs **Terrasse des épices**
+  - Reason: Coordinates Match (41m)
+- **Terrasse des Epices** vs **Terrasse des épices**
+  - Reason: Fuzzy Name Match (0.95)
+
+## Marsilya (marsilya.json)
+- **Address Ateliers De Pâtisserie** vs **Cali Kitchen | Brunch Marseille**
+  - Reason: Coordinates Match (7m)
+- **Address Ateliers De Pâtisserie** vs **Mauvaise Herbe - Bistrot Café Végétal Marseille**
+  - Reason: Coordinates Match (31m)
+- **Address Ateliers De Pâtisserie** vs **Risette – Torréfacteur & Coffee Shop**
+  - Reason: Coordinates Match (22m)
+- **Annette Marseille Restaurant** vs **Deïa Coffee & Kitchen - Brunch Marseille**
+  - Reason: Coordinates Match (39m)
+- **Annette Marseille Restaurant** vs **La Bakery by Deïa**
+  - Reason: Coordinates Match (40m)
+- **Au Contraire Pâtisserie** vs **GRIGNE CAFÉ**
+  - Reason: Coordinates Match (19m)
+- **Bar Imperial Seifddine** vs **Belle de Mars**
+  - Reason: Coordinates Match (13m)
+- **Café Joyeux** vs **Rive Sud Vins**
+  - Reason: Coordinates Match (29m)
+- **Cali Kitchen | Brunch Marseille** vs **Mauvaise Herbe - Bistrot Café Végétal Marseille**
+  - Reason: Coordinates Match (27m)
+- **Cali Kitchen | Brunch Marseille** vs **Risette – Torréfacteur & Coffee Shop**
+  - Reason: Coordinates Match (25m)
+- **Cathédrale La Major** vs **Cathédrale de la Major**
+  - Reason: Fuzzy Name Match (0.93)
+- **Chez Nous** vs **Nabu et Jéro**
+  - Reason: Coordinates Match (8m)
+- **Cours Julien** vs **Razzia**
+  - Reason: Coordinates Match (40m)
+- **Delices du port** vs **POUMPO**
+  - Reason: Coordinates Match (28m)
+- **Deïa Coffee & Kitchen - Brunch Marseille** vs **La Bakery by Deïa**
+  - Reason: Coordinates Match (7m)
+- **Deïa Coffee & Kitchen - Brunch Marseille** vs **Rive Sud Vins**
+  - Reason: Coordinates Match (33m)
+- **Ginger Phoenix** vs **POUMPO**
+  - Reason: Coordinates Match (43m)
+- **Ginger Phoenix** vs **Rive Sud Vins**
+  - Reason: Coordinates Match (42m)
+- **Glaces Moustache-Artisan Glacier** vs **Mauvaise Herbe - Bistrot Café Végétal Marseille**
+  - Reason: Coordinates Match (24m)
+- **Glaces Moustache-Artisan Glacier** vs **Risette – Torréfacteur & Coffee Shop**
+  - Reason: Coordinates Match (47m)
+- **Grand Bar des Goudes** vs **Les Goudes**
+  - Reason: Coordinates Match (39m)
+- **Kin** vs **Rue Saint-Ferréol**
+  - Reason: Coordinates Match (43m)
+- **L'Ombrière (Gün Batımı)** vs **Vieux Port (Old Port)**
+  - Reason: Coordinates Match (46m)
+- **L'Ombrière (Gün Batımı)** vs **Vieux-Port (Ombrière)**
+  - Reason: Coordinates Match (0m)
+- **La Bakery by Deïa** vs **Rive Sud Vins**
+  - Reason: Coordinates Match (32m)
+- **La Cosca** vs **Le Comptoir de Becca**
+  - Reason: Coordinates Match (45m)
+- **La Delicatesse - Restaurant Marseille** vs **Le Mounguy**
+  - Reason: Coordinates Match (4m)
+- **La Pagaille Restaurant, Lounge & Cocktail** vs **Le Bistro Du Panier**
+  - Reason: Coordinates Match (41m)
+- **La Traverse de Balkis** vs **Le Comptoir de Becca**
+  - Reason: Coordinates Match (47m)
+- **La Vieille Charité** vs **Musée d'Archéologie Méditerranéenne**
+  - Reason: Coordinates Match (27m)
+- **La Vieille Charité** vs **Vieille Charité**
+  - Reason: Fuzzy Name Match (0.91)
+- **Labo n heure** vs **Le Bousti**
+  - Reason: Coordinates Match (23m)
+- **Le Caribou Marseille** vs **Olea**
+  - Reason: Coordinates Match (47m)
+- **Mauvaise Herbe - Bistrot Café Végétal Marseille** vs **Risette – Torréfacteur & Coffee Shop**
+  - Reason: Coordinates Match (24m)
+- **Musée des Beaux-Arts** vs **Naima Cake**
+  - Reason: Coordinates Match (34m)
+- **Musée des Beaux-Arts** vs **Palais Longchamp**
+  - Reason: Coordinates Match (0m)
+- **Naima Cake** vs **Palais Longchamp**
+  - Reason: Coordinates Match (34m)
+- **Paloma Cocktail Bar** vs **Prov’Oc**
+  - Reason: Coordinates Match (40m)
+- **Plage de la Pointe Rouge** vs **Pointe Rouge Beach**
+  - Reason: Name_En matches Name
+- **Tarlata Café** vs **Verre a Cruise - Tapas & Cocktail Bar**
+  - Reason: Coordinates Match (38m)
+- **Vieux Port (Old Port)** vs **Vieux-Port (Ombrière)**
+  - Reason: Coordinates Match (46m)
+
+## Matera (matera.json)
+- **19a Buca Winery** vs **Panificio Cifarelli**
+  - Reason: Coordinates Match (27m)
+- **5 Lire** vs **Birrificio 79**
+  - Reason: Coordinates Match (42m)
+- **5 Lire** vs **Enoteca Vino & Dintorni**
+  - Reason: Coordinates Match (42m)
+- **5 Lire** vs **Hemingway Bistrot**
+  - Reason: Coordinates Match (0m)
+- **5 Lire** vs **Via delle Beccherie**
+  - Reason: Coordinates Match (0m)
+- **Aquatio Cave Luxury Hotel & SPA** vs **L'Abbondanza Lucana**
+  - Reason: Coordinates Match (0m)
+- **Aquatio Cave Luxury Hotel & SPA** vs **Sassula**
+  - Reason: Coordinates Match (42m)
+- **Area 8** vs **La Talpa**
+  - Reason: Coordinates Match (0m)
+- **Area 8** vs **Palazzo Lanfranchi**
+  - Reason: Coordinates Match (0m)
+- **Baccanti** vs **Caffè Tripoli**
+  - Reason: Coordinates Match (33m)
+- **Baccanti** vs **Da Nicolo**
+  - Reason: Coordinates Match (42m)
+- **Baccanti** vs **L'Arturo**
+  - Reason: Coordinates Match (42m)
+- **Baccanti** vs **Osteria San Francesco**
+  - Reason: Coordinates Match (0m)
+- **Baccanti** vs **Piazza del Sedile**
+  - Reason: Coordinates Match (42m)
+- **Baccanti** vs **Regia Corte**
+  - Reason: Coordinates Match (33m)
+- **Bar Ridola** vs **Oi Marì**
+  - Reason: Coordinates Match (42m)
+- **Belvedere Luigi Guerricchio** vs **Gelateria Belfiore**
+  - Reason: Coordinates Match (42m)
+- **Birrificio 79** vs **Hemingway Bistrot**
+  - Reason: Coordinates Match (42m)
+- **Birrificio 79** vs **Via delle Beccherie**
+  - Reason: Coordinates Match (42m)
+- **Caffè Tripoli** vs **Chiesa del Purgatorio**
+  - Reason: Coordinates Match (41m)
+- **Caffè Tripoli** vs **L'Arturo**
+  - Reason: Coordinates Match (27m)
+- **Caffè Tripoli** vs **Osteria San Francesco**
+  - Reason: Coordinates Match (33m)
+- **Caffè Tripoli** vs **Piazza del Sedile**
+  - Reason: Coordinates Match (27m)
+- **Casa Cava** vs **Dimora Ulmo**
+  - Reason: Coordinates Match (42m)
+- **Casa Grotta nei Sassi** vs **Vico Solitario**
+  - Reason: Coordinates Match (0m)
+- **Cave Hotel Stay** vs **Dedalo - Sensi Sommersi**
+  - Reason: Coordinates Match (42m)
+- **Chiesa del Carmine** vs **La Lopa**
+  - Reason: Coordinates Match (42m)
+- **Chiesa del Purgatorio** vs **Regia Corte**
+  - Reason: Coordinates Match (41m)
+- **Church of San Domenico** vs **Fontana Ferdinandea**
+  - Reason: Coordinates Match (42m)
+- **Church of San Domenico** vs **Piazza Vittorio Veneto**
+  - Reason: Coordinates Match (42m)
+- **Cooking Class** vs **Trattoria Lucana**
+  - Reason: Coordinates Match (27m)
+- **Da Nicolo** vs **Osteria San Francesco**
+  - Reason: Coordinates Match (42m)
+- **Da Nicolo** vs **Regia Corte**
+  - Reason: Coordinates Match (27m)
+- **Dimora Ulmo** vs **San Nicola dei Greci**
+  - Reason: Coordinates Match (42m)
+- **Enoteca Il Buco** vs **Gelateria I Vizi degli Angeli**
+  - Reason: Coordinates Match (42m)
+- **Enoteca Vino & Dintorni** vs **Hemingway Bistrot**
+  - Reason: Coordinates Match (42m)
+- **Enoteca Vino & Dintorni** vs **Via delle Beccherie**
+  - Reason: Coordinates Match (42m)
+- **Enoteca dai Tosi** vs **Le Bubbole**
+  - Reason: Coordinates Match (0m)
+- **Fontana Ferdinandea** vs **Piazza Vittorio Veneto**
+  - Reason: Coordinates Match (0m)
+- **Fontana dell'Amore** vs **Via Madonna delle Virtù**
+  - Reason: Coordinates Match (42m)
+- **Hemingway Bistrot** vs **Via delle Beccherie**
+  - Reason: Coordinates Match (0m)
+- **Ipogeo Materasum** vs **Monastery of Saint Augustin**
+  - Reason: Coordinates Match (0m)
+- **James Bond Set Tour** vs **Sassi di Matera**
+  - Reason: Coordinates Match (47m)
+- **Kapriol** vs **Ristorante Il Terrazzino**
+  - Reason: Coordinates Match (42m)
+- **Keiv Cafè** vs **Palazzo del Governo**
+  - Reason: Coordinates Match (0m)
+- **Keiv Cafè** vs **Palombaro Lungo**
+  - Reason: Coordinates Match (42m)
+- **L'Abbondanza Lucana** vs **Sassula**
+  - Reason: Coordinates Match (42m)
+- **L'Arturo** vs **Osteria San Francesco**
+  - Reason: Coordinates Match (42m)
+- **L'Arturo** vs **Palombaro Lungo**
+  - Reason: Coordinates Match (42m)
+- **L'Arturo** vs **Piazza del Sedile**
+  - Reason: Coordinates Match (0m)
+- **La Talpa** vs **Palazzo Lanfranchi**
+  - Reason: Coordinates Match (0m)
+- **Laboratorio della Civiltà Contadina** vs **Stairs of Via Muro**
+  - Reason: Coordinates Match (0m)
+- **Museo Ridola** vs **Ristorante Francesca**
+  - Reason: Coordinates Match (42m)
+- **Osteria San Francesco** vs **Piazza del Sedile**
+  - Reason: Coordinates Match (42m)
+- **Osteria San Francesco** vs **Regia Corte**
+  - Reason: Coordinates Match (33m)
+- **Palazzo del Governo** vs **Palombaro Lungo**
+  - Reason: Coordinates Match (42m)
+- **Palombaro Lungo** vs **Piazza del Sedile**
+  - Reason: Coordinates Match (42m)
+- **Ristorante Francesca** vs **Via Madonna delle Virtù**
+  - Reason: Coordinates Match (42m)
+- **San Pietro Caveoso** vs **Vitantonio Lombardo**
+  - Reason: Coordinates Match (42m)
+- **Sassi in Miniatura** vs **Sassula**
+  - Reason: Coordinates Match (42m)
+
+## Midilli (midilli.json)
+- **Agiasos** vs **Panagia Agiasos Kilisesi**
+  - Reason: Coordinates Match (38m)
+- **Agios Ermogenis** vs **Agios Ermogenis Tavern**
+  - Reason: Coordinates Match (0m)
+- **Barbayanni Ouzo Museum** vs **Barbayanni Uzo Müzesi**
+  - Reason: Coordinates Match (46m)
+- **Eirini Plomariou** vs **Taverna 7 Thalasses**
+  - Reason: Coordinates Match (0m)
+- **Gateluzzi Kalesi** vs **Midilli Kalesi (Mytilene Castle)**
+  - Reason: Coordinates Match (48m)
+- **Kadınlar Kooperatifi (Petra)** vs **Petra**
+  - Reason: Coordinates Match (7m)
+- **Molyvos Limanı** vs **The Captain's Table**
+  - Reason: Coordinates Match (0m)
+- **Molyvos Çarşısı** vs **To Ouzadiko tou Baboukou**
+  - Reason: Coordinates Match (0m)
+- **Museum of the Industrial Olive-Oil Production of Lesvos** vs **Sanayi Zeytinyağı Müzesi**
+  - Reason: Exact English Name Match + Coordinates Match
+- **Pammegistoi Taxiarches (Mantamados)** vs **Taksiarhis Manastırı**
+  - Reason: Coordinates Match (0m)
+- **Panagia Glykofilousa Kilisesi** vs **Petra Ouzeri**
+  - Reason: Coordinates Match (20m)
+- **Panellinion** vs **Sappho Meydanı**
+  - Reason: Coordinates Match (0m)
+- **Plomari** vs **Trygonas**
+  - Reason: Coordinates Match (40m)
+- **Skala Eressos** vs **Soulatso**
+  - Reason: Coordinates Match (0m)
+- **Tarti Koyu** vs **Tarti Plajı**
+  - Reason: Coordinates Match (43m)
+
+## Milano (milano.json)
+- **Anima Milano | Enrico Bartolini** vs **Corso Como**
+  - Reason: Coordinates Match (35m)
+- **Bar Luce** vs **Fondazione Prada (Bar Luce)**
+  - Reason: Coordinates Match (40m)
+- **Brera** vs **Pinacoteca di Brera**
+  - Reason: Coordinates Match (32m)
+- **Cafezal Brunch & Specialty Coffee - Bicocca/BiM** vs **Teatro degli Arcimboldi**
+  - Reason: Coordinates Match (43m)
+- **Cafezal Torrefazione Specialty Coffee** vs **Dry Milano**
+  - Reason: Coordinates Match (47m)
+- **Cafezal Torrefazione Specialty Coffee** vs **Insula Sardinia Experiences - Milano**
+  - Reason: Coordinates Match (0m)
+- **Cafè Solari 72** vs **Shiua Milano**
+  - Reason: Coordinates Match (34m)
+- **Camparino in Galleria** vs **Verso Ristorante, Capitaneo**
+  - Reason: Coordinates Match (27m)
+- **Castello Sforzesco** vs **Sforzesco Şatosu**
+  - Reason: Coordinates Match (3m)
+- **Colonne di San Lorenzo** vs **Porta Ticinese (Antik Kapı)**
+  - Reason: Coordinates Match (44m)
+- **Cova (Monte Napoleone)** vs **Via Montenapoleone**
+  - Reason: Coordinates Match (0m)
+- **Dry Milano** vs **Insula Sardinia Experiences - Milano**
+  - Reason: Coordinates Match (47m)
+- **Eataly Milano Smeraldo** vs **Eataly Smeraldo**
+  - Reason: Coordinates Match (19m)
+- **Galleria Vittorio Emanuele II** vs **Prada Osservatorio**
+  - Reason: Coordinates Match (13m)
+- **La Scala** vs **La Scala Operası**
+  - Reason: Coordinates Match (11m)
+- **La Scala** vs **Teatro alla Scala (Müze)**
+  - Reason: Coordinates Match (0m)
+- **La Scala Operası** vs **Teatro alla Scala (Müze)**
+  - Reason: Coordinates Match (11m)
+- **Leonardo da Vinci Museum** vs **Museo Nazionale Scienza e Tecnologia Leonardo da Vinci**
+  - Reason: Coordinates Match (0m)
+- **Leonardo3 Museum** vs **Piazza della Scala**
+  - Reason: Coordinates Match (39m)
+- **Levino** vs **Navigli**
+  - Reason: Coordinates Match (44m)
+- **Luma Cocktail Bar** vs **Tusa Isola Cocktail Bar**
+  - Reason: Coordinates Match (43m)
+- **Piazza Gae Aulenti** vs **Venchi Gelato and Chocolate**
+  - Reason: Coordinates Match (47m)
+- **Piazza San Fedele** vs **Rinascente (Teras)**
+  - Reason: Coordinates Match (40m)
+- **Piazza San Fedele** vs **Spontini**
+  - Reason: Coordinates Match (27m)
+- **Santa Maria delle Grazie** vs **Son Akşam Yemeği (L'Ultima Cena)**
+  - Reason: Coordinates Match (19m)
+
+## Napoli (napoli.json)
+- **'A Puteca d' 'a Pizza** vs **Cantina Central 92**
+  - Reason: Coordinates Match (21m)
+- **AZZUPPA Restaurant** vs **Il Birraiuolo**
+  - Reason: Coordinates Match (41m)
+- **Alkymya Bellini** vs **Piazza Bellini**
+  - Reason: Coordinates Match (32m)
+- **Ammor&More** vs **Quesse cocktail bar**
+  - Reason: Coordinates Match (42m)
+- **Avantgarde Napoli** vs **MALOCCHIO cocktail bar**
+  - Reason: Coordinates Match (23m)
+- **Bath Pipe** vs **OAK Napoli Wine And Craft Beer**
+  - Reason: Coordinates Match (18m)
+- **Boof** vs **Ex Salumeria**
+  - Reason: Coordinates Match (26m)
+- **Caffè Belle Arti** vs **Il Fiasco Bar&Restaurant**
+  - Reason: Coordinates Match (23m)
+- **Cappella Sansevero** vs **Spaccanapoli**
+  - Reason: Coordinates Match (47m)
+- **CerealStation Napoli** vs **Pasticceria Pascal**
+  - Reason: Coordinates Match (32m)
+- **Diaz Microtorrefazione** vs **Passione di Sofi (Street Food)**
+  - Reason: Coordinates Match (25m)
+- **Esto Es Mezcaleria** vs **Osteria La Chitarra**
+  - Reason: Coordinates Match (49m)
+- **F.lli Mastracchio** vs **Quartieri Spagnoli**
+  - Reason: Coordinates Match (9m)
+- **Gennarino1963** vs **Mozzelato**
+  - Reason: Coordinates Match (45m)
+- **Gino Sorbillo Pizzeria** vs **Napoli Sotterranea**
+  - Reason: Coordinates Match (27m)
+- **Gran Caffe Gambrinus** vs **Gran Caffè Gambrinus**
+  - Reason: Fuzzy Name Match (0.95)
+- **Gran Caffè Valentino** vs **I Servino**
+  - Reason: Coordinates Match (38m)
+- **Il rifugio Wine bar PEPPE MASIELLO. SPRITZ** vs **Stà Ben!**
+  - Reason: Coordinates Match (49m)
+- **Jallinus Cocktail Bistrò** vs **Zero - Healthy Bar & Specialty Coffee - Napoli**
+  - Reason: Coordinates Match (9m)
+- **LA TUPAIA VINERIA** vs **Via dei Tribunali**
+  - Reason: Coordinates Match (16m)
+- **La Fesseria - Street Bar** vs **RAIMONDO SPIRITS**
+  - Reason: Coordinates Match (7m)
+- **La Locanda Gesù Vecchio** vs **Lento Hi-Fi Bar**
+  - Reason: Coordinates Match (9m)
+- **Mozzelato** vs **WineCafè Da Mario**
+  - Reason: Coordinates Match (46m)
+- **Napoli Sotterranea** vs **Via dei Tribunali**
+  - Reason: Coordinates Match (47m)
+- **Osteria La Chitarra** vs **Tappò Coctél Bar**
+  - Reason: Coordinates Match (11m)
+- **Osteria La Chitarra** vs **Tappò Tapas Bar**
+  - Reason: Coordinates Match (25m)
+- **Passione di Sofi (Street Food)** vs **Spaccanapoli**
+  - Reason: Coordinates Match (41m)
+- **Passione di Sofi (Street Food)** vs **Spaccanapoli Street**
+  - Reason: Coordinates Match (43m)
+- **Pasticceria Tizzano 1960 di Valentina Tizzano** vs **Pasticceria Tizzano® dal 1960 - Unica Sede**
+  - Reason: Coordinates Match (46m)
+- **Pizzeria Antonio Sorbillo** vs **Spaccanapoli Street**
+  - Reason: Coordinates Match (44m)
+- **Quesse cocktail bar** vs **Stà Ben!**
+  - Reason: Coordinates Match (30m)
+- **Quesse cocktail bar** vs **Toledo Metro Station**
+  - Reason: Coordinates Match (46m)
+- **Spaccanapoli** vs **Spaccanapoli Street**
+  - Reason: Coordinates Match (47m)
+- **Tappò Coctél Bar** vs **Tappò Tapas Bar**
+  - Reason: Coordinates Match (15m)
+
+## New York (newyork.json)
+- **787 Coffee** vs **787 coffee**
+  - Reason: Exact Name Match
+- **787 coffee** vs **Le Parisien Bakery**
+  - Reason: Coordinates Match (47m)
+- **Boucherie Union Square** vs **Oceans**
+  - Reason: Coordinates Match (34m)
+- **Brooklyn Bridge** vs **Brooklyn Bridge Park**
+  - Reason: Fuzzy Name Match (0.86)
+- **Cafe Rumi** vs **Complete Cafe, LLC**
+  - Reason: Coordinates Match (36m)
+- **Chinatown** vs **Koré Coffee**
+  - Reason: Coordinates Match (49m)
+- **Color Factory** vs **NOMAD**
+  - Reason: Coordinates Match (43m)
+- **Copper Mug Coffee** vs **NY Bakery and Desserts NoMad**
+  - Reason: Coordinates Match (29m)
+- **Délice Macarons** vs **Sote Coffee Roasters**
+  - Reason: Coordinates Match (38m)
+- **Edge NYC** vs **The Vessel**
+  - Reason: Coordinates Match (22m)
+- **Grand Central Terminal** vs **Summit One Vanderbilt**
+  - Reason: Coordinates Match (0m)
+- **Guggenheim Museum** vs **Solomon R. Guggenheim Museum**
+  - Reason: Coordinates Match (13m)
+- **Hide Rooftop** vs **Simpl Coffee**
+  - Reason: Coordinates Match (31m)
+- **High Line** vs **The High Line**
+  - Reason: Coordinates Match (0m)
+- **Joe's Pizza** vs **Qahwah House W Village**
+  - Reason: Coordinates Match (22m)
+- **LOS TACOS No.1** vs **Los Tacos No. 1**
+  - Reason: Fuzzy Name Match (0.97)
+- **MOE EATS NYC** vs **Street Bites NYC**
+  - Reason: Coordinates Match (36m)
+- **Metropolitan Museum of Art** vs **The Metropolitan Museum of Art**
+  - Reason: Coordinates Match (0m)
+- **Roosevelt Island Tram** vs **Roosevelt Island Tramway**
+  - Reason: Fuzzy Name Match (0.93)
+- **SUMMIT One Vanderbilt** vs **Summit One Vanderbilt**
+  - Reason: Exact Name Match
+- **Sea Salt NYC** vs **Shaken Not Stirred**
+  - Reason: Coordinates Match (33m)
+- **SoHo Manhattan** vs **SoHo Shopping**
+  - Reason: Coordinates Match (42m)
+- **Sweet Cats Union Square** vs **Venchi**
+  - Reason: Coordinates Match (31m)
+
+## Nice (nice.json)
+- **Alvin’s Café** vs **Brasserie de Castillon - Taproom**
+  - Reason: Coordinates Match (34m)
+- **Alvin’s Café** vs **Vibes**
+  - Reason: Coordinates Match (30m)
+- **Aperitiv** vs **Glacier du Pin**
+  - Reason: Coordinates Match (9m)
+- **Bar de la Victoire** vs **Promenade du Paillon**
+  - Reason: Coordinates Match (27m)
+- **Barbacane Bar** vs **La Cave Du Cours**
+  - Reason: Coordinates Match (33m)
+- **Barbacane Bar** vs **Wayne's Bar**
+  - Reason: Coordinates Match (33m)
+- **Bella ciao - Bar** vs **Big Boy Coffee**
+  - Reason: Coordinates Match (38m)
+- **Bella ciao - Bar** vs **Colline du Château (Castle Hill)**
+  - Reason: Coordinates Match (44m)
+- **Berco** vs **Boulangerie Lagache**
+  - Reason: Coordinates Match (43m)
+- **Berco** vs **MOULT**
+  - Reason: Coordinates Match (35m)
+- **Berco** vs **Maison Alta**
+  - Reason: Coordinates Match (27m)
+- **Berco** vs **Rice Bowl Asian and Sushi**
+  - Reason: Coordinates Match (35m)
+- **Big Boy Coffee** vs **Les folies d'Edmonde - Bar à Cocktails**
+  - Reason: Coordinates Match (22m)
+- **Big Boy Coffee** vs **TIPSY Nice Bar**
+  - Reason: Coordinates Match (48m)
+- **Big Boy Coffee** vs **Vino Margaux**
+  - Reason: Coordinates Match (49m)
+- **Blend Coffee and Vinyl shop** vs **La Saudade**
+  - Reason: Coordinates Match (39m)
+- **Blend Coffee and Vinyl shop** vs **Le Bistrot du Fromager**
+  - Reason: Coordinates Match (43m)
+- **Bootleg bar** vs **Racines**
+  - Reason: Coordinates Match (9m)
+- **Boulangerie D’Amore** vs **Rice Bowl Asian and Sushi**
+  - Reason: Coordinates Match (44m)
+- **Boulangerie Lagache** vs **Place Rossetti**
+  - Reason: Coordinates Match (45m)
+- **Boulangerie Lagache** vs **Rue de la Boucherie**
+  - Reason: Coordinates Match (22m)
+- **Brasserie de Castillon - Taproom** vs **Vibes**
+  - Reason: Coordinates Match (17m)
+- **Brume Coffee Nice** vs **Meryenda Street Food**
+  - Reason: Coordinates Match (34m)
+- **Caffè Orso** vs **Restaurant & Lounge La Bonne étoile Nice - Afro fusion**
+  - Reason: Coordinates Match (48m)
+- **Caffè Vergnano 1882 : Gambetta Nice** vs **Poké Bar Nice Centre - Poké, brunch & coffee**
+  - Reason: Coordinates Match (43m)
+- **Café Marché** vs **Casa tua**
+  - Reason: Coordinates Match (26m)
+- **Café Marché** vs **Le Panier**
+  - Reason: Coordinates Match (7m)
+- **Café Marché** vs **The Sailor's Pub**
+  - Reason: Coordinates Match (34m)
+- **Casa tua** vs **Le Panier**
+  - Reason: Coordinates Match (33m)
+- **Casa tua** vs **The Sailor's Pub**
+  - Reason: Coordinates Match (23m)
+- **Cathédrale Sainte-Réparate** vs **Fenocchio Gelato**
+  - Reason: Coordinates Match (13m)
+- **Cathédrale Sainte-Réparate** vs **Fenocchio Glacier**
+  - Reason: Coordinates Match (0m)
+- **Cathédrale Sainte-Réparate** vs **Place Rossetti**
+  - Reason: Coordinates Match (45m)
+- **Cave Rivoli** vs **Poivre Traiteur - Cuisine du Liban**
+  - Reason: Coordinates Match (20m)
+- **Cimiez Monastery** vs **Musée Franciscain**
+  - Reason: Coordinates Match (27m)
+- **Coco Bar** vs **Oliviera**
+  - Reason: Coordinates Match (19m)
+- **Coco Bar** vs **Palais Lascaris**
+  - Reason: Coordinates Match (49m)
+- **Coco Bar** vs **Pomona**
+  - Reason: Coordinates Match (29m)
+- **Coco Bar** vs **Pâtisserie Moutet**
+  - Reason: Coordinates Match (31m)
+- **Coco Bar** vs **Square de la Tour**
+  - Reason: Coordinates Match (19m)
+- **Cours Saleya Market** vs **Marché aux Poissons (Fish Market)**
+  - Reason: Coordinates Match (45m)
+- **Crypte Archéologique de Nice** vs **Glacier du Pin**
+  - Reason: Coordinates Match (44m)
+- **Crypte Archéologique de Nice** vs **Pâtisserie Cappa Mariette**
+  - Reason: Coordinates Match (26m)
+- **Eglise Notre-Dame-de-l'Assomption** vs **Eglise de l'Annonciation**
+  - Reason: Coordinates Match (0m)
+- **Fenocchio Gelato** vs **Fenocchio Glacier**
+  - Reason: Coordinates Match (13m)
+- **Fenocchio Gelato** vs **Ice cream shop & Coffee | Frisson**
+  - Reason: Coordinates Match (44m)
+- **Fenocchio Gelato** vs **Place Rossetti**
+  - Reason: Coordinates Match (34m)
+- **Fenocchio Glacier** vs **Place Rossetti**
+  - Reason: Coordinates Match (45m)
+- **Full Bloom Café** vs **Pistache - Pâtisserie**
+  - Reason: Coordinates Match (16m)
+- **Full Bloom Café** vs **Rue Bonaparte**
+  - Reason: Coordinates Match (12m)
+- **Galerie des Ponchettes** vs **Waka Bar**
+  - Reason: Coordinates Match (22m)
+- **Gelato D'Amore Nice** vs **Immo café**
+  - Reason: Coordinates Match (20m)
+- **Gelato D'Amore Nice** vs **Original Pub Crawl Nice**
+  - Reason: Coordinates Match (49m)
+- **Gelato D'Amore Nice** vs **l'Antidote - Restaurant - Bar à cocktails - Cuisine locale de saison**
+  - Reason: Coordinates Match (44m)
+- **Gelato D'Amore Nice** vs **ÉBURNIE COFFEE CULTURE**
+  - Reason: Coordinates Match (25m)
+- **HACIENDA BAR Y COCINA** vs **Le comptoir des frères**
+  - Reason: Coordinates Match (32m)
+- **Hotel Negresco** vs **Villa Masséna**
+  - Reason: Coordinates Match (34m)
+- **I Love Nice Sign** vs **Rauba Capeu (Nice Yazısı)**
+  - Reason: Name matches Name_En
+- **IBERICA comptoir** vs **Les dejeuneurs**
+  - Reason: Coordinates Match (30m)
+- **Ice cream shop & Coffee | Frisson** vs **MOULT**
+  - Reason: Coordinates Match (31m)
+- **Ice cream shop & Coffee | Frisson** vs **Maison Alta**
+  - Reason: Coordinates Match (47m)
+- **Ice cream shop & Coffee | Frisson** vs **Place Rossetti**
+  - Reason: Coordinates Match (35m)
+- **Ice cream shop & Coffee | Frisson** vs **Église Saint-Jacques-le-Majeur**
+  - Reason: Coordinates Match (42m)
+- **Immo café** vs **ÉBURNIE COFFEE CULTURE**
+  - Reason: Coordinates Match (7m)
+- **Kraken Bar** vs **Le Jonathan's**
+  - Reason: Coordinates Match (30m)
+- **Kraken Bar** vs **Palais Lascaris**
+  - Reason: Coordinates Match (42m)
+- **Kraken Bar** vs **Place Saint-François**
+  - Reason: Coordinates Match (26m)
+- **Kraken Bar** vs **Pomona**
+  - Reason: Coordinates Match (43m)
+- **Kraken Bar** vs **Pâtisserie Moutet**
+  - Reason: Coordinates Match (44m)
+- **La Cave Du Cours** vs **Wayne's Bar**
+  - Reason: Coordinates Match (19m)
+- **La Claque Coffee Shop** vs **Le Brassitorium Nice**
+  - Reason: Coordinates Match (16m)
+- **La Claque Coffee Shop** vs **TIPSY Nice Bar**
+  - Reason: Coordinates Match (31m)
+- **La Claque Coffee Shop** vs **Église Saint-Jacques-le-Majeur**
+  - Reason: Coordinates Match (29m)
+- **La Saudade** vs **Le Bistrot du Fromager**
+  - Reason: Coordinates Match (25m)
+- **Le BAM - Bar à manger** vs **Rainbow Bar**
+  - Reason: Coordinates Match (45m)
+- **Le Bistrot du Fromager** vs **The Sailor's Pub**
+  - Reason: Coordinates Match (34m)
+- **Le Brassitorium Nice** vs **Le Jonathan's**
+  - Reason: Coordinates Match (45m)
+- **Le Brassitorium Nice** vs **TIPSY Nice Bar**
+  - Reason: Coordinates Match (34m)
+- **Le Brassitorium Nice** vs **Église Saint-Jacques-le-Majeur**
+  - Reason: Coordinates Match (31m)
+- **Le Jonathan's** vs **Oliviera**
+  - Reason: Coordinates Match (38m)
+- **Le Jonathan's** vs **Palais Lascaris**
+  - Reason: Coordinates Match (12m)
+- **Le Jonathan's** vs **Pomona**
+  - Reason: Coordinates Match (30m)
+- **Le Jonathan's** vs **Pâtisserie Moutet**
+  - Reason: Coordinates Match (39m)
+- **Le Jonathan's** vs **TIPSY Nice Bar**
+  - Reason: Coordinates Match (45m)
+- **Le Panier** vs **The Sailor's Pub**
+  - Reason: Coordinates Match (41m)
+- **Les folies d'Edmonde - Bar à Cocktails** vs **TIPSY Nice Bar**
+  - Reason: Coordinates Match (26m)
+- **Loka Bar Kitchen - Restaurant Nice** vs **Rue de France**
+  - Reason: Coordinates Match (29m)
+- **Loka Bar Kitchen - Restaurant Nice** vs **The Shop Craft Bar**
+  - Reason: Coordinates Match (48m)
+- **MOULT** vs **Maison Alta**
+  - Reason: Coordinates Match (22m)
+- **MOULT** vs **Place Rossetti**
+  - Reason: Coordinates Match (27m)
+- **Maison Alta** vs **Place Rossetti**
+  - Reason: Coordinates Match (49m)
+- **Marc Chagall National Museum** vs **Musée Marc Chagall**
+  - Reason: Name matches Name_En + Coordinates Match
+- **Marché aux Poissons (Fish Market)** vs **Rue de l'Abbaye**
+  - Reason: Coordinates Match (32m)
+- **Musée de la Photographie Charles Nègre** vs **Palais de Justice Square**
+  - Reason: Coordinates Match (40m)
+- **Nice Sunset** vs **Quai des États-Unis**
+  - Reason: Coordinates Match (26m)
+- **Oliviera** vs **Palais Lascaris**
+  - Reason: Coordinates Match (32m)
+- **Oliviera** vs **Pomona**
+  - Reason: Coordinates Match (9m)
+- **Oliviera** vs **Pâtisserie Moutet**
+  - Reason: Coordinates Match (15m)
+- **Oliviera** vs **Square de la Tour**
+  - Reason: Coordinates Match (25m)
+- **Original Pub Crawl Nice** vs **Villa Masséna Musée**
+  - Reason: Coordinates Match (7m)
+- **Palais Lascaris** vs **Pomona**
+  - Reason: Coordinates Match (27m)
+- **Palais Lascaris** vs **Pâtisserie Moutet**
+  - Reason: Coordinates Match (38m)
+- **Palais Lascaris** vs **Square de la Tour**
+  - Reason: Coordinates Match (40m)
+- **Palais Lascaris** vs **TIPSY Nice Bar**
+  - Reason: Coordinates Match (43m)
+- **Pappagallo** vs **Rainbow Bar**
+  - Reason: Coordinates Match (37m)
+- **Pistache - Pâtisserie** vs **Rue Bonaparte**
+  - Reason: Coordinates Match (6m)
+- **Place Garibaldi** vs **Pâtisserie Cappa Mariette**
+  - Reason: Coordinates Match (47m)
+- **Pomona** vs **Pâtisserie Moutet**
+  - Reason: Coordinates Match (12m)
+- **Pomona** vs **Square de la Tour**
+  - Reason: Coordinates Match (32m)
+- **Pâtisserie Moutet** vs **Square de la Tour**
+  - Reason: Coordinates Match (40m)
+- **Rue de France** vs **The Shop Craft Bar**
+  - Reason: Coordinates Match (29m)
+- **Russian Orthodox Cathedral** vs **St Nicholas Cathedral**
+  - Reason: Coordinates Match (0m)
+- **SAVVA Coffee Shop** vs **TITI - Asian fusion food**
+  - Reason: Coordinates Match (34m)
+- **Square de la Tour** vs **Vino Margaux**
+  - Reason: Coordinates Match (38m)
+- **Villa Masséna** vs **Villa Masséna Gardens**
+  - Reason: Coordinates Match (39m)
+
+## Oslo (oslo.json)
+- **Astrup Fearnley Museet** vs **Astrup Fearnley Museum**
+  - Reason: Name_En matches Name + Coordinates Match
+- **Astrup Fearnley Museum** vs **Tjuvholmen Sculpture Park**
+  - Reason: Coordinates Match (46m)
+- **Blå** vs **Blå Club**
+  - Reason: Name matches Name_En
+- **Deichman Bjørvika** vs **Deichman Bjørvika Library**
+  - Reason: Name matches Name_En
+- **Fiskeriet** vs **Fiskeriet Youngstorget**
+  - Reason: Name matches Name_En
+- **Grünerløkka** vs **Haralds Vaffel**
+  - Reason: Coordinates Match (0m)
+- **Mathallen Oslo** vs **Vulkan District**
+  - Reason: Coordinates Match (33m)
+- **National Museum** vs **National Museum of Art**
+  - Reason: Name matches Name_En + Coordinates Match
+- **Norsk Folkemuseum** vs **Norwegian Museum of Cultural History**
+  - Reason: Name_En matches Name
+- **Parliament Building (Stortinget)** vs **W.B. Samson**
+  - Reason: Coordinates Match (6m)
+- **Salt** vs **Sauna at Langkaia (SALT)**
+  - Reason: Coordinates Match (0m)
+- **Vippa Food Hall** vs **Vippa Oslo**
+  - Reason: Coordinates Match (23m)
+- **W.B. Samson** vs **WB Samson**
+  - Reason: Fuzzy Name Match (0.90)
+
+## Paris (paris.json)
+- **11ème Domaine** vs **Lilith Cocktail Bar**
+  - Reason: Coordinates Match (17m)
+- **Bar Bleu** vs **Signature**
+  - Reason: Coordinates Match (14m)
+- **Café de Flore** vs **Les Deux Magots**
+  - Reason: Coordinates Match (37m)
+- **Causeries Paris - Specialty coffee & natural wine** vs **Divvino Marais**
+  - Reason: Coordinates Match (20m)
+- **Clove** vs **Signature**
+  - Reason: Coordinates Match (44m)
+- **Cocoön Cocktail Bar** vs **Ober Mamma**
+  - Reason: Coordinates Match (47m)
+- **Coulée verte René-Dumont** vs **La Promenade Plantée**
+  - Reason: Coordinates Match (42m)
+- **Ground Control Paris** vs **Le Train Bleu**
+  - Reason: Coordinates Match (11m)
+- **L'As du Fallafel** vs **Rue des Rosiers**
+  - Reason: Coordinates Match (31m)
+- **L'Orangerie** vs **La Galerie**
+  - Reason: Coordinates Match (42m)
+- **Le Maung Coffee Roaster by OMG** vs **Rue Montorgueil**
+  - Reason: Coordinates Match (34m)
+- **Les Deux Magots** vs **Saint-Germain-des-Prés**
+  - Reason: Coordinates Match (22m)
+- **LuckyBastard** vs **TYPICA SPECIALTY COFFEE**
+  - Reason: Coordinates Match (45m)
+
+## Porto (porto.json)
+- **"VOLTARIA" - Petisqueira Portuguesa** vs **Bó tá quente**
+  - Reason: Coordinates Match (39m)
+- **Apotecário Speakeasy** vs **Curioso Cocktail Bar**
+  - Reason: Coordinates Match (0m)
+- **Apotecário Speakeasy** vs **Prova**
+  - Reason: Coordinates Match (26m)
+- **Apotecário Speakeasy** vs **Wine Affairs**
+  - Reason: Coordinates Match (12m)
+- **Baobab - craft beer bar** vs **Camilo Restaurante**
+  - Reason: Coordinates Match (45m)
+- **Baobab - craft beer bar** vs **The Cork Wine Bar**
+  - Reason: Coordinates Match (5m)
+- **Bartolomeu Bistro & Wine** vs **Morro d'amores**
+  - Reason: Coordinates Match (48m)
+- **Baseado Bar** vs **Bota & Bira**
+  - Reason: Coordinates Match (15m)
+- **Bolhão a Gosto - Comida Tradicional** vs **Garcia & Marquez - Coffee Stories**
+  - Reason: Coordinates Match (33m)
+- **Bonita Wine Bar** vs **Dubon Chocolate Bar**
+  - Reason: Coordinates Match (41m)
+- **Bonita Wine Bar** vs **STORY | brunch & cocktails**
+  - Reason: Coordinates Match (30m)
+- **Burmester Cellars** vs **Jardim do Morro**
+  - Reason: Coordinates Match (45m)
+- **Burmester Cellars** vs **Teleferico de Gaia**
+  - Reason: Coordinates Match (47m)
+- **CA Downtown - Brunch • Specialty Coffee • Matcha** vs **Casa Viúva**
+  - Reason: Coordinates Match (45m)
+- **CA Downtown - Brunch • Specialty Coffee • Matcha** vs **Matriarca**
+  - Reason: Coordinates Match (10m)
+- **Cafe Santiago** vs **Café Santiago**
+  - Reason: Fuzzy Name Match (0.92)
+- **Café Dunas** vs **Comum**
+  - Reason: Coordinates Match (48m)
+- **Cais da Ribeira** vs **Ribeira**
+  - Reason: Coordinates Match (41m)
+- **Casa Viúva** vs **Matriarca**
+  - Reason: Coordinates Match (35m)
+- **Casa Viúva** vs **The 41 Bar**
+  - Reason: Coordinates Match (42m)
+- **Casa da Musica** vs **Casa da Música**
+  - Reason: Fuzzy Name Match (0.93)
+- **Centro Português de Fotografia** vs **The Door**
+  - Reason: Coordinates Match (32m)
+- **Combi Coffee Roasters** vs **SO Coffee Roasters**
+  - Reason: Fuzzy Name Match (0.87)
+- **Curioso Cocktail Bar** vs **Prova**
+  - Reason: Coordinates Match (26m)
+- **Curioso Cocktail Bar** vs **Wine Affairs**
+  - Reason: Coordinates Match (12m)
+- **Do Norte Café by Hungry Biker | Brunch & Breakfast** vs **Say Cheesecake! & Co. | Specialty Coffee - Brunch Porto**
+  - Reason: Coordinates Match (26m)
+- **Dogma Wine Bar & Tastings** vs **Jardim do Trás**
+  - Reason: Coordinates Match (35m)
+- **Eatery 119 ӏ food, desserts & specialty coffee** vs **GLAD - Bean to Bar Chocolate & Coffee**
+  - Reason: Coordinates Match (46m)
+- **Estádio do Dragão** vs **FC Porto Museum**
+  - Reason: Coordinates Match (33m)
+- **Floresta cafe by Hungry biker** vs **Rua das Flores**
+  - Reason: Coordinates Match (39m)
+- **Gruta** vs **My Coffee Porto - Bolhao (Specialty Coffee Shop)**
+  - Reason: Coordinates Match (36m)
+- **Honey Bee** vs **Marlindo 1959 - Cocktail Bar**
+  - Reason: Coordinates Match (1m)
+- **Igreja de São Francisco** vs **Palácio da Bolsa**
+  - Reason: Coordinates Match (47m)
+- **Kuji Coffee** vs **ONZE ONZE - Wine Bar**
+  - Reason: Coordinates Match (13m)
+- **Nope Pelmeni and Dumplings Bar | Cocktails, Craft Beer, Natural Wines, Chess and Board games** vs **Seoulstice**
+  - Reason: Coordinates Match (18m)
+- **Palacio da Bolsa** vs **Palácio da Bolsa**
+  - Reason: Fuzzy Name Match (0.94)
+- **Petiscaria Fonsecas** vs **Taberna Folias de Baco | Natural Wines**
+  - Reason: Coordinates Match (47m)
+- **Prova** vs **Wine Affairs**
+  - Reason: Coordinates Match (13m)
+- **SO Coffee Roasters** vs **Senzu Coffee Roasters**
+  - Reason: Fuzzy Name Match (0.87)
+- **Sandeman Cellars** vs **Vila Nova de Gaia - Port Mahzenleri**
+  - Reason: Coordinates Match (41m)
+- **Torto - Bar & Cocktails** vs **WINE CLUB RESTAURANTE & WINE BAR**
+  - Reason: Coordinates Match (42m)
+- **Torto - Bar & Cocktails** vs **e AGORA ?**
+  - Reason: Coordinates Match (32m)
+- **WINE CLUB RESTAURANTE & WINE BAR** vs **e AGORA ?**
+  - Reason: Coordinates Match (19m)
+- **WOW (World of Wine)** vs **WOW World of Wine**
+  - Reason: Fuzzy Name Match (0.94)
+
+## Prag (prag.json)
+- **Astronomical Clock** vs **Astronomical Clock (Orloj)**
+  - Reason: Name matches Name_En + Coordinates Match
+- **Astronomical Clock** vs **Old Town Square**
+  - Reason: Coordinates Match (45m)
+- **Astronomical Clock** vs **Skautský Institut**
+  - Reason: Coordinates Match (49m)
+- **Bistro Monk** vs **Illusion Art Museum**
+  - Reason: Coordinates Match (0m)
+- **Cafe Louvre** vs **Café Louvre**
+  - Reason: Coordinates Match (42m)
+- **Cafe Savoy** vs **Café Savoy**
+  - Reason: Fuzzy Name Match (0.90)
+- **Café Louvre** vs **Vzorkovna (Dog Bar)**
+  - Reason: Coordinates Match (33m)
+- **Charles Bridge** vs **Charles Bridge (Karluv Most)**
+  - Reason: Name matches Name_En + Coordinates Match
+- **Church of the Most Sacred Heart of Our Lord** vs **Jiřího z Poděbrad Farmers Market**
+  - Reason: Coordinates Match (39m)
+- **Church of the Most Sacred Heart of Our Lord** vs **Kro Kitchen**
+  - Reason: Coordinates Match (39m)
+- **Clementinum (Klementinum)** vs **Clementinum Library**
+  - Reason: Coordinates Match (0m)
+- **Clementinum (Klementinum)** vs **Klementinum Library**
+  - Reason: Coordinates Match (38m)
+- **Clementinum Library** vs **Klementinum Library**
+  - Reason: Coordinates Match (38m)
+- **Cukrárna Myšák** vs **Franciscan Gardens**
+  - Reason: Coordinates Match (0m)
+- **Dancing House** vs **Dancing House (Tančící dům)**
+  - Reason: Name matches Name_En
+- **Eska** vs **Eska Restaurant**
+  - Reason: Exact English Name Match
+- **Field** vs **Tyn Church**
+  - Reason: Coordinates Match (48m)
+- **Franz Kafka Museum** vs **Kafka Museum**
+  - Reason: Name matches Name_En
+- **Franz Kafka Museum** vs **Vinarna Certovka (Narrowest Street)**
+  - Reason: Coordinates Match (22m)
+- **Golden Lane** vs **Golden Lane (Zlatá ulička)**
+  - Reason: Name matches Name_En
+- **Good Food Coffee & Bakery** vs **Tricafe**
+  - Reason: Coordinates Match (0m)
+- **Grand Café Orient** vs **Museum of Czech Cubism**
+  - Reason: Coordinates Match (39m)
+- **Hemingway Bar** vs **U Zlatého Tygra**
+  - Reason: Coordinates Match (46m)
+- **Jewish Quarter (Josefov)** vs **Trdelník Shops**
+  - Reason: Coordinates Match (6m)
+- **Jiřího z Poděbrad Farmers Market** vs **Kro Kitchen**
+  - Reason: Coordinates Match (0m)
+- **Kampa Island** vs **Yellow Penguins**
+  - Reason: Coordinates Match (40m)
+- **Lucerna Music Bar** vs **Lucerna Passage**
+  - Reason: Coordinates Match (0m)
+- **Lucerna Music Bar** vs **Lucerna Rooftop**
+  - Reason: Coordinates Match (0m)
+- **Lucerna Passage** vs **Lucerna Rooftop**
+  - Reason: Coordinates Match (0m)
+- **Municipal House** vs **Municipal House (Obecní dům)**
+  - Reason: Name matches Name_En + Coordinates Match
+- **Municipal House** vs **Powder Tower**
+  - Reason: Coordinates Match (49m)
+- **Municipal House** vs **Powder Tower (Prašná brána)**
+  - Reason: Coordinates Match (46m)
+- **Museum Kampa** vs **Yellow Penguins**
+  - Reason: Coordinates Match (33m)
+- **Naplavka Farmers Market** vs **Náplavka Farmers Market**
+  - Reason: Exact English Name Match
+- **National Gallery** vs **Old Royal Palace**
+  - Reason: Coordinates Match (0m)
+- **National Gallery** vs **St. Vitus Cathedral**
+  - Reason: Coordinates Match (24m)
+- **Old Royal Palace** vs **St. Vitus Cathedral**
+  - Reason: Coordinates Match (24m)
+- **Old Town Square** vs **Skautský Institut**
+  - Reason: Coordinates Match (28m)
+- **Onesip Coffee** vs **Speculum Alchemiae**
+  - Reason: Coordinates Match (0m)
+- **Pasáž Světozor** vs **Styl & Interier**
+  - Reason: Coordinates Match (0m)
+- **Petrin Hill** vs **Petřín Tower**
+  - Reason: Coordinates Match (25m)
+- **Powder Tower** vs **Powder Tower (Prašná brána)**
+  - Reason: Exact English Name Match + Coordinates Match
+- **Prague Castle** vs **Prague Castle (Pražský hrad)**
+  - Reason: Name matches Name_En + Coordinates Match
+- **Prague Castle** vs **St. Vitus Cathedral**
+  - Reason: Coordinates Match (36m)
+- **Prague Castle (Pražský hrad)** vs **St. Vitus Cathedral**
+  - Reason: Coordinates Match (36m)
+- **Strahov Library** vs **Strahov Monastery Library**
+  - Reason: Exact English Name Match
+- **Strahov Monastery Brewery** vs **Strahov Monastery Library**
+  - Reason: Fuzzy Name Match (0.88)
+- **Strahov Monastery Brewery** vs **Strahov Monastic Brewery**
+  - Reason: Name matches Name_En + Coordinates Match
+- **Strahov Monastery Library** vs **Strahov Monastic Brewery**
+  - Reason: Coordinates Match (21m)
+- **Venceslas Square** vs **Wenceslas Square (Václavské náměstí)**
+  - Reason: Coordinates Match (49m)
+- **Vyšehrad** vs **Vyšehrad Fortress**
+  - Reason: Name matches Name_En + Coordinates Match
+
+## Roma (roma.json)
+- **ADESSO Osteria Moderna** vs **Pinsitaly Trevi**
+  - Reason: Coordinates Match (47m)
+- **All'Antico Vinaio Roma** vs **Fiocco di neve**
+  - Reason: Coordinates Match (27m)
+- **Altare della Patria (Vittoriano)** vs **Vittoriano (Altare della Patria)**
+  - Reason: Coordinates Match (0m)
+- **Altroquando - Libreria e Pub** vs **Cantina e Cucina**
+  - Reason: Coordinates Match (16m)
+- **Altroquando - Libreria e Pub** vs **Mimì e Cocò**
+  - Reason: Coordinates Match (45m)
+- **Altroquando - Libreria e Pub** vs **Two Sizes**
+  - Reason: Coordinates Match (25m)
+- **Appian Way** vs **Via Appia Antica**
+  - Reason: Coordinates Match (0m)
+- **Bar della Pace** vs **Chiostro del Bramante**
+  - Reason: Coordinates Match (19m)
+- **Bar della Pace** vs **Fichetto cocktail bar**
+  - Reason: Coordinates Match (35m)
+- **Bar della Pace** vs **La Botticella of Poggi Giovanni**
+  - Reason: Coordinates Match (48m)
+- **Bar della Pace** vs **Trentaquattro Roma • Navona**
+  - Reason: Coordinates Match (18m)
+- **Bar della Pace** vs **Two Sizes (Tiramisu & Cannoli)**
+  - Reason: Coordinates Match (46m)
+- **Caffè Gotico** vs **CiPASSO**
+  - Reason: Coordinates Match (48m)
+- **Caffè Gotico** vs **The Gin Corner**
+  - Reason: Coordinates Match (48m)
+- **Caffè Gotico** vs **retrovino**
+  - Reason: Coordinates Match (39m)
+- **Campo de' Fiori** vs **La Carbonara**
+  - Reason: Coordinates Match (49m)
+- **Campo de' Fiori** vs **MYO - LA GELATERIA**
+  - Reason: Coordinates Match (44m)
+- **Campo de' Fiori** vs **Mercato Hostaria Roma**
+  - Reason: Coordinates Match (49m)
+- **Cantina e Cucina** vs **Mimì e Cocò**
+  - Reason: Coordinates Match (29m)
+- **Cantina e Cucina** vs **Two Sizes**
+  - Reason: Coordinates Match (9m)
+- **Chiesa di San Luigi dei Francesi** vs **San Luigi dei Francesi**
+  - Reason: Name_En matches Name + Coordinates Match
+- **Chiostro del Bramante** vs **La Botticella of Poggi Giovanni**
+  - Reason: Coordinates Match (33m)
+- **Chiostro del Bramante** vs **Trentaquattro Roma • Navona**
+  - Reason: Coordinates Match (9m)
+- **CiPASSO** vs **The Gin Corner**
+  - Reason: Coordinates Match (27m)
+- **Da Enzo al 29** vs **The Hole Trastevere**
+  - Reason: Coordinates Match (47m)
+- **Enoteca Angelini dal 1890** vs **Gelateria Artigianale Il Capriccio di Carla**
+  - Reason: Coordinates Match (35m)
+- **Fichetto cocktail bar** vs **Two Sizes (Tiramisu & Cannoli)**
+  - Reason: Coordinates Match (21m)
+- **Fontana dell'Acqua Paola** vs **Tempietto di Bramante**
+  - Reason: Coordinates Match (49m)
+- **Frigidarium** vs **Pasticceria La Deliziosa**
+  - Reason: Coordinates Match (38m)
+- **Gianicolo Top Atışı (Il Cannone del Gianicolo)** vs **Janiculum (Gianicolo)**
+  - Reason: Coordinates Match (25m)
+- **Janiculum (Gianicolo)** vs **Janiculum Hill (Gianicolo)**
+  - Reason: Fuzzy Name Match (0.89)
+- **Keats-Shelley House** vs **İspanyol Merdivenleri**
+  - Reason: Coordinates Match (16m)
+- **La Botticella of Poggi Giovanni** vs **Trentaquattro Roma • Navona**
+  - Reason: Coordinates Match (29m)
+- **MYO - LA GELATERIA** vs **Mercato Hostaria Roma**
+  - Reason: Coordinates Match (13m)
+- **Mercato di Testaccio** vs **Testaccio**
+  - Reason: Coordinates Match (0m)
+- **Mimì e Cocò** vs **Two Sizes**
+  - Reason: Coordinates Match (20m)
+- **Monti** vs **Sapphire Bar Roma**
+  - Reason: Coordinates Match (47m)
+- **Musei Capitolini** vs **Piazza del Campidoglio**
+  - Reason: Coordinates Match (27m)
+- **Reserva Restaurante y Cocteles** vs **Vino e vinili Roma**
+  - Reason: Coordinates Match (34m)
+- **Roscioli** vs **Roscioli Salumeria con Cucina**
+  - Reason: Coordinates Match (0m)
+- **Roscioli Salumeria** vs **Roscioli Salumeria con Cucina**
+  - Reason: Name matches Name_En
+- **Sant'Ignazio Church** vs **Sant'Ignazio di Loyola**
+  - Reason: Name matches Name_En + Coordinates Match
+- **The Gin Corner** vs **retrovino**
+  - Reason: Coordinates Match (32m)
+- **Two Sizes** vs **Two Sizes (Tiramisu & Cannoli)**
+  - Reason: Name matches Name_En
+
+## Rovaniemi (rovaniemi.json)
+- **Access Lapland** vs **Arctic Boulevard**
+  - Reason: Coordinates Match (33m)
+- **Amarillo Rovaniemi** vs **Haawe Boutique Apart Hotel**
+  - Reason: Coordinates Match (43m)
+- **Amarillo Rovaniemi** vs **Hai Long**
+  - Reason: Coordinates Match (33m)
+- **Amarillo Rovaniemi** vs **Paha Kurki Rockhouse**
+  - Reason: Coordinates Match (27m)
+- **Amarillo Rovaniemi** vs **Safartica**
+  - Reason: Coordinates Match (47m)
+- **Apukka Resort** vs **Restaurant Aitta**
+  - Reason: Coordinates Match (29m)
+- **Arctic Circle Line** vs **Pentik Arctic Circle**
+  - Reason: Coordinates Match (24m)
+- **Arctic Circle Line** vs **Santa Claus Office**
+  - Reason: Coordinates Match (47m)
+- **Arctic Circle Line** vs **Santa Claus Village**
+  - Reason: Coordinates Match (19m)
+- **Arctic Design Shop** vs **Haawe Boutique Apart Hotel**
+  - Reason: Coordinates Match (19m)
+- **Arctic Design Shop** vs **Hai Long**
+  - Reason: Coordinates Match (34m)
+- **Arctic Design Shop** vs **Kauppayhtiö**
+  - Reason: Coordinates Match (27m)
+- **Arctic Design Shop** vs **Pure Pizza**
+  - Reason: Coordinates Match (27m)
+- **Arctic Lifestyle** vs **Kemijoki River Trail**
+  - Reason: Coordinates Match (42m)
+- **Arctic Light Hotel** vs **Beyond Arctic**
+  - Reason: Coordinates Match (29m)
+- **Arctic Light Hotel** vs **Curio**
+  - Reason: Coordinates Match (24m)
+- **Arctic Light Hotel** vs **Hostel Café Koti**
+  - Reason: Coordinates Match (24m)
+- **Arctic SnowHotel & Glass Igloos** vs **Crystal Arctic Suites**
+  - Reason: Coordinates Match (0m)
+- **Arctic TreeHouse Hotel** vs **Santa's Forest (Joulukan Metsä)**
+  - Reason: Coordinates Match (28m)
+- **Arktikum Beach (Aurora Spot)** vs **Kierikki Stone Age Centre**
+  - Reason: Coordinates Match (0m)
+- **Arktikum Bridge** vs **Arktikum Science Museum**
+  - Reason: Coordinates Match (42m)
+- **Arktikum Science Museum** vs **Pilke Science Centre**
+  - Reason: Coordinates Match (37m)
+- **Beyond Arctic** vs **Curio**
+  - Reason: Coordinates Match (15m)
+- **Beyond Arctic** vs **Himo**
+  - Reason: Coordinates Match (46m)
+- **Beyond Arctic** vs **Hostel Café Koti**
+  - Reason: Coordinates Match (15m)
+- **Bio Rex Rovaniemi** vs **Nordic Unique Travels**
+  - Reason: Coordinates Match (42m)
+- **Bio Rex Rovaniemi** vs **Ravintola Monte Rosa**
+  - Reason: Coordinates Match (37m)
+- **Bull Bar & Grill** vs **Rovaniemi Church**
+  - Reason: Coordinates Match (38m)
+- **Cafe & Bar 21** vs **Cafe Rovaniemi**
+  - Reason: Coordinates Match (27m)
+- **Cafe & Bar 21** vs **Coffee House Rovaniemi**
+  - Reason: Coordinates Match (49m)
+- **Cafe & Bar 21** vs **Hemingway's Rovaniemi**
+  - Reason: Coordinates Match (43m)
+- **Cafe & Bar 21** vs **Kahvila Kauppayhtiö**
+  - Reason: Coordinates Match (38m)
+- **Cafe & Bar 21** vs **Uitto Pub**
+  - Reason: Coordinates Match (20m)
+- **Cafe & Bar 21** vs **Wanha Mestari**
+  - Reason: Coordinates Match (43m)
+- **Cafe Rovaniemi** vs **Coffee House Rovaniemi**
+  - Reason: Coordinates Match (22m)
+- **Cafe Rovaniemi** vs **Kahvila Kauppayhtiö**
+  - Reason: Coordinates Match (38m)
+- **Cafe Rovaniemi** vs **Nili Restaurant**
+  - Reason: Coordinates Match (39m)
+- **Cafe Rovaniemi** vs **Nordic Unique Travels**
+  - Reason: Coordinates Match (39m)
+- **Cafe Rovaniemi** vs **Ravintola Monte Rosa**
+  - Reason: Coordinates Match (46m)
+- **Cafe Rovaniemi** vs **Uitto Pub**
+  - Reason: Coordinates Match (48m)
+- **Choco Deli** vs **Half Moon Night Club**
+  - Reason: Coordinates Match (34m)
+- **Choco Deli** vs **Marttiini Knife Shop**
+  - Reason: Coordinates Match (34m)
+- **Choco Deli** vs **Rinteenkulma Shopping Centre**
+  - Reason: Coordinates Match (18m)
+- **Coffee House Rovaniemi** vs **Kahvila Kauppayhtiö**
+  - Reason: Coordinates Match (46m)
+- **Coffee House Rovaniemi** vs **Nili Restaurant**
+  - Reason: Coordinates Match (40m)
+- **Coffee House Rovaniemi** vs **Nordic Unique Travels**
+  - Reason: Coordinates Match (25m)
+- **Coffee House Rovaniemi** vs **Ravintola Monte Rosa**
+  - Reason: Coordinates Match (31m)
+- **Curio** vs **Hostel Café Koti**
+  - Reason: Coordinates Match (0m)
+- **Frans & Chérie Bistro** vs **Original Sokos Hotel Vaakuna**
+  - Reason: Coordinates Match (14m)
+- **Frans & Chérie Bistro** vs **Scandic Pohjanhovi**
+  - Reason: Coordinates Match (49m)
+- **Gustav Kitchen & Bar** vs **Hemingway's Rovaniemi**
+  - Reason: Coordinates Match (42m)
+- **Gustav Kitchen & Bar** vs **Hook**
+  - Reason: Coordinates Match (30m)
+- **Gustav Kitchen & Bar** vs **Irish Arms**
+  - Reason: Coordinates Match (23m)
+- **Gustav Kitchen & Bar** vs **Oliver's Corner**
+  - Reason: Coordinates Match (23m)
+- **Gustav Kitchen & Bar** vs **Rovaniemi Tourist Information**
+  - Reason: Coordinates Match (9m)
+- **Gustav Kitchen & Bar** vs **Santa's Hotel Santa Claus**
+  - Reason: Coordinates Match (45m)
+- **Gustav Kitchen & Bar** vs **Wanha Mestari**
+  - Reason: Coordinates Match (42m)
+- **Gustav Kitchen & Bar** vs **Zoomit**
+  - Reason: Coordinates Match (30m)
+- **Haawe Boutique Apart Hotel** vs **Hai Long**
+  - Reason: Coordinates Match (15m)
+- **Haawe Boutique Apart Hotel** vs **Kauppayhtiö**
+  - Reason: Coordinates Match (46m)
+- **Haawe Boutique Apart Hotel** vs **Pure Pizza**
+  - Reason: Coordinates Match (46m)
+- **Hai Long** vs **Safartica**
+  - Reason: Coordinates Match (39m)
+- **Half Moon Night Club** vs **Marttiini Knife Shop**
+  - Reason: Coordinates Match (20m)
+- **Half Moon Night Club** vs **Rinteenkulma Shopping Centre**
+  - Reason: Coordinates Match (16m)
+- **Hemingway's Rovaniemi** vs **Hook**
+  - Reason: Coordinates Match (14m)
+- **Hemingway's Rovaniemi** vs **Irish Arms**
+  - Reason: Coordinates Match (35m)
+- **Hemingway's Rovaniemi** vs **Oliver's Corner**
+  - Reason: Coordinates Match (35m)
+- **Hemingway's Rovaniemi** vs **Rovaniemi Tourist Information**
+  - Reason: Coordinates Match (48m)
+- **Hemingway's Rovaniemi** vs **Santa's Hotel Santa Claus**
+  - Reason: Coordinates Match (30m)
+- **Hemingway's Rovaniemi** vs **Uitto Pub**
+  - Reason: Coordinates Match (43m)
+- **Hemingway's Rovaniemi** vs **Wanha Mestari**
+  - Reason: Coordinates Match (0m)
+- **Hemingway's Rovaniemi** vs **Zoomit**
+  - Reason: Coordinates Match (29m)
+- **Himo** vs **Paha Kurki Rockhouse**
+  - Reason: Coordinates Match (39m)
+- **Himo** vs **Safartica**
+  - Reason: Coordinates Match (40m)
+- **Hook** vs **Irish Arms**
+  - Reason: Coordinates Match (20m)
+- **Hook** vs **Oliver's Corner**
+  - Reason: Coordinates Match (20m)
+- **Hook** vs **Rovaniemi Tourist Information**
+  - Reason: Coordinates Match (37m)
+- **Hook** vs **Santa's Hotel Santa Claus**
+  - Reason: Coordinates Match (37m)
+- **Hook** vs **Uitto Pub**
+  - Reason: Coordinates Match (44m)
+- **Hook** vs **Wanha Mestari**
+  - Reason: Coordinates Match (14m)
+- **Hook** vs **Zoomit**
+  - Reason: Coordinates Match (29m)
+- **Irish Arms** vs **Oliver's Corner**
+  - Reason: Coordinates Match (0m)
+- **Irish Arms** vs **Rovaniemi Tourist Information**
+  - Reason: Coordinates Match (32m)
+- **Irish Arms** vs **Safartica**
+  - Reason: Coordinates Match (43m)
+- **Irish Arms** vs **Wanha Mestari**
+  - Reason: Coordinates Match (35m)
+- **Irish Arms** vs **Zoomit**
+  - Reason: Coordinates Match (41m)
+- **Kahvila Kauppayhtiö** vs **Nordic Unique Travels**
+  - Reason: Coordinates Match (39m)
+- **Kahvila Kauppayhtiö** vs **Ravintola Monte Rosa**
+  - Reason: Coordinates Match (41m)
+- **Kahvila Kauppayhtiö** vs **Roy Club**
+  - Reason: Coordinates Match (24m)
+- **Kauppayhtiö** vs **Pure Pizza**
+  - Reason: Coordinates Match (0m)
+- **Kemi SnowCastle** vs **Sampo Icebreaker**
+  - Reason: Coordinates Match (0m)
+- **Lapland Hotels Sky Ounasvaara** vs **Sky Ounasvaara Roof Terrace**
+  - Reason: Coordinates Match (0m)
+- **Lappia Hall** vs **Rovaniemi Theater**
+  - Reason: Coordinates Match (4m)
+- **Loft Cafe** vs **Marimekko Outlet**
+  - Reason: Coordinates Match (44m)
+- **Lordi's Square** vs **Nili Restaurant**
+  - Reason: Coordinates Match (45m)
+- **Lordi's Square** vs **Piece of Lapland**
+  - Reason: Coordinates Match (37m)
+- **Lordi's Square** vs **Sampokeskus Shopping Center**
+  - Reason: Coordinates Match (48m)
+- **Marimekko Outlet** vs **Santa Claus Office**
+  - Reason: Coordinates Match (13m)
+- **Marimekko Outlet** vs **Santa Claus Village**
+  - Reason: Coordinates Match (43m)
+- **Marttiini Knife Shop** vs **Rinteenkulma Shopping Centre**
+  - Reason: Coordinates Match (19m)
+- **Mrs. Santa Claus Christmas Cottage** vs **Santa Claus Reindeer**
+  - Reason: Coordinates Match (10m)
+- **Nili Restaurant** vs **Roka Kitchen & Bar**
+  - Reason: Coordinates Match (40m)
+- **Nili Restaurant** vs **Santa's Hotel Santa Claus**
+  - Reason: Coordinates Match (46m)
+- **Nordic Unique Travels** vs **Ravintola Monte Rosa**
+  - Reason: Coordinates Match (6m)
+- **Oliver's Corner** vs **Rovaniemi Tourist Information**
+  - Reason: Coordinates Match (32m)
+- **Oliver's Corner** vs **Safartica**
+  - Reason: Coordinates Match (43m)
+- **Oliver's Corner** vs **Wanha Mestari**
+  - Reason: Coordinates Match (35m)
+- **Oliver's Corner** vs **Zoomit**
+  - Reason: Coordinates Match (41m)
+- **Original Sokos Hotel Vaakuna** vs **Scandic Pohjanhovi**
+  - Reason: Coordinates Match (36m)
+- **Paha Kurki Rockhouse** vs **Safartica**
+  - Reason: Coordinates Match (42m)
+- **Pentik Arctic Circle** vs **Santa Claus Office**
+  - Reason: Coordinates Match (43m)
+- **Pentik Arctic Circle** vs **Santa Claus Village**
+  - Reason: Coordinates Match (12m)
+- **People's Pub** vs **Roka Street Bistro**
+  - Reason: Coordinates Match (31m)
+- **People's Pub** vs **Wingston**
+  - Reason: Coordinates Match (17m)
+- **Piece of Lapland** vs **Sampokeskus Shopping Center**
+  - Reason: Coordinates Match (49m)
+- **Rang Mahal** vs **Revontuli Shopping Centre**
+  - Reason: Coordinates Match (40m)
+- **Rang Mahal** vs **Scandic Rovaniemi City**
+  - Reason: Coordinates Match (0m)
+- **Restaurant Gaissa** vs **Roka Kitchen & Bar**
+  - Reason: Coordinates Match (31m)
+- **Restaurant Gaissa** vs **Santa's Hotel Santa Claus**
+  - Reason: Coordinates Match (45m)
+- **Revontuli Shopping Centre** vs **Scandic Rovaniemi City**
+  - Reason: Coordinates Match (40m)
+- **Roka Kitchen & Bar** vs **Santa's Hotel Santa Claus**
+  - Reason: Coordinates Match (32m)
+- **Roka Kitchen & Bar** vs **Zoomit**
+  - Reason: Coordinates Match (46m)
+- **Roka Street Bistro** vs **Wingston**
+  - Reason: Coordinates Match (43m)
+- **Roosevelt Cottage** vs **Santa Claus Main Post Office**
+  - Reason: Coordinates Match (25m)
+- **Rovaniemi Tourist Information** vs **Santa's Hotel Santa Claus**
+  - Reason: Coordinates Match (45m)
+- **Rovaniemi Tourist Information** vs **Wanha Mestari**
+  - Reason: Coordinates Match (48m)
+- **Rovaniemi Tourist Information** vs **Zoomit**
+  - Reason: Coordinates Match (30m)
+- **Santa Claus Holiday Village** vs **Three Elves Restaurant**
+  - Reason: Coordinates Match (41m)
+- **Santa Claus Office** vs **Santa Claus Village**
+  - Reason: Coordinates Match (33m)
+- **Santa's Hotel Santa Claus** vs **Wanha Mestari**
+  - Reason: Coordinates Match (30m)
+- **Santa's Hotel Santa Claus** vs **Zoomit**
+  - Reason: Coordinates Match (14m)
+- **Santasport Apartment Hotel** vs **Santasport Institute**
+  - Reason: Coordinates Match (0m)
+- **Snowman World** vs **Snowman World Glass Resort**
+  - Reason: Coordinates Match (0m)
+- **Snowman World** vs **Valley of Snowmen**
+  - Reason: Coordinates Match (0m)
+- **Snowman World Glass Resort** vs **Valley of Snowmen**
+  - Reason: Coordinates Match (0m)
+- **Uitto Pub** vs **Wanha Mestari**
+  - Reason: Coordinates Match (43m)
+- **Vaattunki Wilderness Area** vs **Vaattunki Wilderness Resort**
+  - Reason: Coordinates Match (0m)
+- **Wanha Mestari** vs **Zoomit**
+  - Reason: Coordinates Match (29m)
+
+## San Sebastian (san_sebastian.json)
+- **A Fuego Negro** vs **Casa Urola**
+  - Reason: Coordinates Match (33m)
+- **A Fuego Negro** vs **Goiz Argi**
+  - Reason: Coordinates Match (33m)
+- **A Fuego Negro** vs **La Viña**
+  - Reason: Coordinates Match (22m)
+- **A Fuego Negro** vs **Pintxo Tour**
+  - Reason: Coordinates Match (33m)
+- **A Fuego Negro** vs **Sirimiri**
+  - Reason: Coordinates Match (46m)
+- **A Fuego Negro** vs **Txepetxa**
+  - Reason: Coordinates Match (16m)
+- **Alboka Artesania** vs **Bar Zeruko**
+  - Reason: Coordinates Match (40m)
+- **Alboka Artesania** vs **Plaza de la Constitucion**
+  - Reason: Coordinates Match (0m)
+- **Alboka Artesania** vs **Tamboril**
+  - Reason: Coordinates Match (46m)
+- **Alboka Artesania** vs **Tamborrada**
+  - Reason: Coordinates Match (0m)
+- **Alboka Artesania** vs **Txuleta**
+  - Reason: Coordinates Match (40m)
+- **Alderdi Eder Gardens** vs **Altxerri Bar & Jazz**
+  - Reason: Coordinates Match (0m)
+- **Aralar Mendi Elkartea** vs **Gerald's Bar**
+  - Reason: Coordinates Match (40m)
+- **Arzak** vs **Arzak Laboratory**
+  - Reason: Coordinates Match (0m)
+- **Atari** vs **Bar Martinez**
+  - Reason: Coordinates Match (46m)
+- **Atari** vs **Bar Nestor**
+  - Reason: Coordinates Match (24m)
+- **Atari** vs **Bar Nestorn**
+  - Reason: Coordinates Match (24m)
+- **Atari** vs **Bar Sport**
+  - Reason: Coordinates Match (16m)
+- **Atari** vs **Basilica of Santa Maria**
+  - Reason: Coordinates Match (0m)
+- **Atari** vs **Casa Ponsol**
+  - Reason: Coordinates Match (46m)
+- **Atari Gastroteka** vs **Pukas Surf Shop**
+  - Reason: Coordinates Match (37m)
+- **Bar Azkena** vs **Mercado de la Bretxa**
+  - Reason: Coordinates Match (0m)
+- **Bar Desy** vs **Bergara Bar**
+  - Reason: Coordinates Match (40m)
+- **Bar Desy** vs **La Gintonería Donostiarra**
+  - Reason: Coordinates Match (0m)
+- **Bar Martinez** vs **Bar Sport**
+  - Reason: Coordinates Match (37m)
+- **Bar Martinez** vs **Basilica of Santa Maria**
+  - Reason: Coordinates Match (46m)
+- **Bar Martinez** vs **Borda Berri**
+  - Reason: Coordinates Match (27m)
+- **Bar Martinez** vs **Casa Ponsol**
+  - Reason: Coordinates Match (0m)
+- **Bar Martinez** vs **Casa Urola**
+  - Reason: Coordinates Match (41m)
+- **Bar Martinez** vs **Goiz Argi**
+  - Reason: Coordinates Match (41m)
+- **Bar Martinez** vs **Kokotxa**
+  - Reason: Coordinates Match (27m)
+- **Bar Martinez** vs **Paco Bueno**
+  - Reason: Coordinates Match (27m)
+- **Bar Martinez** vs **Pintxo Tour**
+  - Reason: Coordinates Match (41m)
+- **Bar Martinez** vs **SSua Arde Donostia**
+  - Reason: Coordinates Match (48m)
+- **Bar Martinez** vs **Zapore Jai**
+  - Reason: Coordinates Match (27m)
+- **Bar Nestor** vs **Bar Nestorn**
+  - Reason: Coordinates Match (0m)
+- **Bar Nestor** vs **Bar Sport**
+  - Reason: Coordinates Match (40m)
+- **Bar Nestor** vs **Basilica of Santa Maria**
+  - Reason: Coordinates Match (24m)
+- **Bar Nestorn** vs **Bar Sport**
+  - Reason: Coordinates Match (40m)
+- **Bar Nestorn** vs **Basilica of Santa Maria**
+  - Reason: Coordinates Match (24m)
+- **Bar Sport** vs **Basilica of Santa Maria**
+  - Reason: Coordinates Match (16m)
+- **Bar Sport** vs **Casa Ponsol**
+  - Reason: Coordinates Match (37m)
+- **Bar Sport** vs **Casa Urola**
+  - Reason: Coordinates Match (40m)
+- **Bar Sport** vs **Goiz Argi**
+  - Reason: Coordinates Match (40m)
+- **Bar Sport** vs **Pintxo Tour**
+  - Reason: Coordinates Match (40m)
+- **Bar Sport** vs **Txepetxa**
+  - Reason: Coordinates Match (41m)
+- **Bar Zeruko** vs **Borda Berri**
+  - Reason: Coordinates Match (40m)
+- **Bar Zeruko** vs **Kokotxa**
+  - Reason: Coordinates Match (40m)
+- **Bar Zeruko** vs **Paco Bueno**
+  - Reason: Coordinates Match (40m)
+- **Bar Zeruko** vs **Plaza de la Constitucion**
+  - Reason: Coordinates Match (40m)
+- **Bar Zeruko** vs **Tamboril**
+  - Reason: Coordinates Match (22m)
+- **Bar Zeruko** vs **Tamborrada**
+  - Reason: Coordinates Match (40m)
+- **Bar Zeruko** vs **Txuleta**
+  - Reason: Coordinates Match (0m)
+- **Bar Zeruko** vs **Zapore Jai**
+  - Reason: Coordinates Match (40m)
+- **Basilica of Santa Maria** vs **Casa Ponsol**
+  - Reason: Coordinates Match (46m)
+- **Bataplan Disco** vs **Café de la Concha**
+  - Reason: Coordinates Match (46m)
+- **Bergara Bar** vs **La Gintonería Donostiarra**
+  - Reason: Coordinates Match (40m)
+- **Bideluze** vs **Gipuzkoa Plaza**
+  - Reason: Coordinates Match (0m)
+- **Borda Berri** vs **Casa Ponsol**
+  - Reason: Coordinates Match (27m)
+- **Borda Berri** vs **Kokotxa**
+  - Reason: Coordinates Match (0m)
+- **Borda Berri** vs **Paco Bueno**
+  - Reason: Coordinates Match (0m)
+- **Borda Berri** vs **Tamboril**
+  - Reason: Coordinates Match (46m)
+- **Borda Berri** vs **Txuleta**
+  - Reason: Coordinates Match (40m)
+- **Borda Berri** vs **Zapore Jai**
+  - Reason: Coordinates Match (0m)
+- **Caledonian** vs **San Sebastian Food**
+  - Reason: Coordinates Match (0m)
+- **Casa Ponsol** vs **Casa Urola**
+  - Reason: Coordinates Match (41m)
+- **Casa Ponsol** vs **Goiz Argi**
+  - Reason: Coordinates Match (41m)
+- **Casa Ponsol** vs **Kokotxa**
+  - Reason: Coordinates Match (27m)
+- **Casa Ponsol** vs **Paco Bueno**
+  - Reason: Coordinates Match (27m)
+- **Casa Ponsol** vs **Pintxo Tour**
+  - Reason: Coordinates Match (41m)
+- **Casa Ponsol** vs **SSua Arde Donostia**
+  - Reason: Coordinates Match (48m)
+- **Casa Ponsol** vs **Zapore Jai**
+  - Reason: Coordinates Match (27m)
+- **Casa Urola** vs **Goiz Argi**
+  - Reason: Coordinates Match (0m)
+- **Casa Urola** vs **Pintxo Tour**
+  - Reason: Coordinates Match (0m)
+- **Casa Urola** vs **SSua Arde Donostia**
+  - Reason: Coordinates Match (41m)
+- **Casa Urola** vs **Txepetxa**
+  - Reason: Coordinates Match (37m)
+- **City Hall** vs **Ganbara**
+  - Reason: Coordinates Match (37m)
+- **City Hall** vs **Garrarte**
+  - Reason: Coordinates Match (33m)
+- **Ganbara** vs **Garrarte**
+  - Reason: Coordinates Match (16m)
+- **Ganbara** vs **La Cepa**
+  - Reason: Coordinates Match (27m)
+- **Ganbara** vs **Old Town Coffee**
+  - Reason: Coordinates Match (27m)
+- **Ganbara** vs **Parte Vieja (Old Town)**
+  - Reason: Coordinates Match (27m)
+- **Ganbara** vs **SSua Arde Donostia**
+  - Reason: Coordinates Match (44m)
+- **Gandarias** vs **Garrarte**
+  - Reason: Coordinates Match (47m)
+- **Gandarias** vs **La Cepa**
+  - Reason: Coordinates Match (27m)
+- **Gandarias** vs **Maiatza**
+  - Reason: Coordinates Match (41m)
+- **Gandarias** vs **Old Town Coffee**
+  - Reason: Coordinates Match (27m)
+- **Gandarias** vs **Parte Vieja (Old Town)**
+  - Reason: Coordinates Match (27m)
+- **Gandarias** vs **SSua Arde Donostia**
+  - Reason: Coordinates Match (32m)
+- **Garrarte** vs **La Cepa**
+  - Reason: Coordinates Match (22m)
+- **Garrarte** vs **Old Town Coffee**
+  - Reason: Coordinates Match (22m)
+- **Garrarte** vs **Parte Vieja (Old Town)**
+  - Reason: Coordinates Match (22m)
+- **Garrarte** vs **SSua Arde Donostia**
+  - Reason: Coordinates Match (47m)
+- **Gerald's Bar** vs **Ramuntxo Berri**
+  - Reason: Coordinates Match (40m)
+- **Goiz Argi** vs **Pintxo Tour**
+  - Reason: Coordinates Match (0m)
+- **Goiz Argi** vs **SSua Arde Donostia**
+  - Reason: Coordinates Match (41m)
+- **Goiz Argi** vs **Txepetxa**
+  - Reason: Coordinates Match (37m)
+- **Jazzaldia** vs **Surfing Lesson**
+  - Reason: Coordinates Match (40m)
+- **Kokotxa** vs **Paco Bueno**
+  - Reason: Coordinates Match (0m)
+- **Kokotxa** vs **Tamboril**
+  - Reason: Coordinates Match (46m)
+- **Kokotxa** vs **Txuleta**
+  - Reason: Coordinates Match (40m)
+- **Kokotxa** vs **Zapore Jai**
+  - Reason: Coordinates Match (0m)
+- **Kursaal Congress Centre** vs **San Sebastian International Film Festival**
+  - Reason: Coordinates Match (0m)
+- **Kutxa Kultur** vs **Tabakalera**
+  - Reason: Coordinates Match (40m)
+- **La Cepa** vs **Old Town Coffee**
+  - Reason: Coordinates Match (0m)
+- **La Cepa** vs **Parte Vieja (Old Town)**
+  - Reason: Coordinates Match (0m)
+- **La Cepa** vs **SSua Arde Donostia**
+  - Reason: Coordinates Match (27m)
+- **La Cuchara de San Telmo** vs **Sirimiri**
+  - Reason: Coordinates Match (40m)
+- **La Viña** vs **Sirimiri**
+  - Reason: Coordinates Match (40m)
+- **La Viña** vs **Txepetxa**
+  - Reason: Coordinates Match (27m)
+- **Loreak Mendian** vs **Narru**
+  - Reason: Coordinates Match (0m)
+- **Maria Cristina Bridge** vs **Mercado de Navidad**
+  - Reason: Coordinates Match (0m)
+- **Miramar Palace** vs **Miramar Palace Gardens**
+  - Reason: Coordinates Match (0m)
+- **Museo del Whisky** vs **San Martin Market**
+  - Reason: Coordinates Match (0m)
+- **Old Town Coffee** vs **Parte Vieja (Old Town)**
+  - Reason: Coordinates Match (0m)
+- **Old Town Coffee** vs **SSua Arde Donostia**
+  - Reason: Coordinates Match (27m)
+- **Paco Bueno** vs **Tamboril**
+  - Reason: Coordinates Match (46m)
+- **Paco Bueno** vs **Txuleta**
+  - Reason: Coordinates Match (40m)
+- **Paco Bueno** vs **Zapore Jai**
+  - Reason: Coordinates Match (0m)
+- **Parte Vieja (Old Town)** vs **SSua Arde Donostia**
+  - Reason: Coordinates Match (27m)
+- **Pintxo Tour** vs **SSua Arde Donostia**
+  - Reason: Coordinates Match (41m)
+- **Pintxo Tour** vs **Txepetxa**
+  - Reason: Coordinates Match (37m)
+- **Plaza de la Constitucion** vs **Tamboril**
+  - Reason: Coordinates Match (46m)
+- **Plaza de la Constitucion** vs **Tamborrada**
+  - Reason: Coordinates Match (0m)
+- **Plaza de la Constitucion** vs **Txuleta**
+  - Reason: Coordinates Match (40m)
+- **Sirimiri** vs **Txepetxa**
+  - Reason: Coordinates Match (32m)
+- **Surfing Lesson** vs **The End**
+  - Reason: Coordinates Match (40m)
+- **Surfing Lesson** vs **The Loaf**
+  - Reason: Coordinates Match (40m)
+- **Surfing Lesson** vs **Zurriola Surf School**
+  - Reason: Coordinates Match (40m)
+- **Tamboril** vs **Tamborrada**
+  - Reason: Coordinates Match (46m)
+- **Tamboril** vs **Txuleta**
+  - Reason: Coordinates Match (22m)
+- **Tamboril** vs **Zapore Jai**
+  - Reason: Coordinates Match (46m)
+- **Tamborrada** vs **Txuleta**
+  - Reason: Coordinates Match (40m)
+- **The End** vs **The Loaf**
+  - Reason: Coordinates Match (0m)
+- **The End** vs **Zurriola Surf School**
+  - Reason: Coordinates Match (0m)
+- **The Loaf** vs **Zurriola Surf School**
+  - Reason: Coordinates Match (0m)
+- **Txuleta** vs **Zapore Jai**
+  - Reason: Coordinates Match (40m)
+
+## Santorini (santorini.json)
+- **1800-Floga** vs **Oia Hediyelik Dükkanları**
+  - Reason: Coordinates Match (22m)
+- **Amoudi Bay** vs **Amoudi Bay Taverns**
+  - Reason: Coordinates Match (0m)
+- **Amoudi Bay** vs **Resurrection of the Lord**
+  - Reason: Coordinates Match (0m)
+- **Amoudi Bay Taverns** vs **Resurrection of the Lord**
+  - Reason: Coordinates Match (0m)
+- **Argo Restaurant** vs **Mati Art Gallery**
+  - Reason: Coordinates Match (0m)
+- **Argo Restaurant** vs **MoMix Bar**
+  - Reason: Coordinates Match (0m)
+- **Avants Suites Restaurant** vs **Firostefani**
+  - Reason: Coordinates Match (49m)
+- **Boutari Winery** vs **Megalochori**
+  - Reason: Coordinates Match (42m)
+- **Dominican Convent** vs **Franco's Bar**
+  - Reason: Coordinates Match (0m)
+- **Fava Restaurant** vs **Fira Cable Car**
+  - Reason: Coordinates Match (0m)
+- **Fava Restaurant** vs **Kissingfish Santorini**
+  - Reason: Coordinates Match (0m)
+- **Fira Cable Car** vs **Kissingfish Santorini**
+  - Reason: Coordinates Match (0m)
+- **Fira Cable Car** vs **Teleferik Fira**
+  - Reason: Name matches Name_En
+- **Fira Merkez** vs **Kira Thira Jazz Bar**
+  - Reason: Coordinates Match (44m)
+- **Fira Merkez** vs **Museum of Prehistoric Thera**
+  - Reason: Coordinates Match (0m)
+- **Gavalas Winery** vs **Sigalas Winery**
+  - Reason: Fuzzy Name Match (0.86)
+- **Hassapiko** vs **Mnemossyne Gallery**
+  - Reason: Coordinates Match (0m)
+- **Kira Thira Jazz Bar** vs **Museum of Prehistoric Thera**
+  - Reason: Coordinates Match (44m)
+- **Koo Club** vs **Obelix Souvlaki**
+  - Reason: Coordinates Match (0m)
+- **Koo Club** vs **Two Brothers Bar**
+  - Reason: Coordinates Match (0m)
+- **Lucky's Souvlaki** vs **Tomatakia (Domates Köftesi)**
+  - Reason: Coordinates Match (44m)
+- **Mama Thira** vs **Palia Kameni Cocktail Bar**
+  - Reason: Coordinates Match (49m)
+- **Mati Art Gallery** vs **MoMix Bar**
+  - Reason: Coordinates Match (0m)
+- **Momo Restaurant** vs **Pelican Kipos**
+  - Reason: Coordinates Match (0m)
+- **Momo Restaurant** vs **Santorini Wine Adventure**
+  - Reason: Coordinates Match (0m)
+- **Obelix Souvlaki** vs **Two Brothers Bar**
+  - Reason: Coordinates Match (0m)
+- **Oia Castle** vs **PK Cocktail Bar**
+  - Reason: Coordinates Match (49m)
+- **Oia Castle** vs **Sun Spirit**
+  - Reason: Coordinates Match (44m)
+- **Panagia Katefiani** vs **Wave Bar**
+  - Reason: Coordinates Match (0m)
+- **Pelican Kipos** vs **Santorini Wine Adventure**
+  - Reason: Coordinates Match (0m)
+
+## Saraybosna (saraybosna.json)
+- **Akademi Güzel Sanatlar** vs **Festina Lente Köprüsü**
+  - Reason: Coordinates Match (27m)
+- **Ali Paşa Camii** vs **Talks & Giggles**
+  - Reason: Coordinates Match (0m)
+- **Andar** vs **Barhana**
+  - Reason: Coordinates Match (41m)
+- **Andar** vs **Dveri**
+  - Reason: Coordinates Match (22m)
+- **Andar** vs **Mala Kuhinja**
+  - Reason: Coordinates Match (33m)
+- **Andar** vs **Ramis**
+  - Reason: Coordinates Match (45m)
+- **Andar** vs **Ćevabdžinica Hodžić**
+  - Reason: Coordinates Match (41m)
+- **Ars Aevi** vs **Eiffel Köprüsü**
+  - Reason: Coordinates Match (0m)
+- **Art Kuća Sevdaha** vs **Aščinica Hadžibajrić**
+  - Reason: Coordinates Match (0m)
+- **Art Kuća Sevdaha** vs **Baklava Dućan**
+  - Reason: Coordinates Match (41m)
+- **Art Kuća Sevdaha** vs **Bakırcılar Çarşısı (Kazandziluk)**
+  - Reason: Coordinates Match (26m)
+- **Art Kuća Sevdaha** vs **Barhana**
+  - Reason: Coordinates Match (41m)
+- **Art Kuća Sevdaha** vs **Başçarşı**
+  - Reason: Coordinates Match (25m)
+- **Art Kuća Sevdaha** vs **Başçarşı Camii (Hoca Durak)**
+  - Reason: Coordinates Match (11m)
+- **Art Kuća Sevdaha** vs **Carigrad**
+  - Reason: Coordinates Match (41m)
+- **Art Kuća Sevdaha** vs **Dženita**
+  - Reason: Coordinates Match (33m)
+- **Art Kuća Sevdaha** vs **Isfahan Gallery**
+  - Reason: Coordinates Match (40m)
+- **Art Kuća Sevdaha** vs **Magaza**
+  - Reason: Coordinates Match (41m)
+- **Art Kuća Sevdaha** vs **Miris Dunja**
+  - Reason: Coordinates Match (24m)
+- **Art Kuća Sevdaha** vs **Nanina Kuhinja**
+  - Reason: Coordinates Match (45m)
+- **Art Kuća Sevdaha** vs **Ramis**
+  - Reason: Coordinates Match (40m)
+- **Art Kuća Sevdaha** vs **Sebil (Sebilj Brunnen)**
+  - Reason: Coordinates Match (28m)
+- **At Mejdan Parkı** vs **Müzik Pavyonu (At Meydanı)**
+  - Reason: Coordinates Match (40m)
+- **Aščinica ASDŽ** vs **Cevabdzinica Zeljo**
+  - Reason: Coordinates Match (37m)
+- **Aščinica ASDŽ** vs **Mala Kuhinja**
+  - Reason: Coordinates Match (40m)
+- **Aščinica ASDŽ** vs **Svrzo House**
+  - Reason: Coordinates Match (40m)
+- **Aščinica ASDŽ** vs **Ćevabdžinica Hodžić**
+  - Reason: Coordinates Match (22m)
+- **Aščinica Hadžibajrić** vs **Baklava Dućan**
+  - Reason: Coordinates Match (41m)
+- **Aščinica Hadžibajrić** vs **Bakırcılar Çarşısı (Kazandziluk)**
+  - Reason: Coordinates Match (26m)
+- **Aščinica Hadžibajrić** vs **Barhana**
+  - Reason: Coordinates Match (41m)
+- **Aščinica Hadžibajrić** vs **Başçarşı**
+  - Reason: Coordinates Match (25m)
+- **Aščinica Hadžibajrić** vs **Başçarşı Camii (Hoca Durak)**
+  - Reason: Coordinates Match (11m)
+- **Aščinica Hadžibajrić** vs **Carigrad**
+  - Reason: Coordinates Match (41m)
+- **Aščinica Hadžibajrić** vs **Dženita**
+  - Reason: Coordinates Match (33m)
+- **Aščinica Hadžibajrić** vs **Isfahan Gallery**
+  - Reason: Coordinates Match (40m)
+- **Aščinica Hadžibajrić** vs **Magaza**
+  - Reason: Coordinates Match (41m)
+- **Aščinica Hadžibajrić** vs **Miris Dunja**
+  - Reason: Coordinates Match (24m)
+- **Aščinica Hadžibajrić** vs **Nanina Kuhinja**
+  - Reason: Coordinates Match (45m)
+- **Aščinica Hadžibajrić** vs **Ramis**
+  - Reason: Coordinates Match (40m)
+- **Aščinica Hadžibajrić** vs **Sebil (Sebilj Brunnen)**
+  - Reason: Coordinates Match (28m)
+- **BBI Center (Aria Mall)** vs **Torte i to**
+  - Reason: Coordinates Match (0m)
+- **BBI Center (Aria Mall)** vs **Vučko**
+  - Reason: Coordinates Match (45m)
+- **Badem Butik** vs **Gazi Hüsrev Bey Camii**
+  - Reason: Coordinates Match (35m)
+- **Badem Butik** vs **Meeting of Cultures**
+  - Reason: Coordinates Match (45m)
+- **Badem Butik** vs **Mrvica**
+  - Reason: Coordinates Match (22m)
+- **Badem Butik** vs **Sahat Kula (Saat Kulesi)**
+  - Reason: Coordinates Match (11m)
+- **Baklava Dućan** vs **Başçarşı Camii (Hoca Durak)**
+  - Reason: Coordinates Match (40m)
+- **Baklava Dućan** vs **Carigrad**
+  - Reason: Coordinates Match (47m)
+- **Baklava Dućan** vs **Dženita**
+  - Reason: Coordinates Match (45m)
+- **Baklava Dućan** vs **Isfahan Gallery**
+  - Reason: Coordinates Match (11m)
+- **Baklava Dućan** vs **Morića Han**
+  - Reason: Coordinates Match (40m)
+- **Baklava Dućan** vs **Nanina Kuhinja**
+  - Reason: Coordinates Match (11m)
+- **Bakırcılar Çarşısı (Kazandziluk)** vs **Barhana**
+  - Reason: Coordinates Match (21m)
+- **Bakırcılar Çarşısı (Kazandziluk)** vs **Başçarşı**
+  - Reason: Coordinates Match (21m)
+- **Bakırcılar Çarşısı (Kazandziluk)** vs **Başçarşı Camii (Hoca Durak)**
+  - Reason: Coordinates Match (35m)
+- **Bakırcılar Çarşısı (Kazandziluk)** vs **Buregdzinica Bosna**
+  - Reason: Coordinates Match (43m)
+- **Bakırcılar Çarşısı (Kazandziluk)** vs **Buregdžinica Sač**
+  - Reason: Coordinates Match (42m)
+- **Bakırcılar Çarşısı (Kazandziluk)** vs **Carigrad**
+  - Reason: Coordinates Match (46m)
+- **Bakırcılar Çarşısı (Kazandziluk)** vs **Kazandžiluk Sokağı**
+  - Reason: Coordinates Match (42m)
+- **Bakırcılar Çarşısı (Kazandziluk)** vs **Magaza**
+  - Reason: Coordinates Match (36m)
+- **Bakırcılar Çarşısı (Kazandziluk)** vs **Miris Dunja**
+  - Reason: Coordinates Match (19m)
+- **Bakırcılar Çarşısı (Kazandziluk)** vs **Ramis**
+  - Reason: Coordinates Match (27m)
+- **Bakırcılar Çarşısı (Kazandziluk)** vs **Sahbaz**
+  - Reason: Coordinates Match (42m)
+- **Bakırcılar Çarşısı (Kazandziluk)** vs **Sebil (Sebilj Brunnen)**
+  - Reason: Coordinates Match (40m)
+- **Barhana** vs **Başçarşı**
+  - Reason: Coordinates Match (20m)
+- **Barhana** vs **Başçarşı Camii (Hoca Durak)**
+  - Reason: Coordinates Match (45m)
+- **Barhana** vs **Buregdžinica Sač**
+  - Reason: Coordinates Match (44m)
+- **Barhana** vs **Dveri**
+  - Reason: Coordinates Match (40m)
+- **Barhana** vs **Kazandžiluk Sokağı**
+  - Reason: Coordinates Match (44m)
+- **Barhana** vs **Magaza**
+  - Reason: Coordinates Match (22m)
+- **Barhana** vs **Miris Dunja**
+  - Reason: Coordinates Match (19m)
+- **Barhana** vs **Ramis**
+  - Reason: Coordinates Match (11m)
+- **Barhana** vs **Sahbaz**
+  - Reason: Coordinates Match (44m)
+- **Barhana** vs **Sebil (Sebilj Brunnen)**
+  - Reason: Coordinates Match (39m)
+- **Barhana** vs **Sevdah Art House**
+  - Reason: Coordinates Match (44m)
+- **Başçarşı** vs **Başçarşı Camii (Hoca Durak)**
+  - Reason: Coordinates Match (26m)
+- **Başçarşı** vs **Dženita**
+  - Reason: Coordinates Match (39m)
+- **Başçarşı** vs **Magaza**
+  - Reason: Coordinates Match (17m)
+- **Başçarşı** vs **Miris Dunja**
+  - Reason: Coordinates Match (2m)
+- **Başçarşı** vs **Ramis**
+  - Reason: Coordinates Match (15m)
+- **Başçarşı** vs **Sebil (Sebilj Brunnen)**
+  - Reason: Coordinates Match (21m)
+- **Başçarşı** vs **Sevdah Art House**
+  - Reason: Coordinates Match (34m)
+- **Başçarşı Camii (Hoca Durak)** vs **Dženita**
+  - Reason: Coordinates Match (22m)
+- **Başçarşı Camii (Hoca Durak)** vs **Isfahan Gallery**
+  - Reason: Coordinates Match (41m)
+- **Başçarşı Camii (Hoca Durak)** vs **Magaza**
+  - Reason: Coordinates Match (40m)
+- **Başçarşı Camii (Hoca Durak)** vs **Miris Dunja**
+  - Reason: Coordinates Match (26m)
+- **Başçarşı Camii (Hoca Durak)** vs **Nanina Kuhinja**
+  - Reason: Coordinates Match (41m)
+- **Başçarşı Camii (Hoca Durak)** vs **Ramis**
+  - Reason: Coordinates Match (41m)
+- **Başçarşı Camii (Hoca Durak)** vs **Sebil (Sebilj Brunnen)**
+  - Reason: Coordinates Match (21m)
+- **Başçarşı Camii (Hoca Durak)** vs **Sevdah Art House**
+  - Reason: Coordinates Match (45m)
+- **Bezimistan (Gazi Hüsrev Bey Bedesteni)** vs **Bezistan (Kapalı Çarşı)**
+  - Reason: Coordinates Match (10m)
+- **Bezimistan (Gazi Hüsrev Bey Bedesteni)** vs **Meeting of Cultures**
+  - Reason: Coordinates Match (45m)
+- **Bezimistan (Gazi Hüsrev Bey Bedesteni)** vs **Taşlihan**
+  - Reason: Coordinates Match (40m)
+- **Bezistan (Kapalı Çarşı)** vs **Meeting of Cultures**
+  - Reason: Coordinates Match (48m)
+- **Bezistan (Kapalı Çarşı)** vs **Taşlihan**
+  - Reason: Coordinates Match (37m)
+- **Blind Tiger** vs **Kafana Ribica**
+  - Reason: Coordinates Match (0m)
+- **Blind Tiger** vs **Kamerni Teatar 55**
+  - Reason: Coordinates Match (0m)
+- **Blind Tiger** vs **Pirpa**
+  - Reason: Coordinates Match (0m)
+- **Board Room** vs **Boardroom**
+  - Reason: Fuzzy Name Match (0.95)
+- **Bosna Kültür Merkezi (BKC)** vs **Ebedi Ateş (Vjecna Vatra)**
+  - Reason: Coordinates Match (45m)
+- **Bosna Kültür Merkezi (BKC)** vs **Gradska Tržnica (Pazar Yeri)**
+  - Reason: Coordinates Match (33m)
+- **Bosna Kültür Merkezi (BKC)** vs **Manolo**
+  - Reason: Coordinates Match (33m)
+- **Bosna Kültür Merkezi (BKC)** vs **Markale Pazarı**
+  - Reason: Coordinates Match (0m)
+- **Buregdzinica Bosna** vs **Buregdzinica Sac**
+  - Reason: Coordinates Match (27m)
+- **Buregdzinica Bosna** vs **Buregdžinica Sač**
+  - Reason: Coordinates Match (49m)
+- **Buregdzinica Bosna** vs **Carigrad**
+  - Reason: Coordinates Match (22m)
+- **Buregdzinica Bosna** vs **Cevabdzinica Petica Ferhatovic**
+  - Reason: Coordinates Match (47m)
+- **Buregdzinica Bosna** vs **Kazandžiluk Sokağı**
+  - Reason: Coordinates Match (49m)
+- **Buregdzinica Bosna** vs **Sahbaz**
+  - Reason: Coordinates Match (49m)
+- **Buregdzinica Sac** vs **Buregdžinica Sač**
+  - Reason: Name matches Name_En + Coordinates Match
+- **Buregdzinica Sac** vs **Bursa Bezistanı**
+  - Reason: Coordinates Match (44m)
+- **Buregdzinica Sac** vs **Kazandžiluk Sokağı**
+  - Reason: Coordinates Match (30m)
+- **Buregdzinica Sac** vs **Sahbaz**
+  - Reason: Coordinates Match (30m)
+- **Buregdžinica Sač** vs **Bursa Bezistanı**
+  - Reason: Coordinates Match (27m)
+- **Buregdžinica Sač** vs **Kazandžiluk Sokağı**
+  - Reason: Coordinates Match (0m)
+- **Buregdžinica Sač** vs **Mala Kuhinja**
+  - Reason: Coordinates Match (40m)
+- **Buregdžinica Sač** vs **Sahbaz**
+  - Reason: Coordinates Match (0m)
+- **Bursa Bezistanı** vs **Kazandžiluk Sokağı**
+  - Reason: Coordinates Match (27m)
+- **Bursa Bezistanı** vs **Mala Kuhinja**
+  - Reason: Coordinates Match (32m)
+- **Bursa Bezistanı** vs **Sahbaz**
+  - Reason: Coordinates Match (27m)
+- **Carigrad** vs **Cevabdzinica Petica Ferhatovic**
+  - Reason: Coordinates Match (38m)
+- **Carigrad** vs **Isfahan Gallery**
+  - Reason: Coordinates Match (37m)
+- **Cevabdzinica Zeljo** vs **Gazi Husrev Bey Hamamı**
+  - Reason: Coordinates Match (18m)
+- **Chipas** vs **Ebedi Ateş (Vjecna Vatra)**
+  - Reason: Coordinates Match (45m)
+- **Chipas** vs **Vatra**
+  - Reason: Coordinates Match (0m)
+- **City Hall (Vijećnica) Exhibition** vs **Vijećnica (Belediye Binası)**
+  - Reason: Coordinates Match (5m)
+- **City Market (Markale Pazarı)** vs **Gradska Tržnica (Pazar Yeri)**
+  - Reason: Coordinates Match (22m)
+- **City Market (Markale Pazarı)** vs **Klopa**
+  - Reason: Coordinates Match (0m)
+- **City Market (Markale Pazarı)** vs **Manolo**
+  - Reason: Coordinates Match (22m)
+- **City Market (Markale Pazarı)** vs **Markale Pazarı**
+  - Reason: Exact English Name Match
+- **City Market (Markale Pazarı)** vs **Metropolis**
+  - Reason: Coordinates Match (45m)
+- **Despić Evi** vs **Saraybosna Müzesi 1878-1918**
+  - Reason: Coordinates Match (46m)
+- **Dveri** vs **Kolobara Han**
+  - Reason: Coordinates Match (42m)
+- **Dveri** vs **Magaza**
+  - Reason: Coordinates Match (40m)
+- **Dveri** vs **Ramis**
+  - Reason: Coordinates Match (39m)
+- **Dženita** vs **Magaza**
+  - Reason: Coordinates Match (45m)
+- **Dženita** vs **Miris Dunja**
+  - Reason: Coordinates Match (41m)
+- **Dženita** vs **Nanina Kuhinja**
+  - Reason: Coordinates Match (41m)
+- **Dženita** vs **Sebil (Sebilj Brunnen)**
+  - Reason: Coordinates Match (21m)
+- **Dženita** vs **Sevdah Art House**
+  - Reason: Coordinates Match (40m)
+- **Ebedi Ateş (Vjecna Vatra)** vs **Markale Pazarı**
+  - Reason: Coordinates Match (45m)
+- **Ebedi Ateş (Vjecna Vatra)** vs **Vatra**
+  - Reason: Coordinates Match (45m)
+- **Eski Ortodoks Kilisesi** vs **Kolobara Han**
+  - Reason: Coordinates Match (22m)
+- **Eski Ortodoks Kilisesi** vs **Muzej Valtera (Walter Defends Sarajevo)**
+  - Reason: Coordinates Match (22m)
+- **EspressoLab Sarajevo** vs **Saraybosna Gülleri (Sarajevo Rose)**
+  - Reason: Coordinates Match (0m)
+- **Ferhadija Camii** vs **Ferhadiye Camii**
+  - Reason: Fuzzy Name Match (0.87)
+- **Ferhadiye Camii** vs **İnsanlığa Karşı Suçlar ve Soykırım Müzesi**
+  - Reason: Coordinates Match (0m)
+- **Galerija 11/07/95** vs **Saraybosna Katedrali**
+  - Reason: Coordinates Match (11m)
+- **Gazi Hüsrev Bey Camii** vs **Sahat Kula (Saat Kulesi)**
+  - Reason: Coordinates Match (28m)
+- **Gazi Hüsrev Bey Camii** vs **Svrzo House**
+  - Reason: Coordinates Match (24m)
+- **Gradska Tržnica (Pazar Yeri)** vs **Klopa**
+  - Reason: Coordinates Match (22m)
+- **Gradska Tržnica (Pazar Yeri)** vs **Manolo**
+  - Reason: Coordinates Match (0m)
+- **Gradska Tržnica (Pazar Yeri)** vs **Markale Pazarı**
+  - Reason: Coordinates Match (33m)
+- **Gradska Tržnica (Pazar Yeri)** vs **Metropolis**
+  - Reason: Coordinates Match (40m)
+- **Hotel Europe** vs **Taşlıhan**
+  - Reason: Coordinates Match (0m)
+- **Inat Kuca** vs **Şeher Ćehaja Köprüsü**
+  - Reason: Coordinates Match (24m)
+- **Isfahan Gallery** vs **Morića Han**
+  - Reason: Coordinates Match (41m)
+- **Isfahan Gallery** vs **Nanina Kuhinja**
+  - Reason: Coordinates Match (22m)
+- **Jedileri (Yedi Kardeşler Türbesi)** vs **Yedi Kardeşler Türbesi (Jedileri)**
+  - Reason: Coordinates Match (0m)
+- **Kafana Ribica** vs **Kamerni Teatar 55**
+  - Reason: Coordinates Match (0m)
+- **Kafana Ribica** vs **Pirpa**
+  - Reason: Coordinates Match (0m)
+- **Kamerni Teatar 55** vs **Pirpa**
+  - Reason: Coordinates Match (0m)
+- **Kazandžiluk Sokağı** vs **Mala Kuhinja**
+  - Reason: Coordinates Match (40m)
+- **Kazandžiluk Sokağı** vs **Sahbaz**
+  - Reason: Coordinates Match (0m)
+- **Klopa** vs **Manolo**
+  - Reason: Coordinates Match (22m)
+- **Klopa** vs **Metropolis**
+  - Reason: Coordinates Match (45m)
+- **Kolobara Han** vs **Muzej Valtera (Walter Defends Sarajevo)**
+  - Reason: Coordinates Match (44m)
+- **Kolobara Han** vs **Ćevabdžinica Hodžić**
+  - Reason: Coordinates Match (44m)
+- **Latin Köprüsü** vs **Saraybosna Müzesi 1878-1918**
+  - Reason: Coordinates Match (36m)
+- **Magaza** vs **Miris Dunja**
+  - Reason: Coordinates Match (19m)
+- **Magaza** vs **Ramis**
+  - Reason: Coordinates Match (11m)
+- **Magaza** vs **Sebil (Sebilj Brunnen)**
+  - Reason: Coordinates Match (24m)
+- **Magaza** vs **Sevdah Art House**
+  - Reason: Coordinates Match (22m)
+- **Mala Kuhinja** vs **Sahbaz**
+  - Reason: Coordinates Match (40m)
+- **Mala Kuhinja** vs **Ćevabdžinica Hodžić**
+  - Reason: Coordinates Match (45m)
+- **Manolo** vs **Markale Pazarı**
+  - Reason: Coordinates Match (33m)
+- **Manolo** vs **Metropolis**
+  - Reason: Coordinates Match (40m)
+- **Meeting of Cultures** vs **Sahat Kula (Saat Kulesi)**
+  - Reason: Coordinates Match (41m)
+- **Meeting of Cultures** vs **Taşlihan**
+  - Reason: Coordinates Match (22m)
+- **Metropolis** vs **Slastičarna Egipat**
+  - Reason: Coordinates Match (45m)
+- **Ministry of Cejb** vs **Pekara Kovacuša**
+  - Reason: Coordinates Match (40m)
+- **Miris Dunja** vs **Ramis**
+  - Reason: Coordinates Match (16m)
+- **Miris Dunja** vs **Sebil (Sebilj Brunnen)**
+  - Reason: Coordinates Match (22m)
+- **Miris Dunja** vs **Sevdah Art House**
+  - Reason: Coordinates Match (37m)
+- **Morića Han** vs **Nanina Kuhinja**
+  - Reason: Coordinates Match (41m)
+- **Mrvica** vs **Sahat Kula (Saat Kulesi)**
+  - Reason: Coordinates Match (33m)
+- **Pivnica HS (Saraybosna Bira Fabrikası)** vs **Saraybosna Bira Fabrikası (Pivnica HS)**
+  - Reason: Exact English Name Match
+- **Ramis** vs **Sebil (Sebilj Brunnen)**
+  - Reason: Coordinates Match (31m)
+- **Ramis** vs **Sevdah Art House**
+  - Reason: Coordinates Match (33m)
+- **Saraybosna Ulusal Tiyatrosu** vs **Ulusal Tiyatro**
+  - Reason: Coordinates Match (0m)
+- **Sebil (Sebilj Brunnen)** vs **Sevdah Art House**
+  - Reason: Coordinates Match (24m)
+- **Sniper Alley (Ulica Zmaja od Bosne)** vs **Tarih Müzesi Cafe (Tito Cafe)**
+  - Reason: Coordinates Match (0m)
+- **Sunnyland** vs **Sunnyland Sarajevo**
+  - Reason: Name_En matches Name
+- **Svrzo House** vs **Ćevabdžinica Hodžić**
+  - Reason: Coordinates Match (45m)
+- **Taşlihan** vs **Taşlıhan**
+  - Reason: Exact English Name Match
+- **Torte i to** vs **Vučko**
+  - Reason: Coordinates Match (45m)
+- **Veliki Park** vs **Vučko**
+  - Reason: Coordinates Match (45m)
+- **İmparator Camii (Careva Džamija)** vs **İmparator Camii (Hünkar Camii)**
+  - Reason: Exact English Name Match + Coordinates Match
+
+## Seul (seul.json)
+- **BRICKSAND MYEONGDONG** vs **Daol Charcoal Grilling (Korean BBQ Daol)**
+  - Reason: Coordinates Match (24m)
+- **BRICKSAND MYEONGDONG** vs **Myeongdong Shopping Street**
+  - Reason: Coordinates Match (43m)
+- **Banpo Bridge Moonlight Rainbow Fountain** vs **Banpo Bridge Rainbow Fountain**
+  - Reason: Coordinates Match (22m)
+- **Bar Cham** vs **Bar Pomme**
+  - Reason: Coordinates Match (18m)
+- **Blue House (Cheong Wa Dae)** vs **Cheong Wa Dae (Blue House)**
+  - Reason: Coordinates Match (0m)
+- **Bukchon Hanok Köyü** vs **Bukchon Hanok Village**
+  - Reason: Coordinates Match (23m)
+- **COEX Aquarium** vs **Starfield Library**
+  - Reason: Coordinates Match (47m)
+- **Cinnabon Namsan Tower Branch** vs **N Seoul Tower**
+  - Reason: Coordinates Match (9m)
+- **Cinnabon Namsan Tower Branch** vs **Namsan Seoul Tower**
+  - Reason: Coordinates Match (9m)
+- **Coley** vs **Southside Parlor**
+  - Reason: Coordinates Match (36m)
+- **Common Ground** vs **Common Ground Seoul**
+  - Reason: Coordinates Match (14m)
+- **Ddong Cafe** vs **Insadong**
+  - Reason: Coordinates Match (33m)
+- **Ddong Cafe** vs **Insadong Street**
+  - Reason: Coordinates Match (41m)
+- **Euljiro winery(을지로 와이너리)** vs **The Daily Café Euljiro**
+  - Reason: Coordinates Match (14m)
+- **Gong-Gan** vs **Sky Gimbap**
+  - Reason: Coordinates Match (10m)
+- **Gyeongbokgung Palace** vs **Gyeongbokgung Sarayı**
+  - Reason: Coordinates Match (0m)
+- **Halal Korean Restaurant (Home Cooked Meal Gim Soensaeng** vs **Lit Lounge Itaewon 릿라운지 이태원**
+  - Reason: Coordinates Match (24m)
+- **Hongs Zzuggumi** vs **Saemaul Restaurant Hongdae Seogyo Branch**
+  - Reason: Coordinates Match (23m)
+- **Ikseon-dong Hanok Village** vs **Ikseondong Hanok Village**
+  - Reason: Fuzzy Name Match (0.98)
+- **JOVULAR** vs **Malic coffee**
+  - Reason: Coordinates Match (37m)
+- **Jabarano Coffee Hongdae (자바라노커피 홍대)** vs **홍대 맛집 새벽 | Hongdae restaurant | 홍대 술집 | Hongdae Bar & Pub Saebyeok**
+  - Reason: Coordinates Match (47m)
+- **Lotte World** vs **Lotte World Adventure**
+  - Reason: Coordinates Match (17m)
+- **L’Amant Secret** vs **Wangbijib Myeongdong (Korean BBQ)**
+  - Reason: Coordinates Match (46m)
+- **N Seoul Tower** vs **Namsan Seoul Tower**
+  - Reason: Coordinates Match (0m)
+- **Namdaemun Market** vs **VON COFFEE**
+  - Reason: Coordinates Match (42m)
+- **Pig Restaurant** vs **Pig Restaurant 2**
+  - Reason: Coordinates Match (7m)
+- **QUEEN DUMB Hongdae** vs **THE SEOUL PUB CRAWL**
+  - Reason: Coordinates Match (25m)
+- **바 카탈리스트 BAR Catalyst** vs **센트럴사이트 연남점 (Centralsite Coffee Roasters)**
+  - Reason: Coordinates Match (29m)
+
+## Sevilla (sevilla.json)
+- **2 MONOS BAR & COCTELERIA** vs **COFFEE UP CALLE FERIA, Sevilla**
+  - Reason: Coordinates Match (26m)
+- **2 MONOS BAR & COCTELERIA** vs **Vinoteca De Sur a Norte Organic Wine**
+  - Reason: Coordinates Match (29m)
+- **Abaceria del Postigo** vs **Flamenko Gösterisi**
+  - Reason: Coordinates Match (30m)
+- **Abaceria del Postigo** vs **Gelateria MITO**
+  - Reason: Coordinates Match (33m)
+- **Acento - Social Eatery** vs **Ozik Cafeteria**
+  - Reason: Coordinates Match (28m)
+- **Acento - Social Eatery** vs **Sr. Cangrejo | Restaurante en Sevilla**
+  - Reason: Coordinates Match (13m)
+- **Al Aljibe** vs **Mercadillo de los Jueves**
+  - Reason: Coordinates Match (42m)
+- **Al Wadi** vs **Casa Morales**
+  - Reason: Coordinates Match (30m)
+- **Antiquarium** vs **Mercado de la Encarnación**
+  - Reason: Coordinates Match (22m)
+- **Antiquarium** vs **Metropol Parasol (Las Setas)**
+  - Reason: Coordinates Match (23m)
+- **Az-Zait** vs **Az-Zait restaurante**
+  - Reason: Coordinates Match (28m)
+- **Az-Zait** vs **Basílica de Jesús del Gran Poder**
+  - Reason: Coordinates Match (34m)
+- **Bar Alfalfa** vs **Maldito Cocktail Bar**
+  - Reason: Coordinates Match (24m)
+- **Bar Alfalfa** vs **Petra**
+  - Reason: Coordinates Match (38m)
+- **Bar Alfalfa** vs **Restaurante Alfalfa 8**
+  - Reason: Coordinates Match (37m)
+- **Bar El Comercio** vs **Calle Tetuán**
+  - Reason: Coordinates Match (49m)
+- **Bar El Comercio** vs **Pan y Circo / Restaurante en el centro de Sevilla**
+  - Reason: Coordinates Match (31m)
+- **Basilica de la Macarena** vs **Basílica de la Macarena**
+  - Reason: Fuzzy Name Match (0.96)
+- **Bodega Santa Cruz (Las Columnas)** vs **Las Teresas**
+  - Reason: Coordinates Match (41m)
+- **COFFEE UP CALLE FERIA, Sevilla** vs **Vinoteca De Sur a Norte Organic Wine**
+  - Reason: Coordinates Match (3m)
+- **Cafetería Aromas de San Roman** vs **Pub Urbano Comix**
+  - Reason: Coordinates Match (31m)
+- **Calle Regina** vs **Virgin Coffee**
+  - Reason: Coordinates Match (42m)
+- **Casa de la Memoria** vs **Pan y Circo / Restaurante en el centro de Sevilla**
+  - Reason: Coordinates Match (42m)
+- **Casa de la Memoria** vs **Papelería Ferrer**
+  - Reason: Coordinates Match (33m)
+- **Cathedral Steakhouse Restaurant** vs **El Pintón**
+  - Reason: Coordinates Match (18m)
+- **Cathedral Steakhouse Restaurant** vs **Maestro Marcelino**
+  - Reason: Coordinates Match (11m)
+- **Cañabota** vs **Mariquita Brunch**
+  - Reason: Coordinates Match (43m)
+- **Centro Cerámica Triana** vs **Selva Coffee**
+  - Reason: Coordinates Match (38m)
+- **Cochino Gourmet** vs **Petra**
+  - Reason: Coordinates Match (27m)
+- **De Nata (Maestranza) - Fábrica de Pastéis de Nata** vs **De Nata (Santa Cruz) - Fábrica de Pastéis de Nata**
+  - Reason: Fuzzy Name Match (0.88)
+- **De Nata (Maestranza) - Fábrica de Pastéis de Nata** vs **Lounge Les Coulisses**
+  - Reason: Coordinates Match (19m)
+- **De Nata (Maestranza) - Fábrica de Pastéis de Nata** vs **Ozik Cafeteria**
+  - Reason: Coordinates Match (40m)
+- **Delatribu** vs **El Librero Tapas Y Quesos**
+  - Reason: Coordinates Match (14m)
+- **Delatribu** vs **Las Teresas**
+  - Reason: Coordinates Match (33m)
+- **El Librero Tapas Y Quesos** vs **Las Teresas**
+  - Reason: Coordinates Match (47m)
+- **El Pintón** vs **Maestro Marcelino**
+  - Reason: Coordinates Match (19m)
+- **El Sella** vs **Mercado de San Jorge**
+  - Reason: Coordinates Match (31m)
+- **El Torno Pasteleria de Conventos de Clausura** vs **Gelateria MITO**
+  - Reason: Coordinates Match (28m)
+- **Espacio T** vs **Juri’s Bar Alfalfa**
+  - Reason: Coordinates Match (39m)
+- **Espacio T** vs **MOKAMBO Alfalfa | Brunch Sevilla**
+  - Reason: Coordinates Match (31m)
+- **Espacio T** vs **Restaurante Alfalfa 8**
+  - Reason: Coordinates Match (47m)
+- **Flamenko Gösterisi** vs **Gelateria MITO**
+  - Reason: Coordinates Match (45m)
+- **Iglesia del Salvador** vs **Pura Vida Café**
+  - Reason: Coordinates Match (21m)
+- **Il Ristorantino Dell´Avvocato Sevilla** vs **LaSanta, cocina tradicional**
+  - Reason: Coordinates Match (11m)
+- **Il Ristorantino Dell´Avvocato Sevilla** vs **Sansa Café**
+  - Reason: Coordinates Match (19m)
+- **Il Ristorantino Dell´Avvocato Sevilla** vs **Syra Coffee - Las Setas**
+  - Reason: Coordinates Match (28m)
+- **Il Ristorantino Dell´Avvocato Sevilla** vs **Vinoteca Lama La Uva**
+  - Reason: Coordinates Match (33m)
+- **Il Ristorantino Dell´Avvocato Sevilla** vs **Virgen Coffee**
+  - Reason: Coordinates Match (41m)
+- **Indiano Plaza** vs **Vinoteca Lama La Uva**
+  - Reason: Coordinates Match (26m)
+- **Indiano Plaza** vs **Virgen Coffee**
+  - Reason: Coordinates Match (19m)
+- **Jester** vs **LA OFFI Bar de copas**
+  - Reason: Coordinates Match (36m)
+- **Juri’s Bar Alfalfa** vs **MOKAMBO Alfalfa | Brunch Sevilla**
+  - Reason: Coordinates Match (10m)
+- **La Bartola** vs **La Carbonería**
+  - Reason: Coordinates Match (39m)
+- **LaSanta, cocina tradicional** vs **Sansa Café**
+  - Reason: Coordinates Match (30m)
+- **LaSanta, cocina tradicional** vs **Syra Coffee - Las Setas**
+  - Reason: Coordinates Match (36m)
+- **LaSanta, cocina tradicional** vs **Vinoteca Lama La Uva**
+  - Reason: Coordinates Match (25m)
+- **LaSanta, cocina tradicional** vs **Virgen Coffee**
+  - Reason: Coordinates Match (32m)
+- **Le XiX** vs **Plaza del Cabildo**
+  - Reason: Coordinates Match (32m)
+- **Maldito Cocktail Bar** vs **Plaza de la Alfalfa**
+  - Reason: Coordinates Match (37m)
+- **Maldito Cocktail Bar** vs **Restaurante Alfalfa 8**
+  - Reason: Coordinates Match (44m)
+- **Maria Luisa Park** vs **Museo de Artes y Costumbres Populares**
+  - Reason: Coordinates Match (45m)
+- **Mercado de la Encarnación** vs **Metropol Parasol (Las Setas)**
+  - Reason: Coordinates Match (8m)
+- **Montana Cocktail bar Sevilla** vs **Premier Sherry & Cocktail Bar**
+  - Reason: Coordinates Match (40m)
+- **Márquez - Casa De Comidas** vs **Sr. Cangrejo | Restaurante en Sevilla**
+  - Reason: Coordinates Match (39m)
+- **Naked and Famous Cocktail Bar** vs **The Second Room - Sevilla**
+  - Reason: Coordinates Match (43m)
+- **Ozik Cafeteria** vs **Sr. Cangrejo | Restaurante en Sevilla**
+  - Reason: Coordinates Match (41m)
+- **Pan y Circo / Restaurante en el centro de Sevilla** vs **Papelería Ferrer**
+  - Reason: Coordinates Match (39m)
+- **Petra** vs **Restaurante Alfalfa 8**
+  - Reason: Coordinates Match (47m)
+- **Portunata pastelería portuguesa** vs **Sr. Cangrejo | Restaurante en Sevilla**
+  - Reason: Coordinates Match (42m)
+- **Premier Sherry & Cocktail Bar** vs **Vinoqüe Abacería**
+  - Reason: Coordinates Match (42m)
+- **Sansa Café** vs **Syra Coffee - Las Setas**
+  - Reason: Coordinates Match (21m)
+- **Sansa Café** vs **Vinoteca Lama La Uva**
+  - Reason: Coordinates Match (49m)
+- **Vinoteca Lama La Uva** vs **Virgen Coffee**
+  - Reason: Coordinates Match (8m)
+- **Virgen Coffee** vs **Virgin Coffee**
+  - Reason: Fuzzy Name Match (0.92)
+
+## Singapur (singapur.json)
+- **Absurdities Singapore** vs **Asylum Coffeehouse**
+  - Reason: Coordinates Match (8m)
+- **Absurdities Singapore** vs **Average Service**
+  - Reason: Coordinates Match (20m)
+- **Agora Coffee** vs **Upward Taproom Craft Beer Bar, Club Street (Telok Ayer, Chinatown)**
+  - Reason: Coordinates Match (43m)
+- **Ammakase** vs **HighHouse**
+  - Reason: Coordinates Match (37m)
+- **Ammakase** vs **Taylor Adam**
+  - Reason: Coordinates Match (23m)
+- **Arbora @ Mount Faber Peak** vs **Dusk @ Mount Faber Peak**
+  - Reason: Coordinates Match (10m)
+- **Asylum Coffeehouse** vs **Average Service**
+  - Reason: Coordinates Match (25m)
+- **Ayasofya Turkish Restaurant** vs **Haji Lane**
+  - Reason: Coordinates Match (37m)
+- **Bar Stories** vs **Shalaby Sweets Turkish & Arabic Delights**
+  - Reason: Coordinates Match (16m)
+- **Brooklyn Bar** vs **Maxi Coffee Bar**
+  - Reason: Coordinates Match (42m)
+- **Caro Patisserie - Joo Chiat** vs **Same Days Coffee Stand**
+  - Reason: Coordinates Match (40m)
+- **Dome Bakery - Fudgy Brownies & Bakes** vs **Sri Mariamman Temple**
+  - Reason: Coordinates Match (44m)
+- **Habibi-san** vs **Làng Nướng 1980's - Authentic Vietnamese home-cooked Cuisine**
+  - Reason: Coordinates Match (30m)
+- **Hawker Centre** vs **Lau Pa Sat**
+  - Reason: Coordinates Match (0m)
+- **Last Word** vs **Nutmeg & Clove**
+  - Reason: Coordinates Match (0m)
+- **MERCI MARCEL ORCHARD** vs **The Writing Club**
+  - Reason: Coordinates Match (30m)
+- **Manhattan** vs **Park90 Singapore**
+  - Reason: Coordinates Match (27m)
+- **Maxwell Food Centre** vs **Taste of Jiang Nan**
+  - Reason: Coordinates Match (17m)
+- **My Awesome Cafe** vs **Native**
+  - Reason: Coordinates Match (38m)
+- **My Awesome Cafe** vs **Shin Gi Tai**
+  - Reason: Coordinates Match (33m)
+- **Orchard Road** vs **VENCHI Singapore ION Orchard Store**
+  - Reason: Coordinates Match (49m)
+- **Praelum Wine Bistro** vs **SG Taps Restaurant**
+  - Reason: Coordinates Match (38m)
+- **Restaurant Born** vs **Side Door**
+  - Reason: Coordinates Match (26m)
+- **River Wonders** vs **Singapore Zoo**
+  - Reason: Coordinates Match (0m)
+
+## Sintra (sintra.json)
+- **Café Paris** vs **Rua das Padarias**
+  - Reason: Coordinates Match (37m)
+- **Casa Piriquita** vs **Fábrica das Verdadeiras Queijadas**
+  - Reason: Coordinates Match (42m)
+- **Fábrica das Verdadeiras Queijadas** vs **Tascantiga**
+  - Reason: Coordinates Match (28m)
+- **Horse Carriage Ride** vs **Nau Palatina**
+  - Reason: Coordinates Match (34m)
+- **Horse Carriage Ride** vs **Sintra National Palace**
+  - Reason: Coordinates Match (14m)
+- **Museu Arqueológico de São Miguel de Odrinhas** vs **Sítio Arqueológico de São Miguel de Odrinhas**
+  - Reason: Fuzzy Name Match (0.91)
+- **Nau Palatina** vs **Sintra National Palace**
+  - Reason: Coordinates Match (37m)
+- **Praia da Ursa** vs **Ursa Beach**
+  - Reason: Name matches Name_En
+- **Tascantiga** vs **Tascantiga II**
+  - Reason: Fuzzy Name Match (0.87)
+
+## Stockholm (stockholm.json)
+- **Biblioteksgatan** vs **Sturehof**
+  - Reason: Coordinates Match (0m)
+- **Centralbadet** vs **Urban Deli Sveavägen**
+  - Reason: Coordinates Match (0m)
+- **Chokladkoppen** vs **Nobel Ödülü Müzesi**
+  - Reason: Coordinates Match (45m)
+- **Chokladkoppen** vs **Stortorget**
+  - Reason: Coordinates Match (26m)
+- **Designtorget** vs **Kulturhuset**
+  - Reason: Coordinates Match (0m)
+- **Designtorget** vs **Sergels Torg**
+  - Reason: Coordinates Match (0m)
+- **Hötorgshallen** vs **Kungshallen**
+  - Reason: Coordinates Match (0m)
+- **Kulturhuset** vs **Sergels Torg**
+  - Reason: Coordinates Match (0m)
+- **Mosebacketerrassen** vs **Södra Teatern**
+  - Reason: Coordinates Match (0m)
+- **Nobel Prize Museum** vs **Nobel Ödülü Müzesi**
+  - Reason: Coordinates Match (23m)
+- **Nobel Prize Museum** vs **Stortorget**
+  - Reason: Coordinates Match (44m)
+- **Nobel Ödülü Müzesi** vs **Stortorget**
+  - Reason: Coordinates Match (22m)
+- **Postmuseum** vs **Sjätte Tunnan**
+  - Reason: Coordinates Match (0m)
+- **Riche** vs **Svenskt Tenn**
+  - Reason: Coordinates Match (0m)
+- **Rosendals Trädgård** vs **Rosendals Trädgård Cafe**
+  - Reason: Coordinates Match (9m)
+- **Stadion Metro** vs **Stadion Metro İstasyonu**
+  - Reason: Coordinates Match (15m)
+- **Stadsbiblioteket (Public Library)** vs **Stockholm Halk Kütüphanesi**
+  - Reason: Coordinates Match (37m)
+- **Stockholm Sarayı** vs **The Royal Armoury (Livrustkammaren)**
+  - Reason: Coordinates Match (37m)
+- **Sturebadet** vs **Sturegallerian**
+  - Reason: Coordinates Match (0m)
+- **Tak Stockholm** vs **The Nest Cocktail Lounge**
+  - Reason: Coordinates Match (0m)
+
+## Strazburg (strazburg.json)
+- **Château Musée Vodou** vs **Musée Vodou**
+  - Reason: Exact English Name Match
+- **ARTE Televizyonu Merkezi** vs **Arte TV Headquarters**
+  - Reason: Coordinates Match (33m)
+- **Alsace Müzesi** vs **Pont du Corbeau**
+  - Reason: Coordinates Match (38m)
+- **Alsace Müzesi** vs **Strazburg Tarih Müzesi (Musée Historique)**
+  - Reason: Coordinates Match (36m)
+- **Ancienne Douane (Eski Gümrük Binası)** vs **Marché aux Puces**
+  - Reason: Coordinates Match (43m)
+- **Au Crocodile** vs **Christian**
+  - Reason: Coordinates Match (7m)
+- **Au Crocodile** vs **La Fignette**
+  - Reason: Coordinates Match (17m)
+- **Au Pont Saint-Martin** vs **Restaurant L'Oignon**
+  - Reason: Coordinates Match (15m)
+- **Aubette 1928** vs **Centre Commercial L'Aubette**
+  - Reason: Coordinates Match (49m)
+- **Aubette 1928** vs **L'Alsace à Table**
+  - Reason: Coordinates Match (49m)
+- **Aubette 1928** vs **Librairie Kléber**
+  - Reason: Coordinates Match (0m)
+- **Aubette 1928** vs **Statue de Kléber**
+  - Reason: Coordinates Match (21m)
+- **Batorama (Tekne Turları İskelesi)** vs **Batorama Tekne Turu**
+  - Reason: Coordinates Match (42m)
+- **Batorama (Tekne Turları İskelesi)** vs **Musée Archéologique**
+  - Reason: Coordinates Match (36m)
+- **Batorama (Tekne Turları İskelesi)** vs **Musée de l'Oeuvre Notre-Dame**
+  - Reason: Coordinates Match (38m)
+- **Batorama (Tekne Turları İskelesi)** vs **Musée de l'Œuvre Notre-Dame**
+  - Reason: Coordinates Match (36m)
+- **Batorama (Tekne Turları İskelesi)** vs **Musée des Arts Décoratifs**
+  - Reason: Coordinates Match (36m)
+- **Batorama (Tekne Turları İskelesi)** vs **Musée des Beaux-Arts**
+  - Reason: Coordinates Match (36m)
+- **Batorama (Tekne Turları İskelesi)** vs **Rohan Sarayı**
+  - Reason: Coordinates Match (43m)
+- **Batorama Tekne Turu** vs **Musée Archéologique**
+  - Reason: Coordinates Match (22m)
+- **Batorama Tekne Turu** vs **Musée des Arts Décoratifs**
+  - Reason: Coordinates Match (22m)
+- **Batorama Tekne Turu** vs **Musée des Beaux-Arts**
+  - Reason: Coordinates Match (22m)
+- **Batorama Tekne Turu** vs **Rohan Sarayı**
+  - Reason: Coordinates Match (40m)
+- **Binchstub Broglie** vs **Café de l'Opéra**
+  - Reason: Coordinates Match (36m)
+- **Bistrot et Chocolat** vs **Cabinet des Estampes et des Dessins**
+  - Reason: Coordinates Match (17m)
+- **Bistrot et Chocolat** vs **Gurtlerhoft**
+  - Reason: Coordinates Match (39m)
+- **Brasserie Les Haras** vs **Les Haras**
+  - Reason: Coordinates Match (0m)
+- **Cabinet des Estampes et des Dessins** vs **Gurtlerhoft**
+  - Reason: Coordinates Match (30m)
+- **Cabinet des Estampes et des Dessins** vs **Le Gruber**
+  - Reason: Coordinates Match (48m)
+- **Café Bretelles** vs **Maison des Tanneurs**
+  - Reason: Coordinates Match (35m)
+- **Café Bretelles** vs **Petite France**
+  - Reason: Coordinates Match (46m)
+- **Café Bretelles** vs **Rue du Bain-aux-Plantes**
+  - Reason: Coordinates Match (43m)
+- **Café de l'Opéra** vs **Christkindelsmärik (Noel Pazarı)**
+  - Reason: Coordinates Match (40m)
+- **Café de l'Opéra** vs **Marché de Noël Place de la Cathédrale**
+  - Reason: Coordinates Match (40m)
+- **Café de l'Opéra** vs **Place Broglie (Pazar Günü)**
+  - Reason: Coordinates Match (36m)
+- **Caupona Taverne** vs **Fromagerie Loriot**
+  - Reason: Coordinates Match (0m)
+- **Cave des Hospices de Strasbourg** vs **Route des Vins d'Alsace**
+  - Reason: Coordinates Match (37m)
+- **Centre Commercial L'Aubette** vs **L'Alsace à Table**
+  - Reason: Coordinates Match (0m)
+- **Centre Commercial L'Aubette** vs **Librairie Kléber**
+  - Reason: Coordinates Match (49m)
+- **Chez Yvonne** vs **Le Clou**
+  - Reason: Coordinates Match (26m)
+- **Chez Yvonne** vs **Winstub S'Burjerstuewel - Chez Yvonne**
+  - Reason: Coordinates Match (0m)
+- **Christian** vs **La Fignette**
+  - Reason: Coordinates Match (24m)
+- **Christian** vs **Porcus**
+  - Reason: Coordinates Match (45m)
+- **Christkindelsmärik (Noel Pazarı)** vs **Marché de Noël Place de la Cathédrale**
+  - Reason: Coordinates Match (0m)
+- **East Canteen** vs **Place Saint-Étienne**
+  - Reason: Coordinates Match (32m)
+- **Eglise Saint-Pierre-le-Jeune Protestant** vs **Église Saint-Pierre-le-Jeune**
+  - Reason: Exact English Name Match + Coordinates Match
+- **Gare de Strasbourg (Strazburg Tren Garı)** vs **Strasbourg Station (Gare de Strasbourg)**
+  - Reason: Coordinates Match (29m)
+- **Gurtlerhoft** vs **Rue des Hallebardes**
+  - Reason: Coordinates Match (33m)
+- **Janus Fountain** vs **Janus Çeşmesi (Fontaine de Janus)**
+  - Reason: Exact English Name Match
+- **Jardin Botanique de l'Université** vs **Musée Zoologique**
+  - Reason: Coordinates Match (38m)
+- **Jardin Botanique de l'Université** vs **Zooloji Müzesi**
+  - Reason: Coordinates Match (36m)
+- **Jardin des Deux Rives** vs **Passerelle Mimram (İki Kıyı Köprüsü)**
+  - Reason: Coordinates Match (40m)
+- **Jeannette et les Cycleux** vs **La Boutique du Foie Gras**
+  - Reason: Coordinates Match (25m)
+- **L'Alsace à Table** vs **Librairie Kléber**
+  - Reason: Coordinates Match (49m)
+- **La Boutique du Foie Gras** vs **Le Tire-Bouchon**
+  - Reason: Coordinates Match (49m)
+- **La Taverne Française** vs **Tomi Ungerer Müzesi**
+  - Reason: Coordinates Match (48m)
+- **Le Clou** vs **Winstub S'Burjerstuewel - Chez Yvonne**
+  - Reason: Coordinates Match (26m)
+- **Le Garde Fou** vs **Le Schnockeloch**
+  - Reason: Coordinates Match (36m)
+- **Le Gruber** vs **Le Tire-Bouchon**
+  - Reason: Coordinates Match (42m)
+- **Les Aviateurs** vs **Pâtisserie Naegel**
+  - Reason: Coordinates Match (26m)
+- **Librairie Kléber** vs **Statue de Kléber**
+  - Reason: Coordinates Match (21m)
+- **Maison Kammerzell** vs **Maison Kammerzell (Dış Cephe Detayları)**
+  - Reason: Coordinates Match (4m)
+- **Maison des Tanneurs** vs **Petite France**
+  - Reason: Coordinates Match (39m)
+- **Maison des Tanneurs** vs **Un Noël en Alsace**
+  - Reason: Coordinates Match (47m)
+- **Marché aux Puces** vs **Musée Historique de Strasbourg**
+  - Reason: Coordinates Match (33m)
+- **Musée Archéologique** vs **Musée des Arts Décoratifs**
+  - Reason: Coordinates Match (0m)
+- **Musée Archéologique** vs **Musée des Beaux-Arts**
+  - Reason: Coordinates Match (0m)
+- **Musée Archéologique** vs **Rohan Sarayı**
+  - Reason: Coordinates Match (18m)
+- **Musée Historique de Strasbourg** vs **Strazburg Tarih Müzesi (Musée Historique)**
+  - Reason: Exact English Name Match
+- **Musée Zoologique** vs **Zooloji Müzesi**
+  - Reason: Coordinates Match (33m)
+- **Musée de l'Oeuvre Notre-Dame** vs **Musée de l'Œuvre Notre-Dame**
+  - Reason: Coordinates Match (3m)
+- **Musée des Arts Décoratifs** vs **Musée des Beaux-Arts**
+  - Reason: Coordinates Match (0m)
+- **Musée des Arts Décoratifs** vs **Rohan Sarayı**
+  - Reason: Coordinates Match (18m)
+- **Musée des Beaux-Arts** vs **Rohan Sarayı**
+  - Reason: Coordinates Match (18m)
+- **Passage de la Pomme de Pin** vs **Rue des Grandes Arcades**
+  - Reason: Coordinates Match (0m)
+- **Petite France** vs **Rue du Bain-aux-Plantes**
+  - Reason: Coordinates Match (38m)
+- **Petite France** vs **Un Noël en Alsace**
+  - Reason: Coordinates Match (38m)
+- **Place Broglie** vs **Place Broglie (Pazar Günü)**
+  - Reason: Coordinates Match (23m)
+- **Place Gutenberg** vs **Statue Gutenberg**
+  - Reason: Coordinates Match (27m)
+- **Place Kléber** vs **Statue de Kléber**
+  - Reason: Coordinates Match (38m)
+- **Pont du Corbeau** vs **Strazburg Tarih Müzesi (Musée Historique)**
+  - Reason: Coordinates Match (15m)
+- **Pâtisserie Naegel** vs **Église du Temple-Neuf**
+  - Reason: Coordinates Match (37m)
+- **Rue des Hallebardes** vs **Strazburg Katedrali**
+  - Reason: Coordinates Match (40m)
+- **TNS - Théâtre National de Strasbourg (Maillon)** vs **Théâtre national de Strasbourg**
+  - Reason: Coordinates Match (0m)
+- **Église Saint-Pierre-le-Jeune** vs **Église Saint-Pierre-le-Vieux**
+  - Reason: Fuzzy Name Match (0.89)
+
+## Tokyo (tokyo.json)
+- **Afuri Ramen** vs **Ebisu**
+  - Reason: Coordinates Match (29m)
+- **Akihabara** vs **Maid Cafe (Akihabara)**
+  - Reason: Coordinates Match (24m)
+- **Akihabara Electric Town** vs **Maid Cafe**
+  - Reason: Coordinates Match (0m)
+- **BAR COO** vs **Deathmatch in Hell**
+  - Reason: Coordinates Match (16m)
+- **BAR COO** vs **Golden Gai**
+  - Reason: Coordinates Match (7m)
+- **BAR LIVET** vs **Mo-Mo-Paradise Shinjuku Meijidori**
+  - Reason: Coordinates Match (35m)
+- **Bar 3o’clock** vs **Rock & Metal Bar FOXGOD**
+  - Reason: Coordinates Match (46m)
+- **Bar High Five** vs **Ginza**
+  - Reason: Coordinates Match (48m)
+- **Bar High Five** vs **Ginza Shopping District**
+  - Reason: Coordinates Match (0m)
+- **Bar High Five** vs **Kagari Ramen**
+  - Reason: Coordinates Match (0m)
+- **Bar High Five** vs **Tempura Kondo**
+  - Reason: Coordinates Match (0m)
+- **BeBu-Ya** vs **MO-MO-PARADISE Shibuya Center-gai**
+  - Reason: Coordinates Match (21m)
+- **Brewman Tokyo** vs **Feel Good Foods**
+  - Reason: Coordinates Match (0m)
+- **Cocktail Gastronomy KYU YASUI TOKYO** vs **plate tokyo**
+  - Reason: Coordinates Match (48m)
+- **Deathmatch in Hell** vs **Golden Gai**
+  - Reason: Coordinates Match (15m)
+- **Don Quijote** vs **Ichiran Ramen**
+  - Reason: Coordinates Match (9m)
+- **Ginza** vs **Ginza Shopping District**
+  - Reason: Coordinates Match (48m)
+- **Ginza** vs **Kagari Ramen**
+  - Reason: Coordinates Match (48m)
+- **Ginza** vs **Tempura Kondo**
+  - Reason: Coordinates Match (48m)
+- **Ginza Shopping District** vs **Kagari Ramen**
+  - Reason: Coordinates Match (0m)
+- **Ginza Shopping District** vs **Tempura Kondo**
+  - Reason: Coordinates Match (0m)
+- **Harajuku** vs **Hedgehog Cafe HARRY**
+  - Reason: Coordinates Match (49m)
+- **KING TOKYO** vs **KINGDOM TOKYO**
+  - Reason: Fuzzy Name Match (0.87)
+- **KING TOKYO** vs **QUEEN TOKYO**
+  - Reason: Coordinates Match (11m)
+- **Kagari Ramen** vs **Tempura Kondo**
+  - Reason: Coordinates Match (0m)
+- **Koffee Mameya** vs **Omotesando Hills**
+  - Reason: Coordinates Match (9m)
+- **MO-MO-PARADISE Shinjuku-Sanchome** vs **富久栄珈琲 FUKUEI Coffee and Chocolate 新宿 東京店（Tokyo・コーヒー）**
+  - Reason: Coordinates Match (43m)
+- **Meiji Jingu** vs **Meiji Shrine**
+  - Reason: Coordinates Match (0m)
+- **NOA COFFEE Gelato Kicthen - CAFE/sweets/Breakfast** vs **SWEET BOX Crepes Harajuku Takeshita Street**
+  - Reason: Coordinates Match (15m)
+- **NachuRa Gluten Free Cafe** vs **pignic cafe yoyogipark**
+  - Reason: Coordinates Match (42m)
+- **Nagomi** vs **TIGHT**
+  - Reason: Coordinates Match (8m)
+- **Pokemon Cafe** vs **Pokemon Center DX**
+  - Reason: Coordinates Match (9m)
+- **Robot Restaurant** vs **Rock Bar Mother**
+  - Reason: Coordinates Match (44m)
+- **Roppongi Hills** vs **Roppongi Hills Mori Tower**
+  - Reason: Coordinates Match (0m)
+- **Senso-ji Tapınağı** vs **Senso-ji Temple**
+  - Reason: Coordinates Match (0m)
+- **Shinjuku Gyoen** vs **Shinjuku Gyoen National Garden**
+  - Reason: Coordinates Match (9m)
+
+## Tromso (tromso.json)
+- **Arctic Cathedral (Night)** vs **Hella**
+  - Reason: Coordinates Match (0m)
+- **Arctic Cathedral (Night)** vs **Steinnyra**
+  - Reason: Coordinates Match (0m)
+- **Aurora Kino Fokus** vs **Tromsø Rådhus (City Hall)**
+  - Reason: Coordinates Match (30m)
+- **Bardus Bistro** vs **Tromsø Tourist Information**
+  - Reason: Coordinates Match (34m)
+- **Brim Explorer** vs **Graffi Grill**
+  - Reason: Coordinates Match (39m)
+- **Chasing Lights** vs **Rødbanken**
+  - Reason: Coordinates Match (38m)
+- **Chasing Lights** vs **Skarven Restaurant**
+  - Reason: Coordinates Match (47m)
+- **Dragøy** vs **Hermes II**
+  - Reason: Coordinates Match (30m)
+- **Dragøy** vs **Nerstranda Shopping**
+  - Reason: Coordinates Match (36m)
+- **Dragøy** vs **Norges Råfisklag**
+  - Reason: Coordinates Match (31m)
+- **Emma's Drømmekjøkken** vs **Hermes II**
+  - Reason: Coordinates Match (28m)
+- **Emma's Drømmekjøkken** vs **Nerstranda Shopping**
+  - Reason: Coordinates Match (42m)
+- **Emma's Drømmekjøkken** vs **Norges Råfisklag**
+  - Reason: Coordinates Match (39m)
+- **Emma's Drømmekjøkken** vs **Perspective Museum**
+  - Reason: Coordinates Match (29m)
+- **Emma's Drømmekjøkken** vs **Smørtorget Café**
+  - Reason: Coordinates Match (22m)
+- **Emma's Drømmekjøkken** vs **Verdensteatret**
+  - Reason: Coordinates Match (45m)
+- **Eurospar Tromsø** vs **Reimper's**
+  - Reason: Coordinates Match (0m)
+- **Fangstmonumentet** vs **Storgata**
+  - Reason: Coordinates Match (49m)
+- **Full Steam Tromsø** vs **Gifts of Norway**
+  - Reason: Coordinates Match (35m)
+- **Full Steam Tromsø** vs **Tromsø Domkirke**
+  - Reason: Coordinates Match (29m)
+- **Full Steam Tromsø** vs **Tromsø Domkirke Park**
+  - Reason: Coordinates Match (29m)
+- **Full Steam Tromsø** vs **Tromsø Kjøtt**
+  - Reason: Coordinates Match (32m)
+- **Full Steam Tromsø** vs **Tromsø Souvenir Shop**
+  - Reason: Coordinates Match (35m)
+- **Galleri Nord** vs **Husfliden Tromsø**
+  - Reason: Coordinates Match (26m)
+- **Gifts of Norway** vs **Tromsø Souvenir Shop**
+  - Reason: Coordinates Match (0m)
+- **Hella** vs **Steinnyra**
+  - Reason: Coordinates Match (0m)
+- **Hermes II** vs **Nerstranda Shopping**
+  - Reason: Coordinates Match (27m)
+- **Hermes II** vs **Norges Råfisklag**
+  - Reason: Coordinates Match (20m)
+- **Hermes II** vs **Perspective Museum**
+  - Reason: Coordinates Match (29m)
+- **Hermes II** vs **Smørtorget Café**
+  - Reason: Coordinates Match (39m)
+- **Husfliden Tromsø** vs **Tromsø Outdoor**
+  - Reason: Coordinates Match (42m)
+- **Kaffebønna** vs **Nerstranda Shopping**
+  - Reason: Coordinates Match (35m)
+- **Kaffebønna** vs **Norges Råfisklag**
+  - Reason: Coordinates Match (41m)
+- **Kaffebønna** vs **Port of Tromsø**
+  - Reason: Coordinates Match (36m)
+- **Krane Art Gallery** vs **Tromsø Mikrobryggeri**
+  - Reason: Coordinates Match (12m)
+- **Magic Ice Bar Tromsø** vs **Prostneset**
+  - Reason: Coordinates Match (17m)
+- **Magic Ice Bar Tromsø** vs **Roald Amundsen Statue**
+  - Reason: Coordinates Match (41m)
+- **Mathallen Tromsø** vs **Tromsø Outdoor**
+  - Reason: Coordinates Match (46m)
+- **Meieriet Chocolate Café** vs **Port of Tromsø**
+  - Reason: Coordinates Match (19m)
+- **Nerstranda Shopping** vs **Norges Råfisklag**
+  - Reason: Coordinates Match (7m)
+- **Nordnorsk Kunstmuseum (Shop)** vs **Roald Amundsen Statue**
+  - Reason: Coordinates Match (37m)
+- **Nordnorsk Kunstmuseum (Shop)** vs **Tromsø Gallery of Contemporary Art**
+  - Reason: Coordinates Match (0m)
+- **Norges Råfisklag** vs **Perspective Museum**
+  - Reason: Coordinates Match (49m)
+- **Norrøna Concept Store** vs **Whale Watching Tours**
+  - Reason: Coordinates Match (43m)
+- **Northern Lights Chase** vs **Troll Museum**
+  - Reason: Coordinates Match (11m)
+- **Northern Norwegian Art Museum** vs **Ølhallen**
+  - Reason: Coordinates Match (38m)
+- **Perspective Museum** vs **Smørtorget Café**
+  - Reason: Coordinates Match (19m)
+- **Perspective Museum** vs **Verdensteatret**
+  - Reason: Coordinates Match (44m)
+- **Polaria** vs **Polstjerna**
+  - Reason: Coordinates Match (36m)
+- **Pust Tromsø** vs **Skansen Quay**
+  - Reason: Coordinates Match (6m)
+- **Raketten Bar & Pølse** vs **Storgata**
+  - Reason: Coordinates Match (17m)
+- **Raketten Bar & Pølse** vs **Tromsø Cathedral**
+  - Reason: Coordinates Match (46m)
+- **Risø Mat & Kaffebar** vs **Tromsø Outdoor**
+  - Reason: Coordinates Match (32m)
+- **Roald Amundsen Statue** vs **Tromsø Gallery of Contemporary Art**
+  - Reason: Coordinates Match (37m)
+- **Rådstua Teaterhus** vs **Tromsø Rådhus (City Hall)**
+  - Reason: Coordinates Match (45m)
+- **Rødbanken** vs **Skarven Restaurant**
+  - Reason: Coordinates Match (34m)
+- **Rødbanken** vs **Tromsø Torg**
+  - Reason: Coordinates Match (39m)
+- **Skarven Restaurant** vs **Tromsø Domkirke**
+  - Reason: Coordinates Match (42m)
+- **Skarven Restaurant** vs **Tromsø Domkirke Park**
+  - Reason: Coordinates Match (42m)
+- **Smørtorget Café** vs **Verdensteatret**
+  - Reason: Coordinates Match (28m)
+- **Storgata** vs **Tromsø Cathedral**
+  - Reason: Coordinates Match (29m)
+- **Storgata** vs **Tromsø Tourist Information**
+  - Reason: Coordinates Match (49m)
+- **Tromsø Cathedral** vs **Tromsø Tourist Information**
+  - Reason: Coordinates Match (25m)
+- **Tromsø Domkirke** vs **Tromsø Domkirke Park**
+  - Reason: Coordinates Match (0m)
+- **Tromsø Outdoor Market** vs **Ølhallen**
+  - Reason: Coordinates Match (38m)
+
+## Venedik (venedik.json)
+- **Accademia Köprüsü** vs **Gallerie dell'Accademia**
+  - Reason: Coordinates Match (33m)
+- **Adagio** vs **Scuola Grande di San Rocco**
+  - Reason: Coordinates Match (45m)
+- **Ai Mercanti** vs **Scala Contarini del Bovolo**
+  - Reason: Coordinates Match (46m)
+- **Al Balcon** vs **Al Parlamento**
+  - Reason: Coordinates Match (47m)
+- **Al Mercà** vs **L' Bacaro de' Bischeri**
+  - Reason: Coordinates Match (38m)
+- **Al Mercà** vs **Rialto Pazarı**
+  - Reason: Coordinates Match (48m)
+- **Al Prosecco** vs **El Fradeo Quebrado**
+  - Reason: Coordinates Match (44m)
+- **Alla Fonda** vs **L' Bacaro de' Bischeri**
+  - Reason: Coordinates Match (45m)
+- **Alla Fonda** vs **Venchi Cioccolato e Gelato, Venezia Rialto**
+  - Reason: Coordinates Match (43m)
+- **BAR ALL'ANGOLO CA' FOSCARI** vs **Bacaro Vintido'**
+  - Reason: Coordinates Match (16m)
+- **BAR ALL'ANGOLO CA' FOSCARI** vs **Gelateria Maravegia**
+  - Reason: Coordinates Match (30m)
+- **BAR ALL'ANGOLO CA' FOSCARI** vs **Ristorante Wistèria**
+  - Reason: Coordinates Match (39m)
+- **Bacareto da ea Neni** vs **Ristorante Antica Mola**
+  - Reason: Coordinates Match (48m)
+- **Bacaro Per Caso** vs **MAJER Giudecca**
+  - Reason: Coordinates Match (9m)
+- **Bacaro Vintido'** vs **Gelateria Maravegia**
+  - Reason: Coordinates Match (24m)
+- **Bacaro Vintido'** vs **Ristorante Wistèria**
+  - Reason: Coordinates Match (36m)
+- **Bacaro aea Pescaria** vs **Gondola Gelateria**
+  - Reason: Coordinates Match (11m)
+- **Bacaro aea Pescaria** vs **Venchi Cioccolato e Gelato, Venezia Rialto**
+  - Reason: Coordinates Match (31m)
+- **Bacarotto** vs **Cafè Noir**
+  - Reason: Coordinates Match (22m)
+- **Bacarotto** vs **Dolce Vita Venezia**
+  - Reason: Coordinates Match (16m)
+- **Bacarotto** vs **El Sbarlefo San Pantalon**
+  - Reason: Coordinates Match (42m)
+- **Bacarotto** vs **Impronta Restaurant Venice**
+  - Reason: Coordinates Match (23m)
+- **Bacarotto** vs **Lunula Caffetteria Brunch - Venezia**
+  - Reason: Coordinates Match (48m)
+- **Bar Ai Do Leoni** vs **San Marco Bazilikası**
+  - Reason: Coordinates Match (36m)
+- **Bar Al Calice** vs **La Nuova Perla**
+  - Reason: Coordinates Match (28m)
+- **Bar Caravellino** vs **Teatro La Fenice**
+  - Reason: Coordinates Match (40m)
+- **Bar Venetico** vs **La Bottiglia**
+  - Reason: Coordinates Match (25m)
+- **Basegó** vs **El Refolo**
+  - Reason: Coordinates Match (22m)
+- **Basegó** vs **La Barrique Wine Bar**
+  - Reason: Coordinates Match (2m)
+- **Basilica dei Frari** vs **Scuola Grande di San Rocco**
+  - Reason: Coordinates Match (19m)
+- **Beccafico Guna Restaurant** vs **Terrazza Aperol - Venezia**
+  - Reason: Coordinates Match (38m)
+- **Bibenda** vs **Rétro Wine Bar**
+  - Reason: Coordinates Match (44m)
+- **Bistrot de Venise** vs **Venchi Chocolate & Gelato Venice Piazza San Marco Store**
+  - Reason: Coordinates Match (49m)
+- **Bistrò 1473** vs **Brunch Cafe**
+  - Reason: Coordinates Match (17m)
+- **Bistrò 1473** vs **Pasticceria Rizzardini**
+  - Reason: Coordinates Match (15m)
+- **Brunch Cafe** vs **Pasticceria Rizzardini**
+  - Reason: Coordinates Match (5m)
+- **Burano Adası** vs **Murano Adası**
+  - Reason: Fuzzy Name Match (0.92)
+- **Ca' d'Oro** vs **Santa Cocktail Club - Venezia**
+  - Reason: Coordinates Match (40m)
+- **Caffe Florian** vs **Caffè Florian**
+  - Reason: Fuzzy Name Match (0.92)
+- **Caffè dei Fiori/Ristorante Pesce Seafood** vs **Rio Novo**
+  - Reason: Coordinates Match (29m)
+- **Caffè dei Fiori/Ristorante Pesce Seafood** vs **Tango Bar Venezia**
+  - Reason: Coordinates Match (38m)
+- **Cafè Noir** vs **Dolce Vita Venezia**
+  - Reason: Coordinates Match (17m)
+- **Cafè Noir** vs **El Sbarlefo San Pantalon**
+  - Reason: Coordinates Match (23m)
+- **Cafè Noir** vs **Impronta Restaurant Venice**
+  - Reason: Coordinates Match (16m)
+- **Cafè Noir** vs **Lunula Caffetteria Brunch - Venezia**
+  - Reason: Coordinates Match (38m)
+- **Calle Varisco** vs **Tappa Bistrot**
+  - Reason: Coordinates Match (32m)
+- **Campanile di San Marco** vs **San Marco Meydanı**
+  - Reason: Coordinates Match (19m)
+- **Campo Santa Margherita** vs **Panini e Vini da Babbo**
+  - Reason: Coordinates Match (23m)
+- **Campo Santa Margherita** vs **Ponte dei Pugni**
+  - Reason: Coordinates Match (36m)
+- **Cannaregio** vs **Gelateria Artigianale**
+  - Reason: Coordinates Match (32m)
+- **Cantine del Vino già Schiavi** vs **Gelateria lo Squero**
+  - Reason: Coordinates Match (7m)
+- **Da Mario & I Fioi** vs **Fusion Puppa**
+  - Reason: Coordinates Match (11m)
+- **Da Mario & I Fioi** vs **Osteria al Ponte**
+  - Reason: Coordinates Match (31m)
+- **Dal Moro's Venice | Fresh Pasta Restaurant** vs **Gelo - Artigiani del Gelato**
+  - Reason: Coordinates Match (37m)
+- **Dal Moro's Venice | Fresh Pasta Restaurant** vs **Palazzo Grimani**
+  - Reason: Coordinates Match (3m)
+- **Dal Nono Colussi** vs **Garden Bar**
+  - Reason: Coordinates Match (12m)
+- **Dolce Vita Venezia** vs **El Sbarlefo San Pantalon**
+  - Reason: Coordinates Match (28m)
+- **Dolce Vita Venezia** vs **Gelateria Maravegia**
+  - Reason: Coordinates Match (47m)
+- **Dolce Vita Venezia** vs **Impronta Restaurant Venice**
+  - Reason: Coordinates Match (7m)
+- **Dolce Vita Venezia** vs **Lunula Caffetteria Brunch - Venezia**
+  - Reason: Coordinates Match (32m)
+- **Dükler Sarayı (Palazzo Ducale)** vs **İç Çekiş Köprüsü**
+  - Reason: Coordinates Match (38m)
+- **El Refolo** vs **La Barrique Wine Bar**
+  - Reason: Coordinates Match (21m)
+- **El Sbarlefo San Pantalon** vs **Impronta Restaurant Venice**
+  - Reason: Coordinates Match (21m)
+- **El Sbarlefo San Pantalon** vs **La Loggia Bistro**
+  - Reason: Coordinates Match (47m)
+- **El Sbarlefo San Pantalon** vs **Lunula Caffetteria Brunch - Venezia**
+  - Reason: Coordinates Match (22m)
+- **Enoteca Millevini** vs **Fondaco dei Tedeschi**
+  - Reason: Coordinates Match (22m)
+- **Enoteca Millevini** vs **T Fodaco dei Tedeschi Rooftop**
+  - Reason: Coordinates Match (35m)
+- **FLUFFY BRUNCH** vs **Rose bar**
+  - Reason: Coordinates Match (40m)
+- **Fondaco dei Tedeschi** vs **T Fodaco dei Tedeschi Rooftop**
+  - Reason: Coordinates Match (13m)
+- **Fusion Puppa** vs **Osteria al Ponte**
+  - Reason: Coordinates Match (35m)
+- **Garden Bar** vs **Osteria Ai Pugni**
+  - Reason: Coordinates Match (45m)
+- **Gelateria Maravegia** vs **Impronta Restaurant Venice**
+  - Reason: Coordinates Match (49m)
+- **Gelateria Maravegia** vs **Lunula Caffetteria Brunch - Venezia**
+  - Reason: Coordinates Match (49m)
+- **Gelo - Artigiani del Gelato** vs **Palazzo Grimani**
+  - Reason: Coordinates Match (40m)
+- **Gondola Gelateria** vs **Venchi Cioccolato e Gelato, Venezia Rialto**
+  - Reason: Coordinates Match (20m)
+- **Hostaria Castello** vs **Hostaria da Franz**
+  - Reason: Coordinates Match (36m)
+- **Hostaria Sant'Aponal** vs **Vineria all'Amarone - Wine Tasting**
+  - Reason: Coordinates Match (39m)
+- **Il Mercante** vs **L'archivio**
+  - Reason: Coordinates Match (2m)
+- **Impronta Restaurant Venice** vs **Lunula Caffetteria Brunch - Venezia**
+  - Reason: Coordinates Match (26m)
+- **L' Bacaro de' Bischeri** vs **Rialto Pazarı**
+  - Reason: Coordinates Match (36m)
+- **La Lanterna Da Gas** vs **Trattoria La Divina Comida**
+  - Reason: Coordinates Match (10m)
+- **La Loggia Bistro** vs **Lunula Caffetteria Brunch - Venezia**
+  - Reason: Coordinates Match (46m)
+- **Osteria Ai Pugni** vs **Ponte dei Pugni**
+  - Reason: Coordinates Match (38m)
+- **Osteria Ai Pugni** vs **Venice Jazz Club**
+  - Reason: Coordinates Match (40m)
+- **Osteria Al Squero** vs **Squero di San Trovaso**
+  - Reason: Coordinates Match (13m)
+- **Palazzo Contarini del Bovolo** vs **Scala Contarini del Bovolo**
+  - Reason: Fuzzy Name Match (0.89)
+- **Pasticceria Bonifacio** vs **Venice Bakery - Master Artisan**
+  - Reason: Coordinates Match (47m)
+- **Ponte dei Pugni** vs **Venice Jazz Club**
+  - Reason: Coordinates Match (35m)
+- **Rio Novo** vs **Tango Bar Venezia**
+  - Reason: Coordinates Match (28m)
+- **Ristorante Ca’ Dolfin** vs **Ristorante Veneziano - Da Rimo**
+  - Reason: Coordinates Match (19m)
+- **Ristorante Cuore Veneziano** vs **Suso**
+  - Reason: Coordinates Match (6m)
+- **Ristorante San Silvestro** vs **Vaporetto No 1**
+  - Reason: Coordinates Match (33m)
+- **Ristorante San Silvestro** vs **Vineria all'Amarone - Wine Tasting**
+  - Reason: Coordinates Match (47m)
+- **Spaccio bar** vs **Un Mondo Divino**
+  - Reason: Coordinates Match (0m)
+- **Vaporetto No 1** vs **Vineria all'Amarone - Wine Tasting**
+  - Reason: Coordinates Match (29m)
+
+## Viyana (viyana.json)
+- **Albertina** vs **Albertina Museum**
+  - Reason: Coordinates Match (24m)
+- **Albertina** vs **Bitzinger Würstelstand**
+  - Reason: Coordinates Match (40m)
+- **Albertina Museum** vs **Bitzinger Würstelstand**
+  - Reason: Coordinates Match (49m)
+- **Ankeruhr** vs **Plachutta**
+  - Reason: Coordinates Match (43m)
+- **Ankeruhr** vs **Zanoni & Zanoni**
+  - Reason: Coordinates Match (33m)
+- **Belvedere Museum** vs **Belvedere Palace**
+  - Reason: Coordinates Match (0m)
+- **Brunnenmarkt** vs **Brunnenmarkt & Yppenplatz**
+  - Reason: Exact English Name Match
+- **Burgtheater** vs **Café Landtmann**
+  - Reason: Coordinates Match (33m)
+- **Cafe Central** vs **Café Central**
+  - Reason: Fuzzy Name Match (0.92)
+- **Cafe Diglas** vs **Figlmüller Wollzeile**
+  - Reason: Coordinates Match (43m)
+- **Cafe Sacher** vs **Café Sacher**
+  - Reason: Coordinates Match (31m)
+- **Cafe Sperl** vs **Café Sperl**
+  - Reason: Fuzzy Name Match (0.90)
+- **Café Hawelka** vs **Trzesniewski**
+  - Reason: Coordinates Match (26m)
+- **Café Jelinek** vs **Café Ritter**
+  - Reason: Coordinates Match (40m)
+- **Café Prückel** vs **Plachutta Wollzeile**
+  - Reason: Coordinates Match (49m)
+- **Eigensinnig Wien** vs **Erich**
+  - Reason: Coordinates Match (0m)
+- **Eigensinnig Wien** vs **Ulrich**
+  - Reason: Coordinates Match (0m)
+- **Erich** vs **Ulrich**
+  - Reason: Coordinates Match (0m)
+- **Figlmüller** vs **Figlmüller Wollzeile**
+  - Reason: Name matches Name_En
+- **Figlmüller Wollzeile** vs **Kleinod**
+  - Reason: Coordinates Match (18m)
+- **Graben** vs **Time Travel Vienna**
+  - Reason: Coordinates Match (49m)
+- **Graben** vs **Trzesniewski**
+  - Reason: Coordinates Match (49m)
+- **Heldenplatz** vs **Hofburg**
+  - Reason: Coordinates Match (7m)
+- **Hundertwasser House** vs **Hundertwasserhaus**
+  - Reason: Name matches Name_En + Coordinates Match
+- **If Dogs Run Free** vs **Sir Harly's Tea**
+  - Reason: Coordinates Match (36m)
+- **Karlskirche** vs **Karlskirche Panorama Lift**
+  - Reason: Coordinates Match (11m)
+- **Krypt Bar** vs **Votivkirche**
+  - Reason: Coordinates Match (49m)
+- **Leberkas-Pepi** vs **Museum der Illusionen**
+  - Reason: Coordinates Match (0m)
+- **MQ Libelle** vs **MUMOK**
+  - Reason: Coordinates Match (22m)
+- **MQ Libelle** vs **Zoom Kindermuseum**
+  - Reason: Coordinates Match (31m)
+- **MUMOK** vs **Zoom Kindermuseum**
+  - Reason: Coordinates Match (22m)
+- **Madame Tussauds Wien** vs **Prater & Giant Ferris Wheel**
+  - Reason: Coordinates Match (45m)
+- **Madame Tussauds Wien** vs **Prater Park**
+  - Reason: Coordinates Match (38m)
+- **Plachutta** vs **Plachutta Wollzeile**
+  - Reason: Name matches Name_En
+- **Postsparkasse (Postal Savings Bank)** vs **Salonplafond**
+  - Reason: Coordinates Match (22m)
+- **Prater & Giant Ferris Wheel** vs **Prater Park**
+  - Reason: Name_En matches Name
+- **Schönbrunn Palace** vs **Schönbrunn Palace & Gardens**
+  - Reason: Coordinates Match (44m)
+- **Swing Kitchen** vs **Veganista**
+  - Reason: Coordinates Match (44m)
+
+## Zermatt (zermatt.json)
+- **3100 Kulmhotel Gornergrat** vs **Gornergrat Kulm Hotel**
+  - Reason: Name matches Name_En + Coordinates Match
+- **After Seven** vs **Chocolate Shop Hörnli**
+  - Reason: Coordinates Match (38m)
+- **After Seven** vs **Grill le Cervin**
+  - Reason: Coordinates Match (38m)
+- **After Seven** vs **Mont Cervin Palace**
+  - Reason: Coordinates Match (38m)
+- **Air Zermatt Heliport** vs **Heli-Skiing Zermatt**
+  - Reason: Coordinates Match (0m)
+- **Air Zermatt Heliport** vs **Matterhorn Jump**
+  - Reason: Coordinates Match (0m)
+- **Alpine Center Zermatt** vs **Bernhard Perren's Memorial**
+  - Reason: Coordinates Match (38m)
+- **Alpine Center Zermatt** vs **Manud**
+  - Reason: Coordinates Match (0m)
+- **Alpine Center Zermatt** vs **Peak 2 Peak**
+  - Reason: Coordinates Match (34m)
+- **Alpine Center Zermatt** vs **Peak Performance**
+  - Reason: Coordinates Match (0m)
+- **Alpine Center Zermatt** vs **Schäferstube**
+  - Reason: Coordinates Match (0m)
+- **Alpine Center Zermatt** vs **St. Mauritius Kilisesi**
+  - Reason: Coordinates Match (38m)
+- **Alpine Center Zermatt** vs **The Cavern**
+  - Reason: Coordinates Match (38m)
+- **Alpine Center Zermatt** vs **The Omnia**
+  - Reason: Coordinates Match (38m)
+- **Alpine Center Zermatt** vs **Vis-à-Vis**
+  - Reason: Coordinates Match (38m)
+- **Alpine Center Zermatt** vs **Walliserhof Grand-Hotel & Spa**
+  - Reason: Coordinates Match (38m)
+- **Alpine Center Zermatt** vs **Zermatt Unplugged**
+  - Reason: Coordinates Match (0m)
+- **Backstage Hotel Vernissage** vs **English Church**
+  - Reason: Coordinates Match (0m)
+- **Backstage Hotel Vernissage** vs **Fuchs Bakery**
+  - Reason: Coordinates Match (0m)
+- **Backstage Hotel Vernissage** vs **Grampi's Pub**
+  - Reason: Coordinates Match (44m)
+- **Backstage Hotel Vernissage** vs **Inderbinen Fountain**
+  - Reason: Coordinates Match (38m)
+- **Backstage Hotel Vernissage** vs **Myoko**
+  - Reason: Coordinates Match (38m)
+- **Backstage Hotel Vernissage** vs **Petit Royal**
+  - Reason: Coordinates Match (0m)
+- **Backstage Hotel Vernissage** vs **Vernissage**
+  - Reason: Coordinates Match (38m)
+- **Backstage Hotel Vernissage** vs **Walliserkanne**
+  - Reason: Coordinates Match (38m)
+- **Bahnhofstrasse** vs **Grand Hotel Zermatterhof**
+  - Reason: Coordinates Match (27m)
+- **Bahnhofstrasse** vs **Mamacita**
+  - Reason: Coordinates Match (32m)
+- **Bahnhofstrasse** vs **Matterhorn Sport**
+  - Reason: Coordinates Match (27m)
+- **Bahnhofstrasse** vs **Potato**
+  - Reason: Coordinates Match (40m)
+- **Bahnhofstrasse** vs **Saycheese!**
+  - Reason: Coordinates Match (40m)
+- **Bahnhofstrasse** vs **St. Mauritius Kilisesi**
+  - Reason: Coordinates Match (36m)
+- **Bahnhofstrasse** vs **Stars Bar**
+  - Reason: Coordinates Match (27m)
+- **Bahnhofstrasse** vs **Vis-à-Vis**
+  - Reason: Coordinates Match (36m)
+- **Bahnhofstrasse** vs **Walliserhof Grand-Hotel & Spa**
+  - Reason: Coordinates Match (36m)
+- **Bahnhofstrasse** vs **Whymper-Stube**
+  - Reason: Coordinates Match (40m)
+- **Bar 55** vs **Matterhorn Express**
+  - Reason: Coordinates Match (0m)
+- **BaseCamp Hotel** vs **Brasserie Uno**
+  - Reason: Coordinates Match (38m)
+- **BaseCamp Hotel** vs **McDonald's Zermatt**
+  - Reason: Coordinates Match (38m)
+- **BaseCamp Hotel** vs **North Wall Bar**
+  - Reason: Coordinates Match (38m)
+- **BaseCamp Hotel** vs **Yosemite Zermatt**
+  - Reason: Coordinates Match (0m)
+- **Bayard Sports & Fashion** vs **Hotel Bahnhof**
+  - Reason: Coordinates Match (38m)
+- **Bayard Sports & Fashion** vs **Swiss Ski School Zermatt**
+  - Reason: Coordinates Match (0m)
+- **Bergrestaurant Blatten** vs **Kapelle Blatten**
+  - Reason: Coordinates Match (0m)
+- **Bernhard Perren's Memorial** vs **Manud**
+  - Reason: Coordinates Match (38m)
+- **Bernhard Perren's Memorial** vs **Peak 2 Peak**
+  - Reason: Coordinates Match (45m)
+- **Bernhard Perren's Memorial** vs **Peak Performance**
+  - Reason: Coordinates Match (38m)
+- **Bernhard Perren's Memorial** vs **Schäferstube**
+  - Reason: Coordinates Match (38m)
+- **Bernhard Perren's Memorial** vs **The Cavern**
+  - Reason: Coordinates Match (0m)
+- **Bernhard Perren's Memorial** vs **The Omnia**
+  - Reason: Coordinates Match (0m)
+- **Bernhard Perren's Memorial** vs **Zermatt Unplugged**
+  - Reason: Coordinates Match (38m)
+- **Blauherd** vs **Five Lakes Walk**
+  - Reason: Coordinates Match (0m)
+- **Brasserie Uno** vs **McDonald's Zermatt**
+  - Reason: Coordinates Match (0m)
+- **Brasserie Uno** vs **North Wall Bar**
+  - Reason: Coordinates Match (0m)
+- **Brasserie Uno** vs **Yosemite Zermatt**
+  - Reason: Coordinates Match (38m)
+- **Broken Bar** vs **Golden India**
+  - Reason: Coordinates Match (0m)
+- **Broken Bar** vs **Papa Caesar**
+  - Reason: Coordinates Match (0m)
+- **Broken Bar** vs **Pink Live Music Bar**
+  - Reason: Coordinates Match (0m)
+- **Broken Bar** vs **Slalom Sport**
+  - Reason: Coordinates Match (0m)
+- **Broken Bar** vs **Swiss Chalet**
+  - Reason: Coordinates Match (38m)
+- **Broken Bar** vs **Unique Hotel Post**
+  - Reason: Coordinates Match (0m)
+- **Brown Cow Pub** vs **Matterhorn Müzesi (Zermatlantis)**
+  - Reason: Coordinates Match (27m)
+- **Brown Cow Pub** vs **Pollux Restaurant**
+  - Reason: Coordinates Match (38m)
+- **Brown Cow Pub** vs **Soupi**
+  - Reason: Coordinates Match (38m)
+- **Café du Pont** vs **Du Pont**
+  - Reason: Coordinates Match (15m)
+- **Café du Pont** vs **Murmeli Brunnen**
+  - Reason: Coordinates Match (15m)
+- **Carina** vs **Helicopter Tour**
+  - Reason: Coordinates Match (0m)
+- **Casa Mia** vs **Coop Supermarket Zermatt**
+  - Reason: Coordinates Match (38m)
+- **Casa Mia** vs **Zermatt Tourism Office**
+  - Reason: Coordinates Match (0m)
+- **Cervo Mountain Resort** vs **Riedweg**
+  - Reason: Coordinates Match (0m)
+- **Chalet Schalisee** vs **Schalisee**
+  - Reason: Coordinates Match (0m)
+- **Chocolate Shop Hörnli** vs **Grill le Cervin**
+  - Reason: Coordinates Match (0m)
+- **Chocolate Shop Hörnli** vs **Kushion**
+  - Reason: Coordinates Match (38m)
+- **Chocolate Shop Hörnli** vs **Migros Supermarket**
+  - Reason: Coordinates Match (38m)
+- **Chocolate Shop Hörnli** vs **Mont Cervin Palace**
+  - Reason: Coordinates Match (0m)
+- **Chocolate Shop Hörnli** vs **Stoked Snowsports School**
+  - Reason: Coordinates Match (38m)
+- **Chocolate Shop Hörnli** vs **Zermatt Souvenirs**
+  - Reason: Coordinates Match (27m)
+- **Cinema Lounge** vs **Glacier Palace**
+  - Reason: Coordinates Match (27m)
+- **Cinema Lounge** vs **Klein Matterhorn**
+  - Reason: Coordinates Match (13m)
+- **Cinema Lounge** vs **Matterhorn Glacier Paradise**
+  - Reason: Coordinates Match (19m)
+- **Coop Supermarket Zermatt** vs **Zermatt Tourism Office**
+  - Reason: Coordinates Match (38m)
+- **Du Pont** vs **Gee's**
+  - Reason: Coordinates Match (38m)
+- **Du Pont** vs **Grampi's Bar**
+  - Reason: Coordinates Match (38m)
+- **Du Pont** vs **Hinterdorf**
+  - Reason: Coordinates Match (38m)
+- **Du Pont** vs **Hinterdorfstrasse**
+  - Reason: Coordinates Match (38m)
+- **Du Pont** vs **Murmeli Brunnen**
+  - Reason: Coordinates Match (0m)
+- **Elsie's Bar** vs **Matterhorn Museum**
+  - Reason: Coordinates Match (23m)
+- **English Church** vs **Fuchs Bakery**
+  - Reason: Coordinates Match (0m)
+- **English Church** vs **Grampi's Pub**
+  - Reason: Coordinates Match (44m)
+- **English Church** vs **Inderbinen Fountain**
+  - Reason: Coordinates Match (38m)
+- **English Church** vs **Myoko**
+  - Reason: Coordinates Match (38m)
+- **English Church** vs **Petit Royal**
+  - Reason: Coordinates Match (0m)
+- **English Church** vs **Vernissage**
+  - Reason: Coordinates Match (38m)
+- **English Church** vs **Walliserkanne**
+  - Reason: Coordinates Match (38m)
+- **Fuchs Bakery** vs **Grampi's Pub**
+  - Reason: Coordinates Match (44m)
+- **Fuchs Bakery** vs **Inderbinen Fountain**
+  - Reason: Coordinates Match (38m)
+- **Fuchs Bakery** vs **Myoko**
+  - Reason: Coordinates Match (38m)
+- **Fuchs Bakery** vs **Petit Royal**
+  - Reason: Coordinates Match (0m)
+- **Fuchs Bakery** vs **Vernissage**
+  - Reason: Coordinates Match (38m)
+- **Fuchs Bakery** vs **Walliserkanne**
+  - Reason: Coordinates Match (38m)
+- **Gee's** vs **Grampi's Bar**
+  - Reason: Coordinates Match (0m)
+- **Gee's** vs **Grampi's Pub**
+  - Reason: Coordinates Match (33m)
+- **Gee's** vs **Hinterdorf**
+  - Reason: Coordinates Match (0m)
+- **Gee's** vs **Hinterdorfstrasse**
+  - Reason: Coordinates Match (0m)
+- **Gee's** vs **Murmeli Brunnen**
+  - Reason: Coordinates Match (38m)
+- **Glacier Palace** vs **Klein Matterhorn**
+  - Reason: Coordinates Match (13m)
+- **Glacier Palace** vs **Matterhorn Glacier Paradise**
+  - Reason: Coordinates Match (45m)
+- **Golden India** vs **Papa Caesar**
+  - Reason: Coordinates Match (0m)
+- **Golden India** vs **Pink Live Music Bar**
+  - Reason: Coordinates Match (0m)
+- **Golden India** vs **Slalom Sport**
+  - Reason: Coordinates Match (0m)
+- **Golden India** vs **Swiss Chalet**
+  - Reason: Coordinates Match (38m)
+- **Golden India** vs **Unique Hotel Post**
+  - Reason: Coordinates Match (0m)
+- **Grampi's Bar** vs **Grampi's Pub**
+  - Reason: Coordinates Match (33m)
+- **Grampi's Bar** vs **Hinterdorf**
+  - Reason: Coordinates Match (0m)
+- **Grampi's Bar** vs **Hinterdorfstrasse**
+  - Reason: Coordinates Match (0m)
+- **Grampi's Bar** vs **Murmeli Brunnen**
+  - Reason: Coordinates Match (38m)
+- **Grampi's Pub** vs **Hinterdorf**
+  - Reason: Coordinates Match (33m)
+- **Grampi's Pub** vs **Hinterdorfstrasse**
+  - Reason: Coordinates Match (33m)
+- **Grampi's Pub** vs **Inderbinen Fountain**
+  - Reason: Coordinates Match (22m)
+- **Grampi's Pub** vs **Kushion**
+  - Reason: Coordinates Match (44m)
+- **Grampi's Pub** vs **Migros Supermarket**
+  - Reason: Coordinates Match (44m)
+- **Grampi's Pub** vs **Myoko**
+  - Reason: Coordinates Match (22m)
+- **Grampi's Pub** vs **Petit Royal**
+  - Reason: Coordinates Match (44m)
+- **Grampi's Pub** vs **Stoked Snowsports School**
+  - Reason: Coordinates Match (44m)
+- **Grampi's Pub** vs **Vernissage**
+  - Reason: Coordinates Match (22m)
+- **Grampi's Pub** vs **Walliserkanne**
+  - Reason: Coordinates Match (22m)
+- **Grand Hotel Zermatterhof** vs **Mamacita**
+  - Reason: Coordinates Match (38m)
+- **Grand Hotel Zermatterhof** vs **Matterhorn Sport**
+  - Reason: Coordinates Match (0m)
+- **Grand Hotel Zermatterhof** vs **St. Peter's Church**
+  - Reason: Coordinates Match (38m)
+- **Grand Hotel Zermatterhof** vs **Stars Bar**
+  - Reason: Coordinates Match (0m)
+- **Grand Hotel Zermatterhof** vs **Stefanie's Crêperie**
+  - Reason: Coordinates Match (38m)
+- **Grand Hotel Zermatterhof** vs **Swiss Watch Boutique**
+  - Reason: Coordinates Match (44m)
+- **Grill le Cervin** vs **Kushion**
+  - Reason: Coordinates Match (38m)
+- **Grill le Cervin** vs **Migros Supermarket**
+  - Reason: Coordinates Match (38m)
+- **Grill le Cervin** vs **Mont Cervin Palace**
+  - Reason: Coordinates Match (0m)
+- **Grill le Cervin** vs **Stoked Snowsports School**
+  - Reason: Coordinates Match (38m)
+- **Grill le Cervin** vs **Zermatt Souvenirs**
+  - Reason: Coordinates Match (27m)
+- **Harry's Ski Bar** vs **Restaurant Julen**
+  - Reason: Coordinates Match (0m)
+- **Heli-Skiing Zermatt** vs **Matterhorn Jump**
+  - Reason: Coordinates Match (0m)
+- **Hennu Stall** vs **Kulturweg**
+  - Reason: Coordinates Match (0m)
+- **Hexenbar** vs **Sparky's Bar**
+  - Reason: Coordinates Match (38m)
+- **Hinterdorf** vs **Hinterdorfstrasse**
+  - Reason: Coordinates Match (0m)
+- **Hinterdorf** vs **Murmeli Brunnen**
+  - Reason: Coordinates Match (38m)
+- **Hinterdorfstrasse** vs **Murmeli Brunnen**
+  - Reason: Coordinates Match (38m)
+- **Horu Trophy Curling** vs **Paragliding Zermatt**
+  - Reason: Coordinates Match (0m)
+- **Hotel Bahnhof** vs **Swiss Ski School Zermatt**
+  - Reason: Coordinates Match (38m)
+- **Inderbinen Fountain** vs **Kushion**
+  - Reason: Coordinates Match (38m)
+- **Inderbinen Fountain** vs **Migros Supermarket**
+  - Reason: Coordinates Match (38m)
+- **Inderbinen Fountain** vs **Myoko**
+  - Reason: Coordinates Match (0m)
+- **Inderbinen Fountain** vs **Petit Royal**
+  - Reason: Coordinates Match (38m)
+- **Inderbinen Fountain** vs **Stoked Snowsports School**
+  - Reason: Coordinates Match (38m)
+- **Inderbinen Fountain** vs **Vernissage**
+  - Reason: Coordinates Match (0m)
+- **Inderbinen Fountain** vs **Walliserkanne**
+  - Reason: Coordinates Match (0m)
+- **Kirchbrücke** vs **Mountaineers' Cemetery**
+  - Reason: Coordinates Match (38m)
+- **Kirchbrücke** vs **Swiss Chalet**
+  - Reason: Coordinates Match (38m)
+- **Kirchbrücke** vs **Z'Alt Hischi**
+  - Reason: Coordinates Match (15m)
+- **Klein Matterhorn** vs **Matterhorn Glacier Paradise**
+  - Reason: Coordinates Match (32m)
+- **Kushion** vs **Migros Supermarket**
+  - Reason: Coordinates Match (0m)
+- **Kushion** vs **Mont Cervin Palace**
+  - Reason: Coordinates Match (38m)
+- **Kushion** vs **Myoko**
+  - Reason: Coordinates Match (38m)
+- **Kushion** vs **Stoked Snowsports School**
+  - Reason: Coordinates Match (0m)
+- **Kushion** vs **Swiss Watch Boutique**
+  - Reason: Coordinates Match (33m)
+- **Kushion** vs **Vernissage**
+  - Reason: Coordinates Match (38m)
+- **Kushion** vs **Walliserkanne**
+  - Reason: Coordinates Match (38m)
+- **Kushion** vs **Zermatt Souvenirs**
+  - Reason: Coordinates Match (32m)
+- **Mamacita** vs **Matterhorn Museum**
+  - Reason: Coordinates Match (38m)
+- **Mamacita** vs **Matterhorn Sport**
+  - Reason: Coordinates Match (38m)
+- **Mamacita** vs **Stars Bar**
+  - Reason: Coordinates Match (38m)
+- **Mamacita** vs **Swiss Watch Boutique**
+  - Reason: Coordinates Match (22m)
+- **Mamacita** vs **Zermatt Souvenirs**
+  - Reason: Coordinates Match (40m)
+- **Manud** vs **Peak 2 Peak**
+  - Reason: Coordinates Match (34m)
+- **Manud** vs **Peak Performance**
+  - Reason: Coordinates Match (0m)
+- **Manud** vs **Schäferstube**
+  - Reason: Coordinates Match (0m)
+- **Manud** vs **St. Mauritius Kilisesi**
+  - Reason: Coordinates Match (38m)
+- **Manud** vs **The Cavern**
+  - Reason: Coordinates Match (38m)
+- **Manud** vs **The Omnia**
+  - Reason: Coordinates Match (38m)
+- **Manud** vs **Vis-à-Vis**
+  - Reason: Coordinates Match (38m)
+- **Manud** vs **Walliserhof Grand-Hotel & Spa**
+  - Reason: Coordinates Match (38m)
+- **Manud** vs **Zermatt Unplugged**
+  - Reason: Coordinates Match (0m)
+- **Matterhorn Glacier Paradise** vs **Matterhorn Glacier Ride**
+  - Reason: Fuzzy Name Match (0.88)
+- **Matterhorn Museum** vs **Matterhorn Müzesi (Zermatlantis)**
+  - Reason: Name matches Name_En
+- **Matterhorn Museum** vs **Swiss Watch Boutique**
+  - Reason: Coordinates Match (44m)
+- **Matterhorn Museum** vs **Zermatt Souvenirs**
+  - Reason: Coordinates Match (36m)
+- **Matterhorn Sport** vs **St. Peter's Church**
+  - Reason: Coordinates Match (38m)
+- **Matterhorn Sport** vs **Stars Bar**
+  - Reason: Coordinates Match (0m)
+- **Matterhorn Sport** vs **Stefanie's Crêperie**
+  - Reason: Coordinates Match (38m)
+- **Matterhorn Sport** vs **Swiss Watch Boutique**
+  - Reason: Coordinates Match (44m)
+- **Matterhorn Ultraks** vs **Peak 2 Peak**
+  - Reason: Coordinates Match (38m)
+- **Matterhorn Ultraks** vs **St. Peter's Church**
+  - Reason: Coordinates Match (38m)
+- **Matterhorn Ultraks** vs **Stefanie's Crêperie**
+  - Reason: Coordinates Match (38m)
+- **McDonald's Zermatt** vs **North Wall Bar**
+  - Reason: Coordinates Match (0m)
+- **McDonald's Zermatt** vs **Yosemite Zermatt**
+  - Reason: Coordinates Match (38m)
+- **Migros Supermarket** vs **Mont Cervin Palace**
+  - Reason: Coordinates Match (38m)
+- **Migros Supermarket** vs **Myoko**
+  - Reason: Coordinates Match (38m)
+- **Migros Supermarket** vs **Stoked Snowsports School**
+  - Reason: Coordinates Match (0m)
+- **Migros Supermarket** vs **Swiss Watch Boutique**
+  - Reason: Coordinates Match (33m)
+- **Migros Supermarket** vs **Vernissage**
+  - Reason: Coordinates Match (38m)
+- **Migros Supermarket** vs **Walliserkanne**
+  - Reason: Coordinates Match (38m)
+- **Migros Supermarket** vs **Zermatt Souvenirs**
+  - Reason: Coordinates Match (32m)
+- **Mont Cervin Palace** vs **Stoked Snowsports School**
+  - Reason: Coordinates Match (38m)
+- **Mont Cervin Palace** vs **Zermatt Souvenirs**
+  - Reason: Coordinates Match (27m)
+- **Myoko** vs **Petit Royal**
+  - Reason: Coordinates Match (38m)
+- **Myoko** vs **Stoked Snowsports School**
+  - Reason: Coordinates Match (38m)
+- **Myoko** vs **Vernissage**
+  - Reason: Coordinates Match (0m)
+- **Myoko** vs **Walliserkanne**
+  - Reason: Coordinates Match (0m)
+- **North Wall Bar** vs **Yosemite Zermatt**
+  - Reason: Coordinates Match (38m)
+- **Papa Caesar** vs **Pink Live Music Bar**
+  - Reason: Coordinates Match (0m)
+- **Papa Caesar** vs **Slalom Sport**
+  - Reason: Coordinates Match (0m)
+- **Papa Caesar** vs **Swiss Chalet**
+  - Reason: Coordinates Match (38m)
+- **Papa Caesar** vs **Unique Hotel Post**
+  - Reason: Coordinates Match (0m)
+- **Peak 2 Peak** vs **Peak Performance**
+  - Reason: Coordinates Match (34m)
+- **Peak 2 Peak** vs **Schäferstube**
+  - Reason: Coordinates Match (34m)
+- **Peak 2 Peak** vs **St. Peter's Church**
+  - Reason: Coordinates Match (23m)
+- **Peak 2 Peak** vs **Stefanie's Crêperie**
+  - Reason: Coordinates Match (23m)
+- **Peak 2 Peak** vs **The Cavern**
+  - Reason: Coordinates Match (45m)
+- **Peak 2 Peak** vs **The Omnia**
+  - Reason: Coordinates Match (45m)
+- **Peak 2 Peak** vs **Zermatt Unplugged**
+  - Reason: Coordinates Match (34m)
+- **Peak Performance** vs **Schäferstube**
+  - Reason: Coordinates Match (0m)
+- **Peak Performance** vs **St. Mauritius Kilisesi**
+  - Reason: Coordinates Match (38m)
+- **Peak Performance** vs **The Cavern**
+  - Reason: Coordinates Match (38m)
+- **Peak Performance** vs **The Omnia**
+  - Reason: Coordinates Match (38m)
+- **Peak Performance** vs **Vis-à-Vis**
+  - Reason: Coordinates Match (38m)
+- **Peak Performance** vs **Walliserhof Grand-Hotel & Spa**
+  - Reason: Coordinates Match (38m)
+- **Peak Performance** vs **Zermatt Unplugged**
+  - Reason: Coordinates Match (0m)
+- **Petit Royal** vs **Vernissage**
+  - Reason: Coordinates Match (38m)
+- **Petit Royal** vs **Walliserkanne**
+  - Reason: Coordinates Match (38m)
+- **Pink Live Music Bar** vs **Slalom Sport**
+  - Reason: Coordinates Match (0m)
+- **Pink Live Music Bar** vs **Swiss Chalet**
+  - Reason: Coordinates Match (38m)
+- **Pink Live Music Bar** vs **Unique Hotel Post**
+  - Reason: Coordinates Match (0m)
+- **Pollux Restaurant** vs **Soupi**
+  - Reason: Coordinates Match (0m)
+- **Potato** vs **Saycheese!**
+  - Reason: Coordinates Match (0m)
+- **Potato** vs **St. Mauritius Kilisesi**
+  - Reason: Coordinates Match (38m)
+- **Potato** vs **Vis-à-Vis**
+  - Reason: Coordinates Match (38m)
+- **Potato** vs **Walliserhof Grand-Hotel & Spa**
+  - Reason: Coordinates Match (38m)
+- **Potato** vs **Whymper Stube**
+  - Reason: Coordinates Match (44m)
+- **Potato** vs **Whymper-Stube**
+  - Reason: Coordinates Match (0m)
+- **Potato** vs **Zermatt Spor Dükkanları**
+  - Reason: Coordinates Match (38m)
+- **Riffelalp Cinema** vs **Riffelalp Resort 2222m**
+  - Reason: Coordinates Match (0m)
+- **Saycheese!** vs **St. Mauritius Kilisesi**
+  - Reason: Coordinates Match (38m)
+- **Saycheese!** vs **Vis-à-Vis**
+  - Reason: Coordinates Match (38m)
+- **Saycheese!** vs **Walliserhof Grand-Hotel & Spa**
+  - Reason: Coordinates Match (38m)
+- **Saycheese!** vs **Whymper Stube**
+  - Reason: Coordinates Match (44m)
+- **Saycheese!** vs **Whymper-Stube**
+  - Reason: Coordinates Match (0m)
+- **Saycheese!** vs **Zermatt Spor Dükkanları**
+  - Reason: Coordinates Match (38m)
+- **Schäferstube** vs **St. Mauritius Kilisesi**
+  - Reason: Coordinates Match (38m)
+- **Schäferstube** vs **The Cavern**
+  - Reason: Coordinates Match (38m)
+- **Schäferstube** vs **The Omnia**
+  - Reason: Coordinates Match (38m)
+- **Schäferstube** vs **Vis-à-Vis**
+  - Reason: Coordinates Match (38m)
+- **Schäferstube** vs **Walliserhof Grand-Hotel & Spa**
+  - Reason: Coordinates Match (38m)
+- **Schäferstube** vs **Zermatt Unplugged**
+  - Reason: Coordinates Match (0m)
+- **Slalom Sport** vs **Swiss Chalet**
+  - Reason: Coordinates Match (38m)
+- **Slalom Sport** vs **Unique Hotel Post**
+  - Reason: Coordinates Match (0m)
+- **St. Mauritius Church** vs **St. Mauritius Kilisesi**
+  - Reason: Name matches Name_En
+- **St. Mauritius Church** vs **Whymper Stube**
+  - Reason: Coordinates Match (44m)
+- **St. Mauritius Church** vs **Zermatt Spor Dükkanları**
+  - Reason: Coordinates Match (38m)
+- **St. Mauritius Kilisesi** vs **Vis-à-Vis**
+  - Reason: Coordinates Match (0m)
+- **St. Mauritius Kilisesi** vs **Walliserhof Grand-Hotel & Spa**
+  - Reason: Coordinates Match (0m)
+- **St. Mauritius Kilisesi** vs **Whymper-Stube**
+  - Reason: Coordinates Match (38m)
+- **St. Mauritius Kilisesi** vs **Zermatt Unplugged**
+  - Reason: Coordinates Match (38m)
+- **St. Peter's Church** vs **Stars Bar**
+  - Reason: Coordinates Match (38m)
+- **St. Peter's Church** vs **Stefanie's Crêperie**
+  - Reason: Coordinates Match (0m)
+- **Stars Bar** vs **Stefanie's Crêperie**
+  - Reason: Coordinates Match (38m)
+- **Stars Bar** vs **Swiss Watch Boutique**
+  - Reason: Coordinates Match (44m)
+- **Stoked Snowsports School** vs **Swiss Watch Boutique**
+  - Reason: Coordinates Match (33m)
+- **Stoked Snowsports School** vs **Vernissage**
+  - Reason: Coordinates Match (38m)
+- **Stoked Snowsports School** vs **Walliserkanne**
+  - Reason: Coordinates Match (38m)
+- **Stoked Snowsports School** vs **Zermatt Souvenirs**
+  - Reason: Coordinates Match (32m)
+- **Swiss Chalet** vs **Unique Hotel Post**
+  - Reason: Coordinates Match (38m)
+- **Swiss Chalet** vs **Z'Alt Hischi**
+  - Reason: Coordinates Match (23m)
+- **Swiss Watch Boutique** vs **Zermatt Souvenirs**
+  - Reason: Coordinates Match (25m)
+- **The Cavern** vs **The Omnia**
+  - Reason: Coordinates Match (0m)
+- **The Cavern** vs **Zermatt Unplugged**
+  - Reason: Coordinates Match (38m)
+- **The Omnia** vs **Zermatt Unplugged**
+  - Reason: Coordinates Match (38m)
+- **Vernissage** vs **Walliserkanne**
+  - Reason: Coordinates Match (0m)
+- **Vis-à-Vis** vs **Walliserhof Grand-Hotel & Spa**
+  - Reason: Coordinates Match (0m)
+- **Vis-à-Vis** vs **Whymper-Stube**
+  - Reason: Coordinates Match (38m)
+- **Vis-à-Vis** vs **Zermatt Unplugged**
+  - Reason: Coordinates Match (38m)
+- **Walliserhof Grand-Hotel & Spa** vs **Whymper-Stube**
+  - Reason: Coordinates Match (38m)
+- **Walliserhof Grand-Hotel & Spa** vs **Zermatt Unplugged**
+  - Reason: Coordinates Match (38m)
+- **Whymper Stube** vs **Whymper-Stube**
+  - Reason: Coordinates Match (44m)
+- **Whymper Stube** vs **Zermatt Spor Dükkanları**
+  - Reason: Coordinates Match (22m)
+- **Whymper-Stube** vs **Zermatt Spor Dükkanları**
+  - Reason: Coordinates Match (38m)
+
+## Zürih (zurih.json)
+- **Amiamo Caffè** vs **MOON**
+  - Reason: Coordinates Match (48m)
+- **B2 Hotel Wine Library** vs **Hürlimann Bath (Rooftop Pool)**
+  - Reason: Coordinates Match (11m)
+- **B2 Hotel Wine Library** vs **Thermalbad & Spa Zürich**
+  - Reason: Coordinates Match (0m)
+- **B2 Wine Library Bar** vs **Hürlimann Bath (Rooftop Pool)**
+  - Reason: Coordinates Match (44m)
+- **BIERlab** vs **COFFEE**
+  - Reason: Coordinates Match (23m)
+- **Bahnhofstrasse** vs **Münzplatz**
+  - Reason: Coordinates Match (39m)
+- **Bahnhofstrasse** vs **Widder Garage**
+  - Reason: Coordinates Match (11m)
+- **BarMünster** vs **Cabaret Voltaire**
+  - Reason: Coordinates Match (33m)
+- **BarMünster** vs **Cafe Schober**
+  - Reason: Coordinates Match (24m)
+- **BarMünster** vs **Dada-Haus (Cabaret Voltaire)**
+  - Reason: Coordinates Match (20m)
+- **BarMünster** vs **H. Schwarzenbach AG**
+  - Reason: Coordinates Match (35m)
+- **BarMünster** vs **IGNIV Zürich by Andreas Caminada**
+  - Reason: Coordinates Match (32m)
+- **BarMünster** vs **Rare Street Coffee**
+  - Reason: Coordinates Match (19m)
+- **BarMünster** vs **Schokolade & Espresso Bar**
+  - Reason: Coordinates Match (35m)
+- **Beyer Clock and Watch Museum** vs **Paradeplatz**
+  - Reason: Coordinates Match (34m)
+- **Botanical Garden (University of Zurich)** vs **Botanischer Garten (Uni Zürich)**
+  - Reason: Coordinates Match (23m)
+- **CP First - Bar Zürich** vs **Edi's Weinstube**
+  - Reason: Coordinates Match (27m)
+- **CP First - Bar Zürich** vs **Zum Königstuhl - Schweizer Restaurant in Zürich Niederdorf**
+  - Reason: Coordinates Match (27m)
+- **Cabaret Voltaire** vs **Cafe Schober**
+  - Reason: Coordinates Match (36m)
+- **Cabaret Voltaire** vs **Dada-Haus (Cabaret Voltaire)**
+  - Reason: Coordinates Match (45m)
+- **Cabaret Voltaire** vs **IGNIV Zürich by Andreas Caminada**
+  - Reason: Coordinates Match (24m)
+- **Cabaret Voltaire** vs **Rare Street Coffee**
+  - Reason: Coordinates Match (33m)
+- **Cabaret Voltaire** vs **Toth's Chimney Cake📍Zürich [TAKE-AWAY] only**
+  - Reason: Coordinates Match (48m)
+- **Cafe Schober** vs **Dada-Haus (Cabaret Voltaire)**
+  - Reason: Coordinates Match (13m)
+- **Cafe Schober** vs **H. Schwarzenbach AG**
+  - Reason: Coordinates Match (40m)
+- **Cafe Schober** vs **IGNIV Zürich by Andreas Caminada**
+  - Reason: Coordinates Match (49m)
+- **Cafe Schober** vs **Rare Street Coffee**
+  - Reason: Coordinates Match (41m)
+- **Cafe Schober** vs **Schokolade & Espresso Bar**
+  - Reason: Coordinates Match (36m)
+- **Clouds (Prime Tower)** vs **Freitag Flagship Store**
+  - Reason: Coordinates Match (31m)
+- **Dada-Haus (Cabaret Voltaire)** vs **H. Schwarzenbach AG**
+  - Reason: Coordinates Match (27m)
+- **Dada-Haus (Cabaret Voltaire)** vs **Rare Street Coffee**
+  - Reason: Coordinates Match (39m)
+- **Dada-Haus (Cabaret Voltaire)** vs **Schokolade & Espresso Bar**
+  - Reason: Coordinates Match (23m)
+- **Didi's Frieden** vs **Lamassu Specialty Coffee**
+  - Reason: Coordinates Match (48m)
+- **ETH Polybahn** vs **ROBIN'S Bar & Coffee**
+  - Reason: Coordinates Match (44m)
+- **ETH Polyterrasse** vs **Focus Terra**
+  - Reason: Coordinates Match (31m)
+- **Edi's Weinstube** vs **IGNIV Zürich by Andreas Caminada**
+  - Reason: Coordinates Match (45m)
+- **Edi's Weinstube** vs **Zum Königstuhl - Schweizer Restaurant in Zürich Niederdorf**
+  - Reason: Coordinates Match (31m)
+- **Edi's Weinstube** vs **Zum chalte Brunne**
+  - Reason: Coordinates Match (33m)
+- **FLAVOUR COFFEE & PLANTS** vs **Museum für Gestaltung**
+  - Reason: Coordinates Match (44m)
+- **Frisk Fisk** vs **Marea Cocktailbar**
+  - Reason: Coordinates Match (24m)
+- **Gamper Bar** vs **the Bottle Shop – more than wine**
+  - Reason: Coordinates Match (10m)
+- **Grossmünster** vs **Grossmünster Crypt**
+  - Reason: Coordinates Match (13m)
+- **Grossmünster** vs **Grossmünster Tower (Karlsturm)**
+  - Reason: Coordinates Match (37m)
+- **Grossmünster Crypt** vs **Grossmünster Tower (Karlsturm)**
+  - Reason: Coordinates Match (25m)
+- **H. Schwarzenbach AG** vs **Rare Street Coffee**
+  - Reason: Coordinates Match (49m)
+- **H. Schwarzenbach AG** vs **Schokolade & Espresso Bar**
+  - Reason: Coordinates Match (6m)
+- **Hürlimann Bath (Rooftop Pool)** vs **Thermalbad & Spa Zürich**
+  - Reason: Coordinates Match (11m)
+- **IGNIV Zürich by Andreas Caminada** vs **Rare Street Coffee**
+  - Reason: Coordinates Match (18m)
+- **Jules Verne Panoramabar** vs **Lindenhof**
+  - Reason: Coordinates Match (0m)
+- **Kronenhalle** vs **kookoo**
+  - Reason: Coordinates Match (45m)
+- **Limmat River Cruise** vs **Loft Five**
+  - Reason: Coordinates Match (26m)
+- **MOON** vs **Transylvanian Street Food**
+  - Reason: Coordinates Match (19m)
+- **Montmartre** vs **Old Crow**
+  - Reason: Coordinates Match (47m)
+- **Münsterhof** vs **Zunfthaus zur Waag**
+  - Reason: Coordinates Match (0m)
+- **Münzplatz** vs **Widder Bar**
+  - Reason: Coordinates Match (46m)
+- **Münzplatz** vs **Widder Garage**
+  - Reason: Coordinates Match (43m)
+- **Münzplatz** vs **Widder Restaurant**
+  - Reason: Coordinates Match (35m)
+- **Niederdorf** vs **Tina Bar**
+  - Reason: Coordinates Match (15m)
+- **Old Crow** vs **Restaurant Kindli**
+  - Reason: Coordinates Match (49m)
+- **Paint It Easy Zürich | Creative Café – Keramik bemalen** vs **Weisses Rössli**
+  - Reason: Coordinates Match (23m)
+- **Rietberg Museum** vs **Rieter Park & Museum**
+  - Reason: Coordinates Match (23m)
+- **St. Peter Kirche** vs **Veltlinerkeller**
+  - Reason: Coordinates Match (33m)
+- **St. Peter Kirche** vs **Züri-WC (Tarihi Tuvaletler)**
+  - Reason: Coordinates Match (18m)
+- **Tina Bar** vs **Zum chalte Brunne**
+  - Reason: Coordinates Match (45m)
+- **Toth's Chimney Cake📍Zürich [TAKE-AWAY] only** vs **Zum chalte Brunne**
+  - Reason: Coordinates Match (25m)
+- **Veltlinerkeller** vs **Züri-WC (Tarihi Tuvaletler)**
+  - Reason: Coordinates Match (15m)
+- **Widder Bar** vs **Widder Restaurant**
+  - Reason: Coordinates Match (28m)
+- **Zum Königstuhl - Schweizer Restaurant in Zürich Niederdorf** vs **Zum chalte Brunne**
+  - Reason: Coordinates Match (48m)
+- **Zurich Opera House (Neo-Baroque Façade)** vs **Zürich Opera House**
+  - Reason: Coordinates Match (40m)
+

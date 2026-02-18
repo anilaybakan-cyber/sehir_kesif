@@ -1,0 +1,593 @@
+{
+  "routes": [
+    {
+      "overview_polyline": {
+        "points": "okbiJcaemBdAUHRD^CJGTMXCIEEGAmAZSGGEIIGOCWA[?QIiBAYG_BAUWaFY}GAa@?W@a@B]@S@KFi@F}@De@@[?W?[A_@MkCKcBWcBIUGOMOSWIZENCJQZm@d@u@p@ENGDCFAH?NBLFRHVNd@NVHPLHXHb@OhAs@JKXe@^eATc@bHyPdAsBxAoCt@iAn@w@l@s@l@i@t@i@fI}D`FgCxAw@hCoAxH}C`DoAfG_CpB_AdLoEhDyAbCgAdJmDfO_FpAS|AE|@Jd@Db@ATIRKPORWP_@Rs@Hc@DkA@{A?sA?iABa@ReDCUEGICELCPMCWP]TI@GAOSMa@IUEOUJOBIACAYSaD_CIAC?GBC@KBEy@CUAIGy@Ie@}@cGAOq@uEKk@CSIc@Mk@kB_Ja@oBCMOs@Ou@ScAGMGGIAMBOHMJC@MJkBr@IBSHyBv@A?UJQF[JSH{@ZUH]Lu@XMDSFcA`@KDQFQFKDyAf@QFQH}Aj@MDs@X_@LKDOFMDOFKDcA^OFQFKF}Aj@_@L_A`@_A^SPIXGb@In@m@lEq@rEMx@c@zCUdBJNFBHEDM@_@CYKk@b@{CLy@p@sEv@}FFc@HYRQ~@_@~@a@^M|Ak@JGPGNGbA_@JENGDv@Dv@Dh@BXB`@?DDb@TlDBTB`@Dh@RdDHjA@TBVBd@dAhPBXB\\Bb@JvABd@VjETfD@ZDt@QH{@VMFKDWRiAh@EB_AZEBCFCN?J?JJlADp@Dh@?XAPCNGHeC|@aOrFaC|@IBGBGBEBCLC^J`BBZ@N@PDPHv@`AlOB\\j@rJ@XBd@TtDDn@XxEH~ABTDl@B^h@xILlB@TBd@MDEBcAl@OHGDQJGD}@f@]NOFMDUBS@}@A{@COAW?WCKAIEIIIMEKCMAOCU?Q?W?mB?sN?U?UBk@?a@AQAM?MAMAGCEEGGIESGS?[?MC_EFkDBuAJoDH{C@KJcDH}B?_@@{B?S@i@?wBGk@O}ABcABmAFkC@W`C{NCy@@aAl@gE^_DZ{BHa@La@J]\\YRSJSvCuQd@mDb@gEDm@B_@RaCHoAZqDf@sKF{A^iK^_J^uE^gD^yCNkAPiALa@Te@LWHYBO?MMJMJMRMZKXI\\Q|AOfA]tC_@bDU`CK~A_@|IqArZI~@SpBQ`CUrCc@dEc@pDc@vCuA~IWfB]TOPGFOj@Qv@oBvNEb@?\\Bn@}BhOIv@EvBGpBAt@@n@Dd@FvC?f@AnCGnCIrC?LIjDInDK`GCnC?lBBRBLDPBDD@DBD@DDBJ@P@N@\\?LB\\?j@?rN?lB?V?PBT@NBLDJHLHHHDJ@VBV?N@z@B|@@RATCLENG\\O|@g@FEPKBd@?`@_DlAMPGTId@M~@AlBAfD@h@FVFHDFL?HGFK"
+      },
+      "legs": [
+        {
+          "distance": {
+            "value": 13725,
+            "text": "13.7 km"
+          },
+          "duration": {
+            "value": 1735.2,
+            "text": "28 mins"
+          },
+          "steps": [
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 79
+              },
+              "duration": {
+                "value": 21.5
+              },
+              "polyline": {
+                "points": "okbiJcaemBdAUHRD^CJGTMX"
+              },
+              "html_instructions": "depart Ragnar \u00d6stbergs Plan"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 84.2
+              },
+              "duration": {
+                "value": 11.9
+              },
+              "polyline": {
+                "points": "sibiJi~dmBCIEEGAmAZSGGEIIGO"
+              },
+              "html_instructions": "end of road Ragnar \u00d6stbergs Plan"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 257.8
+              },
+              "duration": {
+                "value": 31
+              },
+              "polyline": {
+                "points": "anbiJg_emBCWA[?QIiBAYG_BAUWaFY}GAa@?W"
+              },
+              "html_instructions": "end of road Hantverkargatan"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 227.2
+              },
+              "duration": {
+                "value": 31.6
+              },
+              "polyline": {
+                "points": "qpbiJa{emB@a@B]@S@KFi@F}@De@@[?W?[A_@MkCKcBWcBIUGOMO"
+              },
+              "html_instructions": "fork Klarastrandsleden"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 106
+              },
+              "duration": {
+                "value": 17.3
+              },
+              "polyline": {
+                "points": "crbiJirfmBSWIZENCJQZm@d@u@p@"
+              },
+              "html_instructions": "turn Vasagatan"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 214.6
+              },
+              "duration": {
+                "value": 21.9
+              },
+              "polyline": {
+                "points": "awbiJumfmBENGDCFAH?NBLFRHVNd@NVHPLHXHb@OhAs@JKXe@^eA"
+              },
+              "html_instructions": "on ramp S\u00f6derkopplet"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 974.2
+              },
+              "duration": {
+                "value": 72.8
+              },
+              "polyline": {
+                "points": "ynbiJ{lfmBTc@bHyPdAsBxAoCt@iAn@w@l@s@l@i@t@i@fI}D`FgCxAw@hCoA"
+              },
+              "html_instructions": "merge Centralbron"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 1409.7
+              },
+              "duration": {
+                "value": 105.7
+              },
+              "polyline": {
+                "points": "y_aiJu~gmBxH}C`DoAfG_CpB_AdLoEhDyAbCgAdJmDfO_F"
+              },
+              "html_instructions": "new name S\u00f6derledstunneln"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 360.1
+              },
+              "duration": {
+                "value": 32.3
+              },
+              "polyline": {
+                "points": "as~hJcdimBpAS|AE|@Jd@Db@ATIRKPORWP_@Rs@Hc@DkA@{A?sA?iA"
+              },
+              "html_instructions": "off ramp Skansbroavfarten"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 58.7
+              },
+              "duration": {
+                "value": 8.1
+              },
+              "polyline": {
+                "points": "ae~hJitimBBa@ReD"
+              },
+              "html_instructions": "turn Skansbrogatan"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 26.9
+              },
+              "duration": {
+                "value": 9.4
+              },
+              "polyline": {
+                "points": "id~hJqzimBCUEGICELCP"
+              },
+              "html_instructions": "continue Skansbrogatan"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 87.6
+              },
+              "duration": {
+                "value": 15.7
+              },
+              "polyline": {
+                "points": "ge~hJszimBMCWP]TI@GAOSMa@IUEO"
+              },
+              "html_instructions": "turn Bohusgatan"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 163.4
+              },
+              "duration": {
+                "value": 28.3
+              },
+              "polyline": {
+                "points": "ki~hJk|imBUJOBIACAYSaD_CIAC?GBC@KB"
+              },
+              "html_instructions": "turn Rutger Fuchsgatan"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 505.4
+              },
+              "duration": {
+                "value": 53.3
+              },
+              "polyline": {
+                "points": "ar~hJk`jmBEy@CUAIGy@Ie@}@cGAOq@uEKk@CSIc@Mk@kB_Ja@oBCMOs@Ou@ScAGMGGIAMBOH"
+              },
+              "html_instructions": "turn Ringv\u00e4gen"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 888.9
+              },
+              "duration": {
+                "value": 132.8
+              },
+              "polyline": {
+                "points": "w__iJunkmBMJC@MJkBr@IBSHyBv@A?UJQF[JSH{@ZUH]Lu@XMDSFcA`@KDQFQFKDyAf@QFQH}Aj@MDs@X_@LKDOFMDOFKDcA^OFQFKF}Aj@_@L_A`@_A^SPIXGb@In@"
+              },
+              "html_instructions": "turn Renstiernas Gata"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "ao`iJstjmB"
+              },
+              "html_instructions": "arrive Katarinav\u00e4gen"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 228.7
+              },
+              "duration": {
+                "value": 25.1
+              },
+              "polyline": {
+                "points": "ao`iJstjmBm@lEq@rEMx@c@zCUdB"
+              },
+              "html_instructions": "depart Katarinav\u00e4gen"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 287.2
+              },
+              "duration": {
+                "value": 34.2
+              },
+              "polyline": {
+                "points": "it`iJu}imBJNFBHEDM@_@CYKk@b@{CLy@p@sEv@}FFc@HY"
+              },
+              "html_instructions": "continue Katarinav\u00e4gen"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 239.6
+              },
+              "duration": {
+                "value": 33.4
+              },
+              "polyline": {
+                "points": "en`iJaxjmBRQ~@_@~@a@^M|Ak@JGPGNGbA_@JENG"
+              },
+              "html_instructions": "new name Renstiernas Gata"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 609.4
+              },
+              "duration": {
+                "value": 101.9
+              },
+              "polyline": {
+                "points": "ea`iJu~jmBDv@Dv@Dh@BXB`@?DDb@TlDBTB`@Dh@RdDHjA@TBVBd@dAhPBXB\\Bb@JvABd@VjETfD@ZDt@"
+              },
+              "html_instructions": "turn Folkungagatan"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 168.6
+              },
+              "duration": {
+                "value": 32.2
+              },
+              "polyline": {
+                "points": "ay_iJu}hmBQH{@VMFKDWRiAh@EB_AZEBCFCN"
+              },
+              "html_instructions": "end of road G\u00f6tgatan"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 56.8
+              },
+              "duration": {
+                "value": 8.4
+              },
+              "polyline": {
+                "points": "_b`iJkxhmB?J?JJlADp@Dh@"
+              },
+              "html_instructions": "turn Noe Arksgr\u00e4nden"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 469.4
+              },
+              "duration": {
+                "value": 42.3
+              },
+              "polyline": {
+                "points": "ga`iJirhmB?XAPCNGHeC|@aOrFaC|@"
+              },
+              "html_instructions": "new name S\u00f6derledstunneln"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 32.6
+              },
+              "duration": {
+                "value": 7.1
+              },
+              "polyline": {
+                "points": "_z`iJsdhmBIBGBGBEBCLC^"
+              },
+              "html_instructions": "turn Hornsgatsavfarten"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 47.1
+              },
+              "duration": {
+                "value": 9
+              },
+              "polyline": {
+                "points": "g{`iJubhmBJ`BBZ@N@P"
+              },
+              "html_instructions": "turn Hornsgatan"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 652.3
+              },
+              "duration": {
+                "value": 105.4
+              },
+              "polyline": {
+                "points": "sz`iJu}gmBDPHv@`AlOB\\j@rJ@XBd@TtDDn@XxEH~ABTDl@B^h@xILlB@TBd@"
+              },
+              "html_instructions": "fork Hornsgatan"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 517.1
+              },
+              "duration": {
+                "value": 52.2
+              },
+              "polyline": {
+                "points": "_r`iJcxemBMDEBcAl@OHGDQJGD}@f@]NOFMDUBS@}@A{@COAW?WCKAIEIIIMEKCMAOCU?Q?W?mB?sN?U"
+              },
+              "html_instructions": "turn Torkel Knutssonsgatan"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "acaiJkkfmB"
+              },
+              "html_instructions": "arrive Torkel Knutssonsgatan"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 74.1
+              },
+              "duration": {
+                "value": 9
+              },
+              "polyline": {
+                "points": "acaiJkkfmB?UBk@?a@AQAM?MAMAGCEEGGIESGS"
+              },
+              "html_instructions": "depart Torkel Knutssonsgatan"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 385
+              },
+              "duration": {
+                "value": 61.8
+              },
+              "polyline": {
+                "points": "edaiJsrfmB?[?MC_EFkDBuAJoDH{C@KJcDH}B?_@@{B?S@i@"
+              },
+              "html_instructions": "turn S\u00f6der M\u00e4larstrand"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 117.3
+              },
+              "duration": {
+                "value": 19.6
+              },
+              "polyline": {
+                "points": "kbaiJs|gmB?wBGk@O}ABcABmA"
+              },
+              "html_instructions": "new name Guldfj\u00e4rdsplan"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 1054.2
+              },
+              "duration": {
+                "value": 162.2
+              },
+              "polyline": {
+                "points": "{baiJgihmBFkC@W`C{NCy@@aAl@gE^_DZ{BHa@La@J]\\YRSJSvCuQd@mDb@gEDm@B_@RaCHoAZqDf@sKF{A"
+              },
+              "html_instructions": "new name Stadsg\u00e5rdsleden"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "om`iJyrkmB"
+              },
+              "html_instructions": "arrive Stadsg\u00e5rdsleden"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 453.1
+              },
+              "duration": {
+                "value": 49.8
+              },
+              "polyline": {
+                "points": "om`iJyrkmB^iK^_J^uE^gD^yCNkAPiALa@Te@"
+              },
+              "html_instructions": "depart Stadsg\u00e5rdsleden"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 27.9
+              },
+              "duration": {
+                "value": 9.8
+              },
+              "polyline": {
+                "points": "if`iJyammBLWHYBO?M"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 1508.2
+              },
+              "duration": {
+                "value": 205.3
+              },
+              "polyline": {
+                "points": "me`iJidmmBMJMJMRMZKXI\\Q|AOfA]tC_@bDU`CK~A_@|IqArZI~@SpBQ`CUrCc@dEc@pDc@vCuA~IWfB]TOPGFOj@Qv@oBvNEb@?\\Bn@}BhOIv@"
+              },
+              "html_instructions": "turn Stadsg\u00e5rdsleden"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 150.5
+              },
+              "duration": {
+                "value": 22.1
+              },
+              "polyline": {
+                "points": "acaiJulhmBEvBGpBAt@@n@Dd@FvC"
+              },
+              "html_instructions": "new name Guldfj\u00e4rdsplan"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 386.2
+              },
+              "duration": {
+                "value": 53.8
+              },
+              "polyline": {
+                "points": "acaiJg|gmB?f@AnCGnCIrC?LIjDInDK`GCnC?lB"
+              },
+              "html_instructions": "new name S\u00f6der M\u00e4larstrand"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 525.5
+              },
+              "duration": {
+                "value": 51.4
+              },
+              "polyline": {
+                "points": "ydaiJarfmBBRBLDPBDD@DBD@DDBJ@P@N@\\?LB\\?j@?rN?lB?V?PBT@NBLDJHLHHHDJ@VBV?N@z@B|@@RATCLENG\\O|@g@FEPK"
+              },
+              "html_instructions": "turn Torkel Knutssonsgatan"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 20.8
+              },
+              "duration": {
+                "value": 4.6
+              },
+              "polyline": {
+                "points": "ou`iJ{uemBBd@?`@"
+              },
+              "html_instructions": "turn Br\u00e4nnkyrkagatan"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 140.9
+              },
+              "duration": {
+                "value": 21.2
+              },
+              "polyline": {
+                "points": "ku`iJssemB_DlAMPGTId@M~@"
+              },
+              "html_instructions": "turn Ludvigsbergsgatan"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 128.8
+              },
+              "duration": {
+                "value": 19.8
+              },
+              "polyline": {
+                "points": "y{`iJwlemBAlBAfD@h@FVFHDFL?HGFK"
+              },
+              "html_instructions": "continue Ludvigsbergsgatan"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "ez`iJabemB"
+              },
+              "html_instructions": "arrive Ludvigsbergsgatan"
+            }
+          ]
+        }
+      ],
+      "bounds": {
+        "northeast": {
+          "lat": 59.32939,
+          "lng": 18.09493
+        },
+        "southwest": {
+          "lat": 59.30581,
+          "lng": 18.05296
+        }
+      }
+    }
+  ],
+  "status": "OK"
+}

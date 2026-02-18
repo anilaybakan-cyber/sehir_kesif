@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support - MyWay Travel App</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+            min-height: 100vh;
+            color: #ffffff;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 60px 24px;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 48px;
+        }
+
+        .logo {
+            width: 80px;
+            height: 80px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border-radius: 20px;
+            margin: 0 auto 24px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 36px;
+        }
+
+        h1 {
+            font-size: 32px;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+
+        .subtitle {
+            color: rgba(255, 255, 255, 0.7);
+            font-size: 18px;
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 16px;
+            padding: 32px;
+            margin-bottom: 24px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .card h2 {
+            font-size: 20px;
+            margin-bottom: 16px;
+            color: #667eea;
+        }
+
+        .card p {
+            color: rgba(255, 255, 255, 0.8);
+            margin-bottom: 12px;
+        }
+
+        .contact-info {
+            background: rgba(102, 126, 234, 0.2);
+            border-radius: 12px;
+            padding: 24px;
+            text-align: center;
+        }
+
+        .email-link {
+            display: inline-block;
+            color: #667eea;
+            font-size: 20px;
+            font-weight: 600;
+            text-decoration: none;
+            padding: 12px 24px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 8px;
+            margin-top: 12px;
+            transition: all 0.3s ease;
+        }
+
+        .email-link:hover {
+            background: rgba(255, 255, 255, 0.2);
+            transform: translateY(-2px);
+        }
+
+        .response-time {
+            margin-top: 16px;
+            font-size: 14px;
+            color: rgba(255, 255, 255, 0.6);
+        }
+
+        .faq-item {
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            padding: 16px 0;
+        }
+
+        .faq-item:last-child {
+            border-bottom: none;
+        }
+
+        .faq-question {
+            font-weight: 600;
+            margin-bottom: 8px;
+            color: #ffffff;
+        }
+
+        .faq-answer {
+            color: rgba(255, 255, 255, 0.7);
+            font-size: 15px;
+        }
+
+        .back-link {
+            display: inline-block;
+            color: rgba(255, 255, 255, 0.6);
+            text-decoration: none;
+            margin-top: 32px;
+            font-size: 14px;
+        }
+
+        .back-link:hover {
+            color: #ffffff;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">🗺️</div>
+            <h1>MyWay Support</h1>
+            <p class="subtitle">We're here to help you explore the world</p>
+        </div>
+
+        <!-- Contact Section -->
+        <div class="card">
+            <h2>📧 Contact Us</h2>
+            <p>Have questions, feedback, or need assistance? We'd love to hear from you!</p>
+            <div class="contact-info">
+                <p>Email us at:</p>
+                <a href="mailto:info@mywaytravelapp.com" class="email-link">info@mywaytravelapp.com</a>
+                <p class="response-time">We typically respond within 24-48 hours</p>
+            </div>
+        </div>
+
+        <!-- FAQ Section -->
+        <div class="card">
+            <h2>❓ Frequently Asked Questions</h2>
+
+            <div class="faq-item">
+                <p class="faq-question">How do I create a route?</p>
+                <p class="faq-answer">Open the app, select your city, and tap on "Create Route" or use the AI assistant
+                    to generate personalized routes based on your preferences.</p>
+            </div>
+
+            <div class="faq-item">
+                <p class="faq-question">How do I manage my subscription?</p>
+                <p class="faq-answer">You can manage or cancel your subscription through your device's Settings → Apple
+                    ID → Subscriptions → MyWay.</p>
+            </div>
+
+            <div class="faq-item">
+                <p class="faq-question">How do I restore my purchase?</p>
+                <p class="faq-answer">Open the app, go to the subscription screen, and tap "Restore Purchases" at the
+                    bottom.</p>
+            </div>
+
+            <div class="faq-item">
+                <p class="faq-question">Is my data secure?</p>
+                <p class="faq-answer">Yes! We take your privacy seriously. Please review our <a href="privacy.html"
+                        style="color: #667eea;">Privacy Policy</a> for details.</p>
+            </div>
+
+            <div class="faq-item">
+                <p class="faq-question">Which cities are available?</p>
+                <p class="faq-answer">We currently support 30+ popular travel destinations including Paris, Rome,
+                    Barcelona, Tokyo, New York, and many more. New cities are added regularly!</p>
+            </div>
+        </div>
+
+        <!-- App Info -->
+        <div class="card">
+            <h2>ℹ️ App Information</h2>
+            <p><strong>App Name:</strong> MyWay - Route & Travel Planner</p>
+            <p><strong>Developer:</strong> Anil Ebru</p>
+            <p><strong>Version:</strong> 1.0</p>
+        </div>
+
+        <a href="index.html" class="back-link">← Back to Home</a>
+    </div>
+</body>
+
+</html>

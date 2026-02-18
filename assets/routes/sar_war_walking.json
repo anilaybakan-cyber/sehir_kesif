@@ -1,0 +1,398 @@
+{
+  "routes": [
+    {
+      "overview_polyline": {
+        "points": "mpmjGqn|nBZo@R]PWhAoABCf@w@d@{@DIbAqB^u@b@cAh@kALWPa@DKHWJYBM@OF]@Q@SASCQQo@CMCSCWA]@[H[?MFMJOJSJ_@VkAJ_@HQJMJGJG`@OZMFGFIDKDO@OBY?W?{@Gw@AUCc@?a@@YDyALyABIBGHCH?d@DF?lGVXBxAT~A`@tANrA@~A?\\?~@AbAAf@?F@F?l@?T?J@RHNHFDH@l@[p@i@PQLWa@S[Q[Yc@i@[g@Sc@Qc@k@gBaB}EiA}C[q@Ya@s@s@]Y_Aw@e@_@WQ{@q@g@_@m@g@g@_@w@k@c@WSOQOcBuAgAw@c@WM[EICIACAGCGAOCOEOMSCGKUOSMOc@c@o@k@m@c@EE_By@m@[QIkAk@UKwAs@GCc@Ua@SYOUMaAe@IGOIe@[][CCEEIKSYQ[[i@EKCEGOo@}A_@y@]u@IOGOKOMW}AmCGK[o@sA}BqA}BQ[AA]m@i@w@g@k@EEYWk@k@_@[IIQMMK}@s@qBgBMIc@YkBaBKIWSs@q@QU[g@Qc@KUIWa@mAK[Om@AKCO@C@C?E?E?C?EACAEACCCCCCACAE???GEEGGEOU_@aAQg@K_@Ww@Yu@e@_AQS_@_@i@a@kA_Ac@i@E]Ce@@uAFcFFqDBcABkC?QJa@@A?A@E@E?EAEACACECC?QGMGKGUYiD{DuA{AeBwCq@uAq@oBi@uBcAuDuBoISq@yBqHGUc@yAe@eA]g@c@U{@WcAc@g@_@_@m@KY{CaHc@cAm@cA{@iA{@aAgAqASYIK[e@Qc@EOEWAIESQiBEe@UmBIa@K[c@y@o@aAq@oA_AoBm@_Bi@_Bm@kB[k@QY]o@Wi@CGGQCGCOGYCOIs@G]EUCKEMMYUe@c@u@OYKQKYSq@Ia@YoBI@IDIHGJILKTOh@Of@Qf@M^EFILQLK@E?aAKg@EeC?gAA[@WB]F]LYJYJKBK@K?K?y@]g@SQI_CgAGCwAk@eBo@[GKCM@c@HcAPK@g@HQEQYGWU{@WaBEUIW[i@MQOQOKYKI?A?SBCOEe@UoAI]Uq@_@eASm@M[EMO[i@uASi@gByDO]Se@AEQa@IUGO[y@KUUo@Qc@GU[gA[_AAEQm@EM_@mAWw@K]IYCWCWASAS?GCkAASAe@DQ?QAo@Eu@Gm@SwBQ_BY}AKa@I]YaAIQO[a@kAs@kBkAqCSa@q@qAaAwBIOc@_AAEGUGWEAE?G?G@MFEBWJm@VC@A@KDEBGQEYGc@ACCe@Ca@?YA[AiBC}BC_BAmBAyAAq@AuA?IAQ?MCeDCuCCqD?I?GAY?IAoBA_AAS?S?SCoBKuG?c@AQ?EA}@A_AAc@Em@Cc@Eg@E_@Kk@_@eBCQI]CICOCKOu@YkASeAQw@G]EUEUMkAE]AOUsBKaACWQmAKo@AIGa@QoAK{@a@iC[uBAGCW[sBCKG_@AKAEAEGKCCCAEAEAE?E@E@A@e@lAGLKXEPCRCREf@Ed@It@CRCPARGRYz@ABAB_@jA?BM`@?DAD?f@@v@?LBhC?l@@t@DjB@bA?P@X?B@n@@z@Bb@FtALvBFz@Ft@DND\\@D@D@FHh@FZ@LC@C@{@X[HE@MOYYiAkAIGICG?EkBAMAQCYEKK_@Ia@?e@DwA?[C[WsAAGCGCIUgCEy@O_B@yBGmAEa@CGCCEAM@C?CACE^IXIPGdAg@JGTQf@Cn@AVAF?B?B@BB?D@D?J?D?B?R?J?DAD?f@@v@?LBhC?l@@t@DjBC?A?s@B_@A"
+      },
+      "legs": [
+        {
+          "distance": {
+            "value": 13395.3,
+            "text": "13.4 km"
+          },
+          "duration": {
+            "value": 1281,
+            "text": "21 mins"
+          },
+          "steps": [
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 535.4
+              },
+              "duration": {
+                "value": 76.9
+              },
+              "polyline": {
+                "points": "mpmjGqn|nBZo@R]PWhAoABCf@w@d@{@DIbAqB^u@b@cAh@kALWPa@DKHWJYBM@OF]@Q@SASCQQo@CMCSCWA]@[H["
+              },
+              "html_instructions": "depart Tuneli"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 392.9
+              },
+              "duration": {
+                "value": 35.5
+              },
+              "polyline": {
+                "points": "cbmjGap}nB?MFMJOJSJ_@VkAJ_@HQJMJGJG`@OZMFGFIDKDO@OBY?W?{@Gw@AUCc@?a@@YDyALyABIBG"
+              },
+              "html_instructions": "new name Branilaca Donjeg Kotorca"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 738.5
+              },
+              "duration": {
+                "value": 73.4
+              },
+              "polyline": {
+                "points": "uzljG{i~nBHCH?d@DF?lGVXBxAT~A`@tANrA@~A?\\?~@AbAAf@?F@F?l@?T?J@RHNHFDH@l@[p@i@PQLW"
+              },
+              "html_instructions": "turn Vasilja Grd\u017ei\u0107a"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 888.6
+              },
+              "duration": {
+                "value": 66.7
+              },
+              "polyline": {
+                "points": "grkjGgi~nBa@S[Q[Yc@i@[g@Sc@Qc@k@gBaB}EiA}C[q@Ya@s@s@]Y_Aw@e@_@WQ{@q@g@_@m@g@g@_@w@k@c@WSOQOcBuAgAw@c@W"
+              },
+              "html_instructions": "end of road Ravnogorska"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 1685.6
+              },
+              "duration": {
+                "value": 195.1
+              },
+              "polyline": {
+                "points": "qwljGut_oBM[EICIACAGCGAOCOEOMSCGKUOSMOc@c@o@k@m@c@EE_By@m@[QIkAk@UKwAs@GCc@Ua@SYOUMaAe@IGOIe@[][CCEEIKSYQ[[i@EKCEGOo@}A_@y@]u@IOGOKOMW}AmCGK[o@sA}BqA}BQ[AA]m@i@w@g@k@EEYWk@k@_@[IIQMMK}@s@qBgBMIc@YkBaBKIWSs@q@QU[g@Qc@KUIWa@mAK[Om@AKCO"
+              },
+              "html_instructions": "turn Vojvode Radomira Putnika"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 33.6
+              },
+              "duration": {
+                "value": 2.2
+              },
+              "polyline": {
+                "points": "}~njGefboB@C@C?E?E?C?EACAEACCCCCCACAE???"
+              },
+              "html_instructions": "roundabout Vojvode Radomira Putnika"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 647.3
+              },
+              "duration": {
+                "value": 58.5
+              },
+              "polyline": {
+                "points": "u_ojG}gboBGEEGGEOU_@aAQg@K_@Ww@Yu@e@_AQS_@_@i@a@kA_Ac@i@E]Ce@@uAFcFFqDBcABkC?QJa@"
+              },
+              "html_instructions": "exit roundabout Vojvode Radomira Putnika"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 23.2
+              },
+              "duration": {
+                "value": 2
+              },
+              "polyline": {
+                "points": "akojGsrcoB@A?A@E@E?EAEACACECC?"
+              },
+              "html_instructions": "roundabout Vojvode Radomira Putnika"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 2380.2
+              },
+              "duration": {
+                "value": 219.3
+              },
+              "polyline": {
+                "points": "kkojG{scoBQGMGKGUYiD{DuA{AeBwCq@uAq@oBi@uBcAuDuBoISq@yBqHGUc@yAe@eA]g@c@U{@WcAc@g@_@_@m@KY{CaHc@cAm@cA{@iA{@aAgAqASYIK[e@Qc@EOEWAIESQiBEe@UmBIa@K[c@y@o@aAq@oA_AoBm@_Bi@_Bm@kB[k@QY]o@Wi@CGGQCGCOGYCOIs@G]EUCKEMMYUe@c@u@OYKQKYSq@Ia@YoB"
+              },
+              "html_instructions": "exit roundabout Vojvode Radomira Putnika"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 128.5
+              },
+              "duration": {
+                "value": 8.4
+              },
+              "polyline": {
+                "points": "}yqjG{choBI@IDIHGJILKTOh@Of@Qf@M^EFIL"
+              },
+              "html_instructions": "continue Vojvode Radomira Putnika"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 909.7
+              },
+              "duration": {
+                "value": 64.5
+              },
+              "polyline": {
+                "points": "i~qjGi|goBQLK@E?aAKg@EeC?gAA[@WB]F]LYJYJKBK@K?K?y@]g@SQI_CgAGCwAk@eBo@[GKCM@c@HcAPK@g@HQEQYGWU{@WaBEUIW[i@MQOQOKYKI?A?SB"
+              },
+              "html_instructions": "new name Dervi\u0161a Numi\u0107a"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 774.4
+              },
+              "duration": {
+                "value": 62.3
+              },
+              "polyline": {
+                "points": "sksjG_lhoBCOEe@UoAI]Uq@_@eASm@M[EMO[i@uASi@gByDO]Se@AEQa@IUGO[y@KUUo@Qc@GU[gA[_AAEQm@EM_@mAWw@K]IYCWCWASAS?GCkAASAe@"
+              },
+              "html_instructions": "end of road Zagreba\u010dka"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 632.4
+              },
+              "duration": {
+                "value": 60.3
+              },
+              "polyline": {
+                "points": "g`tjGc`joBDQ?QAo@Eu@Gm@SwBQ_BY}AKa@I]YaAIQO[a@kAs@kBkAqCSa@q@qAaAwBIOc@_AAEGUGW"
+              },
+              "html_instructions": "new name Terezija"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 83.7
+              },
+              "duration": {
+                "value": 9
+              },
+              "polyline": {
+                "points": "eptjG{jkoBEAE?G?G@MFEBWJm@VC@A@KDEB"
+              },
+              "html_instructions": "turn Hamze Hume"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 1706.6
+              },
+              "duration": {
+                "value": 148.6
+              },
+              "polyline": {
+                "points": "sttjG}hkoBGQEYGc@ACCe@Ca@?YA[AiBC}BC_BAmBAyAAq@AuA?IAQ?MCeDCuCCqD?I?GAY?IAoBA_AAS?S?SCoBKuG?c@AQ?EA}@A_AAc@Em@Cc@Eg@E_@Kk@_@eBCQI]CICOCKOu@YkASeAQw@G]EUEUMkAE]AOUsBKaACWQmAKo@AIGa@QoAK{@a@iC[uBAGCW[sBCKG_@AKAEAE"
+              },
+              "html_instructions": "continue Obala Kulina bana"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 30.7
+              },
+              "duration": {
+                "value": 6.7
+              },
+              "polyline": {
+                "points": "ieujGgjooBGKCCCAEAEAE?E@E@A@"
+              },
+              "html_instructions": "turn Telali"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 253.5
+              },
+              "duration": {
+                "value": 18.2
+              },
+              "polyline": {
+                "points": "yfujGwjooBe@lAGLKXEPCRCREf@Ed@It@CRCPARGRYz@ABAB_@jA?BM`@"
+              },
+              "html_instructions": "continue Telali"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 446
+              },
+              "duration": {
+                "value": 26.7
+              },
+              "polyline": {
+                "points": "ulujG_ynoB?DAD?f@@v@?LBhC?l@@t@DjB@bA?P@X?B@n@@z@Bb@FtALvBFz@Ft@DND\\@D"
+              },
+              "html_instructions": "new name Mula Mustafe Ba\u0161eskije"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "ijujGsvmoB"
+              },
+              "html_instructions": "arrive Mula Mustafe Ba\u0161eskije"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 41.3
+              },
+              "duration": {
+                "value": 6.7
+              },
+              "polyline": {
+                "points": "ijujGsvmoB@D@FHh@FZ@L"
+              },
+              "html_instructions": "depart Mula Mustafe Ba\u0161eskije"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 59.2
+              },
+              "duration": {
+                "value": 9.1
+              },
+              "polyline": {
+                "points": "qiujGqsmoBC@C@{@X[HE@"
+              },
+              "html_instructions": "turn Pehlivanu\u0161a"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 95.4
+              },
+              "duration": {
+                "value": 15.2
+              },
+              "polyline": {
+                "points": "wlujGgrmoBMOYYiAkAIGICG?"
+              },
+              "html_instructions": "turn Josipa \u0160tadlera"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 215.6
+              },
+              "duration": {
+                "value": 31
+              },
+              "polyline": {
+                "points": "equjGivmoBEkBAMAQCYEKK_@Ia@?e@DwA?[C[WsAAG"
+              },
+              "html_instructions": "continue Josipa \u0160tadlera"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 247.8
+              },
+              "duration": {
+                "value": 42.9
+              },
+              "polyline": {
+                "points": "gsujGofnoBCGCIUgCEy@O_B@yBGmAEa@CGCCEAM@C?CACE"
+              },
+              "html_instructions": "new name \u010cemerlina"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 178.7
+              },
+              "duration": {
+                "value": 17.4
+              },
+              "polyline": {
+                "points": "ovujGaxnoB^IXIPGdAg@JGTQf@Cn@AVAF?B?B@"
+              },
+              "html_instructions": "turn Sagrd\u017eije"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 217.2
+              },
+              "duration": {
+                "value": 17.3
+              },
+              "polyline": {
+                "points": "{lujGe{noBBB?D@D?J?D?B?R?J?DAD?f@@v@?LBhC?l@@t@DjB"
+              },
+              "html_instructions": "end of road Mula Mustafe Ba\u0161eskije"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 49.3
+              },
+              "duration": {
+                "value": 7.1
+              },
+              "polyline": {
+                "points": "ilujGkjnoBC?A?s@B_@A"
+              },
+              "html_instructions": "turn Todora \u0160vraki\u0107a"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "coujGijnoB"
+              },
+              "html_instructions": "arrive Todora \u0160vraki\u0107a"
+            }
+          ]
+        }
+      ],
+      "bounds": {
+        "northeast": {
+          "lat": 43.86168,
+          "lng": 18.43391
+        },
+        "southwest": {
+          "lat": 43.8098,
+          "lng": 18.33721
+        }
+      }
+    }
+  ],
+  "status": "OK"
+}

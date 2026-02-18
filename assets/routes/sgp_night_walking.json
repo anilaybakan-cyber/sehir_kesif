@@ -1,0 +1,515 @@
+{
+  "routes": [
+    {
+      "overview_polyline": {
+        "points": "{gyFag}xRQCOKG?]Da@eE\\CnBOLxAJCFIBC@IIy@CECCI?C@EDCLLNLbBFJ@BB@B?r@GD?XEHCXCDN@FZjAPd@FL^n@LR^j@^\\LJNNTR^XhCxAnDpBTNlDnBrC`BZRTL|BpAhCxAHFRJMTGJa@r@sC`FcAfBwAdCuA~BCDYf@UMeCyAe@WmAq@MGWO]QgHcEkBaAgCmAeCeAGCo@jAg@~@k@dA?BCDOVWMKEgAk@MIsAo@e@Uc@UeAk@i@Qe@M_@K{@QDY@@NBh@Jf@L`@Jj@R^Pf@Vf@XlBbA?NABCBsAo@e@Uc@UeAk@i@Qe@M_@K{@QMAkAKQ?wRWcBCMDG@IDC@IFMLIJGHCt@AdACz@A^C`AA~@ATAZA~@Ah@C~@Ab@AR?B?XAB?HC\\AVGTEPCHELKPCDQRQRKJQTWZGFUZKJ{@dAc@h@CBY^GHYZUVSPe@d@_@\\k@j@A@_@^A?OZU`@MRILKP_@t@m@dAc@v@a@dAKPPH|Az@nAn@f@VFBz@`@j@RPHJFb@Tv@^HD@@d@VJDb@TFDtAr@PHHDn@\\f@VNHLFFDPJBJEFCDIPSXOTQ\\]p@CFMZCFCFEJC`@CXAHAJEVET_@fAmAtBu@lAINOVe@v@S\\]l@mBlCk@x@Y^KNU`@IJa@l@ILKTSIOGeAc@m@Ss@Kw@Au@Fk@BU@SBK@w@Du@Ds@Fo@DwAHyAHcCFW@iA@uABc@@QBc@t@[j@S\\a@^K@mAQC?YEOCEA[EmASe@EOCAW?QAOCECGEGIGIGGEK?M@KDOJQRQRQTW`@_@|@wAlCYd@i@v@MNKJMHQDSDQ?i@?KAa@?G?YAwAAc@AC?i@?cADsCTi@Da@@[@QAM?q@Gq@Q}@YOGw@c@i@e@MOOOGIQQy@cAaAkA]a@[_@[_@y@cAWWa@]MIm@GUC]AG@C?KFONKNO^Ur@c@jAm@fBA@M\\Q`@GPQd@[v@IXK^Ob@}@pCu@xBYr@e@~@QZ[\\{@t@}BjByDbDcBvA[VwAlAi@f@YTKHoAhAe@b@C@c@^CBKHKJMLCFELCDI`@Md@Ib@A@u@fDU~@EP]vA]~AENKd@g@vBIZWhAERa@vBAHW~@Ol@Qt@G\\GRMh@Mh@CJAFOj@St@BPABIp@?DIf@CNI`@I\\g@xBETa@bBERM`@CLMf@g@@[CYGc@KUEe@KiBg@g@MOECAoBi@a@Mc@QYO]Qc@U{@[a@QWAY@oCP{A@u@CSBe@?SFQH[b@c@|@kA|Am@l@]JcFzEs@hA_AnBcAjCsDbMw@jBWh@kAfCi@jAqEtJu@dB_CvFg@`Ba@hBe@|Cg@~B]dAq@pAs@dAeCxCyBfCmD~D{AfBk@n@aDjD_BhBmBtB{EvFkEjEc@`@cK`JcKvJURiC~BuApAk@f@s@nAiCxCo@`Am@dA[j@Wl@Sn@[jASdAG^CXAZ@ZB\\Ld@R`@X^VVVRZTRRTPTRLRLXFVBXC\\EXGXKVOTQXQT[T]V_@Ta@TuCvAqB`AiDtBe@b@_CpBeBdB]b@m@|@i@x@q@lAa@r@qGtK}@xASX_@h@mAbBkAtAa@`@UTsAnAoAhAsAfAy@j@i@`@uAz@gB`AwB|@iBx@y@VwAf@mAZoBl@}Bd@{Cd@aBRqBN}BRgDXoJz@{K|AyEx@qHrAqAT_AP_AP}@PuFhA{Dt@uEt@uDp@{Bd@yB\\oEt@aEh@iFh@kCTaMz@}CRU@gFXyBP}EVsE`@_CN_BHmG`@eDRoDVyDLaA@aB?yI@iEFuBF{ADsCNwCPaBPgBNsEh@oARo@JmAR_ANi@JmHbAIHIDuObEc@Pa@La@FODK@I?M?e@ID{@?KNaC@K?A?SF}@@_@AWQqAo@uCIa@SeAUcAKi@QcAOgAIeAKsACiB?qABaBBo@@U@U@S?M\\@F?R@JALCRIXSTSn@m@BC~@_ANOd@a@PMNIXEHCFCFGDI^e@z@gATYJSFY@KBKFGHETYPi@XwB@MJo@J{@\\oCPyA@KD]D[Jc@FOHM\\]Z[pCuBnCuBxAmAZ]f@w@Te@\\gAD_@@O@UC]?c@ACIYKc@G[Me@Qq@I[EQGYQiANAF?FAH@R@Ll@BZBRJ\\Bz@DdAH\\"
+      },
+      "legs": [
+        {
+          "distance": {
+            "value": 26796.6,
+            "text": "26.8 km"
+          },
+          "duration": {
+            "value": 2163.5,
+            "text": "36 mins"
+          },
+          "steps": [
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 282.9
+              },
+              "duration": {
+                "value": 75.4
+              },
+              "polyline": {
+                "points": "{gyFag}xRQCOKG?]Da@eE\\CnBOLxA"
+              },
+              "html_instructions": "depart "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 83.6
+              },
+              "duration": {
+                "value": 21.1
+              },
+              "polyline": {
+                "points": "ifyFkk}xRJCFIBC@IIy@CECCI?C@EDCL"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 67.3
+              },
+              "duration": {
+                "value": 6.1
+              },
+              "polyline": {
+                "points": "yfyFum}xRLNLbB"
+              },
+              "html_instructions": "turn Gardens by the Bay"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 68.4
+              },
+              "duration": {
+                "value": 8.3
+              },
+              "polyline": {
+                "points": "}eyFaj}xRFJ@BB@B?r@GD?XEHC"
+              },
+              "html_instructions": "fork Gardens by the Bay"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 932
+              },
+              "duration": {
+                "value": 93.2
+              },
+              "polyline": {
+                "points": "mbyFaj}xRXCDN@FZjAPd@FL^n@LR^j@^\\LJNNTR^XhCxAnDpBTNlDnBrC`BZRTL|BpAhCxAHFRJ"
+              },
+              "html_instructions": "turn Marina Gardens Drive"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 455.1
+              },
+              "duration": {
+                "value": 42.9
+              },
+              "polyline": {
+                "points": "izwFej|xRMTGJa@r@sC`FcAfBwAdCuA~BCD"
+              },
+              "html_instructions": "end of road Central Boulevard"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 692.9
+              },
+              "duration": {
+                "value": 65
+              },
+              "polyline": {
+                "points": "khxFyt{xRYf@UMeCyAe@WmAq@MGWO]QgHcEkBaAgCmAeCeAGC"
+              },
+              "html_instructions": "turn Sheares Avenue"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 144
+              },
+              "duration": {
+                "value": 14.9
+              },
+              "polyline": {
+                "points": "ciyFkg|xRo@jAg@~@k@dA?BCD"
+              },
+              "html_instructions": "turn Sheares Link"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 343
+              },
+              "duration": {
+                "value": 38.9
+              },
+              "polyline": {
+                "points": "kmyFo`|xROVWMKEgAk@MIsAo@e@Uc@UeAk@i@Qe@M_@K{@Q"
+              },
+              "html_instructions": "turn Bayfront Avenue"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 165.2
+              },
+              "duration": {
+                "value": 19.3
+              },
+              "polyline": {
+                "points": "e~yFgh|xRDY@@NBh@Jf@L`@Jj@R^Pf@V"
+              },
+              "html_instructions": "continue Bayfront Avenue"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "evyFwe|xR"
+              },
+              "html_instructions": "arrive Bayfront Avenue"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 98.4
+              },
+              "duration": {
+                "value": 9.3
+              },
+              "polyline": {
+                "points": "evyFwe|xRf@XlBbA"
+              },
+              "html_instructions": "depart Bayfront Avenue"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 727.8
+              },
+              "duration": {
+                "value": 70.6
+              },
+              "polyline": {
+                "points": "oqyFyb|xR?NABCBsAo@e@Uc@UeAk@i@Qe@M_@K{@QMAkAKQ?wRWcBC"
+              },
+              "html_instructions": "continue Bayfront Avenue"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 738
+              },
+              "duration": {
+                "value": 72.7
+              },
+              "polyline": {
+                "points": "mxzFqi|xRMDG@IDC@IFMLIJGHCt@AdACz@A^C`AA~@ATAZA~@Ah@C~@Ab@AR?B?XAB?HC\\AVGTEPCHELKPCDQRQRKJQTWZGFUZKJ{@dAc@h@CBY^GH"
+              },
+              "html_instructions": "turn Raffles Avenue"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 419.1
+              },
+              "duration": {
+                "value": 48.5
+              },
+              "polyline": {
+                "points": "we{Fyd{xRYZUVSPe@d@_@\\k@j@A@_@^A?OZU`@MRILKP_@t@m@dAc@v@a@dAKP"
+              },
+              "html_instructions": "new name Stamford Road"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 536.2
+              },
+              "duration": {
+                "value": 84.6
+              },
+              "polyline": {
+                "points": "{s{FcrzxRPH|Az@nAn@f@VFBz@`@j@RPHJFb@Tv@^HD@@d@VJDb@TFDtAr@PHHDn@\\f@VNHLFFDPJ"
+              },
+              "html_instructions": "turn North Bridge Road"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 151.5
+              },
+              "duration": {
+                "value": 15.8
+              },
+              "polyline": {
+                "points": "}yzFsbzxRBJEFCDIPSXOTQ\\]p@CFMZCFCFEJ"
+              },
+              "html_instructions": "turn North Boat Quay"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 195
+              },
+              "duration": {
+                "value": 19.6
+              },
+              "polyline": {
+                "points": "a~zFg{yxRC`@CXAHAJEVET_@fAmAtB"
+              },
+              "html_instructions": "new name River Valley Road"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "gb{FiqyxR"
+              },
+              "html_instructions": "arrive River Valley Road"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 414.3
+              },
+              "duration": {
+                "value": 41.2
+              },
+              "polyline": {
+                "points": "gb{FiqyxRu@lAINOVe@v@S\\]l@mBlCk@x@Y^KNU`@IJa@l@IL"
+              },
+              "html_instructions": "depart River Valley Road"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 674.1
+              },
+              "duration": {
+                "value": 57.2
+              },
+              "polyline": {
+                "points": "{o{Fm~xxRKTSIOGeAc@m@Ss@Kw@Au@Fk@BU@SBK@w@Du@Ds@Fo@DwAHyAHcCFW@iA@uABc@@QB"
+              },
+              "html_instructions": "turn Clemenceau Avenue"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 85.5
+              },
+              "duration": {
+                "value": 7.8
+              },
+              "polyline": {
+                "points": "yt|Fw}xxRc@t@[j@S\\"
+              },
+              "html_instructions": "turn Penang Road"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 187.8
+              },
+              "duration": {
+                "value": 18.9
+              },
+              "polyline": {
+                "points": "mw|FwyxxRa@^K@mAQC?YEOCEA[EmASe@E"
+              },
+              "html_instructions": "turn Buyong Road"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 1331.3
+              },
+              "duration": {
+                "value": 124.9
+              },
+              "polyline": {
+                "points": "ma}FszxxROCAW?QAOCECGEGIGIGGEK?M@KDOJQRQRQTW`@_@|@wAlCYd@i@v@MNKJMHQDSDQ?i@?KAa@?G?YAwAAc@AC?i@?cADsCTi@Da@@[@QAM?q@Gq@Q}@YOGw@c@i@e@MOOOGIQQy@cAaAkA]a@[_@[_@y@cAWWa@]MIm@GUC"
+              },
+              "html_instructions": "turn Cavenagh Road"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 2133.3
+              },
+              "duration": {
+                "value": 152.8
+              },
+              "polyline": {
+                "points": "s{~Fu`yxR]AG@C?KFONKNO^Ur@c@jAm@fBA@M\\Q`@GPQd@[v@IXK^Ob@}@pCu@xBYr@e@~@QZ[\\{@t@}BjByDbDcBvA[VwAlAi@f@YTKHoAhAe@b@C@c@^CBKHKJMLCFELCDI`@Md@Ib@A@u@fDU~@EP]vA]~AENKd@g@vBIZWhAERa@vBAHW~@Ol@Qt@G\\GRMh@Mh@CJAFOj@St@"
+              },
+              "html_instructions": "turn Bukit Timah Road"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 296.3
+              },
+              "duration": {
+                "value": 28.6
+              },
+              "polyline": {
+                "points": "wv`Gq|uxRBPABIp@?DIf@CNI`@I\\g@xBETa@bBERM`@CL"
+              },
+              "html_instructions": "off ramp Bukit Timah Road"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 456.4
+              },
+              "duration": {
+                "value": 36.3
+              },
+              "polyline": {
+                "points": "i{`GsluxRMf@g@@[CYGc@KUEe@KiBg@g@MOECAoBi@a@Mc@QYO]Qc@U{@[a@Q"
+              },
+              "html_instructions": "turn Whitley Road"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 188.9
+              },
+              "duration": {
+                "value": 21.1
+              },
+              "polyline": {
+                "points": "kraGatuxRWAY@oCP{A@u@C"
+              },
+              "html_instructions": "new name Mount Pleasant Road"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 241.9
+              },
+              "duration": {
+                "value": 21.8
+              },
+              "polyline": {
+                "points": "_}aGqsuxRSBe@?SFQH[b@c@|@kA|Am@l@]J"
+              },
+              "html_instructions": "on ramp "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 3724.7
+              },
+              "duration": {
+                "value": 209.7
+              },
+              "polyline": {
+                "points": "wfbGakuxRcFzEs@hA_AnBcAjCsDbMw@jBWh@kAfCi@jAqEtJu@dB_CvFg@`Ba@hBe@|Cg@~B]dAq@pAs@dAeCxCyBfCmD~D{AfBk@n@aDjD_BhBmBtB{EvFkEjEc@`@cK`JcKvJURiC~BuApAk@f@"
+              },
+              "html_instructions": "merge Pan-Island Expressway"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 937
+              },
+              "duration": {
+                "value": 84.5
+              },
+              "polyline": {
+                "points": "mafGaepxRs@nAiCxCo@`Am@dA[j@Wl@Sn@[jASdAG^CXAZ@ZB\\Ld@R`@X^VVVRZTRRTPTRLRLXFVBXC\\EXGXKVOTQXQT[T]V_@Ta@T"
+              },
+              "html_instructions": "off ramp "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 6983.7
+              },
+              "duration": {
+                "value": 352.8
+              },
+              "polyline": {
+                "points": "gmfGuynxRuCvAqB`AiDtBe@b@_CpBeBdB]b@m@|@i@x@q@lAa@r@qGtK}@xASX_@h@mAbBkAtAa@`@UTsAnAoAhAsAfAy@j@i@`@uAz@gB`AwB|@iBx@y@VwAf@mAZoBl@}Bd@{Cd@aBRqBN}BRgDXoJz@{K|AyEx@qHrAqAT_AP_AP}@PuFhA{Dt@uEt@uDp@{Bd@yB\\oEt@aEh@iFh@kCTaMz@}CRU@gFXyBP}EVsE`@_CN_BHmG`@eDRoDVyDLaA@aB?yI@iEFuBF{ADsCNwCPaBPgBNsEh@oARo@JmAR_ANi@JmHbA"
+              },
+              "html_instructions": "new name Bukit Timah Expressway"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 371.2
+              },
+              "duration": {
+                "value": 33.4
+              },
+              "polyline": {
+                "points": "{tqGm`kxRIHIDuObEc@Pa@L"
+              },
+              "html_instructions": "off ramp "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 48.6
+              },
+              "duration": {
+                "value": 4.4
+              },
+              "polyline": {
+                "points": "khrGyxjxRa@FODK@I?M?"
+              },
+              "html_instructions": "fork "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 874
+              },
+              "duration": {
+                "value": 65.8
+              },
+              "polyline": {
+                "points": "akrGixjxRe@ID{@?KNaC@K?A?SF}@@_@AWQqAo@uCIa@SeAUcAKi@QcAOgAIeAKsACiB?qABaBBo@@U@U@S?M"
+              },
+              "html_instructions": "turn Mandai Road"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 1747.2
+              },
+              "duration": {
+                "value": 196.1
+              },
+              "polyline": {
+                "points": "wprGuglxR\\@F?R@JALCRIXSTSn@m@BC~@_ANOd@a@PMNIXEHCFCFGDI^e@z@gATYJSFY@KBKFGHETYPi@XwB@MJo@J{@\\oCPyA@KD]D[Jc@FOHM\\]Z[pCuBnCuBxAmAZ]f@w@Te@\\gAD_@@O@UC]?c@ACIYKc@G[Me@Qq@I[EQGYQiANAF?FAH@R@Ll@BZBRJ\\Bz@DdAH\\"
+              },
+              "html_instructions": "turn Mandai Lake Road"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "egqGucnxR"
+              },
+              "html_instructions": "arrive Mandai Lake Road"
+            }
+          ]
+        }
+      ],
+      "bounds": {
+        "northeast": {
+          "lat": 1.41091,
+          "lng": 103.86678
+        },
+        "southwest": {
+          "lat": 1.27413,
+          "lng": 103.77109
+        }
+      }
+    }
+  ],
+  "status": "OK"
+}

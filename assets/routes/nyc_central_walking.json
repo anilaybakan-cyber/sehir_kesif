@@ -1,0 +1,138 @@
+{
+  "routes": [
+    {
+      "overview_polyline": {
+        "points": "iizwF`vmbMhAv@JFHFfBjAJFFQp@sBbAcDFUIGgBkAKGGGkBmAQMUMgBmAIEMIgBkAIGKGgBkAKGKGgBiAKGKGgBkAKIIGgBiAIGMIiBmAQKIRWz@Sl@]hAY~@Ob@ENKXELGLINKPKPOVMNMPKNa@j@INKNIPGNGLENCNENCPCNAPAPAR?P?NAPALALSrAIj@CLCPENENEPs@xBi@bBGRY|@Wt@CJ"
+      },
+      "legs": [
+        {
+          "distance": {
+            "value": 1723.1,
+            "text": "1.7 km"
+          },
+          "duration": {
+            "value": 237,
+            "text": "3 mins"
+          },
+          "steps": [
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 135.7
+              },
+              "duration": {
+                "value": 24.7
+              },
+              "polyline": {
+                "points": "iizwF`vmbMhAv@JFHFfBjAJF"
+              },
+              "html_instructions": "depart 5th Avenue"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 154.3
+              },
+              "duration": {
+                "value": 24.6
+              },
+              "polyline": {
+                "points": "ubzwF|zmbMFQp@sBbAcDFU"
+              },
+              "html_instructions": "turn East 70th Street"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 743.3
+              },
+              "duration": {
+                "value": 106.4
+              },
+              "polyline": {
+                "points": "o~ywF|pmbMIGgBkAKGGGkBmAQMUMgBmAIEMIgBkAIGKGgBkAKGKGgBiAKGKGgBkAKIIGgBiAIGMIiBmAQK"
+              },
+              "html_instructions": "turn Madison Avenue"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 152.4
+              },
+              "duration": {
+                "value": 19
+              },
+              "polyline": {
+                "points": "ac{wFjvlbMIRWz@Sl@]hAY~@Ob@EN"
+              },
+              "html_instructions": "turn East 79th Street"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 531.8
+              },
+              "duration": {
+                "value": 61.7
+              },
+              "polyline": {
+                "points": "eg{wFf`mbMKXELGLINKPKPOVMNMPKNa@j@INKNIPGNGLENCNENCPCNAPAPAR?P?NAPALALSrAIj@CLCPENENEPs@xBi@bBGRY|@Wt@"
+              },
+              "html_instructions": "new name 79th Street Transverse"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "_u{wFhbnbM"
+              },
+              "html_instructions": "arrive 79th Street Transverse"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 5.6
+              },
+              "duration": {
+                "value": 0.6
+              },
+              "polyline": {
+                "points": "_u{wFhbnbMCJ"
+              },
+              "html_instructions": "depart 79th Street Transverse"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "cu{wFtbnbM"
+              },
+              "html_instructions": "arrive 79th Street Transverse"
+            }
+          ]
+        }
+      ],
+      "bounds": {
+        "northeast": {
+          "lat": 40.77922,
+          "lng": -73.96214
+        },
+        "southwest": {
+          "lat": 40.77048,
+          "lng": -73.96923
+        }
+      }
+    }
+  ],
+  "status": "OK"
+}

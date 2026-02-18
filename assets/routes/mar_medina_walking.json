@@ -1,0 +1,359 @@
+{
+  "routes": [
+    {
+      "overview_polyline": {
+        "points": "oz_`Eriwo@Ku@G}@EUk@k@c@_@iAcAYUJS@?Zk@Xo@d@}@@ENQHKJOFEDCn@GDAHCLKNOR[TUPSLKNOLIVQJGNGXIJGTILCLEJCIWGYESOk@CMCKAEAEGIIKEKAC?G?G?C@G@E?C?ACUCSAK?KA?A?AAA?IWUi@AAAAC?C@KBE?E?CACA]QSIw@e@GGAAG[Ii@YqBa@@E?m@?E?s@@o@Hw@BS?_@?_BDAf@C`@Eh@ItAAN@JBR@JDFM?c@@W?A?Q?A?K?S?KA_@Gc@KWE[GKAOCKAQE]GUAGBAJs@Z?F?BAHGBE@?F?L?J?JAVE\\?l@?VBRBR?D^F@CP?DX@FBDBDBBd@T^\\h@RTL@?@?\\UB?@?Vv@Ww@A?C?]TA?A?UMi@S_@]QKSICCCECEAGEYQ?AB_@G?FALCNCROt@I\\IXELSj@Mb@Kb@XB^NXJTL@@@@@H\\NTHl@RHBTDD?F?RAS@G?E?OCEAICm@SUI]OAIAAAAUMYK_@OYCJc@Lc@Rk@DMHYH]Nu@BSBO@M?G?ECSCS?W?m@D]@W?K?K?M?GDAFC@I?C?GOw@K_@KDG?G?CEQ[U_@U]KKECI?IDMBK?W?[Ra@T_@Ly@VUJa@LiA`@MDM?OBS@WBeCNMDO?G?g@D"
+      },
+      "legs": [
+        {
+          "distance": {
+            "value": 3333.5,
+            "text": "3.3 km"
+          },
+          "duration": {
+            "value": 721.2,
+            "text": "12 mins"
+          },
+          "steps": [
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 194.5
+              },
+              "duration": {
+                "value": 49.3
+              },
+              "polyline": {
+                "points": "oz_`Eriwo@Ku@G}@EUk@k@c@_@iAcAYU"
+              },
+              "html_instructions": "depart "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 139.9
+              },
+              "duration": {
+                "value": 21.3
+              },
+              "polyline": {
+                "points": "}```Eb`wo@JS@?Zk@Xo@d@}@@ENQHKJOFE"
+              },
+              "html_instructions": "turn Rue des Banques"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 230.6
+              },
+              "duration": {
+                "value": 81.9
+              },
+              "polyline": {
+                "points": "c|_`Ezxvo@DCn@GDAHCLKNOR[TUPSLKNOLIVQJGNGXIJGTILCLEJC"
+              },
+              "html_instructions": "new name Rue Riad Zitoun El Jedid"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 152.2
+              },
+              "duration": {
+                "value": 55.2
+              },
+              "polyline": {
+                "points": "_q_`Etqvo@IWGYESOk@CMCKAEAEGIIKEKAC?G?G?C@G@E?C?ACUCSAK?K"
+              },
+              "html_instructions": "turn Rue Douar Graoua"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 230.9
+              },
+              "duration": {
+                "value": 37.1
+              },
+              "polyline": {
+                "points": "ss_`Elhvo@A?A?AAA?IWUi@AAAAC?C@KBE?E?CACA]QSIw@e@GGAAG[Ii@YqB"
+              },
+              "html_instructions": "turn Trik Tikhizrit"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 219.8
+              },
+              "duration": {
+                "value": 36.1
+              },
+              "polyline": {
+                "points": "g{_`Eb~uo@a@@E?m@?E?s@@o@Hw@BS?_@?_BD"
+              },
+              "html_instructions": "turn Trik Arset Loghzail"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 130.3
+              },
+              "duration": {
+                "value": 21.7
+              },
+              "polyline": {
+                "points": "sg``Ez~uo@Af@C`@Eh@ItAAN@JBR@JDF"
+              },
+              "html_instructions": "turn Derb Sidi Boulabada"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 218.6
+              },
+              "duration": {
+                "value": 31.6
+              },
+              "polyline": {
+                "points": "}g``Ehgvo@M?c@@W?A?Q?A?K?S?KA_@Gc@KWE[GKAOCKAQE]GUAGBAJ"
+              },
+              "html_instructions": "turn Rue Ben Saleh"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 153.2
+              },
+              "duration": {
+                "value": 27.3
+              },
+              "polyline": {
+                "points": "ys``E~evo@s@Z?F?BAHGBE@?F?L?J?JAVE\\?l@?VBRBR?D"
+              },
+              "html_instructions": "fork Rue Azbezd"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 30.3
+              },
+              "duration": {
+                "value": 8.3
+              },
+              "polyline": {
+                "points": "}u``Ennvo@^F@CP?"
+              },
+              "html_instructions": "turn Derb El Kadi"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 167
+              },
+              "duration": {
+                "value": 67.5
+              },
+              "polyline": {
+                "points": "it``Ernvo@DX@FBDBDBBd@T^\\h@RTL@?@?\\UB?@?Vv@"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 128.2
+              },
+              "duration": {
+                "value": 30.7
+              },
+              "polyline": {
+                "points": "om``E|svo@Ww@A?C?]TA?A?UMi@S_@]QK"
+              },
+              "html_instructions": "continue "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "as``Enpvo@"
+              },
+              "html_instructions": "arrive "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 38.8
+              },
+              "duration": {
+                "value": 12.9
+              },
+              "polyline": {
+                "points": "as``Enpvo@SICCCECEAGEY"
+              },
+              "html_instructions": "depart "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 30.3
+              },
+              "duration": {
+                "value": 12.6
+              },
+              "polyline": {
+                "points": "it``Ernvo@Q?AB_@G"
+              },
+              "html_instructions": "turn Derb El Kadi"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 152
+              },
+              "duration": {
+                "value": 28.2
+              },
+              "polyline": {
+                "points": "}u``Ennvo@?FALCNCROt@I\\IXELSj@Mb@Kb@"
+              },
+              "html_instructions": "end of road Rue Azbezd"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 166.9
+              },
+              "duration": {
+                "value": 51.5
+              },
+              "polyline": {
+                "points": "_y``Exwvo@XB^NXJTL@@@@@H\\NTHl@RHBTDD?F?RA"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 27.8
+              },
+              "duration": {
+                "value": 3.9
+              },
+              "polyline": {
+                "points": "kp``Ej{vo@S@G?E?OC"
+              },
+              "html_instructions": "continue "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "}q``Eh{vo@"
+              },
+              "html_instructions": "arrive "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 139.2
+              },
+              "duration": {
+                "value": 23.6
+              },
+              "polyline": {
+                "points": "}q``Eh{vo@EAICm@SUI]OAIAAAAUMYK_@OYC"
+              },
+              "html_instructions": "depart "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 318.2
+              },
+              "duration": {
+                "value": 53.5
+              },
+              "polyline": {
+                "points": "_y``Exwvo@Jc@Lc@Rk@DMHYH]Nu@BSBO@M?G?ECSCS?W?m@D]@W?K?K?M?GDAFC@I?C?GOw@K_@"
+              },
+              "html_instructions": "turn Rue Azbezd"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 126.7
+              },
+              "duration": {
+                "value": 18.4
+              },
+              "polyline": {
+                "points": "iv``Ebdvo@KDG?G?CEQ[U_@U]KKECI?IDMBK?W?"
+              },
+              "html_instructions": "turn Rue Ben Saleh"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 178.2
+              },
+              "duration": {
+                "value": 25.6
+              },
+              "polyline": {
+                "points": "_|``Ebavo@[Ra@T_@Ly@VUJa@LiA`@MD"
+              },
+              "html_instructions": "turn Taoialet Issebtiyenne"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 159.9
+              },
+              "duration": {
+                "value": 23
+              },
+              "polyline": {
+                "points": "gea`Etevo@M?OBS@WBeCNMDO?G?g@D"
+              },
+              "html_instructions": "new name Route Bab Lakhmiss"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "ena`Ezfvo@"
+              },
+              "html_instructions": "arrive Route Bab Lakhmiss"
+            }
+          ]
+        }
+      ],
+      "bounds": {
+        "northeast": {
+          "lat": 31.63379,
+          "lng": -7.98194
+        },
+        "southwest": {
+          "lat": 31.624,
+          "lng": -7.9889
+        }
+      }
+    }
+  ],
+  "status": "OK"
+}

@@ -1,0 +1,73 @@
+{
+  "routes": [
+    {
+      "overview_polyline": {
+        "points": "qohxFaz}uABAp@g@p@e@jAcAJYfAFN@f@D"
+      },
+      "legs": [
+        {
+          "distance": {
+            "value": 201.8,
+            "text": "0.2 km"
+          },
+          "duration": {
+            "value": 30,
+            "text": "0 mins"
+          },
+          "steps": [
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 130.3
+              },
+              "duration": {
+                "value": 19.3
+              },
+              "polyline": {
+                "points": "qohxFaz}uABAp@g@p@e@jAcAJY"
+              },
+              "html_instructions": "depart Via San Liborio"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 71.6
+              },
+              "duration": {
+                "value": 10.7
+              },
+              "polyline": {
+                "points": "qihxFo_~uAfAFN@f@D"
+              },
+              "html_instructions": "end of road Via Toledo"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "qehxF__~uA"
+              },
+              "html_instructions": "arrive Via Toledo"
+            }
+          ]
+        }
+      ],
+      "bounds": {
+        "northeast": {
+          "lat": 40.84489,
+          "lng": 14.24904
+        },
+        "southwest": {
+          "lat": 40.84329,
+          "lng": 14.24817
+        }
+      }
+    }
+  ],
+  "status": "OK"
+}

@@ -1,0 +1,385 @@
+{
+  "routes": [
+    {
+      "overview_polyline": {
+        "points": "c}|tK{o_|CRa@f@u@h@{@xAaBfBiBHKHKf@o@jAwAl@cAtA_CLUTU\\SHCHCVA`@FPDpCp@D@ZDBR?FDNBJPn@t@bCt@hCBFTn@Pl@HTpDfLBJTt@Nd@DLhB~Fb@pARt@V|@`@pAbDdIl@`BLc@DIt@eBh@qApCoGnAyCXq@DFFPj@d@^ZNPBSHmAh@kIBe@@[@m@DyA?KAgIAiI?g@Am@?E?iC?]A{@Ce@CWM]UWw@cAw@}@}BeCY[[SiBmA[SMGIWCQGIEEIBCBM@IIuDwDc@i@GGAICICEEACBWu@{AuEYy@CKMc@Mc@K[eB{ASQaByAsAuAGGMOXgCjFoh@h@yFHcAr@_HxAyLBc@AWIJG\\QvAg@jEgArJMhAq@rHoFph@UtBAPGb@eApKCLAZ?P?z@^hGHxB@z@NNNJvFpBTHJBhBf@x@Xf@TX^Iv@u@zFGd@MIq@c@B[XuEOKQKOrCEf@g@]HyA"
+      },
+      "legs": [
+        {
+          "distance": {
+            "value": 4809.6,
+            "text": "4.8 km"
+          },
+          "duration": {
+            "value": 573.6,
+            "text": "9 mins"
+          },
+          "steps": [
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 37.9
+              },
+              "duration": {
+                "value": 3.4
+              },
+              "polyline": {
+                "points": "c}|tK{o_|CRa@f@u@"
+              },
+              "html_instructions": "depart Kantatie 79"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "g{|tKsr_|C"
+              },
+              "html_instructions": "arrive Kantatie 79"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 509
+              },
+              "duration": {
+                "value": 51.7
+              },
+              "polyline": {
+                "points": "g{|tKsr_|Ch@{@xAaBfBiBHKHKf@o@jAwAl@cAtA_CLUTU\\SHCHCVA`@FPDpCp@D@ZD"
+              },
+              "html_instructions": "depart Kantatie 79"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 651.4
+              },
+              "duration": {
+                "value": 90.9
+              },
+              "polyline": {
+                "points": "y`|tKaf`|CBR?FDNBJPn@t@bCt@hCBFTn@Pl@HTpDfLBJTt@Nd@DLhB~Fb@pARt@V|@`@pAbDdIl@`B"
+              },
+              "html_instructions": "continue Poromiehentie"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 82.4
+              },
+              "duration": {
+                "value": 12.3
+              },
+              "polyline": {
+                "points": "gf{tKqg~{CLc@DIt@eBh@qA"
+              },
+              "html_instructions": "turn Urheilukatu"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "sb{tKwn~{C"
+              },
+              "html_instructions": "arrive Urheilukatu"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 175.5
+              },
+              "duration": {
+                "value": 26.7
+              },
+              "polyline": {
+                "points": "sb{tKwn~{CpCoGnAyCXq@"
+              },
+              "html_instructions": "depart Urheilukatu"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 55
+              },
+              "duration": {
+                "value": 7.9
+              },
+              "polyline": {
+                "points": "wzztKs}~{CDFFPj@d@^Z"
+              },
+              "html_instructions": "turn Kansankatu"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 391.9
+              },
+              "duration": {
+                "value": 45.5
+              },
+              "polyline": {
+                "points": "}wztKwz~{CNPBSHmAh@kIBe@@[@m@DyA?KAgIAiI?g@Am@?E?iC?]A{@Ce@CW"
+              },
+              "html_instructions": "turn Hallituskatu"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 294.2
+              },
+              "duration": {
+                "value": 26.6
+              },
+              "polyline": {
+                "points": "wuztKyn`|CM]UWw@cAw@}@}BeCY[[SiBmA[SMGIW"
+              },
+              "html_instructions": "turn Valtakatu"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 21.8
+              },
+              "duration": {
+                "value": 2
+              },
+              "polyline": {
+                "points": "}d{tKi~`|CCQGIEEIBCB"
+              },
+              "html_instructions": "roundabout "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 14
+              },
+              "duration": {
+                "value": 1.3
+              },
+              "polyline": {
+                "points": "}e{tKc_a|CM@II"
+              },
+              "html_instructions": "exit roundabout "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 135.7
+              },
+              "duration": {
+                "value": 12.2
+              },
+              "polyline": {
+                "points": "uf{tKk_a|CuDwDc@i@GG"
+              },
+              "html_instructions": "new name Valtakatu"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 14.5
+              },
+              "duration": {
+                "value": 1.7
+              },
+              "polyline": {
+                "points": "wm{tKufa|CAICICEEACB"
+              },
+              "html_instructions": "roundabout Aallonkatu"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 121.8
+              },
+              "duration": {
+                "value": 10.9
+              },
+              "polyline": {
+                "points": "kn{tKmga|CWu@{AuEYy@CKMc@"
+              },
+              "html_instructions": "exit roundabout Aallonkatu"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 214.4
+              },
+              "duration": {
+                "value": 21.4
+              },
+              "polyline": {
+                "points": "ks{tKcsa|CMc@K[eB{ASQaByAsAuAGGMO"
+              },
+              "html_instructions": "new name Pohjanpuistikko"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 627.2
+              },
+              "duration": {
+                "value": 86
+              },
+              "polyline": {
+                "points": "k~{tKy~a|CXgCjFoh@h@yFHcAr@_HxAyLBc@AW"
+              },
+              "html_instructions": "turn Kajaanintie"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 14.5
+              },
+              "duration": {
+                "value": 1.2
+              },
+              "polyline": {
+                "points": "ap{tKeod|CIJG\\"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "sp{tK{md|C"
+              },
+              "html_instructions": "arrive "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 735
+              },
+              "duration": {
+                "value": 72.3
+              },
+              "polyline": {
+                "points": "sp{tK{md|CQvAg@jEgArJMhAq@rHoFph@UtBAPGb@eApKCLAZ?P"
+              },
+              "html_instructions": "depart "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 116.2
+              },
+              "duration": {
+                "value": 15
+              },
+              "polyline": {
+                "points": "qa|tKyoa|C?z@^hGHxB@z@"
+              },
+              "html_instructions": "new name Toripuistikko"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 310.2
+              },
+              "duration": {
+                "value": 37.2
+              },
+              "polyline": {
+                "points": "e`|tK}_a|CNNNJvFpBTHJBhBf@x@Xf@TX^"
+              },
+              "html_instructions": "turn Korkalonkatu"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 86.6
+              },
+              "duration": {
+                "value": 10.8
+              },
+              "polyline": {
+                "points": "eo{tKiw`|CIv@u@zFGd@"
+              },
+              "html_instructions": "turn Pekankatu"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 37.4
+              },
+              "duration": {
+                "value": 8
+              },
+              "polyline": {
+                "points": "mq{tKol`|CMIq@c@"
+              },
+              "html_instructions": "turn Maakuntakatu"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 119.2
+              },
+              "duration": {
+                "value": 20
+              },
+              "polyline": {
+                "points": "ms{tK}m`|CB[XuEOKQKOrCEf@"
+              },
+              "html_instructions": "turn Sale parkkialue"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 44.1
+              },
+              "duration": {
+                "value": 8.6
+              },
+              "polyline": {
+                "points": "gt{tKkp`|Cg@]HyA"
+              },
+              "html_instructions": "continue Sale parkkialue"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "eu{tKct`|C"
+              },
+              "html_instructions": "arrive Sale parkkialue"
+            }
+          ]
+        }
+      ],
+      "bounds": {
+        "northeast": {
+          "lat": 66.5085,
+          "lng": 25.75107
+        },
+        "southwest": {
+          "lat": 66.497,
+          "lng": 25.71913
+        }
+      }
+    }
+  ],
+  "status": "OK"
+}

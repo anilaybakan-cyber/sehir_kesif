@@ -1,0 +1,138 @@
+{
+  "routes": [
+    {
+      "overview_polyline": {
+        "points": "gn`gGo{|_@AMCGEAU@KEuA?E?I?GDKUOc@WcACGCKrEwBtBcA\\ODCVM^Ql@Y|BgAf@WhAk@BANILENItCqACIAEGWQHqB~@WJQJQHOFGD]Ne@TSJOF_@PKD}DjB{@`@q@ZOFOFULGBgFbCi@T]PSJMDEBEBuAn@qCrAE@GBEB_@Pq@ZGBSJc@R_@PGD}Ar@mAj@IBQHOHE@aD~AIDSHMFe@RQHi@VIDSJQHKDwDfBGBOHSHyBdAGBGBA@SJG[UKCMAEAEAGs@oDG_@Kg@SiASkAVaG"
+      },
+      "legs": [
+        {
+          "distance": {
+            "value": 2538.9,
+            "text": "2.5 km"
+          },
+          "duration": {
+            "value": 317.5,
+            "text": "5 mins"
+          },
+          "steps": [
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 12.3
+              },
+              "duration": {
+                "value": 4.2
+              },
+              "polyline": {
+                "points": "gn`gGo{|_@AMCGEA"
+              },
+              "html_instructions": "depart "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 81.8
+              },
+              "duration": {
+                "value": 20.1
+              },
+              "polyline": {
+                "points": "sn`gGg||_@U@KEuA?E?I?GD"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 68.2
+              },
+              "duration": {
+                "value": 18.7
+              },
+              "polyline": {
+                "points": "cs`gGe||_@KUOc@WcACGCK"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 545.5
+              },
+              "duration": {
+                "value": 87.8
+              },
+              "polyline": {
+                "points": "_u`gGw`}_@rEwBtBcA\\ODCVM^Ql@Y|BgAf@WhAk@BANILENItCqA"
+              },
+              "html_instructions": "turn Boulevard Michelet"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 1513
+              },
+              "duration": {
+                "value": 135.1
+              },
+              "polyline": {
+                "points": "sx_gG{p}_@CIAEGWQHqB~@WJQJQHOFGD]Ne@TSJOF_@PKD}DjB{@`@q@ZOFOFULGBgFbCi@T]PSJMDEBEBuAn@qCrAE@GBEB_@Pq@ZGBSJc@R_@PGD}Ar@mAj@IBQHOHE@aD~AIDSHMFe@RQHi@VIDSJQHKDwDfBGBOHSHyBdAGBGBA@SJ"
+              },
+              "html_instructions": "continue Boulevard Michelet"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 25.4
+              },
+              "duration": {
+                "value": 3.8
+              },
+              "polyline": {
+                "points": "yfbgGgf|_@G[UK"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 292.7
+              },
+              "duration": {
+                "value": 47.8
+              },
+              "polyline": {
+                "points": "wgbgGog|_@CMAEAEAGs@oDG_@Kg@SiASkAVaG"
+              },
+              "html_instructions": "turn All\u00e9e Ray-Grassi"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "yjbgGa}|_@"
+              },
+              "html_instructions": "arrive All\u00e9e Ray-Grassi"
+            }
+          ]
+        }
+      ],
+      "bounds": {
+        "northeast": {
+          "lat": 43.27113,
+          "lng": 5.39954
+        },
+        "southwest": {
+          "lat": 43.25786,
+          "lng": 5.39252
+        }
+      }
+    }
+  ],
+  "status": "OK"
+}

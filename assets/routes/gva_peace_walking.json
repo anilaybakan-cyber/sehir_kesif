@@ -1,0 +1,463 @@
+{
+  "routes": [
+    {
+      "overview_polyline": {
+        "points": "i|byGo_nd@?BENETCHI^KZABGNIRKRIPU\\QRYZSP[T[RMFEBGBUJSHSDSFSBYDM@S@W@G?[?S@IAWAMAEAG?]EICQCYIOEICWKEAOISKIGECIEe@[UMOMWOMIJe@VqAACAAIEAAA?A@WpAERELRNLHVNNLTLd@ZHDDBHFRJNHD@VJHBNDj@LHB\\DF?D@L@V@H@RAZ?F?VA?d@?J?H?b@?V@jA@t@@b@Dp@Fn@D\\F`@BJJZHXN\\HNDJDT@F@HF`@PYDGHMFIBGT]Tm@LYf@oAHQBKNa@Pe@HS@CPc@Zy@t@sBPc@Ri@JYj@cBN_@@GHSDITQ@GZyA@G@G@GJWL[Re@JWPe@BEVg@HSHQFOJMJCJCNGVOVMX]LEXId@OFRJLBAZIBABS?WEBu@Re@NYHMD_@F_@PMHE@IBG?E?M?G@A?C@G@E@E?k@dBCHK^Wl@ABQb@CFABM`@EPQx@EXCF?DCJ@ZOYECsAs@OIEA[CKZABGNIRKRIPU\\QRYZSP[T[RMFEBGBUJSHSDSFSBYDM@S@?d@?J?H?b@?V@jA@t@@b@Dp@Fn@D\\F`@BJJZHXN\\HNDJDT@F@HF`@PYDGHMFIBGT]Tm@LYf@oAHQBKNa@Pe@HS@CPc@Zy@t@sBPc@Ri@JYj@cBN_@@GHSDIHBNHB@@@PHFB?@@?BB@?FDFDLLTT@DHHHNDDLRPVl@|@n@z@BDPTV\\HJDFNTTZHJJNLPRT`@j@rAjBJN@@FHHLbAtANP\\d@FJHJRZV\\d@p@`ArAl@v@JNp@|@JLDFp@x@LNZ^LNTTNPTRNHXRPPNFLFTFJ@JDHBd@VvAv@lAl@^PJFDBx@h@RL\\j@BFBF@H@JAHCLk@jBADUz@GPERGTMj@Kh@Mj@Ib@ADCPEXSxAGl@Gh@CNEAKCs@QCBCFEAGAIAICAAa@k@QWEIE@CD?@"
+      },
+      "legs": [
+        {
+          "distance": {
+            "value": 4941.2,
+            "text": "4.9 km"
+          },
+          "duration": {
+            "value": 618.4,
+            "text": "10 mins"
+          },
+          "steps": [
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 34.9
+              },
+              "duration": {
+                "value": 3.9
+              },
+              "polyline": {
+                "points": "i|byGo_nd@?BENETCHI^"
+              },
+              "html_instructions": "depart Place des Nations"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 367.8
+              },
+              "duration": {
+                "value": 39.3
+              },
+              "polyline": {
+                "points": "c}byG{|md@KZABGNIRKRIPU\\QRYZSP[T[RMFEBGBUJSHSDSFSBYDM@S@W@G?[?S@IAWAMAEAG?]EICQC"
+              },
+              "html_instructions": "new name Avenue de la Paix"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "mocyGwsmd@"
+              },
+              "html_instructions": "arrive Avenue de la Paix"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 57.5
+              },
+              "duration": {
+                "value": 7.3
+              },
+              "polyline": {
+                "points": "mocyGwsmd@YIOEICWKEAOI"
+              },
+              "html_instructions": "depart Avenue de la Paix"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 98.4
+              },
+              "duration": {
+                "value": 12.4
+              },
+              "polyline": {
+                "points": "orcyGcumd@SKIGECIEe@[UMOMWOMI"
+              },
+              "html_instructions": "new name Route de Pregny"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 50.1
+              },
+              "duration": {
+                "value": 16.3
+              },
+              "polyline": {
+                "points": "owcyGsxmd@Je@VqA"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 61.6
+              },
+              "duration": {
+                "value": 24.6
+              },
+              "polyline": {
+                "points": "kvcyGk|md@ACAAIEAAA?A@WpAEREL"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 111.3
+              },
+              "duration": {
+                "value": 12
+              },
+              "polyline": {
+                "points": "cxcyGcymd@RNLHVNNLTLd@ZHDDBHFRJ"
+              },
+              "html_instructions": "end of road Route de Pregny"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 168.6
+              },
+              "duration": {
+                "value": 21.3
+              },
+              "polyline": {
+                "points": "orcyGcumd@NHD@VJHBNDj@LHB\\DF?D@L@V@H@RAZ?F?VA"
+              },
+              "html_instructions": "new name Avenue de la Paix"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 262.8
+              },
+              "duration": {
+                "value": 34.7
+              },
+              "polyline": {
+                "points": "eicyGesmd@?d@?J?H?b@?V@jA@t@@b@Dp@Fn@D\\F`@BJJZHXN\\HNDJDT@F@HF`@"
+              },
+              "html_instructions": "turn Avenue de l'Ariana"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 410.3
+              },
+              "duration": {
+                "value": 45.1
+              },
+              "polyline": {
+                "points": "wecyG__md@PYDGHMFIBGT]Tm@LYf@oAHQBKNa@Pe@HS@CPc@Zy@t@sBPc@Ri@JYj@cBN_@@GHSDI"
+              },
+              "html_instructions": "turn Route de Ferney"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 140.3
+              },
+              "duration": {
+                "value": 14.6
+              },
+              "polyline": {
+                "points": "gxbyGyymd@TQ@GZyA@G@G@GJWL[Re@JWPe@BE"
+              },
+              "html_instructions": "new name Avenue de France"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 55
+              },
+              "duration": {
+                "value": 7.2
+              },
+              "polyline": {
+                "points": "}sbyGccnd@Vg@HSHQFOJM"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 116.2
+              },
+              "duration": {
+                "value": 11.3
+              },
+              "polyline": {
+                "points": "}qbyGofnd@JCJCNGVOVMX]LEXId@O"
+              },
+              "html_instructions": "turn Rue de Montbrillant"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 38.1
+              },
+              "duration": {
+                "value": 10.9
+              },
+              "polyline": {
+                "points": "}kbyG{ind@FRJLBAZIBA"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 17.3
+              },
+              "duration": {
+                "value": 8.5
+              },
+              "polyline": {
+                "points": "ejbyGgind@BS?W"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 150.3
+              },
+              "duration": {
+                "value": 15.6
+              },
+              "polyline": {
+                "points": "ajbyGsjnd@EBu@Re@NYHMD_@F_@PMHE@IBG?E?M?"
+              },
+              "html_instructions": "turn Rue de Montbrillant"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 129.4
+              },
+              "duration": {
+                "value": 18.3
+              },
+              "polyline": {
+                "points": "erbyGqgnd@G@A?C@G@E@E?k@dBCHK^Wl@ABQb@CD"
+              },
+              "html_instructions": "end of road Avenue de France"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "svbyG}_nd@"
+              },
+              "html_instructions": "arrive Avenue de France"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 81.1
+              },
+              "duration": {
+                "value": 10.7
+              },
+              "polyline": {
+                "points": "svbyG{_nd@ABM`@EPQx@EXCF?DCJ@Z"
+              },
+              "html_instructions": "depart Avenue de France"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 95.9
+              },
+              "duration": {
+                "value": 12.6
+              },
+              "polyline": {
+                "points": "gxbyGyymd@OYECsAs@OIEA[C"
+              },
+              "html_instructions": "turn Place des Nations"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 256.8
+              },
+              "duration": {
+                "value": 32.2
+              },
+              "polyline": {
+                "points": "c}byG{|md@KZABGNIRKRIPU\\QRYZSP[T[RMFEBGBUJSHSDSFSBYDM@S@"
+              },
+              "html_instructions": "turn Avenue de la Paix"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 262.8
+              },
+              "duration": {
+                "value": 34.7
+              },
+              "polyline": {
+                "points": "eicyGesmd@?d@?J?H?b@?V@jA@t@@b@Dp@Fn@D\\F`@BJJZHXN\\HNDJDT@F@HF`@"
+              },
+              "html_instructions": "turn Avenue de l'Ariana"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 410.3
+              },
+              "duration": {
+                "value": 46.2
+              },
+              "polyline": {
+                "points": "wecyG__md@PYDGHMFIBGT]Tm@LYf@oAHQBKNa@Pe@HS@CPc@Zy@t@sBPc@Ri@JYj@cBN_@@GHSDI"
+              },
+              "html_instructions": "turn Route de Ferney"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 902.4
+              },
+              "duration": {
+                "value": 89.1
+              },
+              "polyline": {
+                "points": "gxbyGyymd@HBNHB@@@PHFB?@@?BB@?FDFDLLTT@DHHHNDDLRPVl@|@n@z@BDPTV\\HJDFNTTZHJJNLPRT`@j@rAjBJN@@FHHLbAtANP\\d@FJHJRZV\\d@p@`ArAl@v@JNp@|@JLDFp@x@LNZ^LNTTNPTRNHXRPPNFLFTF"
+              },
+              "html_instructions": "turn Avenue Giuseppe-Motta"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 221.9
+              },
+              "duration": {
+                "value": 20.1
+              },
+              "polyline": {
+                "points": "ypayGqlld@J@JDHBd@VvAv@lAl@^PJFDBx@h@RL"
+              },
+              "html_instructions": "new name Rue Hoffmann"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 321.6
+              },
+              "duration": {
+                "value": 36.3
+              },
+              "polyline": {
+                "points": "keayGqeld@\\j@BFBF@H@JAHCLk@jBADUz@GPERGTMj@Kh@Mj@Ib@ADCPEXSxAGl@Gh@CN"
+              },
+              "html_instructions": "turn Route de Meyrin"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 39.5
+              },
+              "duration": {
+                "value": 10.6
+              },
+              "polyline": {
+                "points": "gjayGcnkd@EAKCs@Q"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 7.4
+              },
+              "duration": {
+                "value": 2.1
+              },
+              "polyline": {
+                "points": "mlayG{nkd@CBCF"
+              },
+              "html_instructions": "end of road "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 19.1
+              },
+              "duration": {
+                "value": 4.6
+              },
+              "polyline": {
+                "points": "ulayGonkd@EAGAIAIC"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 45.6
+              },
+              "duration": {
+                "value": 14.2
+              },
+              "polyline": {
+                "points": "wmayGynkd@AAa@k@QWEI"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 6.9
+              },
+              "duration": {
+                "value": 1.7
+              },
+              "polyline": {
+                "points": "soayGiqkd@E@CD?@"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "}oayG_qkd@"
+              },
+              "html_instructions": "arrive "
+            }
+          ]
+        }
+      ],
+      "bounds": {
+        "northeast": {
+          "lat": 46.22738,
+          "lng": 6.14074
+        },
+        "southwest": {
+          "lat": 46.21393,
+          "lng": 6.12594
+        }
+      }
+    }
+  ],
+  "status": "OK"
+}

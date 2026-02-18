@@ -1,0 +1,181 @@
+
+import os
+
+file_path = 'lib/services/city_blog_content.dart'
+
+new_content = """  static const _amsterdamTR = '''# Amsterdam: Bir Şehirden Daha Fazlası, Bir Yaşam Biçimi 🇳🇱
+
+## Hızlı Bakış
+Amsterdam’da "Cash is NOT king." Nakit para çoğu yerde geçmez. Yanınızda mutlaka Mastercard/Visa veya tercihen Maestro logolu bir kart bulundurun. Ayrıca su pahalıdır ama çeşme suyu içilebilir. Yanınızda matara taşıyın ve "Check Water" noktalarından suyunuzu doldurarak şehre teşekkür edin!
+
+## 📅 Takviminizi Ayarlayın: Hangi Mevsim Sizin?
+Amsterdam’ın havası kararsız bir sevgili gibidir; beş dakika içinde size dört mevsimi yaşatabilir. Ama doğru zamanı seçerseniz, şehir size tüm cömertliğini sunar.
+
+- **İlkbahar (Mart - Mayıs):** Şehrin ve yakındaki Keukenhof bahçelerinin renk cümbüşüne döndüğü andır. 27 Nisan Kral Günü (King’s Day) tüm şehrin turuncuya boyandığı dev bir partidir. Lale kokulu bir Amsterdam istiyorsanız doğru zaman.
+- **Yaz (Haziran - Ağustos):** Güneş gece 22:30’da batar. Tekneler kanalları, yerliler parkları doldurur. Kanal kenarlarında ayak sarkıtıp sosyalleşmek ve bitmeyen günlerin tadını çıkarmak için en "vibe" dönem budur.
+- **Sonbahar (Eylül - Kasım):** Şehir turuncudan kahverengiye dönerken hafif bir hüzne ama muazzam bir estetiğe bürünür. Yağmurlu günlerde Amsterdam’ın meşhur "Brown Cafe"lerinde (tarihi publar) kaybolmak ve kalabalıktan uzak müze gezmek için idealdir.
+- **Kış (Aralık - Şubat):** Rüzgar serttir ama Amsterdam Işık Festivali kanalları bir sanat galerisine dönüştürür. Kanallar donarsa üzerinde buz pateni yapmak, donmazsa dumanı tüten bir kahveyle yağmuru izlemek bile bir aktivitedir.
+
+## 🏠Nerede Kalmalı: Mahalle Rehberi
+Merkez (Centrum) hem çok pahalıdır hem de çok gürültülü. Gerçek Amsterdam’ı yaşamak için bir halka dışarı çıkmalısınız.
+
+- **De Pijp (Şehrin Enerji Deposu):** En kozmopolit ve canlı mahalle. Dünyanın her yerinden gelen lezzetlerin ve butik kafelerin merkezi. Albert Cuyp Pazarı’nın dibinde kalın; sabahları taze meyve kokularıyla uyanın.
+- **Oud-West (Trendsetterların Sığınağı):** Turistten kaçan expat’ların ve yerli gençlerin favorisi. Modern tasarımı ve meşhur Foodhallen (eski bir tramvay deposu) ile şehrin en "yükselen" bölgesi.
+- **Amsterdam Noord (Endüstriyel & Ucuz):** "Feribotla karşıya geçmekle mi uğraşacağım?" demeyin. Feribot ücretsiz ve 5 dakika! Daha uygun fiyatlı, modern ve loft tipi konaklamalar burada. Şehrin en "cool" yüzü.
+- **Jordaan (Romantik & Lüks):** Bütçe sorununuz yoksa ve "Instagramlık" bir pencere önü istiyorsanız burası rakipsizdir. Dar kanallar ve butik galerilerle çevrilisiniz.
+
+## 🏛️ Şehrin Hafızası: Görülmesi Gereken İkonik Duraklar
+Amsterdam'ın taşları sadece bina değil; birer hafıza kartıdır. Suyun üzerine inşa edilen bu mühendislik harikasında her köşe yüzyıllık bir hikaye fısıldar.
+
+- **Rijksmuseum:** Hollanda'nın Altın Çağı'na açılan kapı. Rembrandt’ın "Gece Devriyesi"ni gördükten sonra müzenin içindeki o devasa gizli kütüphaneye mutlaka göz atın; kendinizi bir film setinde hissedeceksiniz.
+- **Anne Frank Evi:** İnsanlık tarihinin en dokunaklı tanıklıklarından biri. O daracık gizli bölmede yürürken tarihin ağırlığını hissetmemek imkansız. (Biletler haftalar öncesinden tükenir, unutmayın!)
+- **Dam Meydanı ve Kraliyet Sarayı:** Şehrin tam kalbi. Bir zamanlar bir baraj (Dam) olan bu meydan, bugün Amsterdam’ın tüm görkemli törenlerine ve tarihine ev sahipliği yapıyor.
+- **Begijnhof:** 14. yüzyıldan kalma bu avlu, Amsterdam'ın en eski evine (No. 34) ev sahipliği yapar. Şehrin en eski dini ve sivil hafıza merkezidir.
+
+## 🍴 Şehrin Lezzet Haritası: Patatesten Fazlası
+Amsterdam mutfağı, sömürge geçmişinden gelen baharatlarla yerel çıtırlığın muazzam bir evliliğidir.
+
+- **Rijsttafel (Endonezya Mutfağı):** 15-20 çeşit küçük tabakla bir lezzet şöleni. Kantjil & de Tijger efsanedir.
+- **Bitterballen:** Pub'larda biranın en yakın arkadaşı. İçi akışkan etli harç, dışı çıtır. Sadece dikkat, sıcaklığı tahmin ettiğinizden daha fazla olabilir!
+- **Stroopwafel:** İki ince waffle arası sıcak karamel. Lanskroon'da tazesini yiyin.
+- **Vlaamse Friet:** Külah patatesin üzerine mutlaka "Joopiesaus" (köri aromalı lokal sos) isteyin.
+- **Apple Pie (Winkel 43):** Bu turtayı yemeden döneni şehre bir daha almıyorlar. Yanına krema ekletmeyi unutmayın.
+- **Haring (Mersin Balığı):** Sokak tezgahlarında soğan ve turşuyla çiğ balık deneyimi. Kuyruğundan tutup havaya kaldırarak yemek usuldür.
+- **FEBO Otomatları:** Duvardaki pencerelerden sıcak kroket alıp yemek tam bir Amsterdam klasiği.
+- **Poffertjes:** Üzerine pudra şekeri ve tereyağı dökülmüş mini Hollanda krepleri.
+- **Gouda Peyniri:** Old Amsterdam Cheese Store'da tadım yapmadan asla dönmeyin.
+- **Hap Bilgi:** Akşam yemeği 18:00'de başlar. Rezervasyon şart; TheFork uygulamasını mutlaka indirin.
+
+## 🚲 A Noktasından B Noktasına: Bir Lokal Gibi Hareket Edin
+Amsterdam'da ulaşım bir gereklilik değil, bir kültürdür. Kuralları bilmezseniz pahalıya patlayabilir.
+
+- **Havalimanından Merkeze:** Schiphol’den taksiye binmeyin (80€). Terminalin altındaki istasyondan NS Trenleri ile 15 dakikada merkezdesiniz (6€). Biletle uğraşmayın, banka kartınızı sarı cihazlara okutun yeter.
+- **Yürüyüş ve Tramvay:** Şehri yürüyerek keşfetmek en büyük keyiftir. Yorulduğunuzda ise o meşhur mavi-beyaz tramvaylara atlayın; şehri cam kenarından izlemek en iyi dinlenme yöntemidir.
+- **I amsterdam City Card:** 48/72 saatlik seçeneklerle tüm ulaşım, müze girişleri ve kanal turu bedavaya gelir. Çok müze gezecekseniz altın değerindedir.
+- **OVpay:** Tramvay ve otobüse binerken ve inerken banka kartınızı sarı cihazlara okutun (Check-in/out). Çıkışta okutmazsanız maksimum ücret kesilir!
+- **Bisiklet Krallığı:** Kırmızı yollar kutsaldır, üzerinde yürümeyin; sert bir zil sesi veya azar işitebilirsiniz. Önce Vondelpark'ta pratik yapın.
+
+## 🤫 Şehrin Fısıldadıkları: Lokal Sırlar
+Turist otobüslerinin uğramadığı, Amsterdamlıların kendine sakladığı yerler vardır. Bu sırlar şehri gerçekten tanımanızı sağlar.
+
+- **Begijnhof:** Kalverstraat caddesinde gizli bir kapıdan girilen 14. yy huzur bahçesi. Sessizliğin sesi.
+- **Poezenboot (Kedi Teknesi):** Kanal üzerindeki meşhur kedi barınağı-tekne.
+- **NDSM Pllek:** Ücretsiz feribotla karşıya geç. Konteyner plajda şenlik ateşi başında şehri izle.
+- **Wynand Fockink:** 1679'dan beri aynı. Likör bardağına elini sürmeden eğilerek ilk yudumu almak kuraldır!
+- **Açık Tekne Turu:** Büyük turistik motorlar yerine "Open Boat" yazan küçük teknelerle kanalları daha samimi gezin.
+- **Red Light Etiketi (Kritik Uyarı):** Bu bölgede pencerelere doğru fotoğraf çekmek kesinlikle yasaktır. Bu sadece bir nezaket kuralı değil; çalışanların mahremiyetini korumak için alınan bir güvenlik önlemidir. Eğer fotoğraf çekerken yakalanırsanız, telefonunuzun kanalın dibini boylaması veya sert bir güvenlik müdahalesiyle karşılaşmanız işten bile değil. Anı hafızanıza kaydedin, telefonunuzu cebinizde tutun.
+
+## ✅ Mutlaka Yapmadan Dönme: Amsterdam Checklist
+- [ ] Bir gün batımında kanal kenarında ayaklarını sarkıtıp bira/kahve iç.
+- [ ] Anne Frank Evi'nin önündeki tarihi hüzne tanıklık et (Biletleri önceden al!).
+- [ ] 9 Straatjes (9 Sokak) bölgesinde vintage dükkanları gez.
+- [ ] Rijksmuseum önündeki devasa kütüphaneye bir göz at.
+- [ ] Merkez istasyonun arkasından kalkan feribotla Noord’a ücretsiz geç.
+- [ ] Bloemenmarkt'ta (Çiçek Pazarı) lale soğanlarını incele.
+- [ ] Gece yarısı bir pub çıkışı FEBO otomatından sıcak kroket ye.
+- [ ] Kanal turuna katıl ama mümkünse güneş batarken.
+- [ ] Eye Film Museum'un mimarisini ve terasını gör.
+- [ ] Red Light District'te akşam yürüyüşü yap ama asla fotoğraf çekme! (Unutma: Burası insanların bir iş yeri. Fotoğraf çekmek hem yasak hem de telefonunuzun güvenliğini tehlikeye atacak kadar büyük bir saygısızlıktır.)''';
+
+  static const _amsterdamEN = '''# Amsterdam Guide: More Than a City, A Lifestyle 🇳🇱
+
+## Quick Glimpse
+In Amsterdam, "Cash is NOT king." Cash is rarely accepted; make sure you have a Mastercard/Visa or, preferably, a card with a Maestro logo. Also, bottled water is pricey, but tap water is perfectly drinkable. Carry a reusable bottle, refill it at "Check Water" stations, and say thank you to the city!
+
+## 📅 Timing is Everything: Which Season is Yours?
+Amsterdam’s weather is like an unpredictable lover; it can give you four seasons in five minutes. But if you pick the right time, the city will show you its full generosity.
+
+- **Spring (March - May):** The moment the city and the nearby Keukenhof gardens turn into a sea of color. April 27th (King’s Day) is a city-wide party where everything turns orange. If you want a tulip-scented Amsterdam, this is the time.
+- **Summer (June - August):** The sun sets as late as 10:30 PM. Boats fill the canals, and locals pack the parks. This is the peak "vibe" season for dangling your feet over the canal edge and socializing.
+- **Autumn (September - November):** As the city turns from orange to brown, it takes on a melancholic but magnificent aesthetic. Perfect for getting lost in Amsterdam's famous "Brown Cafes" (historic pubs) on rainy days and visiting museums without the crowds.
+- **Winter (December - February):** The wind is sharp, but the Amsterdam Light Festival transforms the canals into an open-air art gallery. If the canals freeze, ice skating on them is a bucket-list experience; if not, watching the rain with a steaming cup of coffee is an activity in itself.
+
+## 🏠 Where to Stay: Neighborhood Guide
+The Center (Centrum) is both overpriced and loud. To experience the real Amsterdam, you need to step one ring out.
+
+- **De Pijp (The City's Energy Hub):** The most cosmopolitan and vibrant neighborhood. The center for global flavors and boutique cafes. Stay near the Albert Cuyp Market and wake up to the smell of fresh fruit.
+- **Oud-West (Trendsetter Haven):** A favorite for expats and local youth escaping the tourist traps. It's the city's "rising" district with modern designs and the famous Foodhallen (a converted tram depot). It's walking distance to the center and more budget-friendly.
+- **Amsterdam Noord (Industrial & Budget-Friendly):** Don't ask, "Is it worth the ferry ride?" The ferry is free and takes only 5 minutes! You'll find more affordable, modern, and loft-style accommodations here. This is the "cool" face of the city.
+- **Jordaan (Romantic & Luxury):** If budget isn't an issue and you want that "Instagrammable" canal view, this is unbeatable. You'll be surrounded by narrow canals and boutique galleries.
+
+## 🏛️ The City's Memory: Iconic Landmarks Must-See
+Amsterdam's stones are more than just buildings; they are memory cards. In this engineering marvel built on water, every corner whispers a century-old story.
+
+- **Rijksmuseum:** The gateway to the Dutch Golden Age. Don't miss the massive hidden library inside; you'll feel like you're on a movie set.
+- **Anne Frank House:** One of history's most moving testimonies. Walking through that tiny secret annex is unforgettable. (Book weeks in advance!)
+- **Dam Square & Royal Palace:** The absolute heart of the city. Once a dam, now the stage for Amsterdam’s most grand ceremonies.
+- **Begijnhof:** This 14th-century courtyard houses Amsterdam's oldest house (No. 34). A sanctuary of history and silence.
+
+## 🍴 Flavor Map: Beyond the Fries
+Dutch cuisine is a magnificent marriage of colonial spices and local crunchiness.
+
+- **Rijsttafel (Indonesian Cuisine):** A feast of 15-20 small dishes. Kantjil & de Tijger is legendary for this.
+- **Bitterballen:** A beer’s best friend in pubs. Crispy on the outside, molten savory filling on the inside. Just be careful—they are always hotter than you think!
+- **Stroopwafel:** Warm caramel between two thin waffles. Try them fresh at Lanskroon.
+- **Vlaamse Friet:** Always ask for "Joopiesaus" (a curry-flavored local sauce) on your cone of fries.
+- **Apple Pie (Winkel 43):** Legend says they don't let you leave the city unless you’ve eaten this. Don’t forget to add whipped cream (slagroom).
+- **Haring (Herring):** A raw fish experience with onions and pickles at street stalls. Holding it by the tail and tipping it into your mouth is the local way!
+- **FEBO Vending Machines:** Pulling a hot croquette out of a wall window is a classic Amsterdam "guilty pleasure."
+- **Poffertjes:** Mini Dutch pancakes topped with powdered sugar and butter.
+- **Gouda Cheese:** Don't leave without a tasting at the Old Amsterdam Cheese Store.
+- **Pro Tip:** Dinner starts early at 6:00 PM. Reservations are a must; be sure to download TheFork app.
+
+## 🚲 Getting from A to B: Move Like a Local
+Transport in Amsterdam is not just a necessity; it's a culture. If you don't know the rules, it can get expensive.
+
+- **Airport to Center:** Do not take a taxi from Schiphol (€80). Take the NS Trains from the station under the terminal; you’ll be at Central in 15 minutes for about €6. Just tap your bank card at the yellow readers.
+- **Walking and Trams:** Exploring the city on foot is the greatest joy. When you get tired, hop on the iconic blue-white trams; watching the city from the window is the best way to rest.
+- **I amsterdam City Card:** 48/72-hour options give you free transport, museum entries, and a canal tour. It’s pure gold if you plan on visiting many museums.
+- **OVpay:** Tap your contactless bank card on the readers when entering and exiting trams and buses (Check-in/out). If you don't tap out, you'll be charged the maximum fare!
+- **The Bike Kingdom:** Red paths are sacred—do not walk on them! You will hear a loud bell or a stern scolding. Practice in Vondelpark first.
+
+## 🤫 Local Secrets
+Places the tourist buses ignore, kept secret by the locals to truly know the city.
+
+- **Begijnhof:** A 14th-century sanctuary hidden behind a secret door on the busy Kalverstraat shopping street. The sound of silence.
+- **Poezenboot (The Cat Boat):** A famous houseboat sanctuary for stray cats on the canal.
+- **NDSM Pllek:** Take the free ferry across. Watch the city from a bonfire at this industrial beach bar made of shipping containers.
+- **Wynand Fockink:** Same as it was in 1679. House rule: You must take the first sip of your liqueur by leaning over the glass without using your hands!
+- **Open Boat Tours:** Instead of the large tourist boats, choose the smaller ones labeled "Open Boat" for a more intimate tour with local stories.
+- **Red Light Etiquette (Critical Warning):** Taking photos of the windows is strictly forbidden. This isn’t just about politeness; it’s a security measure to protect the workers' privacy. If caught, your phone might end up in the canal or you'll face strict security. Keep your phone in your pocket and respect the boundaries.
+
+## ✅ The Amsterdam Checklist: Don't Leave Without..
+- [ ] Watching the sunset with your feet dangling over a canal.
+- [ ] Visiting the Anne Frank House (Book your tickets weeks in advance!).
+- [ ] Browsing the vintage shops in the 9 Straatjes (9 Streets) area.
+- [ ] Checking out the massive hidden library inside the Rijksmuseum.
+- [ ] Taking the free ferry behind Central Station to Noord.
+- [ ] Inspecting the flower bulbs at the Bloemenmarkt (Floating Flower Market).
+- [ ] Eating a hot croquette from a FEBO vending machine after a night at the pub.
+- [ ] Joining a canal tour, preferably at sunset.
+- [ ] Seeing the architecture and the terrace of the Eye Film Museum.
+- [ ] Taking a walk through the Red Light District, but never take photos! (Remember: This is a place of work. Photography is both forbidden and a major sign of disrespect that could risk your phone's safety.)''';
+"""
+
+with open(file_path, 'r', encoding='utf-8') as f:
+    lines = f.readlines()
+
+# Indexing is 0-based in Python lists.
+# grep said "// AMSTERDAM" is line 394 => index 393
+# grep said "// TOKYO" is line 455 => index 454
+
+start_index = 394 # Insert AFTER this line (which is index 393)
+end_index = 454 # Start reading again AT this line (which is index 454)
+
+# Keep lines 0 to 393 (i.e. first 394 lines)
+# Insert new_content
+# Keep lines 454 to end
+
+# Wait, let's verify indices.
+# lines[393] is "// AMSTERDAM\n"
+# lines[454] is "// TOKYO\n"
+
+# I want to KEEP lines[393] and lines[454].
+# I want to DISCARD lines[394] through lines[453].
+
+final_lines = lines[:394] + [new_content + "\n\n"] + lines[454:]
+
+with open(file_path, 'w', encoding='utf-8') as f:
+    f.writelines(final_lines)
+
+print("Update successful.")

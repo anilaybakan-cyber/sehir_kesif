@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1060877903496",
+    "project_id": "myway-3fe75",
+    "storage_bucket": "myway-3fe75.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1060877903496:android:dad0396be67c59296a213d",
+        "android_client_info": {
+          "package_name": "com.anilaybakan.sehirkesif"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQe4c48sV_7nyxnVO99wGuMb88KxEOmBA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1060877903496:android:ddceb0368f0c78f36a213d",
+        "android_client_info": {
+          "package_name": "com.example.sehir_kesif"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQe4c48sV_7nyxnVO99wGuMb88KxEOmBA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

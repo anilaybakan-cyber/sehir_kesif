@@ -1,0 +1,398 @@
+{
+  "routes": [
+    {
+      "overview_polyline": {
+        "points": "_nf`Hmk`s@AB[p@GJM@GHAB_AnBGRAX@?JLhCnC@@LNEL]z@EHYl@GP_@~@Qf@GPITsAjD}@bCUl@CDCHQMGAG@EB?BA@AH?H?BBFFFFFLLdB~ApApAv@t@HHDDB?D?DABE@A@C?EHBH@LFHFVVLJRRPPZZFFFFBBHJBLBHDHDDFHxAtA~@z@@D@D@BBBB@B?B?BABA@CBG?E?EJWPu@DQViBDBTJPDD?H?ZJFBPFFDTL@BDBECACUMGEQGGC[KI?E?QEUKEC`@eCD_@Da@Bq@Dg@?QAOAQEOGOIMOSSQMKKEKAI?EBGBGFILO`@ITaArCk@dBWv@IRENM\\BLBHDHDDFHxAtA~@z@@D@D@BBBB@H`@b@b@l@j@BBZXNLDDHABEBIAKEO_BwAa@_@GEBG?E?E?ICGEEEAE?EBA@GEgAeAc@_@SSEEGG??UUJU^kAr@uBNe@x@eCDMBE@EBEBEDCBCBADADAD?B@D@B@DBBBBBDBPRJLDHBHBJ?H@J?L?PAPCPATG^In@w@lFQVIHGHIBGBM@G?I?KCOCgBcB}DsDu@s@OO_GyF}B{BO_@KWKYIUGUGUE[CSC[AY?Y@[@[LaBDe@D[H]Lo@JWHSNS@BBF@@DFJJNNVXTTLLt@v@JN@@dAaBP_@b@}@Vg@BAHANQ`AsB@M?UFKZq@@C"
+      },
+      "legs": [
+        {
+          "distance": {
+            "value": 3886.8,
+            "text": "3.9 km"
+          },
+          "duration": {
+            "value": 569.9,
+            "text": "9 mins"
+          },
+          "steps": [
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 122.3
+              },
+              "duration": {
+                "value": 16.8
+              },
+              "polyline": {
+                "points": "_nf`Hmk`s@AB[p@GJM@GHAB_AnBGRAX"
+              },
+              "html_instructions": "depart Limmatstrasse"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 114.6
+              },
+              "duration": {
+                "value": 19.3
+              },
+              "polyline": {
+                "points": "grf`H}c`s@@?JLhCnC@@LN"
+              },
+              "html_instructions": "turn Roggenstrasse"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 306.3
+              },
+              "duration": {
+                "value": 47.6
+              },
+              "polyline": {
+                "points": "_mf`Hm~_s@EL]z@EHYl@GP_@~@Qf@GPITsAjD}@bCUl@CDCH"
+              },
+              "html_instructions": "turn Heinrichstrasse"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 25.1
+              },
+              "duration": {
+                "value": 8.7
+              },
+              "polyline": {
+                "points": "_wf`H{i_s@QMGAG@EB?B"
+              },
+              "html_instructions": "turn Hardstrasse"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 338.2
+              },
+              "duration": {
+                "value": 53.8
+              },
+              "polyline": {
+                "points": "gxf`Haj_s@A@AH?H?BBFFFFFLLdB~ApApAv@t@HHDDB?D?DABE@A@C?EHBH@LFHFVVLJRRPPZZFFFFBBHJ"
+              },
+              "html_instructions": "continue Hardstrasse"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 126.8
+              },
+              "duration": {
+                "value": 19.1
+              },
+              "polyline": {
+                "points": "_if`Ha|~r@BLBHDHDDFHxAtA~@z@"
+              },
+              "html_instructions": "fork Hardstrasse"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 31
+              },
+              "duration": {
+                "value": 4.5
+              },
+              "polyline": {
+                "points": "icf`H}u~r@@D@D@BBBB@B?B?BABA@CBG?E?E"
+              },
+              "html_instructions": "roundabout Geroldstrasse"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 83.2
+              },
+              "duration": {
+                "value": 10
+              },
+              "polyline": {
+                "points": "ebf`Hcv~r@JWPu@DQViB"
+              },
+              "html_instructions": "exit roundabout Geroldstrasse"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 91.2
+              },
+              "duration": {
+                "value": 31
+              },
+              "polyline": {
+                "points": "i`f`Hm|~r@DBTJPDD?H?ZJFBPFFDTL@BDB"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "o{e`Hcz~r@"
+              },
+              "html_instructions": "arrive "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 91.2
+              },
+              "duration": {
+                "value": 60.2
+              },
+              "polyline": {
+                "points": "o{e`Hcz~r@ECACUMGEQGGC[KI?E?QEUKEC"
+              },
+              "html_instructions": "depart "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 209.1
+              },
+              "duration": {
+                "value": 19.1
+              },
+              "polyline": {
+                "points": "i`f`Hm|~r@`@eCD_@Da@Bq@Dg@?QAOAQEOGOIMOSSQMKKEKAI?"
+              },
+              "html_instructions": "end of road Geroldstrasse"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 214.9
+              },
+              "duration": {
+                "value": 23
+              },
+              "polyline": {
+                "points": "abf`Hkj_s@EBGBGFILO`@ITaArCk@dBWv@IRENM\\"
+              },
+              "html_instructions": "turn Neue Hard"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 126.8
+              },
+              "duration": {
+                "value": 19.1
+              },
+              "polyline": {
+                "points": "_if`Ha|~r@BLBHDHDDFHxAtA~@z@"
+              },
+              "html_instructions": "turn Hardstrasse"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 12
+              },
+              "duration": {
+                "value": 2.1
+              },
+              "polyline": {
+                "points": "icf`H}u~r@@D@D@BBBB@"
+              },
+              "html_instructions": "roundabout Hardstrasse"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 68.7
+              },
+              "duration": {
+                "value": 16.5
+              },
+              "polyline": {
+                "points": "{bf`Hgu~r@H`@b@b@l@j@"
+              },
+              "html_instructions": "exit roundabout Hardstrasse"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "_`f`Huq~r@"
+              },
+              "html_instructions": "arrive Hardstrasse"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 150.2
+              },
+              "duration": {
+                "value": 38.7
+              },
+              "polyline": {
+                "points": "_`f`Huq~r@BBZXNLDDHABEBIAKEO_BwAa@_@GE"
+              },
+              "html_instructions": "depart Hardstrasse"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 31.4
+              },
+              "duration": {
+                "value": 4.9
+              },
+              "polyline": {
+                "points": "ibf`Hou~r@BG?E?E?ICGEEEAE?EBA@"
+              },
+              "html_instructions": "roundabout Hardstrasse"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 113.3
+              },
+              "duration": {
+                "value": 21
+              },
+              "polyline": {
+                "points": "ccf`Hwv~r@GEgAeAc@_@SSEEGG??UU"
+              },
+              "html_instructions": "exit roundabout Hardstrasse"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 267
+              },
+              "duration": {
+                "value": 24.5
+              },
+              "polyline": {
+                "points": "ohf`H{{~r@JU^kAr@uBNe@x@eCDMBE@EBEBEDCBCBADADAD?B@D@B@DBBBBBDBPRJLDHBHBJ"
+              },
+              "html_instructions": "turn Neue Hard"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 74.5
+              },
+              "duration": {
+                "value": 6.8
+              },
+              "polyline": {
+                "points": "c_f`H{f_s@?H@J?L?PAPCPATG^In@"
+              },
+              "html_instructions": "new name Geroldstrasse"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 95.4
+              },
+              "duration": {
+                "value": 8.6
+              },
+              "polyline": {
+                "points": "{_f`H{`_s@w@lF"
+              },
+              "html_instructions": "new name Geroldrampe"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 566.3
+              },
+              "duration": {
+                "value": 52.9
+              },
+              "polyline": {
+                "points": "saf`Hmy~r@QVIHGHIBGBM@G?I?KCOCgBcB}DsDu@s@OO_GyF}B{B"
+              },
+              "html_instructions": "turn Hardbr\u00fccke"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 265.3
+              },
+              "duration": {
+                "value": 25.3
+              },
+              "polyline": {
+                "points": "o|f`Hqn_s@O_@KWKYIUGUGUE[CSC[AY?Y@[@[LaBDe@D[H]Lo@JWHSNS"
+              },
+              "html_instructions": "turn Sihlquai-S\u00fcdrampe"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 119
+              },
+              "duration": {
+                "value": 14.7
+              },
+              "polyline": {
+                "points": "e|f`Hob`s@@BBF@@DFJJNNVXTTLLt@v@JN@@"
+              },
+              "html_instructions": "turn Gerstenstrasse"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 242.8
+              },
+              "duration": {
+                "value": 21.7
+              },
+              "polyline": {
+                "points": "{vf`Hu|_s@dAaBP_@b@}@Vg@BAHANQ`AsB@M?UFKZq@@C"
+              },
+              "html_instructions": "turn Limmatstrasse"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "_nf`Hmk`s@"
+              },
+              "html_instructions": "arrive Limmatstrasse"
+            }
+          ]
+        }
+      ],
+      "bounds": {
+        "northeast": {
+          "lat": 47.39073,
+          "lng": 8.52679
+        },
+        "southwest": {
+          "lat": 47.38504,
+          "lng": 8.5173
+        }
+      }
+    }
+  ],
+  "status": "OK"
+}

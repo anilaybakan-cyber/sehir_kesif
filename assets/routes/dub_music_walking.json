@@ -1,0 +1,359 @@
+{
+  "routes": [
+    {
+      "overview_polyline": {
+        "points": "snrdIncie@Gx@ZDnARD@FF@?BB@?B@D?DBBBp@TI~@`Bf@Fg@LkAFk@BMV_CBK@O\\yC@I@WF}@Bi@?I@I@a@NFd@N\\JJDHDDBHDFDNHTLFB`@RLFRFf@HPB\\AVU\\e@FIHUPm@F[P{AJg@BKPy@BU@[Fi@Fk@J_Ah@aFHy@@K?G@a@Ey@KcBEs@AIEYK[EKKUOKQIQIIECGCEAE?CI_@i@kFWkBGk@Eg@AOEcAEm@AYAM?YAWAs@?a@?k@@qEAoA?g@AyAAOAkAEqCAm@h@CPSHTFtE@bA@dCrCIF?B?@?B?l@Fd@DZHTHTJLHTPbAfAV^BDLJB@ND@?D@dCb@h@HbANj@HH@XD\\Dd@Fn@JzB\\H?F?HClA]d@OFWFOFSFQ@sD@mDAoD?Q@W?K?IBSPm@v@oEx@wE@GJi@ZoAXcBF]\\sBFq@JkACSEUCGGIO[m@g@s@i@uAgA_As@MKEEGGECECGGGE]Ei@_@EAEAE@GDIFABEJELAH_@vBIf@EPAFCBGBABABMl@?@SjAUnAETG^Ib@Mr@ADCHA@C@CBE?E@CAw@Og@KSEICo@Mm@Ms@MWGe@K?EAE?C@MT}DBYx@wH@IBWJD@@@@FBVJTLd@RZNNDZNHDPH\\Rl@d@nA~@FDB@B?BABC@G^uBLu@BOHk@VwAHc@DBp@b@"
+      },
+      "legs": [
+        {
+          "distance": {
+            "value": 4440,
+            "text": "4.4 km"
+          },
+          "duration": {
+            "value": 719.5,
+            "text": "11 mins"
+          },
+          "steps": [
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 19.6
+              },
+              "duration": {
+                "value": 8.8
+              },
+              "polyline": {
+                "points": "snrdIncie@Gx@"
+              },
+              "html_instructions": "depart New Church Street"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 114
+              },
+              "duration": {
+                "value": 19
+              },
+              "polyline": {
+                "points": "{nrdIheie@ZDnARD@FF@?BB@?B@D?DBBBp@T"
+              },
+              "html_instructions": "turn Smithfield"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 22.1
+              },
+              "duration": {
+                "value": 8.5
+              },
+              "polyline": {
+                "points": "shrdIpgie@I~@"
+              },
+              "html_instructions": "end of road Stable Lane"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 55.5
+              },
+              "duration": {
+                "value": 13.1
+              },
+              "polyline": {
+                "points": "}hrdIpiie@`Bf@"
+              },
+              "html_instructions": "turn Arran Street West"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 234.5
+              },
+              "duration": {
+                "value": 25.7
+              },
+              "polyline": {
+                "points": "{erdIxjie@Fg@LkAFk@BMV_CBK@O\\yC@I@WF}@Bi@?I@I@a@"
+              },
+              "html_instructions": "turn Arran Quay"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 61.2
+              },
+              "duration": {
+                "value": 7.6
+              },
+              "polyline": {
+                "points": "ibrdItuhe@NFd@N\\JJDHD"
+              },
+              "html_instructions": "turn Bridge of Dublin"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 130.4
+              },
+              "duration": {
+                "value": 15.9
+              },
+              "polyline": {
+                "points": "__rdIdwhe@DBHDFDNHTLFB`@RLFRFf@HPB\\A"
+              },
+              "html_instructions": "new name Bridge Street Lower"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 153.4
+              },
+              "duration": {
+                "value": 15.9
+              },
+              "polyline": {
+                "points": "}wqdI`zhe@VU\\e@FIHUPm@F[P{AJg@BKPy@"
+              },
+              "html_instructions": "new name Bridge Street Upper"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 186.2
+              },
+              "duration": {
+                "value": 18.8
+              },
+              "polyline": {
+                "points": "gsqdIpnhe@BU@[Fi@Fk@J_Ah@aFHy@@K?G@a@"
+              },
+              "html_instructions": "new name High Street"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 110
+              },
+              "duration": {
+                "value": 16.8
+              },
+              "polyline": {
+                "points": "mpqdIv}ge@Ey@KcBEs@AIEYK[EKKU"
+              },
+              "html_instructions": "new name Christchurch Place"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 236.3
+              },
+              "duration": {
+                "value": 45.4
+              },
+              "polyline": {
+                "points": "krqdIbtge@OKQIQIIECGCEAE?CI_@i@kFWkBGk@Eg@AOEcA"
+              },
+              "html_instructions": "turn Lord Edward Street"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 324.1
+              },
+              "duration": {
+                "value": 54.7
+              },
+              "polyline": {
+                "points": "uwqdIdage@Em@AYAM?YAWAs@?a@?k@@qEAoA?g@AyAAOAkAEqCAm@"
+              },
+              "html_instructions": "new name Dame Street"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 35.8
+              },
+              "duration": {
+                "value": 7.4
+              },
+              "polyline": {
+                "points": "qxqdIzbfe@h@CPS"
+              },
+              "html_instructions": "turn Trinity Street"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 80.3
+              },
+              "duration": {
+                "value": 12
+              },
+              "polyline": {
+                "points": "uvqdIbbfe@HTFtE"
+              },
+              "html_instructions": "turn Dame Lane"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "cvqdInife@"
+              },
+              "html_instructions": "arrive Dame Lane"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 67.8
+              },
+              "duration": {
+                "value": 15.7
+              },
+              "polyline": {
+                "points": "cvqdInife@@bA@dC"
+              },
+              "html_instructions": "depart Dame Lane"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 279.1
+              },
+              "duration": {
+                "value": 48
+              },
+              "polyline": {
+                "points": "_vqdIxofe@rCIF?B?@?B?l@Fd@DZHTHTJLHTPbAfAV^BDLJB@"
+              },
+              "html_instructions": "turn South Great George's Street"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 413.1
+              },
+              "duration": {
+                "value": 68.5
+              },
+              "polyline": {
+                "points": "ggqdItufe@ND@?D@dCb@h@HbANj@HH@XD\\Dd@Fn@JzB\\H?F?HClA]d@O"
+              },
+              "html_instructions": "new name Aungier Street"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 222.5
+              },
+              "duration": {
+                "value": 35.7
+              },
+              "polyline": {
+                "points": "kppdIrxfe@FWFOFSFQ@sD@mDAoD?Q@W"
+              },
+              "html_instructions": "turn Cuffe Street"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 882.9
+              },
+              "duration": {
+                "value": 144.4
+              },
+              "polyline": {
+                "points": "gopdIhdfe@?K?IBSPm@v@oEx@wE@GJi@ZoAXcBF]\\sBFq@JkACSEUCGGIO[m@g@s@i@uAgA_As@MKEEGGECECGGGE]Ei@_@EAEAE@GDIFABEJELAH_@vBIf@EPAFCBGBABABMl@?@SjAUnAETG^Ib@Mr@AD"
+              },
+              "html_instructions": "new name St. Stephen's Green"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 208
+              },
+              "duration": {
+                "value": 31.5
+              },
+              "polyline": {
+                "points": "uzpdItkee@CHA@C@CBE?E@CAw@Og@KSEICo@Mm@Ms@MWGe@K"
+              },
+              "html_instructions": "turn Dawson Street"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 205.1
+              },
+              "duration": {
+                "value": 34.9
+              },
+              "polyline": {
+                "points": "afqdIbiee@?EAE?C@MT}DBYx@wH@IBW"
+              },
+              "html_instructions": "turn Molesworth Street"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 364.1
+              },
+              "duration": {
+                "value": 66.1
+              },
+              "polyline": {
+                "points": "gcqdIrvde@JD@@@@FBVJTLd@RZNNDZNHDPH\\Rl@d@nA~@FDB@B?BABC@G^uBLu@BOHk@VwAHc@"
+              },
+              "html_instructions": "turn Kildare Street"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 34
+              },
+              "duration": {
+                "value": 5.1
+              },
+              "polyline": {
+                "points": "ctpdItrde@DBp@b@"
+              },
+              "html_instructions": "turn Merrion Court"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "krpdI|sde@"
+              },
+              "html_instructions": "arrive Merrion Court"
+            }
+          ]
+        }
+      ],
+      "bounds": {
+        "northeast": {
+          "lat": 53.34782,
+          "lng": -6.25467
+        },
+        "southwest": {
+          "lat": 53.33633,
+          "lng": -6.27901
+        }
+      }
+    }
+  ],
+  "status": "OK"
+}

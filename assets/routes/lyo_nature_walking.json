@@ -1,0 +1,242 @@
+{
+  "routes": [
+    {
+      "overview_polyline": {
+        "points": "c~kvG{at\\vBJlAHB?H@T@rCNxCPrAFP@F@H?L@nBJhAFF@zAHX@X?j@?l@BTBL?RAd@KJCHA|@SpBe@b@M^Ob@YFGTUNK~D{C@AJKLM`Au@TQ\\WrB{AXO\\Gd@AB???L?HApAA~@AH?XCHAPAbEIRArCG~AEF?D?F?@?HAF?N?nB@F?J?N@J?nIHlBDnBDlCDb@@NKNH^GrCFlCBF?V@L?@[?G?K@KBy@@QFYJ?B@B?D@PBbAPJA|@UJCTIlA[HCbA[HC~@UJCPGFC@?FCHCJCHCDAHCFCJCFCHC@?HC`A[pBk@B?NGFa@Da@@A`@eDb@sD@GBQCKAE?CAK?SBuE?S?S?aCIwBAOT@xCND?vADD?H@H?lBHN@J?tAFJ@P@r@BRBND|An@FBD@FDrDxAFBDBzB~@h@TNHTHD@v@ZTJd@P`A^J@HDp@XlAh@JDBMtAwIF_@BOBOKEaCaAICBSNaA"
+      },
+      "legs": [
+        {
+          "distance": {
+            "value": 4448.7,
+            "text": "4.4 km"
+          },
+          "duration": {
+            "value": 700.5,
+            "text": "11 mins"
+          },
+          "steps": [
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 624.1
+              },
+              "duration": {
+                "value": 66.8
+              },
+              "polyline": {
+                "points": "c~kvG{at\\vBJlAHB?H@T@rCNxCPrAFP@F@H?L@nBJhAFF@zAHX@X?j@?l@BTB"
+              },
+              "html_instructions": "depart Boulevard de la Bataille de Stalingrad"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 236.1
+              },
+              "duration": {
+                "value": 39.3
+              },
+              "polyline": {
+                "points": "c{jvGg~s\\L?RAd@KJCHA|@SpBe@b@M^Ob@YFGTU"
+              },
+              "html_instructions": "new name Voie Nouvelle Stalingrad Vitton"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 364.2
+              },
+              "duration": {
+                "value": 58.7
+              },
+              "polyline": {
+                "points": "onjvGkct\\NK~D{C@AJKLM`Au@TQ\\WrB{AXO\\Gd@AB???L?"
+              },
+              "html_instructions": "new name Rue Michel Rambaud"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 401.8
+              },
+              "duration": {
+                "value": 64.2
+              },
+              "polyline": {
+                "points": "i|ivGept\\HApAA~@AH?XCHAPAbEIRArCG~AEF?D?F?@?HAF?"
+              },
+              "html_instructions": "new name Avenue Thiers"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 723.3
+              },
+              "duration": {
+                "value": 112.6
+              },
+              "polyline": {
+                "points": "weivGoqt\\N?nB@F?J?N@J?nIHlBDnBDlCDb@@NKNH^GrCFlCBF?V@"
+              },
+              "html_instructions": "new name Rue de la Villette"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 72.3
+              },
+              "duration": {
+                "value": 18.7
+              },
+              "polyline": {
+                "points": "e}gvGipt\\L?@[?G?K@KBy@@QFY"
+              },
+              "html_instructions": "turn Rue Paul Bert"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 324.6
+              },
+              "duration": {
+                "value": 54.7
+              },
+              "polyline": {
+                "points": "e|gvGkut\\J?B@B?D@PBbAPJA|@UJCTIlA[HCbA[HC~@UJCPGFC@?FCHCJCHCDAHCFCJC"
+              },
+              "html_instructions": "turn Rue Maurice Flandin"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 132.6
+              },
+              "duration": {
+                "value": 23.2
+              },
+              "polyline": {
+                "points": "ojgvG{yt\\FCHC@?HC`A[pBk@B?NG"
+              },
+              "html_instructions": "new name Rue Jeanne Hachette"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 179.9
+              },
+              "duration": {
+                "value": 27.4
+              },
+              "polyline": {
+                "points": "icgvGw|t\\Fa@Da@@A`@eDb@sD@GBQ"
+              },
+              "html_instructions": "turn Rue Jean Renoir"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 224.5
+              },
+              "duration": {
+                "value": 39
+              },
+              "polyline": {
+                "points": "m`gvGqju\\CKAE?CAK?SBuE?S?S?aCIwBAO"
+              },
+              "html_instructions": "new name Rue du Dauphin\u00e9"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 419.4
+              },
+              "duration": {
+                "value": 65
+              },
+              "polyline": {
+                "points": "}`gvGo|u\\T@xCND?vADD?H@H?lBHN@J?tAFJ@P@r@BRBND|An@FBD@"
+              },
+              "html_instructions": "turn Rue du Professeur Paul Sisley"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 446.2
+              },
+              "duration": {
+                "value": 76.2
+              },
+              "polyline": {
+                "points": "sifvGyxu\\FDrDxAFBDBzB~@h@TNHTHD@v@ZTJd@P`A^J@HDp@XlAh@JD"
+              },
+              "html_instructions": "new name Rue Villon"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 174.5
+              },
+              "duration": {
+                "value": 33.7
+              },
+              "polyline": {
+                "points": "_revGylu\\BMtAwIF_@BOBO"
+              },
+              "html_instructions": "turn Avenue des Fr\u00e8res Lumi\u00e8re"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 90.1
+              },
+              "duration": {
+                "value": 15.7
+              },
+              "polyline": {
+                "points": "unevG_zu\\KEaCaAIC"
+              },
+              "html_instructions": "turn Rue du Docteur Armand G\u00e9libert"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 35.1
+              },
+              "duration": {
+                "value": 5.3
+              },
+              "polyline": {
+                "points": "msevGk|u\\BSNaA"
+              },
+              "html_instructions": "turn Rue du Premier Film"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "yrevGa_v\\"
+              },
+              "html_instructions": "arrive Rue du Premier Film"
+            }
+          ]
+        }
+      ],
+      "bounds": {
+        "northeast": {
+          "lat": 45.77778,
+          "lng": 4.86913
+        },
+        "southwest": {
+          "lat": 45.74459,
+          "lng": 4.85876
+        }
+      }
+    }
+  ],
+  "status": "OK"
+}

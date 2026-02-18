@@ -1,0 +1,255 @@
+{
+  "routes": [
+    {
+      "overview_polyline": {
+        "points": "{~xFuezxRi@Yd@}@HQhB|@nAn@\\R\\R~@d@HDPHHDhCpAXNl@Xf@XJFnCxARJXPW^e@v@OTQVIJWTEDKJe@b@[Xc@^sAjAWTOBGFkBtAm@`@}@p@ENOJgAp@MJMJUPEBCBKMKOMQQYW_@?EEIMHs@l@r@m@LIQ[CGCCa@e@YUi@]a@ToAp@SJIBq@_@i@]_Ak@KIGKEGEOEKYkAQw@Ma@GMIIKKWh@OXKR{@bBUd@IRRJ`Af@e@x@IRGLKPWl@wBrE]x@EDNJdAz@JJFD`Av@DGXm@FKfA{B@ATg@@CBCRg@HON]"
+      },
+      "legs": [
+        {
+          "distance": {
+            "value": 2634.5,
+            "text": "2.6 km"
+          },
+          "duration": {
+            "value": 328.8,
+            "text": "5 mins"
+          },
+          "steps": [
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 27.2
+              },
+              "duration": {
+                "value": 4.4
+              },
+              "polyline": {
+                "points": "{~xFuezxRi@Y"
+              },
+              "html_instructions": "depart Boon Tat Link"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 52.3
+              },
+              "duration": {
+                "value": 8.7
+              },
+              "polyline": {
+                "points": "e`yFofzxRd@}@HQ"
+              },
+              "html_instructions": "turn Boon Tat Street"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 501.4
+              },
+              "duration": {
+                "value": 39.4
+              },
+              "polyline": {
+                "points": "u~xF_izxRhB|@nAn@\\R\\R~@d@HDPHHDhCpAXNl@Xf@XJFnCxARJ"
+              },
+              "html_instructions": "turn Shenton Way"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 580.2
+              },
+              "duration": {
+                "value": 62.2
+              },
+              "polyline": {
+                "points": "ofxFizyxRXPW^e@v@OTQVIJWTEDKJe@b@[Xc@^sAjAWTOBGFkBtAm@`@}@p@ENOJgAp@MJMJUP"
+              },
+              "html_instructions": "turn Maxwell Road"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 90.7
+              },
+              "duration": {
+                "value": 16.2
+              },
+              "polyline": {
+                "points": "{|xFodyxREBCBKMKOMQQYW_@?EEI"
+              },
+              "html_instructions": "turn Kadayanallur Street"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 47.6
+              },
+              "duration": {
+                "value": 38.8
+              },
+              "polyline": {
+                "points": "{_yFahyxRMHs@l@"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "}ayFifyxR"
+              },
+              "html_instructions": "arrive "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 47.6
+              },
+              "duration": {
+                "value": 15.6
+              },
+              "polyline": {
+                "points": "}ayFifyxRr@m@LI"
+              },
+              "html_instructions": "depart "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 101.9
+              },
+              "duration": {
+                "value": 11.8
+              },
+              "polyline": {
+                "points": "{_yFahyxRQ[CGCCa@e@YUi@]"
+              },
+              "html_instructions": "turn Ann Siang Road"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 93.7
+              },
+              "duration": {
+                "value": 8.8
+              },
+              "polyline": {
+                "points": "{cyFclyxRa@ToAp@SJIB"
+              },
+              "html_instructions": "end of road Ann Siang Road"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 267.4
+              },
+              "duration": {
+                "value": 31.3
+              },
+              "polyline": {
+                "points": "khyFkiyxRq@_@i@]_Ak@KIGKEGEOEKYkAQw@Ma@GMIIKK"
+              },
+              "html_instructions": "turn Club Street"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 157.9
+              },
+              "duration": {
+                "value": 21.5
+              },
+              "polyline": {
+                "points": "eqyFytyxRWh@OXKR{@bBUd@IR"
+              },
+              "html_instructions": "end of road Cross Street"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 55.7
+              },
+              "duration": {
+                "value": 7.1
+              },
+              "polyline": {
+                "points": "uuyFcmyxRRJ`Af@"
+              },
+              "html_instructions": "turn South Bridge Road"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 277.1
+              },
+              "duration": {
+                "value": 28.7
+              },
+              "polyline": {
+                "points": "_syFokyxRe@x@IRGLKPWl@wBrE]x@ED"
+              },
+              "html_instructions": "turn Mosque Street;\u6469\u58eb\u8857"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 124.8
+              },
+              "duration": {
+                "value": 15.6
+              },
+              "polyline": {
+                "points": "wzyF_~xxRNJdAz@JJFD`Av@"
+              },
+              "html_instructions": "turn New Bridge Road"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 208.9
+              },
+              "duration": {
+                "value": 18.7
+              },
+              "polyline": {
+                "points": "kuyFmyxxRDGXm@FKfA{B@ATg@@CBCRg@HON]"
+              },
+              "html_instructions": "turn Temple Street"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "ooyFscyxR"
+              },
+              "html_instructions": "arrive Temple Street"
+            }
+          ]
+        }
+      ],
+      "bounds": {
+        "northeast": {
+          "lat": 1.28444,
+          "lng": 103.85056
+        },
+        "southwest": {
+          "lat": 1.27595,
+          "lng": 103.84295
+        }
+      }
+    }
+  ],
+  "status": "OK"
+}

@@ -1,0 +1,736 @@
+{
+  "routes": [
+    {
+      "overview_polyline": {
+        "points": "qsewFe`jdBHRX~@X~@t@dCNh@OHwA~@GD]ZAJGXI^e@nAEJCACAE@C@CBADCCoByAk@e@WSDc@?QCQGMIK_@USQcAiAQQm@{@Uq@g@mAQq@YaAKUGMS_@a@k@i@u@g@WIKGGGKCGAI?KBO\\OnAURBr@F@QFqBD_B@MIQ_@k@CEc@o@c@o@a@m@m@y@MGWOQm@IYQi@AQDEDADBFF^b@HCPONQFGHKPQHCH@HHP\\HDD@XAN?L?TKRSHER?PBb@DD@\\BRONM@Cr@k@ZMLQ@IAMQ?I?M?WDm@NC@KBYLSDM@QAQEQQCSE_@AY?I@E@KBIDEDGz@s@`@e@NSLWFIFCTILGPMnBwCLQN_@\\kABIFI`@o@JMJKJIHCN?NBPDd@NLD`@LLDLDF@RFFBDFBD@DFVDVV|A@DBDHDZLFDFHNZN`@FJDBB@F?JALGNIFHDNXx@BLPRDDNNHFJBLAh@[`By@VAF?ZB^@f@BF@^ZPNVNDBB@HLFLDRDR@|@?f@OFU@UCQ@K@IBg@TYNC@?B@B@@BAx@CLJdBGj@BPTb@e@d@e@LQHMp@{Ap@oB|@eCFUJYBIRi@t@gBxAgDx@uAJODGj@_Aj@q@XSb@Wn@]`@OHCHAt@CnACJE`@M^Qb@Y^URGv@MV@@?D?DABCBCBE?G@EAICEEEHMr@g@VOLM@MGKMAq@PgBd@qBfAcAd@mAA[AkBl@}An@y@f@KP_@n@QX}A~BCBCD]f@cB`CSXKJEHy@|AKRK^o@nCOVMRINGZITALCPi@t@]dAOPIHOFU@UCQ@K@IBg@TYNC@?B@B@@BAx@CLJdBGj@BPTORIJOR{@hA{@bAUV_@ZeBhAe@\\q@d@OHo@VGBe@RwAj@IDSTA@KTi@pBu@lCCHAFgAxBIPmA|BIJI@cDDUIUGW_@u@iACEq@eA{@mAMUUUOGKEUI}AIs@GSCmAMYDI@GHk@z@??A?A@C@?@?@A@?B@@?Ba@b@sCjDYl@Yv@Uz@KVeAjD[`Aq@|BGTCHSh@EL}AbEkA`DCFkA~Cq@g@EE_Aq@iAaAGBi@NaAZaA\\g@NeCz@ODYD]?_Bq@yEuAMMGQm@iECS?Y`@_DAWCUKOKIMA]@m@RgAh@mAx@QFw@NU@KAKGMMW]Yc@Oa@EMKIAGAGAMAMEa@Cy@C[ReDLsB@]BSBc@?[Ac@I]GSCIMUYWu@i@WQQQIUAWB[Ns@\\{An@gCdAkE\\mBRsBZ}D@MXgCN}AF_AJeDDoAtAm[Ba@PiDHiBDiB?MFeABu@DcA@aAFsGFcC@_CD{CHuBNqAVwAd@yAd@aA~@uAT]x@qAN_@Lc@|@mEb@yBFGNKLCJ@DAHCHKFSJu@NeABMDGLGF?JDFDFJFTEd@Kv@MtA@h@Fb@j@jA|BrCf@l@BBDD|@dAL^H`@@~A?JBTFLJHXBRKNQLk@Fo@?a@Ei@AQ?IDKLCRHPPp@~@JJLFF@P@ZErBw@JETCR?LBb@JJDF@RH~DfB~Ap@TJZ`@Hb@S~EAXBZFXJTrA|ABDfE|ElCzCVPXBVEdAu@VEP@NDNJtC~Cr@x@hBrBp@p@Td@Tx@p@jE\\pBr@vDNTLHPDd@B@?r@?@?DAE@A?s@?A?e@CQEMIOUs@wD]qBq@kEUy@Ue@q@q@iBsBs@y@uC_DOKOEQAWDeAt@WDYCWQmC{CgE}ECEsA}AKUGYC[@YR_FIc@[a@UK_Bq@_EgBSIGAKEc@KMCS?UBKDsBv@[DQAGAMGKKq@_AQQSIMBEJ?H@PDh@?`@Gn@Mj@OPSJYCKIGMCU?KA_BIa@M_@}@eAEECCg@m@}BsCk@kAGc@Ai@LuAJw@De@GUGKGEKEG?MFEFCLOdAKt@GRIJKAIIIEOAQn@c@xB}@lEMb@O^y@pAU\\_AtAe@`Ae@xAWvAOpAItBEzCA~BGbCGrGA`AEbACt@GdA?LEhBIhBQhDC`@uAl[EnAKdDG~@O|AYfCAL[|DSrB]lBeAjEo@fC]zAOr@CZ@VHTPPVPt@h@XVLTBHFRH\\@b@?ZCb@CRA\\MrBSdDEZAx@APCNCVEDAFAF?H@FBFBDDBD@F?DCRFJDNFXb@V\\LLJFJ@TAv@OPGlAy@fAi@l@S\\AL@JHJNBT@Va@~C?XBRl@hEFPLLxEtA~Ap@\\?XENEdC{@f@O`A]`A[h@OFCHEl@w@DELS`@k@NSZFF@F?F?D?FCzAoBtAoBx@kAfBcCZaAdAkDJWT{@Xw@Xm@rCkD`@c@@?@@@?@?@A@?@C?A???Ap@e@\\OnAURBr@F|AHTHJDNFTTLTz@lAp@dABDt@hAV^TFTHbDEHAHKlA}BHQfAyB@GBIt@mCh@qBJU@ARUmAcDKSIKMRCD]bAa@lAi@]IZGR"
+      },
+      "legs": [
+        {
+          "distance": {
+            "value": 21202.6,
+            "text": "21.2 km"
+          },
+          "duration": {
+            "value": 2390.3,
+            "text": "39 mins"
+          },
+          "steps": [
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 155.4
+              },
+              "duration": {
+                "value": 15.9
+              },
+              "polyline": {
+                "points": "qsewFe`jdBHRX~@X~@t@dCNh@"
+              },
+              "html_instructions": "depart Via Vincenzo Cappelluti"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 169
+              },
+              "duration": {
+                "value": 26.2
+              },
+              "polyline": {
+                "points": "moewFavidBOHwA~@GD]ZAJGXI^e@nAEJ"
+              },
+              "html_instructions": "turn Via Gerardo Guerrieri"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 15.8
+              },
+              "duration": {
+                "value": 3.4
+              },
+              "polyline": {
+                "points": "{uewFsmidBCACAE@C@CBAD"
+              },
+              "html_instructions": "roundabout Viale Aldo Moro"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 120.6
+              },
+              "duration": {
+                "value": 8.5
+              },
+              "polyline": {
+                "points": "svewFimidBCCoByAk@e@WS"
+              },
+              "html_instructions": "exit roundabout Viale Aldo Moro"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 415.6
+              },
+              "duration": {
+                "value": 37.3
+              },
+              "polyline": {
+                "points": "k|ewFaridBDc@?QCQGMIK_@USQcAiAQQm@{@Uq@g@mAQq@YaAKUGMS_@a@k@i@u@g@W"
+              },
+              "html_instructions": "turn Via Fratelli Rosselli"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 41.2
+              },
+              "duration": {
+                "value": 8.3
+              },
+              "polyline": {
+                "points": "yjfwFuhjdBIKGGGKCGAI?KBO"
+              },
+              "html_instructions": "continue Via Fratelli Rosselli"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 103.4
+              },
+              "duration": {
+                "value": 14.7
+              },
+              "polyline": {
+                "points": "ukfwFckjdB\\OnAURBr@F"
+              },
+              "html_instructions": "end of road Via Venti Settembre"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 112.2
+              },
+              "duration": {
+                "value": 16.1
+              },
+              "polyline": {
+                "points": "_ffwF}kjdB@QFqBD_B@MIQ"
+              },
+              "html_instructions": "turn Via Giovanni Amendola"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 232.9
+              },
+              "duration": {
+                "value": 33.5
+              },
+              "polyline": {
+                "points": "wefwFatjdB_@k@CEc@o@c@o@a@m@m@y@MGWOQm@IYQi@AQ"
+              },
+              "html_instructions": "new name Via Piave"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 4
+              },
+              "duration": {
+                "value": 1.1
+              },
+              "polyline": {
+                "points": "infwFw`kdBDE"
+              },
+              "html_instructions": "end of road Via d'Addozio"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 167.6
+              },
+              "duration": {
+                "value": 24.1
+              },
+              "polyline": {
+                "points": "cnfwF}`kdBDADBFF^b@HCPONQFGHKPQHCH@HHP\\HDD@XAN?L?"
+              },
+              "html_instructions": "continue Via d'Addozio"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 192.6
+              },
+              "duration": {
+                "value": 33.1
+              },
+              "polyline": {
+                "points": "gffwFo`kdBTKRSHER?PBb@DD@\\BRONM@Cr@k@ZMLQ@IAM"
+              },
+              "html_instructions": "fork Via d'Addozio"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 108
+              },
+              "duration": {
+                "value": 15.6
+              },
+              "polyline": {
+                "points": "a}ewFkekdBQ?I?M?WDm@NC@KBYLSDM@"
+              },
+              "html_instructions": "turn Via Sant'Antonio Abate"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 722.4
+              },
+              "duration": {
+                "value": 104.2
+              },
+              "polyline": {
+                "points": "}bfwFyckdBQAQEQQCSE_@AY?I@E@KBIDEDGz@s@`@e@NSLWFIFCTILGPMnBwCLQN_@\\kABIFI`@o@JMJKJIHCN?NBPDd@NLD`@LLDLDF@RFFBDFBD@DFVDVV|A@DBDHDZLFDFHNZN`@FJDBB@"
+              },
+              "html_instructions": "new name Via Madonna delle Virt\u00f9"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 246.9
+              },
+              "duration": {
+                "value": 35.3
+              },
+              "polyline": {
+                "points": "yjewFaokdBF?JALGNIFHDNXx@BLPRDDNNHFJBLAh@[`By@VAF?ZB"
+              },
+              "html_instructions": "new name Via Bruno Buozzi"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "g_ewFsmkdB"
+              },
+              "html_instructions": "arrive Via Bruno Buozzi"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 175.7
+              },
+              "duration": {
+                "value": 25.9
+              },
+              "polyline": {
+                "points": "g_ewFsmkdB^@f@BF@^ZPNVNDBB@HLFLDRDR@|@?f@"
+              },
+              "html_instructions": "depart Via Bruno Buozzi"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 148.2
+              },
+              "duration": {
+                "value": 21.7
+              },
+              "polyline": {
+                "points": "cydwF_fkdBOFU@UCQ@K@IBg@TYNC@?B@B@@BAx@CLJ"
+              },
+              "html_instructions": "turn Via Casalnuovo"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 94.6
+              },
+              "duration": {
+                "value": 18.2
+              },
+              "polyline": {
+                "points": "}{dwFyckdBdBGj@BPT"
+              },
+              "html_instructions": "turn Via Domenico Ridola"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 880.9
+              },
+              "duration": {
+                "value": 79.4
+              },
+              "polyline": {
+                "points": "yvdwFgckdBb@e@d@e@LQHMp@{Ap@oB|@eCFUJYBIRi@t@gBxAgDx@uAJODGj@_Aj@q@XSb@Wn@]`@OHCHAt@CnACJE`@M^Qb@Y^URGv@MV@"
+              },
+              "html_instructions": "turn Via Lucana"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 34.9
+              },
+              "duration": {
+                "value": 7.5
+              },
+              "polyline": {
+                "points": "urcwFkjldB@?D?DABCBCBE?G@EAICEEE"
+              },
+              "html_instructions": "roundabout Via Cappuccini"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 66.2
+              },
+              "duration": {
+                "value": 11.8
+              },
+              "polyline": {
+                "points": "ercwF_lldBHMr@g@VOLM"
+              },
+              "html_instructions": "exit roundabout Via Cappuccini"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 750.3
+              },
+              "duration": {
+                "value": 108
+              },
+              "polyline": {
+                "points": "aocwFsnldB@MGKMAq@PgBd@qBfAcAd@mAA[AkBl@}An@y@f@KP_@n@QX}A~BCBCD]f@cB`CSXKJEHy@|A"
+              },
+              "html_instructions": "turn Via Casalnuovo"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "yqdwFiukdB"
+              },
+              "html_instructions": "arrive Via Casalnuovo"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 396.2
+              },
+              "duration": {
+                "value": 57.4
+              },
+              "polyline": {
+                "points": "yqdwFiukdBKRK^o@nCOVMRINGZITALCPi@t@]dAOPIHOFU@UCQ@K@IBg@TYNC@?B@B@@BAx@CLJ"
+              },
+              "html_instructions": "depart Via Casalnuovo"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 94.6
+              },
+              "duration": {
+                "value": 15.8
+              },
+              "polyline": {
+                "points": "}{dwFyckdBdBGj@BPT"
+              },
+              "html_instructions": "turn Via Domenico Ridola"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 1043.7
+              },
+              "duration": {
+                "value": 94.1
+              },
+              "polyline": {
+                "points": "yvdwFgckdBORIJOR{@hA{@bAUV_@ZeBhAe@\\q@d@OHo@VGBe@RwAj@IDSTA@KTi@pBu@lCCHAFgAxBIPmA|BIJI@cDDUIUGW_@u@iACEq@eA{@mAMUUUOGKEUI"
+              },
+              "html_instructions": "turn Via Lucana"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 197.6
+              },
+              "duration": {
+                "value": 18.2
+              },
+              "polyline": {
+                "points": "acfwFskjdB}AIs@GSCmAMYDI@GHk@z@"
+              },
+              "html_instructions": "new name Via Venti Settembre"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 11.8
+              },
+              "duration": {
+                "value": 2.7
+              },
+              "polyline": {
+                "points": "mmfwFijjdB??A?A@C@?@?@A@?B@@?B"
+              },
+              "html_instructions": "roundabout Via Annunziatella"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 416.2
+              },
+              "duration": {
+                "value": 37.4
+              },
+              "polyline": {
+                "points": "umfwFuijdBa@b@sCjDYl@Yv@Uz@KVeAjD[`Aq@|BGTCH"
+              },
+              "html_instructions": "exit roundabout Via Annunziatella"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 290.1
+              },
+              "duration": {
+                "value": 28.2
+              },
+              "polyline": {
+                "points": "a{fwF_qidBSh@EL}AbEkA`DCFkA~C"
+              },
+              "html_instructions": "new name Via Nazionale"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 128.2
+              },
+              "duration": {
+                "value": 19
+              },
+              "polyline": {
+                "points": "ucgwFy~hdBq@g@EE_Aq@iAaA"
+              },
+              "html_instructions": "turn Via Istria"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 207.8
+              },
+              "duration": {
+                "value": 20.3
+              },
+              "polyline": {
+                "points": "wigwF{cidBGBi@NaAZaA\\g@NeCz@"
+              },
+              "html_instructions": "new name Via Guglielmo Marconi"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 753
+              },
+              "duration": {
+                "value": 67.9
+              },
+              "polyline": {
+                "points": "{tgwFa_idBODYD]?_Bq@yEuAMMGQm@iECS?Y`@_DAWCUKOKIMA]@m@RgAh@mAx@QFw@NU@KAKGMMW]Yc@Oa@EMKI"
+              },
+              "html_instructions": "new name Via San Vito"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 7.5
+              },
+              "duration": {
+                "value": 0.4
+              },
+              "polyline": {
+                "points": "kqhwF_sidBAGAG"
+              },
+              "html_instructions": "roundabout Strada Statale 7 Appia"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 2520.5
+              },
+              "duration": {
+                "value": 146
+              },
+              "polyline": {
+                "points": "oqhwFosidBAMAMEa@Cy@C[ReDLsB@]BSBc@?[Ac@I]GSCIMUYWu@i@WQQQIUAWB[Ns@\\{An@gCdAkE\\mBRsBZ}D@MXgCN}AF_AJeDDoAtAm[Ba@PiDHiBDiB?MFeABu@DcA@aAFsGFcC@_CD{CHuBNqAVwAd@yAd@aA~@uAT]x@qAN_@Lc@|@mEb@yB"
+              },
+              "html_instructions": "exit roundabout Strada Statale 7 Appia"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 1568.2
+              },
+              "duration": {
+                "value": 229.7
+              },
+              "polyline": {
+                "points": "ozgwFccodBFGNKLCJ@DAHCHKFSJu@NeABMDGLGF?JDFDFJFTEd@Kv@MtA@h@Fb@j@jA|BrCf@l@BBDD|@dAL^H`@@~A?JBTFLJHXBRKNQLk@Fo@?a@Ei@AQ?IDKLCRHPPp@~@JJLFF@P@ZErBw@JETCR?LBb@JJDF@RH~DfB~Ap@TJZ`@Hb@S~EAXBZFXJTrA|ABDfE|E"
+              },
+              "html_instructions": "turn Strada del Belvedere"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 851
+              },
+              "duration": {
+                "value": 127.5
+              },
+              "polyline": {
+                "points": "{ffwF{wmdBlCzCVPXBVEdAu@VEP@NDNJtC~Cr@x@hBrBp@p@Td@Tx@p@jE\\pBr@vDNTLHPDd@B@?r@?@?DA"
+              },
+              "html_instructions": "new name Strada Belvedere Murgia Timone"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "ifewFysldB"
+              },
+              "html_instructions": "arrive Strada Belvedere Murgia Timone"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 851
+              },
+              "duration": {
+                "value": 154.9
+              },
+              "polyline": {
+                "points": "ifewFysldBE@A?s@?A?e@CQEMIOUs@wD]qBq@kEUy@Ue@q@q@iBsBs@y@uC_DOKOEQAWDeAt@WDYCWQmC{C"
+              },
+              "html_instructions": "depart Strada Belvedere Murgia Timone"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 1557
+              },
+              "duration": {
+                "value": 231.9
+              },
+              "polyline": {
+                "points": "{ffwF{wmdBgE}ECEsA}AKUGYC[@YR_FIc@[a@UK_Bq@_EgBSIGAKEc@KMCS?UBKDsBv@[DQAGAMGKKq@_AQQSIMBEJ?H@PDh@?`@Gn@Mj@OPSJYCKIGMCU?KA_BIa@M_@}@eAEECCg@m@}BsCk@kAGc@Ai@LuAJw@De@GUGKGEKEG?MFEFCLOdAKt@GRIJKAIIIEOA"
+              },
+              "html_instructions": "new name Strada del Belvedere"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 2541.4
+              },
+              "duration": {
+                "value": 147.8
+              },
+              "polyline": {
+                "points": "}ygwFsdodBQn@c@xB}@lEMb@O^y@pAU\\_AtAe@`Ae@xAWvAOpAItBEzCA~BGbCGrGA`AEbACt@GdA?LEhBIhBQhDC`@uAl[EnAKdDG~@O|AYfCAL[|DSrB]lBeAjEo@fC]zAOr@CZ@VHTPPVPt@h@XVLTBHFRH\\@b@?ZCb@CRA\\MrBSdDEZAx@APCNCV"
+              },
+              "html_instructions": "turn Strada Statale 7 Appia"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 41.2
+              },
+              "duration": {
+                "value": 2.2
+              },
+              "polyline": {
+                "points": "srhwFssidBEDAFAF?H@FBFBDDBD@F?DC"
+              },
+              "html_instructions": "roundabout Via San Vito"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 750
+              },
+              "duration": {
+                "value": 67.7
+              },
+              "polyline": {
+                "points": "yqhwF{qidBRFJDNFXb@V\\LLJFJ@TAv@OPGlAy@fAi@l@S\\AL@JHJNBT@Va@~C?XBRl@hEFPLLxEtA~Ap@\\?XENE"
+              },
+              "html_instructions": "exit roundabout Via San Vito"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 303.8
+              },
+              "duration": {
+                "value": 34.4
+              },
+              "polyline": {
+                "points": "{tgwFa_idBdC{@f@O`A]`A[h@OFCHEl@w@DELS`@k@NS"
+              },
+              "html_instructions": "new name Via Guglielmo Marconi"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 299.5
+              },
+              "duration": {
+                "value": 43.2
+              },
+              "polyline": {
+                "points": "yegwFshidBZFF@F?F?D?FCzAoBtAoBx@kAfBcC"
+              },
+              "html_instructions": "continue Via Guglielmo Marconi"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 341.2
+              },
+              "duration": {
+                "value": 31.2
+              },
+              "polyline": {
+                "points": "cyfwF}uidBZaAdAkDJWT{@Xw@Xm@rCkD`@c@"
+              },
+              "html_instructions": "turn Via Annunziatella"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 10.2
+              },
+              "duration": {
+                "value": 1.1
+              },
+              "polyline": {
+                "points": "umfwFuijdB@?@@@?@?@A@?@C?A???A"
+              },
+              "html_instructions": "roundabout Via Venti Settembre"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 245.2
+              },
+              "duration": {
+                "value": 22
+              },
+              "polyline": {
+                "points": "gmfwF}ijdBp@e@\\OnAURBr@F|AHTHJDNFTTLT"
+              },
+              "html_instructions": "exit roundabout Via Venti Settembre"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 582.1
+              },
+              "duration": {
+                "value": 56.9
+              },
+              "polyline": {
+                "points": "k`fwFoijdBz@lAp@dABDt@hAV^TFTHbDEHAHKlA}BHQfAyB@GBIt@mCh@qBJU@ARU"
+              },
+              "html_instructions": "new name Via Lucana"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 186.2
+              },
+              "duration": {
+                "value": 66.4
+              },
+              "polyline": {
+                "points": "_jewFwsjdBmAcDKSIKMRCD]bAa@lA"
+              },
+              "html_instructions": "turn Via Rocco Scotellaro"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 25.9
+              },
+              "duration": {
+                "value": 11.1
+              },
+              "polyline": {
+                "points": "uoewFotjdBi@]"
+              },
+              "html_instructions": "turn Via Vincenzo Corazza"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 23.2
+              },
+              "duration": {
+                "value": 5.1
+              },
+              "polyline": {
+                "points": "_qewFmujdBIZGR"
+              },
+              "html_instructions": "turn Via delle Beccherie"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "qqewF}sjdB"
+              },
+              "html_instructions": "arrive Via delle Beccherie"
+            }
+          ]
+        }
+      ],
+      "bounds": {
+        "northeast": {
+          "lat": 40.68209,
+          "lng": 16.63149
+        },
+        "southwest": {
+          "lat": 40.65536,
+          "lng": 16.59899
+        }
+      }
+    }
+  ],
+  "status": "OK"
+}

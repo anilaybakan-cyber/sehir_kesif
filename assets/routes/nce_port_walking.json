@@ -1,0 +1,372 @@
+{
+  "routes": [
+    {
+      "overview_polyline": {
+        "points": "extiGczmk@DGPd@GT[f@cHhGyBi@y@SSCWC_BOYQw@Ig@EAZ?D?BAB?LI?o@EiAKMAKAGAwCYMOGIICQEYEG?MPKNCDmAzBS^iBfDEHGL}BdEIPCHAFYnA[zAADAF[~A?BK`@GVAFEPGZITGXSp@GVGPAFCJCNNHtAx@JHrAt@FBTLNH^TLHnAp@LH~@j@^Z\\^FHNVP^JXJb@NdADXd@vC@HDRFCDC`@On@U@ABAPIIe@UkAWuAKm@Mg@Qc@Wk@Qa@Yo@AAAESc@OYUYWWUUa@m@gAaASUSICCCCYUACAG@MAKAKIO_@k@]i@Wm@KUCKCM?UPaAPaAJYJMVOnAy@@DBJf@dB^pA[NZOgAwDCKAERMjAw@nCiBFGGSKa@AILyBFkA?IHaB@I?q@Bk@LuD@IFsAF_B@QBQ@GB]TIHAL@jCVJ@`BNXDx@f@rANB?BA@C@GB{@FkA@OPB~CZz@FH@JAHEHIFMDMBIH_@PuAJ_ABMDYBWBQPmADc@BMBQDa@F_@BINm@FQPc@Rc@NUPSPSRQVQVMPKr@YPIb@SJGHGFGFIPUFIp@}@FIHUFSFWJs@DSDQ"
+      },
+      "legs": [
+        {
+          "distance": {
+            "value": 4441.9,
+            "text": "4.4 km"
+          },
+          "duration": {
+            "value": 713.8,
+            "text": "11 mins"
+          },
+          "steps": [
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 500.2
+              },
+              "duration": {
+                "value": 125.3
+              },
+              "polyline": {
+                "points": "extiGczmk@DGPd@GT[f@cHhGyBi@y@SSCWC_BOYQw@Ig@E"
+              },
+              "html_instructions": "depart "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 22.8
+              },
+              "duration": {
+                "value": 7.2
+              },
+              "polyline": {
+                "points": "oouiGurmk@AZ?D?BAB?L"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 209.5
+              },
+              "duration": {
+                "value": 39.6
+              },
+              "polyline": {
+                "points": "souiG}pmk@I?o@EiAKMAKAGAwCYMOGIICQE"
+              },
+              "html_instructions": "turn Quai Papacino"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 350.8
+              },
+              "duration": {
+                "value": 58.7
+              },
+              "polyline": {
+                "points": "c{uiGssmk@YEG?MPKNCDmAzBS^iBfDEHGL}BdEIPCHAF"
+              },
+              "html_instructions": "turn Rue Cassini"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 123.2
+              },
+              "duration": {
+                "value": 20.4
+              },
+              "polyline": {
+                "points": "khviGk`mk@YnA[zAADAF[~A"
+              },
+              "html_instructions": "new name Place Garibaldi"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 130.2
+              },
+              "duration": {
+                "value": 28.2
+              },
+              "polyline": {
+                "points": "akviGqwlk@?BK`@GVAFEPGZITGXSp@GVGPAFCJCN"
+              },
+              "html_instructions": "new name Traverse Garibaldi"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 236.3
+              },
+              "duration": {
+                "value": 25.1
+              },
+              "polyline": {
+                "points": "enviGmnlk@NHtAx@JHrAt@FBTLNH^TLHnAp@LH"
+              },
+              "html_instructions": "turn Avenue Saint-Jean-Baptiste"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 263.9
+              },
+              "duration": {
+                "value": 46.2
+              },
+              "polyline": {
+                "points": "ebviGqflk@~@j@^Z\\^FHNVP^JXJb@NdADXd@vC@HDR"
+              },
+              "html_instructions": "new name Avenue F\u00e9lix Faure"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 71.5
+              },
+              "duration": {
+                "value": 13.9
+              },
+              "polyline": {
+                "points": "azuiGsvkk@FCDC`@On@U@ABAPI"
+              },
+              "html_instructions": "turn Traverse Flandres Dunkerque"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 288.7
+              },
+              "duration": {
+                "value": 29.9
+              },
+              "polyline": {
+                "points": "ivuiGoxkk@Ie@UkAWuAKm@Mg@Qc@Wk@Qa@Yo@AAAESc@OYUYWWUU"
+              },
+              "html_instructions": "turn Boulevard Jean Jaur\u00e8s"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 128.4
+              },
+              "duration": {
+                "value": 13.7
+              },
+              "polyline": {
+                "points": "}~uiG}jlk@a@m@gAaASUSICCCCYUACAG"
+              },
+              "html_instructions": "fork Boulevard Jean Jaur\u00e8s"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 269.2
+              },
+              "duration": {
+                "value": 29.2
+              },
+              "polyline": {
+                "points": "udviGwplk@@MAKAKIO_@k@]i@Wm@KUCKCM?UPaAPaAJYJMVOnAy@"
+              },
+              "html_instructions": "end of road Boulevard Jean Jaur\u00e8s"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 54.9
+              },
+              "duration": {
+                "value": 7.8
+              },
+              "polyline": {
+                "points": "gcviGm`mk@@DBJf@dB"
+              },
+              "html_instructions": "turn Rue Sincaire"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "yaviGu|lk@"
+              },
+              "html_instructions": "arrive Rue Sincaire"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 37.2
+              },
+              "duration": {
+                "value": 8
+              },
+              "polyline": {
+                "points": "yaviGu|lk@^pA"
+              },
+              "html_instructions": "depart Rue Sincaire"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 17.3
+              },
+              "duration": {
+                "value": 31.6
+              },
+              "polyline": {
+                "points": "y`viGczlk@[N"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 17.3
+              },
+              "duration": {
+                "value": 10.1
+              },
+              "polyline": {
+                "points": "uaviGsylk@ZO"
+              },
+              "html_instructions": "continue "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 92.1
+              },
+              "duration": {
+                "value": 15.3
+              },
+              "polyline": {
+                "points": "y`viGczlk@gAwDCKAE"
+              },
+              "html_instructions": "turn Rue Sincaire"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 156.5
+              },
+              "duration": {
+                "value": 28.6
+              },
+              "polyline": {
+                "points": "gcviGm`mk@RMjAw@nCiBFG"
+              },
+              "html_instructions": "turn Rue Catherine Segurane"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 177.3
+              },
+              "duration": {
+                "value": 18.1
+              },
+              "polyline": {
+                "points": "o{uiGefmk@GSKa@AILyBFkA?IHaB@I?q@"
+              },
+              "html_instructions": "turn Rue Antoine Gautier"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 199.7
+              },
+              "duration": {
+                "value": 22
+              },
+              "polyline": {
+                "points": "c{uiGssmk@Bk@LuD@IFsAF_B@QBQ@GB]"
+              },
+              "html_instructions": "new name Place de l'Ile de Beaut\u00e9"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 267.9
+              },
+              "duration": {
+                "value": 45.2
+              },
+              "polyline": {
+                "points": "syuiG}bnk@TIHAL@jCVJ@`BNXDx@f@rANB?BA"
+              },
+              "html_instructions": "fork Quai des Deux Emmanuels"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 67.3
+              },
+              "duration": {
+                "value": 12
+              },
+              "polyline": {
+                "points": "{juiGa`nk@@C@GB{@FkA@O"
+              },
+              "html_instructions": "turn Rue de Lazaret"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 152.1
+              },
+              "duration": {
+                "value": 22.9
+              },
+              "polyline": {
+                "points": "ijuiGeenk@PB~CZz@FH@JAHE"
+              },
+              "html_instructions": "turn Boulevard Stalingrad"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 607.6
+              },
+              "duration": {
+                "value": 54.8
+              },
+              "polyline": {
+                "points": "{auiGcdnk@HIFMDMBIH_@PuAJ_ABMDYBWBQPmADc@BMBQDa@F_@BINm@FQPc@Rc@NUPSPSRQVQVMPKr@YPIb@SJGHGFGFIPUFIp@}@FIHUFSFWJs@DSDQ"
+              },
+              "html_instructions": "new name Boulevard Franck Pilatte"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "untiG{gok@"
+              },
+              "html_instructions": "arrive Boulevard Franck Pilatte"
+            }
+          ]
+        }
+      ],
+      "bounds": {
+        "northeast": {
+          "lat": 43.70163,
+          "lng": 7.2923
+        },
+        "southwest": {
+          "lat": 43.69147,
+          "lng": 7.27418
+        }
+      }
+    }
+  ],
+  "status": "OK"
+}

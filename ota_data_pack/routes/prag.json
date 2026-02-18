@@ -1,0 +1,69 @@
+[
+  {
+    "id": "prag_new_2026",
+    "name": {
+      "en": "New Season Discoveries",
+      "tr": "Yeni Sezon Keşifleri"
+    },
+    "description": {
+      "en": "Explore the freshest cafes, bars and hidden gems added for the new season.",
+      "tr": "Yeni sezon için eklenen en taze kafeler, barlar ve gizli durakları keşfedin."
+    },
+    "duration": {
+      "en": "2 Days",
+      "tr": "2 Gün"
+    },
+    "distance": "15 km",
+    "difficulty": {
+      "en": "Easy",
+      "tr": "Kolay"
+    },
+    "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/prag/bruxx.jpg",
+    "tags": {
+      "en": [
+        "New",
+        "Foodie",
+        "Hidden Gems"
+      ],
+      "tr": [
+        "Yeni",
+        "Gurme",
+        "Gizli Cevher"
+      ]
+    },
+    "placeNames": [
+      "Café Jen",
+      "Kavárna Místo",
+      "Mezi Srnky",
+      "Typika",
+      "Omai",
+      "Coffee Corner Bakery",
+      "GRAM",
+      "Zanzibar",
+      "Bella Vida Cafe",
+      "Arte Bianca",
+      "Šodó Bistro",
+      "Bjukitchen Bistro",
+      "The Artisan",
+      "ZEM Prague",
+      "Cafe Hrnek",
+      "Bakeshop",
+      "U Pivrnce",
+      "Kolkovna Celnice",
+      "U Dvou Koček",
+      "Mincovna"
+    ],
+    "interests": {
+      "en": [
+        "Food",
+        "Culture"
+      ],
+      "tr": [
+        "Yemek",
+        "Kültür"
+      ]
+    },
+    "accentColor": "0xFFE91E63",
+    "icon": "Icons.explore_rounded"
+  }
+]

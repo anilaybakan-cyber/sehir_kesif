@@ -1,0 +1,99 @@
+{
+  "routes": [
+    {
+      "overview_polyline": {
+        "points": "opwwFlhqbMFBLJ|AfANJJHtAz@HFPJLHdBhAPLPLfBjAJHHFx@f@j@^HFJF`BdAJFNJ~AfAPJFDh@\\x@j@JFHFbBhAJFHYvCeJDONc@l@mBJYFS~DeM`@sAVw@J[LHbBfAHFJFfBjANJRLfBjAJFJFh@^x@h@JFHFdBhAJFHFdBhAHFJHf@\\z@h@JHFBBBbBfAJHHFdBhAHFIT_@pA"
+      },
+      "legs": [
+        {
+          "distance": {
+            "value": 2081.6,
+            "text": "2.1 km"
+          },
+          "duration": {
+            "value": 258.7,
+            "text": "4 mins"
+          },
+          "steps": [
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 726.1
+              },
+              "duration": {
+                "value": 106.5
+              },
+              "polyline": {
+                "points": "opwwFlhqbMFBLJ|AfANJJHtAz@HFPJLHdBhAPLPLfBjAJHHFx@f@j@^HFJF`BdAJFNJ~AfAPJFDh@\\x@j@JFHFbBhAJF"
+              },
+              "html_instructions": "depart 7th Avenue"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 586.2
+              },
+              "duration": {
+                "value": 46.3
+              },
+              "polyline": {
+                "points": "ylvwFpbrbMHYvCeJDONc@l@mBJYFS~DeM`@sAVw@J["
+              },
+              "html_instructions": "turn West 36th Street"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 718.9
+              },
+              "duration": {
+                "value": 100.3
+              },
+              "polyline": {
+                "points": "y|uwFr|pbMLHbBfAHFJFfBjANJRLfBjAJFJFh@^x@h@JFHFdBhAJFHFdBhAHFJHf@\\z@h@JHFBBBbBfAJHHFdBhAHF"
+              },
+              "html_instructions": "turn 5th Avenue"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 50.4
+              },
+              "duration": {
+                "value": 5.6
+              },
+              "polyline": {
+                "points": "mytwFlvqbMIT_@pA"
+              },
+              "html_instructions": "turn West 27th Street"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "wztwFtyqbM"
+              },
+              "html_instructions": "arrive West 27th Street"
+            }
+          ]
+        }
+      ],
+      "bounds": {
+        "northeast": {
+          "lat": 40.758,
+          "lng": -73.98362
+        },
+        "southwest": {
+          "lat": 40.74407,
+          "lng": -73.98969
+        }
+      }
+    }
+  ],
+  "status": "OK"
+}

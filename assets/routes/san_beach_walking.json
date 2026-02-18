@@ -1,0 +1,736 @@
+{
+  "routes": [
+    {
+      "overview_polyline": {
+        "points": "aakgG|zbKeAn@C@t@rCBJ`@xAH\\DLDNBP@D?F?HAL?T?N@F@LZ~B@Lf@pDJl@DZFh@LpABT@HLlAJx@LxAD~@Bb@?b@@bA?rA@fA?jB@fB?dBAd@Cj@Ej@g@hEO|@Sx@{AnEQj@Kj@AHM|@GjAAb@@TFZJr@HHHDD?HEn@g@TKT@JBN?JKpAqA`@OJIDIDO?G@a@@QBQTw@j@yAz@cBRa@H?DADGBG?IAIAGTa@HOHKRY^c@v@w@t@i@lBaBnAaA`@[F?DCDG@I?GVSbCwBjCyBVUBCFBF@DCHNHN@RANQVc@`@m@j@aA~@SRSPIJEPATBRDNFFDDEHYVc@\\a@`@[^SZM`@KTORQV[Xc@h@Uh@Qb@Sn@Kl@@RPVLHLHa@V`@W^Vj@Fv@@g@^iCvAg@TmATeAPmALQ@QB[Bc@Ai@AWMACGIEQ@a@@QBQTw@j@yAz@cBRa@H?DADGBG?IAIAGTa@HOHKRY^c@v@w@t@i@lBaBnAaA`@[F?DCDG@I?GVSbCwBjCyBVUBCFBF@DCDCBG@I@GAICGEEGACAE@CBEO}@aCOUKGSIY@MDQNORSXQP[P[Ha@Be@Ei@EY@WHOJUVKPWv@U`AWfAi@hBg@nA_@j@]n@_@n@]h@WXMNWc@eAyAEGOBKBI@GEEGAK?K?CBy@Dy@AEECG@AFEfAEt@Du@DgA@GFADB@DEx@Cx@?N@JDFFDHAJCNCDFdAxAVb@LOVY\\i@^o@\\o@^k@f@oAh@iBVgATaAVw@JQTWNKVIXAh@Dd@D`@CZIZQPQRYNSPOLEXARHJFNT|@`CDNCBCDAD?F]ZkCzBcCvBYTEAE@C@EDAFAH[Z{DhDe@\\u@r@o@r@_@h@KL_@h@E@EDCF?H?D@FS`@y@fBm@xAi@~AKZGRMXEJQP_A`AQFMASUGKCE_@g@O[IYEUKMICG?C@KJGjAAb@@T@f@Hr@BH@DPn@Kd@Mj@GXcA~EET[xAGVADa@pBERWjAI^GXEPa@pBAF@L@DBHBHTPxAd@z@^PJd@h@`@f@Td@Rd@Xh@\\l@b@f@nA~@NVH^F`EBz@Lb@N\\bChDLTHZ?\\On@c@z@aAbAaCpAiAl@wBlAKLk@t@eCbDk@bASp@UjAK|@M~BC|@B|@p@rIANCJKDM?KIISgBcIOe@IUKO?M?MIi@Os@Sy@e@gCIs@C{@BeCCm@Ao@ASGsCEq@I]M[O[OSU][]QM}@e@SIeAc@SGe@CY?k@@]?OBKa@c@_BE]Ik@K_@]cA]gAISEMAMASCKGEGCK@}BhASLQRMZIZCX?RH|@BX@j@J\\hAtAL`@@PCPIDKAKOIk@MUOMSEQ?UDI?KAQIKMCO@UV[LOB_@Gm@Mw@Eq@Au@B[P]Xe@v@w@Tg@Fq@JQRMLKMJSLKPGp@Uf@w@v@Yd@Q\\CZ@t@Dp@Lv@Fl@C^MNWZATBNJLPHJ@H?TEP?RDNLLTHj@JNJ@HEBQAQMa@iAuAK]Ak@CYI}@?SBYH[L[PSRM|BiAJAFBFDBJ@R@LDLHR\\fA\\bAJ^Hj@D\\b@~AJ`@NC\\?h@NZVZl@FZPZLHXHR?X?`@IZCVBTBTTPTNTLXNXDp@FrC@R@n@Bl@CdCBz@Hr@d@fCRx@Nr@Hh@?L?LJNHTNd@fBbIHRJHL?JEBK@Oq@sIC}@B}@L_CJ}@TkARq@j@cAdCcDj@u@JMvBmAhAm@`CqA`AcAb@{@No@?]I[MUcCiDO]Mc@C{@GaEI_@OWoA_Ac@g@]m@I[?IAQDc@n@_DFWOIiB{@QIQK_@QiAi@iAk@KGEPa@pBAFABQZ_AVqAHsAHu@Fy@J_@FGBMHGPAJAL?XCZERONMDOCOIGQUy@SgASm@Sm@MSOGQ?QFKPAZPVRTTv@Lx@L|@C\\OTE@KBOKISI}@Mm@MWQ[s@y@MKQAIFEN@NHLPRTXVj@PxAPxAARCJKFMAECEKCSASA[C_@EUISSa@SWMKMGMCMCMBKH"
+      },
+      "legs": [
+        {
+          "distance": {
+            "value": 15098.9,
+            "text": "15.1 km"
+          },
+          "duration": {
+            "value": 1850,
+            "text": "30 mins"
+          },
+          "steps": [
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 46
+              },
+              "duration": {
+                "value": 12.4
+              },
+              "polyline": {
+                "points": "aakgG|zbKeAn@C@"
+              },
+              "html_instructions": "depart Marina kalea"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 140.6
+              },
+              "duration": {
+                "value": 17.9
+              },
+              "polyline": {
+                "points": "kckgGn|bKt@rCBJ`@xAH\\DLDN"
+              },
+              "html_instructions": "turn San Martin kalea"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 1061.2
+              },
+              "duration": {
+                "value": 117
+              },
+              "polyline": {
+                "points": "y_kgGdfcKBP@D?F?HAL?T?N@F@LZ~B@Lf@pDJl@DZFh@LpABT@HLlAJx@LxAD~@Bb@?b@@bA?rA@fA?jB@fB?dBAd@Cj@Ej@g@hEO|@Sx@{AnEQj@Kj@AHM|@GjAAb@@T"
+              },
+              "html_instructions": "fork Mirakontxa pasealekua"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 213.4
+              },
+              "duration": {
+                "value": 16.3
+              },
+              "polyline": {
+                "points": "oakgGxteKFZJr@HHHDD?HEn@g@TKT@JBN?JKpAqA`@O"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 192.3
+              },
+              "duration": {
+                "value": 12.9
+              },
+              "polyline": {
+                "points": "_xjgGvreKJIDIDO?G@a@@QBQTw@j@yAz@cBRa@"
+              },
+              "html_instructions": "turn Pio Baroja pasealekua"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 29
+              },
+              "duration": {
+                "value": 2.6
+              },
+              "polyline": {
+                "points": "mrjgGlfeKH?DADGBG?IAIAG"
+              },
+              "html_instructions": "roundabout Pio Baroja pasealekua"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 292.7
+              },
+              "duration": {
+                "value": 19.2
+              },
+              "polyline": {
+                "points": "wqjgG~deKTa@HOHKRY^c@v@w@t@i@lBaBnAaA`@["
+              },
+              "html_instructions": "exit roundabout Pio Baroja pasealekua"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 20.6
+              },
+              "duration": {
+                "value": 1.7
+              },
+              "polyline": {
+                "points": "kdjgG`xdKF?DCDG@I?G"
+              },
+              "html_instructions": "roundabout Pio Baroja pasealekua"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 214.5
+              },
+              "duration": {
+                "value": 14.2
+              },
+              "polyline": {
+                "points": "ucjgGbwdKVSbCwBjCyBVUBC"
+              },
+              "html_instructions": "exit roundabout Pio Baroja pasealekua"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 12.7
+              },
+              "duration": {
+                "value": 1.3
+              },
+              "polyline": {
+                "points": "qyigGbndKFBF@DC"
+              },
+              "html_instructions": "roundabout Isturin kalea"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 222.5
+              },
+              "duration": {
+                "value": 36.3
+              },
+              "polyline": {
+                "points": "{xigGdndKHNHN@RANQVc@`@m@j@aA~@SRSPIJEPATBRDNFFDD"
+              },
+              "html_instructions": "exit roundabout Isturin kalea"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 324.8
+              },
+              "duration": {
+                "value": 52.5
+              },
+              "polyline": {
+                "points": "o~igGzydKEHYVc@\\a@`@[^SZM`@KTORQV[Xc@h@Uh@Qb@Sn@Kl@@RPVLHLH"
+              },
+              "html_instructions": "turn Jauregi kalea"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 20.5
+              },
+              "duration": {
+                "value": 4.9
+              },
+              "polyline": {
+                "points": "ygjgGlkeKa@V"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "{hjgGdleK"
+              },
+              "html_instructions": "arrive "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 20.5
+              },
+              "duration": {
+                "value": 32.5
+              },
+              "polyline": {
+                "points": "{hjgGdleK`@W"
+              },
+              "html_instructions": "depart "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 76.3
+              },
+              "duration": {
+                "value": 18
+              },
+              "polyline": {
+                "points": "ygjgGlkeK^Vj@Fv@@"
+              },
+              "html_instructions": "turn Jauregi kalea"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 297.9
+              },
+              "duration": {
+                "value": 43
+              },
+              "polyline": {
+                "points": "ucjgGnleKg@^iCvAg@TmATeAPmALQ@QB[B"
+              },
+              "html_instructions": "continue Jauregi kalea"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 73.6
+              },
+              "duration": {
+                "value": 10.6
+              },
+              "polyline": {
+                "points": "qsjgG|reKc@Ai@AWMACGIEQ"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 168.5
+              },
+              "duration": {
+                "value": 11.3
+              },
+              "polyline": {
+                "points": "gwjgGjqeK@a@@QBQTw@j@yAz@cBRa@"
+              },
+              "html_instructions": "new name Pio Baroja pasealekua"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 29
+              },
+              "duration": {
+                "value": 2.6
+              },
+              "polyline": {
+                "points": "mrjgGlfeKH?DADGBG?IAIAG"
+              },
+              "html_instructions": "roundabout Pio Baroja pasealekua"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 292.7
+              },
+              "duration": {
+                "value": 19.2
+              },
+              "polyline": {
+                "points": "wqjgG~deKTa@HOHKRY^c@v@w@t@i@lBaBnAaA`@["
+              },
+              "html_instructions": "exit roundabout Pio Baroja pasealekua"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 20.6
+              },
+              "duration": {
+                "value": 1.7
+              },
+              "polyline": {
+                "points": "kdjgG`xdKF?DCDG@I?G"
+              },
+              "html_instructions": "roundabout Pio Baroja pasealekua"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 214.5
+              },
+              "duration": {
+                "value": 14.2
+              },
+              "polyline": {
+                "points": "ucjgGbwdKVSbCwBjCyBVUBC"
+              },
+              "html_instructions": "exit roundabout Pio Baroja pasealekua"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 52.9
+              },
+              "duration": {
+                "value": 5.2
+              },
+              "polyline": {
+                "points": "qyigGbndKFBF@DCDCBG@I@GAICGEEGACAE@CB"
+              },
+              "html_instructions": "roundabout Sanserreka pasealekua"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 641.1
+              },
+              "duration": {
+                "value": 93.9
+              },
+              "polyline": {
+                "points": "oyigGpldKEO}@aCOUKGSIY@MDQNORSXQP[P[Ha@Be@Ei@EY@WHOJUVKPWv@U`AWfAi@hBg@nA_@j@]n@_@n@]h@WXMN"
+              },
+              "html_instructions": "exit roundabout Sanserreka pasealekua"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 77.3
+              },
+              "duration": {
+                "value": 12.2
+              },
+              "polyline": {
+                "points": "{rjgG`_eKWc@eAyAEG"
+              },
+              "html_instructions": "turn Baenako Dukearen pasealekua"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 41.3
+              },
+              "duration": {
+                "value": 5.9
+              },
+              "polyline": {
+                "points": "_vjgGzzdKOBKBI@GEEGAK?K"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "uwjgG~ydK"
+              },
+              "html_instructions": "arrive "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 114.1
+              },
+              "duration": {
+                "value": 43.8
+              },
+              "polyline": {
+                "points": "uwjgG~ydK?CBy@Dy@AEECG@AFEfAEt@"
+              },
+              "html_instructions": "depart "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 155.4
+              },
+              "duration": {
+                "value": 22.5
+              },
+              "polyline": {
+                "points": "ixjgGdzdKDu@DgA@GFADB@DEx@Cx@?N@JDFFDHAJCNC"
+              },
+              "html_instructions": "continue "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 77.3
+              },
+              "duration": {
+                "value": 15.5
+              },
+              "polyline": {
+                "points": "_vjgGzzdKDFdAxAVb@"
+              },
+              "html_instructions": "turn Baenako Dukearen pasealekua"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 641.1
+              },
+              "duration": {
+                "value": 93.8
+              },
+              "polyline": {
+                "points": "{rjgG`_eKLOVY\\i@^o@\\o@^k@f@oAh@iBVgATaAVw@JQTWNKVIXAh@Dd@D`@CZIZQPQRYNSPOLEXARHJFNT|@`CDN"
+              },
+              "html_instructions": "turn Sanserreka pasealekua"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 11.7
+              },
+              "duration": {
+                "value": 0.9
+              },
+              "polyline": {
+                "points": "oyigGpldKCBCDAD?F"
+              },
+              "html_instructions": "roundabout Pio Baroja pasealekua"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 216.9
+              },
+              "duration": {
+                "value": 14.3
+              },
+              "polyline": {
+                "points": "yyigGhmdK]ZkCzBcCvBYT"
+              },
+              "html_instructions": "exit roundabout Pio Baroja pasealekua"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 21.5
+              },
+              "duration": {
+                "value": 1.6
+              },
+              "polyline": {
+                "points": "adjgGnvdKEAE@C@EDAFAH"
+              },
+              "html_instructions": "roundabout Pio Baroja pasealekua"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 297.6
+              },
+              "duration": {
+                "value": 19.4
+              },
+              "polyline": {
+                "points": "{djgGhwdK[Z{DhDe@\\u@r@o@r@_@h@KL_@h@"
+              },
+              "html_instructions": "exit roundabout Pio Baroja pasealekua"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 21.1
+              },
+              "duration": {
+                "value": 1.6
+              },
+              "polyline": {
+                "points": "krjgGvdeKE@EDCF?H?D@F"
+              },
+              "html_instructions": "roundabout Pio Baroja pasealekua"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 361.1
+              },
+              "duration": {
+                "value": 25.8
+              },
+              "polyline": {
+                "points": "yrjgG~eeKS`@y@fBm@xAi@~AKZGRMXEJQP_A`AQFMASUGKCE_@g@O[IYEU"
+              },
+              "html_instructions": "exit roundabout Pio Baroja pasealekua"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 150.8
+              },
+              "duration": {
+                "value": 14.4
+              },
+              "polyline": {
+                "points": "y_kgGvpeKKMICG?C@KJGjAAb@@T@f@Hr@BH@DPn@"
+              },
+              "html_instructions": "fork "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 387.7
+              },
+              "duration": {
+                "value": 35.3
+              },
+              "polyline": {
+                "points": "k`kgGtyeKKd@Mj@GXcA~EET[xAGVADa@pBERWjAI^GXEPa@pBAF"
+              },
+              "html_instructions": "turn Satrustegi hiribidea"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 1672.8
+              },
+              "duration": {
+                "value": 151.2
+              },
+              "polyline": {
+                "points": "yhkgGfufK@L@DBHBHTPxAd@z@^PJd@h@`@f@Td@Rd@Xh@\\l@b@f@nA~@NVH^F`EBz@Lb@N\\bChDLTHZ?\\On@c@z@aAbAaCpAiAl@wBlAKLk@t@eCbDk@bASp@UjAK|@M~BC|@B|@p@rIANCJKDM?KIISgBcIOe@IUKO"
+              },
+              "html_instructions": "turn Igeldo pasealekua"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 654.8
+              },
+              "duration": {
+                "value": 94.9
+              },
+              "polyline": {
+                "points": "knkgGlyhK?M?MIi@Os@Sy@e@gCIs@C{@BeCCm@Ao@ASGsCEq@I]M[O[OSU][]QM}@e@SIeAc@SGe@CY?k@@]?OB"
+              },
+              "html_instructions": "continue Igeldo pasealekua"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 187.2
+              },
+              "duration": {
+                "value": 26.9
+              },
+              "polyline": {
+                "points": "a`lgGtugKKa@c@_BE]Ik@K_@]cA]gAISEM"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 766.5
+              },
+              "duration": {
+                "value": 137.5
+              },
+              "polyline": {
+                "points": "ydlgGzhgKAMASCKGEGCK@}BhASLQRMZIZCX?RH|@BX@j@J\\hAtAL`@@PCPIDKAKOIk@MUOMSEQ?UDI?KAQIKMCO@UV[LOB_@Gm@Mw@Eq@Au@B[P]Xe@v@w@Tg@Fq@JQRMLK"
+              },
+              "html_instructions": "new name Itsasargiko pasealekua"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 32.3
+              },
+              "duration": {
+                "value": 4.6
+              },
+              "polyline": {
+                "points": "ghlgG`agKMJSLKP"
+              },
+              "html_instructions": "continue Itsasargiko pasealekua"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "uilgGlbgK"
+              },
+              "html_instructions": "arrive Itsasargiko pasealekua"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 921.5
+              },
+              "duration": {
+                "value": 134.7
+              },
+              "polyline": {
+                "points": "uilgGlbgKGp@Uf@w@v@Yd@Q\\CZ@t@Dp@Lv@Fl@C^MNWZATBNJLPHJ@H?TEP?RDNLLTHj@JNJ@HEBQAQMa@iAuAK]Ak@CYI}@?SBYH[L[PSRM|BiAJAFBFDBJ@R@LDLHR\\fA\\bAJ^Hj@D\\b@~AJ`@"
+              },
+              "html_instructions": "depart Itsasargiko pasealekua"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 297.2
+              },
+              "duration": {
+                "value": 42.8
+              },
+              "polyline": {
+                "points": "a`lgGtugKNC\\?h@NZVZl@FZPZLHXHR?X?`@IZCVBTBTTPTNTLXNX"
+              },
+              "html_instructions": "end of road Igeldo pasealekua"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 1914.1
+              },
+              "duration": {
+                "value": 197.9
+              },
+              "polyline": {
+                "points": "_rkgGb~gKDp@FrC@R@n@Bl@CdCBz@Hr@d@fCRx@Nr@Hh@?L?LJNHTNd@fBbIHRJHL?JEBK@Oq@sIC}@B}@L_CJ}@TkARq@j@cAdCcDj@u@JMvBmAhAm@`CqA`AcAb@{@No@?]I[MUcCiDO]Mc@C{@GaEI_@OWoA_Ac@g@]m@I[?IAQDc@n@_DFW"
+              },
+              "html_instructions": "turn Igeldo pasealekua"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 211.3
+              },
+              "duration": {
+                "value": 36
+              },
+              "polyline": {
+                "points": "q|jgGfwfKOIiB{@QIQK_@QiAi@iAk@KG"
+              },
+              "html_instructions": "turn Wiesbaden kalea"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 301.5
+              },
+              "duration": {
+                "value": 27.3
+              },
+              "polyline": {
+                "points": "ogkgGzpfKEPa@pBAFABQZ_AVqAHsAHu@Fy@J_@FGBMH"
+              },
+              "html_instructions": "turn Satrustegi hiribidea"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 313.9
+              },
+              "duration": {
+                "value": 45.2
+              },
+              "polyline": {
+                "points": "yukgG|xfKGPAJAL?XCZERONMDOCOIGQUy@SgASm@Sm@MSOGQ?QFKPAZPVRTTv@"
+              },
+              "html_instructions": "turn Itsasargiko pasealekua"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 572.7
+              },
+              "duration": {
+                "value": 82.6
+              },
+              "polyline": {
+                "points": "{{kgGjyfKLx@L|@C\\OTE@KBOKISI}@Mm@MWQ[s@y@MKQAIFEN@NHLPRTXVj@PxAPxAARCJKFMAECEKCSASA[C_@EUISSa@SWMKMGMCMCMBKH"
+              },
+              "html_instructions": "fork Itsasargiko pasealekua"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "mdlgGxzfK"
+              },
+              "html_instructions": "arrive Itsasargiko pasealekua"
+            }
+          ]
+        }
+      ],
+      "bounds": {
+        "northeast": {
+          "lat": 43.32277,
+          "lng": -1.98591
+        },
+        "southwest": {
+          "lat": 43.30899,
+          "lng": -2.01854
+        }
+      }
+    }
+  ],
+  "status": "OK"
+}

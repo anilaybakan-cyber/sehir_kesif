@@ -1,0 +1,204 @@
+{
+    "amsterdam": {
+        "found": [
+            "Rijksmuseum",
+            "Anne Frank Evi",
+            "Van Gogh Müzesi",
+            "Dam Meydanı",
+            "Begijnhof"
+        ],
+        "missing": [
+            "Kanal Kemeri",
+            "Kraliyet Sarayı",
+            "A’DAM Lookout & Eye Film Museum"
+        ]
+    },
+    "barcelona": {
+        "found": [
+            "Casa Batlló",
+            "Casa Milà",
+            "Mercat de Sant Josep de la Boqueria",
+            "Montjuïc Tepesi",
+            "Barceloneta Plajı"
+        ],
+        "missing": [
+            "La Sagrada Família",
+            "Park Güell",
+            "La Rambla",
+            "Barselona Katedrali",
+            "Gotik Mahalle",
+            "Sihirli Fıskiye"
+        ]
+    },
+    "berlin": {
+        "found": [
+            "Brandenburg Kapısı",
+            "East Side Gallery",
+            "Reichstag",
+            "Checkpoint Charlie"
+        ],
+        "missing": [
+            "Katledilen Avrupalı Yahudiler Anıtı",
+            "Museumsinsel",
+            "Berliner Fernsehturm"
+        ]
+    },
+    "bologna": {
+        "found": [
+            "Piazza Maggiore",
+            "Fontana del Nettuno",
+            "Le Due Torri",
+            "Archiginnasio",
+            "Finestrella di Via Piella",
+            "Basilica di Santo Stefano",
+            "Santuario di San Luca"
+        ],
+        "missing": [
+            "Anatomik Tiyatro",
+            "Neptün’ün Parmak Hilesi",
+            "Corte Isolani’deki Üç Ok",
+            "Asinelli Kulesi'ndeki Kırık Vazo",
+            "\"Panis Vita\" Yazısı",
+            "San Petronio'daki Güneş Saati"
+        ]
+    },
+    "londra": {
+        "found": [
+            "Roma Surları",
+            "Westminster Abbey",
+            "Big Ben",
+            "Buckingham Sarayı",
+            "Little Venice",
+            "Greenwich",
+            "Shakespeare's Globe Theatre",
+            "Churchill War Rooms",
+            "Abbey Road",
+            "Sky Garden veya The Shard"
+        ],
+        "missing": [
+            "The City",
+            "Londra Kulesi",
+            "The Monument",
+            "Aziz Paul  Katedrali",
+            "Parlamento Binası",
+            "British Museum",
+            "Regent’s Canal",
+            "Kraliyet Gözlemevi",
+            "Carnaby Street",
+            "Camden Town",
+            "Pazarları"
+        ]
+    },
+    "newyork": {
+        "found": [
+            "Empire State Building",
+            "Central Park",
+            "Brooklyn Köprüsü",
+            "DUMBO & Brooklyn Bridge Park",
+            "Grand Central Terminal",
+            "The High Line",
+            "MoMA",
+            "Rockefeller Center & Top of the Rock",
+            "Bryant Park",
+            "SUMMIT One Vanderbilt",
+            "Flatiron Building"
+        ],
+        "missing": [
+            "Özgürlük Anıtı",
+            "Ellis Island",
+            "9/11 Memorial & Museum",
+            "Times Square",
+            "Broadway Theatre District",
+            "The Met",
+            "Wall Street",
+            "Charging Bull",
+            "New York Halk Kütüphanesi"
+        ]
+    },
+    "nice": {
+        "found": [
+            "Promenade des Anglais",
+            "Colline du Château",
+            "Cours Saleya",
+            "Place Masséna",
+            "Jean Médecin",
+            "Villefranche-sur-Mer",
+            "Èze Village",
+            "Saint-Paul-de-Vence",
+            "Matisse Müzesi",
+            "Cimiez Manastırı",
+            "Villa Ephrussi de Rothschild"
+        ],
+        "missing": [
+            "Aziz Nikolaos Rus Ortodoks Katedrali",
+            "Saint-Jean-Cap-Ferrat"
+        ]
+    },
+    "paris": {
+        "found": [
+            "Eyfel Kulesi",
+            "Louvre Müzesi",
+            "Notre-Dame Katedrali",
+            "Zafer Takı",
+            "Sacré-Cœur Bazilikası",
+            "Montmartre",
+            "Sainte-Chapelle"
+        ],
+        "missing": [
+            "Champs-Élysées",
+            "Musée d’Orsay",
+            "Seine Nehri",
+            "Köprüler"
+        ]
+    },
+    "prag": {
+        "found": [
+            "Charles Köprüsü",
+            "Vyšehrad"
+        ],
+        "missing": [
+            "Prag Kalesi",
+            "Altın Yol",
+            "Lennon Duvarı",
+            "Eski Şehir Meydanı",
+            "Astronomik Saat",
+            "Klementinum Kütüphanesi",
+            "Belediye Binası",
+            "Yahudi Mahallesi",
+            "Dans Eden Ev"
+        ]
+    },
+    "roma": {
+        "found": [
+            "Kolezyum",
+            "Roma Forumu",
+            "Pantheon",
+            "Vatikan Müzeleri",
+            "Trevi Çeşmesi",
+            "Piazza Navona",
+            "İspanyol Merdivenleri"
+        ],
+        "missing": [
+            "Aziz Petrus Bazilikası",
+            "Roman Forum"
+        ]
+    },
+    "milano": {
+        "found": [
+            "Duomo di Milano",
+            "Galleria Vittorio Emanuele II",
+            "Santa Maria delle Grazie",
+            "Castello Sforzesco",
+            "Teatro alla Scala",
+            "Pinacoteca di Brera",
+            "San Maurizio al Monastero Maggiore",
+            "Cimitero Monumentale",
+            "Piazza Gae Aulenti",
+            "Bosco Verticale"
+        ],
+        "missing": [
+            "\"Son Akşam Yemeği\"",
+            "Basilica di Sant'Ambrogio"
+        ]
+    }
+}

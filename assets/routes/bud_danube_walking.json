@@ -1,0 +1,476 @@
+{
+  "routes": [
+    {
+      "overview_polyline": {
+        "points": "_x}`H_vfsB~ANtALn@Dh@BV?f@@J?J?dAAx@Eh@CNAj@CXCv@In@Kd@MfAS`Ce@fHsAj@OFCh@Sb@UZOr@a@n@o@DEJMHQDEBADAD?D@H@PBJB`@Bh@@n@@jBMNC`@Sl@[t@a@nCiAfAg@lB_AfB_ADCDARKdAk@XQbFwCfCkBTWrAkAHGBEBCFIRUDE^STOn@e@TYFGH_@Ac@k@wBGQe@kB]wAGOIGK?OBYNWJHXb@lAJVJ\\FVJf@Jf@DZBPDXDVJb@hDzMpA|EbAdEHj@BN@N?T?TATEPKVMVq@`AKN_AxAMHIHMVq@bAcBfCQTQJMLCBMTKFk@L[Fw@Pc@EiAKUAWAa@AQ@M@IBIBm@T]Pe@PkAb@ULcAb@KDQJWLKDMFOJOLMHUPGD_CtB]V]Xu@j@UNa@Ti@NW?Q?KCIAGGGEIAG?GBGBEFEFCHCHOXSNUN{Bj@mAZSCCCCECECICWAIAIEEIEE?y@NoBb@{@PmBb@[F?M@GAE?GAIAGEOLCn@IzAQ|@QTGh@MtBe@PChCs@dBm@nA]JC`Bq@|@a@rCmAFA`EmBf@Yd@W|BwAZUTOFEJGvAiA`As@fBoAnB{AdF{DDT?B@H@B?BF^DTL`A?D@LBTHPHLB@DDDBLBL@JALGJENGBG\\k@HMt@eAFUFQJUBIBMBO@O@S?O?KAIAMEMEOGOO[cAeEqA}EiD{MKc@EWEYCQE[Kg@Kg@GWK]KWAmA@GFMHAH?HHDPTz@XfADTBNb@nBHl@ATAJKb@o@d@UN_@REDSTGHCBCDIFsAjAUVgCjBcFvCYPeAj@SJE@EBgB~@mB~@gAf@oChAu@`@m@Za@ROBkBLo@Ai@Aa@CKCQCIAEAE?E@C@EDIPKLED?\\ALCPKPSH]FE@IBQ?YEc@Ti@RGBk@NgHrAaCd@gARe@Lo@Jw@HYB{@Di@By@DeA@K?K?g@AW?i@Co@EuAMmBQy@Es@K]Ee@G}@YMEKEy@M[EsEo@MEYI[Ge@Eu@KC?a@Ga@GqAQu@Oi@A]?Y?c@Em@Mi@Ok@Oe@KWISKaBy@qBeAq@a@qAo@q@]_DgBc@Wc@Y[QqBqAWQoByAk@c@{@o@mAu@iBkA"
+      },
+      "legs": [
+        {
+          "distance": {
+            "value": 9956.6,
+            "text": "10.0 km"
+          },
+          "duration": {
+            "value": 1094.7,
+            "text": "18 mins"
+          },
+          "steps": [
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 305.2
+              },
+              "duration": {
+                "value": 38.4
+              },
+              "polyline": {
+                "points": "_x}`H_vfsB~ANtALn@Dh@BV?f@@J?J?dAAx@Eh@CNA"
+              },
+              "html_instructions": "depart Id. Antall J\u00f3zsef rakpart"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "}f}`HcufsB"
+              },
+              "html_instructions": "arrive Id. Antall J\u00f3zsef rakpart"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 561.6
+              },
+              "duration": {
+                "value": 52.9
+              },
+              "polyline": {
+                "points": "}f}`HcufsBj@CXCv@In@Kd@MfAS`Ce@fHsAj@OFCh@Sb@UZOr@a@n@o@DE"
+              },
+              "html_instructions": "depart Id. Antall J\u00f3zsef rakpart"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 833.3
+              },
+              "duration": {
+                "value": 80.7
+              },
+              "polyline": {
+                "points": "oh|`Hc`gsBJMHQDEBADAD?D@H@PBJB`@Bh@@n@@jBMNC`@Sl@[t@a@nCiAfAg@lB_AfB_ADCDARKdAk@XQbFwCfCkB"
+              },
+              "html_instructions": "new name Jane Haining rakpart"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 190.3
+              },
+              "duration": {
+                "value": 23.1
+              },
+              "polyline": {
+                "points": "}|z`HcvgsBTWrAkAHGBEBCFIRUDE^STOn@e@TYFG"
+              },
+              "html_instructions": "continue Jane Haining rakpart"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 228.6
+              },
+              "duration": {
+                "value": 37.8
+              },
+              "polyline": {
+                "points": "{sz`Hk~gsBH_@Ac@k@wBGQe@kB]wAGOIGK?OBYNWJ"
+              },
+              "html_instructions": "continue M\u00e1rcius 15. t\u00e9r"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 549.1
+              },
+              "duration": {
+                "value": 51.4
+              },
+              "polyline": {
+                "points": "kzz`HujhsBHXb@lAJVJ\\FVJf@Jf@DZBPDXDVJb@hDzMpA|EbAdE"
+              },
+              "html_instructions": "turn M\u00e1rcius 15. t\u00e9r"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 181.6
+              },
+              "duration": {
+                "value": 19.4
+              },
+              "polyline": {
+                "points": "clz`HkbgsBHj@BN@N?T?TATEPKVMVq@`AKN_AxA"
+              },
+              "html_instructions": "new name D\u00f6brentei t\u00e9r"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 152.9
+              },
+              "duration": {
+                "value": 13.7
+              },
+              "polyline": {
+                "points": "spz`HovfsBMHIHMVq@bAcBfCQT"
+              },
+              "html_instructions": "turn Attila \u00fat"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 187.9
+              },
+              "duration": {
+                "value": 23.2
+              },
+              "polyline": {
+                "points": "awz`HanfsBQJMLCBMTKFk@L[Fw@Pc@EiAKUA"
+              },
+              "html_instructions": "fork Apr\u00f3d utca"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 322.3
+              },
+              "duration": {
+                "value": 48.4
+              },
+              "polyline": {
+                "points": "ca{`HqkfsBWAa@AQ@M@IBIBm@T]Pe@PkAb@ULcAb@KDQJWLKDMFOJOLMHUPGD"
+              },
+              "html_instructions": "new name Ybl Mikl\u00f3s t\u00e9r"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 250.9
+              },
+              "duration": {
+                "value": 32.8
+              },
+              "polyline": {
+                "points": "er{`HocfsB_CtB]V]Xu@j@UNa@Ti@NW?Q?KCIA"
+              },
+              "html_instructions": "new name L\u00e1nch\u00edd utca"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 47.8
+              },
+              "duration": {
+                "value": 4.3
+              },
+              "polyline": {
+                "points": "y~{`Hk{esBGGGEIAG?GBGBEFEFCHCH"
+              },
+              "html_instructions": "rotary F\u0151 utca"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 154.8
+              },
+              "duration": {
+                "value": 14.1
+              },
+              "polyline": {
+                "points": "_a|`HozesBOXSNUN{Bj@mAZ"
+              },
+              "html_instructions": "exit rotary F\u0151 utca"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 54.7
+              },
+              "duration": {
+                "value": 8.4
+              },
+              "polyline": {
+                "points": "ci|`HmvesBSCCCCECECICWAIAIEEIEE?"
+              },
+              "html_instructions": "turn J\u00e9gverem utca"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 209.5
+              },
+              "duration": {
+                "value": 35.5
+              },
+              "polyline": {
+                "points": "ek|`HcyesBy@NoBb@{@PmBb@[F"
+              },
+              "html_instructions": "new name Bem rakpart"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 28.1
+              },
+              "duration": {
+                "value": 4.7
+              },
+              "polyline": {
+                "points": "uv|`HquesB?M@GAE?GAIAGEO"
+              },
+              "html_instructions": "turn Hal\u00e1sz utca"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 419.9
+              },
+              "duration": {
+                "value": 37.8
+              },
+              "polyline": {
+                "points": "_w|`HwwesBLCn@IzAQ|@QTGh@MtBe@PChCs@dBm@nA]"
+              },
+              "html_instructions": "turn Sztehlo G\u00e1bor rakpart"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "_`|`Hi_fsB"
+              },
+              "html_instructions": "arrive Sztehlo G\u00e1bor rakpart"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 7.4
+              },
+              "duration": {
+                "value": 0.6
+              },
+              "polyline": {
+                "points": "_`|`Hi_fsBJC"
+              },
+              "html_instructions": "depart Sztehlo G\u00e1bor rakpart"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 850.1
+              },
+              "duration": {
+                "value": 84
+              },
+              "polyline": {
+                "points": "s_|`Hm_fsB`Bq@|@a@rCmAFA`EmBf@Yd@W|BwAZUTOFEJGvAiA`As@fBoAnB{AdF{D"
+              },
+              "html_instructions": "new name Friedrich Born rakpart"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 81.4
+              },
+              "duration": {
+                "value": 9.4
+              },
+              "polyline": {
+                "points": "ktz`Hc}fsBDT?B@H@B?BF^DTL`A?D@LBT"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 73.6
+              },
+              "duration": {
+                "value": 8.7
+              },
+              "polyline": {
+                "points": "_sz`HuvfsBHPHLB@DDDBLBL@JALGJENG"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 689.9
+              },
+              "duration": {
+                "value": 69
+              },
+              "polyline": {
+                "points": "ioz`H{ufsBBG\\k@HMt@eAFUFQJUBIBMBO@O@S?O?KAIAMEMEOGOO[cAeEqA}EiD{MKc@EWEYCQE[Kg@Kg@GWK]KW"
+              },
+              "html_instructions": "turn Krisztina k\u00f6r\u00fat"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 183.8
+              },
+              "duration": {
+                "value": 26.9
+              },
+              "polyline": {
+                "points": "}xz`HmghsBAmA@GFMHAH?HHDPTz@XfADTBNb@nB"
+              },
+              "html_instructions": "turn M\u00e1rcius 15. t\u00e9r"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 45.7
+              },
+              "duration": {
+                "value": 4
+              },
+              "polyline": {
+                "points": "stz`H}`hsBHl@ATAJKb@"
+              },
+              "html_instructions": "continue M\u00e1rcius 15. t\u00e9r"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 67.9
+              },
+              "duration": {
+                "value": 8
+              },
+              "polyline": {
+                "points": "ytz`Hi}gsBo@d@UN_@RED"
+              },
+              "html_instructions": "turn Belgr\u00e1d rakpart"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 938.7
+              },
+              "duration": {
+                "value": 92.9
+              },
+              "polyline": {
+                "points": "exz`HyzgsBSTGHCBCDIFsAjAUVgCjBcFvCYPeAj@SJE@EBgB~@mB~@gAf@oChAu@`@m@Za@ROBkBLo@Ai@Aa@CKCQCIAEAE?E@C@EDIPKLED"
+              },
+              "html_instructions": "new name Jane Haining rakpart"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 65.4
+              },
+              "duration": {
+                "value": 15.6
+              },
+              "polyline": {
+                "points": "uh|`H}_gsB?\\ALCPKPSH]FE@"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "_k|`Hy|fsB"
+              },
+              "html_instructions": "arrive "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 30.5
+              },
+              "duration": {
+                "value": 7.4
+              },
+              "polyline": {
+                "points": "_k|`Hy|fsBIBQ?YE"
+              },
+              "html_instructions": "depart "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 1339.4
+              },
+              "duration": {
+                "value": 152.5
+              },
+              "polyline": {
+                "points": "ul|`H{|fsBc@Ti@RGBk@NgHrAaCd@gARe@Lo@Jw@HYB{@Di@By@DeA@K?K?g@AW?i@Co@EuAMmBQy@Es@K]Ee@G}@YMEKEy@M[EsEo@MEYI[Ge@Eu@KC?a@Ga@GqAQu@Oi@A"
+              },
+              "html_instructions": "turn Id. Antall J\u00f3zsef rakpart"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 904.6
+              },
+              "duration": {
+                "value": 89.1
+              },
+              "polyline": {
+                "points": "{v~`Hi}fsB]?Y?c@Em@Mi@Ok@Oe@KWISKaBy@qBeAq@a@qAo@q@]_DgBc@Wc@Y[QqBqAWQoByAk@c@{@o@mAu@iBkA"
+              },
+              "html_instructions": "new name Carl Lutz rakpart"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "ue`aHoygsB"
+              },
+              "html_instructions": "arrive Carl Lutz rakpart"
+            }
+          ]
+        }
+      ],
+      "bounds": {
+        "northeast": {
+          "lat": 47.51979,
+          "lng": 19.05355
+        },
+        "southwest": {
+          "lat": 47.4899,
+          "lng": 19.03977
+        }
+      }
+    }
+  ],
+  "status": "OK"
+}

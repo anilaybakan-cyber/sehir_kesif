@@ -1,0 +1,12 @@
+/* 
+  InfoPlist.strings
+  Runner
+
+  Created for English Localization
+*/
+
+"NSLocationWhenInUseUsageDescription" = "MyWay uses your location to show your position on the map and find nearby attractions. Your location data is processed locally and is not tracked or stored on our servers.";
+"NSLocationAlwaysUsageDescription" = "MyWay uses your location to show your position on the map and find nearby attractions. Your location data is processed locally and is not tracked or stored on our servers.";
+"NSLocationAlwaysAndWhenInUseUsageDescription" = "MyWay uses your location to show your position on the map and find nearby attractions. Your location data is processed locally and is not tracked or stored on our servers.";
+"NSCameraUsageDescription" = "We need camera access to let you capture travel memories. Photos are stored locally on your device and are never uploaded to external servers without your permission.";
+"NSPhotoLibraryUsageDescription" = "We need access to your photo library to let you add existing photos to your travel memories. Your media remains private and is not uploaded to cloud servers.";

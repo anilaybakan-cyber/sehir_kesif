@@ -1,0 +1,398 @@
+{
+  "routes": [
+    {
+      "overview_polyline": {
+        "points": "k~eeHgy}bBZ\\DBLNJHdBhBxAzAHJJJHH|A~ArBtB|@~@NTJ\\Jl@@HDRBRDP?F@DBJHf@Jl@@L?N?RCPUdBw@tFCLANAFCL}@lGE\\CLAFEROfAADM|@Ip@M|@EXAHCPAFCTCVIn@mCzRGTGTWb@W^ILMRKP{EbHGJQTQVw@lAsC~DKNILKNSVa@j@[b@IHGDIBG@GAWEiFgAE?YIOCQEWE{Cm@@K@Q@Q@OZDF?FIHyA?ECGEA]MIWCE[}@EKEODEdBwAVUNKj@g@r@o@FEv@q@JIDG@EBI@G?IAICK[w@CGAECIAGAI?G?G?KJwBF{BDq@@IHeALQJJHBH?HAHGHIBGBM@M?O?KCICILQn@_@PKp@_@FCDCXOZKtAc@LGNIXSLGVIrAc@FCJGNMDGDIDIDMBCBCHG`Ag@bAc@DADCF?D@r@TJFDBNNXLxCnAFBD@FBPHJDHFTFFBNBb@Pt@ZVJvAl@F@JDRPTPHF|@r@JPp@pA^r@\\n@DJBDBDDBDD@BHN@DrAvCFJ@DBDFLx@jBz@nBBF@BBD@DBB`@dALd@JX@D@BRh@Pb@Rj@Tj@\\z@Rp@XfAJt@NlABL@PPtANrAD\\D\\BTDXJ`AXlCRnATvA@FFXHd@Lj@X`ABJ@@FTL\\NZP^Tb@PZT^Zd@VVTTVPTNRJRHVF\\HVBV@T?R?ZCB?ZCvAIl@Cp@@P@R?VDZFf@HZHLDLFXLVLLHPJf@^l@b@JFNLHHHFPTjArATXHNLPHRPd@N`@Nd@Ld@F\\DVFZXtBf@xEPbB@PD\\Dh@j@dGl@|GDh@B`@Bd@@Z?J@P?RR|GB`ABzA@NBfADhCH`DJnDBd@Db@@P@JBPBTDXF\\HZHZJ\\LZLZNVR`@~@tAX^TXTRRPj@d@hBtAj@^`@ZXXNRV\\Xd@JRNTHLx@hAXd@Rb@Th@N^FPHVd@lBR~@Lp@Jv@Hx@Dn@BbADhA@`A@hB?X?Z?X?XAh@?\\@lGAl@A\\E`@C`@Il@QlAWpAa@fBk@pCYxAUdAEPELELI\\Mf@Kb@]bBaArEEREZCRCZCRERWrACNGXKh@EP[`BeD|OmBlJKd@EXADKfAa@hCGd@CHAJGh@ALAPAXAX?pA@|@@x@HnCDbABbA?hAAfBAvDE|CO`IGxDAN?P?LAl@C|@?J?v@?XBTBPBLFLFJDHFFHD\\NJDPHF@FB|@`@z@l@EVMv@Lw@DW?EBG?E[UKKKMIQGSCMCMAK?EAiA@W?[?EF}BDyA?QBeB?s@Ae@Aa@DaDByAF_GN?L@D?@@B@@@@B@Bt@ZlAh@`AkGNcAXkBPeABMBQ"
+      },
+      "legs": [
+        {
+          "distance": {
+            "value": 10268.1,
+            "text": "10.3 km"
+          },
+          "duration": {
+            "value": 1205.4,
+            "text": "20 mins"
+          },
+          "steps": [
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 185.1
+              },
+              "duration": {
+                "value": 20.8
+              },
+              "polyline": {
+                "points": "k~eeHgy}bBZ\\DBLNJHdBhBxAzAHJJJ"
+              },
+              "html_instructions": "depart Parkring"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 252.8
+              },
+              "duration": {
+                "value": 24.7
+              },
+              "polyline": {
+                "points": "yueeHmp}bBHH|A~ArBtB|@~@NTJ\\Jl@@HDRBR"
+              },
+              "html_instructions": "new name Schubertring"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 368.8
+              },
+              "duration": {
+                "value": 37.4
+              },
+              "polyline": {
+                "points": "kkeeHyb}bBDP?F@DBJHf@Jl@@L?N?RCPUdBw@tFCLANAFCL}@lGE\\CLAFER"
+              },
+              "html_instructions": "new name K\u00e4rntner Ring"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 417.6
+              },
+              "duration": {
+                "value": 39.5
+              },
+              "polyline": {
+                "points": "uoeeHme|bBOfAADM|@Ip@M|@EXAHCPAFCTCVIn@mCzRGT"
+              },
+              "html_instructions": "new name Opernring"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 513
+              },
+              "duration": {
+                "value": 52.2
+              },
+              "polyline": {
+                "points": "cweeHcd{bBGTWb@W^ILMRKP{EbHGJQTQVw@lAsC~DKNILKNSVa@j@[b@IH"
+              },
+              "html_instructions": "new name Burgring"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 193
+              },
+              "duration": {
+                "value": 19.5
+              },
+              "polyline": {
+                "points": "qlfeHigzbBGDIBG@GAWEiFgAE?YIOC"
+              },
+              "html_instructions": "continue Dr.-Karl-Renner-Ring"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 112.4
+              },
+              "duration": {
+                "value": 11.9
+              },
+              "polyline": {
+                "points": "ewfeH{izbBQEWE{Cm@"
+              },
+              "html_instructions": "new name Universit\u00e4tsring"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 24.5
+              },
+              "duration": {
+                "value": 5.7
+              },
+              "polyline": {
+                "points": "k}feHukzbB@K@Q@Q@O"
+              },
+              "html_instructions": "turn Josef-Meinrad-Platz"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 62.4
+              },
+              "duration": {
+                "value": 15.2
+              },
+              "polyline": {
+                "points": "c}feHumzbBZDF?FIHyA?E"
+              },
+              "html_instructions": "turn Josef-Meinrad-Platz"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "m{feHypzbB"
+              },
+              "html_instructions": "arrive Josef-Meinrad-Platz"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 77.8
+              },
+              "duration": {
+                "value": 16.2
+              },
+              "polyline": {
+                "points": "m{feHypzbBCGEA]MIWCE[}@EKEO"
+              },
+              "html_instructions": "depart Josef-Meinrad-Platz"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 228.6
+              },
+              "duration": {
+                "value": 35.9
+              },
+              "polyline": {
+                "points": "k~feHiuzbBDEdBwAVUNKj@g@r@o@FEv@q@JIDG@EBI@G?IAI"
+              },
+              "html_instructions": "turn L\u00f6welstra\u00dfe"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 210.1
+              },
+              "duration": {
+                "value": 32.5
+              },
+              "polyline": {
+                "points": "_tfeHw_{bBCK[w@CGAECIAGAI?G?G?KJwBF{BDq@@IHeALQ"
+              },
+              "html_instructions": "turn Schauflergasse"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 259.7
+              },
+              "duration": {
+                "value": 47.2
+              },
+              "polyline": {
+                "points": "ysfeHip{bBJJHBH?HAHGHIBGBM@M?O?KCICILQn@_@PKp@_@FCDCXOZKtAc@LGNI"
+              },
+              "html_instructions": "end of road Michaelerplatz"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 277.5
+              },
+              "duration": {
+                "value": 41.5
+              },
+              "polyline": {
+                "points": "_hfeHyx{bBXSLGVIrAc@FCJGNMDGDIDIDMBCBCHG`Ag@bAc@DADCF?D@r@TJFDB"
+              },
+              "html_instructions": "new name Augustinerstra\u00dfe"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 310.1
+              },
+              "duration": {
+                "value": 40.8
+              },
+              "polyline": {
+                "points": "wyeeHe_|bBNNXLxCnAFBD@FBPHJDHFTFFBNBb@Pt@ZVJvAl@F@JD"
+              },
+              "html_instructions": "new name Operngasse"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 189.5
+              },
+              "duration": {
+                "value": 20.8
+              },
+              "polyline": {
+                "points": "iieeHuv{bBRPTPHF|@r@JPp@pA^r@\\n@DJBDBDDB"
+              },
+              "html_instructions": "fork Friedrichstra\u00dfe"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 4732.4
+              },
+              "duration": {
+                "value": 463.8
+              },
+              "polyline": {
+                "points": "gaeeHql{bBDD@BHN@DrAvCFJ@DBDFLx@jBz@nBBF@BBD@DBB`@dALd@JX@D@BRh@Pb@Rj@Tj@\\z@Rp@XfAJt@NlABL@PPtANrAD\\D\\BTDXJ`AXlCRnATvA@FFXHd@Lj@X`ABJ@@FTL\\NZP^Tb@PZT^Zd@VVTTVPTNRJRHVF\\HVBV@T?R?ZCB?ZCvAIl@Cp@@P@R?VDZFf@HZHLDLFXLVLLHPJf@^l@b@JFNLHHHFPTjArATXHNLPHRPd@N`@Nd@Ld@F\\DVFZXtBf@xEPbB@PD\\Dh@j@dGl@|GDh@B`@Bd@@Z?J@P?RR|GB`ABzA@NBfADhCH`DJnDBd@Db@@P@JBPBTDXF\\HZHZJ\\LZLZNVR`@~@tAX^TXTRRPj@d@hBtAj@^`@ZXXNRV\\Xd@JRNTHLx@hAXd@Rb@Th@N^FPHVd@lBR~@Lp@Jv@Hx@Dn@BbADhA@`A@hB?X?Z?X?XAh@?\\@lGAl@A\\E`@C`@Il@QlAWpAa@fBk@pCYxAUdAEPELELI\\Mf@Kb@]bBaArEEREZCRCZCRERWrACNGXKh@EP[`BeD|OmBlJKd@EXAD"
+              },
+              "html_instructions": "new name Linke Wienzeile"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 97.1
+              },
+              "duration": {
+                "value": 10.7
+              },
+              "polyline": {
+                "points": "otbeH}mqbBKfAa@hCGd@"
+              },
+              "html_instructions": "continue Linke Wienzeile"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 712.8
+              },
+              "duration": {
+                "value": 68.3
+              },
+              "polyline": {
+                "points": "evbeHefqbBCHAJGh@ALAPAXAX?pA@|@@x@HnCDbABbA?hAAfBAvDE|CO`IGxDAN?P?LAl@C|@?J?v@?X"
+              },
+              "html_instructions": "new name Hadikgasse"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 168.5
+              },
+              "duration": {
+                "value": 18.4
+              },
+              "polyline": {
+                "points": "mwbeHqjobBBTBPBLFLFJDHFFHD\\NJDPHF@FB|@`@z@l@"
+              },
+              "html_instructions": "turn Kennedybr\u00fccke"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 31.5
+              },
+              "duration": {
+                "value": 35
+              },
+              "polyline": {
+                "points": "sobeHscobBEVMv@"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 31.5
+              },
+              "duration": {
+                "value": 7.6
+              },
+              "polyline": {
+                "points": "gpbeHcaobBLw@DW"
+              },
+              "html_instructions": "continue "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 105.3
+              },
+              "duration": {
+                "value": 21.6
+              },
+              "polyline": {
+                "points": "sobeHscobB?EBG?E[UKKKMIQGSCMCMAK?EAiA"
+              },
+              "html_instructions": "turn Hietzinger Hauptstra\u00dfe"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 382.8
+              },
+              "duration": {
+                "value": 38.5
+              },
+              "polyline": {
+                "points": "arbeHujobB@W?[?EF}BDyA?QBeB?s@Ae@Aa@DaDByAF_G"
+              },
+              "html_instructions": "fork Sch\u00f6nbrunner Schlossstra\u00dfe"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 106.3
+              },
+              "duration": {
+                "value": 30.8
+              },
+              "polyline": {
+                "points": "_qbeHwjpbBN?L@D?@@B@@@@B@Bt@ZlAh@"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 216.8
+              },
+              "duration": {
+                "value": 48.9
+              },
+              "polyline": {
+                "points": "kkbeHahpbB`AkGNcAXkBPeABMBQ"
+              },
+              "html_instructions": "end of road Hietzinger Allee"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "egbeHcypbB"
+              },
+              "html_instructions": "arrive Hietzinger Allee"
+            }
+          ]
+        }
+      ],
+      "bounds": {
+        "northeast": {
+          "lat": 48.20982,
+          "lng": 16.37796
+        },
+        "southwest": {
+          "lat": 48.18401,
+          "lng": 16.30242
+        }
+      }
+    }
+  ],
+  "status": "OK"
+}

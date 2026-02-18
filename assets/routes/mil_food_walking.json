@@ -1,0 +1,515 @@
+{
+  "routes": [
+    {
+      "overview_polyline": {
+        "points": "c|ntGktaw@?H?B?PsAAU?c@?k@?C?DBJJb@XABEJCDeAvB@NZjF@L?BSFkA\\mA^eAZIBC?MDQBc@H}@PiAR[D[DM@IBE?E@OBACGQACC_AO_F?CGyAGqCASA[QmDMuCCSEc@AGAGAGAGAGCECGISa@_Au@}AKWk@oAGISe@IKKKs@[}@]QGUIQCOCWEQAMAg@@o@JUDO@M?MAOAEA_@KCAKACXQfBYzCCVOC{AQkC[YCuAQKAMAu@Ia@EoAKUA{@IMAQCOCi@GkAM{BWOCMA}@MmAQ_C]IAEAAAAAAAAACCAI?EACAEAEAIACACACAC??CCAAAACA_@IKbBAX?HAF?HCb@?n@g@nHITCVAHCf@YpD[xEGn@E`@Ix@ALALCTMrACTI`AIn@QzACXAF[xCk@|FGt@AHEr@MHEB_@Vm@`@]TGDC@KHACGUAEAGGWAQ?C?I@CtAiIHa@DOL{@h@}Cb@iCFYGXc@hCi@|CMz@ENI`@uAhIAB?H?B@PFV@F@DFT@BJIBAFE\\Ul@a@D?R?RBLBLBFDH@p@NzA^rAZNDbATt@RD@ZHfB^JBPD|@Rx@PHBNFRFDBF@@@LIJEDCLCl@IfAKzC]bBQPA\\EZCf@Gf@EZCp@GLAJ?JBHBFDJHLLXX??HNd@z@Xd@LTLRLSxAuBDEf@q@lBeCBEHW@WNSBCHIDEDCRQr@k@nAq@j@QRGTCJ?TEb@?f@?^BR@XHTDt@Zj@^@@DB@@BBTX@@Rb@?@@D@F?F@V@N?N?D@D?D@B@B@B@B@DBB?@@@@?@@@??@B?@@@?@@@?JBL@D@B?DCDA@A@ABA@ABCBC@C@E@C@EBO?G?G?G?OAM?E?CAC?AAEEGACCCACCCCCA?AAC?A?MAG?E?A@UKEACAWKCA?GAMAI?G?G?AAK?IIgBEqAAWGs@C[MiBAEAE?CACAACGCGAAACGQACC_AOcFGyAGqCAS@AHCz@_@\\Q`@S`@_@HOrCoELS@CDDDBDDDBDDDFZb@HHHNDFHNDHDFBBr@v@B@@AFON[FE`D@@?zA@l@?"
+      },
+      "legs": [
+        {
+          "distance": {
+            "value": 6916.3,
+            "text": "6.9 km"
+          },
+          "duration": {
+            "value": 953.5,
+            "text": "15 mins"
+          },
+          "steps": [
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 12.6
+              },
+              "duration": {
+                "value": 4.1
+              },
+              "polyline": {
+                "points": "c|ntGktaw@?H?B?P"
+              },
+              "html_instructions": "depart Via Carlo Cattaneo"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 104.9
+              },
+              "duration": {
+                "value": 23.2
+              },
+              "polyline": {
+                "points": "c|ntGksaw@sAAU?c@?k@?C?"
+              },
+              "html_instructions": "turn Via Giuseppe Mengoni"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 105.8
+              },
+              "duration": {
+                "value": 16.5
+              },
+              "polyline": {
+                "points": "abotGmsaw@DBJJb@XABEJCDeAvB"
+              },
+              "html_instructions": "continue Largo Claudio Abbado"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 107
+              },
+              "duration": {
+                "value": 15.9
+              },
+              "polyline": {
+                "points": "}botGumaw@@NZjF@L?B"
+              },
+              "html_instructions": "turn Via Bassano Porrone"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 325.3
+              },
+              "duration": {
+                "value": 41.2
+              },
+              "polyline": {
+                "points": "}aotGgeaw@SFkA\\mA^eAZIBC?MDQBc@H}@PiAR[D[DM@IBE?E@OB"
+              },
+              "html_instructions": "new name Via Broletto"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 125.4
+              },
+              "duration": {
+                "value": 18.8
+              },
+              "polyline": {
+                "points": "wsotGo_aw@ACGQACC_AO_F"
+              },
+              "html_instructions": "turn Via dell'Orso"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "wtotGiiaw@"
+              },
+              "html_instructions": "arrive Via dell'Orso"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 102.2
+              },
+              "duration": {
+                "value": 17.4
+              },
+              "polyline": {
+                "points": "wtotGiiaw@?CGyAGqCAS"
+              },
+              "html_instructions": "depart Via dell'Orso"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 330.3
+              },
+              "duration": {
+                "value": 49.6
+              },
+              "polyline": {
+                "points": "iuotGmqaw@A[QmDMuCCSEc@AGAGAGAGAGCECGISa@_Au@}AKWk@oAGI"
+              },
+              "html_instructions": "new name Via Monte di Piet\u00e0"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 301
+              },
+              "duration": {
+                "value": 52.3
+              },
+              "polyline": {
+                "points": "i|otG_ibw@Se@IKKKs@[}@]QGUIQCOCWEQAMAg@@o@JUDO@M?MAOAEA_@KCAKA"
+              },
+              "html_instructions": "new name Via dei Giardini"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 125.1
+              },
+              "duration": {
+                "value": 12.8
+              },
+              "polyline": {
+                "points": "glptG{mbw@CXQfBYzCCV"
+              },
+              "html_instructions": "turn Via Fatebenefratelli"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 692.9
+              },
+              "duration": {
+                "value": 104.4
+              },
+              "polyline": {
+                "points": "{mptGedbw@OC{AQkC[YCuAQKAMAu@Ia@EoAKUA{@IMAQCOCi@GkAM{BWOCMA}@MmAQ_C]IA"
+              },
+              "html_instructions": "turn Corso di Porta Nuova"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 28.4
+              },
+              "duration": {
+                "value": 4.2
+              },
+              "polyline": {
+                "points": "mtqtGwkbw@EAAAAAAAAACCAI?EACAEAEAI"
+              },
+              "html_instructions": "turn Piazzale Principessa Clotilde"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 14.8
+              },
+              "duration": {
+                "value": 4.3
+              },
+              "polyline": {
+                "points": "iuqtGombw@ACACACAC??CCAAAACA"
+              },
+              "html_instructions": "fork Piazzale Principessa Clotilde"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 75.8
+              },
+              "duration": {
+                "value": 15.6
+              },
+              "polyline": {
+                "points": "}uqtGinbw@_@IKbBAX?HAF"
+              },
+              "html_instructions": "turn Piazzale Principessa Clotilde"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 354.8
+              },
+              "duration": {
+                "value": 33
+              },
+              "polyline": {
+                "points": "mwqtGcjbw@?HCb@?n@g@nHITCVAHCf@YpD[xE"
+              },
+              "html_instructions": "new name Bastioni di Porta Nuova"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 118.5
+              },
+              "duration": {
+                "value": 12.5
+              },
+              "polyline": {
+                "points": "c{qtGinaw@Gn@E`@Ix@ALALCTMrACT"
+              },
+              "html_instructions": "new name Piazza Venticinque Aprile"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 307.8
+              },
+              "duration": {
+                "value": 22.2
+              },
+              "polyline": {
+                "points": "u|qtGaeaw@I`AIn@QzACXAF[xCk@|FGt@AHEr@"
+              },
+              "html_instructions": "new name Viale Francesco Crispi"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 94.9
+              },
+              "duration": {
+                "value": 12.2
+              },
+              "polyline": {
+                "points": "y`rtGem`w@MHEB_@Vm@`@]TGDC@KH"
+              },
+              "html_instructions": "turn Via Alessandro Volta"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 360.7
+              },
+              "duration": {
+                "value": 53.9
+              },
+              "polyline": {
+                "points": "qertGui`w@ACGUAEAGGWAQ?C?I@CtAiIHa@DOL{@h@}Cb@iCFY"
+              },
+              "html_instructions": "turn Viale Pasubio"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "}_rtGsdaw@"
+              },
+              "html_instructions": "arrive Viale Pasubio"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 360.7
+              },
+              "duration": {
+                "value": 86.7
+              },
+              "polyline": {
+                "points": "}_rtGsdaw@GXc@hCi@|CMz@ENI`@uAhIAB?H?B@PFV@F@DFT@B"
+              },
+              "html_instructions": "depart Viale Pasubio"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 62.2
+              },
+              "duration": {
+                "value": 6
+              },
+              "polyline": {
+                "points": "qertGui`w@JIBAFE\\Ul@a@"
+              },
+              "html_instructions": "turn Via Alessandro Volta"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 439.6
+              },
+              "duration": {
+                "value": 36.7
+              },
+              "polyline": {
+                "points": "mbrtG_l`w@D?R?RBLBLBFDH@p@NzA^rAZNDbATt@RD@ZHfB^JBPD|@Rx@PHBNF"
+              },
+              "html_instructions": "turn Bastioni di Porta Volta"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 455.2
+              },
+              "duration": {
+                "value": 41.3
+              },
+              "polyline": {
+                "points": "kjqtGgd`w@RFDBF@@@LIJEDCLCl@IfAKzC]bBQPA\\EZCf@Gf@EZCp@GLAJ?JBHBFDJHLLXX"
+              },
+              "html_instructions": "new name Via Legnano"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 84
+              },
+              "duration": {
+                "value": 15
+              },
+              "polyline": {
+                "points": "mqptG}e`w@??HNd@z@Xd@LTLR"
+              },
+              "html_instructions": "turn Viale Gerolamo Gadio"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 217.2
+              },
+              "duration": {
+                "value": 21.6
+              },
+              "polyline": {
+                "points": "gnptGaa`w@LSxAuBDEf@q@lBeCBEHW@W"
+              },
+              "html_instructions": "turn Foro Buonaparte"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 394.7
+              },
+              "duration": {
+                "value": 37.2
+              },
+              "polyline": {
+                "points": "septG_m`w@NSBCHIDEDCRQr@k@nAq@j@QRGTCJ?TEb@?f@?^BR@XHTDt@Zj@^@@DB@@BBTX@@Rb@"
+              },
+              "html_instructions": "continue Foro Buonaparte"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 19.5
+              },
+              "duration": {
+                "value": 1.8
+              },
+              "polyline": {
+                "points": "mqotGan`w@?@@D@F?F@V"
+              },
+              "html_instructions": "turn Largo Cairoli"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 167.9
+              },
+              "duration": {
+                "value": 18.9
+              },
+              "polyline": {
+                "points": "gqotGql`w@@N?N?D@D?D@B@B@B@B@DBB?@@@@?@@@??@B?@@@?@@@?JBL@D@B?DCDA@A@ABA@ABCBC@C@E@C@EBO?G?G?G?OAM?E?CAC?AAEEGACCCACCCCCA?AAC?A?MAG?E?A@"
+              },
+              "html_instructions": "rotary Largo Cairoli"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 34.8
+              },
+              "duration": {
+                "value": 5.6
+              },
+              "polyline": {
+                "points": "wootGun`w@UKEACAWKCA"
+              },
+              "html_instructions": "exit rotary Largo Cairoli"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 203.8
+              },
+              "duration": {
+                "value": 35.4
+              },
+              "polyline": {
+                "points": "sqotGso`w@?GAMAI?G?G?AAK?IIgBEqAAWGs@C[MiBAEAE?CACAACGCGAA"
+              },
+              "html_instructions": "turn Via Cusani"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 227.6
+              },
+              "duration": {
+                "value": 37
+              },
+              "polyline": {
+                "points": "wsotGo_aw@ACGQACC_AOcFGyAGqCAS"
+              },
+              "html_instructions": "new name Via dell'Orso"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 241
+              },
+              "duration": {
+                "value": 37.1
+              },
+              "polyline": {
+                "points": "iuotGmqaw@@AHCz@_@\\Q`@S`@_@HOrCoELS@C"
+              },
+              "html_instructions": "turn Via Giuseppe Verdi"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 123.9
+              },
+              "duration": {
+                "value": 29.5
+              },
+              "polyline": {
+                "points": "qjotGq|aw@DDDBDDDBDDDFZb@HHHNDFHNDHDFBBr@v@B@"
+              },
+              "html_instructions": "end of road Piazza della Scala"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 196.3
+              },
+              "duration": {
+                "value": 29.6
+              },
+              "polyline": {
+                "points": "eeotGivaw@@AFON[FE`D@@?zA@l@?"
+              },
+              "html_instructions": "turn Via Silvio Pellico"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "uzntGywaw@"
+              },
+              "html_instructions": "arrive Via Silvio Pellico"
+            }
+          ]
+        }
+      ],
+      "bounds": {
+        "northeast": {
+          "lat": 45.48213,
+          "lng": 9.1929
+        },
+        "southwest": {
+          "lat": 45.46491,
+          "lng": 9.18049
+        }
+      }
+    }
+  ],
+  "status": "OK"
+}

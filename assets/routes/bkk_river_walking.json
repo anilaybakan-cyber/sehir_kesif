@@ -1,0 +1,749 @@
+{
+  "routes": [
+    {
+      "overview_polyline": {
+        "points": "mszrAi{mdROZo@xAKVABSh@_@jAO`@Q^i@x@q@`Au@`A]^WVYVc@^WPA@q@b@]X[X_@b@]b@c@p@Q\\S^O`@Od@e@|ASn@`@Z@@`CdBDBl@`@l@\\t@b@h@XpAr@LDBBb@XZRVTPPVXRTP\\Lh@D`@Dn@?|@@TDd@@H@HBNF`@HXHVLXPV`@f@HHXXh@^tKxHdD|BvAx@x@`@z@\\r@Tt@RvBh@ZHxBh@LBVFrBh@v@P~Cv@tCr@rAZt@RF@r@Pv@PhFpAl@Nn@N`@HrCr@dB`@RFRBJ?LCDKHMHIDGHEHELGJCJALALAN@J@NBNDLDJFJHFHHHFJFLBNBN@P?TNRFHJFx@RvAZp@PB?bAVh@NJ@tBh@XFdDz@vBh@n@Pp@P\\H\\HlAZfAXdAV\\JTDdBb@xD|@~EjAfDx@PD~ElAF@VHRD@?|A^d@Lt@PdGvA|A\\PDl@NxBj@`EdAdAVdAPd@Hb@Jr@P`B`@rAZp@PbB^THNFPFNFVH~Bh@v@RpBb@|@Rb@JfAVt@Px@Nz@RND`Dt@lDz@\\JPDnBl@vBh@PDNBtD`Ax@Rz@TrBf@xD~@`Dt@pDz@\\JbB`@jAZr@P^JZHlDx@|Ct@d@Hv@Fr@Bd@Ab@Ef@G`@I`@KjAe@TQ\\W^[POXYNSRYTYhBuCFKh@aAT_@R]`@o@dAcB\\k@~AiCh@}@bBkCLSzA_Ch@u@PWl@EJAN?z@CH@@J?VBXDTFRFPFNN^d@n@Rh@Rr@Jh@lAzGzBvMV`BrBfMzAhJHd@ZxAb@pBVbANv@Lp@RbA`BhKL~@Lz@j@lEn@zDXfBTtATrAZzAThA^xALf@Nh@nAvD|BzFv@|ArAhC^v@zPp\\Td@`CvEnLpUd@z@`ArBr@vA`@r@`DjGf@t@r@`BfDnGzBlE|@bBfF|JlDbHbGnLl@jAzXzi@n@hAjA`CjA|BhFjKpAhCrBvDpAzBhC|DzArBvBzCjBzC`@l@FH\\`@`ClDvCdEfDhFrAnBrEzGzCfErClEbBnCd@n@T\\~GdKdDbFlC|DrCfEdQjWvAxBf@v@b@l@j@t@d@l@b@h@z@`A~AfBxD~D~@|@h@f@lChCrBpBxEpE\\\\bO`O~ZpZxGzGd_@v^^^jDnDjl@vk@t[d[hOfObF`FbF~Ete@fe@|JtJl@j@bAfAdAnAv@`A\\d@^p@Xh@Vf@Th@^z@Z~@V~@T`ARbANz@Fd@D`@Hn@Bj@HrADnA?lAAjAEjCQzLc@p[e@b[[pR?t@?v@?t@@z@D~@D|@Fv@H~@L`ALbARlALt@Px@Rx@`GvTJ\\p@fCTz@bGdUnCjKNf@ZdAn@lBx@xBt@~BbAvDfCrJXfANl@XlAXrA\\vAz@xCr@dCl@nBb@nA`@nAlA`DxAxDbc@ddA`HhPfBlEpGlO^|@nFvMVl@rB|EbFfMzGbPrGlOFLjHlPjAtCd@dAj@hAn@lA|@~A|@xAr@dAv@fAhAxAlElFtC~CnCxCxC~Cl]d`@xA`BZ\\|c@~f@LLPRpSfUpAbBp@fAlA|BpAtCn@hBh@rB`@dBP|@PdA\\lDNnCHfBdDrl@pAdVZtF\\lF^jDXnBP`AV~Aj@~C`FnTb@jBd@lBd@jB|Rj{@j@xBr@zC@Fj@bCZpAPr@lA`FZrARz@l@hCXhA\\vABN`@bB^zAJb@XfALf@fAtEfAtEbAfEpDjONn@zBnJhA|E\\xAb@jBVdAr@~C`A`EBPdAbEf@zBvC`MpBrIT|@l@jCzAjGhA`FbG~Vn@pCf@rBTbA|DrP|FnV`EzP|EpSrAnFz@rDbFzSd@pBbD~NxEvUBJvCxNDPbDbPlDvP`BfIj@nCn@dDDNxAfHDV`CpLNp@t@nDZ|AtBxJfExRfDjPfBlJpEpUZpATdA|AbFXj@t@|A|@nAd@l@nBvB|ApA\\ThBlA~Ap@JDhAb@hEjAD@~@TvPbEnAZzBj@|D~@dN~CbOhDv\\xHtWlGjGtAdVxFlFnA~DnAzAn@`D`BFBtCrBdAr@NJjBbBdBpBfDnFjGhLvCpEbA|AlJlPnC|Et@pAj@`A\\j@lAvBhChEjClEfChE`CdE~BzD|BzDzBzDTb@hBzC~BdE`CfER^pBhD`A~Az@tALR|BxDDHb@p@zAfCp@lAhAnBpAvBj@`AvBtDLRjB`DfBzC|@|ALTdAhB~ApCb@r@rAzBp@hALTrBlDbBtCtCtEjDpFrCbFZj@hDpGFJr@rAxBvD~B~D~BdEzBdExBlEPb@b@~@`AlBHNpB~DrBlEpBjErF|Kl@tAt@~AdCnFtDrHbAxBvBpE@@rAtCjCrFxCvGlAjClAhCTf@pBfERb@hFzKvCnGnAfC`BbDr@vAvD|HLZjElJdEnIFNNZZr@bCdFn@rA`CvE~A~C`CjDhCdDpLvL\\\\\\ZJL`H~Hn@n@vBzBlDjDdDfD|C~C@@|C`DhBhBt@t@JJx@x@zA|A~@`Ad@f@v@x@`DhDdBrBp@x@pCtDhC~D^l@hBxC`GrJR^`BjCpBdDlB|CbA`Bj@~@hBvC~AlCj@bAj@`AvBhDxGxKvBrDdBhC|AjB|@n@x@ZfBNvBAhA@x@Pv@h@b@t@J|@IdA]t@e@j@iNrOaCjCc@f@o@p@mBrBaAdAKJiAfAeAbAgB|AWT[RoCfBaAl@cAn@YMiAg@KGIIEQ[oBMcAa@BeAPMDw@PUDM@MAKCSK}Aw@y@_@MGm@Y_@A}AvAQPMJ{@v@q@n@c@b@mBfB}BtBs@j@k@b@i@T{H`CgAd@u@f@g@h@m@|@iJjPs@pAU`@_CdEs@rAaBtCcD~FcF`Js@lAeC`E{@bBc@pAGVE`@Ev@DxAR|Ad@rAfJfU^z@v@jBXn@Vx@Vv@BLLj@BJTdANr@r@~CV`AZtAt@tCDTj@|BZ~@z@fC^hAZ|@b@bA\\v@n@rAR^pFpILPjFdI\\l@h@lAVx@PvADnA?d@?\\K|@WhA{BxGO^a@t@k@t@g@j@a@\\_@Xe@Ti@Tm@RgAT_AHyALgAFcADaBDa@DQDMJCFIJKDK@KCIEe@IYE]?Y?c@D]Bo@Dq@Fs@LkATiCx@gARa@F_AJI@S?_@?_@AOAc@Cy@MqEy@iASwBe@wBa@wBa@uB_@aEs@}E}@sOcCmAQyHeAyIgA}LaBgAKoAIwACmAB_K\\uAF_H^sBLsKn@sK^g@@yAHiAD_@BcIZs@HYBe@F_ARq@N]JcAb@u@\\a@TmE`CgCvAgCvAwLrGe@VuJlF[NaA`@w@RmAN[By@BaB@{ECS?gMCgDAmCAyKEqAA_BCuAO{@[{As@sA}@yBqBo@i@aBwAePgNcIcH{@u@eFmEcNoLwEaE{@w@eByAmByAuAs@yAm@}FoBoE}A]Ke@Q{CcAmAUgAGeA?w@F{CRaAHyDNcEGkFKwGPoVf@yABiDDwFHkPTmHHyBBkMLeA@kBBmHHcFF}FFsQRm@@iB@_A@c@@cBBuEDmAHmBTG@aBb@{FpB_DfA_@LsBt@WHt@|BVbAZfA`@~A^|Af@rBt@pCj@zCDb@@Z?VEdCAxBGjB@ZA|@F`@DTXdA`@vANp@@DRz@LXXZ|@z@\\z@BJPfABLNr@@DLv@@FZdBBPNz@PbAzDm@J@HF~@vAHLHPH^I_@IQiAeBIGKA{Dl@QcAO{@CQ[eBAGMw@AEOs@CMQgACK]{@}@{@Y[MYS{@AEOq@a@wAYeAEUGa@@}@A[FkB@yBDeC?WA[Ec@k@{Cu@qCg@sB_@}Aa@_B[gAWcAu@}BKWXKrBu@^MjAc@`EwAnCaA`B_@dBW|AKrDEfCCd@?jEEN?n@A`PO~EG|@AdBCn@?dMOdAAvZ]nEGxLQ|[e@n@A~DKfFQjAAnELn@@pCF|DU~@I~AI|BQlAAlAJfARx@XvAf@^Nb@LxE~AtGzBjAf@lAr@hBxAn@h@x@p@z@t@bDtCrO|M`FjEf@b@PNfCxBbFjExKlJz@r@hB|Ad@b@p@j@xBlBnAz@zAt@t@PpAPtADrA@~KB~DBl@@dA?dMBX?bF?vBApAMdASt@Un@YjKwFd@W`J_FxAy@bGeDzCaBv@c@RKz@a@rAg@|@UhASnAQXETCzBKtBIdAE^A~COf@AzKa@bBK`AGtAK~AKnBMr@CxEWdAGxAG|Ja@pAC~ADjAFhAH~WlDxEp@fDd@jOxBfLxBlFdAzB`@n@NNBzAVnFfA|@LfAFx@Aj@Et@Mz@QzC}@t@OLCFC|@Kl@Gl@E\\ClD[t@CtAE|FUn@Eh@Gl@K|@Wl@Yb@Uz@m@f@e@X]Xa@Xi@Re@tB}FLe@V_AHgA?cAGiAUmA[eA]q@aA_BiEiGaGiJi@iAs@}AaA_C_AqCO_@{@wCGSy@sDQw@GSSy@mAkF_@_BUiAm@iBGQo@{A[u@EK[_AyAmDqG}Oc@yAUwAGcBBm@P{@d@yAx@cB`CiEp@kAt@sAp@mA`DuFnAaCjCyEdAgB~BiEJOx@uAbJcPz@kAV[TQNKd@W`@S^WBApFcBb@M~@_@t@c@Z[rCcCzFqF@A~@w@v@q@NQf@i@XYvDwD`A_A\\]rKgK`E{DhAeAj@[JO`FbFb@u@`A}AJSBCn@eALUHMh@{@L_@?_@uAgIWkAMYu@sAwGaLcCsDsAuBaC_EGMq@iAk@{@?}@_@q@OU_BkCmB_DqBeDaBkCU]cJcOoDwFoCsDq@y@eBqB_DiDaAcAe@g@w@w@eBiBy@y@aD_D}CaDcCeCaEcE_C_Ck@k@k@i@sAwAg@i@oAqAsE{Ee@c@oAqAqAwAiHuHoCqDa@m@_B_CeF}JsDyH_@u@MYGMaLgU_EwIo@uA{AaDCEeDcHs@wAKUgF{KaDwGmAcCcFkKGQeAwBo@uAeFuKs@{AMWsDwHmFaLmF}KoBoEsAoCa@y@CCi@gAoAiCw@eBy@kByBmEyBgEiCaEqBuDEEk@aAaDqF_A_B[i@S_@aA}AyCyEq@kAiCyDiE}Hk@mACE{BcEaAiBgAqBgB}CmAsBMW_DoFk@cAe@w@g@y@aBuCS_@_BkC_@m@a@s@yAiC}ByDeCaEiCkEgCiEaCgE_CeEiB}CUa@{B{D}B{DyCwEaBsCmC_Fa@s@gByC}BmDmAuBaGoK[k@mJmP{@sA}CyEeByCc@u@eAiB{@{AqDwF{AmB_@_@}@{@gB}AqBwAwDoBwEiBcDu@w[mHgFiA{WmGq\\yHaBa@iGwAkCm@sNeDqDy@oCo@gUgFoFiBeBs@{A{@MGOK]WcBmAmAeA_BgBwAwBwAsC}AgFq@aDQ}@S{@uBgLyAqGy@gESgAiAcFy@{D{Gg]}Gy[wMap@oAiGkFmW}A_IWuAaBgI_BiHeBuHgFgT}@{DmAiFyEoS}AmGc@_Bs@{CQ{@aCoKiFuTsAwFUeAcA}DsRgy@ePgr@cAiEg@sBcCiK]wAS{@U_AeGeWa@cBYoAEOiBwHS{@qAqFWaAQu@Ok@gBsH_BmHsQ}u@aAgEYsAeBoHYkAwAkGWoAY}Ac@wC[uBe@cEc@eEOyA]aGqAaV_Dyl@O}CSkCc@uCc@cCm@}BiAgD{BuEcAaBsAoBmSaUY[qP}QaScUme@oh@aHqHkEgFgCwCuBkDiCgFgCeGyGiPGMsGwO{G{OqFqMmBwEYq@kDsIaI_RsBcFcO_^q`@i_AaCkH}AcF{AkF{BoIuCwLo@cC]iA_@iA_@gAUq@_EyN}ByI{CyK_@sAg@eBCIK]kCkJyBgIo@kCc@eCUoBM_BMoD@kD^kTf@c\\v@gh@DaC@qA?aAA_AE}@Gy@I_AK_AOeAQ_AU}@W_AYy@Us@[u@e@}@i@_Ak@y@k@u@m@q@q@s@aAaAg@e@iJeJwe@ge@iFcFmReReC_Cy[i[gl@_l@yDyDe@e@wIqIgN}MkDkDgH_H_l@mk@WUm@o@{JwJ][}C}C{@}@{@_AeAkAm@s@m@u@m@u@w@eAe@q@o@_AcBgC{PgWqJgNy@kAYg@yG{J_@g@oIeMaHaKmC_E_AuA}BgDgFcIYg@g@u@GIaB_C_CgDaEgGqBeD{B}DuAsCmFiKwDqHuAkCwBkEe@aAaB_DwDoHoByD_E_Ii@aAoGwLwDoHkFeKsGsMsBkDkBeE}A{CYk@_CqE_@u@a@w@qBcE}AuCaAkBmD}G_B}CYg@qAmCoCiFcCyEkEuIc@{@}A_D{@cBs@cBo@gBaBsFgAgE_A}EKi@E[QiAOy@a@gCi@iDSqAUiAScAOw@Ow@i@iDQkAIg@Ga@Ec@KaAUoB[yBe@{Ce@wCeBaKgBgKs@kEUkAYmAQgAWiAUiA[kAw@wBUMUOGGKIKGUKSCa@AW@UDMDWLUNIF]h@gBrCu@lA]h@y@pA{@tAGHkDvFIJq@hAu@jA_@h@QRUTUTQNWTWNc@Tc@R]Le@Ng@J[Fk@BW@[?I?[?a@Eg@Em@MkCq@uD_AYGcFqAg@M_@IoA[iDy@gGwAwCs@eDy@iBe@]KQE_@Mw@SMEqASi@Ki@Mm@M_AUmCo@oA[c@MsA[cBa@s@Oa@KeA[q@OkDy@iBe@u@QGAwBi@{@SaEaA[Gw@Yu@WQEo@OmAYMCyFwAg@MeHcBq@Q{Cs@m@OICa@Ie@MoIsBi@MYGmAYm@O_Ba@mBc@gBe@WGy@Qm@Ow@Ss@QkAY[ImCq@}DcA_Ck@SGwCu@CAw@Se@KWImCm@GAS?K@KFKNIHMHKHOFKBKBU@O?MAKAICICIEIGIGIGIKEIEKEICKCKAMAMIYGIGGIEuBe@sD}@y@SeAWwBi@mBe@c@Ky@SGAo@OeCm@mBe@kEeAeBg@GCSEUI@Z?^?\\?J@NENKl@Sr@O\\UXOHMFWH_APSBQBa@JMDSHq@Z[XSVm@x@KNCL?@GHEF??UZKDk@p@w@pAc@r@]f@_@l@CDaAxAm@z@KPUZQVWViClBcCnBuCvBmBnAQLSLwBhAOHKSMWGOEGKEM@k@TwBz@I_@WcASy@Om@G@MDWFMBEBI@HADCLCVGLEFANl@Rx@VbAH^i@THTFJNf@FJHRfE{BRMHPBB\\fABDHTd@fADNx@xBj@~AJT@DHPp@jBdApCvBiArBiAVMVODCJGFCTMVOz@c@JG@ArBeAHE`@[JIDCBCDClAyALONWP[x@qABGHOhBiEh@wADIrBsCrDeF`@k@l@y@RWFKX_@tByC\\e@`@m@pAcBrAiB~@oAr@aA`@k@N[F@r@Pv@PhFpAl@Nn@N`@HrCr@dB`@RFRBJ?LCDKHMHIDGHEHELGJCJALALAN@J@NBNDLDJFJHFHHHFJFLBNBN@P?TNRFHJFx@RvAZp@PB?bAVh@NJ@tBh@XFdDz@vBh@n@Pp@P\\H\\HlAZfAXdAV\\JTDdBb@xD|@~EjAfDx@PD~ElAF@VHRD@?|A^d@Lt@PdGvA|A\\PDl@NxBj@`EdAdAVdAPd@Hb@Jr@P`B`@rAZLAHGHMBILORG`@?`@F^NRNPRNh@@^?bACrA@~@@f@Jd@Rd@\\\\LFRDL@\\@VAZMb@[j@i@t@s@bKsSj@{Al@mBrAuE~@oCnAyChBoDtBgDjB{BfCwCjBaBZk@J[J]D_@?]CYK[{AwE_B}EAWJa@?WY[SUg@m@GGy@aA_@c@GGKMk@o@GGUYWYY[]_@o@b@AJGDIFI?i@`@i@ZKJQNe@`@EBC?CAEEEEMMa@e@_@]aAcAAAA?A??@yA|A"
+      },
+      "legs": [
+        {
+          "distance": {
+            "value": 191635.4,
+            "text": "191.6 km"
+          },
+          "duration": {
+            "value": 10029.9,
+            "text": "167 mins"
+          },
+          "steps": [
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 765.9
+              },
+              "duration": {
+                "value": 57.3
+              },
+              "polyline": {
+                "points": "mszrAi{mdROZo@xAKVABSh@_@jAO`@Q^i@x@q@`Au@`A]^WVYVc@^WPA@q@b@]X[X_@b@]b@c@p@Q\\S^O`@Od@e@|ASn@"
+              },
+              "html_instructions": "depart \u0e16\u0e19\u0e19\u0e40\u0e22\u0e32\u0e27\u0e23\u0e32\u0e0a"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 579.7
+              },
+              "duration": {
+                "value": 52.7
+              },
+              "polyline": {
+                "points": "_l{rAwwldR`@Z@@`CdBDBl@`@l@\\t@b@h@XpAr@LDBBb@XZRVTPPVXRTP\\Lh@D`@Dn@?|@@TDd@@H"
+              },
+              "html_instructions": "turn \u0e16\u0e19\u0e19\u0e08\u0e31\u0e01\u0e23\u0e27\u0e23\u0e23\u0e14\u0e34\u0e4c"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 1775.1
+              },
+              "duration": {
+                "value": 140.3
+              },
+              "polyline": {
+                "points": "gwzrAo`ldR@HBNF`@HXHVLXPV`@f@HHXXh@^tKxHdD|BvAx@x@`@z@\\r@Tt@RvBh@ZHxBh@LBVFrBh@v@P~Cv@tCr@rAZt@RF@r@Pv@PhFpAl@Nn@N`@HrCr@dB`@RFRBJ?LC"
+              },
+              "html_instructions": "new name \u0e16\u0e19\u0e19\u0e1b\u0e23\u0e30\u0e0a\u0e32\u0e18\u0e34\u0e1b\u0e01"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 210.3
+              },
+              "duration": {
+                "value": 21.2
+              },
+              "polyline": {
+                "points": "g`xrAesjdRDKHMHIDGHEHELGJCJALALAN@J@NBNDLDJFJHFHHHFJFLBNBN@P?T"
+              },
+              "html_instructions": "rotary \u0e16\u0e19\u0e19\u0e2a\u0e21\u0e40\u0e14\u0e47\u0e08\u0e1e\u0e23\u0e30\u0e40\u0e08\u0e49\u0e32\u0e15\u0e32\u0e01\u0e2a\u0e34\u0e19"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 3731.4
+              },
+              "duration": {
+                "value": 212.5
+              },
+              "polyline": {
+                "points": "cxwrAspjdRNRFHJFx@RvAZp@PB?bAVh@NJ@tBh@XFdDz@vBh@n@Pp@P\\H\\HlAZfAXdAV\\JTDdBb@xD|@~EjAfDx@PD~ElAF@VHRD@?|A^d@Lt@PdGvA|A\\PDl@NxBj@`EdAdAVdAPd@Hb@Jr@P`B`@rAZp@PbB^THNFPFNFVH~Bh@v@RpBb@|@Rb@JfAVt@Px@Nz@RND`Dt@lDz@\\JPDnBl@vBh@PDNBtD`Ax@Rz@TrBf@xD~@`Dt@pDz@\\JbB`@jAZr@P^JZH"
+              },
+              "html_instructions": "exit rotary \u0e16\u0e19\u0e19\u0e2a\u0e21\u0e40\u0e14\u0e47\u0e08\u0e1e\u0e23\u0e30\u0e40\u0e08\u0e49\u0e32\u0e15\u0e32\u0e01\u0e2a\u0e34\u0e19"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 1266.5
+              },
+              "duration": {
+                "value": 70.7
+              },
+              "polyline": {
+                "points": "{pqrAckhdRlDx@|Ct@d@Hv@Fr@Bd@Ab@Ef@G`@I`@KjAe@TQ\\W^[POXYNSRYTYhBuCFKh@aAT_@R]`@o@dAcB\\k@~AiCh@}@bBkCLSzA_Ch@u@PW"
+              },
+              "html_instructions": "new name \u0e16\u0e19\u0e19\u0e2a\u0e38\u0e02\u0e2a\u0e27\u0e31\u0e2a\u0e14\u0e34\u0e4c"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 80.7
+              },
+              "duration": {
+                "value": 13.1
+              },
+              "polyline": {
+                "points": "a}orAyoidRl@EJAN?z@CH@"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 62579.9
+              },
+              "duration": {
+                "value": 2674.2
+              },
+              "polyline": {
+                "points": "qxorAcpidR@J?VBXDTFRFPFNN^d@n@Rh@Rr@Jh@lAzGzBvMV`BrBfMzAhJHd@ZxAb@pBVbANv@Lp@RbA`BhKL~@Lz@j@lEn@zDXfBTtATrAZzAThA^xALf@Nh@nAvD|BzFv@|ArAhC^v@zPp\\Td@`CvEnLpUd@z@`ArBr@vA`@r@`DjGf@t@r@`BfDnGzBlE|@bBfF|JlDbHbGnLl@jAzXzi@n@hAjA`CjA|BhFjKpAhCrBvDpAzBhC|DzArBvBzCjBzC`@l@FH\\`@`ClDvCdEfDhFrAnBrEzGzCfErClEbBnCd@n@T\\~GdKdDbFlC|DrCfEdQjWvAxBf@v@b@l@j@t@d@l@b@h@z@`A~AfBxD~D~@|@h@f@lChCrBpBxEpE\\\\bO`O~ZpZxGzGd_@v^^^jDnDjl@vk@t[d[hOfObF`FbF~Ete@fe@|JtJl@j@bAfAdAnAv@`A\\d@^p@Xh@Vf@Th@^z@Z~@V~@T`ARbANz@Fd@D`@Hn@Bj@HrADnA?lAAjAEjCQzLc@p[e@b[[pR?t@?v@?t@@z@D~@D|@Fv@H~@L`ALbARlALt@Px@Rx@`GvTJ\\p@fCTz@bGdUnCjKNf@ZdAn@lBx@xBt@~BbAvDfCrJXfANl@XlAXrA\\vAz@xCr@dCl@nBb@nA`@nAlA`DxAxDbc@ddA`HhPfBlEpGlO^|@nFvMVl@rB|EbFfMzGbPrGlOFLjHlPjAtCd@dAj@hAn@lA|@~A|@xAr@dAv@fAhAxAlElFtC~CnCxCxC~Cl]d`@xA`BZ\\|c@~f@LLPRpSfUpAbBp@fAlA|BpAtCn@hBh@rB`@dBP|@PdA\\lDNnCHfBdDrl@pAdVZtF\\lF^jDXnBP`AV~Aj@~C`FnTb@jBd@lBd@jB|Rj{@j@xBr@zC@Fj@bCZpAPr@lA`FZrARz@l@hCXhA\\vABN`@bB^zAJb@XfALf@fAtEfAtEbAfEpDjONn@zBnJhA|E\\xAb@jBVdAr@~C`A`EBPdAbEf@zBvC`MpBrIT|@l@jCzAjGhA`FbG~Vn@pCf@rBTbA|DrP|FnV`EzP|EpSrAnFz@rDbFzSd@pBbD~NxEvUBJvCxNDPbDbPlDvP`BfIj@nCn@dDDNxAfHDV`CpLNp@t@nDZ|AtBxJfExRfDjPfBlJpEpUZpATdA|AbFXj@t@|A|@nAd@l@nBvB|ApA\\ThBlA~Ap@JDhAb@hEjAD@~@TvPbEnAZzBj@|D~@dN~CbOhDv\\xHtWlGjGtAdVxFlFnA~DnAzAn@`D`BFBtCrBdAr@NJjBbBdBpBfDnFjGhLvCpEbA|AlJlPnC|Et@pAj@`A\\j@lAvBhChEjClEfChE`CdE~BzD|BzDzBzDTb@hBzC~BdE`CfER^pBhD`A~Az@tALR|BxDDHb@p@zAfCp@lAhAnBpAvBj@`AvBtDLRjB`DfBzC|@|ALTdAhB~ApCb@r@rAzBp@hALTrBlDbBtCtCtEjDpFrCbFZj@hDpGFJr@rAxBvD~B~D~BdEzBdExBlEPb@b@~@`AlBHNpB~DrBlEpBjErF|Kl@tAt@~AdCnFtDrHbAxBvBpE@@rAtCjCrFxCvGlAjClAhCTf@pBfERb@hFzKvCnGnAfC`BbDr@vAvD|HLZjElJdEnIFNNZZr@bCdFn@rA`CvE~A~C`CjDhCdDpLvL\\\\\\ZJL`H~Hn@n@vBzBlDjDdDfD|C~C@@|C`DhBhBt@t@JJx@x@zA|A~@`Ad@f@v@x@`DhDdBrBp@x@pCtDhC~D^l@hBxC`GrJR^`BjCpBdDlB|CbA`Bj@~@hBvC~AlCj@bAj@`AvBhDxGxKvBrDdBhC"
+              },
+              "html_instructions": "turn \u0e16\u0e19\u0e19\u0e1e\u0e23\u0e30\u0e23\u0e32\u0e21\u0e17\u0e35\u0e48 2"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 1096.6
+              },
+              "duration": {
+                "value": 98.8
+              },
+              "polyline": {
+                "points": "oqxpAeglaR|AjB|@n@x@ZfBNvBAhA@x@Pv@h@b@t@J|@IdA]t@e@j@iNrOaCjCc@f@"
+              },
+              "html_instructions": "off ramp "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 598.4
+              },
+              "duration": {
+                "value": 35.5
+              },
+              "polyline": {
+                "points": "ksxpA}_kaRo@p@mBrBaAdAKJiAfAeAbAgB|AWT[RoCfBaAl@cAn@"
+              },
+              "html_instructions": "new name \u0e16\u0e19\u0e19\u0e40\u0e02\u0e49\u0e32\u0e40\u0e21\u0e37\u0e2d\u0e07"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 188.6
+              },
+              "duration": {
+                "value": 16.8
+              },
+              "polyline": {
+                "points": "ylypAkijaRYMiAg@KGIIEQ[oBMcA"
+              },
+              "html_instructions": "turn \u0e16\u0e19\u0e19\u0e23\u0e32\u0e0a\u0e0d\u0e32\u0e15\u0e34\u0e23\u0e31\u0e01\u0e29\u0e32"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 128.3
+              },
+              "duration": {
+                "value": 7.1
+              },
+              "polyline": {
+                "points": "crypAyqjaRa@BeAPMDw@PUDM@MA"
+              },
+              "html_instructions": "end of road \u0e16\u0e19\u0e19\u0e23\u0e32\u0e0a\u0e0d\u0e32\u0e15\u0e34\u0e23\u0e31\u0e01\u0e29\u0e32"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 171.2
+              },
+              "duration": {
+                "value": 13.6
+              },
+              "polyline": {
+                "points": "cyypAepjaRKCSK}Aw@y@_@MGm@Y_@A"
+              },
+              "html_instructions": "turn \u0e16\u0e19\u0e19\u0e40\u0e01\u0e29\u0e21\u0e2a\u0e38\u0e02\u0e38\u0e21"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 5415.7
+              },
+              "duration": {
+                "value": 299.9
+              },
+              "polyline": {
+                "points": "wazpAqtjaR}AvAQPMJ{@v@q@n@c@b@mBfB}BtBs@j@k@b@i@T{H`CgAd@u@f@g@h@m@|@iJjPs@pAU`@_CdEs@rAaBtCcD~FcF`Js@lAeC`E{@bBc@pAGVE`@Ev@DxAR|Ad@rAfJfU^z@v@jBXn@Vx@Vv@BLLj@BJTdANr@r@~CV`AZtAt@tCDTj@|BZ~@z@fC^hAZ|@b@bA\\v@n@rAR^pFpILPjFdI\\l@h@lAVx@PvADnA?d@?\\K|@WhA{BxGO^a@t@k@t@g@j@a@\\_@Xe@Ti@Tm@RgAT_AHyALgAFcADaBDa@DQDMJCFIJKDK@KCIE"
+              },
+              "html_instructions": "turn \u0e16\u0e19\u0e19\u0e0a\u0e39\u0e28\u0e31\u0e01\u0e14\u0e34\u0e4c"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 12287.8
+              },
+              "duration": {
+                "value": 686.1
+              },
+              "polyline": {
+                "points": "m}{pA_acaRe@IYE]?Y?c@D]Bo@Dq@Fs@LkATiCx@gARa@F_AJI@S?_@?_@AOAc@Cy@MqEy@iASwBe@wBa@wBa@uB_@aEs@}E}@sOcCmAQyHeAyIgA}LaBgAKoAIwACmAB_K\\uAF_H^sBLsKn@sK^g@@yAHiAD_@BcIZs@HYBe@F_ARq@N]JcAb@u@\\a@TmE`CgCvAgCvAwLrGe@VuJlF[NaA`@w@RmAN[By@BaB@{ECS?gMCgDAmCAyKEqAA_BCuAO{@[{As@sA}@yBqBo@i@aBwAePgNcIcH{@u@eFmEcNoLwEaE{@w@eByAmByAuAs@yAm@}FoBoE}A]Ke@Q{CcAmAUgAGeA?w@F{CRaAHyDNcEGkFKwGPoVf@yABiDDwFHkPTmHHyBBkMLeA@kBBmHHcFF}FFsQRm@@iB@_A@c@@cBBuEDmAHmBTG@aBb@{FpB_DfA_@LsBt@WH"
+              },
+              "html_instructions": "turn \u0e16\u0e19\u0e19\u0e0a\u0e39\u0e28\u0e31\u0e01\u0e14\u0e34\u0e4c"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 1370.1
+              },
+              "duration": {
+                "value": 202.4
+              },
+              "polyline": {
+                "points": "}gpqA}odaRt@|BVbAZfA`@~A^|Af@rBt@pCj@zCDb@@Z?VEdCAxBGjB@ZA|@F`@DTXdA`@vANp@@DRz@LXXZ|@z@\\z@BJPfABLNr@@DLv@@FZdBBPNz@PbA"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 179.5
+              },
+              "duration": {
+                "value": 43
+              },
+              "polyline": {
+                "points": "}roqAiebaRzDm@J@HF~@vA"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "kjoqAucbaR"
+              },
+              "html_instructions": "arrive "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 38.9
+              },
+              "duration": {
+                "value": 36.8
+              },
+              "polyline": {
+                "points": "kjoqAucbaRHLHPH^"
+              },
+              "html_instructions": "depart "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 218.5
+              },
+              "duration": {
+                "value": 54.2
+              },
+              "polyline": {
+                "points": "mioqAuabaRI_@IQiAeBIGKA{Dl@"
+              },
+              "html_instructions": "continue "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 1370.1
+              },
+              "duration": {
+                "value": 197.4
+              },
+              "polyline": {
+                "points": "}roqAiebaRQcAO{@CQ[eBAGMw@AEOs@CMQgACK]{@}@{@Y[MYS{@AEOq@a@wAYeAEUGa@@}@A[FkB@yBDeC?WA[Ec@k@{Cu@qCg@sB_@}Aa@_B[gAWcAu@}B"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 12319.5
+              },
+              "duration": {
+                "value": 685.9
+              },
+              "polyline": {
+                "points": "}gpqA}odaRKWXKrBu@^MjAc@`EwAnCaA`B_@dBW|AKrDEfCCd@?jEEN?n@A`PO~EG|@AdBCn@?dMOdAAvZ]nEGxLQ|[e@n@A~DKfFQjAAnELn@@pCF|DU~@I~AI|BQlAAlAJfARx@XvAf@^Nb@LxE~AtGzBjAf@lAr@hBxAn@h@x@p@z@t@bDtCrO|M`FjEf@b@PNfCxBbFjExKlJz@r@hB|Ad@b@p@j@xBlBnAz@zAt@t@PpAPtADrA@~KB~DBl@@dA?dMBX?bF?vBApAMdASt@Un@YjKwFd@W`J_FxAy@bGeDzCaBv@c@RKz@a@rAg@|@UhASnAQXETCzBKtBIdAE^A~COf@AzKa@bBK`AGtAK~AKnBMr@CxEWdAGxAG|Ja@pAC~ADjAFhAH~WlDxEp@fDd@jOxBfLxBlFdAzB`@n@NNBzAVnFfA|@LfAFx@Aj@Et@Mz@QzC}@t@OLCFC|@Kl@Gl@E\\ClD["
+              },
+              "html_instructions": "end of road \u0e16\u0e19\u0e19\u0e0a\u0e39\u0e28\u0e31\u0e01\u0e14\u0e34\u0e4c"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 5375.7
+              },
+              "duration": {
+                "value": 299.8
+              },
+              "polyline": {
+                "points": "}|{pA_ccaRt@CtAE|FUn@Eh@Gl@K|@Wl@Yb@Uz@m@f@e@X]Xa@Xi@Re@tB}FLe@V_AHgA?cAGiAUmA[eA]q@aA_BiEiGaGiJi@iAs@}AaA_C_AqCO_@{@wCGSy@sDQw@GSSy@mAkF_@_BUiAm@iBGQo@{A[u@EK[_AyAmDqG}Oc@yAUwAGcBBm@P{@d@yAx@cB`CiEp@kAt@sAp@mA`DuFnAaCjCyEdAgB~BiEJOx@uAbJcPz@kAV[TQNKd@W`@S^WBApFcBb@M~@_@t@c@Z[rCcCzFqF@A~@w@v@q@"
+              },
+              "html_instructions": "fork \u0e16\u0e19\u0e19\u0e0a\u0e39\u0e28\u0e31\u0e01\u0e14\u0e34\u0e4c"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 820.7
+              },
+              "duration": {
+                "value": 55.4
+              },
+              "polyline": {
+                "points": "obzpAytjaRNQf@i@XYvDwD`A_A\\]rKgK`E{DhAeAj@["
+              },
+              "html_instructions": "new name \u0e16\u0e19\u0e19\u0e1c\u0e31\u0e07\u0e40\u0e21\u0e37\u0e2d\u0e07\u0e0b\u0e2d\u0e22 1"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 185.6
+              },
+              "duration": {
+                "value": 21.4
+              },
+              "polyline": {
+                "points": "y`ypAkukaRJO`FbF"
+              },
+              "html_instructions": "end of road \u0e16\u0e19\u0e19\u0e16\u0e19\u0e19\u0e1c\u0e31\u0e07\u0e40\u0e21\u0e37\u0e2d\u0e07\u0e0b\u0e2d\u0e22 2"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 443.3
+              },
+              "duration": {
+                "value": 39.9
+              },
+              "polyline": {
+                "points": "kyxpAwnkaRb@u@`A}AJSBCn@eALUHMh@{@L_@?_@uAgI"
+              },
+              "html_instructions": "turn \u0e16\u0e19\u0e19\u0e40\u0e08\u0e23\u0e34\u0e0d\u0e0a\u0e21\u0e1b\u0e23\u0e35\u0e14\u0e32"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 813.6
+              },
+              "duration": {
+                "value": 53.4
+              },
+              "polyline": {
+                "points": "ktxpAqelaRWkAMYu@sAwGaLcCsDsAuBaC_EGMq@iAk@{@"
+              },
+              "html_instructions": "new name \u0e16\u0e19\u0e19\u0e1e\u0e23\u0e30\u0e23\u0e32\u0e21\u0e17\u0e35\u0e48 2"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 33.5
+              },
+              "duration": {
+                "value": 3.2
+              },
+              "polyline": {
+                "points": "_nypAklmaR?}@"
+              },
+              "html_instructions": "on ramp "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 59932.1
+              },
+              "duration": {
+                "value": 2575.6
+              },
+              "polyline": {
+                "points": "_nypAinmaR_@q@OU_BkCmB_DqBeDaBkCU]cJcOoDwFoCsDq@y@eBqB_DiDaAcAe@g@w@w@eBiBy@y@aD_D}CaDcCeCaEcE_C_Ck@k@k@i@sAwAg@i@oAqAsE{Ee@c@oAqAqAwAiHuHoCqDa@m@_B_CeF}JsDyH_@u@MYGMaLgU_EwIo@uA{AaDCEeDcHs@wAKUgF{KaDwGmAcCcFkKGQeAwBo@uAeFuKs@{AMWsDwHmFaLmF}KoBoEsAoCa@y@CCi@gAoAiCw@eBy@kByBmEyBgEiCaEqBuDEEk@aAaDqF_A_B[i@S_@aA}AyCyEq@kAiCyDiE}Hk@mACE{BcEaAiBgAqBgB}CmAsBMW_DoFk@cAe@w@g@y@aBuCS_@_BkC_@m@a@s@yAiC}ByDeCaEiCkEgCiEaCgE_CeEiB}CUa@{B{D}B{DyCwEaBsCmC_Fa@s@gByC}BmDmAuBaGoK[k@mJmP{@sA}CyEeByCc@u@eAiB{@{AqDwF{AmB_@_@}@{@gB}AqBwAwDoBwEiBcDu@w[mHgFiA{WmGq\\yHaBa@iGwAkCm@sNeDqDy@oCo@gUgFoFiBeBs@{A{@MGOK]WcBmAmAeA_BgBwAwBwAsC}AgFq@aDQ}@S{@uBgLyAqGy@gESgAiAcFy@{D{Gg]}Gy[wMap@oAiGkFmW}A_IWuAaBgI_BiHeBuHgFgT}@{DmAiFyEoS}AmGc@_Bs@{CQ{@aCoKiFuTsAwFUeAcA}DsRgy@ePgr@cAiEg@sBcCiK]wAS{@U_AeGeWa@cBYoAEOiBwHS{@qAqFWaAQu@Ok@gBsH_BmHsQ}u@aAgEYsAeBoHYkAwAkGWoAY}Ac@wC[uBe@cEc@eEOyA]aGqAaV_Dyl@O}CSkCc@uCc@cCm@}BiAgD{BuEcAaBsAoBmSaUY[qP}QaScUme@oh@aHqHkEgFgCwCuBkDiCgFgCeGyGiPGMsGwO{G{OqFqMmBwEYq@kDsIaI_RsBcFcO_^q`@i_AaCkH}AcF{AkF{BoIuCwLo@cC]iA_@iA_@gAUq@_EyN}ByI{CyK_@sAg@eBCIK]kCkJyBgIo@kCc@eCUoBM_BMoD@kD^kTf@c\\v@gh@DaC@qA?aAA_AE}@Gy@I_AK_AOeAQ_AU}@W_AYy@Us@[u@e@}@i@_Ak@y@k@u@m@q@q@s@aAaAg@e@iJeJwe@ge@iFcFmReReC_Cy[i[gl@_l@yDyDe@e@wIqIgN}MkDkDgH_H_l@mk@WUm@o@{JwJ][}C}C{@}@{@_AeAkAm@s@m@u@m@u@w@eAe@q@o@_AcBgC{PgWqJgNy@kAYg@yG{J_@g@oIeMaHaKmC_E_AuA}BgDgFcIYg@g@u@GIaB_C_CgDaEgGqBeD{B}DuAsCmFiKwDqHuAkCwBkEe@aAaB_DwDoHoByD_E_Ii@aAoGwLwDoHkFeKsGsMsBkDkBeE}A{CYk@_CqE_@u@a@w@qBcE}AuCaAkBmD}G_B}CYg@qAmCoCiFcCyEkEuIc@{@}A_D{@cBs@cBo@gBaBsFgAgE_A}EKi@E[QiAOy@a@gC"
+              },
+              "html_instructions": "merge \u0e16\u0e19\u0e19\u0e1e\u0e23\u0e30\u0e23\u0e32\u0e21\u0e17\u0e35\u0e48 2"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 1697.4
+              },
+              "duration": {
+                "value": 93.9
+              },
+              "polyline": {
+                "points": "e~nrA{jfdRi@iDSqAUiAScAOw@Ow@i@iDQkAIg@Ga@Ec@KaAUoB[yBe@{Ce@wCeBaKgBgKs@kEUkAYmAQgAWiAUiA[kAw@wB"
+              },
+              "html_instructions": "continue \u0e16\u0e19\u0e19\u0e1e\u0e23\u0e30\u0e23\u0e32\u0e21\u0e17\u0e35\u0e48 2"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 166.9
+              },
+              "duration": {
+                "value": 12.6
+              },
+              "polyline": {
+                "points": "qworAiiidRUMUOGGKIKGUKSCa@AW@UDMDWLUNIF"
+              },
+              "html_instructions": "continue \u0e16\u0e19\u0e19\u0e1e\u0e23\u0e30\u0e23\u0e32\u0e21\u0e17\u0e35\u0e48 2"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 1178.8
+              },
+              "duration": {
+                "value": 67.4
+              },
+              "polyline": {
+                "points": "}_prA_jidR]h@gBrCu@lA]h@y@pA{@tAGHkDvFIJq@hAu@jA_@h@QRUTUTQNWTWNc@Tc@R]Le@Ng@J[Fk@BW@[?I?[?a@Eg@Em@MkCq@uD_A"
+              },
+              "html_instructions": "turn \u0e16\u0e19\u0e19\u0e2a\u0e38\u0e02\u0e2a\u0e27\u0e31\u0e2a\u0e14\u0e34\u0e4c"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 3733.2
+              },
+              "duration": {
+                "value": 213.5
+              },
+              "polyline": {
+                "points": "cqqrAgjhdRYGcFqAg@M_@IoA[iDy@gGwAwCs@eDy@iBe@]KQE_@Mw@SMEqASi@Ki@Mm@M_AUmCo@oA[c@MsA[cBa@s@Oa@KeA[q@OkDy@iBe@u@QGAwBi@{@SaEaA[Gw@Yu@WQEo@OmAYMCyFwAg@MeHcBq@Q{Cs@m@OICa@Ie@MoIsBi@MYGmAYm@O_Ba@mBc@gBe@WGy@Qm@Ow@Ss@QkAY[ImCq@}DcA_Ck@SGwCu@CAw@Se@KWImCm@GAS?K@KF"
+              },
+              "html_instructions": "new name \u0e16\u0e19\u0e19\u0e2a\u0e21\u0e40\u0e14\u0e47\u0e08\u0e1e\u0e23\u0e30\u0e40\u0e08\u0e49\u0e32\u0e15\u0e32\u0e01\u0e2a\u0e34\u0e19"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 192.1
+              },
+              "duration": {
+                "value": 19.2
+              },
+              "polyline": {
+                "points": "{xwrAknjdRKNIHMHKHOFKBKBU@O?MAKAICICIEIGIGIGIKEIEKEICKCKAMAM"
+              },
+              "html_instructions": "rotary \u0e16\u0e19\u0e19\u0e1b\u0e23\u0e30\u0e0a\u0e32\u0e18\u0e34\u0e1b\u0e01"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 856.6
+              },
+              "duration": {
+                "value": 75.1
+              },
+              "polyline": {
+                "points": "w`xrAupjdRIYGIGGIEuBe@sD}@y@SeAWwBi@mBe@c@Ky@SGAo@OeCm@mBe@kEeAeBg@GCSEUI"
+              },
+              "html_instructions": "exit rotary \u0e16\u0e19\u0e19\u0e1b\u0e23\u0e30\u0e0a\u0e32\u0e18\u0e34\u0e1b\u0e01"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 1307.8
+              },
+              "duration": {
+                "value": 103.5
+              },
+              "polyline": {
+                "points": "ymyrAoakdR@Z?^?\\?J@NENKl@Sr@O\\UXOHMFWH_APSBQBa@JMDSHq@Z[XSVm@x@KNCL?@GHEF??UZKDk@p@w@pAc@r@]f@_@l@CDaAxAm@z@KPUZQVWViClBcCnBuCvBmBnAQLSLwBhAOH"
+              },
+              "html_instructions": "turn \u0e16\u0e19\u0e19\u0e2d\u0e23\u0e38\u0e13\u0e2d\u0e21\u0e23\u0e34\u0e19\u0e17\u0e23\u0e4c"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 159.7
+              },
+              "duration": {
+                "value": 27.9
+              },
+              "polyline": {
+                "points": "w_{rAcnidRKSMWGOEGKEM@k@TwBz@"
+              },
+              "html_instructions": "turn \u0e16\u0e19\u0e19\u0e27\u0e31\u0e07\u0e40\u0e14\u0e34\u0e21"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 117.5
+              },
+              "duration": {
+                "value": 28.3
+              },
+              "polyline": {
+                "points": "}f{rAymidRI_@WcASy@Om@"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "ci{rAetidR"
+              },
+              "html_instructions": "arrive "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 44.4
+              },
+              "duration": {
+                "value": 38
+              },
+              "polyline": {
+                "points": "ci{rAetidRG@MDWFMBEBI@"
+              },
+              "html_instructions": "depart "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 162
+              },
+              "duration": {
+                "value": 40.3
+              },
+              "polyline": {
+                "points": "ok{rAksidRHADCLCVGLEFANl@Rx@VbAH^"
+              },
+              "html_instructions": "continue "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 26
+              },
+              "duration": {
+                "value": 9.4
+              },
+              "polyline": {
+                "points": "}f{rAymidRi@T"
+              },
+              "html_instructions": "end of road \u0e16\u0e19\u0e19\u0e27\u0e31\u0e07\u0e40\u0e14\u0e34\u0e21"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 64.1
+              },
+              "duration": {
+                "value": 15.1
+              },
+              "polyline": {
+                "points": "gh{rAcmidRHTFJNf@FJHR"
+              },
+              "html_instructions": "turn \u0e0b\u0e2d\u0e22\u0e2d\u0e23\u0e38\u0e13\u0e2d\u0e21\u0e23\u0e34\u0e19\u0e17\u0e23\u0e4c 10"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 142.9
+              },
+              "duration": {
+                "value": 11.4
+              },
+              "polyline": {
+                "points": "sf{rAyiidRfE{BRM"
+              },
+              "html_instructions": "turn \u0e16\u0e19\u0e19\u0e2d\u0e23\u0e38\u0e13\u0e2d\u0e21\u0e23\u0e34\u0e19\u0e17\u0e23\u0e4c"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 438.6
+              },
+              "duration": {
+                "value": 45.6
+              },
+              "polyline": {
+                "points": "w_{rAcnidRHPBB\\fABDHTd@fADNx@xBj@~AJT@DHPp@jBdApC"
+              },
+              "html_instructions": "turn \u0e16\u0e19\u0e19\u0e27\u0e31\u0e07\u0e40\u0e14\u0e34\u0e21"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 1587.6
+              },
+              "duration": {
+                "value": 105.6
+              },
+              "polyline": {
+                "points": "{tzrAkwhdRvBiArBiAVMVODCJGFCTMVOz@c@JG@ArBeAHE`@[JIDCBCDClAyALONWP[x@qABGHOhBiEh@wADIrBsCrDeF`@k@l@y@RWFKX_@tByC\\e@`@m@pAcBrAiB~@oAr@aA`@k@"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 479.6
+              },
+              "duration": {
+                "value": 43.9
+              },
+              "polyline": {
+                "points": "qyxrAizjdRN[F@r@Pv@PhFpAl@Nn@N`@HrCr@dB`@RFRBJ?LC"
+              },
+              "html_instructions": "turn \u0e16\u0e19\u0e19\u0e1b\u0e23\u0e30\u0e0a\u0e32\u0e18\u0e34\u0e1b\u0e01"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 210.3
+              },
+              "duration": {
+                "value": 21.2
+              },
+              "polyline": {
+                "points": "g`xrAesjdRDKHMHIDGHEHELGJCJALALAN@J@NBNDLDJFJHFHHHFJFLBNBN@P?T"
+              },
+              "html_instructions": "rotary \u0e16\u0e19\u0e19\u0e2a\u0e21\u0e40\u0e14\u0e47\u0e08\u0e1e\u0e23\u0e30\u0e40\u0e08\u0e49\u0e32\u0e15\u0e32\u0e01\u0e2a\u0e34\u0e19"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 2087.8
+              },
+              "duration": {
+                "value": 115.7
+              },
+              "polyline": {
+                "points": "cxwrAspjdRNRFHJFx@RvAZp@PB?bAVh@NJ@tBh@XFdDz@vBh@n@Pp@P\\H\\HlAZfAXdAV\\JTDdBb@xD|@~EjAfDx@PD~ElAF@VHRD@?|A^d@Lt@PdGvA|A\\PDl@NxBj@`EdAdAVdAPd@Hb@Jr@P`B`@rAZ"
+              },
+              "html_instructions": "exit rotary \u0e16\u0e19\u0e19\u0e2a\u0e21\u0e40\u0e14\u0e47\u0e08\u0e1e\u0e23\u0e30\u0e40\u0e08\u0e49\u0e32\u0e15\u0e32\u0e01\u0e2a\u0e34\u0e19"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 562.9
+              },
+              "duration": {
+                "value": 64.9
+              },
+              "polyline": {
+                "points": "whtrAuiidRLAHGHMBILORG`@?`@F^NRNPRNh@@^?bACrA@~@@f@Jd@Rd@\\\\LFRDL@\\@VAZMb@[j@i@t@s@"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 1346.2
+              },
+              "duration": {
+                "value": 74.6
+              },
+              "polyline": {
+                "points": "mwsrAw_idRbKsSj@{Al@mBrAuE~@oCnAyChBoDtBgDjB{BfCwCjBaB"
+              },
+              "html_instructions": "turn \u0e16\u0e19\u0e19\u0e1e\u0e23\u0e30\u0e23\u0e32\u0e21\u0e17\u0e35\u0e48 3"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 430.6
+              },
+              "duration": {
+                "value": 57.3
+              },
+              "polyline": {
+                "points": "korrAcakdRZk@J[J]D_@?]CYK[{AwE_B}EAWJa@?W"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 292.2
+              },
+              "duration": {
+                "value": 23.7
+              },
+              "polyline": {
+                "points": "ssrrAexkdRY[SUg@m@GGy@aA_@c@GGKMk@o@GGUYWYY[]_@"
+              },
+              "html_instructions": "turn \u0e16\u0e19\u0e19\u0e40\u0e08\u0e23\u0e34\u0e0d\u0e01\u0e23\u0e38\u0e07"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 372.5
+              },
+              "duration": {
+                "value": 53.6
+              },
+              "polyline": {
+                "points": "y~rrAqdldRo@b@AJGDIFI?i@`@i@ZKJQNe@`@EBC?CAEEEEMMa@e@_@]aAcAAAA?A??@yA|A"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "knsrAy`ldR"
+              },
+              "html_instructions": "arrive "
+            }
+          ]
+        }
+      ],
+      "bounds": {
+        "northeast": {
+          "lat": 13.74416,
+          "lng": 100.51013
+        },
+        "southwest": {
+          "lat": 13.39863,
+          "lng": 99.95819
+        }
+      }
+    }
+  ],
+  "status": "OK"
+}

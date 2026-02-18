@@ -1,0 +1,311 @@
+--- VALIDATING ROUTES ---
+Reading lib/services/curated_routes_service.dart...
+Checking Istanbul (10 routes)...
+Checking Barcelona (10 routes)...
+Checking Paris (10 routes)...
+Checking Rome (10 routes)...
+Checking London (10 routes)...
+Checking Berlin (10 routes)...
+Checking Amsterdam (10 routes)...
+Checking NewYork (10 routes)...
+Checking Tokyo (10 routes)...
+Checking Sevilla (4 routes)...
+Checking Madrid (5 routes)...
+Checking Florence (4 routes)...
+Checking Athens (4 routes)...
+Checking Dubai (6 routes)...
+Checking Lisbon (6 routes)...
+Checking Prague (6 routes)...
+Checking Vienna (6 routes)...
+Checking Porto (6 routes)...
+Checking Budapest (6 routes)...
+Checking Bangkok (6 routes)...
+⚠️ Warning: No JSON found for service city 'Singapore' (Mapped: singapore)
+Checking Copenhagen (6 routes)...
+⚠️ Warning: No JSON found for service city 'Marrakech' (Mapped: marrakech)
+⚠️ Warning: No JSON found for service city 'Naples' (Mapped: naples)
+⚠️ Warning: No JSON found for service city 'Milan' (Mapped: milan)
+Checking Venice (6 routes)...
+⚠️ Warning: No JSON found for service city 'Zurich' (Mapped: zurich)
+⚠️ Warning: No JSON found for service city 'Geneva' (Mapped: geneva)
+Checking Lucerne (6 routes)...
+Checking Stockholm (6 routes)...
+Checking HongKong (6 routes)...
+⚠️ Warning: No JSON found for service city 'Seoul' (Mapped: seoul)
+Checking Nice (5 routes)...
+Checking Lyon (6 routes)...
+⚠️ Warning: No JSON found for service city 'Marseille' (Mapped: marseille)
+Checking Dublin (6 routes)...
+Checking Antalya (4 routes)...
+Checking Gaziantep (3 routes)...
+Checking Cappadocia (3 routes)...
+Checking Belgrade (3 routes)...
+Checking Bologna (2 routes)...
+Checking Heidelberg (2 routes)...
+Checking Kotor (2 routes)...
+Checking Matera (2 routes)...
+Checking Oslo (2 routes)...
+Checking Rovaniemi (2 routes)...
+Checking SanSebastian (2 routes)...
+Checking Santorini (3 routes)...
+⚠️ Warning: No JSON found for service city 'Sarajevo' (Mapped: sarajevo)
+Checking Sintra (2 routes)...
+⚠️ Warning: No JSON found for service city 'Strasbourg' (Mapped: strasbourg)
+Checking Tromso (2 routes)...
+Checking Zermatt (2 routes)...
+⚠️ Warning: No JSON found for service city 'Bruges' (Mapped: bruges)
+⚠️ Warning: No JSON found for service city 'Brussels' (Mapped: brussels)
+Checking Colmar (1 routes)...
+Checking Edinburgh (2 routes)...
+Checking Giethoorn (1 routes)...
+Checking Hallstatt (1 routes)...
+⚠️ Warning: No JSON found for service city 'Generic' (Mapped: generic)
+
+--- REPORT ---
+❌ FOUND 244 MISSING PLACES IN JSON:
+[Istanbul] Route 'ist_princes': Place 'Büyükada Marina' NOT FOUND in JSON.
+[Istanbul] Route 'ist_princes': Place 'Heybeliada' NOT FOUND in JSON.
+[Istanbul] Route 'ist_princes': Place 'Dilburnu Tabiat Parkı' NOT FOUND in JSON.
+[Istanbul] Route 'ist_coffee': Place 'Petra Roasting' NOT FOUND in JSON.
+[Istanbul] Route 'ist_coffee': Place 'Kronotrop' NOT FOUND in JSON.
+[Istanbul] Route 'ist_sunset': Place 'Üsküdar Salacak' NOT FOUND in JSON.
+[Istanbul] Route 'ist_sunset': Place 'Sanatkarlar Parkı' NOT FOUND in JSON.
+[Barcelona] Route 'bcn_romantic': Place 'Parc del Laberint dHorta' NOT FOUND in JSON.
+[Paris] Route 'par_classic': Place 'Musée dOrsay' NOT FOUND in JSON.
+[Paris] Route 'par_montmartre': Place 'Mur des Je taime' NOT FOUND in JSON.
+[Paris] Route 'par_marais': Place 'Museé Carnavalet' NOT FOUND in JSON.
+[Paris] Route 'par_marais': Place 'Saint-Paul-Saint-Louis' NOT FOUND in JSON.
+[Paris] Route 'par_marais': Place 'LAs du Fallafel' NOT FOUND in JSON.
+[Paris] Route 'par_museums': Place 'Musée dOrsay' NOT FOUND in JSON.
+[Paris] Route 'par_museums': Place 'Musée de lOrangerie' NOT FOUND in JSON.
+[Paris] Route 'par_food': Place 'Marché dAligre' NOT FOUND in JSON.
+[Paris] Route 'par_seine': Place 'Île de la Cité' NOT FOUND in JSON.
+[Paris] Route 'par_versailles': Place 'Gardens of Versailles' NOT FOUND in JSON.
+[Paris] Route 'par_versailles': Place 'Petit Trianon' NOT FOUND in JSON.
+[Paris] Route 'par_versailles': Place 'Grand Trianon' NOT FOUND in JSON.
+[Paris] Route 'par_versailles': Place 'Queens Hamlet' NOT FOUND in JSON.
+[Paris] Route 'par_versailles': Place 'Hall of Mirrors' NOT FOUND in JSON.
+[Paris] Route 'par_canal': Place 'Place de la République' NOT FOUND in JSON.
+[Rome] Route 'rom_ancient': Place 'Palatino Tepesi (Palatine Hill)' NOT FOUND in JSON.
+[Rome] Route 'rom_vatican': Place 'St. Peters Basilica (San Pietro Bazilikası)' NOT FOUND in JSON.
+[Rome] Route 'rom_vatican': Place 'Castel SantAngelo' NOT FOUND in JSON.
+[Rome] Route 'rom_vatican': Place 'Borgo' NOT FOUND in JSON.
+[Rome] Route 'rom_trastevere': Place 'Basilica di Santa Maria in Trastevere' NOT FOUND in JSON.
+[Rome] Route 'rom_trastevere': Place 'Piazza Trilussa' NOT FOUND in JSON.
+[Rome] Route 'rom_trastevere': Place 'Vicolo del Moro' NOT FOUND in JSON.
+[Rome] Route 'rom_food': Place 'Campo de Fiori' NOT FOUND in JSON.
+[Rome] Route 'rom_food': Place 'Mordi e Vai' NOT FOUND in JSON.
+[Rome] Route 'rom_baroque': Place 'Spanish Steps (İspanyol Merdivenleri)' NOT FOUND in JSON.
+[Rome] Route 'rom_baroque': Place 'Piazza Venezia' NOT FOUND in JSON.
+[Rome] Route 'rom_gelato': Place 'Fatamorgana' NOT FOUND in JSON.
+[Rome] Route 'rom_gelato': Place 'Gelateria del Teatro' NOT FOUND in JSON.
+[Rome] Route 'rom_aperitivo': Place 'Hotel Raphael Terrace' NOT FOUND in JSON.
+[Rome] Route 'rom_aperitivo': Place 'Salotto 42' NOT FOUND in JSON.
+[Rome] Route 'rom_aperitivo': Place 'Etablì' NOT FOUND in JSON.
+[Rome] Route 'rom_aperitivo': Place 'Terrazza Borromini' NOT FOUND in JSON.
+[Rome] Route 'rom_aperitivo': Place 'Freni e Frizioni' NOT FOUND in JSON.
+[Rome] Route 'rom_aperitivo': Place 'Jerry Thomas Speakeasy' NOT FOUND in JSON.
+[Rome] Route 'rom_jewish': Place 'Portico dOttavia' NOT FOUND in JSON.
+[Rome] Route 'rom_jewish': Place 'Great Synagogue' NOT FOUND in JSON.
+[Rome] Route 'rom_jewish': Place 'Nonna Betta' NOT FOUND in JSON.
+[Rome] Route 'rom_jewish': Place 'Turtle Fountain' NOT FOUND in JSON.
+[Rome] Route 'rom_jewish': Place 'Campo de Fiori' NOT FOUND in JSON.
+[Rome] Route 'rom_morning': Place 'Castel SantAngelo' NOT FOUND in JSON.
+[London] Route 'lon_southbank': Place 'St. Pauls Cathedral' NOT FOUND in JSON.
+[London] Route 'lon_food': Place 'The George Inn' NOT FOUND in JSON.
+[London] Route 'lon_pubs': Place 'The Lamb and Flag' NOT FOUND in JSON.
+[London] Route 'lon_pubs': Place 'Gordons Wine Bar' NOT FOUND in JSON.
+[London] Route 'lon_parks': Place 'Regents Park' NOT FOUND in JSON.
+[Berlin] Route 'ber_kreuzberg': Place 'Victoriapark' NOT FOUND in JSON.
+[Berlin] Route 'ber_kreuzberg': Place 'Görlitzer Park' NOT FOUND in JSON.
+[Berlin] Route 'ber_food': Place 'Mustafas Gemüse Kebap' NOT FOUND in JSON.
+[Berlin] Route 'ber_food': Place 'Konnopkes Imbiss' NOT FOUND in JSON.
+[Berlin] Route 'ber_food': Place 'Risa Chicken' NOT FOUND in JSON.
+[Berlin] Route 'ber_nightlife': Place 'Wilden Renate' NOT FOUND in JSON.
+[Berlin] Route 'ber_nightlife': Place 'Kater Blau' NOT FOUND in JSON.
+[Berlin] Route 'ber_tempelhof': Place 'Schillerkiez' NOT FOUND in JSON.
+[Berlin] Route 'ber_tempelhof': Place 'Hasenheide' NOT FOUND in JSON.
+[Berlin] Route 'ber_tempelhof': Place 'Bergmannkiez' NOT FOUND in JSON.
+[Berlin] Route 'ber_mauerpark': Place 'Bernauer Strasse' NOT FOUND in JSON.
+[Berlin] Route 'ber_mauerpark': Place 'Arkonaplatz Flea Market' NOT FOUND in JSON.
+[Berlin] Route 'ber_prenzlauer': Place 'Kastanienallee' NOT FOUND in JSON.
+[Berlin] Route 'ber_prenzlauer': Place 'Rykestrasse Synagogue' NOT FOUND in JSON.
+[Berlin] Route 'ber_prenzlauer': Place 'Helmholtzplatz' NOT FOUND in JSON.
+[Berlin] Route 'ber_jewish': Place 'New Synagogue' NOT FOUND in JSON.
+[Berlin] Route 'ber_jewish': Place 'Otto Weidts Workshop' NOT FOUND in JSON.
+[Berlin] Route 'ber_jewish': Place 'Gleis 17' NOT FOUND in JSON.
+[Berlin] Route 'ber_street_art': Place 'Haus Schwarzenberg' NOT FOUND in JSON.
+[Amsterdam] Route 'ams_museums': Place 'Concertgebouw' NOT FOUND in JSON.
+[Amsterdam] Route 'ams_jordaan': Place 'Westerstraat' NOT FOUND in JSON.
+[Amsterdam] Route 'ams_food': Place 'Brouwerij t IJ' NOT FOUND in JSON.
+[Amsterdam] Route 'ams_bike': Place 'ADAM Lookout' NOT FOUND in JSON.
+[Amsterdam] Route 'ams_bike': Place 'IJ Ferry Cruise' NOT FOUND in JSON.
+[Amsterdam] Route 'ams_depijp': Place 'Sarphatipark' NOT FOUND in JSON.
+[Amsterdam] Route 'ams_depijp': Place 'Gerard Douplein' NOT FOUND in JSON.
+[Amsterdam] Route 'ams_night': Place 'Nieuwmarkt' NOT FOUND in JSON.
+[Amsterdam] Route 'ams_noord': Place 'ADAM Lookout' NOT FOUND in JSON.
+[Amsterdam] Route 'ams_noord': Place 'Straat Museum' NOT FOUND in JSON.
+[Amsterdam] Route 'ams_noord': Place 'Pllek' NOT FOUND in JSON.
+[Amsterdam] Route 'ams_noord': Place 'IJ Ferry Cruise' NOT FOUND in JSON.
+[Amsterdam] Route 'ams_parks': Place 'Rembrandtpark' NOT FOUND in JSON.
+[Amsterdam] Route 'ams_parks': Place 'Beatrixpark' NOT FOUND in JSON.
+[Amsterdam] Route 'ams_coffee': Place 'Coffee & Coconuts' NOT FOUND in JSON.
+[NewYork] Route 'nyc_brooklyn': Place 'Grimaldis' NOT FOUND in JSON.
+[NewYork] Route 'nyc_food': Place 'Joes Pizza' NOT FOUND in JSON.
+[NewYork] Route 'nyc_food': Place 'Katzs Delicatessen' NOT FOUND in JSON.
+[NewYork] Route 'nyc_food': Place 'Juniors' NOT FOUND in JSON.
+[NewYork] Route 'nyc_museums': Place 'Neue Galerie' NOT FOUND in JSON.
+[NewYork] Route 'nyc_williamsburg': Place 'Bedford Avenue' NOT FOUND in JSON.
+[NewYork] Route 'nyc_views': Place 'Brooklyn Promenade' NOT FOUND in JSON.
+[NewYork] Route 'nyc_night': Place '230 Fifth Rooftop' NOT FOUND in JSON.
+[NewYork] Route 'nyc_central': Place 'Bethesda Fountain' NOT FOUND in JSON.
+[NewYork] Route 'nyc_central': Place 'The Ramble' NOT FOUND in JSON.
+[NewYork] Route 'nyc_central': Place 'Belvedere Castle' NOT FOUND in JSON.
+[NewYork] Route 'nyc_soho': Place 'Broadway SoHo' NOT FOUND in JSON.
+[NewYork] Route 'nyc_soho': Place 'Greene Street' NOT FOUND in JSON.
+[NewYork] Route 'nyc_soho': Place 'Nolita' NOT FOUND in JSON.
+[Tokyo] Route 'tok_ramen': Place 'Fuunji (Tsukemen)' NOT FOUND in JSON.
+[Tokyo] Route 'tok_ramen': Place 'Rokurinsha' NOT FOUND in JSON.
+[Tokyo] Route 'tok_ramen': Place 'Nakiryu (Michelin Star)' NOT FOUND in JSON.
+[Tokyo] Route 'tok_akihabara': Place 'Mandarake Complex' NOT FOUND in JSON.
+[Tokyo] Route 'tok_akihabara': Place 'Yodobashi Camera' NOT FOUND in JSON.
+[Tokyo] Route 'tok_akihabara': Place 'Radio Kaikan' NOT FOUND in JSON.
+[Tokyo] Route 'tok_akihabara': Place 'Super Potato (Retro Games)' NOT FOUND in JSON.
+[Tokyo] Route 'tok_shibuya': Place 'Cat Street' NOT FOUND in JSON.
+[Tokyo] Route 'tok_tsukiji': Place 'Sushizanmai Main Branch' NOT FOUND in JSON.
+[Tokyo] Route 'tok_tsukiji': Place 'Tamagoyaki shops' NOT FOUND in JSON.
+[Tokyo] Route 'tok_tsukiji': Place 'Tsukiji Hongwanji Temple' NOT FOUND in JSON.
+[Tokyo] Route 'tok_tsukiji': Place 'Kitsuneya (Beef Bowls)' NOT FOUND in JSON.
+[Tokyo] Route 'tok_shinjuku': Place 'Hanazono Shrine' NOT FOUND in JSON.
+[Tokyo] Route 'tok_shinjuku': Place 'Tokyo Metropolitan Govt Building' NOT FOUND in JSON.
+[Tokyo] Route 'tok_teamlab': Place 'Mori Art Museum' NOT FOUND in JSON.
+[Tokyo] Route 'tok_teamlab': Place 'Tokyo City View' NOT FOUND in JSON.
+[Tokyo] Route 'tok_shimokita': Place 'Vintage Clothing Shops' NOT FOUND in JSON.
+[Tokyo] Route 'tok_shimokita': Place 'Basement Bar (Live Music)' NOT FOUND in JSON.
+[Tokyo] Route 'tok_shimokita': Place 'Shirohige’s Cream Puff Factory' NOT FOUND in JSON.
+[Tokyo] Route 'tok_shimokita': Place 'Setagaya Park' NOT FOUND in JSON.
+[Tokyo] Route 'tok_konbini': Place '7-Eleven' NOT FOUND in JSON.
+[Tokyo] Route 'tok_konbini': Place 'Lawson' NOT FOUND in JSON.
+[Tokyo] Route 'tok_konbini': Place 'Family Mart' NOT FOUND in JSON.
+[Tokyo] Route 'tok_asakusa': Place 'Nakamise Street' NOT FOUND in JSON.
+[Tokyo] Route 'tok_asakusa': Place 'Kaminarimon Gate' NOT FOUND in JSON.
+[Sevilla] Route 'sev_triana': Place 'Puente de Isabel II' NOT FOUND in JSON.
+[Madrid] Route 'mad_art': Place 'Atocha' NOT FOUND in JSON.
+[Madrid] Route 'mad_park': Place 'Edificio Metrópolis' NOT FOUND in JSON.
+[Florence] Route 'flo_local': Place 'Mercato di SantAmbrogio' NOT FOUND in JSON.
+[Florence] Route 'flo_churches': Place 'Santa Maria Novella' NOT FOUND in JSON.
+[Athens] Route 'ath_streets': Place 'Hadrians Library' NOT FOUND in JSON.
+[Dubai] Route 'dub_desert': Place 'Dubai Desert Conservation Reserve' NOT FOUND in JSON.
+[Dubai] Route 'dub_desert': Place 'Dune Bashing & Camel Rides' NOT FOUND in JSON.
+[Dubai] Route 'dub_desert': Place 'Dragon Mart' NOT FOUND in JSON.
+[Vienna] Route 'vie_coffee': Place 'Chiado' NOT FOUND in JSON.
+[Vienna] Route 'vie_music': Place 'St. Stephens Cathedral' NOT FOUND in JSON.
+[Venice] Route 'ven_art': Place 'Gallerie dellAccademia' NOT FOUND in JSON.
+[Lucerne] Route 'luc_walls': Place 'Zyt Tower' NOT FOUND in JSON.
+[Lucerne] Route 'luc_walls': Place 'Männleturm' NOT FOUND in JSON.
+[Lucerne] Route 'luc_transport': Place 'Planetarium' NOT FOUND in JSON.
+[Lucerne] Route 'luc_transport': Place 'Verkehrshaus Filmtheatre' NOT FOUND in JSON.
+[Lucerne] Route 'luc_transport': Place 'Hans Erni Museum' NOT FOUND in JSON.
+[Lucerne] Route 'luc_mountain': Place 'Kriens Gondola' NOT FOUND in JSON.
+[Lucerne] Route 'luc_mountain': Place 'Fräkmüntegg' NOT FOUND in JSON.
+[Lucerne] Route 'luc_mountain': Place 'Pilatus Kulm' NOT FOUND in JSON.
+[Lucerne] Route 'luc_mountain': Place 'Hotel Pilatus-Kulm Restaurant' NOT FOUND in JSON.
+[Lucerne] Route 'luc_mountain': Place 'Alpnachstad' NOT FOUND in JSON.
+[Lucerne] Route 'luc_lake': Place 'World Café' NOT FOUND in JSON.
+[Lucerne] Route 'luc_lake': Place 'Lake Promenade' NOT FOUND in JSON.
+[Lucerne] Route 'luc_art': Place 'KKL Foyer' NOT FOUND in JSON.
+[Stockholm] Route 'sto_classic': Place 'Riddarholmen Kilisesi' NOT FOUND in JSON.
+[Stockholm] Route 'sto_metro': Place 'Solna Centrum Metro İstasyonu' NOT FOUND in JSON.
+[Stockholm] Route 'sto_photo': Place 'Fjällgatan Lookout' NOT FOUND in JSON.
+[Stockholm] Route 'sto_archipelago': Place 'Stockholm Archipelago Boat Tour' NOT FOUND in JSON.
+[Stockholm] Route 'sto_archipelago': Place 'Fjäderholmarna Islands' NOT FOUND in JSON.
+[Stockholm] Route 'sto_royal': Place 'Chinese Pavilion' NOT FOUND in JSON.
+[Stockholm] Route 'sto_royal': Place 'Drottningholm Court Theatre' NOT FOUND in JSON.
+[Stockholm] Route 'sto_royal': Place 'Royal Palace Gardens' NOT FOUND in JSON.
+[Stockholm] Route 'sto_royal': Place 'Kina Slott' NOT FOUND in JSON.
+[HongKong] Route 'hk_urban': Place 'Sneaker Street' NOT FOUND in JSON.
+[HongKong] Route 'hk_lantau': Place 'Wisdom Path' NOT FOUND in JSON.
+[HongKong] Route 'hk_food': Place 'Kams Roast Goose' NOT FOUND in JSON.
+[HongKong] Route 'hk_transport': Place 'Central Ferry Pier' NOT FOUND in JSON.
+[HongKong] Route 'hk_transport': Place 'Hong Kong Observation Wheel' NOT FOUND in JSON.
+[Nice] Route 'nce_promenade': Place 'Tour Bellanda' NOT FOUND in JSON.
+[Lyon] Route 'lyo_basilica': Place 'Musée Gallo-Romain' NOT FOUND in JSON.
+[Lyon] Route 'lyo_food': Place 'François Pralus - Lyon Presquîle' NOT FOUND in JSON.
+[Lyon] Route 'lyo_murals': Place 'Mur des Canuts' NOT FOUND in JSON.
+[Lyon] Route 'lyo_murals': Place 'La Fresque des Lyonnais' NOT FOUND in JSON.
+[Lyon] Route 'lyo_nature': Place 'Parc de la Tête dOr (Gül Bahçesi)' NOT FOUND in JSON.
+[Lyon] Route 'lyo_nature': Place 'LInstitut Lumière' NOT FOUND in JSON.
+[Dublin] Route 'dub_history': Place 'St. Patricks Cathedral' NOT FOUND in JSON.
+[Dublin] Route 'dub_rebellion': Place 'Famine Memorial' NOT FOUND in JSON.
+[Dublin] Route 'dub_parks': Place 'St. Stephens Green' NOT FOUND in JSON.
+[Dublin] Route 'dub_music': Place 'The Stags Head' NOT FOUND in JSON.
+[Dublin] Route 'dub_music': Place 'ODonoghues' NOT FOUND in JSON.
+[Antalya] Route 'ant_nature': Place 'Düden Parkı' NOT FOUND in JSON.
+[Antalya] Route 'ant_nature': Place 'The Land of Legends Theme Park' NOT FOUND in JSON.
+[Antalya] Route 'ant_lara': Place 'Falez Parkı' NOT FOUND in JSON.
+[Antalya] Route 'ant_lara': Place 'Eski Lara Caddesi' NOT FOUND in JSON.
+[Antalya] Route 'ant_lara': Place 'Lara Balıkçı Barınağı' NOT FOUND in JSON.
+[Gaziantep] Route 'gaz_artisans': Place 'Kutnu Kumaş Atölyeleri' NOT FOUND in JSON.
+[Gaziantep] Route 'gaz_artisans': Place 'Sedef Kakma Atölyesi' NOT FOUND in JSON.
+[Gaziantep] Route 'gaz_artisans': Place 'Tarihi Gümrük Hanı' NOT FOUND in JSON.
+[Cappadocia] Route 'kap_classic': Place 'Avanos Çömlek Atölyesi' NOT FOUND in JSON.
+[Cappadocia] Route 'kap_underground': Place 'Selime Manastırı' NOT FOUND in JSON.
+[Cappadocia] Route 'kap_underground': Place 'Belisirma Köyü (Yemek)' NOT FOUND in JSON.
+[Cappadocia] Route 'kap_balloons': Place 'Aşk Vadisi (Love Valley)' NOT FOUND in JSON.
+[Cappadocia] Route 'kap_balloons': Place 'Kızılçukur Vadisi (Sunset Point)' NOT FOUND in JSON.
+[Cappadocia] Route 'kap_balloons': Place 'Galerie Icman (Carpet Shop)' NOT FOUND in JSON.
+[Cappadocia] Route 'kap_balloons': Place 'Asmalı Konak Museum' NOT FOUND in JSON.
+[Belgrade] Route 'beg_vibe': Place 'Kalemegdan Fortress' NOT FOUND in JSON.
+[Belgrade] Route 'beg_vibe': Place 'Knez Mihailova Street' NOT FOUND in JSON.
+[Belgrade] Route 'beg_vibe': Place 'Republic Square' NOT FOUND in JSON.
+[Belgrade] Route 'beg_vibe': Place 'Hotel Moskva (Cafe)' NOT FOUND in JSON.
+[Belgrade] Route 'beg_vibe': Place 'Beton Hala (Riverside)' NOT FOUND in JSON.
+[Belgrade] Route 'beg_bohemian': Place 'Skadarlija Street' NOT FOUND in JSON.
+[Belgrade] Route 'beg_bohemian': Place 'Dva Jelena (Two Deer)' NOT FOUND in JSON.
+[Belgrade] Route 'beg_tesla': Place 'Nikola Tesla Museum' NOT FOUND in JSON.
+[Belgrade] Route 'beg_tesla': Place 'Saint Sava Temple' NOT FOUND in JSON.
+[Belgrade] Route 'beg_tesla': Place 'National Museum of Serbia' NOT FOUND in JSON.
+[Belgrade] Route 'beg_tesla': Place 'Smokvica (Cafe)' NOT FOUND in JSON.
+[Bologna] Route 'bol_red': Place 'Salumeria Simoni (Food)' NOT FOUND in JSON.
+[Bologna] Route 'bol_food': Place 'Osteria dellOrsa' NOT FOUND in JSON.
+[Heidelberg] Route 'hdb_classic': Place 'Vetters Alt Heidelberger Brauhaus' NOT FOUND in JSON.
+[Heidelberg] Route 'hdb_philo': Place 'Philosophers Walk' NOT FOUND in JSON.
+[Heidelberg] Route 'hdb_philo': Place 'Thingstätte Amphitheatre' NOT FOUND in JSON.
+[Heidelberg] Route 'hdb_philo': Place 'Neuburg Abbey' NOT FOUND in JSON.
+[Kotor] Route 'kot_fortress': Place 'Trail Cheese Shop' NOT FOUND in JSON.
+[Matera] Route 'mat_sassi': Place 'Antica Matera (Restaurant)' NOT FOUND in JSON.
+[Matera] Route 'mat_view': Place 'Pane e Pace (Bakery)' NOT FOUND in JSON.
+[Oslo] Route 'osl_arts': Place 'Salt (Sauna & Food)' NOT FOUND in JSON.
+[Oslo] Route 'osl_arts': Place 'Vippa Food Court' NOT FOUND in JSON.
+[Oslo] Route 'osl_parks': Place 'Holmenkollen Ski Museum & Tower' NOT FOUND in JSON.
+[Oslo] Route 'osl_parks': Place 'Anne på landet (Cafe)' NOT FOUND in JSON.
+[Oslo] Route 'osl_parks': Place 'The Emanuel Vigeland Museum' NOT FOUND in JSON.
+[Rovaniemi] Route 'rov_santa': Place 'Santas Main Post Office' NOT FOUND in JSON.
+[Rovaniemi] Route 'rov_santa': Place 'Santas Salmon Place (Food)' NOT FOUND in JSON.
+[Rovaniemi] Route 'rov_santa': Place 'Reindeer Sleigh Ride' NOT FOUND in JSON.
+[SanSebastian] Route 'san_beach': Place 'Peine del Viento (Wind Comb)' NOT FOUND in JSON.
+[SanSebastian] Route 'san_beach': Place 'Monte Igueldo Funicular' NOT FOUND in JSON.
+[Santorini] Route 'san_oia': Place 'Blue Domed Churches' NOT FOUND in JSON.
+[Santorini] Route 'san_oia': Place 'Melenio Cafe' NOT FOUND in JSON.
+[Santorini] Route 'san_hike': Place 'Prophet Elias Church' NOT FOUND in JSON.
+[Santorini] Route 'san_hike': Place 'Avocado Restaurant (Lunch Stop)' NOT FOUND in JSON.
+[Sintra] Route 'sin_fairytale': Place 'Park of Pena' NOT FOUND in JSON.
+[Sintra] Route 'sin_mystic': Place 'Piriquita (Pastries)' NOT FOUND in JSON.
+[Tromso] Route 'tos_nature': Place 'Fjellheisen Viewpoint' NOT FOUND in JSON.
+[Zermatt] Route 'zerm_gornergrat': Place '3100 Kulmhotel' NOT FOUND in JSON.
+[Zermatt] Route 'zerm_gornergrat': Place 'Matterhorn Viewpoint' NOT FOUND in JSON.
+[Zermatt] Route 'zerm_village': Place 'Mountaineers Cemetery' NOT FOUND in JSON.
+[Colmar] Route 'col_venice': Place 'Saint Martins Church' NOT FOUND in JSON.
+[Edinburgh] Route 'edi_royal': Place 'St Giles Cathedral' NOT FOUND in JSON.
+[Edinburgh] Route 'edi_royal': Place 'Mary Kings Close' NOT FOUND in JSON.
+[Edinburgh] Route 'edi_arthur': Place 'Arthurs Seat' NOT FOUND in JSON.
+[Edinburgh] Route 'edi_arthur': Place 'Salisbury Crags' NOT FOUND in JSON.
+[Giethoorn] Route 'gie_boat': Place 'Museum Giethoorn t Olde Maat Uus' NOT FOUND in JSON.
+[Giethoorn] Route 'gie_boat': Place 'Smits Paviljoen (Lunch)' NOT FOUND in JSON.
+[Hallstatt] Route 'hal_view': Place 'Hallstatt Skywalk (Welterbeblick)' NOT FOUND in JSON.
+[Hallstatt] Route 'hal_view': Place 'Salt Mine (Salzwelten)' NOT FOUND in JSON.
+[Hallstatt] Route 'hal_view': Place 'Lake Hallstatt' NOT FOUND in JSON.
+[Hallstatt] Route 'hal_view': Place 'Bone House (Beinhaus)' NOT FOUND in JSON.
+[Hallstatt] Route 'hal_view': Place 'Seehotel Grüner Baum' NOT FOUND in JSON.
+
+✅ All found places have image URLs.

@@ -1,0 +1,12 @@
+/* 
+  InfoPlist.strings
+  Runner
+
+  Created for Turkish Localization
+*/
+
+"NSLocationWhenInUseUsageDescription" = "MyWay, haritada konumunuzu göstermek ve yakındaki yerleri bulmak için konumunuzu kullanır. Verileriniz cihazınızda işlenir, sunucularda saklanmaz.";
+"NSLocationAlwaysUsageDescription" = "MyWay, haritada konumunuzu göstermek ve yakındaki yerleri bulmak için konumunuzu kullanır. Verileriniz cihazınızda işlenir, sunucularda saklanmaz.";
+"NSLocationAlwaysAndWhenInUseUsageDescription" = "MyWay, haritada konumunuzu göstermek ve yakındaki yerleri bulmak için konumunuzu kullanır. Verileriniz cihazınızda işlenir, sunucularda saklanmaz.";
+"NSCameraUsageDescription" = "Seyahat anılarınızı fotoğraflamanız için kamera izni gerekiyor. Fotoğraflarınız sadece cihazınızda saklanır, sunuculara yüklenmez.";
+"NSPhotoLibraryUsageDescription" = "Anılarınıza fotoğraf ekleyebilmeniz için galeri erişimi gerekiyor. Fotoğraflarınız cihazınızda kalır, buluta yüklenmez.";

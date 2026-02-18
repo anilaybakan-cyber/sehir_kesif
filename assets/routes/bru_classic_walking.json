@@ -1,0 +1,528 @@
+{
+  "routes": [
+    {
+      "overview_polyline": {
+        "points": "_rpwHqwtRc@j@GOIUIWEWAU?UBSFMFIJKZWRUb@g@FI@CFG@E@Av@}An@kAZa@PU@EDIDIBI@C?AFOHJBDZd@`@n@j@~@LP`AbBj@`ANXDHBFBHBHF^DFv@`BNVJRLXNXLVEFEDUTKJQJeAf@wAn@]L]HCCCCGMEWCS_@\\UTg@b@i@V{AyAe@k@W]qAoBS]GOIUIWEWAU?US@gAVKDKNc@UCAGCGAEDC@[F}ATE@C?_ANIBMB_Af@E@YNI@M?EAEIEKAEQ}@OgASgACMAECKEIFEZYFI@Aj@{@HG|@OJCDPBEBCDAFAR?LGRQBEBA@Ab@]VOTMb@KFAD?Dx@?L@HBl@LnBE?A@Q@O?iACQcAMi@I[IQBEBA@Ab@]VOUiBq@cDk@}Br@_AV]|@oADEFEFGb@dBRv@BCbAy@b@]TOJMnAiAFGFEBCVW|@{@`AeAPKJItBkDj@_A|A{Ch@aADItAdAd@\\t@j@BBBBz@r@RXFERGbA_@LGJGFIDGDMBMJ{@Hm@Fa@BQ@ABOBIPi@Tw@Le@JQNSNUJMFQFUD_@@g@BQLa@@G@A?CH_@NN@Dn@z@JNd@n@`@n@RZbAvA`AzAz@pAzBdEd@`AP\\Tb@f@x@TXl@z@PPNNb@h@HHRTn@r@n@bAbApBLV`@bAZ~@^vAR`AP~@N~@LbAP~BF~B@h@BnC?z@?VAj@?JGhAAJKlAGx@Kt@Kt@SbAW`AUl@KTOZO\\EFOVQTUZSV[ZYTi@f@EBQLIH]IOEKC??KGGGIMIYGQCIGKQOo@a@{AaA[S_@SKCQCUCw@Di@@w@@UAYA[Ea@EOA_@?A?I??Q?GC}@YeFCi@?IAII}AAMCi@OqBDAd@SDCBHHV"
+      },
+      "legs": [
+        {
+          "distance": {
+            "value": 5593.1,
+            "text": "5.6 km"
+          },
+          "duration": {
+            "value": 791.4,
+            "text": "13 mins"
+          },
+          "steps": [
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 25.4
+              },
+              "duration": {
+                "value": 5.6
+              },
+              "polyline": {
+                "points": "_rpwHqwtRc@j@"
+              },
+              "html_instructions": "depart Markt"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 70.8
+              },
+              "duration": {
+                "value": 10.7
+              },
+              "polyline": {
+                "points": "cspwHevtRGOIUIWEWAU?UBSFMFI"
+              },
+              "html_instructions": "continue Markt"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 219.9
+              },
+              "duration": {
+                "value": 35.8
+              },
+              "polyline": {
+                "points": "sspwHs{tRJKZWRUb@g@FI@CFG@E@Av@}An@kAZa@PU@EDIDIBI@C?AFO"
+              },
+              "html_instructions": "turn Wollestraat"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 89
+              },
+              "duration": {
+                "value": 13.3
+              },
+              "polyline": {
+                "points": "kjpwHohuRHJBDZd@`@n@j@~@"
+              },
+              "html_instructions": "turn Dijver"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "sfpwHgcuR"
+              },
+              "html_instructions": "arrive Dijver"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 244.2
+              },
+              "duration": {
+                "value": 39.5
+              },
+              "polyline": {
+                "points": "sfpwHgcuRLP`AbBj@`ANXDHBFBHBHF^DFv@`BNVJRLXNXLV"
+              },
+              "html_instructions": "depart Dijver"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 197.5
+              },
+              "duration": {
+                "value": 36.8
+              },
+              "polyline": {
+                "points": "g}owHmstREFEDUTKJQJeAf@wAn@]L]HCCCCGMEWCS"
+              },
+              "html_instructions": "turn Mariastraat"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 85.6
+              },
+              "duration": {
+                "value": 12.6
+              },
+              "polyline": {
+                "points": "{fpwHcptR_@\\UTg@b@i@V"
+              },
+              "html_instructions": "turn Simon Stevinplein"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 229.6
+              },
+              "duration": {
+                "value": 39.9
+              },
+              "polyline": {
+                "points": "ckpwHsltR{AyAe@k@W]qAoBS]GOIUIWEWAU?U"
+              },
+              "html_instructions": "turn Steenstraat"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 101.8
+              },
+              "duration": {
+                "value": 15
+              },
+              "polyline": {
+                "points": "gtpwHgztRS@gAVKDKNc@UCAGCGA"
+              },
+              "html_instructions": "continue Markt"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 204.1
+              },
+              "duration": {
+                "value": 30.7
+              },
+              "polyline": {
+                "points": "sypwHuytREDC@[F}ATE@C?_ANIBMB_Af@E@YNI@M?EA"
+              },
+              "html_instructions": "new name Vlamingstraat"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 107.6
+              },
+              "duration": {
+                "value": 18.4
+              },
+              "polyline": {
+                "points": "wdqwH{utREIEKAEQ}@OgASgACMAECKEI"
+              },
+              "html_instructions": "turn Academiestraat"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 62
+              },
+              "duration": {
+                "value": 9.3
+              },
+              "polyline": {
+                "points": "kgqwHo~tRFEZYFI@Aj@{@"
+              },
+              "html_instructions": "turn Biskajersplein"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 47.6
+              },
+              "duration": {
+                "value": 8.1
+              },
+              "polyline": {
+                "points": "qdqwHwauRHG|@OJC"
+              },
+              "html_instructions": "turn Wijnzakstraat"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 7
+              },
+              "duration": {
+                "value": 5.5
+              },
+              "polyline": {
+                "points": "}aqwHsbuRDP"
+              },
+              "html_instructions": "end of road Sint-Jansplein"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 131.4
+              },
+              "duration": {
+                "value": 22.2
+              },
+              "polyline": {
+                "points": "waqwHabuRBEBCDAFAR?LGRQBEBA@Ab@]VOTMb@KFAD?"
+              },
+              "html_instructions": "continue Sint-Jansplein"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 85.4
+              },
+              "duration": {
+                "value": 16.1
+              },
+              "polyline": {
+                "points": "}zpwH}euRDx@?L@HBl@LnB"
+              },
+              "html_instructions": "end of road Philipstockstraat"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 4.4
+              },
+              "duration": {
+                "value": 0.6
+              },
+              "polyline": {
+                "points": "czpwHm~tRE?A@"
+              },
+              "html_instructions": "turn Cordoeaniersstraat"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "kzpwHk~tR"
+              },
+              "html_instructions": "arrive Cordoeaniersstraat"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 122
+              },
+              "duration": {
+                "value": 20.8
+              },
+              "polyline": {
+                "points": "kzpwHk~tRQ@O?iACQcAMi@I[IQ"
+              },
+              "html_instructions": "depart Cordoeaniersstraat"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 43.5
+              },
+              "duration": {
+                "value": 10.9
+              },
+              "polyline": {
+                "points": "k_qwHicuRBEBA@Ab@]VO"
+              },
+              "html_instructions": "turn Wapenmakersstraat"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 152.3
+              },
+              "duration": {
+                "value": 24.1
+              },
+              "polyline": {
+                "points": "e}pwHaeuRUiBq@cDk@}B"
+              },
+              "html_instructions": "turn Sint-Walburgastraat"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 112.1
+              },
+              "duration": {
+                "value": 18.8
+              },
+              "polyline": {
+                "points": "y`qwHmquRr@_AV]|@oADEFEFG"
+              },
+              "html_instructions": "end of road Riddersstraat"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 63.1
+              },
+              "duration": {
+                "value": 14.5
+              },
+              "polyline": {
+                "points": "y{pwHowuRb@dBRv@"
+              },
+              "html_instructions": "end of road Hoogstraat"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 150.5
+              },
+              "duration": {
+                "value": 22.5
+              },
+              "polyline": {
+                "points": "azpwHqruRBCbAy@b@]TOJMnAiAFGFE"
+              },
+              "html_instructions": "turn Meestraat"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 114.2
+              },
+              "duration": {
+                "value": 17.1
+              },
+              "polyline": {
+                "points": "srpwHcyuRBCVW|@{@`AeAPK"
+              },
+              "html_instructions": "new name Freren Fonteinstraat"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 242.9
+              },
+              "duration": {
+                "value": 37.3
+              },
+              "polyline": {
+                "points": "empwHm~uRJItBkDj@_A|A{Ch@aADI"
+              },
+              "html_instructions": "new name Minderbroedersstraat"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 168.6
+              },
+              "duration": {
+                "value": 26.3
+              },
+              "polyline": {
+                "points": "icpwHkmvRtAdAd@\\t@j@BBBBz@r@RX"
+              },
+              "html_instructions": "end of road Schaarstraat"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 202.5
+              },
+              "duration": {
+                "value": 30.1
+              },
+              "polyline": {
+                "points": "_{owHefvRFERGbA_@LGJGFIDGDMBMJ{@Hm@Fa@BQ@ABOBIPi@Tw@"
+              },
+              "html_instructions": "turn Gentpoortstraat"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 137.4
+              },
+              "duration": {
+                "value": 25.9
+              },
+              "polyline": {
+                "points": "ysowHmrvRLe@JQNSNUJMFQFUD_@@g@BQLa@@G@A?CH_@"
+              },
+              "html_instructions": "fork Gentpoortstraat"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 525
+              },
+              "duration": {
+                "value": 35.8
+              },
+              "polyline": {
+                "points": "{oowHo|vRNN@Dn@z@JNd@n@`@n@RZbAvA`AzAz@pAzBdEd@`AP\\Tb@f@x@TXl@z@PPNN"
+              },
+              "html_instructions": "turn Buiten Gentpoortvest"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 549
+              },
+              "duration": {
+                "value": 35.2
+              },
+              "polyline": {
+                "points": "wynwHo}uRb@h@HHRTn@r@n@bAbApBLV`@bAZ~@^vAR`AP~@N~@LbAP~BF~B@h@BnC?z@"
+              },
+              "html_instructions": "new name Buiten Katelijnevest"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 400.2
+              },
+              "duration": {
+                "value": 40.6
+              },
+              "polyline": {
+                "points": "alnwHkttR?VAj@?JGhAAJKlAGx@Kt@Kt@SbAW`AUl@KTOZO\\EFOVQTUZSV[ZYTi@f@EBQLIH"
+              },
+              "html_instructions": "new name Buiten Begijnenvest"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 423.9
+              },
+              "duration": {
+                "value": 66.7
+              },
+              "polyline": {
+                "points": "{wnwHmxsR]IOEKC??KGGGIMIYGQCIGKQOo@a@{AaA[S_@SKCQCUCw@Di@@w@@UAYA[Ea@EOA_@?A?I?"
+              },
+              "html_instructions": "turn Oostmeers"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 228.3
+              },
+              "duration": {
+                "value": 35.8
+              },
+              "polyline": {
+                "points": "cnowHqatR?Q?GC}@YeFCi@?IAII}AAMCi@OqB"
+              },
+              "html_instructions": "turn Zonnekemeers"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 29.5
+              },
+              "duration": {
+                "value": 5.4
+              },
+              "polyline": {
+                "points": "gpowHuutRDAd@SDC"
+              },
+              "html_instructions": "turn Walplein"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 14.7
+              },
+              "duration": {
+                "value": 3.5
+              },
+              "polyline": {
+                "points": "unowHovtRBHHV"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "gnowHmutR"
+              },
+              "html_instructions": "arrive "
+            }
+          ]
+        }
+      ],
+      "bounds": {
+        "northeast": {
+          "lat": 51.21158,
+          "lng": 3.23544
+        },
+        "southwest": {
+          "lat": 51.19697,
+          "lng": 3.21943
+        }
+      }
+    }
+  ],
+  "status": "OK"
+}

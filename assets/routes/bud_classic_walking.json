@@ -1,0 +1,463 @@
+{
+  "routes": [
+    {
+      "overview_polyline": {
+        "points": "as{`HknesBo@~@KLgAzACBEH[b@o@n@c@\\_@ZMHk@\\EBaAl@_@XIFOJHLHNFLDJBJBR?J?N?NAPCHCLCJENw@|CUz@Sp@Sl@CHIXAFGNCHKNEFEHABADAFAF@D@FBBB@B@BABABABETc@JWPc@Ve@Tc@R_@JOHIPKFCBADA@H?JAFAHEDQLKJo@hAWd@ITe@tBG\\Op@YrAMTV`@f@|@BFNHPWNUtAsBVa@jAeBDILQPU`@o@rAsBNSNUE_@CQGg@Q_BIq@kD{ZG_@SH]T{BtAk@\\aAt@_@b@KRwAvD_@|@IPO\\}AhCIHMLSVKJKDI@ODOBMBMBM@q@Fa@FM@S?E?E@EBEDEDCDABA@ADAB?B?B?B?FBHFHD@FBD?FAJEZSDCHEBATMLGLEHCH?F?H?v@Fb@BVBTBF?N?VGJCLEPONORURU\\c@n@{@LQLIJIFC?APGPGHADAF@JBHDLJ^`@CDKRg@z@Q\\Ub@MTGL[n@S^Ud@_@j@e@l@]^[XUPOLQJWJUHq@XMHYX_@K]@UDMBEBWJQJUZqAbBs@`Ai@t@wBnD_@p@KPq@hAGJEJwA_@GBMDIBE@IBKDMBQHIDKFCI?ACISDe@h@_@^YXk@n@MLCBCDu@z@MN]`@_@b@_BfBi@OC?IC@ONgCX_FN}APyABUBK@M^gC?ENmBLqBJyBDc@DWFq@Fy@Bk@@MAe@GkDAq@E_BAQ?WKoD?M@KDIXAFARAr@?N@`@HH@ZBX@fBQNC`BQLAtAMDAD?dD]NAl@Gz@QdA_@x@[FAJELECM?ES}AAMAO?M@GAE?GAIAGEOLCn@IzAQ|@QTGh@MtBe@PChCs@dBm@nA]"
+      },
+      "legs": [
+        {
+          "distance": {
+            "value": 5908.7,
+            "text": "5.9 km"
+          },
+          "duration": {
+            "value": 790.1,
+            "text": "13 mins"
+          },
+          "steps": [
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 317.5
+              },
+              "duration": {
+                "value": 52
+              },
+              "polyline": {
+                "points": "as{`HknesBo@~@KLgAzACBEH[b@o@n@c@\\_@ZMHk@\\EBaAl@_@XIFOJ"
+              },
+              "html_instructions": "depart Szent Gy\u00f6rgy utca"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 443.2
+              },
+              "duration": {
+                "value": 59.3
+              },
+              "polyline": {
+                "points": "{a|`H}_esBHLHNFLDJBJBR?J?N?NAPCHCLCJENw@|CUz@Sp@Sl@CHIXAFGNCHKNEFEHABADAFAF@D@FBBB@B@BABABABETc@JWPc@Ve@Tc@R_@JOHIPKFCBADA"
+              },
+              "html_instructions": "end of road Palota \u00fat"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 224.5
+              },
+              "duration": {
+                "value": 33.6
+              },
+              "polyline": {
+                "points": "g`|`HesdsB@H?JAFAHEDQLKJo@hAWd@ITe@tBG\\Op@YrA"
+              },
+              "html_instructions": "turn T\u00e1bor utca"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 10.9
+              },
+              "duration": {
+                "value": 6.8
+              },
+              "polyline": {
+                "points": "wf|`H}cdsBMT"
+              },
+              "html_instructions": "turn Logodi utca"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 64.3
+              },
+              "duration": {
+                "value": 12.6
+              },
+              "polyline": {
+                "points": "eg|`HgcdsBV`@f@|@BFNH"
+              },
+              "html_instructions": "turn Mik\u00f3 utca"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 308
+              },
+              "duration": {
+                "value": 44.4
+              },
+              "polyline": {
+                "points": "qd|`Hu_dsBPWNUtAsBVa@jAeBDILQPU`@o@rAsBNSNU"
+              },
+              "html_instructions": "turn Attila \u00fat"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 92.3
+              },
+              "duration": {
+                "value": 10.4
+              },
+              "polyline": {
+                "points": "yw{`H_qdsBE_@CQGg@Q_BIq@"
+              },
+              "html_instructions": "turn Alag\u00fat utca"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 362.7
+              },
+              "duration": {
+                "value": 38.7
+              },
+              "polyline": {
+                "points": "gy{`HkxdsBkD{ZG_@"
+              },
+              "html_instructions": "new name Budav\u00e1ri alag\u00fat"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 567.1
+              },
+              "duration": {
+                "value": 82.8
+              },
+              "polyline": {
+                "points": "{~{`HguesBSH]T{BtAk@\\aAt@_@b@KRwAvD_@|@IPO\\}AhCIHMLSVKJKDI@ODOBMBMBM@q@Fa@FM@"
+              },
+              "html_instructions": "turn Hunyadi J\u00e1nos \u00fat"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 38.5
+              },
+              "duration": {
+                "value": 4
+              },
+              "polyline": {
+                "points": "mx|`Hk|dsBS?E?E@EBEDEDCDABA@AD"
+              },
+              "html_instructions": "fork Hunyadi J\u00e1nos \u00fat"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 70.1
+              },
+              "duration": {
+                "value": 10.1
+              },
+              "polyline": {
+                "points": "iz|`Hg{dsBAB?B?B?B?FBHFHD@FBD?FAJEZSDCHE"
+              },
+              "html_instructions": "continue Hunyadi J\u00e1nos \u00fat"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "kw|`H{zdsB"
+              },
+              "html_instructions": "arrive Hunyadi J\u00e1nos \u00fat"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 388.4
+              },
+              "duration": {
+                "value": 47.7
+              },
+              "polyline": {
+                "points": "kw|`H{zdsBBATMLGLEHCH?F?H?v@Fb@BVBTBF?N?VGJCLEPONORURU\\c@n@{@LQLIJIFC?APGPGHADAF@JBHDLJ^`@"
+              },
+              "html_instructions": "depart Hunyadi J\u00e1nos \u00fat"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 136.8
+              },
+              "duration": {
+                "value": 20.4
+              },
+              "polyline": {
+                "points": "sc|`HmaesBCDKRg@z@Q\\Ub@MTGL[n@S^"
+              },
+              "html_instructions": "turn D\u00edsz t\u00e9r"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 227.3
+              },
+              "duration": {
+                "value": 34.2
+              },
+              "polyline": {
+                "points": "yh|`HaydsBUd@_@j@e@l@]^[XUPOLQJWJUHq@XMHYX"
+              },
+              "html_instructions": "new name T\u00e1rnok utca"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 47.5
+              },
+              "duration": {
+                "value": 7.1
+              },
+              "polyline": {
+                "points": "os|`HgodsB_@K]@UD"
+              },
+              "html_instructions": "turn Szenth\u00e1roms\u00e1g t\u00e9r"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "cv|`HkodsB"
+              },
+              "html_instructions": "arrive Szenth\u00e1roms\u00e1g t\u00e9r"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 36.6
+              },
+              "duration": {
+                "value": 5.5
+              },
+              "polyline": {
+                "points": "cv|`HkodsBMBEBWJQJ"
+              },
+              "html_instructions": "depart Szenth\u00e1roms\u00e1g t\u00e9r"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 113
+              },
+              "duration": {
+                "value": 16.9
+              },
+              "polyline": {
+                "points": "ax|`HkndsBUZqAbBs@`A"
+              },
+              "html_instructions": "turn Hess Andr\u00e1s t\u00e9r"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 211.8
+              },
+              "duration": {
+                "value": 32.2
+              },
+              "polyline": {
+                "points": "}||`HihdsBi@t@wBnD_@p@KPq@hAGJEJ"
+              },
+              "html_instructions": "new name Fortuna utca"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 71.8
+              },
+              "duration": {
+                "value": 10.9
+              },
+              "polyline": {
+                "points": "ke}`H}{csBwA_@GBMDIBE@"
+              },
+              "html_instructions": "turn B\u00e9csi kapu t\u00e9r"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 44.5
+              },
+              "duration": {
+                "value": 8
+              },
+              "polyline": {
+                "points": "ii}`Hm|csBIBKDMBQHIDKF"
+              },
+              "html_instructions": "turn Ostrom utca"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 9.6
+              },
+              "duration": {
+                "value": 4.3
+              },
+              "polyline": {
+                "points": "uk}`Hg{csBCI?ACI"
+              },
+              "html_instructions": "turn Hunfalvy utca"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 311.9
+              },
+              "duration": {
+                "value": 48.6
+              },
+              "polyline": {
+                "points": "}k}`H}{csBSDe@h@_@^YXk@n@MLCBCDu@z@MN]`@_@b@_BfBi@OC?IC"
+              },
+              "html_instructions": "turn Fi\u00e1th J\u00e1nos utca"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 288.4
+              },
+              "duration": {
+                "value": 26.8
+              },
+              "polyline": {
+                "points": "mz}`HeocsB@ONgCX_FN}APyABUBK@M^gC"
+              },
+              "html_instructions": "turn Hatty\u00fa utca"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 148.7
+              },
+              "duration": {
+                "value": 15.4
+              },
+              "polyline": {
+                "points": "uv}`HmfdsB?ENmBLqBJyBDc@"
+              },
+              "html_instructions": "new name Batthy\u00e1ny utca"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 73.1
+              },
+              "duration": {
+                "value": 6.6
+              },
+              "polyline": {
+                "points": "eu}`HqrdsBDWFq@Fy@Bk@@M"
+              },
+              "html_instructions": "new name M\u00e1ria t\u00e9r"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 232.4
+              },
+              "duration": {
+                "value": 28.1
+              },
+              "polyline": {
+                "points": "it}`HoxdsBAe@GkDAq@E_BAQ?WKoD?M@KDI"
+              },
+              "html_instructions": "new name Batthy\u00e1ny utca"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 108.3
+              },
+              "duration": {
+                "value": 9.7
+              },
+              "polyline": {
+                "points": "au}`HqkesBXAFARAr@?N@`@HH@ZB"
+              },
+              "html_instructions": "turn Batthy\u00e1ny t\u00e9r"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 455.2
+              },
+              "duration": {
+                "value": 65.4
+              },
+              "polyline": {
+                "points": "_o}`HekesBX@fBQNC`BQLAtAMDAD?dD]NAl@Gz@QdA_@x@[FAJELE"
+              },
+              "html_instructions": "new name F\u0151 utca"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 84.5
+              },
+              "duration": {
+                "value": 9.8
+              },
+              "polyline": {
+                "points": "yu|`HaqesBCM?ES}AAMAO?M@GAE?GAIAGEO"
+              },
+              "html_instructions": "turn Hal\u00e1sz utca"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 419.9
+              },
+              "duration": {
+                "value": 37.8
+              },
+              "polyline": {
+                "points": "_w|`HwwesBLCn@IzAQ|@QTGh@MtBe@PChCs@dBm@nA]"
+              },
+              "html_instructions": "turn Sztehlo G\u00e1bor rakpart"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "_`|`Hi_fsB"
+              },
+              "html_instructions": "arrive Sztehlo G\u00e1bor rakpart"
+            }
+          ]
+        }
+      ],
+      "bounds": {
+        "northeast": {
+          "lat": 47.50775,
+          "lng": 19.04133
+        },
+        "southwest": {
+          "lat": 47.49633,
+          "lng": 19.02841
+        }
+      }
+    }
+  ],
+  "status": "OK"
+}

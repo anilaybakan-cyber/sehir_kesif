@@ -1,0 +1,359 @@
+{
+  "routes": [
+    {
+      "overview_polyline": {
+        "points": "qsfgGuwz_@WaAEOI[COGWK_@a@aB{@iDCKEM@GDQn@kCZkABMVcA@KbAuFNq@RyANwAPs@b@wAXw@BQBOGACA{@WmA[CAC?iApISxAoA~JAHsAfKAHC@E?a@OCC?CAK?AGkDA[IyDAO|@E`B^tAZJ@VcAJ@z@?H??L?~BAJ?xC?RAfB?LK?eAh@YTKFOJiBdAWL`EnAHEHZDNx@bDZpAFVBF@F@B@D?NBP@HBFFV@BDFBFLT@B@@T`@BFDDL@f@?FBB@?BDVPGDAx@QXG@V?D@FB`ANrCUJq@\\^nBF^BN@@?DDNHd@R~@BP@DH`@DPL|@@Fx@hG@BAPC\\AVADANAH@HBz@NjCJ|B@R?PNtC?NRhE@VPdD@`@@J@`@g@No@RGBGDCDEHGVEDIDGB]YOD_AZ_AXsAb@KBy@XaCx@ODUH?_@Ik@CKCIGQYcB"
+      },
+      "legs": [
+        {
+          "distance": {
+            "value": 3902.2,
+            "text": "3.9 km"
+          },
+          "duration": {
+            "value": 491,
+            "text": "8 mins"
+          },
+          "steps": [
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 214
+              },
+              "duration": {
+                "value": 19.3
+              },
+              "polyline": {
+                "points": "qsfgGuwz_@WaAEOI[COGWK_@a@aB{@iDCKEM"
+              },
+              "html_instructions": "depart Rue des Trois Fr\u00e8res Barth\u00e9l\u00e9my"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 460.4
+              },
+              "duration": {
+                "value": 49.3
+              },
+              "polyline": {
+                "points": "yxfgGqf{_@@GDQn@kCZkABMVcA@KbAuFNq@RyANwAPs@b@wAXw@BQBO"
+              },
+              "html_instructions": "new name Rue Saint-Pierre"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 91.9
+              },
+              "duration": {
+                "value": 20.4
+              },
+              "polyline": {
+                "points": "wnfgGag|_@GACA{@WmA[CAC?"
+              },
+              "html_instructions": "turn Rue Vitalis"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 513.5
+              },
+              "duration": {
+                "value": 73.9
+              },
+              "polyline": {
+                "points": "usfgG{h|_@iApISxAoA~JAHsAfK"
+              },
+              "html_instructions": "turn Rue Ferrari"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 121
+              },
+              "duration": {
+                "value": 17.5
+              },
+              "polyline": {
+                "points": "y{fgG}b{_@AHC@E?a@OCC?CAK?AGkDA["
+              },
+              "html_instructions": "new name Rue de l'Olivier"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "w}fgG_j{_@"
+              },
+              "html_instructions": "arrive Rue de l'Olivier"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 82.7
+              },
+              "duration": {
+                "value": 14.1
+              },
+              "polyline": {
+                "points": "w}fgG_j{_@IyDAO"
+              },
+              "html_instructions": "depart Rue de l'Olivier"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 145.4
+              },
+              "duration": {
+                "value": 24.5
+              },
+              "polyline": {
+                "points": "c~fgGip{_@|@E`B^tAZJ@"
+              },
+              "html_instructions": "turn Rue de Bruys"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 31.1
+              },
+              "duration": {
+                "value": 3.3
+              },
+              "polyline": {
+                "points": "avfgGqn{_@VcA"
+              },
+              "html_instructions": "end of road Rue Saint-Pierre"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 45.5
+              },
+              "duration": {
+                "value": 8.5
+              },
+              "polyline": {
+                "points": "iufgGup{_@J@z@?H?"
+              },
+              "html_instructions": "turn Rue Ch\u00e2teau Payan"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 181.2
+              },
+              "duration": {
+                "value": 27.6
+              },
+              "polyline": {
+                "points": "wrfgGsp{_@?L?~BAJ?xC?RAfB?L"
+              },
+              "html_instructions": "turn Rue Nau"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 163.2
+              },
+              "duration": {
+                "value": 26.1
+              },
+              "polyline": {
+                "points": "{rfgGub{_@K?eAh@YTKFOJiBdAWL"
+              },
+              "html_instructions": "turn Rue Ferdinand Rey"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 118.7
+              },
+              "duration": {
+                "value": 11.7
+              },
+              "polyline": {
+                "points": "e{fgGm}z_@`EnAHE"
+              },
+              "html_instructions": "turn Rue Saint-Michel"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 286.8
+              },
+              "duration": {
+                "value": 36.7
+              },
+              "polyline": {
+                "points": "ytfgGc{z_@HZDNx@bDZpAFVBF@F@B@D?NBP@HBFFV@BDFBFLT@B@@T`@BFDDL@f@?FBB@?BDV"
+              },
+              "html_instructions": "turn Rue des Trois Fr\u00e8res Barth\u00e9l\u00e9my"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 61.9
+              },
+              "duration": {
+                "value": 12.5
+              },
+              "polyline": {
+                "points": "ilfgG_jz_@PGDAx@QXG"
+              },
+              "html_instructions": "end of road Cours Lieutaud"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 103
+              },
+              "duration": {
+                "value": 12.1
+              },
+              "polyline": {
+                "points": "}hfgGckz_@@V?D@FB`ANrC"
+              },
+              "html_instructions": "turn Boulevard Louis Salvator"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 113.9
+              },
+              "duration": {
+                "value": 12.3
+              },
+              "polyline": {
+                "points": "ehfgGgcz_@UJq@\\^nBF^BN@@"
+              },
+              "html_instructions": "turn Rue Lafon"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 238.6
+              },
+              "duration": {
+                "value": 23.4
+              },
+              "polyline": {
+                "points": "_ifgG{|y_@?DDNHd@R~@BP@DH`@DPL|@@Fx@hG@BAP"
+              },
+              "html_instructions": "new name Rue Arm\u00e9ny"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 449.6
+              },
+              "duration": {
+                "value": 43.7
+              },
+              "polyline": {
+                "points": "{dfgGmky_@C\\AVADANAH@HBz@NjCJ|B@R?PNtC?NRhE@VPdD@`@@J@`@"
+              },
+              "html_instructions": "new name Cours Pierre Puget"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 60.8
+              },
+              "duration": {
+                "value": 5.7
+              },
+              "polyline": {
+                "points": "ebfgGcix_@g@No@RGBGD"
+              },
+              "html_instructions": "turn Boulevard Notre-Dame"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 30
+              },
+              "duration": {
+                "value": 3.1
+              },
+              "polyline": {
+                "points": "mefgGugx_@CDEHGVEDID"
+              },
+              "html_instructions": "turn Place de la Corderie Henri Bergasse"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 24
+              },
+              "duration": {
+                "value": 2.8
+              },
+              "polyline": {
+                "points": "offgGafx_@GB]Y"
+              },
+              "html_instructions": "end of road Place de la Corderie Henri Bergasse"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 271.3
+              },
+              "duration": {
+                "value": 28.5
+              },
+              "polyline": {
+                "points": "ugfgGwfx_@OD_AZ_AXsAb@KBy@XaCx@ODUH"
+              },
+              "html_instructions": "turn Rue Fort Notre-Dame"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 93.7
+              },
+              "duration": {
+                "value": 14
+              },
+              "polyline": {
+                "points": "gvfgGo`x_@?_@Ik@CKCIGQYcB"
+              },
+              "html_instructions": "end of road Quai de Rive-Neuve"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "{wfgGggx_@"
+              },
+              "html_instructions": "arrive Quai de Rive-Neuve"
+            }
+          ]
+        }
+      ],
+      "bounds": {
+        "northeast": {
+          "lat": 43.29458,
+          "lng": 5.39294
+        },
+        "southwest": {
+          "lat": 43.29011,
+          "lng": 5.37112
+        }
+      }
+    }
+  ],
+  "status": "OK"
+}

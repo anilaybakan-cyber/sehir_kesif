@@ -1,0 +1,177 @@
+{
+  "routes": [
+    {
+      "overview_polyline": {
+        "points": "wvviGedik@uBOG@IBNd@r@pBJ\\Xz@HTLIl@Dp@FbBNH?J@zFb@D?D@J@pD\\D?F@N@lCR`BNL@NBPBlB`@F@LBH@DB`Dh@HBF@J?`C@H?H?L?bA?h@@lB@D?@?LCDCBGDUC[Q_CAKSoCAKQ{BKWGIGCO@y@NeARw@PC?IBI@AQCY"
+      },
+      "legs": [
+        {
+          "distance": {
+            "value": 1550.5,
+            "text": "1.6 km"
+          },
+          "duration": {
+            "value": 213.8,
+            "text": "3 mins"
+          },
+          "steps": [
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 76.2
+              },
+              "duration": {
+                "value": 17.9
+              },
+              "polyline": {
+                "points": "wvviGedik@uBOG@IB"
+              },
+              "html_instructions": "depart Rue Gounod"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 124.6
+              },
+              "duration": {
+                "value": 23.4
+              },
+              "polyline": {
+                "points": "_{viGodik@Nd@r@pBJ\\Xz@HT"
+              },
+              "html_instructions": "turn Avenue Thiers"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 552.2
+              },
+              "duration": {
+                "value": 51.5
+              },
+              "polyline": {
+                "points": "kwviGg|hk@LIl@Dp@FbBNH?J@zFb@D?D@J@pD\\D?F@N@lCR`BNL@NB"
+              },
+              "html_instructions": "turn Rue Berlioz"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 355.3
+              },
+              "duration": {
+                "value": 55
+              },
+              "polyline": {
+                "points": "qxuiG}whk@PBlB`@F@LBH@DB`Dh@HBF@J?`C@H?H?L?bA?h@@"
+              },
+              "html_instructions": "new name Rue de Rivoli"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "yduiGwthk@"
+              },
+              "html_instructions": "arrive Rue de Rivoli"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 73.1
+              },
+              "duration": {
+                "value": 13.1
+              },
+              "polyline": {
+                "points": "yduiGwthk@lB@D?@?LC"
+              },
+              "html_instructions": "depart Rue de Rivoli"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 202
+              },
+              "duration": {
+                "value": 23.2
+              },
+              "polyline": {
+                "points": "u`uiGythk@DCBGDUC[Q_CAKSoCAKQ{B"
+              },
+              "html_instructions": "turn Promenade des Anglais"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 22.6
+              },
+              "duration": {
+                "value": 4.8
+              },
+              "polyline": {
+                "points": "ebuiG{cik@KWGIGC"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 126.9
+              },
+              "duration": {
+                "value": 22.4
+              },
+              "polyline": {
+                "points": "acuiGaeik@O@y@NeARw@PC?IBI@"
+              },
+              "html_instructions": "turn Rue Meyerbeer"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 17.7
+              },
+              "duration": {
+                "value": 2.5
+              },
+              "polyline": {
+                "points": "ajuiGccik@AQCY"
+              },
+              "html_instructions": "turn Rue de France"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "gjuiGodik@"
+              },
+              "html_instructions": "arrive Rue de France"
+            }
+          ]
+        }
+      ],
+      "bounds": {
+        "northeast": {
+          "lat": 43.70368,
+          "lng": 7.26113
+        },
+        "southwest": {
+          "lat": 43.69427,
+          "lng": 7.25851
+        }
+      }
+    }
+  ],
+  "status": "OK"
+}

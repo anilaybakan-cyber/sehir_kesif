@@ -1,0 +1,346 @@
+{
+  "routes": [
+    {
+      "overview_polyline": {
+        "points": "i`~xGy_nd@?DHrCKCUG_AYGAKEoC{@ICa@xCMEaA_@ICeBo@A?EADU@OZqB@GHi@Hc@?CD[BSFk@B[BW?UAW?G?GAMCQAC?CCKAI?CAECSk@\\i@^a@TWNEDSLKFMH??SHE@A@E@QBE?G@M@C?sAL{BRM@Q@UBm@Fk@DI@Q?G?A?G?A?C?G@I?_AHE?OBG@KBG@M@C?iE^u@FY@E@CAC?GAGCKKGGAASU_@a@KKQSGGOQMOY[KKCC]_@]_@AAKKEGo@q@c@a@SSwAwAGGEGCGCEISIQ?E@Q@O@K?KBa@@[@OFu@Du@?A?IBYB]?IBi@Fy@@[Dy@@I@[?C?G@Q@g@@EDMDM@EFSN]BGJUJWJQ@EVk@?Ad@eAFQNYHSDGDMBEXm@BETUJIJKFGBClGaGv@s@LMHCFCTKbA{@VBFBHDFLBN?D@H@PNiA?C@GD_@AMCGCGAEIKMEKCg@l@e@f@[\\GFMZMXMLw@r@mG`GCBGFKJKHUTCDYl@CDELEFIROXGPe@dA?@Wj@ADKPKVKTCFO\\GRADELELADSXOQw@_A_@c@GT[n@]v@[r@GN\\`@r@z@DFDHBFDJDFDFr@z@FFPNPRHHb@d@z@|@JHDIFG"
+      },
+      "legs": [
+        {
+          "distance": {
+            "value": 3538.4,
+            "text": "3.5 km"
+          },
+          "duration": {
+            "value": 482.7,
+            "text": "8 mins"
+          },
+          "steps": [
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 59.9
+              },
+              "duration": {
+                "value": 13.5
+              },
+              "polyline": {
+                "points": "i`~xGy_nd@?DHrC"
+              },
+              "html_instructions": "depart Rue Marguerite-Dellenbach"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 157.1
+              },
+              "duration": {
+                "value": 28.7
+              },
+              "polyline": {
+                "points": "_`~xG_{md@KCUG_AYGAKEoC{@IC"
+              },
+              "html_instructions": "turn Rue du Colonel-Coutau"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 62.6
+              },
+              "duration": {
+                "value": 11.6
+              },
+              "polyline": {
+                "points": "oh~xGm~md@a@xC"
+              },
+              "html_instructions": "turn Rue Gourgas"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 117.1
+              },
+              "duration": {
+                "value": 19.9
+              },
+              "polyline": {
+                "points": "qi~xGsymd@MEaA_@ICeBo@A?EA"
+              },
+              "html_instructions": "turn Rue Charles-Humbert"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 109.6
+              },
+              "duration": {
+                "value": 17.7
+              },
+              "polyline": {
+                "points": "yo~xGo|md@DU@OZqB@GHi@Hc@?CD["
+              },
+              "html_instructions": "end of road Rue du Vieux-Billard"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 107.3
+              },
+              "duration": {
+                "value": 17.9
+              },
+              "polyline": {
+                "points": "ym~xG}dnd@BSFk@B[BW?UAW?G?GAMCQAC?CCKAI?CAECS"
+              },
+              "html_instructions": "new name Rue Harry-Marc"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 468.5
+              },
+              "duration": {
+                "value": 47.4
+              },
+              "polyline": {
+                "points": "{m~xGkmnd@k@\\i@^a@TWNEDSLKFMH??SHE@A@E@QBE?G@M@C?sAL{BRM@Q@UBm@Fk@DI@Q?G?A?G?A?C?G@I?_AHE?OBG@KBG@"
+              },
+              "html_instructions": "turn Boulevard Georges-Favon"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 153.6
+              },
+              "duration": {
+                "value": 13.8
+              },
+              "polyline": {
+                "points": "kg_yGwend@M@C?iE^u@F"
+              },
+              "html_instructions": "new name Pont de la Coulouvreni\u00e8re"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 379.2
+              },
+              "duration": {
+                "value": 33
+              },
+              "polyline": {
+                "points": "}o_yGmdnd@Y@E@CAC?GAGCKKGGAASU_@a@KKQSGGOQMOY[KKCC]_@]_@AAKKEGo@q@c@a@SSwAwAGGEGCGCEISIQ"
+              },
+              "html_instructions": "new name Rue des Terreaux-du-Temple"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 242.8
+              },
+              "duration": {
+                "value": 43.3
+              },
+              "polyline": {
+                "points": "ga`yGound@?E@Q@O@K?KBa@@[@OFu@Du@?A?IBYB]?IBi@Fy@@[Dy@@I@[?C?G@Q@g@"
+              },
+              "html_instructions": "new name Rue de Chantepoulet"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 203.5
+              },
+              "duration": {
+                "value": 27.6
+              },
+              "polyline": {
+                "points": "g_`yG}hod@@EDMDM@EFSN]BGJUJWJQ@EVk@?Ad@eAFQNYHSDGDMBEXm@"
+              },
+              "html_instructions": "new name Rue du Mont-Blanc"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 336.3
+              },
+              "duration": {
+                "value": 34.2
+              },
+              "polyline": {
+                "points": "kx_yGcvod@BETUJIJKFGBClGaGv@s@LMHCFCTKbA{@"
+              },
+              "html_instructions": "new name Pont du Mont-Blanc"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 51
+              },
+              "duration": {
+                "value": 16.8
+              },
+              "polyline": {
+                "points": "mh_yGudpd@VBFBHDFLBN?D@H@P"
+              },
+              "html_instructions": "continue Quai du G\u00e9n\u00e9ral-Guisan"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 29.9
+              },
+              "duration": {
+                "value": 2.6
+              },
+              "polyline": {
+                "points": "sf_yGgbpd@NiA"
+              },
+              "html_instructions": "continue Quai du G\u00e9n\u00e9ral-Guisan"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "cf_yGqdpd@"
+              },
+              "html_instructions": "arrive Quai du G\u00e9n\u00e9ral-Guisan"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 17.5
+              },
+              "duration": {
+                "value": 4
+              },
+              "polyline": {
+                "points": "cf_yGqdpd@?C@GD_@"
+              },
+              "html_instructions": "depart Quai du G\u00e9n\u00e9ral-Guisan"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 143.3
+              },
+              "duration": {
+                "value": 15.2
+              },
+              "polyline": {
+                "points": "{e_yG}epd@AMCGCGAEIKMEKCg@l@e@f@[\\GFMZMX"
+              },
+              "html_instructions": "turn Quai du G\u00e9n\u00e9ral-Guisan"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 268.5
+              },
+              "duration": {
+                "value": 26.1
+              },
+              "polyline": {
+                "points": "yk_yGebpd@MLw@r@mG`GCBGFKJKHUTCD"
+              },
+              "html_instructions": "new name Pont du Mont-Blanc"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 203.5
+              },
+              "duration": {
+                "value": 27.6
+              },
+              "polyline": {
+                "points": "kx_yGcvod@Yl@CDELEFIROXGPe@dA?@Wj@ADKPKVKTCFO\\GRADELELAD"
+              },
+              "html_instructions": "new name Rue du Mont-Blanc"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 88.6
+              },
+              "duration": {
+                "value": 19.4
+              },
+              "polyline": {
+                "points": "g_`yG}hod@SXOQw@_A_@c@"
+              },
+              "html_instructions": "turn Rue P\u00e9colat"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 94.2
+              },
+              "duration": {
+                "value": 18.8
+              },
+              "polyline": {
+                "points": "cc`yGykod@GT[n@]v@[r@GN"
+              },
+              "html_instructions": "turn Rue Michel-Roset"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 233.3
+              },
+              "duration": {
+                "value": 41.1
+              },
+              "polyline": {
+                "points": "if`yGweod@\\`@r@z@DFDHBFDJDFDFr@z@FFPNPRHHb@d@z@|@JH"
+              },
+              "html_instructions": "end of road Rue de Berne"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 11.1
+              },
+              "duration": {
+                "value": 2.5
+              },
+              "polyline": {
+                "points": "_|_yGcznd@DIFG"
+              },
+              "html_instructions": "turn Rue Rousseau"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "q{_yGuznd@"
+              },
+              "html_instructions": "arrive Rue Rousseau"
+            }
+          ]
+        }
+      ],
+      "bounds": {
+        "northeast": {
+          "lat": 46.20917,
+          "lng": 6.15052
+        },
+        "southwest": {
+          "lat": 46.19792,
+          "lng": 6.13802
+        }
+      }
+    }
+  ],
+  "status": "OK"
+}

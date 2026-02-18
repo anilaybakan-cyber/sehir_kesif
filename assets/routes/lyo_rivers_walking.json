@@ -1,0 +1,333 @@
+{
+  "routes": [
+    {
+      "overview_polyline": {
+        "points": "uzivGk|n\\??t@Eb@Ed@CPCPAF?HAHAfAKNA@L\\vBHHRDJ?`ACB?BATCLA@?JCLC??B?^IzAWH?HA@D???D?\\?f@?@?B?B?@?D?LNAd@@X?B@@?T@H?J@J?R@tAHtAXrCdAB?DBB@FDJDFBPHl@Xj@\\BBXT??@?DDJJ^\\RRHF\\^HHXVPPr@t@FF@@BDBBHLDHHJV^bEtE^`@BDBBBDHHFKDKBKBG^_B@I@EDOl@cCHk@BOBSXaCBOZuC@KBOLiA?GBM?EDWToBNqA@I?EBSRMNODM@IXeBBM@G@EDWPiAL{@BMP_@@AFGHEB?DAFBlAt@d@T`Aj@RN`@VZNv@d@HFjAt@t@b@RLd@XJFlAt@z@f@FFFBRLpAv@\\TDB`CtADDNHJFHDFDDBlAv@dAn@JF`Ar@z@j@zCbCf@^pA~@jAdAdBzAjFdEl@^ZPlBfApp@bi@rAhAtAfAj@d@tAhAjCxBrGjFd@^x@p@XRZV~ArADDlB|An@f@h@`@TVLNJHJFJHD@D@T@N@TAREVIZMPKHEFAF?P@^FLOBWCYAAQUUUSAm@\\SJYLMFKDK@OBS@Q@K?GAIEMIIGeBsAkB{ACCcAoAOQOO"
+      },
+      "legs": [
+        {
+          "distance": {
+            "value": 5583.1,
+            "text": "5.6 km"
+          },
+          "duration": {
+            "value": 662.6,
+            "text": "11 mins"
+          },
+          "steps": [
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "uzivGk|n\\??"
+              },
+              "html_instructions": "depart Rue Paul Chenavard"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "uzivGk|n\\"
+              },
+              "html_instructions": "arrive Rue Paul Chenavard"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 156.1
+              },
+              "duration": {
+                "value": 24.4
+              },
+              "polyline": {
+                "points": "uzivGk|n\\t@Eb@Ed@CPCPAF?HAHAfAKNA"
+              },
+              "html_instructions": "depart Rue Paul Chenavard"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 241.1
+              },
+              "duration": {
+                "value": 50.8
+              },
+              "polyline": {
+                "points": "}qivGs}n\\@L\\vBHHRDJ?`ACB?BATCLA@?JCLC??B?^IzAWH?HA"
+              },
+              "html_instructions": "turn Rue Chavanne"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 44.1
+              },
+              "duration": {
+                "value": 13.5
+              },
+              "polyline": {
+                "points": "ufivGuzn\\@D???D?\\?f@?@?B?B?@?D?L"
+              },
+              "html_instructions": "turn Rue Dubois"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 285.8
+              },
+              "duration": {
+                "value": 49
+              },
+              "polyline": {
+                "points": "sfivGcwn\\NAd@@X?B@@?T@H?J@J?R@tAHtAXrCdAB?DBB@FD"
+              },
+              "html_instructions": "turn Quai Saint Antoine"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 269.9
+              },
+              "duration": {
+                "value": 44.5
+              },
+              "polyline": {
+                "points": "{vhvGesn\\JDFBPHl@Xj@\\BBXT??@?DDJJ^\\RRHF\\^HHXVPPr@t@FF@@BDBBHLDH"
+              },
+              "html_instructions": "new name Quai des C\u00e9lestins"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 200.9
+              },
+              "duration": {
+                "value": 39.3
+              },
+              "polyline": {
+                "points": "ajhvG}gn\\HJV^bEtE^`@BDBBBDHH"
+              },
+              "html_instructions": "new name Quai Tilsitt"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 132.9
+              },
+              "duration": {
+                "value": 22
+              },
+              "polyline": {
+                "points": "eahvG_~m\\FKDKBKBG^_B@I@EDOl@cC"
+              },
+              "html_instructions": "turn Rue Antoine de Saint-Exup\u00e9ry"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 193.5
+              },
+              "duration": {
+                "value": 33.1
+              },
+              "polyline": {
+                "points": "w}gvGogn\\Hk@BOBSXaCBOZuC@KBOLiA"
+              },
+              "html_instructions": "new name Place Bellecour"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "wzgvGmvn\\"
+              },
+              "html_instructions": "arrive Place Bellecour"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 114.1
+              },
+              "duration": {
+                "value": 21.3
+              },
+              "polyline": {
+                "points": "wzgvGmvn\\?GBM?EDWToBNqA@I?EBS"
+              },
+              "html_instructions": "depart Place Bellecour"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 158.1
+              },
+              "duration": {
+                "value": 25.9
+              },
+              "polyline": {
+                "points": "aygvGg_o\\RMNODM@IXeBBM@G@EDWPiAL{@BM"
+              },
+              "html_instructions": "turn Place Antonin Poncet"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 802.1
+              },
+              "duration": {
+                "value": 92.6
+              },
+              "polyline": {
+                "points": "iugvGkjo\\P_@@AFGHEB?DAFBlAt@d@T`Aj@RN`@VZNv@d@HFjAt@t@b@RLd@XJFlAt@z@f@FFFBRLpAv@\\TDB`CtADDNHJFHDFDDBlAv@dAn@JF`Ar@"
+              },
+              "html_instructions": "turn Quai du Docteur Gailleton"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 333.1
+              },
+              "duration": {
+                "value": 41.7
+              },
+              "polyline": {
+                "points": "}lfvGeqn\\z@j@zCbCf@^pA~@jAdAdBzA"
+              },
+              "html_instructions": "fork Quai Perrache"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 264.1
+              },
+              "duration": {
+                "value": 17
+              },
+              "polyline": {
+                "points": "y|evGscn\\jFdEl@^ZPlBfA"
+              },
+              "html_instructions": "on ramp "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 1782.5
+              },
+              "duration": {
+                "value": 130.5
+              },
+              "polyline": {
+                "points": "uoevGsym\\pp@bi@rAhAtAfAj@d@tAhAjCxBrGjFd@^x@p@XRZV~ArADDlB|An@f@h@`@"
+              },
+              "html_instructions": "merge Autoroute du Soleil"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 166.3
+              },
+              "duration": {
+                "value": 15.1
+              },
+              "polyline": {
+                "points": "sybvGgpk\\TVLNJHJFJHD@D@T@N@TAREVIZMPKHEFAF?P@"
+              },
+              "html_instructions": "off ramp Pont de la Mulati\u00e8re"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 88.5
+              },
+              "duration": {
+                "value": 10.6
+              },
+              "polyline": {
+                "points": "}pbvGmok\\^FLOBWCYAAQUUUSA"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 119.5
+              },
+              "duration": {
+                "value": 10.8
+              },
+              "polyline": {
+                "points": "mqbvGwrk\\m@\\SJYLMFKDK@OBS@Q@K?GA"
+              },
+              "html_instructions": "on ramp Pont de la Mulati\u00e8re"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 158.9
+              },
+              "duration": {
+                "value": 14.2
+              },
+              "polyline": {
+                "points": "ywbvGipk\\IEMIIGeBsAkB{ACC"
+              },
+              "html_instructions": "merge Autoroute du Soleil"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 71.5
+              },
+              "duration": {
+                "value": 6.3
+              },
+              "polyline": {
+                "points": "q_cvGuvk\\cAoAOQOO"
+              },
+              "html_instructions": "off ramp "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "ubcvGgzk\\"
+              },
+              "html_instructions": "arrive "
+            }
+          ]
+        }
+      ],
+      "bounds": {
+        "northeast": {
+          "lat": 45.76699,
+          "lng": 4.83535
+        },
+        "southwest": {
+          "lat": 45.72934,
+          "lng": 4.81518
+        }
+      }
+    }
+  ],
+  "status": "OK"
+}

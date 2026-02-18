@@ -1,0 +1,632 @@
+{
+  "routes": [
+    {
+      "overview_polyline": {
+        "points": "igqnGuqfdAKCg@Ia@IKAAAA?B_@D_@NgBFo@@SFi@@M??@IPkBFy@@G@QBEBEHCH?F@RBD?F?d@@N?D?j@@j@@d@Dh@Db@B`@@VARANCTCTCj@?JAF?B?HCDE?d@?H?bA?Z@p@@l@B|@I?A?C?I?CAUGmA_@GCC?k@OAFCVO`AECIEWIGCGCGGKEMEKC[GE?ABIz@E`@?BCNE\\EZG`@CXAF@GBYFa@D[D]BO?CDa@H{@@C?ELkAPyABg@?M?I?M?C?Gh@Db@B`@@VARANCTCTCj@?JAF?B?HCDEDAHCH?RAH?t@IlAI`@Ex@M\\QrAeA@?f@UJEp@WhB{@DCFC@ALCt@W^KjA[~@MVEp@KfAGH?|@@P?t@FF?B?@J?FBHBFBBBBB?D@HACRAXEr@E`@Ev@SbD?Hi@zIATABC^QzCI~AEb@Y|E]bGAHIrAAJALCZ_@AC?EAoBESAW?_@CsAGIAGAMAC?ICGCGCGEEAAAAAAAAAAACAC@A@ECEEIGAACECCACAECICGAECCCCGGGGGEIGGE{A_AWOeAo@EAMGKEMGo@[_Ae@MGSI_@MSGKACAGA?WAmAEmBAYG?A?C?A?U?GAKACACC?EGUCEAEECGCCAGt@ABAT@UHy@B@FBDB@DBDFT?DBBB@J@F@T?@?B?@?F??ECaBAk@?AJ?b@AR?H?b@AJ?@ABA@@B@D@f@LpAX`@HRDd@LF@dAVbAT^LXH@?D?BA@C@EF_@PeABKBKFIFKR]FIFIFGHG`@WFGHGRM??\\URMNINIPIJGJGDBDDD@HBHBfAP`BVF@ATABC^QzCI~AEb@Y|E]bGAHIrAAJALCZ_@AC?EAoBESAW?_@CsAGIAGAMAC?ICGCGCGEEAAAAAAAAAAACAC@A@ECEEIGAACECCACAECICGAECCCCGGGGGEIGGE{A_AWOeAo@EAMGKEMGo@[_Ae@MGSI_@MSGKACAGA?P@`B?bAAt@EdA?JEb@EPCPGb@YtBMEIEGCKAKEMEECE?C?UjA_CaA?EAEACCGsAUy@Qc@MkAU@e@?ACO?MDq@PwA@S_@E[EOCCBGj@Ev@Gp@KESGKEC?E?C?qAYEAMCCABUBQ??Dc@Fw@@IDg@PcBNoA@QBO@O@IBYBUDe@RmBDc@J}@B_@D_@NgBDk@"
+      },
+      "legs": [
+        {
+          "distance": {
+            "value": 6564.2,
+            "text": "6.6 km"
+          },
+          "duration": {
+            "value": 1324.4,
+            "text": "22 mins"
+          },
+          "steps": [
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 58.6
+              },
+              "duration": {
+                "value": 28.6
+              },
+              "polyline": {
+                "points": "igqnGuqfdAKCg@Ia@IKAAAA?"
+              },
+              "html_instructions": "depart Piazza Re Enzo"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 201.1
+              },
+              "duration": {
+                "value": 32.2
+              },
+              "polyline": {
+                "points": "ojqnGqrfdAB_@D_@NgBFo@@SFi@@M??@IPkBFy@@G@Q"
+              },
+              "html_instructions": "turn Via Francesco Rizzoli"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "ahqnG_bgdA"
+              },
+              "html_instructions": "arrive Via Francesco Rizzoli"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 6.5
+              },
+              "duration": {
+                "value": 1.5
+              },
+              "polyline": {
+                "points": "ahqnG_bgdABEBE"
+              },
+              "html_instructions": "depart Via Francesco Rizzoli"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 68.4
+              },
+              "duration": {
+                "value": 10.4
+              },
+              "polyline": {
+                "points": "ygqnGkbgdAHCH?F@RBD?F?d@@N?D?"
+              },
+              "html_instructions": "turn Piazza della Mercanzia"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 238.2
+              },
+              "duration": {
+                "value": 42.3
+              },
+              "polyline": {
+                "points": "_dqnGgbgdAj@@j@@d@Dh@Db@B`@@VARANCTCTCj@?JAF?B?HCDE"
+              },
+              "html_instructions": "new name Via Castiglione"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 119.9
+              },
+              "duration": {
+                "value": 22.3
+              },
+              "polyline": {
+                "points": "uvpnGmbgdA?d@?H?bA?Z@p@@l@B|@"
+              },
+              "html_instructions": "turn Via Luigi Carlo Farini"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 107.3
+              },
+              "duration": {
+                "value": 53.8
+              },
+              "polyline": {
+                "points": "mvpnG_yfdAI?A?C?I?CAUGmA_@GCC?k@O"
+              },
+              "html_instructions": "turn Via de' Toschi"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 40.1
+              },
+              "duration": {
+                "value": 20.4
+              },
+              "polyline": {
+                "points": "g|pnG}zfdAAFCVO`A"
+              },
+              "html_instructions": "turn Via de' Foscherari"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 80.5
+              },
+              "duration": {
+                "value": 41.1
+              },
+              "polyline": {
+                "points": "}|pnG{wfdAECIEWIGCGCGGKEMEKC[GE?"
+              },
+              "html_instructions": "turn Via Marchesana"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 100.9
+              },
+              "duration": {
+                "value": 67.5
+              },
+              "polyline": {
+                "points": "eaqnGwyfdAABIz@E`@?BCNE\\EZG`@CXAF"
+              },
+              "html_instructions": "turn Via Clavature"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "ubqnGcrfdA"
+              },
+              "html_instructions": "arrive Via Clavature"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 207.3
+              },
+              "duration": {
+                "value": 90.7
+              },
+              "polyline": {
+                "points": "ubqnGcrfdA@GBYFa@D[D]BO?CDa@H{@@C?ELkAPyABg@?M?I?M?C?G"
+              },
+              "html_instructions": "depart Via Clavature"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 838.9
+              },
+              "duration": {
+                "value": 128.2
+              },
+              "polyline": {
+                "points": "a`qnG}agdAh@Db@B`@@VARANCTCTCj@?JAF?B?HCDEDAHCH?RAH?t@IlAI`@Ex@M\\QrAeA@?f@UJEp@WhB{@DCFC@ALCt@W^KjA[~@MVEp@KfAGH?|@@P?t@FF?B?"
+              },
+              "html_instructions": "end of road Via Castiglione"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 16.2
+              },
+              "duration": {
+                "value": 4
+              },
+              "polyline": {
+                "points": "kronGqmgdA@J?FBHBF"
+              },
+              "html_instructions": "turn Piazza di Porta Castiglione"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 16.1
+              },
+              "duration": {
+                "value": 5.6
+              },
+              "polyline": {
+                "points": "aronGklgdABBBBB?D@HA"
+              },
+              "html_instructions": "continue Piazza di Porta Castiglione"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 53.3
+              },
+              "duration": {
+                "value": 6.8
+              },
+              "polyline": {
+                "points": "eqonGclgdACRAXEr@E`@"
+              },
+              "html_instructions": "turn Viale Panzacchi"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 626.1
+              },
+              "duration": {
+                "value": 65.7
+              },
+              "polyline": {
+                "points": "wqonG_hgdAEv@SbD?Hi@zIATABC^QzCI~AEb@Y|E]bGAHIrAAJALCZ"
+              },
+              "html_instructions": "new name Viale Enrico Panzacchi"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 221.6
+              },
+              "duration": {
+                "value": 35.3
+              },
+              "polyline": {
+                "points": "qwonGmwedA_@AC?EAoBESAW?_@CsAGIAGAMAC?ICGCGCGEEAAAAA"
+              },
+              "html_instructions": "turn Via Massimo D'Azeglio"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 10
+              },
+              "duration": {
+                "value": 1.8
+              },
+              "polyline": {
+                "points": "{cpnGcyedAAAAAAACAC@A@"
+              },
+              "html_instructions": "roundabout Via Massimo D'Azeglio"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 343.8
+              },
+              "duration": {
+                "value": 53.9
+              },
+              "polyline": {
+                "points": "kdpnGgyedAECEEIGAACECCACAECICGAECCCCGGGGGEIGGE{A_AWOeAo@EAMGKEMGo@[_Ae@MGSI_@MSGKACAGA"
+              },
+              "html_instructions": "exit roundabout Via Massimo D'Azeglio"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 94.7
+              },
+              "duration": {
+                "value": 18.9
+              },
+              "polyline": {
+                "points": "qupnG{dfdA?WAmAEmBAY"
+              },
+              "html_instructions": "end of road Via Luigi Carlo Farini"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 87.6
+              },
+              "duration": {
+                "value": 39.4
+              },
+              "polyline": {
+                "points": "{upnGilfdAG?A?C?A?U?GAKACACC?EGUCEAEECGCCAGt@"
+              },
+              "html_instructions": "turn Piazza Luigi Galvani"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "eypnGolfdA"
+              },
+              "html_instructions": "arrive Piazza Luigi Galvani"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 10.8
+              },
+              "duration": {
+                "value": 32.3
+              },
+              "polyline": {
+                "points": "eypnGolfdAABAT"
+              },
+              "html_instructions": "depart Piazza Luigi Galvani"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 98.4
+              },
+              "duration": {
+                "value": 50.1
+              },
+              "polyline": {
+                "points": "iypnGukfdA@UHy@B@FBDB@DBDFT?DBBB@J@F@T?@?B?@?F?"
+              },
+              "html_instructions": "continue Piazza Luigi Galvani"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 59.7
+              },
+              "duration": {
+                "value": 11.2
+              },
+              "polyline": {
+                "points": "{upnGilfdA?ECaBAk@?A"
+              },
+              "html_instructions": "end of road Via Luigi Carlo Farini"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 73.3
+              },
+              "duration": {
+                "value": 10.9
+              },
+              "polyline": {
+                "points": "avpnG_qfdAJ?b@AR?H?b@AJ?@ABA"
+              },
+              "html_instructions": "turn Piazza Cavour"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 310.8
+              },
+              "duration": {
+                "value": 50.8
+              },
+              "polyline": {
+                "points": "}qpnGgqfdA@@B@D@f@LpAX`@HRDd@LF@dAVbAT^LXH@?D?BA@C@EF_@PeABKBK"
+              },
+              "html_instructions": "new name Via Giuseppe Garibaldi"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 174.6
+              },
+              "duration": {
+                "value": 26.3
+              },
+              "polyline": {
+                "points": "}bpnG}pfdAFIFKR]FIFIFGHG`@WFGHGRM??\\URMNINIPIJGJG"
+              },
+              "html_instructions": "new name Viale Dodici Giugno"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 123.2
+              },
+              "duration": {
+                "value": 22.6
+              },
+              "polyline": {
+                "points": "szonG}wfdADBDDD@HBHBfAP`BVF@"
+              },
+              "html_instructions": "turn Via Alfonso Rubbiani"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 393.1
+              },
+              "duration": {
+                "value": 42.8
+              },
+              "polyline": {
+                "points": "{sonG}ufdAATABC^QzCI~AEb@Y|E]bGAHIrAAJALCZ"
+              },
+              "html_instructions": "turn Viale Enrico Panzacchi"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 221.6
+              },
+              "duration": {
+                "value": 35.3
+              },
+              "polyline": {
+                "points": "qwonGmwedA_@AC?EAoBESAW?_@CsAGIAGAMAC?ICGCGCGEEAAAAA"
+              },
+              "html_instructions": "turn Via Massimo D'Azeglio"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 10
+              },
+              "duration": {
+                "value": 1.8
+              },
+              "polyline": {
+                "points": "{cpnGcyedAAAAAAACAC@A@"
+              },
+              "html_instructions": "roundabout Via Massimo D'Azeglio"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 343.8
+              },
+              "duration": {
+                "value": 59.9
+              },
+              "polyline": {
+                "points": "kdpnGgyedAECEEIGAACECCACAECICGAECCCCGGGGGEIGGE{A_AWOeAo@EAMGKEMGo@[_Ae@MGSI_@MSGKACAGA"
+              },
+              "html_instructions": "exit roundabout Via Massimo D'Azeglio"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 221.8
+              },
+              "duration": {
+                "value": 35.4
+              },
+              "polyline": {
+                "points": "qupnG{dfdA?P@`B?bAAt@EdA?JEb@EPCPGb@YtB"
+              },
+              "html_instructions": "end of road Via de' Carbonesi"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 49.7
+              },
+              "duration": {
+                "value": 11.9
+              },
+              "polyline": {
+                "points": "iwpnGysedAMEIEGCKAKEMEECE?C?"
+              },
+              "html_instructions": "turn Vicolo Gangaiolo"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 107.6
+              },
+              "duration": {
+                "value": 16.2
+              },
+              "polyline": {
+                "points": "_zpnG{tedAUjA_CaA"
+              },
+              "html_instructions": "turn Via de' Griffoni"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 154.9
+              },
+              "duration": {
+                "value": 25.1
+              },
+              "polyline": {
+                "points": "u~pnGqtedA?EAEACCGsAUy@Qc@MkAU"
+              },
+              "html_instructions": "new name Via Volto Santo"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 93.1
+              },
+              "duration": {
+                "value": 19.7
+              },
+              "polyline": {
+                "points": "{fqnGuwedA@e@?ACO?MDq@PwA@S"
+              },
+              "html_instructions": "end of road Via Quattro Novembre"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 46
+              },
+              "duration": {
+                "value": 10.7
+              },
+              "polyline": {
+                "points": "cfqnGy~edA_@E[EOCCB"
+              },
+              "html_instructions": "turn Piazza Franklin Delano Roosvelt"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 61.1
+              },
+              "duration": {
+                "value": 12
+              },
+              "polyline": {
+                "points": "shqnGe_fdAGj@Ev@Gp@"
+              },
+              "html_instructions": "continue Piazza Franklin Delano Roosvelt"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 93.5
+              },
+              "duration": {
+                "value": 18
+              },
+              "polyline": {
+                "points": "iiqnGozedAKESGKEC?E?C?qAYEAMCCA"
+              },
+              "html_instructions": "turn Via della Zecca"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 183.4
+              },
+              "duration": {
+                "value": 29.5
+              },
+              "polyline": {
+                "points": "mnqnGe|edABUBQ??Dc@Fw@@IDg@PcBNoA@QBO@O@IBY"
+              },
+              "html_instructions": "end of road Via Ugo Bassi"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 196.6
+              },
+              "duration": {
+                "value": 31.5
+              },
+              "polyline": {
+                "points": "_lqnGejfdABUDe@RmBDc@J}@B_@D_@NgBDk@"
+              },
+              "html_instructions": "new name Via Francesco Rizzoli"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "oiqnGeyfdA"
+              },
+              "html_instructions": "arrive Via Francesco Rizzoli"
+            }
+          ]
+        }
+      ],
+      "bounds": {
+        "northeast": {
+          "lat": 44.49527,
+          "lng": 11.3483
+        },
+        "southwest": {
+          "lat": 44.48547,
+          "lng": 11.3388
+        }
+      }
+    }
+  ],
+  "status": "OK"
+}

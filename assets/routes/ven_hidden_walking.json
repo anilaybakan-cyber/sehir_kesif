@@ -1,0 +1,333 @@
+{
+  "routes": [
+    {
+      "overview_polyline": {
+        "points": "initGuaejAE@A?CDABKhAg@jCEJCDGDC@C?C?CAEEaAkAQYAAOKAEAEAAA?CAC@ABCBgAbCS`@[h@e@r@a@j@EFIJa@d@UVUTo@j@i@f@ONQPIF]XIHQJi@XYFg@HM@WBE?E?GBI@C?C?k@Dk@Bg@@c@BS?Y?I?{@BQ?UB[D[F[Hc@P]PeAv@[\\WZW^Ub@oAlCgBxDcBpDc@|@MXw@rA{AtBc@v@}JdT{HpPgTxd@_n@prAuLdW[r@c@fAm@vAk@tAc@dAsDhIu@jBo@bBo@bBGTA@]bAu@vBSn@Oh@]bAMd@KZQn@]lAOp@Qr@c@dBGZS|@Ot@IZGZGVEVMn@Kh@Qz@Mx@CHELAFCBCFGFCBEBEBA?E@C@E?E?G?SCQGwAk@i@Ua@QYKUIMCKCKA]CuAKGASEWEQCGAECKCKCICAAOG_@MECKEICGCCACAGAGAE?E?C?G@KBC@G@GBIBGBeAr@qAx@qAz@oEvCg@Xe@Zm@\\gCvAWNQFMDQ@G@G?O@K?M?KAGAKEGEGEg@o@GGGIKMIGKGKEI@I?GBC@E@GHMPGVAR?V@TBZDT@HDJDNFNJRJLLLJHJDD@F@J?JAFAHEFEHIDGDIBGDM@EFMFKFGBGHINKXK`@KPCHAXCR?`@ALANClAa@^Op@[j@Un@YlDyARIHEJGr@[x@]ZSLIf@[LIn@a@LGPKLGJGHEHCJEHCLCLAJAJ?N?H?H?tAJ\\BJ@JBLBTHXJ`@Ph@TvAj@PFPLDDBB@BHJ@D@DRd@DHFPFJDFFFFDHDF@D?HAHAFCFEDCDEBGDIBIBI@K@K@M@W@y@Bm@BaA@y@@_@Bk@Da@Fc@F]Ha@H[Na@Pa@P_@Ra@^u@FKTc@Zo@N_@Zu@h@aA~@iBz@eB^y@^cAZaAf@_BLs@R_ALw@Lu@Fm@Hk@JqAJcAFk@Ns@Nk@Rq@Xu@j@wAb@eAXo@n{@kjBhT_e@nH_PJUN[lJeSf@{@xAwB`AaBdIcQh@aAn@u@z@m@f@Yd@Od@Of@Gn@Cr@E^A^AzCKF?p@Gb@ETENETKDCLEJGJEHGROd@e@JK@AtCkC`@i@HKd@m@NSRSJMJQHQFSJWHSDGFIFIFIRe@N[LLBBNPhApADFLBFAB?BAFEN[DQNw@V{AHq@?C?EACAAACCAE@A?CDABKhAg@jCEJCDGDC@C?C?CAEEaAkAQYAAOKAEAEAAA?CAC@ABCBgAbCS`@[h@e@r@a@j@EFIJa@d@UVUTo@j@i@f@ONFN@@FJ@@B@DBLF`A`@xBfAHDd@Pf@Vp@\\PN\\RZJf@DlBDtA@RBRDTHVJNFRJVNXRXTZZlAnArHtHrAnA^\\JDNFJDJBL@N@J?NANALANCRGRGFCFEFGFGFGDIFKFKFMDMBMBOBO@O@O?OG{G@K@K@KBIDIDGDEFEFCZGFAJAHCBCDEBC@GBK@M@S@O?UA[AaB?W?G?q@A_C?g@?a@?c@DuB@i@@a@?G?EAE?CCECAC?C?G???A@?@AMBoA"
+      },
+      "legs": [
+        {
+          "distance": {
+            "value": 15505.8,
+            "text": "15.5 km"
+          },
+          "duration": {
+            "value": 1300.1,
+            "text": "21 mins"
+          },
+          "steps": [
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 212.1
+              },
+              "duration": {
+                "value": 48.8
+              },
+              "polyline": {
+                "points": "initGuaejAE@A?CDABKhAg@jCEJCDGDC@C?C?CAEEaAkAQYAAOKAEAEAAA?CAC@AB"
+              },
+              "html_instructions": "depart "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "kuitG_~djA"
+              },
+              "html_instructions": "arrive Ponte della Libert\u00e0"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 655
+              },
+              "duration": {
+                "value": 49.2
+              },
+              "polyline": {
+                "points": "kuitG_~djACBgAbCS`@[h@e@r@a@j@EFIJa@d@UVUTo@j@i@f@ONQPIF]XIHQJi@XYFg@HM@WBE?E?GBI@C?C?k@Dk@Bg@@c@BS?Y?I?{@BQ?UB[D"
+              },
+              "html_instructions": "depart Ponte della Libert\u00e0"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "aujtG_idjA"
+              },
+              "html_instructions": "arrive Ponte della Libert\u00e0"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 3584
+              },
+              "duration": {
+                "value": 241.8
+              },
+              "polyline": {
+                "points": "aujtG_idjA[F[Hc@P]PeAv@[\\WZW^Ub@oAlCgBxDcBpDc@|@MXw@rA{AtBc@v@}JdT{HpPgTxd@_n@prAuLdW"
+              },
+              "html_instructions": "depart Ponte della Libert\u00e0"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 530.2
+              },
+              "duration": {
+                "value": 34.1
+              },
+              "polyline": {
+                "points": "avntGun}iA[r@c@fAm@vAk@tAc@dAsDhIu@jBo@bBo@bBGTA@]bA"
+              },
+              "html_instructions": "new name Via della Libert\u00e0"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 782.1
+              },
+              "duration": {
+                "value": 62
+              },
+              "polyline": {
+                "points": "qgotGkl|iAu@vBSn@Oh@]bAMd@KZQn@]lAOp@Qr@c@dBGZS|@Ot@IZGZGVEVMn@Kh@Qz@Mx@CHELAFCBCFGFCBEBEBA?E@C@E?E?G?SCQGwAk@i@Ua@QYKUIMCKCKA]CuAK"
+              },
+              "html_instructions": "off ramp Cavalcaferrovia San Giuliano"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 713.4
+              },
+              "duration": {
+                "value": 41.6
+              },
+              "polyline": {
+                "points": "_cptGmk{iAGASEWEQCGAECKCKCICAAOG_@MECKEICGCCACAGAGAE?E?C?G@KBC@G@GBIBGBeAr@qAx@qAz@oEvCg@Xe@Zm@\\gCvAWNQFMDQ@G@G?O@K?M?KAGAKEGEGE"
+              },
+              "html_instructions": "new name Via San Giuliano"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 298
+              },
+              "duration": {
+                "value": 23.2
+              },
+              "polyline": {
+                "points": "_hqtGq}ziAg@o@GGGIKMIGKGKEI@I?GBC@E@GHMPGVAR?V@TBZDT@HDJDNFNJRJLLLJHJDD@F@J?JAFAHEFEHIDGDIBGDM@E"
+              },
+              "html_instructions": "roundabout Via San Giuliano"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 691.4
+              },
+              "duration": {
+                "value": 49.1
+              },
+              "polyline": {
+                "points": "igqtGsyziAFMFKFGBGHINKXK`@KPCHAXCR?`@ALANClAa@^Op@[j@Un@YlDyARIHEJGr@[x@]ZSLIf@[LIn@a@LGPKLGJGHEHCJEHCLCLAJAJ?N?H?H?"
+              },
+              "html_instructions": "exit roundabout Via San Giuliano"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 494.5
+              },
+              "duration": {
+                "value": 27.6
+              },
+              "polyline": {
+                "points": "_cptGmk{iAtAJ\\BJ@JBLBTHXJ`@Ph@TvAj@PFPLDDBB@BHJ@D@DRd@DHFPFJDFFFFDHDF@D?HAHAFCFEDCDEBGDIBIBI@K@K@M@W@y@Bm@BaA@y@@_@"
+              },
+              "html_instructions": "new name Cavalcaferrovia San Giuliano"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 269.8
+              },
+              "duration": {
+                "value": 24.4
+              },
+              "polyline": {
+                "points": "cpotGan{iABk@Da@Fc@F]Ha@H[Na@Pa@P_@Ra@^u@FKTc@Zo@N_@Zu@"
+              },
+              "html_instructions": "on ramp Cavalcaferrovia San Giuliano"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 675
+              },
+              "duration": {
+                "value": 43.5
+              },
+              "polyline": {
+                "points": "ghotGa`|iAh@aA~@iBz@eB^y@^cAZaAf@_BLs@R_ALw@Lu@Fm@Hk@JqAJcAFk@Ns@Nk@Rq@Xu@j@wAb@eAXo@"
+              },
+              "html_instructions": "merge Via della Libert\u00e0"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 4235.1
+              },
+              "duration": {
+                "value": 282.2
+              },
+              "polyline": {
+                "points": "uuntGgn}iAn{@kjBhT_e@nH_PJUN[lJeSf@{@xAwB`AaBdIcQh@aAn@u@z@m@f@Yd@Od@Of@Gn@Cr@E^A^AzCKF?p@Gb@ETENETKDCLEJGJEHGROd@e@JK@AtCkC`@i@HKd@m@NSRSJMJQHQFSJWHSDGFIFIFIRe@N["
+              },
+              "html_instructions": "new name Ponte della Libert\u00e0"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 80.2
+              },
+              "duration": {
+                "value": 19.5
+              },
+              "polyline": {
+                "points": "_uitGc}djALLBBNPhApADF"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 137.3
+              },
+              "duration": {
+                "value": 32.9
+              },
+              "polyline": {
+                "points": "mqitGeydjALBFAB?BAFEN[DQNw@V{AHq@?C?EACAAACCA"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "initGuaejA"
+              },
+              "html_instructions": "arrive "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 198.2
+              },
+              "duration": {
+                "value": 47.5
+              },
+              "polyline": {
+                "points": "initGuaejAE@A?CDABKhAg@jCEJCDGDC@C?C?CAEEaAkAQYAAOK"
+              },
+              "html_instructions": "depart "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 313.9
+              },
+              "duration": {
+                "value": 34.2
+              },
+              "polyline": {
+                "points": "ytitGu}djAAEAEAAA?CAC@ABCBgAbCS`@[h@e@r@a@j@EFIJa@d@UVUTo@j@i@f@ON"
+              },
+              "html_instructions": "new name Ponte della Libert\u00e0"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 225.9
+              },
+              "duration": {
+                "value": 32.5
+              },
+              "polyline": {
+                "points": "wajtG_ndjAFN@@FJ@@B@DBLF`A`@xBfAHDd@Pf@Vp@\\"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 1373.1
+              },
+              "duration": {
+                "value": 200.8
+              },
+              "polyline": {
+                "points": "evitGyfdjAPN\\RZJf@DlBDtA@RBRDTHVJNFRJVNXRXTZZlAnArHtHrAnA^\\JDNFJDJBL@N@J?NANALANCRGRGFCFEFGFGFGDIFKFKFMDMBMBOBO@O@O?OG{G@K@K@KBIDIDGDEFEFCZGFAJAHCBCDEBC@GBK@M@S@O?UA[AaB?W?G?q@A_C?g@?a@?c@DuB@i@@a@?G?EAE?CCECAC?C?G???A@?@"
+              },
+              "html_instructions": "new name "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 36.4
+              },
+              "duration": {
+                "value": 5.2
+              },
+              "polyline": {
+                "points": "uihtG{zdjAAMBoA"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "sihtGy}djA"
+              },
+              "html_instructions": "arrive "
+            }
+          ]
+        }
+      ],
+      "bounds": {
+        "northeast": {
+          "lat": 45.47814,
+          "lng": 12.31915
+        },
+        "southwest": {
+          "lat": 45.43133,
+          "lng": 12.2663
+        }
+      }
+    }
+  ],
+  "status": "OK"
+}

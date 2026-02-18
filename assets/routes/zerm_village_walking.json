@@ -1,0 +1,138 @@
+{
+  "routes": [
+    {
+      "overview_polyline": {
+        "points": "{p|wGs}hn@????????"
+      },
+      "legs": [
+        {
+          "distance": {
+            "value": 0,
+            "text": "0.0 km"
+          },
+          "duration": {
+            "value": 0,
+            "text": "0 mins"
+          },
+          "steps": [
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "{p|wGs}hn@??"
+              },
+              "html_instructions": "depart Spissstrasse"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "{p|wGs}hn@"
+              },
+              "html_instructions": "arrive Spissstrasse"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "{p|wGs}hn@??"
+              },
+              "html_instructions": "depart Spissstrasse"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "{p|wGs}hn@"
+              },
+              "html_instructions": "arrive Spissstrasse"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "{p|wGs}hn@??"
+              },
+              "html_instructions": "depart Spissstrasse"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "{p|wGs}hn@"
+              },
+              "html_instructions": "arrive Spissstrasse"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "{p|wGs}hn@??"
+              },
+              "html_instructions": "depart Spissstrasse"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "{p|wGs}hn@"
+              },
+              "html_instructions": "arrive Spissstrasse"
+            }
+          ]
+        }
+      ],
+      "bounds": {
+        "northeast": {
+          "lat": 46.02654,
+          "lng": 7.75146
+        },
+        "southwest": {
+          "lat": 46.02654,
+          "lng": 7.75146
+        }
+      }
+    }
+  ],
+  "status": "OK"
+}

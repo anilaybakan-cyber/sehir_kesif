@@ -1,0 +1,463 @@
+{
+  "routes": [
+    {
+      "overview_polyline": {
+        "points": "mhb`H}fcs@Db@Fj@@J@NBH?@@B@HDHDHHLHHDBFFJNNVJRN^DHRh@z@tBHVFJDL@@FPfBpEl@vAN^Tj@L\\DJr@fBnA`DL\\FRCT@PNbABZNTB~@@t@?H?ZWJsChA}Ap@A@E@GDWRuCnAkAd@_@Vk@b@k@j@c@`@o@|@qArBmDpFw@lAQZOZILi@`AKT??ELK`@OhB_@pDKx@AT?P@PDNBLFPXp@DFBHDHBFBHDFBHDHHPNXFNVZtArAnChCr@j@d@Xv@^z@Xp@Pr@Ll@Fj@DhB?lCDtC@bAAx@CpBMRCpAQ~@K`AKt@M\\GxBa@`B[b@Mx@QbCm@hAWhAWz@O`@GfAO~BWt@GdDSvCSfBO^ElAQn@Gz@K`AKZE`@CZC`@?`@?^B\\B\\F\\FZHRFLDLDZN^RZR\\TZVZZVXV\\X\\T\\dAdBT`@Xb@n@fA~AdC~BrD`BrCNVFFTV\\\\XTJHNJPHNHRHVFTFPBRBR@`@BZ?N@J@LBF@H@DBJDDBFBFDFDDDFFFFFFFJHJDJFNFLDNDLBNBNBRBRBZ@X@l@@h@ChBCzBAXEjDMtHIzCOvCW~D]~Dy@jKyCt_@{JdoAc@vF_JhiAw@fKUzDItDC`C@bCDzBHvBNxCTxCJ`AN`A^bCl@~Cn@jC`@zAf@zAXv@\\v@n@|Av@tAb@n@b@r@lA~AdAdAfAbAbBlA~CdBpBrAt@l@^ZRR\\\\|@fBZp@\\`AXz@d@xATbATdAPbAR|ADv@J~AF|A@pBBhABl@DLDHDBD@D?JSLSJOLOJKNKJILGFEHCJEHCLCPENCJAd@Ev@Gd@K`@QVOVSZ[f@q@z@sAp@eA\\c@d@k@TQLKZSb@Ul@YTONAPI`@YDCXUJUNKd@]^W\\Od@M~A]j@MdA]r@Sv@QnAUX?ZG@Q?KAUIc@C]KoAOkBMeBAYKCM@I?c@H]FQFQHQLKNMRQ`@GNINKLMLSJSF[Fa@Dq@BuA?o@?cA@eABYBQB]FYFSB]F[Hi@LWJYLQHsCzAa@R]PYL_@Jc@Fi@F]?[?_@CQCa@KWIQGSK[So@e@e@c@SQuCqCc@c@w@s@]YYUoJyG}A{AyAgBi@w@g@y@e@y@a@u@aAyBw@yBq@aCk@eCa@yB]uBS}AOaBM{AGo@Es@KwCGyCAsBBqBLqEVsEr@gJ`KopAzJcoAzC_`@v@yJZwDXwDP_DJaDLiI@o@BuA@e@@O@_@B{A@kA@i@Ai@A{@?WAQASASCSEUCQESESEKEMGOMWIOIMKMIKGGMMWQKGKEOGWCUCaAKQAUEc@I_@K[KOGGEKEYO[SYSGGQOYY[_@Y]eAuAY]}@uAW_@cC{DeAaB}@aBk@}@OUY]SWUWQMWSMKWOUMQIQI]KQIKGMIIG[]IMGIKIKGIEKAIAMAI?K@SLWR]^KLq@t@_A`ACDQPQPYRWRm@`@GDiB~@IDQHYLi@NSHy@`@aD`BiCrAcAf@YNI@KFWNYPQFKBG@[@Q?gBIiACIAKCMCGEMIOMy@o@MKOQGG{@w@MOEEAACASCGUESQcAEOCMGQGOIS_@u@Ue@MYc@aA_@w@GMS_@OWQY]m@[e@IOMSKQ[a@KO??KKIKIGWUc@_@GGaAw@YW_BsAKIQSOOKMGKGKKWM_@I_@e@cCMo@EUG[CUGUGOCIWw@Qg@GQISS_@Ka@ACKUCUCSG]OCICMGMIIKe@g@DOBGDEtCkANKNOFMh@U^M`CeABAFAXKA[?[?IAu@C_ADS@SG{@AMAAAKKSOIGSM]oAaDs@gBEKM]Uk@O_@m@wAgBqEGQAAEMGKIW{@uBSi@EIO_@A[Uo@A?CKGOESG]CQGg@Go@CUCUE[GUGOAEEIEOCOCKAMu@wH?U@I@OFe@JMDGLOh@e@LKNKFEDCXOFGJOxDkBFCFEFCzBcAXOBALIFAbAi@jG_DNITMFCpAs@h@Yb@Sb@UZOjAo@`BeAzAcARMNIDEpA{@d@[bC_BbAq@@AtA}@NIJIFEHGtBuARKJIFE~B}An@a@fBkA"
+      },
+      "legs": [
+        {
+          "distance": {
+            "value": 22649,
+            "text": "22.6 km"
+          },
+          "duration": {
+            "value": 1542.1,
+            "text": "25 mins"
+          },
+          "steps": [
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 76.5
+              },
+              "duration": {
+                "value": 9.1
+              },
+              "polyline": {
+                "points": "mhb`H}fcs@Db@Fj@@J@NBH?@@B@HDHDHHLHH"
+              },
+              "html_instructions": "depart B\u00fcrkliplatz"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 510.8
+              },
+              "duration": {
+                "value": 56
+              },
+              "polyline": {
+                "points": "sfb`Hkacs@DBFFJNNVJRN^DHRh@z@tBHVFJDL@@FPfBpEl@vAN^Tj@L\\DJr@fBnA`DL\\FR"
+              },
+              "html_instructions": "new name General-Guisan-Quai"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 124.2
+              },
+              "duration": {
+                "value": 14.2
+              },
+              "polyline": {
+                "points": "kua`Hw_bs@CT@PNbABZNTB~@@t@?H?Z"
+              },
+              "html_instructions": "new name General-Wille-Strasse"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 167.1
+              },
+              "duration": {
+                "value": 17
+              },
+              "polyline": {
+                "points": "cta`H}uas@WJsChA}Ap@A@E@GD"
+              },
+              "html_instructions": "turn Alfred-Escher-Strasse"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 225.2
+              },
+              "duration": {
+                "value": 20.3
+              },
+              "polyline": {
+                "points": "}|a`Hkqas@WRuCnAkAd@_@Vk@b@k@j@"
+              },
+              "html_instructions": "continue Alfred-Escher-Strasse"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 335
+              },
+              "duration": {
+                "value": 32.1
+              },
+              "polyline": {
+                "points": "ohb`Hyias@c@`@o@|@qArBmDpFw@lAQZOZIL"
+              },
+              "html_instructions": "new name Ulmbergtunnel"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 227.9
+              },
+              "duration": {
+                "value": 25.1
+              },
+              "polyline": {
+                "points": "gvb`H_w`s@i@`AKT??ELK`@OhB_@pDKx@AT?P@PDN"
+              },
+              "html_instructions": "new name Manessestrasse"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 177.1
+              },
+              "duration": {
+                "value": 18
+              },
+              "polyline": {
+                "points": "ezb`Hwe`s@BLFPXp@DFBHDHBFBHDFBHDHHPNXFNVZtArA"
+              },
+              "html_instructions": "continue Manessestrasse"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 2470
+              },
+              "duration": {
+                "value": 141.4
+              },
+              "polyline": {
+                "points": "gsb`Ho{_s@nChCr@j@d@Xv@^z@Xp@Pr@Ll@Fj@DhB?lCDtC@bAAx@CpBMRCpAQ~@K`AKt@M\\GxBa@`B[b@Mx@QbCm@hAWhAWz@O`@GfAO~BWt@GdDSvCSfBO^ElAQn@Gz@K`AKZE`@CZC`@?`@?^B\\B\\F\\FZHRFLDLDZN^RZR\\TZVZZVXV\\X\\T\\dAdBT`@Xb@n@fA~AdC~BrD"
+              },
+              "html_instructions": "on ramp "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 2694.2
+              },
+              "duration": {
+                "value": 127.3
+              },
+              "polyline": {
+                "points": "gq~_Hoe_s@`BrCNVFFTV\\\\XTJHNJPHNHRHVFTFPBRBR@`@BZ?N@J@LBF@H@DBJDDBFBFDFDDDFFFFFFFJHJDJFNFLDNDLBNBNBRBRBZ@X@l@@h@ChBCzBAXEjDMtHIzCOvCW~D]~Dy@jKyCt_@{JdoAc@vF"
+              },
+              "html_instructions": "off ramp "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "qs~_Hi}xr@"
+              },
+              "html_instructions": "arrive Uetlibergtunnel"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 2500.7
+              },
+              "duration": {
+                "value": 112.6
+              },
+              "polyline": {
+                "points": "qs~_Hi}xr@_JhiAw@fKUzDItDC`C@bCDzBHvBNxCTxCJ`AN`A^bCl@~Cn@jC`@zAf@zAXv@\\v@n@|Av@tAb@n@b@r@lA~AdAdAfAbAbBlA~CdBpBrAt@l@^ZRR\\\\"
+              },
+              "html_instructions": "depart Uetlibergtunnel"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 461.8
+              },
+              "duration": {
+                "value": 20.9
+              },
+              "polyline": {
+                "points": "oz}_Hujsr@|@fBZp@\\`AXz@d@xATbATdAPbAR|ADv@J~AF|A@pBBhA"
+              },
+              "html_instructions": "off ramp "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 39.2
+              },
+              "duration": {
+                "value": 11.4
+              },
+              "polyline": {
+                "points": "eq}_Hehrr@Bl@DLDHDBD@D?"
+              },
+              "html_instructions": "fork "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 824.5
+              },
+              "duration": {
+                "value": 65.9
+              },
+              "polyline": {
+                "points": "cp}_Hyerr@JSLSJOLOJKNKJILGFEHCJEHCLCPENCJAd@Ev@Gd@K`@QVOVSZ[f@q@z@sAp@eA\\c@d@k@TQLKZSb@Ul@YTONAPI`@YDCXUJUNKd@]^W\\Od@M~A]j@MdA]"
+              },
+              "html_instructions": "turn Luzernerstrasse"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 137.3
+              },
+              "duration": {
+                "value": 17.5
+              },
+              "polyline": {
+                "points": "eg|_Hibsr@r@Sv@QnAUX?ZG"
+              },
+              "html_instructions": "new name Z\u00fcrcherstrasse"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 168.3
+              },
+              "duration": {
+                "value": 17
+              },
+              "polyline": {
+                "points": "s_|_Hmdsr@@Q?KAUIc@C]KoAOkBMeBAY"
+              },
+              "html_instructions": "turn Moosstrasse"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 453.3
+              },
+              "duration": {
+                "value": 26.1
+              },
+              "polyline": {
+                "points": "ma|_H_rsr@KCM@I?c@H]FQFQHQLKNMRQ`@GNINKLMLSJSF[Fa@Dq@BuA?o@?cA@eABYBQB]FYF"
+              },
+              "html_instructions": "on ramp "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 5260.1
+              },
+              "duration": {
+                "value": 241.6
+              },
+              "polyline": {
+                "points": "my|_Hijsr@SB]F[Hi@LWJYLQHsCzAa@R]PYL_@Jc@Fi@F]?[?_@CQCa@KWIQGSK[So@e@e@c@SQuCqCc@c@w@s@]YYUoJyG}A{AyAgBi@w@g@y@e@y@a@u@aAyBw@yBq@aCk@eCa@yB]uBS}AOaBM{AGo@Es@KwCGyCAsBBqBLqEVsEr@gJ`KopAzJcoAzC_`@v@yJZwDXwDP_DJaDLiI@o@BuA@e@@O@_@B{A@kA"
+              },
+              "html_instructions": "merge "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 816.3
+              },
+              "duration": {
+                "value": 46
+              },
+              "polyline": {
+                "points": "mz}_Hqm~r@@i@Ai@A{@?WAQASASCSEUCQESESEKEMGOMWIOIMKMIKGGMMWQKGKEOGWCUCaAKQAUEc@I_@K[KOGGEKEYO[SYSGGQOYY[_@Y]eAuAY]}@uAW_@cC{DeAaB"
+              },
+              "html_instructions": "off ramp Z\u00fcrich S\u00fcd"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 365.7
+              },
+              "duration": {
+                "value": 28.4
+              },
+              "polyline": {
+                "points": "g{~_Hqu_s@}@aBk@}@OUY]SWUWQMWSMKWOUMQIQI]KQIKGMIIG[]IMGIKIKGIEKAIAMAI?K@"
+              },
+              "html_instructions": "off ramp "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 630.1
+              },
+              "duration": {
+                "value": 48.1
+              },
+              "polyline": {
+                "points": "ml_`Hwd`s@SLWR]^KLq@t@_A`ACDQPQPYRWRm@`@GDiB~@IDQHYLi@NSHy@`@aD`BiCrAcAf@YN"
+              },
+              "html_instructions": "turn Allmendstrasse"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 90.8
+              },
+              "duration": {
+                "value": 10.2
+              },
+              "polyline": {
+                "points": "gl``Hmn_s@I@KFWNYPQFKBG@[@Q?"
+              },
+              "html_instructions": "continue Allmendstrasse"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 326.5
+              },
+              "duration": {
+                "value": 35.6
+              },
+              "polyline": {
+                "points": "cq``Hql_s@gBIiACIAKCMCGEMIOMy@o@MKOQGG{@w@MOEEAACASCGUESQcAEO"
+              },
+              "html_instructions": "new name Giessh\u00fcbelstrasse"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 825.5
+              },
+              "duration": {
+                "value": 92.7
+              },
+              "polyline": {
+                "points": "o`a`Hqw_s@CMGQGOIS_@u@Ue@MYc@aA_@w@GMS_@OWQY]m@[e@IOMSKQ[a@KO??KKIKIGWUc@_@GGaAw@YW_BsAKIQSOOKMGKGKKWM_@I_@e@cCMo@EUG[CUGUGOCIWw@Qg@GQISS_@Ka@ACKUCUCS"
+              },
+              "html_instructions": "new name Bederstrasse"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 76.1
+              },
+              "duration": {
+                "value": 14.4
+              },
+              "polyline": {
+                "points": "s~a`Hgias@G]OCICMGMIIKe@g@"
+              },
+              "html_instructions": "end of road Seestrasse"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 272.3
+              },
+              "duration": {
+                "value": 29.3
+              },
+              "polyline": {
+                "points": "abb`Hslas@DOBGDEtCkANKNOFMh@U^M`CeABAFAXK"
+              },
+              "html_instructions": "turn Alfred-Escher-Strasse"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 140.1
+              },
+              "duration": {
+                "value": 16.9
+              },
+              "polyline": {
+                "points": "ata`Hauas@A[?[?IAu@C_ADS@SG{@AMAAAKKSOI"
+              },
+              "html_instructions": "turn General-Wille-Strasse"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 605.4
+              },
+              "duration": {
+                "value": 66.8
+              },
+              "polyline": {
+                "points": "kua`Hw_bs@GSM]oAaDs@gBEKM]Uk@O_@m@wAgBqEGQAAEMGKIW{@uBSi@EIO_@A[Uo@A?CKGOESG]CQGg@Go@CUCUE["
+              },
+              "html_instructions": "new name General-Guisan-Quai"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 202.7
+              },
+              "duration": {
+                "value": 22.2
+              },
+              "polyline": {
+                "points": "sgb`Hoics@GUGOAEEIEOCOCKAMu@wH?U@I@OFe@"
+              },
+              "html_instructions": "new name Quaibr\u00fccke"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 685.3
+              },
+              "duration": {
+                "value": 77.7
+              },
+              "polyline": {
+                "points": "ejb`Hmycs@JMDGLOh@e@LKNKFEDCXOFGJOxDkBFCFEFCzBcAXOBALIFAbAi@jG_DNITMFCpAs@h@Yb@Sb@U"
+              },
+              "html_instructions": "turn Utoquai"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 759.3
+              },
+              "duration": {
+                "value": 80.3
+              },
+              "polyline": {
+                "points": "}fa`H}ods@ZOjAo@`BeAzAcARMNIDEpA{@d@[bC_BbAq@@AtA}@NIJIFEHGtBuARKJIFE~B}An@a@fBkA"
+              },
+              "html_instructions": "new name Bellerivestrasse"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "q```Hokes@"
+              },
+              "html_instructions": "arrive Bellerivestrasse"
+            }
+          ]
+        }
+      ],
+      "bounds": {
+        "northeast": {
+          "lat": 47.36951,
+          "lng": 8.5524
+        },
+        "southwest": {
+          "lat": 47.33449,
+          "lng": 8.45421
+        }
+      }
+    }
+  ],
+  "status": "OK"
+}

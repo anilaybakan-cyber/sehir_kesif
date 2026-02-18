@@ -1,0 +1,255 @@
+{
+  "routes": [
+    {
+      "overview_polyline": {
+        "points": "qnp}EiqzyCGBCDIBG@IDEDKJMLWW_@e@GIGICG@IBMJOFOe@TYLQDKBQDO?I?KCKAI?O@QFc@LUHI@GFEJ?F?HDHDFB@DDJFD@JDNFNHLHJHLLLNHNNTDH\\h@R\\V\\DJFHHNBF@F?D?HEHIBE?M@U?K?OAU@S@]B}@La@FIB[DG@KBMDi@LKBGF?L?J@JBFDDFBX@\\C\\EVETGJGRENAH?L@PDZBh@HXBLBRDJDLDNDVJZHJBNFHDFDH@L?HAF@JALBLBRHLDJ@P@P?TAFCFFDBF?FAVOROLIRIFKCIA_@CGBF@^BHGJSHMHSNWNG@G?ECGGGBU@Q?QAKAMESIMCMCK@GAI@M?IAGEIEOGKC[IWKOEMEKESEMCYCi@I[CQEMAI?O@SDKFUFWD]D]BYAGCEECGAK?K?MFGJCh@MLEJCFAZEHC`@G|@M\\CRATAN@J?T?LAD?HCDI?I?EAGCGIOGIEKW]S]]i@EIOUIOMOMMKIMIOIOGKEEAKGEECAEGEI?I?GDKFGHATIb@MPGNAH?J@JBH?N?PEJCPEXMd@UJKFGLQFSHUDS@M@Y@U?MAKEOEOIKTKb@MLETIVOWNUHMDc@LUJECEAKCI@UBK?IAGAIEQGQKKKIKCM?M@KDIFIHSFQ@K@M?UCUEKGKKGIEKAU?Q@O?SCQGMIACAEACAMBOH[Rc@`@eADKDKBGL_@FYLm@Fc@F]VyA@GPDDBHBLBBDBFBJBPBPBJTFHBH@DFBH@F?F@H?HBP@N@L"
+      },
+      "legs": [
+        {
+          "distance": {
+            "value": 3318.2,
+            "text": "3.3 km"
+          },
+          "duration": {
+            "value": 431.9,
+            "text": "7 mins"
+          },
+          "steps": [
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 135.1
+              },
+              "duration": {
+                "value": 27.9
+              },
+              "polyline": {
+                "points": "qnp}EiqzyCGBCDIBG@IDEDKJMLWW_@e@GIGICG@IBMJOFO"
+              },
+              "html_instructions": "depart "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 1041.9
+              },
+              "duration": {
+                "value": 96.3
+              },
+              "polyline": {
+                "points": "krp}EetzyCe@TYLQDKBQDO?I?KCKAI?O@QFc@LUHI@GFEJ?F?HDHDFB@DDJFD@JDNFNHLHJHLLLNHNNTDH\\h@R\\V\\DJFHHNBF@F?D?HEHIBE?M@U?K?OAU@S@]B}@La@FIB[DG@KBMDi@LKBGF?L?J@JBFDDFBX@\\C\\EVETGJGRENAH?L@PDZBh@HXBLBRDJDLDNDVJZHJBNFHDFDH@L?HAF@JALBLBRHLDJ@P@P?TAFC"
+              },
+              "html_instructions": "turn Oia Main Road"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 74.7
+              },
+              "duration": {
+                "value": 19.6
+              },
+              "polyline": {
+                "points": "{hp}E{~yyCFFDBF?FAVOROLIRIFK"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 23.9
+              },
+              "duration": {
+                "value": 33.2
+              },
+              "polyline": {
+                "points": "gep}Eq`zyCCIA_@CG"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "qep}EcbzyC"
+              },
+              "html_instructions": "arrive "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 23.9
+              },
+              "duration": {
+                "value": 6.2
+              },
+              "polyline": {
+                "points": "qep}EcbzyCBF@^BH"
+              },
+              "html_instructions": "depart "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 74.7
+              },
+              "duration": {
+                "value": 18.5
+              },
+              "polyline": {
+                "points": "gep}Eq`zyCGJSHMHSNWNG@G?ECGG"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 867.5
+              },
+              "duration": {
+                "value": 78.6
+              },
+              "polyline": {
+                "points": "{hp}E{~yyCGBU@Q?QAKAMESIMCMCK@GAI@M?IAGEIEOGKC[IWKOEMEKESEMCYCi@I[CQEMAI?O@SDKFUFWD]D]BYAGCEECGAK?K?MFGJCh@MLEJCFAZEHC`@G|@M\\CRATAN@J?T?LAD?HCDI?I?EAGCGIOGIEKW]S]]i@EIOUIOMOMMKIMIOIOGKEEAKGEECAEGEI?I"
+              },
+              "html_instructions": "turn Oia Main Road"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 293.5
+              },
+              "duration": {
+                "value": 28.7
+              },
+              "polyline": {
+                "points": "k{p}EwpzyC?GDKFGHATIb@MPGNAH?J@JBH?N?PEJCPEXMd@UJKFGLQFSHUDS@M@Y@U?MAKEOEOIK"
+              },
+              "html_instructions": "continue Oia Main Road"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 70.8
+              },
+              "duration": {
+                "value": 37.5
+              },
+              "polyline": {
+                "points": "cqp}Em{zyCTKb@MLETIVO"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "mmp}Eg}zyC"
+              },
+              "html_instructions": "arrive "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 70.8
+              },
+              "duration": {
+                "value": 10.2
+              },
+              "polyline": {
+                "points": "mmp}Eg}zyCWNUHMDc@LUJ"
+              },
+              "html_instructions": "depart "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 505.8
+              },
+              "duration": {
+                "value": 47.2
+              },
+              "polyline": {
+                "points": "cqp}Em{zyCECEAKCI@UBK?IAGAIEQGQKKKIKCM?M@KDIFIHSFQ@K@M?UCUEKGKKGIEKAU?Q@O?SCQGMIACAEACAMBOH[Rc@`@eADKDKBGL_@FYLm@Fc@F]VyA@G"
+              },
+              "html_instructions": "turn Oia Main Road"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 63.3
+              },
+              "duration": {
+                "value": 10.6
+              },
+              "polyline": {
+                "points": "aup}Eis{yCPDDBHBLBBDBFBJBPBPBJ"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 24.3
+              },
+              "duration": {
+                "value": 5.9
+              },
+              "polyline": {
+                "points": "yrp}Emp{yCTFHBH@"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 48
+              },
+              "duration": {
+                "value": 11.5
+              },
+              "polyline": {
+                "points": "oqp}E_p{yCDFBH@F?F@H?HBP@N@L"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "ypp}Eyl{yC"
+              },
+              "html_instructions": "arrive "
+            }
+          ]
+        }
+      ],
+      "bounds": {
+        "northeast": {
+          "lat": 36.46463,
+          "lng": 25.37797
+        },
+        "southwest": {
+          "lat": 36.46052,
+          "lng": 25.36952
+        }
+      }
+    }
+  ],
+  "status": "OK"
+}

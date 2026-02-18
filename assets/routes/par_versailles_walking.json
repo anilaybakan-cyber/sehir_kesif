@@ -1,0 +1,866 @@
+{
+  "routes": [
+    {
+      "overview_polyline": {
+        "points": "}d{hHmp}KIEa@SWMCEAIBOJBDAFCDKj@iDHg@FO@CHGJIFGDIBIBKAUAMK{CM_E@S@SBQDKNWTQVCZAX@NDTJbAb@DDRLDBXNLFHDHFFBLHXPRJJHPNLNJPDFHPN^FP@N@H?L?L?HCFGZGJoCrDY\\MLMRCFAL?H?FBd@?FALCNEZg@zCQbADJdAj@bAh@JD~F~CFBzAx@D@@@NJ]jB?@ABSlAwBzLmAzG[hBQtAE^Ef@Ix@K~AOjC]`Ge@jI_@|GYzEIvAGfAGhBAd@Aj@C|B?zA?\\JrDz@bSp@nPn@xNFrAR`F\\rHh@lMRfFH`B@J@VDfAFfBJvBf@lLdAtV@HD|@NxDL|BBv@FfBFpADn@@RF|ATdF?lB?dAALC@E?CFq@DCCMGS@gAKI?MBULa@XA@UPw@j@QNyAjACBUR[NA@QFEBOH_BiAGGy@e@IGkAy@w@k@QKGEYSYSIEICOEOCIAQ??GCIAGECECE?EBEBIS[i@USk@_@c@]UOeBkA{DoCuEaD_@WiAa@_Ck@}Da@IA[CeAKOCMAkFi@o@GUA]Eu@GkBQiAIU?MAq@GQAMAe@O}Ae@kHsB[IOGMGKKOOMQISE]CKCI?C@E@GAGFCFAVIJAJ?bKjE?@`@{B@CAARkAdCaOFMDFBDDDDDDDDDFBDDFBHDHBDBD@D@D?F@J@F?H?FAJAJAFCHCJEHEHGHGBCFGHKFIFKFMFKBGDMDKBI@KBKDQBS@S@O@O?Q?O?O?KASCSAOCMCMAICIBYDInJ{I`LgKpNsMjFeFnAaALKNOLOJODSb@aEHs@D[DOFQHOZo@JSL_@Ja@P}@Jk@@IVFV?XIVQLQJULi@Di@Aa@C_@Og@MYSSSMBYL[^eAkOcf@yFqQ\\k@~F|QxClJhJ~Y[t@_@dAMZCXRLRRLXNf@B^@`@Eh@Mh@KTMPWPYHW?WGAHKj@Q|@K`@M^KR[n@INGPENEZIr@c@`EERKNMNONMJoA`AkFdFqNrMaLfKqAeG_@QEPENCLGRENGLGLGNIJGJIJKHIFIHKDKFKBGBIBE?M@K@K?MAMAGCKCMEIEKGKGIIIIIKIKGKGKGMGOEQEOEQEOCQAQCQASAQ?Q?S@Q?SBQ@OFm@a@SgDjByB{Tu@eI}BqVi@aG`LkL`BkBX]?i@Au@@WDW@CDWFSXe@T[TWDGtBdAxMyNk@aJG{@}@uMCYAI?K@GDWDWsCyAs@]y@_@m@RODA@C@mItC{@XQFIBHCPGz@YlIuCBA@ANEl@Sx@^r@\\rCxAEVEVAF?J@HBX|@tMFz@j@`JyMxNuBeAEFUVUZYd@GRCJAJABEVAV@t@?h@Y\\aBjBaLjL}BlC{FwDmEiCgRmLU[I_@Gm@CQSYPs@vLsl@d@oB@Cg@rBwLrl@Qr@RXBPFl@H^TZfRlLlEhCzFvD|BmC`LkL`BkBX]?i@Au@@WDW@CDWFSXe@T[TWDGtBdAxMyNk@aJG{@}@uMCYAI?K@GDWDWsCyAOy@Ii@`Ks_@DwAj@mP@_@@EHeCr@wS@Q?OP}E?I@YF?DANFJBND^JBBJDdAf@DBB@TLLFFBBBPHvAx@dAh@PPdAd@NDzDrBz@b@PF`B|@D@CN@HBDVL`@RHD"
+      },
+      "legs": [
+        {
+          "distance": {
+            "value": 23118.6,
+            "text": "23.1 km"
+          },
+          "duration": {
+            "value": 7193.6,
+            "text": "119 mins"
+          },
+          "steps": [
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 53.1
+              },
+              "duration": {
+                "value": 13.2
+              },
+              "polyline": {
+                "points": "}d{hHmp}KIEa@SWMCEAIBO"
+              },
+              "html_instructions": "depart "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 110.1
+              },
+              "duration": {
+                "value": 7.2
+              },
+              "polyline": {
+                "points": "cg{hHur}KJBDAFCDKj@iDHg@FO"
+              },
+              "html_instructions": "turn Rue Robert de Cotte"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 177
+              },
+              "duration": {
+                "value": 16.1
+              },
+              "polyline": {
+                "points": "ed{hHez}K@CHGJIFGDIBIBKAUAMK{CM_E"
+              },
+              "html_instructions": "new name Avenue de Nepveu Nord"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 53.4
+              },
+              "duration": {
+                "value": 6.9
+              },
+              "polyline": {
+                "points": "uc{hHch~K@S@SBQDKNWTQ"
+              },
+              "html_instructions": "continue Avenue de Nepveu Nord"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 269.4
+              },
+              "duration": {
+                "value": 28.4
+              },
+              "polyline": {
+                "points": "ab{hHsk~KVCZAX@NDTJbAb@DDRLDBXNLFHDHFFBLHXPRJJHPNLNJPDFHPN^"
+              },
+              "html_instructions": "turn Avenue Rockfeller"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 226.9
+              },
+              "duration": {
+                "value": 29
+              },
+              "polyline": {
+                "points": "qtzhHac~KFP@N@H?L?L?HCFGZGJoCrDY\\MLMRCFAL?H?FBd@?F"
+              },
+              "html_instructions": "new name Avenue de Nepveu Sud"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 116.7
+              },
+              "duration": {
+                "value": 12.6
+              },
+              "polyline": {
+                "points": "a{zhHut}KALCNEZg@zCQbADJ"
+              },
+              "html_instructions": "new name Rue Pierre de Nolhac"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 319.3
+              },
+              "duration": {
+                "value": 32.9
+              },
+              "polyline": {
+                "points": "a}zhHok}KdAj@bAh@JD~F~CFBzAx@D@@@NJ"
+              },
+              "html_instructions": "new name Rue de l'Ind\u00e9pendance Am\u00e9ricaine"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 3020.1
+              },
+              "duration": {
+                "value": 205.7
+              },
+              "polyline": {
+                "points": "olzhHea}K]jB?@ABSlAwBzLmAzG[hBQtAE^Ef@Ix@K~AOjC]`Ge@jI_@|GYzEIvAGfAGhBAd@Aj@C|B?zA?\\JrDz@bSp@nPn@xNFrAR`F\\rHh@lMRfFH`B@J@VDfAFfBJvBf@lLdAtV@HD|@"
+              },
+              "html_instructions": "end of road Route de Saint-Cyr"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 350.7
+              },
+              "duration": {
+                "value": 24.4
+              },
+              "polyline": {
+                "points": "inzhHgeuKNxDL|BBv@FfBFpADn@@RF|ATdF"
+              },
+              "html_instructions": "new name Avenue de la Division Leclerc"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 71.1
+              },
+              "duration": {
+                "value": 10.6
+              },
+              "polyline": {
+                "points": "qkzhHugtK?lB?dAAL"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 325
+              },
+              "duration": {
+                "value": 51
+              },
+              "polyline": {
+                "points": "skzhHsatKC@E?CFq@DCCMGS@gAKI?MBULa@XA@UPw@j@QNyAjACBUR[NA@QFEBOH"
+              },
+              "html_instructions": "turn Rue Victor Basch"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 283
+              },
+              "duration": {
+                "value": 44.3
+              },
+              "polyline": {
+                "points": "m|zhHqysK_BiAGGy@e@IGkAy@w@k@QKGEYSYSIEICOEOCIAQ?"
+              },
+              "html_instructions": "turn Rue du Docteur Vaillant"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 28.4
+              },
+              "duration": {
+                "value": 5.9
+              },
+              "polyline": {
+                "points": "{j{hHgctK?GCIAGECECE?EBEB"
+              },
+              "html_instructions": "roundabout Rue du Docteur Vaillant"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 1468.6
+              },
+              "duration": {
+                "value": 165.8
+              },
+              "polyline": {
+                "points": "_l{hHadtKIS[i@USk@_@c@]UOeBkA{DoCuEaD_@WiAa@_Ck@}Da@IA[CeAKOCMAkFi@o@GUA]Eu@GkBQiAIU?MAq@GQAMAe@O}Ae@kHsB[IOGMGKKOOMQISE]CKCI"
+              },
+              "html_instructions": "exit roundabout Rue du Docteur Vaillant"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 10.2
+              },
+              "duration": {
+                "value": 2.4
+              },
+              "polyline": {
+                "points": "iy}hHeguK?C@E@GAG"
+              },
+              "html_instructions": "roundabout "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 265
+              },
+              "duration": {
+                "value": 44.6
+              },
+              "polyline": {
+                "points": "gy}hH_huKFCFAVIJAJ?bKjE?@"
+              },
+              "html_instructions": "exit roundabout "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 290.7
+              },
+              "duration": {
+                "value": 212.2
+              },
+              "polyline": {
+                "points": "ck}hHcbuK`@{B@CAARkAdCaOFM"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 303.9
+              },
+              "duration": {
+                "value": 218.5
+              },
+              "polyline": {
+                "points": "_e}hHayuKDFBDDDDDDDDDFBDDFBHDHBDBD@D@D?F@J@F?H?FAJAJAFCHCJEHEHGHGBCFGHKFIFKFMFKBGDMDKBI@KBKDQBS@S@O@O?Q?O?O?KASCSAOCMCMAICI"
+              },
+              "html_instructions": "end of road \u00c9toile Royale"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 1100.2
+              },
+              "duration": {
+                "value": 396.3
+              },
+              "polyline": {
+                "points": "o{|hHmdvKBYDInJ{I`LgKpNsMjFeFnAaALKNOLOJO"
+              },
+              "html_instructions": "turn All\u00e9e de la Tuilerie"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 239.7
+              },
+              "duration": {
+                "value": 86.5
+              },
+              "polyline": {
+                "points": "mg{hHmvwKDSb@aEHs@D[DOFQHOZo@JSL_@Ja@P}@Jk@"
+              },
+              "html_instructions": "fork All\u00e9e de la Tuilerie"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 248
+              },
+              "duration": {
+                "value": 91.3
+              },
+              "polyline": {
+                "points": "{a{hHuhxK@IVFV?XIVQLQJULi@Di@Aa@C_@Og@MYSSSMBYL[^eA"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 803.3
+              },
+              "duration": {
+                "value": 290.4
+              },
+              "polyline": {
+                "points": "c~zhHqvxKkOcf@yFqQ"
+              },
+              "html_instructions": "turn All\u00e9e de la Reine"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 446.1
+              },
+              "duration": {
+                "value": 163.8
+              },
+              "polyline": {
+                "points": "iv{hHgpzK\\k@~F|QxClJ"
+              },
+              "html_instructions": "continue All\u00e9e de la Reine"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "qh{hHgsyK"
+              },
+              "html_instructions": "arrive All\u00e9e de la Reine"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 649.7
+              },
+              "duration": {
+                "value": 234.7
+              },
+              "polyline": {
+                "points": "qh{hHgsyKhJ~Y[t@_@dAMZCXRLRRLXNf@B^@`@Eh@Mh@KTMPWPYHW?WGAH"
+              },
+              "html_instructions": "depart All\u00e9e de la Reine"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 1083.6
+              },
+              "duration": {
+                "value": 392.9
+              },
+              "polyline": {
+                "points": "{a{hHuhxKKj@Q|@K`@M^KR[n@INGPENEZIr@c@`EERKNMNONMJoA`AkFdFqNrMaLfK"
+              },
+              "html_instructions": "turn All\u00e9e de la Tuilerie"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 106.1
+              },
+              "duration": {
+                "value": 76.9
+              },
+              "polyline": {
+                "points": "uo|hHmpvKqAeG"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 524.4
+              },
+              "duration": {
+                "value": 192.2
+              },
+              "polyline": {
+                "points": "gr|hHsxvK_@QEPENCLGRENGLGLGNIJGJIJKHIFIHKDKFKBGBIBE?M@K@K?MAMAGCKCMEIEKGKGIIIIIKIKGKGKGMGOEQEOEQEOCQAQCQASAQ?Q?S@Q?SBQ@OFm@a@SgDjB"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 772.7
+              },
+              "duration": {
+                "value": 278.8
+              },
+              "polyline": {
+                "points": "cf}hHu}vKyB{Tu@eI}BqVi@aG"
+              },
+              "html_instructions": "end of road All\u00e9e de Fontenay"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 494.9
+              },
+              "duration": {
+                "value": 179.6
+              },
+              "polyline": {
+                "points": "{p}hHk}xK`LkL`BkBX]?i@Au@@WDW@CDWFSXe@T[TWDG"
+              },
+              "html_instructions": "end of road All\u00e9e de Bailly"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 70.8
+              },
+              "duration": {
+                "value": 26.6
+              },
+              "polyline": {
+                "points": "{||hHcxyKtBdA"
+              },
+              "html_instructions": "continue All\u00e9e de Bailly"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 323
+              },
+              "duration": {
+                "value": 118.4
+              },
+              "polyline": {
+                "points": "ey|hH}uyKxMyN"
+              },
+              "html_instructions": "continue All\u00e9e de Bailly"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 370.2
+              },
+              "duration": {
+                "value": 94.1
+              },
+              "polyline": {
+                "points": "kj|hHwezKk@aJG{@}@uMCYAI?K@GDWDW"
+              },
+              "html_instructions": "turn All\u00e9e du Man\u00e8ge"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 153.7
+              },
+              "duration": {
+                "value": 23.2
+              },
+              "polyline": {
+                "points": "um|hHsd{KsCyAs@]y@_@"
+              },
+              "html_instructions": "turn All\u00e9e de La Petite Venise"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 284
+              },
+              "duration": {
+                "value": 44.2
+              },
+              "polyline": {
+                "points": "wu|hHki{Km@RODA@C@mItC{@XQFIB"
+              },
+              "html_instructions": "turn All\u00e9e du Petit Trianon"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "ae}hHqb{K"
+              },
+              "html_instructions": "arrive "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 50.2
+              },
+              "duration": {
+                "value": 36.5
+              },
+              "polyline": {
+                "points": "ae}hHqb{KHCPGz@Y"
+              },
+              "html_instructions": "depart "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 233.9
+              },
+              "duration": {
+                "value": 35.1
+              },
+              "polyline": {
+                "points": "ib}hHwc{KlIuCBA@ANEl@S"
+              },
+              "html_instructions": "new name All\u00e9e du Petit Trianon"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 153.7
+              },
+              "duration": {
+                "value": 25
+              },
+              "polyline": {
+                "points": "wu|hHki{Kx@^r@\\rCxA"
+              },
+              "html_instructions": "turn All\u00e9e de La Petite Venise"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 370.2
+              },
+              "duration": {
+                "value": 89.3
+              },
+              "polyline": {
+                "points": "um|hHsd{KEVEVAF?J@HBX|@tMFz@j@`J"
+              },
+              "html_instructions": "turn All\u00e9e du Man\u00e8ge"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 393.8
+              },
+              "duration": {
+                "value": 143.5
+              },
+              "polyline": {
+                "points": "kj|hHwezKyMxNuBeA"
+              },
+              "html_instructions": "turn All\u00e9e de Bailly"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 68.3
+              },
+              "duration": {
+                "value": 24.5
+              },
+              "polyline": {
+                "points": "{||hHcxyKEFUVUZYd@GRCJ"
+              },
+              "html_instructions": "end of road All\u00e9e de Bailly"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "s_}hHatyK"
+              },
+              "html_instructions": "arrive All\u00e9e de Bailly"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 60.6
+              },
+              "duration": {
+                "value": 22.1
+              },
+              "polyline": {
+                "points": "s_}hHatyKAJABEVAV@t@?h@"
+              },
+              "html_instructions": "depart All\u00e9e de Bailly"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 453.6
+              },
+              "duration": {
+                "value": 195.2
+              },
+              "polyline": {
+                "points": "}_}hHaoyKY\\aBjBaLjL}BlC"
+              },
+              "html_instructions": "continue All\u00e9e de Bailly"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 726.4
+              },
+              "duration": {
+                "value": 524.1
+              },
+              "polyline": {
+                "points": "yt}hH}xxK{FwDmEiCgRmLU[I_@Gm@CQSY"
+              },
+              "html_instructions": "turn All\u00e9e des H\u00e2-H\u00e2"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 657.2
+              },
+              "duration": {
+                "value": 473.1
+              },
+              "polyline": {
+                "points": "kx~hHcuyKPs@vLsl@d@oB"
+              },
+              "html_instructions": "turn All\u00e9e du Rendez-Vous"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "{h~hH{g{K"
+              },
+              "html_instructions": "arrive All\u00e9e du Rendez-Vous"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 1.7
+              },
+              "duration": {
+                "value": 28.7
+              },
+              "polyline": {
+                "points": "{h~hH{g{K@C"
+              },
+              "html_instructions": "depart All\u00e9e du Rendez-Vous"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 658.8
+              },
+              "duration": {
+                "value": 478.2
+              },
+              "polyline": {
+                "points": "yh~hH_h{Kg@rBwLrl@Qr@"
+              },
+              "html_instructions": "continue All\u00e9e du Rendez-Vous"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 726.4
+              },
+              "duration": {
+                "value": 524.6
+              },
+              "polyline": {
+                "points": "kx~hHcuyKRXBPFl@H^TZfRlLlEhCzFvD"
+              },
+              "html_instructions": "turn All\u00e9e des H\u00e2-H\u00e2"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 582.6
+              },
+              "duration": {
+                "value": 242.7
+              },
+              "polyline": {
+                "points": "yt}hH}xxK|BmC`LkL`BkBX]?i@Au@@WDW@CDWFSXe@T[TWDG"
+              },
+              "html_instructions": "turn All\u00e9e de Bailly"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 70.8
+              },
+              "duration": {
+                "value": 26.6
+              },
+              "polyline": {
+                "points": "{||hHcxyKtBdA"
+              },
+              "html_instructions": "continue All\u00e9e de Bailly"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 323
+              },
+              "duration": {
+                "value": 118.4
+              },
+              "polyline": {
+                "points": "ey|hH}uyKxMyN"
+              },
+              "html_instructions": "continue All\u00e9e de Bailly"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 370.2
+              },
+              "duration": {
+                "value": 94.1
+              },
+              "polyline": {
+                "points": "kj|hHwezKk@aJG{@}@uMCYAI?K@GDWDW"
+              },
+              "html_instructions": "turn All\u00e9e du Man\u00e8ge"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 88.9
+              },
+              "duration": {
+                "value": 13.4
+              },
+              "polyline": {
+                "points": "um|hHsd{KsCyA"
+              },
+              "html_instructions": "turn All\u00e9e de La Petite Venise"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 39.2
+              },
+              "duration": {
+                "value": 6.1
+              },
+              "polyline": {
+                "points": "ir|hHmg{KOy@Ii@"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 439
+              },
+              "duration": {
+                "value": 105.4
+              },
+              "polyline": {
+                "points": "cs|hHqj{K`Ks_@"
+              },
+              "html_instructions": "turn Avenue du Trianon"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 656.4
+              },
+              "duration": {
+                "value": 102.1
+              },
+              "polyline": {
+                "points": "ag|hHek|KDwAj@mP@_@@EHeCr@wS@Q?OP}E?I@Y"
+              },
+              "html_instructions": "turn Boulevard de la Reine"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 7.7
+              },
+              "duration": {
+                "value": 0.5
+              },
+              "polyline": {
+                "points": "wb|hHsb~KF?DA"
+              },
+              "html_instructions": "roundabout Rue des R\u00e9servoirs"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 519.8
+              },
+              "duration": {
+                "value": 50
+              },
+              "polyline": {
+                "points": "ib|hHub~KNFJBND^JBBJDdAf@DBB@TLLFFBBBPHvAx@dAh@PPdAd@NDzDrBz@b@PF`B|@D@"
+              },
+              "html_instructions": "exit roundabout Rue des R\u00e9servoirs"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 53.1
+              },
+              "duration": {
+                "value": 12.8
+              },
+              "polyline": {
+                "points": "cg{hHur}KCN@HBDVL`@RHD"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "}d{hHmp}K"
+              },
+              "html_instructions": "arrive "
+            }
+          ]
+        }
+      ],
+      "bounds": {
+        "northeast": {
+          "lat": 48.82326,
+          "lng": 2.12685
+        },
+        "southwest": {
+          "lat": 48.80073,
+          "lng": 2.07273
+        }
+      }
+    }
+  ],
+  "status": "OK"
+}

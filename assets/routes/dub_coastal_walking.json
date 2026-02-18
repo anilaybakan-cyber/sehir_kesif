@@ -1,0 +1,86 @@
+{
+  "routes": [
+    {
+      "overview_polyline": {
+        "points": "idzdI~h`d@????"
+      },
+      "legs": [
+        {
+          "distance": {
+            "value": 0,
+            "text": "0.0 km"
+          },
+          "duration": {
+            "value": 0,
+            "text": "0 mins"
+          },
+          "steps": [
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "idzdI~h`d@??"
+              },
+              "html_instructions": "depart Evora Terrace"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "idzdI~h`d@"
+              },
+              "html_instructions": "arrive Evora Terrace"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "idzdI~h`d@??"
+              },
+              "html_instructions": "depart Evora Terrace"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "idzdI~h`d@"
+              },
+              "html_instructions": "arrive Evora Terrace"
+            }
+          ]
+        }
+      ],
+      "bounds": {
+        "northeast": {
+          "lat": 53.38709,
+          "lng": -6.0688
+        },
+        "southwest": {
+          "lat": 53.38709,
+          "lng": -6.0688
+        }
+      }
+    }
+  ],
+  "status": "OK"
+}

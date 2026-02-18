@@ -1,0 +1,190 @@
+{
+  "routes": [
+    {
+      "overview_polyline": {
+        "points": "{yrFajvxRFuADMJAR@BCHaAPGB?JEN@Cj@Ab@WfFCf@Ib@Qb@W\\m@f@_Az@UVGJKXGZCTAP@HBPBP@@@@@H@FAHCFEDEDMRQVILm@x@i@t@q@v@}AbB_BdBGF[\\QVEJGNCHCFGFIBI@I?GCECEECGCG?E@GGIy@m@q@u@_BeBUSQIUEOAQAUBKDIBIDYRGLKVQNuDfCEDCFCFAFDNFHLFN?LCHIVUFCLANGNBpA|@HLBR@Ty@pAwIbNa@n@_@ZSVORUPWBUB]@c@Ea@GMAGAOIW]KS"
+      },
+      "legs": [
+        {
+          "distance": {
+            "value": 2346.8,
+            "text": "2.3 km"
+          },
+          "duration": {
+            "value": 387.2,
+            "text": "6 mins"
+          },
+          "steps": [
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 113.9
+              },
+              "duration": {
+                "value": 27.6
+              },
+              "polyline": {
+                "points": "{yrFajvxRFuADMJAR@BCHaA"
+              },
+              "html_instructions": "depart "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 20.5
+              },
+              "duration": {
+                "value": 4.9
+              },
+              "polyline": {
+                "points": "_xrFkovxRPGB?JE"
+              },
+              "html_instructions": "turn Serapong Course Road"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 459.1
+              },
+              "duration": {
+                "value": 45.1
+              },
+              "polyline": {
+                "points": "}vrFyovxRN@Cj@Ab@WfFCf@Ib@Qb@W\\m@f@_Az@UVGJKXGZCTAP@HBPBP"
+              },
+              "html_instructions": "turn Allanbrooke Road"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 33.7
+              },
+              "duration": {
+                "value": 3.3
+              },
+              "polyline": {
+                "points": "_~rF}xuxR@@@@@H@FAHCFEDED"
+              },
+              "html_instructions": "roundabout Artillery Avenue"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 377.3
+              },
+              "duration": {
+                "value": 33.9
+              },
+              "polyline": {
+                "points": "i~rFiwuxRMRQVILm@x@i@t@q@v@}AbB_BdBGF[\\QVEJGN"
+              },
+              "html_instructions": "exit roundabout Artillery Avenue"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 65.7
+              },
+              "duration": {
+                "value": 7.4
+              },
+              "polyline": {
+                "points": "_lsFcguxRCHCFGFIBI@I?GCECEECGCG?E@G"
+              },
+              "html_instructions": "roundabout Gateway Avenue"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 276.1
+              },
+              "duration": {
+                "value": 25
+              },
+              "polyline": {
+                "points": "gnsFoguxRGIy@m@q@u@_BeBUSQIUEOAQAUBKDIBIDYR"
+              },
+              "html_instructions": "exit roundabout Gateway Avenue"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 428.5
+              },
+              "duration": {
+                "value": 102.8
+              },
+              "polyline": {
+                "points": "kzsFcnuxRGLKVQNuDfCEDCFCFAFDNFHLFN?LCHIVUFCLANGNBpA|@HLBR@Ty@pA"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "}{sFkauxR"
+              },
+              "html_instructions": "arrive "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 362.7
+              },
+              "duration": {
+                "value": 87.1
+              },
+              "polyline": {
+                "points": "}{sFkauxRwIbNa@n@"
+              },
+              "html_instructions": "depart "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 209.2
+              },
+              "duration": {
+                "value": 50.1
+              },
+              "polyline": {
+                "points": "wgtFwptxR_@ZSVORUPWBUB]@c@Ea@GMAGAOIW]KS"
+              },
+              "html_instructions": "fork "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "mqtFaptxR"
+              },
+              "html_instructions": "arrive "
+            }
+          ]
+        }
+      ],
+      "bounds": {
+        "northeast": {
+          "lat": 1.25735,
+          "lng": 103.83117
+        },
+        "southwest": {
+          "lat": 1.24791,
+          "lng": 103.82058
+        }
+      }
+    }
+  ],
+  "status": "OK"
+}

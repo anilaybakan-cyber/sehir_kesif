@@ -1,0 +1,216 @@
+{
+  "routes": [
+    {
+      "overview_polyline": {
+        "points": "y|cgG}gv_@LAbAq@v@]BCL[@CDMEEc@g@EEGGEAg@UIESI]Ie@Kq@SEAWIIMIMCQEKEk@AYSwCI]CGEIYs@u@oBSa@Se@ACACOa@i@iAIa@AYAC@YDk@D{@FYLc@JULWd@c@BCLOIKMWGKECG?I?IBC@C@KDG@IAk@GIC]OOAEDGFELALDlA?TAPELEPy@zAEBEDI@G?IAECCEQUCGOQYYYSOKKCS@K@GBEDGFUZONGBED]TKFi@PSF]HQBA?C?OAG?UGKIIQGUCQCYK_AGg@E[IYKOSGQ?OHMNGPCJAND\\HZJb@DX?D?LAPENOVg@b@c@PeCZ{ARo@HoANwBVSBS@[@IBmAV}@NODWD{@JA?cALC@U@Fj@?FPfBFl@^tDHz@SDcAV}A^y@RC?c@LC?ODID}@TgCn@I@I@KBQA?R?F?hDAj@?^AjC@\\?N@PHlA?LLtB@RBj@@P?D@R?HB\\@V@DF~ABZPjE@NFvABj@B`@@TBFLLBBTVLNx@GDAPAPA`AKF?pAKLDFBLLRZLR@Bb@t@`AhBLTP`@N\\BFDLlAjCz@hBHPf@vAHLHJRLVFXDZFPBXHPJLHVTJJxAnAr@n@j@d@NJDDBB@@BBB@"
+      },
+      "legs": [
+        {
+          "distance": {
+            "value": 4062.3,
+            "text": "4.1 km"
+          },
+          "duration": {
+            "value": 425.3,
+            "text": "7 mins"
+          },
+          "steps": [
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 108.9
+              },
+              "duration": {
+                "value": 21.7
+              },
+              "polyline": {
+                "points": "y|cgG}gv_@LAbAq@v@]BCL[@CDM"
+              },
+              "html_instructions": "depart "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 658.7
+              },
+              "duration": {
+                "value": 75.2
+              },
+              "polyline": {
+                "points": "uwcgGalv_@EEc@g@EEGGEAg@UIESI]Ie@Kq@SEAWIIMIMCQEKEk@AYSwCI]CGEIYs@u@oBSa@Se@ACACOa@i@iAIa@AYAC@YDk@D{@FYLc@JULWd@c@BCLO"
+              },
+              "html_instructions": "turn Avenue des Roches"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 124.7
+              },
+              "duration": {
+                "value": 18.6
+              },
+              "polyline": {
+                "points": "iedgGiqw_@IKMWGKECG?I?IBC@C@KDG@IAk@GIC]OOA"
+              },
+              "html_instructions": "turn Chemin du Roucas-Blanc"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 439.9
+              },
+              "duration": {
+                "value": 44.7
+              },
+              "polyline": {
+                "points": "ukdgGmsw_@EDGFELALDlA?TAPELEPy@zAEBEDI@G?IAECCEQUCGOQYYYSOKKCS@K@GBEDGFUZONGBED]TKFi@PSF]HQBA?C?OAG?UGKI"
+              },
+              "html_instructions": "continue Chemin du Roucas-Blanc"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 616.2
+              },
+              "duration": {
+                "value": 55.5
+              },
+              "polyline": {
+                "points": "w}dgGajw_@IQGUCQCYK_AGg@E[IYKOSGQ?OHMNGPCJAND\\HZJb@DX?D?LAPENOVg@b@c@PeCZ{ARo@HoANwBVSBS@[@"
+              },
+              "html_instructions": "turn Boulevard Tell\u00e8ne"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 195.8
+              },
+              "duration": {
+                "value": 27.5
+              },
+              "polyline": {
+                "points": "suegG}dw_@IBmAV}@NODWD{@JA?cALC@U@"
+              },
+              "html_instructions": "new name Rue d'Endoume"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 185.7
+              },
+              "duration": {
+                "value": 16.1
+              },
+              "polyline": {
+                "points": "m`fgGgbw_@Fj@?FPfBFl@^tDHz@"
+              },
+              "html_instructions": "turn Avenue de la Corse"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 319.1
+              },
+              "duration": {
+                "value": 27.7
+              },
+              "polyline": {
+                "points": "a~egGktv_@SDcAV}A^y@RC?c@LC?ODID}@TgCn@I@I@KBQA"
+              },
+              "html_instructions": "turn Rampe Saint-Maurice"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 570.4
+              },
+              "duration": {
+                "value": 54.9
+              },
+              "polyline": {
+                "points": "oofgGsnv_@?R?F?hDAj@?^AjC@\\?N@PHlA?LLtB@RBj@@P?D@R?HB\\@V@DF~ABZPjE@NFvABj@B`@@T"
+              },
+              "html_instructions": "turn Boulevard Charles Livon"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 98.2
+              },
+              "duration": {
+                "value": 8.8
+              },
+              "polyline": {
+                "points": "slfgG}bu_@BFLLBBTVLNx@GDAPAPA"
+              },
+              "html_instructions": "turn Rue des Catalans"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "ugfgGiau_@"
+              },
+              "html_instructions": "arrive Rue des Catalans"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 125.8
+              },
+              "duration": {
+                "value": 10.3
+              },
+              "polyline": {
+                "points": "ugfgGiau_@`AKF?pAKLDFBLLRZ"
+              },
+              "html_instructions": "depart Rue des Catalans"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 618.8
+              },
+              "duration": {
+                "value": 64.3
+              },
+              "polyline": {
+                "points": "aafgGm`u_@LR@Bb@t@`AhBLTP`@N\\BFDLlAjCz@hBHPf@vAHLHJRLVFXDZFPBXHPJLHVTJJxAnAr@n@j@d@NJDDBB@@BBB@"
+              },
+              "html_instructions": "new name Corniche du Pr\u00e9sident John Fitzgerald Kennedy"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "qgegGabt_@"
+              },
+              "html_instructions": "arrive Corniche du Pr\u00e9sident John Fitzgerald Kennedy"
+            }
+          ]
+        }
+      ],
+      "bounds": {
+        "northeast": {
+          "lat": 43.29226,
+          "lng": 5.36903
+        },
+        "southwest": {
+          "lat": 43.27819,
+          "lng": 5.35089
+        }
+      }
+    }
+  ],
+  "status": "OK"
+}

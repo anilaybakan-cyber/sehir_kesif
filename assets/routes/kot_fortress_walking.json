@@ -1,0 +1,203 @@
+{
+  "routes": [
+    {
+      "overview_polyline": {
+        "points": "_t|aGygqqBm@FG@E?o@HI@GBGDEBGFsBbDe@r@QVW\\u@fAmAtBg@|@IHGDIFI@E@G@G?IAKAKAIAaAM??CAGAYEICKAq@OKCMCaB[CAg@KICA?k@OCAQEBOJy@LiA?CBQ^eEPkBBOHy@@OBKHu@L@H?F@Z@P@N??W?WC}F@\\@~E?V?VO?QA[AGAI?MAIt@CJANIx@CNQjB_@dECPNB\\DRDf@FHBp@H"
+      },
+      "legs": [
+        {
+          "distance": {
+            "value": 1599,
+            "text": "1.6 km"
+          },
+          "duration": {
+            "value": 295.4,
+            "text": "4 mins"
+          },
+          "steps": [
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 34.4
+              },
+              "duration": {
+                "value": 3.8
+              },
+              "polyline": {
+                "points": "_t|aGygqqBm@FG@E?"
+              },
+              "html_instructions": "depart "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "{u|aGogqqB"
+              },
+              "html_instructions": "arrive "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 648.4
+              },
+              "duration": {
+                "value": 79.3
+              },
+              "polyline": {
+                "points": "{u|aGogqqBo@HI@GBGDEBGFsBbDe@r@QVW\\u@fAmAtBg@|@IHGDIFI@E@G@G?IAKAKAIAaAM??CAGAYEICKAq@OKCMCaB[CAg@KICA?k@OCAQE"
+              },
+              "html_instructions": "depart "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 267.8
+              },
+              "duration": {
+                "value": 39.8
+              },
+              "polyline": {
+                "points": "qt}aGiypqBBOJy@LiA?CBQ^eEPkBBOHy@@OBKHu@"
+              },
+              "html_instructions": "turn Ulica Taba\u0107ina"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 52
+              },
+              "duration": {
+                "value": 18
+              },
+              "polyline": {
+                "points": "_q}aGamqqBL@H?F@Z@P@N?"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 124.1
+              },
+              "duration": {
+                "value": 57.2
+              },
+              "polyline": {
+                "points": "an}aGylqqB?W?WC}F"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 12.7
+              },
+              "duration": {
+                "value": 3
+              },
+              "polyline": {
+                "points": "en}aGgvqqB@\\"
+              },
+              "html_instructions": "continue "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "cn}aGiuqqB"
+              },
+              "html_instructions": "arrive "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 111.4
+              },
+              "duration": {
+                "value": 29.1
+              },
+              "polyline": {
+                "points": "cn}aGiuqqB@~E?V?V"
+              },
+              "html_instructions": "depart "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 52
+              },
+              "duration": {
+                "value": 16.3
+              },
+              "polyline": {
+                "points": "an}aGylqqBO?QA[AGAI?MA"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 203.3
+              },
+              "duration": {
+                "value": 35
+              },
+              "polyline": {
+                "points": "_q}aGamqqBIt@CJANIx@CNQjB_@dECP"
+              },
+              "html_instructions": "end of road Ulica Taba\u0107ina"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 92.9
+              },
+              "duration": {
+                "value": 13.9
+              },
+              "polyline": {
+                "points": "ss}aGa~pqBNB\\DRDf@FHBp@H"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "mn}aG{|pqB"
+              },
+              "html_instructions": "arrive "
+            }
+          ]
+        }
+      ],
+      "bounds": {
+        "northeast": {
+          "lat": 42.42777,
+          "lng": 18.77364
+        },
+        "southwest": {
+          "lat": 42.42256,
+          "lng": 18.76835
+        }
+      }
+    }
+  ],
+  "status": "OK"
+}

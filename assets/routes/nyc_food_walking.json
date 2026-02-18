@@ -1,0 +1,450 @@
+{
+  "routes": [
+    {
+      "overview_polyline": {
+        "points": "mdrwFtotbMI_@Ea@GCo@Yc@UIEMGi@]}@k@KIJURe@|AcEFMBI|@_CHQBE~@aCDKDKr@mBJUFS|@}BDKDKz@wB@CDMDK\\{@`@aA?ADKDK~@cCHQFOj@yAf@mADKLYFQjA{Cr@gBBIJ]JFVNhAXFBNDNDD@~A`@HBF@LDNBl@NHDHBLD@@`@HHBHBFBbB`@HBPFZHDYFWp@}CTiA@IH_@F_@XwABKFWBQR_AZ{AVmADQ@E@GFSHe@FWNs@F[BIDSBM\\aBDUDQNHND`EbBFBBKd@}B@ADUFWb@wBBMBMP{@XqABK@Kj@oCBMBIj@mC@KEEuEmBMGBQl@wCRaATcABKDSDS|A{HP{@VmABMFWFWr@yBt@_C?CBKDSBOPyAD_@BKBUBSV{BBQDQBOH_@@K@M@I?G?I?GAEAGCECEECECECEAEAIAaDQqBIUAUAeA?{@?}@GWASCUCSEUESGUGQGSIUISKQISKe@WaE{BiDiBeB}@g@Wg@Sg@Si@QSGUGSEUESCUCyE_@{@GUAU?U@U@UBUBSDUFSFSHSHSJSLQLSNOLQPOPUXaAnAEDW^YZ[XQNQLQJQLUJUHUHSFUDSDwTpDWDUBU@U@U?_@AMAWCQEWESGWGSKUKQKw@i@e@[}DiCg@[g@Wg@Si@Oi@Oe@M_ASeASi@Kq@IoBW_D_@y@KcAYk@Qg@Ui@We@Y{BoAWa@SQUSeAs@i@_@aCmB}BmBiAaAgBwAy@o@c@]ECGEEAEAEAG?E@G@GBE@EBEDCFABCDc@vACFGRq@tBAFADAD?RWMSIc@QIEIGGCQKOKSM{AaAMIKIkAu@YSKGMI{AaAQMMCAAi@Oa@OYIMIGC_C}AECEGEGEGMM{@k@EEIKCJADSl@}BjH_@hAIXKZSn@}@rCq@rBa@nAM^IIgBiAIGMIg@]y@i@MIc@YmAy@MIGEeBiAKGKIcBgAMIKGaBiAMIIKe@e@AAy@m@IIBMdDgKHWLFbBhAHFNJrAx@PJJFHFZRj@`@\\TJHHFpAz@TNFDLFdBfALHHFf@Zb@XXRJFJF^VdAp@JHKZSn@}@rCq@rBa@nAM^KZM`@Ut@kArDGRGRQh@m@hBk@hBEJITM`@ITkBbGITGTK\\Up@qAbEIVJHdBfAJFHFfBhAHFJFdBjAHFLHbBjAJFKVa@pAoCrIq@tBUt@IXIXw@~BqBlGm@jBAHABGPIVCDCHg@bBi@bBaCpHIXKIy@i@k@_@KGJY^kALa@z@qC|@uCJFDBv@h@"
+      },
+      "legs": [
+        {
+          "distance": {
+            "value": 11705.4,
+            "text": "11.7 km"
+          },
+          "duration": {
+            "value": 1238.7,
+            "text": "20 mins"
+          },
+          "steps": [
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 29.5
+              },
+              "duration": {
+                "value": 6.3
+              },
+              "polyline": {
+                "points": "mdrwFtotbMI_@Ea@"
+              },
+              "html_instructions": "depart Carmine Street"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 143.2
+              },
+              "duration": {
+                "value": 22.5
+              },
+              "polyline": {
+                "points": "}drwFrmtbMGCo@Yc@UIEMGi@]}@k@KI"
+              },
+              "html_instructions": "turn 6th Avenue"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 135.8
+              },
+              "duration": {
+                "value": 17.2
+              },
+              "polyline": {
+                "points": "elrwF|htbMJURe@|AcEFM"
+              },
+              "html_instructions": "turn West 4th Street"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 304.3
+              },
+              "duration": {
+                "value": 42
+              },
+              "polyline": {
+                "points": "_hrwFn`tbMBI|@_CHQBE~@aCDKDKr@mBJUFS|@}BDK"
+              },
+              "html_instructions": "new name Washington Square South"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 505.7
+              },
+              "duration": {
+                "value": 65.8
+              },
+              "polyline": {
+                "points": "w~qwFpmsbMDKz@wB@CDMDK\\{@`@aA?ADKDK~@cCHQFOj@yAf@mADKLYFQjA{Cr@gBBIJ]"
+              },
+              "html_instructions": "new name West 4th Street"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 330.5
+              },
+              "duration": {
+                "value": 46.8
+              },
+              "polyline": {
+                "points": "ioqwFdnrbMJFVNhAXFBNDNDD@~A`@HBF@LDNBl@NHDHBLD@@`@HHBHBFBbB`@HBPF"
+              },
+              "html_instructions": "turn Bowery"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 519.9
+              },
+              "duration": {
+                "value": 75
+              },
+              "polyline": {
+                "points": "m}pwF`urbMZHDYFWp@}CTiA@IH_@F_@XwABKFWBQR_AZ{AVmADQ@E@GFSHe@FWNs@F[BIDSBM\\aBDUDQ"
+              },
+              "html_instructions": "turn East Houston Street"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 18.9
+              },
+              "duration": {
+                "value": 2
+              },
+              "polyline": {
+                "points": "arpwFvrqbMNHND"
+              },
+              "html_instructions": "turn Ludlow Street"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "aqpwFfsqbM"
+              },
+              "html_instructions": "arrive Ludlow Street"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 121.4
+              },
+              "duration": {
+                "value": 19
+              },
+              "polyline": {
+                "points": "aqpwFfsqbM`EbBFB"
+              },
+              "html_instructions": "depart Ludlow Street"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 374.7
+              },
+              "duration": {
+                "value": 55.1
+              },
+              "polyline": {
+                "points": "wjpwFnvqbMBKd@}B@ADUFWb@wBBMBMP{@XqABK@Kj@oCBMBIj@mC@K"
+              },
+              "html_instructions": "turn Stanton Street"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 140.9
+              },
+              "duration": {
+                "value": 19.8
+              },
+              "polyline": {
+                "points": "}bpwFx|pbMEEuEmBMG"
+              },
+              "html_instructions": "turn Attorney Street"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 720.5
+              },
+              "duration": {
+                "value": 90.6
+              },
+              "polyline": {
+                "points": "gjpwF|xpbMBQl@wCRaATcABKDSDS|A{HP{@VmABMFWFWr@yBt@_C?CBKDSBOPyAD_@BKBUBSV{BBQDQBOH_@@K@M"
+              },
+              "html_instructions": "turn East Houston Street"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 302.2
+              },
+              "duration": {
+                "value": 26.6
+              },
+              "polyline": {
+                "points": "o{owFlgobM@I?G?I?GAEAGCECEECECECEAEAIAaDQqBIUAUAeA?{@?"
+              },
+              "html_instructions": "on ramp "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 2723.4
+              },
+              "duration": {
+                "value": 190.3
+              },
+              "polyline": {
+                "points": "ckpwF|cobM}@GWASCUCSEUESGUGQGSIUISKQISKe@WaE{BiDiBeB}@g@Wg@Sg@Si@QSGUGSEUESCUCyE_@{@GUAU?U@U@UBUBSDUFSFSHSHSJSLQLSNOLQPOPUXaAnAEDW^YZ[XQNQLQJQLUJUHUHSFUDSDwTpDWDUBU@U@U?_@AMAWCQEWESGWGSKUKQKw@i@e@[}DiCg@[g@Wg@Si@Oi@Oe@M_ASeASi@Kq@IoBW_D_@y@KcAYk@Qg@Ui@We@Y{BoA"
+              },
+              "html_instructions": "merge FDR Drive"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 656.3
+              },
+              "duration": {
+                "value": 57
+              },
+              "polyline": {
+                "points": "wztwFronbMWa@SQUSeAs@i@_@aCmB}BmBiAaAgBwAy@o@c@]ECGEEAEAEAG?E@G@GBE@EBEDCFABCDc@vACFGRq@tBAFADAD?R"
+              },
+              "html_instructions": "off ramp "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 325
+              },
+              "duration": {
+                "value": 44.4
+              },
+              "polyline": {
+                "points": "{vuwFzenbMWMSIc@QIEIGGCQKOKSM{AaAMIKIkAu@YSKGMI{AaAQM"
+              },
+              "html_instructions": "turn 1st Avenue"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 240.7
+              },
+              "duration": {
+                "value": 34.6
+              },
+              "polyline": {
+                "points": "agvwFvzmbMMCAAi@Oa@OYIMIGC_C}AECEGEGEGMM{@k@EEIK"
+              },
+              "html_instructions": "fork 1st Avenue"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 441.6
+              },
+              "duration": {
+                "value": 34.9
+              },
+              "polyline": {
+                "points": "_svwFrrmbMCJADSl@}BjH_@hAIXKZSn@}@rCq@rBa@nAM^"
+              },
+              "html_instructions": "turn East 49th Street"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 477.1
+              },
+              "duration": {
+                "value": 65.3
+              },
+              "polyline": {
+                "points": "a_wwFfonbMIIgBiAIGMIg@]y@i@MIc@YmAy@MIGEeBiAKGKIcBgAMIKGaBiAMI"
+              },
+              "html_instructions": "turn 3rd Avenue"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 73.1
+              },
+              "duration": {
+                "value": 8.2
+              },
+              "polyline": {
+                "points": "ovwwF`~mbMIKe@e@AAw@m@"
+              },
+              "html_instructions": "fork 3rd Avenue"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "yywwF~zmbM"
+              },
+              "html_instructions": "arrive 3rd Avenue"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 7.3
+              },
+              "duration": {
+                "value": 4.7
+              },
+              "polyline": {
+                "points": "{ywwF~zmbMII"
+              },
+              "html_instructions": "depart 3rd Avenue"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 207.8
+              },
+              "duration": {
+                "value": 27.4
+              },
+              "polyline": {
+                "points": "ezwwFtzmbMBMdDgKHW"
+              },
+              "html_instructions": "turn East 56th Street"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 557.2
+              },
+              "duration": {
+                "value": 78.2
+              },
+              "polyline": {
+                "points": "qtwwFfmmbMLFbBhAHFNJrAx@PJJFHFZRj@`@\\TJHHFpAz@TNFDLFdBfALHHFf@Zb@XXRJFJF^VdAp@JH"
+              },
+              "html_instructions": "turn 2nd Avenue"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 838.2
+              },
+              "duration": {
+                "value": 70.2
+              },
+              "polyline": {
+                "points": "ayvwFbanbMKZSn@}@rCq@rBa@nAM^KZM`@Ut@kArDGRGRQh@m@hBk@hBEJITM`@ITkBbGITGTK\\Up@qAbEIV"
+              },
+              "html_instructions": "turn East 49th Street"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 317.4
+              },
+              "duration": {
+                "value": 30.8
+              },
+              "polyline": {
+                "points": "}owwFjwobMJHdBfAJFHFfBhAHFJFdBjAHFLHbBjAJF"
+              },
+              "html_instructions": "turn 5th Avenue"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 858.6
+              },
+              "duration": {
+                "value": 64.2
+              },
+              "polyline": {
+                "points": "i`wwFxbpbMKVa@pAoCrIq@tBUt@IXIXw@~BqBlGm@jBAHABGPIVCDCHg@bBi@bBaCpHIX"
+              },
+              "html_instructions": "turn West 45th Street"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 79.6
+              },
+              "duration": {
+                "value": 13
+              },
+              "polyline": {
+                "points": "wwwwFlzqbMKIy@i@k@_@KG"
+              },
+              "html_instructions": "turn 8th Avenue"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 207.9
+              },
+              "duration": {
+                "value": 15.7
+              },
+              "polyline": {
+                "points": "u{wwFpwqbMJY^kALa@z@qC|@uC"
+              },
+              "html_instructions": "turn West 46th Street"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 46.9
+              },
+              "duration": {
+                "value": 11.1
+              },
+              "polyline": {
+                "points": "avwwF`jqbMJFDBv@h@"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "wswwFvkqbM"
+              },
+              "html_instructions": "arrive "
+            }
+          ]
+        }
+      ],
+      "bounds": {
+        "northeast": {
+          "lat": 40.75979,
+          "lng": -73.9658
+        },
+        "southwest": {
+          "lat": 40.71879,
+          "lng": -74.00203
+        }
+      }
+    }
+  ],
+  "status": "OK"
+}

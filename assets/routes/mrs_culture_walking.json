@@ -1,0 +1,372 @@
+{
+  "routes": [
+    {
+      "overview_polyline": {
+        "points": "mrggG_}u_@a@iAiAkDPKJKBE?K@KCKOe@K]G_@[_A]y@KOEM?A?GGQOc@QMiBa@cAW[GEAcCe@m@MEA[GkE}@C?EAIC_@GeAUqBa@KCSI@OHMBQA]L}@D]FWD]TmBLgAXwBRB`ATHDj@Rn@NNDx@Px@RFDBONuA?GCMp@JbAPpARJ{A?AL{ADIJArBLDAzBV@EADs@IgAME@sBMK@KAu@IwBUKRGJEJAJOrBAFBL?FOtACNHDn@NbATF@n@ND@xA^NDz@PJBnAZr@PH?DAz@RnAXj@LD@~@Oh@GIXAFAFARAH?D?H?T?H@JBPEHEJm@pBADA@A@C?A?A?GCmBgAQIEAC?A@ABCP?D?D@B?@PPMIGA]AWE]IECAACCAEAG?G?G@EH{@BSSGgAU_B]WESEoBa@M?S?KAKAwFiAcDo@g@KUlBE\\PBTF"
+      },
+      "legs": [
+        {
+          "distance": {
+            "value": 3414.9,
+            "text": "3.4 km"
+          },
+          "duration": {
+            "value": 557.8,
+            "text": "9 mins"
+          },
+          "steps": [
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 116.8
+              },
+              "duration": {
+                "value": 30.8
+              },
+              "polyline": {
+                "points": "mrggG_}u_@a@iAiAkD"
+              },
+              "html_instructions": "depart "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 152.3
+              },
+              "duration": {
+                "value": 36.5
+              },
+              "polyline": {
+                "points": "yuggGudv_@PKJKBE?K@KCKOe@K]G_@[_A]y@KO"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 285.8
+              },
+              "duration": {
+                "value": 37.2
+              },
+              "polyline": {
+                "points": "cxggGenv_@EM?A?GGQOc@QMiBa@cAW[GEAcCe@m@MEA[G"
+              },
+              "html_instructions": "fork Boulevard Jacques Saad\u00e9 Quai de la Tourette"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 269.5
+              },
+              "duration": {
+                "value": 30.3
+              },
+              "polyline": {
+                "points": "wfhgGcuv_@kE}@C?EAIC_@GeAUqBa@KCSI"
+              },
+              "html_instructions": "new name Boulevard Jacques Saad\u00e9 Quai de la Joliette"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 223.9
+              },
+              "duration": {
+                "value": 16.4
+              },
+              "polyline": {
+                "points": "ouhgGuyv_@@OHMBQA]L}@D]FWD]TmBLgAXwB"
+              },
+              "html_instructions": "turn Boulevard des Dames"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 188.6
+              },
+              "duration": {
+                "value": 32.5
+              },
+              "polyline": {
+                "points": "arhgGcjw_@RB`ATHDj@Rn@NNDx@Px@RFD"
+              },
+              "html_instructions": "turn Rue de l'\u00c9v\u00each\u00e9"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 52.1
+              },
+              "duration": {
+                "value": 9.8
+              },
+              "polyline": {
+                "points": "yghgGmfw_@BONuA?GCM"
+              },
+              "html_instructions": "turn Place Francis Chirat"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 195
+              },
+              "duration": {
+                "value": 29.4
+              },
+              "polyline": {
+                "points": "ighgGijw_@p@JbAPpARJ{A?AL{ADI"
+              },
+              "html_instructions": "turn Rue de l'Observance"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 144.7
+              },
+              "duration": {
+                "value": 25.2
+              },
+              "polyline": {
+                "points": "a`hgG{nw_@JArBLDAzBV"
+              },
+              "html_instructions": "turn Rue Puits du Denier"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 2.1
+              },
+              "duration": {
+                "value": 27.9
+              },
+              "polyline": {
+                "points": "_xggGymw_@@E"
+              },
+              "html_instructions": "turn Rue Michel Salvarelli"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 2.1
+              },
+              "duration": {
+                "value": 1.9
+              },
+              "polyline": {
+                "points": "}wggG_nw_@AD"
+              },
+              "html_instructions": "continue Rue Michel Salvarelli"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 29.8
+              },
+              "duration": {
+                "value": 4.2
+              },
+              "polyline": {
+                "points": "_xggGymw_@s@I"
+              },
+              "html_instructions": "turn Rue des Muettes"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "syggGcnw_@"
+              },
+              "html_instructions": "arrive Rue des Muettes"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 219.6
+              },
+              "duration": {
+                "value": 33.3
+              },
+              "polyline": {
+                "points": "syggGcnw_@gAME@sBMK@KAu@IwBU"
+              },
+              "html_instructions": "depart Rue des Muettes"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 130.8
+              },
+              "duration": {
+                "value": 24.1
+              },
+              "polyline": {
+                "points": "{ehgG}ow_@KRGJEJAJOrBAFBL?FOtACN"
+              },
+              "html_instructions": "end of road Rue Trigance"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 462.4
+              },
+              "duration": {
+                "value": 90.7
+              },
+              "polyline": {
+                "points": "yghgGmfw_@HDn@NbATF@n@ND@xA^NDz@PJBnAZr@PH?DAz@RnAXj@LD@~@Oh@G"
+              },
+              "html_instructions": "turn Rue de l'\u00c9v\u00each\u00e9"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 63.3
+              },
+              "duration": {
+                "value": 13.4
+              },
+              "polyline": {
+                "points": "onggG_`w_@IXAFAFARAH?D?H?T?H@JBP"
+              },
+              "html_instructions": "turn Rue Saint-Thom\u00e9"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 192.6
+              },
+              "duration": {
+                "value": 35
+              },
+              "polyline": {
+                "points": "{nggGi{v_@EHEJm@pBADA@A@C?A?A?GCmBgAQIEAC?A@ABCP?D?D@B?@PP"
+              },
+              "html_instructions": "continue Rue Saint-Thom\u00e9"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 83.5
+              },
+              "duration": {
+                "value": 9.2
+              },
+              "polyline": {
+                "points": "iuggGswv_@MIGA]AWE]IECAACCAEAG?G?G@E"
+              },
+              "html_instructions": "turn Esplanade de la Tourette"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "ayggG_zv_@"
+              },
+              "html_instructions": "arrive Place de La Major"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 33.5
+              },
+              "duration": {
+                "value": 8.6
+              },
+              "polyline": {
+                "points": "ayggG_zv_@H{@BS"
+              },
+              "html_instructions": "depart Place de La Major"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 52.2
+              },
+              "duration": {
+                "value": 4.7
+              },
+              "polyline": {
+                "points": "sxggGo|v_@SGgAU"
+              },
+              "html_instructions": "turn Place de la Major"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 433.1
+              },
+              "duration": {
+                "value": 43.9
+              },
+              "polyline": {
+                "points": "o{ggGm}v_@_B]WESEoBa@M?S?KAKAwFiAcDo@g@K"
+              },
+              "html_instructions": "new name Avenue Robert Schuman"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 58.2
+              },
+              "duration": {
+                "value": 9.4
+              },
+              "polyline": {
+                "points": "ishgGcdw_@UlBE\\"
+              },
+              "html_instructions": "turn Boulevard des Dames"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 23
+              },
+              "duration": {
+                "value": 3.4
+              },
+              "polyline": {
+                "points": "ethgGw_w_@PBTF"
+              },
+              "html_instructions": "turn Rue Mazenod"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "}rhgGk_w_@"
+              },
+              "html_instructions": "arrive Rue Mazenod"
+            }
+          ]
+        }
+      ],
+      "bounds": {
+        "northeast": {
+          "lat": 43.30344,
+          "lng": 5.36847
+        },
+        "southwest": {
+          "lat": 43.2972,
+          "lng": 5.36032
+        }
+      }
+    }
+  ],
+  "status": "OK"
+}

@@ -1,0 +1,346 @@
+{
+  "routes": [
+    {
+      "overview_polyline": {
+        "points": "{rd~G{muq@C_AAUASAYIwBAk@A]?y@?W?K@SRI|@KFDJ@JANHD@DBBBBBBBBDFRFTR\\@Dv@lCDLHVDPFPd@tATr@Pf@Nb@HTBF@BDHHHNFWTGHC@y@n@KHEDIFIFs@n@QVSXGH}@cBGKGGGAC@y@FC@Co@AOEmAAIC}@EmBAUASKqCAk@A]?y@?W?K@SRI|@KFDJ@JANHD@DBBBBBBBBDFRFTR\\@Dv@lCDLHVDPFPd@tATr@Pf@Nb@HTBF@BDHHHNFDBDDHLBFFLJ\\Tr@FVHVBJZdAP^f@bBLf@DLNd@[@KDOF_@LA@MHEBCBKFUNa@XEDIFSPEFCBCJAD?FALE@I@MH_@RQHUFi@DW@KAK?q@MQC?QBu@n@D@?^BLFb@?ZA^ETGZIDBJFAD?FAL@b@FLDJDFFFHH`@WTQ\\YLKBEd@i@LUJSFKHOBIBKBO?IAYOe@EMMg@g@cBQ_@[eACKIWGWUs@K]GMCGIMEEECOGIIEIACCGIUOc@Qg@Us@e@uAGQEQIWEMw@mCAEGe@I_@GUAEAAAC??CEACEEGGGEGCECEAKCI?E?E?e@DI@G?E@C@E@EBIFEBSNIBIBG@E@_Hl@MBK?I@M?"
+      },
+      "legs": [
+        {
+          "distance": {
+            "value": 3140.9,
+            "text": "3.1 km"
+          },
+          "duration": {
+            "value": 452.7,
+            "text": "7 mins"
+          },
+          "steps": [
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 50.4
+              },
+              "duration": {
+                "value": 10
+              },
+              "polyline": {
+                "points": "{rd~G{muq@C_AAUASAY"
+              },
+              "html_instructions": "depart Bahnhofstrasse"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "esd~G_ruq@"
+              },
+              "html_instructions": "arrive Bahnhofstrasse"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 117.2
+              },
+              "duration": {
+                "value": 20
+              },
+              "polyline": {
+                "points": "esd~G_ruq@IwBAk@A]?y@?W?K@S"
+              },
+              "html_instructions": "depart Bahnhofstrasse"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 65.2
+              },
+              "duration": {
+                "value": 5.9
+              },
+              "polyline": {
+                "points": "qsd~Gs{uq@RI|@KFDJ@JA"
+              },
+              "html_instructions": "end of road Bahnhofplatz"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 292.9
+              },
+              "duration": {
+                "value": 34.8
+              },
+              "polyline": {
+                "points": "_pd~Gc|uq@NHD@DBBBBBBBBDFRFTR\\@Dv@lCDLHVDPFPd@tATr@Pf@Nb@HTBF@BDHHHNF"
+              },
+              "html_instructions": "turn Pilatusstrasse"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 153.3
+              },
+              "duration": {
+                "value": 27.1
+              },
+              "polyline": {
+                "points": "ifd~Ggiuq@WTGHC@y@n@KHEDIFIFs@n@QVSXGH"
+              },
+              "html_instructions": "turn Hirschmattstrasse"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 129.5
+              },
+              "duration": {
+                "value": 24.9
+              },
+              "polyline": {
+                "points": "omd~Gibuq@}@cBGKGGGAC@y@FC@Co@AO"
+              },
+              "html_instructions": "end of road Hirschengraben"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "mrd~Gwguq@"
+              },
+              "html_instructions": "arrive Bahnhofstrasse"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 242.7
+              },
+              "duration": {
+                "value": 46.9
+              },
+              "polyline": {
+                "points": "mrd~Gwguq@EmAAIC}@EmBAUASKqCAk@A]?y@?W?K@S"
+              },
+              "html_instructions": "depart Bahnhofstrasse"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 65.2
+              },
+              "duration": {
+                "value": 5.9
+              },
+              "polyline": {
+                "points": "qsd~Gs{uq@RI|@KFDJ@JA"
+              },
+              "html_instructions": "end of road Bahnhofplatz"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 512.4
+              },
+              "duration": {
+                "value": 64.4
+              },
+              "polyline": {
+                "points": "_pd~Gc|uq@NHD@DBBBBBBBBDFRFTR\\@Dv@lCDLHVDPFPd@tATr@Pf@Nb@HTBF@BDHHHNFDBDDHLBFFLJ\\Tr@FVHVBJZdAP^f@bBLf@DLNd@"
+              },
+              "html_instructions": "turn Pilatusstrasse"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 155.8
+              },
+              "duration": {
+                "value": 14.6
+              },
+              "polyline": {
+                "points": "u_d~Geztq@[@KDOF_@LA@MHEBCBKFUNa@XEDIFSPEFCBCJAD?FAL"
+              },
+              "html_instructions": "turn Obergrundstrasse"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 149.9
+              },
+              "duration": {
+                "value": 35.3
+              },
+              "polyline": {
+                "points": "agd~Gmttq@E@I@MH_@RQHUFi@DW@KAK?q@MQC"
+              },
+              "html_instructions": "turn Burgerstrasse"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 27.3
+              },
+              "duration": {
+                "value": 8.2
+              },
+              "polyline": {
+                "points": "eod~Gestq@?QBu@"
+              },
+              "html_instructions": "turn Bahnhofstrasse"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 28.6
+              },
+              "duration": {
+                "value": 6.4
+              },
+              "polyline": {
+                "points": "aod~Gmutq@n@D@?"
+              },
+              "html_instructions": "turn Franziskanerplatz"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "omd~Ggutq@"
+              },
+              "html_instructions": "arrive Franziskanerplatz"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 118.4
+              },
+              "duration": {
+                "value": 26.7
+              },
+              "polyline": {
+                "points": "omd~Ggutq@^BLFb@?ZA^ETGZIDBJF"
+              },
+              "html_instructions": "depart Franziskanerplatz"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 24.8
+              },
+              "duration": {
+                "value": 2.6
+              },
+              "polyline": {
+                "points": "}fd~Giutq@AD?FAL@b@"
+              },
+              "html_instructions": "end of road Obergrundstrasse"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 29.2
+              },
+              "duration": {
+                "value": 5.3
+              },
+              "polyline": {
+                "points": "_gd~Gistq@FLDJDFFFHH"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 158.8
+              },
+              "duration": {
+                "value": 17.8
+              },
+              "polyline": {
+                "points": "yed~Guqtq@`@WTQ\\YLKBEd@i@LUJSFKHOBIBKBO?IAY"
+              },
+              "html_instructions": "turn Hallwilerweg"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 525.7
+              },
+              "duration": {
+                "value": 65.4
+              },
+              "polyline": {
+                "points": "u_d~Geztq@Oe@EMMg@g@cBQ_@[eACKIWGWUs@K]GMCGIMEEECOGIIEIACCGIUOc@Qg@Us@e@uAGQEQIWEMw@mCAEGe@I_@GUAEAAAC??CEACEEGGGEGCECEA"
+              },
+              "html_instructions": "turn Pilatusstrasse"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 105.1
+              },
+              "duration": {
+                "value": 11.5
+              },
+              "polyline": {
+                "points": "_pd~Gi}uq@KCI?E?E?e@DI@G?E@C@E@EBIFEBSNIBIBG@E@"
+              },
+              "html_instructions": "new name Bahnhofplatz"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 188.5
+              },
+              "duration": {
+                "value": 19
+              },
+              "polyline": {
+                "points": "uud~Gs{uq@_Hl@MBK?I@M?"
+              },
+              "html_instructions": "new name Seebr\u00fccke"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "g`e~G_zuq@"
+              },
+              "html_instructions": "arrive "
+            }
+          ]
+        }
+      ],
+      "bounds": {
+        "northeast": {
+          "lat": 47.053,
+          "lng": 8.30951
+        },
+        "southwest": {
+          "lat": 47.04778,
+          "lng": 8.30251
+        }
+      }
+    }
+  ],
+  "status": "OK"
+}

@@ -1,0 +1,307 @@
+{
+  "routes": [
+    {
+      "overview_polyline": {
+        "points": "wuqlHu~dt@a@eAwIuRQc@WYQUIIIIKIGEECEAMBE@E@CBCBCDEFCFCFELAD?BCLAT?BAH?TL|@Ff@Df@HbALz@JtAHdAHjA@PNnBLhBJdBBp@RnG@Z?H@R@ZHxBBj@@XB\\BZ@V@P?R?X@\\?f@?RAT?d@AvCAr@?NAXL@@W@Q@i@?]?W?[?G?IAS?YASAa@AWCS?g@A]?Y?SAQAWC[C]AYCk@IyBA[AS?IA[SoGCq@KeBMiBOoBAQIkAIeAKuAC}@?KM{ABWBM@I@E@CBEBCHODDB@F@BBBBBBBBBDFPHVJ\\@FHX@HZvAXhADPX~@FTBHBRBRFl@Hl@Fl@PfAF\\Pv@Lf@XfAdAo@JGDPFVl@hC@B@F@D@D@FXrABFiAt@C@C?AACEAGKk@E[eAd@qCt@I@G@CEE?GAEAACECIIIMSoGCq@KeBMiBOoBAQIkAIeAKuAC}@?KM{ABWBM@I@E@CBEBCHOFIJGBCFGBEBGLQFGDAF?HBHFPVvItRhIvSdAhDXfB"
+      },
+      "legs": [
+        {
+          "distance": {
+            "value": 3949.7,
+            "text": "3.9 km"
+          },
+          "duration": {
+            "value": 444.7,
+            "text": "7 mins"
+          },
+          "steps": [
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 408.3
+              },
+              "duration": {
+                "value": 37.1
+              },
+              "polyline": {
+                "points": "wuqlHu~dt@a@eAwIuRQc@WYQUIIIIKIGEECEA"
+              },
+              "html_instructions": "depart "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 22.4
+              },
+              "duration": {
+                "value": 2.4
+              },
+              "polyline": {
+                "points": "aerlHoxet@MBE@E@CBCBCD"
+              },
+              "html_instructions": "continue Am Karlstor"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 49.1
+              },
+              "duration": {
+                "value": 6.5
+              },
+              "polyline": {
+                "points": "gfrlHywet@EFCFCFELAD?BCLAT?BAH?T"
+              },
+              "html_instructions": "continue Am Karlstor"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 562.3
+              },
+              "duration": {
+                "value": 56.7
+              },
+              "polyline": {
+                "points": "egrlHatet@L|@Ff@Df@HbALz@JtAHdAHjA@PNnBLhBJdBBp@RnG@Z?H@R@ZHxBBj@@XB\\BZ@V"
+              },
+              "html_instructions": "new name Am Hackteufel"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "marlHoddt@"
+              },
+              "html_instructions": "arrive Am Hackteufel"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 34.2
+              },
+              "duration": {
+                "value": 3
+              },
+              "polyline": {
+                "points": "marlHoddt@@P?R?X@\\"
+              },
+              "html_instructions": "depart Am Hackteufel"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 132.9
+              },
+              "duration": {
+                "value": 18.9
+              },
+              "polyline": {
+                "points": "iarlHqadt@?f@?RAT?d@AvCAr@?NAX"
+              },
+              "html_instructions": "new name Neckarstaden"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 141.8
+              },
+              "duration": {
+                "value": 18.2
+              },
+              "polyline": {
+                "points": "qarlHcvct@L@@W@Q@i@?]?W?[?G?IAS?YASAa@AWCS?g@"
+              },
+              "html_instructions": "continue Neckarstaden"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 555.8
+              },
+              "duration": {
+                "value": 56
+              },
+              "polyline": {
+                "points": "iarlHqadt@A]?Y?SAQAWC[C]AYCk@IyBA[AS?IA[SoGCq@KeBMiBOoBAQIkAIeAKuAC}@?KM{A"
+              },
+              "html_instructions": "new name Am Hackteufel"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 36
+              },
+              "duration": {
+                "value": 4.1
+              },
+              "polyline": {
+                "points": "cfrlHypet@BWBM@I@E@CBEBCHO"
+              },
+              "html_instructions": "turn Am Karlstor"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 363.1
+              },
+              "duration": {
+                "value": 59.2
+              },
+              "polyline": {
+                "points": "cerlHmset@DDB@F@BBBBBBBBBDFPHVJ\\@FHX@HZvAXhADPX~@FTBHBRBRFl@Hl@Fl@PfAF\\Pv@Lf@XfA"
+              },
+              "html_instructions": "turn Hauptstra\u00dfe"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 50.5
+              },
+              "duration": {
+                "value": 7.6
+              },
+              "polyline": {
+                "points": "y{qlHexdt@dAo@JG"
+              },
+              "html_instructions": "turn Karlsplatz"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 123.4
+              },
+              "duration": {
+                "value": 20.6
+              },
+              "polyline": {
+                "points": "gyqlH}ydt@DPFVl@hC@B@F@D@D@FXrABF"
+              },
+              "html_instructions": "new name Karlstra\u00dfe"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 49.7
+              },
+              "duration": {
+                "value": 7.5
+              },
+              "polyline": {
+                "points": "cvqlHmpdt@iAt@C@C?"
+              },
+              "html_instructions": "turn Kornmarkt"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "uxqlHundt@"
+              },
+              "html_instructions": "arrive Kornmarkt"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 35.4
+              },
+              "duration": {
+                "value": 10.4
+              },
+              "polyline": {
+                "points": "uxqlHundt@AACEAGKk@E["
+              },
+              "html_instructions": "depart Kornmarkt"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 134.5
+              },
+              "duration": {
+                "value": 19.9
+              },
+              "polyline": {
+                "points": "oyqlHmqdt@eAd@qCt@I@G@"
+              },
+              "html_instructions": "turn M\u00f6nchgasse"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 33.7
+              },
+              "duration": {
+                "value": 5.1
+              },
+              "polyline": {
+                "points": "y`rlHmndt@CEE?GAEAACECIIIM"
+              },
+              "html_instructions": "continue M\u00f6nchgasse"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 390.2
+              },
+              "duration": {
+                "value": 35.2
+              },
+              "polyline": {
+                "points": "mbrlHwodt@SoGCq@KeBMiBOoBAQIkAIeAKuAC}@?KM{A"
+              },
+              "html_instructions": "turn Am Hackteufel"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 826.5
+              },
+              "duration": {
+                "value": 76.3
+              },
+              "polyline": {
+                "points": "cfrlHypet@BWBM@I@E@CBEBCHOFIJGBCFGBEBGLQFGDAF?HBHFPVvItRhIvSdAhDXfB"
+              },
+              "html_instructions": "turn Am Karlstor"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "oiqlHqcdt@"
+              },
+              "html_instructions": "arrive "
+            }
+          ]
+        }
+      ],
+      "bounds": {
+        "northeast": {
+          "lat": 49.41443,
+          "lng": 8.71832
+        },
+        "southwest": {
+          "lat": 49.40968,
+          "lng": 8.70769
+        }
+      }
+    }
+  ],
+  "status": "OK"
+}

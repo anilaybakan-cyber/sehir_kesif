@@ -1,0 +1,138 @@
+{
+  "routes": [
+    {
+      "overview_polyline": {
+        "points": "uxd~G}i{q@BLNjBP`@PB?LFTGDiAp@w@b@kCzAYPSJ{@b@k@Xi@XIAO@IEECEGAIAKAWPqABUJy@b@}DD_@BYBY^gDP{A@E@E@EBC@CBCBA@?@A@A@A@C@A?C@C?C?C?A?CAC?AACAAACAAA?AAAAA?A?A?A?A@AI?EAG?G@G?G@IPaBDSHSLYLMbB{AxBmBDCFEDAPALDH?v@i@NCZFRCb@Md@a@TYf@a@|@u@"
+      },
+      "legs": [
+        {
+          "distance": {
+            "value": 1226.4,
+            "text": "1.2 km"
+          },
+          "duration": {
+            "value": 175.3,
+            "text": "2 mins"
+          },
+          "steps": [
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 74
+              },
+              "duration": {
+                "value": 18.1
+              },
+              "polyline": {
+                "points": "uxd~G}i{q@BLNjBP`@PB"
+              },
+              "html_instructions": "depart Lidoweg"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 14.9
+              },
+              "duration": {
+                "value": 5.6
+              },
+              "polyline": {
+                "points": "}vd~G}d{q@?LFT"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 300
+              },
+              "duration": {
+                "value": 45.5
+              },
+              "polyline": {
+                "points": "uvd~Gyc{q@GDiAp@w@b@kCzAYPSJ{@b@k@Xi@XIAO@"
+              },
+              "html_instructions": "turn Lidostrasse"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 321.2
+              },
+              "duration": {
+                "value": 30.9
+              },
+              "polyline": {
+                "points": "efe~Gkzzq@IEECEGAIAKAWPqABUJy@b@}DD_@BYBY^gDP{A@E@E@EBC@CBC"
+              },
+              "html_instructions": "turn Haldenstrasse"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 36.6
+              },
+              "duration": {
+                "value": 6.1
+              },
+              "polyline": {
+                "points": "kbe~Gas{q@BA@?@A@A@A@C@A?C@C?C?C?A?CAC?AACAAACAAA?AAAAA?A?A?A?A@"
+              },
+              "html_instructions": "roundabout Seefeldstrasse"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 281.1
+              },
+              "duration": {
+                "value": 40.7
+              },
+              "polyline": {
+                "points": "sbe~Gyt{q@AI?EAG?G@G?G@IPaBDSHSLYLMbB{AxBmBDCFEDAPALDH?"
+              },
+              "html_instructions": "exit roundabout Seefeldstrasse"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 198.6
+              },
+              "duration": {
+                "value": 28.4
+              },
+              "polyline": {
+                "points": "ywd~Gwb|q@v@i@NCZFRCb@Md@a@TYf@a@|@u@"
+              },
+              "html_instructions": "new name Seefeldrain"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "{md~Gci|q@"
+              },
+              "html_instructions": "arrive Seefeldrain"
+            }
+          ]
+        }
+      ],
+      "bounds": {
+        "northeast": {
+          "lat": 47.05409,
+          "lng": 8.3421
+        },
+        "southwest": {
+          "lat": 47.05006,
+          "lng": 8.33462
+        }
+      }
+    }
+  ],
+  "status": "OK"
+}

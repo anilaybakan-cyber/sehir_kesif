@@ -1,0 +1,164 @@
+{
+  "routes": [
+    {
+      "overview_polyline": {
+        "points": "era`Hcr`s@RTCFAJ@HDBCJEN_BsAKIQSOOKMGKGKKWM_@I_@e@cCMo@EUG[CUGUGOCIWw@Qg@GQISS_@Ka@ACKUCUCSG]OCICMGMIIKe@g@DOBGDEtCkANKNOFMh@U^M`CeABAFAXKXMZWJCz@UVGVGNERE^Eh@GdBO\\E?MGwEAUn@C?O?K?M@GDEFC`ACHQlBG"
+      },
+      "legs": [
+        {
+          "distance": {
+            "value": 1283.9,
+            "text": "1.3 km"
+          },
+          "duration": {
+            "value": 179.1,
+            "text": "2 mins"
+          },
+          "steps": [
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 14.2
+              },
+              "duration": {
+                "value": 4.4
+              },
+              "polyline": {
+                "points": "era`Hcr`s@RT"
+              },
+              "html_instructions": "depart "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 28.3
+              },
+              "duration": {
+                "value": 8.7
+              },
+              "polyline": {
+                "points": "qqa`Hmq`s@CFAJ@HDBCJEN"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 397.4
+              },
+              "duration": {
+                "value": 47.8
+              },
+              "polyline": {
+                "points": "yqa`Hoo`s@_BsAKIQSOOKMGKGKKWM_@I_@e@cCMo@EUG[CUGUGOCIWw@Qg@GQISS_@Ka@ACKUCUCS"
+              },
+              "html_instructions": "turn Bederstrasse"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 76.1
+              },
+              "duration": {
+                "value": 14.4
+              },
+              "polyline": {
+                "points": "s~a`Hgias@G]OCICMGMIIKe@g@"
+              },
+              "html_instructions": "end of road Seestrasse"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 510.8
+              },
+              "duration": {
+                "value": 52.9
+              },
+              "polyline": {
+                "points": "abb`Hslas@DOBGDEtCkANKNOFMh@U^M`CeABAFAXKXMZWJCz@UVGVGNERE^Eh@GdBO\\E"
+              },
+              "html_instructions": "turn Alfred-Escher-Strasse"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 95.5
+              },
+              "duration": {
+                "value": 10.5
+              },
+              "polyline": {
+                "points": "aga`Hayas@?MGwEAU"
+              },
+              "html_instructions": "turn Marsstrasse"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 26.1
+              },
+              "duration": {
+                "value": 7.1
+              },
+              "polyline": {
+                "points": "kga`H}`bs@n@C"
+              },
+              "html_instructions": "turn Mythenquai"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 64.2
+              },
+              "duration": {
+                "value": 16.3
+              },
+              "polyline": {
+                "points": "{ea`Haabs@?O?K?M@GDEFC`AC"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 71.2
+              },
+              "duration": {
+                "value": 17
+              },
+              "polyline": {
+                "points": "ica`Hacbs@HQlBG"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "q_a`H{cbs@"
+              },
+              "html_instructions": "arrive "
+            }
+          ]
+        }
+      ],
+      "bounds": {
+        "northeast": {
+          "lat": 47.36561,
+          "lng": 8.53582
+        },
+        "southwest": {
+          "lat": 47.36009,
+          "lng": 8.52744
+        }
+      }
+    }
+  ],
+  "status": "OK"
+}

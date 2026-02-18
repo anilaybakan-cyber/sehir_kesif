@@ -1,0 +1,398 @@
+{
+  "routes": [
+    {
+      "overview_polyline": {
+        "points": "{}eaFqedcFx@?C]Ec@OeC}@JSu@s@HM@w@By@@c@DKB}@BMbBe@lBcDj@UDI@QEy@OyAI[FE@IA]a@MMMg@a@eDIa@Ka@?UASHe@JMP?XBPFZJ^DnAq@v@Yp@MZEVDx@JtB_@B|@@\\DrA@^@J?d@MbB\\LTJTNVPHFtBGd@GHz@hAA~@?IaAEw@ImA}@JSu@s@HM@w@By@@c@DKB}@BMbBe@lB_Dj@"
+      },
+      "legs": [
+        {
+          "distance": {
+            "value": 2109.9,
+            "text": "2.1 km"
+          },
+          "duration": {
+            "value": 309,
+            "text": "5 mins"
+          },
+          "steps": [
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 32.3
+              },
+              "duration": {
+                "value": 10.9
+              },
+              "polyline": {
+                "points": "{}eaFqedcFx@?"
+              },
+              "html_instructions": "depart "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 13.1
+              },
+              "duration": {
+                "value": 1.2
+              },
+              "polyline": {
+                "points": "a|eaFqedcFC]"
+              },
+              "html_instructions": "turn Karag\u00f6z Caddesi"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "e|eaFofdcF"
+              },
+              "html_instructions": "arrive Karag\u00f6z Caddesi"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 76.9
+              },
+              "duration": {
+                "value": 12.3
+              },
+              "polyline": {
+                "points": "e|eaFofdcFEc@OeC"
+              },
+              "html_instructions": "depart Karag\u00f6z Caddesi"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 34.7
+              },
+              "duration": {
+                "value": 5.9
+              },
+              "polyline": {
+                "points": "{|eaFykdcF}@J"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 187.7
+              },
+              "duration": {
+                "value": 30.3
+              },
+              "polyline": {
+                "points": "y~eaFmkdcFSu@s@HM@w@By@@c@DKB}@B"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 98.4
+              },
+              "duration": {
+                "value": 14.3
+              },
+              "polyline": {
+                "points": "ohfaFcldcFMbBe@lB"
+              },
+              "html_instructions": "end of road "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 105.9
+              },
+              "duration": {
+                "value": 15.2
+              },
+              "polyline": {
+                "points": "cjfaFqedcFcDj@UD"
+              },
+              "html_instructions": "end of road "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "}ofaF_ddcF"
+              },
+              "html_instructions": "arrive "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 15.6
+              },
+              "duration": {
+                "value": 2.3
+              },
+              "polyline": {
+                "points": "}ofaF_ddcFI@QE"
+              },
+              "html_instructions": "depart "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "ypfaFcddcF"
+              },
+              "html_instructions": "arrive "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 102.9
+              },
+              "duration": {
+                "value": 14.9
+              },
+              "polyline": {
+                "points": "ypfaFcddcFy@OyAI[FE@"
+              },
+              "html_instructions": "depart "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 5.3
+              },
+              "duration": {
+                "value": 0.3
+              },
+              "polyline": {
+                "points": "ovfaFsddcFIA"
+              },
+              "html_instructions": "roundabout "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 160.6
+              },
+              "duration": {
+                "value": 10.5
+              },
+              "polyline": {
+                "points": "yvfaFuddcF]a@MMMg@a@eDIa@Ka@"
+              },
+              "html_instructions": "exit roundabout "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 355.6
+              },
+              "duration": {
+                "value": 37.4
+              },
+              "polyline": {
+                "points": "kzfaFwndcF?UASHe@JMP?XBPFZJ^DnAq@v@Yp@MZEVDx@JtB_@"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 161.3
+              },
+              "duration": {
+                "value": 27.2
+              },
+              "polyline": {
+                "points": "_ifaFetdcFB|@@\\DrA@^@J?d@MbB"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 66.8
+              },
+              "duration": {
+                "value": 9.8
+              },
+              "polyline": {
+                "points": "}hfaF_idcF\\LTJTNVPHF"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 87.8
+              },
+              "duration": {
+                "value": 14.4
+              },
+              "polyline": {
+                "points": "qefaF{fdcFtBGd@G"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 27
+              },
+              "duration": {
+                "value": 7.8
+              },
+              "polyline": {
+                "points": "u`faFkgdcFHz@"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 76.3
+              },
+              "duration": {
+                "value": 17.3
+              },
+              "polyline": {
+                "points": "k`faFoedcFhAA~@?"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 55.2
+              },
+              "duration": {
+                "value": 5
+              },
+              "polyline": {
+                "points": "a|eaFqedcFIaAEw@"
+              },
+              "html_instructions": "end of road Karag\u00f6z Caddesi"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "q|eaFkidcF"
+              },
+              "html_instructions": "arrive Karag\u00f6z Caddesi"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 34.9
+              },
+              "duration": {
+                "value": 8.5
+              },
+              "polyline": {
+                "points": "q|eaFkidcFImA"
+              },
+              "html_instructions": "depart Karag\u00f6z Caddesi"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 34.7
+              },
+              "duration": {
+                "value": 5.9
+              },
+              "polyline": {
+                "points": "{|eaFykdcF}@J"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 187.7
+              },
+              "duration": {
+                "value": 30.3
+              },
+              "polyline": {
+                "points": "y~eaFmkdcFSu@s@HM@w@By@@c@DKB}@B"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 98.4
+              },
+              "duration": {
+                "value": 14.3
+              },
+              "polyline": {
+                "points": "ohfaFcldcFMbBe@lB"
+              },
+              "html_instructions": "end of road "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 91
+              },
+              "duration": {
+                "value": 13
+              },
+              "polyline": {
+                "points": "cjfaFqedcF_Dj@"
+              },
+              "html_instructions": "end of road "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "cofaFeddcF"
+              },
+              "html_instructions": "arrive "
+            }
+          ]
+        }
+      ],
+      "bounds": {
+        "northeast": {
+          "lat": 37.06807,
+          "lng": 37.38451
+        },
+        "southwest": {
+          "lat": 37.06321,
+          "lng": 37.38191
+        }
+      }
+    }
+  ],
+  "status": "OK"
+}

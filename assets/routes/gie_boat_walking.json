@@ -1,0 +1,203 @@
+{
+  "routes": [
+    {
+      "overview_polyline": {
+        "points": "ww{`Ikkbd@_@Da@DMBG@SFMDE@KBYH{@TIBAM[gDCMAQCQYwCAMCUGBk@RAA?CAIEe@EWCUCSGe@A?KBG?RC@?Fd@BRBTDVDd@@H?B@@j@SFCa@gEAUHAZEh@GFABAJGAIAICQCQ[_Da@mEKoAm@oGu@cIKgAG{@E_@AI?G?K?E?G@G@E@EBCBCBEBABABAD?h@AVAJALCTEj@Mt@Oz@Sf@KJCXGXGTEJCJCHCHAFCFCVM\\QTMFCDC`Ai@FCPIDADAFAD?N?`@Bd@@d@@f@BF?H@N@VDD@^HF@H@D@D?XAJ?TAH?L?P@h@?Z@^?Z?V?X@j@?n@@R?V?V?R?Z@X?P?XA`@C^E@\\@VF|@Bp@Br@BV?N?J?J?LAN?LAZAH?J?J?F@H?P@J"
+      },
+      "legs": [
+        {
+          "distance": {
+            "value": 2141.7,
+            "text": "2.1 km"
+          },
+          "duration": {
+            "value": 308.2,
+            "text": "5 mins"
+          },
+          "steps": [
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 71.9
+              },
+              "duration": {
+                "value": 10.8
+              },
+              "polyline": {
+                "points": "ww{`Ikkbd@_@Da@DMBG@SFMDE@"
+              },
+              "html_instructions": "depart De Berken"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 208.9
+              },
+              "duration": {
+                "value": 36.6
+              },
+              "polyline": {
+                "points": "w{{`Iijbd@KBYH{@TIBAM[gDCMAQCQYwCAMCU"
+              },
+              "html_instructions": "new name Brink"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 30.7
+              },
+              "duration": {
+                "value": 6.7
+              },
+              "polyline": {
+                "points": "ka|`Ievbd@GBk@R"
+              },
+              "html_instructions": "continue Brinklaan"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 64.1
+              },
+              "duration": {
+                "value": 15.3
+              },
+              "polyline": {
+                "points": "_c|`Imubd@AA?CAIEe@EWCUCSGe@A?KB"
+              },
+              "html_instructions": "turn Molenweg"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "md|`Igzbd@"
+              },
+              "html_instructions": "arrive "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 4.7
+              },
+              "duration": {
+                "value": 28.6
+              },
+              "polyline": {
+                "points": "md|`Igzbd@G?"
+              },
+              "html_instructions": "depart "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 68.8
+              },
+              "duration": {
+                "value": 21.9
+              },
+              "polyline": {
+                "points": "ud|`Igzbd@RC@?Fd@BRBTDVDd@@H?B@@"
+              },
+              "html_instructions": "turn Molenweg"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 30.7
+              },
+              "duration": {
+                "value": 10
+              },
+              "polyline": {
+                "points": "_c|`Imubd@j@SFC"
+              },
+              "html_instructions": "end of road Brinklaan"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 77.8
+              },
+              "duration": {
+                "value": 14.6
+              },
+              "polyline": {
+                "points": "ka|`Ievbd@a@gEAU"
+              },
+              "html_instructions": "continue Brinklaan"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 59.5
+              },
+              "duration": {
+                "value": 13.8
+              },
+              "polyline": {
+                "points": "ob|`Ic}bd@HAZEh@GFABAJG"
+              },
+              "html_instructions": "turn Molenweg"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 1376.3
+              },
+              "duration": {
+                "value": 136.7
+              },
+              "polyline": {
+                "points": "g_|`I_~bd@AIAICQCQ[_Da@mEKoAm@oGu@cIKgAG{@E_@AI?G?K?E?G@G@E@EBCBCBEBABABAD?h@AVAJALCTEj@Mt@Oz@Sf@KJCXGXGTEJCJCHCHAFCFCVM\\QTMFCDC`Ai@FCPIDADAFAD?N?`@Bd@@d@@f@BF?H@N@VDD@^HF@H@D@D?XAJ?TAH?L?P@h@?Z@^?Z?V?X@j@?n@@R?V?V?R?Z@X?P?XA`@C^E"
+              },
+              "html_instructions": "turn Kerkweg"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 148.2
+              },
+              "duration": {
+                "value": 13.2
+              },
+              "polyline": {
+                "points": "isz`Iqndd@@\\@VF|@Bp@Br@BV?N?J?J?LAN?LAZAH?J?J?F@H?P@J"
+              },
+              "html_instructions": "turn De Deukten"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "srz`I}`dd@"
+              },
+              "html_instructions": "arrive De Deukten"
+            }
+          ]
+        }
+      ],
+      "bounds": {
+        "northeast": {
+          "lat": 52.74223,
+          "lng": 6.09034
+        },
+        "southwest": {
+          "lat": 52.73401,
+          "lng": 6.07905
+        }
+      }
+    }
+  ],
+  "status": "OK"
+}

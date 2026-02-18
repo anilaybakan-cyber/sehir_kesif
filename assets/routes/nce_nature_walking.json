@@ -1,0 +1,294 @@
+{
+  "routes": [
+    {
+      "overview_polyline": {
+        "points": "kyoiGky`k@BHR`AVjATvAJ`AH~@EHCDc@~@ITE?SD]Ri@h@Q\\INGPER?f@EXGRMTIHK@MAOGMMKKIOCKSs@WcA[cAYcAOk@K_@I{@Ci@CMEGEEIGAAMAEAEAS?Q?KAk@EUA{@GGAK?MCMGSSMYe@cA]cAaA_DYi@g@oAa@q@}B}Dy@mAOQOMWS{@o@y@_@_B{@aEsCwMsJiBaBgAcAkAsAeA{AuAwBy@uAiHmMcBuCYa@mAwB{@aBa@m@e@s@s@_AcAaAyCiCaCwBuAwAg@m@eHcK{@mAiFoHsBuCqE}G{GmJeCqDiBkCuB{C_CmD}@iAi@m@g@a@g@a@{@i@e@We@UiBk@{DsAqB{@cAo@cA}@kBcCk@_Ae@aAIUGUG_@E]AOCo@Rk@HUHY@I?K@OAe@?Q?qC?I?O?cB?M?K?WAsB?wC?E?I?O?KA_@?kA?Y?E?M?S?K?OAk@?C?mD?s@?I?O?Q?O?wAAsC?O?O?kA?cB?Q?O?qD?O?OAgA?yA?OLAvAILEJE\\QbBYFAFAAMKq@OqAAEAOCKQ{AM_AAG?EAGCOSyAAGCOCQQoACICQCQi@sBk@}BGUCMCIKa@GWCMQu@Mg@Mi@AICICIAGEQWeAQw@AECKCMu@gDCGAKDCBANGnAg@~Aq@FCDCHC`C_ALECK_@yAEOMm@EUCIAIKDc@PuAr@GBID@JTz@d@nBBHHC`C_ALEDCBA~B}@FELE\\rBXfBFT@FT~@@FT`AJ`@f@~A`@jANb@~@zCBF"
+      },
+      "legs": [
+        {
+          "distance": {
+            "value": 7817,
+            "text": "7.8 km"
+          },
+          "duration": {
+            "value": 726.9,
+            "text": "12 mins"
+          },
+          "steps": [
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 158
+              },
+              "duration": {
+                "value": 14.4
+              },
+              "polyline": {
+                "points": "kyoiGky`k@BHR`AVjATvAJ`AH~@"
+              },
+              "html_instructions": "depart Avenue des Floralies"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 682.1
+              },
+              "duration": {
+                "value": 96.4
+              },
+              "polyline": {
+                "points": "ovoiGym`k@EHCDc@~@ITE?SD]Ri@h@Q\\INGPER?f@EXGRMTIHK@MAOGMMKKIOCKSs@WcA[cAYcAOk@K_@I{@Ci@CMEGEEIGAAMAEAEAS?Q?KAk@EUA{@GGAK?MCMGSSMYe@cA"
+              },
+              "html_instructions": "turn Avenue Charles Buchet"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 128.4
+              },
+              "duration": {
+                "value": 8.3
+              },
+              "polyline": {
+                "points": "uopiGsw`k@]cAaA_DYi@"
+              },
+              "html_instructions": "on ramp "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 3872
+              },
+              "duration": {
+                "value": 248.9
+              },
+              "polyline": {
+                "points": "ospiGa`ak@g@oAa@q@}B}Dy@mAOQOMWS{@o@y@_@_B{@aEsCwMsJiBaBgAcAkAsAeA{AuAwBy@uAiHmMcBuCYa@mAwB{@aBa@m@e@s@s@_AcAaAyCiCaCwBuAwAg@m@eHcK{@mAiFoHsBuCqE}G{GmJeCqDiBkCuB{C_CmD}@iAi@m@g@a@g@a@{@i@e@We@UiBk@{DsAqB{@cAo@cA}@"
+              },
+              "html_instructions": "merge Voie Pierre Mathis"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 221.8
+              },
+              "duration": {
+                "value": 21.9
+              },
+              "polyline": {
+                "points": "m{uiGqyfk@kBcCk@_Ae@aAIUGUG_@E]AOCo@"
+              },
+              "html_instructions": "off ramp "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 407.4
+              },
+              "duration": {
+                "value": 40.8
+              },
+              "polyline": {
+                "points": "qbviGaggk@Rk@HUHY@I?K@OAe@?Q?qC?I?O?cB?M?K?WAsB?wC?E?I?O?KA_@?kA?Y?E?M?S"
+              },
+              "html_instructions": "new name Rue Fr\u00e9d\u00e9ric Passy"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 495.2
+              },
+              "duration": {
+                "value": 48.3
+              },
+              "polyline": {
+                "points": "kaviGcfhk@?K?OAk@?C?mD?s@?I?O?Q?O?wAAsC?O?O?kA?cB?Q?O?qD?O?OAgA?yA?O"
+              },
+              "html_instructions": "new name Rue Verdi"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 156.6
+              },
+              "duration": {
+                "value": 28.9
+              },
+              "polyline": {
+                "points": "qaviGolik@LAvAILEJE\\QbBYFAFA"
+              },
+              "html_instructions": "turn Avenue Baquis"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 496.4
+              },
+              "duration": {
+                "value": 56.9
+              },
+              "polyline": {
+                "points": "_yuiGwnik@AMKq@OqAAEAOCKQ{AM_AAG?EAGCOSyAAGCOCQQoACICQCQi@sBk@}BGUCMCIKa@GWCMQu@Mg@Mi@AICI"
+              },
+              "html_instructions": "turn Rue du Mar\u00e9chal Joffre"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 168.7
+              },
+              "duration": {
+                "value": 21.7
+              },
+              "polyline": {
+                "points": "{bviGsrjk@CIAGEQWeAQw@AECKCMu@gDCGAK"
+              },
+              "html_instructions": "new name Rue Pastorelli"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 219.1
+              },
+              "duration": {
+                "value": 29.8
+              },
+              "polyline": {
+                "points": "wfviGq~jk@DCBANGnAg@~Aq@FCDCHC`C_ALE"
+              },
+              "html_instructions": "turn Rue Blacas"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 72.5
+              },
+              "duration": {
+                "value": 6.5
+              },
+              "polyline": {
+                "points": "e{uiGkdkk@CK_@yAEOMm@"
+              },
+              "html_instructions": "turn Rue Gioffredo"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "}|uiGoikk@"
+              },
+              "html_instructions": "arrive Rue Gioffredo"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 18.5
+              },
+              "duration": {
+                "value": 8.8
+              },
+              "polyline": {
+                "points": "}|uiGoikk@EUCIAI"
+              },
+              "html_instructions": "depart Rue Gioffredo"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 91.4
+              },
+              "duration": {
+                "value": 15.9
+              },
+              "polyline": {
+                "points": "i}uiGyjkk@KDc@PuAr@GBID"
+              },
+              "html_instructions": "turn Rue Alberti"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 86.7
+              },
+              "duration": {
+                "value": 14.4
+              },
+              "polyline": {
+                "points": "abviGchkk@@JTz@d@nBBH"
+              },
+              "html_instructions": "turn Rue de l'H\u00f4tel des Postes"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 185.1
+              },
+              "duration": {
+                "value": 20.8
+              },
+              "polyline": {
+                "points": "_`viGabkk@HC`C_ALEDCBA~B}@FELE"
+              },
+              "html_instructions": "turn Rue Chauvain"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 168.1
+              },
+              "duration": {
+                "value": 21.5
+              },
+              "polyline": {
+                "points": "evuiG{fkk@\\rBXfBFT@FT~@@FT`A"
+              },
+              "html_instructions": "end of road Avenue F\u00e9lix Faure"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 189.2
+              },
+              "duration": {
+                "value": 22.7
+              },
+              "polyline": {
+                "points": "uruiGwzjk@J`@f@~A`@jANb@~@zCBF"
+              },
+              "html_instructions": "new name Avenue de Verdun"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "kmuiGanjk@"
+              },
+              "html_instructions": "arrive Avenue de Verdun"
+            }
+          ]
+        }
+      ],
+      "bounds": {
+        "northeast": {
+          "lat": 43.70044,
+          "lng": 7.27229
+        },
+        "southwest": {
+          "lat": 43.66712,
+          "lng": 7.21458
+        }
+      }
+    }
+  ],
+  "status": "OK"
+}

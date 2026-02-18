@@ -1,0 +1,476 @@
+{
+  "routes": [
+    {
+      "overview_polyline": {
+        "points": "cveiFwd_sENcDNiClBBpCB?NBrD@pBLd@?d@?|GC\\v@v@v@t@[h@KPMPQROPQP}@~@]\\cCpB}At@]NVt@z@nCd@`BRx@P`ANz@TfBp@rHBVn@nIPlCDfADn@?x@BnB@vD@lGJnT@pHCbBEdAKrAUzBInAEv@?x@AfAD|BL`KJ|EDv@HdANvAPnAPbAVdArAbFf@lBXlAXpA\\dBd@xCbArGx@pFTfBJbAFp@Dv@Z~LDhAD~@Hz@Jv@L|@fAhG|Fp[hD|RbB`MnB`OlDhXX|Bh@vDhDzVdEl[r@tDp@|Dj@tC|@nElCtKl@nDb@|BnAvI`@|CJv@\\hDvArMlArKn@~Fd@jD|@rEpAbFdAxDJ\\BNF\\NvALfERpFb@vNb@hJt@fHfAvKjAbJj@bEjAnIpBzLJp@\\jBnBxLzAnIdAxFfA~EtAdFpLda@vDrMfDdLrGvTtGbUbB~FfArEn@fDr@hFf@zEX~CL|Bd@fOvAva@XtJThGNjDJhAFbDJzAVrCTdCX|B^fCX|BTxARzAn@jDVzAjFrWz@zDx@bDr@bDhAlFdBrIl@nBn@fCzQb}@p@|DTfBVnDFjBDnBHvVFbWVrv@DtU?bFKvFIxBu@bKcAdLCXuCh\\gAfME`@}@vJMnA_AfIeCjSmCrXa@jGIl@a@rFg@vEs@dEcFd\\yAvFeAxBWZkA|AgJfGULsXxQmDz@iCnAkDfCwBbCqA`CcJxWoB|DwArAoFbC}CjCyAhCs@fBcWx_AyEvQGVuBvH]zAW`BSzAK`BCtABdBJdBdCjXH`BAvAMvBYlBg@lBq@pBgAdBqIlMy@lBq@bCa@pBk@~DShA_@pA]`Ag@~@mBtCuWl^yFlIiBbD}@tBq@lB}@hDo@tCg@fDWfCOxCItCDdDP~DTpE|AxTrBfXv@|KXjEl@dHXpC`@jCt@tC|@fCz@pBlAtBxAjB~A~ArB~AtA|@nKzFJFTLzKtGtHfElC~ArBvBjAfBlAvCx@hD`@~DvB|_@HbCBpDAbEK~Dk@dLq@rKuDjn@Q|DI`FD|FJfETpDf@`G`@~Cb@tCp@dDbArDnAhE|E~LjA|DdWtjA`AjFp@jFT~BR`Cl@hTVzF\\rCl@vD\\xA^~Ar@tBvPbc@bAdCbAtBnArBbAdArAbAfCpA`iAfRpJzAtKjBfKbBlKdBt_@rGbFhAlg@vObATv@LvCRvARx@P~@Xt@ZbAh@jAt@|MhLxi@~e@tBbBhAn@tAp@nAb@xAZr@Ln@DvAJrA@nAGlAKtAUjA]~Ag@vCqAp@Wt_@oOn@QnAUNC^C\\OVStAcA|Ao@vDeBjFoCfn@o[RK`V}L|C}AdDcB`CqAnCuAjAk@lBw@l@MREdDo@dCU~EP~ANvVbErDT~BDfBKdBU`LmCpCEhC^`N|GbPtIzD`DvQzUfFpHh@jA`@pAXtBPrBFxC?vVE`LD`BLxB\\rCLp@XdAL`@x@fC|@fCZp@`@p@\\b@^X^Rf@PjDPnADp@D~@TnA\\^JVHL@NBRF`@P`Bz@VPFJDPDXFtA?b@A^AHCRG`@K^ADADO^QXGBuA~@[^SVQNe@RYNIJCJCV?\\Dh@TjBDl@?D?XEb@Ej@AX@ZFd@@HHh@B\\?NC^Ed@@XRbAJh@@fA@pB?f@EbCu@c@MGk@e@cAu@kGcDgKuGoCqA{@QgAG_CI_@@{@?oFFcDB]?wBCqBFeAH]FWJi@k@Yw@c@b@Xn@Np@}Az@kE~AUBOCQIg@q@QUGGE?I?IDELCJCNB\\DZFRDRESGSE[C]BOBKDMHEH?D?FFPTf@p@PHNBTCjE_B|A{@Oq@Yo@b@c@Xv@h@j@VK\\GdAIpBGvBB\\?bDCnFGz@?^A~BHfAFz@PnCpAfKtGjGbDbAt@j@d@LFt@b@DcC?g@AqBAgAKi@ScAAYDe@B_@?OC]Ii@AIGe@A[@YDk@Dc@?Y?EEm@UkBEi@?]BWBKHKXOd@SPORWZ_@tA_AFCPYN_@@E@EJ_@Fa@BS@I@_@?c@GuAEYEQGKWQaB{@a@QSGOCMAWI_@KoA]_AUq@EoAEkDQg@Q_@S_@Y]c@a@q@[q@}@gCy@gCMa@YeAMq@]sCMyBEaBDaL?wVGyCQsBYuBa@qAi@kAgFqHwQ{U{DaDcPuIaN}GiC_@qCDaLlCeBTgBJ_CEsDUwVcE_BO_FQeCTeDn@SDm@LmBv@kAj@oCtAaCpAeDbB}C|AaV|LSJgn@n[kFnCwDdB}An@uARM@YFSFOHqAr@gAr@u_@nOq@VwCpA_Bf@kA\\uATmAJoAFsAAwAKo@Es@MyA[oAc@uAq@iAo@uBcByi@_f@}MiLkAu@cAi@u@[_AYy@QwASwCSw@McAUmg@wOcFiAu_@sGmKeBgKcBuKkBqJ{AaiAgRiHgAog@{I}t@gMut@gLsL{BeJm@y@@w@Pk@R{@X}@Nc_@fBm@DoFp@iAHcBBWAcAC{CM{@EiCO{BKkBWKCkD_AyB]sAOu@?_AHWHSJQLQN{@x@GFkB~AmAeCsA_C{@oA{@mAW_@e@o@k@q@yA}ACIAG@GFa@mAk@s@Y]M[EmBGqAEwAKsACg@?aBFkC@k@@{@@uDLaBBe@Cq@Oa@OiAa@eAa@s@[}@k@iAgAUQ_BsAwD}C}CkCEEwG{F{JoJs@q@g@u@kOkNsJ}Ic@M}D}CoC_@wVI_CUuAa@kBk@_DaAWIYI{@WcCcAoBeA}@c@cB{@}BqAkAs@cF{BoAi@qF_DYIoA[_B_@eJ_Cca@cJqE_Ae@CotByh@iSaF_WeGkOoAaJk@YCuAIoUyAeJq@oMgD{E}Bys@o^gZcMeWaL{q@kEeCO}@Ga@Cw@N_BZOHm@\\e@x@S`AETYf@INg@b@gALsBOQAe@Iu@a@KIcC}Ao@[gBaAYOk@[o@[aBy@w@_@_EwAiAa@cAUmP}DqOa@mTs@wJ?iJdAiSeE@{AAmESmEy@eGcEmRoB_KaAoHYmCSkCQsCGaBE{BIsGmCecBIgDUwDSoD]wDa@qDy@qFqJyj@gDySMy@yBwL{AiIc@qBi@uB_AuCaA}BkAaCqAwBgA_BuPcUyAyBeAkB}@iBq@_B]cASy@QcA]wBQ_BG{@M{AG{AmA{a@_Cmw@QoDSwCIsASaB[iC]_CqLau@OaAa@}CKy@WeBMcBQyDIwCYa@YO[SOa@mBcJEUwCoMy@uDi@aC}@_Em@uDc@mCYiBKk@a@wCw@oFg@gDQkAi@sDAKa@_DGk@SeCQ_COyBOsBWcCIcAGo@U}B_@_EEoCCwAEwB?yB?eD?{@AoDQwDAWCaAOgBCOSuBSsBM{BAqAA_DCiCO_DWgFSaEM_CM_CU_HC_CBaChAe\\NqAH[JWRUd@UZSHe@m@gEcCqOoDuUkAmI]eCe@gEgA}Ka@{DOcBKeBGwBCqCAoDDgBFeCx@{]L_FzAih@^{OHsDDaBB{C?{ACsAI}Ca@yHa@aFa@qEQ{ASoAk@aD}AkIi@mC[uBUuCKmCeAuXsAm_@i@sRKyELwTAeHEqACmAQgBeByRwB_UwJ}eA{AsLQaAeBmJyJob@kUcbAg@mDWcBg@mHs@q\\YuDe@cEeAmFs@yCMYYq@eBeDkBuC_DsDsJcM{HyJiEwDkMeIwCoByG{EoTaQWUQO{AmAgMkH[SUM{CyBuK_JcVqUyC}BsDeC_F{EaAoA{D}E}A_Cg@m@yBqBwAuAuEaF{B{Bm@m@kD}C[QgLoGik@w[IEUMo@_@EACC}_@eTi@]i@g@gPcP}@}@{CaDqAoAs@q@o@e@w@e@}e@kVsCwA}Ae@kAYoASoC]_KsA_De@wImAeAS}Ac@cAo@_Aq@aAqAs@eAk@oAW}@U}@K_AGqAEgBIiGEiIAuGM_L?}@BcADaAFeAJw@Js@Lq@Pm@r@iCnAoE|A_GzEcQtAeERu@d@mBvE{PFWvAaGRq@P{@Jq@Fu@Fw@D{BNsGDaCFkBHgEB}@DgC@k@D{BJuERyEBW@O?]@eBAOCgBGkCa@uG]oFEq@[cEmAcPOkBUiD_@yFIaAEo@GoAMgCOsFCyFJ_EF{C^oGDw@Dm@@YnAu\\PoDFmBPkDLcCLmAVqBj@mC`@kBf@aBpBiE`@u@^s@n@oAhAeChDcIvGsN~]av@bGuPlLw]~@{Bn@{AVq@VaA~A}FlA}D~BaH`I}UjA_DlFkLxD_Ir@cBl@cBv@kCl@gCRy@YO[CqBSg@Ug@Og@Ik@Gu@CcCGqPc@o@CsM[gCIm@Ag@@aCDC?]D"
+      },
+      "legs": [
+        {
+          "distance": {
+            "value": 135569.4,
+            "text": "135.6 km"
+          },
+          "duration": {
+            "value": 8717.3,
+            "text": "145 mins"
+          },
+          "steps": [
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 133
+              },
+              "duration": {
+                "value": 20.6
+              },
+              "polyline": {
+                "points": "cveiFwd_sENcDNiC"
+              },
+              "html_instructions": "depart 8012. Sokak"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 142.1
+              },
+              "duration": {
+                "value": 11.1
+              },
+              "polyline": {
+                "points": "cueiFen_sElBBpCB"
+              },
+              "html_instructions": "turn \u0130n\u00f6n\u00fc Caddesi"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 153.6
+              },
+              "duration": {
+                "value": 13.8
+              },
+              "polyline": {
+                "points": "cmeiF}m_sE?NBrD@pBLd@"
+              },
+              "html_instructions": "turn \u00c7ekmi Yolu"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 141.7
+              },
+              "duration": {
+                "value": 12.8
+              },
+              "polyline": {
+                "points": "oleiFac_sE?d@?|G"
+              },
+              "html_instructions": "new name 5007. Sokak"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 91.4
+              },
+              "duration": {
+                "value": 9.7
+              },
+              "polyline": {
+                "points": "oleiF}x~rEC\\v@v@v@t@"
+              },
+              "html_instructions": "turn K\u00fclt\u00fcr Park Sokak"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 311.9
+              },
+              "duration": {
+                "value": 34
+              },
+              "polyline": {
+                "points": "cieiFqt~rE[h@KPMPQROPQP}@~@]\\cCpB}At@]N"
+              },
+              "html_instructions": "turn \u015eehit Cihan \u00c7ift\u00e7iba\u015f\u0131 Caddesi"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 4096.8
+              },
+              "duration": {
+                "value": 268.2
+              },
+              "polyline": {
+                "points": "iweiFug~rEVt@z@nCd@`BRx@P`ANz@TfBp@rHBVn@nIPlCDfADn@?x@BnB@vD@lGJnT@pHCbBEdAKrAUzBInAEv@?x@AfAD|BL`KJ|EDv@HdANvAPnAPbAVdArAbFf@lBXlAXpA\\dBd@xCbArGx@pFTfBJbAFp@Dv@Z~LDhAD~@Hz@Jv@L|@fAhG|Fp[hD|R"
+              },
+              "html_instructions": "end of road \u015eehit Erhan Karata\u015f Caddesi"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 48305.1
+              },
+              "duration": {
+                "value": 3167
+              },
+              "polyline": {
+                "points": "mkdiFclurEbB`MnB`OlDhXX|Bh@vDhDzVdEl[r@tDp@|Dj@tC|@nElCtKl@nDb@|BnAvI`@|CJv@\\hDvArMlArKn@~Fd@jD|@rEpAbFdAxDJ\\BNF\\NvALfERpFb@vNb@hJt@fHfAvKjAbJj@bEjAnIpBzLJp@\\jBnBxLzAnIdAxFfA~EtAdFpLda@vDrMfDdLrGvTtGbUbB~FfArEn@fDr@hFf@zEX~CL|Bd@fOvAva@XtJThGNjDJhAFbDJzAVrCTdCX|B^fCX|BTxARzAn@jDVzAjFrWz@zDx@bDr@bDhAlFdBrIl@nBn@fCzQb}@p@|DTfBVnDFjBDnBHvVFbWVrv@DtU?bFKvFIxBu@bKcAdLCXuCh\\gAfME`@}@vJMnA_AfIeCjSmCrXa@jGIl@a@rFg@vEs@dEcFd\\yAvFeAxBWZkA|AgJfGULsXxQmDz@iCnAkDfCwBbCqA`CcJxWoB|DwArAoFbC}CjCyAhCs@fBcWx_AyEvQGVuBvH]zAW`BSzAK`BCtABdBJdBdCjXH`BAvAMvBYlBg@lBq@pBgAdBqIlMy@lBq@bCa@pBk@~DShA_@pA]`Ag@~@mBtCuWl^yFlIiBbD}@tBq@lB}@hDo@tCg@fDWfCOxCItCDdDP~DTpE|AxTrBfXv@|KXjEl@dHXpC`@jCt@tC|@fCz@pBlAtBxAjB~A~ArB~AtA|@nKzFJFTLzKtGtHfElC~ArBvBjAfBlAvCx@hD`@~DvB|_@HbCBpDAbEK~Dk@dLq@rKuDjn@Q|DI`FD|FJfETpDf@`G`@~Cb@tCp@dDbArDnAhE|E~LjA|DdWtjA`AjFp@jFT~BR`Cl@hTVzF\\rCl@vD\\xA^~Ar@tBvPbc@bAdCbAtBnArBbAdArAbAfCpA`iAfRpJzAtKjBfKbBlKdBt_@rGbFhAlg@vObATv@LvCRvARx@P~@Xt@ZbAh@jAt@|MhLxi@~e@tBbBhAn@tAp@nAb@xAZr@Ln@DvAJrA@nAGlAKtAUjA]~Ag@vCqAp@Wt_@oOn@QnAUNC^C\\OVStAcA|Ao@vDeBjFoCfn@o[RK`V}L|C}AdDcB`CqAnCuAjAk@lBw@l@MREdDo@dCU~EP~ANvVbErDT~BDfBKdBU`LmCpCEhC^`N|GbPtIzD`DvQzUfFpHh@jA`@pAXtBPrBFxC?vVE`LD`BLxB\\rCLp@XdAL`@x@fC|@fCZp@`@p@\\b@^X^Rf@PjDPnADp@D~@TnA\\^JVHL@NBRF`@P`Bz@VPFJDPDXFtA?b@A^AHCRG`@K^ADADO^QXGBuA~@[^SVQNe@RYNIJCJCV?\\Dh@TjBDl@?D?XEb@Ej@AX@ZFd@@HHh@B\\?NC^Ed@@XRbAJh@@fA@pB?f@EbC"
+              },
+              "html_instructions": "new name Derinkuyu-G\u00fczelyurt yolu"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 1256.5
+              },
+              "duration": {
+                "value": 113.5
+              },
+              "polyline": {
+                "points": "iykhFiejpEu@c@MGk@e@cAu@kGcDgKuGoCqA{@QgAG_CI_@@{@?oFFcDB]?wBCqBFeAH]FWJ"
+              },
+              "html_instructions": "turn Ihlara Vadisi Yolu"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 58.3
+              },
+              "duration": {
+                "value": 20.1
+              },
+              "polyline": {
+                "points": "y{mhFqyjpEi@k@Yw@"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 25.4
+              },
+              "duration": {
+                "value": 11.2
+              },
+              "polyline": {
+                "points": "}}mhFu|jpEc@b@"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 49.3
+              },
+              "duration": {
+                "value": 13.4
+              },
+              "polyline": {
+                "points": "a_nhFq{jpEXn@Np@"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 342.9
+              },
+              "duration": {
+                "value": 58.6
+              },
+              "polyline": {
+                "points": "w}mhFoxjpE}Az@kE~AUBOCQIg@q@QUGGE?I?IDELCJCNB\\DZFRDR"
+              },
+              "html_instructions": "turn Ihlara Vadisi Yolu"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 58.1
+              },
+              "duration": {
+                "value": 5.4
+              },
+              "polyline": {
+                "points": "kknhF{qjpEESGSE[C]BOBK"
+              },
+              "html_instructions": "continue Ihlara Vadisi Yolu"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "{knhFyujpE"
+              },
+              "html_instructions": "arrive Ihlara Vadisi Yolu"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 284.8
+              },
+              "duration": {
+                "value": 30.4
+              },
+              "polyline": {
+                "points": "{knhFyujpEDMHEH?D?FFPTf@p@PHNBTCjE_B|A{@"
+              },
+              "html_instructions": "depart Ihlara Vadisi Yolu"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 49.3
+              },
+              "duration": {
+                "value": 13.6
+              },
+              "polyline": {
+                "points": "w}mhFoxjpEOq@Yo@"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 25.4
+              },
+              "duration": {
+                "value": 8.9
+              },
+              "polyline": {
+                "points": "a_nhFq{jpEb@c@"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 58.3
+              },
+              "duration": {
+                "value": 15.2
+              },
+              "polyline": {
+                "points": "}}mhFu|jpEXv@h@j@"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 1256.5
+              },
+              "duration": {
+                "value": 120.2
+              },
+              "polyline": {
+                "points": "y{mhFqyjpEVK\\GdAIpBGvBB\\?bDCnFGz@?^A~BHfAFz@PnCpAfKtGjGbDbAt@j@d@LFt@b@"
+              },
+              "html_instructions": "turn Ihlara Vadisi Yolu"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 503.8
+              },
+              "duration": {
+                "value": 33.1
+              },
+              "polyline": {
+                "points": "iykhFiejpEDcC?g@AqBAgAKi@ScAAYDe@B_@?OC]Ii@AIGe@A[@YDk@Dc@?Y?EEm@UkBEi@?]BWBK"
+              },
+              "html_instructions": "turn Derinkuyu-G\u00fczelyurt yolu"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 19221.8
+              },
+              "duration": {
+                "value": 1259.7
+              },
+              "polyline": {
+                "points": "e{khFqhkpEHKXOd@SPORWZ_@tA_AFCPYN_@@E@EJ_@Fa@BS@I@_@?c@GuAEYEQGKWQaB{@a@QSGOCMAWI_@KoA]_AUq@EoAEkDQg@Q_@S_@Y]c@a@q@[q@}@gCy@gCMa@YeAMq@]sCMyBEaBDaL?wVGyCQsBYuBa@qAi@kAgFqHwQ{U{DaDcPuIaN}GiC_@qCDaLlCeBTgBJ_CEsDUwVcE_BO_FQeCTeDn@SDm@LmBv@kAj@oCtAaCpAeDbB}C|AaV|LSJgn@n[kFnCwDdB}An@uARM@YFSFOHqAr@gAr@u_@nOq@VwCpA_Bf@kA\\uATmAJoAFsAAwAKo@Es@MyA[oAc@uAq@iAo@uBcByi@_f@}MiLkAu@cAi@u@[_AYy@QwASwCSw@McAUmg@wOcFiAu_@sGmKeBgKcBuKkBqJ{AaiAgRiHgAog@{I}t@gMut@gLsL{BeJm@y@@w@Pk@R{@X}@Nc_@fBm@DoFp@iAHcBBWAcAC{CM{@EiCO{BKkBWKCkD_AyB]sAOu@?_AHWHSJQLQN{@x@GFkB~A"
+              },
+              "html_instructions": "fork Derinkuyu-G\u00fczelyurt yolu"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 416.2
+              },
+              "duration": {
+                "value": 36.6
+              },
+              "polyline": {
+                "points": "yeiiFsvrpEmAeCsA_C{@oA{@mAW_@e@o@k@q@yA}ACIAG@GFa@"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 2562.8
+              },
+              "duration": {
+                "value": 230.8
+              },
+              "polyline": {
+                "points": "stiiFslspEmAk@s@Y]M[EmBGqAEwAKsACg@?aBFkC@k@@{@@uDLaBBe@Cq@Oa@OiAa@eAa@s@[}@k@iAgAUQ_BsAwD}C}CkCEEwG{F{JoJs@q@g@u@kOkNsJ}Ic@M}D}C"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 13001.2
+              },
+              "duration": {
+                "value": 1170.9
+              },
+              "polyline": {
+                "points": "{qmiFczupEoC_@wVI_CUuAa@kBk@_DaAWIYI{@WcCcAoBeA}@c@cB{@}BqAkAs@cF{BoAi@qF_DYIoA[_B_@eJ_Cca@cJqE_Ae@CotByh@iSaF_WeGkOoAaJk@YCuAIoUyAeJq@oMgD{E}Bys@o^gZcMeWaL{q@kEeCO}@Ga@Cw@N_BZOHm@\\e@x@S`AETYf@INg@b@gALsBOQAe@Iu@a@KIcC}Ao@[gBaAYOk@[o@[aBy@w@_@_EwAiAa@cAUmP}DqOa@mTs@wJ?iJdAiSeE"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 6510.9
+              },
+              "duration": {
+                "value": 275.6
+              },
+              "polyline": {
+                "points": "umcjFyk|pE@{AAmESmEy@eGcEmRoB_KaAoHYmCSkCQsCGaBE{BIsGmCecBIgDUwDSoD]wDa@qDy@qFqJyj@gDySMy@yBwL{AiIc@qBi@uB_AuCaA}BkAaCqAwBgA_BuPcUyAyBeAkB}@iBq@_B]cASy@QcA]wBQ_BG{@M{AG{AmA{a@"
+              },
+              "html_instructions": "turn Aksaray-Nev\u015fehir Yolu"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 2295.3
+              },
+              "duration": {
+                "value": 103
+              },
+              "polyline": {
+                "points": "gofjFkajqE_Cmw@QoDSwCIsASaB[iC]_CqLau@OaAa@}CKy@WeBMcBQyDIwC"
+              },
+              "html_instructions": "new name Aksaray-Nev\u015fehir yolu"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 1864.2
+              },
+              "duration": {
+                "value": 122.2
+              },
+              "polyline": {
+                "points": "whgjFyaoqEYa@YO[SOa@mBcJEUwCoMy@uDi@aC}@_Em@uDc@mCYiBKk@a@wCw@oFg@gDQkAi@sDAKa@_DGk@SeCQ_COyBOsBWcCIcAGo@U}B_@_E"
+              },
+              "html_instructions": "turn Aksaray Caddesi"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 2034.1
+              },
+              "duration": {
+                "value": 133.2
+              },
+              "polyline": {
+                "points": "mihjFo_sqEEoCCwAEwB?yB?eD?{@AoDQwDAWCaAOgBCOSuBSsBM{BAqAA_DCiCO_DWgFSaEM_CM_CU_HC_CBaChAe\\NqAH[JWRUd@UZSHe@"
+              },
+              "html_instructions": "new name Nev\u015fehir Caddesi"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 22075.6
+              },
+              "duration": {
+                "value": 990
+              },
+              "polyline": {
+                "points": "gjhjFenwqEm@gEcCqOoDuUkAmI]eCe@gEgA}Ka@{DOcBKeBGwBCqCAoDDgBFeCx@{]L_FzAih@^{OHsDDaBB{C?{ACsAI}Ca@yHa@aFa@qEQ{ASoAk@aD}AkIi@mC[uBUuCKmCeAuXsAm_@i@sRKyELwTAeHEqACmAQgBeByRwB_UwJ}eA{AsLQaAeBmJyJob@kUcbAg@mDWcBg@mHs@q\\YuDe@cEeAmFs@yCMYYq@eBeDkBuC_DsDsJcM{HyJiEwDkMeIwCoByG{EoTaQWUQO{AmAgMkH[SUM{CyBuK_JcVqUyC}BsDeC_F{EaAoA{D}E}A_Cg@m@yBqBwAuAuEaF{B{Bm@m@kD}C[QgLoGik@w[IEUMo@_@EACC}_@eTi@]i@g@gPcP}@}@{CaDqAoAs@q@o@e@w@e@}e@kVsCwA}Ae@kAYoASoC]_KsA_De@wImAeAS}Ac@cAo@_Aq@aAqAs@eAk@oAW}@U}@K_AGqAEgBIiGEiIAuGM_L?}@BcADaAFeAJw@Js@Lq@Pm@r@iCnAoE|A_GzEcQtAeERu@d@mBvE{PFWvAaGRq@P{@Jq@Fu@Fw@D{BNsGDaCFkB"
+              },
+              "html_instructions": "merge Aksaray-Nev\u015fehir yolu"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 7108.4
+              },
+              "duration": {
+                "value": 303.7
+              },
+              "polyline": {
+                "points": "{`xjF_c~rEHgEB}@DgC@k@D{BJuERyEBW@O?]@eBAOCgBGkCa@uG]oFEq@[cEmAcPOkBUiD_@yFIaAEo@GoAMgCOsFCyFJ_EF{C^oGDw@Dm@@YnAu\\PoDFmBPkDLcCLmAVqBj@mC`@kBf@aBpBiE`@u@^s@n@oAhAeChDcIvGsN~]av@bGuPlLw]~@{Bn@{AVq@VaA~A}FlA}D~BaH`I}UjA_DlFkLxD_Ir@cBl@cBv@kCl@gC"
+              },
+              "html_instructions": "new name Nev\u015fehir-\u00dcrg\u00fcp yolu"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 1021.8
+              },
+              "duration": {
+                "value": 100.7
+              },
+              "polyline": {
+                "points": "_ctjFkplsERy@YO[CqBSg@Ug@Og@Ik@Gu@CcCGqPc@o@CsM[gCIm@A"
+              },
+              "html_instructions": "turn U\u00e7hisar-Kavak yolu"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 112.8
+              },
+              "duration": {
+                "value": 10.1
+              },
+              "polyline": {
+                "points": "}yujFaxlsEg@@aCDC?]D"
+              },
+              "html_instructions": "new name Adnan Menderes Caddesi"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "i`vjFswlsE"
+              },
+              "html_instructions": "arrive Adnan Menderes Caddesi"
+            }
+          ]
+        }
+      ],
+      "bounds": {
+        "northeast": {
+          "lat": 38.63609,
+          "lng": 34.80465
+        },
+        "southwest": {
+          "lat": 38.23917,
+          "lng": 34.29989
+        }
+      }
+    }
+  ],
+  "status": "OK"
+}

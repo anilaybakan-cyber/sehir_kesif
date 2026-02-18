@@ -1,0 +1,307 @@
+{
+  "routes": [
+    {
+      "overview_polyline": {
+        "points": "qilgG|pbK\\nARHDRBH@F@@@B@@@?@@B?@?@AB?JIDCpBmAFCRMhC}ABALOHGlCaBBCLI@A@E?E?GEO_@wAEIEQEMm@}BCGEQCMOk@]oAGQy@}CCMk@sBK_@GUI]AG?AK_@kAqEEOACCMISGHGHFN@B@D@BpA~EFN@F@BGJSLGBCB]Tq@b@c@X_@T_FzC[RIFWPSDGHC@GD]R]Ts@b@MFi@Z_@XCBID_At@e@f@jAlELI\\SDRVfAWgAESv@g@FEzA_AHGFExA}@HE\\G@D@R@P?VLj@BLDPBH@FDLVx@@FXbADJx@rC?@\\nARHDRBH@F@@@B"
+      },
+      "legs": [
+        {
+          "distance": {
+            "value": 2243.6,
+            "text": "2.2 km"
+          },
+          "duration": {
+            "value": 424.9,
+            "text": "7 mins"
+          },
+          "steps": [
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 47.7
+              },
+              "duration": {
+                "value": 11.6
+              },
+              "polyline": {
+                "points": "qilgG|pbK\\nARH"
+              },
+              "html_instructions": "depart "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 343.3
+              },
+              "duration": {
+                "value": 57.8
+              },
+              "polyline": {
+                "points": "_hlgGvsbKDRBH@F@@@B@@@?@@B?@?@AB?JIDCpBmAFCRMhC}ABALOHGlCaBBCLI@A@E?E?G"
+              },
+              "html_instructions": "turn Hernani kalea"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 352.5
+              },
+              "duration": {
+                "value": 56.7
+              },
+              "polyline": {
+                "points": "swkgGxibKEO_@wAEIEQEMm@}BCGEQCMOk@]oAGQy@}CCMk@sBK_@"
+              },
+              "html_instructions": "turn Askatasunaren hiribidea"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 162.5
+              },
+              "duration": {
+                "value": 28.3
+              },
+              "polyline": {
+                "points": "s`lgGrqaKGUI]AG?AK_@kAqEEOACCMIS"
+              },
+              "html_instructions": "new name Santa Katalina Zubia"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 141.3
+              },
+              "duration": {
+                "value": 23.2
+              },
+              "polyline": {
+                "points": "udlgGlfaKGHGHFN@B@D@BpA~EFN@F@B"
+              },
+              "html_instructions": "continue Santa Katalina Zubia"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 297.9
+              },
+              "duration": {
+                "value": 46.1
+              },
+              "polyline": {
+                "points": "yalgGzoaKGJSLGBCB]Tq@b@c@X_@T_FzC[RIFWP"
+              },
+              "html_instructions": "turn Argentinako Errepublika pasealekua"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 227.4
+              },
+              "duration": {
+                "value": 38.1
+              },
+              "polyline": {
+                "points": "splgGpzaKSDGHC@GD]R]Ts@b@MFi@Z_@XCBID_At@e@f@"
+              },
+              "html_instructions": "new name Salamanca pasealekua"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 93.5
+              },
+              "duration": {
+                "value": 19.3
+              },
+              "polyline": {
+                "points": "w{lgG|bbKjAlE"
+              },
+              "html_instructions": "turn Jauregi Jenerala kalea"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 26.8
+              },
+              "duration": {
+                "value": 6.3
+              },
+              "polyline": {
+                "points": "kylgGjibKLI\\S"
+              },
+              "html_instructions": "turn Aldamar kalea"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 41.1
+              },
+              "duration": {
+                "value": 5.9
+              },
+              "polyline": {
+                "points": "_xlgGlhbKDRVfA"
+              },
+              "html_instructions": "turn I\u00f1igo kalea"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "awlgGhkbK"
+              },
+              "html_instructions": "arrive I\u00f1igo kalea"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 41.1
+              },
+              "duration": {
+                "value": 35.2
+              },
+              "polyline": {
+                "points": "awlgGhkbKWgAES"
+              },
+              "html_instructions": "depart I\u00f1igo kalea"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 171.2
+              },
+              "duration": {
+                "value": 25.5
+              },
+              "polyline": {
+                "points": "_xlgGlhbKv@g@FEzA_AHGFExA}@HE"
+              },
+              "html_instructions": "turn Aldamar kalea"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 20.2
+              },
+              "duration": {
+                "value": 4
+              },
+              "polyline": {
+                "points": "molgGlbbK\\G@D"
+              },
+              "html_instructions": "fork Boulevard zumardia"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 100.5
+              },
+              "duration": {
+                "value": 24.2
+              },
+              "polyline": {
+                "points": "mnlgGjbbK@R@P?VLj@BLDPBH@FDLVx@"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "mllgGnibK"
+              },
+              "html_instructions": "arrive "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 34.7
+              },
+              "duration": {
+                "value": 8.3
+              },
+              "polyline": {
+                "points": "mllgGnibK@FXbA"
+              },
+              "html_instructions": "depart "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "qklgGzkbK"
+              },
+              "html_instructions": "arrive "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 122.5
+              },
+              "duration": {
+                "value": 29.6
+              },
+              "polyline": {
+                "points": "qklgGzkbKDJx@rC?@\\nARH"
+              },
+              "html_instructions": "depart "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 19.4
+              },
+              "duration": {
+                "value": 4.8
+              },
+              "polyline": {
+                "points": "_hlgGvsbKDRBH@F@@@B"
+              },
+              "html_instructions": "turn Boulevard zumardia"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "oglgGbubK"
+              },
+              "html_instructions": "arrive Boulevard zumardia"
+            }
+          ]
+        }
+      ],
+      "bounds": {
+        "northeast": {
+          "lat": 43.32492,
+          "lng": -1.97751
+        },
+        "southwest": {
+          "lat": 43.31914,
+          "lng": -1.985
+        }
+      }
+    }
+  ],
+  "status": "OK"
+}

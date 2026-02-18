@@ -1,0 +1,151 @@
+{
+  "routes": [
+    {
+      "overview_polyline": {
+        "points": "sihtGy}djA????CnA@LA??BA@?B?@DbA?dA?rA?r@DPHZ@~B?p@?F?V@`B@Z?TANARALCJAFCBEDCBIBK@G@[FGBGDEDEFEHCHAJAJAJFzG?NANANCNCNCLELGLGJGJEHGFGFGFGDGBSFSFOBM@O@O@K?OAMAKCKEOGKE_@]sAoAsHuHmAoA[[YUYSWOSKOGWKUISESCuAAmBEg@E[K]SQOq@]g@We@QIEyBgAaAa@MGECCAAAGKAA@AtCkC`@i@HKd@m@NSRSJMJQHQFSJWHSDGFIFIFIRe@N[LLBBNPhApADFLBFAB?BAFEN[DQNw@V{AHq@?C?EACAAACCA"
+      },
+      "legs": [
+        {
+          "distance": {
+            "value": 2131.2,
+            "text": "2.1 km"
+          },
+          "duration": {
+            "value": 317.7,
+            "text": "5 mins"
+          },
+          "steps": [
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "sihtGy}djA??"
+              },
+              "html_instructions": "depart "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "sihtGy}djA"
+              },
+              "html_instructions": "arrive "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "sihtGy}djA??"
+              },
+              "html_instructions": "depart "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "sihtGy}djA"
+              },
+              "html_instructions": "arrive "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 1615.1
+              },
+              "duration": {
+                "value": 236.6
+              },
+              "polyline": {
+                "points": "sihtGy}djACnA@LA??BA@?B?@DbA?dA?rA?r@DPHZ@~B?p@?F?V@`B@Z?TANARALCJAFCBEDCBIBK@G@[FGBGDEDEFEHCHAJAJAJFzG?NANANCNCNCLELGLGJGJEHGFGFGFGDGBSFSFOBM@O@O@K?OAMAKCKEOGKE_@]sAoAsHuHmAoA[[YUYSWOSKOGWKUISESCuAAmBEg@E[K]SQOq@]g@We@QIEyBgAaAa@MGECCAAAGKAA"
+              },
+              "html_instructions": "depart "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 298.5
+              },
+              "duration": {
+                "value": 28.7
+              },
+              "polyline": {
+                "points": "oajtGomdjA@AtCkC`@i@HKd@m@NSRSJMJQHQFSJWHSDGFIFIFIRe@N["
+              },
+              "html_instructions": "turn Ponte della Libert\u00e0"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 80.2
+              },
+              "duration": {
+                "value": 19.5
+              },
+              "polyline": {
+                "points": "_uitGc}djALLBBNPhApADF"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 137.3
+              },
+              "duration": {
+                "value": 32.9
+              },
+              "polyline": {
+                "points": "mqitGeydjALBFAB?BAFEN[DQNw@V{AHq@?C?EACAAACCA"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "initGuaejA"
+              },
+              "html_instructions": "arrive "
+            }
+          ]
+        }
+      ],
+      "bounds": {
+        "northeast": {
+          "lat": 45.4404,
+          "lng": 12.31915
+        },
+        "southwest": {
+          "lat": 45.43135,
+          "lng": 12.31121
+        }
+      }
+    }
+  ],
+  "status": "OK"
+}

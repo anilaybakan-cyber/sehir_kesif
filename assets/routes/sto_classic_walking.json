@@ -1,0 +1,307 @@
+{
+  "routes": [
+    {
+      "overview_polyline": {
+        "points": "qabiJgshmBm@wDYXYt@Y^X_@Xu@x@pFJLJIZZp@Qd@CU@O@q@P[[B]{@qF]e@w@oFBi@AICICKCKAICKEOSVMLyCpDcAnA[`@?JAL?H?N@TBRD^Tn@Nl@Z|AH^J^Jj@J^T`A@F|@`EDPn@fCJXt@vB^`APd@BJFTCBCDo@jAw@zAEHAHCJAJ?JAN@L@HDd@?L?HAHAJEJoCbFsBzDYb@IJIJ_B|@QJTvDBRHt@ENCJQZm@d@u@p@ENGDCFAH?NBLFRHVNd@NVHPLHXHb@OhAs@JKXe@^eATc@bHyPdAsBvAkC"
+      },
+      "legs": [
+        {
+          "distance": {
+            "value": 2341.3,
+            "text": "2.3 km"
+          },
+          "duration": {
+            "value": 493.7,
+            "text": "8 mins"
+          },
+          "steps": [
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 58.4
+              },
+              "duration": {
+                "value": 26.6
+              },
+              "polyline": {
+                "points": "qabiJgshmBm@wD"
+              },
+              "html_instructions": "depart Slottsbacken"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 55.2
+              },
+              "duration": {
+                "value": 40.6
+              },
+              "polyline": {
+                "points": "_cbiJ_yhmBYXYt@Y^"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 17.9
+              },
+              "duration": {
+                "value": 4.3
+              },
+              "polyline": {
+                "points": "mebiJouhmBX_@"
+              },
+              "html_instructions": "continue "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "sdbiJovhmB"
+              },
+              "html_instructions": "arrive "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 20.6
+              },
+              "duration": {
+                "value": 9.7
+              },
+              "polyline": {
+                "points": "sdbiJovhmBXu@"
+              },
+              "html_instructions": "depart "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 90.9
+              },
+              "duration": {
+                "value": 32.8
+              },
+              "polyline": {
+                "points": "ycbiJexhmBx@pFJLJI"
+              },
+              "html_instructions": "turn Slottsbacken"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 66.9
+              },
+              "duration": {
+                "value": 51.5
+              },
+              "polyline": {
+                "points": "gabiJophmBZZp@Qd@C"
+              },
+              "html_instructions": "turn K\u00e4llargr\u00e4nd"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "s}aiJiphmB"
+              },
+              "html_instructions": "arrive K\u00e4llargr\u00e4nd"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 12.6
+              },
+              "duration": {
+                "value": 4.5
+              },
+              "polyline": {
+                "points": "s}aiJiphmBU@"
+              },
+              "html_instructions": "depart K\u00e4llargr\u00e4nd"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "i~aiJgphmB"
+              },
+              "html_instructions": "arrive K\u00e4llargr\u00e4nd"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 54.2
+              },
+              "duration": {
+                "value": 20.7
+              },
+              "polyline": {
+                "points": "i~aiJgphmBO@q@P[["
+              },
+              "html_instructions": "depart K\u00e4llargr\u00e4nd"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 208.5
+              },
+              "duration": {
+                "value": 77.2
+              },
+              "polyline": {
+                "points": "gabiJophmBB]{@qF]e@w@oFBi@AICICKCK"
+              },
+              "html_instructions": "turn Slottsbacken"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 196.4
+              },
+              "duration": {
+                "value": 27.1
+              },
+              "polyline": {
+                "points": "_fbiJkdimBAICKEOSVMLyCpDcAnA[`@"
+              },
+              "html_instructions": "end of road Skeppsbron"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 401.2
+              },
+              "duration": {
+                "value": 61.6
+              },
+              "polyline": {
+                "points": "gobiJg{hmB?JAL?H?N@TBRD^Tn@Nl@Z|AH^J^Jj@J^T`A@F|@`EDPn@fCJXt@vB^`APd@BJFT"
+              },
+              "html_instructions": "turn Slottskajen"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 140.1
+              },
+              "duration": {
+                "value": 20.6
+              },
+              "polyline": {
+                "points": "acbiJ_wgmBCBCDo@jAw@zAEHAHCJAJ?JAN@L@HDd@?L?HAHAJEJ"
+              },
+              "html_instructions": "turn R\u00e5dhusgr\u00e4nd"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 285
+              },
+              "duration": {
+                "value": 47.4
+              },
+              "polyline": {
+                "points": "agbiJmkgmBoCbFsBzDYb@IJIJ_B|@QJ"
+              },
+              "html_instructions": "new name Vasabron"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 76.4
+              },
+              "duration": {
+                "value": 10.9
+              },
+              "polyline": {
+                "points": "etbiJgzfmBTvDBRHt@"
+              },
+              "html_instructions": "continue Tegelbacken"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 83
+              },
+              "duration": {
+                "value": 9.5
+              },
+              "polyline": {
+                "points": "asbiJerfmBENCJQZm@d@u@p@"
+              },
+              "html_instructions": "turn Vasagatan"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 214.6
+              },
+              "duration": {
+                "value": 21.9
+              },
+              "polyline": {
+                "points": "awbiJumfmBENGDCFAH?NBLFRHVNd@NVHPLHXHb@OhAs@JKXe@^eA"
+              },
+              "html_instructions": "on ramp S\u00f6derkopplet"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 359.3
+              },
+              "duration": {
+                "value": 26.8
+              },
+              "polyline": {
+                "points": "ynbiJ{lfmBTc@bHyPdAsBvAkC"
+              },
+              "html_instructions": "merge Centralbron"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "a`biJyggmB"
+              },
+              "html_instructions": "arrive Centralbron"
+            }
+          ]
+        }
+      ],
+      "bounds": {
+        "northeast": {
+          "lat": 59.32939,
+          "lng": 18.07465
+        },
+        "southwest": {
+          "lat": 59.32522,
+          "lng": 18.05952
+        }
+      }
+    }
+  ],
+  "status": "OK"
+}

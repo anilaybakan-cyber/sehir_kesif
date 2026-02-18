@@ -1,0 +1,827 @@
+{
+  "routes": [
+    {
+      "overview_polyline": {
+        "points": "_uv~Fk{bkAX?B?D?BAB?DAHCD?DADAFADCHEJE@C@C@CFk@@OW?c@YGISOAACCSSIK?C?E?E?IA[?Y?M?U?M?K?K?[@G?G@E@E@C@ABCBAFAH?JAZAF?DAh@EHAF?HAF?V@@?B?B@@?B@@?@@@?F@D?`@Ch@CB?bBKF?n@Ej@CJAxB]JAf@ETCRAZ@D?N?Du@OE_@IWGCAO@CkAASwD@eAAA?C?CAAACC?CAC?QC{@?EDABAB?DA@?ZAHYZk@Zu@LY@GHSDMBO@Q@K?GIq@Ek@KAIA@uA@[?Q@G?G@G?E@I@E@E@E?E@CBC@CBGDCBEBGBGBE@E?C@C?C?E?G?IAICSG_@Ia@CWKu@AICQ?G?GCg@AUCOe@}BYDECC@aBXI@SDYDE@aAPFxA@^B^Dj@OPE@K@K@GE[WEGAGAGAGAEEAC?i@DE@]RwAFXbDB`@?Nl@BD@JtBFpA?D?B@p@BdB@FBt@Bx@?jA?JAXANG\\EZEZARALI?C?iA@?F?J?d@@Z?dA?F@P?J?D@F@D@DBDDDAD?FAF?Z?J?J?L?T?L?X@Z?H?D?D?BAB??A@A@A@A@{@b@SJULoAn@WHMFUL[PADADBLNn@DD@D@@@@B?@?B?@?b@UDCJBHDD@B?B?`@GBA@A@A@C?C?C?C?AACAACAE?QDOBC@C@C@C@OHEBc@TA?C?A?C?AAAAAEEEe@TIDMe@?CCMCIFAD?DADCHELIB?B?@?@?@A@?@ABARKTMFEHKHKnAo@TMRKz@c@@A@A@A@A??@C?C?E?E?IA[?Y?M?U?M?K?K?[@G?G@E@E@C@ABCBAFAH?JAZAF?DAh@EHAF?HAF?V@@?B?B@@?B@@?@@@?F@D?`@Ch@CB?bBKF?n@Ej@CJA?LDpA?DF~@@\\@R?LFfB@ZHKh@e@t@w@\\XDDFDCHAh@WhB[zBU`BEVQrA_@bCAHIf@KZCLELIREJEJCHEFCHCDKNU^IJSZg@p@oAhBm@z@W^i@|@IJGJGDC@CBCBCBA@CBEDs@fAEFILKRSXKNCBEHCDITORCDSXEDKNABGHmCzDABMPj@r@NPNPJLHFJHLJDDBBRJJDTHZJ\\HNBJB\\FNBD@HDTDTF@@FBJBLBDAnA[TIJEv@c@RSLMJMVU`BiAdBoAhE{Ch@e@NMLMJMV[HMFKl@}@jBiCHOZa@fDwEpIgLNULPHLBBDH@B?D?VIlBCLLl@@DIZCNGVCPCZ?R?V?F@J?N@LDNBF@DDFBFDDBBlCzBNNnC~B`AqBRe@p@wAYk@EIGIEICI{AbAGDQL_CzAmC{BCCEECGEGAECGEOi@XEBeBv@_Bz@aB~@c@\\cBhACB]TcAr@i@\\]XKHyAhAw@j@oBvA{GzE_@TC?C?EM`BiAdBoAhE{Ch@e@NMLMJMV[HMKO?AcCyDKOIJILGJY\\WZGFIHcAp@EBu@d@GDUNiAr@cBdAoAv@MFMHEDGBGBE@EBIBE@G@E?E@K@M@M?G@E?C?C??IAM?IIyAAs@AI?G?E?GAE?Q?O?G?GCw@?C?E@C@C@C@AJMBCBEDEBEBE@CBE@EBE@E@EBKFKHKh@}@V_@l@{@nAiBf@q@R[HKT_@JOBEBIDGBIDKDKHSDMBMJ[Hg@CAIE_@SOb@MAYCOCoBYC?CACCAC]`@ABCBCDCDCFADADADAD?FAF?D"
+      },
+      "legs": [
+        {
+          "distance": {
+            "value": 9383.1,
+            "text": "9.4 km"
+          },
+          "duration": {
+            "value": 1387.3,
+            "text": "23 mins"
+          },
+          "steps": [
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 64.5
+              },
+              "duration": {
+                "value": 15.9
+              },
+              "polyline": {
+                "points": "_uv~Fk{bkAX?B?D?BAB?DAHCD?DADAFADCHEJE"
+              },
+              "html_instructions": "depart Vicolo della Volpe"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 31.5
+              },
+              "duration": {
+                "value": 13.8
+              },
+              "polyline": {
+                "points": "mqv~Fi|bkA@C@C@CFk@@O"
+              },
+              "html_instructions": "turn Vicolo della Pace"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 80.8
+              },
+              "duration": {
+                "value": 11.8
+              },
+              "polyline": {
+                "points": "}pv~Fq~bkAW?c@YGISOAACCSSIK"
+              },
+              "html_instructions": "turn Via di Tor Sanguigna"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 112.7
+              },
+              "duration": {
+                "value": 10.4
+              },
+              "polyline": {
+                "points": "ytv~FkackA?C?E?E?IA[?Y?M?U?M?K?K?[@G?G@E@E@C@ABCBAFAH?JA"
+              },
+              "html_instructions": "end of road Piazza di Tor Sanguigna"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 413.2
+              },
+              "duration": {
+                "value": 43.8
+              },
+              "polyline": {
+                "points": "ksv~FmhckAZAF?DAh@EHAF?HAF?V@@?B?B@@?B@@?@@@?F@D?`@Ch@CB?bBKF?n@Ej@CJAxB]JAf@ETCRAZ@D?N?"
+              },
+              "html_instructions": "new name Corso del Rinascimento"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 74.3
+              },
+              "duration": {
+                "value": 16.9
+              },
+              "polyline": {
+                "points": "i|u~F{jckADu@OE_@IWGCAO@"
+              },
+              "html_instructions": "continue Piazza di Sant'Andrea della Valle"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 39.4
+              },
+              "duration": {
+                "value": 10.3
+              },
+              "polyline": {
+                "points": "__v~FimckACkAAS"
+              },
+              "html_instructions": "turn Via dei Redentoristi"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 189.7
+              },
+              "duration": {
+                "value": 29.2
+              },
+              "polyline": {
+                "points": "e_v~FipckAwD@eAAA?C?CAAACC?CAC?QC{@?E"
+              },
+              "html_instructions": "new name Via del Teatro Valle"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 28.2
+              },
+              "duration": {
+                "value": 5.2
+              },
+              "polyline": {
+                "points": "ygv~FmsckADABAB?DA@?ZA"
+              },
+              "html_instructions": "turn Piazza Dei Carpettari"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 159.5
+              },
+              "duration": {
+                "value": 25.6
+              },
+              "polyline": {
+                "points": "gfv~FusckAHYZk@Zu@LY@GHSDMBO@Q@K?GIq@Ek@"
+              },
+              "html_instructions": "turn Via di Santa Chiara"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 115.3
+              },
+              "duration": {
+                "value": 18.1
+              },
+              "polyline": {
+                "points": "mcv~Fi~ckAKAIA@uA@[?Q@G?G@G?E@I@E@E@E?E@CBC@CBGDCBEBG"
+              },
+              "html_instructions": "turn Piazza della Minerva"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 112.7
+              },
+              "duration": {
+                "value": 16.3
+              },
+              "polyline": {
+                "points": "ybv~FwedkABGBE@E?C@C?C?E?G?IAICSG_@Ia@CWKu@AICQ"
+              },
+              "html_instructions": "new name Via del Pi\u00e8 di Marmo"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 114.7
+              },
+              "duration": {
+                "value": 17.1
+              },
+              "polyline": {
+                "points": "{cv~FymdkA?G?GCg@AUCOe@}BYDEC"
+              },
+              "html_instructions": "new name Piazza del Collegio Romano"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 129.9
+              },
+              "duration": {
+                "value": 36.2
+              },
+              "polyline": {
+                "points": "kfv~FstdkAC@aBXI@SDYDE@aAP"
+              },
+              "html_instructions": "fork Via del Collegio Romano"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 83.4
+              },
+              "duration": {
+                "value": 20.3
+              },
+              "polyline": {
+                "points": "qmv~FurdkAFxA@^B^Dj@"
+              },
+              "html_instructions": "turn Via del Caravita"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 74.8
+              },
+              "duration": {
+                "value": 18.4
+              },
+              "polyline": {
+                "points": "}lv~FoldkAOPE@K@K@GE[WEGAGAGAGAEEAC?"
+              },
+              "html_instructions": "turn Via de' Burr\u00f2"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 94.4
+              },
+              "duration": {
+                "value": 28.8
+              },
+              "polyline": {
+                "points": "gpv~F}mdkAi@DE@]RwAF"
+              },
+              "html_instructions": "turn Piazza di Pietra"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 119.1
+              },
+              "duration": {
+                "value": 17.1
+              },
+              "polyline": {
+                "points": "muv~FyldkAXbDB`@?Nl@BD@"
+              },
+              "html_instructions": "turn Via della Colonna Antonina"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "{rv~F}edkA"
+              },
+              "html_instructions": "arrive Piazza di Monte Citorio"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 307.6
+              },
+              "duration": {
+                "value": 75
+              },
+              "polyline": {
+                "points": "{rv~F}edkAJtBFpA?D?B@p@BdB@FBt@Bx@?jA?JAXANG\\EZEZARAL"
+              },
+              "html_instructions": "depart Via in Aquiro"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 48.3
+              },
+              "duration": {
+                "value": 12.1
+              },
+              "polyline": {
+                "points": "srv~FaockAI?C?iA@"
+              },
+              "html_instructions": "turn Via della Scrofa"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 98.7
+              },
+              "duration": {
+                "value": 14.5
+              },
+              "polyline": {
+                "points": "kuv~F_ockA?F?J?d@@Z?dA?F@P?J?D@F@D@DBDDD"
+              },
+              "html_instructions": "turn Via di Sant'Agostino"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 85.2
+              },
+              "duration": {
+                "value": 7.7
+              },
+              "polyline": {
+                "points": "wtv~FwgckAAD?FAF?Z?J?J?L?T?L?X@Z?H?D?D?B"
+              },
+              "html_instructions": "turn Piazza di Tor Sanguigna"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 176.7
+              },
+              "duration": {
+                "value": 16.4
+              },
+              "polyline": {
+                "points": "ytv~FkackAAB??A@A@A@A@{@b@SJULoAn@WHMFUL[PADAD"
+              },
+              "html_instructions": "turn Via Giuseppe Zanardelli"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 69.4
+              },
+              "duration": {
+                "value": 12.7
+              },
+              "polyline": {
+                "points": "u}v~Fs{bkABLNn@DD@D@@@@B?@?B?@?b@UDC"
+              },
+              "html_instructions": "turn Piazza di Ponte Umberto I"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 48.2
+              },
+              "duration": {
+                "value": 7
+              },
+              "polyline": {
+                "points": "_{v~F_zbkAJBHDD@B?B?`@GBA@A@A@C?A"
+              },
+              "html_instructions": "turn Arco degli Acquasparta"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "oxv~FgzbkA"
+              },
+              "html_instructions": "arrive Via degli Acquasparta"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 93.4
+              },
+              "duration": {
+                "value": 16.4
+              },
+              "polyline": {
+                "points": "oxv~FizbkA?C?C?AACAACAE?QDOBC@C@C@C@OHEBc@TA?C?A?C?AAAAAEEE"
+              },
+              "html_instructions": "depart Via degli Acquasparta"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 59.6
+              },
+              "duration": {
+                "value": 17.1
+              },
+              "polyline": {
+                "points": "a}v~FuybkAe@TIDMe@?CCMCI"
+              },
+              "html_instructions": "turn Piazza di Ponte Umberto Primo"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 33.9
+              },
+              "duration": {
+                "value": 3.2
+              },
+              "polyline": {
+                "points": "g_w~F{zbkAFAD?DADCHELIB?B?"
+              },
+              "html_instructions": "continue Piazza di Ponte Umberto Primo"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 172.3
+              },
+              "duration": {
+                "value": 16.1
+              },
+              "polyline": {
+                "points": "m}v~Fs{bkA@?@?@A@?@ABARKTMFEHKHKnAo@TMRKz@c@@A@A@A@A??@C"
+              },
+              "html_instructions": "turn Via Giuseppe Zanardelli"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 112.7
+              },
+              "duration": {
+                "value": 10.4
+              },
+              "polyline": {
+                "points": "ytv~FkackA?C?E?E?IA[?Y?M?U?M?K?K?[@G?G@E@E@C@ABCBAFAH?JA"
+              },
+              "html_instructions": "turn Piazza di Tor Sanguigna"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 263.3
+              },
+              "duration": {
+                "value": 25.8
+              },
+              "polyline": {
+                "points": "ksv~FmhckAZAF?DAh@EHAF?HAF?V@@?B?B@@?B@@?@@@?F@D?`@Ch@CB?bBKF?n@Ej@CJA"
+              },
+              "html_instructions": "new name Corso del Rinascimento"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 81.8
+              },
+              "duration": {
+                "value": 19.5
+              },
+              "polyline": {
+                "points": "sdv~FqickA?LDpA?DF~@@\\"
+              },
+              "html_instructions": "turn Via dei Canestrari"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "cdv~FmcckA"
+              },
+              "html_instructions": "arrive Piazza Navona"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 69
+              },
+              "duration": {
+                "value": 23.8
+              },
+              "polyline": {
+                "points": "cdv~FmcckA@R?LFfB@Z"
+              },
+              "html_instructions": "depart Piazza Navona"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 74.1
+              },
+              "duration": {
+                "value": 11.4
+              },
+              "polyline": {
+                "points": "wcv~Fg~bkAHKh@e@t@w@"
+              },
+              "html_instructions": "turn Via di San Pantaleo"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 811.5
+              },
+              "duration": {
+                "value": 126
+              },
+              "polyline": {
+                "points": "m`v~FqackA\\XDDFDCHAh@WhB[zBU`BEVQrA_@bCAHIf@KZCLELIREJEJCHEFCHCDKNU^IJSZg@p@oAhBm@z@W^i@|@IJGJGDC@CBCBCBA@CBEDs@fAEFILKRSXKNCBEHCDITORCDSXEDKN"
+              },
+              "html_instructions": "turn Corso Vittorio Emanuele Secondo"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 132.2
+              },
+              "duration": {
+                "value": 18
+              },
+              "polyline": {
+                "points": "svv~FqpakAABGHmCzDABMP"
+              },
+              "html_instructions": "new name Ponte Vittorio Emanuele Secondo"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 237.1
+              },
+              "duration": {
+                "value": 23.3
+              },
+              "polyline": {
+                "points": "{{v~FqiakAj@r@NPNPJLHFJHLJDDBBRJJDTHZJ\\HNBJB\\FNBD@HDTDTF"
+              },
+              "html_instructions": "turn Lungotevere in Sassia"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 157.8
+              },
+              "duration": {
+                "value": 14.4
+              },
+              "polyline": {
+                "points": "_pv~FgbakA@@FBJBLBDAnA[TIJEv@c@RSLMJM"
+              },
+              "html_instructions": "new name Piazza della Rovere"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 356.2
+              },
+              "duration": {
+                "value": 31.9
+              },
+              "polyline": {
+                "points": "}gv~F{eakAVU`BiAdBoAhE{Ch@e@NMLMJMV[HM"
+              },
+              "html_instructions": "turn Lungotevere Gianicolense"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 554.8
+              },
+              "duration": {
+                "value": 51.4
+              },
+              "polyline": {
+                "points": "}vu~FatakAFKl@}@jBiCHOZa@fDwEpIgLNU"
+              },
+              "html_instructions": "new name Lungotevere della Farnesina"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 206.5
+              },
+              "duration": {
+                "value": 31.3
+              },
+              "polyline": {
+                "points": "k`u~F}pbkALPHLBBDH@B?D?VIlBCLLl@@DIZCNGVCPCZ?R?V?F@J?N@L"
+              },
+              "html_instructions": "turn Via di Ponte Sisto"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 230.9
+              },
+              "duration": {
+                "value": 39.5
+              },
+              "polyline": {
+                "points": "_`u~FmbbkADNBF@DDFBFDDBBlCzBNNnC~B"
+              },
+              "html_instructions": "new name Via Garibaldi"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 79.2
+              },
+              "duration": {
+                "value": 11.8
+              },
+              "polyline": {
+                "points": "qut~FixakA`AqBRe@"
+              },
+              "html_instructions": "turn Via dei Panieri"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "{rt~Fa}akA"
+              },
+              "html_instructions": "arrive Via dei Panieri"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 45.7
+              },
+              "duration": {
+                "value": 10.5
+              },
+              "polyline": {
+                "points": "{rt~Fa}akAp@wA"
+              },
+              "html_instructions": "depart Via dei Panieri"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 44.5
+              },
+              "duration": {
+                "value": 10.6
+              },
+              "polyline": {
+                "points": "iqt~Fy_bkAYk@EIGIEICI"
+              },
+              "html_instructions": "turn Vicolo del Cedro"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 156
+              },
+              "duration": {
+                "value": 23.8
+              },
+              "polyline": {
+                "points": "{rt~FmbbkA{AbAGDQL_CzA"
+              },
+              "html_instructions": "turn Via del Mattonato"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 123.5
+              },
+              "duration": {
+                "value": 23.4
+              },
+              "polyline": {
+                "points": "qzt~Fy|akAmC{BCCEECGEGAECGEO"
+              },
+              "html_instructions": "turn Via Garibaldi"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 796
+              },
+              "duration": {
+                "value": 124.4
+              },
+              "polyline": {
+                "points": "_`u~FmbbkAi@XEBeBv@_Bz@aB~@c@\\cBhACB]TcAr@i@\\]XKHyAhAw@j@oBvA{GzE_@TC?C?EM"
+              },
+              "html_instructions": "turn Via della Lungara"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 340.6
+              },
+              "duration": {
+                "value": 35.5
+              },
+              "polyline": {
+                "points": "egv~FqfakA`BiAdBoAhE{Ch@e@NMLMJMV[HM"
+              },
+              "html_instructions": "end of road Lungotevere Gianicolense"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 125.9
+              },
+              "duration": {
+                "value": 18.7
+              },
+              "polyline": {
+                "points": "}vu~FatakAKO?AcCyDKO"
+              },
+              "html_instructions": "turn Ponte Giuseppe Mazzini"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 423.4
+              },
+              "duration": {
+                "value": 41.7
+              },
+              "polyline": {
+                "points": "y{u~F}zakAIJILGJY\\WZGFIHcAp@EBu@d@GDUNiAr@cBdAoAv@MFMHEDGBGBE@EBIBE@G@E?E@K@M@M?G@E?C?C?"
+              },
+              "html_instructions": "turn Lungotevere dei Sangallo"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 144.6
+              },
+              "duration": {
+                "value": 13.4
+              },
+              "polyline": {
+                "points": "upv~FqlakA?IAM?IIyAAs@AI?G?E?GAE?Q?O?G?GCw@?C?E@C@C@C@A"
+              },
+              "html_instructions": "turn Via Acciaioli"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 361
+              },
+              "duration": {
+                "value": 53.3
+              },
+              "polyline": {
+                "points": "cqv~FiwakAJMBCBEDEBEBE@CBE@EBE@E@EBKFKHKh@}@V_@l@{@nAiBf@q@R[HKT_@JOBEBIDGBIDKDKHSDMBMJ["
+              },
+              "html_instructions": "new name Corso Vittorio Emanuele Secondo"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 62.6
+              },
+              "duration": {
+                "value": 14.7
+              },
+              "polyline": {
+                "points": "ucv~FmkbkAHg@CAIE_@SOb@"
+              },
+              "html_instructions": "turn Piazza della Chiesa Nuova"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 104
+              },
+              "duration": {
+                "value": 17.2
+              },
+              "polyline": {
+                "points": "iev~FmlbkAMAYCOCoBYC?CACCAC"
+              },
+              "html_instructions": "end of road Via della Chiesa Nuova"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 56.7
+              },
+              "duration": {
+                "value": 8.2
+              },
+              "polyline": {
+                "points": "_kv~F{mbkA]`@ABCBCDCDCFADADADAD?FAF?D"
+              },
+              "html_instructions": "turn Via del Governo Vecchio"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "ylv~FojbkA"
+              },
+              "html_instructions": "arrive Via del Governo Vecchio"
+            }
+          ]
+        }
+      ],
+      "bounds": {
+        "northeast": {
+          "lat": 41.90212,
+          "lng": 12.48091
+        },
+        "southwest": {
+          "lat": 41.88965,
+          "lng": 12.46253
+        }
+      }
+    }
+  ],
+  "status": "OK"
+}

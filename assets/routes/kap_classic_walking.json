@@ -1,0 +1,710 @@
+{
+  "routes": [
+    {
+      "overview_polyline": {
+        "points": "obzjF_ltsEoArBYb@g@V[FYDYCK\\s@~CQn@WbAO~@SpAEb@?JEr@CfAA`AMxECz@GtBWdHG`AIj@]nBMXWP}@l@_@TMNGREX@XBfACj@IvAOrAGd@\\RNJn@^b@^d@f@Xl@Lr@?n@Et@QfA]dAs@tAW\\SVu@bAa@h@i@v@Wj@GNiDhJIZm@fEKz@UfA{BzEMd@El@@l@?l@Jf@ZvAhAnFv@zAj@r@vAx@vBlAvDxAb@NB?tFbBtDrBxBfBbCnB`BfB|A`Bp@v@b@p@xBpAv@f@vAz@pBfBXTDB`@TpAXz@NHBVPR\\z@dBhD~Fj@hATv@HAJBHDHFh@l@h@RB@d@JrA`@^NZNTNPPLRXh@FPH\\DZBVARCXEZKRYd@MLIDy@f@YVYb@E^CTJp@DXBNBLJDHEBKBa@FUNUXM^Oj@Of@Yd@SJEJCNEVFZJVJZFf@ZCBIDG@IDIBCFCHCJEFCFBHBDDBD?D@D?@@FAB@H?BB@BHBBDHEHCPKLEH@BBJAJGDENEPAP@JFFDHDBB@F?D@H@HFH?BCHADCFRV@FDPF`@DZBT@DBN@FA`@Z@f@RTRVb@PPHZBN@h@?FAVh@Vp@l@~@l@jAG~@j@RX|@rAd@f@Zf@fDjFTb@FJdAhAnAtAdAtAzApBRX~@lAl@v@Vh@~AzDNj@`AjDl@zBDJlBpE^n@PZzFtGzBjCtGhHd@j@^p@tAdEPZXRVaA~A}FlA}D~BaH`I}UjA_DlFkLxD_Ir@cBl@cBv@kCl@gCRy@VsAXcB^gBh@qB`@yA\\cAh@iA`GcM^cALs@L}@Dg@B}@Co@Kq@Qm@Um@kCaEm@wAU{@Ms@OyAAaA@oAHcAPeAvAeGRsAFyAAmAOgBSiAUo@Uk@m@aAi@q@kBeCm@_Ae@aAW{@S{AIqAAu@@eAJiAN}@d@wAlEkKbBeEXgALw@LyABqAC{AOwAWkAYu@a@aA}L}RWe@aF}IaCwFuA}CwGoOoJmR_HuIqGiHc@a@sB_BmLcJoCyBqJuH}@s@u@k@_CkBaCmBcCuBi@i@OOaA{@aAcAk@o@uF_H[_@a@i@aAuA{@}Ai@aAKWYk@UWeB{B]_@KO{AoB{@_Ai@{@Qc@Mm@OsAGo@Gs@Ko@YyAUy@c@aAOa@Cc@@MDQHEl@Of@B`CFzHN~BAfI_ArAWTELEhEeA\\KRGdA?dA?n@Cf@GXIXLZHbAbBDJlBvCz@nAZfAJVJPDRDTHlAFpA?nAKr@YfAENAN?\\J^DpAC`AYrAyAdDm@bAk@|@cC~CuC|CF^{AlAu@z@kBjCEEG?G?GDCFAH?H@HBFMFeBbAsCzBsBjBi@n@g@fAg@jCYjAo@bAkDfFi@z@WdAEp@IbAIl@kHvJqDdCuCvBcJjGcE~CsBpAoAV}DRuCTwBd@_A`@g@T]L[Bm@MUOU]Oi@Ki@UeAWbAO~@SpAEb@?JEr@CfAA`AMxECz@GtBWdHG`AIj@]nBMXWP}@l@_@TMNGREX@XBfACj@IvAOrAYOq@[_Bs@qAs@i@WWEi@CSBWEuGaDgL{Fw@YcBcAuAq@o@UUIoAYKE{B[}AIeBDwAH{@JmD`AoBp@uCzAcDjCmCpAiFdBmCl@aItB}Ad@{Et@eA?gAIcFy@eA[s@a@}@m@}HaGiIkG_@[YYmEcFoBcBYUoAq@mIeDu@My@Mi@Cs@AeADoGTgDNkBD}@CkAKoGo@iHgBy@QUCo@Gw@GiAC}@@wDS]Fii@{FyAMco@eD_ACeI[iDMM?m@A_A@K?iA?_BSgAMwAOSEUE_BNeB?aFWyBEkBB{@Dm@DeBTsCb@sATqB\\yCXW?iBMmAW]Q{Aq@a@O_@UiAg@QC_Bi@MSUi@KgAIs@UD{@PkBXkANi@LQBkGv@I@QYOKODUXO^M\\KXEa@K]Qa@NGP@TDDBNDf@B^@HAjGw@PCj@Cl@GjCe@RFTPZZ\\f@Th@LRZZHJTJ`@JTHfB`@`@NzAp@\\PlAVfBb@Z@jAIrAO|B]jB[jB_@xAOxAMJ?vBC|BHnBFlBFbA?pAFb@FF@f@HZ@lCCzAAhA?J?~@Al@@L?hDLdIZ~@Bbo@dDxALhi@zFXNdGj@jBTn@F`D^|C\\bABnGn@jAJ|@BjBEfDOnGUdAEr@@h@Bx@Lt@LlIdDnAp@XTnBbBlEbFXX^ZhIjG|H`G|@l@r@`@dAZbFx@fAHdA?zEu@|Ae@`IuBlCm@hFeBlCqAbDkCtC{AnBq@lDaAz@KvAIdBE|AHzBZJDnAXTHn@TtAp@bBbAp@b@rDrBnFtChB`AdEbB\\Fd@H`ChAjD|AJF\\RNJn@^b@^d@f@Xl@Lr@?n@Et@QfA]dAs@tAW\\?NDHJHLFVBv@Or@Wj@Kr@?f@IDHBD"
+      },
+      "legs": [
+        {
+          "distance": {
+            "value": 38178.8,
+            "text": "38.2 km"
+          },
+          "duration": {
+            "value": 2688.1,
+            "text": "44 mins"
+          },
+          "steps": [
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 157.7
+              },
+              "duration": {
+                "value": 40.5
+              },
+              "polyline": {
+                "points": "obzjF_ltsEoArBYb@g@V[FYDYC"
+              },
+              "html_instructions": "depart "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 978.4
+              },
+              "duration": {
+                "value": 105.1
+              },
+              "polyline": {
+                "points": "qizjFeftsEK\\s@~CQn@WbAO~@SpAEb@?JEr@CfAA`AMxECz@GtBWdHG`AIj@]nBMXWP}@l@_@TMNGREX@XBfACj@IvAOrA"
+              },
+              "html_instructions": "turn M\u00fcze Caddesi"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 819.9
+              },
+              "duration": {
+                "value": 58.1
+              },
+              "polyline": {
+                "points": "kwzjF{drsEGd@\\RNJn@^b@^d@f@Xl@Lr@?n@Et@QfA]dAs@tAW\\SVu@bAa@h@i@v@Wj@GNiDhJIZm@fEKz@"
+              },
+              "html_instructions": "turn Adnan Menderes Caddesi"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 2055.3
+              },
+              "duration": {
+                "value": 136.1
+              },
+              "polyline": {
+                "points": "ib{jF_upsEUfA{BzEMd@El@@l@?l@Jf@ZvAhAnFv@zAj@r@vAx@vBlAvDxAb@NB?tFbBtDrBxBfBbCnB`BfB|A`Bp@v@b@p@xBpAv@f@vAz@pBfBXTDB`@TpAXz@NHBVPR\\z@dBhD~Fj@hATv@"
+              },
+              "html_instructions": "new name G\u00f6reme-U\u00e7hisar yolu"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 535
+              },
+              "duration": {
+                "value": 65.6
+              },
+              "polyline": {
+                "points": "}wxjFa{msEHAJBHDHFh@l@h@RB@d@JrA`@^NZNTNPPLRXh@FPH\\DZBVARCXEZKRYd@MLIDy@f@YVYb@E^CTJp@DXBNBLJD"
+              },
+              "html_instructions": "turn G\u00f6reme Caddesi"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 267.6
+              },
+              "duration": {
+                "value": 37.9
+              },
+              "polyline": {
+                "points": "uoxjFybmsEHEBKBa@FUNUXM^Oj@Of@Yd@SJEJCNEVFZJVJZFf@Z"
+              },
+              "html_instructions": "continue G\u00f6reme Caddesi"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 242
+              },
+              "duration": {
+                "value": 37.3
+              },
+              "polyline": {
+                "points": "_cxjFagmsECBIDG@IDIBCFCHCJEFCFBHBDDBD?D@D?@@FAB@H?BB@BHBBDHEHCPKLEH@BBJAJGDENEPAP@JFFDHDBB@F?D@H@HFH?BCHADCF"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 18.6
+              },
+              "duration": {
+                "value": 2.7
+              },
+              "polyline": {
+                "points": "y|wjF_bmsERV@F"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 57.1
+              },
+              "duration": {
+                "value": 8.2
+              },
+              "polyline": {
+                "points": "c|wjF_amsEDPF`@DZBT@D@N"
+              },
+              "html_instructions": "fork "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "g{wjFc}lsE"
+              },
+              "html_instructions": "arrive "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 18
+              },
+              "duration": {
+                "value": 6
+              },
+              "polyline": {
+                "points": "e{wjFc}lsE@FA`@"
+              },
+              "html_instructions": "depart "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 126
+              },
+              "duration": {
+                "value": 18.1
+              },
+              "polyline": {
+                "points": "e{wjFy{lsEZ@f@RTRVb@PPHZBN@h@"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "qvwjFcvlsE"
+              },
+              "html_instructions": "arrive "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 14.4
+              },
+              "duration": {
+                "value": 4.8
+              },
+              "polyline": {
+                "points": "qvwjFcvlsE?FAV"
+              },
+              "html_instructions": "depart "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 142.1
+              },
+              "duration": {
+                "value": 18.4
+              },
+              "polyline": {
+                "points": "svwjFculsEh@Vp@l@~@l@jAG"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 1766.1
+              },
+              "duration": {
+                "value": 126.3
+              },
+              "polyline": {
+                "points": "kowjFwqlsE~@j@RX|@rAd@f@Zf@fDjFTb@FJdAhAnAtAdAtAzApBRX~@lAl@v@Vh@~AzDNj@`AjDl@zBDJlBpE^n@PZzFtGzBjCtGhHd@j@^p@tAdEPZXR"
+              },
+              "html_instructions": "fork "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 8155.8
+              },
+              "duration": {
+                "value": 345
+              },
+              "polyline": {
+                "points": "cmujFeuisEVaA~A}FlA}D~BaH`I}UjA_DlFkLxD_Ir@cBl@cBv@kCl@gCRy@VsAXcB^gBh@qB`@yA\\cAh@iA`GcM^cALs@L}@Dg@B}@Co@Kq@Qm@Um@kCaEm@wAU{@Ms@OyAAaA@oAHcAPeAvAeGRsAFyAAmAOgBSiAUo@Uk@m@aAi@q@kBeCm@_Ae@aAW{@S{AIqAAu@@eAJiAN}@d@wAlEkKbBeEXgALw@LyABqAC{AOwAWkAYu@a@aA}L}RWe@aF}IaCwFuA}CwGoOoJmR_HuIqGiHc@a@sB_BmLcJoCyBqJuH}@s@u@k@_CkBaCmBcCuBi@i@OOaA{@aAcAk@o@uF_H[_@a@i@aAuA{@}Ai@aAKWYk@UWeB{B]_@KO{AoB{@_Ai@{@Qc@Mm@OsAGo@Gs@Ko@YyAUy@c@aAOa@"
+              },
+              "html_instructions": "turn Nev\u015fehir-\u00dcrg\u00fcp yolu"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 790.5
+              },
+              "duration": {
+                "value": 53.4
+              },
+              "polyline": {
+                "points": "}txjFqcxsECc@@MDQHEl@Of@B`CFzHN~BAfI_ArAWTELEhEeA\\K"
+              },
+              "html_instructions": "turn Prof. Zeliha Berksoy Bulvar\u0131"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "sjwjFgkxsE"
+              },
+              "html_instructions": "arrive "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 153.4
+              },
+              "duration": {
+                "value": 9.8
+              },
+              "polyline": {
+                "points": "sjwjFgkxsERGdA?dA?n@Cf@GXI"
+              },
+              "html_instructions": "depart "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 269.1
+              },
+              "duration": {
+                "value": 24.2
+              },
+              "polyline": {
+                "points": "abwjFelxsEXLZHbAbBDJlBvCz@nAZfA"
+              },
+              "html_instructions": "turn \u0130smail Yavuz Caddesi"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 725.5
+              },
+              "duration": {
+                "value": 67.7
+              },
+              "polyline": {
+                "points": "{wvjFm~wsEJVJPDRDTHlAFpA?nAKr@YfAENAN?\\J^DpAC`AYrAyAdDm@bAk@|@cC~CuC|C"
+              },
+              "html_instructions": "new name Ali Kayaca Caddesi"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 14.6
+              },
+              "duration": {
+                "value": 2.2
+              },
+              "polyline": {
+                "points": "mfwjFasvsEF^"
+              },
+              "html_instructions": "end of road Ali Y\u00fcksel Sokak"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 186.2
+              },
+              "duration": {
+                "value": 28.8
+              },
+              "polyline": {
+                "points": "efwjFarvsE{AlAu@z@kBjC"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 2190.8
+              },
+              "duration": {
+                "value": 206.4
+              },
+              "polyline": {
+                "points": "cnwjFkivsEEEG?G?GDCFAH?H@HBFMFeBbAsCzBsBjBi@n@g@fAg@jCYjAo@bAkDfFi@z@WdAEp@IbAIl@kHvJqDdCuCvBcJjGcE~CsBpAoAV}DRuCTwBd@_A`@g@T]L[Bm@MUOU]Oi@Ki@UeA"
+              },
+              "html_instructions": "on ramp "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 864.6
+              },
+              "duration": {
+                "value": 81.2
+              },
+              "polyline": {
+                "points": "clzjFw~ssEWbAO~@SpAEb@?JEr@CfAA`AMxECz@GtBWdHG`AIj@]nBMXWP}@l@_@TMNGREX@XBfACj@IvAOrA"
+              },
+              "html_instructions": "new name M\u00fcze Caddesi"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 180.7
+              },
+              "duration": {
+                "value": 11.8
+              },
+              "polyline": {
+                "points": "kwzjF{drsEYOq@[_Bs@qAs@i@W"
+              },
+              "html_instructions": "turn Bilal Ero\u011flu Caddesi"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 524.6
+              },
+              "duration": {
+                "value": 34.3
+              },
+              "polyline": {
+                "points": "s`{jFgjrsEWEi@CSBWEuGaDgL{Fw@Y"
+              },
+              "html_instructions": "continue Bilal Ero\u011flu Caddesi"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 2296.7
+              },
+              "duration": {
+                "value": 150.3
+              },
+              "polyline": {
+                "points": "w{{jFkxrsEcBcAuAq@o@UUIoAYKE{B[}AIeBDwAH{@JmD`AoBp@uCzAcDjCmCpAiFdBmCl@aItB}Ad@{Et@eA?gAIcFy@eA[s@a@}@m@}HaGiIkG_@[YY"
+              },
+              "html_instructions": "new name G\u00f6reme yolu"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 493.4
+              },
+              "duration": {
+                "value": 32.3
+              },
+              "polyline": {
+                "points": "ms_kFk}rsEmEcFoBcBYUoAq@mIeD"
+              },
+              "html_instructions": "turn Avanos Caddesi"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 3253.9
+              },
+              "duration": {
+                "value": 213
+              },
+              "polyline": {
+                "points": "ck`kFaossEu@My@Mi@Cs@AeADoGTgDNkBD}@CkAKoGo@iHgBy@QUCo@Gw@GiAC}@@wDS]Fii@{FyAMco@eD_ACeI[iDMM?m@A_A@K?iA?"
+              },
+              "html_instructions": "new name G\u00f6reme yolu"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 144.4
+              },
+              "duration": {
+                "value": 15
+              },
+              "polyline": {
+                "points": "_afkFkdtsE_BSgAMwAO"
+              },
+              "html_instructions": "new name Avanos-G\u00f6reme yolu"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 1216.5
+              },
+              "duration": {
+                "value": 94.8
+              },
+              "polyline": {
+                "points": "_ifkF}etsESEUE_BNeB?aFWyBEkBB{@Dm@DeBTsCb@sATqB\\yCXW?iBMmAW]Q{Aq@a@O_@UiAg@QC_Bi@MSUi@KgAIs@"
+              },
+              "html_instructions": "new name Kapadokya Caddesi"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 438.4
+              },
+              "duration": {
+                "value": 35.6
+              },
+              "polyline": {
+                "points": "}hhkF_otsEUD{@PkBXkANi@LQBkGv@I@QYOKODUXO^M\\KX"
+              },
+              "html_instructions": "end of road Zelve Caddesi"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 47.7
+              },
+              "duration": {
+                "value": 10.6
+              },
+              "polyline": {
+                "points": "k_ikF_htsEEa@K]Qa@"
+              },
+              "html_instructions": "turn Gedik Sokak"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 36.2
+              },
+              "duration": {
+                "value": 5.1
+              },
+              "polyline": {
+                "points": "o`ikFaktsENGP@TDDB"
+              },
+              "html_instructions": "turn Zafer Sk."
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "q~hkF}jtsE"
+              },
+              "html_instructions": "arrive Zafer Sk."
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 48.5
+              },
+              "duration": {
+                "value": 3.9
+              },
+              "polyline": {
+                "points": "q~hkF}jtsENDf@B^@"
+              },
+              "html_instructions": "depart Zafer Sk."
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 157.1
+              },
+              "duration": {
+                "value": 10.3
+              },
+              "polyline": {
+                "points": "y{hkFqjtsEHAjGw@"
+              },
+              "html_instructions": "turn Ta\u015fk\u00f6pr\u00fc"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 139.1
+              },
+              "duration": {
+                "value": 9
+              },
+              "polyline": {
+                "points": "cshkFkltsEPCj@Cl@GjCe@"
+              },
+              "html_instructions": "new name Zelve Caddesi"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 70.1
+              },
+              "duration": {
+                "value": 4.6
+              },
+              "polyline": {
+                "points": "kkhkFantsERFTPZZ\\f@"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 1139.4
+              },
+              "duration": {
+                "value": 76.6
+              },
+              "polyline": {
+                "points": "ghhkFcktsETh@LRZZHJTJ`@JTHfB`@`@NzAp@\\PlAVfBb@Z@jAIrAO|B]jB[jB_@xAOxAMJ?vBC|BHnBFlBFbA?pAFb@FF@"
+              },
+              "html_instructions": "turn Kapadokya Caddesi"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 168.7
+              },
+              "duration": {
+                "value": 13.1
+              },
+              "polyline": {
+                "points": "mjfkFqdtsEf@HZ@lCCzAA"
+              },
+              "html_instructions": "new name Avanos-G\u00f6reme yolu"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 2563.4
+              },
+              "duration": {
+                "value": 167.7
+              },
+              "polyline": {
+                "points": "_afkFkdtsEhA?J?~@Al@@L?hDLdIZ~@Bbo@dDxALhi@zFXNdGj@jBTn@F`D^|C\\bAB"
+              },
+              "html_instructions": "new name G\u00f6reme yolu"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 688
+              },
+              "duration": {
+                "value": 45.1
+              },
+              "polyline": {
+                "points": "uqakFqpssEnGn@jAJ|@BjBEfDOnGUdAEr@@h@Bx@Lt@L"
+              },
+              "html_instructions": "turn G\u00f6reme yolu"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 493.4
+              },
+              "duration": {
+                "value": 32.3
+              },
+              "polyline": {
+                "points": "ck`kFaossElIdDnAp@XTnBbBlEbF"
+              },
+              "html_instructions": "new name Avanos Caddesi"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 2296.7
+              },
+              "duration": {
+                "value": 150.3
+              },
+              "polyline": {
+                "points": "ms_kFk}rsEXX^ZhIjG|H`G|@l@r@`@dAZbFx@fAHdA?zEu@|Ae@`IuBlCm@hFeBlCqAbDkCtC{AnBq@lDaAz@KvAIdBE|AHzBZJDnAXTHn@TtAp@bBbA"
+              },
+              "html_instructions": "turn G\u00f6reme yolu"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 697.3
+              },
+              "duration": {
+                "value": 45.7
+              },
+              "polyline": {
+                "points": "w{{jFkxrsEp@b@rDrBnFtChB`AdEbB\\Fd@H`ChAjD|A"
+              },
+              "html_instructions": "new name Bilal Ero\u011flu Caddesi"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 346.5
+              },
+              "duration": {
+                "value": 24.6
+              },
+              "polyline": {
+                "points": "_xzjF}crsEJF\\RNJn@^b@^d@f@Xl@Lr@?n@Et@QfA]dAs@tAW\\"
+              },
+              "html_instructions": "new name Adnan Menderes Caddesi"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 180.4
+              },
+              "duration": {
+                "value": 17
+              },
+              "polyline": {
+                "points": "euzjFcqqsE?NDHJHLFVBv@Or@Wj@Kr@?f@I"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 8.9
+              },
+              "duration": {
+                "value": 1.3
+              },
+              "polyline": {
+                "points": "ykzjFqqqsEDHBD"
+              },
+              "html_instructions": "turn Milli Sokak"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "okzjFaqqsE"
+              },
+              "html_instructions": "arrive Milli Sokak"
+            }
+          ]
+        }
+      ],
+      "bounds": {
+        "northeast": {
+          "lat": 38.71768,
+          "lng": 34.86419
+        },
+        "southwest": {
+          "lat": 38.60767,
+          "lng": 34.78883
+        }
+      }
+    }
+  ],
+  "status": "OK"
+}

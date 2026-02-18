@@ -1,0 +1,710 @@
+{
+  "routes": [
+    {
+      "overview_polyline": {
+        "points": "ooyFscyxRl@qAXi@JSx@`@XLPHj@XNLDDHDZPTPNJPN^`@f@n@JLBFHHPXP`@PZb@z@Tj@CPCFGD]JiAf@q@XyBdAGB_@PwAj@GBYPIBGEMMaAw@GG{@m@g@a@c@[EEmCuBSOOM[UOMo@g@i@a@MKMKWSeA{@g@c@[UII_@[e@_@c@]QOWSa@[[YA?USk@c@OMOMoAeAg@a@WS[Wk@e@gCmB]WaBkAa@]KKQMa@[YS_@Qy@a@y@]q@[u@Yi@Uc@Oc@MKE]KQGk@QGCaA_@iAg@]OYMQIWKaAa@UMIPk@jAWh@IPSMSMq@_@GEc@ISCK@IBKJYZKLOTSREDKJKHUNy@d@e@VULSLMJILSVOTa@l@SHSDQ@YCKE}@u@SOGEECAAACCAmAaAe@]WOYQ[QC?SGy@Qm@Mu@McAQu@Mm@GWCY?UAe@?_@?w@A_A?eAAS?W?M?c@C[Gk@IIEKCQISIa@Ua@USMUQa@U]SYOUKu@a@uAo@IEECEC]SSK[QOKGCIEUMeAo@gBaAABYh@S^jA|@TRVRXRFFVRD?D?DCDEBE^i@PYBEGCIEHQRc@j@_BVs@HWN[NSfAyA^k@^TVPd@ZZVz@t@z@p@FDDDF?J?FERk@fA}BJe@JUFODGHSRi@BM@_@?c@HgADQBQJUHQ\\k@BCRWLQBEd@q@BI@KDSBGDKFIDGBETULMXSFCBE\\e@NQX_@FI\\c@LQFGjA{Ah@o@b@a@~@y@t@m@FEQS_@c@m@w@GFUP{@n@i@^OQW]EDWRy@j@]TOJBDB@Z`@B@BB@Bt@k@ZWRQXUOQW]MUIOCCAEUi@MHCBOHUNkAx@YRSLSYKMIFgAr@g@Z`@b@HHD@JDr@XPFn@VVHPHWVi@h@c@d@i@h@GFHFTPpB~AJHZX`@Zp@j@ZXnBbBNJRRFFRPvAdADBnB`BPNNJ@BxB~ADBVRJHxCzBfBrA^XHDpC`CVRFFRP~@`A\\^\\\\XV\\ZDBfA|@PJRJt@\\zAp@DB@?`@Rn@Xd@Nd@Pl@PPD\\HH@v@VTJF@\\NRHVJB@F@B@d@R`@NFBFBdAf@ZPr@f@DDPLPLfBpAB@^XNJb@X~AlAjA`ANL^XJJNJrAfAPLNJv@n@XTB@RPb@@@?RCLG^u@z@iBHS`AwBDIrAr@zAt@JFjAj@nAj@RJRJ`Af@|@^\\PFDl@Vp@Zx@`@XLPHj@XNLDDFIDERYLKLKRMTGRIx@UXIPGCCa@e@YUi@]a@ToAp@SJIBq@_@i@]_Ak@KIGKEGEOEKa@JCBABBTAFMT[n@CF\\PFDDB"
+      },
+      "legs": [
+        {
+          "distance": {
+            "value": 10435.8,
+            "text": "10.4 km"
+          },
+          "duration": {
+            "value": 1078.6,
+            "text": "17 mins"
+          },
+          "steps": [
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 92.6
+              },
+              "duration": {
+                "value": 10.4
+              },
+              "polyline": {
+                "points": "ooyFscyxRl@qAXi@JS"
+              },
+              "html_instructions": "depart Temple Street"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 92.6
+              },
+              "duration": {
+                "value": 8.4
+              },
+              "polyline": {
+                "points": "{lyFchyxRx@`@XLPHj@X"
+              },
+              "html_instructions": "turn South Bridge Road"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 152.7
+              },
+              "duration": {
+                "value": 15.8
+              },
+              "polyline": {
+                "points": "ihyFoeyxRNLDDHDZPTPNJPN^`@f@n@JL"
+              },
+              "html_instructions": "fork South Bridge Road"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 136.2
+              },
+              "duration": {
+                "value": 14.3
+              },
+              "polyline": {
+                "points": "abyFu_yxRBFHHPXP`@PZb@z@Tj@"
+              },
+              "html_instructions": "new name Neil Road"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 278.8
+              },
+              "duration": {
+                "value": 27.2
+              },
+              "polyline": {
+                "points": "c~xFcyxxRCPCFGD]JiAf@q@XyBdAGB_@PwAj@GB"
+              },
+              "html_instructions": "turn Kreta Ayer Road"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 1171.6
+              },
+              "duration": {
+                "value": 101
+              },
+              "polyline": {
+                "points": "okyFiqxxRYPIBGEMMaAw@GG{@m@g@a@c@[EEmCuBSOOM[UOMo@g@i@a@MKMKWSeA{@g@c@[UII_@[e@_@c@]QOWSa@[[YA?USk@c@OMOMoAeAg@a@WS[Wk@e@gCmB]WaBkAa@]KK"
+              },
+              "html_instructions": "end of road Eu Tong Sen Street"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 554.6
+              },
+              "duration": {
+                "value": 56.7
+              },
+              "polyline": {
+                "points": "e~zFezyxRQMa@[YS_@Qy@a@y@]q@[u@Yi@Uc@Oc@MKE]KQGk@QGCaA_@iAg@]OYMQIWKaAa@UM"
+              },
+              "html_instructions": "new name Hill Street"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 98.1
+              },
+              "duration": {
+                "value": 13.2
+              },
+              "polyline": {
+                "points": "wy{F{hzxRIPk@jAWh@IP"
+              },
+              "html_instructions": "turn Stamford Road"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 65.5
+              },
+              "duration": {
+                "value": 5.9
+              },
+              "polyline": {
+                "points": "o|{FadzxRSMSMq@_@GE"
+              },
+              "html_instructions": "continue Stamford Road"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 255
+              },
+              "duration": {
+                "value": 24.9
+              },
+              "polyline": {
+                "points": "q_|FcfzxRc@ISCK@IBKJYZKLOTSREDKJKHUNy@d@e@VULSLMJ"
+              },
+              "html_instructions": "continue Stamford Road"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 73.9
+              },
+              "duration": {
+                "value": 6.7
+              },
+              "polyline": {
+                "points": "ak|Fy~yxRILSVOTa@l@"
+              },
+              "html_instructions": "new name Orchard Road"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 266.7
+              },
+              "duration": {
+                "value": 26
+              },
+              "polyline": {
+                "points": "qm|Fo{yxRSHSDQ@YCKE}@u@SOGEECAAACCAmAaAe@]WOYQ[Q"
+              },
+              "html_instructions": "turn Prinsep Street"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 631.2
+              },
+              "duration": {
+                "value": 65.2
+              },
+              "polyline": {
+                "points": "{y|FsbzxRC?SGy@Qm@Mu@McAQu@Mm@GWCY?UAe@?_@?w@A_A?eAAS?W?M?c@C[Gk@IIEKCQISIa@Ua@USMUQa@U]S"
+              },
+              "html_instructions": "new name Selegie Road"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 338.1
+              },
+              "duration": {
+                "value": 37.9
+              },
+              "polyline": {
+                "points": "u{}FekzxRYOUKu@a@uAo@IEECEC]SSK[QOKGCIEUMeAo@gBaA"
+              },
+              "html_instructions": "new name Serangoon Road"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 51.4
+              },
+              "duration": {
+                "value": 9
+              },
+              "polyline": {
+                "points": "{k~FiuzxRABYh@S^"
+              },
+              "html_instructions": "turn Belilios Road"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 196
+              },
+              "duration": {
+                "value": 17.6
+              },
+              "polyline": {
+                "points": "km~F{rzxRjA|@TRVRXRFFVRD?D?DCDEBE^i@PY"
+              },
+              "html_instructions": "turn Belilios Lane"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "ie~FypzxR"
+              },
+              "html_instructions": "arrive Kerbau Road"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 3.9
+              },
+              "duration": {
+                "value": 5.9
+              },
+              "polyline": {
+                "points": "ie~FypzxRBE"
+              },
+              "html_instructions": "depart Kerbau Road"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 11.2
+              },
+              "duration": {
+                "value": 4.5
+              },
+              "polyline": {
+                "points": "ee~F_qzxRGCIE"
+              },
+              "html_instructions": "turn Serangoon Road"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 138.2
+              },
+              "duration": {
+                "value": 12.5
+              },
+              "polyline": {
+                "points": "we~FiqzxRHQRc@j@_BVs@HW"
+              },
+              "html_instructions": "turn Upper Dickson Road"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 126.8
+              },
+              "duration": {
+                "value": 13.4
+              },
+              "polyline": {
+                "points": "kb~FkxzxRN[NSfAyA^k@"
+              },
+              "html_instructions": "new name Dickson Road"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 199
+              },
+              "duration": {
+                "value": 18.5
+              },
+              "polyline": {
+                "points": "c~}Fa~zxR^TVPd@ZZVz@t@z@p@FDDDF?J?FE"
+              },
+              "html_instructions": "turn Perak Road"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 144
+              },
+              "duration": {
+                "value": 12.7
+              },
+              "polyline": {
+                "points": "gu}FwwzxRRk@fA}BJe@JU"
+              },
+              "html_instructions": "merge Sungei Road"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 733.1
+              },
+              "duration": {
+                "value": 70.6
+              },
+              "polyline": {
+                "points": "sq}F}~zxRFODGHSRi@BM@_@?c@HgADQBQJUHQ\\k@BCRWLQBEd@q@BI@KDSBGDKFIDGBETULMXSFCBE\\e@NQX_@FI\\c@LQFGjA{Ah@o@b@a@~@y@t@m@FE"
+              },
+              "html_instructions": "new name Ophir Road"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 81
+              },
+              "duration": {
+                "value": 12.6
+              },
+              "polyline": {
+                "points": "{z|F_`|xRQS_@c@m@w@"
+              },
+              "html_instructions": "turn Beach Road"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 94.3
+              },
+              "duration": {
+                "value": 10.6
+              },
+              "polyline": {
+                "points": "{}|Foc|xRGFUP{@n@i@^"
+              },
+              "html_instructions": "turn Arab Street"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 34
+              },
+              "duration": {
+                "value": 8.3
+              },
+              "polyline": {
+                "points": "_b}Fe`|xROQW]"
+              },
+              "html_instructions": "turn Baghdad Street"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 97.8
+              },
+              "duration": {
+                "value": 8.7
+              },
+              "polyline": {
+                "points": "gc}Fua|xREDWRy@j@]TOJBD"
+              },
+              "html_instructions": "turn Muscat Street"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "ig}Fg~{xR"
+              },
+              "html_instructions": "arrive Muscat Street"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 34.5
+              },
+              "duration": {
+                "value": 8.2
+              },
+              "polyline": {
+                "points": "ig}Fg~{xRB@Z`@B@BB@B"
+              },
+              "html_instructions": "depart Muscat Street"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 91.9
+              },
+              "duration": {
+                "value": 13.3
+              },
+              "polyline": {
+                "points": "_f}Fy|{xRt@k@ZWRQXU"
+              },
+              "html_instructions": "turn Arab Street"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 92.5
+              },
+              "duration": {
+                "value": 14.5
+              },
+              "polyline": {
+                "points": "_b}Fe`|xROQW]MUIOCCAEUi@"
+              },
+              "html_instructions": "turn Baghdad Street"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 151.3
+              },
+              "duration": {
+                "value": 18.6
+              },
+              "polyline": {
+                "points": "{d}Fod|xRMHCBOHUNkAx@YRSLSYKM"
+              },
+              "html_instructions": "turn Subhan Street"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 84.3
+              },
+              "duration": {
+                "value": 13.8
+              },
+              "polyline": {
+                "points": "mk}Fsa|xRIFgAr@g@Z"
+              },
+              "html_instructions": "end of road Kandahar Street"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 39
+              },
+              "duration": {
+                "value": 3.5
+              },
+              "polyline": {
+                "points": "go}F{~{xR`@b@HHD@"
+              },
+              "html_instructions": "turn North Bridge Road"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "um}Fk}{xR"
+              },
+              "html_instructions": "arrive North Bridge Road"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 105.6
+              },
+              "duration": {
+                "value": 15.9
+              },
+              "polyline": {
+                "points": "um}Fk}{xRJDr@XPFn@VVHPH"
+              },
+              "html_instructions": "depart North Bridge Road"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 120.2
+              },
+              "duration": {
+                "value": 18.7
+              },
+              "polyline": {
+                "points": "ih}Fwz{xRWVi@h@c@d@i@h@GF"
+              },
+              "html_instructions": "turn Arab Street"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 1210.9
+              },
+              "duration": {
+                "value": 105
+              },
+              "polyline": {
+                "points": "am}F}u{xRHFTPpB~AJHZX`@Zp@j@ZXnBbBNJRRFFRPvAdADBnB`BPNNJ@BxB~ADBVRJHxCzBfBrA^XHDpC`CVRFFRP~@`A\\^\\\\XV\\ZDBfA|@PJ"
+              },
+              "html_instructions": "turn Victoria Street"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 534.6
+              },
+              "duration": {
+                "value": 48.2
+              },
+              "polyline": {
+                "points": "ky{FoizxRRJt@\\zAp@DB@?`@Rn@Xd@Nd@Pl@PPD\\HH@v@VTJF@\\NRHVJB@F@B@d@R`@NFBFBdAf@ZPr@f@DD"
+              },
+              "html_instructions": "new name Hill Street"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 501.2
+              },
+              "duration": {
+                "value": 43.9
+              },
+              "polyline": {
+                "points": "s~zFu{yxRPLPLfBpAB@^XNJb@X~AlAjA`ANL^XJJNJrAfAPLNJv@n@XTB@RP"
+              },
+              "html_instructions": "new name New Bridge Road"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 239.1
+              },
+              "duration": {
+                "value": 27.2
+              },
+              "polyline": {
+                "points": "whzFyiyxRb@@@?RCLG^u@z@iBHS`AwBDI"
+              },
+              "html_instructions": "turn Upper Pickering Street"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 506.8
+              },
+              "duration": {
+                "value": 47.5
+              },
+              "polyline": {
+                "points": "aazFysyxRrAr@zAt@JFjAj@nAj@RJRJ`Af@|@^\\PFDl@Vp@Zx@`@XLPHj@X"
+              },
+              "html_instructions": "turn South Bridge Road"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 17.4
+              },
+              "duration": {
+                "value": 1.6
+              },
+              "polyline": {
+                "points": "ihyFoeyxRNLDD"
+              },
+              "html_instructions": "fork South Bridge Road"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "sgyF{dyxR"
+              },
+              "html_instructions": "arrive South Bridge Road"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 149.6
+              },
+              "duration": {
+                "value": 26.3
+              },
+              "polyline": {
+                "points": "sgyF{dyxRFIDERYLKLKRMTGRIx@UXIPG"
+              },
+              "html_instructions": "depart Erskine Road"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 78.8
+              },
+              "duration": {
+                "value": 9.7
+              },
+              "polyline": {
+                "points": "q`yFeiyxRCCa@e@YUi@]"
+              },
+              "html_instructions": "end of road Ann Siang Road"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 93.7
+              },
+              "duration": {
+                "value": 8.8
+              },
+              "polyline": {
+                "points": "{cyFclyxRa@ToAp@SJIB"
+              },
+              "html_instructions": "continue Ann Siang Road"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 143.7
+              },
+              "duration": {
+                "value": 18
+              },
+              "polyline": {
+                "points": "khyFkiyxRq@_@i@]_Ak@KIGKEGEOEK"
+              },
+              "html_instructions": "turn Club Street"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 93.4
+              },
+              "duration": {
+                "value": 14.8
+              },
+              "polyline": {
+                "points": "mnyFonyxRa@JCBABBTAFMT[n@CF"
+              },
+              "html_instructions": "turn Mohamed Ali Lane"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 29
+              },
+              "duration": {
+                "value": 2.6
+              },
+              "polyline": {
+                "points": "aqyFojyxR\\PFDDB"
+              },
+              "html_instructions": "turn South Bridge Road"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "uoyFsiyxR"
+              },
+              "html_instructions": "arrive South Bridge Road"
+            }
+          ]
+        }
+      ],
+      "bounds": {
+        "northeast": {
+          "lat": 1.3079,
+          "lng": 103.86008
+        },
+        "southwest": {
+          "lat": 1.27986,
+          "lng": 103.84154
+        }
+      }
+    }
+  ],
+  "status": "OK"
+}

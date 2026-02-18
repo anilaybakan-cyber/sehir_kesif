@@ -1,0 +1,164 @@
+{
+  "routes": [
+    {
+      "overview_polyline": {
+        "points": "mtpwFbxsbMPk@DKBIt@{BBKJY@PvBbBFFHFLJbAx@FDLHENu@zBCHCJELABs@vBCFIRIPCDw@pBEJEJCH{@vBCFEJKIyE{DECIGDI|@_CFMBI`AaCHSFQv@gCDKBIt@{BBKJYFSv@iCDKBKv@gCDMBKr@_CBKICmCw@uBm@ICEJi@fB"
+      },
+      "legs": [
+        {
+          "distance": {
+            "value": 1527.9,
+            "text": "1.5 km"
+          },
+          "duration": {
+            "value": 229.4,
+            "text": "3 mins"
+          },
+          "steps": [
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 110.8
+              },
+              "duration": {
+                "value": 22.9
+              },
+              "polyline": {
+                "points": "mtpwFbxsbMPk@DKBIt@{BBKJY"
+              },
+              "html_instructions": "depart Spring Street"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 166.6
+              },
+              "duration": {
+                "value": 26.5
+              },
+              "polyline": {
+                "points": "kqpwF~psbM@PvBbBFFHFLJbAx@FDLH"
+              },
+              "html_instructions": "turn Lafayette Street"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 316.5
+              },
+              "duration": {
+                "value": 45.5
+              },
+              "polyline": {
+                "points": "wipwFzwsbMENu@zBCHCJELABs@vBCFIRIPCDw@pBEJEJCH{@vBCFEJ"
+              },
+              "html_instructions": "turn Broome Street"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 152.5
+              },
+              "duration": {
+                "value": 17.1
+              },
+              "polyline": {
+                "points": "aspwFzktbMKIyE{D"
+              },
+              "html_instructions": "turn Greene Street"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "gzpwFtetbM"
+              },
+              "html_instructions": "arrive Greene Street"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 10.4
+              },
+              "duration": {
+                "value": 5.2
+              },
+              "polyline": {
+                "points": "gzpwFtetbMECIG"
+              },
+              "html_instructions": "depart Greene Street"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 552.6
+              },
+              "duration": {
+                "value": 82.2
+              },
+              "polyline": {
+                "points": "wzpwFhetbMDI|@_CFMBI`AaCHSFQv@gCDKBIt@{BBKJYFSv@iCDKBKv@gCDMBKr@_CBK"
+              },
+              "html_instructions": "turn Spring Street"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 163.1
+              },
+              "duration": {
+                "value": 23.9
+              },
+              "polyline": {
+                "points": "gkpwFzasbMICmCw@uBm@IC"
+              },
+              "html_instructions": "turn Elizabeth Street"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 55.3
+              },
+              "duration": {
+                "value": 6.1
+              },
+              "polyline": {
+                "points": "_tpwFl~rbMEJi@fB"
+              },
+              "html_instructions": "turn Prince Street"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "oupwF`bsbM"
+              },
+              "html_instructions": "arrive Prince Street"
+            }
+          ]
+        }
+      ],
+      "bounds": {
+        "northeast": {
+          "lat": 40.7238,
+          "lng": -73.99415
+        },
+        "southwest": {
+          "lat": 40.72108,
+          "lng": -74.00142
+        }
+      }
+    }
+  ],
+  "status": "OK"
+}

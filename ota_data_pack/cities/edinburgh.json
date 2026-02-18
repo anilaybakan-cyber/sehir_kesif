@@ -1,0 +1,4097 @@
+{
+  "city": "Edinburgh",
+  "country": "İskoçya",
+  "description": "Tarihi kaleleri, Arnavut kaldırımlı sokakları ve edebi mirasıyla büyüleyici bir başkent. Harry Potter'ın doğduğu, festivallerin ve viskinin şehri.",
+  "heroImage": "https://images.contentstack.io/v3/assets/blt06f605a34f1194ff/blt9d8daa2acc7bb33c/6797dc563b4101992b03092a/iStock-1153650218-MOBILE-HEADER.jpg?fit=crop&disable=upscale&auto=webp&quality=60&crop=smart",
+  "coordinates": {
+    "lat": 55.9533,
+    "lng": -3.1883
+  },
+  "highlights": [
+    {
+      "name": "Edinburgh Kalesi",
+      "area": "Old Town",
+      "category": "Tarihi",
+      "subcategory": "Tarihi",
+      "tags": [
+        "old town",
+        "edinburgh",
+        "tarihi"
+      ],
+      "distanceFromCenter": 0,
+      "lat": 55.9485947,
+      "lng": -3.1999135,
+      "price": "medium",
+      "rating": 4.6,
+      "description": "Kraliyet Mücevherleri ve İskoçya Ulusal Savaş Müzesi'ne ev sahipliği yapan, 11. yüzyıldan kalma kale ve kışla.",
+      "bestTime": "Sabah",
+      "bestFor": [
+        "herkes"
+      ],
+      "source": "google",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/edinburgh_kalesi.jpg",
+      "tips": "Yapı içerisindeki akustik harika, sessizliği dinleyin.",
+      "description_en": "Edinburgh Kalesi is a highlight of Edinburgh in the Old Town area.",
+      "tips_en": "The acoustics inside satisfy; listen to the silence."
+    },
+    {
+      "name": "Holyrood Sarayı",
+      "area": "Canongate",
+      "category": "Tarihi",
+      "subcategory": "Tarihi",
+      "tags": [
+        "canongate",
+        "edinburgh",
+        "tarihi"
+      ],
+      "distanceFromCenter": 0,
+      "lat": 55.9527138,
+      "lng": -3.1722724,
+      "price": "medium",
+      "rating": 4.6,
+      "description": "16. yüzyıldan kalma bu Stuart Hanedanı sarayındaki kraliyet davet salonları, antikalar ve yadigar eşyalar turlarla görülebilir.",
+      "bestTime": "Sabah",
+      "bestFor": [
+        "herkes"
+      ],
+      "source": "google",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/holyrood_sarayi.jpg",
+      "tips": "Fotoğraf çekimi için en iyi ışık gün batımına yakındır.",
+      "description_en": "Holyrood Sarayı is a highlight of Edinburgh in the Canongate area.",
+      "tips_en": "Best light for photography is near sunset."
+    },
+    {
+      "name": "İskoçya Ulusal Müzesi",
+      "area": "Old Town",
+      "category": "Müze",
+      "subcategory": "Müze",
+      "tags": [
+        "old town",
+        "edinburgh",
+        "müze"
+      ],
+      "distanceFromCenter": 0,
+      "lat": 55.9469995,
+      "lng": -3.1905666,
+      "price": "medium",
+      "rating": 4.8,
+      "description": "İskoç sanayi tarihini yansıtan eserlere, doğa tarihi sergilerine ve bir kafeye ev sahipliği yapan modern müze.",
+      "bestTime": "Sabah",
+      "bestFor": [
+        "herkes"
+      ],
+      "source": "google",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/iskocya_ulusal_muzesi.jpg",
+      "tips": "Biletinizi online alarak gişe sırasından kurtulun.",
+      "description_en": "İskoçya Ulusal Müzesi is a highlight of Edinburgh in the Old Town area.",
+      "tips_en": "Buy tickets online to skip the box office line."
+    },
+    {
+      "name": "St Giles Katedrali",
+      "area": "Royal Mile",
+      "category": "Tarihi",
+      "subcategory": "Tarihi",
+      "tags": [
+        "royal mile",
+        "edinburgh",
+        "tarihi"
+      ],
+      "distanceFromCenter": 0,
+      "lat": 55.94948369999999,
+      "lng": -3.1908918,
+      "price": "medium",
+      "rating": 4.6,
+      "description": "Geçmişte John Knox'un vaaz verdiği, Orta Çağ'dan kalma heybetli Gotik yapı ve Presbiteryen ibadethanesi.",
+      "bestTime": "Sabah",
+      "bestFor": [
+        "herkes"
+      ],
+      "source": "google",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/st_giles_katedrali.jpg",
+      "tips": "Rehberli turla gezmek detayları anlamak için çok daha verimli.",
+      "description_en": "St Giles Katedrali is a highlight of Edinburgh in the Royal Mile area.",
+      "tips_en": "A guided tour is much more efficient to understand the details."
+    },
+    {
+      "name": "Scott Anıtı",
+      "area": "Princes Street Gardens",
+      "category": "Tarihi",
+      "subcategory": "Tarihi",
+      "tags": [
+        "princes street gardens",
+        "edinburgh",
+        "tarihi"
+      ],
+      "distanceFromCenter": 0,
+      "lat": 55.952381,
+      "lng": -3.1932741,
+      "price": "medium",
+      "rating": 4.7,
+      "description": "Yazar Sir Walter Scott onuruna inşa edilmiş 287 basamağı bulunan, sivri uçlu, Viktoryen anıt.",
+      "bestTime": "Sabah",
+      "bestFor": [
+        "herkes"
+      ],
+      "source": "google",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/scott_aniti.jpg",
+      "tips": "Sabah erken saatlerde giderek turist kalabalığından kaçınabilirsiniz.",
+      "description_en": "Scott Anıtı is a highlight of Edinburgh in the Princes Street Gardens area.",
+      "tips_en": "Go early in the morning to avoid tourist crowds."
+    },
+    {
+      "name": "The Real Mary King's Close",
+      "area": "Royal Mile",
+      "category": "Tarihi",
+      "subcategory": "Tarihi",
+      "tags": [
+        "royal mile",
+        "edinburgh",
+        "tarihi"
+      ],
+      "distanceFromCenter": 0,
+      "lat": 55.9499186,
+      "lng": -3.1905105,
+      "price": "medium",
+      "rating": 4.6,
+      "description": "Kostümlü tur rehberlerinin anlattığı hikayeler eşliğinde, şehrin altında gizli labirent sokaklarda yürüyüş turları.",
+      "bestTime": "Sabah",
+      "bestFor": [
+        "herkes"
+      ],
+      "source": "google",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/the_real_mary_kings_close.jpg",
+      "tips": "Rehberli turla gezmek detayları anlamak için çok daha verimli.",
+      "description_en": "The Real Mary King's Close is a highlight of Edinburgh in the Royal Mile area.",
+      "tips_en": "A guided tour is much more efficient to understand the details."
+    },
+    {
+      "name": "İskoçya Ulusal Galerisi",
+      "area": "The Mound",
+      "category": "Müze",
+      "subcategory": "Müze",
+      "tags": [
+        "the mound",
+        "edinburgh",
+        "müze"
+      ],
+      "distanceFromCenter": 0,
+      "lat": 55.950902,
+      "lng": -3.1956862,
+      "price": "medium",
+      "rating": 4.6,
+      "description": "Avrupa'dan şaheserler ile İskoç eserlerini içeren ulusal koleksiyon ve mevsimlik sergiler.",
+      "bestTime": "Sabah",
+      "bestFor": [
+        "herkes"
+      ],
+      "source": "google",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/iskocya_ulusal_galerisi.jpg",
+      "tips": "Sesli rehber (audio guide) kiralamak deneyimi ikiye katlar.",
+      "description_en": "İskoçya Ulusal Galerisi is a highlight of Edinburgh in the The Mound area.",
+      "tips_en": "Renting an audio guide doubles the experience."
+    },
+    {
+      "name": "Camera Obscura",
+      "area": "Royal Mile",
+      "category": "Müze",
+      "subcategory": "Müze",
+      "tags": [
+        "royal mile",
+        "edinburgh",
+        "müze"
+      ],
+      "distanceFromCenter": 0,
+      "lat": 55.9489544,
+      "lng": -3.1956707,
+      "price": "medium",
+      "rating": 4.6,
+      "description": "İlginç optik illüzyonlardan oluşan etkileşimli sergilerin yer aldığı 5 katlı tarihi kule.",
+      "bestTime": "Sabah",
+      "bestFor": [
+        "herkes"
+      ],
+      "source": "google",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/camera_obscura.jpg",
+      "tips": "Çantanızı vestiyere bırakmanız gerekebilir, hazırlıklı olun.",
+      "description_en": "Camera Obscura is a highlight of Edinburgh in the Royal Mile area.",
+      "tips_en": "You might need to leave bags at the cloakroom, be prepared."
+    },
+    {
+      "name": "Writers' Museum",
+      "area": "Royal Mile",
+      "category": "Müze",
+      "subcategory": "Müze",
+      "tags": [
+        "royal mile",
+        "edinburgh",
+        "müze"
+      ],
+      "distanceFromCenter": 0,
+      "lat": 55.94970799999999,
+      "lng": -3.1937388,
+      "price": "medium",
+      "rating": 4.4,
+      "description": "Manuscripts and personal effects of Burns, Scott and Stevenson, exhibited in a 17th-century house.",
+      "bestTime": "Sabah",
+      "bestFor": [
+        "herkes"
+      ],
+      "source": "google",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/writers_museum.jpg",
+      "tips": "Bazı günler giriş ücretsiz olabilir, web sitesini kontrol edin.",
+      "description_en": "Writers' Museum is a highlight of Edinburgh in the Royal Mile area.",
+      "tips_en": "Entry might be free on some days, check the website."
+    },
+    {
+      "name": "Surgeons' Hall Museums",
+      "area": "South Bridge",
+      "category": "Müze",
+      "subcategory": "Müze",
+      "tags": [
+        "south bridge",
+        "edinburgh",
+        "müze"
+      ],
+      "distanceFromCenter": 0,
+      "lat": 55.9465812,
+      "lng": -3.1852053,
+      "price": "medium",
+      "rating": 4.7,
+      "description": "18. yüzyıldan kalma anatomi modelleri ile gezici tıp sergilerine ev sahipliği yapan 1832'de inşa edilmiş klasik yapı.",
+      "bestTime": "Sabah",
+      "bestFor": [
+        "herkes"
+      ],
+      "source": "google",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/surgeons_hall_museums.jpg",
+      "tips": "Bazı günler giriş ücretsiz olabilir, web sitesini kontrol edin.",
+      "description_en": "Surgeons' Hall Museums is a highlight of Edinburgh in the South Bridge area.",
+      "tips_en": "Entry might be free on some days, check the website."
+    },
+    {
+      "name": "Arthur's Seat",
+      "area": "Holyrood Park",
+      "category": "Manzara",
+      "subcategory": "Manzara",
+      "tags": [
+        "holyrood park",
+        "edinburgh",
+        "manzara"
+      ],
+      "distanceFromCenter": 0,
+      "lat": 55.94408250000001,
+      "lng": -3.1618324,
+      "price": "low",
+      "rating": 4.8,
+      "description": "Ortadan ileri seviyeye farklı yürüyüş rotaları bulunan, panoramik şehir ve Forth Halici manzarası seyredilen dağ.",
+      "bestTime": "Akşam",
+      "bestFor": [
+        "herkes"
+      ],
+      "source": "google",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/arthurs_seat.jpg",
+      "tips": "Akşam saatlerinde şehir ışıklarını izlemek çok romantik.",
+      "description_en": "Arthur's Seat is a highlight of Edinburgh in the Holyrood Park area.",
+      "tips_en": "Watching city lights in the evening is very romantic."
+    },
+    {
+      "name": "Calton Hill",
+      "area": "Calton",
+      "category": "Manzara",
+      "subcategory": "Manzara",
+      "tags": [
+        "calton",
+        "edinburgh",
+        "manzara"
+      ],
+      "distanceFromCenter": 0,
+      "lat": 55.9550465,
+      "lng": -3.1827409,
+      "price": "low",
+      "rating": 4.8,
+      "description": "Şehrin ve Edinburgh Kalesi'nin engin manzaralarını sunan, Neoklasik tarzda anıtların yer aldığı ünlü tepe.",
+      "bestTime": "Akşam",
+      "bestFor": [
+        "herkes"
+      ],
+      "source": "google",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/calton_hill.jpg",
+      "tips": "Panoramik fotoğraf için geniş açı lensinizi hazırlayın.",
+      "description_en": "Calton Hill is a highlight of Edinburgh in the Calton area.",
+      "tips_en": "Prepare your wide-angle lens for panoramic photos."
+    },
+    {
+      "name": "Princes Street Bahçeleri",
+      "area": "City Centre",
+      "category": "Park",
+      "subcategory": "Park",
+      "tags": [
+        "city centre",
+        "edinburgh",
+        "park"
+      ],
+      "distanceFromCenter": 0,
+      "lat": 55.9509847,
+      "lng": -3.1985487,
+      "price": "low",
+      "rating": 4.7,
+      "description": "Halka açık alanlarda anıtların ve heykellerin bulunduğu, jeoloji ve botanik açıdan ilgi odağı olan Yeşil Bayraklı park.",
+      "bestTime": "Akşam",
+      "bestFor": [
+        "herkes"
+      ],
+      "source": "google",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/princes_street_bahceleri.jpg",
+      "tips": "Yürüyüş ayakkabısı giymeniz önerilir.",
+      "description_en": "Princes Street Bahçeleri is a highlight of Edinburgh in the City Centre area.",
+      "tips_en": "Walking shoes are recommended."
+    },
+    {
+      "name": "Royal Botanic Garden",
+      "area": "Inverleith",
+      "category": "Park",
+      "subcategory": "Park",
+      "tags": [
+        "inverleith",
+        "edinburgh",
+        "park"
+      ],
+      "distanceFromCenter": 0,
+      "lat": 55.9650125,
+      "lng": -3.2091021,
+      "price": "low",
+      "rating": 4.7,
+      "description": "Palmiye serası, geçici sergiler, çocuk etkinlikleri, turlar ve kafelere sahip 28 hektarlık bakımlı bahçe.",
+      "bestTime": "Akşam",
+      "bestFor": [
+        "herkes"
+      ],
+      "source": "google",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/royal_botanic_garden.jpg",
+      "tips": "Güneş kremi ve şapka almayı unutmayın.",
+      "description_en": "Royal Botanic Garden is a highlight of Edinburgh in the Inverleith area.",
+      "tips_en": "Don't forget sunscreen and a hat."
+    },
+    {
+      "name": "Water of Leith",
+      "area": "Leith",
+      "category": "Park",
+      "subcategory": "Park",
+      "tags": [
+        "leith",
+        "edinburgh",
+        "park"
+      ],
+      "distanceFromCenter": 0,
+      "lat": 55.95184,
+      "lng": -3.2180597,
+      "price": "low",
+      "rating": 4.7,
+      "description": "12-mile path that runs alongside the small Water of Leith river & popular with walkers & cyclists.",
+      "bestTime": "Akşam",
+      "bestFor": [
+        "herkes"
+      ],
+      "source": "google",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/water_of_leith.jpg",
+      "tips": "Yürüyüş ayakkabısı giymeniz önerilir.",
+      "description_en": "Water of Leith is a highlight of Edinburgh in the Leith area.",
+      "tips_en": "Walking shoes are recommended."
+    },
+    {
+      "name": "Royal Mile",
+      "area": "Old Town",
+      "category": "Deneyim",
+      "subcategory": "Deneyim",
+      "tags": [
+        "old town",
+        "edinburgh",
+        "deneyim"
+      ],
+      "distanceFromCenter": 0,
+      "lat": 55.9501093,
+      "lng": -3.188021,
+      "price": "medium",
+      "rating": 4.7,
+      "description": "Edinburgh Kalesi ile Holyrood Sarayı'nı birbirine bağlayan, sıra dışı restoranlar ve mağazalarla bezeli, hareketli cadde.",
+      "bestTime": "Akşam",
+      "bestFor": [
+        "herkes"
+      ],
+      "source": "google",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/royal_mile.jpg",
+      "tips": "Kıyafetinizin aktiviteye uygun olduğundan emin olun.",
+      "description_en": "Royal Mile is a highlight of Edinburgh in the Old Town area.",
+      "tips_en": "Ensure your outfit is suitable for the activity."
+    },
+    {
+      "name": "Victoria Street",
+      "area": "Old Town",
+      "category": "Alışveriş",
+      "subcategory": "Alışveriş",
+      "tags": [
+        "old town",
+        "edinburgh",
+        "alışveriş"
+      ],
+      "distanceFromCenter": 0,
+      "lat": 55.9487342,
+      "lng": -3.1931981,
+      "price": "medium",
+      "rating": 4.5,
+      "description": "Charming street built in the 1800s featuring quaint, old-fashioned landmarks, shops & eateries.",
+      "bestTime": "Akşam",
+      "bestFor": [
+        "herkes"
+      ],
+      "source": "google",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/victoria_street.jpg",
+      "tips": "Pazarlık yapmayı deneyebilirsiniz (nazikçe).",
+      "description_en": "Victoria Street is a highlight of Edinburgh in the Old Town area.",
+      "tips_en": "You might try bargaining (politely)."
+    },
+    {
+      "name": "Grassmarket",
+      "area": "Old Town",
+      "category": "Deneyim",
+      "subcategory": "Deneyim",
+      "tags": [
+        "old town",
+        "edinburgh",
+        "deneyim"
+      ],
+      "distanceFromCenter": 0,
+      "lat": 55.9473405,
+      "lng": -3.1961492,
+      "price": "medium",
+      "rating": 4.7,
+      "description": "Barlar, butikler ve restoranlarla 15. yüzyıldan kalma eski hayvan pazarının yer aldığı, Eski Kent bölgesinde bulunan yokuşlu cadde.",
+      "bestTime": "Akşam",
+      "bestFor": [
+        "herkes"
+      ],
+      "source": "google",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/grassmarket.jpg",
+      "tips": "Fotoğraf makinenizin şarjının dolu olduğundan emin olun.",
+      "description_en": "Grassmarket is a highlight of Edinburgh in the Old Town area.",
+      "tips_en": "Make sure your camera battery is full."
+    },
+    {
+      "name": "Leith Limanı",
+      "area": "Leith",
+      "category": "Deneyim",
+      "subcategory": "Deneyim",
+      "tags": [
+        "leith",
+        "edinburgh",
+        "deneyim"
+      ],
+      "distanceFromCenter": 0,
+      "lat": 55.9774782,
+      "lng": -3.1690745,
+      "price": "medium",
+      "rating": 4.7,
+      "description": "Casual seafood bistro offering fish entrees & shellfish specialties in a polished environment.",
+      "bestTime": "Akşam",
+      "bestFor": [
+        "herkes"
+      ],
+      "source": "google",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/leith_limani.jpg",
+      "tips": "Fotoğraf makinenizin şarjının dolu olduğundan emin olun.",
+      "description_en": "Leith Limanı is a highlight of Edinburgh in the Leith area.",
+      "tips_en": "Make sure your camera battery is full."
+    },
+    {
+      "name": "Royal Yacht Britannia",
+      "area": "Leith",
+      "category": "Deneyim",
+      "subcategory": "Deneyim",
+      "tags": [
+        "leith",
+        "edinburgh",
+        "deneyim"
+      ],
+      "distanceFromCenter": 0,
+      "lat": 55.9821554,
+      "lng": -3.1772521,
+      "price": "medium",
+      "rating": 4.7,
+      "description": "İngiliz kraliyet ailesi tarafından 40 yıldan uzun süredir resmi devlet ziyaretleri için kullanılan büyük gemi.",
+      "bestTime": "Akşam",
+      "bestFor": [
+        "herkes"
+      ],
+      "source": "google",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/royal_yacht_britannia.jpg",
+      "tips": "Rehbere soru sormaktan çekinmeyin, çok ilginç hikayeler biliyorlar.",
+      "description_en": "Royal Yacht Britannia is a highlight of Edinburgh in the Leith area.",
+      "tips_en": "Don't hesitate to ask the guide questions, they know interesting stories."
+    },
+    {
+      "name": "Greyfriars Kirkyard",
+      "area": "Candlemaker Row",
+      "category": "Tarihi",
+      "subcategory": "Tarihi",
+      "tags": [
+        "candlemaker row",
+        "edinburgh",
+        "tarihi"
+      ],
+      "distanceFromCenter": 0,
+      "lat": 55.94667399999999,
+      "lng": -3.1921255,
+      "price": "medium",
+      "rating": 4.7,
+      "description": "Sadakatiyle tanınan Greyfriars Bobby adlı köpeğin hikayesinin anlatıldığı, mağazası ve müzesi bulunan kilise.",
+      "bestTime": "Sabah",
+      "bestFor": [
+        "herkes"
+      ],
+      "source": "google",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/greyfriars_kirkyard.jpg",
+      "tips": "Fotoğraf çekimi için en iyi ışık gün batımına yakındır.",
+      "description_en": "Greyfriars Kirkyard is a highlight of Edinburgh in the Candlemaker Row area.",
+      "tips_en": "Best light for photography is near sunset."
+    },
+    {
+      "name": "Edinburgh Dungeon",
+      "area": "Market Street",
+      "category": "Deneyim",
+      "subcategory": "Deneyim",
+      "tags": [
+        "market street",
+        "edinburgh",
+        "deneyim"
+      ],
+      "distanceFromCenter": 0,
+      "lat": 55.9511358,
+      "lng": -3.1909243,
+      "price": "medium",
+      "rating": 4.5,
+      "description": "2 yer altı turu ve 11 canlı gösteri ile 1.000 yıllık İskoç tarihinin anlatıldığı 80 dakikalık tur.",
+      "bestTime": "Akşam",
+      "bestFor": [
+        "herkes"
+      ],
+      "source": "google",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/edinburgh_dungeon.jpg",
+      "tips": "Grup indirimi olup olmadığını sorun.",
+      "description_en": "Edinburgh Dungeon is a highlight of Edinburgh in the Market Street area.",
+      "tips_en": "Ask if there is a group discount."
+    },
+    {
+      "name": "Scotch Whisky Experience",
+      "area": "Royal Mile",
+      "category": "Deneyim",
+      "subcategory": "Deneyim",
+      "tags": [
+        "royal mile",
+        "edinburgh",
+        "deneyim"
+      ],
+      "distanceFromCenter": 0,
+      "lat": 55.9487452,
+      "lng": -3.1958982,
+      "price": "medium",
+      "rating": 4.7,
+      "description": "Long-running attraction for a journey through the world of Scotch whisky with tours, a shop & a restaurant.",
+      "bestTime": "Akşam",
+      "bestFor": [
+        "herkes"
+      ],
+      "source": "google",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/scotch_whisky_experience.jpg",
+      "tips": "Rehbere soru sormaktan çekinmeyin, çok ilginç hikayeler biliyorlar.",
+      "description_en": "Scotch Whisky Experience is a highlight of Edinburgh in the Royal Mile area.",
+      "tips_en": "Don't hesitate to ask the guide questions, they know interesting stories."
+    },
+    {
+      "name": "The Witchery by the Castle",
+      "area": "Royal Mile",
+      "category": "Restoran",
+      "subcategory": "Restoran",
+      "tags": [
+        "royal mile",
+        "edinburgh",
+        "restoran"
+      ],
+      "distanceFromCenter": 0,
+      "lat": 55.9488309,
+      "lng": -3.1956363,
+      "price": "medium",
+      "rating": 4.3,
+      "description": "Opulent landmark restaurant with lavish suites, an oak-panelled dining room & a seasonal terrace.",
+      "bestTime": "Akşam",
+      "bestFor": [
+        "herkes"
+      ],
+      "source": "google",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/the_witchery_by_the_castle.png",
+      "tips": "Şefin spesiyal tabağını sormaktan çekinmeyin.",
+      "description_en": "The Witchery by the Castle is a highlight of Edinburgh in the Royal Mile area.",
+      "tips_en": "Don't hesitate to ask for the chef's special."
+    },
+    {
+      "name": "Dishoom Edinburgh",
+      "area": "St Andrew Square",
+      "category": "Restoran",
+      "subcategory": "Restoran",
+      "tags": [
+        "st andrew square",
+        "edinburgh",
+        "restoran"
+      ],
+      "distanceFromCenter": 0,
+      "lat": 55.953595,
+      "lng": -3.192542,
+      "price": "medium",
+      "rating": 4.8,
+      "description": "Dishoom Edinburgh, İskoç mutfağının modern yorumlarını tadabileceğiniz şık bir mekan. St Andrew Square bölgesindeki bu restoran, yerel malzemelerle hazırlanan lezzetli menüsüyle dikkat çekiyor.",
+      "bestTime": "Akşam",
+      "bestFor": [
+        "herkes"
+      ],
+      "source": "google",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/dishoom_edinburgh.jpg",
+      "tips": "Yerel şarapları denemenizi öneririz.",
+      "description_en": "Dishoom Edinburgh is a highlight of Edinburgh in the St Andrew Square area.",
+      "tips_en": "We recommend trying local wines."
+    },
+    {
+      "name": "The Kitchin",
+      "area": "Leith",
+      "category": "Restoran",
+      "subcategory": "Restoran",
+      "tags": [
+        "leith",
+        "edinburgh",
+        "restoran"
+      ],
+      "distanceFromCenter": 0,
+      "lat": 55.97693599999999,
+      "lng": -3.1726519,
+      "price": "medium",
+      "rating": 4.8,
+      "description": "Tom Kitchin uses French techniques on Scottish produce in refined, chic converted whisky warehouse.",
+      "bestTime": "Akşam",
+      "bestFor": [
+        "herkes"
+      ],
+      "source": "google",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/the_kitchin.jpg",
+      "tips": "Şefin spesiyal tabağını sormaktan çekinmeyin.",
+      "description_en": "The Kitchin is a highlight of Edinburgh in the Leith area.",
+      "tips_en": "Don't hesitate to ask for the chef's special."
+    },
+    {
+      "name": "Makars Gourmet Mash Bar",
+      "area": "Mound",
+      "category": "Restoran",
+      "subcategory": "Restoran",
+      "tags": [
+        "mound",
+        "edinburgh",
+        "restoran"
+      ],
+      "distanceFromCenter": 0,
+      "lat": 55.9499436,
+      "lng": -3.1930825,
+      "price": "medium",
+      "rating": 4.8,
+      "description": "Unfussy restaurant specialising in mashed potatoes flavoured with meat or vegetarian toppings.",
+      "bestTime": "Akşam",
+      "bestFor": [
+        "herkes"
+      ],
+      "source": "google",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/makars_gourmet_mash_bar.png",
+      "tips": "Akşam yemeği için rezervasyon yaptırmak şart.",
+      "description_en": "Makars Gourmet Mash Bar is a highlight of Edinburgh in the Mound area.",
+      "tips_en": "Reservation is a must for dinner."
+    },
+    {
+      "name": "Oink",
+      "area": "Victoria Street",
+      "category": "Restoran",
+      "subcategory": "Restoran",
+      "tags": [
+        "victoria street",
+        "edinburgh",
+        "restoran"
+      ],
+      "distanceFromCenter": 0,
+      "lat": 55.948607,
+      "lng": -3.1942404,
+      "price": "medium",
+      "rating": 4.5,
+      "description": "Simple joint serving Scottish hog roasts in a roll with sauces, with basic seating or take away.",
+      "bestTime": "Akşam",
+      "bestFor": [
+        "herkes"
+      ],
+      "source": "google",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/oink.jpg",
+      "tips": "Şefin spesiyal tabağını sormaktan çekinmeyin.",
+      "description_en": "Oink is a highlight of Edinburgh in the Victoria Street area.",
+      "tips_en": "Don't hesitate to ask for the chef's special."
+    },
+    {
+      "name": "Howies",
+      "area": "Victoria Street",
+      "category": "Restoran",
+      "subcategory": "Restoran",
+      "tags": [
+        "victoria street",
+        "edinburgh",
+        "restoran"
+      ],
+      "distanceFromCenter": 0,
+      "lat": 55.9488707,
+      "lng": -3.1934483,
+      "price": "medium",
+      "rating": 4.4,
+      "description": "Mevsime özel yöresel ürünlerle hazırlanan lezzetlerin servis edildiği, rahat atmosfere sahip, ferah ve keyifli mekan.",
+      "bestTime": "Akşam",
+      "bestFor": [
+        "herkes"
+      ],
+      "source": "google",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/howies.jpg",
+      "tips": "Akşam yemeği için rezervasyon yaptırmak şart.",
+      "description_en": "Howies is a highlight of Edinburgh in the Victoria Street area.",
+      "tips_en": "Reservation is a must for dinner."
+    },
+    {
+      "name": "Aizle",
+      "area": "Charlotte Square",
+      "category": "Restoran",
+      "subcategory": "Restoran",
+      "tags": [
+        "charlotte square",
+        "edinburgh",
+        "restoran"
+      ],
+      "distanceFromCenter": 0,
+      "lat": 55.9517166,
+      "lng": -3.2059516,
+      "price": "medium",
+      "rating": 4.7,
+      "description": "Locally inspired and seasonal tasting menus in a refined dining room with a countryside vibe.",
+      "bestTime": "Akşam",
+      "bestFor": [
+        "herkes"
+      ],
+      "source": "google",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/aizle.jpg",
+      "tips": "Yerel şarapları denemenizi öneririz.",
+      "description_en": "Aizle is a highlight of Edinburgh in the Charlotte Square area.",
+      "tips_en": "We recommend trying local wines."
+    },
+    {
+      "name": "Angels with Bagpipes",
+      "area": "Royal Mile",
+      "category": "Restoran",
+      "subcategory": "Restoran",
+      "tags": [
+        "royal mile",
+        "edinburgh",
+        "restoran"
+      ],
+      "distanceFromCenter": 0,
+      "lat": 55.9498445,
+      "lng": -3.1910619,
+      "price": "medium",
+      "rating": 4.5,
+      "description": "Lush decor in a 16th-century building creates intimate mood for stylish Scottish fine dining.",
+      "bestTime": "Akşam",
+      "bestFor": [
+        "herkes"
+      ],
+      "source": "google",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/angels_with_bagpipes.jpg",
+      "tips": "Nakite hazırlıklı olun, bazı yerel yerler kart kabul etmeyebilir.",
+      "description_en": "Angels with Bagpipes is a highlight of Edinburgh in the Royal Mile area.",
+      "tips_en": "Be prepared with cash, some local places might not accept cards."
+    },
+    {
+      "name": "The Elephant House",
+      "area": "George IV Bridge",
+      "category": "Cafe",
+      "subcategory": "Cafe",
+      "tags": [
+        "george iv bridge",
+        "edinburgh",
+        "cafe"
+      ],
+      "distanceFromCenter": 0,
+      "lat": 55.9475928,
+      "lng": -3.1917871,
+      "price": "medium",
+      "rating": 3.9,
+      "description": "JK Rowling wrote the Potter books over coffee and cake in this relaxed writer/reader-friendly cafe.",
+      "bestTime": "Akşam",
+      "bestFor": [
+        "herkes"
+      ],
+      "source": "google",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/the_elephant_house.png",
+      "tips": "Yerel halkın favori noktalarından biri.",
+      "description_en": "The Elephant House is a highlight of Edinburgh in the George IV Bridge area.",
+      "tips_en": "One of the favorite spots of the locals."
+    },
+    {
+      "name": "The Milkman",
+      "area": "Cockburn Street",
+      "category": "Cafe",
+      "subcategory": "Cafe",
+      "tags": [
+        "cockburn street",
+        "edinburgh",
+        "cafe"
+      ],
+      "distanceFromCenter": 0,
+      "lat": 55.95068999999999,
+      "lng": -3.1909247,
+      "price": "medium",
+      "rating": 4.5,
+      "description": "Warm option offering thoughtfully sourced coffee & pastries in a restored brick-walled candy shop.",
+      "bestTime": "Akşam",
+      "bestFor": [
+        "herkes"
+      ],
+      "source": "google",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/the_milkman.jpg",
+      "tips": "Hafta içi ziyaret etmek daha sakin bir deneyim sunar.",
+      "description_en": "The Milkman is a highlight of Edinburgh in the Cockburn Street area.",
+      "tips_en": "Visiting on weekdays offers a calmer experience."
+    },
+    {
+      "name": "Cairngorm Coffee",
+      "area": "Melville Place",
+      "category": "Cafe",
+      "subcategory": "Cafe",
+      "tags": [
+        "melville place",
+        "edinburgh",
+        "cafe"
+      ],
+      "distanceFromCenter": 0,
+      "lat": 55.9512015,
+      "lng": -3.2110444,
+      "price": "medium",
+      "rating": 4.4,
+      "description": "Modern, white-walled shop serving specialty coffee sips, sweets & grilled cheese sandwiches.",
+      "bestTime": "Akşam",
+      "bestFor": [
+        "herkes"
+      ],
+      "source": "google",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/cairngorm_coffee.jpg",
+      "tips": "Yerel halkın favori noktalarından biri.",
+      "description_en": "Cairngorm Coffee is a highlight of Edinburgh in the Melville Place area.",
+      "tips_en": "One of the favorite spots of the locals."
+    },
+    {
+      "name": "World's End",
+      "area": "Royal Mile",
+      "category": "Bar",
+      "subcategory": "Bar",
+      "tags": [
+        "royal mile",
+        "edinburgh",
+        "bar"
+      ],
+      "distanceFromCenter": 0,
+      "lat": 55.9505133,
+      "lng": -3.1843864,
+      "price": "medium",
+      "rating": 4.5,
+      "description": "A friendly, spacious local serving up cask ales and an extensive menu featuring speciality burgers.",
+      "bestTime": "Akşam",
+      "bestFor": [
+        "herkes"
+      ],
+      "source": "google",
+      "heroImage": "https://images.contentstack.io/v3/assets/blt06f605a34f1194ff/blt9d8daa2acc7bb33c/6797dc563b4101992b03092a/iStock-1153650218-MOBILE-HEADER.jpg?fit=crop&disable=upscale&auto=webp&quality=60&crop=smart",
+      "tips": "Çevredeki küçük hediyelik eşya dükkanlarına da uğrayın.",
+      "description_en": "World's End is a highlight of Edinburgh in the Royal Mile area.",
+      "tips_en": "Stop by the small souvenir shops around."
+    },
+    {
+      "name": "The Last Drop",
+      "area": "Grassmarket",
+      "category": "Bar",
+      "subcategory": "Bar",
+      "tags": [
+        "grassmarket",
+        "edinburgh",
+        "bar"
+      ],
+      "distanceFromCenter": 0,
+      "lat": 55.94785719999999,
+      "lng": -3.1952767,
+      "price": "medium",
+      "rating": 4.4,
+      "description": "Atmospheric pub serving range of real ales and Scottish dishes next to the old execution site.",
+      "bestTime": "Akşam",
+      "bestFor": [
+        "herkes"
+      ],
+      "source": "google",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/the_last_drop.jpg",
+      "tips": "Google Maps yorumlarına göz atarak ne yiyeceğinize karar verin.",
+      "description_en": "The Last Drop is a highlight of Edinburgh in the Grassmarket area.",
+      "tips_en": "Decide what to eat by checking Google Maps reviews."
+    },
+    {
+      "name": "Panda & Sons",
+      "area": "Queen Street",
+      "category": "Bar",
+      "subcategory": "Bar",
+      "tags": [
+        "queen street",
+        "edinburgh",
+        "bar"
+      ],
+      "distanceFromCenter": 0,
+      "lat": 55.9532489,
+      "lng": -3.2069456,
+      "price": "medium",
+      "rating": 4.6,
+      "description": "Dark, vintage, speakeasy-inspired bar offering a robust wine list, inventive cocktails & craft beer.",
+      "bestTime": "Akşam",
+      "bestFor": [
+        "herkes"
+      ],
+      "source": "google",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/panda_and_sons.jpg",
+      "tips": "Google Maps yorumlarına göz atarak ne yiyeceğinize karar verin.",
+      "description_en": "Panda & Sons is a highlight of Edinburgh in the Queen Street area.",
+      "tips_en": "Decide what to eat by checking Google Maps reviews."
+    },
+    {
+      "name": "Sandy Bell's",
+      "area": "Forrest Road",
+      "category": "Bar",
+      "subcategory": "Bar",
+      "tags": [
+        "forrest road",
+        "edinburgh",
+        "bar"
+      ],
+      "distanceFromCenter": 0,
+      "lat": 55.946084,
+      "lng": -3.19128,
+      "price": "medium",
+      "rating": 4.5,
+      "description": "Small, friendly local with real ales, plentiful malts and live Scottish folk music most nights.",
+      "bestTime": "Akşam",
+      "bestFor": [
+        "herkes"
+      ],
+      "source": "google",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/sandy_bells.jpg",
+      "tips": "Google Maps yorumlarına göz atarak ne yiyeceğinize karar verin.",
+      "description_en": "Sandy Bell's is a highlight of Edinburgh in the Forrest Road area.",
+      "tips_en": "Decide what to eat by checking Google Maps reviews."
+    },
+    {
+      "name": "The Dome",
+      "area": "George Street",
+      "category": "Bar",
+      "subcategory": "Bar",
+      "tags": [
+        "george street",
+        "edinburgh",
+        "bar"
+      ],
+      "distanceFromCenter": 0,
+      "lat": 55.95366,
+      "lng": -3.195608,
+      "price": "medium",
+      "rating": 4.6,
+      "description": "Corinthian columns, marble bars and palms in separate rooms for fine dining, light lunches or teas.",
+      "bestTime": "Akşam",
+      "bestFor": [
+        "herkes"
+      ],
+      "source": "google",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/the_dome.jpg",
+      "tips": "Google Maps yorumlarına göz atarak ne yiyeceğinize karar verin.",
+      "description_en": "The Dome is a highlight of Edinburgh in the George Street area.",
+      "tips_en": "Decide what to eat by checking Google Maps reviews."
+    },
+    {
+      "name": "Jenners",
+      "area": "Princes Street",
+      "category": "Alışveriş",
+      "subcategory": "Alışveriş",
+      "tags": [
+        "princes street",
+        "edinburgh",
+        "alışveriş"
+      ],
+      "distanceFromCenter": 0,
+      "lat": 55.93853559999999,
+      "lng": -3.2522773,
+      "price": "medium",
+      "rating": 4.5,
+      "description": "Jenners, alışveriş meraklıları için şehrin kalbinde bir merkez. Princes Street'da bulunan bu mekan, İskoç yünü (kaşmir, tartan) ve hediyelik eşya için ideal.",
+      "bestTime": "Akşam",
+      "bestFor": [
+        "herkes"
+      ],
+      "source": "google",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/jenners.jpg",
+      "tips": "Pazarlık yapmayı deneyebilirsiniz (nazikçe).",
+      "description_en": "Jenners is a highlight of Edinburgh in the Princes Street area.",
+      "tips_en": "You might try bargaining (politely)."
+    },
+    {
+      "name": "Waverley Mall",
+      "area": "Waverley",
+      "category": "Alışveriş",
+      "subcategory": "Alışveriş",
+      "tags": [
+        "waverley",
+        "edinburgh",
+        "alışveriş"
+      ],
+      "distanceFromCenter": 0,
+      "lat": 55.9527511,
+      "lng": -3.1907388,
+      "price": "medium",
+      "rating": 4,
+      "description": "Varied fashion, Scottish gifts and accessory stores in a 3-level mall with a fast-food court.",
+      "bestTime": "Akşam",
+      "bestFor": [
+        "herkes"
+      ],
+      "source": "google",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/waverley_mall.jpg",
+      "tips": "Tax-free formunu istemeyi unutmayın.",
+      "description_en": "Waverley Mall is a highlight of Edinburgh in the Waverley area.",
+      "tips_en": "Don't forget to ask for the Tax-free form."
+    },
+    {
+      "name": "Multrees Walk",
+      "area": "St Andrew Square",
+      "category": "Alışveriş",
+      "subcategory": "Alışveriş",
+      "tags": [
+        "st andrew square",
+        "edinburgh",
+        "alışveriş"
+      ],
+      "distanceFromCenter": 0,
+      "lat": 55.9551548,
+      "lng": -3.1910188,
+      "price": "medium",
+      "rating": 4.5,
+      "description": "Multrees Walk, alışveriş meraklıları için şehrin kalbinde bir merkez. St Andrew Square'da bulunan bu mekan, İskoç yünü (kaşmir, tartan) ve hediyelik eşya için ideal.",
+      "bestTime": "Akşam",
+      "bestFor": [
+        "herkes"
+      ],
+      "source": "google",
+      "imageUrl": "https://images.unsplash.com/photo-1552084117-56a987667949?q=80&w=800",
+      "tips": "Tax-free formunu istemeyi unutmayın.",
+      "description_en": "Multrees Walk is a highlight of Edinburgh in the St Andrew Square area.",
+      "tips_en": "Don't forget to ask for the Tax-free form."
+    },
+    {
+      "name": "Canongate Kirk",
+      "area": "old town",
+      "category": "Tarihi",
+      "subcategory": "Tarihi",
+      "tags": [
+        "history",
+        "church",
+        "royal mile"
+      ],
+      "price": "free",
+      "rating": 4.6,
+      "description": "Portobello'yu andıran ve kraliyet ailesinin ibadet ettiği, sade Hollanda tarzı mimariye sahip tarihi kilise.",
+      "description_en": "Historic church with Dutch-style architecture where the royal family worships.",
+      "tips": "Mezarlığında iktisatçı Adam Smith'in kabrini ziyaret edebilirsiniz.",
+      "tips_en": "You can visit the grave of economist Adam Smith in its kirkyard.",
+      "id": "canongate-kirk",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/canongate-kirk.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "Museum of Edinburgh",
+      "area": "old town",
+      "category": "Müze",
+      "subcategory": "Müze",
+      "tags": [
+        "museum",
+        "history",
+        "culture"
+      ],
+      "price": "free",
+      "rating": 4.5,
+      "description": "Şehrin kökenlerini, efsanelerini ve tarihini anlatan objelerle dolu, labirent gibi odalara sahip ikonik bir bina.",
+      "description_en": "Iconic building with maze-like rooms filled with objects telling the city's origins and legends.",
+      "tips": "Giriş ücretsizdir; National Covenant'ın kopyasını görmeyi unutmayın.",
+      "tips_en": "Entry is free; don't forget to see the copy of the National Covenant.",
+      "id": "museum-of-edinburgh",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/museum-of-edinburgh.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "The People's Story Museum",
+      "area": "old town",
+      "category": "Müze",
+      "subcategory": "Müze",
+      "tags": [
+        "museum",
+        "social history",
+        "culture"
+      ],
+      "price": "free",
+      "rating": 4.5,
+      "description": "Edinburgh'nun sıradan halkının 18. yüzyıldan günümüze yaşam öyküsünü anlatan samimi bir müze.",
+      "description_en": "Intimate museum telling the story of Edinburgh's ordinary people from the 18th century to today.",
+      "tips": "Canongate Tolbooth binasında yer alır, mimarisi de görülmeye değer.",
+      "tips_en": "Located in the Canongate Tolbooth, the architecture is also worth seeing.",
+      "id": "the-peoples-story-museum",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/the-peoples-story-museum.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "Gladstone's Land",
+      "area": "old town",
+      "category": "Tarihi",
+      "subcategory": "Tarihi",
+      "tags": [
+        "history",
+        "architecture",
+        "royal mile"
+      ],
+      "price": "medium",
+      "rating": 4.6,
+      "description": "17. yüzyıldan kalma, restore edilmiş bir apartman binası (tenement) ve zengin tüccar yaşamını sergileyen müze.",
+      "description_en": "Restored 17th-century tenement building showcasing the life of a wealthy merchant.",
+      "tips": "Zemin kattaki dondurmacı, tarihi lezzetleri modern dokunuşlarla sunar.",
+      "tips_en": "The ice cream shop on the ground floor offers historic flavors with a modern twist.",
+      "id": "gladstones-land",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/gladstones-land.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "John Knox House",
+      "area": "old town",
+      "category": "Tarihi",
+      "subcategory": "Tarihi",
+      "tags": [
+        "history",
+        "architecture",
+        "religion"
+      ],
+      "price": "medium",
+      "rating": 4.4,
+      "description": "Protestan Reformu'nun lideri John Knox ile ilişkilendirilen, ahşap galerileriyle ünlü orta çağ evi.",
+      "description_en": "Medieval house famous for its wooden galleries, associated with Protestant Reformation leader John Knox.",
+      "tips": "Tavan işlemelerine dikkatli bakın, dönemin sembolizmini yansıtır.",
+      "tips_en": "Look closely at the ceiling paintings; they reflect the symbolism of the era.",
+      "id": "john-knox-house",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/john-knox-house.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "Dunbar's Close Garden",
+      "area": "old town",
+      "category": "Park",
+      "subcategory": "Park",
+      "tags": [
+        "garden",
+        "hidden gem",
+        "nature"
+      ],
+      "price": "free",
+      "rating": 4.7,
+      "description": "Royal Mile'ın gürültüsünden kaçmak için ideal, 17. yüzyıl tarzında düzenlenmiş gizli ve huzurlu bir bahçe.",
+      "description_en": "A hidden and peaceful garden laid out in 17th-century style, ideal for escaping the Royal Mile noise.",
+      "tips": "Kitabınızı alıp dinlenmek için mükemmel bir kaçış noktası.",
+      "tips_en": "A perfect escape spot to take a book and relax.",
+      "id": "dunbars-close-garden",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/dunbars-close-garden.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "White Horse Close",
+      "area": "old town",
+      "category": "Tarihi",
+      "subcategory": "Fotoğraf Noktası",
+      "tags": [
+        "history",
+        "photography",
+        "architecture"
+      ],
+      "price": "free",
+      "rating": 4.6,
+      "description": "Pitoresk avlusu ve tarihi binalarıyla fotoğrafçıların gözdesi olan, geçmişte hanların bulunduğu bir çıkmaz sokak.",
+      "description_en": "A cul-de-sac formerly housing inns, now a favorite of photographers with its picturesque courtyard.",
+      "tips": "Özel mülk olduğu için sessiz olmaya özen gösterin.",
+      "tips_en": "Be respecting of the silence as it is private property.",
+      "id": "white-horse-close",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "Advocates Close",
+      "area": "old town",
+      "category": "Tarihi",
+      "subcategory": "Manzara",
+      "tags": [
+        "history",
+        "view",
+        "architecture"
+      ],
+      "price": "free",
+      "rating": 4.6,
+      "description": "Scott Anıtı'na açılan mükemmel manzarasıyla ünlü, dik merdivenli tarihi bir ara sokak.",
+      "description_en": "Historic steep alleyway famous for its perfect view framing the Scott Monument.",
+      "tips": "Gün batımında buradan Princes Street'e bakmak harika kareler verir.",
+      "tips_en": "Looking at Princes Street from here at sunset yields great shots.",
+      "id": "advocates-close",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/advocates-close.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "Lady Stair's Close",
+      "area": "old town",
+      "category": "Tarihi",
+      "subcategory": "Tarihi",
+      "tags": [
+        "history",
+        "literature",
+        "architecture"
+      ],
+      "price": "free",
+      "rating": 4.5,
+      "description": "Writers' Museum'a ev sahipliği yapan, sokak lambaları ve taş döşemeleriyle atmosferik bir geçit.",
+      "description_en": "Atmospheric close hosting the Writers' Museum, with street lamps and cobblestones.",
+      "tips": "Yerdeki taşlara kazınmış edebi alıntıları okumayı unutmayın.",
+      "tips_en": "Don't forget to read the literary quotes carved into the paving stones.",
+      "id": "lady-stairs-close",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "Bakehouse Close",
+      "area": "old town",
+      "category": "Tarihi",
+      "subcategory": "Popüler Kültür",
+      "tags": [
+        "outlander",
+        "history",
+        "filming location"
+      ],
+      "price": "free",
+      "rating": 4.6,
+      "description": "Outlander dizisinde Jamie'nin matbaası olarak kullanılan, Edinburgh'un en iyi korunmuş tarihi geçitlerinden biri.",
+      "description_en": "One of Edinburgh's best-preserved closes, used as Jamie's print shop in Outlander.",
+      "tips": "Dizi hayranları için zorunlu durak; sabah erken saatlerde daha boş olur.",
+      "tips_en": "A must-stop for series fans; it's emptier early in the morning.",
+      "id": "bakehouse-close",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/bakehouse-close.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "Parliament Hall",
+      "area": "old town",
+      "category": "Tarihi",
+      "subcategory": "Tarihi",
+      "tags": [
+        "history",
+        "law",
+        "architecture"
+      ],
+      "price": "free",
+      "rating": 4.5,
+      "description": "1639'da inşa edilen, muazzam ahşap çatısı ve tarihi atmosferiyle etkileyici eski İskoç Parlamentosu salonu.",
+      "description_en": "Impressive former Scottish Parliament hall built in 1639 with a massive wooden roof.",
+      "tips": "Genellikle halka açıktır ancak güvenlik kontrolünden geçmeniz gerekir.",
+      "tips_en": "Usually open to the public but you must pass security checks.",
+      "id": "parliament-hall",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/parliament-hall.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "Signet Library",
+      "area": "old town",
+      "category": "Kültür",
+      "subcategory": "Kütüphane",
+      "tags": [
+        "library",
+        "architecture",
+        "afternoon tea"
+      ],
+      "price": "high",
+      "rating": 4.7,
+      "description": "Georgian döneminin zarafetini yansıtan, bugün lüks ikindi çayı (afternoon tea) servisiyle ünlü tarihi kütüphane.",
+      "description_en": "Historic library reflecting Georgian elegance, now famous for luxury afternoon tea.",
+      "tips": "İkindi çayı için önceden rezervasyon yaptırmanız şarttır.",
+      "tips_en": "It is essential to book in advance for afternoon tea.",
+      "id": "signet-library",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/signet-library.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "St Cecilia's Hall",
+      "area": "old town",
+      "category": "Müze",
+      "subcategory": "Müzik",
+      "tags": [
+        "museum",
+        "music",
+        "instruments"
+      ],
+      "price": "free",
+      "rating": 4.6,
+      "description": "İskoçya'nın en eski konser salonu ve müzik müzesi. Tarihi enstrümanlar, zarif iç mekan ve canlı performanslar.",
+      "description_en": "Scotland's oldest concert hall and music museum. Historic instruments, elegant interior, and live performances.",
+      "tips": "Nadir klavsen koleksiyonunu mutlaka inceleyin.",
+      "tips_en": "Definitely check out the rare harpsichord collection.",
+      "id": "st-cecilias-hall",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/st-cecilias-hall.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "Talbot Rice Gallery",
+      "area": "university",
+      "category": "Sanat",
+      "subcategory": "Galeri",
+      "tags": [
+        "art",
+        "contemporary",
+        "gallery"
+      ],
+      "price": "free",
+      "rating": 4.5,
+      "description": "Edinburgh Üniversitesi bünyesinde yer alan, çağdaş sanat sergilerine ev sahipliği yapan prestijli galeri.",
+      "description_en": "Prestigious gallery within the University of Edinburgh hosting contemporary art exhibitions.",
+      "tips": "Georgian Gallery kısmının mimarisi sergiler kadar etkileyicidir.",
+      "tips_en": "The architecture of the Georgian Gallery section is as impressive as the exhibitions.",
+      "id": "talbot-rice-gallery",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/talbot-rice-gallery.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "Dovecot Studios",
+      "area": "old town",
+      "category": "Sanat",
+      "subcategory": "Tasarım",
+      "tags": [
+        "art",
+        "tapestry",
+        "design"
+      ],
+      "price": "medium",
+      "rating": 4.7,
+      "description": "Eski bir Viktorya dönemi hamamında yer alan, dünyaca ünlü goblen ve halı dokuma stüdyosu.",
+      "description_en": "World-renowned tapestry and rug weaving studio located in a former Victorian bathhouse.",
+      "tips": "Gözlem balkonundan sanatçıları çalışirken izleyebilirsiniz.",
+      "tips_en": "You can watch the artists at work from the viewing balcony.",
+      "id": "dovecot-studios",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/dovecot-studios.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "Anatomical Museum",
+      "area": "university",
+      "category": "Müze",
+      "subcategory": "Bilim",
+      "tags": [
+        "museum",
+        "science",
+        "weird"
+      ],
+      "price": "free",
+      "rating": 4.6,
+      "description": "Tıp fakültesi bünyesinde, katil William Burke'ün iskeleti gibi ilginç parçalar barındıran müze.",
+      "description_en": "Museum within the medical school housing interesting pieces like killer William Burke's skeleton.",
+      "tips": "Sadece belirli günlerde halka açıktır, gitmeden takvimi kontrol edin.",
+      "tips_en": "Open to the public only on specific days, check the calendar before going.",
+      "id": "anatomical-museum",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/anatomical-museum.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "Edinburgh Vaults",
+      "area": "south bridge",
+      "category": "Tarihi",
+      "subcategory": "Yeraltı",
+      "tags": [
+        "underground",
+        "spooky",
+        "history"
+      ],
+      "price": "medium",
+      "rating": 4.4,
+      "description": "Şehrin altında yer alan, geçmişte dükkanlar ve yasa dışı işler için kullanılmış karanlık odalar serisi.",
+      "description_en": "Series of dark chambers beneath the city, historically used for shops and illicit activities.",
+      "tips": "Klostrofobiniz varsa dikkatli olun; turlar oldukça atmosferiktir.",
+      "tips_en": "Be careful if you have claustrophobia; tours are quite atmospheric.",
+      "id": "edinburgh-vaults",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/edinburgh-vaults.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "Mercat Cross",
+      "area": "royal mile",
+      "category": "Tarihi",
+      "subcategory": "Anıt",
+      "tags": [
+        "monument",
+        "history",
+        "center"
+      ],
+      "price": "free",
+      "rating": 4.4,
+      "description": "Kraliyet duyurularının yapıldığı, tek boynuzlu at heykeliyle taçlandırılmış tarihi pazar haçı.",
+      "description_en": "Historic market cross topped with a unicorn statue, where royal proclamations were made.",
+      "tips": "Hala önemli duyurular burada törenle okunur.",
+      "tips_en": "Important proclamations are still read here with ceremony.",
+      "id": "mercat-cross",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/mercat-cross.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "Heart of Midlothian Mosaic",
+      "area": "royal mile",
+      "category": "Tarihi",
+      "subcategory": "Simge",
+      "tags": [
+        "mosaic",
+        "local tradition",
+        "history"
+      ],
+      "price": "free",
+      "rating": 4.3,
+      "description": "Royal Mile üzerinde, eski Tolbooth hapishanesinin girişini işaretleyen kalp şeklindeki kaldırım mozaiği.",
+      "description_en": "Heart-shaped pavement mosaic on the Royal Mile marking the entrance to the old Tolbooth prison.",
+      "tips": "Locals might spit on it for luck; don't be surprised if you see it.",
+      "tips_en": "Yerliler şans için üzerine tükürebilir; görürseniz şaşırmayın.",
+      "id": "heart-of-midlothian-mosaic",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/heart-of-midlothian-mosaic.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "David Hume Statue",
+      "area": "high street",
+      "category": "Tarihi",
+      "subcategory": "Heykel",
+      "tags": [
+        "statue",
+        "philosophy",
+        "luck"
+      ],
+      "price": "free",
+      "rating": 4.5,
+      "description": "Ünlü İskoç filozofun heykeli; ayak parmağına dokunmanın bilgelik ve şans getirdiğine inanılır.",
+      "description_en": "Statue of the famous Scottish philosopher; touching his toe is believed to bring wisdom and luck.",
+      "tips": "Fotoğraf çekerken ayak parmağını parlamış göreceksiniz.",
+      "tips_en": "You'll see his toe shining in photos.",
+      "id": "david-hume-statue",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/david-hume-statue.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "Flodden Wall",
+      "area": "vennel",
+      "category": "Tarihi",
+      "subcategory": "Surlar",
+      "tags": [
+        "history",
+        "wall",
+        "architecture"
+      ],
+      "price": "free",
+      "rating": 4.4,
+      "description": "16. yüzyılda İngiliz işgaline karşı şehri korumak için inşa edilen surların kalıntıları.",
+      "description_en": "Remains of the defensive walls built in the 16th century to protect the city from English invasion.",
+      "tips": "The Vennel merdivenlerinden kaleyi surlarla birlikte fotoğraflayabilirsiniz.",
+      "tips_en": "You can photograph the castle along with the walls from The Vennel steps.",
+      "id": "flodden-wall",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/flodden-wall.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "Greyfriars Bobby Statue",
+      "area": "candlemaker row",
+      "category": "Tarihi",
+      "subcategory": "Heykel",
+      "tags": [
+        "statue",
+        "legend",
+        "dog"
+      ],
+      "price": "free",
+      "rating": 4.6,
+      "description": "Sahibinin mezarını 14 yıl bekleyen sadık Skye Terrier köpeğinin heykeli. Burnunu ovmanın şans getirdiğine inanılır.",
+      "description_en": "Statue of loyal Skye Terrier dog who waited by his master's grave for 14 years. Rubbing its nose is believed to bring luck.",
+      "tips": "Burnuna dokunmak turist geleneği olsa da, heykele zarar verdiği için yerel halk bunu onaylamaz.",
+      "tips_en": "Touching its nose is a tourist tradition but locals disapprove as it damages the statue.",
+      "id": "greyfriars-bobby-statue",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/greyfriars-bobby-statue.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "Grassmarket Gallows",
+      "area": "grassmarket",
+      "category": "Tarihi",
+      "subcategory": "Tarihi",
+      "tags": [
+        "history",
+        "macabre",
+        "square"
+      ],
+      "price": "free",
+      "rating": 4.2,
+      "description": "Tarihi idam noktası, şimdi canlı publar bölgesi. Covenanters anıtı, Maggie Dickson'ın hikayesi ve karanlık tarih.",
+      "description_en": "Historic execution spot, now lively pub area. Covenanters memorial, story of Maggie Dickson, and dark history.",
+      "tips": "Hemen yakındaki Maggie Dickson's pub'ında 'Yarım Asılmış Maggie'nin hikayesini öğrenin.",
+      "tips_en": "Learn the story of 'Half-Hangit Maggie' at the nearby Maggie Dickson's pub.",
+      "id": "grassmarket-gallows",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/grassmarket-gallows.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "Victoria Terrace",
+      "area": "old town",
+      "category": "Manzara",
+      "subcategory": "Yürüyüş",
+      "tags": [
+        "view",
+        "walk",
+        "architecture"
+      ],
+      "price": "free",
+      "rating": 4.7,
+      "description": "Victoria Street'in üst katında yer alan, renkli dükkanlara yukarıdan bakan yürüyüş yolu.",
+      "description_en": "Walkway on the upper level of Victoria Street looking down on the colorful shops.",
+      "tips": "Kalabalık caddeden kaçıp manzarayı izlemek için harika bir balkon.",
+      "tips_en": "A great balcony to escape the crowded street and watch the view.",
+      "id": "victoria-terrace",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/victoria-terrace.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "Tolbooth Tavern",
+      "area": "canongate",
+      "category": "Yeme İçme",
+      "subcategory": "Pub",
+      "tags": [
+        "pub",
+        "history",
+        "haunted"
+      ],
+      "price": "medium",
+      "rating": 4.4,
+      "description": "Eski bir ücret toplama noktası ve hapishane binasında yer alan, hayalet hikayeleriyle ünlü tarihi pub.",
+      "description_en": "Historic pub in a former tollbooth and prison, famous for its ghost stories.",
+      "tips": "Geleneksel haggis yemeği denemek için atmosferik bir yer.",
+      "tips_en": "An atmospheric place to try traditional haggis.",
+      "id": "tolbooth-tavern",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/tolbooth-tavern.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "Deacon Brodie's Tavern",
+      "area": "royal mile",
+      "category": "Yeme İçme",
+      "subcategory": "Pub",
+      "tags": [
+        "pub",
+        "history",
+        "literature"
+      ],
+      "price": "medium",
+      "rating": 4.4,
+      "description": "Dr. Jekyll ve Bay Hyde hikayesine ilham veren William Brodie'nin adını taşıyan popüler pub.",
+      "description_en": "Popular pub named after William Brodie, the inspiration for Dr. Jekyll and Mr. Hyde.",
+      "tips": "Tavan süslemeleri, Brodie'nin ikili yaşamını simgeler.",
+      "tips_en": "The ceiling decorations symbolize Brodie's double life.",
+      "id": "deacon-brodies-tavern",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/deacon-brodies-tavern.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "The Banshee Labyrinth",
+      "area": "old town",
+      "category": "Eğlence",
+      "subcategory": "Gece Kulübü",
+      "tags": [
+        "haunted",
+        "club",
+        "cinema"
+      ],
+      "price": "medium",
+      "rating": 4.5,
+      "description": "İskoçya'nın en 'perili' pub'ı olarak bilinen, yer altı mahzenlerinde bulunan gece kulübü ve sinema.",
+      "description_en": "Nightclub and cinema in underground vaults, known as Scotland's most 'haunted' pub.",
+      "tips": "Ücretsiz sinema gösterimlerini takip edin.",
+      "tips_en": "Check out the free cinema screenings.",
+      "id": "the-banshee-labyrinth",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/the-banshee-labyrinth.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "George Street",
+      "area": "new town",
+      "category": "Alışveriş",
+      "subcategory": "Cadde",
+      "tags": [
+        "shopping",
+        "architecture",
+        "dining"
+      ],
+      "price": "high",
+      "rating": 4.6,
+      "description": "Lüks butikler, şık restoranlar ve barların bulunduğu, Georgian mimarisinin en güzel örneklerini sergileyen geniş cadde.",
+      "description_en": "Wide street showcasing the finest examples of Georgian architecture, lined with luxury boutiques, chic restaurants, and bars.",
+      "tips": "Festival zamanı trafiğe kapatılıp dev bir açık hava restoranına dönüşür.",
+      "tips_en": "During the festival, it's closed to traffic and becomes a giant open-air restaurant.",
+      "id": "george-street",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "Charlotte Square",
+      "area": "new town",
+      "category": "Tarihi",
+      "subcategory": "Meydan",
+      "tags": [
+        "architecture",
+        "georgian",
+        "square"
+      ],
+      "price": "free",
+      "rating": 4.7,
+      "description": "Robert Adam tarafından tasarlanan, 'Georgian döneminin kentsel mimari şaheseri' olarak kabul edilen zarif meydan.",
+      "description_en": "Elegant square designed by Robert Adam, considered a 'masterpiece of Georgian urban architecture'.",
+      "tips": "Ortadaki özel bahçe sadece Kitap Festivali sırasında halka açılır.",
+      "tips_en": "The private garden in the center opens to the public only during the Book Festival.",
+      "id": "charlotte-square",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/charlotte-square.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "St Andrew Square",
+      "area": "new town",
+      "category": "Yeme İçme",
+      "subcategory": "Meydan",
+      "tags": [
+        "dining",
+        "luxury",
+        "square"
+      ],
+      "price": "free",
+      "rating": 4.6,
+      "description": "Ortasında Melville Anıtı'nın yükseldiği, çevresi lüks restoranlar ve tasarım mağazalarıyla çevrili modern meydan.",
+      "description_en": "Modern square centered around the Melville Monument, surrounded by luxury restaurants and designer shops.",
+      "tips": "Kışın burada buz pateni pisti kurulur.",
+      "tips_en": "An ice skating rink is set up here in winter.",
+      "id": "st-andrew-square",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/st-andrew-square.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "Scottish National Portrait Gallery",
+      "area": "new town",
+      "category": "Müze",
+      "subcategory": "Sanat",
+      "tags": [
+        "art",
+        "gallery",
+        "history"
+      ],
+      "price": "free",
+      "rating": 4.7,
+      "description": "Dünyanın ilk portre galerisi olan, Venedik Gotik tarzı kırmızı kumtaşı binasıyla büyüleyen sanat merkezi.",
+      "description_en": "Art center in a stunning Venetian Gothic red sandstone building, the world's first portrait gallery.",
+      "tips": "Giriş holündeki frizleri ve yıldızlı tavanı mutlaka inceleyin.",
+      "tips_en": "Make sure to examine the friezes and starry ceiling in the entrance hall.",
+      "id": "scottish-national-portrait-gallery",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/scottish-national-portrait-gallery.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "Dean Village",
+      "area": "dean village",
+      "category": "Manzara",
+      "subcategory": "Köy",
+      "tags": [
+        "scenic",
+        "photography",
+        "history"
+      ],
+      "price": "free",
+      "rating": 4.8,
+      "description": "Leith Nehri kıyısında, değirmen taşları ve yarı ahşap evleriyle masal kitabından fırlamış gibi duran eski köy.",
+      "description_en": "Former village on the Water of Leith that looks like it's from a storybook with millstones and half-timbered houses.",
+      "tips": "Well Court binasının avlusuna sessizce girip fotoğraflayabilirsiniz.",
+      "tips_en": "You can quietly enter the courtyard of Well Court to take photos.",
+      "id": "dean-village",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/dean-village.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "Stockbridge Market",
+      "area": "stockbridge",
+      "category": "Alışveriş",
+      "subcategory": "Pazar",
+      "tags": [
+        "market",
+        "food",
+        "local"
+      ],
+      "price": "medium",
+      "rating": 4.6,
+      "description": "Her Pazar kurulan, yerel üreticilerin peynir, ekmek, takı ve sokak lezzetleri sattığı popüler pazar.",
+      "description_en": "Popular market held every Sunday where local producers sell cheese, bread, jewelry, and street food.",
+      "tips": "Paella tezgahının önündeki sıraya girmeye değer.",
+      "tips_en": "The queue for the paella stall is worth joining.",
+      "id": "stockbridge-market",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/stockbridge-market.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "Circus Lane",
+      "area": "stockbridge",
+      "category": "Manzara",
+      "subcategory": "Sokak",
+      "tags": [
+        "photography",
+        "instagram",
+        "quaint"
+      ],
+      "price": "free",
+      "rating": 4.7,
+      "description": "Arnavut kaldırımlı yolu, çiçeklerle bezeli minik evleri ve kilise kulesi manzarasıyla Edinburgh'un en fotojenik sokağı.",
+      "description_en": "Edinburgh's most photogenic street with cobblestones, flower-adorned tiny houses, and a church tower view.",
+      "tips": "İlkbaharda çiçekler açtığında en güzel halini alır.",
+      "tips_en": "It looks its best in spring when flowers are in bloom.",
+      "id": "circus-lane",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/circus-lane.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "Inverleith Park",
+      "area": "inverleith",
+      "category": "Park",
+      "subcategory": "Park",
+      "tags": [
+        "park",
+        "view",
+        "picnic"
+      ],
+      "price": "free",
+      "rating": 4.7,
+      "description": "Edinburgh Kalesi'nin en güzel silüetini sunan, göleti ve geniş çim alanlarıyla piknik için ideal park.",
+      "description_en": "Park offering the best silhouette view of Edinburgh Castle, ideal for picnics with its pond and wide lawns.",
+      "tips": "Gün batımı pikniği için şehrin en iyi lokasyonudur.",
+      "tips_en": "The best location in the city for a sunset picnic.",
+      "id": "inverleith-park",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/inverleith-park.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "The Georgian House",
+      "area": "new town",
+      "category": "Müze",
+      "subcategory": "Müze",
+      "tags": [
+        "museum",
+        "history",
+        "interior"
+      ],
+      "price": "medium",
+      "rating": 4.6,
+      "description": "18. yüzyıl Edinburgh elitlerinin yaşam tarzını tüm detaylarıyla sergileyen, mükemmel korunmuş tarihi ev.",
+      "description_en": "Perfectly preserved historic house showcasing the lifestyle of 18th-century Edinburgh elite in detail.",
+      "tips": "Gönüllü rehberler odalardaki eşyalar hakkında harika hikayeler anlatır.",
+      "tips_en": "Volunteer guides tell great stories about the objects in the rooms.",
+      "id": "the-georgian-house",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/the-georgian-house.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "The Assembly Rooms",
+      "area": "new town",
+      "category": "Kültür",
+      "subcategory": "Etkinlik",
+      "tags": [
+        "culture",
+        "venue",
+        "history"
+      ],
+      "price": "medium",
+      "rating": 4.5,
+      "description": "1787'den beri şehrin sosyal hayatının merkezi olan, balo salonları ve avizeleriyle göz kamaştıran etkinlik alanı.",
+      "description_en": "Event space dazzling with ballrooms and chandeliers, central to social life since 1787.",
+      "tips": "Festival zamanı burada mutlaka bir şov izleyin.",
+      "tips_en": "Make sure to watch a show here during festival time.",
+      "id": "the-assembly-rooms",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/the-assembly-rooms.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "Rose Street",
+      "area": "new town",
+      "category": "Eğlence",
+      "subcategory": "Cadde",
+      "tags": [
+        "pubs",
+        "bar crawl",
+        "pedestrian"
+      ],
+      "price": "medium",
+      "rating": 4.3,
+      "description": "Princes Street'e paralel, trafiğe kapalı, sağlı sollu sayısız pub ve restoranın sıralandığı hareketli sokak.",
+      "description_en": "Pedestrian street parallel to Princes Street, lined with countless pubs and restaurants right and left.",
+      "tips": "'Rose Street Challenge' (her pubda bir içki) popüler bir yerel efsanedir ama dikkatli olun!",
+      "tips_en": "The 'Rose Street Challenge' (a drink in every pub) is a popular local legend but be careful!",
+      "id": "rose-street",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/rose-street.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "The Oxford Bar",
+      "area": "new town",
+      "category": "Yeme İçme",
+      "subcategory": "Pub",
+      "tags": [
+        "pub",
+        "literature",
+        "traditional"
+      ],
+      "price": "medium",
+      "rating": 4.4,
+      "description": "Ian Rankin’in Dedektif Rebus romanlarıyla ünlenen, sade ve geleneksel bir İskoç pub'ı.",
+      "description_en": "Simple and traditional Scottish pub made famous by Ian Rankin's Inspector Rebus novels.",
+      "tips": "Edebi bir hac noktasıdır ama lüks beklemeyin, ruhu sadeliğindedir.",
+      "tips_en": "A literary pilgrimage spot but don't expect luxury; its soul is in its simplicity.",
+      "id": "the-oxford-bar",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/the-oxford-bar.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "Bross Bagels",
+      "area": "stockbridge",
+      "category": "Yeme İçme",
+      "subcategory": "Hızlı Yemek",
+      "tags": [
+        "food",
+        "lunch",
+        "local"
+      ],
+      "price": "medium",
+      "rating": 4.6,
+      "description": "Montreal usülü bagelleriyle Edinburgh'da fırtınalar estiren popüler sandviç dükkanı.",
+      "description_en": "Popular sandwich shop taking Edinburgh by storm with its Montreal-style bagels.",
+      "tips": "'The Goy' bagelini deneyin.",
+      "tips_en": "Try 'The Goy' bagel.",
+      "id": "bross-bagels",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/bross-bagels.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "The Scran & Scallie",
+      "area": "stockbridge",
+      "category": "Restoran",
+      "subcategory": "Gastropub",
+      "tags": [
+        "food",
+        "gastropub",
+        "scottish"
+      ],
+      "price": "high",
+      "rating": 4.5,
+      "description": "Michelin yıldızlı şeflerin işlettiği, geleneksel İskoç yemeklerini modern bir dokunuşla sunan gastropub.",
+      "description_en": "Gastropub run by Michelin-starred chefs serving traditional Scottish dishes with a modern twist.",
+      "tips": "Hafta sonu brunch'ı için rezervasyon şart.",
+      "tips_en": "Reservation is essential for weekend brunch.",
+      "id": "the-scran-&-scallie",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/the-scran-&-scallie.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "Stockbridge Colonies",
+      "area": "stockbridge",
+      "category": "Tarihi",
+      "subcategory": "Mimari",
+      "tags": [
+        "architecture",
+        "residential",
+        "photo"
+      ],
+      "price": "free",
+      "rating": 4.7,
+      "description": "19. yüzyılda işçiler için inşa edilen, nehir kenarında sıralı taş evlerden oluşan büyüleyici mahalle.",
+      "description_en": "Charming neighborhood of terraced stone houses built for workers in the 19th century by the river.",
+      "tips": "Sokak isimlerine dikkat edin, hepsi inşa eden derneğin kurucularıdır.",
+      "tips_en": "Pay attention to street names; they are all founders of the building association.",
+      "id": "stockbridge-colonies",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/stockbridge-colonies.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "St Bernard's Well",
+      "area": "stockbridge",
+      "category": "Tarihi",
+      "subcategory": "Anıt",
+      "tags": [
+        "monument",
+        "walk",
+        "river"
+      ],
+      "price": "free",
+      "rating": 4.6,
+      "description": "Leith Nehri yürüyüş yolunda, Yunan tapınağı tarzında inşa edilmiş, iyileştirici suyu olduğuna inanılan kuyu.",
+      "description_en": "Well believed to have healing waters, built in the style of a Greek temple on the Water of Leith walkway.",
+      "tips": "Ender durumlarda (Heritage Days) içine girilip mozaik tavan görülebilir.",
+      "tips_en": "On rare occasions (Heritage Days), you can go inside to see the mosaic ceiling.",
+      "id": "st-bernards-well",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/st-bernards-well.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "Scottish National Gallery of Modern Art (Modern One)",
+      "area": "west end",
+      "category": "Müze",
+      "subcategory": "Sanat",
+      "tags": [
+        "art",
+        "modern",
+        "sculpture"
+      ],
+      "price": "free",
+      "rating": 4.6,
+      "description": "Neoklasik bir binada modern sanat koleksiyonu ve önündeki ikonik 'Landform' peyzaj tasarımı.",
+      "description_en": "Modern art collection in a neoclassical building, fronted by the iconic 'Landform' landscape design.",
+      "tips": "Bahçesindeki heykeller ücretsiz gezilebilir.",
+      "tips_en": "The sculptures in the garden can be visited for free.",
+      "id": "scottish-national-gallery-of-modern-art-(modern-one)",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/scottish-national-gallery-of-modern-art-(modern-one).jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "Scottish National Gallery of Modern Art (Modern Two)",
+      "area": "west end",
+      "category": "Müze",
+      "subcategory": "Sanat",
+      "tags": [
+        "art",
+        "surrealism",
+        "dada"
+      ],
+      "price": "free",
+      "rating": 4.6,
+      "description": "Sürrealist ve Dadaist sanat eserlerine odaklanan, yolun karşısındaki kardeş modern sanat müzesi.",
+      "description_en": "Sister modern art museum across the road, focusing on Surrealist and Dadaist artworks.",
+      "tips": "Eduardo Paolozzi'nin devasa Vulcan heykelini kaçırmayın.",
+      "tips_en": "Don't miss Eduardo Paolozzi's massive Vulcan statue.",
+      "id": "scottish-national-gallery-of-modern-art-(modern-two)",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/scottish-national-gallery-of-modern-art-(modern-two).jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "St Mary's Episcopal Cathedral",
+      "area": "west end",
+      "category": "Tarihi",
+      "subcategory": "Kilise",
+      "tags": [
+        "cathedral",
+        "gothic",
+        "architecture"
+      ],
+      "price": "free",
+      "rating": 4.7,
+      "description": "Şehrin silüetini belirleyen üç kulesiyle İskoçya'nın en büyük katedrali; Gotik Revival tarzının zirvesi.",
+      "description_en": "Scotland's largest cathedral with three spires defining the skyline; the pinnacle of Gothic Revival style.",
+      "tips": "Paolozzi'nin tasarladığı modern vitray pencereyi arayın.",
+      "tips_en": "Look for the modern stained glass window designed by Paolozzi.",
+      "id": "st-marys-episcopal-cathedral",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/st-marys-episcopal-cathedral.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "Usher Hall",
+      "area": "west end",
+      "category": "Kültür",
+      "subcategory": "Konser",
+      "tags": [
+        "music",
+        "concert",
+        "venue"
+      ],
+      "price": "medium",
+      "rating": 4.7,
+      "description": "Edinburgh'un beş yıldızlı konser salonu, muhteşem akustik. Klasik, caz ve rock konserlerine ev sahipliği yapar.",
+      "description_en": "Edinburgh's five-star concert hall, magnificent acoustics. Hosts classical, jazz, and rock concerts.",
+      "tips": "Üst kat koltukları (Upper Circle) hem ucuzdur hem de ses harikadır.",
+      "tips_en": "Upper Circle seats are both cheap and have great sound.",
+      "id": "usher-hall",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/usher-hall.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "Traverse Theatre",
+      "area": "lothian road",
+      "category": "Kültür",
+      "subcategory": "Tiyatro",
+      "tags": [
+        "theatre",
+        "new writing",
+        "fringe"
+      ],
+      "price": "medium",
+      "rating": 4.6,
+      "description": "İskoçya'nın yeni oyun yazarlığına adanmış, Fringe Festivali'nin kalbi sayılan modern tiyatro.",
+      "description_en": "Modern theatre dedicated to Scotland's new playwriting, considered the heart of the Fringe Festival.",
+      "tips": "Barı, festival sırasında sanatçılarla tanışmak için en iyi yerdir.",
+      "tips_en": "Its bar is the best place to meet artists during the festival.",
+      "id": "traverse-theatre",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/traverse-theatre.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "Royal Lyceum Theatre",
+      "area": "lothian road",
+      "category": "Kültür",
+      "subcategory": "Tiyatro",
+      "tags": [
+        "theatre",
+        "classic",
+        "victorian"
+      ],
+      "price": "medium",
+      "rating": 4.7,
+      "description": "1883'ten beri açık olan, klasik ve çağdaş oyunların sahnelendiği görkemli Viktorya tiyatrosu.",
+      "description_en": "Grand Victorian theatre open since 1883, staging classic and contemporary plays.",
+      "tips": "İç mekanın kadife ve altın varaklı dekorasyonu büyüleyicidir.",
+      "tips_en": "The velvet and gold leaf decoration of the interior is mesmerizing.",
+      "id": "royal-lyceum-theatre",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/royal-lyceum-theatre.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "Filmhouse",
+      "area": "lothian road",
+      "category": "Kültür",
+      "subcategory": "Sinema",
+      "tags": [
+        "cinema",
+        "indie",
+        "festival"
+      ],
+      "price": "medium",
+      "rating": 4.6,
+      "description": "Edinburgh Uluslararası Film Festivali'nin evi olan, bağımsız ve dünya sineması filmleri gösteren kült sinema.",
+      "description_en": "Cult cinema housing the Edinburgh International Film Festival, showing independent and world cinema.",
+      "tips": "Kafesi, sinema öncesi yemek için çok popülerdir.",
+      "tips_en": "Its cafe is very popular for pre-movie meals.",
+      "id": "filmhouse",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/filmhouse.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "Cameo Picturehouse",
+      "area": "tollcross",
+      "category": "Kültür",
+      "subcategory": "Sinema",
+      "tags": [
+        "cinema",
+        "historic",
+        "cult"
+      ],
+      "price": "medium",
+      "rating": 4.7,
+      "description": "Quentin Tarantino'nun 'en sevdiğim sinemalardan biri' dediği, 1914 açılışlı tarihi sinema salonu.",
+      "description_en": "Historic cinema opened in 1914, which Quentin Tarantino called 'one of my favorite cinemas'.",
+      "tips": "Barında film sonrası tartışmaları yapmak bir gelenektir.",
+      "tips_en": "It is a tradition to have post-movie discussions at its bar.",
+      "id": "cameo-picturehouse",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/cameo-picturehouse.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "The Balmoral",
+      "area": "princes street",
+      "category": "Konaklama",
+      "subcategory": "Otel",
+      "tags": [
+        "hotel",
+        "landmark",
+        "clock"
+      ],
+      "price": "high",
+      "rating": 4.7,
+      "description": "Şehrin en ikonik oteli; saat kulesi treni kaçırmasınlar diye 3 dakika ileri alınmıştır.",
+      "description_en": "The city's most iconic hotel; its clock tower is set 3 minutes fast so people don't miss their trains.",
+      "tips": "Sadece Yılbaşı gecesi saat tam zamanı gösterir.",
+      "tips_en": "The clock shows the correct time only on New Year's Eve.",
+      "id": "the-balmoral",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/the-balmoral.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "Waverley Station",
+      "area": "city centre",
+      "category": "Tarihi",
+      "subcategory": "İstasyon",
+      "tags": [
+        "station",
+        "architecture",
+        "transport"
+      ],
+      "price": "free",
+      "rating": 4.0,
+      "description": "Şehrin kalbinde, devasa cam çatısı ve karmaşık yapısıyla ünlü ana tren istasyonu.",
+      "description_en": "The main train station in the heart of the city, famous for its massive glass roof and complex structure.",
+      "tips": "Bekleme salonundaki tavan süslemelerine bakın.",
+      "tips_en": "Look at the ceiling decorations in the waiting hall.",
+      "id": "waverley-station",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/waverley-station.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "The Stand Comedy Club",
+      "area": "new town",
+      "category": "Eğlence",
+      "subcategory": "Komedi",
+      "tags": [
+        "comedy",
+        "club",
+        "nightlife"
+      ],
+      "price": "medium",
+      "rating": 4.7,
+      "description": "Dünyaca ünlü komedi kulübü, Fringe Festivali'nin kalbi. Stand-up şovları, yeni yetenekler ve samimi bodrum katı.",
+      "description_en": "World-famous comedy club, heart of Fringe Festival. Stand-up shows, new talents, and intimate basement.",
+      "tips": "'Red Raw' geceleri yeni yetenekleri 5 sterline izleyebilirsiniz.",
+      "tips_en": "You can watch new talents for 5 pounds on 'Red Raw' nights.",
+      "id": "the-stand-comedy-club",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/the-stand-comedy-club.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "Bramble Bar & Lounge",
+      "area": "new town",
+      "category": "Eğlence",
+      "subcategory": "Bar",
+      "tags": [
+        "cocktail",
+        "award-winning",
+        "nightlife"
+      ],
+      "price": "high",
+      "rating": 4.7,
+      "description": "Dünyanın en iyi barları listesine sıklıkla giren, mahzen katında yer alan sofistike kokteyl barı.",
+      "description_en": "Sophisticated basement cocktail bar that frequently makes the list of the world's best bars.",
+      "tips": "Klasik 'Bramble' kokteylini burada içmeden dönmeyin.",
+      "tips_en": "Don't leave without drinking a classic 'Bramble' cocktail here.",
+      "id": "bramble-bar-&-lounge",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/bramble-bar-&-lounge.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "Dynamic Earth",
+      "area": "holyrood",
+      "category": "Müze",
+      "subcategory": "Bilim",
+      "tags": [
+        "science",
+        "kids",
+        "interactive"
+      ],
+      "price": "medium",
+      "rating": 4.5,
+      "description": "Dünya gezegeninin oluşumunu ve tarihini interaktif sergiler, 4D deneyimler ve bir planetaryum ile anlatan bilim merkezi.",
+      "description_en": "Science center explaining the formation and history of planet Earth with interactive exhibits, 4D experiences, and a planetarium.",
+      "tips": "Zaman yolculuğu asansörü çocuklar için çok eğlencelidir.",
+      "tips_en": "The time-travel elevator is very fun for kids.",
+      "id": "dynamic-earth",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/dynamic-earth.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "Scottish Parliament Building",
+      "area": "holyrood",
+      "category": "Tarihi",
+      "subcategory": "Mimari",
+      "tags": [
+        "architecture",
+        "politics",
+        "modern"
+      ],
+      "price": "free",
+      "rating": 4.4,
+      "description": "Enric Miralles tarafından tasarlanan, tartışmalı ama ödüllü modern mimarisiyle dikkat çeken parlamento binası.",
+      "description_en": "Parliament building noted for its controversial yet award-winning modern architecture designed by Enric Miralles.",
+      "tips": "Genel Kurul salonunu görmek için ücretsiz turlara katılın.",
+      "tips_en": "Join free tours to see the Debating Chamber.",
+      "id": "scottish-parliament-building",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/scottish-parliament-building.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "Holyrood Distillery",
+      "area": "holyrood",
+      "category": "Deneyim",
+      "subcategory": "İçki",
+      "tags": [
+        "whisky",
+        "gin",
+        "distillery"
+      ],
+      "price": "high",
+      "rating": 4.7,
+      "description": "Şehir merkezinde yüzyıl sonra açılan ilk tek malt viski damıtımevi; modern tadım turları sunuyor.",
+      "description_en": "The first single malt whisky distillery to open in the city center in a century; offering modern tasting tours.",
+      "tips": "Cin (gin) yapımı atölyelerine de katılabilirsiniz.",
+      "tips_en": "You can also join gin-making workshops.",
+      "id": "holyrood-distillery",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/holyrood-distillery.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "Johnnie Walker Princes Street",
+      "area": "west end",
+      "category": "Deneyim",
+      "subcategory": "İçki",
+      "tags": [
+        "whisky",
+        "experience",
+        "view"
+      ],
+      "price": "high",
+      "rating": 4.8,
+      "description": "8 katlı, son teknolojiyle donatılmış, interaktif viski deneyimi merkezi ve muhteşem manzaralı çatı barı.",
+      "description_en": "8-story, state-of-the-art interactive whisky experience center with a stunning rooftop bar.",
+      "tips": "'1820' çatı barında rezervasyon yapıp sadece manzaranın tadını çıkarabilirsiniz.",
+      "tips_en": "You can book a table at the '1820' rooftop bar just to enjoy the view.",
+      "id": "johnnie-walker-princes-street",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/johnnie-walker-princes-street.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "City Art Centre",
+      "area": "old town",
+      "category": "Müze",
+      "subcategory": "Sanat",
+      "tags": [
+        "art",
+        "gallery",
+        "exhibition"
+      ],
+      "price": "medium",
+      "rating": 4.5,
+      "description": "İskoç sanatının en iyilerini sergileyen, dönemsel sergilere ev sahipliği yapan çok katlı sanat galerisi.",
+      "description_en": "Multi-story art gallery showcasing the best of Scottish art and hosting temporary exhibitions.",
+      "tips": "Giriş katındaki dükkanda harika tasarım hediyelikler bulunur.",
+      "tips_en": "The shop on the ground floor has great design souvenirs.",
+      "id": "city-art-centre",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/city-art-centre.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "Fruitmarket Gallery",
+      "area": "old town",
+      "category": "Müze",
+      "subcategory": "Sanat",
+      "tags": [
+        "art",
+        "contemporary",
+        "free"
+      ],
+      "price": "free",
+      "rating": 4.6,
+      "description": "Waverley İstasyonu'nun hemen yanında, eski bir meyve pazarından dönüştürülmüş çağdaş sanat alanı.",
+      "description_en": "Contemporary art space converted from an old fruit market, right next to Waverley Station.",
+      "tips": "Kitapçısı, sanat kitapları konusunda şehrin en iyilerindendir.",
+      "tips_en": "Its bookstore is one of the best in the city for art books.",
+      "id": "fruitmarket-gallery",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/fruitmarket-gallery.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "Collective",
+      "area": "calton hill",
+      "category": "Müze",
+      "subcategory": "Sanat",
+      "tags": [
+        "art",
+        "view",
+        "observatory"
+      ],
+      "price": "free",
+      "rating": 4.6,
+      "description": "Calton Hill üzerindeki eski gözlemevi binalarında yer alan, modern sanatlar merkezi.",
+      "description_en": "Centre for contemporary art located in the former observatory buildings on Calton Hill.",
+      "tips": "'The Lookout' restoranında yemek yerken manzara nefes kesicidir.",
+      "tips_en": "The view is breathtaking while dining at 'The Lookout' restaurant.",
+      "id": "collective",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/collective.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "Nelson Monument",
+      "area": "calton hill",
+      "category": "Manzara",
+      "subcategory": "Anıt",
+      "tags": [
+        "view",
+        "history",
+        "tower"
+      ],
+      "price": "low",
+      "rating": 4.5,
+      "description": "Teleskop şeklindeki bu anıt kule, Amiral Nelson anısına dikilmiştir ve tepesinden 360 derece manzara sunar.",
+      "description_en": "This telescope-shaped monument tower was erected in memory of Admiral Nelson and offers 360-degree views from the top.",
+      "tips": "Her gün saat 13:00'te tepesindeki zaman topunun düşüşünü izleyin.",
+      "tips_en": "Watch the time ball drop from the top every day at 1:00 PM.",
+      "id": "nelson-monument",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/nelson-monument.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "National Monument of Scotland",
+      "area": "calton hill",
+      "category": "Tarihi",
+      "subcategory": "Anıt",
+      "tags": [
+        "architecture",
+        "greek",
+        "unfinished"
+      ],
+      "price": "free",
+      "rating": 4.4,
+      "description": "Atina'daki Parthenon'a benzeyen ancak bütçe yetersizliği nedeniyle yarım kalan, 'İskoçya'nın Utancı' lakaplı anıt.",
+      "description_en": "Monument resembling the Parthenon in Athens but left unfinished due to lack of funds, nicknamed 'Scotland's Disgrace'.",
+      "tips": "Devasa sütunlarına tırmanıp fotoğraf çekilmek bir gelenektir.",
+      "tips_en": "It is a tradition to climb its massive columns and take photos.",
+      "id": "national-monument-of-scotland",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/national-monument-of-scotland.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "Dugald Stewart Monument",
+      "area": "calton hill",
+      "category": "Manzara",
+      "subcategory": "Anıt",
+      "tags": [
+        "photo",
+        "landmark",
+        "iconic"
+      ],
+      "price": "free",
+      "rating": 4.8,
+      "description": "Calton Hill üzerinde ikonik anıt, Atina mimarisi esintili. Şehrin en popüler gün batımı ve kale manzarası noktası.",
+      "description_en": "Iconic monument on Calton Hill, inspired by Athenian architecture. City's most popular sunset and castle view spot.",
+      "tips": "Buradan gün batımında kaleyi ve şehri çekmek, Edinburgh'un klasik karesidir.",
+      "tips_en": "Shooting the castle and city from here at sunset is the classic Edinburgh shot.",
+      "id": "dugald-stewart-monument",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/dugald-stewart-monument.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "Portobello Beach",
+      "area": "portobello",
+      "category": "Doğa",
+      "subcategory": "Plaj",
+      "tags": [
+        "beach",
+        "seaside",
+        "walk"
+      ],
+      "price": "free",
+      "rating": 4.6,
+      "description": "Edinburgh'un 'sahil kasabası'; uzun kumsalı, yürüyüş yolu ve viktoryen tarzı kafeleriyle ünlü.",
+      "description_en": "Edinburgh's 'seaside resort'; famous for its long sandy beach, promenade, and Victorian-style cafes.",
+      "tips": "Güneşli günlerde dondurma alıp sahilde yürümek çok keyiflidir.",
+      "tips_en": "On sunny days, it's delightful to grab an ice cream and walk along the beach.",
+      "id": "portobello-beach",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/portobello-beach.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "Cramond Island",
+      "area": "cramond",
+      "category": "Doğa",
+      "subcategory": "Ada",
+      "tags": [
+        "island",
+        "adventure",
+        "tidal"
+      ],
+      "price": "free",
+      "rating": 4.7,
+      "description": "Sadece gelgit çekildiğinde beton bir yoldan yürüyerek ulaşılabilen, tarihi kalıntılara sahip gelgit adası.",
+      "description_en": "Tidal island with historic ruins, reachable on foot via a concrete causeway only when the tide is out.",
+      "tips": "Gelgit saatlerini MUTLAKA kontrol edin, yoksa adada mahsur kalabilirsiniz!",
+      "tips_en": "MUST check tide times, otherwise you might get stranded on the island!",
+      "id": "cramond-island",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/cramond-island.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "Lauriston Castle",
+      "area": "cramond",
+      "category": "Tarihi",
+      "subcategory": "Kale",
+      "tags": [
+        "castle",
+        "garden",
+        "view"
+      ],
+      "price": "free",
+      "rating": 4.6,
+      "description": "Deniz manzaralı, harika bir Japon bahçesine sahip, 16. yüzyıldan kalma kule ev ve malikane.",
+      "description_en": "16th-century tower house and mansion with sea views and a wonderful Japanese garden.",
+      "tips": "Bahçelerine giriş ücretsizdir ve piknik için çok huzurlu bir yerdir.",
+      "tips_en": "Entry to the gardens is free and it's a very peaceful place for a picnic.",
+      "id": "lauriston-castle",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/lauriston-castle.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "Craigmillar Castle",
+      "area": "craigmillar",
+      "category": "Tarihi",
+      "subcategory": "Kale",
+      "tags": [
+        "castle",
+        "history",
+        "outlander"
+      ],
+      "price": "medium",
+      "rating": 4.7,
+      "description": "Edinburgh Kalesi'nden daha sakin ama en az onun kadar etkileyici, Mary Queen of Scots'un sığındığı orta çağ kalesi.",
+      "description_en": "Medieval castle where Mary Queen of Scots sought refuge, quieter than Edinburgh Castle but just as impressive.",
+      "tips": "Outlander dizisinin bazı sahneleri (Ardsmuir Prison) burada çekilmiştir.",
+      "tips_en": "Some scenes from Outlander (Ardsmuir Prison) were filmed here.",
+      "id": "craigmillar-castle",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/craigmillar-castle.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "Rosslyn Chapel",
+      "area": "roslin",
+      "category": "Tarihi",
+      "subcategory": "Şapel",
+      "tags": [
+        "history",
+        "mystery",
+        "da vinci code"
+      ],
+      "price": "medium",
+      "rating": 4.7,
+      "description": "Da Vinci Şifresi kitabıyla ünlenen, gizemli taş oymaları ve efsaneleriyle dolu 15. yüzyıl şapeli.",
+      "description_en": "15th-century chapel full of mysterious stone carvings and legends, made famous by The Da Vinci Code.",
+      "tips": "Şehir merkezinden 37 numaralı otobüsle ulaşabilirsiniz.",
+      "tips_en": "You can reach it by taking bus number 37 from the city center.",
+      "id": "rosslyn-chapel",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/rosslyn-chapel.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "Gilmerton Cove",
+      "area": "gilmerton",
+      "category": "Tarihi",
+      "subcategory": "Yeraltı",
+      "tags": [
+        "underground",
+        "mystery",
+        "caves"
+      ],
+      "price": "medium",
+      "rating": 4.4,
+      "description": "Kökeni ve amacı hala tam olarak bilinmeyen, elle oyulmuş gizemli yeraltı tünelleri ve odaları.",
+      "description_en": "Mysterious hand-carved underground tunnels and chambers whose origin and purpose remain unknown.",
+      "tips": "Sadece randevulu turlarla gezilebilir, önceden arayın.",
+      "tips_en": "Can only be visited by appointment tours, call ahead.",
+      "id": "gilmerton-cove",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "Dr Neil's Garden",
+      "area": "duddingston",
+      "category": "Doğa",
+      "subcategory": "Bahçe",
+      "tags": [
+        "garden",
+        "hidden gem",
+        "peaceful"
+      ],
+      "price": "free",
+      "rating": 4.8,
+      "description": "Arthur's Seat'in gölgesinde, Duddingston Gölü kıyısında yer alan ve 'İskoçya'nın Gizli Bahçesi' olarak bilinen huzur vahası.",
+      "description_en": "Oasis of peace located by Duddingston Loch in the shadow of Arthur's Seat, known as 'Scotland's Secret Garden'.",
+      "tips": "Meditasyon yapmak veya kitap okumak için şehirdeki en iyi yer.",
+      "tips_en": "The best place in the city to meditate or read a book.",
+      "id": "dr-neils-garden",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/dr-neils-garden.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "The Sheep Heid Inn",
+      "area": "duddingston",
+      "category": "Yeme İçme",
+      "subcategory": "Pub",
+      "tags": [
+        "pub",
+        "historic",
+        "bowling"
+      ],
+      "price": "medium",
+      "rating": 4.6,
+      "description": "1360 yılından beri hizmet verdiği söylenen, İskoçya'nın en eski pub'ı olma iddiasındaki tarihi mekan.",
+      "description_en": "Historic venue claiming to be Scotland's oldest pub, said to have been serving since 1360.",
+      "tips": "Arka taraftaki Viktorya döneminden kalma 'skittles' (bowling) salonunu deneyin.",
+      "tips_en": "Try the Victorian skittles (bowling) alley in the back.",
+      "id": "the-sheep-heid-inn",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/the-sheep-heid-inn.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "Summerhall",
+      "area": "newington",
+      "category": "Kültür",
+      "subcategory": "Sanat Merkezi",
+      "tags": [
+        "arts",
+        "events",
+        "drinks"
+      ],
+      "price": "medium",
+      "rating": 4.6,
+      "description": "Eski veterinerlik fakültesi binasında yer alan; stüdyolar, sergiler, tiyatro ve bir de bira fabrikası barındıran kültür kompleksi.",
+      "description_en": "Cultural complex in a former veterinary school building, housing studios, exhibitions, theater, and a brewery.",
+      "tips": "Pickering's Gin damıtımevi de buradadır, turlara katılabilirsiniz.",
+      "tips_en": "Pickering's Gin distillery is also here; you can join tours.",
+      "id": "summerhall",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/summerhall.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "Bedlam Theatre",
+      "area": "old town",
+      "category": "Kültür",
+      "subcategory": "Tiyatro",
+      "tags": [
+        "theatre",
+        "student",
+        "improv"
+      ],
+      "price": "low",
+      "rating": 4.4,
+      "description": "Eski bir kilise binasında faaliyet gösteren, ülkenin en eski öğrenci tiyatrosu; özellikle doğaçlama (improv) şovlarıyla ünlü.",
+      "description_en": "Country's oldest student theatre operating in an old church building; especially famous for improv shows.",
+      "tips": "Cuma geceleri 'The Improverts' şovunu kaçırmayın.",
+      "tips_en": "Don't miss 'The Improverts' show on Friday nights.",
+      "id": "bedlam-theatre",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/bedlam-theatre.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "Edinburgh Festival Theatre",
+      "area": "old town",
+      "category": "Kültür",
+      "subcategory": "Tiyatro",
+      "tags": [
+        "theatre",
+        "opera",
+        "ballet"
+      ],
+      "price": "medium",
+      "rating": 4.7,
+      "description": "Opera, bale ve büyük prodüksiyonlara ev sahipliği yapan, İskoçya'nın en büyük sahnesine sahip cam cepheli tiyatro.",
+      "description_en": "Glass-fronted theatre with Scotland's largest stage, hosting opera, ballet, and major productions.",
+      "tips": "Hayalet hikayelerini seviyorsanız, sahne arkası turlarına katılın.",
+      "tips_en": "If you like ghost stories, join the backstage tours.",
+      "id": "edinburgh-festival-theatre",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/edinburgh-festival-theatre.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "Edinburgh Playhouse",
+      "area": "new town",
+      "category": "Kültür",
+      "subcategory": "Tiyatro",
+      "tags": [
+        "theatre",
+        "musicals",
+        "large"
+      ],
+      "price": "medium",
+      "rating": 4.5,
+      "description": "Birleşik Krallık'taki en büyük oturma kapasitesine sahip tiyatrolardan biri; genellikle büyük müzikaller burada sahnelenir.",
+      "description_en": "One of the largest seating capacity theatres in the UK; major musicals are usually staged here.",
+      "tips": "Merdivenleri çoktur, asansör durumunu önceden kontrol edin.",
+      "tips_en": "It has many stairs, check the elevator situation in advance.",
+      "id": "edinburgh-playhouse",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/edinburgh-playhouse.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "Jupiter Artland",
+      "area": "wilkieston",
+      "category": "Sanat",
+      "subcategory": "Açık Hava",
+      "tags": [
+        "art",
+        "sculpture",
+        "nature"
+      ],
+      "price": "medium",
+      "rating": 4.8,
+      "description": "Şehir dışında geniş bir arazide, doğayla iç içe geçmiş çağdaş heykel ve arazi sanatı (land art) parkı.",
+      "description_en": "Contemporary sculpture and land art park set within a vast estate outside the city, intertwined with nature.",
+      "tips": "Charles Jencks'in 'Cells of Life' peyzajı tepeden harika görünür.",
+      "tips_en": "Charles Jencks' 'Cells of Life' landscape looks great from above.",
+      "id": "jupiter-artland",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/jupiter-artland.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "South Queensferry",
+      "area": "queensferry",
+      "category": "Manzara",
+      "subcategory": "Kasaba",
+      "tags": [
+        "view",
+        "town",
+        "bridges"
+      ],
+      "price": "free",
+      "rating": 4.7,
+      "description": "UNESCO listesindeki Forth Köprüsü'nün en iyi manzarasını sunan, renkli evleri ve limanıyla şirin bir kasaba.",
+      "description_en": "Cute town with colorful houses and harbor offering the best view of the UNESCO-listed Forth Bridge.",
+      "tips": "Daha iyi fotoğraflar için tekne turlarına katılabilirsiniz.",
+      "tips_en": "You can join boat tours for better photos.",
+      "id": "south-queensferry",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/south-queensferry.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "Maid of the Forth",
+      "area": "queensferry",
+      "category": "Deneyim",
+      "subcategory": "Tekne Turu",
+      "tags": [
+        "boat",
+        "tour",
+        "wildlife"
+      ],
+      "price": "medium",
+      "rating": 4.6,
+      "description": "Forth Köprüleri'nin altından geçen ve Inchcolm Adası'na giden keyifli tekne turları.",
+      "description_en": "Pleasant boat tours passing under the Forth Bridges and going to Inchcolm Island.",
+      "tips": "Fok balıklarını görmek için dürbün getirmeyi unutmayın.",
+      "tips_en": "Don't forget to bring binoculars to see the seals.",
+      "id": "maid-of-the-forth",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/maid-of-the-forth.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "Deep Sea World",
+      "area": "north queensferry",
+      "category": "Aktivite",
+      "subcategory": "Akvaryum",
+      "tags": [
+        "aquarium",
+        "sharks",
+        "kids"
+      ],
+      "price": "medium",
+      "rating": 4.4,
+      "description": "Forth Nehri'nin karşısında yer alan, İskoçya'nın ulusal akvaryumu ve Avrupa'nın en uzun su altı tünellerinden birine sahip.",
+      "description_en": "Located across the Forth River, Scotland's national aquarium featuring one of Europe's longest underwater tunnels.",
+      "tips": "Köpekbalığı dalışı deneyimi (shark dive) için önceden rezervasyon gerekir.",
+      "tips_en": "Advance reservation is required for the shark dive experience.",
+      "id": "deep-sea-world",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/deep-sea-world.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "Edinburgh Zoo",
+      "area": "corstorphine",
+      "category": "Aktivite",
+      "subcategory": "Hayvanat Bahçesi",
+      "tags": [
+        "zoo",
+        "animals",
+        "family"
+      ],
+      "price": "medium",
+      "rating": 4.5,
+      "description": "Birleşik Krallık'taki tek dev pandalara (eskiden) ve ünlü penguen yürüyüşüne ev sahipliği yapan büyük hayvanat bahçesi.",
+      "description_en": "Large zoo famous for the penguin parade and (formerly) home to the only giant pandas in the UK.",
+      "tips": "Her gün yapılan 'Penguin Parade' kaçırılmaması gereken bir etkinliktir.",
+      "tips_en": "The daily 'Penguin Parade' is a must-see event.",
+      "id": "edinburgh-zoo",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/edinburgh-zoo.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "The Writers' Museum",
+      "area": "old town",
+      "category": "Müze",
+      "subcategory": "Edebiyat",
+      "tags": [
+        "literature",
+        "museum",
+        "history"
+      ],
+      "price": "free",
+      "rating": 4.5,
+      "description": "Burns, Scott ve Stevenson gibi İskoç edebiyatının devlerine adanmış, 17. yüzyıl evinde yer alan müze.",
+      "description_en": "Museum in a 17th-century house dedicated to Scottish literary giants like Burns, Scott, and Stevenson.",
+      "tips": "Lady Stair's Close'daki konumu bile başlı başına bir ziyaret sebebidir.",
+      "tips_en": "Its location in Lady Stair's Close is a reason to visit in itself.",
+      "id": "the-writers-museum",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/the-writers-museum.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "New Calton Burial Ground",
+      "area": "calton",
+      "category": "Tarihi",
+      "subcategory": "Mezarlık",
+      "tags": [
+        "cemetery",
+        "history",
+        "view"
+      ],
+      "price": "free",
+      "rating": 4.4,
+      "description": "Arthur's Seat ve Holyrood Sarayı'na bakan, Robert Louis Stevenson'ın ailesinin mezarlarının bulunduğu tarihi mezarlık.",
+      "description_en": "Historic burial ground overlooking Arthur's Seat and Holyrood Palace, containing the graves of Robert Louis Stevenson's family.",
+      "tips": "Buradaki Gözetleme Kulesi, mezar hırsızlarına karşı yapılmıştır.",
+      "tips_en": "The Watch Tower here was built against grave robbers.",
+      "id": "new-calton-burial-ground",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/new-calton-burial-ground.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "Edinburgh Festival Fringe",
+      "area": "city centre",
+      "category": "Kültür",
+      "subcategory": "Festival",
+      "tags": [
+        "festival",
+        "comedy",
+        "theatre"
+      ],
+      "price": "medium",
+      "rating": 4.9,
+      "description": "Dünyanın en büyük sanat festivali; Ağustos ayı boyunca şehir binlerce şova ve sanatçıya ev sahipliği yapar.",
+      "description_en": "The world's largest arts festival; the city hosts thousands of shows and artists throughout August.",
+      "tips": "Royal Mile'daki sokak gösterilerini ücretsiz izleyebilirsiniz.",
+      "tips_en": "You can watch street performances on the Royal Mile for free.",
+      "id": "edinburgh-festival-fringe",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/edinburgh-festival-fringe.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "The Royal Edinburgh Military Tattoo",
+      "area": "old town",
+      "category": "Kültür",
+      "subcategory": "Etkinlik",
+      "tags": [
+        "music",
+        "military",
+        "spectacle"
+      ],
+      "price": "high",
+      "rating": 4.8,
+      "description": "Edinburgh Kalesi'nin esplanadında düzenlenen, gaydalar ve havai fişeklerle dolu muazzam askeri müzik gösterisi.",
+      "description_en": "Spectacular military music show with bagpipes and fireworks held on the Edinburgh Castle esplanade.",
+      "tips": "Biletler aylar öncesinden tükenir, erken davranın.",
+      "tips_en": "Tickets sell out months in advance, act early.",
+      "id": "the-royal-edinburgh-military-tattoo",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/the-royal-edinburgh-military-tattoo.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "Pleasance Courtyard",
+      "area": "newington",
+      "category": "Kültür",
+      "subcategory": "Festival Mekanı",
+      "tags": [
+        "festival",
+        "comedy",
+        "bar"
+      ],
+      "price": "medium",
+      "rating": 4.7,
+      "description": "Fringe Festivali'nin kalbi; arnavut kaldırımlı avlusu ve çok sayıda salonuyla festivalin en popüler takılma noktası.",
+      "description_en": "The heart of the Fringe Festival; the most popular hangout spot with its cobbled courtyard and numerous venues.",
+      "tips": "Festival dışında da burada etkinlikler olabilir.",
+      "tips_en": "There might be events here outside the festival too.",
+      "id": "pleasance-courtyard",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/pleasance-courtyard.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "Mary's Milk Bar",
+      "area": "grassmarket",
+      "category": "Yeme İçme",
+      "subcategory": "Dondurma",
+      "tags": [
+        "ice cream",
+        "dessert",
+        "view"
+      ],
+      "price": "medium",
+      "rating": 4.8,
+      "description": "Her gün değişen taze, ev yapımı dondurmalarıyla ünlü, kalenin hemen altında yer alan retro tarzda dondurmacı.",
+      "description_en": "Retro-style ice cream shop right under the castle, famous for its fresh homemade ice cream changing daily.",
+      "tips": "Tuzlu karamelli dondurması efsanedir.",
+      "tips_en": "The salted caramel ice cream is legendary.",
+      "id": "marys-milk-bar",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/marys-milk-bar.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "The Outsider",
+      "area": "old town",
+      "category": "Restoran",
+      "subcategory": "Restoran",
+      "tags": [
+        "food",
+        "view",
+        "castle"
+      ],
+      "price": "medium",
+      "rating": 4.6,
+      "description": "George IV Bridge üzerinde, harika kale manzarasına ve makul fiyatlı, lezzetli bir menüye sahip popüler restoran.",
+      "description_en": "Popular restaurant on George IV Bridge with a great castle view and a reasonably priced, delicious menu.",
+      "tips": "Pencere kenarı masa için rezervasyon yaparken ısrarcı olun.",
+      "tips_en": "Be persistent about a window table when booking.",
+      "id": "the-outsider",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/the-outsider.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "Timberyard",
+      "area": "old town",
+      "category": "Restoran",
+      "subcategory": "Fine Dining",
+      "tags": [
+        "food",
+        "nordic",
+        "industrial"
+      ],
+      "price": "high",
+      "rating": 4.7,
+      "description": "Eski bir depoda yer alan, İskandinav esintili tadım menüleri sunan, Michelin yıldızlı şık restoran.",
+      "description_en": "Michelin-starred chic restaurant in an old warehouse offering Nordic-inspired tasting menus.",
+      "tips": "Öğle yemeği menüsü akşam yemeğine göre daha uygun fiyatlıdır.",
+      "tips_en": "The lunch menu is more affordable than dinner.",
+      "id": "timberyard",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/timberyard.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "El Cartel",
+      "area": "new town",
+      "category": "Restoran",
+      "subcategory": "Meksika",
+      "tags": [
+        "mexican",
+        "tacos",
+        "tequila"
+      ],
+      "price": "medium",
+      "rating": 4.6,
+      "description": "Şehrin en iyi otantik Meksika sokak lezzetlerini ve tekilalarını sunan küçük ama enerjik mekan.",
+      "description_en": "Small but energetic spot serving the city's best authentic Mexican street food and tequilas.",
+      "tips": "Rezervasyon almıyorlar, erken gitmekte fayda var.",
+      "tips_en": "They don't take reservations, it's good to go early.",
+      "id": "el-cartel",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/el-cartel.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "The Bon Vivant",
+      "area": "new town",
+      "category": "Yeme İçme",
+      "subcategory": "Bar & Restoran",
+      "tags": [
+        "cocktails",
+        "food",
+        "intimate"
+      ],
+      "price": "medium",
+      "rating": 4.6,
+      "description": "Mum ışığında, samimi bir atmosferde şampanyalar ve lezzetli atıştırmalıklar sunan ödüllü mekan.",
+      "description_en": "Award-winning venue offering champagnes and delicious bites in a candlelit, intimate atmosphere.",
+      "tips": "'Haggis Bon Bons' atıştırmalığını mutlaka deneyin.",
+      "tips_en": "Definitely try the 'Haggis Bon Bons' snack.",
+      "id": "the-bon-vivant",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/the-bon-vivant.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "The Devil's Advocate",
+      "area": "old town",
+      "category": "Yeme İçme",
+      "subcategory": "Bar & Restoran",
+      "tags": [
+        "whisky",
+        "location",
+        "historic"
+      ],
+      "price": "high",
+      "rating": 4.6,
+      "description": "Advocates Close'daki eski bir pompa istasyonunda yer alan, geniş viski menüsüyle ünlü atmosferik bar.",
+      "description_en": "Atmospheric bar in an old pump house on Advocates Close, famous for its extensive whisky menu.",
+      "tips": "Terası yaz aylarında harika bir kaçış noktasıdır.",
+      "tips_en": "The terrace is a great escape spot in summer months.",
+      "id": "the-devils-advocate",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/the-devils-advocate.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "Cold Town House",
+      "area": "grassmarket",
+      "category": "Yeme İçme",
+      "subcategory": "Bar",
+      "tags": [
+        "rooftop",
+        "beer",
+        "pizza"
+      ],
+      "price": "medium",
+      "rating": 4.5,
+      "description": "Kendi birasını üreten ve kale manzaralı harika bir çatı terasına sahip, Grassmarket'teki popüler mekan.",
+      "description_en": "Popular spot in Grassmarket brewing its own beer and boasting a great rooftop terrace with castle views.",
+      "tips": "Çatı katındaki teleferik (gondola) kabinlerinde oturmak çok keyiflidir.",
+      "tips_en": "It's very enjoyable to sit in the gondola cabins on the roof.",
+      "id": "cold-town-house",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/cold-town-house.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "Greyfriars Bobby's Bar",
+      "area": "candlemaker row",
+      "category": "Yeme İçme",
+      "subcategory": "Pub",
+      "tags": [
+        "pub",
+        "dog",
+        "tourist"
+      ],
+      "price": "medium",
+      "rating": 4.3,
+      "description": "Ünlü sadık köpeğin heykelinin hemen yanında yer alan, turistlerin uğrak noktası olan geleneksel pub.",
+      "description_en": "Traditional pub right next to the statue of the famous loyal dog, a frequent stop for tourists.",
+      "tips": "Öğle yemeği için 'Steak & Ale Pie' güzel bir tercihtir.",
+      "tips_en": "'Steak & Ale Pie' is a good choice for lunch.",
+      "id": "greyfriars-bobbys-bar",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/greyfriars-bobbys-bar.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "Frankenstein",
+      "area": "old town",
+      "category": "Eğlence",
+      "subcategory": "Bar",
+      "tags": [
+        "theme",
+        "horror",
+        "party"
+      ],
+      "price": "medium",
+      "rating": 4.3,
+      "description": "Gotik korku temalı, canavar animatroniklerinin olduğu, eski bir kiliseden dönüştürülmüş üç katlı bar.",
+      "description_en": "Three-story bar converted from an old church, with a Gothic horror theme and monster animatronics.",
+      "tips": "Gece yarısına doğru yapılan şovları bekleyin.",
+      "tips_en": "Wait for the shows happening towards midnight.",
+      "id": "frankenstein",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/frankenstein.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "The Three Sisters",
+      "area": "cowgate",
+      "category": "Eğlence",
+      "subcategory": "Bar",
+      "tags": [
+        "sports",
+        "party",
+        "courtyard"
+      ],
+      "price": "medium",
+      "rating": 4.2,
+      "description": "Maç günleri dev ekranlarıyla dolup taşan, geniş bir avluya sahip popüler öğrenci ve spor barı.",
+      "description_en": "Popular student and sports bar with a large courtyard, packed on match days with giant screens.",
+      "tips": "Aziz Patrick Günü'nde burası şehrin en hareketli yeridir.",
+      "tips_en": "This is the liveliest place in the city on St. Patrick's Day.",
+      "id": "the-three-sisters",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/the-three-sisters.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "Captain's Bar",
+      "area": "south college street",
+      "category": "Eğlence",
+      "subcategory": "Canlı Müzik",
+      "tags": [
+        "folk",
+        "music",
+        "intimate"
+      ],
+      "price": "medium",
+      "rating": 4.7,
+      "description": "Her gün akustik canlı müziğin olduğu, yerel müzisyenlerin çalıp söylediği samimi ve küçük bar.",
+      "description_en": "Intimate and small bar with daily acoustic live music where local musicians play and sing.",
+      "tips": "Yer bulmak zordur, ayakta durmaya hazırlıklı olun.",
+      "tips_en": "Hard to find a seat, be prepared to stand.",
+      "id": "captains-bar",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/captains-bar.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "The Jazz Bar",
+      "area": "chambers street",
+      "category": "Eğlence",
+      "subcategory": "Müzik Kulübü",
+      "tags": [
+        "jazz",
+        "music",
+        "basement"
+      ],
+      "price": "medium",
+      "rating": 4.6,
+      "description": "Yer altı mahzeninde yer alan, dünya çapında caz, funk ve soul müzisyenlerini ağırlayan kült mekan.",
+      "description_en": "Cult venue in a basement cellar hosting world-class jazz, funk, and soul musicians.",
+      "tips": "Gece geç saatteki 'jam session'lar çok keyiflidir.",
+      "tips_en": "Late-night 'jam sessions' are very enjoyable.",
+      "id": "the-jazz-bar",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/the-jazz-bar.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "The Liquid Room",
+      "area": "victoria street",
+      "category": "Eğlence",
+      "subcategory": "Gece Kulübü",
+      "tags": [
+        "club",
+        "live music",
+        "venue"
+      ],
+      "price": "medium",
+      "rating": 4.4,
+      "description": "Eski bir kilisede yer alan, ünlü grupların konser verdiği ve DJ performanslarının olduğu köklü gece kulübü.",
+      "description_en": "Established nightclub in a former church hosting concerts by famous bands and DJ performances.",
+      "tips": "Konser takvimini kontrol edin, sevdiğiniz bir grup çıkabilir.",
+      "tips_en": "Check the concert calendar, a band you like might be playing.",
+      "id": "the-liquid-room",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/the-liquid-room.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "Cabaret Voltaire",
+      "area": "cowgate",
+      "category": "Eğlence",
+      "subcategory": "Gece Kulübü",
+      "tags": [
+        "club",
+        "underground",
+        "electronic"
+      ],
+      "price": "medium",
+      "rating": 4.3,
+      "description": "Şehrin yeraltı mahzenlerinde yer alan, elektronik müzik ve alternatif sahnenin merkezi olan kulüp.",
+      "description_en": "Club located in the city's underground vaults, central to the electronic music and alternative scene.",
+      "tips": "Ses sistemi şehrin en iyilerinden biridir.",
+      "tips_en": "The sound system is one of the best in the city.",
+      "id": "cabaret-voltaire",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/cabaret-voltaire.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "Sneaky Pete's",
+      "area": "cowgate",
+      "category": "Eğlence",
+      "subcategory": "Müzik Kulübü",
+      "tags": [
+        "live music",
+        "club",
+        "intimate"
+      ],
+      "price": "medium",
+      "rating": 4.6,
+      "description": "Sadece 100 kişilik kapasitesiyle samimi konserlere ve çılgın dans gecelerine ev sahipliği yapan efsanevi kutu gibi mekan.",
+      "description_en": "Legendary box-like venue hosting intimate gigs and wild dance nights with a capacity of only 100.",
+      "tips": "Biletler çabuk tükenir, önceden alın.",
+      "tips_en": "Tickets sell out fast, buy in advance.",
+      "id": "sneaky-petes",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/sneaky-petes.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "The Hive",
+      "area": "niddry street",
+      "category": "Eğlence",
+      "subcategory": "Gece Kulübü",
+      "tags": [
+        "club",
+        "student",
+        "cheap"
+      ],
+      "price": "low",
+      "rating": 3.8,
+      "description": "Öğrencilerin favorisi, ucuz içkileri ve yapışkan zeminiyle ünlü, her türden müziğin çaldığı labirent gibi kulüp.",
+      "description_en": "Student favorite, maze-like club famous for cheap drinks, sticky floors, and playing all kinds of music.",
+      "tips": "Salaş bir gece geçirmek istiyorsanız doğru adres.",
+      "tips_en": "The right address if you want a grungy night out.",
+      "id": "the-hive",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/the-hive.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "BrewDog Edinburgh",
+      "area": "cowgate",
+      "category": "Yeme İçme",
+      "subcategory": "Bar",
+      "tags": [
+        "craft beer",
+        "punk",
+        "pizza"
+      ],
+      "price": "medium",
+      "rating": 4.6,
+      "description": "İskoç craft bira devi BrewDog'un Cowgate'teki popüler barı; zengin fıçı seçenekleri ve pizzalarıyla bilinir.",
+      "description_en": "Popular bar of Scottish craft beer giant BrewDog in Cowgate; known for rich draft options and pizzas.",
+      "tips": "Elvis Juice isimli biralarını denemenizi öneririm.",
+      "tips_en": "I recommend trying their beer called Elvis Juice.",
+      "id": "brewdog-edinburgh",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/brewdog-edinburgh.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "The Hanging Bat",
+      "area": "lothian road",
+      "category": "Yeme İçme",
+      "subcategory": "Bar",
+      "tags": [
+        "craft beer",
+        "bbq",
+        "modern"
+      ],
+      "price": "medium",
+      "rating": 4.6,
+      "description": "Bira tutkunları için bir mabet; kendi nanobrewery'si olan ve İngiltere'nin en iyi craft bira barlarından biri.",
+      "description_en": "A temple for beer lovers; one of the UK's best craft beer bars with its own nanobrewery.",
+      "tips": "Bardaklar pint değil, 2/3 pint (schooner) olarak gelir, şaşırmayın.",
+      "tips_en": "Glasses come as 2/3 pint (schooner), not pints, don't be surprised.",
+      "id": "the-hanging-bat",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/the-hanging-bat.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "Salt Horse",
+      "area": "old town",
+      "category": "Yeme İçme",
+      "subcategory": "Bar",
+      "tags": [
+        "craft beer",
+        "shop",
+        "hidden"
+      ],
+      "price": "medium",
+      "rating": 4.7,
+      "description": "Hem bir şişe dükkanı (bottle shop) hem de bar olan, nadir bulunan biraları bulabileceğiniz şirin mekan.",
+      "description_en": "Cute venue that is both a bottle shop and a bar where you can find rare beers.",
+      "tips": "Dükkandan bira alıp küçük bir mantar parası (corkage) ödeyerek barda içebilirsiniz.",
+      "tips_en": "You can buy beer from the shop and drink at the bar for a small corkage fee.",
+      "id": "salt-horse",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/salt-horse.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "Vault City Brewing",
+      "area": "portobello",
+      "category": "Yeme İçme",
+      "subcategory": "Taproom",
+      "tags": [
+        "sour beer",
+        "brewery",
+        "modern"
+      ],
+      "price": "medium",
+      "rating": 4.8,
+      "description": "Özellikle ekşi (sour) meyveli biralarıyla ünlü, modern bira üreticisinin tadım barı.",
+      "description_en": "Tasting bar of a modern brewer famous especially for their sour fruity beers.",
+      "tips": "Bira sevmeyenleri bile şaşırtacak meyve aromalı bir seçenek mutlaka vardır.",
+      "tips_en": "There is definitely a fruit-flavored option that will surprise even non-beer lovers.",
+      "id": "vault-city-brewing",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/vault-city-brewing.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "Innis & Gunn Taproom",
+      "area": "lothian road",
+      "category": "Yeme İçme",
+      "subcategory": "Restoran & Bar",
+      "tags": [
+        "beer",
+        "food",
+        "local"
+      ],
+      "price": "medium",
+      "rating": 4.5,
+      "description": "Meşe fıçılarda yaşlandırılmış biralarıyla ünlü yerel markanın, harika yemek eşleşmeleri sunan taproom'u.",
+      "description_en": "Taproom of the local brand famous for oak-aged beers, offering great food pairings.",
+      "tips": "'Beer Kitchen' menüsünde bira ile pişirilmiş yemekleri deneyin.",
+      "tips_en": "Try the dishes cooked with beer on the 'Beer Kitchen' menu.",
+      "id": "innis-&-gunn-taproom",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/innis-&-gunn-taproom.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "Teuchters Landing",
+      "area": "leith",
+      "category": "Yeme İçme",
+      "subcategory": "Pub",
+      "tags": [
+        "pub",
+        "whisky",
+        "terrace"
+      ],
+      "price": "medium",
+      "rating": 4.6,
+      "description": "Leith'te su kenarında, eski bir bekleme salonundan dönüştürülmüş, geniş viski menüsü ve halkaları oyunuyla ünlü pub.",
+      "description_en": "Pub in Leith by the water converted from an old waiting room, famous for its extensive whisky menu and hoops game.",
+      "tips": "'Hoop of Destiny' oyununu oynayıp şansınıza çıkan viskiyi içebilirsiniz.",
+      "tips_en": "You can play the 'Hoop of Destiny' game and drink whichever whisky you get.",
+      "id": "teuchters-landing",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/teuchters-landing.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "The Roseleaf",
+      "area": "leith",
+      "category": "Yeme İçme",
+      "subcategory": "Bar & Kafe",
+      "tags": [
+        "quirky",
+        "cocktails",
+        "brunch"
+      ],
+      "price": "medium",
+      "rating": 4.6,
+      "description": "Alice Harikalar Diyarında havasında, kokteylleri porselen çaydanlıklarda servis etmesiyle ünlü neşeli mekan.",
+      "description_en": "Cheerful venue with an Alice in Wonderland vibe, famous for serving cocktails in china teapots.",
+      "tips": "'Pot-tails' dedikleri çaydanlık kokteylleri paylaşmak için idealdir.",
+      "tips_en": "The 'pot-tails' (teapot cocktails) are ideal for sharing.",
+      "id": "the-roseleaf",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/the-roseleaf.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "Nobles Cafe Bar",
+      "area": "leith",
+      "category": "Yeme İçme",
+      "subcategory": "Restoran",
+      "tags": [
+        "victorian",
+        "brunch",
+        "stained glass"
+      ],
+      "price": "medium",
+      "rating": 4.6,
+      "description": "Orijinal Viktorya dönemi vitrayları ve dekorasyonuyla Leith'in en güzel tarihi bar-restoranlarından biri.",
+      "description_en": "One of Leith's most beautiful historic bar-restaurants with original Victorian stained glass and decoration.",
+      "tips": "Hafta sonu brunch menüsü çok popülerdir.",
+      "tips_en": "The weekend brunch menu is very popular.",
+      "id": "nobles-cafe-bar",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/nobles-cafe-bar.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "Edinburgh Farmers' Market",
+      "area": "castle terrace",
+      "category": "Alışveriş",
+      "subcategory": "Pazar",
+      "tags": [
+        "market",
+        "food",
+        "local"
+      ],
+      "price": "medium",
+      "rating": 4.7,
+      "description": "Cumartesi günleri kale manzarası eşliğinde kurulan, taze İskoç ürünlerinin satıldığı ödüllü pazar.",
+      "description_en": "Award-winning market selling fresh Scottish produce, held on Saturdays with a castle view.",
+      "tips": "Buffalo burger yiyerek pazarın tadını çıkarın.",
+      "tips_en": "Enjoy the market by eating a buffalo burger.",
+      "id": "edinburgh-farmers-market",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/edinburgh-farmers-market.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "Hogmanay Street Party",
+      "area": "city centre",
+      "category": "Kültür",
+      "subcategory": "Festival",
+      "tags": [
+        "new year",
+        "party",
+        "fireworks"
+      ],
+      "price": "high",
+      "rating": 4.8,
+      "description": "Dünyanın en büyük Yılbaşı kutlamalarından biri; konserler, havai fişekler ve devasa bir sokak partisi.",
+      "description_en": "One of the world's biggest New Year's Eve celebrations; concerts, fireworks, and a massive street party.",
+      "tips": "Hava çok soğuk olur, kat kat giyinin.",
+      "tips_en": "It gets very cold, dress in layers.",
+      "id": "hogmanay-street-party",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/hogmanay-street-party.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "North Berwick",
+      "area": "east lothian",
+      "category": "Doğa",
+      "subcategory": "Sahil Kasabası",
+      "tags": [
+        "beach",
+        "seaside",
+        "day trip"
+      ],
+      "price": "free",
+      "rating": 4.8,
+      "description": "Edinburgh'a trenle 30 dakika mesafede, büyüleyici kumsalları ve butik dükkanlarıyla ünlü sahil kasabası.",
+      "description_en": "Charming seaside town famous for its beaches and boutique shops, 30 minutes by train from Edinburgh.",
+      "tips": "Istakoz kulübesinden (Lobster Shack) taze deniz ürünü yiyin.",
+      "tips_en": "Eat fresh seafood from the Lobster Shack.",
+      "id": "north-berwick",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/north-berwick.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "Tantallon Castle",
+      "area": "north berwick",
+      "category": "Tarihi",
+      "subcategory": "Kale",
+      "tags": [
+        "castle",
+        "ruins",
+        "cliff"
+      ],
+      "price": "medium",
+      "rating": 4.7,
+      "description": "Denize nazır sarp kayalıklar üzerine kurulmuş, Bass Rock manzaralı 14. yüzyıl kalesi kalıntıları.",
+      "description_en": "Ruins of a 14th-century castle set on cliffs overlooking the sea, with views of Bass Rock.",
+      "tips": "Kulelere tırmanırken rüzgara dikkat edin, manzara muazzamdır.",
+      "tips_en": "Be careful of the wind while climbing the towers; the view is magnificent.",
+      "id": "tantallon-castle",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/tantallon-castle.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "Bass Rock",
+      "area": "firth of forth",
+      "category": "Doğa",
+      "subcategory": "Vahşi Yaşam",
+      "tags": [
+        "wildlife",
+        "birds",
+        "nature"
+      ],
+      "price": "high",
+      "rating": 4.9,
+      "description": "Dünyanın en büyük sümsük kuşu (gannet) kolonisine ev sahipliği yapan volkanik kaya adası.",
+      "description_en": "Volcanic rock island hosting the world's largest colony of Northern gannets.",
+      "tips": "Sadece tekne turlarıyla görülebilir, önceden yer ayırtın.",
+      "tips_en": "Can only be seen via boat tours, book in advance.",
+      "id": "bass-rock",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/bass-rock.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "Linlithgow Palace",
+      "area": "linlithgow",
+      "category": "Tarihi",
+      "subcategory": "Saray",
+      "tags": [
+        "history",
+        "palace",
+        "ruins"
+      ],
+      "price": "medium",
+      "rating": 4.6,
+      "description": "İskoç Kraliçesi Mary'nin (Mary Queen of Scots) doğduğu yer olan, göl kenarındaki görkemli saray kalıntısı.",
+      "description_en": "Majestic palace ruin by a lake, the birthplace of Mary Queen of Scots.",
+      "tips": "Yaz aylarında sarayın avlusundaki çeşme çalıştırılır.",
+      "tips_en": "The fountain in the palace courtyard is turned on in summer months.",
+      "id": "linlithgow-palace",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/linlithgow-palace.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "The Kelpies",
+      "area": "falkirk",
+      "category": "Sanat",
+      "subcategory": "Heykel",
+      "tags": [
+        "sculpture",
+        "horses",
+        "landmark"
+      ],
+      "price": "free",
+      "rating": 4.8,
+      "description": "Efsanevi su atlarını tasvir eden, 30 metre yüksekliğindeki dünyanın en büyük at heykelleri.",
+      "description_en": "The world's largest equine sculptures, 30 meters high, depicting mythical water horses.",
+      "tips": "Gece ışıklandırmasıyla çok daha etkileyici görünürler.",
+      "tips_en": "They look much more impressive with night illumination.",
+      "id": "the-kelpies",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/the-kelpies.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "Falkirk Wheel",
+      "area": "falkirk",
+      "category": "Müze",
+      "subcategory": "Mühendislik",
+      "tags": [
+        "engineering",
+        "boat",
+        "canal"
+      ],
+      "price": "medium",
+      "rating": 4.7,
+      "description": "Mühendislik harikası döner tekne asansörü. Union ve Forth kanallarını birbirine bağlayan fütüristik yapı.",
+      "description_en": "Engineering marvel rotating boat lift. Futuristic structure connecting Union and Forth canals.",
+      "tips": "Tekne turuna katılarak asansör deneyimini bizzat yaşayın.",
+      "tips_en": "Experience the lift yourself by joining a boat tour.",
+      "id": "falkirk-wheel",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/falkirk-wheel.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "Pentland Hills Regional Park",
+      "area": "pentlands",
+      "category": "Doğa",
+      "subcategory": "Trekking",
+      "tags": [
+        "hiking",
+        "view",
+        "nature"
+      ],
+      "price": "free",
+      "rating": 4.8,
+      "description": "Şehrin hemen güneyinde, muhteşem manzaralar ve yürüyüş rotaları sunan tepeler silsilesi.",
+      "description_en": "Range of hills just south of the city offering magnificent views and hiking trails.",
+      "tips": "Allermuir Hill zirvesine çıkıp tüm Edinburgh'u izleyin.",
+      "tips_en": "Climb to the summit of Allermuir Hill to view all of Edinburgh.",
+      "id": "pentland-hills-regional-park",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/pentland-hills-regional-park.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "Harlaw Reservoir",
+      "area": "pentlands",
+      "category": "Doğa",
+      "subcategory": "Göl",
+      "tags": [
+        "walk",
+        "picnic",
+        "nature"
+      ],
+      "price": "free",
+      "rating": 4.7,
+      "description": "Pentland Tepeleri'nin eteğinde, kolay yürüyüş yolları ve piknik alanlarıyla popüler bir baraj gölü.",
+      "description_en": "Popular reservoir at the foot of the Pentland Hills with easy walking paths and picnic areas.",
+      "tips": "Hafta sonları otopark çok kalabalık olur.",
+      "tips_en": "The car park gets very crowded on weekends.",
+      "id": "harlaw-reservoir",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/harlaw-reservoir.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "Swanston Village",
+      "area": "pentlands",
+      "category": "Tarihi",
+      "subcategory": "Köy",
+      "tags": [
+        "village",
+        "history",
+        "scenic"
+      ],
+      "price": "free",
+      "rating": 4.6,
+      "description": "Robert Louis Stevenson'ın yazlarını geçirdiği, saz çatılı evleriyle ünlü pitoresk köy.",
+      "description_en": "Picturesque village famous for its thatched cottages, where Robert Louis Stevenson spent his summers.",
+      "tips": "Buradan tepelere doğru yürüyüşe başlayabilirsiniz.",
+      "tips_en": "You can start your hike towards the hills from here.",
+      "id": "swanston-village",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "Colinton Tunnel",
+      "area": "colinton",
+      "category": "Sanat",
+      "subcategory": "Mural",
+      "tags": [
+        "art",
+        "tunnel",
+        "walk"
+      ],
+      "price": "free",
+      "rating": 4.8,
+      "description": "Robert Louis Stevenson'ın şiirlerinden esinlenen devasa bir duvar resmiyle kaplı eski demiryolu tüneli.",
+      "description_en": "Old railway tunnel covered in a massive mural inspired by the poems of Robert Louis Stevenson.",
+      "tips": "Instagram için harika fotoğraf kareleri verir.",
+      "tips_en": "Provides great photo ops for Instagram.",
+      "id": "colinton-tunnel",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/colinton-tunnel.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "Water of Leith Visitor Centre",
+      "area": "slateford",
+      "category": "Müze",
+      "subcategory": "Doğa Merkezi",
+      "tags": [
+        "museum",
+        "education",
+        "nature"
+      ],
+      "price": "free",
+      "rating": 4.5,
+      "description": "Şehri boydan boya geçen nehir yolu hakkında bilgi merkezi. Yürüyüş rotaları, yaban hayatı ve interaktif sergiler.",
+      "description_en": "Information center about river walkway traversing the city. Walking routes, wildlife, and interactive exhibitions.",
+      "tips": "Çocuklar için nehir keşif çantaları ödünç alabilirsiniz.",
+      "tips_en": "You can borrow river exploration kits for kids.",
+      "id": "water-of-leith-visitor-centre",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/water-of-leith-visitor-centre.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "Saughton Park",
+      "area": "saughton",
+      "category": "Doğa",
+      "subcategory": "Park",
+      "tags": [
+        "garden",
+        "skatepark",
+        "rose"
+      ],
+      "price": "free",
+      "rating": 4.6,
+      "description": "Muhteşem bir gül bahçesine, kış bahçesine ve modern bir kaykay parkına sahip yenilenmiş park.",
+      "description_en": "Renovated park featuring a magnificent rose garden, winter garden, and a modern skatepark.",
+      "tips": "Güllerin en güzel zamanı Haziran-Temmuz aylarıdır.",
+      "tips_en": "The best time for roses is June-July.",
+      "id": "saughton-park",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/saughton-park.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "Dunbar",
+      "area": "east lothian",
+      "category": "Doğa",
+      "subcategory": "Kasaba",
+      "tags": [
+        "coast",
+        "history",
+        "walk"
+      ],
+      "price": "free",
+      "rating": 4.5,
+      "description": "Doğasever John Muir'in doğum yeri olan, iki limanı ve kırmızı kumtaşı kayalıklarıyla ünlü kasaba.",
+      "description_en": "Town famous for its two harbors and red sandstone cliffs, birthplace of naturalist John Muir.",
+      "tips": "John Muir'in Doğum Yeri Müzesi'ni ziyaret edin.",
+      "tips_en": "Visit the John Muir Birthplace Museum.",
+      "id": "dunbar",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/dunbar.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "National Museum of Flight",
+      "area": "east fortune",
+      "category": "Müze",
+      "subcategory": "Havacılık",
+      "tags": [
+        "aviation",
+        "concorde",
+        "history"
+      ],
+      "price": "medium",
+      "rating": 4.7,
+      "description": "İskoçya'nın Concorde uçağına ve birçok tarihi hava aracına ev sahipliği yapan havacılık müzesi.",
+      "description_en": "Aviation museum housing Scotland's Concorde and many historic aircraft.",
+      "tips": "Concorde'un içine girip kokpiti görebiliyorsunuz.",
+      "tips_en": "You can go inside the Concorde and see the cockpit.",
+      "id": "national-museum-of-flight",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/national-museum-of-flight.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "Glenkinchie Distillery",
+      "area": "pencaitland",
+      "category": "Deneyim",
+      "subcategory": "İçki",
+      "tags": [
+        "whisky",
+        "distillery",
+        "lowland"
+      ],
+      "price": "high",
+      "rating": 4.6,
+      "description": "'Edinburgh'un Maltı' olarak bilinen, Lowland bölgesi viskilerinin temsilcisi tarihi damıtımevi.",
+      "description_en": "Historic distillery known as 'The Edinburgh Malt', representative of Lowland region whiskies.",
+      "tips": "Şehirden kalkan servis otobüsleri vardır.",
+      "tips_en": "There are shuttle buses departing from the city.",
+      "id": "glenkinchie-distillery",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/glenkinchie-distillery.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "Roslin Glen Country Park",
+      "area": "roslin",
+      "category": "Doğa",
+      "subcategory": "Park",
+      "tags": [
+        "nature",
+        "walk",
+        "ruins"
+      ],
+      "price": "free",
+      "rating": 4.7,
+      "description": "Rosslyn Şapeli'nin yakınında, nehir kenarında yürüyüş yolları ve eski barut fabrikası kalıntıları içeren park.",
+      "description_en": "Park near Rosslyn Chapel with riverside walking trails and ruins of an old gunpowder mill.",
+      "tips": "Şapeli gezdikten sonra burada doğa yürüyüşü yapmak harikadır.",
+      "tips_en": "It's great to take a nature walk here after visiting the chapel.",
+      "id": "roslin-glen-country-park",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/roslin-glen-country-park.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "Dalkeith Country Park",
+      "area": "dalkeith",
+      "category": "Doğa",
+      "subcategory": "Park",
+      "tags": [
+        "family",
+        "adventure",
+        "shopping"
+      ],
+      "price": "medium",
+      "rating": 4.6,
+      "description": "Restoration Yard alışveriş merkezi ve Fort Douglas macera parkını içeren devasa bir malikane arazisi.",
+      "description_en": "Massive estate grounds featuring Restoration Yard shopping center and Fort Douglas adventure park.",
+      "tips": "Meşe ormanındaki 'Old Oak Wood' yürüyüş rotasını deneyin.",
+      "tips_en": "Try the 'Old Oak Wood' walking route in the oak forest.",
+      "id": "dalkeith-country-park",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/dalkeith-country-park.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "Edinburgh Butterfly & Insect World",
+      "area": "lasswade",
+      "category": "Aktivite",
+      "subcategory": "Hayvanlar",
+      "tags": [
+        "insects",
+        "kids",
+        "tropical"
+      ],
+      "price": "medium",
+      "rating": 4.5,
+      "description": "Serbestçe uçan kelebekler ve egzotik böceklerle dolu, tropikal iklimli kapalı alan.",
+      "description_en": "Tropical climate indoor area filled with free-flying butterflies and exotic insects.",
+      "tips": "Yılan tutma saatlerini (handling sessions) kaçırmayın.",
+      "tips_en": "Don't miss the snake handling sessions.",
+      "id": "edinburgh-butterfly-&-insect-world",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/edinburgh-butterfly-&-insect-world.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "The Secret Herb Garden",
+      "area": "lothianburn",
+      "category": "Doğa",
+      "subcategory": "Bahçe",
+      "tags": [
+        "garden",
+        "cafe",
+        "herbs"
+      ],
+      "price": "free",
+      "rating": 4.7,
+      "description": "Pentland Tepeleri'nin eteğinde, şifalı bitkiler, antika mobilyalar ve harika bir kafeye sahip büyüleyici bahçe.",
+      "description_en": "Charming garden at the foot of the Pentlands with medicinal herbs, antique furniture, and a great cafe.",
+      "tips": "Kendi ürettikleri cin (gin) tadımına katılabilirsiniz.",
+      "tips_en": "You can join a tasting of their own gin.",
+      "id": "the-secret-herb-garden",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/the-secret-herb-garden.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "Hopetoun House",
+      "area": "south queensferry",
+      "category": "Tarihi",
+      "subcategory": "Malikane",
+      "tags": [
+        "mansion",
+        "history",
+        "architecture"
+      ],
+      "price": "high",
+      "rating": 4.6,
+      "description": "İskoçya'nın en görkemli malikanelerinden biri; 18. yüzyıl mimarisi ve devasa arazisiyle ünlü.",
+      "description_en": "One of Scotland's grandest stately homes; famous for its 18th-century architecture and massive estate.",
+      "tips": "Outlander dizisinde Duke of Sandringham'ın evi olarak kullanıldı.",
+      "tips_en": "Used as the Duke of Sandringham's house in Outlander.",
+      "id": "hopetoun-house",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/hopetoun-house.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "Blackness Castle",
+      "area": "linlithgow",
+      "category": "Tarihi",
+      "subcategory": "Kale",
+      "tags": [
+        "castle",
+        "outlander",
+        "history"
+      ],
+      "price": "medium",
+      "rating": 4.6,
+      "description": "Gemi şeklindeki mimarisiyle 'asla yelken açmayan gemi' olarak bilinen, Forth Nehri kıyısındaki heybetli kale.",
+      "description_en": "Imposing castle on the Forth River known as 'the ship that never sailed' due to its ship-like architecture.",
+      "tips": "Outlander dizisinde Fort William olarak kullanılmıştır.",
+      "tips_en": "Used as Fort William in the Outlander series.",
+      "id": "blackness-castle",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/blackness-castle.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "Midhope Castle",
+      "area": "abercorn",
+      "category": "Tarihi",
+      "subcategory": "Kale",
+      "tags": [
+        "outlander",
+        "lallybroch",
+        "photo"
+      ],
+      "price": "low",
+      "rating": 4.4,
+      "description": "Outlander hayranlarının 'Lallybroch' olarak bildiği, Jamie Fraser'ın evi olan terkedilmiş kule ev.",
+      "description_en": "Derelict tower house known to Outlander fans as 'Lallybroch', the home of Jamie Fraser.",
+      "tips": "İçine girilemez, sadece dışarıdan fotoğraf çekmek içindir ve izin belgesi gerekir.",
+      "tips_en": "Cannot enter inside, only for exterior photos and a permit is required.",
+      "id": "midhope-castle",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/midhope-castle.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "Stirling Castle",
+      "area": "stirling",
+      "category": "Tarihi",
+      "subcategory": "Kale",
+      "tags": [
+        "castle",
+        "history",
+        "day trip"
+      ],
+      "price": "high",
+      "rating": 4.8,
+      "description": "İskoç tarihinin en önemli kalelerinden biri; kraliyet sarayı ve muazzam savunma duvarlarıyla ünlü.",
+      "description_en": "One of the most important castles in Scottish history; famous for its royal palace and massive defensive walls.",
+      "tips": "Kraliyet dokumacılarını çalışırken izleyebilirsiniz.",
+      "tips_en": "You can watch the royal weavers at work.",
+      "id": "stirling-castle",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/stirling-castle.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "National Wallace Monument",
+      "area": "stirling",
+      "category": "Tarihi",
+      "subcategory": "Anıt",
+      "tags": [
+        "history",
+        "braveheart",
+        "view"
+      ],
+      "price": "medium",
+      "rating": 4.6,
+      "description": "William Wallace (Cesur Yürek) anısına dikilmiş, savaş alanına bakan devasa Viktorya dönemi kulesi.",
+      "description_en": "Massive Victorian tower overlooking the battlefield, erected in memory of William Wallace (Braveheart).",
+      "tips": "Kulenin tepesine çıkan 246 basamağı tırmanmaya değer.",
+      "tips_en": "It's worth climbing the 246 steps to the top of the tower.",
+      "id": "national-wallace-monument",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/national-wallace-monument.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "Cairnpapple Hill",
+      "area": "bathgate",
+      "category": "Tarihi",
+      "subcategory": "Arkeoloji",
+      "tags": [
+        "prehistoric",
+        "view",
+        "burial"
+      ],
+      "price": "low",
+      "rating": 4.5,
+      "description": "Binlerce yıllık törensel öneme sahip, tarih öncesi mezar höyüğü ve harika bir manzara noktası.",
+      "description_en": "Prehistoric burial cairn with thousands of years of ceremonial significance and a great viewpoint.",
+      "tips": "Rüzgarlı olabilir, yanınıza ceket alın.",
+      "tips_en": "It can be windy, bring a jacket.",
+      "id": "cairnpapple-hill",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/cairnpapple-hill.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "Beecraigs Country Park",
+      "area": "linlithgow",
+      "category": "Doğa",
+      "subcategory": "Park",
+      "tags": [
+        "deer",
+        "walking",
+        "forest"
+      ],
+      "price": "low",
+      "rating": 4.7,
+      "description": "Linlithgow yakınlarında geniş orman parkı. Geyik çiftliği, göl yürüyüşü, macera parkuru ve barbekü alanları.",
+      "description_en": "Large forest park near Linlithgow. Deer farm, lake walk, adventure course, and BBQ areas.",
+      "tips": "Geyik parkı (deer park) kısmındaki platformdan geyikleri yakından görebilirsiniz.",
+      "tips_en": "You can see the deer up close from the platform in the deer park section.",
+      "id": "beecraigs-country-park",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/beecraigs-country-park.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "Almond Valley Heritage Centre",
+      "area": "livingston",
+      "category": "Aktivite",
+      "subcategory": "Çiftlik",
+      "tags": [
+        "family",
+        "farm",
+        "animals"
+      ],
+      "price": "medium",
+      "rating": 4.6,
+      "description": "Çocuklar için çiftlik hayvanları, oyun alanları ve tarihi bir su değirmeni içeren eğlence merkezi.",
+      "description_en": "Entertainment center for kids featuring farm animals, playgrounds, and a historic watermill.",
+      "tips": "Traktör gezisine katılmak çocuklar için çok eğlencelidir.",
+      "tips_en": "Joining the tractor ride is very fun for kids.",
+      "id": "almond-valley-heritage-centre",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/almond-valley-heritage-centre.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "Five Sisters Zoo",
+      "area": "west calder",
+      "category": "Aktivite",
+      "subcategory": "Hayvanat Bahçesi",
+      "tags": [
+        "zoo",
+        "rescue",
+        "bears"
+      ],
+      "price": "medium",
+      "rating": 4.7,
+      "description": "Kurtarılmış sirk ayıları ve aslanlarına ev sahipliği yapan, hayvan refahı odaklı hayvanat bahçesi.",
+      "description_en": "Animal welfare-focused zoo hosting rescued circus bears and lions.",
+      "tips": "Kurtarılan ayıların hikayesini okumadan geçmeyin.",
+      "tips_en": "Don't skip reading the story of the rescued bears.",
+      "id": "five-sisters-zoo",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/five-sisters-zoo.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "Threipmuir Reservoir",
+      "area": "balerno",
+      "category": "Doğa",
+      "subcategory": "Göl",
+      "tags": [
+        "walk",
+        "swim",
+        "nature"
+      ],
+      "price": "free",
+      "rating": 4.7,
+      "description": "Yazın yüzmek (wild swimming) ve yürüyüş yapmak için popüler olan sakin bir baraj gölü.",
+      "description_en": "Calm reservoir popular for wild swimming and walking in summer.",
+      "tips": "Red Moss adlı turbalık alan, nadir bitki türlerine ev sahipliği yapar.",
+      "tips_en": "The peat bog area called Red Moss hosts rare plant species.",
+      "id": "threipmuir-reservoir",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/threipmuir-reservoir.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    },
+    {
+      "name": "Malleny Garden",
+      "area": "balerno",
+      "category": "Doğa",
+      "subcategory": "Bahçe",
+      "tags": [
+        "garden",
+        "peaceful",
+        "historic"
+      ],
+      "price": "medium",
+      "rating": 4.6,
+      "description": "400 yıllık porsuk ağaçları (yew trees) ve gül koleksiyonuyla ünlü, huzurlu bir duvarlı bahçe.",
+      "description_en": "Peaceful walled garden famous for its 400-year-old yew trees and rose collection.",
+      "tips": "Şehrin gürültüsünden kaçmak için mükemmel bir sığınak.",
+      "tips_en": "A perfect sanctuary to escape the city noise.",
+      "id": "malleny-garden",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/edinburgh/malleny-garden.jpg",
+      "source": "firebase",
+      "distanceFromCenter": 0.5
+    }
+  ]
+}

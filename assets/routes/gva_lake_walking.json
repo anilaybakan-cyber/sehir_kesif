@@ -1,0 +1,216 @@
+{
+  "routes": [
+    {
+      "overview_polyline": {
+        "points": "qt`yGkupd@ICIAKAC?K@KBeAPm@Je@Hc@H_Dh@OBIBI@[DQDWDKB_BXiBZk@Jk@LWDYHe@Ne@P[Lk@ZYNMJULQNC@]VMJGDg@b@]XA@UTYXMLMNWX_@b@{@`AUL]NA?KFA?E@M@A@[@SA_@EUOUMGE_B_ASIKGUIIEOEOEEAGAEAG?C?@Q?A?A?A?A@IDWTJF_@TJ^Z_@[UKG^UKEVAH?@?@?@?@APE?A@C?C?E@A@A?IBq@VQHk@T_A^]La@NUJMAC?E?ID_Bl@oBt@C@sAd@OFE@OVODOFUHE@iA`@KDEBWFI@G@C?"
+      },
+      "legs": [
+        {
+          "distance": {
+            "value": 1778.9,
+            "text": "1.8 km"
+          },
+          "duration": {
+            "value": 237.3,
+            "text": "3 mins"
+          },
+          "steps": [
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 20.2
+              },
+              "duration": {
+                "value": 3.8
+              },
+              "polyline": {
+                "points": "qt`yGkupd@ICIAKAC?"
+              },
+              "html_instructions": "depart Quai du Mont-Blanc"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 582.8
+              },
+              "duration": {
+                "value": 58.2
+              },
+              "polyline": {
+                "points": "uu`yGsupd@K@KBeAPm@Je@Hc@H_Dh@OBIBI@[DQDWDKB_BXiBZk@Jk@LWDYHe@Ne@P[Lk@ZYNMJ"
+              },
+              "html_instructions": "new name Quai Wilson"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 240.7
+              },
+              "duration": {
+                "value": 21.7
+              },
+              "polyline": {
+                "points": "quayGikpd@ULQNC@]VMJGDg@b@]XA@UTYXMLMNWX_@b@{@`A"
+              },
+              "html_instructions": "new name Avenue de France"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 68.7
+              },
+              "duration": {
+                "value": 8.4
+              },
+              "polyline": {
+                "points": "y`byGq`pd@UL]NA?KFA?E@M@A@[@"
+              },
+              "html_instructions": "fork Carrefour Fran\u00e7ois-Forestier"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 193.4
+              },
+              "duration": {
+                "value": 19.2
+              },
+              "polyline": {
+                "points": "odbyGc_pd@SA_@EUOUMGE_B_ASIKGUIIEOEOEEAGAEAG?C?"
+              },
+              "html_instructions": "turn Rue de Lausanne"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 23.9
+              },
+              "duration": {
+                "value": 7.8
+              },
+              "polyline": {
+                "points": "wnbyGcdpd@@Q?A?A?A?A@IDW"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 58.9
+              },
+              "duration": {
+                "value": 41.6
+              },
+              "polyline": {
+                "points": "mnbyG_fpd@TJF_@TJ^Z"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 20.3
+              },
+              "duration": {
+                "value": 4.9
+              },
+              "polyline": {
+                "points": "ykbyGkepd@_@["
+              },
+              "html_instructions": "continue "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "ylbyGgfpd@"
+              },
+              "html_instructions": "arrive "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 38.6
+              },
+              "duration": {
+                "value": 14.7
+              },
+              "polyline": {
+                "points": "ylbyGgfpd@UKG^UK"
+              },
+              "html_instructions": "depart "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 23.9
+              },
+              "duration": {
+                "value": 6.6
+              },
+              "polyline": {
+                "points": "mnbyG_fpd@EVAH?@?@?@?@AP"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 392.6
+              },
+              "duration": {
+                "value": 39.2
+              },
+              "polyline": {
+                "points": "wnbyGcdpd@E?A@C?C?E@A@A?IBq@VQHk@T_A^]La@NUJMAC?E?ID_Bl@oBt@C@sAd@OFE@OV"
+              },
+              "html_instructions": "turn Rue de Lausanne"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 114.8
+              },
+              "duration": {
+                "value": 11.2
+              },
+              "polyline": {
+                "points": "qccyGezod@ODOFUHE@iA`@KDEBWFI@G@C?"
+              },
+              "html_instructions": "new name Route de Lausanne"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "wicyGswod@"
+              },
+              "html_instructions": "arrive Route de Lausanne"
+            }
+          ]
+        }
+      ],
+      "bounds": {
+        "northeast": {
+          "lat": 46.22508,
+          "lng": 6.15274
+        },
+        "southwest": {
+          "lat": 46.21145,
+          "lng": 6.14794
+        }
+      }
+    }
+  ],
+  "status": "OK"
+}

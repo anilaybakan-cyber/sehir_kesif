@@ -1,0 +1,320 @@
+{
+  "routes": [
+    {
+      "overview_polyline": {
+        "points": "ipogHodgn@GAMIc@k@g@o@GCKKeA{@KIEESO_@UOCAXO|AIpAAr@CJE@C@U?I@I@I@QDg@REBC@EAC?_@PGBCBADEP?H?RALERITMNOJCBMHMJA@m@^IFGDBJ~A|D\\v@pA|CFHBDHFFDFDr@ZZLb@RPPDBFDNF~C\\`@DNB?S?GBqB?MF?H?F?R?VAFAHEFGLKNKHEDCj@_@BCFCPMPM^W`@U@ALIBA@ABCh@]FEPn@Pd@BBD?DGVYd@q@@ALQJMIOUo@EOEQAUAUA[?k@?k@@_AFSF[FYBSBO@W@c@@U?M?c@?UA_@Ae@A[AW?_@@O@SFy@?AFc@Hu@@Q@U?[?S?{@@Q@URcBT_DBOBKFOHMDGDK@K@OAQGaAIaAE[AMO_ACKAIAGCKNKBAHIDI@CFODQBYDo@?GBSB]Fg@Hg@FWH[H[@EFSCCGE_@WmA}@OIKGIEIAKAG?G@KDEBGDGFMLEFC@GHKNILCDe@l@k@n@GFKLGFiBjBIHOPm@p@w@v@MLELMNMN"
+      },
+      "legs": [
+        {
+          "distance": {
+            "value": 2645.1,
+            "text": "2.6 km"
+          },
+          "duration": {
+            "value": 500.8,
+            "text": "8 mins"
+          },
+          "steps": [
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 177.5
+              },
+              "duration": {
+                "value": 64.6
+              },
+              "polyline": {
+                "points": "ipogHodgn@GAMIc@k@g@o@GCKKeA{@KIEESO_@UOC"
+              },
+              "html_instructions": "depart Rue du Foss\u00e9 des Tanneurs"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 174.7
+              },
+              "duration": {
+                "value": 33.8
+              },
+              "polyline": {
+                "points": "{xogH}kgn@AXO|AIpAAr@CJE@C@U?I@I@I@QDg@REBC@"
+              },
+              "html_instructions": "turn Rue du 22 Novembre"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 157.1
+              },
+              "duration": {
+                "value": 40.7
+              },
+              "polyline": {
+                "points": "_~ogHibgn@EAC?_@PGBCBADEP?H?RALERITMNOJCBMHMJA@m@^IFGD"
+              },
+              "html_instructions": "new name Petite Rue du Vieux March\u00e9 aux Vins"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 308.7
+              },
+              "duration": {
+                "value": 31.8
+              },
+              "polyline": {
+                "points": "odpgH}zfn@BJ~A|D\\v@pA|CFHBDHFFDFDr@ZZLb@RPPDBFD"
+              },
+              "html_instructions": "turn Quai Saint-Jean"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 126.3
+              },
+              "duration": {
+                "value": 17.2
+              },
+              "polyline": {
+                "points": "axogH_jfn@NF~C\\`@DNB"
+              },
+              "html_instructions": "new name Quai Charles Altorffer"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 57.1
+              },
+              "duration": {
+                "value": 10.2
+              },
+              "polyline": {
+                "points": "_qogHohfn@?S?GBqB?M"
+              },
+              "html_instructions": "turn Pont de l'Abattoir"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 63.9
+              },
+              "duration": {
+                "value": 14.3
+              },
+              "polyline": {
+                "points": "{pogHkmfn@F?H?F?R?VAFAHEFGLK"
+              },
+              "html_instructions": "turn Quai Turckheim"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 127.4
+              },
+              "duration": {
+                "value": 46
+              },
+              "polyline": {
+                "points": "mmogHinfn@NKHEDCj@_@BCFCPMPM^W`@U@ALI"
+              },
+              "html_instructions": "new name Ponts Couverts"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "_gogH}rfn@"
+              },
+              "html_instructions": "arrive Ponts Couverts"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 36
+              },
+              "duration": {
+                "value": 14.5
+              },
+              "polyline": {
+                "points": "_gogH}rfn@BA@ABCh@]FE"
+              },
+              "html_instructions": "depart Ponts Couverts"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 40.5
+              },
+              "duration": {
+                "value": 9.7
+              },
+              "polyline": {
+                "points": "ceogHitfn@Pn@Pd@BB"
+              },
+              "html_instructions": "turn Place du Quartier Blanc"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "{cogHoqfn@"
+              },
+              "html_instructions": "arrive Place du Quartier Blanc"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 72
+              },
+              "duration": {
+                "value": 24.5
+              },
+              "polyline": {
+                "points": "{cogHoqfn@D?DGVYd@q@@ALQJM"
+              },
+              "html_instructions": "depart Place du Quartier Blanc"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 126.8
+              },
+              "duration": {
+                "value": 17.3
+              },
+              "polyline": {
+                "points": "u`ogHeufn@IOUo@EOEQAUAUA[?k@?k@@_A"
+              },
+              "html_instructions": "turn Rue du Cygne"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 127.3
+              },
+              "duration": {
+                "value": 19.3
+              },
+              "polyline": {
+                "points": "ebogHg_gn@FSF[FYBSBO@W@c@@U?M?c@?UA_@Ae@"
+              },
+              "html_instructions": "new name Rue Finkwiller"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 127.3
+              },
+              "duration": {
+                "value": 21
+              },
+              "polyline": {
+                "points": "caogHuign@A[AW?_@@O@SFy@?AFc@Hu@@Q@U?["
+              },
+              "html_instructions": "new name Quai Finkwiller"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 169.1
+              },
+              "duration": {
+                "value": 15.2
+              },
+              "polyline": {
+                "points": "e`ogHgtgn@?S?{@@Q@URcBT_DBOBKFOHM"
+              },
+              "html_instructions": "new name Quai Charles Frey"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 135.2
+              },
+              "duration": {
+                "value": 16
+              },
+              "polyline": {
+                "points": "}}ngH}ahn@DGDK@K@OAQGaAIaAE[AMO_ACKAIAGCK"
+              },
+              "html_instructions": "new name Quai Saint-Nicolas"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 165.9
+              },
+              "duration": {
+                "value": 24.4
+              },
+              "polyline": {
+                "points": "e_ogHwlhn@NKBAHIDI@CFODQBYDo@?GBSB]Fg@Hg@FWH[H[@EFS"
+              },
+              "html_instructions": "turn Rue de la Premi\u00e8re Arm\u00e9e"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 172.7
+              },
+              "duration": {
+                "value": 17.4
+              },
+              "polyline": {
+                "points": "g{ngH}xhn@CCGE_@WmA}@OIKGIEIAKAG?G@KDEBGDGFMLEFC@GHKN"
+              },
+              "html_instructions": "turn Rue des Bouchers"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 279.8
+              },
+              "duration": {
+                "value": 62.9
+              },
+              "polyline": {
+                "points": "{cogHmzhn@ILCDe@l@k@n@GFKLGFiBjBIHOPm@p@w@v@MLELMNMN"
+              },
+              "html_instructions": "new name Rue du Vieux March\u00e9 aux Poissons"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "qpogHolhn@"
+              },
+              "html_instructions": "arrive Place Gutenberg"
+            }
+          ]
+        }
+      ],
+      "bounds": {
+        "northeast": {
+          "lat": 48.58456,
+          "lng": 7.75133
+        },
+        "southwest": {
+          "lat": 48.57796,
+          "lng": 7.73784
+        }
+      }
+    }
+  ],
+  "status": "OK"
+}

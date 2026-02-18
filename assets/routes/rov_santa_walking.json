@@ -1,0 +1,229 @@
+{
+  "routes": [
+    {
+      "overview_polyline": {
+        "points": "eucuKuiw|CNzBPrC@P`@zIIBQDO@WA_@K{@WOAYGGa@ScAIk@Kw@Eo@GiAM{BK_Bc@eI?WFOj@k@JUB_@Ec@GgAWyEZ_@Z_@^_@Pi@a@eHOsAEYgAaLEsA@sAHgAD_A?m@CWJMdAaB`AsAfAoAz@jCHVhDfFNf@Lx@_@`@s@xAa@bAUv@w@pEEPMd@MVSXyCvB`@dHRbDVbERlC\\xDBPPrBTjDPrC@P`@zIIBQDO@WA_@K{@W"
+      },
+      "legs": [
+        {
+          "distance": {
+            "value": 2062.5,
+            "text": "2.1 km"
+          },
+          "duration": {
+            "value": 309.6,
+            "text": "5 mins"
+          },
+          "steps": [
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 147.3
+              },
+              "duration": {
+                "value": 24
+              },
+              "polyline": {
+                "points": "eucuKuiw|CNzBPrC@P`@zI"
+              },
+              "html_instructions": "depart Joulumaantie"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 152.4
+              },
+              "duration": {
+                "value": 23
+              },
+              "polyline": {
+                "points": "_scuKwuv|CIBQDO@WA_@K{@WOAYGGa@ScAIk@"
+              },
+              "html_instructions": "turn T\u00e4htikuja"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "ozcuKm{v|C"
+              },
+              "html_instructions": "arrive "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 296.9
+              },
+              "duration": {
+                "value": 46.1
+              },
+              "polyline": {
+                "points": "ozcuKm{v|CKw@Eo@GiAM{BK_Bc@eI?WFOj@k@JUB_@Ec@GgAWyE"
+              },
+              "html_instructions": "depart "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 67.2
+              },
+              "duration": {
+                "value": 11.7
+              },
+              "polyline": {
+                "points": "i|cuKq`x|CZ_@Z_@^_@Pi@"
+              },
+              "html_instructions": "end of road "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 95.3
+              },
+              "duration": {
+                "value": 13.6
+              },
+              "polyline": {
+                "points": "_ycuK{dx|Ca@eHOsAEY"
+              },
+              "html_instructions": "turn Joulumaantie"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "wzcuKoqx|C"
+              },
+              "html_instructions": "arrive Joulumaantie"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 186.6
+              },
+              "duration": {
+                "value": 27.6
+              },
+              "polyline": {
+                "points": "wzcuKoqx|CgAaLEsA@sAHgAD_A?m@CW"
+              },
+              "html_instructions": "depart Joulumaantie"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 325.9
+              },
+              "duration": {
+                "value": 50.1
+              },
+              "polyline": {
+                "points": "w|cuKgjy|CJMdAaB`AsAfAoAz@jCHVhDfFNf@Lx@"
+              },
+              "html_instructions": "turn Joulumaankuja"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 152.3
+              },
+              "duration": {
+                "value": 17.1
+              },
+              "polyline": {
+                "points": "mmcuKmcy|C_@`@s@xAa@bAUv@w@pE"
+              },
+              "html_instructions": "turn Pukinpolku"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "qscuKcux|C"
+              },
+              "html_instructions": "arrive Pukinpolku"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 128.3
+              },
+              "duration": {
+                "value": 19.6
+              },
+              "polyline": {
+                "points": "qscuKcux|CEPMd@MVSXyCvB"
+              },
+              "html_instructions": "depart Pukinpolku"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 420.2
+              },
+              "duration": {
+                "value": 63.2
+              },
+              "polyline": {
+                "points": "azcuKanx|C`@dHRbDVbERlC\\xDBPPrBTjDPrC@P`@zI"
+              },
+              "html_instructions": "turn Joulumaantie"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 90.3
+              },
+              "duration": {
+                "value": 13.6
+              },
+              "polyline": {
+                "points": "_scuKwuv|CIBQDO@WA_@K{@W"
+              },
+              "html_instructions": "turn T\u00e4htikuja"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "_xcuKqvv|C"
+              },
+              "html_instructions": "arrive T\u00e4htikuja"
+            }
+          ]
+        }
+      ],
+      "bounds": {
+        "northeast": {
+          "lat": 66.54436,
+          "lng": 25.85918
+        },
+        "southwest": {
+          "lat": 66.54183,
+          "lng": 25.84422
+        }
+      }
+    }
+  ],
+  "status": "OK"
+}

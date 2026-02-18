@@ -1,0 +1,463 @@
+{
+  "routes": [
+    {
+      "overview_polyline": {
+        "points": "kdc`F_ylzDZSHENIPI`@KlAIDAn@@x@@J?tAAB??D?B@HETKb@Sb@MTAB[PMXKRQTi@l@c@v@kAxBtA|Ah@r@j@t@EFb@b@x@|@b@f@p@lAdAi@HP`AqA_AgAFEGD~@fAnAsBPYz@`@fAXUbA\\Vg@`AKESXa@_@I?S^p@z@\\jA]b@A@^e@]kAq@{@R_@H?`@^RYJDf@aA]WTcAgAY{@a@m@i@QM]b@Ya@]c@e@k@UWo@g@KV]X_@l@uA|BEFb@b@x@|@b@f@p@lAdAi@HP`AqAf@y@f@y@PYm@i@QM]b@Ya@]c@e@k@UWo@g@KV]XWb@GHuA|BEFIN]h@p@~BRz@P|@DNDPiALeAAyAG_@RMTc@XMBk@CMKECSf@I\\Gf@CLSKg@]MYKq@?gC"
+      },
+      "legs": [
+        {
+          "distance": {
+            "value": 3309,
+            "text": "3.3 km"
+          },
+          "duration": {
+            "value": 597.6,
+            "text": "9 mins"
+          },
+          "steps": [
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 226
+              },
+              "duration": {
+                "value": 22
+              },
+              "polyline": {
+                "points": "kdc`F_ylzDZSHENIPI`@KlAIDAn@@x@@J?tAAB?"
+              },
+              "html_instructions": "depart Atat\u00fcrk Caddesi"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 259.4
+              },
+              "duration": {
+                "value": 42.4
+              },
+              "polyline": {
+                "points": "}wb`Fc{lzD?D?B@HETKb@Sb@MTAB[PMXKRQTi@l@c@v@kAxB"
+              },
+              "html_instructions": "turn Kocatepe Sokak"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 130.8
+              },
+              "duration": {
+                "value": 20.5
+              },
+              "polyline": {
+                "points": "s`c`FamlzDtA|Ah@r@j@t@"
+              },
+              "html_instructions": "end of road "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 4.8
+              },
+              "duration": {
+                "value": 6.3
+              },
+              "polyline": {
+                "points": "g{b`FyflzDEF"
+              },
+              "html_instructions": "turn Zafer Sokak"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 139.4
+              },
+              "duration": {
+                "value": 23.7
+              },
+              "polyline": {
+                "points": "m{b`FqflzDb@b@x@|@b@f@p@lA"
+              },
+              "html_instructions": "turn H\u0131d\u0131rl\u0131k Sokak"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 104.8
+              },
+              "duration": {
+                "value": 20.7
+              },
+              "polyline": {
+                "points": "yub`Fy_lzDdAi@HP`AqA"
+              },
+              "html_instructions": "turn F\u0131r\u0131n Sokak"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 52.2
+              },
+              "duration": {
+                "value": 34.9
+              },
+              "polyline": {
+                "points": "gqb`FcclzD_AgAFE"
+              },
+              "html_instructions": "turn Hesapci Sokak"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 51.5
+              },
+              "duration": {
+                "value": 7.3
+              },
+              "polyline": {
+                "points": "_sb`FqelzDGD~@dA"
+              },
+              "html_instructions": "continue Hesapci Sokak"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "gqb`FeclzD"
+              },
+              "html_instructions": "arrive Hesapci Sokak"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 83.5
+              },
+              "duration": {
+                "value": 18.6
+              },
+              "polyline": {
+                "points": "gqb`FcclzDnAsBPY"
+              },
+              "html_instructions": "depart F\u0131r\u0131n Sokak"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 110.2
+              },
+              "duration": {
+                "value": 19.9
+              },
+              "polyline": {
+                "points": "enb`FqglzDz@`@fAXUbA"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 127.1
+              },
+              "duration": {
+                "value": 22.8
+              },
+              "polyline": {
+                "points": "wjb`FqclzD\\Vg@`AKESXa@_@I?S^"
+              },
+              "html_instructions": "turn Tabakhane Sokak"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 99.5
+              },
+              "duration": {
+                "value": 14.2
+              },
+              "polyline": {
+                "points": "anb`Fc`lzDp@z@\\jA]b@"
+              },
+              "html_instructions": "turn Hesapci Sokak"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "olb`FwzkzD"
+              },
+              "html_instructions": "arrive H\u0131d\u0131rl\u0131k Sokak"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 1.5
+              },
+              "duration": {
+                "value": 27.7
+              },
+              "polyline": {
+                "points": "olb`FwzkzDA@"
+              },
+              "html_instructions": "depart H\u0131d\u0131rl\u0131k Sokak"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 101
+              },
+              "duration": {
+                "value": 15.9
+              },
+              "polyline": {
+                "points": "qlb`FuzkzD^e@]kAq@{@"
+              },
+              "html_instructions": "turn Hesapci Sokak"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 127.1
+              },
+              "duration": {
+                "value": 19.6
+              },
+              "polyline": {
+                "points": "anb`Fc`lzDR_@H?`@^RYJDf@aA]W"
+              },
+              "html_instructions": "turn Tabakhane Sokak"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 176.4
+              },
+              "duration": {
+                "value": 27.4
+              },
+              "polyline": {
+                "points": "wjb`FqclzDTcAgAY{@a@m@i@QM]b@"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 121.2
+              },
+              "duration": {
+                "value": 22.7
+              },
+              "polyline": {
+                "points": "cqb`FehlzDYa@]c@e@k@UWo@g@"
+              },
+              "html_instructions": "turn Sefero\u011flu Sokak"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 138
+              },
+              "duration": {
+                "value": 25.5
+              },
+              "polyline": {
+                "points": "gvb`FwmlzDKV]X_@l@uA|BEF"
+              },
+              "html_instructions": "end of road Zafer Sokak"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 139.4
+              },
+              "duration": {
+                "value": 23.7
+              },
+              "polyline": {
+                "points": "m{b`FqflzDb@b@x@|@b@f@p@lA"
+              },
+              "html_instructions": "turn H\u0131d\u0131rl\u0131k Sokak"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 138.3
+              },
+              "duration": {
+                "value": 19.9
+              },
+              "polyline": {
+                "points": "yub`Fy_lzDdAi@HP`AqAf@y@"
+              },
+              "html_instructions": "turn F\u0131r\u0131n Sokak"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "_pb`F}dlzD"
+              },
+              "html_instructions": "arrive F\u0131r\u0131n Sokak"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 50.1
+              },
+              "duration": {
+                "value": 13
+              },
+              "polyline": {
+                "points": "_pb`F}dlzDf@y@PY"
+              },
+              "html_instructions": "depart F\u0131r\u0131n Sokak"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 66.2
+              },
+              "duration": {
+                "value": 11.6
+              },
+              "polyline": {
+                "points": "enb`FqglzDm@i@QM]b@"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 121.2
+              },
+              "duration": {
+                "value": 22.7
+              },
+              "polyline": {
+                "points": "cqb`FehlzDYa@]c@e@k@UWo@g@"
+              },
+              "html_instructions": "turn Sefero\u011flu Sokak"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 53
+              },
+              "duration": {
+                "value": 7.6
+              },
+              "polyline": {
+                "points": "gvb`FwmlzDKV]XWb@"
+              },
+              "html_instructions": "end of road Zafer Sokak"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "ixb`FaklzD"
+              },
+              "html_instructions": "arrive Zafer Sokak"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 119
+              },
+              "duration": {
+                "value": 19.4
+              },
+              "polyline": {
+                "points": "ixb`FaklzDGHuA|BEFIN]h@"
+              },
+              "html_instructions": "depart Zafer Sokak"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 138.9
+              },
+              "duration": {
+                "value": 23.7
+              },
+              "polyline": {
+                "points": "u|b`FwdlzDp@~BRz@P|@DNDP"
+              },
+              "html_instructions": "end of road Mermerli Banyo Sokak"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 292.5
+              },
+              "duration": {
+                "value": 44.3
+              },
+              "polyline": {
+                "points": "qyb`F{{kzDiALeAAyAG_@RMTc@XMBk@CMKECSf@I\\Gf@CL"
+              },
+              "html_instructions": "turn Mermerli Sokak"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 135.4
+              },
+              "duration": {
+                "value": 19.6
+              },
+              "polyline": {
+                "points": "egc`FgvkzDSKg@]MYKq@?gC"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "{ic`Fe~kzD"
+              },
+              "html_instructions": "arrive "
+            }
+          ]
+        }
+      ],
+      "bounds": {
+        "northeast": {
+          "lat": 36.88622,
+          "lng": 30.70915
+        },
+        "southwest": {
+          "lat": 36.88109,
+          "lng": 30.70324
+        }
+      }
+    }
+  ],
+  "status": "OK"
+}

@@ -1,0 +1,593 @@
+{
+  "routes": [
+    {
+      "overview_polyline": {
+        "points": "kgdzFdr}s@o@b@KDEB}@n@[R[TKFoApAONILEDyA~Ak@h@{ApAi@`@{@p@EDq@h@QPs@l@q@f@EDIFQLCB_At@cBtAQJOLqEnDKHOLgCrBGD_E`Dy@n@KHSLOHGB}FpCE@GDkK|EEBOHQHGBgGrCEBULOFIDkFdCGBUJSHEByDhBC@YPUBM@MCUIOQQKQGUAQ@SFQL_@JQ@GAIEWSECKIQMe@_@w@m@QMQMOIOIQIOEUGKCa@G[?i@?aAPYHo@ZiAp@A?CBIDGDgEbCSBUBa@@GCIEQCM?I?KBKDIDIFKHGJEDEBCDGFCFIJGFGDMDG@gCN_@By@FiBJ[@K@yAHk@DE@A_@EoACw@A[AWImCC]U@UBS@E?i@DS@wCP_AFM@I?I@O@i@D[B[@O@{@FO@K@C?G@G?a@BG@I@M@E?K@K@k@F_AFYBe@BcAHO@O@a@BK@M@w@DG@C@A@GNe@hAGJCHKTIRGPIPGPFTPf@DL?BDLDLJZFPLb@DRBD?BBF`@tATr@BHDLBJJX`@rA\\dADL@FHTHKjAgANOvAsABEBC@AFGj@g@Z[JKHIBDFDB@D?DADCBEBG@GBGBEFIDGXCF?XCLAz@ETCv@EJA\\ANA?D@B@FBF@@@@@?B?@A@A?C?C@I?KPAz@IRARAdBK`BKDAVAD?TC|@EDAhAGXC^C`@AHAp@Ex@EdCiBTOFAFAF?L@P@JDJ@J?L?JCNGJGFEDEDGDIDIDKBM@KHSFSPWLSfEcCFEHEBC@?hAq@n@[XI`AQh@?Z?`@FJBTFNDPHNHNHPLPLv@l@d@^PLJHDBVRJVDTD`@AZ@XDXHVJRNPPJRFR@RAPGPKNQDGFKHW@K@M@M?KHa@DOHSNSXQBAxDiBDCRITKFCjFeCHENGTMDCfGsCFCPINIDCjK}EFEDA|FqCFCNIRMJIx@o@~DaDFEfCsBNMJIpEoDNMPKbBuA~@u@BCPMHGDEp@g@t@c@TOp@g@^[p@Y^SZS\\Wf@Yd@UFCv@e@x@e@b@YJGVIVGVGf@IHCFE`@m@j@}@JORYd@o@ZYtAgATI?K@KAEACCEACMCa@Lk@FQH]VWRiAt@KDEB}@n@[R[TKFoApAONILGOWi@]o@sAoCoAkCsAoCEIg@eAMUMYs@uAUa@KSKS]s@Q[JMFMFOBO@Q?SAOCKGUROh@i@FGh@m@TWhAmAd@m@j@u@t@gAZe@x@{A^q@FKNY^w@FMHSTg@Pa@Tm@L_@Pg@Pe@La@Ni@DOV{@T_ADSH]F[RaALu@XgB@KPyAFy@TkCFcBBcA@_@?I@c@@]?_@@_@Aq@As@Ce@C_ACi@A]M{BKqAMyASqBAOAGAEE_@Gk@O{@SaACKKa@c@}ACIQg@Wm@O]KSQ[CEGMQa@Ma@I_@I[EUAWCo@AW@i@Be@Hu@@e@@w@Ao@Ak@AUCq@E]Me@Qm@KWa@y@IOY_@a@][WaAy@o@_ACGKQO]]oAQ}@Io@Kw@CiAAg@?a@CgCAaCAo@Eo@Iq@GOGkBYaGAg@AIBWH_@|@kE@GJc@@GFY?CXwAv@eETuADUBU`AuGHc@@GLgAXiBDWFa@@GViBDWL{@D[L{@BwAD_B?g@CWASCc@AIEg@Ek@GkAAIAGCc@ASAU@WA]A_@@W?K?I?KB]DmCG]BiA@[?K@a@?]@IB_AByA@e@DaB@m@@_@?KB}@FsC@Y@a@CYO}@Qy@G]AGCGt@OLCXI|A]r@QJAN@zAXD?B?B?VGfBWD?zB[h@IrASB?P@NGHIJMFOFQRuADYHi@BGDQFUHD@H@D?D@HBJBHBHSMEAAACAIICFSf@"
+      },
+      "legs": [
+        {
+          "distance": {
+            "value": 14248.1,
+            "text": "14.2 km"
+          },
+          "duration": {
+            "value": 1280.7,
+            "text": "21 mins"
+          },
+          "steps": [
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 297.9
+              },
+              "duration": {
+                "value": 24.3
+              },
+              "polyline": {
+                "points": "kgdzFdr}s@o@b@KDEB}@n@[R[TKFoApAONILEDyA~Ak@h@"
+              },
+              "html_instructions": "depart Rua da Senhora da Luz"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 836.9
+              },
+              "duration": {
+                "value": 62.5
+              },
+              "polyline": {
+                "points": "eudzFt~}s@{ApAi@`@{@p@EDq@h@QPs@l@q@f@EDIFQLCB_At@cBtAQJOLqEnDKHOLgCrBGD_E`Dy@n@KHSL"
+              },
+              "html_instructions": "new name Avenida do Brasil"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 985
+              },
+              "duration": {
+                "value": 74.5
+              },
+              "polyline": {
+                "points": "{|ezFd`_t@OHGB}FpCE@GDkK|EEBOHQHGBgGrCEBULOFIDkFdCGBUJSHEByDhBC@YPUBM@MCUI"
+              },
+              "html_instructions": "new name Avenida de Montevideu"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 78.9
+              },
+              "duration": {
+                "value": 4.2
+              },
+              "polyline": {
+                "points": "}ogzFt{_t@OQQKQGUAQ@SFQL"
+              },
+              "html_instructions": "rotary Via do Castelo do Queijo"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 589.4
+              },
+              "duration": {
+                "value": 40.5
+              },
+              "polyline": {
+                "points": "_tgzFd{_t@_@JQ@GAIEWSECKIQMe@_@w@m@QMQMOIOIQIOEUGKCa@G[?i@?aAPYHo@ZiAp@A?CBIDGDgEbCSBUBa@@"
+              },
+              "html_instructions": "exit rotary Via do Castelo do Queijo"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 74.9
+              },
+              "duration": {
+                "value": 4.6
+              },
+              "polyline": {
+                "points": "orhzF`}_t@GCIEQCM?I?KBKDIDIFKHGJ"
+              },
+              "html_instructions": "rotary Rua de Brito Capelo"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 336.9
+              },
+              "duration": {
+                "value": 32.4
+              },
+              "polyline": {
+                "points": "kvhzF`~_t@EDEBCDGFCFIJGFGDMDG@gCN_@By@FiBJ[@K@yAHk@DE@"
+              },
+              "html_instructions": "exit rotary Rua de Brito Capelo"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 165.3
+              },
+              "duration": {
+                "value": 20.2
+              },
+              "polyline": {
+                "points": "whizF`b`t@A_@EoACw@A[AWImCC]"
+              },
+              "html_instructions": "turn Rua Sousa Aroso"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 577.5
+              },
+              "duration": {
+                "value": 85.2
+              },
+              "polyline": {
+                "points": "uiizFxu_t@U@UBS@E?i@DS@wCP_AFM@I?I@O@i@D[B[@O@{@FO@K@C?G@G?a@BG@I@M@E?K@K@k@F_AFYBe@BcAHO@O@a@BK@"
+              },
+              "html_instructions": "turn Rua de Dom Jo\u00e3o I"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 152.1
+              },
+              "duration": {
+                "value": 23.2
+              },
+              "polyline": {
+                "points": "_jjzF~y_t@M@w@DG@C@A@GNe@hAGJCHKTIRGPIPGP"
+              },
+              "html_instructions": "new name Rua Fran\u00e7a J\u00fanior"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 29.6
+              },
+              "duration": {
+                "value": 4.2
+              },
+              "polyline": {
+                "points": "}ojzF|``t@FTPf@"
+              },
+              "html_instructions": "turn Rua do Godinho"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "cojzFzb`t@"
+              },
+              "html_instructions": "arrive Rua do Godinho"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 268.9
+              },
+              "duration": {
+                "value": 46.9
+              },
+              "polyline": {
+                "points": "cojzFzb`t@DL?BDLDLJZFPLb@DRBD?BBF`@tATr@BHDLBJJX`@rA\\dADL@FHT"
+              },
+              "html_instructions": "depart Rua do Godinho"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 208.6
+              },
+              "duration": {
+                "value": 19.8
+              },
+              "polyline": {
+                "points": "}gjzFnt`t@HKjAgANOvAsABEBC@AFGj@g@Z[JKHI"
+              },
+              "html_instructions": "turn Avenida de Serpa Pinto"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 32.4
+              },
+              "duration": {
+                "value": 2.3
+              },
+              "polyline": {
+                "points": "o~izFhk`t@BDFDB@D?DADCBEBG@G"
+              },
+              "html_instructions": "roundabout Rua Roberto Ivens"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 168.9
+              },
+              "duration": {
+                "value": 11.7
+              },
+              "polyline": {
+                "points": "c}izFzj`t@BGBEFIDGXCF?XCLAz@ETCv@EJA\\ANA"
+              },
+              "html_instructions": "exit roundabout Rua Roberto Ivens"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 12.9
+              },
+              "duration": {
+                "value": 3.1
+              },
+              "polyline": {
+                "points": "_tizFzh`t@?D@B@FBF@@"
+              },
+              "html_instructions": "end of road "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 6.2
+              },
+              "duration": {
+                "value": 4.6
+              },
+              "polyline": {
+                "points": "usizFvi`t@@@@?B?@A"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 14.2
+              },
+              "duration": {
+                "value": 1.8
+              },
+              "polyline": {
+                "points": "ksizFvi`t@@A?C?C@I?K"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 405.9
+              },
+              "duration": {
+                "value": 28.9
+              },
+              "polyline": {
+                "points": "gsizFvh`t@PAz@IRARAdBK`BKDAVAD?TC|@EDAhAGXC^C`@AHAp@Ex@E"
+              },
+              "html_instructions": "turn Rua Roberto Ivens"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 132.8
+              },
+              "duration": {
+                "value": 12
+              },
+              "polyline": {
+                "points": "o|hzF~e`t@dCiBTOFAFAF?L@P@"
+              },
+              "html_instructions": "new name Avenida do General Norton de Matos"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 93.9
+              },
+              "duration": {
+                "value": 8.5
+              },
+              "polyline": {
+                "points": "{uhzFdb`t@JDJ@J?L?JCNGJGFEDEDGDIDIDKBM@K"
+              },
+              "html_instructions": "rotary Via do Castelo do Queijo"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 589.8
+              },
+              "duration": {
+                "value": 40.7
+              },
+              "polyline": {
+                "points": "uqhzFj_`t@HSFSPWLSfEcCFEHEBC@?hAq@n@[XI`AQh@?Z?`@FJBTFNDPHNHNHPLPLv@l@d@^PLJHDBVRJVDTD`@"
+              },
+              "html_instructions": "exit rotary Via do Castelo do Queijo"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 192
+              },
+              "duration": {
+                "value": 15.6
+              },
+              "polyline": {
+                "points": "kugzFz}_t@AZ@XDXHVJRNPPJRFR@RAPGPKNQDGFKHW@K@M@M?K"
+              },
+              "html_instructions": "rotary Avenida de Montevideu"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 988.6
+              },
+              "duration": {
+                "value": 74.7
+              },
+              "polyline": {
+                "points": "_ogzFv~_t@Ha@DOHSNSXQBAxDiBDCRITKFCjFeCHENGTMDCfGsCFCPINIDCjK}EFEDA|FqCFCNI"
+              },
+              "html_instructions": "exit rotary Avenida de Montevideu"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 836.8
+              },
+              "duration": {
+                "value": 80.2
+              },
+              "polyline": {
+                "points": "{|ezFd`_t@RMJIx@o@~DaDFEfCsBNMJIpEoDNMPKbBuA~@u@BCPMHGDEp@g@t@c@TOp@g@^[p@Y^SZS\\Wf@Y"
+              },
+              "html_instructions": "new name Avenida do Brasil"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 198.1
+              },
+              "duration": {
+                "value": 29.8
+              },
+              "polyline": {
+                "points": "stdzF~_~s@d@UFCv@e@x@e@b@YJGVIVGVGf@IHC"
+              },
+              "html_instructions": "new name Rua do Coronel Ra\u00fal Peres"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "ijdzFnz}s@"
+              },
+              "html_instructions": "arrive Rua do Coronel Ra\u00fal Peres"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 210.5
+              },
+              "duration": {
+                "value": 38.1
+              },
+              "polyline": {
+                "points": "ijdzFnz}s@FE`@m@j@}@JORYd@o@ZYtAgATI"
+              },
+              "html_instructions": "depart Rua do Coronel Ra\u00fal Peres"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 72.6
+              },
+              "duration": {
+                "value": 14.9
+              },
+              "polyline": {
+                "points": "eadzFvp}s@?K@KAEACCEACMCa@Lk@F"
+              },
+              "html_instructions": "turn Esplanada do Castelo"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 262.4
+              },
+              "duration": {
+                "value": 25.8
+              },
+              "polyline": {
+                "points": "iddzF|o}s@QH]VWRiAt@KDEB}@n@[R[TKFoApAONIL"
+              },
+              "html_instructions": "new name Rua da Senhora da Luz"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 478.5
+              },
+              "duration": {
+                "value": 36.8
+              },
+              "polyline": {
+                "points": "ypdzFdz}s@GOWi@]o@sAoCoAkCsAoCEIg@eAMUMYs@uAUa@KSKS]s@Q["
+              },
+              "html_instructions": "turn Rua de Diu"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 69.5
+              },
+              "duration": {
+                "value": 6
+              },
+              "polyline": {
+                "points": "kaezF~}|s@JMFMFOBO@Q?SAOCKGU"
+              },
+              "html_instructions": "rotary Rua de Diogo Botelho"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 1405.8
+              },
+              "duration": {
+                "value": 100.1
+              },
+              "polyline": {
+                "points": "w`ezFjy|s@ROh@i@FGh@m@TWhAmAd@m@j@u@t@gAZe@x@{A^q@FKNY^w@FMHSTg@Pa@Tm@L_@Pg@Pe@La@Ni@DOV{@T_ADSH]F[RaALu@XgB@KPyAFy@TkCFcBBcA@_@?I@c@@]?_@@_@Aq@As@Ce@C_ACi@A]M{BKqAMyASqBAOAGAEE_@Gk@O{@"
+              },
+              "html_instructions": "exit rotary Rua de Diogo Botelho"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 907.3
+              },
+              "duration": {
+                "value": 67.5
+              },
+              "polyline": {
+                "points": "uhdzFt}ys@SaACKKa@c@}ACIQg@Wm@O]KSQ[CEGMQa@Ma@I_@I[EUAWCo@AW@i@Be@Hu@@e@@w@Ao@Ak@AUCq@E]Me@Qm@KWa@y@IOY_@a@][WaAy@o@_ACGKQO]]oAQ}@Io@Kw@CiAAg@"
+              },
+              "html_instructions": "fork Rua de Diogo Botelho"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 1908.7
+              },
+              "duration": {
+                "value": 160.2
+              },
+              "polyline": {
+                "points": "q|dzFbcxs@?a@CgCAaCAo@Eo@Iq@GOGkBYaGAg@AIBWH_@|@kE@GJc@@GFY?CXwAv@eETuADUBU`AuGHc@@GLgAXiBDWFa@@GViBDWL{@D[L{@BwAD_B?g@CWASCc@AIEg@Ek@GkAAIAGCc@ASAU@WA]A_@@W?K?I?KB]DmCG]BiA@[?K@a@?]@IB_AByA@e@DaB@m@@_@?KB}@FsC@Y@a@CYO}@Qy@G]AGCG"
+              },
+              "html_instructions": "new name Rua do Campo Alegre"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 431.6
+              },
+              "duration": {
+                "value": 34.2
+              },
+              "polyline": {
+                "points": "asdzFxxss@t@OLCXI|A]r@QJAN@zAXD?B?B?VGfBWD?zB[h@IrASB?"
+              },
+              "html_instructions": "turn Rua de J\u00falio Dinis"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 142.1
+              },
+              "duration": {
+                "value": 11.9
+              },
+              "polyline": {
+                "points": "g{czFjtss@P@NGHIJMFOFQRuADYHi@BGDQFU"
+              },
+              "html_instructions": "new name Rua de Dom Manuel II"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 5.8
+              },
+              "duration": {
+                "value": 0.9
+              },
+              "polyline": {
+                "points": "iwczF`lss@HD"
+              },
+              "html_instructions": "turn Rua de Jorge Viterbo Ferreira"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 29.2
+              },
+              "duration": {
+                "value": 14.1
+              },
+              "polyline": {
+                "points": "_wczFflss@@H@D?D@HBJBHBH"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 26.8
+              },
+              "duration": {
+                "value": 12.3
+              },
+              "polyline": {
+                "points": "mvczFfnss@SMEAAACAII"
+              },
+              "html_instructions": "turn Avenida dos Pl\u00e1tanos"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 23.2
+              },
+              "duration": {
+                "value": 1.5
+              },
+              "polyline": {
+                "points": "wwczFhmss@CFSf@"
+              },
+              "html_instructions": "turn Rua de Dom Manuel II"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "oxczFxnss@"
+              },
+              "html_instructions": "arrive Rua de Dom Manuel II"
+            }
+          ]
+        }
+      ],
+      "bounds": {
+        "northeast": {
+          "lat": 41.18287,
+          "lng": -8.62417
+        },
+        "southwest": {
+          "lat": 41.14807,
+          "lng": -8.69208
+        }
+      }
+    }
+  ],
+  "status": "OK"
+}

@@ -1,0 +1,398 @@
+{
+  "routes": [
+    {
+      "overview_polyline": {
+        "points": "gqldHoi|k@kBtEYt@l@x@b@h@n@n@d@Zl@b@\\XBDD^@^?VCXOx@AFQpAIp@BtA?D?LHjJENM^g@~AM^KZa@pA]~@AFCHOMcB_B{AuAi@i@QOMMc@c@_A}@CCCCCCoAuAk@i@AAAAAACC[_@[]e@i@KIDK`@oANa@HMNMEWAIAM@OB_@@O?QEa@@YJYJ[P_@z@b@rAIbAYp@O\\Id@OZOjCyEb@h@X_AqAyApBcFh@uANa@BGn@kBfDlDOh@Of@uAeAQ^GDFEP_@tAdANg@Ni@Zu@NU@C@@B@@?B?BC@C@E?EAEACA?AACAC?ABOc@IYI]MKkFaDIIGGIIQYKOc@kAg@_Bk@aBGICEKGKEKESMGE{ByAeCgBKIKEOEKCMASC]@qAJSBI?K@iDXULIH@L?NALI\\YpAGZKb@Kb@Qh@ABEDKTGPM`@[lAg@dBg@dBa@zAWz@ABGVs@zB_@vAWz@GPAJAJAL?J@LL`C?DNnCRbEB\\FhAJxAHbBFXBNPOp@}@FITDB@XJl@PhAO@?F?LAL?NCH?B?D?J@"
+      },
+      "legs": [
+        {
+          "distance": {
+            "value": 4232.6,
+            "text": "4.2 km"
+          },
+          "duration": {
+            "value": 707.4,
+            "text": "11 mins"
+          },
+          "steps": [
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 99.3
+              },
+              "duration": {
+                "value": 22.3
+              },
+              "polyline": {
+                "points": "gqldHoi|k@kBtE"
+              },
+              "html_instructions": "depart Rue des \u00c9coles"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 190.1
+              },
+              "duration": {
+                "value": 47.7
+              },
+              "polyline": {
+                "points": "stldHyb|k@Yt@l@x@b@h@n@n@d@Zl@b@\\XBD"
+              },
+              "html_instructions": "turn Grand'Rue"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 161.2
+              },
+              "duration": {
+                "value": 36.1
+              },
+              "polyline": {
+                "points": "umldHoy{k@D^@^?VCXOx@AFQpAIp@BtA?D?L"
+              },
+              "html_instructions": "turn Rue des Bl\u00e9s"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 298.2
+              },
+              "duration": {
+                "value": 39.2
+              },
+              "polyline": {
+                "points": "{nldHml{k@HjJENM^g@~AM^KZa@pA]~@AFCH"
+              },
+              "html_instructions": "new name Rue Bruat"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 422.9
+              },
+              "duration": {
+                "value": 47.8
+              },
+              "polyline": {
+                "points": "msldHquzk@OMcB_B{AuAi@i@QOMMc@c@_A}@CCCCCCoAuAk@i@AAAAAACC[_@[]e@i@KI"
+              },
+              "html_instructions": "turn Avenue de la R\u00e9publique"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 73.9
+              },
+              "duration": {
+                "value": 10.2
+              },
+              "polyline": {
+                "points": "ggmdHgi{k@DK`@oANa@HMNM"
+              },
+              "html_instructions": "end of road Boulevard du Champ de Mars"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 18.6
+              },
+              "duration": {
+                "value": 4.2
+              },
+              "polyline": {
+                "points": "udmdHan{k@EWAIAM"
+              },
+              "html_instructions": "turn Rue Jean-Baptiste Fleurent"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "_emdHqo{k@"
+              },
+              "html_instructions": "arrive Rue Jean-Baptiste Fleurent"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 93.7
+              },
+              "duration": {
+                "value": 21.1
+              },
+              "polyline": {
+                "points": "_emdHqo{k@@OB_@@O?QEa@@YJYJ[P_@"
+              },
+              "html_instructions": "depart Rue Jean-Baptiste Fleurent"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "qcmdHuv{k@"
+              },
+              "html_instructions": "arrive Rue Jean-Baptiste Fleurent"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 317.8
+              },
+              "duration": {
+                "value": 73.2
+              },
+              "polyline": {
+                "points": "qcmdHuv{k@z@b@rAIbAYp@O\\Id@OZOjCyE"
+              },
+              "html_instructions": "depart Rue Berthe Molly"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 25.5
+              },
+              "duration": {
+                "value": 11.6
+              },
+              "polyline": {
+                "points": "_tldHi_|k@b@h@"
+              },
+              "html_instructions": "end of road Grand'Rue"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 84.6
+              },
+              "duration": {
+                "value": 26
+              },
+              "polyline": {
+                "points": "{rldH_~{k@X_AqAyA"
+              },
+              "html_instructions": "continue Rue Saint-Jean"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 213.1
+              },
+              "duration": {
+                "value": 50.2
+              },
+              "polyline": {
+                "points": "stldHyb|k@pBcFh@uANa@BGn@kB"
+              },
+              "html_instructions": "turn Rue des \u00c9coles"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 113.5
+              },
+              "duration": {
+                "value": 27
+              },
+              "polyline": {
+                "points": "smldHiq|k@fDlD"
+              },
+              "html_instructions": "end of road Rue Wickram"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 34.7
+              },
+              "duration": {
+                "value": 9.7
+              },
+              "polyline": {
+                "points": "khldH{k|k@Oh@Of@"
+              },
+              "html_instructions": "turn Rue de Turenne"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 75.4
+              },
+              "duration": {
+                "value": 16.9
+              },
+              "polyline": {
+                "points": "kildHii|k@uAeAQ^GD"
+              },
+              "html_instructions": "turn Rue des Tisserands"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "{lldHij|k@"
+              },
+              "html_instructions": "arrive Rue des Tisserands"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 75.4
+              },
+              "duration": {
+                "value": 49.5
+              },
+              "polyline": {
+                "points": "{lldHij|k@FEP_@tAdA"
+              },
+              "html_instructions": "depart Rue des Tisserands"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 74.7
+              },
+              "duration": {
+                "value": 17.8
+              },
+              "polyline": {
+                "points": "kildHii|k@Ng@Ni@Zu@NU@C"
+              },
+              "html_instructions": "turn Rue de Turenne"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 384
+              },
+              "duration": {
+                "value": 35.9
+              },
+              "polyline": {
+                "points": "}fldHkn|k@@@B@@?B?BC@C@E?EAEACA?AACAC?ABOc@IYI]MKkFaDIIGGIIQYKOc@kAg@_Bk@aB"
+              },
+              "html_instructions": "roundabout turn Rue Schwendi"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 458.8
+              },
+              "duration": {
+                "value": 50.8
+              },
+              "polyline": {
+                "points": "kuldHcb}k@GICEKGKEKESMGE{ByAeCgBKIKEOEKCMASC]@qAJSBI?K@iDXULIH"
+              },
+              "html_instructions": "new name Rue de l'Est"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 162
+              },
+              "duration": {
+                "value": 16.7
+              },
+              "polyline": {
+                "points": "smmdHwh}k@@L?NALI\\YpAGZKb@Kb@Qh@ABEDKTGPM`@"
+              },
+              "html_instructions": "end of road Rue Saint-\u00c9loi"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 338.6
+              },
+              "duration": {
+                "value": 34.4
+              },
+              "polyline": {
+                "points": "sqmdHy||k@[lAg@dBg@dBa@zAWz@ABGVs@zB_@vAWz@GPAJAJAL"
+              },
+              "html_instructions": "new name Rue du Nord"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 317.2
+              },
+              "duration": {
+                "value": 40.8
+              },
+              "polyline": {
+                "points": "}zmdHcd|k@?J@LL`C?DNnCRbEB\\FhAJxAHbBFXBN"
+              },
+              "html_instructions": "new name Rue Golb\u00e9ry"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 53.9
+              },
+              "duration": {
+                "value": 3.6
+              },
+              "polyline": {
+                "points": "{wmdH}i{k@POp@}@FI"
+              },
+              "html_instructions": "turn Rue d'Unterlinden"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 145.5
+              },
+              "duration": {
+                "value": 14.7
+              },
+              "polyline": {
+                "points": "oumdHul{k@TDB@XJl@PhAO@?F?LAL?NCH?B?D?J@"
+              },
+              "html_instructions": "new name Rue des Bains"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "mmmdHcl{k@"
+              },
+              "html_instructions": "arrive Rue des Bains"
+            }
+          ]
+        }
+      ],
+      "bounds": {
+        "northeast": {
+          "lat": 48.08127,
+          "lng": 7.36447
+        },
+        "southwest": {
+          "lat": 48.07285,
+          "lng": 7.35081
+        }
+      }
+    }
+  ],
+  "status": "OK"
+}

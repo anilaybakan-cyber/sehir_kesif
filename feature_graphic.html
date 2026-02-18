@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Way Feature Graphic</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700;900&display=swap');
+
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #121212;
+            font-family: 'Outfit', sans-serif;
+        }
+
+        .container {
+            width: 1024px;
+            height: 500px;
+            background: linear-gradient(135deg, #1A1A2E 0%, #16213E 50%, #2A0944 100%);
+            position: relative;
+            overflow: hidden;
+            box-shadow: 0 20px 50px rgba(0,0,0,0.5);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 80px;
+            box-sizing: border-box;
+        }
+
+        /* Ambient Glows */
+        .glow {
+            position: absolute;
+            border-radius: 50%;
+            filter: blur(80px);
+            opacity: 0.6;
+        }
+        .glow-1 {
+            width: 400px;
+            height: 400px;
+            background: #E94560;
+            top: -100px;
+            left: -100px;
+        }
+        .glow-2 {
+            width: 300px;
+            height: 300px;
+            background: #4ECDC4;
+            bottom: -50px;
+            right: 20%;
+        }
+
+        /* Text Content */
+        .content {
+            z-index: 10;
+            color: white;
+            max-width: 50%;
+        }
+
+        h1 {
+            font-size: 80px;
+            margin: 0;
+            line-height: 0.9;
+            font-weight: 900;
+            letter-spacing: -2px;
+            background: linear-gradient(to right, #ffffff, #e0e0e0);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-shadow: 0 10px 30px rgba(0,0,0,0.3);
+        }
+
+        h2 {
+            font-size: 32px;
+            margin: 10px 0 0 0;
+            font-weight: 400;
+            color: #d1d1d1;
+            letter-spacing: 1px;
+        }
+        
+        .badge-pill {
+            display: inline-block;
+            background: rgba(255,255,255,0.1);
+            border: 1px solid rgba(255,255,255,0.2);
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 14px;
+            margin-top: 20px;
+            backdrop-filter: blur(10px);
+            color: #4ECDC4;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+        }
+
+        /* Phone Graphic */
+        .phone-mockup {
+            z-index: 5;
+            position: relative;
+            width: 300px;
+            /* Using a simple CSS shape if image not loaded, or use onboarding image */
+            /* We will transform it to look 3D */
+            transform: perspective(1000px) rotateY(-15deg) rotateX(5deg) translateY(20px);
+            box-shadow: 20px 20px 50px rgba(0,0,0,0.6);
+            border-radius: 30px;
+            border: 8px solid #333;
+            background: #000;
+            overflow: hidden;
+            transition: transform 0.3s ease;
+        }
+
+        .phone-mockup img {
+            width: 100%;
+            display: block;
+            border-radius: 20px;
+        }
+        
+        /* City Silhouettes (Optional Decor) */
+        .silhouettes {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 100px;
+            background-image: url('assets/badges/paris.png'); /* Fallback or creative use */
+            background-size: cover;
+            opacity: 0.1;
+            mix-blend-mode: overlay;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="glow glow-1"></div>
+        <div class="glow glow-2"></div>
+        <div class="silhouettes"></div>
+
+        <div class="content">
+            <h1>My Way</h1>
+            <h2>AI City Guide</h2>
+            <div class="badge-pill">Your Journey, Reimagined</div>
+        </div>
+
+        <div class="phone-mockup">
+            <!-- Using Onboarding 1 image as it usually represents the start/welcome -->
+            <img src="assets/onboarding/onboarding1.png" alt="App Screen">
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,333 @@
+{
+  "routes": [
+    {
+      "overview_polyline": {
+        "points": "_md~Ggsvq@?C?G@GBGBEDGJI~CiC\\YLK`As@HEJCJ@JDRR^\\FDJFFBF@J@D?HALCHEFENKDEFGDKDGDKBMH]Hw@Da@@U@]D@BAHAFADCFEHIHITa@z@uA\\k@^o@^o@NWFJFJd@x@R^Xb@T`@PXpBnDHPDJBDEDAFAF?HBHBDBDF@D?DABEBGBBJLPLxArATPHDHFNFETGTCNUfACLEROp@CNCNOt@O\\YnAGVK\\a@|AEPGLGNKPCF_AhBk@bA{@dBGHEDIFGDE@OBO@CACAI@IFEBCFCH?HADMNOTSPs@l@MHKHu@n@o@h@IHMJqAdAi@b@IHu@l@EDg@`@QNEOY}@_@mAAEg@}AGSCIGOLIlB_By@uCASYB]FIEoD\\I@K@M@GAGAEEGGGEGCECEA@E?G?K?EAGAIAIAQCo@A[?QAE?OASAQA[?MA]?O?G@IFMFEFCDADIr@GTCFABCDE@C@E@E@C?G?EAUAg@OkE?G?G@GBGBEDGJI|DcDLKEMEKCCCEEAEAC?E@C@]Xc@\\i@b@QPOJ_@ZEB"
+      },
+      "legs": [
+        {
+          "distance": {
+            "value": 2925.3,
+            "text": "2.9 km"
+          },
+          "duration": {
+            "value": 430.1,
+            "text": "7 mins"
+          },
+          "steps": [
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 11.4
+              },
+              "duration": {
+                "value": 1.5
+              },
+              "polyline": {
+                "points": "_md~Ggsvq@?C?G@GBG"
+              },
+              "html_instructions": "depart Frohburgstrasse"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 118.7
+              },
+              "duration": {
+                "value": 17.7
+              },
+              "polyline": {
+                "points": "yld~Gctvq@BEDGJI~CiC"
+              },
+              "html_instructions": "new name Inseliquai"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "cgd~Geyvq@"
+              },
+              "html_instructions": "arrive Inseliquai"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 70.5
+              },
+              "duration": {
+                "value": 10.6
+              },
+              "polyline": {
+                "points": "cgd~Geyvq@\\YLK`As@"
+              },
+              "html_instructions": "depart Inseliquai"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 225.4
+              },
+              "duration": {
+                "value": 34.5
+              },
+              "polyline": {
+                "points": "ucd~G_|vq@HEJCJ@JDRR^\\FDJFFBF@J@D?HALCHEFENKDEFGDKDGDKBMH]Hw@Da@@U@]"
+              },
+              "html_instructions": "new name Werftestrasse"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 189.4
+              },
+              "duration": {
+                "value": 30.6
+              },
+              "polyline": {
+                "points": "a{c~G_bwq@D@BAHAFADCFEHIHITa@z@uA\\k@^o@^o@NW"
+              },
+              "html_instructions": "turn Landenbergstrasse"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 221.2
+              },
+              "duration": {
+                "value": 33.8
+              },
+              "polyline": {
+                "points": "csc~G}kwq@FJFJd@x@R^Xb@T`@PXpBnDHPDJBD"
+              },
+              "html_instructions": "turn Werkhofstrasse"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 159.9
+              },
+              "duration": {
+                "value": 20.1
+              },
+              "polyline": {
+                "points": "qjc~Gw~vq@EDAFAF?HBHBDBDF@D?DABEBGBBJLPLxArATPHDHFNF"
+              },
+              "html_instructions": "roundabout turn Werkhofstrasse"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 454.2
+              },
+              "duration": {
+                "value": 42.7
+              },
+              "polyline": {
+                "points": "}cc~Gsxvq@ETGTCNUfACLEROp@CNCNOt@O\\YnAGVK\\a@|AEPGLGNKPCF_AhBk@bA{@dBGHEDIFGDE@OBO@"
+              },
+              "html_instructions": "turn Tribschenstrasse"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 34.5
+              },
+              "duration": {
+                "value": 3.6
+              },
+              "polyline": {
+                "points": "krc~G_{uq@CACAI@IFEBCFCH?HAD"
+              },
+              "html_instructions": "roundabout Hirschmattstrasse"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 330.6
+              },
+              "duration": {
+                "value": 51.5
+              },
+              "polyline": {
+                "points": "wsc~Gsyuq@MNOTSPs@l@MHKHu@n@o@h@IHMJqAdAi@b@IHu@l@EDg@`@QN"
+              },
+              "html_instructions": "exit roundabout Hirschmattstrasse"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 122.5
+              },
+              "duration": {
+                "value": 18.4
+              },
+              "polyline": {
+                "points": "qcd~Gokuq@EOY}@_@mAAEg@}AGS"
+              },
+              "html_instructions": "turn Frankenstrasse"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "cgd~Gctuq@"
+              },
+              "html_instructions": "arrive Frankenstrasse"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 11.7
+              },
+              "duration": {
+                "value": 3.9
+              },
+              "polyline": {
+                "points": "cgd~Gctuq@CIGO"
+              },
+              "html_instructions": "depart Frankenstrasse"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 79.9
+              },
+              "duration": {
+                "value": 17.3
+              },
+              "polyline": {
+                "points": "ogd~G}tuq@LIlB_B"
+              },
+              "html_instructions": "turn Morgartenstrasse"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 73.3
+              },
+              "duration": {
+                "value": 15.7
+              },
+              "polyline": {
+                "points": "scd~Ggxuq@y@uCAS"
+              },
+              "html_instructions": "turn Murbacherstrasse"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 191.2
+              },
+              "duration": {
+                "value": 21.5
+              },
+              "polyline": {
+                "points": "oed~Gq}uq@YB]FIEoD\\I@K@M@GAGAEEGGGEGCECEA"
+              },
+              "html_instructions": "turn Zentralstrasse"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 129.9
+              },
+              "duration": {
+                "value": 14.3
+              },
+              "polyline": {
+                "points": "_pd~Gi}uq@@E?G?K?EAGAIAIAQCo@A[?QAE?OASAQA[?MA]?O?G@I"
+              },
+              "html_instructions": "turn Bahnhofplatz"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 81.6
+              },
+              "duration": {
+                "value": 11.1
+              },
+              "polyline": {
+                "points": "spd~G{gvq@FMFEFCDADIr@GTCFABCDE@C@E"
+              },
+              "html_instructions": "turn Robert-Z\u00fcnd-Strasse"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 124
+              },
+              "duration": {
+                "value": 18.4
+              },
+              "polyline": {
+                "points": "old~Gajvq@@E@C?G?EAUAg@OkE?G?G@GBG"
+              },
+              "html_instructions": "new name Frohburgstrasse"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 146.6
+              },
+              "duration": {
+                "value": 27.2
+              },
+              "polyline": {
+                "points": "yld~Gctvq@BEDGJI|DcDLK"
+              },
+              "html_instructions": "new name Inseliquai"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 148.9
+              },
+              "duration": {
+                "value": 35.7
+              },
+              "polyline": {
+                "points": "wed~Gkzvq@EMEKCCCEEAEAC?E@C@]Xc@\\i@b@QPOJ_@ZEB"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "yld~Guvvq@"
+              },
+              "html_instructions": "arrive "
+            }
+          ]
+        }
+      ],
+      "bounds": {
+        "northeast": {
+          "lat": 47.05051,
+          "lng": 8.31695
+        },
+        "southwest": {
+          "lat": 47.04335,
+          "lng": 8.30664
+        }
+      }
+    }
+  ],
+  "status": "OK"
+}

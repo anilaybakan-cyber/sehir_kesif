@@ -1,0 +1,528 @@
+{
+  "routes": [
+    {
+      "overview_polyline": {
+        "points": "am_yGmoqd@Rf@bAjCBHDJFPHRDJRf@JXTh@HTPOFEJEFC@AJEPEj@QTGRKREJAFHJDJDTNPJRFNFD@NFET?FGd@WjBADCTAHAFCTCTEVCP_@zCALCLAJCLS~AIr@EVCVADEX?BGf@K~@ERALEVCPK~@AHAHc@dDSpAM`AALCLCNGf@_@nCSvACPAFAHIEs@WBORcB@K\\oCLeA@I@IBOLeAHu@LcANmA@GD_@J{@@QBKD[Hm@FgAPyABM`@kDDQ?G?ADU?ANeA@MHg@Fe@@IBQRFRHPFDBLDXJJBNFpBp@HFHB?JBLDLDFBDFDB@B@@?@@D?H?F?DADEFEDIDM@GBOLFD@b@PD@VZHJDFNVHJBFHLFJJNBDR\\HLr@jA^l@T^`@p@LTJNPXDFLP@B@B^l@f@t@FJFHDHXb@RZFJDHLRNNBBNTJRFJRZDDHPPXNRKPA@gAhBiAlBEFABU[c@i@GIoAkAGEKE_@?IAECCCCCCECICSGm@CWCa@AOAGSBCJ?L@`@?HAH?L?F?J?^@L?JAHEHa@r@INU`@u@}@MSCEEEACCCAEAE?IPu@@K?G?ECEECAACG?GAICGCCCAEAE@IDQ@Q?YCG?CBADUx@QhA?D?FDh@@FBDDBPJDBBB@B?DMf@EVAJj@r@^h@DN?F?D@FBFNVFHDFVXLL@@?B@DABY~AYdBKh@a@rAi@bBAH?D?@@FBDAH?HAN?N?NBP@NBZBNPv@HZfAq@PQSk@MSi@q@ECIKEEBY@G@G@IL}@HWHU@GVo@pCqHn@cBTm@FKDGBCFEFELCTIFATKRMDC~@m@JIFEDGHM^w@HBD@DBNDFHiAlBEFABU[c@i@GIoAkAGEKE_@?IAECCCCCCECICSGm@CWCa@AOAGSBCJ?L@`@?HAH?L?F?J?^@L?JAHEHa@r@INU`@Ud@Q\\k@x@QVKNML?F?D@FBFNVFHDFVXLL@@?B@DABY~AYdBKh@a@rAi@bBAH?D?@@FBDMFQEEA[Eg@GOAa@CIAGCGCEEGMWo@?EAC?C@GBGJWb@iAFKDK^q@HQFODOw@{@AC?G?e@@SBQ@OLi@FSHO`@y@Xq@@CBAD?D@NHb@h@"
+      },
+      "legs": [
+        {
+          "distance": {
+            "value": 5567.2,
+            "text": "5.6 km"
+          },
+          "duration": {
+            "value": 922.3,
+            "text": "15 mins"
+          },
+          "steps": [
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 180.3
+              },
+              "duration": {
+                "value": 26.2
+              },
+              "polyline": {
+                "points": "am_yGmoqd@Rf@bAjCBHDJFPHRDJRf@JXTh@HT"
+              },
+              "html_instructions": "depart Quai Gustave-Ador"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 193.4
+              },
+              "duration": {
+                "value": 25.3
+              },
+              "polyline": {
+                "points": "gg_yGocqd@POFEJEFC@AJEPEj@QTGRKREJAFHJDJDTNPJRFNFD@NF"
+              },
+              "html_instructions": "turn Rue de la Scie"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 678.1
+              },
+              "duration": {
+                "value": 68.9
+              },
+              "polyline": {
+                "points": "a}~xG_dqd@ET?FGd@WjBADCTAHAFCTCTEVCP_@zCALCLAJCLS~AIr@EVCVADEX?BGf@K~@ERALEVCPK~@AHAHc@dDSpAM`AALCLCNGf@_@nCSvACPAFAH"
+              },
+              "html_instructions": "turn Rue du Rh\u00f4ne"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 344.2
+              },
+              "duration": {
+                "value": 32.8
+              },
+              "polyline": {
+                "points": "ih_yGoood@IEs@WBORcB@K\\oCLeA@I@IBOLeAHu@LcANmA@GD_@J{@@Q"
+              },
+              "html_instructions": "new name Quai du G\u00e9n\u00e9ral-Guisan"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 99.2
+              },
+              "duration": {
+                "value": 8.8
+              },
+              "polyline": {
+                "points": "me_yGkhpd@BKD[Hm@FgAPyA"
+              },
+              "html_instructions": "turn Quai du G\u00e9n\u00e9ral-Guisan"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "_d_yGcppd@"
+              },
+              "html_instructions": "arrive Quai du G\u00e9n\u00e9ral-Guisan"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 173.1
+              },
+              "duration": {
+                "value": 23.7
+              },
+              "polyline": {
+                "points": "_d_yGcppd@BM`@kDDQ?G?ADU?ANeA@MHg@Fe@@IBQ"
+              },
+              "html_instructions": "depart Quai du G\u00e9n\u00e9ral-Guisan"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 155
+              },
+              "duration": {
+                "value": 16.4
+              },
+              "polyline": {
+                "points": "ca_yGo}pd@RFRHPFDBLDXJJBNFpBp@HFHB"
+              },
+              "html_instructions": "turn Rue Pierre-Fatio"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 82.9
+              },
+              "duration": {
+                "value": 10.1
+              },
+              "polyline": {
+                "points": "yx~xGuypd@?JBLDLDFBDFDB@B@@?@@D?H?F?DADEFEDIDM@GBO"
+              },
+              "html_instructions": "rotary Boulevard Emile-Jaques-Dalcroze"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 531.5
+              },
+              "duration": {
+                "value": 61.6
+              },
+              "polyline": {
+                "points": "su~xGqypd@LFD@b@PD@VZHJDFNVHJBFHLFJJNBDR\\HLr@jA^l@T^`@p@LTJNPXDFLP@B@B^l@f@t@FJFHDHXb@RZFJDHLRNNBBNTJRFJRZDDHPPXNR"
+              },
+              "html_instructions": "exit rotary Boulevard Emile-Jaques-Dalcroze"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 133.3
+              },
+              "duration": {
+                "value": 20.8
+              },
+              "polyline": {
+                "points": "y_~xGs|od@KPA@gAhBiAlBEFAB"
+              },
+              "html_instructions": "turn Rue Jean-Gabriel-Eynard"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 212.3
+              },
+              "duration": {
+                "value": 52.1
+              },
+              "polyline": {
+                "points": "ae~xG{tod@U[c@i@GIoAkAGEKE_@?IAECCCCCCECICSGm@CWCa@AOAG"
+              },
+              "html_instructions": "end of road Rue de Saint-L\u00e9ger"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 140.3
+              },
+              "duration": {
+                "value": 33.1
+              },
+              "polyline": {
+                "points": "_m~xGu_pd@SBCJ?L@`@?HAH?L?F?J?^@L?JAHEHa@r@INU`@"
+              },
+              "html_instructions": "continue Place du Bourg-de-Four"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 58.6
+              },
+              "duration": {
+                "value": 13.3
+              },
+              "polyline": {
+                "points": "_p~xGkvod@u@}@MSCEEEAC"
+              },
+              "html_instructions": "turn Place de la Taconnerie"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "or~xGmyod@"
+              },
+              "html_instructions": "arrive Place de la Taconnerie"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 80.2
+              },
+              "duration": {
+                "value": 18
+              },
+              "polyline": {
+                "points": "or~xGmyod@CCAEAE?IPu@@K?G?ECEECAACG?GAICGCCCAEAE@"
+              },
+              "html_instructions": "depart Rue Guillaume-Farel"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 159.3
+              },
+              "duration": {
+                "value": 36.2
+              },
+              "polyline": {
+                "points": "ms~xGk~od@IDQ@Q?YCG?CBADUx@QhA?D?FDh@@FBDDBPJDBBB@B?D"
+              },
+              "html_instructions": "new name Rue de l'Ev\u00each\u00e9"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 31.3
+              },
+              "duration": {
+                "value": 10.1
+              },
+              "polyline": {
+                "points": "{u~xGqvod@Mf@EVAJ"
+              },
+              "html_instructions": "turn Rue Otto-Barblan"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 128.7
+              },
+              "duration": {
+                "value": 29.1
+              },
+              "polyline": {
+                "points": "qv~xGetod@j@r@^h@DN?F?D@FBFNVFHDFVXLL@@?B"
+              },
+              "html_instructions": "turn Rue du Puits-Saint-Pierre"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 293
+              },
+              "duration": {
+                "value": 58.6
+              },
+              "polyline": {
+                "points": "sq~xGamod@@DABY~AYdBKh@a@rAi@bBAH?D?@@FBDAH?HAN?N?NBP@NBZBNPv@HZ"
+              },
+              "html_instructions": "new name Rampe de la Treille"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 57.3
+              },
+              "duration": {
+                "value": 11.2
+              },
+              "polyline": {
+                "points": "ut~xGiwnd@fAq@PQ"
+              },
+              "html_instructions": "continue Place de Neuve"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 77.1
+              },
+              "duration": {
+                "value": 7.3
+              },
+              "polyline": {
+                "points": "{q~xGmynd@Sk@MSi@q@ECIKEE"
+              },
+              "html_instructions": "continue Place de Neuve"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 475
+              },
+              "duration": {
+                "value": 43.2
+              },
+              "polyline": {
+                "points": "}t~xGu}nd@BY@G@G@IL}@HWHU@GVo@pCqHn@cBTm@FKDGBCFEFELCTIFATKRMDC~@m@JIFEDGHM^w@"
+              },
+              "html_instructions": "turn Rue de la Croix-Rouge"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 28.4
+              },
+              "duration": {
+                "value": 6.4
+              },
+              "polyline": {
+                "points": "}c~xGoyod@HBD@DBNDFH"
+              },
+              "html_instructions": "turn Rue Jean-Gabriel-Eynard"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 65.4
+              },
+              "duration": {
+                "value": 11
+              },
+              "polyline": {
+                "points": "ob~xGuxod@iAlBEFAB"
+              },
+              "html_instructions": "end of road Rue Jean-Gabriel-Eynard"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 212.3
+              },
+              "duration": {
+                "value": 52.1
+              },
+              "polyline": {
+                "points": "ae~xG{tod@U[c@i@GIoAkAGEKE_@?IAECCCCCCECICSGm@CWCa@AOAG"
+              },
+              "html_instructions": "turn Rue de Saint-L\u00e9ger"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 86
+              },
+              "duration": {
+                "value": 19.2
+              },
+              "polyline": {
+                "points": "_m~xGu_pd@SBCJ?L@`@?HAH?L?F?J?^@L?JAHEH"
+              },
+              "html_instructions": "continue Place du Bourg-de-Four"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 135.7
+              },
+              "duration": {
+                "value": 30.4
+              },
+              "polyline": {
+                "points": "}m~xGqyod@a@r@INU`@Ud@Q\\k@x@QV"
+              },
+              "html_instructions": "new name Rue de l'H\u00f4tel-de-Ville"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "es~xGuqod@"
+              },
+              "html_instructions": "arrive Rue de l'H\u00f4tel-de-Ville"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 18
+              },
+              "duration": {
+                "value": 5.9
+              },
+              "polyline": {
+                "points": "es~xGuqod@KNML"
+              },
+              "html_instructions": "depart Rue de l'H\u00f4tel-de-Ville"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 65
+              },
+              "duration": {
+                "value": 14.7
+              },
+              "polyline": {
+                "points": "_t~xGwpod@?F?D@FBFNVFHDFVXLL@@?B"
+              },
+              "html_instructions": "turn Rue Henri-Fazy"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 199.7
+              },
+              "duration": {
+                "value": 47.6
+              },
+              "polyline": {
+                "points": "sq~xGamod@@DABY~AYdBKh@a@rAi@bBAH?D?@@FBD"
+              },
+              "html_instructions": "new name Rampe de la Treille"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 8.4
+              },
+              "duration": {
+                "value": 1.2
+              },
+              "polyline": {
+                "points": "{u~xGo~nd@MF"
+              },
+              "html_instructions": "turn Rue de la Corraterie"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 134.3
+              },
+              "duration": {
+                "value": 30.4
+              },
+              "polyline": {
+                "points": "iv~xGg~nd@QEEA[Eg@GOAa@CIAGCGCEEGMWo@?EAC?C"
+              },
+              "html_instructions": "turn Rue de la Tertasse"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 115
+              },
+              "duration": {
+                "value": 30.5
+              },
+              "polyline": {
+                "points": "y|~xG_bod@@GBGJWb@iAFKDK^q@HQFODO"
+              },
+              "html_instructions": "new name Grand-Rue"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 169.9
+              },
+              "duration": {
+                "value": 56.1
+              },
+              "polyline": {
+                "points": "}x~xGmiod@w@{@AC?G?e@@SBQ@OLi@FSHO`@y@Xq@@C"
+              },
+              "html_instructions": "turn Rue Jean-Calvin"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 44.9
+              },
+              "duration": {
+                "value": 10
+              },
+              "polyline": {
+                "points": "qw~xGotod@BAD?D@NHb@h@"
+              },
+              "html_instructions": "turn Rue du Puits-Saint-Pierre"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "mu~xG{rod@"
+              },
+              "html_instructions": "arrive Rue du Puits-Saint-Pierre"
+            }
+          ]
+        }
+      ],
+      "bounds": {
+        "northeast": {
+          "lat": 46.20513,
+          "lng": 6.15687
+        },
+        "southwest": {
+          "lat": 46.19789,
+          "lng": 6.14277
+        }
+      }
+    }
+  ],
+  "status": "OK"
+}

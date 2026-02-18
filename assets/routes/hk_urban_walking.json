@@ -1,0 +1,931 @@
+{
+  "routes": [
+    {
+      "overview_polyline": {
+        "points": "aifgCmuywTVCVEB?VEPCHARCh@Gn@IXEZE`@EVE^ERCRCNCJAJALCv@IdAONA`@EjAOLCZEHAjAOJARCnAOPCJAZED?NCHAx@Kp@INAPC`@EJCD?DAj@GDAFAb@ENCPC|@Kl@ILAZE|@KHA|@KPAXEHAf@ERCNCHAJAv@ID?TC?F?D?D?D@B?V@FFn@Fr@NpA@J\\EPC\\E\\?TEtAQZ@PBF@JBJ@vB^xB^x@H~@PhB\\NDb@HfAPJ@PBRBP?|ARnBGFAJ?~DMD?NAAEG{AG?iELK@I@aBJmASCAKACLKr@AFEVGd@AFQdACJCNEXGp@W~BAJ?JAP?J?FAH?HCLAPEP[vBGf@Kp@CRAJGd@CLGd@ALUlBAB?@G`@Gf@GVOx@[Ca@@eA@G@[JMDa@B_@?k@@m@?[?QAM?O?_@C[Fk@NIDWZMLILO`@Gd@Ad@@\\FZJXNVRTVRHDHFHFzAt@VR\\NRLLFVFv@RnCv@b@N`@NVJd@PRFVJj@XTLNFLFDB`@PDBRJVJLFNJJFTLvA|@b@Vf@\\`@Zz@h@VNHFNJh@Zh@`@`@Zb@\\j@d@l@f@t@p@JF~@x@|@x@|BrBx~@~y@j@h@v@t@Zh@Xj@Tl@Pn@Lp@Hp@Dr@Bp@Ar@Er@Gr@EPG\\EVGTELQf@_@`AITc@h@GFWd@OZGPELCJCLCNAP?N@NBNBLDLFLHJHJHFHFJDJDJBJ@L@J?LANCJCJEHEJGHIFIFKDKDOBO@M?OCSCQCSCMGWGYEWEYCYAY?[?Y?e@?g@B[@_@@KDs@@Y@MdABD?H?P@R?NBvA@B?L@B?D?B?H?fABx@?^BB?P@F?F?r@@J?`ABD@?[?I@q@?U@q@?IBu@Di@@E@G?C@CBIJ[BIPg@BGDKDIDGBEDEDEFEjA{@DCBADABAD?D?D?D?F@nARD@D?B?F?F?DAB?DADADCDCBCDEjA_BBEBE?E@C?E?ECyA?I?C@E@GBE@E@CBCDENIF?@?VBJKDGp@eBBGBI@I@I?IAIAIIg@AIAG?I?I@K@GBI@GBIBGVi@BIBI@G@I?G@S?G?G@O?KBa@?OBSFSBEBE|@aAZ_@DEDEFEIGu@w@IIKMIGEEg@i@CCAAACu@s@k@m@OOCCECACUU[]IIUUMMk@m@OM[_@AAmB|AEBIHQDSFIPMVYp@IPMXYz@CAKAs@MEAEAo@MEAEAEAI?CAG?KCaASIAEAIAUEOt@AHQz@EVQx@[bBERs@jEI`@{@hFEb@CRCTI|AATQ~EDj@At@Ct@Gp@GfBCl@Cz@ILAX?R?NAV?z@AfBE~BIbBAZ?VCVAVETCPGNGNILIJMJKFKFKDKBKBK@M@K?MAKAKCMCKGKGOKIIIIGMGMGMCMCOAMAO@Q@O@MBODQFQb@gAJQb@s@^u@LWJYHWFWDWJm@D[BSBq@@o@Aq@Eq@Io@Mm@Qm@Sk@Wi@[g@o@o@k|@{w@qAmAiDwC_Au@_As@IIw@s@k@g@k@a@iA{@i@_@g@]OIMIYS_B_A}@i@iBeAa@SYOSK]QWMe@UUK_@OUCgAe@YKa@Q[KaA]oA_@s@KYC[EOAI?GAE?G?E?O?O?M?O?W@U@UBSBsAXO@E@E?I@_B^QBSBsARk@BQ@WAa@E]MUMKIECMKUQKOMSOYGWGWEYC[AWAY@SD_@BYH_@Ha@\\_A^}@BMHWFWDYBY@YAYC_@E]COQq@I[Ke@Kg@Ia@Ea@Ea@MwACUDa@CW?IEe@AK?IAWCa@Cc@CSM}ACSAQC]AICMMoAAG?ECSIw@AOCUGg@Gw@AGMqAAECSASE[AIMkACKEKEIGEGG{@k@a@Y_@WIEe@]QMeAw@GEQKq@c@MK_Am@WQm@c@QMUOsA{@CCGEi@[m@_@_@UOMKIiAu@IGg@[OMGEGE_@UOKGEYSMIECSOIGo@a@UQQMCCKGIGiAw@ECECIGIGYSs@e@e@]GEe@]g@]GEa@Mi@OYi@KWCEIWWo@EISg@EKKWa@mAGSGO?AAEEMCGACACEMCKSg@EKCGQg@EIYw@ISMk@G[EKkAeDAE{BqG?AYy@Yy@KYIUWk@i@wAo@kBa@mASi@CGKYOYQ_@Wk@iAwBGOKQCGIOKUCGGMYi@MWIQMU[o@KQGIIOM_@m@sAEIKUYk@CEGGECGEGCUBG@G?GAG?ECGCECEEQYGs@SaBCWI{@Is@AIAGIc@ESCMESGIMOKMUYMOMQMOOQOSAAEGGGEGMMIKc@e@SQGIKK_DkDSS[]mGoG]_@e@g@WYk@m@OOGKSUCGGIMQW_@IMEIQW??EGEGCIUe@[i@Ym@EQGOESI[CKa@cBOi@Qq@GUEMGY]qAM]Oe@W_AMa@Oq@Ie@Oc@YgAUy@K]Qm@AGAIAOCSE]A]?_@?K?K?UBq@B_@BYD]F]BOF[BEFQDOJQTe@Zc@Ze@RYV_@DEbAuAV_@b@o@Zc@DGDIBCNUFQBIBI@GBK?G?G?OAMCGCKEKEGGGGIIIa@YOMQKMIMEOCOA]AC?W@I@E?E@IBi@P{@ZA?QFMFMD_@Lq@TIDS@IBGBIFBF?B?@BDHNZj@fAlBFBD?FC\\OAE@G@EBEDCDAD?B?D@BDBF@FAFx@|ADF?FADABC@C@EAEAE?G@EByBxAQJo@`@sBnAMFE@ICGIi@aAc@u@CK?MDKr@e@JGx@k@NCH@h@~@p@jA@HCHGLsBnAMFEFAJ?R?HCN?DGNDBDBDDBD@F@D?D?DAFAFCDCDEDE@EBG?c@j@i@n@Yf@AD_@`@IJOd@Ur@AFIPITITGPEJITEFABIHGHGFGFGFEHEHSj@EJALAJAJAJADADM\\g@rAeArCCFABCHIZKp@EZC\\ALAPAP?P@R?TBT?NB^?H@TJ`@DNFPFTFRJZBHPb@T`@^b@NNBDXVRNTPtBvAPLjAr@JFVPPL`Av@ZPTNTLRHNF^L\\JVFVFN@LBP@P@J?L@LAJANCJELEJGJIJIv@u@DEXY\\]NMFIDGt@_Af@o@JMJOFMDIBIDMDMR_ABMBIDGDIFGHGHEJAJAH?J@F@HDDBFDBDDFBFBJDNDXHp@LXHNV\\XX`NlNNNBDTThAjADDfBbCBJDPVt@V|@DRbAfDPn@Pl@Tl@Tj@Tj@JXx@dBNRJRFHJLHLTd@JRJRLVVh@HN@DLTFNBFLRxBhEBFP^BH@BBF@DRf@@@?@\\`AVr@@Bx@~BJV@DBFLZlAdDPd@`@hAVp@l@bBBFFRf@|AZdATjAtA|DpAtDVn@z@vBTj@Xv@Vz@dApDN|@Nz@Ff@D`@@HBXBJFl@Fb@D^F`@@N@JDZB^Hn@JhA@HBN@RL|@@NLA|Ca@B?DAPxA@DBRSBUD"
+      },
+      "legs": [
+        {
+          "distance": {
+            "value": 26336,
+            "text": "26.3 km"
+          },
+          "duration": {
+            "value": 2190.9,
+            "text": "36 mins"
+          },
+          "steps": [
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 1060.2
+              },
+              "duration": {
+                "value": 75.4
+              },
+              "polyline": {
+                "points": "aifgCmuywTVCVEB?VEPCHARCh@Gn@IXEZE`@EVE^ERCRCNCJAJALCv@IdAONA`@EjAOLCZEHAjAOJARCnAOPCJAZED?NCHAx@Kp@INAPC`@EJCD?DAj@GDAFAb@ENCPC|@Kl@ILAZE|@KHA|@KPAXEHAf@ERCNCHAJAv@ID?TC"
+              },
+              "html_instructions": "depart \u5f4c\u6566\u9053 Nathan Road"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 133.7
+              },
+              "duration": {
+                "value": 19
+              },
+              "polyline": {
+                "points": "gndgCeazwT?F?D?D?D@B?V@FFn@Fr@NpA@J"
+              },
+              "html_instructions": "turn \u773e\u574a\u8857 Public Square Street"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 787.1
+              },
+              "duration": {
+                "value": 71.4
+              },
+              "polyline": {
+                "points": "amdgCeyywT\\EPC\\E\\?TEtAQZ@PBF@JBJ@vB^xB^x@H~@PhB\\NDb@HfAPJ@PBRBP?|ARnBGFAJ?~DMD?NA"
+              },
+              "html_instructions": "turn \u4e0a\u6d77\u8857 Shanghai Street"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 51.3
+              },
+              "duration": {
+                "value": 8.5
+              },
+              "polyline": {
+                "points": "macgC_uywTAEG{A"
+              },
+              "html_instructions": "turn \u67ef\u58eb\u7538\u9053 Austin Road"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 227.8
+              },
+              "duration": {
+                "value": 32.7
+              },
+              "polyline": {
+                "points": "wacgCaxywTG?iELK@I@aBJmAS"
+              },
+              "html_instructions": "turn \u5edf\u8857 Temple Street"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "oncgCwwywT"
+              },
+              "html_instructions": "arrive \u5edf\u8857 Temple Street"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 10.1
+              },
+              "duration": {
+                "value": 6.8
+              },
+              "polyline": {
+                "points": "oncgCwwywTCAKA"
+              },
+              "html_instructions": "depart \u5edf\u8857 Temple Street"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 601.9
+              },
+              "duration": {
+                "value": 41.2
+              },
+              "polyline": {
+                "points": "_ocgC{wywTCLKr@AFEVGd@AFQdACJCNEXGp@W~BAJ?JAP?J?FAH?HCLAPEP[vBGf@Kp@CRAJGd@CLGd@ALUlBAB?@G`@Gf@GV"
+              },
+              "html_instructions": "turn \u4f50\u6566\u9053 Jordan Road"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 104.5
+              },
+              "duration": {
+                "value": 6.9
+              },
+              "polyline": {
+                "points": "ovcgCitxwTOx@[Ca@@eA@"
+              },
+              "html_instructions": "turn \u9023\u7fd4\u9053 Lin Cheung Road"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 223.9
+              },
+              "duration": {
+                "value": 20.2
+              },
+              "polyline": {
+                "points": "c{cgCorxwTG@[JMDa@B_@?k@@m@?[?QAM?O?_@C[Fk@NID"
+              },
+              "html_instructions": "fork \u9023\u7fd4\u9053 Lin Cheung Road"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 327.6
+              },
+              "duration": {
+                "value": 26.3
+              },
+              "polyline": {
+                "points": "ogdgC}pxwTWZMLILO`@Gd@Ad@@\\FZJXNVRTVRHDHFHFzAt@VR\\NRLLF"
+              },
+              "html_instructions": "on ramp "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 302.2
+              },
+              "duration": {
+                "value": 22
+              },
+              "polyline": {
+                "points": "u`dgC{bxwTVFv@RnCv@b@N`@NVJd@PRFVJj@XTLNFLFDB"
+              },
+              "html_instructions": "merge \u897f\u4e5d\u9f8d\u516c\u8def West Kowloon Highway"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 2692.2
+              },
+              "duration": {
+                "value": 171.8
+              },
+              "polyline": {
+                "points": "_qcgCy{wwT`@PDBRJVJLFNJJFTLvA|@b@Vf@\\`@Zz@h@VNHFNJh@Zh@`@`@Zb@\\j@d@l@f@t@p@JF~@x@|@x@|BrBx~@~y@j@h@v@t@Zh@Xj@Tl@Pn@Lp@Hp@Dr@Bp@Ar@Er@Gr@EPG\\EVGTELQf@_@`AIT"
+              },
+              "html_instructions": "new name \u897f\u5340\u6d77\u5e95\u96a7\u9053 Western Harbour Crossing"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 355.1
+              },
+              "duration": {
+                "value": 29.7
+              },
+              "polyline": {
+                "points": "um`gCultwTc@h@GFWd@OZGPELCJCLCNAP?N@NBNBLDLFLHJHJHFHFJDJDJBJ@L@J?LANCJCJEHEJGHIFIFKDKDOBO@M?O"
+              },
+              "html_instructions": "fork "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 187.3
+              },
+              "duration": {
+                "value": 16.6
+              },
+              "polyline": {
+                "points": "ci`gCwetwTCSCQCSCMGWGYEWEYCYAY?[?Y?e@?g@"
+              },
+              "html_instructions": "fork "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 78.3
+              },
+              "duration": {
+                "value": 6.3
+              },
+              "polyline": {
+                "points": "uj`gC{ptwTB[@_@@KDs@@Y"
+              },
+              "html_instructions": "turn \u5e72\u8afe\u9053\u897f Connaught Road West"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 65.1
+              },
+              "duration": {
+                "value": 7.9
+              },
+              "polyline": {
+                "points": "ej`gCqutwT@MdABD?H?P@"
+              },
+              "html_instructions": "turn \u6771\u908a\u8857\u5317 Eastern Street North"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 278.5
+              },
+              "duration": {
+                "value": 30.4
+              },
+              "polyline": {
+                "points": "{f`gCyutwTR?NBvA@B?L@B?D?B?H?fABx@?^BB?P@F?F?r@@J?`ABD@"
+              },
+              "html_instructions": "new name \u6771\u908a\u8857 Eastern Street"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 604.6
+              },
+              "duration": {
+                "value": 57.5
+              },
+              "polyline": {
+                "points": "ew_gC_utwT?[?I@q@?U@q@?IBu@Di@@E@G?C@CBIJ[BIPg@BGDKDIDGBEDEDEFEjA{@DCBADABAD?D?D?D?F@nARD@D?B?F?F?DAB?DADADCDCBCDEjA_BBEBE?E@C?E?ECyA?I?C@E@GBE@E@CBCDENIF?@?VB"
+              },
+              "html_instructions": "turn \u91ab\u9662\u9053 Hospital Road"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 405
+              },
+              "duration": {
+                "value": 41.9
+              },
+              "polyline": {
+                "points": "gf_gCsmuwTJKDGp@eBBGBI@I@I?IAIAIIg@AIAG?I?I@K@GBI@GBIBGVi@BIBI@G@I?G@S?G?G@O?KBa@?OBSFSBEBE|@aAZ_@DEDEFE"
+              },
+              "html_instructions": "turn \u5805\u9053 Caine Road"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 248.2
+              },
+              "duration": {
+                "value": 22.5
+              },
+              "polyline": {
+                "points": "i~~fCicvwTIGu@w@IIKMIGEEg@i@CCAAACu@s@k@m@OOCCECACUU[]"
+              },
+              "html_instructions": "turn \u9d28\u5df4\u7538\u8857 Aberdeen Street"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "oh_gCumvwT"
+              },
+              "html_instructions": "arrive \u9d28\u5df4\u7538\u8857 Aberdeen Street"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 104.7
+              },
+              "duration": {
+                "value": 14
+              },
+              "polyline": {
+                "points": "oh_gCumvwTIIUUMMk@m@OM[_@AA"
+              },
+              "html_instructions": "depart \u9d28\u5df4\u7538\u8857 Aberdeen Street"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 89.1
+              },
+              "duration": {
+                "value": 10.1
+              },
+              "polyline": {
+                "points": "wl_gCarvwTmB|AEBIH"
+              },
+              "html_instructions": "end of road \u5a01\u9748\u9813\u8857 Wellington Street"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 137.6
+              },
+              "duration": {
+                "value": 13.7
+              },
+              "polyline": {
+                "points": "up_gCunvwTQDSFIPMVYp@IPMXYz@"
+              },
+              "html_instructions": "new name \u6587\u54b8\u6771\u8857 Bonham Strand"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 167.6
+              },
+              "duration": {
+                "value": 24.1
+              },
+              "polyline": {
+                "points": "_u_gCchvwTCAKAs@MEAEAo@MEAEAEAI?CAG?KCaASIAEAIAUE"
+              },
+              "html_instructions": "turn \u79a7\u5229\u8857 Hillier Street"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 176.1
+              },
+              "duration": {
+                "value": 13.7
+              },
+              "polyline": {
+                "points": "e~_gCsjvwTOt@AHQz@EVQx@[bBER"
+              },
+              "html_instructions": "turn \u5e72\u8afe\u9053\u4e2d Connaught Road Central"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 682.4
+              },
+              "duration": {
+                "value": 37.7
+              },
+              "polyline": {
+                "points": "ca`gCm`vwTs@jEI`@{@hFEb@CRCTI|AATQ~EDj@At@Ct@Gp@GfBCl@Cz@"
+              },
+              "html_instructions": "new name \u5e72\u8afe\u9053\u897f Connaught Road West"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 356.1
+              },
+              "duration": {
+                "value": 30.4
+              },
+              "polyline": {
+                "points": "ag`gCwwtwTILAX?R?NAV?z@AfBE~BIbBAZ?VCVAVETCPGNGNIL"
+              },
+              "html_instructions": "fork "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 3262.4
+              },
+              "duration": {
+                "value": 216.9
+              },
+              "polyline": {
+                "points": "mi`gCqbtwTIJMJKFKFKDKBKBK@M@K?MAKAKCMCKGKGOKIIIIGMGMGMCMCOAMAO@Q@O@MBODQFQb@gAJQb@s@^u@LWJYHWFWDWJm@D[BSBq@@o@Aq@Eq@Io@Mm@Qm@Sk@Wi@[g@o@o@k|@{w@qAmAiDwC_Au@_As@IIw@s@k@g@k@a@iA{@i@_@g@]OIMIYS_B_A}@i@iBeAa@SYOSK]QWMe@UUK_@OUCgAe@YKa@Q[KaA]oA_@"
+              },
+              "html_instructions": "new name "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 173.7
+              },
+              "duration": {
+                "value": 9.7
+              },
+              "polyline": {
+                "points": "s~cgCs`xwTs@KYC[EOAI?GAE?G?E?O?O?M?O?W@U@UBSB"
+              },
+              "html_instructions": "off ramp \u6cb9\u9ebb\u5730\u4ea4\u532f\u8655 Yau Ma Tei Interchange"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 125.2
+              },
+              "duration": {
+                "value": 9.4
+              },
+              "polyline": {
+                "points": "ihdgCaaxwTsAXO@E@E?I@_B^"
+              },
+              "html_instructions": "fork \u6cb9\u9ebb\u5730\u4ea4\u532f\u8655 Yau Ma Tei Interchange"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 801.8
+              },
+              "duration": {
+                "value": 72.2
+              },
+              "polyline": {
+                "points": "codgCa_xwTQBSBsARk@BQ@WAa@E]MUMKIECMKUQKOMSOYGWGWEYC[AWAY@SD_@BYH_@Ha@\\_A^}@BMHWFWDYBY@YAYC_@E]COQq@I[Ke@Kg@Ia@Ea@Ea@MwACU"
+              },
+              "html_instructions": "turn \u6cb9\u9ebb\u5730\u4ea4\u532f\u8655 Yau Ma Tei Interchange"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 66.1
+              },
+              "duration": {
+                "value": 6.8
+              },
+              "polyline": {
+                "points": "s{dgCwbywTDa@CW?IEe@AK?I"
+              },
+              "html_instructions": "turn \u9e97\u7fd4\u9053 Lai Cheung Road"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 1501.9
+              },
+              "duration": {
+                "value": 107.1
+              },
+              "polyline": {
+                "points": "y{dgCwfywTAWCa@Cc@CSM}ACSAQC]AICMMoAAG?ECSIw@AOCUGg@Gw@AGMqAAECSASE[AIMkACKEKEIGEGG{@k@a@Y_@WIEe@]QMeAw@GEQKq@c@MK_Am@WQm@c@QMUOsA{@CCGEi@[m@_@_@UOMKIiAu@IGg@[OMGEGE_@UOKGEYSMIECSOIGo@a@UQQMCCKGIGiAw@ECECIGIGYSs@e@e@]GEe@]g@]GEa@M"
+              },
+              "html_instructions": "new name \u7aa9\u6253\u8001\u9053 Waterloo Road"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 1285.6
+              },
+              "duration": {
+                "value": 84.4
+              },
+              "polyline": {
+                "points": "ypfgCcf{wTi@OYi@KWCEIWWo@EISg@EKKWa@mAGSGO?AAEEMCGACACEMCKSg@EKCGQg@EIYw@ISMk@G[EKkAeDAE{BqG?AYy@Yy@KYIUWk@i@wAo@kBa@mASi@CGKYOYQ_@Wk@iAwBGOKQCGIOKUCGGMYi@MWIQMU[o@"
+              },
+              "html_instructions": "new name \u4e9e\u7686\u8001\u8857 Argyle Street"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 165.8
+              },
+              "duration": {
+                "value": 11.3
+              },
+              "polyline": {
+                "points": "csggCej}wTKQGIIOM_@m@sAEIKUYk@CEGGECGEGC"
+              },
+              "html_instructions": "fork \u4e9e\u7686\u8001\u8857 Argyle Street"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 91.1
+              },
+              "duration": {
+                "value": 6.1
+              },
+              "polyline": {
+                "points": "kxggCmr}wTUBG@G?GAG?ECGCECEEQYGs@"
+              },
+              "html_instructions": "rotary \u592a\u5b50\u9053\u897f Prince Edward Road West"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 181.7
+              },
+              "duration": {
+                "value": 11.9
+              },
+              "polyline": {
+                "points": "u{ggCiu}wTSaBCWI{@Is@AIAGIc@ESCMES"
+              },
+              "html_instructions": "exit rotary \u592a\u5b50\u9053\u897f Prince Edward Road West"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 1918.3
+              },
+              "duration": {
+                "value": 142.3
+              },
+              "polyline": {
+                "points": "_~ggC_`~wTGIMOKMUYMOMQMOOQOSAAEGGGEGMMIKc@e@SQGIKK_DkDSS[]mGoG]_@e@g@WYk@m@OOGKSUCGGIMQW_@IMEIQW??EGEGCIUe@[i@Ym@EQGOESI[CKa@cBOi@Qq@GUEMGY]qAM]Oe@W_AMa@Oq@Ie@Oc@YgAUy@K]Qm@AGAIAOCSE]A]?_@?K?K?UBq@B_@BYD]F]BOF[BEFQDOJQTe@Zc@Ze@RYV_@DEbAuAV_@b@o@Zc@DGDIBCNU"
+              },
+              "html_instructions": "new name \u592a\u5b50\u9053\u6771 Prince Edward Road East"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 198.6
+              },
+              "duration": {
+                "value": 19.8
+              },
+              "polyline": {
+                "points": "e_igCi_axTFQBIBI@GBK?G?G?OAMCGCKEKEGGGGIIIa@YOMQKMIMEOCOA]A"
+              },
+              "html_instructions": "turn \u5f69\u8679\u4ea4\u532f\u8655 Choi Hung Interchange"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 189.6
+              },
+              "duration": {
+                "value": 17
+              },
+              "polyline": {
+                "points": "}digCagaxTC?W@I@E?E@IBi@P{@ZA?QFMFMD_@Lq@TIDS@"
+              },
+              "html_instructions": "new name \u9f8d\u7fd4\u9053 Lung Cheung Road"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 17.9
+              },
+              "duration": {
+                "value": 6.4
+              },
+              "polyline": {
+                "points": "_oigCgcaxTIBGBIF"
+              },
+              "html_instructions": "merge \u9f8d\u7fd4\u9053 Lung Cheung Road"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 149.8
+              },
+              "duration": {
+                "value": 39.4
+              },
+              "polyline": {
+                "points": "{oigCwbaxTBF?B?@BDHNZj@fAlBFBD?FC\\O"
+              },
+              "html_instructions": "turn \u9ec3\u83ca\u8def Wong Kuk Avenue"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 48
+              },
+              "duration": {
+                "value": 11.9
+              },
+              "polyline": {
+                "points": "qjigCi}`xTAE@G@EBEDCDAD?B?D@BDBF@FAF"
+              },
+              "html_instructions": "roundabout \u85cd\u9418\u8def Lam Chung Avenue"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 63.4
+              },
+              "duration": {
+                "value": 15.3
+              },
+              "polyline": {
+                "points": "giigCi}`xTx@|ADF"
+              },
+              "html_instructions": "exit roundabout \u85cd\u9418\u8def Lam Chung Avenue"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 14.3
+              },
+              "duration": {
+                "value": 3.7
+              },
+              "polyline": {
+                "points": "ggigCcz`xT?FADABC@C@"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 229.4
+              },
+              "duration": {
+                "value": 55
+              },
+              "polyline": {
+                "points": "sgigCmy`xTEAEAE?G@EByBxAQJo@`@sBnAMF"
+              },
+              "html_instructions": "turn \u7da0\u67f3\u8def Luk Lau Avenue"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 155
+              },
+              "duration": {
+                "value": 37.1
+              },
+              "polyline": {
+                "points": "qrigCkr`xTE@ICGIi@aAc@u@CK?MDKr@e@JG"
+              },
+              "html_instructions": "fork \u7d05\u6885\u8def Hung Mui Avenue"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "usigCcy`xT"
+              },
+              "html_instructions": "arrive \u7d05\u6885\u8def Hung Mui Avenue"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 39.3
+              },
+              "duration": {
+                "value": 9.5
+              },
+              "polyline": {
+                "points": "usigCcy`xTx@k@"
+              },
+              "html_instructions": "depart \u7d05\u6885\u8def Hung Mui Avenue"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 122.2
+              },
+              "duration": {
+                "value": 29.2
+              },
+              "polyline": {
+                "points": "{qigCoz`xTNCH@h@~@p@jA@HCHGL"
+              },
+              "html_instructions": "turn \u6a59\u82b1\u8def Chang Fa Avenue"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 84.8
+              },
+              "duration": {
+                "value": 20.6
+              },
+              "polyline": {
+                "points": "onigCcu`xTsBnAMF"
+              },
+              "html_instructions": "turn \u7da0\u67f3\u8def Luk Lau Avenue"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 47.8
+              },
+              "duration": {
+                "value": 16.7
+              },
+              "polyline": {
+                "points": "qrigCkr`xTEFAJ?R?HCN?DGN"
+              },
+              "html_instructions": "fork \u7da0\u67f3\u8def Luk Lau Avenue"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 61.8
+              },
+              "duration": {
+                "value": 4.7
+              },
+              "polyline": {
+                "points": "esigCso`xTDBDBDDBD@F@D?D?DAFAFCDCDEDE@EBG?"
+              },
+              "html_instructions": "roundabout \u5f69\u8679\u9053 Choi Hung Road"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 63.8
+              },
+              "duration": {
+                "value": 4.2
+              },
+              "polyline": {
+                "points": "qsigC}l`xTc@j@i@n@"
+              },
+              "html_instructions": "exit roundabout \u5f69\u8679\u9053 Choi Hung Road"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 562.1
+              },
+              "duration": {
+                "value": 44.7
+              },
+              "polyline": {
+                "points": "_vigCaj`xTYf@AD_@`@IJOd@Ur@AFIPITITGPEJITEFABIHGHGFGFGFEHEHSj@EJALAJAJAJADADM\\g@rAeArCCFABCHIZKp@EZC\\ALAPAP"
+              },
+              "html_instructions": "fork \u5f69\u8679\u9053 Choi Hung Road"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 871.8
+              },
+              "duration": {
+                "value": 55
+              },
+              "polyline": {
+                "points": "scjgCyk_xT?P@R?TBT?NB^?H@TJ`@DNFPFTFRJZBHPb@T`@^b@NNBDXVRNTPtBvAPLjAr@JFVPPL`Av@ZPTNTLRHNF^L\\JVFVFN@LBP@P@J?L@LAJANCJELEJGJIJIv@u@DEXY\\]NM"
+              },
+              "html_instructions": "continue \u5f69\u8679\u9053 Choi Hung Road"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 339.3
+              },
+              "duration": {
+                "value": 28.5
+              },
+              "polyline": {
+                "points": "}`igCiv~wTFIDGt@_Af@o@JMJOFMDIBIDMDMR_ABMBIDGDIFGHGHEJAJAH?J@F@HDDBFDBDDFBFBJDNDXHp@"
+              },
+              "html_instructions": "new name \u65b0\u84b2\u5d17\u4ea4\u532f\u8655 San Po Kong Interchange"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 46.1
+              },
+              "duration": {
+                "value": 4.2
+              },
+              "polyline": {
+                "points": "avhgCy|~wTLXHNV\\"
+              },
+              "html_instructions": "fork \u65b0\u84b2\u5d17\u4ea4\u532f\u8655 San Po Kong Interchange"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 570.9
+              },
+              "duration": {
+                "value": 51.4
+              },
+              "polyline": {
+                "points": "qthgCqz~wTXX`NlNNNBDTThAjADDfBbC"
+              },
+              "html_instructions": "turn \u592a\u5b50\u9053\u6771 Prince Edward Road East"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 446.4
+              },
+              "duration": {
+                "value": 36.6
+              },
+              "polyline": {
+                "points": "s}ggCgb~wTBJDPVt@V|@DRbAfDPn@Pl@Tl@Tj@Tj@JXx@dBNRJRFHJLHL"
+              },
+              "html_instructions": "turn \u4e5d\u9f8d\u57ce\u5929\u6a4b Kowloon City flyover"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 867
+              },
+              "duration": {
+                "value": 58.3
+              },
+              "polyline": {
+                "points": "irggCgj}wTTd@JRJRLVVh@HN@DLTFNBFLRxBhEBFP^BH@BBF@DRf@@@?@\\`AVr@@Bx@~BJV@DBFLZlAdDPd@`@hAVp@l@bBBFFRf@|AZdA"
+              },
+              "html_instructions": "new name \u4e9e\u7686\u8001\u8857 Argyle Street"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 609.5
+              },
+              "duration": {
+                "value": 33.7
+              },
+              "polyline": {
+                "points": "e{fgC}{{wTTjAtA|DpAtDVn@z@vBTj@Xv@Vz@dApDN|@Nz@"
+              },
+              "html_instructions": "fork \u4e9e\u7686\u8001\u8857\u5929\u6a4b Argyle Street Flyover"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 317.2
+              },
+              "duration": {
+                "value": 28.8
+              },
+              "polyline": {
+                "points": "emfgCizzwTFf@D`@@HBXBJFl@Fb@D^F`@@N@JDZB^Hn@JhA@HBN@RL|@@N"
+              },
+              "html_instructions": "new name \u4e9e\u7686\u8001\u8857 Argyle Street"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 103.1
+              },
+              "duration": {
+                "value": 11.2
+              },
+              "polyline": {
+                "points": "sifgCmgzwTLA|Ca@B?DA"
+              },
+              "html_instructions": "turn \u9ed1\u5e03\u8857 Hak Po Street"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 61.3
+              },
+              "duration": {
+                "value": 9.7
+              },
+              "polyline": {
+                "points": "}cfgCshzwTPxA@DBR"
+              },
+              "html_instructions": "turn \u5976\u8def\u81e3\u8857 Nelson Street"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 24
+              },
+              "duration": {
+                "value": 1.5
+              },
+              "polyline": {
+                "points": "ecfgC_ezwTSBUD"
+              },
+              "html_instructions": "turn \u6d17\u8863\u8857 Sai Yee Street"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "odfgCudzwT"
+              },
+              "html_instructions": "arrive \u6d17\u8863\u8857 Sai Yee Street"
+            }
+          ]
+        }
+      ],
+      "bounds": {
+        "northeast": {
+          "lat": 22.3393,
+          "lng": 114.20801
+        },
+        "southwest": {
+          "lat": 22.28213,
+          "lng": 114.14044
+        }
+      }
+    }
+  ],
+  "status": "OK"
+}

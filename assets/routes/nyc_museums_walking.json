@@ -1,0 +1,138 @@
+{
+  "routes": [
+    {
+      "overview_polyline": {
+        "points": "ws{wFbwlbMHFHFhBjAJFFFhBjALFBBBBVPHDXRl@^TNNJ\\TlAv@JHJFfBjAFDHFfAr@`@XLFHFhBlAHFJFfBjAHFHDhBlAJFJHfBjARLPJhBnAJFHFfBjAJFFDfBjAJHJFfBjAHDHHfBhAHFHFv@f@f@\\FDJFJHbBfAJHJFfBhAJFHFdBhAJHHFdBjAJFHFdBjAJHJF|AbANJNHPLXRn@b@RLJF`BfANHJHJFxA`ATLPLdBjANHHFbAr@`@THHJFfBhAHFJFfBhAJHGTmAtDa@nAa@lACJCD[bAK\\g@vASr@IXMIcBgAKGHYVw@`F{OHWHUrBuGHUIGe@[IEu@g@MIKGyAcAIEKGKIiBkAQKSO{AeAIEKGKGeBkAIEMGQMq@c@QMOIMKGEeBkAIGMIcBiAA?IGKGeBkAIEKIeBiAAAIEKIeBiAMIGEgBkAIGMGeBiAIGIGiBkAIGKGeBiAIGKGgBkAIGIGgBkAKGGGkBmAQMUMgBmAIEMIgBkAIGKGgBkAKGKGgBiAKGKGgBkAKIIGgBiAIGMIiBmAQKSMiBoAGGMIgBkAIEKIgBkAIGKGiBmAIEKIgAs@"
+      },
+      "legs": [
+        {
+          "distance": {
+            "value": 5627.5,
+            "text": "5.6 km"
+          },
+          "duration": {
+            "value": 717.9,
+            "text": "11 mins"
+          },
+          "steps": [
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 2362.4
+              },
+              "duration": {
+                "value": 315.2
+              },
+              "polyline": {
+                "points": "ws{wFbwlbMHFHFhBjAJFFFhBjALFBBBBVPHDXRl@^TNNJ\\TlAv@JHJFfBjAFDHFfAr@`@XLFHFhBlAHFJFfBjAHFHDhBlAJFJHfBjARLPJhBnAJFHFfBjAJFFDfBjAJHJFfBjAHDHHfBhAHFHFv@f@f@\\FDJFJHbBfAJHJFfBhAJFHFdBhAJHHFdBjAJFHFdBjAJHJF|AbANJNHPLXRn@b@RLJF`BfANHJHJFxA`ATLPLdBjANHHFbAr@`@THHJFfBhAHFJFfBhAJH"
+              },
+              "html_instructions": "depart 5th Avenue"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 183.3
+              },
+              "duration": {
+                "value": 13.9
+              },
+              "polyline": {
+                "points": "q_xwF~kobMGTmAtDa@nAa@lACJCD"
+              },
+              "html_instructions": "turn West 53rd Street"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "sdxwFzwobM"
+              },
+              "html_instructions": "arrive West 53rd Street"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 128
+              },
+              "duration": {
+                "value": 12.6
+              },
+              "polyline": {
+                "points": "sdxwFzwobM[bAK\\g@vASr@IX"
+              },
+              "html_instructions": "depart West 53rd Street"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 79.3
+              },
+              "duration": {
+                "value": 9.2
+              },
+              "polyline": {
+                "points": "ahxwFb`pbMMIcBgAKG"
+              },
+              "html_instructions": "turn 6th Avenue"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 466.8
+              },
+              "duration": {
+                "value": 39.9
+              },
+              "polyline": {
+                "points": "_lxwFh}obMHYVw@`F{OHWHUrBuGHU"
+              },
+              "html_instructions": "turn West 54th Street"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 2407.7
+              },
+              "duration": {
+                "value": 327.1
+              },
+              "polyline": {
+                "points": "i_xwF`_obMIGe@[IEu@g@MIKGyAcAIEKGKIiBkAQKSO{AeAIEKGKGeBkAIEMGQMq@c@QMOIMKGEeBkAIGMIcBiAA?IGKGeBkAIEKIeBiAAAIEKIeBiAMIGEgBkAIGMGeBiAIGIGiBkAIGKGeBiAIGKGgBkAIGIGgBkAKGGGkBmAQMUMgBmAIEMIgBkAIGKGgBkAKGKGgBiAKGKGgBkAKIIGgBiAIGMIiBmAQKSMiBoAGGMIgBkAIEKIgBkAIGKGiBmAIEKIgAs@"
+              },
+              "html_instructions": "turn Madison Avenue"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "yu{wFphlbM"
+              },
+              "html_instructions": "arrive Madison Avenue"
+            }
+          ]
+        }
+      ],
+      "bounds": {
+        "northeast": {
+          "lat": 40.77933,
+          "lng": -73.95993
+        },
+        "southwest": {
+          "lat": 40.76037,
+          "lng": -73.97906
+        }
+      }
+    }
+  ],
+  "status": "OK"
+}

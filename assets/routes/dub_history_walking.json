@@ -1,0 +1,567 @@
+{
+  "routes": [
+    {
+      "overview_polyline": {
+        "points": "i}qdIpqde@SGE`@OnAIPMDC?S?gAAG?E?C?G@{@@a@?eACGAgBQEAC?SC?`@AdA?vADpAFx@Dn@@RBJB^BL@FRrBXpBBR@HF^F^BTBNCAAAAAE@EBC@iAf@A?A@ODSHGBqBp@EBA?KB@V@HFfA\\bHHzAPvCDr@@l@BPBHBBD?rBg@NCp@dIFn@PbCLzA`@xEPtBt@WXIFCFAz@Sj@OFABADAHC@VR`F?L?B@TPtDJCPCJAlAWDAPELEH@FBJHPRRVPNNBFAB???DAFGDGJIBDBFHDPHPHNJDY?CBM@M@ED?DA|@SDAJ?PBN@d@Jh@JF@?W?UAOGk@u@sDEWEUAKAOIw@QoACOUiBWeBU_BKAI@e@F]BZtCBRD\\TtB@HTpBm@qFE]CS[uC\\Cd@GHAJ@T~AVdBThBBNPnAHv@@N@JDTDVt@rDFj@@N?T?Vr@FNDZBB?D?PNBH?DCtF?l@AtA?R?VSAO?Y?oAAMGqAaAGGGCOSQ@S@SCO?I@O@C?_@Dy@EQ?_@@G@IBG@@N?v@?V@`B?V?`ABxC?b@@nD?tA?t@Vb@LDP@FIHUPm@F[P{AJg@BKPy@BU@[Fi@Fk@J_Ah@aFHy@@K?G@a@Ey@KcBEs@AIEYK[EKKUDY?CBM@M@ED?DA|@SDAJ?PBN@d@Jh@JF@r@FNDZBB?D?PNBH?DCtF?l@AtA?R~ABp@BJAD?D?@?FAXAL?J?\\DR?XFLDPJn@Vf@JJmADc@H_AB[Ju@BK"
+      },
+      "legs": [
+        {
+          "distance": {
+            "value": 4996.1,
+            "text": "5.0 km"
+          },
+          "duration": {
+            "value": 894.4,
+            "text": "14 mins"
+          },
+          "steps": [
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 11.1
+              },
+              "duration": {
+                "value": 6.8
+              },
+              "polyline": {
+                "points": "i}qdIpqde@SG"
+              },
+              "html_instructions": "depart Park Lane"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 40.2
+              },
+              "duration": {
+                "value": 5.8
+              },
+              "polyline": {
+                "points": "}}qdIhqde@E`@OnA"
+              },
+              "html_instructions": "turn Pearse Street"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 254.8
+              },
+              "duration": {
+                "value": 34.8
+              },
+              "polyline": {
+                "points": "s~qdIztde@IPMDC?S?gAAG?E?C?G@{@@a@?eACGAgBQEAC?SC"
+              },
+              "html_instructions": "turn Tara Street"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 64.2
+              },
+              "duration": {
+                "value": 5.7
+              },
+              "polyline": {
+                "points": "wlrdIvtde@?`@AdA?vA"
+              },
+              "html_instructions": "turn George's Quay"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 221.6
+              },
+              "duration": {
+                "value": 43.9
+              },
+              "polyline": {
+                "points": "ylrdIvzde@DpAFx@Dn@@RBJB^BL@FRrBXpBBR@HF^F^BTBN"
+              },
+              "html_instructions": "new name Burgh Quay"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 5.6
+              },
+              "duration": {
+                "value": 1
+              },
+              "polyline": {
+                "points": "iirdIrnee@CAAAAA"
+              },
+              "html_instructions": "turn O'Connell Bridge"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 156.7
+              },
+              "duration": {
+                "value": 32.2
+              },
+              "polyline": {
+                "points": "qirdIlnee@E@EBC@iAf@A?A@ODSHGBqBp@EBA?KB"
+              },
+              "html_instructions": "continue O'Connell Bridge"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 250.1
+              },
+              "duration": {
+                "value": 37.4
+              },
+              "polyline": {
+                "points": "arrdIlree@@V@HFfA\\bHHzAPvCDr@@l@"
+              },
+              "html_instructions": "turn Middle Abbey Street"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 91
+              },
+              "duration": {
+                "value": 13.6
+              },
+              "polyline": {
+                "points": "sordIpife@BPBHBBD?rBg@NC"
+              },
+              "html_instructions": "fork Liffey Street Lower"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 321
+              },
+              "duration": {
+                "value": 57.5
+              },
+              "polyline": {
+                "points": "}jrdIdife@p@dIFn@PbCLzA`@xEPtB"
+              },
+              "html_instructions": "new name Great Strand Street"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 130.3
+              },
+              "duration": {
+                "value": 25.9
+              },
+              "polyline": {
+                "points": "ofrdIjfge@t@WXIFCFAz@Sj@OFABADAHC"
+              },
+              "html_instructions": "turn Capel Street"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 158.9
+              },
+              "duration": {
+                "value": 26.8
+              },
+              "polyline": {
+                "points": "k_rdItcge@@VR`F?L?B@TPtD"
+              },
+              "html_instructions": "turn Essex Quay"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 180.3
+              },
+              "duration": {
+                "value": 30.2
+              },
+              "polyline": {
+                "points": "a~qdIlrge@JCPCJAlAWDAPELEH@FBJHPRRVPNNBFAB???DAFGDGJI"
+              },
+              "html_instructions": "turn Fishamble Street"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 43.3
+              },
+              "duration": {
+                "value": 16.2
+              },
+              "polyline": {
+                "points": "qtqdInrge@BDBFHDPHPHNJ"
+              },
+              "html_instructions": "end of road Christchurch Place"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 144.5
+              },
+              "duration": {
+                "value": 28.5
+              },
+              "polyline": {
+                "points": "krqdIbtge@DY?CBM@M@ED?DA|@SDAJ?PBN@d@Jh@JF@"
+              },
+              "html_instructions": "turn Werburgh Street"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 103
+              },
+              "duration": {
+                "value": 15.4
+              },
+              "polyline": {
+                "points": "gkqdIjrge@?W?UAOGk@u@sD"
+              },
+              "html_instructions": "turn Ship Street Little"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 188.7
+              },
+              "duration": {
+                "value": 30.3
+              },
+              "polyline": {
+                "points": "gmqdIlige@EWEUAKAOIw@QoACOUiBWeBU_B"
+              },
+              "html_instructions": "turn Back Avenue"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 50.3
+              },
+              "duration": {
+                "value": 14.2
+              },
+              "polyline": {
+                "points": "{pqdIzxfe@KAI@e@F]B"
+              },
+              "html_instructions": "turn Lower Yard"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 111.3
+              },
+              "duration": {
+                "value": 41.3
+              },
+              "polyline": {
+                "points": "usqdIfyfe@ZtCBRD\\TtB"
+              },
+              "html_instructions": "continue Lower Yard"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "yqqdIdcge@"
+              },
+              "html_instructions": "arrive "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 4
+              },
+              "duration": {
+                "value": 1
+              },
+              "polyline": {
+                "points": "yqqdIdcge@@H"
+              },
+              "html_instructions": "depart "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "wqqdIncge@"
+              },
+              "html_instructions": "arrive "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 39.8
+              },
+              "duration": {
+                "value": 37
+              },
+              "polyline": {
+                "points": "wqqdIncge@TpB"
+              },
+              "html_instructions": "depart "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 155.1
+              },
+              "duration": {
+                "value": 55.5
+              },
+              "polyline": {
+                "points": "aqqdI`gge@m@qFE]CS[uC"
+              },
+              "html_instructions": "continue "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 50.3
+              },
+              "duration": {
+                "value": 8.1
+              },
+              "polyline": {
+                "points": "usqdIfyfe@\\Cd@GHAJ@"
+              },
+              "html_instructions": "continue Lower Yard"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 291.7
+              },
+              "duration": {
+                "value": 47.6
+              },
+              "polyline": {
+                "points": "{pqdIzxfe@T~AVdBThBBNPnAHv@@N@JDTDVt@rDFj@@N?T?V"
+              },
+              "html_instructions": "turn Back Avenue"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 59
+              },
+              "duration": {
+                "value": 10.9
+              },
+              "polyline": {
+                "points": "gkqdIjrge@r@FNDZBB?D?"
+              },
+              "html_instructions": "turn Bride Street"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 150.3
+              },
+              "duration": {
+                "value": 26.5
+              },
+              "polyline": {
+                "points": "}gqdI|rge@PNBH?DCtF?l@AtA?R"
+              },
+              "html_instructions": "turn Bride Road"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 166.7
+              },
+              "duration": {
+                "value": 21.5
+              },
+              "polyline": {
+                "points": "mgqdIj`he@?VSAO?Y?oAAMGqAaAGGGCOS"
+              },
+              "html_instructions": "end of road Nicholas Street"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 57.9
+              },
+              "duration": {
+                "value": 5.3
+              },
+              "polyline": {
+                "points": "{oqdIt}ge@Q@S@SCO?I@O@C?"
+              },
+              "html_instructions": "new name Saint Michael's Hill"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "csqdIx}ge@"
+              },
+              "html_instructions": "arrive Saint Michael's Hill"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 92.6
+              },
+              "duration": {
+                "value": 12.4
+              },
+              "polyline": {
+                "points": "csqdIx}ge@_@Dy@EQ?_@@G@IBG@"
+              },
+              "html_instructions": "depart Saint Michael's Hill"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 263.5
+              },
+              "duration": {
+                "value": 40
+              },
+              "polyline": {
+                "points": "ixqdIb~ge@@N?v@?V@`B?V?`ABxC?b@@nD?tA?t@"
+              },
+              "html_instructions": "turn Cook Street"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 153
+              },
+              "duration": {
+                "value": 18.5
+              },
+              "polyline": {
+                "points": "_xqdIxvhe@Vb@LDP@FIHUPm@F[P{AJg@BKPy@"
+              },
+              "html_instructions": "turn Bridge Street Upper"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 186.2
+              },
+              "duration": {
+                "value": 18.8
+              },
+              "polyline": {
+                "points": "gsqdIpnhe@BU@[Fi@Fk@J_Ah@aFHy@@K?G@a@"
+              },
+              "html_instructions": "new name High Street"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 110
+              },
+              "duration": {
+                "value": 16.7
+              },
+              "polyline": {
+                "points": "mpqdIv}ge@Ey@KcBEs@AIEYK[EKKU"
+              },
+              "html_instructions": "new name Christchurch Place"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 203.5
+              },
+              "duration": {
+                "value": 32.7
+              },
+              "polyline": {
+                "points": "krqdIbtge@DY?CBM@M@ED?DA|@SDAJ?PBN@d@Jh@JF@r@FNDZBB?D?"
+              },
+              "html_instructions": "turn Werburgh Street"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 150.3
+              },
+              "duration": {
+                "value": 31.7
+              },
+              "polyline": {
+                "points": "}gqdI|rge@PNBH?DCtF?l@AtA?R"
+              },
+              "html_instructions": "turn Bride Road"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 241.1
+              },
+              "duration": {
+                "value": 28.4
+              },
+              "polyline": {
+                "points": "mgqdIj`he@~ABp@BJAD?D?@?FAXAL?J?\\DR?XFLDPJn@Vf@J"
+              },
+              "html_instructions": "turn Patrick Street"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 94.4
+              },
+              "duration": {
+                "value": 14.3
+              },
+              "polyline": {
+                "points": "azpdIpbhe@JmADc@H_AB[Ju@BK"
+              },
+              "html_instructions": "turn St. Patrick's Close"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "qxpdI`zge@"
+              },
+              "html_instructions": "arrive St. Patrick's Close"
+            }
+          ]
+        }
+      ],
+      "bounds": {
+        "northeast": {
+          "lat": 53.34833,
+          "lng": -6.25445
+        },
+        "southwest": {
+          "lat": 53.33913,
+          "lng": -6.27603
+        }
+      }
+    }
+  ],
+  "status": "OK"
+}

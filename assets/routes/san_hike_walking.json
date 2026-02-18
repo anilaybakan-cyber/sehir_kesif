@@ -1,0 +1,190 @@
+{
+  "routes": [
+    {
+      "overview_polyline": {
+        "points": "_hh}E{bfzCN@DA@ABC@E@E?E?CAo@NEREREb@Ix@Kj@GVEJ?JAD?|@EAY?KAKAa@Ao@AUAs@EoAM?_@?UA_AGu@IiAIs@CYEOEWQQU]e@eAiA_@e@MIMEIAM?QDo@RgAb@yAf@[LGDIFEFCDEHCDCDGJW\\OJUJWDI@QDKB[Ni@Xa@R_@POHQFe@JWDK@IBEDEL?HBJDFHD|@HT@T?^@p@CLAH@HDBF?B@DAJEHGDGBW@QBO@MDMHKH_@^a@ZQLKLABGT?RIj@Mp@Ih@GNKTMAI?MEKIMSQUSKSEKAYCO@UDy@`@g@VSFUDYLy@Xu@P[LMDc@JYDe@Be@D]BK@[@WBIBKFGDEJELKl@ONM@K@QAOC[Ma@UYKOAM@KDCDCFEHCP@PJ^BNCNKPKJOHWJM@S?_@CSCUB_@BQBQDUJWXWRa@b@s@p@MLA@IJm@j@e@Z[Vk@\\YL]LOBMAKAQAIAu@I@^?TBXFp@Fj@VzBJt@FZHd@FVHZFXDXDXHj@BZDZFNHHCNCNFz@BV@Z?VANAL]Vi@h@C\\?DCDWVwBdCADAF\\f@]g@@G@EvBeCVWBE?EB]h@i@\\W?RBR@T"
+      },
+      "legs": [
+        {
+          "distance": {
+            "value": 3551.5,
+            "text": "3.6 km"
+          },
+          "duration": {
+            "value": 394.5,
+            "text": "6 mins"
+          },
+          "steps": [
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 48.4
+              },
+              "duration": {
+                "value": 12.6
+              },
+              "polyline": {
+                "points": "_hh}E{bfzCN@DA@ABC@E@E?E?CAo@"
+              },
+              "html_instructions": "depart "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 174
+              },
+              "duration": {
+                "value": 16.6
+              },
+              "polyline": {
+                "points": "agh}EgefzCNEREREb@Ix@Kj@GVEJ?JAD?|@E"
+              },
+              "html_instructions": "turn 25\u03b7\u03c2 \u039c\u03b1\u03c1\u03c4\u03af\u03bf\u03c5"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 128.8
+              },
+              "duration": {
+                "value": 33.9
+              },
+              "polyline": {
+                "points": "k}g}EegfzCAY?KAKAa@Ao@AUAs@EoA"
+              },
+              "html_instructions": "turn \u0394\u03b1\u03bd\u03ad\u03b6\u03b7"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 514.2
+              },
+              "duration": {
+                "value": 34.1
+              },
+              "polyline": {
+                "points": "}}g}EcpfzCM?_@?UA_AGu@IiAIs@CYEOEWQQU]e@eAiA_@e@MIMEIAM?QDo@RgAb@yAf@[LGD"
+              },
+              "html_instructions": "end of road \u0391\u03b3\u03af\u03bf\u03c5 \u0391\u03b8\u03b1\u03bd\u03b1\u03c3\u03af\u03bf\u03c5"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 1837.2
+              },
+              "duration": {
+                "value": 126.9
+              },
+              "polyline": {
+                "points": "ixh}EgtfzCIFEFCDEHCDCDGJW\\OJUJWDI@QDKB[Ni@Xa@R_@POHQFe@JWDK@IBEDEL?HBJDFHD|@HT@T?^@p@CLAH@HDBF?B@DAJEHGDGBW@QBO@MDMHKH_@^a@ZQLKLABGT?RIj@Mp@Ih@GNKTMAI?MEKIMSQUSKSEKAYCO@UDy@`@g@VSFUDYLy@Xu@P[LMDc@JYDe@Be@D]BK@[@WBIBKFGDEJELKl@ONM@K@QAOC[Ma@UYKOAM@KDCDCFEHCP@PJ^BNCNKPKJOHWJM@S?_@CSCUB_@BQBQDUJWXWRa@b@s@p@MLA@IJm@j@e@Z[Vk@\\YL]LOBMAKAQAIAu@I"
+              },
+              "html_instructions": "continue \u0391\u03b3\u03af\u03bf\u03c5 \u0391\u03b8\u03b1\u03bd\u03b1\u03c3\u03af\u03bf\u03c5"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 316.8
+              },
+              "duration": {
+                "value": 21
+              },
+              "polyline": {
+                "points": "i~j}EyhezC@^?TBXFp@Fj@VzBJt@FZHd@FVHZFXDXDXHj@BZDZFNHH"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 90.1
+              },
+              "duration": {
+                "value": 13.1
+              },
+              "polyline": {
+                "points": "qyj}EwsdzCCNCNFz@BV@Z?VANAL"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 207
+              },
+              "duration": {
+                "value": 77
+              },
+              "polyline": {
+                "points": "oyj}EqmdzC]Vi@h@C\\?DCDWVwBdCADAF\\f@"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "u_k}EqcdzC"
+              },
+              "html_instructions": "arrive "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 207
+              },
+              "duration": {
+                "value": 55.2
+              },
+              "polyline": {
+                "points": "u_k}EqcdzC]g@@G@EvBeCVWBE?EB]h@i@\\W"
+              },
+              "html_instructions": "depart "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 28.2
+              },
+              "duration": {
+                "value": 4.1
+              },
+              "polyline": {
+                "points": "oyj}EqmdzC?RBR@T"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "iyj}EskdzC"
+              },
+              "html_instructions": "arrive "
+            }
+          ]
+        }
+      ],
+      "bounds": {
+        "northeast": {
+          "lat": 36.43418,
+          "lng": 25.43505
+        },
+        "southwest": {
+          "lat": 36.4183,
+          "lng": 25.42153
+        }
+      }
+    }
+  ],
+  "status": "OK"
+}

@@ -1,0 +1,151 @@
+{
+  "routes": [
+    {
+      "overview_polyline": {
+        "points": "kh{xEkibtYGN?x@?\\At@?t@?LDRz@DB?f@DPDIXOCg@G}@A_@CQAOAI?CAQAyAIiAGI?WC]AmAIyBMaBIG?MA@YL@hAF|AFxAHf@BF@^@VBt@BtBLH?F@L?N@t@Dz@DB?f@DDa@@iA@}@?y@?K@OK?C?_BA"
+      },
+      "legs": [
+        {
+          "distance": {
+            "value": 1228.3,
+            "text": "1.2 km"
+          },
+          "duration": {
+            "value": 179,
+            "text": "2 mins"
+          },
+          "steps": [
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 113.4
+              },
+              "duration": {
+                "value": 30.3
+              },
+              "polyline": {
+                "points": "kh{xEkibtYGN?x@?\\At@?t@?LDR"
+              },
+              "html_instructions": "depart "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 57.8
+              },
+              "duration": {
+                "value": 7.2
+              },
+              "polyline": {
+                "points": "oh{xEuabtYz@DB?f@D"
+              },
+              "html_instructions": "turn \u4e2d\u592e\u901a\u308a"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 447.8
+              },
+              "duration": {
+                "value": 51.9
+              },
+              "polyline": {
+                "points": "ge{xEiabtYPDIXOCg@G}@A_@CQAOAI?CAQAyAIiAGI?WC]AmAIyBMaBIG?MA"
+              },
+              "html_instructions": "continue \u4e2d\u592e\u901a\u308a"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 113.4
+              },
+              "duration": {
+                "value": 13.1
+              },
+              "polyline": {
+                "points": "{|{xE_cbtY@YL@hAF|AF"
+              },
+              "html_instructions": "continue \u4e2d\u592e\u901a\u308a"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "cw{xEgcbtY"
+              },
+              "html_instructions": "arrive \u4e2d\u592e\u901a\u308a"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 318.5
+              },
+              "duration": {
+                "value": 40.3
+              },
+              "polyline": {
+                "points": "cw{xEgcbtYxAHf@BF@^@VBt@BtBLH?F@L?N@t@Dz@DB?f@D"
+              },
+              "html_instructions": "depart \u4e2d\u592e\u901a\u308a"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 116.3
+              },
+              "duration": {
+                "value": 20.4
+              },
+              "polyline": {
+                "points": "ge{xEiabtYDa@@iA@}@?y@?K@O"
+              },
+              "html_instructions": "turn \u74b0\u72b62\u53f7\u7dda"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 61.1
+              },
+              "duration": {
+                "value": 15.8
+              },
+              "polyline": {
+                "points": "{d{xEiibtYK?C?_BA"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "kh{xEkibtY"
+              },
+              "html_instructions": "arrive "
+            }
+          ]
+        }
+      ],
+      "bounds": {
+        "northeast": {
+          "lat": 35.70142,
+          "lng": 139.77254
+        },
+        "southwest": {
+          "lat": 35.69755,
+          "lng": 139.77109
+        }
+      }
+    }
+  ],
+  "status": "OK"
+}

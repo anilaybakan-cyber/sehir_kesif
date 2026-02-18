@@ -1,0 +1,434 @@
+[
+    {
+        "city": "New York",
+        "name": "Complete Cafe, LLC",
+        "tr": "Şık ve modern bir kahve dükkanı. Günün her saati taze ve kaliteli kahve.",
+        "en": "Stylish and modern coffee shop. Fresh and quality coffee all day."
+    },
+    {
+        "city": "New York",
+        "name": "Enoteca Harlem",
+        "tr": "Harlem'de otantik İtalyan şarap barı. Seçkin şaraplar ve lezzetli atıştırmalıklar.",
+        "en": "Authentic Italian wine bar in Harlem. Selected wines and savory snacks."
+    },
+    {
+        "city": "New York",
+        "name": "Galicia Tapas",
+        "tr": "İspanyol Galiçya mutfağı. Tapaslar, deniz ürünleri ve canlı bir atmosfer.",
+        "en": "Spanish Galician cuisine. Tapas, seafood, and a lively atmosphere."
+    },
+    {
+        "city": "New York",
+        "name": "Gold coffee",
+        "tr": "Altın değerinde kahve çekirdekleri. Şehirde kahve tutkunları için özel bir durak.",
+        "en": "Golden coffee beans. A special stop for coffee enthusiasts in the city."
+    },
+    {
+        "city": "New York",
+        "name": "Green Lane Coffee",
+        "tr": "Doğal ve organik kahve seçenekleri. Rahatlatıcı ve yeşil bir atmosfer.",
+        "en": "Natural and organic coffee options. Relaxing and green atmosphere."
+    },
+    {
+        "city": "New York",
+        "name": "Koré Coffee",
+        "tr": "Kore tarzı kahve dükkanı. Farklı aromalar ve modern sunumlar.",
+        "en": "Korean style coffee shop. Different aromas and modern presentations."
+    },
+    {
+        "city": "New York",
+        "name": "Les Gateaux de Marie",
+        "tr": "Fransız usulü pastane. Taze kruvasanlar, eklerler ve nefis tatlılar.",
+        "en": "French style pastry shop. Fresh croissants, eclairs, and delicious sweets."
+    },
+    {
+        "city": "New York",
+        "name": "Lola's",
+        "tr": "Samimi ve neşeli bir bistro. Amerikan klasikleri ve ev yapımı lezzetler.",
+        "en": "Intimate and cheerful bistro. American classics and homemade flavors."
+    },
+    {
+        "city": "New York",
+        "name": "Odd Sister",
+        "tr": "Sıradışı ve yaratıcı kokteyller. Gizemli dekorasyon ve büyüleyici bir ortam.",
+        "en": "Unusual and creative cocktails. Mysterious decoration and fascinating environment."
+    },
+    {
+        "city": "New York",
+        "name": "Shaken Not Stirred",
+        "tr": "James Bond esintili kokteyl barı. Klasik ve modern içkilerin buluşma noktası.",
+        "en": "James Bond inspired cocktail bar. Meeting point of classic and modern drinks."
+    },
+    {
+        "city": "New York",
+        "name": "Simpl Coffee",
+        "tr": "Basit, sade ve mükemmel kahve. Minimalist tasarım ve huzurlu bir mola.",
+        "en": "Simple, plain, and perfect coffee. Minimalist design and a peaceful break."
+    },
+    {
+        "city": "New York",
+        "name": "The Canary",
+        "tr": "Kanarya sarısı dekorasyonuyla neşeli bir mekan. Brunch ve kokteyl keyfi.",
+        "en": "Cheerful venue with canary yellow decoration. Brunch and cocktail pleasure."
+    },
+    {
+        "city": "New York",
+        "name": "The Dickens",
+        "tr": "Edebi bir atmosferde içki keyfi. Kitaplar ve kokteyllerle dolu bir bar.",
+        "en": "Drinking pleasure in a literary atmosphere. Bar full of books and cocktails."
+    },
+    {
+        "city": "New York",
+        "name": "The Ivory Peacock",
+        "tr": "Zarif ve lüks bir kokteyl barı. Tavus kuşu temalı şık dekorasyon.",
+        "en": "Elegant and luxurious cocktail bar. Peacock themed stylish decoration."
+    },
+    {
+        "city": "New York",
+        "name": "Turkish Cuisine",
+        "tr": "New York'ta otantik Türk yemekleri. Kebap, döner ve baklava çeşitleri.",
+        "en": "Authentic Turkish meals in New York. Kebab, doner, and baklava varieties."
+    },
+    {
+        "city": "New York",
+        "name": "Twist Bar",
+        "tr": "Modern dokunuşlarla klasik kokteyller. Hareketli ve eğlenceli bir gece kulübü.",
+        "en": "Classic cocktails with modern touches. Lively and fun nightclub."
+    },
+    {
+        "city": "New York",
+        "name": "Unregular Bakery",
+        "tr": "Sıradışı ve yaratıcı hamur işleri. Kare pizzalar, sandviçler ve tatlılar.",
+        "en": "Unusual and creative pastries. Square pizzas, sandwiches, and sweets."
+    },
+    {
+        "city": "Nice",
+        "name": "Au Coeur des Terroirs - Fine Wine Bar & Sommelier",
+        "tr": "Fransız terörünü keşfedin. Peynir ve şarap eşleşmeleriyle dolu bir tadım.",
+        "en": "Discover the French terroir. Tasting full of cheese and wine pairings."
+    },
+    {
+        "city": "Nice",
+        "name": "Barbacane Bar",
+        "tr": "Otel barında şık bir akşam. Seçkin içkiler ve sofistike bir ortam.",
+        "en": "Stylish evening at the hotel bar. Exclusive drinks and sophisticated environment."
+    },
+    {
+        "city": "Nice",
+        "name": "Bootleg bar",
+        "tr": "Gizli ve samimi bir speakeasy. Özel kokteyller ve caz müzik.",
+        "en": "Hidden and intimate speakeasy. Special cocktails and jazz music."
+    },
+    {
+        "city": "Nice",
+        "name": "Brasserie Artisanale de Nice",
+        "tr": "Yerel üretim butik biralar. Nice'in kalbinde taze ve doğal lezzetler.",
+        "en": "Locally produced craft beers. Fresh and natural flavors in the heart of Nice."
+    },
+    {
+        "city": "Nice",
+        "name": "Brasserie de Castillon - Taproom",
+        "tr": "Castillon'dan gelen butik bira lezzeti. Taproom ortamında tadım keyfi.",
+        "en": "Craft beer flavor from Castillon. Tasting pleasure in taproom environment."
+    },
+    {
+        "city": "Nice",
+        "name": "Caffè Orso",
+        "tr": "Ayı temalı şirin bir kafe. Özel kahveler ve ev yapımı kekler.",
+        "en": "Cute bear-themed cafe. Special coffees and homemade cakes."
+    },
+    {
+        "city": "Nice",
+        "name": "Caffè Vergnano 1882 : Gambetta Nice",
+        "tr": "İtalyan kahve geleneği. Gerçek espresso ve kaliteli hizmet.",
+        "en": "Italian coffee tradition. Real espresso and quality service."
+    },
+    {
+        "city": "Nice",
+        "name": "Café des Musiciens",
+        "tr": "Müzisyenler meydanında keyifli bir mola. Kahve ve kruvasan eşliğinde insanları izleyin.",
+        "en": "Pleasant break at Musicians' Square. Watch people with coffee and croissant."
+    },
+    {
+        "city": "Nice",
+        "name": "Casa tua",
+        "tr": "Evinizde hissettiren İtalyan restoranı. Samimi ortam ve lezzetli makarnalar.",
+        "en": "Italian restaurant making you feel at home. Intimate environment and delicious pastas."
+    },
+    {
+        "city": "Nice",
+        "name": "Coco Bar",
+        "tr": "Tropikal esintiler ve renkli kokteyller. Eğlenceli ve canlı bir atmosfer.",
+        "en": "Tropical breezes and colorful cocktails. Fun and lively atmosphere."
+    },
+    {
+        "city": "Nice",
+        "name": "Eh pastry",
+        "tr": "Modern ve yaratıcı pastacılık. Göze ve damağa hitap eden tatlılar.",
+        "en": "Modern and creative pastry. Sweets appealing to eye and palate."
+    },
+    {
+        "city": "Nice",
+        "name": "HYDE",
+        "tr": "Şık ve trend bir gece kulübü. DJ performansları ve özel kokteyller.",
+        "en": "Stylish and trendy nightclub. DJ performances and special cocktails."
+    },
+    {
+        "city": "Nice",
+        "name": "Ice cream shop & Coffee | Frisson",
+        "tr": "Dondurma ve kahve keyfi bir arada. Serinletici lezzetler ve sıcak içecekler.",
+        "en": "Ice cream and coffee pleasure together. Refreshing flavors and hot drinks."
+    },
+    {
+        "city": "Nice",
+        "name": "Immo café",
+        "tr": "Emlak ve kahve konsepti. Farklı ve modern bir kafe deneyimi.",
+        "en": "Real estate and coffee concept. Different and modern cafe experience."
+    },
+    {
+        "city": "Nice",
+        "name": "Jonathan Le Pâtissier",
+        "tr": "Şef Jonathan'ın elinden çıkan tatlılar. Artizan pastacılık ve taze lezzetler.",
+        "en": "Sweets from Chef Jonathan's hand. Artisan pastry and fresh flavors."
+    },
+    {
+        "city": "Nice",
+        "name": "Kraken Bar",
+        "tr": "Efsanevi deniz canavarı temalı bar. Güçlü kokteyller ve gizemli bir ortam.",
+        "en": "Legendary sea monster themed bar. Strong cocktails and mysterious environment."
+    },
+    {
+        "city": "Nice",
+        "name": "La Bodeguita Tapas et Pinchos",
+        "tr": "İspanyol tapas ve pinchos çeşitleri. Canlı müzik ve sangria keyfi.",
+        "en": "Spanish tapas and pinchos varieties. Live music and sangria enjoyment."
+    },
+    {
+        "city": "Nice",
+        "name": "La Claque Coffee Shop",
+        "tr": "Sizi uyandıracak güçlü kahveler. Modern ve enerjik bir kafe.",
+        "en": "Strong coffees to wake you up. Modern and energetic cafe."
+    },
+    {
+        "city": "Nice",
+        "name": "La Hacienda Coffee Shop - Nice",
+        "tr": "Meksika esintili kahve dükkanı. Renkli dekorasyon ve egzotik tatlar.",
+        "en": "Mexican-inspired coffee shop. Colorful decoration and exotic tastes."
+    },
+    {
+        "city": "Nice",
+        "name": "La Mağarası Du Cours",
+        "tr": "Cours Saleya'da şarap mahzeni. Yerel şaraplar ve tadım etkinlikleri.",
+        "en": "Wine cellar on Cours Saleya. Local wines and tasting events."
+    },
+    {
+        "city": "Nice",
+        "name": "La Nice Étoilée",
+        "tr": "Yıldızlar altında yemek keyfi. Şık ve romantik bir atmosfer.",
+        "en": "Dining pleasure under stars. Stylish and romantic atmosphere."
+    },
+    {
+        "city": "Nice",
+        "name": "Le Bouchon",
+        "tr": "Geleneksel Lyon bouchon tarzı restoran. Et ağırlıklı ve doyurucu yemekler.",
+        "en": "Traditional Lyon bouchon style restaurant. Meat-focused and satisfying meals."
+    },
+    {
+        "city": "Nice",
+        "name": "Le Brassitorium Nice",
+        "tr": "Bira ve gastronominin buluşması. Farklı biralar ve uyumlu yemekler.",
+        "en": "Meeting of beer and gastronomy. Different beers and matching meals."
+    },
+    {
+        "city": "Nice",
+        "name": "Le Country Store",
+        "tr": "Amerikan country tarzı kafe. Bagel, kurabiye ve filtre kahve.",
+        "en": "American country style cafe. Bagel, cookie, and filter coffee."
+    },
+    {
+        "city": "Nice",
+        "name": "Le Jonathan's",
+        "tr": "Samimi ve sıcak bir bistro. Günlük değişen menü ve taze ürünler.",
+        "en": "Intimate and warm bistro. Daily changing menu and fresh products."
+    },
+    {
+        "city": "Nice",
+        "name": "Le bistrot des docks",
+        "tr": "Liman bölgesinde modern bistro. Deniz ürünleri ve taze lezzetler.",
+        "en": "Modern bistro in the port area. Seafood and fresh flavors."
+    },
+    {
+        "city": "Nice",
+        "name": "Les Agitateurs - restaurant gastronomique",
+        "tr": "Yaratıcı ve kışkırtıcı mutfak. Şaşırtıcı lezzet kombinasyonları.",
+        "en": "Creative and provocative cuisine. Surprising flavor combinations."
+    },
+    {
+        "city": "Nice",
+        "name": "Les folies d'Edmonde - Bar à Cocktails",
+        "tr": "Çılgın ve eğlenceli kokteyl barı. Renkli içecekler ve hareketli müzik.",
+        "en": "Crazy and fun cocktail bar. Colorful drinks and lively music."
+    },
+    {
+        "city": "Nice",
+        "name": "Loka Bar Kitchen - Restaurant Nice",
+        "tr": "Yerel ve mevsimsel mutfak. Bar ve restoran konsepti bir arada.",
+        "en": "Local and seasonal cuisine. Bar and restaurant concept together."
+    },
+    {
+        "city": "Nice",
+        "name": "MOULT",
+        "tr": "Midye ve patates (moules-frites) keyfi. Taze deniz ürünleri ve rahat ortam.",
+        "en": "Mussels and fries (moules-frites) pleasure. Fresh seafood and relaxed environment."
+    },
+    {
+        "city": "Nice",
+        "name": "Maison Alta",
+        "tr": "Yüksek standartlarda konaklama ve yemek. Şık ve zarif bir deneyim.",
+        "en": "High standard accommodation and dining. Stylish and elegant experience."
+    },
+    {
+        "city": "Nice",
+        "name": "Maison Karlie",
+        "tr": "Butik pastane ve çay salonu. Zarif tatlılar ve şık sunumlar.",
+        "en": "Boutique pastry shop and tea room. Elegant sweets and stylish presentations."
+    },
+    {
+        "city": "Nice",
+        "name": "Nice Sunset",
+        "tr": "Gün batımını izlemek için en iyi nokta. Kokteyl ve manzara keyfi.",
+        "en": "Best spot to watch the sunset. Cocktail and view pleasure."
+    },
+    {
+        "city": "Nice",
+        "name": "PAMELA'S Bar & Restaurant",
+        "tr": "Kaliforniya tarzı modern bar. Canlı renkler ve taze kokteyller.",
+        "en": "California style modern bar. Vibrant colors and fresh cocktails."
+    },
+    {
+        "city": "Nice",
+        "name": "POVERA",
+        "tr": "İtalyan 'cucina povera' mutfağı. Basit malzemelerle yaratılan büyük lezzetler.",
+        "en": "Italian 'cucina povera' cuisine. Great flavors created with simple ingredients."
+    },
+    {
+        "city": "Nice",
+        "name": "Pistache - Pâtisserie",
+        "tr": "Fıstık severler için özel tatlılar. Antep fıstıklı pastalar ve dondurmalar.",
+        "en": "Special sweets for pistachio lovers. Pistachio cakes and ice creams."
+    },
+    {
+        "city": "Nice",
+        "name": "Poivre Traiteur - Cuisine du Liban",
+        "tr": "Lübnan mutfağından mezeler ve yemekler. Paket servis veya hızlı atıştırmalık.",
+        "en": "Appetizers and meals from Lebanese cuisine. Takeaway or quick snack."
+    },
+    {
+        "city": "Nice",
+        "name": "Pâtisserie Cappa Mariette",
+        "tr": "Tarihi ve köklü bir pastane. Geleneksel Fransız tatlıları ve kusursuz hizmet.",
+        "en": "Historic and established pastry shop. Traditional French sweets and impeccable service."
+    },
+    {
+        "city": "Nice",
+        "name": "Pâtisserie Moutet",
+        "tr": "Aile işletmesi sıcaklığında pastane. Taze ekmek ve günlük tatlılar.",
+        "en": "Pastry shop in family business warmth. Fresh bread and daily sweets."
+    },
+    {
+        "city": "Nice",
+        "name": "Rainbow Bar",
+        "tr": "LGBT dostu, renkli ve eğlenceli bar. Canlı şovlar ve iyi müzik.",
+        "en": "LGBT friendly, colorful and fun bar. Live shows and good music."
+    },
+    {
+        "city": "Nice",
+        "name": "Riviera & Tours",
+        "tr": "Riviera lezzetlerini keşfetme turları. Gastronomi ve gezi bir arada.",
+        "en": "Tours discovering Riviera flavors. Gastronomy and travel together."
+    },
+    {
+        "city": "Nice",
+        "name": "Rouge",
+        "tr": "Kırmızı temalı şık şarap barı. Tutkulu bir atmosfer ve seçkin şaraplar.",
+        "en": "Red themed stylish wine bar. Passionate atmosphere and exclusive wines."
+    },
+    {
+        "city": "Nice",
+        "name": "SAVVA Coffee Shop",
+        "tr": "Modern ve minimalist kahve dükkanı. Nitelikli kahve çekirdekleri ve sağlıklı atıştırmalıklar.",
+        "en": "Modern and minimalist coffee shop. Specialty coffee beans and healthy snacks."
+    },
+    {
+        "city": "Nice",
+        "name": "SB pastry",
+        "tr": "Butik pastacılık ürünleri. Özel günler için tasarlanmış şık pastalar.",
+        "en": "Boutique pastry products. Stylish cakes designed for special occasions."
+    },
+    {
+        "city": "Nice",
+        "name": "TIPSY Nice Bar",
+        "tr": "Çakırkeyif olacağınız eğlenceli bir bar. Yaratıcı ve güçlü kokteyller.",
+        "en": "Fun bar where you'll get tipsy. Creative and strong cocktails."
+    },
+    {
+        "city": "Nice",
+        "name": "Teddy Sweets",
+        "tr": "Ayıcık temalı tatlı dükkanı. Çocuklar ve içindeki çocuğu yaşatanlar için.",
+        "en": "Teddy bear themed sweet shop. For kids and those keeping the inner child alive."
+    },
+    {
+        "city": "Nice",
+        "name": "The Sailor's Pub",
+        "tr": "Denizci temalı geleneksel pub. Bira ve deniz hikayeleri.",
+        "en": "Sailor themed traditional pub. Beer and sea stories."
+    },
+    {
+        "city": "Nice",
+        "name": "The Shop Craft Bar",
+        "tr": "Butik bira ve kokteyl dükkanı. Farklı tatlar arayanlar için.",
+        "en": "Craft beer and cocktail shop. For those looking for different tastes."
+    },
+    {
+        "city": "Nice",
+        "name": "Vibes",
+        "tr": "İyi müzik ve iyi atmosfer. Arkadaşlarla takılmak için cool bir mekan.",
+        "en": "Good music and good atmosphere. Cool place to hang out with friends."
+    },
+    {
+        "city": "Nice",
+        "name": "Wine Tasting in Nice",
+        "tr": "Nice şaraplarını uzmanlarla tadın. Eğitici ve lezzetli bir etkinlik.",
+        "en": "Taste Nice wines with experts. Educational and delicious activity."
+    },
+    {
+        "city": "Nice",
+        "name": "YUME - Coffee & More",
+        "tr": "Japon esintili kahve ve yaşam alanı. Huzur ve lezzet bir arada.",
+        "en": "Japanese inspired coffee and living space. Peace and flavor together."
+    },
+    {
+        "city": "Oslo",
+        "name": "Maemo Restaurant",
+        "tr": "Norveç'in üç Michelin yıldızlı gurur kaynağı. Mevsimsel ve yerel İskandinav mutfağı.",
+        "en": "Norway's three Michelin starred pride. Seasonal and local Scandinavian cuisine."
+    },
+    {
+        "city": "Oslo",
+        "name": "Supreme Roastworks",
+        "tr": "Dünya şampiyonu baristalardan kahve. Oslo'nun en iyi espresso ve filtre kahveleri.",
+        "en": "Coffee from world champion baristas. Oslo's best espresso and filter coffees."
+    },
+    {
+        "city": "Oslo",
+        "name": "Tryvann Winter Parkı",
+        "tr": "Oslo'nun kayak merkezi. Metroyla ulaşılabilen kış sporları ve eğlence alanı.",
+        "en": "Oslo's ski resort. Winter sports and entertainment area accessible by metro."
+    },
+    {
+        "city": "Roma",
+        "name": "Gelateria del Teatro",
+        "tr": "Roma'nın en iyi dondurmacılarından biri. Taze meyveler ve doğal malzemelerle yapılan sanat eseri dondurmalar.",
+        "en": "One of Rome's best ice cream shops. Art-like ice creams made with fresh fruits and natural ingredients."
+    }
+]

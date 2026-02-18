@@ -1,0 +1,424 @@
+{
+  "routes": [
+    {
+      "overview_polyline": {
+        "points": "{gyFag}xRQCOKG?]Da@eE\\CnBOLxAJCFIBC@IIy@CECCI?C@EDCLLNLbBFJ@BB@B?r@GD?XEHCXCDN@FZjAPd@FL^n@LR^j@^\\LJNNTR^XhCxAnDpBTNlDnBrC`BZRTL|BpAhCxAHFRJMTGJa@r@sC`FcAfBwAdCuA~BCDYf@UMeCyAe@WmAq@MGWO]QgHcEkBaAgCmAeCeAGCo@jAg@~@k@dA?BCDOVWMKEgAk@MIsAo@e@Uc@UeAk@i@Qe@M_@K{@QDY@@NBh@Jf@L`@Jj@R^Pf@Vf@XlBbA?NABCBsAo@e@Uc@UeAk@i@Qe@M_@K{@QMAkAKQ?wRWcBCMDG@IDC@IFMLIJGHCt@AdACz@A^C`AA~@ATAZA~@Ah@C~@Ab@AR?B?XAB?HC\\AVGTEPCHELKPCDQRQRKJQTWZGFUZKJ{@dAc@h@CBAP@J@HBHFHTF|@Tr@PJ@^HL@LBF?bALD@L@j@HPB~@J`Fj@rD`@n@HJ@L@R@NBG`@k@IGAIA_OaBkAOaBS}@OOC}Bi@{@UQEIEy@]qAi@i@WeAk@_Ae@QK}@c@GEoAs@gAi@ECaAg@GEcAi@MGKG}@e@INABYd@_@l@[d@CDIJILMJKFIBc@HWQGGGEOMuAaAk@a@[[o@m@MMq@q@_@_@OQQOoAoAe@g@OQu@w@IIu@s@OORQLEZOhAm@rBaAx@YbBg@n@Qp@Mj@IP?L?f@D\\?t@ExAi@PIH@HCHEX[JKJGPG^IjAg@`A_@`CyApAo@rAe@pAWN?r@FtBZ|Ad@bBf@~A\\pAN|AJX@h@B`BD~AH~AJlFBrA@jCD|CJlBJjANtATvAZ|@Rf@L|@XJRBDBD@F?D?DA@o@jAg@~@k@dA?BCDOVWMKEgAk@MIsAo@e@Uc@UeAk@i@Qe@M_@K{@QMAkAKQ?oCE"
+      },
+      "legs": [
+        {
+          "distance": {
+            "value": 9912.2,
+            "text": "9.9 km"
+          },
+          "duration": {
+            "value": 971,
+            "text": "16 mins"
+          },
+          "steps": [
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 282.9
+              },
+              "duration": {
+                "value": 75.4
+              },
+              "polyline": {
+                "points": "{gyFag}xRQCOKG?]Da@eE\\CnBOLxA"
+              },
+              "html_instructions": "depart "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 83.6
+              },
+              "duration": {
+                "value": 21.1
+              },
+              "polyline": {
+                "points": "ifyFkk}xRJCFIBC@IIy@CECCI?C@EDCL"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 67.3
+              },
+              "duration": {
+                "value": 6.1
+              },
+              "polyline": {
+                "points": "yfyFum}xRLNLbB"
+              },
+              "html_instructions": "turn Gardens by the Bay"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 68.4
+              },
+              "duration": {
+                "value": 8.3
+              },
+              "polyline": {
+                "points": "}eyFaj}xRFJ@BB@B?r@GD?XEHC"
+              },
+              "html_instructions": "fork Gardens by the Bay"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 932
+              },
+              "duration": {
+                "value": 93.2
+              },
+              "polyline": {
+                "points": "mbyFaj}xRXCDN@FZjAPd@FL^n@LR^j@^\\LJNNTR^XhCxAnDpBTNlDnBrC`BZRTL|BpAhCxAHFRJ"
+              },
+              "html_instructions": "turn Marina Gardens Drive"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 455.1
+              },
+              "duration": {
+                "value": 42.9
+              },
+              "polyline": {
+                "points": "izwFej|xRMTGJa@r@sC`FcAfBwAdCuA~BCD"
+              },
+              "html_instructions": "end of road Central Boulevard"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 692.9
+              },
+              "duration": {
+                "value": 65
+              },
+              "polyline": {
+                "points": "khxFyt{xRYf@UMeCyAe@WmAq@MGWO]QgHcEkBaAgCmAeCeAGC"
+              },
+              "html_instructions": "turn Sheares Avenue"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 144
+              },
+              "duration": {
+                "value": 14.9
+              },
+              "polyline": {
+                "points": "ciyFkg|xRo@jAg@~@k@dA?BCD"
+              },
+              "html_instructions": "turn Sheares Link"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 343
+              },
+              "duration": {
+                "value": 38.9
+              },
+              "polyline": {
+                "points": "kmyFo`|xROVWMKEgAk@MIsAo@e@Uc@UeAk@i@Qe@M_@K{@Q"
+              },
+              "html_instructions": "turn Bayfront Avenue"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 165.2
+              },
+              "duration": {
+                "value": 19.3
+              },
+              "polyline": {
+                "points": "e~yFgh|xRDY@@NBh@Jf@L`@Jj@R^Pf@V"
+              },
+              "html_instructions": "continue Bayfront Avenue"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "evyFwe|xR"
+              },
+              "html_instructions": "arrive Bayfront Avenue"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 98.4
+              },
+              "duration": {
+                "value": 9.3
+              },
+              "polyline": {
+                "points": "evyFwe|xRf@XlBbA"
+              },
+              "html_instructions": "depart Bayfront Avenue"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 727.8
+              },
+              "duration": {
+                "value": 70.6
+              },
+              "polyline": {
+                "points": "oqyFyb|xR?NABCBsAo@e@Uc@UeAk@i@Qe@M_@K{@QMAkAKQ?wRWcBC"
+              },
+              "html_instructions": "continue Bayfront Avenue"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 707.6
+              },
+              "duration": {
+                "value": 68.1
+              },
+              "polyline": {
+                "points": "mxzFqi|xRMDG@IDC@IFMLIJGHCt@AdACz@A^C`AA~@ATAZA~@Ah@C~@Ab@AR?B?XAB?HC\\AVGTEPCHELKPCDQRQRKJQTWZGFUZKJ{@dAc@h@CB"
+              },
+              "html_instructions": "turn Raffles Avenue"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 509.9
+              },
+              "duration": {
+                "value": 36.2
+              },
+              "polyline": {
+                "points": "ud{Fcf{xRAP@J@HBHFHTF|@Tr@PJ@^HL@LBF?bALD@L@j@HPB~@J`Fj@rD`@"
+              },
+              "html_instructions": "turn Esplanade Drive"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "cjzFk~zxR"
+              },
+              "html_instructions": "arrive Esplanade Drive"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 61.5
+              },
+              "duration": {
+                "value": 8.5
+              },
+              "polyline": {
+                "points": "cjzFk~zxRn@HJ@L@R@NB"
+              },
+              "html_instructions": "depart Esplanade Drive"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 594
+              },
+              "duration": {
+                "value": 42.1
+              },
+              "polyline": {
+                "points": "ufzFw}zxRG`@k@IGAIA_OaBkAOaBS}@OOC}Bi@{@U"
+              },
+              "html_instructions": "continue Esplanade Drive"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 527.6
+              },
+              "duration": {
+                "value": 43.2
+              },
+              "polyline": {
+                "points": "qf{F}c{xRQEIEy@]qAi@i@WeAk@_Ae@QK}@c@GEoAs@gAi@ECaAg@GEcAi@MGKG}@e@"
+              },
+              "html_instructions": "new name Nicoll Highway"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 142.4
+              },
+              "duration": {
+                "value": 14.9
+              },
+              "polyline": {
+                "points": "e`|Fas{xRINABYd@_@l@[d@CDIJILMJKFIB"
+              },
+              "html_instructions": "turn Middle Road"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 524.8
+              },
+              "duration": {
+                "value": 58.2
+              },
+              "polyline": {
+                "points": "ce|F{l{xRc@HWQGGGEOMuAaAk@a@[[o@m@MMq@q@_@_@OQQOoAoAe@g@OQu@w@IIu@s@OO"
+              },
+              "html_instructions": "turn Beach Road"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 493.1
+              },
+              "duration": {
+                "value": 38.9
+              },
+              "polyline": {
+                "points": "{z|F_`|xRRQLEZOhAm@rBaAx@YbBg@n@Qp@Mj@IP?L?f@D\\?t@ExAi@PI"
+              },
+              "html_instructions": "turn Ophir Road"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 801.7
+              },
+              "duration": {
+                "value": 62
+              },
+              "polyline": {
+                "points": "ka|Fwi|xRH@HCHEX[JKJGPG^IjAg@`A_@`CyApAo@rAe@pAWN?r@FtBZ|Ad@bBf@~A\\pAN|AJX@"
+              },
+              "html_instructions": "fork Ophir Road"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "{wzFco|xR"
+              },
+              "html_instructions": "arrive "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 184.6
+              },
+              "duration": {
+                "value": 13.8
+              },
+              "polyline": {
+                "points": "{wzFco|xRh@B`BD~AH~AJ"
+              },
+              "html_instructions": "depart "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 644.2
+              },
+              "duration": {
+                "value": 50.4
+              },
+              "polyline": {
+                "points": "omzFcn|xRlFBrA@jCD|CJlBJjANtATvAZ|@Rf@L|@X"
+              },
+              "html_instructions": "new name Sheares Avenue"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 33.4
+              },
+              "duration": {
+                "value": 5.1
+              },
+              "polyline": {
+                "points": "wiyFai|xRJRBDBD@F?D?DA@"
+              },
+              "html_instructions": "turn Sheares Link"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 144
+              },
+              "duration": {
+                "value": 14.9
+              },
+              "polyline": {
+                "points": "ciyFkg|xRo@jAg@~@k@dA?BCD"
+              },
+              "html_instructions": "continue Sheares Link"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 482.8
+              },
+              "duration": {
+                "value": 49.7
+              },
+              "polyline": {
+                "points": "kmyFo`|xROVWMKEgAk@MIsAo@e@Uc@UeAk@i@Qe@M_@K{@QMAkAKQ?oCE"
+              },
+              "html_instructions": "turn Bayfront Avenue"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "afzF{h|xR"
+              },
+              "html_instructions": "arrive Bayfront Avenue"
+            }
+          ]
+        }
+      ],
+      "bounds": {
+        "northeast": {
+          "lat": 1.29982,
+          "lng": 103.86678
+        },
+        "southwest": {
+          "lat": 1.27413,
+          "lng": 103.85371
+        }
+      }
+    }
+  ],
+  "status": "OK"
+}

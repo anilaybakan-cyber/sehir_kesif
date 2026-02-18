@@ -1,0 +1,476 @@
+{
+  "routes": [
+    {
+      "overview_polyline": {
+        "points": "asazFrdqs@NGlCu@FChAIn@INIZS`Bq@n@WJCTET?TCpAi@fAe@hA]EQWiB]gAc@u@[a@IIITEJaA|BU^_@b@KHsAxAYT]JYBc@AC?KAA?oBIDMDIf@u@d@a@p@q@DG@QCGMEM?SBSJ{@f@MBQB[AiC{BGGYOoAq@_@UaByAKOQa@QSMo@EIKLAJKx@@FBJXNDLBH@XC@GHEKIOGN?RBHBFNRZv@DBBHDH?FHR`@~@HRFPVp@RjAD\\DZJn@DZJv@BJNbAHn@p@W@AB?v@]lCu@FChAIn@INIZS`Bq@n@WJCTET?TCpAi@fAe@hA]EQWiB]gAc@u@[a@II_A_AQYEKCKAO?QLiE?G@U@Q?G?QODeBb@OBm@Li@JGBG@YFIB]BA?u@BUDEMCKCIaBiFGQwAuEUy@Wu@IY_@w@S_@GKAI?E?E?CBKDBD@D?DADE@G@GAIAECEJQ^q@FUBiAB}DBS\\uAJc@DQQI{Am@}@OmA@yC^oUvCu@HMBMDkAd@oD|AeDrAE@OFE@BX^rD?@BFFHLDz@XFBhC|@FBRFPFDBv@XZLFBHBFDD@|@\\NDHDZPXZT^L^Lf@Fj@?X?XCj@G^I\\M^Ub@s@vAABU`@KVGXCFIXAPCPA~@Ab@EtCAL?T?FAFEDC@UFMBa@HG@G@o@Nq@NkCh@G@MD]DZd@BDDDp@|@NRp@bA^h@HJn@`AzA|BvApBp@bAPNn@RD@|@T~@VRFXBl@AL?J?H?ZBOq@AE?GAEe@qBAGEOAIEECOU{@AGAM@O|@{KBQF_@L_@NWLUHOFOBQ@MBYTELE"
+      },
+      "legs": [
+        {
+          "distance": {
+            "value": 6699.1,
+            "text": "6.7 km"
+          },
+          "duration": {
+            "value": 810.1,
+            "text": "13 mins"
+          },
+          "steps": [
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 457.1
+              },
+              "duration": {
+                "value": 46.6
+              },
+              "polyline": {
+                "points": "asazFrdqs@NGlCu@FChAIn@INIZS`Bq@n@WJCTET?TCpAi@fAe@hA]"
+              },
+              "html_instructions": "depart Rua C\u00e2ndido dos Reis"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 147.2
+              },
+              "duration": {
+                "value": 27.6
+              },
+              "polyline": {
+                "points": "qz`zFxzps@EQWiB]gAc@u@[a@II"
+              },
+              "html_instructions": "turn Rua de Lu\u00eds de Cam\u00f5es"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 331.4
+              },
+              "duration": {
+                "value": 26.9
+              },
+              "polyline": {
+                "points": "w~`zFrqps@ITEJaA|BU^_@b@KHsAxAYT]JYBc@AC?KAA?oBI"
+              },
+              "html_instructions": "turn Rua de General Torres"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 116.2
+              },
+              "duration": {
+                "value": 18.5
+              },
+              "polyline": {
+                "points": "wmazFr|ps@DMDIf@u@d@a@p@q@DG@Q"
+              },
+              "html_instructions": "turn Rua de Guedes de Amorim"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 277.3
+              },
+              "duration": {
+                "value": 39.9
+              },
+              "polyline": {
+                "points": "ciazFvvps@CGMEM?SBSJ{@f@MBQB[AiC{BGGYOoAq@"
+              },
+              "html_instructions": "end of road Rua do Pilar"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "_wazF`rps@"
+              },
+              "html_instructions": "arrive Cal\u00e7ada da Serra"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 153.6
+              },
+              "duration": {
+                "value": 29.6
+              },
+              "polyline": {
+                "points": "_wazF`rps@_@UaByAKOQa@QSMo@EI"
+              },
+              "html_instructions": "depart Cal\u00e7ada da Serra"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 93.7
+              },
+              "duration": {
+                "value": 16.6
+              },
+              "polyline": {
+                "points": "e}azFpjps@KLAJKx@@FBJXNDLBH@XC@GH"
+              },
+              "html_instructions": "turn Rua de Cabo Sim\u00e3o"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 15
+              },
+              "duration": {
+                "value": 8.5
+              },
+              "polyline": {
+                "points": "_}azFfpps@EKIO"
+              },
+              "html_instructions": "turn Rua de General Torres"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 216.1
+              },
+              "duration": {
+                "value": 77.6
+              },
+              "polyline": {
+                "points": "o}azFjops@GN?RBHBFNRZv@DBBHDH?FHR`@~@HRFPVp@RjAD\\"
+              },
+              "html_instructions": "turn Avenida de Diogo Leite"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "cxazFb}ps@"
+              },
+              "html_instructions": "arrive Avenida de Diogo Leite"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 126.1
+              },
+              "duration": {
+                "value": 51.3
+              },
+              "polyline": {
+                "points": "cxazFb}ps@DZJn@DZJv@BJNbAHn@"
+              },
+              "html_instructions": "depart Avenida de Diogo Leite"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 514.2
+              },
+              "duration": {
+                "value": 53.2
+              },
+              "polyline": {
+                "points": "avazFbfqs@p@W@AB?v@]lCu@FChAIn@INIZS`Bq@n@WJCTET?TCpAi@fAe@hA]"
+              },
+              "html_instructions": "turn Rua C\u00e2ndido dos Reis"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 147.2
+              },
+              "duration": {
+                "value": 21.2
+              },
+              "polyline": {
+                "points": "qz`zFxzps@EQWiB]gAc@u@[a@II"
+              },
+              "html_instructions": "turn Rua de Lu\u00eds de Cam\u00f5es"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 183.3
+              },
+              "duration": {
+                "value": 18.4
+              },
+              "polyline": {
+                "points": "w~`zFrqps@_A_AQYEKCKAO?QLiE?G@U"
+              },
+              "html_instructions": "new name Rua Lu\u00eds de Cam\u00f5es"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 236.5
+              },
+              "duration": {
+                "value": 27.9
+              },
+              "polyline": {
+                "points": "eaazFveps@@Q?G?QODeBb@OBm@Li@JGBG@YFIB]BA?u@BUD"
+              },
+              "html_instructions": "turn Avenida da Rep\u00fablica"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 364.1
+              },
+              "duration": {
+                "value": 25.9
+              },
+              "polyline": {
+                "points": "amazFrgps@EMCKCIaBiFGQwAuEUy@Wu@IY_@w@S_@GKAI"
+              },
+              "html_instructions": "end of road Rua de Rodrigues de Freitas"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 12.2
+              },
+              "duration": {
+                "value": 5.5
+              },
+              "polyline": {
+                "points": "gwazFdpos@?E?E?CBK"
+              },
+              "html_instructions": "continue Rua de Rodrigues de Freitas"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 35.4
+              },
+              "duration": {
+                "value": 3.9
+              },
+              "polyline": {
+                "points": "cwazFhoos@DBD@D?DADE@G@GAIAECE"
+              },
+              "html_instructions": "roundabout Rua Gon\u00e7alves Zarco"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 223.5
+              },
+              "duration": {
+                "value": 16.5
+              },
+              "polyline": {
+                "points": "ivazF`nos@JQ^q@FUBiAB}DBS\\uAJc@"
+              },
+              "html_instructions": "exit roundabout Rua Gon\u00e7alves Zarco"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 238.5
+              },
+              "duration": {
+                "value": 20.9
+              },
+              "polyline": {
+                "points": "_sazFp~ns@DQQI{Am@}@OmA@yC^"
+              },
+              "html_instructions": "turn Rua Gon\u00e7alves Zarco"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 451.4
+              },
+              "duration": {
+                "value": 24.9
+              },
+              "polyline": {
+                "points": "m_bzFx|ns@oUvCu@HMBMD"
+              },
+              "html_instructions": "new name Ponte Infante Dom Henrique"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 265.9
+              },
+              "duration": {
+                "value": 30.7
+              },
+              "polyline": {
+                "points": "oxbzFdbos@kAd@oD|AeDrAE@OFE@"
+              },
+              "html_instructions": "new name Rua das Fontainhas"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 99.2
+              },
+              "duration": {
+                "value": 10.9
+              },
+              "polyline": {
+                "points": "mfczFhios@BX^rD?@BFFH"
+              },
+              "html_instructions": "turn Avenida de Rodrigues de Freitas"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 145.5
+              },
+              "duration": {
+                "value": 13.6
+              },
+              "polyline": {
+                "points": "}dczFjpos@LDz@XFBhC|@FBRF"
+              },
+              "html_instructions": "new name Rua Duque de Loul\u00e9"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 128.7
+              },
+              "duration": {
+                "value": 14.5
+              },
+              "polyline": {
+                "points": "e}bzFxsos@PFDBv@XZLFBHBFDD@|@\\ND"
+              },
+              "html_instructions": "new name Rua do Duque de Loul\u00e9"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 284.1
+              },
+              "duration": {
+                "value": 22.4
+              },
+              "polyline": {
+                "points": "kvbzF`wos@HDZPXZT^L^Lf@Fj@?X?XCj@G^I\\M^Ub@s@vAABU`@"
+              },
+              "html_instructions": "new name Rua do General Sousa Dias"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 182.6
+              },
+              "duration": {
+                "value": 16.5
+              },
+              "polyline": {
+                "points": "wvbzFhhps@KVGXCFIXAPCPA~@Ab@EtCAL?T?FAF"
+              },
+              "html_instructions": "new name Rua de Saraiva de Carvalho"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 220.4
+              },
+              "duration": {
+                "value": 35
+              },
+              "polyline": {
+                "points": "mxbzFnups@EDC@UFMBa@HG@G@o@Nq@NkCh@G@MD]D"
+              },
+              "html_instructions": "new name Avenida Dom Afonso Henriques"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 576.1
+              },
+              "duration": {
+                "value": 66.3
+              },
+              "polyline": {
+                "points": "odczFhyps@Zd@BDDDp@|@NRp@bA^h@HJn@`AzA|BvApBp@bAPNn@RD@|@T~@VRFXBl@AL?J?H?ZB"
+              },
+              "html_instructions": "turn Rua de Mouzinho da Silveira"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 103.3
+              },
+              "duration": {
+                "value": 11.4
+              },
+              "polyline": {
+                "points": "sjbzF~oqs@Oq@AE?GAEe@qBAGEOAIEE"
+              },
+              "html_instructions": "end of road Rua do Infante Dom Henrique"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 332.2
+              },
+              "duration": {
+                "value": 26.1
+              },
+              "polyline": {
+                "points": "}lbzF~hqs@COU{@AGAM@O|@{KBQF_@L_@NWLUHOFOBQ@MBY"
+              },
+              "html_instructions": "new name T\u00fanel da Ribeira"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 20.9
+              },
+              "duration": {
+                "value": 1.3
+              },
+              "polyline": {
+                "points": "gibzFvqps@TELE"
+              },
+              "html_instructions": "turn Ponte Luiz I (tabuleiro inferior)"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "chbzFjqps@"
+              },
+              "html_instructions": "arrive Ponte Luiz I (tabuleiro inferior)"
+            }
+          ]
+        }
+      ],
+      "bounds": {
+        "northeast": {
+          "lat": 41.14551,
+          "lng": -8.60108
+        },
+        "southwest": {
+          "lat": 41.13337,
+          "lng": -8.61456
+        }
+      }
+    }
+  ],
+  "status": "OK"
+}

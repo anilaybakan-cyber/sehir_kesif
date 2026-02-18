@@ -1,0 +1,905 @@
+{
+  "routes": [
+    {
+      "overview_polyline": {
+        "points": "kjmxCumyoI@BD@B?B?D?BC@CBC?C@EAC?ECCAAFI\\e@Zc@\\a@^_@`@_@`@]TOTOVMTMPKPKNKPMl@i@z@y@FCDCFIFEBEn@{@HKPKDEFCHAFAF?F@\\DTXPNPLPJRJRJXJXHZFZBZBj@@j@?j@A\\Az@Cd@CbDQfCMJ@J@J@j@?F?J?R@XDj@N`@Jj@X`@R`@Tb@XbAbAd@`@vCpC^\\FFf@d@lCfCnBlB`A~@|CxCh@f@rAnA`A`Ad@b@pAnAh@d@x@v@PR\\Z|AxAf@d@|CzCrAlAn@l@bIxHtCpC\\Zl@j@~DvDdBdBh@f@nFfFt@r@lDhDrKbKTTj@h@dAbAlCtCxB|BHJdAbAvIjI`DvCjDxCbC|Bz@x@nG~FpJhJXVf@d@xGjGdA`ANVPTPTPThCnCf@b@h@h@NNFJFLDJDN@L?N?NALENEJEL}@pAo@~@]j@]j@]j@cBxCKRKPKRIR]b@]`@_@^_@^wBpBkDlC]V_@T_@V_@Ra@TiAf@ULSLSNSPQRQRORwAtB}B`Dy@lAwB~CmAfByAvB[h@}DtFuCfEwChE{@nAKNqC`EqAlBe@p@s@hAW\\UZW\\sA~AUVUTWTWTWRQLOPMPKPKRGTGTGVCTAVA\\?\\DLBLBNBNLrA@HBFDDFBF?FAFCDE@GNEBAD?B?D@B@^ZBFBH?HAHAH@HBHDHDDXFNBNBN@H@F@H@H@TARCRGRGRGPKPKPMNOLOLQLQJS`@oAN_@Na@P_@P_@NYV_@d@s@fA_BdA{ApAmBhAi@dA{ADGzAwB`@o@h@u@fA_B@C^g@PWHMDG?G?ECECE}@u@QVILm@~@oAfBILGHeCpDm@x@e@r@GdAqAhB_B`CIH{BfDORMVKTKVIVg@fBKTKTMRQRQNSNUJWFWFM@OBO@O?OAOAMAOE_AWMAKAM@MBKBKFIDGFGFGFEHu@`AGJ[\\S`@e@v@e@t@e@v@e@t@{BbDy@lAiAbBe@p@gA|Au@fA?@iG`J{AzBcIfLg@v@_ArAa@h@_DtEGJkA`B[b@EHgIpLiC~DMVKXGXGZC\\?ZH~NBh@Ff@Jf@Ld@Pb@Rb@T^X^XZXZ^l@Xp@Vr@Tr@Pt@Nt@Lv@Hv@Fv@Bx@?RCTARIXGXIXuAbEEHEHGFIDKBI@K?IAi@Oq@_@s@a@YQWOq@a@mAu@IEGGGIEGAECIEGIAE@IAMCKEKEKGsCkBe@]e@]e@]c@[u@m@_Au@?_@?G?KAMCMCKEKMYEKGKIIGKV_@BC?E?E?GCCCCSQOOCACAE?C@CBCFU\\ECGAGAGCECGEGCICGAIAEAKAK?K?K?K?I@K@qCoCa@a@IIGKEKEMCM@C?E?E?CACCEAACCCAEAC?E@E@CBCBCB?DAD?D@D@DDDBBxC~Ct@r@r@r@t@p@`A|@bAx@`Ax@dAx@bAv@d@\\b@\\d@Zd@\\nEtCFFH@TPj@Zh@\\`@X`@XVLXNXNVNdBbAJFJBH@J?JCHEJIFKFMl@mBb@oAJ[H_@H_@D_@B_@@_@Ao@Cm@Em@Im@Im@Kk@Km@Oi@Qk@Qi@Ug@Ug@Ye@]e@Y]W_@Ua@Qc@Me@Kg@Gg@Cg@KsN?WBWBWFWFUJS`BmC`@s@xIsMDIlCwDzA}BHMf@o@v@iAv@mAhCwDlDcF|A}BdGyIDEp@cAfA}Ad@s@lAgBtAoB~AaCZe@lCoDx@}@JMNMLKNIPIPGPGPEPCRCPAR?dAATARCRGRGRGPKPKPMNOLOLQLQJS`@oAN_@Na@P_@P_@NY|@sAfA_BdA{ApAmB`BaClAkBhDaFzCoEhFsHv@cA^g@vEaHrAmBj@{@tAsBx@iALUNUJWLWHWJWnAyEPs@Rq@Rs@Tq@tAoDRg@Tg@Tg@Ve@bA_BNUFOFMFMHMrEaHHMHOFQDQDQBQ@Q@S?_@A_@G_@K]M[SYUUoHaHwBsBYYW[W]yFkFwEmE}FyF}KiKmDmDmCgCcBcBOQGECC_ByAEE[[[YSSiAgAyGiGc@c@][gG_GkCeCKM{CwCuBqBsAqAiKyJ{ByB_@]cC_Ci@i@aA}@uAqAa@a@kAgA{@y@GEqAqAiBeBeG{FeG}FcD_D{BwBMK}@}@oAkAoDgDACi@i@wAsAcBcBWUmAkAk@a@g@Wk@SMCECa@K?R@FBFFDFFZPj@X`@R`@Tb@XbAbAd@`@PZTZTVFH@J?LCJGLMTCNANBLDNuAjBADAD?F@BBDEFg@v@GFCCGAE?EBCBSXCDAD?D?D@B@DB@BBB@D?D?BCDA@ENSBEBE?GAEAGECFGf@w@DGD@B@BADABCtAmBLDL?NAJGHGHKBADABAFEHCFAD@F@XHlCfCnBlB`A~@|CxCh@f@rAnA`A`Ad@b@pAnAh@d@x@v@PR\\Z|AxAf@d@|CzCrAlAn@l@bIxHtCpC\\Zl@j@~DvDdBdBh@f@nFfFt@r@lDhDrKbKTTj@h@dAbAlCtCxB|BHJdAbAvIjI`DvCjDxCbC|Bz@x@nG~FpJhJXVf@d@xGjGdA`ANVPTPTPThCnCf@b@h@h@NNFJFLDJDN@L?N?NALENEJEL}@pAo@~@]j@]j@]j@cBxCKRKPKRIR]b@]`@_@^_@^wBpBkDlC]V_@T_@V_@Ra@TiAf@ULSLSNSPQRQRORwAtB}B`Dy@lAwB~CmAfByAvB[h@}DtFuCfEwChE{@nAKNqC`EqAlBe@p@s@hAW\\UZW\\sA~AUVUTWTWTWRQLOPMPKPKRGTGTGVCTAVA\\?\\DLBLBNBNLrA@HBFDDFBF?FAFCDE@GNEBAD?B?D@B@^ZBFBH?HAHAH@HBHDHDDXFNBNBN@H@F@H@H@TARCRGRGRGPKPKPMNOLOLQLQJS`@oAN_@Na@P_@P_@NYh@SRIPW"
+      },
+      "legs": [
+        {
+          "distance": {
+            "value": 34668.4,
+            "text": "34.7 km"
+          },
+          "duration": {
+            "value": 3163.5,
+            "text": "52 mins"
+          },
+          "steps": [
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 36.4
+              },
+              "duration": {
+                "value": 10.4
+              },
+              "polyline": {
+                "points": "kjmxCumyoI@BD@B?B?D?BC@CBC?C@EAC?ECCAA"
+              },
+              "html_instructions": "depart "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 407.3
+              },
+              "duration": {
+                "value": 97.6
+              },
+              "polyline": {
+                "points": "qimxCunyoIFI\\e@Zc@\\a@^_@`@_@`@]TOTOVMTMPKPKNKPMl@i@z@y@FCDCFIFEBEn@{@HK"
+              },
+              "html_instructions": "exit roundabout "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 56.9
+              },
+              "duration": {
+                "value": 7
+              },
+              "polyline": {
+                "points": "gxlxCa_zoIPKDEFCHAFAF?F@\\D"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 535.2
+              },
+              "duration": {
+                "value": 36.4
+              },
+              "polyline": {
+                "points": "gulxCs_zoITXPNPLPJRJRJXJXHZFZBZBj@@j@?j@A\\Az@Cd@CbDQfCMJ@J@J@j@?F?J?R@"
+              },
+              "html_instructions": "turn \u0634\u0627\u0631\u0639 \u062c\u0645\u064a\u0631\u0627"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 4481.9
+              },
+              "duration": {
+                "value": 340
+              },
+              "polyline": {
+                "points": "cxkxCs|yoIXDj@N`@Jj@X`@R`@Tb@XbAbAd@`@vCpC^\\FFf@d@lCfCnBlB`A~@|CxCh@f@rAnA`A`Ad@b@pAnAh@d@x@v@PR\\Z|AxAf@d@|CzCrAlAn@l@bIxHtCpC\\Zl@j@~DvDdBdBh@f@nFfFt@r@lDhDrKbKTTj@h@dAbAlCtCxB|BHJdAbAvIjI`DvCjDxCbC|Bz@x@nG~FpJhJXVf@d@xGjGdA`A"
+              },
+              "html_instructions": "new name \u0634\u0627\u0631\u0639 \u0627\u0644\u0645\u0644\u0643 \u0633\u0644\u0645\u0627\u0646 \u0628\u0646 \u0639\u0628\u062f\u0627\u0644\u0639\u0632\u064a\u0632 \u0622\u0644 \u0633\u0639\u0648\u062f"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 225.6
+              },
+              "duration": {
+                "value": 25.5
+              },
+              "polyline": {
+                "points": "{xexCsgtoINVPTPTPThCnCf@b@h@h@"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 150.3
+              },
+              "duration": {
+                "value": 17.3
+              },
+              "polyline": {
+                "points": "yoexC{}soINNFJFLDJDN@L?N?NALENEJEL}@pA"
+              },
+              "html_instructions": "fork "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 268
+              },
+              "duration": {
+                "value": 30
+              },
+              "polyline": {
+                "points": "}pexC}usoIo@~@]j@]j@]j@cBxCKRKPKRIR"
+              },
+              "html_instructions": "new name "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 184.6
+              },
+              "duration": {
+                "value": 12.2
+              },
+              "polyline": {
+                "points": "yyexCqhsoI]b@]`@_@^_@^wBpB"
+              },
+              "html_instructions": "turn Palm Jumeirah Road"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 2006.8
+              },
+              "duration": {
+                "value": 150.5
+              },
+              "polyline": {
+                "points": "mafxCy`soIkDlC]V_@T_@V_@Ra@TiAf@ULSLSNSPQRQRORwAtB}B`Dy@lAwB~CmAfByAvB[h@}DtFuCfEwChE{@nAKNqC`EqAlBe@p@s@hAW\\UZW\\sA~AUVUTWTWTWRQLOPMPKPKRGTGTGVCTAVA\\?\\"
+              },
+              "html_instructions": "fork Shoreline Street"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 117.1
+              },
+              "duration": {
+                "value": 28
+              },
+              "polyline": {
+                "points": "}khxCiepoIDLBLBNBNLrA@HBFDDFBF?FAFCDE@G"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 156
+              },
+              "duration": {
+                "value": 37.6
+              },
+              "polyline": {
+                "points": "iihxCq`poINEBAD?B?D@B@^ZBFBH?HAHAH@HBHDHDDXFNBNBN@H@F@H@H@"
+              },
+              "html_instructions": "fork "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 310.2
+              },
+              "duration": {
+                "value": 23.3
+              },
+              "polyline": {
+                "points": "{bhxCk|ooITARCRGRGRGPKPKPMNOLOLQLQJS`@oAN_@Na@P_@P_@NYV_@"
+              },
+              "html_instructions": "turn Palm Jumeirah Road"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "kwgxCsipoI"
+              },
+              "html_instructions": "arrive Palm Jumeirah Road"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 228.9
+              },
+              "duration": {
+                "value": 17.3
+              },
+              "polyline": {
+                "points": "kwgxCsipoId@s@fA_BdA{ApAmB"
+              },
+              "html_instructions": "depart Palm Jumeirah Road"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 378.7
+              },
+              "duration": {
+                "value": 43.5
+              },
+              "polyline": {
+                "points": "eogxCqtpoIhAi@dA{ADGzAwB`@o@h@u@fA_B@C^g@PWHMDG"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 58.1
+              },
+              "duration": {
+                "value": 11.8
+              },
+              "polyline": {
+                "points": "{`gxCweqoI?G?ECECE}@u@"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 339.5
+              },
+              "duration": {
+                "value": 30.6
+              },
+              "polyline": {
+                "points": "acgxCghqoIQVILm@~@oAfBILGHeCpDm@x@e@r@"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 35.3
+              },
+              "duration": {
+                "value": 4
+              },
+              "polyline": {
+                "points": "gogxCaxpoIGdA"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 515.9
+              },
+              "duration": {
+                "value": 38.7
+              },
+              "polyline": {
+                "points": "oogxC{upoIqAhB_B`CIH{BfDORMVKTKVIVg@fBKTKTMRQRQNSNUJWFWF"
+              },
+              "html_instructions": "turn Palm Jumeirah Road"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 256.5
+              },
+              "duration": {
+                "value": 17.1
+              },
+              "polyline": {
+                "points": "sahxCs}ooIM@OBO@O?OAOAMAOE_AWMAKAM@MBKBKFIDGFGFGFEHu@`AGJ[\\"
+              },
+              "html_instructions": "fork "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 1762.7
+              },
+              "duration": {
+                "value": 117.7
+              },
+              "polyline": {
+                "points": "_nhxCmyooIS`@e@v@e@t@e@v@e@t@{BbDy@lAiAbBe@p@gA|Au@fA?@iG`J{AzBcIfLg@v@_ArAa@h@_DtEGJkA`B[b@EHgIpL"
+              },
+              "html_instructions": "turn Shoreline Street"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 997.9
+              },
+              "duration": {
+                "value": 89.2
+              },
+              "polyline": {
+                "points": "amjxC_emoIiC~DMVKXGXGZC\\?ZH~NBh@Ff@Jf@Ld@Pb@Rb@T^X^XZXZ^l@Xp@Vr@Tr@Pt@Nt@Lv@Hv@Fv@Bx@?RCTAR"
+              },
+              "html_instructions": "new name \u0646\u062e\u0644\u0629 \u0627\u0644\u062c\u0645\u064a\u0631\u0627 \u0646\u0641\u0642 \u0627\u0644\u0647\u0644\u0627\u0644"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 225.4
+              },
+              "duration": {
+                "value": 32.6
+              },
+              "polyline": {
+                "points": "wgjxCilkoIIXGXIXuAbEEHEHGFIDKBI@K?IAi@O"
+              },
+              "html_instructions": "fork "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 209.6
+              },
+              "duration": {
+                "value": 23.6
+              },
+              "polyline": {
+                "points": "}njxCackoIq@_@s@a@YQWOq@a@mAu@IEGGGIEGAE"
+              },
+              "html_instructions": "new name \u0634\u0627\u0631\u0639 \u0627\u0644\u0647\u0644\u0627\u0644 \u0627\u0644\u0634\u0631\u0642\u064a"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 20
+              },
+              "duration": {
+                "value": 2.4
+              },
+              "polyline": {
+                "points": "wxjxCcjkoICIEGIAE@"
+              },
+              "html_instructions": "roundabout \u0634\u0627\u0631\u0639 \u0627\u0644\u0647\u0644\u0627\u0644 \u0627\u0644\u0634\u0631\u0642\u064a"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 319.1
+              },
+              "duration": {
+                "value": 36
+              },
+              "polyline": {
+                "points": "qyjxCujkoIIAMCKEKEKGsCkBe@]e@]e@]c@[u@m@_Au@"
+              },
+              "html_instructions": "exit roundabout \u0634\u0627\u0631\u0639 \u0627\u0644\u0647\u0644\u0627\u0644 \u0627\u0644\u0634\u0631\u0642\u064a"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 98.7
+              },
+              "duration": {
+                "value": 25.2
+              },
+              "polyline": {
+                "points": "mhkxCuukoI?_@?G?KAMCMCKEKMYEKGKIIGK"
+              },
+              "html_instructions": "turn Atlantis Hotel"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 54.2
+              },
+              "duration": {
+                "value": 13.1
+              },
+              "polyline": {
+                "points": "kjkxCe{koIV_@BC?E?E?GCCCCSQ"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "kjkxCw}koI"
+              },
+              "html_instructions": "arrive "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 48.8
+              },
+              "duration": {
+                "value": 12.5
+              },
+              "polyline": {
+                "points": "kjkxCw}koIOOCACAE?C@CBCFU\\"
+              },
+              "html_instructions": "depart "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 97.8
+              },
+              "duration": {
+                "value": 23.7
+              },
+              "polyline": {
+                "points": "klkxC_}koIECGAGAGCECGEGCICGAIAEAKAK?K?K?K?I@K@"
+              },
+              "html_instructions": "end of road Atlantis Hotel"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 170.7
+              },
+              "duration": {
+                "value": 19.1
+              },
+              "polyline": {
+                "points": "sqkxCa~koIqCoCa@a@IIGKEKEMCM"
+              },
+              "html_instructions": "turn \u0634\u0627\u0631\u0639 \u0627\u0644\u0647\u0644\u0627\u0644 \u0627\u0644\u0634\u0631\u0642\u064a"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 67.5
+              },
+              "duration": {
+                "value": 7.4
+              },
+              "polyline": {
+                "points": "ixkxCqeloI@C?E?E?CACCEAACCCAEAC?E@E@CBCBCB?DAD?D@D@DDDBB"
+              },
+              "html_instructions": "roundabout \u0634\u0627\u0631\u0639 \u0627\u0644\u0647\u0644\u0627\u0644 \u0627\u0644\u0634\u0631\u0642\u064a"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 713.8
+              },
+              "duration": {
+                "value": 80.5
+              },
+              "polyline": {
+                "points": "mykxCaeloIxC~Ct@r@r@r@t@p@`A|@bAx@`Ax@dAx@bAv@d@\\b@\\d@Zd@\\nEtC"
+              },
+              "html_instructions": "exit roundabout \u0634\u0627\u0631\u0639 \u0627\u0644\u0647\u0644\u0627\u0644 \u0627\u0644\u0634\u0631\u0642\u064a"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 11.2
+              },
+              "duration": {
+                "value": 1.2
+              },
+              "polyline": {
+                "points": "{yjxCwikoIFFH@"
+              },
+              "html_instructions": "roundabout \u0634\u0627\u0631\u0639 \u0627\u0644\u0647\u0644\u0627\u0644 \u0627\u0644\u0634\u0631\u0642\u064a"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 116.4
+              },
+              "duration": {
+                "value": 13.1
+              },
+              "polyline": {
+                "points": "iyjxCmikoITPj@Zh@\\`@X`@X"
+              },
+              "html_instructions": "exit roundabout \u0634\u0627\u0631\u0639 \u0627\u0644\u0647\u0644\u0627\u0644 \u0627\u0644\u0634\u0631\u0642\u064a"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 300.9
+              },
+              "duration": {
+                "value": 39.8
+              },
+              "polyline": {
+                "points": "ysjxCmekoIVLXNXNVNdBbAJFJBH@J?JCHEJIFKFMl@mBb@oA"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 2877.8
+              },
+              "duration": {
+                "value": 229.1
+              },
+              "polyline": {
+                "points": "}gjxCihkoIJ[H_@H_@D_@B_@@_@Ao@Cm@Em@Im@Im@Kk@Km@Oi@Qk@Qi@Ug@Ug@Ye@]e@Y]W_@Ua@Qc@Me@Kg@Gg@Cg@KsN?WBWBWFWFUJS`BmC`@s@xIsMDIlCwDzA}BHMf@o@v@iAv@mAhCwDlDcF|A}BdGyIDEp@cAfA}Ad@s@lAgBtAoB~AaCZe@lCoDx@}@JMNMLKNI"
+              },
+              "html_instructions": "new name "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 2384.7
+              },
+              "duration": {
+                "value": 172.6
+              },
+              "polyline": {
+                "points": "uihxC_{ooIPIPGPGPEPCRCPAR?dAATARCRGRGRGPKPKPMNOLOLQLQJS`@oAN_@Na@P_@P_@NY|@sAfA_BdA{ApAmB`BaClAkBhDaFzCoEhFsHv@cA^g@vEaHrAmBj@{@tAsBx@iALUNUJWLWHWJWnAyEPs@Rq@Rs@Tq@tAoDRg@Tg@Tg@Ve@bA_BNU"
+              },
+              "html_instructions": "new name Palm Jumeirah Road"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 785.3
+              },
+              "duration": {
+                "value": 94.8
+              },
+              "polyline": {
+                "points": "uvexCqjsoIFOFMFMHMrEaHHMHOFQDQDQBQ@Q@S?_@A_@G_@K]M[SYUUoHaHwBsBYYW[W]"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 4296.2
+              },
+              "duration": {
+                "value": 343.1
+              },
+              "polyline": {
+                "points": "o_fxCmotoIyFkFwEmE}FyF}KiKmDmDmCgCcBcBOQGECC_ByAEE[[[YSSiAgAyGiGc@c@][gG_GkCeCKM{CwCuBqBsAqAiKyJ{ByB_@]cC_Ci@i@aA}@uAqAa@a@kAgA{@y@GEqAqAiBeBeG{FeG}FcD_D{BwBMK}@}@oAkAoDgDACi@i@wAsAcBcBWUmAkAk@a@g@Wk@SMCECa@K"
+              },
+              "html_instructions": "turn \u0634\u0627\u0631\u0639 \u0627\u0644\u0645\u0644\u0643 \u0633\u0644\u0645\u0627\u0646 \u0628\u0646 \u0639\u0628\u062f\u0627\u0644\u0639\u0632\u064a\u0632 \u0622\u0644 \u0633\u0639\u0648\u062f"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 47.6
+              },
+              "duration": {
+                "value": 6.7
+              },
+              "polyline": {
+                "points": "mvkxCu}yoI?R@FBFFDFFZP"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 172.6
+              },
+              "duration": {
+                "value": 12.9
+              },
+              "polyline": {
+                "points": "{tkxCq{yoIj@X`@R`@Tb@XbAbAd@`@"
+              },
+              "html_instructions": "turn \u0634\u0627\u0631\u0639 \u0627\u0644\u0645\u0644\u0643 \u0633\u0644\u0645\u0627\u0646 \u0628\u0646 \u0639\u0628\u062f\u0627\u0644\u0639\u0632\u064a\u0632 \u0622\u0644 \u0633\u0639\u0648\u062f"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 133.7
+              },
+              "duration": {
+                "value": 32.5
+              },
+              "polyline": {
+                "points": "}lkxCmuyoIPZTZTVFH@J?LCJGLMTCNANBLDN"
+              },
+              "html_instructions": "turn Al Qasr Hotel"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 88.9
+              },
+              "duration": {
+                "value": 21.8
+              },
+              "polyline": {
+                "points": "kkkxCknyoIuAjBADAD?F@BBD"
+              },
+              "html_instructions": "continue Al Qasr Hotel"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 47
+              },
+              "duration": {
+                "value": 11.9
+              },
+              "polyline": {
+                "points": "_nkxCajyoIEFg@v@GF"
+              },
+              "html_instructions": "continue Al Qasr Hotel"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 7.1
+              },
+              "duration": {
+                "value": 2
+              },
+              "polyline": {
+                "points": "uokxCygyoICCGA"
+              },
+              "html_instructions": "continue Al Qasr Hotel"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 48.9
+              },
+              "duration": {
+                "value": 12.5
+              },
+              "polyline": {
+                "points": "apkxC_hyoIE?EBCBSXCDAD?D?D@B@DB@"
+              },
+              "html_instructions": "continue Al Qasr Hotel"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "cqkxCyeyoI"
+              },
+              "html_instructions": "arrive Al Qasr Hotel"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 11.7
+              },
+              "duration": {
+                "value": 3.3
+              },
+              "polyline": {
+                "points": "cqkxCyeyoIBBB@D?D?"
+              },
+              "html_instructions": "depart Al Qasr Hotel"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 44.6
+              },
+              "duration": {
+                "value": 11.9
+              },
+              "polyline": {
+                "points": "opkxCseyoIBCDA@ENSBEBE?GAEAGEC"
+              },
+              "html_instructions": "continue Al Qasr Hotel"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 47
+              },
+              "duration": {
+                "value": 11.4
+              },
+              "polyline": {
+                "points": "uokxCygyoIFGf@w@DG"
+              },
+              "html_instructions": "continue Al Qasr Hotel"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 87.1
+              },
+              "duration": {
+                "value": 21.4
+              },
+              "polyline": {
+                "points": "_nkxCajyoID@B@BADABCtAmB"
+              },
+              "html_instructions": "continue Al Qasr Hotel"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 47.2
+              },
+              "duration": {
+                "value": 11.4
+              },
+              "polyline": {
+                "points": "qjkxCsmyoILDL?NAJGHGHK"
+              },
+              "html_instructions": "continue Al Qasr Hotel"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 47.6
+              },
+              "duration": {
+                "value": 11.4
+              },
+              "polyline": {
+                "points": "ehkxCknyoIBADABAFEHCFAD@F@XH"
+              },
+              "html_instructions": "continue Al Qasr Hotel"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 4078.5
+              },
+              "duration": {
+                "value": 308
+              },
+              "polyline": {
+                "points": "uekxConyoIlCfCnBlB`A~@|CxCh@f@rAnA`A`Ad@b@pAnAh@d@x@v@PR\\Z|AxAf@d@|CzCrAlAn@l@bIxHtCpC\\Zl@j@~DvDdBdBh@f@nFfFt@r@lDhDrKbKTTj@h@dAbAlCtCxB|BHJdAbAvIjI`DvCjDxCbC|Bz@x@nG~FpJhJXVf@d@xGjGdA`A"
+              },
+              "html_instructions": "turn \u0634\u0627\u0631\u0639 \u0627\u0644\u0645\u0644\u0643 \u0633\u0644\u0645\u0627\u0646 \u0628\u0646 \u0639\u0628\u062f\u0627\u0644\u0639\u0632\u064a\u0632 \u0622\u0644 \u0633\u0639\u0648\u062f"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 225.6
+              },
+              "duration": {
+                "value": 25.5
+              },
+              "polyline": {
+                "points": "{xexCsgtoINVPTPTPThCnCf@b@h@h@"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 150.3
+              },
+              "duration": {
+                "value": 17.3
+              },
+              "polyline": {
+                "points": "yoexC{}soINNFJFLDJDN@L?N?NALENEJEL}@pA"
+              },
+              "html_instructions": "fork "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 268
+              },
+              "duration": {
+                "value": 30
+              },
+              "polyline": {
+                "points": "}pexC}usoIo@~@]j@]j@]j@cBxCKRKPKRIR"
+              },
+              "html_instructions": "new name "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 184.6
+              },
+              "duration": {
+                "value": 12.2
+              },
+              "polyline": {
+                "points": "yyexCqhsoI]b@]`@_@^_@^wBpB"
+              },
+              "html_instructions": "turn Palm Jumeirah Road"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 2006.8
+              },
+              "duration": {
+                "value": 150.5
+              },
+              "polyline": {
+                "points": "mafxCy`soIkDlC]V_@T_@V_@Ra@TiAf@ULSLSNSPQRQRORwAtB}B`Dy@lAwB~CmAfByAvB[h@}DtFuCfEwChE{@nAKNqC`EqAlBe@p@s@hAW\\UZW\\sA~AUVUTWTWTWRQLOPMPKPKRGTGTGVCTAVA\\?\\"
+              },
+              "html_instructions": "fork Shoreline Street"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 117.1
+              },
+              "duration": {
+                "value": 28
+              },
+              "polyline": {
+                "points": "}khxCiepoIDLBLBNBNLrA@HBFDDFBF?FAFCDE@G"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 156
+              },
+              "duration": {
+                "value": 37.6
+              },
+              "polyline": {
+                "points": "iihxCq`poINEBAD?B?D@B@^ZBFBH?HAHAH@HBHDHDDXFNBNBN@H@F@H@H@"
+              },
+              "html_instructions": "fork "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 289.7
+              },
+              "duration": {
+                "value": 21.8
+              },
+              "polyline": {
+                "points": "{bhxCk|ooITARCRGRGRGPKPKPMNOLOLQLQJS`@oAN_@Na@P_@P_@NY"
+              },
+              "html_instructions": "turn Palm Jumeirah Road"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 53.1
+              },
+              "duration": {
+                "value": 6
+              },
+              "polyline": {
+                "points": "cxgxCshpoIh@SRIPW"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "sugxCijpoI"
+              },
+              "html_instructions": "arrive "
+            }
+          ]
+        }
+      ],
+      "bounds": {
+        "northeast": {
+          "lat": 25.14102,
+          "lng": 55.18862
+        },
+        "southwest": {
+          "lat": 25.10056,
+          "lng": 55.11199
+        }
+      }
+    }
+  ],
+  "status": "OK"
+}

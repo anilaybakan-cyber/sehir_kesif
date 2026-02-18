@@ -1,0 +1,866 @@
+{
+  "routes": [
+    {
+      "overview_polyline": {
+        "points": "yt_hLcamrBl@TNBD?HEHGFKLe@T_@JWRc@]aCOi@EKKMMIWIe@Ei@Kk@KMEIGKIIIGOOk@S_AGYISOWIMGGq@m@SSUSW[S[QWOUWa@MQCCOSYc@i@s@EGc@o@MQS_@[o@c@_ASe@M][q@{@mBACSa@g@aAMUS]CCm@aAGIB]NuCBe@ICGCi@OQCQG[GQCMA[AWBWDq@NE?EAOEKC_@SWKq@_@OKYUo@o@i@m@g@m@gAmA}@eAa@i@q@y@GGIQWW?[Aq@Cs@?k@?EAMAa@?OC_ACi@Ca@CWC[C[IiAGk@Ec@AUCa@AYA{@?e@Aw@Ae@AwAAc@?WAq@AS?WAc@CaB?W?Q?_@EE]k@IQUe@CAKUYe@IQa@s@a@u@EIS]MWEGQ[IQOUo@mAOY]q@AA]m@Wg@[o@Ua@GOOWMWOYCGAAEIQ]Yc@SWKQQWs@gAOWAAY_@IMIMOQIMSQCCQOIGACu@c@WS]WCCSOCCSOGUGSCCQYMFG^CTIl@ERGTCHEFEBGBG?G?OGQKo@g@CAWSKIGCWQMIKCG@CBEBCDCFCNETE`@Ed@ALCVCXAHEh@Gp@Gr@Ej@YOMCQ@UD[Be@D_@DcAHg@FO@MAE?GGg@i@SWe@m@c@i@MKMGKAE^E\\Gd@Mz@CHKr@Id@GXENGPQ`@_@x@Uf@ITCLGNI`@GVIf@UfBSnBOpAGd@CJG`@I`@Md@GTI^Qh@Sh@k@zAO^Q\\Q^Q\\MRMLMLUN[Xq@p@[\\ONGDUDKBM@a@A[AcACg@AG?UJ]PC@WNe@TC@w@b@OHa@Vk@b@MJWXa@`@u@`A[ZUTYNWLGBm@RCBC@A?GDQL_@^IJSVINEPABSXKr@LLFs@Hg@@CDQHORWHK^_@PMFE@?BABCl@SFCVMXOTUZ[t@aA`@a@VYLKj@c@`@WNIv@c@BAd@UVO`@STKF?f@@bABZ@`@@LAJCTEFENOZ]p@q@ZYTOLMLMLSP]P_@P]N_@j@{ARi@Pi@H_@FULe@Ha@Fa@BKFe@NqARoBTgBHg@FWHa@FOBMHUTg@^y@Pa@FQDOFYHe@Js@BIL{@Fe@D]D_@M_@Qa@EMQa@Uo@a@_Au@iBIQK]Mg@Mq@Ge@E_@Ei@SiDIiAG}@Ek@AQEq@IkAMeBK{AOcCIgACSQoB_@uDOwAIaAIm@G}@CWE_@Ky@Ee@KcAKcAKiAi@mFIy@Cc@Ce@?[@WB]@QBS@IFq@Dg@Bc@Bs@D_C@g@Ba@Fg@VoBRyA@GBIDOBGaBsEg@mAWi@IQQYe@y@}@}AH[@EFOBEDAl@Lr@NVFl@PLHb@mGb@oGrB`CdBxBD_@f@eG@GDm@J_A@U`@yE@IBk@J@FLHFPHNALSDQDW@C@i@DcAD]NaAxAoKpBcOfDeVfE}ZnAgJxB_P`@sCPkALy@Lm@Pq@Nm@Pq@Rg@N_@Pa@P[T]PWRURQROFGNIJEHCFFH@VGVGLCF??a@BUBOBGRs@Zy@n@kBHS\\w@JYNa@\\gADQPy@DFHH^ZXL\\V^Pz@h@LHl@j@XTPJv@b@h@XjAl@rAt@LHTLTFLDNH\\XZVTRRNNHJDDAB?JEHGFGJSDKHYBEBMFa@VyAFNHRR\\`@p@\\f@NX\\p@DLNb@F[^kBLq@Lq@BEDEFBGCEDCDMp@Mp@_@jBGZOc@EM]q@OY]g@a@q@S]ISGOWxAG`@CLCDIXEJKRGFIFKDC?E@KEOISOUS[W]YOIMEUGUMMIsAu@kAm@i@Yw@c@QKYUm@k@MI{@i@_@Q]WYM_@[IIEGQx@EP]fAO`@KX]v@IRo@jB[x@Sr@CFCNCTA?G?QD[FIBC@IFGNIBKDOHGFSNSPSTQVU\\QZQ`@O^Sf@Qp@Ol@Qp@Ml@Mx@QjAa@rCyB~OoAfJgE|ZgDdVqBbOyAnKO`AE\\Mj@KXQ`@KNKFGFKHKAYGmA_@o@SUEmBLmAROFYHAGIKOQSOCAQKCICECCCAC@EBIEMIEEMUQ]CQG_@ESEWEi@UkCQqBGo@@OAU?MCWOcBGo@CUIw@EYESGQKWKMKEMCMHGHCHERSRQP[^a@d@o@r@[^IJCBQP_AfAw@`AQPMNMPQRIHMLC@QFC?ODS@_@FiBN]FYBcBJQ?a@IWOWWc@_@eAaA_@U[SaBy@eB}@i@[kC{AKGWOmAq@o@a@[SECGGe@a@QSUSs@q@SQWWq@s@SQy@y@GGSSo@m@{BaCwBeCUSIKc@e@aBaBMOIKaAcAi@i@WYOQMQw@gA{A}Bs@eAKOIKu@eAm@y@GGGIWY]a@EEYY[UMKMI[IGEMG]Uu@c@wAy@[k@Ya@IOQ_@AEAuB?mCL}@Le@LWJIJENANHLNHVJZF`@Dd@@h@@p@Ad@Cd@Iz@{@`JkAlMsA`N]bC]nB]~AY~@a@hAw@zAeAnAqAhAe@\\kBxAQPmAhAcAjAc@x@_@`AY`AYlASpAOfAWfDGnBCxA?xBBbBHhBLhBLbBZpDBZB`@TfCHxAHzAXhFLjBFz@JfBFr@Hn@ZbCZbBFZ`CdL~DjSlAjGb@`C`@bCt@~E\\|BXjBN`A\\tBN`ARfARbATdAX`Bf@lB`ApDb@|AHVbAvDdAxDh@|At@lCx@vCx@|Ch@nBf@rBRt@Pv@Pz@N|@Nx@Jt@Ht@NnANhBLlBFvAFnBBxA@nA?fB?hAAtAE`CEbBIdCWtJGlBEnBCrACrAAt@A|@Cv@Ct@Az@A^C`@CZEZEZA\\@\\DXFp@Bl@Bv@BxCFjIBxB@~@?v@?~@CnAEdBG`BKbBKbAIr@M`ASpAY|A_@rAe@lAa@v@m@t@y@h@y@JiBDi@Hc@NE@k@\\m@d@i@t@k@|@a@t@IN_DpGoAzBoAjBwBpC[^IXWZ[HQ@CEGCGBGFELERAJQl@O\\Wl@KTEDONSPWNQJWHSBU@W?[CWGWK]Sa@UkAq@YQg@YuAy@m@c@WQSSY[QWOWUc@Se@Qg@]cAK[GUGYIe@Mm@Ii@CQG_@?IAIASEOGIGAKSMSIQIS[q@GQY_AKYQe@Qc@Qc@Ug@Q]Q_@g@}@QYW[W]SYSSUSUS_@WUKk@WSGUEWG[C]C[Aa@@U@YDG@[HQFSHUJULWNSPQNQPg@l@SVW^U^QZS`@Sb@Yp@Qd@Qd@i@bBq@vBs@hCu@hCqBfHcE`O}EdQu@jCq@nCo@rCk@tCo@lDi@fDe@jDSzASjBWzBUfCOdBGt@AHOhB?HSfCI`BGvACn@Cr@Cv@A^CRATCf@AZEt@Ef@EJCLCZA^B\\DPFJJlAHlAHv@FlAFdAJbADd@Fj@R|ADVF`@Jn@RpAVpA^nB\\bBLl@b@nBR|@XxA^xBH^j@pCpBdK`CtLvAnHr@rDDTR|@Fn@Ff@Db@B\\?V?J?J@J@HBFBFBDB@Ph@FRFZHVBRLv@RbAb@~BBXZbBThALl@b@~Bd@|BLn@lAlGJh@Nb@Nx@xAtHT|@ZbAJl@F^D`@Bj@?H@H?H@H@F@FBD@BBBB@JZT|@JZLlAP~@BJBTdAnFTnAXtALn@x@hER`AjAhGp@jDb@`CdApFl@bD\\zBDVFr@RjCR|EJrC\\jIDfABf@R~FH|BFvAX`HDtAPjEFnANhE?TFhC@FB~A@lBB~A@lAD|FB~ABvEB|CJxK@zA@tBBfB@tA?h@DpEDnFBxDBhCBjCBdC@zADjF@rBBlA@d@Bh@Bx@?lA?|@Ab@AF?FADAH?F?F?H?F@F@F?F@D@DDrABz@?V?t@Ad@?z@@f@BtEDpCBjD@~@@vABjE@lF?`C?`DAxF?h@AvC?~@ArD?tA?nB@rC@nADlCD~AHvBJxCP~CDp@NxBR|BVnC^vDJjANvAFn@|@pJp@rHJ|@Bb@Ff@\\xDHt@`@nEFl@Fp@TlBTdBXlBLp@@Jr@nDl@pCFX\\bBdBjIbA|E^bBXvANv@\\~AT~@VfATv@d@|Al@hBb@nAxCxIRf@b@tAb@lAFNHTdBfFVp@lAnD`@lARj@JZ\\jARz@Np@Jl@VzALjAN|AF|@TbD@JDf@RvCNbCd@nHJ`CDrA?pCGrCEhACl@KrA[pCg@nD[tBIb@c@`DQjAIl@_@bCe@zCShA[xAW~@M^o@~AYl@]l@EJ[f@Yr@Uj@I\\G\\M|@Ed@Ed@Cr@?d@?R@R?RBd@@TBLHl@DZDVHTBLDLJRVf@PTHLNLZXxCtBHFfCpBZVVRNHHDNDRDN?L?F?j@EdC[x@K~@MNA^GHATI^QNI^WNMf@_@d@_@jAcAp@m@PMNOLKv@o@NMZWh@e@VUNMVYl@u@`@k@f@w@fBkCh@y@DEb@s@b@q@LWRc@Re@L]To@b@sAb@wAf@aBx@mCh@aB`@iATg@JQNYLQXa@X[VW~A}A`@_@f@c@\\W@AHCRETCR?NBNDRJPLNPJNRZLXJTJVPf@dChHlApDVt@Pj@LZJZb@nAbGrQXv@LZL\\Zp@LVJRZ`@NPLHLLTJPJNDNDHBn@L~@Rp@LVBVFVDtCj@x@Pv@VpAf@lAl@|At@`Bz@dB|@jB~@tAr@d@Vb@X\\TPNXVVVX\\TXNRV`@T\\|@zAj@hA\\n@lA|B`AjBdBdDRb@^p@j@hAP\\~DvHnFhKfFxJdApBt@vAjDxGHLXj@b@z@`@r@\\j@T\\NPLNZ\\lAhAxEdEtAlAhA`ApD~C\\ZVTb@d@VXTZX`@V`@T`@pAdCnA~Bz@xAf@z@\\j@V^Z^LJNPXRd@XxBhATLl@XHH\\LB@ZLt@\\\\R@?RJz@`@\\P`@PXHPDTDZ@XAPANEXIb@WPORQZ[d@k@v@cAvAgBp@}@hAwAfBaCRWv@cAFIV[f@q@DIX_@DG`@o@Xi@Rg@L]Z}@Jc@Pm@H]P_AHe@Fe@??Hk@BYDWFm@?CFq@F{@HkABg@NcCJqBP_DLgCH_BH_CBwA?m@?k@?k@?c@Co@Cy@Ce@Ek@I_AGm@K{@YcCG_@EYOcAK{@Ik@Io@Ii@_@uCS{AGm@Gi@IcAEk@Em@Cm@Ce@Ao@Cg@C_BCyA?i@AoA?q@?m@@aBBqA@i@@_@DcAD_AFsAB_@Bs@Fw@Bk@L}ARyCLgBDo@LoBDi@LqBFy@LiBHeAN{BF_ANuBFcAH_AX_ELgBDw@RuCDg@LiBh@gIHcADw@VwDT_DF{@Dq@NaCLgBVeEJeBFgADs@HmBF}A@a@F_B@o@Bs@@o@@e@@_@D_BB{B@uABaE@}B?eB?c@AyBAyBAy@AeACmBC{@Au@IoDMwDE_BC{@EoAOkFCyAEw@OmGGaBMsECm@GoBCq@Au@E}AUeHMuEGuBC_AC_AC}@Cu@Cu@GcCIuCCaAGmBCk@KgEAk@AoAAa@?]?wB@kB@g@?g@DwA@m@FqABq@Bo@N{BDg@Da@D_@Ba@P}AJaAFe@JaAF_@Fk@He@Fk@Hm@P{AF_@Hq@Hk@XyBHk@D_@F[@GDWRmAHa@F_@Jg@Hc@Hc@La@DWJ_@J]ZcAZaAZ{@Xq@JWLULW^s@RYLUJKT[`@c@b@a@f@a@RM\\SLETGTCh@O`@EJCJCf@GhB[jASTEfASfBYv@Qf@If@Kj@Ip@KjAUTCTGNEFAPCRCREp@K\\GVEXG\\EpAWh@KXCXGrAUdAS`AOVGp@K|@I^A^Bd@DPDP@RBh@Jl@H\\F`@FJ@NBTFT@PDRDlBV|@PPBT@VDx@NZDx@Jd@HLBTBh@Hb@JR@vB^rBVX@P?d@GRGd@]ROPSNUTUz@eA~CcExC}Db@k@V]j@w@TWd@q@VY~@iAPUj@e@l@g@VMTIVGXEZAP@TBRDTJPLPNPPNTPVPX\\r@LZJ\\t@`Cl@pBX|@HXLd@h@bBt@bCPh@\\jAN`@P`@L\\FJ\\z@\\|@lAzCLTL\\LZNXLTLTLPLPNPHH\\^d@XNFRHd@LPDTBd@@l@@P@vAFl@BD@b@B@?n@@|ERp@BtALl@HTFj@Nj@Tl@XVNj@^l@b@r@d@f@^VPl@b@TN|@p@pA~@PLTPPLDBDBr@h@`@^RPPRVXNRh@p@vAlBRXTZNRf@h@??RRTTTRVTRRj@f@XVTPVR^ZjAfAFF\\Zh@b@j@f@FFvAnAxBlBvApAPP`Az@n@j@h@`@TTTRNNf@b@|@v@b@^ZZVRVTVTh@d@b@b@v@t@t@|@V^PVl@~@Vb@h@`A^n@|@`BR\\@B`BvCp@lAl@dA^p@R^^n@jArBVf@v@tAbAdBfAtBDFhAvB`@z@Tb@JRFZ\\dADNAN@R@PBNDLDFF@DCFGBI@G@G@I?E?I?K?OAOAIPoB@g@F]BOFUDUHWHUHOFMHKFKJKHIJEJEHAL?F?LBHDJDHHJLJNJNHRHRHVJZXdAb@hBrBdI`BtGNj@Pl@Pl@Rd@FPJTHNR^LPJPVXJHJJLHLFJDVJH@NBL@H?H?VENCJCLGLGJGRQLKHKJMLOR[JSJUJUJUJWHWFUPo@Ru@VkAxByKvy@y`EBIp@cDTaAR{@Pq@Rm@HUHSJWLWTc@T_@LSJMLMJKLKLKJGVKLELEVCJAL?V@VFLBLDLFLHVRVTTXT\\HNR^LTHRJVHTHXHTNj@H^HZHXDZJh@Lv@Ff@LbAD^D^@VBT?Z?VD|@?J?VADADAFAF?H?FAH@H?F?H@F@F@D@D@DBB@BB@B@@?BA@ABC@CBE@E@E@G?GFIBEFGNIFGHMfBg@dAYh@M`A[f@IN?L@NBLFLFJLXZLRJRJTL^|@jCRj@l@dBx@bCRp@DRFVJj@DVLz@@HFp@PbBFl@LhAD`@BXNnATxBNvAD^L|@ZtBZxBNx@^zBTpA\\fB\\hBHZLn@FRFRHXL\\JVrAfDPd@HPDNTf@Tj@Th@~A`EPb@LVFLTZRTFFTP|@l@LFb@ZJHLH\\VLLBBDFLJJNJR`@z@^r@bAlBJTh@~@f@z@X\\NRNPXTRJd@Rd@PXLLHHHJLJNJPJTJXJVPj@HZFZFVBJBRFf@BRBTBXDh@HdA@TFlAHnBBh@Bf@@f@BlABn@@XJ|CL`DJzBBj@F~ADnABh@NjDFvA@^B^Bl@Dp@LtBDt@HfALrAD`@Dd@Dh@Fl@PpBV~CD`@Df@B^H~@RbCD\\HdANbBz@zJVvCHdAD`@Dh@Bh@B`@B\\Bn@@p@Bz@?nA?|@AfAAj@ExB?^EhBA`AAb@CfAA^Ah@?b@EjBA`@?RAx@?~@AbAA^Cz@At@CxCC|@DCHGBCBIFSBEXmABKDUDYBODq@BUDODQDKBEJKDEJGHAB?BBBD@F@D@F@R?J?J?JCb@Cd@KnAE~@En@AVAl@Al@?T?N?J@D@F@BBBFAPIJDLHPTJFRCf@IZBLPH^Bb@FtA"
+      },
+      "legs": [
+        {
+          "distance": {
+            "value": 47306.1,
+            "text": "47.3 km"
+          },
+          "duration": {
+            "value": 4341.8,
+            "text": "72 mins"
+          },
+          "steps": [
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 101
+              },
+              "duration": {
+                "value": 20.5
+              },
+              "polyline": {
+                "points": "yt_hLcamrBl@TNBD?HEHGFKLe@T_@JWRc@"
+              },
+              "html_instructions": "depart Lars Th\u00f8rings veg"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 687
+              },
+              "duration": {
+                "value": 104.3
+              },
+              "polyline": {
+                "points": "uo_hLeemrB]aCOi@EKKMMIWIe@Ei@Kk@KMEIGKIIIGOOk@S_AGYISOWIMGGq@m@SSUSW[S[QWOUWa@MQCCOSYc@i@s@EGc@o@MQS_@[o@c@_ASe@M][q@{@mBACSa@g@aAMUS]CCm@aAGI"
+              },
+              "html_instructions": "turn Krognessvegen"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 44.4
+              },
+              "duration": {
+                "value": 12.9
+              },
+              "polyline": {
+                "points": "mq`hLaunrBB]NuCBe@"
+              },
+              "html_instructions": "end of road Henrik Wergelands veg"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 498.5
+              },
+              "duration": {
+                "value": 75.2
+              },
+              "polyline": {
+                "points": "up`hL{{nrBICGCi@OQCQG[GQCMA[AWBWDq@NE?EAOEKC_@SWKq@_@OKYUo@o@i@m@g@m@gAmA}@eAa@i@q@y@GGIQWW"
+              },
+              "html_instructions": "turn Hagavegen"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 267.5
+              },
+              "duration": {
+                "value": 42.3
+              },
+              "polyline": {
+                "points": "qkahLymorB?[Aq@Cs@?k@?EAMAa@?OC_ACi@Ca@CWC[C[IiAGk@Ec@AUCa@AYA{@?e@Aw@Ae@AwAAc@?WAq@AS?WAc@CaB?W?Q?_@"
+              },
+              "html_instructions": "turn R\u00f8stbakken"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 640.2
+              },
+              "duration": {
+                "value": 96.3
+              },
+              "polyline": {
+                "points": "gnahLwwprBEE]k@IQUe@CAKUYe@IQa@s@a@u@EIS]MWEGQ[IQOUo@mAOY]q@AA]m@Wg@[o@Ua@GOOWMWOYCGAAEIQ]Yc@SWKQQWs@gAOWAAY_@IMIMOQIMSQCCQOIGACu@c@WS]WCCSOCCSOGUGSCCQY"
+              },
+              "html_instructions": "turn Alfheimvegen"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 265.3
+              },
+              "duration": {
+                "value": 38.6
+              },
+              "polyline": {
+                "points": "knbhLmdrrBMFG^CTIl@ERGTCHEFEBGBG?G?OGQKo@g@CAWSKIGCWQMIKCG@CBEBCDCFCNETE`@Ed@ALCVCXAHEh@Gp@Gr@Ej@"
+              },
+              "html_instructions": "end of road Kirkeg\u00e5rdsvegen"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 288.7
+              },
+              "duration": {
+                "value": 34.6
+              },
+              "polyline": {
+                "points": "qybhLqvqrBYOMCQ@UD[Be@D_@DcAHg@FO@MAE?GGg@i@SWe@m@c@i@MKMGKA"
+              },
+              "html_instructions": "continue Kirkeg\u00e5rdsvegen"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 658.6
+              },
+              "duration": {
+                "value": 71.4
+              },
+              "polyline": {
+                "points": "iichLs{qrBE^E\\Gd@Mz@CHKr@Id@GXENGPQ`@_@x@Uf@ITCLGNI`@GVIf@UfBSnBOpAGd@CJG`@I`@Md@GTI^Qh@Sh@k@zAO^Q\\Q^Q\\MRMLMLUN[Xq@p@[\\ONGDUDKBM@a@A[AcACg@AG?UJ]P"
+              },
+              "html_instructions": "turn Langnesvegen"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "}fdhLqhprB"
+              },
+              "html_instructions": "arrive Langnesvegen"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 372.7
+              },
+              "duration": {
+                "value": 45.8
+              },
+              "polyline": {
+                "points": "}fdhLqhprBC@WNe@TC@w@b@OHa@Vk@b@MJWXa@`@u@`A[ZUTYNWLGBm@RCBC@A?GDQL_@^IJSVINEPABSX"
+              },
+              "html_instructions": "depart Langnesvegen"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 1058.6
+              },
+              "duration": {
+                "value": 135.7
+              },
+              "polyline": {
+                "points": "yzdhLmworBKr@LLFs@Hg@@CDQHORWHK^_@PMFE@?BABCl@SFCVMXOTUZ[t@aA`@a@VYLKj@c@`@WNIv@c@BAd@UVO`@STKF?f@@bABZ@`@@LAJCTEFENOZ]p@q@ZYTOLMLMLSP]P_@P]N_@j@{ARi@Pi@H_@FULe@Ha@Fa@BKFe@NqARoBTgBHg@FWHa@FOBMHUTg@^y@Pa@FQDOFYHe@Js@BIL{@Fe@D]D_@"
+              },
+              "html_instructions": "continue Langnesvegen"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 669.8
+              },
+              "duration": {
+                "value": 96.6
+              },
+              "polyline": {
+                "points": "iichLs{qrBM_@Qa@EMQa@Uo@a@_Au@iBIQK]Mg@Mq@Ge@E_@Ei@SiDIiAG}@Ek@AQEq@IkAMeBK{AOcCIgACSQoB_@uDOwAIaAIm@G}@CWE_@Ky@Ee@KcAKcAKiAi@mFIy@Cc@Ce@?[@WB]@QBS@I"
+              },
+              "html_instructions": "turn Haakon VIIs gate"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 143.1
+              },
+              "duration": {
+                "value": 25.7
+              },
+              "polyline": {
+                "points": "wzchLsvtrBFq@Dg@Bc@Bs@D_C@g@Ba@Fg@VoBRyA@GBIDOBG"
+              },
+              "html_instructions": "new name Mackbratta"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 192
+              },
+              "duration": {
+                "value": 21.8
+              },
+              "polyline": {
+                "points": "qwchLkkurBaBsEg@mAWi@IQQYe@y@}@}A"
+              },
+              "html_instructions": "turn Sommerfeldts gate"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 123.4
+              },
+              "duration": {
+                "value": 21.5
+              },
+              "polyline": {
+                "points": "s`dhL{{urBH[@EFOBEDAl@Lr@NVFl@PLH"
+              },
+              "html_instructions": "turn Dramsvegen"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 112.6
+              },
+              "duration": {
+                "value": 18.3
+              },
+              "polyline": {
+                "points": "_zchLs{urBb@mGb@oG"
+              },
+              "html_instructions": "turn Arbeidergata"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 130.8
+              },
+              "duration": {
+                "value": 23.8
+              },
+              "polyline": {
+                "points": "wwchLqlvrBrB`CdBxB"
+              },
+              "html_instructions": "turn Rektor Steens gate"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 149.7
+              },
+              "duration": {
+                "value": 22.7
+              },
+              "polyline": {
+                "points": "}pchLudvrBD_@f@eG@GDm@J_A@U`@yE@IBk@"
+              },
+              "html_instructions": "turn Elvegata"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 64.9
+              },
+              "duration": {
+                "value": 9.9
+              },
+              "polyline": {
+                "points": "qmchLwzvrBJ@FLHFPHNALSDQDW@C@i@"
+              },
+              "html_instructions": "turn Skippergata"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 1135.3
+              },
+              "duration": {
+                "value": 111.5
+              },
+              "polyline": {
+                "points": "sjchLc}vrBDcAD]NaAxAoKpBcOfDeVfE}ZnAgJxB_P`@sCPkALy@Lm@Pq@Nm@Pq@Rg@N_@Pa@P[T]PWRURQROFGNIJEHCFFH@VGVGLCF?"
+              },
+              "html_instructions": "new name Troms\u00f8brua"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 173.9
+              },
+              "duration": {
+                "value": 26.8
+              },
+              "polyline": {
+                "points": "{cbhL{e{rB?a@BUBOBGRs@Zy@n@kBHS\\w@JYNa@\\gADQPy@"
+              },
+              "html_instructions": "turn Turistvegen"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 523.3
+              },
+              "duration": {
+                "value": 81
+              },
+              "polyline": {
+                "points": "u|ahLax{rBDFHH^ZXL\\V^Pz@h@LHl@j@XTPJv@b@h@XjAl@rAt@LHTLTFLDNH\\XZVTRRNNHJDDAB?JEHGFGJSDKHYBEBMFa@VyA"
+              },
+              "html_instructions": "turn Carl Bertheussens veg"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 109.8
+              },
+              "duration": {
+                "value": 21.6
+              },
+              "polyline": {
+                "points": "caahLcn{rBFNHRR\\`@p@\\f@NX\\p@DLNb@"
+              },
+              "html_instructions": "turn Sollivegen"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 70.1
+              },
+              "duration": {
+                "value": 37.9
+              },
+              "polyline": {
+                "points": "y{`hLie{rBF[^kBLq@Lq@BEDEFB"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "cy`hL}l{rB"
+              },
+              "html_instructions": "arrive "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 70.1
+              },
+              "duration": {
+                "value": 12.4
+              },
+              "polyline": {
+                "points": "cy`hL}l{rBGCEDCDMp@Mp@_@jBGZ"
+              },
+              "html_instructions": "depart "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 109.8
+              },
+              "duration": {
+                "value": 21.7
+              },
+              "polyline": {
+                "points": "y{`hLie{rBOc@EM]q@OY]g@a@q@S]ISGO"
+              },
+              "html_instructions": "turn Sollivegen"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 44.1
+              },
+              "duration": {
+                "value": 6.6
+              },
+              "polyline": {
+                "points": "caahLcn{rBWxAG`@CLCDIX"
+              },
+              "html_instructions": "turn Fjellvegen"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 479.2
+              },
+              "duration": {
+                "value": 75
+              },
+              "polyline": {
+                "points": "ubahLyh{rBEJKRGFIFKDC?E@KEOISOUS[W]YOIMEUGUMMIsAu@kAm@i@Yw@c@QKYUm@k@MI{@i@_@Q]WYM_@[IIEG"
+              },
+              "html_instructions": "new name Carl Bertheussens veg"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 167.3
+              },
+              "duration": {
+                "value": 25.4
+              },
+              "polyline": {
+                "points": "u|ahLax{rBQx@EP]fAO`@KX]v@IRo@jB[x@Sr@CFCNCT"
+              },
+              "html_instructions": "end of road Turistvegen"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 77
+              },
+              "duration": {
+                "value": 8.9
+              },
+              "polyline": {
+                "points": "{cbhL}f{rBA?G?QD[FIBC@IFGNIBKDOHGF"
+              },
+              "html_instructions": "turn Bruvegen"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 1057.6
+              },
+              "duration": {
+                "value": 95.9
+              },
+              "polyline": {
+                "points": "ahbhLud{rBSNSPSTQVU\\QZQ`@O^Sf@Qp@Ol@Qp@Ml@Mx@QjAa@rCyB~OoAfJgE|ZgDdVqBbOyAnKO`AE\\Mj@"
+              },
+              "html_instructions": "new name Troms\u00f8brua"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 279
+              },
+              "duration": {
+                "value": 41.8
+              },
+              "polyline": {
+                "points": "{jchL{}vrBKXQ`@KNKFGFKHKAYGmA_@o@SUEmBLmAROFYH"
+              },
+              "html_instructions": "turn Skippergata"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 41.5
+              },
+              "duration": {
+                "value": 6.3
+              },
+              "polyline": {
+                "points": "ezchLe{vrBAGIKOQSOCAQK"
+              },
+              "html_instructions": "turn Storgata"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 15.7
+              },
+              "duration": {
+                "value": 2.4
+              },
+              "polyline": {
+                "points": "k|chLi}vrBCICECCCAC@EB"
+              },
+              "html_instructions": "roundabout Hansjordnesgata"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 288.2
+              },
+              "duration": {
+                "value": 26
+              },
+              "polyline": {
+                "points": "e}chLy}vrBIEMIEEMUQ]CQG_@ESEWEi@UkCQqBGo@@OAU?MCWOcBGo@CUIw@EYESGQKWKMKEMCMHGHCHERSRQP"
+              },
+              "html_instructions": "exit roundabout Hansjordnesgata"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 1960.1
+              },
+              "duration": {
+                "value": 178.1
+              },
+              "polyline": {
+                "points": "ggdhL_xwrB[^a@d@o@r@[^IJCBQP_AfAw@`AQPMNMPQRIHMLC@QFC?ODS@_@FiBN]FYBcBJQ?a@IWOWWc@_@eAaA_@U[SaBy@eB}@i@[kC{AKGWOmAq@o@a@[SECGGe@a@QSUSs@q@SQWWq@s@SQy@y@GGSSo@m@{BaCwBeCUSIKc@e@aBaBMOIKaAcAi@i@WYOQMQw@gA{A}Bs@eAKOIKu@eAm@y@GGGIWY]a@EEYY[UMKMI[IGEMG]Uu@c@wAy@[k@Ya@IOQ_@"
+              },
+              "html_instructions": "new name Stakkevollvegen"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 1.4
+              },
+              "duration": {
+                "value": 0.1
+              },
+              "polyline": {
+                "points": "woghLetyrBAE"
+              },
+              "html_instructions": "roundabout Erling Kjeldsens veg"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 3208.5
+              },
+              "duration": {
+                "value": 245.9
+              },
+              "polyline": {
+                "points": "yoghLktyrBAuB?mCL}@Le@LWJIJENANHLNHVJZF`@Dd@@h@@p@Ad@Cd@Iz@{@`JkAlMsA`N]bC]nB]~AY~@a@hAw@zAeAnAqAhAe@\\kBxAQPmAhAcAjAc@x@_@`AY`AYlASpAOfAWfDGnBCxA?xBBbBHhBLhBLbBZpDBZB`@TfCHxAHzAXhFLjBFz@JfBFr@Hn@ZbCZbBFZ`CdL~DjSlAjGb@`C`@bCt@~E\\|BXjBN`A\\tBN`ARfARbATdAX`Bf@lB`ApDb@|AHVbAvDdAxDh@|At@lCx@vCx@|Ch@nBf@rBRt@Pv@Pz@N|@Nx@Jt@Ht@NnANhBLlBFvAFnBBxA@nA?fB?hAAtAE`CEbBIdCWtJGlBEnBCrACrAAt@A|@Cv@Ct@Az@A^C`@CZEZ"
+              },
+              "html_instructions": "exit roundabout Erling Kjeldsens veg"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 23.8
+              },
+              "duration": {
+                "value": 1.6
+              },
+              "polyline": {
+                "points": "uyfhLe{mrBEZA\\@\\DX"
+              },
+              "html_instructions": "roundabout Kval\u00f8yvegen"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 1090.1
+              },
+              "duration": {
+                "value": 74
+              },
+              "polyline": {
+                "points": "uyfhLswmrBFp@Bl@Bv@BxCFjIBxB@~@?v@?~@CnAEdBG`BKbBKbAIr@M`ASpAY|A_@rAe@lAa@v@m@t@y@h@y@JiBDi@Hc@NE@k@\\m@d@i@t@k@|@a@t@IN_DpGoAzBoAjBwBpC[^IXWZ[HQ@"
+              },
+              "html_instructions": "exit roundabout Kval\u00f8yvegen"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 28.2
+              },
+              "duration": {
+                "value": 1.9
+              },
+              "polyline": {
+                "points": "kbhhLixjrBCEGCGBGFELERAJ"
+              },
+              "html_instructions": "roundabout Kval\u00f8yvegen"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 572
+              },
+              "duration": {
+                "value": 36.8
+              },
+              "polyline": {
+                "points": "uchhLyvjrBQl@O\\Wl@KTEDONSPWNQJWHSBU@W?[CWGWK]Sa@UkAq@YQg@YuAy@m@c@WQSSY[QWOWUc@Se@Qg@]cAK[GUGYIe@Mm@Ii@CQG_@"
+              },
+              "html_instructions": "exit roundabout Kval\u00f8yvegen"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 21.1
+              },
+              "duration": {
+                "value": 1.4
+              },
+              "polyline": {
+                "points": "s`ihLwhkrB?IAIASEOGIGA"
+              },
+              "html_instructions": "roundabout Kval\u00f8yvegen"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 1850.2
+              },
+              "duration": {
+                "value": 122.9
+              },
+              "polyline": {
+                "points": "maihL{jkrBKSMSIQIS[q@GQY_AKYQe@Qc@Qc@Ug@Q]Q_@g@}@QYW[W]SYSSUSUS_@WUKk@WSGUEWG[C]C[Aa@@U@YDG@[HQFSHUJULWNSPQNQPg@l@SVW^U^QZS`@Sb@Yp@Qd@Qd@i@bBq@vBs@hCu@hCqBfHcE`O}EdQu@jCq@nCo@rCk@tCo@lDi@fDe@jDSzASjBWzBUfCOdBGt@AHOhB?HSfCI`BGvACn@Cr@Cv@A^CRATCf@AZEt@Ef@"
+              },
+              "html_instructions": "exit roundabout Kval\u00f8yvegen"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 35.8
+              },
+              "duration": {
+                "value": 3.3
+              },
+              "polyline": {
+                "points": "qmkhL{hgrBEJCLCZA^B\\DPFJ"
+              },
+              "html_instructions": "roundabout Eidvegen"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 791.3
+              },
+              "duration": {
+                "value": 71.2
+              },
+              "polyline": {
+                "points": "omkhLidgrBJlAHlAHv@FlAFdAJbADd@Fj@R|ADVF`@Jn@RpAVpA^nB\\bBLl@b@nBR|@XxA^xBH^j@pCpBdK`CtLvAnHr@rDDTR|@Fn@Ff@Db@B\\"
+              },
+              "html_instructions": "exit roundabout Eidvegen"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 24.1
+              },
+              "duration": {
+                "value": 2
+              },
+              "polyline": {
+                "points": "csjhL{~crB?V?J?J@J@HBFBFBDB@"
+              },
+              "html_instructions": "roundabout Eidvegen"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 493.2
+              },
+              "duration": {
+                "value": 44.7
+              },
+              "polyline": {
+                "points": "orjhL}{crBPh@FRFZHVBRLv@RbAb@~BBXZbBThALl@b@~Bd@|BLn@lAlGJh@Nb@Nx@xAtHT|@ZbAJl@F^D`@Bj@"
+              },
+              "html_instructions": "exit roundabout Eidvegen"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 20.2
+              },
+              "duration": {
+                "value": 2
+              },
+              "polyline": {
+                "points": "y`jhLm_brB?H@H?H@H@F@FBD@BBBB@"
+              },
+              "html_instructions": "roundabout Eidvegen"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 1786.6
+              },
+              "duration": {
+                "value": 161.1
+              },
+              "polyline": {
+                "points": "c`jhLe}arBJZT|@JZLlAP~@BJBTdAnFTnAXtALn@x@hER`AjAhGp@jDb@`CdApFl@bD\\zBDVFr@RjCR|EJrC\\jIDfABf@R~FH|BFvAX`HDtAPjEFnANhE?TFhC@FB~A@lBB~A@lAD|FB~ABvEB|CJxK@zA@tBBfB@tA?h@DpEDnFBxDBhCBjCBdC@zADjF@rBBlA@d@Bh@Bx@?lA?|@Ab@"
+              },
+              "html_instructions": "exit roundabout Eidvegen"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 22
+              },
+              "duration": {
+                "value": 2.2
+              },
+              "polyline": {
+                "points": "}bihLatyqBAF?FADAH?F?F?H?F@F@F?F@D@D"
+              },
+              "html_instructions": "roundabout Eidvegen"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 4599.7
+              },
+              "duration": {
+                "value": 407.3
+              },
+              "polyline": {
+                "points": "{bihL{pyqBDrABz@?V?t@Ad@?z@@f@BtEDpCBjD@~@@vABjE@lF?`C?`DAxF?h@AvC?~@ArD?tA?nB@rC@nADlCD~AHvBJxCP~CDp@NxBR|BVnC^vDJjANvAFn@|@pJp@rHJ|@Bb@Ff@\\xDHt@`@nEFl@Fp@TlBTdBXlBLp@@Jr@nDl@pCFX\\bBdBjIbA|E^bBXvANv@\\~AT~@VfATv@d@|Al@hBb@nAxCxIRf@b@tAb@lAFNHTdBfFVp@lAnD`@lARj@JZ\\jARz@Np@Jl@VzALjAN|AF|@TbD@JDf@RvCNbCd@nHJ`CDrA?pCGrCEhACl@KrA[pCg@nD[tBIb@c@`DQjAIl@_@bCe@zCShA[xAW~@M^o@~AYl@]l@EJ[f@Yr@Uj@I\\G\\M|@Ed@Ed@Cr@?d@?R@R?RBd@@TBLHl@DZDVHTBLDLJRVf@PTHLNLZXxCtBHFfCpBZVVRNHHDNDRDN?L?F?j@EdC[x@K~@MNA^GHATI^QNI^WNMf@_@d@_@jAcAp@m@PMNOLKv@o@NMZWh@e@VUNMVYl@u@`@k@f@w@fBkCh@y@DEb@s@b@q@LWRc@Re@L]To@b@sAb@wAf@aBx@mCh@aB`@iATg@JQNYLQXa@X[VW~A}A`@_@"
+              },
+              "html_instructions": "exit roundabout Eidvegen"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 13249.6
+              },
+              "duration": {
+                "value": 958
+              },
+              "polyline": {
+                "points": "ckehLa`nqBf@c@\\W@AHCRETCR?NBNDRJPLNPJNRZLXJTJVPf@dChHlApDVt@Pj@LZJZb@nAbGrQXv@LZL\\Zp@LVJRZ`@NPLHLLTJPJNDNDHBn@L~@Rp@LVBVFVDtCj@x@Pv@VpAf@lAl@|At@`Bz@dB|@jB~@tAr@d@Vb@X\\TPNXVVVX\\TXNRV`@T\\|@zAj@hA\\n@lA|B`AjBdBdDRb@^p@j@hAP\\~DvHnFhKfFxJdApBt@vAjDxGHLXj@b@z@`@r@\\j@T\\NPLNZ\\lAhAxEdEtAlAhA`ApD~C\\ZVTb@d@VXTZX`@V`@T`@pAdCnA~Bz@xAf@z@\\j@V^Z^LJNPXRd@XxBhATLl@XHH\\LB@ZLt@\\\\R@?RJz@`@\\P`@PXHPDTDZ@XAPANEXIb@WPORQZ[d@k@v@cAvAgBp@}@hAwAfBaCRWv@cAFIV[f@q@DIX_@DG`@o@Xi@Rg@L]Z}@Jc@Pm@H]P_AHe@Fe@??Hk@BYDWFm@?CFq@F{@HkABg@NcCJqBP_DLgCH_BH_CBwA?m@?k@?k@?c@Co@Cy@Ce@Ek@I_AGm@K{@YcCG_@EYOcAK{@Ik@Io@Ii@_@uCS{AGm@Gi@IcAEk@Em@Cm@Ce@Ao@Cg@C_BCyA?i@AoA?q@?m@@aBBqA@i@@_@DcAD_AFsAB_@Bs@Fw@Bk@L}ARyCLgBDo@LoBDi@LqBFy@LiBHeAN{BF_ANuBFcAH_AX_ELgBDw@RuCDg@LiBh@gIHcADw@VwDT_DF{@Dq@NaCLgBVeEJeBFgADs@HmBF}A@a@F_B@o@Bs@@o@@e@@_@D_BB{B@uABaE@}B?eB?c@AyBAyBAy@AeACmBC{@Au@IoDMwDE_BC{@EoAOkFCyAEw@OmGGaBMsECm@GoBCq@Au@E}AUeHMuEGuBC_AC_AC}@Cu@Cu@GcCIuCCaAGmBCk@KgEAk@AoAAa@?]?wB@kB@g@?g@DwA@m@FqABq@Bo@N{BDg@Da@D_@Ba@P}AJaAFe@JaAF_@Fk@He@Fk@Hm@P{AF_@Hq@Hk@XyBHk@D_@F[@GDWRmAHa@F_@Jg@Hc@Hc@La@DWJ_@J]ZcAZaAZ{@Xq@JWLULW^s@RYLUJKT[`@c@b@a@f@a@RM\\SLETGTCh@O`@EJCJCf@GhB[jASTEfASfBYv@Qf@If@Kj@Ip@KjAUTCTGNEFAPCRCREp@K\\GVEXG\\EpAWh@KXCXGrAUdAS`AOVGp@K|@I^A^Bd@DPDP@RBh@Jl@H\\F`@FJ@NBTFT@PDRDlBV|@PPBT@VDx@NZDx@Jd@HLBTBh@Hb@JR@vB^rBVX@P?d@GRGd@]ROPSNUTUz@eA~CcExC}Db@k@V]j@w@TWd@q@VY~@iAPUj@e@l@g@VMTIVGXEZAP@TBRDTJPLPNPPNTPVPX\\r@LZJ\\t@`Cl@pBX|@HXLd@h@bBt@bCPh@\\jAN`@P`@L\\FJ\\z@\\|@lAzCLTL\\LZNXLTLTLPLPNPHH\\^d@XNFRHd@LPDTBd@@l@@P@vAFl@BD@b@B@?n@@|ERp@BtALl@HTFj@Nj@Tl@XVNj@^l@b@r@d@f@^VPl@b@TN|@p@pA~@PLTPPLDBDBr@h@`@^RPPRVXNRh@p@vAlBRXTZNRf@h@??RRTTTRVTRRj@f@XVTPVR^ZjAfAFF\\Zh@b@j@f@FFvAnAxBlBvApAPP`Az@n@j@h@`@TTTRNNf@b@|@v@b@^ZZVRVTVTh@d@b@b@v@t@t@|@V^PVl@~@Vb@h@`A^n@|@`BR\\@B`BvCp@lAl@dA^p@R^^n@jArBVf@v@tAbAdBfAtBDFhAvB`@z@Tb@JRFZ\\dADN"
+              },
+              "html_instructions": "new name Straumsvegen"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 58.8
+              },
+              "duration": {
+                "value": 4.6
+              },
+              "polyline": {
+                "points": "iltgLcvsqBAN@R@PBNDLDFF@DCFGBI@G@G@I?E?I?K?OAOAI"
+              },
+              "html_instructions": "roundabout Straumsvegen"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 352.6
+              },
+              "duration": {
+                "value": 26.1
+              },
+              "polyline": {
+                "points": "{jtgL{vsqBPoB@g@F]BOFUDUHWHUHOFMHKFKJKHIJEJEHAL?F?LBHDJDHHJLJNJNHRHRHVJZXdAb@hBrBdI"
+              },
+              "html_instructions": "exit roundabout Straumsvegen"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 2681.8
+              },
+              "duration": {
+                "value": 171.3
+              },
+              "polyline": {
+                "points": "y{sgL{msqB`BtGNj@Pl@Pl@Rd@FPJTHNR^LPJPVXJHJJLHLFJDVJH@NBL@H?H?VENCJCLGLGJGRQLKHKJMLOR[JSJUJUJUJWHWFUPo@Ru@VkAxByKvy@y`EBIp@cDTaAR{@Pq@Rm@HUHSJWLWTc@T_@LSJMLMJKLKLKJGVKLELEVCJAL?V@VFLBLDLFLHVRVTTXT\\HNR^LTHRJVHTHXHTNj@H^HZHX"
+              },
+              "html_instructions": "new name Ryatunnelen"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 108.1
+              },
+              "duration": {
+                "value": 6.5
+              },
+              "polyline": {
+                "points": "onpgLm}yqBDZJh@Lv@Ff@LbAD^D^@VBT?Z?VD|@?J?V"
+              },
+              "html_instructions": "new name Ryaforbindelsen"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 52.4
+              },
+              "duration": {
+                "value": 3
+              },
+              "polyline": {
+                "points": "alpgL_nyqBADADAFAF?H?FAH@H?F?H@F@F@D@D@DBB@BB@B@@?BA@ABC@CBE@E@E@G?G"
+              },
+              "html_instructions": "roundabout Brokskarvegen"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 2790.5
+              },
+              "duration": {
+                "value": 206.9
+              },
+              "polyline": {
+                "points": "yjpgLkkyqBFIBEFGNIFGHMfBg@dAYh@M`A[f@IN?L@NBLFLFJLXZLRJRJTL^|@jCRj@l@dBx@bCRp@DRFVJj@DVLz@@HFp@PbBFl@LhAD`@BXNnATxBNvAD^L|@ZtBZxBNx@^zBTpA\\fB\\hBHZLn@FRFRHXL\\JVrAfDPd@HPDNTf@Tj@Th@~A`EPb@LVFLTZRTFFTP|@l@LFb@ZJHLH\\VLLBBDFLJJNJR`@z@^r@bAlBJTh@~@f@z@X\\NRNPXTRJd@Rd@PXLLHHHJLJNJPJTJXJVPj@HZFZFVBJBRFf@BRBTBXDh@HdA@TFlAHnBBh@Bf@@f@BlABn@@XJ|CL`DJzBBj@F~ADnABh@NjDFvA@^B^Bl@Dp@LtBDt@HfALrAD`@Dd@Dh@Fl@PpBV~CD`@Df@B^H~@RbCD\\HdANbBz@zJVvCHdAD`@Dh@Bh@B`@B\\Bn@@p@Bz@?nA?|@AfAAj@ExB?^EhBA`AAb@CfAA^Ah@?b@EjBA`@?RAx@?~@AbAA^Cz@At@CxCC|@"
+              },
+              "html_instructions": "exit roundabout Brokskarvegen"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 120.8
+              },
+              "duration": {
+                "value": 29.1
+              },
+              "polyline": {
+                "points": "krmgLgapqBDCHGBCBIFSBEXmABKDUDYBODq@BUDODQDKBEJKDEJGHAB?BB"
+              },
+              "html_instructions": "turn Brokskarvegen"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 252.3
+              },
+              "duration": {
+                "value": 60.7
+              },
+              "polyline": {
+                "points": "immgLilpqBBD@F@D@F@R?J?J?JCb@Cd@KnAE~@En@AVAl@Al@?T?N?J@D@F@BBBFAPIJDLHPTJFRCf@IZBLPH^Bb@FtA"
+              },
+              "html_instructions": "continue Brokskarvegen"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "kgmgLkuoqB"
+              },
+              "html_instructions": "arrive "
+            }
+          ]
+        }
+      ],
+      "bounds": {
+        "northeast": {
+          "lat": 69.69585,
+          "lng": 18.98897
+        },
+        "southwest": {
+          "lat": 69.54118,
+          "lng": 18.71985
+        }
+      }
+    }
+  ],
+  "status": "OK"
+}

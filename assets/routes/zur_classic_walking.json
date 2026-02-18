@@ -1,0 +1,307 @@
+{
+  "routes": [
+    {
+      "overview_polyline": {
+        "points": "{|b`Hiscs@G@KDMD@HBRFX@H?JPpD@T@F@B@BB@@?B@B?|BHB@B@AD@DRnC@NBPFC~Cq@NE?OEaB?McDI]CA?A@A@CB?BCACA}BIC?CAA?CAACACAGAUQqD?KAIGYCSAIo@ZOHa@Lc@Jm@Fi@H{@Jw@DG@?K?JO?o@DU@q@BaA?U?o@As@C_@Cg@GYEe@I[GEASE?\\?B?@ADGdD?RAd@?P?JAb@CnCAb@AfAA^K?IAy@AKAEAGEEKIUu@iBEKEMDEDEDCD?D?D?RD^DH@Aj@@FDJFNBFFBB?X@B?fADh@@L@@Y@e@DY?K?K"
+      },
+      "legs": [
+        {
+          "distance": {
+            "value": 1850.3,
+            "text": "1.9 km"
+          },
+          "duration": {
+            "value": 341.7,
+            "text": "5 mins"
+          },
+          "steps": [
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 20.2
+              },
+              "duration": {
+                "value": 8.7
+              },
+              "polyline": {
+                "points": "{|b`Hiscs@G@KDMD"
+              },
+              "html_instructions": "depart Limmatquai"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 196.1
+              },
+              "duration": {
+                "value": 30.4
+              },
+              "polyline": {
+                "points": "}}b`H{rcs@@HBRFX@H?JPpD@T@F@B@BB@@?B@B?|BHB@B@"
+              },
+              "html_instructions": "turn M\u00fcnsterbr\u00fccke"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 60.7
+              },
+              "duration": {
+                "value": 9.1
+              },
+              "polyline": {
+                "points": "_xb`Hcics@AD@DRnC"
+              },
+              "html_instructions": "turn Kappelergasse"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "kwb`Hgdcs@"
+              },
+              "html_instructions": "arrive Kappelergasse"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 12.6
+              },
+              "duration": {
+                "value": 7.4
+              },
+              "polyline": {
+                "points": "kwb`Hgdcs@@NBP"
+              },
+              "html_instructions": "depart Kappelergasse"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 105.6
+              },
+              "duration": {
+                "value": 20.1
+              },
+              "polyline": {
+                "points": "ewb`Heccs@FC~Cq@NE"
+              },
+              "html_instructions": "turn Fraum\u00fcnsterstrasse"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 48.9
+              },
+              "duration": {
+                "value": 11.7
+              },
+              "polyline": {
+                "points": "mqb`Haecs@?OEaB?M"
+              },
+              "html_instructions": "turn B\u00f6rsenstrasse"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 115.4
+              },
+              "duration": {
+                "value": 17.4
+              },
+              "polyline": {
+                "points": "sqb`Haics@cDI]CA?A@A@CB?B"
+              },
+              "html_instructions": "turn Stadthausquai"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 196.1
+              },
+              "duration": {
+                "value": 35.3
+              },
+              "polyline": {
+                "points": "_xb`Hcics@CACA}BIC?CAA?CAACACAGAUQqD?KAIGYCSAI"
+              },
+              "html_instructions": "continue Stadthausquai"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 197.3
+              },
+              "duration": {
+                "value": 32
+              },
+              "polyline": {
+                "points": "}}b`H{rcs@o@ZOHa@Lc@Jm@Fi@H{@Jw@DG@"
+              },
+              "html_instructions": "turn Limmatquai"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 4.6
+              },
+              "duration": {
+                "value": 28.1
+              },
+              "polyline": {
+                "points": "whc`Huocs@?K"
+              },
+              "html_instructions": "turn Marktgasse"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "whc`Hapcs@"
+              },
+              "html_instructions": "arrive Marktgasse"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 4.6
+              },
+              "duration": {
+                "value": 2.5
+              },
+              "polyline": {
+                "points": "whc`Hapcs@?J"
+              },
+              "html_instructions": "depart Marktgasse"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 286.5
+              },
+              "duration": {
+                "value": 50.9
+              },
+              "polyline": {
+                "points": "whc`Huocs@O?o@DU@q@BaA?U?o@As@C_@Cg@GYEe@I[GEASE"
+              },
+              "html_instructions": "turn Limmatquai"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 100.3
+              },
+              "duration": {
+                "value": 12.9
+              },
+              "polyline": {
+                "points": "yxc`H{pcs@?\\?B?@ADGdD?RAd@"
+              },
+              "html_instructions": "turn Rudolf-Brun-Br\u00fccke"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 132.8
+              },
+              "duration": {
+                "value": 16.1
+              },
+              "polyline": {
+                "points": "eyc`Hqhcs@?P?JAb@CnCAb@AfAA^"
+              },
+              "html_instructions": "new name Uraniastrasse"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 55.2
+              },
+              "duration": {
+                "value": 8.3
+              },
+              "polyline": {
+                "points": "qyc`Hs}bs@K?IAy@AKAEA"
+              },
+              "html_instructions": "turn Werdm\u00fchleplatz"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 81.7
+              },
+              "duration": {
+                "value": 14.8
+              },
+              "polyline": {
+                "points": "s|c`H{}bs@GEEKIUu@iBEKEM"
+              },
+              "html_instructions": "turn Werdm\u00fchlestrasse"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 56.5
+              },
+              "duration": {
+                "value": 10.1
+              },
+              "polyline": {
+                "points": "m_d`Hgccs@DEDEDCD?D?D?RD^DH@"
+              },
+              "html_instructions": "turn Lindenhofstrasse"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 175
+              },
+              "duration": {
+                "value": 25.9
+              },
+              "polyline": {
+                "points": "k|c`Hiccs@Aj@@FDJFNBFFBB?X@B?fADh@@L@@Y@e@DY?K?K"
+              },
+              "html_instructions": "continue Lindenhofstrasse"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "evc`Hsccs@"
+              },
+              "html_instructions": "arrive Oetenbachgasse"
+            }
+          ]
+        }
+      ],
+      "bounds": {
+        "northeast": {
+          "lat": 47.37543,
+          "lng": 8.54341
+        },
+        "southwest": {
+          "lat": 47.36807,
+          "lng": 8.53994
+        }
+      }
+    }
+  ],
+  "status": "OK"
+}

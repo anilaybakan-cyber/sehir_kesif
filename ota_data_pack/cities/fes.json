@@ -1,0 +1,3656 @@
+{
+  "city": "Fes",
+  "country": "Fas",
+  "description": "Dünyanın en büyük trafiğe kapalı şehir merkezi Medina'sı, deri tabakhaneleri ve labirent sokaklarıyla orta çağdan kalma bir zaman kapsülü. Fas'ın ruhani ve kültürel başkenti.",
+  "heroImage": "https://images.unsplash.com/photo-1548013146-72479768bada?w=800",
+  "coordinates": {
+    "lat": 34.0181,
+    "lng": -5.0078
+  },
+  "highlights": [
+    {
+      "name": "Fes el-Bali",
+      "area": "Medina",
+      "category": "Tarihi",
+      "subcategory": "Tarihi",
+      "tags": [
+        "medina",
+        "fes",
+        "fas",
+        "tarihi"
+      ],
+      "distanceFromCenter": 0,
+      "lat": 34.0630813,
+      "lng": -4.9768757,
+      "price": "low",
+      "rating": 4.5,
+      "description": "Fes el-Bali, dünyanın en eski orta çağ şehirlerinden biri olan Fes'in en önemli yapılarından. Medina içinde yer alan bu mekan, İslam mimarisinin şaheserlerinden.",
+      "bestTime": "Sabah",
+      "bestFor": [
+        "herkes"
+      ],
+      "source": "google",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/fes_el_bali.jpg",
+      "tips": "Yapı içerisindeki akustik harika, sessizliği dinleyin.",
+      "description_en": "Fes el-Bali is a highlight of Fes in the Medina area.",
+      "tips_en": "The acoustics inside satisfy; listen to the silence."
+    },
+    {
+      "name": "Chouara Tabakhaneleri",
+      "area": "Medina",
+      "category": "Deneyim",
+      "subcategory": "Deneyim",
+      "tags": [
+        "medina",
+        "fes",
+        "fas",
+        "deneyim"
+      ],
+      "distanceFromCenter": 0,
+      "lat": 34.0660373,
+      "lng": -4.9710272,
+      "price": "medium",
+      "rating": 4.2,
+      "description": "Tannery & leather trader treating & selling locally-crafted goods with a terrace for dyeing.",
+      "bestTime": "Akşam",
+      "bestFor": [
+        "herkes"
+      ],
+      "source": "google",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/chouara_tabakhaneleri.jpg",
+      "tips": "Grup indirimi olup olmadığını sorun.",
+      "description_en": "Chouara Tabakhaneleri is a highlight of Fes in the Medina area.",
+      "tips_en": "Ask if there is a group discount."
+    },
+    {
+      "name": "Bou Inania Medresesi",
+      "area": "Medina",
+      "category": "Tarihi",
+      "subcategory": "Tarihi",
+      "tags": [
+        "medina",
+        "fes",
+        "fas",
+        "tarihi"
+      ],
+      "distanceFromCenter": 0,
+      "lat": 34.0622774,
+      "lng": -4.9828413,
+      "price": "low",
+      "rating": 4.5,
+      "description": "M.S. 1351-56 yıllarında kurulan, tarihi Merini ve Fas mimarisiyle ünlü, gösterişli medrese.",
+      "bestTime": "Sabah",
+      "bestFor": [
+        "herkes"
+      ],
+      "source": "google",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/bou_inania_medresesi.jpg",
+      "tips": "Sabah erken saatlerde giderek turist kalabalığından kaçınabilirsiniz.",
+      "description_en": "Bou Inania Medresesi is a highlight of Fes in the Medina area.",
+      "tips_en": "Go early in the morning to avoid tourist crowds."
+    },
+    {
+      "name": "Al-Attarine Medresesi",
+      "area": "Medina",
+      "category": "Tarihi",
+      "subcategory": "Tarihi",
+      "tags": [
+        "medina",
+        "fes",
+        "fas",
+        "tarihi"
+      ],
+      "distanceFromCenter": 0,
+      "lat": 34.0651253,
+      "lng": -4.973616499999999,
+      "price": "low",
+      "rating": 4.5,
+      "description": "14th-century school for Islamic studies featuring ornate tile work & dramatic architecture.",
+      "bestTime": "Sabah",
+      "bestFor": [
+        "herkes"
+      ],
+      "source": "google",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/al_attarine_medresesi.jpg",
+      "tips": "Rehberli turla gezmek detayları anlamak için çok daha verimli.",
+      "description_en": "Al-Attarine Medresesi is a highlight of Fes in the Medina area.",
+      "tips_en": "A guided tour is much more efficient to understand the details."
+    },
+    {
+      "name": "Bab Boujloud (Mavi Kapı)",
+      "area": "Medina Girişi",
+      "category": "Tarihi",
+      "subcategory": "Tarihi",
+      "tags": [
+        "medina girişi",
+        "fes",
+        "fas",
+        "tarihi"
+      ],
+      "distanceFromCenter": 0,
+      "lat": 34.0617289,
+      "lng": -4.9840054,
+      "price": "low",
+      "rating": 4.4,
+      "description": "Bir zamanlar Fas'ın Fez kentindeki tarihi bölgenin girişi olan üç kemerli Mağribi kapısı.",
+      "bestTime": "Sabah",
+      "bestFor": [
+        "herkes"
+      ],
+      "source": "google",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/bab_boujloud_mavi_kapi.jpg",
+      "tips": "Fotoğraf çekimi için en iyi ışık gün batımına yakındır.",
+      "description_en": "Bab Boujloud (Mavi Kapı) is a highlight of Fes in the Medina Girişi area.",
+      "tips_en": "Best light for photography is near sunset."
+    },
+    {
+      "name": "Al-Qarawiyyin Üniversitesi",
+      "area": "Medina",
+      "category": "Tarihi",
+      "subcategory": "Tarihi",
+      "tags": [
+        "medina",
+        "fes",
+        "fas",
+        "tarihi"
+      ],
+      "distanceFromCenter": 0,
+      "lat": 34.0649299,
+      "lng": -4.9733667,
+      "price": "low",
+      "rating": 4.6,
+      "description": "Al-Qarawiyyin Üniversitesi, dünyanın en eski orta çağ şehirlerinden biri olan Fes'in en önemli yapılarından. Medina içinde yer alan bu mekan, İslam mimarisinin şaheserlerinden.",
+      "bestTime": "Sabah",
+      "bestFor": [
+        "herkes"
+      ],
+      "source": "google",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/al_qarawiyyin_universitesi.jpg",
+      "tips": "Müze kartınız varsa girişte sıra beklemezsiniz.",
+      "description_en": "Al-Qarawiyyin Üniversitesi is a highlight of Fes in the Medina area.",
+      "tips_en": "You skip the line if you have a museum pass."
+    },
+    {
+      "name": "Zaouia Moulay Idriss II",
+      "area": "Medina",
+      "category": "Tarihi",
+      "subcategory": "Tarihi",
+      "tags": [
+        "medina",
+        "fes",
+        "fas",
+        "tarihi"
+      ],
+      "distanceFromCenter": 0,
+      "lat": 34.064847,
+      "lng": -4.974722000000001,
+      "price": "low",
+      "rating": 4.4,
+      "description": "Zaouia Moulay Idriss II, dünyanın en eski orta çağ şehirlerinden biri olan Fes'in en önemli yapılarından. Medina içinde yer alan bu mekan, İslam mimarisinin şaheserlerinden.",
+      "bestTime": "Sabah",
+      "bestFor": [
+        "herkes"
+      ],
+      "source": "google",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/zaouia_moulay_idriss_ii.jpg",
+      "tips": "Rehberli turla gezmek detayları anlamak için çok daha verimli.",
+      "description_en": "Zaouia Moulay Idriss II is a highlight of Fes in the Medina area.",
+      "tips_en": "A guided tour is much more efficient to understand the details."
+    },
+    {
+      "name": "Nejjarine Ahşap Sanatları Müzesi",
+      "area": "Medina",
+      "category": "Müze",
+      "subcategory": "Müze",
+      "tags": [
+        "medina",
+        "fes",
+        "fas",
+        "müze"
+      ],
+      "distanceFromCenter": 0,
+      "lat": 34.0647528,
+      "lng": -4.9759047,
+      "price": "medium",
+      "rating": 4.5,
+      "description": "Former inn, now a 3-story museum featuring intricate wood carvings & various art pieces & crafts.",
+      "bestTime": "Sabah",
+      "bestFor": [
+        "herkes"
+      ],
+      "source": "google",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/nejjarine_ahsap_sanatlari_muzesi.jpg",
+      "tips": "Çantanızı vestiyere bırakmanız gerekebilir, hazırlıklı olun.",
+      "description_en": "Nejjarine Ahşap Sanatları Müzesi is a highlight of Fes in the Medina area.",
+      "tips_en": "You might need to leave bags at the cloakroom, be prepared."
+    },
+    {
+      "name": "Dar Batha Müzesi",
+      "area": "Medina",
+      "category": "Müze",
+      "subcategory": "Müze",
+      "tags": [
+        "medina",
+        "fes",
+        "fas",
+        "müze"
+      ],
+      "distanceFromCenter": 0,
+      "lat": 34.0601798,
+      "lng": -4.9830669,
+      "price": "medium",
+      "rating": 4.3,
+      "description": "Eski bir sarayda yer alan müzede, çömlek ve ahşap oymacılığı dahil geleneksel sanat eserleri sergilenir.",
+      "bestTime": "Sabah",
+      "bestFor": [
+        "herkes"
+      ],
+      "source": "google",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/dar_batha_muzesi.jpg",
+      "tips": "Sesli rehber (audio guide) kiralamak deneyimi ikiye katlar.",
+      "description_en": "Dar Batha Müzesi is a highlight of Fes in the Medina area.",
+      "tips_en": "Renting an audio guide doubles the experience."
+    },
+    {
+      "name": "Marinid Mezarları",
+      "area": "Tepe",
+      "category": "Manzara",
+      "subcategory": "Manzara",
+      "tags": [
+        "tepe",
+        "fes",
+        "fas",
+        "manzara"
+      ],
+      "distanceFromCenter": 0,
+      "lat": 34.0698728,
+      "lng": -4.9794336,
+      "price": "low",
+      "rating": 4.4,
+      "description": "Hilltop ruins of 2 tall mausoleums with horseshoe-shaped entrances built in the 14th century.",
+      "bestTime": "Akşam",
+      "bestFor": [
+        "herkes"
+      ],
+      "source": "google",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/marinid_mezarlari.jpg",
+      "tips": "Rüzgarlı olabilir, yanınıza ince bir ceket alın.",
+      "description_en": "Marinid Mezarları is a highlight of Fes in the Tepe area.",
+      "tips_en": "It can be windy, bring a light jacket."
+    },
+    {
+      "name": "Borj Nord",
+      "area": "Tepe",
+      "category": "Müze",
+      "subcategory": "Müze",
+      "tags": [
+        "tepe",
+        "fes",
+        "fas",
+        "müze"
+      ],
+      "distanceFromCenter": 0,
+      "lat": 34.0672714,
+      "lng": -4.9849328,
+      "price": "medium",
+      "rating": 4.4,
+      "description": "Museum in an old fort showing weapons & armor from different eras, plus scenic views from the roof.",
+      "bestTime": "Sabah",
+      "bestFor": [
+        "herkes"
+      ],
+      "source": "google",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/borj_nord.jpg",
+      "tips": "Çantanızı vestiyere bırakmanız gerekebilir, hazırlıklı olun.",
+      "description_en": "Borj Nord is a highlight of Fes in the Tepe area.",
+      "tips_en": "You might need to leave bags at the cloakroom, be prepared."
+    },
+    {
+      "name": "Kraliyet Sarayı (Dar al-Makhzen)",
+      "area": "Fes el-Jdid",
+      "category": "Tarihi",
+      "subcategory": "Tarihi",
+      "tags": [
+        "fes el-jdid",
+        "fes",
+        "fas",
+        "tarihi"
+      ],
+      "distanceFromCenter": 0,
+      "lat": 34.0532017,
+      "lng": -4.993621699999999,
+      "price": "low",
+      "rating": 4.4,
+      "description": "Royal palace, popular for photos in front of a colorful, imposing facade & gold-colored doors.",
+      "bestTime": "Sabah",
+      "bestFor": [
+        "herkes"
+      ],
+      "source": "google",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/kraliyet_sarayi_dar_al_makhzen.jpg",
+      "tips": "Rehberli turla gezmek detayları anlamak için çok daha verimli.",
+      "description_en": "Kraliyet Sarayı (Dar al-Makhzen) is a highlight of Fes in the Fes el-Jdid area.",
+      "tips_en": "A guided tour is much more efficient to understand the details."
+    },
+    {
+      "name": "Mellah (Yahudi Mahallesi)",
+      "area": "Fes el-Jdid",
+      "category": "Tarihi",
+      "subcategory": "Tarihi",
+      "tags": [
+        "fes el-jdid",
+        "fes",
+        "fas",
+        "tarihi"
+      ],
+      "distanceFromCenter": 0,
+      "lat": 34.0514267,
+      "lng": -4.9915976,
+      "price": "low",
+      "rating": 4.5,
+      "description": "Mellah (Yahudi Mahallesi), dünyanın en eski orta çağ şehirlerinden biri olan Fes'in en önemli yapılarından. Fes el-Jdid içinde yer alan bu mekan, İslam mimarisinin şaheserlerinden.",
+      "bestTime": "Sabah",
+      "bestFor": [
+        "herkes"
+      ],
+      "source": "google",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/mellah_yahudi_mahallesi.jpg",
+      "tips": "Yapı içerisindeki akustik harika, sessizliği dinleyin.",
+      "description_en": "Mellah (Yahudi Mahallesi) is a highlight of Fes in the Fes el-Jdid area.",
+      "tips_en": "The acoustics inside satisfy; listen to the silence."
+    },
+    {
+      "name": "Ibn Danan Sinagogu",
+      "area": "Mellah",
+      "category": "Tarihi",
+      "subcategory": "Tarihi",
+      "tags": [
+        "mellah",
+        "fes",
+        "fas",
+        "tarihi"
+      ],
+      "distanceFromCenter": 0,
+      "lat": 34.0527108,
+      "lng": -4.9916388,
+      "price": "low",
+      "rating": 4.1,
+      "description": "Built in the 17th century, this simple Orthodox Jewish synagogue was built by Mimoun Ben Sidan.",
+      "bestTime": "Sabah",
+      "bestFor": [
+        "herkes"
+      ],
+      "source": "google",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/ibn_danan_sinagogu.jpg",
+      "tips": "Müze kartınız varsa girişte sıra beklemezsiniz.",
+      "description_en": "Ibn Danan Sinagogu is a highlight of Fes in the Mellah area.",
+      "tips_en": "You skip the line if you have a museum pass."
+    },
+    {
+      "name": "Jnan Sbil Bahçeleri",
+      "area": "Fes el-Jdid",
+      "category": "Park",
+      "subcategory": "Park",
+      "tags": [
+        "fes el-jdid",
+        "fes",
+        "fas",
+        "park"
+      ],
+      "distanceFromCenter": 0,
+      "lat": 34.0595715,
+      "lng": -4.9882902,
+      "price": "medium",
+      "rating": 4.5,
+      "description": "Created in the 19th century, this park offers ponds & lush green areas with 3,000 species of plants.",
+      "bestTime": "Akşam",
+      "bestFor": [
+        "herkes"
+      ],
+      "source": "google",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/jnan_sbil_bahceleri.jpg",
+      "tips": "Sabah koşusu veya yoga yapan yerlileri görebilirsiniz.",
+      "description_en": "Jnan Sbil Bahçeleri is a highlight of Fes in the Fes el-Jdid area.",
+      "tips_en": "You can see locals jogging or doing yoga in the morning."
+    },
+    {
+      "name": "Seffarine Meydanı",
+      "area": "Medina",
+      "category": "Alışveriş",
+      "subcategory": "Alışveriş",
+      "tags": [
+        "medina",
+        "fes",
+        "fas",
+        "alışveriş"
+      ],
+      "distanceFromCenter": 0,
+      "lat": 34.0641964,
+      "lng": -4.9727747,
+      "price": "medium",
+      "rating": 4.6,
+      "description": "Seffarine Meydanı, deri ürünleri, seramikler ve baharatlar için renkli bir pazar. Medina'da bulunan bu mekan, pazarlık yapmanın ve yerel zanaatkarları izlemenin adresi.",
+      "bestTime": "Akşam",
+      "bestFor": [
+        "herkes"
+      ],
+      "source": "google",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/seffarine_meydani.jpg",
+      "tips": "Yerel tasarımcıların ürünlerine göz atın.",
+      "description_en": "Seffarine Meydanı is a highlight of Fes in the Medina area.",
+      "tips_en": "Check out products from local designers."
+    },
+    {
+      "name": "Kına Çarşısı (Souk el-Henna)",
+      "area": "Medina",
+      "category": "Alışveriş",
+      "subcategory": "Alışveriş",
+      "tags": [
+        "medina",
+        "fes",
+        "fas",
+        "alışveriş"
+      ],
+      "distanceFromCenter": 0,
+      "lat": 34.0652232,
+      "lng": -4.9752456,
+      "price": "medium",
+      "rating": 4.4,
+      "description": "Kına Çarşısı (Souk el-Henna), deri ürünleri, seramikler ve baharatlar için renkli bir pazar. Medina'da bulunan bu mekan, pazarlık yapmanın ve yerel zanaatkarları izlemenin adresi.",
+      "bestTime": "Akşam",
+      "bestFor": [
+        "herkes"
+      ],
+      "source": "google",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/kina_carsisi_souk_el_henna.jpg",
+      "tips": "Pazar günleri kapalı olabilir, kontrol edin.",
+      "description_en": "Kına Çarşısı (Souk el-Henna) is a highlight of Fes in the Medina area.",
+      "tips_en": "Might be closed on Sundays, do check."
+    },
+    {
+      "name": "Glaoui Sarayı",
+      "area": "Medina",
+      "category": "Tarihi",
+      "subcategory": "Tarihi",
+      "tags": [
+        "medina",
+        "fes",
+        "fas",
+        "tarihi"
+      ],
+      "distanceFromCenter": 0,
+      "lat": 34.0589143,
+      "lng": -4.977207600000001,
+      "price": "low",
+      "rating": 4.1,
+      "description": "Glaoui Sarayı, dünyanın en eski orta çağ şehirlerinden biri olan Fes'in en önemli yapılarından. Medina içinde yer alan bu mekan, İslam mimarisinin şaheserlerinden.",
+      "bestTime": "Sabah",
+      "bestFor": [
+        "herkes"
+      ],
+      "source": "google",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/glaoui_sarayi.jpg",
+      "tips": "Sabah erken saatlerde giderek turist kalabalığından kaçınabilirsiniz.",
+      "description_en": "Glaoui Sarayı is a highlight of Fes in the Medina area.",
+      "tips_en": "Go early in the morning to avoid tourist crowds."
+    },
+    {
+      "name": "Rainbow Street Art",
+      "area": "Medina",
+      "category": "Manzara",
+      "subcategory": "Manzara",
+      "tags": [
+        "medina",
+        "fes",
+        "fas",
+        "manzara"
+      ],
+      "distanceFromCenter": 0,
+      "lat": 34.0620842,
+      "lng": -4.982438900000001,
+      "price": "low",
+      "rating": 4.2,
+      "description": "Rainbow Street Art, Fes'in o meşhur labirent sokaklarını ve teraslarını izlemek için en iyi noktalardan. Medina bölgesindeki bu konum, özellikle gün batımında büyüleyici.",
+      "bestTime": "Akşam",
+      "bestFor": [
+        "herkes"
+      ],
+      "source": "google",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/rainbow_street_art.jpg",
+      "tips": "Akşam saatlerinde şehir ışıklarını izlemek çok romantik.",
+      "description_en": "Rainbow Street Art is a highlight of Fes in the Medina area.",
+      "tips_en": "Watching city lights in the evening is very romantic."
+    },
+    {
+      "name": "Art Naji (Seramik)",
+      "area": "Medina Dışı",
+      "category": "Alışveriş",
+      "subcategory": "Alışveriş",
+      "tags": [
+        "medina dışı",
+        "fes",
+        "fas",
+        "alışveriş"
+      ],
+      "distanceFromCenter": 0,
+      "lat": 34.0606033,
+      "lng": -4.9495416,
+      "price": "medium",
+      "rating": 4.1,
+      "description": "Art Naji (Seramik), deri ürünleri, seramikler ve baharatlar için renkli bir pazar. Medina Dışı'da bulunan bu mekan, pazarlık yapmanın ve yerel zanaatkarları izlemenin adresi.",
+      "bestTime": "Akşam",
+      "bestFor": [
+        "herkes"
+      ],
+      "source": "google",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/art_naji_seramik.jpg",
+      "tips": "Tax-free formunu istemeyi unutmayın.",
+      "description_en": "Art Naji (Seramik) is a highlight of Fes in the Medina Dışı area.",
+      "tips_en": "Don't forget to ask for the Tax-free form."
+    },
+    {
+      "name": "Café Clock",
+      "area": "Medina",
+      "category": "Cafe",
+      "subcategory": "Cafe",
+      "tags": [
+        "medina",
+        "fes",
+        "fas",
+        "cafe"
+      ],
+      "distanceFromCenter": 0,
+      "lat": 34.0622241,
+      "lng": -4.9830884,
+      "price": "medium",
+      "rating": 4.4,
+      "description": "Café Clock, nane çayı içip soluklanmak için keyifli bir durak. Medina'da yer alan bu kafe, genellikle harika bir çatı manzarasına sahip.",
+      "bestTime": "Akşam",
+      "bestFor": [
+        "herkes"
+      ],
+      "source": "google",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/cafe_clock.jpg",
+      "tips": "Google Maps yorumlarına göz atarak ne yiyeceğinize karar verin.",
+      "description_en": "Café Clock is a highlight of Fes in the Medina area.",
+      "tips_en": "Decide what to eat by checking Google Maps reviews."
+    },
+    {
+      "name": "The Ruined Garden",
+      "area": "Medina",
+      "category": "Restoran",
+      "subcategory": "Restoran",
+      "tags": [
+        "medina",
+        "fes",
+        "fas",
+        "restoran"
+      ],
+      "distanceFromCenter": 0,
+      "lat": 34.0620838,
+      "lng": -4.977536199999999,
+      "price": "medium",
+      "rating": 4.3,
+      "description": "The Ruined Garden, Fas mutfağının en özel lezzetlerini (tajin, kuskus) tadabileceğiniz otantik bir mekan. Medina bölgesindeki bu restoran, geleneksel dekorasyonuyla da büyülüyor.",
+      "bestTime": "Akşam",
+      "bestFor": [
+        "herkes"
+      ],
+      "source": "google",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/the_ruined_garden.jpg",
+      "tips": "Öğle yemeği menüleri genellikle akşamdan daha uygundur.",
+      "description_en": "The Ruined Garden is a highlight of Fes in the Medina area.",
+      "tips_en": "Lunch menus are usually cheaper than dinner."
+    },
+    {
+      "name": "Nur Restaurant",
+      "area": "Medina",
+      "category": "Restoran",
+      "subcategory": "Restoran",
+      "tags": [
+        "medina",
+        "fes",
+        "fas",
+        "restoran"
+      ],
+      "distanceFromCenter": 0,
+      "lat": 34.0634713,
+      "lng": -4.9787379,
+      "price": "medium",
+      "rating": 3.3,
+      "description": "Nur Restaurant, Fas mutfağının en özel lezzetlerini (tajin, kuskus) tadabileceğiniz otantik bir mekan. Medina bölgesindeki bu restoran, geleneksel dekorasyonuyla da büyülüyor.",
+      "bestTime": "Akşam",
+      "bestFor": [
+        "herkes"
+      ],
+      "source": "google",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/nur_restaurant.jpg",
+      "tips": "Öğle yemeği menüleri genellikle akşamdan daha uygundur.",
+      "description_en": "Nur Restaurant is a highlight of Fes in the Medina area.",
+      "tips_en": "Lunch menus are usually cheaper than dinner."
+    },
+    {
+      "name": "Dar Roumana",
+      "area": "Medina",
+      "category": "Restoran",
+      "subcategory": "Restoran",
+      "tags": [
+        "medina",
+        "fes",
+        "fas",
+        "restoran"
+      ],
+      "distanceFromCenter": 0,
+      "lat": 34.0667914,
+      "lng": -4.978564,
+      "price": "medium",
+      "rating": 4.5,
+      "description": "Dar Roumana, Fas mutfağının en özel lezzetlerini (tajin, kuskus) tadabileceğiniz otantik bir mekan. Medina bölgesindeki bu restoran, geleneksel dekorasyonuyla da büyülüyor.",
+      "bestTime": "Akşam",
+      "bestFor": [
+        "herkes"
+      ],
+      "source": "google",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/dar_roumana.jpg",
+      "tips": "Akşam yemeği için rezervasyon yaptırmak şart.",
+      "description_en": "Dar Roumana is a highlight of Fes in the Medina area.",
+      "tips_en": "Reservation is a must for dinner."
+    },
+    {
+      "name": "Fez Café",
+      "area": "Medina",
+      "category": "Restoran",
+      "subcategory": "Restoran",
+      "tags": [
+        "medina",
+        "fes",
+        "fas",
+        "restoran"
+      ],
+      "distanceFromCenter": 0,
+      "lat": 34.0611043,
+      "lng": -4.978329,
+      "price": "medium",
+      "rating": 4.6,
+      "description": "Traditional rooms & suites in a laid-back riad offering free breakfast, plus a hammam & gardens.",
+      "bestTime": "Akşam",
+      "bestFor": [
+        "herkes"
+      ],
+      "source": "google",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/fez_cafe.jpg",
+      "tips": "Öğle yemeği menüleri genellikle akşamdan daha uygundur.",
+      "description_en": "Fez Café is a highlight of Fes in the Medina area.",
+      "tips_en": "Lunch menus are usually cheaper than dinner."
+    },
+    {
+      "name": "Nagham Cafe",
+      "area": "Bab Boujloud",
+      "category": "Restoran",
+      "subcategory": "Restoran",
+      "tags": [
+        "bab boujloud",
+        "fes",
+        "fas",
+        "restoran"
+      ],
+      "distanceFromCenter": 0,
+      "lat": 34.0614245,
+      "lng": -4.984069799999999,
+      "price": "medium",
+      "rating": 4.2,
+      "description": "Nagham Cafe, Fas mutfağının en özel lezzetlerini (tajin, kuskus) tadabileceğiniz otantik bir mekan. Bab Boujloud bölgesindeki bu restoran, geleneksel dekorasyonuyla da büyülüyor.",
+      "bestTime": "Akşam",
+      "bestFor": [
+        "herkes"
+      ],
+      "source": "google",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/nagham_cafe.jpg",
+      "tips": "Nakite hazırlıklı olun, bazı yerel yerler kart kabul etmeyebilir.",
+      "description_en": "Nagham Cafe is a highlight of Fes in the Bab Boujloud area.",
+      "tips_en": "Be prepared with cash, some local places might not accept cards."
+    },
+    {
+      "name": "Cinema Cafe",
+      "area": "Medina",
+      "category": "Cafe",
+      "subcategory": "Cafe",
+      "tags": [
+        "medina",
+        "fes",
+        "fas",
+        "cafe"
+      ],
+      "distanceFromCenter": 0,
+      "lat": 34.0601026,
+      "lng": -4.9812086,
+      "price": "medium",
+      "rating": 4.6,
+      "description": "Cinema Cafe, nane çayı içip soluklanmak için keyifli bir durak. Medina'da yer alan bu kafe, genellikle harika bir çatı manzarasına sahip.",
+      "bestTime": "Akşam",
+      "bestFor": [
+        "herkes"
+      ],
+      "source": "google",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/cinema_cafe.jpg",
+      "tips": "Çevredeki küçük hediyelik eşya dükkanlarına da uğrayın.",
+      "description_en": "Cinema Cafe is a highlight of Fes in the Medina area.",
+      "tips_en": "Stop by the small souvenir shops around."
+    },
+    {
+      "name": "Made in M",
+      "area": "Medina",
+      "category": "Cafe",
+      "subcategory": "Cafe",
+      "tags": [
+        "medina",
+        "fes",
+        "fas",
+        "cafe"
+      ],
+      "distanceFromCenter": 0,
+      "lat": 34.0631785,
+      "lng": -4.9818368,
+      "price": "medium",
+      "rating": 4.6,
+      "description": "Made in M, nane çayı içip soluklanmak için keyifli bir durak. Medina'da yer alan bu kafe, genellikle harika bir çatı manzarasına sahip.",
+      "bestTime": "Akşam",
+      "bestFor": [
+        "herkes"
+      ],
+      "source": "google",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/made_in_m.jpg",
+      "tips": "Hafta içi ziyaret etmek daha sakin bir deneyim sunar.",
+      "description_en": "Made in M is a highlight of Fes in the Medina area.",
+      "tips_en": "Visiting on weekdays offers a calmer experience."
+    },
+    {
+      "name": "Restaurant Dar Hatim",
+      "area": "Medina",
+      "category": "Restoran",
+      "subcategory": "Restoran",
+      "tags": [
+        "medina",
+        "fes",
+        "fas",
+        "restoran"
+      ],
+      "distanceFromCenter": 0,
+      "lat": 34.0673178,
+      "lng": -4.9744426,
+      "price": "medium",
+      "rating": 4.5,
+      "description": "Restaurant Dar Hatim, Fas mutfağının en özel lezzetlerini (tajin, kuskus) tadabileceğiniz otantik bir mekan. Medina bölgesindeki bu restoran, geleneksel dekorasyonuyla da büyülüyor.",
+      "bestTime": "Akşam",
+      "bestFor": [
+        "herkes"
+      ],
+      "source": "google",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/restaurant_dar_hatim.jpg",
+      "tips": "Öğle yemeği menüleri genellikle akşamdan daha uygundur.",
+      "description_en": "Restaurant Dar Hatim is a highlight of Fes in the Medina area.",
+      "tips_en": "Lunch menus are usually cheaper than dinner."
+    },
+    {
+      "name": "Palais De Fès Dar Tazi",
+      "area": "Medina",
+      "category": "Restoran",
+      "subcategory": "Restoran",
+      "tags": [
+        "medina",
+        "fes",
+        "fas",
+        "restoran"
+      ],
+      "distanceFromCenter": 0,
+      "lat": 34.0603974,
+      "lng": -4.971474199999999,
+      "price": "medium",
+      "rating": 4.2,
+      "description": "Palais De Fès Dar Tazi, Fas mutfağının en özel lezzetlerini (tajin, kuskus) tadabileceğiniz otantik bir mekan. Medina bölgesindeki bu restoran, geleneksel dekorasyonuyla da büyülüyor.",
+      "bestTime": "Akşam",
+      "bestFor": [
+        "herkes"
+      ],
+      "source": "google",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/palais_de_fes_dar_tazi.jpg",
+      "tips": "Akşam yemeği için rezervasyon yaptırmak şart.",
+      "description_en": "Palais De Fès Dar Tazi is a highlight of Fes in the Medina area.",
+      "tips_en": "Reservation is a must for dinner."
+    },
+    {
+      "name": "Riad Fes",
+      "area": "Medina",
+      "category": "Deneyim",
+      "subcategory": "Deneyim",
+      "tags": [
+        "medina",
+        "fes",
+        "fas",
+        "deneyim"
+      ],
+      "distanceFromCenter": 0,
+      "lat": 34.0616095,
+      "lng": -4.9798231,
+      "price": "medium",
+      "rating": 4.5,
+      "description": "Ornate Moorish-style quarters in a lavish hotel with fine dining, a rooftop terrace & a plush spa.",
+      "bestTime": "Akşam",
+      "bestFor": [
+        "herkes"
+      ],
+      "source": "google",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/riad_fes.jpg",
+      "tips": "Fotoğraf makinenizin şarjının dolu olduğundan emin olun.",
+      "description_en": "Riad Fes is a highlight of Fes in the Medina area.",
+      "tips_en": "Make sure your camera battery is full."
+    },
+    {
+      "name": "Karawan Riad",
+      "area": "Medina",
+      "category": "Deneyim",
+      "subcategory": "Deneyim",
+      "tags": [
+        "medina",
+        "fes",
+        "fas",
+        "deneyim"
+      ],
+      "distanceFromCenter": 0,
+      "lat": 34.0599979,
+      "lng": -4.9710397,
+      "price": "medium",
+      "rating": 4.6,
+      "description": "Upscale riad in a former 1600s harem featuring dining, a hammam & a courtyard, plus a rooftop patio.",
+      "bestTime": "Akşam",
+      "bestFor": [
+        "herkes"
+      ],
+      "source": "google",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/karawan_riad.jpg",
+      "tips": "Rehbere soru sormaktan çekinmeyin, çok ilginç hikayeler biliyorlar.",
+      "description_en": "Karawan Riad is a highlight of Fes in the Medina area.",
+      "tips_en": "Don't hesitate to ask the guide questions, they know interesting stories."
+    },
+    {
+      "id": "musee-des-armes-borj-nord",
+      "name": "Musee des Armes (Borj Nord)",
+      "category": "Müze",
+      "tags": [
+        "history",
+        "weapons",
+        "fort"
+      ],
+      "lat": 34.0672714,
+      "lng": -4.9849328,
+      "rating": 4.4,
+      "description": "Şehri tepeden izleyen bir kalede yer alan, 16. yüzyıla ait etkileyici silah ve askeri eserler müzesi.",
+      "description_en": "Impressive museum of arms and military artifacts from the 16th century, located in a fort overlooking the city.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/musee-des-armes-borj-nord.jpg",
+      "price": "low",
+      "tips": "Terastan panoramik Fes manzarası harikadır.",
+      "tips_en": "Panoramic tour of Fes from the terrace is great.",
+      "subcategory": "Kültür"
+    },
+    {
+      "id": "dar-al-magana",
+      "name": "Dar al-Magana",
+      "category": "Tarihi",
+      "tags": [
+        "water clock",
+        "ancient",
+        "bou inania"
+      ],
+      "lat": 34.0623852,
+      "lng": -4.9829146,
+      "rating": 4.2,
+      "description": "Bou Inania Medresesi'nin karşısında yer alan, 14. yüzyıldan kalma gizemli su saati.",
+      "description_en": "Mysterious water clock from the 14th century, located opposite the Bou Inania Madrasa.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/dar-al-magana.jpg",
+      "price": "free",
+      "tips": "Mekanizması hala tam olarak çözülememiştir, sadece dışarıdan görülebilir.",
+      "tips_en": "Its mechanism is still not fully understood, only visible from outside.",
+      "subcategory": "Anıt"
+    },
+    {
+      "id": "bab-guissa",
+      "name": "Bab Guissa",
+      "category": "Tarihi",
+      "tags": [
+        "gate",
+        "ancient",
+        "view"
+      ],
+      "lat": 34.0689602,
+      "lng": -4.9757706,
+      "rating": 4.3,
+      "description": "Medina'nın kuzeydoğu girişi olan tarihi kapı, hemen yanındaki cami ile birlikte güzel bir mimari örneğidir.",
+      "description_en": "The historic gate, which is the northeast entrance of the Medina, is a beautiful architectural example along with the mosque right next to it.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/bab-guissa.jpg",
+      "price": "free",
+      "tips": "Akşam vakti buradan şehri izlemek keyiflidir.",
+      "tips_en": "It is pleasant to watch the city from here in the evening.",
+      "subcategory": "Kapı"
+    },
+    {
+      "id": "place-rcif",
+      "name": "Place R'cif",
+      "category": "Manzara",
+      "tags": [
+        "square",
+        "local life",
+        "market"
+      ],
+      "lat": 34.0625288,
+      "lng": -4.9732777,
+      "rating": 4.1,
+      "description": "Medina'nın kalbine açılan, yakın zamanda restore edilmiş geniş ve hareketli meydan.",
+      "description_en": "Spacious and lively square recently restored, opening to the heart of the Medina.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/place-rcif.jpg",
+      "price": "free",
+      "tips": "Akşamları yerel halkın sosyalleştiği bir alandır.",
+      "tips_en": "It is an area where locals socialize in the evenings.",
+      "subcategory": "Meydan"
+    },
+    {
+      "id": "bab-rcif",
+      "name": "Bab R'cif",
+      "category": "Tarihi",
+      "tags": [
+        "gate",
+        "entry",
+        "landmark"
+      ],
+      "lat": 34.0623491,
+      "lng": -4.972758,
+      "rating": 4.2,
+      "description": "Medina'nın en kalabalık ve canlı girişlerinden biri, taksilerin sizi bırakabileceği son noktalardan.",
+      "description_en": "One of the most crowded and lively entrances of the Medina, one of the last points where taxis can drop you off.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/bab-rcif.jpg",
+      "price": "free",
+      "tips": "Buradan iç kısımlara doğru kaybolmak kolaydır.",
+      "tips_en": "It is easy to get lost towards the inner parts from here.",
+      "subcategory": "Kapı"
+    },
+    {
+      "id": "ain-nokbi",
+      "name": "Ain Nokbi",
+      "category": "Görülmesi Gereken Yerler",
+      "tags": [
+        "ceramics",
+        "pottery",
+        "art"
+      ],
+      "lat": 34.0648401,
+      "lng": -4.953422900000001,
+      "rating": 4.5,
+      "description": "Fes'in ünlü seramik ve çömlek atölyelerinin toplandığı, yapım aşamalarını izleyebileceğiniz bölge.",
+      "description_en": "Area where Fes's famous ceramic and pottery workshops are gathered and you can watch the production stages.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/ain-nokbi.jpg",
+      "price": "free",
+      "tips": "Art Naji gibi büyük kooperatifler buradadır.",
+      "tips_en": "Big cooperatives like Art Naji are here.",
+      "subcategory": "Zanaat"
+    },
+    {
+      "id": "synagogue-aben-danan",
+      "name": "Synagogue Aben Danan",
+      "category": "Tarihi",
+      "tags": [
+        "jewish heritage",
+        "history",
+        "architecture"
+      ],
+      "lat": 34.0527108,
+      "lng": -4.9916388,
+      "rating": 4.6,
+      "description": "17. yüzyıldan kalma, Fas'ın Yahudi mirasının en önemli ve iyi korunmuş örneklerinden biri.",
+      "description_en": "One of the most important and well-preserved examples of Morocco's Jewish heritage, dating back to the 17th century.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/synagogue-aben-danan.jpg",
+      "price": "low",
+      "tips": "Bodrum katındaki mikve (ritüel banyosu) mutlaka görülmeli.",
+      "tips_en": "The mikveh (ritual bath) in the basement is a must-see.",
+      "subcategory": "Sinagog"
+    },
+    {
+      "id": "jewish-cemetery",
+      "name": "Jewish Cemetery",
+      "category": "Tarihi",
+      "tags": [
+        "white tombs",
+        "history",
+        "view"
+      ],
+      "lat": 34.0513685,
+      "lng": -4.9921844,
+      "rating": 4.5,
+      "description": "Mellah bölgesinde, bembeyaz mezar taşlarıyla kaplı, hüzünlü ve etkileyici tarihi mezarlık.",
+      "description_en": "Sad and impressive historical cemetery in the Mellah district, covered with white tombstones.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/jewish-cemetery.jpg",
+      "price": "low",
+      "tips": "Sinagog bekçisinden giriş için yardım isteyebilirsiniz.",
+      "tips_en": "You can ask the synagogue keeper for help with entry.",
+      "subcategory": "Mezarlık"
+    },
+    {
+      "id": "musee-belghazi",
+      "name": "Musee Belghazi",
+      "category": "Müze",
+      "tags": [
+        "ethnography",
+        "palace",
+        "collection"
+      ],
+      "lat": 34.1394566,
+      "lng": -6.725590899999999,
+      "rating": 4.0,
+      "description": "17. yüzyıl sarayında yer alan, Fas el sanatları ve etnoğrafik eserlerden oluşan özel müze.",
+      "description_en": "Private museum of Moroccan handicrafts and ethnographic artifacts housed in a 17th-century palace.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/musee-belghazi.jpg",
+      "price": "medium",
+      "tips": "Müze içindeki avlu çok huzurludur.",
+      "tips_en": "The courtyard inside the museum is very peaceful.",
+      "subcategory": "Sanat"
+    },
+    {
+      "id": "rue-talaa-kebira",
+      "name": "Rue Talaa Kebira",
+      "category": "Görülmesi Gereken Yerler",
+      "tags": [
+        "main street",
+        "shopping",
+        "bustling"
+      ],
+      "lat": 34.0645489,
+      "lng": -4.9787409,
+      "rating": 4.7,
+      "description": "Medina'nın ana damarı olan, dükkanlar, camiler ve tarihi yapılarla dolu uzun yokuş cadde.",
+      "description_en": "The main artery of the Medina, a long uphill street full of shops, mosques and historical buildings.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/rue-talaa-kebira.jpg",
+      "price": "free",
+      "tips": "Blue Gate'den başlayıp aşağı doğru yürümek daha az yorucudur.",
+      "tips_en": "Starting from Blue Gate and walking down is less tiring.",
+      "subcategory": "Cadde"
+    },
+    {
+      "id": "rue-talaa-seghira",
+      "name": "Rue Talaa Seghira",
+      "category": "Görülmesi Gereken Yerler",
+      "tags": [
+        "market",
+        "narrow",
+        "authentic"
+      ],
+      "lat": 34.0621388,
+      "lng": -4.9805454,
+      "rating": 4.6,
+      "description": "Talaa Kebira'ya paralel uzanan, daha dar ama bir o kadar hareketli alışveriş caddesi.",
+      "description_en": "Narrower but equally lively shopping street running parallel to Talaa Kebira.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/rue-talaa-seghira.jpg",
+      "price": "free",
+      "tips": "Daha yerel dükkanlar bulabilirsiniz.",
+      "tips_en": "You can find more local shops.",
+      "subcategory": "Cadde"
+    },
+    {
+      "id": "bab-semmarine",
+      "name": "Bab Semmarine",
+      "category": "Tarihi",
+      "tags": [
+        "gate",
+        "giant",
+        "market"
+      ],
+      "lat": 34.0542461,
+      "lng": -4.990046,
+      "rating": 4.4,
+      "description": "Yahudi Mahallesi (Mellah) ile Fes el-Jdid'i birbirine bağlayan devasa ve görkemli kapı.",
+      "description_en": "Huge and majestic gate connecting the Jewish Quarter (Mellah) and Fes el-Jdid.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/bab-semmarine.jpg",
+      "price": "free",
+      "tips": "Kapının çevresindeki pazarda taze gıdalar satılır.",
+      "tips_en": "Fresh foods are sold in the market around the gate.",
+      "subcategory": "Kapı"
+    },
+    {
+      "id": "funduq-al-najjarin",
+      "name": "Funduq al-Najjarin",
+      "category": "Tarihi",
+      "tags": [
+        "wood museum",
+        "architecture",
+        "unesco"
+      ],
+      "lat": 34.0647528,
+      "lng": -4.9759047,
+      "rating": 4.8,
+      "description": "Eski bir kervansaray olan ve günümüzde Ahşap Sanatları Müzesi'ne ev sahipliği yapan muazzam yapı.",
+      "description_en": "Magnificent structure, a former caravanserai, now hosting the Museum of Wooden Arts.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/funduq-al-najjarin.jpg",
+      "price": "medium",
+      "tips": "UNESCO Dünya Mirası listesindedir.",
+      "tips_en": "It is on the UNESCO World Heritage list.",
+      "subcategory": "Kervansaray"
+    },
+    {
+      "id": "sahrij-medersa",
+      "name": "Sahrij Medersa",
+      "category": "Tarihi",
+      "tags": [
+        "pool",
+        "student rooms",
+        "quiet"
+      ],
+      "lat": 34.0630694,
+      "lng": -4.968702,
+      "rating": 4.5,
+      "description": "Andalusian mahallesinde bulunan, büyük havuzuyla ünlü sakin ve zarif bir medrese.",
+      "description_en": "Calm and elegant madrasa famous for its large pool, located in the Andalusian quarter.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/sahrij-medersa.jpg",
+      "price": "low",
+      "tips": "Bou Inania kadar kalabalık değildir.",
+      "tips_en": "Not as crowded as Bou Inania.",
+      "subcategory": "Medrese"
+    },
+    {
+      "id": "andalusian-mosque",
+      "name": "Andalusian Mosque",
+      "category": "Tarihi",
+      "tags": [
+        "green roof",
+        "giant",
+        "religious"
+      ],
+      "lat": 34.0632251,
+      "lng": -4.9681282,
+      "rating": 4.6,
+      "description": "9. yüzyılda kurulan, yeşil çatısı ve devasa kapısıyla bilinen tarihi cami. (Müslüman olmayanlar giremez)",
+      "description_en": "Historic mosque founded in the 9th century, known for its green roof and giant door. (Non-Muslims cannot enter)",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/andalusian-mosque.jpg",
+      "price": "free",
+      "tips": "Dış cephesi ve kapısı fotoğraf için muazzamdır.",
+      "tips_en": "Its exterior and door are magnificent for photos.",
+      "subcategory": "Cami"
+    },
+    {
+      "id": "place-seffarine",
+      "name": "Place Seffarine",
+      "category": "Görülmesi Gereken Yerler",
+      "tags": [
+        "copper",
+        "crafts",
+        "sounds"
+      ],
+      "lat": 34.0641964,
+      "lng": -4.9727747,
+      "rating": 4.7,
+      "description": "Bakırcıların ritmik çekiç seslerinin yankılandığı, metal işçiliğinin merkezi olan meydan.",
+      "description_en": "Square which is the center of metalwork, where the rhythmic hammer sounds of coppersmiths echo.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/place-seffarine.jpg",
+      "price": "free",
+      "tips": "Bakır tepsiler harika hediyeliklerdir.",
+      "tips_en": "Copper trays are great souvenirs.",
+      "subcategory": "Meydan"
+    },
+    {
+      "id": "kissaria-al-kifah",
+      "name": "Kissaria al-Kifah",
+      "category": "Alışveriş",
+      "tags": [
+        "covered market",
+        "textile",
+        "jewelry"
+      ],
+      "lat": 34.0649564,
+      "lng": -4.9743803,
+      "rating": 4.4,
+      "description": "Medina'nın kalbinde yer alan, özellikle kumaş, kaftan ve mücevher satılan kapalı çarşı.",
+      "description_en": "Grand Bazaar located in the heart of the Medina, selling especially rich fabrics, caftans and jewelry.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/kissaria-al-kifah.jpg",
+      "price": "medium",
+      "tips": "Modern bir restorasyon geçirmiştir.",
+      "tips_en": "It has undergone a modern restoration.",
+      "subcategory": "Çarşı"
+    },
+    {
+      "id": "bab-chorfa",
+      "name": "Bab Chorfa",
+      "category": "Tarihi",
+      "tags": [
+        "fortress",
+        "gate",
+        "massive"
+      ],
+      "lat": 34.0622985,
+      "lng": -4.9856526,
+      "rating": 4.3,
+      "description": "Fes el-Bali'ye giriş sağlayan tarihi surları geçmiş anıtsal kapı. Şerif'lerin kapısı anlamına gelen yapı, Merinid dönemi mimarisinin örneği.",
+      "description_en": "Monumental gate providing entry to Fes el-Bali through historic walls. Structure meaning 'Gate of the Sherifs', example of Marinid-period architecture.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/bab-chorfa.jpg",
+      "price": "free",
+      "tips": "Akşam ışıklandırması çok güzeldir.",
+      "tips_en": "Evening lighting is very beautiful.",
+      "subcategory": "Kapı"
+    },
+    {
+      "id": "borj-sud",
+      "name": "Borj Sud",
+      "category": "Manzara",
+      "tags": [
+        "view",
+        "panorama",
+        "sunset"
+      ],
+      "lat": 34.0539474,
+      "lng": -4.9702492,
+      "rating": 4.6,
+      "description": "Şehrin güney tepesinde yer alan, Fes'in en iyi panoramik manzarasını sunan askeri kule.",
+      "description_en": "Military tower located on the southern hill of the city, offering the best panoramic view of Fes.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/borj-sud.jpg",
+      "price": "low",
+      "tips": "Gün batımında gitmek şarttır.",
+      "tips_en": "Going at sunset is a must.",
+      "subcategory": "Kale"
+    },
+    {
+      "id": "moulay-abdellah-quarter",
+      "name": "Moulay Abdellah Quarter",
+      "category": "Görülmesi Gereken Yerler",
+      "tags": [
+        "local",
+        "market",
+        "royal"
+      ],
+      "lat": 34.0582652,
+      "lng": -4.9941968,
+      "rating": 4.2,
+      "description": "Sarayın yakınında, daha geniş sokakları ve yerel pazarıyla bilinen tarihi bölge.",
+      "description_en": "Historic district near the palace, known for its wider streets and local market.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/moulay-abdellah-quarter.jpg",
+      "price": "free",
+      "tips": "Turistlerden uzak, yerel hayatı gözlemlemek için ideal.",
+      "tips_en": "Ideal for observing local life away from tourists.",
+      "subcategory": "Mahalle"
+    },
+    {
+      "id": "palais-mnebhi",
+      "name": "Palais Mnebhi",
+      "category": "Tarihi",
+      "tags": [
+        "restaurant",
+        "opulent",
+        "history"
+      ],
+      "lat": 34.0629961,
+      "lng": -4.9789538,
+      "rating": 4.4,
+      "description": "Bir zamanlar Fransız Mareşal Lyautey'in ikametgahı olan, şimdi lüks restoran olarak hizmet veren tarihi saray.",
+      "description_en": "Historic palace that was once the residence of French Marshal Lyautey, now serving as a luxury restaurant.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/palais-mnebhi.jpg",
+      "price": "medium",
+      "tips": "Sadece içini gezmek için de izin isteyebilirsiniz.",
+      "tips_en": "You can ask for permission just to tour inside.",
+      "subcategory": "Saray"
+    },
+    {
+      "id": "zaouia-sidi-ahmed-tijani",
+      "name": "Zaouia Sidi Ahmed Tijani",
+      "category": "Tarihi",
+      "tags": [
+        "pilgrimage",
+        "tiles",
+        "spiritual"
+      ],
+      "lat": 34.06632,
+      "lng": -4.9733268,
+      "rating": 4.6,
+      "description": "Batı Afrika'dan gelen hacıların uğrak noktası olan, süslemeleriyle büyüleyen kutsal mekan.",
+      "description_en": "Sacred place fascinating with its decorations, a frequent destination for pilgrims from West Africa.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/zaouia-sidi-ahmed-tijani.jpg",
+      "price": "free",
+      "tips": "Müslüman olmayanların girişine izin verilmez ama kapıdan görülebilir.",
+      "tips_en": "Non-Muslims are not allowed to enter but can be seen from the door.",
+      "subcategory": "Türbe"
+    },
+    {
+      "id": "place-baghdadi",
+      "name": "Place Baghdadi",
+      "category": "Görülmesi Gereken Yerler",
+      "tags": [
+        "walls",
+        "history",
+        "open space"
+      ],
+      "lat": 34.06122,
+      "lng": -4.986103,
+      "rating": 4.1,
+      "description": "Fes el-Bali'nin kuzey girişindeki hareketli meydan, yerel halkın buluşma noktası. Kafeler, esnaf ve medina yaşamının nabzı.",
+      "description_en": "Busy square at northern entrance of Fes el-Bali, meeting point for locals. Cafes, merchants, and pulse of medina life.",
+      "imageUrl": "",
+      "price": "free",
+      "tips": "Bazen sokak sanatçılarına ve festivallere ev sahipliği yapar.",
+      "tips_en": "Sometimes hosts street performers and festivals.",
+      "subcategory": "Meydan"
+    },
+    {
+      "id": "hammam-mernissi",
+      "name": "Hammam Mernissi",
+      "category": "Deneyim",
+      "tags": [
+        "traditional",
+        "spa",
+        "clean"
+      ],
+      "lat": 34.0616872,
+      "lng": -4.9837106,
+      "rating": 4.3,
+      "description": "Medina içinde, turistler için erişilebilir ve temiz geleneksel Fas hamamı deneyimi.",
+      "description_en": "Traditional Moroccan hammam experience accessible and clean for tourists inside the Medina.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/hammam-mernissi.jpg",
+      "price": "medium",
+      "tips": "Kese (gommage) yaptırmayı unutmayın.",
+      "tips_en": "Don't forget to get a scrub (gommage).",
+      "subcategory": "Hamam"
+    },
+    {
+      "id": "bab-makina",
+      "name": "Bab Makina",
+      "category": "Görülmesi Gereken Yerler",
+      "tags": [
+        "festival",
+        "concerts",
+        "gate"
+      ],
+      "lat": 34.0593305,
+      "lng": -4.991742599999999,
+      "rating": 4.5,
+      "description": "Sarayın girişinde bulunan, her yıl dünyaca ünlü Fes Kutsal Müzik Festivali'nin yapıldığı meydan.",
+      "description_en": "Square at the entrance of the palace where the world-famous Fes Sacred Music Festival is held every year.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/bab-makina.jpg",
+      "price": "free",
+      "tips": "Festival zamanı (Haziran) bilet bulmak zordur.",
+      "tips_en": "Hard to find tickets during festival time (June).",
+      "subcategory": "Meydan"
+    },
+    {
+      "id": "jnan-palace",
+      "name": "Jnan Palace",
+      "category": "Konaklama",
+      "tags": [
+        "luxury",
+        "pool",
+        "modern"
+      ],
+      "lat": 34.031867,
+      "lng": -5.0030231,
+      "rating": 4.4,
+      "description": "Tarihi saray-hotel kompleksi, geleneksel Fas mimarisi ve lüks bahçeler. Çeşmeler, seramik mozaikler ve aristokrat atmosfer.",
+      "description_en": "Historic palace-hotel complex with traditional Moroccan architecture and luxury gardens. Fountains, ceramic mosaics, and aristocratic atmosphere.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/jnan-palace.jpg",
+      "price": "high",
+      "tips": "Sıcaktan bunalanlar için vaha gibidir.",
+      "tips_en": "Like an oasis for those overwhelmed by heat.",
+      "subcategory": "Otel"
+    },
+    {
+      "id": "centre-de-formation-aux-metiers-de-lartisanat",
+      "name": "Centre de Formation aux Metiers de l'Artisanat",
+      "category": "Kültür",
+      "tags": [
+        "crafts",
+        "learning",
+        "tradition"
+      ],
+      "lat": 34.05553829999999,
+      "lng": -4.9854747,
+      "rating": 4.7,
+      "description": "Geleneksel Fas el sanatlarını öğreten zanaat merkezi, dokuma, seramik ve deri işleme. Atölye turları, yerel üretim ve ustalar.",
+      "description_en": "Craft center teaching traditional Moroccan handicrafts including weaving, ceramics, and leather work. Workshop tours, local production, and masters.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/centre-de-formation-aux-metiers-de-lartisanat.jpg",
+      "price": "free",
+      "tips": "Öğrencilerin çalışmalarını izlemek mümkündür.",
+      "tips_en": "Possible to watch students' work.",
+      "subcategory": "Okul"
+    },
+    {
+      "id": "ain-azliten",
+      "name": "Ain Azliten",
+      "category": "Görülmesi Gereken Yerler",
+      "tags": [
+        "authentic",
+        "quiet",
+        "entry"
+      ],
+      "lat": 34.0653334,
+      "lng": -4.9826884,
+      "rating": 4.0,
+      "description": "Talaa Kebira'nın kuzeyinde, turistlerin daha az uğradığı sakin ve otantik mahalle.",
+      "description_en": "Quiet and authentic neighborhood north of Talaa Kebira, less visited by tourists.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/ain-azliten.jpg",
+      "price": "free",
+      "tips": "Gerçek Fes yaşamını görmek için ideal.",
+      "tips_en": "Ideal to see real Fes life.",
+      "subcategory": "Mahalle"
+    },
+    {
+      "id": "palais-el-mokri",
+      "name": "Palais El Mokri",
+      "category": "Tarihi",
+      "tags": [
+        "architecture",
+        "riad",
+        "view"
+      ],
+      "lat": 34.058391,
+      "lng": -4.9752104,
+      "rating": 4.3,
+      "description": "Muazzam avluları ve ahşap işçiliğiyle ünlü, ziyaret edilebilen tarihi aile sarayı.",
+      "description_en": "Historic family palace open to visitors, famous for its magnificent courtyards and woodwork.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/palais-el-mokri.jpg",
+      "price": "medium",
+      "tips": "Gün batımında terası çok güzeldir.",
+      "tips_en": "Its terrace is very beautiful at sunset.",
+      "subcategory": "Saray"
+    },
+    {
+      "id": "bab-dekkakin",
+      "name": "Bab Dekkakin",
+      "category": "Tarihi",
+      "tags": [
+        "royal",
+        "gate",
+        "history"
+      ],
+      "lat": 34.0585582,
+      "lng": -4.9911954,
+      "rating": 4.4,
+      "description": "Kraliyet Sarayı ile eski Mechouar'ı birbirine bağlayan, üç kemerli anıtsal kapı.",
+      "description_en": "Monumental triple-arched gate connecting the Royal Palace and the old Mechouar.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/bab-dekkakin.jpg",
+      "price": "free",
+      "tips": "Fotoğraf için çok simetrik bir yapıdır.",
+      "tips_en": "Very symmetrical structure for photos.",
+      "subcategory": "Kapı"
+    },
+    {
+      "id": "dar-al-makhzen-royal-palace",
+      "name": "Dar al-Makhzen (Royal Palace)",
+      "category": "Tarihi",
+      "tags": [
+        "royal",
+        "golden doors",
+        "architecture"
+      ],
+      "lat": 34.0532017,
+      "lng": -4.993621699999999,
+      "rating": 4.5,
+      "description": "Fes Kraliyet Sarayı, 7 altın kapısı ve muazzam çini işçiliğiyle ünlüdür. İçeri girilemez ancak kapıları fotoğrafçılar için ikoniktir.",
+      "description_en": "Fes Royal Palace is famous for its 7 golden gates and magnificent tile work. Cannot be entered but its gates are iconic for photographers.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/dar-al-makhzen-royal-palace.jpg",
+      "price": "free",
+      "tips": "Sabah ışığında altın kapılar parlar.",
+      "tips_en": "Golden gates shine in the morning light.",
+      "subcategory": "Saray"
+    },
+    {
+      "id": "jnan-sbil-gardens",
+      "name": "Jnan Sbil Gardens",
+      "category": "Doğa",
+      "tags": [
+        "garden",
+        "oasis",
+        "walking"
+      ],
+      "lat": 34.0595715,
+      "lng": -4.9882902,
+      "rating": 4.6,
+      "description": "Medina'nın karmaşasından kaçmak için mükemmel, 18. yüzyıldan kalma huzurlu ve geniş bahçeler.",
+      "description_en": "Peaceful and spacious gardens from the 18th century, perfect for escaping the chaos of the Medina.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/jnan-sbil-gardens.jpg",
+      "price": "free",
+      "tips": "Pazartesi günleri kapalı olabilir.",
+      "tips_en": "Might be closed on Mondays.",
+      "subcategory": "Park"
+    },
+    {
+      "id": "merenid-tombs",
+      "name": "Merenid Tombs",
+      "category": "Tarihi",
+      "tags": [
+        "view",
+        "sunset",
+        "ruins"
+      ],
+      "lat": 34.0698728,
+      "lng": -4.9794336,
+      "rating": 4.4,
+      "description": "Şehre tepeden bakan 14. yüzyıl Merini hanedanı mezarları. Panoramik Fes manzarası için en iyi nokta.",
+      "description_en": "14th-century Merenid dynasty tombs overlooking the city. Best spot for panoramic Fes view.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/merenid-tombs.jpg",
+      "price": "free",
+      "tips": "Gün batımında ezan sesleri eşliğinde manzarayı izleyin.",
+      "tips_en": "Watch the view at sunset accompanied by the call to prayer.",
+      "subcategory": "Harabe"
+    },
+    {
+      "id": "kasbah-an-nouar",
+      "name": "Kasbah An-Nouar",
+      "category": "Tarihi",
+      "tags": [
+        "citadel",
+        "walls",
+        "history"
+      ],
+      "lat": 34.0642935,
+      "lng": -4.982501,
+      "rating": 4.2,
+      "description": "Mellah (Yahudi mahallesi) yakınındaki tarihi kale yapısı, Fas askeri mimarisinin örneği. Surlar, kuleler ve stratejik konum.",
+      "description_en": "Historic fortress structure near Mellah (Jewish quarter), example of Moroccan military architecture. Walls, towers, and strategic location.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/kasbah-an-nouar.jpg",
+      "price": "free",
+      "tips": "Turistlerin az bildiği sakin bir bölgedir.",
+      "tips_en": "A quiet area little known to tourists.",
+      "subcategory": "Kasbah"
+    },
+    {
+      "id": "place-des-alaouites",
+      "name": "Place des Alaouites",
+      "category": "Görülmesi Gereken Yerler",
+      "tags": [
+        "royal palace",
+        "square",
+        "spacious"
+      ],
+      "lat": 34.0521828,
+      "lng": -4.9943593,
+      "rating": 4.3,
+      "description": "Kraliyet Sarayı'nın önündeki geniş meydan, resmi törenlerin yapıldığı alan. Altın kapılar, muhafızlar ve görkemli görünüm.",
+      "description_en": "Wide square in front of Royal Palace where official ceremonies take place. Golden gates, guards, and magnificent appearance.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/place-des-alaouites.jpg",
+      "price": "free",
+      "tips": "Akşamları yerel ailelerin yürüyüş yaptığı bir yerdir.",
+      "tips_en": "A place where local families take walks in the evenings.",
+      "subcategory": "Meydan"
+    },
+    {
+      "id": "bab-segma",
+      "name": "Bab Segma",
+      "category": "Tarihi",
+      "tags": [
+        "gate",
+        "walls",
+        "ancient"
+      ],
+      "lat": 34.0599926,
+      "lng": -4.9922521,
+      "rating": 4.2,
+      "description": "Fes'in kuzey surlarındaki tarihi kapı, şehrin eski savunma sisteminin parçası. Mermer süslemeler ve İslami kaligrafi.",
+      "description_en": "Historic gate in Fes's northern walls, part of city's old defense system. Marble decorations and Islamic calligraphy.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/bab-segma.jpg",
+      "price": "free",
+      "tips": "Surları dışarıdan fotoğraflamak için güzel bir açıdır.",
+      "tips_en": "A nice angle to photograph the walls from outside.",
+      "subcategory": "Kapı"
+    },
+    {
+      "id": "palais-royal-dar-el-makhzen",
+      "name": "Palais Royal Dar El Makhzen",
+      "category": "Tarihi",
+      "tags": [
+        "royal",
+        "closed",
+        "exterior"
+      ],
+      "lat": 34.055437,
+      "lng": -4.992770999999999,
+      "rating": 4.5,
+      "description": "Kralın Fes'teki resmi ikametgahı. İçeri girilemez ama dış mimarisi bile büyüleyicidir.",
+      "description_en": "King's official residence in Fes. Cannot enter but even exterior architecture is fascinating.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/palais-royal-dar-el-makhzen.jpg",
+      "price": "free",
+      "tips": "Muhafızlarla fotoğraf çekmeye çalışmayın.",
+      "tips_en": "Do not try to take photos with guards.",
+      "subcategory": "Saray"
+    },
+    {
+      "id": "bab-bou-jeloud",
+      "name": "Bab Bou Jeloud",
+      "category": "Tarihi",
+      "tags": [
+        "blue gate",
+        "green gate",
+        "iconic"
+      ],
+      "lat": 34.0617289,
+      "lng": -4.9840054,
+      "rating": 4.7,
+      "description": "Fes'in en ünlü simgesi Mavi Kapı. Dış yüzü Fes mavisi, iç yüzü İslam yeşili çinilerle kaplıdır.",
+      "description_en": "Fes's most famous landmark, the Blue Gate. Outer face covered with Fes blue, inner face with Islamic green tiles.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/bab-bou-jeloud.jpg",
+      "price": "free",
+      "tips": "Medina'ya giriş için en popüler noktadır.",
+      "tips_en": "Most popular point to enter the Medina.",
+      "subcategory": "Kapı"
+    },
+    {
+      "id": "dar-batha",
+      "name": "Dar Batha",
+      "category": "Müze",
+      "tags": [
+        "museum",
+        "garden",
+        "arts"
+      ],
+      "lat": 34.0601798,
+      "lng": -4.9830669,
+      "rating": 4.4,
+      "description": "Eski bir yazlık saray olan yapı, günümüzde Fas Sanatları Müzesi'dir. Andalus bahçesi çok huzurludur.",
+      "description_en": "Former summer palace, now Moroccan Arts Museum. Andalusian garden is very peaceful.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/dar-batha.jpg",
+      "price": "medium",
+      "tips": "Mavi Fes seramiklerinin en güzel örnekleri buradadır.",
+      "tips_en": "Best examples of Blue Fes ceramics are here.",
+      "subcategory": "Saray"
+    },
+    {
+      "id": "palais-glaoui",
+      "name": "Palais Glaoui",
+      "category": "Tarihi",
+      "tags": [
+        "hidden gem",
+        "ruined beauty",
+        "history"
+      ],
+      "lat": 34.0589143,
+      "lng": -4.977207600000001,
+      "rating": 4.2,
+      "description": "Paşa Glaoui'nin eski sarayı. Biraz bakımsız olsa da eski ihtişamını ve hüzünlü güzelliğini koruyor.",
+      "description_en": "Former palace of Pasha Glaoui. Though a bit neglected, retains its old grandeur and melancholic beauty.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/palais-glaoui.jpg",
+      "price": "medium",
+      "tips": "Resim yapan sanatçı Abdou burada yaşar ve rehberlik eder.",
+      "tips_en": "Artist Abdou lives here and acts as a guide.",
+      "subcategory": "Saray"
+    },
+    {
+      "id": "bab-mahrouk",
+      "name": "Bab Mahrouk",
+      "category": "Tarihi",
+      "tags": [
+        "ancient",
+        "walls",
+        "sunset"
+      ],
+      "lat": 34.0626318,
+      "lng": -4.9860931,
+      "rating": 4.3,
+      "description": "Medina'nın batı surlarındaki tarihi kapı. Yanındaki duvarlar gün batımında kızıla boyanır.",
+      "description_en": "Historic gate on the western walls of Medina. Walls next to it turn red at sunset.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/bab-mahrouk.jpg",
+      "price": "free",
+      "tips": "Yerel pazar yerine yakındır.",
+      "tips_en": "Close to local marketplace.",
+      "subcategory": "Kapı"
+    },
+    {
+      "id": "petit-mechouar",
+      "name": "Petit Mechouar",
+      "category": "Görülmesi Gereken Yerler",
+      "tags": [
+        "royal",
+        "courtyard",
+        "history"
+      ],
+      "lat": 34.02837520000001,
+      "lng": -5.0205214,
+      "rating": 4.2,
+      "description": "Kraliyet Sarayı bölgesindeki küçük tören meydanı, resmi etkinlikler için kullanılır. Tarihi önemi ve saray atmosferi.",
+      "description_en": "Small ceremonial square in Royal Palace area, used for official events. Historical significance and palace atmosphere.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/petit-mechouar.jpg",
+      "price": "free",
+      "tips": "Restoranların olduğu bölgeye geçiş noktasıdır.",
+      "tips_en": "Transition point to the restaurant area.",
+      "subcategory": "Meydan"
+    },
+    {
+      "id": "rue-des-mrinides",
+      "name": "Rue des Mérinides",
+      "category": "Görülmesi Gereken Yerler",
+      "tags": [
+        "shopping",
+        "local",
+        "spices"
+      ],
+      "lat": 34.0680696,
+      "lng": -4.9849964,
+      "rating": 4.1,
+      "description": "Merinid hanedanlığından kalma tarihi cadde, eski medreselere ve camilere açılır. Ortaçağ atmosferi ve mimari miras.",
+      "description_en": "Historic street from Marinid dynasty opening to old madrasas and mosques. Medieval atmosphere and architectural heritage.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/rue-des-mrinides.jpg",
+      "price": "free",
+      "tips": "Fiyatlar Medina'ya göre daha uygundur.",
+      "tips_en": "Prices are more affordable than Medina.",
+      "subcategory": "Cadde"
+    },
+    {
+      "id": "bab-el-amer",
+      "name": "Bab el-Amer",
+      "category": "Tarihi",
+      "tags": [
+        "gate",
+        "entrance",
+        "mellah"
+      ],
+      "lat": 34.0513527,
+      "lng": -4.994181999999999,
+      "rating": 4.2,
+      "description": "Fes el-Jdid'e giriş sağlayan tarihi kapı, 14. yüzyıl surlarının parçası. Mellah mahallesine yakın, stratejik konum.",
+      "description_en": "Historic gate providing entry to Fes el-Jdid, part of 14th-century walls. Near Mellah quarter, strategic location.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/bab-el-amer.jpg",
+      "price": "free",
+      "tips": "Hemen yanında taksi durağı vardır.",
+      "tips_en": "There is a taxi stand right next to it.",
+      "subcategory": "Kapı"
+    },
+    {
+      "id": "borj-sheikh-ahmed",
+      "name": "Borj Sheikh Ahmed",
+      "category": "Tarihi",
+      "tags": [
+        "view",
+        "fortification",
+        "walls"
+      ],
+      "lat": 34.04596420000001,
+      "lng": -4.9947368,
+      "rating": 4.0,
+      "description": "Medinanın dışında yükselen eski kale kulesi, şehir panoraması ve tarihi savunma yapısı. Manzara noktası ve fotoğrafçılık.",
+      "description_en": "Old fortress tower rising outside the medina, city panorama and historic defense structure. Viewpoint and photography.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/borj-sheikh-ahmed.jpg",
+      "price": "free",
+      "tips": "Yürüyüş rotası üzerindedir.",
+      "tips_en": "On the hiking route.",
+      "subcategory": "Kule"
+    },
+    {
+      "id": "bab-guissa-mosque",
+      "name": "Bab Guissa Mosque",
+      "category": "Tarihi",
+      "tags": [
+        "mosque",
+        "view",
+        "prayer"
+      ],
+      "lat": 34.0689602,
+      "lng": -4.9757706,
+      "rating": 4.4,
+      "description": "Bab Guissa kapısı yakınındaki tarihi cami, yerel cemaatin ibadet mekanı. İslami mimari, minare ve dini yaşam.",
+      "description_en": "Historic mosque near Bab Guissa gate, place of worship for local congregation. Islamic architecture, minaret, and religious life.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/bab-guissa-mosque.jpg",
+      "price": "free",
+      "tips": "Namaz vakitleri dışında avlusunu görebilirsiniz.",
+      "tips_en": "You can see its courtyard outside prayer times.",
+      "subcategory": "Cami"
+    },
+    {
+      "id": "palais-mokri",
+      "name": "Palais Mokri",
+      "category": "Tarihi",
+      "tags": [
+        "architecture",
+        "hotel",
+        "visit"
+      ],
+      "lat": 34.058391,
+      "lng": -4.9752104,
+      "rating": 4.3,
+      "description": "19. yüzyıldan kalma tarihi saray, geleneksel Fas zanaatkarlarının şaheserlerini barındırır. Ahşap oyma, çini ve stuko.",
+      "description_en": "19th-century historic palace housing masterpieces of traditional Moroccan craftsmen. Wood carving, tiles, and stucco.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/palais-mokri.jpg",
+      "price": "medium",
+      "tips": "Şimdi kısmen otel olarak kullanılıyor.",
+      "tips_en": "Now partially used as a hotel.",
+      "subcategory": "Saray"
+    },
+    {
+      "id": "bab-khoukha",
+      "name": "Bab Khoukha",
+      "category": "Tarihi",
+      "tags": [
+        "gate",
+        "eastern",
+        "local"
+      ],
+      "lat": 34.0641625,
+      "lng": -4.9630338,
+      "rating": 4.0,
+      "description": "Medina surlarındaki küçük kapı, yerel halkın kullandığı dar geçiş. Otantik mahalle yaşamına açılan portal.",
+      "description_en": "Small gate in medina walls, narrow passage used by locals. Portal opening to authentic neighborhood life.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/bab-khoukha.jpg",
+      "price": "free",
+      "tips": "Turist kalabalığından uzaktır.",
+      "tips_en": "Away from tourist crowds.",
+      "subcategory": "Kapı"
+    },
+    {
+      "id": "kasbah-cherarda",
+      "name": "Kasbah Cherarda",
+      "category": "Tarihi",
+      "tags": [
+        "fortress",
+        "university",
+        "walls"
+      ],
+      "lat": 34.0600768,
+      "lng": -4.9925646,
+      "rating": 4.3,
+      "description": "Eski bir garnizon kalesi olan yapı, günümüzde üniversite ve hastane olarak kullanılıyor.",
+      "description_en": "Former garrison fort, now used as university and hospital.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/kasbah-cherarda.jpg",
+      "price": "free",
+      "tips": "Surları çok heybetlidir.",
+      "tips_en": "Its walls are very imposing.",
+      "subcategory": "Kasbah"
+    },
+    {
+      "id": "bab-ftitou",
+      "name": "Bab Ftitou",
+      "category": "Tarihi",
+      "tags": [
+        "gate",
+        "southern",
+        "entry"
+      ],
+      "lat": 34.0599154,
+      "lng": -4.9653399,
+      "rating": 4.1,
+      "description": "Fes el-Bali'nin doğusundaki tarihi kapı, tüccar kervanlarının giriş noktası. Ticaret tarihi ve şehir planlama örneği.",
+      "description_en": "Historic gate east of Fes el-Bali, entry point for merchant caravans. Trade history and example of urban planning.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/bab-ftitou.jpg",
+      "price": "free",
+      "tips": "Yakınında çömlek atölyeleri vardır.",
+      "tips_en": "There are pottery workshops nearby.",
+      "subcategory": "Kapı"
+    },
+    {
+      "id": "ville-nouvelle-french-city",
+      "name": "Ville Nouvelle (French City)",
+      "category": "Görülmesi Gereken Yerler",
+      "tags": [
+        "modern",
+        "french",
+        "boulevards"
+      ],
+      "lat": 34.0350059,
+      "lng": -5.0026454,
+      "rating": 4.2,
+      "description": "Fes'in Fransız kolonyal döneminde inşa edilen, geniş bulvarlı ve palmiyeli modern yüzü.",
+      "description_en": "Modern face of Fes built during French colonial era, with wide boulevards and palms.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/ville-nouvelle-french-city.jpg",
+      "price": "free",
+      "tips": "Modern kafeler ve markalar için buraya gelin.",
+      "tips_en": "Come here for modern cafes and brands.",
+      "subcategory": "Bölge"
+    },
+    {
+      "id": "place-de-florence",
+      "name": "Place de Florence",
+      "category": "Park",
+      "tags": [
+        "green",
+        "relax",
+        "modern"
+      ],
+      "lat": 34.0422366,
+      "lng": -4.9998832,
+      "rating": 4.1,
+      "description": "Ville Nouvelle'deki modern meydan, Fransız sömürge döneminden kalma şehir planlaması. Kafeler, ağaçlık ve dinlenme alanı.",
+      "description_en": "Modern square in Ville Nouvelle, urban planning from French colonial period. Cafes, trees, and rest area.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/place-de-florence.jpg",
+      "price": "free",
+      "tips": "Akşamları çok canlıdır.",
+      "tips_en": "Very lively in evenings.",
+      "subcategory": "Park"
+    },
+    {
+      "id": "avenue-hassan-ii",
+      "name": "Avenue Hassan II",
+      "category": "Görülmesi Gereken Yerler",
+      "tags": [
+        "boulevard",
+        "shopping",
+        "promenade"
+      ],
+      "lat": 34.0407704,
+      "lng": -4.999810699999999,
+      "rating": 4.3,
+      "description": "Fes'in modern kesimindeki ana bulvar, bankalar, dükkanlar ve restoranlar. Şehrin çağdaş yüzü ve günlük yaşam.",
+      "description_en": "Main boulevard in Fes's modern section with banks, shops, and restaurants. City's contemporary face and daily life.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/avenue-hassan-ii.jpg",
+      "price": "free",
+      "tips": "Akşam yürüyüşü (piyasa) burada yapılır.",
+      "tips_en": "Evening walk (promenade) is done here.",
+      "subcategory": "Cadde"
+    },
+    {
+      "id": "bab-jiaf",
+      "name": "Bab Jiaf",
+      "category": "Tarihi",
+      "tags": [
+        "gate",
+        "ruins",
+        "history"
+      ],
+      "lat": 34.0539948,
+      "lng": -4.9831881,
+      "rating": 4.0,
+      "description": "Medinanın batısındaki tarihi kapı, Karaouine Camii'ne yakın stratejik giriş. Yaya trafiği ve eski şehir yaşamı.",
+      "description_en": "Historic gate west of medina, strategic entry near Karaouine Mosque. Pedestrian traffic and old city life.",
+      "imageUrl": "",
+      "price": "free",
+      "tips": "Biraz harap durumdadır ama atmosferiktir.",
+      "tips_en": "A bit in ruins but atmospheric.",
+      "subcategory": "Kapı"
+    },
+    {
+      "id": "ensemble-artisanal",
+      "name": "Ensemble Artisanal",
+      "category": "Alışveriş",
+      "tags": [
+        "fixed price",
+        "crafts",
+        "co-op"
+      ],
+      "lat": 34.03438149999999,
+      "lng": -5.004251,
+      "rating": 4.4,
+      "description": "Devlet destekli el sanatları merkezi. Sabit fiyatlı ve kaliteli ürünler bulabilirsiniz.",
+      "description_en": "State-supported crafts center. You can find fixed-price and quality products.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/ensemble-artisanal.jpg",
+      "price": "medium",
+      "tips": "Pazarlık sevmiyorsanız alışveriş için en iyi yerdir.",
+      "tips_en": "Best place for shopping if you don't like bargaining.",
+      "subcategory": "Merkez"
+    },
+    {
+      "id": "hotel-sahrai",
+      "name": "Hotel Sahrai",
+      "category": "Konaklama",
+      "tags": [
+        "luxury",
+        "view",
+        "spa"
+      ],
+      "lat": 34.0436254,
+      "lng": -4.9921164,
+      "rating": 4.7,
+      "description": "Fes'e bakan tepede konumlanan lüks boutique otel, modern tasarım ve geleneksel dokunuşlar. Infinity havuz, spa ve panoramik manzara.",
+      "description_en": "Luxury boutique hotel on hill overlooking Fes with modern design and traditional touches. Infinity pool, spa, and panoramic views.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/hotel-sahrai.jpg",
+      "price": "very high",
+      "tips": "Terasındaki barda gün batımı efsanedir.",
+      "tips_en": "Sunset at its terrace bar is legendary.",
+      "subcategory": "Otel"
+    },
+    {
+      "id": "riad-fes---relais-chteaux",
+      "name": "Riad Fes - Relais & Châteaux",
+      "category": "Konaklama",
+      "tags": [
+        "luxury",
+        "pool",
+        "historic"
+      ],
+      "lat": 34.0616095,
+      "lng": -4.9798231,
+      "rating": 4.8,
+      "description": "Fes'in en lüks ve ünlü riadlarından biri. Geleneksel mimari modern konforla birleşmiş.",
+      "description_en": "One of Fes's most luxury and famous riads. Traditional architecture combined with modern comfort.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/riad-fes---relais-chteaux.jpg",
+      "price": "very high",
+      "tips": "Sadece akşam yemeği veya içki için de gidilebilir.",
+      "tips_en": "Can go just for dinner or drinks.",
+      "subcategory": "Riad"
+    },
+    {
+      "id": "chouara-tannery",
+      "name": "Chouara Tannery",
+      "category": "Görülmesi Gereken Yerler",
+      "tags": [
+        "leather",
+        "dyeing",
+        "iconic"
+      ],
+      "lat": 34.0660373,
+      "lng": -4.9710272,
+      "rating": 4.3,
+      "description": "Fes'in en ünlü ve en büyük deri tabakhanesi. Rengarenk boya kuyularını teraslardan izlemek bir klasiktir.",
+      "description_en": "Fes's most famous and largest leather tannery. Watching colorful dye pits from terraces is a classic.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/chouara-tannery.jpg",
+      "price": "free",
+      "tips": "Kokuya karşı nane dalı verirler, kabul edin.",
+      "tips_en": "They give mint sprigs against the smell, accept it.",
+      "subcategory": "Tabakhane"
+    },
+    {
+      "id": "sidi-moussa-tannery",
+      "name": "Sidi Moussa Tannery",
+      "category": "Görülmesi Gereken Yerler",
+      "tags": [
+        "leather",
+        "authentic",
+        "process"
+      ],
+      "lat": 34.0640791,
+      "lng": -4.9756847,
+      "rating": 4.1,
+      "description": "Chouara dışındaki daha küçük deri atölyesi, geleneksel boyama teknikleri. Daha az kalabalık, otantik zanaat deneyimi.",
+      "description_en": "Smaller leather workshop outside Chouara with traditional dyeing techniques. Less crowded, authentic craft experience.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/sidi-moussa-tannery.jpg",
+      "price": "free",
+      "tips": "Daha yakından fotoğraf çekme şansı bulabilirsiniz.",
+      "tips_en": "You might find a chance to take photos closer.",
+      "subcategory": "Tabakhane"
+    },
+    {
+      "id": "souk-el-henna",
+      "name": "Souk el-Henna",
+      "category": "Alışveriş",
+      "tags": [
+        "cosmetics",
+        "henna",
+        "argan"
+      ],
+      "lat": 34.0652232,
+      "lng": -4.9752456,
+      "rating": 4.4,
+      "description": "Yüzyıllardır kına ve doğal kozmetik ürünlerinin satıldığı, çınar ağaçları altındaki huzurlu çarşı.",
+      "description_en": "Peaceful market under plane trees where henna and natural cosmetics have been sold for centuries.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/souk-el-henna.jpg",
+      "price": "medium",
+      "tips": "Doğal sabunlar ve Rhassoul kili buradan alınır.",
+      "tips_en": "Natural soaps and Rhassoul clay are bought here.",
+      "subcategory": "Çarşı"
+    },
+    {
+      "id": "souk-al-attarine",
+      "name": "Souk Al-Attarine",
+      "category": "Alışveriş",
+      "tags": [
+        "spices",
+        "scents",
+        "market"
+      ],
+      "lat": 34.0653277,
+      "lng": -4.9748587,
+      "rating": 4.6,
+      "description": "Baharat ve parfüm sokağı, egzotik kokular ve geleneksel Fas ilaçları. Safran, gül suyu ve aromatik yağlar.",
+      "description_en": "Spice and perfume street with exotic scents and traditional Moroccan remedies. Saffron, rose water, and aromatic oils.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/souk-al-attarine.jpg",
+      "price": "medium",
+      "tips": "Safran alacaksanız buradan alın.",
+      "tips_en": "If buying saffron, buy from here.",
+      "subcategory": "Çarşı"
+    },
+    {
+      "id": "souk-mejjad",
+      "name": "Souk Mejjad",
+      "category": "Alışveriş",
+      "tags": [
+        "carpets",
+        "kilims",
+        "traditional"
+      ],
+      "lat": 34.0573057,
+      "lng": -4.9880399,
+      "rating": 4.5,
+      "description": "Geleneksel cilt ve kağıt ürünlerinin satıldığı sokak. El yapımı defterler, deri kaplama ve Fas kitap sanatı.",
+      "description_en": "Street where traditional leather and paper products are sold. Handmade notebooks, leather binding, and Moroccan book art.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/souk-mejjad.jpg",
+      "price": "high",
+      "tips": "Halılardaki desenlerin anlamlarını sorun.",
+      "tips_en": "Ask for the meanings of patterns on carpets.",
+      "subcategory": "Çarşı"
+    },
+    {
+      "id": "souk-serrajine",
+      "name": "Souk Serrajine",
+      "category": "Alışveriş",
+      "tags": [
+        "leather",
+        "shoes",
+        "slippers"
+      ],
+      "lat": 34.0652232,
+      "lng": -4.9752456,
+      "rating": 4.4,
+      "description": "Saraciye (at ekipmanları) satılan geleneksel çarşı. Deri eyer, at bakımı malzemeleri ve Berber zanaatı.",
+      "description_en": "Traditional market selling saddlery (horse equipment). Leather saddles, horse care supplies, and Berber craftsmanship.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/souk-serrajine.jpg",
+      "price": "medium",
+      "tips": "Sarı renkli olanlar geleneksel erkek terliğidir.",
+      "tips_en": "Yellow ones are traditional men's slippers.",
+      "subcategory": "Çarşı"
+    },
+    {
+      "id": "souk-nejjarine",
+      "name": "Souk Nejjarine",
+      "category": "Alışveriş",
+      "tags": [
+        "wood",
+        "carving",
+        "cedar"
+      ],
+      "lat": 34.0652232,
+      "lng": -4.9752456,
+      "rating": 4.5,
+      "description": "Marangozluk ve ahşap işçiliğinin sokağı, Nejjarine Çeşmesi ve Müzesi'nin evi. Oyma kapılar, mobilya ve geleneksel zanaat.",
+      "description_en": "Street of carpentry and woodworking, home to Nejjarine Fountain and Museum. Carved doors, furniture, and traditional craft.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/souk-nejjarine.jpg",
+      "price": "high",
+      "tips": "El oyması satranç takımları harikadır.",
+      "tips_en": "Hand-carved chess sets are wonderful.",
+      "subcategory": "Çarşı"
+    },
+    {
+      "id": "souk-seffarine",
+      "name": "Souk Seffarine",
+      "category": "Alışveriş",
+      "tags": [
+        "copper",
+        "metal",
+        "noisy"
+      ],
+      "lat": 34.0636593,
+      "lng": -4.9730669,
+      "rating": 4.6,
+      "description": "Bakırcılar meydanı ve çarşısı. Dev kazanların ve tepsilerin nasıl dövüldüğünü izleyin.",
+      "description_en": "Coppersmiths square and market. Watch how giant cauldrons and trays are forged.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/souk-seffarine.jpg",
+      "price": "medium",
+      "tips": "Gürültüye hazırlıklı olun.",
+      "tips_en": "Be prepared for noise.",
+      "subcategory": "Çarşı"
+    },
+    {
+      "id": "coin-berbere",
+      "name": "Coin Berbere",
+      "category": "Alışveriş",
+      "tags": [
+        "berber",
+        "carpets",
+        " antiques"
+      ],
+      "lat": 34.06409670000001,
+      "lng": -4.980603299999999,
+      "rating": 4.7,
+      "description": "Berber el sanatları ve kilimlerinin satıldığı dükkan. Geleneksel Amazigh desenleri, tribal halılar ve etnik hediyeler.",
+      "description_en": "Shop selling Berber handicrafts and rugs. Traditional Amazigh patterns, tribal carpets, and ethnic gifts.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/coin-berbere.jpg",
+      "price": "high",
+      "tips": "Dünyanın her yerine kargo yaparlar.",
+      "tips_en": "They ship all over the world.",
+      "subcategory": "Mağaza"
+    },
+    {
+      "id": "terrasse-des-tanneurs",
+      "name": "Terrasse des Tanneurs",
+      "category": "Manzara",
+      "tags": [
+        "view",
+        "tannery",
+        "photo"
+      ],
+      "lat": 34.0615493,
+      "lng": -4.9826489,
+      "rating": 4.2,
+      "description": "Tabakhaneleri tepeden görmek için çıkılan, genellikle deri mağazalarının çatısındaki teraslar.",
+      "description_en": "Terraces usually on leather shop roofs, climbed to see tanneries from above.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/terrasse-des-tanneurs.jpg",
+      "price": "free",
+      "tips": "Çıkışta bahşiş veya mağazaya göz atmanızı beklerler.",
+      "tips_en": "They expect a tip or viewing the shop upon exit.",
+      "subcategory": "Teras"
+    },
+    {
+      "id": "art-naji",
+      "name": "Art Naji",
+      "category": "Alışveriş",
+      "tags": [
+        "ceramics",
+        "mosaic",
+        "zellige"
+      ],
+      "lat": 34.0606033,
+      "lng": -4.9495416,
+      "rating": 4.5,
+      "description": "Geleneksel Fes seramikleir ve mozaiklerinin (zellige) üretildiği büyük atölye ve mağaza.",
+      "description_en": "Large workshop and store where traditional Fes ceramics and mosaics (zellige) are produced.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/art-naji.jpg",
+      "price": "medium",
+      "tips": "Üretim sürecini baştan sona izleyebilirsiniz.",
+      "tips_en": "You can watch the production process from start to finish.",
+      "subcategory": "Atölye"
+    },
+    {
+      "id": "pottery-cooperative",
+      "name": "Pottery Cooperative",
+      "category": "Alışveriş",
+      "tags": [
+        "pottery",
+        "clay",
+        "handmade"
+      ],
+      "lat": 34.0577805,
+      "lng": -4.9895849,
+      "rating": 4.4,
+      "description": "Şehrin dışındaki çömlekçiler köyünde, ustaların kil ile nasıl sanat yarattığını görün.",
+      "description_en": "See how masters create art with clay in the potters' village outside the city.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/pottery-cooperative.jpg",
+      "price": "medium",
+      "tips": "Tajin kaplarını buradan almak daha güvenlidir.",
+      "tips_en": "Safer to buy Tajine pots from here.",
+      "subcategory": "Atölye"
+    },
+    {
+      "id": "les-tanneries-de-fes",
+      "name": "Les Tanneries de Fes",
+      "category": "Alışveriş",
+      "tags": [
+        "leather jackets",
+        "bags",
+        "quality"
+      ],
+      "lat": 34.06434,
+      "lng": -4.9759879,
+      "rating": 4.3,
+      "description": "Deri işleme atölyeleri ve showroom'ları zinciri, fabrika turları ve satış. Çanta, ceket ve aksesuar seçenekleri.",
+      "description_en": "Chain of leather processing workshops and showrooms with factory tours and sales. Bag, jacket, and accessory options.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/les-tanneries-de-fes.jpg",
+      "price": "medium",
+      "tips": "Deri kokusunu seviyorsanız burası cennet.",
+      "tips_en": "If you love leather smell, this is heaven.",
+      "subcategory": "Mağaza"
+    },
+    {
+      "id": "tissages-berbres",
+      "name": "Tissages Berbères",
+      "category": "Alışveriş",
+      "tags": [
+        "weaving",
+        "scarves",
+        "silk"
+      ],
+      "lat": 34.0656936,
+      "lng": -4.9714166,
+      "rating": 4.6,
+      "description": "El dokuması Berber halı ve kilim uzmanı dükkan. Bölgesel motifler, doğal boyalar ve otantik dokuma.",
+      "description_en": "Shop specializing in handwoven Berber carpets and kilims. Regional motifs, natural dyes, and authentic weaving.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/tissages-berbres.jpg",
+      "price": "medium",
+      "tips": "Dokuma tezgahlarını çalışırken görebilirsiniz.",
+      "tips_en": "You can see weaving looms in action.",
+      "subcategory": "Dokuma"
+    },
+    {
+      "id": "chez-les-potiers",
+      "name": "Chez les Potiers",
+      "category": "Alışveriş",
+      "tags": [
+        "souvenirs",
+        "plates",
+        "bowls"
+      ],
+      "lat": 34.0606487,
+      "lng": -4.9473372,
+      "rating": 4.2,
+      "description": "Fes'in çömlekçi mahallesindeki seramik atölyesi ve satış noktası. Mavi-beyaz Fassi seramik, tabak ve vazo.",
+      "description_en": "Ceramic workshop and sales point in Fes's potter quarter. Blue-white Fassi ceramics, plates, and vases.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/chez-les-potiers.jpg",
+      "price": "medium",
+      "tips": "Paketlemeleri çok sağlamdır.",
+      "tips_en": "Their packaging is very sturdy.",
+      "subcategory": "Seramik"
+    },
+    {
+      "id": "herboristerie-avicenne",
+      "name": "Herboristerie Avicenne",
+      "category": "Alışveriş",
+      "tags": [
+        "herbs",
+        "oils",
+        "natural"
+      ],
+      "lat": 31.6288329,
+      "lng": -7.9869261,
+      "rating": 4.5,
+      "description": "Geleneksel Fas tıbbı, bitkisel yağlar ve baharatlar üzerine uzmanlaşmış tarihi aktar.",
+      "description_en": "Historic herbalist specializing in traditional Moroccan medicine, herbal oils and spices.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/herboristerie-avicenne.jpg",
+      "price": "medium",
+      "tips": "Argan yağı konusunda uzmandırlar.",
+      "tips_en": "They are experts on Argan oil.",
+      "subcategory": "Aktar"
+    },
+    {
+      "id": "au-fil-dor",
+      "name": "Au Fil d'Or",
+      "category": "Alışveriş",
+      "tags": [
+        "kaftans",
+        "embroidery",
+        "gold thread"
+      ],
+      "lat": 31.6275345,
+      "lng": -7.988233800000001,
+      "rating": 4.7,
+      "description": "Altın ve gümüş iplikle nakış yapılan geleneksel terzilik. Kaftan, takım ve Fas düğün kıyafetleri.",
+      "description_en": "Traditional tailoring with gold and silver thread embroidery. Kaftan, suits, and Moroccan wedding outfits.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/au-fil-dor.jpg",
+      "price": "high",
+      "tips": "Düğünlük kaftanlar sanat eseri gibidir.",
+      "tips_en": "Wedding caftans are like artworks.",
+      "subcategory": "Tekstil"
+    },
+    {
+      "id": "broderie-de-fes",
+      "name": "Broderie de Fes",
+      "category": "Alışveriş",
+      "tags": [
+        "embroidery",
+        "linens",
+        "delicate"
+      ],
+      "lat": 34.0381755,
+      "lng": -4.9983748,
+      "rating": 4.4,
+      "description": "Fes nakış geleneğini yaşatan atölye, el işi masa örtüleri ve tekstil. İnce işçilik ve hediye seçenekleri.",
+      "description_en": "Workshop keeping Fes embroidery tradition alive with handmade tablecloths and textiles. Fine craftsmanship and gift options.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/broderie-de-fes.jpg",
+      "price": "medium",
+      "tips": "Masa örtüleri çok şıktır.",
+      "tips_en": "Tablecloths are very stylish.",
+      "subcategory": "Nakış"
+    },
+    {
+      "id": "souk-haik",
+      "name": "Souk Haik",
+      "category": "Alışveriş",
+      "tags": [
+        "fabric",
+        "traditional",
+        "white"
+      ],
+      "lat": 34.0620621,
+      "lng": -4.9806064,
+      "rating": 4.1,
+      "description": "Kumaş ve tekstil pazarı, geleneksel Fas döşemelik ve giysilik kumaşlar. Renkli seçenekler ve pazarlık kültürü.",
+      "description_en": "Fabric and textile market with traditional Moroccan upholstery and clothing fabrics. Colorful options and bargaining culture.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/souk-haik.jpg",
+      "price": "medium",
+      "tips": "Daha çok yerel halk alışveriş yapar.",
+      "tips_en": "Mostly locals shop here.",
+      "subcategory": "Çarşı"
+    },
+    {
+      "id": "medinart",
+      "name": "Medin'Art",
+      "category": "Alışveriş",
+      "tags": [
+        "modern design",
+        "concept",
+        "artists"
+      ],
+      "lat": 34.0633537,
+      "lng": -4.9784093,
+      "rating": 4.6,
+      "description": "Medina içindeki çağdaş sanat galerisi, yerel ve uluslararası sanatçı eserleri. Modern Fas sanatı ve kültürel köprü.",
+      "description_en": "Contemporary art gallery in the medina with local and international artist works. Modern Moroccan art and cultural bridge.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/medinart.jpg",
+      "price": "high",
+      "tips": "Modern hediyelikler için idealdir.",
+      "tips_en": "Ideal for modern souvenirs.",
+      "subcategory": "Butik"
+    },
+    {
+      "id": "souk-jeld",
+      "name": "Souk Jeld",
+      "category": "Alışveriş",
+      "tags": [
+        "leather",
+        "raw material",
+        "crafts"
+      ],
+      "lat": 34.0538579,
+      "lng": -4.9882863,
+      "rating": 4.0,
+      "description": "Deri ürünlerinin satıldığı çarşı, çanta, cüzdan ve ayakkabı. El yapımı Fas derisi ve uygun fiyatlar.",
+      "description_en": "Market selling leather goods including bags, wallets, and shoes. Handmade Moroccan leather and affordable prices.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/souk-jeld.jpg",
+      "price": "low",
+      "tips": "Görüntü biraz sert olabilir.",
+      "tips_en": "Sight might be a bit harsh.",
+      "subcategory": "Çarşı"
+    },
+    {
+      "id": "antique-shop-fes",
+      "name": "Antique Shop Fes",
+      "category": "Alışveriş",
+      "tags": [
+        "old doors",
+        "jewelry",
+        "rare"
+      ],
+      "lat": 34.06409670000001,
+      "lng": -4.980603299999999,
+      "rating": 4.3,
+      "description": "Fas antika ve koleksiyon eşyaları dükkanı. Eski halılar, takılar, bakır kaplar ve nostaljik hazineler.",
+      "description_en": "Moroccan antiques and collectibles shop. Old carpets, jewelry, copper vessels, and nostalgic treasures.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/antique-shop-fes.jpg",
+      "price": "high",
+      "tips": "Müze gezer gibi gezebilirsiniz.",
+      "tips_en": "You can tour it like visiting a museum.",
+      "subcategory": "Antika"
+    },
+    {
+      "id": "galerie-chez-zemama",
+      "name": "Galerie Chez Zemama",
+      "category": "Alışveriş",
+      "tags": [
+        "paintings",
+        "local art",
+        "gallery"
+      ],
+      "lat": 34.0633677,
+      "lng": -4.9747797,
+      "rating": 4.2,
+      "description": "Berber halıları ve etnik sanat eserleri galerisi. Nadir parçalar, tarihi dokumalar ve koleksiyon kalitesi.",
+      "description_en": "Gallery of Berber carpets and ethnic artworks. Rare pieces, historic weavings, and collection quality.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/galerie-chez-zemama.jpg",
+      "price": "medium",
+      "tips": "Şehirden bir anı tablosu alabilirsiniz.",
+      "tips_en": "You can buy a memory painting from the city.",
+      "subcategory": "Sanat"
+    },
+    {
+      "id": "cooperative-de-tissage",
+      "name": "Cooperative de Tissage",
+      "category": "Alışveriş",
+      "tags": [
+        "textile",
+        "fair trade",
+        "quality"
+      ],
+      "lat": 34.0577805,
+      "lng": -4.9895849,
+      "rating": 4.5,
+      "description": "Kadın kooperatifi dokuma atölyesi, el tezgahında halı üretimi. Sosyal girişim, adil ticaret ve zanaat desteği.",
+      "description_en": "Women's cooperative weaving workshop with handloom carpet production. Social enterprise, fair trade, and craft support.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/cooperative-de-tissage.jpg",
+      "price": "medium",
+      "tips": "Buradan alarak yerel halka destek olursunuz.",
+      "tips_en": "By buying from here you support locals.",
+      "subcategory": "Kooperatif"
+    },
+    {
+      "id": "mosaique-et-poterie-de-fes",
+      "name": "Mosaique et Poterie de Fes",
+      "category": "Alışveriş",
+      "tags": [
+        "factory",
+        "export",
+        "large scale"
+      ],
+      "lat": 34.0606487,
+      "lng": -4.9473372,
+      "rating": 4.4,
+      "description": "Büyük ölçekli üretim yapan, bahçe süsleri ve çeşmeler de satan seramik fabrikası.",
+      "description_en": "Ceramic factory doing large scale production, also selling garden ornaments and fountains.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/mosaique-et-poterie-de-fes.jpg",
+      "price": "medium",
+      "tips": "Bahçeniz için büyük parçalar bakabilirsiniz.",
+      "tips_en": "You can look for big pieces for your garden.",
+      "subcategory": "Fabrika"
+    },
+    {
+      "id": "argansouss",
+      "name": "Argansouss",
+      "category": "Alışveriş",
+      "tags": [
+        "argan oil",
+        "creams",
+        "beauty"
+      ],
+      "lat": 34.0638973,
+      "lng": -4.9807168,
+      "rating": 4.3,
+      "description": "Argan yağı ve kozmetik ürünleri dükkanı, organik Fas güzellik gelenekleri. Cilt bakımı, saç bakımı ve doğal ürünler.",
+      "description_en": "Argan oil and cosmetic products shop with organic Moroccan beauty traditions. Skincare, haircare, and natural products.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/argansouss.jpg",
+      "price": "medium",
+      "tips": "Yemeklik ve kozmetik argan yağı farkını öğrenin.",
+      "tips_en": "Learn the difference between culinary and cosmetic argan oil.",
+      "subcategory": "Kozmetik"
+    },
+    {
+      "id": "dar-el-ghalia",
+      "name": "Dar El Ghalia",
+      "category": "Alışveriş",
+      "tags": [
+        "palace",
+        "carpets",
+        "tea"
+      ],
+      "lat": 34.0598139,
+      "lng": -4.9747444,
+      "rating": 4.6,
+      "description": "Geleneksel Riad'da butik dükkan, el yapımı seramik ve tekstil. Otantik Fas dekorasyonu ve hediyelik seçenekler.",
+      "description_en": "Boutique shop in traditional Riad with handmade ceramics and textiles. Authentic Moroccan decoration and gift options.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/dar-el-ghalia.jpg",
+      "price": "high",
+      "tips": "Satıcılar çok bilgilidir, halı dersi gibi geçer.",
+      "tips_en": "Sellers are very knowledgeable, goes like a carpet class.",
+      "subcategory": "Halı"
+    },
+    {
+      "id": "souk-tillis",
+      "name": "Souk Tillis",
+      "category": "Alışveriş",
+      "tags": [
+        "sacks",
+        "grains",
+        "rustic"
+      ],
+      "lat": 34.0573057,
+      "lng": -4.9880399,
+      "rating": 4.0,
+      "description": "Mozaik çini (zellige) ustalarının sokağı, geleneksel Fas çini sanatı. Geometrik desenler ve renkli karolar.",
+      "description_en": "Street of mosaic tile (zellige) masters, traditional Moroccan tile art. Geometric patterns and colorful tiles.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/souk-tillis.jpg",
+      "price": "low",
+      "tips": "Fotoğrafçılar için doku ve renk cennetidir.",
+      "tips_en": "Texture and color heaven for photographers.",
+      "subcategory": "Çarşı"
+    },
+    {
+      "id": "fes-drum-shop",
+      "name": "Fes Drum Shop",
+      "category": "Alışveriş",
+      "tags": [
+        "drums",
+        "instruments",
+        "music"
+      ],
+      "lat": 34.041728,
+      "lng": -5.012506999999999,
+      "rating": 4.4,
+      "description": "Geleneksel Fas davulları ve perküsyon aletleri. Darbuka, bendir ve Gnawa müziği enstrümanları.",
+      "description_en": "Traditional Moroccan drums and percussion instruments. Darbuka, bendir, and Gnawa music instruments.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/fes-drum-shop.jpg",
+      "price": "medium",
+      "tips": "Dükkan sahibi bazen mini konser verir.",
+      "tips_en": "Shop owner sometimes gives mini concerts.",
+      "subcategory": "Müzik"
+    },
+    {
+      "id": "crafts-of-fez",
+      "name": "Crafts of Fez",
+      "category": "Alışveriş",
+      "tags": [
+        "mix",
+        "souvenirs",
+        "convenient"
+      ],
+      "lat": 34.0616744,
+      "lng": -4.9805975,
+      "rating": 4.2,
+      "description": "Fes el sanatlarının çeşitli dallarını sergileyen ve satan genel zanaat dükkanı. Seramik, deri, ahşap ve tekstil bir arada.",
+      "description_en": "General craft shop exhibiting and selling various branches of Fes handicrafts. Ceramics, leather, wood, and textiles together.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/crafts-of-fez.jpg",
+      "price": "medium",
+      "tips": "Zamanı kısıtlı olanlar için pratiktir.",
+      "tips_en": "Practical for those with limited time.",
+      "subcategory": "Hediyelik"
+    },
+    {
+      "id": "cafe-clock",
+      "name": "Cafe Clock",
+      "category": "Yeme & İçme",
+      "tags": [
+        "camel burger",
+        "cultural center",
+        "terrace"
+      ],
+      "lat": 34.0622241,
+      "lng": -4.9830884,
+      "rating": 4.5,
+      "description": "Fes'in en ünlü kültürel kafesi. Deve burgeri ve nane çayı ile meşhur. Düzenli olarak hikaye anlatıcılığı ve konserler düzenlenir.",
+      "description_en": "Fes's most famous cultural cafe. Famous for camel burger and mint tea. Regularly hosts storytelling and concerts.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/cafe-clock.jpg",
+      "price": "medium",
+      "tips": "Gün batımında terastan Bou Inania minaresini izleyin.",
+      "tips_en": "Watch Bou Inania minaret from the terrace at sunset.",
+      "subcategory": "Cafe"
+    },
+    {
+      "id": "fez-cafe",
+      "name": "Fez Cafe",
+      "category": "Yeme & İçme",
+      "tags": [
+        "garden",
+        "stylish",
+        "cocktails"
+      ],
+      "lat": 34.0610281,
+      "lng": -4.978378699999999,
+      "rating": 4.3,
+      "description": "Le Jardin des Biehn otelinin içinde, muazzam bir bahçeye bakan şık bir restoran.",
+      "description_en": "Stylish restaurant inside Le Jardin des Biehn hotel, overlooking a magnificent garden.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/fez-cafe.jpg",
+      "price": "high",
+      "tips": "Kargaşadan kaçıp sakin bir yemek için ideal.",
+      "tips_en": "Ideal for a quiet meal escaping the chaos.",
+      "subcategory": "Restoran"
+    },
+    {
+      "id": "chez-rachid",
+      "name": "Chez Rachid",
+      "category": "Yeme & İçme",
+      "tags": [
+        "street food",
+        "cheap",
+        "lively"
+      ],
+      "lat": 34.0618436,
+      "lng": -4.983552899999999,
+      "rating": 4.0,
+      "description": "Mavi Kapı'nın hemen yanında, ucuz ve lezzetli ızgaralar yapan popüler sokak restoranı.",
+      "description_en": "Popular street restaurant right next to Blue Gate, making cheap and delicious grills.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/chez-rachid.jpg",
+      "price": "low",
+      "tips": "Ortam çok hareketli ve gürültülüdür.",
+      "tips_en": "Environment is very lively and noisy.",
+      "subcategory": "Esnaf Lokantası"
+    },
+    {
+      "id": "palais-de-fes-dar-tazi",
+      "name": "Palais De Fes Dar Tazi",
+      "category": "Yeme & İçme",
+      "tags": [
+        "panoramic view",
+        "luxury",
+        "traditional"
+      ],
+      "lat": 34.0603974,
+      "lng": -4.971474199999999,
+      "rating": 4.3,
+      "description": "Tarihi sarayda lüks konaklama ve restoran, geleneksel Fas mimarisi. Avlu, çeşme ve kraliyet atmosferi.",
+      "description_en": "Luxury accommodation and restaurant in historic palace with traditional Moroccan architecture. Courtyard, fountain, and royal atmosphere.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/palais-de-fes-dar-tazi.jpg",
+      "price": "high",
+      "tips": "Gün batımında terasta yer ayırtın.",
+      "tips_en": "Book a table on the terrace at sunset.",
+      "subcategory": "Restoran"
+    },
+    {
+      "id": "cafe-la-noria",
+      "name": "Cafe La Noria",
+      "category": "Yeme & İçme",
+      "tags": [
+        "water wheel",
+        "garden",
+        "peaceful"
+      ],
+      "lat": 34.0581539,
+      "lng": -4.9897947,
+      "rating": 4.2,
+      "description": "Medina manzaralı teras kafe, nane çayı ve Fas kahvaltısı. Gün batımı izleme, huzurlu mola ve yerel atmosfer.",
+      "description_en": "Terrace cafe with medina views, mint tea and Moroccan breakfast. Sunset viewing, peaceful break, and local atmosphere.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/cafe-la-noria.jpg",
+      "price": "medium",
+      "tips": "Bahçe gezisinden sonra dinlenmek için ideal.",
+      "tips_en": "Ideal for resting after garden tour.",
+      "subcategory": "Cafe"
+    },
+    {
+      "id": "restaurant-sekaya",
+      "name": "Restaurant Sekaya",
+      "category": "Yeme & İçme",
+      "tags": [
+        "traditional",
+        "tagine",
+        "rooftop"
+      ],
+      "lat": 34.0642376,
+      "lng": -4.9769473,
+      "rating": 4.4,
+      "description": "Çok katlı, her katında farklı bir oturma alanı olan keyifli bir Medina restoranı.",
+      "description_en": "Pleasant Medina restaurant with multiple floors, each with a different seating area.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/restaurant-sekaya.jpg",
+      "price": "medium",
+      "tips": "Şeftali tajini (mevsiminde) denemelisiniz.",
+      "tips_en": "You must try peach tagine (in season).",
+      "subcategory": "Restoran"
+    },
+    {
+      "id": "thamis",
+      "name": "Thami's",
+      "category": "Yeme & İçme",
+      "tags": [
+        "popular",
+        "local",
+        "busy"
+      ],
+      "lat": 34.0617828,
+      "lng": -4.983522199999999,
+      "rating": 4.1,
+      "description": "Vejetaryen ve vegan seçeneklerle modern Fas mutfağı sunan restoran. Sağlıklı lezzetler, yaratıcı menü ve çağdaş yaklaşım.",
+      "description_en": "Restaurant serving modern Moroccan cuisine with vegetarian and vegan options. Healthy flavors, creative menu, and contemporary approach.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/thamis.jpg",
+      "price": "low",
+      "tips": "Yerel halkla iç içe yemek yersiniz.",
+      "tips_en": "You eat intertwined with locals.",
+      "subcategory": "Sokak Lezzeti"
+    },
+    {
+      "id": "dar-saada",
+      "name": "Dar Saada",
+      "category": "Yeme & İçme",
+      "tags": [
+        "large groups",
+        "historic",
+        "decor"
+      ],
+      "lat": 34.0653272,
+      "lng": -4.9750969,
+      "rating": 4.0,
+      "description": "Geleneksel dekorasyonuyla göz kamaştıran, genellikle grupları ağırlayan büyük restoran.",
+      "description_en": "Large restaurant dazzling with traditional decoration, usually hosting groups.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/dar-saada.jpg",
+      "price": "medium",
+      "tips": "İç mekan fotoğrafları çok güzel çıkar.",
+      "tips_en": "Interior photos come out very beautiful.",
+      "subcategory": "Restoran"
+    },
+    {
+      "id": "le-tarbouche-fes",
+      "name": "Le Tarbouche Fes",
+      "category": "Yeme & İçme",
+      "tags": [
+        "tacos",
+        "moroccan fusion",
+        "small"
+      ],
+      "lat": 34.0639734,
+      "lng": -4.9808997,
+      "rating": 4.6,
+      "description": "Geleneksel Fas lezzetlerini Meksika tarzı sunumlarla birleştiren küçük ve popüler mekan.",
+      "description_en": "Small and popular place combining traditional Moroccan flavors with Mexican style presentation.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/le-tarbouche-fes.jpg",
+      "price": "low",
+      "tips": "Fas usülü tacoları çok lezzetlidir.",
+      "tips_en": "Moroccan style tacos are very tasty.",
+      "subcategory": "Restoran"
+    },
+    {
+      "id": "maison-moi-anan",
+      "name": "Maison Moi Anan",
+      "category": "Yeme & İçme",
+      "tags": [
+        "thai",
+        "asian",
+        "change"
+      ],
+      "lat": 34.0633336,
+      "lng": -4.9814675,
+      "rating": 4.7,
+      "description": "Tajinden sıkılanlar için harika bir Tayland mutfağı alternatifi. Şef Anan çok yeteneklidir.",
+      "description_en": "Great Thai cuisine alternative for those bored of Tagine. Chef Anan is very talented.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/maison-moi-anan.jpg",
+      "price": "medium",
+      "tips": "Fes'te Asya yemeği yemek ilginç bir deneyimdir.",
+      "tips_en": "Eating Asian food in Fes is an interesting experience.",
+      "subcategory": "Restoran"
+    },
+    {
+      "id": "riad-rcif",
+      "name": "Riad Rcif",
+      "category": "Yeme & İçme",
+      "tags": [
+        "view",
+        "square",
+        "luxury"
+      ],
+      "lat": 34.0616017,
+      "lng": -4.9754999,
+      "rating": 4.5,
+      "description": "Rcif Meydanı yakınında restore edilmiş geleneksel riad konaklama. Zellige süslemeler, avlu bahçe ve otantik deneyim.",
+      "description_en": "Restored traditional riad accommodation near Rcif Square. Zellige decorations, courtyard garden, and authentic experience.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/riad-rcif.jpg",
+      "price": "high",
+      "tips": "Şehre giriş çıkışı kolaydır.",
+      "tips_en": "Easy access to enter and exit the city.",
+      "subcategory": "Restoran"
+    },
+    {
+      "id": "les-jardins-de-sheherazade",
+      "name": "Les Jardins de Sheherazade",
+      "category": "Yeme & İçme",
+      "tags": [
+        "romantic",
+        "garden",
+        "pool"
+      ],
+      "lat": 34.0587954,
+      "lng": -4.978746999999999,
+      "rating": 4.6,
+      "description": "Güllü bahçeler içinde romantik riad-otel, sakin konum ve lüks hizmet. Spa, havuz ve Bin Bir Gece atmosferi.",
+      "description_en": "Romantic riad-hotel in rose gardens with quiet location and luxury service. Spa, pool, and Arabian Nights atmosphere.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/les-jardins-de-sheherazade.jpg",
+      "price": "very high",
+      "tips": "Özel bir kutlama için mükemmeldir.",
+      "tips_en": "Perfect for a special celebration.",
+      "subcategory": "Restoran"
+    },
+    {
+      "id": "veggie-pause",
+      "name": "Veggie-pause",
+      "category": "Yeme & İçme",
+      "tags": [
+        "vegetarian",
+        "healthy",
+        "fresh"
+      ],
+      "lat": 34.0612882,
+      "lng": -4.982927399999999,
+      "rating": 4.6,
+      "description": "Fes'in vejetaryen dostu kafesi, sağlıklı öğle yemeği ve taze meyve suları. Organik malzemeler ve diyet dostu menü.",
+      "description_en": "Fes's vegetarian-friendly cafe with healthy lunch and fresh juices. Organic ingredients and diet-friendly menu.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/veggie-pause.jpg",
+      "price": "medium",
+      "tips": "Sebzeli kuskusu çok hafiftir.",
+      "tips_en": "Vegetable couscous is very light.",
+      "subcategory": "Restoran"
+    },
+    {
+      "id": "lamandier-palais-faraj",
+      "name": "L'Amandier Palais Faraj",
+      "category": "Yeme & İçme",
+      "tags": [
+        "luxury",
+        "best view",
+        "expensive"
+      ],
+      "lat": 34.0573446,
+      "lng": -4.976241,
+      "rating": 4.7,
+      "description": "Palais Faraj'ın panoramik restoranı, şehir manzarası ve fine-dining Fas mutfağı. Romantik akşam yemekleri ve özel anlar.",
+      "description_en": "Panoramic restaurant of Palais Faraj with city views and fine-dining Moroccan cuisine. Romantic dinners and special moments.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/lamandier-palais-faraj.jpg",
+      "price": "very high",
+      "tips": "Sadece bir şeyler içmek için bile gidilir.",
+      "tips_en": "Worth going even just for a drink.",
+      "subcategory": "Fine Dining"
+    },
+    {
+      "id": "cremerie-la-place",
+      "name": "Cremerie La Place",
+      "category": "Yeme & İçme",
+      "tags": [
+        "ice cream",
+        "juice",
+        "family"
+      ],
+      "lat": 34.064239,
+      "lng": -4.9729258,
+      "rating": 4.3,
+      "description": "Meydanın kenarında dondurma ve hafif tatlılar sunan kafe. Yerel halkın mola noktası, uygun fiyat ve taze lezzetler.",
+      "description_en": "Cafe serving ice cream and light desserts at the edge of square. Rest stop for locals, affordable prices, and fresh flavors.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/cremerie-la-place.jpg",
+      "price": "low",
+      "tips": "Avokado suyu (Jus d'avocat) denemelisiniz.",
+      "tips_en": "You must try Avocado juice (Jus d'avocat).",
+      "subcategory": "Dondurma"
+    },
+    {
+      "id": "restaurant-al-fassia",
+      "name": "Restaurant Al Fassia",
+      "category": "Yeme & İçme",
+      "tags": [
+        "classic",
+        "music",
+        "dance"
+      ],
+      "lat": 34.0612021,
+      "lng": -4.9807226,
+      "rating": 4.0,
+      "description": "Canlı müzik ve dansöz gösterileri eşliğinde yemek yiyebileceğiniz turistik ama eğlenceli mekan.",
+      "description_en": "Touristic but fun place where you can eat accompanying live music and belly dancer shows.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/restaurant-al-fassia.jpg",
+      "price": "high",
+      "tips": "Tam bir Fas gecesi deneyimi sunar.",
+      "tips_en": "Offers a complete Moroccan night experience.",
+      "subcategory": "Restoran"
+    },
+    {
+      "id": "jawharat-fes",
+      "name": "Jawharat Fes",
+      "category": "Yeme & İçme",
+      "tags": [
+        "view",
+        "food",
+        "location"
+      ],
+      "lat": 34.0404955,
+      "lng": -4.995098,
+      "rating": 4.2,
+      "description": "Geleneksel Fas düğün yemeklerini sunan büyük restoran, grup etkinlikleri için ideal. Fassi mutfak, canlı müzik ve şölen.",
+      "description_en": "Large restaurant serving traditional Moroccan wedding dishes, ideal for group events. Fassi cuisine, live music, and feast.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/jawharat-fes.jpg",
+      "price": "medium",
+      "tips": "Gün ortasında dinlenmek için iyidir.",
+      "tips_en": "Good for resting in the middle of the day.",
+      "subcategory": "Restoran"
+    },
+    {
+      "id": "mezzanine",
+      "name": "Mezzanine",
+      "category": "Yeme & İçme",
+      "tags": [
+        "lounge",
+        "cocktails",
+        "modern"
+      ],
+      "lat": 34.0596745,
+      "lng": -4.988633,
+      "rating": 4.3,
+      "description": "Modern dekorasyonu ve kokteylleriyle Fes'in gece hayatına hitap eden şık lounge.",
+      "description_en": "Stylish lounge appealing to Fes nightlife with its modern decoration and cocktails.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/mezzanine.jpg",
+      "price": "high",
+      "tips": "Alkol servisi vardır.",
+      "tips_en": "Alcohol service is available.",
+      "subcategory": "Bar"
+    },
+    {
+      "id": "cafe-restaurant-al-oud",
+      "name": "Cafe Restaurant Al Oud",
+      "category": "Yeme & İçme",
+      "tags": [
+        "simple",
+        "tasty",
+        "friendly"
+      ],
+      "lat": 34.0633055,
+      "lng": -4.981821600000001,
+      "rating": 4.5,
+      "description": "Geleneksel Fas yemekleri ve canlı oud müziği sunan atmosferik mekan. Romantik akşamlar, nane çayı ve kültürel deneyim.",
+      "description_en": "Atmospheric venue serving traditional Moroccan dishes and live oud music. Romantic evenings, mint tea, and cultural experience.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/cafe-restaurant-al-oud.jpg",
+      "price": "low",
+      "tips": "Sahipleri çok misafirperverdir.",
+      "tips_en": "Owners are very hospitable.",
+      "subcategory": "Cafe"
+    },
+    {
+      "id": "darori-resto",
+      "name": "Darori Resto",
+      "category": "Yeme & İçme",
+      "tags": [
+        "hidden",
+        "courtyard",
+        "quiet"
+      ],
+      "lat": 34.0625217,
+      "lng": -4.973784999999999,
+      "rating": 4.6,
+      "description": "Dışarıdan belli olmayan, kapıyı çalınca girilen gizli ve huzurlu bir avlu restoranı.",
+      "description_en": "Hidden and peaceful courtyard restaurant not visible from outside, entered by knocking.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/darori-resto.jpg",
+      "price": "medium",
+      "tips": "Sanki birinin evine misafir olmuşsunuz gibi.",
+      "tips_en": "As if you are a guest at someone's house.",
+      "subcategory": "Restoran"
+    },
+    {
+      "id": "culture-box",
+      "name": "Culture Box",
+      "category": "Yeme & İçme",
+      "tags": [
+        "fusion",
+        "art",
+        "burgers"
+      ],
+      "lat": 34.0611969,
+      "lng": -4.9827708,
+      "rating": 4.5,
+      "description": "Çağdaş sanat ve kültür merkezi, sergiler, atölyeler ve yaratıcı etkinlikler. Genç Fas sanatı ve kültürel diyalog.",
+      "description_en": "Contemporary art and culture center with exhibitions, workshops, and creative events. Young Moroccan art and cultural dialogue.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/culture-box.jpg",
+      "price": "medium",
+      "tips": "Vejetaryen burgerleri çok iyidir.",
+      "tips_en": "Vegetarian burgers are very good.",
+      "subcategory": "Cafe"
+    },
+    {
+      "id": "nach-mama",
+      "name": "Nach Mama",
+      "category": "Yeme & İçme",
+      "tags": [
+        "homemade",
+        "ladies",
+        "cooking"
+      ],
+      "lat": 34.0623871,
+      "lng": -4.9826137,
+      "rating": 4.7,
+      "description": "Kadın kooperatifi tarafından işletilen, ev yemeği tadında lezzetler sunan mekan.",
+      "description_en": "Place run by women's cooperative, offering flavors like home cooking.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/nach-mama.jpg",
+      "price": "medium",
+      "tips": "Yemek kursları da düzenliyorlar.",
+      "tips_en": "They also organize cooking classes.",
+      "subcategory": "Restoran"
+    },
+    {
+      "id": "restaurant-ouliya",
+      "name": "Restaurant Ouliya",
+      "category": "Yeme & İçme",
+      "tags": [
+        "terrace",
+        "tagine",
+        "service"
+      ],
+      "lat": 34.0617539,
+      "lng": -4.9743232,
+      "rating": 4.4,
+      "description": "Medinada yüksek çatı teraslı restoran, panoramik şehir manzarası ve Fas yemekleri. Gün batımı yemeği ve romantik atmosfer.",
+      "description_en": "Restaurant with high rooftop terrace in medina, panoramic city views, and Moroccan food. Sunset dining and romantic atmosphere.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/restaurant-ouliya.jpg",
+      "price": "medium",
+      "tips": "Çalışanlar çok yardımcıdır.",
+      "tips_en": "Staff is very helpful.",
+      "subcategory": "Restoran"
+    },
+    {
+      "id": "volubilis",
+      "name": "Volubilis",
+      "category": "Görülmesi Gereken Yerler",
+      "tags": [
+        "roman ruins",
+        "mosaics",
+        "unesco"
+      ],
+      "lat": 34.0350527,
+      "lng": -5.00354,
+      "rating": 4.6,
+      "description": "Fes'ten günübirlik gidilebilecek, UNESCO listesindeki muazzam Roma antik kenti ve mozaikleri.",
+      "description_en": "Magnificent Roman ancient city and mosaics on UNESCO list, accessible for a day trip from Fes.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/volubilis.jpg",
+      "price": "medium",
+      "tips": "Gölge yoktur, şapka ve su şart.",
+      "tips_en": "No shade, hat and water are essential.",
+      "subcategory": "Antik Kent"
+    },
+    {
+      "id": "moulay-idriss-zerhoun",
+      "name": "Moulay Idriss Zerhoun",
+      "category": "Görülmesi Gereken Yerler",
+      "tags": [
+        "holy city",
+        "view",
+        "pilgrimage"
+      ],
+      "lat": 34.064847,
+      "lng": -4.974722000000001,
+      "rating": 4.4,
+      "description": "Volubilis yakınlarındaki kutsal tepe şehri. Fas'ın en önemli hac merkezlerinden biri.",
+      "description_en": "Holy hill city near Volubilis. One of Morocco's most important pilgrimage centers.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/moulay-idriss-zerhoun.jpg",
+      "price": "free",
+      "tips": "Silindirik minaresi Fas'ta tektir.",
+      "tips_en": "Its cylindrical minaret is unique in Morocco.",
+      "subcategory": "Kutsal Şehir"
+    },
+    {
+      "id": "bab-mansour-laleuj",
+      "name": "Bab Mansour Laleuj",
+      "category": "Görülmesi Gereken Yerler",
+      "tags": [
+        "meknes",
+        "gate",
+        "imperial"
+      ],
+      "lat": 33.8925846,
+      "lng": -5.564684000000001,
+      "rating": 4.7,
+      "description": "Meknes'teki Fas'ın en görkemli kapısı, 18. yüzyıl mimari şaheseri. Mermer sütunlar, zellige mozaikler ve ihtişam.",
+      "description_en": "Morocco's most magnificent gate in Meknes, 18th-century architectural masterpiece. Marble columns, zellige mosaics, and grandeur.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/bab-mansour-laleuj.jpg",
+      "price": "free",
+      "tips": "Fes'ten trenle kolayca gidilebilir.",
+      "tips_en": "Easily accessible by train from Fes.",
+      "subcategory": "Kapı"
+    },
+    {
+      "id": "hammam-moulay-yacoub",
+      "name": "Hammam Moulay Yacoub",
+      "category": "Deneyim",
+      "tags": [
+        "thermal",
+        "spa",
+        "healing"
+      ],
+      "lat": 34.0904716,
+      "lng": -5.1848452,
+      "rating": 4.2,
+      "description": "Fes yakınındaki termal kaplıca kasabası, şifalı sular ve hammam deneyimi. Cilt hastalıkları, wellness ve rahatlatıcı tatil.",
+      "description_en": "Thermal spa town near Fes with healing waters and hammam experience. Skin conditions, wellness, and relaxing vacation.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/hammam-moulay-yacoub.jpg",
+      "price": "medium",
+      "tips": "Yerel halk haftasonları akın eder.",
+      "tips_en": "Locals flock here on weekends.",
+      "subcategory": "Kaplıca"
+    },
+    {
+      "id": "sidi-harazem-oasis",
+      "name": "Sidi Harazem Oasis",
+      "category": "Doğa",
+      "tags": [
+        "mineral water",
+        "palm trees",
+        "pool"
+      ],
+      "lat": 34.0260083,
+      "lng": -4.8805909,
+      "rating": 4.0,
+      "description": "Fes'e yakın sıcak su kaynakları ve piknik alanı, yerel halkın hafta sonu kaçışı. Termal havuzlar ve doğa.",
+      "description_en": "Hot springs and picnic area near Fes, locals' weekend escape. Thermal pools and nature.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/sidi-harazem-oasis.jpg",
+      "price": "low",
+      "tips": "Sidi Harazem suyu Fas'ta çok meşhurdur.",
+      "tips_en": "Sidi Harazem water is very famous in Morocco.",
+      "subcategory": "Vaha"
+    },
+    {
+      "id": "royal-golf-de-fes",
+      "name": "Royal Golf de Fes",
+      "category": "Aktivite",
+      "tags": [
+        "sports",
+        "green",
+        "luxury"
+      ],
+      "lat": 33.9083177,
+      "lng": -4.9901211,
+      "rating": 4.5,
+      "description": "Zeytin ağaçları arasında golf oynayabileceğiniz, şehrin karmaşasından uzak tesis.",
+      "description_en": "Facility away from city chaos where you can play golf among olive trees.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/royal-golf-de-fes.jpg",
+      "price": "high",
+      "tips": "Ekipman kiralanabilir.",
+      "tips_en": "Equipment is rentable.",
+      "subcategory": "Golf"
+    },
+    {
+      "id": "ifrane",
+      "name": "Ifrane",
+      "category": "Görülmesi Gereken Yerler",
+      "tags": [
+        "little switzerland",
+        "snow",
+        "ski"
+      ],
+      "lat": 34.062529,
+      "lng": -4.7277528,
+      "rating": 4.6,
+      "description": "'Küçük İsviçre' olarak bilinen, Avrupa mimarisine sahip dağ kasabası. Fes'ten günübirlik gidilebilir.",
+      "description_en": "Mountain town with European architecture known as 'Little Switzerland'. Accessible as day trip from Fes.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/ifrane.jpg",
+      "price": "free",
+      "tips": "Kışın kar yağar ve kayak yapılır.",
+      "tips_en": "It snows and skiing is possible in winter.",
+      "subcategory": "Şehir"
+    },
+    {
+      "id": "azrou-cedar-forest",
+      "name": "Azrou Cedar Forest",
+      "category": "Doğa",
+      "tags": [
+        "monkeys",
+        "cedar trees",
+        "nature"
+      ],
+      "lat": 33.4264439,
+      "lng": -5.1555024,
+      "rating": 4.7,
+      "description": "Orta Atlas'taki devasa sedir ormanı, Barbary maymunlarının yaşam alanı. Doğa yürüyüşü, yaban hayatı ve dağ havası.",
+      "description_en": "Giant cedar forest in Middle Atlas, habitat of Barbary macaques. Nature hiking, wildlife, and mountain air.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/azrou-cedar-forest.jpg",
+      "price": "free",
+      "tips": "Maymunları beslerken dikkatli olun.",
+      "tips_en": "Be careful when feeding monkeys.",
+      "subcategory": "Orman"
+    },
+    {
+      "id": "ain-vittel",
+      "name": "Ain Vittel",
+      "category": "Doğa",
+      "tags": [
+        "waterfall",
+        "picnic",
+        "cool"
+      ],
+      "lat": 33.54658750000001,
+      "lng": -5.1105469,
+      "rating": 4.3,
+      "description": "Fes yakınındaki tatlı su kaynağı, yerel halkın piknik ve dinlenme alanı. Doğal pınar, açık hava ve hafta sonu.",
+      "description_en": "Freshwater spring near Fes, locals' picnic and rest area. Natural spring, outdoors, and weekends.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/ain-vittel.jpg",
+      "price": "free",
+      "tips": "Yazın serinlemek için idealdir.",
+      "tips_en": "Ideal for cooling off in summer.",
+      "subcategory": "Şelale"
+    },
+    {
+      "id": "meknes-medina",
+      "name": "Meknes Medina",
+      "category": "Görülmesi Gereken Yerler",
+      "tags": [
+        "quieter",
+        "market",
+        "unesco"
+      ],
+      "lat": 34.062529,
+      "lng": -4.7277528,
+      "rating": 4.4,
+      "description": "UNESCO korumasındaki Meknes tarihi merkezi, Fes'ten günübirlik gezi. İmparatorluk şehri, pazarlar ve anıtlar.",
+      "description_en": "UNESCO-protected historic center of Meknes, day trip from Fes. Imperial city, markets, and monuments.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/meknes-medina.jpg",
+      "price": "free",
+      "tips": "Pazarda fiyatlar Fes'ten daha uygundur.",
+      "tips_en": "Market prices are better than Fes.",
+      "subcategory": "Bölge"
+    },
+    {
+      "id": "heri-es-souani",
+      "name": "Heri es-Souani",
+      "category": "Tarihi",
+      "tags": [
+        "granary",
+        "stables",
+        "movie set"
+      ],
+      "lat": 33.8805023,
+      "lng": -5.557743599999999,
+      "rating": 4.5,
+      "description": "Meknes'teki Moulay Ismail'in devasa tahıl ambarları ve ahırları. Osmanlı-Fas mühendisliği, tarihi yapı ve fotoğrafçılık.",
+      "description_en": "Moulay Ismail's massive granaries and stables in Meknes. Ottoman-Moroccan engineering, historic structure, and photography.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/heri-es-souani.jpg",
+      "price": "low",
+      "tips": "Game of Thrones gibi yapımlarda set olarak kullanıldı.",
+      "tips_en": "Used as set in productions like Game of Thrones.",
+      "subcategory": "Tahıl Ambarı"
+    },
+    {
+      "id": "hammam-de-la-poste",
+      "name": "Hammam de la Poste",
+      "category": "Deneyim",
+      "tags": [
+        "local",
+        "clean",
+        "affordable"
+      ],
+      "lat": 34.0616872,
+      "lng": -4.9837106,
+      "rating": 4.1,
+      "description": "Ville Nouvelle'deki modern hammam ve spa, geleneksel kese ve masaj. Lüks hizmet, temizlik ve rahatlama.",
+      "description_en": "Modern hammam and spa in Ville Nouvelle with traditional scrub and massage. Luxury service, cleanliness, and relaxation.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/hammam-de-la-poste.jpg",
+      "price": "low",
+      "tips": "Kendi sabun ve havlunuzu götürün.",
+      "tips_en": "Bring your own soap and towel.",
+      "subcategory": "Hamam"
+    },
+    {
+      "id": "spa-laaroussa",
+      "name": "Spa Laaroussa",
+      "category": "Deneyim",
+      "tags": [
+        "luxury",
+        "massage",
+        "relax"
+      ],
+      "lat": 34.0632798,
+      "lng": -4.9790584,
+      "rating": 4.8,
+      "description": "Riad içinde butik spa, argan yağı masajı ve geleneksel Fas bakımları. Wellness, aromaterapi ve sakin atmosfer.",
+      "description_en": "Boutique spa in riad with argan oil massage and traditional Moroccan treatments. Wellness, aromatherapy, and calm atmosphere.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/spa-laaroussa.jpg",
+      "price": "high",
+      "tips": "Hamam ritüeli en az 1 saat sürer.",
+      "tips_en": "Hammam ritual takes at least 1 hour.",
+      "subcategory": "Spa"
+    },
+    {
+      "id": "mount-zalagh",
+      "name": "Mount Zalagh",
+      "category": "Doğa",
+      "tags": [
+        "hiking",
+        "view",
+        "sunset"
+      ],
+      "lat": 34.0723714,
+      "lng": -4.9792491,
+      "rating": 4.6,
+      "description": "Fes'i çevreleyen tepelerden biri, trekking ve şehir panoraması. Gün doğumu, fotoğrafçılık ve doğa yürüyüşü.",
+      "description_en": "One of the hills surrounding Fes for trekking and city panorama. Sunrise, photography, and nature walking.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/mount-zalagh.jpg",
+      "price": "free",
+      "tips": "Arabayla zirveye yakın bir noktaya kadar gidilebilir.",
+      "tips_en": "Accessible by car up to a point near summit.",
+      "subcategory": "Dağ"
+    },
+    {
+      "id": "fes-country-club",
+      "name": "Fes Country Club",
+      "category": "Aktivite",
+      "tags": [
+        "tennis",
+        "pool",
+        "sports"
+      ],
+      "lat": 34.0409606,
+      "lng": -5.0426793,
+      "rating": 4.3,
+      "description": "Golf sahası, tenis kortları ve sosyal tesis. Spor aktiviteleri, aile günleri ve yeşil alanlar.",
+      "description_en": "Golf course, tennis courts, and social facility. Sports activities, family days, and green areas.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/fes-country-club.jpg",
+      "price": "high",
+      "tips": "Çocuklu aileler için aktivite alanları vardır.",
+      "tips_en": "There are activity areas for families with children.",
+      "subcategory": "Kulüp"
+    },
+    {
+      "id": "gaudy-palace-palais-el-glaoui---meknes",
+      "name": "Gaudy Palace (Palais El Glaoui - Meknes)",
+      "category": "Tarihi",
+      "tags": [
+        "meknes",
+        "history",
+        "museum"
+      ],
+      "lat": 34.0589143,
+      "lng": -4.977207600000001,
+      "rating": 4.0,
+      "description": "Meknes'teki El Glaoui ailesinin gösterişli sarayı (Pacha'nın sarayı olarak da bilinir). Süslü iç mekanlar, tarihi dram ve mimari.",
+      "description_en": "El Glaoui family's ostentatious palace in Meknes (also known as Pasha's Palace). Ornate interiors, historical drama, and architecture.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/gaudy-palace-palais-el-glaoui---meknes.jpg",
+      "price": "medium",
+      "tips": "Endülüs tarzı bahçesi çok güzeldir.",
+      "tips_en": "Andalusian style garden is very beautiful.",
+      "subcategory": "Saray"
+    },
+    {
+      "id": "diamant-vert",
+      "name": "Diamant Vert",
+      "category": "Aktivite",
+      "tags": [
+        "water park",
+        "pools",
+        "summer"
+      ],
+      "lat": 33.9875449,
+      "lng": -5.020284699999999,
+      "rating": 4.2,
+      "description": "Fes yakınlarında, yazın serinlemek için popüler olan büyük su parkı ve kamp alanı.",
+      "description_en": "Large water park and camping area near Fes, popular for cooling off in summer.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/diamant-vert.jpg",
+      "price": "medium",
+      "tips": "Yaz haftasonları çok kalabalıktır.",
+      "tips_en": "Very crowded on summer weekends.",
+      "subcategory": "Su Parkı"
+    },
+    {
+      "id": "fes-saiss-airport",
+      "name": "Fes Saiss Airport",
+      "category": "Görülmesi Gereken Yerler",
+      "tags": [
+        "architecture",
+        "modern",
+        "travel"
+      ],
+      "lat": 33.9306646,
+      "lng": -4.9841368,
+      "rating": 4.0,
+      "description": "Fes'in uluslararası havalimanı, Avrupa ve Fas içi bağlantılar. Araç kiralama, transfer ve seyahat bilgisi.",
+      "description_en": "Fes's international airport with European and domestic Morocco connections. Car rental, transfer, and travel information.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/fes-saiss-airport.jpg",
+      "price": "free",
+      "tips": "Şehre otobüs veya taksi ile ulaşım mümkündür.",
+      "tips_en": "Transport to city is possible by bus or taxi.",
+      "subcategory": "Havalimanı"
+    },
+    {
+      "id": "gare-de-fes",
+      "name": "Gare de Fes",
+      "category": "Görülmesi Gereken Yerler",
+      "tags": [
+        "train",
+        "architecture",
+        "hub"
+      ],
+      "lat": 34.0473108,
+      "lng": -5.0053264,
+      "rating": 4.3,
+      "description": "Fes merkez tren istasyonu, Kazablanka, Marakeş ve Tanca bağlantıları. ONCF trenleri, bilet satışı ve ulaşım bilgisi.",
+      "description_en": "Fes central train station with Casablanca, Marrakech, and Tangier connections. ONCF trains, ticket sales, and transport information.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/gare-de-fes.jpg",
+      "price": "free",
+      "tips": "Meknes, Rabat ve Kazablanka'ya sık seferler vardır.",
+      "tips_en": "Frequent trips to Meknes, Rabat and Casablanca.",
+      "subcategory": "İstasyon"
+    },
+    {
+      "id": "place-el-hedim",
+      "name": "Place El-Hedim",
+      "category": "Görülmesi Gereken Yerler",
+      "tags": [
+        "square",
+        "atmosphere",
+        "meknes"
+      ],
+      "lat": 33.893054,
+      "lng": -5.5654054,
+      "rating": 4.5,
+      "description": "Meknes'in ana meydanı, Bab Mansour karşısında buluşma noktası. Sokak sanatçıları, kafeler ve şehir yaşamı.",
+      "description_en": "Meknes's main square, meeting point opposite Bab Mansour. Street performers, cafes, and city life.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/place-el-hedim.jpg",
+      "price": "free",
+      "tips": "Bab Mansour kapısının hemen önündedir.",
+      "tips_en": "Right in front of Bab Mansour gate.",
+      "subcategory": "Meydan"
+    },
+    {
+      "id": "dar-jamai-museum",
+      "name": "Dar Jamai Museum",
+      "category": "Müze",
+      "tags": [
+        "meknes",
+        "music",
+        "art"
+      ],
+      "lat": 33.8937409,
+      "lng": -5.5665809,
+      "rating": 4.4,
+      "description": "Meknes'teki 19. yüzyıl vezir konağında Fas sanat ve zanaat müzesi. Ahşap oyma, seramik ve tekstil koleksiyonu.",
+      "description_en": "Moroccan art and craft museum in 19th-century vizier's mansion in Meknes. Wood carving, ceramics, and textile collection.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/dar-jamai-museum.jpg",
+      "price": "medium",
+      "tips": "Müzik aletleri koleksiyonu çok geniştir.",
+      "tips_en": "Musical instruments collection is very wide.",
+      "subcategory": "Müze"
+    },
+    {
+      "id": "sidi-mguild",
+      "name": "Sidi Mguild",
+      "category": "Görülmesi Gereken Yerler",
+      "tags": [
+        "rugs",
+        "berber",
+        "mountain"
+      ],
+      "lat": 34.0659168,
+      "lng": -4.9804811,
+      "rating": 4.2,
+      "description": "Orta Atlas'ta kayak merkezi, kış sporları için Fas'ın alternatifi. Kar, dağ manzarası ve outdoor aktiviteler.",
+      "description_en": "Ski resort in Middle Atlas, Morocco's alternative for winter sports. Snow, mountain views, and outdoor activities.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/sidi-mguild.jpg",
+      "price": "free",
+      "tips": "Halı meraklıları için kaynak noktasıdır.",
+      "tips_en": "Source point for carpet enthusiasts.",
+      "subcategory": "Köy"
+    },
+    {
+      "id": "imouzzer-kandar",
+      "name": "Imouzzer Kandar",
+      "category": "Doğa",
+      "tags": [
+        "apples",
+        "nature",
+        "cool"
+      ],
+      "lat": 33.7311674,
+      "lng": -5.0156456,
+      "rating": 4.1,
+      "description": "Fes yakınındaki dağ kasabası, yaz serinliği ve doğa kaçışı. Elma bahçeleri, yeşillik ve sakin atmosfer.",
+      "description_en": "Mountain town near Fes for summer coolness and nature escape. Apple orchards, greenery, and peaceful atmosphere.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/imouzzer-kandar.jpg",
+      "price": "free",
+      "tips": "Yol üstü mola vermek için güzeldir.",
+      "tips_en": "Nice for a roadside break.",
+      "subcategory": "Kasaba"
+    },
+    {
+      "id": "bhalil",
+      "name": "Bhalil",
+      "category": "Görülmesi Gereken Yerler",
+      "tags": [
+        "cave houses",
+        "colorful",
+        "authentic"
+      ],
+      "lat": 33.872198,
+      "lng": -4.910005,
+      "rating": 4.3,
+      "description": "Fes yakınındaki troglodyte köyü, kayalara oyulmuş geleneksel evler. Berber kültürü, otantik yaşam ve keşif.",
+      "description_en": "Troglodyte village near Fes with traditional houses carved into rocks. Berber culture, authentic life, and exploration.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/bhalil.jpg",
+      "price": "free",
+      "tips": "Sefrou şehrine çok yakındır.",
+      "tips_en": "Very close to Sefrou city.",
+      "subcategory": "Köy"
+    },
+    {
+      "id": "sefrou-falls",
+      "name": "Sefrou Falls",
+      "category": "Doğa",
+      "tags": [
+        "waterfall",
+        "nature",
+        "walk"
+      ],
+      "lat": 33.828083,
+      "lng": -4.8521446,
+      "rating": 4.2,
+      "description": "Sefrou kasabasındaki şelaleler, doğa yürüyüşü ve piknik alanı. Serinlik, yeşillik ve hafta sonu kaçışı.",
+      "description_en": "Waterfalls in Sefrou town for nature walking and picnic area. Coolness, greenery, and weekend escape.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/sefrou-falls.jpg",
+      "price": "free",
+      "tips": "Haziran ayında Kiraz Festivali yapılır.",
+      "tips_en": "Cherry Festival is held in June.",
+      "subcategory": "Şelale"
+    },
+    {
+      "id": "sahara-tours-from-fes",
+      "name": "Sahara Tours from Fes",
+      "category": "Deneyim",
+      "tags": [
+        "desert",
+        "camel",
+        "trip"
+      ],
+      "lat": 34.0168098,
+      "lng": -5.0385421,
+      "rating": 4.8,
+      "description": "Fes'ten Sahra Çölü'ne çok günlük turlar, Merzouga kum tepeleri ve çöl kampı. Deve safarisi, yıldızlar ve macera.",
+      "description_en": "Multi-day tours from Fes to Sahara Desert, Merzouga sand dunes, and desert camp. Camel safari, stars, and adventure.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/sahara-tours-from-fes.jpg",
+      "price": "very high",
+      "tips": "Zamanınız varsa mutlaka çöle gidin.",
+      "tips_en": "If you have time, definitely go to desert.",
+      "subcategory": "Tur"
+    },
+    {
+      "id": "chefchaouen-day-trip",
+      "name": "Chefchaouen Day Trip",
+      "category": "Görülmesi Gereken Yerler",
+      "tags": [
+        "blue city",
+        "photography",
+        "trip"
+      ],
+      "lat": 34.0328688,
+      "lng": -4.9957382,
+      "rating": 4.9,
+      "description": "Fes'ten günübirlik Mavi Şehir Chefchaouen turları (yol yaklaşık 3.5 saat sürer).",
+      "description_en": "Day trip tours to Blue City Chefchaouen from Fes (trip takes about 3.5 hours).",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/chefchaouen-day-trip.jpg",
+      "price": "high",
+      "tips": "Erken çıkıp geç dönmeye değer.",
+      "tips_en": "Worth leaving early and returning late.",
+      "subcategory": "Tur"
+    },
+    {
+      "id": "atlas-film-studios-ouarzazate",
+      "name": "Atlas Film Studios (Ouarzazate)",
+      "category": "Görülmesi Gereken Yerler",
+      "tags": [
+        "movies",
+        "sets",
+        "desert"
+      ],
+      "lat": 30.9413815,
+      "lng": -6.9669833,
+      "rating": 4.5,
+      "description": "Dünyanın en büyük film stüdyosu, Hollywood ve uluslararası yapımların çekildiği yer. Gladiator, Game of Thrones ve sinema turu.",
+      "description_en": "World's largest film studio where Hollywood and international productions are shot. Gladiator, Game of Thrones, and cinema tour.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/atlas-film-studios-ouarzazate.jpg",
+      "price": "medium",
+      "tips": "Gladiator ve Kingdom of Heaven setlerini görebilirsiniz.",
+      "tips_en": "You can see Gladiator and Kingdom of Heaven sets.",
+      "subcategory": "Stüdyo"
+    },
+    {
+      "id": "hammam-cinq-mondes",
+      "name": "Hammam Cinq Mondes",
+      "category": "Deneyim",
+      "tags": [
+        "luxury",
+        "treatment",
+        "hotel"
+      ],
+      "lat": 34.0615721,
+      "lng": -4.9800089,
+      "rating": 4.8,
+      "description": "Lüks spa ve hammam merkezi, Fas ritüelleri ve uluslararası masaj teknikleri. Premium hizmet, aromaterapiteti ve rahatlama.",
+      "description_en": "Luxury spa and hammam center with Moroccan rituals and international massage techniques. Premium service, aromatherapy, and relaxation.",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/fes/hammam-cinq-mondes.jpg",
+      "price": "very high",
+      "tips": "Rahatlama garantilidir.",
+      "tips_en": "Relaxation guaranteed.",
+      "subcategory": "Spa"
+    }
+  ]
+}

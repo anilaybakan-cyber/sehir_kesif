@@ -1,0 +1,125 @@
+{
+  "routes": [
+    {
+      "overview_polyline": {
+        "points": "kemtInhiRMVK\\I`@Ed@Eh@?r@@z@Bp@@dAAx@Ar@Cd@C\\IfA]fDAJ?J?J@J@F@FBLBD@H@@@D@D@D?D?DADABADA@CBA@C?C?EBEDAFEHAJAPCf@KtBEhACbACrA?rA@hA?j@?j@AV?ZAZC\\CZC^M`ACLMd@IVKTSXSV]Z_@VWPWPu@d@[R_@Rc@T]Pe@Ta@Pg@RUJWFUFUBUBe@@O?_@Aq@K_@GYGq@Oa@Me@Oa@Og@Wa@W[UYW[Yc@e@Y_@W_@Wc@Ua@Ui@Sc@Qa@MYIUGOCBCBC?C?C?CCCCAECE?GAG?E@G?GBE@EBCCKAGCGCKCKe@iBQs@i@eCW_AEMEIEGABCBC@C?C?CACCACAEAEMFcB`AmBfACBCDAFIAC?C?C@s@\\Q_@QOOGSCGB"
+      },
+      "legs": [
+        {
+          "distance": {
+            "value": 1910.8,
+            "text": "1.9 km"
+          },
+          "duration": {
+            "value": 294.8,
+            "text": "4 mins"
+          },
+          "steps": [
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 298.5
+              },
+              "duration": {
+                "value": 41.8
+              },
+              "polyline": {
+                "points": "kemtInhiRMVK\\I`@Ed@Eh@?r@@z@Bp@@dAAx@Ar@Cd@C\\IfA]fDAJ?J?J@J@F@FBLBD@H"
+              },
+              "html_instructions": "depart Queen's Drive"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 26.7
+              },
+              "duration": {
+                "value": 4.7
+              },
+              "polyline": {
+                "points": "ygmtI~djR@@@D@D@D?D?DADABADA@CBA@C?C?"
+              },
+              "html_instructions": "roundabout Queen's Drive"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 1125.1
+              },
+              "duration": {
+                "value": 162
+              },
+              "polyline": {
+                "points": "ghmtIvfjREBEDAFEHAJAPCf@KtBEhACbACrA?rA@hA?j@?j@AV?ZAZC\\CZC^M`ACLMd@IVKTSXSV]Z_@VWPWPu@d@[R_@Rc@T]Pe@Ta@Pg@RUJWFUFUBUBe@@O?_@Aq@K_@GYGq@Oa@Me@Oa@Og@Wa@W[UYW[Yc@e@Y_@W_@Wc@Ua@Ui@Sc@Qa@MYIUGO"
+              },
+              "html_instructions": "exit roundabout Queen's Drive"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 204.8
+              },
+              "duration": {
+                "value": 38.4
+              },
+              "polyline": {
+                "points": "etntIf`kRCBCBC?C?C?CCCCAECE?GAG?E@G?GBE@EBCCKAGCGCKCKe@iBQs@i@eCW_AEMEIEG"
+              },
+              "html_instructions": "roundabout turn Queen's Drive"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 162.9
+              },
+              "duration": {
+                "value": 26.8
+              },
+              "polyline": {
+                "points": "{yntIlpjRABCBC@C?C?CACCACAEAEMFcB`AmBfACBCDAF"
+              },
+              "html_instructions": "roundabout turn Queen's Drive"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 92.7
+              },
+              "duration": {
+                "value": 21.1
+              },
+              "polyline": {
+                "points": "ebotIdujRIAC?C?C@s@\\Q_@QOOGSCGB"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "_gotIjtjR"
+              },
+              "html_instructions": "arrive "
+            }
+          ]
+        }
+      ],
+      "bounds": {
+        "northeast": {
+          "lat": 55.95264,
+          "lng": -3.16568
+        },
+        "southwest": {
+          "lat": 55.94214,
+          "lng": -3.1774
+        }
+      }
+    }
+  ],
+  "status": "OK"
+}

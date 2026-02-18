@@ -1,0 +1,268 @@
+{
+  "routes": [
+    {
+      "overview_polyline": {
+        "points": "{}hvGm|m\\??E^x@TNDbAZHFB?APUdAIb@CFETK\\GRENRHvAj@fAVJBHDz@RB?p@PJ?FC@GBi@?K?yB?OVOVHDSf@iCNq@BOF]BQ?G@C|@sEPw@@A@ABAB?BATBbEtE^`@BDBBBDHHFKDKBKBG^_B@I@EDOKIAAcBkAg@[qCiBA?A?AAEAEAQp@AFCDCJADI^CF?@g@hCa@vBAFAB?@CFOHOKaBw@c@QCAMCw@SeASEACAGAw@DEAWG[Ke@OMEARCNUvAAL"
+      },
+      "legs": [
+        {
+          "distance": {
+            "value": 1717.8,
+            "text": "1.7 km"
+          },
+          "duration": {
+            "value": 365,
+            "text": "6 mins"
+          },
+          "steps": [
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0.1
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "{}hvGm|m\\??"
+              },
+              "html_instructions": "depart Rue du Palais de Justice"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "{}hvGm|m\\"
+              },
+              "html_instructions": "arrive Rue du Palais de Justice"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 104
+              },
+              "duration": {
+                "value": 48.4
+              },
+              "polyline": {
+                "points": "{}hvGm|m\\E^x@TNDbAZHFB?"
+              },
+              "html_instructions": "depart Rue du Palais de Justice"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 94.3
+              },
+              "duration": {
+                "value": 27.4
+              },
+              "polyline": {
+                "points": "eyhvGmym\\APUdAIb@CFETK\\GREN"
+              },
+              "html_instructions": "end of road Rue de la Bombarde"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 272.2
+              },
+              "duration": {
+                "value": 44.5
+              },
+              "polyline": {
+                "points": "k{hvGqrm\\RHvAj@fAVJBHDz@RB?p@PJ?FC@GBi@?K?yB?O"
+              },
+              "html_instructions": "turn Rue Tramassac"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 29
+              },
+              "duration": {
+                "value": 9.1
+              },
+              "polyline": {
+                "points": "uphvG_um\\VOVH"
+              },
+              "html_instructions": "turn Avenue du Doyenn\u00e9"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 117.7
+              },
+              "duration": {
+                "value": 19.5
+              },
+              "polyline": {
+                "points": "eohvGeum\\DSf@iCNq@BOF]BQ?G"
+              },
+              "html_instructions": "turn Avenue Adolphe Max"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 137.1
+              },
+              "duration": {
+                "value": 24.6
+              },
+              "polyline": {
+                "points": "wlhvG}}m\\@C|@sEPw@@A@ABAB?BATB"
+              },
+              "html_instructions": "new name Pont Bonaparte"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 175.6
+              },
+              "duration": {
+                "value": 33.5
+              },
+              "polyline": {
+                "points": "_ihvGqfn\\bEtE^`@BDBBBDHH"
+              },
+              "html_instructions": "turn Quai Tilsitt"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 75.8
+              },
+              "duration": {
+                "value": 18.3
+              },
+              "polyline": {
+                "points": "eahvG_~m\\FKDKBKBG^_B@I@EDO"
+              },
+              "html_instructions": "turn Rue Antoine de Saint-Exup\u00e9ry"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 198
+              },
+              "duration": {
+                "value": 37.3
+              },
+              "polyline": {
+                "points": "e_hvGkcn\\KIAAcBkAg@[qCiBA?A?AAEAEA"
+              },
+              "html_instructions": "turn Rue du Plat"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 111.7
+              },
+              "duration": {
+                "value": 18.5
+              },
+              "polyline": {
+                "points": "cihvGojn\\Qp@AFCDCJADI^CF?@g@hC"
+              },
+              "html_instructions": "turn Place Antonin Gourju"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "wkhvGibn\\"
+              },
+              "html_instructions": "arrive Pont Bonaparte"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 69.6
+              },
+              "duration": {
+                "value": 12.7
+              },
+              "polyline": {
+                "points": "wkhvGibn\\a@vBAFAB?@CFOH"
+              },
+              "html_instructions": "depart Pont Bonaparte"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 182.4
+              },
+              "duration": {
+                "value": 29.2
+              },
+              "polyline": {
+                "points": "qmhvGq}m\\OKaBw@c@QCAMCw@SeASEACAGA"
+              },
+              "html_instructions": "turn Quai Romain Rolland"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 94.7
+              },
+              "duration": {
+                "value": 21.9
+              },
+              "polyline": {
+                "points": "iwhvG{an\\w@DEAWG[Ke@OME"
+              },
+              "html_instructions": "continue Quai Romain Rolland"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 55.7
+              },
+              "duration": {
+                "value": 20.1
+              },
+              "polyline": {
+                "points": "o|hvGacn\\ARCNUvAAL"
+              },
+              "html_instructions": "turn Rue du Palais de Justice"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "m}hvGw~m\\"
+              },
+              "html_instructions": "arrive Rue du Palais de Justice"
+            }
+          ]
+        }
+      ],
+      "bounds": {
+        "northeast": {
+          "lat": 45.76241,
+          "lng": 4.83
+        },
+        "southwest": {
+          "lat": 45.75747,
+          "lng": 4.82554
+        }
+      }
+    }
+  ],
+  "status": "OK"
+}

@@ -1,0 +1,346 @@
+{
+  "routes": [
+    {
+      "overview_polyline": {
+        "points": "mhhkFnbvv@We@a@h@OR_@^JR@N@L[r@GRDXY`AK@qAb@y@NkATCACCCKOs@CGEGGEKOIMCCSu@GI?AI@A?A?k@LA?A?C?A?]GYG}A[[IECCAACCIAE?CM?C?UA_AKMAS@S@e@BE?G?S@U?MASCOAKCC?YGIAKA?@SlCSbCAJDTr@vBr@rBMBQBPCLCHAZWV[BENm@R{@VmAFKD?L?Da@@KBWJeABW@K@O@YBe@?M@C~@JB?P@B?L?D?DAB?DARIXK@ALGTI?CCIMa@EICEAAYy@AICOCGCEa@gCYcBAIc@Ba@@O??s@Au@D}APsA\\mBHc@F@b@Fd@B@I?OHg@Z{AP?BT?PDNNb@`@UHELKBAFCdBiADAFC"
+      },
+      "legs": [
+        {
+          "distance": {
+            "value": 2189.9,
+            "text": "2.2 km"
+          },
+          "duration": {
+            "value": 396.4,
+            "text": "6 mins"
+          },
+          "steps": [
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 21.4
+              },
+              "duration": {
+                "value": 8.9
+              },
+              "polyline": {
+                "points": "mhhkFnbvv@We@"
+              },
+              "html_instructions": "depart Largo de Santa Marinha"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 60.9
+              },
+              "duration": {
+                "value": 13.8
+              },
+              "polyline": {
+                "points": "eihkFhavv@a@h@OR_@^"
+              },
+              "html_instructions": "turn Travessa de Santa Marinha"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 104.7
+              },
+              "duration": {
+                "value": 15.2
+              },
+              "polyline": {
+                "points": "wkhkFfdvv@JR@N@L[r@GRDXY`A"
+              },
+              "html_instructions": "end of road Rua de Santa Marinha"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 131.4
+              },
+              "duration": {
+                "value": 19.4
+              },
+              "polyline": {
+                "points": "_mhkF|jvv@K@qAb@y@NkAT"
+              },
+              "html_instructions": "turn Cal\u00e7ada da Gra\u00e7a"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 102
+              },
+              "duration": {
+                "value": 15.8
+              },
+              "polyline": {
+                "points": "cthkFhmvv@CACCCKOs@CGEGGEKOIMCCSu@GI"
+              },
+              "html_instructions": "turn Largo da Gra\u00e7a"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 362.2
+              },
+              "duration": {
+                "value": 58
+              },
+              "polyline": {
+                "points": "gwhkFjgvv@?AI@A?A?k@LA?A?C?A?]GYG}A[[IECCAACCIAE?CM?C?UA_AKMAS@S@e@BE?G?S@U?MASCOAKCC?YGIAKA"
+              },
+              "html_instructions": "end of road Largo da Gra\u00e7a"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 255.7
+              },
+              "duration": {
+                "value": 41.4
+              },
+              "polyline": {
+                "points": "}jikFfdvv@?@SlCSbCAJDTr@vBr@rB"
+              },
+              "html_instructions": "turn Rua da Senhora do Monte"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 18
+              },
+              "duration": {
+                "value": 2.6
+              },
+              "polyline": {
+                "points": "yhikFhuvv@MBQB"
+              },
+              "html_instructions": "end of road Rua da Senhora do Monte"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "yiikFpuvv@"
+              },
+              "html_instructions": "arrive Rua da Senhora do Monte"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 18
+              },
+              "duration": {
+                "value": 30.1
+              },
+              "polyline": {
+                "points": "yiikFpuvv@PCLC"
+              },
+              "html_instructions": "depart Rua da Senhora do Monte"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 150.7
+              },
+              "duration": {
+                "value": 25.4
+              },
+              "polyline": {
+                "points": "yhikFhuvv@HAZWV[BENm@R{@VmAFKD?L?"
+              },
+              "html_instructions": "new name Cal\u00e7ada da Senhora do Monte"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 121.3
+              },
+              "duration": {
+                "value": 19.5
+              },
+              "polyline": {
+                "points": "_dikFhmvv@Da@@KBWJeABW@K@O@YBe@?M@C"
+              },
+              "html_instructions": "turn Rua Damasceno Monteiro"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 38.9
+              },
+              "duration": {
+                "value": 5.6
+              },
+              "polyline": {
+                "points": "wbikFvdvv@~@JB?"
+              },
+              "html_instructions": "end of road Largo da Gra\u00e7a"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "s`ikFbevv@"
+              },
+              "html_instructions": "arrive Largo da Gra\u00e7a"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 82.7
+              },
+              "duration": {
+                "value": 18.1
+              },
+              "polyline": {
+                "points": "s`ikFbevv@P@B?L?D?DAB?DARIXK@ALGTI"
+              },
+              "html_instructions": "depart Largo da Gra\u00e7a"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 194.2
+              },
+              "duration": {
+                "value": 31.7
+              },
+              "polyline": {
+                "points": "e|hkFvcvv@?CCIMa@EICEAAYy@AICOCGCEa@gCYcBAI"
+              },
+              "html_instructions": "turn Travessa da Pereira"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 47.2
+              },
+              "duration": {
+                "value": 9
+              },
+              "polyline": {
+                "points": "i`ikF|vuv@c@Ba@@O?"
+              },
+              "html_instructions": "end of road Rua da Senhora da Gl\u00f3ria"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 192.2
+              },
+              "duration": {
+                "value": 28.6
+              },
+              "polyline": {
+                "points": "_cikFbwuv@?s@Au@D}APsA\\mBHc@"
+              },
+              "html_instructions": "turn Rua Leite de Vasconcelos"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 46.2
+              },
+              "duration": {
+                "value": 11.4
+              },
+              "polyline": {
+                "points": "aaikFtiuv@F@b@Fd@B"
+              },
+              "html_instructions": "turn Rua B da Quinta do Ferro"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 72
+              },
+              "duration": {
+                "value": 10.8
+              },
+              "polyline": {
+                "points": "o~hkFbjuv@@I?OHg@Z{A"
+              },
+              "html_instructions": "turn Rua C da Quinta do Ferro"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 10
+              },
+              "duration": {
+                "value": 2.7
+              },
+              "polyline": {
+                "points": "g}hkFdeuv@P?"
+              },
+              "html_instructions": "continue Rua C"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 43.8
+              },
+              "duration": {
+                "value": 11.6
+              },
+              "polyline": {
+                "points": "u|hkFdeuv@BT?PDNNb@"
+              },
+              "html_instructions": "turn Rua de Entre-Muros do Mirante"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 116.4
+              },
+              "duration": {
+                "value": 16.8
+              },
+              "polyline": {
+                "points": "{{hkF`huv@`@UHELKBAFCdBiADAFC"
+              },
+              "html_instructions": "turn Travessa do Conde de Avintes"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "avhkFbduv@"
+              },
+              "html_instructions": "arrive Travessa do Conde de Avintes"
+            }
+          ]
+        }
+      ],
+      "bounds": {
+        "northeast": {
+          "lat": 38.71956,
+          "lng": -9.12466
+        },
+        "southwest": {
+          "lat": 38.71383,
+          "lng": -9.13257
+        }
+      }
+    }
+  ],
+  "status": "OK"
+}

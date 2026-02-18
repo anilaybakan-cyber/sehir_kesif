@@ -1,0 +1,645 @@
+{
+  "routes": [
+    {
+      "overview_polyline": {
+        "points": "{ijkFr`sv@ZXt@h@NJhClBFFFHJRDHDJ@H@T?LCHVV^Rf@XzDdCh@TlChALFFBHFFFNJDB@BHNNXJPDHLRHNNNFNDFDFFFFFHHHDHBJBfARdAVNDNDJDDBh@d@DDFFFFDFHHVVHHFFDFvBxB^h@~@pADFDDVXf@n@hBlBr@n@LZZ\\m@f@q@j@]Ja@UUAlBlC?j@AxAB`@Dl@FlC?f@Yp@GN?DAD@BBTHPVp@Vv@v@~BR\\DRDX@HBV@PLtD@LJbABN?BLE@B@JXdAb@tAL^JR^_@NSb@d@F@L@PUQWWe@a@h@OR_@^JR@N@L[r@GRDXY`ADL@HBH?F@HLO\\c@PUZQTCb@ATAp@CB?j@AL?L?JA@?NAF?HBB?LDDBF@B@D@D?FADCBEFGb@g@FGBEFCDAD?FDFHNPDDLBDBVFDBTFFBB@B?F?F?DA@?^E@?F?H@FDJFTRHDHJBD@DDFNVLRBJBDBDHX@DJb@Jd@@HVfA@B@D@B?F@F@TBRFxA@T@D?BBFDFDDTPDDBH@F?H?HCHCJK\\ELCJ?@Ob@Of@CHCDY`A@HBNLT@BFJ@DDPLx@?@@F@B@H?DJj@BTPbA@H?B@B@JN~@Lx@DT@LN`AN`ABLBLNbAPfA@LA?IBs@NiA^uAj@QHGBG@_Bb@Dd@@T@JGD{Az@w@`@GDTz@GBQL{@f@IDQo@EMOFK?UHi@AuAAk@AC@SAA?A?A?C?A@A@o@d@A?A@AAA??ACG?AAA@C?A@?r@i@BCBE@E@E@C?E?G?CCMAGKk@CQ_Ct@a@LC?ACACCECSEYDOODA@C@QFKDE@C?CCCCAGKk@Ks@Gc@AOTc@EGCIEMCQu@CYBKFILKPQNg@`@f@a@POJQHMJGXCt@BGa@?qA]EEWAWDOk@_@{@k@KGUMYQe@Su@Ya@QGC?EEWCWaAoBEG?G?G@EBCBAJADHHJHHLJj@TB@t@Xt@XTJ^NJD|@`@JBLFRJLHRNNLLFHDF@F@J?H?H?PEj@M@?@?@?@?B?@@@?@?@?B@B@TX@?@?@?x@WDAB?D?B?@@B@@@BB@@?@@@?BJp@@H@D@D?B@B@D@BBD@BBBLRBBBB@D@BBD?DJn@?D?D?FAFCFABADCBEBG@MDi@NeAZgA\\a@LEBA@EDCF?DAF?F@HBNHZBD@BBB@@@B@?@@@@@?B?LB\\Kb@O`@M|Ag@FA\\CH?HAPEhCu@`Cq@HChCu@~@WjA]|Bq@HC@?BLNbAPfA@LBJBNDNFNFNHLHJHJJHNLNJPHPFLDB@PDDBDDDFB@@@@?RDDB@@BB@BBF?@?D@D?DAH?T?HAP@RB`BAf@AP@d@@p@@`@?JG?U?UAMAk@AaBGW?uBJ_@?M?K?}@DE?A@A?A@CBA@AFA@"
+      },
+      "legs": [
+        {
+          "distance": {
+            "value": 7306.1,
+            "text": "7.3 km"
+          },
+          "duration": {
+            "value": 1009.1,
+            "text": "16 mins"
+          },
+          "steps": [
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 214.5
+              },
+              "duration": {
+                "value": 19.8
+              },
+              "polyline": {
+                "points": "{ijkFr`sv@ZXt@h@NJhClBFFFHJRDHDJ@H@T?LCH"
+              },
+              "html_instructions": "depart Rua da Madre de Deus"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 355.7
+              },
+              "duration": {
+                "value": 36.5
+              },
+              "polyline": {
+                "points": "gajkFdjsv@VV^Rf@XzDdCh@TlChALFFBHFFFNJDB@BHNNX"
+              },
+              "html_instructions": "turn Cal\u00e7ada da Cruz da Pedra"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 292.3
+              },
+              "duration": {
+                "value": 30
+              },
+              "polyline": {
+                "points": "yoikFjvsv@JPDHLRHNNNFNDFDFFFFFHHHDHBJBfARdAVNDNDJDDBh@d@DDFFFFDFHHVVHH"
+              },
+              "html_instructions": "new name Rua de Santa Apol\u00f3nia"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 181
+              },
+              "duration": {
+                "value": 16.3
+              },
+              "polyline": {
+                "points": "_bikFt`tv@FFDFvBxB^h@~@pADFDD"
+              },
+              "html_instructions": "new name Cal\u00e7ada de Santa Apol\u00f3nia"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 193.7
+              },
+              "duration": {
+                "value": 23.1
+              },
+              "polyline": {
+                "points": "mzhkFhitv@VXf@n@hBlBr@n@LZZ\\"
+              },
+              "html_instructions": "new name Rua da Bica do Sapato"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 115.3
+              },
+              "duration": {
+                "value": 24.1
+              },
+              "polyline": {
+                "points": "erhkFjrtv@m@f@q@j@]Ja@UUA"
+              },
+              "html_instructions": "turn Cal\u00e7ada dos Cesteiros"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 87.1
+              },
+              "duration": {
+                "value": 12.6
+              },
+              "polyline": {
+                "points": "{whkFrttv@lBlC"
+              },
+              "html_instructions": "turn Largo Doutor Bernardino Ant\u00f3nio Gomes (Pai)"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 93.8
+              },
+              "duration": {
+                "value": 13.5
+              },
+              "polyline": {
+                "points": "mthkF`ytv@?j@AxAB`@Dl@"
+              },
+              "html_instructions": "continue Largo Doutor Bernardino Ant\u00f3nio Gomes (Pai)"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 295.4
+              },
+              "duration": {
+                "value": 43.2
+              },
+              "polyline": {
+                "points": "ethkFv_uv@FlC?f@Yp@GN?DAD@BBTHPVp@Vv@v@~BR\\DRDX"
+              },
+              "html_instructions": "new name Campo de Santa Clara"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 147.5
+              },
+              "duration": {
+                "value": 26.7
+              },
+              "polyline": {
+                "points": "iphkF|ruv@@HBV@PLtD@LJbABN?B"
+              },
+              "html_instructions": "turn Arco Grande de Cima"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 8.5
+              },
+              "duration": {
+                "value": 2.3
+              },
+              "polyline": {
+                "points": "aohkFl}uv@LE"
+              },
+              "html_instructions": "end of road Rua da Voz do Oper\u00e1rio"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 110
+              },
+              "duration": {
+                "value": 21.1
+              },
+              "polyline": {
+                "points": "snhkFf}uv@@B@JXdAb@tAL^JR"
+              },
+              "html_instructions": "turn Rua de S\u00e3o Vicente"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 35.1
+              },
+              "duration": {
+                "value": 6.3
+              },
+              "polyline": {
+                "points": "wkhkFfdvv@^_@NS"
+              },
+              "html_instructions": "turn Travessa de Santa Marinha"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 65.7
+              },
+              "duration": {
+                "value": 9.6
+              },
+              "polyline": {
+                "points": "gjhkFrbvv@b@d@F@L@PUQW"
+              },
+              "html_instructions": "turn Largo de Santa Marinha"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "mhhkFnbvv@"
+              },
+              "html_instructions": "arrive Largo de Santa Marinha"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 21.4
+              },
+              "duration": {
+                "value": 8.9
+              },
+              "polyline": {
+                "points": "mhhkFnbvv@We@"
+              },
+              "html_instructions": "depart Largo de Santa Marinha"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 60.9
+              },
+              "duration": {
+                "value": 13.8
+              },
+              "polyline": {
+                "points": "eihkFhavv@a@h@OR_@^"
+              },
+              "html_instructions": "turn Travessa de Santa Marinha"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 104.7
+              },
+              "duration": {
+                "value": 15.5
+              },
+              "polyline": {
+                "points": "wkhkFfdvv@JR@N@L[r@GRDXY`A"
+              },
+              "html_instructions": "end of road Rua de Santa Marinha"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 23.9
+              },
+              "duration": {
+                "value": 9.2
+              },
+              "polyline": {
+                "points": "_mhkF|jvv@DL@HBH?F@H"
+              },
+              "html_instructions": "turn Cal\u00e7ada da Gra\u00e7a"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 46.6
+              },
+              "duration": {
+                "value": 4.2
+              },
+              "polyline": {
+                "points": "qlhkFplvv@LO\\c@PU"
+              },
+              "html_instructions": "turn Largo Rodrigues de Freitas"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 461.6
+              },
+              "duration": {
+                "value": 62.9
+              },
+              "polyline": {
+                "points": "sjhkFfjvv@ZQTCb@ATAp@CB?j@AL?L?JA@?NAF?HBB?LDDBF@B@D@D?FADCBEFGb@g@FGBEFCDAD?FDFHNPDDLBDBVFDBTFFBB@B?F?F?DA@?^E@?F?H@FDJFTRHDHJBD@DDFNVLRBJBDBD"
+              },
+              "html_instructions": "new name Rua de S\u00e3o Tom\u00e9"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 372.4
+              },
+              "duration": {
+                "value": 52
+              },
+              "polyline": {
+                "points": "msgkFvmvv@HX@DJb@Jd@@HVfA@B@D@B?F@F@TBRFxA@T@D?BBFDFDDTPDDBH@F?H?HCHCJK\\ELCJ?@Ob@Of@CHCDY`A@HBNLT@BFJ"
+              },
+              "html_instructions": "new name Rua Augusto Rosa"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 340.5
+              },
+              "duration": {
+                "value": 52.7
+              },
+              "polyline": {
+                "points": "eqgkFvewv@@DDPLx@?@@F@B@H?DJj@BTPbA@H?B@B@JN~@Lx@DT@LN`AN`ABLBLNbAPfA@L"
+              },
+              "html_instructions": "new name Rua da Concei\u00e7\u00e3o"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 240.1
+              },
+              "duration": {
+                "value": 35.5
+              },
+              "polyline": {
+                "points": "okgkFb}wv@A?IBs@NiA^uAj@QHGBG@_Bb@Dd@@T@J"
+              },
+              "html_instructions": "turn Rua Nova do Almada"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 131.2
+              },
+              "duration": {
+                "value": 20.9
+              },
+              "polyline": {
+                "points": "gvgkF~cxv@GD{Az@w@`@GDTz@"
+              },
+              "html_instructions": "turn Cal\u00e7ada do Sacramento"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 59.9
+              },
+              "duration": {
+                "value": 10.8
+              },
+              "polyline": {
+                "points": "uzgkFdixv@GBQL{@f@ID"
+              },
+              "html_instructions": "turn Largo do Carmo"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 29.9
+              },
+              "duration": {
+                "value": 4.3
+              },
+              "polyline": {
+                "points": "u}gkFdkxv@Qo@EM"
+              },
+              "html_instructions": "continue Largo do Carmo"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "m~gkFfixv@"
+              },
+              "html_instructions": "arrive Largo do Carmo"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 380.9
+              },
+              "duration": {
+                "value": 55.3
+              },
+              "polyline": {
+                "points": "m~gkFfixv@OFK?UHi@AuAAk@AC@SAA?A?A?C?A@A@o@d@A?A@AAA??ACG?AAA@C?A@?r@i@BCBE@E@E@C?E?G?CCMAGKk@CQ_Ct@a@L"
+              },
+              "html_instructions": "depart Cal\u00e7ada do Carmo"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 37.9
+              },
+              "duration": {
+                "value": 17.4
+              },
+              "polyline": {
+                "points": "alhkFbgxv@C?ACACCECSEYDO"
+              },
+              "html_instructions": "turn Pra\u00e7a Dom Jo\u00e3o da C\u00e2mara"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 132.8
+              },
+              "duration": {
+                "value": 31.9
+              },
+              "polyline": {
+                "points": "qlhkFvdxv@ODA@C@QFKDE@C?CCCCAGKk@Ks@Gc@AOTc@"
+              },
+              "html_instructions": "turn Pra\u00e7a Dom Jo\u00e3o da C\u00e2mara"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 24.7
+              },
+              "duration": {
+                "value": 6.2
+              },
+              "polyline": {
+                "points": "eohkFh_xv@EGCIEMCQ"
+              },
+              "html_instructions": "turn Largo de S\u00e3o Domingos"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 109.9
+              },
+              "duration": {
+                "value": 15.9
+              },
+              "polyline": {
+                "points": "yohkFv}wv@u@CYBKFILKPQNg@`@"
+              },
+              "html_instructions": "turn Escadinhas da Barroca"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "euhkFp`xv@"
+              },
+              "html_instructions": "arrive P\u00e1tio do Salema"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 109.9
+              },
+              "duration": {
+                "value": 50.1
+              },
+              "polyline": {
+                "points": "euhkFp`xv@f@a@POJQHMJGXCt@B"
+              },
+              "html_instructions": "depart P\u00e1tio do Salema"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 124.5
+              },
+              "duration": {
+                "value": 18
+              },
+              "polyline": {
+                "points": "yohkFv}wv@Ga@?qA]EEWAWDOk@_@"
+              },
+              "html_instructions": "turn Largo de S\u00e3o Domingos"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 158.9
+              },
+              "duration": {
+                "value": 22.9
+              },
+              "polyline": {
+                "points": "mrhkF|vwv@{@k@KGUMYQe@Su@Ya@QGC?E"
+              },
+              "html_instructions": "new name Rua do Arco da Gra\u00e7a"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 108
+              },
+              "duration": {
+                "value": 15.9
+              },
+              "polyline": {
+                "points": "kzhkF~qwv@EWCWaAoBEG?G?G@EBCBAJA"
+              },
+              "html_instructions": "new name Rua Jos\u00e9 Ant\u00f3nio Serrano"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 352.1
+              },
+              "duration": {
+                "value": 23.3
+              },
+              "polyline": {
+                "points": "g|hkFxkwv@DHHJHHLJj@TB@t@Xt@XTJ^NJD|@`@JBLFRJLHRNNLLFHDF@F@J?H?H?PEj@M@?@?@?@?B?@@@?@?@?B@B@"
+              },
+              "html_instructions": "turn Rua da Palma"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 217.6
+              },
+              "duration": {
+                "value": 23.2
+              },
+              "polyline": {
+                "points": "ajhkFxswv@TX@?@?@?x@WDAB?D?B?@@B@@@BB@@?@@@?BJp@@H@D@D?B@B@D@BBD@BBBLRBBBB@D@BBD?DJn@?D?D?FAFCFABADCBEBG@MD"
+              },
+              "html_instructions": "turn Pra\u00e7a da Figueira"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 319
+              },
+              "duration": {
+                "value": 32.5
+              },
+              "polyline": {
+                "points": "eehkFt|wv@i@NeAZgA\\a@LEBA@EDCF?DAF?F@HBNHZBD@BBB@@@B@?@@@@@?B?LB\\Kb@O`@M|Ag@FA"
+              },
+              "html_instructions": "rotary Rua \u00c1urea"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 441.4
+              },
+              "duration": {
+                "value": 53.5
+              },
+              "polyline": {
+                "points": "qdhkFt`xv@\\CH?HAPEhCu@`Cq@HChCu@~@WjA]|Bq@HC@?"
+              },
+              "html_instructions": "exit rotary Rua \u00c1urea"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 76.2
+              },
+              "duration": {
+                "value": 8.8
+              },
+              "polyline": {
+                "points": "wlgkFzwwv@BLNbAPfA@L"
+              },
+              "html_instructions": "turn Rua da Concei\u00e7\u00e3o"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 176.6
+              },
+              "duration": {
+                "value": 15.6
+              },
+              "polyline": {
+                "points": "okgkFb}wv@BJBNDNFNFNHLHJHJJHNLNJPHPFLDB@PDDBDDDFB@@@@?RDDB@@BB@BBF?@"
+              },
+              "html_instructions": "new name Cal\u00e7ada de S\u00e3o Francisco"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 169
+              },
+              "duration": {
+                "value": 18
+              },
+              "polyline": {
+                "points": "_dgkFldxv@?D@D?DAH?T?HAP@RB`BAf@AP@d@@p@@`@?J"
+              },
+              "html_instructions": "new name Rua V\u00edtor Cordon"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 277.8
+              },
+              "duration": {
+                "value": 24.8
+              },
+              "polyline": {
+                "points": "ycgkFppxv@G?U?UAMAk@AaBGW?uBJ_@?M?K?}@DE?A@A?A@CBA@AFA@"
+              },
+              "html_instructions": "turn Rua dos Duques de Bragan\u00e7a"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "esgkFhqxv@"
+              },
+              "html_instructions": "arrive Largo do Chiado"
+            }
+          ]
+        }
+      ],
+      "bounds": {
+        "northeast": {
+          "lat": 38.7243,
+          "lng": -9.11386
+        },
+        "southwest": {
+          "lat": 38.70797,
+          "lng": -9.14213
+        }
+      }
+    }
+  ],
+  "status": "OK"
+}

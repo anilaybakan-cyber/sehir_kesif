@@ -1,0 +1,346 @@
+{
+  "routes": [
+    {
+      "overview_polyline": {
+        "points": "qxslJmis`Av@}ED[Fc@MMk@i@g@e@GGACCAF]BOJm@@IBM^iCHg@b@oCD[`@mCTsAFc@He@VeBPiAFe@Hc@ZsBPgAHk@PLr@`@jHfEJFzEpCLFNJPHPFLDHBH@PBPB\\FN@P?TCJCHC\\OZO|@e@LILIJMNOHKB?@?JVPXFTJ^D^@\\@RABAB?BAB?D?B@D?D@B@B@B@@@@B?@?JJFDNNHNLRDNHXZ`A@FHXL^FNL\\N\\NZNXvCfFBBJXBFDHHP?D?HBFBJJNRR\\XLFFABABEBE@E@M@KAG?GAGEICGEGKKGIKIIIEEAS?Q?c@A}@Cc@S{@S_@w@cAa@q@u@kAi@q@s@u@]Y_Au@eAs@k@]_@Oa@KU?YBU@_@HSF]Pe@XgBdBk@p@_@p@c@`Am@fAi@dAe@nAm@jBg@~A]vAa@|BI^S`Bi@hEiAvJ{@lH[jDCVGt@Gv@GzAG|AAx@Ax@WtCI\\KZMTIFIFUDQEKGEESSc@g@gCcDIKIKIKEZIj@ShAAFG`@E\\c@lCEXCTsAxIADCREVw@`FAJGXJJnBfBd@`@HHl@h@j@r@HHDYD[r@uEDUJJNL|A|A~@|@`@b@BBDDzBjA~Ah@\\Fh@CTYbA_A]]"
+      },
+      "legs": [
+        {
+          "distance": {
+            "value": 4263.2,
+            "text": "4.3 km"
+          },
+          "duration": {
+            "value": 491.5,
+            "text": "8 mins"
+          },
+          "steps": [
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 89
+              },
+              "duration": {
+                "value": 17.4
+              },
+              "polyline": {
+                "points": "qxslJmis`Av@}ED[Fc@"
+              },
+              "html_instructions": "depart Operagata"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 68.8
+              },
+              "duration": {
+                "value": 11.8
+              },
+              "polyline": {
+                "points": "kvslJkrs`AMMk@i@g@e@GGACCA"
+              },
+              "html_instructions": "turn Nylandsveien"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 387.6
+              },
+              "duration": {
+                "value": 52.9
+              },
+              "polyline": {
+                "points": "{yslJwus`AF]BOJm@@IBM^iCHg@b@oCD[`@mCTsAFc@He@VeBPiAFe@Hc@ZsBPgAHk@"
+              },
+              "html_instructions": "turn Dronning Eufemias gate"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 431.9
+              },
+              "duration": {
+                "value": 40.9
+              },
+              "polyline": {
+                "points": "kpslJw|t`APLr@`@jHfEJFzEpCLFNJPHPFLDHBH@PBPB"
+              },
+              "html_instructions": "turn Kong H\u00e5kon 5.s gate"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 170.6
+              },
+              "duration": {
+                "value": 15.4
+              },
+              "polyline": {
+                "points": "iyrlJknt`A\\FN@P?TCJCHC\\OZO|@e@LILIJMNOHK"
+              },
+              "html_instructions": "off ramp "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 3.6
+              },
+              "duration": {
+                "value": 0.5
+              },
+              "polyline": {
+                "points": "cprlJqrt`AB?@?"
+              },
+              "html_instructions": "roundabout Kongshavnveien"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 64.3
+              },
+              "duration": {
+                "value": 6
+              },
+              "polyline": {
+                "points": "}orlJqrt`AJVPXFTJ^D^@\\@R"
+              },
+              "html_instructions": "exit roundabout Kongshavnveien"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 22.1
+              },
+              "duration": {
+                "value": 1.5
+              },
+              "polyline": {
+                "points": "anrlJwlt`AABAB?BAB?D?B@D?D@B@B@B@@@@B?@?"
+              },
+              "html_instructions": "roundabout Kongshavnveien"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 288.4
+              },
+              "duration": {
+                "value": 26.1
+              },
+              "polyline": {
+                "points": "umrlJakt`AJJFDNNHNLRDNHXZ`A@FHXL^FNL\\N\\NZNXvCfFBBJXBFDHHP"
+              },
+              "html_instructions": "exit roundabout Kongshavnveien"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 129.1
+              },
+              "duration": {
+                "value": 12.2
+              },
+              "polyline": {
+                "points": "qarlJavs`A?D?HBFBJJNRR\\XLFFABABEBE@E@M@KAG?GAGEICGEGKKGIKIIIEE"
+              },
+              "html_instructions": "roundabout "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 240.2
+              },
+              "duration": {
+                "value": 21.6
+              },
+              "polyline": {
+                "points": "g`rlJiws`AAS?Q?c@A}@Cc@S{@S_@w@cAa@q@u@kAi@q@s@u@"
+              },
+              "html_instructions": "exit roundabout "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 651.2
+              },
+              "duration": {
+                "value": 46.2
+              },
+              "polyline": {
+                "points": "eirlJ{ht`A]Y_Au@eAs@k@]_@Oa@KU?YBU@_@HSF]Pe@XgBdBk@p@_@p@c@`Am@fAi@dAe@nAm@jBg@~A]vAa@|B"
+              },
+              "html_instructions": "merge Operatunnelen / Bj\u00f8rvikatunnelen"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "agslJips`A"
+              },
+              "html_instructions": "arrive Operatunnelen / Bj\u00f8rvikatunnelen"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 214.2
+              },
+              "duration": {
+                "value": 13.7
+              },
+              "polyline": {
+                "points": "agslJips`AI^S`Bi@hEiAvJ"
+              },
+              "html_instructions": "depart Operatunnelen / Bj\u00f8rvikatunnelen"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "skslJezr`A"
+              },
+              "html_instructions": "arrive Operatunnelen / Bj\u00f8rvikatunnelen"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 265.3
+              },
+              "duration": {
+                "value": 17.1
+              },
+              "polyline": {
+                "points": "skslJezr`A{@lH[jDCVGt@Gv@GzAG|AAx@Ax@"
+              },
+              "html_instructions": "depart Operatunnelen / Bj\u00f8rvikatunnelen"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 256.7
+              },
+              "duration": {
+                "value": 18.7
+              },
+              "polyline": {
+                "points": "soslJw}q`AWtCI\\KZMTIFIFUDQEKGEESSc@g@gCcDIKIK"
+              },
+              "html_instructions": "off ramp Bj\u00f8rvikatunnelen"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 338.2
+              },
+              "duration": {
+                "value": 71.3
+              },
+              "polyline": {
+                "points": "qzslJg~q`AIKEZIj@ShAAFG`@E\\c@lCEXCTsAxIADCREVw@`FAJGX"
+              },
+              "html_instructions": "turn R\u00e5dhusgata"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 167.8
+              },
+              "duration": {
+                "value": 30.9
+              },
+              "polyline": {
+                "points": "_ctlJg}p`AJJnBfBd@`@HHl@h@j@r@HH"
+              },
+              "html_instructions": "turn Kongens gate"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 89.7
+              },
+              "duration": {
+                "value": 15.6
+              },
+              "polyline": {
+                "points": "ozslJ_up`ADYD[r@uEDU"
+              },
+              "html_instructions": "end of road Myntgata"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 215.6
+              },
+              "duration": {
+                "value": 24
+              },
+              "polyline": {
+                "points": "ixslJa~p`AJJNL|A|A~@|@`@b@BBDDzBjA"
+              },
+              "html_instructions": "turn Kirkegata"
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 150.6
+              },
+              "duration": {
+                "value": 43.4
+              },
+              "polyline": {
+                "points": "gmslJqtp`A~Ah@\\Fh@CTYbA_A"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 18.2
+              },
+              "duration": {
+                "value": 4.3
+              },
+              "polyline": {
+                "points": "eeslJ}up`A]]"
+              },
+              "html_instructions": "turn "
+            },
+            {
+              "travel_mode": "WALKING",
+              "distance": {
+                "value": 0
+              },
+              "duration": {
+                "value": 0
+              },
+              "polyline": {
+                "points": "cfslJ{vp`A"
+              },
+              "html_instructions": "arrive "
+            }
+          ]
+        }
+      ],
+      "bounds": {
+        "northeast": {
+          "lat": 59.90976,
+          "lng": 10.76188
+        },
+        "southwest": {
+          "lat": 59.89874,
+          "lng": 10.73984
+        }
+      }
+    }
+  ],
+  "status": "OK"
+}
