@@ -57,6 +57,11 @@ android/app/src/main/res/raw/google_services.json
 python_secrets.py
 service_account.json
 gemini_api.key
+google-services.json
+GoogleService-Info.plist
+**/android/app/google-services.json
+**/ios/Runner/GoogleService-Info.plist
+**/macos/Runner/GoogleService-Info.plist
 
 # Backups
 *.zip
