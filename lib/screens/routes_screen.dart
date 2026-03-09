@@ -2017,7 +2017,7 @@ class _RoutesScreenState extends State<RoutesScreen>
     switch (_selectedTransportMode) {
       case 1:
         transportIcon = Icons.directions_transit;
-        transportLabel = "Toplu T.";
+        transportLabel = AppLocalizations.instance.isEnglish ? "Transit" : "Toplu T.";
         break;
       case 2:
         transportIcon = Icons.directions_car;
@@ -3076,7 +3076,7 @@ class _RoutesScreenState extends State<RoutesScreen>
               Icon(Icons.directions_transit, color: accent, size: 18),
               const SizedBox(width: 8),
               Text(
-                "Rota Detayları",
+                AppLocalizations.instance.isEnglish ? "Route Details" : "Rota Detayları",
                 style: TextStyle(
                   color: WanderlustColors.textWhite,
                   fontSize: 14,

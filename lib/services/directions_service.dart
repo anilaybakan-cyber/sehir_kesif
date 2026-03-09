@@ -39,6 +39,7 @@ class DirectionsService {
       'destination': '${destination.latitude},${destination.longitude}',
       'key': Secrets.googleMapsApiKey,
       'mode': mode,
+      'language': AppLocalizations.instance.isEnglish ? 'en' : 'tr',
     };
 
     if (waypointsString.isNotEmpty) {

@@ -3,6 +3,7 @@ import 'dart:convert';
 import 'package:http/http.dart' as http;
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 import '../secrets.dart';
+import '../l10n/app_localizations.dart';
 
 class RouteResult {
   final List<LatLng> polyline;
@@ -34,12 +35,15 @@ class RouteService {
           '&waypoints=optimize:false|${mid.map((p) => '${p.latitude},${p.longitude}').join('|')}';
     }
 
+    final language = AppLocalizations.instance.isEnglish ? 'en' : 'tr';
+
     final url = Uri.parse(
       'https://maps.googleapis.com/maps/api/directions/json'
       '?origin=${origin.latitude},${origin.longitude}'
       '&destination=${destination.latitude},${destination.longitude}'
       '&mode=$mode$waypoints'
-      '&key=$_apiKey',
+      '&key=$_apiKey'
+      '&language=$language',
     );
 
     final res = await http.get(url);
