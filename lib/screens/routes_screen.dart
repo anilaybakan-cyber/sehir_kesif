@@ -4624,7 +4624,7 @@ class _RoutesScreenState extends State<RoutesScreen>
                                         ),
                                         const SizedBox(height: 2),
                                         Text(
-                                          "${places.length} durak · Google Maps",
+                                          AppLocalizations.instance.isEnglish ? "${places.length} stops · Google Maps" : "${places.length} durak · Google Maps",
                                           style: const TextStyle(
                                             color: WanderlustColors.textGrey,
                                             fontSize: 12,
