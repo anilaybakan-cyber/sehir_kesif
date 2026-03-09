@@ -13,6 +13,7 @@ class ContentUpdateService {
   
   // Versiyon kontrolü için manifest dosyası
   static const String _manifestUrl = 'https://raw.githubusercontent.com/anilaybakan-cyber/myway-data/refs/heads/main/version_manifest.json';
+  static const String _configBaseUrl = 'https://raw.githubusercontent.com/anilaybakan-cyber/myway-data/refs/heads/main/config';
 
   /// Güncellemeleri kontrol et ve indir
   static Future<void> checkForUpdates() async {
@@ -33,18 +34,21 @@ class ContentUpdateService {
       final Map<String, dynamic> remoteManifest = json.decode(response.body);
       final prefs = await SharedPreferences.getInstance();
 
-      // 2. Her şehir için kontrol et
-      for (final city in remoteManifest.keys) {
-        // Sadece int olan değerleri (şehir versiyonları) işle
-        final value = remoteManifest[city];
+      // 2. Her anahtar için kontrol et (Şehirler ve Configler)
+      for (final key in remoteManifest.keys) {
+        final value = remoteManifest[key];
         if (value is! int) continue;
 
         final int remoteVersion = value;
-        final int localVersion = prefs.getInt('version_$city') ?? 0;
+        final int localVersion = prefs.getInt('version_$key') ?? 0;
 
         if (remoteVersion > localVersion) {
-            debugPrint("⬇️ $city için güncelleme bulundu (v$localVersion -> v$remoteVersion). İndiriliyor...");
-            await _downloadAndSaveCity(city, remoteVersion, prefs);
+            debugPrint("⬇️ $key için güncelleme bulundu (v$localVersion -> v$remoteVersion). İndiriliyor...");
+            if (key == 'paywall_config') {
+              await _downloadAndSaveConfig(key, remoteVersion, prefs);
+            } else {
+              await _downloadAndSaveCity(key, remoteVersion, prefs);
+            }
         }
       }
       
@@ -147,6 +151,36 @@ class ContentUpdateService {
     }
   }
 
+  /// Config dosyasını indir ve kaydet
+  static Future<void> _downloadAndSaveConfig(String configName, int version, SharedPreferences prefs) async {
+    try {
+      final url = '$_configBaseUrl/$configName.json';
+      final response = await http.get(Uri.parse(url));
+
+      if (response.statusCode == 200) {
+        final String jsonContent = utf8.decode(response.bodyBytes);
+        
+        try { json.decode(jsonContent); } catch (e) {
+           debugPrint("❌ İndirilen $configName.json hatalı.");
+           return;
+        }
+
+        final dir = await getApplicationDocumentsDirectory();
+        final file = File('${dir.path}/config/$configName.json');
+        
+        if (!await file.parent.exists()) {
+          await file.parent.create(recursive: true);
+        }
+
+        await file.writeAsString(jsonContent);
+        await prefs.setInt('version_$configName', version);
+        debugPrint("✅ $configName başarıyla güncellendi.");
+      }
+    } catch (e) {
+      debugPrint("❌ Config indirme hatası ($configName): $e");
+    }
+  }
+
   /// İndirilmiş (cached) dosyanın yolunu döndürür
   static Future<File?> getLocalCityFile(String cityName) async {
     try {
@@ -158,6 +192,18 @@ class ContentUpdateService {
       }
     } catch (e) {
       debugPrint("⚠️ Dosya yolu hatası: $e");
+    }
+    return null;
+  }
+
+  /// İndirilmiş (cached) config dosyasının yolunu döndürür
+  static Future<File?> getLocalConfigFile(String fileName) async {
+    try {
+      final dir = await getApplicationDocumentsDirectory();
+      final file = File('${dir.path}/config/$fileName.json');
+      if (await file.exists()) return file;
+    } catch (e) {
+      debugPrint("⚠️ Config yolu hatası: $e");
     }
     return null;
   }

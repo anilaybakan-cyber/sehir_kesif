@@ -11,6 +11,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'dart:io';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:path_provider/path_provider.dart'; // Added
 import 'package:shared_preferences/shared_preferences.dart';
 import 'dart:ui';
@@ -38,6 +39,7 @@ import 'paywall_screen.dart';
 import 'city_switcher_screen.dart';
 import 'package:tutorial_coach_mark/tutorial_coach_mark.dart';
 import '../widgets/tutorial_overlay_widget.dart';
+import '../widgets/custom_toast.dart';
 
 class ProfileScreen extends StatefulWidget {
   final bool isVisible;
@@ -1784,13 +1786,21 @@ class _ProfileScreenState extends State<ProfileScreen>
                   trailing: const Icon(Icons.chevron_right, color: textGrey, size: 20),
                   onTap: () {
                     HapticFeedback.lightImpact();
-                    final appLink = isEnglish 
-                        ? "https://apps.apple.com/app/my-way-route-planner/id6741743515" 
-                        : "https://apps.apple.com/app/my-way-rota-planlayici/id6741743515";
+                    final appLink = Platform.isIOS 
+                        ? "https://apps.apple.com/app/id6741743515"
+                        : "https://play.google.com/store/apps/details?id=com.anilaybakan.sehir_kesif";
+                        
                     final message = isEnglish
                         ? "Hey! Check out My Way for smart city routes and personalized travel plans: $appLink"
                         : "Hey! Akıllı şehir rotaları ve kişiselleştirilmiş seyahat planları için My Way'i incele: $appLink";
-                    Share.share(message);
+                    
+                    final RenderBox? box = context.findRenderObject() as RenderBox?;
+                    Share.share(
+                      message,
+                      sharePositionOrigin: box != null 
+                          ? box.localToGlobal(Offset.zero) & box.size 
+                          : null,
+                    );
                   },
                   showDivider: true,
                 ),
@@ -1802,7 +1812,11 @@ class _ProfileScreenState extends State<ProfileScreen>
                   trailing: const Icon(Icons.chevron_right, color: textGrey, size: 20),
                   onTap: () async {
                     HapticFeedback.lightImpact();
-                    final Uri url = Uri.parse("https://apps.apple.com/app/id6741743515?action=write-review");
+                    final Uri url = Uri.parse(
+                      Platform.isIOS 
+                          ? "https://apps.apple.com/app/id6741743515?action=write-review"
+                          : "https://play.google.com/store/apps/details?id=com.anilaybakan.sehir_kesif"
+                    );
                     if (await canLaunchUrl(url)) {
                       await launchUrl(url, mode: LaunchMode.externalApplication);
                     }
@@ -1870,7 +1884,11 @@ class _ProfileScreenState extends State<ProfileScreen>
                   trailing: const Icon(Icons.chevron_right, color: textGrey, size: 20),
                   onTap: () async {
                     HapticFeedback.lightImpact();
-                    final Uri url = Uri.parse("https://apps.apple.com/account/subscriptions");
+                    final Uri url = Uri.parse(
+                      Platform.isIOS
+                          ? "https://apps.apple.com/account/subscriptions"
+                          : "https://play.google.com/store/account/subscriptions"
+                    );
                     if (await canLaunchUrl(url)) {
                       await launchUrl(url, mode: LaunchMode.externalApplication);
                     }
@@ -1981,6 +1999,25 @@ class _ProfileScreenState extends State<ProfileScreen>
               textAlign: TextAlign.center,
             ),
             const SizedBox(height: 24),
+            // Email Address Display
+            Container(
+              padding: const EdgeInsets.symmetric(vertical: 12, horizontal: 20),
+              decoration: BoxDecoration(
+                color: bgCard,
+                borderRadius: BorderRadius.circular(12),
+                border: Border.all(color: accent.withOpacity(0.2)),
+              ),
+              child: Text(
+                "info@mywaytravelapp.com",
+                style: GoogleFonts.poppins(
+                  color: accentLight,
+                  fontSize: 15,
+                  fontWeight: FontWeight.w500,
+                  letterSpacing: 0.5,
+                ),
+              ),
+            ),
+            const SizedBox(height: 20),
             GestureDetector(
               onTap: () async {
                 Navigator.pop(context);
@@ -1996,7 +2033,6 @@ class _ProfileScreenState extends State<ProfileScreen>
                 if (await canLaunchUrl(emailLaunchUri)) {
                   await launchUrl(emailLaunchUri);
                 } else {
-                  // Fallback for simulators or no email app
                   debugPrint("Could not launch email client");
                 }
               },
@@ -2006,6 +2042,13 @@ class _ProfileScreenState extends State<ProfileScreen>
                 decoration: BoxDecoration(
                   color: accent,
                   borderRadius: BorderRadius.circular(14),
+                  boxShadow: [
+                    BoxShadow(
+                      color: accent.withOpacity(0.3),
+                      blurRadius: 12,
+                      offset: const Offset(0, 4),
+                    ),
+                  ],
                 ),
                 child: Center(
                   child: Text(
@@ -2021,6 +2064,7 @@ class _ProfileScreenState extends State<ProfileScreen>
       ),
     );
   }
+
 
   // ══════════════════════════════════════════════════════════════════════════
   // HELPERS
@@ -2190,9 +2234,15 @@ class _ProfileScreenState extends State<ProfileScreen>
       );
 
       try {
-        // 1. Clear SharedPreferences
+        // 1. Clear SharedPreferences Selectively
         final prefs = await SharedPreferences.getInstance();
-        await prefs.clear();
+        final allKeys = prefs.getKeys();
+        for (String key in allKeys) {
+          // Keep usage keys and premium status indicators
+          if (!key.startsWith('usage_') && key != 'onboardingCompleted') {
+            await prefs.remove(key);
+          }
+        }
 
         // 2. Clear All Memories (Service handles Disk + Memory + Notifiers)
         await MemoryService().clearAllData();

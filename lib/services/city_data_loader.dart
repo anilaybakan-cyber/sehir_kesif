@@ -74,47 +74,56 @@ class CityDataLoader {
   /// Şehir verisini yükler (Önce Asset, Cache fallback)
   static Future<CityModel> loadCity(String cityName) async {
     final safeName = cityName.toLowerCase().trim();
-    // Şehir adını normalize et
     String normalizedName = _normalizeCityName(safeName);
 
-    debugPrint("🌍 CityDataLoader: '$normalizedName' verisi isteniyor...");
+    debugPrint("🌍 CityDataLoader: '$normalizedName' için en zengin veri aranıyor...");
 
     try {
-      String jsonString;
-      
-      // 1. Önce Asset'i Dene (FIX: Cache sorunu için Asset öncelikli yapıldı)
+      CityModel? assetCity;
+      CityModel? localCity;
+
+      // 1. Asset'i yüklemeyi dene
       try {
-        jsonString = await rootBundle.loadString("assets/cities/$normalizedName.json");
-        // debugPrint("📦 ASSET: Uygulama içinden yüklendi.");
-      } catch (assetError) {
-        // 2. Asset yoksa Cache'i dene (Fallback)
-        try {
-          final File? localFile = await ContentUpdateService.getLocalCityFile(normalizedName);
-          
-          if (localFile != null && await localFile.exists()) {
-            debugPrint("📂 CACHE: Yerel dosya bulundu, yükleniyor.");
-            jsonString = await localFile.readAsString();
-          } else {
-            throw Exception("Cache file not found");
-          }
-        } catch (cacheError) {
-          debugPrint("❌ Hem Asset hem Cache bulunamadı!");
-          rethrow;
+        final assetString = await rootBundle.loadString("assets/cities/$normalizedName.json");
+        assetCity = CityModel.fromJson(json.decode(assetString));
+      } catch (e) {
+        debugPrint("⚠️ Asset yüklenemedi: $normalizedName");
+      }
+
+      // 2. Local Cache'i yüklemeyi dene
+      try {
+        final localFile = await ContentUpdateService.getLocalCityFile(normalizedName);
+        if (localFile != null && await localFile.exists()) {
+          final localString = await localFile.readAsString();
+          localCity = CityModel.fromJson(json.decode(localString));
+        }
+      } catch (e) {
+        debugPrint("⚠️ Local cache yüklenemedi: $normalizedName");
+      }
+
+      // 3. Karşılaştır ve en çok mekanı olanı seç
+      if (assetCity != null && localCity != null) {
+        final assetCount = assetCity.highlights.length;
+        final localCount = localCity.highlights.length;
+
+        if (localCount >= assetCount) {
+          debugPrint("✅ LOCAL seçildi: $localCount mekan (Asset: $assetCount)");
+          return localCity;
+        } else {
+          debugPrint("✅ ASSET seçildi: $assetCount mekan (Local: $localCount)");
+          return assetCity;
         }
       }
 
-      // 3. JSON Parse Et
-      final jsonData = json.decode(jsonString) as Map<String, dynamic>;
-      final city = CityModel.fromJson(jsonData);
-      
-      return city;
+      // 4. Sadece biri varsa onu dön
+      if (localCity != null) return localCity;
+      if (assetCity != null) return assetCity;
+
+      throw Exception("Hiçbir veri kaynağı bulunamadı.");
 
     } catch (e) {
       debugPrint("❌ Şehir yükleme hatası ($normalizedName): $e");
-
-      // Fallback: Eğer aranan şehir yoksa veya hata varsa Barcelona'yı yükle (Crash olmasın diye)
       if (normalizedName != 'barcelona') {
-        debugPrint("⚠️ Fallback: Barcelona yükleniyor...");
         return loadCity('barcelona');
       }
       rethrow;
@@ -216,32 +225,49 @@ class CityDataLoader {
 
   /// Şehir önizleme bilgilerini yükler (Asset öncelikli)
   static Future<Map<String, dynamic>> loadCityPreview(String cityName) async {
-    final safe = _normalizeCityName(cityName.toLowerCase().trim());
+    final safeName = _normalizeCityName(cityName.toLowerCase().trim());
 
     try {
-      String jsonString;
-      
-      // 1. Asset öncelikli
+      Map<String, dynamic>? assetData;
+      Map<String, dynamic>? localData;
+
+      // 1. Asset'i dene
       try {
-        jsonString = await rootBundle.loadString("assets/cities/$safe.json");
-      } catch (_) {
-        // 2. Fallback to Cache
-        final File? localFile = await ContentUpdateService.getLocalCityFile(safe);
-        if (localFile != null && await localFile.exists()) {
-           jsonString = await localFile.readAsString();
-        } else {
-           throw Exception("Both Asset and Cache missing");
-        }
+        final assetString = await rootBundle.loadString("assets/cities/$safeName.json");
+        assetData = json.decode(assetString) as Map<String, dynamic>;
+      } catch (e) {
+        debugPrint("⚠️ Asset preview hatası: $safeName");
       }
-      
-      final jsonData = json.decode(jsonString) as Map<String, dynamic>;
+
+      // 2. Local'i dene
+      try {
+        final localFile = await ContentUpdateService.getLocalCityFile(safeName);
+        if (localFile != null && await localFile.exists()) {
+          final localString = await localFile.readAsString();
+          localData = json.decode(localString) as Map<String, dynamic>;
+        }
+      } catch (e) {
+        debugPrint("⚠️ Local preview hatası: $safeName");
+      }
+
+      // 3. Karşılaştır
+      Map<String, dynamic>? selectedData;
+      if (assetData != null && localData != null) {
+        final assetCount = (assetData['highlights'] as List?)?.length ?? 0;
+        final localCount = (localData['highlights'] as List?)?.length ?? 0;
+        selectedData = (localCount >= assetCount) ? localData : assetData;
+      } else {
+        selectedData = localData ?? assetData;
+      }
+
+      if (selectedData == null) throw Exception("Veri bulunamadı");
 
       return {
-        'city': jsonData['city'],
-        'country': jsonData['country'],
-        'description': jsonData['description'],
-        'highlightCount': (jsonData['highlights'] as List?)?.length ?? 0,
-        'coordinates': jsonData['coordinates'],
+        'city': selectedData['city'],
+        'country': selectedData['country'],
+        'description': selectedData['description'],
+        'highlightCount': (selectedData['highlights'] as List?)?.length ?? 0,
+        'coordinates': selectedData['coordinates'],
       };
     } catch (e) {
       return {

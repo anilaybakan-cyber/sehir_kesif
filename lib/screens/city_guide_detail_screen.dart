@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:cached_network_image/cached_network_image.dart';
 import 'package:google_fonts/google_fonts.dart';
 import '../l10n/app_localizations.dart';
 import '../services/ai_service.dart';
@@ -7,6 +6,11 @@ import '../services/city_data_loader.dart';
 import '../models/city_model.dart';
 import '../theme/wanderlust_colors.dart';
 import 'detail_screen.dart';
+import 'dart:io';
+import '../services/premium_service.dart';
+import 'paywall_screen.dart';
+import 'dart:convert';
+import 'dart:ui';
 
 class CityGuideDetailScreen extends StatefulWidget {
   final String city;
@@ -27,6 +31,8 @@ class _CityGuideDetailScreenState extends State<CityGuideDetailScreen> {
   bool _isLoading = true;
   final ScrollController _scrollController = ScrollController();
   bool _showScrollToTop = false;
+  bool _showStickyButton = false;
+  final GlobalKey _triggerKey = GlobalKey();
 
   @override
   void dispose() {
@@ -38,13 +44,41 @@ class _CityGuideDetailScreenState extends State<CityGuideDetailScreen> {
   void initState() {
     super.initState();
     _scrollController.addListener(() {
-      final show = _scrollController.offset > 200;
-      if (show != _showScrollToTop) {
-        setState(() => _showScrollToTop = show);
+      // Back to top button logic
+      final showTop = _scrollController.offset > 200;
+      if (showTop != _showScrollToTop) {
+        setState(() => _showScrollToTop = showTop);
+      }
+
+      // Sticky button logic
+      if (!PremiumService.instance.isPremium) {
+        _checkStickyButtonVisibility();
       }
     });
 
     _loadContent();
+  }
+
+  void _checkStickyButtonVisibility() {
+    try {
+      final context = _triggerKey.currentContext;
+      if (context == null) return;
+
+      final RenderBox? renderBox = context.findRenderObject() as RenderBox?;
+      if (renderBox != null) {
+        final position = renderBox.localToGlobal(Offset.zero);
+        final screenHeight = MediaQuery.of(context).size.height;
+        
+        // Show button as soon as the trigger point enters the bottom half of the screen
+        final bool showSticky = position.dy < (screenHeight - 100);
+        
+        if (showSticky != _showStickyButton) {
+          setState(() => _showStickyButton = showSticky);
+        }
+      }
+    } catch (e) {
+      // Logic might fail during layout transitions, ignore
+    }
   }
 
   Future<void> _loadContent() async {
@@ -71,75 +105,85 @@ class _CityGuideDetailScreenState extends State<CityGuideDetailScreen> {
           CustomScrollView(
             controller: _scrollController,
             physics: const BouncingScrollPhysics(),
-        slivers: [
-          // AppBar & Hero Image
-          SliverAppBar(
-            expandedHeight: 300,
-            pinned: true,
-            backgroundColor: WanderlustColors.bgDark,
-            leading: IconButton(
-              icon: const Icon(Icons.arrow_back_ios_new, color: Colors.white),
-              onPressed: () => Navigator.pop(context),
-            ),
-            flexibleSpace: FlexibleSpaceBar(
-              background: Hero(
-                tag: 'guide_img_${widget.city}',
-                child: Stack(
-                  fit: StackFit.expand,
-                  children: [
-                    CachedNetworkImage(
-                      imageUrl: widget.imageUrl,
-                      fit: BoxFit.cover,
-                      color: Colors.black.withOpacity(0.3),
-                      colorBlendMode: BlendMode.darken,
-                    ),
-                    Positioned(
-                      bottom: -1, // -1 to avoid any gap
-                      left: 0,
-                      right: 0,
-                      height: 100,
-                      child: Container(
-                        decoration: BoxDecoration(
-                          gradient: LinearGradient(
-                            begin: Alignment.topCenter,
-                            end: Alignment.bottomCenter,
-                            colors: [
-                              WanderlustColors.bgDark.withOpacity(0.0),
-                              WanderlustColors.bgDark,
-                            ],
+            slivers: [
+              // AppBar & Hero Image
+              SliverAppBar(
+                expandedHeight: 300,
+                pinned: true,
+                backgroundColor: WanderlustColors.bgDark,
+                leading: IconButton(
+                  icon: const Icon(Icons.arrow_back_ios_new, color: Colors.white),
+                  onPressed: () => Navigator.pop(context),
+                ),
+                flexibleSpace: FlexibleSpaceBar(
+                  background: Hero(
+                    tag: 'guide_img_${widget.city}',
+                    child: Stack(
+                      fit: StackFit.expand,
+                      children: [
+                        Image.network(
+                          widget.imageUrl,
+                          fit: BoxFit.cover,
+                          color: Colors.black.withOpacity(0.3),
+                          colorBlendMode: BlendMode.darken,
+                          loadingBuilder: (context, child, loadingProgress) {
+                            if (loadingProgress == null) return child;
+                            return Container(color: WanderlustColors.bgDark);
+                          },
+                          errorBuilder: (context, error, stackTrace) => Container(color: WanderlustColors.bgDark),
+                        ),
+                        Positioned(
+                          bottom: -1, // -1 to avoid any gap
+                          left: 0,
+                          right: 0,
+                          height: 100,
+                          child: Container(
+                            decoration: BoxDecoration(
+                              gradient: LinearGradient(
+                                begin: Alignment.topCenter,
+                                end: Alignment.bottomCenter,
+                                colors: [
+                                  WanderlustColors.bgDark.withOpacity(0.0),
+                                  WanderlustColors.bgDark,
+                                ],
+                              ),
+                            ),
                           ),
                         ),
-                      ),
+                      ],
                     ),
-                  ],
+                  ),
                 ),
               ),
-            ),
-          ),
 
-          // Content
-          SliverToBoxAdapter(
-            child: Container(
-              padding: const EdgeInsets.all(24),
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  // Blog İçeriği
-                  _isLoading
-                      ? const Center(child: CircularProgressIndicator(color: WanderlustColors.accent))
-                      : _buildMarkdownContent(_content),
-                  
-                  const SizedBox(height: 50),
-                ],
+              // Content
+              SliverToBoxAdapter(
+                child: Container(
+                  padding: const EdgeInsets.all(24),
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      // Blog İçeriği
+                      _isLoading
+                          ? const Center(child: CircularProgressIndicator(color: WanderlustColors.accent))
+                          : _buildMarkdownContent(_content),
+                      
+                      const SizedBox(height: 100), // Extra space for sticky button
+                    ],
+                  ),
+                ),
               ),
-            ),
+            ],
           ),
-        ],
-      ),
+          
+          // Sticky Unlock Button
+          if (!PremiumService.instance.isPremium)
+            _buildStickyUnlockButton(),
+
           if (_showScrollToTop)
             Positioned(
               right: 20,
-              bottom: 30,
+              bottom: _showStickyButton ? 120 : 30, // Adjust based on sticky button
               child: AnimatedOpacity(
                 opacity: _showScrollToTop ? 1.0 : 0.0,
                 duration: const Duration(milliseconds: 200),
@@ -167,24 +211,66 @@ class _CityGuideDetailScreenState extends State<CityGuideDetailScreen> {
 
   /// Çok basit bir "Markdown" renderer
   Widget _buildMarkdownContent(String rawContent) {
-    final List<Widget> widgets = [];
+    final List<Widget> unlockedWidgets = [];
+    final List<Widget> lockedWidgets = [];
     final lines = rawContent.split('\n');
+    final isPremium = PremiumService.instance.isPremium;
+    
+    bool hasReachedTrigger = false;
+    final triggerPhrases = [
+      "Takviminizi Ayarlayın", 
+      "Semt Rehberi",
+      "Timing is Everything",
+      "Neighborhood Guide",
+      "Finding Your Base",
+      "Why Now?"
+    ];
+    int sectionCount = 0;
 
     for (var line in lines) {
-      line = line.trim();
-      if (line.isEmpty) {
-        widgets.add(const SizedBox(height: 12));
+      final trimmedLine = line.trim();
+      
+      // Update section count for fallback
+      if (trimmedLine.startsWith('## ') || trimmedLine.startsWith('### ')) {
+        sectionCount++;
+      }
+
+      // Check for lock triggers
+      if (!isPremium && !hasReachedTrigger) {
+        // 1. Phrased based trigger
+        for (var phrase in triggerPhrases) {
+          if (trimmedLine.contains(phrase)) {
+            hasReachedTrigger = true;
+            break;
+          }
+        }
+
+        // 2. Generic fallback: if we have more than 3 sections (headers), start blurring
+        if (!hasReachedTrigger && sectionCount >= 3) {
+          hasReachedTrigger = true;
+        }
+      }
+
+      final targetList = hasReachedTrigger ? lockedWidgets : unlockedWidgets;
+      
+      // We want to apply the key to the VERY FIRST rendered widget of the locked section
+      // regardless of its markdown type (H1, H2, paragraph, etc.)
+      final bool shouldApplyKey = !isPremium && hasReachedTrigger && targetList.isEmpty && !trimmedLine.isEmpty;
+
+      if (trimmedLine.isEmpty) {
+        targetList.add(const SizedBox(height: 12));
         continue;
       }
 
-      if (line.startsWith('# ')) {
+      if (trimmedLine.startsWith('# ')) {
         // H1 Başlık
-        String titleText = line.substring(2);
+        String titleText = trimmedLine.substring(2);
         // Emojileri temizle
         titleText = titleText.replaceAll(RegExp(r'(\u00a9|\u00ae|[\u2000-\u3300]|\ud83c[\ud000-\udfff]|\ud83d[\ud000-\udfff]|\ud83e[\ud000-\udfff])'), '').trim();
 
-        widgets.add(
+        targetList.add(
           Padding(
+            key: shouldApplyKey ? _triggerKey : null,
             padding: const EdgeInsets.only(top: 20, bottom: 12),
             child: Text(
               titleText,
@@ -196,49 +282,58 @@ class _CityGuideDetailScreenState extends State<CityGuideDetailScreen> {
             ),
           ),
         );
-      } else if (line.startsWith('## ') || line.startsWith('### ')) {
+      } else if (trimmedLine.startsWith('## ') || trimmedLine.startsWith('### ')) {
         // H2/H3 Başlık - Premium Icon Header transformation
-        final cleanLine = line.replaceAll('#', '').trim();
+        final cleanLine = trimmedLine.replaceAll('#', '').trim();
         final iconData = _getCategoryIcon(cleanLine);
         
         // Emojileri temizle
         String titleText = cleanLine.replaceAll(RegExp(r'(\u00a9|\u00ae|[\u2000-\u3300]|\ud83c[\ud000-\udfff]|\ud83d[\ud000-\udfff]|\ud83e[\ud000-\udfff])'), '').trim();
 
-        widgets.add(_buildSectionHeader(titleText, iconData));
-
-      } else if (line.startsWith('- ')) {
-        // Bullet Point
-        widgets.add(
+        targetList.add(
           Padding(
+            key: shouldApplyKey ? _triggerKey : null,
+            padding: EdgeInsets.zero,
+            child: _buildSectionHeader(titleText, iconData),
+          )
+        );
+
+      } else if (trimmedLine.startsWith('- ')) {
+        // Bullet Point
+        targetList.add(
+          Padding(
+            key: shouldApplyKey ? _triggerKey : null,
             padding: const EdgeInsets.only(bottom: 8.0, left: 8.0),
             child: Row(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text("• ", style: GoogleFonts.poppins(color: WanderlustColors.accent, fontSize: 16)),
-                Expanded(child: _buildRichText(line.substring(2))),
+                Expanded(child: _buildRichText(trimmedLine.substring(2))),
               ],
             ),
           ),
         );
-      } else if (line.startsWith('1. ') || (line.length > 2 && line[1] == '.')) {
+      } else if (trimmedLine.startsWith('1. ') || (trimmedLine.length > 2 && trimmedLine[1] == '.')) {
          // Numbered List (Basit kontrol)
-         final dotIndex = line.indexOf('.');
-        widgets.add(
+         final dotIndex = trimmedLine.indexOf('.');
+        targetList.add(
           Padding(
+            key: shouldApplyKey ? _triggerKey : null,
             padding: const EdgeInsets.only(bottom: 8.0, left: 8.0),
             child: Row(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                 Text("${line.substring(0, dotIndex + 1)} ", style: GoogleFonts.poppins(color: WanderlustColors.accent, fontSize: 16, fontWeight: FontWeight.bold)),
-                Expanded(child: _buildRichText(line.substring(dotIndex + 1).trim())),
+                 Text("${trimmedLine.substring(0, dotIndex + 1)} ", style: GoogleFonts.poppins(color: WanderlustColors.accent, fontSize: 16, fontWeight: FontWeight.bold)),
+                Expanded(child: _buildRichText(trimmedLine.substring(dotIndex + 1).trim())),
               ],
             ),
           ),
         );
-      } else if (line.startsWith('> ')) {
+      } else if (trimmedLine.startsWith('> ')) {
         // Quote
-        widgets.add(
+        targetList.add(
           Container(
+            key: shouldApplyKey ? _triggerKey : null,
             margin: const EdgeInsets.symmetric(vertical: 12),
             padding: const EdgeInsets.all(16),
             decoration: BoxDecoration(
@@ -246,25 +341,150 @@ class _CityGuideDetailScreenState extends State<CityGuideDetailScreen> {
               border: const Border(left: BorderSide(color: WanderlustColors.accent, width: 4)),
               borderRadius: BorderRadius.circular(12),
             ),
-            child: _buildRichText(line.substring(2)),
+            child: _buildRichText(trimmedLine.substring(2)),
           ),
         );
       } else {
         // Normal paragraf
-        widgets.add(
+        targetList.add(
           Padding(
+            key: shouldApplyKey ? _triggerKey : null,
             padding: const EdgeInsets.only(bottom: 8),
-            child: _buildRichText(line),
+            child: _buildRichText(trimmedLine),
           ),
         );
       }
     }
 
+    final List<Widget> finalWidgets = [...unlockedWidgets];
+
+    if (hasReachedTrigger) {
+      // Subtle transition indicator instead of bulky card
+      finalWidgets.add(
+        Padding(
+          padding: const EdgeInsets.symmetric(vertical: 20),
+          child: Center(
+            child: Container(
+              width: 40,
+              height: 4,
+              decoration: BoxDecoration(
+                color: WanderlustColors.accent.withOpacity(0.3),
+                borderRadius: BorderRadius.circular(2),
+              ),
+            ),
+          ),
+        ),
+      );
+      
+      // Wrap locked content in a blur effect
+      finalWidgets.add(
+        ImageFiltered(
+          imageFilter: ImageFilter.blur(sigmaX: 8.0, sigmaY: 8.0),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: lockedWidgets,
+          ),
+        ),
+      );
+    }
+
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
-      children: widgets,
+      children: finalWidgets,
     );
   }
+
+  Widget _buildStickyUnlockButton() {
+    final isEnglish = AppLocalizations.instance.isEnglish;
+    
+    return Positioned(
+      bottom: 30,
+      left: 24,
+      right: 24,
+      child: AnimatedSlide(
+        duration: const Duration(milliseconds: 400),
+        offset: _showStickyButton ? Offset.zero : const Offset(0, 1),
+        child: AnimatedOpacity(
+          duration: const Duration(milliseconds: 400),
+          opacity: _showStickyButton ? 1.0 : 0.0,
+          child: GestureDetector(
+            onTap: () {
+              showModalBottomSheet(
+                context: context,
+                isScrollControlled: true,
+                backgroundColor: Colors.transparent,
+                builder: (context) => const PaywallScreen(),
+              );
+            },
+            child: ClipRRect(
+              borderRadius: BorderRadius.circular(20),
+              child: BackdropFilter(
+                filter: ImageFilter.blur(sigmaX: 15, sigmaY: 15),
+                child: Container(
+                  padding: const EdgeInsets.all(16),
+                  decoration: BoxDecoration(
+                    color: WanderlustColors.accent.withOpacity(0.2),
+                    borderRadius: BorderRadius.circular(20),
+                    border: Border.all(
+                      color: WanderlustColors.accent.withOpacity(0.5),
+                      width: 1.5,
+                    ),
+                    boxShadow: [
+                      BoxShadow(
+                        color: Colors.black.withOpacity(0.3),
+                        blurRadius: 20,
+                        offset: const Offset(0, 10),
+                      ),
+                    ],
+                  ),
+                  child: Row(
+                    children: [
+                      Container(
+                        padding: const EdgeInsets.all(8),
+                        decoration: BoxDecoration(
+                          color: WanderlustColors.accent,
+                          borderRadius: BorderRadius.circular(12),
+                        ),
+                        child: const Icon(Icons.lock_open_rounded, color: Colors.white, size: 20),
+                      ),
+                      const SizedBox(width: 16),
+                      Expanded(
+                        child: Column(
+                          mainAxisSize: MainAxisSize.min,
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Text(
+                              isEnglish ? "Unlock Full Guide" : "Rehberin Tamamını Aç",
+                              style: GoogleFonts.poppins(
+                                color: Colors.white,
+                                fontSize: 15,
+                                fontWeight: FontWeight.bold,
+                                letterSpacing: 0.3,
+                              ),
+                            ),
+                            Text(
+                              isEnglish ? "Continue reading with My Way Pro" : "Pro ile okumaya devam et",
+                              style: GoogleFonts.poppins(
+                                color: Colors.white70,
+                                fontSize: 12,
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+                      const Icon(Icons.arrow_forward_ios_rounded, color: WanderlustColors.accent, size: 16),
+                    ],
+                  ),
+                ),
+              ),
+            ),
+          ),
+        ),
+      ),
+    );
+  }
+
+  // Bulky teaser removed - simplified or deleted
 
   // Premium Section Header Widget
   Widget _buildSectionHeader(String title, IconData icon) {
@@ -393,7 +613,11 @@ class _CityGuideDetailScreenState extends State<CityGuideDetailScreen> {
 
       return RichText(
         text: TextSpan(
-          style: GoogleFonts.poppins(color: Colors.white.withOpacity(0.85), fontSize: 16, height: 1.6),
+          style: GoogleFonts.poppins(
+            color: Colors.white.withOpacity(0.85), 
+            fontSize: 16, 
+            height: 1.6
+          ),
           children: spans,
         ),
       );
@@ -416,14 +640,22 @@ class _CityGuideDetailScreenState extends State<CityGuideDetailScreen> {
       } else {
         spans.add(TextSpan(
           text: parts[i],
-          style: GoogleFonts.poppins(color: Colors.white, fontWeight: FontWeight.bold),
+          style: GoogleFonts.poppins(
+            color: Colors.white, 
+            fontSize: 16,
+            fontWeight: FontWeight.bold
+          ),
         ));
       }
     }
 
     return RichText(
       text: TextSpan(
-        style: GoogleFonts.poppins(color: Colors.white.withOpacity(0.85), fontSize: 16, height: 1.6),
+        style: GoogleFonts.poppins(
+          color: Colors.white.withOpacity(0.85), 
+          fontSize: 16, 
+          height: 1.6
+        ),
         children: spans,
       ),
     );

@@ -414,20 +414,35 @@ class _OnboardingScreenState extends State<OnboardingScreen>
 
     final imagePath = "assets/onboarding/onboarding$imageIndex.png";
 
+    final bool isTablet = MediaQuery.of(context).size.shortestSide > 600;
+    final double bottomPadding = isTablet ? 100 : 150; // Reduce padding for tablets
+
     // Page 0 (My Way splash): Sarı arka plan, logo ve buton
     if (index == 0) {
       return Container(
         color: _accent, // Sarı arka plan
         child: SafeArea(
-          child: Padding(
-            padding: const EdgeInsets.fromLTRB(24, 60, 24, 150),
-            child: Column(
-              children: [
-                const Spacer(flex: 2),
-                _buildContent(index),
-                const Spacer(flex: 1),
-              ],
-            ),
+          child: LayoutBuilder(
+            builder: (context, constraints) {
+              return SingleChildScrollView(
+                physics: const ClampingScrollPhysics(),
+                child: ConstrainedBox(
+                  constraints: BoxConstraints(minHeight: constraints.maxHeight),
+                  child: IntrinsicHeight(
+                    child: Padding(
+                      padding: EdgeInsets.fromLTRB(24, 60, 24, bottomPadding),
+                      child: Column(
+                        children: [
+                          const Spacer(flex: 2),
+                          _buildContent(index),
+                          const Spacer(flex: 1),
+                        ],
+                      ),
+                    ),
+                  ),
+                ),
+              );
+            },
           ),
         ),
       );
@@ -471,14 +486,26 @@ class _OnboardingScreenState extends State<OnboardingScreen>
           ),
 
         SafeArea(
-          child: Padding(
-            padding: const EdgeInsets.fromLTRB(24, 60, 24, 150),
-            child: Column(
-                  children: [
-                    const Spacer(flex: 3),
-                    _buildContent(index),
-                  ],
+          child: LayoutBuilder(
+            builder: (context, constraints) {
+              return SingleChildScrollView(
+                physics: const ClampingScrollPhysics(),
+                child: ConstrainedBox(
+                  constraints: BoxConstraints(minHeight: constraints.maxHeight),
+                  child: IntrinsicHeight(
+                    child: Padding(
+                      padding: EdgeInsets.fromLTRB(24, 60, 24, bottomPadding),
+                      child: Column(
+                        children: [
+                          const Spacer(flex: 3),
+                          _buildContent(index),
+                        ],
+                      ),
+                    ),
+                  ),
                 ),
+              );
+            },
           ),
         ),
       ],

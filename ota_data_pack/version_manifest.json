@@ -1,195 +1,312 @@
 {
-  "budapeste": 9,
-  "strazburg": 8,
-  "matera": 9,
-  "sevilla": 9,
-  "giethoorn": 9,
-  "colmar": 10,
-  "hallstatt": 9,
-  "kopenhag": 9,
-  "oslo": 9,
-  "amsterdam": 9,
-  "santorini": 10,
-  "heidelberg": 11,
-  "hongkong": 9,
-  "lucerne": 9,
-  "lyon": 10,
-  "zermatt": 10,
-  "istanbul": 8,
-  "gaziantep": 10,
-  "kapadokya": 8,
-  "bruksel": 9,
-  "tromso": 10,
-  "zurih": 8,
-  "belgrad": 9,
-  "lizbon": 8,
-  "tokyo": 9,
-  "marakes": 9,
-  "marsilya": 8,
-  "paris": 9,
-  "newyork": 8,
-  "floransa": 8,
-  "midilli": 8,
-  "porto": 8,
-  "saraybosna": 9,
-  "cenevre": 8,
-  "san_sebastian": 9,
-  "singapur": 8,
-  "edinburgh": 8,
-  "viyana": 9,
-  "kotor": 9,
-  "bologna": 9,
-  "napoli": 8,
-  "milano": 9,
-  "kahire": 8,
-  "londra": 10,
-  "brugge": 9,
-  "sintra": 10,
-  "atina": 9,
-  "nice": 8,
-  "stockholm": 9,
-  "dublin": 10,
-  "prag": 13,
-  "venedik": 8,
-  "dubai": 9,
-  "fes": 8,
-  "antalya": 10,
-  "berlin": 9,
-  "rovaniemi": 9,
-  "madrid": 9,
-  "barcelona": 8,
-  "seul": 8,
-  "bangkok": 9,
-  "roma": 11,
-  "version": "1.0.3",
-  "lastUpdated": "2026-02-01",
-  "updateNotes": "Enriched English descriptions and content refresh.",
-  "routes": {
-    "budapeste": 1,
-    "strazburg": 1,
-    "matera": 1,
-    "sevilla": 1,
-    "giethoorn": 1,
-    "colmar": 1,
-    "hallstatt": 1,
-    "kopenhag": 1,
-    "oslo": 1,
-    "amsterdam": 1,
-    "santorini": 1,
-    "heidelberg": 1,
-    "hongkong": 1,
-    "lucerne": 1,
-    "lyon": 1,
-    "zermatt": 1,
-    "istanbul": 1,
-    "gaziantep": 1,
-    "kapadokya": 1,
-    "bruksel": 1,
-    "tromso": 1,
-    "zurih": 1,
-    "belgrad": 1,
-    "lizbon": 1,
-    "tokyo": 1,
-    "marakes": 1,
-    "marsilya": 1,
-    "paris": 2,
-    "newyork": 1,
-    "floransa": 1,
-    "midilli": 1,
-    "porto": 1,
-    "saraybosna": 1,
-    "cenevre": 1,
-    "san_sebastian": 1,
-    "singapur": 1,
-    "edinburgh": 1,
-    "viyana": 1,
-    "kotor": 1,
-    "bologna": 1,
-    "napoli": 1,
-    "milano": 1,
-    "kahire": 1,
-    "londra": 1,
-    "brugge": 1,
-    "sintra": 1,
-    "atina": 1,
-    "nice": 1,
-    "stockholm": 1,
-    "dublin": 1,
-    "prag": 1,
-    "venedik": 1,
-    "dubai": 1,
-    "fes": 1,
-    "antalya": 1,
-    "berlin": 1,
-    "rovaniemi": 1,
-    "madrid": 1,
-    "barcelona": 1,
-    "seul": 1,
-    "bangkok": 1,
-    "roma": 1
+  "amsterdam": {
+    "version": 1,
+    "url": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/ota_data_pack/cities/amsterdam.json",
+    "size": 255700
   },
-  "guides": {
-    "budapeste": 1,
-    "strazburg": 1,
-    "matera": 1,
-    "sevilla": 1,
-    "giethoorn": 1,
-    "colmar": 1,
-    "hallstatt": 1,
-    "kopenhag": 1,
-    "oslo": 1,
-    "amsterdam": 1,
-    "santorini": 1,
-    "heidelberg": 1,
-    "hongkong": 1,
-    "lucerne": 1,
-    "lyon": 1,
-    "zermatt": 1,
-    "istanbul": 1,
-    "gaziantep": 1,
-    "kapadokya": 1,
-    "bruksel": 1,
-    "tromso": 1,
-    "zurih": 1,
-    "belgrad": 1,
-    "lizbon": 1,
-    "tokyo": 1,
-    "marakes": 1,
-    "marsilya": 1,
-    "paris": 1,
-    "newyork": 1,
-    "floransa": 1,
-    "midilli": 1,
-    "porto": 1,
-    "saraybosna": 1,
-    "cenevre": 1,
-    "san_sebastian": 1,
-    "singapur": 1,
-    "edinburgh": 1,
-    "viyana": 1,
-    "kotor": 1,
-    "bologna": 1,
-    "napoli": 1,
-    "milano": 1,
-    "kahire": 1,
-    "londra": 1,
-    "brugge": 1,
-    "sintra": 1,
-    "atina": 1,
-    "nice": 1,
-    "stockholm": 1,
-    "dublin": 1,
-    "prag": 4,
-    "venedik": 1,
-    "dubai": 1,
-    "fes": 1,
-    "antalya": 1,
-    "berlin": 1,
-    "rovaniemi": 1,
-    "madrid": 1,
-    "barcelona": 1,
-    "seul": 1,
-    "bangkok": 1,
-    "roma": 1
+  "antalya": {
+    "version": 1,
+    "url": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/ota_data_pack/cities/antalya.json",
+    "size": 192039
+  },
+  "atina": {
+    "version": 1,
+    "url": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/ota_data_pack/cities/atina.json",
+    "size": 227195
+  },
+  "bangkok": {
+    "version": 1,
+    "url": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/ota_data_pack/cities/bangkok.json",
+    "size": 245597
+  },
+  "barcelona": {
+    "version": 1,
+    "url": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/ota_data_pack/cities/barcelona.json",
+    "size": 254221
+  },
+  "belgrad": {
+    "version": 1,
+    "url": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/ota_data_pack/cities/belgrad.json",
+    "size": 210303
+  },
+  "berlin": {
+    "version": 1,
+    "url": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/ota_data_pack/cities/berlin.json",
+    "size": 275312
+  },
+  "bologna": {
+    "version": 1,
+    "url": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/ota_data_pack/cities/bologna.json",
+    "size": 207503
+  },
+  "brugge": {
+    "version": 1,
+    "url": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/ota_data_pack/cities/brugge.json",
+    "size": 207085
+  },
+  "bruksel": {
+    "version": 1,
+    "url": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/ota_data_pack/cities/bruksel.json",
+    "size": 201113
+  },
+  "budapeste": {
+    "version": 1,
+    "url": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/ota_data_pack/cities/budapeste.json",
+    "size": 274047
+  },
+  "cenevre": {
+    "version": 1,
+    "url": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/ota_data_pack/cities/cenevre.json",
+    "size": 245811
+  },
+  "colmar": {
+    "version": 1,
+    "url": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/ota_data_pack/cities/colmar.json",
+    "size": 209783
+  },
+  "dubai": {
+    "version": 1,
+    "url": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/ota_data_pack/cities/dubai.json",
+    "size": 270937
+  },
+  "dublin": {
+    "version": 1,
+    "url": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/ota_data_pack/cities/dublin.json",
+    "size": 231138
+  },
+  "edinburgh": {
+    "version": 1,
+    "url": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/ota_data_pack/cities/edinburgh.json",
+    "size": 202006
+  },
+  "fes": {
+    "version": 1,
+    "url": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/ota_data_pack/cities/fes.json",
+    "size": 177198
+  },
+  "floransa": {
+    "version": 1,
+    "url": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/ota_data_pack/cities/floransa.json",
+    "size": 259034
+  },
+  "gaziantep": {
+    "version": 1,
+    "url": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/ota_data_pack/cities/gaziantep.json",
+    "size": 208709
+  },
+  "giethoorn": {
+    "version": 1,
+    "url": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/ota_data_pack/cities/giethoorn.json",
+    "size": 189537
+  },
+  "hallstatt": {
+    "version": 1,
+    "url": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/ota_data_pack/cities/hallstatt.json",
+    "size": 196697
+  },
+  "heidelberg": {
+    "version": 1,
+    "url": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/ota_data_pack/cities/heidelberg.json",
+    "size": 92361
+  },
+  "hongkong": {
+    "version": 1,
+    "url": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/ota_data_pack/cities/hongkong.json",
+    "size": 233190
+  },
+  "istanbul": {
+    "version": 1,
+    "url": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/ota_data_pack/cities/istanbul.json",
+    "size": 271593
+  },
+  "kahire": {
+    "version": 1,
+    "url": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/ota_data_pack/cities/kahire.json",
+    "size": 222783
+  },
+  "kapadokya": {
+    "version": 1,
+    "url": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/ota_data_pack/cities/kapadokya.json",
+    "size": 220012
+  },
+  "kopenhag": {
+    "version": 1,
+    "url": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/ota_data_pack/cities/kopenhag.json",
+    "size": 220066
+  },
+  "kotor": {
+    "version": 1,
+    "url": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/ota_data_pack/cities/kotor.json",
+    "size": 279715
+  },
+  "lizbon": {
+    "version": 1,
+    "url": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/ota_data_pack/cities/lizbon.json",
+    "size": 249573
+  },
+  "londra": {
+    "version": 1,
+    "url": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/ota_data_pack/cities/londra.json",
+    "size": 271257
+  },
+  "lucerne": {
+    "version": 1,
+    "url": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/ota_data_pack/cities/lucerne.json",
+    "size": 240281
+  },
+  "lyon": {
+    "version": 1,
+    "url": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/ota_data_pack/cities/lyon.json",
+    "size": 266787
+  },
+  "madrid": {
+    "version": 1,
+    "url": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/ota_data_pack/cities/madrid.json",
+    "size": 250838
+  },
+  "marakes": {
+    "version": 1,
+    "url": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/ota_data_pack/cities/marakes.json",
+    "size": 237964
+  },
+  "marsilya": {
+    "version": 1,
+    "url": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/ota_data_pack/cities/marsilya.json",
+    "size": 260794
+  },
+  "matera": {
+    "version": 1,
+    "url": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/ota_data_pack/cities/matera.json",
+    "size": 166193
+  },
+  "midilli": {
+    "version": 1,
+    "url": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/ota_data_pack/cities/midilli.json",
+    "size": 303589
+  },
+  "milano": {
+    "version": 1,
+    "url": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/ota_data_pack/cities/milano.json",
+    "size": 264095
+  },
+  "napoli": {
+    "version": 1,
+    "url": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/ota_data_pack/cities/napoli.json",
+    "size": 240549
+  },
+  "newyork": {
+    "version": 1,
+    "url": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/ota_data_pack/cities/newyork.json",
+    "size": 255919
+  },
+  "nice": {
+    "version": 1,
+    "url": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/ota_data_pack/cities/nice.json",
+    "size": 256880
+  },
+  "oslo": {
+    "version": 1,
+    "url": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/ota_data_pack/cities/oslo.json",
+    "size": 213792
+  },
+  "paris": {
+    "version": 1,
+    "url": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/ota_data_pack/cities/paris.json",
+    "size": 279779
+  },
+  "porto": {
+    "version": 1,
+    "url": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/ota_data_pack/cities/porto.json",
+    "size": 238671
+  },
+  "prag": {
+    "version": 1,
+    "url": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/ota_data_pack/cities/prag.json",
+    "size": 323650
+  },
+  "roma": {
+    "version": 1,
+    "url": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/ota_data_pack/cities/roma.json",
+    "size": 282778
+  },
+  "rovaniemi": {
+    "version": 1,
+    "url": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/ota_data_pack/cities/rovaniemi.json",
+    "size": 181437
+  },
+  "san_sebastian": {
+    "version": 1,
+    "url": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/ota_data_pack/cities/san_sebastian.json",
+    "size": 200202
+  },
+  "santorini": {
+    "version": 1,
+    "url": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/ota_data_pack/cities/santorini.json",
+    "size": 209986
+  },
+  "saraybosna": {
+    "version": 1,
+    "url": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/ota_data_pack/cities/saraybosna.json",
+    "size": 220242
+  },
+  "seul": {
+    "version": 1,
+    "url": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/ota_data_pack/cities/seul.json",
+    "size": 251839
+  },
+  "sevilla": {
+    "version": 1,
+    "url": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/ota_data_pack/cities/sevilla.json",
+    "size": 243622
+  },
+  "singapur": {
+    "version": 1,
+    "url": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/ota_data_pack/cities/singapur.json",
+    "size": 220872
+  },
+  "sintra": {
+    "version": 1,
+    "url": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/ota_data_pack/cities/sintra.json",
+    "size": 187763
+  },
+  "stockholm": {
+    "version": 1,
+    "url": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/ota_data_pack/cities/stockholm.json",
+    "size": 220989
+  },
+  "strazburg": {
+    "version": 1,
+    "url": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/ota_data_pack/cities/strazburg.json",
+    "size": 202961
+  },
+  "tokyo": {
+    "version": 1,
+    "url": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/ota_data_pack/cities/tokyo.json",
+    "size": 240764
+  },
+  "tromso": {
+    "version": 1,
+    "url": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/ota_data_pack/cities/tromso.json",
+    "size": 164782
+  },
+  "venedik": {
+    "version": 1,
+    "url": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/ota_data_pack/cities/venedik.json",
+    "size": 236298
+  },
+  "viyana": {
+    "version": 1,
+    "url": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/ota_data_pack/cities/viyana.json",
+    "size": 208875
+  },
+  "zermatt": {
+    "version": 1,
+    "url": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/ota_data_pack/cities/zermatt.json",
+    "size": 198246
+  },
+  "zurih": {
+    "version": 1,
+    "url": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/ota_data_pack/cities/zurih.json",
+    "size": 243161
   }
 }

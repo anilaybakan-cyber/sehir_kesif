@@ -374,7 +374,7 @@ class _NearbyScreenState extends State<NearbyScreen>
 
         if (mounted) {
            ScaffoldMessenger.of(context).showSnackBar(SnackBar(
-             content: Text("$name rotadan çıkarıldı."),
+             content: Text(AppLocalizations.instance.removedFromRoute(name)),
              backgroundColor: bgCardLight,
              behavior: SnackBarBehavior.floating,
              duration: const Duration(milliseconds: 1200),
@@ -408,23 +408,43 @@ class _NearbyScreenState extends State<NearbyScreen>
            _routePlaces.add(name);
         });
         
+        // Sadece "Listem" seçildiyse (selectedDay == 0) zaten Listem'e eklenecek.
+        // Ama kural gereği, herhangi bir güne eklendiyse de Listem'e eklenecek.
         tripPlaces.add(name);
         
-        final dayKey = selectedDay.toString();
-        List<dynamic> targetList = scheduleMap[dayKey] ?? [];
-        
-        // Yeni format: {name, city} olarak ekle
-        final placeEntry = {'name': name, 'city': currentCity};
-        final alreadyExists = targetList.any((item) {
-          if (item is Map<String, dynamic>) return item['name'] == name;
-          if (item is String) return item == name;
-          return false;
-        });
-        
-        if (!alreadyExists) {
-           targetList.add(placeEntry);
+        if (selectedDay > 0) {
+          final dayKey = selectedDay.toString();
+          List<dynamic> targetList = scheduleMap[dayKey] ?? [];
+          
+          // Yeni format: {name, city} olarak ekle
+          final placeEntry = {'name': name, 'city': currentCity};
+          
+          // 1. Seçilen güne ekle
+          final alreadyExists = targetList.any((item) {
+            if (item is Map<String, dynamic>) return item['name'] == name;
+            if (item is String) return item == name;
+            return false;
+          });
+          
+          if (!alreadyExists) {
+             targetList.add(placeEntry);
+          }
+          scheduleMap[dayKey] = targetList;
+          
+          // 2. Her durumda "0" (Listem) gününe de ekle
+          if (dayKey != "0") {
+            List<dynamic> listemList = scheduleMap["0"] ?? [];
+            final existsInListem = listemList.any((item) {
+              if (item is Map<String, dynamic>) return item['name'] == name;
+              if (item is String) return item == name;
+              return false;
+            });
+            if (!existsInListem) {
+              listemList.add(placeEntry);
+            }
+            scheduleMap["0"] = listemList;
+          }
         }
-        scheduleMap[dayKey] = targetList;
         
         if (mounted) {
           ScaffoldMessenger.of(context).showSnackBar(SnackBar(
@@ -476,27 +496,37 @@ class _NearbyScreenState extends State<NearbyScreen>
                   constraints: const BoxConstraints(maxHeight: 400),
                   child: SingleChildScrollView(
                     child: Column(
-                      children: [
-                         ...List.generate(totalDays, (index) {
-                             final day = index + 1;
-                             final dayKey = day.toString();
-                             final List<dynamic> dayPlaces = scheduleMap[dayKey] ?? [];
-                             final count = dayPlaces.length;
-                             return ListTile(
-                               title: Text(AppLocalizations.instance.dayN(day), style: const TextStyle(color: textWhite)),
-                               subtitle: Text(AppLocalizations.instance.nPlaces(count), style: const TextStyle(color: textGrey, fontSize: 12)),
-                               trailing: const Icon(Icons.arrow_forward_ios, color: accent, size: 16),
-                               onTap: () => Navigator.pop(context, day),
-                             );
-                         }),
-                         const Divider(color: borderColor),
-                         ListTile(
-                             title: Text(AppLocalizations.instance.createNewDay, style: TextStyle(color: textWhite)),
-                             subtitle: Text(AppLocalizations.instance.dayN(totalDays + 1), style: const TextStyle(color: textGrey, fontSize: 12)),
-                             leading: const Icon(Icons.add, color: accentGreen),
-                             onTap: () => Navigator.pop(context, totalDays + 1),
-                         ),
-                      ],
+                        children: [
+                          // Listem Option (At the top!)
+                          ListTile(
+                              title: Text(AppLocalizations.instance.myList, style: const TextStyle(color: WanderlustColors.accent, fontWeight: FontWeight.bold)),
+                              subtitle: Text(AppLocalizations.instance.addToList, style: const TextStyle(color: textGrey, fontSize: 12)),
+                              leading: const Icon(Icons.list_alt, color: WanderlustColors.accent),
+                              trailing: const Icon(Icons.arrow_forward_ios, color: accent, size: 16),
+                              onTap: () => Navigator.pop(context, 0),
+                              shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(8)),
+                          ),
+                          const Divider(color: borderColor),
+                          ...List.generate(totalDays, (index) {
+                              final day = index + 1;
+                              final dayKey = day.toString();
+                              final List<dynamic> dayPlaces = scheduleMap[dayKey] ?? [];
+                              final count = dayPlaces.length;
+                              return ListTile(
+                                title: Text(AppLocalizations.instance.isEnglish ? "Day $day" : "$day. Gün", style: const TextStyle(color: textWhite)),
+                                subtitle: Text(AppLocalizations.instance.nPlaces(count), style: const TextStyle(color: textGrey, fontSize: 12)),
+                                trailing: const Icon(Icons.arrow_forward_ios, color: accent, size: 16),
+                                onTap: () => Navigator.pop(context, day),
+                              );
+                          }),
+                          const Divider(color: borderColor),
+                          ListTile(
+                              title: Text(AppLocalizations.instance.createNewDay, style: TextStyle(color: textWhite)),
+                              subtitle: Text(AppLocalizations.instance.isEnglish ? "Day ${totalDays + 1}" : "${totalDays + 1}. Gün", style: const TextStyle(color: textGrey, fontSize: 12)),
+                              leading: const Icon(Icons.add, color: accentGreen),
+                              onTap: () => Navigator.pop(context, totalDays + 1),
+                          ),
+                        ],
                     ),
                   ),
                 ),
@@ -698,33 +728,36 @@ class _NearbyScreenState extends State<NearbyScreen>
                   )
                 : Stack(
                     children: [
-                      CustomScrollView(
-                        controller: _scrollController,
-                        physics: const BouncingScrollPhysics(),
-                        slivers: [
-                      SliverToBoxAdapter(child: _buildHeader()),
-                      // Sticky search bar and distance slider
-                      SliverPersistentHeader(
-                        pinned: true,
-                        delegate: _StickyHeaderDelegate(
-                          child: Container(
-                            color: bgDark,
-                            child: Column(
-                              mainAxisSize: MainAxisSize.min,
-                              children: [
-                                _buildSearchBar(),
-                                _buildDistanceSlider(),
+                      Column(
+                        children: [
+                          Expanded(
+                            child: CustomScrollView(
+                              controller: _scrollController,
+                              physics: const BouncingScrollPhysics(),
+                              slivers: [
+                                SliverToBoxAdapter(child: _buildHeader()),
+                                // Search bar and distance slider
+                                SliverToBoxAdapter(
+                                  child: Container(
+                                    color: bgDark,
+                                    child: Column(
+                                      mainAxisSize: MainAxisSize.min,
+                                      children: [
+                                        _buildSearchBar(),
+                                        _buildDistanceSlider(),
+                                      ],
+                                    ),
+                                  ),
+                                ),
+                                SliverToBoxAdapter(child: _buildLocationCard()),
+                                SliverToBoxAdapter(child: _buildCategories()),
+                                _buildPlacesSliverList(),
                               ],
                             ),
                           ),
-                        ),
+                        ],
                       ),
-                      SliverToBoxAdapter(child: _buildLocationCard()),
-                      SliverToBoxAdapter(child: _buildCategories()),
-                      _buildPlacesSliverList(),
-                    ],
-                  ),
-                  if (_showScrollToTop)
+                      if (_showScrollToTop)
                     Positioned(
                       right: 20,
                       bottom: 30,
@@ -1787,7 +1820,7 @@ class _NearbyScreenState extends State<NearbyScreen>
               const SizedBox(height: 16),
               Text(
                 "Bu kriterlere uygun mekan bulunamadı",
-                style: TextStyle(fontSize: 16, color: textSecondary),
+                style: const TextStyle(fontSize: 16, color: textSecondary),
               ),
               const SizedBox(height: 12),
               GestureDetector(
@@ -1798,7 +1831,7 @@ class _NearbyScreenState extends State<NearbyScreen>
                   });
                   _applyFilters();
                 },
-                child: Text(
+                child: const Text(
                   "Filtreleri temizle",
                   style: TextStyle(
                     fontSize: 14,
@@ -2168,30 +2201,12 @@ class _NearbyScreenState extends State<NearbyScreen>
        await Future.delayed(const Duration(milliseconds: 300));
     }
 
-    // Prepare Custom Target Position
-    TargetPosition? customTargetPosition;
-    try {
-      final RenderBox? renderBox = _distanceFilterKey.currentContext!.findRenderObject() as RenderBox?;
-      if (renderBox != null) {
-        final offset = renderBox.localToGlobal(Offset.zero);
-        final size = renderBox.size;
-        // Extend height to cover Location Card (100) and Categories (60) + Spacing (10) ~ 170px extra
-        customTargetPosition = TargetPosition(
-          Size(size.width, size.height + 170), 
-          offset,
-        );
-      }
-    } catch (e) {
-      debugPrint("Target position calc error: $e");
-    }
-
     late TutorialCoachMark tutorial;
     tutorial = TutorialCoachMark(
       targets: [
         TargetFocus(
           identify: "nearby_filter",
-          targetPosition: customTargetPosition, // Use custom extended position
-          // keyTarget: _distanceFilterKey, // Removed standard key target
+          keyTarget: _distanceFilterKey,
           color: Colors.black,
           contents: [
             TargetContent(

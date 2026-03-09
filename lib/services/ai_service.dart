@@ -88,7 +88,7 @@ class AIService {
     'brugge': 'https://gezimanya.com/sites/default/files/styles/800x600_/public/lokasyon-detay/2021-08/brugge-hakkinda-bilinmesi-gerekenler.jpg',
     'santorini': 'https://www.kucukoteller.com.tr/storage/images/2024/07/14/5e7eaf11eb5ec2dda2f7a602232faa8961347f29.webp',
     'heidelberg': 'https://image.hurimg.com/i/hurriyet/90/1110x740/56b3325818c7730e3cdb6757.jpg',
-    'bruksel': 'https://images.unsplash.com/photo-1559113513-d5e09c18b9e8?w=800',
+    'bruksel': 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Grand_Place_Bruselas_2.jpg/1280px-Grand_Place_Bruselas_2.jpg',
     'oslo': 'https://www.journavel.com/wp-content/uploads/2024/10/IMG_1851-scaled.webp',
     'hallstatt': 'https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/hallstatt/hallstatt-postcard-viewpoint.jpg',
   };
@@ -207,6 +207,7 @@ class AIService {
     required List<String> interests,
     required String budgetLevel,
     required int tripDays,
+    int variation = 0, // Added for variety
     bool isEnglish = false,
   }) async {
     // 1. Cache Check
@@ -216,6 +217,7 @@ class AIService {
       'interests': (List.from(interests)..sort()).join(','), // Sorted for consistency
       'budget': budgetLevel.toLowerCase().trim(),
       'days': tripDays,
+      'variation': variation, // Added to cache key
       'language': isEnglish ? 'en' : 'tr',
       // NOTE: userName is EXCLUDED from cache params to allow sharing!
     };

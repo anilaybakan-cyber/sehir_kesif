@@ -10,6 +10,7 @@ import 'package:flutter/foundation.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:image_picker/image_picker.dart';
+import 'package:path/path.dart' as p;
 import '../models/travel_memory.dart';
 
 class MemoryService {
@@ -97,7 +98,7 @@ class MemoryService {
 
     } catch (e) {
       debugPrint('❌ Error adding memory: $e');
-      return null;
+      rethrow;
     }
   }
 
@@ -148,25 +149,34 @@ class MemoryService {
   }
 
   /// Save image to app documents directory
-  Future<String?> _saveImage(XFile imageFile, String cityId) async {
-    try {
+  Future<String> _saveImage(XFile imageFile, String cityId) async {
       final dir = await getApplicationDocumentsDirectory();
-      final memoriesDir = Directory('${dir.path}/memories/$cityId');
+      final memoriesDir = Directory(p.join(dir.path, 'memories', cityId));
       
       if (!await memoriesDir.exists()) {
         await memoriesDir.create(recursive: true);
       }
 
-      final fileName = '${DateTime.now().millisecondsSinceEpoch}.jpg';
-      final savedPath = '${memoriesDir.path}/$fileName';
+      final extension = p.extension(imageFile.path).toLowerCase();
+      // Ensure we have a valid extension, default to .jpg if empty or unexpected
+      final validExt = extension.isNotEmpty ? extension : '.jpg';
+      final fileName = '${DateTime.now().millisecondsSinceEpoch}$validExt';
+      final savedPath = p.join(memoriesDir.path, fileName);
       
-      await imageFile.saveTo(savedPath);
-      return savedPath;
+      // LOG: Check source existence
+      if (!await File(imageFile.path).exists()) {
+          throw Exception("Source file missing: ${imageFile.path}");
+      }
 
-    } catch (e) {
-      debugPrint('❌ Error saving image: $e');
-      return null;
-    }
+      // Use readAsBytes/writeAsBytes for maximum reliability on iOS production/TestFlight
+      // This bypasses OS-level 'move' restrictions on security-scoped temporary paths.
+      final bytes = await imageFile.readAsBytes();
+      if (bytes.isEmpty) throw Exception("Selected image is empty (0 bytes)");
+      
+      final destinationFile = File(savedPath);
+      await destinationFile.writeAsBytes(bytes, flush: true);
+      
+      return savedPath;
   }
 
   /// Load memories from SharedPreferences

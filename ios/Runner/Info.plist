@@ -38,8 +38,12 @@
 	<string>MyWay uses your location to show your position on the map and find nearby attractions. Your location data is processed locally and is not tracked or stored on our servers.</string>
 	<key>NSCameraUsageDescription</key>
 	<string>We need camera access to let you capture travel memories. Photos are stored locally on your device and are never uploaded to external servers without your permission.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>We need microphone access to record videos for your travel memories.</string>
 	<key>NSPhotoLibraryUsageDescription</key>
 	<string>We need access to your photo library to let you add existing photos to your travel memories. Your media remains private and is not uploaded to cloud servers.</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>We need permission to save generated or modified photos to your photo library.</string>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
@@ -54,6 +58,7 @@
 	<array>
   		<string>https</string>
   		<string>comgooglemaps</string>
+  		<string>mailto</string>
 	</array>
 	<key>CADisableMinimumFrameDurationOnPhone</key>
 	<true/>
@@ -67,9 +72,6 @@
 	</array>
 	<!-- Firebase Configuration -->
 	<key>FirebaseAppDelegateProxyEnabled</key>
-	<false/>
-	<!-- Encryption Settings -->
-	<key>ITSAppUsesNonExemptEncryption</key>
 	<false/>
 </dict>
 </plist>

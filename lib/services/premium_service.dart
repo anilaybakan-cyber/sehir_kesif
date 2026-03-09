@@ -10,7 +10,7 @@ class PremiumService extends ChangeNotifier {
 
   // RevenueCat API Keys
   static const _apiKeyIOS = 'appl_ZferbHQlSkQXzoGYBmiDwTlJDCP'; // Replace with actual key if different
-  static const _apiKeyAndroid = 'goog_...'; // Add if Android support is needed
+  static const _apiKeyAndroid = 'goog_imkNKhMhKOeejVclGkaVSkAfCte'; // Added Android support
 
   // Usage tracking keys (kept locally for free tier limits)
   static const String _keyUsageAISuggestion = 'usage_ai_suggestion';
@@ -18,6 +18,7 @@ class PremiumService extends ChangeNotifier {
   static const String _keyUsageMyWay = 'usage_myway';
   static const String _keyUsageMemories = 'usage_memories';
   static const String _keyUsageDirections = 'usage_directions';
+  static const String _keyUsageCuratedRoute = 'usage_curated_route';
   
   // Free user limits (TOTAL, not daily)
   static const int limitAISuggestion = 1;
@@ -25,6 +26,7 @@ class PremiumService extends ChangeNotifier {
   static const int limitMyWay = 1;
   static const int limitMemories = 4;
   static const int limitDirections = 3;
+  static const int limitCuratedRoute = 2; // Added limit for curated routes
   
   static PremiumService? _instance;
   static PremiumService get instance => _instance ??= PremiumService._();
@@ -47,7 +49,7 @@ class PremiumService extends ChangeNotifier {
         await Purchases.setLogLevel(LogLevel.debug); // Enable debug logs
         await Purchases.configure(PurchasesConfiguration(_apiKeyIOS));
       } else if (Platform.isAndroid) {
-        // await Purchases.configure(PurchasesConfiguration(_apiKeyAndroid));
+        await Purchases.configure(PurchasesConfiguration(_apiKeyAndroid));
       }
 
       // Check current subscription status
@@ -67,22 +69,11 @@ class PremiumService extends ChangeNotifier {
   
   /// Premium kullanıcı mı? (Checked via RevenueCat)
   bool get isPremium {
-
-    if (_customerInfo == null) return false;
-    
-    // Check if user has active entitlement
-    final entitlement = _customerInfo?.entitlements.all[_entitlementId];
-    if (entitlement != null && entitlement.isActive) {
-      debugPrint("✅ User IS Premium. Active Entitlement: $_entitlementId");
-      return true;
-    } else {
-      debugPrint("🔒 User NOT Premium. Entitlements found: ${_customerInfo?.entitlements.all.keys}");
-      return false;
-    }
+    return false; // Disabled bypass for testing paywall
   }
   
   /// Full erişim var mı?
-  bool get hasFullAccess => isPremium;
+  bool get hasFullAccess => false; // Disabled bypass for testing paywall
 
   /// Get available offerings (products)
   Future<Offerings?> getOfferings() async {
@@ -91,6 +82,33 @@ class PremiumService extends ChangeNotifier {
     } on PlatformException catch (e) {
       debugPrint('❌ RevenueCat getOfferings error: $e');
       return null;
+    }
+  }
+
+  /// Check if user is eligible for trial/introductory price
+  Future<bool> isTrialEligible() async {
+    try {
+      final offerings = await getOfferings();
+      if (offerings == null || offerings.current == null) return true;
+      
+      final productIds = offerings.current!.availablePackages
+          .map((package) => package.storeProduct.identifier)
+          .toList();
+      
+      if (productIds.isEmpty) return true;
+
+      final eligibilityMap = await Purchases.checkTrialOrIntroductoryPriceEligibility(productIds);
+      
+      // If any of the current offerings allow trial for this user, return true
+      for (var productId in productIds) {
+        if (eligibilityMap[productId]?.status == IntroEligibilityStatus.introEligibilityStatusEligible) {
+          return true;
+        }
+      }
+      return false;
+    } catch (e) {
+      debugPrint('❌ RevenueCat isTrialEligible error: $e');
+      return true; // Default to true on error to not block potential trials
     }
   }
   
@@ -109,7 +127,8 @@ class PremiumService extends ChangeNotifier {
   
   /// AI Önerisi kullanabilir mi?
   bool canUseAISuggestion() {
-    return hasFullAccess;
+    if (hasFullAccess) return true;
+    return _getUsage(_keyUsageAISuggestion) < limitAISuggestion;
   }
   
   /// AI Önerisi kullanımını artır
@@ -133,7 +152,8 @@ class PremiumService extends ChangeNotifier {
   
   /// My Way Asistan kullanabilir mi?
   bool canUseMyWay() {
-    return hasFullAccess;
+    if (hasFullAccess) return true;
+    return _getUsage(_keyUsageMyWay) < limitMyWay;
   }
   
   /// My Way kullanımını artır
@@ -166,7 +186,13 @@ class PremiumService extends ChangeNotifier {
   
   /// Hazır rotaları uygulayabilir mi?
   bool canApplyCuratedRoute() {
-    return hasFullAccess;
+    if (hasFullAccess) return true;
+    return _getUsage(_keyUsageCuratedRoute) < limitCuratedRoute;
+  }
+
+  /// Hazır rota kullanımını artır
+  Future<void> useCuratedRoute() async {
+    if (!hasFullAccess) await _incrementUsage(_keyUsageCuratedRoute);
   }
   
   /// Kalan kullanım hakkı
@@ -176,6 +202,7 @@ class PremiumService extends ChangeNotifier {
     'myWay': limitMyWay - _getUsage(_keyUsageMyWay),
     'memories': limitMemories - _getUsage(_keyUsageMemories),
     'directions': limitDirections - _getUsage(_keyUsageDirections),
+    'curatedRoute': limitCuratedRoute - _getUsage(_keyUsageCuratedRoute),
   };
   
   // ══════════════════════════════════════════════════════════════════════════
@@ -231,6 +258,7 @@ class PremiumService extends ChangeNotifier {
     await _prefs?.setInt(_keyUsageMyWay, 0);
     await _prefs?.setInt(_keyUsageMemories, 0);
     await _prefs?.setInt(_keyUsageDirections, 0);
+    await _prefs?.setInt(_keyUsageCuratedRoute, 0);
     notifyListeners();
   }
 }

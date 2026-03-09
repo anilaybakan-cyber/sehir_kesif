@@ -131,21 +131,35 @@ class _AddMemorySheetState extends State<AddMemorySheet> {
     setState(() => _isLoading = true);
     HapticFeedback.mediumImpact();
 
-    final memory = await _memoryService.addMemory(
-      cityId: _selectedCityId!,
-      cityName: _selectedCityName ?? _selectedCityId!,
-      imageFile: _selectedImage!,
-      note: _noteController.text.trim().isEmpty ? null : _noteController.text.trim(),
-      date: _selectedDate,
-    );
+    try {
+      final memory = await _memoryService.addMemory(
+        cityId: _selectedCityId!,
+        cityName: _selectedCityName ?? _selectedCityId!,
+        imageFile: _selectedImage!,
+        note: _noteController.text.trim().isEmpty ? null : _noteController.text.trim(),
+        date: _selectedDate,
+      );
 
-    setState(() => _isLoading = false);
+      setState(() => _isLoading = false);
 
-    if (memory != null && mounted) {
-      widget.onMemoryAdded?.call();
-      Navigator.pop(context, memory);
-      
-
+      if (memory != null && mounted) {
+        widget.onMemoryAdded?.call();
+        Navigator.pop(context, memory);
+      }
+    } catch (e) {
+      setState(() => _isLoading = false);
+      if (mounted) {
+        final errorMsg = e.toString().contains('Exception:') ? e.toString().split('Exception:').last : e.toString();
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(
+            content: Text(isEnglish 
+              ? 'Error: $errorMsg' 
+              : 'Hata: $errorMsg'),
+            backgroundColor: Colors.redAccent,
+            duration: const Duration(seconds: 4),
+          ),
+        );
+      }
     }
   }
 

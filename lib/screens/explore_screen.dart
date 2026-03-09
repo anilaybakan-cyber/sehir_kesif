@@ -85,6 +85,7 @@ class _ExploreScreenState extends State<ExploreScreen>
   List<Highlight> _aiRecommendations = [];
   String? _aiChatResponse; // Kişiselleştirilmiş AI yanıtı
   bool _aiCardExpanded = true; // AI kartı açık/kapalı
+  int _aiVariationIndex = 0; // Added for multiple suggestions
 
   // Şehir bazlı AI yanıt cache'i (eski içerik saklanır, dil değişince çevrilir)
   // Key: cityId, Value: { "content": String, "isEnglish": bool }
@@ -287,6 +288,7 @@ class _ExploreScreenState extends State<ExploreScreen>
 
         // Şehir değiştiyse: cache'te varsa göster, yoksa sıfırla
         if (cityChanged) {
+          _aiVariationIndex = 0; // Reset variations for new city
           // 🔥 FCM Üyeliğini güncelle
           NotificationService().subscribeToCity(normalizedCity);
 
@@ -868,7 +870,14 @@ class _ExploreScreenState extends State<ExploreScreen>
     
     setState(() {
       _aiLoading = true;
+      _aiChatResponse = null; // Sadece izin varsa temizle ki yenisi gelirken loading görünsün
+      _aiChatCache.remove(_currentCityId); // Cache'ten de sil
+      _aiVariationIndex = (_aiVariationIndex + 1) % 3;
     });
+    
+    // Use the CURRENT index for the request (or the one we just set)
+    // Actually, let's use the one we just incremented to ensure we always try something new
+    final currentVariation = _aiVariationIndex;
 
     try {
       // Kişiselleştirilmiş AI chat yanıtını al
@@ -879,6 +888,7 @@ class _ExploreScreenState extends State<ExploreScreen>
         interests: _interests,
         budgetLevel: _budgetLevel,
         tripDays: _tripDays,
+        variation: currentVariation, // Variation passed here
         isEnglish: AppLocalizations.instance.isEnglish, // Dil parametresi
       );
 
@@ -1453,6 +1463,9 @@ class _ExploreScreenState extends State<ExploreScreen>
          setState(() {
            _tripPlaces.add(name);
          });
+         
+         // Sadece "Listem" seçildiyse (selectedDay == 0) zaten Listem'e eklenecek.
+         // Ama kural gereği, herhangi bir güne eklendiyse de Listem'e eklenecek.
          tripPlaces.add(name);
          
          final dayKey = selectedDay.toString();
@@ -1476,6 +1489,23 @@ class _ExploreScreenState extends State<ExploreScreen>
           });
        }
          scheduleMap[dayKey] = targetList;
+         
+         // 2. Her durumda "0" (Listem) gününe de ekle
+         if (dayKey != "0") {
+           List<dynamic> listemList = scheduleMap["0"] ?? [];
+           final existsInListem = listemList.any((item) {
+             if (item is Map<String, dynamic>) return item['name'] == name;
+             if (item is String) return item == name;
+             return false;
+           });
+           if (!existsInListem) {
+             listemList.add(placeEntry);
+           }
+           scheduleMap["0"] = listemList;
+         }
+         
+         // persist last active day for navigation focus
+         await prefs.setInt("last_active_day", selectedDay);
          
          if (mounted) {
             ScaffoldMessenger.of(context).showSnackBar(SnackBar(
@@ -1514,22 +1544,31 @@ class _ExploreScreenState extends State<ExploreScreen>
             child: Column(
               mainAxisSize: MainAxisSize.min,
               children: [
-                Text(AppLocalizations.instance.whichDay, style: TextStyle(color: textWhite, fontSize: 18, fontWeight: FontWeight.bold)),
+                Text(AppLocalizations.instance.whichDay, style: const TextStyle(color: textWhite, fontSize: 18, fontWeight: FontWeight.bold)),
                 const SizedBox(height: 8),
-                Text(AppLocalizations.instance.addToRouteConfirm(placeName), textAlign: TextAlign.center, style: const TextStyle(color: textGrey, fontSize: 14)),
+                Text(AppLocalizations.instance.addToRouteConfirmDialog(placeName), textAlign: TextAlign.center, style: const TextStyle(color: textGrey, fontSize: 14)),
                 const SizedBox(height: 20),
                 ConstrainedBox(
                   constraints: const BoxConstraints(maxHeight: 400),
                   child: SingleChildScrollView(
                     child: Column(
                       children: [
+                         // Listem Option
+                         ListTile(
+                             title: Text(AppLocalizations.instance.myList, style: const TextStyle(color: WanderlustColors.accent, fontWeight: FontWeight.bold)),
+                             subtitle: Text(AppLocalizations.instance.addToList, style: const TextStyle(color: textGrey, fontSize: 12)),
+                             leading: const Icon(Icons.list_alt, color: WanderlustColors.accent),
+                             onTap: () => Navigator.pop(context, 0),
+                             shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(8)),
+                         ),
+                         const Divider(color: borderColor),
                          ...List.generate(totalDays, (index) {
                              final day = index + 1;
                              final dayKey = day.toString();
                              final List<dynamic> dayPlaces = scheduleMap[dayKey] ?? [];
                              final count = dayPlaces.length;
                              return ListTile(
-                               title: Text(AppLocalizations.instance.dayN(day), style: const TextStyle(color: textWhite)),
+                               title: Text(AppLocalizations.instance.isEnglish ? "Day $day" : "$day. Gün", style: const TextStyle(color: textWhite)),
                                subtitle: Text(AppLocalizations.instance.nPlaces(count), style: const TextStyle(color: textGrey, fontSize: 12)),
                                trailing: const Icon(Icons.arrow_forward_ios, color: accent, size: 16),
                                onTap: () => Navigator.pop(context, day),
@@ -1537,9 +1576,9 @@ class _ExploreScreenState extends State<ExploreScreen>
                          }),
                          const Divider(color: borderColor),
                          ListTile(
-                             title: Text(AppLocalizations.instance.createNewDay, style: TextStyle(color: textWhite)),
-                             subtitle: Text(AppLocalizations.instance.dayN(totalDays + 1), style: const TextStyle(color: textGrey, fontSize: 12)),
-                             leading: const Icon(Icons.add, color: accentGreen),
+                             title: Text(AppLocalizations.instance.createNewDay, style: const TextStyle(color: textWhite)),
+                             subtitle: Text(AppLocalizations.instance.isEnglish ? "Day ${totalDays + 1}" : "${totalDays + 1}. Gün", style: const TextStyle(color: textGrey, fontSize: 12)),
+                             leading: const Icon(Icons.add, color: accentLight),
                              onTap: () => Navigator.pop(context, totalDays + 1),
                          ),
                       ],
@@ -2279,10 +2318,7 @@ class _ExploreScreenState extends State<ExploreScreen>
                             GestureDetector(
                               onTap: () {
                                 HapticFeedback.lightImpact();
-                                // Cache'i temizle ve yeniden üret
-                                _aiChatCache.remove(_currentCityId);
-                                setState(() => _aiChatResponse = null);
-                                _fetchAIChatResponse();
+                                  _fetchAIChatResponse();
                               },
                               child: Container(
                                 padding: const EdgeInsets.all(8),
@@ -2504,7 +2540,9 @@ class _ExploreScreenState extends State<ExploreScreen>
                       Icon(Icons.auto_awesome_rounded, color: accent, size: 16),
                       const SizedBox(width: 8),
                       Text(
-                        AppLocalizations.instance.askAI,
+                        _aiChatResponse != null 
+                            ? AppLocalizations.instance.askAnotherAI 
+                            : AppLocalizations.instance.askAI,
                         style: const TextStyle(
                           color: Colors.white,
                           fontSize: 13,
@@ -3891,14 +3929,8 @@ class _ExploreScreenState extends State<ExploreScreen>
 
   void _showAISheet() {
     // 🔒 PREMIUM CHECK: My Way Assistant
-    if (!PremiumService.instance.isPremium) {
-       showPaywall(
-         context,
-         onSubscribe: (planId) {
-             // Paywall closes automatically on success, so we just proceed
-             // Waiting for a small delay or check is handled by onSubscribe usually
-         },
-       );
+    if (!PremiumService.instance.canUseMyWay()) {
+       _showPaywall();
        return;
     }
 

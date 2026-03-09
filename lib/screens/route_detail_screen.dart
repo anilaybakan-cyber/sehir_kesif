@@ -8,6 +8,7 @@ import '../utils/map_theme.dart';
 import 'detail_screen.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import '../l10n/app_localizations.dart';
+import '../theme/wanderlust_colors.dart';
 
 class RouteDetailScreen extends StatefulWidget {
   final List<Highlight> places;
@@ -20,9 +21,58 @@ class RouteDetailScreen extends StatefulWidget {
 }
 
 class _RouteDetailScreenState extends State<RouteDetailScreen> {
-  // ... (mevcut kodlar)
+  GoogleMapController? _mapController;
+  final Set<Marker> _markers = {};
+  final Set<Polyline> _polylines = {};
+  String _infoDistance = "";
+  String _infoDuration = "";
+  bool _isLoadingRoute = true;
+  String? _darkMapStyle;
 
-// ...
+  List<Highlight> get routeList => widget.places;
+
+  @override
+  void initState() {
+    super.initState();
+    _loadMapTheme();
+    _setupMarkers();
+    _fetchRoute();
+  }
+
+  Future<void> _loadMapTheme() async {
+    _darkMapStyle = darkMapStyle;
+    if (mounted) setState(() {});
+  }
+
+  void _setupMarkers() {
+    for (int i = 0; i < routeList.length; i++) {
+      final place = routeList[i];
+      _markers.add(
+        Marker(
+          markerId: MarkerId(place.name),
+          position: LatLng(place.lat, place.lng),
+          infoWindow: InfoWindow(title: place.name),
+        ),
+      );
+    }
+  }
+
+  Future<void> _fetchRoute() async {
+    if (routeList.length < 2) {
+      if (mounted) setState(() => _isLoadingRoute = false);
+      return;
+    }
+
+    final service = DirectionsService();
+    final origin = LatLng(routeList.first.lat, routeList.first.lng);
+    final destination = LatLng(routeList.last.lat, routeList.last.lng);
+    
+    List<LatLng> waypoints = [];
+    if (routeList.length > 2) {
+      for (int i = 1; i < routeList.length - 1; i++) {
+        waypoints.add(LatLng(routeList[i].lat, routeList[i].lng));
+      }
+    }
 
     final result = await service.getDirections(
       origin: origin,
@@ -40,7 +90,7 @@ class _RouteDetailScreenState extends State<RouteDetailScreen> {
           Polyline(
             polylineId: const PolylineId("google_route"),
             points: result['polyline_points'],
-            color: accent, // Teal -> Accent
+            color: WanderlustColors.accent, // Teal -> Accent
             width: 5,
             jointType: JointType.round,
           ),
@@ -249,7 +299,7 @@ class _RouteDetailScreenState extends State<RouteDetailScreen> {
               child: Container(
                 padding: const EdgeInsets.symmetric(vertical: 18),
                 decoration: BoxDecoration(
-                  color: const WanderlustColors.accent,
+                  color: WanderlustColors.accent,
                   borderRadius: BorderRadius.circular(18),
                   boxShadow: [
                     BoxShadow(
@@ -310,7 +360,7 @@ class _RouteDetailScreenState extends State<RouteDetailScreen> {
       children: [
         Row(
           children: [
-            Icon(icon, size: 18, color: const WanderlustColors.accent),
+            Icon(icon, size: 18, color: WanderlustColors.accent),
             const SizedBox(width: 6),
             Text(
               val,
@@ -370,10 +420,11 @@ class _RouteDetailScreenState extends State<RouteDetailScreen> {
                     ),
                     child: hasImage
                         ? Image.network(
-                            place.imageUrl!,
+                            place.imageUrl ?? "",
                             height: 180,
                             width: double.infinity,
                             fit: BoxFit.cover,
+                            errorBuilder: (ctx, err, stack) => Container(height: 180, color: Colors.grey.shade200),
                           )
                         : Container(height: 180, color: Colors.grey.shade200),
                   ),
@@ -458,13 +509,13 @@ class _RouteDetailScreenState extends State<RouteDetailScreen> {
                             vertical: 5,
                           ),
                           decoration: BoxDecoration(
-                            color: const WanderlustColors.accent.withOpacity(0.1),
+                            color: WanderlustColors.accent.withOpacity(0.1),
                             borderRadius: BorderRadius.circular(8),
                           ),
                           child: Text(
                             "#${AppLocalizations.instance.translateCategory(tag)}",
                             style: TextStyle(
-                              color: const WanderlustColors.accent.withOpacity(0.9),
+                              color: WanderlustColors.accent.withOpacity(0.9),
                               fontSize: 12,
                               fontWeight: FontWeight.w600,
                             ),

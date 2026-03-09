@@ -270,10 +270,18 @@ class AppLocalizations {
   String get createNewDay => t('Yeni Gün Oluştur', 'Create New Day');
   String addToRouteConfirmDialog(String name) => t("'$name' rotaya eklensin mi?", "Add '$name' to route?");
   String nPlaces(int n) => t('$n mekan var', '$n places');
+  String get addToList => t('Listeye Ekle', 'Add to List');
+  String get myList => t('Listem', 'My List');
   String whichDayPlan(String name) => t("'$name' rotasını hangi gün planına dahil etmek istersiniz?", "Which day would you like to add '$name' route?");
   String removedFromRoute(String name) => t('$name rotadan çıkarıldı.', '$name removed from route.');
-  String addedToDay(String name, int day) => t('$name, $day. güne eklendi!', '$name added to day $day!');
-  String routeAddedToDay(String name, int day) => t('${name}, ${day}. güne eklendi!', '${name} added to day $day!');
+  String addedToDay(String name, int day) {
+    if (day == 0) return t('$name, Listem\'e eklendi!', '$name added to My List!');
+    return t('$name, $day. güne eklendi!', '$name added to day $day!');
+  }
+  String routeAddedToDay(String name, int day) {
+    if (day == 0) return t('$name, Listem\'e eklendi!', '$name added to My List!');
+    return t('$name, $day. güne eklendi!', '$name added to day $day!');
+  }
   String get viewButton => t('Görüntüle', 'View');
   String addToRouteConfirm(String name) => t('\'$name\' rotaya eklensin mi?', 'Add \'$name\' to route?');
   String get tryAgain => t('Tekrar Dene', 'Try Again');
@@ -712,7 +720,7 @@ class AppLocalizations {
   String get car => t('Araç', 'Car'); // Added
   String get publicTransportShort => t('Toplu Taşıma', 'Public Transport'); // Added
   String get min => t('dk', 'min'); // Added
-  String dayEmpty(int day) => t('Gün $day henüz boş', 'Day $day is empty yet'); // Added
+  String dayEmpty(int day) => t('Gün $day henüz boş', 'Day $day is empty yet');
   String routesCount(int count) => t('$count hazır rota', '$count curated routes');
   String selectedSpots(int count) => t('$count seçili nokta', '$count selected spots');
   String daysCount(int count) => t('$count gün', '$count days');
@@ -926,6 +934,7 @@ class AppLocalizations {
   // AI Kartı
   String get aiRecommendations => t('Bugün Yönün Neresi?', 'Where is your direction today?');
   String get askAI => t('Öneri Oluştur', 'Create Suggestion');
+  String get askAnotherAI => t('Başka Öneri Oluştur', 'Create Another Suggestion');
   String get aiThinking => t('Düşünüyorum...', 'Thinking...');
   String get askAnotherQuestion => t('Başka Bir Soru Sor', 'Ask Another Question');
   String get bestBrunchSpots => t('En iyi brunch mekanları?', 'Best brunch spots?');
@@ -935,7 +944,7 @@ class AppLocalizations {
   String get bestViewpoints => t('En iyi manzara noktaları?', 'Best viewpoints?');
   String get mustSeeMuseums => t('Görülmesi gereken müzeler?', 'Must-see museums?');
   String get artGalleries => t('Sanat galerileri?', 'Art galleries?');
-  String get romanticDinnerSpot => t('Romantik akşam yemeği', 'Romantic dinner spot');
+  String get romanticDinnerSpot => t('Romantik akşam yemeği?', 'Romantic dinner spot?');
   String get uniqueDateIdeas => t('Farklı bir randevu fikri?', 'Unique date ideas?');
   String placeNotFound(String query) => t("'$query' bulunamadı.", "'$query' not found.");
   

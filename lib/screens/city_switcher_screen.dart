@@ -483,8 +483,12 @@ class _CitySwitcherScreenState extends State<CitySwitcherScreen> {
     if (widget.isOnboarding) {
       return _CitySwitcherFullPage(
         onCitySelected: (cityId) {
-          // Şehir seçildi, direkt ana sayfaya git - paywall'u main.dart gösterecek
-          Navigator.of(context).pushNamedAndRemoveUntil('/main', (route) => false);
+          // Şehir seçildi, direkt ana sayfaya git - onboarding sonrası paywall gösterme
+          Navigator.of(context).pushNamedAndRemoveUntil(
+            '/main', 
+            (route) => false,
+            arguments: {'checkPaywall': false},
+          );
         },
       );
     }

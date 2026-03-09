@@ -135,7 +135,7 @@ class _RoutesScreenState extends State<RoutesScreen>
   late TabController _mainTabController;
   TabController? _dayTabController;
   int _selectedRouteFilter = 0; // 0: Tümü, 1: Bana Özel, 2: Popüler
-  int _selectedTransportMode = 0; // 0 = walk, 1 = bike, 2 = transit, 3 = car
+  int _selectedTransportMode = 0; // 0 = walk, 1 = transit, 2 = car
 
   // Transit API Cache
   int? _transitTimeCache;
@@ -220,7 +220,7 @@ class _RoutesScreenState extends State<RoutesScreen>
     if (_dayTabController == null || _dayTabController!.indexIsChanging) return;
     
     // Tab değiştiğinde (veya kaydırma bittiğinde) haritayı güncelle
-    final currentDay = _dayTabController!.index + 1;
+    final currentDay = _dayTabController!.index;
     final places = _dayPlans[currentDay] ?? [];
     
     // Eğer harita açıksa güncelle
@@ -369,6 +369,44 @@ class _RoutesScreenState extends State<RoutesScreen>
              dayPlans[i] = [];
          }
     }
+    
+    // YENİ MİMARİ MİGRASYONU: Tüm benzersiz mekanları Listem (0. index) altına topla
+    // Böylece eski kayıtlar veya "0" anahtarına henüz eklenmemiş mekanlar otomatik olarak Listem'e yansır.
+    final Set<String> listemNames = {};
+    if (dayPlans[0] != null) {
+      for (var p in dayPlans[0]!) {
+        listemNames.add(p.name);
+      }
+    } else {
+      dayPlans[0] = [];
+    }
+    
+    // KAYIT: Bu noktadan sonra dayPlans[0] değişmiş olabilir. 
+    // Ancak sadece geçici olarak bellekte listeye ekledik. Eğeri kullanıcı SİLMİŞSE ve
+    // eski sürümde değilsek bunu eklemememiz lazım.
+    // Asıl sorun: "_loadData" her çalıştığında, dayPlans[0]'da olmayan ama diğer günlerde olan
+    // eşyaları TEKRAR Listem'e ekliyor! Kullanıcı "Listem"den sildiği an Listem'de olmaz,
+    // ama "1. Gün"de olur. Sonra bu kod çalışıp onu Listem'e GERİ EKLİYOR!
+    // =========================================================================
+    // ÇÖZÜM: Kullanıcının Listem'den KENDI ISTEGIYLE sildiği mekanların bir "Blacklist"ini (kara listesini)
+    // tutmamız lazım. VEYA, her mekan günlere eklenirken Listem'e eklenir, ama silme sonrasında 
+    // "_loadData" artık "her eksik olanı otomatik Listem'e ekle" yapmamalı.
+    // Aslında bu otomatik "0'a ekle" mantığını sadece İLK GEÇİŞ (migration) için yapmalıyız.
+    // "has_migrated_to_listem" bayrağı kullanarak yapabiliriz.
+    final hasMigrated = prefs.getBool("has_migrated_to_listem") ?? false;
+    if (!hasMigrated) {
+      dayPlans.forEach((day, list) {
+          if (day > 0) {
+              for (var p in list) {
+                  if (!listemNames.contains(p.name)) {
+                      listemNames.add(p.name);
+                      dayPlans[0]!.add(p);
+                  }
+              }
+          }
+      });
+      prefs.setBool("has_migrated_to_listem", true);
+    }
 
     // Trip Places Highlights listesini oluştur (tüm benzersiz mekanlar)
     final Set<String> uniqueNames = {};
@@ -422,7 +460,14 @@ class _RoutesScreenState extends State<RoutesScreen>
 
       _tripPlaceNames = uniqueNames.toList();
       _tripPlaces = tripHighlights;
-      _dayPlans = dayPlans;
+      
+      // Auto-optimize each day plan
+      final optimizedDayPlans = <int, List<Highlight>>{};
+      dayPlans.forEach((day, places) {
+        optimizedDayPlans[day] = _getOptimizedSequence(places);
+      });
+      _dayPlans = optimizedDayPlans;
+
       _routeOrigins = loadedOrigins; // Restore static route origins
       _placeCityMap = placeCityMapping;
       _tripDays = onboardingDays; // Onboarding'den gelen gün sayısını sakla
@@ -432,7 +477,7 @@ class _RoutesScreenState extends State<RoutesScreen>
       // Preserve current tab index
       final previousIndex = _dayTabController?.index ?? 0;
       _dayTabController?.dispose();
-      _dayTabController = TabController(length: _totalDays, vsync: this);
+      _dayTabController = TabController(length: _totalDays + 1, vsync: this);
       _dayTabController?.addListener(_handleDayTabChange);
       
       // Restore tab index if still valid
@@ -593,18 +638,71 @@ class _RoutesScreenState extends State<RoutesScreen>
     });
   }
 
-  Future<void> _removeFromTrip(String name) async {
-    debugPrint("Removing item: $name");
+  Future<void> _assignPlaceToDayFromListem(String name) async {
+    HapticFeedback.mediumImpact();
+    // Use the existing dialog from Detail/Nearby screen but adapted. Need to access maxDay.
+    int maxDay = _totalDays;
+    final selectedDay = await _showDaySelectionDialog(name);
+    if (selectedDay == null) return;
+    
+    // Add to specific day
+    setState(() {
+       // Expand totalDays if needed
+       if (selectedDay > _totalDays) {
+         _totalDays = selectedDay;
+         _dayTabController?.dispose();
+         _dayTabController = TabController(length: _totalDays + 1, vsync: this);
+       }
+       
+       final placeMatch = _tripPlaces.where((p) => p.name == name).firstOrNull ?? 
+           _dayPlans[0]?.where((p) => p.name == name).firstOrNull;
+           
+       if (placeMatch != null) {
+         _dayPlans[selectedDay] ??= [];
+         if (!_dayPlans[selectedDay]!.any((p) => p.name == name)) {
+            _dayPlans[selectedDay]!.add(placeMatch);
+            _routeOrigins.remove(selectedDay.toString());
+         }
+       }
+    });
+    
+    await _saveTripData();
+    TripUpdateService().notifyTripChanged();
+    
+    if (mounted) {
+       ScaffoldMessenger.of(context).showSnackBar(SnackBar(
+          content: Text(AppLocalizations.instance.addedToDay(name, selectedDay)),
+          backgroundColor: const Color(0xFF1F1F1F),
+          behavior: SnackBarBehavior.floating,
+          duration: const Duration(milliseconds: 1500),
+       ));
+    }
+  }
+
+  Future<void> _removeFromDay(int day, String name) async {
+    debugPrint("Removing item: $name from day: $day");
     HapticFeedback.mediumImpact();
     setState(() {
-      _tripPlaceNames.removeWhere((n) => n == name);
-      _tripPlaces.removeWhere((p) => p.name == name);
-      for (var day in _dayPlans.keys) {
-        final initialLen = _dayPlans[day]?.length ?? 0;
-        _dayPlans[day]?.removeWhere((p) => p.name == name);
-        if ((_dayPlans[day]?.length ?? 0) < initialLen) {
-           _routeOrigins.remove(day.toString()); // Only invalidate this day
+      // 1. İlgili günden mekanı sil
+      final initialLen = _dayPlans[day]?.length ?? 0;
+      _dayPlans[day]?.removeWhere((p) => p.name == name);
+      if ((_dayPlans[day]?.length ?? 0) < initialLen) {
+        _routeOrigins.remove(day.toString()); // Sadece bu günün rotasını iptal et
+      }
+      
+      // 2. Acaba bu mekan başka hiçbir günde (Listem dahil) kalmadı mı?
+      bool isStillInAnyDay = false;
+      for (var existingDay in _dayPlans.keys) {
+        if (_dayPlans[existingDay]?.any((p) => p.name == name) == true) {
+          isStillInAnyDay = true;
+          break;
         }
+      }
+      
+      // Hiçbir günde kalmadıysa ana listelerden de temizle
+      if (!isStillInAnyDay) {
+        _tripPlaceNames.removeWhere((n) => n == name);
+        _tripPlaces.removeWhere((p) => p.name == name);
       }
     });
 
@@ -629,45 +727,58 @@ class _RoutesScreenState extends State<RoutesScreen>
     }
   }
 
-  void _optimizeRoute() {
-    HapticFeedback.heavyImpact();
+  List<Highlight> _getOptimizedSequence(List<Highlight> places) {
+    if (places.length < 2) return places;
     
-    for (var day in _dayPlans.keys) {
-      final places = _dayPlans[day];
-      if (places == null || places.length < 2) continue;
+    // Nearest-neighbor algorithm: en kısa yürüyüş rotasını bul
+    final optimized = <Highlight>[places.first];
+    final remaining = List<Highlight>.from(places.skip(1));
+    
+    while (remaining.isNotEmpty) {
+      final current = optimized.last;
+      Highlight? nearest;
+      double minDist = double.infinity;
       
-      // Nearest-neighbor algorithm: en kısa yürüyüş rotasını bul
-      final optimized = <Highlight>[places.first];
-      final remaining = List<Highlight>.from(places.skip(1));
-      
-      while (remaining.isNotEmpty) {
-        final current = optimized.last;
-        Highlight? nearest;
-        double minDist = double.infinity;
-        
-        for (var p in remaining) {
-          final d = _haversine(current.lat, current.lng, p.lat, p.lng);
-          if (d < minDist) {
-            minDist = d;
-            nearest = p;
-          }
-        }
-        
-        if (nearest != null) {
-          optimized.add(nearest);
-          remaining.remove(nearest);
-        } else {
-          break;
+      for (var p in remaining) {
+        final d = _haversine(current.lat, current.lng, p.lat, p.lng);
+        if (d < minDist) {
+          minDist = d;
+          nearest = p;
         }
       }
       
-      _dayPlans[day] = optimized;
+      if (nearest != null) {
+        optimized.add(nearest);
+        remaining.remove(nearest);
+      } else {
+        break;
+      }
     }
-    
-    setState(() {});
+    return optimized;
+  }
+
+  void _optimizeRoute() {
+    HapticFeedback.heavyImpact();
+    setState(() {
+      // 4. Gün bazlı optimizasyon (Otomatik)
+      for (int i = 1; i <= _totalDays; i++) {
+        if (_dayPlans[i] != null && _dayPlans[i]!.isNotEmpty) {
+          _dayPlans[i] = _getOptimizedSequence(_dayPlans[i]!);
+        }
+      }
+
+      // 5. Haritayı ve rotayı ilk gün için başlangıçta tetikle (Görünür olması için)
+      WidgetsBinding.instance.addPostFrameCallback((_) {
+        final currentDay = _dayTabController?.index != null ? _dayTabController!.index : 0;
+        if (_dayPlans[currentDay] != null && _dayPlans[currentDay]!.isNotEmpty) {
+          _updateRouteMapMarkers(_dayPlans[currentDay]!);
+          _fetchRouteForMode(_selectedTransportMode, currentDay);
+        }
+      });
+    });
     
     // Harita markerlarını ve polyline'ı güncelle (harfler yeni sıraya göre)
-    final currentDay = (_dayTabController?.index ?? 0) + 1;
+    final currentDay = _dayTabController?.index ?? 0;
     final updatedPlaces = _dayPlans[currentDay] ?? [];
     if (updatedPlaces.isNotEmpty && _showMapPreview) {
       _updateRouteMapMarkers(updatedPlaces);
@@ -699,14 +810,26 @@ class _RoutesScreenState extends State<RoutesScreen>
 
     HapticFeedback.mediumImpact();
     
-    // Remove all places from this day
+    // Sadece bu günü temizle
     setState(() {
-      for (var place in places) {
-        _tripPlaceNames.remove(place.name);
-        _tripPlaces.removeWhere((p) => p.name == place.name);
-      }
+      final namesToCheck = places.map((p) => p.name).toList();
       _dayPlans[day] = [];
       _routeOrigins.remove(day.toString()); // Gün temizlendi, rota bilgisi silindi
+      
+      // Temizlenen mekanlar başka günlerde var mı diye kontrol et
+      for (var name in namesToCheck) {
+        bool isStillInAnyDay = false;
+        for (var existingDay in _dayPlans.keys) {
+          if (_dayPlans[existingDay]?.any((p) => p.name == name) == true) {
+            isStillInAnyDay = true;
+            break;
+          }
+        }
+        if (!isStillInAnyDay) {
+          _tripPlaceNames.removeWhere((n) => n == name);
+          _tripPlaces.removeWhere((p) => p.name == name);
+        }
+      }
     });
 
     await _saveTripData();
@@ -909,6 +1032,9 @@ class _RoutesScreenState extends State<RoutesScreen>
 
     HapticFeedback.mediumImpact();
     
+    // Kullanımı artır
+    await PremiumService.instance.useCuratedRoute();
+    
     setState(() {
       _loading = true;
     });
@@ -942,25 +1068,38 @@ class _RoutesScreenState extends State<RoutesScreen>
           
           // Tab controller'ı güncelle
           _dayTabController?.dispose();
-          _dayTabController = TabController(length: _totalDays, vsync: this);
+          _dayTabController = TabController(length: _totalDays + 1, vsync: this);
         }
 
         if (_dayPlans[selectedDay] != null && _dayPlans[selectedDay]!.isNotEmpty) {
           _dayPlans[selectedDay]!.addAll(newPlaces);
-          _routeOrigins.remove(selectedDay.toString()); // Merge edilirse statik rota bozulur
+          _routeOrigins.remove(selectedDay.toString()); 
         } else {
           _dayPlans[selectedDay] = newPlaces;
-          _routeOrigins[selectedDay.toString()] = route.id; // Tam eşleşme, statik rota aktif!
+          _routeOrigins[selectedDay.toString()] = route.id; 
         }
+
+        // 🔥 OTOMATİK OPTİMİZASYON: Eklendikten sonra sırayı mesafeye göre optimize et
+        _dayPlans[selectedDay] = _getOptimizedSequence(_dayPlans[selectedDay]!);
         
-        // Genel listeye de ekle
         for (var p in newPlaces) {
           if (!_tripPlaceNames.contains(p.name)) {
             _tripPlaceNames.add(p.name);
             _tripPlaces.add(p);
           }
+          // YENİ: Otomatik olarak "Listem" (0. Gün) sekmesine de ekle
+          _dayPlans[0] ??= [];
+          if (!_dayPlans[0]!.any((item) => item.name == p.name)) {
+            _dayPlans[0]!.add(p);
+          }
         }
       });
+
+      // 🔥 HARİTA SENKRONİZASYONU: Haritayı ve rotayı yeni sıraya göre anında güncelle
+      if (selectedDay == (_dayTabController?.index != null ? _dayTabController!.index : 0)) {
+        await _updateRouteMapMarkers(_dayPlans[selectedDay]!);
+        await _fetchRouteForMode(_selectedTransportMode, selectedDay);
+      }
       
       await _saveTripData();
       TripUpdateService().notifyTripChanged();
@@ -997,7 +1136,7 @@ class _RoutesScreenState extends State<RoutesScreen>
     
     // Seçilen güne geç (day tabs are 0-indexed)
     if (_dayTabController != null && selectedDay <= _dayTabController!.length) {
-      _dayTabController!.animateTo(selectedDay - 1);
+      _dayTabController!.animateTo(selectedDay);
     }
   }
 
@@ -1253,7 +1392,7 @@ class _RoutesScreenState extends State<RoutesScreen>
       _dayPlans = dayPlans;
       _totalDays = totalDays;
       _dayTabController?.dispose();
-      _dayTabController = TabController(length: totalDays, vsync: this);
+      _dayTabController = TabController(length: totalDays + 1, vsync: this);
     });
   }
 
@@ -1287,9 +1426,6 @@ class _RoutesScreenState extends State<RoutesScreen>
   int _estimateWalkingTime(int day) =>
       (_calculateTotalDistance(day, detourFactor: 1.25) / 5 * 60).round(); // 5 km/h + 25% curve
 
-  int _estimateBikingTime(int day) =>
-      (_calculateTotalDistance(day, detourFactor: 1.15) / 15 * 60).round(); // 15 km/h + 15% curve
-
   int _estimateDrivingTime(int day) =>
       (_calculateTotalDistance(day, detourFactor: 1.2) / 25 * 60).round(); // 25 km/h + 20% curve
 
@@ -1299,9 +1435,8 @@ class _RoutesScreenState extends State<RoutesScreen>
   int _getCurrentTransportTime(int day) {
     switch (_selectedTransportMode) {
       case 0: return _estimateWalkingTime(day);
-      case 1: return _estimateBikingTime(day);
-      case 2: return _transitTimeCache ?? _estimateTransitFallback(day); // Transit
-      case 3: return _estimateDrivingTime(day);
+      case 1: return _transitTimeCache ?? _estimateTransitFallback(day); // Transit
+      case 2: return _estimateDrivingTime(day);
       default: return _estimateWalkingTime(day);
     }
   }
@@ -1322,40 +1457,80 @@ class _RoutesScreenState extends State<RoutesScreen>
 
     setState(() {
       _routeLoading = true;
-      if (mode == 2) _transitLoading = true;
+      if (mode == 1) _transitLoading = true;
     });
 
     try {
-      final result = await DirectionsService().getDirections(
-        origin: LatLng(places.first.lat, places.first.lng),
-        destination: LatLng(places.last.lat, places.last.lng),
-        waypoints: places.length > 2
-            ? places.sublist(1, places.length - 1)
-                .map((p) => LatLng(p.lat, p.lng)).toList()
-            : null,
-        mode: modeString,
-        // Static route ID - tüm modlar için geçerli (her mod için ayrı JSON dosyası var)
-        routeId: _routeOrigins[day.toString()],
-      );
+      Map<String, dynamic>? result;
 
+      // Toplu taşıma için waypoint segmentasyon mantığı (Stitching)
+      if (modeString == 'transit' && places.length > 2) {
+        final allSteps = <Map<String, dynamic>>[];
+        double totalSeconds = 0;
+        final allOverviewPoints = <LatLng>[];
+
+        for (int i = 0; i < places.length - 1; i++) {
+          final fromPlace = places[i].name;
+          final toPlace = places[i + 1].name;
+          
+          final segmentResult = await DirectionsService().getDirections(
+            origin: LatLng(places[i].lat, places[i].lng),
+            destination: LatLng(places[i + 1].lat, places[i + 1].lng),
+            mode: modeString,
+          );
+          if (segmentResult != null) {
+            final segmentSteps = List<Map<String, dynamic>>.from(segmentResult['steps'] ?? []);
+            // Inject context into the first and last step of this segment
+            if (segmentSteps.isNotEmpty) {
+              segmentSteps.first['context_from'] = fromPlace;
+              segmentSteps.first['context_to'] = toPlace;
+            }
+            
+            allSteps.addAll(segmentSteps);
+            totalSeconds += (segmentResult['duration_seconds'] as double? ?? 0);
+            allOverviewPoints.addAll(List<LatLng>.from(segmentResult['polyline_points'] ?? []));
+          }
+        }
+
+        if (allSteps.isNotEmpty) {
+          result = {
+            'steps': allSteps,
+            'duration_seconds': totalSeconds,
+            'polyline_points': allOverviewPoints,
+          };
+        }
+      } else {
+        // Normal modlar için tek API isteği (Google Maps Optimize desteği ile)
+        result = await DirectionsService().getDirections(
+          origin: LatLng(places.first.lat, places.first.lng),
+          destination: LatLng(places.last.lat, places.last.lng),
+          waypoints: places.length > 2
+              ? places.sublist(1, places.length - 1)
+                  .map((p) => LatLng(p.lat, p.lng)).toList()
+              : null,
+          mode: modeString,
+          optimizeWaypoints: modeString != 'transit', // Yürüyüş ve Araçlar için optimize et
+        );
+      }
 
       if (result != null && mounted) {
+        final res = result;
         // Cache the result
-        _routeCache[cacheKey] = result;
+        _routeCache[cacheKey] = res;
 
         // Parse duration for transit
-        if (mode == 2) {
-          final seconds = result['duration_seconds'] as double? ?? 0;
+        if (mode == 1) {
+          final seconds = res['duration_seconds'] as double? ?? 0;
           _transitTimeCache = (seconds / 60).round();
         }
 
         // Update polylines with multi-modal visualization
-        _updatePolylinesFromRoute(result, mode);
+        _updatePolylinesFromRoute(res, mode);
 
         setState(() {
           _routeLoading = false;
           _transitLoading = false;
-          _currentRouteSteps = List<Map<String, dynamic>>.from(result['steps'] ?? []);
+          _currentRouteSteps = List<Map<String, dynamic>>.from(res['steps'] ?? []);
         });
       } else {
         setState(() {
@@ -1365,19 +1540,20 @@ class _RoutesScreenState extends State<RoutesScreen>
       }
     } catch (e) {
       print("Route API Error: $e");
-      if (mounted) setState(() {
-        _routeLoading = false;
-        _transitLoading = false;
-      });
+      if (mounted) {
+        setState(() {
+          _routeLoading = false;
+          _transitLoading = false;
+        });
+      }
     }
   }
 
   String _getModeString(int mode) {
     switch (mode) {
       case 0: return 'walking';
-      case 1: return 'bicycling';
-      case 2: return 'transit';
-      case 3: return 'driving';
+      case 1: return 'transit';
+      case 2: return 'driving';
       default: return 'walking';
     }
   }
@@ -1387,7 +1563,7 @@ class _RoutesScreenState extends State<RoutesScreen>
     if (cached == null) return;
 
     // Apply transit time if transit mode
-    if (mode == 2) {
+    if (mode == 1) {
       final seconds = cached['duration_seconds'] as double? ?? 0;
       _transitTimeCache = (seconds / 60).round();
     }
@@ -1484,9 +1660,8 @@ class _RoutesScreenState extends State<RoutesScreen>
   Color _getColorForMode(int mode, Map<String, dynamic>? transitDetails) {
     switch (mode) {
       case 0: return accent; // Walking - Amber
-      case 1: return const Color(0xFF4CAF50); // Bicycling - Green
-      case 2: return const Color(0xFF2196F3); // Transit - Blue
-      case 3: return const Color(0xFF9C27B0); // Driving - Purple
+      case 1: return const Color(0xFF2196F3); // Transit - Blue
+      case 2: return const Color(0xFF9C27B0); // Driving - Purple
       default: return accent;
     }
   }
@@ -1728,11 +1903,11 @@ class _RoutesScreenState extends State<RoutesScreen>
               ? TabBarView(
                   controller: _dayTabController,
                   children: List.generate(
-                    _totalDays,
-                    (i) => _buildDayContent(i + 1),
+                    _totalDays + 1,
+                    (i) => _buildDayContent(i),
                   ),
                 )
-              : _buildDayContent(1),
+              : _buildDayContent(0),
         ),
         if (_showScrollToTop)
           Positioned(
@@ -1831,7 +2006,7 @@ class _RoutesScreenState extends State<RoutesScreen>
   }
 
   Widget _buildStatsBar() {
-    final currentDay = (_dayTabController?.index ?? 0) + 1;
+    final currentDay = _dayTabController?.index ?? 0;
     final distance = _calculateTotalDistance(currentDay);
     final transportTime = _getCurrentTransportTime(currentDay);
     final placesCount = _dayPlans[currentDay]?.length ?? 0;
@@ -1841,14 +2016,10 @@ class _RoutesScreenState extends State<RoutesScreen>
     String transportLabel;
     switch (_selectedTransportMode) {
       case 1:
-        transportIcon = Icons.directions_bike;
-        transportLabel = AppLocalizations.instance.bike;
-        break;
-      case 2:
         transportIcon = Icons.directions_transit;
         transportLabel = "Toplu T.";
         break;
-      case 3:
+      case 2:
         transportIcon = Icons.directions_car;
         transportLabel = AppLocalizations.instance.car;
         break;
@@ -1934,15 +2105,28 @@ class _RoutesScreenState extends State<RoutesScreen>
   // ══════════════════════════════════════════════════════════════════════════
 
   Widget _buildTransportModeSelector() {
-    final currentDay = (_dayTabController?.index ?? 0) + 1;
-    final walkTime = _estimateWalkingTime(currentDay);
-    final bikeTime = _estimateBikingTime(currentDay);
-    final transitTime = _transitTimeCache ?? _estimateTransitFallback(currentDay);
-    final driveTime = _estimateDrivingTime(currentDay);
+    final currentDay = _dayTabController?.index ?? 0;
+    
+    int walkTime = _estimateWalkingTime(currentDay);
+    if (_routeCache.containsKey("walking_$currentDay")) {
+      final seconds = _routeCache["walking_$currentDay"]?['duration_seconds'];
+      if (seconds != null) walkTime = (seconds / 60).round();
+    }
+
+    int transitTime = _transitTimeCache ?? _estimateTransitFallback(currentDay);
+    if (_routeCache.containsKey("transit_$currentDay")) {
+      final seconds = _routeCache["transit_$currentDay"]?['duration_seconds'];
+      if (seconds != null) transitTime = (seconds / 60).round();
+    }
+
+    int driveTime = _estimateDrivingTime(currentDay);
+    if (_routeCache.containsKey("driving_$currentDay")) {
+      final seconds = _routeCache["driving_$currentDay"]?['duration_seconds'];
+      if (seconds != null) driveTime = (seconds / 60).round();
+    }
 
     final modes = [
       {"icon": Icons.directions_walk, "time": walkTime, "label": AppLocalizations.instance.min, "name": AppLocalizations.instance.walk},
-      {"icon": Icons.directions_bike, "time": bikeTime, "label": AppLocalizations.instance.min, "name": AppLocalizations.instance.bike},
       {"icon": Icons.directions_transit, "time": transitTime, "label": AppLocalizations.instance.min, "name": AppLocalizations.instance.publicTransportShort},
       {"icon": Icons.directions_car, "time": driveTime, "label": AppLocalizations.instance.min, "name": AppLocalizations.instance.car},
     ];
@@ -1970,11 +2154,11 @@ class _RoutesScreenState extends State<RoutesScreen>
             duration: const Duration(milliseconds: 300),
             curve: Curves.easeInOutCubic,
             alignment: Alignment(
-              -1.0 + (_selectedTransportMode * (2.0 / 3.0)),
+              -1.0 + (_selectedTransportMode * 1.0),
               0.0,
             ),
             child: FractionallySizedBox(
-              widthFactor: 1 / 4,
+              widthFactor: 1 / 3,
               child: Container(
                 height: 48, // Slightly smaller than container
                 decoration: BoxDecoration(
@@ -1994,10 +2178,10 @@ class _RoutesScreenState extends State<RoutesScreen>
 
           // Mode Buttons
           Row(
-            children: List.generate(4, (index) {
+            children: List.generate(3, (index) {
               final mode = modes[index];
               final isSelected = _selectedTransportMode == index;
-              final isTransit = index == 2;
+              final isTransit = index == 1;
 
               return Expanded(
                 child: GestureDetector(
@@ -2190,7 +2374,7 @@ class _RoutesScreenState extends State<RoutesScreen>
   }
 
   Widget _buildRealMapPreview() {
-    final currentDay = (_dayTabController?.index ?? 0) + 1;
+    final currentDay = _dayTabController?.index ?? 0;
     final places = _dayPlans[currentDay] ?? [];
 
     if (places.isEmpty) return const SizedBox.shrink();
@@ -2270,7 +2454,10 @@ class _RoutesScreenState extends State<RoutesScreen>
               child: Stack(
                 children: [
                 GoogleMap(
-                  initialCameraPosition: const CameraPosition(target: LatLng(41.3851, 2.1734), zoom: 12), // Barcelona default
+                  initialCameraPosition: CameraPosition(
+                    target: LatLng(_city?.centerLat ?? 41.3851, _city?.centerLng ?? 2.1734),
+                    zoom: 12,
+                  ),
                   onMapCreated: (controller) {
                       _routeMapController = controller;
                       _routeMapController!.setMapStyle(darkMapStyle);
@@ -2351,7 +2538,7 @@ class _RoutesScreenState extends State<RoutesScreen>
 
   /// Fullscreen map overlay with draggable route list
   Widget _buildFullscreenMap() {
-    final currentDay = (_dayTabController?.index ?? 0) + 1;
+    final currentDay = _dayTabController?.index ?? 0;
     final places = _dayPlans[currentDay] ?? [];
     
     if (places.isEmpty) return const SizedBox.shrink();
@@ -2586,7 +2773,7 @@ class _RoutesScreenState extends State<RoutesScreen>
                             final place = places[index];
                             return Padding(
                               padding: const EdgeInsets.only(bottom: 12),
-                              child: _buildHorizontalPlaceCard(place, index, isReadOnly: true),
+                              child: _buildHorizontalPlaceCard(currentDay, place, index, isReadOnly: true),
                             );
                           },
                         ),
@@ -2609,7 +2796,7 @@ class _RoutesScreenState extends State<RoutesScreen>
         onTap: _completeRoute,
         child: Container(
           width: double.infinity,
-          padding: const EdgeInsets.symmetric(vertical: 16),
+          padding: const EdgeInsets.symmetric(vertical: 10),
           decoration: BoxDecoration(
             color: WanderlustColors.bgCardLight,
             borderRadius: BorderRadius.circular(16),
@@ -2681,7 +2868,7 @@ class _RoutesScreenState extends State<RoutesScreen>
       final prefs = await SharedPreferences.getInstance();
       
       // Aktif günü ve yerleri al
-      final activeDayIndex = (_dayTabController?.index ?? 0) + 1;
+      final activeDayIndex = _dayTabController?.index ?? 0;
       final currentDayPlaces = _dayPlans[activeDayIndex] ?? [];
       final currentDayPlaceNames = currentDayPlaces.map((p) => p.name).toList();
 
@@ -2861,7 +3048,7 @@ class _RoutesScreenState extends State<RoutesScreen>
 
   /// Build transit route breakdown display
   Widget _buildTransitStepsInfo() {
-    if (_selectedTransportMode != 2 || _currentRouteSteps.isEmpty) {
+    if (_selectedTransportMode != 1 || _currentRouteSteps.isEmpty) {
       return const SizedBox.shrink();
     }
 
@@ -2899,101 +3086,179 @@ class _RoutesScreenState extends State<RoutesScreen>
             ],
           ),
           const SizedBox(height: 10),
-          ...relevantSteps.asMap().entries.map((entry) {
-            final index = entry.key;
-            final step = entry.value;
-            final mode = step['travel_mode'] as String? ?? 'WALKING';
-            final duration = step['duration_text'] as String? ?? '';
-            
-            if (mode == 'WALKING') {
-              // Determine walking context from surrounding transit steps
-              String? walkingContext;
-              
-              // Check if this is the first step (walking to first transit)
-              if (index == 0 && relevantSteps.length > 1) {
-                final nextStep = relevantSteps[1];
-                if (nextStep['travel_mode'] == 'TRANSIT') {
-                  final nextTransit = nextStep['transit_details'] as Map<String, dynamic>?;
-                  final departureStop = nextTransit?['departure_stop'] as String? ?? '';
-                  if (departureStop.isNotEmpty) {
-                    walkingContext = "$departureStop durağına yürü";
+          Container(
+            constraints: BoxConstraints(
+              maxHeight: MediaQuery.of(context).size.height * 0.4,
+            ),
+            child: SingleChildScrollView(
+              physics: const BouncingScrollPhysics(),
+              child: Column(
+                children: () {
+                  // Segment bazlı gruplama: A'dan B'ye giden tüm adımları tek bir satırda özetle
+                  List<Widget> segmentWidgets = [];
+                  
+                  // context_from ve context_to değerlerine sahip olan adımları baz alarak segmentlere böleceğiz.
+                  String? currentFrom;
+                  String? currentTo;
+                  List<String> currentVehicles = [];
+                  int totalWalkMins = 0;
+                  int totalTransitMins = 0;
+                  
+                  for (final step in relevantSteps) {
+                    final from = step['context_from'] as String?;
+                    final to = step['context_to'] as String?;
+                    
+                    // Yeni bir segmente başladık (örneğin A'dan B'ye)
+                    if (from != null && to != null) {
+                      // Eğer önceki bir segment birikmişse onu UI'a dök
+                      if (currentFrom != null && currentTo != null) {
+                        segmentWidgets.add(_buildCollapsedSegmentRow(
+                          from: currentFrom!,
+                          to: currentTo!,
+                          vehicles: currentVehicles,
+                          walkMins: totalWalkMins,
+                          transitMins: totalTransitMins,
+                        ));
+                      }
+                      
+                      // Yeni segment için değişkenleri sıfırla/ayarla
+                      currentFrom = from;
+                      currentTo = to;
+                      currentVehicles = [];
+                      totalWalkMins = 0;
+                      totalTransitMins = 0;
+                    }
+                    
+                    // Mevcut segmentin istatistiklerini topla
+                    if (currentFrom != null) {
+                      final mode = step['travel_mode'] as String? ?? 'WALKING';
+                      final durationVal = step['duration_seconds'];
+                      final durationSecs = durationVal is num ? durationVal.toDouble() : 0.0;
+                      final mins = (durationSecs / 60).round();
+                      
+                      if (mode == 'WALKING') {
+                        totalWalkMins += mins;
+                      } else if (mode == 'TRANSIT') {
+                        totalTransitMins += mins;
+                        final transitDetails = step['transit_details'] as Map<String, dynamic>?;
+                        final lineName = transitDetails?['line_name'] as String? ?? '';
+                        final vehicleType = transitDetails?['vehicle_type'] as String? ?? '';
+                        
+                        String trType = "Otobüs";
+                        if (vehicleType == 'SUBWAY' || vehicleType == 'METRO') trType = "Metro";
+                        else if (vehicleType == 'TRAM') trType = "Tramvay";
+                        else if (vehicleType == 'RAIL' || vehicleType == 'TRAIN') trType = "Tren";
+                        
+                        if (lineName.isNotEmpty) {
+                           currentVehicles.add("$trType $lineName");
+                        } else {
+                           currentVehicles.add(trType);
+                        }
+                      }
+                    }
                   }
-                }
-              }
-              // Check if this is the last step (walking from last transit)
-              else if (index == relevantSteps.length - 1 && index > 0) {
-                final prevStep = relevantSteps[index - 1];
-                if (prevStep['travel_mode'] == 'TRANSIT') {
-                  final prevTransit = prevStep['transit_details'] as Map<String, dynamic>?;
-                  final arrivalStop = prevTransit?['arrival_stop'] as String? ?? '';
-                  if (arrivalStop.isNotEmpty) {
-                    walkingContext = AppLocalizations.instance.walkToTarget(arrivalStop);
+                  
+                  // Son kalan segmenti de ekle
+                  if (currentFrom != null && currentTo != null) {
+                    segmentWidgets.add(_buildCollapsedSegmentRow(
+                      from: currentFrom!,
+                      to: currentTo!,
+                      vehicles: currentVehicles,
+                      walkMins: totalWalkMins,
+                      transitMins: totalTransitMins,
+                    ));
                   }
-                }
-              }
-              // Middle walking (between two transit steps)
-              else if (index > 0 && index < relevantSteps.length - 1) {
-                final prevStep = relevantSteps[index - 1];
-                final nextStep = relevantSteps[index + 1];
-                if (prevStep['travel_mode'] == 'TRANSIT' && nextStep['travel_mode'] == 'TRANSIT') {
-                  final prevTransit = prevStep['transit_details'] as Map<String, dynamic>?;
-                  final nextTransit = nextStep['transit_details'] as Map<String, dynamic>?;
-                  final from = prevTransit?['arrival_stop'] as String? ?? '';
-                  final to = nextTransit?['departure_stop'] as String? ?? '';
-                  if (from.isNotEmpty && to.isNotEmpty && from != to) {
-                    walkingContext = "$from → $to";
-                  }
-                }
-              }
-              
-              return _buildTransitStepRow(
-                Icons.directions_walk,
-                accent,
-                AppLocalizations.instance.walk,
-                duration,
-                subtitle: walkingContext,
-              );
-            } else if (mode == 'TRANSIT') {
-              final transitDetails = step['transit_details'] as Map<String, dynamic>?;
-              final lineName = transitDetails?['line_name'] as String? ?? '?';
-              final vehicleType = transitDetails?['vehicle_type'] as String? ?? 'BUS';
-              final departureStop = transitDetails?['departure_stop'] as String? ?? '';
-              final arrivalStop = transitDetails?['arrival_stop'] as String? ?? '';
-              
-              IconData icon;
-              Color color;
-              String typeName;
-              
-              if (vehicleType == 'SUBWAY' || vehicleType == 'METRO') {
-                icon = Icons.subway;
-                color = const Color(0xFF2196F3);
-                typeName = "Metro";
-              } else if (vehicleType == 'TRAM') {
-                icon = Icons.tram;
-                color = const Color(0xFF9C27B0);
-                typeName = "Tramvay";
-              } else if (vehicleType == 'RAIL' || vehicleType == 'TRAIN') {
-                icon = Icons.train;
-                color = const Color(0xFF607D8B);
-                typeName = "Tren";
-              } else {
-                icon = Icons.directions_bus;
-                color = const Color(0xFF4CAF50);
-                typeName = "Otobüs";
-              }
-              
-              return _buildTransitStepRow(
-                icon,
-                color,
-                "$typeName $lineName",
-                duration,
-                subtitle: departureStop.isNotEmpty && arrivalStop.isNotEmpty
-                    ? "$departureStop → $arrivalStop"
-                    : null,
-              );
-            }
-            return const SizedBox.shrink();
-          }),
+                  
+                  return segmentWidgets;
+                }(),
+              ),
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+
+  Widget _buildCollapsedSegmentRow({
+    required String from,
+    required String to,
+    required List<String> vehicles,
+    required int walkMins,
+    required int transitMins,
+  }) {
+    String subtitle = "";
+    if (walkMins > 0 && transitMins > 0) {
+       subtitle = "$walkMins dk yürü, ${vehicles.join(' → ')} kullan ($transitMins dk)";
+    } else if (transitMins > 0) {
+       subtitle = "${vehicles.join(' → ')} kullan ($transitMins dk)";
+    } else if (walkMins > 0) {
+       subtitle = "Sadece yürü ($walkMins dk)";
+    } else {
+       subtitle = "Varış";
+    }
+
+    // Seçilecek ikon
+    IconData icon = Icons.directions_transit;
+    Color iconColor = const Color(0xFF2196F3);
+    
+    if (vehicles.isEmpty && walkMins > 0) {
+      icon = Icons.directions_walk;
+      iconColor = accent;
+    } else if (vehicles.isNotEmpty) {
+      if (vehicles.first.contains("Metro")) icon = Icons.subway;
+      else if (vehicles.first.contains("Tramvay")) { icon = Icons.tram; iconColor = const Color(0xFF9C27B0); }
+      else if (vehicles.first.contains("Tren")) { icon = Icons.train; iconColor = const Color(0xFF607D8B); }
+      else { icon = Icons.directions_bus; iconColor = const Color(0xFF4CAF50); }
+    }
+
+    return Padding(
+      padding: const EdgeInsets.symmetric(vertical: 6),
+      child: Row(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Container(
+            width: 32,
+            height: 32,
+            margin: const EdgeInsets.only(top: 2),
+            decoration: BoxDecoration(
+              color: iconColor.withOpacity(0.2),
+              borderRadius: BorderRadius.circular(8),
+            ),
+            child: Icon(icon, color: iconColor, size: 18),
+          ),
+          const SizedBox(width: 12),
+          Expanded(
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text(
+                  "$from → $to",
+                  style: TextStyle(
+                    color: WanderlustColors.textWhite,
+                    fontSize: 14,
+                    fontWeight: FontWeight.w600,
+                  ),
+                ),
+                const SizedBox(height: 4),
+                Text(
+                  subtitle,
+                  style: TextStyle(
+                    color: WanderlustColors.textGrey,
+                    fontSize: 13,
+                  ),
+                ),
+              ],
+            ),
+          ),
+          const SizedBox(width: 8),
+          Text(
+            "${walkMins + transitMins} dk",
+            style: TextStyle(
+              color: WanderlustColors.textGrey,
+              fontSize: 13,
+              fontWeight: FontWeight.w500,
+            ),
+          ),
         ],
       ),
     );
@@ -3022,20 +3287,20 @@ class _RoutesScreenState extends State<RoutesScreen>
                   title,
                   style: const TextStyle(
                     color: WanderlustColors.textWhite,
-                    fontSize: 13,
+                    fontSize: 14,
                     fontWeight: FontWeight.w500,
                   ),
                 ),
-                if (subtitle != null)
+                if (subtitle != null) ...[
+                  const SizedBox(height: 2),
                   Text(
                     subtitle,
                     style: TextStyle(
-                      color: WanderlustColors.textGrey.withOpacity(0.8),
-                      fontSize: 11,
+                      color: WanderlustColors.textGrey,
+                      fontSize: 12,
                     ),
-                    maxLines: 1,
-                    overflow: TextOverflow.ellipsis,
                   ),
+                ],
               ],
             ),
           ),
@@ -3044,7 +3309,6 @@ class _RoutesScreenState extends State<RoutesScreen>
             style: TextStyle(
               color: WanderlustColors.textGrey,
               fontSize: 12,
-              fontWeight: FontWeight.w500,
             ),
           ),
         ],
@@ -3127,7 +3391,7 @@ class _RoutesScreenState extends State<RoutesScreen>
 
   /// "Rotayı Başlat" butonu
   Widget _buildStartRouteButton() {
-    final currentDay = (_dayTabController?.index ?? 0) + 1;
+    final currentDay = _dayTabController?.index ?? 0;
     final places = _dayPlans[currentDay] ?? [];
 
     if (places.isEmpty) return const SizedBox.shrink();
@@ -3212,8 +3476,8 @@ class _RoutesScreenState extends State<RoutesScreen>
           fontSize: 14,
         ),
         onTap: (_) => setState(() {}),
-        tabs: List.generate(_totalDays, (index) {
-          final day = index + 1;
+        tabs: List.generate(_totalDays + 1, (index) {
+          final day = index;
           final count = _dayPlans[day]?.length ?? 0;
           return Tab(
             child: Container(
@@ -3221,7 +3485,7 @@ class _RoutesScreenState extends State<RoutesScreen>
               child: Row(
                 mainAxisSize: MainAxisSize.min,
                 children: [
-                  Text("${AppLocalizations.instance.day} $day"),
+                  Text(day == 0 ? AppLocalizations.instance.myList : AppLocalizations.instance.isEnglish ? "Day $day" : "$day. Gün"),
                   if (count > 0) ...[
                     const SizedBox(width: 6),
                     Container(
@@ -3299,6 +3563,7 @@ class _RoutesScreenState extends State<RoutesScreen>
           },
           itemBuilder: (context, index) {
             return _buildMyRouteCard(
+              day: day,
               key: ValueKey(places[index].name),
               place: places[index],
               index: index,
@@ -3385,6 +3650,7 @@ class _RoutesScreenState extends State<RoutesScreen>
   }
 
   Widget _buildMyRouteCard({
+    required int day,
     required Key key,
     required Highlight place,
     required int index,
@@ -3392,12 +3658,13 @@ class _RoutesScreenState extends State<RoutesScreen>
   }) {
     return Container(
       key: key,
-      margin: const EdgeInsets.only(bottom: 12),
+      margin: const EdgeInsets.only(bottom: 4),
       child: Stack(
         children: [
-          _buildHorizontalPlaceCard(place, index, isLast: isLast),
+          _buildHorizontalPlaceCard(day, place, index, isLast: isLast),
           
-          // Drag Handle (Sağ taraf)
+          // Drag Handle (Sağ taraf) - Yalnızca Gün planlarında
+          if (day > 0)
           Positioned(
             right: 0,
             top: 0,
@@ -3428,7 +3695,7 @@ class _RoutesScreenState extends State<RoutesScreen>
   }
 
   /// Yeni yatay kart tasarımı (Profil ekranındaki favoriler gibi)
-  Widget _buildHorizontalPlaceCard(Highlight place, int index, {bool isReadOnly = false, bool isLast = false}) {
+  Widget _buildHorizontalPlaceCard(int day, Highlight place, int index, {bool isReadOnly = false, bool isLast = false}) {
     final hasImage = place.imageUrl != null && place.imageUrl!.isNotEmpty;
     final color = _getCategoryColor(place.category);
     final letter = String.fromCharCode(65 + index); // A, B, C...
@@ -3439,36 +3706,38 @@ class _RoutesScreenState extends State<RoutesScreen>
         children: [
           // Timeline Sol Sütun
           SizedBox(
-            width: 48,
+            width: 40,
             child: Column(
               children: [
-                // Üst Çizgi (İlk eleman değilse)
+                // Üst Çizgi (İlk eleman değilse) - Listem'de timeline çizgisi yok
                 Expanded(
-                  child: index == 0 
+                  child: index == 0 || day == 0
                       ? const SizedBox() 
                       : VerticalDivider(color: Colors.white.withOpacity(0.2), thickness: 2, width: 2),
                 ),
-                // Harf Dairesi (Karemsi)
+                // Harf Dairesi (Karemsi) - Listem için nokta/bullet
                 Container(
-                  width: 36,
-                  height: 36,
+                  width: day == 0 ? 10 : 28,
+                  height: day == 0 ? 10 : 28,
+                  margin: day == 0 ? const EdgeInsets.only(top: 10) : null,
                   decoration: BoxDecoration(
                     color: accent, // Hepsi mor
-                    borderRadius: BorderRadius.circular(12), // Yuvarlatılmış Kare
+                    shape: day == 0 ? BoxShape.circle : BoxShape.rectangle,
+                    borderRadius: day == 0 ? null : BorderRadius.circular(12), // Yuvarlatılmış Kare
                     boxShadow: [
-                        BoxShadow(color: accent.withOpacity(0.4), blurRadius: 8, offset: Offset(0, 2))
+                        BoxShadow(color: accent.withOpacity(0.4), blurRadius: day == 0 ? 4 : 8, offset: Offset(0, 2))
                     ]
                   ),
                   child: Center(
-                    child: Text(
+                    child: day == 0 ? const SizedBox() : Text(
                       letter, 
-                      style: const TextStyle(fontWeight: FontWeight.bold, color: Colors.white, fontSize: 16)
+                      style: const TextStyle(fontWeight: FontWeight.bold, color: Colors.white, fontSize: 13)
                     ),
                   ),
                 ),
-                // Alt Çizgi (Son eleman değilse)
+                // Alt Çizgi (Son eleman değilse) - Listem'de timeline çizgisi yok
                 Expanded(
-                  child: isLast 
+                  child: isLast || day == 0
                       ? const SizedBox() 
                       : VerticalDivider(color: Colors.white.withOpacity(0.2), thickness: 2, width: 2),
                 ),
@@ -3482,8 +3751,8 @@ class _RoutesScreenState extends State<RoutesScreen>
             child: GestureDetector(
                onTap: () => Navigator.push(context, MaterialPageRoute(builder: (_) => DetailScreen(place: place))),
                child: Container(
-                 padding: const EdgeInsets.all(12),
-                 margin: const EdgeInsets.only(bottom: 12), 
+                 padding: const EdgeInsets.all(10),
+                 margin: const EdgeInsets.only(bottom: 8), 
                  decoration: BoxDecoration(
                    color: WanderlustColors.bgCard,
                    borderRadius: BorderRadius.circular(16),
@@ -3496,7 +3765,22 @@ class _RoutesScreenState extends State<RoutesScreen>
                          padding: const EdgeInsets.only(right: 12),
                          child: ClipRRect(
                            borderRadius: BorderRadius.circular(8),
-                           child: Image.network(place.imageUrl!, width: 48, height: 48, fit: BoxFit.cover),
+                           child: Image.network(
+                             place.imageUrl!, 
+                             width: 48, 
+                             height: 48, 
+                             fit: BoxFit.cover,
+                             errorBuilder: (_, __, ___) => Container(
+                               width: 48,
+                               height: 48,
+                               color: WanderlustColors.bgCardLight,
+                               child: Icon(
+                                 Icons.image_not_supported,
+                                 size: 20,
+                                 color: Colors.white.withOpacity(0.5),
+                               ),
+                             ),
+                           ),
                          ),
                        ),
                       // Metinler
@@ -3508,16 +3792,60 @@ class _RoutesScreenState extends State<RoutesScreen>
                              Text(place.getLocalizedName(AppLocalizations.instance.isEnglish), maxLines: 1, overflow: TextOverflow.ellipsis, style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 16, color: Colors.white)),
                              const SizedBox(height: 4),
                              Text("${AppLocalizations.instance.translateCategory(place.category.trim())} • ${place.getLocalizedArea(AppLocalizations.instance.isEnglish)}", maxLines: 1, overflow: TextOverflow.ellipsis, style: const TextStyle(color: Colors.grey, fontSize: 12)),
+                             
+                             // Listem sekmesinde, bu mekanın hangi günlere atandığını göster
+                             if (day == 0)
+                               Builder(
+                                 builder: (context) {
+                                   List<int> assignedDays = [];
+                                   for (int i = 1; i <= _totalDays; i++) {
+                                     if (_dayPlans[i]?.any((p) => p.name == place.name) == true) {
+                                       assignedDays.add(i);
+                                     }
+                                   }
+                                   if (assignedDays.isEmpty) return const SizedBox.shrink();
+                                   
+                                   return Padding(
+                                     padding: const EdgeInsets.only(top: 6),
+                                     child: Wrap(
+                                       spacing: 4,
+                                       children: assignedDays.map((d) => Container(
+                                         padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 2),
+                                         decoration: BoxDecoration(
+                                           color: Colors.white.withOpacity(0.08),
+                                           borderRadius: BorderRadius.circular(4),
+                                           border: Border.all(color: Colors.white.withOpacity(0.12)),
+                                         ),
+                                         child: Text(AppLocalizations.instance.isEnglish ? "Day $d" : "$d. Gün", style: TextStyle(color: Colors.white.withOpacity(0.5), fontSize: 10, fontWeight: FontWeight.w600)),
+                                       )).toList(),
+                                     ),
+                                   );
+                                 }
+                               ),
                           ],
                         ),
                       ),
+                      
+                      // Güne Ata Butonu (Sadece Listem sekmesinde)
+                      if (!isReadOnly && day == 0)
+                         Material(
+                           color: Colors.transparent,
+                           child: InkWell(
+                             onTap: () => _assignPlaceToDayFromListem(place.name),
+                             borderRadius: BorderRadius.circular(20),
+                             child: Padding(
+                               padding: const EdgeInsets.all(8),
+                               child: Icon(Icons.calendar_month_outlined, color: Colors.white.withOpacity(0.4), size: 20),
+                             ),
+                           ),
+                         ),
                       
                       // Delete button (Sadece düzenlenebilir modda)
                       if (!isReadOnly)
                         Material(
                            color: Colors.transparent,
                            child: InkWell(
-                             onTap: () => _removeFromTrip(place.name),
+                             onTap: () => _removeFromDay(day, place.name),
                              borderRadius: BorderRadius.circular(20),
                              child: Padding(
                                padding: const EdgeInsets.all(8),
@@ -3530,8 +3858,8 @@ class _RoutesScreenState extends State<RoutesScreen>
                       if (isReadOnly)
                         const Icon(Icons.chevron_right, color: WanderlustColors.textGrey, size: 20),
                         
-                      // Drag Handle için boşluk (Eğer düzenlenebilir ise drag handle dışarıda)
-                      if (!isReadOnly)
+                      // Drag Handle için boşluk (Eğer düzenlenebilir ise ve gün 1+ ise drag handle dışarıda)
+                      if (!isReadOnly && day > 0)
                          const SizedBox(width: 24),
                    ],
                  ),
@@ -4253,46 +4581,104 @@ class _RoutesScreenState extends State<RoutesScreen>
                           );
                         }
                         
-                        // Route not applied - gray button
-                        return GestureDetector(
-                          onTap: () {
-                            Navigator.pop(context);
-                            _applySuggestedRoute(route);
-                          },
-                          child: ClipRRect(
-                            borderRadius: BorderRadius.circular(12),
-                            child: BackdropFilter(
-                              filter: ImageFilter.blur(sigmaX: 8, sigmaY: 8),
+                        return Column(
+                          mainAxisSize: MainAxisSize.min,
+                          children: [
+                            GestureDetector(
+                              onTap: () {
+                                _startDirectRouteInGoogleMaps(places);
+                              },
                               child: Container(
                                 width: double.infinity,
-                                padding: const EdgeInsets.symmetric(vertical: 12),
+                                padding: const EdgeInsets.symmetric(vertical: 10),
                                 decoration: BoxDecoration(
-                                  color: Colors.white.withOpacity(0.1),
-                                  borderRadius: BorderRadius.circular(12),
-                                  border: Border.all(color: Colors.white.withOpacity(0.2)),
+                                  color: Colors.white,
+                                  borderRadius: BorderRadius.circular(32),
+                                  boxShadow: [
+                                    BoxShadow(
+                                      color: Colors.black.withOpacity(0.12),
+                                      blurRadius: 12,
+                                      offset: const Offset(0, 4),
+                                    ),
+                                  ],
                                 ),
                                 child: Row(
                                   mainAxisAlignment: MainAxisAlignment.center,
                                   children: [
                                     const Icon(
-                                      Icons.add_circle_outline,
-                                      color: Colors.white,
-                                      size: 20,
+                                      Icons.navigation,
+                                      color: Colors.black,
+                                      size: 22,
                                     ),
-                                    const SizedBox(width: 10),
-                                    Text(
-                                      AppLocalizations.instance.createRoute,
-                                      style: const TextStyle(
-                                        color: Colors.white,
-                                        fontSize: 14,
-                                        fontWeight: FontWeight.w700,
-                                      ),
+                                    const SizedBox(width: 12),
+                                    Column(
+                                      crossAxisAlignment: CrossAxisAlignment.start,
+                                      children: [
+                                        Text(
+                                          AppLocalizations.instance.startRoute,
+                                          style: const TextStyle(
+                                            color: Colors.black,
+                                            fontSize: 16,
+                                            fontWeight: FontWeight.w700,
+                                          ),
+                                        ),
+                                        const SizedBox(height: 2),
+                                        Text(
+                                          "${places.length} durak · Google Maps",
+                                          style: const TextStyle(
+                                            color: WanderlustColors.textGrey,
+                                            fontSize: 12,
+                                            fontWeight: FontWeight.w500,
+                                          ),
+                                        ),
+                                      ],
                                     ),
                                   ],
                                 ),
                               ),
                             ),
-                          ),
+                            const SizedBox(height: 12),
+                            GestureDetector(
+                              onTap: () {
+                                Navigator.pop(context);
+                                _applySuggestedRoute(route);
+                              },
+                              child: ClipRRect(
+                                borderRadius: BorderRadius.circular(12),
+                                child: BackdropFilter(
+                                  filter: ImageFilter.blur(sigmaX: 8, sigmaY: 8),
+                                  child: Container(
+                                    width: double.infinity,
+                                    padding: const EdgeInsets.symmetric(vertical: 12),
+                                    decoration: BoxDecoration(
+                                      color: Colors.white.withOpacity(0.1),
+                                      borderRadius: BorderRadius.circular(12),
+                                      border: Border.all(color: Colors.white.withOpacity(0.2)),
+                                    ),
+                                    child: Row(
+                                      mainAxisAlignment: MainAxisAlignment.center,
+                                      children: [
+                                        const Icon(
+                                          Icons.add_circle_outline,
+                                          color: Colors.white,
+                                          size: 20,
+                                        ),
+                                        const SizedBox(width: 10),
+                                        Text(
+                                          AppLocalizations.instance.createRoute,
+                                          style: const TextStyle(
+                                            color: Colors.white,
+                                            fontSize: 14,
+                                            fontWeight: FontWeight.w700,
+                                          ),
+                                        ),
+                                      ],
+                                    ),
+                                  ),
+                                ),
+                              ),
+                            ),
+                          ],
                         );
                       }
                     ),
@@ -4304,6 +4690,43 @@ class _RoutesScreenState extends State<RoutesScreen>
         },
       ),
     );
+  }
+
+  /// Google Maps'te hazır rotayı direkt başlat 
+  Future<void> _startDirectRouteInGoogleMaps(List<Highlight> places) async {
+    // 🔥 Premium Check
+    if (!PremiumService.instance.canGetDirections()) {
+      _showPaywall();
+      return;
+    }
+
+    if (places.length < 2) return;
+
+    HapticFeedback.heavyImpact();
+
+    // Yardımcı: İsim kodlama
+    String encodePlace(Highlight p) => Uri.encodeComponent("${p.name}, ${_city?.city ?? ''}");
+
+    final origin = encodePlace(places.first);
+    final destination = encodePlace(places.last);
+    
+    // Dynamic travel mode (default walking for suggested routes)
+    String travelMode = 'walking';
+
+    String waypoints = "";
+    if (places.length > 2) {
+       final wpList = places.sublist(1, places.length - 1).map(encodePlace).toList();
+       waypoints = "&waypoints=${wpList.join('|')}";
+    }
+
+    final url = "https://www.google.com/maps/dir/?api=1&origin=$origin&destination=$destination$waypoints&travelmode=$travelMode";
+
+    try {
+      final uri = Uri.parse(url);
+      await launchUrl(uri, mode: LaunchMode.externalApplication);
+    } catch (e) {
+      debugPrint('Google Maps açılamadı: $e');
+    }
   }
 
   Widget _buildStopCard(

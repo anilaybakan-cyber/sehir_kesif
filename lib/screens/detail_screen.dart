@@ -475,6 +475,9 @@ class _DetailScreenState extends State<DetailScreen>
         await PremiumService.instance.useRouteAdd();
          
          setState(() => _isInTrip = true);
+         
+         // Sadece "Listem" seçildiyse (selectedDay == 0) zaten Listem'e eklenecek.
+         // Ama kural gereği, herhangi bir güne eklendiyse de Listem'e eklenecek.
          tripPlaces.add(name);
          
          final dayKey = selectedDay.toString();
@@ -482,6 +485,8 @@ class _DetailScreenState extends State<DetailScreen>
          
          // Yeni format: {name, city} olarak ekle
          final placeEntry = {'name': name, 'city': currentCity};
+         
+         // 1. Seçilen güne ekle
          final alreadyExists = targetList.any((item) {
            if (item is Map<String, dynamic>) return item['name'] == name;
            if (item is String) return item == name;
@@ -492,6 +497,23 @@ class _DetailScreenState extends State<DetailScreen>
             targetList.add(placeEntry);
          }
          scheduleMap[dayKey] = targetList;
+         
+         // 2. Her durumda "0" (Listem) gününe de ekle
+         if (dayKey != "0") {
+           List<dynamic> listemList = scheduleMap["0"] ?? [];
+           final existsInListem = listemList.any((item) {
+             if (item is Map<String, dynamic>) return item['name'] == name;
+             if (item is String) return item == name;
+             return false;
+           });
+           if (!existsInListem) {
+             listemList.add(placeEntry);
+           }
+           scheduleMap["0"] = listemList;
+         }
+         
+         // persist last active day for navigation focus
+         await prefs.setInt("last_active_day", selectedDay);
          
         // Save & Notify
         await prefs.setStringList("trip_places", tripPlaces);
@@ -504,7 +526,7 @@ class _DetailScreenState extends State<DetailScreen>
                  children: [
                    const Icon(Icons.check_circle, color: WanderlustColors.accent, size: 20),
                    const SizedBox(width: 12),
-                   Text("Rotaya eklendi! ($selectedDay. Gün)", style: const TextStyle(fontWeight: FontWeight.w500)),
+                   Text(AppLocalizations.instance.addedToDay(widget.place.name, selectedDay), style: const TextStyle(fontWeight: FontWeight.w500)),
                  ],
                ),
                backgroundColor: bgCardLight,
@@ -549,13 +571,22 @@ class _DetailScreenState extends State<DetailScreen>
                   child: SingleChildScrollView(
                     child: Column(
                       children: [
+                         // Listem Option
+                         ListTile(
+                             title: Text(AppLocalizations.instance.myList, style: const TextStyle(color: WanderlustColors.accent, fontWeight: FontWeight.bold)),
+                             subtitle: Text(AppLocalizations.instance.addToList, style: const TextStyle(color: textGrey, fontSize: 12)),
+                             leading: const Icon(Icons.list_alt, color: WanderlustColors.accent),
+                             onTap: () => Navigator.pop(context, 0),
+                             shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(8)),
+                         ),
+                         const Divider(color: borderColor),
                          ...List.generate(totalDays, (index) {
                              final day = index + 1;
                              final dayKey = day.toString();
                              final List<dynamic> dayPlaces = scheduleMap[dayKey] ?? [];
                              final count = dayPlaces.length;
                              return ListTile(
-                               title: Text(AppLocalizations.instance.dayN(day), style: const TextStyle(color: textWhite)),
+                               title: Text(AppLocalizations.instance.isEnglish ? "Day $day" : "$day. Gün", style: const TextStyle(color: textWhite)),
                                subtitle: Text(AppLocalizations.instance.nPlaces(count), style: const TextStyle(color: textGrey, fontSize: 12)),
                                trailing: const Icon(Icons.arrow_forward_ios, color: accent, size: 16),
                                onTap: () => Navigator.pop(context, day),
@@ -564,7 +595,7 @@ class _DetailScreenState extends State<DetailScreen>
                          const Divider(color: borderColor),
                          ListTile(
                              title: Text(AppLocalizations.instance.createNewDay, style: TextStyle(color: textWhite)),
-                             subtitle: Text(AppLocalizations.instance.dayN(totalDays + 1), style: const TextStyle(color: textGrey, fontSize: 12)),
+                             subtitle: Text(AppLocalizations.instance.isEnglish ? "Day ${totalDays + 1}" : "${totalDays + 1}. Gün", style: const TextStyle(color: textGrey, fontSize: 12)),
                              leading: const Icon(Icons.add, color: accentLight),
                              onTap: () => Navigator.pop(context, totalDays + 1),
                          ),
@@ -604,51 +635,52 @@ class _DetailScreenState extends State<DetailScreen>
     final isEnglish = AppLocalizations.instance.isEnglish;
     final place = widget.place;
     
-    // 1. App Store Link (Platform specific)
-    String appLink = "https://apps.apple.com/app/id6741743515"; // Default iOS
-    if (Platform.isAndroid) {
-      // Use package name or specific URL if available
-      appLink = "https://play.google.com/store/apps/details?id=com.anilaybakan.sehir_kesif"; 
-    }
+    // 1. App Store/Play Store Link
+    final appLink = Platform.isIOS 
+        ? "https://apps.apple.com/app/id6741743515"
+        : "https://play.google.com/store/apps/details?id=com.anilaybakan.sehir_kesif";
     
-    // 2. Map Link
-    final location = place.area.isNotEmpty ? place.area : (place.city ?? "");
-    final query = Uri.encodeComponent("${place.name}, $location");
-    final mapsUrl = "https://www.google.com/maps/search/?api=1&query=$query";
-
-    // 3. Message
+    // 2. Message
     final message = isEnglish
-        ? "I found an amazing place on My Way: ${place.name}!\n\n📍 Location: $mapsUrl\n\n📲 Discover more smart routes and hidden gems: $appLink"
-        : "My Way'de harika bir yer buldum: ${place.name}!\n\n📍 Konum: $mapsUrl\n\n📲 Akıllı rotalar ve gizli yerler keşfetmek için sen de indir: $appLink";
+        ? "I found an amazing place on My Way: ${place.name}!\n\n📲 Discover more smart routes and hidden gems: $appLink"
+        : "My Way'de harika bir yer buldum: ${place.name}!\n\n📲 Akıllı rotalar ve gizli yerler keşfetmek için sen de indir: $appLink";
 
-    // 4. Share with Image if available
+    // 3. Share with image if available
     try {
+      final RenderBox? box = context.findRenderObject() as RenderBox?;
+      final origin = box != null ? box.localToGlobal(Offset.zero) & box.size : null;
+
       if (place.imageUrl != null && place.imageUrl!.isNotEmpty) {
-        // Show loading indicator usually, but strictly speaking checking mounted is enough
-        final response = await http.get(Uri.parse(place.imageUrl!));
+        // Download image to temp file
+        final response = await http.get(Uri.parse(place.imageUrl!)).timeout(const Duration(seconds: 5));
         
         if (response.statusCode == 200) {
           final tempDir = await getTemporaryDirectory();
-          final fileName = 'share_image_${DateTime.now().millisecondsSinceEpoch}.jpg';
-          final file = await File('${tempDir.path}/$fileName').create();
+          final fileName = 'share_${DateTime.now().millisecondsSinceEpoch}.jpg';
+          final file = File('${tempDir.path}/$fileName');
           await file.writeAsBytes(response.bodyBytes);
 
-          // Share Image + Text
           await Share.shareXFiles(
             [XFile(file.path)],
             text: message,
-            subject: isEnglish ? "Check this out on My Way!" : "My Way'de buraya bak!",
+            sharePositionOrigin: origin,
           );
           return;
         }
       }
-    } catch (e) {
-      debugPrint("Share image error: $e");
-      // Fallback to text only if image fails
-    }
 
-    // Fallback: Text Only
-    await Share.share(message);
+      // Fallback: Text only
+      await Share.share(
+        message,
+        sharePositionOrigin: origin,
+      );
+    } catch (e) {
+      debugPrint("Share error: $e");
+      // Fallback to basic text share
+      if (mounted) {
+        await Share.share(message);
+      }
+    }
   }
 
   // ══════════════════════════════════════════════════════════════════════════

@@ -2,7 +2,6 @@ import 'dart:convert';
 import 'package:http/http.dart' as http;
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 
-import 'package:flutter/services.dart' show rootBundle;
 import '../secrets.dart';
 import '../l10n/app_localizations.dart';
 
@@ -12,36 +11,26 @@ class DirectionsService {
 
   /// Başlangıç ve Bitiş noktaları arasındaki rotayı getirir.
   /// Waypoints: Aradaki duraklar
-  /// Mode: walking, bicycling, driving, transit
-  /// routeId: Eğer belirtilirse, önce assets/routes/{routeId}.json dosyasından okumayı dener (Maliyet: 0)
+  /// Mode: walking, driving, transit
+  /// optimizeWaypoints: Google Maps API waypoints optimizasyonu
   Future<Map<String, dynamic>?> getDirections({
     required LatLng origin,
     required LatLng destination,
     List<LatLng>? waypoints,
     String mode = 'walking',
-    String? routeId,
+    bool optimizeWaypoints = false,
   }) async {
     
-    // 0. Static Rota Kontrolü (Hız & Maliyet için)
-    // Dosya adı: {routeId}_{mode}.json (örn: bcn_gaudi_walking.json)
-    if (routeId != null) {
-      try {
-        final jsonString = await rootBundle.loadString('assets/routes/${routeId}_$mode.json');
-        final data = json.decode(jsonString);
-        print("✅ Static route loaded: ${routeId}_$mode (Cost: \$0)");
-        return _parseResponse(data);
-      } catch (e) {
-        print("⚠️ Static route not found, falling back to API: ${routeId}_$mode");
-        // Dosya yoksa API'ye devam et
-      }
-    }
-
-    // 1. Durakları string formatına çevir (via:lat,lng|via:lat,lng...)
+    // 1. Durakları string formatına çevir
     String waypointsString = "";
     if (mode != 'transit' && waypoints != null && waypoints.isNotEmpty) {
-      waypointsString = waypoints
-          .map((e) => "via:${e.latitude},${e.longitude}")
-          .join("|");
+      if (optimizeWaypoints) {
+        waypointsString = "optimize:true|" + waypoints.map((e) => "${e.latitude},${e.longitude}").join("|");
+      } else {
+        // optimizasyon yoksa `via:` kullanarak bacaklara ayırmayı önle (isteğe bağlı) veya normal waypoint kullan.
+        // Google Maps en iyi performansı düz koordinat vererek veya `via:` vererek sağlar. 
+        waypointsString = waypoints.map((e) => "via:${e.latitude},${e.longitude}").join("|");
+      }
     }
 
     // 2. İsteği oluştur

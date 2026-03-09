@@ -239,6 +239,19 @@ class Highlight {
       );
     }
 
+    // Güvenli Koordinat Dönüşümü: JSON'da bazen ondalık noktası unutulabiliyor (Örn: 52521.0 -> 52.521 olmalı)
+    double safeParseCoordinate(dynamic value, bool isLat) {
+      if (value == null) return 0.0;
+      double parsed = (value as num).toDouble();
+      if (parsed == 0.0) return 0.0;
+      
+      final limit = isLat ? 90.0 : 180.0;
+      while (parsed.abs() > limit) {
+        parsed /= 10.0;
+      }
+      return parsed; // Daha tutarlı olması için yuvarlanabilir ama Google Maps hassasiyeti için direkt dönüyoruz
+    }
+
     return Highlight(
       name: json["name"] ?? "",
       area: json["area"] ?? "",
@@ -247,8 +260,8 @@ class Highlight {
       tags: (json["tags"] as List?)?.map((e) => e.toString()).toList() ?? [],
       distanceFromCenter:
           (json["distanceFromCenter"] as num?)?.toDouble() ?? 0.0,
-      lat: (json["lat"] as num?)?.toDouble() ?? 0.0,
-      lng: (json["lng"] as num?)?.toDouble() ?? 0.0,
+      lat: safeParseCoordinate(json["lat"], true),
+      lng: safeParseCoordinate(json["lng"], false),
       price: json["price"] ?? "medium",
       description: json["description"] ?? "",
       imageUrl: json["imageUrl"],
