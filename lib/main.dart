@@ -438,8 +438,8 @@ class _MainScreenState extends State<MainScreen> {
       child: Scaffold(
         body: IndexedStack(index: _currentIndex, children: [
           ExploreScreen(isVisible: _currentIndex == 0),
-          NearbyScreen(isVisible: _currentIndex == 1),
-          RoutesScreen(isVisible: _currentIndex == 2),
+          RoutesScreen(isVisible: _currentIndex == 1),
+          NearbyScreen(isVisible: _currentIndex == 2),
           const CityGuideScreen(),
           ProfileScreen(isVisible: _currentIndex == 4),
         ]),
@@ -450,7 +450,7 @@ class _MainScreenState extends State<MainScreen> {
           setState(() => _currentIndex = index);
           
           // Trigger tutorial if switching to Nearby tab
-          if (index == 1) {
+          if (index == 2) {
              // Small delay to ensure UI settles if needed
              Future.delayed(const Duration(milliseconds: 300), () {
                 TutorialService.instance.triggerTutorial(TutorialService.KEY_TUTORIAL_NEARBY);
@@ -469,14 +469,14 @@ class _MainScreenState extends State<MainScreen> {
             label: AppLocalizations.instance.navExplore,
           ),
           BottomNavigationBarItem(
-            icon: const Icon(Icons.near_me_outlined),
-            activeIcon: const Icon(Icons.near_me_rounded),
-            label: AppLocalizations.instance.navNearby,
-          ),
-          BottomNavigationBarItem(
             icon: const Icon(Icons.bookmark_border_rounded),
             activeIcon: const Icon(Icons.bookmark_rounded),
             label: AppLocalizations.instance.navRoutes,
+          ),
+          BottomNavigationBarItem(
+            icon: const Icon(Icons.near_me_outlined),
+            activeIcon: const Icon(Icons.near_me_rounded),
+            label: AppLocalizations.instance.navNearby,
           ),
           BottomNavigationBarItem(
             icon: const Icon(Icons.map_outlined),
