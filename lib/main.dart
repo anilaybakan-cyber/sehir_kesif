@@ -224,16 +224,10 @@ class _MainScreenState extends State<MainScreen> {
     super.initState();
     _currentIndex = widget.initialIndex;
     
-    if (widget.checkPaywall) {
-      WidgetsBinding.instance.addPostFrameCallback((_) {
-        _checkAndShowPaywall(onDone: () => _checkAndShowCitySuggestion(onDone: _scheduleTutorial));
-      });
-    } else {
-       // Normal launch - still try to schedule tutorial (it will check if seen internally)
-       // But maybe with less delay or immediately? User asked for 5-6s delay specifically for onboarding flow.
-       // Let's keep it consistent or check if it's first run.
-       _scheduleTutorial();
-    }
+    // User requested to disable automatic paywall appearance on app launch/re-launch
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      _checkAndShowCitySuggestion(onDone: _scheduleTutorial);
+    });
   }
 
   void _scheduleTutorial() {
