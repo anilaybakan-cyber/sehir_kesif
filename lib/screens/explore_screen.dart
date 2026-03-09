@@ -292,6 +292,15 @@ class _ExploreScreenState extends State<ExploreScreen>
           // 🔥 FCM Üyeliğini güncelle
           NotificationService().subscribeToCity(normalizedCity);
 
+          if (!_aiChatCache.containsKey(normalizedCity)) {
+             final savedCache = prefs.getString("ai_chat_cache_$normalizedCity");
+             if (savedCache != null) {
+                try {
+                   _aiChatCache[normalizedCity] = Map<String, dynamic>.from(jsonDecode(savedCache));
+                } catch(e) {}
+             }
+          }
+
           if (_aiChatCache.containsKey(normalizedCity)) {
             // Bu şehir için daha önce tavsiye alınmış, cache'ten getir
             final cachedData = _aiChatCache[normalizedCity]!;
@@ -903,10 +912,16 @@ class _ExploreScreenState extends State<ExploreScreen>
         _aiCardExpanded = true;
 
       // Cache'e kaydet
-        _aiChatCache[_currentCityId] = {
+        final cacheData = {
           "content": chatResponse,
           "isEnglish": AppLocalizations.instance.isEnglish
         };
+        _aiChatCache[_currentCityId] = cacheData;
+      });
+      
+      // SharedPreferences'a da kaydet (kalıcı depolama)
+      SharedPreferences.getInstance().then((prefs) {
+        prefs.setString("ai_chat_cache_$_currentCityId", jsonEncode(cacheData));
       });
     } catch (e) {
       if (!mounted) return;
@@ -2601,6 +2616,9 @@ class _ExploreScreenState extends State<ExploreScreen>
                 HapticFeedback.mediumImpact();
                 // Cache'i temizle ve yeniden üret
                 _aiChatCache.remove(_currentCityId);
+                SharedPreferences.getInstance().then((prefs) {
+                  prefs.remove("ai_chat_cache_$_currentCityId");
+                });
                 setState(() => _aiChatResponse = null);
                 _fetchAIChatResponse();
               },
