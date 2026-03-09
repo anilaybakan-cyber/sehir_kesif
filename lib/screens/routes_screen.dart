@@ -3187,14 +3187,21 @@ class _RoutesScreenState extends State<RoutesScreen>
     required int transitMins,
   }) {
     String subtitle = "";
+    final isEn = AppLocalizations.instance.isEnglish;
     if (walkMins > 0 && transitMins > 0) {
-       subtitle = "$walkMins dk yürü, ${vehicles.join(' → ')} kullan ($transitMins dk)";
+       subtitle = isEn 
+           ? "Walk $walkMins min, take ${vehicles.join(' → ')} ($transitMins min)"
+           : "$walkMins dk yürü, ${vehicles.join(' → ')} kullan ($transitMins dk)";
     } else if (transitMins > 0) {
-       subtitle = "${vehicles.join(' → ')} kullan ($transitMins dk)";
+       subtitle = isEn
+           ? "Take ${vehicles.join(' → ')} ($transitMins min)"
+           : "${vehicles.join(' → ')} kullan ($transitMins dk)";
     } else if (walkMins > 0) {
-       subtitle = "Sadece yürü ($walkMins dk)";
+       subtitle = isEn
+           ? "Walk only ($walkMins min)"
+           : "Sadece yürü ($walkMins dk)";
     } else {
-       subtitle = "Varış";
+       subtitle = isEn ? "Arrival" : "Varış";
     }
 
     // Seçilecek ikon
