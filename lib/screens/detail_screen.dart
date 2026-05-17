@@ -830,7 +830,7 @@ class _DetailScreenState extends State<DetailScreen>
           // Image
           if (hasImage)
             CachedNetworkImage(
-              imageUrl: place.imageUrl!,
+              imageUrl: resolveOptimizedImageUrl(place.imageUrl!, isHero: true),
               fit: BoxFit.cover,
               cacheManager: AppImageCacheManager.instance,
               fadeInDuration: Duration.zero,
@@ -1889,7 +1889,7 @@ class _DetailScreenState extends State<DetailScreen>
               borderRadius: BorderRadius.circular(10),
               child: place.imageUrl != null
                   ? CachedNetworkImage(
-                      imageUrl: place.imageUrl!,
+                      imageUrl: resolveOptimizedImageUrl(place.imageUrl!),
                       width: 60,
                       height: 60,
                       fit: BoxFit.cover,

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_blurhash/flutter_blurhash.dart';
+import 'package:cached_network_image/cached_network_image.dart';
 import '../utils/image_utils.dart';
 import '../theme/wanderlust_colors.dart';
 
@@ -150,19 +151,18 @@ class _ResilientNetworkImageState extends State<ResilientNetworkImage> {
     final effectiveWidth = lw.isFinite && lw > 0 ? lw : null;
     final effectiveHeight = lh.isFinite && lh > 0 ? lh : null;
 
-    Widget image = Image.network(
-      url,
+    Widget image = CachedNetworkImage(
+      imageUrl: url,
       key: ValueKey(url),
       width: effectiveWidth,
       height: effectiveHeight,
       fit: widget.fit,
-      loadingBuilder: (ctx, child, loadingProgress) {
-        if (loadingProgress == null) return child;
-        return _buildPlaceholder(ctx);
-      },
-      errorBuilder: (ctx, error, stackTrace) {
-        // ⚡ Eğer ilk (optimize) URL 404 verdiyse ve henüz fallback denemediysek,
-        // anında orijinal URL'ye dönüş yap!
+      cacheManager: AppImageCacheManager.instance,
+      fadeInDuration: widget.fadeInDuration,
+      memCacheWidth: widget.memCacheWidth,
+      memCacheHeight: widget.memCacheHeight,
+      placeholder: (ctx, url) => _buildPlaceholder(ctx),
+      errorWidget: (ctx, url, error) {
         if (!_useFallback) {
           WidgetsBinding.instance.addPostFrameCallback((_) {
             if (mounted) {
