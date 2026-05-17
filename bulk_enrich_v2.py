@@ -4,8 +4,10 @@ import pandas as pd
 import json
 import os
 import random
+from dotenv import load_dotenv
 
-API_KEY = "YOUR_OPENAI_API_KEY_HERE"
+load_dotenv()
+API_KEY = os.getenv("OPENAI_API_KEY", "YOUR_OPENAI_API_KEY_HERE")
 API_URL = "https://api.openai.com/v1/chat/completions"
 
 SOURCE_FILE = "/Users/anilebru/Desktop/Tum_Sehirler_Cok_Detayli_Liste.xlsx"
