@@ -329,8 +329,14 @@ class AIService {
       print("AI Error: $e");
       // Fallback: Eski hardcoded yönteme dön
        return _getFallbackResponse(
-         city: cityModel.city, userName: userName, travelStyle: travelStyle, 
-         interests: interests, budgetLevel: budgetLevel, tripDays: tripDays, isEnglish: isEnglish
+         city: cityModel.city,
+         userName: userName,
+         travelStyle: travelStyle, 
+         interests: interests,
+         budgetLevel: budgetLevel,
+         tripDays: tripDays,
+         cityHighlights: cityModel.highlights,
+         isEnglish: isEnglish,
        );
     }
   }
@@ -384,15 +390,15 @@ class AIService {
     required List<String> interests,
     required String budgetLevel,
     required int tripDays,
+    required List<Highlight> cityHighlights,
     bool isEnglish = false,
   }) {
-    // ... Eski logic buraya taşınacak (yer tutucu)
-    final cityData = _getCitySpecificContent(city, interests, budgetLevel, travelStyle, isEnglish);
-     final greeting = isEnglish
+    final cityData = _getCitySpecificContent(city, interests, budgetLevel, travelStyle, cityHighlights, isEnglish);
+    final greeting = isEnglish
         ? "Good evening $userName! Welcome to $city!"
-        : "İyi akşamlar $userName! $city'e hoş geldin!";
+        : "İyi akşamlar $userName! $city'ye hoş geldin!";
     
-     return isEnglish
+    return isEnglish
         ? '''$greeting ${cityData['intro']}\n\n${cityData['recommendations']}\n\n**Tip:** ${cityData['tip']}'''
         : '''$greeting ${cityData['intro']}\n\n${cityData['recommendations']}\n\n**İpucu:** ${cityData['tip']}''';
   }
@@ -449,6 +455,7 @@ class AIService {
     List<String> interests,
     String budget,
     String style,
+    List<Highlight> cityHighlights,
     bool isEnglish,
   ) {
     final normalizedCity = city.toLowerCase().trim();
@@ -505,8 +512,22 @@ class AIService {
       case 'oslo':
         return _getOsloContent(interests, budget, isEnglish);
       case 'barcelona':
-      default:
         return _getBarcelonaContent(interests, budget, isEnglish);
+      default:
+        // Şehrin kendi highlight'larını kullanarak dinamik ve evrensel içerik üret
+        final sampleList = List<Highlight>.from(cityHighlights)..shuffle();
+        final placesStr = sampleList.take(3).map((h) => "- [${h.name}](search:${h.name}) - ${h.description ?? (isEnglish ? 'A fantastic discovery point.' : 'Harika bir keşif noktası.')}").join("\n\n");
+        return {
+          'intro': isEnglish
+              ? "Welcome to $city! An exciting exploration adventure awaits you in this amazing city!"
+              : "$city'ye hoş geldin! Bu büyüleyici şehirde harika bir keşif macerası seni bekliyor!",
+          'recommendations': placesStr.isNotEmpty
+              ? placesStr
+              : (isEnglish ? "- [City Center](search:City Center) - Explore the historical streets and local cafes of $city." : "- [Şehir Merkezi](search:Şehir Merkezi) - $city'nin tarihi sokaklarını ve yerel kafelerini keşfet."),
+          'tip': isEnglish
+              ? "Start your day early to enjoy the best photo spots without crowds!"
+              : "Kalabalıklara kalmadan en güzel fotoğraf noktalarının tadını çıkarmak için güne erken başla!",
+        };
     }
   }
 
@@ -960,10 +981,17 @@ class AIService {
     required String travelStyle,
     required List<String> interests,
     required double moodLevel, // 0.0 (Sakin) - 1.0 (Popüler)
+    required List<Highlight> cityHighlights,
   }) async {
     await Future.delayed(const Duration(milliseconds: 600));
 
-    // Şehre göre önerileri seç
+    // O şehrin kendi highlight listesinden dinamik olarak 4 mekan seç
+    if (cityHighlights.isNotEmpty) {
+      final list = List<Highlight>.from(cityHighlights)..shuffle();
+      return list.take(4).toList();
+    }
+
+    // Şehre göre önerileri seç (Fallback)
     final normalizedCity = city.toLowerCase().trim();
 
     switch (normalizedCity) {

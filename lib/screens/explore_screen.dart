@@ -973,12 +973,12 @@ class _ExploreScreenState extends State<ExploreScreen>
     final String requestedCityId = _currentCityId;
 
     try {
-      // Mood bazlı mekan önerilerini al (chat yanıtı değil)
       final recs = await AIService.getSerendipityRecommendations(
         city: _city!.city,
         travelStyle: _travelStyle,
         interests: _interests,
         moodLevel: _selectedMood / 2.0,
+        cityHighlights: _allHighlights,
       );
 
       if (!mounted) return;
