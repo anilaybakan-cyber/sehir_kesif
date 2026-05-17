@@ -5,7 +5,7 @@ import json
 import os
 import random
 
-API_KEY = "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"
+API_KEY = "YOUR_OPENAI_API_KEY_HERE"
 API_URL = "https://api.openai.com/v1/chat/completions"
 
 SOURCE_FILE = "/Users/anilebru/Desktop/Tum_Sehirler_Cok_Detayli_Liste.xlsx"
