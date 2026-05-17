@@ -1208,34 +1208,29 @@ class _NearbyScreenState extends State<NearbyScreen>
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Row(
-              crossAxisAlignment: CrossAxisAlignment.start,
+              crossAxisAlignment: CrossAxisAlignment.center,
               children: [
                 Container(
-                  padding: const EdgeInsets.all(10),
+                  padding: const EdgeInsets.all(8),
                   decoration: BoxDecoration(
                     color: Colors.transparent,
                     borderRadius: BorderRadius.circular(12),
                   ),
                   child: Image.asset(
                     sourceIsLocation ? 'assets/icons/location.png' : 'assets/icons/city.png',
-                    width: 22,
-                    height: 22,
+                    width: 24,
+                    height: 24,
                   ),
                 ),
-                const SizedBox(width: 12),
+                const SizedBox(width: 10),
                 Expanded(
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      Text(
-                        locationContext.statusTitle,
-                        style: TextStyle(
-                          fontSize: 15,
-                          fontWeight: FontWeight.w600,
-                          color: textPrimary,
-                        ),
-                      ),
-                    ],
+                  child: Text(
+                    locationContext.statusTitle,
+                    style: TextStyle(
+                      fontSize: 16,
+                      fontWeight: FontWeight.w700,
+                      color: textPrimary,
+                    ),
                   ),
                 ),
               ],
