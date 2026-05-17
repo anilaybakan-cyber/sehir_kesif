@@ -1234,15 +1234,6 @@ class _NearbyScreenState extends State<NearbyScreen>
                           fontWeight: FontWeight.w600,
                           color: textPrimary,
                         ),
-                      ),
-                      const SizedBox(height: 4),
-                      Text(
-                        AppLocalizations.instance.placesFound(_filteredPlaces.length),
-                        style: TextStyle(
-                          fontSize: 13,
-                          color: textSecondary.withOpacity(0.7),
-                        ),
-                      ),
                     ],
                   ),
                 ),

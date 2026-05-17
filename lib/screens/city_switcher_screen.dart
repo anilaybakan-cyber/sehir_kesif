@@ -361,73 +361,138 @@ class _CitySwitcherModalState extends State<_CitySwitcherModal> {
     final isEn = AppLocalizations.instance.isEnglish;
     const bgCard = Color(0xFFFFFCF8);
     const textPrimary = Color(0xFF2F2638);
-    const accent = Color(0xFF8B7FD9);
-    
+    const accent = WanderlustColors.accent;
+
+    int tempDays = 3; // Varsayılan 3 gün
+
     return showModalBottomSheet<int>(
       context: context,
       backgroundColor: Colors.transparent,
       isScrollControlled: true,
-      builder: (context) => Container(
-        padding: const EdgeInsets.all(24),
-        decoration: const BoxDecoration(
-          color: bgCard,
-          borderRadius: BorderRadius.vertical(top: Radius.circular(24)),
-        ),
-        child: Column(
-          mainAxisSize: MainAxisSize.min,
-          children: [
-            Container(
-              width: 40, height: 4,
-              decoration: BoxDecoration(color: textPrimary.withOpacity(0.2), borderRadius: BorderRadius.circular(2)),
+      builder: (context) => StatefulBuilder(
+        builder: (context, setModalState) {
+          return Container(
+            padding: const EdgeInsets.all(28),
+            decoration: const BoxDecoration(
+              color: bgCard,
+              borderRadius: BorderRadius.vertical(top: Radius.circular(28)),
             ),
-            const SizedBox(height: 20),
-            Text(
-              isEn ? "How many days will you stay?" : "Kaç gün kalacaksın?",
-              style: const TextStyle(color: textPrimary, fontSize: 20, fontWeight: FontWeight.w700),
-            ),
-            const SizedBox(height: 8),
-            Text(
-              isEn ? "This helps us plan your trip better" : "Bu bize rotanı daha iyi planlamamıza yardımcı olur",
-              style: TextStyle(color: textPrimary.withOpacity(0.6), fontSize: 14),
-            ),
-            const SizedBox(height: 24),
-            Wrap(
-              spacing: 12,
-              runSpacing: 12,
-              alignment: WrapAlignment.center,
-              children: List.generate(7, (index) {
-                final day = index + 1;
-                return GestureDetector(
-                  onTap: () => Navigator.pop(context, day),
-                  child: Container(
-                    width: 60,
-                    height: 60,
-                    decoration: BoxDecoration(
-                      color: accent.withOpacity(0.15),
-                      borderRadius: BorderRadius.circular(16),
-                      border: Border.all(color: accent.withOpacity(0.3)),
+            child: Column(
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                Container(
+                  width: 40,
+                  height: 4,
+                  decoration: BoxDecoration(
+                    color: textPrimary.withOpacity(0.2),
+                    borderRadius: BorderRadius.circular(2),
+                  ),
+                ),
+                const SizedBox(height: 24),
+                Text(
+                  isEn ? "How many days will you stay?" : "Kaç gün kalacaksın?",
+                  style: const TextStyle(
+                    color: textPrimary,
+                    fontSize: 22,
+                    fontWeight: FontWeight.w800,
+                  ),
+                  textAlign: TextAlign.center,
+                ),
+                const SizedBox(height: 8),
+                Text(
+                  isEn
+                      ? "This helps us plan your trip better"
+                      : "Bu bize rotanı daha iyi planlamamıza yardımcı olur",
+                  style: TextStyle(
+                    color: textPrimary.withOpacity(0.6),
+                    fontSize: 14,
+                  ),
+                  textAlign: TextAlign.center,
+                ),
+                const SizedBox(height: 36),
+                // Seçilen gün sayısı büyük gösterim
+                Container(
+                  padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 12),
+                  decoration: BoxDecoration(
+                    color: accent.withOpacity(0.12),
+                    borderRadius: BorderRadius.circular(20),
+                    border: Border.all(color: accent.withOpacity(0.3)),
+                  ),
+                  child: Text(
+                    isEn ? "$tempDays Days" : "$tempDays Gün",
+                    style: const TextStyle(
+                      color: accent,
+                      fontSize: 28,
+                      fontWeight: FontWeight.bold,
                     ),
-                    child: Center(
-                      child: Text(
-                        "$day",
-                        style: const TextStyle(color: accent, fontSize: 20, fontWeight: FontWeight.w600),
+                  ),
+                ),
+                const SizedBox(height: 28),
+                // Şık Slider (1-14 gün)
+                SliderTheme(
+                  data: SliderThemeData(
+                    activeTrackColor: accent,
+                    inactiveTrackColor: textPrimary.withOpacity(0.1),
+                    thumbColor: accent,
+                    thumbShape: const RoundSliderThumbShape(enabledThumbRadius: 10),
+                    trackHeight: 6,
+                    overlayColor: accent.withOpacity(0.2),
+                  ),
+                  child: Slider(
+                    value: tempDays.toDouble(),
+                    min: 1,
+                    max: 14,
+                    divisions: 13,
+                    onChanged: (v) {
+                      HapticFeedback.selectionClick();
+                      setModalState(() => tempDays = v.toInt());
+                    },
+                  ),
+                ),
+                const SizedBox(height: 36),
+                // Onay Butonu
+                SizedBox(
+                  width: double.infinity,
+                  height: 54,
+                  child: ElevatedButton(
+                    style: ElevatedButton.styleFrom(
+                      backgroundColor: accent,
+                      foregroundColor: Colors.white,
+                      elevation: 0,
+                      shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(16),
+                      ),
+                    ),
+                    onPressed: () => Navigator.pop(context, tempDays),
+                    child: Text(
+                      isEn ? "Confirm" : "Onayla",
+                      style: const TextStyle(
+                        fontSize: 17,
+                        fontWeight: FontWeight.w700,
                       ),
                     ),
                   ),
-                );
-              }),
+                ),
+                const SizedBox(height: 16),
+                GestureDetector(
+                  onTap: () => Navigator.pop(context, null),
+                  child: Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Text(
+                      isEn ? "Skip for now" : "Şimdilik geç",
+                      style: TextStyle(
+                        color: textPrimary.withOpacity(0.5),
+                        fontSize: 14,
+                        fontWeight: FontWeight.w500,
+                      ),
+                    ),
+                  ),
+                ),
+                const SizedBox(height: 20),
+              ],
             ),
-            const SizedBox(height: 24),
-            GestureDetector(
-              onTap: () => Navigator.pop(context, null),
-              child: Text(
-                isEn ? "Skip for now" : "Şimdilik geç",
-                style: TextStyle(color: textPrimary.withOpacity(0.5), fontSize: 14),
-              ),
-            ),
-            const SizedBox(height: 20),
-          ],
-        ),
+          );
+        },
       ),
     );
   }
