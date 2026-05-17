@@ -9,6 +9,8 @@ import 'detail_screen.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import '../l10n/app_localizations.dart';
 import '../theme/wanderlust_colors.dart';
+import '../widgets/resilient_network_image.dart';
+import '../services/image_prefetch_service.dart';
 
 class RouteDetailScreen extends StatefulWidget {
   final List<Highlight> places;
@@ -78,7 +80,6 @@ class _RouteDetailScreenState extends State<RouteDetailScreen> {
       origin: origin,
       destination: destination,
       waypoints: waypoints,
-      routeId: widget.routeId, // Pass routeId
     );
 
     if (result != null && mounted) {
@@ -165,7 +166,7 @@ class _RouteDetailScreenState extends State<RouteDetailScreen> {
       "&origin=$origin"
       "&destination=$destination"
       "$waypoints"
-      "&travelmode=walking",
+      "&travelmode=walking", // Default for now, but could be dynamic
     );
 
     // iOS 26+'da canLaunchUrl bazen false dönebiliyor, direkt deneyelim
@@ -387,148 +388,203 @@ class _RouteDetailScreenState extends State<RouteDetailScreen> {
 
   Widget _buildPremiumTimelineItem(Highlight place, int index) {
     final hasImage = place.imageUrl != null && place.imageUrl!.isNotEmpty;
+    final isLast = index == routeList.length - 1;
 
-    return Padding(
-      padding: const EdgeInsets.only(bottom: 24),
-      child: GestureDetector(
-        onTap: () {
-          Navigator.push(
-            context,
-            MaterialPageRoute(builder: (_) => DetailScreen(place: place)),
-          );
-        },
-        child: Container(
-          decoration: BoxDecoration(
-            color: Colors.white,
-            borderRadius: BorderRadius.circular(24),
-            boxShadow: [
-              BoxShadow(
-                color: Colors.black.withOpacity(0.06),
-                blurRadius: 15,
-                offset: const Offset(0, 8),
-              ),
-            ],
+    return IntrinsicHeight(
+      child: Row(
+        crossAxisAlignment: CrossAxisAlignment.stretch,
+        children: [
+          // Sol Taraf: Dinamik Harita Pini ve Yol Çizgisi
+          SizedBox(
+            width: 48,
+            child: Stack(
+              alignment: Alignment.topCenter,
+              clipBehavior: Clip.none,
+              children: [
+                if (!isLast)
+                  Positioned(
+                    top: 40, // Pin'in ortalarından başlar
+                    bottom: -50, // Bir sonraki pin'in arkasına kadar uzanır
+                    child: Container(
+                      width: 3,
+                      decoration: BoxDecoration(
+                        gradient: LinearGradient(
+                          colors: [
+                            WanderlustColors.accent.withOpacity(0.8),
+                            WanderlustColors.accent.withOpacity(0.1),
+                          ],
+                          begin: Alignment.topCenter,
+                          end: Alignment.bottomCenter,
+                        ),
+                        borderRadius: BorderRadius.circular(2),
+                      ),
+                    ),
+                  ),
+                Center(
+                  child: Padding(
+                    padding: const EdgeInsets.only(bottom: 16), // Kartın alt boşluğuyla hizalamak için
+                    child: Container(
+                      width: 32,
+                      height: 32,
+                      decoration: BoxDecoration(
+                        gradient: LinearGradient(
+                          colors: [
+                            WanderlustColors.accent.withOpacity(0.8),
+                            WanderlustColors.accent,
+                          ],
+                          begin: Alignment.topLeft,
+                          end: Alignment.bottomRight,
+                        ),
+                        shape: BoxShape.circle,
+                        boxShadow: [
+                          BoxShadow(
+                            color: WanderlustColors.accent.withOpacity(0.4),
+                            blurRadius: 8,
+                            offset: const Offset(0, 3),
+                          ),
+                        ],
+                        border: Border.all(color: Colors.white, width: 2),
+                      ),
+                      child: Center(
+                        child: Text(
+                          String.fromCharCode(65 + index), // A, B, C...
+                          style: const TextStyle(
+                            color: Colors.white,
+                            fontSize: 14,
+                            fontWeight: FontWeight.bold,
+                          ),
+                        ),
+                      ),
+                    ),
+                  ),
+                ),
+              ],
+            ),
           ),
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              Stack(
-                children: [
-                  ClipRRect(
-                    borderRadius: const BorderRadius.vertical(
-                      top: Radius.circular(24),
-                    ),
-                    child: hasImage
-                        ? Image.network(
-                            place.imageUrl ?? "",
-                            height: 180,
-                            width: double.infinity,
-                            fit: BoxFit.cover,
-                            errorBuilder: (ctx, err, stack) => Container(height: 180, color: Colors.grey.shade200),
-                          )
-                        : Container(height: 180, color: Colors.grey.shade200),
+          
+          // Sağ Taraf: Havalı İçerik Kartı
+          Expanded(
+            child: Padding(
+              padding: const EdgeInsets.only(bottom: 16),
+              child: GestureDetector(
+                onTap: () {
+                  // Fotoğrafı prefetch et
+                  ImagePrefetchService.prefetchSinglePhoto(context, place.imageUrl, heroDecode: true);
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (_) => DetailScreen(place: place)),
+                  );
+                },
+                child: Container(
+                  padding: const EdgeInsets.all(12),
+                  decoration: BoxDecoration(
+                    color: Colors.white,
+                    borderRadius: BorderRadius.circular(20),
+                    boxShadow: [
+                      BoxShadow(
+                        color: Colors.black.withOpacity(0.04),
+                        blurRadius: 10,
+                        offset: const Offset(0, 4),
+                      ),
+                    ],
                   ),
-
-                  Positioned(
-                    top: 12,
-                    left: 12,
-                    child: Container(
-                      padding: const EdgeInsets.symmetric(
-                        horizontal: 12,
-                        vertical: 8,
-                      ),
-                      decoration: BoxDecoration(
-                        color: Colors.black.withOpacity(0.75),
-                        borderRadius: BorderRadius.circular(12),
-                      ),
-                      child: Text(
-                        AppLocalizations.instance.stopNumber(index + 1),
-                        style: const TextStyle(
-                          color: Colors.white,
-                          fontWeight: FontWeight.bold,
-                          fontSize: 12,
+                  child: Row(
+                    children: [
+                      ClipRRect(
+                        borderRadius: BorderRadius.circular(14),
+                        child: SizedBox(
+                          width: 60,
+                          height: 60,
+                          child: hasImage
+                              ? ResilientNetworkImage(
+                                  imageUrl: place.imageUrl,
+                                  placeName:
+                                      place.getLocalizedName(AppLocalizations.instance.isEnglish),
+                                  city: place.city ?? place.area,
+                                  category: place.category,
+                                  width: 60,
+                                  height: 60,
+                                  fit: BoxFit.cover,
+                                  placeholderBuilder: (_) => Container(
+                                    color: WanderlustColors.bgCardLight,
+                                    child: const Icon(
+                                      Icons.place,
+                                      color: WanderlustColors.textGrey,
+                                      size: 24,
+                                    ),
+                                  ),
+                                )
+                              : Container(
+                                  color: WanderlustColors.bgCardLight,
+                                  child: const Icon(
+                                    Icons.place,
+                                    color: WanderlustColors.textGrey,
+                                    size: 24,
+                                  ),
+                                ),
                         ),
                       ),
-                    ),
-                  ),
-
-                  Positioned(
-                    top: 12,
-                    right: 12,
-                    child: Container(
-                      padding: const EdgeInsets.symmetric(
-                        horizontal: 10,
-                        vertical: 6,
-                      ),
-                      decoration: BoxDecoration(
-                        color: Colors.white,
-                        borderRadius: BorderRadius.circular(20),
-                      ),
-                      child: Text(
-                        AppLocalizations.instance.translateCategory(place.category).toUpperCase(),
-                        style: const TextStyle(
-                          fontSize: 10,
-                          fontWeight: FontWeight.w900,
-                          color: Colors.black87,
-                        ),
-                      ),
-                    ),
-                  ),
-                ],
-              ),
-
-              Padding(
-                padding: const EdgeInsets.all(18),
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Text(
-                      place.getLocalizedName(AppLocalizations.instance.isEnglish),
-                      style: const TextStyle(
-                        fontSize: 20,
-                        fontWeight: FontWeight.w800,
-                        color: Colors.black87,
-                      ),
-                    ),
-                    const SizedBox(height: 6),
-                    Text(
-                      place.area.isNotEmpty ? place.area : (place.city ?? ""),
-                      style: TextStyle(
-                        color: Colors.grey.shade500,
-                        fontSize: 14,
-                        fontWeight: FontWeight.w500,
-                      ),
-                    ),
-                    const SizedBox(height: 16),
-                    Wrap(
-                      spacing: 8,
-                      children: place.tags.take(3).map((tag) {
-                        return Container(
-                          padding: const EdgeInsets.symmetric(
-                            horizontal: 10,
-                            vertical: 5,
-                          ),
-                          decoration: BoxDecoration(
-                            color: WanderlustColors.accent.withOpacity(0.1),
-                            borderRadius: BorderRadius.circular(8),
-                          ),
-                          child: Text(
-                            "#${AppLocalizations.instance.translateCategory(tag)}",
-                            style: TextStyle(
-                              color: WanderlustColors.accent.withOpacity(0.9),
-                              fontSize: 12,
-                              fontWeight: FontWeight.w600,
+                      const SizedBox(width: 14),
+                      Expanded(
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Text(
+                              place.getLocalizedName(AppLocalizations.instance.isEnglish),
+                              style: const TextStyle(
+                                color: Colors.black87,
+                                fontSize: 16,
+                                fontWeight: FontWeight.bold,
+                              ),
+                              maxLines: 1,
+                              overflow: TextOverflow.ellipsis,
                             ),
-                          ),
-                        );
-                      }).toList(),
-                    ),
-                  ],
+                            const SizedBox(height: 6),
+                            Row(
+                              children: [
+                                Container(
+                                  padding: const EdgeInsets.symmetric(
+                                    horizontal: 8,
+                                    vertical: 4,
+                                  ),
+                                  decoration: BoxDecoration(
+                                    color: Colors.grey.shade100,
+                                    borderRadius: BorderRadius.circular(6),
+                                  ),
+                                  child: Text(
+                                    AppLocalizations.instance.translateCategory(place.category.trim()),
+                                    style: TextStyle(
+                                      color: Colors.grey.shade700,
+                                      fontSize: 10,
+                                      fontWeight: FontWeight.bold,
+                                    ),
+                                  ),
+                                ),
+                                const SizedBox(width: 8),
+                                Expanded(
+                                  child: Text(
+                                    place.area.isNotEmpty ? place.area : (place.city ?? ""),
+                                    style: TextStyle(
+                                      color: Colors.grey.shade500,
+                                      fontSize: 12,
+                                      fontWeight: FontWeight.w500,
+                                    ),
+                                    overflow: TextOverflow.ellipsis,
+                                  ),
+                                ),
+                              ],
+                            ),
+                          ],
+                        ),
+                      ),
+                      Icon(Icons.arrow_forward_ios_rounded, color: Colors.grey.shade300, size: 16),
+                    ],
+                  ),
                 ),
               ),
-            ],
+            ),
           ),
-        ),
+        ],
       ),
     );
   }

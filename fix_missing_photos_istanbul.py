@@ -1,3 +1,5 @@
+from dotenv import load_dotenv
+load_dotenv()
 import json
 import requests
 import os
@@ -7,7 +9,7 @@ import firebase_admin
 from firebase_admin import credentials, storage
 
 # --- Configuration ---
-API_KEY = "AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g"
+API_KEY = os.getenv("GOOGLE_MAPS_API_KEY")
 SERVICE_ACCOUNT_FILE = "service_account.json"
 BUCKET_NAME = "myway-3fe75.firebasestorage.app"
 STORAGE_BASE_URL = f"https://storage.googleapis.com/{BUCKET_NAME}"

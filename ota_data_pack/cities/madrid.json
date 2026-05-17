@@ -3154,28 +3154,6 @@
       "tips_en": "Allow ample time to explore the extensive collection, especially with children."
     },
     {
-      "name": "Museo del Prado",
-      "area": "Retiro",
-      "category": "Müze",
-      "subcategory": "Sanat",
-      "tags": [
-        "sanat",
-        "tarih"
-      ],
-      "distanceFromCenter": 1.0,
-      "lat": 40.4138,
-      "lng": -3.6921,
-      "price": "medium",
-      "rating": 4.9,
-      "description": "1819'da açılan, Villanueva tasarımı neoklasik Prado, Goya, Velázquez, El Greco gibi İspanyol Altın Çağı ustalarının eşsiz eserlerini barındırır. Dünya sanatının zirvesidir.",
-      "description_en": "Opened in 1819, the Neoclassical Prado, designed by Villanueva, houses unparalleled works by Spanish Golden Age masters like Goya, Velázquez, El Greco. It's a pinnacle of world art.",
-      "source": "local",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/madrid/museo_del_prado.jpg",
-      "tips": "Yoğunluktan kaçınmak için biletinizi önceden alıp sabah erken ziyaret edin.",
-      "tips_en": "To avoid crowds, buy your ticket in advance and visit early in the morning.",
-      "name_en": "Museo del Prado"
-    },
-    {
       "name": "Museo del Romanticismo",
       "name_en": "Museum of Romanticism",
       "area": "Malasaña / Chueca",
@@ -3630,7 +3608,7 @@
       "rating": 4.8,
       "description": "Madrid'ın kalbinde, ilginç görünümleri ve barok detaylarıyla büyüleyici bir mimari başyapıt: Edificio Metrópolis.",
       "description_en": "In the heart of Madrid, an architectural masterpiece captivating with intriguing forms and Baroque details: Edificio Metrópolis.",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Edificio_Metr%C3%B3polis_02.jpg/1280px-Edificio_Metr%C3%B3polis_02.jpg",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fmadrid%2Fedificio_metropolis.jpg?alt=media",
       "tips": "Gündüz gelen ziyaretçiler için muhteşem ışıkta fotoğraflar çekin!",
       "tips_en": "Take stunning photos in the marvelous light during the day!"
     },
@@ -4551,29 +4529,6 @@
       "tips": "Pencerede oturup kahveyi yudumlayın.",
       "tips_en": "Sit by the window and sip your coffee.",
       "name_en": "Santana Choux"
-    },
-    {
-      "name": "Santiago Bernabéu",
-      "area": "Chamartín",
-      "category": "Deneyim",
-      "tags": [
-        "futbol",
-        "real madrid",
-        "stadyum"
-      ],
-      "distanceFromCenter": 5.0,
-      "lat": 40.4531,
-      "lng": -3.6883,
-      "price": "high",
-      "rating": 4.8,
-      "description": "Real Madrid'in efsanevi evi Santiago Bernabéu, modern mimarisiyle göz kamaştıran, sayısız zaferlere ve kupalara ev sahipliği yapmış, futbol tarihinin kalbi, ikonik bir stadyumdur.",
-      "description_en": "Real Madrid's legendary home, Santiago Bernabéu, an iconic stadium dazzling with modern architecture, has hosted countless victories, trophies, and stands as football history's heart.",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/madrid/santiago_bernabeu.jpg",
-      "bestTime": "Maç günü veya sabah turu",
-      "bestTime_en": "Match day or morning tour",
-      "tips": "Maç günleri veya tur için biletleri önceden online alın.",
-      "tips_en": "Buy tickets online in advance for match days or the tour.",
-      "name_en": "Santiago Bernabéu"
     },
     {
       "id": "gen_ChIJi1zPUCspQg0RppDTU7dKfKk",

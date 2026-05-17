@@ -1,13 +1,17 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:cached_network_image/cached_network_image.dart';
 import 'package:shimmer/shimmer.dart';
 import 'package:google_fonts/google_fonts.dart';
 import '../l10n/app_localizations.dart';
 import '../services/ai_service.dart';
+import '../services/remote_config_service.dart';
 import 'city_guide_detail_screen.dart';
 import 'guide_article_screen.dart';
+import 'amsterdam_special/amsterdam_guide_screen.dart';
 import '../theme/wanderlust_colors.dart';
+import '../services/analytics_service.dart'; // Added
+import 'dart:async'; // Added
+import '../widgets/resilient_network_image.dart';
 
 class CityGuideScreen extends StatefulWidget {
   const CityGuideScreen({super.key});
@@ -25,6 +29,7 @@ class _CityGuideScreenState extends State<CityGuideScreen> {
   final FocusNode _searchFocusNode = FocusNode();
   final ScrollController _scrollController = ScrollController();
   bool _showScrollToTop = false;
+  Timer? _searchTimer; // Added for debouncing analytics
 
   @override
   void initState() {
@@ -78,6 +83,14 @@ class _CityGuideScreenState extends State<CityGuideScreen> {
         }).toList();
       }
     });
+
+    // --- ANALYTICS DEBOUNCE ---
+    _searchTimer?.cancel();
+    if (query.length >= 3) {
+      _searchTimer = Timer(const Duration(seconds: 1), () {
+        AnalyticsService.instance.logSearch(query);
+      });
+    }
   }
 
   @override
@@ -110,7 +123,7 @@ class _CityGuideScreenState extends State<CityGuideScreen> {
                       Text(
                         AppLocalizations.instance.isEnglish ? "TRAVEL BLOG" : "SEYAHAT BLOGU",
                         style: GoogleFonts.poppins(
-                          color: Colors.white.withValues(alpha: 0.7),
+                          color: WanderlustColors.textGrey,
                           fontSize: 14,
                           fontWeight: FontWeight.w600,
                           letterSpacing: 1.2,
@@ -132,9 +145,9 @@ class _CityGuideScreenState extends State<CityGuideScreen> {
                       child: Text(
                         AppLocalizations.instance.isEnglish ? "Discover & Inspire" : "Keşfet & İlham Al",
                         style: GoogleFonts.poppins(
-                          color: Colors.white.withValues(alpha: 0.9),
+                          color: WanderlustColors.textWhite,
                           fontSize: 20,
-                          fontWeight: FontWeight.bold,
+                          fontWeight: FontWeight.w500,
                         ),
                       ),
                     ),
@@ -157,9 +170,9 @@ class _CityGuideScreenState extends State<CityGuideScreen> {
                           Text(
                             AppLocalizations.instance.isEnglish ? "City Guides" : "Şehir Rehberleri",
                             style: GoogleFonts.poppins(
-                              color: Colors.white,
+                              color: WanderlustColors.textWhite,
                               fontSize: 28,
-                              fontWeight: FontWeight.bold,
+                              fontWeight: FontWeight.w500,
                               letterSpacing: -0.5,
                             ),
                           ),
@@ -172,32 +185,32 @@ class _CityGuideScreenState extends State<CityGuideScreen> {
                           color: WanderlustColors.bgCard,
                           borderRadius: BorderRadius.circular(14),
                           border: Border.all(
-                            color: const Color(0xFF2C2C4E).withOpacity(0.5),
+                            color: WanderlustColors.borderLight,
                           ),
                         ),
                         child: TextField(
                           controller: _searchController,
                           focusNode: _searchFocusNode,
                           onChanged: _filterCities,
-                          style: GoogleFonts.poppins(color: Colors.white, fontSize: 16),
+                          style: GoogleFonts.poppins(color: WanderlustColors.textWhite, fontSize: 16),
                           decoration: InputDecoration(
                             hintText: AppLocalizations.instance.isEnglish 
                               ? "Search cities..." 
                               : "Şehir ara...",
                             hintStyle: GoogleFonts.poppins(
-                              color: Colors.white.withValues(alpha: 0.4),
+                              color: WanderlustColors.textGreyLight,
                               fontSize: 16,
                             ),
                             prefixIcon: Icon(
                               Icons.search_rounded,
-                              color: Colors.white.withValues(alpha: 0.5),
+                              color: WanderlustColors.textGrey,
                               size: 22,
                             ),
                             suffixIcon: _searchQuery.isNotEmpty
                               ? IconButton(
                                   icon: Icon(
                                     Icons.close_rounded,
-                                    color: Colors.white.withValues(alpha: 0.5),
+                                    color: WanderlustColors.textGrey,
                                     size: 20,
                                   ),
                                   onPressed: () {
@@ -233,7 +246,7 @@ class _CityGuideScreenState extends State<CityGuideScreen> {
                               Icon(
                                 Icons.search_off_rounded,
                                 size: 64,
-                                color: Colors.white.withValues(alpha: 0.3),
+                                color: WanderlustColors.textGreyLight,
                               ),
                               const SizedBox(height: 16),
                               Text(
@@ -241,7 +254,7 @@ class _CityGuideScreenState extends State<CityGuideScreen> {
                                   ? "No cities found" 
                                   : "Şehir bulunamadı",
                                 style: GoogleFonts.poppins(
-                                  color: Colors.white.withValues(alpha: 0.5),
+                                  color: WanderlustColors.textGrey,
                                   fontSize: 18,
                                 ),
                               ),
@@ -293,11 +306,11 @@ class _CityGuideScreenState extends State<CityGuideScreen> {
                         decoration: BoxDecoration(
                           color: WanderlustColors.bgCard.withOpacity(0.8),
                           shape: BoxShape.circle,
-                          border: Border.all(color: const Color(0xFF2C2C4E).withOpacity(0.5)),
+                          border: Border.all(color: WanderlustColors.borderLight),
                         ),
                         child: const Icon(
                           Icons.keyboard_arrow_up_rounded,
-                          color: Color(0xFF9E9E9E), // TextGrey equivalent
+                          color: WanderlustColors.textGrey,
                           size: 28,
                         ),
                       ),
@@ -315,15 +328,30 @@ class _CityGuideScreenState extends State<CityGuideScreen> {
     return GestureDetector(
       onTap: () {
         HapticFeedback.lightImpact();
+        
+        // --- ANALYTICS: Guide Selection ---
+        AnalyticsService.instance.logSelectContent(
+          contentType: 'guide',
+          itemId: cityData['city'],
+        );
+        
+        final cityName = cityData['city'].toString().toLowerCase();
+        final bool isAmsterdam = cityName == 'amsterdam';
+
         Navigator.push(
           context,
           PageRouteBuilder(
             transitionDuration: const Duration(milliseconds: 400),
             reverseTransitionDuration: const Duration(milliseconds: 350),
-            pageBuilder: (context, animation, secondaryAnimation) => CityGuideDetailScreen(
-              city: cityData['city'],
-              imageUrl: cityData['imageUrl'],
-            ),
+            pageBuilder: (context, animation, secondaryAnimation) {
+              if (isAmsterdam) {
+                return const AmsterdamGuideScreen(citySlug: 'amsterdam');
+              }
+              return CityGuideDetailScreen(
+                city: cityData['city'],
+                imageUrl: cityData['imageUrl'],
+              );
+            },
             transitionsBuilder: (context, animation, secondaryAnimation, child) {
               // Apple tarzı scale + fade animasyonu
               final scaleAnimation = Tween<double>(begin: 0.85, end: 1.0).animate(
@@ -359,38 +387,36 @@ class _CityGuideScreenState extends State<CityGuideScreen> {
           child: Stack(
             fit: StackFit.expand,
             children: [
-              // Background Image
-              Hero(
-                tag: 'guide_img_${cityData['city']}',
-                  child: Image.network(
-                  cityData['imageUrl'],
-                  fit: BoxFit.cover,
-                  cacheWidth: 800, // Optimize memory decode size
-                  loadingBuilder: (context, child, loadingProgress) {
-                    if (loadingProgress == null) return child;
-                    return Container(color: const Color(0xFF1E1E2C));
-                  },
-                  errorBuilder: (context, error, stackTrace) {
-                    return Container(
-                      color: const Color(0xFF1E1E2C),
-                      child: const Icon(Icons.image_not_supported, color: Colors.white24),
-                    );
-                  },
+              Positioned.fill(
+                child: Hero(
+                  tag: 'guide_img_${cityData['city']}',
+                  child: ResilientNetworkImage(
+                    imageUrl: cityData['imageUrl'] as String?,
+                    placeName: cityData['city']?.toString() ?? 'guide',
+                    city: cityData['city']?.toString() ?? '',
+                    category: 'guide',
+                    fit: BoxFit.cover,
+                    memCacheWidth: 800,
+                    memCacheHeight: 600,
+                    placeholderBuilder: (_) =>
+                        Container(color: WanderlustColors.bgCardLight),
+                  ),
                 ),
               ),
-              
-              // Gradient Overlay
-              Container(
-                decoration: BoxDecoration(
-                  gradient: LinearGradient(
-                    begin: Alignment.topCenter,
-                    end: Alignment.bottomCenter,
-                    colors: [
-                      Colors.transparent,
-                      Colors.black.withValues(alpha: 0.3),
-                      Colors.black.withValues(alpha: 0.9),
-                    ],
-                    stops: const [0.4, 0.7, 1.0],
+
+              Positioned.fill(
+                child: Container(
+                  decoration: BoxDecoration(
+                    gradient: LinearGradient(
+                      begin: Alignment.topCenter,
+                      end: Alignment.bottomCenter,
+                      colors: [
+                        Colors.transparent,
+                        Colors.black.withValues(alpha: 0.3),
+                        Colors.black.withValues(alpha: 0.9),
+                      ],
+                      stops: const [0.4, 0.7, 1.0],
+                    ),
                   ),
                 ),
               ),
@@ -434,36 +460,95 @@ class _CityGuideScreenState extends State<CityGuideScreen> {
   // Featured Items Getter
   List<Map<String, String>> get _featuredItems {
     final isEnglish = AppLocalizations.instance.isEnglish;
-    return [
-      {
-        "id": "winter_routes",
-        "title": isEnglish ? "Top 5 Winter Routes" : "Kış Tatili İçin En İyi 5 Rota",
-        "subtitle": isEnglish ? "From snowy mountains to cozy fireplaces..." : "Karlı dağlardan sıcak şöminelere...",
-        "image": "https://images.unsplash.com/photo-1483921020237-2ff51e8e4b22?q=80&w=2070&auto=format&fit=crop",
-        "tag": isEnglish ? "SEASONAL" : "SEZONLUK",
-      },
-      {
-        "id": "hidden_gems",
-        "title": isEnglish ? "Europe's Hidden Gems" : "Avrupa'nın Gizli Hazineleri",
-        "subtitle": isEnglish ? "Places waiting to be discovered away from crowds." : "Kalabalıktan uzak, keşfedilmeyi bekleyen yerler.",
-        "image": "https://images.unsplash.com/photo-1519677100203-a0e668c92439?q=80&w=2072&auto=format&fit=crop",
-        "tag": isEnglish ? "DISCOVER" : "KEŞFET",
-      },
-      {
-        "id": "gastronomy",
-        "title": isEnglish ? "For Gastronomy Lovers" : "Gastronomi Tutkunları İçin",
-        "subtitle": isEnglish ? "From Michelin stars to street food." : "Michelin yıldızlı restoranlardan sokak lezzetlerine.",
-        "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?q=80&w=2070&auto=format&fit=crop",
-        "tag": isEnglish ? "TREND" : "TREND",
-      },
-      {
-        "id": "romantic",
-        "title": isEnglish ? "Romantic Getaways" : "Romantik Haftasonu Kaçamakları",
-        "subtitle": isEnglish ? "Unforgettable moments with your loved one." : "Sevgilinizle unutulmaz anlar yaşayın.",
-        "image": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?q=80&w=2073&auto=format&fit=crop",
-        "tag": isEnglish ? "ROMANTIC" : "ROMANTİK",
-      },
-    ];
+    final defaults = _defaultFeaturedCards(isEnglish);
+
+    // Önce Remote Config'den oku ve değerleri doğrula
+    final remoteCards = RemoteConfigService.instance.featuredCards;
+    if (remoteCards.isNotEmpty) {
+      final fallbackById = {
+        for (final card in defaults) if ((card['id'] ?? '').isNotEmpty) card['id']!: card,
+      };
+
+      final sanitized = <Map<String, String>>[];
+      for (final card in remoteCards) {
+        final id = card['id']?.toString().trim();
+        if (id == null || id.isEmpty) continue;
+
+        final fallback = fallbackById[id];
+        final map = <String, String>{
+          'id': id,
+          'title': _valueOrFallback(
+            primary: isEnglish ? card['title_en']?.toString() : card['title_tr']?.toString(),
+            fallback: fallback?['title'],
+          ),
+          'subtitle': _valueOrFallback(
+            primary: isEnglish ? card['subtitle_en']?.toString() : card['subtitle_tr']?.toString(),
+            fallback: fallback?['subtitle'],
+          ),
+          'image': _valueOrFallback(
+            primary: card['image']?.toString(),
+            fallback: fallback?['image'],
+          ),
+          'tag': _valueOrFallback(
+            primary: isEnglish ? card['tag_en']?.toString() : card['tag_tr']?.toString(),
+            fallback: fallback?['tag'],
+          ),
+        };
+
+        if (map['image']!.isEmpty) {
+          // Hâlâ görsel yoksa bu kartı atla ki boş kutu gösterilmesin
+          continue;
+        }
+
+        sanitized.add(map);
+      }
+
+      if (sanitized.isNotEmpty) {
+        return sanitized;
+      }
+    }
+
+    // Remote Config boş veya eksikse fallback'e dön
+    return defaults;
+  }
+
+  List<Map<String, String>> _defaultFeaturedCards(bool isEnglish) => [
+        {
+          "id": "hidden_gems",
+          "title": isEnglish ? "Europe's Hidden Gems" : "Avrupa'nın Gizli Hazineleri",
+          "subtitle": isEnglish
+              ? "Places waiting to be discovered away from crowds."
+              : "Kalabalıktan uzak, keşfedilmeyi bekleyen yerler.",
+          "image":
+              "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?w=800&q=80",
+          "tag": isEnglish ? "DISCOVER" : "KEŞFET",
+        },
+        {
+          "id": "gastronomy",
+          "title": isEnglish ? "For Gastronomy Lovers" : "Gastronomi Tutkunları İçin",
+          "subtitle": isEnglish
+              ? "From Michelin stars to street food."
+              : "Michelin yıldızlı restoranlardan sokak lezzetlerine.",
+          "image":
+              "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80",
+          "tag": isEnglish ? "TREND" : "TREND",
+        },
+        {
+          "id": "romantic",
+          "title": isEnglish ? "Romantic Getaways" : "Romantik Haftasonu Kaçamakları",
+          "subtitle": isEnglish
+              ? "Unforgettable moments with your loved one."
+              : "Sevgilinizle unutulmaz anlar yaşayın.",
+          "image":
+              "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=800&q=80",
+          "tag": isEnglish ? "ROMANTIC" : "ROMANTİK",
+        },
+      ];
+
+  String _valueOrFallback({String? primary, String? fallback}) {
+    final trimmed = primary?.trim();
+    if (trimmed != null && trimmed.isNotEmpty) return trimmed;
+    return (fallback ?? '').trim();
   }
 
   Widget _buildFeaturedCarousel() {
@@ -486,6 +571,13 @@ class _CityGuideScreenState extends State<CityGuideScreen> {
     return GestureDetector(
       onTap: () {
         HapticFeedback.lightImpact();
+        
+        // --- ANALYTICS: Featured Guide Selection ---
+        AnalyticsService.instance.logSelectContent(
+          contentType: 'featured_guide',
+          itemId: item['id']!,
+        );
+        
         Navigator.push(
           context,
           PageRouteBuilder(
@@ -516,7 +608,7 @@ class _CityGuideScreenState extends State<CityGuideScreen> {
       },
       child: Container(
         width: 280,
-        margin: const EdgeInsets.only(right: 16), // Bottom margin removed to prevent clipping if any
+        margin: const EdgeInsets.only(right: 16),
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(20),
           boxShadow: [
@@ -532,29 +624,33 @@ class _CityGuideScreenState extends State<CityGuideScreen> {
         child: Stack(
           fit: StackFit.expand,
           children: [
-            // Image
-            Image.network(
-              item['image']!,
-              fit: BoxFit.cover,
-              loadingBuilder: (context, child, loadingProgress) {
-                if (loadingProgress == null) return child;
-                return Container(color: const Color(0xFF1E1E2C));
-              },
-              errorBuilder: (context, error, stackTrace) => Container(color: const Color(0xFF1E1E2C)),
+            Positioned.fill(
+              child: ResilientNetworkImage(
+                imageUrl: item['image'],
+                placeName: item['title'] ?? 'featured',
+                city: '',
+                category: 'article',
+                width: 280,
+                height: 220,
+                fit: BoxFit.cover,
+                placeholderBuilder: (_) =>
+                    Container(color: const Color(0xFF1E1E2C)),
+              ),
             ),
-            
-            // Gradient Overlay
-            Container(
-              decoration: BoxDecoration(
-                gradient: LinearGradient(
-                  begin: Alignment.topCenter,
-                  end: Alignment.bottomCenter,
-                  colors: [
-                    Colors.transparent,
-                    Colors.black.withValues(alpha: 0.2),
-                    Colors.black.withValues(alpha: 0.8),
-                  ],
-                  stops: const [0.3, 0.6, 1.0],
+
+            Positioned.fill(
+              child: Container(
+                decoration: BoxDecoration(
+                  gradient: LinearGradient(
+                    begin: Alignment.topCenter,
+                    end: Alignment.bottomCenter,
+                    colors: [
+                      Colors.transparent,
+                      Colors.black.withValues(alpha: 0.2),
+                      Colors.black.withValues(alpha: 0.8),
+                    ],
+                    stops: const [0.3, 0.6, 1.0],
+                  ),
                 ),
               ),
             ),
@@ -615,8 +711,8 @@ class _CityGuideScreenState extends State<CityGuideScreen> {
 
   Widget _buildShimmerGrid() {
     return Shimmer.fromColors(
-      baseColor: const Color(0xFF1E1E2C),
-      highlightColor: const Color(0xFF2D2D44),
+      baseColor: WanderlustColors.bgCardLight,
+      highlightColor: WanderlustColors.bgCard,
       child: GridView.builder(
         shrinkWrap: true,
         physics: const NeverScrollableScrollPhysics(),
@@ -631,7 +727,7 @@ class _CityGuideScreenState extends State<CityGuideScreen> {
         itemBuilder: (context, index) {
           return Container(
             decoration: BoxDecoration(
-              color: Colors.white,
+              color: WanderlustColors.bgCard,
               borderRadius: BorderRadius.circular(16),
             ),
           );

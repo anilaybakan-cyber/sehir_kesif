@@ -1,0 +1,3434 @@
+{
+  "cities": {
+    "amalfi": {
+      "processed": 57,
+      "updated": 0,
+      "skipped": 101,
+      "errors": 57,
+      "samples": [
+        {
+          "name": "Valle delle Ferriere",
+          "place_id": "ChIJmTYS6pGVOxMR0Ni0mUa1dNc",
+          "status": "no_periods"
+        },
+        {
+          "name": "Fornillo Spiaggia",
+          "place_id": "ChIJeZDhvGeXOxMRtumC1QyEOpQ",
+          "status": "no_periods"
+        },
+        {
+          "name": "Chiesa Parrocchiale di Santa Maria Assunta",
+          "place_id": "ChIJsxQklkqUOxMRMB_kxpit8NQ",
+          "status": "no_periods"
+        },
+        {
+          "name": "Villa Cimbrone",
+          "place_id": "ChIJKx2evqCVOxMRx5wEJfjT_hw",
+          "status": "no_periods"
+        },
+        {
+          "name": "Sentiero degli Dei",
+          "place_id": "ChIJ8c-WD-aWOxMRrIyRwQriJdA",
+          "status": "no_periods"
+        },
+        {
+          "name": "Atrani",
+          "place_id": "ChIJaZAh4qiVOxMRfqIdztVS_rY",
+          "status": "no_periods"
+        }
+      ]
+    },
+    "amsterdam": {
+      "processed": 33,
+      "updated": 0,
+      "skipped": 188,
+      "errors": 33,
+      "samples": [
+        {
+          "name": "Amsterdam Museum",
+          "place_id": "ChIJT9i3G8EJxkcR8mvIlXqnQXc",
+          "status": "no_periods"
+        },
+        {
+          "name": "Bar Bacán",
+          "place_id": "ChIJO2OlCg8JxkcRTgC_6JX0nJI",
+          "status": "no_periods"
+        },
+        {
+          "name": "Baux Pastry",
+          "place_id": "ChIJdzk73h_jxUcRsVXxqlS9oOw",
+          "status": "no_periods"
+        },
+        {
+          "name": "Café de Vergulde Gaper",
+          "place_id": "ChIJix_ggc8JxkcRlxR0gfWKAxY",
+          "status": "no_periods"
+        },
+        {
+          "name": "Cape Town Social Club",
+          "place_id": "ChIJb5c4Ln4JxkcRr6hsHfqsMs8",
+          "status": "no_periods"
+        },
+        {
+          "name": "Chez Rosie",
+          "place_id": "ChIJ1W8SZGXjxUcRZ08DtRDG8jA",
+          "status": "no_periods"
+        }
+      ]
+    },
+    "antalya": {
+      "processed": 47,
+      "updated": 0,
+      "skipped": 120,
+      "errors": 47,
+      "samples": [
+        {
+          "name": "Adrasan Koyu",
+          "place_id": "ChIJBZizS7s5whQRpxDJdJNkzd4",
+          "status": "no_periods"
+        },
+        {
+          "name": "Antalya Kalesi Surları",
+          "place_id": "ChIJQXT_gQGQwxQRXN1E5ot1YCY",
+          "status": "no_periods"
+        },
+        {
+          "name": "Antalya Müzesi",
+          "place_id": "ChIJsVVnQzqQwxQRcGRvVaiTVnw",
+          "status": "no_periods"
+        },
+        {
+          "name": "Arma Restaurant",
+          "place_id": "ChIJpQCQigSQwxQRLqZuMZ5W15Q",
+          "status": "no_periods"
+        },
+        {
+          "name": "Atatürk Parkı",
+          "place_id": "ChIJ6aDACz2QwxQR4eQt77hSl7o",
+          "status": "no_periods"
+        },
+        {
+          "name": "Beach Park Konyaaltı",
+          "place_id": "ChIJY1PYGEuQwxQRo3ctHJ7-KVs",
+          "status": "no_periods"
+        }
+      ]
+    },
+    "atina": {
+      "processed": 30,
+      "updated": 0,
+      "skipped": 174,
+      "errors": 30,
+      "samples": [
+        {
+          "name": "Lycabettus Hill",
+          "place_id": "ChIJkXWXEk69oRQRao7rDwGANWg",
+          "status": "no_periods"
+        },
+        {
+          "name": "A for Athens",
+          "place_id": "ChIJsVK3aj29oRQRbistQOVZMzg",
+          "status": "no_periods"
+        },
+        {
+          "name": "Aegina Island",
+          "place_id": "ChIJZSWJEx3OoRQRJOTZjk23k2o",
+          "status": "no_periods"
+        },
+        {
+          "name": "Anafiotika",
+          "place_id": "ChIJ1R5whRm9oRQRhlUhe3e_GQk",
+          "status": "no_periods"
+        },
+        {
+          "name": "Cantina Social",
+          "place_id": "ChIJGcB30yO9oRQRSvNPBv8nk4k",
+          "status": "no_periods"
+        },
+        {
+          "name": "Ermou Street",
+          "place_id": "ChIJ5yWoVSK9oRQRxKaoek5lUxU",
+          "status": "no_periods"
+        }
+      ]
+    },
+    "bangkok": {
+      "processed": 16,
+      "updated": 0,
+      "skipped": 188,
+      "errors": 16,
+      "samples": [
+        {
+          "name": "Ari Neighborhood (Lo-fi Vibes)",
+          "place_id": "",
+          "status": "resolve_no_candidate"
+        },
+        {
+          "name": "Baan Krua (Silk Weaving Community)",
+          "place_id": "ChIJL2QeVACZ4jARFcubEgwSlzs",
+          "status": "no_periods"
+        },
+        {
+          "name": "Cache Cache Pâtisserie",
+          "place_id": "ChIJB7tejTGZ4jARaE24cMXI9BQ",
+          "status": "no_periods"
+        },
+        {
+          "name": "Keller Bangkok",
+          "place_id": "ChIJj_ihqcKf4jARwbUdO2qTC2w",
+          "status": "no_periods"
+        },
+        {
+          "name": "Khao San Road",
+          "place_id": "ChIJDR23yhKZ4jARdqd5AHsct0A",
+          "status": "no_periods"
+        },
+        {
+          "name": "Klong Tours (Khlong Saen Saep)",
+          "place_id": "",
+          "status": "resolve_no_candidate"
+        }
+      ]
+    },
+    "barcelona": {
+      "processed": 31,
+      "updated": 0,
+      "skipped": 189,
+      "errors": 31,
+      "samples": [
+        {
+          "name": "Asun Brunch & Bakery Barcelona",
+          "place_id": "ChIJbb4rMZSjpBIRJLW2ravIHZU",
+          "status": "no_periods"
+        },
+        {
+          "name": "Barceloneta Mahallesi",
+          "place_id": "ChIJ5TCOcRaYpBIRCmZHTz37sEQ",
+          "status": "no_periods"
+        },
+        {
+          "name": "Barceloneta Plajı",
+          "place_id": "ChIJJ5Y4CaijpBIR-2VJP9cOjh4",
+          "status": "no_periods"
+        },
+        {
+          "name": "Bogatell Plajı",
+          "place_id": "ChIJM_UFWmyjpBIRpt8SnunUQmU",
+          "status": "no_periods"
+        },
+        {
+          "name": "Carrer Blai",
+          "place_id": "ChIJzzCofmeipBIRhkhEatOQLH0",
+          "status": "no_periods"
+        },
+        {
+          "name": "Carretera de les Aigües",
+          "place_id": "ChIJCZhDljeYpBIRjofMHEt5j9c",
+          "status": "no_periods"
+        }
+      ]
+    },
+    "bari": {
+      "processed": 16,
+      "updated": 0,
+      "skipped": 77,
+      "errors": 16,
+      "samples": [
+        {
+          "name": "Bari Vecchia",
+          "place_id": "ChIJSwdpfGPoRxMRMXWEJG8CwI4",
+          "status": "no_periods"
+        },
+        {
+          "name": "Lungomare di Bari",
+          "place_id": "ChIJ-6glXwDpRxMRGWeKPNJuNUY",
+          "status": "no_periods"
+        },
+        {
+          "name": "Piazza del Ferrarese",
+          "place_id": "ChIJoXvYHGToRxMRsMrGdkblpJw",
+          "status": "no_periods"
+        },
+        {
+          "name": "Museo della Fotografia",
+          "place_id": "ChIJKf3M5E7oRxMRJd4bxcp7Jhw",
+          "status": "no_periods"
+        },
+        {
+          "name": "AcquaPark Bari",
+          "place_id": "ChIJ26OL3iroRxMRPTewKCEouHE",
+          "status": "no_periods"
+        },
+        {
+          "name": "Nicolaus Hotel Bari",
+          "place_id": "ChIJuZCNipTLRxMRrdLmxvmYeNY",
+          "status": "no_periods"
+        }
+      ]
+    },
+    "bari_unique_1": {
+      "processed": 20,
+      "updated": 15,
+      "skipped": 0,
+      "errors": 5,
+      "samples": [
+        {
+          "name": "Bari Vecchia",
+          "place_id": "ChIJSwdpfGPoRxMRMXWEJG8CwI4",
+          "status": "no_periods"
+        },
+        {
+          "name": "Basilica di San Nicola",
+          "place_id": "ChIJAQV0ZWPoRxMRpltjt0sPOHs",
+          "status": "updated"
+        },
+        {
+          "name": "Cattedrale di San Sabino",
+          "place_id": "ChIJ56hKyGPoRxMRTNhOTifD_w8",
+          "status": "updated"
+        },
+        {
+          "name": "Castello Normanno-Svevo",
+          "place_id": "ChIJf_4jF2LoRxMRwiCpC5TP3Nc",
+          "status": "updated"
+        },
+        {
+          "name": "Teatro Petruzzelli",
+          "place_id": "ChIJ36SUQGHoRxMRFSdMsi4mVNs",
+          "status": "updated"
+        },
+        {
+          "name": "Teatro Margherita",
+          "place_id": "ChIJ0dQqmGboRxMRPZK-iIFXSDc",
+          "status": "no_periods"
+        }
+      ]
+    },
+    "bari_unique_2": {
+      "processed": 15,
+      "updated": 13,
+      "skipped": 0,
+      "errors": 2,
+      "samples": [
+        {
+          "name": "Osteria Le Arpie",
+          "place_id": "ChIJ5_JTn2PoRxMRFjtdtxFxJmE",
+          "status": "updated"
+        },
+        {
+          "name": "La Uascezze",
+          "place_id": "ChIJyW6qemToRxMRDHUuMHiKMJ4",
+          "status": "updated"
+        },
+        {
+          "name": "Mastro Ciccio",
+          "place_id": "ChIJ71k2smboRxMR2ue3rwajtJ4",
+          "status": "updated"
+        },
+        {
+          "name": "Urban L'Assassineria Urbana",
+          "place_id": "ChIJQ_8Ell_oRxMRlcRX-iRlbBs",
+          "status": "updated"
+        },
+        {
+          "name": "Panificio Fiore",
+          "place_id": "ChIJSanlfWPoRxMRNj8KwkpAKXk",
+          "status": "updated"
+        },
+        {
+          "name": "Panificio Santa Rita",
+          "place_id": "ChIJ51RI02PoRxMRmxbCmL5KsmE",
+          "status": "updated"
+        }
+      ]
+    },
+    "bari_unique_3": {
+      "processed": 15,
+      "updated": 8,
+      "skipped": 0,
+      "errors": 7,
+      "samples": [
+        {
+          "name": "Palazzo dell'Acquedotto",
+          "place_id": "ChIJO5U5pGfoRxMRYj7BO0KVmG8",
+          "status": "updated"
+        },
+        {
+          "name": "Pinacoteca Corrado Giaquinto",
+          "place_id": "ChIJ0ZiAwWnoRxMRWav38xw11Pw",
+          "status": "updated"
+        },
+        {
+          "name": "Museo Archeologico",
+          "place_id": "ChIJQbdCWr-5yhQRKTjvSx6RF7M",
+          "status": "updated"
+        },
+        {
+          "name": "Parco 2 Giugno",
+          "place_id": "ChIJVWWFz1LoRxMRQSNm3j2Ci7A",
+          "status": "updated"
+        },
+        {
+          "name": "Kursaal Santa Lucia",
+          "place_id": "ChIJ10BfMmboRxMRQ2592NY0tzU",
+          "status": "no_periods"
+        },
+        {
+          "name": "Fortino di Sant'Antonio",
+          "place_id": "bari_fortino_di_sant_antoni",
+          "status": "resolve_no_candidate"
+        }
+      ]
+    },
+    "belgrad": {
+      "processed": 191,
+      "updated": 135,
+      "skipped": 0,
+      "errors": 56,
+      "samples": [
+        {
+          "name": "Ada Bridge",
+          "place_id": "ChIJG2BnIeZvWkcRT-_5TIvL3PQ",
+          "status": "updated"
+        },
+        {
+          "name": "Ada Ciganlija",
+          "place_id": "ChIJb8v4QbFvWkcRVoO6sH2Xbrc",
+          "status": "no_periods"
+        },
+        {
+          "name": "Akademski Park",
+          "place_id": "ChIJb3WG_x9lWkcRDTBj6KHQUcA",
+          "status": "updated"
+        },
+        {
+          "name": "Ambar",
+          "place_id": "ChIJe2zyI09lWkcRt6hoUFCxsWU",
+          "status": "updated"
+        },
+        {
+          "name": "Automobile Museum",
+          "place_id": "ChIJv3FRcgB7WkcRMfP2sxfA6zQ",
+          "status": "no_periods"
+        },
+        {
+          "name": "Avala Kulesi",
+          "place_id": "ChIJfWvVLEd0WkcRmGziXZ3oA44",
+          "status": "no_periods"
+        }
+      ]
+    },
+    "berlin": {
+      "processed": 40,
+      "updated": 0,
+      "skipped": 205,
+      "errors": 40,
+      "samples": [
+        {
+          "name": "Alexanderplatz",
+          "place_id": "ChIJbygR2x5OqEcRbhbkZsMB_DA",
+          "status": "no_periods"
+        },
+        {
+          "name": "Badeschiff",
+          "place_id": "ChIJ2Sf5s1VOqEcRyNL6T02APR0",
+          "status": "no_periods"
+        },
+        {
+          "name": "Bebelplatz",
+          "place_id": "ChIJBYGphNtRqEcRVNGhyTw0lvs",
+          "status": "no_periods"
+        },
+        {
+          "name": "Schillerkiez",
+          "place_id": "ChIJsT_ZAL5PqEcR_eLqza6M1uQ",
+          "status": "no_periods"
+        },
+        {
+          "name": "Kastanienallee",
+          "place_id": "ChIJJYWAG_xRqEcRKmGxhXwdiy0",
+          "status": "no_periods"
+        },
+        {
+          "name": "Rykestrasse Synagogue",
+          "place_id": "ChIJq3gZxANOqEcR-P3YOOCx1JI",
+          "status": "no_periods"
+        }
+      ]
+    },
+    "bodrum": {
+      "processed": 194,
+      "updated": 113,
+      "skipped": 0,
+      "errors": 81,
+      "samples": [
+        {
+          "name": "Bodrum Kalesi ve Sualtı Arkeoloji Müzesi",
+          "place_id": "ChIJYw5gNEJsvhQRcRzUhvXx1Cs",
+          "status": "updated"
+        },
+        {
+          "name": "Halikarnas Mozolesi",
+          "place_id": "ChIJlwmXEkdsvhQR0fktlJphpF4",
+          "status": "updated"
+        },
+        {
+          "name": "Bodrum Antik Tiyatrosu",
+          "place_id": "ChIJv9W_9UdsvhQR2r-WmkBy9K4",
+          "status": "updated"
+        },
+        {
+          "name": "Myndos Kapısı",
+          "place_id": "ChIJa74LinVtvhQRBjZuPM4x-bw",
+          "status": "updated"
+        },
+        {
+          "name": "Bodrum Yel Değirmenleri",
+          "place_id": "ChIJSxsWkUdtvhQREXRy5x1VJck",
+          "status": "no_periods"
+        },
+        {
+          "name": "Bodrum Deniz Müzesi",
+          "place_id": "ChIJ_1Ko1EFsvhQR3P9pZBJXqZ4",
+          "status": "updated"
+        }
+      ]
+    },
+    "bologna": {
+      "processed": 34,
+      "updated": 0,
+      "skipped": 152,
+      "errors": 34,
+      "samples": [
+        {
+          "name": "Bagni di Mario (conserva di Valverde)",
+          "place_id": "ChIJkU1s2efUf0cRi4ANiB3bamk",
+          "status": "no_periods"
+        },
+        {
+          "name": "Brisighella",
+          "place_id": "ChIJOSCH_z9GKxMR94SvA06rvOA",
+          "status": "no_periods"
+        },
+        {
+          "name": "Carpi",
+          "place_id": "ChIJUyTGd0mNf0cRqxfv29pRwWM",
+          "status": "no_periods"
+        },
+        {
+          "name": "Castelvetro di Modena",
+          "place_id": "ChIJgcaQ1azhf0cRRgPCZiTrJ9k",
+          "status": "no_periods"
+        },
+        {
+          "name": "Collegio di Spagna",
+          "place_id": "ChIJcZhLO-vUf0cR_nNbZIpZpbU",
+          "status": "no_periods"
+        },
+        {
+          "name": "Comacchio",
+          "place_id": "ChIJ0yHebbB1fkcR7YujotES0dA",
+          "status": "no_periods"
+        }
+      ]
+    },
+    "brugge": {
+      "processed": 186,
+      "updated": 118,
+      "skipped": 0,
+      "errors": 68,
+      "samples": [
+        {
+          "name": "'t Apostelientje",
+          "place_id": "ChIJNUOPaMlQw0cRlKnLLwRxI2s",
+          "status": "updated"
+        },
+        {
+          "name": "'t Bagientje",
+          "place_id": "ChIJO6D6ut1Qw0cRfRITh057Upg",
+          "status": "updated"
+        },
+        {
+          "name": "'t Brugs Beertje",
+          "place_id": "ChIJ7ZhOX9pQw0cR7Rco0hoLdSA",
+          "status": "updated"
+        },
+        {
+          "name": "'t Zand",
+          "place_id": "ChIJ47q-2NtQw0cRSYyiEx4z5m8",
+          "status": "no_periods"
+        },
+        {
+          "name": "2be Beer Wall",
+          "place_id": "ChIJPWuya8VQw0cRsEjQ-veie-I",
+          "status": "updated"
+        },
+        {
+          "name": "Arentshuis",
+          "place_id": "ChIJQ3pi1sRQw0cRh8a-vCQeUDE",
+          "status": "no_periods"
+        }
+      ]
+    },
+    "bruksel": {
+      "processed": 183,
+      "updated": 148,
+      "skipped": 0,
+      "errors": 35,
+      "samples": [
+        {
+          "name": "Abbaye de la Cambre gardens",
+          "place_id": "ChIJPfyuQOnEw0cR1r0ArTHoruw",
+          "status": "updated"
+        },
+        {
+          "name": "Amadeus",
+          "place_id": "ChIJg4qox4fDw0cRdjXCHK8kPj4",
+          "status": "updated"
+        },
+        {
+          "name": "Astérix & Obélix Mural",
+          "place_id": "ChIJn8frRnbEw0cRPYogUPO1JGA",
+          "status": "no_periods"
+        },
+        {
+          "name": "Atomium",
+          "place_id": "ChIJAQAAAKzDw0cRCTemaB0Hk1I",
+          "status": "updated"
+        },
+        {
+          "name": "Au Bon Vieux Temps",
+          "place_id": "ChIJY75r16_Dw0cRIy9Jdzp_ZKE",
+          "status": "no_periods"
+        },
+        {
+          "name": "Autoworld",
+          "place_id": "ChIJpXzBFabEw0cRGwk8YSRwRJw",
+          "status": "updated"
+        }
+      ]
+    },
+    "budapeste": {
+      "processed": 238,
+      "updated": 211,
+      "skipped": 0,
+      "errors": 27,
+      "samples": [
+        {
+          "name": "360 Bar",
+          "place_id": "ChIJddsAImzcQUcRKC43EuBd4Ws",
+          "status": "updated"
+        },
+        {
+          "name": "9BAR",
+          "place_id": "ChIJLRcJpue5yhQRQ5g4oaUX-8g",
+          "status": "updated"
+        },
+        {
+          "name": "9UP Rooftop Bar",
+          "place_id": "ChIJcbIzWADdQUcRg38g8owiv5E",
+          "status": "updated"
+        },
+        {
+          "name": "A38 Hajó",
+          "place_id": "ChIJfwmH1EDcQUcRTkXiflO9P4o",
+          "status": "updated"
+        },
+        {
+          "name": "Akvarium Klub",
+          "place_id": "ChIJ4-4EKkDcQUcRPGkz1ExWaWg",
+          "status": "updated"
+        },
+        {
+          "name": "All Day Coffee",
+          "place_id": "ChIJB5XfzDbdQUcRCzBuAWRWl6o",
+          "status": "updated"
+        }
+      ]
+    },
+    "budva": {
+      "processed": 91,
+      "updated": 58,
+      "skipped": 0,
+      "errors": 33,
+      "samples": [
+        {
+          "name": "Old Town",
+          "place_id": "ChIJifScjpPUTRMRixAqbrNNr9Q",
+          "status": "no_periods"
+        },
+        {
+          "name": "Citadela Budva",
+          "place_id": "ChIJL40vd5PUTRMR5kirTgql-Vk",
+          "status": "updated"
+        },
+        {
+          "name": "Mogren beach",
+          "place_id": "ChIJ98qwVpXUTRMR9NP-RL50NRE",
+          "status": "no_periods"
+        },
+        {
+          "name": "Sveti Stefan",
+          "place_id": "ChIJucb7_iXUTRMRELZT-vjgG9c",
+          "status": "no_periods"
+        },
+        {
+          "name": "Sveti Nikola Island",
+          "place_id": "ChIJEVEA-_bUTRMRRoqeOZI-U0w",
+          "status": "no_periods"
+        },
+        {
+          "name": "Jaz Beach",
+          "place_id": "ChIJ1fqj3EorTBMRm-n2z0YRmqs",
+          "status": "no_periods"
+        }
+      ]
+    },
+    "cannes": {
+      "processed": 102,
+      "updated": 83,
+      "skipped": 0,
+      "errors": 19,
+      "samples": [
+        {
+          "name": "Boulevard de la Croisette",
+          "place_id": "ChIJkSGgXpiBzhIRCnMbnenvKUQ",
+          "status": "no_periods"
+        },
+        {
+          "name": "Palais des Festivals",
+          "place_id": "ChIJuzM38JGBzhIRecDMS2ZUua8",
+          "status": "updated"
+        },
+        {
+          "name": "Le Suquet Old Town",
+          "place_id": "ChIJ-VNe2GqBzhIRKgWBVzuuCqg",
+          "status": "updated"
+        },
+        {
+          "name": "Marché Forville",
+          "place_id": "ChIJhzuV_4uBzhIRYfOrwv9hRMM",
+          "status": "updated"
+        },
+        {
+          "name": "Lérins Islands Ferry",
+          "place_id": "ChIJE4BghYWBzhIRT_WoA7ohT2A",
+          "status": "updated"
+        },
+        {
+          "name": "Île Sainte-Marguerite",
+          "place_id": "ChIJJzi0JR6BzhIRb4p_xixCGBE",
+          "status": "no_periods"
+        }
+      ]
+    },
+    "catania": {
+      "processed": 115,
+      "updated": 65,
+      "skipped": 0,
+      "errors": 50,
+      "samples": [
+        {
+          "name": "Vuciata Kitchen Market",
+          "place_id": "ChIJE4hH71LjExMRSaKkmsvSTLw",
+          "status": "updated"
+        },
+        {
+          "name": "Restaurant Lognina",
+          "place_id": "ChIJ_8rJPpj8ExMR08MBMjb96VQ",
+          "status": "updated"
+        },
+        {
+          "name": "Vermut",
+          "place_id": "ChIJV193wSzjExMR6YG4mBSQQAQ",
+          "status": "updated"
+        },
+        {
+          "name": "Cutilisci",
+          "place_id": "ChIJ9xpQs7v8ExMRiTo16rn57CE",
+          "status": "updated"
+        },
+        {
+          "name": "Anfiteatro Romano",
+          "place_id": "ChIJSaqNeCzjExMR6dcdA61sYzg",
+          "status": "updated"
+        },
+        {
+          "name": "Via Umberto I",
+          "place_id": "ChIJfXFQRcz8ExMRGAD3WSU38K8",
+          "status": "no_periods"
+        }
+      ]
+    },
+    "catania_batch_1": {
+      "processed": 20,
+      "updated": 15,
+      "skipped": 0,
+      "errors": 5,
+      "samples": [
+        {
+          "name": "Piazza del Duomo",
+          "place_id": "ChIJP0UjWi7jExMRJytI986aC6g",
+          "status": "updated"
+        },
+        {
+          "name": "Cattedrale di Sant'Agata",
+          "place_id": "ChIJP0UjWi7jExMRJytI986aC6g",
+          "status": "updated"
+        },
+        {
+          "name": "Fontana dell'Elefante",
+          "place_id": "ChIJV63v_C7jExMRLThjTCcPppk",
+          "status": "updated"
+        },
+        {
+          "name": "Palazzo Biscari",
+          "place_id": "ChIJx6UP1zHjExMRo1oOCidARpo",
+          "status": "updated"
+        },
+        {
+          "name": "Castello Ursino",
+          "place_id": "ChIJH_LNACbjExMR3WPlQ82DyEw",
+          "status": "no_periods"
+        },
+        {
+          "name": "Teatro Massimo Bellini",
+          "place_id": "ChIJhzCABy7jExMRQEgWdrJjEDA",
+          "status": "updated"
+        }
+      ]
+    },
+    "catania_batch_2": {
+      "processed": 20,
+      "updated": 16,
+      "skipped": 0,
+      "errors": 4,
+      "samples": [
+        {
+          "name": "Palazzo dell'Università",
+          "place_id": "ChIJjXJX6y7jExMRA_zI6DID8J8",
+          "status": "no_periods"
+        },
+        {
+          "name": "Teatro Romano e Odeon",
+          "place_id": "ChIJ2e3QsinjExMRNmN2_vYCfp8",
+          "status": "updated"
+        },
+        {
+          "name": "Terme Achilliane",
+          "place_id": "ChIJKe4h_i7jExMRLGtNNEVTJis",
+          "status": "updated"
+        },
+        {
+          "name": "Fontana dell'Amenano",
+          "place_id": "ChIJjfE4n-jjExMR0gwbhCQ0rk4",
+          "status": "updated"
+        },
+        {
+          "name": "Porta Uzeda",
+          "place_id": "ChIJ246EAS_jExMR__mpdyI1ULw",
+          "status": "updated"
+        },
+        {
+          "name": "Palazzo degli Elefanti",
+          "place_id": "ChIJV63v_C7jExMRhTLFcc2p9Z8",
+          "status": "updated"
+        }
+      ]
+    },
+    "catania_batch_3": {
+      "processed": 15,
+      "updated": 15,
+      "skipped": 0,
+      "errors": 0,
+      "samples": [
+        {
+          "name": "Osteria Antica Marina",
+          "place_id": "ChIJpfQeGC_jExMRotO9al1-QTs",
+          "status": "updated"
+        },
+        {
+          "name": "Me Cumpari Turiddu",
+          "place_id": "ChIJGzNxKTLjExMRE-4YTfojVsI",
+          "status": "updated"
+        },
+        {
+          "name": "Trattoria del Cavaliere",
+          "place_id": "ChIJU84fUCzjExMR4rI0uZuCtQQ",
+          "status": "updated"
+        },
+        {
+          "name": "Scirocco Sicilian Fish Lab",
+          "place_id": "ChIJFXnXGy_jExMRroD2rSKQGAg",
+          "status": "updated"
+        },
+        {
+          "name": "Borgo di Federico",
+          "place_id": "ChIJu8twqijjExMRjWLn8qyazv0",
+          "status": "updated"
+        },
+        {
+          "name": "La Canonica",
+          "place_id": "ChIJoYhy9i7jExMR1DEoB81TdZI",
+          "status": "updated"
+        }
+      ]
+    },
+    "catania_batch_4": {
+      "processed": 15,
+      "updated": 11,
+      "skipped": 0,
+      "errors": 4,
+      "samples": [
+        {
+          "name": "Palazzo Sangiuliano",
+          "place_id": "cat_landmark_21:_old_pal",
+          "status": "resolve_no_candidate"
+        },
+        {
+          "name": "Terme della Rotonda",
+          "place_id": "ChIJK5VIFSnjExMRn1Q3odtud6g",
+          "status": "updated"
+        },
+        {
+          "name": "Santuario di Sant'Agata al Carcere",
+          "place_id": "ChIJ49UDhyvjExMRVEkJACEElS0",
+          "status": "no_periods"
+        },
+        {
+          "name": "Statua di Giuseppe Garibaldi",
+          "place_id": "ChIJMcRnWtP8ExMRJxfIIWzt4KU",
+          "status": "updated"
+        },
+        {
+          "name": "Porta Uzeda",
+          "place_id": "cat_landmark_25:_histori",
+          "status": "resolve_no_candidate"
+        },
+        {
+          "name": "Palazzo Platamone",
+          "place_id": "ChIJI_0k4DHjExMRXN512sPvgIs",
+          "status": "updated"
+        }
+      ]
+    },
+    "catania_batch_5": {
+      "processed": 15,
+      "updated": 8,
+      "skipped": 0,
+      "errors": 7,
+      "samples": [
+        {
+          "name": "Palazzo Magnisi",
+          "place_id": "ChIJ4bG0j_PlGRMRx_pZ0GYR8vw",
+          "status": "updated"
+        },
+        {
+          "name": "Terme dell'Indirizzo",
+          "place_id": "ChIJd2HfRy_jExMR2njjECMQuc8",
+          "status": "updated"
+        },
+        {
+          "name": "Chiesa di San Francesco d'Assisi all'Immacolata",
+          "place_id": "ChIJ3eVOKynjExMRD1f5lfDApdU",
+          "status": "no_periods"
+        },
+        {
+          "name": "Fontana dei Setti Canali",
+          "place_id": "ChIJ75Crp7DjExMRz42FKEn7o4c",
+          "status": "no_periods"
+        },
+        {
+          "name": "Arco di San Benedetto",
+          "place_id": "ChIJQQenMynjExMRTim9y_I0JEY",
+          "status": "updated"
+        },
+        {
+          "name": "Palazzo Reburdone",
+          "place_id": "ChIJRYhFqwzjExMRLIV7FhgfP28",
+          "status": "no_periods"
+        }
+      ]
+    },
+    "catania_batch_6": {
+      "processed": 15,
+      "updated": 15,
+      "skipped": 0,
+      "errors": 0,
+      "samples": [
+        {
+          "name": "Trattoria da Nuccio",
+          "place_id": "ChIJ4wkXcizjExMRApHj7M7eg9Y",
+          "status": "updated"
+        },
+        {
+          "name": "Trattoria U Fucularu",
+          "place_id": "ChIJwYpRey7jExMRJxudW7ZTTBM",
+          "status": "updated"
+        },
+        {
+          "name": "La Siciliana",
+          "place_id": "ChIJlx3yHsL8ExMRP8I86VDnfRQ",
+          "status": "updated"
+        },
+        {
+          "name": "Trattoria Cucina Casalinga da Mimmo",
+          "place_id": "ChIJgRe-lM38ExMRU_AYn59GIdA",
+          "status": "updated"
+        },
+        {
+          "name": "Trattoria Serafino I",
+          "place_id": "ChIJnzkVMNfjExMR7TW6C8g1GTk",
+          "status": "updated"
+        },
+        {
+          "name": "Trattoria La Pigna Verde",
+          "place_id": "ChIJVeAFaPTNExMRXKMTsbrrsnM",
+          "status": "updated"
+        }
+      ]
+    },
+    "cenevre": {
+      "processed": 216,
+      "updated": 181,
+      "skipped": 0,
+      "errors": 35,
+      "samples": [
+        {
+          "name": "995 Concept",
+          "place_id": "ChIJCZCR1apljEcRe3bwpVelxO8",
+          "status": "updated"
+        },
+        {
+          "name": "Amaro Café",
+          "place_id": "ChIJyQ3IRwBljEcReIMJs8prG4g",
+          "status": "updated"
+        },
+        {
+          "name": "Amorino Genève",
+          "place_id": "ChIJGUwMKwBljEcR_CPkm7ua7Hw",
+          "status": "updated"
+        },
+        {
+          "name": "Annecy",
+          "place_id": "ChIJyVEFHPqPi0cRujQFYoEWeEI",
+          "status": "no_periods"
+        },
+        {
+          "name": "Arakel",
+          "place_id": "ChIJfQSjkuBljEcRA-Dzp710Kms",
+          "status": "updated"
+        },
+        {
+          "name": "Ariana Museum",
+          "place_id": "ChIJmxOfleRkjEcRo2g7tuMJaBk",
+          "status": "updated"
+        }
+      ]
+    },
+    "cesme": {
+      "processed": 199,
+      "updated": 133,
+      "skipped": 0,
+      "errors": 66,
+      "samples": [
+        {
+          "name": "Çeşme Kalesi",
+          "place_id": "ChIJhfrPDTV6uxQRti_HdO2Dk2k",
+          "status": "updated"
+        },
+        {
+          "name": "Alaçatı Çarşı",
+          "place_id": "ChIJDz_6BuB4uxQR9iUno_n11tw",
+          "status": "updated"
+        },
+        {
+          "name": "Alaçatı Yel Değirmenleri",
+          "place_id": "ChIJJfjSQuB4uxQRZmr4XczsWXo",
+          "status": "updated"
+        },
+        {
+          "name": "Çeşme Marina",
+          "place_id": "ChIJCRS37Mp7uxQRPRiXrVHW7TA",
+          "status": "updated"
+        },
+        {
+          "name": "Çeşme, Ilıca Yıldızburnu küçük halk plajı.",
+          "place_id": "ChIJbzHexKd5uxQRvvNz-lA85DE",
+          "status": "updated"
+        },
+        {
+          "name": "Ayayorgi Yolu",
+          "place_id": "ChIJq-xipT16uxQRT8Xn-Hkeqpk",
+          "status": "no_periods"
+        }
+      ]
+    },
+    "colmar": {
+      "processed": 191,
+      "updated": 141,
+      "skipped": 0,
+      "errors": 50,
+      "samples": [
+        {
+          "name": "Abbaye de Murbach",
+          "place_id": "ChIJDXpsnxB-kUcRstHq_x103Lo",
+          "status": "updated"
+        },
+        {
+          "name": "Alsace Wine Route Start",
+          "place_id": "ChIJUURiuRRkkUcRWHPCp18jVog",
+          "status": "no_periods"
+        },
+        {
+          "name": "Ancien Corps de Garde",
+          "place_id": "ChIJZ6kf5eZlkUcRGM4dlBlGv-U",
+          "status": "no_periods"
+        },
+        {
+          "name": "Ancienne Douane (Koïfhus)",
+          "place_id": "ChIJOa3hYuZlkUcRAtDPpVxjlfU",
+          "status": "no_periods"
+        },
+        {
+          "name": "Au Chasseur",
+          "place_id": "ChIJS_JNPORlkUcRCBCT3r-7WrQ",
+          "status": "updated"
+        },
+        {
+          "name": "Au Croissant Doré",
+          "place_id": "ChIJV2tQ4-ZlkUcRDrlkeHFX7wI",
+          "status": "updated"
+        }
+      ]
+    },
+    "dubai": {
+      "processed": 225,
+      "updated": 189,
+      "skipped": 0,
+      "errors": 36,
+      "samples": [
+        {
+          "name": "21grams",
+          "place_id": "ChIJsQbDpkVqXz4RghkH6KosPwU",
+          "status": "updated"
+        },
+        {
+          "name": "ARTE Museum Dubai",
+          "place_id": "ChIJP1M4VDppXz4RI5Rn_qqRhG4",
+          "status": "updated"
+        },
+        {
+          "name": "ASCENT -The Rooftop Lounge",
+          "place_id": "ChIJh2RqzN1DXz4RBXw--Qi_xCY",
+          "status": "updated"
+        },
+        {
+          "name": "AVE Dubai",
+          "place_id": "ChIJtd5iPVRpXz4RCJWftl-3J9w",
+          "status": "updated"
+        },
+        {
+          "name": "AYA Universe",
+          "place_id": "ChIJ0S3qW85dXz4Rj-hyqYEpY4g",
+          "status": "updated"
+        },
+        {
+          "name": "Above Eleven",
+          "place_id": "ChIJz0NTDblrXz4R5nlONTqMt3I",
+          "status": "updated"
+        }
+      ]
+    },
+    "dublin": {
+      "processed": 204,
+      "updated": 187,
+      "skipped": 0,
+      "errors": 17,
+      "samples": [
+        {
+          "name": "777",
+          "place_id": "ChIJzYpzHZ0OZ0gR3vqlQXf850Q",
+          "status": "updated"
+        },
+        {
+          "name": "A Fianco",
+          "place_id": "ChIJL7UPHQcNZ0gRRZ_lcQXF-Kc",
+          "status": "updated"
+        },
+        {
+          "name": "A Taste of Spain SPANISH GOURMET SHOP.",
+          "place_id": "ChIJs0bpHe4PZ0gRueGcEF8ul_U",
+          "status": "updated"
+        },
+        {
+          "name": "Academy Coffee Dublin",
+          "place_id": "ChIJW7PvfgEPZ0gRoZXz8IdjbNA",
+          "status": "updated"
+        },
+        {
+          "name": "All Rosey Coffee",
+          "place_id": "ChIJWdVh9rkPZ0gRj1m_X3OqDsM",
+          "status": "updated"
+        },
+        {
+          "name": "Amuri Restaurant",
+          "place_id": "ChIJX7b_6KkPZ0gRP-glvtky14w",
+          "status": "updated"
+        }
+      ]
+    },
+    "dubrovnik": {
+      "processed": 194,
+      "updated": 157,
+      "skipped": 0,
+      "errors": 37,
+      "samples": [
+        {
+          "name": "Dubrovnik City Walls",
+          "place_id": "ChIJV0zVnDILTBMRkekZb2h93ZY",
+          "status": "updated"
+        },
+        {
+          "name": "Stradun",
+          "place_id": "ChIJKU9Y8jILTBMR9V8NPzgOYKA",
+          "status": "no_periods"
+        },
+        {
+          "name": "Tvrđava Lovrjenac / Lovrjenac Fortress",
+          "place_id": "ChIJQUK5_ywLTBMRBQIbxzDZ1T8",
+          "status": "updated"
+        },
+        {
+          "name": "Onofrio's Large Fountain",
+          "place_id": "ChIJrRQV8Sl1TBMRQgJUuy8kapE",
+          "status": "updated"
+        },
+        {
+          "name": "The Cathedral of the Assumption of the Virgin Mary",
+          "place_id": "ChIJbbnurzMLTBMRBa8dNgOdjbQ",
+          "status": "updated"
+        },
+        {
+          "name": "Rector's Palace",
+          "place_id": "ChIJh3rhADMLTBMRPMwLt9DWBMA",
+          "status": "updated"
+        }
+      ]
+    },
+    "edinburgh": {
+      "processed": 182,
+      "updated": 133,
+      "skipped": 0,
+      "errors": 49,
+      "samples": [
+        {
+          "name": "Advocates Close",
+          "place_id": "ChIJFXsAUYXHh0gRkqhaLH_Y7Vc",
+          "status": "updated"
+        },
+        {
+          "name": "Aizle",
+          "place_id": "ChIJJ3-Y-YDHh0gRLJiLuVmjGtY",
+          "status": "no_periods"
+        },
+        {
+          "name": "Almond Valley Heritage Centre",
+          "place_id": "ChIJQ5D3pUrZh0gRWnVBDH3nKXE",
+          "status": "updated"
+        },
+        {
+          "name": "Anatomical Museum",
+          "place_id": "ChIJUc6apoTHh0gR47crtRPLrF4",
+          "status": "no_periods"
+        },
+        {
+          "name": "Angels with Bagpipes",
+          "place_id": "ChIJ4b-jU4XHh0gRjMT32cB_i0o",
+          "status": "updated"
+        },
+        {
+          "name": "Arthur's Seat",
+          "place_id": "ChIJuSIvEYS4h0gR8EyTQWxGiiE",
+          "status": "no_periods"
+        }
+      ]
+    },
+    "fes": {
+      "processed": 167,
+      "updated": 119,
+      "skipped": 0,
+      "errors": 48,
+      "samples": [
+        {
+          "name": "Ain Azliten",
+          "place_id": "ChIJa-FmXFTznw0RKDqlW6mszLg",
+          "status": "updated"
+        },
+        {
+          "name": "Ain Nokbi",
+          "place_id": "ChIJfxNjgDfznw0Rxx0pyA5dPdA",
+          "status": "updated"
+        },
+        {
+          "name": "Ain Vittel",
+          "place_id": "ChIJrSqrOQXXoQ0R29OmUAwtFZA",
+          "status": "no_periods"
+        },
+        {
+          "name": "Al-Attarine Medresesi",
+          "place_id": "ChIJdVUvylnznw0RHz99-4EHTWk",
+          "status": "updated"
+        },
+        {
+          "name": "Al-Qarawiyyin Üniversitesi",
+          "place_id": "ChIJPw3jxFnznw0Rg9_Qr76oFIY",
+          "status": "updated"
+        },
+        {
+          "name": "Andalusian Mosque",
+          "place_id": "ChIJbyDNaFDznw0RGVBSBYqmpt4",
+          "status": "no_periods"
+        }
+      ]
+    },
+    "floransa": {
+      "processed": 219,
+      "updated": 204,
+      "skipped": 0,
+      "errors": 15,
+      "samples": [
+        {
+          "name": "Accademia Galerisi",
+          "place_id": "ChIJJ7mRvIxVKhMRx6JB-q73TG0",
+          "status": "updated"
+        },
+        {
+          "name": "Ala Grande Caffè(caffè Rosanò)",
+          "place_id": "ChIJrxQ4kRxUKhMRJoA-miHKaF8",
+          "status": "updated"
+        },
+        {
+          "name": "Alibi Craft Beer & Kitchen",
+          "place_id": "ChIJ27MvxYNXKhMRj1QPDiuOHQc",
+          "status": "updated"
+        },
+        {
+          "name": "All'Antico Vinaio",
+          "place_id": "ChIJe1LisABUKhMR9gcnnxWrwls",
+          "status": "updated"
+        },
+        {
+          "name": "Angie’s Pub - Age of Pavona",
+          "place_id": "ChIJjfzHVwdUKhMRsdoVPKP1YjY",
+          "status": "updated"
+        },
+        {
+          "name": "Antiche Dogane",
+          "place_id": "ChIJVfu2egFUKhMR4EfANsEgLjQ",
+          "status": "updated"
+        }
+      ]
+    },
+    "gaziantep": {
+      "processed": 187,
+      "updated": 145,
+      "skipped": 0,
+      "errors": 42,
+      "samples": [
+        {
+          "name": "Kutnu Kumaş Atölyeleri",
+          "place_id": "ChIJm7rx4rLmMRURyN4xIxeZduc",
+          "status": "updated"
+        },
+        {
+          "name": "Sedef Kakma Atölyesi",
+          "place_id": "ChIJn9anE7PmMRURerFJEprPInw",
+          "status": "no_periods"
+        },
+        {
+          "name": "Tarihi Gümrük Hanı",
+          "place_id": "ChIJz4lzHLPmMRUR6Oo9tfnWVLA",
+          "status": "no_periods"
+        },
+        {
+          "name": "100. Yıl Atatürk Kültür Parkı",
+          "place_id": "ChIJu2sF-VDhMRURQJqRgdvNvfk",
+          "status": "updated"
+        },
+        {
+          "name": "Ahşap Oymacılık",
+          "place_id": "ChIJTeE_0crlMRURRmhQ3Qc2Z5w",
+          "status": "updated"
+        },
+        {
+          "name": "Ahşap Oyuncak Müzesi",
+          "place_id": "ChIJzVUOKkrhMRURZVHlip0v1Dc",
+          "status": "updated"
+        }
+      ]
+    },
+    "giethoorn": {
+      "processed": 174,
+      "updated": 127,
+      "skipped": 0,
+      "errors": 47,
+      "samples": [
+        {
+          "name": "'t Olde Maat Uus",
+          "place_id": "ChIJC4Z5iiZuyEcRIRwJ5gkZ7xA",
+          "status": "updated"
+        },
+        {
+          "name": "'t Vonder",
+          "place_id": "ChIJo3lGECVuyEcRE5_AnhnbA9I",
+          "status": "updated"
+        },
+        {
+          "name": "Aquarium Giethoorn",
+          "place_id": "ChIJdWJ06NpvyEcRWu_YJ31UDog",
+          "status": "updated"
+        },
+        {
+          "name": "Archimedes Windmill",
+          "place_id": "ChIJOdZT6I00xEcR327NC45V1FE",
+          "status": "no_periods"
+        },
+        {
+          "name": "Bakkerij Toet",
+          "place_id": "ChIJkUAYfY9myEcR-yoeysy5PYY",
+          "status": "updated"
+        },
+        {
+          "name": "Beachclub Bodelaeke",
+          "place_id": "ChIJ_cAzWpZvyEcRgKpcJRH2_rc",
+          "status": "updated"
+        }
+      ]
+    },
+    "hallstatt": {
+      "processed": 176,
+      "updated": 100,
+      "skipped": 0,
+      "errors": 76,
+      "samples": [
+        {
+          "name": "3-Seen-Tour",
+          "place_id": "ChIJaU2arotGcUcREsnRmW8Jvdc",
+          "status": "no_periods"
+        },
+        {
+          "name": "5 Fingers",
+          "place_id": "ChIJtYPhCxM3cUcRQ1HCo6V-ad4",
+          "status": "updated"
+        },
+        {
+          "name": "Abarena",
+          "place_id": "ChIJ9a97F4qwdkcRWH5o4e5l1Dg",
+          "status": "no_periods"
+        },
+        {
+          "name": "Adamekhütte",
+          "place_id": "ChIJEdHasukzcUcRoz4fB4iJiNw",
+          "status": "no_periods"
+        },
+        {
+          "name": "Almsee",
+          "place_id": "ChIJZwp0cIhccUcRPcvpwIPEkXA",
+          "status": "updated"
+        },
+        {
+          "name": "Altaussee Lake",
+          "place_id": "ChIJmXpXhgFGcUcRAJ4rrWbxQNg",
+          "status": "no_periods"
+        }
+      ]
+    },
+    "heidelberg": {
+      "processed": 79,
+      "updated": 63,
+      "skipped": 0,
+      "errors": 16,
+      "samples": [
+        {
+          "name": "Alman Eczacılık Müzesi",
+          "place_id": "ChIJ2Tqbq6nBl0cRioEV_U-J3Yc",
+          "status": "updated"
+        },
+        {
+          "name": "Alte Brücke (Karl Theodor Köprüsü)",
+          "place_id": "ChIJf1GxOgbBl0cRUqNeomYSxpo",
+          "status": "updated"
+        },
+        {
+          "name": "Altstadt (Eski Şehir)",
+          "place_id": "ChIJS09XIPDBl0cRC-UW5N12K6M",
+          "status": "no_periods"
+        },
+        {
+          "name": "Antiquariat Hatry",
+          "place_id": "ChIJdXieSQTBl0cRUMbrcLtxbvc",
+          "status": "updated"
+        },
+        {
+          "name": "Bisiklet Turu Neckar Vadisi",
+          "place_id": "ChIJa-37ZSLBl0cR3I_R_9qzVVc",
+          "status": "updated"
+        },
+        {
+          "name": "Botanik Bahçesi",
+          "place_id": "ChIJ_YWp9DDBl0cR6gGkqW5T3zQ",
+          "status": "updated"
+        }
+      ]
+    },
+    "hongkong": {
+      "processed": 208,
+      "updated": 179,
+      "skipped": 0,
+      "errors": 29,
+      "samples": [
+        {
+          "name": "+Bread Bakery",
+          "place_id": "ChIJ_xQJVbMBBDQRuJpDZasO0cA",
+          "status": "updated"
+        },
+        {
+          "name": "1881 Heritage",
+          "place_id": "ChIJPam4_PIABDQR5wRPfUrnmQY",
+          "status": "updated"
+        },
+        {
+          "name": "25:00 Twenty Fifth Hour",
+          "place_id": "ChIJrQWEfvYBBDQRJklZDHwElVM",
+          "status": "updated"
+        },
+        {
+          "name": "A Lux",
+          "place_id": "ChIJKRSGK3sABDQR0n0YqXWDMKs",
+          "status": "updated"
+        },
+        {
+          "name": "ARTISTA PERFETTO (Causeway Bay)",
+          "place_id": "ChIJE6Of0YwBBDQRL1dqfjfy_B4",
+          "status": "updated"
+        },
+        {
+          "name": "AVOCA",
+          "place_id": "ChIJ-e5L3GQBBDQRvJhmdKqVu-c",
+          "status": "updated"
+        }
+      ]
+    },
+    "ibiza": {
+      "processed": 99,
+      "updated": 69,
+      "skipped": 0,
+      "errors": 30,
+      "samples": [
+        {
+          "name": "Dalt Vila",
+          "place_id": "ChIJac27E7BGmRIR3ivh3HRaxyQ",
+          "status": "no_periods"
+        },
+        {
+          "name": "Es Vedrà",
+          "place_id": "ChIJoUI2LSOznhIR3cAManclxOc",
+          "status": "no_periods"
+        },
+        {
+          "name": "Café del Mar",
+          "place_id": "ChIJS5DBd_1JmRIRLnc_uM5Oego",
+          "status": "updated"
+        },
+        {
+          "name": "Ushuaïa Ibiza Beach Hotel",
+          "place_id": "ChIJ7WNdUQdFmRIRqVeXzYmQxyE",
+          "status": "no_periods"
+        },
+        {
+          "name": "Pacha",
+          "place_id": "ChIJBUmiFTVBmRIREVzO4Q3XWvQ",
+          "status": "updated"
+        },
+        {
+          "name": "Amnesia Ibiza",
+          "place_id": "ChIJu-hQIAZHmRIRVjgVrUtiV68",
+          "status": "updated"
+        }
+      ]
+    },
+    "istanbul": {
+      "processed": 44,
+      "updated": 0,
+      "skipped": 179,
+      "errors": 44,
+      "samples": [
+        {
+          "name": "Adalar (Büyükada)",
+          "place_id": "ChIJo3rvAuzByhQRBJD4EB8adb8",
+          "status": "no_periods"
+        },
+        {
+          "name": "Anadolu Kavağı",
+          "place_id": "ChIJi-0he8ffn0ARinoqZm9RkX8",
+          "status": "no_periods"
+        },
+        {
+          "name": "Asitane",
+          "place_id": "ChIJGTq8URC6yhQRHQ4xnWlaSio",
+          "status": "no_periods"
+        },
+        {
+          "name": "Balat",
+          "place_id": "ChIJaS0ixQK6yhQRPkjTz-BwuiQ",
+          "status": "no_periods"
+        },
+        {
+          "name": "Balat Renkli Evler",
+          "place_id": "ChIJTSGTcgC7yhQRC6PeDZRFoOk",
+          "status": "no_periods"
+        },
+        {
+          "name": "Balat ve Fener Sokakları",
+          "place_id": "ChIJH9xUFAO6yhQRn5CD8QLsJuc",
+          "status": "no_periods"
+        }
+      ]
+    },
+    "kahire": {
+      "processed": 196,
+      "updated": 155,
+      "skipped": 0,
+      "errors": 41,
+      "samples": [
+        {
+          "name": "9 Pyramids Lounge",
+          "place_id": "ChIJt7RfVHRPWBQRrZjkdi-4l1M",
+          "status": "updated"
+        },
+        {
+          "name": "Abdeen Palace Museum",
+          "place_id": "ChIJF_ZR9bpAWBQR_WeDJloU-7o",
+          "status": "updated"
+        },
+        {
+          "name": "Abou El Sid",
+          "place_id": "ChIJD1gOLOtAWBQRRXUYeJE0qiU",
+          "status": "updated"
+        },
+        {
+          "name": "Abu al-Abbas al-Mursi Mosque",
+          "place_id": "ChIJZ3cyTP3D9RQRM2qVGbUEklg",
+          "status": "updated"
+        },
+        {
+          "name": "Ahbab El-Sayyeda",
+          "place_id": "ChIJJ7XoF_C3yhQRfYmB6qhXARc",
+          "status": "updated"
+        },
+        {
+          "name": "Aisha Fahmy Palace",
+          "place_id": "ChIJoeCaGXNBWBQR4cDrUktEuiE",
+          "status": "no_periods"
+        }
+      ]
+    },
+    "kapadokya": {
+      "processed": 142,
+      "updated": 83,
+      "skipped": 0,
+      "errors": 59,
+      "samples": [
+        {
+          "name": "ATV Safari Turu",
+          "place_id": "ChIJSbbncgJnKhURZwvic312JYo",
+          "status": "updated"
+        },
+        {
+          "name": "Agzikarahan Caravanserai",
+          "place_id": "ChIJvydbKe_f1RQRJow7d_-crjc",
+          "status": "updated"
+        },
+        {
+          "name": "Ala Church",
+          "place_id": "ChIJ____v3doKhURArKRKfgXjy8",
+          "status": "no_periods"
+        },
+        {
+          "name": "Alti Kapi Tomb",
+          "place_id": "ChIJ8euuocxdKhURvizMY0eHlw4",
+          "status": "no_periods"
+        },
+        {
+          "name": "Ansia Hotel",
+          "place_id": "ChIJJc5G9O1oKhURXUD8ZjO5fJo",
+          "status": "updated"
+        },
+        {
+          "name": "Apple Church",
+          "place_id": "ChIJ____v3doKhURArKRKfgXjy8",
+          "status": "no_periods"
+        }
+      ]
+    },
+    "kas": {
+      "processed": 74,
+      "updated": 50,
+      "skipped": 0,
+      "errors": 24,
+      "samples": [
+        {
+          "name": "Kaputaş Beach",
+          "place_id": "ChIJaQPCYHDTwRQR1cQU17ycULA",
+          "status": "updated"
+        },
+        {
+          "name": "Patara Beach",
+          "place_id": "ChIJu-RldrQuwBQR_RL99zGXFgQ",
+          "status": "no_periods"
+        },
+        {
+          "name": "Antiphellos Ancient City",
+          "place_id": "ChIJAQAAACstwBQRslW1-2qzS6A",
+          "status": "updated"
+        },
+        {
+          "name": "Kaş Çarşı",
+          "place_id": "ChIJY8GEqTXbwRQRJl9cXTo9hOw",
+          "status": "updated"
+        },
+        {
+          "name": "Kekova Island",
+          "place_id": "ChIJV9zSblPvwRQRLoKVtgj0Bf4",
+          "status": "no_periods"
+        },
+        {
+          "name": "Saklikent National Park",
+          "place_id": "ChIJX4240qhKwBQRnYEHFRZezXM",
+          "status": "updated"
+        }
+      ]
+    },
+    "kopenhag": {
+      "processed": 195,
+      "updated": 152,
+      "skipped": 0,
+      "errors": 43,
+      "samples": [
+        {
+          "name": "8 House",
+          "place_id": "ChIJH9lCr8VUUkYR0T5tOXl7ejw",
+          "status": "updated"
+        },
+        {
+          "name": "Aamanns 1921",
+          "place_id": "ChIJoa1vixBTUkYRD8NYW74jRsc",
+          "status": "updated"
+        },
+        {
+          "name": "Absalon",
+          "place_id": "ChIJDVTyRHZTUkYR4DV6isOiwVI",
+          "status": "updated"
+        },
+        {
+          "name": "Alchemist",
+          "place_id": "ChIJGbFWVvBSUkYR5x0i6Z836Ao",
+          "status": "updated"
+        },
+        {
+          "name": "Alice Ice Cream & Coffee",
+          "place_id": "ChIJU1WydDhTUkYRDf7foyosUiQ",
+          "status": "updated"
+        },
+        {
+          "name": "Amager Strandpark",
+          "place_id": "ChIJp8jZW2pTUkYRQmmHh_lfaPk",
+          "status": "updated"
+        }
+      ]
+    },
+    "kotor": {
+      "processed": 251,
+      "updated": 152,
+      "skipped": 0,
+      "errors": 99,
+      "samples": [
+        {
+          "name": "Al Posto Giusto",
+          "place_id": "ChIJ-_kP9HUxTBMRkNVP16smQl8",
+          "status": "updated"
+        },
+        {
+          "name": "Almara Beach Club",
+          "place_id": "ChIJjXYgD7gvTBMRXFELcOCz-Cc",
+          "status": "no_periods"
+        },
+        {
+          "name": "Antique Shops",
+          "place_id": "ChIJ4WQSg4QzTBMRbP2kVD_Mdn0",
+          "status": "updated"
+        },
+        {
+          "name": "Aquarium Boka",
+          "place_id": "ChIJUXs4bbozTBMR2AXCpiE9W7A",
+          "status": "updated"
+        },
+        {
+          "name": "Astoria Restaurant",
+          "place_id": "ChIJVVWlTBszTBMRcEAK7D9fSck",
+          "status": "updated"
+        },
+        {
+          "name": "BBQ Tanjga",
+          "place_id": "ChIJ6yUi4AIzTBMR3km56lmAQnA",
+          "status": "updated"
+        }
+      ]
+    },
+    "ksamil": {
+      "processed": 86,
+      "updated": 50,
+      "skipped": 0,
+      "errors": 36,
+      "samples": [
+        {
+          "name": "Ksamil Islands",
+          "place_id": "ChIJk5FPXTNqWxMRUpA0CsHZd6s",
+          "status": "no_periods"
+        },
+        {
+          "name": "Plazhi Ksamilit",
+          "place_id": "ChIJ5zjbV8xrWxMRGu8baGqG_o0",
+          "status": "no_periods"
+        },
+        {
+          "name": "Ksamil",
+          "place_id": "ChIJKWCz49FrWxMRbdaiyLMUzIc",
+          "status": "no_periods"
+        },
+        {
+          "name": "Mirror Beach",
+          "place_id": "ChIJYYzwRQBrWxMRZGFK94FuDqk",
+          "status": "no_periods"
+        },
+        {
+          "name": "Pulëbardha Beach",
+          "place_id": "ChIJ_0aCmwBrWxMRt58M1VhxV2I",
+          "status": "no_periods"
+        },
+        {
+          "name": "Lori Beach",
+          "place_id": "ChIJZY4ygCxqWxMRzDWCTY8vnOk",
+          "status": "no_periods"
+        }
+      ]
+    },
+    "lizbon": {
+      "processed": 215,
+      "updated": 192,
+      "skipped": 0,
+      "errors": 23,
+      "samples": [
+        {
+          "name": "146 Bar",
+          "place_id": "ChIJ3_ofOXU1GQ0RP_VfIZBk-sI",
+          "status": "updated"
+        },
+        {
+          "name": "1868 Cocktail Boutique",
+          "place_id": "ChIJY-YPgk01GQ0R1oHBEpmebbw",
+          "status": "updated"
+        },
+        {
+          "name": "A Fama",
+          "place_id": "ChIJtUPuE3Y0GQ0R6INbXk-WNww",
+          "status": "no_periods"
+        },
+        {
+          "name": "A Ginjinha",
+          "place_id": "ChIJmWBZR4czGQ0R0us-gvCVW3g",
+          "status": "updated"
+        },
+        {
+          "name": "A Nossa Casa",
+          "place_id": "ChIJcVPiRjk1GQ0R4E4ckO3whcA",
+          "status": "updated"
+        },
+        {
+          "name": "A Vida Portuguesa",
+          "place_id": "ChIJjV9a2340GQ0RksyzcqklJxA",
+          "status": "updated"
+        }
+      ]
+    },
+    "londra": {
+      "processed": 36,
+      "updated": 0,
+      "skipped": 199,
+      "errors": 36,
+      "samples": [
+        {
+          "name": "Abbey Road",
+          "place_id": "ChIJp1BQZZ8adkgRob3KQhlzaK0",
+          "status": "no_periods"
+        },
+        {
+          "name": "Alexandra Palace Area",
+          "place_id": "ChIJzacQU9cbdkgReQhGeXtnOJo",
+          "status": "no_periods"
+        },
+        {
+          "name": "Big Ben & Westminster",
+          "place_id": "ChIJ2dGMjMMEdkgRqVqkuXQkj7c",
+          "status": "no_periods"
+        },
+        {
+          "name": "Brick Lane",
+          "place_id": "ChIJJX-rQLYcdkgRjiQDyLmOB-E",
+          "status": "no_periods"
+        },
+        {
+          "name": "Broadway Market",
+          "place_id": "ChIJaZN7MugcdkgRdBDt4u41D4A",
+          "status": "no_periods"
+        },
+        {
+          "name": "Buckingham Palace",
+          "place_id": "ChIJtV5bzSAFdkgRpwLZFPWrJgo",
+          "status": "no_periods"
+        }
+      ]
+    },
+    "lucerne": {
+      "processed": 215,
+      "updated": 184,
+      "skipped": 0,
+      "errors": 31,
+      "samples": [
+        {
+          "name": "Alag Bar - Kriens",
+          "place_id": "ChIJYaJ-NUj7j0cRa_OU5q1909E",
+          "status": "updated"
+        },
+        {
+          "name": "Alfred Take Away",
+          "place_id": "ChIJ00pMi6P7j0cRQjzgssSZyN4",
+          "status": "updated"
+        },
+        {
+          "name": "Alpineum",
+          "place_id": "ChIJqQBUZpv7j0cRXdSsvJ-E9rw",
+          "status": "updated"
+        },
+        {
+          "name": "Alpineum Kaffeehaus°Bar",
+          "place_id": "ChIJqQBUZpv7j0cRXdSsvJ-E9rw",
+          "status": "updated"
+        },
+        {
+          "name": "Ampersand",
+          "place_id": "ChIJ0ZBAy6P7j0cRqzHmF4CfEF0",
+          "status": "updated"
+        },
+        {
+          "name": "Aux Merveilleux de Fred",
+          "place_id": "ChIJ_cZcwJX7j0cRGA8Aa8ywWNw",
+          "status": "updated"
+        }
+      ]
+    },
+    "lyon": {
+      "processed": 229,
+      "updated": 197,
+      "skipped": 0,
+      "errors": 32,
+      "samples": [
+        {
+          "name": "A NOTRE TABLE",
+          "place_id": "ChIJ1y1GUfzr9EcRfq5sngr6H4c",
+          "status": "updated"
+        },
+        {
+          "name": "ALMA par Marvin Brandao Pâtisserie-Boulangerie-Chocolaterie",
+          "place_id": "ChIJr6B6lhbr9EcRZqaWIXO9slM",
+          "status": "updated"
+        },
+        {
+          "name": "AME café",
+          "place_id": "ChIJHwTB2bvr9EcRtHd3qKRWjuk",
+          "status": "updated"
+        },
+        {
+          "name": "ART Restaurant Lyon",
+          "place_id": "ChIJOz5bdf3r9EcR6Lc45kXa5As",
+          "status": "updated"
+        },
+        {
+          "name": "AWANI RESTAURANT AFRICAIN LYON",
+          "place_id": "ChIJr5Z3HRbr9EcRRUC4wnQ-8PY",
+          "status": "updated"
+        },
+        {
+          "name": "Abstract",
+          "place_id": "ChIJj0kq0lHr9EcRW8VgHHbpNYw",
+          "status": "updated"
+        }
+      ]
+    },
+    "madrid": {
+      "processed": 43,
+      "updated": 0,
+      "skipped": 174,
+      "errors": 43,
+      "samples": [
+        {
+          "name": "Atocha Tren İstasyonu (Tropikal Bahçe)",
+          "place_id": "ChIJF9jNRSQmQg0RWwNljcL5Rzk",
+          "status": "no_periods"
+        },
+        {
+          "name": "Barrio de Salamanca",
+          "place_id": "ChIJJ7e34rgoQg0RtzcvbjH2QyM",
+          "status": "no_periods"
+        },
+        {
+          "name": "Barrio de las Letras",
+          "place_id": "ChIJE5MzAYEoQg0RPPfbSrJKa6Y",
+          "status": "no_periods"
+        },
+        {
+          "name": "Basílica de San Francisco el Grande",
+          "place_id": "ChIJCd5rR9gnQg0RUIJOfg7D19Y",
+          "status": "no_periods"
+        },
+        {
+          "name": "Calle Mayor",
+          "place_id": "ChIJfewrG3koQg0RHykYNaPJ2y0",
+          "status": "no_periods"
+        },
+        {
+          "name": "Calle Ponzano",
+          "place_id": "ChIJgTlXPfcoQg0REu7yZVDEQIw",
+          "status": "no_periods"
+        }
+      ]
+    },
+    "mallorca": {
+      "processed": 103,
+      "updated": 61,
+      "skipped": 0,
+      "errors": 42,
+      "samples": [
+        {
+          "name": "Catedral-Basílica de Santa María de Mallorca",
+          "place_id": "ChIJVY-vfUWSlxIRqoH9muibDFQ",
+          "status": "updated"
+        },
+        {
+          "name": "Castillo de Bellver",
+          "place_id": "ChIJd7Q-FHGSlxIRof_ZMNOu1sg",
+          "status": "updated"
+        },
+        {
+          "name": "Valldemossa",
+          "place_id": "ChIJ_8aKugPulxIRPhKWi-dSSJI",
+          "status": "no_periods"
+        },
+        {
+          "name": "Cuevas del Drach",
+          "place_id": "ChIJ_aPTXrBGlhIRHXI-HoVfGpI",
+          "status": "updated"
+        },
+        {
+          "name": "Port d'Andratx",
+          "place_id": "ChIJGYiN3qwmmBIRcThvLu310DQ",
+          "status": "no_periods"
+        },
+        {
+          "name": "Es Trenc",
+          "place_id": "ChIJdwuOeSGplxIR8cfhhEz9PV0",
+          "status": "no_periods"
+        }
+      ]
+    },
+    "marakes": {
+      "processed": 207,
+      "updated": 186,
+      "skipped": 0,
+      "errors": 21,
+      "samples": [
+        {
+          "name": "Addict by Gatsby",
+          "place_id": "ChIJgzrfl5bvrw0Rg-llFR8oz9E",
+          "status": "updated"
+        },
+        {
+          "name": "Agafay Çölü",
+          "place_id": "ChIJtf0pT9Ddrw0RSYQ8OlakdEQ",
+          "status": "updated"
+        },
+        {
+          "name": "Ain Asserdoun",
+          "place_id": "ChIJgxoh_VCGow0RylAbl4tA7ac",
+          "status": "no_periods"
+        },
+        {
+          "name": "Al Fassia",
+          "place_id": "ChIJvfQI1I_urw0ReYbaEA1oE_8",
+          "status": "updated"
+        },
+        {
+          "name": "Almoravid Koubba",
+          "place_id": "ChIJccv9hGnurw0R9Syxi0yCiP0",
+          "status": "updated"
+        },
+        {
+          "name": "Amal Centre",
+          "place_id": "ChIJEQ7Vqprurw0Rneh7Uyncves",
+          "status": "updated"
+        }
+      ]
+    },
+    "marsilya": {
+      "processed": 225,
+      "updated": 172,
+      "skipped": 0,
+      "errors": 53,
+      "samples": [
+        {
+          "name": "Abbaye Saint-Victor",
+          "place_id": "ChIJU-Rgnc_AyRIRix0vXLYpsDA",
+          "status": "updated"
+        },
+        {
+          "name": "Absolem Marseille",
+          "place_id": "ChIJVbvBQNnByRIRmETo5RgY4_4",
+          "status": "updated"
+        },
+        {
+          "name": "Acuda - Restaurant Marseille",
+          "place_id": "ChIJrQE2XVzByRIRl0ceWIhFC-c",
+          "status": "updated"
+        },
+        {
+          "name": "Address Ateliers De Pâtisserie",
+          "place_id": "ChIJ7QCPQx7ByRIRSBT4Bpyd2MU",
+          "status": "updated"
+        },
+        {
+          "name": "Afghan restaurant",
+          "place_id": "ChIJfaGm6nPByRIRVlq-2h7ghNI",
+          "status": "updated"
+        },
+        {
+          "name": "Aix-en-Provence",
+          "place_id": "ChIJWRK5BKONyRIRo4i2yL5TuVw",
+          "status": "no_periods"
+        }
+      ]
+    },
+    "matera": {
+      "processed": 150,
+      "updated": 94,
+      "skipped": 0,
+      "errors": 56,
+      "samples": [
+        {
+          "name": "19a Buca Winery",
+          "place_id": "ChIJqZ-HWeB-RxMRs1iIIomn-y4",
+          "status": "updated"
+        },
+        {
+          "name": "5 Lire",
+          "place_id": "ChIJDU34Pdx-RxMRo_GHLXnTaG0",
+          "status": "updated"
+        },
+        {
+          "name": "Abbey of Montescaglioso",
+          "place_id": "ChIJq5_wuDx7RxMRNzX1VD7d0ZM",
+          "status": "updated"
+        },
+        {
+          "name": "Agriristoro Pantaleon",
+          "place_id": "ChIJEWL6tMF-RxMRL_PuOZVrlcc",
+          "status": "no_periods"
+        },
+        {
+          "name": "Aia Piccola",
+          "place_id": "ChIJeystdwCzRxMR0SbAMjW7KlA",
+          "status": "no_periods"
+        },
+        {
+          "name": "Aliano",
+          "place_id": "ChIJuzOBDJa5OBMRi2tUdB_O5Cc",
+          "status": "no_periods"
+        }
+      ]
+    },
+    "midilli": {
+      "processed": 188,
+      "updated": 87,
+      "skipped": 0,
+      "errors": 101,
+      "samples": [
+        {
+          "name": "Molyvos (Mithymna)",
+          "place_id": "ChIJx8BDytCEuhQRULW54iy9AAQ",
+          "status": "no_periods"
+        },
+        {
+          "name": "Molyvos Kalesi",
+          "place_id": "ChIJUddefqubuhQR3Bg3Rw_hyqI",
+          "status": "updated"
+        },
+        {
+          "name": "Midilli Kalesi (Mytilene Castle)",
+          "place_id": "ChIJH-sg56lnuhQRp7Y2v8_Ej58",
+          "status": "updated"
+        },
+        {
+          "name": "Petra",
+          "place_id": "ChIJZ61b0V2QuhQRkLW54iy9AAQ",
+          "status": "no_periods"
+        },
+        {
+          "name": "Panagia Glykofilousa Kilisesi",
+          "place_id": "ChIJ3UBQFIKQuhQRfhCiPlKSlI8",
+          "status": "updated"
+        },
+        {
+          "name": "Vatoussa",
+          "place_id": "ChIJZ4R4UGaVuhQRg8ww9_cu1Ms",
+          "status": "no_periods"
+        }
+      ]
+    },
+    "milano": {
+      "processed": 229,
+      "updated": 198,
+      "skipped": 0,
+      "errors": 31,
+      "samples": [
+        {
+          "name": "10 Corso Como (Teras)",
+          "place_id": "ChIJCUNU06DBhkcRNF6UHMjuXGg",
+          "status": "updated"
+        },
+        {
+          "name": "142 Milano",
+          "place_id": "ChIJ3U_VmBHDhkcRFu6fJ3Iw2jM",
+          "status": "updated"
+        },
+        {
+          "name": "AL NOVE WINE BAR",
+          "place_id": "ChIJF9tAd7HBhkcRXmoozqB6HXI",
+          "status": "updated"
+        },
+        {
+          "name": "Ago, Filo e Nodo (Needle, Thread and Knot)",
+          "place_id": "ChIJK2Pk0FHBhkcRQy3ZGec2lDA",
+          "status": "updated"
+        },
+        {
+          "name": "Amaretto Caffè",
+          "place_id": "ChIJxw5l9jLBhkcRAh_sbd5iuu4",
+          "status": "updated"
+        },
+        {
+          "name": "Andalous",
+          "place_id": "ChIJZ2mbWVvHhkcRB9y3iGLW4DI",
+          "status": "updated"
+        }
+      ]
+    },
+    "mykonos": {
+      "processed": 186,
+      "updated": 102,
+      "skipped": 0,
+      "errors": 84,
+      "samples": [
+        {
+          "name": "Little Venice",
+          "place_id": "ChIJTXh2Pqm_ohQRtAPRZ-6TJ7I",
+          "status": "no_periods"
+        },
+        {
+          "name": "Windmills of Mykonos",
+          "place_id": "ChIJBye6dBW_ohQRjkT0ucLhnpc",
+          "status": "updated"
+        },
+        {
+          "name": "Holy Church of Panagia Paraportiani",
+          "place_id": "ChIJGe2LNKm_ohQR2y7UkVt7ekU",
+          "status": "updated"
+        },
+        {
+          "name": "Delos",
+          "place_id": "ChIJ36vmITuWohQRC8DNvi8Urb0",
+          "status": "no_periods"
+        },
+        {
+          "name": "Armenistis Lighthouse",
+          "place_id": "ChIJff0bOxrBohQRvQrHnjYoFfI",
+          "status": "no_periods"
+        },
+        {
+          "name": "Matogianni",
+          "place_id": "ChIJ1SwHhqm_ohQRAUJ_qnteaB0",
+          "status": "no_periods"
+        }
+      ]
+    },
+    "napoli": {
+      "processed": 213,
+      "updated": 185,
+      "skipped": 0,
+      "errors": 28,
+      "samples": [
+        {
+          "name": "'A Puteca d' 'a Pizza",
+          "place_id": "ChIJI7tydKMJOxMRqFU_gbhxlzQ",
+          "status": "updated"
+        },
+        {
+          "name": "'O Barett'",
+          "place_id": "ChIJM3uQe0MIOxMRzflz8tUDNPw",
+          "status": "updated"
+        },
+        {
+          "name": "50 Kalo",
+          "place_id": "ChIJ5WdstxkJOxMRLE4Olc2p9yI",
+          "status": "updated"
+        },
+        {
+          "name": "AZZUPPA Restaurant",
+          "place_id": "ChIJY-oB0SUJOxMR53vhgd9qymY",
+          "status": "updated"
+        },
+        {
+          "name": "Alkymya Bellini",
+          "place_id": "ChIJb-yBxbAJOxMROA-cesTtAF4",
+          "status": "updated"
+        },
+        {
+          "name": "Amalfi Coast",
+          "place_id": "ChIJoXFMw62VOxMR3ExPyRTP6Ew",
+          "status": "no_periods"
+        }
+      ]
+    },
+    "newyork": {
+      "processed": 225,
+      "updated": 191,
+      "skipped": 0,
+      "errors": 34,
+      "samples": [
+        {
+          "name": "Ess-a-Bagel",
+          "place_id": "ChIJZyVQJONYwokREKv0a1J7bFI",
+          "status": "updated"
+        },
+        {
+          "name": "Junior's",
+          "place_id": "ChIJv8YTWFRYwokRkTUSNDg04Y4",
+          "status": "updated"
+        },
+        {
+          "name": "787 Coffee",
+          "place_id": "ChIJn2zHbLJbwokRHtSlCcMRjqM",
+          "status": "updated"
+        },
+        {
+          "name": "787 Coffee Co.",
+          "place_id": "ChIJ41W9caFZwokRVJOfTKNepZI",
+          "status": "updated"
+        },
+        {
+          "name": "9/11 Memorial & Museum",
+          "place_id": "ChIJRcvoOxpawokR7R4dQMXMMPQ",
+          "status": "updated"
+        },
+        {
+          "name": "AURA Tapas & Cocktail Bar",
+          "place_id": "ChIJ5QOQdQtZwokRSy16jOl97Uc",
+          "status": "updated"
+        }
+      ]
+    },
+    "nice": {
+      "processed": 45,
+      "updated": 0,
+      "skipped": 179,
+      "errors": 45,
+      "samples": [
+        {
+          "name": "Antibes",
+          "place_id": "ChIJQQ4QgWvVzRIR3kNXgUy6dco",
+          "status": "no_periods"
+        },
+        {
+          "name": "Avenue Jean Médecin",
+          "place_id": "ChIJ4wMu56fazRIRDKl1pNViIEI",
+          "status": "no_periods"
+        },
+        {
+          "name": "Bootleg bar",
+          "place_id": "ChIJySNJzD3RzRIR3yx22auf2C8",
+          "status": "no_periods"
+        },
+        {
+          "name": "Cannes, France",
+          "place_id": "ChIJ__8MU4CBzhIRIJ6X_aUZCAQ",
+          "status": "no_periods"
+        },
+        {
+          "name": "Cascade de Gairaut",
+          "place_id": "ChIJWRhEso7PzRIRZfrBOTxnNHk",
+          "status": "no_periods"
+        },
+        {
+          "name": "Cours Saleya Market",
+          "place_id": "ChIJO2a3IKPazRIRvoDhP3QCfcE",
+          "status": "no_periods"
+        }
+      ]
+    },
+    "oslo": {
+      "processed": 177,
+      "updated": 141,
+      "skipped": 0,
+      "errors": 36,
+      "samples": [
+        {
+          "name": "Abel Monument",
+          "place_id": "ChIJMSHMochtQUYRVHjax0HNGfU",
+          "status": "updated"
+        },
+        {
+          "name": "Aker Brygge",
+          "place_id": "ChIJ-eTqvIFuQUYRdUY2f_X-j-Y",
+          "status": "no_periods"
+        },
+        {
+          "name": "Akerselva River Walk",
+          "place_id": "ChIJgQR79RxuQUYR0sXgK4E0Lsw",
+          "status": "no_periods"
+        },
+        {
+          "name": "Akerselva Waterfall (Mølla)",
+          "place_id": "ChIJXfte97lvQUYRTfDBH6Ou0jY",
+          "status": "updated"
+        },
+        {
+          "name": "Akershus Fortress",
+          "place_id": "ChIJ035kbYZuQUYRuu0uM9oMKao",
+          "status": "updated"
+        },
+        {
+          "name": "Andre til Høyre",
+          "place_id": "ChIJgVe-tWNuQUYRRxVhSJMpVO8",
+          "status": "no_periods"
+        }
+      ]
+    },
+    "palermo": {
+      "processed": 97,
+      "updated": 82,
+      "skipped": 0,
+      "errors": 15,
+      "samples": [
+        {
+          "name": "Palermo Cathedral",
+          "place_id": "ChIJySXqmGHvGRMRancw-ZBf2ow",
+          "status": "updated"
+        },
+        {
+          "name": "Palazzo dei Normanni",
+          "place_id": "ChIJRT-UYGTvGRMRxSv7Jhaj7HE",
+          "status": "updated"
+        },
+        {
+          "name": "Teatro Massimo di Palermo",
+          "place_id": "ChIJSc5EgvXlGRMRLUA6cDzA7I4",
+          "status": "updated"
+        },
+        {
+          "name": "Quattro Canti",
+          "place_id": "ChIJmcmp1orlGRMRoPpbuqeU7yI",
+          "status": "updated"
+        },
+        {
+          "name": "Mercato Ballarò",
+          "place_id": "ChIJG10YKgDlGRMRgvss8tSK0oc",
+          "status": "updated"
+        },
+        {
+          "name": "Ancient Saint Francis Focaccia Shop",
+          "place_id": "ChIJqa3Qy4zlGRMR_rRzi8bB6_E",
+          "status": "updated"
+        }
+      ]
+    },
+    "paris": {
+      "processed": 45,
+      "updated": 0,
+      "skipped": 202,
+      "errors": 45,
+      "samples": [
+        {
+          "name": "59 Rivoli",
+          "place_id": "ChIJbwQMcR9u5kcR8ja7bJZ5jXQ",
+          "status": "no_periods"
+        },
+        {
+          "name": "Belleville",
+          "place_id": "ChIJHU3Pjett5kcR9nM8gnHXk2E",
+          "status": "no_periods"
+        },
+        {
+          "name": "Butte aux Cailles",
+          "place_id": "ChIJ29S6-JBx5kcRjAH4ToqScZU",
+          "status": "no_periods"
+        },
+        {
+          "name": "Canal Saint-Martin",
+          "place_id": "ChIJXwUlpXVu5kcRbyGpTrswC8w",
+          "status": "no_periods"
+        },
+        {
+          "name": "Causeries Paris - Specialty coffee & natural wine",
+          "place_id": "ChIJTwh-MwBv5kcRcRa_mxW51Rc",
+          "status": "no_periods"
+        },
+        {
+          "name": "Centre Pompidou",
+          "place_id": "ChIJFwqVS71v5kcRx07AoPuLgBw",
+          "status": "no_periods"
+        }
+      ]
+    },
+    "porto": {
+      "processed": 211,
+      "updated": 189,
+      "skipped": 0,
+      "errors": 22,
+      "samples": [
+        {
+          "name": "\"VOLTARIA\" - Petisqueira Portuguesa",
+          "place_id": "ChIJ-aBV2eNkJA0RYhIyy5si0dE",
+          "status": "updated"
+        },
+        {
+          "name": "7g Roaster",
+          "place_id": "ChIJXVSKr99kJA0R0SDEIvQdji0",
+          "status": "updated"
+        },
+        {
+          "name": "A Cave Do Bon Vivant",
+          "place_id": "ChIJJa18MsNlJA0RSpPXZENalv4",
+          "status": "updated"
+        },
+        {
+          "name": "A Despensa",
+          "place_id": "ChIJKUXs_uJkJA0RFMpDf17u-f4",
+          "status": "updated"
+        },
+        {
+          "name": "A Perola do Bolhao",
+          "place_id": "ChIJHU9PPuVkJA0Rc_4qkzG7wyM",
+          "status": "updated"
+        },
+        {
+          "name": "Afurada",
+          "place_id": "ChIJITvXXYtvJA0RmQA0rY72M88",
+          "status": "no_periods"
+        }
+      ]
+    },
+    "prag": {
+      "processed": 281,
+      "updated": 241,
+      "skipped": 0,
+      "errors": 40,
+      "samples": [
+        {
+          "name": "Adria Palace",
+          "place_id": "ChIJocSzyO2UC0cRVzctJOpwsPo",
+          "status": "no_periods"
+        },
+        {
+          "name": "Angelato",
+          "place_id": "ChIJiQkkIOyUC0cRZq8UkWJDszw",
+          "status": "updated"
+        },
+        {
+          "name": "Antonínovo Pekařství",
+          "place_id": "ChIJu_8w6ZyUC0cR0P9Aypbx1xY",
+          "status": "updated"
+        },
+        {
+          "name": "Artic Bakehouse",
+          "place_id": "ChIJ3z7df_yUC0cR8OZpTK9ymW8",
+          "status": "updated"
+        },
+        {
+          "name": "Astronomical Clock",
+          "place_id": "ChIJSS_AOemUC0cRlgaiWrJEe_E",
+          "status": "updated"
+        },
+        {
+          "name": "Bad Flash Bar",
+          "place_id": "ChIJ9ZiqcYGUC0cRJAiXHIQ1JKs",
+          "status": "updated"
+        }
+      ]
+    },
+    "rhodes": {
+      "processed": 96,
+      "updated": 77,
+      "skipped": 0,
+      "errors": 19,
+      "samples": [
+        {
+          "name": "Medieval City of Rhodes",
+          "place_id": "ChIJEWPxPsJhlRQR_bpd3aiKclU",
+          "status": "updated"
+        },
+        {
+          "name": "Palace of the Grand Master of the Knights of Rhodes",
+          "place_id": "ChIJlajohelhlRQRN1CCGpS6omg",
+          "status": "updated"
+        },
+        {
+          "name": "Lindos Acropolis",
+          "place_id": "ChIJRV1YO3UOlRQR0KKtXtb1Vos",
+          "status": "updated"
+        },
+        {
+          "name": "Street of the Knights of Rhodes",
+          "place_id": "ChIJmcCWrulhlRQRJroIX2OCo8Y",
+          "status": "updated"
+        },
+        {
+          "name": "Kallithea Springs",
+          "place_id": "ChIJe8R4TStklRQRNcaOzy3TlPg",
+          "status": "updated"
+        },
+        {
+          "name": "Seven Springs",
+          "place_id": "ChIJOwwGFftxlRQRNRjOGJ6ujGA",
+          "status": "updated"
+        }
+      ]
+    },
+    "roma": {
+      "processed": 31,
+      "updated": 0,
+      "skipped": 215,
+      "errors": 31,
+      "samples": [
+        {
+          "name": "Campo de' Fiori",
+          "place_id": "ChIJCb6e9EVgLxMRp63sZ62Mk8k",
+          "status": "no_periods"
+        },
+        {
+          "name": "Circo Massimo",
+          "place_id": "ChIJxcVH3MphLxMRbNmoLfoNEWg",
+          "status": "no_periods"
+        },
+        {
+          "name": "Fichetto cocktail bar",
+          "place_id": "ChIJn2UsZMthLxMR_RgyBrIYWLs",
+          "status": "no_periods"
+        },
+        {
+          "name": "Garbatella",
+          "place_id": "ChIJp2UlcniKJRMR9b1KQ69Vyfo",
+          "status": "no_periods"
+        },
+        {
+          "name": "Il Caffè Dei Falegnami",
+          "place_id": "ChIJZTBfty1hLxMRRTq-FRH5oV0",
+          "status": "no_periods"
+        },
+        {
+          "name": "Isola Tiberina (Tiber Adası)",
+          "place_id": "ChIJJ1KUlElgLxMRzPLB6zVKVDg",
+          "status": "no_periods"
+        }
+      ]
+    },
+    "rovaniemi": {
+      "processed": 171,
+      "updated": 103,
+      "skipped": 0,
+      "errors": 68,
+      "samples": [
+        {
+          "name": "Aavasaksa",
+          "place_id": "ChIJv0v3lI3-1EUR94jITR7dzoY",
+          "status": "no_periods"
+        },
+        {
+          "name": "Access Lapland",
+          "place_id": "ChIJo8vCvPJLK0QRsdQDxxdRXlk",
+          "status": "updated"
+        },
+        {
+          "name": "Amarillo Rovaniemi",
+          "place_id": "ChIJU7XlovNLK0QRRvP2w1XnQqc",
+          "status": "updated"
+        },
+        {
+          "name": "Angry Birds Activity Park",
+          "place_id": "ChIJRaSrDPJLK0QRKMwgFI8GrjI",
+          "status": "updated"
+        },
+        {
+          "name": "Antinkaapo",
+          "place_id": "ChIJgys_ovJLK0QRFktrNiT7WoI",
+          "status": "updated"
+        },
+        {
+          "name": "Apukka Resort",
+          "place_id": "ChIJ-Ws49TJQK0QRW8j3RfJI-O0",
+          "status": "updated"
+        }
+      ]
+    },
+    "saint_tropez": {
+      "processed": 25,
+      "updated": 16,
+      "skipped": 0,
+      "errors": 9,
+      "samples": [
+        {
+          "name": "Sentier des Douaniers",
+          "place_id": "ChIJNb1n5KrHzhIRrM2U9kL-c9E",
+          "status": "no_periods"
+        },
+        {
+          "name": "Domaine de la Croix",
+          "place_id": "ChIJ4zqYb5rFzhIRGOOWGlwmSRA",
+          "status": "updated"
+        },
+        {
+          "name": "Domaine du Siouvette",
+          "place_id": "ChIJKRST5GLMzhIRkY0Dx_MqrFM",
+          "status": "updated"
+        },
+        {
+          "name": "Château Minuty",
+          "place_id": "ChIJa1HiMxTGzhIRBOK3Bm07BP4",
+          "status": "updated"
+        },
+        {
+          "name": "Château Barbeyrolles",
+          "place_id": "ChIJfzx0yTjGzhIRwAfWvMAyeDU",
+          "status": "updated"
+        },
+        {
+          "name": "La Maison des Papillons",
+          "place_id": "ChIJLzf27xTHzhIRyuz0IXIEAi8",
+          "status": "updated"
+        }
+      ]
+    },
+    "san_sebastian": {
+      "processed": 185,
+      "updated": 129,
+      "skipped": 0,
+      "errors": 56,
+      "samples": [
+        {
+          "name": "A Fuego Negro",
+          "place_id": "ChIJV7o0A9WlUQ0Rud_ReTKsnho",
+          "status": "no_periods"
+        },
+        {
+          "name": "Aia",
+          "place_id": "ChIJIQQbjkOlUQ0RJcpQPBUPfa8",
+          "status": "updated"
+        },
+        {
+          "name": "Akelarre",
+          "place_id": "ChIJXdMPlZ6wUQ0RgkKFNtNEFXE",
+          "status": "updated"
+        },
+        {
+          "name": "Albaola The Sea Factory of the Basques",
+          "place_id": "ChIJWY9ivuulUQ0RdW0BZ5W-wMM",
+          "status": "updated"
+        },
+        {
+          "name": "Alboka Artesania",
+          "place_id": "ChIJ_xKBt02lUQ0Rxj9ERAEJkV0",
+          "status": "updated"
+        },
+        {
+          "name": "Alderdi Eder Gardens",
+          "place_id": "ChIJHwr4kay6UQ0RGmVLdevhv_k",
+          "status": "updated"
+        }
+      ]
+    },
+    "santorini": {
+      "processed": 184,
+      "updated": 100,
+      "skipped": 0,
+      "errors": 84,
+      "samples": [
+        {
+          "name": "1800-Floga",
+          "place_id": "ChIJnx7pFIDLmRQRyCcRRlJ0GPA",
+          "status": "updated"
+        },
+        {
+          "name": "Agia Theodosia",
+          "place_id": "ChIJ_T0FN4DLmRQRn7YAj_OwvKs",
+          "status": "no_periods"
+        },
+        {
+          "name": "Agios Charalambos",
+          "place_id": "ChIJP_oqIwDPmRQRzWm2VhtJ-ck",
+          "status": "no_periods"
+        },
+        {
+          "name": "Agios Eros Church",
+          "place_id": "ChIJpd7-pYDMmRQRFnnQXLnbdu0",
+          "status": "no_periods"
+        },
+        {
+          "name": "Agios Eustathios",
+          "place_id": "ChIJ_T0FN4DLmRQRn7YAj_OwvKs",
+          "status": "no_periods"
+        },
+        {
+          "name": "Agios Georgios Beach",
+          "place_id": "ChIJo_YejezPmRQR3mBKfZNvvto",
+          "status": "no_periods"
+        }
+      ]
+    },
+    "saraybosna": {
+      "processed": 162,
+      "updated": 135,
+      "skipped": 0,
+      "errors": 27,
+      "samples": [
+        {
+          "name": "4 Sobe Gospođe Safije",
+          "place_id": "ChIJqxEDNdHIWEcRYfA7av8-XJc",
+          "status": "updated"
+        },
+        {
+          "name": "Akademi Güzel Sanatlar",
+          "place_id": "ChIJk4CjNtvIWEcRD1oVw0-NHug",
+          "status": "updated"
+        },
+        {
+          "name": "Ali Paşa Camii",
+          "place_id": "ChIJAxT9KdrIWEcRWOo_N6i0alA",
+          "status": "updated"
+        },
+        {
+          "name": "Alifakovac Mezarlığı",
+          "place_id": "ChIJjfWIGLfIWEcRtqrn_N8oeTc",
+          "status": "updated"
+        },
+        {
+          "name": "Andar",
+          "place_id": "ChIJHxu-4sjIWEcRTxReeCPwZfo",
+          "status": "updated"
+        },
+        {
+          "name": "Ars Aevi",
+          "place_id": "ChIJl12TdyHJWEcRrmOgw8E4rtw",
+          "status": "updated"
+        }
+      ]
+    },
+    "sardinya": {
+      "processed": 110,
+      "updated": 56,
+      "skipped": 0,
+      "errors": 54,
+      "samples": [
+        {
+          "name": "Alghero Old Town",
+          "place_id": "ChIJf7fYF97x3BIRVn_dVsQQqdk",
+          "status": "no_periods"
+        },
+        {
+          "name": "La Pelosa Beach",
+          "place_id": "ChIJ3VG-hnGe3BIRZVvQ7uizHf8",
+          "status": "no_periods"
+        },
+        {
+          "name": "Castelsardo Hilltop",
+          "place_id": "ChIJSQ5P37Z13BIRd9K7mqZ6CM4",
+          "status": "no_periods"
+        },
+        {
+          "name": "Santa Teresa Gallura Port",
+          "place_id": "ChIJyRJx3QBg2RIRPMqrfn89R6E",
+          "status": "updated"
+        },
+        {
+          "name": "Porto Cervo Marina",
+          "place_id": "ChIJ-xEqp61A2RIRoptT8hp7HxE",
+          "status": "updated"
+        },
+        {
+          "name": "San Teodoro Coast",
+          "place_id": "ChIJXXVvgr7O3hIRgFAQyxW-CAQ",
+          "status": "no_periods"
+        }
+      ]
+    },
+    "selanik": {
+      "processed": 84,
+      "updated": 71,
+      "skipped": 0,
+      "errors": 13,
+      "samples": [
+        {
+          "name": "White Tower of Thessaloniki",
+          "place_id": "ChIJacxIJa85qBQRFi10gJ0wGO8",
+          "status": "updated"
+        },
+        {
+          "name": "Aristotelous Square",
+          "place_id": "ChIJ6coVkAg5qBQR4j9wLCNUa84",
+          "status": "no_periods"
+        },
+        {
+          "name": "Ano Poli",
+          "place_id": "ChIJ42G_Za45qBQRd1hk6UlTKVI",
+          "status": "no_periods"
+        },
+        {
+          "name": "Rotonda",
+          "place_id": "ChIJz4i6VgA5qBQR8uS5nQItEx4",
+          "status": "updated"
+        },
+        {
+          "name": "Holy Church of Saint Demetrius",
+          "place_id": "ChIJ1WFSVak5qBQRq2qyhmVr25o",
+          "status": "updated"
+        },
+        {
+          "name": "Ladadika",
+          "place_id": "ChIJX7vukQk5qBQR8Q_pgaZNaI4",
+          "status": "no_periods"
+        }
+      ]
+    },
+    "seul": {
+      "processed": 217,
+      "updated": 198,
+      "skipped": 0,
+      "errors": 19,
+      "samples": [
+        {
+          "name": "#52LAB",
+          "place_id": "ChIJkc_pKveifDURj8OI_NqEKbA",
+          "status": "updated"
+        },
+        {
+          "name": "63 Building (63 Art)",
+          "place_id": "ChIJHz2vcGqffDURRe1psFHjJXY",
+          "status": "no_periods"
+        },
+        {
+          "name": "ACR • Alegria Coffee Roasters",
+          "place_id": "ChIJz1L6DX2jfDURmM9z-VABLQo",
+          "status": "updated"
+        },
+        {
+          "name": "Ace 4 club",
+          "place_id": "ChIJ6zcnQPajfDURrf4qkM4qYFY",
+          "status": "updated"
+        },
+        {
+          "name": "Alto Coffee Bar",
+          "place_id": "ChIJexMMvLCjfDURVabq-JcrDsw",
+          "status": "updated"
+        },
+        {
+          "name": "AnotherLv.",
+          "place_id": "ChIJeVqW28OYfDURxrWeqKHM8gg",
+          "status": "updated"
+        }
+      ]
+    },
+    "sevilla": {
+      "processed": 210,
+      "updated": 171,
+      "skipped": 0,
+      "errors": 39,
+      "samples": [
+        {
+          "name": "2 MONOS BAR & COCTELERIA",
+          "place_id": "ChIJ55AiQ5VtEg0RI8DovZ6M81M",
+          "status": "no_periods"
+        },
+        {
+          "name": "ALCÁZAR ANDALUSÍ TAPAS",
+          "place_id": "ChIJfSdY4YRtEg0RNZyr7Sj16Fo",
+          "status": "updated"
+        },
+        {
+          "name": "AMARA Restaurante",
+          "place_id": "ChIJqejuv_VtEg0RSTeDSi4GsaU",
+          "status": "no_periods"
+        },
+        {
+          "name": "Abaceria del Postigo",
+          "place_id": "ChIJAQBARRdsEg0REr02VcH3G-s",
+          "status": "updated"
+        },
+        {
+          "name": "Abantal",
+          "place_id": "ChIJZ9KMjB1sEg0R6NhDbHBZO9M",
+          "status": "updated"
+        },
+        {
+          "name": "Acento - Social Eatery",
+          "place_id": "ChIJ8diu58ltEg0Repf2Q5l3GhA",
+          "status": "updated"
+        }
+      ]
+    },
+    "singapur": {
+      "processed": 194,
+      "updated": 167,
+      "skipped": 0,
+      "errors": 27,
+      "samples": [
+        {
+          "name": "1918 Heritage Bar at The Alkaff Mansion",
+          "place_id": "ChIJz34btVQb2jEREuA6ZVF5V9s",
+          "status": "updated"
+        },
+        {
+          "name": "Absurdities Singapore",
+          "place_id": "ChIJoSL5CIAZ2jERz-VMAez_DkM",
+          "status": "updated"
+        },
+        {
+          "name": "Aburi-EN (Isetan Scotts)",
+          "place_id": "ChIJz_QQHQgZ2jERmOPR8O5PCwU",
+          "status": "updated"
+        },
+        {
+          "name": "Agora Coffee",
+          "place_id": "ChIJawtsfeQZ2jERLX-gRoxOMM4",
+          "status": "updated"
+        },
+        {
+          "name": "Alleybar",
+          "place_id": "ChIJU0FezJYZ2jERj7D9TInzaH0",
+          "status": "updated"
+        },
+        {
+          "name": "Ammakase",
+          "place_id": "ChIJHUoAagAZ2jER6NJwt-Dpn7M",
+          "status": "updated"
+        }
+      ]
+    },
+    "sintra": {
+      "processed": 174,
+      "updated": 129,
+      "skipped": 0,
+      "errors": 45,
+      "samples": [
+        {
+          "name": "A Raposa",
+          "place_id": "ChIJm5amEZXaHg0RoBMQUPhqtPc",
+          "status": "updated"
+        },
+        {
+          "name": "Park of Pena",
+          "place_id": "ChIJOTNWa7jaHg0RfWMDMxZauYk",
+          "status": "updated"
+        },
+        {
+          "name": "Adega Regional de Colares",
+          "place_id": "ChIJeXh9j3vbHg0RkXwfJy1hPcQ",
+          "status": "updated"
+        },
+        {
+          "name": "Aldeia da Mata Pequena",
+          "place_id": "ChIJQ7K5T6bVHg0RVzKQyecLwPc",
+          "status": "no_periods"
+        },
+        {
+          "name": "Aldeia da Praia",
+          "place_id": "ChIJIbF6A3vcHg0RzeMoiQW2wj8",
+          "status": "updated"
+        },
+        {
+          "name": "Anta de Adrenunes",
+          "place_id": "ChIJyegPatPdHg0RVfdGSjrBnJ0",
+          "status": "updated"
+        }
+      ]
+    },
+    "stockholm": {
+      "processed": 190,
+      "updated": 138,
+      "skipped": 0,
+      "errors": 52,
+      "samples": [
+        {
+          "name": "Abba The Museum",
+          "place_id": "ChIJBf9B06qCX0YRR46XNXjwFUo",
+          "status": "updated"
+        },
+        {
+          "name": "Acne Archive",
+          "place_id": "ChIJJ5k1-nmdX0YRsmA5sBTzuvs",
+          "status": "updated"
+        },
+        {
+          "name": "Af Chapman",
+          "place_id": "ChIJ80SBh_13X0YRaEhdYR6mDEk",
+          "status": "updated"
+        },
+        {
+          "name": "Aifur Restaurant",
+          "place_id": "ChIJcS-P4OJ3X0YR-u4PvFqTv7E",
+          "status": "updated"
+        },
+        {
+          "name": "Almgren Silk Weaving Museum",
+          "place_id": "ChIJ64rXKft3X0YRRGMO4gJ_u8Q",
+          "status": "updated"
+        },
+        {
+          "name": "Anders Franzéns Park",
+          "place_id": "ChIJv-wybQV4X0YR-MI6giMHEx0",
+          "status": "updated"
+        }
+      ]
+    },
+    "strazburg": {
+      "processed": 173,
+      "updated": 136,
+      "skipped": 0,
+      "errors": 37,
+      "samples": [
+        {
+          "name": "Musée Vodou",
+          "place_id": "ChIJg7RmTcvJlkcRmeBGYe0uUKY",
+          "status": "updated"
+        },
+        {
+          "name": "ARTE Televizyonu Merkezi",
+          "place_id": "ChIJVXrWL_TIlkcR1mt0c_XzrtA",
+          "status": "updated"
+        },
+        {
+          "name": "Académie de la Bière",
+          "place_id": "ChIJX_i6EkvIlkcRku9hXcRS8v0",
+          "status": "updated"
+        },
+        {
+          "name": "Agora Meydanı",
+          "place_id": "ChIJDVMFwU3IlkcRKgQyim5_Qco",
+          "status": "updated"
+        },
+        {
+          "name": "Alsace Müzesi",
+          "place_id": "ChIJnZKPNFPIlkcRULj5o1PaAjA",
+          "status": "no_periods"
+        },
+        {
+          "name": "Ancienne Douane (Eski Gümrük Binası)",
+          "place_id": "ChIJwQPsKVXJlkcRBmQsRvMJYfs",
+          "status": "updated"
+        }
+      ]
+    },
+    "tokyo": {
+      "processed": 211,
+      "updated": 176,
+      "skipped": 0,
+      "errors": 35,
+      "samples": [
+        {
+          "name": "2D Cafe",
+          "place_id": "ChIJcYlyqrKNGGARPVEOuT73zjI",
+          "status": "updated"
+        },
+        {
+          "name": "ANAKUMA CAFE Harajuku",
+          "place_id": "ChIJ-UOteimNGGAR0-_pnbsgbBs",
+          "status": "updated"
+        },
+        {
+          "name": "Acid Coffee Tokyo",
+          "place_id": "ChIJCXHcr8KNGGAR5sEtuiXUQ6Y",
+          "status": "updated"
+        },
+        {
+          "name": "Afuri Ramen",
+          "place_id": "ChIJba17TbqMGGARFtDV6hkZbcs",
+          "status": "updated"
+        },
+        {
+          "name": "Age.3 GINZA",
+          "place_id": "ChIJ57Hp_52LGGARvt4ghJExG_g",
+          "status": "updated"
+        },
+        {
+          "name": "Akihabara",
+          "place_id": "ChIJzdWdgh2MGGARh4kg2pVZL3c",
+          "status": "no_periods"
+        }
+      ]
+    },
+    "tromso": {
+      "processed": 148,
+      "updated": 89,
+      "skipped": 0,
+      "errors": 59,
+      "samples": [
+        {
+          "name": "Active North",
+          "place_id": "ChIJxwN-VI43xUUR5HMqx1DJ7Uk",
+          "status": "updated"
+        },
+        {
+          "name": "Alfheim Stadion",
+          "place_id": "ChIJo1mCdbPFxEURwphh9L3YSxk",
+          "status": "no_periods"
+        },
+        {
+          "name": "Amfi Pyramiden",
+          "place_id": "ChIJI_aEaQfFxEURhYUB296mGE8",
+          "status": "updated"
+        },
+        {
+          "name": "Arctic Cathedral",
+          "place_id": "ChIJmbtJ2eTExEUR9NPM6eTI9ro",
+          "status": "updated"
+        },
+        {
+          "name": "Arctic Cathedral (Night)",
+          "place_id": "ChIJmbtJ2eTExEUR9NPM6eTI9ro",
+          "status": "updated"
+        },
+        {
+          "name": "Arctic University Museum of Norway",
+          "place_id": "ChIJ6Uovz77FxEUR6SBT2N3zLAc",
+          "status": "updated"
+        }
+      ]
+    },
+    "valencia": {
+      "processed": 89,
+      "updated": 80,
+      "skipped": 0,
+      "errors": 9,
+      "samples": [
+        {
+          "name": "Ciudad de las Artes y las Ciencias",
+          "place_id": "ChIJgUOb0elIYA0RlPjrpQdE62I",
+          "status": "updated"
+        },
+        {
+          "name": "Oceanogràfic València",
+          "place_id": "ChIJiyYxGuVIYA0Rm-F6kLds5Cg",
+          "status": "updated"
+        },
+        {
+          "name": "Central Market of Valencia",
+          "place_id": "ChIJG-bUp05PYA0RjV0kiVYDQxI",
+          "status": "updated"
+        },
+        {
+          "name": "La Lonja de la Seda de Valencia",
+          "place_id": "ChIJ8_5rwk1PYA0RxMucY8qxErc",
+          "status": "updated"
+        },
+        {
+          "name": "Bioparc Valencia",
+          "place_id": "ChIJu876nIdFYA0Rr8T2YhMHKFU",
+          "status": "updated"
+        },
+        {
+          "name": "Malvarrosa beach (Valencia)",
+          "place_id": "ChIJrbJpyXNIYA0R9GvWIvnsO2A",
+          "status": "no_periods"
+        }
+      ]
+    },
+    "venedik": {
+      "processed": 30,
+      "updated": 0,
+      "skipped": 177,
+      "errors": 30,
+      "samples": [
+        {
+          "name": "Bar Dandolo",
+          "place_id": "ChIJ7UfV_dexfkcRJwjkn0spW6E",
+          "status": "no_periods"
+        },
+        {
+          "name": "Burano",
+          "place_id": "ChIJpZAw91KsfkcR0hexUsNgxn0",
+          "status": "no_periods"
+        },
+        {
+          "name": "Burano Adası",
+          "place_id": "ChIJpZAw91KsfkcR0hexUsNgxn0",
+          "status": "no_periods"
+        },
+        {
+          "name": "Calle Varisco",
+          "place_id": "ChIJMV76m96xfkcR44KxEpHVh0Q",
+          "status": "no_periods"
+        },
+        {
+          "name": "Campo Santa Margherita",
+          "place_id": "ChIJUW8OzcixfkcRD37BWHYA7A4",
+          "status": "no_periods"
+        },
+        {
+          "name": "Cannaregio",
+          "place_id": "ChIJy_-SP9yxfkcRZE94wv1ASfw",
+          "status": "no_periods"
+        }
+      ]
+    },
+    "viyana": {
+      "processed": 193,
+      "updated": 150,
+      "skipped": 0,
+      "errors": 43,
+      "samples": [
+        {
+          "name": "10er Marie",
+          "place_id": "ChIJIymg9hEIbUcRQ9b5Y59AtUM",
+          "status": "updated"
+        },
+        {
+          "name": "Albertina",
+          "place_id": "ChIJwVp-8psHbUcRuN43n5iK72Y",
+          "status": "updated"
+        },
+        {
+          "name": "Albertina Modern",
+          "place_id": "ChIJfaF2nmgHbUcReoSMO4iGLII",
+          "status": "updated"
+        },
+        {
+          "name": "Albertina Museum",
+          "place_id": "ChIJwVp-8psHbUcRuN43n5iK72Y",
+          "status": "updated"
+        },
+        {
+          "name": "Alte Donau",
+          "place_id": "ChIJS4K0euYGbUcR7FBhGt7Qlpg",
+          "status": "no_periods"
+        },
+        {
+          "name": "Am Himmel",
+          "place_id": "ChIJsaHhFsMIbUcRA1bHwWtljls",
+          "status": "updated"
+        }
+      ]
+    },
+    "zermatt": {
+      "processed": 183,
+      "updated": 87,
+      "skipped": 0,
+      "errors": 96,
+      "samples": [
+        {
+          "name": "3100 Kulmhotel Gornergrat",
+          "place_id": "ChIJq6qqquo1j0cRJfoqfGdU53k",
+          "status": "no_periods"
+        },
+        {
+          "name": "3100 Kulmhotel",
+          "place_id": "ChIJq6qqquo1j0cRJfoqfGdU53k",
+          "status": "no_periods"
+        },
+        {
+          "name": "5-Seenweg (Beş Göl Yürüyüşü)",
+          "place_id": "ChIJ2-PO1nwzj0cR0rLFltRpU7Y",
+          "status": "updated"
+        },
+        {
+          "name": "Abenteuerweg (Adventure Trail)",
+          "place_id": "ChIJLfe_JwA1j0cR11C5HUv_lAA",
+          "status": "no_periods"
+        },
+        {
+          "name": "Adler Hitta",
+          "place_id": "ChIJaWVfgvA1j0cRmQrNwW7V_eA",
+          "status": "no_periods"
+        },
+        {
+          "name": "After Seven",
+          "place_id": "ChIJwemION81j0cRSaE9Alc7dLc",
+          "status": "no_periods"
+        }
+      ]
+    },
+    "zurih": {
+      "processed": 215,
+      "updated": 181,
+      "skipped": 0,
+      "errors": 34,
+      "samples": [
+        {
+          "name": "169 West",
+          "place_id": "ChIJFc76ByIKkEcRugzpSKC9coY",
+          "status": "updated"
+        },
+        {
+          "name": "Alberich-Zwyssig-Strasse (Renkli Evler)",
+          "place_id": "ChIJKW0zYf4JkEcRB2uRpxAoh6U",
+          "status": "updated"
+        },
+        {
+          "name": "Amiamo Caffè",
+          "place_id": "ChIJj61Bb_0LkEcRgYqQpfgrNbc",
+          "status": "updated"
+        },
+        {
+          "name": "Anna",
+          "place_id": "ChIJlZ_TxAgLkEcREiINkuafAdc",
+          "status": "updated"
+        },
+        {
+          "name": "Augustinerbrunnen",
+          "place_id": "ChIJz6PFPq25kUcR99zq_1fr1Y8",
+          "status": "updated"
+        },
+        {
+          "name": "Augustinergasse",
+          "place_id": "ChIJFxbdLgcKkEcRfdt2Tytf9Jc",
+          "status": "no_periods"
+        }
+      ]
+    }
+  },
+  "summary": {
+    "processed": 12057,
+    "updated": 8707,
+    "skipped": 2719,
+    "errors": 3350,
+    "resolved_ids": 9806,
+    "mode": "fix",
+    "overwrite": false,
+    "resolve_missing_ids": true
+  }
+}

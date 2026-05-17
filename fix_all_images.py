@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+from dotenv import load_dotenv
+load_dotenv()
 """
 Tüm şehir JSON dosyalarındaki eksik veya Unsplash fotoğraflarını
 Google Places API ile güncelleyen script.
@@ -11,7 +13,7 @@ import requests
 from pathlib import Path
 
 # Google Places API Key
-API_KEY = "AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g"
+API_KEY = os.getenv("GOOGLE_MAPS_API_KEY")
 
 # Klasör yolu
 CITIES_DIR = Path("assets/cities")

@@ -1,0 +1,4041 @@
+{
+  "city": "Bodrum",
+  "city_en": "Bodrum",
+  "country": "Türkiye",
+  "country_en": "Turkey",
+  "description": "Ege'nin parlayan yıldızı. Mavi pencereli beyaz evleri, Begonvilleri, antik dünyanın yedi harikasından biri olan Mozolesi ve lüks gece hayatıyla büyüleyici bir tatil beldesi.",
+  "description_en": "The shining star of the Aegean. Charming white houses with blue windows, bougainvilleas, the Mausoleum, and a luxurious nightlife.",
+  "heroImage": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/hero.jpg",
+  "coordinates": {
+    "lat": 37.0344,
+    "lng": 27.4305
+  },
+  "highlights": [
+    {
+      "id": "ChIJYw5gNEJsvhQRcRzUhvXx1Cs",
+      "name": "Bodrum Kalesi ve Sualtı Arkeoloji Müzesi",
+      "name_en": "Bodrum Kalesi ve Sualtı Arkeoloji Müzesi",
+      "category": "Tarihi",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.0317978,
+      "lng": 27.4291652,
+      "rating": 4.6,
+      "reviewCount": 25180,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJYw5gNEJsvhQRcRzUhvXx1Cs.jpg",
+      "description": "15. yüzyılda Saint Jean Şövalyeleri tarafından inşa edilen bu görkemli kale, dünyanın en önemli su altı arkeoloji müzelerinden birine ev sahipliği yapar. Antik batıklardan çıkan paha biçilemez eserleri görebilir ve kalenin burçlarından muazzam deniz manzarasını seyredebilirsiniz.",
+      "description_en": "Built by the Knights of St. John in the 15th century, this iconic castle houses a world-class underwater archaeology museum. You can explore ancient shipwrecks and enjoy breathtaking Aegean views from its towers.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJlwmXEkdsvhQR0fktlJphpF4",
+      "name": "Halikarnas Mozolesi",
+      "name_en": "Halikarnas Mozolesi",
+      "category": "Tarihi",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.0378874,
+      "lng": 27.4241164,
+      "rating": 4.2,
+      "reviewCount": 3882,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJlwmXEkdsvhQR0fktlJphpF4.jpg",
+      "description": "Antik dünyanın yedi harikasından biri olan bu devasa anıt mezarın kalıntıları, Karya kralı Mausolus için inşa edilmiştir. Günümüze sadece temelleri kalmış olsa da, tarihin en büyük mimari eserlerinden birinin izlerini sürmek büyüleyici bir deneyimdir.",
+      "description_en": "Once one of the Seven Wonders of the Ancient World, the remains of this grand tomb were built for King Mausolus. Although mostly in ruins today, it remains a site of immense historical and architectural significance.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJv9W_9UdsvhQR2r-WmkBy9K4",
+      "name": "Bodrum Antik Tiyatrosu",
+      "name_en": "Bodrum Antik Tiyatrosu",
+      "category": "Deneyim",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.0399767,
+      "lng": 27.4216112,
+      "rating": 4.5,
+      "reviewCount": 4456,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJv9W_9UdsvhQR2r-WmkBy9K4.jpg",
+      "description": "Klasik Helen döneminden günümüze ulaşan bu muazzam tiyatro, Bodrum'un en eski yapılarından biridir. Sadece tarihi dokusuyla değil, aynı zamanda yaz aylarında düzenlenen konserler ve Bodrum Kalesi'ne bakan panoramik manzarasıyla da mutlaka görülmelidir.",
+      "description_en": "Dating back to the 4th century BC, this ancient theater is one of Bodrum's best-preserved historical sites. It offers panoramic harbor views and still hosts world-class concerts during summer nights.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJa74LinVtvhQRBjZuPM4x-bw",
+      "name": "Myndos Kapısı",
+      "name_en": "Myndos Kapısı",
+      "category": "Deneyim",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.0377363,
+      "lng": 27.4133796,
+      "rating": 4.2,
+      "reviewCount": 696,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJa74LinVtvhQRBjZuPM4x-bw.jpg",
+      "description": "Halikarnassos Antik Kenti'nin giriş kapısı olan Myndos Kapısı, Büyük İskender'in şehri kuşattığı tarihi noktadır. Restorasyon çalışmalarının ardından ziyarete açılan kapı, antik kentin surlarıyla birlikte tarihin derinliklerini yansıtır.",
+      "description_en": "The Myndos Gate was the main entrance to the ancient city of Halicarnassus and the site of Alexander the Great's famous siege. Today, its restored towers offer a glimpse into the city's heroic past.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJSxsWkUdtvhQREXRy5x1VJck",
+      "name": "Bodrum Yel Değirmenleri",
+      "name_en": "Bodrum Yel Değirmenleri",
+      "category": "Deneyim",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.0259382,
+      "lng": 27.414577,
+      "rating": 4.1,
+      "reviewCount": 1679,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJSxsWkUdtvhQREXRy5x1VJck.jpg",
+      "description": "Bodrum Yarımadası'nın en rüzgarlı tepelerinden birinde yer alan bu tarihi yel değirmenleri, hem Bodrum hem de Gümbet koylarını kuşbakışı gören efsanevi bir manzaraya sahiptir. Özellikle gün doğumu ve gün batımında fotoğraf tutkunları için vazgeçilmezdir.",
+      "description_en": "Perched on a windy hill overlooking both Bodrum and Gumbet bays, these historic windmills offer some of the best panoramic views on the peninsula. They are especially stunning during sunrise and sunset.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJ_1Ko1EFsvhQR3P9pZBJXqZ4",
+      "name": "Bodrum Deniz Müzesi",
+      "name_en": "Bodrum Deniz Müzesi",
+      "category": "Tarihi",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.0347481,
+      "lng": 27.4317874,
+      "rating": 4.5,
+      "reviewCount": 1032,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJ_1Ko1EFsvhQR3P9pZBJXqZ4.jpg",
+      "description": "Eski bir belediye binasında yer alan bu butik müze, Bodrum'un süngercilik ve tekne yapım tarihini belgeler. Müzede sergilenen devasa deniz kabuğu koleksiyonu ve maket tekneler, kentin denizci ruhunu mükemmel bir şekilde yansıtır.",
+      "description_en": "Housed in a charming old building, this boutique museum documents Bodrum's sponge diving and boat-building heritage. It features an impressive seashell collection and intricate scale models of traditional vessels.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJBQsjnm5svhQRJz_yDJJmtw0",
+      "name": "Zeki Müren Sanat Müzesi",
+      "name_en": "Zeki Müren Sanat Müzesi",
+      "category": "Tarihi",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.030262,
+      "lng": 27.4396953,
+      "rating": 4.8,
+      "reviewCount": 7829,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJBQsjnm5svhQRJz_yDJJmtw0.jpg",
+      "description": "Türkiye'nin sanat güneşi Zeki Müren'in Bodrum'da hayatının son yıllarını geçirdiği evi, şimdilerde bir müze olarak hizmet vermektedir. Müzede sanatçının sahne kostümleri, tabloları ve kişisel eşyaları sergilenerek onun anısı yaşatılmaktadır.",
+      "description_en": "The final home of Turkey's legendary artist Zeki Müren has been converted into a museum dedicated to his life and career. Visitors can see his iconic stage costumes, paintings, and personal memorabilia.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJKSkfloRuvhQRo7OVs9aIrj8",
+      "name": "Pedasa Antik Kenti",
+      "name_en": "Pedasa Antik Kenti",
+      "category": "Deneyim",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.0663869,
+      "lng": 27.4188887,
+      "rating": 4.3,
+      "reviewCount": 361,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJKSkfloRuvhQRo7OVs9aIrj8.jpg",
+      "description": "Leleg uygarlığına başkentlik yapmış bu saklı antik kent, zeytin ağaçları arasındaki doğa yürüyüşü parkurlarıyla ulaşılır. Gökyüzüyle birleşen sur kalıntıları ve sessiz atmosferi, Bodrum'un binlerce yıllık tarihine yolculuk yapmak isteyenler için eşsizdir.",
+      "description_en": "Once the capital of the Lelegian civilization, this hidden ancient city is reached via scenic trails through olive groves. Its standing ruins and silent atmosphere provide a unique journey into Bodrum's ancient history, away from the coastal crowds.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJe3QlCXh0vhQRMu6FzTQpSa4",
+      "name": "Karakaya",
+      "name_en": "Karakaya",
+      "category": "Deneyim",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.067429,
+      "lng": 27.267295,
+      "rating": 4.5,
+      "reviewCount": 50,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJe3QlCXh0vhQRMu6FzTQpSa4.jpg",
+      "description": "Gümüşlük sırtlarında yer alan bu terk edilmiş Rum köyü, taş evleri ve dar sokaklarıyla tarih öncesi bir atmosfer sunar. Sessizliği ve Ege rüzgarını solumak, kentin karmaşasından kaçmak isteyenler için saklı bir sığınaktır.",
+      "description_en": "Perched on the hills above Gümüşlük, this abandoned Greek village features atmospheric stone houses and narrow alleys. It is a silent sanctuary for those looking to escape the hustle and bustle and soak in the Aegean breeze.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJYeiNdDlyvhQRtOAzFXdvYgw",
+      "name": "Dibeklihan Kültür ve Sanat Köyü",
+      "name_en": "Dibeklihan Kültür ve Sanat Köyü",
+      "category": "Deneyim",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.0662004,
+      "lng": 27.329706,
+      "rating": 4.6,
+      "reviewCount": 1391,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJYeiNdDlyvhQRtOAzFXdvYgw.jpg",
+      "description": "Geleneksel Ege mimarisinin modern sanatla buluştuğu Dibeklihan, sergi salonları, atölyeleri ve şık restoranlarıyla Yarımada'nın kültür kalbidir. Akşamları düzenlenen açık hava konserleri ve film gösterimleri buraya masalsı bir ruh katar.",
+      "description_en": "Where traditional Aegean architecture meets modern art, Dibeklihan is the peninsula's cultural heart with its galleries, workshops, and boutique dining. Its open-air concerts and cinema nights offer a magical experience under the stars.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJg8BzNGBvvhQRdJt_u5o1QxA",
+      "name": "Türkbükü Halk Plajı",
+      "name_en": "Türkbükü Halk Plajı",
+      "category": "Deneyim",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.1322024,
+      "lng": 27.3763281,
+      "rating": 4.3,
+      "reviewCount": 875,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJg8BzNGBvvhQRdJt_u5o1QxA.jpg",
+      "description": "Bodrum'un en popüler ve şık duraklarından olan Türkbükü'ndeki bu sahil, denizin üzerindeki iskeleleri ve akşamları hareketlenen restoranlarıyla ünlüdür. Ege'nin serin sularında yüzerken bölgenin lüks dokusunu hissedebilirsiniz.",
+      "description_en": "One of Bodrum's most stylish spots, this beach in Türkbükü is famous for its over-water decks and vibrant seaside dining. It offers a perfect blend of refreshing Aegean waters and the region's elite atmosphere.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJudEDCxVxvhQRyeydNG7I_m0",
+      "name": "Yalıkavak Halk Plajı",
+      "name_en": "Yalıkavak Halk Plajı",
+      "category": "Park",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.113935,
+      "lng": 27.2927525,
+      "rating": 3.8,
+      "reviewCount": 705,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJudEDCxVxvhQRyeydNG7I_m0.jpg",
+      "description": "Yalıkavak'ın rüzgarlı ama taze havasında yer alan bu geniş plaj, kristal netliğindeki deniziyle bilinir. Gün batımının en güzel izlendiği noktalardan biri olan sahil, hem yerli halkın hem de turistlerin vazgeçilmezidir.",
+      "description_en": "Known for its refreshing breeze and crystal-clear sea, this wide beach in Yalıkavak is a local favorite. It is also one of the prime spots on the peninsula to witness a spectacular sunset over the Aegean.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJS6IGGndtvhQRmh_4muCldt8",
+      "name": "Bitez Plaji",
+      "name_en": "Bitez Plaji",
+      "category": "Deneyim",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.0279886,
+      "lng": 27.3756233,
+      "rating": 3.9,
+      "reviewCount": 111,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJS6IGGndtvhQRmh_4muCldt8.jpg",
+      "description": "Mandalina bahçeleriyle çevrili Bitez Plajı, özellikle rüzgar sörfü tutkunları ve sığ deniziyle çocuklu aileler için ideal bir noktadır. Sahil boyunca uzanan kafe ve restoranlarda taze deniz mahsullerinin tadına bakabilirsiniz.",
+      "description_en": "Famed for its mandarin groves and shallow waters, Bitez Beach is perfect for windsurfing and family outings. The beach is lined with cozy cafes and seafood restaurants that offer a relaxed Bodrum vibe.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJ47Rqu_p0vhQRei2H38xNHuI",
+      "name": "Gümüşlük Limanı Plajı",
+      "name_en": "Gümüşlük Limanı Plajı",
+      "category": "Park",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.0580665,
+      "lng": 27.2315049,
+      "rating": 4.2,
+      "reviewCount": 281,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJ47Rqu_p0vhQRei2H38xNHuI.jpg",
+      "description": "Bohem atmosferi ve denizin içindeki masalarıyla ünlü Gümüşlük, Bodrum Yarımadası'nın en romantik köşesidir. Tavşan Adası'na sığ sudan yürüyerek geçebilir ve akşamları sahil kenarındaki balıkçılarda taze balık yiyebilirsiniz.",
+      "description_en": "Known for its bohemian charm and seaside tables, Gümüşlük is the peninsula's most romantic corner. You can walk through shallow waters to Rabbit Island and enjoy world-class fish dinners at sunset.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJUQN2bBVyvhQROyp0NzOXui8",
+      "name": "Yahşi Plajı",
+      "name_en": "Yahşi Plajı",
+      "category": "Park",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.0194268,
+      "lng": 27.3412961,
+      "rating": 4.4,
+      "reviewCount": 1895,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJUQN2bBVyvhQROyp0NzOXui8.jpg",
+      "description": "Ortakent'te yer alan Yahşi Plajı, kristal netliğindeki denizi ve geniş kum sahiliyle bilinir. 'Mavi Bayraklı' olan bu plaj, uzun yürüyüş yolu ve her bütçeye uygun mekan seçenekleriyle Bodrum'un en tercih edilen sahillerindendir.",
+      "description_en": "Located in Ortakent, Yahşi Beach is famous for its crystal-clear Blue Flag waters and long sandy shore. It offers a great promenade and a wide variety of beach clubs and local eateries for all budgets.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJVVK9K_YMvhQRuLKlILDC-Uo",
+      "name": "Karaincir Halk Plajı",
+      "name_en": "Karaincir Halk Plajı",
+      "category": "Park",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 36.970893,
+      "lng": 27.2997111,
+      "rating": 4,
+      "reviewCount": 468,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJVVK9K_YMvhQRuLKlILDC-Uo.jpg",
+      "description": "Akyarlar'da bulunan Karaincir, incecik altın sarısı kumu ve rüzgara kapalı, durgun deniziyle adeta bir havuzu andırır. Suyun serinliği ve sahilin sakinliği, huzurlu bir deniz günü arayanlar için Karaincir'i eşsiz kılar.",
+      "description_en": "Karaincir Beach in Akyarlar feels like a natural swimming pool with its fine golden sand and calm, sheltered bay. Known for its cool waters, it is the perfect escape for those seeking peace and tranquility.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJY5qz1WlzvhQRrfRdt3rfiIc",
+      "name": "Camel beach",
+      "name_en": "Camel beach",
+      "category": "Restoran",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.0142802,
+      "lng": 27.3294546,
+      "rating": 4.1,
+      "reviewCount": 98,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJY5qz1WlzvhQRrfRdt3rfiIc.jpg",
+      "description": "Adını sahilinde gezinen develerden alan bu plaj, sığ denizi ve ince kumuyla özellikle çocuklu ailelerin favorisidir. Kargı Koyu'nun doğal güzelliğini yansıtan sahil, Bodrum'un en geniş kumsal alanlarından birine sahiptir.",
+      "description_en": "Named after the camels that can often be seen on its sands, this beach is a family favorite for its shallow waters and fine sand. It boasts one of the largest sandy stretches in the area, showcasing the natural beauty of Kargı Bay.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJu8zOxLwNvhQRBW8xqbUyco8",
+      "name": "Aspat koyu ıssız adacık",
+      "name_en": "Aspat koyu ıssız adacık",
+      "category": "Deneyim",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 36.9750686,
+      "lng": 27.3088558,
+      "rating": 4.6,
+      "reviewCount": 79,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJu8zOxLwNvhQRBW8xqbUyco8.jpg",
+      "description": "Aspat Koyu'nun açıklarında yer alan bu küçük adacık, sadece tekne ile ulaşılabilen bir huzur noktasıdır. Tertemiz denizi ve etrafındaki zengin deniz yaşamıyla şnorkel yapmak ve kalabalıklardan uzaklaşmak için idealdir.",
+      "description_en": "A small islet off Aspat Bay, this spot is a sanctuary of peace accessible only by boat. Its pristine waters and rich marine life make it a perfect destination for snorkeling and escaping the tourist crowds.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJf2jPLi4NvhQRNZPX4N5hCTE",
+      "name": "Bağla Sitesi (BAĞLA KOYU EVLERİ)",
+      "name_en": "Bağla Sitesi (BAĞLA KOYU EVLERİ)",
+      "category": "Deneyim",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 36.9968272,
+      "lng": 27.3259525,
+      "rating": 4.4,
+      "reviewCount": 98,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJf2jPLi4NvhQRNZPX4N5hCTE.jpg",
+      "description": "Bodrum'un en temiz koylarından biri olan Bağla'da yer alan bu bölge, turkuaz suları ve sakinliğiyle bilinir. Doğayla iç içe, huzurlu bir deniz günü geçirmek isteyenler için Yarımada'nın en sevilen duraklarından biridir.",
+      "description_en": "Located in one of Bodrum's cleanest bays, this area is renowned for its turquoise waters and tranquility. It is a beloved destination for those seeking a peaceful day by the sea, surrounded by natural beauty.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJr4tIU1BsvhQRoS_Wr1ONa3c",
+      "name": "Bardakçı koyu",
+      "name_en": "Bardakçı koyu",
+      "category": "Park",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.0287809,
+      "lng": 27.4175013,
+      "rating": 4.2,
+      "reviewCount": 483,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJr4tIU1BsvhQRoS_Wr1ONa3c.jpg",
+      "description": "Bodrum merkezine en yakın koylardan biri olan Bardakçı, antik dönem efsanelerine konu olan bir su kaynağına sahiptir. Kaleden izlenen panoramik manzarası ve berrak deniziyle kentin içinde ama kentin dışında bir deneyim sunar.",
+      "description_en": "One of the closest bays to central Bodrum, Bardakçı is tied to ancient legends of natural springs. With its clear waters and panoramic views of the castle, it offers a refreshing escape right in the heart of town.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJt0Jtk25svhQR22ph3Szmf8I",
+      "name": "Kumbahçe Sahili",
+      "name_en": "Kumbahçe Sahili",
+      "category": "Park",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.0291299,
+      "lng": 27.4399407,
+      "rating": 4.2,
+      "reviewCount": 380,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJt0Jtk25svhQR22ph3Szmf8I.jpg",
+      "description": "Bodrum merkezin en popüler plajlarından biri olan Kumbahçe, tarihi kaleye karşı yüzme imkanı sunar. Akşamları sahil boyunca kurulan masalarda yemek yiyebilir ve kalenin ışıklandırması eşliğinde yürüyüş yapabilirsiniz.",
+      "description_en": "One of central Bodrum's most popular beaches, Kumbahçe offers the chance to swim right across from the historic castle. In the evening, the beach transforms with waterside dining and illuminated views of the fortress.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJjXnfySxpvhQREHdF1R97SoU",
+      "name": "Torba Plajı",
+      "name_en": "Torba Plajı",
+      "category": "Restoran",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.0845778,
+      "lng": 27.4560812,
+      "rating": 4.2,
+      "reviewCount": 127,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJjXnfySxpvhQREHdF1R97SoU.jpg",
+      "description": "Zeytinlikler ve çam ağaçlarıyla çevrili Torba Plajı, sakin denizi ve huzurlu atmosferiyle bilinir. Bodrum'un kalabalığından uzak, geleneksel balıkçı köyü dokusunu hala koruyan bu sahil, ruhunuzu dinlendirmek için mükemmeldir.",
+      "description_en": "Surrounded by pine trees and olive groves, Torba Beach is known for its calm sea and serene atmosphere. It still retains the charm of a traditional fishing village, offering a perfect spot to relax away from the crowds.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJs7UfphNwvhQRLvwdokvxdzY",
+      "name": "Gündoğan Sahil Sitesi",
+      "name_en": "Gündoğan Sahil Sitesi",
+      "category": "Deneyim",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.14609470000001,
+      "lng": 27.3412611,
+      "rating": 4.2,
+      "reviewCount": 168,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJs7UfphNwvhQRLvwdokvxdzY.jpg",
+      "description": "Gündoğan'ın en huzurlu köşelerinden biri olan bu bölge, sabahları çarşaf gibi denizi ve akşamları esen hafif Meltem rüzgarıyla bilinir. Geleneksel balıkçı kasabası dokusunu modern bir konforla birleştiren sahil yürüyüş yoluyla ünlüdür.",
+      "description_en": "One of Gündoğan's most peaceful corners, this area is known for its glass-like morning sea and refreshing evening breeze. Its promenade, blending traditional fishing village charm with modern comfort, is perfect for sunset strolls.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJx_dnBRxwvhQRABJXgm2l0ec",
+      "name": "Küçükbük Sahil",
+      "name_en": "Küçükbük Sahil",
+      "category": "Park",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.1410676,
+      "lng": 27.356414,
+      "rating": 4.2,
+      "reviewCount": 349,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJx_dnBRxwvhQRABJXgm2l0ec.jpg",
+      "description": "Türkbükü ve Gündoğan arasında saklı bir cennet olan Küçükbük, kristal netliğindeki denizi ve geniş kumsalıyla yerel halkın en sevdiği noktalardan biridir. Gösterişten uzak, doğal ve sakin bir deniz günü geçirmek isteyenler için ideal bir sığınaktır.",
+      "description_en": "A hidden paradise between Türkbükü and Gündoğan, Küçükbük is a local favorite for its crystal-clear water and wide sandy beach. It is an ideal sanctuary for those seeking a natural and tranquil day by the sea, away from the crowds.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJZ3ygqXhPvhQRGFsa6RnoQag",
+      "name": "Mazıköy",
+      "name_en": "Mazıköy",
+      "category": "Deneyim",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.014164,
+      "lng": 27.740704,
+      "rating": 4.5,
+      "reviewCount": 50,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJZ3ygqXhPvhQRGFsa6RnoQag.jpg",
+      "description": "Bodrum'un en bakir ve doğal kalmış köylerinden biri olan Mazı, zeytin ağaçlarının denizle buluştuğu eşsiz koylara sahiptir. Elektrik ve modern dünya karmaşasından uzakta, tarladan sofraya lezzetler ve turkuaz sular arasında gerçek bir Ege deneyimi sunar.",
+      "description_en": "One of Bodrum's most pristine villages, Mazı features unique bays where olive groves meet the sea. Far from the hustle of modern life, it offers a real Aegean experience with farm-to-table flavors and stunning turquoise waters.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJcaKMBvlAvhQRgSBmQyMOxVM",
+      "name": "Orak Adası",
+      "name_en": "Orak Adası",
+      "category": "Park",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 36.9680556,
+      "lng": 27.6,
+      "rating": 4.8,
+      "reviewCount": 133,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJcaKMBvlAvhQRgSBmQyMOxVM.jpg",
+      "description": "Bodrum'un Maldivleri olarak bilinen Orak Adası, turkuazın en canlı tonlarına sahip deniziyle tekne turlarının favori durağıdır. Kristal suları ve bakir doğasıyla unutulmaz bir yüzme deneyimi sunar.",
+      "description_en": "Known as the Maldives of Bodrum, Orak Island is the star of local boat tours thanks to its vibrant turquoise waters. Its crystal depths and untouched nature offer an unparalleled swimming experience.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJ6_tD7FNrvhQR8_Ge0O61hG0",
+      "name": "Karaada",
+      "name_en": "Karaada",
+      "category": "Park",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 36.9738889,
+      "lng": 27.4625,
+      "rating": 4.5,
+      "reviewCount": 42,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJ6_tD7FNrvhQR8_Ge0O61hG0.jpg",
+      "description": "Bodrum'un tam karşısında yer alan Karaada, mağaralarından çıkan şifalı çamurları ve sıcak su kaynaklarıyla ünlüdür. Adanın yemyeşil doğası ve tekne turlarının vazgeçilmez duraklarından biri olması, burayı eşsiz kılar.",
+      "description_en": "Located right across from Bodrum, Black Island (Karaada) is famous for its therapeutic mud baths and natural hot springs found within caves. Its lush greenery and crystal coves make it a top stop for boat tours.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJ4UVXlQtvvhQRs_dHoZpAJN0",
+      "name": "Cennet Koyu",
+      "name_en": "Cennet Koyu",
+      "category": "Deneyim",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.1177702,
+      "lng": 27.4128651,
+      "rating": 4.3,
+      "reviewCount": 2994,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJ4UVXlQtvvhQRs_dHoZpAJN0.jpg",
+      "description": "Adının hakkını veren Cennet Koyu, masmavi suları çevreleyen çam ormanlarıyla Yarımada'nın en bakir noktalarından biridir. Sadece tekneyle veya zorlu bir yolla ulaşılabilmesi, buranın sessizliğini ve doğasını korumuştur.",
+      "description_en": "True to its name (Paradise Bay), this is one of the peninsula's most untouched spots, where pine forests meet turquoise waters. Its limited access has preserved its natural beauty and peaceful atmosphere.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJV4CT2fhtvhQRmuYDm_i3S5M",
+      "name": "Akvaryum Koyu",
+      "name_en": "Akvaryum Koyu",
+      "category": "Park",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.0089091,
+      "lng": 27.3837543,
+      "rating": 4.7,
+      "reviewCount": 590,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJV4CT2fhtvhQRmuYDm_i3S5M.jpg",
+      "description": "Adını suyunun cam berraklığından alan Akvaryum Koyu, sadece tekne turlarıyla ulaşılabilen bakir bir doğa harikasıdır. Şnorkelle dalış yaparken balıkları çıplak gözle görebileceğiniz bu koy, turkuazın en saf tonlarını sunar.",
+      "description_en": "Named for its crystal-clear waters, Aquarium Bay is a pristine natural wonder accessible only by boat. It's an unparalleled location for snorkeling where you can see fish swimming alongside you in vibrant turquoise depths.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJ_759OOxxvhQRXZc1KZwApPw",
+      "name": "Yalıkavak Marina",
+      "name_en": "Yalıkavak Marina",
+      "category": "Deneyim",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.1021029,
+      "lng": 27.284085,
+      "rating": 4.6,
+      "reviewCount": 11356,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJ_759OOxxvhQRXZc1KZwApPw.jpg",
+      "description": "Uluslararası tasarım ödülleriyle tescillenmiş dünyanın en lüks marinalarından biri olan Yalıkavak, mega yatların ve haute couture markaların buluşma noktasıdır. Dünya çapındaki restoranları ve jet-set atmosferiyle Bodrum'un prestij sembolüdür.",
+      "description_en": "An award-winning destination for global travelers and mega-yachts, Yalıkavak Marina hosts elite boutiques and world-class dining. With its luxurious atmosphere and stunning architecture, it stands as a symbol of prestige in Bodrum.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJHexKKERsvhQRCfysEWSpShM",
+      "name": "Milta Bodrum Marina",
+      "name_en": "Milta Bodrum Marina",
+      "category": "Deneyim",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.0345223,
+      "lng": 27.4221384,
+      "rating": 4.5,
+      "reviewCount": 764,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJHexKKERsvhQRCfysEWSpShM.jpg",
+      "description": "Bodrum merkezinin kalbinde yer alan Milta Marina, modern donanımı ve kentsel dokusuyla yatçıların favorisidir. Marina içindeki nezih butikler ve limana bakan şık restoranlar, kentin en keyifli yürüyüş ve sosyal yaşam duraklarından birini oluşturur.",
+      "description_en": "Located in the heart of the city, Milta Marina combines top-tier facilities with urban charm. Its upscale boutiques and harbor-view restaurants offer a refined social experience for both yachtsmen and visitors in central Bodrum.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJlQokr2ULvhQRx7mCdLOO8Zg",
+      "name": "D-Marin Turgutreis Marina",
+      "name_en": "D-Marin Turgutreis Marina",
+      "category": "Deneyim",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.0018201,
+      "lng": 27.2580484,
+      "rating": 4.5,
+      "reviewCount": 6592,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJlQokr2ULvhQRx7mCdLOO8Zg.jpg",
+      "description": "Bodrum Yarımadası'nın en batısında yer alan bu marina, eşsiz adalar manzarası ve kaliteli yaşam alanlarıyla ünlüdür. Marina içindeki butikler ve sahil yolu, özellikle gün batımında kentin en şık yürüyüş rotasını oluşturur.",
+      "description_en": "Located at the western tip of the peninsula, this marina is famous for its stunning island views and upscale facilities. The promenade and boutiques offer a refined experience, especially during the legendary local sunsets.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJd9_mLEBsvhQR6pGYjxFgJ0o",
+      "name": "Çarşı",
+      "name_en": "Çarşı",
+      "category": "Deneyim",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.0355643,
+      "lng": 27.4336137,
+      "rating": 4.5,
+      "reviewCount": 50,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJd9_mLEBsvhQR6pGYjxFgJ0o.jpg",
+      "description": "Bodrum'un kalbi sayılan bu tarihi çarşı, beyaz badanalı sokakları ve Begonvillerle süslü dükkanlarıyla alışveriş meraklılarını ağırlar. El yapımı Bodrum sandaletlerinden takılara kadar yerel sanata dair her şeyi bulabilirsiniz.",
+      "description_en": "Considered the heart of Bodrum, this historic marketplace features whitewashed alleys and shops adorned with bougainvillea. It is the best place to find local crafts, ranging from handmade sandals to unique jewelry.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJMxkyaWpsvhQR7lX9oL0EJkQ",
+      "name": "Kule Rock City",
+      "name_en": "Kule Rock City",
+      "category": "Deneyim",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.0336224,
+      "lng": 27.433267,
+      "rating": 4.2,
+      "reviewCount": 1288,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJMxkyaWpsvhQR7lX9oL0EJkQ.jpg",
+      "description": "Bodrum Barlar Sokağı'nın kalbinde yer alan bu ikonik mekan, kentin rock müzik kültürünün kalesidir. Yüksek enerjili canlı performansları ve kendine has dekorasyonuyla, Bodrum'un gece hayatında alternatif ve samimi bir durak arayanların favorisidir.",
+      "description_en": "Located in the heart of Bodrum's Bar Street, this iconic venue is the stronghold of the city's rock culture. With its high-energy live performances and distinctive decor, it's a favorite for those seeking an alternative and authentic nightlife experience.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJybTpQuxvvhQRvHMQvLA1YMk",
+      "name": "MACAKIZI BODRUM",
+      "name_en": "MACAKIZI BODRUM",
+      "category": "Deneyim",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.136472,
+      "lng": 27.380201,
+      "rating": 4.3,
+      "reviewCount": 1194,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJybTpQuxvvhQRvHMQvLA1YMk.jpg",
+      "description": "Bodrum'un 'boho-lüks' tarzını dünyaya tanıtan Maçakızı, zeytin ağaçlarıyla çevrili ikonik iskelesi ve gurme mutfağıyla bir yaşam tarzıdır. Rafine eğlence anlayışı ve kusursuz tasarımıyla yarımadanın en prestijli noktasıdır.",
+      "description_en": "An iconic standard-bearer of 'boho-luxury,' Maçakızı is a legendary lifestyle destination known for its famous seaside deck and gourmet cuisine. It represents the height of sophistication and refined Mediterranean entertainment.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJeectHM9ovhQR4xsyVITINuw",
+      "name": "Nikki Beach Resort & Spa Bodrum",
+      "name_en": "Nikki Beach Resort & Spa Bodrum",
+      "category": "Deneyim",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.087345,
+      "lng": 27.4763945,
+      "rating": 4.5,
+      "reviewCount": 597,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJeectHM9ovhQR4xsyVITINuw.jpg",
+      "description": "Torba Koyu'nun manzarasına hakim Nikki Beach, dünya çapında ünlü plaj kulübü konseptini Bodrum'a taşır. Canlı DJ performansları, yaratıcı kokteylleri ve şık havuz başı partileriyle Yarımada'da eğlencenin en enerjik adresidir.",
+      "description_en": "Overlooking the stunning Torba Bay, Nikki Beach brings its world-renowned club concept to Bodrum. With live DJ sets, creative cocktails, and chic poolside events, it is the most energetic address for daytime entertainment.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJsc0ubABtvhQRyEfAZVpFoLA",
+      "name": "Lucca beach",
+      "name_en": "Lucca beach",
+      "category": "Deneyim",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.034407,
+      "lng": 27.43054,
+      "rating": 1.7,
+      "reviewCount": 31,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJsc0ubABtvhQRyEfAZVpFoLA.jpg",
+      "description": "Cennet Koyu'nun masmavi sularında yer alan Lucca Beach, İstanbul'un ikonik markasının sahil konseptidir. Rafine bir mutfak, tasarım odaklı bir dekorasyon ve kaliteli müzikle lüks bir deniz günü vaat eder.",
+      "description_en": "Nestled in the pristine waters of Paradise Bay, Lucca Beach is the coastal outpost of Istanbul's iconic brand. It offers a luxurious day at sea with a refined menu, designer aesthetics, and sophisticated music.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJlW24DwJ-vhQR0nYmhIFwRfI",
+      "name": "Blue Point Didim Beach Club",
+      "name_en": "Blue Point Didim Beach Club",
+      "category": "Restoran",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.3414025,
+      "lng": 27.2623154,
+      "rating": 4.4,
+      "reviewCount": 492,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJlW24DwJ-vhQR0nYmhIFwRfI.jpg",
+      "description": "Blue Point Didim Beach Club, Bodrum seyahatinizde keşfetmeniz gereken, kendine has dokusu ve atmosferiyle öne çıkan özel bir noktadır.",
+      "description_en": "Blue Point Didim Beach Club is a unique spot in Bodrum with a distinctive atmosphere that we highly recommend exploring during your visit.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJPwvM3GlxvhQRLEm2Q6AICZ8",
+      "name": "Highlight Hotel Yalıkavak",
+      "name_en": "Highlight Hotel Yalıkavak",
+      "category": "Restoran",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.1174835,
+      "lng": 27.3088719,
+      "rating": 4.3,
+      "reviewCount": 370,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJPwvM3GlxvhQRLEm2Q6AICZ8.jpg",
+      "description": "Deniz kıyısında restoran, spa, açık ve kapalı havuzlar sunan zarif sahil otelinde ferah odalar ve süitler.",
+      "description_en": "Highlight Hotel Yalıkavak is a beautiful spot in Bodrum. A must-visit place.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJsWAj8kFsvhQRHj1S9yF8C6Q",
+      "name": "Mandalin",
+      "name_en": "Mandalin",
+      "category": "Deneyim",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.032858,
+      "lng": 27.4308024,
+      "rating": 4,
+      "reviewCount": 832,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJsWAj8kFsvhQRHj1S9yF8C6Q.jpg",
+      "description": "Mandalin, Bodrum seyahatinizde keşfetmeniz gereken, kendine has dokusu ve atmosferiyle öne çıkan özel bir noktadır.",
+      "description_en": "Mandalin is a unique spot in Bodrum with a distinctive atmosphere that we highly recommend exploring during your visit.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJJ2SLwVVxvhQRBW5Ezry6Dh0",
+      "name": "Memedof Balık Restaurant",
+      "name_en": "Memedof Balık Restaurant",
+      "category": "Restoran",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.0992041,
+      "lng": 27.2759501,
+      "rating": 4.3,
+      "reviewCount": 825,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJJ2SLwVVxvhQRBW5Ezry6Dh0.jpg",
+      "description": "Yalıkavak ve merkezde şubeleri bulunan Memedof, taze meze çeşitleri ve günlük deniz ürünleriyle kentin en prestijli balık restoranlarından biridir. Deniz kıyısındaki masalarıyla gerçek bir Bodrum klasiğidir.",
+      "description_en": "With locations in Yalıkavak and the center, Memedof is one of Bodrum's most prestigious seafood restaurants. Known for its fresh daily catch and exquisite appetizers, it is a true local classic.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJm6aS3GlxvhQRFvn-6AKya34",
+      "name": "Sait",
+      "name_en": "Sait",
+      "category": "Restoran",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.103496,
+      "lng": 27.2833007,
+      "rating": 4,
+      "reviewCount": 623,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJm6aS3GlxvhQRFvn-6AKya34.jpg",
+      "description": "Yalıkavak Marina'nın en ikonik duraklarından biri olan Sait, yıllardır değişmeyen kalitesiyle 'eski Bodrum' ruhunu lüksle birleştirir. Özellikle deniz mahsullü ara sıcakları ve taze balıklarıyla gurmelerin uğrak noktasıdır.",
+      "description_en": "One of the most iconic spots in Yalıkavak Marina, Sait blends original Bodrum hospitality with high-end dining. It is a favorite among gourmets for its seafood appetizers and impeccable service.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJp2EErUdsvhQR4hhpautlFXQ",
+      "name": "Gemibaşı Restaurant",
+      "name_en": "Gemibaşı Restaurant",
+      "category": "Restoran",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.0359265,
+      "lng": 27.4230853,
+      "rating": 4.5,
+      "reviewCount": 921,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJp2EErUdsvhQR4hhpautlFXQ.jpg",
+      "description": "Bodrum Marina'nın tam karşısında yer alan Gemibaşı, samimi atmosferi ve 'ev yapımı' tadındaki mezeleriyle yerel halkın da favorisidir. Şehrin merkezinde gerçek bir Ege akşamı yaşamak isteyenler için idealdir.",
+      "description_en": "Located right across from the Bodrum Marina, Gemibaşı is a local favorite known for its warm atmosphere and home-style appetizers. It is the perfect spot for an authentic Aegean evening in the heart of town.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJK8EeTELOvxQRvYZKtrHmCb8",
+      "name": "Orfoz Restaurant Bodrum",
+      "name_en": "Orfoz Restaurant Bodrum",
+      "category": "Restoran",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.0302332,
+      "lng": 27.4402156,
+      "rating": 4.2,
+      "reviewCount": 743,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJK8EeTELOvxQRvYZKtrHmCb8.jpg",
+      "description": "Deniz mahsulleri konusunda yaratıcılığın zirvesi olan Orfoz, tadım menüleri ve egzotik deniz ürünleriyle klasik bir balıkçının çok ötesindedir. Gurmeler için kentin en özel gastronomi deneyimlerinden birini sunar.",
+      "description_en": "A pinnacle of seafood creativity, Orfoz offers unique tasting menus that go far beyond standard fare. It is widely considered one of Bodrum's most exclusive and experimental culinary destinations.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJCUcXnVhpvhQRVmRuw-I-8UU",
+      "name": "ENT Restaurant",
+      "name_en": "ENT Restaurant",
+      "category": "Restoran",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.1207486,
+      "lng": 27.2815612,
+      "rating": 4.5,
+      "reviewCount": 40,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJCUcXnVhpvhQRVmRuw-I-8UU.jpg",
+      "description": "Şef odaklı bir gastronomi noktası olan ENT, Bodrum'un yerel malzemelerini modern pişirme teknikleriyle birleştiren rafine bir mutfağa sahiptir. Zeytin ağaçları altındaki şık bahçesiyle, Yarımada'nın en özel akşam yemeği duraklarından biridir.",
+      "description_en": "A chef-driven gastronomic destination, ENT offers a refined menu that blends Bodrum’s local ingredients with modern techniques. Set in a stylish garden under olive trees, it is one of the peninsula's most exclusive dining experiences.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJzVDASMJvvhQRYhkIN-ynA6A",
+      "name": "Miam Restoran",
+      "name_en": "Miam Restoran",
+      "category": "Restoran",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.128233,
+      "lng": 27.3775116,
+      "rating": 4.3,
+      "reviewCount": 1388,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJzVDASMJvvhQRYhkIN-ynA6A.jpg",
+      "description": "Türkbükü'nün en eski ve en popüler restoranlarından biri olan Miam, denizin hemen kıyısında yer alan barı ve mutfağıyla gece hayatına geçiş öncesi şık bir klasiktir. Aydınlatılmış antik zeytin ağaçları altında romantik bir havası vardır.",
+      "description_en": "One of Türkbükü's oldest hotspots, Miam offers an elegant seaside dining experience and a vibrant bar. Dining under illuminated olive trees provides a romantic start to the Bodrum night.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJa2fsA0VxvhQRTnH-a2Blhkc",
+      "name": "Zuma Bodrum",
+      "name_en": "Zuma Bodrum",
+      "category": "Restoran",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.1061622,
+      "lng": 27.2821632,
+      "rating": 4.2,
+      "reviewCount": 1970,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJa2fsA0VxvhQRTnH-a2Blhkc.jpg",
+      "description": "Yalıkavak Marina'nın lüks atmosferinde yer alan dünyaca ünlü Zuma, modern Japon mutfağını (Izakaya) benzersiz bir deniz manzarası eşliğinde sunar. Şık barı ve jet-set ortamıyla, Bodrum'da rafine eğlence ve gastronominin buluşma noktasıdır.",
+      "description_en": "Located in the luxurious Yalıkavak Marina, the world-renowned Zuma offers modern Japanese cuisine (Izakaya) with stunning sea views. With its chic bar and jet-set atmosphere, it is the ultimate intersection of fine dining and nightlife in Bodrum.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJt2KH_mtxvhQRCxgZx5d5Eg8",
+      "name": "Nusr-Et Steakhouse Yalıkavak Marina",
+      "name_en": "Nusr-Et Steakhouse Yalıkavak Marina",
+      "category": "Restoran",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.1055258,
+      "lng": 27.2819251,
+      "rating": 4.2,
+      "reviewCount": 4835,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJt2KH_mtxvhQRCxgZx5d5Eg8.jpg",
+      "description": "Dünya çapında bir fenomen olan Nusr-Et, Yalıkavak Marina'daki şubesiyle lüks et deneyimini Bodrum'un en elit noktasına taşır. Hem sunumu hem de atmosferiyle kentin jet-sosyete duraklarından biridir.",
+      "description_en": "A global phenomenon, Nusr-Et brings its luxury steakhouse experience to the elite Yalıkavak Marina. Known for its showy service and high-energy atmosphere, it is a key spot for international travelers.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJNcwJIKJ1vhQRx77eJ4VuNp8",
+      "name": "LİMON GÜMÜŞLÜK RESTAURANT",
+      "name_en": "LİMON GÜMÜŞLÜK RESTAURANT",
+      "category": "Restoran",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.0594292,
+      "lng": 27.2361179,
+      "rating": 4.3,
+      "reviewCount": 1151,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJNcwJIKJ1vhQRx77eJ4VuNp8.jpg",
+      "description": "Gümüşlük denilince akla gelen ilk yerlerden biri olan Limon, bir bahçenin içinde, gün batımına karşı kurulan masalarıyla efsanedir. Bohem şıklığı ve ev yapımı lezzetleriyle unutulmaz bir akşam yemeği noktasıdır.",
+      "description_en": "Arguably the most legendary spot in Gümüşlük, Limon features a lush garden setting with tables facing the sunset. Its bohemian charm and rustic-chic delicacies make it an essential evening destination.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJN_9LJfB0vhQRsxFEE28VHEU",
+      "name": "Melengeç Balık Restaurant",
+      "name_en": "Melengeç Balık Restaurant",
+      "category": "Restoran",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.056365,
+      "lng": 27.2344974,
+      "rating": 3.7,
+      "reviewCount": 1594,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJN_9LJfB0vhQRsxFEE28VHEU.jpg",
+      "description": "Gümüşlük sahilinde, denizin içindeki masaları ve begonvillerle süslü dekorasyonuyla tanınan Melengeç, kentin en romantik restoranlarından biridir. Taze deniz mahsulleri ve meşhur gün batımı manzarasıyla masalsı bir Ege akşamı vaat eder.",
+      "description_en": "Famous for its tables set right in the shallow water and its bougainvillea-covered decor, Melengeç is one of Gümüşlük's most romantic spots. It promises a magical Aegean evening with fresh seafood and legendary sunset views.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJjZzXOEtzvhQRGlzLq2CkKRs",
+      "name": "Dereköy Lokantası",
+      "name_en": "Dereköy Lokantası",
+      "category": "Restoran",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.0427879,
+      "lng": 27.2857914,
+      "rating": 4.3,
+      "reviewCount": 302,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJjZzXOEtzvhQRGlzLq2CkKRs.jpg",
+      "description": "Bodrum'un iç kesimlerindeki bir köyde yer alan bu lokanta, bahçeden sofraya konseptiyle yerel ürünlere hayat verir. Samimi atmosferi ve yaratıcı dokunuşlarla sunulan geleneksel lezzetleriyle, gerçek Bodrum gastronomi ruhunu yaşatır.",
+      "description_en": "Located in a village in Bodrum's interior, this eatery breathes life into local produce with a farm-to-table concept. Its warm atmosphere and traditional flavors with creative twists embody the true culinary soul of Bodrum.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJa2dchuZxvhQR2yilx7wFRwk",
+      "name": "The Trattoria by Stefano Ciotti",
+      "name_en": "The Trattoria by Stefano Ciotti",
+      "category": "Restoran",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.1149549,
+      "lng": 27.3110835,
+      "rating": 3.9,
+      "reviewCount": 89,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJa2dchuZxvhQR2yilx7wFRwk.jpg",
+      "description": "Michelin yıldızlı şef dokunuşunu Bodrum'un Ege havasıyla birleştiren bu trattoria, gerçek İtalyan lezzetlerini en rafine haliyle sunar. Yalıkavak'ta elit bir akşam yemeği için modern ve şık bir atmosfer arayanların ilk tercihlerinden biridir.",
+      "description_en": "Combining Michelin-starred chef touches with Bodrum's Aegean atmosphere, this trattoria serves authentic Italian flavors in their most refined form. It’s a top choice for an elite and modern dining experience in Yalıkavak.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJEVHu_j5pvhQRJxgWe2QVSwk",
+      "name": "Malva Restaurant & Cocktail Bar",
+      "name_en": "Malva Restaurant & Cocktail Bar",
+      "category": "Restoran",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.0879286,
+      "lng": 27.4767309,
+      "rating": 4.4,
+      "reviewCount": 49,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJEVHu_j5pvhQRJxgWe2QVSwk.jpg",
+      "description": "Modern ve rafine bir Ege mutfağı sunan Malva, yerel malzemeleri yaratıcı kokteyllerle buluşturan bir gastronomi durağıdır. Özellikle gün batımı saatlerinde sunduğu panoramik manzara ve sofistike ambiyansıyla dikkat çeker.",
+      "description_en": "Offering modern and refined Aegean cuisine, Malva is a gastronomic hub that pairs local ingredients with creative cocktails. It is particularly known for its panoramic views and sophisticated ambiance during sunset.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJ35wBdEJxvhQRPl1MYDk6fkw",
+      "name": "KITCHEN by Osman Sezener",
+      "name_en": "KITCHEN by Osman Sezener",
+      "category": "Restoran",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.114921,
+      "lng": 27.3110534,
+      "rating": 4.4,
+      "reviewCount": 154,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJ35wBdEJxvhQRPl1MYDk6fkw.jpg",
+      "description": "Şef Osman Sezener’in 'topraktan tabağa' felsefesini Bodrum’a taşıyan KITCHEN, odun ateşinde pişen özel lezzetleriyle tanınır. Zeytin ağaçları arasındaki rustik şıklığıyla, gastronomi tutkunları için unutulmaz bir deneyim sunar.",
+      "description_en": "Bringing Chef Osman Sezener’s 'field-to-table' philosophy to Bodrum, KITCHEN is famous for its unique flavors cooked over wood-fire. With its rustic-chic setting amidst olive groves, it offers an unforgettable experience for foodies.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJg1zJA6JxvhQRysBKsOZ0Chc",
+      "name": "Bagatelle Bodrum",
+      "name_en": "Bagatelle Bodrum",
+      "category": "Restoran",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.1062091,
+      "lng": 27.2818173,
+      "rating": 3.2,
+      "reviewCount": 573,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJg1zJA6JxvhQRysBKsOZ0Chc.jpg",
+      "description": "Fransız Rivierası’nın neşeli ve şık enerjisini Bodrum’a taşıyan Bagatelle, hem bir plaj kulübü hem de gurme bir restorandır. Canlı atmosferi ve eğlence dolu akşam yemekleriyle Yalıkavak Marina’nın en canlı noktalarından biridir.",
+      "description_en": "Bringing the joyful and chic energy of the French Riviera to Bodrum, Bagatelle functions as both a beach club and a gourmet restaurant. It is one of Yalıkavak Marina’s most vibrant spots, famous for its lively dinner parties.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJ-WF2YTVxvhQRL8iZUOBK1-s",
+      "name": "Novikov Bodrum",
+      "name_en": "Novikov Bodrum",
+      "category": "Restoran",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.1048968,
+      "lng": 27.2823715,
+      "rating": 4.1,
+      "reviewCount": 237,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJ-WF2YTVxvhQRL8iZUOBK1-s.jpg",
+      "description": "Asya ve İtalyan mutfağını tek bir çatı altında toplayan Novikov, en taze deniz ürünlerini ve yaratıcı sushi çeşitlerini sunar. Yalıkavak Marina’daki modern mimarisi ve seçkin kitlesiyle, Yarımada'nın en lüks duraklarından biridir.",
+      "description_en": "Bringing Asian and Italian cuisines together under one roof, Novikov serves the freshest seafood and creative sushi. With its modern architecture and elite clientele in Yalıkavak Marina, it’s one of the peninsula's most luxurious stops.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJHWXQjNhvvhQRZLXgz4C3_Uc",
+      "name": "Paper Moon",
+      "name_en": "Paper Moon",
+      "category": "Restoran",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.114445,
+      "lng": 27.4401451,
+      "rating": 3.9,
+      "reviewCount": 181,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJHWXQjNhvvhQRZLXgz4C3_Uc.jpg",
+      "description": "Milano rüzgarını Bodrum'a taşıyan Paper Moon, şık dekorasyonu ve İtalyan mutfağındaki uzmanlığıyla öne çıkar. Yarımadanın en elit akşam yemeği mekanlarından biri olarak kabul edilir.",
+      "description_en": "Bringing a breeze from Milan to Bodrum, Paper Moon stands out with its elegant decor and expertise in Italian cuisine. It is regarded as one of the peninsula's most elite dining spots.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJrVKHaL11vhQR9bzC7_POj6Q",
+      "name": "Hakkasan Bodrum",
+      "name_en": "Hakkasan Bodrum",
+      "category": "Restoran",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.1282482,
+      "lng": 27.4113234,
+      "rating": 4.2,
+      "reviewCount": 162,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJrVKHaL11vhQR9bzC7_POj6Q.jpg",
+      "description": "Dünya çapında Michelin yıldızı deneyimiyle tanınan Hakkasan, modern Çin mutfağını Bodrum'un eşsiz manzarasına karşı sunar. Zarif dekorasyonu ve ikonik lezzetleriyle, kentin en prestijli açık hava restoranlarından biridir.",
+      "description_en": "Bringing its world-renowned Michelin-starred experience to Bodrum, Hakkasan serves modern Chinese cuisine against a stunning backdrop. With its elegant decor and iconic dishes, it is one of the city's most prestigious open-air venues.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJn9iQlb1vvhQRWBhf1O_Ajy4",
+      "name": "Lucca by the Sea",
+      "name_en": "Lucca by the Sea",
+      "category": "Restoran",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.1281914,
+      "lng": 27.4117692,
+      "rating": 2.7,
+      "reviewCount": 129,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJn9iQlb1vvhQRWBhf1O_Ajy4.jpg",
+      "description": "İstanbul'un efsanevi markası Lucca'nın deniz kıyısındaki yansıması olan bu mekan, rafine kokteylleri ve dünya mutfağından seçkin lezzetleriyle bilinir. Şık tasarımı ve kaliteli müziğiyle Bodrum'un sosyal yaşam kalbinde yer alır.",
+      "description_en": "The seaside reflection of Istanbul's legendary Lucca, this venue is known for its refined cocktails and premium international menu. With its chic design and high-quality music, it sits at the heart of Bodrum's social scene.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJAW0eOkNxvhQRJo_mcG7k9mA",
+      "name": "Fenix Bodrum",
+      "name_en": "Fenix Bodrum",
+      "category": "Restoran",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.1057434,
+      "lng": 27.2819156,
+      "rating": 3.8,
+      "reviewCount": 469,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJAW0eOkNxvhQRJo_mcG7k9mA.jpg",
+      "description": "Latin ve Akdeniz lezzetlerini egzotik bir dekorasyonla harmanlayan Fenix, Bodrum akşamlarına hareket katan bir restorandır. Şık barı ve enerjik DJ performanslarıyla, Yalıkavak Marina'da akşam yemeğinden gece hayatına geçişin adresidir.",
+      "description_en": "Blending Latin and Mediterranean flavors with exotic decor, Fenix is a restaurant that brings vibrant energy to Bodrum nights. With its stylish bar and DJ sets, it’s the go-to spot in Yalıkavak for transitioning from dinner to nightlife.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJp4TIsDq2yhQRjrCUGK_mBEQ",
+      "name": "Sunset Grill&Bar",
+      "name_en": "Sunset Grill&Bar",
+      "category": "Restoran",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 41.0639906,
+      "lng": 29.0331258,
+      "rating": 4.1,
+      "reviewCount": 4241,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJp4TIsDq2yhQRjrCUGK_mBEQ.jpg",
+      "description": "Tepe üzerinde yer alan, Akdeniz lezzetleri ve suşi servis edilen, köprüden manzaraların görüldüğü büyük ve gösterişli restoran/bar.",
+      "description_en": "Sunset Grill&Bar is a beautiful spot in Bodrum. A must-visit place.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJqVpIA2JtvhQRHEuqj5n7bz8",
+      "name": "METT Hotel & Beach Resort Bodrum",
+      "name_en": "METT Hotel & Beach Resort Bodrum",
+      "category": "Deneyim",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.02404870000001,
+      "lng": 27.4152559,
+      "rating": 4.8,
+      "reviewCount": 1408,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJqVpIA2JtvhQRHEuqj5n7bz8.jpg",
+      "description": "Modern, polished rooms in a posh hotel offering an outdoor pool, dining & a spa, plus bay views.",
+      "description_en": "METT Hotel & Beach Resort Bodrum is a beautiful spot in Bodrum. A must-visit place.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJCw3uS3ptvhQR-MahCMP9xEQ",
+      "name": "Bitez Dondurmacısı",
+      "name_en": "Bitez Dondurmacısı",
+      "category": "Restoran",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.0421965,
+      "lng": 27.3783799,
+      "rating": 4.4,
+      "reviewCount": 3251,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJCw3uS3ptvhQR-MahCMP9xEQ.jpg",
+      "description": "Bodrum'un yerel lezzet simgelerinden olan Bitez Dondurmacısı, taze meyveler ve bal ile hazırlanan doğal dondurmalarıyla meşhurdur. Özellikle mandalinalı dondurması, yarımadanın gerçek tadını yansıtır.",
+      "description_en": "A local culinary icon, Bitez Ice Cream is famous for its natural flavors made with fresh fruit and honey. Their signature mandarin ice cream is a true taste of the Bodrum peninsula.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJK1pjc0ZsvhQRCDNnqAf8UHE",
+      "name": "Sünger Pizza Restaurant",
+      "name_en": "Sünger Pizza Restaurant",
+      "category": "Restoran",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.035046,
+      "lng": 27.422096,
+      "rating": 4.3,
+      "reviewCount": 2419,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJK1pjc0ZsvhQRCDNnqAf8UHE.jpg",
+      "description": "Bodrum merkezinin en eski ve sevilen klasiklerinden biri olan Sünger Pizza, sadece pizzalarıyla değil, taze deniz ürünlü spesiyalleriyle de meşhurdur. Salaş ama şık atmosferiyle gerçek bir şehir efsanesi ve her ziyaretçinin mutlaka uğradığı bir duraktır.",
+      "description_en": "One of central Bodrum's oldest and most beloved classics, Sünger Pizza is famous not just for its pizzas, but also for its fresh seafood specials. A true local legend with a casual-chic vibe, it is a must-visit for every traveler.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJH_jHFkBsvhQRbMlzsZqy95o",
+      "name": "Yunuslar Karadeniz Fırını",
+      "name_en": "Yunuslar Karadeniz Fırını",
+      "category": "Restoran",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.0371755,
+      "lng": 27.4309651,
+      "rating": 4.5,
+      "reviewCount": 228,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJH_jHFkBsvhQRbMlzsZqy95o.jpg",
+      "description": "1969 yılından beri Bodrum'da hizmet veren Yunuslar Karadeniz Fırını, sabahın ilk ışıklarıyla çıkan taze boyozları, peksimetleri ve enfes tatlılarıyla kentin en tatlı hatıralarından biridir.",
+      "description_en": "Serving since 1969, Yunuslar Karadeniz Bakery is a town staple famous for its fresh pastries, traditional hard breads, and delicious desserts. It is a sweet landmark in central Bodrum.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJzQdGzFVCvhQRB1zKF7fFK48",
+      "name": "Etrim Halıcılık",
+      "name_en": "Etrim Halıcılık",
+      "category": "Deneyim",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.054552,
+      "lng": 27.591637,
+      "rating": 4.6,
+      "reviewCount": 427,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJzQdGzFVCvhQRB1zKF7fFK48.jpg",
+      "description": "Bodrum'un köylerindeki geleneksel halı dokuma kültürünü yaşatan Etrim, el emeği halıların ve yerel köy yaşamının iç içe olduğu otantik bir duraktır. Burada gerçek bir köy kahvaltısının ardından dokuma tezgahlarını inceleyebilirsiniz.",
+      "description_en": "Preserving traditional carpet weaving in Bodrum's villages, Etrim is an authentic spot where craftsmanship meets village life. Enjoy a traditional breakfast before exploring the hand-weaving looms.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJn5dxuH5zvhQRPNoi4sWIbRA",
+      "name": "Sandıma Köyü",
+      "name_en": "Sandıma Köyü",
+      "category": "Deneyim",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.0873848,
+      "lng": 27.2990231,
+      "rating": 4.4,
+      "reviewCount": 67,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJn5dxuH5zvhQRPNoi4sWIbRA.jpg",
+      "description": "Yalıkavak'ın tepelerinde yer alan bu eski Rum köyü, terk edilmiş taş evleri ve sanatsal dokusuyla sessizlik arayanların adresidir. Panoramik manzarası ve tarih kokan sokaklarıyla yarımadanın gizli bir hazinesidir.",
+      "description_en": "This old Greek village in the hills of Yalıkavak is a haven for those seeking silence among abandoned stone houses. Its panoramic views and historical alleys make it a true hidden gem.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJ4b1F2cdtvhQR5MQf93mne5U",
+      "name": "Kısmet Lokantası",
+      "name_en": "Kısmet Lokantası",
+      "category": "Restoran",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.0463837,
+      "lng": 27.3976342,
+      "rating": 4.3,
+      "reviewCount": 1448,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJ4b1F2cdtvhQR5MQf93mne5U.jpg",
+      "description": "Bodrum'un yerel lezzetlerini en saf haliyle sunan Kısmet, günlük çıkan ev yemekleri ve taze Ege otlarıyla ünlüdür. Bir aile işletmesi sıcaklığında, kentin ticaret ve sosyal yaşamının kalbinde, gerçek Bodrum tadını arayanların vazgeçilmezidir.",
+      "description_en": "Offering central Bodrum's local flavors in their purest form, Kısmet is famous for its daily home-cooked specials and fresh Aegean herbs. With family-run warmth, it is an essential stop for those seeking the authentic taste of the town.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJo-HGdEZsvhQRESW04RkW-iw",
+      "name": "SJ TRAVEL & YACHTING (Luxury Gulet Charter, Yacht charter, Cruises Bodrum-TURKEY)",
+      "name_en": "SJ TRAVEL & YACHTING (Luxury Gulet Charter, Yacht charter, Cruises Bodrum-TURKEY)",
+      "category": "Deneyim",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.0352483,
+      "lng": 27.4222463,
+      "rating": 5,
+      "reviewCount": 2,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJo-HGdEZsvhQRESW04RkW-iw.jpg",
+      "description": "SJ TRAVEL & YACHTING (Luxury Gulet Charter, Yacht charter, Cruises Bodrum-TURKEY), Bodrum seyahatinizde keşfetmeniz gereken, kendine has dokusu ve atmosferiyle öne çıkan özel bir noktadır.",
+      "description_en": "SJ TRAVEL & YACHTING (Luxury Gulet Charter, Yacht charter, Cruises Bodrum-TURKEY) is a unique spot in Bodrum with a distinctive atmosphere that we highly recommend exploring during your visit.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJ8Vvn00FsvhQRdAO9b9IrYqU",
+      "name": "Bodrum Travel Guide",
+      "name_en": "Bodrum Travel Guide",
+      "category": "Deneyim",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.0344259,
+      "lng": 27.4317036,
+      "rating": 5,
+      "reviewCount": 2,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJ8Vvn00FsvhQRdAO9b9IrYqU.jpg",
+      "description": "Bodrum Travel Guide, Bodrum seyahatinizde keşfetmeniz gereken, kendine has dokusu ve atmosferiyle öne çıkan özel bir noktadır.",
+      "description_en": "Bodrum Travel Guide is a unique spot in Bodrum with a distinctive atmosphere that we highly recommend exploring during your visit.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJD-6Fy21svhQRE37KPEZHiZc",
+      "name": "Dream Inn Bodrum",
+      "name_en": "Dream Inn Bodrum",
+      "category": "Deneyim",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.0308908,
+      "lng": 27.4409975,
+      "rating": 4.3,
+      "reviewCount": 187,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJD-6Fy21svhQRE37KPEZHiZc.jpg",
+      "description": "Samimi tarzda dekore edilmiş 10 mütevazı odası ve terasta barı olan ev konforundaki otel.",
+      "description_en": "Dream Inn Bodrum is a beautiful spot in Bodrum. A must-visit place.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJD1DpT0JsvhQR6hp00peljiE",
+      "name": "İngiliz Kulesi",
+      "name_en": "İngiliz Kulesi",
+      "category": "Deneyim",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.030964,
+      "lng": 27.429871,
+      "rating": 4.4,
+      "reviewCount": 35,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJD1DpT0JsvhQR6hp00peljiE.jpg",
+      "description": "Bodrum Kalesi'nin en görkemli burçlarından biri olan İngiliz Kulesi, Orta Çağ şövalyelerinin yaşantısını günümüze taşıyan tarihi bir anıttır. İçindeki şövalye armaları ve gotik pencereleriyle, kalede tarihin en yoğun hissedildiği noktadır.",
+      "description_en": "One of the most grand towers of Bodrum Castle, the English Tower is a historical monument reflecting the life of medieval knights. With its carved coats of arms and Gothic windows, it’s where history is felt most intensely within the fortress.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJqdSVl0FsvhQRRE021bxW1MU",
+      "name": "Bodrum Sualtı Arkeoloji Müzesi",
+      "name_en": "Bodrum Sualtı Arkeoloji Müzesi",
+      "category": "Tarihi",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.031713,
+      "lng": 27.4290325,
+      "rating": 4.5,
+      "reviewCount": 1627,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJqdSVl0FsvhQRRE021bxW1MU.jpg",
+      "description": "Antik gemi enkazlarından çıkan eserler ve büyük bir cam eserleri koleksiyonuyla Bodrum Kalesi müzesi.",
+      "description_en": "Bodrum Sualtı Arkeoloji Müzesi is a beautiful spot in Bodrum. A must-visit place.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJN7yup2xsvhQRj0PfOGHNJMA",
+      "name": "Historical (Turkish bath ) Tarihi Bardakçı Hamamı",
+      "name_en": "Historical (Turkish bath ) Tarihi Bardakçı Hamamı",
+      "category": "Tarihi",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.035078,
+      "lng": 27.4378973,
+      "rating": 4.6,
+      "reviewCount": 493,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJN7yup2xsvhQRj0PfOGHNJMA.jpg",
+      "description": "Historical (Turkish bath ) Tarihi Bardakçı Hamamı, Bodrum seyahatinizde keşfetmeniz gereken, kendine has dokusu ve atmosferiyle öne çıkan özel bir noktadır.",
+      "description_en": "Historical (Turkish bath ) Tarihi Bardakçı Hamamı is a unique spot in Bodrum with a distinctive atmosphere that we highly recommend exploring during your visit.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJ-9t-QkRsvhQRsSeEGLwms-4",
+      "name": "Deniz Feneri",
+      "name_en": "Deniz Feneri",
+      "category": "Deneyim",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.032347,
+      "lng": 27.4247899,
+      "rating": 4.7,
+      "reviewCount": 9,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJ-9t-QkRsvhQRsSeEGLwms-4.jpg",
+      "description": "Bodrum liman girişini bekleyen bu ikonik deniz feneri, Yarımada'nın en fotografik ve romantik noktalarından biridir. Özellikle gün batımında kaleye ve denize karşı sunduğu manzara, Bodrum'un denizci ruhunu mükemmel bir şekilde simgeler.",
+      "description_en": "Guarding the entrance to Bodrum harbor, this iconic lighthouse is one of the peninsula's most photographic and romantic spots. The view it offers at sunset against the castle perfectly symbolizes Bodrum’s enduring maritime spirit.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJ6WDdOgxtvhQROLTz96uMpno",
+      "name": "Gümüşlük",
+      "name_en": "Gümüşlük",
+      "category": "Deneyim",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.034407,
+      "lng": 27.43054,
+      "rating": 4.7,
+      "reviewCount": 26,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJ6WDdOgxtvhQROLTz96uMpno.jpg",
+      "description": "Antik Myndos şehri üzerine kurulu olan Gümüşlük, bohem atmosferi, denizin içindeki balık restoranları ve büyüleyici gün batımlarıyla ünlüdür. Kentin kentsel karmaşasından uzak, sanat ve huzur dolu ruhuyla Yarımada'nın en özel köşesidir.",
+      "description_en": "Built over the ancient city of Myndos, Gümüşlük is famous for its bohemian charm, seaside fish restaurants, and stunning sunsets. Far from the urban hustle, its art-filled and serene spirit makes it the peninsula's most unique corner.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJZTFbpHzivRQRhefzaco9p2A",
+      "name": "Thor Yıldız Batığı",
+      "name_en": "Thor Yıldız Batığı",
+      "category": "Deneyim",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.034407,
+      "lng": 27.43054,
+      "rating": 4,
+      "reviewCount": 6,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJZTFbpHzivRQRhefzaco9p2A.jpg",
+      "description": "Bodrum'un en popüler dalış noktalarından biri olan Thor Yıldız Batığı, su altı dünyasını keşfetmek isteyenler için yapay bir resif görevi görür. Batığın etrafındaki zengin deniz yaşamı ve kristal netliğindeki görüş mesafesi, unutulmaz bir dalış deneyimi sunar.",
+      "description_en": "A favorite spot for diving enthusiasts, the Thor Yıldız Shipwreck serves as an artificial reef for exploring the underwater world. The vibrant marine life surrounding the wreck and crystal-clear visibility offer an unforgettable diving adventure.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJa1KKP1ptvhQRKLIUM0EVQ2A",
+      "name": "Statue plongeur",
+      "name_en": "Statue plongeur",
+      "category": "Deneyim",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.0347409,
+      "lng": 27.4296095,
+      "rating": 5,
+      "reviewCount": 2,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJa1KKP1ptvhQRKLIUM0EVQ2A.jpg",
+      "description": "Bodrum limanında yer alan bu heybetli heykel, kentin temelini atan süngercilere ve cesur dalgıçlara adanmış bir saygı duruşudur. Bodrum'un bir balıkçı kasabasından dünya kentine dönüşüm hikayesini simgeleyen önemli bir kentsel anıttır.",
+      "description_en": "Located in Bodrum harbor, this imposing statue is a tribute to the sponge divers who laid the town's foundations. It serves as an important urban monument symbolizing Bodrum's transformation from a fishing village to a global destination.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJn5ieK1FtvhQR1q1iWNs91P4",
+      "name": "Red&White",
+      "name_en": "Red&White",
+      "category": "Deneyim",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.0328426,
+      "lng": 27.4307522,
+      "rating": 5,
+      "reviewCount": 12,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJn5ieK1FtvhQR1q1iWNs91P4.jpg",
+      "description": "Bodrum sahilinde samimi ve rahat atmosferiyle bilinen Red&White, plaj keyfini kaliteli kahveler ve lezzetli atıştırmalıklarla birleştiren popüler bir duraktır. Denize sıfır masalarıyla, kentin içinde konforlu bir mola noktasıdır.",
+      "description_en": "Known for its warm and relaxed vibe on the Bodrum shore, Red&White is a popular spot that blends beach fun with quality coffee and delicious snacks. Its seaside tables offer a comfortable and chic break in the heart of town.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJzda0gEFsvhQRBujuF58xZJY",
+      "name": "Kızılhisarlı Mustafa Paşa Camii",
+      "name_en": "Kızılhisarlı Mustafa Paşa Camii",
+      "category": "Deneyim",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.032921,
+      "lng": 27.429682,
+      "rating": 4.6,
+      "reviewCount": 110,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJzda0gEFsvhQRBujuF58xZJY.jpg",
+      "description": "Kızılhisarlı Mustafa Paşa Camii, Bodrum seyahatinizde keşfetmeniz gereken, kendine has dokusu ve atmosferiyle öne çıkan özel bir noktadır.",
+      "description_en": "Kızılhisarlı Mustafa Paşa Camii is a unique spot in Bodrum with a distinctive atmosphere that we highly recommend exploring during your visit.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJkYEbbzdtvhQRDFPDRvgjpZ8",
+      "name": "Herodotus Statue",
+      "name_en": "Herodotus Statue",
+      "category": "Deneyim",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.0356715,
+      "lng": 27.4321388,
+      "rating": 4.1,
+      "reviewCount": 10,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJkYEbbzdtvhQRDFPDRvgjpZ8.jpg",
+      "description": "Herodotus Statue, Bodrum seyahatinizde keşfetmeniz gereken, kendine has dokusu ve atmosferiyle öne çıkan özel bir noktadır.",
+      "description_en": "Herodotus Statue is a unique spot in Bodrum with a distinctive atmosphere that we highly recommend exploring during your visit.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJi6SgBQBtvhQRLsAM2_PRSbY",
+      "name": "Private Boat",
+      "name_en": "Private Boat",
+      "category": "Deneyim",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.03375,
+      "lng": 27.4283056,
+      "rating": 4.5,
+      "reviewCount": 50,
+      "price": "medium",
+      "imageUrl": "",
+      "description": "Private Boat, Bodrum seyahatinizde keşfetmeniz gereken, kendine has dokusu ve atmosferiyle öne çıkan özel bir noktadır.",
+      "description_en": "Private Boat is a unique spot in Bodrum with a distinctive atmosphere that we highly recommend exploring during your visit.",
+      "source": "google"
+    },
+    {
+      "id": "ChIJDS2LYhptvhQRLrjXycdhZ8A",
+      "name": "Gulet Bodrum Queen",
+      "name_en": "Gulet Bodrum Queen",
+      "category": "Deneyim",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.0355643,
+      "lng": 27.4285926,
+      "rating": 5,
+      "reviewCount": 3,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJDS2LYhptvhQRLrjXycdhZ8A.jpg",
+      "description": "Gulet Bodrum Queen, Bodrum seyahatinizde keşfetmeniz gereken, kendine has dokusu ve atmosferiyle öne çıkan özel bir noktadır.",
+      "description_en": "Gulet Bodrum Queen is a unique spot in Bodrum with a distinctive atmosphere that we highly recommend exploring during your visit.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJZTYhFuhtvhQRdl_PpJvdaVs",
+      "name": "Luna art tattoo bodrum",
+      "name_en": "Luna art tattoo bodrum",
+      "category": "Deneyim",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.0362422,
+      "lng": 27.4324621,
+      "rating": 5,
+      "reviewCount": 48,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJZTYhFuhtvhQRdl_PpJvdaVs.jpg",
+      "description": "Luna art tattoo bodrum, Bodrum seyahatinizde keşfetmeniz gereken, kendine has dokusu ve atmosferiyle öne çıkan özel bir noktadır.",
+      "description_en": "Luna art tattoo bodrum is a unique spot in Bodrum with a distinctive atmosphere that we highly recommend exploring during your visit.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJI3iUMEJsvhQRwyNePTwzYoo",
+      "name": "Alman Kulesi",
+      "name_en": "Alman Kulesi",
+      "category": "Deneyim",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.031938,
+      "lng": 27.4298648,
+      "rating": 4.5,
+      "reviewCount": 39,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJI3iUMEJsvhQRwyNePTwzYoo.jpg",
+      "description": "Alman Kulesi, Bodrum seyahatinizde keşfetmeniz gereken, kendine has dokusu ve atmosferiyle öne çıkan özel bir noktadır.",
+      "description_en": "Alman Kulesi is a unique spot in Bodrum with a distinctive atmosphere that we highly recommend exploring during your visit.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJSarmVuhtvhQRLe7rR5VyzsU",
+      "name": "Bodrum promenad",
+      "name_en": "Bodrum promenad",
+      "category": "Deneyim",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.0359983,
+      "lng": 27.4280831,
+      "rating": 4.8,
+      "reviewCount": 11,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJSarmVuhtvhQRLe7rR5VyzsU.jpg",
+      "description": "Bodrum promenad, Bodrum seyahatinizde keşfetmeniz gereken, kendine has dokusu ve atmosferiyle öne çıkan özel bir noktadır.",
+      "description_en": "Bodrum promenad is a unique spot in Bodrum with a distinctive atmosphere that we highly recommend exploring during your visit.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJPYDl6ottvxQRgD048VEX-KY",
+      "name": "Atrium Hotel",
+      "name_en": "Atrium Hotel",
+      "category": "Restoran",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.035863,
+      "lng": 27.435758,
+      "rating": 3.8,
+      "reviewCount": 733,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJPYDl6ottvxQRgD048VEX-KY.jpg",
+      "description": "Restoran, teras ve şezlonglu açık yüzme havuzu bulunan rahat otel.",
+      "description_en": "Atrium Hotel is a beautiful spot in Bodrum. A must-visit place.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJqTzbx0FsvhQR0zXtD-eoM7w",
+      "name": "Hillstone Bodrum Hotel& SPA",
+      "name_en": "Hillstone Bodrum Hotel& SPA",
+      "category": "Restoran",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.049406,
+      "lng": 27.442092,
+      "rating": 4.4,
+      "reviewCount": 951,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJqTzbx0FsvhQR0zXtD-eoM7w.jpg",
+      "description": "Sonsuzluk havuzu, spa ve 2 restoran seçeneği sunan, bir tepede yer alan sofistike otelde şık odalar.",
+      "description_en": "Hillstone Bodrum Hotel& SPA is a beautiful spot in Bodrum. A must-visit place.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJ22bCykFsvhQRG1PDjTyfECA",
+      "name": "Sevin Otel Bodrum",
+      "name_en": "Sevin Otel Bodrum",
+      "category": "Restoran",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.0349285,
+      "lng": 27.4308159,
+      "rating": 3.7,
+      "reviewCount": 478,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJ22bCykFsvhQRG1PDjTyfECA.jpg",
+      "description": "Teras restoranı ve ücretsiz WiFi sunan rahat otelde bazıları mini mutfaklı, mütevazı odalar.",
+      "description_en": "Sevin Otel Bodrum is a beautiful spot in Bodrum. A must-visit place.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJWYUGxK1tvhQR0iCNUnMPS_U",
+      "name": "Nagi Beach Hotel",
+      "name_en": "Nagi Beach Hotel",
+      "category": "Restoran",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.0330373,
+      "lng": 27.4032333,
+      "rating": 4.4,
+      "reviewCount": 689,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJWYUGxK1tvhQR0iCNUnMPS_U.jpg",
+      "description": "Restoranı, atıştırmalık barı, açık havuzu ve bahçesi olan, plaj kıyısındaki aydınlık tesis.",
+      "description_en": "Nagi Beach Hotel is a beautiful spot in Bodrum. A must-visit place.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJd1cC-bJtvhQRsN01C1T_ov0",
+      "name": "Queen's Apart Hotel",
+      "name_en": "Queen's Apart Hotel",
+      "category": "Restoran",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.0355529,
+      "lng": 27.4069911,
+      "rating": 3.9,
+      "reviewCount": 8,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJd1cC-bJtvhQRsN01C1T_ov0.jpg",
+      "description": "Queen's Apart Hotel, Bodrum seyahatinizde keşfetmeniz gereken, kendine has dokusu ve atmosferiyle öne çıkan özel bir noktadır.",
+      "description_en": "Queen's Apart Hotel is a unique spot in Bodrum with a distinctive atmosphere that we highly recommend exploring during your visit.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJNQTYPqZtvhQR-bQKEunNvQc",
+      "name": "AYAZ AQUA BEACH HOTEL",
+      "name_en": "AYAZ AQUA BEACH HOTEL",
+      "category": "Restoran",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.0298236,
+      "lng": 27.3949501,
+      "rating": 4,
+      "reviewCount": 1981,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJNQTYPqZtvhQR-bQKEunNvQc.jpg",
+      "description": "Ücretsiz kahvaltı, WiFi, açık havuz ve bar imkanları sunan rahat tesis.",
+      "description_en": "AYAZ AQUA BEACH HOTEL is a beautiful spot in Bodrum. A must-visit place.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJi1pPWGtsvhQRJ7N7Ypcc5Kk",
+      "name": "Delfi Hotel Spa & Wellness",
+      "name_en": "Delfi Hotel Spa & Wellness",
+      "category": "Restoran",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.0349591,
+      "lng": 27.437941,
+      "rating": 3.7,
+      "reviewCount": 470,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJi1pPWGtsvhQRJ7N7Ypcc5Kk.jpg",
+      "description": "Kahvaltı sunan, havuz bulunan mütevazı tesiste balkonlu/teraslı ve manzaralı rahat odalar.",
+      "description_en": "Delfi Hotel Spa & Wellness is a beautiful spot in Bodrum. A must-visit place.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJi1RysUtsvhQR-Vso6pE_bpE",
+      "name": "Doria Hotel Bodrum",
+      "name_en": "Doria Hotel Bodrum",
+      "category": "Restoran",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.028908,
+      "lng": 27.39096,
+      "rating": 4.4,
+      "reviewCount": 690,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJi1RysUtsvhQR-Vso6pE_bpE.jpg",
+      "description": "Açık yüzme havuzu, kafe/bar, restoran ve hamamlı spa alanı sunan şık otel.",
+      "description_en": "Doria Hotel Bodrum is a beautiful spot in Bodrum. A must-visit place.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJWeStgXZtvhQRGNA-9SWD1xk",
+      "name": "Okaliptus Otel",
+      "name_en": "Okaliptus Otel",
+      "category": "Restoran",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.028444,
+      "lng": 27.3802383,
+      "rating": 4,
+      "reviewCount": 408,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJWeStgXZtvhQRGNA-9SWD1xk.jpg",
+      "description": "Restorana, açık havuza ve barı olan özel plaja sahip rahat otelde sade tasarımlı odalar.",
+      "description_en": "Okaliptus Otel is a beautiful spot in Bodrum. A must-visit place.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJhRLxk2tsvhQRnK5D9PzNy94",
+      "name": "Dinç Pansiyon",
+      "name_en": "Dinç Pansiyon",
+      "category": "Restoran",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.0324518,
+      "lng": 27.4371265,
+      "rating": 4.5,
+      "reviewCount": 546,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJhRLxk2tsvhQRnK5D9PzNy94.jpg",
+      "description": "Dinç Pansiyon, Bodrum seyahatinizde keşfetmeniz gereken, kendine has dokusu ve atmosferiyle öne çıkan özel bir noktadır.",
+      "description_en": "Dinç Pansiyon is a unique spot in Bodrum with a distinctive atmosphere that we highly recommend exploring during your visit.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJXcGaawptvhQRbmQb73QW414",
+      "name": "L'onda Oda Bodrum",
+      "name_en": "L'onda Oda Bodrum",
+      "category": "Restoran",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.0371083,
+      "lng": 27.4263151,
+      "rating": 4.6,
+      "reviewCount": 201,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJXcGaawptvhQRbmQb73QW414.jpg",
+      "description": "Bar, gölgelikli bahçe ve kahvaltı bulunan rahat otelde WiFi olan havadar odalar.",
+      "description_en": "L'onda Oda Bodrum is a beautiful spot in Bodrum. A must-visit place.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJsboEmRZsvhQR_X3M0rRXZy4",
+      "name": "Bodrum",
+      "name_en": "Bodrum",
+      "category": "Restoran",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.0411252,
+      "lng": 27.4363007,
+      "rating": 4,
+      "reviewCount": 3,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJsboEmRZsvhQR_X3M0rRXZy4.jpg",
+      "description": "Bodrum, Bodrum seyahatinizde keşfetmeniz gereken, kendine has dokusu ve atmosferiyle öne çıkan özel bir noktadır.",
+      "description_en": "Bodrum is a unique spot in Bodrum with a distinctive atmosphere that we highly recommend exploring during your visit.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJ8YDmZ2psvhQRa5IpID3jnVk",
+      "name": "La Pasion Bodrum",
+      "name_en": "La Pasion Bodrum",
+      "category": "Restoran",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.0340618,
+      "lng": 27.4336615,
+      "rating": 4.4,
+      "reviewCount": 1515,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJ8YDmZ2psvhQRa5IpID3jnVk.jpg",
+      "description": "La Pasion Bodrum, Bodrum seyahatinizde keşfetmeniz gereken, kendine has dokusu ve atmosferiyle öne çıkan özel bir noktadır.",
+      "description_en": "La Pasion Bodrum is a unique spot in Bodrum with a distinctive atmosphere that we highly recommend exploring during your visit.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJM0TR6EFsvhQRKIerf6bxyo4",
+      "name": "Köşem Cafe & Restaurant & Bar",
+      "name_en": "Köşem Cafe & Restaurant & Bar",
+      "category": "Restoran",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.033568,
+      "lng": 27.430894,
+      "rating": 4.5,
+      "reviewCount": 342,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJM0TR6EFsvhQRKIerf6bxyo4.jpg",
+      "description": "Köşem Cafe & Restaurant & Bar, Bodrum seyahatinizde keşfetmeniz gereken, kendine has dokusu ve atmosferiyle öne çıkan özel bir noktadır.",
+      "description_en": "Köşem Cafe & Restaurant & Bar is a unique spot in Bodrum with a distinctive atmosphere that we highly recommend exploring during your visit.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJqQy7qUFsvhQRE4PAY5BPlGA",
+      "name": "Körfez Restoran",
+      "name_en": "Körfez Restoran",
+      "category": "Restoran",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.0358944,
+      "lng": 27.4296098,
+      "rating": 4.4,
+      "reviewCount": 80,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJqQy7qUFsvhQRE4PAY5BPlGA.jpg",
+      "description": "Körfez Restoran, Bodrum seyahatinizde keşfetmeniz gereken, kendine has dokusu ve atmosferiyle öne çıkan özel bir noktadır.",
+      "description_en": "Körfez Restoran is a unique spot in Bodrum with a distinctive atmosphere that we highly recommend exploring during your visit.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJ-68gG09svhQRffy0DOJ6d5U",
+      "name": "Limoon Eskiçeşme",
+      "name_en": "Limoon Eskiçeşme",
+      "category": "Restoran",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.0340361,
+      "lng": 27.4180029,
+      "rating": 4.1,
+      "reviewCount": 141,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJ-68gG09svhQRffy0DOJ6d5U.jpg",
+      "description": "Limoon Eskiçeşme, Bodrum seyahatinizde keşfetmeniz gereken, kendine has dokusu ve atmosferiyle öne çıkan özel bir noktadır.",
+      "description_en": "Limoon Eskiçeşme is a unique spot in Bodrum with a distinctive atmosphere that we highly recommend exploring during your visit.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJkemxm61tvhQRQUcS9VeDUd0",
+      "name": "Ayhan Suite Hotel Bodrum",
+      "name_en": "Ayhan Suite Hotel Bodrum",
+      "category": "Restoran",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.0332638,
+      "lng": 27.4051008,
+      "rating": 4.7,
+      "reviewCount": 122,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJkemxm61tvhQRQUcS9VeDUd0.jpg",
+      "description": "Ayhan Suite Hotel Bodrum, Bodrum seyahatinizde keşfetmeniz gereken, kendine has dokusu ve atmosferiyle öne çıkan özel bir noktadır.",
+      "description_en": "Ayhan Suite Hotel Bodrum is a unique spot in Bodrum with a distinctive atmosphere that we highly recommend exploring during your visit.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJqdSVl0FsvhQRrZzxtjiBLuw",
+      "name": "Alin's Kafe & Restoran",
+      "name_en": "Alin's Kafe & Restoran",
+      "category": "Restoran",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.033315,
+      "lng": 27.429386,
+      "rating": 3.4,
+      "reviewCount": 5,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJqdSVl0FsvhQRrZzxtjiBLuw.jpg",
+      "description": "Alin's Kafe & Restoran, Bodrum seyahatinizde keşfetmeniz gereken, kendine has dokusu ve atmosferiyle öne çıkan özel bir noktadır.",
+      "description_en": "Alin's Kafe & Restoran is a unique spot in Bodrum with a distinctive atmosphere that we highly recommend exploring during your visit.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJbdtkjkpsvhQR7JsfnRob1iE",
+      "name": "Begonvil",
+      "name_en": "Begonvil",
+      "category": "Restoran",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.0408191,
+      "lng": 27.4101983,
+      "rating": 4.5,
+      "reviewCount": 96,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJbdtkjkpsvhQR7JsfnRob1iE.jpg",
+      "description": "Begonvil, Bodrum seyahatinizde keşfetmeniz gereken, kendine has dokusu ve atmosferiyle öne çıkan özel bir noktadır.",
+      "description_en": "Begonvil is a unique spot in Bodrum with a distinctive atmosphere that we highly recommend exploring during your visit.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJK-csgUFsvhQRYAqNIGzk9M8",
+      "name": "Denizciler Derneği Cafe",
+      "name_en": "Denizciler Derneği Cafe",
+      "category": "Restoran",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.032764,
+      "lng": 27.4291171,
+      "rating": 4.2,
+      "reviewCount": 565,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJK-csgUFsvhQRYAqNIGzk9M8.jpg",
+      "description": "Denizciler Derneği Cafe, Bodrum seyahatinizde keşfetmeniz gereken, kendine has dokusu ve atmosferiyle öne çıkan özel bir noktadır.",
+      "description_en": "Denizciler Derneği Cafe is a unique spot in Bodrum with a distinctive atmosphere that we highly recommend exploring during your visit.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJhRediEFsvhQRTJA3jjWxbKc",
+      "name": "Starbucks",
+      "name_en": "Starbucks",
+      "category": "Restoran",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.0329546,
+      "lng": 27.4306231,
+      "rating": 4.1,
+      "reviewCount": 1382,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJhRediEFsvhQRTJA3jjWxbKc.jpg",
+      "description": "Welcoming coffeehouse with handcrafted coffee, espresso & tea, plus breakfast, lunch & pastries.",
+      "description_en": "Starbucks is a beautiful spot in Bodrum. A must-visit place.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJq-MfIkJsvhQRTX8kfiJT3T8",
+      "name": "Trafo Cafe & Restaurant - Bodrum Belediye A.Ş.",
+      "name_en": "Trafo Cafe & Restaurant - Bodrum Belediye A.Ş.",
+      "category": "Restoran",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.0325692,
+      "lng": 27.4302743,
+      "rating": 4.4,
+      "reviewCount": 1314,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJq-MfIkJsvhQRTX8kfiJT3T8.jpg",
+      "description": "Trafo Cafe & Restaurant - Bodrum Belediye A.Ş., Bodrum seyahatinizde keşfetmeniz gereken, kendine has dokusu ve atmosferiyle öne çıkan özel bir noktadır.",
+      "description_en": "Trafo Cafe & Restaurant - Bodrum Belediye A.Ş. is a unique spot in Bodrum with a distinctive atmosphere that we highly recommend exploring during your visit.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJjc4v-2psvhQRZchk2DNGQEk",
+      "name": "Kraft Bistro",
+      "name_en": "Kraft Bistro",
+      "category": "Restoran",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.0337151,
+      "lng": 27.4343969,
+      "rating": 4.7,
+      "reviewCount": 399,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJjc4v-2psvhQRZchk2DNGQEk.jpg",
+      "description": "Kraft Bistro, Bodrum seyahatinizde keşfetmeniz gereken, kendine has dokusu ve atmosferiyle öne çıkan özel bir noktadır.",
+      "description_en": "Kraft Bistro is a unique spot in Bodrum with a distinctive atmosphere that we highly recommend exploring during your visit.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJI-ZtIhVsvhQRZalWpsodPX8",
+      "name": "Shell",
+      "name_en": "Shell",
+      "category": "Restoran",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.037771,
+      "lng": 27.434645,
+      "rating": 2.5,
+      "reviewCount": 41,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJI-ZtIhVsvhQRZalWpsodPX8.jpg",
+      "description": "Shell, Bodrum seyahatinizde keşfetmeniz gereken, kendine has dokusu ve atmosferiyle öne çıkan özel bir noktadır.",
+      "description_en": "Shell is a unique spot in Bodrum with a distinctive atmosphere that we highly recommend exploring during your visit.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJi_2ptRRsvhQR-Bd8n12gk-Y",
+      "name": "CEBECIZADE TURK KAHVESI",
+      "name_en": "CEBECIZADE TURK KAHVESI",
+      "category": "Restoran",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.0361891,
+      "lng": 27.4367093,
+      "rating": 4.8,
+      "reviewCount": 90,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJi_2ptRRsvhQR-Bd8n12gk-Y.jpg",
+      "description": "CEBECIZADE TURK KAHVESI, Bodrum seyahatinizde keşfetmeniz gereken, kendine has dokusu ve atmosferiyle öne çıkan özel bir noktadır.",
+      "description_en": "CEBECIZADE TURK KAHVESI is a unique spot in Bodrum with a distinctive atmosphere that we highly recommend exploring during your visit.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJORu_I5RtvhQRLywaCbSzbfE",
+      "name": "NLT Pazarlama Bodrum",
+      "name_en": "NLT Pazarlama Bodrum",
+      "category": "Restoran",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.0388309,
+      "lng": 27.4343269,
+      "rating": 4.3,
+      "reviewCount": 3,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJORu_I5RtvhQRLywaCbSzbfE.jpg",
+      "description": "NLT Pazarlama Bodrum, Bodrum seyahatinizde keşfetmeniz gereken, kendine has dokusu ve atmosferiyle öne çıkan özel bir noktadır.",
+      "description_en": "NLT Pazarlama Bodrum is a unique spot in Bodrum with a distinctive atmosphere that we highly recommend exploring during your visit.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJAe2jwoZtvhQRtncU5-x6lRU",
+      "name": "MUSTO BİSTRO",
+      "name_en": "MUSTO BİSTRO",
+      "category": "Restoran",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.036036,
+      "lng": 27.4233123,
+      "rating": 4.6,
+      "reviewCount": 1678,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJAe2jwoZtvhQRtncU5-x6lRU.jpg",
+      "description": "MUSTO BİSTRO, Bodrum seyahatinizde keşfetmeniz gereken, kendine has dokusu ve atmosferiyle öne çıkan özel bir noktadır.",
+      "description_en": "MUSTO BİSTRO is a unique spot in Bodrum with a distinctive atmosphere that we highly recommend exploring during your visit.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJK97530VsvhQRbOHNommjJ3Y",
+      "name": "Kahve Dünyası - Bodrum Marina",
+      "name_en": "Kahve Dünyası - Bodrum Marina",
+      "category": "Restoran",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.034743,
+      "lng": 27.421911,
+      "rating": 4,
+      "reviewCount": 981,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJK97530VsvhQRbOHNommjJ3Y.jpg",
+      "description": "Kahve Dünyası - Bodrum Marina, Bodrum seyahatinizde keşfetmeniz gereken, kendine has dokusu ve atmosferiyle öne çıkan özel bir noktadır.",
+      "description_en": "Kahve Dünyası - Bodrum Marina is a unique spot in Bodrum with a distinctive atmosphere that we highly recommend exploring during your visit.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJSeOVoDVsvhQRue5Q1TPlquM",
+      "name": "Cafe De Nargile",
+      "name_en": "Cafe De Nargile",
+      "category": "Restoran",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.0418453,
+      "lng": 27.4118043,
+      "rating": 3.8,
+      "reviewCount": 322,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJSeOVoDVsvhQRue5Q1TPlquM.jpg",
+      "description": "Cafe De Nargile, Bodrum seyahatinizde keşfetmeniz gereken, kendine has dokusu ve atmosferiyle öne çıkan özel bir noktadır.",
+      "description_en": "Cafe De Nargile is a unique spot in Bodrum with a distinctive atmosphere that we highly recommend exploring during your visit.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJ05IvyqxtvhQRS8aGHmWp-Ic",
+      "name": "Gumbet Belediye Cafe",
+      "name_en": "Gumbet Belediye Cafe",
+      "category": "Restoran",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.02972219999999,
+      "lng": 27.4083333,
+      "rating": 4.2,
+      "reviewCount": 899,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJ05IvyqxtvhQRS8aGHmWp-Ic.jpg",
+      "description": "Gumbet Belediye Cafe, Bodrum seyahatinizde keşfetmeniz gereken, kendine has dokusu ve atmosferiyle öne çıkan özel bir noktadır.",
+      "description_en": "Gumbet Belediye Cafe is a unique spot in Bodrum with a distinctive atmosphere that we highly recommend exploring during your visit.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJx7ELzMltvhQReWLUOM3OboU",
+      "name": "Starbucks",
+      "name_en": "Starbucks",
+      "category": "Restoran",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.0461753,
+      "lng": 27.3998905,
+      "rating": 4.1,
+      "reviewCount": 595,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJx7ELzMltvhQReWLUOM3OboU.jpg",
+      "description": "Welcoming coffeehouse with handcrafted coffee, espresso & tea, plus breakfast, lunch & pastries.",
+      "description_en": "Starbucks is a beautiful spot in Bodrum. A must-visit place.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJtZF5TEBsvhQRRCkwKvKDaS0",
+      "name": "Gusto Cafe Bodrum",
+      "name_en": "Gusto Cafe Bodrum",
+      "category": "Restoran",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.0483699,
+      "lng": 27.3837327,
+      "rating": 4.7,
+      "reviewCount": 87,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJtZF5TEBsvhQRRCkwKvKDaS0.jpg",
+      "description": "Gusto Cafe Bodrum, Bodrum seyahatinizde keşfetmeniz gereken, kendine has dokusu ve atmosferiyle öne çıkan özel bir noktadır.",
+      "description_en": "Gusto Cafe Bodrum is a unique spot in Bodrum with a distinctive atmosphere that we highly recommend exploring during your visit.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJmWqoB0ppvhQRFYsf1rQ4iUg",
+      "name": "KARYA FIRIN",
+      "name_en": "KARYA FIRIN",
+      "category": "Restoran",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.0679528,
+      "lng": 27.463725,
+      "rating": 3.7,
+      "reviewCount": 441,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJmWqoB0ppvhQRFYsf1rQ4iUg.jpg",
+      "description": "KARYA FIRIN, Bodrum seyahatinizde keşfetmeniz gereken, kendine has dokusu ve atmosferiyle öne çıkan özel bir noktadır.",
+      "description_en": "KARYA FIRIN is a unique spot in Bodrum with a distinctive atmosphere that we highly recommend exploring during your visit.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJdVQ6hIhyvhQR4lKt-3iXuq8",
+      "name": "Bodrum Lokum bitez mağaza - K.Plus Gıda .A.Ş",
+      "name_en": "Bodrum Lokum bitez mağaza - K.Plus Gıda .A.Ş",
+      "category": "Restoran",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.0525846,
+      "lng": 27.3809039,
+      "rating": 4.1,
+      "reviewCount": 89,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJdVQ6hIhyvhQR4lKt-3iXuq8.jpg",
+      "description": "Bodrum Lokum bitez mağaza - K.Plus Gıda .A.Ş, Bodrum seyahatinizde keşfetmeniz gereken, kendine has dokusu ve atmosferiyle öne çıkan özel bir noktadır.",
+      "description_en": "Bodrum Lokum bitez mağaza - K.Plus Gıda .A.Ş is a unique spot in Bodrum with a distinctive atmosphere that we highly recommend exploring during your visit.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJmaQ6ykFsvhQRitDApyHFZoc",
+      "name": "Kaya Apart & Pansiyon Bodrum",
+      "name_en": "Kaya Apart & Pansiyon Bodrum",
+      "category": "Restoran",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.0353324,
+      "lng": 27.4313478,
+      "rating": 4.7,
+      "reviewCount": 59,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJmaQ6ykFsvhQRitDApyHFZoc.jpg",
+      "description": "Kaya Apart & Pansiyon Bodrum, Bodrum seyahatinizde keşfetmeniz gereken, kendine has dokusu ve atmosferiyle öne çıkan özel bir noktadır.",
+      "description_en": "Kaya Apart & Pansiyon Bodrum is a unique spot in Bodrum with a distinctive atmosphere that we highly recommend exploring during your visit.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJsWAj8kFsvhQRLH1X-dEtRjY",
+      "name": "Starbucks",
+      "name_en": "Starbucks",
+      "category": "Restoran",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.0364832,
+      "lng": 27.4260419,
+      "rating": 4.1,
+      "reviewCount": 1543,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJsWAj8kFsvhQRLH1X-dEtRjY.jpg",
+      "description": "Welcoming coffeehouse with handcrafted coffee, espresso & tea, plus breakfast, lunch & pastries.",
+      "description_en": "Starbucks is a beautiful spot in Bodrum. A must-visit place.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJmzcm7ShtvhQRfcunhiMLJfs",
+      "name": "Eylül cafe",
+      "name_en": "Eylül cafe",
+      "category": "Restoran",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.034407,
+      "lng": 27.43054,
+      "rating": 4.5,
+      "reviewCount": 50,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJmzcm7ShtvhQRfcunhiMLJfs.jpg",
+      "description": "Eylül cafe, Bodrum seyahatinizde keşfetmeniz gereken, kendine has dokusu ve atmosferiyle öne çıkan özel bir noktadır.",
+      "description_en": "Eylül cafe is a unique spot in Bodrum with a distinctive atmosphere that we highly recommend exploring during your visit.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJwZiSjkFsvhQRkKTID3XwLXc",
+      "name": "Adamik",
+      "name_en": "Adamik",
+      "category": "Deneyim",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.0331342,
+      "lng": 27.4302051,
+      "rating": 4.7,
+      "reviewCount": 63,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJwZiSjkFsvhQRkKTID3XwLXc.jpg",
+      "description": "Adamik, Bodrum seyahatinizde keşfetmeniz gereken, kendine has dokusu ve atmosferiyle öne çıkan özel bir noktadır.",
+      "description_en": "Adamik is a unique spot in Bodrum with a distinctive atmosphere that we highly recommend exploring during your visit.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJCe-RH0JsvhQRuP76Sp1sTf0",
+      "name": "Eski Hesap Kullanılmıyor",
+      "name_en": "Eski Hesap Kullanılmıyor",
+      "category": "Deneyim",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.0278788,
+      "lng": 27.4410026,
+      "rating": 3.1,
+      "reviewCount": 701,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJCe-RH0JsvhQRuP76Sp1sTf0.jpg",
+      "description": "Eski Hesap Kullanılmıyor, Bodrum seyahatinizde keşfetmeniz gereken, kendine has dokusu ve atmosferiyle öne çıkan özel bir noktadır.",
+      "description_en": "Eski Hesap Kullanılmıyor is a unique spot in Bodrum with a distinctive atmosphere that we highly recommend exploring during your visit.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJtZF5TEBsvhQRVgr_3kQko1M",
+      "name": "Posh Club Bodrum",
+      "name_en": "Posh Club Bodrum",
+      "category": "Deneyim",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.0337315,
+      "lng": 27.4035199,
+      "rating": 3.3,
+      "reviewCount": 167,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJtZF5TEBsvhQRVgr_3kQko1M.jpg",
+      "description": "Posh Club Bodrum, Bodrum seyahatinizde keşfetmeniz gereken, kendine has dokusu ve atmosferiyle öne çıkan özel bir noktadır.",
+      "description_en": "Posh Club Bodrum is a unique spot in Bodrum with a distinctive atmosphere that we highly recommend exploring during your visit.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJERNBYgBtvhQRjLxNasNJ_RY",
+      "name": "Beach club",
+      "name_en": "Beach club",
+      "category": "Deneyim",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.034407,
+      "lng": 27.43054,
+      "rating": 4.5,
+      "reviewCount": 50,
+      "price": "medium",
+      "imageUrl": "",
+      "description": "Beach club, Bodrum seyahatinizde keşfetmeniz gereken, kendine has dokusu ve atmosferiyle öne çıkan özel bir noktadır.",
+      "description_en": "Beach club is a unique spot in Bodrum with a distinctive atmosphere that we highly recommend exploring during your visit.",
+      "source": "google"
+    },
+    {
+      "id": "ChIJ0e76yRFtvhQRJsIHX87Mzy8",
+      "name": "Oxso Bodrum",
+      "name_en": "Oxso Bodrum",
+      "category": "Deneyim",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.0347705,
+      "lng": 27.4312709,
+      "rating": 4.5,
+      "reviewCount": 50,
+      "price": "medium",
+      "imageUrl": "",
+      "description": "Oxso Bodrum, Bodrum seyahatinizde keşfetmeniz gereken, kendine has dokusu ve atmosferiyle öne çıkan özel bir noktadır.",
+      "description_en": "Oxso Bodrum is a unique spot in Bodrum with a distinctive atmosphere that we highly recommend exploring during your visit.",
+      "source": "google"
+    },
+    {
+      "id": "ChIJc2w-jFRtvhQR6DXQ96rSn6Y",
+      "name": "Vittoria Bodrum",
+      "name_en": "Vittoria Bodrum",
+      "category": "Deneyim",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.034792,
+      "lng": 27.431273,
+      "rating": 3.6,
+      "reviewCount": 70,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJc2w-jFRtvhQR6DXQ96rSn6Y.jpg",
+      "description": "Vittoria Bodrum, Bodrum seyahatinizde keşfetmeniz gereken, kendine has dokusu ve atmosferiyle öne çıkan özel bir noktadır.",
+      "description_en": "Vittoria Bodrum is a unique spot in Bodrum with a distinctive atmosphere that we highly recommend exploring during your visit.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJ-8wRitVtvhQR2StQxK0I0QA",
+      "name": "THİSCO KARAOKE",
+      "name_en": "THİSCO KARAOKE",
+      "category": "Deneyim",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.0350195,
+      "lng": 27.4317818,
+      "rating": 5,
+      "reviewCount": 12,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJ-8wRitVtvhQR2StQxK0I0QA.jpg",
+      "description": "THİSCO KARAOKE, Bodrum seyahatinizde keşfetmeniz gereken, kendine has dokusu ve atmosferiyle öne çıkan özel bir noktadır.",
+      "description_en": "THİSCO KARAOKE is a unique spot in Bodrum with a distinctive atmosphere that we highly recommend exploring during your visit.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJQ6G7WQBtvhQRHVhEG1BAnMk",
+      "name": "THİSCO KARAOKE",
+      "name_en": "THİSCO KARAOKE",
+      "category": "Deneyim",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.0350063,
+      "lng": 27.4318555,
+      "rating": 4.5,
+      "reviewCount": 50,
+      "price": "medium",
+      "imageUrl": "",
+      "description": "THİSCO KARAOKE, Bodrum seyahatinizde keşfetmeniz gereken, kendine has dokusu ve atmosferiyle öne çıkan özel bir noktadır.",
+      "description_en": "THİSCO KARAOKE is a unique spot in Bodrum with a distinctive atmosphere that we highly recommend exploring during your visit.",
+      "source": "google"
+    },
+    {
+      "id": "ChIJ7VavnTJtvhQRYltI428Aywo",
+      "name": "Catamaran Club Bodrum",
+      "name_en": "Catamaran Club Bodrum",
+      "category": "Deneyim",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.0327505,
+      "lng": 27.430967,
+      "rating": 4.1,
+      "reviewCount": 197,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJ7VavnTJtvhQRYltI428Aywo.jpg",
+      "description": "Catamaran Club Bodrum, Bodrum seyahatinizde keşfetmeniz gereken, kendine has dokusu ve atmosferiyle öne çıkan özel bir noktadır.",
+      "description_en": "Catamaran Club Bodrum is a unique spot in Bodrum with a distinctive atmosphere that we highly recommend exploring during your visit.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJb-e85kBsvhQRmUfmVyvidYw",
+      "name": "PORTO Bodrum",
+      "name_en": "PORTO Bodrum",
+      "category": "Deneyim",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.036139,
+      "lng": 27.4282233,
+      "rating": 3.7,
+      "reviewCount": 30,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJb-e85kBsvhQRmUfmVyvidYw.jpg",
+      "description": "PORTO Bodrum, Bodrum seyahatinizde keşfetmeniz gereken, kendine has dokusu ve atmosferiyle öne çıkan özel bir noktadır.",
+      "description_en": "PORTO Bodrum is a unique spot in Bodrum with a distinctive atmosphere that we highly recommend exploring during your visit.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJtyO-B5FtvhQR6dOXSv4GGco",
+      "name": "KAVALYE BAR",
+      "name_en": "KAVALYE BAR",
+      "category": "Deneyim",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.0333412,
+      "lng": 27.4342654,
+      "rating": 4,
+      "reviewCount": 193,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJtyO-B5FtvhQR6dOXSv4GGco.jpg",
+      "description": "KAVALYE BAR, Bodrum seyahatinizde keşfetmeniz gereken, kendine has dokusu ve atmosferiyle öne çıkan özel bir noktadır.",
+      "description_en": "KAVALYE BAR is a unique spot in Bodrum with a distinctive atmosphere that we highly recommend exploring during your visit.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJPeGf0EBsvhQRB-m0Tb1yKQI",
+      "name": "WI CLUB BODRUM",
+      "name_en": "WI CLUB BODRUM",
+      "category": "Deneyim",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.0363997,
+      "lng": 27.4271797,
+      "rating": 2.7,
+      "reviewCount": 75,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJPeGf0EBsvhQRB-m0Tb1yKQI.jpg",
+      "description": "WI CLUB BODRUM, Bodrum seyahatinizde keşfetmeniz gereken, kendine has dokusu ve atmosferiyle öne çıkan özel bir noktadır.",
+      "description_en": "WI CLUB BODRUM is a unique spot in Bodrum with a distinctive atmosphere that we highly recommend exploring during your visit.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJlbimwI1tvhQRnlLHdewXdmg",
+      "name": "Kim Bodrum",
+      "name_en": "Kim Bodrum",
+      "category": "Deneyim",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.0320016,
+      "lng": 27.4379247,
+      "rating": 5,
+      "reviewCount": 15,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJlbimwI1tvhQRnlLHdewXdmg.jpg",
+      "description": "Kim Bodrum, Bodrum seyahatinizde keşfetmeniz gereken, kendine has dokusu ve atmosferiyle öne çıkan özel bir noktadır.",
+      "description_en": "Kim Bodrum is a unique spot in Bodrum with a distinctive atmosphere that we highly recommend exploring during your visit.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJQ09mkmtsvhQRNqdvjh0bSyM",
+      "name": "Halikarnas Disco",
+      "name_en": "Halikarnas Disco",
+      "category": "Deneyim",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.0300243,
+      "lng": 27.4383895,
+      "rating": 4.5,
+      "reviewCount": 21,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJQ09mkmtsvhQRNqdvjh0bSyM.jpg",
+      "description": "Halikarnas Disco, Bodrum seyahatinizde keşfetmeniz gereken, kendine has dokusu ve atmosferiyle öne çıkan özel bir noktadır.",
+      "description_en": "Halikarnas Disco is a unique spot in Bodrum with a distinctive atmosphere that we highly recommend exploring during your visit.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJJX4-S9NtvhQRqvgtJmkP3qc",
+      "name": "Bodrum Sobe Gaga VIP After Night Club",
+      "name_en": "Bodrum Sobe Gaga VIP After Night Club",
+      "category": "Deneyim",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.038077,
+      "lng": 27.4126076,
+      "rating": 1,
+      "reviewCount": 1,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJJX4-S9NtvhQRqvgtJmkP3qc.jpg",
+      "description": "Bodrum Sobe Gaga VIP After Night Club, Bodrum seyahatinizde keşfetmeniz gereken, kendine has dokusu ve atmosferiyle öne çıkan özel bir noktadır.",
+      "description_en": "Bodrum Sobe Gaga VIP After Night Club is a unique spot in Bodrum with a distinctive atmosphere that we highly recommend exploring during your visit.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJMfqTsk5tvhQRFg0IBMaZi_Q",
+      "name": "Unique Bodrum",
+      "name_en": "Unique Bodrum",
+      "category": "Deneyim",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.0237243,
+      "lng": 27.4174339,
+      "rating": 4.6,
+      "reviewCount": 7,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJMfqTsk5tvhQRFg0IBMaZi_Q.jpg",
+      "description": "Unique Bodrum, Bodrum seyahatinizde keşfetmeniz gereken, kendine has dokusu ve atmosferiyle öne çıkan özel bir noktadır.",
+      "description_en": "Unique Bodrum is a unique spot in Bodrum with a distinctive atmosphere that we highly recommend exploring during your visit.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJ89XFAVdsvhQRGo3VxmBp7SU",
+      "name": "Disco",
+      "name_en": "Disco",
+      "category": "Deneyim",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.023629,
+      "lng": 27.4175291,
+      "rating": 3.5,
+      "reviewCount": 2,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJ89XFAVdsvhQRGo3VxmBp7SU.jpg",
+      "description": "Disco, Bodrum seyahatinizde keşfetmeniz gereken, kendine has dokusu ve atmosferiyle öne çıkan özel bir noktadır.",
+      "description_en": "Disco is a unique spot in Bodrum with a distinctive atmosphere that we highly recommend exploring during your visit.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJB_yb-r9tvhQROiQihBkX0pU",
+      "name": "Cavalli Bodrum",
+      "name_en": "Cavalli Bodrum",
+      "category": "Deneyim",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.02368999999999,
+      "lng": 27.4174339,
+      "rating": 2.6,
+      "reviewCount": 15,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJB_yb-r9tvhQROiQihBkX0pU.jpg",
+      "description": "Cavalli Bodrum, Bodrum seyahatinizde keşfetmeniz gereken, kendine has dokusu ve atmosferiyle öne çıkan özel bir noktadır.",
+      "description_en": "Cavalli Bodrum is a unique spot in Bodrum with a distinctive atmosphere that we highly recommend exploring during your visit.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJG_gU7lNtvhQR8Y7JbZSpJp4",
+      "name": "Nox Bodrum",
+      "name_en": "Nox Bodrum",
+      "category": "Deneyim",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.0239534,
+      "lng": 27.4164898,
+      "rating": 2.3,
+      "reviewCount": 14,
+      "price": "medium",
+      "imageUrl": "",
+      "description": "Nox Bodrum, Bodrum seyahatinizde keşfetmeniz gereken, kendine has dokusu ve atmosferiyle öne çıkan özel bir noktadır.",
+      "description_en": "Nox Bodrum is a unique spot in Bodrum with a distinctive atmosphere that we highly recommend exploring during your visit.",
+      "source": "google"
+    },
+    {
+      "id": "ChIJKYS03kVsvhQRTFlwnRjb6jo",
+      "name": "Osmanlı Tersanesi Sanat Galerisi",
+      "name_en": "Osmanlı Tersanesi Sanat Galerisi",
+      "category": "Tarihi",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.0337989,
+      "lng": 27.4218444,
+      "rating": 4.1,
+      "reviewCount": 40,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJKYS03kVsvhQRTFlwnRjb6jo.jpg",
+      "description": "Osmanlı Tersanesi Sanat Galerisi, Bodrum seyahatinizde keşfetmeniz gereken, kendine has dokusu ve atmosferiyle öne çıkan özel bir noktadır.",
+      "description_en": "Osmanlı Tersanesi Sanat Galerisi is a unique spot in Bodrum with a distinctive atmosphere that we highly recommend exploring during your visit.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJR7ZX9rRtvhQRVqh04PgpmjQ",
+      "name": "Halikarnas Balıkçısı Müzesi",
+      "name_en": "Halikarnas Balıkçısı Müzesi",
+      "category": "Tarihi",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.040302,
+      "lng": 27.4056728,
+      "rating": 4.4,
+      "reviewCount": 136,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJR7ZX9rRtvhQRVqh04PgpmjQ.jpg",
+      "description": "Halikarnas Balıkçısı Müzesi, Bodrum seyahatinizde keşfetmeniz gereken, kendine has dokusu ve atmosferiyle öne çıkan özel bir noktadır.",
+      "description_en": "Halikarnas Balıkçısı Müzesi is a unique spot in Bodrum with a distinctive atmosphere that we highly recommend exploring during your visit.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJzVtejwBtvhQR9boP_8ap388",
+      "name": "Akyarlar bodrum",
+      "name_en": "Akyarlar bodrum",
+      "category": "Tarihi",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.034407,
+      "lng": 27.43054,
+      "rating": 4.9,
+      "reviewCount": 49,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJzVtejwBtvhQR9boP_8ap388.jpg",
+      "description": "Akyarlar bodrum, Bodrum seyahatinizde keşfetmeniz gereken, kendine has dokusu ve atmosferiyle öne çıkan özel bir noktadır.",
+      "description_en": "Akyarlar bodrum is a unique spot in Bodrum with a distinctive atmosphere that we highly recommend exploring during your visit.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJp7D-tZ1tvhQRMgtX5CaW6As",
+      "name": "Serçe Limanı Cam Batığı Sergisi",
+      "name_en": "Serçe Limanı Cam Batığı Sergisi",
+      "category": "Tarihi",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.0319938,
+      "lng": 27.4288782,
+      "rating": 4.1,
+      "reviewCount": 16,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJp7D-tZ1tvhQRMgtX5CaW6As.jpg",
+      "description": "Serçe Limanı Cam Batığı Sergisi, Bodrum seyahatinizde keşfetmeniz gereken, kendine has dokusu ve atmosferiyle öne çıkan özel bir noktadır.",
+      "description_en": "Serçe Limanı Cam Batığı Sergisi is a unique spot in Bodrum with a distinctive atmosphere that we highly recommend exploring during your visit.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJY6eHGgBtvhQR1izXZIIzH14",
+      "name": "Bodrum Castle Tickets and Entrance",
+      "name_en": "Bodrum Castle Tickets and Entrance",
+      "category": "Tarihi",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.0322106,
+      "lng": 27.4283321,
+      "rating": 4.4,
+      "reviewCount": 14,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJY6eHGgBtvhQR1izXZIIzH14.jpg",
+      "description": "Bodrum Castle Tickets and Entrance, Bodrum seyahatinizde keşfetmeniz gereken, kendine has dokusu ve atmosferiyle öne çıkan özel bir noktadır.",
+      "description_en": "Bodrum Castle Tickets and Entrance is a unique spot in Bodrum with a distinctive atmosphere that we highly recommend exploring during your visit.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJ3xrHykNsvhQRe4JG9zohK_8",
+      "name": "Karia Princess Museum",
+      "name_en": "Karia Princess Museum",
+      "category": "Tarihi",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.0317757,
+      "lng": 27.4292118,
+      "rating": 4.6,
+      "reviewCount": 29,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJ3xrHykNsvhQRe4JG9zohK_8.jpg",
+      "description": "Karia Princess Museum, Bodrum seyahatinizde keşfetmeniz gereken, kendine has dokusu ve atmosferiyle öne çıkan özel bir noktadır.",
+      "description_en": "Karia Princess Museum is a unique spot in Bodrum with a distinctive atmosphere that we highly recommend exploring during your visit.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJXzLCWmpsvhQRqbRDZHqZIVA",
+      "name": "Bodrum Belediyesi Kent Müzesi",
+      "name_en": "Bodrum Belediyesi Kent Müzesi",
+      "category": "Tarihi",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.0336157,
+      "lng": 27.4342299,
+      "rating": 4.1,
+      "reviewCount": 10,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJXzLCWmpsvhQRqbRDZHqZIVA.jpg",
+      "description": "Bodrum Belediyesi Kent Müzesi, Bodrum seyahatinizde keşfetmeniz gereken, kendine has dokusu ve atmosferiyle öne çıkan özel bir noktadır.",
+      "description_en": "Bodrum Belediyesi Kent Müzesi is a unique spot in Bodrum with a distinctive atmosphere that we highly recommend exploring during your visit.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJ3X7RgdNtvhQR3b-hCXmqRFo",
+      "name": "Mars Tapınağı",
+      "name_en": "Mars Tapınağı",
+      "category": "Tarihi",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.0403729,
+      "lng": 27.4267781,
+      "rating": 4.5,
+      "reviewCount": 50,
+      "price": "medium",
+      "imageUrl": "",
+      "description": "Mars Tapınağı, Bodrum seyahatinizde keşfetmeniz gereken, kendine has dokusu ve atmosferiyle öne çıkan özel bir noktadır.",
+      "description_en": "Mars Tapınağı is a unique spot in Bodrum with a distinctive atmosphere that we highly recommend exploring during your visit.",
+      "source": "google"
+    },
+    {
+      "id": "ChIJs8QDpfBtvhQRsVN0gf_QnTg",
+      "name": "cafer paşa türbesi",
+      "name_en": "cafer paşa türbesi",
+      "category": "Tarihi",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.0337896,
+      "lng": 27.4217837,
+      "rating": 5,
+      "reviewCount": 4,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJs8QDpfBtvhQRsVN0gf_QnTg.jpg",
+      "description": "cafer paşa türbesi, Bodrum seyahatinizde keşfetmeniz gereken, kendine has dokusu ve atmosferiyle öne çıkan özel bir noktadır.",
+      "description_en": "cafer paşa türbesi is a unique spot in Bodrum with a distinctive atmosphere that we highly recommend exploring during your visit.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJoZxPh3dtvhQRiI3eN0OEs8Y",
+      "name": "Müze",
+      "name_en": "Müze",
+      "category": "Tarihi",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.0419597,
+      "lng": 27.4284742,
+      "rating": 4.5,
+      "reviewCount": 50,
+      "price": "medium",
+      "imageUrl": "",
+      "description": "Müze, Bodrum seyahatinizde keşfetmeniz gereken, kendine has dokusu ve atmosferiyle öne çıkan özel bir noktadır.",
+      "description_en": "Müze is a unique spot in Bodrum with a distinctive atmosphere that we highly recommend exploring during your visit.",
+      "source": "google"
+    },
+    {
+      "id": "ChIJXaB5XPVtvhQR4SoW9PBy4RI",
+      "name": "Art Halicarnassus",
+      "name_en": "Art Halicarnassus",
+      "category": "Tarihi",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.0333338,
+      "lng": 27.4173942,
+      "rating": 5,
+      "reviewCount": 1,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJXaB5XPVtvhQR4SoW9PBy4RI.jpg",
+      "description": "Art Halicarnassus, Bodrum seyahatinizde keşfetmeniz gereken, kendine has dokusu ve atmosferiyle öne çıkan özel bir noktadır.",
+      "description_en": "Art Halicarnassus is a unique spot in Bodrum with a distinctive atmosphere that we highly recommend exploring during your visit.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJ03th5PVtvhQRPKhQHbpeQWc",
+      "name": "Antik Mezarlar",
+      "name_en": "Antik Mezarlar",
+      "category": "Tarihi",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.0418756,
+      "lng": 27.4155161,
+      "rating": 3.3,
+      "reviewCount": 3,
+      "price": "medium",
+      "imageUrl": "",
+      "description": "Antik Mezarlar, Bodrum seyahatinizde keşfetmeniz gereken, kendine has dokusu ve atmosferiyle öne çıkan özel bir noktadır.",
+      "description_en": "Antik Mezarlar is a unique spot in Bodrum with a distinctive atmosphere that we highly recommend exploring during your visit.",
+      "source": "google"
+    },
+    {
+      "id": "ChIJ4WVjYlttvhQRctLEnHWMBos",
+      "name": "Gümbet Yeldeğirmenleri",
+      "name_en": "Gümbet Yeldeğirmenleri",
+      "category": "Tarihi",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.0256406,
+      "lng": 27.4137647,
+      "rating": 4.3,
+      "reviewCount": 138,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJ4WVjYlttvhQRctLEnHWMBos.jpg",
+      "description": "Gümbet Yeldeğirmenleri, Bodrum seyahatinizde keşfetmeniz gereken, kendine has dokusu ve atmosferiyle öne çıkan özel bir noktadır.",
+      "description_en": "Gümbet Yeldeğirmenleri is a unique spot in Bodrum with a distinctive atmosphere that we highly recommend exploring during your visit.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJCzyhazJsvhQRzI8CRd-TFAs",
+      "name": "Kadir Akorak Atölyesi",
+      "name_en": "Kadir Akorak Atölyesi",
+      "category": "Tarihi",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.0508607,
+      "lng": 27.4128319,
+      "rating": 2.9,
+      "reviewCount": 14,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJCzyhazJsvhQRzI8CRd-TFAs.jpg",
+      "description": "Kadir Akorak Atölyesi, Bodrum seyahatinizde keşfetmeniz gereken, kendine has dokusu ve atmosferiyle öne çıkan özel bir noktadır.",
+      "description_en": "Kadir Akorak Atölyesi is a unique spot in Bodrum with a distinctive atmosphere that we highly recommend exploring during your visit.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJR5xuIGpxvhQR8C0FHk1nx0E",
+      "name": "Simge Yachting",
+      "name_en": "Simge Yachting",
+      "category": "Deneyim",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.1051077,
+      "lng": 27.2896952,
+      "rating": 4.9,
+      "reviewCount": 11,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJR5xuIGpxvhQR8C0FHk1nx0E.jpg",
+      "description": "Simge Yachting, Bodrum seyahatinizde keşfetmeniz gereken, kendine has dokusu ve atmosferiyle öne çıkan özel bir noktadır.",
+      "description_en": "Simge Yachting is a unique spot in Bodrum with a distinctive atmosphere that we highly recommend exploring during your visit.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJqSN38Q5xvhQRFS7ti5JOlyQ",
+      "name": "Tilkicik Residence",
+      "name_en": "Tilkicik Residence",
+      "category": "Deneyim",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.1171539,
+      "lng": 27.3072375,
+      "rating": 3.2,
+      "reviewCount": 246,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJqSN38Q5xvhQRFS7ti5JOlyQ.jpg",
+      "description": "Tilkicik Residence, Bodrum seyahatinizde keşfetmeniz gereken, kendine has dokusu ve atmosferiyle öne çıkan özel bir noktadır.",
+      "description_en": "Tilkicik Residence is a unique spot in Bodrum with a distinctive atmosphere that we highly recommend exploring during your visit.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJoxlWYkJxvhQRi7hXlHcWZ98",
+      "name": "Çocuk Parkı",
+      "name_en": "Çocuk Parkı",
+      "category": "Park",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.10493,
+      "lng": 27.2902039,
+      "rating": 4.3,
+      "reviewCount": 43,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJoxlWYkJxvhQRi7hXlHcWZ98.jpg",
+      "description": "Çocuk Parkı, Bodrum seyahatinizde keşfetmeniz gereken, kendine has dokusu ve atmosferiyle öne çıkan özel bir noktadır.",
+      "description_en": "Çocuk Parkı is a unique spot in Bodrum with a distinctive atmosphere that we highly recommend exploring during your visit.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJ4Qd3xaJxvhQRyH4zZbFbmGI",
+      "name": "Poseidon Port Meet Point",
+      "name_en": "Poseidon Port Meet Point",
+      "category": "Deneyim",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.104059,
+      "lng": 27.2887472,
+      "rating": 4,
+      "reviewCount": 1,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJ4Qd3xaJxvhQRyH4zZbFbmGI.jpg",
+      "description": "Poseidon Port Meet Point, Bodrum seyahatinizde keşfetmeniz gereken, kendine has dokusu ve atmosferiyle öne çıkan özel bir noktadır.",
+      "description_en": "Poseidon Port Meet Point is a unique spot in Bodrum with a distinctive atmosphere that we highly recommend exploring during your visit.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJS7kluy9xvhQRgDS2-3Ere7s",
+      "name": "Fahri Çetinkaya",
+      "name_en": "Fahri Çetinkaya",
+      "category": "Deneyim",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.1041484,
+      "lng": 27.2885742,
+      "rating": 4.5,
+      "reviewCount": 50,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJS7kluy9xvhQRgDS2-3Ere7s.jpg",
+      "description": "Fahri Çetinkaya, Bodrum seyahatinizde keşfetmeniz gereken, kendine has dokusu ve atmosferiyle öne çıkan özel bir noktadır.",
+      "description_en": "Fahri Çetinkaya is a unique spot in Bodrum with a distinctive atmosphere that we highly recommend exploring during your visit.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJjwJApelxvhQRuthQn5JKbdM",
+      "name": "Ergin Farm",
+      "name_en": "Ergin Farm",
+      "category": "Deneyim",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.101917,
+      "lng": 27.2966351,
+      "rating": 4.5,
+      "reviewCount": 50,
+      "price": "medium",
+      "imageUrl": "",
+      "description": "Ergin Farm, Bodrum seyahatinizde keşfetmeniz gereken, kendine has dokusu ve atmosferiyle öne çıkan özel bir noktadır.",
+      "description_en": "Ergin Farm is a unique spot in Bodrum with a distinctive atmosphere that we highly recommend exploring during your visit.",
+      "source": "google"
+    },
+    {
+      "id": "ChIJVyO8aABxvhQRKXM2qY-fh7E",
+      "name": "Halk plajı",
+      "name_en": "Halk plajı",
+      "category": "Deneyim",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.1013011,
+      "lng": 27.2808857,
+      "rating": 3.9,
+      "reviewCount": 10,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJVyO8aABxvhQRKXM2qY-fh7E.jpg",
+      "description": "Halk plajı, Bodrum seyahatinizde keşfetmeniz gereken, kendine has dokusu ve atmosferiyle öne çıkan özel bir noktadır.",
+      "description_en": "Halk plajı is a unique spot in Bodrum with a distinctive atmosphere that we highly recommend exploring during your visit.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJ8THX8TNxvhQRJZsXD5_KEF0",
+      "name": "Kybele house",
+      "name_en": "Kybele house",
+      "category": "Deneyim",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.0977404,
+      "lng": 27.2734991,
+      "rating": 4.5,
+      "reviewCount": 50,
+      "price": "medium",
+      "imageUrl": "",
+      "description": "Kybele house, Bodrum seyahatinizde keşfetmeniz gereken, kendine has dokusu ve atmosferiyle öne çıkan özel bir noktadır.",
+      "description_en": "Kybele house is a unique spot in Bodrum with a distinctive atmosphere that we highly recommend exploring during your visit.",
+      "source": "google"
+    },
+    {
+      "id": "ChIJ9UFDnD1xvhQRDpnj1NbRahQ",
+      "name": "Tilkicik Koyu",
+      "name_en": "Tilkicik Koyu",
+      "category": "Deneyim",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.119497,
+      "lng": 27.290155,
+      "rating": 4.3,
+      "reviewCount": 205,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJ9UFDnD1xvhQRDpnj1NbRahQ.jpg",
+      "description": "Tilkicik Koyu, Bodrum seyahatinizde keşfetmeniz gereken, kendine has dokusu ve atmosferiyle öne çıkan özel bir noktadır.",
+      "description_en": "Tilkicik Koyu is a unique spot in Bodrum with a distinctive atmosphere that we highly recommend exploring during your visit.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJ7bF4iVhxvhQRHnnc40YIXXg",
+      "name": "LA LOCAL BEACH & HOTEL YALIKAVAK",
+      "name_en": "LA LOCAL BEACH & HOTEL YALIKAVAK",
+      "category": "Deneyim",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.1215519,
+      "lng": 27.290758,
+      "rating": 4.8,
+      "reviewCount": 5,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJ7bF4iVhxvhQRHnnc40YIXXg.jpg",
+      "description": "LA LOCAL BEACH & HOTEL YALIKAVAK, Bodrum seyahatinizde keşfetmeniz gereken, kendine has dokusu ve atmosferiyle öne çıkan özel bir noktadır.",
+      "description_en": "LA LOCAL BEACH & HOTEL YALIKAVAK is a unique spot in Bodrum with a distinctive atmosphere that we highly recommend exploring during your visit.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJ-5_vGgBxvhQRsyEJgk1TDlg",
+      "name": "Şafak Zirvesi",
+      "name_en": "Şafak Zirvesi",
+      "category": "Deneyim",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.1146384,
+      "lng": 27.2688111,
+      "rating": 4.5,
+      "reviewCount": 50,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJ-5_vGgBxvhQRsyEJgk1TDlg.jpg",
+      "description": "Şafak Zirvesi, Bodrum seyahatinizde keşfetmeniz gereken, kendine has dokusu ve atmosferiyle öne çıkan özel bir noktadır.",
+      "description_en": "Şafak Zirvesi is a unique spot in Bodrum with a distinctive atmosphere that we highly recommend exploring during your visit.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJW0nPbgBxvhQR-dAKShkmTC8",
+      "name": "Top peak sunset view",
+      "name_en": "Top peak sunset view",
+      "category": "Deneyim",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.1252351,
+      "lng": 27.2803541,
+      "rating": 5,
+      "reviewCount": 2,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJW0nPbgBxvhQR-dAKShkmTC8.jpg",
+      "description": "Top peak sunset view, Bodrum seyahatinizde keşfetmeniz gereken, kendine has dokusu ve atmosferiyle öne çıkan özel bir noktadır.",
+      "description_en": "Top peak sunset view is a unique spot in Bodrum with a distinctive atmosphere that we highly recommend exploring during your visit.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJYw5lJXJxvhQRaukq2dbXAes",
+      "name": "T.C. Kültür ve Turizm Bakanlığı Yalıkavak Halk Plajı",
+      "name_en": "T.C. Kültür ve Turizm Bakanlığı Yalıkavak Halk Plajı",
+      "category": "Deneyim",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.1185209,
+      "lng": 27.3188819,
+      "rating": 4.3,
+      "reviewCount": 43,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJYw5lJXJxvhQRaukq2dbXAes.jpg",
+      "description": "T.C. Kültür ve Turizm Bakanlığı Yalıkavak Halk Plajı, Bodrum seyahatinizde keşfetmeniz gereken, kendine has dokusu ve atmosferiyle öne çıkan özel bir noktadır.",
+      "description_en": "T.C. Kültür ve Turizm Bakanlığı Yalıkavak Halk Plajı is a unique spot in Bodrum with a distinctive atmosphere that we highly recommend exploring during your visit.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJy4I6VABxvhQRiY1QSBEBqqc",
+      "name": "Yalcin Sivrikaya Plaj ve Liman alani",
+      "name_en": "Yalcin Sivrikaya Plaj ve Liman alani",
+      "category": "Deneyim",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.128884,
+      "lng": 27.2828358,
+      "rating": 5,
+      "reviewCount": 1,
+      "price": "medium",
+      "imageUrl": "",
+      "description": "Yalcin Sivrikaya Plaj ve Liman alani, Bodrum seyahatinizde keşfetmeniz gereken, kendine has dokusu ve atmosferiyle öne çıkan özel bir noktadır.",
+      "description_en": "Yalcin Sivrikaya Plaj ve Liman alani is a unique spot in Bodrum with a distinctive atmosphere that we highly recommend exploring during your visit.",
+      "source": "google"
+    },
+    {
+      "id": "ChIJr5VmUgBxvhQRflVbbXWVhg0",
+      "name": "Ordinaryus Yalcin Sivrikaya plaji",
+      "name_en": "Ordinaryus Yalcin Sivrikaya plaji",
+      "category": "Deneyim",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.1301237,
+      "lng": 27.2824626,
+      "rating": 5,
+      "reviewCount": 2,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJr5VmUgBxvhQRflVbbXWVhg0.jpg",
+      "description": "Ordinaryus Yalcin Sivrikaya plaji, Bodrum seyahatinizde keşfetmeniz gereken, kendine has dokusu ve atmosferiyle öne çıkan özel bir noktadır.",
+      "description_en": "Ordinaryus Yalcin Sivrikaya plaji is a unique spot in Bodrum with a distinctive atmosphere that we highly recommend exploring during your visit.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJ76lXdah3vhQRdbmxPOe0rHk",
+      "name": "Öykümnaz Sivrikaya Koyu",
+      "name_en": "Öykümnaz Sivrikaya Koyu",
+      "category": "Deneyim",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.120045,
+      "lng": 27.263765,
+      "rating": 5,
+      "reviewCount": 4,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJ76lXdah3vhQRdbmxPOe0rHk.jpg",
+      "description": "Öykümnaz Sivrikaya Koyu, Bodrum seyahatinizde keşfetmeniz gereken, kendine has dokusu ve atmosferiyle öne çıkan özel bir noktadır.",
+      "description_en": "Öykümnaz Sivrikaya Koyu is a unique spot in Bodrum with a distinctive atmosphere that we highly recommend exploring during your visit.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJ3YaEO4dxvhQR0y-Zc1xPQ3Y",
+      "name": "Yel Değirmenleri",
+      "name_en": "Yel Değirmenleri",
+      "category": "Deneyim",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.087279,
+      "lng": 27.3217028,
+      "rating": 4.3,
+      "reviewCount": 1137,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJ3YaEO4dxvhQR0y-Zc1xPQ3Y.jpg",
+      "description": "Yel Değirmenleri, Bodrum seyahatinizde keşfetmeniz gereken, kendine has dokusu ve atmosferiyle öne çıkan özel bir noktadır.",
+      "description_en": "Yel Değirmenleri is a unique spot in Bodrum with a distinctive atmosphere that we highly recommend exploring during your visit.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJSQ8eHAB3vhQRoKoBe-p2ZtQ",
+      "name": "Feraya Hanım koyu",
+      "name_en": "Feraya Hanım koyu",
+      "category": "Deneyim",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.1255336,
+      "lng": 27.2644756,
+      "rating": 5,
+      "reviewCount": 1,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJSQ8eHAB3vhQRoKoBe-p2ZtQ.jpg",
+      "description": "Feraya Hanım koyu, Bodrum seyahatinizde keşfetmeniz gereken, kendine has dokusu ve atmosferiyle öne çıkan özel bir noktadır.",
+      "description_en": "Feraya Hanım koyu is a unique spot in Bodrum with a distinctive atmosphere that we highly recommend exploring during your visit.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJNaspagBxvhQRysoxxKnM1Vk",
+      "name": "Yalcin Sivrikaya plaji",
+      "name_en": "Yalcin Sivrikaya plaji",
+      "category": "Deneyim",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.1370245,
+      "lng": 27.2762082,
+      "rating": 4.8,
+      "reviewCount": 6,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJNaspagBxvhQRysoxxKnM1Vk.jpg",
+      "description": "Yalcin Sivrikaya plaji, Bodrum seyahatinizde keşfetmeniz gereken, kendine has dokusu ve atmosferiyle öne çıkan özel bir noktadır.",
+      "description_en": "Yalcin Sivrikaya plaji is a unique spot in Bodrum with a distinctive atmosphere that we highly recommend exploring during your visit.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJtfv4slNzvhQRnygNlcH0f_U",
+      "name": "Ortakent Viewpoint",
+      "name_en": "Ortakent Viewpoint",
+      "category": "Deneyim",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.0614818,
+      "lng": 27.3099571,
+      "rating": 5,
+      "reviewCount": 4,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJtfv4slNzvhQRnygNlcH0f_U.jpg",
+      "description": "Ortakent Viewpoint, Bodrum seyahatinizde keşfetmeniz gereken, kendine has dokusu ve atmosferiyle öne çıkan özel bir noktadır.",
+      "description_en": "Ortakent Viewpoint is a unique spot in Bodrum with a distinctive atmosphere that we highly recommend exploring during your visit.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJIwHTow1xvhQR_K-gB02mPoA",
+      "name": "4 reasons Hotel Yalikavak",
+      "name_en": "4 reasons Hotel Yalikavak",
+      "category": "Restoran",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.1114583,
+      "lng": 27.3051523,
+      "rating": 4.8,
+      "reviewCount": 190,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJIwHTow1xvhQR_K-gB02mPoA.jpg",
+      "description": "Bar, restoran, yoga imkanı, bahçe ve deniz manzaraları bulunan şık otel.",
+      "description_en": "4 reasons Hotel Yalikavak is a beautiful spot in Bodrum. A must-visit place.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJ3wr6FxVxvhQRXdnUssTbsyo",
+      "name": "Èlite Hotel Bodrum",
+      "name_en": "Èlite Hotel Bodrum",
+      "category": "Restoran",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.1166899,
+      "lng": 27.2909552,
+      "rating": 3.8,
+      "reviewCount": 425,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJ3wr6FxVxvhQRXdnUssTbsyo.jpg",
+      "description": "Açık havuz, deniz manzarası ve restoran bulunan rahat otelde balkonlu mütevazı odalar.",
+      "description_en": "Èlite Hotel Bodrum is a beautiful spot in Bodrum. A must-visit place.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJSQqN3GlxvhQRvBpAaSr4tEo",
+      "name": "Yalıpark Beach Hotel",
+      "name_en": "Yalıpark Beach Hotel",
+      "category": "Restoran",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.1098383,
+      "lng": 27.2935555,
+      "rating": 4.1,
+      "reviewCount": 432,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJSQqN3GlxvhQRvBpAaSr4tEo.jpg",
+      "description": "Restoranı, özel plaj alanı, açık havuzu ve havuz başında barı bulunan rahat otel.",
+      "description_en": "Yalıpark Beach Hotel is a beautiful spot in Bodrum. A must-visit place.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJB7GNOGpxvhQRiOKsTNIdxyc",
+      "name": "Ali Baba Restaurant",
+      "name_en": "Ali Baba Restaurant",
+      "category": "Restoran",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.1077051,
+      "lng": 27.2934369,
+      "rating": 4,
+      "reviewCount": 172,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJB7GNOGpxvhQRiOKsTNIdxyc.jpg",
+      "description": "Ali Baba Restaurant, Bodrum seyahatinizde keşfetmeniz gereken, kendine has dokusu ve atmosferiyle öne çıkan özel bir noktadır.",
+      "description_en": "Ali Baba Restaurant is a unique spot in Bodrum with a distinctive atmosphere that we highly recommend exploring during your visit.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJy6bJFhVwvhQRM5gSLrr4xCM",
+      "name": "Liona Hotel",
+      "name_en": "Liona Hotel",
+      "category": "Restoran",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.1291412,
+      "lng": 27.3354348,
+      "rating": 4.3,
+      "reviewCount": 292,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJy6bJFhVwvhQRM5gSLrr4xCM.jpg",
+      "description": "Açık havuz, spa ve restoran bulunan kübist otelde sade odalar ve süitler.",
+      "description_en": "Liona Hotel is a beautiful spot in Bodrum. A must-visit place.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJy-T82hRxvhQR46NVgGoVTQo",
+      "name": "Yaprak Şarküteri",
+      "name_en": "Yaprak Şarküteri",
+      "category": "Restoran",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.111997,
+      "lng": 27.2946465,
+      "rating": 4.3,
+      "reviewCount": 230,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJy-T82hRxvhQR46NVgGoVTQo.jpg",
+      "description": "Yaprak Şarküteri, Bodrum seyahatinizde keşfetmeniz gereken, kendine has dokusu ve atmosferiyle öne çıkan özel bir noktadır.",
+      "description_en": "Yaprak Şarküteri is a unique spot in Bodrum with a distinctive atmosphere that we highly recommend exploring during your visit.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJtz7N3VVxvhQR25K808r3WqI",
+      "name": "Çimentepe Apart Otel",
+      "name_en": "Çimentepe Apart Otel",
+      "category": "Restoran",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.0980155,
+      "lng": 27.2729625,
+      "rating": 4.3,
+      "reviewCount": 47,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJtz7N3VVxvhQR25K808r3WqI.jpg",
+      "description": "Çimentepe Apart Otel, Bodrum seyahatinizde keşfetmeniz gereken, kendine has dokusu ve atmosferiyle öne çıkan özel bir noktadır.",
+      "description_en": "Çimentepe Apart Otel is a unique spot in Bodrum with a distinctive atmosphere that we highly recommend exploring during your visit.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJi0CF9VZxvhQRqnoynyVnu38",
+      "name": "Balıkçı Hasanın Yeri",
+      "name_en": "Balıkçı Hasanın Yeri",
+      "category": "Restoran",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.0987892,
+      "lng": 27.275175,
+      "rating": 4.4,
+      "reviewCount": 235,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJi0CF9VZxvhQRqnoynyVnu38.jpg",
+      "description": "Balıkçı Hasanın Yeri, Bodrum seyahatinizde keşfetmeniz gereken, kendine has dokusu ve atmosferiyle öne çıkan özel bir noktadır.",
+      "description_en": "Balıkçı Hasanın Yeri is a unique spot in Bodrum with a distinctive atmosphere that we highly recommend exploring during your visit.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJLZHDcjpxvhQRzS-qBdHRuHc",
+      "name": "Yelken Bay Beach Hotel ( Lud’da)",
+      "name_en": "Yelken Bay Beach Hotel ( Lud’da)",
+      "category": "Restoran",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.1215318,
+      "lng": 27.2797479,
+      "rating": 4.3,
+      "reviewCount": 121,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJLZHDcjpxvhQRzS-qBdHRuHc.jpg",
+      "description": "Yelken Bay Beach Hotel ( Lud’da), Bodrum seyahatinizde keşfetmeniz gereken, kendine has dokusu ve atmosferiyle öne çıkan özel bir noktadır.",
+      "description_en": "Yelken Bay Beach Hotel ( Lud’da) is a unique spot in Bodrum with a distinctive atmosphere that we highly recommend exploring during your visit.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJx1NzTq5tvhQRVUQCUyV41DE",
+      "name": "Sofi’s Marina Brasserie",
+      "name_en": "Sofi’s Marina Brasserie",
+      "category": "Restoran",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.1041746,
+      "lng": 27.2889845,
+      "rating": 4.6,
+      "reviewCount": 420,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJx1NzTq5tvhQRVUQCUyV41DE.jpg",
+      "description": "Sofi’s Marina Brasserie, Bodrum seyahatinizde keşfetmeniz gereken, kendine has dokusu ve atmosferiyle öne çıkan özel bir noktadır.",
+      "description_en": "Sofi’s Marina Brasserie is a unique spot in Bodrum with a distinctive atmosphere that we highly recommend exploring during your visit.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJSQuHeGlxvhQRTiGkfSpyX2k",
+      "name": "Kavaklı Köftecisi",
+      "name_en": "Kavaklı Köftecisi",
+      "category": "Restoran",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.1061319,
+      "lng": 27.2930445,
+      "rating": 3.7,
+      "reviewCount": 1760,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJSQuHeGlxvhQRTiGkfSpyX2k.jpg",
+      "description": "Kavaklı Köftecisi, Bodrum seyahatinizde keşfetmeniz gereken, kendine has dokusu ve atmosferiyle öne çıkan özel bir noktadır.",
+      "description_en": "Kavaklı Köftecisi is a unique spot in Bodrum with a distinctive atmosphere that we highly recommend exploring during your visit.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJ19sZlGtsvhQRTnv49UR2ays",
+      "name": "Artemis Pension",
+      "name_en": "Artemis Pension",
+      "category": "Restoran",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.116087,
+      "lng": 27.29328,
+      "rating": 3.5,
+      "reviewCount": 4,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJ19sZlGtsvhQRTnv49UR2ays.jpg",
+      "description": "Artemis Pension, Bodrum seyahatinizde keşfetmeniz gereken, kendine has dokusu ve atmosferiyle öne çıkan özel bir noktadır.",
+      "description_en": "Artemis Pension is a unique spot in Bodrum with a distinctive atmosphere that we highly recommend exploring during your visit.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJAQAAwGlxvhQR6IiyjTu1MHk",
+      "name": "Indigo Restaurant & Bar",
+      "name_en": "Indigo Restaurant & Bar",
+      "category": "Restoran",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.1082056,
+      "lng": 27.2933003,
+      "rating": 3.3,
+      "reviewCount": 55,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJAQAAwGlxvhQR6IiyjTu1MHk.jpg",
+      "description": "Indigo Restaurant & Bar, Bodrum seyahatinizde keşfetmeniz gereken, kendine has dokusu ve atmosferiyle öne çıkan özel bir noktadır.",
+      "description_en": "Indigo Restaurant & Bar is a unique spot in Bodrum with a distinctive atmosphere that we highly recommend exploring during your visit.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJVVUF7KxtvhQRMf01jsSVD-g",
+      "name": "Lecafe Ristorante İtaliano",
+      "name_en": "Lecafe Ristorante İtaliano",
+      "category": "Restoran",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.1066337,
+      "lng": 27.2923478,
+      "rating": 4.3,
+      "reviewCount": 154,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJVVUF7KxtvhQRMf01jsSVD-g.jpg",
+      "description": "Lecafe Ristorante İtaliano, Bodrum seyahatinizde keşfetmeniz gereken, kendine has dokusu ve atmosferiyle öne çıkan özel bir noktadır.",
+      "description_en": "Lecafe Ristorante İtaliano is a unique spot in Bodrum with a distinctive atmosphere that we highly recommend exploring during your visit.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJZ85l9GlxvhQRDb2sVw6UxOc",
+      "name": "Sevilla Çakıroğlu Restaurant",
+      "name_en": "Sevilla Çakıroğlu Restaurant",
+      "category": "Restoran",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.1058113,
+      "lng": 27.294234,
+      "rating": 3.5,
+      "reviewCount": 2,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJZ85l9GlxvhQRDb2sVw6UxOc.jpg",
+      "description": "Sevilla Çakıroğlu Restaurant, Bodrum seyahatinizde keşfetmeniz gereken, kendine has dokusu ve atmosferiyle öne çıkan özel bir noktadır.",
+      "description_en": "Sevilla Çakıroğlu Restaurant is a unique spot in Bodrum with a distinctive atmosphere that we highly recommend exploring during your visit.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJcSg3Xe5zvhQRd-4y6Z1OU3w",
+      "name": "Panorama Pasanda Restaurant",
+      "name_en": "Panorama Pasanda Restaurant",
+      "category": "Restoran",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.0875894,
+      "lng": 27.2771866,
+      "rating": 4.3,
+      "reviewCount": 764,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJcSg3Xe5zvhQRd-4y6Z1OU3w.jpg",
+      "description": "Panorama Pasanda Restaurant, Bodrum seyahatinizde keşfetmeniz gereken, kendine has dokusu ve atmosferiyle öne çıkan özel bir noktadır.",
+      "description_en": "Panorama Pasanda Restaurant is a unique spot in Bodrum with a distinctive atmosphere that we highly recommend exploring during your visit.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJ0RMgHkNxvhQRAkmWVjZ7jI8",
+      "name": "COOKSHOP. Bodrum",
+      "name_en": "COOKSHOP. Bodrum",
+      "category": "Restoran",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.1033881,
+      "lng": 27.2870828,
+      "rating": 4.1,
+      "reviewCount": 1058,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJ0RMgHkNxvhQRAkmWVjZ7jI8.jpg",
+      "description": "COOKSHOP. Bodrum, Bodrum seyahatinizde keşfetmeniz gereken, kendine has dokusu ve atmosferiyle öne çıkan özel bir noktadır.",
+      "description_en": "COOKSHOP. Bodrum is a unique spot in Bodrum with a distinctive atmosphere that we highly recommend exploring during your visit.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJT4KPzGlxvhQRqw4mCXBL9dE",
+      "name": "1AZ Fast Food By Kavaklı Köfteci",
+      "name_en": "1AZ Fast Food By Kavaklı Köfteci",
+      "category": "Restoran",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.1043259,
+      "lng": 27.2920089,
+      "rating": 4.2,
+      "reviewCount": 86,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJT4KPzGlxvhQRqw4mCXBL9dE.jpg",
+      "description": "1AZ Fast Food By Kavaklı Köfteci, Bodrum seyahatinizde keşfetmeniz gereken, kendine has dokusu ve atmosferiyle öne çıkan özel bir noktadır.",
+      "description_en": "1AZ Fast Food By Kavaklı Köfteci is a unique spot in Bodrum with a distinctive atmosphere that we highly recommend exploring during your visit.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJKeAvtWlxvhQRAH07DBXGZrA",
+      "name": "Caba Restaurant",
+      "name_en": "Caba Restaurant",
+      "category": "Restoran",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.104205,
+      "lng": 27.292732,
+      "rating": 4.5,
+      "reviewCount": 50,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJKeAvtWlxvhQRAH07DBXGZrA.jpg",
+      "description": "Caba Restaurant, Bodrum seyahatinizde keşfetmeniz gereken, kendine has dokusu ve atmosferiyle öne çıkan özel bir noktadır.",
+      "description_en": "Caba Restaurant is a unique spot in Bodrum with a distinctive atmosphere that we highly recommend exploring during your visit.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJcf1M82lxvhQRxGm5sMiBSjI",
+      "name": "Saraybosna Köftecisi",
+      "name_en": "Saraybosna Köftecisi",
+      "category": "Restoran",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.106052,
+      "lng": 27.2929236,
+      "rating": 4.1,
+      "reviewCount": 282,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJcf1M82lxvhQRxGm5sMiBSjI.jpg",
+      "description": "Saraybosna Köftecisi, Bodrum seyahatinizde keşfetmeniz gereken, kendine has dokusu ve atmosferiyle öne çıkan özel bir noktadır.",
+      "description_en": "Saraybosna Köftecisi is a unique spot in Bodrum with a distinctive atmosphere that we highly recommend exploring during your visit.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJt0fz3mlxvhQRvE3Oh1v85ko",
+      "name": "Yalıkavak İskele Cafe - Bodrum Belediye A.Ş.",
+      "name_en": "Yalıkavak İskele Cafe - Bodrum Belediye A.Ş.",
+      "category": "Restoran",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.105559,
+      "lng": 27.2910055,
+      "rating": 4.3,
+      "reviewCount": 1644,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJt0fz3mlxvhQRvE3Oh1v85ko.jpg",
+      "description": "Yalıkavak İskele Cafe - Bodrum Belediye A.Ş., Bodrum seyahatinizde keşfetmeniz gereken, kendine has dokusu ve atmosferiyle öne çıkan özel bir noktadır.",
+      "description_en": "Yalıkavak İskele Cafe - Bodrum Belediye A.Ş. is a unique spot in Bodrum with a distinctive atmosphere that we highly recommend exploring during your visit.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJt2KH_mtxvhQReVLT9dAPgLM",
+      "name": "Starbucks",
+      "name_en": "Starbucks",
+      "category": "Restoran",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.1037256,
+      "lng": 27.2871684,
+      "rating": 3.9,
+      "reviewCount": 262,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJt2KH_mtxvhQReVLT9dAPgLM.jpg",
+      "description": "Welcoming coffeehouse with handcrafted coffee, espresso & tea, plus breakfast, lunch & pastries.",
+      "description_en": "Starbucks is a beautiful spot in Bodrum. A must-visit place.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJt2KH_mtxvhQR8XW7qjqIu5A",
+      "name": "Haremlique Istanbul Yalıkavak Marina",
+      "name_en": "Haremlique Istanbul Yalıkavak Marina",
+      "category": "Restoran",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.1028249,
+      "lng": 27.2851425,
+      "rating": 4.1,
+      "reviewCount": 36,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJt2KH_mtxvhQR8XW7qjqIu5A.jpg",
+      "description": "Haremlique Istanbul Yalıkavak Marina, Bodrum seyahatinizde keşfetmeniz gereken, kendine has dokusu ve atmosferiyle öne çıkan özel bir noktadır.",
+      "description_en": "Haremlique Istanbul Yalıkavak Marina is a unique spot in Bodrum with a distinctive atmosphere that we highly recommend exploring during your visit.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJixszL55xvhQRzuzD85mRPYI",
+      "name": "Shell",
+      "name_en": "Shell",
+      "category": "Restoran",
+      "tags": [
+        "bodrum",
+        "tatil",
+        "türkiye"
+      ],
+      "lat": 37.103116,
+      "lng": 27.314983,
+      "rating": 3.8,
+      "reviewCount": 127,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bodrum/ChIJixszL55xvhQRzuzD85mRPYI.jpg",
+      "description": "Shell, Bodrum seyahatinizde keşfetmeniz gereken, kendine has dokusu ve atmosferiyle öne çıkan özel bir noktadır.",
+      "description_en": "Shell is a unique spot in Bodrum with a distinctive atmosphere that we highly recommend exploring during your visit.",
+      "source": "firebase"
+    }
+  ],
+  "curated_routes": [
+    {
+      "id": "bodrum_tarih",
+      "title": "Bodrum Tarih & Kale",
+      "title_en": "Bodrum History & Castle",
+      "description": "Şehrin kalbinde tarihe yolculuk.",
+      "description_en": "A journey through history in the heart of the city.",
+      "places": [
+        "ChIJYw5gNEJsvhQRcRzUhvXx1Cs",
+        "ChIJlwmXEkdsvhQR0fktlJphpF4",
+        "ChIJv9W_9UdsvhQR2r-WmkBy9K4"
+      ]
+    },
+    {
+      "id": "bodrum_marina_sunset",
+      "title": "Marina & Gün Batımı",
+      "title_en": "Marina & Sunset",
+      "description": "Yalıkavak'ın lüks dokusu ve Gümüşlük'te gün batımı.",
+      "description_en": "Luxury of Yalıkavak and sunset at Gümüşlük.",
+      "places": [
+        "ChIJ_759OOxxvhQRXZc1KZwApPw",
+        "ChIJudEDCxVxvhQRyeydNG7I_m0",
+        "ChIJ47Rqu_p0vhQRei2H38xNHuI"
+      ]
+    }
+  ]
+}

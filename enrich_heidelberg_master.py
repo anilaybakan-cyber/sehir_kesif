@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+from dotenv import load_dotenv
+load_dotenv()
 """
 Heidelberg Enrichment Script with Firebase Storage Upload
 - Fetches photos from Google Places API
@@ -14,7 +16,7 @@ import os
 from google.cloud import storage
 
 # Configuration
-API_KEY = 'AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g'
+API_KEY = os.getenv("GOOGLE_MAPS_API_KEY")
 FIREBASE_BUCKET = 'myway-3fe75.firebasestorage.app'
 CITY_NAME = 'heidelberg'
 CITY_COORDS = {'lat': 49.4093, 'lng': 8.6943}

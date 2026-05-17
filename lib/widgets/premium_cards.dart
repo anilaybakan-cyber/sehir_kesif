@@ -6,6 +6,7 @@
 import 'dart:ui';
 import 'package:flutter/material.dart';
 import '../core/theme/app_theme.dart';
+import '../widgets/resilient_network_image.dart';
 
 class PremiumGlassCard extends StatefulWidget {
   final Widget child;
@@ -206,10 +207,14 @@ class FeaturedCard extends StatelessWidget {
               Positioned.fill(
                 child: ClipRRect(
                   borderRadius: BorderRadius.circular(28),
-                  child: Image.network(
-                    imageUrl!,
+                  child: ResilientNetworkImage(
+                    imageUrl: imageUrl,
+                    placeName: title,
+                    city: '',
+                    category: 'featured',
+                    height: height,
                     fit: BoxFit.cover,
-                    errorBuilder: (_, __, ___) => const SizedBox(),
+                    placeholderBuilder: (_) => const SizedBox(),
                   ),
                 ),
               ),
@@ -520,11 +525,15 @@ class PlaceCardPremium extends StatelessWidget {
                           borderRadius: const BorderRadius.vertical(
                             top: Radius.circular(24),
                           ),
-                          child: Image.network(
-                            imageUrl!,
+                          child: ResilientNetworkImage(
+                            imageUrl: imageUrl,
+                            placeName: name,
+                            city: location,
+                            category: 'place',
+                            width: 200,
+                            height: 130,
                             fit: BoxFit.cover,
-                            width: double.infinity,
-                            errorBuilder: (_, __, ___) => Center(
+                            placeholderBuilder: (_) => Center(
                               child: Icon(
                                 Icons.place_rounded,
                                 size: 48,

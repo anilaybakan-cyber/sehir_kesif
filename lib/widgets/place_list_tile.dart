@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import '../models/place_model.dart';
+import 'resilient_network_image.dart';
 
 class PlaceListTile extends StatelessWidget {
   final PlaceModel place;
@@ -90,14 +91,15 @@ class PlaceListTile extends StatelessWidget {
               width: 90,
               height: 90,
               child: hasImage
-                  ? Image.network(
-                      place.imageUrl!,
+                  ? ResilientNetworkImage(
+                      imageUrl: place.imageUrl,
+                      placeName: place.name,
+                      city: place.address,
+                      category: place.category,
+                      width: 90,
+                      height: 90,
                       fit: BoxFit.cover,
-                      loadingBuilder: (_, child, progress) {
-                        if (progress == null) return child;
-                        return _buildPlaceholder();
-                      },
-                      errorBuilder: (_, __, ___) => _buildPlaceholder(),
+                      placeholderBuilder: (_) => _buildPlaceholder(),
                     )
                   : _buildPlaceholder(),
             ),

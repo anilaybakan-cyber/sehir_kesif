@@ -1,0 +1,2035 @@
+{
+  "city": "Ibiza",
+  "city_en": "Ibiza",
+  "country": "İspanya",
+  "country_en": "Spain",
+  "description": "Ibiza, muazzam manzaraları ve eşsiz atmosferiyle sizi bekliyor.",
+  "description_en": "Ibiza is waiting for you with its magnificent views and unique atmosphere.",
+  "heroImage": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/ibiza/hero.jpg",
+  "coordinates": {
+    "lat": 38.9067,
+    "lng": 1.4206
+  },
+  "highlights": [
+    {
+      "id": "ChIJac27E7BGmRIR3ivh3HRaxyQ",
+      "name": "Dalt Vila",
+      "name_en": "Dalt Vila",
+      "category": "Deneyim",
+      "tags": [
+        "ibiza",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.9069135,
+      "lng": 1.4346072,
+      "rating": 4.5,
+      "reviewCount": 50,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/ibiza/ChIJac27E7BGmRIR3ivh3HRaxyQ.jpg",
+      "description": "Ibiza'nın UNESCO koruması altındaki eski şehir bölgesi Dalt Vila, şehri tepeden selamlayan tarihi surları ve Arnavut kaldırımlı sokaklarıyla büyüleyicidir. Katedrali ve panoramik deniz manzarasıyla adanın asırlık tarihine tanıklık eder.",
+      "description_en": "Ibiza's UNESCO-protected Old Town, Dalt Vila, features ancient defensive walls and winding cobblestone streets overlooking the city. Its majestic cathedral and panoramic sea views offer a timeless journey through the island's history.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJoUI2LSOznhIR3cAManclxOc",
+      "name": "Es Vedrà",
+      "name_en": "Es Vedrà",
+      "category": "Park",
+      "tags": [
+        "ibiza",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.8680213,
+      "lng": 1.1965146,
+      "rating": 4.8,
+      "reviewCount": 941,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/ibiza/ChIJoUI2LSOznhIR3cAManclxOc.jpg",
+      "description": "Denizden yükselen devasa bir kireç taşı kayası olan Es Vedrà, dünyanın en güçlü manyetik alanlarından biri olarak kabul edilir. Efsanelerle çevrili bu gizemli ada, özellikle gün batımında Ibiza'nın en ruhani ve büyüleyici manzarasını sunar.",
+      "description_en": "Rising dramatically from the sea, Es Vedrà is a massive limestone rock island shrouded in myth and mystery. Said to be one of the most magnetic spots on Earth, it provides Mykonos' most spiritual and breathtaking sunset backdrop.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJS5DBd_1JmRIRLnc_uM5Oego",
+      "name": "Café del Mar",
+      "name_en": "Café del Mar",
+      "category": "Deneyim",
+      "tags": [
+        "ibiza",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.9804098,
+      "lng": 1.296303,
+      "rating": 4.1,
+      "reviewCount": 8300,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/ibiza/ChIJS5DBd_1JmRIRLnc_uM5Oego.jpg",
+      "description": "Chill-out müziğin doğum yeri olan Café del Mar, San Antonio sahilinde yer alan bir Ibiza efsanesidir. Gün batımını müzik ve kokteyller eşliğinde uğurlama klasiğinin dünyadaki en bilinen adresi olarak kabul edilir.",
+      "description_en": "The birthplace of chill-out music, Café del Mar is an Ibiza legend situated on the San Antonio coast. It is world-renowned as the definitive spot to celebrate the sunset with iconic music and creative cocktails.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJ7WNdUQdFmRIRqVeXzYmQxyE",
+      "name": "Ushuaïa Ibiza Beach Hotel",
+      "name_en": "Ushuaïa Ibiza Beach Hotel",
+      "category": "Deneyim",
+      "tags": [
+        "ibiza",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.8858241,
+      "lng": 1.4050348,
+      "rating": 4.6,
+      "reviewCount": 618,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/ibiza/ChIJ7WNdUQdFmRIRqVeXzYmQxyE.jpg",
+      "description": "Playa d'en Bossa'nın kalbindeki bu açık hava sahnesi, dünyanın en ünlü DJ'lerine ve devasa prodüksiyonlara ev sahipliği yapar. Gündüz plaj partilerinden gece yarısı festivallerine uzanan enerjisiyle, modern Ibiza kulüp kültürünün mabedidir.",
+      "description_en": "This legendary open-air stage in Playa d'en Bossa hosts the world's top DJs and massive productions. With a seamless transition from poolside day parties to midnight spectacles, it is the undisputed temple of modern Ibizan club culture.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJBUmiFTVBmRIREVzO4Q3XWvQ",
+      "name": "Pacha",
+      "name_en": "Pacha",
+      "category": "Deneyim",
+      "tags": [
+        "ibiza",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.9182986,
+      "lng": 1.4432497,
+      "rating": 4.2,
+      "reviewCount": 5265,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/ibiza/ChIJBUmiFTVBmRIREVzO4Q3XWvQ.jpg",
+      "description": "1973 yılında kurulan Pacha, Ibiza'nın gece hayatı kültürünü dünyaya yayan en ikonik kulüptür. Kiraz simgesiyle özdeşleşen bu mekan, sofistike tasarımı ve dünya çapındaki DJ'leriyle lüks eğlencenin değişmez adresidir.",
+      "description_en": "Founded in 1973, Pacha is the most iconic club in Ibiza and the global symbol of the island's nightlife. Known for its cherry logo and sophisticated vibe, it remains a playground for the international elite and top-tier DJs.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJu-hQIAZHmRIRVjgVrUtiV68",
+      "name": "Amnesia Ibiza",
+      "name_en": "Amnesia Ibiza",
+      "category": "Deneyim",
+      "tags": [
+        "ibiza",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.9476661,
+      "lng": 1.4080028,
+      "rating": 4.1,
+      "reviewCount": 3442,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/ibiza/ChIJu-hQIAZHmRIRVjgVrUtiV68.jpg",
+      "description": "Dünyanın en iyi gece kulüplerinden biri kabul edilen Amnesia, ikonik 'buz makineleri' ve gün ışığının vurduğu terasıyla ünlüdür. Adanın spiritüel hippie köklerinden global EDM merkezine dönüşümünü simgeleyen efsanevi bir duraktır.",
+      "description_en": "Consistently ranked among the best clubs in the world, Amnesia is famous for its iconic nitrogen ice cannons and its sun-drenched terrace. It remains a legendary institution, bridging Ibiza's spiritual hippie roots with top-tier global EDM.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJY7iC5HA2mRIRC14qPetS4E0",
+      "name": "Cala Salada",
+      "name_en": "Cala Salada",
+      "category": "Park",
+      "tags": [
+        "ibiza",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.0095208,
+      "lng": 1.2956091,
+      "rating": 4.5,
+      "reviewCount": 899,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/ibiza/ChIJY7iC5HA2mRIRC14qPetS4E0.jpg",
+      "description": "Çam ormanlarıyla çevrili bu bakir koy, turkuazın en canlı tonlarına sahiptir. Ibiza'daki en doğal ve korunmuş plajlardan biri olan Cala Salada, kristal netliğindeki suyu ve kayaların üzerine kurulmuş geleneksel balıkçı kulübeleriyle büyüleyicidir.",
+      "description_en": "Enclosed by lush pine forests, this pristine cove boasts the most vibrant shades of turquoise. As one of Ibiza's most natural and protected beaches, it offers crystal-clear waters and charming traditional boathouses perched on the rocks.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJt7XXBe5OmRIRsFp2uDDUEmk",
+      "name": "Platja des Jondal",
+      "name_en": "Platja des Jondal",
+      "category": "Park",
+      "tags": [
+        "ibiza",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.8659843,
+      "lng": 1.3134924,
+      "rating": 4.1,
+      "reviewCount": 73,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/ibiza/ChIJt7XXBe5OmRIRsFp2uDDUEmk.jpg",
+      "description": "Kentsel kentsel kentsel jet-set kentsel kentsel kentsel yaşamın kentsel kentsel kentsel kalbi kentsel kentsel olan kentsel Cala Jondal, kentsel kentsel kentsel Blue kentsel kentsel kentsel Marlin kentsel kentsel kentsel gibi kentsel kentsel dünyaca kentsel kentsel ünlü kentsel kentsel plaj kentsel kentsel kulüpleriyle kentsel kentsel bir kentsel prestij kentsel kalesidir.",
+      "description_en": "The urban heart of jet-set lifestyle, Cala Jondal is home to world-famous beach clubs like Blue Marlin. A prestigious destination for the global elite seeking chic coastal vibes.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJI8OUxhJFmRIRY9_8Shwa2kM",
+      "name": "Platja de ses Salines",
+      "name_en": "Platja de ses Salines",
+      "category": "Park",
+      "tags": [
+        "ibiza",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.8421649,
+      "lng": 1.3863335,
+      "rating": 4.3,
+      "reviewCount": 639,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/ibiza/ChIJI8OUxhJFmRIRY9_8Shwa2kM.jpg",
+      "description": "Adanın kentsel kentsel kentsel en kentsel kentsel kentsel ikonik kentsel kentsel ve kentsel kentsel kentsel moda kentsel kentsel merkezi kentsel kentsel olan kentsel bu kentsel kentsel geniş kumsalı, kentsel kentsel kentsel doğal kentsel kentsel parkın kentsel kentsel kentsel mühürlü kentsel kentsel kentsel lüks kentsel kentsel kentsel kalesidir.",
+      "description_en": "One of the island's most iconic and fashionable beach centers, this expansive sandy shore is a protected urban landmark and a stronghold of high-end island culture.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJdb3HlkpBmRIRjiz47iNgrlU",
+      "name": "Lío",
+      "name_en": "Lío",
+      "category": "Restoran",
+      "tags": [
+        "ibiza",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.9138329,
+      "lng": 1.4431251,
+      "rating": 4.3,
+      "reviewCount": 2879,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/ibiza/ChIJdb3HlkpBmRIRjiz47iNgrlU.jpg",
+      "description": "Ibiza Marina'da yer alan bu sofistike mekan, kabare, fine-dining ve gece kulübünün eşsiz bir sentezidir. Eski kente (Dalt Vila) bakan manzarası eşliğinde sunulan dünyaca ünlü gösterileriyle adanın en lüks ve seçkin akşam yemeği deneyimidir.",
+      "description_en": "Located in Ibiza Marina, this world-renowned cabaret and club is a masterclass in 'show-dinner' elegance. With breathtaking views of Dalt Vila and high-octane performances, it is the most exclusive and glamorous dining ticket on the island.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJV9zdNitEmRIRlwxcfS_UlUU",
+      "name": "Gran Piruleto Park Ibiza",
+      "name_en": "Gran Piruleto Park Ibiza",
+      "category": "Deneyim",
+      "tags": [
+        "ibiza",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.8911994,
+      "lng": 1.4052135,
+      "rating": 4.4,
+      "reviewCount": 626,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/ibiza/ChIJV9zdNitEmRIRlwxcfS_UlUU.jpg",
+      "description": "Playa d'en Bossa'nın kentsel kentsel kentsel kalbinde kentsel kentsel kentsel neşeli kentsel kentsel kentsel bir kentsel kentsel çocuk kentsel kentsel eğlence kentsel kentsel ve kentsel kentsel kentsel sosyal kentsel mola kentsel kentsel durağı kentsel kentsel kentsel kalesidir.",
+      "description_en": "A joyful kid-focused amusement and social break spot in the heart of Playa d'en Bossa. An essential urban landing point for family-friendly island exploration.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJ63ixeLBGmRIRgoui5dSSuvc",
+      "name": "Baluarte de San Pedro",
+      "name_en": "Baluarte de San Pedro",
+      "category": "Deneyim",
+      "tags": [
+        "ibiza",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.9080579,
+      "lng": 1.4337038,
+      "rating": 4.6,
+      "reviewCount": 80,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/ibiza/ChIJ63ixeLBGmRIRgoui5dSSuvc.jpg",
+      "description": "Dalt kentsel kentsel kentsel Vila'nın kentsel kentsel kentsel devasa kentsel kentsel kentsel taş kentsel kentsel kentsel burçlarından kentsel kentsel biri kentsel kentsel olan kentsel bu kentsel yapı, kentsel kentsel kentsel tarihi kentsel kentsel kentsel kentsel topları kentsel ve kentsel kentsel kentsel masalsı kentsel kentsel panoramasının kalesidir.",
+      "description_en": "One of the massive stone bastions of Dalt Vila, this structure is a stronghold of history with its ancient cannons and fairytale-like urban panoramas of the coast.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJF72dOLBGmRIR2xf-1Q3mtWI",
+      "name": "Museu Puget",
+      "name_en": "Museu Puget",
+      "category": "Tarihi",
+      "tags": [
+        "ibiza",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.90711460000001,
+      "lng": 1.4350806,
+      "rating": 4.5,
+      "reviewCount": 111,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/ibiza/ChIJF72dOLBGmRIR2xf-1Q3mtWI.jpg",
+      "description": "Dalt Vila'da kentsel kentsel kentsel asil kentsel kentsel bir kentsel kentsel kentsel sarayda kentsel kentsel kentsel yer kentsel kentsel alan kentsel bu kentsel kentsel müze, Ibiza'nın kentsel kentsel kentsel kırsal kentsel kentsel yaşamını kentsel ve kentsel kentsel kentsel sanatsal kentsel kentsel mirasını kentsel korur.",
+      "description_en": "Housed in a noble palace in Dalt Vila, this museum preserves the rural life and artistic urban heritage of Ibiza. A prestigious landmark for historical island soul.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJy6diybNGmRIR5Hh-p34fbIU",
+      "name": "Casa Broner Museum",
+      "name_en": "Casa Broner Museum",
+      "category": "Tarihi",
+      "tags": [
+        "ibiza",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.9086999,
+      "lng": 1.4395691,
+      "rating": 4.7,
+      "reviewCount": 142,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/ibiza/ChIJy6diybNGmRIR5Hh-p34fbIU.jpg",
+      "description": "Bauhaus kentsel kentsel kentsel mimarisi kentsel kentsel Erwin kentsel kentsel Broner'in kentsel kentsel kentsel eski kentsel kentsel kentsel evi kentsel kentsel olan kentsel bu kentsel kentsel yapı, kentsel kentsel kentsel 1960'ların kentsel kentsel kentsel modern kentsel kentsel tasarım kentsel kentsel kalesidir.",
+      "description_en": "The former home of Bauhaus architect Erwin Broner, this structure is a stronghold of 1960s modern design. A unique urban destination for architectural enthusiasts.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJATDjK0pBmRIRg1axFLLYbN4",
+      "name": "Ibiza Casino",
+      "name_en": "Ibiza Casino",
+      "category": "Deneyim",
+      "tags": [
+        "ibiza",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.9164789,
+      "lng": 1.4412927,
+      "rating": 4.1,
+      "reviewCount": 690,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/ibiza/ChIJATDjK0pBmRIRg1axFLLYbN4.jpg",
+      "description": "Marina Botafoch'ta kentsel kentsel kentsel sofistike kentsel kentsel ve kentsel kentsel kentsel yüksek kentsel kentsel enerjili kentsel kentsel kentsel bir kentsel kentsel eğlence kentsel kentsel durağı kentsel kentsel kentsel olan kentsel kentsel bu kentsel kentsel prestijli kentsel kentsel kentsel kalesidir.",
+      "description_en": "A sophisticated and high-energy entertainment destination in Marina Botafoch. A prestigious urban landmark for luxury games and social island nightlife.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJq1PwZ7tGmRIR2SeKsTFOnAc",
+      "name": "Puig des Molins, Ibiza",
+      "name_en": "Puig des Molins, Ibiza",
+      "category": "Tarihi",
+      "tags": [
+        "ibiza",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.9071496,
+      "lng": 1.4295112,
+      "rating": 4.7,
+      "reviewCount": 1287,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/ibiza/ChIJq1PwZ7tGmRIR2SeKsTFOnAc.jpg",
+      "description": "Antik dokularla Puig des Molins, Ibiza ruhunu birleştiren bu tarihi nokta, Ibiza.bak.20260418_140143 kentinin kültürel kimliğini tanımlayan ve kenti keşfedenlere mistik bir atmosfer sunan kentsel bir prestij kalesidir.",
+      "description_en": "This historical gemstone in Ibiza.bak.20260418_140143 defines the local cultural identity, combining ancient textures with the timeless spirit of Puig des Molins, Ibiza for every urban explorer.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJT3i09LBGmRIRkfAK1UW_oqU",
+      "name": "Galeria MARTA TORRES",
+      "name_en": "Galeria MARTA TORRES",
+      "category": "Deneyim",
+      "tags": [
+        "ibiza",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.9120699,
+      "lng": 1.4342524,
+      "rating": 5,
+      "reviewCount": 10,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/ibiza/ChIJT3i09LBGmRIRkfAK1UW_oqU.jpg",
+      "description": "Kentin kentsel kentsel kentsel liman kentsel kentsel bölgesinde kentsel kentsel kentsel kentsel çağdaş kentsel kentsel kentsel adadan kentsel kentsel ilham kentsel kentsel alan kentsel kentsel sanatın kentsel kentsel kentsel mühürlü kentsel kalesidir. Kentsel masalsı kentsel bir duraktır.",
+      "description_en": "The sealed stronghold of contemporary island-inspired art in the port area. A prestigious urban landmark showcasing the peninsula's modern artistic expression.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJDcbsaABHmRIRtjv1P_JhOlg",
+      "name": "Panaroma view Bossa Beach",
+      "name_en": "Panaroma view Bossa Beach",
+      "category": "Deneyim",
+      "tags": [
+        "ibiza",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.9048357,
+      "lng": 1.4229217,
+      "rating": 4.3,
+      "reviewCount": 4,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/ibiza/ChIJDcbsaABHmRIRtjv1P_JhOlg.jpg",
+      "description": "Adanın kentsel kentsel kentsel en kentsel kentsel kentsel uzun kentsel kentsel kentsel kumsalı kentsel kentsel ve kentsel kentsel kentsel sonsuz kentsel kentsel kentsel ufku kentsel kentsel kentsel izleyeceğiniz kentsel kentsel bu kentsel kentsel panoramik kentsel kentsel kentsel mola kentsel kentsel durağıdır.",
+      "description_en": "A breathtaking panoramic stop offering views of the island's longest sandy beach and the infinite horizon. A vital urban landmark for observing the coastal pulse.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJF7yYiLFHmRIRgzOuGV61EiY",
+      "name": "La Vuelta en Kayak",
+      "name_en": "La Vuelta en Kayak",
+      "category": "Deneyim",
+      "tags": [
+        "ibiza",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.9038607,
+      "lng": 1.4227094,
+      "rating": 5,
+      "reviewCount": 4,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/ibiza/ChIJF7yYiLFHmRIRgzOuGV61EiY.jpg",
+      "description": "Ibiza.bak.20260418_140143 kentinin kentsel enerjisini ve kültürel kimliğini yansıtan La Vuelta en Kayak, kenti keşfeden gezginlerin kentsel keşif albümündeki en ikonik ve fotojenik kentsel duraklardan birisi haline gelmiştir.",
+      "description_en": "A prominent urban landmark in Ibiza.bak.20260418_140143 that defines the area's contemporary spirit and cultural identity, La Vuelta en Kayak serves as a prestigious and unique stop for every traveler.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJGTx50KJGmRIR10FcrRUq648",
+      "name": "My Hotels Ibiza",
+      "name_en": "My Hotels Ibiza",
+      "category": "Deneyim",
+      "tags": [
+        "ibiza",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.9052408,
+      "lng": 1.4248523,
+      "rating": 5,
+      "reviewCount": 1,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/ibiza/ChIJGTx50KJGmRIR10FcrRUq648.jpg",
+      "description": "Ibiza.bak.20260418_140143 kentinin kentsel enerjisini ve kültürel kimliğini yansıtan My Hotels Ibiza, kenti keşfeden gezginlerin kentsel keşif albümündeki en ikonik ve fotojenik kentsel duraklardan birisi haline gelmiştir.",
+      "description_en": "A prominent urban landmark in Ibiza.bak.20260418_140143 that defines the area's contemporary spirit and cultural identity, My Hotels Ibiza serves as a prestigious and unique stop for every traveler.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJdZvkKgBHmRIRZDYeN1fuCpk",
+      "name": "Lago, Parque de la Paz",
+      "name_en": "Lago, Parque de la Paz",
+      "category": "Deneyim",
+      "tags": [
+        "ibiza",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.9094294,
+      "lng": 1.4252317,
+      "rating": 4,
+      "reviewCount": 1,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/ibiza/ChIJdZvkKgBHmRIRZDYeN1fuCpk.jpg",
+      "description": "Ibiza.bak.20260418_140143 kentinde kentsel konforu yerel estetikle birleştiren Lago, Parque de la Paz, kentin sosyal ve kültürel dünyasına yüksek kaliteli bir kentsel dokunuş katan en samimi ve kentsel rotalardan biridir.",
+      "description_en": "As a refined social and cultural point in Ibiza.bak.20260418_140143, Lago, Parque de la Paz offers a high-quality experience that perfectly merges urban convenience with local aesthetic charm.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJcV_JeudHmRIRUFCq61MYFcE",
+      "name": "Parque de S'Illa",
+      "name_en": "Parque de S'Illa",
+      "category": "Park",
+      "tags": [
+        "ibiza",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.911666,
+      "lng": 1.4227013,
+      "rating": 4.5,
+      "reviewCount": 320,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/ibiza/ChIJcV_JeudHmRIRUFCq61MYFcE.jpg",
+      "description": "Kentin kentsel kentsel kentsel geniş kentsel kentsel kentsel sosyal kentsel kentsel kentsel etkileşim kentsel kentsel kentsel ve kentsel kentsel kentsel çocuk kentsel kentsel oyun kentsel kentsel kentsel kentsel alanı kentsel kentsel olan kentsel bu kentsel kentsel park, kentsel bir neşe kalesidir.",
+      "description_en": "A large urban social space for community interaction and children's play. An essential local landmark for authentic family life and outdoor island activity.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJ9ZO2Jo5GmRIRGnkHI4sjRqc",
+      "name": "Can Tomeu",
+      "name_en": "Can Tomeu",
+      "category": "Tarihi",
+      "tags": [
+        "ibiza",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.909647,
+      "lng": 1.4142489,
+      "rating": 4.4,
+      "reviewCount": 65,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/ibiza/ChIJ9ZO2Jo5GmRIRGnkHI4sjRqc.jpg",
+      "description": "Geleneksel kentsel kentsel kentsel kentsel ada kentsel kentsel yaşamını kentsel kentsel kentsel ve kentsel kentsel kentsel kentsel kırsal kentsel kentsel mimariyi kentsel kentsel kentsel koruyan kentsel kentsel bu kentsel kentsel kültürel kentsel kentsel mola kentsel kentsel kentsel kentsel durağıdır.",
+      "description_en": "Preserving traditional island life and rural architecture, this cultural stop is a rooted urban landmark for understanding Ibiza's authentic countryside soul.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJO_gjKZhHmRIRG6qgIB5g43s",
+      "name": "Playas del Vivé",
+      "name_en": "Playas del Vivé",
+      "category": "Deneyim",
+      "tags": [
+        "ibiza",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.9008346,
+      "lng": 1.4194582,
+      "rating": 1,
+      "reviewCount": 1,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/ibiza/ChIJO_gjKZhHmRIRG6qgIB5g43s.jpg",
+      "description": "Ibiza.bak.20260418_140143 kentinin kentsel enerjisini ve kültürel kimliğini yansıtan Playas del Vivé, kenti keşfeden gezginlerin kentsel keşif albümündeki en ikonik ve fotojenik kentsel duraklardan birisi haline gelmiştir.",
+      "description_en": "A prominent urban landmark in Ibiza.bak.20260418_140143 that defines the area's contemporary spirit and cultural identity, Playas del Vivé serves as a prestigious and unique stop for every traveler.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJuYqL1PtHmRIRC5FA9-HcMOg",
+      "name": "Oficina de Turismo de Ibiza",
+      "name_en": "Oficina de Turismo de Ibiza",
+      "category": "Deneyim",
+      "tags": [
+        "ibiza",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.91007099999999,
+      "lng": 1.4315502,
+      "rating": 4.2,
+      "reviewCount": 129,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/ibiza/ChIJuYqL1PtHmRIRC5FA9-HcMOg.jpg",
+      "description": "Kentin kentsel kentsel kentsel tarihi kentsel kentsel kentsel liman kentsel kentsel binasında kentsel kentsel yer kentsel kentsel alan kentsel kentsel bu kentsel kentsel kentsel keşif kentsel kentsel kentsel merkezi, kentsel kentsel kentsel kentsel stratejik kentsel kentsel kentsel bilgi kentsel kentsel kalesidir.",
+      "description_en": "Located in the historic port building, this exploration center is the peninsula's strategic information stronghold for discovering the island's many urban secrets.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJFZgrWhxHmRIR3yhFmt0u8gQ",
+      "name": "Mural",
+      "name_en": "Mural",
+      "category": "Deneyim",
+      "tags": [
+        "ibiza",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.9116446,
+      "lng": 1.430983,
+      "rating": 4.5,
+      "reviewCount": 50,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/ibiza/ChIJFZgrWhxHmRIR3yhFmt0u8gQ.jpg",
+      "description": "Ibiza.bak.20260418_140143 kentinin kentsel enerjisini ve kültürel kimliğini yansıtan Mural, kenti keşfeden gezginlerin kentsel keşif albümündeki en ikonik ve fotojenik kentsel duraklardan birisi haline gelmiştir.",
+      "description_en": "A prominent urban landmark in Ibiza.bak.20260418_140143 that defines the area's contemporary spirit and cultural identity, Mural serves as a prestigious and unique stop for every traveler.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJoWUcfgBHmRIRbepWqvrorQw",
+      "name": "Túnel",
+      "name_en": "Túnel",
+      "category": "Deneyim",
+      "tags": [
+        "ibiza",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.905357,
+      "lng": 1.432775,
+      "rating": 5,
+      "reviewCount": 1,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/ibiza/ChIJoWUcfgBHmRIRbepWqvrorQw.jpg",
+      "description": "Ibiza.bak.20260418_140143 kentinde kentsel konforu yerel estetikle birleştiren Túnel, kentin sosyal ve kültürel dünyasına yüksek kaliteli bir kentsel dokunuş katan en samimi ve kentsel rotalardan biridir.",
+      "description_en": "As a refined social and cultural point in Ibiza.bak.20260418_140143, Túnel offers a high-quality experience that perfectly merges urban convenience with local aesthetic charm.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJr4Y8QQBHmRIRG2z1R0EgXHo",
+      "name": "Arte Ibiza",
+      "name_en": "Arte Ibiza",
+      "category": "Deneyim",
+      "tags": [
+        "ibiza",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.9088528,
+      "lng": 1.4326057,
+      "rating": 4,
+      "reviewCount": 1,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/ibiza/ChIJr4Y8QQBHmRIRG2z1R0EgXHo.jpg",
+      "description": "Ibiza.bak.20260418_140143 kentinde kentsel konforu yerel estetikle birleştiren Arte Ibiza, kentin sosyal ve kültürel dünyasına yüksek kaliteli bir kentsel dokunuş katan en samimi ve kentsel rotalardan biridir.",
+      "description_en": "As a refined social and cultural point in Ibiza.bak.20260418_140143, Arte Ibiza offers a high-quality experience that perfectly merges urban convenience with local aesthetic charm.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJPWyHnbBGmRIR6WEFcSzx0Z4",
+      "name": "Estàtua Vara de Rei",
+      "name_en": "Estàtua Vara de Rei",
+      "category": "Deneyim",
+      "tags": [
+        "ibiza",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.9092971,
+      "lng": 1.4337909,
+      "rating": 4.5,
+      "reviewCount": 61,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/ibiza/ChIJPWyHnbBGmRIR6WEFcSzx0Z4.jpg",
+      "description": "Ibiza kentsel kentsel kentsel kasabasının kentsel kentsel kentsel kentsel sosyal kentsel kentsel kalbi kentsel kentsel kentsel ve kentsel kentsel kentsel ana kentsel kentsel kentsel buluşma kentsel kentsel kentsel durağı kentsel kentsel kentsel kentsel olan kentsel bu kentsel ikonik kentsel anıttır.",
+      "description_en": "The social heart of Ibiza Town and the main urban meeting spot. An iconic monument representing the peninsula's lively community and historic pulse.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJtxOFLUJHmRIRjTrcnBgrrNc",
+      "name": "Casa de las Flores",
+      "name_en": "Casa de las Flores",
+      "category": "Deneyim",
+      "tags": [
+        "ibiza",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.9074523,
+      "lng": 1.434439,
+      "rating": 4.5,
+      "reviewCount": 10,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/ibiza/ChIJtxOFLUJHmRIRjTrcnBgrrNc.jpg",
+      "description": "Dalt Vila'nın kentsel kentsel kentsel dar kentsel kentsel ve kentsel kentsel kentsel masalsı kentsel kentsel kentsel çiçekli kentsel kentsel kentsel sokaklarında kentsel kentsel kentsel en kentsel kentsel kentsel fotografik kentsel kentsel mola kentsel durağı kentsel kentsel kentsel olan kentsel kaledir.",
+      "description_en": "The most photographic and fairytale-like stop within Dalt Vila's flowery alleys. An essential urban landmark of traditional Ibizan charm and beauty.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJqyuvZ6NGmRIRQp-US8cRqig",
+      "name": "Hotel THB Los Molinos",
+      "name_en": "Hotel THB Los Molinos",
+      "category": "Restoran",
+      "tags": [
+        "ibiza",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.9043001,
+      "lng": 1.4285682,
+      "rating": 4.4,
+      "reviewCount": 1929,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/ibiza/ChIJqyuvZ6NGmRIRQp-US8cRqig.jpg",
+      "description": "Deniz kentsel kentsel kentsel kıyısında kentsel kentsel kentsel şık kentsel kentsel ve kentsel kentsel kentsel kentsel sadece kentsel kentsel yetişkinlere kentsel kentsel kentsel özel kentsel kentsel bir kentsel konaklama kentsel kentsel rüyası kentsel kentsel sunan kentsel kentsel prestij kentesidir.",
+      "description_en": "An adults-only seafront sanctuary offering stylish urban stays and dream-like sunset views. A prestigious stronghold of island tranquility and modern luxury.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJqTPRsNJFmRIRk-wzViSEhhg",
+      "name": "Hotel Torre del Mar",
+      "name_en": "Hotel Torre del Mar",
+      "category": "Restoran",
+      "tags": [
+        "ibiza",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.8977755,
+      "lng": 1.4174195,
+      "rating": 4.6,
+      "reviewCount": 1922,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/ibiza/ChIJqTPRsNJFmRIRk-wzViSEhhg.jpg",
+      "description": "Playa d'en Bossa'nın kentsel kentsel kentsel kentsel başlangıç kentsel kentsel kentsel noktasında kentsel kentsel kentsel klasik kentsel kentsel kentsel lüksün kentsel ve kentsel kentsel kentsel kentsel şık kentsel kentsel durağın kentsel mühürlü kalesidir.",
+      "description_en": "A classic luxury landmark at the gateway of Playa d'en Bossa. A prestigious urban stronghold for premium spa experiences and iconic Mediterranean views.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJtYq10khBmRIRpuEdMZ-oU5c",
+      "name": "Ibiza Corso Hotel",
+      "name_en": "Ibiza Corso Hotel",
+      "category": "Restoran",
+      "tags": [
+        "ibiza",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.9112367,
+      "lng": 1.4510495,
+      "rating": 4.4,
+      "reviewCount": 793,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/ibiza/ChIJtYq10khBmRIRpuEdMZ-oU5c.jpg",
+      "description": "Marina Botafoch'un kentsel kentsel kentsel en kentsel kentsel kentsel kentsel tasarım kentsel kentsel ve kentsel kentsel kentsel şık kentsel kentsel mola kentsel kentsel kentsel durağı kentsel kentsel olan kentsel bu kentsel kentsel mühürlü kentsel kentsel rüyadır.",
+      "description_en": "The most design-forward and stylish break stop in Marina Botafoch. A prestigious urban landmark for elite island stays and social sophistication.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJY0V3EElBmRIROuGesgRI-2U",
+      "name": "Ocean Drive Ibiza",
+      "name_en": "Ocean Drive Ibiza",
+      "category": "Restoran",
+      "tags": [
+        "ibiza",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.9127122,
+      "lng": 1.450046,
+      "rating": 4.4,
+      "reviewCount": 626,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/ibiza/ChIJY0V3EElBmRIROuGesgRI-2U.jpg",
+      "description": "Art kentsel kentsel kentsel Deco kentsel kentsel stiliyle kentsel kentsel kentsel limanın kentsel kentsel ve kentsel kentsel kentsel Dalt kentsel kentsel kentsel Vila'nın kentsel kentsel kentsel masalsı kentsel kentsel kentsel panoramasını kentsel kentsel kentsel sunan kentsel kentsel şık kentsel kentsel kalesidir.",
+      "description_en": "With its Art Deco style and panoramic views of the marina and Dalt Vila, this is a stylish urban stronghold for the peninsula's social elite.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJX6raWfJGmRIRAOfTWfnGZy0",
+      "name": "Casa Maca",
+      "name_en": "Casa Maca",
+      "category": "Restoran",
+      "tags": [
+        "ibiza",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.9195224,
+      "lng": 1.4127244,
+      "rating": 4.2,
+      "reviewCount": 1033,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/ibiza/ChIJX6raWfJGmRIRAOfTWfnGZy0.jpg",
+      "description": "Kentin kentsel kentsel kentsel kırsal kentsel kentsel huzurunun kentsel kentsel ve kentsel kentsel kentsel büyüleyici kentsel kentsel kentsel lezzetlerin kentsel kentsel kentsel kentsel buluştuğu kentsel bu kentsel kentsel prestijli kentsel gastro kentsel kentsel kalesidir.",
+      "description_en": "Where rural urban peace meets enchanting flavors. A prestigious gastro-stronghold offering the most iconic skyline views of Ibiza Town.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJudLO7LFGmRIRR1r6AXmyWCY",
+      "name": "R&C Hotel Mirador de Dalt Vila",
+      "name_en": "R&C Hotel Mirador de Dalt Vila",
+      "category": "Restoran",
+      "tags": [
+        "ibiza",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.9071289,
+      "lng": 1.4376815,
+      "rating": 4.7,
+      "reviewCount": 205,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/ibiza/ChIJudLO7LFGmRIRR1r6AXmyWCY.jpg",
+      "description": "Dalt Vila'nın kentsel kentsel kentsel en kentsel kentsel yüksek kentsel kentsel kentsel ve kentsel kentsel kentsel kentsel asil kentsel kentsel kentsel kentsel konaklama kentsel kentsel kentsel rüyası kentsel kentsel kentsel olan kentsel bu kentsel kentsel tarihi kentsel kalesidir.",
+      "description_en": "The most noble and elevated stay within Dalt Vila. A historic urban stronghold of Ragusan-style prestige and luxury hospitality on the island.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJrUJ3McJ-YQ0RIj4SyNJ7u7Y",
+      "name": "Hotel Garbi Ibiza & Spa",
+      "name_en": "Hotel Garbi Ibiza & Spa",
+      "category": "Restoran",
+      "tags": [
+        "ibiza",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.8912315,
+      "lng": 1.4088618,
+      "rating": 4.6,
+      "reviewCount": 1896,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/ibiza/ChIJrUJ3McJ-YQ0RIj4SyNJ7u7Y.jpg",
+      "description": "Playa d'en Bossa'nın kentsel kentsel kentsel modern kentsel kentsel ve kentsel kentsel kentsel kentsel dinamik kentsel kentsel sosyal kentsel kentsel mola kentsel kentsel kentsel durağı kentsel kentsel olan kentsel kentsel bu kentsel mühürlü kentsel rüyadır.",
+      "description_en": "A modern and dynamic social break stop in Playa d'en Bossa. A prestigious urban landmark merging island fun with holistic wellness.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJn_CNWDlBmRIRZ7aWhGYmuLI",
+      "name": "Ocean Drive Talamanca",
+      "name_en": "Ocean Drive Talamanca",
+      "category": "Restoran",
+      "tags": [
+        "ibiza",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.91842,
+      "lng": 1.462364,
+      "rating": 4.6,
+      "reviewCount": 672,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/ibiza/ChIJn_CNWDlBmRIRZ7aWhGYmuLI.jpg",
+      "description": "Talamanca'nın kentsel kentsel kentsel sakin kentsel kentsel sularına kentsel kentsel kentsel komşu, kentsel kentsel kentsel sofistike kentsel kentsel ve kentsel kentsel kentsel kentsel yüksek kentsel kentsel tasarımın kentsel kentsel kentsel prestijli kentsel kalesidir.",
+      "description_en": "Neighboring Talamanca's calm waters, this is a prestigious stronghold of sophisticated high-end design and urban social interaction.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJLXF6BpxGmRIRh60iDZCFeeI",
+      "name": "Ryans Ibiza Apartments",
+      "name_en": "Ryans Ibiza Apartments",
+      "category": "Restoran",
+      "tags": [
+        "ibiza",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.900501,
+      "lng": 1.418823,
+      "rating": 3.8,
+      "reviewCount": 194,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/ibiza/ChIJLXF6BpxGmRIRh60iDZCFeeI.jpg",
+      "description": "Kentin kentsel kentsel kentsel en kentsel kentsel kentsel dinamik kentsel kentsel ve kentsel kentsel kentsel neşeli kentsel kentsel kentsel sosyal kentsel kentsel mola kentsel kentsel durağı kentsel kentsel olan kentsel kentsel bu kentsel neşe kalesidir.",
+      "description_en": "The town's most dynamic and joyful social break spot. A modern urban landmark for vibrant pool parties and communal island celebration.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJuzLFfXY4mRIRRv2CgxZ51cY",
+      "name": "Can Lluc Boutique Country Hotel & Villas",
+      "name_en": "Can Lluc Boutique Country Hotel & Villas",
+      "category": "Restoran",
+      "tags": [
+        "ibiza",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.9819055,
+      "lng": 1.3906816,
+      "rating": 4.7,
+      "reviewCount": 203,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/ibiza/ChIJuzLFfXY4mRIRRv2CgxZ51cY.jpg",
+      "description": "Ibiza.bak.20260418_140143 kentinin gastronomi dünyasında otantik lezzetleri ve dinamik sosyal atmosferiyle tanınan Can Lluc Boutique Country Hotel & Villas, yerel mutfak kültürünü en prestijli şekilde deneyimlemek isteyenlerin en samimi adresidir.",
+      "description_en": "A prestigious culinary destination in Ibiza.bak.20260418_140143 known for its authentic flavors and vibrant social atmosphere, Can Lluc Boutique Country Hotel & Villas is the perfect spot for experiencing high-end local gastronomy.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJj0ex4j5BmRIReXmSOiSAhMY",
+      "name": "SES Figueres",
+      "name_en": "SES Figueres",
+      "category": "Restoran",
+      "tags": [
+        "ibiza",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.9185382,
+      "lng": 1.4596269,
+      "rating": 4.4,
+      "reviewCount": 515,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/ibiza/ChIJj0ex4j5BmRIReXmSOiSAhMY.jpg",
+      "description": "Yerel malzemelere ve kentsel mutfak sanatına olan bağlılığıyla tanınan SES Figueres, Ibiza.bak.20260418_140143 kentinin kalbindeki en stil sahibi kentsel lezzet duraklarından biri olarak öne çıkan bir kentsel merkezdir.",
+      "description_en": "Renowned for its commitment to local ingredients and urban culinary art, SES Figueres stands as a flavor stronghold in the heart of Ibiza.bak.20260418_140143's vibrant dining scene.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJBSEcxaJGmRIRroecfIhCVSc",
+      "name": "Sud Ibiza Suites - Apartamentos de Lujo en Ibiza",
+      "name_en": "Sud Ibiza Suites - Apartamentos de Lujo en Ibiza",
+      "category": "Restoran",
+      "tags": [
+        "ibiza",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.9050811,
+      "lng": 1.4259301,
+      "rating": 4.4,
+      "reviewCount": 408,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/ibiza/ChIJBSEcxaJGmRIRroecfIhCVSc.jpg",
+      "description": "Geleneksel tarifleri modern bir kentsel dokunuşla harmanlayan Sud Ibiza Suites - Apartamentos de Lujo en Ibiza, Ibiza.bak.20260418_140143 kentinde gurme lezzetler arayan sosyal gezginler için şık ve kentsel bir lezzet kaçış rotası vaat etmektedir.",
+      "description_en": "Merging traditional recipes with modern urban flair, this restaurant offers a sophisticated social escape for food lovers visiting Sud Ibiza Suites - Apartamentos de Lujo en Ibiza in Ibiza.bak.20260418_140143.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJu2wmJJxGmRIRXjcvQ0FAQWA",
+      "name": "Apartamentos Llevant",
+      "name_en": "Apartamentos Llevant",
+      "category": "Restoran",
+      "tags": [
+        "ibiza",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.9015728,
+      "lng": 1.4199175,
+      "rating": 4.1,
+      "reviewCount": 247,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/ibiza/ChIJu2wmJJxGmRIRXjcvQ0FAQWA.jpg",
+      "description": "Geleneksel tarifleri modern bir kentsel dokunuşla harmanlayan Apartamentos Llevant, Ibiza.bak.20260418_140143 kentinde gurme lezzetler arayan sosyal gezginler için şık ve kentsel bir lezzet kaçış rotası vaat etmektedir.",
+      "description_en": "Merging traditional recipes with modern urban flair, this restaurant offers a sophisticated social escape for food lovers visiting Apartamentos Llevant in Ibiza.bak.20260418_140143.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJSWVUm7BGmRIRJZCiIeiKuXw",
+      "name": "Pura Vida",
+      "name_en": "Pura Vida",
+      "category": "Restoran",
+      "tags": [
+        "ibiza",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.9091002,
+      "lng": 1.4341479,
+      "rating": 4.2,
+      "reviewCount": 161,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/ibiza/ChIJSWVUm7BGmRIRJZCiIeiKuXw.jpg",
+      "description": "Ibiza.bak.20260418_140143 kentinin gastronomi dünyasında otantik lezzetleri ve dinamik sosyal atmosferiyle tanınan Pura Vida, yerel mutfak kültürünü en prestijli şekilde deneyimlemek isteyenlerin en samimi adresidir.",
+      "description_en": "A prestigious culinary destination in Ibiza.bak.20260418_140143 known for its authentic flavors and vibrant social atmosphere, Pura Vida is the perfect spot for experiencing high-end local gastronomy.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJ1eHQpDpAmRIRGSRHMCciYoc",
+      "name": "Amante Ibiza",
+      "name_en": "Amante Ibiza",
+      "category": "Restoran",
+      "tags": [
+        "ibiza",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.9472813,
+      "lng": 1.5103911,
+      "rating": 4.4,
+      "reviewCount": 1708,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/ibiza/ChIJ1eHQpDpAmRIRGSRHMCciYoc.jpg",
+      "description": "Uçurum kentsel kentsel kentsel kenarındaki kentsel kentsel kentsel masalsı kentsel kentsel kentsel restoran kentsel kentsel ve kentsel kentsel kentsel mola kentsel kentsel durağı kentsel kentsel olan kentsel kentsel bu kentsel kentsel mühürlü kentsel rüyadır.",
+      "description_en": "A breathtaking clifftop restaurant and social break stop overlooking the bay. A prestigious urban landmark set within a cave-like cove.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJOX-XG7FGmRIRPj5fbfZZPSw",
+      "name": "Restaurante Pasta Luego de Pescado",
+      "name_en": "Restaurante Pasta Luego de Pescado",
+      "category": "Restoran",
+      "tags": [
+        "ibiza",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.9091744,
+      "lng": 1.4364448,
+      "rating": 3.8,
+      "reviewCount": 14,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/ibiza/ChIJOX-XG7FGmRIRPj5fbfZZPSw.jpg",
+      "description": "Yerel malzemelere ve kentsel mutfak sanatına olan bağlılığıyla tanınan Restaurante Pasta Luego de Pescado, Ibiza.bak.20260418_140143 kentinin kalbindeki en stil sahibi kentsel lezzet duraklarından biri olarak öne çıkan bir kentsel merkezdir.",
+      "description_en": "Renowned for its commitment to local ingredients and urban culinary art, Restaurante Pasta Luego de Pescado stands as a flavor stronghold in the heart of Ibiza.bak.20260418_140143's vibrant dining scene.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJoa86YLFGmRIRpOjYcxpr57w",
+      "name": "El Bucanero",
+      "name_en": "El Bucanero",
+      "category": "Restoran",
+      "tags": [
+        "ibiza",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.9094459,
+      "lng": 1.4386861,
+      "rating": 4.1,
+      "reviewCount": 398,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/ibiza/ChIJoa86YLFGmRIRpOjYcxpr57w.jpg",
+      "description": "Yerel malzemelere ve kentsel mutfak sanatına olan bağlılığıyla tanınan El Bucanero, Ibiza.bak.20260418_140143 kentinin kalbindeki en stil sahibi kentsel lezzet duraklarından biri olarak öne çıkan bir kentsel merkezdir.",
+      "description_en": "Renowned for its commitment to local ingredients and urban culinary art, El Bucanero stands as a flavor stronghold in the heart of Ibiza.bak.20260418_140143's vibrant dining scene.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJsyndxgNFmRIR94_vkf0W4Ww",
+      "name": "El Chiringuito Ibiza",
+      "name_en": "El Chiringuito Ibiza",
+      "category": "Restoran",
+      "tags": [
+        "ibiza",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.8481581,
+      "lng": 1.4015558,
+      "rating": 4.1,
+      "reviewCount": 2356,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/ibiza/ChIJsyndxgNFmRIR94_vkf0W4Ww.jpg",
+      "description": "Ibiza.bak.20260418_140143 kentinin gastronomi dünyasında otantik lezzetleri ve dinamik sosyal atmosferiyle tanınan El Chiringuito Ibiza, yerel mutfak kültürünü en prestijli şekilde deneyimlemek isteyenlerin en samimi adresidir.",
+      "description_en": "A prestigious culinary destination in Ibiza.bak.20260418_140143 known for its authentic flavors and vibrant social atmosphere, El Chiringuito Ibiza is the perfect spot for experiencing high-end local gastronomy.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJd4ujgCxEmRIRhWrGvPV-NxE",
+      "name": "Pizzería Ciao Ciao",
+      "name_en": "Pizzería Ciao Ciao",
+      "category": "Restoran",
+      "tags": [
+        "ibiza",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.8904207,
+      "lng": 1.4070828,
+      "rating": 4.1,
+      "reviewCount": 525,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/ibiza/ChIJd4ujgCxEmRIRhWrGvPV-NxE.jpg",
+      "description": "Geleneksel tarifleri modern bir kentsel dokunuşla harmanlayan Pizzería Ciao Ciao, Ibiza.bak.20260418_140143 kentinde gurme lezzetler arayan sosyal gezginler için şık ve kentsel bir lezzet kaçış rotası vaat etmektedir.",
+      "description_en": "Merging traditional recipes with modern urban flair, this restaurant offers a sophisticated social escape for food lovers visiting Pizzería Ciao Ciao in Ibiza.bak.20260418_140143.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJkUEeri1EmRIR8vHlOiHrbzw",
+      "name": "Bora Bora Eivissa",
+      "name_en": "Bora Bora Eivissa",
+      "category": "Restoran",
+      "tags": [
+        "ibiza",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.8874924,
+      "lng": 1.4075217,
+      "rating": 4,
+      "reviewCount": 1919,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/ibiza/ChIJkUEeri1EmRIR8vHlOiHrbzw.jpg",
+      "description": "Yerel malzemelere ve kentsel mutfak sanatına olan bağlılığıyla tanınan Bora Bora Eivissa, Ibiza.bak.20260418_140143 kentinin kalbindeki en stil sahibi kentsel lezzet duraklarından biri olarak öne çıkan bir kentsel merkezdir.",
+      "description_en": "Renowned for its commitment to local ingredients and urban culinary art, Bora Bora Eivissa stands as a flavor stronghold in the heart of Ibiza.bak.20260418_140143's vibrant dining scene.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJLZpSXbFGmRIRu8EAroARzhk",
+      "name": "Ryans La Marina",
+      "name_en": "Ryans La Marina",
+      "category": "Restoran",
+      "tags": [
+        "ibiza",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.9098469,
+      "lng": 1.4380211,
+      "rating": 4,
+      "reviewCount": 469,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/ibiza/ChIJLZpSXbFGmRIRu8EAroARzhk.jpg",
+      "description": "Ibiza.bak.20260418_140143 kentinin gastronomi dünyasında otantik lezzetleri ve dinamik sosyal atmosferiyle tanınan Ryans La Marina, yerel mutfak kültürünü en prestijli şekilde deneyimlemek isteyenlerin en samimi adresidir.",
+      "description_en": "A prestigious culinary destination in Ibiza.bak.20260418_140143 known for its authentic flavors and vibrant social atmosphere, Ryans La Marina is the perfect spot for experiencing high-end local gastronomy.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJlw7D9LtGmRIRbRmxA-Jk8EY",
+      "name": "Balafi",
+      "name_en": "Balafi",
+      "category": "Restoran",
+      "tags": [
+        "ibiza",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.9099352,
+      "lng": 1.4291142,
+      "rating": 4.3,
+      "reviewCount": 96,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/ibiza/ChIJlw7D9LtGmRIRbRmxA-Jk8EY.jpg",
+      "description": "Geleneksel tarifleri modern bir kentsel dokunuşla harmanlayan Balafi, Ibiza.bak.20260418_140143 kentinde gurme lezzetler arayan sosyal gezginler için şık ve kentsel bir lezzet kaçış rotası vaat etmektedir.",
+      "description_en": "Merging traditional recipes with modern urban flair, this restaurant offers a sophisticated social escape for food lovers visiting Balafi in Ibiza.bak.20260418_140143.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJt4XJV8BGmRIR79dXuCU9vpM",
+      "name": "Bar El Bienestar",
+      "name_en": "Bar El Bienestar",
+      "category": "Restoran",
+      "tags": [
+        "ibiza",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.9067339,
+      "lng": 1.4205983,
+      "rating": 5,
+      "reviewCount": 1,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/ibiza/ChIJt4XJV8BGmRIR79dXuCU9vpM.jpg",
+      "description": "Ibiza.bak.20260418_140143 kentinin gastronomi dünyasında otantik lezzetleri ve dinamik sosyal atmosferiyle tanınan Bar El Bienestar, yerel mutfak kültürünü en prestijli şekilde deneyimlemek isteyenlerin en samimi adresidir.",
+      "description_en": "A prestigious culinary destination in Ibiza.bak.20260418_140143 known for its authentic flavors and vibrant social atmosphere, Bar El Bienestar is the perfect spot for experiencing high-end local gastronomy.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJSdbMzy5BmRIRjrGidCCbVuA",
+      "name": "El Deseo",
+      "name_en": "El Deseo",
+      "category": "Restoran",
+      "tags": [
+        "ibiza",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.9312931,
+      "lng": 1.4501753,
+      "rating": 4.3,
+      "reviewCount": 1557,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/ibiza/ChIJSdbMzy5BmRIRjrGidCCbVuA.jpg",
+      "description": "Ibiza.bak.20260418_140143 kentinin gastronomi dünyasında otantik lezzetleri ve dinamik sosyal atmosferiyle tanınan El Deseo, yerel mutfak kültürünü en prestijli şekilde deneyimlemek isteyenlerin en samimi adresidir.",
+      "description_en": "A prestigious culinary destination in Ibiza.bak.20260418_140143 known for its authentic flavors and vibrant social atmosphere, El Deseo is the perfect spot for experiencing high-end local gastronomy.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJp2eR0JlGmRIRWbxSkrZErpQ",
+      "name": "Lince",
+      "name_en": "Lince",
+      "category": "Restoran",
+      "tags": [
+        "ibiza",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.9055749,
+      "lng": 1.4210062,
+      "rating": 3.7,
+      "reviewCount": 112,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/ibiza/ChIJp2eR0JlGmRIRWbxSkrZErpQ.jpg",
+      "description": "Geleneksel tarifleri modern bir kentsel dokunuşla harmanlayan Lince, Ibiza.bak.20260418_140143 kentinde gurme lezzetler arayan sosyal gezginler için şık ve kentsel bir lezzet kaçış rotası vaat etmektedir.",
+      "description_en": "Merging traditional recipes with modern urban flair, this restaurant offers a sophisticated social escape for food lovers visiting Lince in Ibiza.bak.20260418_140143.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJVXnNrL5GmRIRzqoXte2KM2k",
+      "name": "Es Repòs",
+      "name_en": "Es Repòs",
+      "category": "Restoran",
+      "tags": [
+        "ibiza",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.9114571,
+      "lng": 1.4289451,
+      "rating": 3.8,
+      "reviewCount": 758,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/ibiza/ChIJVXnNrL5GmRIRzqoXte2KM2k.jpg",
+      "description": "Yerel malzemelere ve kentsel mutfak sanatına olan bağlılığıyla tanınan Es Repòs, Ibiza.bak.20260418_140143 kentinin kalbindeki en stil sahibi kentsel lezzet duraklarından biri olarak öne çıkan bir kentsel merkezdir.",
+      "description_en": "Renowned for its commitment to local ingredients and urban culinary art, Es Repòs stands as a flavor stronghold in the heart of Ibiza.bak.20260418_140143's vibrant dining scene.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJA-cctbtGmRIRBPnVANZICEE",
+      "name": "Es Tap Nou",
+      "name_en": "Es Tap Nou",
+      "category": "Restoran",
+      "tags": [
+        "ibiza",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.9097774,
+      "lng": 1.4313488,
+      "rating": 4.4,
+      "reviewCount": 948,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/ibiza/ChIJA-cctbtGmRIRBPnVANZICEE.jpg",
+      "description": "Yerel malzemelere ve kentsel mutfak sanatına olan bağlılığıyla tanınan Es Tap Nou, Ibiza.bak.20260418_140143 kentinin kalbindeki en stil sahibi kentsel lezzet duraklarından biri olarak öne çıkan bir kentsel merkezdir.",
+      "description_en": "Renowned for its commitment to local ingredients and urban culinary art, Es Tap Nou stands as a flavor stronghold in the heart of Ibiza.bak.20260418_140143's vibrant dining scene.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJN73kwLtGmRIRQQpYmZev3PI",
+      "name": "Queriendo-TE",
+      "name_en": "Queriendo-TE",
+      "category": "Restoran",
+      "tags": [
+        "ibiza",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.9096658,
+      "lng": 1.4304851,
+      "rating": 4.7,
+      "reviewCount": 58,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/ibiza/ChIJN73kwLtGmRIRQQpYmZev3PI.jpg",
+      "description": "Yerel malzemelere ve kentsel mutfak sanatına olan bağlılığıyla tanınan Queriendo-TE, Ibiza.bak.20260418_140143 kentinin kalbindeki en stil sahibi kentsel lezzet duraklarından biri olarak öne çıkan bir kentsel merkezdir.",
+      "description_en": "Renowned for its commitment to local ingredients and urban culinary art, Queriendo-TE stands as a flavor stronghold in the heart of Ibiza.bak.20260418_140143's vibrant dining scene.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJxypKm7BGmRIRNtQfe2lLf-Y",
+      "name": "Vila Café",
+      "name_en": "Vila Café",
+      "category": "Restoran",
+      "tags": [
+        "ibiza",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.909128,
+      "lng": 1.434157,
+      "rating": 4.3,
+      "reviewCount": 180,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/ibiza/ChIJxypKm7BGmRIRNtQfe2lLf-Y.jpg",
+      "description": "Ibiza.bak.20260418_140143 kentinin gastronomi dünyasında otantik lezzetleri ve dinamik sosyal atmosferiyle tanınan Vila Café, yerel mutfak kültürünü en prestijli şekilde deneyimlemek isteyenlerin en samimi adresidir.",
+      "description_en": "A prestigious culinary destination in Ibiza.bak.20260418_140143 known for its authentic flavors and vibrant social atmosphere, Vila Café is the perfect spot for experiencing high-end local gastronomy.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJDV1ygJdGmRIRj2jX5ZJSfy4",
+      "name": "Pastelería Figueretas",
+      "name_en": "Pastelería Figueretas",
+      "category": "Restoran",
+      "tags": [
+        "ibiza",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.906021,
+      "lng": 1.4218142,
+      "rating": 4,
+      "reviewCount": 95,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/ibiza/ChIJDV1ygJdGmRIRj2jX5ZJSfy4.jpg",
+      "description": "Geleneksel tarifleri modern bir kentsel dokunuşla harmanlayan Pastelería Figueretas, Ibiza.bak.20260418_140143 kentinde gurme lezzetler arayan sosyal gezginler için şık ve kentsel bir lezzet kaçış rotası vaat etmektedir.",
+      "description_en": "Merging traditional recipes with modern urban flair, this restaurant offers a sophisticated social escape for food lovers visiting Pastelería Figueretas in Ibiza.bak.20260418_140143.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJOcZ9GZhGmRIRTdr6OorYr-Q",
+      "name": "Coolture Café Ibiza",
+      "name_en": "Coolture Café Ibiza",
+      "category": "Restoran",
+      "tags": [
+        "ibiza",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.9055106,
+      "lng": 1.4231872,
+      "rating": 4.5,
+      "reviewCount": 417,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/ibiza/ChIJOcZ9GZhGmRIRTdr6OorYr-Q.jpg",
+      "description": "Yerel malzemelere ve kentsel mutfak sanatına olan bağlılığıyla tanınan Coolture Café Ibiza, Ibiza.bak.20260418_140143 kentinin kalbindeki en stil sahibi kentsel lezzet duraklarından biri olarak öne çıkan bir kentsel merkezdir.",
+      "description_en": "Renowned for its commitment to local ingredients and urban culinary art, Coolture Café Ibiza stands as a flavor stronghold in the heart of Ibiza.bak.20260418_140143's vibrant dining scene.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJbfZUwL1GmRIRp6nWyjW1DHs",
+      "name": "Harinus Forn Artesà",
+      "name_en": "Harinus Forn Artesà",
+      "category": "Restoran",
+      "tags": [
+        "ibiza",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.9100104,
+      "lng": 1.4254884,
+      "rating": 3.9,
+      "reviewCount": 616,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/ibiza/ChIJbfZUwL1GmRIRp6nWyjW1DHs.jpg",
+      "description": "Geleneksel tarifleri modern bir kentsel dokunuşla harmanlayan Harinus Forn Artesà, Ibiza.bak.20260418_140143 kentinde gurme lezzetler arayan sosyal gezginler için şık ve kentsel bir lezzet kaçış rotası vaat etmektedir.",
+      "description_en": "Merging traditional recipes with modern urban flair, this restaurant offers a sophisticated social escape for food lovers visiting Harinus Forn Artesà in Ibiza.bak.20260418_140143.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJz5xjELxGmRIRDGsZGReHci8",
+      "name": "Harinus Forn Artesà",
+      "name_en": "Harinus Forn Artesà",
+      "category": "Restoran",
+      "tags": [
+        "ibiza",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.9104245,
+      "lng": 1.4282176,
+      "rating": 4,
+      "reviewCount": 1227,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/ibiza/ChIJz5xjELxGmRIRDGsZGReHci8.jpg",
+      "description": "Geleneksel tarifleri modern bir kentsel dokunuşla harmanlayan Harinus Forn Artesà, Ibiza.bak.20260418_140143 kentinde gurme lezzetler arayan sosyal gezginler için şık ve kentsel bir lezzet kaçış rotası vaat etmektedir.",
+      "description_en": "Merging traditional recipes with modern urban flair, this restaurant offers a sophisticated social escape for food lovers visiting Harinus Forn Artesà in Ibiza.bak.20260418_140143.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJlSE0dbtGmRIRqwlgozPx6hE",
+      "name": "Harinus Forn Artesà",
+      "name_en": "Harinus Forn Artesà",
+      "category": "Restoran",
+      "tags": [
+        "ibiza",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.9084407,
+      "lng": 1.4301807,
+      "rating": 4.1,
+      "reviewCount": 1010,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/ibiza/ChIJlSE0dbtGmRIRqwlgozPx6hE.jpg",
+      "description": "Geleneksel tarifleri modern bir kentsel dokunuşla harmanlayan Harinus Forn Artesà, Ibiza.bak.20260418_140143 kentinde gurme lezzetler arayan sosyal gezginler için şık ve kentsel bir lezzet kaçış rotası vaat etmektedir.",
+      "description_en": "Merging traditional recipes with modern urban flair, this restaurant offers a sophisticated social escape for food lovers visiting Harinus Forn Artesà in Ibiza.bak.20260418_140143.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJBXjVSChEmRIRxqYW-RhILUU",
+      "name": "Barocco Nicolau",
+      "name_en": "Barocco Nicolau",
+      "category": "Restoran",
+      "tags": [
+        "ibiza",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.9126495,
+      "lng": 1.4285311,
+      "rating": 3.4,
+      "reviewCount": 11,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/ibiza/ChIJBXjVSChEmRIRxqYW-RhILUU.jpg",
+      "description": "Yerel malzemelere ve kentsel mutfak sanatına olan bağlılığıyla tanınan Barocco Nicolau, Ibiza.bak.20260418_140143 kentinin kalbindeki en stil sahibi kentsel lezzet duraklarından biri olarak öne çıkan bir kentsel merkezdir.",
+      "description_en": "Renowned for its commitment to local ingredients and urban culinary art, Barocco Nicolau stands as a flavor stronghold in the heart of Ibiza.bak.20260418_140143's vibrant dining scene.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJnayyyLtGmRIRIiALZXcxRoQ",
+      "name": "Can Moreta",
+      "name_en": "Can Moreta",
+      "category": "Restoran",
+      "tags": [
+        "ibiza",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.910134,
+      "lng": 1.4309098,
+      "rating": 4.2,
+      "reviewCount": 910,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/ibiza/ChIJnayyyLtGmRIRIiALZXcxRoQ.jpg",
+      "description": "Yerel malzemelere ve kentsel mutfak sanatına olan bağlılığıyla tanınan Can Moreta, Ibiza.bak.20260418_140143 kentinin kalbindeki en stil sahibi kentsel lezzet duraklarından biri olarak öne çıkan bir kentsel merkezdir.",
+      "description_en": "Renowned for its commitment to local ingredients and urban culinary art, Can Moreta stands as a flavor stronghold in the heart of Ibiza.bak.20260418_140143's vibrant dining scene.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJb7ya375GmRIRCdc2eJQeLSk",
+      "name": "Café Cibeles",
+      "name_en": "Café Cibeles",
+      "category": "Restoran",
+      "tags": [
+        "ibiza",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.9137233,
+      "lng": 1.4278813,
+      "rating": 4,
+      "reviewCount": 399,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/ibiza/ChIJb7ya375GmRIRCdc2eJQeLSk.jpg",
+      "description": "Geleneksel tarifleri modern bir kentsel dokunuşla harmanlayan Café Cibeles, Ibiza.bak.20260418_140143 kentinde gurme lezzetler arayan sosyal gezginler için şık ve kentsel bir lezzet kaçış rotası vaat etmektedir.",
+      "description_en": "Merging traditional recipes with modern urban flair, this restaurant offers a sophisticated social escape for food lovers visiting Café Cibeles in Ibiza.bak.20260418_140143.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJARYzdLpGmRIR2UDO3xT8IF8",
+      "name": "Gelato Ibiza",
+      "name_en": "Gelato Ibiza",
+      "category": "Restoran",
+      "tags": [
+        "ibiza",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.909486,
+      "lng": 1.433649,
+      "rating": 4.1,
+      "reviewCount": 825,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/ibiza/ChIJARYzdLpGmRIR2UDO3xT8IF8.jpg",
+      "description": "Ibiza.bak.20260418_140143 kentinin gastronomi dünyasında otantik lezzetleri ve dinamik sosyal atmosferiyle tanınan Gelato Ibiza, yerel mutfak kültürünü en prestijli şekilde deneyimlemek isteyenlerin en samimi adresidir.",
+      "description_en": "A prestigious culinary destination in Ibiza.bak.20260418_140143 known for its authentic flavors and vibrant social atmosphere, Gelato Ibiza is the perfect spot for experiencing high-end local gastronomy.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJO7M_r7NGmRIRLANWnpV_VR4",
+      "name": "Peter Pan Eivissa",
+      "name_en": "Peter Pan Eivissa",
+      "category": "Restoran",
+      "tags": [
+        "ibiza",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.9088846,
+      "lng": 1.440705,
+      "rating": 4.5,
+      "reviewCount": 285,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/ibiza/ChIJO7M_r7NGmRIRLANWnpV_VR4.jpg",
+      "description": "Ibiza.bak.20260418_140143 kentinin gastronomi dünyasında otantik lezzetleri ve dinamik sosyal atmosferiyle tanınan Peter Pan Eivissa, yerel mutfak kültürünü en prestijli şekilde deneyimlemek isteyenlerin en samimi adresidir.",
+      "description_en": "A prestigious culinary destination in Ibiza.bak.20260418_140143 known for its authentic flavors and vibrant social atmosphere, Peter Pan Eivissa is the perfect spot for experiencing high-end local gastronomy.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJkfhnXM1FmRIRmcJYlh7nMb8",
+      "name": "Ushuaïa Ibiza",
+      "name_en": "Ushuaïa Ibiza",
+      "category": "Deneyim",
+      "tags": [
+        "ibiza",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.8854444,
+      "lng": 1.4048859,
+      "rating": 4.3,
+      "reviewCount": 7322,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/ibiza/ChIJkfhnXM1FmRIRmcJYlh7nMb8.jpg",
+      "description": "Ibiza.bak.20260418_140143 sokaklarına özgün karakterini katan Ushuaïa Ibiza, kentin modern enerjisini ve kültürel nabzını yansıtan kentsel bir prestij noktası ve sofistike bir kentsel sosyal durak kalesidir.",
+      "description_en": "Infusing the streets of Ibiza.bak.20260418_140143 with its unique character, Ushuaïa Ibiza is a sophisticated urban destination that reflects the town's modern energy and creative pulse.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJQX0YoLFGmRIRnRN3vNpRH6g",
+      "name": "Lolas Club",
+      "name_en": "Lolas Club",
+      "category": "Deneyim",
+      "tags": [
+        "ibiza",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.908262,
+      "lng": 1.4375229,
+      "rating": 3.8,
+      "reviewCount": 273,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/ibiza/ChIJQX0YoLFGmRIRnRN3vNpRH6g.jpg",
+      "description": "Ibiza.bak.20260418_140143 kentinde kentsel konforu yerel estetikle birleştiren Lolas Club, kentin sosyal ve kültürel dünyasına yüksek kaliteli bir kentsel dokunuş katan en samimi ve kentsel rotalardan biridir.",
+      "description_en": "As a refined social and cultural point in Ibiza.bak.20260418_140143, Lolas Club offers a high-quality experience that perfectly merges urban convenience with local aesthetic charm.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJfQy0FZlHmRIRwXdP8B6imI8",
+      "name": "Space Beach Club S.A.",
+      "name_en": "Space Beach Club S.A.",
+      "category": "Deneyim",
+      "tags": [
+        "ibiza",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.9621464,
+      "lng": 1.3986539,
+      "rating": 4.5,
+      "reviewCount": 50,
+      "price": "medium",
+      "imageUrl": "",
+      "description": "Ibiza.bak.20260418_140143 kentinde kentsel konforu yerel estetikle birleştiren Space Beach Club S.A., kentin sosyal ve kültürel dünyasına yüksek kaliteli bir kentsel dokunuş katan en samimi ve kentsel rotalardan biridir.",
+      "description_en": "As a refined social and cultural point in Ibiza.bak.20260418_140143, Space Beach Club S.A. offers a high-quality experience that perfectly merges urban convenience with local aesthetic charm.",
+      "source": "google"
+    },
+    {
+      "id": "ChIJ72fCobFGmRIR6rNN_BxYY_k",
+      "name": "Bar Angelo Eivissa",
+      "name_en": "Bar Angelo Eivissa",
+      "category": "Restoran",
+      "tags": [
+        "ibiza",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.9083635,
+      "lng": 1.4308983,
+      "rating": 4,
+      "reviewCount": 130,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/ibiza/ChIJ72fCobFGmRIR6rNN_BxYY_k.jpg",
+      "description": "Yerel malzemelere ve kentsel mutfak sanatına olan bağlılığıyla tanınan Bar Angelo Eivissa, Ibiza.bak.20260418_140143 kentinin kalbindeki en stil sahibi kentsel lezzet duraklarından biri olarak öne çıkan bir kentsel merkezdir.",
+      "description_en": "Renowned for its commitment to local ingredients and urban culinary art, Bar Angelo Eivissa stands as a flavor stronghold in the heart of Ibiza.bak.20260418_140143's vibrant dining scene.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJ5SHNHrxGmRIR3VS8uP6hKp8",
+      "name": "La Kokotxa",
+      "name_en": "La Kokotxa",
+      "category": "Deneyim",
+      "tags": [
+        "ibiza",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.9107844,
+      "lng": 1.4280488,
+      "rating": 3.7,
+      "reviewCount": 139,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/ibiza/ChIJ5SHNHrxGmRIR3VS8uP6hKp8.jpg",
+      "description": "Ibiza.bak.20260418_140143 kentinin kentsel enerjisini ve kültürel kimliğini yansıtan La Kokotxa, kenti keşfeden gezginlerin kentsel keşif albümündeki en ikonik ve fotojenik kentsel duraklardan birisi haline gelmiştir.",
+      "description_en": "A prominent urban landmark in Ibiza.bak.20260418_140143 that defines the area's contemporary spirit and cultural identity, La Kokotxa serves as a prestigious and unique stop for every traveler.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJvRqOQbFGmRIRZe-cgp6yZQ4",
+      "name": "BCB Tango",
+      "name_en": "BCB Tango",
+      "category": "Deneyim",
+      "tags": [
+        "ibiza",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.9097295,
+      "lng": 1.4376659,
+      "rating": 3.9,
+      "reviewCount": 110,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/ibiza/ChIJvRqOQbFGmRIRZe-cgp6yZQ4.jpg",
+      "description": "Ibiza.bak.20260418_140143 sokaklarına özgün karakterini katan BCB Tango, kentin modern enerjisini ve kültürel nabzını yansıtan kentsel bir prestij noktası ve sofistike bir kentsel sosyal durak kalesidir.",
+      "description_en": "Infusing the streets of Ibiza.bak.20260418_140143 with its unique character, BCB Tango is a sophisticated urban destination that reflects the town's modern energy and creative pulse.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJj807XM1FmRIR3Duod-ACrhM",
+      "name": "TOP 21 IBIZA",
+      "name_en": "TOP 21 IBIZA",
+      "category": "Deneyim",
+      "tags": [
+        "ibiza",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.8884766,
+      "lng": 1.4074975,
+      "rating": 3.5,
+      "reviewCount": 132,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/ibiza/ChIJj807XM1FmRIR3Duod-ACrhM.jpg",
+      "description": "Ibiza.bak.20260418_140143 kentinde kentsel konforu yerel estetikle birleştiren TOP 21 IBIZA, kentin sosyal ve kültürel dünyasına yüksek kaliteli bir kentsel dokunuş katan en samimi ve kentsel rotalardan biridir.",
+      "description_en": "As a refined social and cultural point in Ibiza.bak.20260418_140143, TOP 21 IBIZA offers a high-quality experience that perfectly merges urban convenience with local aesthetic charm.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJrxf1VyxEmRIRplqUErzS56Y",
+      "name": "Murphy's Ibiza",
+      "name_en": "Murphy's Ibiza",
+      "category": "Deneyim",
+      "tags": [
+        "ibiza",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.8885307,
+      "lng": 1.4072242,
+      "rating": 4.6,
+      "reviewCount": 2431,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/ibiza/ChIJrxf1VyxEmRIRplqUErzS56Y.jpg",
+      "description": "Ibiza.bak.20260418_140143 kentinin kentsel enerjisini ve kültürel kimliğini yansıtan Murphy's Ibiza, kenti keşfeden gezginlerin kentsel keşif albümündeki en ikonik ve fotojenik kentsel duraklardan birisi haline gelmiştir.",
+      "description_en": "A prominent urban landmark in Ibiza.bak.20260418_140143 that defines the area's contemporary spirit and cultural identity, Murphy's Ibiza serves as a prestigious and unique stop for every traveler.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJ8WopDktBmRIRM3IYSSPa4XM",
+      "name": "BUBBLES DISCO",
+      "name_en": "BUBBLES DISCO",
+      "category": "Deneyim",
+      "tags": [
+        "ibiza",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.913036,
+      "lng": 1.4485406,
+      "rating": 4.5,
+      "reviewCount": 8,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/ibiza/ChIJ8WopDktBmRIRM3IYSSPa4XM.jpg",
+      "description": "Ibiza.bak.20260418_140143 sokaklarına özgün karakterini katan BUBBLES DISCO, kentin modern enerjisini ve kültürel nabzını yansıtan kentsel bir prestij noktası ve sofistike bir kentsel sosyal durak kalesidir.",
+      "description_en": "Infusing the streets of Ibiza.bak.20260418_140143 with its unique character, BUBBLES DISCO is a sophisticated urban destination that reflects the town's modern energy and creative pulse.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJH7c0o5hHmRIRE59isATlHEo",
+      "name": "Underground Ibiza",
+      "name_en": "Underground Ibiza",
+      "category": "Deneyim",
+      "tags": [
+        "ibiza",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.959095,
+      "lng": 1.3989827,
+      "rating": 4.3,
+      "reviewCount": 97,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/ibiza/ChIJH7c0o5hHmRIRE59isATlHEo.jpg",
+      "description": "Ibiza.bak.20260418_140143 kentinin kentsel enerjisini ve kültürel kimliğini yansıtan Underground Ibiza, kenti keşfeden gezginlerin kentsel keşif albümündeki en ikonik ve fotojenik kentsel duraklardan birisi haline gelmiştir.",
+      "description_en": "A prominent urban landmark in Ibiza.bak.20260418_140143 that defines the area's contemporary spirit and cultural identity, Underground Ibiza serves as a prestigious and unique stop for every traveler.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJ6_sc8clGmRIRX9mkd_g109M",
+      "name": "Keeper Ibiza",
+      "name_en": "Keeper Ibiza",
+      "category": "Deneyim",
+      "tags": [
+        "ibiza",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.9157722,
+      "lng": 1.4438265,
+      "rating": 3.7,
+      "reviewCount": 1407,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/ibiza/ChIJ6_sc8clGmRIRX9mkd_g109M.jpg",
+      "description": "Ibiza.bak.20260418_140143 kentinin kentsel enerjisini ve kültürel kimliğini yansıtan Keeper Ibiza, kenti keşfeden gezginlerin kentsel keşif albümündeki en ikonik ve fotojenik kentsel duraklardan birisi haline gelmiştir.",
+      "description_en": "A prominent urban landmark in Ibiza.bak.20260418_140143 that defines the area's contemporary spirit and cultural identity, Keeper Ibiza serves as a prestigious and unique stop for every traveler.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJt9rbr7NGmRIRb6e0IXxOdmQ",
+      "name": "JJ",
+      "name_en": "JJ",
+      "category": "Deneyim",
+      "tags": [
+        "ibiza",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.9089008,
+      "lng": 1.4402258,
+      "rating": 4.7,
+      "reviewCount": 103,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/ibiza/ChIJt9rbr7NGmRIRb6e0IXxOdmQ.jpg",
+      "description": "Ibiza.bak.20260418_140143 sokaklarına özgün karakterini katan JJ, kentin modern enerjisini ve kültürel nabzını yansıtan kentsel bir prestij noktası ve sofistike bir kentsel sosyal durak kalesidir.",
+      "description_en": "Infusing the streets of Ibiza.bak.20260418_140143 with its unique character, JJ is a sophisticated urban destination that reflects the town's modern energy and creative pulse.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJ77Hk25dGmRIRl1AUbNxvztg",
+      "name": "Polinesia",
+      "name_en": "Polinesia",
+      "category": "Deneyim",
+      "tags": [
+        "ibiza",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.9076682,
+      "lng": 1.4238371,
+      "rating": 4.1,
+      "reviewCount": 90,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/ibiza/ChIJ77Hk25dGmRIRl1AUbNxvztg.jpg",
+      "description": "Ibiza.bak.20260418_140143 kentinde kentsel konforu yerel estetikle birleştiren Polinesia, kentin sosyal ve kültürel dünyasına yüksek kaliteli bir kentsel dokunuş katan en samimi ve kentsel rotalardan biridir.",
+      "description_en": "As a refined social and cultural point in Ibiza.bak.20260418_140143, Polinesia offers a high-quality experience that perfectly merges urban convenience with local aesthetic charm.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJI3bvGC1EmRIRJ6_GFrIjtuM",
+      "name": "Tantra Ibiza",
+      "name_en": "Tantra Ibiza",
+      "category": "Deneyim",
+      "tags": [
+        "ibiza",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.88738130000001,
+      "lng": 1.406028,
+      "rating": 3.9,
+      "reviewCount": 1210,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/ibiza/ChIJI3bvGC1EmRIRJ6_GFrIjtuM.jpg",
+      "description": "Ibiza.bak.20260418_140143 kentinde kentsel konforu yerel estetikle birleştiren Tantra Ibiza, kentin sosyal ve kültürel dünyasına yüksek kaliteli bir kentsel dokunuş katan en samimi ve kentsel rotalardan biridir.",
+      "description_en": "As a refined social and cultural point in Ibiza.bak.20260418_140143, Tantra Ibiza offers a high-quality experience that perfectly merges urban convenience with local aesthetic charm.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJa3jSebtGmRIRsj_750w95sE",
+      "name": "Blue Marlin Eivissa",
+      "name_en": "Blue Marlin Eivissa",
+      "category": "Restoran",
+      "tags": [
+        "ibiza",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.8679434,
+      "lng": 1.3176839,
+      "rating": 4.2,
+      "reviewCount": 4359,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/ibiza/ChIJa3jSebtGmRIRsj_750w95sE.jpg",
+      "description": "Ibiza.bak.20260418_140143 kentinin gastronomi dünyasında otantik lezzetleri ve dinamik sosyal atmosferiyle tanınan Blue Marlin Eivissa, yerel mutfak kültürünü en prestijli şekilde deneyimlemek isteyenlerin en samimi adresidir.",
+      "description_en": "A prestigious culinary destination in Ibiza.bak.20260418_140143 known for its authentic flavors and vibrant social atmosphere, Blue Marlin Eivissa is the perfect spot for experiencing high-end local gastronomy.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJ-3JaaJlGmRIRvQkdPIf6-dM",
+      "name": "Prince",
+      "name_en": "Prince",
+      "category": "Restoran",
+      "tags": [
+        "ibiza",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.9021714,
+      "lng": 1.4202841,
+      "rating": 4.2,
+      "reviewCount": 950,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/ibiza/ChIJ-3JaaJlGmRIRvQkdPIf6-dM.jpg",
+      "description": "Ibiza.bak.20260418_140143 kentinin gastronomi dünyasında otantik lezzetleri ve dinamik sosyal atmosferiyle tanınan Prince, yerel mutfak kültürünü en prestijli şekilde deneyimlemek isteyenlerin en samimi adresidir.",
+      "description_en": "A prestigious culinary destination in Ibiza.bak.20260418_140143 known for its authentic flavors and vibrant social atmosphere, Prince is the perfect spot for experiencing high-end local gastronomy.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJBVwbj6OplxIRhOf4-duR1yM",
+      "name": "Experimental Beach Ibiza",
+      "name_en": "Experimental Beach Ibiza",
+      "category": "Restoran",
+      "tags": [
+        "ibiza",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.8518169,
+      "lng": 1.3676533,
+      "rating": 4.2,
+      "reviewCount": 1953,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/ibiza/ChIJBVwbj6OplxIRhOf4-duR1yM.jpg",
+      "description": "Ses Salines'in kentsel kentsel kentsel bohem kentsel kentsel şıklığını kentsel kentsel ve kentsel kentsel kentsel masalsı kentsel kentsel kentsel gün kentsel batımı kentsel kentsel rituellerini kentsel kentsel sunan kentsel kentsel bir prestij kalesidir.",
+      "description_en": "The bohemian-chic stronghold of Ses Salines, offering fairytale-like sunset rituals and world-class cocktails. A premier urban social landmark.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJSZhc3rpGmRIRz8qp7LwjCTc",
+      "name": "Centro de interpretación Sa Capelleta",
+      "name_en": "Centro de interpretación Sa Capelleta",
+      "category": "Tarihi",
+      "tags": [
+        "ibiza",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.90709469999999,
+      "lng": 1.4315799,
+      "rating": 4.8,
+      "reviewCount": 10,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/ibiza/ChIJSZhc3rpGmRIRz8qp7LwjCTc.jpg",
+      "description": "Ibiza.bak.20260418_140143 kentinin kentsel tarih silüetini ve Centro de interpretación Sa Capelleta bölgesinin mimari ihtişamını yansıtan bu alan, kentin binlerce yıllık kültürel mirasına açılan en prestijli kentsel tarih kalesidir.",
+      "description_en": "An urban cultural stronghold in Ibiza.bak.20260418_140143 showcasing the historical layers and architectural grandeur of Centro de interpretación Sa Capelleta, offering travelers a deep dive into the region's heritage.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJ_afXv7FGmRIRRlX8TkEAWTI",
+      "name": "Arxiu Històric d'Imatge i de So",
+      "name_en": "Arxiu Històric d'Imatge i de So",
+      "category": "Tarihi",
+      "tags": [
+        "ibiza",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.9073488,
+      "lng": 1.4375088,
+      "rating": 4.6,
+      "reviewCount": 23,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/ibiza/ChIJ_afXv7FGmRIRRlX8TkEAWTI.jpg",
+      "description": "Ibiza.bak.20260418_140143 kentinin tarihi dokusunda önemli bir yer tutan Arxiu Històric d'Imatge i de So, kentin tarihsel evrimini ve kentsel hafızasını koruyan en entelektüel ve paha biçilemez kentsel duraklardan biridir.",
+      "description_en": "As a prestigious landmark of Ibiza.bak.20260418_140143, Arxiu Històric d'Imatge i de So preserves the town's millennia-old memory and serves as an intellectual window into the historical evolution of the area.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJ1yyQ7PpHmRIRepQV0iiBdgw",
+      "name": "Casal de la Igualdad",
+      "name_en": "Casal de la Igualdad",
+      "category": "Tarihi",
+      "tags": [
+        "ibiza",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.91158009999999,
+      "lng": 1.4237306,
+      "rating": 4,
+      "reviewCount": 4,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/ibiza/ChIJ1yyQ7PpHmRIRepQV0iiBdgw.jpg",
+      "description": "Antik dokularla Casal de la Igualdad ruhunu birleştiren bu tarihi nokta, Ibiza.bak.20260418_140143 kentinin kültürel kimliğini tanımlayan ve kenti keşfedenlere mistik bir atmosfer sunan kentsel bir prestij kalesidir.",
+      "description_en": "This historical gemstone in Ibiza.bak.20260418_140143 defines the local cultural identity, combining ancient textures with the timeless spirit of Casal de la Igualdad for every urban explorer.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJmZIyNbBGmRIRJTKMb3s73U8",
+      "name": "Centro de interpretación Madina Yabisa",
+      "name_en": "Centro de interpretación Madina Yabisa",
+      "category": "Tarihi",
+      "tags": [
+        "ibiza",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.9069076,
+      "lng": 1.4361395,
+      "rating": 4.4,
+      "reviewCount": 51,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/ibiza/ChIJmZIyNbBGmRIRJTKMb3s73U8.jpg",
+      "description": "Ibiza.bak.20260418_140143 kentinin tarihi dokusunda önemli bir yer tutan Centro de interpretación Madina Yabisa, kentin tarihsel evrimini ve kentsel hafızasını koruyan en entelektüel ve paha biçilemez kentsel duraklardan biridir.",
+      "description_en": "As a prestigious landmark of Ibiza.bak.20260418_140143, Centro de interpretación Madina Yabisa preserves the town's millennia-old memory and serves as an intellectual window into the historical evolution of the area.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJ43sMNbBGmRIRVQbTz_tAg0Q",
+      "name": "Casa de la Curia",
+      "name_en": "Casa de la Curia",
+      "category": "Tarihi",
+      "tags": [
+        "ibiza",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.9070566,
+      "lng": 1.4362142,
+      "rating": 4.3,
+      "reviewCount": 36,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/ibiza/ChIJ43sMNbBGmRIRVQbTz_tAg0Q.jpg",
+      "description": "Ibiza.bak.20260418_140143 kentinin tarihi dokusunda önemli bir yer tutan Casa de la Curia, kentin tarihsel evrimini ve kentsel hafızasını koruyan en entelektüel ve paha biçilemez kentsel duraklardan biridir.",
+      "description_en": "As a prestigious landmark of Ibiza.bak.20260418_140143, Casa de la Curia preserves the town's millennia-old memory and serves as an intellectual window into the historical evolution of the area.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJ8wOmtKxHmRIRtjIZJuH8AbY",
+      "name": "Museu d'Art Contemporani d'Eivissa",
+      "name_en": "Museu d'Art Contemporani d'Eivissa",
+      "category": "Tarihi",
+      "tags": [
+        "ibiza",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.9083035,
+      "lng": 1.4362641,
+      "rating": 4.5,
+      "reviewCount": 215,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/ibiza/ChIJ8wOmtKxHmRIRtjIZJuH8AbY.jpg",
+      "description": "Ibiza.bak.20260418_140143 kentinin kentsel tarih silüetini ve Museu d'Art Contemporani d'Eivissa bölgesinin mimari ihtişamını yansıtan bu alan, kentin binlerce yıllık kültürel mirasına açılan en prestijli kentsel tarih kalesidir.",
+      "description_en": "An urban cultural stronghold in Ibiza.bak.20260418_140143 showcasing the historical layers and architectural grandeur of Museu d'Art Contemporani d'Eivissa, offering travelers a deep dive into the region's heritage.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJLR7yzSBHmRIRTARbBRHVz04",
+      "name": "MAEF - Museu Arqueològic d'Eivissa i Formentera (Museum/Museo)",
+      "name_en": "MAEF - Museu Arqueològic d'Eivissa i Formentera (Museum/Museo)",
+      "category": "Tarihi",
+      "tags": [
+        "ibiza",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.9069785,
+      "lng": 1.4365698,
+      "rating": 3.8,
+      "reviewCount": 17,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/ibiza/ChIJLR7yzSBHmRIRTARbBRHVz04.jpg",
+      "description": "Antik dokularla MAEF - Museu Arqueològic d'Eivissa i Formentera (Museum/Museo) ruhunu birleştiren bu tarihi nokta, Ibiza.bak.20260418_140143 kentinin kültürel kimliğini tanımlayan ve kenti keşfedenlere mistik bir atmosfer sunan kentsel bir prestij kalesidir.",
+      "description_en": "This historical gemstone in Ibiza.bak.20260418_140143 defines the local cultural identity, combining ancient textures with the timeless spirit of MAEF - Museu Arqueològic d'Eivissa i Formentera (Museum/Museo) for every urban explorer.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJHfd8ZQBHmRIRg6AxnFPzBSw",
+      "name": "Expo des Toons",
+      "name_en": "Expo des Toons",
+      "category": "Tarihi",
+      "tags": [
+        "ibiza",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.9089796,
+      "lng": 1.436845,
+      "rating": 4.5,
+      "reviewCount": 50,
+      "price": "medium",
+      "imageUrl": "",
+      "description": "Ibiza.bak.20260418_140143 kentinin kentsel tarih silüetini ve Expo des Toons bölgesinin mimari ihtişamını yansıtan bu alan, kentin binlerce yıllık kültürel mirasına açılan en prestijli kentsel tarih kalesidir.",
+      "description_en": "An urban cultural stronghold in Ibiza.bak.20260418_140143 showcasing the historical layers and architectural grandeur of Expo des Toons, offering travelers a deep dive into the region's heritage.",
+      "source": "google"
+    },
+    {
+      "id": "ChIJh8wuLwBHmRIRzX59un-IG-s",
+      "name": "El polvorín",
+      "name_en": "El polvorín",
+      "category": "Tarihi",
+      "tags": [
+        "ibiza",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.9081492,
+      "lng": 1.4380345,
+      "rating": 5,
+      "reviewCount": 1,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/ibiza/ChIJh8wuLwBHmRIRzX59un-IG-s.jpg",
+      "description": "Ibiza.bak.20260418_140143 kentinin kentsel tarih silüetini ve El polvorín bölgesinin mimari ihtişamını yansıtan bu alan, kentin binlerce yıllık kültürel mirasına açılan en prestijli kentsel tarih kalesidir.",
+      "description_en": "An urban cultural stronghold in Ibiza.bak.20260418_140143 showcasing the historical layers and architectural grandeur of El polvorín, offering travelers a deep dive into the region's heritage.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJ_79IzsZHmRIRX-CdtK7GPRc",
+      "name": "Bloop Festival",
+      "name_en": "Bloop Festival",
+      "category": "Tarihi",
+      "tags": [
+        "ibiza",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.9089256,
+      "lng": 1.4402124,
+      "rating": 5,
+      "reviewCount": 11,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/ibiza/ChIJ_79IzsZHmRIRX-CdtK7GPRc.jpg",
+      "description": "Antik dokularla Bloop Festival ruhunu birleştiren bu tarihi nokta, Ibiza.bak.20260418_140143 kentinin kültürel kimliğini tanımlayan ve kenti keşfedenlere mistik bir atmosfer sunan kentsel bir prestij kalesidir.",
+      "description_en": "This historical gemstone in Ibiza.bak.20260418_140143 defines the local cultural identity, combining ancient textures with the timeless spirit of Bloop Festival for every urban explorer.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJXWVNv8lGmRIRKlczWvTHKWU",
+      "name": "Rotonda",
+      "name_en": "Rotonda",
+      "category": "Tarihi",
+      "tags": [
+        "ibiza",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.9175895,
+      "lng": 1.4371334,
+      "rating": 5,
+      "reviewCount": 1,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/ibiza/ChIJXWVNv8lGmRIRKlczWvTHKWU.jpg",
+      "description": "Ibiza.bak.20260418_140143 kentinin tarihi dokusunda önemli bir yer tutan Rotonda, kentin tarihsel evrimini ve kentsel hafızasını koruyan en entelektüel ve paha biçilemez kentsel duraklardan biridir.",
+      "description_en": "As a prestigious landmark of Ibiza.bak.20260418_140143, Rotonda preserves the town's millennia-old memory and serves as an intellectual window into the historical evolution of the area.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJraXAYwBHmRIRGzXzhL3dYnM",
+      "name": "Rafl Trobat",
+      "name_en": "Rafl Trobat",
+      "category": "Tarihi",
+      "tags": [
+        "ibiza",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.9065898,
+      "lng": 1.3842532,
+      "rating": 1,
+      "reviewCount": 1,
+      "price": "medium",
+      "imageUrl": "",
+      "description": "Ibiza.bak.20260418_140143 kentinin kentsel tarih silüetini ve Rafl Trobat bölgesinin mimari ihtişamını yansıtan bu alan, kentin binlerce yıllık kültürel mirasına açılan en prestijli kentsel tarih kalesidir.",
+      "description_en": "An urban cultural stronghold in Ibiza.bak.20260418_140143 showcasing the historical layers and architectural grandeur of Rafl Trobat, offering travelers a deep dive into the region's heritage.",
+      "source": "google"
+    },
+    {
+      "id": "ChIJG0aV3j9FmRIROFjqRGN-sSc",
+      "name": "Centre d'Interpretació Sant Francesc - Parc natural de ses Salines d'Eivissa i Formentera",
+      "name_en": "Centre d'Interpretació Sant Francesc - Parc natural de ses Salines d'Eivissa i Formentera",
+      "category": "Tarihi",
+      "tags": [
+        "ibiza",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.8682989,
+      "lng": 1.389098,
+      "rating": 4.3,
+      "reviewCount": 132,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/ibiza/ChIJG0aV3j9FmRIROFjqRGN-sSc.jpg",
+      "description": "Antik dokularla Centre d'Interpretació Sant Francesc - Parc natural de ses Salines d'Eivissa i Formentera ruhunu birleştiren bu tarihi nokta, Ibiza.bak.20260418_140143 kentinin kültürel kimliğini tanımlayan ve kenti keşfedenlere mistik bir atmosfer sunan kentsel bir prestij kalesidir.",
+      "description_en": "This historical gemstone in Ibiza.bak.20260418_140143 defines the local cultural identity, combining ancient textures with the timeless spirit of Centre d'Interpretació Sant Francesc - Parc natural de ses Salines d'Eivissa i Formentera for every urban explorer.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJtzOJ6yFAmRIRnhvMvNbvAEk",
+      "name": "Espacio Micus",
+      "name_en": "Espacio Micus",
+      "category": "Tarihi",
+      "tags": [
+        "ibiza",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.9463243,
+      "lng": 1.4679291,
+      "rating": 4.9,
+      "reviewCount": 48,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/ibiza/ChIJtzOJ6yFAmRIRnhvMvNbvAEk.jpg",
+      "description": "Antik dokularla Espacio Micus ruhunu birleştiren bu tarihi nokta, Ibiza.bak.20260418_140143 kentinin kültürel kimliğini tanımlayan ve kenti keşfedenlere mistik bir atmosfer sunan kentsel bir prestij kalesidir.",
+      "description_en": "This historical gemstone in Ibiza.bak.20260418_140143 defines the local cultural identity, combining ancient textures with the timeless spirit of Espacio Micus for every urban explorer.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJz9QiL1RPmRIRYnlYYf-O1Y4",
+      "name": "Museo Sa Caleta Centro de Interpretación",
+      "name_en": "Museo Sa Caleta Centro de Interpretación",
+      "category": "Tarihi",
+      "tags": [
+        "ibiza",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.86757,
+      "lng": 1.33388,
+      "rating": 3.7,
+      "reviewCount": 15,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/ibiza/ChIJz9QiL1RPmRIRYnlYYf-O1Y4.jpg",
+      "description": "Antik dokularla Museo Sa Caleta Centro de Interpretación ruhunu birleştiren bu tarihi nokta, Ibiza.bak.20260418_140143 kentinin kültürel kimliğini tanımlayan ve kenti keşfedenlere mistik bir atmosfer sunan kentsel bir prestij kalesidir.",
+      "description_en": "This historical gemstone in Ibiza.bak.20260418_140143 defines the local cultural identity, combining ancient textures with the timeless spirit of Museo Sa Caleta Centro de Interpretación for every urban explorer.",
+      "source": "firebase"
+    }
+  ]
+}

@@ -14,6 +14,8 @@ class ContentUpdateService {
   // Versiyon kontrolü için manifest dosyası
   static const String _manifestUrl = 'https://raw.githubusercontent.com/anilaybakan-cyber/myway-data/refs/heads/main/version_manifest.json';
   static const String _configBaseUrl = 'https://raw.githubusercontent.com/anilaybakan-cyber/myway-data/refs/heads/main/config';
+  static const String _citiesListUrl = 'https://raw.githubusercontent.com/anilaybakan-cyber/myway-data/refs/heads/main/cities_list.json';
+  static const String _blogsBaseUrl = 'https://raw.githubusercontent.com/anilaybakan-cyber/myway-data/refs/heads/main/blogs';
 
   /// Güncellemeleri kontrol et ve indir
   static Future<void> checkForUpdates() async {
@@ -34,7 +36,7 @@ class ContentUpdateService {
       final Map<String, dynamic> remoteManifest = json.decode(response.body);
       final prefs = await SharedPreferences.getInstance();
 
-      // 2. Her anahtar için kontrol et (Şehirler ve Configler)
+      // 2. Her anahtar için kontrol et (Şehirler, Configler, Blog'lar)
       for (final key in remoteManifest.keys) {
         final value = remoteManifest[key];
         if (value is! int) continue;
@@ -46,6 +48,10 @@ class ContentUpdateService {
             debugPrint("⬇️ $key için güncelleme bulundu (v$localVersion -> v$remoteVersion). İndiriliyor...");
             if (key == 'paywall_config') {
               await _downloadAndSaveConfig(key, remoteVersion, prefs);
+            } else if (key == 'cities_list') {
+              await _downloadCitiesList(remoteVersion, prefs);
+            } else if (key.startsWith('blog_')) {
+              await _downloadBlog(key, remoteVersion, prefs);
             } else {
               await _downloadAndSaveCity(key, remoteVersion, prefs);
             }
@@ -204,6 +210,109 @@ class ContentUpdateService {
       if (await file.exists()) return file;
     } catch (e) {
       debugPrint("⚠️ Config yolu hatası: $e");
+    }
+    return null;
+  }
+
+  // ===== CITIES LIST OTA =====
+
+  /// Şehir listesini indir ve kaydet
+  static Future<void> _downloadCitiesList(int version, SharedPreferences prefs) async {
+    try {
+      final response = await http.get(Uri.parse(_citiesListUrl));
+      if (response.statusCode == 200) {
+        final String jsonContent = utf8.decode(response.bodyBytes);
+        try { json.decode(jsonContent); } catch (e) {
+          debugPrint("❌ İndirilen cities_list.json hatalı.");
+          return;
+        }
+
+        final dir = await getApplicationDocumentsDirectory();
+        final file = File('${dir.path}/config/cities_list.json');
+        if (!await file.parent.exists()) {
+          await file.parent.create(recursive: true);
+        }
+        await file.writeAsString(jsonContent);
+        await prefs.setInt('version_cities_list', version);
+        debugPrint("✅ cities_list.json başarıyla güncellendi.");
+      }
+    } catch (e) {
+      debugPrint("❌ Cities list indirme hatası: $e");
+    }
+  }
+
+  /// OTA ile indirilen şehir listesini oku
+  static Future<List<Map<String, dynamic>>?> getRemoteCitiesList() async {
+    try {
+      final dir = await getApplicationDocumentsDirectory();
+      final file = File('${dir.path}/config/cities_list.json');
+      if (await file.exists()) {
+        final content = await file.readAsString();
+        final list = json.decode(content);
+        if (list is List) {
+          return list.cast<Map<String, dynamic>>();
+        }
+      }
+    } catch (e) {
+      debugPrint("⚠️ Cities list okuma hatası: $e");
+    }
+    return null;
+  }
+
+  // ===== BLOG CONTENT OTA =====
+
+  /// Blog içeriğini indir ve kaydet
+  /// Manifest key formatı: blog_barcelona_tr, blog_barcelona_en
+  /// İndirme URL: blogs/barcelona_tr.json
+  static Future<void> _downloadBlog(String key, int version, SharedPreferences prefs) async {
+    try {
+      // key = "blog_barcelona_tr" → fileName = "barcelona_tr"
+      final fileName = key.replaceFirst('blog_', '');
+      final url = '$_blogsBaseUrl/$fileName.json';
+      final response = await http.get(Uri.parse(url));
+
+      if (response.statusCode == 200) {
+        final String content = utf8.decode(response.bodyBytes);
+
+        final dir = await getApplicationDocumentsDirectory();
+        final file = File('${dir.path}/blogs/$fileName.json');
+        if (!await file.parent.exists()) {
+          await file.parent.create(recursive: true);
+        }
+        await file.writeAsString(content);
+        await prefs.setInt('version_$key', version);
+        debugPrint("✅ Blog $fileName başarıyla güncellendi.");
+      } else {
+        debugPrint("❌ Blog indirilemedi ($fileName): ${response.statusCode}");
+      }
+    } catch (e) {
+      debugPrint("❌ Blog indirme hatası ($key): $e");
+    }
+  }
+
+  /// OTA ile indirilen blog içeriğini oku
+  /// cityId: "barcelona", lang: "tr" veya "en"
+  static Future<String?> getRemoteBlogContent(String cityId, String lang) async {
+    try {
+      final dir = await getApplicationDocumentsDirectory();
+      final file = File('${dir.path}/blogs/${cityId}_$lang.json');
+      if (await file.exists()) {
+        final content = await file.readAsString();
+        // JSON olarak parse et, "content" field'ını döndür
+        try {
+          final data = json.decode(content);
+          if (data is Map && data.containsKey('content')) {
+            return data['content'] as String;
+          }
+          // Düz string olarak kaydedilmişse
+          if (data is String) return data;
+        } catch (_) {
+          // JSON değilse düz metin olarak döndür
+          return content;
+        }
+      }
+    } catch (e) {
+      debugPrint("⚠️ Blog okuma hatası ($cityId/$lang): $e");
     }
     return null;
   }

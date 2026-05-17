@@ -1,10 +1,12 @@
+from dotenv import load_dotenv
+load_dotenv()
 import json
 import os
 import urllib.request
 import urllib.parse
 import time
 
-API_KEY = "AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g"
+API_KEY = os.getenv("GOOGLE_MAPS_API_KEY")
 
 # Detailed descriptions for Batch 1 cities
 DESCRIPTIONS = {

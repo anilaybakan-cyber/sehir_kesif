@@ -7,6 +7,7 @@ class CustomToast {
     BuildContext context, 
     String message, {
     bool isError = true,
+    IconData? icon,
     Duration duration = const Duration(seconds: 3),
   }) {
     final overlayState = Overlay.of(context);
@@ -16,6 +17,7 @@ class CustomToast {
       builder: (context) => _ToastWidget(
         message: message,
         isError: isError,
+        icon: icon,
         duration: duration,
         onDismiss: () => overlayEntry.remove(),
       ),
@@ -28,12 +30,14 @@ class CustomToast {
 class _ToastWidget extends StatefulWidget {
   final String message;
   final bool isError;
+  final IconData? icon;
   final Duration duration;
   final VoidCallback onDismiss;
 
   const _ToastWidget({
     required this.message,
     required this.isError,
+    this.icon,
     required this.duration,
     required this.onDismiss,
   });
@@ -139,7 +143,7 @@ class _ToastWidgetState extends State<_ToastWidget> with SingleTickerProviderSta
                               ],
                             ),
                             child: Icon(
-                              widget.isError ? Icons.location_off_rounded : Icons.check_circle_rounded,
+                              widget.icon ?? (widget.isError ? Icons.location_off_rounded : Icons.check_circle_rounded),
                               color: Colors.white,
                               size: 18,
                             ),

@@ -57,7 +57,7 @@
       "bestTime_en": "Sunset / Overnight",
       "tips": "Gün batımında çölün üstüne yürüyün, manzarayı yakalayın.",
       "tips_en": "Take a walk over the desert at sunset to capture the view.",
-      "name_en": "Agafay Çölü"
+      "name_en": "Agafay Desert"
     },
     {
       "name": "Ain Asserdoun",
@@ -469,29 +469,6 @@
       "name_en": "Bahia Palace",
       "lat": 31.6217,
       "lng": -7.9833
-    },
-    {
-      "name": "Bahia Sarayı",
-      "area": "Mellah",
-      "category": "Tarihi",
-      "tags": [
-        "saray",
-        "bahçe",
-        "mozaik"
-      ],
-      "distanceFromCenter": 0.8,
-      "lat": 31.6217,
-      "lng": -7.9833,
-      "price": "low",
-      "rating": 4.5,
-      "description": "Marakeş'teki 19. yüzyıl Bahia Sarayı, grand vizyer Ba Ahmed'in ikametgahıydı. Fas ve İslam mimarisinin ihtişamını, el işçiliği mozaikleri, sedir tavanları ve huzurlu avlularıyla büyüleyici şekilde sergiler.",
-      "description_en": "The 19th-century Bahia Palace in Marrakech was the residence of Grand Vizier Ba Ahmed. It magnificently showcases the splendor of Moroccan and Islamic architecture with handcrafted mosaics, cedar ceilings, and serene courtyards.",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/marakes/bahia_sarayi.jpg",
-      "bestTime": "Sabah",
-      "bestTime_en": "Morning",
-      "tips": "Kalabalıktan kaçınmak için sabah erken saatlerde ziyaret edin.",
-      "tips_en": "Visit early in the morning to avoid the crowds.",
-      "name_en": "Bahia Palace"
     },
     {
       "id": "gen_ChIJEYyLYo7urw0RdNt2iN9R88k",
@@ -2127,25 +2104,6 @@
       "bestTime_en": "Sunset",
       "tips": "Gün batımında caminin bahçesinden muhteşem fotoğraflar çekin.",
       "tips_en": "Take magnificent photos from the mosque garden at sunset.",
-      "name_en": "Koutoubia Mosque"
-    },
-    {
-      "name": "Koutoubia Mosque",
-      "area": "Medina",
-      "category": "Tarihi",
-      "tags": [
-        "cami",
-        "minare",
-        "simge"
-      ],
-      "distanceFromCenter": 0.5,
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/marakes/koutoubia_mosque.jpg",
-      "rating": 4.4,
-      "price": "low",
-      "description": "Marakeş'in 12. yüzyıl Almohad mimarisi başyapıtı Koutoubia Camii, zarif minaresi, karmaşık geometrik desenleri ve tarihi ahşap minberiyle İslam sanatının görkemli bir ifadesidir.",
-      "tips": "Gün batımında caminin bahçesinden muhteşem fotoğraflar çekin.",
-      "tips_en": "Take magnificent photos from the mosque garden at sunset.",
-      "description_en": "Marrakech's 12th-century Almohad masterpiece, Koutoubia Mosque, boasts an elegant minaret, intricate geometric patterns, and historic wooden minbar, exemplifying magnificent Islamic art.",
       "name_en": "Koutoubia Mosque"
     },
     {

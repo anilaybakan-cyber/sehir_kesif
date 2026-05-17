@@ -17,13 +17,14 @@ class TutorialService {
   static const String KEY_TUTORIAL_ROUTES = "tutorial_routes_seen_v99";
   static const String KEY_TUTORIAL_MY_ROUTE = "tutorial_myroute_seen_v99";
   static const String KEY_TUTORIAL_MEMORIES = "tutorial_memories_seen_v99";
+  static const String KEY_TUTORIAL_PREMIUM = "tutorial_premium_v99";
 
   // ⚠️ DEBUG: Set to true to force all tutorials to show (for testing)
   // ⚠️ CANLIYA ÇIKARKEN FALSE YAP!
   static const bool _forceShowAllTutorials = false;
 
   Future<bool> shouldShowTutorial(String key) async {
-    return false; // TEMPORARILY DISABLED BY USER REQUEST
+    return false; // DISABLED - Tutorial kaldırıldı
     // if (_forceShowAllTutorials) return true; // DEBUG MODE
     // final prefs = await SharedPreferences.getInstance();
     // return !(prefs.getBool(key) ?? false);
@@ -46,6 +47,7 @@ class TutorialService {
       KEY_TUTORIAL_ROUTES,
       KEY_TUTORIAL_MY_ROUTE,
       KEY_TUTORIAL_MEMORIES,
+      KEY_TUTORIAL_PREMIUM,
     ];
     for (var key in allKeys) {
       await prefs.setBool(key, true);
@@ -64,6 +66,7 @@ class TutorialService {
       KEY_TUTORIAL_ROUTES,
       KEY_TUTORIAL_MY_ROUTE,
       KEY_TUTORIAL_MEMORIES,
+      KEY_TUTORIAL_PREMIUM,
     ];
     for (var key in allKeys) {
       await prefs.setBool(key, false);

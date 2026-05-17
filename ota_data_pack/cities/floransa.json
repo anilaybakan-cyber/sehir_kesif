@@ -353,7 +353,7 @@
       "bestTime_en": "April-May (wisteria bloom)",
       "tips": "Öğleden sonra ışıkta fotoğraf çekmeyi deneyin.",
       "tips_en": "Try taking photos in the afternoon light.",
-      "name_en": "Bardini Bahçesi"
+      "name_en": "Bardini Gardens"
     },
     {
       "name": "Bardini Garden (Secret View)",
@@ -2679,10 +2679,10 @@
     {
       "id": "gen_ChIJM-G7wghUKhMRjRksexW6vz4",
       "name": "Leonardo",
-      "category": "Müze",
+      "category": "Kafe",
       "area": "Via dei Macci",
-      "description": "Floransa'daki bu müze, Leonardo da Vinci'nin dahiyane zihnini sergiler. Rönesans dehasının icatlarını, mühendislik harikası makine prototiplerini ve sanatsal vizyonunu keşfedin, bilimsel mirasının eşsiz bir vitrinidir.",
-      "description_en": "This Florence museum unveils Leonardo da Vinci's genius mind. Explore Renaissance master's ingenious inventions, engineering marvel prototypes, and artistic vision, an unparalleled showcase of his scientific legacy.",
+      "description": "Sant'Ambrogio çevresindeki Via dei Macci üzerinde yer alan ünlü pastane ve fırın. Taze ekmek, cornetto, geleneksel tatlılar ve espresso için yerel halkın sık uğradığı bir duraktır; ismi Leonardo da Vinci müzesiyle karıştırılmamalıdır.",
+      "description_en": "A beloved bakery and café on Via dei Macci near Sant'Ambrogio—known for fresh bread, cornetti, classic pastries, and espresso. Popular with locals; not the Leonardo da Vinci museum.",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/floransa/leonardo.jpg",
       "location": "Via dei Macci, 65 R, 50122 Firenze FI, İtalya",
       "lat": 43.77016829999999,
@@ -2693,12 +2693,13 @@
       "website": "http://www.leonardofirenze.it/",
       "tags": [
         "kafe",
+        "pastane",
         "popüler",
         "keşfet"
       ],
       "distanceFromCenter": 1.5,
-      "tips": "Giriş için çevrimiçi bilet alıp kalabalıktan kaçınarak zaman kazanın.",
-      "tips_en": "Purchase tickets online to save time and avoid crowded queues.",
+      "tips": "Taze fırın ürünleri ve cornetto için sabah erken gidin; kalabalıkta sıra olabilir.",
+      "tips_en": "Go early for oven-fresh pastries and cornetti; expect a short queue at busy hours.",
       "name_en": "Leonardo"
     },
     {
@@ -3594,30 +3595,6 @@
       "tips": "Öğleden sonra, sessiz vaktin tadını çıkarın.",
       "tips_en": "Enjoy the tranquility in the afternoon.",
       "name_en": "Ostro San Frediano"
-    },
-    {
-      "name": "Palatine Gallery (Pitti Sarayı)",
-      "name_en": "Palatine Gallery",
-      "area": "Oltrarno",
-      "category": "Müze",
-      "tags": [
-        "sanat",
-        "saray",
-        "lüks",
-        "medici"
-      ],
-      "distanceFromCenter": 0.5,
-      "lat": 43.7656,
-      "lng": 11.2505,
-      "price": "high",
-      "rating": 4.8,
-      "description": "Medici ailesinin eski rezidansı Pitti Sarayı'ndaki Palatine Galerisi, Raphael, Titian ve Rubens'in paha biçilmez Rönesans ve Barok başyapıtlarını barındıran, Floransa'nın görkemli sanatsal mirasının birincil göstergesidir.",
-      "description_en": "The Palatine Gallery, inside Pitti Palace, former Medici residence, houses Raphael, Titian, and Rubens' priceless Renaissance and Baroque masterpieces, a magnificent testament to Florence's artistic heritage.",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/floransa/palatine_gallery_pitti_sarayi.jpg",
-      "bestTime": "Öğleden önce",
-      "bestTime_en": "Late morning",
-      "tips": "Kuyruklardan kaçınmak için biletlerinizi online alıp sabah erken ziyaret edin.",
-      "tips_en": "Buy tickets online and visit early to avoid queues."
     },
     {
       "name": "Palazzo Medici Riccardi",
@@ -4827,10 +4804,10 @@
     {
       "id": "gen_ChIJifrmZ6lWKhMRYAWkZpcuyqc",
       "name": "THE ARTS INN",
-      "category": "Müze",
+      "category": "Deneyim",
       "area": "Via del Porcellana",
-      "description": "Giorgio Vasari tarafından Medici için tasarlanan bu Rönesans mimarisi harikası, Botticelli, Leonardo, Michelangelo'nun başyapıtlarını barındırır; Batı dünyasının en eski ve en prestijli sanat müzelerindendir.",
-      "description_en": "Designed by Giorgio Vasari for the Medici, this Renaissance architectural marvel houses masterpieces by Botticelli, Leonardo, and Michelangelo; it is among the Western world's oldest and most prestigious art museums.",
+      "description": "Oltrarno'da Via del Porcellana üzerinde butik konaklama ve şarap barı sunan samimi bir mekân. Yerel şarap, hafif yemek ve sanat temalı atmosferiyle öne çıkar; Uffizi Galerisi değildir.",
+      "description_en": "A boutique guesthouse and wine bar on Via del Porcellana in Oltrarno—known for local wines, light bites, and an artsy vibe. Not the Uffizi Gallery.",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/floransa/the_arts_inn.jpg",
       "location": "Via del Porcellana, 63 rosso, 50123 Firenze FI, İtalya",
       "lat": 43.773621,
@@ -4841,12 +4818,13 @@
       "website": "http://www.theartsinn-florence.com/",
       "tags": [
         "bar",
+        "konaklama",
         "popüler",
         "keşfet"
       ],
       "distanceFromCenter": 1.5,
-      "tips": "Biletlerinizi önceden ayırtın; sabah erken saatler veya kapanışa doğru daha sakindir.",
-      "tips_en": "Book tickets in advance; early mornings or closer to closing time are calmer.",
+      "tips": "Konaklama veya şarap tadımı için mümkünse önceden rezervasyon sorun; akşamüstü aperitivo dolu olabilir.",
+      "tips_en": "Reserve ahead for stays or tastings; aperitivo time can get busy.",
       "name_en": "THE ARTS INN"
     },
     {

@@ -1655,32 +1655,6 @@
       "name_en": "Student Prison"
     },
     {
-      "name": "Studentenkarzer (Öğrenci Hapishanesi)",
-      "name_en": "Student Prison",
-      "area": "Altstadt",
-      "category": "Müze",
-      "tags": [
-        "müze",
-        "üniversite",
-        "tarihi",
-        "ilginç"
-      ],
-      "distanceFromCenter": 0.2,
-      "lat": 49.4098,
-      "lng": 8.7075,
-      "price": "low",
-      "rating": 4.7,
-      "description": "Heidelberg Üniversitesi'nin 1778-1914 yılları arası öğrenci hapishanesi, mahkum öğrencilerin duvarlara kazıdığı sanatsal grafitilerle dolu hücreleri barındırır; eşsiz bir tarih ve disiplin yansımasıdır.",
-      "description_en": "Heidelberg University's historic student prison (1778-1914) houses cells filled with artistic graffiti etched by imprisoned students; a unique reflection of history and discipline.",
-      "bestTime": "Gündüz",
-      "bestTime_en": "Daytime",
-      "tips": "Eski Üniversite ve Müze ile birlikte ziyaret ederek tam deneyimi yaşayın.",
-      "tips_en": "Visit along with the Old University and Museum for the complete experience.",
-      "id": "studentenkarzer-oğrenci-hapishanesi",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/heidelberg/studentenkarzer_ogrenci_hapishanesi.jpg",
-      "source": "firebase"
-    },
-    {
       "name": "Tee Kontor",
       "name_en": "Tea Counter",
       "area": "Altstadt",
@@ -1970,46 +1944,6 @@
       "source": "firebase",
       "tips": "Kahve için yürüyüş yolundaki kitapçıda durun.",
       "tips_en": "Stop at the bookstore along the path for coffee."
-    },
-    {
-      "name": "Studentenkarzer",
-      "name_en": "Student Prison",
-      "area": "Altstadt",
-      "category": "Müze",
-      "tags": [
-        "tarih",
-        "üniversite",
-        "ilginç"
-      ],
-      "lat": 49.4113,
-      "lng": 8.7067,
-      "rating": 4.7,
-      "description": "Heidelberg'deki bu eşsiz öğrenci hapishanesi (1778-1914), asi öğrencileri cezalandırırdı. Duvarları, mahkumların canlı grafitileri ve çizimleriyle kaplıdır; üniversite tarihinin sıra dışı bir kesitini sunar.",
-      "description_en": "Heidelberg's unique student prison, 1778-1914, punished unruly students. Its walls, covered with inmate graffiti and drawings, offer an extraordinary glimpse into university history.",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Heidelberg_Studentenkarzer_01.jpg/800px-Heidelberg_Studentenkarzer_01.jpg",
-      "price": "medium",
-      "tips": "Eski Üniversite Kütüphanesi ile birlikte ziyaret ederek bölgeyi tamamlayın.",
-      "tips_en": "Combine your visit with the Old University Library to complete the area."
-    },
-    {
-      "name": "Thingstätte",
-      "name_en": "Thingstätte Amphitheater",
-      "area": "Heiligenberg",
-      "category": "Tarihi",
-      "tags": [
-        "amfitiyatro",
-        "tarih",
-        "doğa"
-      ],
-      "lat": 49.4239,
-      "lng": 8.7062,
-      "rating": 4.6,
-      "description": "Heiligenberg'deki 1930'larda Nazi rejimi tarafından tasarlanmış bu anıtsal taş amfitiyatro, antik tiyatrolardan ilham alan mimarisiyle, dönemin propaganda gösterilerine ev sahipliği yapmış, tarihi bir yapıdır.",
-      "description_en": "On Heiligenberg, this 1930s monumental stone amphitheater, built by the Nazi regime, blends ancient theater architecture. It hosted era's propaganda, a chilling historical testament.",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Thingstaette_Heidelberg.jpg/800px-Thingstaette_Heidelberg.jpg",
-      "price": "free",
-      "tips": "Heiligenberg'e tırmanırken rahat ayakkabılar giyin; manzara büyüleyicidir.",
-      "tips_en": "Wear comfortable shoes for the climb to Heiligenberg; the views are captivating."
     }
   ],
   "heroImage": "https://image.hurimg.com/i/hurriyet/90/1110x740/56b3325818c7730e3cdb6757.jpg",

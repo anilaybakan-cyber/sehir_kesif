@@ -40,11 +40,12 @@ class AIService {
     'kopenhag': 'https://images.unsplash.com/photo-1513622470522-26c3c8a854bc?w=800',
     'lizbon': 'https://images.unsplash.com/photo-1585208798174-6cedd86e019a?w=800',
     'londra': 'https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=800',
-    'lucerne': 'https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/lucerne/chapel_bridge_kapellbrucke.jpg',
+    'lucerne': 'https://upload.wikimedia.org/wikipedia/commons/7/7c/2009_08_24_06262_Lucerne.jpg',
     'lyon': 'https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/lyon/basilica_of_notre_dame_de_fourviere.jpg',
     'madrid': 'https://images.unsplash.com/photo-1539037116277-4db20889f2d4?w=800',
     'marakes': 'https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/marakes/jemaa_el_fna.jpg',
     'marsilya': 'https://images.contentstack.io/v3/assets/blt06f605a34f1194ff/blt0feb4d48a3fc134c/67c5fafa304ea9666082ff3e/iStock-956215674-2-Header_Mobile.jpg?fit=crop&disable=upscale&auto=webp&quality=60&crop=smart',
+    'midilli': 'https://cdn.agentis.com.tr/www.drabostravel.com/files/actv/148/115540_b-f.jpg',
     'milano': 'https://images.unsplash.com/photo-1520440229-6469a149ac59?w=800',
     'napoli': 'https://images.unsplash.com/photo-1516483638261-f4dbaf036963?w=800',
     'newyork': 'https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?w=800',
@@ -64,7 +65,7 @@ class AIService {
     'fes': 'https://images.unsplash.com/photo-1548013146-72479768bada?w=800',
     'safsavan': 'https://images.unsplash.com/photo-1558258695-0e4284b3975d?w=800',
     'kahire': 'https://gezimanya.com/sites/default/files/styles/800x600_/public/lokasyon-detay/2019-11/image-explore-ancient-egypt-merl.jpg',
-    'saraybosna': 'https://images.unsplash.com/photo-1596715694269-80838637ba76?w=800',
+    'saraybosna': 'https://bookingcar.eu/blog/uploads/public/20250506/aerial-view-of-sarajevo-downtown-2025-01-08-03-39-59-utc_GZjdzu.jpg',
     'mostar': 'https://images.unsplash.com/photo-1605198089408-0138977114b0?w=800',
     'strazburg': 'https://www.avruparuyasi.com.tr/uploads/tour-gallery/36c44666-5e5a-4c2d-a341-2fa8285c3fb6.webp',
 
@@ -73,24 +74,42 @@ class AIService {
     'belgrad': 'https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/belgrad/belgrad_kalesi_kalemegdan.jpg',
     'kotor': 'https://www.etstur.com/letsgo/wp-content/uploads/2025/12/montenegro-kotorda-gezilecek-yerler-en-populer-rotalar-guncel-liste-1024x576.png',
     'tiran': 'https://images.unsplash.com/photo-1599593442654-e1b088b7538c?w=800',
-    'selanik': 'https://images.unsplash.com/photo-1562608460-f97577579893?w=800',
+    'selanik': 'https://www.etstur.com/letsgo/wp-content/uploads/2025/09/01-selanik-letsgo.jpg',
     'kapadokya': 'https://images.unsplash.com/photo-1641128324972-af3212f0f6bd?w=800',
-    'rovaniemi': 'https://www.visitfinland.com/dam/jcr:70734834-7ba2-4bf1-9f6e-bf185e014367/central-plaza-santa-claus-village-rovaniemi-lapland-finland%20(1).jpg',
+    'rovaniemi': 'https://www.visitrovaniemi.fi/wp-content/uploads/Christmas-season-winter-snow-Santa-Claus-Village-Arctic-Circle-Rovaniemi-Lapland-Finland-15.jpg',
     'tromso': 'https://www.flightgift.com/media/wp/FG/2024/02/tromso.webp',
     'zermatt': 'https://holidaystoswitzerland.com/wp-content/uploads/2020/07/Zermatt-and-the-Matterhorn-at-dawn.jpg',
     'matera': 'https://ita.travel/user/blogimg/ostatni/aerial-view_matera_sunset.jpg',
     'giethoorn': 'https://www.onedayinacity.com/wp-content/uploads/2021/03/Giethoorn-Village.png',
     'colmar': 'https://images.goway.com/production/hero/iStock-1423136049.jpg',
     'sintra': 'https://images.contentstack.io/v3/assets/blt06f605a34f1194ff/blt75a384a61f2efa5b/68848225e7cb649650cc2d81/BCC-2024-EXPLORER-SINTRA-BEST_PLACES_TO_VISIT-HEADER-MOBILE.jpg?format=webp&auto=avif&quality=60&crop=16%3A9&width=1440',
-    'sansebastian': 'https://cdn.bunniktours.com.au/public/posts/images/Europe/Blog%20Header%20-%20Spain%20-%20San%20Sebastian%20-%20credit%20Raul%20Cacho%20Oses%20%28Unsplash%29-feature.jpg',
+    'san_sebastian': 'https://cdn.sanity.io/images/nxpteyfv/goguides/c77f6d1df757d922c8a164f8d063bd965cb65e99-1600x1066.jpg',
+    'sansebastian': 'https://cdn.sanity.io/images/nxpteyfv/goguides/c77f6d1df757d922c8a164f8d063bd965cb65e99-1600x1066.jpg',
     'bologna': 'https://www.datocms-assets.com/57243/1661342703-6245af628d40974c9ab5a7fd_petr-slovacek-sxk8bwkvoxe-unsplash-20-1.jpg?auto=compress%2Cformat',
     'gaziantep': 'https://www.brandlifemag.com/wp-content/uploads/2021/04/acilis-gaziantep-december-06gaziantep-coppersmith-bazaar-600w-549044518.jpg',
     'brugge': 'https://gezimanya.com/sites/default/files/styles/800x600_/public/lokasyon-detay/2021-08/brugge-hakkinda-bilinmesi-gerekenler.jpg',
     'santorini': 'https://www.kucukoteller.com.tr/storage/images/2024/07/14/5e7eaf11eb5ec2dda2f7a602232faa8961347f29.webp',
     'heidelberg': 'https://image.hurimg.com/i/hurriyet/90/1110x740/56b3325818c7730e3cdb6757.jpg',
-    'bruksel': 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Grand_Place_Bruselas_2.jpg/1280px-Grand_Place_Bruselas_2.jpg',
+    'bruksel': 'https://upload.wikimedia.org/wikipedia/commons/a/ae/Grand_Place_Bruselas_2.jpg',
     'oslo': 'https://www.journavel.com/wp-content/uploads/2024/10/IMG_1851-scaled.webp',
     'hallstatt': 'https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/hallstatt/hallstatt-postcard-viewpoint.jpg',
+    'bodrum': 'https://cdn.sanity.io/images/nxpteyfv/goguides/70798769a89c1527ed1467f7f56b36cc5146e5da-1600x1066.jpg',
+    'cesme': 'https://cdn.renticar.com/cms/Izmir_Cesme_Gezilecek_Yerler_1500x1000px_blog_goersel_cesme_marina_baa7fead07.jpg',
+    'kas': 'https://cdn.renticar.com/cms/Antalya_Kas_ta_Gezilecek_Yerler_1500x1000px_blog_goersel_kaputas_f9c367417e.jpg',
+    'dubrovnik': 'https://images.contentstack.io/v3/assets/blt06f605a34f1194ff/blt2a81d63f958fcf8a/67eecf23b0297a9afcc4c514/BCC-2025-EXPLORER-DUBROVNIK-BEACHES-HEADER-DESKTOP.jpg?fit=crop&disable=upscale&auto=webp&quality=60&crop=smart&width=1920&height=1080',
+    'mykonos': 'https://rtwin30days.com/wp-content/uploads/2025/02/Mykonos-Island-Greece-Things-to-Do.jpg',
+    'amalfi': 'https://www.royalcaribbean.com/media-assets/pmc/content/dam/shore-x/amalfi-coast-salerno-sno/es61-capri-on-your-own/stock-positano-amalfi-coast-campania-sorrento-italy-376017433.jpg?w=1920',
+    'ibiza': 'https://www.visitspain.info/en/wp-content/uploads/sites/162/cala-d-hort-ibiza-hd.jpg',
+    'mallorca': 'https://gotripzi.com/cdn-cgi/image/onerror=redirect,width=3200,height=2400,fit=cover,format=png/_astro/palma-es-hero.GAL_VPiM.webp',
+    'valencia': 'https://img.static-kl.com/transform/81017f83-1bd0-46c4-9459-c199cf4e1dd7/',
+    'palermo': 'https://gotripzi.com/cdn-cgi/image/onerror=redirect,width=3200,height=2400,fit=cover,format=png/_astro/palma-es-hero.GAL_VPiM.webp',
+    'catania': 'https://images.ctfassets.net/80dqdqpre1qk/cckCqd5EJjW09siSdf6Xo/dacc69a5bffc0e3a145df995c8684fa3/Catania_overzicht.jpg?fm=webp',
+    'bari': 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Puglia_bari_old-town.jpg/1280px-Puglia_bari_old-town.jpg',
+    'budva': 'https://www.visit-montenegro.com/wp-content/uploads/2026/01/budva-drone-01-scaled.jpg',
+    'ksamil': 'https://www.turizmtatilseyahat.com/wp-content/uploads/2020/07/ksamil-gezi-rehberi-.jpg',
+    'rhodes': 'https://blog.obilet.com/wp-content/uploads/2024/04/ana-gorsel-min-scaled.jpeg',
+    'cannes': 'https://www.rivieraloisirs.com/public/uploads/2021/05/Port-de-Cannes.jpg',
+    'saint_tropez': 'https://cdn.sanity.io/images/nxpteyfv/goguides/3a6c92c8b52d99de1f3ef6d2fcebadfd646bf990-1600x1066.jpg',
   };
 
   /// Şehir ID'sine göre görsel URL'ini döndürür
@@ -99,6 +118,7 @@ class AIService {
     final normalized = cityId.toLowerCase().trim()
       .replaceAll('ü', 'u').replaceAll('ş', 's').replaceAll('ç', 'c')
       .replaceAll('ö', 'o').replaceAll('ğ', 'g').replaceAll('ı', 'i')
+      .replaceAll('-', '_')
       .replaceAll(' ', '');
     
     // English mapping
@@ -120,6 +140,8 @@ class AIService {
     if (normalized == 'seville') lookupId = 'sevilla';
     if (normalized == 'strasbourg') lookupId = 'strazburg';
     if (normalized == 'cairo') lookupId = 'kahire';
+    if (normalized == 'thessaloniki') lookupId = 'selanik';
+    if (normalized == 'sardinya' || normalized == 'sardinia') lookupId = 'catania';
 
     if (normalized == 'cappadocia') lookupId = 'kapadokya';
     if (normalized == 'belgrade') lookupId = 'belgrad';
@@ -1952,7 +1974,7 @@ class AIService {
       {
         'city': 'San Sebastian',
         'subtitle': isEnglish ? 'Culinary Capital' : 'Lezzet Başkenti',
-        'imageUrl': getCityImage('sansebastian'),
+        'imageUrl': getCityImage('san_sebastian'),
       },
       {
         'city': 'Bologna',
@@ -1963,6 +1985,11 @@ class AIService {
         'city': 'Gaziantep',
         'subtitle': isEnglish ? 'Taste of History' : 'Tarihin Tadı',
         'imageUrl': getCityImage('gaziantep'),
+      },
+      {
+        'city': isEnglish ? 'Sarajevo' : 'Saraybosna',
+        'subtitle': isEnglish ? 'Ottoman bazaars & Austro charm' : 'Osmanlı çarşıları ve Avusturya dokunuşu',
+        'imageUrl': getCityImage('saraybosna'),
       },
       {
         'city': 'Brugge',
@@ -2019,6 +2046,102 @@ class AIService {
         'city': 'Fes',
         'subtitle': isEnglish ? 'Ancient Medina' : 'Antik Medina',
         'imageUrl': getCityImage('fes'),
+      },
+      // Mediterranean & Riviera Gems
+      {
+        'city': 'Cannes',
+        'subtitle': isEnglish ? 'Croisette glamour' : 'Croisette ışıltısı',
+        'imageUrl': getCityImage('cannes'),
+      },
+      {
+        'city': 'Saint-Tropez',
+        'subtitle': isEnglish ? 'Riviera yachts & beach clubs' : 'Riviera yatları ve plaj kulüpleri',
+        'imageUrl': getCityImage('saint_tropez'),
+      },
+      {
+        'city': isEnglish ? 'Thessaloniki' : 'Selanik',
+        'subtitle': isEnglish ? 'Cultural capital of the north' : 'Kuzeyin kültür başkenti',
+        'imageUrl': getCityImage('selanik'),
+      },
+      {
+        'city': 'Dubrovnik',
+        'subtitle': isEnglish ? 'Adriatic walls & sunsets' : 'Adriyatik surları ve gün batımı',
+        'imageUrl': getCityImage('dubrovnik'),
+      },
+      {
+        'city': 'Mykonos',
+        'subtitle': isEnglish ? 'Cycladic nights' : 'Kiklad geceleri',
+        'imageUrl': getCityImage('mykonos'),
+      },
+      {
+        'city': 'Bodrum',
+        'subtitle': isEnglish ? 'Bohemian bays & Lycian sunsets' : 'Bohem koylar ve Likya gün batımları',
+        'imageUrl': getCityImage('bodrum'),
+      },
+      {
+        'city': isEnglish ? 'Cesme' : 'Çeşme',
+        'subtitle': isEnglish ? 'Aegean breeze & mastic streets' : 'Ege esintisi ve sakız sokakları',
+        'imageUrl': getCityImage('cesme'),
+      },
+      {
+        'city': isEnglish ? 'Lesbos' : 'Midilli',
+        'subtitle': isEnglish ? 'Slow Aegean island life' : 'Ege\'nin yavaş ada hayatı',
+        'imageUrl': getCityImage('midilli'),
+      },
+      {
+        'city': isEnglish ? 'Kas' : 'Kaş',
+        'subtitle': isEnglish ? 'Turquoise coves & Lycian way' : 'Turkuaz koylar ve Likya Yolu',
+        'imageUrl': getCityImage('kas'),
+      },
+      {
+        'city': 'Amalfi',
+        'subtitle': isEnglish ? 'Vertical villages' : 'Dikey köyler',
+        'imageUrl': getCityImage('amalfi'),
+      },
+      {
+        'city': 'Ibiza',
+        'subtitle': isEnglish ? 'Freedom island' : 'Özgürlük adası',
+        'imageUrl': getCityImage('ibiza'),
+      },
+      {
+        'city': 'Mallorca',
+        'subtitle': isEnglish ? 'Tramuntana to calas' : 'Tramuntana’dan calalara',
+        'imageUrl': getCityImage('mallorca'),
+      },
+      {
+        'city': 'Valencia',
+        'subtitle': isEnglish ? 'City of arts & paella' : 'Sanat ve paella şehri',
+        'imageUrl': getCityImage('valencia'),
+      },
+      {
+        'city': 'Palermo',
+        'subtitle': isEnglish ? 'Sicilian chaos & charm' : 'Sicilya’nın kaotik cazibesi',
+        'imageUrl': getCityImage('palermo'),
+      },
+      {
+        'city': 'Catania',
+        'subtitle': isEnglish ? 'Etna’s black city' : 'Etna’nın siyah şehri',
+        'imageUrl': getCityImage('catania'),
+      },
+      {
+        'city': 'Bari',
+        'subtitle': isEnglish ? 'Gateway to Puglia' : 'Puglia’nın kapısı',
+        'imageUrl': getCityImage('bari'),
+      },
+      {
+        'city': 'Budva',
+        'subtitle': isEnglish ? 'Adriatic old town' : 'Adriyatik’in eski kenti',
+        'imageUrl': getCityImage('budva'),
+      },
+      {
+        'city': 'Ksamil',
+        'subtitle': isEnglish ? 'Albanian Maldives' : 'Arnavutluk Maldivleri',
+        'imageUrl': getCityImage('ksamil'),
+      },
+      {
+        'city': isEnglish ? 'Rhodes' : 'Rodos',
+        'subtitle': isEnglish ? 'Island of knights' : 'Şövalyeler adası',
+        'imageUrl': getCityImage('rhodes'),
       },
     ];
   }

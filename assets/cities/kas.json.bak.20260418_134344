@@ -1,0 +1,1495 @@
+{
+  "city": "Kaş",
+  "city_en": "Kas",
+  "country": "Türkiye",
+  "country_en": "Turkey",
+  "description": "Kaş, muazzam manzaraları ve eşsiz atmosferiyle sizi bekliyor.",
+  "description_en": "Kas is waiting for you with its magnificent views and unique atmosphere.",
+  "heroImage": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kas/hero.jpg",
+  "coordinates": {
+    "lat": 36.2023,
+    "lng": 29.6322
+  },
+  "highlights": [
+    {
+      "id": "ChIJaQPCYHDTwRQR1cQU17ycULA",
+      "name": "Kaputaş Beach",
+      "name_en": "Kaputaş Beach",
+      "category": "Park",
+      "tags": [
+        "kas",
+        "travel",
+        "explore"
+      ],
+      "lat": 36.2289562,
+      "lng": 29.448939,
+      "rating": 4.6,
+      "reviewCount": 7692,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kas/ChIJaQPCYHDTwRQR1cQU17ycULA.jpg",
+      "description": "Kaş ile Kalkan arasında yer alan Kaputaş Plajı, turkuaz suları ve sarp kayalıklar arasından süzülen 187 basamağıyla Türkiye'nin en ikonik plajlarından biridir. Bir kanyonun ağzında yer alan konumu, buraya eşsiz bir renk ve atmosfer katar.",
+      "description_en": "Situated between Kas and Kalkan, Kaputaş Beach is famous for its brilliant turquoise waters and the 187 steps carved into the cliffs. Its location at the mouth of a canyon gives it a unique color and a stunning natural setting.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJu-RldrQuwBQR_RL99zGXFgQ",
+      "name": "Patara Beach",
+      "name_en": "Patara Beach",
+      "category": "Park",
+      "tags": [
+        "kas",
+        "travel",
+        "explore"
+      ],
+      "lat": 36.2753567,
+      "lng": 29.2843598,
+      "rating": 4.4,
+      "reviewCount": 10605,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kas/ChIJu-RldrQuwBQR_RL99zGXFgQ.jpg",
+      "description": "Türkiye'nin en uzun plajlarından olan Patara, aynı zamanda Caretta Caretta'ların yumurtlama alanıdır. Kum tepeleri ve antik kentin içinden geçerek ulaşılan bu devasa sahil, masalsı gün batımıyla ünlüdür.",
+      "description_en": "One of Turkey’s longest beaches, Patara is a protected nesting ground for Caretta Caretta turtles. Accessible through ancient ruins and vast sand dunes, it offers a cinematic setting for watching the sunset.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJAQAAACstwBQRslW1-2qzS6A",
+      "name": "Antiphellos Ancient City",
+      "name_en": "Antiphellos Ancient City",
+      "category": "Deneyim",
+      "tags": [
+        "kas",
+        "travel",
+        "explore"
+      ],
+      "lat": 36.2000393,
+      "lng": 29.6348504,
+      "rating": 4.7,
+      "reviewCount": 4931,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kas/ChIJAQAAACstwBQRslW1-2qzS6A.jpg",
+      "description": "Kaş'ın antik kenti Antiphellos, denize karşı kurulu mükemmel korunmuş tiyatrosuyla ünlüdür. Chukurbağ Yarımadası'na bakan bu antik tiyatroda gün batımını izlemek, Kaş seyahatinin en unutulmaz tarihi deneyimidir.",
+      "description_en": "The ancient city of Antiphellos features a perfectly preserved theater built right against the Mediterranean coast. Watching the sunset from its stone steps, overlooking the peninsula, is an essential historical highlight in Kaş.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJY8GEqTXbwRQRJl9cXTo9hOw",
+      "name": "Kaş Çarşı",
+      "name_en": "Kaş Çarşı",
+      "category": "Deneyim",
+      "tags": [
+        "kas",
+        "travel",
+        "explore"
+      ],
+      "lat": 36.1995521,
+      "lng": 29.6419198,
+      "rating": 4.6,
+      "reviewCount": 335,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kas/ChIJY8GEqTXbwRQRJl9cXTo9hOw.jpg",
+      "description": "Kaş'ın kalbi sayılan Uzun Çarşı, begonvillerle süslü cumbalı evleri ve butik dükkanlarıyla masalsı bir havaya sahiptir. Çarşının sonundaki tarihi Aslanlı Lahit, ilçenin antik Lykia mirasını kentin göbeğinde temsil eder.",
+      "description_en": "The heart of Kaş, Uzun Çarşı, is a fairy-tale alley lined with colorful bougainvillea and historic wooden-shuttered houses. At its end, the iconic Lion Sarcophagus stands as a monumental reminder of the town's Lycian past.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJV9zSblPvwRQRLoKVtgj0Bf4",
+      "name": "Kekova Island",
+      "name_en": "Kekova Island",
+      "category": "Park",
+      "tags": [
+        "kas",
+        "travel",
+        "explore"
+      ],
+      "lat": 36.183333,
+      "lng": 29.883333,
+      "rating": 4.7,
+      "reviewCount": 1221,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kas/ChIJV9zSblPvwRQRLoKVtgj0Bf4.jpg",
+      "description": "Tekne turlarıyla ulaşılabilen Kekova, 'Batık Şehir' kalıntılarıyla dünya çapında bir doğa ve tarih harikasıdır. Turkuaz suların altındaki antik merdivenleri ve ev kalıntılarını teknenizin altından cam bölmelerle görebilirsiniz.",
+      "description_en": "Accessible only by boat, Kekova is a world-renowned natural wonder famous for its 'Sunken City' ruins. You can spot ancient staircases and house walls beneath the crystal-clear turquoise waters through glass-bottom boats.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJX4240qhKwBQRnYEHFRZezXM",
+      "name": "Saklikent National Park",
+      "name_en": "Saklikent National Park",
+      "category": "Park",
+      "tags": [
+        "kas",
+        "travel",
+        "explore"
+      ],
+      "lat": 36.4737581,
+      "lng": 29.403431,
+      "rating": 4.7,
+      "reviewCount": 40255,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kas/ChIJX4240qhKwBQRnYEHFRZezXM.jpg",
+      "description": "Eşen Çayı'nın sarp kayalıklar arasında binlerce yılda şekillendirdiği bu devasa kanyon, serin suları ve göğe uzanan duvarlarıyla büyüleyicidir. Kanyonun içinde yürümek ve rafting yapmak adrenalin dolu bir deneyim sunar.",
+      "description_en": "Carved by icy river waters over millennia, this massive canyon features towering walls and refreshing waterfalls. Walking through the gorge or rafting down the river is an adrenaline-filled highlight for nature lovers.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJo5h61nPawRQRdW7WW9-hvMc",
+      "name": "Hidayet Bay Beach",
+      "name_en": "Hidayet Bay Beach",
+      "category": "Park",
+      "tags": [
+        "kas",
+        "travel",
+        "explore"
+      ],
+      "lat": 36.1968804,
+      "lng": 29.6122675,
+      "rating": 4.1,
+      "reviewCount": 2978,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kas/ChIJo5h61nPawRQRdW7WW9-hvMc.jpg",
+      "description": "Çukurbağ Yarımadası'nda gizlenmiş olan bu koy, akvaryum gibi berrak deniziyle şnorkel tutkunlarının vazgeçilmezidir. Gürültüden uzak, zeytin ağaçlarının gölgesinde huzurlu bir deniz keyfi için en ideal noktalardan biridir.",
+      "description_en": "Tucked away on the Çukurbağ Peninsula, this bay boasts aquarium-clear waters, making it a favorite for snorkeling. Framed by olive trees, it offers a peaceful and secluded Mediterranean swimming experience.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJ9_1FJV3bwRQR4F9P35otnl0",
+      "name": "Küçük Çakıl Plajı",
+      "name_en": "Küçük Çakıl Plajı",
+      "category": "Deneyim",
+      "tags": [
+        "kas",
+        "travel",
+        "explore"
+      ],
+      "lat": 36.1971954,
+      "lng": 29.6440747,
+      "rating": 4.3,
+      "reviewCount": 1139,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kas/ChIJ9_1FJV3bwRQR4F9P35otnl0.jpg",
+      "description": "Kaş'ın merkezinde yer alan bu küçük ama ikonik plaj, yer altından fışkıran soğuk kaynak suları sayesinde yazın en sıcak günlerinde bile buz gibi ferah bir deniz deneyimi sunar. Çevresindeki mekanlarla çok canlıdır.",
+      "description_en": "A tiny but iconic pebble beach in central Kaş, famous for its icy-cold natural springs that bubble up from the seabed. It provides a refreshing blast of cool water even during the peak of the Mediterranean summer.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJt2LmZq3bwRQRig5Ultk03GI",
+      "name": "Büyükçakıl Plajı",
+      "name_en": "Büyükçakıl Plajı",
+      "category": "Park",
+      "tags": [
+        "kas",
+        "travel",
+        "explore"
+      ],
+      "lat": 36.1916213,
+      "lng": 29.6515803,
+      "rating": 4.2,
+      "reviewCount": 2040,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kas/ChIJt2LmZq3bwRQRig5Ultk03GI.jpg",
+      "description": "Kaş merkezine yürüme mesafesinde olan bu geniş plaj, akşamüstü sahil kenarındaki restoranların dekorlarıyla adeta bir şölen alanına dönüşür. Denizin içinden çıkan tatlı su kaynakları suyu serin ve berrak tutar.",
+      "description_en": "A short walk from the town center, this wide pebble beach is famous for its seaside restaurants that come alive at twilight. Natural freshwater springs keep the sea exceptionally clear and refreshingly cool.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJJTNtfADbwRQRTRWSZMQpJMg",
+      "name": "Manzara",
+      "name_en": "Manzara",
+      "category": "Deneyim",
+      "tags": [
+        "kas",
+        "travel",
+        "explore"
+      ],
+      "lat": 36.1892729,
+      "lng": 29.6063723,
+      "rating": 4.6,
+      "reviewCount": 15,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kas/ChIJJTNtfADbwRQRTRWSZMQpJMg.jpg",
+      "description": "Kaş'ın en panoramik noktalarından biri olan bu seyir alanı, tüm kenti ve hemen karşısındaki Meis Adası'nı ayaklarınızın altına serer. Özellikle gün batımında kentin ışıklarının denize vurduğu o eşsiz anı izlemek için en popüler duraktır.",
+      "description_en": "One of Kaş's most panoramic spots, this viewpoint puts the entire town and the neighboring Meis Island right under your feet. It's the most popular place to watch the golden sunset and the city lights dancing on the sea.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJ6-DF5lbawRQRhZLaN9So4Ak",
+      "name": "Tuğra Art Gallery",
+      "name_en": "Tuğra Art Gallery",
+      "category": "Deneyim",
+      "tags": [
+        "kas",
+        "travel",
+        "explore"
+      ],
+      "lat": 36.2003194,
+      "lng": 29.6416705,
+      "rating": 4.3,
+      "reviewCount": 79,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kas/ChIJ6-DF5lbawRQRhZLaN9So4Ak.jpg",
+      "description": "Kaş'ın sanatsal dokusunu yansıtan Tuğra Art, yerel sanatçıların el emeği takılarını, seramiklerini ve özgün eserlerini sergiler. Kentin bohem ruhunu yanınızda götürmek için keşfedebileceğiniz en şık ve yaratıcı noktalardan biridir.",
+      "description_en": "Reflecting Kaş's artistic soul, Tuğra Art showcases handmade jewelry, ceramics, and original works by local artists. It’s one of the most stylish and creative spots to discover and take a piece of the town's bohemian spirit back home.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJkaPEOlHawRQRKKKYsWtMYsk",
+      "name": "Boat Trips by Captain Ergun | Kekova Tekne Turu | Kaş Tekne Turu | Кекова прогулка на лодке | Tekne Kiralama",
+      "name_en": "Boat Trips by Captain Ergun | Kekova Tekne Turu | Kaş Tekne Turu | Кекова прогулка на лодке | Tekne Kiralama",
+      "category": "Deneyim",
+      "tags": [
+        "kas",
+        "travel",
+        "explore"
+      ],
+      "lat": 36.1993344,
+      "lng": 29.6397891,
+      "rating": 4.9,
+      "reviewCount": 4759,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kas/ChIJkaPEOlHawRQRKKKYsWtMYsk.jpg",
+      "description": "Kaş'ın en köklü denizcilik ekiplerinden biri olan Kaptan Ergun, misafirlerini Kekova'nın batık şehirlerine ve turkuaz koylarına ulaştırır. Profesyonel hizmeti ve lezzetli teknede öğle yemekleriyle, kentin en iyi mavi tur deneyimlerinden birini sunar.",
+      "description_en": "One of Kaş's most established maritime teams, Captain Ergun takes guests to the sunken cities and turquoise bays of Kekova. With professional service and delicious lunches served on board, it offers one of the best blue cruise experiences in town.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJkzrew1_awRQRDVItRpOWYeU",
+      "name": "Kaş Sailing & Catamaran Tours / Kaş / Turkey (Daily or Overnight) Rent a sailing yacht in Kas",
+      "name_en": "Kaş Sailing & Catamaran Tours / Kaş / Turkey (Daily or Overnight) Rent a sailing yacht in Kas",
+      "category": "Deneyim",
+      "tags": [
+        "kas",
+        "travel",
+        "explore"
+      ],
+      "lat": 36.2052413,
+      "lng": 29.6316694,
+      "rating": 4.9,
+      "reviewCount": 73,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kas/ChIJkzrew1_awRQRDVItRpOWYeU.jpg",
+      "description": "Akdeniz'in huzurlu sularında yelken açmanın en prestijli yolu olan bu turlar, günlük veya konaklamalı katamaran deneyimleri sunar. Rüzgarın eşlik ettiği bu sessiz yolculuk, Kaş'ın bakir koylarını keşfetmek için en sofistike rotadır.",
+      "description_en": "The most prestigious way to sail the peaceful waters of the Mediterranean, these tours offer daily or overnight catamaran experiences. This quiet, wind-powered journey is the most sophisticated route to exploring the pristine bays of Kaş.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJb6C4z1vawRQRMK7h9Sg3R2k",
+      "name": "Hellenistic theatre",
+      "name_en": "Hellenistic theatre",
+      "category": "Deneyim",
+      "tags": [
+        "kas",
+        "travel",
+        "explore"
+      ],
+      "lat": 36.2000208,
+      "lng": 29.6348222,
+      "rating": 4.7,
+      "reviewCount": 187,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kas/ChIJb6C4z1vawRQRMK7h9Sg3R2k.jpg",
+      "description": "Antik Antiphellos kentinin en görkemli kalıntısı olan bu tiyatro, denize doğru bakan nadir antik yapılardan biridir. Restorasyonuyla kentin silüetine değer katan tiyatro, bugün hala konserlere ve muazzam gün batımı manzaralarına ev sahipliği yapar.",
+      "description_en": "The most majestic ruin of the ancient city of Antiphellos, this theater is one of the rare ancient structures facing the sea. Adding value to the town's skyline, it still hosts concerts and offers breathtaking sunset views today.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJ9Vm3UynbwRQRI8cxzlahyMs",
+      "name": "Great chair. Acdam doric tomb in Antiphellos ancient city",
+      "name_en": "Great chair. Acdam doric tomb in Antiphellos ancient city",
+      "category": "Deneyim",
+      "tags": [
+        "kas",
+        "travel",
+        "explore"
+      ],
+      "lat": 36.2011747,
+      "lng": 29.636634,
+      "rating": 4.9,
+      "reviewCount": 8,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kas/ChIJ9Vm3UynbwRQRI8cxzlahyMs.jpg",
+      "description": "Antik Antiphellos'un tepelerinde yer alan bu Dor tipi mezar yapısı, sağlam mimarisi ve kente hakim konumuyla dikkat çeker. Kayadan oyulmuş bu görkemli anıt, Kaş'ın Likya döneminden kalan en etkileyici tarihi miraslarından biridir.",
+      "description_en": "Located on the heights of ancient Antiphellos, this Doric-style tomb stands out for its solid architecture and commanding view of the town. This majestic rock-carved monument is one of Kaş's most impressive Lycian-era heritages.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJ48bZbljawRQRrTxUDjTr1ck",
+      "name": "konaklama sepeti",
+      "name_en": "konaklama sepeti",
+      "category": "Deneyim",
+      "tags": [
+        "kas",
+        "travel",
+        "explore"
+      ],
+      "lat": 36.2043733,
+      "lng": 29.6363489,
+      "rating": 5,
+      "reviewCount": 211,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kas/ChIJ48bZbljawRQRrTxUDjTr1ck.jpg",
+      "description": "Kaş ve çevresindeki en seçkin villa ve apart seçeneklerini bir araya getiren bu merkez, konaklama deneyiminizi kişiselleştirir. Kentin otantik evlerinden lüks peninsulaya kadar, hayalinizdeki Akdeniz tatili için en doğru konaklama pusulasıdır.",
+      "description_en": "Bringing together the most exclusive villa and apartment options in and around Kaş, this hub personalizes your stay. From authentic townhouses to luxury peninsula villas, it’s the perfect compass for your dream Mediterranean holiday.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJg2TZbR_bwRQRHdoCCst-IhU",
+      "name": "Kas photo spot",
+      "name_en": "Kas photo spot",
+      "category": "Deneyim",
+      "tags": [
+        "kas",
+        "travel",
+        "explore"
+      ],
+      "lat": 36.2063481,
+      "lng": 29.632894,
+      "rating": 4.9,
+      "reviewCount": 152,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kas/ChIJg2TZbR_bwRQRHdoCCst-IhU.jpg",
+      "description": "Uzun Çarşı'nın girişinde veya begonvillerle süslü taş evlerin arasında yer alan bu nokta, kentin en fotografik karesidir. Kaş'ın ikonik renklerini, Likya lahitlerini ve çiçekli sokaklarını tek bir kadrajda yakalayabileceğiniz bir görsel mirastır.",
+      "description_en": "Located at the entrance to Uzun Çarşı or among bougainvillea-covered stone houses, this spot is the town's most photographic. It's a visual heritage where you can capture iconic colors, Lycian tombs, and flowery alleys in a single frame.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJzZSS7KjbwRQRLzJBYuLkG8w",
+      "name": "Seatown Hotel",
+      "name_en": "Seatown Hotel",
+      "category": "Deneyim",
+      "tags": [
+        "kas",
+        "travel",
+        "explore"
+      ],
+      "lat": 36.2015899,
+      "lng": 29.6374772,
+      "rating": 4.9,
+      "reviewCount": 279,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kas/ChIJzZSS7KjbwRQRLzJBYuLkG8w.jpg",
+      "description": "Kaş'ın kalbinde, her sabah Meis Adası manzarasına uyanabileceğiniz şık ve modern bir butik oteldir. Minimalist tasarımı ve kentin sosyal hayatına yakınlığıyla, hem konforu hem de kentsel hareketliliği arayanlar için idealdir.",
+      "description_en": "A stylish and modern boutique hotel in the heart of Kaş, where you can wake up to views of Meis Island every morning. With its minimalist design and proximity to social life, it’s ideal for those seeking both comfort and urban energy.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJtS0bJljawRQRK6_Tl-xEc-U",
+      "name": "Kas Merkez Mosque",
+      "name_en": "Kas Merkez Mosque",
+      "category": "Deneyim",
+      "tags": [
+        "kas",
+        "travel",
+        "explore"
+      ],
+      "lat": 36.2031563,
+      "lng": 29.6381076,
+      "rating": 4.6,
+      "reviewCount": 479,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kas/ChIJtS0bJljawRQRK6_Tl-xEc-U.jpg",
+      "description": "Kaş'ın çarşı meydanına hakim konumuyla dikkat çeken bu cami, bölgenin mimari dokusunu ve kültürel merkezini temsil eder. Meydanın hareketliliği içinde huzurlu duruşuyla kentin ruhunu yansıtır.",
+      "description_en": "Overlooking the bustling town square, this mosque is a central landmark that reflects the local architectural and cultural fabric. It stands as a peaceful presence amidst the vibrant energy of Kaş's main streets.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJO-BgOwDbwRQRM-0mENIhNcs",
+      "name": "Caretta Wall Kaş",
+      "name_en": "Caretta Wall Kaş",
+      "category": "Deneyim",
+      "tags": [
+        "kas",
+        "travel",
+        "explore"
+      ],
+      "lat": 36.201531,
+      "lng": 29.6391938,
+      "rating": 4.5,
+      "reviewCount": 50,
+      "price": "medium",
+      "imageUrl": "",
+      "description": "Kaş'ın en meşhur sualtı rotalarından biri olan Caretta Wall, dik kayalık yapısı ve deniz kaplumbağalarına ev sahipliği yapmasıyla bilinir. Kristal berraklığındaki suyu ve zengin sualtı faunasıyla, dalış tutkunları için bölgenin en heyecan verici noktasıdır.",
+      "description_en": "One of Kaş's most famous diving routes, Caretta Wall is known for its steep underwater cliffs and resident loggerhead turtles. With crystal-clear water and rich marine life, it's the area's most exciting spot for diving enthusiasts.",
+      "source": "google"
+    },
+    {
+      "id": "ChIJRZVjFlfawRQR9G973WjvEgM",
+      "name": "Kaş Belediye Çarşısı",
+      "name_en": "Kaş Belediye Çarşısı",
+      "category": "Deneyim",
+      "tags": [
+        "kas",
+        "travel",
+        "explore"
+      ],
+      "lat": 36.2002386,
+      "lng": 29.6394679,
+      "rating": 4.7,
+      "reviewCount": 64,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kas/ChIJRZVjFlfawRQR9G973WjvEgM.jpg",
+      "description": "Kentin sosyal yaşamının merkezinde yer alan bu çarşı, yerel üreticilerin taze ürünlerinden el sanatı hediyeliklere kadar pek çok seçenek sunar. Kaş'ın mahalle kültürünü tanımanıza yardımcı olan, kentsel dokunun en samimi parçasıdır.",
+      "description_en": "At the center of social life, this market offers everything from fresh local produce to handcrafted souvenirs. It’s one of the most warming parts of the urban fabric, helping you get to know Kaş’s neighborhood culture.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJp-bnXADbwRQR_iGoNLD8grk",
+      "name": "Antalya kaș",
+      "name_en": "Antalya kaș",
+      "category": "Deneyim",
+      "tags": [
+        "kas",
+        "travel",
+        "explore"
+      ],
+      "lat": 36.199913,
+      "lng": 29.63955,
+      "rating": 5,
+      "reviewCount": 2,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kas/ChIJp-bnXADbwRQR_iGoNLD8grk.jpg",
+      "description": "Kas.bak.20260418_134344 sokaklarına özgün karakterini katan Antalya kaș, kentin modern enerjisini ve kültürel nabzını yansıtan kentsel bir prestij noktası ve sofistike bir kentsel sosyal durak kalesidir.",
+      "description_en": "Infusing the streets of Kas.bak.20260418_134344 with its unique character, Antalya kaș is a sophisticated urban destination that reflects the town's modern energy and creative pulse.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJebhBtVDawRQRzzLpUnVgl9o",
+      "name": "Larsoy Travel & Tourism Office || ⛵️ Kekova Boat Tour || 🚙 Rent a Car || 🛵 Rent a Motorbike || ⛴️ Meis Ferry Ticket ||",
+      "name_en": "Larsoy Travel & Tourism Office || ⛵️ Kekova Boat Tour || 🚙 Rent a Car || 🛵 Rent a Motorbike || ⛴️ Meis Ferry Ticket ||",
+      "category": "Deneyim",
+      "tags": [
+        "kas",
+        "travel",
+        "explore"
+      ],
+      "lat": 36.1993371,
+      "lng": 29.6397876,
+      "rating": 4.8,
+      "reviewCount": 231,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kas/ChIJebhBtVDawRQRzzLpUnVgl9o.jpg",
+      "description": "Kaş tatilinizi planlarken tüm ulaşım ve tur ihtiyaçlarınızı karşılayan bu ofis, Meis feribot bileti ve Kekova turlarında uzmandır. Kentin en güvenilir turizm duraklarından biri olarak, kenti ve çevresini keşfetmeniz için profesyonel çözümler sunar.",
+      "description_en": "A one-stop shop for all your transportation and tour needs in Kaş, this office specializes in Meis ferry tickets and Kekova tours. It is a reliable tourism hub providing professional solutions for exploring the town and its surroundings.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJiXG-sZPbwRQR6XLkHBCSPOY",
+      "name": "Handmade Bracelets",
+      "name_en": "Handmade Bracelets",
+      "category": "Deneyim",
+      "tags": [
+        "kas",
+        "travel",
+        "explore"
+      ],
+      "lat": 36.1993258,
+      "lng": 29.6408803,
+      "rating": 5,
+      "reviewCount": 1,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kas/ChIJiXG-sZPbwRQR6XLkHBCSPOY.jpg",
+      "description": "Kaş çarşısının renkli tezgahlarında, yerel zanaatkarların sabırla işlediği bu el yapımı bileklikler kentin bohem modasını yansıtır. Her biri bir hikaye taşıyan bu takılar, kentin yaratıcı enerjisini bileğinizde taşımanıza olanak sağlar.",
+      "description_en": "On the colorful stalls of the Kaş bazaar, these handmade bracelets, patiently crafted by local artisans, reflect the town's bohemian fashion. Each piece carries a story, allowing you to wear the town's creative energy on your wrist.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJS0ldqUjbwRQRMjUK4LEGmzU",
+      "name": "Kekova tekne turu",
+      "name_en": "Kekova tekne turu",
+      "category": "Deneyim",
+      "tags": [
+        "kas",
+        "travel",
+        "explore"
+      ],
+      "lat": 36.2003804,
+      "lng": 29.6416724,
+      "rating": 3,
+      "reviewCount": 2,
+      "price": "medium",
+      "imageUrl": "",
+      "description": "Kaş'tan kalkan ve tarihin sular altında kaldığı antik Simena'ya uzanan bu yolculuk, Akdeniz'in en büyüleyici deneyimidir. Turkuaz koylar, lahitler ve batık şehirler eşliğinde geçen bu tur, kentin mutlaka yapılması gerekenler listesinin en başındadır.",
+      "description_en": "Departing from Kaş and reaching ancient Simena, where history is submerged, this journey is the Mediterranean's most magical experience. Surrounded by turquoise bays and sunken ruins, it tops the town's must-do list.",
+      "source": "google"
+    },
+    {
+      "id": "ChIJ-TFkZzHbwRQRR9WPzZPYQzM",
+      "name": "Kaş Merkez",
+      "name_en": "Kaş Merkez",
+      "category": "Deneyim",
+      "tags": [
+        "kas",
+        "travel",
+        "explore"
+      ],
+      "lat": 36.199383,
+      "lng": 29.641333,
+      "rating": 4.7,
+      "reviewCount": 3054,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kas/ChIJ-TFkZzHbwRQRR9WPzZPYQzM.jpg",
+      "description": "Kaş'ın beyaz badanalı evleri, Likya lahitleri ve begonvilli dar sokaklarıyla kentsel ruhunun attığı kalptir. Harbour çevresindeki balıkçı tekneleri ve Uzun Çarşı'nın butikleriyle, kentin en ikonik ve yaşayan kentsel dokusunu temsil eder.",
+      "description_en": "The heart of Kaş's urban spirit, with its whitewashed houses, Lycian sarcophagi, and narrow bougainvillea-filled alleys. With the fishing boats at the harbor and the boutiques of Uzun Çarşı, it represents the town's most iconic and living fabric.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJmWPqXwDbwRQRn6d_n6-6xH4",
+      "name": "بداية اوزون شارشيه",
+      "name_en": "بداية اوزون شارشيه",
+      "category": "Deneyim",
+      "tags": [
+        "kas",
+        "travel",
+        "explore"
+      ],
+      "lat": 36.199636,
+      "lng": 29.64148,
+      "rating": 4.5,
+      "reviewCount": 50,
+      "price": "medium",
+      "imageUrl": "",
+      "description": "Kas.bak.20260418_134344 kentinde kentsel konforu yerel estetikle birleştiren بداية اوزون شارشيه, kentin sosyal ve kültürel dünyasına yüksek kaliteli bir kentsel dokunuş katan en samimi ve kentsel rotalardan biridir.",
+      "description_en": "As a refined social and cultural point in Kas.bak.20260418_134344, بداية اوزون شارشيه offers a high-quality experience that perfectly merges urban convenience with local aesthetic charm.",
+      "source": "google"
+    },
+    {
+      "id": "ChIJ885K2lbawRQR1jXccHPj8OE",
+      "name": "Atatürk Heykeli",
+      "name_en": "Atatürk Heykeli",
+      "category": "Deneyim",
+      "tags": [
+        "kas",
+        "travel",
+        "explore"
+      ],
+      "lat": 36.1994416,
+      "lng": 29.6414016,
+      "rating": 4.8,
+      "reviewCount": 15,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kas/ChIJ885K2lbawRQR1jXccHPj8OE.jpg",
+      "description": "Kaş Limanı'nın girişinde, kentin en büyük ve görkemli meydanında yer alan bu heykel, resmi kutlamaların ve kentsel buluşmaların merkezidir. Meydandaki palmiyeler ve deniz manzarası eşliğinde, kentin girişini simgeleyen bir saygı duruşu niteliğindedir.",
+      "description_en": "Standing at the entrance to Kaş Harbor in the town's largest square, this statue is the hub for official celebrations and local gatherings. Set against palms and sea views, it serves as a symbolic salutation at the city's entrance.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJ3VfQIVrawRQR3EtFgnOqSs8",
+      "name": "Hideaway Hotel",
+      "name_en": "Hideaway Hotel",
+      "category": "Restoran",
+      "tags": [
+        "kas",
+        "travel",
+        "explore"
+      ],
+      "lat": 36.2000994,
+      "lng": 29.6367522,
+      "rating": 4.8,
+      "reviewCount": 667,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kas/ChIJ3VfQIVrawRQR3EtFgnOqSs8.jpg",
+      "description": "Kaş Yarımadası'nın sessiz köşelerinden birinde yer alan bu otel, denize sıfır konumu ve panoramik terasıyla huzur vaat eder. Geleneksel Akdeniz mimarisiyle tasarlanmış odaları ve samimi bahçesiyle, tam bir kaçış noktasıdır.",
+      "description_en": "Located in a quiet corner of the Kaş Peninsula, this hotel promises peace with its seafront location and panoramic terrace. With Mediterranean-inspired rooms and a cozy garden, it is the perfect seaside escape.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJqVkIaAvawRQR4_kJNi0qliQ",
+      "name": "Amphora Hotel",
+      "name_en": "Amphora Hotel",
+      "category": "Restoran",
+      "tags": [
+        "kas",
+        "travel",
+        "explore"
+      ],
+      "lat": 36.189229,
+      "lng": 29.595347,
+      "rating": 4.8,
+      "reviewCount": 405,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kas/ChIJqVkIaAvawRQR4_kJNi0qliQ.jpg",
+      "description": "Çukurbağ Yarımadası'nda konumlanan Amphora, kentin en prestijli konaklama noktalarından biridir. Kendine ait plaj platformu, büyük yüzme havuzu ve kente hakim muazzam gün batımı manzarasıyla lüksün ve dinginliğin adresidir.",
+      "description_en": "Situated on the Çukurbağ Peninsula, Amphora is one of the town's most prestigious stay options. With its private beach platform, large pool, and immense sunset views over the town, it is a haven of luxury and tranquility.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJt3uNqVDawRQRa51SQ7WIJLI",
+      "name": "Hotel Sonne",
+      "name_en": "Hotel Sonne",
+      "category": "Restoran",
+      "tags": [
+        "kas",
+        "travel",
+        "explore"
+      ],
+      "lat": 36.1994847,
+      "lng": 29.6382969,
+      "rating": 4.9,
+      "reviewCount": 396,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kas/ChIJt3uNqVDawRQRa51SQ7WIJLI.jpg",
+      "description": "Merkezi konumu ve sadece yetişkinlere özel konseptiyle Hotel Sonne, Kaş'ta modern ve huzurlu bir konaklama sunar. Şık tasarımı ve Meis Adası'na bakan kahvaltı terasıyla, kentin en nezih ve sakin duraklarından biridir.",
+      "description_en": "With its central location and adult-only concept, Hotel Sonne offers a modern and peaceful stay in Kaş. Its chic design and breakfast terrace overlooking Meis Island make it one of the town's most refined and calm spots.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJ9X0PGKPQwRQRqb2Tls3_nFg",
+      "name": "Mavilim Otel",
+      "name_en": "Mavilim Otel",
+      "category": "Restoran",
+      "tags": [
+        "kas",
+        "travel",
+        "explore"
+      ],
+      "lat": 36.1936463,
+      "lng": 29.59349079999999,
+      "rating": 4.8,
+      "reviewCount": 494,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kas/ChIJ9X0PGKPQwRQRqb2Tls3_nFg.jpg",
+      "description": "Kaş'ın en uç noktasında, mavinin her tonuna hakim konumuyla Mavilim Otel, butik lüksün en zarif örneklerinden biridir. Denizin hemen yanı başındaki rüya gibi odaları ve sessiz ambiyansıyla, Ege ve Akdeniz'in buluşma noktasının en romantik köşesidir.",
+      "description_en": "Perched at the tip of the peninsula with a view of every shade of blue, Mavilim Otel is a prime example of boutique elegance. With dreamy rooms by the waves and a quiet ambiance, it’s the most romantic corner where the Aegean meets the Mediterranean.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJS8UGVX_QwRQR3rVf6_CGPzo",
+      "name": "Kas Doga Park Hotel",
+      "name_en": "Kas Doga Park Hotel",
+      "category": "Restoran",
+      "tags": [
+        "kas",
+        "travel",
+        "explore"
+      ],
+      "lat": 36.219003,
+      "lng": 29.6033941,
+      "rating": 4.7,
+      "reviewCount": 442,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kas/ChIJS8UGVX_QwRQR3rVf6_CGPzo.jpg",
+      "description": "Kaş'ın girişinde, geniş bahçeleri ve doğayla uyumlu mimarisiyle dikkat çeken bu otel, ferah bir konaklama arayan aileler için idealdir. Şehrin gürültüsünden uzak, yeşil ve mavinin kucaklaştığı huzurlu bir kentsel vahadır.",
+      "description_en": "Located at the entrance to Kaş, this hotel stands out with its large gardens and nature-harmonious architecture. It’s an ideal peaceful oasis for families seeking a spacious stay where green and blue embrace, away from the urban noise.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJBeyCsF_awRQRb5Voo3vVESg",
+      "name": "Doria Hotel & Yacht Club",
+      "name_en": "Doria Hotel & Yacht Club",
+      "category": "Restoran",
+      "tags": [
+        "kas",
+        "travel",
+        "explore"
+      ],
+      "lat": 36.2070099,
+      "lng": 29.6234035,
+      "rating": 4.4,
+      "reviewCount": 643,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kas/ChIJBeyCsF_awRQRb5Voo3vVESg.jpg",
+      "description": "Kaş Marina'ya komşu olan bu prestijli tesis, modern tasarımı ve yüksek kaliteli yacht kulübü hizmetleriyle bilinir. Kendi plajı, gurme restoranı ve marinaya hakim konumuyla, kentin en elit ve sofistike konaklama deneyimini sunar.",
+      "description_en": "Neighboring the Kaş Marina, this prestigious hotel is known for its modern design and high-quality yacht club services. With its own beach, luxury dining, and marina views, it offers the town's most elite and sophisticated stay.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJEy6_7lPawRQRpArI0sbSMLg",
+      "name": "Seaview Otel",
+      "name_en": "Seaview Otel",
+      "category": "Restoran",
+      "tags": [
+        "kas",
+        "travel",
+        "explore"
+      ],
+      "lat": 36.1969541,
+      "lng": 29.6451311,
+      "rating": 4.4,
+      "reviewCount": 246,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kas/ChIJEy6_7lPawRQRpArI0sbSMLg.jpg",
+      "description": "Yarımadanın tepelerinde, adeta bulutların üzerinde konaklıyormuş hissi veren Seaview, kentin en geniş panoramik manzarasına sahiptir. Kaş'ı ve adaları kuşbakışı izleyebileceğiniz sonsuzluk havuzuyla, kentin en estetik duraklarından biridir.",
+      "description_en": "Perched on the peninsula's heights, Seaview gives the feeling of staying above the clouds with the town's widest panoramic view. Its infinity pool overlooking Kaş and the islands makes it one of the city's most aesthetic spots.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJyY1BTc3bwRQRWnnQpwrtLbo",
+      "name": "bayNURIS - Marina&Resort",
+      "name_en": "bayNURIS - Marina&Resort",
+      "category": "Restoran",
+      "tags": [
+        "kas",
+        "travel",
+        "explore"
+      ],
+      "lat": 36.1726363,
+      "lng": 29.6494351,
+      "rating": 4.2,
+      "reviewCount": 1552,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kas/ChIJyY1BTc3bwRQRWnnQpwrtLbo.jpg",
+      "description": "Kaş Marina'nın hemen girişinde yer alan BayNuris, modern resort konseptini butik bir samimiyetle harmanlar. Şık iskelesi ve kentin sosyal hayatına yürüme mesafesindeki konumuyla, Kaş tatiline ayrıcalıklı bir konfor katar.",
+      "description_en": "At the gateway to Kaş Marina, BayNuris blends a modern resort concept with boutique warmth. With its stylish pier and location within walking distance of social life, it adds exclusive comfort to any Kaş holiday.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJqVkIaAvawRQRMFvGNncd0KU",
+      "name": "Club Barbarossa Hotel & Villas",
+      "name_en": "Club Barbarossa Hotel & Villas",
+      "category": "Restoran",
+      "tags": [
+        "kas",
+        "travel",
+        "explore"
+      ],
+      "lat": 36.1941774,
+      "lng": 29.5951317,
+      "rating": 3.7,
+      "reviewCount": 1371,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kas/ChIJqVkIaAvawRQRMFvGNncd0KU.jpg",
+      "description": "Kaş'ın en ikonik tesislerinden biri olan Club Barbarossa, denizin içinde yükselen taş platformları ve Likya stili villalarıyla benzersizdir. Doğal dokuyu lüksle birleştiren tesis, kentin en büyüleyici deniz ve gün batımı teraslarına sahiptir.",
+      "description_en": "One of Kaş's most iconic spots, Club Barbarossa is unique for its stone platforms rising from the sea and Lycian-style villas. Merging natural texture with luxury, it boasts the town's most magical sea and sunset terraces.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJqVkIaAvawRQRTv-V84t29Ys",
+      "name": "Korsan Ada Hotel",
+      "name_en": "Korsan Ada Hotel",
+      "category": "Restoran",
+      "tags": [
+        "kas",
+        "travel",
+        "explore"
+      ],
+      "lat": 36.1943707,
+      "lng": 29.5938595,
+      "rating": 4.1,
+      "reviewCount": 542,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kas/ChIJqVkIaAvawRQRTv-V84t29Ys.jpg",
+      "description": "Yarımadanın sakin ucunda yer alan Korsan Ada, ismini karşıdaki adalardan alır ve misafirlerine kesintisiz bir deniz manzara eşliğinde huzur sunar. Şık ve sade odalarıyla, kentin karmaşasını arkasında bırakmak isteyenlerin gizli limanıdır.",
+      "description_en": "Located on the quiet tip of the peninsula, Korsan Ada takes its name from the islands across and offers guests peace with uninterrupted sea views. With chic, simple rooms, it’s a hidden harbor for those leaving the urban rush behind.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJm22h3lbawRQRJvR4rbzHm8s",
+      "name": "Cafe Corner Restaurant",
+      "name_en": "Cafe Corner Restaurant",
+      "category": "Restoran",
+      "tags": [
+        "kas",
+        "travel",
+        "explore"
+      ],
+      "lat": 36.2004923,
+      "lng": 29.6415663,
+      "rating": 4.7,
+      "reviewCount": 1153,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kas/ChIJm22h3lbawRQRJvR4rbzHm8s.jpg",
+      "description": "Kaş'ın tam göbeğinde, kentin kentsel ritmini en iyi hissedebileceğiniz Cafe Corner, zengin menüsü ve samimi atmosferiyle bir buluşma noktasıdır. Meydana ve begonvilli sokaklara hakim masalarıyla, kentin en canlı ve nezih duraklarındandır.",
+      "description_en": "In the very heart of Kaş, Cafe Corner is a meeting point where you can best feel the city's pulse. With its rich menu and tables overlooking the square and bougainvillea-covered alleys, it’s one of the town's most vibrant spots.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJJzGju9UswBQRy8DcCCQFZOU",
+      "name": "Smiley's",
+      "name_en": "Smiley's",
+      "category": "Restoran",
+      "tags": [
+        "kas",
+        "travel",
+        "explore"
+      ],
+      "lat": 36.1987073,
+      "lng": 29.6396093,
+      "rating": 3.8,
+      "reviewCount": 1627,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kas/ChIJJzGju9UswBQRy8DcCCQFZOU.jpg",
+      "description": "Kaş sahil yolunun en sevilen lezzet duraklarından biri olan Smiley's, taze balıkları ve özellikle karides güveciyle meşhurdur. Samimi servisi ve denize nazır masalarıyla, kentin gerçek denizci mutfağını tatmak için en doğru adrestir.",
+      "description_en": "A beloved flavor destination on the Kaş coast road, Smiley's is famous for its fresh fish and signature shrimp casserole. With friendly service and tables facing the sea, it's the best place to taste authentic local maritime cuisine.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJXT16xlbawRQRENy_j98Khyw",
+      "name": "Cinarlar Grup",
+      "name_en": "Cinarlar Grup",
+      "category": "Restoran",
+      "tags": [
+        "kas",
+        "travel",
+        "explore"
+      ],
+      "lat": 36.199421,
+      "lng": 29.642336,
+      "rating": 4.5,
+      "reviewCount": 50,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kas/ChIJXT16xlbawRQRENy_j98Khyw.jpg",
+      "description": "Kaş'ın kentsel ticaret ve gastronomi hayatında önemli bir yer tutan bu işletme, kentin en popüler pizza ve kafe duraklarını bünyesinde barındırır. Kaliteli hizmet anlayışıyla, Kaş'ın modern sosyal yüzünü temsil eden bir kentsel markadır.",
+      "description_en": "Playing a major role in Kaş's urban commerce and gastronomy, this group hosts some of the town's most popular pizza and cafe spots. With its commitment to quality, it is a local brand representing the modern social face of Kaş.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJUan9FFrawRQRDCMuwguFX3s",
+      "name": "Leymona Beach & Restaurant & Bar",
+      "name_en": "Leymona Beach & Restaurant & Bar",
+      "category": "Restoran",
+      "tags": [
+        "kas",
+        "travel",
+        "explore"
+      ],
+      "lat": 36.1992334,
+      "lng": 29.6368544,
+      "rating": 4.6,
+      "reviewCount": 1161,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kas/ChIJUan9FFrawRQRDCMuwguFX3s.jpg",
+      "description": "Kaş'ın en güzel deniz erişimine sahip noktalarından biri olan Leymona, hem beach club hem de restoran konseptini başarıyla birleştirir. Meis Adası'na bakan manzarası ve gurme mutfağıyla, kentin en nezih deniz duraklarından biridir.",
+      "description_en": "Boasting one of the best coastal spots in Kaş, Leymona combines a relaxed beach day with high-end dining. Overlooking Meis Island, its gourmet menu and refined atmosphere offer a top-tier Mediterranean experience.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJNfYLAdYswBQR3DcBvcq4D8I",
+      "name": "Kahramanlar Turizm",
+      "name_en": "Kahramanlar Turizm",
+      "category": "Restoran",
+      "tags": [
+        "kas",
+        "travel",
+        "explore"
+      ],
+      "lat": 36.1993781,
+      "lng": 29.6396405,
+      "rating": 3.8,
+      "reviewCount": 21,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kas/ChIJNfYLAdYswBQR3DcBvcq4D8I.jpg",
+      "description": "Yerel malzemelere ve kentsel mutfak sanatına olan bağlılığıyla tanınan Kahramanlar Turizm, Kas.bak.20260418_134344 kentinin kalbindeki en stil sahibi kentsel lezzet duraklarından biri olarak öne çıkan bir kentsel merkezdir.",
+      "description_en": "Renowned for its commitment to local ingredients and urban culinary art, Kahramanlar Turizm stands as a flavor stronghold in the heart of Kas.bak.20260418_134344's vibrant dining scene.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJzfEK_lPawRQR4Gjqp36tlGQ",
+      "name": "Giant Stride Shop & Cafe & Bar",
+      "name_en": "Giant Stride Shop & Cafe & Bar",
+      "category": "Restoran",
+      "tags": [
+        "kas",
+        "travel",
+        "explore"
+      ],
+      "lat": 36.201025,
+      "lng": 29.641402,
+      "rating": 4.8,
+      "reviewCount": 547,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kas/ChIJzfEK_lPawRQR4Gjqp36tlGQ.jpg",
+      "description": "Kas.bak.20260418_134344 kentinin gastronomi dünyasında otantik lezzetleri ve dinamik sosyal atmosferiyle tanınan Giant Stride Shop & Cafe & Bar, yerel mutfak kültürünü en prestijli şekilde deneyimlemek isteyenlerin en samimi adresidir.",
+      "description_en": "A prestigious culinary destination in Kas.bak.20260418_134344 known for its authentic flavors and vibrant social atmosphere, Giant Stride Shop & Cafe & Bar is the perfect spot for experiencing high-end local gastronomy.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJZRXYQY7QwRQRySi8LDa8JIg",
+      "name": "Miramar Pansiyon",
+      "name_en": "Miramar Pansiyon",
+      "category": "Restoran",
+      "tags": [
+        "kas",
+        "travel",
+        "explore"
+      ],
+      "lat": 36.2100194,
+      "lng": 29.5876948,
+      "rating": 4.7,
+      "reviewCount": 226,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kas/ChIJZRXYQY7QwRQRySi8LDa8JIg.jpg",
+      "description": "Kas.bak.20260418_134344 kentinin gastronomi dünyasında otantik lezzetleri ve dinamik sosyal atmosferiyle tanınan Miramar Pansiyon, yerel mutfak kültürünü en prestijli şekilde deneyimlemek isteyenlerin en samimi adresidir.",
+      "description_en": "A prestigious culinary destination in Kas.bak.20260418_134344 known for its authentic flavors and vibrant social atmosphere, Miramar Pansiyon is the perfect spot for experiencing high-end local gastronomy.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJ13s8_VfawRQRgWy5x0LN4go",
+      "name": "Naturel",
+      "name_en": "Naturel",
+      "category": "Restoran",
+      "tags": [
+        "kas",
+        "travel",
+        "explore"
+      ],
+      "lat": 36.1993823,
+      "lng": 29.6417976,
+      "rating": 4.6,
+      "reviewCount": 1434,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kas/ChIJ13s8_VfawRQRgWy5x0LN4go.jpg",
+      "description": "Yerel malzemelere ve kentsel mutfak sanatına olan bağlılığıyla tanınan Naturel, Kas.bak.20260418_134344 kentinin kalbindeki en stil sahibi kentsel lezzet duraklarından biri olarak öne çıkan bir kentsel merkezdir.",
+      "description_en": "Renowned for its commitment to local ingredients and urban culinary art, Naturel stands as a flavor stronghold in the heart of Kas.bak.20260418_134344's vibrant dining scene.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJZ14GqFDawRQR26kwszZZIl0",
+      "name": "Sardunya Restaurant",
+      "name_en": "Sardunya Restaurant",
+      "category": "Restoran",
+      "tags": [
+        "kas",
+        "travel",
+        "explore"
+      ],
+      "lat": 36.1989069,
+      "lng": 29.6379597,
+      "rating": 4.7,
+      "reviewCount": 460,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kas/ChIJZ14GqFDawRQR26kwszZZIl0.jpg",
+      "description": "Kas.bak.20260418_134344 kentinin gastronomi dünyasında otantik lezzetleri ve dinamik sosyal atmosferiyle tanınan Sardunya Restaurant, yerel mutfak kültürünü en prestijli şekilde deneyimlemek isteyenlerin en samimi adresidir.",
+      "description_en": "A prestigious culinary destination in Kas.bak.20260418_134344 known for its authentic flavors and vibrant social atmosphere, Sardunya Restaurant is the perfect spot for experiencing high-end local gastronomy.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJ13s8_VfawRQRbq5AYDELzKU",
+      "name": "Kas Camping",
+      "name_en": "Kas Camping",
+      "category": "Restoran",
+      "tags": [
+        "kas",
+        "travel",
+        "explore"
+      ],
+      "lat": 36.1990305,
+      "lng": 29.6322458,
+      "rating": 3.8,
+      "reviewCount": 1946,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kas/ChIJ13s8_VfawRQRbq5AYDELzKU.jpg",
+      "description": "Yerel malzemelere ve kentsel mutfak sanatına olan bağlılığıyla tanınan Kas Camping, Kas.bak.20260418_134344 kentinin kalbindeki en stil sahibi kentsel lezzet duraklarından biri olarak öne çıkan bir kentsel merkezdir.",
+      "description_en": "Renowned for its commitment to local ingredients and urban culinary art, Kas Camping stands as a flavor stronghold in the heart of Kas.bak.20260418_134344's vibrant dining scene.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJqbrWCl_awRQRsoPCnHdVvAY",
+      "name": "Oxygen Pub",
+      "name_en": "Oxygen Pub",
+      "category": "Restoran",
+      "tags": [
+        "kas",
+        "travel",
+        "explore"
+      ],
+      "lat": 36.2057991,
+      "lng": 29.6297504,
+      "rating": 4.5,
+      "reviewCount": 393,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kas/ChIJqbrWCl_awRQRsoPCnHdVvAY.jpg",
+      "description": "Kas.bak.20260418_134344 kentinin gastronomi dünyasında otantik lezzetleri ve dinamik sosyal atmosferiyle tanınan Oxygen Pub, yerel mutfak kültürünü en prestijli şekilde deneyimlemek isteyenlerin en samimi adresidir.",
+      "description_en": "A prestigious culinary destination in Kas.bak.20260418_134344 known for its authentic flavors and vibrant social atmosphere, Oxygen Pub is the perfect spot for experiencing high-end local gastronomy.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJDz1dKVfawRQR75p-Y_ti4mg",
+      "name": "Noel Baba Cafe&Bistro",
+      "name_en": "Noel Baba Cafe&Bistro",
+      "category": "Restoran",
+      "tags": [
+        "kas",
+        "travel",
+        "explore"
+      ],
+      "lat": 36.1995474,
+      "lng": 29.64108359999999,
+      "rating": 3.9,
+      "reviewCount": 908,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kas/ChIJDz1dKVfawRQR75p-Y_ti4mg.jpg",
+      "description": "Kas.bak.20260418_134344 kentinin gastronomi dünyasında otantik lezzetleri ve dinamik sosyal atmosferiyle tanınan Noel Baba Cafe&Bistro, yerel mutfak kültürünü en prestijli şekilde deneyimlemek isteyenlerin en samimi adresidir.",
+      "description_en": "A prestigious culinary destination in Kas.bak.20260418_134344 known for its authentic flavors and vibrant social atmosphere, Noel Baba Cafe&Bistro is the perfect spot for experiencing high-end local gastronomy.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJb6naxfHbwRQR3CFIzL_yoac",
+      "name": "No.10 Cafe Kaş",
+      "name_en": "No.10 Cafe Kaş",
+      "category": "Restoran",
+      "tags": [
+        "kas",
+        "travel",
+        "explore"
+      ],
+      "lat": 36.20214670000001,
+      "lng": 29.6372165,
+      "rating": 4.2,
+      "reviewCount": 34,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kas/ChIJb6naxfHbwRQR3CFIzL_yoac.jpg",
+      "description": "Yerel malzemelere ve kentsel mutfak sanatına olan bağlılığıyla tanınan No.10 Cafe Kaş, Kas.bak.20260418_134344 kentinin kalbindeki en stil sahibi kentsel lezzet duraklarından biri olarak öne çıkan bir kentsel merkezdir.",
+      "description_en": "Renowned for its commitment to local ingredients and urban culinary art, No.10 Cafe Kaş stands as a flavor stronghold in the heart of Kas.bak.20260418_134344's vibrant dining scene.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJmeE04WrbwRQRDNXyfyWo4Ec",
+      "name": "Kaş Fenerbahçeliler Derneği",
+      "name_en": "Kaş Fenerbahçeliler Derneği",
+      "category": "Restoran",
+      "tags": [
+        "kas",
+        "travel",
+        "explore"
+      ],
+      "lat": 36.2027364,
+      "lng": 29.6373457,
+      "rating": 4.5,
+      "reviewCount": 50,
+      "price": "medium",
+      "imageUrl": "",
+      "description": "Kas.bak.20260418_134344 kentinin gastronomi dünyasında otantik lezzetleri ve dinamik sosyal atmosferiyle tanınan Kaş Fenerbahçeliler Derneği, yerel mutfak kültürünü en prestijli şekilde deneyimlemek isteyenlerin en samimi adresidir.",
+      "description_en": "A prestigious culinary destination in Kas.bak.20260418_134344 known for its authentic flavors and vibrant social atmosphere, Kaş Fenerbahçeliler Derneği is the perfect spot for experiencing high-end local gastronomy.",
+      "source": "google"
+    },
+    {
+      "id": "ChIJVaS5S77bwRQRtp15EJgBuNk",
+      "name": "Mola çay evi",
+      "name_en": "Mola çay evi",
+      "category": "Restoran",
+      "tags": [
+        "kas",
+        "travel",
+        "explore"
+      ],
+      "lat": 36.2019426,
+      "lng": 29.6375889,
+      "rating": 5,
+      "reviewCount": 3,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kas/ChIJVaS5S77bwRQRtp15EJgBuNk.jpg",
+      "description": "Geleneksel tarifleri modern bir kentsel dokunuşla harmanlayan Mola çay evi, Kas.bak.20260418_134344 kentinde gurme lezzetler arayan sosyal gezginler için şık ve kentsel bir lezzet kaçış rotası vaat etmektedir.",
+      "description_en": "Merging traditional recipes with modern urban flair, this restaurant offers a sophisticated social escape for food lovers visiting Mola çay evi in Kas.bak.20260418_134344.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJ8V-JrCXbwRQR2MeoZ42SDuc",
+      "name": "Süleyman Çavuş Kahvehanesi (Tatlı-Limonata)",
+      "name_en": "Süleyman Çavuş Kahvehanesi (Tatlı-Limonata)",
+      "category": "Restoran",
+      "tags": [
+        "kas",
+        "travel",
+        "explore"
+      ],
+      "lat": 36.2017325,
+      "lng": 29.6378439,
+      "rating": 5,
+      "reviewCount": 25,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kas/ChIJ8V-JrCXbwRQR2MeoZ42SDuc.jpg",
+      "description": "Geleneksel tarifleri modern bir kentsel dokunuşla harmanlayan Süleyman Çavuş Kahvehanesi (Tatlı-Limonata), Kas.bak.20260418_134344 kentinde gurme lezzetler arayan sosyal gezginler için şık ve kentsel bir lezzet kaçış rotası vaat etmektedir.",
+      "description_en": "Merging traditional recipes with modern urban flair, this restaurant offers a sophisticated social escape for food lovers visiting Süleyman Çavuş Kahvehanesi (Tatlı-Limonata) in Kas.bak.20260418_134344.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJNfvYAvLbwRQRj9AaY4aM8iQ",
+      "name": "Linckia Roastery Cafe",
+      "name_en": "Linckia Roastery Cafe",
+      "category": "Restoran",
+      "tags": [
+        "kas",
+        "travel",
+        "explore"
+      ],
+      "lat": 36.199368,
+      "lng": 29.6371307,
+      "rating": 4.5,
+      "reviewCount": 971,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kas/ChIJNfvYAvLbwRQRj9AaY4aM8iQ.jpg",
+      "description": "Kaş'ın en sevilen yeni nesil kahvecilerinden biri olan Linckia, özenle seçilmiş çekirdekleri ve taze kavrulmuş kahveleriyle bilinir. Modern tasarımı ve huzurlu atmosferiyle, kentin hareketliliğinden kaçıp kaliteli bir mola vermek isteyenlerin favorisidir.",
+      "description_en": "A favorite for third-wave coffee lovers in Kaş, Linckia is known for its specialty beans and freshly roasted aromas. With its modern design and tranquil vibe, it’s the perfect spot for a quality caffeine break in the heart of town.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJMd4cenPbwRQRg_CD0RbIXCE",
+      "name": "SPOKO COFFEE & CAKE & SANDWICH",
+      "name_en": "SPOKO COFFEE & CAKE & SANDWICH",
+      "category": "Restoran",
+      "tags": [
+        "kas",
+        "travel",
+        "explore"
+      ],
+      "lat": 36.1999747,
+      "lng": 29.6386004,
+      "rating": 4.7,
+      "reviewCount": 316,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kas/ChIJMd4cenPbwRQRg_CD0RbIXCE.jpg",
+      "description": "Ev yapımı pastaları ve taze sandviçleriyle tanınan SPOKO, Kaş çarşısında samimi bir mola noktasıdır. Özellikle kahvelerinin yanına eşlik eden özgün tatlılarıyla, kentin en tatlı saklı bahçelerinden biri olarak bilinir.",
+      "description_en": "Known for its homemade cakes and fresh sandwiches, SPOKO is a cozy retreat in the Kaş market. Its unique selection of desserts and quality coffee make it one of the town's most charming hidden gems for a quick bite.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJm9xpW1fawRQRDbqAaDVK-MQ",
+      "name": "Dessert Shop",
+      "name_en": "Dessert Shop",
+      "category": "Restoran",
+      "tags": [
+        "kas",
+        "travel",
+        "explore"
+      ],
+      "lat": 36.2004737,
+      "lng": 29.6389575,
+      "rating": 4.4,
+      "reviewCount": 738,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kas/ChIJm9xpW1fawRQRDbqAaDVK-MQ.jpg",
+      "description": "Yerel malzemelere ve kentsel mutfak sanatına olan bağlılığıyla tanınan Dessert Shop, Kas.bak.20260418_134344 kentinin kalbindeki en stil sahibi kentsel lezzet duraklarından biri olarak öne çıkan bir kentsel merkezdir.",
+      "description_en": "Renowned for its commitment to local ingredients and urban culinary art, Dessert Shop stands as a flavor stronghold in the heart of Kas.bak.20260418_134344's vibrant dining scene.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJb4VvfgDbwRQRAr40g09TNs0",
+      "name": "Kas Simit",
+      "name_en": "Kas Simit",
+      "category": "Restoran",
+      "tags": [
+        "kas",
+        "travel",
+        "explore"
+      ],
+      "lat": 36.2002014,
+      "lng": 29.63915429999999,
+      "rating": 4.5,
+      "reviewCount": 50,
+      "price": "medium",
+      "imageUrl": "",
+      "description": "Geleneksel tarifleri modern bir kentsel dokunuşla harmanlayan Kas Simit, Kas.bak.20260418_134344 kentinde gurme lezzetler arayan sosyal gezginler için şık ve kentsel bir lezzet kaçış rotası vaat etmektedir.",
+      "description_en": "Merging traditional recipes with modern urban flair, this restaurant offers a sophisticated social escape for food lovers visiting Kas Simit in Kas.bak.20260418_134344.",
+      "source": "google"
+    },
+    {
+      "id": "ChIJt-WVBQbbwRQRphIOxV3MjWk",
+      "name": "Coflow Coffee",
+      "name_en": "Coflow Coffee",
+      "category": "Restoran",
+      "tags": [
+        "kas",
+        "travel",
+        "explore"
+      ],
+      "lat": 36.2004291,
+      "lng": 29.6393099,
+      "rating": 4.9,
+      "reviewCount": 139,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kas/ChIJt-WVBQbbwRQRphIOxV3MjWk.jpg",
+      "description": "Kas.bak.20260418_134344 kentinin gastronomi dünyasında otantik lezzetleri ve dinamik sosyal atmosferiyle tanınan Coflow Coffee, yerel mutfak kültürünü en prestijli şekilde deneyimlemek isteyenlerin en samimi adresidir.",
+      "description_en": "A prestigious culinary destination in Kas.bak.20260418_134344 known for its authentic flavors and vibrant social atmosphere, Coflow Coffee is the perfect spot for experiencing high-end local gastronomy.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJ13s8_VfawRQRVAd4erHlZ9g",
+      "name": "Old Town Cafe-Bar & Billiards",
+      "name_en": "Old Town Cafe-Bar & Billiards",
+      "category": "Restoran",
+      "tags": [
+        "kas",
+        "travel",
+        "explore"
+      ],
+      "lat": 36.2004291,
+      "lng": 29.6393099,
+      "rating": 4.7,
+      "reviewCount": 47,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kas/ChIJ13s8_VfawRQRVAd4erHlZ9g.jpg",
+      "description": "Geleneksel tarifleri modern bir kentsel dokunuşla harmanlayan Old Town Cafe-Bar & Billiards, Kas.bak.20260418_134344 kentinde gurme lezzetler arayan sosyal gezginler için şık ve kentsel bir lezzet kaçış rotası vaat etmektedir.",
+      "description_en": "Merging traditional recipes with modern urban flair, this restaurant offers a sophisticated social escape for food lovers visiting Old Town Cafe-Bar & Billiards in Kas.bak.20260418_134344.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJ_1fH1IfbwRQRCIK9eZodHCI",
+      "name": "Heybe Cafe",
+      "name_en": "Heybe Cafe",
+      "category": "Restoran",
+      "tags": [
+        "kas",
+        "travel",
+        "explore"
+      ],
+      "lat": 36.20069700000001,
+      "lng": 29.6399903,
+      "rating": 5,
+      "reviewCount": 197,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kas/ChIJ_1fH1IfbwRQRCIK9eZodHCI.jpg",
+      "description": "Geleneksel Türk kahvaltısını ve ev yemeklerini Kaş'ın yerel dokusuyla sunan Heybe, samimiyetiyle öne çıkar. Çiçeklerle bezeli masaları ve güleryüzlü hizmetiyle, kendinizi kentin otantik yaşamına dahil hissedeceğiniz bir duraktır.",
+      "description_en": "Serving traditional Turkish breakfast and home-cooked meals, Heybe captures the authentic spirit of Kaş. With its flower-lined tables and warm hospitality, it’s a perfect place to feel like a local in the heart of the village.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJC6Um1d7bwRQRe6Xs0wAJwu8",
+      "name": "Mumi Kaş Nargile Cafe & Kaş Kahvaltı",
+      "name_en": "Mumi Kaş Nargile Cafe & Kaş Kahvaltı",
+      "category": "Restoran",
+      "tags": [
+        "kas",
+        "travel",
+        "explore"
+      ],
+      "lat": 36.19870909999999,
+      "lng": 29.6389144,
+      "rating": 5,
+      "reviewCount": 4,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kas/ChIJC6Um1d7bwRQRe6Xs0wAJwu8.jpg",
+      "description": "Geleneksel tarifleri modern bir kentsel dokunuşla harmanlayan Mumi Kaş Nargile Cafe & Kaş Kahvaltı, Kas.bak.20260418_134344 kentinde gurme lezzetler arayan sosyal gezginler için şık ve kentsel bir lezzet kaçış rotası vaat etmektedir.",
+      "description_en": "Merging traditional recipes with modern urban flair, this restaurant offers a sophisticated social escape for food lovers visiting Mumi Kaş Nargile Cafe & Kaş Kahvaltı in Kas.bak.20260418_134344.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJbYSEzRzbwRQR2rWxMLEFLQ8",
+      "name": "Blue Soul Coffee & More",
+      "name_en": "Blue Soul Coffee & More",
+      "category": "Restoran",
+      "tags": [
+        "kas",
+        "travel",
+        "explore"
+      ],
+      "lat": 36.199875,
+      "lng": 29.6398085,
+      "rating": 4.7,
+      "reviewCount": 86,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kas/ChIJbYSEzRzbwRQR2rWxMLEFLQ8.jpg",
+      "description": "Yerel malzemelere ve kentsel mutfak sanatına olan bağlılığıyla tanınan Blue Soul Coffee & More, Kas.bak.20260418_134344 kentinin kalbindeki en stil sahibi kentsel lezzet duraklarından biri olarak öne çıkan bir kentsel merkezdir.",
+      "description_en": "Renowned for its commitment to local ingredients and urban culinary art, Blue Soul Coffee & More stands as a flavor stronghold in the heart of Kas.bak.20260418_134344's vibrant dining scene.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJdTJ6zDzbwRQRoujzyP153zs",
+      "name": "Nazilli Cafe",
+      "name_en": "Nazilli Cafe",
+      "category": "Restoran",
+      "tags": [
+        "kas",
+        "travel",
+        "explore"
+      ],
+      "lat": 36.2018138,
+      "lng": 29.6403747,
+      "rating": 4.8,
+      "reviewCount": 106,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kas/ChIJdTJ6zDzbwRQRoujzyP153zs.jpg",
+      "description": "Geleneksel tarifleri modern bir kentsel dokunuşla harmanlayan Nazilli Cafe, Kas.bak.20260418_134344 kentinde gurme lezzetler arayan sosyal gezginler için şık ve kentsel bir lezzet kaçış rotası vaat etmektedir.",
+      "description_en": "Merging traditional recipes with modern urban flair, this restaurant offers a sophisticated social escape for food lovers visiting Nazilli Cafe in Kas.bak.20260418_134344.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJuXaFcMLbwRQRMRkq5dLifDU",
+      "name": "Akay Cafe",
+      "name_en": "Akay Cafe",
+      "category": "Restoran",
+      "tags": [
+        "kas",
+        "travel",
+        "explore"
+      ],
+      "lat": 36.200011,
+      "lng": 29.6399142,
+      "rating": 4.8,
+      "reviewCount": 109,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kas/ChIJuXaFcMLbwRQRMRkq5dLifDU.jpg",
+      "description": "Geleneksel tarifleri modern bir kentsel dokunuşla harmanlayan Akay Cafe, Kas.bak.20260418_134344 kentinde gurme lezzetler arayan sosyal gezginler için şık ve kentsel bir lezzet kaçış rotası vaat etmektedir.",
+      "description_en": "Merging traditional recipes with modern urban flair, this restaurant offers a sophisticated social escape for food lovers visiting Akay Cafe in Kas.bak.20260418_134344.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJJ77JrLzbwRQRV-3-F9mttXU",
+      "name": "Bla Bla Cafe Kaş",
+      "name_en": "Bla Bla Cafe Kaş",
+      "category": "Restoran",
+      "tags": [
+        "kas",
+        "travel",
+        "explore"
+      ],
+      "lat": 36.1993972,
+      "lng": 29.63960659999999,
+      "rating": 4.9,
+      "reviewCount": 265,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kas/ChIJJ77JrLzbwRQRV-3-F9mttXU.jpg",
+      "description": "Kas.bak.20260418_134344 kentinin gastronomi dünyasında otantik lezzetleri ve dinamik sosyal atmosferiyle tanınan Bla Bla Cafe Kaş, yerel mutfak kültürünü en prestijli şekilde deneyimlemek isteyenlerin en samimi adresidir.",
+      "description_en": "A prestigious culinary destination in Kas.bak.20260418_134344 known for its authentic flavors and vibrant social atmosphere, Bla Bla Cafe Kaş is the perfect spot for experiencing high-end local gastronomy.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJXYE2V-nbwRQRvWbXq7EALtQ",
+      "name": "Shotbar",
+      "name_en": "Shotbar",
+      "category": "Deneyim",
+      "tags": [
+        "kas",
+        "travel",
+        "explore"
+      ],
+      "lat": 36.1998874,
+      "lng": 29.641551,
+      "rating": 5,
+      "reviewCount": 5,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kas/ChIJXYE2V-nbwRQRvWbXq7EALtQ.jpg",
+      "description": "Kas.bak.20260418_134344 kentinde kentsel konforu yerel estetikle birleştiren Shotbar, kentin sosyal ve kültürel dünyasına yüksek kaliteli bir kentsel dokunuş katan en samimi ve kentsel rotalardan biridir.",
+      "description_en": "As a refined social and cultural point in Kas.bak.20260418_134344, Shotbar offers a high-quality experience that perfectly merges urban convenience with local aesthetic charm.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJKVam4YfbwRQRuoTvOrs9WRY",
+      "name": "Dott's",
+      "name_en": "Dott's",
+      "category": "Deneyim",
+      "tags": [
+        "kas",
+        "travel",
+        "explore"
+      ],
+      "lat": 36.199845,
+      "lng": 29.6418169,
+      "rating": 4,
+      "reviewCount": 117,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kas/ChIJKVam4YfbwRQRuoTvOrs9WRY.jpg",
+      "description": "Kas.bak.20260418_134344 kentinin kentsel enerjisini ve kültürel kimliğini yansıtan Dott's, kenti keşfeden gezginlerin kentsel keşif albümündeki en ikonik ve fotojenik kentsel duraklardan birisi haline gelmiştir.",
+      "description_en": "A prominent urban landmark in Kas.bak.20260418_134344 that defines the area's contemporary spirit and cultural identity, Dott's serves as a prestigious and unique stop for every traveler.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJIT3NvlbawRQR7uq7fHjywwc",
+      "name": "L'Apéro Kaş",
+      "name_en": "L'Apéro Kaş",
+      "category": "Restoran",
+      "tags": [
+        "kas",
+        "travel",
+        "explore"
+      ],
+      "lat": 36.1994067,
+      "lng": 29.6429137,
+      "rating": 4.4,
+      "reviewCount": 1268,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kas/ChIJIT3NvlbawRQR7uq7fHjywwc.jpg",
+      "description": "Geleneksel tarifleri modern bir kentsel dokunuşla harmanlayan L'Apéro Kaş, Kas.bak.20260418_134344 kentinde gurme lezzetler arayan sosyal gezginler için şık ve kentsel bir lezzet kaçış rotası vaat etmektedir.",
+      "description_en": "Merging traditional recipes with modern urban flair, this restaurant offers a sophisticated social escape for food lovers visiting L'Apéro Kaş in Kas.bak.20260418_134344.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJMSxCXZvbwRQRdxipu3QUJ7M",
+      "name": "Cistern 5th century BC",
+      "name_en": "Cistern 5th century BC",
+      "category": "Tarihi",
+      "tags": [
+        "kas",
+        "travel",
+        "explore"
+      ],
+      "lat": 36.1988276,
+      "lng": 29.63967409999999,
+      "rating": 4.2,
+      "reviewCount": 9,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kas/ChIJMSxCXZvbwRQRdxipu3QUJ7M.jpg",
+      "description": "Kas.bak.20260418_134344 kentinin kentsel tarih silüetini ve Cistern 5th century BC bölgesinin mimari ihtişamını yansıtan bu alan, kentin binlerce yıllık kültürel mirasına açılan en prestijli kentsel tarih kalesidir.",
+      "description_en": "An urban cultural stronghold in Kas.bak.20260418_134344 showcasing the historical layers and architectural grandeur of Cistern 5th century BC, offering travelers a deep dive into the region's heritage.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJgdHOOgDbwRQRUOioThjZwf4",
+      "name": "Kaş su altı müzesi",
+      "name_en": "Kaş su altı müzesi",
+      "category": "Tarihi",
+      "tags": [
+        "kas",
+        "travel",
+        "explore"
+      ],
+      "lat": 36.1782276,
+      "lng": 29.6416722,
+      "rating": 4.1,
+      "reviewCount": 10,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kas/ChIJgdHOOgDbwRQRUOioThjZwf4.jpg",
+      "description": "Dalış tutkunları için benzersiz bir deneyim sunan bu su altı müzesi, çeşitli heykeller ve yapay batıklarla deniz dibini bir sanat galerisine dönüştürür. Kaş'ın berrak sularında süzülürken tarih ve sanatı suyun altında keşfedeceksiniz.",
+      "description_en": "Offering a surreal experience for divers, this underwater museum features sculptures and artificial reefs that turn the seabed into a gallery. Explore art and marine life combined in the crystal-clear depths of Kaş.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJOVakyZrFwRQRJLk8Hhq2RDk",
+      "name": "Phellos Antik Kenti",
+      "name_en": "Phellos Antik Kenti",
+      "category": "Tarihi",
+      "tags": [
+        "kas",
+        "travel",
+        "explore"
+      ],
+      "lat": 36.242268,
+      "lng": 29.6624007,
+      "rating": 4.1,
+      "reviewCount": 39,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kas/ChIJOVakyZrFwRQRJLk8Hhq2RDk.jpg",
+      "description": "Kaş sırtlarındaki tepelerde yer alan Phellos, muazzam bir manzara eşliğinde Likya lahitleri ve sur kalıntılarını sunar. Kente tepeden bakan konumu ve sessiz doğasıyla, tarihin doğayla iç içe geçtiği etkileyici bir keşif rotasıdır.",
+      "description_en": "Located high on the ridges overlooking Kaş, Phellos features impressive Lycian sarcophagi and ancient walls. Its commanding views and silent, wild nature make it a powerful destination for those seeking history off the beaten path.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJOwro62XXwRQRtC8L1S3s_GQ",
+      "name": "Kastellorizo Folk Art Museum (Kavos Mosque)",
+      "name_en": "Kastellorizo Folk Art Museum (Kavos Mosque)",
+      "category": "Tarihi",
+      "tags": [
+        "kas",
+        "travel",
+        "explore"
+      ],
+      "lat": 36.1515579,
+      "lng": 29.5931332,
+      "rating": 4,
+      "reviewCount": 31,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kas/ChIJOwro62XXwRQRtC8L1S3s_GQ.jpg",
+      "description": "Kas.bak.20260418_134344 kentinin tarihi dokusunda önemli bir yer tutan Kastellorizo Folk Art Museum (Kavos Mosque), kentin tarihsel evrimini ve kentsel hafızasını koruyan en entelektüel ve paha biçilemez kentsel duraklardan biridir.",
+      "description_en": "As a prestigious landmark of Kas.bak.20260418_134344, Kastellorizo Folk Art Museum (Kavos Mosque) preserves the town's millennia-old memory and serves as an intellectual window into the historical evolution of the area.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJDzXuP43XwRQRBDs4ZZoa5vQ",
+      "name": "Meduseum - Megisti Puzzle Museum",
+      "name_en": "Meduseum - Megisti Puzzle Museum",
+      "category": "Tarihi",
+      "tags": [
+        "kas",
+        "travel",
+        "explore"
+      ],
+      "lat": 36.14768249999999,
+      "lng": 29.5938423,
+      "rating": 5,
+      "reviewCount": 65,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kas/ChIJDzXuP43XwRQRBDs4ZZoa5vQ.jpg",
+      "description": "Antik dokularla Meduseum - Megisti Puzzle Museum ruhunu birleştiren bu tarihi nokta, Kas.bak.20260418_134344 kentinin kültürel kimliğini tanımlayan ve kenti keşfedenlere mistik bir atmosfer sunan kentsel bir prestij kalesidir.",
+      "description_en": "This historical gemstone in Kas.bak.20260418_134344 defines the local cultural identity, combining ancient textures with the timeless spirit of Meduseum - Megisti Puzzle Museum for every urban explorer.",
+      "source": "firebase"
+    }
+  ]
+}

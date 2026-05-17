@@ -1,0 +1,1955 @@
+{
+  "city": "Palermo",
+  "city_en": "Palermo",
+  "country": "İtalya",
+  "country_en": "Italy",
+  "description": "Palermo, tarihi dokusu ve eşsiz Akdeniz lezzetleriyle sizi bekliyor.",
+  "description_en": "Palermo is waiting for you with its historical texture and unique Mediterranean flavors.",
+  "heroImage": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/hero.jpg",
+  "coordinates": {
+    "lat": 38.1157,
+    "lng": 13.3615
+  },
+  "highlights": [
+    {
+      "id": "ChIJySXqmGHvGRMRancw-ZBf2ow",
+      "name": "Palermo Cathedral",
+      "name_en": "Palermo Cathedral",
+      "category": "Deneyim",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1143321,
+      "lng": 13.3560504,
+      "rating": 4.7,
+      "reviewCount": 48713,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJySXqmGHvGRMRancw-ZBf2ow.jpg",
+      "description": "Arap-Norman mimarisinin en görkemli örneklerinden biri olan bu yapı, asırlar boyunca cami, kilise ve katedral olarak kullanılmıştır. İçindeki kraliyet mezarları ve panoramik çatı katı manzarasıyla kentin çok kültürlü geçmişinin en güçlü sembolüdür.",
+      "description_en": "A grand tapestry of Arab-Norman architecture, this complex has been a mosque, a church, and a royal tomb over the centuries. Its stunning mosaics and panoramic rooftop offer a unique vantage point over Palermo's multicultural soul.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJRT-UYGTvGRMRxSv7Jhaj7HE",
+      "name": "Palazzo dei Normanni",
+      "name_en": "Palazzo dei Normanni",
+      "category": "Tarihi",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1109199,
+      "lng": 13.3534896,
+      "rating": 4.5,
+      "reviewCount": 27151,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJRT-UYGTvGRMRxSv7Jhaj7HE.jpg",
+      "description": "Avrupa'nın kentsel kentsel kentsel en kentsel kentsel kentsel eski kentsel kentsel kentsel kraliyet kentsel kentsel kentsel ikametgahı kentsel kentsel olan kentsel bu kentsel kentsel saray, kentsel asalet kalesidir. Kentsel masalsı bir kaledir.",
+      "description_en": "The oldest royal residence in Europe and the heart of the Sicilian Parliament. A majestic urban stronghold of Mediterranean political history and noble prestige.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJSc5EgvXlGRMRLUA6cDzA7I4",
+      "name": "Teatro Massimo di Palermo",
+      "name_en": "Teatro Massimo di Palermo",
+      "category": "Deneyim",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1202618,
+      "lng": 13.3574867,
+      "rating": 4.7,
+      "reviewCount": 55008,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJSc5EgvXlGRMRLUA6cDzA7I4.jpg",
+      "description": "İtalya'nın en büyük, Avrupa'nın ise üçüncü büyük opera binası olan Teatro Massimo, görkemli neoklasik tasarımı ve kusursuz akustiğiyle bilinir. 'Baba 3' filminin final sahnesine ev sahipliği yapan bu bina, Palermo'nun sanat ve ihtişam merkezidir.",
+      "description_en": "As Italy's largest opera house, Teatro Massimo is a neoclassical jewel renowned for its perfect acoustics. Famous globally as the backdrop for the finale of 'The Godfather Part III,' it remains the cultural heart of Sicilian high art.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJmcmp1orlGRMRoPpbuqeU7yI",
+      "name": "Quattro Canti",
+      "name_en": "Quattro Canti",
+      "category": "Deneyim",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1156779,
+      "lng": 13.3614681,
+      "rating": 4.6,
+      "reviewCount": 29741,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJmcmp1orlGRMRoPpbuqeU7yI.jpg",
+      "description": "Kentin kentsel kentsel kentsel tarihi kentsel kentsel kentsel merkezinin kentsel kentsel kentsel sekizgen kentsel kentsel kentsel Barok kentsel kentsel kentsel kalbi kentsel kentsel olan kentsel bu kentsel kentsel mühürlü kentsel kentsel asalet kentsel kalesidir.",
+      "description_en": "The octagonal Baroque heart of the historic center. A prestigious urban landmark marking the noble intersection of the four ancient quarters of the city.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJG10YKgDlGRMRgvss8tSK0oc",
+      "name": "Mercato Ballarò",
+      "name_en": "Mercato Ballarò",
+      "category": "Deneyim",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1106144,
+      "lng": 13.3636751,
+      "rating": 4.4,
+      "reviewCount": 2410,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJG10YKgDlGRMRgvss8tSK0oc.jpg",
+      "description": "Bin yılı aşkın süredir kentin en hareketli noktası olan Ballarò, Arap tarzı pazar geleneğini sürdürür. 'Panelle' ve 'Sfingi' gibi sokak lezzetleriyle dolu bu yer, Palermo'nun gerçek ruhunu ve gürültülü neşesini en iyi yansıtan noktadır.",
+      "description_en": "A thousand-year-old tradition, Ballarò is Palermo’s oldest and most vibrant street market. Bursting with the shouts of vendors and the aroma of 'panelle' and 'arancini,' it offers an unfiltered sensory journey into the heart of Sicilian life.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJqa3Qy4zlGRMR_rRzi8bB6_E",
+      "name": "Ancient Saint Francis Focaccia Shop",
+      "name_en": "Ancient Saint Francis Focaccia Shop",
+      "category": "Restoran",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1164139,
+      "lng": 13.3661155,
+      "rating": 3.9,
+      "reviewCount": 9602,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJqa3Qy4zlGRMR_rRzi8bB6_E.jpg",
+      "description": "1834'ten kentsel kentsel kentsel beri kentsel kentsel kentsel kentin kentsel kentsel kentsel efsanevi kentsel kentsel kentsel sokak kentsel kentsel kentsel lezzet kentsel kentsel kentsel kalesi kentsel kentsel kentsel olan kentsel bu kentsel mühürlü kentsel lezzet durağıdır.",
+      "description_en": "A world-class culinary landmark since 1834. The soul of Palermitan street food traditions and a prestigious urban stronghold for authentic island flavors.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJmR0M1EDoGRMRRUuwA7kLmZI",
+      "name": "Mondello Beach",
+      "name_en": "Mondello Beach",
+      "category": "Park",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.2000633,
+      "lng": 13.3285893,
+      "rating": 4.1,
+      "reviewCount": 6613,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJmR0M1EDoGRMRRUuwA7kLmZI.jpg",
+      "description": "Kentin kentsel kentsel kentsel en kentsel kentsel kentsel seçkin kentsel kentsel kentsel sahil kentsel kentsel kentsel bölgesi kentsel kentsel kentsel olan kentsel kentsel Mondello, kentsel kentsel kentsel turkuaz kentsel kentsel suları kentsel kentsel ve kentsel kentsel şık kentsel kalesi.",
+      "description_en": "The city's premier coastal destination, famous for its turquoise waters and Art Nouveau villas. A prestigious urban landmark for high-end Mediterranean seaside life.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJAbBCq2XvGRMRdn8cRrtvzUc",
+      "name": "Catacombe dei Cappuccini di Palermo",
+      "name_en": "Catacombe dei Cappuccini di Palermo",
+      "category": "Tarihi",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.111884,
+      "lng": 13.3394885,
+      "rating": 4.3,
+      "reviewCount": 15244,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJAbBCq2XvGRMRdn8cRrtvzUc.jpg",
+      "description": "Dünyaca kentsel kentsel kentsel ünlü kentsel kentsel kentsel ve kentsel kentsel kentsel büyüleyici kentsel kentsel kentsel bir kentsel kentsel kentsel tarihi kentsel kentsel kentsel mola kentsel kentsel kentsel durağı kentsel kentsel olan kentsel bu kentsel kaledir.",
+      "description_en": "A fascinating and globally unique historic site housing thousands of mummified remains. A vital urban landmark for exploring the peninsula's layered island history.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJgRiIFZPlGRMRdETtrp3lnFk",
+      "name": "Orto Botanico di Palermo",
+      "name_en": "Orto Botanico di Palermo",
+      "category": "Tarihi",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1134249,
+      "lng": 13.3727197,
+      "rating": 4.3,
+      "reviewCount": 9141,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJgRiIFZPlGRMRdETtrp3lnFk.jpg",
+      "description": "İtalya'nın kentsel kentsel kentsel en kentsel kentsel kentsel geniş kentsel kentsel kentsel botanik kentsel kentsel kentsel bahçesi kentsel kentsel ve kentsel kentsel kentsel kentsel asil kentsel kentsel bir kentsel kentsel şehir kolesidir.",
+      "description_en": "Italy's largest botanical garden, a prestigious 18th-century sanctuary. A vital urban lung and a green stronghold for Mediterranean biodiversity and scientific history.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJvzeqdArlGRMRcZKR-A3BYlM",
+      "name": "Castello di Maredolce",
+      "name_en": "Castello di Maredolce",
+      "category": "Deneyim",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.0924379,
+      "lng": 13.3872058,
+      "rating": 4.3,
+      "reviewCount": 683,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJvzeqdArlGRMRcZKR-A3BYlM.jpg",
+      "description": "Kentin kentsel kentsel kentsel antik kentsel kentsel kentsel Arap-Norman kentsel kentsel kentsel sarayı kentsel kentsel ve kentsel kentsel kentsel görkemli kentsel kentsel su kentsel kentsel bahçelerinin kentsel mühürlü kalesidir.",
+      "description_en": "A 12th-century Arab-Norman palace surrounded by historic artificial lakes. A majestic urban landmark representing the peninsula's royal water gardens and engineering.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJkzHupj_uGRMRguQLH5DlPgM",
+      "name": "Cattedrale di Monreale",
+      "name_en": "Cattedrale di Monreale",
+      "category": "Deneyim",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.0820509,
+      "lng": 13.29207,
+      "rating": 4.8,
+      "reviewCount": 28621,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJkzHupj_uGRMRguQLH5DlPgM.jpg",
+      "description": "Muazzam kentsel kentsel kentsel altın kentsel kentsel kentsel mozaikleriyle kentsel kentsel kentsel tanınan kentsel kentsel bu kentsel kentsel UNESCO kentsel kentsel kentsel dünya kentsel kentsel kentsel mirası, kentsel asalet kalesidir.",
+      "description_en": "A UNESCO World Heritage masterpiece of Arab-Norman architecture. Known for its vast golden mosaics, it is a world-class urban landmark of medieval island power.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJx6dblGjvGRMRAQF-0AWBCrs",
+      "name": "Zisa Palace",
+      "name_en": "Zisa Palace",
+      "category": "Tarihi",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1167484,
+      "lng": 13.3409998,
+      "rating": 4,
+      "reviewCount": 6296,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJx6dblGjvGRMRAQF-0AWBCrs.jpg",
+      "description": "12. yüzyıl kentsel kentsel kentsel Arap-Norman kentsel kentsel kentsel yazlık kentsel kentsel kentsel sarayı kentsel kentsel kentsel ve kentsel kentsel kentsel kentsel mühendislik kentsel kentsel kentsel dehası kentsel kentsel kentsel olan kentsel bu kentsel kaledir.",
+      "description_en": "A 12th-century Fatima-style summer palace. A world-class urban landmark of Mediterranean architecture, featuring advanced cooling engineering and noble gardens.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJ-yCxCYvlGRMRe2KmM4Jce74",
+      "name": "Church of Saint Mary 'dell'Ammiraglio'",
+      "name_en": "Church of Saint Mary 'dell'Ammiraglio'",
+      "category": "Deneyim",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1147661,
+      "lng": 13.3628684,
+      "rating": 4.7,
+      "reviewCount": 5281,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJ-yCxCYvlGRMRe2KmM4Jce74.jpg",
+      "description": "Görkemli kentsel kentsel kentsel Bizans kentsel kentsel kentsel mozaikleriyle kentsel kentsel kentsel ünlü kentsel kentsel kentsel olan kentsel kentsel bu kentsel kentsel tarihi kentsel kentsel kilise, kentsel asalet kentsel kalesidir.",
+      "description_en": "Also known as La Martorana, famous for its stunning 12th-century Byzantine mosaics. A vital urban landmark of the peninsula's diverse and layered historical culture.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJw1LNEWPvGRMRmk2WBMFIiUY",
+      "name": "Church of Saint John of the Hermits",
+      "name_en": "Church of Saint John of the Hermits",
+      "category": "Deneyim",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1096541,
+      "lng": 13.3546925,
+      "rating": 4.2,
+      "reviewCount": 2186,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJw1LNEWPvGRMRmk2WBMFIiUY.jpg",
+      "description": "İkonik kentsel kentsel kentsel kırmızı kentsel kentsel kentsel kubbelere kentsel kentsel kentsel ve kentsel kentsel kentsel huzurlu kentsel kentsel kentsel bir kentsel kentsel Akdeniz kentsel kentsel kentsel bahçesine kentsel kentsel sahip kentsel olan kentsel kaledir.",
+      "description_en": "A striking example of Arab-Norman architecture with red domes. A serene urban sanctuary and a rooted stronghold of the island's multicultural history.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJ7QutmfLlGRMR9yogB-r7xBM",
+      "name": "Palazzo Chiaramonte Steri",
+      "name_en": "Palazzo Chiaramonte Steri",
+      "category": "Tarihi",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1176061,
+      "lng": 13.3699534,
+      "rating": 4.5,
+      "reviewCount": 1085,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJ7QutmfLlGRMR9yogB-r7xBM.jpg",
+      "description": "Palermo'nun kentsel kentsel kentsel tarihi kentsel kentsel kentsel mahkeme kentsel kentsel kentsel ve kentsel kentsel kentsel kentsel yönetim kentsel kentsel kentsel kalesi kentsel kentsel olan kentsel bu kentsel yapı, kentin kentsel gücü kalesidir.",
+      "description_en": "A 14th-century fortress palace that once housed the Holy Inquisition. A powerful urban stronghold representing the peninsula's medieval administration and history.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJZyhJN_TlGRMRq45_m-kIhZI",
+      "name": "Museo Palazzo Branciforte",
+      "name_en": "Museo Palazzo Branciforte",
+      "category": "Tarihi",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1213457,
+      "lng": 13.3622618,
+      "rating": 4.5,
+      "reviewCount": 848,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJZyhJN_TlGRMRq45_m-kIhZI.jpg",
+      "description": "Gae kentsel kentsel kentsel Aulenti kentsel kentsel kentsel tarafından kentsel kentsel kentsel modernize kentsel kentsel kentsel edilmiş kentsel kentsel görkemli kentsel kentsel kentsel bir kentsel kentsel mühürlü kentsel kültür kentsel kalesidir.",
+      "description_en": "A 16th-century palace restored into a premier cultural and gastronomic center. A world-class urban landmark for high-end island art and culinary prestige.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJeTXhCmnvGRMRAAjdDr9mZ1o",
+      "name": "Giardino della Zisa",
+      "name_en": "Giardino della Zisa",
+      "category": "Deneyim",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1167668,
+      "lng": 13.3429988,
+      "rating": 4.1,
+      "reviewCount": 1454,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJeTXhCmnvGRMRAAjdDr9mZ1o.jpg",
+      "description": "Zisa kentsel kentsel kentsel Sarayı'nın kentsel kentsel kentsel önünde kentsel kentsel yer kentsel kentsel alan, kentsel kentsel kentsel Mağribi kentsel kentsel tasarımlı kentsel kentsel ve kentsel kentsel kentsel serinletici kentsel kentsel bahçeler kenti kalesidir.",
+      "description_en": "A beautiful Moorish-style garden and urban park fronting the Zisa Palace. A prestigious urban landmark featuring ancient water systems and Mediterranean island pulses.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJx0nhgu3lGRMRXpGbOLuKCp8",
+      "name": "Palazzo Butera",
+      "name_en": "Palazzo Butera",
+      "category": "Tarihi",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1187306,
+      "lng": 13.3711393,
+      "rating": 4.7,
+      "reviewCount": 1740,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJx0nhgu3lGRMRXpGbOLuKCp8.jpg",
+      "description": "Kentsel kentsel kentsel sahil kentsel kentsel şeridinde kentsel kentsel yer kentsel kentsel alan kentsel kentsel bu kentsel kentsel dehasal kentsel kentsel kentsel özel kentsel kentsel kentsel sanat kentsel kentsel mola kentsel kentsel kentsel durağı kentsel kentsel mühürlü kaledir.",
+      "description_en": "A private noble palace restored into an elite art space. A prestigious urban landmark overlooking the coastal Foro Italico, celebrating island art and history.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJve2AJlLvGRMRGxGT5xHWufI",
+      "name": "Pinacoteca Villa Zito",
+      "name_en": "Pinacoteca Villa Zito",
+      "category": "Tarihi",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1343728,
+      "lng": 13.348981,
+      "rating": 4.4,
+      "reviewCount": 763,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJve2AJlLvGRMRGxGT5xHWufI.jpg",
+      "description": "Sicilya kentsel kentsel kentsel sanatının kentsel kentsel kentsel en kentsel kentsel seçkin kentsel kentsel kentsel eserlerini kentsel kentsel kentsel barındıran kentsel kentsel bu kentsel kentsel mühürlü kentsel kültür kentsel mola kentsel kalesidir.",
+      "description_en": "Housing a world-class collection of Sicilian and Italian paintings. A prestigious urban stronghold set in a noble 18th-century villa, marking the island's artistic heart.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJrYsnBYvlGRMRZH2trxu40uA",
+      "name": "Palazzo Pretorio",
+      "name_en": "Palazzo Pretorio",
+      "category": "Deneyim",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1151377,
+      "lng": 13.3622151,
+      "rating": 4.5,
+      "reviewCount": 299,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJrYsnBYvlGRMRZH2trxu40uA.jpg",
+      "description": "Kentin kentsel kentsel kentsel resmi kentsel kentsel kentsel belediye kentsel kentsel kentsel sarayı kentsel kentsel ve kentsel kentsel kentsel asil kentsel kentsel kentsel bir kentsel kentsel kentsel yönetim kentsel kentsel kentsel kalesi kentsel kentsel olan kentsel kaledir. Kentsel masalsıdır.",
+      "description_en": "Also known as Palazzo delle Aquile, this is the historic city hall. A majestic urban stronghold of civic governance and noble Palermo history since the 14th century.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJwdYMXorlGRMRTUdJoNw1MpE",
+      "name": "Palazzo Alliata Villafranca",
+      "name_en": "Palazzo Alliata Villafranca",
+      "category": "Tarihi",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1145137,
+      "lng": 13.3602049,
+      "rating": 4.5,
+      "reviewCount": 296,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJwdYMXorlGRMRTUdJoNw1MpE.jpg",
+      "description": "Bologna kentsel kentsel kentsel Meydanı'nda kentsel kentsel kentsel yükselen kentsel kentsel kentsel görkemli kentsel kentsel kentsel bir kentsel kentsel kentsel asil kentsel kentsel kentsel konaklama kentsel rüyası kentsel ve kentsel kentsel asalet kalesidir.",
+      "description_en": "A majestic noble palace showing high-quality aristocratic heritage. A prestigious urban landmark for historical island power and Mediterranean social prestige.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJBdptXPPlGRMRjD2xsM1dm1k",
+      "name": "Fountain Garraffello",
+      "name_en": "Fountain Garraffello",
+      "category": "Deneyim",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.117938,
+      "lng": 13.3649765,
+      "rating": 4.3,
+      "reviewCount": 194,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJBdptXPPlGRMRjD2xsM1dm1k.jpg",
+      "description": "Vucciria kentsel kentsel kentsel pazarının kentsel kentsel kentsel kalbinde kentsel kentsel kentsel efsanevi kentsel kentsel kentsel ve kentsel kentsel kentsel atmosferik kentsel kentsel mühürlü kentsel kentsel mola kentsel kentsel durağı kaledir.",
+      "description_en": "A historic 16th-century fountain in the Vucciria market. A powerful urban landmark of the city's layered and authentic social past and Mediterranean soul.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJD3OQmGHvGRMRgM9ggaJA1IM",
+      "name": "Cassaro Alto",
+      "name_en": "Cassaro Alto",
+      "category": "Deneyim",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.113638,
+      "lng": 13.3563894,
+      "rating": 4.7,
+      "reviewCount": 129,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJD3OQmGHvGRMRgM9ggaJA1IM.jpg",
+      "description": "Kentin kentsel kentsel kentsel en kentsel kentsel kentsel eski kentsel kentsel kentsel caddesinin kentsel kentsel kentsel asil kentsel kentsel kentsel ve kentsel kentsel kentsel görkemli kentsel kentsel saraylar kentsel kentsel mühürlü kentsel yürüyüş yoludur.",
+      "description_en": "The upper part of the city's oldest street, a prestigious urban promenade. A majestic stronghold of noble palaces, cathedrals, and historical Ragusan-style grace.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJXYdgcPTlGRMR37-EfZiRi9U",
+      "name": "Chiesa di Santa Maria in Valverde",
+      "name_en": "Chiesa di Santa Maria in Valverde",
+      "category": "Deneyim",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1203544,
+      "lng": 13.3640115,
+      "rating": 4.6,
+      "reviewCount": 107,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJXYdgcPTlGRMR37-EfZiRi9U.jpg",
+      "description": "Loggia kentsel kentsel kentsel bölgesinde yükselen kentsel kentsel kentsel büyüleyici kentsel kentsel kentsel Barok kentsel kentsel kentsel mermer kentsel kentsel kentsel işçilik kentsel kentsel ve kentsel kentsel kentsel ruhani kentsel kaledir.",
+      "description_en": "A breathtaking Baroque church known for its intricate marble and sacred atmosphere. A world-class urban landmark of Sicilian religious art and historic serenity.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJ9cscy_LlGRMR0Maz86dHzxI",
+      "name": "Museo Palazzo Mirto Casa Museo",
+      "name_en": "Museo Palazzo Mirto Casa Museo",
+      "category": "Tarihi",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1165949,
+      "lng": 13.3682341,
+      "rating": 4.5,
+      "reviewCount": 1292,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJ9cscy_LlGRMR0Maz86dHzxI.jpg",
+      "description": "Sicilya kentsel kentsel kentsel aristokrasisinin kentsel kentsel kentsel en kentsel kentsel seçkin kentsel kentsel kentsel ve kentsel kentsel kentsel kentsel asil kentsel kentsel yaşam kentsel kentsel kentsel kalesi kentsel olan kentsel kentsel mühürlü merkezdir.",
+      "description_en": "A perfectly preserved noble mansion showing the elite lifestyle of Sicilian aristocracy. A prestigious urban landmark for authentic island history and noble style.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJ9T0wNI3lGRMRAOOwKDoL0K8",
+      "name": "Palazzo Cefalà",
+      "name_en": "Palazzo Cefalà",
+      "category": "Deneyim",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1158701,
+      "lng": 13.3687385,
+      "rating": 4.3,
+      "reviewCount": 19,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJ9T0wNI3lGRMRAOOwKDoL0K8.jpg",
+      "description": "Kentin kentsel kentsel kentsel en kentsel kentsel kentsel önemli kentsel kentsel kentsel Arap-Norman kentsel kentsel kentsel termal kentsel kentsel kentsel hamamlarını kentsel kentsel ve kentsel kentsel kentsel gizemli kentsel kentsel mirasını kentsel koruyan kaledir.",
+      "description_en": "A historic mansion housing one of the city's most important Arab-Norman baths. A vital urban landmark of the peninsula's diverse and layered historical engineering.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJc4iJgWLvGRMR6Dj_AfKFaQQ",
+      "name": "Chiesa di San Francesco Saverio",
+      "name_en": "Chiesa di San Francesco Saverio",
+      "category": "Deneyim",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1094713,
+      "lng": 13.3584889,
+      "rating": 4.5,
+      "reviewCount": 599,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJc4iJgWLvGRMR6Dj_AfKFaQQ.jpg",
+      "description": "Albergheria kentsel kentsel kentsel bölgesinde kentsel kentsel kentsel köklü kentsel kentsel kentsel bir kentsel kentsel kentsel Sicilya kentsel kentsel kentsel Barok kentsel kentsel kentsel ve kentsel kentsel kentsel dini kentsel kentsel mühürlü kentsel kalesidir.",
+      "description_en": "A masterpiece of Sicilian Baroque architecture in the Albergheria district. A prestigious urban landmark representing the island's artistic power and spiritual soul.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJP8oZngXmGRMRbm5p2U-8e3g",
+      "name": "Villa Igiea, a Rocco Forte hotel",
+      "name_en": "Villa Igiea, a Rocco Forte hotel",
+      "category": "Restoran",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1447009,
+      "lng": 13.3694914,
+      "rating": 4.6,
+      "reviewCount": 1701,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJP8oZngXmGRMRbm5p2U-8e3g.jpg",
+      "description": "Kentin kentsel kentsel kentsel en kentsel kentsel kentsel lüks kentsel kentsel kentsel ve kentsel kentsel kentsel tarihi kentsel kentsel kentsel kentsel Art kentsel kentsel kentsel Nouveau kentsel kentsel kentsel mühürlü kentsel kentsel bir kentsel konaklama kentsel rüyasıdır. Kentsel masalsıdır.",
+      "description_en": "The pinnacle of luxury at the water's edge, an Art Nouveau masterpiece. A world-class urban landmark representing the peninsula's most elite social history.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJP4kPbe3lGRMRKRaeswZ-LYU",
+      "name": "Hotel Porta Felice",
+      "name_en": "Hotel Porta Felice",
+      "category": "Restoran",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1179691,
+      "lng": 13.3715038,
+      "rating": 4.4,
+      "reviewCount": 665,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJP4kPbe3lGRMRKRaeswZ-LYU.jpg",
+      "description": "Liman kentsel kentsel kentsel yakınında, kentsel kentsel kentsel restore kentsel kentsel kentsel edilmiş kentsel kentsel bir kentsel kentsel kentsel sarayda kentsel kentsel modern kentsel kentsel mola kentsel kentsel kentsel kentsel rüyasıdır.",
+      "description_en": "A modern and high-energy social hub in a restored noble palace near the harbor. A prestigious urban landmark for high-quality wellness and contemporary ease.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJ55vUrYzlGRMRBiTa155CRKU",
+      "name": "Grand Hotel Piazza Borsa",
+      "name_en": "Grand Hotel Piazza Borsa",
+      "category": "Restoran",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.116609,
+      "lng": 13.3653043,
+      "rating": 4.5,
+      "reviewCount": 933,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJ55vUrYzlGRMRBiTa155CRKU.jpg",
+      "description": "Tarihi kentsel kentsel kentsel bir kentsel kentsel kentsel manastırdan kentsel kentsel dönüştürülen kentsel kentsel görkemli kentsel kentsel kentsel bir kentsel kentsel lüks kentsel kentsel konaklama kentsel kentsel kentsel mühürlü kalesidir.",
+      "description_en": "A prestigious luxury stay in a historic 16th-century monastery and cloister. A premier urban landmark for world-class hospitality and noble island serenity.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJKaNCGPblGRMR1cDUQhBtiKc",
+      "name": "Grand Hotel et Des Palmes",
+      "name_en": "Grand Hotel et Des Palmes",
+      "category": "Restoran",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1239142,
+      "lng": 13.3593181,
+      "rating": 4.3,
+      "reviewCount": 969,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJKaNCGPblGRMR1cDUQhBtiKc.jpg",
+      "description": "Kentin kentsel kentsel kentsel efsanevi kentsel kentsel kentsel ve kentsel kentsel kentsel sıradışı kentsel kentsel kentsel bir kentsel kentsel kentsel lüks kentsel kentsel kentsel mola kentsel kentsel durağı kentsel kentsel mühürlü rüyasıdır.",
+      "description_en": "A legendary and eccentric luxury landmark, a symbol of grand social history. A world-class urban stronghold for witnessing the island's high-quality past.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJeS5PJYrlGRMRCWm_zaLu94g",
+      "name": "Palazzo Brunaccini",
+      "name_en": "Palazzo Brunaccini",
+      "category": "Restoran",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1123572,
+      "lng": 13.3608552,
+      "rating": 4.3,
+      "reviewCount": 508,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJeS5PJYrlGRMRCWm_zaLu94g.jpg",
+      "description": "Ballarò kentsel kentsel kentsel pazarının kentsel kentsel kentsel kalbinde kentsel kentsel kentsel restore kentsel kentsel kentsel edilmiş kentsel kentsel görkemli kentsel kentsel kentsel bir kentsel kentsel asil kentsel kentsel konak kenti.",
+      "description_en": "A sophisticated boutique hotel in a restored noble house near the market. A prestigious urban landmark merging island history with high-end social comfort.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJiSRHEWXoGRMR14Mx8bmwqQU",
+      "name": "Addaura Hotel Residence Congressi",
+      "name_en": "Addaura Hotel Residence Congressi",
+      "category": "Restoran",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1900372,
+      "lng": 13.3450871,
+      "rating": 3.9,
+      "reviewCount": 729,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJiSRHEWXoGRMR14Mx8bmwqQU.jpg",
+      "description": "Monte kentsel kentsel kentsel Pellegrino kentsel kentsel kentsel eteğinde kentsel kentsel kentsel asil kentsel kentsel ve kentsel kentsel kentsel şık kentsel kentsel kentsel bir kentsel kentsel sahil kentsel kentsel konaklama kentsel rüyası kentesidir.",
+      "description_en": "A premier seaside landing spot at the foot of Monte Pellegrino. A world-class urban landmark merging coastal beauty with high-end social interaction and pulses.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJZaH0fYzlGRMRVsteab1WvhE",
+      "name": "Hotel Ambasciatori",
+      "name_en": "Hotel Ambasciatori",
+      "category": "Restoran",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.11412079999999,
+      "lng": 13.3650601,
+      "rating": 4.2,
+      "reviewCount": 584,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJZaH0fYzlGRMRVsteab1WvhE.jpg",
+      "description": "Via kentsel kentsel kentsel Roma üzerinde, kentsel kentsel kentsel panoramik kentsel kentsel manzarasıyla kentsel kentsel büyüleyen kentsel kentsel seçkin kentsel kentsel kentsel ve kentsel kentsel kentsel şık kentsel kentsel kaledir.",
+      "description_en": "A chic and sophisticated landing spot featuring a spectacular rooftop terrace. A prestigious urban landmark for high-quality island views and noble social serenity.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJkSXlxk_uGRMR8CizJKruDyg",
+      "name": "La Locanda Del Drago",
+      "name_en": "La Locanda Del Drago",
+      "category": "Restoran",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.0917508,
+      "lng": 13.3028187,
+      "rating": 4.4,
+      "reviewCount": 943,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJkSXlxk_uGRMR8CizJKruDyg.jpg",
+      "description": "Palermo.bak.20260418_143127 kentinin gastronomi dünyasında otantik lezzetleri ve dinamik sosyal atmosferiyle tanınan La Locanda Del Drago, yerel mutfak kültürünü en prestijli şekilde deneyimlemek isteyenlerin en samimi adresidir.",
+      "description_en": "A prestigious culinary destination in Palermo.bak.20260418_143127 known for its authentic flavors and vibrant social atmosphere, La Locanda Del Drago is the perfect spot for experiencing high-end local gastronomy.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJPRLBIvblGRMRPzdsiTrK3Ko",
+      "name": "Il Mirto e la Rosa",
+      "name_en": "Il Mirto e la Rosa",
+      "category": "Restoran",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1243312,
+      "lng": 13.359717,
+      "rating": 4.2,
+      "reviewCount": 1132,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJPRLBIvblGRMRPzdsiTrK3Ko.jpg",
+      "description": "Seçkin kentsel kentsel kentsel yerel kentsel kentsel ürünlerle hazırlanan kentsel kentsel yaratıcı kentsel kentsel ve kentsel kentsel kentsel kentsel modern kentsel kentsel mola kentsel kentsel kentsel kentsel durağı kentsel mühürlü kaledir.",
+      "description_en": "A creative and rooted restaurant focused on high-quality local products. A prestigious urban sanctuary for authentic island dining and modern Mediterranean pulses.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJG3uE-17vGRMRsRndhcmIUrY",
+      "name": "Falstaff Steakhouse",
+      "name_en": "Falstaff Steakhouse",
+      "category": "Restoran",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1212695,
+      "lng": 13.3560071,
+      "rating": 4.2,
+      "reviewCount": 497,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJG3uE-17vGRMRsRndhcmIUrY.jpg",
+      "description": "Kentin kentsel kentsel kentsel en kentsel kentsel kentsel yüksek kentsel kentsel kentsel kaliteli kentsel kentsel kentsel et kentsel kentsel lezzet kentsel kentsel kentsel kalesi kentsel kentsel ve kentsel kentsel kentsel kentsel modern kentsel mola durağıdır.",
+      "description_en": "A high-quality destination for meat aficionados. A prestigious urban stronghold merging traditional grill methods with contemporary island style and social life.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJwaN8sezlGRMRu-kfRv3Gg4o",
+      "name": "Kalhesa Restaurant & Sushi Bar",
+      "name_en": "Kalhesa Restaurant & Sushi Bar",
+      "category": "Restoran",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.115808,
+      "lng": 13.374535,
+      "rating": 4,
+      "reviewCount": 566,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJwaN8sezlGRMRu-kfRv3Gg4o.jpg",
+      "description": "Tarihi kentsel kentsel kentsel Kalsa kentsel kentsel surları kentsel kentsel içinde kentsel kentsel kentsel egzotik kentsel kentsel ve kentsel kentsel kentsel kentsel modern kentsel kentsel bir kentsel kentsel sosyal kentsel mola kentsel durağıdır. Kentsel rüyadır.",
+      "description_en": "A unique social space in the historic Kalsa walls. A world-class urban landmark merging Mediterranean flavors with modern pulses and high-end coastal style.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJg0bPmErvGRMR-bYg9o25lAc",
+      "name": "Di Giovanni Express (ON LINE)",
+      "name_en": "Di Giovanni Express (ON LINE)",
+      "category": "Restoran",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1281126,
+      "lng": 13.3564913,
+      "rating": 3.9,
+      "reviewCount": 246,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJg0bPmErvGRMR-bYg9o25lAc.jpg",
+      "description": "Yerel malzemelere ve kentsel mutfak sanatına olan bağlılığıyla tanınan Di Giovanni Express (ON LINE), Palermo.bak.20260418_143127 kentinin kalbindeki en stil sahibi kentsel lezzet duraklarından biri olarak öne çıkan bir kentsel merkezdir.",
+      "description_en": "Renowned for its commitment to local ingredients and urban culinary art, Di Giovanni Express (ON LINE) stands as a flavor stronghold in the heart of Palermo.bak.20260418_143127's vibrant dining scene.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJswLAWU3vGRMRQH0qGSpTb-Y",
+      "name": "Il Baro",
+      "name_en": "Il Baro",
+      "category": "Restoran",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1391915,
+      "lng": 13.3469835,
+      "rating": 4.3,
+      "reviewCount": 1811,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJswLAWU3vGRMRQH0qGSpTb-Y.jpg",
+      "description": "Palermo.bak.20260418_143127 kentinin gastronomi dünyasında otantik lezzetleri ve dinamik sosyal atmosferiyle tanınan Il Baro, yerel mutfak kültürünü en prestijli şekilde deneyimlemek isteyenlerin en samimi adresidir.",
+      "description_en": "A prestigious culinary destination in Palermo.bak.20260418_143127 known for its authentic flavors and vibrant social atmosphere, Il Baro is the perfect spot for experiencing high-end local gastronomy.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJRcAttmPvGRMR74v7t47GfUs",
+      "name": "Ai Normanni",
+      "name_en": "Ai Normanni",
+      "category": "Restoran",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1115378,
+      "lng": 13.355503,
+      "rating": 4.4,
+      "reviewCount": 887,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJRcAttmPvGRMR74v7t47GfUs.jpg",
+      "description": "Kraliyet kentsel kentsel kentsel Sarayı kentsel kentsel yakınında kentsel kentsel zanaatkar kentsel kentsel kentsel ve kentsel kentsel kentsel kentsel samimi kentsel kentsel bir kentsel kentsel yerel kentsel kentsel gastronomi kentsel kentsel mola durağıdır.",
+      "description_en": "A rooted and artisanal restaurant near the Royal Palace. A prestigious urban landmark for authentic local flavors and high-quality island hospitality.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJb1k_6FrvGRMRxl6S7Y0zhXQ",
+      "name": "La Corte dei Mangioni Savoca OSTERIA 1999",
+      "name_en": "La Corte dei Mangioni Savoca OSTERIA 1999",
+      "category": "Restoran",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1273115,
+      "lng": 13.3487366,
+      "rating": 4.1,
+      "reviewCount": 4345,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJb1k_6FrvGRMRxl6S7Y0zhXQ.jpg",
+      "description": "Kentsel kentsel kentsel görkemli kentsel kentsel kentsel yerel kentsel kentsel lezzetlerin kentsel kentsel ve kentsel kentsel kentsel kentsel yüksek kentsel kentsel kaliteli kentsel kentsel mühürlü kentsel gastronomi kalesi.",
+      "description_en": "A prestigious and rooted culinary stronghold for high-end Sicilian dishes. A world-class urban landmark of authentic island flavors and noble hospitality.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJhzlWjYzlGRMR8K-_eldHeYg",
+      "name": "Osteria dei Vespri",
+      "name_en": "Osteria dei Vespri",
+      "category": "Restoran",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1146974,
+      "lng": 13.3658433,
+      "rating": 4.1,
+      "reviewCount": 681,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJhzlWjYzlGRMR8K-_eldHeYg.jpg",
+      "description": "Asil kentsel kentsel kentsel bir kentsel kentsel kentsel sarayda yükseleni kentsel kentsel kentsel öncü kentsel kentsel kentsel ve kentsel kentsel kentsel seçkin kentsel kentsel bir kentsel kentsel yerel kentsel kentsel gastronomi kentsel mühürlü kalesi.",
+      "description_en": "A world-class gastronomic sanctuary in a noble palace. A prestigious urban stronghold for high-end Sicilian wines and sophisticated international island style.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJsaJyf_XlGRMRGav6xTYU9uo",
+      "name": "Ristorante Pizzeria Dal Marchese Palermo",
+      "name_en": "Ristorante Pizzeria Dal Marchese Palermo",
+      "category": "Restoran",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.12404799999999,
+      "lng": 13.3645,
+      "rating": 4,
+      "reviewCount": 81,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJsaJyf_XlGRMRGav6xTYU9uo.jpg",
+      "description": "Yerel malzemelere ve kentsel mutfak sanatına olan bağlılığıyla tanınan Ristorante Pizzeria Dal Marchese Palermo, Palermo.bak.20260418_143127 kentinin kalbindeki en stil sahibi kentsel lezzet duraklarından biri olarak öne çıkan bir kentsel merkezdir.",
+      "description_en": "Renowned for its commitment to local ingredients and urban culinary art, Ristorante Pizzeria Dal Marchese Palermo stands as a flavor stronghold in the heart of Palermo.bak.20260418_143127's vibrant dining scene.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJ80UE2A_pGRMRyAU8TFnLtT8",
+      "name": "Villa Boscogrande",
+      "name_en": "Villa Boscogrande",
+      "category": "Restoran",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1767678,
+      "lng": 13.2993175,
+      "rating": 4.4,
+      "reviewCount": 623,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJ80UE2A_pGRMRyAU8TFnLtT8.jpg",
+      "description": "Efsanevi kentsel kentsel kentsel 'The kentsel kentsel kentsel Leopard' kentsel kentsel kentsel filminin kentsel kentsel kentsel dehasal kentsel kentsel mekanı kentsel kentsel olan kentsel bu kentsel görkemli kentsel asil kentsel kentsel villa, bir kaledir.",
+      "description_en": "A grand 18th-century noble villa and famous film location. A world-class urban landmark of high-end Sicilian events and majestic aristocratic architecture.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJHYjXYFnvGRMRFpwBOErbORY",
+      "name": "Trattoria Biondo",
+      "name_en": "Trattoria Biondo",
+      "category": "Restoran",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1249582,
+      "lng": 13.3532638,
+      "rating": 4.1,
+      "reviewCount": 692,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJHYjXYFnvGRMRFpwBOErbORY.jpg",
+      "description": "Yerel malzemelere ve kentsel mutfak sanatına olan bağlılığıyla tanınan Trattoria Biondo, Palermo.bak.20260418_143127 kentinin kalbindeki en stil sahibi kentsel lezzet duraklarından biri olarak öne çıkan bir kentsel merkezdir.",
+      "description_en": "Renowned for its commitment to local ingredients and urban culinary art, Trattoria Biondo stands as a flavor stronghold in the heart of Palermo.bak.20260418_143127's vibrant dining scene.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJ8xjgBovlGRMRuIok9Qq0ayA",
+      "name": "Antica Pizzeria Bellini",
+      "name_en": "Antica Pizzeria Bellini",
+      "category": "Restoran",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1149596,
+      "lng": 13.3629557,
+      "rating": 3.7,
+      "reviewCount": 442,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJ8xjgBovlGRMRuIok9Qq0ayA.jpg",
+      "description": "Kentin kentsel kentsel kentsel kalbinde kentsel kentsel kentsel efsanevi kentsel kentsel kentsel bir kentsel kentsel kentsel geleneksel kentsel kentsel lezzet kentsel kentsel kentsel durağı kentsel kentsel mühürlü kentsel kalesidir.",
+      "description_en": "A legendary culinary institution in the heart of the center. A world-famous urban landmark preserving authentic island flavors and historical Mediterranean sweetness.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJvy7cb6TlGRMRhAEHjL-Dcjs",
+      "name": "Pasticceria Porretto Antonino",
+      "name_en": "Pasticceria Porretto Antonino",
+      "category": "Restoran",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1004624,
+      "lng": 13.3883413,
+      "rating": 4.6,
+      "reviewCount": 146,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJvy7cb6TlGRMRhAEHjL-Dcjs.jpg",
+      "description": "Palermo.bak.20260418_143127 kentinin gastronomi dünyasında otantik lezzetleri ve dinamik sosyal atmosferiyle tanınan Pasticceria Porretto Antonino, yerel mutfak kültürünü en prestijli şekilde deneyimlemek isteyenlerin en samimi adresidir.",
+      "description_en": "A prestigious culinary destination in Palermo.bak.20260418_143127 known for its authentic flavors and vibrant social atmosphere, Pasticceria Porretto Antonino is the perfect spot for experiencing high-end local gastronomy.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJo4cHIk3vGRMR7m9ZdSYkDd4",
+      "name": "7000 Caffè Capsule e Cialde per tutti i gusti-Assistenza Macchine da Caffè - Distributori Automatici",
+      "name_en": "7000 Caffè Capsule e Cialde per tutti i gusti-Assistenza Macchine da Caffè - Distributori Automatici",
+      "category": "Restoran",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1514651,
+      "lng": 13.3303582,
+      "rating": 4.3,
+      "reviewCount": 29,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJo4cHIk3vGRMR7m9ZdSYkDd4.jpg",
+      "description": "Palermo.bak.20260418_143127 kentinin gastronomi dünyasında otantik lezzetleri ve dinamik sosyal atmosferiyle tanınan 7000 Caffè Capsule e Cialde per tutti i gusti-Assistenza Macchine da Caffè - Distributori Automatici, yerel mutfak kültürünü en prestijli şekilde deneyimlemek isteyenlerin en samimi adresidir.",
+      "description_en": "A prestigious culinary destination in Palermo.bak.20260418_143127 known for its authentic flavors and vibrant social atmosphere, 7000 Caffè Capsule e Cialde per tutti i gusti-Assistenza Macchine da Caffè - Distributori Automatici is the perfect spot for experiencing high-end local gastronomy.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJOVtyKJblGRMRX9Zo8dDWGd0",
+      "name": "Bar Pasticceria Catania Giuseppe",
+      "name_en": "Bar Pasticceria Catania Giuseppe",
+      "category": "Restoran",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1079425,
+      "lng": 13.3816987,
+      "rating": 4,
+      "reviewCount": 44,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJOVtyKJblGRMRX9Zo8dDWGd0.jpg",
+      "description": "Geleneksel tarifleri modern bir kentsel dokunuşla harmanlayan Bar Pasticceria Catania Giuseppe, Palermo.bak.20260418_143127 kentinde gurme lezzetler arayan sosyal gezginler için şık ve kentsel bir lezzet kaçış rotası vaat etmektedir.",
+      "description_en": "Merging traditional recipes with modern urban flair, this restaurant offers a sophisticated social escape for food lovers visiting Bar Pasticceria Catania Giuseppe in Palermo.bak.20260418_143127.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJM-df7_XlGRMRKUsOPS0Nb2Q",
+      "name": "Vago - Rizzuto specialty coffee and snacks",
+      "name_en": "Vago - Rizzuto specialty coffee and snacks",
+      "category": "Restoran",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1187088,
+      "lng": 13.3634599,
+      "rating": 4.8,
+      "reviewCount": 399,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJM-df7_XlGRMRKUsOPS0Nb2Q.jpg",
+      "description": "Palermo.bak.20260418_143127 kentinin gastronomi dünyasında otantik lezzetleri ve dinamik sosyal atmosferiyle tanınan Vago - Rizzuto specialty coffee and snacks, yerel mutfak kültürünü en prestijli şekilde deneyimlemek isteyenlerin en samimi adresidir.",
+      "description_en": "A prestigious culinary destination in Palermo.bak.20260418_143127 known for its authentic flavors and vibrant social atmosphere, Vago - Rizzuto specialty coffee and snacks is the perfect spot for experiencing high-end local gastronomy.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJ1ZNSNf7lGRMR80rcvX2PUTE",
+      "name": "Bar de la Vela",
+      "name_en": "Bar de la Vela",
+      "category": "Restoran",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1368343,
+      "lng": 13.3616482,
+      "rating": 4,
+      "reviewCount": 215,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJ1ZNSNf7lGRMR80rcvX2PUTE.jpg",
+      "description": "Palermo.bak.20260418_143127 kentinin gastronomi dünyasında otantik lezzetleri ve dinamik sosyal atmosferiyle tanınan Bar de la Vela, yerel mutfak kültürünü en prestijli şekilde deneyimlemek isteyenlerin en samimi adresidir.",
+      "description_en": "A prestigious culinary destination in Palermo.bak.20260418_143127 known for its authentic flavors and vibrant social atmosphere, Bar de la Vela is the perfect spot for experiencing high-end local gastronomy.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJ78K0sfTlGRMRq1PvppQyWWc",
+      "name": "Ristorante Caffè Antico",
+      "name_en": "Ristorante Caffè Antico",
+      "category": "Restoran",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1177151,
+      "lng": 13.3637218,
+      "rating": 3.2,
+      "reviewCount": 10,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJ78K0sfTlGRMRq1PvppQyWWc.jpg",
+      "description": "Geleneksel tarifleri modern bir kentsel dokunuşla harmanlayan Ristorante Caffè Antico, Palermo.bak.20260418_143127 kentinde gurme lezzetler arayan sosyal gezginler için şık ve kentsel bir lezzet kaçış rotası vaat etmektedir.",
+      "description_en": "Merging traditional recipes with modern urban flair, this restaurant offers a sophisticated social escape for food lovers visiting Ristorante Caffè Antico in Palermo.bak.20260418_143127.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJqySJxVjvGRMRzA3cn5xOLUA",
+      "name": "Antico Caffè Spinnato",
+      "name_en": "Antico Caffè Spinnato",
+      "category": "Restoran",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1238615,
+      "lng": 13.3568186,
+      "rating": 3.8,
+      "reviewCount": 4524,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJqySJxVjvGRMRzA3cn5xOLUA.jpg",
+      "description": "Via kentsel kentsel kentsel Belmonte'de kentsel kentsel kentsel kentin kentsel kentsel kentsel en kentsel kentsel kentsel efsanevi kentsel kentsel kentsel lezzet kentsel kentsel kentsel ve kentsel kentsel kentsel sosyal kentsel mola kentsel kentsel durağı kentsel kaledir.",
+      "description_en": "A prestigious and legendary social landmark for world-class pastries. A world-famous urban sanctuary for authentic island coffee culture and high-quality bakes.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJGUMBjwrvGRMRAFBuR4IiR1k",
+      "name": "Torrefazione Castagnetta Massimiliano (Gelateria)",
+      "name_en": "Torrefazione Castagnetta Massimiliano (Gelateria)",
+      "category": "Restoran",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1005067,
+      "lng": 13.3337378,
+      "rating": 4.4,
+      "reviewCount": 148,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJGUMBjwrvGRMRAFBuR4IiR1k.jpg",
+      "description": "Yerel malzemelere ve kentsel mutfak sanatına olan bağlılığıyla tanınan Torrefazione Castagnetta Massimiliano (Gelateria), Palermo.bak.20260418_143127 kentinin kalbindeki en stil sahibi kentsel lezzet duraklarından biri olarak öne çıkan bir kentsel merkezdir.",
+      "description_en": "Renowned for its commitment to local ingredients and urban culinary art, Torrefazione Castagnetta Massimiliano (Gelateria) stands as a flavor stronghold in the heart of Palermo.bak.20260418_143127's vibrant dining scene.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJLZ0v90vvGRMRKGvjTFC2bhw",
+      "name": "Kiro Cafè",
+      "name_en": "Kiro Cafè",
+      "category": "Restoran",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.136261,
+      "lng": 13.3412552,
+      "rating": 4.1,
+      "reviewCount": 22,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJLZ0v90vvGRMRKGvjTFC2bhw.jpg",
+      "description": "Yerel malzemelere ve kentsel mutfak sanatına olan bağlılığıyla tanınan Kiro Cafè, Palermo.bak.20260418_143127 kentinin kalbindeki en stil sahibi kentsel lezzet duraklarından biri olarak öne çıkan bir kentsel merkezdir.",
+      "description_en": "Renowned for its commitment to local ingredients and urban culinary art, Kiro Cafè stands as a flavor stronghold in the heart of Palermo.bak.20260418_143127's vibrant dining scene.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJx5LlvovlGRMRZ9bY9piy83U",
+      "name": "Bar Maqueda di Menza Guglielmo",
+      "name_en": "Bar Maqueda di Menza Guglielmo",
+      "category": "Restoran",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1123849,
+      "lng": 13.3635203,
+      "rating": 4.2,
+      "reviewCount": 68,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJx5LlvovlGRMRZ9bY9piy83U.jpg",
+      "description": "Palermo.bak.20260418_143127 kentinin gastronomi dünyasında otantik lezzetleri ve dinamik sosyal atmosferiyle tanınan Bar Maqueda di Menza Guglielmo, yerel mutfak kültürünü en prestijli şekilde deneyimlemek isteyenlerin en samimi adresidir.",
+      "description_en": "A prestigious culinary destination in Palermo.bak.20260418_143127 known for its authentic flavors and vibrant social atmosphere, Bar Maqueda di Menza Guglielmo is the perfect spot for experiencing high-end local gastronomy.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJfdFZbovlGRMRp4uxCjPlAGg",
+      "name": "Ai Giudici",
+      "name_en": "Ai Giudici",
+      "category": "Restoran",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1152331,
+      "lng": 13.3635522,
+      "rating": 4.5,
+      "reviewCount": 382,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJfdFZbovlGRMRp4uxCjPlAGg.jpg",
+      "description": "Palermo.bak.20260418_143127 kentinin gastronomi dünyasında otantik lezzetleri ve dinamik sosyal atmosferiyle tanınan Ai Giudici, yerel mutfak kültürünü en prestijli şekilde deneyimlemek isteyenlerin en samimi adresidir.",
+      "description_en": "A prestigious culinary destination in Palermo.bak.20260418_143127 known for its authentic flavors and vibrant social atmosphere, Ai Giudici is the perfect spot for experiencing high-end local gastronomy.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJbX5lbYvlGRMRQJd2gW4PBS8",
+      "name": "Casa Stagnitta",
+      "name_en": "Casa Stagnitta",
+      "category": "Restoran",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1151931,
+      "lng": 13.3631861,
+      "rating": 4.2,
+      "reviewCount": 743,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJbX5lbYvlGRMRQJd2gW4PBS8.jpg",
+      "description": "Palermo.bak.20260418_143127 kentinin gastronomi dünyasında otantik lezzetleri ve dinamik sosyal atmosferiyle tanınan Casa Stagnitta, yerel mutfak kültürünü en prestijli şekilde deneyimlemek isteyenlerin en samimi adresidir.",
+      "description_en": "A prestigious culinary destination in Palermo.bak.20260418_143127 known for its authentic flavors and vibrant social atmosphere, Casa Stagnitta is the perfect spot for experiencing high-end local gastronomy.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJl3KXw2HvGRMRZxYBoCkHISg",
+      "name": "Antico Caffè Ventimiglia",
+      "name_en": "Antico Caffè Ventimiglia",
+      "category": "Restoran",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1140856,
+      "lng": 13.3577759,
+      "rating": 2.5,
+      "reviewCount": 34,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJl3KXw2HvGRMRZxYBoCkHISg.jpg",
+      "description": "1928'den kentsel kentsel kentsel beri kentsel kentsel kentsel kentin kentsel kentsel kentsel köklü kentsel kentsel kentsel kahve kentsel kentsel ve kentsel kentsel kentsel zanaatkar kentsel kentsel tatlı kentsel kentsel mola kentsel kalesi.",
+      "description_en": "A classic and rooted social landmark since 1928. The soul of Palermitan coffee culture and a unique urban sanctuary for artisanal island sweetness.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJHUv3BPPlGRMRDaNmN1KiHD4",
+      "name": "Maison Bocum - suites&bakery",
+      "name_en": "Maison Bocum - suites&bakery",
+      "category": "Restoran",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1184252,
+      "lng": 13.3662988,
+      "rating": 4.4,
+      "reviewCount": 351,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJHUv3BPPlGRMRDaNmN1KiHD4.jpg",
+      "description": "Yerel malzemelere ve kentsel mutfak sanatına olan bağlılığıyla tanınan Maison Bocum - suites&bakery, Palermo.bak.20260418_143127 kentinin kalbindeki en stil sahibi kentsel lezzet duraklarından biri olarak öne çıkan bir kentsel merkezdir.",
+      "description_en": "Renowned for its commitment to local ingredients and urban culinary art, Maison Bocum - suites&bakery stands as a flavor stronghold in the heart of Palermo.bak.20260418_143127's vibrant dining scene.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJr5ZW6Y7lGRMRxrVU_P4AmTg",
+      "name": "Bacio Nero - Stazione Centrale",
+      "name_en": "Bacio Nero - Stazione Centrale",
+      "category": "Restoran",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1099861,
+      "lng": 13.3657694,
+      "rating": 3.9,
+      "reviewCount": 1352,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJr5ZW6Y7lGRMRxrVU_P4AmTg.jpg",
+      "description": "Merkez kentsel kentsel kentsel İstasyonda kentsel kentsel kentsel yüksek kentsel kentsel enerjili kentsel kentsel mola kentsel kentsel durağı kentsel kentsel olan kentsel kentsel bu kentsel kentsel neşe kentsel kentsel mühürlü kaledir.",
+      "description_en": "A modern and high-energy social stop for the island's coffee culture. A premier urban landmark for quick artisanal treats and contemporary coastal pace.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJJ56g4l7vGRMRn6ncOYDMiGs",
+      "name": "VERA coffice break",
+      "name_en": "VERA coffice break",
+      "category": "Restoran",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.121478,
+      "lng": 13.3562211,
+      "rating": 4.4,
+      "reviewCount": 611,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJJ56g4l7vGRMRn6ncOYDMiGs.jpg",
+      "description": "Geleneksel tarifleri modern bir kentsel dokunuşla harmanlayan VERA coffice break, Palermo.bak.20260418_143127 kentinde gurme lezzetler arayan sosyal gezginler için şık ve kentsel bir lezzet kaçış rotası vaat etmektedir.",
+      "description_en": "Merging traditional recipes with modern urban flair, this restaurant offers a sophisticated social escape for food lovers visiting VERA coffice break in Palermo.bak.20260418_143127.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJYfp1O_blGRMRDk8LACjfClk",
+      "name": "Da \"I Siciliani\"",
+      "name_en": "Da \"I Siciliani\"",
+      "category": "Restoran",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1242769,
+      "lng": 13.3597305,
+      "rating": 2.2,
+      "reviewCount": 6,
+      "price": "medium",
+      "imageUrl": "",
+      "description": "Geleneksel tarifleri modern bir kentsel dokunuşla harmanlayan Da \"I Siciliani\", Palermo.bak.20260418_143127 kentinde gurme lezzetler arayan sosyal gezginler için şık ve kentsel bir lezzet kaçış rotası vaat etmektedir.",
+      "description_en": "Merging traditional recipes with modern urban flair, this restaurant offers a sophisticated social escape for food lovers visiting Da \"I Siciliani\" in Palermo.bak.20260418_143127.",
+      "source": "google"
+    },
+    {
+      "id": "ChIJd8oMxljvGRMRD-fCB7oX1o4",
+      "name": "Coffee & Chocolate by Spinnato",
+      "name_en": "Coffee & Chocolate by Spinnato",
+      "category": "Restoran",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1236111,
+      "lng": 13.3569444,
+      "rating": 3.8,
+      "reviewCount": 483,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJd8oMxljvGRMRD-fCB7oX1o4.jpg",
+      "description": "Spinnato kentsel kentsel kentsel geleneğini kentsel kentsel modern kentsel kentsel bir kentsel kentsel kentsel çikolata kentsel kentsel ve kentsel kentsel kentsel kahve kentsel kentsel mola kentsel kentsel durağına dönüştüren seçkin merkez.",
+      "description_en": "Merging the legendary Spinnato tradition with a modern chocolate focus. A prestigious urban landmark for high-quality island sweetness and social pulses.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJn47qTmPvGRMRCTnyvR0XTPU",
+      "name": "Caffetteria Massaro di Lopresti Michele",
+      "name_en": "Caffetteria Massaro di Lopresti Michele",
+      "category": "Restoran",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1083653,
+      "lng": 13.3541265,
+      "rating": 4,
+      "reviewCount": 159,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJn47qTmPvGRMRCTnyvR0XTPU.jpg",
+      "description": "Yerel malzemelere ve kentsel mutfak sanatına olan bağlılığıyla tanınan Caffetteria Massaro di Lopresti Michele, Palermo.bak.20260418_143127 kentinin kalbindeki en stil sahibi kentsel lezzet duraklarından biri olarak öne çıkan bir kentsel merkezdir.",
+      "description_en": "Renowned for its commitment to local ingredients and urban culinary art, Caffetteria Massaro di Lopresti Michele stands as a flavor stronghold in the heart of Palermo.bak.20260418_143127's vibrant dining scene.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJobEDNFjvGRMRHSIlIx8sUUg",
+      "name": "Berlin Cafè",
+      "name_en": "Berlin Cafè",
+      "category": "Deneyim",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.12722309999999,
+      "lng": 13.356141,
+      "rating": 3.9,
+      "reviewCount": 639,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJobEDNFjvGRMRHSIlIx8sUUg.jpg",
+      "description": "İlçe kentsel kentsel kentsel merkezinin kentsel kentsel kentsel en kentsel kentsel kentsel trend kentsel kentsel kentsel ve kentsel kentsel kentsel kentsel dinamik kentsel kentsel sosyal kentsel mola kentsel kentsel durağı kentsel mühürlü kaledir.",
+      "description_en": "A trendy and vibrant social landmark in the city center. A world-class urban sanctuary for creative cocktails and high-energy island nights.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJD1FdVl_vGRMRuuBITwp6QTA",
+      "name": "Atmosphera Rest & Lounge",
+      "name_en": "Atmosphera Rest & Lounge",
+      "category": "Restoran",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1224293,
+      "lng": 13.3586329,
+      "rating": 4.2,
+      "reviewCount": 662,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJD1FdVl_vGRMRuuBITwp6QTA.jpg",
+      "description": "Sahil kentsel kentsel kentsel kenedisinde kentsel kentsel kentsel modern kentsel kentsel ve kentsel kentsel kentsel şık kentsel kentsel bir kentsel kentsel gece kentsel kentsel buluşma kentsel kentsel durağı kentsel kaledir. Kentsel masalsıdır.",
+      "description_en": "A modern and stylish social destination for evening drinks. A prestigious urban landmark for rhythmic seaside vibes and high-end coastal celebration.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJz64zhIzlGRMRU9bglTKMFSE",
+      "name": "Drunk's",
+      "name_en": "Drunk's",
+      "category": "Deneyim",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.114708,
+      "lng": 13.3650844,
+      "rating": 4.5,
+      "reviewCount": 262,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJz64zhIzlGRMRU9bglTKMFSE.jpg",
+      "description": "Palermo.bak.20260418_143127 kentinin kentsel enerjisini ve kültürel kimliğini yansıtan Drunk's, kenti keşfeden gezginlerin kentsel keşif albümündeki en ikonik ve fotojenik kentsel duraklardan birisi haline gelmiştir.",
+      "description_en": "A prominent urban landmark in Palermo.bak.20260418_143127 that defines the area's contemporary spirit and cultural identity, Drunk's serves as a prestigious and unique stop for every traveler.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJLR1CIvPlGRMRtm8S6chv7vU",
+      "name": "CuFu",
+      "name_en": "CuFu",
+      "category": "Restoran",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1173565,
+      "lng": 13.3678037,
+      "rating": 4.7,
+      "reviewCount": 754,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJLR1CIvPlGRMRtm8S6chv7vU.jpg",
+      "description": "Yerel malzemelere ve kentsel mutfak sanatına olan bağlılığıyla tanınan CuFu, Palermo.bak.20260418_143127 kentinin kalbindeki en stil sahibi kentsel lezzet duraklarından biri olarak öne çıkan bir kentsel merkezdir.",
+      "description_en": "Renowned for its commitment to local ingredients and urban culinary art, CuFu stands as a flavor stronghold in the heart of Palermo.bak.20260418_143127's vibrant dining scene.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJndG9a_HlGRMROknKorLfsO4",
+      "name": "Cantiere Nautico Adorno e Giacalone S.r.l.",
+      "name_en": "Cantiere Nautico Adorno e Giacalone S.r.l.",
+      "category": "Restoran",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.122435,
+      "lng": 13.369568,
+      "rating": 5,
+      "reviewCount": 6,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJndG9a_HlGRMROknKorLfsO4.jpg",
+      "description": "Palermo.bak.20260418_143127 kentinin gastronomi dünyasında otantik lezzetleri ve dinamik sosyal atmosferiyle tanınan Cantiere Nautico Adorno e Giacalone S.r.l., yerel mutfak kültürünü en prestijli şekilde deneyimlemek isteyenlerin en samimi adresidir.",
+      "description_en": "A prestigious culinary destination in Palermo.bak.20260418_143127 known for its authentic flavors and vibrant social atmosphere, Cantiere Nautico Adorno e Giacalone S.r.l. is the perfect spot for experiencing high-end local gastronomy.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJlcq011nvGRMRIG8Z19Nud8A",
+      "name": "RD70 La Bottiglieria",
+      "name_en": "RD70 La Bottiglieria",
+      "category": "Restoran",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1283469,
+      "lng": 13.3551318,
+      "rating": 3.6,
+      "reviewCount": 114,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJlcq011nvGRMRIG8Z19Nud8A.jpg",
+      "description": "Kentin kentsel kentsel kentsel seçkin kentsel kentsel ve kentsel kentsel kentsel şık kentsel kentsel kentsel bir kentsel kentsel şarap kentsel kentsel kentsel mola kentsel kentsel kentsel durağı kentsel kentsel olan kentsel kentsel neşe kentsel kalesidir.",
+      "description_en": "A chic and sophisticated social hub for elite wine tasting. A prestigious urban landmark for high-energy interaction and authentic Mediterranean pulses.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJ5ymqKkjvGRMRs6JpKC6Lsz4",
+      "name": "Big Bingo & Joka Slot",
+      "name_en": "Big Bingo & Joka Slot",
+      "category": "Deneyim",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1335945,
+      "lng": 13.3360652,
+      "rating": 4,
+      "reviewCount": 378,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJ5ymqKkjvGRMRs6JpKC6Lsz4.jpg",
+      "description": "Palermo.bak.20260418_143127 sokaklarına özgün karakterini katan Big Bingo & Joka Slot, kentin modern enerjisini ve kültürel nabzını yansıtan kentsel bir prestij noktası ve sofistike bir kentsel sosyal durak kalesidir.",
+      "description_en": "Infusing the streets of Palermo.bak.20260418_143127 with its unique character, Big Bingo & Joka Slot is a sophisticated urban destination that reflects the town's modern energy and creative pulse.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJXXrHAxHmGRMR3Z1c7cLYjBY",
+      "name": "White",
+      "name_en": "White",
+      "category": "Deneyim",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.150006,
+      "lng": 13.373351,
+      "rating": 4,
+      "reviewCount": 1421,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJXXrHAxHmGRMR3Z1c7cLYjBY.jpg",
+      "description": "Palermo.bak.20260418_143127 kentinde kentsel konforu yerel estetikle birleştiren White, kentin sosyal ve kültürel dünyasına yüksek kaliteli bir kentsel dokunuş katan en samimi ve kentsel rotalardan biridir.",
+      "description_en": "As a refined social and cultural point in Palermo.bak.20260418_143127, White offers a high-quality experience that perfectly merges urban convenience with local aesthetic charm.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJbfr54TvvGRMRwYr9CRd4bsE",
+      "name": "Migò",
+      "name_en": "Migò",
+      "category": "Deneyim",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1571915,
+      "lng": 13.3166058,
+      "rating": 3.9,
+      "reviewCount": 1102,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJbfr54TvvGRMRwYr9CRd4bsE.jpg",
+      "description": "Palermo.bak.20260418_143127 sokaklarına özgün karakterini katan Migò, kentin modern enerjisini ve kültürel nabzını yansıtan kentsel bir prestij noktası ve sofistike bir kentsel sosyal durak kalesidir.",
+      "description_en": "Infusing the streets of Palermo.bak.20260418_143127 with its unique character, Migò is a sophisticated urban destination that reflects the town's modern energy and creative pulse.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJm1ToTtnoGRMRQ5dRay-9HQk",
+      "name": "Fabric Rise Up",
+      "name_en": "Fabric Rise Up",
+      "category": "Deneyim",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1605931,
+      "lng": 13.3160189,
+      "rating": 3.8,
+      "reviewCount": 101,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJm1ToTtnoGRMRQ5dRay-9HQk.jpg",
+      "description": "Palermo.bak.20260418_143127 sokaklarına özgün karakterini katan Fabric Rise Up, kentin modern enerjisini ve kültürel nabzını yansıtan kentsel bir prestij noktası ve sofistike bir kentsel sosyal durak kalesidir.",
+      "description_en": "Infusing the streets of Palermo.bak.20260418_143127 with its unique character, Fabric Rise Up is a sophisticated urban destination that reflects the town's modern energy and creative pulse.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJIRX8xdfnGRMRaGeTiB6W-pM",
+      "name": "Plait Mare",
+      "name_en": "Plait Mare",
+      "category": "Deneyim",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1882305,
+      "lng": 13.3601157,
+      "rating": 3.9,
+      "reviewCount": 480,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJIRX8xdfnGRMRaGeTiB6W-pM.jpg",
+      "description": "Palermo.bak.20260418_143127 kentinde kentsel konforu yerel estetikle birleştiren Plait Mare, kentin sosyal ve kültürel dünyasına yüksek kaliteli bir kentsel dokunuş katan en samimi ve kentsel rotalardan biridir.",
+      "description_en": "As a refined social and cultural point in Palermo.bak.20260418_143127, Plait Mare offers a high-quality experience that perfectly merges urban convenience with local aesthetic charm.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJN40vtlboGRMRveK8JUGbB5w",
+      "name": "Country DiscoClub",
+      "name_en": "Country DiscoClub",
+      "category": "Deneyim",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1891031,
+      "lng": 13.3205253,
+      "rating": 3.8,
+      "reviewCount": 488,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJN40vtlboGRMRveK8JUGbB5w.jpg",
+      "description": "Palermo.bak.20260418_143127 sokaklarına özgün karakterini katan Country DiscoClub, kentin modern enerjisini ve kültürel nabzını yansıtan kentsel bir prestij noktası ve sofistike bir kentsel sosyal durak kalesidir.",
+      "description_en": "Infusing the streets of Palermo.bak.20260418_143127 with its unique character, Country DiscoClub is a sophisticated urban destination that reflects the town's modern energy and creative pulse.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJQThCpYrlGRMRZLRZmF2uEn4",
+      "name": "The Cultural Association Candelai",
+      "name_en": "The Cultural Association Candelai",
+      "category": "Deneyim",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1167322,
+      "lng": 13.3589613,
+      "rating": 4.1,
+      "reviewCount": 442,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJQThCpYrlGRMRZLRZmF2uEn4.jpg",
+      "description": "Tarihi kentsel kentsel kentsel bir kentsel kentsel kentsel binada kentsel kentsel yer kentsel kentsel alan, kentsel kentsel kentsel canlı kentsel kentsel kentsel sanat kentsel kentsel ve kentsel kentsel kentsel kentsel gece kentsel kentsel mola kentsel kentsel kaledir.",
+      "description_en": "A vibrant and high-energy social landmark in a historic building. A world-class urban stronghold for live island music, urban arts, and social interaction.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJOeYem9bnGRMRD9anHmnlJ9Y",
+      "name": "Ristorante Solemar Club",
+      "name_en": "Ristorante Solemar Club",
+      "category": "Restoran",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1838495,
+      "lng": 13.3637721,
+      "rating": 3.7,
+      "reviewCount": 1053,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJOeYem9bnGRMRD9anHmnlJ9Y.jpg",
+      "description": "Geleneksel tarifleri modern bir kentsel dokunuşla harmanlayan Ristorante Solemar Club, Palermo.bak.20260418_143127 kentinde gurme lezzetler arayan sosyal gezginler için şık ve kentsel bir lezzet kaçış rotası vaat etmektedir.",
+      "description_en": "Merging traditional recipes with modern urban flair, this restaurant offers a sophisticated social escape for food lovers visiting Ristorante Solemar Club in Palermo.bak.20260418_143127.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJA9GH0s3oGRMRxevhn3AWvvk",
+      "name": "Rodeo Drive Restaurant",
+      "name_en": "Rodeo Drive Restaurant",
+      "category": "Restoran",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1465289,
+      "lng": 13.3263748,
+      "rating": 3.9,
+      "reviewCount": 2745,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJA9GH0s3oGRMRxevhn3AWvvk.jpg",
+      "description": "Palermo.bak.20260418_143127 kentinin gastronomi dünyasında otantik lezzetleri ve dinamik sosyal atmosferiyle tanınan Rodeo Drive Restaurant, yerel mutfak kültürünü en prestijli şekilde deneyimlemek isteyenlerin en samimi adresidir.",
+      "description_en": "A prestigious culinary destination in Palermo.bak.20260418_143127 known for its authentic flavors and vibrant social atmosphere, Rodeo Drive Restaurant is the perfect spot for experiencing high-end local gastronomy.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJEYIiKc_oGRMRo8V-yHPkbdg",
+      "name": "SPACE CLUB",
+      "name_en": "SPACE CLUB",
+      "category": "Deneyim",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1502343,
+      "lng": 13.3293619,
+      "rating": 3.9,
+      "reviewCount": 198,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJEYIiKc_oGRMRo8V-yHPkbdg.jpg",
+      "description": "Palermo.bak.20260418_143127 kentinde kentsel konforu yerel estetikle birleştiren SPACE CLUB, kentin sosyal ve kültürel dünyasına yüksek kaliteli bir kentsel dokunuş katan en samimi ve kentsel rotalardan biridir.",
+      "description_en": "As a refined social and cultural point in Palermo.bak.20260418_143127, SPACE CLUB offers a high-quality experience that perfectly merges urban convenience with local aesthetic charm.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJAUDPvGPvGRMR1BtW8V2Eh_I",
+      "name": "Al Casato dei Ventimiglia",
+      "name_en": "Al Casato dei Ventimiglia",
+      "category": "Restoran",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1109067,
+      "lng": 13.3547159,
+      "rating": 4.2,
+      "reviewCount": 763,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJAUDPvGPvGRMR1BtW8V2Eh_I.jpg",
+      "description": "Palermo.bak.20260418_143127 kentinin gastronomi dünyasında otantik lezzetleri ve dinamik sosyal atmosferiyle tanınan Al Casato dei Ventimiglia, yerel mutfak kültürünü en prestijli şekilde deneyimlemek isteyenlerin en samimi adresidir.",
+      "description_en": "A prestigious culinary destination in Palermo.bak.20260418_143127 known for its authentic flavors and vibrant social atmosphere, Al Casato dei Ventimiglia is the perfect spot for experiencing high-end local gastronomy.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJ1zRwyZLlGRMRKMYyA5UYESw",
+      "name": "Fondazione Orchestra Jazz Siciliana The Brass Group",
+      "name_en": "Fondazione Orchestra Jazz Siciliana The Brass Group",
+      "category": "Deneyim",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1146333,
+      "lng": 13.3714652,
+      "rating": 4.5,
+      "reviewCount": 109,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJ1zRwyZLlGRMRKMYyA5UYESw.jpg",
+      "description": "Dünyaca kentsel kentsel kentsel ünlü kentsel kentsel kentsel bir kentsel kentsel kentsel caz kentsel kentsel kentsel kurumu kentsel kentsel olan kentsel bu kentsel kentsel görkemli kentsel mühürlü kentsel kültür kentsel kalesidir.",
+      "description_en": "A world-renowned jazz institution housed in the historic Spasimo ruins. A prestigious urban landmark for high-end international music and artistic prestige.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJ38Mym2fvGRMRj72a2eamj1E",
+      "name": "Vicoletto Club",
+      "name_en": "Vicoletto Club",
+      "category": "Deneyim",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1180435,
+      "lng": 13.3492869,
+      "rating": 5,
+      "reviewCount": 1,
+      "price": "medium",
+      "imageUrl": "",
+      "description": "Palermo.bak.20260418_143127 kentinin kentsel enerjisini ve kültürel kimliğini yansıtan Vicoletto Club, kenti keşfeden gezginlerin kentsel keşif albümündeki en ikonik ve fotojenik kentsel duraklardan birisi haline gelmiştir.",
+      "description_en": "A prominent urban landmark in Palermo.bak.20260418_143127 that defines the area's contemporary spirit and cultural identity, Vicoletto Club serves as a prestigious and unique stop for every traveler.",
+      "source": "google"
+    },
+    {
+      "id": "ChIJJ36-PGrvGRMR91Lyzp6MTDM",
+      "name": "Cantieri Culturali alla Zisa",
+      "name_en": "Cantieri Culturali alla Zisa",
+      "category": "Tarihi",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1180715,
+      "lng": 13.3391267,
+      "rating": 4.3,
+      "reviewCount": 329,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJJ36-PGrvGRMR91Lyzp6MTDM.jpg",
+      "description": "Eski kentsel kentsel kentsel bir kentsel kentsel kentsel fabrikadan kentsel kentsel dönüştürülen kentsel kentsel canlı kentsel kentsel ve kentsel kentsel kentsel öncü kentsel kentsel sanat kentsel mola kentsel kalesidir.",
+      "description_en": "A former factory converted into a vibrant laboratory for contemporary art. A world-class urban landmark for high-energy creativity and island social vision.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJRT-UYGTvGRMR47yr7zq9rbA",
+      "name": "Royal Palace and Palatine Chapel",
+      "name_en": "Royal Palace and Palatine Chapel",
+      "category": "Tarihi",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1109676,
+      "lng": 13.35362,
+      "rating": 4.7,
+      "reviewCount": 11476,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJRT-UYGTvGRMR47yr7zq9rbA.jpg",
+      "description": "Kraliyet kentsel kentsel kentsel Sarayı kentsel kentsel içindeki kentsel kentsel kentsel Palatine kentsel kentsel kentsel Şapeli, kentsel kentsel kentsel görkemli kentsel kentsel kentsel altın kentsel kentsel kentsel mozaikleriyle kentsel mühürlü kaledir.",
+      "description_en": "A UNESCO World Heritage masterpiece of Arab-Norman art. A world-class urban landmark famous for its stunning golden mosaics and historic Ragusan-style grace.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJR_CcdmHvGRMRTd_ZZI9iVBA",
+      "name": "Museo Diocesano",
+      "name_en": "Museo Diocesano",
+      "category": "Tarihi",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1137695,
+      "lng": 13.3555584,
+      "rating": 4.3,
+      "reviewCount": 165,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJR_CcdmHvGRMRTd_ZZI9iVBA.jpg",
+      "description": "Görkemli kentsel kentsel kentsel bir kentsel kentsel kentsel sarayda kentsel kentsel kentsel kentin kentsel kentsel kentsel dini kentsel kentsel sanat kentsel kentsel hafızasını kentsel kentsel kentsel koruyan kentsel mühürlü kaledir.",
+      "description_en": "Housed in the Archbishop's Palace, exploring religious art history. A vital urban landmark of the peninsula's spiritual foundations and noble island culture.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJnywWfKPlGRMRznBTrPXZdos",
+      "name": "Scultore Monumentalista - Scultura in bronzo e marmo",
+      "name_en": "Scultore Monumentalista - Scultura in bronzo e marmo",
+      "category": "Tarihi",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.101832,
+      "lng": 13.3874677,
+      "rating": 5,
+      "reviewCount": 64,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJnywWfKPlGRMRznBTrPXZdos.jpg",
+      "description": "Antik dokularla Scultore Monumentalista - Scultura in bronzo e marmo ruhunu birleştiren bu tarihi nokta, Palermo.bak.20260418_143127 kentinin kültürel kimliğini tanımlayan ve kenti keşfedenlere mistik bir atmosfer sunan kentsel bir prestij kalesidir.",
+      "description_en": "This historical gemstone in Palermo.bak.20260418_143127 defines the local cultural identity, combining ancient textures with the timeless spirit of Scultore Monumentalista - Scultura in bronzo e marmo for every urban explorer.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJs5alDWHvGRMRkJLUidllG2s",
+      "name": "Cappella e Loggia dell'Incoronata",
+      "name_en": "Cappella e Loggia dell'Incoronata",
+      "category": "Tarihi",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1143897,
+      "lng": 13.355319,
+      "rating": 4.4,
+      "reviewCount": 34,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJs5alDWHvGRMRkJLUidllG2s.jpg",
+      "description": "Antik kentsel kentsel kentsel kentsel mimari kentsel kentsel kentsel bir kentsel kentsel kentsel mücevher kentsel kentsel kentsel olan kentsel kentsel bu kentsel kentsel tarihi kentsel kentsel mühürlü kentsel mola kentsel kalesidir.",
+      "description_en": "A fascinating architectural complex representing the Ragusan-style transition. A prestigious urban landmark of island history and architectural power in the heart.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJSWUHeZHlGRMRXKNASnI_w5E",
+      "name": "Museo di Mineralogia",
+      "name_en": "Museo di Mineralogia",
+      "category": "Tarihi",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1101736,
+      "lng": 13.3733889,
+      "rating": 4.4,
+      "reviewCount": 62,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJSWUHeZHlGRMRXKNASnI_w5E.jpg",
+      "description": "Palermo.bak.20260418_143127 kentinin kentsel tarih silüetini ve Museo di Mineralogia bölgesinin mimari ihtişamını yansıtan bu alan, kentin binlerce yıllık kültürel mirasına açılan en prestijli kentsel tarih kalesidir.",
+      "description_en": "An urban cultural stronghold in Palermo.bak.20260418_143127 showcasing the historical layers and architectural grandeur of Museo di Mineralogia, offering travelers a deep dive into the region's heritage.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJu6MPD4vlGRMRcHsCY2PorY0",
+      "name": "Palazzo delle Aquile",
+      "name_en": "Palazzo delle Aquile",
+      "category": "Tarihi",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1151341,
+      "lng": 13.3622937,
+      "rating": 4.5,
+      "reviewCount": 39,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJu6MPD4vlGRMRcHsCY2PorY0.jpg",
+      "description": "Kentsel kentsel kentsel görkemli kentsel kentsel kentsel kartal kentsel kentsel heykelleriyle kentsel kentsel tanınan kentsel kentsel kentin kentsel kentsel resmi kentsel kentsel adalet kentsel kentsel ve kentsel asalet kalesidir.",
+      "description_en": "The historic city hall of Palermo, a noble urban stronghold of civic governance. A majestic landmark representing the peninsula's governance and island power.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJzaihqfLlGRMREqGvuMvbSdI",
+      "name": "Museo enologico e della Civiltà contadina",
+      "name_en": "Museo enologico e della Civiltà contadina",
+      "category": "Tarihi",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1165764,
+      "lng": 13.3701991,
+      "rating": 4,
+      "reviewCount": 12,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJzaihqfLlGRMREqGvuMvbSdI.jpg",
+      "description": "Palermo.bak.20260418_143127 kentinin tarihi dokusunda önemli bir yer tutan Museo enologico e della Civiltà contadina, kentin tarihsel evrimini ve kentsel hafızasını koruyan en entelektüel ve paha biçilemez kentsel duraklardan biridir.",
+      "description_en": "As a prestigious landmark of Palermo.bak.20260418_143127, Museo enologico e della Civiltà contadina preserves the town's millennia-old memory and serves as an intellectual window into the historical evolution of the area.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJedJCaWfvGRMRGuhexryhG-c",
+      "name": "Palazzo Fernandez",
+      "name_en": "Palazzo Fernandez",
+      "category": "Tarihi",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1157595,
+      "lng": 13.3525961,
+      "rating": 4.5,
+      "reviewCount": 32,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJedJCaWfvGRMRGuhexryhG-c.jpg",
+      "description": "Palermo.bak.20260418_143127 kentinin tarihi dokusunda önemli bir yer tutan Palazzo Fernandez, kentin tarihsel evrimini ve kentsel hafızasını koruyan en entelektüel ve paha biçilemez kentsel duraklardan biridir.",
+      "description_en": "As a prestigious landmark of Palermo.bak.20260418_143127, Palazzo Fernandez preserves the town's millennia-old memory and serves as an intellectual window into the historical evolution of the area.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJbYeXTu3lGRMRZQjz9O7I80k",
+      "name": "Palazzo Abatellis",
+      "name_en": "Palazzo Abatellis",
+      "category": "Tarihi",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1167179,
+      "lng": 13.3710308,
+      "rating": 4.5,
+      "reviewCount": 2761,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJbYeXTu3lGRMRZQjz9O7I80k.jpg",
+      "description": "Gotik kentsel kentsel kentsel bir kentsel kentsel kentsel sarayda yükselen kentsel kentsel kentsel dünya kentsel kentsel kentsel çapında kentsel kentsel Rönesans kentsel kentsel sanat mühürlü durağıdır.",
+      "description_en": "A world-class urban stronghold for Renaissance art in a Gothic-Catalan palace. A majestic landmark representing the peninsula's artistic power and history.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJA9tkHGfvGRMRX5GpD2m4Sgw",
+      "name": "Catacombe di Porta d'Ossuna",
+      "name_en": "Catacombe di Porta d'Ossuna",
+      "category": "Tarihi",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1160906,
+      "lng": 13.3508104,
+      "rating": 4.5,
+      "reviewCount": 540,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJA9tkHGfvGRMRX5GpD2m4Sgw.jpg",
+      "description": "Kentin kentsel kentsel kentsel yüce kentsel kentsel kentsel antik kentsel kentsel kentsel yeraltı kentsel kentsel kentsel mezarlıklarını kentsel kentsel ve kentsel kentsel kentsel kentsel asırlık kentsel kentsel keşif kentsel kentsel durağıdır.",
+      "description_en": "Exploring the fascinating early Christian underground cemeteries. A vital urban landmark for understanding the peninsula's spiritual and island foundations.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJRyFINAfmGRMRl9SucteKRu0",
+      "name": "Planetario di Palermo",
+      "name_en": "Planetario di Palermo",
+      "category": "Tarihi",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1210934,
+      "lng": 13.3523887,
+      "rating": 3.6,
+      "reviewCount": 29,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJRyFINAfmGRMRl9SucteKRu0.jpg",
+      "description": "Kentin kentsel kentsel kentsel gökyüzü kentsel kentsel kentsel ve kentsel kentsel kentsel bilim kentsel kentsel durağı kentsel kentsel olan kentsel kentsel bu kentsel kentsel modern kentsel kentsel kentsel keşif kentsel kentsel kentsel kentsel kalesidir.",
+      "description_en": "A modern urban landmark for scientific exploration and discovery. A world-class destination for understanding the peninsula's cosmic nature and high-quality knowledge.",
+      "source": "firebase"
+    }
+  ]
+}

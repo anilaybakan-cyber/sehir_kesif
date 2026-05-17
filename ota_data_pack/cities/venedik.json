@@ -2304,7 +2304,7 @@
       "tips": "Gondolunuzu paylaşarak tasarruf edin; sabah erken saatlerde daha sakin olur.",
       "tips_en": "Share your gondola to save money; early mornings are calmer.",
       "area_en": "Center",
-      "name_en": "Gondol Turu"
+      "name_en": "Gondola Ride"
     },
     {
       "id": "gen_ChIJd3HxJACxfkcR20soczd_FZ8",
@@ -3675,29 +3675,6 @@
       "lng": 12.3359
     },
     {
-      "name": "Rialto Köprüsü",
-      "area": "San Polo",
-      "category": "Tarihi",
-      "tags": [
-        "köprü",
-        "pazar",
-        "ikon"
-      ],
-      "distanceFromCenter": 0.3,
-      "lat": 45.438,
-      "lng": 12.3359,
-      "price": "low",
-      "rating": 4.6,
-      "description": "1588-1591'de Antonio da Ponte tarafından inşa edilen, Büyük Kanal'ın simgesi bu tek kemerli taş köprü, üzerindeki dükkanlarıyla Venedik ticaretinin kalbi ve mimari bir şaheserdir.",
-      "description_en": "Antonio da Ponte's 1588-1591 single-arch stone bridge over the Grand Canal, housing shops, embodies Venice's commercial heart and an iconic architectural marvel.",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/venedik/rialto_koprusu.jpg",
-      "bestTime": "Sabah (pazar için)",
-      "bestTime_en": "Morning (for market)",
-      "tips": "Kalabalıkları önlemek için sabah erken veya akşam geç saatlerde ziyaret edin.",
-      "tips_en": "Visit early morning or late evening to avoid the crowds.",
-      "name_en": "Rialto Bridge"
-    },
-    {
       "name": "Rialto Pazarı",
       "area": "San Polo",
       "category": "Deneyim",
@@ -3717,29 +3694,6 @@
       "name_en": "Rialto Market",
       "lat": 45.4386,
       "lng": 12.3353
-    },
-    {
-      "name": "Rialto Pazarı",
-      "area": "San Polo",
-      "category": "Deneyim",
-      "tags": [
-        "pazar",
-        "balık",
-        "sebze"
-      ],
-      "distanceFromCenter": 0.3,
-      "lat": 45.4386,
-      "lng": 12.3353,
-      "price": "low",
-      "rating": 4.5,
-      "description": "Venedik'in 11. yüzyıldan beri atan ticari kalbi, Rialto Pazarı, tarihi kemerler altında taze deniz ürünleri ve rengârenk ürünler sunar. Köklü bir ticari mirasın canlı simgesidir.",
-      "description_en": "Rialto Market, Venice's 11th-century commercial heart, offers fresh seafood and vibrant produce beneath historic arches. It embodies the city's enduring trade heritage.",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/venedik/rialto_pazari.jpg",
-      "bestTime": "Sabah erken (07:00-12:00)",
-      "bestTime_en": "Early morning (7am-12pm)",
-      "tips": "En taze ürünler ve otantik atmosfer için sabah erken gidin.",
-      "tips_en": "Go early for the freshest selection and authentic local atmosphere.",
-      "name_en": "Rialto Market"
     },
     {
       "id": "gen_ChIJSZprC8ixfkcR4AuLYzIb53k",

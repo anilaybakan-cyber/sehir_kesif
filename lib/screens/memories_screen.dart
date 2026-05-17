@@ -91,13 +91,13 @@ class _MemoriesScreenState extends State<MemoriesScreen> {
         backgroundColor: WanderlustColors.bgDark,
         elevation: 0,
         leading: IconButton(
-          icon: const Icon(Icons.arrow_back_ios_rounded, color: Colors.white),
+          icon: const Icon(Icons.arrow_back_ios_rounded, color: WanderlustColors.textWhite),
           onPressed: () => Navigator.pop(context),
         ),
         title: Text(
           isEnglish ? 'My Memories' : 'Anılarım',
           style: const TextStyle(
-            color: Colors.white,
+            color: WanderlustColors.textWhite,
             fontSize: 20,
             fontWeight: FontWeight.w700,
           ),
@@ -278,13 +278,13 @@ class _MemoriesScreenState extends State<MemoriesScreen> {
         child: Row(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Icon(icon, color: isActive ? WanderlustColors.accent : Colors.white60, size: 18),
+            Icon(icon, color: isActive ? WanderlustColors.accent : WanderlustColors.textGrey, size: 18),
             const SizedBox(width: 8),
             Flexible(
               child: Text(
                 label,
                 style: TextStyle(
-                  color: isActive ? Colors.white : Colors.white70,
+                  color: isActive ? WanderlustColors.textWhite : WanderlustColors.textGrey,
                   fontSize: 13,
                   fontWeight: isActive ? FontWeight.w600 : FontWeight.w400,
                 ),
@@ -293,7 +293,7 @@ class _MemoriesScreenState extends State<MemoriesScreen> {
               ),
             ),
             const SizedBox(width: 4),
-            Icon(Icons.keyboard_arrow_down_rounded, color: isActive ? WanderlustColors.accent : Colors.white30, size: 16),
+            Icon(Icons.keyboard_arrow_down_rounded, color: isActive ? WanderlustColors.accent : WanderlustColors.textGreyLight, size: 16),
           ],
         ),
       ),
@@ -316,17 +316,17 @@ class _MemoriesScreenState extends State<MemoriesScreen> {
         child: Column(
           children: [
             const SizedBox(height: 12),
-            Container(width: 40, height: 4, decoration: BoxDecoration(color: Colors.white24, borderRadius: BorderRadius.circular(2))),
+            Container(width: 40, height: 4, decoration: BoxDecoration(color: WanderlustColors.textGrey.withOpacity(0.35), borderRadius: BorderRadius.circular(2))),
             const SizedBox(height: 20),
-            Text(isEnglish ? 'Select City' : 'Şehir Seç', style: const TextStyle(color: Colors.white, fontSize: 18, fontWeight: FontWeight.bold)),
+            Text(isEnglish ? 'Select City' : 'Şehir Seç', style: const TextStyle(color: WanderlustColors.textWhite, fontSize: 18, fontWeight: FontWeight.bold)),
             const SizedBox(height: 20),
             Expanded(
               child: ListView(
                 padding: const EdgeInsets.symmetric(horizontal: 20),
                 children: [
                    ListTile(
-                    title: Text(isEnglish ? 'All Cities' : 'Tüm Şehirler', style: const TextStyle(color: Colors.white70)),
-                    leading: const Icon(Icons.location_on_outlined, color: Colors.white38),
+                    title: Text(isEnglish ? 'All Cities' : 'Tüm Şehirler', style: const TextStyle(color: WanderlustColors.textGrey)),
+                    leading: const Icon(Icons.location_on_outlined, color: WanderlustColors.textGreyLight),
                     trailing: _selectedCityFilter == null ? const Icon(Icons.check_circle, color: WanderlustColors.accent) : null,
                     onTap: () {
                       setState(() => _selectedCityFilter = null);
@@ -338,9 +338,9 @@ class _MemoriesScreenState extends State<MemoriesScreen> {
                     final name = memories.first.cityName;
                     final isSelected = _selectedCityFilter == cityId;
                     return ListTile(
-                      title: Text(name, style: TextStyle(color: isSelected ? Colors.white : Colors.white70)),
-                      subtitle: Text('${memories.length} ${isEnglish ? 'memories' : 'anı'}', style: const TextStyle(color: Colors.white38, fontSize: 12)),
-                      leading: Icon(Icons.location_on, color: isSelected ? WanderlustColors.accent : Colors.white30),
+                      title: Text(name, style: TextStyle(color: isSelected ? WanderlustColors.textWhite : WanderlustColors.textGrey, fontWeight: isSelected ? FontWeight.w600 : FontWeight.w400)),
+                      subtitle: Text('${memories.length} ${isEnglish ? 'memories' : 'anı'}', style: const TextStyle(color: WanderlustColors.textGreyLight, fontSize: 12)),
+                      leading: Icon(Icons.location_on, color: isSelected ? WanderlustColors.accent : WanderlustColors.textGreyLight),
                       trailing: isSelected ? const Icon(Icons.check_circle, color: WanderlustColors.accent) : null,
                       onTap: () {
                         setState(() => _selectedCityFilter = cityId);
@@ -378,9 +378,9 @@ class _MemoriesScreenState extends State<MemoriesScreen> {
           child: Column(
             children: [
               const SizedBox(height: 12),
-              Container(width: 40, height: 4, decoration: BoxDecoration(color: Colors.white24, borderRadius: BorderRadius.circular(2))),
+              Container(width: 40, height: 4, decoration: BoxDecoration(color: WanderlustColors.textGrey.withOpacity(0.35), borderRadius: BorderRadius.circular(2))),
               const SizedBox(height: 20),
-              Text(isEnglish ? 'Select Date' : 'Tarih Seç', style: const TextStyle(color: Colors.white, fontSize: 18, fontWeight: FontWeight.bold)),
+              Text(isEnglish ? 'Select Date' : 'Tarih Seç', style: const TextStyle(color: WanderlustColors.textWhite, fontSize: 18, fontWeight: FontWeight.bold)),
               const SizedBox(height: 20),
               
               Padding(
@@ -388,7 +388,7 @@ class _MemoriesScreenState extends State<MemoriesScreen> {
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
-                    Text(isEnglish ? 'Year' : 'Yıl', style: const TextStyle(color: Colors.white70, fontWeight: FontWeight.w600)),
+                    Text(isEnglish ? 'Year' : 'Yıl', style: const TextStyle(color: WanderlustColors.textGrey, fontWeight: FontWeight.w600)),
                     if (_selectedYearFilter != null)
                       TextButton(
                         onPressed: () {
@@ -418,7 +418,7 @@ class _MemoriesScreenState extends State<MemoriesScreen> {
                         },
                         backgroundColor: WanderlustColors.bgCard,
                         selectedColor: WanderlustColors.accent,
-                        labelStyle: TextStyle(color: isSelected ? Colors.white : Colors.white70),
+                        labelStyle: TextStyle(color: isSelected ? Colors.white : WanderlustColors.textGrey, fontWeight: isSelected ? FontWeight.w600 : FontWeight.w500),
                       ),
                     );
                   }).toList(),
@@ -431,7 +431,7 @@ class _MemoriesScreenState extends State<MemoriesScreen> {
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
-                    Text(isEnglish ? 'Month' : 'Ay', style: const TextStyle(color: Colors.white70, fontWeight: FontWeight.w600)),
+                    Text(isEnglish ? 'Month' : 'Ay', style: const TextStyle(color: WanderlustColors.textGrey, fontWeight: FontWeight.w600)),
                     if (_selectedMonthFilter != null)
                       TextButton(
                         onPressed: () {
@@ -470,7 +470,7 @@ class _MemoriesScreenState extends State<MemoriesScreen> {
                         ),
                         child: Text(
                           months[index],
-                          style: TextStyle(color: isSelected ? Colors.white : Colors.white70, fontSize: 12, fontWeight: isSelected ? FontWeight.bold : FontWeight.normal),
+                          style: TextStyle(color: isSelected ? Colors.white : WanderlustColors.textGrey, fontSize: 12, fontWeight: isSelected ? FontWeight.bold : FontWeight.w500),
                         ),
                       ),
                     );
@@ -523,7 +523,7 @@ class _MemoriesScreenState extends State<MemoriesScreen> {
             Text(
               isEnglish ? 'No Memories Yet' : 'Henüz Anı Yok',
               style: const TextStyle(
-                color: Colors.white,
+                color: WanderlustColors.textWhite,
                 fontSize: 22,
                 fontWeight: FontWeight.w700,
               ),
@@ -534,7 +534,7 @@ class _MemoriesScreenState extends State<MemoriesScreen> {
                   ? 'Start capturing your travel moments!'
                   : 'Seyahat anılarını kaydetmeye başla!',
               style: const TextStyle(
-                color: Colors.white54,
+                color: WanderlustColors.textGrey,
                 fontSize: 15,
               ),
               textAlign: TextAlign.center,
@@ -620,7 +620,7 @@ class _MemoriesScreenState extends State<MemoriesScreen> {
           Text(
             '$value $label',
             style: const TextStyle(
-              color: Colors.white,
+              color: WanderlustColors.textWhite,
               fontSize: 13,
               fontWeight: FontWeight.w500,
             ),
@@ -646,20 +646,20 @@ class _MemoriesScreenState extends State<MemoriesScreen> {
         backgroundColor: WanderlustColors.bgCard,
         title: Text(
           isEnglish ? 'Delete Memory?' : 'Anıyı Sil?',
-          style: const TextStyle(color: Colors.white),
+          style: const TextStyle(color: WanderlustColors.textWhite, fontWeight: FontWeight.w700),
         ),
         content: Text(
           isEnglish
               ? 'This action cannot be undone.'
               : 'Bu işlem geri alınamaz.',
-          style: const TextStyle(color: Colors.white70),
+          style: const TextStyle(color: WanderlustColors.textGrey, height: 1.35),
         ),
         actions: [
           TextButton(
             onPressed: () => Navigator.pop(context, false),
             child: Text(
               isEnglish ? 'Cancel' : 'İptal',
-              style: const TextStyle(color: Colors.white54),
+              style: const TextStyle(color: WanderlustColors.textGrey, fontWeight: FontWeight.w600),
             ),
           ),
           TextButton(
@@ -676,10 +676,31 @@ class _MemoriesScreenState extends State<MemoriesScreen> {
     if (confirmed == true) {
       await _memoryService.deleteMemory(memory.id);
       if (mounted) {
+        final mq = MediaQuery.of(context);
         ScaffoldMessenger.of(context).showSnackBar(
           SnackBar(
-            content: Text(isEnglish ? 'Memory deleted' : 'Anı silindi'),
-            backgroundColor: Colors.red.shade700,
+            behavior: SnackBarBehavior.floating,
+            elevation: 2,
+            padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
+            margin: EdgeInsets.only(
+              left: mq.size.width * 0.18,
+              right: mq.size.width * 0.18,
+              bottom: mq.padding.bottom + 16,
+            ),
+            shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(14),
+              side: BorderSide(color: WanderlustColors.borderLight),
+            ),
+            backgroundColor: WanderlustColors.bgDark,
+            content: Text(
+              isEnglish ? 'Memory deleted' : 'Anı silindi',
+              textAlign: TextAlign.center,
+              style: const TextStyle(
+                color: WanderlustColors.textGrey,
+                fontSize: 14,
+                fontWeight: FontWeight.w600,
+              ),
+            ),
           ),
         );
       }
@@ -729,7 +750,7 @@ class _MemoryCard extends StatelessWidget {
                 fit: BoxFit.cover,
                 errorBuilder: (_, __, ___) => Container(
                   color: WanderlustColors.bgCard,
-                  child: const Icon(Icons.broken_image, color: Colors.white38),
+                  child: const Icon(Icons.broken_image, color: WanderlustColors.textGreyLight),
                 ),
               ),
 
@@ -897,7 +918,7 @@ class _MemoryDetailScreen extends StatelessWidget {
                       Text(
                         _formatDate(memory.date),
                         style: const TextStyle(
-                          color: Colors.white70,
+                          color: WanderlustColors.textGrey,
                           fontSize: 14,
                         ),
                       ),
@@ -908,7 +929,7 @@ class _MemoryDetailScreen extends StatelessWidget {
                     Text(
                       memory.note!,
                       style: const TextStyle(
-                        color: Colors.white,
+                        color: WanderlustColors.textWhite,
                         fontSize: 16,
                         height: 1.5,
                       ),

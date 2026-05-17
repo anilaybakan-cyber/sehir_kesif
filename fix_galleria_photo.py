@@ -1,3 +1,6 @@
+from dotenv import load_dotenv
+load_dotenv()
+import os
 #!/usr/bin/env python3
 """
 Belirli bir mekan için Google Places API'den en iyi fotoğrafı bulup güncelleyen script.
@@ -8,7 +11,7 @@ import requests
 from pathlib import Path
 
 # Google Places API Key
-API_KEY = "AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g"
+API_KEY = os.getenv("GOOGLE_MAPS_API_KEY")
 
 # Hedef
 TARGET_CITY_FILE = Path("assets/cities/milano.json")

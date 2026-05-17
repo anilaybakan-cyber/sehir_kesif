@@ -587,7 +587,7 @@
       "description_en": "Sarajevo's 15th-century Ottoman bazaar, Baščaršija, with authentic architecture, coppersmith workshops, traditional handicrafts, and historic sebils, is the city's vibrant cultural heart.",
       "tips_en": "Arrive early morning; explore Gazi Husrev-beg Mosque and the sebils.",
       "area_en": "Center",
-      "name_en": "Başçarşı"
+      "name_en": "Baščaršija"
     },
     {
       "name": "Başçarşı Camii (Hoca Durak)",
@@ -719,7 +719,7 @@
       "tips": "Yerel hediyelik eşyalar için küçük dükkânları keşfedin.",
       "description_en": "Bezistan in Sarajevo is a shopping paradise filled with vibrant shops and lively sounds.",
       "tips_en": "Explore the small shops for unique local souvenirs.",
-      "name_en": "Bezistan (Kapalı Çarşı)"
+      "name_en": "Bezistan (Covered Market)"
     },
     {
       "name": "Bijambare Mağaraları",
@@ -1041,32 +1041,6 @@
       "description_en": "Buregdžinica Sač is a place adorned with wooden textures and warm tones, decorated with traditional Bosnian fabrics.",
       "tips_en": "Sip your tea while gazing out the window.",
       "name_en": "Buregdzinica Sac"
-    },
-    {
-      "name": "Buregdžinica Sač",
-      "name_en": "Buregdzinica Sac",
-      "area": "Başçarşı",
-      "category": "Yeme-İçme",
-      "tags": [
-        "burek",
-        "saç",
-        "lezzet",
-        "ucuz"
-      ],
-      "distanceFromCenter": 0.1,
-      "lat": 43.859,
-      "lng": 18.431,
-      "price": "low",
-      "rating": 4.7,
-      "description": "Buregdžinica Saç, ahşap dokular ve sıcak tonlarla dolu, geleneksel Bosna önlükleriyle süslenmiş bir mekandır.",
-      "description_en": "Buregdžinica Sač is a place adorned with wooden textures and warm tones, decorated with traditional Bosnian fabrics.",
-      "bestTime": "Öğle",
-      "bestTime_en": "Lunch",
-      "tips": "Pencereden bakarak çayınızı yudumlayın.",
-      "tips_en": "Sip your tea while gazing out the window.",
-      "id": "buregdzinica-sac",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/saraybosna/buregdzinica_sac.jpg",
-      "source": "google"
     },
     {
       "name": "Bursa Bezistanı",
@@ -2583,33 +2557,6 @@
       "area_en": "Center"
     },
     {
-      "name": "Markale Pazarı",
-      "name_en": "Markale Market Hall",
-      "area": "Merkez",
-      "category": "Tarihi",
-      "tags": [
-        "pazar",
-        "tarihi",
-        "anıt",
-        "hüzünlü"
-      ],
-      "distanceFromCenter": 0.2,
-      "lat": 43.8585,
-      "lng": 18.423,
-      "price": "free",
-      "rating": 4.4,
-      "description": "1895'te inşa edilen Neoklasik Avusturya-Macaristan mimarili Markale Pazarı, Saraybosna'nın kalbinde zarif bir kapalı çarşıdır. Canlı ürün merkezi ve savaşın dokunaklı hatırasıdır.",
-      "description_en": "Sarajevo's heart holds the elegant Neoclassical Austro-Hungarian Markale Market, built 1895. A vibrant produce center, it's also a poignant war memory.",
-      "bestTime": "Sabah",
-      "bestTime_en": "Morning",
-      "tips": "Pazarı sabah erken ziyaret ederek yerel kültürü ve taze ürünleri deneyimleyin.",
-      "tips_en": "Visit early to experience local culture and fresh produce.",
-      "id": "markale-pazari",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/saraybosna/markale_pazari.jpg",
-      "source": "google",
-      "area_en": "Center"
-    },
-    {
       "name": "Marshall's Gelato",
       "name_en": "Marshall's Gelato",
       "area": "Merkez",
@@ -3473,7 +3420,7 @@
       "tips": "Katedralin içini ve hemen yanındaki meydanı mutlaka ziyaret edin.",
       "description_en": "Sarajevo Cathedral, Neo-Gothic seat of the Archbishop of Vrhbosna, built in late 19th century, stands as the city's significant religious and architectural symbol.",
       "tips_en": "Be sure to visit the cathedral's interior and the adjacent square.",
-      "name_en": "Saraybosna Katedrali"
+      "name_en": "Sarajevo Cathedral"
     },
     {
       "name": "Saraybosna Müzesi 1878-1918",
@@ -4010,7 +3957,7 @@
       "description_en": "Svrzo's House, Sarajevo, displays 18th-century wealthy Ottoman Muslim family life. Its perfectly preserved wooden architecture and authentic interiors reveal deep cultural history.",
       "tips_en": "Allow time to carefully examine every room, including the courtyard.",
       "area_en": "Center",
-      "name_en": "Svrzo'nun Evi"
+      "name_en": "Svrzo's House"
     },
     {
       "name": "Talks & Giggles",
@@ -4918,32 +4865,6 @@
       "tips_en": "Visit outside prayer times to fully appreciate the interior details.",
       "id": "i̇mparator-camii-(careva-dzamija)",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/saraybosna/imparator_camii_careva_dzamija.jpg",
-      "source": "firebase"
-    },
-    {
-      "name": "İmparator Camii (Hünkar Camii)",
-      "name_en": "Emperor's Mosque",
-      "area": "Miljacka",
-      "category": "Tarihi",
-      "tags": [
-        "cami",
-        "ilk",
-        "osmanlı",
-        "nehir"
-      ],
-      "distanceFromCenter": 0.3,
-      "lat": 43.8576,
-      "lng": 18.4307,
-      "price": "free",
-      "rating": 4.8,
-      "description": "Saraybosna'nın ilk imparatorluk camisi, Fatih Sultan Mehmed'e atfedilen görkemli Osmanlı mimari harikası, şehrin dini ve kültürel kalbidir.",
-      "description_en": "Sarajevo's first imperial mosque, a magnificent Ottoman architectural marvel attributed to Fatih Sultan Mehmed, serves as the city's religious and cultural heart.",
-      "bestTime": "Gündüz",
-      "bestTime_en": "Daytime",
-      "tips": "İç mekân detaylarını incelemek için namaz vakitleri dışında ziyaret edin.",
-      "tips_en": "Visit outside prayer times to fully appreciate the interior details.",
-      "id": "i̇mparator-camii-(hunkar-camii)",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/saraybosna/imparator_camii_hunkar_camii.jpg",
       "source": "firebase"
     },
     {

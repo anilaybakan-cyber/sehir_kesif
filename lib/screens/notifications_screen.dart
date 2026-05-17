@@ -43,20 +43,20 @@ class _NotificationsScreenState extends State<NotificationsScreen> {
           AppLocalizations.currentLanguage == AppLanguage.en 
               ? 'Clear All Notifications' 
               : 'Tüm Bildirimleri Sil',
-          style: const TextStyle(color: Colors.white),
+          style: const TextStyle(color: WanderlustColors.textWhite),
         ),
         content: Text(
           AppLocalizations.currentLanguage == AppLanguage.en
               ? 'Are you sure you want to delete all notifications?'
               : 'Tüm bildirimleri silmek istediğinizden emin misiniz?',
-          style: const TextStyle(color: Colors.white70),
+          style: const TextStyle(color: WanderlustColors.textGrey),
         ),
         actions: [
           TextButton(
             onPressed: () => Navigator.pop(context, false),
             child: Text(
               AppLocalizations.currentLanguage == AppLanguage.en ? 'Cancel' : 'İptal',
-              style: const TextStyle(color: Colors.white54),
+              style: const TextStyle(color: WanderlustColors.textGreyLight),
             ),
           ),
           TextButton(
@@ -110,13 +110,13 @@ class _NotificationsScreenState extends State<NotificationsScreen> {
         backgroundColor: WanderlustColors.bgDark,
         elevation: 0,
         leading: IconButton(
-          icon: const Icon(Icons.arrow_back_ios, color: Colors.white),
+          icon: const Icon(Icons.arrow_back_ios, color: WanderlustColors.textWhite),
           onPressed: () => Navigator.pop(context),
         ),
         title: Text(
           isEnglish ? 'Notifications' : 'Bildirimler',
           style: const TextStyle(
-            color: Colors.white,
+            color: WanderlustColors.textWhite,
             fontSize: 20,
             fontWeight: FontWeight.w600,
           ),
@@ -162,7 +162,7 @@ class _NotificationsScreenState extends State<NotificationsScreen> {
           Text(
             isEnglish ? 'No notifications yet' : 'Henüz bildirim yok',
             style: const TextStyle(
-              color: Colors.white,
+              color: WanderlustColors.textWhite,
               fontSize: 18,
               fontWeight: FontWeight.w600,
             ),
@@ -173,7 +173,7 @@ class _NotificationsScreenState extends State<NotificationsScreen> {
                 ? 'You\'ll see your notifications here'
                 : 'Bildirimleriniz burada görünecek',
             style: const TextStyle(
-              color: Colors.white54,
+              color: WanderlustColors.textGreyLight,
               fontSize: 14,
             ),
           ),
@@ -205,7 +205,7 @@ class _NotificationsScreenState extends State<NotificationsScreen> {
         color: WanderlustColors.bgCard,
         borderRadius: BorderRadius.circular(16),
         border: Border.all(
-          color: Colors.white.withOpacity(0.05),
+          color: WanderlustColors.border,
           width: 1,
         ),
       ),
@@ -237,7 +237,7 @@ class _NotificationsScreenState extends State<NotificationsScreen> {
                     Text(
                       title,
                       style: const TextStyle(
-                        color: Colors.white,
+                        color: WanderlustColors.textWhite,
                         fontSize: 16,
                         fontWeight: FontWeight.w600,
                       ),
@@ -246,7 +246,7 @@ class _NotificationsScreenState extends State<NotificationsScreen> {
                       Text(
                         _formatDate(timestamp),
                         style: const TextStyle(
-                          color: Colors.white38,
+                          color: WanderlustColors.textGrey,
                           fontSize: 12,
                         ),
                       ),
@@ -260,7 +260,7 @@ class _NotificationsScreenState extends State<NotificationsScreen> {
             Text(
               body,
               style: const TextStyle(
-                color: Colors.white70,
+                color: WanderlustColors.textGrey,
                 fontSize: 14,
                 height: 1.4,
               ),

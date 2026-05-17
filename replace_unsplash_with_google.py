@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+from dotenv import load_dotenv
+load_dotenv()
 """
 Unsplash to Google Places Photo Migrator (v2)
 Finds all landmarks and hero images with Unsplash URLs, 
@@ -17,7 +19,7 @@ import firebase_admin
 from firebase_admin import credentials, storage
 
 # Configuration
-API_KEY = "AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g"
+API_KEY = os.getenv("GOOGLE_MAPS_API_KEY")
 SERVICE_ACCOUNT_FILE = "service_account.json"
 BUCKET_NAME = "myway-3fe75.firebasestorage.app"
 STORAGE_BASE_URL = f"https://storage.googleapis.com/{BUCKET_NAME}"

@@ -1,7 +1,7 @@
 name: sehir_kesif
 description: "A new Flutter project."
 publish_to: 'none'
-version: 1.0.0+54
+version: 1.0.3+5
 environment:
   sdk: ^3.9.2
 
@@ -45,6 +45,9 @@ dependencies:
   cloud_firestore: ^5.0.0 # 🔥 Cache için
   
   flutter_dotenv: ^5.1.0
+  video_player: ^2.8.2
+  app_links: ^6.4.1
+  flutter_blurhash: ^0.9.1
 
 dev_dependencies:
   flutter_test:
@@ -72,8 +75,12 @@ flutter:
     - assets/routes/
     - assets/onboarding/
     - assets/images/
+    - assets/images/loading/
     - assets/placeholder.jpg
     - assets/badges/
+    - assets/icons/
+    - assets/data/
+    - assets/videos/
 
 
 

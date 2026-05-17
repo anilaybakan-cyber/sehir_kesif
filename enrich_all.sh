@@ -1,20 +1,27 @@
 #!/bin/bash
 # Tüm şehirleri sırayla zenginleştirir.
+# ⚠️ DİKKAT: Bu script çalıştırılırsa Google Places API üzerinden ON BİNLERCE istek
+#    ve kolayca ON BİNLERCE TL / yüzlerce USD tutarında fatura doğurabilir.
+#
+# mass_enrich_city.py artık çalışmadan önce bilinçli onay ister:
+#   export I_ACCEPT_GOOGLE_PLACES_BILLING_RISK=1
+# veya her çağrıda:  python3 mass_enrich_city.py --i-accept-billing-risk <şehir>
 
-CITY_FILES=assets/cities/*.json
+echo "🛑 GÜVENLİK UYARISI: Toplu zenginleştirme işlemi binlerce TL tutabilir."
+echo "Eğer gerçekten tüm şehirleri (90+) işlemek istiyorsanız script'i düzenleyip kilidi açmalısınız."
+echo "Önce TEK şehirle test edin; Maps Platform fiyatlandırmasını okuyun."
 
-echo "🌍 KAPSAMLI ZENGİNLEŞTİRME BAŞLATILIYOR (36 ŞEHİR)..."
+# Güvenlik Kilidi:
+echo "Mevcut maliyet riskleri nedeniyle bu script devre dışı bırakıldı."
+echo "Tek şehir: export I_ACCEPT_GOOGLE_PLACES_BILLING_RISK=1 && python3 mass_enrich_city.py <şehir_adı>"
+exit 1
 
-for f in $CITY_FILES
-do
-  city_name=$(basename "$f" .json)
-  echo "--------------------------------------------------"
-  echo "⏩ İşlenen Şehir: $city_name"
-  python3 mass_enrich_city.py "$city_name"
-  
-  # API Rate limit'e takılmamak için şehirler arası kısa bekleme
-  echo "⏳ Bekleniyor..."
-  sleep 2
-done
-
-echo "🎉 TÜM ŞEHİRLER TAMAMLANDI!"
+# Kilidi açmak için aşağıdaki satırların yorumunu kaldırın ve önce export edin:
+# export I_ACCEPT_GOOGLE_PLACES_BILLING_RISK=1
+# CITY_FILES=assets/cities/*.json
+# for f in $CITY_FILES
+# do
+#   city_name=$(basename "$f" .json)
+#   python3 mass_enrich_city.py --i-accept-billing-risk "$city_name"
+#   sleep 2
+# done

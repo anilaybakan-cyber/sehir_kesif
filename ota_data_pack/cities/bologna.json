@@ -866,30 +866,6 @@
       "distanceFromCenter": 1.0
     },
     {
-      "name": "Costarena",
-      "name_en": "Costarena",
-      "area": "Costa",
-      "category": "Deneyim",
-      "tags": [
-        "sinema",
-        "müzik",
-        "bahçe"
-      ],
-      "lat": 44.495,
-      "lng": 11.325,
-      "price": "medium",
-      "rating": 4.5,
-      "description": "Costarena, Bologna'nın 14. yüzyıl Gotik mimarisinin muhteşem bir örneği. Fresklerle süslü tavanları, zarif kemerleri ve asırlık tarihiyle şehrin kültürel mirasının eşsiz bir yansımasıdır.",
-      "description_en": "Costarena, a magnificent example of Bologna's 14th-century Gothic architecture. With frescoed ceilings, elegant arches, and centuries-old history, it uniquely reflects the city's cultural heritage.",
-      "bestTime": "Akşam",
-      "tips": "Üst katın fresklerini ve tarihi detaylarını dikkatle incelemek için zaman ayırın.",
-      "tips_en": "Allocate time to carefully examine the upper floor frescoes and historical details.",
-      "id": "costarena",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bologna/costarena.jpg",
-      "source": "firebase",
-      "distanceFromCenter": 1.0
-    },
-    {
       "name": "Cremeria Funivia",
       "name_en": "Cremeria Funivia",
       "area": "San Luca",

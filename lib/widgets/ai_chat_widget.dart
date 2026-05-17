@@ -6,6 +6,7 @@
 import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:flutter_markdown/flutter_markdown.dart';
 import '../core/theme/app_theme.dart';
 
 class AIChatWidget extends StatefulWidget {
@@ -399,8 +400,6 @@ class _AIChatWidgetState extends State<AIChatWidget>
 // HELPER WIDGETS
 // =============================================================================
 
-import 'package:flutter_markdown/flutter_markdown.dart';
-  
 class ChatMessage {
   final String text;
   final bool isUser;

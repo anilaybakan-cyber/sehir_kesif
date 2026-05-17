@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import '../models/place_model.dart';
 import '../widgets/amber_background_symbols.dart';
 import '../l10n/app_localizations.dart';
+import 'resilient_network_image.dart';
 
 class PlaceCard extends StatelessWidget {
   final PlaceModel place;
@@ -113,14 +114,13 @@ class PlaceCard extends StatelessWidget {
                   height: 110,
                   width: double.infinity,
                   child: hasImage
-                      ? Image.network(
-                          place.imageUrl!,
+                      ? ResilientNetworkImage(
+                          imageUrl: place.imageUrl,
+                          placeName: place.name,
+                          city: place.address,
+                          category: place.category,
                           fit: BoxFit.cover,
-                          loadingBuilder: (_, child, progress) {
-                            if (progress == null) return child;
-                            return _buildPlaceholder();
-                          },
-                          errorBuilder: (_, __, ___) => _buildPlaceholder(),
+                          placeholderBuilder: (_) => _buildPlaceholder(),
                         )
                       : _buildPlaceholder(),
                 ),

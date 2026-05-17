@@ -1,0 +1,768 @@
+{
+  "summary": {
+    "city_count": 10,
+    "analyzed_city_count": 10,
+    "avg_score": 89.49,
+    "pass_count": 10,
+    "warn_count": 0,
+    "fail_count": 0
+  },
+  "cities": [
+    {
+      "city_id": "istanbul",
+      "city_name": "İstanbul",
+      "total_highlights": 223,
+      "score": 88.14,
+      "status": "pass",
+      "metrics": {
+        "missing_tips_en": 0,
+        "short_tr_desc": 118,
+        "short_en_desc": 62,
+        "generic_tr_desc": 0,
+        "generic_en_desc": 0,
+        "repeated_tips": 0
+      },
+      "examples": {
+        "missing_tips_en": [],
+        "short_tr_desc": [
+          {
+            "name": "16 Roof",
+            "text": "İstanbul'un kalbinde yer alan 16 Roof, deniz manzarası eşliğinde serinleten akşam rüzgarlarıyla dolup taşan bir atmosfer sunuyor."
+          },
+          {
+            "name": "360 Istanbul",
+            "text": "Modern mimarisi ile tarihi İstanbul dokusunu bir araya getiren 360 İstanbul, hem lezzetli yemekler hem de eşsiz manzaralar sunuyor."
+          },
+          {
+            "name": "44 Celtic Irish Bar&Pub",
+            "text": "Kelt geleneğiyle harmanlanmış İstanbul'un kalbinde, samimi bir pub atmosferinde, arkadaşlarınızla keyifli anlar yaşayabilirsiniz."
+          },
+          {
+            "name": "Agora Meyhanesi",
+            "text": "İstanbul'un bohem ruhunu yansıtan Agora Meyhanesi, canlı müzik eşliğinde eşsiz mezelerin tadına varabileceğiniz bir yerdir."
+          },
+          {
+            "name": "Araka",
+            "text": "Araka, cam ve ahşap unsurlarıyla modern bir tasarım sunarak, İstanbul Boğazı'nın muhteşem manzarasına sahip huzurlu bir ortam yarıyor."
+          },
+          {
+            "name": "Ararat Terrace Restaurant & Rooftop",
+            "text": "Tarihi dokusuyla bezeli bu çatı katında, şehrin ışıkları altında eşsiz mezeler ve otantik tatlar keşfedebilirsiniz."
+          }
+        ],
+        "short_en_desc": [
+          {
+            "name": "360 Istanbul",
+            "text": "360 Istanbul merges modern architecture with the historical fabric of the city, offering delicious dishes alongside breathtaking views."
+          },
+          {
+            "name": "Agora Meyhanesi",
+            "text": "Agora Meyhanesi, reflecting Istanbul's bohemian spirit, is where you can enjoy unique mezes accompanied by live music."
+          },
+          {
+            "name": "Asmalı Cavit",
+            "text": "Asmalı Cavit, with its warm atmosphere, merges neoclassical details, inviting guests into the cozy streets of old Istanbul."
+          },
+          {
+            "name": "Bebek Sahili",
+            "text": "This shore, with historic village houses beside modern cafes, offers an atmosphere where tranquility and vibrancy intertwine."
+          },
+          {
+            "name": "Black hookah lounge & Karaoke Bar",
+            "text": "The interior, adorned in black and gold tones, offers a warm atmosphere where chic lighting dances in the shadows."
+          },
+          {
+            "name": "Burger No.7",
+            "text": "At Burger No.7, the signature burger features soft bread, caramelized onions, and rich cheddar cheese."
+          }
+        ],
+        "generic_desc": [],
+        "repeated_tips": []
+      }
+    },
+    {
+      "city_id": "barcelona",
+      "city_name": "Barcelona",
+      "total_highlights": 220,
+      "score": 88.08,
+      "status": "pass",
+      "metrics": {
+        "missing_tips_en": 0,
+        "short_tr_desc": 113,
+        "short_en_desc": 65,
+        "generic_tr_desc": 0,
+        "generic_en_desc": 0,
+        "repeated_tips": 0
+      },
+      "examples": {
+        "missing_tips_en": [],
+        "short_tr_desc": [
+          {
+            "name": "7 Portes",
+            "text": "Eski taş duvarlar arasında, geleneksel Katalan mutfağının tadına varırken, odanın sıcak atmosferiyle sarılın; her lokmada tarih fısıldar."
+          },
+          {
+            "name": "ABANIC",
+            "text": "Gizli bahçesi ve el yapımı tapaslarıyla ABANIC, yerel lezzetlerin tadını çıkarırken samimi bir atmosferde huzur bulmak isteyenlerin favorisi."
+          },
+          {
+            "name": "AYAME Pastisseria Japonesa",
+            "text": "Taze demlenmiş kahvenin kokusu, pastane vitrinindeki renkli tatlılarla birleşiyor; her adımda yumuşak bir müzik yükseliyor."
+          },
+          {
+            "name": "Aflamas Restaurant",
+            "text": "Modern dokunuşlarla süslenmiş tarihi iç mekan, tapasların tuzlu ve tatlı eşleşmeleri ile damak zevkinizi zenginleştiriyor."
+          },
+          {
+            "name": "Aldea Cocktail Bar",
+            "text": "Aldea, Barcelona'nın kalbindeki gizli bir cennet. Yumuşak ışıklar, ahşap detaylar ve renkli kokteyllerle dolu bir atmosfer sunuyor."
+          },
+          {
+            "name": "Antic Teatre",
+            "text": "Yeşil alanlarla sarılı, bohem tarzı iç mekânında canlı müzik eşliğinde sanat dolu anlar yaşanıyor."
+          }
+        ],
+        "short_en_desc": [
+          {
+            "name": "ABANIC",
+            "text": "With its hidden garden and homemade tapas, ABANIC is a favorite for those seeking tranquility while savoring local flavors."
+          },
+          {
+            "name": "AYAME Pastisseria Japonesa",
+            "text": "The aroma of freshly brewed coffee mingles with colorful confections in the display; soft music rises with each step."
+          },
+          {
+            "name": "Aflamas Restaurant",
+            "text": "The historically adorned interior decorated with modern touches enriches your palate with savory and sweet matches of tapas."
+          },
+          {
+            "name": "Antic Teatre",
+            "text": "Surrounded by greenery, vibrant performances unfold in its bohemian interior, rich in artistic moments."
+          },
+          {
+            "name": "Artesano Panadería y Pastelería",
+            "text": "Artesano features a serene atmosphere where modern designs blend with traditional recipes, showcasing sweet and savory treats masterfully presented."
+          },
+          {
+            "name": "BRASA GAUCHA GRILL",
+            "text": "Amidst Barcelona's elegant streets, Brasa Gaucha's smoky, primal meat flavors starkly contrast with its sleek, modern ambiance."
+          }
+        ],
+        "generic_desc": [],
+        "repeated_tips": []
+      }
+    },
+    {
+      "city_id": "paris",
+      "city_name": "Paris",
+      "total_highlights": 247,
+      "score": 89.84,
+      "status": "pass",
+      "metrics": {
+        "missing_tips_en": 0,
+        "short_tr_desc": 115,
+        "short_en_desc": 54,
+        "generic_tr_desc": 0,
+        "generic_en_desc": 0,
+        "repeated_tips": 3
+      },
+      "examples": {
+        "missing_tips_en": [],
+        "short_tr_desc": [
+          {
+            "name": "59 Rivoli",
+            "text": "Modern estetik ve tarihî dokunun birleşimi, göz alıcı mermer sütunlar ve mavi tonlarının zenginliği içinde kaybolacağınız bir atmosfer sunuyor."
+          },
+          {
+            "name": "Aldehyde",
+            "text": "Aldehyde, modern bir tasarımın sıcak Paris sokaklarıyla buluştuğu, sakin bir atmosfere sahip; tatlı ve tuzlu lezzetlerin uyumunu sunuyor."
+          },
+          {
+            "name": "Aléa",
+            "text": "Aléa, pastel tonları ve zarif ahşap detaylarıyla sakin bir avlu ortamında yer alıyor. Sanat eserleri, ziyaretçilerin ruhunu besliyor."
+          },
+          {
+            "name": "Amorino",
+            "text": "Amorino'nun iç mekanında yumuşak pastel tonlar, zarif ahşap detaylar ve etkileyici mermer tezgahlar bir araya geliyor."
+          },
+          {
+            "name": "Angelina Paris",
+            "text": "Sıcak çikolatası, 19. yüzyıl aristokrasisinin keyfini çıkarma geleneğini yaşatıyor."
+          },
+          {
+            "name": "Apogé",
+            "text": "Apogé'de kahve kokusu, sıcak ekmek kokusunda kaybolmuş gibi. Taze yaprakların hışırtısı eşliğinde sıcak çikolata bir keyif."
+          }
+        ],
+        "short_en_desc": [
+          {
+            "name": "Amorino",
+            "text": "Inside Amorino, soft pastel hues, elegant wooden details, and striking marble counters come together beautifully."
+          },
+          {
+            "name": "Angelina Paris",
+            "text": "Its hot chocolate continues the tradition of indulgence enjoyed by 19th-century aristocracy."
+          },
+          {
+            "name": "Azur Café",
+            "text": "Surrounded by quaint bookstores and flower shops, Azur Café is a serene spot."
+          },
+          {
+            "name": "B.Better",
+            "text": "In the heart of Paris, B.Better offers an intimate atmosphere adorned with flickering candlelight."
+          },
+          {
+            "name": "Baba Yaga Paris",
+            "text": "Baba Yaga Paris is a mesmerizing venue where fantastical legends meet handcrafted cocktails. A mysterious atmosphere awaits you."
+          },
+          {
+            "name": "Brigat'",
+            "text": "Brigat offers a warm, inviting atmosphere, bringing communities together with its captivating visual charm."
+          }
+        ],
+        "generic_desc": [],
+        "repeated_tips": [
+          {
+            "tip": "sip your coffee while gazing out the window.",
+            "count": "3"
+          }
+        ]
+      }
+    },
+    {
+      "city_id": "roma",
+      "city_name": "Roma",
+      "total_highlights": 246,
+      "score": 90.55,
+      "status": "pass",
+      "metrics": {
+        "missing_tips_en": 0,
+        "short_tr_desc": 102,
+        "short_en_desc": 56,
+        "generic_tr_desc": 0,
+        "generic_en_desc": 0,
+        "repeated_tips": 0
+      },
+      "examples": {
+        "missing_tips_en": [],
+        "short_tr_desc": [
+          {
+            "name": "ADESSO Osteria Moderna",
+            "text": "Roma'daki gastronomik tarih ile modern dokunuşları birleştiren ADESSO, o stresli günlerden bir kaçış sunuyor."
+          },
+          {
+            "name": "Altroquando - Libreria e Pub",
+            "text": "Dante'nin ruhunun sıklıkla dolandığı bu mekanda, kitaplar ve müzik iç içe geçiyor."
+          },
+          {
+            "name": "Artigiano Del Caffè",
+            "text": "Kahve kokusu ve taze hamur işleri, güne enerjik bir başlangıç sunar. Sipariş verirken, dükkanın içindeki ahşap ayak sesleri yankılanır."
+          },
+          {
+            "name": "Bar Amore di Zucca Fabio",
+            "text": "Kahve, yoğun aroması ve hafif kakao dokunuşuyla tazelik sunuyor."
+          },
+          {
+            "name": "Bar Locarno",
+            "text": "Sabah serinliğinde, taze çekilmiş kahvenin yoğun kokusu havayı doldurur; mermer zeminde yankılanan adımlar, Roma'nın fısıltılarını taşır."
+          },
+          {
+            "name": "Bar della Pace",
+            "text": "Sıcak terra cotta tonları ve zarif taş duvarlar ile Bar della Pace, Roma’nın tarihi dokusunu gözler önüne seriyor."
+          }
+        ],
+        "short_en_desc": [
+          {
+            "name": "ADESSO Osteria Moderna",
+            "text": "ADESSO combines Rome's gastronomic history with modern touches, offering an escape from those stressful days."
+          },
+          {
+            "name": "Altroquando - Libreria e Pub",
+            "text": "In this venue often haunted by Dante's spirit, books and music intertwine beautifully."
+          },
+          {
+            "name": "Bar Amore di Zucca Fabio",
+            "text": "The coffee offers freshness with its intense aroma and subtle cocoa notes."
+          },
+          {
+            "name": "Bar della Pace",
+            "text": "With warm terracotta tones and elegant stone walls, Bar della Pace reveals the historical fabric of Rome."
+          },
+          {
+            "name": "Biblio Bar Roma",
+            "text": "Unique mosaic floors, spacious interiors adorned with warm colors, fill the café ambiance with a romantic aura."
+          },
+          {
+            "name": "Bioparco di Roma",
+            "text": "Tranquil pathways shaded by enchanting trees offer a unique nature experience filled with the scents of vibrant flowers."
+          }
+        ],
+        "generic_desc": [],
+        "repeated_tips": []
+      }
+    },
+    {
+      "city_id": "londra",
+      "city_name": "Londra",
+      "total_highlights": 235,
+      "score": 91.05,
+      "status": "pass",
+      "metrics": {
+        "missing_tips_en": 0,
+        "short_tr_desc": 92,
+        "short_en_desc": 51,
+        "generic_tr_desc": 0,
+        "generic_en_desc": 0,
+        "repeated_tips": 0
+      },
+      "examples": {
+        "missing_tips_en": [],
+        "short_tr_desc": [
+          {
+            "name": "56 Wine Bar and Shop",
+            "text": "Yerel şarap tutkunlarının buluşma noktası; canlı müzik eşliğinde şarap keyfi, samimi sohbetler ve her köşede bir gülümseme var."
+          },
+          {
+            "name": "ARVO Cafe - Primrose Hill",
+            "text": "Kahve kokusu, taze ekmekle birleşerek havayı sararken, soğuk rüzgarın hafif dokunduğu pencereden içeriye doluyor."
+          },
+          {
+            "name": "Alcotraz London: Cell Block Two-One-Two",
+            "text": "Alcotraz London'da, kendinizi mahkum gibi hissedeceğiniz sıradışı bir bar deneyimi var; kokteyl tercihleriniz, mahkum giysileriyle sunuluyor."
+          },
+          {
+            "name": "Alex Coffee",
+            "text": "İnce işlenmiş kahve çekirdeklerinin aromalarının dolup taştığı, kayalarla çevrili bu kafe, Londra sokaklarının kalbinde huzurlu bir sığınak sunuyor."
+          },
+          {
+            "name": "Amorino Gelato",
+            "text": "Amorino Dondurma, zengin çikolata ve vanilya aromalarıyla damağınızı şımartacak enfes, el yapımı dondurmalar sunuyor."
+          },
+          {
+            "name": "Artist Cafe London",
+            "text": "Kahve kokusu her köşede dans ederken, ahşap zeminler üzerinde yankılanan adımlar, sanat dolu bir atmosferin büyüsünü yaratıyor."
+          }
+        ],
+        "short_en_desc": [
+          {
+            "name": "56 Wine Bar and Shop",
+            "text": "A gathering spot for local wine enthusiasts; enjoy wine with live music, sincere conversations, and smiles in every corner."
+          },
+          {
+            "name": "ARVO Cafe - Primrose Hill",
+            "text": "The scent of coffee mingles with fresh bread, as a chill breeze softly whispers through the open window."
+          },
+          {
+            "name": "Amorino Gelato",
+            "text": "Amorino Gelato offers exquisite, handmade gelatos that delight your palate with rich chocolate and vanilla flavors."
+          },
+          {
+            "name": "Baaria - Italian Café, Wine and Cocktail Bar",
+            "text": "Vivid wooden details and minimalist design create the warm atmosphere of Baaria."
+          },
+          {
+            "name": "Bantof",
+            "text": "Bantof combines London's rich tradition with fresh ingredients to offer simple, flavorful dishes."
+          },
+          {
+            "name": "Bao Soho",
+            "text": "Modern design elements and traditional Asian flavors create a striking balance here."
+          }
+        ],
+        "generic_desc": [],
+        "repeated_tips": []
+      }
+    },
+    {
+      "city_id": "amsterdam",
+      "city_name": "Amsterdam",
+      "total_highlights": 221,
+      "score": 88.53,
+      "status": "pass",
+      "metrics": {
+        "missing_tips_en": 0,
+        "short_tr_desc": 109,
+        "short_en_desc": 63,
+        "generic_tr_desc": 0,
+        "generic_en_desc": 0,
+        "repeated_tips": 0
+      },
+      "examples": {
+        "missing_tips_en": [],
+        "short_tr_desc": [
+          {
+            "name": "A'DAM Lookout",
+            "text": "Amsterdam'ın mavi gökkubbesi altında, A'DAM Lookout'un terasında, büyüleyici bir panorama eşliğinde şehir ve suyun aşkını hissedin."
+          },
+          {
+            "name": "Alpha coffee Amsterdam",
+            "text": "Eski bir depoda modern kahve deneyimi, sessiz köşelerde sakinlik ile samimi sohbetlerin gürültüsü arasında bir denge kurar."
+          },
+          {
+            "name": "Amsterdam City Farm Tasting Room & Restaurant",
+            "text": "Şehrin kalbinde, yerel lezzetleri tadarken samimi dost sohbetlerinin eşlik ettiği bir mekan burası."
+          },
+          {
+            "name": "Amsterdam Forest (Amsterdamse Bos)",
+            "text": "Amsterdamse Bos, yerel hayvanların özgürlüğüyle dans ettiği, huzur arayanların saklı cenneti."
+          },
+          {
+            "name": "Backstage Bar",
+            "text": "Kapıdan içeri girdiğinizde, samimi ahşap detaylar ve pastel tonlarındaki duvarlar sizi sarıyor. Yükselen tavan, iç mekanın ferahlığını artırıyor."
+          },
+          {
+            "name": "Bar Bacán",
+            "text": "Amsterdam'da Bar Bacán, içki menüsü ve özgün ortamıyla dost sohbetlerine ev sahipliği yapar."
+          }
+        ],
+        "short_en_desc": [
+          {
+            "name": "Alpha coffee Amsterdam",
+            "text": "A modern coffee experience in an old warehouse, balancing tranquility in quiet corners with the buzz of friendly chatter."
+          },
+          {
+            "name": "Amsterdam City Farm Tasting Room & Restaurant",
+            "text": "In the heart of the city, this place offers local flavors accompanied by warm, friendly conversations."
+          },
+          {
+            "name": "Amsterdam Forest (Amsterdamse Bos)",
+            "text": "Amsterdam Forest, a hidden paradise for peace seekers where local animals dance in freedom."
+          },
+          {
+            "name": "Bar Bacán",
+            "text": "In Amsterdam, Bar Bacán hosts friendly conversations with its unique atmosphere and diverse drink menu."
+          },
+          {
+            "name": "Bar Blij",
+            "text": "Bar Blij teems with live music and serves as a meeting point for young professionals and artists."
+          },
+          {
+            "name": "Bar Brother",
+            "text": "The elegant blend of wood and brick textures fills Bar Brother with a warm atmosphere."
+          }
+        ],
+        "generic_desc": [],
+        "repeated_tips": []
+      }
+    },
+    {
+      "city_id": "madrid",
+      "city_name": "Madrid",
+      "total_highlights": 217,
+      "score": 91.01,
+      "status": "pass",
+      "metrics": {
+        "missing_tips_en": 0,
+        "short_tr_desc": 81,
+        "short_en_desc": 51,
+        "generic_tr_desc": 0,
+        "generic_en_desc": 0,
+        "repeated_tips": 0
+      },
+      "examples": {
+        "missing_tips_en": [],
+        "short_tr_desc": [
+          {
+            "name": "ALCHEMY Specialty Coffee",
+            "text": "Özenle seçilmiş kahve çekirdekleri ve samimi atmosferiyle Alchemy, Madrid'in saklı köşe başlarından biridir."
+          },
+          {
+            "name": "AMIS",
+            "text": "Madrid'ın kalbinde, enerjik gençlerin buluşma noktası; canlı müzik, samimi sohbetler ve lezzetli tapaslar eşliğinde hayat buluyor."
+          },
+          {
+            "name": "Alchemist 1967",
+            "text": "Alchemist 1967, Madrid'ın sokaklarını keşfetmekten hoşlananlar için gizli bir hazine; şık kokteyller ve yenilikçi atıştırmalıklarla ruhunuzu besler."
+          },
+          {
+            "name": "Amae café (Café de especialidad)",
+            "text": "Pencerelerden sızan Madrid rüzgarı, içeride yoğun kahve kokusuyla yumuşar. Her fincanın tıkırtısı ve adımların hafif yankısı huzur verir."
+          },
+          {
+            "name": "BAHAY Coffee - Specialty Coffee",
+            "text": "BAHAY Coffee, özel çekirdekler ile yoğun ve taze kahve sunar; aromaları derin ve zengin."
+          },
+          {
+            "name": "BUNA SPECIALTY COFFEE",
+            "text": "BUNA'nın modern tasarımı, Madrid'in tarihi atmosferiyle çarpıcı bir kontrast oluşturuyor; kahve, huzur ve canlılığı bir araya getiriyor."
+          }
+        ],
+        "short_en_desc": [
+          {
+            "name": "ALCHEMY Specialty Coffee",
+            "text": "With meticulously selected coffee beans and a warm atmosphere, Alchemy is one of Madrid's hidden gems."
+          },
+          {
+            "name": "BAHAY Coffee - Specialty Coffee",
+            "text": "BAHAY Coffee serves intense and fresh coffee with specialty beans; the aromas are deep and rich."
+          },
+          {
+            "name": "BUNA SPECIALTY COFFEE",
+            "text": "The modern design of BUNA creates a striking contrast with Madrid's historic atmosphere; coffee unites tranquility and vibrancy."
+          },
+          {
+            "name": "Bad Company 1920",
+            "text": "At Bad Company 1920, experience refreshing, unique cocktails and deliciously spiced snacks in a warm, vintage atmosphere."
+          },
+          {
+            "name": "Café Dude",
+            "text": "Natural light floods in through four large windows, creating a warm atmosphere accentuated by wooden details."
+          },
+          {
+            "name": "Calle Ponzano",
+            "text": "Calle Ponzano, a vibrant avenue reflecting Madrid's spirit, brimming with tapas bars and cozy taverns."
+          }
+        ],
+        "generic_desc": [],
+        "repeated_tips": []
+      }
+    },
+    {
+      "city_id": "venedik",
+      "city_name": "Venedik",
+      "total_highlights": 207,
+      "score": 89.15,
+      "status": "pass",
+      "metrics": {
+        "missing_tips_en": 0,
+        "short_tr_desc": 93,
+        "short_en_desc": 59,
+        "generic_tr_desc": 0,
+        "generic_en_desc": 0,
+        "repeated_tips": 0
+      },
+      "examples": {
+        "missing_tips_en": [],
+        "short_tr_desc": [
+          {
+            "name": "60/40 Take Away",
+            "text": "Venedik'in yeşil sokaklarına açılan, pastel tonlarıyla bezeli 60/40 Take Away, özgün tasarımı ve rahat atmosferiyle göz alıyor."
+          },
+          {
+            "name": "Adriatico Mar",
+            "text": "Venedik'in kalbinde, Adriatico Mar barı, zeytin yağıyla harmanlanmış taze deniz ürünlerinin vazgeçilmez lezzetini sunuyor."
+          },
+          {
+            "name": "Agli Archi - Ristorante, Enoteca, Cicchetti Gourmet",
+            "text": "Kanalların melodisiyle uyumlu, şarap ve cicchetti aşkıyla dolu bu mekan, Venedik'in ruhunu zarifçe yansıtan bir atmosfere sahip."
+          },
+          {
+            "name": "Ai Mercanti",
+            "text": "Venedik'in tarihi dokusunda, Ai Mercanti mistik bir atmosfer sunarak yerel lezzetleri şairane bir şekilde sunuyor."
+          },
+          {
+            "name": "Ai Stagneri",
+            "text": "Kahve kokusunun yoğun, tatlı notaları arasında, taş zeminlerde yankılanan ayak sesleri huzur dolu bir atmosfer yaratıyor."
+          },
+          {
+            "name": "Ai pie del ponte",
+            "text": "Venedik’in kanallarına bakan Ai pie del ponte, ahşap köprülerin ve pastel renklerin birleştiği bir mimaride huzur veriyor."
+          }
+        ],
+        "short_en_desc": [
+          {
+            "name": "Adriatico Mar",
+            "text": "In the heart of Venice, Adriatico Mar bar offers the irresistible flavors of fresh seafood blended with olive oil."
+          },
+          {
+            "name": "Ai Mercanti",
+            "text": "In the historical fabric of Venice, Ai Mercanti offers a mystical atmosphere while poetically presenting local flavors."
+          },
+          {
+            "name": "Ai Stagneri",
+            "text": "Amidst the rich, sweet notes of coffee, the echo of footsteps on the stone floor creates a tranquil atmosphere."
+          },
+          {
+            "name": "Amore Espresso Specialty Coffee Shop",
+            "text": "Amore Espresso in Venedik is a gathering spot for local artists and writers, with energetic conversations filling every corner."
+          },
+          {
+            "name": "Angolo del gusto",
+            "text": "Hidden in the narrow streets of Venice, this spot has carved its niche in the hearts of flavor seekers."
+          },
+          {
+            "name": "Antiche Carampane",
+            "text": "Antiche Carampane offers fresh seafood and rich sauces, delivering a lightly salty and sweet taste on the palate."
+          }
+        ],
+        "generic_desc": [],
+        "repeated_tips": []
+      }
+    },
+    {
+      "city_id": "berlin",
+      "city_name": "Berlin",
+      "total_highlights": 245,
+      "score": 88.88,
+      "status": "pass",
+      "metrics": {
+        "missing_tips_en": 0,
+        "short_tr_desc": 118,
+        "short_en_desc": 67,
+        "generic_tr_desc": 0,
+        "generic_en_desc": 0,
+        "repeated_tips": 0
+      },
+      "examples": {
+        "missing_tips_en": [],
+        "short_tr_desc": [
+          {
+            "name": "8000 Vintages",
+            "text": "Berlin’in kalbinde yer alan 8000 Vintages, mahzen gibi karanlık köşeleri ve şarap meyine tarzıylagezi dostu bir sığınak sunuyor."
+          },
+          {
+            "name": "963",
+            "text": "Kahve çekirdeklerinin kavrulmuş kokusu, ahşap masalarda yankılanan neşeli sohbetlerle buluşuyor. Soğuk bir esinti, dışarıdaki canlılığa dair ipuçları taşıyor."
+          },
+          {
+            "name": "A Mano",
+            "text": "Berlin’in kalbinde, A Mano, yerel malzemelerle hazırlanan sadece el yapımı makarnalarıyla tanınır, geleneksel tariflere modern bir dokunuş sunar."
+          },
+          {
+            "name": "Aapka - Restaurant Berlin Alexanderplatz",
+            "text": "Aapka, yerel tatların ve sıcak renklerin buluştuğu bir mekân; Berlin Alexanderplatz'ın samimi ruhunu sunuyor."
+          },
+          {
+            "name": "Adana Grillhaus Kreuzberg",
+            "text": "Kebapların dumanı, baharatların büyüsüyle birleşiyor; Adana Grillhaus'ta duygusal bir lezzet yolculuğuna çıkacaksınız."
+          },
+          {
+            "name": "Anjoy Pastry",
+            "text": "Berlin'in kalbinde Anjoy, zarif pastalar ve sıcak atmosferle dolu bir sığınak sunuyor."
+          }
+        ],
+        "short_en_desc": [
+          {
+            "name": "Aapka - Restaurant Berlin Alexanderplatz",
+            "text": "Aapka is a place where local flavors and warm colors converge, offering the sincere spirit of Berlin Alexanderplatz."
+          },
+          {
+            "name": "Anjoy Pastry",
+            "text": "Anjoy, nestled in the heart of Berlin, offers a sanctuary filled with elegant pastries and a warm atmosphere."
+          },
+          {
+            "name": "Bandol sur mer",
+            "text": "Offering fresh seafood in every season, Bandol sur mer promises an extraordinary discovery."
+          },
+          {
+            "name": "Bar Dell",
+            "text": "The aroma of coffee mingles with earthy tones in a space offering serenity away from the city's clamor."
+          },
+          {
+            "name": "Bikini Berlin",
+            "text": "Bikini Berlin seamlessly intertwines modern aesthetics, dynamic shops, and vibrant ambiance, creating a shopping experience fused with art."
+          },
+          {
+            "name": "Bottega Alimentare Portamivia",
+            "text": "Bottega Alimentare Portamivia is a hidden gem where local craft beer meets wood-fired meats in a cozy atmosphere."
+          }
+        ],
+        "generic_desc": [],
+        "repeated_tips": []
+      }
+    },
+    {
+      "city_id": "nice",
+      "city_name": "Nice",
+      "total_highlights": 224,
+      "score": 89.7,
+      "status": "pass",
+      "metrics": {
+        "missing_tips_en": 0,
+        "short_tr_desc": 104,
+        "short_en_desc": 52,
+        "generic_tr_desc": 1,
+        "generic_en_desc": 0,
+        "repeated_tips": 0
+      },
+      "examples": {
+        "missing_tips_en": [],
+        "short_tr_desc": [
+          {
+            "name": "\"Mary's sweeties\" gâteaux sur commande",
+            "text": "Nice'in kalbinde, modern tatlarla dolu yaşanmışlık ve tazelik içinde enfes gâteaux ve tatlılar sunuluyor."
+          },
+          {
+            "name": "Au Goût Thé D'antan",
+            "text": "Nice’in kalbinde, nostaljik bir atmosferde, zarif bir çay seti ile birlikte efsanevi macarons tadabilirsiniz."
+          },
+          {
+            "name": "Au Sud De Nulle Part",
+            "text": "Nice'nin kalbinde gizlenmiş, pastel renklerle dolu bir bahçe; Akdeniz rüzgarı eşliğinde, sakin bir yudumda çiçeklerin tatlarını keşfedin."
+          },
+          {
+            "name": "Bakery By Michel Fiori",
+            "text": "Nice'ın sokaklarını canlandıran, lezzet dolu ve samimi bir atmosferde, Michel Fiori'nin fırınında tatlılar sizi bekliyor."
+          },
+          {
+            "name": "Bar Saint Nicolas",
+            "text": "Sıradan bir barda değil, samimi sohbetler ve düşünceli kokteyllerle dolu, şarap mahzenine benzeyen sıcak bir atmosfer sunuyor."
+          },
+          {
+            "name": "Bar de la Victoire",
+            "text": "Enerjik bir atmosferde, yerel sanatçılar ve genç profesyonellerle dolup taşıyor. Bar, her zaman canlı bir sohbet mekanıdır."
+          }
+        ],
+        "short_en_desc": [
+          {
+            "name": "Au Goût Thé D'antan",
+            "text": "In the heart of Nice, savor legendary macarons alongside an exquisite tea set in a nostalgic atmosphere."
+          },
+          {
+            "name": "Bakery By Michel Fiori",
+            "text": "In a warm atmosphere filled with flavor, pastries await you at Michel Fiori, enlivening the streets of Nice."
+          },
+          {
+            "name": "Bar de la Victoire",
+            "text": "An energetic atmosphere filled with local artists and young professionals, the bar is always a hub for lively conversations."
+          },
+          {
+            "name": "Café Fino | Brunch, Coffee Shop",
+            "text": "The exterior of Café Fino, filled with shades of yellow and blue, reflects the elegance of Neoclassical architecture."
+          },
+          {
+            "name": "Café Marché",
+            "text": "Café Marché buzzes with local artists and writers, creating a vibrant atmosphere."
+          },
+          {
+            "name": "Café des Musiciens",
+            "text": "Café des Musiciens offers a lively atmosphere where local musicians gather, providing an intimate café experience."
+          }
+        ],
+        "generic_desc": [
+          {
+            "name": "Nice Sunset",
+            "tr": "Sakin bir akşamda, mavi gökyüzü ve denizle bütünleşen zarif kokteyller eşliğinde gün batımını izlemek için harika bir yer burası.",
+            "en": "On a calm evening, this place offers exquisite cocktails paired with a breathtaking sunset that melds with the blue sky and sea."
+          }
+        ],
+        "repeated_tips": []
+      }
+    }
+  ],
+  "config": {
+    "pilot_cities": [
+      "istanbul",
+      "barcelona",
+      "paris",
+      "roma",
+      "londra",
+      "amsterdam",
+      "madrid",
+      "venedik",
+      "berlin",
+      "nice"
+    ],
+    "min_words": 20,
+    "generic_patterns": [
+      "must-see",
+      "top spot",
+      "worth visiting",
+      "great choice",
+      "perfect for your trip",
+      "mutlaka görmeniz gereken",
+      "harika bir yer",
+      "kesinlikle görülmeli"
+    ]
+  }
+}

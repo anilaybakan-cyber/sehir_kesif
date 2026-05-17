@@ -6,8 +6,10 @@ import '../models/chat_message.dart';
 import '../services/ai_service.dart';
 import '../services/city_data_loader.dart';
 import '../services/premium_service.dart';
+import '../theme/wanderlust_colors.dart';
 import 'detail_screen.dart';
 import 'paywall_screen.dart';
+import '../services/image_prefetch_service.dart';
 
 class AIChatScreen extends StatefulWidget {
   final CityModel? city;
@@ -36,12 +38,14 @@ class _AIChatScreenState extends State<AIChatScreen> {
   bool _showingHistory = false; // Geçmiş görünümü mü?
 
   // Colors
-  static const Color bgDark = Color(0xFF0D0D1A);
-  static const Color bgCard = Color(0xFF1C1C2E);
-  static const Color accent = Color(0xFF9B8FE8);
-  static const Color textWhite = Color(0xFFFFFFFF);
-  static const Color textGrey = Color(0xFF9CA3AF);
-  static const Color borderColor = Color(0xFF2D2D4A);
+  static const Color bgDark = WanderlustColors.bgDark;
+  static const Color bgCard = WanderlustColors.bgCard;
+  static const Color bgCardLight = WanderlustColors.bgCardLight;
+  static const Color accent = WanderlustColors.accent;
+  static const Color onAccent = Colors.white;
+  static const Color textPrimary = WanderlustColors.textWhite;
+  static const Color textGrey = WanderlustColors.textGrey;
+  static const Color borderColor = WanderlustColors.borderLight;
 
   List<String> get _quickQuestions => [
     // Yemek & İçecek
@@ -212,6 +216,8 @@ class _AIChatScreenState extends State<AIChatScreen> {
       }
 
       if (foundPlace != null && mounted) {
+        // Fotoğrafı prefetch et
+        ImagePrefetchService.prefetchSinglePhoto(context, foundPlace!.imageUrl, heroDecode: true);
         Navigator.push(
           context,
           MaterialPageRoute(builder: (_) => DetailScreen(place: foundPlace!)),
@@ -239,7 +245,7 @@ class _AIChatScreenState extends State<AIChatScreen> {
         elevation: 0,
         scrolledUnderElevation: 0,
         leading: IconButton(
-          icon: const Icon(Icons.arrow_back_ios_new_rounded, color: textWhite, size: 20),
+          icon: const Icon(Icons.arrow_back_ios_new_rounded, color: textPrimary, size: 20),
           onPressed: () {
             if (_showingHistory) {
               setState(() => _showingHistory = false);
@@ -271,7 +277,7 @@ class _AIChatScreenState extends State<AIChatScreen> {
                 Text(
                   AppLocalizations.instance.aiAssistant,
                   style: const TextStyle(
-                    color: textWhite,
+                    color: textPrimary,
                     fontSize: 16,
                     fontWeight: FontWeight.w700,
                   ),
@@ -279,7 +285,7 @@ class _AIChatScreenState extends State<AIChatScreen> {
                 Text(
                   widget.city?.city ?? AppLocalizations.instance.city,
                   style: TextStyle(
-                    color: textWhite.withOpacity(0.6),
+                    color: textGrey,
                     fontSize: 12,
                     fontWeight: FontWeight.w400,
                   ),
@@ -294,7 +300,7 @@ class _AIChatScreenState extends State<AIChatScreen> {
             IconButton(
               icon: Stack(
                 children: [
-                  const Icon(Icons.history_rounded, color: textWhite, size: 24),
+                  const Icon(Icons.history_rounded, color: textPrimary, size: 24),
                   Positioned(
                     right: 0,
                     top: 0,
@@ -306,7 +312,7 @@ class _AIChatScreenState extends State<AIChatScreen> {
                       ),
                       child: Text(
                         _messages.length.toString(),
-                        style: const TextStyle(color: textWhite, fontSize: 10, fontWeight: FontWeight.bold),
+                        style: const TextStyle(color: onAccent, fontSize: 10, fontWeight: FontWeight.bold),
                       ),
                     ),
                   ),
@@ -356,7 +362,7 @@ class _AIChatScreenState extends State<AIChatScreen> {
             Text(
               AppLocalizations.instance.helloAI,
               style: const TextStyle(
-                color: textWhite,
+                color: textPrimary,
                 fontSize: 24,
                 fontWeight: FontWeight.w700,
               ),
@@ -421,7 +427,7 @@ class _AIChatScreenState extends State<AIChatScreen> {
               child: Text(
                 question,
                 style: const TextStyle(
-                  color: textWhite, 
+                  color: textPrimary, 
                   fontSize: 14, 
                   fontWeight: FontWeight.w500
                 ),
@@ -465,7 +471,7 @@ class _AIChatScreenState extends State<AIChatScreen> {
         border: Border(top: BorderSide(color: borderColor)),
         boxShadow: [
           BoxShadow(
-            color: Colors.black.withOpacity(0.2),
+            color: accent.withOpacity(0.08),
             blurRadius: 10,
             offset: const Offset(0, -5),
           ),
@@ -503,7 +509,7 @@ class _AIChatScreenState extends State<AIChatScreen> {
         child: Container(
           padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
           decoration: BoxDecoration(
-            color: bgDark,
+            color: bgCardLight,
             borderRadius: BorderRadius.circular(20),
             border: Border.all(color: accent.withOpacity(0.3)),
           ),
@@ -514,7 +520,7 @@ class _AIChatScreenState extends State<AIChatScreen> {
               const SizedBox(width: 8),
               Text(
                 question,
-                style: const TextStyle(color: textWhite, fontSize: 13, fontWeight: FontWeight.w500),
+                style: const TextStyle(color: textPrimary, fontSize: 13, fontWeight: FontWeight.w500),
               ),
             ],
           ),
@@ -573,7 +579,7 @@ class _AIChatScreenState extends State<AIChatScreen> {
                   ? Text(
                       message.text,
                       style: const TextStyle(
-                        color: textWhite,
+                        color: onAccent,
                         fontSize: 15,
                         height: 1.4,
                       ),
@@ -596,7 +602,7 @@ class _AIChatScreenState extends State<AIChatScreen> {
       if (match.start > lastEnd) {
         spans.add(TextSpan(
           text: text.substring(lastEnd, match.start),
-          style: const TextStyle(color: textWhite, fontSize: 15, height: 1.5),
+          style: const TextStyle(color: textPrimary, fontSize: 15, height: 1.5),
         ));
       }
 
@@ -630,7 +636,7 @@ class _AIChatScreenState extends State<AIChatScreen> {
                   child: Text(
                     displayName,
                     style: const TextStyle(
-                      color: Colors.white,
+                      color: textPrimary,
                       fontSize: 13,
                       fontWeight: FontWeight.w600,
                       letterSpacing: -0.2,
@@ -651,14 +657,14 @@ class _AIChatScreenState extends State<AIChatScreen> {
     if (lastEnd < text.length) {
       spans.add(TextSpan(
         text: text.substring(lastEnd),
-        style: const TextStyle(color: textWhite, fontSize: 15, height: 1.5),
+        style: const TextStyle(color: textPrimary, fontSize: 15, height: 1.5),
       ));
     }
 
     if (spans.isEmpty) {
       return Text(
         text,
-        style: const TextStyle(color: textWhite, fontSize: 15, height: 1.5),
+        style: const TextStyle(color: textPrimary, fontSize: 15, height: 1.5),
       );
     }
 

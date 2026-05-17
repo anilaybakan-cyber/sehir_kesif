@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Şehir Keşif - City Discovery App</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            background: linear-gradient(135deg, #F7F2EA 0%, #FFFCF8 50%, #F2EBE3 100%);
+            min-height: 100vh;
+            color: #2F2638;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 60px 24px;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 48px;
+        }
+
+        .logo {
+            width: 80px;
+            height: 80px;
+            background: linear-gradient(135deg, #807AF5 0%, #A5A1FA 100%);
+            border-radius: 20px;
+            margin: 0 auto 24px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 36px;
+        }
+
+        h1 {
+            font-size: 32px;
+            font-weight: 700;
+            margin-bottom: 8px;
+            color: #2F2638;
+        }
+
+        .subtitle {
+            color: #7D738A;
+            font-size: 18px;
+        }
+
+        .language-toggle {
+            margin-bottom: 32px;
+            text-align: center;
+        }
+
+        .lang-btn {
+            background: #807AF5;
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            margin: 0 4px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 14px;
+            transition: all 0.3s ease;
+        }
+
+        .lang-btn.active {
+            background: #6E67E8;
+            transform: translateY(-1px);
+        }
+
+        .lang-btn:hover {
+            background: #6E67E8;
+        }
+
+        .card {
+            background: #FFFCF8;
+            backdrop-filter: blur(10px);
+            border-radius: 16px;
+            padding: 32px;
+            margin-bottom: 24px;
+            border: 1px solid rgba(128, 122, 245, 0.14);
+            box-shadow: 0 4px 20px rgba(128, 122, 245, 0.08);
+        }
+
+        .card h2 {
+            font-size: 20px;
+            margin-bottom: 16px;
+            color: #807AF5;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .card p {
+            color: #7D738A;
+            margin-bottom: 12px;
+        }
+
+        .info-cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 16px;
+            margin-top: 24px;
+        }
+
+        .info-card {
+            background: rgba(128, 122, 245, 0.08);
+            border-radius: 12px;
+            padding: 20px;
+            text-align: center;
+            border: 1px solid rgba(128, 122, 245, 0.2);
+        }
+
+        .info-card-icon {
+            font-size: 24px;
+            margin-bottom: 8px;
+        }
+
+        .info-card-title {
+            font-weight: 600;
+            color: #2F2638;
+            margin-bottom: 4px;
+            font-size: 14px;
+        }
+
+        .info-card-value {
+            color: #7D738A;
+            font-size: 16px;
+        }
+
+        .category-chips {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-top: 16px;
+        }
+
+        .category-chip {
+            background: linear-gradient(135deg, #E6A574 0%, #D4B07A 100%);
+            color: white;
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: 500;
+        }
+
+        .contact-info {
+            background: rgba(128, 122, 245, 0.15);
+            border-radius: 12px;
+            padding: 24px;
+            text-align: center;
+            border: 1px solid rgba(128, 122, 245, 0.28);
+        }
+
+        .email-link {
+            display: inline-block;
+            color: #6E67E8;
+            font-size: 20px;
+            font-weight: 600;
+            text-decoration: none;
+            padding: 12px 24px;
+            background: rgba(128, 122, 245, 0.14);
+            border-radius: 8px;
+            margin-top: 12px;
+            transition: all 0.3s ease;
+            border: 1px solid rgba(128, 122, 245, 0.28);
+        }
+
+        .email-link:hover {
+            background: rgba(128, 122, 245, 0.2);
+            transform: translateY(-2px);
+        }
+
+        .response-time {
+            margin-top: 16px;
+            font-size: 14px;
+            color: #7D738A;
+        }
+
+        .faq-item {
+            border-bottom: 1px solid rgba(128, 122, 245, 0.14);
+            padding: 16px 0;
+        }
+
+        .faq-item:last-child {
+            border-bottom: none;
+        }
+
+        .faq-question {
+            font-weight: 600;
+            margin-bottom: 8px;
+            color: #2F2638;
+        }
+
+        .faq-answer {
+            color: #7D738A;
+            font-size: 15px;
+        }
+
+        .back-link {
+            display: inline-block;
+            color: #7D738A;
+            text-decoration: none;
+            margin-top: 32px;
+            font-size: 14px;
+        }
+
+        .back-link:hover {
+            color: #807AF5;
+        }
+
+        .place-example {
+            background: rgba(128, 122, 245, 0.05);
+            border-radius: 12px;
+            padding: 24px;
+            margin-top: 24px;
+        }
+
+        .place-title {
+            font-size: 18px;
+            font-weight: 600;
+            color: #2F2638;
+            margin-bottom: 8px;
+        }
+
+        .place-description {
+            color: #7D738A;
+            margin-bottom: 16px;
+            line-height: 1.6;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 40px 16px;
+            }
+            
+            .info-cards {
+                grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">🗺️</div>
+            <h1 id="main-title">Şehir Keşif</h1>
+            <p class="subtitle" id="main-subtitle">Dünyayı keşfetmek için buradayız</p>
+        </div>
+
+        <!-- Language Toggle -->
+        <div class="language-toggle">
+            <button class="lang-btn active" onclick="setLanguage('tr')">Türkçe</button>
+            <button class="lang-btn" onclick="setLanguage('en')">English</button>
+        </div>
+
+        <!-- About Section -->
+        <div class="card">
+            <h2 id="about-title">
+                <span>ℹ️</span>
+                <span>Hakkında</span>
+            </h2>
+            <p id="about-description">
+                Şehir Keşif, seyahat planlamanızı kolaylaştıran modern bir mobil uygulamadır. 
+                Kişiselleştirilmiş rotalar, detaylı mekan bilgileri ve yerel önerilerle seyahatlerinizi unutulmaz kılın.
+                Popüler destinasyonlarda en iyi yerleri keşfedin ve kendi yolunuzu çizin.
+            </p>
+        </div>
+
+        <!-- Place Details Example -->
+        <div class="card">
+            <h2 id="place-details-title">
+                <span>📍</span>
+                <span>Mekan Detayları Örneği</span>
+            </h2>
+            
+            <div class="place-example">
+                <div class="place-title" id="place-name">Sagrada Familia</div>
+                <div class="place-description" id="place-description-text">
+                    Antoni Gaudí'nin başyapıtı olan bu bazilika, Barcelona'nın ikonik simgelerinden biridir. 
+                    İnşaatı 1882'de başlayan ve hala devam eden bu yapı, modernist mimarinin en güzel örneklerindendir.
+                    The basilica, which is the masterpiece of Antoni Gaudí, is one of the iconic symbols of Barcelona. 
+                    This structure, whose construction began in 1882 and is still ongoing, is one of the finest examples of modernist architecture.
+                </div>
+                
+                <!-- Info Cards -->
+                <div class="info-cards">
+                    <div class="info-card">
+                        <div class="info-card-icon">📍</div>
+                        <div class="info-card-title" id="location-label">Konum</div>
+                        <div class="info-card-value">Eixample, Barcelona</div>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-card-icon">📏</div>
+                        <div class="info-card-title" id="distance-label">Mesafe</div>
+                        <div class="info-card-value">2.5 km şehir merkezinden</div>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-card-icon">💰</div>
+                        <div class="info-card-title" id="price-label">Fiyat</div>
+                        <div class="info-card-value">€26</div>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-card-icon">⏰</div>
+                        <div class="info-card-title" id="best-time-label">En İyi Zaman</div>
+                        <div class="info-card-value">Sabah 9:00</div>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-card-icon">🚇</div>
+                        <div class="info-card-title">Metro</div>
+                        <div class="info-card-value">Sagrada Familia (L2, L5)</div>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-card-icon">⏱️</div>
+                        <div class="info-card-title" id="duration-label">Süre</div>
+                        <div class="info-card-value">2-3 saat</div>
+                    </div>
+                </div>
+
+                <!-- Category Chips -->
+                <div class="category-chips">
+                    <div class="category-chip" id="category-museum">Müze</div>
+                    <div class="category-chip" id="category-historic">Tarihi</div>
+                    <div class="category-chip" id="category-religious">Dini</div>
+                    <div class="category-chip" id="category-architecture">Mimari</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact Section -->
+        <div class="card">
+            <h2 id="contact-title">
+                <span>📧</span>
+                <span>İletişim</span>
+            </h2>
+            <p id="contact-description">Sorularınız, geri bildirimleriniz veya yardıma ihtiyacınız var mı? Sizi duymak isteriz!</p>
+            <div class="contact-info">
+                <p id="contact-email-label">Bize e-posta gönderin:</p>
+                <a href="mailto:info@sehirkesif.com" class="email-link">info@sehirkesif.com</a>
+                <p class="response-time" id="response-time">Genellikle 24-48 saat içinde yanıt veriyoruz</p>
+            </div>
+        </div>
+
+        <!-- FAQ Section -->
+        <div class="card">
+            <h2 id="faq-title">
+                <span>❓</span>
+                <span>Sıkça Sorulan Sorular</span>
+            </h2>
+
+            <div class="faq-item">
+                <p class="faq-question" id="faq-route-question">Nasıl rota oluştururum?</p>
+                <p class="faq-answer" id="faq-route-answer">
+                    Uygulamayı açın, şehrinizi seçin ve "Rota Oluştur"a dokunun veya yapay zeka asistanını kullanarak 
+                    tercihlerinize göre kişiselleştirilmiş rotalar oluşturun.
+                </p>
+            </div>
+
+            <div class="faq-item">
+                <p class="faq-question" id="faq-subscription-question">Aboneliğimi nasıl yönetebilirim?</p>
+                <p class="faq-answer" id="faq-subscription-answer">
+                    Aboneliğinizi cihazınızın Ayarlar → Apple ID → Abonelikler → Şehir Keşif bölümünden yönetebilir veya iptal edebilirsiniz.
+                </p>
+            </div>
+
+            <div class="faq-item">
+                <p class="faq-question" id="faq-restore-question">Satın alımımı nasıl geri yüklerim?</p>
+                <p class="faq-answer" id="faq-restore-answer">
+                    Uygulamayı açın, abonelik ekranına gidin ve alt kısımdaki "Satın Alımları Geri Yükle"ye dokunun.
+                </p>
+            </div>
+
+            <div class="faq-item">
+                <p class="faq-question" id="faq-privacy-question">Verilerim güvende mi?</p>
+                <p class="faq-answer" id="faq-privacy-answer">
+                    Evet! Gizliliğinizi ciddiye alıyoruz. Lütfen ayrıntılar için <a href="privacy.html" style="color: #807AF5;">Gizlilik Politikamızı</a> inceleyin.
+                </p>
+            </div>
+
+            <div class="faq-item">
+                <p class="faq-question" id="faq-cities-question">Hangi şehirler mevcut?</p>
+                <p class="faq-answer" id="faq-cities-answer">
+                    Şu anda Paris, Roma, Barcelona, Tokyo, New York ve daha fazlası olmak üzere 30+ popüler seyahat destinasyonunu destekliyoruz. 
+                    Yeni şehirler düzenli olarak ekleniyor!
+                </p>
+            </div>
+        </div>
+
+        <!-- App Info -->
+        <div class="card">
+            <h2 id="app-info-title">
+                <span>ℹ️</span>
+                <span>Uygulama Bilgileri</span>
+            </h2>
+            <p><strong id="app-name-label">Uygulama Adı:</strong> Şehir Keşif - Rota & Seyahat Planlayıcı</p>
+            <p><strong id="app-developer-label">Geliştirici:</strong> Anil Ebru</p>
+            <p><strong id="app-version-label">Sürüm:</strong> 1.0</p>
+        </div>
+
+        <a href="index.html" class="back-link" id="back-link">← Ana Sayfaya Dön</a>
+    </div>
+
+    <script>
+        const translations = {
+            tr: {
+                'main-title': 'Şehir Keşif',
+                'main-subtitle': 'Dünyayı keşfetmek için buradayız',
+                'about-title': 'ℹ️ Hakkında',
+                'about-description': 'Şehir Keşif, seyahat planlamanızı kolaylaştıran modern bir mobil uygulamadır. Kişiselleştirilmiş rotalar, detaylı mekan bilgileri ve yerel önerilerle seyahatlerinizi unutulmaz kılın. Popüler destinasyonlarda en iyi yerleri keşfedin ve kendi yolunuzu çizin.',
+                'place-details-title': '📍 Mekan Detayları Örneği',
+                'place-name': 'Sagrada Familia',
+                'place-description-text': 'Antoni Gaudí\'nin başyapıtı olan bu bazilika, Barcelona\'nın ikonik simgelerinden biridir. İnşaatı 1882\'de başlayan ve hala devam eden bu yapı, modernist mimarinin en güzel örneklerindendir.',
+                'location-label': 'Konum',
+                'distance-label': 'Mesafe',
+                'price-label': 'Fiyat',
+                'best-time-label': 'En İyi Zaman',
+                'duration-label': 'Süre',
+                'category-museum': 'Müze',
+                'category-historic': 'Tarihi',
+                'category-religious': 'Dini',
+                'category-architecture': 'Mimari',
+                'contact-title': '📧 İletişim',
+                'contact-description': 'Sorularınız, geri bildirimleriniz veya yardıma ihtiyacınız var mı? Sizi duymak isteriz!',
+                'contact-email-label': 'Bize e-posta gönderin:',
+                'response-time': 'Genellikle 24-48 saat içinde yanıt veriyoruz',
+                'faq-title': '❓ Sıkça Sorulan Sorular',
+                'faq-route-question': 'Nasıl rota oluştururum?',
+                'faq-route-answer': 'Uygulamayı açın, şehrinizi seçin ve "Rota Oluştur"a dokunun veya yapay zeka asistanını kullanarak tercihlerinize göre kişiselleştirilmiş rotalar oluşturun.',
+                'faq-subscription-question': 'Aboneliğimi nasıl yönetebilirim?',
+                'faq-subscription-answer': 'Aboneliğinizi cihazınızın Ayarlar → Apple ID → Abonelikler → Şehir Keşif bölümünden yönetebilir veya iptal edebilirsiniz.',
+                'faq-restore-question': 'Satın alımımı nasıl geri yüklerim?',
+                'faq-restore-answer': 'Uygulamayı açın, abonelik ekranına gidin ve alt kısımdaki "Satın Alımları Geri Yükle"ye dokunun.',
+                'faq-privacy-question': 'Verilerim güvende mi?',
+                'faq-privacy-answer': 'Evet! Gizliliğinizi ciddiye alıyoruz. Lütfen ayrıntılar için Gizlilik Politikamızı inceleyin.',
+                'faq-cities-question': 'Hangi şehirler mevcut?',
+                'faq-cities-answer': 'Şu anda Paris, Roma, Barcelona, Tokyo, New York ve daha fazlası olmak üzere 30+ popüler seyahat destinasyonunu destekliyoruz. Yeni şehirler düzenli olarak ekleniyor!',
+                'app-info-title': 'ℹ️ Uygulama Bilgileri',
+                'app-name-label': 'Uygulama Adı:',
+                'app-developer-label': 'Geliştirici:',
+                'app-version-label': 'Sürüm:',
+                'back-link': '← Ana Sayfaya Dön'
+            },
+            en: {
+                'main-title': 'City Discovery',
+                'main-subtitle': 'We\'re here to help you explore the world',
+                'about-title': 'ℹ️ About',
+                'about-description': 'City Discovery is a modern mobile app that makes travel planning easy. Create personalized routes, get detailed place information, and local recommendations to make your trips unforgettable. Discover the best places in popular destinations and chart your own path.',
+                'place-details-title': '📍 Place Details Example',
+                'place-name': 'Sagrada Familia',
+                'place-description-text': 'This basilica, the masterpiece of Antoni Gaudí, is one of the iconic symbols of Barcelona. This structure, whose construction began in 1882 and is still ongoing, is one of the finest examples of modernist architecture.',
+                'location-label': 'Location',
+                'distance-label': 'Distance',
+                'price-label': 'Price',
+                'best-time-label': 'Best Time',
+                'duration-label': 'Duration',
+                'category-museum': 'Museum',
+                'category-historic': 'Historic',
+                'category-religious': 'Religious',
+                'category-architecture': 'Architecture',
+                'contact-title': '📧 Contact Us',
+                'contact-description': 'Have questions, feedback, or need assistance? We\'d love to hear from you!',
+                'contact-email-label': 'Email us at:',
+                'response-time': 'We typically respond within 24-48 hours',
+                'faq-title': '❓ Frequently Asked Questions',
+                'faq-route-question': 'How do I create a route?',
+                'faq-route-answer': 'Open the app, select your city, and tap on "Create Route" or use the AI assistant to generate personalized routes based on your preferences.',
+                'faq-subscription-question': 'How do I manage my subscription?',
+                'faq-subscription-answer': 'You can manage or cancel your subscription through your device\'s Settings → Apple ID → Subscriptions → City Discovery.',
+                'faq-restore-question': 'How do I restore my purchase?',
+                'faq-restore-answer': 'Open the app, go to the subscription screen, and tap "Restore Purchases" at the bottom.',
+                'faq-privacy-question': 'Is my data secure?',
+                'faq-privacy-answer': 'Yes! We take your privacy seriously. Please review our Privacy Policy for details.',
+                'faq-cities-question': 'Which cities are available?',
+                'faq-cities-answer': 'We currently support 30+ popular travel destinations including Paris, Rome, Barcelona, Tokyo, New York, and many more. New cities are added regularly!',
+                'app-info-title': 'ℹ️ App Information',
+                'app-name-label': 'App Name:',
+                'app-developer-label': 'Developer:',
+                'app-version-label': 'Version:',
+                'back-link': '← Back to Home'
+            }
+        };
+
+        let currentLanguage = 'tr';
+
+        function setLanguage(lang) {
+            currentLanguage = lang;
+            
+            // Update button states
+            document.querySelectorAll('.lang-btn').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            event.target.classList.add('active');
+            
+            // Update all translatable elements
+            Object.keys(translations[lang]).forEach(key => {
+                const element = document.getElementById(key);
+                if (element) {
+                    if (key.includes('title') && key !== 'main-title') {
+                        // For titles with icons, update only the text part
+                        const iconSpan = element.querySelector('span:first-child');
+                        const textSpan = element.querySelector('span:last-child');
+                        if (iconSpan && textSpan) {
+                            textSpan.textContent = translations[lang][key].split(' ')[1];
+                        } else {
+                            element.textContent = translations[lang][key];
+                        }
+                    } else {
+                        element.textContent = translations[lang][key];
+                    }
+                }
+            });
+            
+            // Update place description based on language
+            const placeDescription = document.getElementById('place-description-text');
+            if (placeDescription) {
+                if (lang === 'tr') {
+                    placeDescription.textContent = 'Antoni Gaudí\'nin başyapıtı olan bu bazilika, Barcelona\'nın ikonik simgelerinden biridir. İnşaatı 1882\'de başlayan ve hala devam eden bu yapı, modernist mimarinin en güzel örneklerindendir.';
+                } else {
+                    placeDescription.textContent = 'This basilica, the masterpiece of Antoni Gaudí, is one of the iconic symbols of Barcelona. This structure, whose construction began in 1882 and is still ongoing, is one of the finest examples of modernist architecture.';
+                }
+            }
+            
+            // Update info card values based on language
+            const infoCards = document.querySelectorAll('.info-card-value');
+            if (infoCards.length >= 4) {
+                if (lang === 'tr') {
+                    infoCards[1].textContent = '2.5 km şehir merkezinden';
+                    infoCards[3].textContent = 'Sabah 9:00';
+                } else {
+                    infoCards[1].textContent = '2.5 km from city center';
+                    infoCards[3].textContent = 'Morning 9:00 AM';
+                }
+            }
+        }
+    </script>
+</body>
+
+</html>

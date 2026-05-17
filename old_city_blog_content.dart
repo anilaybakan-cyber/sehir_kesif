@@ -1,0 +1,6849 @@
+/// City Blog Content - Detailed guide content for all cities
+class CityBlogContent {
+  
+  static String getContent(String city, bool isEnglish) {
+    final c = city.toLowerCase().trim();
+    
+    switch (c) {
+      case 'roma':
+      case 'rome':
+        return isEnglish ? _romaEN : _romaTR;
+      case 'londra':
+      case 'london':
+        return isEnglish ? _londraEN : _londraTR;
+      case 'berlin':
+        return isEnglish ? _berlinEN : _berlinTR;
+      case 'amsterdam':
+        return isEnglish ? _amsterdamEN : _amsterdamTR;
+      case 'tokyo':
+        return isEnglish ? _tokyoEN : _tokyoTR;
+      case 'new york':
+        return isEnglish ? _newyorkEN : _newyorkTR;
+      case 'atina':
+      case 'athens':
+        return isEnglish ? _atinaEN : _atinaTR;
+      case 'prag':
+      case 'prague':
+        return isEnglish ? _pragEN : _pragTR;
+      case 'viyana':
+      case 'vienna':
+        return isEnglish ? _viyanaEN : _viyanaTR;
+      case 'lizbon':
+      case 'lisbon':
+        return isEnglish ? _lizbonEN : _lizbonTR;
+      case 'porto':
+        return isEnglish ? _portoEN : _portoTR;
+      case 'floransa':
+      case 'florence':
+        return isEnglish ? _floransaEN : _floransaTR;
+      // case 'venedik':
+      // case 'venice':
+      //   return isEnglish ? _venedikEN : _venedikTR;
+      case 'madrid':
+        return isEnglish ? _madridEN : _madridTR;
+      case 'sevilla':
+      case 'seville':
+        return isEnglish ? _sevillaEN : _sevillaTR;
+      case 'dubai':
+        return isEnglish ? _dubaiEN : _dubaiTR;
+      case 'singapur':
+      case 'singapore':
+        return isEnglish ? _singapurEN : _singapurTR;
+      case 'bangkok':
+        return isEnglish ? _bangkokEN : _bangkokTR;
+      case 'seul':
+      case 'seoul':
+        return isEnglish ? _seulEN : _seulTR;
+      case 'istanbul':
+      case 'İstanbul':
+      case 'i̇stanbul':
+        return isEnglish ? _istanbulEN : _istanbulTR;
+      case 'paris':
+        return isEnglish ? _parisEN : _parisTR;
+      case 'marakes':
+      case 'marakeş':
+      case 'marrakech':
+        return isEnglish ? _marakesEN : _marakesTR;
+      case 'milano':
+      case 'milan':
+        return isEnglish ? _milanoEN : _milanoTR;
+      case 'napoli':
+      case 'naples':
+        return isEnglish ? _napoliEN : _napoliTR;
+      case 'budapeste':
+      case 'budapeşte':
+      case 'budapest':
+        return isEnglish ? _budapesteEN : _budapesteTR;
+      case 'stokholm':
+      case 'stockholm':
+        return isEnglish ? _stokholmEN : _stokholmTR;
+      case 'zurih':
+      case 'zürih':
+      case 'zurich':
+        return isEnglish ? _zurihEN : _zurihTR;
+      case 'cenevre':
+      case 'geneva':
+        return isEnglish ? _cenevreEN : _cenevreTR;
+      case 'lucerne':
+      case 'luzern':
+        return isEnglish ? _lucerneEN : _lucerneTR;
+      case 'lyon':
+        return isEnglish ? _lyonEN : _lyonTR;
+      case 'marsilya':
+      case 'marseille':
+        return isEnglish ? _marsilyaEN : _marsilyaTR;
+      case 'nice':
+        return isEnglish ? _niceEN : _niceTR;
+      case 'hongkong':
+      case 'hong kong':
+        return isEnglish ? _hongKongEN : _hongKongTR;
+      case 'dublin':
+        return isEnglish ? _dublinEN : _dublinTR;
+      case 'kopenhag':
+      case 'copenhagen':
+        return isEnglish ? _kopenhagEN : _kopenhagTR;
+      case 'barcelona':
+        return isEnglish ? _barcelonaEN : _barcelonaTR;
+      case 'newyork':
+      case 'new york':
+        return isEnglish ? _newyorkEN : _newyorkTR;
+      case 'antalya':
+        return isEnglish ? _antalyaEN : _antalyaTR;
+      case 'kapadokya':
+        return isEnglish ? _kapadokyaEN : _kapadokyaTR;
+      case 'gaziantep':
+        return isEnglish ? _gaziantepEN : _gaziantepTR;
+
+      case 'belgrad':
+      case 'belgrade':
+        return isEnglish ? _belgradEN : _belgradTR;
+      case 'saraybosna':
+      case 'sarajevo':
+        return isEnglish ? _saraybosnaEN : _saraybosnaTR;
+      case 'kotor':
+        return isEnglish ? _kotorEN : _kotorTR;
+      case 'oslo':
+        return isEnglish ? _osloEN : _osloTR;
+      case 'rovaniemi':
+        return isEnglish ? _rovaniemiEN : _rovaniemiTR;
+      case 'tromso':
+      case 'tromsø':
+        return isEnglish ? _tromsoEN : _tromsoTR;
+      case 'edinburgh':
+        return isEnglish ? _edinburghEN : _edinburghTR;
+      case 'bruksel':
+      case 'brussels':
+        return isEnglish ? _brukselEN : _brukselTR;
+      case 'brugge':
+      case 'bruges':
+        return isEnglish ? _bruggeEN : _bruggeTR;
+      case 'strazburg':
+      case 'strasbourg':
+        return isEnglish ? _strazburgEN : _strazburgTR;
+      case 'heidelberg':
+        return isEnglish ? _heidelbergEN : _heidelbergTR;
+      case 'colmar':
+        return isEnglish ? _colmarEN : _colmarTR;
+      case 'giethoorn':
+        return isEnglish ? _giethoornEN : _giethoornTR;
+      case 'sintra':
+        return isEnglish ? _sintraEN : _sintraTR;
+      case 'san_sebastian':
+      case 'san sebastian':
+        return isEnglish ? _sanSebastianEN : _sanSebastianTR;
+      case 'bologna':
+        return isEnglish ? _bolognaEN : _bolognaTR;
+      case 'matera':
+        return isEnglish ? _materaEN : _materaTR;
+      case 'santorini':
+        return isEnglish ? _santoriniEN : _santoriniTR;
+      case 'kahire':
+      case 'cairo':
+        return isEnglish ? _kahireEN : _kahireTR;
+      case 'fes':
+      case 'fez':
+        return isEnglish ? _fesEN : _fesTR;
+      case 'zermatt':
+        return isEnglish ? _zermattEN : _zermattTR;
+      case 'hallstatt':
+        return isEnglish ? _hallstattEN : _hallstattTR;
+      default:
+        return '';
+    }
+  }
+
+  // ROMA
+  static const _romaTR = '''# Roma: Tarihin Kalbi, Ebedi Şehir
+
+**Hızlı Bakış:** Roma, adımınızı attığınız andan itibaren sizi adeta “estetik bir sarhoşluk” hissine sürükler. Burası bir açık hava müzesinden çok daha fazlası; 2000 yıllık bir tapınağın gölgesinde espresso’sunu yudumlayan lokallerin, dar sokaklarda vızıldayan Vespa’ların ve her köşe başında fışkıran Barok çeşmelerin yarattığı devasa bir hayat sahnesidir. Şehri anlamak için sadece binalara bakmak yetmez. Akşamüstü güneşinin taş cepheleri hangi turuncuya boyadığını görmek ve tarihin tozlu sayfalarının günlük hayatın sıradan bir parçasına nasıl dönüştüğünü hissetmeniz gerekir. İhtişam burada öyle sıradanlaşmıştır ki, bir süre sonra siz de alıştığınızı fark edersiniz.
+
+Gitmeden önce küçük bir not. Roma’da trafik, şehrin kaotik temposunun en yüksek sesli parçasıdır. Daracık sokaklarda bir sanat eseri gibi süzülen Vespa’lar ve her an her yerden çıkabilen yayalar, Roma’nın karakteristik hareketliliği. Şehir merkezinde araba kullanmak bir meydan okuma olabilir. Bu yüzden en iyi plan, rahat bir ayakkabı giyip Roma’yı yürüyerek ya da metro hatlarıyla keşfetmektir. Yürürken şehrin dört bir yanına yayılmış antik sokak çeşmeleri yani şehrin gizli kahramanı "Nasoni" (Büyük Burunlar) ile tanışacağınıza emin olabilirsiniz. Mataranızı mutlaka yanında bulundurun ve Roma’yı bir lokal gibi deneyimlemenin en ferahlatıcı yolunu deneyimleyin. Ek olarak, şehrin her yerinde kredi kartı kullanımı yaygın olsa da, mahalle aralarındaki o salaş dükkanlarda veya yerel pazarlarda bir dilim pizza alırken cebinizde nakit bulundurmak hala hayat kurtarır.
+
+## 📅 Takviminizi Ayarlayın: Hangi Mevsim Sizin?
+
+Roma’nın ışığı her mevsimde başka bir hikâye fısıldar. Bu şehri ne zaman ziyaret edeceğiniz, o hayalinizdeki Roma rüyasını hangi tonda yaşamak istediğinize bağlıdır.
+
+- **İlkbahar (Nisan - Haziran):** Roma’nın en taze ve en renkli uyanışıdır. Hava o yakıcı sıcaklara henüz dönmemişken, İspanyol Merdivenleri açelyalarla bezenir. Sokaklarda yorulmadan yürümek, her köşe başındaki "Nasoni" çeşmelerinden buz gibi su içmek için en güzel zamandır. Eğer 21 Nisan'da Roma'nın Doğum Günü kutlamalarına denk gelirseniz, şehrin antik ruhunun neşeyle canlandığını görebilirsiniz. Bu dönem, Roma’nın o meşhur "Sanpietrini" (bazalt yer döşemeleri) üzerinde henüz ayaklarınız yanmadan uzun yürüyüşler yapmak için de en konforlu vakittir.
+- **Yaz (Temmuz - Ağustos):** Şehrin en tutkulu, en hareketli ve en sıcak olduğu dönem. Güneş taş binaları ısıtırken, akşamları Tiber Nehri kıyısında kurulan stantlar şehre bambaşka bir enerji katar. Ağustos ayında Romalıların tatile kaçtığı Ferragosto döneminde bazı yerel dükkanlar kapalı olabilir ama şehir tamamen sizin keşfinize kalır. Küçük bir not: Yazın o devasa taş binalar sıcağı hapseder ve akşam bile dışarıya ısı verir; bu yüzden çantanızda hem güneşten hem de kiliselerdeki kıyafet kodundan korunmak için ince bir şal bulundurmak akıllıca olacaktır.
+- **Sonbahar (Eylül - Ekim):** Romalıların en sevdiği, o meşhur "Ottobrate Romane" (Roma Sonbaharı) zamanı. Gökyüzü masmavi, güneş ise şehri altına boyayan o efsanevi yumuşak ışığını sunar. Hava ne terletir ne de üşütür; akşamüstleri bir kadeh şarap eşliğinde meydanlardaki o tatlı ahengi izlemek için yılın en büyülü zamanıdır. Yazın o ağır sıcağı dağıldığı için Roma’nın her sokağını bir lokal gibi adım adım keşfetmek, o meşhur taş yollarda yorulmadan yürümek için en ideal dönemdir.
+- **Kış (Kasım - Mart):** Roma, Avrupa’nın kış güneşini en çok seven şehirlerinden biridir; ancak bu mevsim bazen sisli, melankolik ama bir o kadar da huzurlu bir örtüye bürünür. Turist kalabalığının en aza indiği bu dönemde, Vatikan'ın sessizliğini veya Pantheon'un yalnızlığını çok daha derinden hissedebilirsiniz. Aralık ayında Piazza Navona’daki Noel pazarlarının kokusu her yeri sarar. Ocak ve Şubat aylarında ise şehir en sakin, en "kendi halinde" halini yaşar. Kolezyum’un heybetini sessizlikte hissetmek ve ardından sıcak bir tabak Carbonara ile ısınmak için kışın Roma başka bir huzur sunar.
+
+## 🏠Nerede Kalmalı: Mahalle Rehberi
+
+Roma'da mahalleler, imparatorluk kalıntılarından bohem sanatçı sokaklarına kadar çok geniş bir yelpaze sunar. Nerede kaldığınız, sabah dışarı çıktığınızda bir keşişin duasına mı yoksa bir sanatçının fırça darbesine mi uyanacağınızı belirler.
+
+- [Trastevere (Bohem ve Samimi)](search:Trastevere (Bohem ve Samimi): Roma denince akla gelen o sarmaşıklı binalar, daracık taş sokaklar ve yan yana dizili küçük trattoria’lar tam olarak burasıdır. Tiber Nehri'nin karşı kıyısında yer alan bu mahalle, gündüzleri sessiz ve melankolik, akşamları ise şehrin en canlı noktasıdır. Roma’yı bir turist gibi değil de, penceresini sokağa açan bir lokal gibi hissetmek istiyorsanız adresiniz burası.
+- [Monti (Genç ve 'Cool')](search:Monti (Genç ve 'Cool'): Kolezyum’un hemen yanı başında olmasına rağmen, turist kalabalığından bir şekilde sıyrılmayı başarmış, şehrin en karakter sahibi semtidir. Vintage dükkanlar, tasarım butikleri ve yerel sanatçıların uğrak noktası olan meydanlarıyla Monti, Roma’nın "hipster" yüzüdür. Tarihin kalbinde ama modern bir çizgide kalmak isteyenler için ideal.
+- [Prati (Zarif ve Düzenli)](search:Prati (Zarif ve Düzenli): Vatikan’ın komşusu olan bu mahalle, Roma’nın daha aristokrat, geniş caddeli ve düzenli yüzüdür. Şık binaları, Cola di Rienzo üzerindeki kaliteli alışveriş noktaları ve güvenli atmosferiyle özellikle aileler veya daha sakin bir konaklama arayanlar için mükemmel bir tercihtir.
+- **Centro Storico (Her Şeyin Merkezi):** Pantheon, Piazza Navona ve Campo de' Fiori arasındaki bu bölge, Roma’nın kalbidir. Otelden çıktığınız anda bir sanat eseriyle karşılaşmak ve her yere yürüyerek gitmek istiyorsanız burası en doğru yerdir. Ancak bu konforun, daha yüksek fiyatlar ve sürekli bir turist hareketliliği ile geldiğini unutmamak gerekir.
+
+- [Testaccio (Gerçek Romalı ve Gurme)](search:Testaccio (Gerçek Romalı ve Gurme): Eğer önceliğiniz Roma mutfağının en dürüst halini tatmaksa, Testaccio sizi bekliyor. Eski bir işçi sınıfı mahallesi olan bu semt, bugün şehrin gastronomi merkezi sayılıyor. Turistlerden tamamen uzaklaşıp, gerçek Roma hayatına karışmak isteyenler için saklı bir cevherdir.
+
+## 🚲 A Noktasından B Noktasına: Bir Lokal Gibi Hareket Edin
+
+Roma, yer altındaki tarih nedeniyle kısıtlı bir metro ağına sahip. Ancak ulaşım şehrin kaotik ritmine ayak durmak ve bazen 2000 yıllık bir arkeolojik kazının etrafında dolanmak demek. 
+
+- **Havalimanından Şehre (FCO & CIA):** Fiumicino'dan (FCO) şehre en hızlı yol 32 dakikada direkt Termini’ye varan Leonardo Express (14€) iken, Trastevere tarafı için daha ucuz olan FL1 Bölgesel Treni (8€) hayat kurtarır; Ciampino’dan (CIA) ise 6-8€ civarındaki Terravision veya SIT Bus gibi shuttle otobüslerini ya da şehir merkezi (Aurelian Surları içi) için geçerli olan ve binmeden teyit etmeniz gereken 31-50€ arası sabit fiyat tarifeli beyaz taksileri tercih edebilirsiniz.
+- **Metro:** Roma’nın İki Ana Damarı: Altını kazdıkça tarih çıktığı için kısıtlı olan metro ağında Hat A (Turuncu) ve Hat B (Mavi) Termini’de kesişir; Vatikan (Ottaviano), İspanyol Merdivenleri (Spagna) ve Trevi Çeşmesi (Barberini) için Hat A'yı, Kolezyum (Colosseo) ve Trastevere aktarması sağlayan Piramide durağı için Hat B'yi kullanabilir, San Giovanni üzerinden merkeze bağlanan yeni Hat C (Yeşil) ile rotanızı genişletebilirsiniz.
+- **Otobüs ve Tramvay Senfonisi:** Şehrin her yerine yayılan bu devasa ağda biletinizi binmeden önce büfelerden (Tabacchi) alıp araç içindeki sarı makinelerde onaylatmanız şarttır; ancak bilet sırası beklemek istemiyorsanız "Tap & Go" özelliğiyle kredi kartınızı okutarak 1.50€ karşılığında 100 dakika geçerli tek kullanımlık BIT bilet konforuyla seyahat edebilirsiniz.
+- **Beyaz Taksiler ve Uygulamalar:** Roma'da resmi taksiler beyazdır; onları yoldan çevirmek yerine "Taxi" duraklarından binmeli veya FreeNow / ItTaxi gibi güvenli uygulamaları kullanmalısınız; Uber’in Roma'da sadece lüks segmentte (Uber Black) hizmet verdiğini ve normal beyaz taksilerin her zaman çok daha ekonomik bir tercih olduğunu unutmamak bütçenizi korur.
+- **Yürümek:** En Sadık Dostunuz: Roma, yürüyerek keşfedilmek için tasarlanmış devasa bir açık hava sergisidir; Piazza del Popolo’dan Piazza Venezia’ya uzanan şehrin omurgası Via del Corso aksını adımlarken Roma’nın meşhur "Sanpietrini" taşlarının şık olduğu kadar bilek yorduğunu unutmayın, burada topuklu ayakkabılara veda edip gerçek lüksü tabanı destekli, rahat bir spor ayakkabıda arayın. Şehrin labirent sokaklarında kaybolurken karşınıza çıkacak her antik kalıntı ve döküm çeşme (Nasoni), yürüyüşünüzün en büyük ödülü olacak.
+- **Trafik ve Otopark:** Şehir merkezi Sınırlı Trafik Bölgeleri (ZTL) ile korunduğu için yetkisiz araç girişi cezalara yol açabilir. Otopark bulmanın yereller için bile bir mucize kabul edildiği bu şehirde direksiyon başına geçmek yerine, ayaklarınıza güvenmek çok daha huzurlu bir tercih olacak.
+
+
+## 🏛️ Şehrin Hafızası: Görülmesi Gereken İkonik Duraklar
+
+Roma'da klasik bir "gezilecek yerler" listesi hazırlamak pek kolay değil; çünkü zaten başınızı nereye çevirseniz karşınıza tarihin kendisi çıkıyor. Yine de Roma’yı gerçekten hissetmek ve o meşhur durakların tadına varmak için şu noktaları listenizin başına alabilirsiniz:
+
+- [Kolezyum ve Roma Forumu (İmparatorluğun Kalbi)](search:Kolezyum ve Roma Forumu (İmparatorluğun Kalbi): M.S. 72-80 yılları arasında inşa edilen ve Roma’nın mühendislik zirvesi kabul edilen bu devasa arena, imparatorluğun sosyal merkezi olarak yüzyıllar boyunca gladyatör dövüşlerine ve görkemli halk gösterilerine ev sahipliği yapmıştır. Dünyanın en ünlü amfitiyatrosu olan bu yapı, Roma’nın ihtişamının ve dramının en canlı şahidi. Hemen yanındaki Roma Forumu ise antik dünyanın siyaset, ticaret ve hukuk merkeziydi. Küçük bir ipucu: Biletinizi haftalar öncesinden online almayı ve Forum’un içindeki Palatino Tepesi’ne çıkıp şehre oradan bakmayı unutmayın.
+- [Pantheon (Mimarinin Zirvesi)](search:Pantheon (Mimarinin Zirvesi): M.S. 126 yılında İmparator Hadrianus tarafından tüm tanrılara adanarak inşa edilen bu tapınak, bugün hala dünyanın en geniş donatısız beton kubbesine sahip. Roma'nın en iyi korunmuş bu antik yapısının 2000 yıllık dev kubbesi; tam tepesindeki 9 metrelik delikten (Oculus) süzülen gün ışığıyla devasa bir güneş saati işlevi görür. İçeri adım attığınız anda zamanın yavaşladığını hissedeceksiniz. Raphael gibi önemli isimlerin mezarlarına da ev sahipliği yapan Pantheon, sadeliğin en görkemli halidir.
+- [Vatikan Müzeleri ve Aziz Petrus Bazilikası](search:Vatikan Müzeleri ve Aziz Petrus Bazilikası): Başka bir devletin sınırlarına girmek için sadece bir çizgiyi geçmeniz yeterli. Vatikan’a adım attığınız anda bambaşka bir dünyadasınız. Michelangelo’nun Sistine Şapeli’ndeki tavan fresklerini görmek ve Aziz Petrus Bazilikası’nın o akıl almaz büyüklükteki kubbesinin altında durmak, sanatın insan ruhu üzerindeki etkisini gerçekten hissettiren anlardan biri. Özetle, Rönesans sanatının tam merkezindesiniz. Michelangelo’nun dört yıl süren bir çalışmayla tamamladığı Sistine Şapeli tavanı, sanat tarihinin en etkileyici ve en sessiz mekânlarından biri olarak kabul edilir. İçeride konuşmak yasak ve bu sessizlik, deneyimi daha da güçlü kılıyor. Gitmeden önce bilmenizde fayda var: Kıyafet kodu burada ciddiye alınıyor. Omuzlar ve dizler mutlaka kapalı olmalı. Aynı zamanda, Vatikan Müzeleri ücretlidir ve bilet kuyruğu oldukça uzun olabilir; online bilet almak büyük zaman kazandıracaktır. Her ayın son Pazar günü giriş ücretsizdir ancak aşırı kalabalık olabileceğini unutmayın. Aziz Petrus Bazilikası’na giriş ücretsizdir, fakat kubbeye çıkmak isterseniz ayrıca bilet almanız gerekir.
+- [Trevi Çeşmesi (Aşk Çeşmesi)](search:Trevi Çeşmesi (Aşk Çeşmesi): 1762 yılında Nicola Salvi tarafından tamamlanan bu barok başyapıt, aslında Roma’nın antik su yolu "Aqua Virgo" ve Barok sanatının suyla dansına şahit olacağınız nokta. Kalabalık olsa da, sabahın ilk ışıklarında ya da gece yarısından sonra oraya gidip sağ elinizle sol omuzunuzun üzerinden havuza bozuk para atmak, "bir gün Roma'ya geri döneceğim" demenin en eski ve en popüler yoludur. Aklınızda olsun; Çeşmenin çevresinde yemek ve içecek tüketmek yasak. Güvenlik ekipleri oldukça hassas; atıştırmalıkla yakalanırsanız nazikçe uyarılıp alandan uzaklaştırılabilirsiniz. Bu yüzden keyfi biraz ilerideki sokaklara saklamak en iyisi.Küçük bir bilgi: Çeşmeye atılan paralar (yıllık yaklaşık 1.5 milyon Euro), her sabah belediye ekipleri tarafından toplanmakta ve Caritas vakfı aracılığıyla ihtiyaç sahipleri için kullanılmaktadır.
+- [Piazza Navona (Meydanların Ahengi)](search:Piazza Navona (Meydanların Ahengi): Roma’nın en zarif meydanıdır. Bernini’nin Dört Nehir Çeşmesi (Fontana dei Quattro Fiumi) meydanın tam ortasında bir heykel şöleni sunar. Meydanın oval formu, aslında buranın antik çağda bir stadyum olmasından gelir. Etrafındaki kafeler turistik olsa da, meydanın o eşsiz enerjisini solumak paha biçilemezdir.
+- [Roman Forum (Foro Romano)](search:Roman Forum (Foro Romano): Antik Roma'nın kalbi, siyasetin ve ticaretin merkezi. Burada yürürken, Sezar'ın geçtiği yollarda adımladığınızı ve bir zamanlar bilinen dünyanın buradan yönetildiğini hissetmek büyüleyicidir.
+- **İspanyol Merdivenleri (Piazza di Spagna):** Şehrin buluşma noktasıdır. 135 basamaktan oluşan bu merdivenlerin tepesindeki kiliseye çıkıp, aşağıdaki "Batık Gemi Çeşmesi"ne (Barcaccia) bakmak bir Roma klasiğidir.
+
+## 🍴 Şehrin Lezzet Haritası: İtalyan Mutfağının Kalbi
+
+Roma’da yemek yemek, sadece bir restorana oturmak değil; binlerce yıllık bir geleneğin, tarladan tabağa uzanan o en dürüst ve ödünsüz halini tatmaktır. Roma mutfağı (Cucina Romana), lüks malzemelerden ziyade "yoksul mutfağı" (Cucina Povera) köklerinden gelen, az malzemeyle maksimum lezzet yaratma sanatıdır. 
+
+Roma mutfağının kalbinde "Muhteşem Dörtlü" olarak bilinen dört ikonik makarna yemeği yer alır: Carbonara, Amatriciana, Gricia, Cacio e Pepe . Bu yemekler arasındaki geçişler o kadar incedir ki, bir malzemeyi ekleyip çıkarmak sizi bambaşka bir yüzyıla götürebilir. Ancak Roma sadece bu dört tabaktan ibaret değil; keşfettikçe sofranın ne kadar genişlediğini göreceksiniz.
+
+- **Carbonara (Kremaya Elveda):** Roma mutfağının dünyada en çok yanlış anlaşılan ama orijinali en kutsal olan yemeğidir. Gerçek bir Carbonara’da asla krema olmaz. Lezzet; sadece yumurta sarısı, Guanciale (domuz yanağı), Pecorino Romano peyniri ve bol karabiberin o meşhur emülsiyonundan gelir. Kremalı bir versiyon görürseniz, oradan usulca uzaklaşın.
+- **Cacio e Pepe (Sadelikteki İhtişam):** Sadece peynir (Cacio) ve karabiberden (Pepe) oluşan, ama yapması en zor olan makarnadır. Peynirin makarna suyuyla kurduğu o ipeksi bağ, Roma mutfağının mühendislik harikasıdır.
+
+- **Amatriciana:** Domates sosu, guanciale ve pecorino’nun muazzam uyumu. Genellikle Bucatini (ortası delik kalın spagetti) ile servis edilir ki sos her yere nüfuz etsin.
+
+- **Gricia:** "Amatriciana’nın domatessiz hali" olarak bilinir. Roma’nın en eski tariflerinden biridir; sadece guanciale ve pecorino ile damakta patlama yaratır.
+
+- **Roma Pizzası (Scrocchiarella):** Napoli pizzasının aksine Roma pizzası incecik, çıtır çıtır ve neredeyse kağıt gibidir. Isırdığınızda gelen o "kıtır" ses, Roma usulü olduğunun kanıtıdır. Ayrıca sokak aralarında "Pizza al Taglio" (dilim pizza) alıp ayaküstü yemek gerçek bir Roma ritüelidir.
+- **Suppli (Roma’nın Sokak Lezzeti):** İçinde erimiş mozzarella bulunan kızarmış bir pirinç topudur. Isırdığınızda peynirin uzayıp eski telefon kablolarına benzemesi nedeniyle "Suppli al Telefono" olarak da anılır.
+- [Carciofi alla Giudia (Yahudi Usulü Enginar)](search:Carciofi alla Giudia (Yahudi Usulü Enginar): Roma’nın Yahudi Ghetto’su bölgesine has, yağda kızarmış ve altın rengi almış, adeta bir çiçek gibi açan enginardır. Dışı çıtır, içi ise tereyağı yumuşaklığındadır.
+- **Spritz ve Aperitivo:** Roma’da akşamüstü güneş alçalırken meydanlardaki masalar turuncuya boyanır. Aperol veya Campari ile yapılan, yanında küçük atıştırmalıklarla servis edilen Spritz, Roma'nın yaşama sanatının (La Dolce Vita) sıvı halidir. Akşam yemeği öncesi bu ritüele katılmak, şehrin sosyal dokusuna dokunmaktır.
+- **Gelato (Gerçek Meyvenin Tadı):** Roma dondurma cennetidir. Giolitti veya Frigidarium gibi klasikleşmiş noktalarda, yapay aromalardan uzak, meyvenin veya fıstığın en saf halini tatmalısınız. Dondurmanın rengi çok parlaksa dikkat; gerçek gelato biraz daha mat ve doğal görünür.
+- **Maritozzo (Tatlı Bir Günaydın):** Roma’nın en ikonik kahvaltısıdır. Ortası bolca taze çırpılmış krema ile doldurulmuş yumuşacık, tatlı bir ekmek. Yanına bir espresso ile güne başlamak gerçek bir Roma sabahıdır.
+
+**💡 Lokal Not:** Kahve Kültürü Roma’da kahve "al banco" (barda ayakta) içilir. Eğer bir meydanda masaya oturursanız, servis ücreti nedeniyle hesap iki üç katına çıkabilir. Lokaller gibi bara yaslanıp espressoyu hızlıca içip devam etmek hem cebinizi koruyacak hem de sizi bir Romalı gibi hissetmenizi sağlayacak.
+
+## 🤫 Şehrin Fısıldadıkları: Lokal Sırlar
+
+Roma, kendini sadece ana caddelerde göstermez; asıl ruhunu kalabalıklardan saptığınız o sessiz avlularda, optik illüzyonlarda ve yerel ritüellerde saklar. Turistlerin önünden geçtiği ama sadece lokallerin durup izlediği, keşfedilmeyi bekleyen gizli detayları keşfedin.
+
+- [Serratura di Roma (Anahtar Deliği)](search:Serratura di Roma (Anahtar Deliği): Aventine Tepesi’ndeki Malta Şövalyeleri Meydanı’nda yer alan o sıradan yeşil kapının anahtar deliğinden bakmayı unutmayın. Karşınızda bahçe bitkileriyle kusursuzca çerçevelenmiş, tam merkezinde Aziz Petrus Bazilikası'nın kubbesinin olduğu o masalsı manzarayı göreceksiniz.
+- **Giardino degli Aranci (Portakal Bahçesi):** Anahtar deliğinin hemen yanı başındaki bu bahçe, Roma’nın en romantik noktalarından biridir. Narenciye ağaçlarının kokusu eşliğinde teras kısmına ilerleyin; şehrin kubbe dolu silüetini izlemek için daha huzurlu bir nokta bulmak zordur.
+
+- **Sant'Ignazio Kilisesi (İllüzyonist Kubbe):** Bu kiliseye girdiğinizde başınızı yukarı kaldırın ve devasa bir kubbe gördüğünüzden emin olun. Ancak dikkatli bakın; o aslında gerçek bir kubbe değil, ressam Andrea Pozzo tarafından yapılmış muazzam bir perspektif illüzyonudur. Bu "sahte kubbe", 17. yüzyılın en zekice görsel hilelerinden biridir.
+
+- **Galleria Sciarra’nın Saklı İhtişamı:** Trevi Çeşmesi’nin gürültüsünden sadece birkaç adım ötede, sıradan bir ofis binası gibi görünen bir kapıdan içeri süzülün. Sizi 19. yüzyıldan kalma, tavanı cam kaplı ve duvarları büyüleyici Art Nouveau freskleriyle dolu, turist akınından tamamen izole bir avlu karşılayacak.
+
+- [Quartiere Coppedè](search:Quartiere Coppedè’nin Fantastik Dünyası)’nin Fantastik Dünyası: Roma’nın klasik hatlarından sıkılırsanız, kendinizi bir peri masalında hissedeceğiniz Coppedè bölgesine gidin. Art Nouveau, Barok ve Orta Çağ mimarisinin sürreal bir karışımı olan bu mahalle, şehrin en gizli kalmış mimari şölenidir.
+- **Via Margutta’da Sessizliğe Kaçış:** Piazza del Popolo’nun kalabalığından sıyrılıp sarmaşıklarla kaplı bu dar sokağa sığının. "Roma Tatili" filminden aşina olduğumuz, sanatçı atölyelerinin ve antika dükkanlarının dizildiği bu sokak, şehrin gürültüsünden izole kalmış en zarif kaçış noktasıdır.
+
+- [Gianicolo Tepesi](search:Gianicolo Tepesi’nde Gelenek ve Manzara)’nde Gelenek ve Manzara: Trastevere’nin yukarısındaki Gianicolo tepesi, şehrin en geniş panoramik manzarasını sunar. Eğer tam öğlen saat 12:00’de orada olursanız, 1847’den beri süregelen o meşhur top atışı geleneğine şahitlik edebilir ve şehrin tüm kilise çanlarının bu atışa nasıl eşlik ettiğini duyabilirsiniz.
+- **Nasoni’den Su İçme Sanatı:** Roma’nın antik döküm çeşmelerinden (Nasoni) su içerken elinizi avuç yapmanıza gerek yok. Çeşmenin ucundaki küçük deliği parmağınızla tıkadığınızda, su yukarıdaki küçük bir delikten adeta bir fıskiye gibi fışkırır. Bu, Romalıların binlerce yıldır kullandığı en pratik yöntemdir.
+- **Via Appia Antica’da Zaman Yolculuğu:** Dünyanın ilk otoyollarından biri olan Appian Yolu’na gidin. Trafiğe kapalı olan bu antik yolda, devasa bazalt taşların üzerinde yürüyebilir veya yan yana dizili antik mezarlar ve serviler arasında şehirden tamamen uzaklaşabilirsiniz.
+
+## ✅ Mutlaka Yapmadan Dönme: Roma Checklist
+
+- **Gerçek Bir Carbonara Ye:** Kremasız, sadece yumurta sarısı, guanciale ve pecorino ile yapılan o ipeksi dokuyu tadın; kremalı versiyonlara veda edin.
+- [Pantheon’da Işığı İzle](search:Pantheon’da Işığı İzle): Oculus’tan (kubbedeki delik) süzülen ışık huzmesinin altında durun ve 2000 yıllık mühendisliğe şapka çıkarın.
+- **Trevi’ye Gece Yarısı Git:** Kalabalıklar çekildiğinde çeşmeye gidin ve "bir gün döneceğim" diyerek sol omuzunuz üzerinden bozuk para atmak için sessiz bir an yakalayın.
+
+- **Vatikan’da Sessizliğe Bürün:** Sistine Şapeli’nin o büyüleyici sessizliğinde Michelangelo’nun freskleri arasında kaybolun.
+
+- [Campo de' Fiori](search:Campo de' Fiori’nin Canlılığını Hisset)’nin Canlılığını Hisset: Gündüz kurulan çiçek ve taze gıda pazarında tezgahlar arasında dolaşın, akşam ise meydanın o bitmeyen enerjisine bir kadeh şarapla eşlik edin.
+- **Aventine Anahtar Deliğinden Bak:** Malta Şövalyeleri’nin kapısındaki o küçücük delikten bakıp dünyayı yeşil bir çerçeve içinde görün.
+
+- **Trastevere Sokaklarında Kaybol:** Haritayı kapatın ve sarmaşıklı sokakların sizi en güzel trattoria’ya çıkarmasına izin verin.
+
+- **İspanyol Merdivenleri’ni Adımla:** 135 basamağı tırmanıp en tepeden Piazza di Spagna’nın kalabalığını izleyin. (Unutmayın; basamaklarda oturmak yasak, ama manzaranın tadını çıkarmak serbest!)
+- **Nasoni’den Su İç:** Parmak ucunla çeşmeyi tıkayıp suyu fışkırtarak buz gibi Roma suyunu bir Romalı gibi için.
+- **Gün Batımını Spritz ile Karşıla:** Güneş binaları turuncuya boyarken bir meydanda masaya çökün ve Aperitivo saatinin tadını çıkarın.
+- **Suppli al Telefono’yu Isır:** Sokak arasında aldığınız o çıtır pirinç topunun içindeki peynirin uzayıp sizi gülümsetmesine izin verin.
+- **Via Appia’da Antik Taşlara Bas:** Dünyanın ilk otoyolunda, serviler altında yürüyerek tarihin gerçek ağırlığını hissedin.
+''';
+
+  static const _romaEN = '''# Rome: The Heart of History, The Eternal City
+
+**Quick Glimpse:** From the moment you step in, Rome sweeps you into a sense of “aesthetic intoxication.” It is far more than just an open-air museum; it is a massive stage of life where locals sip espresso in the shadow of a 2000-year-old temple, Vespas buzz through narrow alleys, and Baroque fountains erupt at every corner. To understand this city, looking at the buildings is not enough. You must see the specific shade of orange the sunset paints the stone facades and feel how the dusty pages of history have transformed into a seamless part of daily life. Grandeur has become so commonplace here that, after a while, you’ll find yourself getting used to it.
+
+**A quick note before you go:** Traffic is the loudest part of Rome’s chaotic tempo. Vespas gliding through narrow streets like a work of art and pedestrians appearing from every direction define the city’s characteristic energy. Driving in the city center can be a major challenge. Therefore, the best plan is to wear comfortable shoes and explore Rome on foot or via the metro lines. While walking, you are certain to encounter the city’s hidden heroes: the "Nasoni" (Big Noses), ancient street fountains scattered everywhere. Be sure to keep a water bottle with you and experience the most refreshing way to navigate Rome like a true local. Additionally, while credit card use is widespread, keeping some cash in your pocket is still a lifesaver when grabbing a slice of pizza at a hole-in-the-wall shop or visiting local neighborhood markets.
+
+## 📅 Timing is Everything: Which Season is Yours?
+
+Rome's light whispers a different story in every season. When you choose to visit depends on the tone of the Roman dream you wish to experience.
+
+- **Spring (April – June):** This is Rome’s freshest and most colorful awakening. Before the intense heat arrives, the Spanish Steps are adorned with blooming azaleas. It is the perfect time to wander the streets and drink ice-cold water from the "Nasoni" fountains. If you’re there on April 21st for Rome’s Birthday, you’ll see the city’s ancient spirit come alive with joy. This is also the most comfortable time for long walks on Rome's famous "Sanpietrini" (basalt cobblestones) before they get too hot under the sun.
+- **Summer (July – August):** The most passionate, vibrant, and undoubtedly hottest period. While the sun warms the stone facades, the riverside stands along the Tiber add a unique energy to the Roman nights. Keep in mind the Ferragosto period in August when locals head to the coast; some small shops might close, but the city becomes your personal playground. A quick tip: Those massive stone buildings soak up the heat and radiate it back even late into the evening; keeping a light shawl in your bag is a smart move to protect you from the sun and respect the dress codes in churches.
+- **Autumn (September – October):** The period locals cherish most: the legendary "Ottobrate Romane" (Roman Autumn). The sky is a brilliant blue, and the sun offers that iconic golden light that paints the city in amber. The weather is perfectly balanced—it's the most magical time of the year to enjoy a glass of wine in a piazza and soak in the local harmony. With the summer's heavy heat gone, it’s the ideal time to explore every alley like a local and navigate those famous cobblestone paths without exhaustion.
+- **Winter (November – March):** Rome is one of the most faithful hosts to the winter sun in Europe; however, this season sometimes wraps the city in a foggy, melancholic, yet deeply peaceful veil. With the tourist crowds at their thinnest, you can feel the silence of the Vatican or the solitude of the Pantheon much more profoundly. In December, the scent of Christmas markets in Piazza Navona fills the air. In January and February, the city experiences its calmest, most authentic state. To feel the grandeur of the Colosseum in silence and then warm up with a hot plate of Carbonara, winter offers a unique sense of peace.
+
+## 🏠 Where to Stay: Neighborhood Guide
+
+In Rome, the neighborhoods offer a vast spectrum ranging from imperial ruins to bohemian artist alleys. Where you stay determines whether you wake up to a monk’s prayer or an artist’s brushstroke.
+
+- [Trastevere (Bohemian and Authentic)](search:Trastevere (Bohemian and Authentic): This is exactly where you’ll find those ivy-clad buildings, narrow cobblestone streets, and rows of tiny trattorias that define the quintessential image of Rome. Located on the opposite bank of the Tiber, this neighborhood is quiet and melancholic during the day but becomes the city's most vibrant spot at night. If you want to feel like a local opening their window to the street rather than just another tourist, this is your address.
+- [Monti (Young and Cool)](search:Monti (Young and Cool): Despite being located right next to the Colosseum, it is the city’s most characterful district that has somehow managed to escape the heavy tourist swarms. With its vintage shops, design boutiques, and piazzas frequented by local artists, Monti is the "hipster" face of Rome. It’s ideal for those who want to stay in the heart of history but with a modern, edgy vibe.
+- [Prati (Elegant and Orderly)](search:Prati (Elegant and Orderly): Neighboring the Vatican, this district represents the more aristocratic, wide-avenued, and organized side of Rome. With its chic buildings, high-quality shopping spots on Cola di Rienzo, and safe atmosphere, it is an excellent choice, particularly for families or those seeking a calmer, more refined stay.
+- [Centro Storico (The Heart of Everything)](search:Centro Storico (The Heart of Everything): This area, nestled between the Pantheon, Piazza Navona, and Campo de' Fiori, is the very core of Rome. If you want to encounter a masterpiece the moment you step out of your hotel and reach every landmark on foot, this is the place to be. However, keep in mind that this convenience comes with higher price points and constant tourist activity.
+- **Testaccio (Truly Roman and Foodie):** If your priority is to taste the most honest version of Roman cuisine, Testaccio is waiting for you. Formerly a working-class neighborhood, this district is now considered the city’s gastronomic hub. It is a hidden gem for those who want to step away from the tourists and blend into authentic Roman life.
+
+## 🚲 Getting from A to B: Move Like a Local
+
+Rome has a limited metro network due to the vast history buried beneath the ground. However, transportation here is all about adapting to the city's chaotic rhythm and occasionally navigating around a 2,000-year-old archaeological site.
+
+- **From the Airport to the City (FCO & CIA):** The fastest route from Fiumicino (FCO) is the Leonardo Express, reaching Termini in 32 minutes (€14), while the FL1 Regional Train (€8) is a lifesaver for the Trastevere area; from Ciampino (CIA), you can choose shuttle buses like Terravision or SIT Bus (approx. €6-8), or official white taxis with fixed rates of €31-50 for the city center (within the Aurelian Walls)—just be sure to confirm the price before boarding.
+- **The Metro:** Rome’s Two Main Arteries: Because digging uncovers history, the limited metro network consists of Line A (Orange) and Line B (Blue), which intersect at Termini; use Line A for the Vatican (Ottaviano), Spanish Steps (Spagna), and Trevi Fountain (Barberini), and Line B for the Colosseum (Colosseo) or the Piramide stop for Trastevere connections, while the new Line C (Green) expands your route via San Giovanni.
+- **The Bus and Tram Symphony:** In this vast network covering the entire city, it is essential to buy your tickets at newsstands (Tabacchi) and validate them in the yellow machines onboard; however, if you want to skip the ticket lines, you can use the "Tap & Go" feature by tapping your credit card for a seamless BIT ticket experience (€1.50, valid for 100 minutes).
+- **White Taxis and Apps:** Official taxis in Rome are white; instead of hailing them on the street, you should head to "Taxi" stands or use reliable apps like FreeNow or ItTaxi; remember that Uber only operates as a luxury service (Uber Black) in Rome, so sticking to official white taxis is consistently the better choice for your budget.
+- **Walking:** Your Best Friend: Rome is a massive open-air exhibition designed to be explored on foot; as you walk the city's spine along Via del Corso from Piazza del Popolo to Piazza Venezia, keep in mind that the iconic "Sanpietrini" cobblestones are as tiring as they are stylish—say goodbye to heels and seek true luxury in supportive, comfortable sneakers. Every ancient ruin and cast-iron fountain (Nasoni) you stumble upon while getting lost in the labyrinthine alleys will be the greatest reward of your walk.
+- **Traffic and Parking:** Since the city center is protected by Limited Traffic Zones (ZTL), unauthorized vehicle entry can lead to heavy fines. In a city where finding a parking spot is considered a miracle even by locals, trusting your feet rather than getting behind the wheel will lead to a much more peaceful experience.
+
+
+## 🏛️ The City's Memory: Iconic Landmarks Must-See
+
+It’s not easy to make a standard "places to see" list for Rome; history is everywhere you look anyway. However, to truly feel the city and experience those legendary landmarks, you should put these spots at the top of your list:
+
+- **The Colosseum and Roman Forum (The Imperial Heart):** Built between 72-80 AD and considered the pinnacle of Roman engineering, this massive arena served as the empire's social hub, hosting gladiator bouts and grand public spectacles for centuries. As the world’s most famous amphitheater, this structure is the most vivid witness to Rome’s grandeur and drama. Adjacent to it lies the Roman Forum, the center of politics, commerce, and law in the ancient world. A quick tip: Remember to book your tickets online weeks in advance and don’t miss climbing the Palatine Hill within the Forum for an incredible view of the city.
+
+- [The Pantheon (The Pinnacle of Architecture)](search:The Pantheon (The Pinnacle of Architecture): Built in 126 AD by Emperor Hadrian and dedicated to all gods, this temple still boasts the world's largest unreinforced concrete dome. The 2000-year-old dome of this best-preserved ancient structure functions as a massive sundial, with sunlight streaming through the 9-meter opening (Oculus) at its peak. The moment you step inside, you will feel time slow down. Also housing the tombs of significant figures like Raphael, the Pantheon is the most magnificent form of simplicity.
+- [The Vatican Museums and St. Peter’s Basilica](search:The Vatican Museums and St. Peter’s Basilica): To enter another state, you only need to cross a single line. The moment you step into the Vatican, you are in a completely different world. Seeing Michelangelo’s frescoes on the ceiling of the Sistine Chapel and standing beneath the unfathomable dome of St. Peter’s Basilica is one of those moments that truly makes you feel the impact of art on the human spirit. In short, you are at the very heart of Renaissance art. Michelangelo's Sistine Chapel ceiling, completed after four years of work, is considered one of the most impressive and silent spaces in art history. Talking is forbidden inside, and this silence makes the experience even more powerful. Good to know before you go: The dress code is taken very seriously here; shoulders and knees must be covered. Additionally, the Vatican Museums charge an entrance fee, and ticket lines can be quite long, so buying tickets online will save you significant time. Entry is free on the last Sunday of every month, though keep in mind it can get extremely crowded. Entry to St. Peter’s Basilica is free, but you will need a separate ticket if you wish to climb the dome.
+- [Trevi Fountain (The Fountain of Love)](search:Trevi Fountain (The Fountain of Love): Completed in 1762 by Nicola Salvi, this Baroque masterpiece is where you will witness the "Aqua Virgo," Rome’s ancient waterway, and the dance of water with Baroque art. Despite the crowds, visiting in the early morning or after midnight to toss a coin over your left shoulder with your right hand is the oldest and most popular way to say, "I will return to Rome one day." Keep in mind: Eating and drinking around the fountain is prohibited. Security teams are quite sensitive; if you are caught with a snack, you may be politely warned and asked to leave the area. Therefore, it is best to save your treats for the nearby side streets. A little fact: The coins thrown into the fountain (approximately 1.5 million Euros annually) are collected every morning by municipal teams and used for those in need through the Caritas charity.
+- [Piazza Navona (The Harmony of Squares)](search:Piazza Navona (The Harmony of Squares): Rome’s most elegant square. Bernini’s Fountain of the Four Rivers (Fontana dei Quattro Fiumi) offers a sculptural feast right in the center. The oval shape of the piazza stems from its history as an ancient stadium. While the surrounding cafes are touristy, breathing in the unique energy of the square is priceless.
+- [The Roman Forum (Foro Romano)](search:The Roman Forum (Foro Romano): The heart of Ancient Rome, the center of politics and commerce. Walking here, it is fascinating to feel that you are stepping on the same paths Caesar once walked and that the known world was once governed from right here.
+- **The Spanish Steps (Piazza di Spagna):** The city’s ultimate meeting point. Climbing these 135 steps to the church at the top and looking down at the "Fountain of the Old Boat" (Barcaccia) is a quintessential Roman classic.
+
+## 🍴 A Taste of the City: The Heart of Italian Cuisine
+
+Eating in Rome is not just about sitting in a restaurant; it is about tasting a centuries-old tradition in its most honest and uncompromising form. Roman cuisine (Cucina Romana) stems from the roots of "Cucina Povera" (poor kitchen)—the art of creating maximum flavor with minimum ingredients.
+
+- **At the heart of Roman cuisine lies the "Great Four" iconic pasta dishes:** Carbonara, Amatriciana, Gricia, and Cacio e Pepe. The transitions between these dishes are so subtle that adding or removing a single ingredient can transport you to an entirely different century. But Rome is more than just these four plates; you will see the table expand the more you explore.
+- **Carbonara (Farewell to Cream):** The most misunderstood yet sacred dish in Roman cuisine. An authentic Carbonara never contains cream. The richness comes solely from an emulsion of egg yolks, Guanciale (pork cheek), Pecorino Romano cheese, and plenty of black pepper. If you see a creamy version, walk away quietly.
+- **Cacio e Pepe (Grandeur in Simplicity):** Made with just cheese (Cacio) and black pepper (Pepe), this is perhaps the hardest pasta to master. The silky bond the cheese forms with the pasta water is a true culinary engineering marvel.
+
+- **Amatriciana:** A magnificent harmony of tomato sauce, guanciale, and pecorino. Usually served with Bucatini (thick, hollow spaghetti) so the sauce can permeate every inch.
+
+- **Gricia:** Known as the "tomato-less Amatriciana." One of Rome’s oldest recipes, it creates a flavor explosion using only guanciale and pecorino.
+
+- **Roman Pizza (Scrocchiarella):** Unlike the Neapolitan style, Roman pizza is paper-thin and crispy. That "crunch" you hear when you take a bite is proof of its Roman soul. Also, grabbing a "Pizza al Taglio" (pizza by the slice) in the alleys is a quintessential local ritual.
+- **Suppli (Roman Street Food):** A fried rice ball with a molten mozzarella heart. It’s also called "Suppli al Telefono" because when you bite into it, the melting cheese stretches like an old-fashioned telephone cord.
+- [Carciofi alla Giudia (Jewish-Style Artichokes)](search:Carciofi alla Giudia (Jewish-Style Artichokes): A specialty of the Roman Jewish Ghetto. These are deep-fried until they open like golden flowers—crispy on the outside and buttery soft on the inside.
+- **Spritz and Aperitivo:** As the Roman sun dips low, the tables in the piazzas turn orange. A Spritz—made with Aperol or Campari and served with small snacks—is the liquid form of La Dolce Vita. Joining this pre-dinner ritual is the best way to touch the city's social fabric.
+- **Gelato (The Taste of Real Fruit):** Rome is a gelato paradise. In classics like Giolitti or Frigidarium, you must taste the purest form of fruit or pistachio, far from artificial flavors. Tip: If the color is too bright, be cautious; real gelato looks more matte and natural.
+- **Maritozzo (A Sweet Morning):** Rome’s most iconic breakfast. A soft, sweet brioche bun filled with clouds of fresh whipped cream. Starting the day with this and an espresso is a true Roman morning.
+
+
+**💡 Local Tip:** Coffee Culture In Rome, coffee is drunk "al banco" (standing at the bar). If you sit at a table in a major piazza, the bill can double or triple due to service fees. Leaning against the bar and drinking your espresso quickly like a local will both save your wallet and make you feel like a true Roman.
+
+## 🤫 Whispers of the City: Local Secrets
+
+Rome doesn’t just show itself on the main boulevards; its true soul is hidden in the quiet courtyards, optical illusions, and local rituals you find only when you veer off the beaten path. Discover the secret details that tourists pass by, but only locals stop to admire.
+
+- [Serratura di Roma (The Keyhole)](search:Serratura di Roma (The Keyhole): Don't forget to peek through the seemingly ordinary green door in the Square of the Knights of Malta on Aventine Hill. You will be greeted by a fairytale view of St. Peter’s Basilica dome, perfectly and naturally framed by garden hedges.
+- [Giardino degli Aranci (The Orange Garden)](search:Giardino degli Aranci (The Orange Garden): Located right next to the keyhole, this garden is one of Rome’s most romantic spots. Walk toward the terrace amidst the scent of citrus trees; it is difficult to find a more peaceful point to observe the city’s dome-filled skyline.
+- **Sant'Ignazio Church (The Illusionist Dome):** When you enter this church, look up and you’ll surely see a massive dome. But look closer; it is not actually a dome at all, but a magnificent perspective illusion painted by Andrea Pozzo. This "fake dome" remains one of the cleverest visual tricks of the 17th century.
+
+- **The Hidden Splendor of Galleria Sciarra:** Just a few steps away from the roar of the Trevi Fountain, slip through a door that looks like an ordinary office entrance. You will find a 19th-century courtyard with a glass ceiling and walls covered in stunning Art Nouveau frescoes, completely isolated from the tourist swarms.
+
+- **The Fantastical World of Quartiere Coppedè:** If you need a break from Rome’s classic lines, head to the Coppedè district, where you’ll feel like you’ve stepped into a storybook. This neighborhood is a surreal mix of Art Nouveau, Baroque, and Medieval architecture—Rome’s best-kept architectural secret.
+
+- **Escape to Silence on Via Margutta:** Slip away from the crowds of Piazza del Popolo and take refuge in this narrow, ivy-clad street. Familiar from the film Roman Holiday, this street—lined with artist workshops and antique shops—is the most elegant escape from the city’s noise.
+- **Tradition and Panorama on Janiculum Hill:** The Gianicolo (Janiculum) hill above Trastevere offers the city’s widest panoramic view. If you arrive exactly at noon, you can witness the traditional daily cannon fire—a ritual dating back to 1847—and hear the city’s church bells respond in harmony.
+
+- **The Art of Drinking from a Nasone:** You don’t need to cup your hands to drink from Rome’s ancient cast-iron fountains (Nasoni). Simply plug the main spout with your finger, and the water will arc out from a tiny hole on top like a drinking fountain. It is the most practical and authentic Roman method used for millennia.
+
+- **Time Travel on Via Appia Antica:** Head to the Appian Way, one of the world's first highways. On this ancient road closed to traffic, you can walk on massive basalt stones and truly escape the city among the rows of ancient tombs and cypress trees.
+
+## ✅ The Rome Checklist: Don't Leave Without Doing These
+
+- **Eat an Authentic Carbonara:** Taste the silky texture made only with egg yolks, guanciale, and pecorino; say a final goodbye to the creamy versions.
+- **Watch the Light in the Pantheon:** Stand beneath the beam of light streaming through the Oculus (the hole in the dome) and tip your hat to 2,000 years of engineering.
+
+- **Visit Trevi at Midnight:** Head to the fountain once the crowds have thinned and catch a quiet moment to toss your coin over your left shoulder to ensure your return.
+
+- **Embrace the Silence in the Vatican:** Get lost among Michelangelo’s frescoes in the mesmerizing quiet of the Sistine Chapel.
+
+- Feel the Vibe of [Campo de' Fiori](search:Feel the Vibe of Campo de' Fiori): Wander through the flower and fresh food market by day, and soak in the square's endless energy with a glass of wine by night.
+- **Peep Through the Aventine Keyhole:** Look through the tiny hole in the door of the Knights of Malta and see the world perfectly framed in green.
+
+- Get Lost in the [Streets of Trastevere](search:Get Lost in the Streets of Trastevere): Close your map and let the ivy-clad alleys lead you to the most charming hidden trattoria.
+- **Walk the Spanish Steps:** Climb the 135 steps and watch the buzz of Piazza di Spagna from the top. (Remember: sitting on the steps is forbidden, but the view is yours to enjoy!)
+- **Drink from a Nasone:** Plug the spout with your finger to make the water arc out, and drink the ice-cold Roman water exactly like a local.
+- **Toast the Sunset with a Spritz:** Grab a table in a piazza as the sun paints the buildings orange and enjoy the ritual of Aperitivo hour.
+- **Bite into a Suppli al Telefono:** Let the stretching mozzarella inside that crispy street-side rice ball bring a smile to your face.
+
+- **Step on the Ancient Stones of Via Appia:** Walk beneath the cypress trees on the world’s first highway and feel the true weight of history.
+''';
+
+  // LONDRA
+  static const _londraTR = '''# Londra: Tarih, Kraliyet ve Kaosun Dengesi
+
+**Hızlı Bakış:** Eski kraliyet binaları ile camdan dev gökdelenlerin, ciddi protokoller ile renkli sokak sanatının iç içe geçtiği çok büyük ve canlı bir şehirdir. Thames Nehri’nin iki yakasına yayılmış bu şehir, aslında her biri kendi karakterine sahip onlarca farklı "köyün" (Soho, Chelsea, Shoreditch gibi) birleşimidir. Burası size bazen gri bir sabahın sakinliğini, bazen de dünyanın en hareketli restoranlarının enerjisini aynı anda sunar. Londra’yı gerçekten tanımak için sadece saraylara bakmak yetmez; çift katlı kırmızı bir otobüsün üst katına çıkıp şehri izlemek, Hyde Park’ta sincaplarla yürümek, o meşhur devasa dönme dolaptan şehre tepeden bakmak ve klasikleşmiş belkide kırmızı telefon kulübelerinde ikonik bir fotoğraf çekilmek. Her sokakta o eski tarihi dokuyu hissetmek, Londra deneyiminin asıl parçasını oluşturacak. 
+
+**📝 Gitmeden Önce Bilmenizde Fayda Var:**
+- **Vize ve Sınırlar:** Unutmayın, Londra Birleşik Krallık’ın bir parçasıdır ve Schengen vizesi burada geçmez. Buraya gelmek için kendi özel Birleşik Krallık vizesini almanız gerekir. Pasaport kontrolü bazen uzun kuyruklar demek olabilir ve beklediğinizden uzun sürebilir, sabrınızı yanınıza alın.
+
+- **Priz ve Enerji:** İngilizlerin meşhur "muhafazakarlığı" prizlerinde de sürer. Avrupa tipi ikili prizler burada iş görmez; Type G denilen o üç uçlu, heybetli İngiliz tipi dönüştürücü (adaptör) yanınızda değilse ilk durağınız bir market olacaktır.
+
+- **Nakit Paraya Elveda:** Londra, dünyanın en "nakitsiz" (cashless) şehirlerinden biridir. Cebinizde Sterlin (£) banknotlar taşımak yerine, temassız kredi kartınız veya Apple/Google Pay’iniz en büyük yardımcınız olacak. Otobüsten kahveye kadar her şeyi "tap & go" (okut ve geç) yöntemiyle halledebilirsiniz.
+- **Hava Durumu:** Londra'da hava durumu sadece bir tahmin değil, beş dakikada bir değişen bir ruh halidir. Sabah güneşine aldanıp evden çıkmak risklidir; "layers" (kat kat giyinmek) burada bir moda akımı değil, bir hayatta kalma taktiğidir. En önemlisi de, çantanızda her zaman küçük bir şemsiye bulundurmak sizi aniden bastıran yağmurlardan koruyacak minik bir tavsiyedir.
+
+
+## 📅 Takviminizi Ayarlayın: Hangi Mevsim Sizin?
+
+Londra'nın her mevsimi size bambaşka bir hikaye anlatır. Gri gökyüzü bu şehrin imzası olsa da, her ayın kendine has bir tadı ve aktivitesi var. Ne zaman gideceğinize karar vermeniz aslında sadece nasıl bir atmosferin içinde olmak bağlı.
+
+- **İlkbahar (Mart - Mayıs):** Şehrin uyanmaya başladığı, parkların o meşhur çiçeklerle dolduğu zamanlar. Hyde Park veya Richmond Park’ta yürürken her yerin rengarenk olduğunu görebilirsiniz. Hava biraz serin olabilir ve o "minik tavsiyemiz" olan şemsiyeye en çok bu aylarda ihtiyacınız olur, ama yürüyerek şehri keşfetmek için en güzel dönemlerden biridir.
+- **Yaz (Haziran - Ağustos):** Londra’nın en enerjik ve tabii ki en kalabalık olduğu dönem. Güneşin akşam saat 9’dan sonra batması size upuzun günler kazandırır. Parklarda piknik yapan yerelleri izlemek, açık hava festivallerine katılmak ve nehir kenarında uzun yürüyüşler yapmak için idealdir. Sadece biraz kalabalığa hazırlıklı olun.
+- **Sonbahar (Eylül - Kasım):** Şehrin o meşhur turuncu, kızıl ve sarı renklere büründüğü, belki de en fotojenik zamanı. Hafif puslu havası Londra’nın o eski ruhuna çok yakışıyor. Müzeleri gezmek, yorulduğunuzda sıcak bir pub’a sığınmak ve dökülen yapraklar arasında yürümek size gerçek bir Londra filminin içindeymişsiniz gibi hissettirir.
+- **Kış (Aralık - Şubat):** Hava erken kararır ve soğuktur, ama Aralık ayında Londra bir ışık denizine dönüşür. Oxford Street’in ışıkları, devasa Noel pazarları ve Hyde Park’taki "Winter Wonderland" eğlencesiyle şehir çok masalsı bir havaya bürünür. Ocak ve Şubat ayları daha sakin ve ekonomiktir; müze meraklılarındansanız siizin için en ideal zamanlardan.
+
+## 🏠Nerede Kalmalı: Mahalle Rehberi
+
+Londra'da konaklama seçerken en önemli kural, metro (The Tube) hattına yakın olmaktır. Ancak mahallelerin kendi havası, sabah uyandığınızda göreceğiniz manzarayı ve hissedeceğiniz enerjiyi tamamen değiştirir.
+
+- [Covent Garden & Soho (Şehrin Kalbi)](search:Covent Garden & Soho (Şehrin Kalbi): Eğer "her şeyin tam ortasında olayım, kapıdan çıktığımda tiyatrolara, restoranlara ve alışveriş caddelerine yürüyerek gideyim" diyorsanız burası sizin yeriniz. Şehrin en canlı, en hareketli noktasıdır. Ancak biraz gürültülü ve diğer bölgelere göre daha pahalı olabileceğini unutmayın.
+- [South Kensington & Chelsea (Zarafet ve Müzeler)](search:South Kensington & Chelsea (Zarafet ve Müzeler): Daha şık, sakin ve geniş caddeler arıyorsanız burayı çok seveceksiniz. Doğal Tarih Müzesi ve Victoria & Albert Müzesi gibi dev noktalara yürüme mesafesindedir. Özellikle çocuklu aileler ve sessizlik arayanlar için harika, nezih bir bölgedir.
+- [Shoreditch & Hoxton (Havalı ve Sanat Dolu)](search:Shoreditch & Hoxton (Havalı ve Sanat Dolu): Londra’nın "cool" yüzünü görmek istiyorsanız rotanız Doğu Londra olmalı. Sokak sanatları, butik dükkanlar, tasarım pazarları ve hareketli gece hayatıyla burası gençlerin ve yaratıcı kitlenin favorisidir. Şehir merkezine göre biraz daha farklı ve modern bir atmosferi vardır.
+- **Paddington & Marylebone (Pratik ve Şık):** Özellikle Heathrow Havalimanı'ndan trenle (Heathrow Express) gelecekseniz Paddington çok pratiktir. Marylebone tarafı ise şık kafeleri ve Hyde Park’a komşu olmasıyla hem her yere yakın hem de çok huzurlu bir seçenektir.
+
+- **Southbank & Bankside (Manzara ve Nehir Havası):** Thames Nehri’ne karşı uyanmak, nehir kenarında yürüyüş yaparak güne başlamak isterseniz burası harika. London Eye ve Tate Modern gibi yerlere çok yakın olursunuz. Akşamları nehir kıyısındaki ışıklar altında yürümek paha biçilemezdir.
+
+
+## 🚲 A Noktasından B Noktasına: Bir Lokal Gibi Hareket Edin
+
+Londra’da ulaşım sadece bir yerden bir yere gitmek değil, şehrin ruhunu hissetmektir. Dünyanın en eski metro ağında yolculuk yaparken veya kırmızı bir otobüsün üst katından sokağı izlerken şu ipuçları hayatınızı kolaylaştıracak:
+
+- **Havalimanından Şehre İlk Adım:** Londra'da hangi havalimanına indiğiniz, şehre ulaşım maliyetinizi ve sürenizi belirler. Heathrow için en akıllıca yol mor renkli Elizabeth Line’dır; hem hızlıdır hem de pahalı Express trenlerden çok daha ucuzdur (Ortalama £13.30). Gatwick’ten geliyorsanız, "Gatwick Express" yerine normal trenleri (Southern veya Thameslink) kullanarak neredeyse aynı sürede daha ucuza şehre varabilirsiniz (Ortalama £12-£15). Stansted ve Luton için otobüsler (National Express) bütçe dostudur (Ortalama £6-£11) ama tren her zaman daha konforludur. Lokal Trick: Tren biletlerinizi "Trainline" gibi uygulamalardan veya online olarak günler öncesinden alırsanız, istasyondaki fiyata göre çok daha karlı çıkarsınız.
+- **"Tap & Go" (Okut ve Geç):** Londra ulaşımında nakit paranın yeri yoktur. Otobüse veya metroya binerken bilet almanıza gerek yok; temassız kredi kartınızı, telefonunuzdaki Apple/Google Pay’i veya bir Oyster Card’ı okutmanız yeterli. (Metro tek yön ücreti Zone 1-2 için yaklaşık £2.80-£3.40 arasıdır).
+- **Günlük Limit (Daily Cap) Avantajı Avantajı):** En güzel yanlarından biri budur. Gün içinde ne kadar çok yolculuk yaparsanız yapın, sistem sizden belli bir miktardan (günlük limit) fazlasını çekmez. Yani bir noktadan sonra tüm yolculuklarınız bedavaya gelir. (Zone 1-2 için günlük limit yaklaşık £8.50'dir; bu rakama ulaştıktan sonraki tüm basışlar ücretsizdir).
+- **Çok Günlük Kartlar ve 7 Günlük Travelcard:** Londra'da artık özel 3 veya 5 günlük kartlar pek kullanılmıyor çünkü "Daily Cap" (günlük limit) zaten en ekonomik yolu sunuyor. Ancak 5 günden fazla kalacaksanız, herhangi bir istasyondaki makinelerden alabileceğiniz bir Oyster Card'a 7 Günlük Travelcard yüklemek en mantıklısıdır (Zone 1-2 için yaklaşık £42.70). Oyster Card'ın kendisi için £7 depozito ödenir ama bu kart ömür boyu geçerlidir.
+- **The Tube (Metro) ve "Mind the Gap":** Metro, Londra'nın en hızlı ulaşım aracıdır. Her yerde duyacağınız "Mind the Gap" (Boşluğa dikkat edin) anonsu buranın simgesidir. Hatların renklerini takip ederek istediğiniz her yere kolayca ulaşabilirsiniz.
+- **Kırmızı Otobüsler:** Kısa mesafeler için otobüsler harikadır. Eğer vaktiniz varsa, en ön sıradaki koltuğa oturun; size en ucuzundan muhteşem bir şehir turu yaptıracaktır. Unutmayın, otobüslere sadece ön kapıdan binilir ve inerken kartınızı tekrar okutmanıza gerek yoktur. (Otobüs tek biniş ücreti sabit £1.75'tir).
+- **Yürüyen Merdiven Kuralı (Altın Kural):** Eğer Londra’da bir lokal gibi görünmek istiyorsanız, yürüyen merdivenlerde mutlaka sağda durun. Sol taraf, acelesi olup koşanlar içindir; solda durursanız hafif bir uyarı alabilirsiniz.
+- **Uber Boat (Thames Clippers):** Ulaşımı bir keyfe dönüştürmek isterseniz nehir teknelerini kullanın. Metro ile aynı kartlarla ödeme yapabilirsiniz. Nehir üzerinden şehri izleyerek gitmek, trafiğe girmekten çok daha ferah bir seçenektir. (Tek yön yaklaşık £10 civarıdır).
+- **Citymapper Uygulaması:** Google Maps iyidir ama Londra için en iyi navigasyon Citymapper’dır. Hangi metro çıkışından çıkmanız gerektiğini bile söyler, mutlaka telefonunuza indirin.
+- **Yürümek Bazen Daha Hızlıdır:** Bazı duraklar birbirine o kadar yakındır ki (mesela Leicester Square ve Covent Garden), metroya inip binmek yürümekten daha uzun sürer. Kısa mesafelerde şehrin o güzel sokaklarının tadını çıkararak yürüyün.
+
+## 🏛️ Şehrin Hafızası: Görülmesi Gereken İkonik Duraklar
+
+Londra’nın sokaklarında yürürken aslında katman katman bir tarihin üzerinde yürürsünüz. Bu listedeki her durak, şehrin o devasa hafızasında ayrı bir sayfayı temsil ediyor. İşte Londra’yı Londra yapan ve mutlaka ziyaret etmeniz gereken o yerler:
+
+- [The City ve Roma Surları](search:The City ve Roma Surları): Londra’nın başladığı yer burası. Finans merkezinin göbeğinde, modern binaların arasında 2000 yıllık Roma surlarının kalıntılarını görebilir, şehrin ilk temellerine dokunabilirsiniz.
+- [Londra Kulesi (Tower of London)](search:Londra Kulesi (Tower of London): 1066’dan beri ayakta olan bu kale; saray, hapishane ve hatta hayvanat bahçesi olarak kullanılmış. Kraliyet mücevherlerini görüp meşhur kuzgunların hikayesini bizzat yerinde dinlemelisiniz.
+- [Westminster Abbey](search:Westminster Abbey): Bin yılı aşkın kraliyet geleneklerinin merkezi. Kralların taç giydiği, evlendiği ve ebedi uykusuna yattığı bu muazzam yapı, İngiliz tarihinin en görkemli şahididir.
+- **The Monument (Büyük Yangın Anıtı):** 1666 Büyük Yangını'nın anısına yapılan bu devasa sütuna tırmanabilirsiniz. Yangının başladığı noktaya olan mesafesi kadar uzun olan bu anıt, şehrin küllerinden doğuşunun simgesidir.
+
+- **Aziz Paul (St. Paul’s) Katedrali:** Katedrali): Yangın sonrası inşa edilen, devasa kubbesiyle Londra silüetinin vazgeçilmezi. Katedralin içindeki "Fısıltı Galerisi"ne çıkıp akustiği bizzat deneyimlemelisiniz.
+
+- **Parlamento Binası ve Big Ben:** Viktorya döneminin ihtişamını göreceğiniz, İngiliz demokrasisinin kalbi. O meşhur saat kulesinin sesini Thames kenarında yürürken duymak gerçek bir Londra klasiğidir.
+
+- [Buckingham Sarayı](search:Buckingham Sarayı): Kraliyet ailesinin resmi evi. Özellikle kapısındaki nöbet değişimi törenini (Changing of the Guard) izlemek, yüzyıllardır süregelen bir disipline tanıklık etmenizi sağlar.
+- [British Museum](search:British Museum): Dünyanın her köşesinden getirilmiş hazinelerin toplandığı yer. İnsanlık tarihinin en önemli parçalarını (Rosetta Taşı gibi) bir arada görebileceğiniz, devasa ve büyüleyici bir durak.
+- **Little Venice ve Regent’s Canal:** Sanayi Devrimi’nin su yolları bugün huzurlu birer rota. Burada kanallar arasında yürüyebilir veya teknelerle nehrin o sakin ve nostaljik yüzünü görebilirsiniz.
+
+- [Greenwich ve Kraliyet Gözlemevi](search:Greenwich ve Kraliyet Gözlemevi): Zamanın merkezi burası. Başlangıç meridyeni çizgisinin (Prime Meridian) üzerinde durup, bir ayağınızla doğuda diğer ayağınızla batıda olma hissini yaşamalısınız.
+- [Shakespeare's Globe Theatre](search:Shakespeare's Globe Theatre): Thames kıyısındaki bu tiyatro, orijinaline sadık kalınarak yeniden inşa edilmiş bir sanat mabedi. Shakespeare’in oyunlarını o günkü atmosferde izlemek benzersiz bir deneyim.
+- [Churchill War Rooms](search:Churchill War Rooms): İkinci Dünya Savaşı’nın (The Blitz) yönetildiği yeraltı sığınakları. Savaşın o zorlu günlerinin nasıl geçtiğini bizzat yerin altında hissedebileceğiniz etkileyici bir müze.
+- [Abbey Road ve Carnaby Street](search:Abbey Road ve Carnaby Street): Müzik ve modanın kalbi. Beatles’ın o meşhur yaya geçidinde yürüyüp, 60’ların ruhunu yansıtan renkli Carnaby sokaklarında kaybolmalısınız.
+- **Camden Town ve Pazarları:** Londra’nın çok kültürlü mozaiğinin en renkli olduğu yer. Her dilden ve kültürden insanın, yemeğin, müziğin birleştiği bu bölge, şehrin özgür ruhunu yansıtıyor.
+
+- [Sky Garden veya The Shard](search:Sky Garden veya The Shard): Şehre en tepeden bakış. Modern Londra’nın gökyüzüne uzanan bu noktalarından, tüm o tarihi dokuyu bir bütün olarak kuş bakışı izlemek harika bir final olacak.
+
+## 🍴 Şehrin Lezzet Haritası: Beş Çayından Curry Sokaklarına
+
+Londra mutfağı denince akla sadece patates ve balık gelmesin; burası dünyanın her yerinden lezzetlerin en iyi örneklerini bulabileceğiniz dev bir sofra gibidir. İngilizlerin kendi geleneksel tatları ile dünyanın dört bir yanından gelen (özellikle Hint ve Asya) baharatların karışımı, Londra’yı gerçek bir yemek cenneti yapar.
+
+- **Pazar Sabahlarının Yıldızı (Full English Breakfast):** Güne sıkı bir başlangıç yapmak istiyorsanız bu tabak tam size göre. Yumurta, sosis, pastırma, mantar, ızgara domates ve o meşhur kuru fasulye (baked beans) birleşince ortaya oldukça doyurucu bir kahvaltı çıkıyor. Yanına da sütlü bir İngiliz çayı söylemeyi unutmayın.
+- **Bir İngiliz Klasiği (Fish and Chips):** Londra’da her köşe başında göreceğiniz bu ikili, dışı çıtır panelenmiş balık ve kalın kesim patates kızartmasından oluşur. Gerçek bir lokal gibi yemek isterseniz, yanına bezelye püresi (mushy peas) ekleyip üzerine bolca sirke ve tuz dökerek denemelisiniz.
+
+- **Pazar Günlerinin Ritüeli (Sunday Roast):** İngilizlerin en sevdiği aile geleneğidir. Genellikle fırınlanmış et (dana, kuzu veya tavuk), fırın patates, sebzeler ve "Yorkshire Pudding" denilen o pofuduk hamur ile servis edilir. Üzerine dökülen yoğun "gravy" sosu ise bu yemeğin asıl sihridir.
+
+- **İngiltere'nin Gayriresmi Milli Yemeği (Chicken Tikka Masala):** Londra’da Hint mutfağı o kadar yaygındır ki, bu yemek artık İngiliz mutfağının bir parçası kabul ediliyor. Özellikle Brick Lane sokaklarındaki o köri kokusunu takip edin; hafif acılı ve kremalı bu tavuk yemeği, Londra’nın çok kültürlü ruhunu tatmanın en iyi yoludur.
+- **Zarafetin Tadı (Afternoon Tea - Beş Çayı):** Bu sadece çay içmek değil, tam bir törendir. Küçük sandviçler, "scone" denilen tatlı çörekler, üzerlerine sürülen yoğun krema (clotted cream) ve reçel eşliğinde çay keyfi yapmadan dönmeyin. Bu keyfi şık bir otelde veya samimi bir mahalle kafesinde yaşayabilirsiniz.
+- **Sokak Lezzetlerinin Kalbi (Borough Market):** Eğer "ne yiyeceğime karar veremiyorum" derseniz, rotanız burası olsun. Dünyanın her yerinden taze peynirler, deniz ürünleri, sandviçler ve tatlılar arasında kaybolurken her tezgahta ayrı bir lezzet fırtınası bulacaksınız.
+- **Doğu Londra’nın Mirası (Pie and Mash):** Eski Londra’nın işçi sınıfı yemeği olan bu lezzet, kıymalı börek (pie) ve patates püresinden oluşur. Yanında servis edilen o yeşil maydanoz sosu (liquor) ile tarihin tadına bakabilirsiniz.
+
+- **7/24 Sıcak Lezzet (Salt Beef Bagel):** Brick Lane’deki meşhur fırınlarda (Beigel Bake gibi) bulabileceğiniz, içi yumuşacık tuzlanmış et ve hardalla dolu bu sandviçler Londra’nın en hızlı ve en ikonik atıştırmalıklarındandır.
+- **Pub’ların Olmazsa Olmazı (Steak & Kidney Pie):** Gerçek bir İngiliz pub atmosferinde yiyebileceğiniz, içi sulu et ve böbrek parçalarıyla dolu bu hamur işi, yağmurlu bir Londra gününde içinizi ısıtacak en iyi dostunuz olacak.
+- **Yağmurlu Havaya En Yakışan Tatlı (Sticky Toffee Pudding):** Üzerine sıcak karamel sosu dökülen, yanında vanilyalı dondurma veya krema ile servis edilen bu kek, İngiltere’nin tatlı konusundaki en büyük başarısıdır.
+- [Dünya Mutfağının Çılgın Karışımı (Camden Market Stalls)](search:Dünya Mutfağının Çılgın Karışımı (Camden Market Stalls): Burada sadece bir yemek değil, bir deneyim var. Dev peynir tekerleklerinde hazırlanan makarnalardan, Asya usulü dürümlere kadar her bütçeye uygun binlerce seçenek arasında kaybolabilirsiniz.
+
+**💡 Lokal Notlar:**
+- **Pub Kültürü:** Pub’larda yemeğinizi genellikle barda sipariş verip ödemenizi yaparsınız; servis elemanının masaya gelmesini beklerseniz biraz acıkabilirsiniz.
+- **Hesap ve Bahşiş:** Çoğu restoranda hesaba otomatik olarak %12.5 oranında "service charge" (servis ücreti) eklenir. Eğer hesapta bunu görürseniz ekstra bahşiş bırakmanıza gerek yok.
+- **Musluk Suyu:** Restoranlarda "tap water" (musluk suyu) isterseniz ücretsiz olarak getirilir; Londra'da musluk suyu içilebilir ve tadı da oldukça iyidir, çekinmeden isteyebilirsiniz.
+
+
+## 🤫 Şehrin Fısıldadıkları: Lokal Sırlar
+
+Londra, sadece ana caddelerindeki o büyük binalardan ibaret değildir; asıl ruhunu kalabalıklardan saptığınız o sessiz köşelerde, tuhaf mimari oyunlarda ve sadece lokallerin bildiği küçük duraklarda saklar. Turistlerin önünden hızlıca geçtiği ama sizin durup hikayesini dinlemeniz gereken o gizli detayları keşfetmeye hazır olun.
+
+- **St. Dunstan in the East (Yıkık Kilisedeki Saklı Bahçe):** Tower Hill ile Monument arasında, 2. Dünya Savaşı’nda bombalanmış bir kilisenin kalıntıları arasında ağaçların ve sarmaşıkların yükseldiği bu gizli bahçeyi bulun. Şehrin gürültüsünden tamamen kopup büyüleyici bir sessizliğe bürünmek için Londra’daki en özel noktadır.
+
+- **Leinster Gardens’ın "Sahte" Evleri (23 ve 24 Numara):** Bayswater bölgesinde yürürken 23 ve 24 numaralı evlere dikkatlice bakın. Dışarıdan bakıldığında diğerleri gibi şık Viktorya evleri gibi görünseler de aslında bu evlerin içi boştur. Metro hattı yapılırken dumanın çıkması için inşa edilen bu "paravan" binalar, Londra’nın en ilginç mimari hilelerinden biridir.
+
+- **The Garden at 120 (Bedava ve Saklı Manzara):** Herkes Sky Garden veya The Shard için bilet peşinde koşarken, siz Fenchurch Street'teki bu binanın en üst katına çıkın. Rezervasyon gerektirmeyen ve tamamen ücretsiz olan bu teras bahçesi, size şehrin gökdelenleri arasında açık havada yürüme ve muazzam bir manzara izleme fırsatı sunar.
+
+- **Neal’s Yard (Renk Patlaması):** Covent Garden’ın kalabalığından daracık bir geçitle ayrılan bu küçük meydan, Londra’nın en renkli köşesidir. Boyanmış binaları, bitkilerle dolu balkonları ve butik kafeleriyle kendinizi bir anda Alice Harikalar Diyarı’nda gibi hissedeceksiniz.
+
+- **Postman’s Park (Kahramanların Duvarı):** St. Paul Katedrali’nin hemen yakınındaki bu parkta, başkalarını kurtarmak için hayatını feda eden sıradan insanların hikayelerinin yazılı olduğu seramik tabletleri göreceksiniz. Hüzünlü ama bir o kadar da ilham verici, Londra’nın insani yanını gösteren çok naif bir noktadır.
+
+- **St. Bride’s Church (Düğün Pastasının İlhamı):** Fleet Street üzerinde yer alan bu kilisenin kulesine dikkatle bakın. Kat kat yükselen o meşhur yapısı, aslında bugün bildiğimiz o klasik "katlı düğün pastası" tasarımının ilk ilham kaynağıdır. 18. yüzyılda bir pastacının bu kuleden esinlenerek yaptığı pasta, o günden beri dünyadaki tüm düğünlerin vazgeçilmezi olmuştur.
+- [Leadenhall Market’ın](search:Leadenhall Market’ın Görkemi) Görkemi: Harry Potter filmlerinden aşina olabileceğiniz bu Viktorya dönemi çarşısı, turistlerin genelde sadece önünden geçtiği bir yerdir. Ancak akşam saatlerinde lokallerin iş çıkışı pub’lara doluştuğu, tavan süslemelerinin altında bir şeyler içtiği o anlarda Londra’nın gerçek nostaljisini hissedebilirsiniz.
+- [Kyoto Garden (Holland Park)](search:Kyoto Garden (Holland Park): Londra’nın ortasında küçük bir Japonya bulmak isterseniz doğru yer burasıdır. Şelalesi, tavus kuşları ve taş köprüleriyle bu bahçe, özellikle yorgun bir günün sonunda huzur bulmak için lokallerin kaçış noktasıdır.
+- **Seven Dials’ın Sekizinci Yolu:** Covent Garden’daki yedi yolun birleştiği meydandaki meşhur sütuna bakın. Üzerinde yedi adet güneş saati vardır. Aslında meydan ilk tasarlandığında yedi yol planlanmıştı ama sonradan sekizinci bir yol daha eklendi. Sütundaki saatlerin neden hala yedi adet olduğunu düşünmek, Londra’nın o eski "hatalı" detaylarından biridir.
+- **Little Venice’te Zamanı Durdurmak:** Regent’s Canal ve Grand Union Canal’ın birleştiği bu noktada, su kenarına dizilmiş renkli tekneleri izleyerek yürüyün. Londra’da olduğunuzu size tamamen unutturacak, Venedik havasında ama çok daha sakin bir "mola" noktasıdır.
+
+## ✅ Mutlaka Yapmadan Dönme: Londra Checklist
+
+- **Kırmızı Otobüsün En Önüne Otur:** Çift katlı bir otobüsün üst katında, en ön koltuğa kurulun ve şehri dev bir sinema perdesindeymiş gibi izleyerek tur atın.
+- **Borough Market’ta Lezzet Turu Yap:** Şehrin en eski yemek pazarında peynirlerden taze sandviçlere kadar her şeyi deneyin, o kalabalığın enerjisine karışın.
+- **Southbank’te Gece Yürüyüşü Yap:** Hava karardığında Thames Nehri boyunca yürüyün; nehrin üzerindeki ışık yansımaları ve London Eye’ın görkemi size harika hissettirecek.
+- **"Mind the Gap" Sesini Duy:** Londra metrosunda (The Tube) o klasik anonsu duyarken bir istasyondan diğerine ışık hızıyla geçmenin keyfini sürün.
+
+- **Parkta Sincaplarla Yürüyüş Yap:** Hyde Park veya St. James’s Park’ta yanınızdan geçen sincapları izleyin, hatta mümkünse yanınızda fındık bulundurun.
+- **Gerçek Bir Pub'da Sunday Roast Ye:** Pazar günü bir mahalle pub’ına gidin; o pofuduk hamurlu ve bol soslu geleneksel Pazar yemeğinin tadına bakın.
+- Kırmızı Telefon Kulübesinde Fotoğraf Çekil: Ne kadar turistik görünse de, o ikonik kulübelerin önünde bir fotoğrafınız olmadan Londra’dan dönmeyin.
+- **Bir West End Müzikali İzle:** Sahne sanatlarının kalbi olan Soho çevresinde büyüleyici bir müzikal izleyerek kendinizi sanatın akışına bırakın.
+
+- **Beş Çayı (Afternoon Tea) Deneyimi Yaşa:** Şık bir fincan çay, minik sandviçler ve reçelli "scone"lar eşliğinde o meşhur İngiliz seremonisinin tadını çıkarın.
+- **Şehre Üstten Bak:** Sky Garden veya Garden at 120 gibi noktalardan gökdelenlerin arasından tüm Londra’yı panoramik olarak izleyin.
+
+- **British Museum’da Tarihe Dokun:** İnsanlık tarihinin en önemli parçalarını görmek için bu devasa müzenin koridorlarında kaybolun.
+
+- **Şemsiyeni Hep Yanında Tut:** Aniden bastıran o meşhur Londra yağmurunda şemsiyeni açıp yürürken, şehre en çok bu havanın yakıştığını fark et.
+
+''';
+
+  static const _londraEN = '''# London: The Balance of History, Royalty and Chaos
+
+**Quick Glimpse:** London is a massive and vibrant city where old royal buildings and modern glass skyscrapers, formal protocols and colorful street art live side by side. Spreading across both sides of the Thames, this city is actually a collection of dozens of different "villages" (like Soho, Chelsea, and Shoreditch), each with its own distinct character. It offers the calm of a gray morning and the energy of the world's most bustling restaurants at the same time. To truly know London, just looking at palaces isn't enough; you need to hop on the top deck of a red double-decker bus, walk with the squirrels in Hyde Park, gaze at the city from the top of the massive Ferris wheel, and perhaps snap an iconic photo in those classic red telephone booths. Feeling the historic atmosphere in every street will be the heart of your London experience.
+
+**📝 Good to Know Before You Go:**
+- **Visa and Borders:** Remember, London is part of the UK, and a Schengen visa is not valid here. You need to obtain a specific UK Standard Visitor Visa. Passport control can sometimes involve long queues and take longer than expected, so make sure to bring your patience along.
+
+- **Plugs and Power:** The famous British "conservatism" extends to their power outlets. European-style two-pin plugs will not work here; if you don’t have a Type G three-pronged adapter, your first stop will be a local convenience store.
+
+- **Say Goodbye to Cash:** London is one of the most "cashless" cities in the world. Instead of carrying Pound (£) banknotes, your contactless credit card or Apple/Google Pay will be your best friend. You can handle everything from buses to coffee with the "tap & go" method.
+- **Weather:** In London, the weather isn't just a forecast; it’s a mood that shifts every five minutes. Trusting the morning sun is risky; dressing in "layers" is not just a fashion trend here—it’s a survival tactic. Most importantly, a little tip: always keep a small umbrella in your bag to protect yourself from those sudden rain showers.
+
+
+## 📅 Timing is Everything: Which Season is Yours?
+
+Every season in London tells you a completely different story. Even though the gray sky is the city's signature, every month has its own flavor and activity. Deciding when to go really just depends on what kind of atmosphere you want to be in.
+
+**Spring (March - May):** The time when the city begins to wake up and the parks fill with those famous flowers. You can see colors everywhere while walking in Hyde Park or Richmond Park. The weather can be a bit chilly, and you’ll need our "little tip"—the umbrella—the most during these months, but it’s one of the best times to discover the city on foot.
+
+**Summer (June - August):** London’s most energetic and, of course, most crowded period. The sun setting after 9 PM gives you extra-long days. It’s ideal for watching locals picnic in the parks, attending outdoor festivals, and taking long walks by the river. Just be prepared for a bit of a crowd.
+
+**Autumn (September - November):** When the city turns into those famous orange, red, and yellow colors—perhaps its most photogenic time. The slightly misty air really suits London’s old soul. Visiting museums, taking refuge in a warm pub when you’re tired, and walking among falling leaves makes you feel like you’re inside a real London movie.
+
+**Winter (December - February):** The days get dark early and it’s cold, but in December, London turns into a sea of lights. With the lights of Oxford Street, massive Christmas markets, and "Winter Wonderland" in Hyde Park, the city takes on a fairytale feel. January and February are quieter and more budget-friendly; if you're a museum lover, this is the ideal time for you.
+
+## 🏠 Where to Stay: Neighborhood Guide
+
+Since London is so large and every area is so different, where you choose to stay really depends on what kind of vacation you want. As we mentioned, the city is made up of "villages" with their own characters, and your location will set the tone for your London story.
+
+- [Covent Garden & Soho (Heart of the City)](search:Covent Garden & Soho (Heart of the City): If you want to be "right in the middle of everything" and walk to theaters, restaurants, and shopping streets the moment you step outside, this is the place for you. It’s the most vibrant part of the city. Just keep in mind that it can be a bit noisy and more expensive than other areas.
+- [South Kensington & Chelsea (Elegance and Museums)](search:South Kensington & Chelsea (Elegance and Museums): If you are looking for more stylish, quiet, and wide streets, you will love it here. It's within walking distance of major spots like the Natural History Museum and the V&A. It’s a wonderful, upscale area, especially for families and those seeking peace.
+- [Shoreditch & Hoxton (Cool and Artistic)](search:Shoreditch & Hoxton (Cool and Artistic): If you want to see the "cool" side of London, head to East London. With its street art, boutique shops, design markets, and lively nightlife, this is a favorite for the younger and creative crowd. It has a more modern and different vibe compared to the city center.
+- **Paddington & Marylebone (Practical and Stylish):** Paddington is very practical, especially if you’re coming from Heathrow Airport by train (Heathrow Express). The Marylebone side, with its chic cafes and proximity to Hyde Park, is a peaceful yet central option.
+
+- **Southbank & Bankside (Views and River Vibe):** If you want to wake up facing the River Thames and start your day with a stroll along the water, this is a great choice. You’ll be very close to the London Eye and the Tate Modern. Walking along the river under the lights in the evening is priceless.
+
+
+## 🚲 Getting from A to B: Move Like a Local
+
+Transportation in London is not just about getting from place to place; it’s about experiencing the city’s vibe. Whether you’re traveling on the world’s oldest underground network or watching the world go by from the top of a red bus, these tips will make your life much easier:
+
+- **First Step from the Airport:** Which airport you land at determines your cost and time for getting to the city. For Heathrow, the smartest choice is the purple Elizabeth Line; it's fast and much cheaper than the expensive Express trains (Approx. £13.30). If coming from Gatwick, choose regular trains (Southern or Thameslink) instead of the "Gatwick Express"—you'll arrive in almost the same time for less money (Approx. £12-£15). For Stansted and Luton, buses (National Express) are budget-friendly (Approx. £6-£11), but trains are always more comfortable. Local Trick: If you buy your train tickets via apps like "Trainline" or online days in advance, you’ll save a significant amount compared to the station price.
+- **Tap & Go:** There is no place for cash in London’s transport system. You don’t need to buy a ticket for the bus or the Tube; just tap your contactless credit card, Apple/Google Pay, or an Oyster Card. (A single Tube journey in Zone 1-2 is around £2.80-£3.40).
+- **The Daily Cap Advantage:** This is one of the best parts. No matter how many journeys you make in a day, the system won't charge you more than a certain amount (the daily cap). This means after a certain point, all your travels are essentially free. (The Daily Cap for Zone 1-2 is approx. £8.50; once you reach this, all further taps are free).
+- **Multi-day Passes and the 7-Day Travelcard:** Specific 3-day or 5-day cards are rarely used anymore because the "Daily Cap" provides the best value. However, if staying for more than 5 days, it’s smartest to load a 7-Day Travelcard onto an Oyster Card at any station machine (Approx. £42.70 for Zone 1-2). There is a £7 non-refundable fee for the Oyster Card itself, but it lasts a lifetime.
+- **The Tube and "Mind the Gap":** The Underground is the fastest way to get around London. The famous "Mind the Gap" announcement you’ll hear everywhere is an icon of the city. Just follow the colors of the lines to get anywhere you want.
+
+- **Red Double-Decker Buses:** Buses are great for short distances. If you have time, sit in the very front seat on the top deck; it’s the cheapest city tour you’ll ever get. Remember, you enter the bus from the front door only, and there’s no need to tap out when you get off. (The single bus fare is fixed at £1.75).
+- **The Golden Rule of Escalators:** If you want to look like a local, always stand on the right on escalators. The left side is for people in a rush; if you stand on the left, you might get a polite reminder.
+- **Uber Boat (Thames Clippers):** To turn your journey into a scenic trip, use the river boats. You can pay with the same cards as the Tube. Watching the city from the river is a much fresher option than sitting in traffic. (A single journey is approx. £10).
+- **Citymapper App:** Google Maps is fine, but Citymapper is the ultimate navigation tool for London. It even tells you which station exit to use, so make sure to download it.
+- **Walking is Sometimes Faster:** Some stations are so close to each other (like Leicester Square and Covent Garden) that going down into the Tube and back up actually takes longer than walking. Enjoy the beautiful streets and walk short distances instead.
+
+## 🏛️ The City's Memory: Iconic Landmarks Must-See
+
+Walking through the streets of London means walking over layers of history. Each stop on this list represents a different chapter in the city’s vast memory. Here are the places that make London what it is today and that you must visit:
+
+- [The City and the Roman Walls](search:The City and the Roman Walls): This is where London began. Right in the heart of the financial district, among modern buildings, you can see the 2,000-year-old remains of the Roman walls and touch the city’s original foundations.
+- [Tower of London](search:Tower of London): Standing since 1066, this fortress has served as a palace, a prison, and even a zoo. You must see the Crown Jewels and hear the legend of the famous ravens right there.
+- [Westminster Abbey](search:Westminster Abbey): The center of royal traditions for over a thousand years. This magnificent structure, where kings have been crowned, married, and laid to rest, is the grandest witness to British history.
+- **The Monument:** Built in memory of the Great Fire of 1666, you can actually climb this massive column. Located exactly as far from where the fire started as it is high, it is the symbol of the city rising from its ashes.
+
+- **St. Paul’s Cathedral:** Built after the Great Fire, its massive dome is an indispensable part of the London skyline. You should go up to the "Whispering Gallery" inside to experience the acoustics for yourself.
+
+- **Houses of Parliament and Big Ben:** The heart of British democracy, showcasing Victorian grandeur. Hearing the sound of that famous clock tower while walking along the Thames is a true London classic.
+
+- **Buckingham Palace:** The official home of the Royal Family. Watching the Changing of the Guard ceremony allows you to witness a discipline that has continued for centuries.
+
+- [The British Museum](search:The British Museum): A place where treasures from every corner of the world are gathered. A massive and fascinating stop where you can see the most important pieces of human history (like the Rosetta Stone) all in one place.
+- **Little Venice and Regent’s Canal:** The waterways of the Industrial Revolution are now peaceful routes. You can walk along the canals or take a boat to see the calm and nostalgic side of the river.
+
+- **Greenwich and the Royal Observatory:** This is the center of time. You should stand on the Prime Meridian line and experience the feeling of having one foot in the East and the other in the West.
+
+- [Shakespeare's Globe Theatre](search:Shakespeare's Globe Theatre): This theatre on the banks of the Thames is an art sanctuary rebuilt to match the original. Watching Shakespeare’s plays in that original atmosphere is a unique experience.
+- [Churchill War Rooms](search:Churchill War Rooms): The underground bunkers where World War II (The Blitz) was managed. An impressive museum where you can feel what those difficult days were like right beneath the ground.
+- [Abbey Road and Carnaby Street](search:Abbey Road and Carnaby Street): The heart of music and fashion. You must walk across the famous Beatles' zebra crossing and get lost in the colorful Carnaby streets that reflect the spirit of the 60s.
+- **Camden Town and Its Markets:** Where London’s multicultural mosaic is at its most colorful. Representing the city's free spirit, this area is where people, food, and music from every culture merge.
+
+- [Sky Garden or The Shard](search:Sky Garden or The Shard): A view from the very top. From these points in modern London that reach for the sky, watching all that historic texture as a whole from a bird's-eye view will be a wonderful finale.
+
+## 🍴 A Taste of the City: From Afternoon Tea to Curry Streets
+
+When people think of London’s food, it’s not just about fish and chips anymore; the city has become a giant dining table where you can find the best versions of flavors from all over the world. The blend of traditional British tastes with spices from across the globe (especially India and Asia) makes London a true foodie paradise.
+
+- **The Star of Sunday Mornings (Full English Breakfast):** If you want to start your day strong, this is the plate for you. With eggs, sausages, bacon, mushrooms, grilled tomatoes, and those famous baked beans, it’s a very filling breakfast. Don’t forget to order an English tea with milk on the side.
+- **A British Classic (Fish and Chips):** You’ll see this duo on every corner—battered fish served with chunky chips. To eat it like a local, add some mushy peas and sprinkle plenty of salt and vinegar over it.
+
+- **The Sunday Ritual (Sunday Roast):** This is the Brits' favorite family tradition. It usually features roasted meat (beef, lamb, or chicken), roast potatoes, vegetables, and a fluffy Yorkshire Pudding. The thick "gravy" sauce poured over it is the real magic of the meal.
+
+- **The Unofficial National Dish (Chicken Tikka Masala):** Indian cuisine is so common in London that this dish is now considered part of British culture. Follow the scent of curry on Brick Lane; this mildly spicy, creamy chicken dish is the tastiest way to experience London’s multicultural soul.
+
+- **The Taste of Elegance (Afternoon Tea):** This is more than just drinking tea; it’s a full ceremony. Enjoy your tea with small finger sandwiches and sweet scones served with clotted cream and jam. You can experience this ritual at a fancy hotel or a cozy neighborhood cafe.
+- **The Heart of Street Food (Borough Market):** If you can’t decide what to eat, head here. You’ll find a flavor explosion at every stall, from fresh cheeses and seafood to sandwiches and desserts from all over the world.
+- **East London Heritage (Pie and Mash):** This working-class meal of old London consists of a meat pie and mashed potatoes. You can taste history with the green parsley sauce (liquor) served on the side.
+
+- **24/7 Hot Delicacy (Salt Beef Bagel):** These sandwiches, filled with tender salted beef and mustard, found in the famous bakeries of Brick Lane (like Beigel Bake), are among London's fastest and most iconic snacks.
+
+- **A Pub Essential (Steak & Kidney Pie):** This pastry filled with juicy meat and kidney pieces, which you can eat in a real British pub atmosphere, will be your best friend to warm you up on a rainy London day.
+- **The Perfect Dessert for Rainy Weather (Sticky Toffee Pudding):** This sponge cake topped with warm caramel sauce and served with vanilla ice cream or custard is England's greatest achievement in desserts.
+- **A Wild Mix of Global Cuisine (Camden Market Stalls):** Here is an experience, not just a meal. You can get lost among thousands of budget-friendly options, from pasta prepared in giant cheese wheels to Asian-style wraps.
+
+**💡 Local Tips:**
+- **Pub Culture:** In many pubs, you usually order and pay for your food at the bar; if you wait for a server to come to your table, you might find yourself waiting for quite a while.
+- **The Bill and Tipping:** Most restaurants automatically add a 12.5% service charge to the bill. If you see this on your receipt, there’s no need to leave an extra tip.
+- **Tap Water:** If you ask for "tap water" in London restaurants, it’s provided for free. The tap water in London is perfectly drinkable and tastes quite good, so don’t hesitate to ask for it.
+
+## 🤫 Whispers of the City: Local Secrets
+
+London isn't just about the grand buildings on the main streets; it hides its true soul in the quiet corners you turn into away from the crowds, in quirky architectural tricks, and in small stops only known to locals. Get ready to discover the hidden details that tourists rush past, but you should stop and listen to.
+
+- **St. Dunstan in the East (Secret Garden in a Ruined Church):** Between Tower Hill and Monument, find this hidden garden where trees and ivy climb through the ruins of a church bombed during WWII. It is the most special spot in London to completely escape the city noise and immerse yourself in a magical silence.
+- **The "Fake" Houses of Leinster Gardens (Numbers 23 and 24):** Look closely at numbers 23 and 24 while walking in the Bayswater area. Although they look like elegant Victorian houses from the outside, they are actually empty inside. These "facade" buildings, built to let out steam during the construction of the underground line, are one of London's most interesting architectural tricks.
+
+- **The Garden at 120 (A Free and Hidden View):** While everyone is chasing tickets for the Sky Garden or The Shard, head to the top floor of this building on Fenchurch Street. This open-air roof garden, which requires no reservation and is completely free, offers you the chance to walk among the city's skyscrapers and enjoy a magnificent view.
+
+- [Neal’s Yard (A Burst of Color)](search:Neal’s Yard (A Burst of Color): Separated from the Covent Garden crowds by a narrow passage, this small square is the most colorful corner of London. With its painted buildings, balconies full of plants, and boutique cafes, you’ll suddenly feel like you’re in Alice in Wonderland.
+- [Postman’s Park (The Wall of Heroes)](search:Postman’s Park (The Wall of Heroes): In this park right next to St. Paul’s Cathedral, you will see ceramic tablets inscribed with the stories of ordinary people who sacrificed their lives to save others. It is a very poignant yet inspiring spot that shows the human side of London.
+- **St. Bride’s Church (The Wedding Cake Inspiration):** Look closely at the spire of this church on Fleet Street. Its tiered structure is actually the original inspiration for the classic "tiered wedding cake" design we know today. A cake made by a baker in the 18th century, inspired by this spire, has been a staple of weddings worldwide ever since.
+
+- The Splendor of [Leadenhall Market](search:The Splendor of Leadenhall Market): You might be familiar with this Victorian-era market from the Harry Potter films; it's a place tourists usually just pass by. However, in the evening, when locals crowd the pubs after work, you can feel the true nostalgia of London under the ornate ceiling decorations.
+- [Kyoto Garden (Holland Park)](search:Kyoto Garden (Holland Park): If you want to find a small piece of Japan in the middle of London, this is the right place. With its waterfall, peacocks, and stone bridges, this garden is a local escape for finding peace, especially at the end of a long day.
+- [The Eighth Road of Seven Dials](search:The Eighth Road of Seven Dials): Look at the famous pillar in the square where seven roads meet in Covent Garden. It has seven sundials on it. Actually, when the square was first designed, seven roads were planned, but later an eighth road was added. Thinking about why there are still seven sundials on the pillar is one of London's quirky "flawed" historical details.
+- **Stopping Time in Little Venice:** At this point where Regent’s Canal and Grand Union Canal meet, walk along the rows of colorful houseboats by the water. It’s a "break" point with a Venetian vibe but much quieter, which will make you completely forget you’re in London.
+
+## ✅ The London Checklist: Don't Leave Without Doing These
+
+- **Sit at the Very Front of a Red Bus:** Grab the front seat on the top deck of a double-decker bus and watch the city unfold like a giant movie screen.
+- **Take a Food Tour at Borough Market:** Explore the city's oldest food market, taste everything from local cheeses to fresh sandwiches, and dive into the crowd's energy.
+- **Walk Along Southbank at Night:** Take a stroll by the River Thames after dark; the light reflections on the water and the glow of the London Eye are truly magical.
+- **Hear the "Mind the Gap" Announcement:** Ride the Tube and experience the thrill of moving between stations while hearing that iconic London phrase.
+
+- **Walk with the Squirrels in the Park:** Watch the squirrels scurry past you in Hyde Park or St. James’s Park—bring some nuts if you can!
+- **Eat a Sunday Roast in a Real Pub:** Visit a neighborhood pub on a Sunday to taste the traditional roast with all the trimmings and gravy.
+- **Snap a Photo in a Red Telephone Booth:** No matter how touristy it feels, don't leave London without a photo in front of those iconic red booths.
+
+- **Watch a West End Musical:** Immerse yourself in the heart of the performing arts by seeing a breathtaking show in the Soho area.
+
+- **Experience Afternoon Tea:** Enjoy the famous British ceremony with a fine cup of tea, finger sandwiches, and scones with jam and cream.
+- **See the City from Above:** Head to Sky Garden or The Garden at 120 to catch a panoramic view of the entire city from among the skyscrapers.
+
+- **Touch History at the British Museum:** Get lost in the corridors of this massive museum to see some of the most important artifacts in human history.
+
+- **Keep Your Umbrella Handy Always:** When the famous London rain suddenly hits, open your umbrella and realize that this weather actually suits the city best.
+
+''';
+
+  // BERLIN
+  static const _berlinTR = '''# Berlin: Tarihin, Sanatın ve Özgürlüğün Ham Hali
+
+**Hızlı Bakış:** Berlin’de sokakta yürürken kendinizi bir açık hava müzesinde, bir sanat galerisinde veya dünyanın en büyük tekno kulübünün kapısında bulabilirsiniz. Berlin sizi etkilemeye çalışmaz; sizi olduğunuz gibi kabul eder. Kendini "fakir ama seksi" (Arm, aber sexy) olarak tanımlayan bu şehir; mükemmeliyetçilikten uzak, son derece dürüst ve özgürdür.Bu şehirde "kusursuzluk" aranmaz, "özgünlük" alkışlanır. Tek bir merkezden ziyade "Kiez" denilen ve her birinin kendi özgün ruhu olan mahallelerden oluşan bu metropolde, "Berliner Schnauze" (Berlin Ağzı) denilen o hafif kaba ama doğrudan iletişim tarzı hakimdir. Berlin'in yazısız yaşam kodlarına uyum sağlamak ise şehri hissetmenin anahtarıdır: Gece yarısı boş bir sokakta bile olsanız yayalar için kırmızı ışıkta mutlaka durun, küçük dükkanlarda nakit paranın hala hüküm sürdüğünü (Nur Bares ist Wahres) unutmayın ve en önemlisi, biten içecek şişelerinizi asla çöp kutusunun içine atmayın; onları kutunun yanına bırakmak (Pfand kültürü), depozito toplayarak geçinenlere destek olmanın en kibar ve Berlinvari yoludur.
+
+## 📅 Takviminizi Ayarlayın: Hangi Mevsim Sizin?
+
+Berlin, mevsimlerin sadece sıcaklık değişiminden ibaret olmadığı, şehrin çehresinin ve insanların ruh halinin tamamen başkalaştığı bir yerdir. Her mevsimde bambaşka bir Berlin’le tanışmaya hazır olun.
+
+- **İlkbahar (Nisan - Haziran):** Berlin’in "uyandığı" dönemdir. Kiraz ağaçları (Sakura) çiçek açar, nehir kenarındaki şezlonglar ortaya çıkar ve Berlinliler kışın kasvetini üzerlerinden atmak için kendilerini parklara atar. Hava hala değişkendir ama şehrin enerjisinin en taze olduğu zamanlardır.
+- **Yaz (Temmuz - Ağustos):** Berlin’in gerçek bir "açık hava oturma odasına" dönüştüğü mevsimdir. Güneş gece 10’a kadar batmaz. Tempelhofer Feld’de (eski havalimanı) paten kayanları, göllere (Wannsee, Schlachtensee) kaçan yerelleri ve her köşe başındaki açık hava partilerini görmek için en iyi zamandır. Berlin bu aylarda çok canlı ama bir o kadar da kalabalıktır.
+- **Sonbahar (Eylül - Ekim):** Şehrin devasa parklarının (özellikle Tiergarten) sarı ve turuncuya büründüğü, fotoğraf meraklıları için en estetik dönemdir. Hava serinlemeye başlar ama Berlin’in o "melankolik ve karizmatik" ruhu en çok bu mevsimde hissedilir. Ayrıca Ekim ayındaki "Festival of Lights" ile şehir dev bir ışık şovuna dönüşür.
+- **Kış (Kasım - Mart):** İşte Berlin’in o dürüst, gri ve sert yüzüyle tanışma vakti. Hava gerçekten soğuk ve rüzgarlıdır, güneş bazen günlerce yüzünü göstermez. Ancak Aralık ayı gelince kurulan masalsı Noel Pazarları (Weihnachtsmärkte), sıcak şarap (Glühwein) kokusu ve karlı sokaklar şehre bambaşka bir sıcaklık katar. Müze gezmek ve Berlin’in yeraltı kulüp kültürüne dalmak için en uygun mevsimdir.
+
+## 🏠Nerede Kalmalı: Mahalle Rehberi
+
+Berlin, tek bir merkezden ziyade "Kiez" adı verilen mahallelerin toplamından oluşur. Nerede kalacağınız, Berlin seyahatinizin karakterini tamamen değiştirebilir. Burada seçim yapmak, aslında Berlin’in hangi yüzüyle tanışmak istediğinize karar vermektir.
+
+- **Mitte (Merkez):** Şehrin tarihi ve turistik kalbidir. Brandenburg Kapısı, Müze Adası ve Alexanderplatz gibi ikonik noktalar buradadır. Eğer Berlin’e ilk kez geliyorsanız ve her yere yürüme mesafesinde ya da tek bir trenle ulaşmak istiyorsanız en mantıklı bölgedir. Şık butikler ve popüler galerilerle doludur ancak Berlin’in o meşhur "alternatif" ruhunu burada bulmak biraz daha zordur.
+
+- [Prenzlauer Berg](search:Prenzlauer Berg): Berlin’in en estetik, en temiz ve aile dostu mahallesidir. Savaş sonrası hızla restore edilen bu bölge; geniş kaldırımları, tasarım dükkanları ve yan yana dizilmiş kaliteli kahve dükkanlarıyla bilinir. Özellikle Pazar günleri Mauerpark’taki bit pazarına yakın olmak istiyorsanız idealdir. Daha "oturmuş" ve şık bir Berlin deneyimi arayanlar için en iyi tercihtir.
+- [Kreuzberg](search:Kreuzberg): Berlin’in o meşhur asi, çok kültürlü ve alternatif ruhunun doğduğu yerdir. Sokak sanatı, her köşe başındaki dönercileri ve kanal kenarındaki salaş barlarıyla meşhurdur. Gençlerin ve sanatçıların favorisidir. Biraz kaotik ve "ham" bir enerjisi vardır; eğer şehrin gerçek dinamizmini ve gece hayatını merkezinden hissetmek istiyorsanız burası tam size göre.
+- [Friedrichshain](search:Friedrichshain): Endüstriyel mimarinin, eski fabrikaların ve Berlin’in kulüp kültürünün kalbidir. East Side Gallery (duvarın kalan en uzun parçası) buradadır. Neukölln ve Kreuzberg ile komşu olan bu bölge, gece hayatına yakın olmak isteyen ama aynı zamanda geniş caddelerden hoşlanan gezginler için harikadır. Genç popülasyonun en yoğun olduğu bölgelerden biridir.
+- [Neukölln](search:Neukölln): Berlin’in "yükselen" yıldızıdır. Bir zamanlar dışlanan bu bölge, bugün şehrin en yaratıcı ve kozmopolit noktasıdır. Landwehrkanal boyunca yürüyüş yapmak, Weserstraße’deki konsept barlarda vakit geçirmek Berlin’in yeni nesil yaşam tarzını görmek demektir. Biraz daha "yeraltı" ve keşfedilmemiş yerler arıyorsanız burayı tercih edebilirsiniz.
+- [Charlottenburg](search:Charlottenburg): Berlin’in eski "Batı" yüzüdür. Daha klasik, daha zengin ve son derece zarif bir mahalledir. Görkemli apartmanlar, lüks mağazalar (Kurfürstendamm) ve Charlottenburg Sarayı buradadır. Eğer Berlin’in o meşhur kaosundan uzak kalmak, daha sessiz ve kaliteli bir konaklama arıyorsanız Charlottenburg tam bir güvenli limandır.
+
+## 🚲 A Noktasından B Noktasına: Bir Lokal Gibi Hareket Edin
+
+Berlin’de ulaşım, şehrin o devasa coğrafyasını bir örümcek ağı gibi saran, son derece dakik ve tıkır tıkır işleyen bir makine gibidir. Sarı trenler ve otobüsler, Berlin’in görsel kimliğinin ayrılmaz bir parçasıdır.
+
+- **BER Havalimanı'ndan Şehre Ulaşım:** Berlin'in tek havalimanı olan BER, C bölgesindedir. Merkeze gitmek için en hızlı yol Airport Express (FEX) veya bölgesel trenlerdir (RE8, RB23). Bu trenler yaklaşık 30 dakikada ana istasyona (Hauptbahnhof) ulaşır. Alternatif olarak S9 ve S45 banliyö trenlerini de kullanabilirsiniz ancak bunlar daha fazla durakta durur. Kritik İpucu: Havalimanından merkeze gitmek için mutlaka ABC bölgesi bileti almalısınız. Sadece AB biletiyle yakalanırsanız havalimanı hattındaki kontrolörler maalesef hiç müsamaha göstermez.
+- **U-Bahn & S-Bahn (Şehrin Damarları):** Berlin'de hayat raylar üzerinde akar. U-Bahn (Yeraltı metrosu) genellikle şehir merkezini birbirine bağlarken, S-Bahn (Banliyö treni) şehri boydan boya geçer. Ring hattı (Ringbahn) ise tüm şehri bir daire içine alır. En Kritik Kural: Bileti Onaylatın (Entwerten): Berlin istasyonlarında turnike yoktur. Ancak biletinizi istasyondaki o küçük sarı veya kırmızı makinelerde "çıtlatmazsanız" (damgalatmazsanız) biletiniz geçersiz sayılır. Sivil kontrolörlere yakalanmanın bedeli "Schwarzfahren" (biletsiz binmek) cezasıdır.
+
+- **Sarı Otobüsler ve Tramvaylar:** Doğu tarafında sarı tramvaylar ana ulaşım aracınız olacak. Şehri üst kattan izlemek için 100 ve 200 numaralı otobüs hatlarını kullanın; bu hatlar neredeyse tüm turistik noktaların önünden geçer ve size en ucuz şehir turunu yaptırır.
+- **Berlin’de Bisiklet Bir Yaşam Biçimidir:** Şehir dümdüzdür. Bir bisiklet kiralayarak Berlinli gibi hissetmek en keyifli yöntemdir. Unutmayın: Asla yaya yolunda sürmeyin ve bisiklet yolunda yürümeyin!
+- **Jelbi ve BVG Apps:** Ulaşımı kolaylaştırmak için telefonunuza BVG Fahrinfo veya tüm araçları tek yerden yöneten Jelbi uygulamasını indirmek hayat kurtarır.
+- **Gece Ulaşımı:** Hafta sonları tüm trenler 24 saat çalışır. Hafta içi ise "N" (Nacht) harfiyle başlayan gece otobüsleri devrededir; Berlin'de hiçbir zaman yolda kalmazsınız.
+
+## 🏛️ Şehrin Hafızası: Görülmesi Gereken İkonik Duraklar
+
+Berlin’in hafızası, üstü örtülmüş bir geçmiş değil; aksine her sokağa, her duvara ve her anıta cesurca işlenmiş bir hikayedir. Şehir, geçmişin karanlık sayfalarıyla yüzleşmekten korkmaz ve bu dürüstlük onu dünyanın en etkileyici "açık hava müzelerinden" biri yapar.
+
+- [Brandenburg Kapısı (Brandenburger Tor)](search:Brandenburg Kapısı (Brandenburger Tor): Berlin’in ve hatta Almanya’nın en güçlü sembolüdür. Soğuk Savaş yıllarında bölünmüşlüğün simgesiyken, bugün birleşmiş Berlin’in kalbi olarak yükselir. Bu görkemli kapının önünde durmak, Avrupa tarihinin kırılma noktalarından birine dokunmak demektir.
+- [East Side Gallery (Berlin Duvarı)](search:East Side Gallery (Berlin Duvarı): Berlin Duvarı’nın geriye kalan en uzun ve en etkileyici parçasıdır. 1.3 kilometrelik bu duvar, 1990 yılında dünyanın her yerinden gelen sanatçılar tarafından dev bir açık hava galerisine dönüştürülmüştür. Meşhur "Kardeş Öpücüğü" grafitisi de burada yer alır.
+- **Katledilen Avrupalı Yahudiler Anıtı:** Brandenburg Kapısı’nın hemen yakınında, 2.711 dev beton bloktan oluşan bu devasa anıt, ziyaretçisinde derin bir kaybolmuşluk ve sessizlik hissi yaratır. Labirent benzeri yapının içinde yürürken tarihin ağırlığını hissetmemek imkansızdır.
+
+- **Reichstag (Parlamento Binası):** Alman demokrasisinin merkezidir. Binanın en tepesindeki cam kubbe, halkın siyaseti her an "yukarıdan" izleyebileceği şeffaflığı simgeler. Ancak bilmenizde fayda var, kubbeye çıkış ücretsizdir fakat güvenlik protokolleri nedeniyle haftalar öncesinden online kayıt yaptırmanız zorunludur.
+
+- [Museumsinsel (Müzeler Adası)](search:Museumsinsel (Müzeler Adası): Spree Nehri’nin ortasındaki bu ada, UNESCO Dünya Mirası listesindedir. Beş dev müzeye ev sahipliği yapar. Pergamon Museum (Bergama Müzesi) restorasyon nedeniyle kısmen kapalı olsa da, Neues Museum'daki efsanevi Nefertiti büstünü görmek için bile buraya vakit ayırmalısınız.
+- [Checkpoint Charlie](search:Checkpoint Charlie): Soğuk Savaş döneminde Doğu ve Batı Berlin arasındaki en meşhur geçiş noktasıdır. Bugün biraz turistik bir görünüme sahip olsa da, "You are leaving the American sector" yazısını görmek o dönemin gergin atmosferini hayal etmenizi sağlar.
+- **Berliner Fernsehturm (Televizyon Kulesi):** Alexanderplatz’da yükselen bu kule, bir zamanlar Doğu Almanya’nın (DDR) teknolojik gücünü simgeliyordu. Bugün şehrin hemen her yerinden görülen ikonik bir kerteriz noktasıdır. 360 derecelik Berlin manzarası için en doğru adrestir.
+
+## 🍴 Şehrin Lezzet Haritası: Currywurst ve Ötesiı, Sokak Lezzetlerinin Başkenti
+
+Berlin’de gastronomi, sokaktaki bir büfeden fine-dining bir restorana kadar aynı ciddiyetle ele alınır. Gösterişten uzak ama son derece doyurucu, pratik ve şehrin çok kültürlü yapısını yansıtan bir karaktere sahip olan bu mutfaktan yemek yemek; bir yanda Prusya’dan kalan geleneksel tatlar, diğer yanda ise dünyanın dört bir yanından gelen göçmenlerin getirdiği aromalar arasında bir yolculuktur.
+
+- **Currywurst:** Berlin’in en ikonik atıştırmalığıdır. Dilimlenmiş sosisin üzerine bolca dökülen domates sosu ve köri tozundan oluşan bu basit ama lezzetli yemek, şehrin her köşe başındaki büfelerde karşınıza çıkar. Özellikle Curry 36 veya Konnopke’s Imbiß bu işin klasikleşmiş adresleridir. "Mit veya ohne Darm" (bağırsaklı veya bağırsaksız) seçeneklerinden birini seçip yanına patates kızartması eklemeyi unutmayın.
+
+- **Berlin Usulü Döner Kebab:** Evet, dönerin ana vatanı Türkiye olabilir ama "ekmek arası döner" bugünkü modern formunu Berlin’de almıştır. Berlin döneri, içine eklenen taze sebzeler ve özel soslarıyla (knoblauch, kräuter, scharf) kendine has bir ekole sahiptir. Mustafas Gemüsekebab önündeki bitmeyen kuyruk bu lezzetin en popüler kanıtıdır; ancak mahalle aralarındaki pek çok dönerci de sizi şaşırtacak kadar iyidir.
+
+- **Schnitzel:** Berlin’de devasa tabaklarda sunulan, incecik dövülmüş ve altın sarısı renginde kızartılmış bir şnitzel yemeden dönmek olmaz. Özellikle Scheers Schnitzel gibi hızlı ve salaş mekanlarda ya da daha geleneksel restoranlarda bu çıtır lezzetin tadına varabilirsiniz.
+
+- **Berliner (Pfannkuchen):** İçi genellikle reçel veya marmelatla dolu, üzerine pudra şekeri serpilmiş bu meşhur Alman çöreği, Berlin’in en sevilen tatlısıdır. JFK'in o meşhur "Ich bin ein Berliner" sözüne de ilham olan bu tatlıyı herhangi bir fırından (Bäckerei) taze taze alabilirsiniz.
+- **Späti Kültürü & Wegbier:** Berlin’de içecek kültürü sadece barlarda değil, sokaktadır. Späti (geç saatlere kadar açık bakkal) önlerinde veya parklarda, elinde bir şişe birayla ("Wegbier" - yol birası) yürüyen insanlar Berlin'in ayrılmaz bir parçasıdır. Yerel halkın favorisi olan uygun fiyatlı biraları deneyebilir ve şişeyi çöpün yanına bırakarak Pfand kültürüne katkıda bulunabilirsiniz.
+
+- **Kaffee & Kuchen (Kahve ve Kek):** Almanların en sevdiği ritüellerden biridir. Berlin’in özellikle Kreuzberg ve Neukölln bölgelerindeki üçüncü dalga kahvecilerde, el yapımı taze pastalar eşliğinde bu kültürü modern bir şekilde deneyimleyebilirsiniz.
+- **Eisbein:** Eğer geleneksel ve ağır bir Alman akşam yemeği arıyorsanız, haşlanmış domuz paçası olan Eisbein’ı yanında sauerkraut (ekşitilmiş lahana) ve bezelye ezmesi ile deneyebilirsiniz. Bu, Berlin’in eski Prusya ruhunu tabakta hissetmek isteyenler içindir.
+
+
+## 🤫 Şehrin Fısıldadıkları: Lokal Sırlar
+
+Berlin’in gerçek ruhu, turistik broşürlerin parlatılmış sayfalarında değil; eski bir havalimanı pistinin rüzgarında, bir bit pazarının kaosunda veya bir kanal köprüsünün üzerindeki o "anı durdurma" hissinde gizlidir.
+
+- **Tempelhofer Feld (Özgürlüğün Koordinatları):** Burası sadece bir park değil, devasa bir özgürlük alanıdır. Eski bir havalimanı pistinde bisiklet sürmek, paten kaymak veya sadece o devasa boşlukta piknik yapmak, Berlin’in neden "özgür" bir şehir olduğunu anlamanızı sağlar. Gökyüzünün bu kadar geniş göründüğü başka bir Avrupa başkenti bulmak zordur.
+
+- [Mauerpark’ta "Bearpit Karaoke"](search:Mauerpark’ta "Bearpit Karaoke"): Pazar günleri Berlin’in kalbi burada atar. Bit pazarının kalabalığından sıyrılıp amfitiyatroya gidin. Yüzlerce insanın önünde cesaretini toplayıp şarkı söyleyen amatörleri izlemek ve o kolektif neşeye ortak olmak, Berlin’in kusurları seven ruhunun en somut halidir.
+- **Admiralbrücke’de Gün Batımı:** Kreuzberg’in o samimi atmosferini yaşamak için gün batımında bu köprüye gidin. Elinizde bir "Wegbier" (yol birası) ile köprünün üzerine oturun, sokak müzisyenlerini dinleyin ve nehir kenarında sosyalleşen Berlinlilerin arasına karışın. Bu, şehrin en "gezellig" (samimi) ve lokal anıdır.
+
+- [Teufelsberg (Şeytan Tepesi)](search:Teufelsberg (Şeytan Tepesi): Soğuk Savaş döneminden kalma terk edilmiş bir dinleme istasyonudur. Şehrin üzerine çöken bu devasa grafitili kuleler, hem inanılmaz bir Berlin manzarası hem de ürpertici ama büyüleyici bir sanat galerisi sunar. Berlin’in yeraltı tarihini tepeden görmek gibidir.
+- [Klunkerkranich](search:Klunkerkranich): Neukölln’de bir alışveriş merkezinin otopark katının en üstünde saklı bir vaha. Burası hem bir topluluk bahçesi hem de Berlin’in en havalı çatı barıdır. Girişi biraz saklıdır ama terasına çıktığınızda Berlin kiremitleri üzerinden batan güneş size tüm yorgunluğunuzu unutturur.
+
+**⚠️ Güvenlik İpucu:** Berlin genel olarak güvenli bir şehir olsa da, Kottbusser Tor (Kotti) ve Görlitzer Park çevresi gece geç saatlerde tekinsizleşebilir. Bu bölgelerde yankesiciliğe karşı uyanık olun ve eşyalarınıza sahip çıkın. Berlin dürüsttür ama kalabalık içinde tedbiri elden bırakmamak her zaman iyidir.
+
+## ✅ Mutlaka Yapmadan Dönme: Berlin Checklist
+
+- **East Side Gallery’de Tarihe Dokun:** Berlin Duvarı’nın kalan en uzun parçasındaki o meşhur grafitileri (özellikle "Kardeş Öpücüğü") inceleyerek yürü, özgürlüğün kıymetini bir kez daha anla ve fotoğraf çekerek anılarına kaydetmeyi unutma.
+
+- **Currywurst & Berlin Döneri İkilisiyle Vedalaş:** Berlin’in bu iki "resmi" lezzetini tatmadan şehri terk etme. Curry 36’da sosisini ye, vaktin varsa Mustafa’s Gemüsekebab kuyruğuna gir (veya herhangi bir mahalle dönercisinde o özel sosların tadına bak).
+
+- **Tempelhofer Feld’de Anı Durdur:** Eski bir havalimanı pistinde yürümenin, bisiklet sürmenin veya gün batımını devasa bir boşlukta izlemenin o eşsiz özgürlük hissini yaşa.
+
+- **Späti & Wegbier Kültürüne Karış:** Bir "Späti"den (mahalle bakkalı) içeceğini al, Berlinlilerle birlikte kaldırıma veya parkın çimlerine çök. Bitince şişeni çöpün yanına bırakıp Pfand (depozito) geleneğine uyum sağla.
+
+- **Yahudi Anıtı’nda Sessizliği Dinle:** O devasa beton blokların arasında yürürken oluşan derin sessizliği ve tarihin ağırlığını hisset; Berlin’in geçmişiyle yüzleşme biçimine şahit ol.
+
+- **İkonik Fotoautomat’larda Anı Bırak:** Şehrin dört bir yanına dağılmış olan o eski, analog ve siyah-beyaz fotoğraf kabinlerine gir. 4 karelik o nostaljik fotoğraf şeridi, Berlin’den alabileceğin en güzel ve en ucuz hediyelik olacak.
+
+- **Reichstag Kubbesinden Şehre Bak:** Alman parlamentosunun o muazzam cam kubbesine çık (biletini haftalar öncesinden almayı unutma!) ve şehri 360 derece izle.
+
+- **Kreuzberg Sokak Sanatını Keşfet:** Duvarlardaki devasa grafitileri ve her köşe başındaki "Sticker" sanatını incele; Berlin’in neden dünyanın sokak sanatı başkenti olduğunu anla.
+- **Taze Bir Berliner (Pfannkuchen) Ye Ye):** Bol reçelli ve pudra şekerli bu meşhur çöreği yerel bir fırından alıp afiyetle ye.
+- **Kırmızı Işık Disiplinine Uyum Sağla:** Gece yarısı, sokak bomboş olsa bile yayalar için kırmızı yanıyorsa dur. Bir Berlinli gibi davranmanın en temel kuralı budur!
+
+''';
+
+  static const _berlinEN = '''# Berlin: The Unending Stage of Freedom and History
+
+**Quick Glimpse:** Walking through the streets of Berlin, you might find yourself in an open-air museum, an art gallery, or at the door of the world’s biggest techno club. Berlin doesn’t try to impress you; it accepts you just as you are. Describing itself as "poor but sexy" (Arm, aber sexy), this city is far from perfectionist—it is profoundly honest and free. In Berlin, "perfection" is not what people look for; "authenticity" is what is celebrated. Rather than having a single center, this metropolis consists of neighborhoods called "Kiez," each with its own unique soul, where the blunt yet direct communication style known as "Berliner Schnauze" (Berlin Mouth) prevails. Adapting to Berlin’s unwritten life codes is the key to truly feeling the city: even on an empty street at midnight, always stop at a red light for pedestrians; remember that in small shops, cash is still king ("Nur Bares ist Wahres"—Only cash is true); and most importantly, never throw your empty beverage bottles inside the trash bin. Leaving them next to the bin (Pfand culture) is the kindest and most "Berlin" way to support those who earn a living by collecting deposits.
+
+## 📅 Timing is Everything: Which Season is Yours?
+
+In Berlin, seasons are not just about temperature changes; they represent a complete transformation of the city’s face and the mood of its people. Be ready to meet a completely different Berlin in every season.
+
+- **Spring (April – June):** This is Berlin’s "awakening." Cherry blossoms (Sakura) bloom, deck chairs appear along the riverbanks, and Berliners flock to the parks to shake off the winter gloom. The weather is still fickle, but it’s when the city’s energy feels the freshest.
+- **Summer (July – August):** The season when Berlin transforms into a true "open-air living room." The sun doesn’t set until 10 PM. It is the best time to see locals skating at Tempelhofer Feld (the former airport), escaping to the lakes (Wannsee, Schlachtensee), and dancing at open-air parties on every corner. Berlin is incredibly vibrant during these months, though quite crowded.
+- **Autumn (September – October):** A photographer’s dream, as the city’s massive parks (especially Tiergarten) turn into shades of yellow and orange. The air begins to cool, but Berlin’s "melancholic and charismatic" soul is most palpable during this season. Additionally, the Festival of Lights in October turns the city into a giant light show.
+- **Winter (November – March):** Time to meet Berlin’s honest, gray, and harsh side. The weather is genuinely cold and windy, and the sun may not show its face for days. However, the arrival of December brings fairytale-like Christmas Markets (Weihnachtsmärkte), the scent of mulled wine (Glühwein), and snowy streets that add a unique warmth to the city. It is the perfect season for museum hopping and diving into Berlin’s underground club culture.
+
+## 🏠 Where to Stay: Neighborhood Guide
+
+Berlin is not a single-centered city; rather, it is a collection of neighborhoods known as "Kiez." Where you choose to stay can completely transform the character of your trip. Making a choice here is essentially deciding which face of Berlin you want to wake up to.
+
+- **Mitte (The Center):** The historical and touristic heart of the city. Iconic landmarks like the Brandenburg Gate, Museum Island, and Alexanderplatz are located here. If it’s your first time in Berlin and you want to be within walking distance or a single train ride away from everything, this is the most practical area. It’s filled with chic boutiques and popular galleries, though you might find it a bit harder to track down Berlin’s famous "alternative" spirit here.
+
+- [Prenzlauer Berg](search:Prenzlauer Berg): Berlin’s most aesthetic, clean, and family-friendly neighborhood. Rapidly restored after the war, this area is known for its wide sidewalks, design shops, and a high density of quality coffee houses. It’s ideal if you want to be close to the Mauerpark flea market, especially on Sundays. This is the top choice for those seeking a more "settled" and sophisticated Berlin experience.
+- [Kreuzberg](search:Kreuzberg): The birthplace of Berlin’s legendary rebellious, multicultural, and alternative soul. It is famous for its street art, the kebab shops on every corner, and the laid-back bars along the canal. A favorite among the youth and artists, it has a chaotic and "raw" energy. If you want to feel the city’s true dynamism and nightlife from its epicenter, this is the place for you.
+- [Friedrichshain](search:Friedrichshain): The heart of industrial architecture, old factories, and Berlin’s world-renowned club culture. The East Side Gallery (the longest remaining stretch of the Wall) is located here. Bordering Neukölln and Kreuzberg, this district is perfect for travelers who want to be near the nightlife but also enjoy wide boulevards. It has one of the highest concentrations of the city’s young population.
+- [Neukölln](search:Neukölln): Berlin’s "rising star." Once an overlooked district, it is now the city’s most creative and cosmopolitan hub. Taking a stroll along the Landwehrkanal or spending time in the concept bars on Weserstraße is the best way to witness Berlin’s new-generation lifestyle. Choose Neukölln if you are looking for something a bit more "underground" and off the beaten path.
+- [Charlottenburg](search:Charlottenburg): The face of the old "West" Berlin. It is a more classic, wealthy, and exceptionally elegant neighborhood. Stately apartment buildings, luxury shopping (Kurfürstendamm), and the Charlottenburg Palace are all here. If you want to distance yourself from Berlin’s famous chaos and are looking for a quieter, more high-end stay, Charlottenburg is a perfect safe haven.
+
+## 🚲 Getting from A to B: Move Like a Local
+
+Transportation in Berlin is like a clockwork machine, an intricate web that covers the city’s vast geography with absolute punctuality. The yellow trains and buses are an inseparable part of Berlin’s visual identity.
+
+- **Getting to the City from BER Airport:** Berlin’s only airport, BER, is located in Zone C. The fastest way to reach the center is via the Airport Express (FEX) or regional trains (RE8, RB23). These reach the Main Station (Hauptbahnhof) in about 30 minutes. Alternatively, you can use the S9 and S45 suburban trains, though they make more stops. Critical Tip: You must purchase an ABC zone ticket to travel from the airport to the center. If you are caught with only an AB ticket, the inspectors on the airport line are notoriously unforgiving.
+- **U-Bahn & S-Bahn (The City’s Arteries):** Life in Berlin flows on rails. The U-Bahn (subway) typically connects the inner city, while the S-Bahn (suburban train) crosses the entire metropolis. The Ringbahn (Ring line) circles the city in a complete loop. The Most Critical Rule: Validate Your Ticket (Entwerten): There are no turnstiles at Berlin stations; you can walk freely onto the platforms. However, if you don't "validate" (stamp) your ticket in the small yellow or red machines on the platform, your ticket is considered invalid. Being caught by undercover inspectors is called "Schwarzfahren" (fare dodging), and the fine is a serious matter.
+
+- **Yellow Buses and Trams:** In East Berlin, yellow trams will be your primary mode of transport. For a great view of the city from the top deck, take the famous 100 and 200 bus lines; these routes pass by almost all major tourist landmarks, giving you the cheapest city tour available.
+- **Cycling is a Way of Life:** Berlin is remarkably flat. Renting a bike to feel like a true Berliner is the most enjoyable way to get around. Just remember: Never ride on the sidewalk and never walk in the bike lane!
+- **Jelbi and BVG Apps:** To make your travels easier, download the BVG Fahrinfo app or Jelbi, which manages all shared vehicles (bikes, scooters, taxis) in one place.
+- **Night Transport:** On weekends, all trains run 24 hours a day. On weekdays, night buses starting with the letter "N" (Nacht) take over; you are never truly stranded in Berlin.
+
+## 🏛️ The City's Memory: Iconic Landmarks Must-See
+
+Berlin’s memory is not a covered-up past; on the contrary, it is a story bravely etched into every street, wall, and monument. The city is not afraid to face the dark pages of its past, and this honesty makes it one of the world's most impressive "open-air museums."
+
+- **Brandenburg Gate (Brandenburger Tor):** The most powerful symbol of Berlin and even Germany. While it was a symbol of division during the Cold War years, today it stands as the heart of a unified Berlin. Standing in front of this magnificent gate means touching one of the turning points of European history.
+
+- [East Side Gallery (Berlin Wall)](search:East Side Gallery (Berlin Wall): The longest and most impressive remaining stretch of the Berlin Wall. This 1.3-kilometer wall was transformed into a giant open-air gallery in 1990 by artists from all over the world. The famous "Fraternal Kiss" graffiti is also located here.
+- **Memorial to the Murdered Jews of Europe:** Located right near the Brandenburg Gate, this massive monument consisting of 2,711 giant concrete blocks creates a deep sense of loss and silence for the visitor. It is impossible not to feel the weight of history while walking through its labyrinth-like structure.
+
+- **Reichstag (Parliament Building):** The center of German democracy. The glass dome at the very top of the building symbolizes transparency, where the public can watch politics from "above" at any time. However, it is useful to know: Entry to the dome is free, but online registration weeks in advance is mandatory due to security protocols.
+
+- [Museumsinsel (Museum Island)](search:Museumsinsel (Museum Island): Located in the middle of the Spree River, this island is a UNESCO World Heritage site. It hosts five massive museums. Even though the Pergamon Museum (Bergama Müzesi) is partially closed for restoration, you should dedicate time here just to see the legendary Nefertiti bust in the Neues Museum.
+- [Checkpoint Charlie](search:Checkpoint Charlie): The most famous crossing point between East and West Berlin during the Cold War era. Although it has a somewhat touristy appearance today, seeing the "You are leaving the American sector" sign allows you to imagine the tense atmosphere of that period.
+- **Berliner Fernsehturm (Television Tower):** Rising in Alexanderplatz, this tower once symbolized the technological power of East Germany (DDR). Today, it is an iconic landmark visible from almost anywhere in the city. It is the perfect spot for a 360-degree view of Berlin.
+
+## 🍴 A Taste of the City: Currywurst and Beyond, The Capital of Street Food
+
+In Berlin, gastronomy is treated with the same level of seriousness whether at a street-side stall or a fine-dining restaurant. Unpretentious yet incredibly satisfying, practical, and reflective of the city’s multicultural fabric, eating here is a journey between traditional Prussian flavors and the diverse aromas brought by immigrants from all over the world.
+
+- **Currywurst:** Berlin’s most iconic snack. Consisting of sliced sausage topped with a generous amount of tomato sauce and curry powder, this simple yet delicious dish can be found at stalls on almost every street corner. Curry 36 or Konnopke’s Imbiß are classic spots for this. Don’t forget to choose between "Mit veya ohne Darm" (with or without skin) and add a side of fries.
+
+- **Berlin-Style Doner Kebab:** Yes, the homeland of doner might be Turkey, but the "doner in bread" took its modern form in Berlin. Berlin doner has its own unique style, featuring fresh vegetables and special sauces (knoblauch - garlic, kräuter - herb, scharf - spicy). The endless queue in front of Mustafas Gemüsekebab is the most popular proof of this craze, but many local shops in the neighborhoods are just as surprising and delicious.
+
+- **Schnitzel:** You can’t leave Berlin without eating a thinly pounded, golden-brown fried schnitzel served on a massive plate. You can enjoy this crispy delight at fast and casual spots like Scheers Schnitzel or at more traditional restaurants.
+
+- **Berliner (Pfannkuchen):** This famous German pastry, usually filled with jam or marmalade and dusted with powdered sugar, is Berlin’s favorite sweet treat. You can get it fresh from any bakery (Bäckerei). This is also the pastry that inspired JFK’s famous line, "Ich bin ein Berliner."
+- **Späti Culture & Wegbier:** In Berlin, drinking culture isn’t just for bars—it’s on the streets. People walking through parks or in front of a Späti (a late-night convenience store) with a bottle of beer in hand ("Wegbier" - road beer) are an inseparable part of Berlin. You can try the affordable local beers favored by residents and contribute to the Pfand culture by leaving the bottle next to the trash bin.
+
+- **Kaffee & Kuchen (Coffee & Cake):** One of the most beloved German rituals. You can experience this culture in a modern way at third-wave coffee shops, especially in the Kreuzberg and Neukölln districts, accompanied by fresh handmade cakes.
+- **Eisbein:** If you are looking for a traditional and heavy German dinner, try Eisbein—a boiled pork knuckle served with sauerkraut (pickled cabbage) and pea puree. This is for those who want to feel the old Prussian spirit of Berlin on their plate.
+
+
+## 🤫 Whispers of the City: Local Secrets
+
+Berlin’s true soul isn't hidden in the polished pages of tourist brochures; it’s found in the breeze of an old airport runway, the chaos of a flea market, or that "stop the moment" feeling atop a canal bridge.
+
+- [Tempelhofer Feld (The Coordinates of Freedom)](search:Tempelhofer Feld (The Coordinates of Freedom): This isn’t just a park; it’s a vast expanse of freedom. Cycling on an old airport runway, skating, or simply picnicking in that immense void helps you understand why Berlin is truly a "free" city. It’s hard to find another European capital where the sky feels this wide.
+- ["Bearpit Karaoke" at Mauerpark](search:"Bearpit Karaoke" at Mauerpark): Berlin’s heart beats here on Sundays. Step away from the flea market crowds and head to the amphitheater. Watching amateurs gather their courage to sing in front of hundreds and joining that collective joy is the most tangible form of Berlin’s love for the imperfect.
+- **Sunset at Admiralbrücke:** To experience the intimate atmosphere of Kreuzberg, head to this bridge at sunset. Grab a "Wegbier" (road beer), sit on the bridge stones, listen to street musicians, and mingle with the locals socializing by the river. This is the city’s most "gezellig" (cozy/intimate) and authentic moment.
+
+- [Teufelsberg (Devil’s Mountain)](search:Teufelsberg (Devil’s Mountain): An abandoned listening station from the Cold War era. These massive, graffiti-covered towers looming over the city offer an incredible view and serve as an eerie yet fascinating art gallery. It’s like seeing Berlin’s underground history from a bird’s eye view.
+- [Klunkerkranich](search:Klunkerkranich): A hidden oasis tucked away on the top floor of a shopping mall parking garage in Neukölln. It’s part community garden and part Berlin’s coolest rooftop bar. The entrance is a bit hidden, but once you’re on the terrace, the sunset over Berlin’s red-tiled roofs will make you forget all your fatigue.
+
+**⚠️ Safety Tip:** While Berlin is generally a safe city, the areas around Kottbusser Tor (Kotti) and Görlitzer Park can become sketchy late at night. Stay vigilant against pickpockets in these areas and keep an eye on your belongings. Berlin is honest, but it’s always wise to stay cautious in crowded places.
+
+## ✅ The Berlin Checklist: Don't Leave Without Doing These
+
+- **Touch History at the East Side Gallery:** Walk along the longest remaining stretch of the Berlin Wall, examine the famous graffiti (especially the "Fraternal Kiss"), realize the value of freedom once again, and don't forget to capture the moment with photos to record your memories.
+
+- **Say Your Farewells with Currywurst & Berlin Doner:** Don’t leave the city without tasting these two "official" flavors of Berlin. Grab a sausage at Curry 36, and if you have the time, join the legendary queue at Mustafa’s Gemüsekebab (or simply enjoy those special sauces at any local neighborhood doner shop).
+
+- **Freeze Time at Tempelhofer Feld:** Experience the unique sense of freedom that comes from walking or cycling on an old airport runway, or simply watching the sunset in that massive, open void.
+- **Blend into the Späti & Wegbier Culture:** Pick up a drink from a "Späti" (neighborhood convenience store) and sit on the sidewalk or the park grass alongside the locals. Once finished, leave your bottle next to the trash bin to follow the Pfand (deposit) tradition.
+
+- **Listen to the Silence at the Jewish Memorial:** Feel the deep silence and the weight of history as you walk through those massive concrete blocks; witness Berlin’s profound way of confronting its own past.
+- Leave a Memory in [the Iconic Fotoautomats](search:Leave a Memory in the Iconic Fotoautomats): Step into the old, analog, black-and-white photo booths scattered throughout the city. That nostalgic 4-frame photo strip will be the most beautiful and affordable souvenir you can take home.
+- Look Over the City from the [Reichstag Dome](search:Look Over the City from the Reichstag Dome): Climb the magnificent glass dome of the German Parliament (remember to book your tickets weeks in advance!) and take in a 360-degree view of the city.
+- **Discover Kreuzberg Street Art:** Examine the massive murals on the walls and the "sticker art" on every corner; you’ll quickly understand why Berlin is the street art capital of the world.
+- **Eat a Fresh Berliner (Pfannkuchen):** Grab one of these famous pastries, filled with jam and dusted with powdered sugar, fresh from a local bakery and enjoy every bite.
+- **Follow the Red Light Discipline:** Even at midnight on an empty street, stop if the light is red for pedestrians. This is the most fundamental rule of acting like a true Berliner!
+''';
+
+  // AMSTERDAM
+  static const _amsterdamTR = '''# Amsterdam: Bir Şehirden Daha Fazlası, Bir Yaşam Biçimi
+
+**Hızlı Bakış:** Amsterdam, adımınızı attığınız andan itibaren sizi katı kuralların değil, özgürlüğün ve hoşgörünün yönettiği bir atmosferle karşılar. 17. yüzyıldan kalma, "sarhoş" gibi yana eğik duran ince uzun evleri, labirent gibi birbirine bağlanan kanalları ve insan sayısından daha fazla olan bisikletleriyle burası nevi şahsına münhasır bir dünyadır. Şehrin asıl ruhu, Hollandalıların "Gezellig" dedikleri o sıcak, samimi ve huzurlu "an"larda saklıdır; bir kanal kenarında oturup gelip geçen tekneleri izlemek bu felsefenin tam karşılığıdır. Gitmeden önce bilmeniz gereken en hayati "lokal racon" ise şudur: Asla ama asla bisiklet yollarında yürümeyin! Amsterdam'da bisikletliler trafiğin mutlak hakimidir ve onların yoluna girmek, bir turistin yapabileceği en tehlikeli hatadır. Ödeme kültürüne gelince; burada tam anlamıyla "Cash is not king" (Nakit kral değildir) felsefesi hakimdir. En küçük fırından yerel pazarlara kadar her yerde kart kullanımı esastır; pek çok dükkanın kapısında "Card Only" yazısını görürseniz şaşırmayın, çünkü dijital Amsterdam'da madeni para sesi çoktan tarihe karışmış durumdadır.
+
+## 📅 Takviminizi Ayarlayın: Hangi Mevsim Sizin?
+
+Amsterdam’da gökyüzü her mevsim kanallara bambaşka bir hikaye fısıldar; bazen lalelerin sonsuz renklerine, bazen de şehrin üzerine çöken turuncu bir çılgınlığa hazırlıklı olmalısınız.
+
+- **İlkbahar (Mart - Mayıs):** Amsterdam’ın "altın çağı"dır. Şehrin hemen dışındaki Keukenhof Bahçeleri'nde milyonlarca lalenin patladığı, kanalların çiçeklerle süslendiği bu dönem büyüleyicidir. Ancak asıl olay 27 Nisan’daki Kral Günü (King’s Day) kutlamalarıdır; tüm şehrin turuncuya boyandığı, sokak partilerinin ve kanal geçitlerinin yapıldığı bu gün hayatınızda görebileceğiniz en büyük sokak kutlamalarından biridir.
+- **Yaz (Haziran - Ağustos):** Günlerin en uzun olduğu, hayatın tamamen sokaklara ve kanallara taştığı mevsimdir. Yerellerin teknelerine atlayıp kanallarda piknik yaptığı, Vondelpark’ın her köşesinden müzik seslerinin yükseldiği bu dönemde güneş gece 10’da batar. Hava her zaman sürprizlidir; sımsıcak bir sabahın ardından aniden gelen serin bir yağmura hazırlıklı olmalısınız.
+- **Sonbahar (Eylül - Kasım):** Kanallar boyunca dizilen ağaçların turuncuya büründüğü, Amsterdam’ın o meşhur melankolik ve estetik havasının zirve yaptığı dönemdir. Ekim ayında düzenlenen Amsterdam Dance Event (ADE) ile şehir dünyanın elektronik müzik başkentine dönüşür. Yağmurlar başlasa da, bu mevsim Amsterdam’ın "gezellig" ruhunu en iyi hissettiren zamanlardan biridir.
+- **Kış (Aralık - Şubat):** Şehrin biraz daha kendine döndüğü, puslu ve romantik bir dönemdir. Aralık ayından itibaren başlayan Amsterdam Işık Festivali, sanatçıların kanal üzerine kurduğu ışık enstalasyonlarıyla şehri bir açık hava müzesine çevirir. Eğer şanslıysanız ve kanallar buz tutacak kadar soğursa, Amsterdamlıların kanalların üzerinde paten kaydığı o nadir ve masalsı anlara tanıklık edebilirsiniz.
+
+## 🏠Nerede Kalmalı: Mahalle Rehberi
+
+Amsterdam’da konaklayacağınız bölge, sabah uyandığınızda kendinizi bir 17. yüzyıl tablosunun içinde mi, yoksa fütüristik bir sanat galerisinin ortasında mı bulacağınızı belirler. Kanallar şehri sarmal bir yapıyla böldüğü için her mahalle aslında kendi içinde küçük bir "ada" gibidir. Ancak merkez (Centrum) hem çok pahalıdır hem de çok gürültülü. Gerçek Amsterdam’ı yaşamak için bir halka dışarı çıkmalısınız.
+
+- [Jordaan](search:Jordaan): Amsterdam’ın en meşhur, en estetik ve en çok "İşte burası Amsterdam!" dedirten mahallesidir. Bir zamanlar işçi sınıfının yaşadığı bu bölge, bugün dar sokakları, kanal kenarı butik otelleri ve sarmaşıklı evleriyle şehrin en pahalı noktalarından biridir. Şehrin kalbinde ama karmaşadan uzak, romantik ve huzurlu bir Amsterdam arayanların ilk adresidir. Tek negatif yanı, binaların çok eski olması nedeniyle dik merdivenler ve küçük odalardır; valizinizi taşırken dikkatli olmalısınız.
+- [De Pijp](search:De Pijp): Amsterdam’ın "Latin Çeyreği" olarak bilinir ve şehrin en enerjik, çok kültürlü mahallesidir. Albert Cuypmarkt (şehrin en büyük açık pazarı) burada yer alır. Öğrenci popülasyonu ve sanatçıların yoğun olduğu bu bölge; konsept kafeler, butik barlar ve her mutfaktan restoranla doludur. Merkeze göre biraz daha uygun fiyatlı ama çok daha "yaşayan" bir bölgedir. Amsterdam’ın gece hayatını ve yerel temposunu hissetmek istiyorsanız burası tam size göre.
+- **Grachtengordel (Kanal Kemeri):** UNESCO Dünya Mirası listesindeki ana kanalların (Prinsengracht, Keizersgracht, Herengracht) bulunduğu bölgedir. Amsterdam’ın o meşhur görkemli, yüksek tavanlı ve asil evlerinde konaklamak istiyorsanız burası en prestijli tercihtir. Her yere yürüme mesafesinde olmanın lüksünü yaşarsınız ancak fiyatların Amsterdam’ın en üst seviyesinde olduğunu ve hafta sonları turist kalabalığının gürültülü olabileceğini unutmamalısınız.
+
+- **Oud-West:** Turist kalabalığından kaçıp gerçek Amsterdamlılar gibi yaşamak isteyenlerin gizli sığınağıdır. De Hallen (eski tramvay deposundan dönüştürülen popüler yemek ve sinema kompleksi) bu bölgenin kalbidir. Vondelpark’a yürüme mesafesinde olan mahalle, hem güvenli hem de son derece şıktır. Merkeze tramvayla 10 dakikada ulaşabilirsiniz; fiyat-performans açısından Amsterdam’ın en mantıklı bölgelerinden biridir.
+
+- **Amsterdam Noord:** Şehrin modern, fütüristik ve endüstriyel yüzüdür. Merkez istasyonun arkasından kalkan ücretsiz feribotlarla ulaşılan bu bölge, özellikle sanatçılar ve dijital göçebeler için bir cazibe merkezidir. Eski tersanelerden dönüştürülen oteller ve devasa duvar resimleriyle (graffiti) dolu sokakları çok farklı bir enerji sunar. Merkezin tarihi dokusundan uzaklaşmak ama çok daha geniş ve modern alanlarda kalmak isteyenler için harikadır.
+
+
+## 🚲 A Noktasından B Noktasına: Bir Lokal Gibi Hareket Edin
+
+Amsterdam'da ulaşım, bir yerden bir yere gitmekten ziyade şehrin ritmine ayak uydurmak demektir. Özetle, ulaşım bir gereklilik değil, bir kültürdür. Kuralları bilmezseniz pahalıya patlayabilir. Ancak, kanalların etrafına kurulu bu düzende, trafik kurallarından ziyade "bisiklet raconları" geçerli olduğunu da unutmayın.
+
+- **Havalimanından Şehre:** Schiphol Havalimanı’ndan şehir merkezine (Amsterdam Centraal) ulaşmanın en zahmetsiz ve hızlı yolu trendir. Her 10-15 dakikada bir kalkan trenlerle yaklaşık 15-20 dakikada merkeze varabilirsiniz. Taksi veya Uber seçenekleri de mevcuttur ancak tren istasyonunun terminalin hemen altında olması büyük bir konfor sağlar.
+- **Bisiklet:** Şehrin Gerçek Sahibi: Amsterdam’da hiyerarşinin en tepesinde bisikletliler yer alır. Şehri bir lokal gibi deneyimlemek isterseniz mutlaka bisiklet kiralayın. Ancak unutmayın: Kırmızı ile boyanmış bisiklet yolları kutsaldır; burada durmak, yavaş yürümek veya fotoğraf çekmek büyük bir hatadır. Bisikletinizi park ederken mutlaka iki kilit kullanın ve sabit bir yere bağladığınızdan emin olun; Amsterdam'da bisiklet hırsızlığı gayri resmi bir "milli spor" gibidir.
+- **Toplu Taşıma (Tramvay, Otobüs, Metro):** Şehir içinde en yaygın ulaşım aracı tramvaylardır. Amsterdam’ın dar sokaklarından süzülen bu mavi-beyaz araçlarla her yere kolayca ulaşabilirsiniz. Bilet arama derdi burada da bitmiştir; "OVpay" sistemi sayesinde temassız kredi kartınızı veya telefonunuzu binerken ve inerken okutmanız yeterlidir. Unutmayın: Hem binerken hem de inerken kart okutmak (Check-in / Check-out) zorunludur, aksi takdirde sistem en uzak mesafe ücretini kesebilir.
+- **Ücretsiz Feribotlar:** Merkez İstasyonu'nun (Centraal Station) hemen arkasından kalkan feribotlar, Amsterdam'ın kuzey yakasına (Noord) giden gizli kahramanlardır. Bu feribotlar tamamen ücretsizdir; yaya, bisikletli veya mopedli olarak binebilir, kanal üzerinden kısa ama keyifli bir yolculukla şehrin modern yüzüne geçebilirsiniz.
+- **Yürüyüş Notları:** Amsterdam yürüyerek keşfetmek için harika bir yerdir ancak "Sampietrini" taşları kadar olmasa da, kanal kenarlarındaki eğimli ve bazen kaygan olabilen taşlara karşı rahat bir ayakkabı tercih etmelisiniz. En önemlisi, karşıdan karşıya geçerken sadece arabalara değil, sessizce yaklaşan bisiklet ordusuna karşı da tetikte olun.
+
+## 🏛️ Şehrin Hafızası: Görülmesi Gereken İkonik Duraklar
+
+Amsterdam’ın her kanalı bir hikayeye, her köprüsü ise yüzlerce yıllık bir tabloya açılır. Burası sanatın sokağa, tarihin ise suya karıştığı, Avrupa'nın en zarif hafıza merkezlerinden biridir.
+
+- **Rijksmuseum (Ulusal Müze):** Hollanda’nın sanat kalesidir. Sadece Rembrandt’ın devasa "Gece Devriyesi" (The Night Watch) tablosunu görmek için bile gidilir. Binanın altından bisikletle geçmek ise sadece Amsterdam’da yaşayabileceğiniz o garip ama havalı deneyimlerden biridir.
+
+- [Anne Frank Evi](search:Anne Frank Evi): İkinci Dünya Savaşı’nın en hüzünlü ve etkileyici tanığıdır. Anne’in o küçücük gizli bölmede yazdığı günlüğü ve yaşadığı ortamı görmek, şehre dair çok derin bir empati kurmanızı sağlar. Ancak bilmenizde fayda var, biletler aylar öncesinden tükenir; gitmeden en az 2-3 ay önce online olarak biletinizi almanız şarttır.
+- [Van Gogh Müzesi](search:Van Gogh Müzesi): Dünyanın en büyük Van Gogh koleksiyonuna ev sahipliği yapar. Sanatçının sarıdan maviye evrilen o fırtınalı dünyasını, "Ayçiçekleri" ve "Yatak Odası" gibi ikonik eserlerini yakından görmek büyüleyicidir.
+- **Kanal Kemeri (Grachtengordel):** UNESCO Dünya Mirası listesindeki 165 kanalın oluşturduğu bu ağ, aslında Amsterdam’ın kendisidir. Özellikle Prinsengracht boyunca yürümek veya gün batımında bir tekne turuna çıkmak, şehri "Kuzey’in Venedik’i" yapan o simetriyi anlamanızı sağlar.
+
+- **Dam Meydanı ve Kraliyet Sarayı:** Şehrin kalbi ve ana buluşma noktasıdır. Tarihi olayların, protestoların ve kutlamaların merkezi olan bu meydanda sarayın görkemiyle şehrin kaotik ama eğlenceli kalabalığı birbirine karışır.
+
+- [Begijnhof](search:Begijnhof): Amsterdam’ın en eski ve en gizli bahçelerinden biridir. Şehrin merkezindeki gürültüden bir kapıyla ayrılan bu 14. yüzyıldan kalma avlu, bir zamanlar dindar kadınların yaşadığı, bugün ise sessizliğin hakim olduğu masalsı bir duraktır.
+- **A’DAM Lookout & Eye Film Museum:** Şehrin modern ve kuzeyli yüzüdür. Merkezden feribotla geçtiğinizde ulaştığınız bu bölgede, Amsterdam’a 100 metre yükseklikten bakabilir ya da Eye Film Museum’un fütüristik mimarisinde kaybolabilirsiniz.
+
+
+## 🍴 Şehrin Lezzet Haritası: Patatesten Fazlası
+
+Hollanda mutfağı; pratik, doyurucu ve "gezellig" (keyifli/sosyal) bir ruha sahiptir. Amsterdam'da yemek yemek, genellikle kanal kenarında bir atıştırmalıkla veya bir barda paylaşılan sıcak mezelerle başlar.
+
+- **Vlaamse Frites (Hollanda Usulü Patates):** Amsterdam’ın en meşhur sokak lezzetidir. Külah kağıtlarda servis edilen bu kalın kesim çıtır patateslerin üzerine boca edilen onlarca çeşit sos arasından seçim yapmak zordur. En yerel tercih ise fıstık sosu, mayonez ve soğandan oluşan "Patat Oorlog" (Savaş Patatesi) karışımıdır.
+- [Stroopwafel](search:Stroopwafel): İki ince waffle katmanı arasına sürülen karamel şurubuyla hazırlanan bu tatlı, Amsterdam’ın imza lezzetidir. Albert Cuypmarkt’ta taze ve sıcak olarak bir tane alıp, karamelin akışkanlığını hissederken yürümek bir Amsterdam klasiğidir.
+- **Hollanda Peynirleri (Kaas):** Gouda, Edam ve Maasdam gibi peynirlerin cennetindesiniz. Şehrin her yerinde bulunan peynir dükkanlarında (özellikle Henri Willig veya Old Amsterdam) tadım yapabilir, binbir çeşit aromalı peynir arasından favorinizi bulabilirsiniz.
+
+- **Bitterballen & Borrel Kültürü:** Akşamüstü biranızı yudumlarken masanıza eşlik edecek en iyi atıştırmalık Bitterballen'dir. İçi etli ve kremamsı bir harçla dolu, dışı galeta unuyla kaplı bu kızarmış toplar hardala bandırılarak yenir. Hollandalılar için bu "Borrel" (içki ve atıştırmalık saati) günün en kutsal anıdır.
+
+- **Haring (Salamura Ringa Balığı):** Eğer damak tadınıza güveniyorsanız, çiğ ringa balığını soğan ve turşuyla birlikte denemelisiniz. Geleneksel olarak kuyruğundan tutulup yukarı doğru kaldırılarak yenir ama çekiniyorsanız ekmek arası (broodje haring) olarak da tercih edebilirsiniz.
+
+- **Rijsttafel (Endonezya Esintisi):** Hollanda’nın sömürge geçmişinden kalan en lezzetli miras Endonezya mutfağıdır. "Pirinç sofrası" anlamına gelen Rijsttafel, onlarca küçük baharatlı tabaktan oluşan devasa bir ziyafettir. Amsterdam’da mutlaka bir akşamınızı bu egzotik deneyime ayırmalısınız.
+
+- **Poffertjes:** Üzerine pudra şekeri ve bir parça tereyağı eklenerek servis edilen, bozuk para büyüklüğündeki bu minik ve pofuduk krepler, özellikle çocuklar ve tatlı severler için vazgeçilmezdir.
+
+- **Hap Bilgi:** Amsterdam'da acıktığınızda ve hızlı bir şeyler yemek istediğinizde FEBO otomatlarına uğrayın. Duvardaki küçük cam bölmelere bozuk para (veya kart) atıp sıcak kroketinizi veya hamburgerinizi saniyeler içinde almak, Amsterdam’ın en eski "fast food" geleneğidir.
+
+## 🤫 Şehrin Fısıldadıkları: Lokal Sırlar
+
+Amsterdam, sadece vitrinlerden ve kalabalık meydanlardan ibaret değildir; şehrin asıl karakteri, sıradan görünen bir kapının ardındaki saklı kiliselerde veya eski tersanelerin endüstriyel ruhunda gizlidir. Kalabalıklardan sıyrılıp Amsterdam’ın size fısıldadığı o özel yerleri keşfetme zamanı.
+
+- **Ons' Lieve Heer op Solder (Tavan Arasındaki Rabbimiz):** Dışarıdan bakıldığında sıradan bir kanal evi gibi görünse de, en üst katında 17. yüzyıldan kalma gizli bir Katolik kilisesi barındırır. Dini ibadetlerin yasak olduğu bir dönemde inşa edilen bu "saklı" ibadethane, Amsterdam’ın hoşgörü tarihinin en etkileyici kanıtıdır.
+
+- [Red Light District (De Wallen) & Oude Kerk](search:Red Light District (De Wallen): & Oude Kerk): Burası sadece vitrinlerden ibaret değildir; Amsterdam'ın en eski mahallesidir. Bölgenin tam ortasında, şehrin en eski yapısı olan Oude Kerk (Eski Kilise) yükselir. Günah ve kutsallığın bu kadar iç içe geçtiği başka bir yer bulamazsınız. Kritik Lokal Kural: Vitrinlerdeki mahremiyete saygı duymanız beklenir. Fotoğrafını çekmek kesinlikle yasaktır ve sadece kaba bir davranış değil, ciddi bir güvenlik/etik ihlalidir. Kameranızı cebinizde tutun ve bölgenin tarihi dokusuna odaklanın.
+- **Tuschinski Theater:** Burası dünyanın en güzel Art Deco yapılarından biridir. Bir film izlemek için gitmeseniz bile, lobisine girip o muazzam halıları ve mimari detayları görmek sizi bir anda 1920’lerin görkemine ışınlar.
+
+- [NDSM Werf](search:NDSM Werf): Merkez İstasyon’un arkasından ücretsiz feribotla ulaşılan bu eski gemi tersanesi, bugün şehrin en büyük sokak sanatı merkezidir. Hurda metallerden yapılmış devasa heykellerin arasında Amsterdam’ın bohem ve ham enerjisini hissedebilirsiniz.
+- **Brown Cafes (Bruin Café):** Amsterdam'ın gerçek ruhunu anlamak için bu tarihi mahalle birahanelerine girmelisiniz. Duvarlarının yıllanmış tütün dumanından dolayı kahverengiye döndüğü bu mekanlar, yerel halkın "gezellig" ruhunu en saf haliyle yaşadığı yerlerdir.
+- **Hofjes (Gizli Avlular):** Şehrin dört bir yanına dağılmış, kapalı kapıların ardındaki bu sessiz bahçeler Amsterdam’ın en büyük sırlarıdır. Begijnhof en bilineni olsa da, Jordaan bölgesindeki küçük levhaları takip ederek bu huzur vahalarını bulabilirsiniz.
+
+- **Winkel 43 ve Elmalı Turta Ritüeli:** Amsterdam’da "en iyi elmalı turta" tartışması genellikle burada biter. Bol tarçınlı ve yanında mutlaka "slagroom" (taze krema) ile servis edilen o turta, Amsterdam deneyiminizi tamamlayacak en tatlı detaydır.
+
+
+## ✅ Mutlaka Yapmadan Dönme: Amsterdam Checklist
+
+- **Kanal Kenarında Anı Durdur:** Gün batımına doğru Jordaan veya Prinsengracht civarında sakin bir kanal kenarı bul, ayaklarını sarkıt ve elinde bira ya da kahvenle sadece suyun akışını izle. Amsterdamlılar için bu, günün en kutsal "gezellig" anıdır.
+
+- **Anne Frank Evi’nde Tarihin Sesini Dinle:** Önündeki o bitmeyen kuyruğu ve içerideki hüzünlü sessizliği gör. (Hayal kırıklığı yaşamamak için biletini aylar öncesinden online almayı sakın unutma!)
+
+- **9 Straatjes (9 Sokak) Bölgesinde Zamanda Yolculuk Yap Bölgesinde Zamanda Yolculuk Yap):** Birbirine paralel bu daracık sokaklarda kaybol; dünyanın en iyi vintage dükkanlarını, butik tasarımcıları ve özel butikleri burada bulacaksın.
+- [Rijksmuseum](search:Rijksmuseum’un Dev Kütüphanesine Bak)’un Dev Kütüphanesine Bak: Müzenin sanat eserleri kadar büyüleyici olan o devasa tarihi kütüphanesine (Cuypers Library) mutlaka göz at; kitap kokusu ve mimarinin birleştiği o atmosferde nefesin kesilecek.
+- **Ücretsiz Feribotla Kuzeyin Modern Yüzüne Geç:** Merkez istasyonun arkasından kalkan feribotlara atla; hem kanal havası al hem de Amsterdam Noord’un o fütüristik ve endüstriyel dünyasına adım at.
+- [Bloemenmarkt’ta Lale Soğanlarını İncele](search:Bloemenmarkt’ta Lale Soğanlarını İncele): Dünyanın tek yüzen çiçek pazarında, Hollanda’nın simgesi olan binbir çeşit lale soğanını ve çiçek kokularını içine çek.
+- **Gece Yarısı Bir FEBO Klasiği Yaşa:** Bir pub çıkışı ya da gece yürüyüşü sırasında yerel bir Amsterdamlı gibi davran; FEBO otomatlarından sıcak bir kroket veya hamburger alıp sokakta yemenin tadına bak.
+
+- **Kanal Turunu "Altın Saat"te Yap:** Kanalları mutlaka sudan gör ama bunu güneş batarken, binaların camlarına o turuncu ışığın vurduğu "golden hour" vaktinde yap.
+- **Eye Film Museum’un Terasında Soluklan:** Binanın sadece fütüristik mimarisini dışarıdan izlemekle kalma; içeri girip terasında şehre ve karşı yakaya karşı kahveni iç.
+
+- **Red Light District’te Etik Bir Yürüyüş Yap:** Akşam saatlerinde bölgenin o tezatlarla dolu atmosferini gör ama altın kuralı unutma: Asla fotoğraf çekme! Buranın bir iş yeri olduğunu ve insanların mahremiyetine saygı duyulması gerektiğini bilmek, bir gezginin Amsterdam'a olan asıl saygısıdır. (Aksi takdirde hem sert tepki alabilir hem de telefonunuzu kanalda bulabilirsiniz.)
+''';
+
+  static const _amsterdamEN = '''# Amsterdam: More Than a City, A Lifestyle
+
+**Quick Glimpse:** From the moment you arrive, Amsterdam greets you with an atmosphere governed by freedom and tolerance rather than rigid rules. With its leaning 17th-century houses that look "drunken," labyrinthine canal networks, and more bicycles than people, it is a world entirely of its own. The true soul of the city lies in what the Dutch call "Gezellig"—those warm, cozy, and social moments; sitting by a canal and watching the boats pass is the literal embodiment of this philosophy. The most vital "local etiquette" to know before you go: Never, under any circumstances, walk on the bike paths! Cyclists are the absolute rulers of the road here, and stepping into their lane is the most dangerous mistake a tourist can make. When it comes to spending, the philosophy here is strictly "Cash is not king." Card payments are the norm everywhere, from the smallest bakery to local markets; don't be surprised to see "Card Only" signs on shop doors, as the sound of clinking coins has largely become a thing of the past in digital Amsterdam.
+
+## 📅 Timing is Everything: Which Season is Yours?
+
+In Amsterdam, the sky whispers a different story to the canals in every season; be prepared for the endless colors of tulips or the vibrant orange madness that occasionally takes over the city.
+
+- **Spring (March - May):** This is Amsterdam’s "Golden Age." It’s truly magical when millions of tulips burst into color at the Keukenhof Gardens just outside the city and the canals are adorned with flowers. However, the main event is the King’s Day (Koningsdag) on April 27th; it is one of the largest street celebrations you will ever witness, where the entire city turns orange, and the canals are filled with boat parades and non-stop street parties.
+- **Summer (June - August):** The days are longest, and life completely spills out onto the streets and canals. Locals hop on their boats for canal picnics, and music echoes from every corner of Vondelpark. During this period, the sun sets as late as 10 PM. Be warned, though: the weather is always full of surprises; be ready for a sudden cool rain shower after a sweltering morning.
+- **Autumn (September - November):** This is when the trees lining the canals turn vibrant shades of orange, and Amsterdam’s famous melancholic yet aesthetic atmosphere reaches its peak. In October, the city transforms into the world's electronic music capital with the Amsterdam Dance Event (ADE). Although the rains begin, this season is one of the best times to truly feel the city's "gezellig" spirit.
+- **Winter (December - February):** A more introspective, misty, and romantic period. Starting in December, the Amsterdam Light Festival turns the city into an open-air museum with light installations by artists displayed along the canals. If you are lucky and it gets cold enough for the canals to freeze over, you might witness the rare and fairytale-like sight of Amsterdammers ice skating on the canals.
+
+## 🏠 Where to Stay: Neighborhood Guide
+
+Where you stay in Amsterdam determines whether you wake up inside a 17th-century masterpiece or in the middle of a futuristic art gallery. Since the canals wrap around the city in a spiral, every neighborhood feels like its own little "island." However, the Centrum (City Center) is both overpriced and noisy. To experience the true Amsterdam, you should step one ring outside the center.
+
+- [Jordaan](search:Jordaan): This is Amsterdam’s most famous, aesthetic, and quintessentially "Amsterdam" neighborhood. Once a working-class district, it is now one of the city's most expensive areas, filled with narrow alleys, canal-side boutique hotels, and ivy-covered houses. It’s the top choice for those seeking a romantic and peaceful Amsterdam right in the heart of the action. The only downside: because the buildings are so old, expect notoriously steep stairs and tiny rooms—be extra careful with your luggage!
+- [De Pijp](search:De Pijp): Known as the "Latin Quarter" of Amsterdam, this is the city's most energetic and multicultural neighborhood. The Albert Cuypmarkt (the city's largest open-air market) is located here. With a high population of students and artists, the area is packed with concept cafes, boutique bars, and international restaurants. It’s slightly more affordable than the center but far more "alive." If you want to feel the local tempo and enjoy the nightlife, this is the place for you.
+- **Grachtengordel (The Canal Belt):** This area encompasses the main canals on the UNESCO World Heritage list (Prinsengracht, Keizersgracht, Herengracht). If you want to stay in those iconic, high-ceilinged, stately canal houses, this is the most prestigious choice. You’ll enjoy the luxury of being within walking distance of everything, but keep in mind that prices are at the top of the scale, and weekend tourist crowds can get loud.
+
+- **Oud-West:** A hidden sanctuary for those looking to escape the tourist swarms and live like a real Amsterdammer. De Hallen (a popular food and cinema complex converted from an old tram depot) is the heart of this district. Within walking distance of Vondelpark, this neighborhood is both safe and incredibly chic. You can reach the center in 10 minutes by tram; it’s one of the best areas for value for money.
+
+- **Amsterdam Noord:** The modern, futuristic, and industrial face of the city. Accessible via a free ferry behind the Central Station, this area is a magnet for artists and digital nomads. Old shipyards converted into hotels and streets covered in massive murals (graffiti) offer a very different energy. It’s perfect for those who want to escape the historic center's density in favor of wide, modern spaces.
+
+
+## 🚲 Getting from A to B: Move Like a Local
+
+In Amsterdam, transportation is more about syncing with the city's rhythm than simply getting from A to B. In short, mobility is not just a necessity—it is a culture. If you don't know the rules, it can cost you dearly. Remember, in this layout built around canals, "bicycle etiquette" often carries more weight than standard traffic laws.
+
+- **Airport to City:** The most effortless and fastest way to reach the city center (Amsterdam Centraal) from Schiphol Airport is by train. With trains departing every 10–15 minutes, you’ll arrive at the center in about 15–20 minutes. While taxis and Uber are available, having the train station located directly beneath the terminal is a massive convenience.
+- **Bicycles:** The True Rulers of the City: At the top of the social hierarchy in Amsterdam are the cyclists. To experience the city like a local, you must rent a bike. However, remember: the red-paved bike paths are sacred. Stopping, walking slowly, or taking photos on them is a cardinal sin. When parking your bike, always use two locks and ensure it is secured to a fixed object; bicycle theft is practically an unofficial "national sport" in Amsterdam.
+
+- **Public Transport (Trams, Buses, Metro):** Trams are the most common way to get around the city. You can easily reach anywhere via these blue-and-white vehicles gliding through Amsterdam’s narrow streets. The struggle of finding tickets is a thing of the past; thanks to the "OVpay" system, simply tap your contactless credit card or phone when boarding and exiting. Crucial Note: You must tap both when getting on and off (Check-in / Check-out); otherwise, the system may charge you the maximum possible fare.
+- **Free Ferries:** The ferries departing from right behind the Central Station (Centraal Station) are the unsung heroes of reaching Amsterdam Noord (the North). These ferries are completely free; you can hop on as a pedestrian, cyclist, or moped rider to enjoy a short but scenic journey across the water to the city's modern side.
+
+- **Walking Notes:** Amsterdam is a wonderful city to explore on foot, but you should choose comfortable shoes to handle the slanted and sometimes slippery stones along the canal edges. Most importantly, when crossing the street, don't just look out for cars—stay alert for the silent but swift "bicycle army" approaching from all directions.
+
+## 🏛️ The City's Memory: Iconic Landmarks Must-See
+
+Every canal in Amsterdam opens into a story, and every bridge into a centuries-old painting. This is one of Europe’s most elegant "memory centers," where art spills onto the streets and history flows through the water.
+
+- **Rijksmuseum (National Museum):** The artistic stronghold of the Netherlands. Many visit solely to stand before Rembrandt’s massive masterpiece, "The Night Watch." Also, cycling through the passage right underneath the museum building is one of those "weird but cool" experiences you can only have in Amsterdam.
+
+- [Anne Frank House](search:Anne Frank House): The most somber and moving witness to World War II. Seeing the tiny secret annex where Anne wrote her diary and witnessing the environment she lived in creates a profound sense of empathy. Take Note: Tickets sell out months in advance; it is essential to book your tickets online at least 2–3 months before your visit.
+- [Van Gogh Museum](search:Van Gogh Museum): Home to the world’s largest collection of Van Gogh’s work. It is mesmerizing to witness the artist's stormy world evolve from yellow to blue through iconic pieces like "Sunflowers" and "The Bedroom."
+- **The Canal Belt (Grachtengordel):** This network of 165 canals, a UNESCO World Heritage site, is the true essence of Amsterdam. Walking along Prinsengracht or taking a boat tour at sunset is the best way to understand the symmetry that earned the city its nickname, "Venice of the North."
+
+- **Dam Square & Royal Palace:** The heart of the city and its primary meeting point. In this square—the historical center for protests, celebrations, and events—the palace's grandeur blends with the city’s chaotic yet entertaining crowds.
+
+- [Begijnhof](search:Begijnhof): One of Amsterdam’s oldest and most hidden gems. Separated from the noisy city center by a single inconspicuous door, this 14th-century courtyard was once a residence for religious women and remains a fairytale-like sanctuary where silence is the rule.
+- **A’DAM Lookout & Eye Film Museum:** The modern and "northern" face of the city. Reachable via a free ferry from the Central Station, this area allows you to look down on Amsterdam from 100 meters high or get lost in the futuristic architecture of the Eye Film Museum.
+
+
+## 🍴 A Taste of the City: Beyond the Fries
+
+Dutch cuisine is defined by its practical, hearty, and "gezellig" (cozy/convivial) soul. Dining in Amsterdam often begins with a street snack enjoyed by the canal or warm appetizers shared at a local bar.
+
+- **Vlaamse Frites (Dutch-Style Fries):** The most famous street food in Amsterdam. These thick-cut, crispy fries are served in paper cones, and choosing from dozens of sauce varieties is a delicious challenge. The ultimate local choice is the "Patat Oorlog" (War Fries) mix, which consists of peanut sauce, mayonnaise, and onions.
+
+- [Stroopwafel](search:Stroopwafel): Amsterdam’s signature sweet, consisting of two thin waffle layers joined by caramel syrup. Grabbing a fresh, warm one at the Albert Cuypmarkt and savoring the gooey caramel as you walk is an Amsterdam classic.
+- **Dutch Cheeses (Kaas):** You are in the heart of Gouda, Edam, and Maasdam country. You can enjoy tastings at cheese shops throughout the city (especially Henri Willig or Old Amsterdam) and find your favorite among thousands of flavored varieties.
+
+- **Bitterballen & Borrel Culture:** The best accompaniment to an afternoon beer is Bitterballen. These fried balls are filled with a meaty, creamy ragout, coated in breadcrumbs, and dipped in mustard. For the Dutch, this "Borrel" (drinks and snacks hour) is the most sacred social ritual of the day.
+
+- **Haring (Pickled Herring):** If you are adventurous with flavors, try the raw herring served with onions and pickles. Traditionally, it is eaten by holding it by the tail and lifting it upward, but you can also choose it in a sandwich (broodje haring).
+
+- **Rijsttafel (Indonesian Influence):** The most delicious legacy of the Netherlands' colonial past is Indonesian cuisine. Rijsttafel, meaning "rice table," is a massive feast consisting of dozens of small spicy dishes. You should definitely dedicate an evening to this exotic experience.
+
+- **Poffertjes:** Tiny, fluffy pancakes the size of a coin, served with powdered sugar and a dollop of butter—an absolute favorite for children and those with a sweet tooth.
+
+- **Quick Tip:** When you’re hungry and in a hurry, look for FEBO automatons. Inserting your card and pulling a hot croquette or burger from small glass compartments in the wall is Amsterdam’s oldest and most unique fast-food tradition.
+
+## 🤫 Whispers of the City: Local Secrets
+
+Amsterdam is far more than just display windows and crowded squares; the city's true character is hidden in secret churches behind ordinary-looking doors or within the industrial soul of old shipyards. It is time to step away from the crowds and discover the special places Amsterdam whispers to you.
+
+- **Ons' Lieve Heer op Solder (Our Lord in the Attic):** Though it looks like a typical canal house from the outside, the top floor houses a secret Catholic church dating back to the 17th century. Built during an era when Catholic worship was prohibited, this "hidden" sanctuary is the most striking testament to Amsterdam’s history of tolerance.
+
+- [Red Light District (De Wallen) & Oude Kerk](search:Red Light District (De Wallen): & Oude Kerk): This area is about much more than just the windows; it is Amsterdam’s oldest neighborhood. Standing right in the heart of the district is the Oude Kerk (Old Church), the city’s oldest building. You won’t find another place where sin and sanctity are so closely intertwined. Critical Local Rule: You are expected to respect the privacy of those in the windows. Taking photos is strictly forbidden and is not only extremely rude but also a serious security and ethical violation. Keep your camera in your pocket and focus on the district’s historical fabric instead.
+- **Tuschinski Theater:** This is one of the world's most beautiful Art Deco buildings. Even if you don’t stay to watch a film, stepping into the lobby to see the magnificent carpets and architectural details will instantly transport you back to the grandeur of the 1920s.
+
+- [NDSM Werf](search:NDSM Werf): Reachable by a free ferry from behind Central Station, this former shipyard is now the city’s largest hub for street art. Amidst massive sculptures made of scrap metal, you can feel Amsterdam’s raw, bohemian energy.
+- **Brown Cafes (Bruin Café):** To understand the true spirit of Amsterdam, you must step into these historic neighborhood pubs. Named for their walls darkened by decades of tobacco smoke, these cozy spots are where locals experience the "gezellig" spirit in its purest form.
+- **Hofjes (Hidden Courtyards):** Scattered throughout the city, these silent gardens tucked behind closed doors are Amsterdam’s greatest secrets. While Begijnhof is the most famous, you can find these oases of peace by following small signs in the Jordaan district.
+
+- **Winkel 43 and the Apple Pie Ritual:** The debate over the "best apple pie" in Amsterdam usually ends here. Served with plenty of cinnamon and a mandatory side of slagroom (fresh whipped cream), this pie is the sweetest detail to complete your Amsterdam experience.
+
+## ✅ The Amsterdam Checklist: Don't Leave Without Doing These
+
+- **Freeze the Moment by the Canal:** Find a quiet spot along the canals in Jordaan or by Prinsengracht at sunset. Dangle your feet over the edge, beer or coffee in hand, and simply watch the water flow. For locals, this is the most sacred "gezellig" moment of the day.
+
+- **Listen to the Voice of History at the Anne Frank House:** Witness the endless queue and the somber silence outside. It’s a powerful reflection of history. (To avoid disappointment, remember to book your tickets online months in advance!)
+- **Time Travel in the "9 Straatjes" (The 9 Streets):** Get lost in these narrow, parallel streets. This is where you’ll find some of the world’s best vintage shops, boutique designers, and one-of-a-kind curiosities.
+- [Peek into the Rijksmuseum’s Grand Library](search:Peek into the Rijksmuseum’s Grand Library): Don't miss the Cuypers Library inside the museum. It is as breathtaking as the masterpieces themselves; the scent of old books combined with the stunning 19th-century architecture will leave you speechless.
+- **Cross to the Modern Side via Free Ferry:** Hop on the ferries departing from behind Central Station. Enjoy the canal breeze for free and step into the futuristic, industrial world of Amsterdam Noord.
+- [Inspect Tulip Bulbs at the Bloemenmarkt](search:Inspect Tulip Bulbs at the Bloemenmarkt): Visit the world’s only floating flower market to see thousands of tulip bulbs and soak in the floral scents that define the Netherlands.
+- **Experience a Midnight FEBO Classic:** After a night at the pub or during a late walk, act like a true local. Grab a hot croquette or a burger from the FEBO wall automatons and enjoy it right there on the street.
+
+- **Take a Canal Tour during "Golden Hour":** You must see Amsterdam from the water, but time it for when the sun sets and the warm, orange light hits the large windows of the canal houses.
+
+**Catch Your Breath on the Eye Film Museum Terrace:** Don't just admire the futuristic building from the outside; go in and have a coffee on the terrace overlooking the water and the city skyline.
+
+**Take an Ethical Walk through the Red Light District:** Experience the district's atmosphere of contrasts in the evening, but remember the golden rule: Never take photos! Respecting privacy and understanding that this is a place of work is the ultimate mark of a traveler's respect for the city. (Otherwise, you might find your phone at the bottom of a canal!)
+''';
+
+  // TOKYO
+  static const _tokyoTR = '''# Tokyo Rehberi: Geleceğe Yolculuk 🇯🇵
+
+Tokyo sadece bir şehir değil, farklı evrenlerin bir araya geldiği devasa bir ekosistemdir. Neon ışıklı gökdelenlerin arasında 400 yıllık tapınakları bulacağınız, her köşesinde sizi şaşırtacak bir detay saklayan bir rüya.
+
+## 📅 Ne Zaman Gidilir?
+- **Kiraz Çiçeği Mevsimi (Mart Sonu-Nisan):** Şehri pembe bir bulut kaplar. *Hanami* (çiçek izleme) ritüeli için en büyüleyici zaman.
+- **Sonbahar (Kasım):** Akçaağaç yapraklarının kırmızısı şehri doğal bir tabloya dönüştürür.
+- **İpucu:** Yaz ayları (Temmuz-Ağustos) aşırı nemli ve sıcak olabilir, gezmeyi zorlaştırabilir.
+
+## 🏘️ Konaklama Rehberi
+- [Shinjuku](search:Shinjuku): Şehrin kalbi. Gece hayatı, neonlar ve dev istasyonun etrafındaki hareketlilik.
+- [Shibuya](search:Shibuya): Modanın ve gençlik enerjisinin merkezi. Meşhur yaya geçidi ve alışveriş için ideal.
+- [Shimokitazawa](search:Shimokitazawa): "Tokyo'nun Brooklyn'i". Vintage dükkanlar, plakçılar ve bohem kafeler.
+
+## 🍽️ Ne Yenir ve İçilir?
+- **Ramen Kültürü:** Ramen içerken hüpürdetmek ayıp değil, bir iltifattır! Yemeği ne kadar sevdiğinizi gösterir.
+
+- **Sushi Görgüsü:** Tsukiji veya Toyosu pazarı çevresindeki yerlerde sushi yiyin. Wasabi genellikle sushinin içinde gelir, ekstra eklemeden önce tadına bakın.
+
+- **Bahşiş Yok:** Japonya'da bahşiş bırakmak kaba bir davranış sayılabilir. En iyi hizmeti zaten fiyata dahil alırsınız.
+
+- **Sessizlik:** Toplu taşımada telefonda konuşmak yasaktır. Şehir ne kadar kalabalık olursa olsun, sessizliğe saygı esastır.
+
+
+## 🚇 Ulaşım İpuçları
+- **Suica veya Pasmo:** Bu kartlar sadece ulaşım için değil, otomatlardan ve marketlerden alışveriş yapmak için de kullanılır. Telefonunuza da ekleyebilirsiniz.
+
+- **JR Yamanote Hattı:** Şehrin tüm ana noktalarını dairesel bir hatla birbirine bağlar. Turistlerin can simididir.
+- **Yürüyüş:** Tokyo devasadır ama her mahalle kendi içinde yürünerek keşfedilecek binlerce detay sunar.
+
+## 💎 Lokal Sırlar & İpuçları
+- [Golden Gai](search:Golden Gai): Shinjuku'da sadece 5-6 kişinin sığabildiği minicik barların olduğu labirent sokaklar. Gerçek Tokyo ruhu burada.
+- **Nakano Broadway:** Akihabara çok popülerdir ama gerçek koleksiyonerler ve anime aşıkları Nakano'yu tercih eder.
+
+- **Görgü Kuralları:** Yürürken yemek yemek hoş karşılanmaz. Aldığınız şeyi aldığınız yerin önünde veya oturarak yiyin.''';
+
+  static const _tokyoEN = '''# Tokyo Guide: Journey to the Future 🇯🇵
+
+Tokyo isn't just a city; it's a massive ecosystem where different universes collide. It's a dream where you'll find 400-year-old temples tucked between neon-lit skyscrapers.
+
+## 📅 Best Time to Visit
+- **Cherry Blossom Season (Late March-April):** The city is covered in a pink cloud of blossoms. The most magical time for the *Hanami* (flower viewing) ritual.
+- **Autumn (November):** The fiery red of the maple leaves turns the city into a natural masterpiece.
+- **Tip:** Summer months (July-August) can be extremely humid and hot, making long walks quite draining.
+
+## 🏘️ Neighborhood Guide
+- [Shinjuku](search:Shinjuku): The heart of the city. Nightlife, neon lights, and the non-stop energy surrounding the world's busiest station.
+- [Shibuya](search:Shibuya): The center of fashion and youth energy. Perfect for the famous scramble crossing and endless shopping.
+- [Shimokitazawa](search:Shimokitazawa): "The Brooklyn of Tokyo." Think vintage shops, record stores, and bohemian cafes.
+
+## 🍜 Food & Dining Etiquette
+- **Ramen Culture:** Slurping your noodles is not rude; it's a compliment! It shows how much you are enjoying the dish.
+
+- **Sushi Manners:** Try sushi near the Tsukiji or Toyosu markets. Wasabi is already inside the sushi; taste it before adding more.
+
+- **No Tipping:** Tipping in Japan is not customary and can even be considered rude. You get the best service included in the price.
+- **Silence:** Speaking on the phone in public transport is prohibited. No matter how crowded, respect for collective silence is key.
+
+
+## 🚇 Transportation Tips
+- **Suica or Pasmo:** These cards aren't just for transport; you can use them at vending machines and convenience stores. You can also add them to your smartphone.
+
+- **JR Yamanote Line:** A circular line connecting all the major hubs of the city. A lifesaver for tourists.
+- **Walking:** Tokyo is massive, but each neighborhood offers thousands of details that are best discovered by wandering on foot.
+
+## 💎 Local Secrets & Insights
+- [Golden Gai](search:Golden Gai): A maze of tiny alleys in Shinjuku with bars that fit only 5 or 6 people. This is the real soul of Tokyo.
+- **Nakano Broadway:** While Akihabara is famous, true collectors and anime lovers prefer the hidden treasures of Nakano.
+
+- **Etiquette:** Eating while walking is generally looked down upon. Eat what you buy in front of the shop or find a place to sit.''';
+
+  // NEW YORK
+  static const _newyorkTR = '''# New York: Sahneden Hiç İnmeyen Şehir
+
+New York; sadece bir şehir değil, her sokağında kendinizi bir film setinde gibi hissedeceğiniz devasa bir sahnedir. Gökyüzüne uzanan gökdelenleri, bitmeyen gürültüsü ve dünyanın her yerinden gelen insanların yarattığı o eşsiz kaosuyla burası tam anlamıyla dünyanın merkezidir. New York’u anlamak için sadece Times Square’in ışıklarına bakmak yetmez; sarı bir taksinin kornasını duymak, metroda bir sokak sanatçısını dinlemek, Central Park’ta faytonların arasından geçmek ve klasikleşmiş bir dükkandan bir dilim pizza alıp sokakta yürürken yemek gerekir. Burası; her köşesinde ayrı bir fırsatın ve ayrı bir hikayenin beklediği, 7/24 yaşayan bir yerdir.
+
+**📝 Gitmeden Önce Bilmenizde Fayda Var:**
+- **Bahşiş (Tipping) Kültürü Kültürü):** İşte New York’un en hassas konusu. Burada bahşiş bir seçenek değil, neredeyse bir zorunluluk. Restoranlarda, taksilerde veya bir barda hizmet aldığınızda hesabın %18 ile %25 arası kadar bahşiş bırakmanız beklenir. Ödeme ekranlarında bu seçenekler karşınıza çıkacaktır, hazırlıklı olun.
+- **Ulaşım ve OMNY:** New York metrosu artık tamamen temassız sisteme geçti. OMNY adı verilen bu sistem sayesinde metro kartı almanıza gerek kalmadan, kredi kartınızı veya telefonunuzu (Apple/Google Pay) okutarak her yere gidebilirsiniz.
+- **Yürümek ve Izgara Planı:** New York (özellikle Manhattan) bir "ızgara" planına göre inşa edilmiştir. Caddeler ve sokaklar numarayla ilerler, bu yüzden yönünüzü bulmak çok kolaydır. Ancak çok fazla yürüyeceğinizi unutmayın; New York’un tadı en çok o dev bloklar arasında adım atarak çıkar.
+
+## 📅 Takviminizi Ayarlayın: Hangi Mevsim Sizin?
+
+New York'un her mevsimi size bambaşka bir film izliyormuşsunuz hissi verir. Şehrin enerjisi hiç düşmese de, havanın durumu New York deneyiminizi tamamen değiştirebilir. Hangi atmosferde bu sahnede yer almak istediğinize siz karar verin.
+
+- **İlkbahar (Nisan - Haziran):** Şehrin en taze ve en keyifli zamanlarıdır. Central Park’ta çiçeklerin açtığı, insanların kış uykusundan uyanıp kendini dışarı attığı dönemdir. Hava ne çok sıcak ne çok soğuktur; High Line’da yürümek veya Brooklyn Köprüsü’nü geçmek için en ideal zamanlardan biridir.
+- **Yaz (Temmuz - Ağustos):** New York’un en sıcak ve nemli olduğu dönemdir. Gökdelenlerin arasında yürürken sıcağı iliklerinize kadar hissedebilirsiniz. Ancak açık hava konserleri, çatılardaki "rooftop" barlar ve Bryant Park’taki film geceleriyle şehir çok canlıdır. Sadece metrodaki o meşhur sıcak havaya hazırlıklı olun.
+- **Sonbahar (Eylül - Kasım):** Belki de New York’a en çok yakışan mevsim. Central Park’ın o meşhur turuncu ve sarı renklere büründüğü, filmlerdeki o romantik New York havasının her yere yayıldığı zamandır. Hava hafif serindir ama yürüyerek şehri keşfetmek için bundan daha güzel bir zaman bulmak zordur.
+- **Kış (Aralık - Mart):** Aralık ayı New York için masalsı bir dönemdir. Rockefeller Center’daki dev çam ağacı, ışıl ışıl vitrinler ve buz pateni pistleriyle şehir tam bir kış masalına dönüşür. Ocak ve Şubat aylarında ise dondurucu soğuklara ve kar yağışına hazırlıklı olmalısınız; ancak müzeleri gezmek ve kalabalıklardan uzak kalmak için en sakin dönemdir.
+
+## 🏠Nerede Kalmalı: Mahalle Rehberi
+
+New York o kadar büyük ve katmanlı bir şehir ki, nerede konaklayacağınız aslında kendi New York filminizin türünü belirleyecek. Gökdelenlerin arasındaki o bitmeyen koşuşturmanın tam ortasında mı olmak istersiniz, yoksa o meşhur tuğla evlerin (brownstones) sıralandığı daha sakin sokaklarda bir lokal gibi uyanmak mı?
+
+**Konaklamanızı seçerken küçük bir püf nokta:** Metroya yakın olun. Manhattan her ne kadar pahalı olsa da ulaşım açısından en pratik seçenek. Öte yandan Brooklyn ya da Queens gibi bölgeler hem daha erişilebilir hem de size gerçek bir New Yorklu gibi hissettiren daha yerel bir deneyim sunabilir.
+
+- **Midtown (Şehrin Tam Kalbi):** Eğer "New York’a ilk kez geliyorum ve her yerin merkezinde olmak istiyorum" diyorsanız, Midtown tam size göre. Times Square, Empire State ve Broadway tiyatroları bir adım ötenizde olur. Her zaman kalabalık, her zaman gürültülü ama bir o kadar da ulaşılabilir.
+
+- **Upper West Side (Nezih ve Huzurlu):** Central Park’a komşu, o filmlerde gördüğünüz klasik New York evlerinin olduğu bölgedir. Daha çok ailelerin ve lokallerin tercih ettiği bu mahalle, hem güvenli hem de çok şık kafelerle doludur. Şehrin içinde ama karmaşadan bir adım uzaklaşmak için harika bir seçenektir.
+
+- [Greenwich Village & West Village (Bohem ve Romantik)](search:Greenwich Village & West Village (Bohem ve Romantik): Alçak binaları, ağaçlıklı sokakları ve butik dükkanlarıyla New York’un en "fotojenik" mahallesidir. Burası caz kulüplerinin, küçük tiyatroların ve gurme kahve duraklarının kalbidir. Kendinizi bir dizinin başrolünde gibi hissetmek istiyorsanız rotanız burası olmalı.
+- **SoHo & Lower East Side (Moda ve Gece Hayatı):** Modayı takip edenler ve alışveriş tutkunları için SoHo bir cennet. Lower East Side tarafı ise daha enerjik, biraz daha salaş ve şehrin en iyi gece hayatı ile "brunch" mekanlarına ev sahipliği yapan bölgedir. Genç ve dinamik bir atmosfer arayanların favorisidir.
+
+- [Williamsburg, Brooklyn (Modern ve Havalı)](search:Williamsburg, Brooklyn (Modern ve Havalı): Manhattan’ın hemen karşısında, nehir kenarında yer alan bu bölge, son yılların en popüler noktası. Harika bir Manhattan manzarası, yaratıcı restoranlar ve sanat galerileriyle dolu. Metroyla sadece birkaç dakikada adaya geçebilir ve akşamları daha "cool" bir dünyada dinlenebilirsiniz.
+
+## 🚲 A Noktasından B Noktasına: Bir Lokal Gibi Hareket Edin
+
+New York’ta ulaşım, sadece bir yerden bir yere gitmek değildir; bazen bir sokak müzisyenine rastlamak, bazen de şehrin o meşhur kaosunun tam ortasına karışmaktır. Şehir 24 saat uyumaz ama ulaşım ağı zaman zaman sizi şaşırtabilir. Bu yüzden bir “lokal” gibi hareket etmek ve sistemi çözmek işinizi fazlasıyla kolaylaştırır. Sarı taksilerden labirent gibi metrolara kadar, işte bilmeniz gerekenler.
+
+- **Havalimanından Şehre İlk Adım:** Eğer JFK’e indiyseniz, en mantıklı ve hızlı yol AirTrain ile metroya veya LIRR (Long Island Rail Road) trenine bağlanmaktır. Newark (EWR) için "NJ Transit" trenleri sizi doğrudan Penn Station’a (Midtown) ulaştırır. LaGuardia (LGA) için ise genellikle taksi veya otobüs kombinasyonları kullanılır. Lokal İpucu: Eğer çok eşyanız yoksa LIRR treni, metroya göre çok daha konforlu ve hızlı bir seçenektir.
+- **OMNY ile "Okut ve Geç":** Artık o meşhur sarı "MetroCard"ları almak için uğraşmanıza gerek yok. Metrolarda ve otobüslerde OMNY sistemi geçerli. Temassız kredi kartınızı veya telefonunuzdaki dijital cüzdanı (Apple/Google Pay) turnikeye okutup doğrudan geçebilirsiniz. Haftalık limit uygulaması sayesinde, belli bir sayıdan sonraki binişleriniz o hafta için otomatik olarak ücretsiz hale gelir.
+- **Metro - Yerel mi, Ekspres mi?:** New York metrosunun en kritik kuralı budur. Bazı trenler her durakta durur (Local), bazıları ise sadece ana duraklarda durarak hızla ilerler (Express). Binmeden önce tabeladaki harfe/numaraya ve "Local/Express" yazısına dikkat edin; aksi halde kendinizi bir anda gitmek istediğiniz yerin 10 sokak ötesinde bulabilirsiniz.
+- **Sarı Taksiler ve Uygulamalar:** Filmlerden fırlamış o sarı taksileri durdurmak için kaldırıma çıkıp elinizi kaldırmanız yeterli. Eğer taksinin tepesindeki numara ışığı yanıyorsa boştur. Ancak günümüzde Uber ve Lyft gibi uygulamalar da oldukça yaygın ve fiyatı önceden görmek açısından daha pratik olabiliyor.
+- **Izgara Planı ve Yürümek:** Manhattan’ın çoğu "ızgara" (grid) planına sahiptir. Caddeler (Avenues) kuzey-güney, sokaklar (Streets) ise doğu-batı yönünde uzanır. Sayılar kuzeye doğru büyür. Bu sistemi çözdüğünüz an kaybolmanız imkansızdır. Ama unutmayın, New York blokları göründüğünden uzundur; rahat bir ayakkabı en iyi dostunuz olacak.
+- **NYC Ferry ile Nehir Keyfi:** Ulaşımı bir geziye dönüştürmek isterseniz nehir teknelerini (NYC Ferry) kullanın. Özellikle Wall Street’ten Brooklyn’e veya Astoria’ya nehir üzerinden gitmek, gökdelenleri izlemek için harika bir yoldur. Ücreti metrodan biraz farklıdır ama manzarası paha biçilemez.
+**Citi Bike:** Şehirde her köşe başında göreceğiniz mavi bisikletler (Citi Bike), özellikle sahil şeridinde veya Central Park çevresinde gezmek için harikadır. Uygulamayı indirip bir bisiklet kapın ve trafiğin üzerinden süzülün.
+
+**💡 Lokal İpuçları:**
+- **Boş Metro Vagonuna Dikkat:** Eğer kalabalık bir metro istasyonunda bir vagon tamamen boşsa, ona binmeden önce iki kez düşünün. Genellikle kliması bozuktur veya hoş olmayan bir koku vardır. Lokaller kalabalık vagonu tercih ediyorsa bir sebebi vardır!
+- **Yürüyen Merdiven Adabı:** Altın kural; sağda dur, soldan yürü. Aceleci bir New Yorklunun önünü kapatmak istemezsiniz.
+- **Akıcı Adımlar:** Merdivenlerden inerken veya çıkarken durup telefonunuza bakmayın; New York hızı affetmez, akışı bozmadan kenara çekilin.
+
+## 🏛️ Şehrin Hafızası: Görülmesi Gereken İkonik Duraklar
+
+New York sadece gökdelenlerden ibaret değil; bu şehir o binaların içinde yaşanan hikâyelerden ve dünyanın kaderini değiştiren anlardan oluşuyor. Şehri gerçekten hissetmek için bu noktaları ziyaret etmek, size aslında New York’un nasıl "dünyanın başkenti" haline geldiğini kendiliğinden anlatacak. Her köşesi ayrı bir film karesi gibi olsa da bazı yerler şehrin kimliğini olduğu gibi sunar. Unutmayın, ziyaret edecek olduğunuz durakların bazıları için önceden plan yapmak ise cüzdanınızı ve vaktinizi koruyabilir.
+
+- [Özgürlük Anıtı ve Ellis Island](search:Özgürlük Anıtı ve Ellis Island): Amerika’nın ve umudun simgesi olan bu anıt, milyonlarca göçmenin gemilerle şehre girerken karşılaştığı ilk manzaraydı. Ellis Island üzerindeki Göç Müzesi, bu insanların hikayelerine tanıklık eder. Bilmenizde fayda var: Eğer heykelin tacına (crown) çıkmak istiyorsanız aylar öncesinden bilet almanız şarttır. Sadece yanından geçip fotoğraf çekmek isterseniz, Staten Island Ferry harika bir deniz yolculuğu sunar.
+- **Empire State Building:** Art Deco mimarisinin en görkemli örneklerinden biri olan bu bina, New York silüetinin adeta kralı. 86. ve 102. katlardaki teraslardan şehri 360 derece izleyebilir, Manhattan’ın o ikonik manzarasını adeta ayaklarınızın altına serebilirsiniz. Bunun için biletleri önceden almakta fayda var; özellikle gün batımı saatleri en kalabalık zamanlar. Daha sakin bir deneyim için gece geç saatler iyi bir alternatif. Binanın tepesindeki ışıklara bakarken ise her akşam farklı bir renge büründüğünü fark edeceksiniz. Bu bir tesadüf değil; şehir o gün neyi kutluyor ya da anıyorsa, gökyüzüne onu yansıtıyor.
+- **9/11 Memorial & Museum:** İkiz Kuleler'in eski yerinde bulunan devasa anıt havuzlar, isimleri bronz levhalara kazınmış binlerce kişiyi sessizce anar. Hemen altındaki müze ise saldırının izlerini, yeraltında korunan kalıntılar ve kişisel hikâyeler üzerinden detaylıca anlatıyor. Ziyaret için bilet almak gerekiyor. Havuzların kenarında göreceğiniz "Survivor Tree" (Hayatta Kalan Ağaç) ise tüm yıkıma rağmen hayatta kalmayı başaran ve bugün direncin simgesi haline gelen en dokunaklı sembollerden biri.
+
+- **Central Park:** Şehrin gürültüsünün tam ortasında uzanan bu 800 dönümlük devasa park, New York’un adeta nefes aldığı yer. Bethesda Terası’nın tavanındaki çinileri inceleyebilir, Strawberry Fields’ta John Lennon’ı anabilir veya Bow Bridge üzerinde o meşhur film sahnelerini canlandırabilirsiniz. Parkın tamamını keşfetmek için bisiklet kiralamak en keyifli ve pratik yol.
+
+- **Brooklyn Köprüsü:** 1883’te açıldığında dünyanın en uzun asma köprüsü olan bu yapı, neo-Gotik kuleleriyle hala etkileyici bir mühendislik şaheseri. Ama burayı özel yapan şey sadece tarihi değil; köprüyü yürüyerek geçmek başlı başına bir New York klasiği. Manhattan’dan Brooklyn’e doğru adım adım ilerlerken gökdelenlerin yarattığı o devasa duvarı arkanıza alır, birkaç dakika sonra kendinizi nehir kenarındaki parkların ve kartpostallık manzaraların içinde bulabilirsiniz.
+
+- **Times Square:** "Dünyanın Kavşağı" olarak anılan bu noktaya adım attığınızda, şehrin temposunun bir anda iki katına çıkmasına hazır olun. 24 saat sönmeyen dev ekranlar, hiç durmayan kalabalık ve korna sesleri... Burası New York’un bitmeyen enerjisinin en kaotik ama en ikonik yüzü. Eğer bir Broadway müzikal deneyimlemek isterseniz, meydandaki kırmızı merdivenlerin altındaki Broadway gişelerinden (TKTS) son dakika uygun fiyatlı biletler bulabilirsiniz. Küçük bir hatırlatma, etrafta gördüğünüz kostümlü karakterlerle fotoğraf çektirmek isterseniz sizden bahşiş bekleyeceklerini unutmayın.
+- **Broadway Theatre District:** New York’un kalbinin attığı, "Işıklı Büyük Yol" (Great White Way). Dünyanın en iyi müzikallerinin ve oyunlarının sergilendiği bu bölge, sadece bir tiyatro alanı değil; neon ışıkları, tarihi tiyatro binaları ve oyuncuların sahne kapısındaki heyecanıyla başlı başına bir deneyim. Küçük bir hatırlatma, popüler müzikaller için biletlerinizi aylar öncesinden online almanız neredeyse şarttır.
+
+- [DUMBO & Brooklyn Bridge Park](search:DUMBO & Brooklyn Bridge Park): Manhattan Köprüsü’nün ayaklarının altındaki bu eski depo mahallesi, bugün kafelerle, tasarım dükkânlarla ve taş sokaklarıyla şehrin en karakterli köşelerinden biri. Washington Street’te köprünün arasından Empire State’i tam kadraja aldığınız o meşhur fotoğrafı çekebilir, ardından nehir kenarındaki parkta Manhattan silüetine karşı uzun bir yürüyüş yapabilirsiniz. Cam bir pavilyonun içindeki nostaljik Jane’s Carousel ise mutlaka uğranacak tatlı bir durak.
+- **Grand Central Terminal:** Burası dünyanın en çok peronlu tren istasyonu olmasının ötesinde, tavanındaki turkuaz burçlar haritasıyla bir sanat merkezidir. Ana salondaki dört yüzlü opal saati incelemeyi ve "Fısıltı Galerisi"ndeki kemerlerin çapraz köşelerine geçip duvara fısıldayarak karşılıklı köşelerden konuşmayı mutlaka denemelisiniz.
+
+- **The High Line:** Eski bir yük tren hattının dönüştürülmesiyle ortaya çıkan bu yürüyüş yolu, binaların arasından ve üstünden geçen havada asılı bir park gibidir. Gansevoort Street'ten başlayıp Hudson Yards'taki o dev "Vessel" yapısına kadar uzanan bu rota, kentsel dönüşümün en havalı örneği.
+- **The Met (Metropolitan Sanat Müzesi):** Beş bin yıllık insanlık tarihini tek bir çatı altında toplayan, dünyanın en büyük ve en etkileyici müzelerinden biri. İçeride Mısır’dan getirilen orijinal Temple of Dendur tapınağını ve Avrupa resim sanatının dev ustalarını aynı gün içinde görebilirsiniz. Müzenin çatısındaki teras, Central Park manzarasına karşı soluklanmak için en iyi noktalardan biridir. Bir tam gününüzü ayırabileceğiniz bu müze için eskiden "gönlünden ne koparsa öde" sistemi vardı, ancak günümüzde turisler için sabit bilet fiyatı uygulanıyor.
+- [MoMA (Modern Sanat Müzesi)](search:MoMA (Modern Sanat Müzesi): Van Gogh’tan Picasso’ya uzanan modern sanatın kalbinin attığı yer tam olarak burası. Bu müze, Van Gogh'un "Yıldızlı Gece" tablosundan Warhol’un eserlerine kadar modern sanatın en önemli eserlerine ev sahipliği yapıyor. Müzenin tasarım mağazası (MoMA Design Store) da en az koleksiyon kadar keyifli; dünyanın dört bir yanından yaratıcı objelerle başlı başına mutlaka görülmesi gereken bir keşif duraktır. Müzeye giriş için önceden bilet almanız gerekiyor, ancak zaman zaman sponsorlu "ücretsiz cuma akşamları" (Uniqlo Free Fridays gibi) düzenlenebiliyor. Gitmeden önce web sitesini kontrol etmekte fayda var.
+- [Rockefeller Center & Top of the Rock](search:Rockefeller Center & Top of the Rock): Özellikle kış aylarında kurulan dev Noel ağacı ve önündeki buz pateni pistiyle New York’un en ikonik kartpostallarından biri. Ancak burası sadece sezonluk bir durak değil; yıl boyunca yaşayan, mağazaları, stüdyoları ve meydanı ile şehrin en hareketli buluşma noktalarından biri. Manzara terası Top of the Rock, Empire State’i tam karşıdan ve engelsiz görebileceğiniz en iyi açıya sahip. Özellikle gün batımında hem Central Park’ı hem Midtown silüetini aynı kareye sığdırabilirsiniz. Bilmenizde fayda var: Terasa çıkış için önceden bilet almanız gerekmektedir; özellikle gün batımı saatleri için online rezervasyon yapmak uzun kuyruklardan kurtaracaktır.
+- [Wall Street ve Charging Bull](search:Wall Street ve Charging Bull): Dünyanın finans kalbinin attığı sokak burası. New York Stock Exchange (NYSE) binasının o heybetli cephesini yakından görebilir, ardından Bowling Green Park’taki meşhur Boğa heykeliyle klasik bir New York fotoğrafı çekebilirsiniz. Rivayete göre boğaya dokunmak şans getiriyor; bu yüzden özellikle gündüz saatlerinde önünde küçük bir sıra görmek oldukça normaldir.
+- [New York Halk Kütüphanesi ve Bryant Park](search:New York Halk Kütüphanesi ve Bryant Park): Kütüphanenin girişinde sizi iki ikonik aslan heykeli karşılar: Patience (Sabır) ve Fortitude (Dirayet). İçeri girip Rose Reading Room salonunun ulaştığınızda ise devasa pencereleri ve tavan süslemeleri, size sessizliğin içinde muazzam bir atmosfer sunacak. Hemen arkasındaki Bryant Park ise lokallerin kahve içip dinlendiği şehrin "arka bahçesi" gibi hissedeceğiniz duraklarından.
+- [SUMMIT One Vanderbilt](search:SUMMIT One Vanderbilt): Şehrin en yeni ve en popüler manzara teraslarından biri; aynı zamanda interaktif bir sanat deneyimi. Aynalı odaları ve havada uçuşan gümüş balonlarıyla, size adeta yerçekimsiz bir ortamdaymışsınız hissi veren dijital bir deneyim sunarken tam bir görsel şölen yaşatacak. Biletlerin sınırlı olduğunu göz önünde bulundurarak, bu eşsiz deneyim için mutlaka önceden online satın almak sizi bir adım öne taşıyacaktır.
+- [Flatiron Building](search:Flatiron Building): 1902’de tamamlanan bu ütü şeklindeki bina, gökdelen mimarisinin öncülerinden biri ve üçgen formuyla şehrin en ikonik yapılarından. Madison Square Park ile Broadway’in kesiştiği bu nokta, size New York’un en karakteristik perspektiflerinden birini sunacak. İçine girmek mümkün olmasa da önünde fotoğraf çekmek ve Madison Square Park’ta kısa bir mola vermek oldukça keyifli.
+
+## 🍴 Şehrin Lezzet Haritası: Hızlı, Cesur, Lezzetli
+
+New York’ta karnınızın acıkması aslında şehrin en keyifli maceralarından birinin başlangıcı. Burada yemek sadece karın doyurmak değil; dünyanın dört bir yanından gelen kültürlerin tek bir tabakta, bazen de bir kâğıt peçete üzerinde buluşması demek. Michelin yıldızlı restoranlardan köşe başındaki seyyar arabalara kadar her yerde New York’un gerçek tadını yakalayabilirsiniz. Şehrin mutfağı denince akla gelen o klasikleşmiş lezzetler ise karakterini birebir özetler: hızlı, çeşitli ve her zaman etkileyici.
+
+- **Meşhur "New York Slice" (Pizza):** New York’ta pizza, adeta ayaküstü yenen bir sanat. İncecik hamuru, kenarlarından süzülen yağıyla o devasa dilimi ikiye katlayıp sokakta yürürken yemek gerçek bir New York ritüeli. Manhattan’ın her köşesinde "99 cent" tabelaları görebilirsiniz ama gerçek bir klasik için Joe’s Pizza gibi noktaları denemelisiniz.
+- **Sabahların Vazgeçilmezi - New York Bagel:** "New York’un suyu başkadır" efsanesinin çıkış noktası işte bu simit benzeri ama içi yumuşacık lezzet. Yanına "cream cheese" (krem peynir) ve füme somon (lox) ekleterek güne tam bir New Yorklu gibi başlayabilirsiniz.
+
+- **Bir Efsane - Pastrami Sandviç:** New York’a gelip Katz’s Delicatessen’de o devasa çavdar ekmeği arasına dizilmiş dumanı tüten pastırmalı sandviçten yemeden dönmek olmaz. Biraz sıra beklemeye hazır olun ama o ağızda dağılan etin tadı buna fazlasıyla değecek.
+- **Sokak Lezzetlerinin Kralı - Halal Carts:** New York sokaklarında burnunuza gelen o iştah açıcı baharat kokusu genellikle "Halal Guys" ve benzeri arabalardan gelir. Tavuk-pilav ve üzerine dökülen o meşhur beyaz sos, New York koşturmacası arasında en doyurucu ve ikonik öğle yemeği alternatifidir.
+- **Tatlı Bir Final - New York Cheesecake:** Dünyanın her yerinde cheesecake var ama "New York Style" olanın o yoğun, kremsi ve pürüzsüz dokusu bambaşkadır. Junior’s gibi klasik duraklarda bu lezzetin orijinal halini tadabilirsiniz.
+- **Sosisli Arabaları (Hot Dogs):** Filmlerin olmazsa olmazı, her köşe başında sizi bekleyen o meşhur sosisli arabaları... Belki gurme bir lezzet değil ama Central Park’ta yürürken elinizde bir "hot dog" olması, New York atmosferini tamamlayan en önemli detaylardan biri.
+
+- **Burgerin Modern Efsanesi (Shake Shack):** Her şey Madison Square Park'taki küçük bir seyyar arabayla başladı. Bugün New York’un en sevilen burger duraklarından biri olan Shake Shack’te, o meşhur "ShackBurger"ı yerinde denemek gerçek bir lokal deneyim olacak.
+
+- **O Muazzam Kurabiye - Levain Bakery:** New York’un en meşhur kurabiyesiyle tanışın. Neredeyse yarım kilo ağırlığında, dışı çıtır içi ise hala akışkan olan bu dev kurabiyeler (özellikle Chocolate Chip Walnut) için Upper West Side’daki o küçük dükkanın önünde sıra beklemeye kesinlikle değer.
+
+- **Magnolia Bakery’nin Banana Pudding'i:** Sex and the City ile meşhur olan bu fırında cupcake'ler popüler olsa da, asıl yıldız "Banana Pudding"dir. Hafif, bulut gibi bir tatlı arıyorsanız Bryant Park kenarında bir mola verip bunu mutlaka denemelisiniz.
+
+- [Chinatown’da Dumpling Keyfi](search:Chinatown’da Dumpling Keyfi): New York’un çok kültürlü yapısını tatmanın en ucuz ve en lezzetli yolu Chinatown’dır. Nom Wah Tea Parlor gibi tarihi mekanlarda veya sokak arasındaki küçük büfelerde Çin mantılarının (dumpling) tadına bakabilirsiniz.
+- **Klasik Amerikan Steakhouse Deneyimi:** Eğer bütçenizi biraz zorlamak ve gerçek bir New York "dinner" deneyimi yaşamak isterseniz, Peter Luger veya Keens gibi tarihi et restoranlarında o devasa bifteklerin tadına bakabilirsiniz. Bu restoranlarda kendinizi eski bir New York filminde gibi hissedeceksiniz.
+
+
+**💡 Lokal İpuçları:**
+- **Rezervasyon Şart:** Eğer popüler veya şık bir restorana gitmek istiyorsanız, haftalar öncesinden "Resy" veya "OpenTable" üzerinden yerinizi ayırtın; New York’ta kapıdan girip yer bulmak bazen imkansız olabilir.
+- **Su İçin Para Ödemeyin:** Restoranlarda oturduğunuz an önünüze buzlu su gelir. Bu musluk suyudur ama New York’un musluk suyu gayet temiz ve içilebilirdir. Ekstra bir şişe su söyleyip bütçenizi yormanıza gerek yok.
+- **Porsiyonlara Dikkat:** Amerika’da "küçük" boy bile beklediğinizden büyük gelebilir. Sipariş verirken porsiyonların cömert olduğunu unutmayın, paylaşmak her zaman iyi bir fikirdir.
+
+## 🤫 Şehrin Fısıldadıkları: Lokal Sırlar
+
+New York sadece caddeleri ve dev binalarıyla değil, bu devasa karmaşanın içine gizlenmiş küçük mucizeleriyle de New York’tur. Çoğu turist tabelaları takip ederken, siz biraz rotadan çıkıp bu “fısıltıların” peşine düşerseniz şehri bambaşka bir gözle görmeye başlarsınız. Çünkü New York’u gerçekten keşfetmek, kalabalığın arasından sıyrılıp o küçük ama etkileyici detayları yakalamaktan geçer. İşte sizi bir anda filmin dışına çıkarıp bir lokalin gizli bahçesine sokacak o saklı duraklar:
+
+- **Eski City Hall İstasyonu (Gizli İstasyon):** 6 numaralı trenin son durağı olan Brooklyn Bridge/City Hall istasyonuna geldiğinizde herkes inecek; ama siz inmeyin ve koltuğunuza iyice yerleşin. Tren geri dönüş manevrası yaparken 1904'ten kalma, kapalı olan o meşhur, görkemli "City Hall" istasyonunun içinden geçer. Avizeleri ve şık tavanıyla bu gizli tarih şovunu izlemek harika bir deneyimdir.
+- [Gökdelenlerin Arasında Bir Şelale (Greenacre Park)](search:Gökdelenlerin Arasında Bir Şelale (Greenacre Park): Midtown'ın o kaotik binaları arasında yürürken 51. Sokak'ta (2. ve 3. Avenue arası) durun. Burada, beton ormanının ortasında 7 metrelik gerçek bir şelale gizli. Lokallerin sandviçlerini alıp su sesi eşliğinde kafa dinlediği en huzurlu kaçış noktalarından birine siz de dahil olun.
+- **Elevated Acre (Gizli Teras):** Financial District’te, gökdelenlerin arasında saklı kalmış devasa bir çim alan ve teras vardır. 55 Water Street binasının yanındaki yürüyen merdivenleri takip ettiğinizde, turistlerden uzak, Brooklyn Köprüsü manzaralı bu gizli bahçeye ulaşacaksınız.
+
+- **Berlin Duvarı’nın Parçaları:** New York’un ortasında tarihin tozlu sayfalarına dokunmak ister misiniz? 52. Sokak’ta sıradan bir ofis binasının (520 Madison Ave) avlusunda Berlin Duvarı’nın beş adet orijinal paneli duruyor. Çoğu New Yorklu bile her gün önünden geçip fark etmez.
+
+- [The Campbell Apartment](search:The Campbell Apartment): Grand Central Terminali’nin içinde, kalabalıktan tamamen izole edilmiş gizli bir kapının arkasında, 1920’lerin ihtişamını yansıtan bu barı bulun. Bir zamanlar bir finansçının özel ofisi olan bu mekan, sizi bir anda Büyük Gatsby dünyasına ışınlayacak.
+- **Roosevelt Island Tramway:** Bu aslında bir ulaşım aracı ama New York’un en iyi saklanan manzara sırlarından biri. Metro kartınızı (veya OMNY) kullanarak binebileceğiniz bu teleferik, sizi Manhattan ve Queens arasında, nehrin üzerinden uçurur. Gün batımında binmek ise paha biçilemez bir görsel şölen sunacak.
+- **Sessiz Bir Köşe (Morgan Library & Museum):** Eğer kütüphaneleri seviyorsanız burası sizin mabediniz olacak. J.P. Morgan’ın özel kütüphanesi olan bu müze, tavanına kadar uzanan nadir kitap koleksiyonuyla kendinizi Disney’in Güzel ve Çirkin filmindeki kütüphanede gibi hissettirecek kadar büyüleyici.
+
+
+## ✅ Mutlaka Yapmadan Dönme: New York Checklist
+
+- **Sarı Taksiye El Kaldır:** Kaldırımın kenarına çıkın, elinizi kararlı bir şekilde havaya kaldırın ve filmlerdeki gibi o meşhur sarı taksilerden birini durdurun.
+- **Bir Dilim Pizzayı Katlayıp Ye:** Joe’s Pizza gibi bir durakta o devasa pizza dilimini alın, ortadan ikiye katlayın ve bir yandan yürürken bir yandan bu New York klasiğinin tadını çıkarın.
+- **Brooklyn Köprüsü’nü Yürüyerek Geç:** Özellikle gün batımında Brooklyn tarafından Manhattan’a doğru yürüyün; gökdelenlerin birer birer yanan ışıkları size unutulmaz bir manzara sunacak.
+
+- **Central Park’ta Kaybol:** Sadece ana yollarda kalmayın; parkın derinliklerine girin, bir bankta oturun ve şehrin ortasındaki bu inanılmaz sessizliğin tadını çıkarın.
+
+- **"Stand Clear of the Closing Doors" Sesini Duy:** New York metrosuna binin ve her kalkışta duyacağınız o ikonik anons eşliğinde şehrin yeraltı dünyasını keşfedin.
+
+- **Broadway’de Bir Müzikal İzle:** Sahne sanatlarının zirvesi olan Broadway’de büyüleyici bir şov izlemeden, o tiyatro ışıklarının enerjisini hissetmeden dönmeyin.
+
+- **Sabah Kahvaltısında Bagel Ye:** Güne gerçek bir New Yorklu gibi başlamak için bol krem peynirli ve somonlu bir bagel (lox) kapın.
+- **Times Square’in Işıkları Altında Dur:** Kalabalık ve gürültülü olsa da, gece yarısı Times Square’in ortasında durup o dev ekranların şehri nasıl gündüz gibi aydınlattığını bizzat görün.
+- **Village’da Caz Dinle:** Akşam çöktüğünde Greenwich Village’daki o daracık merdivenlerden aşağı inin ve Village Vanguard veya Blue Note gibi efsanevi bir kulüpte New York’un gerçek ruhunu, cazın tınılarında hissedin.
+
+- **Staten Island Feribotu ile Özgürlük’e El Salla:** Özgürlük Anıtı’nın yanından geçen bu feribota binin; nehir rüzgarını yüzünüzde hissederken heykele en ekonomik ve keyifli yoldan merhaba deyin.
+- [Friends Apartmanı](search:Friends Apartmanı’nın Önünde Fotoğraf Çekil)’nın Önünde Fotoğraf Çekil: West Village’ın o meşhur köşesine (Bedford ve Grove Sokaklarının kesişimi) gidin. Dizideki o efsanevi apartmanın dış cephesini görünce kulaklarınızda bir anda "I’ll Be There for You" çalmaya başlayacak.
+- **Şehre Bir Gökdelenin Tepesinden Bak:** Top of the Rock veya SUMMIT gibi bir noktadan New York’un o bitmek bilmeyen silüetini yukarıdan izleyin.
+
+- **High Line’da Gökyüzü Yürüyüşü Yap:** Binaların arasından süzülen bu eski demiryolu hattında yürürken şehrin nasıl dönüştüğüne şahitlik edin.
+- **Sokakta Bir Kahve Kap ve Sadece Yürü:** Elinizde bir karton bardak kahveyle Manhattan blokları arasında adımlayın; New York’u New York yapan o meşhur tempoyu ancak yürürken yakalayabilirsiniz.
+- [Washington Square Park’ta Satranç İzle](search:Washington Square Park’ta Satranç İzle): Parkın köşesindeki o meşhur satranç masalarına gidin; hem profesyonel oyuncuların hızına şahit olun hem de o ikonik kemerin altında sokak sanatçılarının müziğine kendinizi bırakın.
+- **Grand Central’da "Fısıltı Galerisi"ni Dene:** Terminalin alt katındaki o meşhur kemerli köşeye gidin, arkadaşınız tam çapraz köşeye geçsin; duvara fısıldadığınız kelimelerin diğer uçtan nasıl berrak bir şekilde duyulduğuna şaşırın.
+
+- **Bir Stand-Up Show’a Katıl:** New York mizahın başkentidir. Comedy Cellar gibi bir kulüpte, belki de yarının efsanesi olacak bir komedyeni izleyerek gecenizi kahkahalarla taçlandırın.
+
+''';
+
+  static const _newyorkEN = '''# New York: The City That Never Leaves the Stage
+
+New York is not just a city; it is a massive stage where you’ll feel like you’re on a movie set in every single street. With its soaring skyscrapers, endless noise, and the unique chaos created by people from all over the world, it is truly the center of the universe. To understand New York, just looking at the lights of Times Square isn't enough; you need to hear the honk of a yellow cab, listen to a subway performer, walk past the carriages in Central Park, and grab a classic slice of pizza from a corner shop to eat while walking. This is a place that lives 24/7, where a different opportunity and a different story wait around every corner.
+
+**📝 Good to Know Before You Go:**
+- **Tipping Culture:** This is perhaps the most sensitive topic in New York. Here, tipping is not just an option; it’s almost a requirement. When you receive service in restaurants, taxis, or bars, you are expected to tip between 18% and 25%. You will see these options on the payment screens, so be prepared.
+- **Transportation and OMNY:** The New York subway has fully transitioned to a contactless system. Thanks to this system, called OMNY, you don't need to buy a metro card; you can just tap your credit card or phone (Apple/Google Pay) to go anywhere.
+- **Walking and The Grid:** New York (especially Manhattan) is built on a "grid" plan. Avenues and streets move by numbers, making it very easy to find your way. However, keep in mind that you will be walking a lot; the best way to enjoy New York is by stepping through those giant blocks.
+
+## 📅 Timing is Everything: Which Season is Yours?
+
+Every season in New York makes you feel like you are watching a completely different movie. While the city's energy never drops, the weather can entirely change your New York experience. Let’s take a look at which atmosphere you’d like to step into on this great stage.
+
+- **Spring (April - June):** This is the freshest and most pleasant time in the city. It’s when Central Park blooms and people wake up from their winter hibernation and head outdoors. The weather is neither too hot nor too cold; it’s one of the most ideal times to walk the High Line or cross the Brooklyn Bridge.
+- **Summer (July - August):** New York’s hottest and most humid period. You can feel the heat deep in your bones while walking among the skyscrapers. However, with outdoor concerts, rooftop bars, and movie nights in Bryant Park, the city is incredibly vibrant. Just be prepared for the famous sweltering heat in the subway.
+- **Autumn (September - November):** Perhaps the season that suits New York best. This is when Central Park is covered in those famous orange and yellow colors, and the romantic New York atmosphere from the movies spreads everywhere. The air is slightly crisp, but it’s hard to find a better time to explore the city on foot.
+- **Winter (December - March):** December is a fairytale time for New York. With the giant tree at Rockefeller Center, sparkling windows, and ice skating rinks, the city turns into a true winter wonderland. In January and February, you should be prepared for freezing cold and snow; however, it is the quietest time to visit museums and stay away from the crowds.
+
+## 🏠 Where to Stay: Neighborhood Guide
+
+New York is such a massive and multi-layered city that where you choose to stay will actually determine the "genre" of your own New York movie. Do you want to be right in the heart of that endless hustle between skyscrapers, or wake up like a local in the quieter streets lined with those famous brownstones?
+
+**A little tip for choosing your accommodation:** Stay close to a subway station. While Manhattan may be expensive, it is the most practical option for getting around. On the other hand, areas like Brooklyn or Queens can be both more accessible and offer a more local experience that makes you feel like a true New Yorker.
+
+- [Midtown (The Heart of the City)](search:Midtown (The Heart of the City): If you’re thinking, "I’m coming to New York for the first time and I want to be in the center of it all," Midtown is for you. Times Square, the Empire State Building, and Broadway theaters are just a step away. It’s always crowded, always noisy, but incredibly accessible.
+- [Upper West Side (Elegant and Peaceful)](search:Upper West Side (Elegant and Peaceful): Bordering Central Park, this is the area with those classic New York houses you see in movies. Preferred by families and locals, this neighborhood is safe and filled with very chic cafes. It’s a great option for being in the city while staying a step away from the chaos.
+- [Greenwich Village & West Village (Bohemian and Romantic)](search:Greenwich Village & West Village (Bohemian and Romantic): With its low-rise buildings, tree-lined streets, and boutique shops, this is New York’s most "photogenic" neighborhood. This is the heart of jazz clubs, small theaters, and gourmet coffee spots. If you want to feel like the lead character in a TV series, this should be your route.
+- **SoHo & Lower East Side (Fashion and Nightlife):** SoHo is a paradise for fashion followers and shopping enthusiasts. The Lower East Side is more energetic, a bit grittier, and home to the city’s best nightlife and brunch spots. It’s a favorite for those looking for a young and dynamic atmosphere.
+
+- [Williamsburg, Brooklyn (Modern and Cool)](search:Williamsburg, Brooklyn (Modern and Cool): Located right across from Manhattan along the river, this area has been the most popular spot in recent years. It’s full of stunning Manhattan views, creative restaurants, and art galleries. You can reach the island in just a few minutes by subway and relax in a "cooler" world in the evenings.
+
+## 🚲 Getting from A to B: Move Like a Local
+
+Getting around New York isn't just about going from one place to another; it's about occasionally running into a street musician or blending right into the heart of the city's famous chaos. The city never sleeps, but the transit network can surprise you from time to time. That’s why moving like a "local" and cracking the code of the system makes your life so much easier. From yellow cabs to the labyrinth-like subway, here is everything you need to know.
+
+- **First Step from the Airport:** If you land at JFK, the most logical and fastest way is taking the AirTrain to connect to the subway or the LIRR (Long Island Rail Road). From Newark (EWR), "NJ Transit" trains will take you directly to Penn Station in Midtown. For LaGuardia (LGA), a combination of taxis or buses is usually the way to go. Local Tip: If you don’t have too much luggage, the LIRR train is a much more comfortable and faster option compared to the subway.
+- **OMNY - "Tap & Go":** You no longer need to worry about getting those famous yellow "MetroCards." The OMNY system is now active on all subways and buses. You can simply tap your contactless credit card or the digital wallet on your phone (Apple/Google Pay) at the turnstile and walk right through. Thanks to the weekly fare cap, your rides automatically become free for the rest of the week after a certain number of trips.
+- **Subway - Local or Express?:** This is the most critical rule of the New York subway. Some trains stop at every station (Local), while others move quickly by stopping only at major hubs (Express). Check the letter/number and the "Local/Express" sign on the display before boarding; otherwise, you might suddenly find yourself 10 blocks past your intended destination.
+- **Yellow Cabs and Apps:** To hail those legendary yellow cabs straight out of the movies, just step to the curb and raise your hand. If the number light on top of the cab is lit, it’s empty. However, apps like Uber and Lyft are also very common today and can be more practical for seeing the price upfront.
+- **The Grid Plan and Walking:** Most of Manhattan is designed on a "grid" plan. Avenues run north-south, and Streets run east-west. Numbers increase as you go North. Once you figure this system out, it’s impossible to get lost. But remember, New York blocks are longer than they look; a comfortable pair of shoes will be your best friend.
+- **NYC Ferry - River Views:** If you want to turn your commute into a sightseeing trip, use the river boats (NYC Ferry). Traveling from Wall Street to Brooklyn or Astoria via the river is a fantastic way to watch the skyscrapers. The fare is slightly different from the subway, but the view is priceless.
+- **Citi Bike:** You’ll see blue bikes (Citi Bike) on almost every corner. They are great for cruising along the waterfront or around Central Park. Just download the app, grab a bike, and glide right past the traffic.
+
+**💡 Local Tips:**
+- **Beware of the Empty Subway Car:** If a train pulls into a crowded station and one car is completely empty, think twice before getting on. Usually, the AC is broken or there's an unpleasant smell. If the locals are choosing the crowded cars, there’s a reason for it!
+
+- **Escalator Etiquette:** The golden rule: Stand on the right, walk on the left. You don’t want to block the path of a New Yorker in a rush.
+- [Keep the Flow](search:Keep the Flow): Don’t stop at the top or bottom of stairs to check your phone; New York speed doesn't forgive. Step to the side without breaking the flow.
+
+## 🏛️ The City's Memory: Iconic Landmarks Must-See
+
+New York is more than just skyscrapers; this city is made up of the stories lived within those buildings and the moments that changed the fate of the world. Visiting these spots to truly feel the city will naturally tell you how New York became the "capital of the world." Although every corner feels like a scene from a movie, some places present the city's identity exactly as it is. Remember, planning ahead for some of the stops you visit can save both your wallet and your time.
+
+- **Statue of Liberty and Ellis Island:** A symbol of America and hope, this monument was the first sight millions of immigrants saw as they entered the city by ship. The Immigration Museum on Ellis Island bears witness to the stories of these people. Good to know: If you want to climb to the crown, you must book your tickets months in advance. If you just want to pass by and take photos, the Staten Island Ferry offers a wonderful sea journey.
+- **Empire State Building:** One of the most magnificent examples of Art Deco architecture, this building is practically the king of the New York skyline. From the terraces on the 86th and 102nd floors, you can watch the city in 360 degrees and lay that iconic Manhattan view right at your feet. It’s worth getting tickets in advance; especially sunset hours are the most crowded. For a calmer experience, late nights are a good alternative. As you look at the lights at the top of the building, you’ll notice they turn a different color every night. This isn’t a coincidence; the city reflects whatever it is celebrating or commemorating that day into the sky.
+- **9/11 Memorial & Museum:** Located on the former site of the Twin Towers, the massive memorial pools silently honor the thousands whose names are etched in bronze plaques. The museum right below tells the traces of the attack in detail through underground preserved remains and personal stories. Tickets are required for the visit. The "Survivor Tree" you’ll see by the pools is one of the most touching symbols, having managed to survive all the destruction and becoming a sign of resilience today.
+
+- **Central Park:** Spanning 800 massive acres right in the middle of the city's noise, this park is literally where New York breathes. You can examine the tiles on the ceiling of Bethesda Terrace, commemorate John Lennon at Strawberry Fields, or reenact those famous movie scenes on Bow Bridge. Renting a bike is the most pleasant and practical way to explore the entire park.
+
+- [Brooklyn Bridge](search:Brooklyn Bridge): When it opened in 1883, it was the longest suspension bridge in the world, and it remains an impressive engineering masterpiece with its neo-Gothic towers. But what makes this place special isn't just history; crossing the bridge on foot is a New York classic in its own right. As you move step by step from Manhattan toward Brooklyn, you leave the massive wall of skyscrapers behind and find yourself within riverside parks and postcard-perfect views in just a few minutes.
+- **Times Square:** When you step into this spot, known as the "Crossroads of the World," be ready for the city's pace to suddenly double. Giant screens that never dim for 24 hours, non-stop crowds, and the sound of horns... This is the most chaotic yet iconic face of New York's endless energy. If you want to experience a Broadway musical, you can find discounted last-minute tickets at the Broadway booths (TKTS) under the red stairs in the square. A small reminder: if you want to take photos with the costumed characters you see around, don't forget that they will expect a tip from you.
+- **Broadway Theatre District:** The heartbeat of New York, the "Great White Way." This area, where the world's best musicals and plays are staged, is not just a theater district; it’s an entire experience with its neon lights, historic theater buildings, and the excitement of actors at the stage doors. A small reminder: it’s almost essential to buy your tickets online months in advance for popular musicals.
+
+- [DUMBO & Brooklyn Bridge Park](search:DUMBO & Brooklyn Bridge Park): This former warehouse neighborhood under the feet of the Manhattan Bridge is today one of the city's most characterful corners with its cafes, design shops, and cobblestone streets. On Washington Street, you can take that famous photo where the Empire State Building is perfectly framed by the bridge, then take a long walk in the riverside park against the Manhattan skyline. The nostalgic Jane’s Carousel inside a glass pavilion is a sweet stop you must visit.
+- **Grand Central Terminal:** Beyond being the world's most platformed train station, this is an art center with the turquoise celestial map on its ceiling. You must try examining the four-faced opal clock in the main hall and heading to the diagonal corners of the "Whispering Gallery" to talk across from each other by whispering into the wall.
+
+- **The High Line:** Created by converting an old freight train line, this walking path is like a park suspended in the air, passing through and over buildings. This route, extending from Gansevoort Street to that giant "Vessel" structure in Hudson Yards, is the coolest example of urban transformation.
+- **The Met (Metropolitan Museum of Art):** One of the largest and most impressive museums in the world, gathering five thousand years of human history under one roof. Inside, you can see the original Temple of Dendur brought from Egypt and the great masters of European painting on the same day. The rooftop terrace is one of the best spots to catch your breath against the Central Park view. For this museum, which you can dedicate a full day to, there used to be a "pay-as-you-wish" system, but today a fixed ticket price applies for tourists.
+- [MoMA (Museum of Modern Art)](search:MoMA (Museum of Modern Art): This is exactly where the heart of modern art beats, from Van Gogh to Picasso. This museum houses some of the most important works of modern art, from Van Gogh's "The Starry Night" to Warhol's works. The museum's design store (MoMA Design Store) is just as pleasant as the collection; it’s a discovery stop you must see, featuring creative objects from all over the world. You need to get tickets in advance for entry, but sponsored "free Friday nights" (like Uniqlo Free Fridays) are held from time to time. It’s worth checking the website before you go.
+- [Rockefeller Center & Top of the Rock](search:Rockefeller Center & Top of the Rock): One of New York's most iconic postcards, especially with the giant Christmas tree and the ice rink in front of it during winter months. But this isn't just a seasonal stop; it's one of the city's liveliest meeting points year-round with its shops, studios, and square. The observation deck, Top of the Rock, has the best angle to see the Empire State Building directly and unobstructed. Especially at sunset, you can fit both Central Park and the Midtown skyline into the same frame. Good to know: you need to get tickets in advance to go up to the terrace; especially for sunset hours, making an online reservation will save you from long queues.
+- [Wall Street and Charging Bull](search:Wall Street and Charging Bull): This is the street where the financial heart of the world beats. You can see the imposing facade of the New York Stock Exchange (NYSE) building up close, then take a classic New York photo with the famous Charging Bull statue in Bowling Green Park. Rumor has it that touching the bull brings luck; that's why it's quite normal to see a small line in front of it, especially during the day.
+- **New York Public Library and Bryant Park:** Two iconic lion statues greet you at the entrance of the library: Patience and Fortitude. When you step inside and reach the Rose Reading Room, the massive windows and ceiling decorations will offer you a magnificent atmosphere within the silence. Bryant Park, right behind it, is one of the stops where you'll feel like it’s the city's "backyard," where locals relax and drink coffee.
+- [SUMMIT One Vanderbilt](search:SUMMIT One Vanderbilt): One of the city's newest and most popular observation decks; also an interactive art experience. While offering you a digital experience that makes you feel as if you are in a weightless environment with its mirrored rooms and floating silver balloons, it will provide a total visual feast. Considering that tickets are limited, buying online in advance for this unique experience will put you one step ahead.
+- [Flatiron Building](search:Flatiron Building): Completed in 1902, this iron-shaped building is one of the pioneers of skyscraper architecture and one of the city's most iconic structures with its triangular form. This spot, where Madison Square Park and Broadway intersect, will offer you one of New York's most characteristic perspectives. While it’s not possible to go inside, taking a photo in front of it and taking a short break in Madison Square Park is quite delightful.
+
+## 🍴 A Taste of the City: Fast, Bold, Delicious
+
+Getting hungry in New York is actually the start of one of the city's most enjoyable adventures. Here, food isn't just about filling your stomach; it’s about cultures from all over the world meeting on a single plate, or sometimes even just on a paper napkin. You can catch the real taste of New York everywhere, from Michelin-starred restaurants to street carts on every corner. The classic flavors that come to mind when you think of the city's cuisine perfectly summarize its character: fast, diverse, and always impressive.
+
+- **The Famous "New York Slice" (Pizza):** Pizza in New York is practically an art form eaten on the go. Folding that giant, thin-crust slice with oil dripping from the edges and eating it while walking down the street is a true New York ritual. You might see "99 cent" signs on every corner in Manhattan, but for a real classic, you should try spots like Joe’s Pizza.
+- **The Morning Essential - New York Bagel:** The legend that "New York water is different" originates from this bagel-like but soft-on-the-inside delicacy. By adding cream cheese and lox (smoked salmon), you can start your day exactly like a true New Yorker.
+
+- **A Living Legend - Pastrami Sandwich:** You can’t leave New York without eating a steaming pastrami sandwich piled high between slices of rye bread at Katz’s Delicatessen. Be prepared to wait in line, but the melt-in-your-mouth meat is more than worth it.
+- **The King of Street Food - Halal Carts:** That appetizing scent of spices you catch on New York streets usually comes from "The Halal Guys" or similar carts. Chicken over rice with that famous white sauce is the most filling and iconic lunch alternative amidst the NYC hustle.
+- **A Sweet Finale - New York Cheesecake:** There is cheesecake everywhere in the world, but the dense, creamy, and smooth texture of "New York Style" is something else entirely. You can taste the original version of this delicacy at classic stops like Junior’s.
+
+- **Hot Dog Carts:** A movie staple waiting for you on almost every corner... It might not be a "gourmet" treat, but having a hot dog in your hand while walking through Central Park is one of the key details that completes the New York atmosphere.
+
+- **The Modern Burger Legend (Shake Shack):** It all started with a small cart in Madison Square Park. Today, trying the famous "ShackBurger" at its source in Shake Shack—one of New York's most beloved burger spots—will be a true local experience.
+
+- [The Massive Cookie - Levain Bakery](search:The Massive Cookie - Levain Bakery): Meet New York’s most famous cookie. Weighing nearly half a pound, these giant cookies (especially the Chocolate Chip Walnut) are crispy on the outside and still gooey on the inside—definitely worth waiting in line at that small shop on the Upper West Side.
+- **Magnolia Bakery’s Banana Pudding:** While the cupcakes at this bakery made famous by Sex and the City are popular, the real star is the "Banana Pudding." If you're looking for a light, cloud-like dessert, you must take a break near Bryant Park and try this.
+
+- [Dumpling Joy in Chinatown](search:Dumpling Joy in Chinatown): The cheapest and tastiest way to experience New York’s multicultural vibe is Chinatown. You can enjoy dumplings at historic spots like Nom Wah Tea Parlor or at tiny hole-in-the-wall stands in the alleys.
+- **Classic American Steakhouse Experience:** If you want to splurge a bit and experience a real New York "dinner," you can try the massive steaks at historic spots like Peter Luger or Keens. In these restaurants, you'll feel like you’ve stepped into an old New York film.
+
+
+**💡 Local Tips:**
+- **Reservations are a Must:** If you want to go to a popular or chic restaurant, book your table weeks in advance via "Resy" or "OpenTable"; walking in and finding a seat in New York can sometimes be impossible.
+
+- **Don't Pay for Water:** The moment you sit down in a restaurant, iced water is placed in front of you. This is tap water, but NYC tap water is perfectly clean and drinkable. No need to strain your budget by ordering extra bottled water.
+- **Watch the Portions:** In America, even a "small" size can be larger than you expect. Remember that portions are generous when ordering—sharing is always a great idea.
+
+
+## 🤫 Whispers of the City: Local Secrets
+
+New York is New York not just because of its avenues and giant buildings, but also because of the tiny miracles hidden within this massive chaos. While most tourists follow the signs, if you stray off the path a bit and follow these "whispers," you'll start to see the city with completely different eyes. Because truly discovering New York is about stepping away from the crowd and catching those small but impressive details. Here are those hidden stops that will instantly take you out of the movie and into a local's secret garden:
+
+- **The Old City Hall Station (The Secret Station):** When you reach the Brooklyn Bridge/City Hall station—the last stop for the number 6 train—everyone will get off; but don’t. Stay seated and get comfortable. As the train performs its return maneuver, it passes through the famous, magnificent, and closed-off "City Hall" station dating back to 1904. Watching this hidden showcase of history with its chandeliers and elegant ceiling is a wonderful experience.
+- [A Waterfall Between Skyscrapers (Greenacre Park)](search:A Waterfall Between Skyscrapers (Greenacre Park): While walking through the chaotic buildings of Midtown, stop at 51st Street (between 2nd and 3rd Ave). Here, hidden in the heart of the concrete jungle, is a real 25-foot (7-meter) waterfall. Join the locals who grab their sandwiches and relax to the sound of the water at one of the city's most peaceful escape points.
+- **Elevated Acre (The Hidden Terrace):** In the Financial District, there is a massive lawn and terrace tucked away between skyscrapers. If you follow the escalators next to the building at 55 Water Street, you will reach this hidden garden away from tourists, with a stunning view of the Brooklyn Bridge.
+
+- [Pieces of the Berlin Wall](search:Pieces of the Berlin Wall): Want to touch the dusty pages of history in the middle of New York? In the courtyard of an ordinary office building (520 Madison Ave) on 52nd Street, there are five original panels of the Berlin Wall. Most New Yorkers walk past them every day without even noticing.
+- [The Campbell Apartment](search:The Campbell Apartment): Inside Grand Central Terminal, behind a secret door completely isolated from the crowds, find this bar that reflects the glamour of the 1920s. Once a financier's private office, this venue will instantly transport you into the world of The Great Gatsby.
+- **Roosevelt Island Tramway:** This is technically public transport, but it’s one of New York’s best-kept scenic secrets. Using your metro card (or OMNY), this cable car flies you over the river between Manhattan and Queens. Riding it at sunset will offer a priceless visual feast.
+- **A Quiet Corner (Morgan Library & Museum):** If you love libraries, this will be your sanctuary. J.P. Morgan’s private library, now a museum, is so enchanting with its rare book collection reaching to the ceiling that you'll feel like you're in the library from Disney's Beauty and the Beast.
+
+
+## ✅ The New York Checklist: Don't Leave Without Doing These
+
+- **Hail a Yellow Cab:** Step to the curb, raise your hand with confidence, and hail one of those famous yellow taxis just like in the movies.
+
+- **Fold and Eat a Slice of Pizza:** Grab a giant slice at a spot like Joe’s Pizza, fold it in half, and enjoy this New York classic while walking and soaking in the city.
+- **Walk Across the Brooklyn Bridge:** Walk from Brooklyn toward Manhattan, especially at sunset; watching the skyscraper lights flicker on one by one will offer you an unforgettable view.
+- **Get Lost in Central Park:** Don’t just stick to the main paths; head deep into the park, find a bench, and enjoy that incredible silence right in the middle of the city.
+
+- **Hear "Stand Clear of the Closing Doors":** Ride the NYC subway and explore the city's underground world accompanied by that iconic announcement at every departure.
+
+- **Watch a Musical on Broadway:** Don’t leave without seeing a breathtaking show at the pinnacle of performing arts—Broadway—and feeling the energy of those theater lights.
+
+- **Have a Bagel for Breakfast:** Grab a bagel with plenty of cream cheese and lox to start your day like a true New Yorker.
+- **Stand Under the Lights of Times Square:** Even though it’s crowded and noisy, stand in the middle of Times Square at midnight to see for yourself how those giant screens light up the city like it's broad daylight.
+- **Listen to Jazz in the Village:** As evening falls, head down those narrow stairs in Greenwich Village and feel the true soul of New York in the notes of jazz at a legendary club like Village Vanguard or Blue Note.
+- **Wave to Liberty on the Staten Island Ferry:** Hop on this ferry that passes right by the Statue of Liberty; say hello to the Lady in the most scenic and budget-friendly way while feeling the river breeze on your face.
+- **Snap a Photo at the "Friends" Apartment:** Head to that famous corner in the West Village (at the intersection of Bedford and Grove). The moment you see the exterior of that legendary building, "I'll Be There for You" will instantly start playing in your head.
+
+- **See the City from a Skyscraper:** Watch New York’s endless skyline from above at a spot like Top of the Rock or SUMMIT.
+
+- **Take a Sky-Walk on the High Line:** Witness how the city has transformed as you walk along this former elevated rail line that winds through and above the buildings.
+- **Grab a Coffee and Just Walk:** Walk through the Manhattan blocks with a cardboard cup of coffee in hand; you can only catch that famous New York tempo by hitting the pavement.
+- **Watch Chess in Washington Square Park:** Head to those famous chess tables in the corner of the park; witness the speed of the pros and let yourself be carried away by the street performers under the iconic arch.
+
+- **Try the "Whispering Gallery" at Grand Central:** Go to that famous arched corner in the terminal's lower level, have your friend stand at the opposite corner, and be amazed at how clearly your whispered words travel through the stone.
+
+- **Catch a Stand-Up Show:** New York is the capital of comedy. Crown your night with laughter at a club like Comedy Cellar, where you might just see a future legend on stage.
+
+''';
+
+  // BANGKOK
+  static const _bangkokTR = '''# Bangkok Rehberi: Kaotik ve Büyüleyici 🇹🇭
+
+Bangkok; altın varaklı tapınakların, tüten sokak yemeği tezgahlarının ve lüks gökdelenlerin birbirine geçtiği bir duyu patlamasıdır. Kaosu sevmeyi öğreneceğiniz bir şehir.
+
+## 📅 Ne Zaman Gidilir?
+- **Serin Mevsim (Kasım-Şubat):** Havanın en az nemli ve gezilebilir olduğu zaman. Akşamları hafif bir serinlik olabilir.
+- **Songkran (Nisan):** Tayland Yeni Yılı. Tüm şehrin dev bir su savaşına döndüğü, eğlencenin dorukta olduğu zaman.
+- **İpucu:** Yağmur sezonu (Mayıs-Ekim) ani ve şiddetli yağışlar getirir ancak oteller çok daha ucuzdur.
+
+## 🏘️ Konaklama Rehberi
+- **Sukhumvit:** Modern Bangkok. En iyi oteller, alışveriş merkezleri ve gece hayatı burada yoğunlaşır.
+
+- [Ari](search:Ari): Şehrin yükselen yıldızı. Daha sakin, hipster kafeler ve yerel bir atmosfer isteyenler için.
+- **Old City (Rattanakosin):** Tapınaklara ve büyük saraya yürüyerek ulaşmak isteyen tarih tutkunları için ideal.
+
+
+## 🍽️ Ne Yenir ve İçilir?
+- **Sokak Yemekleri:** Dünyanın en iyi sokak yemeği sahnesi. Pad Thai, Mango Sticky Rice ve Som Tum (papaya salatası) mutlaka denenmeli.
+- **Tapınak Saygısı:** Tapınaklara girerken omuzlar ve dizler kapalı olmalıdır. Ayakkabılarınızı kapıda bırakmayı unutmayın.
+- **Kraliyet Saygısı:** Tayland halkı için Kraliyet ailesi kutsaldır. Onlar hakkında olumsuz konuşmak yasaktır ve büyük saygısızlık kabul edilir.
+
+- **Pazarlık:** Gece pazarlarında ve tuk-tuklarda nazikçe pazarlık yapmak normaldir, ancak AVM'lerde ve marketlerde sabit fiyat geçerlidir.
+
+
+## 🚇 Ulaşım İpuçları
+- **BTS ve MRT:** Gök treni ve Metro. Trafikten kaçmanın en hızlı ve klimalı yolu.
+
+- **Nehir Tekneleri:** Chao Phraya nehrinde ulaşım hem ucuz hem de manzaralıdır.
+- **Tuk-tuk Deneyimi:** Turistik bir klişe olsa da en az bir kere deneyin. Binmeden önce mutlaka fiyat üzerinde anlaşın.
+
+
+## 💎 Lokal Sırlar & İpuçları
+- [Khlong Lat Mayom](search:Khlong Lat Mayom): Turistik yüzen pazarlar yerine yerlilerin gittiği bu pazarı tercih edin. Gerçek yemek deneyimi burada.
+- **Chatuchak Hafta Sonu Pazarı:** Devasa bir labirent. Aradığınız her şeyi (evet, her şeyi) burada bulabilirsiniz.
+- **Çatı Barları:** Sahra otellerin çatı barları yerine daha az bilinen terasları keşfedin; manzara aynı, fiyatlar daha makul.''';
+
+  static const _bangkokEN = '''# Bangkok Guide: Chaotic & Mesmerizing 🇹🇭
+
+Bangkok is a sensory explosion where gold-leafed temples, steaming street food stalls, and luxury skyscrapers intertwine. It’s a city where you’ll learn to love the chaos.
+
+## 📅 Best Time to Visit
+- **Cool Season (November-February):** When humidity is at its lowest and the weather is manageable. Evenings can be slightly cool.
+- **Songkran (April):** The Thai New Year. A time when the entire city turns into a giant water fight—pure, unadulterated fun.
+
+- **Tip:** The rainy season (May-October) brings sudden, heavy downpours but this is when hotels are at their cheapest.
+
+## 🏘️ Neighborhood Guide
+- **Sukhumvit:** Modern Bangkok. Home to the best hotels, malls, and the heart of the city's nightlife.
+
+- [Ari](search:Ari): The rising star. Ideal for those seeking a quieter, hipster vibe with local cafes and a relaxed atmosphere.
+- **Old City (Rattanakosin):** Perfect for history buffs who want to be within walking distance of the temples and the Grand Palace.
+
+
+## 🍜 Food & Dining Etiquette
+- **Street Food is King:** Bangkok has one of the world's best street food scenes. Pad Thai, Mango Sticky Rice, and Som Tum (papaya salad) are non-negotiable.
+- **Temple Respect:** When entering temples, shoulders and knees must be covered. Don’t forget to remove your shoes at the entrance.
+
+- **Royal Respect:** The Royal Family is highly revered in Thailand. Harmless jokes or criticism are not tolerated and can lead to legal issues.
+
+- **Bargaining:** It’s normal to politely bargain at night markets and with tuk-tuk drivers, but malls and convenience stores use fixed prices.
+
+## 🚇 Transportation Tips
+- **BTS & MRT:** The Skytrain and Underground Metro. The fastest and most air-conditioned way to bypass the legendary Bangkok traffic.
+
+- **River Boats:** Commuting on the Chao Phraya river is cheap, scenic, and surprisingly efficient.
+- **Tuk-tuk Experience:** A total tourist cliché, but you must try it at least once. Always agree on the price before you hop in.
+
+
+## 💎 Local Secrets & Insights
+- [Khlong Lat Mayom](search:Khlong Lat Mayom): Skip the overly touristy floating markets for this local favorite. The food here is authentic and much cheaper.
+- **Chatuchak Weekend Market:** A massive labyrinth. You can find everything (literally everything) here. Wear comfortable shoes.
+- **Rooftop Bars:** Instead of the mega-famous ones, look for smaller boutique rooftops for similar views without the dress codes and high prices.''';
+
+  // SINGAPUR
+  static const _singapurTR = '''# Singapur Rehberi: Geleceğin Bahçe Şehri 🇸🇬
+
+Singapur; kusursuz düzeni, devasa yapay ağaçları ve çok kültürlü mutfağıyla 21. yüzyılın en modern şehir devletidir. Doğanın ve teknolojinin mükemmel uyumu.
+
+## 📅 Ne Zaman Gidilir?
+- **Şubat-Nisan:** Yağışın en az olduğu dönem. Dışarıdaki aktiviteler için en uygun zaman.
+- **F1 Sezonu (Eylül):** Gece yarışı heyecanı tüm şehri sarar; sokaklar konserler ve etkinliklerle dolar.
+- **İpucu:** Singapur her zaman nemlidir. Gün içinde aniden bir yağmur başlayıp 15 dakika sonra güneş çıkabilir.
+
+## 🏘️ Konaklama Rehberi
+- [Marina Bay](search:Marina Bay): Şehrin ikonik silüeti. Lüks oteller ve görsel bir şölen isteyenler için.
+- [Tiong Bahru](search:Tiong Bahru): Art Deco binalar, niş kitapçılar ve en iyi fırınlar. Daha karakteristik bir bölge.
+- [Kampong Glam](search:Kampong Glam): Müslüman mahallesi; renkli sokaklar, Arap mimarisi ve çok havalı kafeler.
+
+## 🍽️ Ne Yenir ve İçilir?
+- **Hawker Centers:** Michelin yıldızlı tavuklu pilavdan (Hainanese Chicken Rice) en lezzetli Laksa'ya kadar her şeyi burada ucuza yiyebilirsiniz.
+
+- **"Chope" Kültürü:** Masanızda sahipsiz bir paket kağıt mendil görürseniz dokunmayın; birisi orayı rezerve etmiş demektir!
+
+- **Temizlik ve Yasaklar:** Sakız çiğnemek, yere çöp atmak ve kapalı alanlarda sigara içmek ciddi cezalara tabidir. Kurallara uymak burada bir yaşam tarzıdır.
+
+- **Bahşiş:** Genellikle fiyata %10 servis ücreti eklenir, ekstra bahşiş beklentisi yoktur.
+
+
+## 🚇 Ulaşım İpuçları
+- **MRT:** Dünyanın en temiz ve düzenli metrosu. Her yere ulaşır.
+
+- **EZ-Link:** Bu kartla hem tüm toplu taşımayı kullanabilir hem de bazı marketlerde ödeme yapabilirsiniz.
+
+- **Yürüyüş:** Şehir inanılmaz yeşildir ama yoğun nem nedeniyle uzun yürüyüşler yorucu olabilir; AVM'lerin klimaları arasında geçiş yapın!
+
+## 💎 Lokal Sırlar & İpuçları
+- [Henderson Waves](search:Henderson Waves): Gün batımında bu dalga şeklindeki köprüde yürüyün. Şehir manzarası ve doğa bir arada.
+- [Haji Lane](search:Haji Lane): Gece modası ve canlı müzik için bu dar ve renkli sokağa uğrayın.
+- **Havalimanı (Jewel Changi):** Sırf o dev şelaleyi görmek için bile havalimanına birkaç saat erken gidin.''';
+
+  static const _singapurEN = '''# Singapore Guide: The Garden City of the Future 🇸🇬
+
+Singapore is the most modern city-state of the 21st century, with its perfect order, massive artificial trees, and multicultural cuisine. A perfect harmony of nature and technology.
+
+## 📅 Best Time to Visit
+- **February-April:** The period with the least rainfall. The most suitable time for outdoor activities.
+
+- **F1 Season (September):** The excitement of the night race takes over the city; streets are filled with concerts and events.
+- **Tip:** Singapore is always humid. An sudden rain can start during the day and the sun can come out 15 minutes later.
+
+## 🏘️ Neighborhood Guide
+- [Marina Bay](search:Marina Bay): The iconic silhouette of the city. For those who want luxury hotels and a visual feast.
+- [Tiong Bahru](search:Tiong Bahru): Art Deco buildings, niche bookstores, and the best bakeries. A more characteristic area.
+- [Kampong Glam](search:Kampong Glam): The Malay district; colorful streets, Arab architecture, and very cool cafes.
+
+## 🍽️ Food & Dining Etiquette
+- **Hawker Centers:** You can eat everything from Michelin-starred chicken rice (Hainanese Chicken Rice) to the tastiest Laksa cheaply here.
+
+- **"Chope" Culture:** If you see an unattended pack of tissues on a table, don't touch it; it means someone has reserved that spot!
+
+- **Cleanliness and Prohibitions:** Chewing gum, littering, and smoking in closed areas are subject to serious fines. Following the rules is a way of life here.
+- **Tipping:** Usually, a 10% service charge is added to the price, there is no expectation of extra tipping.
+
+## 🚇 Transportation Tips
+- **MRT:** The cleanest and most organized metro in the world. It reaches everywhere.
+
+- **EZ-Link:** With this card, you can use all public transport and pay at some convenience stores.
+
+- **Walking:** The city is incredibly green, but long walks can be tiring due to the intense humidity; switch between the air-conditioners of the malls!
+
+## 💎 Local Secrets & Insights
+- [Henderson Waves](search:Henderson Waves): Walk on this wave-shaped bridge at sunset. City views and nature combined.
+- [Haji Lane](search:Haji Lane): Swing by this narrow and colorful street for nightlife fashion and live music.
+- **The Airport (Jewel Changi):** Go to the airport a few hours early just to see that massive indoor waterfall.''';
+
+  // SEUL
+  static const _seulTR = '''# Seul Rehberi: Gelenek ve K-Pop Arasında 🇰🇷
+
+Seul; 500 yıllık sarayların devasa dijital ekranlarla yan yana durduğu, günün 24 saati uyanık ve dinamik bir şehirdir. Geleceği bugün yaşayan bir başkent.
+
+## 📅 Ne Zaman Gidilir?
+- **Bahar (Nisan):** Kiraz çiçeklerinin açtığı ve festivallerin başladığı en güzel zaman.
+- **Sonbahar (Ekim-Kasım):** Akçaağaçların şehri turuncuya boyadığı, havanın taze olduğu dönem.
+- **İpucu:** Kış ayları (Aralık-Şubat) Sibirya soğuklarını aratmayacak kadar sert geçebilir, sıkı giyinin!
+
+## 🏘️ Konaklama Rehberi
+- [Hongdae](search:Hongdae): Üniversite enerjisi, sokak performansları ve bağımsız moda. Genç ve eğlenceli.
+- [Bukchon Hanok Village](search:Bukchon Hanok Village): Geleneksel Kore evleri arasında konaklamak isteyenler için tarihi bir deneyim.
+- [Seongsu-dong](search:Seongsu-dong): "Seul'ün Brooklyn'i". Eski fabrikaların sanatsal kafelere ve butiklere dönüştüğü en trend semt.
+
+## 🍽️ Ne Yenir ve İçilir?
+- **Korean BBQ:** Yemek burada sosyal bir olaydır. Masadaki ızgarada etinizi kendiniz pişirin ve sayısız "Banchan" (küçük yan yemekler) ile tadını çıkarın.
+
+- **İçecek Saygısı:** Birisi size içecek ikram ederken bardağınızı iki elinizle tutun. Bu, büyük bir saygı göstergesidir.
+- **Sokak Lezzetleri:** Myeongdong sokağı bir açık hava büfesi gibidir. Tteokbokki ve Kore usulü kızarmış tavuğu denemeden dönmeyin.
+- **Bahşiş Yok:** Güney Kore'de bahşiş beklentisi yoktur; nezaket ve "teşekkür ederim" demek yeterlidir.
+
+
+## 🚇 Ulaşım İpuçları
+- **T-Money:** Tüm ulaşım araçlarında ve marketlerde geçen hayat kurtarıcı kart.
+- **Subway:** Çok geniş ve dakik bir ağ. İngilizce tabelalar sayesinde kaybolmak zordur.
+
+- **Naver Maps / Kakao Maps:** Google Maps Kore'de çok iyi çalışmayabilir; bu yerel uygulamalar hayat kurtarır.
+
+
+## 💎 Lokal Sırlar & İpuçları
+- **Han Nehrinde Ramen:** Yerliler gibi yapın; nehir kenarındaki marketlerden otomatik makinede pişen hazır ramenlerden alın ve piknik yapın.
+
+- [Gece Pazarları](search:Dongdaemun Market): Dongdaemun pazarı sabaha karşı saat 4'e kadar canlıdır. Alışverişun saati yoktur!
+- **Sessiz Vagonlar:** Metroda sessizliğe dikkat edin; yüksek sesle konuşmak hoş karşılanmaz.''';
+
+
+  static const _seulEN = '''# Seoul Guide: Between Tradition & K-Pop 🇰🇷
+
+Seoul is a dynamic city where 500-year-old palaces stand alongside massive digital screens, staying awake and active 24 hours a day. A capital living in the future today.
+
+## 📅 Best Time to Visit
+- **Spring (April):** The most beautiful time when cherry blossoms bloom and festivals begin.
+- **Autumn (October-November):** When maple trees paint the city orange and the air is fresh and crisp.
+- **Tip:** Winter months (December-February) can be as harsh as Siberian cold; make sure to pack heavy layers!
+
+## 🏘️ Neighborhood Guide
+- [Hongdae](search:Hongdae): University energy, street performances, and indie fashion. Young and incredibly fun.
+- [Bukchon Hanok Village](search:Bukchon Hanok Village): A historical experience for those who want to stay among traditional Korean houses.
+- [Seongsu-dong](search:Seongsu-dong): "The Brooklyn of Seoul." The trendiest neighborhood where old factories have been turned into artistic cafes and boutiques.
+
+## 🍜 Food & Dining Etiquette
+- **Korean BBQ:** Dining here is a social event. Grill your meat at the table and enjoy it with countless "Banchan" (small side dishes).
+
+- **Drinking Respect:** When someone offers you a drink, hold your glass with both hands. This is a sign of immense respect.
+
+- **Street Food:** Myeongdong street is like an open-air buffet. Don't leave without trying Tteokbokki and Korean Fried Chicken.
+- **No Tipping:** There is no expectation of tipping in South Korea; politeness and a "Kamsahamnida" (Thank you) are enough.
+
+## 🚇 Transportation Tips
+- **T-Money:** A lifesaver card that works in all transport vehicles and convenience stores.
+- **Subway:** A very extensive and punctual network. It's hard to get lost thanks to the English signs.
+
+- **Naver Maps / Kakao Maps:** Google Maps might not work well in Korea; these local apps are essential for navigation.
+
+
+## 💎 Local Secrets & Insights
+- **Han River Ramen:** Do as the locals do; buy instant ramen from a convenience store by the river, cook it in the automatic machines, and have a picnic.
+
+- [Night Markets](search:Dongdaemun Market): Dongdaemun market is alive until 4 AM. There's no time limit for shopping in this city!
+- **Quiet Carriages:** Pay attention to the volume of your voice in the subway; loud conversations are frowned upon.''';
+
+
+
+
+  // LIZBON
+  static const _lizbonTR = '''# Lizbon: Işığın, Yokuşların ve Okyanus Rüzgarının Şehri
+
+Lizbon'a ayak bastığınızda sizi ilk karşılayan şey, binaların cephelerini süsleyen renkli azulejo (seramik) karolarına vuran o keskin ve parlak ışıktır. Burası, okyanusun kıyısında, dik yokuşların bittiği yerde sonsuz bir maviliğin açıldığı; her köşesinde hüzünlü ama gururlu bir Fado ezgisinin yankılandığı bir şehirdir. Ancak dikkat edin: Lizbon’un güzelliği kadar dik yokuşları da meşhurdur ve konforlu bir ayakkabı seçmek sadece bir öneri değil, gün boyu rahat etmeniz için kritik bir detaydır. Şehrin ritmini anlamak için önce o meşhur sarı tramvayların gürültüsüne ve taş sokakların (calcada) kayganlığına alışmanız gerekecek. 
+
+Lizbonluların acele etmeden, rüzgarın estiği yöne göre yaşayan sakin bir ruhu vardır. Bir pastaneden yükselen taze Pastel de Nata kokusunu takip etmek ya da Tejo Nehri’ne karşı bir kadeh Ginjinha (vişne likörü) yudumlayarak vakit geçirmek buranın günlük yaşamının en doğal parçalarından. Görkemli meydanlar ve okyanusa açılan kaşiflerin mirası şehrin kimliğini gururla taşırken, mahalle aralarındaki iplere asılmış çamaşırlar ve kapı önünde sohbet eden teyzeler size Lizbon'un gerçek ve samimi kültürünü anlatacak.
+
+## 📅 Takviminizi Ayarlayın: Hangi Mevsim Sizin?
+
+Lizbon’u ne zaman gezeceğinizi belirlerken asıl farkı yaratan şey güneşten çok, okyanustan gelen rüzgarı da hesaba katmak olacak. Mevsimler burada sadece sıcaklığı değil, bu yokuşlu şehri hangi tempoyla ve Lizbon'un hangi ışığında deneyimleyeceğinizi de belirler.
+
+- **Haziran (Sardalya ve Festival Zamanı):** Eğer Lizbon’un en enerjik, en gürültülü ve en renkli halini görmek istiyorsanız Haziran rakipsizdir. Santo António festivalleri boyunca (özellikle 12-13 Haziran gecesi) tüm Alfama ve Mouraria mahalleleri sokaklara dökülür; her köşe başında ızgara sardalyalar pişer, her yer kağıt fenerlerle süslenir. Bu dönem çok kalabalıktır ama Lizbon kültürünü iliklerinize kadar hissetmek için eşsizdir.
+- **İlkbahar ve Sonbahar (İdeal Denge):** Nisan-Mayıs ve Eylül-Ekim ayları Lizbon’un en "nazik" zamanlarıdır. Hava ne yokuş çıkmanıza engel olacak kadar sıcak, ne de rüzgardan korunmanızı gerektirecek kadar serttir. Şehrin tepelerindeki seyir teraslarında (Miradouros) gün batımını izlemek için en berrak gökyüzünü bu aylarda bulursunuz.
+- [Kışın Lizbon (Melankoli ve Fado)](search:Kışın Lizbon (Melankoli ve Fado): Kasım’dan Mart’a kadar şehir daha sakin ve puslu bir havaya bürünür. Yağmurlu günlerde o meşhur taş sokaklar (calcada) ayna gibi parlar ve Fado evlerinden yükselen hüzünlü sesler şehrin ruhuyla tam bir uyum sağlar. Ayrıca bu dönemde popüler mekanlarda sıra beklemezsiniz ve otel fiyatları çok daha makuldür.
+- **Temmuz ve Ağustos Uyarıları:** Bu aylarda Lizbon hem çok sıcak hem de inanılmaz kalabalık olur. Okyanus esintisi gündüzleri serinletse de dik yokuşları çıkmak yorucu olabilir. Eğer bu dönemde geliyorsanız, öğleden sonralarınızı şehirden 30 dakika uzaklıktaki Cascais veya Carcavelos plajlarına ayırmak tatlı bir kaçış planı olacaktır.
+
+## 🏠Nerede Kalmalı: Mahalle Rehberi
+
+Lizbon’da konaklayacağınız yeri seçerken yokuşlarla olan ilişkinizi dürüstçe değerlendirmeniz gerekir. Şehrin her mahallesi kendine has bir ruh barındırır:
+
+- **Baixa ve Rossio (Şehrin Kalbi):** 1755 depreminden sonra düz ayak inşa edilen bu bölge, Lizbon’un en merkezi ve ulaşımı en kolay noktasıdır. Eğer "ben yokuş çıkmak istemiyorum, her yere yürüyerek veya metroyla ulaşayım" derseniz burası sizin için idealdir. Ancak en turistik bölge olduğu için yerel dokudan ziyade otel zincirleri ve kalabalık caddelerle karşılaşırsınız.
+
+- [Alfama (Tarihin ve Fado](search:Alfama (Tarihin ve Fado'nun Evi)'nun Evi): Lizbon’un en eski mahallesidir ve gerçek Lizbon ruhu buradadır. Daracık sokaklar, balkonlardan sarkan çamaşırlar ve akşamları sokaklara taşan Fado sesleri arasında kalmak büyüleyicidir. Dikkat: Burası labirent gibidir; bavulunuzu Arnavut kaldırımlı dik yokuşlarda sürüklemek zorunda kalabilirsiniz. Eğer otantik bir deneyim arıyorsanız ve bacak kaslarınıza güveniyorsanız doğru yerdesiniz.
+- [Bairro Alto ve Chiado (Bohem ve Hareketli)](search:Bairro Alto ve Chiado (Bohem ve Hareketli): Chiado, şık kafeleri, kitapçıları ve butikleriyle şehrin entelektüel yüzüdür. Hemen üstündeki Bairro Alto ise geceleri tam bir eğlence merkezine dönüşür. Eğer akşam bir kadeh şarap içip hemen otelinize dönmek istiyorsanız bu bölge harikadır. Ancak Bairro Alto’nun merkezinde kalacaksanız, sokaklardaki kutlamaların sesinden dolayı gürültüyü göze almalısınız.
+- **Principe Real (Lokal ve Şık):** Lizbon’un en havalı ve yükselen mahallesidir. Tasarım dükkanları, harika parkları ve şehrin en iyi restoranlarından bazıları buradadır. Turist kalabalığından biraz daha uzakta, daha "lokal burjuva" bir hava solumak isterseniz burası mükemmel bir tercihtir. Şehir merkezine göre biraz daha tepede kalır ama manzarası ve huzuru buna değer.
+- [Avenida da Liberdade (Lüks ve Konfor)](search:Avenida da Liberdade (Lüks ve Konfor): Şehrin Şanzelize’si diyebiliriz. Geniş bulvarlar, lüks mağazalar ve üst segment oteller buradadır. Merkezden biraz daha yukarıda kalsa da metro hattıyla her yere bağlıdır. Daha modern ve konforlu bir konaklama arayanlar için en iyi seçenektir.
+
+## 🚲 A Noktasından B Noktasına: Bir Lokal Gibi Hareket Edin
+
+Lizbon’da gezmek çoğu zaman yer çekimine karşı tatlı bir meydan okumadır. Neyse ki bu yokuşlu şehirde, sokakları bir turist gibi değil de ritmini bilen bir lokal gibi keşfetmenizi kolaylaştıran ulaşım seçenekleri vardır.
+
+- **Viva Viagem Kartı:** İstediğiniz herhangi bir metro istasyonundaki makinelerden (hepsinde İngilizce dil seçeneği bulunur) alabileceğiniz bu yeşil kart, Lizbon’daki ulaşımınızın temel parçası olacak. İçine para yükleyip “Zapping” yöntemini kullandığınızda, tek yön metro yolculuğu yaklaşık 1.60–1.70 € seviyesine düşer.  Aynı zamanda bu kart sadece metroda değil; tramvay ve otobüslerde, hatta Lizbon çevresindeki banliyö trenlerinde de geçerlidir.
+- **Havalimanından Şehre İlk Adım:** Lizbon Havalimanı (LIS) şehre o kadar yakın ki, ulaşım hiç dert değil. En ekonomik yol Kırmızı Metro Hattı (Linha Vermelha); yaklaşık 20-25 dakikada kendinizi merkezde bulursunuz. Metroya binmek için istasyondaki makinelerden 0.50 €'ya bir "Viva Viagem" kartı alıp içine bakiye yüklemeniz yeterli. Eğer elinizde ağır bavullar varsa veya oteliniz o dik yokuşların en tepesindeyse, Uber veya Bolt çağırmak mantıklı olabilir; üstelik burada fiyatlar diğer Avrupa başkentlerine göre oldukça makul.
+- **Sarı Tramvaylar (Elétricos):** 28 numaralı sarı tramvay Lizbon’un kartpostalıdır. Alfama’nın o daracık sokaklarından geçerken binalara neredeyse dokunacak gibi olursunuz. Küçük bir tüyo: 28 numara her zaman tıklım tıklım olur ve kalabalığı seven yankesicilerin de uğrak yeridir. Eğer aynı nostaljiyi daha az kalabalıkla yaşamak isterseniz 12 veya 24 numaralı hatları da tercih edebilirsiniz. Tramvayda şoförden bilet alabilirsiniz; ancak bunun için yaklaşık 3 € nakit ödeme yapmanız gerekir. Bu yüzden önceden kartınıza yükleme yapmak her zaman daha karlıdır.
+- **Asansörler ve Fünikülerler:** Lizbon, dik yokuşlarıyla ünlü bir şehir olduğu için buradaki asansörler (Elevador) sadece manzara için değil, nefes nefese kalmamak için de var. En meşhuru, o demir kule şeklindeki Santa Justa Asansörü’dür; ancak önündeki bitmek bilmeyen kuyruklar zaman zaman can sıkıcı olabilir. Bunun yerine Elevador da Glória veya Elevador da Bica gibi nostaljik fünikülerleri kullanarak tepeleri çok daha zahmetsizce tırmanabilirsiniz.
+
+- **Yürümek (En Sahici Deneyim):** Lizbon’un ruhunu en iyi, o meşhur kaygan taş sokaklarda (calcada) yürüyerek anlarsınız. Ayaklarınızın altında şehri hissetmek bazen yorucu olsa da, her sokağın sonunda karşınıza çıkacak olan o büyüleyici okyanus manzarası (Miradouro) size "iyi ki yürümüşüm" dedirtecek.
+
+## 🏛️ Şehrin Hafızası: Görülmesi Gereken İkonik Duraklar
+
+Lizbon’un her sokağı aslında birer kartpostal gibi ama bazı yerler var ki, oraları görmeden dönerseniz şehrin hikayesi biraz eksik kalır. Buraları kalabalıklara boğulmadan, gerçek bir Lizbonlu gibi gezmek için şu noktalara göz atabilirsiniz:
+
+- **Belém Bölgesi (Kule ve Manastır):** Şehir merkezinden tramvayla gidilen bu bölge, Portekiz’in okyanuslara hükmettiği devirlerin mirası. Jerónimos Manastırı’nın o dantel gibi işlenmiş taş işçiliği gerçekten büyüleyici. Lokal bir tüyo: Manastırın önündeki o bitmek bilmeyen kuyrukta vakit kaybetmemek için biletinizi önceden mutlaka online alın. Hemen yanındaki tarihi fırında (Pastéis de Belém) turtanızı yerken de kapıdaki kalabalığa aldanmayın; içeri girip bir masa bulursanız hem daha hızlı servis alırsınız hem de dükkanın o labirent gibi birbirine bağlanan çinili odalarını keşfedebilirsiniz.
+
+- **São Jorge Kalesi:** Alfama’nın en tepesinde, şehre hakim bir noktada duran bu kale Lizbon’un en panoramik manzarasını sunar. Kalenin surları arasında yürürken Tejo Nehri’ni 360 derece izlemek paha biçilemez. Kalabalık çekildikten sonra, gün batımına yakın gelmek hem o yumuşak ışığı yakalamak hem de kalenin içindeki tavus kuşlarıyla sakin bir an paylaşmak için en güzel zaman
+
+- **Miradouro de Santa Luzia ve Portas do Sol:** Burası Lizbon’un "en güzel yüzü" denebilir. Begonvillerle süslü o meşhur mavi seramikli teras (Santa Luzia), Alfama’nın kırmızı damlı evlerini izlemek için en ikonik noktadır. Bir iki sokak ötesindeki Portas do Sol ise nehir manzarasını en geniş açıdan önünüze serer; buradaki kafelerde soluklanmak biraz turistik olsa da manzara her şeye değer.
+
+- [Miradouro da Senhora do Monte](search:Miradouro da Senhora do Monte): Şehrin en yüksek seyir terası burası. Diğer teraslara göre biraz daha dik bir yokuş tırmandırır ama yukarı çıktığınızda karşınıza çıkan o gerçek "lokal" hava buna değer. Genelde gençler ellerinde bir kadeh şarap veya biralarıyla duvarların üzerine oturup canlı müzik eşliğinde günü burada batırır; Lizbon’un o meşhur "sosyalleşme terası" kültürü tam olarak burada saklıdır.
+- [Carmo Rahibe Manastırı (Convento do Carmo)](search:Carmo Rahibe Manastırı (Convento do Carmo): 1755’teki o büyük depremin izlerini en yalın haliyle görebileceğiniz yer burası. Çatısı çökmüş ama sütunları hala dimdik gökyüzüne uzanan bu gotik yapı, tavanı gökyüzü olan mistik bir anıt gibi. Chiado’nun o hareketli alışveriş caddelerinden bir sokak içeri sapıp bir anda bu kadar sessiz ve sarsıcı bir tarihle karşılaşmak Lizbon'un en büyük sürprizlerinden biridir.
+- [Alfama Sokakları](search:Alfama Sokakları): Bir "nokta" değil, bir deneyim. Haritayı bir kenara bırakıp çamaşırların asılı olduğu, kapı önlerinde yaşlı teyzelerin taburelerde oturup sohbet ettiği o daracık labirentlere dalın. Akşamüstü Fado seslerinin arasından geçerken mahalle barlarından yükselen o meşhur sardalya kokusu size Lizbon’un asıl kalbinin burada attığını hissettirecek.
+- [LX Factory](search:LX Factory): Klasik Lizbon’dan biraz uzaklaşıp şehrin modern ve bohem yüzünü görmek isterseniz rotayı Alcântara bölgesindeki bu eski fabrikaya çevirin. Sanat galerilerine, butiklere ve havalı kafelere dönüştürüldüğü bu kompleksin kendine has bir enerjisi var. Özellikle devasa kitapçısı Ler Devagar, tavandan sarkan bisikletleri ve eski matbaa makineleriyle dünyanın en ilham verici kütüphanelerinden biridir.
+
+## 🍴Şehrin Lezzet Haritası: Denizden Gelenler, Fırından Çıkanlar
+
+Lizbon mutfağı denince akla gelen ilk şey sadelik ve tazeliktir. Pahalı restoranlardan ziyade, mahalle aralarındaki aile işletmelerinde (tascas) en unutulmaz tatları bulabilirsiniz.
+
+- **Pastel de Nata:** Şehrin tartışmasız en meşhur lezzeti bu dışı çıtır, içi kremsi turta. Belém'deki tarihi fırın işin başlangıç noktası olsa da, şehir merkezindeki Manteigaria'da üzerine tarçın serperek yiyeceğiniz sıcak bir turta sizi Lizbon'a aşık edebilir. Lokaller genelde bunu bir "Bica" (sert bir espresso) ile günün her saatinde tüketir.
+
+- **Bacalhau (Morina Balığı):** Portekizlilerin morina balığı için "yılın her günü için ayrı bir tarifimiz var" demesi boşuna değil. Bacalhau à Brás (parçalanmış balık, patates ve yumurta karışımı) en sevilen versiyonlardan biridir. Balığın o hafif tuzlu tadı Lizbon'un okyanus kokusuyla tam bir uyum içindedir.
+
+- **Sardalya (Sardinhas Assadas):** Özellikle Haziran ayındaki festivallerde geliyorsanız, her sokak başından yükselen o dumanlı sardalya kokusuna hazır olun. Taze mısır ekmeğinin (broa) üzerine konan ızgara sardalya, Lizbon'un en sahici ve en demokratik yemeğidir; herkes sokakta, ayakta ve neşeyle yer.
+
+- [Bifana](search:Bifana): Hızlı, ucuz ve inanılmaz lezzetli bir öğle yemeği arıyorsanız adresiniz Bifana olmalı. Sarımsak ve şarapla marine edilmiş ince domuz dilimlerinin yumuşak bir ekmek arasında sunulduğu bu sandviç, Lizbon usulü "fast-food"un zirvesidir. Yanına bir de soğuk Portekiz birası (Sagres veya Super Bock) eklerseniz keyfiniz tamamlanır.
+- [Ginjinha](search:Ginjinha): Rossio meydanı civarındaki küçücük büfelerin önünde insanların ne içtiğini merak edeceksiniz. Bu, içinde vişne taneleri olan geleneksel bir vişne likörüdür. "Com elas" (taneli) veya "Sem elas" (tanesiz) diyerek küçük bir kadehte, gün ortasında bile ayaküstü içmek tam bir Lizbon klasiğidir. Bazı yerlerde bunu çikolatadan kadehlerde sunarlar, o da ayrı bir keyif.
+- **Deniz Mahsulleri:** Lizbon'da taze karidesten ahtapota kadar her şey çok lezzetlidir. Arroz de Marisco (bol malzemeli deniz mahsullü pilav), okyanusun tüm bereketini masanıza getirir. Cervejaria Ramiro gibi ikonik yerler çok popüler olsa da, ara sokaklardaki herhangi bir balıkçıda da hayal kırıklığına uğramazsınız.
+
+
+## 🤫 Şehrin Fısıldadıkları: Lokal Sırlar
+
+Lizbon, paylaştıkça güzelleşen ama bazı sırlarını da sadece meraklı gezginlere saklayan bir şehirdir. Bu ipuçları, turist kalabalığının arasından sıyrılıp gerçek Lizbon’u hissetmenizi sağlayacak:
+
+- **Ayakkabı Seçimi ve "Calcada" Gerçeği:** Lizbon’un o meşhur taş sokakları (calcada) sadece dik değil, aynı zamanda buz gibi kaygandır; özellikle güneşli günlerde bile parlatılmış taşlar gibi kayabilirler! Bu yüzden şıklığı bir kenara bırakıp, tabanı iyi tutan bir spor ayakkabı seçmek bu şehirde yapacağınız en akıllıca yatırım olacak.
+
+- **Ücretsiz Teras Keyfi (Pollux):** Santa Justa Asansörü’ne çıkmak için saatlerce beklemek ve ücret ödemek yerine, hemen yan sokaktaki Pollux adlı ev eşyaları mağazasına girin. Asansörle en üst kata çıktığınızda, Santa Justa ile neredeyse aynı hizaya gelen ve çok daha sakin olan harika bir teras kafe bulacaksınız.
+- **Restoranlardaki "Aperatif" Tuzağı:** Bir restorana oturduğunuzda masaya hemen peynir, zeytin ve ekmek gibi iştah açıcılar gelir. Bunlar ikram değildir; yediğiniz kadarını hesabınıza eklerler. Eğer istemiyorsanız dokunmamanız veya kibarca geri göndermeniz yeterli, bu çok normal bir davranıştır.
+- [Fado](search:Fado'nun En Saf Hali (Tasca do Chico)'nun En Saf Hali (Tasca do Chico): Büyük ve pahalı Fado restoranları yerine Bairro Alto’daki Tasca do Chico gibi daha küçük ve salaş mekanları tercih edin. Burada profesyonel sahnelerden ziyade, lokallerin bir anda ayağa kalkıp içtenlikle söylediği "Fado Vadio" (amatör fado) gecelerine denk gelebilirsiniz.
+- [Antika Pazarı (Feira da Ladra)](search:Antika Pazarı (Feira da Ladra): Salı ve Cumartesi günleri kurulan bu antikacı pazarında sadece eski eşyalar değil, Lizbon’un yaşanmışlıklarını da bulursunuz. Alfama’nın kıyısındaki bu pazarda el yapımı seramiklerden eski plaklara kadar harika hatıralar yakalayabilirsiniz.
+- [Panoramik Bir Mola (Ler Devagar)](search:Panoramik Bir Mola (Ler Devagar): LX Factory içindeki bu devasa kitapçının üst katına mutlaka çıkın. Eski matbaa makinelerinin arasında yürürken, sadece kitap kokusunu değil, Lizbon'un endüstriyel geçmişinin nasıl sanatla birleştiğini göreceksiniz.
+- **Gezici Kütüphane ve Gizli Bahçe:** Principe Real mahallesindeki dev asırlık sedir ağacının altındaki banklarda soluklanın. Burası şehrin en huzurlu duraklarından biridir. Eğer şanslıysanız, parkın kenarında duran o meşhur gezici kütüphane kamyonetine denk gelip yerel halkın kitap tutkusuna şahitlik edebilirsiniz.
+
+- [Saklı Kalmış Bir Mola (Casa do Alentejo)](search:Saklı Kalmış Bir Mola (Casa do Alentejo): Dışarıdan sıradan bir bina gibi görünen bu mekanın kapısından içeri girdiğinizde kendinizi Fas tarzı muazzam bir avluda bulacaksınız. Eskiden bir kumarhane ve okul olan bu gizli saray, bugün Alentejo bölgesinin kültür merkezi ve restoranı olarak hizmet veriyor; sadece avlusunu görmek için bile içeri girmeye değer.
+- **En Ucuz ve En Güzel Manzaralı Ulaşım:** 28 numaralı tramvayın kalabalığına girmek istemiyorsanız, Martim Moniz’den kalkan 737 numaralı küçük belediye otobüsüne binin. Sizi kaleye kadar daracık sokaklardan çıkarır ve standart bilet fiyatına muazzam bir şehir turu yaptırır.
+
+## ✅ Mutlaka Yapmadan Dönme: Lizbon Checklist
+
+- **Miradouro da Graça’da Bir Kadeh Şarap:** Gün batımında oradaki kiosk'tan (quiosque) bir kadeh Portekiz şarabı alıp, şehrin üzerine düşen o turuncu ışığı sessizce izleyin.
+- **Sarı Tramvayın Melodisini Dinlemek:** 28 numaralı tramvayın raylardan gelen o kendine has gıcırtısını ve çan sesini Alfama’nın ara sokaklarında yankılanırken duyun.
+- **Mavi Seramik (Azulejo) Avı:** Avı): Herhangi bir mahallede sadece binaların cephelerine odaklanarak yürüyün; en sevdiğiniz seramik desenini bulup fotoğrafını çekin.
+
+- **"Uma Bica, Por Favor":** Tezgah başında bir lokal gibi dikilip "Bica" (espresso) sipariş edin ve yanında gelen o minik tarçın kokusunu içinize çekin.
+
+- **Tejo Nehri Kıyısında "Cais do Ginjal"e Geçiş:** Cais do Sodré’den karşı kıyıya (Cacilhas) giden feribota binin; nehrin ortasından Lizbon siluetini izlemek paha biçilemez.
+
+- [Fado](search:Fado’nun Titreşimini Hissetmek)’nun Titreşimini Hissetmek: Alfama’da akşam yürürken, kapısı açık bir meyhaneden sokağa taşan o hüzünlü sesi bir anlığına durup dinleyin.
+- **Pazar Sabahı Huzuru:** Eğer Pazar oradaysanız, Jardim da Estrela gibi bir parkta yerel halkın gazetesini okuyup kahvesini içtiği o sakin tempoya ortak olun.
+
+- **Calcada Üzerinde Parmak Uçlarınızla Yürümek:** O meşhur kaygan beyaz-siyah taşların dokusunu, neden "Lizbon kaldırımı" dendiğini hissederek adımlayın.
+- **Yokuşları Bir Fünikülerle Aşmak:** Sadece bir ulaşım aracı olarak değil, yüz yıllık bir mekanizmanın içine binip o dik yokuşu yerçekimine meydan okuyarak çıkmanın tadını çıkarın.
+
+- **Lokal Tasca’da Günün Menüsü:** Hiçbir turistin olmadığı, kağıt örtülü bir mahalle meyhanesine girip o günün "Prato do Dia" (Günün Yemeği) neyse onu deneyin.
+- **Çamaşır İplerinin Altından Geçmek:** Alfama veya Mouraria’da balkonlardan sarkan çamaşırların kokusunu duyarak o dar labirentlerde kaybolun.
+
+- **Tejo Nehri’ne Ayaklarını Uzatmak:** Ribeira das Naus’un o basamaklı kıyısında oturup ayaklarınızı nehre doğru uzatırken okyanustan gelen rüzgarı hissedin.
+
+- **Modern Lizbon’un Renkleri:** LX Factory’deki dev grafitileri ve duvar sanatlarını inceleyerek şehrin yaratıcı enerjisini depolayın.
+
+- **Ginjinha’nın Vişne Tanesini Yemek:** Likörünüzü bitirdikten sonra kadehin dibindeki o alkole bulanmış vişne tanesini yemeyi unutmayın, gerçek ritüel budur!
+- **Bir "Miradouro"da Hiçbir Şey Yapmamak:** En az 15 dakikanızı sadece oturup, önünüzdeki manzaraya ve uçuşan martılara bakarak hiçbir şey yapmadan geçirin.
+
+''';
+
+  static const _lizbonEN = '''# Lisbon: A Tale of Light, Hills, and Atlantic Breezes
+
+What strikes you first about Lisbon is that sharp, brilliant light hitting the colorful azulejo (ceramic) tiles decorating the buildings. This is a city on the edge of the ocean, where endless blue opens up at the end of steep hills, and where the echoes of a mournful yet proud Fado melody resonate around every corner. But be careful: Lisbon's steep hills are as famous as its beauty, and choosing comfortable shoes isn't just a suggestion—it's a critical detail for your comfort throughout the day. To understand the rhythm of the city, you’ll first need to get used to the rattle of those iconic yellow trams and the slipperiness of the stone streets (calcada).
+
+Lisbonites have a calm spirit, living at their own pace and following the direction of the wind. Following the scent of fresh Pastel de Nata wafting from a bakery or spending time sipping a glass of Ginjinha (sour cherry liqueur) by the Tagus River is the most natural part of daily life here. While the magnificent squares and the legacy of explorers opening up to the ocean carry the city's identity with pride, the laundry hanging from ropes in the alleys and the elderly ladies chatting in front of their doors will tell you the story of Lisbon's true and sincere culture.
+
+## 📅 Timing is Everything: Which Season is Yours?
+
+When deciding when to visit Lisbon, what really makes the difference is accounting for the Atlantic breeze even more than the sun. Seasons here determine not just the temperature, but the pace at which you’ll navigate these hills and which specific "Lisbon light" you’ll experience.
+
+- **June (Sardines and Festival Season):** If you want to see Lisbon at its most energetic, loudest, and most colorful, June is unrivaled. During the Santo António festivals (especially the night of June 12-13), the entire Alfama and Mouraria neighborhoods pour into the streets; grilled sardines sizzle on every corner, and everywhere is decorated with paper lanterns. It’s very crowded, but it's an unparalleled way to feel Lisbon's culture to its core.
+- **Spring and Autumn (The Ideal Balance):** April-May and September-October are Lisbon’s "gentlest" times. The weather is neither too hot to climb the hills nor too harsh to require heavy protection from the wind. You’ll find the clearest skies for watching the sunset from the city’s hilltop viewpoints (Miradouros) during these months.
+- **Lisbon in Winter (Melancholy and Fado):** From November to March, the city takes on a calmer, mistier atmosphere. On rainy days, those famous stone streets (calcada) shine like mirrors, and the mournful voices rising from Fado houses blend perfectly with the city’s soul. Plus, you won't face long queues at popular spots, and hotel prices are much more reasonable.
+- **July and August Warnings:** During these months, Lisbon is both very hot and incredibly crowded. While the ocean breeze cools things down during the day, climbing the steep hills can be exhausting. If you visit during this period, dedicating your afternoons to the beaches of Cascais or Carcavelos—just 30 minutes from the city—will be a sweet escape plan.
+
+## 🏠 Where to Stay: Neighborhood Guide
+
+When choosing where to stay in Lisbon, you need to honestly evaluate your relationship with hills. Each neighborhood offers a distinct spirit, altitude, and soundscape:
+
+- [Baixa and Rossio (The Heart of the City)](search:Baixa and Rossio (The Heart of the City): Built on flat ground after the 1755 earthquake, this is the most central and accessible point in Lisbon. If you prefer to avoid climbing hills and want everything within walking distance or easy metro access, this is ideal for you. However, as it is the most tourist-heavy area, you’ll encounter more hotel chains and crowded avenues than local texture.
+**-Alfama (The Home of History and Fado):** This is Lisbon’s oldest neighborhood, and it is where the true soul of the city resides. Staying among narrow alleys, laundry hanging from balconies, and Fado music spilling into the streets at night is magical. Warning: It’s a labyrinth; you might have to drag your suitcase up steep, cobblestone hills. If you are looking for an authentic experience and trust your leg muscles, this is the place.
+- [Bairro Alto and Chiado (Bohemian and Vibrant)](search:Bairro Alto and Chiado (Bohemian and Vibrant): Chiado is the city’s intellectual face, filled with elegant cafes, bookstores, and boutiques. Just above it, Bairro Alto transforms into an entertainment hub at night. If you want to grab a glass of wine and be back at your hotel in minutes, this area is great. However, if you stay in the heart of Bairro Alto, be prepared for the noise from the street celebrations.
+- **Príncipe Real (Local and Chic):** This is Lisbon’s coolest and trendiest rising neighborhood. You’ll find design shops, beautiful parks, and some of the city's best restaurants here. If you want to breathe in a more "local-chic" atmosphere away from the tourist swarms, this is a perfect choice. It sits a bit higher than the city center, but the views and the tranquility are worth it.
+- [Avenida da Liberdade (Luxury and Comfort)](search:Avenida da Liberdade (Luxury and Comfort): Think of this as the city’s Champs-Élysées. Wide boulevards, luxury brands, and high-end hotels are located here. While it sits slightly further up from the historic core, it is perfectly connected by the metro line. This is the best option for those seeking a more modern and comfortable stay.
+
+## 🚲 Getting from A to B: Move Like a Local
+
+Getting around Lisbon is often a sweet challenge against gravity. Fortunately, in this hilly city, there are transport options that make it easy to explore the streets not as a tourist, but as a local who knows the rhythm.
+
+- **Viva Viagem Card:** This green card, which you can get from machines at any metro station (all have English language options), will be the cornerstone of your transportation in Lisbon. When you load money and use the “Zapping” method, a single metro journey drops to around €1.60–€1.70. This card is valid not only on the metro but also on trams, buses, and even the suburban trains around Lisbon.
+- **First Steps from the Airport:** Lisbon Airport (LIS) is so close to the city that transportation is never a hassle. The most economical way is the Red Metro Line (Linha Vermelha); you’ll find yourself in the center in about 20-25 minutes. To board the metro, simply buy a "Viva Viagem" card for €0.50 from the machines at the station and load a balance. If you have heavy luggage or your hotel is at the very top of those steep hills, calling an Uber or Bolt might be a smart move; plus, the prices here are quite reasonable compared to other European capitals.
+- **Yellow Trams (Elétricos):** The yellow tram number 28 is the postcard of Lisbon. As it passes through the narrow streets of Alfama, you feel like you could almost touch the buildings. A little tip: Number 28 is always packed and is a popular spot for pickpockets who love crowds. If you want to experience the same nostalgia with fewer people, you can also opt for lines 12 or 24. You can buy a ticket from the driver on the tram, but you’ll need to pay about €3 in cash for this. Therefore, it is always more profitable to top up your card in advance.
+- **Lifts and Funiculars:** Since Lisbon is famous for its steep slopes, the lifts (Elevador) here exist not just for the view, but also to save you from getting out of breath. The most famous is the iron tower-shaped Santa Justa Lift; however, the never-ending queues can be frustrating at times. Instead, you can climb the hills much more effortlessly by using nostalgic funiculars like Elevador da Glória or Elevador da Bica.
+
+- **Walking (The Most Authentic Experience):** You understand the soul of Lisbon best by walking on those famous slippery stone streets (calcada). Although feeling the city under your feet can be tiring at times, the breathtaking ocean view (Miradouro) that greets you at the end of every street will make you say, "I'm glad I walked."
+
+## 🏛️ The City's Memory: Iconic Landmarks Must-See
+
+Every street in Lisbon feels like a postcard, but there are certain places where the city’s story would feel incomplete without them. To explore these spots like a true local and avoid being overwhelmed by crowds, keep these points in mind:
+
+- **Belém District (Tower and Monastery):** Accessible by tram from the city center, this area is a legacy of the era when Portugal ruled the oceans. The lace-like stonework of the Jerónimos Monastery is truly breathtaking. A local tip: To avoid wasting time in the never-ending queue in front of the monastery, be sure to buy your tickets online in advance. When visiting the historic bakery nearby (Pastéis de Belém) for your custard tart, don’t be fooled by the crowd at the door; if you head inside and find a table, you’ll get faster service and a chance to explore the shop’s maze-like, tile-covered rooms.
+
+- **São Jorge Castle:** Standing at the highest point of Alfama, this castle offers the most panoramic view of Lisbon. Walking along the castle walls while overlooking the Tagus River in 360 degrees is priceless. Arriving near sunset, once the crowds have thinned, is the best time to catch that soft light and share a quiet moment with the peacocks roaming inside the castle grounds.
+
+- **Miradouro de Santa Luzia and Portas do Sol:** This could be called the "prettiest face" of Lisbon. Decorated with bougainvillea, the famous blue-tiled terrace (Santa Luzia) is the most iconic spot to watch the red-tiled roofs of Alfama. Just a couple of streets away, Portas do Sol offers the widest view of the river; while resting at the cafes here is a bit touristy, the view makes it all worth it.
+
+- [Miradouro da Senhora do Monte](search:Miradouro da Senhora do Monte): This is the highest viewpoint in the city. It requires a slightly steeper climb than others, but the authentic "local" atmosphere at the top makes it worthwhile. You’ll usually find young people sitting on the walls with a glass of wine or beer, watching the sun go down to the sound of live music; Lisbon's famous "social terrace" culture is hidden right here.
+- [Carmo Convent (Convento do Carmo)](search:Carmo Convent (Convento do Carmo): This is where you can see the traces of the great earthquake of 1755 in their rawest form. With its roof collapsed but its gothic columns still stretching straight toward the sky, it stands as a mystical monument with the heavens as its ceiling. Stepping off the busy shopping streets of Chiado and suddenly encountering such silent and jarring history is one of Lisbon’s greatest surprises.
+- [The Streets of Alfama](search:The Streets of Alfama): This isn't just a "spot"—it's an experience. Set aside your map and dive into the narrow labyrinths where laundry hangs across the alleys and elderly ladies sit on stools chatting in front of their doors. Passing through to the sound of Fado in the late afternoon, the smell of grilled sardines rising from the neighborhood bars will make you feel that the true heart of Lisbon beats right here.
+- [LX Factory](search:LX Factory): If you want to step away from classic Lisbon and see the city’s modern, bohemian side, head to this former industrial factory in the Alcântara district. This complex, transformed into art galleries, boutiques, and cool cafes, has a unique energy. In particular, the massive bookstore Ler Devagar, with its bicycles hanging from the ceiling and old printing presses, is one of the most inspiring libraries in the world.
+
+## 🍴 City Flavor Map: Where the Sea Meets the Oven
+
+When it comes to Lisbon's cuisine, the first words that come to mind are simplicity and freshness. You’ll often find the most unforgettable tastes in small, family-run neighborhood joints (tascas) rather than expensive restaurants.
+
+- **Pastel de Nata:** This creamy custard tart with a crispy crust is the undisputed star of the city. While the historic bakery in Belém is the starting point, a warm tart with a sprinkle of cinnamon at Manteigaria in the city center might just make you fall in love with Lisbon. Locals usually enjoy this with a "Bica" (a strong espresso) at any time of the day.
+
+- [Bacalhau (Codfish)](search:Bacalhau (Codfish): The Portuguese say they have "a different recipe for every day of the year" when it comes to codfish. Bacalhau à Brás (a mixture of shredded fish, thin potatoes, and eggs) is one of the most beloved versions. The slightly salty taste of the fish perfectly matches Lisbon's oceanic scent.
+- **Sardines (Sardinhas Assadas):** If you visit during the festivals in June, be prepared for the smoky scent of grilled sardines rising from every corner. Grilled sardines served on a slice of fresh corn bread (broa) are Lisbon’s most authentic and democratic meal; everyone eats them on the street, standing up and in high spirits.
+
+- [Bifana](search:Bifana): If you’re looking for a quick, cheap, and incredibly tasty lunch, your destination should be Bifana. This sandwich, featuring thin slices of pork marinated in garlic and wine served in a soft roll, is the pinnacle of Lisbon-style "fast food." Add a cold Portuguese beer (Sagres or Super Bock) and your meal is complete.
+- [Ginjinha](search:Ginjinha): You’ll wonder what people are drinking at the tiny stands around Rossio Square. This is a traditional sour cherry liqueur with whole cherries inside. Ordering it "Com elas" (with berries) or "Sem elas" (without berries) in a small shot glass, even in the middle of the day, is a total Lisbon classic. Some places serve it in edible chocolate cups, which is an extra treat.
+- **Seafood:** Everything from fresh shrimp to octopus is delicious in Lisbon. Arroz de Marisco (a rich, saucy seafood rice) brings the full bounty of the ocean to your table. While iconic spots like Cervejaria Ramiro are very popular, you won't be disappointed at any local fishmonger-style restaurant in the backstreets either.
+
+## 🤫 Whispers of the City: Local Secrets
+
+Lisbon is a city that gets more beautiful the more you share it, but it also keeps some secrets for the most curious travelers. These tips will help you slip away from the tourist swarms and truly feel the authentic Lisbon:
+
+- **The "Calcada" Reality and Shoe Choice:** Lisbon’s famous stone streets (calcada) are not only steep but also incredibly slippery; they can be as slick as polished ice even on sunny days! Therefore, set aside style and choose sneakers with excellent grip—it will be the smartest investment you make in this city.
+
+- **A Free Terrace View (Pollux):** Instead of waiting for hours and paying a fee to ride the Santa Justa Lift, walk into the home goods store called Pollux on the adjacent street. Take the elevator to the top floor, and you will find a wonderful terrace cafe that is much quieter and sits almost at the same level as the Santa Justa viewpoint.
+
+- **The "Appetizer" Trap in Restaurants:** When you sit down at a restaurant, appetizers like cheese, olives, and bread are often brought to the table immediately. These are not complimentary; they will charge you for whatever you consume. If you don't want them, simply don't touch them or politely send them back—this is perfectly normal behavior.
+- Fado in its Purest Form [(Tasca do Chico)](search:Fado in its Purest Form (Tasca do Chico): Instead of large, expensive Fado restaurants, opt for smaller, humbler spots like Tasca do Chico in Bairro Alto. Here, rather than professional stages, you might stumble upon "Fado Vadio" (amateur fado) nights, where locals spontaneously stand up and sing from the heart.
+- [Antique Market (Feira da Ladra)](search:Antique Market (Feira da Ladra): At this flea market held on Tuesdays and Saturdays, you’ll find more than just old items—you’ll find the lived history of Lisbon. Located on the edge of Alfama, you can catch wonderful souvenirs here, from handmade ceramics to vintage vinyl records.
+- **A Panoramic Break (Ler Devagar):** Be sure to go to the upper floor of this massive bookstore inside LX Factory. Walking among old printing presses, you’ll experience not just the scent of books but the soulful way Lisbon’s industrial past has merged with art.
+
+- **The Mobile Library and Secret Garden:** Take a breather on the benches under the giant century-old cedar tree in the Príncipe Real neighborhood. It’s one of the most peaceful stops in the city. If you’re lucky, you might spot the famous mobile library van parked nearby and witness the local passion for reading.
+- **A Hidden Gem for a Break (Casa do Alentejo):** From the outside, it looks like an ordinary building, but once you step through the doors, you’ll find yourself in a magnificent Moroccan-style courtyard. This hidden palace, once a casino and a school, now serves as the cultural center and restaurant for the Alentejo region; it’s worth entering just to see the courtyard.
+
+- **The Cheapest Transport with a View:** If you want to avoid the crowds of the 28 tram, hop on the 737 mini-bus that departs from Martim Moniz. It climbs through the narrowest streets all the way to the castle, offering a magnificent city tour for the price of a standard ticket.
+
+## ✅ The Lisbon Checklist: Don't Leave Without Doing These
+
+- **A Glass of Wine at Miradouro da Graça:** Grab a glass of Portuguese wine from the kiosk (quiosque) at sunset and watch the golden light settle over the city in silence.
+- **Listen to the Tram’s Melody:** Hear the unique screech of the wheels and the iconic bell of the number 28 tram echoing through the narrow alleys of Alfama.
+- **Blue Tile (Azulejo) Hunting:** Hunting): Walk through any neighborhood focusing only on the building facades; find your favorite ceramic pattern and capture it.
+
+- **"Uma Bica, Por Favor":** Stand at the counter like a local, order a "Bica" (espresso), and take in the faint scent of cinnamon that always lingers in the air.
+
+- **Cross to "Cais do Ginjal":** Take the ferry from Cais do Sodré to the opposite bank (Cacilhas); watching the Lisbon skyline from the middle of the river is priceless.
+
+- Feel the Vibration of [Fado](search:Feel the Vibration of Fado): While walking through Alfama in the evening, stop for a moment to listen to that soulful, mournful voice spilling out of an open tavern door.
+- **Sunday Morning Serenity:** If you’re there on a Sunday, join the locals at a park like Jardim da Estrela as they slowly sip coffee and read the newspaper.
+
+- **Walk Mindfully on the "Calcada":** Step consciously on those famous slippery white-and-black stones and feel the texture of the legendary Lisbon pavement.
+- **Defy Gravity on a Funicular:** Don’t just use it as transport; ride inside a hundred-year-old mechanism and enjoy the sensation of climbing a steep hill against gravity.
+
+- **The "Prato do Dia" in a Local Tasca:** Walk into a neighborhood tavern with paper tablecloths and no tourists, and try whatever the "Prato do Dia" (Dish of the Day) happens to be.
+- **Walk Under the Hanging Laundry:** Get lost in the narrow labyrinths of Alfama or Mouraria, smelling the fresh laundry hanging from the balconies above.
+- **Rest Your Feet by the Tagus:** Sit on the stepped shore of Ribeira das Naus and feel the Atlantic breeze as you look out toward the 25th of April Bridge.
+
+- [Colors of Modern Lisbon](search:Colors of Modern Lisbon): Explore the massive graffiti and street art at LX Factory to soak up the city's contemporary creative energy.
+- **Eat the Ginjinha Cherry:** After finishing your liqueur, don't forget to eat the alcohol-soaked cherry at the bottom of the glass—that is the true ritual!
+
+- **Do Absolutely Nothing at a "Miradouro":** Spend at least 15 minutes just sitting on a wall, watching the seagulls and the view, without checking your phone or your map.
+''';
+
+  // PORTO
+  static const _portoTR = '''# Porto Rehberi: Nehir ve Granitin Büyüsü 🇵🇹
+
+Porto; Douro Nehri kıyısına dizilmiş rengarenk evleri, heybetli köprüleri ve dünyaca ünlü şaraplarıyla Lizbon'un o meşhur melankolisini daha samimi bir havada sunar.
+
+## 📅 Ne Zaman Gidilir?
+- **São João Festivali (23 Haziran):** Şehrin en büyük gecesi. Herkes sokağa dökülür, havai fişekler atılır ve geleneksel olarak birbirlerinin kafasına plastik çekiçlerle vururlar!
+- **Yaz Sonu (Eylül):** Douro Vadisi'nde bağ bozumu zamanıdır. Şehir cıvıl cıvıl ve hava mükemmeldir.
+
+## 🏘️ Konaklama Rehberi
+- [Ribeira](search:Ribeira): Nehir kıyısı. Turistik ama manzarası paha biçilemez.
+- [Cedofeita](search:Cedofeita): Porto'nun sanat mahallesi. Yerel galeriler, butikler ve modern kafeler için en iyi yer.
+- [Vila Nova de Gaia](search:Vila Nova de Gaia): Teknik olarak karşı kıyı ama şarap mahzenlerine en yakın ve Porto manzarasını en iyi gören bölge.
+
+## 🍽️ Ne Yenir ve İçilir?
+- [Francesinha](search:Francesinha): Porto'nun efsanevi sandviçi. İçinde farklı etler, üzerinde erimiş peynir ve özel bir sosla servis edilir. Oldukça doyurucudur!
+- **Porto Şarabı:** Gaia tarafındaki mahzenlerde tadım yapmadan dönmeyin.
+
+- **Yemek Görgüsü:** Porsiyonlar Portekiz'de genellikle büyüktür, sipariş vermeden önce porsiyonun büyüklüğünü kontrol edin.
+
+## 🚇 Ulaşım İpuçları
+- **Yürüyüş:** Porto tepelidir ama yürüyerek gezmeye çok uygundur. Dom Luis I köprüsünden yürüyerek geçmek bir klasiktir.
+- **Metro:** Havaalanından şehre ulaşım için en pratik yoldur.
+
+## 💎 Lokal Sırlar & İpuçları
+- [Jardim do Morro](search:Jardim do Morro): Karşı kıyıda (Gaia), gün batımında yerlilerin toplanıp müzik yaptığı ve Porto manzarasını izlediği en popüler nokta.
+- **Sao Bento İstasyonu:** Dünyanın en güzel tren istasyonlarından biri. İçerideki "azulejo" (mavi-beyaz seramik) panolarını incelemek için mutlaka uğrayın.''';
+
+  static const _portoEN = '''# Porto Guide: Magic of River and Granite 🇵🇹
+
+Porto offers a more intimate version of Portugal's famous melancholy, with its colorful houses lined along the Douro River, imposing bridges, and world-renowned port wine cells.
+
+## 📅 Best Time to Visit
+- **Festa de São João (June 23):** The city's biggest night. Everyone pours into the streets, fireworks go off, and people traditionally hit each other on the head with soft plastic hammers!
+
+- **Late Summer (September):** Harvest time in the Douro Valley. The city is vibrant and the weather is perfect.
+
+## 🏘️ Neighborhood Guide
+- [Ribeira](search:Ribeira): The riverbank. Touristy, but the views and atmosphere are priceless.
+- [Cedofeita](search:Cedofeita): Porto's artsy district. The best place for local galleries, boutiques, and independent cafes.
+- [Vila Nova de Gaia](search:Vila Nova de Gaia): Technically the opposite bank, but it's where the port wine cellars are and offers the iconic view of the Porto skyline.
+
+## 🍽️ Food & Dining Etiquette
+- [Francesinha](search:Francesinha): Porto's legendary sandwich. Layers of meat, covered in melted cheese, and served in a signature spice sauce. It's an absolute beast of a meal!
+- **Port Wine:** Don't leave without doing a tasting at the cellars on the Gaia side.
+- **Dining Portion:** Portions in Portugal are generally very generous; check the size before you order too much.
+
+
+## 🚇 Transportation Tips
+- **Walking:** Porto is hilly but very walkable. Walking across the Dom Luis I bridge is a quintessential Porto experience.
+- **Metro:** The most practical way to get from the airport to the city center.
+
+## 💎 Local Secrets & Insights
+- [Jardim do Morro](search:Jardim do Morro): Located on the Gaia side, this is the most popular spot for locals to gather at sunset, play music, and watch the city light up.
+- **Sao Bento Station:** One of the most beautiful train stations in the world. Stop by to admire the stunning "azulejo" (blue and white ceramic) panels.''';
+
+  // MADRID
+  static const _madridTR = '''# Madrid Rehberi: İspanya'nın Sosyal Ruhu 🇪🇸
+
+Madrid; geniş caddeleri, görkemli müzeleri ve bitmek bilmeyen sosyal hayatıyla İspanya'nın atan kalbidir. Burası binaları görmekten ziyade, sokaktaki enerjiyi yaşama şehridir.
+
+## 📅 Ne Zaman Gidilir?
+- **Bahar (Mayıs):** Hava mükemmeldir ve şehir *San Isidro* festivalleriyle canlanır.
+- **Sonbahar (Ekim):** Yazın yakıcı sıcağı geçmiş, parklar altın rengine bürünmüştür.
+- **İpucu:** Temmuz ve Ağustos aylarında Madrid aşırı sıcak olabilir; yerlilerin çoğu tatile gider.
+
+## 🏘️ Konaklama Rehberi
+- [Malasaña](search:Malasaña): Madrid'in en "cool" mahallesi. Vintage dükkanlar, gece hayatı ve yaratıcı bir enerji.
+- [La Latina](search:La Latina): Geleneksel Madrid. Tapas barları ve her Pazar kurulan *El Rastro* pazarı ile meşhur.
+- [Salamanca](search:Salamanca): Şık, lüks ve düzenli. Alışveriş tutkunlarının tercihi.
+
+## 🍽️ Ne Yenir ve İçilir?
+- **Tapiar (Tapas Turu):** Madrid'de akşam yemeği tek bir yerde yenmez. Bir bar-dan diğerine geçip her yerde bir içki ve bir meze (tapa) almak bir hayat tarzıdır.
+- [Bocadillo de Calamares](search:Bocadillo de Calamares): Kalamar sandviç. Madrid'in en meşhur sokak lezzetidir, özellikle Mayor Meydanı çevresinde deneyin.
+- **Yemek Saatleri:** Madrid çok geç yaşar. Öğle yemeği 14:00, akşam yemeği ise 21:30'dan önce pek başlamaz.
+
+## 🚇 Ulaşım İpuçları
+- **Metro:** Avrupa'nın en iyi metro ağlarından biridir. Çok temiz, hızlı ve her yere ulaşır.
+- **Yürüyüş:** Şehir merkezi geniştir ama yürüyerek keşfetmek çok keyiflidir.
+
+## 💎 Lokal Sırlar & İpuçları
+- [Templo de Debod](search:Templo de Debod): Mısır'dan getirilmiş gerçek bir tapınak. Gün batımında Madrid'in en büyülü manzarası buradadır.
+- [Retiro Parkı](search:Retiro Park): Sadece bir park değil, Madrid'in akciğeridir. İçindeki Palacio de Cristal'i (Kristal Saray) mutlaka görün.
+- [El Rastro](search:El Rastro): Pazar sabahı kalabalığına karışın ama eşyalarınıza dikkat edin.''';
+
+  static const _madridEN = '''# Madrid Guide: The Social Soul of Spain 🇪🇸
+
+Madrid is the beating heart of Spain, with its grand boulevards, majestic museums, and an irrepressible social life. It's a city less about looking at buildings and more about feeling the energy in the streets.
+
+## 📅 Best Time to Visit
+- **Spring (May):** The weather is perfect and the city comes alive with the *San Isidro* festivals.
+- **Autumn (October):** The scorching summer heat has passed, and the parks are dressed in autumn colors.
+- **Tip:** Avoid July and August if you can; it's intensely hot and many locals head to the coast for vacation.
+
+## 🏘️ Neighborhood Guide
+- [Malasaña](search:Malasaña): The coolest neighborhood in Madrid. Think vintage shops, rock-and-roll nightlife, and a creative energy.
+- [La Latina](search:La Latina): Traditional Madrid at its best. Famous for its tapas bars and the massive *El Rastro* market held every Sunday.
+- [Salamanca](search:Salamanca): Elegant, upscale, and pristine. The place for high-end shopping and refined dining.
+
+## 🍽️ Food & Dining Etiquette
+- **Tapiar (Tapas Crawl):** In Madrid, you don't typically just go to one restaurant for dinner. Moving from one bar to another, having a drink and a tapa at each, is a way of life.
+- [Bocadillo de Calamares](search:Bocadillo de Calamares): Squid sandwich. It's the most iconic street food in Madrid—try it in the plazas around Plaza Mayor.
+- **Meal Times:** Madrid lives late. Lunch starts at 2 PM, and dinner rarely begins before 9:30 PM.
+
+## 🚇 Transportation Tips
+- **The Metro:** One of the best subway systems in Europe. It's clean, fast, and reaches every corner of the city.
+- **Walking:** The city center is sprawling but very rewarding to explore on foot.
+
+## 💎 Local Secrets & Insights
+- [Templo de Debod](search:Templo de Debod): An authentic ancient Egyptian temple gifted to Spain. It's the most magical spot in Madrid during sunset.
+- [Retiro Park](search:Retiro Park): It’s the lungs of Madrid. Make sure to visit the Palacio de Cristal (Crystal Palace) inside for some stunning photos.
+- [El Rastro](search:El Rastro): Immerse yourself in the Sunday morning market crowd, but keep a cautious eye on your belongings.''';
+
+  // SEVILLA
+  static const _sevillaTR = '''# Sevilya: Portakal Çiçekleri ve Flamenko Ruhlu Şehir
+
+Sevilya'da sokakta yürürken kendinizi bir operanın sahnesinde veya tarihin durduğu bir Endülüs avlusunda bulabilirsiniz. Burası, İspanya'nın o meşhur sıcak ruhunun en saf halidir; ancak unutmayın ki bu şehir yazın 45 dereceyi bulan sıcaklarıyla tam bir fırına dönüşebilir. İşte bu yüzden Siesta (öğle uykusu) burada sadece bir mola değil, günün kavurucu saatlerinde hayatta kalmanızı sağlayan bir yaşam kodudur; öğleden sonra dükkanlar kepenk indirirse sakın şaşırmayın. Şehirde zamanın ritmi farklı akar; akşam yemeği 21:00’den önce başlamaz ve bir köşede tinto de verano’nuzu (limonatalı şarap kokteyli) yudumlarken acele etmemek Sevilyalı olmanın ilk kuralıdır. 
+
+Görkemli katedralin gölgesinde yükselen boğa güreşi mirası hala şehrin kimliğinin tartışmalı ama köklü bir parçasıyken, dar sokaklarda yankılanan flamenko topuk sesleri size şehrin gerçek ritmini fısıldar. Sevilya halkı geleneklerine ve kutlamalarına oldukça bağlıdır; bu yüzden plan yaparken Mart veya Nisan aylarına denk gelen Semana Santa (Kutsal Hafta) döneminde şehrin kilitlenebileceğini hesaba katmalısınız. Hemen ardından gelen Feria de Abril (Nisan Panayırı) zamanında ise lokallerin elinde göreceğiniz o meşhur Rebujito (beyaz şarap ve gazoz karışımı), şehrin kutlama enerjisinin bir bardaktaki özetidir. Ayrıca, bu kadar sıcak bir şehirde yerel halkın "güneşten kaçma sanatı"na saygı duyun ve siz de gölgeyi takip ederek yürümeyi öğrenin.
+
+## 📅 Takviminizi Ayarlayın: Hangi Mevsim Sizin?
+
+Sevilya'da mevsimler sadece hava durumu demek değildir; şehrin karakterinin tamamen kabuk değiştirmesidir. Buraya ne zaman geleceğiniz, sıcağa ne kadar tahammülünüz olduğu ve kalabalıkla aranızdaki ilişkiyle doğrudan bağlantılıdır.
+
+- **İlkbahar:** Şehrin kesinlikle en görkemli, en "Sevilya" kokan zamanıdır. Mart sonu ve Nisan aylarında açan portakal çiçeklerinin kokusu (azahar) tüm sokakları sarar, adeta şehrin üzerine dev bir parfüm şişesi boşaltılmış gibidir. Semana Santa (Kutsal Hafta) ve hemen ardından gelen Feria de Abril (Nisan Panayırı) bu dönemdedir. Artısı, şehri en canlı ve en geleneksel haliyle görmektir. Negatif yönü ise, kalabalığın bazen nefes aldırmayacak düzeye ulaşması ve konaklama fiyatlarının üç-dört katına çıkmasıdır. Eğer bu dönemde geliyorsanız, aylar öncesinden yerinizi ayırtın.
+- **Yaz:** Dürüst olmak gerekirse, Temmuz ve Ağustos aylarında Sevilya bir "açık hava fırını" gibidir. Sıcaklıklar 45 dereceyi geçer. Lokallerin çoğu sahillere kaçar, şehir turistlere kalır. Bu mevsimin artısı, konaklamanın çok daha ucuz olması ve gecelerin inanılmaz hareketli geçmesidir. Negatif yönü ise, öğlen 13:00 ile 19:00 arası dışarıda yürümeye çalışmanın fiziksel bir mücadele olmasıdır. Bu mevsimde gelirseniz, Guadalquivir nehri kıyısındaki teras barlarında vakit geçirmek en mantıklı aktivitedir.
+- **Sonbahar:** Eylül sonu ve Ekim ayları favori dönemler. Yazın o ağır sıcağı kırılır, hava yumuşar ve gökyüzü cam gibi bir maviye bürünür. Şehirde bir rahatlama hissedilir. Parklarda yürümek, nehir kenarında bisiklete binmek için en ideal zamandır. Büyük bir festival yoktur ama şehrin kendi doğal ritmini en samimi haliyle yakalarsınız. Tek riski, nadir de olsa aniden bastıran şiddetli yağmurlardır.
+- **Kış:** Sevilya kışı, Avrupa'nın geri kalanına göre oldukça ılımandır. Gündüzleri güneşin altında ince bir ceketle gezebilirsiniz. Ancak güneş battığı an, nemden dolayı o meşhur "kemik sızlatan" soğuk kendini hissettirir. Aralık ayında kurulan Noel pazarları ve Ocak başındaki Los Reyes Magos (Üç Kral) geçidi çok renklidir. Kalabalıktan nefret ediyorsanız ve şehri en sakin haliyle, kuyruk beklemeden gezmek istiyorsanız Kış sizin mevsiminizdir.
+
+## 🏠Nerede Kalmalı: Mahalle Rehberi
+
+evilya’da konaklama seçerken sadece "merkezde olayım" fikrine takılmanıza gerek yok. Bu şehirde nerede kalırsanız kalın, her yere yürüyerek ulaşabilirsiniz; ölçek oldukça insani. Nerede kalacağınız, merkeze uzaklıktan ziyade, günün sonunda nasıl bir çevrede olmak istediğinizle ilgili.
+
+- [Santa Cruz (Yahudi Mahallesi)](search:Santa Cruz (Yahudi Mahallesi): Katedral ve Alcázar’ın hemen dibinde, dar sokakların olduğu tarihi bölge. Kapıdan çıktığınız an turistik noktaların merkezindesiniz ancak bu durum fiyatlara da yansıyor. Sokaklar araç trafiğine kapalı olduğu için taksi kapınıza kadar gelemez, bavulunuzu taşlı yollarda taşımanız gerekir. Turist gruplarının gürültüsüne hazırlıklıysanız, lojistik olarak en pratik bölge burasıdır.
+- [Triana](search:Triana): Nehrin karşı kıyısındaki mahalle kültürüyle bilinen bölge. Burası çömlek atölyeleri, flamenko barları ve taze pazar yeriyle lokallerin yoğun olduğu bir yerdir. Turistik kalabalıktan uzaklaşmak isterseniz idealdir. Köprüyü geçerek merkeze yürümek 15-20 dakikanızı alır. Akşamları nehir kıyısındaki Calle Betis’te (Betis Caddesi) vakit geçirmek mahallenin en büyük artısıdır.
+- [Alameda de Hércules](search:Alameda de Hércules): Şehrin sosyal hayatının ve gece eğlencesinin kalbi. Meydan etrafındaki bar ve kafelerle lokallerin akşamları en çok tercih ettiği yerdir. Genç bir nüfusun olduğu, dinamik ve nispeten uygun fiyatlı bir bölge arıyorsanız burası doğru adres. Ancak hafta sonları gürültü sabahın ilk ışıklarına kadar sürebilir, uyku konusunda hassassanız bunu dikkate almalısınız.
+- **El Arenal:** Boğa güreşi arenası ile nehir arasında kalan, daha düzenli ve şık bir bölge. Katedral gibi ana noktalara çok yakın olmasına rağmen Santa Cruz kadar kaotik değildir. Şehrin kaliteli restoranları burada yoğunlaşır. Güvenli ve sakin bir atmosfer sunar ancak bütçe dostu, çok ucuz konaklama seçenekleri bulmak burada zordur.
+
+- [Macarena](search:Macarena): Şehrin kuzey ucu, turist etkisinin en az olduğu samimi mahalle. Yerel mahalle esnafını ve daha uygun fiyatlı konaklama seçeneklerini burada bulursunuz. Merkeze yaklaşık 30 dakikalık bir yürüme mesafesindedir. Yol boyunca şehrin turistik olmayan, gerçek yüzünü görerek yürürsünüz; mahalle hayatı arayanlar için en dürüst seçenektir.
+
+## 🚲 A Noktasından B Noktasına: Bir Lokal Gibi Hareket Edin
+
+**Sevilya’da ulaşımın altın kuralı şudur:** Eğer gideceğiniz yer 20 dakikalık yürüme mesafesindeyse, yürüyün. Şehir düz ayak olduğu için yorulmazsınız, aksine toplu taşıma beklerken harcayacağınız sürede hedefinizde olursunuz. Ancak yorulursanız veya mesafeler uzarsa elinizin altında tıkır tıkır işleyen seçenekler var.
+
+- **Ayaklarınıza Güvenin:** Şehrin kalbi olan Santa Cruz ve çevresi tamamen yayalaştırılmıştır. Haritada yollar karışık görünebilir ama her sokak eninde sonunda ya bir meydana ya da Katedral'e çıkar. Kaybolmak burada ulaşımın doğal bir parçasıdır, tadını çıkarın.
+
+- **Havalimanından Şehre Ulaşım:** En ucuz ve pratik yol EA (Especial Aeropuerto) isimli otobüs hattıdır. Havalimanı çıkışındaki duraktan biner, yaklaşık 35 dakikada merkeze varırsınız. Bilet 4 Euro’dur ve doğrudan şoförden nakit alabilirsiniz. Taksi ise sabit fiyat tarifesi uygular (valiz sayısına ve saate göre 25-30 Euro arası değişir).
+- **Sevici (Bisiklet):** Sevilya, Avrupa’nın en iyi bisiklet yollarından birine sahip. Şehrin her yerindeki istasyonlardan bisiklet kiralayabilirsiniz. Günlük veya haftalık üyelik alıp bisikleti bir noktadan alıp diğerine bırakmak çok kolaydır. Küçük bir uyarı; yayalara ayrılmış dar sokaklarda bisiklet sürmeyin, lokaller bu konuda oldukça hassastır.
+- **Tramvay (Metro-Centro):** Şehirde sadece tek bir tramvay hattı var ve Plaza Nueva ile San Bernardo arasında çok kısa bir mesafede çalışır. Özellikle sıcakta yorulursanız Katedral’in önünden binip ana caddeden geçmek için keyiflidir. Biletleri duraktaki makinelerden alabilirsiniz (yaklaşık 1.40 Euro).
+- **Otobüsler:** Şehir merkezini dairesel olarak dönen C1, C2, C3 ve C4 hatları en çok işinize yarayacak olanlardır. Bu hatlar sizi nehrin iki yakası ve ana tren istasyonu (Santa Justa) arasında hızlıca taşır.
+- **Lokal Uyarı:** Otobüse bindiğinizde biletinizi mutlaka makinelerde onaylatın. Eğer çok sık kullanacaksanız büfelerden (Tabacos) "Tarjeta Multiviaje" isimli bir kart alıp içine kredi yüklerseniz biniş başına ödediğiniz ücret neredeyse yarıya düşer.
+
+## 🏛️ Şehrin Hafızası: Görülmesi Gereken İkonik Duraklar
+
+Sevilya’da görülecek yerler listesi her yerde karşınıza çıkar ama buraları bir lokal gibi gezmek, kalabalıktan ve sıcaktan nasıl kaçacağınızı bilmekle başlar. Çoğu noktaya giriş ücretli olsa da, stratejik bir planlama ile hem bütçenizi hem de vaktinizi koruyabilirsiniz.
+
+- **Sevilla Katedrali ve Giralda:** Dünyanın en büyük Gotik katedrali burasıdır ve içerisinde Kristof Kolomb’un mezarı yer alır. Katedralin yanındaki Giralda Kulesi’ne çıkmak için merdiven beklemeyin; atların çıkabilmesi için tasarlanmış geniş rampalar vardır. Biletinizi mutlaka online ve haftalar öncesinden alın (yaklaşık 12-15 Euro). Şanslıysanız, Pazar günleri sabah erken saatlerde ayin için açıldığında içeriyi ücretsiz görme fırsatı yakalayabilirsiniz ama turistik kısımlar o an kapalıdır.
+
+- **Real Alcázar:** Burası bir saraydan çok daha fazlası; Endülüs mimarisinin en zarif örneklerinden biri. Taht Oyunları (Game of Thrones) hayranıysanız bahçeler size çok tanıdık gelecektir. Giriş 13.50 Euro civarıdır ve en önemli ipucu; kapıda iki saat beklememek için günün ilk giriş saatini (09:30) seçip biletinizi önceden almaktır. Pazartesi günleri kapanışa yakın son saatte giriş ücretsizdir ancak bu biletler online sistemde anında tükenir.
+
+- [Plaza de España](search:Plaza de España): 1929 yılında inşa edilen bu devasa meydan, İspanya’nın her şehrine özel seramik banklarla çevrilidir. Giriş ücretsizdir. Ancak küçük bir tavsiye; buraya sabah 09:00’da veya güneş batarken gidin. Gündüz o seramiklerin üzerinde oturmak, güneşin altında imkansız olabilir. Meydanın ortasındaki kanalda sandal kiralayıp tur atmak tam bir klasik ama biraz turistik kaçabilir, onun yerine köprülerin üzerinden flamenko yapan sokak sanatçılarını izlemek çok daha keyiflidir.
+- **Las Setas (Metropol Parasol):** Şehrin tarihi dokusuna tezat oluşturan bu dev ahşap yapı, modern Sevilya’nın simgesidir. Yer altındaki antik kalıntıları görmek ücretsizdir ancak yapının üzerine çıkıp o meşhur yürüyüş yolunda şehri izlemek için bilet almanız gerekir (yaklaşık 15 Euro). Bu bilete genelde terastaki barda bir içecek dahildir. Gün batımı saatleri büyüleyicidir ama kuyruk sizi bezdirebilir, akşam ışıklandırması için gece saatlerini de tercih edebilirsiniz.
+- [Archivo de Indias (Hint Arşivi)](search:Archivo de Indias (Hint Arşivi): Katedralin hemen yanındaki bu görkemli bina, İspanya'nın sömürge dönemindeki tüm belgelerini barındırır. Mimari olarak muazzamdır ve çoğu gezginin gözünden kaçar. En büyük artısı girişin tamamen ücretsiz olmasıdır. Hem serinlemek hem de tarihin tozlu sayfalarında bir mola vermek için harika bir duraktır.
+- **Öpücük Sokağı (Callejón del Beso):** Santa Cruz mahallesinin labirentleri içinde asıl adı Calle Reinoso olan bu daracık sokağı bulun. Karşılıklı balkonların birbirine neredeyse değdiği bu sokak, şehrin romantik efsanelerine ev sahipliği yapar. Fotoğraf çekmek için erken saatleri kollayın; burası dar sokak mimarisinin en uç örneğidir.
+
+- **Katedral ve Arena Arasındaki Ara Sokaklar (El Arenal Geçidi):** Katedral'den boğa güreşi arenasına (La Maestranza) giden yolda ana caddeden değil, Calle García de Vinuesa üzerinden ilerleyin. Burası lokallerin iş çıkışı birer tapas yiyip bir kadeh bir şey içmek için durakladığı, şehrin en canlı ve karakteristik esnaf barlarının gizlendiği yerdir.
+
+## 🍴 Şehrin Lezzet Haritası: Tapasın ve Paylaşmanın Başkenti
+
+Sevilya’da bir mekana girdiğinizde menüde üç farklı porsiyon boyutu görürsünüz: Tapa (küçük tadımlık), Media Ración (yarım porsiyon) ve Ración (tam porsiyon). Bir lokal gibi yemek istiyorsanız her zaman "tapa" söyleyin, böylece masayı donatıp her şeyin tadına bakabilirsiniz. İşte o meşhur yerlerin ve lezzetlerin dürüst listesi:
+
+- **Montadito de Pringá:** Sevilya’nın en iyi sandviçi budur. Yavaş pişmiş etlerin (genelde dana, tavuk ve chorizo karışımı) ekmek arasında sıcak servis edildiği bir lezzet bombası. En iyisini Bodega Santa Cruz (Las Columnas)’ta yersiniz; Giralda’nın dibinde olmasına rağmen lokallerin de vazgeçilmezidir. Garsonlar siparişi tebeşirle masaya yazar, hesabı oradan takip edersiniz.
+
+- **Salmorejo:** Gazpacho’yu (soğuk domates çorbası) unutun; Salmorejo onun daha yoğun, daha kremamsı ve daha doyurucu versiyonudur. Üzerine serrano jambonu ve haşlanmış yumurta parçaları eklenerek servis edilir. Yazın o fırın sıcağında hayata döndüren tek şey budur.
+
+- **Espinacas con Garbanzos (Ispanaklı Nohut):** Endülüs’ün en eski ve en karakterli tapaslarından biridir. Bol kimyon ve sarımsakla hazırlanan bu lezzet, bir kadeh yerel şarapla harika gider. El Rinconcillo (1670’den beri açık olan şehrin en eski barı) bu işin gerçek ustasıdır.
+
+- **Carrillada de Cerdo (İberik Yanağı):** Kırmızı şarap sosunda saatlerce pişen, çatalı vurduğunuzda dağılan bir et yemeğidir. Sevilya’nın en dürüst mutfaklarından biri olan Casa Morales’te dev şarap fıçılarının arasında bu lezzeti denemelisiniz.
+
+- **Cazon en Adobo:** Kimyon, kekik ve sirkeyle marine edilip kızartılmış köpekbalığı parçalarıdır. Dışı çıtır, içi pamuk gibidir. Triana mahallesindeki Las Golondrinas, bu tapası yıllardır aynı standartta sunan, lokallerin referans noktasıdır.
+
+- **Churros con Chocolate:** Kahvaltı veya akşamüstü kaçamağı için Bar El Comercio’ya gidin. 1904’ten beri hizmet veren bu mekanda churroslar dondurulmuş değil, gözünüzün önünde taze dökülür ve yanında servis edilen sıcak çikolata oldukça yoğundur.
+
+- **Lokal Uyarı:** Mekanların önündeki "English Menu" tabelalarına çok kanmayın. Gerçekten iyi olan yerler genelde menüsünü duvara asar veya sadece İspanyolca bir kara tahtaya yazar. Bir barda herkes ayakta duruyorsa ve gürültü seviyesi yüksekse, bilin ki orası şehrin en doğru noktalarından biridir.
+
+## 🤫 Şehrin Fısıldadıkları: Lokal Sırlar
+
+Sevilya’da bir noktadan sonra haritayı kapatıp şehrin kendi ritmine güvenmeniz gerekir. Herkesin bildiği ana caddelerden saptığınızda, karşınıza sadece buranın yerlilerinin bildiği, zamanın farklı aktığı noktalar çıkacaktır.
+
+- **Rahibe Kurabiyeleri (Torno):** Şehrin en tatlı sırrı manastırların içindedir. Monasterio de Santa Paula veya Convento de San Leandro gibi yerlerde rahibeler yüzyıllardır el yapımı kurabiyeler yapar. Kapıdaki zili çalar, rahibeyi görmeden bir döner dolap (torno) aracılığıyla siparişinizi verir ve paranızı bırakırsınız. Bu, şehrin en mahrem alışveriş geleneğidir.
+
+- **Öpücük Sokağı (Callejón del Beso):** Santa Cruz mahallesinin derinliklerinde öyle bir sokak var ki, karşılıklı balkonlar birbirine neredeyse değer. Adı Calle Reinoso ama herkes orayı "Öpücük Sokağı" olarak bilir. İki komşunun balkonlarından birbirine uzanıp öpüşebileceği kadar dar olan bu sokak, şehrin labirent yapısının en romantik kanıtıdır.
+
+- **Gizli Bahçe:** Casa de Pilatos: Alcázar’ın kalabalığından yorulduysanız, çok daha az bilinen ama en az onun kadar büyüleyici olan bu saraya gidin. Çinili avluları ve sessiz bahçeleriyle burası, şehrin içinde saklı bir huzur vahasıdır. Özellikle öğleden sonra saatlerinde giderseniz neredeyse tek başınıza gezebilirsiniz.
+
+- **Arena ve Katedral Arasındaki Mola:** Katedral’den Boğa Güreşi Arenası’na (Maestranza) doğru yürürken Calle García de Vinuesa üzerinden geçin. Burası turist kafilelerinin arasından sıyrılıp lokallerin akşamüstü bir kadeh şarap ve bir dilim jambon için durakladığı yerdir. Özellikle La Antigua Bodeguita gibi mekanlarda ayak üstü atıştırıp sokağın enerjisini hissetmek tam bir Sevilya ritüelidir.
+
+- **El Arenal’ın Arka Sokakları:** Arena çevresindeki Calle Adriano ve çevresindeki ara sokaklar, boğa güreşi olsun ya da olmasın lokallerin "tapeo" (tapas turu) için en sevdiği yerlerdir. Burada katedralin gölgesinden çıkıp gerçek bir mahalle barına girdiğinizi hissedersiniz; özellikle maç veya tören günlerinde buradaki kalabalığın coşkusu şehrin başka hiçbir yerinde yoktur.
+
+- [Calle Feria Bit Pazarı](search:Calle Feria Bit Pazarı): Her Perşembe sabahı kurulan El Jueves, şehrin en eski açık hava pazarıdır. Burada antika flamenko elbiselerinden, eski plaklara kadar her şeyi bulabilirsiniz. Pazarı gezdikten sonra hemen yanındaki Mercado de Feria’da (mahalle pazarı) taze deniz mahsulleri eşliğinde soğuk bir bira içmek çok yaygındır.
+- **Ücretsiz Flamenko:** La Carbonería: Herkes pahalı flamenko şovlarına giderken, lokaller akşamları bu eski kömür deposuna uğrar. Giriş ücretsizdir, içerisi biraz salaştır ama ruhu gerçektir. Uzun tahta masalarda içkinizi yudumlarken aniden başlayan bir dansa veya şarkıya tanıklık edebilirsiniz.
+- **Gece Yarısı Santa Cruz:** Gündüzleri turistlerden adım atılmayan Santa Cruz mahallesini bir de gece 01:00’den sonra gezin. Sokaklar tamamen boşaldığında, binaların arasındaki yankılar ve fenerlerin ışığı size şehrin orta çağdan kalma gerçek yüzünü gösterir.
+
+- **Lokal Uyarı:** Sevilya’nın bazı dış mahalleleri (örneğin Los Pajaritos veya Polígono Sur), bir turistin yolu düşmeyecek kadar sapa ve güvenlik açısından pek tekin olmayan yerlerdir. Gezinizi her zaman tarihi merkez ve çevresindeki canlı mahallelerde tutmaya özen gösterin.
+
+## ✅ Mutlaka Yapmadan Dönme: Sevilya Checklist
+
+- **Calle Betis'te Gün Batımı:** Nehir kıyısı boyunca gün batımında yürüyün; karşı kıyıdaki altın sarısı binaların suya düşen yansımaları şehri en romantik haliyle görmenizi sağlar.
+
+- **Tebeşirle Hesap:** Bir tabernada siparişinizin masaya veya bara tebeşirle yazılmasını deneyimleyin; bu eski usul yöntem Sevilya'nın hızına ve geleneğine tanıklık etmektir.
+- **Churros Ritüeli:** Bar El Comercio'da, o devasa churrosları yoğun sıcak çikolataya bandırarak kahvaltı yapın; mekanın 1904'ten kalma dekoru kahvaltınıza tarihi bir doku katacak.
+
+- **Bilinçli Kayboluş:** Santa Cruz'un labirent sokaklarında bilerek kaybolun; haritayı cebinize koyup sadece begonvillerin kokusunu ve dar sokaklardaki serinliği takip etmek buradaki en iyi rotadır.
+
+- **Rahibe Kurabiyeleri:** Bir manastırın kapısındaki döner dolaptan (torno) rahibelerin yaptığı kurabiyelerden satın alın; bu gizemli alışveriş sırasında sadece bir ses duyup kurabiyelerinize kavuşmak sizi Orta Çağ'a götürecek.
+
+- [Plaza de España](search:Plaza de España'da Flamenko)'da Flamenko: Meydandaki köprülerin üzerinde durup sokak sanatçılarının doğaçlama gösterisini izleyin; seramiklerin görkemiyle birleşen o topuk sesleri size şehrin neden flamenkonun başkenti olduğunu hatırlatacak.
+- **Gece Yarısı Yemeği:** En az bir akşam yemeğini lokaller gibi saat 22:00'den sonraya bırakın; restoranların ancak o saatte tam kapasite dolup enerjisinin zirveye çıktığını göreceksiniz.
+
+- **Tinto de Verano Serinliği:** Bir kadeh buz gibi Tinto de Verano ile ferahlayın; Sangria'dan daha hafif ve ferah olan bu karışım, Sevilyalıların sıcakla baş etme yöntemidir.
+
+- **Triana Pazarı Keşfi:** Mercado de Triana'ya uğrayıp yerel peynirlerin ve zeytinlerin tadına bakın; pazarın antik bir kale ve engizisyon merkezi kalıntıları üzerine kurulduğunu bilmek gezinize derinlik katacak.
+
+- **Las Setas'ta Şehir Seyri:** Metropol Parasol'ün üzerine çıkıp şehre o dev ahşap mantarların üzerinden bakın; eski şehrin dokusunun modern bir mimariyle nasıl birleştiğine şahitlik edin.
+
+- **Ayakta Tapas Keyfi:** El Rinconcillo (şehrin en eski barı) gibi tarihi bir mekanda, ayakta durarak klasik bir Endülüs tapası yiyin; barın her bir köşesinde 350 yıllık bir geçmişin fısıltılarını duyabilirsiniz.
+- **Portakal Bahçesinde Huzur:** Katedralin yanındaki portakal ağaçlı avluda (Patio de los Naranjos) sessizce oturup bekleyin; çeşmeden akan su sesi ve ağaçların kokusu şehrin gürültüsünü saniyeler içinde unutturacak.
+
+- **Azahar Kokusu (Mart Sonu - Nisan başı):** Şehri portakal çiçeklerinin açtığı o iki haftalık dönemde deneyimleyin; tüm şehrin doğal bir parfüm fabrikasına dönüştüğü bu koku hafızanızdan asla silinmeyecek.
+- **Rebujito Deneyimi (Nisan - Mayıs):** Eğer kutlama dönemindeyseniz, mutlaka bir bardak Rebujito (beyaz şarap ve gazoz) içerek festival ruhuna katılın; bu, özellikle Feria de Abril zamanının resmi neşe kaynağıdır.
+- **Öpücük Sokağı Sessizliği:** Gece yarısından sonra boşalan Callejón del Beso (Öpücük Sokağı) altından geçin; iki binanın birbirine ne kadar yakın durabildiğini görünce şehrin mimari zekasına şaşıracaksınız.
+
+- [Isabel II Köprüsü](search:Isabel II Köprüsü Fotoğrafı) Fotoğrafı: Halk arasındaki adıyla Triana Köprüsü üzerinde, arkada Triana'nın renkli evlerini alacak şekilde bir fotoğraf çekilin; özellikle "mavi saatlerde" (gün batımı sonrası) şehrin en ikonik karesi burasıdır.
+- **Yelpaze ve Şal Estetiği:** Bir flamenko dükkanının önünde durup el yapımı yelpazelerin ve şalların renklerine dalın; bu aksesuarların sadece birer eşya değil, yüzyıllardır süregelen bir ifade biçimi olduğunu fark edeceksiniz.
+
+''';
+
+  static const _sevillaEN = '''# Seville: The City of Orange Blossoms and the Soul of Flamenco
+
+Walking through the streets of Seville, you might feel as though you've stepped onto an opera stage or into an Andalusian courtyard where time has stood still. This is the purest expression of Spain’s famous warm spirit; however, keep in mind that with temperatures hitting 45°C in the summer, this city can turn into a literal oven. That’s why Siesta (afternoon nap) is not just a break here—it’s a survival code for the scorching hours of the day; don’t be surprised if shops lower their shutters in the afternoon. Time moves to a different rhythm here; dinner doesn't start before 21:00, and the first rule of being a Sevillano is to take your time while sipping a tinto de verano (a wine and lemon soda cocktail). While the heritage of bullfighting, echoing in the shadow of the magnificent cathedral, remains a controversial yet deeply rooted part of the city’s identity, the sound of flamenco heels clicking through narrow alleys whispers the city's true heartbeat. The people of Seville are deeply devoted to their traditions and celebrations; so when planning your trip, take into account that during Semana Santa (Holy Week) in March or April, the city can come to a complete standstill. Right after that, during the Feria de Abril (April Fair), the famous Rebujito (a mix of white wine and lemon-lime soda) you’ll see in every local’s hand is the very essence of the city's festive energy in a glass. Also, in a city this hot, respect the locals' "art of dodging the sun" and learn to walk by following the shadows yourself.
+
+## 📅 Timing is Everything: Which Season is Yours?
+
+In Seville, seasons are about more than just the weather; they represent a complete transformation of the city's character. When you should visit depends directly on your tolerance for heat and your relationship with crowds.
+
+- **Spring:** This is undoubtedly the most magnificent, most "Seville-scented" time of the city. In late March and April, the scent of orange blossoms (azahar) fills every street, as if a giant perfume bottle has been poured over the city. Semana Santa (Holy Week) and the following Feria de Abril (April Fair) take place during this period. The plus side is seeing the city at its most vibrant and traditional. The downside is that the crowds can sometimes become suffocating, and accommodation prices triple or quadruple. If you plan to visit now, book your place months in advance.
+- **Summer:** To be honest, during July and August, Seville is like an "outdoor oven." Temperatures exceed 45°C. Most locals flee to the coast, leaving the city to the tourists. The upside of this season is that accommodation is much cheaper, and the nights are incredibly lively. The downside is that trying to walk outside between 13:00 and 19:00 is a physical struggle. If you come during this season, spending time at the terrace bars along the Guadalquivir River is the most sensible activity.
+- **Autumn:** Late September and October are favorite periods. The heavy summer heat breaks, the air softens, and the sky turns a crystal blue. You can feel a sense of relief throughout the city. It’s the ideal time for walking in parks or cycling by the river. There are no major festivals, but you’ll catch the city’s own natural rhythm in its most authentic form. The only risk is the occasional sudden, heavy downpour.
+- **Winter:** Seville’s winter is quite mild compared to the rest of Europe. During the day, you can walk around in a light jacket under the sun. However, the moment the sun sets, that famous "bone-chilling" cold caused by the humidity makes itself felt. The Christmas markets in December and the Los Reyes Magos (Three Kings) parade in early January are very colorful. If you hate crowds and want to explore the city at its quietest without waiting in lines, Winter is your season.
+
+## 🏠 Where to Stay: Neighborhood Guide
+
+When choosing accommodation in Seville, you don't need to get hung up on the idea of "staying in the exact center." No matter where you stay in this city, you can reach almost everywhere on foot; the scale is very human. Where you stay is less about distance to the center and more about the kind of environment you want to return to at the end of the day.
+
+- [Santa Cruz (Jewish Quarter)](search:Santa Cruz (Jewish Quarter): The historical area right next to the Cathedral and Alcázar, characterized by narrow streets. You are in the heart of the tourist spots the moment you step out, but this is reflected in the prices. Since the streets are closed to car traffic, taxis cannot reach your door; you'll need to carry your luggage over cobblestone paths. If you are prepared for the noise of tour groups, this is the most practical area logistically.
+- [Triana](search:Triana): An area known for its neighborhood culture on the opposite bank of the river. This is a local stronghold with pottery workshops, flamenco bars, and a fresh market. It is ideal if you want to get away from the tourist crowds. Walking to the center across the bridge takes about 15-20 minutes. Spending time at Calle Betis (Betis Street) by the river in the evenings is the neighborhood's biggest plus.
+- [Alameda de Hércules](search:Alameda de Hércules): The heart of the city's social life and nightlife. With bars and cafes around the square, it is the preferred evening spot for locals. If you are looking for a dynamic and relatively affordable area with a young population, this is the right address. However, noise can last until the early hours of the morning on weekends, so keep this in mind if you are sensitive about sleep.
+**-El Arenal:** A more organized and elegant area located between the bullring and the river. Despite being very close to main spots like the Cathedral, it is not as chaotic as Santa Cruz. The city's quality restaurants are concentrated here. It offers a safe and quiet atmosphere, though it is difficult to find budget-friendly, very cheap accommodation options here.
+- [Macarena](search:Macarena): The northern end of the city, a sincere neighborhood where tourist influence is minimal. You will find local shopkeepers and more affordable accommodation options here. It is about a 30-minute walk from the center. Along the way, you walk through the non-touristic, real face of the city; it is the most honest option for those seeking authentic neighborhood life.
+
+## 🚲 Getting from A to B: Move Like a Local
+
+**The golden rule of transportation in Seville is this:** if your destination is within a 20-minute walk, just walk. Since the city is flat, you won't get tired; in fact, you'll reach your destination in the time it would take just to wait for public transport. However, if you do get tired or the distances are longer, there are plenty of smooth-running options at your fingertips.
+
+- **Trust Your Feet:** The heart of the city, Santa Cruz and its surroundings, is entirely pedestrianized. Roads may look confusing on a map, but every street eventually leads to either a square or the Cathedral. Getting lost is a natural part of getting around here—enjoy it.
+
+- **Airport to City Transfer:** The cheapest and most practical way is the bus line named EA (Especial Aeropuerto). You board from the stop right outside the airport exit and reach the center in about 35 minutes. The ticket is 4 Euros and can be purchased directly from the driver with cash. Taxis apply a fixed rate (ranging between 25-30 Euros depending on the number of bags and the time of day).
+- **Sevici (Bike):** Seville has one of the best bike path networks in Europe. You can rent bikes from stations located all over the city. It’s very easy to get a daily or weekly subscription, pick up a bike from one point, and leave it at another. A quick tip: do not ride bikes in the narrow pedestrian streets; locals are quite sensitive about this.
+- **Tram (Metro-Centro):** There is only one tram line in the city, and it runs a very short distance between Plaza Nueva and San Bernardo. It’s particularly pleasant to hop on in front of the Cathedral and cruise down the main street if you’re tired from the heat. You can buy tickets from the machines at the stops (around 1.40 Euros).
+- **uses:** The circular lines C1, C2, C3, and C4, which loop around the city center, will be your most useful ones. These lines quickly transport you between the two banks of the river and the main train station (Santa Justa).
+
+- **Local Tip:** When you board the bus, be sure to validate your ticket in the machines. If you plan to use it frequently, buy a card named "Tarjeta Multiviaje" from tobacco shops (Tabacos) and top it up with credit; this will nearly halve the cost per ride.
+
+## 🏛️ The City's Memory: Iconic Landmarks Must-See
+
+Seville’s list of sights can be found everywhere, but exploring them like a local starts with knowing how to avoid the crowds and the heat. Although most spots require an entrance fee, you can protect both your budget and your time with some strategic planning.
+
+- **Seville Cathedral and Giralda:** This is the largest Gothic cathedral in the world and houses the tomb of Christopher Columbus. Don't expect stairs to climb the Giralda Tower next to it; there are wide ramps designed for horses to go up. Be sure to buy your ticket online weeks in advance (approx. 12-15 Euros). If you're lucky, you might catch a chance to see the interior for free during early Sunday morning mass, but the tourist sections are closed at that time.
+
+- **Real Alcázar:** This is much more than a palace; it’s one of the most elegant examples of Andalusian architecture. If you're a Game of Thrones fan, the gardens will look very familiar. The entrance fee is around 13.50 Euros, and the most important tip to avoid a two-hour wait is to choose the first entry time (09:30) and book in advance. Entry is free during the last hour before closing on Mondays, but these tickets sell out instantly on the online system.
+
+- [Plaza de España](search:Plaza de España): Built in 1929, this massive square is surrounded by ceramic benches dedicated to every city in Spain. Entry is free. However, a small piece of advice: go there at 09:00 AM or at sunset. Sitting on those ceramics during the day can be nearly impossible under the sun. While renting a boat in the canal is a classic, it can feel a bit too touristy; instead, watching street performers dance flamenco on the bridges is much more enjoyable.
+- **Las Setas (Metropol Parasol):** Contrasting with the city's historical texture, this giant wooden structure is the symbol of modern Seville. Viewing the ancient ruins underground is free, but you need a ticket to go up and walk the famous walkway to overlook the city (approx. 15 Euros). This ticket usually includes a drink at the terrace bar. Sunset hours are magical, but the queues can be frustrating; you might prefer the late hours for the night lighting.
+- **Archivo de Indias (General Archive of the Indies):** Right next to the Cathedral, this magnificent building houses all documents from Spain's colonial era. The architecture is grand and often overlooked by many travelers. The best part is that entry is completely free. It’s a great stop to both cool off and take a break among the dusty pages of history.
+
+- **Kiss Alley (Callejón del Beso):** Within the labyrinths of the Santa Cruz neighborhood, find this narrow street whose real name is Calle Reinoso. This street, where opposite balconies almost touch, hosts the city’s romantic legends. Aim for the early hours to take photos; this is the most extreme example of narrow street architecture.
+
+- **Backstreets Between the Cathedral and the Arena (El Arenal Pass):** On the way from the Cathedral to the bullring (La Maestranza), do not take the main road; instead, proceed via Calle García de Vinuesa. This is where locals stop for a few tapas and a drink after work, and where the city's most vibrant and characteristic local bars are hidden.
+
+## 🍴 City Flavor Map: The Capital of Tapas and Sharing
+
+When you walk into a place in Seville, you’ll see three different portion sizes on the menu: Tapa (a small tasting), Media Ración (half portion), and Ración (full portion). If you want to eat like a local, always order a "tapa." This way, you can fill the table and try a bit of everything. Here is an honest list of those famous spots and flavors:
+
+- **Montadito de Pringá:** This is the best sandwich in Seville. A flavor bomb of slow-cooked meats (usually a mix of beef, chicken, and chorizo) served hot in a small bun. You’ll find the best at Bodega Santa Cruz (Las Columnas); despite being right next to the Giralda, it remains a local favorite. The waiters write your order in chalk on the bar—that's how you keep track of your bill.
+
+- **Salmorejo:** Forget Gazpacho (cold tomato soup); Salmorejo is its thicker, creamier, and more filling version. It’s served topped with serrano ham and bits of hard-boiled egg. In that oven-like summer heat, it’s the only thing that brings you back to life.
+
+- **Espinacas con Garbanzos (Spinach with Chickpeas):** Don't dismiss it as just "spinach and chickpeas"; it’s one of Andalusia’s oldest and most characteristic tapas. Prepared with plenty of cumin and garlic, this dish goes perfectly with a glass of local wine. El Rinconcillo (the city’s oldest bar, open since 1670) is the true master of this dish.
+
+- **Carrillada de Cerdo (Iberian Pork Cheek):** Meat braised for hours in a red wine sauce until it falls apart at the touch of a fork. You must try this among the giant wine barrels at Casa Morales, one of Seville’s most honest kitchens.
+
+- **Cazón en Adobo:** Pieces of school shark marinated in cumin, oregano, and vinegar, then fried. It’s crispy on the outside and tender on the inside. Las Golondrinas in the Triana neighborhood has been the local reference point for this tapa for years.
+
+- **Churros con Chocolate:** For breakfast or an afternoon treat, head to Bar El Comercio. In this establishment serving since 1904, the churros are not frozen; they are piped fresh right in front of you, and the hot chocolate served alongside is incredibly thick.
+
+- **Local Tip:** Don’t be swayed by "English Menu" signs in front of restaurants. The truly good places usually post their menu on the wall or write it on a Spanish-only chalkboard. If everyone is standing up in a bar and the noise level is high, you know you’re in the right spot.
+
+## 🤫 Whispers of the City: Local Secrets
+
+In Seville, there comes a point where you need to close the map and trust the city’s own rhythm. When you deviate from the well-known main avenues, you’ll encounter spots known only to the locals, where time flows differently.
+
+- **Nun’s Cookies (Torno):** The city’s sweetest secret is hidden inside its convents. In places like Monasterio de Santa Paula or Convento de San Leandro, nuns have been making handmade cookies for centuries. You ring the bell at the door, place your order through a rotating wooden hatch (torno) without ever seeing the nun, and leave your money. This is the city’s most intimate and traditional shopping ritual.
+
+- **Kiss Alley (Callejón del Beso):** Deep in the Santa Cruz neighborhood, there is a street so narrow that the balconies opposite each other almost touch. Its official name is Calle Reinoso, but everyone knows it as "Kiss Alley." Narrow enough for two neighbors to lean out and kiss from their balconies, this street is the most romantic proof of the city’s labyrinthine structure.
+
+- **The Secret Garden:** Casa de Pilatos: If you’re tired of the crowds at the Alcázar, head to this palace which is much less known but at least as mesmerizing. With its tiled courtyards and quiet gardens, this is a hidden oasis of peace within the city. If you go in the late afternoon, you can almost have the place to yourself.
+- **The Break Between the Arena and the Cathedral:** While walking from the Cathedral toward the Bullring (Maestranza), pass through Calle García de Vinuesa. This is where locals step away from the tourist groups to pause for a glass of wine and a slice of ham in the late afternoon. Standing at a bar like La Antigua Bodeguita to grab a quick bite and feel the street’s energy is a true Seville ritual.
+
+- **The Backstreets of El Arenal:** Calle Adriano and the surrounding side streets near the Arena are the locals' favorite spots for a "tapeo" (tapas crawl), whether there’s a bullfight happening or not. Here, you feel like you’ve stepped out of the Cathedral’s shadow and into a real neighborhood bar; the excitement of the crowds here on match or ceremony days is unlike anywhere else in the city.
+
+- [Calle Feria Flea Market](search:Calle Feria Flea Market): Held every Thursday morning, El Jueves is the city’s oldest outdoor market. You can find everything here, from vintage flamenco dresses to old vinyl records. After exploring the market, it’s a common local tradition to have a cold beer with fresh seafood at the nearby Mercado de Feria (neighborhood market).
+- **Free Flamenco:** La Carbonería: While everyone else heads to expensive flamenco shows, locals drop by this old coal warehouse in the evening. Entry is free, and while the interior is a bit rustic, the soul is authentic. You might witness an impromptu dance or song while sipping your drink at long wooden tables.
+
+- **Santa Cruz at Midnight:** Explore the Santa Cruz neighborhood after 01:00 AM, when it’s no longer crowded with tourists. When the streets are completely empty, the echoes between the buildings and the light from the lanterns reveal the city’s true medieval face.
+
+- **Local Warning:** Some outlying districts of Seville (such as Los Pajaritos or Polígono Sur) are remote and not particularly safe for a tourist to stumble into. It’s always best to keep your exploration within the historic center and the lively surrounding neighborhoods.
+
+## ✅ The Seville Checklist: Don't Leave Without Doing These
+
+- **Sunset on Calle Betis:** Walk along the riverbank at sunset; the golden reflections of the buildings on the opposite shore offer the most romantic view of the city’s skyline.
+
+- **Chalk-Written Bills:** Experience your order being written in chalk on the wooden bar or table in a traditional taberna; this old-school method is a living testament to Seville’s speed and heritage.
+
+- **The Churros Ritual:** Have breakfast at Bar El Comercio, dipping those massive churros into thick hot chocolate; the decor from 1904 adds a historic atmosphere to your morning.
+
+- **Intentional Wandering:** Get lost on purpose in the labyrinth of Santa Cruz; tuck your map away and follow the scent of jasmine and the cool breeze through the narrowest alleys.
+
+- **Nun’s Cookies (Torno):** Buy handmade cookies through the rotating hatch (torno) at a convent gate; hearing only a voice during this mysterious transaction will transport you straight back to the Middle Ages.
+
+- [Flamenco at Plaza de España](search:Flamenco at Plaza de España): Stand on the bridges of the square and watch street performers put on an impromptu show; the rhythmic footwork paired with the grandeur of the ceramics explains why this is the heart of flamenco.
+- **Midnight Dining:** Leave your dinner until after 21:00 or 22:00 like a local; you’ll see that restaurants only reach their peak energy and full capacity at that hour.
+
+- **Tinto de Verano Refreshment:** Cool down with a glass of ice-cold Tinto de Verano; lighter and more refreshing than Sangria, it’s the ultimate local survival tool against the heat.
+
+- **Triana Market Discovery:** Visit Mercado de Triana to taste local cheeses and olives; knowing the market is built over the remains of an ancient castle and Inquisition headquarters adds a haunting depth to your visit.
+- **City View from Las Setas:** Climb to the top of Metropol Parasol; walking on these giant wooden "mushrooms" allows you to witness how ancient history blends with bold modern architecture.
+
+- **Standing Tapas at El Rinconcillo:** Eat a classic Andalusian tapa while standing at El Rinconcillo (the city's oldest bar); you can practically hear the whispers of 350 years of history in every corner.
+- **Peace in the Orange Courtyard:** Sit quietly in the Patio de los Naranjos next to the Cathedral; the sound of the fountain and the scent of orange trees will make you forget the city’s noise in seconds.
+
+- **Azahar Scent (Late March - Early April):** Experience the city when the Azahar (orange blossoms) bloom; for two weeks, the entire city smells like a natural perfume—a sensory memory that will stay with you forever.
+
+- **The Rebujito Experience (April - May):** If you are visiting during the fair season (Feria de Abril), join the festive spirit with a glass of Rebujito (white wine and lime soda); it is the official drink of Seville’s joy.
+
+- **Silence in Kiss Alley:** Pass under the Callejón del Beso (Kiss Alley) after midnight when the crowds are gone; seeing how close two buildings can stand will make you marvel at the city’s medieval architectural wit.
+
+- **Isabel II Bridge Photo:** Take a photo on the Puente de Isabel II (Triana Bridge) with the colorful houses of Triana in the background; it is the most iconic postcard shot, especially during the "blue hour" just after sunset.
+
+- **Fan and Shawl Aesthetics:** Stop by a traditional flamenco shop to admire the colors of handmade fans and shawls; you’ll realize these aren’t just souvenirs but a centuries-old form of expression.
+
+''';
+
+
+  // ISTANBUL
+  static const _istanbulTR = '''# İstanbul'u Yaşama Sanatı: Kapsamlı Rehber 🇹🇷
+
+İstanbul sadece gezilecek bir yer değil, hissedilecek bir şehirdir. Kaotik, büyüleyici ve çok katmanlı. İşte bu şehri gerçek bir lokal gibi deneyimlemenin harmanlanmış rehberi.
+
+## 📅 Ne Zaman Gidilir?
+- **Erguvan Mevsimi (Nisan-Mayıs):** Şehir mora boyanır, hava yürüyüş için idealdir. Boğaz hattı bu dönemde bir başka güzel olur.
+- **Sonbahar (Eylül-Kasım):** Şehrin en romantik zamanı. Turist kalabalığı azalır, İstanbul'un o tatlı hüznü çöker.
+- **İpucu:** Temmuz-Ağustos sıcaklarından kaçınmaya çalışın; nemli hava yokuşları tırmanmayı zorlaştırabilir.
+
+## 🏘️ Semt Rehberi
+- **Karaköy & Galata:** Modern sanat, graffitiler ve tasarım dükkanlarıyla dolu. Sokaklarında kaybolmak için en iyi bölge.
+
+- [Moda (Kadıköy)](search:Moda (Kadıköy): Şehrin nefes alanı. Sahilde çimlere yayılmak, vintage dükkanları gezmek ve sakinliği hissetmek için birebir.
+- [Cihangir & Çukurcuma](search:Cihangir & Çukurcuma): Antikacılar, kediler ve entelektüel bir hava. Merdivenli sokaklarında harika fotoğraf kareleri yakalarsınız.
+
+## 🍽️ Ne Yenir ve İçilir?
+- **Kahvaltı Ritüeli:** Otel kahvaltısını boşverin. *Beşiktaş Kahvaltıcılar Sokağı*'nda veya Cihangir/Moda ara sokaklarında "serpme kahvaltı" kültürünü yaşayın. Pişi ve Menemen olmazsa olmaz.
+- **Sokak Lezzetleri:** 
+- **Midye Dolma:** Tabakta değil, tezgah başında yenir. Limonu sıkın, tadını çıkarın.
+
+- **Balık Ekmek:** Eminönü'ndeki turistik tekneler yerine, Karaköy hırdavatçılar çarşısının oradaki daha salaş tezgahları keşfedin.
+
+- **Meyhane Kültürü:** Akşam yemeği için *Asmalımescit* yerine, daha lokal kalan *Yeniköy* veya *Kadıköy Güneşli Bahçe Sokak* taraflarını deneyin.
+
+
+## 🚇 Ulaşım & Pratik Bilgiler
+- **İstanbulKart:** Şehrin anahtarı. Vapur, metro, otobüs her yerde geçer.
+- **Vapur Terapisi:** Sadece bir ulaşım aracı değil, dünyanın en güzel manzaralı yolculuğudur. Bir çay söyleyin, simidinizi martılarla paylaşın.
+
+- **Metro ve Trafik:** Trafik saatlerinde taksi bulmak imkansızlaşabilir. Metro (M2) ve Tramvay (T1) ağını kullanmak her zaman en hızlı çözümdür.
+
+## 💎 Lokal Sırlar & İpuçları
+- **Alternatif Gün Batımı:** Galata Kulesi önündeki kuyrukta saatler harcamayın. Çevredeki teraslı kafeler veya Üsküdar *[Salacak](search:Salacak)* sahili, tarihi yarımada silüetini izlemek için çok daha keyiflidir.
+
+- **Şehrin Gerçek Sahipleri:** Kediler her yerde. Onlara saygılı davranın; onlar İstanbul'un ruhudur.
+
+- **Müze Kart:** Uzun bilet kuyruklarından kurtulmak için mutlaka bir müze kart edinin veya biletinizi online alın.''';
+
+  static const _istanbulEN = '''# The Art of Experiencing Istanbul 🇹🇷
+
+Istanbul is not just a destination; it's a feeling. It's chaotic, mesmerizing, and deeply historical all at once. Here is a curated guide to navigating this multi-layered city like a pro.
+
+## 📅 Best Time to Visit
+- **Spring (April-May):** The city turns pink with Juda trees (Erguvan). The weather is crisp, perfect for long Bosphorus walks.
+- **Autumn (Sept-Nov):** Locals' favorite season. The melancholy of the Bosphorus is best enjoyed with a light jacket.
+- **Tip:** Avoid mid-summer if you can; the humidity can be overwhelming for exploring on foot.
+
+## 🏘️ Neighborhood Guide
+- **Karaköy & Galata:** The heart of the modern vibe. Full of street art, hidden courtyards, and design shops. Great for getting lost.
+
+- [Moda (Asian Side)](search:Moda (Asian Side): A laid-back, residential haven. Think seaside promenades, tea gardens, and a very "local" feel.
+- [Cihangir & Çukurcuma](search:Cihangir & Çukurcuma): Famous for antique shops and bohemian cafes. You might spot a few writers or actors here.
+
+## 🥯 Gastronomy Route
+- **Breakfast Ritual:** Skip the hotel buffet. Authenticity lies in *Beşiktaş Kahvaltıcılar Sokağı* (Breakfast Street) or the backstreets of Cihangir and Moda.
+- **Street Eats:** 
+
+- **Midye Dolma (Stuffed Mussels):** A night-out tradition. Eat them standing at the stall, squeeze lemon, repeat.
+
+- **Balık Ekmek (Fish Sandwich):** Instead of the rocky boats in Eminönü, try the local grillers in the backstreets of Karaköy fish market.
+
+- **Coffee Culture:** While Turkish coffee is a must, the third-wave coffee scene is exploding in areas like Topağacı and Moda.
+
+## 🚇 Transportation & Logistics
+- **Istanbulkart:** Essential. Buy one at any metro station; it works on ferries, buses, and trams.
+- **The Ferry Experience:** The best way to commute. Taking a ferry from Europe to Asia at sunset is cheaper and better than any paid tour.
+- **Metro vs Taxi:** Traffic is unpredictable. Rely on the Metro (M2) and Tram (T1) networks to bypass the gridlock.
+
+## 💎 Local Secrets & Insights
+- **Sunset Views:** Skip the long queue at Galata Tower. Instead, head to a rooftop terrace nearby or cross to the Asian side to *[Salacak](search:Salacak)* to watch the silhouette of the old city.
+
+- **Cat Capital:** Istanbul belongs to its cats. You'll see them everywhere; they are community-cared and highly respected.
+- **Museum Pass:** Highly recommended to save time in ticket lines for major attractions like Topkapi Palace.''';
+
+  // PARIS
+  static const _parisTR = '''# Paris: Estetiğin ve Işığın Hiç Sönmediği Şehir
+
+**Hızlı Bakış**: Paris, "La Ville Lumière" (Işıklar Şehri) unvanını sadece sokak aydınlatmasına değil, yaydığı sanatsal ve entelektüel enerjiye borçludur. Geniş bulvarları süsleyen Haussmann tarzı binalar, dantel gibi işlenmiş balkonlar ve her köşe başında yükselen taze kruvasan kokulu boulangerie’ler şehrin asıl kimliğidir. Burada hayat, Eyfel Kulesi’nin ikonik silüeti ile Seine Nehri’nin huzurlu akışı arasında, o meşhur "yaşam sanatı" (art de vivre) felsefesiyle şekillenir. Gitmeden önce bilmeniz gereken en kritik "lokal racon" ise nezaketin gücüdür. Bir kafeye girdiğinizde ya da birine bir şey danıştığınızda söze mutlaka "Bonjour" (Günaydın/Merhaba) diyerek başlamalısınız; bu basit kelime, Paris’in bazen mesafeli görünen kapılarını size sonuna kadar açacak olan asıl anahtardır.
+
+## 📅 Takviminizi Ayarlayın: Hangi Mevsim Sizin?
+
+Paris'in büyüsü, gökyüzünün rengiyle birlikte değişen dev bir film sahnesi gibidir; her mevsim bulvarlarda, parklarda ve nehir kıyısında bambaşka bir hikaye anlatır.
+
+- **İlkbahar (Mart - Mayıs):** Paris’in en romantik, adeta bir film karesi gibi olduğu dönemdir. Trocadéro'da kiraz ağaçlarının (cherry blossoms) çiçek açtığı, Tuileries Bahçesi’nin canlandığı bu mevsim, şehri uzun yürüyüşlerle keşfetmek için kusursuzdur.
+- **Yaz (Haziran - Ağustos):** Günlerin en uzun, enerjinin en yüksek olduğu zamanlar. Seine Nehri kenarında kurulan "Paris Plages" (Paris Plajları) ile sahil havasının şehre taşındığı, açık hava festivallerinin her sokağı sardığı dönemdir. Ağustos ayında yereller şehri terk etse de, Paris tüm canlılığıyla parlamaya devam eder.
+- **Sonbahar (Eylül - Kasım):** Şehrin sarı ve turuncunun her tonuna büründüğü, melankoliyle estetiğin iç içe geçtiği mevsimdir. Jardin du Luxembourg’da dökülen yapraklar arasında yürümek ve hafif serin havada bir sanat galerisine sığınmak gerçek bir Paris klasiğidir.
+- **Kış (Aralık - Şubat):** Gri gökyüzüne inat, Paris’in ışıklarla gerçek bir masal şehrine dönüştüğü dönemdir. Champs-Élysées’nin devasa aydınlatmaları, Galeries Lafayette’in görkemli Noel ağacı ve kafelerden yükselen taze sıcak çikolata kokusuyla şehir büyüleyici bir sessizliğe bürünür.
+
+## 🏠Nerede Kalmalı: Mahalle Rehberi
+
+Paris’te nerede konakladığınız, sabah pencereyi açtığınızda bir sanatçının tuvaline mi, şık bir moda evinin vitrinine mi yoksa Seine Nehri’nin huzurlu akışına mı uyanacağınızı belirler. Şehir, arrondissement adı verilen ve sarmal bir yapıyla merkeze yayılan 20 bölgeden oluşur; her bölge kendi içinde apayrı bir kimlik taşır.
+- **Le Marais (3. & 4. Bölge):** Paris’in en eski ve tartışmasız en "cool" mahallesidir. Orta çağdan kalma dar sokakları, gizli avluları ve butik tasarım dükkanlarıyla hem tarihi hem de modern bir ruhu aynı anda sunar. Şehrin tam kalbinde olması nedeniyle her yere ulaşım çok kolaydır; bütçe olarak üst segmentte yer alsa da Paris’in o meşhur dokusunu en iyi hissedeceğiniz yer burasıdır. Ancak hafta sonları iğne atsanız yere düşmeyen kalabalığına ve küçük, asansörsüz binalarına hazırlıklı olmalısınız.
+- **Saint-Germain-des-Prés (6. Bölge):** Entelektüel Paris’in, Hemingway ve Sartre’ın izlerinin hala silinmediği, zarafetin zirve noktasıdır. Sanat galerileri, antikacılar ve lüks kafelerle çevrili bu mahalle, "Eski Para" (Old Money) şıklığını yaşatır. Konaklama fiyatları Paris’in en yüksekleri arasındadır ancak karşılığında son derece güvenli, rafine ve her köşesi tablo gibi bir atmosfer sunar. Burası, Paris’i bir turist gibi değil, asil bir Parisli gibi yaşamak isteyenlerin adresidir.
+- **Montmartre (18. Bölge):** Şehrin en yüksek tepesinde, Sacré-Cœur Bazilikası’nın gölgesinde yer alan sanatçı ruhlu mahalledir. Arnavut kaldırımlı yokuşları, asma bahçeleri ve Amélie filminden fırlamış gibi duran kafeleriyle romantizm arayanlar için rakipsizdir. Merkeze biraz uzak olsa da fiyatlar diğer bölgelere göre daha makul olabilir. Tek zorluğu, valizlerle çıkılması imkansız olan o meşhur dik merdivenleri ve akşamları bazı sokaklarının aşırı turistik/kalabalık olmasıdır.
+- **Canal Saint-Martin (10. Bölge):** Genç, dinamik ve "Bobo" (Burjuva-Bohem) kültürünün merkezidir. Nehir kıyısında oturan gençler, tasarım fırınlar ve konsept barlar ile turistlerden çok yerel Parisli hayatına tanıklık edersiniz. Diğer bölgelere göre bütçe dostu seçenekler sunması büyük bir avantajdır. Ancak Paris’in en parlatılmış yüzü yerine, daha ham ve çok kültürlü bir doku arayanlara hitap eder; bazı ara sokakları gece saatlerinde fazla salaş hissettirebilir.
+- **7. Bölge (Eyfel Kulesi Çevresi):** Paris denince akla gelen o ikonik silüetin tam merkezidir. Geniş Haussmann bulvarları, prestijli müzeler ve kule manzaralı otelleriyle tam bir turizm merkezidir. Geceleri oldukça sessiz ve sakin olan bu bölge, aileler için ideal ve güvenlidir. Ancak gerçek yerel hayattan biraz kopuk olması ve restoran fiyatlarının kule manzarası nedeniyle "ekstra" şişirilmiş olması göz önünde bulundurulmalıdır.
+
+## 🚲 A Noktasından B Noktasına: Bir Lokal Gibi Hareket Edin
+
+Paris ulaşımı, dünyanın en eski ve en karmaşık metro ağlarından birine sahip olsa da, aslında her bölgesi birbirine oldukça yakın ve keşfedilmeye açık bir düzende kurgulanmıştır.
+- **Havalimanından Şehre:** Paris’in ana havalimanı olan Charles de Gaulle (CDG)’den merkeze ulaşmanın en hızlı ve yaygın yolu RER B banliyö trenidir; yaklaşık 12€ karşılığında 40-50 dakikada şehrin ana istasyonlarına varabilirsiniz. Daha konforlu bir seçenek arayanlar için şehir merkezine sabit fiyat uygulamasıyla çalışan resmi taksiler (yaklaşık 55-65€) mevcuttur; Orly Havalimanı’ndan ise Orlybus veya Orlyval aktarmalı tren seçenekleriyle şehre kolayca bağlanabilirsiniz.
+- **Şehir İçi Ulaşım (Metro, RER, Otobüs):** Paris metrosu, 14 hattı ile şehrin adeta sinir sistemidir; özellikle 1 numaralı hat otomatik ve çok hızlıdır, 6 numaralı hat ise Eyfel Kulesi manzarasıyla en popüler rotadır. Artık kağıt biletlerin yerini alan "Navigo Easy" kartını istasyonlardan temin edip içine biniş yükleyerek veya telefonunuzdaki NFC özelliğiyle turnikelerden hızlıca geçebilirsiniz. Şehir içinde daha geniş bir ağ sunan otobüsler ise, metro tünellerinde kaybolmak yerine Paris'in estetik sokaklarını izleyerek yolculuk yapmak isteyenler için harika bir alternatiftir.
+- **Yürüyüş ve Bisiklet:** Paris aslında oldukça kompakt bir şehirdir; örneğin Louvre’dan çıkıp Tuileries Bahçeleri üzerinden Şanzelize’ye yürümek, şehrin ruhunu hissetmek için en iyi yoldur. Şehir genelinde çok yaygın olan "Velib'" bisiklet paylaşım sistemiyle, Paris Belediyesi’nin son yıllarda genişlettiği bisiklet yollarını kullanarak nehir boyunca pedal çevirmek hem yerel bir alışkanlık hem de çok keyifli bir ulaşım yöntemidir.
+- **Lokal İpucu:** Paris metrosu ve toplu taşıma araçlarında sessizlik ve kişisel alana saygı çok önemlidir; ayrıca kalabalık vagonlara binerken veya inerken "Pardon" diyerek yol istemek, Parisli nezaketinin bir parçasıdır. Kısa mesafeler için metroya binmek yerine yürümeyi tercih edin; Paris'te bir duraklık mesafe genellikle yerin altına inip çıkma zahmetine değmeyecek kadar yakındır.
+
+## 🏛️ Şehrin Hafızası: Görülmesi Gereken İkonik Duraklar
+
+Paris'in taşları sadece yapı değil; her biri sanatın, devrimin ve aşkın sessiz tanığıdır. Bu duraklar, şehrin yüzyıllara yayılan ihtişamını ve estetik takıntısını anlamanız için birer zaman makinesi görevi görür.
+
+- **Eyfel Kulesi (La Tour Eiffel):** Şehrin "Demir Hanım"ı. 1889 Dünya Fuarı için geçici olarak inşa edilen bu devasa yapı, o dönem sanatçılar tarafından "estetik bir kirlilik" olarak nitelendirilmiş olsa da bugün dünyanın en çok ziyaret edilen ücretli anıtıdır. Tarihi bir efsaneye göre kuleyi hiç sevmeyen yazar Guy de Maupassant, her gün öğle yemeğini kulenin içindeki restoranda yermiş. Sebebi sorulduğunda ise; "Burası koca Paris'te bu çirkin demir yığınını görmediğim tek nokta!" dermiş.
+- [Louvre Müzesi](search:Louvre Müzesi): Dünyanın en büyük sanat müzesi. Sadece Mona Lisa’yı değil, antik dönemden modern çağa kadar 35.000’den fazla eseri barındırır. Müzenin bahçesindeki cam piramit, geçmişin klasik dokusuyla geleceğin modern mimarisini birleştirir. Bir bilgi olarak, eğer müzedeki her esere sadece 30 saniye baksanız, Louvre’u tamamen bitirmeniz yaklaşık 100 gün sürecektir.
+- **Notre-Dame Katedrali:** Gotik mimarinin zirvesi. 2019’daki büyük yangından sonra titizlikle restore edilen katedral (2026 yılı itibarıyla kapılarını tekrar açmış durumda), sadece dini bir yapı değil, Victor Hugo’nun kaleminden çıkan o ölümsüz hikayenin de evidir. Girişteki "Point Zéro" (Sıfır Noktası) taşı, Fransa’daki tüm mesafelerin ölçüldüğü merkezdir.
+- **Zafer Takı (Arc de Triomphe) ve Champs-Élysées ve Champs-Élysées):** Napolyon’un zaferlerini taçlandırmak için inşa ettirdiği bu devasa anıt, dünyanın en ünlü bulvarının tepesinde yükselir. Takın üzerinden bakıldığında, 12 ana caddenin birleştiği o meşhur "Yıldız" (Etoile) formunu ve Paris’in kusursuz simetrisini görebilirsiniz.
+- [Sacré-Cœur Bazilikası ve Montmartre](search:Sacré-Cœur Bazilikası ve Montmartre): Paris’in en yüksek tepesinde parlayan bembeyaz bir kubbe. Bazilikanın içindeki mozaikler kadar, önündeki merdivenlerden şehre çöken akşam güneşini izlemek de bir Paris ritüelidir. Hemen arkasındaki Ressamlar Meydanı (Place du Tertre), sanatın sokağa taştığı noktadır.
+- [Musée d’Orsay](search:Musée d’Orsay): Eski bir tren istasyonunun sanat tapınağına dönüştürülmüş hali. Monet, Renoir ve Van Gogh gibi empresyonizmin dev isimlerinin eserlerini, o devasa istasyon saatinin arkasından süzülen ışıkla görmek büyüleyici bir deneyimdir.
+- [Sainte-Chapelle](search:Sainte-Chapelle): Louvre'un yakınında bulunan bu küçük şapel, Paris’in en büyük "ışık gösterisi"dir. Duvarlarını kaplayan 15 metrelik muazzam vitray pencereler, içeri girdiğinizde sizi binlerce renkli camdan oluşan bir mücevher kutusunun içindeymişsiniz gibi hissettirir.
+- **Seine Nehri ve Köprüler:** Paris'in ana damarı. Nehir boyunca yürürken göreceğiniz Pont Neuf (en eski köprü) ve altın varaklı heykelleriyle III. Alexandre Köprüsü, şehrin neden "Işıklar Şehri" olduğunu kanıtlar niteliktedir.
+
+
+## 🍴 Şehrin Lezzet Haritası: Gastronominin Başkenti
+
+Paris’te yemek yemek, sadece karnınızı doyurmak değil; UNESCO Dünya Mirası listesine girmiş bir ritüelin, yani "Fransız usulü sofranın" bir parçası olmaktır. Şehir, sabahın ilk ışıklarında fırınlardan yükselen tereyağı kokusundan, gece geç saatlere kadar devam eden şık restoran ışıklarına kadar tam bir lezzet tapınağıdır.
+
+- **Kruvasan & Pain au Chocolat:** Paris güne bu ikiliyle başlar. Gerçek bir kruvasan dışı çıtır, içi ise kat kat ve bol tereyağlı olmalıdır. Bir boulangerie (fırın) önünden geçerken aldığınız sıcak kruvasanı sokakta yürürken ısırmak en temel Paris ritüelidir.
+- **Soupe à l’Oignon (Fransız Soğan Çorbası):** Orta Çağ’dan beri sofralarda olan bu klasik; karamelize soğan, et suyu ve üzerine eritilmiş bolca Gruyère peynirli kızarmış ekmekle servis edilir. Özellikle serin bir Paris akşamında içilebilecek en "konforlu" yemektir.
+- **Steak Frites:** Fransız bistrolarının sarsılmaz kalesi. Kusursuz pişmiş bir antrikot, yanında çıtır patates kızartması ve genellikle üzerinde eritilen "Béarnaise" veya şarap bazlı bir sos... Basit ama her lokmasında Fransız ustalığını hissettiren bir ana yemek.
+- **Confit de Canard (Ördek Konfi):** Ördek budunun kendi yağında saatlerce yavaşça pişirilmesiyle hazırlanır. Dışı çıtır, içi ise ağızda dağılan bu yemek, Fransız mutfağının en asil ve lezzetli tekniklerinden biridir.
+- **Escargot (Salyangoz):** Paris’e gelip de en az bir kez denemeden dönmemeniz gereken o meşhur lezzet. Genellikle bol sarımsak, maydanoz ve tereyağı ile fırınlanan bu başlangıç, sandığınızdan çok daha yumuşak ve aromatik bir tada sahiptir.
+- **Peynir Tablosu (Plateau de Fromages):** Fransa'da 1000'den fazla peynir çeşidi vardır. Yemekten sonra, tatlıdan hemen önce sunulan bir peynir tabağı; Brie, Camembert ve Roquefort gibi yıldızlarla Paris deneyiminizi bir üst seviyeye taşır.
+- **Macaron & Ekler:** Paris, tatlı tasarımının dünyadaki merkezidir. Ladurée veya Pierre Hermé’de bir makaronun renkli dünyasına dalabilir ya da bir pâtisserie vitrininde sanat eseri gibi duran çikolatalı eklerlerin tadına bakabilirsiniz.
+- **Hap Bilgi:** Paris restoranlarında "carafe d'eau" (sürahi su) istemek ücretsizdir ve musluk suyu son derece kalitelidir; boşuna şişe suyuna para harcamayın. Ayrıca hesaba servis ücreti dahildir, bu yüzden yüklü miktarda bahşiş bırakmak zorunda değilsiniz, ancak memnuniyetinizi belirtmek için masaya birkaç Euro bırakmak kibar bir harekettir.
+
+## 🤫 Şehrin Fısıldadıkları: Lokal Sırlar
+
+Paris, görkemli bulvarlarından çok daha fazlasıdır; asıl ruhu, ağır ahşap kapıların ardındaki gizli avlularda ve turistlerin genellikle es geçtiği dar pasajlarda saklıdır. Işıklar Şehri’nin kalabalığından sıyrılıp gerçek bir Parisli gibi hissedeceğiniz o özel noktaları keşfedin.
+
+- **Les Passages Couverts (Gizli Pasajlar):** 19. yüzyıldan kalma, üstü camla kaplı bu estetik pasajlar, Paris’in ilk "alışveriş merkezleri" sayılır. Özellikle Galerie Vivienne ve Passage des Panoramas; eski kitapçıları, antikacıları ve loş ışıklı kafeleriyle sizi bir anda zaman yolculuğuna çıkarır. Yağmurlu bir Paris gününde sığınabileceğiniz en zarif noktalardır.
+- **Square Rapp:** Eyfel Kulesi'ni en görkemli ve en "yalnız" haliyle fotoğraflamak istiyorsanız, 7. bölgedeki bu gizli çıkmaz sokağa sapın. Turist otobüslerinin uğramadığı bu nokta, kulenin demir ağlarını Haussmann binalarının arasından devasa bir tablo gibi sunar.
+- [Musée de la Vie Romantique](search:Musée de la Vie Romantique): Montmartre’ın eteklerinde, kalabalıktan tamamen izole edilmiş bu müze evi, Paris'in "Romantik Dönem" ruhunu yaşatır. Müzenin bahçesindeki o meşhur çay bahçesi, salkım söğütlerin altında kruvasanınızı yerken dünyanın geri kalanını unutabileceğiniz bir sığınaktır.
+- [Arènes de Lutèce](search:Arènes de Lutèce): Paris’in göbeğinde, 5. bölgede bir Roma tiyatrosu kalıntısı olduğunu çok az kişi bilir. M.S. 1. yüzyıladan kalma bu antik alanda bugün yerel amcalar pétanque (Fransız demir top oyunu) oynar, gençler ise basamaklarda oturup şaraplarını yudumlar. Paris’in en eski ama en yaşayan sırrıdır.
+- [59 Rivoli](search:59 Rivoli): Şehrin en işlek caddelerinden birinde, bir zamanlar sanatçılar tarafından "işgal edilmiş" eski bir banka binası. Bugün ise her katında farklı sanatçıların atölyelerinin olduğu, duvarların grafiti ve heykellerle dolu olduğu yaşayan bir sanat merkezi. İçeri girip sanatçılarla sohbet edebilir, yaratım sürecine tanık olabilirsiniz.
+- **Promenade Plantée (Coulée verte René-Dumont):** New York'taki High Line'a ilham veren orijinal rota burasıdır. Eski bir demir yolu hattı üzerine kurulu bu yerden yüksek park, Bastille'den başlayıp şehrin içinden ağaçlar arasından geçerek ilerler. Paris’e yukarıdan bakmak için en huzurlu yoldur.
+
+## ✅ Mutlaka Yapmadan Dönme: Paris Checklist
+
+- Eyfel Kulesi’nin her saat başı başlayan o büyüleyici ışık gösterisini Trocadéro Meydanı’ndan izle; kuleyi bir de gece, tüm ışıltısıyla gör.
+- Sabah erkenden, mahalle arasındaki bir fırının (boulangerie) önündeki kuyruğa girip sıcacık, bol tereyağlı bir kruvasan al ve sokakta yürürken tadına bak.
+- Seine Nehri kıyısında, özellikle gün batımında uzun bir yürüyüş yap; nehir kenarındaki ikonik sahaf tezgahlarını (bouquinistes) incele.
+- Yeniden kapılarını açan Notre-Dame Katedrali'nin önünde durup Gotik mimarinin o devasa ihtişamına yakından tanıklık et.
+- Lüksemburg Bahçeleri’ndeki meşhur yeşil metal sandalyelerden birine kurul; sadece kitap oku, kahveni iç ve Paris’in o yavaş akan ritmini izle.
+- Louvre Müzesi’nin cam piramidinin altında bir fotoğraf çekil ve müzenin içinde kaybolurken sanat tarihinin en büyük dehalarıyla selamlaş.
+- Montmartre tepesine çık, Sacré-Cœur merdivenlerinde oturup şehre tepeden bakarken bir sokak sanatçısının melodisine eşlik et.
+- Geleneksel bir Paris bistrosunda, üzerinde peyniri uzayan sıcak bir soğan çorbası veya ağızda dağılan bir ördek konfi ye.
+- Le Marais bölgesinin dar sokaklarında kaybol; butik dükkanları keşfedip gizli bir avluda kahve molası ver.
+- 19. yüzyıldan kalma gizli pasajlardan (özellikle Galerie Vivienne) en az birine gir ve zamanda yolculuk yap.
+- **Ve en önemli kural:** Herhangi bir dükkana girdiğinde veya biriyle konuşmaya başlarken o sihirli kelimeyi, "Bonjour"u söylemeyi sakın unutma!''';
+
+  static const _parisEN = '''# Paris: The City of Aesthetics and Eternal Light
+
+**Quick Glimpse**: Paris owes its title "La Ville Lumière" (The City of Light) not just to its early adoption of street lighting, but to the artistic and intellectual energy it radiates. The city's true identity lies in the Haussmann-style buildings lining wide boulevards, lace-like balconies, and the scent of fresh croissants wafting from boulangeries on every corner. Life here is shaped by the iconic silhouette of the Eiffel Tower, the gentle flow of the Seine, and the famous philosophy of "art de vivre" (the art of living). The most critical "local etiquette" to know before you go is the power of politeness: always start a conversation in a café or when asking for help with a "Bonjour" (Good morning/Hello). This simple word is the ultimate key that opens the sometimes-distant doors of Paris.
+
+## 📅 Timing is Everything: Which Season is Yours?
+
+The magic of Paris is like a giant movie set that changes with the color of the sky; every season tells a different story along the boulevards, in the parks, and by the river.
+
+- **Spring (March - May):** The most romantic time, looking straight out of a film. With cherry blossoms at Trocadéro and the Tuileries Garden coming to life, this season is perfect for exploring the city through long walks.
+- **Summer (June - August):** When days are longest and energy is highest. "Paris Plages" (Paris Beaches) bring a seaside vibe to the Seine, and open-air festivals fill every street. While locals flee the city in August (Ferragosto), Paris continues to glow with vibrancy.
+- **Autumn (September - November):** A season where the city turns shades of yellow and orange, blending melancholy with aesthetics. Walking through fallen leaves in the Jardin du Luxembourg and sheltering in an art gallery during a light drizzle is a true Parisian classic.
+- **Winter (December - February):** Defying the grey skies, the city turns into a fairy tale with festive lights. With the grand illuminations of the Champs-Élysées, the massive tree at Galeries Lafayette, and the scent of hot chocolate from cozy cafés, the city embraces a magical stillness.
+
+## 🏠 Where to Stay: Neighborhood Guide
+
+Where you stay in Paris determines whether you wake up to an artist's canvas, a chic fashion house window, or the peaceful flow of the Seine. The city is divided into 20 districts called "arrondissements," each with its own distinct identity.
+
+- **Le Marais (3rd & 4th Arr.):** The oldest and arguably "coolest" neighborhood. It offers a mix of history and modernity with medieval streets, hidden courtyards, and boutique design shops. Its central location makes it easy to get everywhere. Be prepared for weekend crowds and small, elevator-less buildings.
+- **Saint-Germain-des-Prés (6th Arr.):** The pinnacle of elegance, where the footsteps of Hemingway and Sartre still echo. Surrounded by art galleries, antique shops, and luxury cafés, this area exudes "Old Money" chic. Prices are among the highest, but it offers a safe, refined, and picturesque atmosphere for those who want to live like a noble Parisian.
+- **Montmartre (18th Arr.):** An artistic village on the city's highest hill, under the shadow of the Sacré-Cœur. With its cobblestone slopes and cafés looking like they’re from the movie Amélie, it is unrivaled for romance. While a bit far from the center, prices can be more reasonable. The challenge: the famous steep stairs and tourist crowds in the evenings.
+- **Canal Saint-Martin (10th Arr.):** The heart of young, dynamic "Bobo" (Bourgeois-Bohemian) culture. Here, you’ll witness local Parisian life—youth by the canal, artisanal bakeries, and concept bars. It offers budget-friendly options but has a rawer, multicultural feel that might seem a bit gritty in certain alleys at night.
+- **7th Arrondissement (Eiffel Tower Area):** The heart of that iconic silhouette. With wide Haussmann boulevards, prestigious museums, and hotels with tower views, it is a tourism hub. It’s quiet and safe at night, ideal for families, though it can feel a bit detached from "everyday" local life.
+
+## 🚲 Getting from A to B: Move Like a Local
+
+Parisian transport is one of the oldest and most complex in the world, yet it is designed in a way that makes every district feel accessible.
+
+- **Airport to the City:** From Charles de Gaulle (CDG), the RER B train is the fastest way, reaching the city in 40-50 minutes (~€12). Official white taxis have fixed rates (~€55-65) to the center. From Orly, use the Orlybus or Orlyval.
+- **City Transit (Metro, RER, Bus):** The Metro is the city's nervous system. Line 1 is automatic and fast; Line 6 offers the best Eiffel Tower views. Use the "Navigo Easy" card or your phone's NFC to tap through turnstiles. Buses are a great alternative for those who want to see the streets instead of tunnels.
+- **Walking & Cycling:** Paris is compact. Walking from the Louvre to the Champs-Élysées is the best way to feel the city. The "Vélib'" bike-sharing system is a local favorite for riding along the river.
+- **Local Tip:** Silence and personal space are valued on the Metro. Saying "Pardon" when moving through crowds is a staple of Parisian politeness. For short distances, walking is often faster than descending into the Metro.
+
+## 🏛️ The City's Memory: Iconic Landmarks Must-See
+
+The stones of Paris are more than just structures; they are silent witnesses to art, revolution, and love. These stops serve as time machines to understand the city's centuries-old grandeur.
+
+- **The Eiffel Tower (La Tour Eiffel):** The "Iron Lady" of the city. Built for the 1889 World's Fair, it was once called an "aesthetic eyesore" by artists, but today it is the world's most visited paid monument. Historic Legend: The writer Guy de Maupassant, who famously hated the tower, ate lunch at its restaurant every day. When asked why, he replied: "It's the only place in all of Paris where I don't have to see this ugly iron heap!"
+- **The Louvre Museum:** The world's largest art museum. It houses over 35,000 works, from the Mona Lisa to ancient antiquities. The glass pyramid in the courtyard blends classical heritage with modern architecture. Worth knowing; if you spent only 30 seconds looking at each piece of art, it would take you about 100 days to finish the Louvre.
+- **Notre-Dame Cathedral:** The pinnacle of Gothic architecture. Meticulously restored after the 2019 fire (now reopened as of 2026), it is the home of Victor Hugo’s immortal story. The "Point Zéro" stone at the entrance is the geographic center from which all distances in France are measured.
+- **Arc de Triomphe & Champs-Élysées:** Commissioned by Napoleon to celebrate his victories, this monument stands at the top of the world's most famous boulevard. From the top, you can see the perfect symmetry of the "Star" (Etoile) where 12 avenues meet.
+- **Sacré-Cœur Basilica & Montmartre:** A white dome shining atop the city's highest point. Watching the sunset from its steps is a true Parisian ritual. Behind it lies Place du Tertre, where art spills onto the streets.
+- [Musée d’Orsay](search:Musée d’Orsay): A former train station turned art temple. Seeing works by Monet, Renoir, and Van Gogh under the light of the massive station clock is a mesmerizing experience.
+- [Sainte-Chapelle](search:Sainte-Chapelle): This small chapel is Paris's greatest "light show." Its 15-meter stained glass windows make you feel like you're inside a jewel box made of thousands of colored pieces of glass.
+
+## 🍴 A Taste of the City: The Capital of Gastronomy
+
+Dining in Paris is not just about eating; it is a ritual listed as UNESCO World Heritage: "The gastronomic meal of the French."
+
+- **Croissant & Pain au Chocolat:** Paris starts the day with this duo. A real croissant should be crispy on the outside and buttery/flaky on the inside. Grabbing a warm one from a boulangerie and eating it while walking is a core ritual.
+- **Soupe à l’Oignon (French Onion Soup):** A classic served with caramelized onions, beef broth, and a thick layer of melted Gruyère on toasted bread. The ultimate "comfort food" for a cool evening.
+- **Steak Frites:** The backbone of French bistros. A perfectly cooked steak served with crispy fries and usually a "Béarnaise" or wine-based sauce. Simple yet masterful.
+- **Confit de Canard (Duck Confit):** Duck leg slow-cooked in its own fat. Crispy skin and melt-in-your-mouth meat make this one of the most noble French dishes.
+- **Escargot (Snails):** A must-try at least once. Usually baked with garlic, parsley, and butter, these are much more tender and aromatic than you might expect.
+- **Plateau de Fromages (Cheese Platter):** With over 1,000 types of cheese in France, a platter of Brie, Camembert, and Roquefort served before dessert elevates your experience.
+- **Macarons & Éclairs:** Paris is the world center of pastry design. Dive into the colorful world of macarons at Ladurée or Pierre Hermé, or try an artistic chocolate éclair from a local pâtisserie.
+- **Pro Tip:** Asking for a "carafe d'eau" (tap water) is free and the quality is excellent. Also, service is included in the bill, so while large tips aren't mandatory, leaving a few Euros is a polite gesture of appreciation.
+
+## 🤫 Whispers of the City: Local Secrets
+
+Paris is far more than its grand, iconic boulevards; its most authentic soul resides behind heavy, centuries-old wooden doors and within the labyrinthine passages often overlooked by travelers. Discover these hidden enclaves where you can escape the tourist hustle and feel the true pulse of the City of Light.
+
+- **Les Passages Couverts (Hidden Passages):** These 19th-century architectural gems, crowned with intricate glass and iron roofs, were the ancestors of the modern shopping mall. Walking through Galerie Vivienne or Passage des Panoramas feels like stepping into a time capsule; with their vintage bookstores, dusty antique shops, and dimly lit bistros, they offer an enchanting sanctuary, especially on a rainy Parisian afternoon.
+- **Square Rapp:** If you are looking for the most majestic yet "lonely" perspective of the Eiffel Tower, turn into this quiet cul-de-sac in the 7th arrondissement. Often missed by tour buses, this spot offers a breathtaking sight where the iron lace of the Tower is perfectly framed by the ornate Haussmannian facades and the peculiar Art Nouveau architecture of the neighboring buildings.
+- [Musée de la Vie Romantique](search:Musée de la Vie Romantique): Nestled at the foot of the Montmartre hills, this secluded villa and its lush garden preserve the spirit of the "Romantic Era." Its tea room, tucked under weeping willows and surrounded by roses, is a silent haven where you can enjoy a croissant and tea while completely forgetting the existence of the modern world outside.
+- [Arènes de Lutèce](search:Arènes de Lutèce): Hidden in the middle of the 5th arrondissement, very few people realize that a staggering remnant of a Roman amphitheater still exists in Paris. Dating back to the 1st century AD, this ancient site now serves as a serene communal stage where elderly locals play pétanque (a classic French ball game) and students gather on the stone steps to share a bottle of wine. It is the city’s oldest and most enduring secret.
+- [59 Rivoli](search:59 Rivoli): Located on one of the busiest shopping streets, this building was once an illegal artist squat in an abandoned bank. Today, it has evolved into a pulsating, legal hub of creativity across several floors. You can climb the spiraling, graffiti-covered staircase to enter artists' studios, chat with them about their work, and witness the creative process in its rawest form.
+- **Promenade Plantée (Coulée verte René-Dumont):** Long before New York’s High Line, there was this original elevated parkway. Built upon a 19th-century railway viaduct, this garden walkway winds its way above the city streets starting from the Bastille. Walking among the trees and flowering shrubs while looking down at the Parisian rooftops offers the most peaceful and unique perspective of the city.
+
+## ✅ The Paris Checklist: Don't Leave Without Doing These
+
+- Watch the Eiffel Tower's sparkling light show on the hour from Trocadéro; see it at least once at night.
+- Join the morning queue at a local boulangerie for a warm, buttery croissant and eat it while wandering.
+- Stroll along the Seine at sunset and browse the iconic bouquinistes (second-hand book stalls).
+- Stand before the reopened Notre-Dame Cathedral to witness its Gothic grandeur up close.
+- Claim a famous green metal chair in the Jardin du Luxembourg to read, drink coffee, and watch the world go by.
+- Take a photo under the Louvre Pyramid and say hello to the masterpieces within.
+- Climb Montmartre hill and listen to a street musician while looking over the city from the Sacré-Cœur steps.
+- Eat a traditional French Onion Soup or Duck Confit in a classic Parisian bistro.
+- Get lost in the narrow alleys of Le Marais, discovering boutiques and hidden courtyards.
+- Step into at least one 19th-century covered passage (like Galerie Vivienne) for a trip back in time.
+- **Most importantly:** Never forget to say the magic word, "Bonjour," whenever you enter a shop or start a conversation!''';
+
+  // BARCELONA
+
+  // FLORANSA
+  static const _floransaTR = '''# Floransa Rehberi: Rönesans'ın Beşiği 🇮🇹
+
+Floransa bir şehir değil, devasa bir sanat galerisidir. Michelangelo ve Da Vinci'nin ayak izlerini takip edeceğiniz, her adımda tarihin derinliklerini hissedeceğiniz büyüleyici bir yer.
+
+## 📅 Ne Zaman Gidilir?
+- **Bahar (Nisan-Mayıs):** Toskana güneşinin en yumuşak olduğu, bahçelerin çiçek açtığı zaman.
+- **Sonbahar (Eylül-Ekim):** Bağ bozumu dönemi; hava taze ve şehir daha sakin.
+- **İpucu:** Yaz aylarında (Temmuz-Ağustos) Floransa çok sıcak ve nemli olabilir, ayrıca inanılmaz bir turist kalabalığı vardır.
+
+## 🏘️ Konaklama Rehberi
+- [Santo Spirito](search:Santo Spirito): Nehrin karşı kıyısı (Oltrarno). Yerel zanaatkarların, antikacıların ve en samimi Floransa hayatının merkezi.
+- [San Marco](search:San Marco): Dünyanın en iyi sanat müzelerine ev sahipliği yapar. Tarihi ve daha sakin bir atmosfer isteyenler için.
+- **Duomo Çevresi:** Şehrin tam kalbi. Her yere yürüyebilmek isteyenler için ama her zaman kalabalıktır.
+
+
+## 🍽️ Ne Yenir ve İçilir?
+- **Bistecca alla Fiorentina:** Dünyanın en iyi bifteklerinden biridir. Az pişmiş (rare) servis edilir, "iyi pişmiş" isterseniz şefle aranızı bozabilirsiniz!
+
+- **Gelato:** Dondurma burada icat edildi! *Vivoli* veya *Perché No!* gibi köklü yerlerde gerçek İtalyan dondurmasını deneyin.
+- **Lampredotto:** Floransa'nın gerçek sokak lezzeti. İşkembe sandviçi; denemek için cesur olun, yerliler buna bayılır!
+
+- [Chianti](search:Chianti): Toskana'da olduğunuzu unutmayın; bölgenin meşhur kırmızı şaraplarının tadını çıkarın.
+
+## 🚇 Ulaşım İpuçları
+- **Yürüyüş:** Floransa'nın tarihi merkezi araç trafiğine kapalıdır ve tamamen yürüyerek gezilecek kadar küçüktür.
+- **Bisiklet:** Şehir merkezinde bisiklet sürmek hem keyifli hem de pratiktir.
+
+## 💎 Lokal Sırlar & İpuçları
+- [Piazzale Michelangelo](search:Piazzale Michelangelo): Gün batımında mutlaka burada olun. Floransa'nın o meşhur turuncu damlı manzarasını en iyi buradan izlersiniz.
+- **Derici Pazarı (San Lorenzo):** Kaliteli deri ürünler bulabilirsiniz ama pazarlık yapmayı unutmayın!
+
+- **Rezervasyon:** *Uffizi* ve *Academia* müzeleri için biletlerinizi haftalar öncesinden online alın, aksi takdirde gününüz kuyruklarda geçebilir.''';
+
+  static const _floransaEN = '''# Florence Guide: Cradle of the Renaissance 🇮🇹
+
+Florence isn't just a city; it's a massive art gallery. It's an enchanting place where you can follow in the footsteps of Michelangelo and Da Vinci, feeling the depths of history with every step.
+
+## 📅 Best Time to Visit
+- **Spring (April-May):** When the Tuscan sun is softest and the gardens are in full bloom.
+- **Autumn (September-October):** The harvest season; the air is fresh, and the city feels slightly more tranquil.
+- **Tip:** In July and August, Florence can be intensely hot and humid, and the tourist crowds are at their peak.
+
+## 🏘️ Neighborhood Guide
+- [Santo Spirito](search:Santo Spirito): Across the river (Oltrarno). The hub of local artisans, antique shops, and the most authentic Florentine life.
+- [San Marco](search:San Marco): Home to some of the world's most famous art museums. Ideal for those seeking a historical and quieter atmosphere.
+- **Duomo Area:** The very heart of the city. Best for those who want to walk everywhere, though it's always bustling with people.
+
+
+## 🍽️ Food & Dining Etiquette
+- **Bistecca alla Fiorentina:** One of the best steaks in the world. It's traditionally served rare—asking for it "well done" is often considered a faux pas!
+
+- **Gelato:** Ice cream was invented here! Try authentic Italian gelato at established spots like *Vivoli* or *Perché No!*.
+- **Lampredotto:** The true street food of Florence. It's a tripe sandwich; be brave and give it a try—locals absolutely love it!
+
+- [Chianti](search:Chianti): Remember you're in Tuscany; don't miss out on tasting the region's world-famous red wines.
+
+## 🚇 Transportation Tips
+- **Walking:** The historical center of Florence is largely pedestrianized and small enough to explore entirely on foot.
+- **Biking:** Cycling through the center is both enjoyable and practical, though watch out for the cobblestones.
+
+## 💎 Local Secrets & Insights
+- [Piazzale Michelangelo](search:Piazzale Michelangelo): Make sure to be here at sunset. It offers the most iconic panoramic view of Florence's terracotta rooftops.
+- **Leather Market (San Lorenzo):** You can find high-quality leather goods here, but remember to bargain for the best price.
+
+- **Bookings:** Get your tickets for the [Uffizi](search:Uffizi Gallery) and Academia galleries weeks in advance online, otherwise you'll spend your day in endless queues.''';
+
+  // VENEDIK
+  static const _venedikTR = '''# Venedik Rehberi: Su Üstündeki Rüya 🇮🇹
+
+Venedik; suyun üzerine inşa edilmiş mermer sarayları, sessizce süzülen gondolları ve zamanın durduğu hissini veren daracık sokaklarıyla dünyanın en benzersiz şehridir.
+
+## 📅 Ne Zaman Gidilir?
+- **Bahar ve Güz:** Nisan-Mayıs ve Eylül-Ekim dönemleri havanın en dengeli olduğu, yürüyüşün keyifli olduğu zamanlardır.
+- **Karnaval Zamanı (Şubat):** Şehir maskeler ve kostümlerle dolduğunda büyülü ama çok kalabalık ve pahalı olur.
+- **İpucu:** Yazın (Temmuz-Ağustos) kanallarda koku olabilir ve nem oldukça yüksektir.
+
+## 🏘️ Konaklama Rehberi
+- [Cannaregio](search:Cannaregio): Venedik'in gerçek yerel yüzü. Daha az turistik, daha çok kanal kenarı barı ve mahalle havası.
+- **Dorsoduro:** Sanat ve öğrenci mahallesi. Harika müzeler ve daha canlı, genç bir gece hayatı.
+
+- [Castello](search:Castello): Şehrin en yeşil ve sessiz bölgesi. Venediklilerin hala yaşadığı, "çamaşırların sokaklara asıldığı" o klasik görüntüyü burada bulursunuz.
+
+## 🍽️ Ne Yenir ve İçilir?
+- **Cicchetti Deneyimi:** Venedik usulü tapas. Küçük ekmek üstü lezzetleri bir kadeh şarap (ombra) eşliğinde ayakta atıştırmak buranın en büyük geleneğidir.
+
+- **Spritz Veneziano:** Bu meşhur içkinin anavatanındasınız. Akşamüstü kanala karşı yudumlamadan dönmeyin.
+- **Gondol Fiyatları:** Gondol fiyatları resmi olarak sabittir ama binmeden önce mutlaka süreyi ve rotayı teyit edin.
+- **Ekmek Ücreti (Coperto):** İtalya'da masaya oturduğunuzda otomatik olarak eklenen servis ücretine (coperto) hazırlıklı olun.
+
+## 🚇 Ulaşım İpuçları
+- **Vaporetto:** Venedik'in otobüsleridir. Kanallar arasında seyahat etmenin tek ana yoludur. Günlük bilet almak çok daha ekonomiktir.
+- **Yürüyüş:** Venedik'te kaybolmak kaçınılmazdır ve aslında bu, şehri keşfetmenin en iyi yoludur.
+- [Traghetto](search:Traghetto): Büyük kanalı geçmek için kullanılan daha ucuz, basitleştirilmiş gondollardır. Sadece birkaç Euro'ya gondol deneyimini yaşarsınız.
+
+## 💎 Lokal Sırlar & İpuçları
+- [Libreria Acqua Alta](search:Libreria Acqua Alta): Dünyanın en güzel kitapçılarından biri. Kitapların botlar ve gondollar içinde durduğu, su baskınlarına karşı korunmuş bu büyüleyici mekana mutlaka uğrayın.
+- [Burano Adası](search:Burano): Venedik'ten feribotla geçilen, rengarenk evleriyle meşhur bu ada, fotoğraf tutkunları için bir cennettir.
+- **Acqua Alta (Yüksek Su):** Kış aylarında şehirde su seviyesi yükselebilir. Bu bir felaket değil, Venedik hayatının bir parçasıdır.''';
+
+  static const _venedikEN = '''# Venice Guide: A Dream Floating on Water 🇮🇹
+
+Venice is the world's most unique city, with its marble palaces built over the lagoons, gondolas gliding silently, and narrow alleys that feel as though time has still stood here.
+
+## 📅 Best Time to Visit
+- **Spring and Autumn:** April-May and September-October offer the most balanced weather, perfect for endless explorations.
+- **Carnival Season (February):** When the city is filled with masks and costumes—it's truly magical but also very crowded and expensive.
+- **Tip:** In mid-summer (July-August), the canals can have an odor and the humidity is incredibly high.
+
+## 🏘️ Neighborhood Guide
+- [Cannaregio](search:Cannaregio): The true local face of Venice. Less touristy, with many waterfront bars and a genuine neighborhood feel.
+- **Dorsoduro:** The artistic and student hub. Home to great museums and a more vibrant, younger nightlife scene.
+
+- [Castello](search:Castello): The greenest and quietest part of the city. This is where you'll find the classic Venice with laundry hanging over the narrow streets.
+
+## 🍽️ Food & Dining Etiquette
+- **Cicchetti Experience:** Venetian-style tapas. Spending an evening moving from one bar to another, having a glass of wine (ombra) and small bites, is a beloved local tradition.
+
+- **Spritz Veneziano:** You are in the birthplace of this world-famous drink. Don't leave without sipping one by the canal.
+- **Gondola Rates:** Official prices are fixed, but always confirm the duration and route with the gondolier before setting off.
+- **Coperto:** Be prepared for the standard cover charge (coperto) added to your bill when you sit down for a meal.
+
+## 🚇 Transportation Tips
+- **Vaporetto:** The water buses of Venice. They are the main way to travel between the islands and through the canals. A day pass is much more economical.
+- **Walking:** Getting lost in Venice is inevitable, and frankly, it's the best way to discover the city's hidden charms.
+- [Traghetto](search:Traghetto): These are simplified gondolas used to cross the Grand Canal for just a few Euros—a great way to get a gondola experience on a budget.
+
+## 💎 Local Secrets & Insights
+- [Libreria Acqua Alta](search:Libreria Acqua Alta): One of the world's most beautiful bookstores. Books are stored in boats and bathtubs to protect them from high tides—don't miss the staircase made of old books!
+- [Burano Island](search:Burano): A short ferry ride from Venice, this island is famous for its brightly colored houses. A photographer's paradise.
+- **Acqua Alta (High Water):** During winter, the water level can rise. It's not a disaster; it's a unique part of Venetian life.''';
+
+  // MILANO
+  static const _milanoTR = '''# Milano: İtalya'nın En Şık Hali
+
+**Hızlı Bakış:** Milano’ya ilk adımınızı attığınızda, İtalya’nın o alışılagelmiş ağırkanlı halinden çok daha farklı bir tempoyla karşılaşacaksınız. Burası biraz daha ciddi, biraz daha hızlı ve her zaman özenli. Şehrin asıl karakteri, binaların görkemli dış cephelerinden ziyade, o ağır kapıların ardında gizlenen yemyeşil ve sessiz avlularda saklı. Sokaklarda herkesin bir yerlere yetişme çabası ve en basit işlerini yaparken bile —mesela sadece fırına ekmek almaya giderken— jilet gibi takım elbiseler veya son derece şık kıyafetler içinde olması, buranın doğal günlük akışı. Sabahları bir barın önünde ayakta içilen o hızlı espresso, günün başladığının işaretidir. Burada bütçenizi korumanın altın kuralı da bu "ayaküstü" alışkanlığında gizli; zira masaya oturduğunuz an faturanıza eklenecek servis ücretleri, basit bir kahveyi beklemediğiniz bir maliyete taşıyabilir. Akşam saat 6’dan sonra ise hayat bir anda yavaşlar ve Milano’nun asıl ruhu, yani "Aperitivo" saati başlar. İş yerlerinden çıkan herkes o meşhur akşamüstü sofralarında buluşur. En büyük lüks ise ödediğiniz tek bir içecek ücretine eşlik eden o cömert ikramlarla hem günün yorgunluğunu atabilmek hem de akşam yemeği öncesi harika bir yerel deneyim yaşayabilmektir. Küçük bir öneri; Duomo Meydanı'nın kalabalığında ve turistik fiyatlarında vakit kaybetmek yerine, Navigli'nin su kenarlarında ya da Brera'nın taş sokaklarında yerel halkın arasına karışın. İşte o zaman Milano’nun o mesafeli duruşunun altındaki gerçek samimiyeti hissedebilirsiniz
+
+## 📅 Takviminizi Ayarlayın: Hangi Mevsim Sizin?
+
+Milano’nun havası da modası gibi değişkendir; her mevsim şehre farklı bir aksesuar takar. Ziyaret zamanınız, Milano’nun enerjik ve parıltılı yüzüyle mi yoksa daha sakin ve gri ruhuyla mı karşılaşacağınızı belirler.
+
+- **İlkbahar (Mart - Mayıs):** Milano’nun en enerjik ve belki de en "pahalı" olduğu dönemdir. Özellikle Nisan ayında düzenlenen meşhur Tasarım Haftası (Salone del Mobile) sırasında şehir dünyanın yaratıcılık başkentine dönüşür. Eğer bu döneme denk gelirseniz otel fiyatlarının üç katına çıkmasına hazırlıklı olmalısınız ama karşılığında her köşe başında bir sergi, her avluda bir parti bulursunuz. Hava tazelenir, parklar canlanır; yürüyerek şehri keşfetmek için en ideal zamandır.
+- **Yaz (Haziran - Ağustos):** Milano bir vadi şehri olduğu için yazları hava biraz ağır ve nemli olabilir. Temmuz ayı, büyük yaz indirimlerinin (Saldi) başladığı aydır; eğer niyetiniz uygun fiyatlı bir gardırop düzmekse bu sıcakları göze almalısınız. Ağustos ayında ise "Ferragosto" (yaz tatili) nedeniyle yerel halk şehri terk eder. Birçok butik ve mahalle restoranı kapalı olabilir ancak sokaklar tamamen size kalır; bu da Milano’nun o kalabalık olmayan, nadir görülen yüzünü görmek için bir fırsattır.
+- **Sonbahar (Eylül - Ekim):** Şehrin o jilet gibi şık haline en çok yakışan mevsimdir. Eylül ayındaki Moda Haftası ile sokaklar tekrar o bildiğiniz podyum havasına bürünür. Hava yumuşar, gökyüzü o meşhur berrak mavi rengini alır. Parklardaki ağaçlar sararmaya başladığında, Brera’nın taş sokaklarında yürümek ya da Navigli kenarında akşam güneşi altında Aperitivo yapmak paha biçilemezdir. Hem kalabalık hem de hava sıcaklığı açısından en dengeli dönemdir.
+- **Kış (Kasım - Şubat):** İşte Milano’nun o meşhur dürüst, gri ve puslu haliyle tanışma vakti. Hava gerçekten soğuktur ama bu soğuk, Milano’nun o ağırbaşlı mimarisine çok yakışır. Aralık ayında kurulan Noel pazarları ve dükkanların ışıl ışıl vitrinleri şehre farklı bir sıcaklık katar. Ocak ayı başındaki kış indirimleri ise alışveriş için gelenleri dondurucu havaya rağmen sokaklara döker. Kalabalıktan kaçıp müzeleri rahatça gezmek ve ardından dumanı tüten bir safranlı risotto ile ısınmak için kışın Milano başka bir huzur sunar.
+
+## 🏠Nerede Kalmalı: Mahalle Rehberi
+
+Milano’da konaklama seçerken en önemli kural, ne kadar "merkezi" olduğunuzdan ziyade hangi "atmosferin" içinde olmak istediğinizdir. Şehir metro hatlarıyla çok iyi örüldüğü için, en turistik noktadan birkaç durak uzaklaşmak size hem daha gerçek bir Milano deneyimi sunar hem de bütçenizi korur.
+
+- [Brera (Şık ve Sanat Dolu)](search:Brera (Şık ve Sanat Dolu): Eğer "Milano estetiği" denince aklınıza gelen o taş sokaklar, şık sanat galerileri ve pahalı butiklerse, yeriniz tam burası. Şehrin en elit ve fotojenik mahallesidir. Fiyatlar şehrin geneline göre oldukça yüksektir ama her sabah bir sanat eserinin içinde uyanmış gibi hissedersiniz. Romantik bir tatil ya da o "eski para" şıklığını yaşamak için rakipsizdir.
+- **Navigli (Kanallar ve Hareketli Gece Hayatı):** Milano’nun nehir olmayan ama kanallarıyla su kenarı keyfi sunan bölgesidir. Genç ruhlu, hareketli ve akşamları bir hayli gürültülüdür. Eğer eğlencenin tam merkezinde olayım, akşam yemeğinden sonra bir şeyler içmek için uzağa gitmeyeyim diyorsanız Navigli idealdir. Ancak sessiz sakin bir uyku arıyorsanız, ara sokaklardaki butik otelleri seçmenizde fayda var.
+
+- [Isola (Yükselen ve Modern Yüz)](search:Isola (Yükselen ve Modern Yüz): Eskiden kendi halinde bir işçi mahallesi olan Isola, bugün Milano’nun en "trendy" ve havalı noktalarından biri. Hemen yanı başındaki gökdelenlerin (Porta Nuova) aksine burada hâlâ mahalle bakkalını, yerel sanatçı atölyelerini ve çok iyi üçüncü dalga kahvecileri bulabilirsiniz. Ulaşımı çok rahattır ve gerçek bir Milano lokali gibi yaşamak için en iyi seçeneklerden.
+- **Porta Romana (Nezih ve Yerel):** Turist kalabalığından tamamen uzaklaşmak ama şıklıktan da ödün vermemek isteyenlerin sığınağıdır. Geniş caddeleri, çok iyi mahalle restoranları ve yerel halkın tercih ettiği kafeleriyle son derece güvenli ve kaliteli bir bölgedir. Şehir merkezine metroyla sadece 10 dakika uzaklıktasınızdır; sessiz bir akşam ve huzurlu bir konaklama için en doğru adrestir.
+- **Centro Storico (Tam Merkez):** Duomo ve çevresi. "Her yer yürüme mesafesinde olsun, bütçe sorun değil" derseniz burası sizin için uygundur. Ancak çok kalabalık, çok turistik ve tahmin edeceğiniz üzere oldukça masraflıdır. Gerçek Milano ruhunu yakalamak burada biraz daha zordur; daha çok otel konforu odaklı bir tercih olur.
+
+
+## 🚲 A Noktasından B Noktasına: Bir Lokal Gibi Hareket Edin
+
+Milano’da ulaşım aslında çok düzenlidir ama ilk kez gelenler için havalimanı sayısı ve bilet çeşitleri biraz kafa karıştırıcı olabilir. Şehir merkezine ulaştıktan sonra ise işiniz çok kolay; ya o meşhur tramvaylarla şehri izleyerek gideceksiniz ya da yerin altından ışık hızıyla istediğiniz mahalleye bağlanacaksınız.
+
+**Havalimanından Şehre İlk Adım:** 
+- **Malpensa (MXP):** En büyük havalimanı burası. En mantıklı yol Malpensa Express trenine binmek. Yaklaşık 13€ ve 50 dakikada sizi Centrale (Ana İstasyon) veya Cadorna istasyonuna ulaştırır. Taksi çok pahalıdır (sabit ücret 100€ civarı), o yüzden trenden şaşmayın.
+
+- **Linate (LIN):** Şehrin içine en yakın olanı. Yeni açılan M4 (Mavi) metro hattı sayesinde sadece 15-20 dakikada merkeze (San Babila durağına) bağlanabilirsiniz. Şehir içi biletiniz burada geçerli.
+
+- **Bergamo / Orio al Serio (BGY):** Genelde düşük bütçeli havayolları burayı kullanır. Buradan tren yok, tek çare shuttle otobüsler (Terravision veya Orio Shuttle). Yaklaşık 10€ ve trafik durumuna göre 1 saat sürer.
+
+
+- **Bilet İşini Çözmek (ATM Sistemi):** Milano’da toplu taşıma ATM tarafından yönetilir. Tek yön bilet 2.20€ ve 90 dakika boyunca geçerli. Kağıt biletle uğraşmak istemiyorsanız, kredi kartınızı veya telefonunuzu (Apple/Google Pay) turnikelerdeki sarı okuyuculara dokundurup geçebilirsiniz (Tap & Go). Yalnız dikkat; metrodan çıkarken de kartınızı tekrar okutmanız gerekebilir, o yüzden kartınız her zaman ulaşılabilir olsun.
+- **Sarı Tramvaylar (Yürüyen Müze):** Milano’nun o 1920’lerden kalma ahşap koltuklu sarı tramvaylarına (özellikle 1 ve 5 numaralı hatlar) mutlaka binmelisiniz. Çok hızlı değildirler, sarsılırlar ama Brera ve merkezin içinden geçerken size harika bir şehir turu yaptırırlar.
+- **Metro Hatları:** Çok basittir. M1 (Kırmızı) sizi Duomo ve alışverişin merkezine götürür, M2 (Yeşil) Navigli ve Garibaldi’ye bağlar, M3 (Sarı) ise merkez istasyon ve lüks alışveriş bölgesinden geçer.
+- **Lokal Uyarı:** Milano’da kontrolörler sivil kıyafetli olabilir ve hiç beklemediğiniz anda bilet kontrolü yapabilirler. Kartınızı okutmadan ya da biletinizi onaylatmadan asla binmeyin, cezalar can yakıcı olabilir.
+
+## 🏛️ Şehrin Hafızası: Görülmesi Gereken İkonik Duraklar
+
+Milano’nun hafızası sadece eski taşlardan ibaret değildir; o taşların arasına sızmış olan tasarım tutkusu, sanat dehası ve aristokrat bir zarafetin birleşimidir. Bu şehirde "görülmesi gereken yerler", bir vitrinin önünde durup izlemekten ziyade, o şıklığın içine karışmak demektir.
+
+- [Duomo di Milano (Milano Katedrali)](search:Duomo di Milano (Milano Katedrali): Şehrin tam kalbinde, 600 yılda tamamlanmış bembeyaz bir mermer devidir. İçerideki loş ve mistik havayı solumak etkileyicidir ama Milano’nun asıl hafızasına dokunmak için katedralin çatısına (Terrazze) çıkmalısınız. Ancak terasa çıkış ve katedral içine giriş ücretlidir. Biletinizi mutlaka önceden online almalısınız; kapıdaki kuyruklar vaktinizi çalabilir.
+- [Galleria Vittorio Emanuele II](search:Galleria Vittorio Emanuele II): Duomo’nun hemen yanındaki bu görkemli pasaj, Milanoluların "salonu" gibidir. Cam tavanın altındaki o muazzam akustiği hissedin ve yerdeki mozaikleri inceleyin. Ortadaki boğa mozaiğinin üzerinde topuğunuzla üç tur dönmek şans getirir derler; lokaller genelde hızlıca yapıp geçer, siz de bu geleneğe sessizce eşlik edebilirsiniz.
+- **Santa Maria delle Grazie ve "Son Akşam Yemeği":** Leonardo da Vinci’nin o dünyaca ünlü eserine ev sahipliği yapan bu kilise, Milano’nun sanatsal zirvesidir. Ancak bu kiliseye giriş için biletinizi en az 2-3 ay önceden online olarak almazsanız, bu deha ürünü eseri görme şansınız maalesef neredeyse sıfırdır.
+- [Castello Sforzesco](search:Castello Sforzesco): Şehrin ortasında yükselen bu devasa kale, Milano’nun dükalık döneminden kalan en güçlü hafızasıdır. Kalenin heybetli avlularından geçmek sizi bir anda orta çağa götürür. Kalenin avlularına girmek ücretsizdir ancak içindeki sanat müzelerini ve Michelangelo’nun bitmemiş son eseri Pietà Rondanini’yi görmek isterseniz bilet almanız gerekiyor.
+- [Teatro alla Scala](search:Teatro alla Scala): Dışarıdan bakıldığında oldukça sade görünebilir ama içerideki o kırmızı kadifelerin ve altın varakların yarattığı ihtişam, opera dünyasının kalbinin neden burada attığını size hemen anlatacaktır. Ancak, temsiller veya tiyatro müzesi ziyareti için biletinizi önceden almanızda fayda var.
+- **Pinacoteca di Brera (Brera Sanat Galerisi):** İtalya’nın en önemli sanat koleksiyonlarından birine ev sahipliği yapan bu müze, sizi orta çağdan modern sanata kadar sessiz bir yolculuğuna çıkarır. Eğer bu galeriyi özellikle hafta sonu ziyaret etmeyi planlıyorsanız online rezervasyon vaktinizi koruyacaktır.
+
+- **San Maurizio al Monastero Maggiore:** "Milano'nun Sistine Şapeli" olarak bilinir. Dışarıdan son derece mütevazı görünen bu kilisenin içine girdiğinizde, tavanından duvarlarına kadar her yerin muazzam fresklerle kaplı olduğunu görmek sizi şaşırtacak. Şehrin en değerli gizli hazinelerinden biridir.
+
+- [Cimitero Monumentale](search:Cimitero Monumentale): Burası sadece bir mezarlık değil, devasa bir açık hava heykel müzesidir. Milano’nun en asil ve zengin ailelerinin yaptırdığı anıt mezarlar, mimari açıdan büyüleyicidir. Sessizliğin içindeki bu sanat galerisinde yürümek farklı bir huzur verir.
+- [Basilica di Sant'Ambrogio](search:Basilica di Sant'Ambrogio): Milano’nun koruyucu azizine adanmış, şehrin en eski kiliselerinden biridir. Romanesk mimarinin en saf halini görebileceğiniz bu yapı, o meşhur gökdelenli Milano'nun çok uzağında, çok daha köklü bir geçmişi temsil eder.
+- [Piazza Gae Aulenti ve Bosco Verticale](search:Piazza Gae Aulenti ve Bosco Verticale): Milano sadece geçmişten ibaret değildir. Modern mimarinin zirvesi kabul edilen dikey orman binaları (Bosco Verticale) ve fütüristik meydan Gae Aulenti, şehrin bugünkü modern hafızasını simgeler.
+
+## 🍴 Şehrin Lezzet Haritası: Altın Sarısı Sofralar
+
+Milano mutfağı, İtalya’nın güneyindeki domates soslu o klasik tabaklardan biraz daha farklıdır; burada tereyağı, safran ve etin başrolde olduğu daha zengin lezzetlerle karşılaşırsınız. Şehrin temposuna uygun pratik sokak lezzetlerinden, saatlerce süren o meşhur akşamüstü sofralarına kadar Milano’da aç kalmanız imkânsızdır.
+
+- [Risotto alla Milanese (Safranlı Risotto)](search:Risotto alla Milanese (Safranlı Risotto): Milano denince akla gelen ilk tabaktır. İçindeki safran sayesinde altın sarısı rengini alan bu kremsi pilav, şehrin en büyük imzası. Genellikle kemik iliği ile pişirilir ve her lokmada o yoğun lezzeti hissedersiniz. Bu lezzeti en klasik haliyle denemek isterseniz, Trattoria Milanese gibi tarihi noktalar doğru adrestir.
+- **Cotoletta alla Milanese (Milano Pirzolası):** Sakın ona şnitzel demeyin, Milanolular bu konuda oldukça hassastır. Kemikli dana etinin galeta ununa bulanıp tereyağında altın rengi alana kadar kızartılmasıyla yapılır. Tabağınızdan taşan o devasa boyutuyla hem gözünüzü hem karnınızı doyurur. Antica Trattoria della Pesa, bu konuda şehrin en saygın isimlerinden biridir.
+
+- **Ossobuco:** Ağır ateşte saatlerce pişen dana incik. Genellikle safranlı risotto ile aynı tabakta servis edilir. Etin o kadar yumuşak olması gerekir ki, çatalı vurduğunuzda kemikten kendiliğinden ayrılmalıdır.
+
+- **Pizza al Trancio (Milano Usulü Dilim Pizza):** İncecik Roma ya da Napoli pizzasının aksine, Milano’nun kendine has kalın tabanlı, bol peynirli ve yumuşacık bir dilim pizza kültürü vardır. Bu işin dünyadaki kült durağı kesinlikle Spontini’dir. Ayaküstü ama oldukça doyurucu bir lezzet şölenidir.
+- [Panzerotti](search:Panzerotti): Milano’nun en sevilen "ayaküstü" atıştırmalığıdır. İçine domates ve mozzarella doldurulup kızartılan bu küçük hamur işleri için Duomo yakınındaki meşhur Luini’nin önünde her zaman bir kuyruk görebilirsiniz. O kuyruğa girmeye kesinlikle değer; sıcak sıcak yemeniz ise bu işin püf noktasıdır.
+- **Aperol Spritz:** Milano sokaklarında güneş alçalmaya başladığında masaların rengi bir anda turuncuya döner. Şehrin sosyal hayatının sıvı hali olan bu içecek, sadece bir kokteyl değil, Milano’daki yaşam keyfinin sembolüdür. Camparino in Galleria, bu ruhu katedral manzarasına karşı hissetmek için en ikonik noktadır.
+- **Negroni Sbagliato:** Hikâyeye göre, bir barmen klasik Negroni yaparken cin yerine yanlışlıkla Prosecco (köpüklü şarap) doldurur ve ortaya bu "yanlış" ama efsanevi içecek çıkar. Bu içeceğin doğduğu yer olan Bar Basso’ya gidip bu yerel klasiği devasa kadehlerde denemelisiniz.
+
+- [Panettone](search:Panettone): Aslında bir Noel keki olsa da Milano’nun dünyaya hediyesidir. İçinde kuru üzüm ve şekerlenmiş meyve parçaları bulunan bu yumuşacık dev kekin en tazesini şehrin tarihi pastanelerinde (örneğin Marchesi veya Cova) bulabilirsiniz.
+- **Aperitivo Kültürü:** Bir yemekten ziyade, Milano’nun hayat tarzıdır. Akşamüstü saat 6 gibi başlar; bir içecek sipariş ettiğinizde masanıza gelen cömert atıştırmalıklarla akşam yemeğini aratmayacak bir deneyim yaşarsınız. Navigli bölgesi bu işin en keyifli ve hareketli adresidir.
+
+
+## 🤫 Şehrin Fısıldadıkları: Lokal Sırlar
+
+Milano’nun o jilet gibi takım elbiselerinin ve ciddi iş dünyasının arkasında aslında çok muzip, biraz gizemli ve oldukça şaşırtıcı bir ruhu var. Turist kalabalığından sadece bir sokak içeri saptığınızda, Milano’nun size anlatacak çok başka hikâyeleri olduğunu göreceksiniz.
+
+- [Şehrin Ortasındaki Pembe Flamingolar (Villa Invernizzi)](search:Şehrin Ortasındaki Pembe Flamingolar (Villa Invernizzi): Quadrilatero della Moda’nın o lüks mağazalarından sadece birkaç dakika yürüyün ve Via Serbelloni çevresindeki sessiz sokaklara dalın. Villa Invernizzi’nin bahçe parmaklıklarından içeri baktığınızda, Milano’nun göbeğinde bir grup pembe flamingonun havuzda keyif yaptığını göreceksiniz. Burası özel bir mülk olduğu için içeri giremezsiniz ama parmaklıkların arkasından bu sürreale yakın manzarayı izlemek tam bir Milano gizemidir.
+- **Borsa Binası’nın Önündeki "Orta Parmak" (L.O.V.E.):** Piazza Affari’de, yani İtalyan borsa binasının tam önünde devasa bir el heykeli yükselir. Diğer tüm parmakları kesilmiş, sadece orta parmağı havada duran bu Maurizio Cattelan eseri, Milano’nun o ciddi finans dünyasına atılmış kışkırtıcı bir kahkaha gibidir. Şehrin isyankar ve modern yüzünü görmek için en iyi noktadır.
+
+- [Kemiklerle Örülü Bir Şapel (San Bernardino alle Ossa)](search:Kemiklerle Örülü Bir Şapel (San Bernardino alle Ossa): Duomo’nun o görkemli kalabalığından sadece birkaç adım ötede, dışarıdan bakıldığında sıradan görünen bir kilise var. Ancak içine girip yan taraftaki şapele geçtiğinizde, duvarların binlerce insan kemiği ve kafatasıyla dekore edildiğini göreceksiniz. Ürpertici gelebilir ama Milano’nun en sessiz ve etkileyici duraklarından biridir.
+- **Via Serbelloni’deki "Bronz Kulak":** Via Serbelloni 10 numaralı binanın kapısında, bronzdan dev bir kulak heykeli göreceksiniz. 1920’lerde aslında bir interkom (kapı zili) olarak tasarlanan bu kulak, o dönemin ilginç mimari detaylarından biri. Rivayete göre bu kulağa bir dileğinizi fısıldarsanız, şehrin ruhu onu duyarmış.
+
+- **Wes Anderson’ın Barı (Bar Luce):** Fondazione Prada’nın içinde yer alan bu bar, ünlü yönetmen Wes Anderson tarafından tasarlandı. İçeri girdiğiniz an kendinizi 1950’lerin Milano’sunda bir film setindeymiş gibi hissedeceksiniz. Pastel renkler, nostaljik tilt makineleri ve o meşhur tavan süslemeleriyle, modern Milano’nun en estetik kaçış noktasıdır.
+- **10 Corso Como’nun Gizli Bahçesi:** Dışarıdan bakıldığında buranın sadece lüks bir mağaza olduğunu sanabilirsiniz. Ancak avludan içeri süzülüp en üst kattaki terasa çıktığınızda, kendinizi bitkilerle dolu, sessiz ve çok şık bir bahçede bulacaksınız. Kalabalıktan kaçıp bir kahve molası vermek için şehrin en havalı sığınağıdır.
+
+- **Şeytanın Boynuz İzleri (Sant'Ambrogio Sütunu):** Sant'Ambrogio Bazilikası’nın hemen önünde, üzerinde iki delik olan beyaz bir sütun bulunur. Efsaneye göre bu delikler, Şeytan’ın Aziz Ambrose ile kavga ederken boynuzlarını sütuna geçirmesiyle oluşmuş. Sütuna kulağınızı dayadığınızda cehennemin sesini duyduğunuz söylenir; tabii bu bir şehir efsanesi ama lokallerin çok sevdiği bir hikâyedir.
+
+
+## ✅ Mutlaka Yapmadan Dönme: Milano Checklist
+
+- **Duomo’nun Çatısında Yürüyün:** Sadece katedralin içine girmekle yetinmeyin; asansörle ya da merdivenlerle terasa çıkın. Mermer kulelerin arasında yürürken şehre bembeyaz bir dantelin arkasından bakma hissini mutlaka yaşayın.
+
+**-Aperitivo Sofrasına Oturun:** Akşam saat 6’dan sonra Navigli kanallarının kenarında ya da Brera’nın ara sokaklarında bir masaya çökün. Sadece bir içecek söyleyip masanın donatıldığı o cömert ikramlarla Milano’nun en keyifli saatine eşlik edin.
+- **Barda Ayakta Espresso İçin:** Sabahları herhangi bir mahalle barına girin ve lokaller gibi espressoyu barın önünde ayakta, iki saniyede için. Hem bütçenizi koruyun hem de Milano’nun o hızlı sabah temposuna uyum sağlayın.
+- [Panzerotto Kuyruğuna Girin](search:Panzerotto Kuyruğuna Girin): Duomo’nun hemen yanındaki Luini’den sıcak, bol peynirli bir panzerotto alın ve o meşhur kuyruğun neden hiç bitmediğini ilk ısırıkta kendiniz keşfedin.
+- **Galleria’da Boğanın Üzerinde Dönün:** Şans getirdiğine inanılan o meşhur mozaik boğanın üzerinde topuğunuzla üç tur dönün. Bunu yaparken çok turistik görünmekten çekinmeyin, lokaller bile bazen gizlice yapıyor.
+
+- **Gizli Avluları Dikizleyin:** Yürürken dikkatinizi çeken o büyük, ağır ahşap kapıları hafifçe aralayın ya da aralıksa içeriye bir göz atın. Milano’nun asıl zarafetinin binaların içindeki o yemyeşil gizli dünyalarda olduğunu göreceksiniz.
+
+- **Dilim Pizza Yiyin:** İnce pizza kurallarını bir kenara bırakın ve Spontini’nin o meşhur kalın tabanlı, bol peynirli Milano usulü dilim pizzasını mutlaka deneyin.
+- **Brera’nın Taş Sokaklarında Kaybolun:** Haritayı bir kenara bırakıp kendinizi Brera’nın sanat kokan dar sokaklarına bırakın. Küçük galerileri, falcıları ve şık butikleriyle burası şehrin en karakteristik yeridir.
+
+- [Bosco Verticale’yi Yakından Görün](search:Bosco Verticale’yi Yakından Görün): Isola bölgesine gidip "Dikey Orman" binalarını görün. Modern mimarinin doğayla nasıl bu kadar şık bir şekilde birleştiğine şahitlik edin.
+- [Villa Invernizzi’de Flamingolara El Sallayın](search:Villa Invernizzi’de Flamingolara El Sallayın): Şehrin göbeğinde, bir villanın bahçesinde yaşayan pembe flamingoları görünce Milano’nun ne kadar sürprizli bir şehir olduğunu bir kez daha anlayacaksınız.
+- **Sbagliato Deneyin:** Bu efsanevi içeceğin doğduğu yer olan Bar Basso’ya gidin ve devasa kadehlerde sunulan o "hatalı" ama muhteşem kokteylin tadına bakın.
+
+- **Vaktiniz Varsa Como’ya Kaçın:** Eğer fazladan bir gününüz varsa, Milano’nun o hızlı temposuna bir mola verip kendinizi göl kenarına atın. Centrale veya Cadorna istasyonlarından kalkan trenlerle yaklaşık 1 saatte Como Gölü’ne ulaşabilir, muazzam manzaranın tadını çıkarabilirsiniz.
+
+''';
+
+  static const _milanoEN = '''# Milan: Most Stylish Version of Italy
+
+**Quick Glimpse:** When you first step into Milan, you’ll encounter a pace much different from the usual laid-back rhythm of Italy. It is a bit more serious, faster, and always meticulous. The city’s true character lies not in the grand facades of its buildings, but in the lush, silent courtyards hidden behind heavy doors. It’s part of the daily flow to see people rushing to appointments or even doing the simplest errands—like heading to the bakery for bread—while dressed in impeccable suits or incredibly stylish outfits. That quick morning espresso, taken standing at a bar, is the universal signal that the day has begun. The golden rule for protecting your budget here is hidden in this "standing up" habit; the moment you sit at a table, added service fees can turn a simple coffee into an unexpected expense. After 6 PM, however, life suddenly slows down, and the true soul of Milan, the "Aperitivo" hour, takes over. Everyone leaving work gathers at those famous evening tables. The greatest luxury here is being able to shake off the day's fatigue while enjoying a wonderful local experience with the generous snacks that accompany your drink. A small suggestion: instead of losing time and money in the crowded and overpriced Duomo Square, mingle with the locals along the canals of Navigli or the cobblestone alleys of Brera. Only then can you truly feel the authentic warmth beneath Milan’s sophisticated surface.
+
+## 📅 Timing is Everything: Which Season is Yours?
+
+Milan’s weather, much like its fashion, changes with the seasons. When you go shapes whether you experience the city at its vibrant, glittering peak or in its quieter, greyer state.
+
+- **Spring (March - May):** This is Milan's most energetic and perhaps most "expensive" period. Especially during the famous Design Week (Salone del Mobile) in April, the city turns into the world's design capital. If you visit during this time, be prepared for hotel prices to triple; but in return, you'll find an exhibition on every corner and a party in every courtyard. The air is fresh, parks are alive, and it is the ideal time to explore the city on foot.
+- **Summer (June - August):** Since Milan is located in a valley, the air can be quite heavy and humid in the summer. July is when the big summer sales (Saldi) begin; if your goal is to revamp your wardrobe at a good price, you’ll have to brave the heat. In August, locals leave for "Ferragosto" (summer holidays). Many boutiques and neighborhood restaurants might be closed, but the streets are entirely yours—a rare chance to see Milan without the usual crowds.
+- **Autumn (September - October):** This is the season that best suits the city’s sharp and chic look. With Fashion Week in September, the streets return to that familiar runway vibe. The weather softens, and the sky takes on its famously clear blue. When the trees in the parks start turning yellow, walking through the stone streets of Brera or having an Aperitivo under the evening sun in Navigli is priceless. It is the most balanced period in terms of both crowds and temperature.
+- **Winter (November - February):** Now is the time to meet Milan's famous honest, gray, and misty side. It’s genuinely cold, but this chill really suits Milan’s dignified architecture. Christmas markets in December and the sparkling shop windows add a different kind of warmth to the city. Winter sales in early January draw people out despite the freezing weather. For those wanting to escape the crowds, visit museums comfortably, and then warm up with a steaming saffron risotto, Milan in winter offers a unique kind of peace.
+
+## 🏠 Where to Stay: Neighborhood Guide
+
+Choosing where to stay in Milan isn’t really about how central you are, but rather which atmosphere you want to be part of. Thanks to the city’s well-connected metro network, staying just a few stops away from the main tourist hubs often gives you a more authentic Milan experience — and helps protect your budget.
+
+- [Brera (Chic & Artsy)](search:Brera (Chic & Artsy): If “Milanese elegance” makes you think of cobblestone streets, refined art galleries, and upscale boutiques, this is your place. Brera is one of the city’s most photogenic and sophisticated neighborhoods. Prices are noticeably higher than average, but waking up here feels like stepping into a living artwork. It’s perfect for a romantic getaway or anyone looking to experience that timeless, old-money charm.
+- **Navigli (Canals & Lively Nightlife):** Milan may not have a river, but Navigli’s canals offer a similar waterside atmosphere. Young, vibrant, and energetic, the area gets especially lively — and noisy — in the evenings. If you want to be right in the middle of the action and walk straight from dinner to drinks, this is ideal. However, if you prefer a quieter night’s sleep, consider boutique hotels tucked away in the side streets.
+
+- [Isola (Up-and-Coming & Modern)](search:Isola (Up-and-Coming & Modern): Once a modest working-class neighborhood, Isola has transformed into one of Milan’s trendiest districts. Despite the nearby skyscrapers of Porta Nuova, the area still retains its local character, with neighborhood shops, independent artist studios, and excellent third-wave coffee spots. Well connected and full of personality, it’s one of the best places to experience Milan like a local.
+- [Porta Romana (Refined & Residential)](search:Porta Romana (Refined & Residential): A haven for those who want to escape the tourist crowds without sacrificing style. With wide streets, great neighborhood restaurants, and cafés favored by locals, Porta Romana feels safe, calm, and effortlessly elegant. Just 10 minutes from the center by metro, it’s an excellent choice for a peaceful and comfortable stay.
+- **Centro Storico (Historic Center):** Home to Duomo di Milano and the city’s main landmarks. If you want everything within walking distance and budget isn’t a concern, this is the most convenient option. That said, it’s crowded, highly touristic, and — as expected — expensive. While it offers maximum comfort, it can feel a bit removed from Milan’s everyday local life.
+
+
+## 🚲 Getting from A to B: Move Like a Local
+
+Transportation in Milan is highly organized, but the number of airports and ticket types can be a bit confusing at first. Once you reach the city center, it’s a breeze; you’ll either watch the city unfold from a classic tram or zip through the underground to your next destination.
+
+**Getting to the City from the Airports:**
+- **Malpensa (MXP):** The main international hub. The smartest way is the Malpensa Express train. It costs around €13 and takes about 50 minutes to reach Centrale (Main Station) or Cadorna. Taxis are very expensive (fixed rate around €100), so stick to the train.
+
+- **Linate (LIN):** The closest airport to the city. Thanks to the new M4 (Blue) metro line, you can reach the heart of the city (San Babila stop) in just 15-20 minutes. Your standard city ticket works here.
+
+- **Bergamo / Orio al Serio (BGY):** Mostly used by budget airlines. There’s no direct train, so your best bet is the shuttle buses (Terravision or Orio Shuttle). It costs about €10 and takes roughly an hour, depending on traffic.
+
+
+- **Solving the Ticket Puzzle (ATM System):** Public transport is run by ATM. A single ticket is €2.20 and valid for 90 minutes. To skip the paper ticket hassle, just use your contactless credit card or phone (Apple/Google Pay) to Tap & Go at the yellow readers. Important: You may need to tap out to exit the metro as well, so keep your card handy.
+- **Yellow Trams (A Moving Museum):** You must experience the 1920s-era yellow trams with wooden seats (especially Lines 1 and 5). They aren't the fastest, and they definitely jolt, but they offer a fantastic scenic tour through Brera and the city center.
+- **The Metro Lines:** It’s quite straightforward. M1 (Red) takes you to the Duomo and the shopping hubs, M2 (Green) connects you to Navigli and Garibaldi, and M3 (Yellow) runs through the Central Station and the luxury shopping districts.
+- **Local Tip:** Ticket inspectors in Milan often dress in plain clothes and can pop up unexpectedly. Never board without tapping your card or validating your ticket—the fines are steep and strictly enforced.
+
+## 🏛️ The City's Memory: Iconic Landmarks Must-See
+
+Milan’s memory is not just about old stones; it is a blend of design passion, artistic genius, and aristocratic elegance that has seeped into those very stones. In this city, "must-see places" mean immersing yourself in that sophistication rather than just watching it from behind a glass pane.
+
+- [Duomo di Milano (Milan Cathedral)](search:Duomo di Milano (Milan Cathedral): A white marble giant at the very heart of the city, completed over 600 years. While breathing in the dim, mystical atmosphere inside is impressive, you must climb to the cathedral's rooftop (Terrazze) to truly touch Milan's memory. Please note that access to the terraces and the cathedral interior is paid. You should definitely purchase your tickets online in advance; the queues at the door can cost you a lot of time.
+- [Galleria Vittorio Emanuele II](search:Galleria Vittorio Emanuele II): This magnificent passage right next to the Duomo is like the "living room" of the Milanese. Feel the incredible acoustics under the glass dome and examine the mosaics on the floor. It is said that spinning three times on your heel on the bull mosaic brings luck; locals usually do it quickly in passing, and you can quietly join in on this tradition.
+- [Santa Maria delle Grazie and "The Last Supper"](search:Santa Maria delle Grazie and "The Last Supper"): Home to Leonardo da Vinci’s world-famous masterpiece, this church is Milan’s artistic peak. However, if you do not book your tickets online at least 2-3 months in advance, your chances of seeing this work of genius are, unfortunately, virtually zero.
+- [Castello Sforzesco](search:Castello Sforzesco): Rising in the middle of the city, this massive fortress is the strongest reminder of Milan’s ducal era. Passing through its grand courtyards instantly transports you to the Middle Ages. Entering the castle courtyards is free, but you will need a ticket if you wish to see the art museums inside and Michelangelo’s unfinished final masterpiece, the Pietà Rondanini.
+- [Teatro alla Scala](search:Teatro alla Scala): It may look quite modest from the outside, but the grandeur created by the red velvet and gold leaf inside will immediately show you why the heart of the opera world beats here. It is highly recommended to book your tickets in advance for performances or a visit to the theater museum.
+- **Pinacoteca di Brera (Brera Art Gallery):** Housing one of Italy’s most important art collections, this museum takes you on a quiet journey from the Middle Ages to modern art. If you plan to visit this gallery specifically on a weekend, an online reservation will save your time.
+
+- **San Maurizio al Monastero Maggiore:** Known as the "Sistine Chapel of Milan." You will be amazed to see that every inch, from the ceiling to the walls, is covered in magnificent frescoes when you step inside this church, which looks quite humble from the outside. It is one of the city's most precious hidden gems.
+
+- [Cimitero Monumentale](search:Cimitero Monumentale): This is not just a cemetery; it is a massive open-air sculpture museum. The monumental tombs built by Milan’s most noble and wealthy families are architecturally breathtaking. Walking through this art gallery of silence offers a unique sense of peace.
+- [Basilica di Sant'Ambrogio](search:Basilica di Sant'Ambrogio): Dedicated to the patron saint of Milan, this is one of the city's oldest churches. This structure, where you can see the purest form of Romanesque architecture, represents a much deeper past, far from the famous skyscrapers of modern Milan.
+- [Piazza Gae Aulenti and Bosco Verticale](search:Piazza Gae Aulenti and Bosco Verticale): Milan is not only about the past. The "Vertical Forest" (Bosco Verticale) buildings, considered the pinnacle of modern architecture, and the futuristic Gae Aulenti Square symbolize the modern memory and future vision of the city today.
+
+## 🍴 A Taste of the City: Golden Tables
+
+Milanese cuisine is quite different from the classic tomato-based dishes of southern Italy; here, you’ll encounter richer flavors where butter, saffron, and meat take center stage. From practical street foods that suit the city’s pace to those famous evening social tables, staying hungry in Milan is simply impossible.
+
+- [Risotto alla Milanese](search:Risotto alla Milanese): The first dish that comes to mind when you think of Milan. This creamy rice dish, which gets its golden yellow color from saffron, is the city's signature. It is usually cooked with bone marrow, and you can feel that intense flavor in every bite. To try it in its most classic form, historical spots like Trattoria Milanese are the right addresses.
+- **Cotoletta alla Milanese:** Don't call it a schnitzel; the Milanese are quite sensitive about this. It is made by coating bone-in veal in breadcrumbs and frying it in butter until it turns golden. Its massive size, often spilling over the plate, is as satisfying to look at as it is to eat. Antica Trattoria della Pesa is one of the city's most respected names for this dish.
+
+- **Ossobuco:** Braised veal shank cooked slowly over low heat. It is usually served on the same plate as saffron risotto. The meat should be so tender that it falls off the bone at the touch of a fork.
+
+- **Pizza al Trancio (Milanese Style Slice Pizza):** Unlike the paper-thin Roman or Neapolitan pizzas, Milan has its own culture of thick-crust, extra-cheesy, and soft-sliced pizza. The cult global stop for this is definitely Spontini. It's a quick but incredibly satisfying feast.
+- [Panzerotti](search:Panzerotti): Milan’s most beloved "on-the-go" snack. For these small fried dough pockets filled with tomato and mozzarella, you can always see a queue in front of the famous Luini near the Duomo. It is definitely worth the wait; the key is to eat it while it’s still hot.
+- **Aperol Spritz:** When the sun begins to set over the streets of Milan, the tables suddenly turn orange. This drink, the liquid form of the city's social life, is not just a cocktail but a symbol of the joy of living in Milan. Camparino in Galleria is the most iconic spot to experience this vibe against the view of the cathedral.
+- **Negroni Sbagliato:** Legend has it that a bartender accidentally used Prosecco (sparkling wine) instead of gin while making a classic Negroni, and this "mistaken" but legendary drink was born. You should visit Bar Basso, the birthplace of this drink, and try this local classic in their giant signature glasses.
+
+- [Panettone](search:Panettone): Although essentially a Christmas cake, it is Milan’s gift to the world. You can find the freshest version of this soft, giant cake filled with raisins and candied fruit at the city’s historic bakeries like Marchesi or Cova.
+- **The Aperitivo Culture:** More than just a meal, it is the Milanese way of life. It starts around 6 PM; when you order a drink, you enjoy a generous selection of accompanying snacks that could easily replace dinner. The Navigli district is the most enjoyable and lively spot for this.
+
+
+## 🤫 Whispers of the City: Local Secrets
+
+Behind Milan’s sharp suits and serious business facade lies a surprisingly playful, slightly mysterious, and quite astonishing soul. When you step just a street away from the tourist crowds, you’ll discover that Milan has entirely different stories to tell.
+
+- [Pink Flamingos in the City Center (Villa Invernizzi)](search:Pink Flamingos in the City Center (Villa Invernizzi): Walk just a few minutes away from the luxury boutiques of the Quadrilatero della Moda and dive into the quiet streets around Via Serbelloni. When you peer through the garden railings of Villa Invernizzi, you’ll see a group of pink flamingos lounging in a pool right in the heart of Milan. Since it’s a private estate, you cannot go inside, but watching this surreal scene through the fence is a true Milanese mystery.
+- **The "Middle Finger" in front of the Stock Exchange (L.O.V.ed):** In Piazza Affari, directly in front of the Italian Stock Exchange building, stands a giant hand sculpture. With all other fingers cut off and only the middle finger remains, this piece by Maurizio Cattelan acts as a provocative laugh directed at Milan’s serious financial world. It’s the best spot to see the city’s rebellious and modern face.
+- [A Chapel Woven with Bones (San Bernardino alle Ossa)](search:A Chapel Woven with Bones (San Bernardino alle Ossa): Just a few steps from the grandeur of the Duomo sits a church that looks quite ordinary from the outside. However, once you step inside and head to the side chapel, you’ll find the walls decorated with thousands of human bones and skulls. It might feel haunting, but it remains one of Milan’s quietest and most moving landmarks.
+- **The "Bronze Ear" on Via Serbelloni:** At the entrance of the building at Via Serbelloni 10, you’ll find a giant ear sculpture made of bronze. Originally designed as an intercom in the 1920s, this ear is one of the city's quirkier architectural details. Legend has it that if you whisper a wish into this ear, the soul of the city will hear it.
+
+- **Wes Anderson’s Bar (Bar Luce):** Located within the Fondazione Prada, this bar was designed by the famous director Wes Anderson. The moment you enter, you’ll feel like you’ve stepped onto a 1950s Milanese film set. With its pastel colors, nostalgic pinball machines, and iconic ceiling decorations, it’s the most aesthetic escape in modern Milan.
+- **The Hidden Garden of 10 Corso Como:** From the street, you might think this is just another luxury shop. However, if you slip into the courtyard and head up to the rooftop terrace, you’ll find yourself in a lush, quiet, and incredibly chic garden. It is the city’s coolest sanctuary to escape the crowds for a coffee break.
+
+- **The Devil’s Horn Marks (Sant'Ambrogio Column):** Right in front of the Basilica di Sant'Ambrogio stands a white column with two distinct holes. According to legend, these holes were formed when the Devil slammed his horns into the column during a struggle with Saint Ambrose. It’s said that if you press your ear to the column, you can hear the sounds of hell—a tall tale, perhaps, but a piece of folklore beloved by locals.
+
+
+## ✅ The Milan Checklist: Don't Leave Without Doing These
+
+- **Walk on the Duomo Rooftop:** Don’t just settle for seeing the inside of the cathedral; take the elevator or stairs to the terrace. Experience the unique feeling of looking out over the city through a forest of white marble spires.
+- Join the [Aperitivo Tables](search:Join the Aperitivo Tables): After 6 PM, grab a table by the Navigli canals or in the backstreets of Brera. Order a drink and enjoy the generous selection of snacks that come with it—it’s the most delightful hour in Milan.
+- **Drink Your Espresso Standing at the Bar:** In the morning, walk into any local bar and take your espresso standing up at the counter like a true Milanese. It saves you money and lets you sync with the city’s fast-paced morning rhythm.
+- [Queue for a Panzerotto](search:Queue for a Panzerotto): Grab a hot, cheesy panzerotto from Luini near the Duomo and discover with your first bite why that famous line never seems to end.
+- **Spin on the Bull in the Galleria:** Spin three times on your heel on the famous bull mosaic for good luck. Don’t worry about looking like a tourist; even the locals do it secretly sometimes.
+
+- **Peek into the Hidden Courtyards:** As you walk, gently push open those large, heavy wooden doors or peek inside if they’re ajar. You’ll find that Milan’s true elegance is hidden in those lush, secret green worlds inside the buildings.
+
+- **Eat a Slice:** Forget the thin-crust rules for a moment and try Spontini’s famous thick-crust, extra-cheesy Milanese-style pizza slice.
+
+- Get Lost in the [Streets of Brera](search:Get Lost in the Streets of Brera): Put your map away and let the artistic, narrow streets of Brera guide you. With its small galleries, fortune tellers, and chic boutiques, it’s the most characteristic part of the city.
+- **See the Bosco Verticale Up Close:** Head to the Isola district to see the "Vertical Forest" buildings. Witness how modern architecture can merge so elegantly with nature.
+- [Wave to the Flamingos at Villa Invernizzi](search:Wave to the Flamingos at Villa Invernizzi): Seeing pink flamingos living in a villa garden right in the heart of the city will make you realize just how full of surprises Milan is.
+- **Try a Sbagliato:** Visit the legendary Bar Basso, where this iconic drink was born, and taste that "mistaken" but magnificent cocktail served in their signature oversized glasses.
+
+- **Escape to Lake Como if You Have Time:** If you have an extra day, take a break from Milan’s fast pace and head to the lakeshore. You can reach Lake Como in about an hour via trains departing from Centrale or Cadorna stations and soak in the magnificent scenery.
+''';
+
+  // NAPOLI
+  static const _napoliTR = '''# Napoli Rehberi: Akdeniz'in Vahşi Ruhu 🇮🇹
+
+Napoli; kaotik, gürültülü ama bir o kadar da içten ve lezzetli bir şehirdir. İtalya'nın en "gerçek" halini görmek istiyorsanız Napoli tam size göre.
+
+## 📅 Ne Zaman Gidilir?
+- **Bahar (Nisan-Haziran):** Hava ılıktır ve Vezüv Yanardağı'nın manzarası tertemizdir.
+- **Noel Zamanı (Aralık):** Meşhur "Presepe" (İsa'nın doğuş sahnesi) figürleriyle ünlü San Gregorio Armeno sokağı bu dönemde bir masal diyarı gibidir.
+
+## 🏘️ Konaklama Rehberi
+- [Centro Storico](search:Centro Storico): Şehrin UNESCO korumalı tarihi kalbi. Daracık sokaklar, çamaşır asılı balkonlar ve kaosun en tatlı hali.
+- [Vomero](search:Vomero): Tepede, nezih ve modern bir mahalle. Fünikülerle çıkılır ve harika şehir manzaraları sunar.
+- [Chiaia](search:Chiaia): Deniz kenarında, şık butikler ve kaliteli restoranlarla dolu daha üst orta sınıf bölge.
+
+## 🍽️ Ne Yenir ve İçilir?
+- **Gerçek Pizza:** Pizzanın anavatanındasınız. *Margherita* ve *Marinara* dışında pek bir şeye ihtiyacınız yok. *Pizzeria Da Michele* gibi klasikleri deneyin.
+- [Sfogliatella](search:Sfogliatella): Kat kat çıtır hamurlu meşhur Napoli tatlısı. Sıcak yemeniz önerilir.
+- **Espresso Kültürü:** Napoli'de kahve bir sanattır. Ayakta, hızlıca ve çok sıcak içilir.
+- [Caffè Sospeso](search:Caffè Sospeso): İhtiyacı olanlar için "askıda kahve" bırakma geleneği burada doğmuştur. Bir tane kendinize alın, bir tane de başkası için ödeyin.
+
+## 🚇 Ulaşım İpuçları
+- **Dikkatli Olun:** Trafik kuralı burada pek işlemez, özellikle scooterlara karşı yaya olarak çok dikkatli olun.
+- **Füniküler:** Sahil ile yukarıdaki Vomero mahallesini birbirine bağlayan tarih ve keyif dolu bir ulaşım yolu.
+
+- **Sanat Metrosu:** Linea 1 (1. Hat) istasyonları birer sanat galerisidir (özellikle Toledo istasyonu).
+
+## 💎 Lokal Sırlar & İpuçları
+- [Castel Sant'Elmo](search:Castel Sant'Elmo): Şehri, Vezüv Yanardağı'nı ve denizi 360 derece izlemek için en iyi seyir noktası.
+- [Yeraltı Napolisi (Napoli Sotterranea)](search:Napoli Sotterranea): Şehrin altına inip antik Roma tiyatrolarını ve II. Dünya Savaşı sığınaklarını keşfedin.
+- **Günübirlik Gezi:** Procida adası, Capri'ye göre daha az turistik ve çok daha renklidir.''';
+
+
+  static const _napoliEN = '''# Naples Guide: The Wild Heart of the Mediterranean 🇮🇹
+
+Naples is chaotic, noisy, and raw, but it's also incredibly sincere and delicious. If you want to see Italy's most authentic self, Naples is exactly where you belong.
+
+## 📅 Best Time to Visit
+- **Spring (April-June):** The weather is mild, and the views of Mount Vesuvius are crystal clear.
+- **Christmas (December):** San Gregorio Armeno street, famous for its "Presepe" (Nativity scene) figurines, transforms into a magical wonderland.
+
+
+## 🏘️ Neighborhood Guide
+- [Centro Storico](search:Centro Storico): The UNESCO-protected heart of the city. Narrow alleys, laundry hanging from balconies, and the sweetest form of chaos.
+- [Vomero](search:Vomero): An upscale, hilltop neighborhood accessed by funicular, offering fresh air and stunning panoramic views.
+- [Chiaia](search:Chiaia): A chic, seaside district filled with high-end boutiques and some of the city's finest dining.
+
+## 🍽️ Food & Dining Etiquette
+- **Real Pizza:** You are in the birthplace of pizza. Stick to the classics: *Margherita* or *Marinara*. Try local legends like *Pizzeria Da Michele*.
+- [Sfogliatella](search:Sfogliatella): A crisp, multi-layered pastry that is a staple of Neapolitan snacking. Best enjoyed warm.
+- **Coffee Culture:** Coffee in Naples is an art form. It's served very hot, very short, and drunk standing up quickly.
+- [Caffè Sospeso](search:Caffè Sospeso): The tradition of "suspended coffee"—paying for an extra cup for someone in need—originated here. Buy one, leave one.
+
+## 🚇 Transportation Tips
+- **Be Vigilant:** Traffic rules are more suggestions than laws here. Be extremely careful of scooters when crossing the streets.
+
+- **The Funiculars:** These are not just transport; they're historical rides that connect the coast to the Vomero neighborhood.
+
+- **Metro Art Stations:** Line 1 stations are underground art galleries—Toledo station is widely considered one of the most beautiful in Europe.
+
+## 💎 Local Secrets & Insights
+- [Castel Sant'Elmo](search:Castel Sant'Elmo): The best vantage point for a 360-degree view of the city, the Bay of Naples, and Mount Vesuvius.
+- [Napoli Sotterranea (Underground Naples)](search:Napoli Sotterranea): Descend below the streets to explore ancient Roman theaters and WWII air-raid shelters.
+- [Day Trip](search:Day Trip): The island of Procida is less touristy than Capri and significantly more colorful and authentic.''';
+
+  // ATINA
+  static const _atinaTR = '''# Atina Rehberi: Antik Miras ve Modern Kaos 🇬🇷
+
+Atina; sadece Akropolis değil, tarihle modern sokak sanatının, kadim felsefeyle canlı gece hayatının iç içe geçtiği çok enerjik bir şehirdir.
+
+## 📅 Ne Zaman Gidilir?
+- **Bahar (Nisan-Haziran):** Gezmek için en ideal sıcaklıklar. Tepeler hala yeşildir.
+- **Erişilebilir Kış:** Atina kışın da nispeten ılıktır ve antik alanları kalabalıksız gezmek için harikadır.
+- **İpucu:** Temmuz ve Ağustos aylarında Atina'da sıcaklık gölgede bile 40 dereceye çıkabilir. Akropolis'e çıkmak bu aylarda zordur.
+
+## 🏘️ Semt Rehberi
+- [Plaka](search:Plaka): Akropolis'in eteklerinde, bembeyaz evleri ve çiçekli sokaklarıyla en ikonik mahalle. Turistiktir ama her zaman büyüleyicidir.
+- [Koukaki](search:Koukaki): Son yılların en popüler bölgesi. Birçok gurme restoran, butik kafe ve yerel bir atmosfer.
+- [Anafiotika](search:Anafiotika): Plaka'nın üst kısmında, Cyclades adalarını andıran küçük beyaz evler bölgesi. Şehrin ortasında bir Ege adası gibi.
+
+## 🍽️ Ne Yenir ve İçilir?
+- **Meze Kültürü:** Akşam yemeği uzun sürer. Masayı çeşitli mezelerle donatıp yavaş yavaş yemek bir gelenektir.
+
+- **Freddo Espresso:** Atinalıların milli içeceğidir. Soğuk ve köpüklü bu kahveyi günün her saati ellerinde görebilirsiniz.
+- **Souvlaki ve Gyros:** Hızlı, ucuz ve inanılmaz lezzetli sokak yemekleri.
+
+- **Hesap Ödeme:** Yunanistan'da hesabı "Alman usulü" ödemek pek yaygın değildir; genellikle biri ısmarlar veya toplam hesap bölünür.
+
+## 🚇 Ulaşım İpuçları
+- **Metro:** Atina metrosu kazılırken birçok antik eser bulunmuştur; istasyonların bazıları küçük birer müze gibidir.
+- **Yürüyüş:** Tarihi merkez (Plaka, Monastiraki, Thissio) tamamen yürünebilir bir ring hattı üzerindedir.
+
+## 💎 Lokal Sırlar & İpuçları
+- **Lycabettus Tepesi:** Şehrin en yüksek noktası. Gün batımında veya gece Atina'nın sonsuz ışıklarını izlemek için buraya çıkın.
+
+- **Laiki (Semt Pazarları):** Mahallelerde kurulan taze meyve ve sebze pazarları gerçek yerel hayatı gözlemlemek için harikadır.
+
+- **Bedava Müzeler:** Ayın belirli Pazar günleri antik alanlara girişler ücretsiz olabilir, gitmeden önce kontrol edin.''';
+
+
+  static const _atinaEN = '''# Athens Guide: Ancient Heritage & Modern Edge 🇬🇷
+
+Athens is more than just the Acropolis; it's an energetic city where ancient history meets modern street art, and legendary philosophy blends with vibrant nightlife.
+
+## 📅 Best Time to Visit
+- **Spring (April-June):** Ideal temperatures for exploring. The surrounding hills are still lush and green.
+- **Accessible Winter:** Athens remains relatively mild in winter—a great time to visit ancient sites without the massive crowds.
+- **Tip:** In July and August, the city is a furnace. Climbing the Acropolis in 40°C heat can be dangerous; stay hydrated!
+
+## 🏘️ Neighborhood Guide
+- [Plaka](search:Plaka): Nestled under the Acropolis, this is the most iconic neighborhood with its whitewashed houses and flowering alleys.
+- [Koukaki](search:Koukaki): The trendiest spot in recent years. Fill with gourmet tavernas, boutique cafes, and a genuine residential feel.
+- [Anafiotika](search:Anafiotika): Located at the top of Plaka, this area looks exactly like a Cycladic island. A tiny piece of the Aegean in the heart of the city.
+
+## 🍽️ Food & Dining Etiquette
+- **Meze Culture:** Dinner is a marathon, not a sprint. The tradition is to fill the table with various appetizers (meze) and share them slowly over wine or ouzo.
+
+- **Freddo Espresso:** The "national drug" of modern Greeks. You’ll see everyone carrying these cold, frothy coffees at all hours.
+- **Souvlaki & Gyros:** The ultimate fast, cheap, and delicious street food.
+
+- **Splitting the Bill:** In Greece, splitting the bill down to the last cent is rare; usually, one person hosts or the total is roughly divided.
+
+## 🚇 Transportation Tips
+- **The Metro:** While digging the tunnels, many ancient artifacts were uncovered—some stations (like Syntagma) look like mini-museums.
+- **Walking:** The historical heart (Plaka, Monastiraki, Thissio) is connected by a pedestrian ring that makes walking the best way to see the sights.
+
+## 💎 Local Secrets & Insights
+- **Lycabettus Hill:** The highest point in the city center. Head up here at night to see the sprawling lights of Athens stretch all the way to the sea.
+
+- **Laiki Markets:** These local farmers' markets are held weekly in different neighborhoods—the best place to see authentic local life.
+
+- **Free Entry:** Many archaeological sites are free to the public on the first Sunday of the month during the winter season.''';
+
+  static const _barcelonaTR = '''# Barselona: Sanatın ve Hayatın Sokaklara Taştığı Şehir
+
+**Hızlı Bakış:** Barselona’da sokakta yürürken kendinizi bir masal kitabında, orta çağdan kalma bir kalede veya devasa bir plaj partisinde bulabilirsiniz. Burası kendini sadece "İspanyol" değil, her şeyden önce "Katalan" olarak tanımlayan, gururlu ve renkli bir şehirdir. Şehirde düz çizgilere yer yoktur; Antoni Gaudí’nin doğadan ilham alan mimarisi sayesinde binalar sanki nefes alır ve dalgalanır. Barselona, "yavaş yaşam"ın (Mañana) başkentidir; burada "Siesta" (öğle uykusu) hala yaşayan bir gelenektir, bu yüzden öğle saatlerinde dükkanlar kapalıysa şaşırmayın ve siz de kendinizi akışa bırakın. Akşam yemeği 21:00'dan, eğlence ise gece yarısından önce başlamaz. Ancak bu büyülü atmosferin içinde unutmamanız gereken çok kritik bir "yaşam kodu" var: Güvenlik! Barselona, ne yazık ki dünyanın "yankesicilik başkentlerinden" biri olarak bilinir. Özellikle La Rambla ve Gotik Mahalle'nin dar sokaklarında çantanızı önünüzde tutmak ve telefonunuza sahip çıkmak bir paranoya değil, Barselona'yı sorunsuz gezmenin temel kuralıdır. Bir diğer önemli detay ise dil; yerel halk Katalancaya çok değer verir. Bir dükkana girdiğinizde İspanyolca yerine Katalanca bir "Bon dia" (Günaydın) demek, size tüm kapıları ve kalpleri ardına kadar açacaktır.
+
+## 📅 Takviminizi Ayarlayın: Hangi Mevsim Sizin?
+
+Barselona, güneşin ve denizin şehri olsa da her mevsimi ziyaretçisine bambaşka bir enerji sunar. Akdeniz’in tadını ne zaman çıkaracağınız, aslında ne kadar kalabalığa ve sıcağa göğüs gerebileceğinize bağlıdır.
+
+- **İlkbahar (Mart - Mayıs):** Barselona’nın en "şiirsel" zamanıdır. Hava ne çok sıcak ne de serindir; şehri yürüyerek keşfetmek için idealdir. Kritik Tarih: 23 Nisan’daki Sant Jordi (Güller ve Kitaplar Günü) Barselona'nın en güzel günüdür. Tüm şehir dev bir çiçekçi ve kütüphaneye dönüşür; bu günü fırsatınız varsa mutlaka deneyimlemelisiniz.
+- **Yaz (Haziran - Ağustos):** Şehrin tam anlamıyla bir tatil beldesine dönüştüğü, plajların (Barceloneta) dolup taştığı dönemdir. Ancak uyaralım: Barselona’nın nemli sıcağı ve yoğun turist kalabalığı yorucu olabilir. Müzik tutkunuysanız Primavera Sound veya Sónar gibi dünyanın en iyi festivalleri için bu mevsim kaçınılmazdır.
+- **Sonbahar (Eylül - Ekim):** Denizin hala girilebilir sıcaklıkta olduğu, kalabalığın biraz azaldığı ve havanın yumuşadığı en keyifli dönemlerden biridir. Kritik Tarih: Eylül sonundaki La Mercè festivali, Barselona'nın en büyük sokak festivalidir. Dev heykeller (Gegants), insan kuleleri (Castellers) ve havai fişeklerle Katalan kültürünü en saf haliyle görebilirsiniz.
+- **Kış (Kasım - Şubat):** Avrupa’nın kuzeyindeki dondurucu soğukları unutun. Barselona’da kışlar genellikle güneşli ve ılımandır. Kalabalıktan uzaklaşmak, Gaudí’nin eserlerini sırada beklemeden gezmek ve yerel hayatı daha sakin bir tempoda yaşamak istiyorsanız harika bir tercihtir. Noel pazarları ve Ocak sonundaki indirim dönemleri de cabası!
+
+## 🏠Nerede Kalmalı: Mahalle Rehberi
+
+Barselona’da nerede kalacağınız, sabah uyandığınızda nasıl bir atmosfere gözünüzü açacağınızı belirler. Orta Çağ’dan kalma daracık labirent sokaklar mı, yoksa Gaudí’nin eserleriyle süslü geniş ve şık bulvarlar mı?
+
+- **Barri Gòtic (Gotik Mahalle):** Şehrin en eski ve tarihi kalbidir. Romalılardan kalma duvarlar ve Orta Çağ mimarisi arasında, labirenti andıran dar sokaklarda kaybolmak istiyorsanız burası tam size göre. Her köşeden bir meydan veya tarihi bir kilise çıkar. Çok merkezidir ancak sokakların çok dar ve kalabalık olması nedeniyle biraz gürültülü ve yankesicilik açısından ekstra dikkat gerektiren bir bölgedir.
+- [Eixample](search:Eixample): Barselona denince akla gelen o ızgara planlı, geniş bulvarların olduğu bölgedir. Sagrada Família, Casa Batlló ve şık alışveriş caddesi Passeig de Gràcia buradadır. Daha modern, güvenli, düzenli ve lüks bir konaklama arayanlar için en ideal tercihtir. Şehrin en iyi restoranları ve tasarım butikleri bu mahallede toplanmıştır.
+- [El Born](search:El Born): Gotik Mahalle'nin hemen yanında yer alır ama ruhu çok daha "trendi" ve sanat doludur. Picasso Müzesi’ne ev sahipliği yapar. Gece hayatı, butik mağazalar ve şık barlarla doludur. Hem denize hem de şehrin en büyük parkı Ciutadella'ya yakın olmak isteyen genç ruhlu gezginler için harika bir dengedir.
+- [Gràcia](search:Gràcia): Eskiden Barselona’dan ayrı bir köy olan bu mahalle, bugün şehrin en bohem ve yerel kalabilmiş köşesidir. Turist kalabalığından uzaklaşmak, yerel halkla birlikte küçük meydanlarda (Plaza) kahve içmek ve mahalle kültürünü yaşamak istiyorsanız burası bir cevherdir. Park Güell’e yakındır ama şehir merkezine ulaşmak için metroyu kullanmanız gerekir.
+- [Poblenou](search:Poblenou): Eski fabrikaların sanat galerilerine ve teknoloji ofislerine dönüştüğü, Barselona'nın modern yüzüdür. En büyük avantajı plajlara yürüme mesafesinde olmasıdır. Eğer hem "deniz tatili" tadında bir konaklama hem de modern bir mahalle dokusu arıyorsanız Poblenou mükemmel bir seçimdir.
+- [Poble-sec](search:Poble-sec): Barselona’nın yükselen yıldızı ve gastronomi merkezidir. Şehrin karmaşasından biraz daha uzak ama merkeze çok yakındır. Meşhur tapas caddesi Carrer de Blai burada bulunur. Daha uygun fiyatlı ve "lokal" bir seçenek arayanlar için güvenli bir limandır.
+
+## 🚲 A Noktasından B Noktasına: Bir Lokal Gibi Hareket Edin
+
+Barselona yürüyerek keşfetmeye çok uygun bir şehir ama mesafeler düşündüğünüzden uzun olabilir. Neyse ki toplu taşıma sistemi şehrin enerjik temposuna ayak uyduracak kadar iyi çalışıyor. Geriye kalan tek şey, en uygun bileti baştan almak.
+
+- **Havalimanından Şehir Merkezine:** Barcelona El Prat Havalimanı’ndan (BCN) merkeze ulaşmanın en hızlı yolu, her 5-10 dakikada bir kalkan Aerobús araçlarıdır. Terminal 1 ve 2’den doğrudan Plaça de Catalunya’ya giden bu otobüslerin tek yönü €6.75, gidiş-dönüşü ise €11.65’tir. Biletinizi duraktaki makinelerden veya online alabilirsiniz. Daha ekonomik bir yol için Terminal 2’den kalkan R2 Nord trenini T-Casual kartınızla kullanabilirsiniz. Metro (L9 Sud) ise merkeze doğrudan gitmez ve €5.50 tutarında özel bilet gerektirir.
+- **Kurtarıcı Bilet:** T-Casual: Ulaşımı ucuza getirmek için metro istasyonlarındaki kırmızı makinelerden €12.15 karşılığında T-Casual kartı almalısınız. Bu kart, 1. Bölge’de (Zone 1) metro, otobüs ve trenlerde geçerli 10 biniş hakkı sağlar. Tekli biletin €2.55 olduğu düşünülürse oldukça karlıdır. En kritik kural; bu kart kişiye özeldir. Aynı kartı iki kişi peş peşe basıp kullanamaz, her yolcunun kendi kartı olması şarttır.
+- **Hola Barcelona Travel Card:** Eğer Barselona’da ulaşımı tamamen sınırsız ve dertsiz hale getirmek isterseniz, Hola Barcelona kartı en mantıklı seçenektir. Bu kart 48 saat (2 gün), 72 saat (3 gün), 96 saat (4 gün) veya 120 saat (5 gün) seçenekleriyle sunulur. Fiyatları süresine göre yaklaşık €17.50 ile €41.00 arasında değişir. Bu kartla metro, otobüs, tramvay ve hatta havalimanı metrosuna hiçbir ek ücret ödemeden sınırsızca binebilirsiniz. Biletinizi metro istasyonlarındaki makinelerden alabileceğiniz gibi, internetten önceden alırsanız genellikle %10 indirim kazanırsınız.
+- **Metro ve Gece Ulaşımı:** Metro ağı hafta içi gece 24:00’e, Cuma 02:00’ye, Cumartesi ise tüm gece boyu hizmet verir. Metronun kapalı olduğu saatlerde "N" (Nitbus) harfiyle başlayan gece otobüsleri devreye girer. T-Casual kartınız bu otobüslerde de geçerlidir. Şehir içinde rotanızı çizmek ve güncel saatleri takip etmek için Citymapper veya TMB App uygulamalarını kullanmak hayat kurtarır.
+- **Yürümek ve Bisiklet:** Gotik Mahalle ve El Born gibi tarihi bölgeler sadece yürüyerek keşfedilebilir. Daha uzun mesafeler ve sahil hattı için günlük €10-15 civarına bisiklet kiralayabilirsiniz. Şehirde bisiklet yolları oldukça yaygındır ancak yayaların kullandığı kaldırımlarda sürmemeye dikkat etmelisiniz.
+
+## 🏛️ Şehrin Hafızası: Görülmesi Gereken İkonik Duraklar
+
+Barselona’nın imzası, Antoni Gaudí’nin dahi zihniyle doğanın kusursuz formlarının birleştiği, her köşesi sürprizlerle dolu bir tuval gibidir. Bu şehirde "gezilecek yerler" sadece binalardan ibaret değildir; her biri Barselona'nın kimliğini oluşturan yaşayan birer hikâyedir.
+
+- [La Sagrada Família](search:La Sagrada Família): Şehrin tartışmasız tacıdır. Gaudí'nin 1882'de devraldığı ve hala yapımı devam eden bu "Bitmeyen Kilise", sadece bir ibadethane değil, taşa kazınmış bir ormandır. İçerideki sütunlar ağaç dallarını andırır ve güneş ışığı vitraylardan süzüldüğünde içerisi büyüleyici bir renk denizine dönüşür.
+- [Park Güell](search:Park Güell): Barselona’nın en masalsı noktasıdır. Hansel ve Gretel’in evlerini andıran binalar, dünyanın en uzun kavisli bankı ve o meşhur mozaik kertenkele (El Drac) buradadır. Şehre yukarıdan bakmak ve Gaudí’nin renkli dünyasında kaybolmak için en iyi yerdir.
+- [Casa Batlló ve Casa Milà (La Pedrera)](search:Casa Batlló ve Casa Milà (La Pedrera): Eixample bölgesindeki bu iki yapı, Gaudí’nin mimari dehasının zirvesidir. Casa Batlló’nun ejderha sırtını andıran çatısı ve Casa Milà’nın dalgalı cephesi sizi başka bir dünyaya götürür.
+- [La Rambla ve Mercat de Sant Josep de la Boqueria](search:La Rambla ve Mercat de Sant Josep de la Boqueria): Şehrin en ünlü caddesi La Rambla üzerindeki meşhur pazar yeri La Boqueria, taze meyve suları ve Katalan lezzetleriyle bir duygu patlaması yaşatır.
+- **Barselona Katedrali ve Gotik Mahalle:** Sagrada Família’nın aksine, burası şehrin karanlık ve vakur Orta Çağ yüzüdür. Gotik Katedral’in görkemi ve çevresindeki dar sokaklar sizi zamanda yolculuğa çıkarır.
+- **Montjuïc Tepesi ve Sihirli Fıskiye (Font Màgica):** Şehri panoramik olarak görebileceğiniz bu tepe, müzelerden Olimpiyat Stadyumu’na kadar pek çok durağa ev sahipliği yapar. Akşamları sergilenen ışık ve su gösterileri bir klasiktir.
+
+- **Barceloneta Plajı:** Şehrin tam kalbinde, metrodan inip birkaç dakika içinde kendinizi kumsalda bulmak Barselona’nın en büyük lüksüdür.
+
+**💡Ufak bir hatırlarma:** Barselona’da popülerlik demek, uzun kuyruklar demektir. Sagrada Família ve Park Güell gibi yerlere biletinizi gitmeden haftalar önce online olarak almazsanız, kapıdan üzülerek dönme ihtimaliniz %99’dur.
+
+## 🍴 Şehrin Lezzet Haritası: Tapas, Paella, Sangria ve Ötesi
+
+Barselona’da yemek yemek, sadece karnınızı doyurmak değil; bir sosyalleşme ritüeline katılmaktır. Burada masalar kalabalıktır, tabaklar paylaşımlıdır ve o meşhur "Pica-pica" (atıştırma) kültürü sayesinde her öğün bir lezzet şölenine dönüşür.
+
+- **Tapas & Pinchos:** Barselona’nın ruhu küçük tabaklarda saklıdır. Tapas masanın ortasına gelen paylaşımlı lezzetlerken, Pinchos (genellikle bir ekmek dilimi üzerine kürdanla tutturulmuş küçük atıştırmalıklar) ise Barselona'nın en sevilen lezzet geleneklerinden biridir. Yerel İpucu: Poble-sec mahallesindeki Carrer de Blai, şehrin "Pinchos sokağı" olarak bilinir. Bir barda bir kadeh içecek ve birkaç pincho ile Barselona usulü bir akşam başlatmak bir klasiktir.
+- [Paella](search:Paella): İspanya’nın en meşhur yemeği. Aslen Valensiya çıkışlı olsa da Barselona’da deniz ürünleriyle hazırlanan (Paella de Marisco) versiyonu efsanedir. Önemli Uyarı: Yerel halk paellayı bir öğle yemeği olarak görür. Akşam yemeğinde paella yiyenleri genellikle turist olarak etiketlerler. Ayrıca restoran girişlerinde "mikrodalga" tabelası olan yerlerden kaçının; gerçek paella bakır tavada, taze pişmelidir.
+- **Pan con Tomate (Pa amb Tomàquet):** Katalan mutfağının en basit ama en dahi buluşudur. Kızarmış ekmeğin üzerine taze sarımsak, olgun domates ve kaliteli zeytinyağı sürülerek hazırlanır. Her yemeğin yanına yakışır!
+
+- **Cava ve Sangria:** Sangria turistlerin favorisi olsa da, Katalanların asıl gururu Cava'dır. İspanya'nın "şampanyası" olarak bilinen bu köpüklü şarap, tapasların en iyi eşlikçisidir. Eğer daha meyveli ve ferah bir şey arıyorsanız, beyaz şarapla yapılan Sangria de Cava'yı mutlaka denemelisiniz.
+
+- **Crema Catalana:** Fransızların Crème brûlée’sine benzer ama çok daha aromatik. Üzerindeki yanık şeker tabakasını kaşığınızla kırmak, Barselona’daki en tatlı anınız olabilir.
+
+- **Jamón Ibérico:** Dünyanın en kaliteli jambonları burada sizi bekliyor. Özellikle meşe palamuduyla beslenen domuzlardan elde edilen "Pata Negra", ağızda eriyen dokusuyla bambaşka bir seviyedir.
+
+
+## 🤫 Şehrin Fısıldadıkları: Lokal Sırlar
+
+Barselona’nın gerçek büyüsü, milyonlarca turistin yürüdüğü ana caddelerden sadece bir sokak ötede, sessiz bir avluda veya şehrin üzerine çöken bir gün batımı manzarasında saklıdır. İşte Barselona’yı sadece bir turist gibi değil, bir "Barceloní" gibi yaşamanızı sağlayacak detaylar.
+
+- [Bunkers del Carmel](search:Bunkers del Carmel): Park Güell'in kalabalığından kaçın ve Barselona’nın en iyi 360 derece manzarasını görmek için buraya çıkın. Burası eski bir uçaksavar bataryasıdır; şimdi ise gençlerin ellerinde içecekleriyle gün batımını izlediği, şehrin en özgür ve romantik noktasıdır. Giriş ücretsizdir ama tepeye tırmanmak için kondisyon şart!
+- **El Jardí (Raval'ın Gizli Bahçesi):** Raval mahallesindeki eski bir hastanenin (Antic Hospital de la Santa Creu) avlusunda saklı olan bu bar, şehrin kaosu ortasında bir vahadır. Portakal ağaçlarının altında, Gotik kemerlerin gölgesinde bir kadeh şarap içmek, Barselona’nın en huzurlu anıdır.
+
+- **Vermut Saati (La Hora del Vermut):** Barselona’da pazar sabahlarının ritüeli sangria değil, "Vermut"tur. Yerel halk, öğle yemeğinden önce bir "Vermuteria"ya gidip buzlu, portakallı ve zeytinli ev yapımı vermutlarını yudumlayarak sosyalleşir. Bu kültüre katılmak, gerçek bir Katalan gibi hissetmenin ilk adımıdır.
+- [Recinte Modernista de Sant Pau](search:Recinte Modernista de Sant Pau): Sagrada Família’nın sadece birkaç blok ötesinde olmasına rağmen çoğu turistin es geçtiği bu yer, dünyanın en büyük Art Nouveau kompleksidir. Renkli mozaikleri, devasa bahçeleri ve masalsı binalarıyla Gaudí’nin gölgesinde kalmış gizli bir mimari şaheserdir.
+- **Carrer de Petritxol (Çikolata Sokağı):** Gotik Mahalle’nin daracık bir sokağı olan Petritxol, Barselona’nın en iyi çikolatacılarına (Granja) ev sahipliği yapar. Burada geleneksel bir fincan yoğun sıcak çikolataya batırılmış taze churros yemek, şehre dair en tatlı hatıranız olacak.
+
+- **Mahalle Pazarlarının Gizli Dünyası (Santa Caterina & Sant Antoni):** La Boqueria ne kadar ünlüyse, Mercat de Santa Caterina (o muhteşem dalgalı ve renkli çatısıyla) ve Mercat de Sant Antoni o kadar yereldir. Pazar günleri Sant Antoni'nin çevresinde kurulan sahaf ve pul pazarına uğramak veya Santa Caterina'nın içinde taze peynirlerin tadına bakmak, turist kalabalığından kaçıp gerçek Barselona hayatına dokunmaktır.
+
+**💡 Yerel Bir Öneri:** Barselona'da "La Rambla" üzerinde yemek yemeyin. O caddede gördüğünüz dondurulmuş paellalar ve aşırı pahalı içecekler tamamen bir turist tuzağıdır. Gerçek lezzetler için ana caddeden iki sokak içeriye, mahalle aralarına dalın.
+
+## ✅ Mutlaka Yapmadan Dönme: Barselona Checklist
+
+**Sagrada Família’nın İçine Gir:** Dışarıdan fotoğraf çekmek yetmez; içerideki o devasa sütunların arasında yürürken vitraylardan süzülen renkli ışık oyunlarını mutlaka gör.
+
+- **Carrer de Blai’de "Pinchos" Turu Yap:** Poble-sec mahallesindeki bu sokakta bardan bara gezerek, kürdanlı atıştırmalıkların ve yerel atmosferin tadını çıkar.
+
+- [Bunkers del Carmel’de Günü Batır](search:Bunkers del Carmel’de Günü Batır): Şehri 360 derece ayaklarının altına alan bu eski kalıntılarda, elinde içeceğinle güneşin Akdeniz üzerinde batışını izle.
+- [Bir Tablao’da Flamenko İzle](search:Bir Tablao’da Flamenko İzle): Kökeni güney olsa da Barselona'nın mistik atmosferinde sergilenen o yoğun dans ve müzik gösterisine tanık ol, Katalan gecelerinin tutkusunu iliklerine kadar hisset.
+- **Gotik Mahalle’nin Labirentinde Kaybol:** Haritayı kapat ve kendini daracık Orta Çağ sokaklarına bırak; her sokağın sonunda başka bir sürpriz meydan seni bekliyor olacak.
+
+- [La Boqueria ve Mahalle Pazarlarını Gez](search:La Boqueria ve Mahalle Pazarlarını Gez): Sadece La Boqueria ile kalma; Santa Caterina veya Sant Antoni pazarlarında yerel halkın arasına karış ve taze ürünlerin kokusunu içine çek.
+- **Park Güell’in Mozaiklerinde Anı Bırak:** Gaudí’nin o meşhur ejderhasıyla fotoğraf çekil ve dünyanın en uzun kavisli bankında oturup şehri seyret.
+
+- **Barceloneta Sahili Boyunca Yürü:** Deniz kokusunu içine çekerek sahilden W Hotel’e kadar yürü; Barselona’nın plaj kültürünü yakından gözlemle.
+- **Pazar Sabahı "Vermut Saati"ne Katıl:** Bir yerel gibi pazar öğle yemeği öncesi buzlu, zeytinli vermutunu yudumla ve Katalan sosyalleşme ritüeline ortak ol.
+- **Passeig de Gràcia’da Mimari Keşfe Çık:** Casa Batlló ve La Pedrera gibi şaheserlerin önünde durup, binaların nasıl "nefes alabildiğini" kendi gözlerinle gör.
+- **"Bon dia" & "Salud":** İspanyolca yerine Katalanca selam vererek yerel halkın yüzündeki o samimi gülümsemeyi yakala. Gün sonunda ise bir kadeh Cava ile Barselona’ya "Salud" de!
+
+''';
+
+  static const _barcelonaEN = '''# Barcelona: Where Art and Life Spill into the Streets
+
+**Quick Glimpse:** Walking through the streets of Barcelona, you might find yourself in a fairy tale book, a medieval castle, or at a massive beach party. This is a proud and colorful city that identifies itself not just as "Spanish," but first and foremost as "Catalan." There is no room for straight lines here; thanks to Antoni Gaudí’s nature-inspired architecture, buildings seem to breathe and undulate. Barcelona is the capital of "slow living" (Mañana); "Siesta" (afternoon nap) is still a living tradition here, so don't be surprised if shops are closed at midday—just go with the flow. Dinner doesn't start before 9:00 PM, and the party doesn't truly begin until after midnight. However, within this magical atmosphere, there is one critical "life code" you must remember: Safety! Unfortunately, Barcelona is known as one of the "pickpocket capitals" of the world. Keeping your bag in front of you and looking after your phone in the narrow streets of La Rambla and the Gothic Quarter isn't paranoia; it’s the golden rule for a smooth Barcelona trip. Another important detail is the language; locals deeply value the Catalan language. Saying a Catalan "Bon dia" (Good morning) instead of Spanish when you enter a shop will open all doors and hearts to you.
+
+## 📅 Timing is Everything: Which Season is Yours?
+
+While Barcelona is a city of sun and sea, every season offers a completely different energy to its visitors. When you choose to enjoy the Mediterranean depends on how much heat and how many crowds you are willing to brave.
+
+- **Spring (March – May):** This is Barcelona’s most "poetic" time. The weather is neither too hot nor too cool, making it ideal for exploring the city on foot. Critical Date: April 23rd, Sant Jordi (Day of Roses and Books), is the most beautiful day in Barcelona. The entire city transforms into a giant flower shop and library; if you have the chance, you must experience this day.
+- **Summer (June – August):** The period when the city fully transforms into a holiday resort and the beaches (Barceloneta) are overflowing. However, be warned: Barcelona’s humid heat and intense tourist crowds can be exhausting. If you are a music lover, this season is unavoidable for world-class festivals like Primavera Sound or Sónar.
+- **Autumn (September – October):** One of the most pleasant periods, where the sea is still warm enough for swimming, the crowds have thinned out, and the air has softened. Critical Date: The La Mercè festival at the end of September is Barcelona's biggest street festival. You can witness Catalan culture in its purest form with giant statues (Gegants), human towers (Castellers), and fireworks.
+- **Winter (November – February):** Forget the freezing cold of Northern Europe. Winters in Barcelona are generally sunny and mild. It is a fantastic choice if you want to escape the crowds, visit Gaudí’s masterpieces without waiting in line, and experience local life at a calmer pace. The Christmas markets and the sales at the end of January are an added bonus!
+
+## 🏠 Where to Stay: Neighborhood Guide
+
+In Barcelona, where you stay determines the atmosphere you wake up to. Will it be the narrow medieval labyrinths of the past, or the wide, elegant boulevards adorned with Gaudí’s masterpieces?
+
+- **Barri Gòtic (Gothic Quarter):** The oldest and historical heart of the city. If you want to get lost in labyrinthine narrow streets between Roman walls and medieval architecture, this is the place for you. A square or a historic church pops up around every corner. It is extremely central, but because the streets are so narrow and crowded, it can be a bit noisy and requires extra vigilance regarding pickpockets.
+- [Eixample](search:Eixample): This is the iconic grid-planned district with wide boulevards. The Sagrada Família, Casa Batlló, and the chic shopping street Passeig de Gràcia are all located here. It is the ideal choice for those seeking modern, safe, organized, and luxury accommodation. The city's best restaurants and design boutiques are concentrated in this neighborhood.
+- [El Born](search:El Born): Located right next to the Gothic Quarter, but its spirit is much more "trendy" and artistic. It is home to the Picasso Museum and is packed with nightlife, boutique shops, and stylish bars. It’s a great balance for travelers who want to be close to both the sea and the city's largest park, Ciutadella.
+- [Gràcia](search:Gràcia): Formerly a separate village from Barcelona, this neighborhood is the most bohemian and "local" corner of the city today. If you want to escape the tourist crowds, drink coffee with locals in small squares (Plazas), and experience true neighborhood culture, this is a gem. It is near Park Güell, but you will need the metro to reach the city center.
+- [Poblenou](search:Poblenou): The modern face of Barcelona, where old factories have been transformed into art galleries and tech offices. Its biggest advantage is being within walking distance of the beaches. If you are looking for a "beach holiday" vibe combined with a modern urban feel, Poblenou is a perfect choice.
+- [Poble-sec](search:Poble-sec): Barcelona's rising star and gastronomic hub. It is slightly removed from the city's chaos but still very close to the center. The famous tapas street, Carrer de Blai, is located here. It is a safe haven for those looking for more affordable and authentic "local" options.
+
+## 🚲 Getting from A to B: Move Like a Local
+
+Barcelona is a city made for exploring on foot, but distances can be longer than you think. Luckily, the public transport system is efficient enough to keep up with the city’s energetic pace. All that’s left is choosing the right ticket from the start.
+
+- **From the Airport to the City Center:** The fastest way from Barcelona El Prat (BCN) is the Aerobús, departing every 5-10 minutes. It runs from Terminals 1 and 2 directly to Plaça de Catalunya; tickets are €6.75 (one-way) or €11.65 (return). You can buy them at station machines or online. For a cheaper route, use the R2 Nord train from Terminal 2 with a T-Casual card. The Metro (L9 Sud) is €5.50 and requires a special ticket as it doesn't go directly to the center.
+- **The Lifesaver:** T-Casual: To save money, buy a T-Casual card for €12.15 at the red machines in any metro station. It offers 10 rides across Zone 1 (metro, bus, and train), which is a steal compared to single tickets at €2.55. Crucial Rule: This card is for individual use only. Unlike some cities, you cannot swipe it twice for two people; every traveler must have their own card.
+
+- **Hola Barcelona Travel Card:** For completely unlimited and worry-free travel, this is your best bet. Available for 2 to 5 days, prices range from roughly €17.50 to €41.00. It covers the metro, bus, tram, and—most importantly—the Airport Metro at no extra cost. Pro tip: Buy it online in advance for a 10% discount.
+- **Metro and Night Transport:** The metro runs until 24:00 on weekdays, 02:00 on Fridays, and all night on Saturdays. When the metro is closed, look for the "N" (Nitbus) night buses. Your T-Casual card works here too. Use the Citymapper or TMB App to track live times and routes.
+- **Walking and Cycling:** Historical spots like the Gothic Quarter and El Born are best (and often only) explored on foot. For the beachfront or longer distances, you can rent a bike for €10-15 per day. Barcelona has great bike lanes, but remember: stay off the pedestrian sidewalks.
+
+## 🏛️ The City's Memory: Iconic Landmarks Must-See
+
+Barcelona’s signature is like a canvas filled with surprises at every corner, where Antoni Gaudí’s brilliant mind meets nature's perfect forms. In this city, "sights to see" are not just buildings; each is a living story that shapes Barcelona's identity.
+
+- [La Sagrada Família](search:La Sagrada Família): The city's undisputed crown. This "Unfinished Church," which Gaudí took over in 1882 and is still under construction, is not just a house of worship but a forest carved in stone. The interior columns resemble tree branches, and when sunlight filters through the stained glass, the interior turns into a mesmerizing sea of color.
+- [Park Güell](search:Park Güell): Barcelona’s most fairytale-like spot. Buildings reminiscent of Hansel and Gretel’s houses, the world's longest curved bench, and the famous mosaic lizard (El Drac) are here. It is the best place to overlook the city and get lost in Gaudí’s colorful world.
+- [Casa Batlló and Casa Milà (La Pedrera)](search:Casa Batlló and Casa Milà (La Pedrera): These two structures in the Eixample district represent the peak of Gaudí’s architectural genius. Casa Batlló’s roof, resembling a dragon’s back, and Casa Milà’s undulating facade will transport you to another world.
+- [La Rambla and Mercat de Sant Josep de la Boqueria](search:La Rambla and Mercat de Sant Josep de la Boqueria): On the city's most famous street, La Rambla, the renowned market La Boqueria offers an explosion of senses with fresh juices and Catalan delicacies.
+- **Barcelona Cathedral and the Gothic Quarter:** Unlike the Sagrada Família, this is the city's dark and solemn medieval face. The grandeur of the Gothic Cathedral and the surrounding narrow streets take you on a journey through time.
+- [Montjuïc Hill and the Magic Fountain (Font Màgica)](search:Montjuïc Hill and the Magic Fountain (Font Màgica): Offering panoramic views of the city, this hill hosts many stops from museums to the Olympic Stadium. The light and water shows displayed in the evenings are a classic.
+- **Barceloneta Beach:** In the very heart of the city, finding yourself on the beach just a few minutes after stepping off the metro is Barcelona’s greatest luxury.
+
+**💡 A small reminder:** In Barcelona, popularity means long queues. If you don't buy your tickets for places like the Sagrada Família and Park Güell online weeks in advance, there is a 99% chance you will be turned away at the door disappointed.
+
+## 🍴 A Taste of the City: Tapas, Paella, and Sangria and Beyond
+
+Eating in Barcelona isn’t just about filling your stomach; it’s about participating in a social ritual. Here, tables are crowded, plates are shared, and every meal turns into a flavor feast thanks to the famous "Pica-pica" (snacking) culture.
+
+- **Tapas & Pinchos:** Barcelona’s soul is hidden in small plates. While Tapas are shared dishes served in the center of the table, Pinchos (small snacks usually held together by a toothpick on a slice of bread) are one of the city's most beloved culinary traditions. Local Tip: Carrer de Blai in the Poble-sec neighborhood is known as the city's "Pinchos street." Starting a Barcelona-style evening with a glass of wine and a few pinchos at a bar is an absolute classic.
+- [Paella](search:Paella): Spain’s most famous dish. Although it originally hails from Valencia, the seafood version (Paella de Marisco) prepared in Barcelona is legendary. Important Warning: Locals consider paella a lunch dish. Those eating it for dinner are usually labeled as tourists. Also, avoid places with "microwave" signs at the entrance; authentic paella must be cooked fresh in a traditional copper pan.
+- **Pan con Tomate (Pa amb Tomàquet):** The simplest yet most ingenious invention of Catalan cuisine. It’s prepared by rubbing fresh garlic, ripe tomatoes, and high-quality olive oil onto toasted bread. It goes perfectly with every meal!
+
+- **Cava and Sangria:** While Sangria is a tourist favorite, the real pride of Catalans is Cava. Known as Spain’s "champagne," this sparkling wine is the best companion for tapas. If you are looking for something fruitier and more refreshing, you must try Sangria de Cava, made with white wine or Cava.
+
+- **Crema Catalana:** Similar to the French Crème brûlée but much more aromatic. Breaking the burnt sugar layer on top with your spoon might be your sweetest moment in Barcelona.
+
+- **Jamón Ibérico:** The world’s highest-quality hams await you here. Especially "Pata Negra", obtained from acorn-fed pigs, is on a whole different level with its melt-in-the-mouth texture.
+
+
+## 🤫 Whispers of the City: Local Secrets
+
+The real magic of Barcelona is hidden just a street away from the main boulevards where millions of tourists walk—in a quiet courtyard or a sunset view overlooking the entire city. Here are the details that will let you experience the city not just as a tourist, but as a true "Barceloní."
+
+- [Bunkers del Carmel](search:Bunkers del Carmel): Escape the crowds of Park Güell and head here for the best 360-degree view of Barcelona. These are the ruins of an old anti-aircraft battery; today, it’s the city’s most free-spirited and romantic spot where young people gather with drinks to watch the sunset. Entrance is free, but you'll need some stamina for the climb!
+- **El Jardí (Raval’s Hidden Garden):** Tucked away in the courtyard of an old hospital (Antic Hospital de la Santa Creu) in the Raval neighborhood, this bar is an oasis amidst the city's chaos. Sipping a glass of wine under orange trees and Gothic arches is the most peaceful moment in Barcelona.
+
+- **The Vermouth Hour (La Hora del Vermut):** In Barcelona, the Sunday morning ritual isn't sangria; it’s "Vermut." Locals head to a "Vermuteria" before lunch to socialize over house-made vermouth served with ice, an orange slice, and an olive. Joining this tradition is the first step to feeling like a true Catalan.
+- [Recinte Modernista de Sant Pau](search:Recinte Modernista de Sant Pau): Located just a few blocks from the Sagrada Família, this is the world's largest Art Nouveau complex, yet many tourists overlook it. With its colorful mosaics, vast gardens, and fairytale buildings, it is a hidden architectural masterpiece standing in Gaudí’s shadow.
+- **Carrer de Petritxol (The Chocolate Street):** A tiny street in the Gothic Quarter, Petritxol is home to Barcelona's best chocolate shops (Granjas). Eating fresh churros dipped in a traditional cup of thick hot chocolate here will be your sweetest memory of the city.
+
+- **The Hidden World of Neighborhood Markets (Santa Caterina & Sant Antoni):** As famous as La Boqueria is, Mercat de Santa Caterina (with its magnificent wavy, colorful roof) and Mercat de Sant Antoni are just as authentic and local. Visiting the second-hand book and stamp market held around Sant Antoni on Sundays, or sampling fresh cheeses inside Santa Caterina, is the perfect way to escape the tourist crowds and truly touch the real soul of Barcelona.
+
+**💡 A Local Suggestion:** Never eat on "La Rambla." The frozen paellas and overpriced drinks you see there are total tourist traps. For authentic flavors, dive two streets into the back alleys of the local neighborhoods.
+
+## ✅ The Barcelona Checklist: Don't Leave Without Doing These
+
+- **Go Inside the Sagrada Família:** Taking photos from the outside isn't enough; you must witness the colorful light play filtering through the stained glass as you walk among the forest of giant columns.
+
+- **Go on a "Pinchos" Crawl at Carrer de Blai:** Hop from bar to bar on this street in Poble-sec, enjoying toothpick snacks and the authentic local vibe.
+
+- **Watch the Sunset at Bunkers del Carmel:** Grab a drink and head to these old ruins for a 360-degree view as the sun sets over the Mediterranean.
+
+- **Watch Flamenco at a Tablao:** Although its roots are in the south, witness the intense dance and music performance in Barcelona’s mystical atmosphere and feel the passion of Catalan nights to the core.
+
+- Get Lost in the [Gothic Quarter Labyrinth](search:Get Lost in the Gothic Quarter Labyrinth): Turn off your GPS and let the narrow medieval streets guide you; a surprise square awaits at the end of every alley.
+- **Explore La Boqueria and Neighborhood Markets:** Don't stop at La Boqueria; mingle with the locals at the Santa Caterina or Sant Antoni markets and soak in the scents of fresh produce.
+
+- Leave a Memory at [Park Güell](search:Leave a Memory at Park Güell): Snap a photo with Gaudí's famous dragon and sit on the world’s longest curved bench to overlook the city.
+- **Stroll Along Barceloneta Beach:** Walk from the shore all the way to the W Hotel, breathing in the sea air and observing Barcelona’s unique beach culture.
+- **Join the Sunday "Vermouth Hour":** Act like a local and sip on a chilled vermouth with olives before lunch, participating in the quintessential Catalan social ritual.
+- **Go on an Architectural Discovery at Passeig de Gràcia:** Stand before masterpieces like Casa Batlló and La Pedrera and see for yourself how buildings can "breathe."
+- **"Bon dia" & "Salud":** Greet the locals in Catalan instead of Spanish to catch that genuine, warm smile. At the end of the day, say "Salud" to Barcelona with a glass of Cava!
+
+''';
+
+  // PRAG
+  static const _pragTR = '''# Prag: Zamanın Dokunmaya Kıyamadığı Şehir
+
+**Hızlı Bakış:** Avrupa’nın tam kalbinde, masallardan fırlamış gotik kulelerin ve tarihin sisli puslu havasının içine hoş geldin. Prag için boşuna "Yüz Kuleli Şehir" ya da "Altın Şehir" denmiyor. Vltava Nehri’nin iki yakasına yayılan bu şehir, II. Dünya Savaşı’ndan neredeyse hiç zarar görmeden kurtulduğu için Avrupa’nın en iyi korunmuş tarihi merkezlerinden birine sahip. Gotik, Barok ve Rönesans mimarisinin iç içe geçtiği sokaklarda yürürken kendinizi bir film setinde gibi hissetmeniz çok normal. Prag sadece mimari değil, aynı zamanda Franz Kafka’nın melankolisi, Mozart’ın müziği ve dünyanın en iyi bira kültürüyle harmanlanmış bir karakterdir.
+
+**Gitmeden Önce Küçük Bir Not:** Prag AB üyesi olsa da Euro kullanmıyor, resmi para birimi Çek Korunası (CZK). Euro ile ödeme yapmaya çalıştığınızda büyük kur farklarıyla karşılaşmanız muhtemel. Sokaklardaki döviz bürolarına da biraz temkinli yaklaşmakta fayda var; "komisyonsuz" tabelalarına rağmen gizli ücretlerle karşılaşabilirsiniz. Neyse ki Prag kart kullanımı konusunda oldukça uygun bir şehir; güvenilir banka ATM’leri veya doğrudan kartla ödeme yapmak en zahmetsiz yol olacaktır.
+
+**Lezzetli Bir Yanılgı:** Prag sokaklarında her köşe başında göreceğiniz o meşhur Trdelník (makara tatlısı) aslında sanıldığı gibi kadim bir Çek geleneği değildir; 2000'lerin başında popülerleşmiş bir "modern klasik"tir. Gerçek Prag deneyimi için rotayı Astronomik Saat’in önündeki kalabalıktan biraz saptırıp, Vinohrady veya Letná gibi mahallelerin yerel meyhanelerine kırmalısınız. Şunu da unutmayın: Prag’da bira suyla yarışır; bazen sudan daha ucuzdur ve kesinlikle en sevilen milli içecektir.
+
+## 📅 Takviminizi Ayarlayın: Hangi Mevsim Sizin?
+
+Prag her mevsimde farklı bir kostüm giyen, ruh hali değişen ama cazibesini asla kaybetmeyen bir şehir. Hava durumuyla birlikte karakteri tamamen değişen bu şehirde, kalabalıkları mı, kış masalını mı yoksa altın sarısı yaprakları mı sevdiğine karar verme vakti.
+
+- **Bahar (Nisan - Haziran):** Şehrin uyanışıdır. Petřín Tepesi'nde kiraz çiçekleri açarken Prag, Avrupa'nın en romantik durağına dönüşür. Hava gezmek için idealdir (15-20°C) ve turist kalabalığı henüz zirveye ulaşmamıştır.
+- **Yaz (Temmuz - Ağustos):** Şehrin en canlı ama aynı zamanda en yorucu zamanıdır. Hava sıcaklıkları 30°C’yi zorlayabilir ve Charles Köprüsü'nde iğne atsanız yere düşmez. Eğer kalabalık ve bitmeyen yaz akşamlarını seviyorsanız tam sırası.
+- **Sonbahar (Eylül - Ekim):** Prag’ın "Altın Şehir" unvanını gerçekten hak ettiği dönemdir. Vltava Nehri kıyısındaki ağaçlar sarı ve kızıl tonlara bürünürken şehir puslu ve melankolik bir havaya girer. Fotoğraf tutkunları için en iyi ışıktır.
+- **Kış (Kasım - Mart):** Hava gerçekten dondurucudur ancak Aralık ayında kurulan Noel Pazarları şehri gerçek bir masal dünyasına çevirir. Ocak ve Şubat ayları ise en ekonomik dönemdir; turist trafiği azalır, konaklama fiyatları düşer ve Prag'ın o meşhur gotik kuleleri kar altında büyüleyici görünür.
+
+## 🏠Nerede Kalmalı: Mahalle Rehberi
+
+Prag'da konaklama seçimi aslında "Bir turist gibi mi hissetmek istiyorum, yoksa bir Praglı gibi mi?" sorusuna verdiğin cevaba göre değişir. Şehir bölgelere ayrılmıştır (Prague 1, 2, 3...) ve rakam ne kadar küçükse merkeze o kadar yakınsın demektir. Prag’ın mahalleleri ise sadece birer yerleşim alanı değil, her biri farklı bir zaman dilimine açılan kapılardır. Konaklayacağın yer, sabah uyandığında göreceğin manzaranın gotik bir kule mi yoksa modern bir sanat galerisi mi olacağını belirler.
+
+- **Staré Město (Eski Şehir - Prague 1):** Prag’ın kalbi ve ilk kez gidenlerin favorisidir. Astronomik Saat ve Eski Şehir Meydanı’na kapı komşusu olursunuz. Her yere yürüyerek ulaşmak harikadır ancak burası şehrin en kalabalık ve en pahalı bölgesidir.
+
+- **Malá Strana (Lesser Town - Prague 1):** Vltava’nın diğer yakasında, kalenin hemen altındaki bu bölge Prag’ın en romantik yeridir. Barok binalar, dar sokaklar ve elçiliklerin olduğu bu alan, Eski Şehir’e göre geceleri daha sessiz ve huzurludur.
+
+- **Nové Město (Yeni Şehir - Prague 1/2):** Adı "yeni" olsa da tarihi 14. yüzyıla dayanır. Wenceslas Meydanı buradadır. Ulaşım ağının merkezidir ve gece hayatı, alışveriş, büyük oteller için en ideal noktadır.
+
+- **Vinohrady (Prague 2):** "Praglı gibi yaşamak" istiyorsanız rotanız burası olmalı. Art Nouveau binaları, şık kafeleri, dünya mutfağından restoranları ve yeşil parklarıyla şehrin en nezih bölgesidir. Merkeze tramvayla sadece 10 dakika uzaklıktadır.
+
+- **Žižkov (Prague 3):** Şehrin biraz daha bohem, asi ve ekonomik yüzüdür. Dünyanın metrekare başına en çok meyhane (pub) düşen yerlerinden biri olduğu söylenir. Gece hayatını ve lokal bira kültürünü seven gençler için birebirdir.
+
+
+## 🚲 A Noktasından B Noktasına: Bir Lokal Gibi Hareket Edin
+
+Prag yürümek için yaratılmış bir şehir olmakla birlikte, labirenti andıran dar sokakları ve Vltava Nehri boyunca uzanan geniş bulvarlarıyla ulaşım açısından da tam bir mühendislik harikasıdır. Şehirde toplu taşıma o kadar dakiktir ki, saatinizi tramvayların varış süresine göre ayarlayabilir, rayların ve nehrin ritmine kendinizi güvenle bırakabilirsiniz.
+
+- **Havalimanından Şehre İlk Adım:** Václav Havel’den Merkeze Ulaşım Prag’a vardığınızda sizi doğrudan merkeze götüren bir metro hattı bulunmasa da, toplu taşıma sistemi bu boşluğu mükemmel bir şekilde doldurur. En ekonomik ve lokal yöntem, Terminal 1 veya 2’den kalkan Trolleybus 59 hattına binmektir. Bu hat sizi hızlıca Metronun A (Yeşil) hattındaki Nádraží Veleslavín istasyonuna ulaştırır ve standart şehir içi biletleriniz burada geçerlidir. Eğer daha konforlu ve aktarmasız bir yol arıyorsanız, ana tren istasyonuna (Hlavní nádraží) giden Airport Express (AE) otobüslerini tercih edebilirsiniz; ancak bu hat için şoförden yaklaşık 100 CZK karşılığında özel bir bilet almanız gerekecektir. Daha modern bir seçenek arayanlar için ise Prag’ın resmî taksi hizmeti Uber üzerinden yürütülür; uygulama üzerinden sabit fiyatla güvenli bir yolculuk yapabilirsiniz.
+- **Arnavut Kaldırımlarında Zaman Yolculuğu:** Yürünebilirlik Prag, ruhunu ancak yürüyerek teslim eden şehirlerdendir. Eski Şehir (Staré Město), Yahudi Mahallesi (Josefov) ve Malá Strana gibi ana duraklar birbirine sadece birkaç dakikalık yürüme mesafesindedir. Ancak bu masalsı yürüyüşün bir bedeli vardır: Prag’ın o meşhur, estetik ama insafsız Arnavut kaldırımları (cobblestones). Şehri keşfederken "stil" yerine kesinlikle "konfor" odaklı bir ayakkabı seçmek, bir turisti lokalden ayıran en büyük farktır. Yürürken başınızı yukarı kaldırmayı unutmayın; çünkü Prag’ın asıl hazineleri binaların çatı katlarında ve pencere pervazlarındaki detaylarda saklıdır.
+- **Rayların ve Yerin Altındaki Hız:** Tramvay ve Metro Sistemi Şehrin asıl damarları olan tramvaylar, Prag’ın karakterini yansıtır. Özellikle 22 numaralı tramvay, sıradan bir ulaşım aracından ziyade "en ucuz şehir turu" gibidir; sizi nehir kıyısından alıp Prag Kalesi’nin dik yamaçlarına kadar panoramik bir manzara eşliğinde çıkarır. Gece yarısından sonra ise 90-99 arası hatlar devreye girerek sizi şehrin her noktasına güvenle taşır. Eğer zamanınız kısıtlıysa ve daha hızlı hareket etmeniz gerekiyorsa, A, B ve C hatlarından oluşan metro sistemi imdadınıza yetişir. Dünyanın en derin istasyonlarından biri olan Náměstí Míru gibi duraklarda devasa yürüyen merdivenlerle yerin altına inerken, Prag’ın modern yüzüyle tanışırsınız.
+- **Bütçenizi ve Rotanızı Yönetin:** Biletler ve Visitor Pass Prag’da ulaşım sistemi mesafeye değil, zamana dayalıdır. Bu, biletinizin geçerli olduğu süre boyunca sınırsız aktarma yapabileceğiniz anlamına gelir. Kısa mesafeler için 30 dakikalık bilet (30 CZK), daha kapsamlı bir yolculuk için ise 90 dakikalık bilet (40 CZK) idealdir. Eğer şehri 2-3 gün boyunca yoğun bir şekilde gezecekseniz, 24 saatlik (120 CZK) veya 72 saatlik (330 CZK) kartlar büyük bir konfor sağlar. Ancak Prag’ı tam anlamıyla fethetmek isterseniz, Barselona Card'ın buradaki karşılığı olan Prague Visitor Pass en iyi dostunuz olacaktır. Bu kart sadece sınırsız ulaşımı (havalimanı dahil) kapsamakla kalmaz, aynı zamanda Prag Kalesi, Astronomik Saat Kulesi ve Yahudi Müzesi gibi 60’tan fazla önemli noktaya ücretsiz giriş imkânı sunar.
+
+- **Alternatif Yollar:** Nehir, Tepe ve Pedallar Prag’ın en keyifli ulaşım yöntemlerinden biri, Malá Strana’dan kalkıp şehre tepeden bakmanızı sağlayan Petřín Füniküleri’dir. Eğer 24 saatlik veya daha uzun süreli bir ulaşım kartınız varsa, bu nostaljik yolculuk tamamen ücretsizdir. Vltava Nehri’nin tadını çıkarmak isterseniz, toplu taşıma sistemine dahil olan küçük nehir feribotlarını kullanarak iki yaka arasında kısa bir su turu yapabilirsiniz. Şehir merkezi yaya trafiği ve tramvay rayları nedeniyle bisiklet için biraz riskli olsa da, nehir boyundaki Naplavka hattında Rekola (pembe bisikletler) veya Nextbike uygulamalarıyla bisiklet sürmek lokallerin en sevdiği hafta sonu aktivitelerinden biridir.
+- **Lokal Etiket:** Yazısız Ulaşım Kuralları Prag ulaşımında dürüstlük sistemi esastır; metro girişlerinde turnike göremezsiniz. Ancak biletinizi tramvaya bindiğinizde veya metro girişindeki sarı makinelerde mutlaka onaylatmalısınız (validate). Sivil denetçilerle karşılaşma ihtimaliniz yüksektir ve biletiniz cebinizde olsa dahi onaylatılmamışsa ağır cezalarla karşılaşırsınız. Şehrin ritmine uyum sağlamak için metroda yürüyen merdivenlerin her zaman sağında durmalı, sol tarafı acelesi olan lokallere bırakmalısınız. En kritik kural ise şudur: Prag’da tramvayların her zaman mutlak önceliği vardır. Yaya geçidinde olsanız bile bir tramvayın sizin için durmasını beklemeyin; Praglıların dediği gibi, "Tramvay her zaman kazanır!"
+
+## 🏛️ Şehrin Hafızası: Görülmesi Gereken İkonik Duraklar
+
+Prag’ın her bir taşı, binlerce yılın birikimini ve imparatorlukların görkemini sessizce fısıldar. Burası, her adımda Orta Çağ’ın gizemli atmosferine çekileceğiniz, zamanın farklı katmanlarının iç içe geçtiği yaşayan bir açık hava sahnesidir.
+
+- **Prag Kalesi (Pražský hrad):** Dünyanın en büyük antik kale kompleksi olarak kabul edilir. Şehrin siluetine hükmeden bu devasa yapının içinde, Gotik mimarinin zirvesi olan Aziz Vitus Katedrali'ni mutlaka görülmeli. Girişteki güvenlik ve bilet kuyrukları zaman zaman uzayabiliyor; bu nedenle biletinizi önceden online almak ve sabah erken saatleri tercih etmek ziyaretinizi oldukça rahatlatır.
+
+- **Altın Yol (Zlatá ulička):** Kale kompleksinin içinde yer alan Altın Yol, rengârenk minik evleriyle sizi 16. yüzyıla götürür. Bir dönem simyacıların yaşadığına inanılan bu sokakta, 22 numaralı ev, Franz Kafka’nın en sakin eserlerini kaleme aldığı yer olarak bilinir.
+- **Charles Köprüsü (Karlův most):** Vltava Nehri üzerindeki Charles Köprüsü, üzerindeki 30 Barok heykelle Prag’ın en güçlü simgelerinden biridir. Eski Şehir ile Malá Strana’yı birbirine bağlayan köprü, aynı zamanda açık havada kurulmuş bir sanat galerisi hissi verir. Gün doğumu ve gün batımı saatleri, köprüyü daha sakin görmek için ideal zamanlardır.
+
+- **Lennon Duvarı (Lennonova zeď):** Charles Köprüsü’nün hemen bitiminde yer alan Lennon Duvarı, barış ve özgürlüğün sembolü haline gelmiş bir durak. 1980’lerden bu yana sürekli değişen grafitilerle kaplı bu alan, Prag’ın modern hafızasında direnişin ve ifade özgürlüğünün en renkli yansımalarından biri olarak görülür.
+
+- **Eski Şehir Meydanı ve Astronomik Saat (Orloj):** Gotik ve Barok binalarla çevrili Eski Şehir Meydanı, Avrupa’nın en etkileyici meydanlarından biridir. Meydandaki Astronomik Saat, hâlâ çalışan dünyanın en eski astronomik saati olarak bilinir. Saat başı yapılan kısa gösteri ilgi çekse de, beklentiyi çok yükseltmek yerine saatin üzerindeki o inanılmaz detaylara ve sembolleri incelemeye odaklanmak çok daha keyifli bir deneyim sunar.
+- **Klementinum Kütüphanesi (Klementinum):** "Dünyanın en güzel kütüphanesi" unvanını hak eden bu Barok şaheser, sizi devasa küreler ve el yazmaları arasında büyüleyici bir sessizliğe davet eder. Gitmeden önce bilmenizde fayda var ki Klementinum sadece rehberli turlarla gezilebilir ve kontenjanlar oldukça sınırlı. Mağdur olmamak için mutlaka birkaç gün önceden online rezervasyon yaptırmanız faydalı olacaktır.
+
+- **Belediye Binası (Obecní dům):** Barut Kapısı’nın hemen yanında yükselen bu yapı, Prag’daki Art Nouveau (Genç Üslup) akımının en görkemli temsilcilerinden biridir. Cephesindeki devasa mozaikleriyle şehirdeki sanatsal canlılığın kalbidir.
+
+- [Yahudi Mahallesi (Josefov)](search:Yahudi Mahallesi (Josefov): Avrupa’nın en iyi korunmuş Yahudi yerleşimlerinden biridir. Altı sinagog ve o meşhur Eski Yahudi Mezarlığı burada yer alır. Tüm sinagogları ve mezarlıkları ziyaret etmeyi planlıyorsanız, kombine bilet almak hem daha pratik hem de daha ekonomik bir seçenek sunacaktır. Biletinizi mahalledeki gişelerden ya da online olarak alabilirsiniz.
+- **Dans Eden Ev (Tančící dům):** Prag sadece Orta Çağ’dan ibaret değildir. Nehir kenarındaki bu modern yapı, şehrin tarihi dokusu içinde aykırı ama büyüleyici bir kontrast yaratır.
+
+- [Vyšehrad](search:Vyšehrad): Prag Kalesi’nin kalabalığından kaçmak isteyenler için "şehrin doğum yeri" kabul edilen bu kale, muazzam bir nehir manzarası ve huzurlu bir park alanı sunar.
+
+## 🍴 Şehrin Lezzet Haritası: Et, Hamur ve Bira Kültürü
+
+Prag mutfağı, Orta Avrupa’nın kalbinde yer almanın getirdiği o "rahatlatıcı" (comfort food) karakteri en iyi yansıtan yerlerden biridir. Burada her tabak, sizi soğuk bir kış gününde şömine başında ağırlayan eski bir dost gibidir.
+
+- **Vepřo-knedlo-zelo (Ulusal Bir Gurur):** Prag mutfağının sarsılmaz temelidir. Yavaş yavaş fırınlanmış, lokum kıvamındaki domuz eti, yanındaki meşhur knedlíky (ekmek topları) ve karamelize edilmiş ekşi-tatlı lahana turşusu (zelí) ile servis edilir. Bu üçlü, Çeklerin "kutsal kasesi" gibidir; etin ağırlığı lahananın ekşiliğiyle, sosun yoğunluğu ise ekmek toplarıyla kusursuz bir dengeye ulaşır.
+
+- [Svíčková na smetaně (İmparatorluk Zarafeti)](search:Svíčková na smetaně (İmparatorluk Zarafeti): Çek mutfağının en sofistike yemeğidir. Sığır eti, tam 24 saat boyunca kök sebzeler ve baharatlarla marine edilir. Ortaya çıkan o yoğun, kremamsı havuç ve kök sebze sosu, bir kaşık yaban mersini reçeli ve taze çırpılmış krema ile tamamlanır. Bir tabakta hem tatlıyı hem tuzluyu bu kadar asilce birleştiren başka bir lezzet bulmak zordur.
+- **Pilsner (Tekutý Chléb - Sıvı Ekmek):** Prag’da bira sadece bir içecek değil, hayatın kendisidir; onlara göre ise "sıvı ekmek". Dünyanın ilk altın sarısı pilsnerinin doğduğu bu topraklarda bira, özel musluk teknikleriyle doldurulur. Bardağın üçte birini kaplayan o ıslak, yoğun ve kadifemsi köpük (Hladinka), biranın tazeliğinin ve zanaatın imzasıdır.
+
+- **Guláš (Çek Gulaşı):** Macar kuzeninden farklı olarak daha koyu bir kıvama ve daha az sebzeye sahiptir. Bol soğan, kimyon ve bazen bir miktar bira ile ağır ateşte pişirilen bu sığır eti yahnisi, yanındaki çiğ soğan halkaları ve taze dumplings ile Prag kışlarının en sıcak sığınağıdır.
+
+- **Trdelník (Sokakların Tarçınlı Ruhu):** Prag’ın o meşhur Orta Çağ sokaklarında yürürken burnunuza gelen tarçın kokusunun kaynağıdır. Ateş üzerinde dönen rulo hamurların üzerine serpilen şeker ve ceviz, karamelize bir kabuk oluşturur. İster sade, ister içi çikolatayla kaplı olsun; bu tatlı Prag’ın masalsı atmosferinin ayrılmaz bir parçasıdır.
+
+- **Smažený Sýr (Altın Renkli Suçlu Zevk):** Prag birahanelerinin en sevilen "atıştırmalığıdır". Kalın bir dilim Edam veya Hermelín peynirinin panelenip dışı çıtır, içi ise akışkan olana kadar kızartılmasıyla yapılır. Yanındaki tartar sos ve haşlanmış patatesle, basitliğin ne kadar lezzetli olabileceğinin kanıtıdır.
+
+- **Nakládaný Hermelín (Birahane Klasiği):** Gerçek bir Praglı gibi hissetmek istiyorsanız denemeniz gereken o meşhur meze. Cam kavanozlarda günlerce yağ, sarımsak, acı biber ve baharatlarla bekletilen yumuşak peynir, taze Çek ekmeğinin üzerine sürülerek yenir. Biranın en sadık eşlikçisidir.
+- **Chlebíčky (Görsel Bir Şölen):** Prag’ın hızlı yaşamına ayak uyduran ama estetiğinden ödün vermeyen açık sandviçleridir. Patates salatası tabanının üzerine bir sanatçı titizliğiyle yerleştirilen şarküteri ürünleri, turşu ve yumurta dilimleri; yerel şarküterilerin (Lahůdky) vitrinlerini süsleyen renkli birer mücevher gibidir.
+
+- [Kulajda (Orman ve Çiftlik Buluşması)](search:Kulajda (Orman ve Çiftlik Buluşması): Dereotu, mantar ve kremanın muazzam birlikteliği. İçine saklanan bir adet poşe yumurta ile sunulan bu yoğun çorba, Bohemya ormanlarının o nemli ve taze kokusunu tabağınıza taşır. Ekşi ve kremsi dokusuyla damağınızda derin bir iz bırakır.
+- [Becherovka (13. Şifalı Kaynak)](search:Becherovka (13. Şifalı Kaynak): Karlovy Vary’nin 20’den fazla gizli bitkiyle hazırlanan efsanevi likörü. Çekler için bu içecek, sindirimi kolaylaştıran bir "ilaç" hükmündedir. Yemek sonrası bir kadehte sunulan bu baharatlı ve keskin içecek, Prag lezzet turunuzun en şık kapanışıdır.
+
+**💡 Lokal Tavsiyesi:** Meydanlardaki "Tourist Menu" yazan yerlerden kaçın. Ara sokaklarda, camları buğulu, içeriden kahkahaların ve kadeh seslerinin yükseldiği, tabelası bile olmayan kapılardan içeri dalın. En iyi Svíčková ve en taze Pilsner sizi her zaman o izbe görünümlü ama ruhu olan birahanelerde bekliyor olacak.
+
+**Yazısız Kurallar:**
+- **Sonsuz Bira Akışı:** Geleneksel bir birahanede (Hospoda) bardağınızı bitirdiğiniz an garson sormadan yenisini getirir. Eğer durmak istiyorsanız, bardak altlığını bardağın üzerine kapatmalısınız. Aksi takdirde sabaha kadar bira içmeye devam edebilirsiniz!
+- **Hesap Çetelesi:** Masadaki küçük kağıt sizin tek belgenizdir. Her çizik bir birayı temsil eder. O kağıdı sakın kaybetmeyin veya karalamayın; hesap öderken garson o çizikleri sayacaktır.
+- **Sadece Ekmek ve Simit:** Masada gördüğünüz sepet içindeki ekmekler veya büyük simitler (Pretzel) genellikle ücretsiz değildir. Yediğiniz her parça hesabınıza eklenir; istemiyorsanız dokunmamanız en iyisidir.
+
+- **Ortak Masa Kültürü:** Popüler birahanelerde boş yer yoksa, bir masada oturanların yanına "Je tu volno?" (Burası boş mu?) diyerek oturmak çok doğaldır. Prag’da masayı paylaşmak sosyalleşmenin kuralıdır.
+- **Bahşiş (Yuvarlama Usulü):** Çekya’da bahşiş genellikle %10 olarak beklenir ancak bunu masaya bırakmak yerine, hesabı öderken miktarı yukarı yuvarlayarak garsona söylersiniz. (Örneğin hesap 182 Koruna ise, garsona "200" diyerek parayı uzatmak lokal bir davranıştır.)
+
+- **Nakit (Hotovost):** Prag’ın en iyi lokal birahanelerinin birçoğu hâlâ "Sadece Nakit" (Cash Only) çalışır. Cebinizde her zaman bir miktar Çek Korunası bulundurmak hayat kurtarır.
+
+## 🤫 Şehrin Fısıldadıkları: Lokal Sırlar
+
+Prag, sadece haritalarda işaretlenen kulelerden ibaret değildir; o, ana caddelerin arkasına gizlenmiş avlularda, isyankar heykellerde ve zamanın unutulduğu yeraltı laboratuvarlarında asıl şarkısını söyler. Eğer kalabalıkların uğultusundan sıyrılıp Prag’ın gerçek fısıltısını duymak isterseniz, rotanızı şu gizli duraklara çevirim:
+
+- [Speculum Alchemiae (Simyacıların İzinde)](search:Speculum Alchemiae (Simyacıların İzinde): Eski Şehir’in kalbinde, 2002 yılındaki büyük sel felaketinden sonra tesadüfen keşfedilen bu yeraltı laboratuvarı, Prag’ın "Büyücüler Şehri" olduğu günlerin en gerçek kanıtıdır. İmparator II. Rudolf’un gizli simyacılarının ölümsüzlük iksirini aradığı bu tozlu tüneller, sizi modern dünyadan koparıp kadim bir gizemin içine çeker.
+- [Nový Svět (Yeni Dünya)](search:Nový Svět (Yeni Dünya): Prag Kalesi’nin hemen dibinde ama bir o kadar da uzakta hissettiren bu mahalle, 17. yüzyıldan kalma minik evleriyle Prag’ın en mahrem sığınağıdır. Bir zamanlar simyacıların ve fakir sanatçıların yaşadığı bu sessiz sokaklarda, sadece kendi ayak seslerinizi duyarsınız.
+- **Paternoster Asansörleri (Asla Durmayan Döngü):** Şehirdeki bazı eski devlet binalarında ve Lucerna Pasajı'nda hâlâ çalışan bu "asla durmayan" ahşap asansörler, Prag’ın yaşayan tarihidir. Kapısı olmayan ve sürekli bir döngü halinde hareket eden bu kabinlere binmek, zamanın içinde bir döngüye girmek gibidir.
+
+- **Lucerna Pasajı ve Ters At:** Aziz Wenceslas’ın ölü ve ters asılmış bir atın üzerinde durduğu bu heykel, David Černý’nin otoriteyle dalga geçen meşhur eseridir. Prag’ın o ciddi Gotik yüzüne atılmış kışkırtıcı bir kahkaha gibidir.
+
+- **Vinárna Čertovka (Trafik Işıklı Daracık Sokak):** Malá Strana’da iki bina arasına sıkışmış, o kadar dar bir geçit vardır ki iki kişinin aynı anda geçmesi imkânsızdır. Bu yüzden her iki ucuna yerleştirilen trafik ışıkları, Prag’ın mimari sürprizlerinin en eğlenceli örneğidir.
+
+- **David Černý’nin Kışkırtıcı İzleri:** Sadece ters atla kalmayın; Kampa Parkı’ndaki yüzleri olmayan devasa Bronz Bebekler veya Kafka Müzesi önündeki interaktif heykeller, Prag’ın isyankar ruhunu okumanın en iyi yoludur.
+
+- **Vrtba Bahçesi (Vrtbovská zahrada):** Sıradan bir kapının arkasında saklı bu Barok cennet, kat kat yükselen teraslarıyla Prag’ın o meşhur kırmızı çatılarını en romantik açıdan izleyebileceğiniz, şehrin en iyi korunan sırrıdır.
+
+- [Letná Parkı ve Beş Köprü Manzarası](search:Letná Parkı ve Beş Köprü Manzarası): Lokallerin gün batımını izlemek için toplandığı bu tepe, Vltava üzerindeki beş köprünün (Charles Köprüsü dahil) art arda dizildiği o ikonik kareyi yakalayabileceğiniz tek noktadır.
+- **Strahov Manastırı ve St. Norbert Birası:** Kütüphanesinden çok, çevresindeki patikalarda yürümek ve keşişlerin yüzyıllardır aynı tarifle ürettiği özel birayı manastırın kendi avlusunda içmek gerçek bir Bohemya deneyimidir.
+- **Belediye Kütüphanesi ve Sonsuzluk Kulesi (Idiom):** Kütüphanenin girişinde yer alan binlerce kitaptan yapılmış "sonsuzluk tüneli", içindeki aynalar sayesinde size bilginin sonu olmadığını gösteren büyüleyici bir optik illüzyon sunar.
+
+
+## ✅ Mutlaka Yapmadan Dönme: Prag Checklist
+
+- **Charles Köprüsü'nde Güne Merhaba Deyin:** Kalabalıklar şehre doluşmadan hemen önce, şafak vaktinde köprüye gidin. Vltava üzerindeki pusun arasından yükselen Barok heykellerle baş başa kalmak, Prag’ın o mistik ruhuna dokunmanın tek yoludur.
+
+- **Prag Kalesi’nde Gotik’in Zirvesine Çıkın:** Dünyanın en büyük kale kompleksinin avlularında kaybolun ve Aziz Vitus Katedrali'nin o göğe yükselen sivri kulelerine bakarken mimarinin gücünü hissedin.
+
+- **Bir Birahanede "Sıvı Ekmek" Ritüeline Katılın:** Yerel bir birahaneye (Hospoda) girin ve masadaki o meşhur çeteleye ilk çiziğinizi attırın. Bardak altlığını bardağın üzerine kapatana kadar devam eden o sonsuz bira akışını deneyimlemeden Prag’ı anlamış sayılmazsınız.
+- **Astronomik Saat’in Detaylarında Kaybolun:** Saat başı yapılan gösteriyi izlemek bir turist klasiğidir; ancak siz gösteriden ziyade saatin üzerindeki o karmaşık sembollerin, burçların ve zamanın felsefesinin tadını çıkarın.
+- **Kafka’nın İzinde "Kafkaesk" Bir Yolculuk:** Franz Kafka Müzesi’ni ziyaret edin ve hemen dışındaki devasa, dönen metal Kafka büstünün karşısında durun. Yazarı anlamak, Prag'ın o hüzünlü ve labirentvari sokaklarının neden onun eserlerine ilham verdiğini kavramaktır.
+- **Vinárna Čertovka’da Yeşil Işığı Bekleyin:** Şehrin en dar sokağında, karşıdan gelenle sıkışıp kalmamak için trafik ışığının yeşil yanmasını bekleyin. Bu minik ve absürt an, Prag mimarisinin size sunduğu en eğlenceli sürprizlerden biridir.
+
+- **Paternoster Asansörü ile Zaman Döngüsüne Girin:** Şehirdeki eski binalardan birinde, kapısı olmayan ve hiç durmadan dönen o ahşap kabinlere atlayın. Bu nostaljik "hiç bitmeyen döngü", Prag’ın yaşayan tarihinin en eğlenceli parçasıdır.
+- [Svíčková ile Bohemya Mutfağının Şahikasına Ulaşın](search:Svíčková ile Bohemya Mutfağının Şahikasına Ulaşın): O yoğun kremalı sosun, yumuşacık sığır etinin ve yaban mersini reçelinin birleştiği o tabağı bitirmeden ve o sosu ekmek toplarıyla (dumplings) sıyırmadan Prag mutfağından geçtim demeyin.
+- **David Černý’nin Kışkırtıcı İzini Sürün:** Şehrin dört bir yanına dağılmış o "tuhaf" heykelleri (Ters At, Bebekler, İşeyen Heykeller) bulun. Bu eserler, Prag’ın o ağırbaşlı Gotik yüzünün ardındaki isyankar Çek mizahının anahtarıdır.
+
+- **Vltava Nehri’nde Prag’a Aşağıdan Bakın:** İster küçük bir feribotla karşıya geçin, ister bir deniz bisikleti kiralayıp nehrin ortasına açılın. Prag’ın siluetini suyun üzerinden izlemek, şehre bambaşka bir perspektif kazandırır.
+
+- **Vrtba Bahçesi’nde Sessizliğin Tadını Çıkarın:** Malá Strana’nın gürültüsünden sadece bir kapı uzaklaşın ve o Barok teraslarda Prag’ın kırmızı çatılarına karşı derin bir nefes alın. Burası şehrin en güzel "gizli" seyir terasıdır.
+
+- **Letná Parkı'nda Gün Batımı:** Lokaller gibi biranızı kapıp tepedeki banklara kurulun. Nehrin üzerindeki tüm köprülerin art arda dizildiği o meşhur kareyi hafızanıza kazıyın.
+
+- **Trdelník Kokularını Takip Edin:** Her ne kadar lokaller "tam olarak bize ait değil" dese de, sokakları saran o tarçınlı ve şekerli kokuya teslim olun. Sıcak bir rulo tatlıyla Prag’ın dar sokaklarında kaybolmak, bu masalsı yolculuğun en tatlı finalidir.
+
+''';
+
+  static const _pragEN = '''# Prague: The City Time Refused to Touch
+
+**Quick Glance:** Welcome to the heart of Europe, to the midst of Gothic spires and the misty atmosphere of history. There’s a reason Prague is called "The City of a Hundred Spires" or "The Golden City." Spreading across both banks of the Vltava River, the city boasts one of Europe’s best-preserved historic centers, having emerged from WWII almost unscathed. As you walk through streets where Gothic, Baroque, and Renaissance architecture intertwine, it's perfectly normal to feel like you're on a film set. Prague is not just about architecture; it's a character blended with the melancholy of Franz Kafka, the music of Mozart, and the world's finest beer culture.
+
+**A Friendly Note Before You Go:** Although Prague is in the EU, it doesn’t use the Euro; the official currency is the Czech Koruna (CZK). Paying in Euros might result in significant exchange losses. Be cautious with street exchange offices as well; despite "no commission" signs, hidden fees are common. Fortunately, Prague is a very card-friendly city, so using reliable bank ATMs or simply paying by card is your most seamless and effortless option.
+
+**A Tasty Misconception:** That famous Trdelník (chimney cake) you see on every corner is actually not an ancient Czech tradition; it's a "modern classic" that became popular in the early 2000s. For an authentic Prague experience, steer away from the crowds in front of the Astronomical Clock and head to the local pubs in neighborhoods like Vinohrady or Letná. Also, remember: in Prague, beer competes with water; it is often cheaper and definitely the most beloved national beverage.
+
+## 📅 Timing is Everything: Which Season is Yours?
+
+Prague is a city that wears a different costume every season, changing its mood but never losing its charm. Since its character shifts entirely with the weather, it's time to decide whether you prefer lively crowds, a winter fairytale, or golden autumn leaves.
+
+- **Spring (April - June):** This is the city's awakening. As cherry blossoms bloom on Petřín Hill, Prague transforms into Europe’s most romantic destination. The weather is ideal for exploring (15-20°C), and the tourist crowds have yet to reach their peak.
+- **Summer (July - August):** The most vibrant but also the most exhausting time. Temperatures can push 30°C, and Charles Bridge becomes incredibly packed. If you love energy and endless summer evenings, this is the perfect time for you.
+- **Autumn (September - October):** The period when Prague truly earns its "Golden City" title. As the trees along the Vltava River turn shades of yellow and crimson, the city takes on a misty, melancholic atmosphere. It offers the best light for photography enthusiasts.
+- **Winter (November - March):** The weather is truly freezing, but the Christmas Markets in December turn the city into a real-life fairytale. January and February are the most economical months; tourist traffic thins out, accommodation prices drop, and Prague’s famous Gothic towers look enchanting under the snow.
+
+## 🏠 Where to Stay: Neighborhood Guide
+
+Choosing where to stay in Prague really depends on your answer to the question: "Do I want to feel like a tourist or a local?" The city is divided into districts (Prague 1, 2, 3...), and the lower the number, the closer you are to the heart of the city. Prague’s neighborhoods are more than just residential areas; each is a gateway to a different era. Your choice determines whether your morning view will be a Gothic spire or a modern art gallery.
+
+- **Staré Město (Old Town - Prague 1):** The heart of Prague and a favorite for first-timers. You’ll be neighbors with the Astronomical Clock and Old Town Square. Being within walking distance of everything is fantastic, but keep in mind that this is the busiest and most expensive area of the city.
+
+- **Malá Strana (Lesser Town - Prague 1):** Located on the other side of the Vltava, right beneath the Castle, this is the most romantic spot in Prague. With its Baroque buildings, narrow alleys, and embassies, this area is much quieter and more peaceful at night compared to the Old Town.
+
+- **Nové Město (New Town - Prague 1/2):** Although it's called "New," its history dates back to the 14th century. Wenceslas Square is located here. It is the hub of the transport network and the ideal spot for nightlife, shopping, and major hotels.
+
+- **Vinohrady (Prague 2):** If you want to "live like a local," this should be your destination. With its Art Nouveau buildings, chic cafes, international restaurants, and green parks, it’s the city’s most sophisticated district. It is only 10 minutes away from the center by tram.
+
+- **Žižkov (Prague 3):** The bohemian, edgy, and more budget-friendly side of the city. It is said to have one of the highest numbers of pubs per square meter in the world. It’s perfect for younger travelers who love nightlife and local beer culture.
+
+
+## 🚲 Getting from A to B: Move Like a Local
+
+While Prague is a city essentially designed for walking, its labyrinthine alleys and wide boulevards stretching along the Vltava River make it a true engineering masterpiece of transportation. Public transit here is so punctual that you can set your watch by the tram arrivals, allowing you to immerse yourself in the rhythm of the rails and the river with complete confidence.
+
+- **First Steps:** Getting from Václav Havel Airport to the City Center Upon arriving in Prague, you will find that while there is no direct metro line from the airport, the public transport system fills this gap perfectly. The most economical and "local" method is to hop on Trolleybus 59 from Terminal 1 or 2. This line whisked you quickly to the Nádraží Veleslavín station on Metro Line A (Green), where standard city tickets are valid. For those seeking more comfort without transfers, the Airport Express (AE) bus runs directly to the main train station (Hlavní nádraží); however, this requires a special ticket purchased from the driver for approximately 100 CZK. For a more modern alternative, Prague’s official taxi service is integrated with Uber, providing safe journeys at fixed prices via the app.
+- **Time Travel on Cobblestones:** Walkability Prague is a city that only truly reveals its soul to those who explore it on foot. Main hubs like the Old Town (Staré Město), the Jewish Quarter (Josefov), and Malá Strana are all within a few minutes' walk of each other. However, this fairytale stroll comes with a price: Prague’s famous, aesthetic, yet merciless cobblestones. When exploring the city, choosing shoes focused on "comfort" rather than "style" is the biggest detail that sets a local apart from a tourist. Don't forget to look up while walking; Prague’s true treasures are often hidden in the details of the attics and window sills.
+- **Speed on Rails and Underground:** The Tram and Metro System Trams are the true arteries of the city, reflecting Prague’s unique character. Tram 22, in particular, acts more like the "cheapest city tour" than a mere transport vehicle, taking you from the riverbanks up the steep slopes of Prague Castle with panoramic views. After midnight, the "Night Trams" (lines 90-99) take over, ensuring you reach any point in the city safely. If you are short on time, the metro system—comprising lines A, B, and C—is your best bet. Descending into the earth via massive escalators at stations like Náměstí Míru (one of the deepest in the world) offers a glimpse into the modern face of Prague.
+- **Manage Your Budget and Route:** Tickets and the Visitor Pass Transportation in Prague is based on time rather than distance. This means your ticket allows for unlimited transfers (metro, tram, bus, funicular) within its validity period. A 30-minute ticket (30 CZK) is ideal for short hops, while the 90-minute ticket (40 CZK) is better for comprehensive journeys. If you plan to explore intensively for 2-3 days, the 24-hour (120 CZK) or 72-hour (330 CZK) passes offer great convenience. For the ultimate experience, the Prague Visitor Pass is your best ally. Similar to the Barcelona Card, it covers unlimited transport (including the airport) and provides free entry to over 60 top attractions like Prague Castle and the Astronomical Clock Tower.
+- **Alternative Paths:** The River, the Hill, and the Pedals One of the most delightful ways to see the city is the Petřín Funicular, which climbs from Malá Strana to offer a bird’s-eye view of the spires. If you have a 24-hour or longer transport pass, this nostalgic journey is entirely free. To enjoy the Vltava River, you can use the small river ferries included in the public transport system for a quick cross-river water tour. While the city center can be risky for cycling due to pedestrian traffic and tram tracks, biking along the Náplavka riverbank using the Rekola (pink bikes) or Nextbike apps is a favorite weekend activity for locals.
+- **Local Etiquette:** The Unwritten Rules of Transit The "honesty system" is fundamental to Prague’s transit; you won't find turnstiles at metro entrances. However, you must validate your ticket in the yellow machines upon boarding a tram or entering the metro area. Plainclothes inspectors frequently conduct checks, and having a ticket in your pocket that hasn't been validated will result in a heavy fine—no excuses accepted. To blend in, always stand on the right on escalators, leaving the left side open for locals in a hurry. The most critical rule? Trams always have absolute priority. Even at a pedestrian crossing, never expect a tram to stop for you. As the locals say, "The tram always wins!"
+
+## 🏛️ The City's Memory: Iconic Landmarks Must-See
+
+Every stone in Prague whispers the heritage of a thousand years and the grandeur of empires. It is a living, open-air stage where every step draws you into the mystical atmosphere of the Middle Ages, and where different layers of time seamlessly intertwine.
+
+- [Prague Castle (Pražský hrad)](search:Prague Castle (Pražský hrad): Recognized as the largest ancient castle complex in the world. Dominating the city’s skyline, this massive structure houses St. Vitus Cathedral, the true pinnacle of Gothic architecture. Practical Note: Security and ticket queues can get quite long. To ensure a comfortable visit, it is highly recommended to purchase your tickets online in advance and arrive early in the morning.
+- [Golden Lane (Zlatá ulička)](search:Golden Lane (Zlatá ulička): Located within the castle complex, Golden Lane transports you back to the 16th century with its vibrant, tiny houses. Once believed to be the home of alchemists, House No. 22 is famous as the sanctuary where Franz Kafka penned some of his most introspective works.
+- [Charles Bridge (Karlův most)](search:Charles Bridge (Karlův most): Adorned with 30 Baroque statues, Charles Bridge is one of Prague’s most powerful symbols spanning the Vltava River. Connecting the Old Town with Malá Strana, the bridge feels like an open-air art gallery. To experience its most serene state, aim for sunrise or sunset.
+- [Lennon Wall (Lennonova zeď)](search:Lennon Wall (Lennonova zeď): Situated just past Charles Bridge, the Lennon Wall has become a global symbol of peace and freedom. Since the 1980s, this ever-changing canvas of graffiti has stood as a vibrant reflection of resistance and freedom of expression in Prague’s modern memory.
+- **Old Town Square and the Astronomical Clock (Orloj):** Surrounded by Gothic and Baroque architecture, Old Town Square is one of Europe’s most breathtaking plazas. Its centerpiece, the Astronomical Clock, is the oldest working clock of its kind. While the brief hourly show is a popular attraction, the real reward lies in examining the clock’s intricate details and profound symbolism.
+
+- **Klementinum Library (Klementinum):** Deserving of the title "the world’s most beautiful library," this Baroque masterpiece invites you into a mesmerizing silence among ancient manuscripts and massive globes. Important Tip: The Klementinum can only be visited via guided tours, and capacity is strictly limited. To avoid disappointment, make sure to book your reservation online several days in advance.
+
+- **Municipal House (Obecní dům):** Rising next to the Powder Tower, this building is a magnificent representative of the Art Nouveau (Jugendstil) movement. With its grand mosaics, it remains the heart of the city’s artistic pulse.
+
+- [Jewish Quarter (Josefov)](search:Jewish Quarter (Josefov): One of the best-preserved Jewish settlements in Europe, housing six synagogues and the historic Old Jewish Cemetery. Pro Tip: If you plan to visit all the synagogues and the cemetery, a combined ticket is both more practical and economical. These can be purchased at local kiosks or online.
+- [Dancing House (Tančící dům)](search:Dancing House (Tančící dům): Prague is not defined solely by its medieval past. This modern architectural marvel on the riverbank creates a striking yet fascinating contrast within the city’s historical fabric.
+- [Vyšehrad](search:Vyšehrad): For those looking to escape the crowds of Prague Castle, this fortress—regarded as the "birthplace of the city"—offers magnificent river views and tranquil parklands. It remains a favorite weekend retreat for locals.
+
+## 🍴 A Taste of the City: Meat, Dough, and Beer
+
+Prague’s cuisine is one of the finest reflections of that "comfort food" character at the heart of Central Europe. Here, every dish feels like an old friend welcoming you by the fireplace on a cold winter day.
+
+- **Vepřo-knedlo-zelo (A National Pride):** The unshakeable foundation of Prague’s culinary identity. It features slow-roasted, tender pork served alongside the famous knedlíky (bread dumplings) and caramelized sweet-and-sour sauerkraut (zelí). This trio is considered the "Holy Grail" of Czech cuisine; the richness of the meat finds a perfect balance in the acidity of the cabbage and the density of the dumplings.
+
+- **Svíčková na smetaně (Imperial Elegance):** The most sophisticated dish in the Czech repertoire. Beef sirloin is marinated for a full 24 hours with root vegetables and spices. The resulting thick, creamy vegetable sauce is finished with a spoonful of cranberry jam and a dollop of fresh whipped cream. It is rare to find another dish that blends sweet and savory with such noble grace.
+
+- **Pilsner (Tekutý Chléb – "Liquid Bread"):** In Prague, beer is not just a beverage; it is life itself. To the locals, it is "liquid bread." In the land where the world’s first golden pilsner was born, beer is poured using specialized tap techniques. The Hladinka—a thick, wet, and velvety head of foam occupying a third of the glass—is the signature of freshness and craftsmanship.
+
+- **Guláš (Czech Goulash):** Distinct from its Hungarian cousin, the Czech version is darker, denser, and contains fewer vegetables. Braised over a slow flame with plenty of onions, cumin, and occasionally a splash of beer, this beef stew served with raw onion rings and fresh dumplings is the warmest sanctuary during a Prague winter.
+
+- [Trdelník (The Cinnamon Soul of the Streets)](search:Trdelník (The Cinnamon Soul of the Streets): The source of that enchanting cinnamon scent that greets you as you wander through Prague’s medieval alleys. Dough spirals are roasted over an open flame and dusted with sugar and walnuts to create a caramelized crust. Whether plain or filled with chocolate, this pastry is an inseparable part of Prague’s fairytale atmosphere.
+- **Smažený Sýr (Golden Guilty Pleasure):** The most beloved "snack" found in Prague’s pubs. A thick slice of Edam or Hermelín cheese is breaded and fried until the exterior is crispy and the interior is molten. Served with tartar sauce and boiled potatoes, it is proof of how delicious simplicity can be.
+
+- **Nakládaný Hermelín (The Pub Classic):** If you want to feel like a true local, this is the legendary appetizer you must try. Soft cheese is marinated in jars for days with oil, garlic, chili peppers, and spices. Served with fresh Czech bread, it is the most loyal companion to a cold beer.
+- **Chlebíčky (A Visual Feast):** These are open-faced sandwiches that keep pace with Prague’s fast life without sacrificing aesthetics. Toppings like potato salad, cured meats, pickles, and egg slices are arranged with artistic precision on small slices of bread; they look like colorful jewels decorating the windows of local delicatessens (Lahůdky).
+
+- Kulajda (Forest Meets Farm): A magnificent union of dill, mushrooms, and cream. Often served with a poached egg hidden inside, this dense soup brings the damp, fresh scent of Bohemian forests to your plate. Its sour and creamy texture leaves a deep impression on the palate.
+- **Becherovka (The 13th Spring):** A legendary herbal liqueur from Karlovy Vary, crafted with over 20 secret herbs. To the Czechs, this drink is practically a "medicine" that aids digestion. Served in a small glass after a meal, this spicy and sharp spirit is the most elegant way to conclude your Prague flavor tour.
+
+**💡 Local Advice:** Avoid places with "Tourist Menu" signs in the main squares. Instead, dive into the side streets and look for the unmarked doors with steamed-up windows, where laughter and the clinking of glasses echo from within. The best Svíčková and the freshest Pilsner are always waiting for you in those dimly lit but soulful pubs.
+
+**Local Wisdom and Unwritten Rules:** To eat like a local and avoid the "tourist traps," keep these insider rules in mind:
+- [The Endless Flow](search:The Endless Flow): In a traditional pub (Hospoda), the moment you finish your beer, the waiter will bring a fresh, frothy replacement without asking. If you want to stop the cycle, place your coaster on top of your glass. Otherwise, the beer will keep coming until dawn!
+- **The Tally Slip:** The small slip of paper on your table is your only official document. Every stroke represents one beer. Do not lose or scribble on that paper; the waiter will count those marks to calculate your bill.
+
+- **The Bread and Pretzel Trap:** The baskets of bread or large pretzels you see on the table are usually not free. Every piece you eat will be added to your tab; if you don't want them, it’s best not to touch them.
+
+- **Shared Table Culture:** In popular pubs, if there are no empty tables, it is perfectly normal to ask those already seated, "Je tu volno?" (Is this spot free?). Sharing a table is a social rule in Prague.
+- **Tipping (The Round-Up):** A 10% tip is generally expected in Czechia. However, rather than leaving it on the table, you tell the waiter the total amount you want to pay as you hand over the money. (e.g., if the bill is 182 Koruna, saying "200" to the waiter is the local way to tip).
+- **Cash (Hotovost):** Many of Prague’s best local pubs still operate on a "Cash Only" basis. Keeping a supply of Czech Koruna in your pocket is a lifesaver.
+
+## 🤫 Whispers of the City: Local Secrets
+
+Prague is more than the towers marked on a map; its true song is sung in courtyards tucked behind main streets, through rebellious sculptures, and within underground laboratories where time has been forgotten. If you wish to escape the hum of the crowds and hear the city’s genuine whisper, turn your path toward these ten hidden stops:
+
+- **Speculum Alchemiae (In the Footsteps of Alchemists):** Located in the heart of the Old Town, this underground laboratory was discovered by chance following the Great Flood of 2002. It serves as the most authentic proof of Prague’s days as the "City of Mages." These dusty tunnels, where Emperor Rudolf II’s secret alchemists once sought the elixir of immortality, pull you away from the modern world and into an ancient mystery.
+- [Nový Svět (The New World)](search:Nový Svět (The New World): Nestled right at the foot of Prague Castle yet feeling worlds away, this neighborhood is the city’s most intimate sanctuary. With its tiny houses dating back to the 17th century, it was once a refuge for poor artists and alchemists. Today, in these quiet, cobblestone streets, the only sound you’ll hear is your own footsteps.
+- **Paternoster Elevators (The Never-Ending Loop):** Still operating in some of the city's older government buildings and the Lucerna Palace, these "doorless" wooden elevators are a piece of living history. Stepping into these cabins, which move in a continuous, rhythmic cycle, feels like entering a loop within time itself.
+
+- **Lucerna Passage and the Upside-Down Horse:** This sculpture of St. Wenceslas sitting atop a dead, inverted horse is David Černý’s famous mockery of authority. It stands as a provocative laugh directed at Prague’s solemn Gothic facade.
+- **Vinárna Čertovka (The Narrowest Street with a Traffic Light):** Tucked between two buildings in Malá Strana is a passage so narrow that it is impossible for İwo people to pass at once. Because of this, traffic lights have been placed at both ends—making it perhaps the most amusing example of Prague’s architectural quirks.
+- [The Provocative Traces of David Černý](search:The Provocative Traces of David Černý): Don’t stop at the upside-down horse; seek out the faceless, giant Bronze Babies in Kampa Park or the interactive sculptures in front of the Kafka Museum. Following Černý’s trail is the best way to decode the rebellious soul of Prague.
+- [Vrtba Garden (Vrtbovská zahrada)](search:Vrtba Garden (Vrtbovská zahrada): Hidden behind an ordinary door, this Baroque paradise rises in terraced layers, offering the most romantic views of Prague’s iconic red rooftops. It remains the city’s best-kept secret.
+- [Letná Park and the Five-Bridge View](search:Letná Park and the Five-Bridge View): While tourists flock to Charles Bridge, locals gather on this hill to watch the sunset. This is the only spot where you can capture the iconic frame of five bridges—including Charles Bridge—aligned perfectly along the Vltava.
+- **Strahov Monastery and St. Norbert Beer:** Far beyond its world-famous library, the true Bohemian experience lies in walking the surrounding trails and tasting the craft beer brewed by monks using the same recipe for centuries, served in the monastery’s own courtyard.
+- **The Municipal Library and the Infinity Tower (Idiom):** Located at the entrance of the library, this "tunnel of infinity" made from thousands of books uses mirrors to create a mesmerizing optical illusion, reminding every visitor that there is truly no end to knowledge.
+
+
+## ✅ The Prague Checklist: Don't Leave Without Doing These
+
+- [Greet the Dawn on Charles Bridge](search:Greet the Dawn on Charles Bridge): Visit before the crowds descend, right at daybreak. Watching the Baroque statues emerge from the Vltava mist is the only way to touch the city's mystical soul.
+- **Ascend the Heights of Gothic at Prague Castle:** Wander the courtyards of the world’s largest castle complex and feel the sheer power of architecture while gazing at the soaring spires of St. Vitus Cathedral.
+
+- **Join the "Liquid Bread" Ritual in a Pub:** Step into a traditional hospoda and get that first stroke on your tally slip. You haven't truly understood Prague until you've experienced the endless flow of beer that only stops when you place your coaster on top of your glass.
+- **Lose Yourself in the Details of the Astronomical Clock:** While the hourly show is a tourist classic, you should look deeper. Savor the intricate symbols, the zodiac signs, and the profound philosophy of time etched into its legendary face.
+
+- **A "Kafkaesque" Journey in the Footsteps of Kafka:** Visit the Franz Kafka Museum and stand before the giant, rotating metal bust of the author. Understanding Kafka is the key to comprehending why Prague’s melancholic and maze-like streets inspired his genius.
+- [Wait for the Green Light at Vinárna Čertovka](search:Wait for the Green Light at Vinárna Čertovka): In the city’s narrowest street, don't forget to wait for the traffic light to turn green so you don't get stuck. This tiny, absurd moment is one of the most charming architectural surprises Prague offers.
+- **Enter a Time Loop with the Paternoster Elevator:** Find one of these doorless, wooden, never-stopping elevators in an old government building. This nostalgic "never-ending loop" is a whimsical piece of Prague’s living history.
+- **Reach the Pinnacle of Bohemian Cuisine with Svíčková:** You cannot say you’ve tasted Prague until you’ve finished that plate of rich cream sauce, tender beef, and cranberry jam—mopping up every last drop with your bread dumplings.
+- [Trace the Provocative Trail of David Černý](search:Trace the Provocative Trail of David Černý): Seek out the "weird" sculptures scattered across the city (the Upside-Down Horse, the Babies, the Pissing Statues). These works are the key to the rebellious Czech wit hidden behind Prague’s solemn Gothic facade.
+- Look at [Prague from Below on the Vltava River](search:Look at Prague from Below on the Vltava River): Whether by a small ferry or a rented pedal boat, viewing the city’s skyline from the water offers a serene and romantic perspective that you simply cannot get on land.
+- **Find Peace in the Vrtba Garden:** Escape the hustle of Malá Strana through a hidden door into this Baroque paradise. Climb its terraces for a deep breath and the most enchanting view of Prague’s iconic red-tiled roofs.
+
+- **Sunset at Letná Park:** Join the locals with a drink in hand on the hills of Letná. Capture the iconic frame of five bridges—including Charles Bridge—aligned perfectly along the Vltava as the sun dips below the horizon.
+
+- **Follow the Scent of Trdelník:** Even if locals say it’s not "entirely" Czech, surrender to the cinnamon and sugar aroma wafting through the medieval alleys. Getting lost in the cobblestone streets with a warm pastry is the quintessential fairytale ending to your journey.
+
+''';
+
+  // VIYANA
+  static const _viyanaTR = '''# Viyana Rehberi: İmparatorluk Zarafeti ve Kahve Kültürü 🇦🇹
+
+Viyana; geniş caddeleri, heybetli sarayları ve dünyaca ünlü klasik müzik mirasıyla Avrupa'nın en asil şehirlerinden biridir. Disiplin ve sanatın iç içe geçtiği bir başkent.
+
+## 📅 Ne Zaman Gidilir?
+- **Noel Pazarları (Kasım Sonu-Aralık):** Viyana bu dönemde bir ışık şöleni yaşar. Belediye binası (Rathaus) önündeki pazar büyüleyicidir.
+- **Baharda (Mayıs-Haziran):** Saray bahçelerindeki binlerce gül açtığında şehir tam bir imparatorluk atmosferine bürünür.
+
+## 🏘️ Semt Rehberi
+- **Innere Stadt (1. Bölge):** Şehrin tam merkezi. Şık mağazalar, tarihi kafeler ve ana katedraller burada.
+
+- **Neubau (7. Bölge):** Sanatçıların, tasarımcıların ve butik kahvecilerin bölgesi. Modern Viyana hayatını burada gözlemlersiniz.
+
+- **Leopoldstadt (2. Bölge):** Prater parkının olduğu, nehir kenarına yakın ve daha dinamik, çok kültürlü bölge.
+
+
+## 🍽️ Ne Yenir ve İçilir?
+- **Wiener Schnitzel:** Gerçek bir Viyana şinitzeli dana etinden (Kalb) yapılır ve tabağın dışına taşacak kadar büyüktür. *Figlmüller* bu konuda efsanedir.
+
+- **Kaffeehaus Kültürü:** Kahve içmek Viyana'da bir sosyal aktivitedir. Bir fincan kahve isteyip saatlerce gazete okuyabilirsiniz; kimse sizi rahatsız etmez.
+
+- **Sachertorte:** Dünyanın en meşhur çikolatalı pastası. Yoğun ve lezzetli; yanında şekersiz çırpılmış krema (Schlagobers) ile servis edilir.
+
+
+## 🚇 Ulaşım İpuçları
+- **U-Bahn:** Metro sistemi çok temiz, dakik ve güvenlidir.
+
+- **Ringstrasse Tramvayı:** 1 ve 2 numaralı tramvaylarla şehrin etrafındaki o meşhur dairesel bulvarda tur atıp en görkemli binaları görebilirsiniz.
+
+## 💎 Lokal Sırlar & İpuçları
+- **Devlet Operası (Staatsoper):** Pahalı koltuklar yerine, oyun başlamadan 80 dakika önce satılan çok ucuz "ayakta bilet"lerden (standing tickets) alıp o görkemi yaşayabilirsiniz.
+- **Hundertwasserhaus:** Klasik mimariden sıkıldıysanız, bu renkli ve eğimli binayı mutlaka görün; doğayla mimarinin barışmış hali.
+
+- **Musluk Suyu:** Viyana'nın musluk suyu doğrudan Alpler'den gelir ve dünyanın en temiz sularından biridir; boşuna para vermeyin!''';
+
+
+  static const _viyanaEN = '''# Vienna Guide: Imperial Elegance & Coffee Tradition 🇦🇹
+
+Vienna is one of Europe's most noble cities, with its grand boulevards, majestic palaces, and a world-class classical music heritage. It’s a capital where discipline meets fine art in every alleyway.
+
+## 📅 Best Time to Visit
+- **Christmas Markets (Late Nov-Dec):** Vienna is stunning during the holidays. The market in front of the City Hall (Rathaus) is like a fairy tale captured in lights.
+
+- **Spring (May-June):** When the palace gardens bloom with thousands of roses, the city truly feels like an imperial residence.
+
+## 🏘️ Neighborhood Guide
+- **Innere Stadt (District 1):** The historic center. This is where you’ll find the luxury boutiques, the state opera, and the grand St. Stephen’s Cathedral.
+
+- **Neubau (District 7):** The artsy soul of Vienna. Filled with independent designers, trendy coffee shops, and a cool, modern vibe.
+
+- **Leopoldstadt (District 2):** Home to the famous Prater amusement park. A vibrant area between the city center and the Danube.
+
+
+## 🍽️ Food & Dining Etiquette
+- **Wiener Schnitzel:** An authentic Viennese schnitzel is made from veal (Kalb) and should be larger than the plate it's served on. *Figlmüller* is the local legend for this dish.
+
+- **Kaffeehaus Culture:** Drinking coffee in Vienna is a serious social occupation. You can order one coffee and spend hours reading newspapers; the waitstaff will never rush you.
+
+- **Sachertorte:** The world's most famous chocolate cake. Rich and dense, it's traditionally served with a side of unsweetened whipped cream (*Schlagobers*).
+
+
+## 🚇 Transportation Tips
+- **U-Bahn:** The subway system is exceptionally clean, punctual, and safe.
+
+- **Ringstrasse Trams:** Take trams 1 or 2 for a full loop around the famous circular boulevard to see the city's most monumental architecture.
+
+## 💎 Local Secrets & Insights
+- **State Opera (Staatsoper):** Instead of expensive seats, you can buy very cheap standing tickets sold about 80 minutes before each performance.
+- **Hundertwasserhaus:** If you get tired of classical symmetry, visit this colorful, curvy apartment block—an artistic vision of building in harmony with nature.
+
+- **Tap Water:** Vienna’s tap water comes directly from the Alps and is some of the cleanest in the world; don't bother buying bottled water!''';
+
+  // BUDAPESTE
+  static const _budapesteTR = '''# Budapeşte Rehberi: Tuna'nın İncisi 🇭🇺
+
+Budapeşte; Buda'nın tarihi sükuneti ile Pest'in hareketli gece hayatının, termal hamamların ve büyüleyici Tuna manzarasının muhteşem bir birleşimidir. Avrupa'nın "ikiz" ruhlu en güzel başkentlerinden biri.
+
+## 📅 Ne Zaman Gidilir?
+- **Mayıs ve Eylül:** En keyifli sıcaklıklar, yürüyüş ve nehir turları için ideal.
+- **Ağustos Başı (Sziget Festivali):** Dünyanın en büyük müzik festivallerinden biri için şehir gençlerle dolar.
+- **İpucu:** Kışın çok soğuk olabilir ama termal hamamların buharı altında kar izlemek paha biçilemez bir deneyimdir.
+
+## 🏘️ Semt Rehberi
+- **I. Bölge (Kale Bölgesi):** Tarihi Buda. Balıkçı Tabyası, kalesi ve taş sokaklarıyla görkemli bir manzara sunar.
+
+- [VII. Bölge (Yahudi Mahallesi)](search:VII. Bölge (Yahudi Mahallesi): Pest'in kalbi. Sokak sanatları, tasarım dükkanları ve meşhur "Yıkıntı Barlar" (Ruin Bars) burada.
+- **V. Bölge (Belváros):** Parlamentonun, şık mağazaların ve lüks otellerin merkezi.
+
+
+## 🍽️ Ne Yenir ve İçilir?
+- **Gulaş (Gulyás):** Macar mutfağının baş tacı. Çorba kıvamında, bol paprikalı ve doyurucu.
+
+- **Ruin Bars (Yıkıntı Barlar):** Terk edilmiş eski binaların içine kurulan, her köşesinden farklı bir objenin fırladığı bu barlar Budapeşte'nin imzasıdır. *Szimpla Kert* en meşhurudur.
+- [Lángos](search:Lángos): Üzerine sarımsak, peynir ve krema sürülen kızarmış hamur. En sevilen sokak lezzetidir.
+- **Hamam Adabı:** Széchenyi veya Gellért hamamlarına giderken yanınızda terlik ve havlu götürmeyi unutmayın; orada kiralamak oldukça pahalıdır.
+
+
+## 🚇 Ulaşım İpuçları
+- **Metro 1 (Sarı Hat):** Kıta Avrupası'nın en eski metrosudur; istasyonları çok nostaljik ve şıktır.
+- **Tramvay 2:** Tuna Nehri kıyısı boyunca gider ve dünyanın en güzel panoramik hatlarından biri kabul edilir.
+- **Yürüyüş:** Buda'dan Pest'e yürüyerek geçmek, özellikle ışıklandırılmış Zincir Köprü üzerinden, şehrin ruhunu hissettirir.
+
+## 💎 Lokal Sırlar & İpuçları
+- [Balıkçı Tabyası (Halászbástya)](search:Fisherman's Bastion): Gün doğumu veya gece gidin; manzara o kadar masalsıdır ki kendinizi bir film setinde sanabilirsiniz.
+- [Margaret Adası](search:Margaret Island): Şehrin gürültüsünden kaçmak için Tuna'nın ortasındaki bu yeşil adaya sığının.
+- **Market Hall:** Taze paprika, Macar salamı ve hediyelik eşya almak için büyük pazar alanına uğrayın (üst katta yerel yemekler tadılabilir).''';
+
+
+  static const _budapesteEN = '''# Budapest Guide: The Pearl of the Danube 🇭🇺
+
+Budapest is a stunning blend of the historic tranquility of Buda and the vibrant, edgy energy of Pest, famous for its grand thermal baths and the majestic Danube views. 
+
+## 📅 Best Time to Visit
+- **May and September:** The most pleasant temperatures, ideal for walking and Danube cruises.
+
+- **Early August (Sziget Festival):** The city fills with music lovers for one of the largest and most famous festivals in the world.
+
+- **Tip:** Winter can be bitterly cold, but watching the snow while soaking in an outdoor thermal bath is a bucket-list experience.
+
+## 🏘️ Neighborhood Guide
+- **District I (Castle District):** Historic Buda. Home to Fisherman's Bastion, the Royal Palace, and cobblestone lanes offering medieval charm.
+
+- [District VII (Jewish Quarter)](search:District VII (Jewish Quarter): The heart of Pest’s nightlife. A hub of street art, designer boutiques, and the world-famous "Ruin Bars."
+- **District V (Belváros):** The elegant center of the city, housing the Parliament building, luxury hotels, and high-end shopping.
+
+
+## 🍽️ Food & Dining Etiquette
+- **Goulash (Gulyás):** The king of Hungarian cuisine. A hearty soup-stew rich in paprika and local flavors.
+
+- **Ruin Bars:** Set in abandoned buildings and decorated with an eclectic mix of flea-market junk, these bars are iconic. *Szimpla Kert* is the original and most famous.
+- [Lángos](search:Lángos): Fried dough topped with garlic, sour cream, and cheese—the ultimate Hungarian street food.
+- **Thermal Bath Etiquette:** When visiting Széchenyi or Gellért, bring your own flip-flops and towel to avoid expensive rental fees.
+
+## 🚇 Transportation Tips
+- **Metro 1 (Yellow Line):** The oldest underground line in continental Europe. Its stations are beautifully preserved and feel like a trip back in time.
+- **Tram 2:** Runs along the Pest side of the Danube and is widely considered one of the most scenic tram routes in the world.
+- **Walking:** Walking from Buda to Pest across the Chain Bridge at night, when the city is fully illuminated, is an unforgettable experience.
+
+## 💎 Local Secrets & Insights
+- [Fisherman's Bastion](search:Fisherman's Bastion): Visit at sunrise or late at night. The panoramic views are so magical they feel staged for a movie.
+- [Margaret Island](search:Margaret Island): A peaceful green sanctuary in the middle of the Danube, perfect for escaping the city's hustle and bustle.
+- **Central Market Hall:** Head here for authentic paprika, Hungarian salami, and local crafts—check out the upstairs stalls for a quick, traditional lunch.''';
+
+
+  // KOPENHAG
+  static const _kopenhagTR = '''# Kopenhag Rehberi: Tasarım ve Mutluluk Başkenti 🇩🇰
+
+Kopenhag; "Hygge" felsefesiyle ısınan evleri, dünyaca ünlü tasarım anlayışı ve bisikletli yerlileriyle dünyanın en yaşanılabilir ve huzurlu şehirlerinden biridir.
+
+## 📅 Ne Zaman Gidilir?
+- **Yaz (Haziran-Ağustos):** Günlerin neredeyse hiç batmadığı, kanalların yüzmek ve tekne turları için ideal olduğu en canlı dönem.
+- **Aralık:** Tivoli Bahçeleri bir peri masalına dönüşür; Kopenhag Noel ruhunu en iyi yansıtan şehirlerden biridir.
+- **İpucu:** Kopenhag pahalı bir şehirdir, bütçenizi buna göre ayarlayın!
+
+## 🏘️ Semt Rehberi
+- [Nyhavn](search:Nyhavn): Rengarenk evleriyle Kopenhag'ın kartpostallık yüzü. Turistiktir ama bir akşamüstü içeceği için vazgeçilmezdir.
+- **Vesterbro:** Eskiden "kırmızı fener" bölgesi olan bu mahalle, şimdi şehrin en trend, tasarım dükkanları ve iyi restoranlarla dolu bölgesi.
+
+- [Nørrebro](search:Nørrebro): Çok kültürlü, dinamik ve genç. Dünyanın en iyi pizzacıları ve antikacıları bu mahallededir.
+
+## 🍽️ Ne Yenir ve İçilir?
+- **Smørrebrød:** Geleneksel açık yüzlü sandviçler. Çavdar ekmeği üzerine balık, et veya sebze kombinasyonlarıyla bir sanat eseridir.
+
+- **Pastry (Danish):** Gerçekten burada yemeniz gereken tereyağlı çıtır çörekler.
+
+- **Bisiklet Adabı:** Bisikletliler için kurallara uymak çok ciddidir. Bisiklet yolunda durmayın ve dönerken mutlaka el işareti verin.
+- [Hygge](search:Hygge): Arkadaşlarla mum ışığında, samimi bir ortamda vakit geçirme sanatı. Siz de bu ritme ayak uydurun.
+
+## 🚇 Ulaşım İpuçları
+- **Bisiklet Kiralamak:** Kopenhag'da otomobil bir azınlıktır. Şehri gerçek bir Kopenhaglı gibi gezmenin tek yolu iki tekerlek üstündedir.
+- **Kopenhag Kart:** Müzeler ve ulaşım için oldukça karlı olabilir.
+
+## 💎 Lokal Sırlar & İpuçları
+- [Reffen](search:Reffen): Eski bir endüstriyel alanda kurulan devasa sokak yemeği pazarı. Yaz akşamlarının vazgeçilmezidir.
+- [Christiania (Özgür Şehir)](search:Freetown Christiania): Kendi kuralları olan bu özerk bölgeyi ziyaret edin; graffitileri ve alternatif yaşam tarzı ile benzersizdir (fotoğraf çekme kurallarına dikkat edin!).
+- **Kanalda Yüzmek:** Şehrin ortasındaki kanalların suyu tertemizdir. Yazın yerlilerle birlikte bu "havuzlara" atlayın.''';
+
+
+  static const _kopenhagEN = '''# Copenhagen Guide: Capital of Design & Happiness 🇩🇰
+
+Copenhagen is one of the most liveable cities in the world, defined by the "Hygge" philosophy, world-class design, and a sea of bicycles. It’s a place where aesthetic beauty meets effortless functionality.
+
+## 📅 Best Time to Visit
+- **Summer (June-August):** Long days where the sun barely sets, making the canals perfect for swimming and boat tours.
+- **December:** Tivoli Gardens transforms into a sparkling winter wonderland; Copenhagen captures the Christmas spirit like no other.
+
+- **Tip:** Copenhagen is expensive—be prepared for higher prices on dining and accommodation.
+
+## 🏘️ Neighborhood Guide
+- [Nyhavn](search:Nyhavn): The quintessential postcard view of Copenhagen with its colorful 17th-century townhouses.
+- **Vesterbro:** Once the red-light district, now a trendy hub filled with independent boutiques, galleries, and the city’s best nightlife.
+
+- [Nørrebro](search:Nørrebro): Multicultural, vibrant, and young. It’s the place to find eclectic antique shops and world-class pizza.
+
+## 🍽️ Food & Dining Etiquette
+- **Smørrebrød:** Traditional open-faced sandwiches. Built on dense rye bread, these topping-loaded masterpieces are a Danish staple.
+
+- **Danish Pastry:** You haven't truly experienced a pastry until you've had a fresh, buttery "Wienerbrød" in its homeland.
+
+- **Cycling Etiquette:** Biking is a serious business here. Do not walk on bike lanes, keep to the right, and always signal with your hands before stopping or turning.
+- [Hygge](search:Hygge): The Danish art of creating intimacy and coziness. Embrace the slower pace and enjoy a candlelit meal.
+
+## 🚇 Transportation Tips
+- **Rent a Bike:** In Copenhagen, cars are secondary. To explore the city like a local, you must do it on two wheels.
+- **Copenhagen Card:** Offers great value if you plan to visit multiple museums and use public transport within the wider metropolitan area.
+
+## 💎 Local Secrets & Insights
+- [Reffen](search:Reffen): A massive outdoor street food market on a former industrial site. It’s the ultimate place for summer evening vibes.
+- [Freetown Christiania](search:Freetown Christiania): Visit this self-governing autonomous district for its unique street art and alternative lifestyle (be sure to follow their internal rules regarding photography).
+- **Canal Swimming:** The water in Copenhagen's canals is exceptionally clean. Join the locals at Harbor Bath Islands Brygge for a refreshing summer dip.''';
+
+
+  // STOKHOLM
+  static const _stokholmTR = '''# Stokholm Rehberi: Suyun Üstündeki Zarafet 🇸🇪
+
+Stokholm; 14 ada üzerine yayılmış, 50'den fazla köprüyle birbirine bağlanmış, kuzeyin modernliğini ortaçağ dokusuyla harmanlayan büyüleyici bir şehirdir.
+
+## 📅 Ne Zaman Gidilir?
+- **Midsommar (Haziran Sonu):** Günlerin neredeyse hiç batmadığı, şehrin çiçeklerle dolduğu en sihirli zaman.
+- **Kış (Aralık):** Karlar altındaki Gamla Stan (Eski Şehir) sokaklarında zencefilli kurabiye kokuları eşliğinde Noel pazarlarını gezmek paha biçilemez.
+- **İpucu:** Kışın güneş çok erken batar (öğleden sonra 3 gibi), bu yüzden gün ışığını iyi değerlendirin.
+
+## 🏘️ Semt Rehberi
+- [Gamla Stan](search:Gamla Stan): Şehrin kalbi. Renkli binaları ve dar sokaklarıyla Avrupa'nın en iyi korunmuş ortaçağ merkezlerinden biri.
+- **Södermalm:** Stokholm'ün "hipster" ruhu. Tasarım dükkanları, vintage mağazalar ve şehrin en iyi manzaralarına sahip kafeler burada.
+
+- [Östermalm](search:Östermalm): Şık, zarif ve lüks. Geniş bulvarlar ve kaliteli restoranların merkezi.
+- [Djurgården](search:Djurgården): Müzeler adası. ABBA müzesi, Vasa müzesi ve dünyanın en eski açık hava müzesi Skansen burada yer alır.
+
+## 🍽️ Ne Yenir ve İçilir?
+- **Fika Ritüeli:** İsveç'in kahve ve mola kültürü. Sadece bir kahve molası değil, hayata kısa bir ara verme sanatıdır. Yanında mutlaka "Kanelbulle" (tarçınlı çörek) deneyin.
+
+- **Köttbullar:** Meşhur İsveç köftesi; yanında patates püresi, yaban mersini sosu (lingonberry) ve turşu ile servis edilir.
+
+- **Gravlax:** Dereotuyla marine edilmiş çiğ somon. Kuzey mutfağının en taze lezzetlerinden biri.
+
+- **Kıyafet:** İsveçliler sade ama çok şık giyinir. "Lagom" (ne eksik ne fazla) felsefesi giyim tarzlarına da yansır.
+
+## 🚇 Ulaşım İpuçları
+- **Dünyanın En Uzun Sanat Galerisi:** Stokholm metrosu (Tunnelbana) istasyonları devasa sanat eserlerine ev sahipliği yapar. Mavi hat istasyonlarını mutlaka görün.
+
+- **Feribotlar:** Toplu taşıma kartınız feribotlarda da geçerlidir. Adalar arasında deniz yoluyla seyahat etmek hem ucuz hem de manzaralıdır.
+
+## 💎 Lokal Sırlar & İpuçları
+- [Monteliusvägen](search:Monteliusvägen): Södermalm'da bulunan bu yürüyüş yolu, Gamla Stan ve belediye binasının en güzel manzarasını sunar; özellikle gün batımında unutulmazdır.
+- [Rosendals Trädgård](search:Rosendals Trädgård): Djurgården'ın derinliklerinde saklı bir bahçe kafe. Kendi yetiştirdikleri ürünlerle yaptıkları yemekler ve sera atmosferi büyüleyicidir.
+- **Nakit:** İsveç neredeyse tamamen nakitsiz bir toplumdur. Birçok yer "Card Only" çalışır; nakit paraya ihtiyacınız olmayacaktır.''';
+
+  static const _stokholmEN = '''# Stockholm Guide: Elegance on the Water 🇸🇪
+
+Stockholm is spread across 14 islands connected by over 50 bridges, seamlessly blending North European modernity with medieval charm—a city where water and forest meet urban design.
+
+## 📅 Best Time to Visit
+- **Midsommar (Late June):** The most magical time when the sun barely sets, and the city is filled with wildflowers and festivities.
+
+- **Winter (December):** Exploring the snow-covered alleys of Gamla Stan (Old Town) with the scent of gingerbread in the air is priceless.
+- **Tip:** In mid-winter, the sun sets around 3 PM. Plan your sightseeing early to make the most of the short daylight hours.
+
+## 🏘️ Neighborhood Guide
+- [Gamla Stan](search:Gamla Stan): The historic heart. One of Europe's best-preserved medieval centers with colorful buildings and narrow cobblestone streets.
+- **Södermalm:** The hipster soul of Stockholm. Home to creative design studios, vintage stores, and hilltop cafes with amazing views.
+
+- [Östermalm](search:Östermalm): Elegant, chic, and high-end. Known for its grand boulevards and some of the city's finest dining establishments.
+- [Djurgården](search:Djurgården): The museum island. Here you'll find the ABBA Museum, the 17th-century Vasa ship, and Skansen open-air museum.
+
+## 🍽️ Food & Dining Etiquette
+- **Fika Ritual:** More than just a coffee break, Fika is the Swedish art of slowing down with coffee and a treat. Pair it with a "Kanelbulle" (cinnamon bun).
+
+- **Köttbullar:** Authentic Swedish meatballs served with creamy mashed potatoes, lingonberry jam, and pickled cucumber.
+
+- **Gravlax:** Dill-cured Atlantic salmon—a fresh and essential staple of Nordic cuisine.
+
+- **Dress Code:** Swedes dress simply but very stylishly. The philosophy of "Lagom" (just the right amount) is reflected in their fashion.
+
+## 🚇 Transportation Tips
+- **The World's Longest Art Gallery:** The Stockholm metro (Tunnelbana) stations are massive art installations. Don't miss the blue line stations for incredible visuals.
+
+- **Ferries:** Your public transport card is valid on many ferries. Crossing between islands by water is both economical and offers the best perspectives of the city.
+
+
+## 💎 Local Secrets & Insights
+- [Monteliusvägen](search:Monteliusvägen): This walking path on Södermalm offers the single best panoramic view of Gamla Stan and the City Hall, especially stunning at sunset.
+- [Rosendals Trädgård](search:Rosendals Trädgård): A hidden garden cafe in the middle of Djurgården island, where food is prepared with ingredients grown on-site in a greenhouse setting.
+- **Cashless Society:** Sweden is almost entirely cashless. Most places are "Card Only," so don't worry about carrying physical currency.''';
+
+
+  // ZURIH
+  static const _zurihTR = '''# Zürih: Düzenin ve Hayatın Kusursuz Dengesi
+
+**Hızlı Bakış:** Zürih denince akla gelen o "soğuk banka şehri" imajını hemen bir kenara bırakın. Evet, burası küresel finansın kalbinin attığı ve dünyanın en varlıklı noktalarından biri; ancak Zürih aynı zamanda Limmat Nehri’nin gölün masmavi sularıyla buluştuğu noktada tam bir yaşam enerjisi barındırıyor. Şehir, Orta Çağ’dan kalma kıvrımlı taş sokakları (Altstadt) ile eski fabrikaların dev sanat galerilerine, havalı butiklere ve bitmek bilmeyen gece kulüplerine dönüştüğü (Zürich West) o endüstriyel şıklığı kusursuzca harmanlıyor. Zürih’te lüks, gösterişli logolarda değil; her tramvayın saniyesi saniyesine durağa yanaşmasında, köşe başlarındaki tarihi çeşmelerden akan tertemiz suda ve Bahnhofstrasse’nin o “sessiz lüks” hissinde saklı.
+
+## 📅 Takviminizi Ayarlayın: Hangi Mevsim Sizin?
+
+Zürih’te zaman, sadece takvime göre değil, şehrin değişen enerjisine göre akar. Gölün masmavi renginin her mevsimde başka bir hikaye anlattığı bu şehirde, ne zaman orada olacağınız aslında nasıl bir deneyim aradığınızla ilgili. İster nehir kenarında serinlemek ister ışıl ışıl sokaklarda kışın tadını çıkarmak isteyin, Zürih her döneme uygun bir ritim sunuyor.
+
+- **İlkbahar (Mart - Mayıs):** Şehrin uyanışını izlemek için en iyi zaman. Özellikle Nisan ayındaki Sechseläuten bayramını kaçırmayın; yereller kışın bitişini dev bir kardan adamı (Böögg) yakarak kutluyor. Hava hala biraz serin olabilir ama parklar canlanmaya başlar.
+- **Yaz (Haziran - Ağustos):** Zürih’in en hareketli hali. Herkes göl kenarında ya da nehirdeki "Badi" denilen açık hava havuzlarında yüzüyor. Ağustos ayında yapılan dev tekno partisi Street Parade ile şehir bambaşka bir enerjiye bürünüyor.
+- **Sonbahar (Eylül - Kasım):** Doğa yürüyüşleri ve sakinlik arayanlar için ideal. Şehre yukarıdan bakmak için Uetliberg Dağı’na çıkmanın ve değişen renkleri izlemenin tam zamanı.
+- **Kış (Aralık - Şubat):** Tam bir kartpostal havası. Sokaklar ışıl ışıl oluyor, sıcak çikolata ve fondü kokusu her yeri sarıyor. Ayrıca kayak yapmak isterseniz dağlara sadece 1 saat uzaklıktasınız.
+
+## 🏠Nerede Kalmalı: Mahalle Rehberi
+
+Zürih ilk bakışta küçük bir şehir gibi görünebilir; ancak kendinizi bir mahallede Orta Çağ sokaklarında yürürken, birkaç dakika sonra modern galerilerin ve kafelerin arasında bulabilirsiniz. Nerede kalırsanız kalın, sabah uyandığınız manzara ve günün temposu bulunduğunuz mahalleyle birlikte şekillenir. Sabah tarihi sokakların sessizliğinde uyanmak mı, yoksa yaratıcı ve modern mahallelerin enerjisinin tam ortasında olmak mı? Zürih’te her ruh haline uyacak bir köşe mutlaka var.
+
+**Altstadt (Eski Şehir):** Zürih’in kalbinde, tarihin tam içinde uyanmak isteyenler için en doğru yer. Dar sokaklar, nehir manzaralı eski binalar ve her yere yürüme mesafesinde olma konforu burada. Niederdorf bölgesinin trafiğe kapalı sokaklarında kaybolurken her köşede bir orta çağ detayına rastlayabilir, akşamları ise nehir kenarındaki restoranların keyfini çıkarabilirsiniz.
+- **Zürich West (5. Bölge):** Eskiden fabrikaların olduğu bu bölge, şimdi şehrin en havalı ve modern noktası. Tasarım otelleri, sanat galerileri ve havalı gece kulüpleriyle dolu. Frau Gerolds Garten gibi açık hava mekanları ve Freitag Tower gibi ikonik yapılarla modern Zürih’in endüstriyel şıklığını burada tam anlamıyla hissedeceksiniz.
+
+- [Enge & Seefeld](search:Enge & Seefeld): Göl kıyısına yakınlığıyla bilinen, daha sakin ve nezih mahalleler. Sabahları göl kenarında yürüyüş yapmak, lüks ama bağırmayan bir sessizliğin içinde kalmak istiyorsanız ideal. Göl kenarındaki geniş parklar ve Çin Bahçesi gibi huzurlu duraklar, bu bölgeyi şehrin en huzurlu kaçış noktası yapıyor.
+- [Langstrasse (4. Bölge)](search:Langstrasse (4. Bölge): Zürih’in en çok kültürlü ve asla uyumayan bölgesi. Eskiden "arka sokak" imajı olsa da şimdi şehrin en renkli restoranlarına ve barlarına ev sahipliği yapıyor. Tasarımcı atölyeleriyle enerjik gece hayatının iç içe geçtiği bu mahalle, şehrin en samimi ve "filtresiz" yüzünü temsil ediyor.
+- **Wiedikon (3. Bölge):** Şehrin son yıllardaki en popüler mahallelerinden biri ve tam bir "hipster" sığınağı. Daha lokal bir deneyim arayanlar için harika bir alternatif. Idaplatz çevresindeki yerel fırınlar, butik kafeler ve mahalle barlarıyla kendinizi gerçek bir Zürihli gibi hissetmek için birebir.
+
+
+## 🚲 A Noktasından B Noktasına: Bir Lokal Gibi Hareket Edin
+
+Zürih’te ulaşım tıpkı kolunuzdaki İsviçre saati gibidir; asla geç kalmaz ve sizi tam vaktinde gideceğiniz yere ulaştırır. Şehir merkezi oldukça yürünebilir olsa da, o meşhur mavi-beyaz tramvaylara binmek Zürih deneyiminin bir parçasıdır. Gideceğiniz yer neresi olursa olsun, bu tıkır tıkır işleyen sistem sayesinde kafa karışıklığı yaşamadan şehri keşfedebilirsiniz.
+
+- **Havalimanından Şehre (Sadece 10 Dakika):** Zürih Havalimanı (ZRH) merkeze çok yakındır. "Bahn" işaretlerini takip edip alt kata indiğinizde, ana tren istasyonu olan Zürich HB'ye giden trenleri göreceksiniz. Yaklaşık her 5-10 dakikada bir tren kalkar ve yolculuk sadece 10 dakika sürer.
+- **Zürich Card (Mantıklı Seçim):** Eğer 24 veya 72 saat boyunca şehri yoğun gezecekseniz bu kart hayat kurtarır. Sadece tramvay, otobüs ve trenlerde değil, aynı zamanda nehir teknelerinde de geçerlidir. Ayrıca birçok müze girişini ücretsiz veya indirimli yapar.
+- **Mavi-Beyaz Tramvaylar:** Zürih’in simgesidir. Şehrin her noktasına ağ gibi yayılmışlardır. Duraklardaki ekranlarda tramvayın kaç saniye sonra geleceğini görebilirsiniz. Biletinizi binmeden önce duraktaki makinelerden almanız şarttır; araç içinde bilet satılmaz.
+- **Limmat ve Göl Tekneleri:** Ulaşımı keyfe dönüştürmek isterseniz nehir üzerinden işleyen tekneleri (Limmatschifffahrt) kullanın. Özellikle yaz aylarında şehri suyun üzerinden izlemek harikadır. Standart ulaşım biletleriniz bu teknelerde de (ilgili bölge/zone içindeyse) geçerlidir.
+- **SBB Mobile Uygulaması:** İsviçre’de ulaşımın kutsal kitabıdır. Gideceğiniz yeri yazdığınızda size hangi perondan hangi trenin kalkacağını, gecikme olup olmadığını saniyesi saniyesine gösterir. Biletinizi uygulama üzerinden de kolayca alabilirsiniz.
+
+**💡 Bilmenizde Fayda Var:** Zürih’te bilet kontrolleri "sivil" görevliler tarafından yapılır ve oldukça ciddidir. "Biletimi okutmayı unuttum" gibi mazeretler burada pek işlemez, bu yüzden biletinizden veya aktif dijital kartınızdan her zaman emin olun.
+
+## 🏛️ Şehrin Hafızası: Görülmesi Gereken İkonik Duraklar
+
+Zürih dışarıdan bakınca sadece bir finans merkezi gibi duruyor olabilir ama sokaklarına daldığınızda o ciddi maskesinin nasıl düştüğünü göreceksiniz. Bir yanda Orta Çağ’ın sessiz dar sokakları, diğer yanda ise eski fabrikaların dönüşümüyle ortaya çıkan o havalı, modern yüzü... Şehri gerçekten tanımak istiyorsanız, banka vitrinlerinden başınızı kaldırıp şu duraklara bir göz atmanız yeterli:
+
+- [Grossmünster](search:Grossmünster): Zürih denince akla gelen o meşhur ikiz kuleli kilise. Şehrin silüetinin en önemli parçası olan bu yapı, Reform hareketinin de merkeziydi. Kulelerinden birine (Karlsturm) tırmanıp şehri ve gölü tepeden izlemek, Zürih’te yapabileceğiniz en iyi şeylerden biri. Not: Kuleye çıkış biletlidir ve yaklaşık 187 dar basamağı göze almanız gerekir, ancak manzara o yorgunluğa kesinlikle değiyor.
+- [Fraumünster](search:Fraumünster): Limmat Nehri’nin hemen karşı kıyısında yer alan bu kiliseyi özel kılan şey içindeki vitraylar. Marc Chagall tarafından tasarlanan bu renkli pencereler, güneş ışığı içeri süzüldüğünde içeriyi adeta bir sanat galerisine çeviriyor. Not: İçeriyi gezmek ve Chagall’ın ustalığını görmek için bilet almanız gerekiyor; ayrıca içeride fotoğraf çekmenin yasak olduğunu unutmayın.
+- [Lindenhof](search:Lindenhof): Şehrin tam ortasında, tepelik bir alanda yer alan bu meydan, adeta Zürih’in en huzurlu "balkonu". Bir zamanlar Roma kalesi olan bu noktadan Eski Şehir’i (Altstadt) ve nehri izleyebilir, dev satranç oynayan lokallere eşlik edebilirsiniz. Burası gün batımında kahvenizi alıp oturmak için en iyi noktalarınızdan birisi olacak.
+- [Bahnhofstrasse](search:Bahnhofstrasse): Dünyanın en lüks ve pahalı alışveriş caddelerinden biri. İstasyonun hemen önünden başlar ve göle kadar uzanır. Bir şey satın almasanız bile vitrin turu yapmak ve o "sessiz lüks" atmosferini koklamak Zürih’in olmazsa olmazıdır. Ayaklarınız yorulursa 6 veya 11 numaralı tramvaya binerek caddeyi boydan boya geçebilirsiniz.
+- **Zürih Gölü (Zürichsee):** Şehrin asıl nefes alma noktası. Kıyısında yürüyüş yapmak, kuğuları beslemek ya da yazın bir tekne turuna çıkmak, şehre neden herkesin hayran olduğunu anlamanızı sağlar. Yazın giderseniz göle giren lokalleri izlemek ya da Enge tarafında küçük bir mola vermek çok keyiflidir.
+
+- [Kunsthaus Zürich](search:Kunsthaus Zürich): Sanatseverler için tam bir merkez. İsviçre’nin en önemli sanat müzesidir ve Giacometti’den Picasso’ya kadar çok geniş bir koleksiyona ev sahipliği yapar. Modern ve klasik sanat burada kusursuz bir uyum içindedir. Not: Giriş biletlidir ancak Çarşamba günleri kalıcı koleksiyonun ücretsiz olduğunu aklınızda bulundurun.
+- [Im Viadukt & Frau Gerolds Garten](search:Im Viadukt & Frau Gerolds Garten): Zürih West bölgesindeki bu noktalar, şehrin endüstriyel dönüşümünün simgesi. Eski bir tren viyadüğünün altına dizilen dükkanlar ve hemen yanındaki o salaş-havalı açık hava bahçesi, Zürih’in modern ve özgür yüzünü temsil ediyor. Viadukt içindeki kapalı pazarda (Markthalle) taze bir şeyler atıştırmadan dönmeyin.
+- **İsviçre Ulusal Müzesi (Landesmuseum):** Hemen ana istasyonun yanında, dev bir şatoyu andıran bu bina İsviçre tarihini keşfetmek için en iyi yer. Hem mimarisiyle hem de içindeki sergilerle sizi bir zaman yolculuğuna çıkarıyor. Not: İçeriyi gezmek biletlidir ancak dışarıdaki avlusunda dolaşmak ve mimariyi incelemek isterseniz tamamen ücretsizdir.
+
+
+## 🍴 Şehrin Lezzet Haritası: Peynir, Çikolata ve Daha Fazlası
+
+Zürih mutfağı, geleneksel Alp lezzetleri ile modern dünya mutfağının birleştiği dev bir sofra gibi. Burada sadece ağır peynirler yok; dünyanın en eski vejetaryen restoranından ayaküstü yenen efsanevi sosislere kadar her damağa hitap eden bir çeşitlilik var. Şehri gerçek bir lokal gibi tatmak istiyorsanız şu listeye bir göz atın:
+
+- **Zürcher Geschnetzeltes:** Zürih’in imza yemeği. Mantarlı ve kremalı şahane bir sosla servis edilen dana eti dilimleri... Yanında mutlaka çıtır çıtır bir Rösti (İsviçre usulü patates rendesi) ile gelir. Bunu en iyi nerede yerim derseniz, Zeughauskeller gibi tarihi bir atmosferi ya da biraz daha şık bir yer arıyorsanız Kronenhalle’yi tercih edebilirsiniz.
+
+- **Luxemburgerli (Sprüngli):** Zürih’e gelip de Paradeplatz’daki o meşhur Sprüngli vitrinine bakmamak olmaz. Makaronun daha küçük ve çok daha hafif bir versiyonu olan bu minik lezzetler, şehrin en tatlı simgesi. Vanilyalıdan şampanyalıya kadar onlarca çeşidi var ama klasiklerden şaşmayın derim.
+
+- [Sternen Grill’de Bratwurst](search:Sternen Grill’de Bratwurst): Zürih’te hızlı ve çok lezzetli bir öğle yemeği mi arıyorsunuz? O zaman istikamet Bellevue’deki Sternen Grill. Buranın St. Galler Bratwurst’u tam bir kült. Yanında verdikleri o acı hardalı dikkatli sürün; genelde "Zürih’in ateşi" olarak bilinir. Sosisinizi alıp göl kenarında oturmak en büyük keyiflerden biri.
+- [Hiltl - Dünyanın En Eski Vejetaryeni](search:Hiltl - Dünyanın En Eski Vejetaryeni): Et seven biri olsanız bile Hiltl’e bir şans vermelisiniz. 1898’den beri açık olan bu restoran, vejetaryen mutfağının ne kadar yaratıcı olabileceğini kanıtlıyor. Açık büfe sistemiyle istediğiniz her şeyi deneyebilirsiniz.
+- **Läderach Çikolataları:** Çikolata konusunda İsviçre’nin zirvesi diyebiliriz. Özellikle dükkanın önündeki dev plakalar halindeki "FrischSchoggi" (taze çikolata) parçalarından karışık bir paket yaptırın. İçindeki fındıkların tazeliği ve çikolatanın kalitesi sizi başka bir dünyaya götürecek.
+
+- **Peynir Fondü ve Raclette:** Zürih’te kışın veya serin bir akşamda yapılacak en iyi şey. Fribourger Fondue-Stübli gibi daha lokal ve samimi yerlerde o meşhur peynir kokusuna teslim olun. Fondü genelde iki kişiyle paylaşılır; ekmeği peynire batırırken düşürmemeye dikkat edin, bu bir İsviçre geleneğidir!
+
+- **Birchermüesli:** Çoğu kişi bilmez ama bu meşhur kahvaltılık Zürih’te bir doktor tarafından (Maximilian Bircher-Benner) icat edilmiştir. Yulaf, meyve ve yoğurdun en taze hali. Sabahları herhangi bir fırından veya kafeden taze yapılmış bir kase alıp güne sağlıklı bir Zürihli gibi başlayabilirsiniz.
+
+- **Tirggel (Geleneksel Bal Kurabiyesi):** Zürih’in en nostaljik atıştırmalığı diyebiliriz. İncecik, sert ve ballı bu bisküvilerin üzerinde şehrin eski sahneleri nakış gibi işlenmiş oluyor. Önemli bir tüyo: Isırarak yemeye çalışmayın, dişimizi seviyoruz! Bunun yerine ağzınızda yavaşça eriterek o yoğun bal tadını çıkarın; paketleri de o kadar şık ki eve dönerken harika bir hediye olabilir.
+
+- **Zürcher Öpfelchüechli:** Serin bir Zürih akşamında içinizi ısıtacak o "anne eli değmiş" tatlıyı arıyorsanız, işte bu o! Elma halkalarının çıtır bir hamurla kızartılıp üzerine bolca sıcak vanilya sosu dökülmesiyle servis ediliyor. Tam bir konfor yiyeceği; özellikle nehir kenarındaki kafelerde bir mola vermek için harika bir bahane.
+
+- **İsviçre Şarapları:** İsviçre şarapları çok fazla ihraç edilmez, bu yüzden onları burada tatmak bir ayrıcalıktır. Özellikle Zürih Gölü çevresindeki bağlarda üretilen beyaz şarapları (örneğin Räuschling) balık yemeklerinin yanında mutlaka deneyin.
+
+**💡 Lokal İpuçları:**
+- **Rezervasyon Şart:** Zürih’te akşam yemeği ciddiye alınır. Popüler restoranlar için (özellikle hafta sonu) mutlaka birkaç gün önceden rezervasyon yaptırın.
+- **Erken Kapanış:** Marketler (Coop/Migros) hafta içi 20:00'de, Cumartesi ise 18:00-19:00 gibi kapanır. Pazar günleri ise ana istasyon (Zürich HB) dışındaki neredeyse tüm dükkanlar kapalıdır.
+
+- **Mutfak Saatleri:** Restoranların mutfakları genelde 21:30'dan sonra sipariş almayı bırakır. Geç kalırsanız aç kalma riskiniz yüksek, elinizi çabuk tutun!
+
+## 🤫 Şehrin Fısıldadıkları: Lokal Sırlar
+
+Zürih, ilk bakışta her şeyin kusursuz bir düzen içinde olduğu, biraz mesafeli bir şehir izlenimi verebilir. Ancak o sessiz ve ciddi caddelerin altında devasa altın kasaları, sıradan görünen binaların içinde ise paha biçilemez sanat eserleri gizli. Lokallerin bildiği bu küçük detaylar, Zürih’in o parıltılı maskesinin ardındaki gerçek ve samimi karakteri ortaya çıkarıyor.
+
+- **Polis Merkezindeki Renkli Sır (Blüemlihalle):** Bir polis merkezinin şehrin en estetik noktalarından biri olabileceği aklınıza gelir miydi? Augusto Giacometti tarafından boyanan bu salon, tavanından duvarlarına kadar canlı çiçek desenleriyle dolu olduğu için lokaller buraya "Çiçekli Salon" diyor. Giriş tamamen ücretsiz; kapıdaki görevliye sadece kimliğinizi gösterip bu saklı sanat şölenine dahil olabilirsiniz.
+- **Ayaklarınızın Altındaki Servet:** Bahnhofstrasse’de yürürken sadece vitrinlere odaklanmayın; bastığınız yerin metrelerce altında dünyanın en büyük altın rezervlerinden bazılarının saklandığı dev kasalar var. Zürih’in "paranın başkenti" olduğu efsanesi, burada kelimenin tam anlamıyla ayaklarınızın altından yükseliyor.
+
+- **Gündüz Havuz, Gece Bar (Badi Kültürü):** Zürih’te nehir ve göl kenarındaki açık havuzlara “Badi” deniyor ve buralar şehrin sosyal kalbi. Asıl güzel detay ise şu: Örneğin Frauenbadi Stadthausquai gündüzleri sadece kadınlara özel bir havuzken, güneş battığında Barfussbar adında şahane bir mekâna dönüşüyor. Ayakkabıları çıkarıp çıplak ayakla nehir kenarında içkinizi yudumlamak ise gerçek bir Zürih klasiği.
+- **Dadaizmin Doğuşu (Cabaret Voltaire):** Eski Şehir’in dar bir ara sokağında, dünya sanat tarihini değiştiren Dadaizm akımı doğdu. 1916’da kurulan bu mekan, bugün hala o çılgın ve özgür ruhu koruyan bir kafe ve performans alanı. Sanatın kurallara başkaldırdığı o fısıltıyı burada duyabilirsiniz.
+- **Gizli Bir Manzara Noktası (Jules Verne Bar):** Şehri tepeden izlemek için her zaman kalabalık seyir teraslarına gitmenize gerek yok. Brasserie Lipp’in içindeki o biraz "gizli" asansörle çıkılan Jules Verne Panorama Bar, size bir kadeh eşliğinde Zürih’in 360 derecelik en iyi manzarasını sunacak.
+- **Ücretsiz Bisiklet (Züri rollt):** Zürih’in pahalı bir şehir olduğu doğru ama harika bir ulaşım yolu tamamen ücretsiz! Şehrin belirli noktalarındaki "Züri rollt" istasyonlarından, sadece kimliğinizi ve küçük bir depozito bırakarak gün boyu bisiklet kiralayabilir ve şehri bir lokal gibi pedallayarak gezebilirsiniz.
+
+## ✅ Mutlaka Yapmadan Dönme: Zürih Checklist
+
+- **Lindenhof’ta Gün Batımını Yakalayın:** Şehrin en huzurlu terasında, elinizde bir kahveyle nehrin ve Eski Şehir’in o turuncu ışıklar altındaki halini izlemeden dönmeyin.
+
+- **Karlsturm’un 187 Basamağını Tırmanın:** Grossmünster’in kulesinden şehre ve Alpler'e 360 derece bakmak, Zürih’e "yukarıdan" merhaba demenin en iyi yolu.
+
+- **Sternen Grill’de Sosis ve "Ateşli" Hardalı Deneyin:** Bir lokal gibi kuyruğa girin, Bratwurst’unuzu alın ve hardalı sürerken dikkatli olun; Zürih’in en meşhur "street food" ritüeli budur.
+
+- **Sprüngli’de Luxemburgerli Tadımı Yapın:** Paradeplatz’daki o şık dükkana girin ve makaronun en hafif hali olan bu minik lezzetlerle kendinizi şımartın.
+- **Limmat’ın Serin Sularına Atlayın:** Eğer yaz mevsimindeyseniz, nehirdeki bir "Badi"ye (nehir havuzu) gidin. Akşamında ise Barfussbar’da ayakkabıları atıp çıplak ayakla geceye karışın.
+
+- **Uetliberg Dağı’na Çıkın:** Şehir merkezinden sadece 20 dakikalık bir tren yolculuğuyla Zürih’in "zirvesine" ulaşın; göl ve şehir manzarasını bir de buradan görün.
+
+- **Freitag Kulesi’ni ve Zürich West’i Keşfedin:** Geri dönüştürülmüş konteynerlerden yapılan o dev kuleye tırmanın ve Zürih’in endüstriyel şıklığına şahit olun.
+
+- **Polybahn ile Kısa Bir Yolculuk Yapın:** O ikonik kırmızı nostaljik trene binip üniversite terasına çıkın; hem çok keyifli hem de harika fotoğraflar veriyor.
+- **Hürlimann Thermalbad’da Çatı Katı Keyfi Yapın:** Eski bir bira fabrikasından dönüştürülen bu termal havuzun çatı katında, sıcak suların içinde tüm şehri izlemek unutulmaz bir deneyim.
+
+- **Läderach’tan Taze Çikolata Paketi Yaptırın:** Vitrindeki dev çikolata plakalarından gözünüze kestirdiğiniz bir karışımı yaptırın ve gerçek İsviçre çikolatasının farkını anlayın.
+
+- **Göl Üzerinde Kısa Bir Gemi Turu Yapın:** Ulaşım kartınızı kullanarak bir "Limmat" teknesine binin ve şehri bir de suyun ortasından izleyerek huzuru bulun.
+
+- **Cabaret Voltaire’de Bir Kahve Molası Verin:** Sanatın kurallarının yıkıldığı o tarihi atmosferde oturup Dadaizm ruhunu solumadan şehirden ayrılmayın.
+- **Zürih Gölü Bağlarından Gelen Şarapları Tadın:** Şehrin hemen kıyısındaki yamaçlarda yetişen, özellikle bölgeye özgü Räuschling üzümünden yapılan o taze beyaz şarapları bir kadeh de olsa denemeden dönmeyin; İsviçre dışına pek çıkmayan bu lezzet gerçek bir yerel ayrıcalıktır.
+''';
+
+  static const _zurihEN = '''# Zurich: Where Order and Life Find Perfect Balance
+
+**Quick Glimpse:** Forget the "cold banking city" image that usually comes to mind when you think of Zurich. Yes, it’s a global financial hub and one of the world's wealthiest spots, but Zurich is also full of energy, sitting right where the Limmat River meets the blue lake. The city perfectly blends its winding medieval streets (Altstadt) with the industrial vibe of Zurich West, where old factories have been turned into art galleries, cool boutiques, and non-stop nightclubs. In Zurich, luxury isn't about flashy logos; it’s found in the trams arriving exactly on time, the clean water flowing from historic fountains on every corner, and the "quiet luxury" feel of Bahnhofstrasse.
+
+## 📅 Timing is Everything: Which Season is Yours?
+
+In Zurich, time flows not just according to the calendar, but according to the city's changing energy. In this city where the blue of the lake tells a different story every season, when you visit depends on what kind of experience you are looking for. Whether you want to cool off by the river or enjoy winter in the glowing streets, Zurich offers a rhythm for every period.
+
+- **Spring (March - May):** The best time to watch the city wake up. Don’t miss the Sechseläuten festival in April, where locals burn a giant snowman (Böögg) to welcome spring. The weather might still be crisp, but the parks are in full bloom.
+- **Summer (June - August):** Zurich at its liveliest. Everyone is by the lake or swimming in the riverside pools called "Badis." In August, the Street Parade turns the entire city into one massive party.
+- **Autumn (September - November):** Perfect for hiking and those seeking a quieter vibe. It’s the ideal time to head up Mount Uetliberg for a panoramic view of the changing autumn colors.
+- **Winter (December - February):** A true postcard setting. The streets are filled with lights, and the scent of hot chocolate and fondue is everywhere. Plus, you’re only an hour away from world-class ski resorts.
+
+## 🏠 Where to Stay: Neighborhood Guide
+
+Zurich may seem like a small city at first glance; however, you can find yourself walking through medieval streets in one neighborhood and just a few minutes later among modern galleries and cafés. Wherever you stay, the view you wake up to and the rhythm of your day naturally shift with the area you’re in. Would you rather wake up to the quiet of historic streets, or be right in the middle of the energy of creative, modern neighborhoods? In Zurich, there’s always a corner to match every mood.
+
+- **Altstadt (Old Town):** The perfect spot for those who want to wake up in the heart of history. Here, you'll find narrow streets, old buildings with river views, and the comfort of being within walking distance of everything. As you wander the car-free streets of the Niederdorf area, you’ll encounter medieval details at every corner and enjoy the riverside restaurants in the evening.
+
+- **Zurich West (District 5):** Once an industrial hub, this area is now the city's coolest and most modern spot. It’s filled with design hotels, art galleries, and trendy nightclubs. With open-air spots like Frau Gerolds Garten and iconic structures like the Freitag Tower, you’ll fully experience the industrial chic of modern Zurich.
+
+- [Enge & Seefeld](search:Enge & Seefeld): These are quieter, upscale neighborhoods known for their proximity to the lake. Ideal if you want to take morning walks by the water and stay in a place that offers "quiet luxury." The vast parks along the lakeside and peaceful stops like the China Garden make this area the city's most serene escape.
+- [Langstrasse (District 4)](search:Langstrasse (District 4): Zurich's most multicultural district that never sleeps. While it once had a "rough" reputation, it now hosts the city's most colorful restaurants and bars. Where designer workshops meet vibrant nightlife, this neighborhood represents the city’s most authentic and "unfiltered" side.
+- **Wiedikon (District 3):** One of the city’s most popular districts in recent years and a true "hipster" haven. A great alternative for those looking for a more local experience. With local bakeries, boutique cafes, and neighborhood bars around Idaplatz, it’s the perfect place to feel like a real Zurich local.
+
+
+## 🚲 Getting from A to B: Move Like a Local
+
+Transport in Zurich is just like a Swiss watch; it’s never late and gets you exactly where you need to be on time. While the city center is very walkable, hopping on the famous blue-and-white trams is part of the true Zurich experience. Wherever you’re headed, this perfectly timed system ensures you can explore the city without any confusion.
+
+- **From the Airport to the City (Just 10 Minutes):** Zurich Airport (ZRH) is very close to the center. Follow the "Bahn" signs to the lower level, where you'll find trains heading to the main station, Zürich HB. Trains depart every 5-10 minutes, and the trip takes only 10 minutes.
+- **Zürich Card (The Smart Choice):** If you plan on exploring the city intensely for 24 or 72 hours, this card is a lifesaver. It covers trams, buses, trains, and even river boats. Plus, it offers free or discounted entry to many museums.
+- **The Blue-and-White Trams:** They are the icons of Zurich. The network reaches every corner of the city. You can see exactly how many seconds until the next tram arrives on the screens at each stop. You must buy your ticket from the machine at the stop before boarding; tickets are not sold on the vehicles.
+- **Limmat and Lake Boats:** If you want to turn transport into a scenic tour, use the river boats (Limmatschifffahrt). Watching the city from the water, especially in summer, is fantastic. Your standard transport tickets are also valid on these boats (as long as they are within the relevant zone).
+- **SBB Mobile App:** The ultimate guide for transport in Switzerland. Enter your destination, and it shows you exactly which platform your train departs from and any delays, second by second. You can also easily buy your tickets through the app.
+
+💡 Good to Know Ticket inspections in Zurich are conducted by "plainclothes" officers and are very strict. Excuses like "I forgot to validate" don't fly here, so always make sure you have a valid ticket or an active digital pass.
+
+## 🏛️ The City's Memory: Iconic Landmarks Must-See
+
+From the outside, Zurich might look like just a financial center, but as you dive into its streets, you'll see how that serious mask falls away. On one side, you have the quiet, narrow streets of the Middle Ages; on the other, the cool, modern face emerging from the transformation of old factories. If you really want to get to know the city, just lift your head from the bank windows and take a look at these spots:
+
+- [Grossmünster](search:Grossmünster): The famous twin-towered church that instantly comes to mind when you think of Zurich. As the most iconic part of the city's skyline, this structure was also the heart of the Reformation movement. Climbing one of its towers (Karlsturm) to watch the city and the lake from above is one of the best things you can do in Zurich. Note: Tower access is ticketed and requires braving about 187 narrow steps, but the view is definitely worth the effort.
+- [Fraumünster](search:Fraumünster): Located right on the opposite bank of the Limmat River, what makes this church truly special is the stained glass inside. These colorful windows, designed by Marc Chagall, turn the interior into something resembling an art gallery when sunlight filters through. Note: You need a ticket to tour the inside and see Chagall’s mastery; also, remember that taking photos inside is prohibited.
+- [Lindenhof](search:Lindenhof): This hilltop square right in the middle of the city is almost like Zurich’s most peaceful "balcony." From this spot, which was once a Roman fortress, you can watch the Old Town (Altstadt) and the river, or join locals playing giant chess. It will surely be one of your favorite spots to grab a coffee and sit during sunset.
+- [Bahnhofstrasse](search:Bahnhofstrasse): One of the world’s most luxurious and expensive shopping streets. It starts right in front of the station and stretches all the way to the lake. Even if you don't buy anything, window shopping and soaking in that "quiet luxury" atmosphere is a Zurich essential. If your feet get tired, you can hop on tram 6 or 11 to traverse the entire street.
+- [Lake Zurich (Zürichsee)](search:Lake Zurich (Zürichsee): The city’s true breathing space. Walking along its shores, feeding the swans, or taking a boat tour in the summer helps you understand why everyone is in love with this city. If you visit in the summer, it's very enjoyable to watch locals jumping into the lake or take a small break at the Enge side.
+- [Kunsthaus Zürich](search:Kunsthaus Zürich): A complete hub for art lovers. It is Switzerland’s most important art museum and hosts an extensive collection ranging from Giacometti to Picasso. Modern and classical art are in perfect harmony here. Note: Entrance is ticketed, but keep in mind that the permanent collection is free on Wednesdays.
+- [Im Viadukt & Frau Gerolds Garten](search:Im Viadukt & Frau Gerolds Garten): These spots in the Zurich West district are symbols of the city’s industrial transformation. The shops lined under an old train viaduct and the shabby-cool open-air garden right next to it represent Zurich’s modern and free face. Don't leave without grabbing a snack at the covered market (Markthalle) inside the Viadukt.
+- **Swiss National Museum (Landesmuseum):** Located right next to the main station, this building—resembling a giant castle—is the best place to discover Swiss history. It takes you on a time-travel journey with both its architecture and the exhibitions inside. Note: Touring the interior is ticketed, but if you just want to walk around the outdoor courtyard and examine the architecture, it is completely free.
+
+
+## 🍴 A Taste of the City: Cheese, Chocolate, and More
+
+Eating in Zurich is more than just filling your stomach; it’s about joining the city’s refined and organized spirit. Yes, Zurich might have a reputation for being "expensive," but once you dive into the right side streets or take a break at iconic spots by the river, you realize why every bite is worth it.
+
+- **Zürcher Geschnetzeltes:** The signature dish of Zurich. Sliced veal served in a legendary mushroom and cream sauce... It always comes with a side of crispy Rösti (Swiss-style grated potatoes). If you’re wondering where to find the best version, try the historic atmosphere of Zeughauskeller or the more upscale Kronenhalle.
+
+- **Luxemburgerli (Sprüngli):** You can't visit Zurich without staring at the famous Sprüngli windows at Paradeplatz. These tiny treats—a smaller, much lighter version of macarons—are the city's sweetest symbol. They come in dozens of flavors from vanilla to champagne, but I’d stick to the classics.
+
+- [Bratwurst at Sternen Grill](search:Bratwurst at Sternen Grill): Looking for a quick and delicious lunch? Head to Sternen Grill at Bellevue. Their St. Galler Bratwurst is a cult classic. Be careful with the spicy mustard they serve on the side; it’s known as "the fire of Zurich." Grabbing your sausage and sitting by the lake is a top-tier local joy.
+- [Hiltl - The World’s Oldest Vegetarian](search:Hiltl - The World’s Oldest Vegetarian): Even if you’re a meat lover, give Hiltl a chance. Open since 1898, this restaurant proves how creative vegetarian cuisine can be. With their buffet system, you can try a bit of everything.
+- **Läderach Chocolate:** This is the pinnacle of Swiss chocolate. Make sure to get a mixed bag of "FrischSchoggi" (fresh chocolate) broken from those giant slabs in the window. The freshness of the nuts and the quality of the chocolate will transport you to another world.
+
+- **Cheese Fondue and Raclette:** The best thing to do in Zurich on a winter day or a chilly evening. Surrender to that famous cheese aroma at local and cozy spots like Fribourger Fondue-Stübli. Fondue is meant to be shared; just try not to drop your bread in the pot—that’s a classic Swiss tradition!
+
+- **Birchermüesli:** Many people don’t know this, but this famous breakfast was invented in Zurich by a doctor (Maximilian Bircher-Benner). It’s the freshest mix of oats, fruit, and yogurt. Grab a freshly made bowl from any bakery or cafe to start your day like a healthy local.
+
+- **Tirggel (Traditional Honey Biscuits):** Zurich’s most nostalgic snack. These thin, hard, honey-infused biscuits are beautifully embossed with historical city scenes. A pro tip: don’t try to bite them—we value our teeth! Instead, let them slowly melt in your mouth to savor the intense honey flavor. Their packaging is so elegant they make for a perfect souvenir to take home.
+
+- **Zürcher Öpfelchüechli:** If you’re looking for that "homemade" dessert to warm you up on a cool Zurich evening, this is it! It’s essentially apple rings fried in a crispy batter and served with a generous amount of warm vanilla sauce. Pure comfort food; it's the perfect excuse for a cozy break at a riverside cafe.
+
+- **Swiss Wines:** Swiss wines aren't exported much, so tasting them here is a privilege. Specifically, try the white wines (like Räuschling) produced in the vineyards around Lake Zurich, especially alongside fish dishes.
+
+**💡 Local Tips:**
+- **Reservations are a Must:** Dinner is serious business in Zurich. For popular restaurants, make sure to book a few days in advance, especially on weekends.
+
+- **Early Closing:** Markets (Coop/Migros) close at 8:00 PM on weekdays and as early as 6:00-7:00 PM on Saturdays. On Sundays, almost all shops are closed except for those at the main station (Zürich HB).
+
+- **Kitchen Hours:** Most restaurant kitchens stop taking orders after 9:30 PM. If you're looking for a late dinner, you might go hungry, so plan accordingly!
+
+
+## 🤫 Whispers of the City: Local Secrets
+
+At first glance, Zurich might seem like a textbook-perfect city—orderly, quiet, and perhaps a little distant. However, beneath those silent and serious streets lie massive gold vaults, and inside seemingly ordinary buildings, priceless works of art are tucked away. These small details, known mainly to locals, reveal the true and authentic character hidden behind Zurich’s polished mask.
+
+- **A Colorful Secret in the Police Station (Blüemlihalle):** Would you ever guess that a police station could be one of the city’s most aesthetic spots? Painted by Augusto Giacometti, this hall is covered from ceiling to wall in vibrant floral patterns, which is why locals call it the "Flower Hall" (Blüemlihalle). Entry is completely free; just show your ID to the officer at the door to step into this hidden artistic sanctuary.
+- **The Fortune Beneath Your Feet:** As you stroll down Bahnhofstrasse, don’t just focus on the luxury windows; meters below where you stand are massive vaults housing some of the world’s largest gold reserves. The legend of Zurich as the "capital of money" literally resonates from beneath your feet here.
+
+- **Pool by Day, Bar by Night (Badi Culture):** In Zurich, the riverside and lakeside pools are called “Badis,” and they are the true social heart of the city. The best part is this: For example, Frauenbadi Stadthausquai is a women-only pool by day, but as soon as the sun sets, it transforms into a wonderful spot called Barfussbar. Kicking off your shoes and sipping a drink barefoot by the river is a true Zurich classic.
+- **The Birth of Dadaism (Cabaret Voltaire):** In a narrow alley in the Old Town, the Dadaism movement that shook the foundations of art history was born. Founded in 1916, this spot remains a cafe and performance space that preserves its original, rebellious, and free spirit. You can still hear the whisper of art defying the rules right here.
+- **A Hidden Skyline View (Jules Verne Bar):** You don’t always need to head to the crowded viewpoints to see the city from above. Accessible via a somewhat "secret" elevator inside Brasserie Lipp, the Jules Verne Panorama Bar will offer you one of the best 360-degree views of Zurich over a glass of something nice.
+- **Explore on Two Wheels for Free (Züri rollt):** While Zurich has a reputation for being pricey, one of the best ways to get around is actually free! At the "Züri rollt" stations located across the city, you can rent a bike for the day just by leaving your ID and a small deposit, allowing you to pedal through the city like a local.
+
+
+## ✅ The Zurich Checklist: Don't Leave Without Doing These
+
+- **Catch the Sunset at Lindenhof:** Don’t leave without watching the river and the Old Town glow under the orange light from the city’s most peaceful terrace.
+
+- **Climb the 187 Steps of Karlsturm:** Looking at the city and the Alps from the top of the Grossmünster towers is the best way to say "hello" to Zurich from above.
+- Try the [Bratwurst and "Fiery" Mustard at Sternen Grill](search:Try the Bratwurst and "Fiery" Mustard at Sternen Grill): Join the local queue at Bellevue, grab your Bratwurst, and be careful with that mustard—it’s Zurich’s ultimate street food ritual.
+- **Taste the Luxemburgerli at Sprüngli:** Step into the elegant shop at Paradeplatz and treat yourself to these tiny, airy delights—the lighter version of macarons.
+- **Jump into the Limmat River:** If it's summer, visit a "Badi" (river pool). In the evening, head to Barfussbar, kick off your shoes, and enjoy the night barefoot like a true local.
+
+- **Head up to Mount Uetliberg:** Take a 20-minute train ride from the center to reach the "Top of Zurich" for a breathtaking panoramic view of the lake and the city.
+
+- **Explore the Freitag Tower and Zurich West:** Climb the tower made of recycled shipping containers and witness the industrial chic side of modern Zurich.
+
+- **Ride the Polybahn:** Hop on the iconic red nostalgic funicular up to the university terrace; it’s a quick, charming trip with great photo ops.
+
+- **Relax at Hürlimann Thermalbad’s Rooftop Pool:** Soak in the warm mineral waters of this repurposed brewery while overlooking the entire city skyline—an unforgettable experience.
+
+- **Get a Bag of "FrischSchoggi" from Läderach:** Choose your favorites from the giant slabs of fresh chocolate in the window and taste the pinnacle of Swiss chocolate-making.
+
+- **Take a Short Boat Trip on the Lake:** Use your transport pass to board a "Limmat" boat and find serenity while watching the city from the water.
+- **Have a Coffee Break at Cabaret Voltaire:** Soak in the history where the rules of art were broken and breathe in the spirit of Dadaism before you leave.
+- **Sip on Wines from Lake Zurich Vineyards:** Don’t leave without trying at least a glass of the fresh white wine made from the local Räuschling grapes grown on the slopes right by the city; since these wines are rarely exported, it’s a true local privilege.
+''';
+
+  // CENEVRE
+  static const _cenevreTR = '''# Cenevre: Göl Kıyısında Saat Gibi İşleyen Bir Şehir
+
+**Hızlı Bakış:** Cenevre’ye ilk adımınızı attığınızda sizi bir şehirden ziyade, çok iyi işleyen devasa bir saat mekanizması karşılayacak. Burası düzenin, diplomasinin ve "bağırmayan" bir lüksün başkentidir. Şehir, gölün (Lac Léman) etrafına o kadar zarif yerleşmiştir ki, yürürken kendinizi bir kartpostalın içinde sanabilirsiniz. Ancak Cenevre’yi sadece bankalardan ve lüks saat vitrinlerinden ibaret sanmak büyük bir hata olur. Şehrin asıl karakteri, o meşhur fıskiyenin (Jet d'Eau) serinliğinde, göl kenarında sarı teknelerle (Mouettes) tur atan yerellerin dinginliğinde ve Eski Şehir'in (Vieille Ville) o daracık taş sokaklarında saklıdır.
+
+**Cenevre’ye dair bilmeniz gereken en temel konu şudur:** Şehir, mahremiyete ve sessizliğe büyük değer verir. Akşamları sokaklarda büyük bir metropol gürültüsü bulamazsınız; hayat erken biter, dükkanlar kapanır ve şehir kendi huzurlu kabuğuna çekilir. Bu yüzden siz de bu ritme hazırlıklı gelmelisiniz. Pazar günlerinin "mutlak sessizlik" günü olduğunu, neredeyse tüm dükkanların kapandığını bilmek planınızı kurtaracaktır. Bir de küçük bir bütçe dostu bilgi; Cenevre çok pahalı bir şehir olabilir ancak musluklarından akan suyun tadı, markette satılan en pahalı sudan bile daha iyidir. Mataranızı yanınızdan ayırmayın ve bu şehrin sadeliğindeki kaliteyi hissetmeye odaklanın.
+
+## 📅 Takviminizi Ayarlayın: Hangi Mevsim Sizin?
+
+Cenevre’de zaman yalnızca kolunuzdaki saatlerde değil, gölün üzerindeki yansımalarda da tıkır tıkır işler. Şehri ne zaman ziyaret edeceğiniz ise göl kenarında güneşlenmek mi, yoksa karlı Alp manzaralarına karşı fondü eşliğinde keyif yapmak mı istediğinize bağlıdır.
+
+- **İlkbahar (Mart - Mayıs):** Cenevre’nin en "taze" halidir. Jardin Anglais’deki çiçek saatinin rengarenk açtığı, parkların canlandığı bu dönemde hava hala biraz serindir. Eğer kalabalıklardan uzak durup şehrin o vakur sokaklarında rahatça yürümek isterseniz bahar ayları en doğru tercihtir. Ancak meşhur "Bise" rüzgarına karşı yanınıza mutlaka koruyucu bir şeyler almayı unutmayın.
+- **Yaz (Haziran - Ağustos):** Şehrin tam anlamıyla gölün içine taşındığı mevsimdir. Yerel halkın Bains des Pâquis’de güneşlendiği, gölde yüzdüğü ve akşamüstleri su kenarında toplandığı bu aylar Cenevre’nin en enerjik zamanıdır. Güneşin geç batması size upuzun günler kazandırır. Ağustos ayının başında düzenlenen kutlamalarla şehir oldukça hareketlenir; ancak bu dönemde otel fiyatlarının zirve yaptığını ve turist yoğunluğunun arttığını bilmenizde fayda var.
+- **Sonbahar (Eylül - Kasım):** Cenevre aslında gizli bir bağ rotasıdır. Eylül ve Ekim aylarında şehrin hemen dışındaki bağlarda hasat dönemi başlar; bu dönemde doğanın turuncu ve sarıya bürünüşünü izlemek harikadır. Hava hafifçe puslu bir hal alsa da, göl kıyısındaki yürüyüş yolları en fotojenik hallerine bürünür. Cenevre’nin o meşhur melankolik ve şık ruhunu hissetmek için en dengeli zamandır.
+- **Kış (Aralık - Şubat):** İşte Cenevre’nin o meşhur fondü ve çikolata mevsimi. Hava gerçekten soğuk ve gri olabilir ancak Aralık ayının başında düzenlenen L'Escalade festivaliyle şehir orta çağ ruhuna bürünür; bu dönemde çikolatadan yapılan kazanların kırılması yerel bir neşedir. Eğer kayak meraklısıysanız, Cenevre’den sadece 1 saatlik mesafedeki dünyaca ünlü Alp köylerine kaçmak için kış mevsimi harika bir fırsat sunar.
+
+## 🏠Nerede Kalmalı: Mahalle Rehberi
+
+Cenevre’de nerede konaklayacağınız, sabah uyandığınızda karşınıza çıkacak manzarayı ve gününüzün nasıl geçeceğini belirleyen en önemli detaydır. Şehir küçük gibi görünse de her mahalle bambaşka bir enerji sunar. Üstelik burada konaklayanlar için harika bir "lokal kıyağı" var: Otel, hostel veya kamp alanında kaldığınız sürece şehir içi toplu taşıma için ücretsiz bir "Geneva Transport Card" alıyorsunuz; bunu mutlaka talep edin.
+
+- **Vieille Ville (Eski Şehir):** Eğer "Tarihin tam ortasında, o daracık taş sokaklarda uyanmak istiyorum" diyorsanız yeriniz burası. Şehrin en yüksek noktasıdır; dolayısıyla yokuşlara hazırlıklı olmalısınız. Burası daha çok butik otellerin, antikacıların ve şık kafelerin olduğu, akşamları ise derin bir sessizliğe bürünen oldukça nezih bir bölgedir. Romantik bir kaçamak için idealdir ama bütçenizi biraz zorlayabilir.
+
+- [Pâquis](search:Pâquis): Göl kenarına ve ana tren istasyonuna (Cornavin) en yakın bölgedir. Burası Cenevre’nin en kozmopolit, en hareketli ve biraz da "aykırı" mahallesidir. Restoran çeşitliliği açısından cennet gibidir; her bütçeye uygun seçenek bulabilirsiniz. Küçük bir not: Burası aynı zamanda şehrin "red-light" bölgesi olarak bilinir, bu yüzden akşamları çok renkli ve gürültülü olabilir. Ulaşım kolaylığı arayanlar için en pratik noktadır.
+- [Eaux-Vives](search:Eaux-Vives): Meşhur fıskiyenin (Jet d'Eau) hemen yanı başı. Daha modern, daha geniş caddeleri olan ve lokallerin yaşamayı en çok sevdiği mahallelerden biridir. Dev parklara çok yakındır; sabah göl kenarında yürüyüş yapmak için harika bir konuma sahiptir. Şık bistroları ve trend mekanlarıyla kendinizi bir Cenevreli gibi hissetmek için en iyi tercihlerden biridir.
+- [Carouge](search:Carouge): Burası Cenevre’nin içindeki "Küçük İtalya"dır. Şehirden sadece birkaç durak tramvayla uzaklaşırsınız ama kendinizi bir anda Akdeniz mimarisi içinde bulursunuz. Alçak binaları, sanatçı atölyeleri, butik dükkanları ve samimi pazarlarıyla şehrin en bohem köşesidir. Eğer büyük şehir kaosundan uzak, daha köy havasında ama stil sahibi bir yer arıyorsanız burayı çok seveceksiniz.
+- [Plainpalais](search:Plainpalais): Üniversite bölgesine yakınlığı nedeniyle daha çok öğrencilerin ve genç profesyonellerin tercih ettiği bir yerdir. Şehrin en büyük meydanlarından birine sahiptir ve burada kurulan bit pazarları meşhurdur. Diğer bölgelere göre biraz daha uygun fiyatlı konaklama seçenekleri bulabilir, Cenevre’nin o vakur duruşuna göre daha dinamik bir atmosferde kalabilirsiniz.
+
+## 🚲 A Noktasından B Noktasına: Bir Lokal Gibi Hareket Edin
+
+Cenevre’de ulaşım, tıpkı o meşhur saatler gibi hatasız ve tam zamanında işler. Şehir oldukça kompakt olduğu için birçok yere yürüyerek gidebilirsiniz ama toplu taşıma sistemini bir kez kullandığınızda konforuna hemen alışacaksınız.
+
+- **Havalimanından Şehre (Sadece 7 Dakika):** Cenevre Havalimanı (GVA), merkeze en yakın havalimanlarından biridir. Terminalden çıkmadan tren istasyonuna geçin; buradan kalkan tüm trenler şehrin ana istasyonu olan Cornavin’e uğrar. Yolculuk sadece 7-8 dakika sürer. Eskiden havalimanında bedava bilet makineleri vardı ancak bu uygulama değişti; eğer otelinizden dijital kartınız henüz gelmediyse makinelerden yaklaşık 3 CHF karşılığında bir bilet almanız gerekecek.
+- **Geneva Transport Card (En Büyük Lokal Kıyağı):** Cenevre’de bir otelde, hostelde veya kamp alanında konaklıyorsanız, konakladığınız süre boyunca tüm toplu taşıma araçlarında (tramvay, otobüs, tren ve hatta sarı tekneler) geçerli olan bu kartı ücretsiz olarak alıyorsunuz. Oteliniz size genelde dijital olarak gönderir ya da check-in sırasında verir. Bu kart cebinizdeyken Cenevre’de ulaşım sizin için tamamen ücretsiz demektir.
+- **Sarı Tekneler (Mouettes Genevoises):** Cenevre’nin en karakteristik ve keyifli ulaşım aracıdır. Gölün iki yakası (Rive Gauche ve Rive Droite) arasında vızır vızır işleyen bu küçük sarı tekneler, toplu taşıma sisteminin bir parçasıdır. Yani "Geneva Transport Card" bu teknelerde de geçerli. Yolu biraz uzatsa bile, göl havası alarak karşıya geçmek varken neden otobüse binesiniz?
+- **Tramvay ve Otobüs Ağı:** Şehrin her noktasını birbirine bağlayan tıkır tıkır bir ağdır. Duraklarda dijital ekranlardan aracın tam kaç dakika sonra geleceğini görebilirsiniz. Biletinizi duraklardaki otomatlardan alabilir ya da kredi kartınızı/telefonunuzu araç içindeki okuyuculara okutarak geçebilirsiniz (Tap & Go). Tek yön bilet yaklaşık 3 CHF civarındadır ve 60 dakika boyunca sınırsız aktarma sağlar.
+- **Yürüyüş Notları:** Eski Şehir (Vieille Ville) ve göl kenarı yürüyerek keşfedilmek için yaratılmıştır. Ancak Eski Şehir’in o dik ve taşlı yokuşlarına karşı mutlaka rahat bir ayakkabı tercih etmelisiniz.
+- **Lokal Uyarı:** Cenevre’de ulaşım araçları çok sessizdir; yüksek sesle konuşmak ya da telefonla uzun görüşmeler yapmak pek hoş karşılanmaz. Ayrıca bilet kontrolüne nadir rastlansa da yakalandığınızda ödeyeceğiniz ceza oldukça yüksektir, biletinizden veya ücretsiz kartınızdan her zaman emin olun.
+
+## 🏛️ Şehrin Hafızası: Görülmesi Gereken İkonik Duraklar
+
+Cenevre’nin hafızası; gökyüzüne fışkıran o meşhur suyun serinliği, Eski Şehir’in vakur sessizliği ve dünyanın kaderinin belirlendiği o dev binaların ağırlığıyla doludur. Burayı sadece bir "banka şehri" sanıyorsanız, bu duraklar fikrinizi tamamen değiştirecek.
+
+- [Jet d'Eau (Fıskiye)](search:Jet d'Eau (Fıskiye): Şehrin tartışmasız en büyük simgesi. Gölün ortasından gökyüzüne saniyede 500 litre su püskürten bu devasa fıskiye, aslında bir basınç tahliye valfi olarak başlamış ama bugün şehrin kalbi haline gelmiştir. Yanına kadar gidip o rüzgârla gelen su serinliğini hissedin ancak rüzgârın yönüne dikkat edin; bir anda kendinizi sırılsıklam bulabilirsiniz.
+- **Cathédrale Saint-Pierre (Aziz Pierre Katedrali):** Eski Şehir’in en yüksek noktasında yer alan bu katedral, mimari tarzların ilginç bir karışımıdır. İçerideki dinginliği yaşamak ücretsizdir ancak Cenevre ve göl manzarasını en tepeden görmek isterseniz kulelere çıkış biletlidir. O 157 basamağı göze aldığınıza değecek bir manzara sizi bekliyor.
+
+- [Reformation Wall (Reform Duvarı)](search:Reformation Wall (Reform Duvarı): Parc des Bastions’un içinde yer alan bu devasa anıt, Cenevre’nin "Protestan Roma’sı" olarak anıldığı günlerin en güçlü şahididir. Duvar boyunca yürürken devasa heykellerin yarattığı o ağırbaşlı havayı hissedeceksiniz. Parkın içinde dev satranç takımlarıyla oynayan lokalleri izlemek de buranın bir parçasıdır.
+- **Jardin Anglais ve Çiçek Saati (L'horloge fleurie):** Cenevre’nin saatçilik dünyasındaki yerini simgeleyen bu yaşayan saat, mevsime göre sürekli değişen çiçeklerle donatılır. Bir saatten çok daha fazlası; tam bir fotoğraf durağıdır.
+- **Palais des Nations (Birleşmiş Milletler Binası):** Şehrin diplomatik ağırlığını hissedeceğiniz en önemli nokta. Sadece dışarıdaki o devasa "Kırık Sandalye" (Broken Chair) heykelini görmek bile çok şey anlatır. Binanın içini gezmek ise sadece rehberli turlarla ve biletle mümkündür; güvenliği ve yoğunluğu düşünerek biletinizi mutlaka önceden online ayırtmalısınız.
+
+- **CERN (Avrupa Nükleer Araştırma Merkezi):** Şehir merkezinin biraz dışında kalsa da Prag’ın Astronomik Saati neyse, Cenevre için CERN odur. Evrenin sırlarının arandığı bu dev tesisin sergi alanlarını gezmek büyüleyicidir. Giriş ücretsizdir ancak turlar için aylar öncesinden rezervasyon yaptırmanız şarttır; aksi halde sadece "Globe" binasını dışarıdan görmekle yetinebilirsiniz.
+
+- **Patek Philippe Müzesi:** Saat tutkunuz olsun ya da olmasın, 16. yüzyıldan bugüne saatçiliğin nasıl bir sanata dönüştüğünü görmek için burası dünyadaki en iyi yerdir. İçeride binlerce nadide parça sergilenir ve  giriş biletlidir.
+
+- **Place du Bourg-de-Four:** Eski Şehir’in tam kalbi ve şehrin en eski meydanıdır. Bir zamanlar Roma forumu olan bu alan, bugün lokallerin bir kahve molası için buluştuğu en samimi noktadır. Roma tarihine dokunup bugünün ritmini izlemek için kusursuzdur.
+
+- [Bains des Pâquis](search:Bains des Pâquis): Burası Cenevre halkının gerçek yaşam alanıdır. Gölün içine doğru uzanan bu halk plajı, kışın saunasıyla yazın ise göl keyfiyle dolup taşar. Şehrin o lüks vitrininden sıyrılıp gerçek bir Cenevreli gibi hissetmek için buraya uğramalısınız. Ancak, giriş için çok küçük bir ücret alınacağını aklınızda bulundurun.
+- [Maison Tavel](search:Maison Tavel): Cenevre’nin en eski evi. Bugün şehir tarihini anlatan bir müze olarak hizmet veriyor. Orta çağda bir Cenevreli olmanın nasıl bir şey olduğunu anlamak için bu taş binanın içine mutlaka süzülmelisiniz. Kalıcı sergileri gezmek ise ücretsizdir.
+
+## 🍴 Şehrin Lezzet Haritası: Peynir, Balık ve Çikolata
+
+Cenevre mutfağı denince akla sadece çikolata gelmesi büyük bir haksızlık olur. Burası, Alp dağlarının sıcak peyniri ile gölün taze balığının buluştuğu, Fransız zarafetinin İsviçre disipliniyle harmanlandığı bir lezzet durağıdır. Cenevre’de bütçe yönetimi zordur, evet; ama doğru noktada ne yiyeceğinizi bilirseniz her kuruşun karşılığını alırsınız.
+
+- **Peynir Fondü (Fondue Moitié-Moitié):** Cenevre’nin olmazsa olmazı. Genellikle Gruyère ve Vacherin peynirlerinin karışımıyla yapılır. Lokallerin favori mekanı, Eski Şehir’deki tarihi Les Armures’dür. Eğer daha salaş ve bütçe dostu bir fondü deneyimi isterseniz, göl kenarındaki Bains des Pâquis sizi bekler.
+
+- **Entrecôte "Café de Paris":** Dünyaca ünlü o meşhur tereyağlı sosun doğduğu yer tam olarak burasıdır! Chez Boubier - Café de Paris restoranına gidip, gizli tarifiyle hazırlanan o efsanevi sosun içinde servis edilen antrikotu mutlaka denemelisiniz. Menü tektir, seçiminizi sadece etin pişme derecesi belirler.
+
+- **Filets de Perche (Göl Balığı):** Cenevre Gölü'nün (Lac Léman) en meşhur lezzetidir. Küçük levrek filetoları tereyağında kızartılır ve genellikle bol patates kızartması ile servis edilir. Göl kenarındaki restoranlarda bu balığın en tazesini bulabilirsiniz.
+
+- **Birchermüesli:** İsviçreli doktor Maximilian Bircher-Benner tarafından bir sağlık mucizesi olarak icat edilen bu kahvaltı klasiği, Cenevre sabahlarının vazgeçilmezidir. Yulaf, taze meyveler ve kuruyemişlerin süt veya yoğurtla buluştuğu bu lezzeti otellerin kahvaltılarında ya da şık fırınlarda mutlaka deneyin.
+
+- **Carac (Yeşil Tart):** İsviçre'nin Fransızca konuşulan bölgesine özgü, parlak yeşil rengiyle hemen dikkat çeken küçük bir tarttır. İçindeki yoğun çikolata ganajı ve üzerindeki yeşil şeker kaplamasıyla hem göze hem damağa hitap eder.
+
+- **Longeole:** Cenevre’ye özgü, kimyon ve anasonla aromalandırılmış geleneksel bir domuz sosisidir. Genellikle mercimek (lentilles de Genève) ile servis edilir. Şehrin yerel mutfağına gerçekten dokunmak istiyorsanız denemeniz gereken en "Cenevreli" tabaktır.
+
+- **İsviçre Çikolatası:** Cenevre sokaklarında yürürken burnunuza gelen o yoğun kakao kokusu tesadüf değil. Favarger, Du Rhône veya Auer gibi köklü butiklerden el yapımı pralinler almalısınız. Özellikle "Pavés de Genève" denilen küp şeklindeki çikolatalar şehrin imzasıdır.
+
+- **Malakoff:** Cenevre'nin komşusu Vaud bölgesinden gelse de şehirde oldukça popüler olan, içi erimiş peynir dolu kızarmış toplardır. Peynir tutkunları için Fondü'den sonraki en büyük hazdır.
+
+- **Marmite de l'Escalade (Çikolata Kazanları):** Eğer Aralık başında oradaysanız, dükkanların sebzelerle (aslında marzipan) dolu minik çikolata kazanları sattığını göreceksiniz. Bu, şehrin kurtuluşunu kutlayan "L'Escalade" bayramının en tatlı geleneğidir.
+
+- **İsviçre Şarabı:** İsviçre, şaraplarının çoğunu ihraç etmez; bu yüzden onları yerinde tatmak büyük bir fırsattır. Cenevre’nin hemen dışındaki bağlarda üretilen Chasselas (beyaz şarap), özellikle peynir yemeklerine harika eşlik eder.
+
+- **Bütçe Dostu "Plat du Jour":** Cenevre’de akşam yemeği bütçeyi sarsabilir, ancak öğle saatlerinde çoğu restoran "Plat du Jour" (günün yemeği) adıyla oldukça uygun ve doyurucu menüler sunar. Lokal hayatın içine karışıp karnınızı doyurmak için en akıllıca yol budur.
+
+## 🤫 Şehrin Fısıldadıkları: Lokal Sırlar
+
+Cenevre, dışarıdan bakıldığında "fazla düzenli" ve hatta biraz "mesafeli" görünebilir ama o sessiz cephenin altında aslında çok zarif ve şaşırtıcı hikâyeler fısıldar. Banka binalarının ve diplomatik koridorların arasından sıyrılıp bu fısıltılara kulak verdiğinizde, şehrin gerçek ruhunu yakalayacaksınız.
+
+- **Dünyanın En Uzun Bankı (Promenade de la Treille):** Eski Şehir’in (Vieille Ville) surları üzerinde yer alan bu ahşap bank, tam 120 metre uzunluğundadır. Lokallerin güneşli günlerde gölü ve parkı izlemek için favori noktasıdır. Burada otururken sadece manzarayı değil, aynı zamanda dünyanın en uzun kestane ağacı hattından birini de izliyor olacaksınız.
+
+- **Kırık Sandalye’nin Sessiz Çığlığı (Broken Chair):** Birleşmiş Milletler binasının önünde yükselen o devasa, bir bacağı kırık ahşap sandalye sadece sanatsal bir obje değildir. Kara mayınlarına karşı bir protesto olarak oraya yerleştirilmiştir. Diplomatik binaların o ciddi havasına karşı, şehrin vicdanını temsil eden en güçlü fısıltıdır.
+
+- **Tavuk Basamakları (Passage de Degrés-de-Poule):** Eski Şehir’in dar sokaklarında gizlenmiş, Orta Çağ’dan kalma gizli bir geçittir. İsmi komik gelebilir (Tavuk Basamakları) ama sizi katedralin o mistik havasına en kısa yoldan ulaştıran bu gizli merdivenler, turist kalabalığından kaçmak için harika bir tüneldir.
+- [İsviçre'nin İçindeki İtalya (Carouge)](search:İsviçre'nin İçindeki İtalya (Carouge): Cenevre’nin sadece 10 dakika uzağında, kendinizi bir anda Sardinya mimarisinin içinde bulacaksınız. Carouge, zamanında bir İtalyan dükü tarafından kurulduğu için Cenevre’nin o ciddi havasından tamamen uzaktır; daha renkli, daha bohem ve çok daha "sıcak" bir ruhu vardır. Şehir merkezinden (Bel-Air veya Cornavin) kalkan 12, 15 veya 18 numaralı tramvaylarla yaklaşık 10-15 dakikada buraya ulaşabilirsiniz.
+- **Gölün "Buz" Heykelleri (Le Bise):** Eğer kışın Cenevre’deyseniz ve o meşhur "Bise" rüzgarı esiyorsa, göl kenarındaki bankların ve ağaçların tamamen buzla kaplanıp doğal sanat eserlerine dönüştüğünü görebilirsiniz. Cenevre'nin doğasının şehre attığı en sert ama en estetik imzadır.
+
+- [Jean-Jacques Rousseau'nun Adası (Île Rousseau)](search:Jean-Jacques Rousseau'nun Adası (Île Rousseau): Şehrin tam ortasında, Rhone nehrinin gölle birleştiği yerde minicik bir ada. Filozof Rousseau’nun adını taşıyan bu ada, kalabalıktan kaçıp sadece nehrin sesini dinleyebileceğiniz, lokallerin kitap okumak için sığındığı gizli bir bahçedir. Buraya Pont des Bergues köprüsü üzerinden yürüyerek kolayca ulaşabilirsiniz.
+- [İki Nehrin Dansı (La Jonction)](search:İki Nehrin Dansı (La Jonction): Şehir merkezinden biraz uzaklaştığınızda, masmavi Rhone nehri ile çamur rengindeki Arve nehrinin birleştiği o muazzam noktayı göreceksiniz. İki farklı rengin birbirine karışmadan yan yana akışını izlemek, Cenevre’nin sunduğu en hipnotize edici doğa olayıdır. Lokaller yazın burada nehre girmeyi çok sever. Buraya ulaşmak için Jonction durağından geçen tramvaylara binip, nehir kıyısındaki patikayı (Sentier des Saules) sonuna kadar takip etmeniz yeterlidir.
+- **Resmi Kestane Ağacı (Le Marronnier Officiel):** Cenevre’de baharın gelişi bir takvime değil, tek bir ağaca bağlıdır. Promenade de la Treille’deki "resmi" kestane ağacının ilk yaprağı açtığında, kentin "Sautier"i (hükümet sekreteri) baharın geldiğini resmen ilan eder. 1818'den beri süren bu titiz gelenek, Cenevre’nin hassasiyetinin en tatlı örneğidir.
+
+- [Jet d'Eau](search:Jet d'Eau'nun Mütevazı Başlangıcı)'nun Mütevazı Başlangıcı: Bugün şehrin görkemli sembolü olan fıskiye, 1886 yılında aslında sadece bir "güvenlik valfi" idi. Kuyumcuların ve saatçilerin kullandığı hidrolik makinelerdeki basıncı boşaltmak için yapılmış teknik bir çözümdü. Estetiğin mühendislikle bu kadar başarılı birleşmesi tam bir Cenevre hikâyesidir.
+- **Hôtel de Ville’in At Rampası:** Cenevre hükümet binasının içine girdiğinizde, merdiven yerine döne döne yukarı çıkan devasa taş rampalar göreceksiniz. Bu rampalar, zamanında diplomatların ve soyluların atlarından inmeden üst katlardaki toplantı odalarına çıkabilmeleri için tasarlanmıştır.
+
+
+## ✅ Mutlaka Yapmadan Dönme: Cenevre Checklist
+
+- **Jet d’Eau’nun Islattığı Yolda Yürüyün:** Sadece uzaktan bakmayın; rüzgârın yönünü hesaplayıp fıskiyenin o devasa gücünü yanındayken hissedin.
+- [Bains des Pâquis’de Fondü Yiyin](search:Bains des Pâquis’de Fondü Yiyin): Şehrin en lüks restoranlarını bir kenara bırakın ve gölün üzerindeki bu halk plajında, en salaş ama en lezzetli fondü deneyimini yaşayın.
+- **Sarı Teknelerle (Mouettes) Karşıya Geçin Karşıya Geçin):** Ulaşım kartınızı kullanarak gölün bir yakasından diğerine bu ikonik teknelerle geçin; Cenevre’nin en kısa ama en keyifli yolculuğudur.
+- **Dünyanın En Uzun Bankında Mola Verin:** Promenade de la Treille’de oturup parkı izleyin ve kendinizi 120 metrelik o devasa ahşap hattın bir parçası gibi hissedin.
+
+- **Katedralin Kulelerine Çıkın:** Aziz Pierre Katedrali’nin kulelerine tırmanıp, Cenevre’yi ve Alpler'i 360 derece izlemeden şehirden ayrılmayın.
+
+- [Carouge’da Bir Cumartesi Sabahı Geçirin](search:Carouge’da Bir Cumartesi Sabahı Geçirin): Cenevre’nin "İtalyan" mahallesinde kurulan pazarı gezin, sanatçı atölyelerine girin ve kendinizi başka bir ülkede gibi hissedin.
+- **Çikolata Butiklerini Keşfedin ve Pavés de Genève Tadın:** Favarger, Du Rhône veya Auer gibi tarihi butiklere girin. Sadece o meşhur küp çikolataları (Pavés) tatmakla kalmayın, vitrinlerdeki o büyüleyici kakao sanatını da soluyun.
+
+- **Gerçek İsviçre Yoğurdunun Tadına Bakın:** Herhangi bir mahalle mandırasına (laiterie) veya yerel bir markete girin; İsviçre sütlerinin kalitesini yansıtan o yoğun kıvamlı, meyveli veya sade yoğurtları deneyin. Yoğurdun neden bir "gurme ürün" olabileceğini burada göreceksiniz.
+
+- **Mataranızı Musluklardan Doldurun:** Şehrin dört bir yanındaki tarihi çeşmelerden akan o muazzam suyu için; Cenevre’nin en büyük ve ücretsiz lüksü budur.
+
+- [La Jonction’da Nehirlerin Buluşmasını İzleyin](search:La Jonction’da Nehirlerin Buluşmasını İzleyin): Rhone ve Arve nehirlerinin o muazzam renk dansına şahitlik edin.
+- [Kırık Sandalye](search:Kırık Sandalye’nin Önünde Fotoğraf Çektirin)’nin Önünde Fotoğraf Çektirin: Birleşmiş Milletler bölgesindeki bu dev anıtın önünde durup şehrin diplomatik ve insani mesajını hissedin.
+- **Café de Paris Sosunu Yerinde Deneyin:** Chez Boubier’de o meşhur soslu antrikotu tadarak gastronomi tarihine bir tik atın.
+
+- **Vaktiniz Varsa Salève Dağı’na Çıkın:** Cenevre’den yerel bir otobüsle (8 numara) sınırın hemen ötesindeki Salève dağına teleferikle çıkın ve "Cenevre’nin Balkonu"ndan tüm şehri ayaklarınızın altında görün.
+
+''';
+
+  static const _cenevreEN = '''# Geneva: A City That Runs Like Clockwork by the Lake
+
+**Quick Glimpse:** When you first step into Geneva, you will be greeted by a city that feels more like a massive, perfectly functioning watch movement. It is the capital of order, diplomacy, and "quiet" luxury. The city is so elegantly situated around the lake (Lac Léman) that you might feel like you're walking through a postcard. However, it would be a mistake to think of Geneva only in terms of banks and luxury watch displays. The city’s true character is hidden in the mist of the famous fountain (Jet d'Eau), the serenity of locals crossing the lake in yellow boats (Mouettes), and the narrow cobblestone streets of the Old Town (Vieille Ville).
+
+**The most fundamental thing to know about Geneva is this:** the city highly values privacy and silence. You won't find the loud bustle of a typical metropolis in the evenings; life ends early, shops close, and the city retreats into its peaceful shell. You should be prepared for this rhythm. Knowing that Sundays are days of "absolute silence," where almost all shops are closed, will save your plans. A small budget-friendly tip: Geneva can be very expensive, but the water from its taps tastes better than even the priciest bottled water. Keep your water bottle with you and focus on experiencing the quality found in the city’s simplicity.
+
+## 📅 Timing is Everything: Which Season is Yours?
+
+In Geneva, time isn’t only kept on your wrist — it ticks gently across the reflections on the lake. When you visit depends on the experience you’re after: sun-soaked days by the water or cozy evenings with fondue against snow-covered Alpine views.
+
+- **Spring (March - May):** This is Geneva at its freshest. While the Flower Clock in the Jardin Anglais blooms in vibrant colors and the parks come to life, the air remains quite crisp. If you prefer to stay away from the crowds and wander the city’s dignified streets at your own pace, spring is the perfect choice. However, don’t forget to pack a windbreaker against the famous "Bise" wind.
+- **Summer (June - August):** The season when the city literally moves onto the lake. This is Geneva's most energetic period, with locals sunbathing and swimming at Bains des Pâquis and gathering by the water in the evenings. The late sunsets give you extra-long days to explore. While the celebrations in early August bring a festive vibe, keep in mind that hotel prices peak and tourist numbers increase during this time.
+- **Autumn (September - November):** Geneva is secretly a vineyard destination. September and October mark the harvest season in the vineyards just outside the city; it’s a wonderful time to watch nature turn shades of orange and gold. Though the air can get a bit misty, the lakeside promenades become incredibly photogenic. It is the most balanced time to feel Geneva’s signature melancholic yet sophisticated soul.
+- **Winter (December - February):** Welcome to the ultimate fondue and chocolate season. The weather can be genuinely cold and grey, but the L'Escalade festival in early December brings a medieval spirit to the streets; breaking chocolate cauldrons (marmites) is a local joy you shouldn't miss. If you are a ski enthusiast, winter offers a great opportunity to escape to the world-famous Alpine villages, located just an hour away from Geneva.
+
+## 🏠 Where to Stay: Neighborhood Guide
+
+Where you stay in Geneva is the key detail that determines your morning view and how your day unfolds. While the city may seem small, each neighborhood offers a completely different energy. Plus, there’s a great "local perk" for visitors: as long as you stay in a hotel, hostel, or campsite, you receive a free "Geneva Transport Card" for public transit within the city—be sure to ask for it.
+
+- **Vieille Ville (Old Town):** If you want to wake up in the heart of history among narrow cobblestone streets, this is your place. It’s the highest point in the city, so be prepared for some uphill walking. This is an upscale area filled with boutique hotels, antique shops, and chic cafes that becomes very quiet at night. It's ideal for a romantic getaway, though it can be a bit heavy on the budget.
+
+- [Pâquis](search:Pâquis): This is the area closest to the lakeside and the main train station (Cornavin). It is Geneva's most cosmopolitan, lively, and slightly "edgy" neighborhood. It’s a paradise for restaurant variety, with options for every budget. A small note: this is also the city's red-light district, so it can be quite colorful and noisy in the evenings. It’s the most practical spot for those prioritizing ease of transport.
+- [Eaux-Vives](search:Eaux-Vives): Located right next to the famous fountain (Jet d'Eau). This is a modern neighborhood with wide streets and is one of the areas locals love most. It’s very close to massive parks and is perfectly positioned for a morning stroll along the lake. With its stylish bistros and trendy spots, it’s one of the best choices for feeling like a true Genevan.
+- [Carouge](search:Carouge): This is the "Little Italy" within Geneva. Just a few tram stops away from the center, you’ll suddenly find yourself surrounded by Mediterranean architecture. With its low-rise buildings, artist workshops, boutique shops, and cozy markets, it is the city’s most bohemian corner. If you’re looking for a stylish place with a village feel, away from the city chaos, you’ll love it here.
+- [Plainpalais](search:Plainpalais): Due to its proximity to the university district, this area is mostly preferred by students and young professionals. It features one of the city's largest squares, famous for its flea markets. You can find slightly more affordable accommodation options here compared to other districts, and the atmosphere is much more dynamic than Geneva’s usual dignified pace
+
+## 🚲 Getting from A to B: Move Like a Local
+
+Transportation in Geneva works with the same precision and punctuality as its famous watches. The city is quite compact, making it very walkable, but once you experience the efficiency of the public transport system, you’ll quickly grow to love its convenience.
+
+- **From the Airport to the City (Just 7 Minutes):** Geneva Airport (GVA) is one of the closest airports to a city center. Follow the signs for the train station before leaving the terminal; every train departing from there stops at Cornavin, the main city station. The trip takes only 7-8 minutes. The old free ticket machines at arrivals have been discontinued; if you haven't received your digital transport card from your hotel yet, you'll need to buy a ticket for about 3 CHF at the machine.
+- **Geneva Transport Card (The Best Local Perk):** If you are staying in a hotel, hostel, or campsite in Geneva, you receive this card for free. It covers all public transport—trams, buses, trains, and even the yellow boats—for the duration of your stay. Your hotel will usually email it to you or provide it during check-in. With this card in your pocket, transportation in Geneva is completely free for you.
+- **The Yellow Boats (Mouettes Genevoises):** These small yellow boats are Geneva's most characteristic and enjoyable mode of transport. Crossing between the two shores (Rive Gauche and Rive Droite), they are part of the official public transport network. This means your "Geneva Transport Card" is valid here too. Why take the bus when you can cross the lake and enjoy the breeze for free?
+- **Tram and Bus Network:** A seamless network that connects every corner of the city. Digital screens at stops tell you exactly how many minutes until the next vehicle arrives. You can buy tickets at the stop machines or use Tap & Go with your credit card or phone on the vehicle. A single ticket is around 3 CHF and allows unlimited transfers for 60 minutes.
+- **Walking Notes:** The Old Town (Vieille Ville) and the lakeside are designed to be explored on foot. However, be sure to wear comfortable shoes to handle the steep, cobbled streets of the Old Town.
+- **Local Tip:** Public transport in Geneva is very quiet; talking loudly or making long phone calls is generally frowned upon. Also, while ticket inspections are rare, the fines are steep if you're caught without a valid ticket or card—always keep yours handy.
+
+## 🏛️ The City's Memory: Iconic Landmarks Must-See
+
+Geneva’s memory is shaped by the cool mist of its iconic fountain shooting into the sky, the dignified silence of the Old Town, and the quiet weight of the massive buildings where the world’s fate is often decided. If you think this is just a “banking city,” the following stops will completely change your mind.
+
+- [Jet d'Eau (The Fountain)](search:Jet d'Eau (The Fountain): The city’s most unmistakable symbol. Shooting 500 liters of water per second straight into the sky, this giant fountain actually began as a pressure-release valve — and today, it has become the heart of Geneva. Walk right up to it and feel the refreshing mist on your face, but keep an eye on the wind… you might suddenly find yourself completely soaked.
+- [Cathédrale Saint-Pierre Genève (St. Pierre Cathedral)](search:Cathédrale Saint-Pierre Genève (St. Pierre Cathedral): Located at the highest point of the Old Town, this cathedral is an intriguing mix of architectural styles. Entry is free if you simply want to enjoy the peaceful interior. But if you’re after sweeping views of Geneva and the lake, you’ll need a ticket to climb the tower. The 157 steps are absolutely worth it.
+- [Reformation Wall](search:Reformation Wall): Hidden inside Parc des Bastions, this monumental wall stands as a powerful reminder of the days when Geneva was known as the “Protestant Rome.” Walking along it, you’ll feel the solemn presence of the towering statues. Watching locals play on the giant outdoor chessboards is also part of the experience here.
+- **L'horloge fleurie (Flower Clock & Jardin Anglais):** A living symbol of Geneva’s watchmaking heritage. This floral clock is constantly redesigned with seasonal flowers. More than just a timepiece, it’s one of the city’s most photogenic spots.
+- [Palais des Nations (United Nations Office)](search:Palais des Nations (United Nations Office): This is where you truly feel Geneva’s diplomatic weight. Even seeing the giant Broken Chair sculpture outside tells a powerful story. Visiting the interior is only possible through guided tours and tickets, so make sure to book online in advance due to security and high demand.
+- [CERN](search:CERN): A bit outside the city center, but for Geneva, CERN is what the Astronomical Clock is to Prague. This is where the secrets of the universe are explored. Visiting the exhibition areas is fascinating and free. However, tours must be booked months in advance — otherwise, you’ll only be able to admire the iconic Globe building from outside.
+- [Patek Philippe Museum](search:Patek Philippe Museum): Whether you’re a watch enthusiast or not, this is arguably the best place in the world to see how watchmaking evolved into an art form. Thousands of rare pieces from the 16th century onward are displayed here. Entry is ticketed.
+- [Bains des Pâquis](search:Bains des Pâquis): This is where real Genevan life happens. A public lakeside beach that fills up with swimmers in summer and sauna lovers in winter. If you want to step away from the city’s polished luxury image and feel like a local, this is the place. Just remember, there’s a small entrance fee.
+- **Maison Travel:** Geneva’s oldest house, now converted into a city history museum. Step inside this stone building to understand what life was like here in the Middle Ages. The permanent exhibitions are free to visit.
+
+
+## 🍴 A Taste of the City: Cheese, Fish & Chocolate
+
+It would be a great injustice to think only of chocolate when it comes to Genevan cuisine. This is a culinary hub where the warm cheese of the Alps meets the fresh fish of the lake, blending French elegance with Swiss discipline. Managing your budget in Geneva is tricky, yes; but if you know what to eat at the right spot, you’ll get your money's worth.
+
+- **Cheese Fondue (Fondue Moitié-Moitié):** A Geneva must-have. Usually made with a blend of Gruyère and Vacherin cheeses. The local favorite is the historic Les Armures in the Old Town. For a more casual and budget-friendly fondue experience, Bains des Pâquis by the lake awaits you.
+
+- **Entrecôte "Café de Paris":** The world-famous butter-based sauce was born right here! You must visit Chez Boubier - Café de Paris to try the entrecôte served in that legendary sauce made with a secret recipe. The menu is fixed; your only choice is how you want your steak cooked.
+
+- **Filets de Perche (Lake Perch):** The most famous delicacy of Lake Geneva (Lac Léman). These small perch fillets are pan-fried in butter and typically served with plenty of fries. You can find the freshest catch in lakeside restaurants.
+
+- **Birchermüesli:** Invented by Swiss doctor Maximilian Bircher-Benner as a health miracle, this breakfast classic is a Geneva morning staple. Don't miss this mix of oats, fresh fruits, and nuts with milk or yogurt at hotel breakfasts or stylish bakeries.
+
+- **Carac (Green Tart):** A unique small tart from the French-speaking part of Switzerland, instantly recognizable by its bright green color. With its rich chocolate ganache filling and green icing, it appeals to both the eyes and the palate.
+
+- **Longeole:** A traditional Geneva pork sausage flavored with cumin and anise. It is typically served with lentils (lentilles de Genève). If you want to truly touch the local culinary roots, this is the most "Genevan" dish to try.
+
+- **Swiss Chocolate:** That intense cocoa aroma you smell while walking through the streets of Geneva is no coincidence. You should pick up handmade pralines from historic boutiques like Favarger, Du Rhône, or Auer. The cube-shaped chocolates known as "Pavés de Genève" are the city's signature.
+
+- **Malakoff:** Although originating from the neighboring Vaud region, these fried balls filled with melted cheese are highly popular in Geneva. For cheese lovers, it is the ultimate treat after Fondue.
+
+- **Marmite de l'Escalade (Chocolate Cauldrons):** If you are there in early December, you’ll see shops selling small chocolate cauldrons filled with vegetables (actually marzipan). This is the sweetest tradition of the "L'Escalade" festival, celebrating the city's defense.
+
+- **Swiss Wine:** Switzerland exports very little of its wine, so tasting them on-site is a great opportunity. Chasselas (white wine), produced in the vineyards just outside Geneva, pairs wonderfully with cheese dishes.
+- **Budget-Friendly "Plat du Jour":** Dinner in Geneva can strain your budget, but during lunch, most restaurants offer a "Plat du Jour" (daily special) that is quite affordable and filling. This is the smartest way to eat like a local and stay full.
+
+## 🤫 Whispers of the City: Local Secrets
+
+Geneva may seem "too organized" or even a bit "distant" from the outside, but beneath that quiet facade, it whispers elegant and surprising stories. When you step away from the banks and diplomatic corridors and listen to these whispers, you’ll capture the city's true soul.
+
+- [The World's Longest Bench (Promenade de la Treille)](search:The World's Longest Bench (Promenade de la Treille): Located on the ramparts of the Old Town (Vieille Ville), this wooden bench is 120 meters long. It’s a local favorite for soaking up the sun while overlooking the park and the lake. While sitting here, you’re also facing one of the longest lines of chestnut trees in the world.
+- [The Silent Cry of the Broken Chair](search:The Silent Cry of the Broken Chair): The massive wooden chair with a broken leg in front of the United Nations building is more than just art. It was placed there as a protest against landmines. Against the serious backdrop of diplomatic buildings, it stands as the city's strongest whisper of conscience.
+- **The Chicken Steps (Passage de Degrés-de-Poule):** A hidden medieval passage tucked away in the narrow streets of the Old Town. The name might sound funny, but these secret stairs are the quickest—and most atmospheric—way to reach the Cathedral, serving as a perfect escape from the tourist crowds.
+- [Italy Inside Switzerland (Carouge)](search:Italy Inside Switzerland (Carouge): Just 10 minutes from the center, you’ll suddenly find yourself surrounded by Sardinian architecture. Since Carouge was founded by an Italian duke, it’s completely different from Geneva’s usual serious vibe; it’s more colorful, bohemian, and much "warmer." You can reach it in about 10-15 minutes by taking tram lines 12, 15, or 18 from the city center (Bel-Air or Cornavin).
+- **The Lake's "Ice" Sculptures (Le Bise):** If you are in Geneva during winter and the famous "Bise" wind blows, you might see the benches and trees along the lake completely encased in ice, turning into natural works of art. It’s the harshest yet most aesthetic signature nature leaves on the city.
+
+- [Rousseau’s Island (Île Rousseau)](search:Rousseau’s Island (Île Rousseau): A tiny island right in the middle of where the Rhone river meets the lake. Named after the philosopher Jean-Jacques Rousseau, this island is a hidden garden where locals retreat to escape the noise and read a book to the sound of the water. You can easily reach it on foot via the Pont des Bergues bridge.
+- [The Dance of Two Rivers (La Jonction)](search:The Dance of Two Rivers (La Jonction): A bit further from the center, you can witness the confluence of the bright blue Rhone and the muddy-grey Arve. Watching the two distinct colors flow side-by-side without mixing is Geneva’s most mesmerizing natural phenomenon. In the summer, this is the go-to spot for locals to take a dip. To get here, take a tram to the Jonction stop and follow the riverside path (Sentier des Saules) all the way to the end.
+- **The Official Chestnut Tree (Le Marronnier Officiel):** In Geneva, the arrival of spring isn't determined by a calendar, but by a single tree. When the first leaf buds on the "official" chestnut tree at Promenade de la Treille, the city’s "Sautier" (government secretary) formally declares that spring has arrived. This meticulous tradition has continued since 1818.
+
+- [The Humble Beginnings of Jet d'Eau](search:The Humble Beginnings of Jet d'Eau): The fountain that is now a grand symbol of the city began in 1886 as a mere "safety valve." It was a technical solution to release water pressure from the hydraulic machines used by jewelers and watchmakers. It’s a classic Geneva story of engineering meeting aesthetics.
+- **The Horse Ramp of the Hôtel de Ville:** Inside the Geneva City Hall, you'll find massive stone ramps winding upwards instead of stairs. These were designed so that diplomats and nobles could reach the meeting rooms on the upper floors without ever having to dismount their horses.
+
+
+## ✅ The Geneva Checklist: Don't Leave Without Doing These
+
+- **Walk the Jetty of Jet d’Eau:** Don’t just watch from afar; calculate the wind direction and feel the raw power of the fountain up close.
+- **Have Fondue at Bains des Pâquis:** Set aside the luxury dining rooms for a night and enjoy the most authentic and casual fondue experience at this lakeside public bath.
+
+- **Cross the Lake on the Yellow Boats (Mouettes):** Use your transport card to hop on these iconic boats; it’s the shortest yet most delightful journey in Geneva.
+- **Rest on the World’s Longest Bench:** Sit on the 120-meter wooden bench at Promenade de la Treille and soak in the park views like a true local.
+
+**-Climb the Cathedral Towers:** Head up the towers of St. Pierre Cathedral for an unrivaled 360-degree view of the city and the Alps.
+- [Spend a Saturday Morning in Carouge](search:Spend a Saturday Morning in Carouge): Visit the market in Geneva’s "Little Italy," peek into artist workshops, and lose yourself in its Mediterranean vibe.
+- **Explore Historic Chocolatiers and Taste Pavés de Genève:** Step into legendary boutiques like Favarger, Du Rhône, or Auer. Don’t just try the famous cocoa-dusted "Pavés" cubes; immerse yourself in the incredible artistry of their displays.
+- **Indulge in Authentic Swiss Yogurt:** Visit a local dairy shop (laiterie) or a neighborhood market to try the thick, creamy yogurts made from high-quality Swiss milk. You’ll understand why even a simple yogurt is considered a gourmet treat here.
+
+- **Fill Your Bottle from the Fountains:** Drink the incredible water flowing from the city’s many historic fountains; it’s Geneva’s greatest free luxury.
+
+- [Witness the Confluence at La Jonction](search:Witness the Confluence at La Jonction): Watch the mesmerizing dance of colors where the Rhone and Arve rivers meet.
+- **Photograph the Broken Chair:** Stand before this massive monument in the UN district and reflect on the city’s diplomatic and humanitarian soul.
+
+- **Try the Original Café de Paris Sauce:** Dine at Chez Boubier to experience the world-famous entrecôte sauce exactly where it was born.
+
+- **Escape to Mount Salève if You Have Time:** Take local bus 8 to the border and ride the cable car up to the "Balcony of Geneva" for a breathtaking view of the city and the lake from above.
+''';
+
+  // LUCERNE
+  static const _lucerneTR = '''# Lucerne Rehberi: Kartpostallık Bir İsviçre Masalı 🇨🇭
+
+Lucerne (Luzern); karlarla örtülü Alpler'in ve masmavi bir gölün kıyısında yer alan, tarihi ahşap köprüleriyle ünlü, İsviçre'nin kalbi sayılan bir şehirdir.
+
+## 📅 Ne Zaman Gidilir?
+- **Bahar ve Yaz:** Göl turları ve dağ tırmanışları için en uygun zaman.
+- **Kış:** Şehrin etrafındaki kayak merkezleri ve ışıl ışıl Noel atmosferi için tercih edilir.
+
+## 🏘️ Semt Rehberi
+- **Old Town (Altstadt):** Duvarları resimli tarihi binalar, dar sokaklar ve butik dükkanlar.
+
+- **Lakeside:** Şık otellerin ve göl manzarasının tadını çıkaracağınız sahil şeridi.
+
+
+## 🍽️ Ne Yenir ve İçilir?
+- **Luzerner Chügelipastete:** Lucerne'e özgü, içi etli ve kremalı soslu milföy böreği.
+
+- **Çikolata Tadımı:** *Max Felchlin* veya *Bachmann* gibi yerel markaları deneyin.
+- **Sessizlik:** Pazar günleri çoğu dükkan kapalıdır ve şehirde genel bir sessizlik hakimdir; bu tempoya ayak uydurun.
+
+
+## 🚇 Ulaşım İpuçları
+- **Yürüyüş:** Şehir merkezi küçüktür ve tamamen yürüyerek keşfedilebilir.
+- **Göl Feribotları:** Lucerne Gölü'nde (Vierwaldstättersee) eski tip buharlı gemilerle bir tur yapmadan dönmeyin.
+
+## 💎 Lokal Sırlar & İpuçları
+- [Kapellbrücke (Şapel Köprüsü)](search:Chapel Bridge): Dünyanın en eski ahşap köprülerinden biridir. Sabah çok erken giderseniz turist kalabalığı olmadan fotoğraflayabilirsiniz.
+- [Mt. Pilatus](search:Mount Pilatus): Dünyanın en dik dişli treniyle dağın zirvesine çıkın; manzara sizi büyüleyecektir.
+- [Lion Monument](search:Lion Monument): Mark Twain'in "dünyanın en hüzünlü ve etkileyici taş parçası" olarak tanımladığı bu anıtı mutlaka görün.''';
+
+  static const _lucerneEN = '''# Lucerne Guide: A Postcard-Perfect Swiss Fairytale 🇨🇭
+
+Lucerne (Luzern) is the literal heart of Switzerland, famous for its historic covered wooden bridges and its stunning location beside a crystal-clear lake surrounded by Alpine peaks.
+
+## 📅 Best Time to Visit
+- **Spring & Summer:** The ideal time for scenic lake cruises and excursions to the surrounding mountains like Rigi or Pilatus.
+- **Winter:** Great for combining a city visit with nearby skiing, and for experiencing the traditional Swiss Christmas markets.
+
+## 🏘️ Neighborhood Guide
+- **Old Town (Altstadt):** A pedestrian-only zone filled with medieval houses painted with colorful frescoes and charming boutiques.
+
+- **Lakeside Promenade:** Lined with grand hotels and offering unparalleled views across the water to the mountains.
+
+
+## 🍽️ Food & Dining Etiquette
+- **Luzerner Chügelipastete:** A traditional local specialty—a puff pastry shell filled with a rich, creamy veal and mushroom sauce.
+
+- **Chocolate & Pastry:** Visit local favorites like *Bachmann* or seek out artisanal Swiss chocolate workshops near the center.
+
+- **Sunday Rest:** Most shops are closed on Sundays, and the city takes on a peaceful, slow-paced atmosphere.
+
+
+## 🚇 Transportation Tips
+- **Walking:** The city center is compact and best explored on foot.
+- **Steamers:** A boat trip on Lake Lucerne (Vierwaldstättersee) using the historic paddlewheel steamers is an essential Lucerne experience.
+
+
+## 💎 Local Secrets & Insights
+- [Kapellbrücke (Chapel Bridge)](search:Chapel Bridge): One of the world's oldest covered bridges. Arrive early at dawn for the best photos without the tourist crowds.
+- [Mt. Pilatus](search:Mount Pilatus): Take the world's steepest cogwheel railway to the summit for a 360-degree view that will leave you speechless.
+- [Lion Monument](search:Lion Monument): Described by Mark Twain as "the most mournful and moving piece of stone in the world"—visit it early to appreciate the quiet solemnity.''';
+
+  // LYON
+  static const _lyonTR = '''# Lyon Rehberi: Lezzet ve Işığın Başkenti 🇫🇷
+
+Lyon; Fransa'nın gastronomi kalbi, iki nehrin buluştuğu nokta ve gizli geçitleriyle (traboules) ünlü, tarih ve moderni harmanlayan zarif bir şehirdir.
+
+## 📅 Ne Zaman Gidilir?
+- **Fête des Lumières (Aralık Başı):** Şehrin devasa bir ışık gösterisine dönüştüğü, dünyaca ünlü Işık Festivali dönemi.
+- **Bahar ve Güz:** Nehir kenarlarında yürüyüş yapmak ve dışarıda yemek yemek için en güzel havalar.
+
+## 🏘️ Semt Rehberi
+- [Vieux Lyon](search:Vieux Lyon): Rönesans döneminden kalma binaları ve dar sokaklarıyla UNESCO korumasındaki eski şehir.
+- [Presqu'île](search:Presqu'île): Mağazaların, operanın ve belediye binasının olduğu şehrin hareketli ticari merkezi.
+- [Croix-Rousse](search:Croix-Rousse): Eski ipek işçilerinin mahallesi; şimdi sokak sanatçıları ve bohem bir atmosferin merkezi.
+
+## 🍽️ Ne Yenir ve İçilir?
+- **Bouchons:** Lyon'a özgü geleneksel restoranlar. Yerel lezzetleri tatmak için "Bouchon Lyonnais" sertifikalı olanları seçin.
+
+- **Quenelles:** Balık veya etle yapılan, kremsi soslu Lyon usulü köfteler.
+
+- **Praline Tart:** Pembe şekerli bademlerle yapılan bu meşhur tatlıyı mutlaka deneyin.
+
+## 🚇 Ulaşım İpuçları
+- **Velo'v:** Lyon'un harika bisiklet paylaşım sistemiyle nehir kenarında tur atın.
+
+- **Füniküler:** "Ficelle" denilen fünikülerle Fourvière Tepesi'ne kolayca çıkabilirsiniz.
+
+
+## 💎 Lokal Sırlar & İpuçları
+- [Traboules](search:Vieux Lyon): Binaların içinden geçen bu gizli geçitleri keşfedin (özellikle Vieux Lyon ve Croix-Rousse'da). İpek işçilerinin kumaşları yağmurdan korumak için kullandığı yollardır.
+- [Les Halles de Lyon Paul Bocuse](search:Les Halles de Lyon Paul Bocuse): Şehrin dev kapalı gurme pazarı. Dünyanın en iyi peynirlerini ve şaraplarını burada tadabilirsiniz.''';
+
+  static const _lyonEN = '''# Lyon Guide: The Capital of Flavors & Light 🇫🇷
+
+Lyon is the gastronomic heart of France, famously situated at the confluence of two rivers and known for its "traboules" (hidden passages) that connect its historic streets.
+
+## 📅 Best Time to Visit
+- **Fête des Lumières (Early December):** The world-renowned Festival of Lights, when the entire city becomes a canvas for spectacular light installations.
+
+- **Spring & Autumn:** The best seasons for strolling along the riverbanks and enjoying outdoor dining in a traditional bouchon.
+
+## 🏘️ Neighborhood Guide
+- [Vieux Lyon](search:Vieux Lyon): One of the world's largest Renaissance neighborhoods, filled with secret inner courtyards and atmospheric stairs.
+- [Presqu'île](search:Presqu'île): The city’s vibrant shopping and cultural core, located on the peninsula between the Rhône and Saône rivers.
+- [Croix-Rousse](search:Croix-Rousse): Known as "the hill that works," this historic silk-weaving district is now a bohemian hub for artists and creative studios.
+
+## 🍽️ Food & Dining Etiquette
+- **Bouchons:** Traditional Lyonnais bistros with a warm, lively atmosphere. Look for the "Bouchon Lyonnais" seal to ensure authenticity.
+
+- **Quenelles:** A local specialty made of cream and poached fish or meat, typically served with a rich Nantua sauce.
+
+- **Tarte aux Pralines:** Don't leave without trying this bright pink almond tart, a signature dessert of the city.
+
+## 🚇 Transportation Tips
+- **Velo'v:** Use Lyon's extensive and easy-to-use bike-share system to cruise along the modern promenades of the Rhône river.
+
+- **The Funicular:** Known by locals as "La Ficelle," it takes you up to Fourvière hill for the best panoramic views.
+
+
+## 💎 Local Secrets & Insights
+- [The Traboules](search:Vieux Lyon): These secret passages allowed silk workers to transport fabrics without exposing them to rain. Many are open to the public during the day.
+- [Les Halles de Lyon Paul Bocuse](search:Les Halles de Lyon Paul Bocuse): A massive indoor food market named after the legendary chef. It's a paradise for cheese, wine, and gourmet deli lovers.''';
+
+  // MARSILYA
+  static const _marsilyaTR = '''# Marsilya Rehberi: Akdeniz'in Vahşi ve Renkli Yüzü 🇫🇷
+
+Marsilya; kaotik, güneşe boğulmuş, çok kültürlü ve son derece samimi bir liman şehridir. Fransa'nın en eski şehri, her sokağında farklı bir hikaye barındırır.
+
+## 📅 Ne Zaman Gidilir?
+- **Bahar ve Güz:** Hava ılıktır, rüzgar (Mistral) daha azdır ve gezmek keyiflidir.
+- **Yaz:** Plajlar için harika ama şehir merkezi çok sıcak olabilir.
+
+## 🏘️ Semt Rehberi
+- [Le Panier](search:Le Panier): Rengarenk duvarları, balkonlarından sarkan çamaşırları ve sanat galerileriyle Marsilya'nın en eski ve fotojenik mahallesi.
+- [Vieux-Port](search:Vieux-Port): Şehrin kalbi; balık pazarı, dev aynalı tavanı ve liman atmosferiyle her zaman canlı.
+- [Vallon des Auffes](search:Vallon des Auffes): Şehrin ortasında gizli kalmış, küçük balıkçı tekneleriyle dolu bir liman köyü hissi veren koy.
+
+## 🍽️ Ne Yenir ve İçilir?
+- **Bouillabaisse:** Marsilya'nın dünyaca ünlü balık çorbası. Gerçeği pahalıdır ve özel bir seremoniyle servis edilir.
+
+- [Pastis](search:Pastis): Akdeniz güneşinin altında, bir kadeh anasonlu "Pastis" içmeden Marsilya deneyimi tamamlanmış sayılmaz.
+- **Sabun (Savon de Marseille):** El yapımı geleneksel Marsilya sabunlarından almayı unutmayın.
+
+
+## 🚇 Ulaşım İpuçları
+- **Metro ve Tramvay:** Şehri gezmek için pratik bir yol.
+- **Feribot:** Vieux-Port'tan karşı kıyıya veya Frioul adalarına giden feribotlar harika manzaralar sunar.
+
+## 💎 Lokal Sırlar & İpuçları
+- **Les Calanques:** Şehir merkezinden kısa bir otobüs veya tekne yolculuğuyla ulaşılan bu masmavi fiyortlarda yüzmek unutulmaz bir deneyimdir.
+
+- [Cours Julien](search:Cours Julien): Alternatif bir ruh arıyorsanız, grafiti dolu sokakları ve canlı gece hayatıyla bu bölge tam size göre.
+- **Güvenlik:** Her büyük liman şehri gibi Marsilya'da da özellikle kalabalık yerlerde eşyalarınıza dikkat edin ve ıssız sokaklardan kaçının.''';
+
+  static const _marsilyaEN = '''# Marseille Guide: The Wild & Colorful Heart of the Med 🇫🇷
+
+Marseille is a sun-drenched, multicultural, and raw port city. As France's oldest city, it offers a gritty yet sincere atmosphere where history meets a vibrant, modern edge.
+
+## 📅 Best Time to Visit
+- **Spring & Autumn:** The weather is mild, the strong Mistral winds are less frequent, and its perfect for exploring the streets.
+- **Summer:** Great for boat trips and swimming, though the city center can get intensely hot.
+
+## Neighborhood Guide
+- [Le Panier](search:Le Panier): The oldest district, filled with narrow steep streets, colorful wall art, and cozy artisan workshops.
+- [Vieux-Port](search:Vieux-Port): The bustling heart of the city—visit the morning fish market or walk under the giant mirrored "Ombrière."
+- [Vallon des Auffes](search:Vallon des Auffes): A hidden gem of a fishing harbor nestled under the corniche, feeling like a tiny village inside the city.
+
+## 🍽️ Food & Dining Etiquette
+- **Bouillabaisse:** Marseille's world-famous fish stew. The authentic version involves a specific ritual and multiple types of fish—expect to pay a premium for the real deal.
+
+- [Pastis](search:Pastis): No Marseille experience is complete without sipping a glass of this anise-flavored liqueur as the sun goes down.
+- **Savon de Marseille:** Don't forget to buy some traditional, handmade soaps from one of the historic soap makers in the center.
+
+
+## 🚇 Transportation Tips
+- **Metro & Trams:** Reliable and the best way to move between the center and the trendy hills.
+- **Ferry Boats:** Take the small ferry across the Old Port or catch a larger boat to the historic Frioul Islands and the Château d'If.
+
+## 💎 Local Secrets & Insights
+- **The Calanques:** These stunning limestone sea inlets with turquoise water are just a bus or boat ride away. Ideal for hiking and swimming.
+
+- [Cours Julien](search:Cours Julien): If you’re looking for an alternative vibe, this is the center of Marseille’s street art scene, filled with bars and indie bookstores.
+- **Safety Specifics:** Like any major port city, stay aware of your surroundings in crowded tourist areas and keep an eye on your belongings.''';
+
+  // NICE
+  static const _niceTR = '''# Nice: Côte d'Azur'un Kalbi, Fransız Rivierası'nın İncisi
+
+**Hızlı Bakış:** Nice, adımınızı attığınız andan itibaren sizi bir İtalyan kasabasının sıcaklığı ile Fransız Rivierası’nın (Côte d'Azur) aristokrat şıklığı arasında bir yerde karşılar. 1860 yılına kadar Sardinya Krallığı’na (İtalya) ait olmasının bir mirası olarak; sarı-turuncu binaları, dar sokakları ve yüksek sesli neşesiyle burası aslında "Fransa'nın içindeki İtalya"dır. Şehrin kalbi Promenade des Anglais boyunca yürürken palmiyelerin gölgesinde o meşhur turkuaz suları izlemek, Nice'in neden yüzyıllardır sanatçıların ve aristokratların kaçış rotası olduğunu anlamanıza yeter. 
+
+**Trafik ve Park Kültürü:** Nice’te araba kullanmak ve o daracık sokaklarda park yeri bulmak tam anlamıyla bir sabır testidir. Şehir merkezi trafiği ve otopark sorunuyla savaşmak yerine, aracınızı bir kenara bırakıp Nice’i son derece dakik çalışan tramvay hattı veya sahil boyunca dizili kasabaları (Monaco, Cannes, Eze) birbirine bağlayan trenlerle (TER) keşfetmek, gerçek bir lokal stratejisidir. Unutmayın, Nice’te özgürlük direksiyon başında değil, rayların üzerindedir.
+
+## 📅 Takviminizi Ayarlayın: Hangi Mevsim Sizin?
+
+Nice, her mevsimde ışığın farklı bir oyununu sergiler; ancak şehri ne zaman ziyaret edeceğiniz, o meşhur "Fransız Rivierası" rüyasını hangi tonda yaşamak istediğinize bağlıdır.
+
+- **İlkbahar (Nisan - Haziran):** Nice’in en aristokrat ve en taze zamanıdır. Cours Saleya’daki çiçek pazarı bu aylarda renk patlaması yaşarken, hava henüz yakıcı olmayan o tatlı Akdeniz sıcaklığına bürünür. Matisse’in peşinden koştuğu o meşhur altın ışığı yakalamak için en iyi zamandır. Ayrıca Mayıs ayında yanı başınızdaki Cannes Film Festivali’nin ışıltısı tüm şehre yayılır; sokaklarda her an bir film yıldızıyla karşılaşma ihtimaliniz en yüksektir.
+- **Yaz (Temmuz - Ağustos):** Şehrin en "yüksek" sesli ve en gösterişli dönemidir. Turkuaz suların en sıcak olduğu, Nice Caz Festivali ile sokakların müzikle dolduğu bu aylar tam bir "La Belle Vie" (Güzel Hayat) kutlamasıdır. Ancak uyaralım; bu dönemde Nice bir "insan denizi"ne dönüşür. Sahildeki o meşhur mavi sandalyelerde yer bulmak bir savaş stratejisi gerektirebilir ve otel fiyatları Côte d'Azur lüksünün zirvesine çıkar.
+- **Sonbahar (Eylül - Ekim):** Lokallerin Nice'e en çok değer verdiği "pastırma yazı" dönemidir. Kalabalıklar çekilmiş, deniz suyu hala ılıktır. Akşamüstleri bir kadeh Provence rosé’si eşliğinde gün batımını izlemek için en huzurlu andır. Şehrin o İtalyan ruhu, bu aylarda Fransız sakinliğiyle muazzam bir denge kurar.
+- **Kış (Kasım - Mart):** Nice, Akdeniz’in kış güneşine en sadık kaldığı şehirlerden biridir. Kışın asıl yıldızı ise Şubat ayıdır. Dünyanın en eski festivallerinden biri olan Nice Karnavalı (Carnaval de Nice) sırasında şehir devasa bir çiçek savaşına ve maskeli baloya dönüşür. Eğer deniz seviyesinden biraz uzaklaşıp karın tadını çıkarmak isterseniz, Nice’ten sadece 1.5 saat uzaklıktaki Fransız Alpleri’ne kısa bir kayak kaçamağı yapabilirsiniz.
+
+## 🏠Nerede Kalmalı: Mahalle Rehberi
+
+Nice’de nerede konakladığınız, sabah dışarı çıktığınızda bir balıkçı pazarının gürültüsüne mi yoksa lüks bir butiğin mağrur zarafetine mi uyanacağınızı belirler. Şehir, her mahallesinde farklı bir kimlik sergiler.
+
+- **Vieux Nice (Eski Şehir):** Şehrin atan kalbi olan bu bölge; pastel renkli binaları, daracık sokakları ve asırlık restoranlarıyla Akdeniz ruhunu en saf haliyle yaşatır. Tarihsel doku açısından rakipsiz olsa da, burada kalmanın kendine has doğası vardır: Binaların çoğu asansörsüzdür, sokakların canlılığı gece de devam edebilir ve dar yollar yağmurlu günlerde zeminleri biraz daha dikkat gerektirir hale getirebilir. Eğer "eski dünyanın" karakteristik güzelliğine aşıksanız, burası sizin yeriniz.
+
+- [Promenade des Anglais](search:Promenade des Anglais): Denize sıfır konumuyla şehrin en prestijli vitrinidir. İkonik ve lüks otellerin sıralandığı bu şerit, Nice’in en yüksek segmentteki konaklama alanıdır. Sabah uyandığınızda pencerenizden turkuaz suları izlemek ve palmiyelerin arasından yürüyüşe başlamak paha biçilemezdir; ancak bütçenizi en çok zorlayacak ve otopark olanaklarıyla sizi uğraştıracak nokta da tam olarak burasıdır.
+- **Le Port (Liman Bölgesi):** Şehrin son yıllarda yükselen ve en "hip" kabul edilen mahallesidir. Dev lüks yatların, tozlu antikacılarla ve modern barlarla yan yana durduğu bu bölge, merkeze göre çok daha "cool" bir dokuya sahiptir. Şık butik otellerde Eski Şehir’e göre daha makul seçenekler bulabilir, tramvayla 5 dakikada ana meydanlara ulaşabilirsiniz. Burası, yerel halkın akşam yemeği için turist kalabalığından kaçtığı ana sığınaktır.
+
+- [Libération](search:Libération): Eğer turistlerin henüz tam anlamıyla istila etmediği, Nice’in "gerçek" mahalle kültürüne sızmak istiyorsanız, doğru yerdesiniz. Meyve-sebze pazarlarının taze kokusuyla uyanacağınız bu bölge, tramvay hattı sayesinde merkeze çok yakın ama karmaşadan bir o kadar uzaktır. Eski bir tren istasyonundan devasa bir yaşam alanına dönüştürülen Gare du Sud'un hemen dibinde, modern ve lokal bir hayatın içinde olursunuz.
+- [Cimiez](search:Cimiez): Şehrin gürültüsünden uzak, tepelerde kurulu elit ve aristokrat bir yerleşimdir. Roma kalıntılarına ve Matisse Müzesi'ne ev sahipliği yapan bu bölge, sessizlik arayanlar için bir huzur adasıdır. Merkeze biraz uzak olsa da, güçlü otobüs ağı ve şehrin üzerine çöken pusu tepeden izleme imkanı sunan manzarasıyla bu mesafeyi unutturur.
+
+## 🚲 A Noktasından B Noktasına: Bir Lokal Gibi Hareket Edin
+
+Nice, ulaşımın çok iyi organize edildiği bir şehirdir. Bu sebeple direksiyona veda edin ve raylara merhaba deyin. Şehir merkezindeki otopark stresi ve dar sokakların labirenti, araba kullanmayı bir keyiften ziyade yük haline getirebilir.
+
+- **Havalimanından Şehre:** Nice Havalimanı şehre o kadar yakındır ki, 2 numaralı (Ligne 2) tramvay hattıyla yaklaşık 25 dakikada kendinizi şehrin kalbinde bulabilirsiniz. Biletinizi duraktaki makinelerden alabilirsiniz. Taksi veya özel transfer yerine tramvayı tercih etmek, hem bütçe dostu hem de son derece pratik.
+- **Sahil Boyu Tren Turu (TER):** Nice’te konaklamanın en büyük avantajı, bölgesel tren ağıdır. Gare de Nice-Ville istasyonundan kalkan TER trenleri; Monaco, Cannes, Villefranche-sur-Mer ve Antibes gibi duraklara dakikalar içinde, inanılmaz sahil manzaraları eşliğinde ulaşmanızı sağlar. Bir lokal için Monaco’ya akşam yemeğine gitmek, sadece 20 dakikalık bir tren yolculuğudur.
+- **Tramvay Hattı (Lignes d’Azur):** Nice’in can damarıdır. Hat 1 (Ligne 1) sizi şehrin kuzeyinden eski şehre ve ana alışveriş caddesi Jean Médecin’e bağlar. Hat 2 (Ligne 2) ise havalimanından limana (Le Port) kadar tüm şehri yer altından ve üstünden birbirine bağlayan en hızlı ulaşım yoludur. Temassız kredi kartınızı okutarak kolayca binebilirsiniz; ancak her binişte kartı onaylatmayı (validate) unutmayın.
+- **Yürümek En Büyük Lüks:** Vieux Nice (Eski Şehir) zaten sadece yaya trafiğine uygundur. Dar sokakların sürprizlerini keşfetmek için en iyi araç ayaklarınızdır. Promenade des Anglais boyunca yürümek ise Nice’in en ikonik aktivitesidir; 7 kilometrelik bu hat boyunca palmiyelerin altında yürürken vaktin nasıl geçtiğini anlamayacaksınız.
+- **Otobüs 100:** Nice ile Monaco arasında çalışan bu otobüs, dünyanın en manzaralı yollarından birinden geçer. Tren kadar hızlı değildir ama manzarası paha biçilemezdir.
+- **Mavi Bisikletler ve Scooterlar:** Şehir genelinde yaygın olan bisiklet yolları, özellikle sahil şeridinde sürüş keyfi sunar. Uygulama üzerinden kiralayabileceğiniz elektrikli bisikletlerle, dik yokuşlara takılmadan şehri bir uçtan bir uca gezebilirsiniz.
+- **Otopark Sorunu:** Şehir merkezinde sokakta park yeri bulmak neredeyse imkansızdır. Aracınız varsa "Parc'Azur" gibi tramvay duraklarındaki otoparkları kullanmak veya otelinizin otoparkı için gecelik 25-30 Euro'yu gözden çıkarmak zorundas kalabilirsiniz.
+
+
+## 🏛️ Şehrin Hafızası: Görülmesi Gereken İkonik Duraklar
+
+Nice, her sokağında bir aristokratın zarafetini, bir balıkçının sesini ve bir ressamın ışığa olan sonsuz tutkusunu fısıldar. Şehri sadece bir turist gibi gezmek yerine, onun kimliğini oluşturan şu duraklarda bu ruhu hissedebilirsiniz:
+
+- **Promenade des Anglais (İngiliz Yürüyüş Yolu):** Nice’in açık hava salonudur. 1820’lerde kışı burada geçiren İngilizlerin deniz kenarında rahatça yürüyebilmesi için inşa edilen bu kavisli hat, bugün şehrin nabzını tutar. İkonik mavi sandalyelerden (Chaises Bleues) birine oturup ufku izlemek, vaktin durduğu andır.
+- **Colline du Château (Kale Tepesi):** Şehrin beşiği sayılan bu tepede artık bir kale olmasa da, Nice’in en dürüst manzarası buradadır. Eski Şehir’in terra-cotta çatıları ile denizin mavisi arasındaki o keskin ayrımı görmek için 214 basamağı veya asansörü kullanmalısınız.
+- **Cours Saleya (Pazarların Ruhu):** Gündüzleri Provence çiçeklerinin kokusuyla dolan, pazartesileri ise dev bir antika pazarına dönüşen bu meydan, Nice’in duyusal merkezidir. Çizgili tentelerin altında yürümek, yaşayan Akdeniz kültürüne şahitlik etmektir.
+
+- **Place Masséna ve Jean Médecin:** Şehrin modern kalbi olan bu meydan, dama tahtası zemini ve kırmızı binalarıyla dev bir tiyatro sahnesini andırır. Yedi kıtayı temsil eden yüksek sütunlu heykeller, Nice’in çağdaş sanatla olan bağını vurgular.
+
+- **Aziz Nikolaos Rus Ortodoks Katedrali:** Nice’in en şaşırtıcı duraklarından biridir. Rusya dışındaki en büyük Ortodoks katedrali olan bu yapı, soğan kubbeleriyle Akdeniz palmiyeleri arasında masalsı bir tezat oluşturur ve Nice’in kozmopolit tarihine ışık tutar.
+
+- [Villefranche-sur-Mer (Komşu Koy)](search:Villefranche-sur-Mer (Komşu Koy): Nice’ten trenle sadece 5 dakika uzaklıktaki bu balıkçı kasabası, pastel renkli evleri ve kristal sularıyla Côte d'Azur’un en korunaklı ve samimi koyudur. Burası, Nice'in görkemine karşı sunulmuş bir huzur alternatifi gibidir.
+- **Èze Village (Kartal Yuvası):** Denizden 400 metre yükseklikte, bir kaya üzerine tünemiş bu orta çağ köyü, daracık taş sokakları ve egzotik bahçesiyle zamanın durduğu yerdir. Riviera’ya en tepeden bakmak için burası mutlak bir duraktır.
+- **Saint-Paul-de-Vence (Sanatçıların Sığınağı):** Nice’in biraz iç kesiminde yer alan bu surlarla çevrili köy, Marc Chagall gibi sanatçıların neden burayı tercih ettiğini anlamanıza yeter. Her kapının bir sanat galerisine açıldığı, tarihin sanatla nefes aldığı bir yerdir.
+
+- **Matisse Müzesi ve Cimiez Manastırı:** Henri Matisse’in Nice ışığına olan aşkının kanıtıdır. Roma kalıntılarının gölgesindeki bu bölge, Nice’in köklerinin ne kadar derine (Roma İmparatorluğu'na) indiğini hatırlatır.
+
+- **Saint-Jean-Cap-Ferrat ve Villa Ephrussi de Rothschild:** Nice ile Monaco arasında yer alan bu yarımada, "milyarderlerin sığınağı" olarak bilinir. Ancak buradaki asıl mücevher, Baroness Rothschild’in yedi farklı temalı bahçeyle çevrili pembe sarayıdır; zarafetin zirvesidir.
+
+## 🍴 Şehrin Lezzet Haritası: Provence ve İtalya'nın Dansı
+
+Nice mutfağı, Provence’ın taze otları ile İtalya’nın hamur işi dehasının en lezzetli evliliğidir. Bu şehirde yemek yemek, sadece bir restorana oturmak değil, "Cuisine Nissarde" tescilli asırlık bir mirasa ortak olmaktır.
+
+- [Socca (Nohut Ununun Mucizesi)](search:Socca (Nohut Ununun Mucizesi): Nice’in en ikonik sokak lezzeti. Nohut unu ve zeytinyağıyla hazırlanan bu dev krep, odun ateşinde büyük bakır tepsilerde pişiyor. Dışı çıtır, içi yumuşak ve bol karabiberli bu lezzeti; Eski Şehir sokaklarında, el yakacak kadar sıcakken yemek işin en keyifli kısmı.  Özellikle Cours Saleya'da René Socca gibi klasiklerde dumanı tüterken deneyin.
+- **Salade Niçoise (Kutsal Kurallar):** Nice'in dünyaya hediyesi ve yerel halk için neredeyse gurur meselesi. Orjinal tarifinde haşlanmış patates veya fasulye asla olmaz; sadece taze, çiğ sebzeler, siyah zeytin, ançüez, haşlanmış yumurta kullanılır ve kaliteli sızma zeytinyağı ile servis edilir. Tazeliğin en saf hali.
+- **Daube Niçoise (Yavaş Pişen Miras):** Nice mutfağının en doyurucusu. Sığır etinin kırmızı şarap, domates, sarımsak ve bazen portakal kabuğu ile saatlerce ağır ateşte pişmesiyle hazırlanır. Genellikle yanında yerel ravioli veya gnocchi ile servis edilen bu yemek, Nice’in dağlık köylerinden gelen o güçlü karakteri temsil eder.
+
+- **Tourte aux Blettes (Şaşırtıcı Bir Tatlı):** Nice'e gelenleri en çok şaşırtan lezzetlerden biri. Pazı, kuru üzüm ve çam fıstığı ile hazırlanan bu turta, genellikle üzerine pudra şekeri serpilmiş bir tatlı olarak servis edilir. Sebzenin tatlıyla kurduğu bu sıra dışı denge, Nice mutfağının ne kadar özgün olduğunun kanıtıdır.
+- **Pan Bagnat (Yol Arkadaşı):** Salade Niçoise'in zeytinyağı ve sarımsakla ovulmuş dev bir özel ekmeğin içine girmiş halidir. "Islanmış ekmek" anlamına gelen bu sandviç, sebzelerin suyu ekmeğe iyice işlediğinde, bir gün bekletildikten sonra gerçek lezzetine kavuşur. Nice’te plaja giden lokallerin elinde en sık göreceğiniz lezzet tam olarak bu.
+- **Pissaladière (Soğan ve Ançüezin Uyumu):** Karamelize soğan, ançüez ve zeytinle yapılan, Nice usulü bir tarttır. Tatlı soğan ile tuzlu ançüezin muazzam dengesidir. Özellikle tatlı-tuzlu dengesini sevenler için, fırından yeni çıktığında harika bir Akdeniz klasiği deneyimi.
+
+- **Fenocchio Dondurması (Koku Hafızası):** Place Rossetti’deki bu meşhur dondurmacı, sadece bir dükkan değil, Nice’in duyusal hafızasıdır. Lavanta, gül, biberiye ve hatta domates gibi sıra dışı aromalarla hazırlanan dondurmalar, Provence’ın tüm doğasını dilinize taşır.
+- [Petits Farcis (Sebze Dolmaları)](search:Petits Farcis (Sebze Dolmaları): Kabak ve patlıcanların yerel baharatlı kıyma harcıyla doldurulmasıyla yapılan, "anne mutfağı" samimiyetindeki en zarif yerel yemektlerden.
+- **Provence Rosé:** Nice sofralarında su kadar doğal olan tek eşlikçidir. Özellikle yerel Bellet üzümlerinden yapılan rosé şaraplar, kadehinizde Akdeniz ışığını taşıyacak.
+
+
+## 🤫 Şehrin Fısıldadıkları: Lokal Sırlar
+
+Nice, sadece vitrindekini değil, derinlerdeki gerçek hikâyeleri arayanlara kapılarını açar. Turist kalabalığından sıyrılıp şehrin ritmine dahil olmak için bu özel durakları takip edin:
+
+- **Sentier du Littoral (Lokal Yürüyüş Rotası):** Nice’ten Villefranche-sur-Mer’e uzanan bu sahil yolu, şehrin en iyi saklanan hazinesidir. Coco Beach’ten başlayan bu kayalık patika, sizi lüks villaların altından, dalgaların hemen dibinden geçirir. Şehrin gürültüsünü tamamen unutturan, sadece denizin sesini duyacağınız en özel rotadır.
+- [Chez Pipo (Socca’nın Gerçek Adresi)](search:Chez Pipo (Socca’nın Gerçek Adresi): Turist kalabalığından uzak, Liman (Le Port) bölgesinde yer alan bu dükkan, 1923’ten beri Nice halkının en iyi Socca’yı yemek için kuyruğa girdiği asıl noktadır. Eski Şehir’deki hızlı tüketimin aksine, burada Socca bir gelenek olarak sunulur; odun ateşinin kokusu dükkanın tarihine sinmiştir.
+- [Chaises Bleues (Mavi Sandalyeler)](search:Chaises Bleues (Mavi Sandalyeler): Sahil şeridi boyunca dizilen o ikonik mavi sandalyeler (Chaises Bleues), Nice'in tescilli simgesidir. 1950’lerde Charles Tordo tarafından tasarlanan bu sandalyelere oturmak eskiden ücretliydi ve "sandalye kiralayıcıları" tarafından işletilirdi. Bugün ise bu sandalyeler, Nice’te huzurun ve ücretsiz deniz keyfinin en güçlü sembolüdür.
+- **Nietzsche'nin Yolu:** Èze Köyü'nden sahile inen bu dik patika, ünlü filozof Friedrich Nietzsche'nin "Böyle Buyurdu Zerdüşt" kitabının bazı bölümlerini zihninde kurgularken her gün yürüdüğü yoldur. Denizin mavisi ile dağın sertliğini birleştiren bu yol, sadece bir yürüyüş değil, entelektüel bir meydan okumadır.
+- [Confiserie Florian](search:Confiserie Florian): Liman bölgesindeki bu tarihi fabrikada, Provence’ın meşhur çiçeklerinin (menekşe, gül, yasemin) nasıl şekerleme ve reçele dönüştüğünü ücretsiz turlar eşliğinde izleyebilirsiniz. Nice’in doğasını kavanozlara sığdıran bu mekan, şehrin en tatlı hafıza merkezlerinden biridir.
+- **Rauba Capeu Kayalıkları:** "I Love Nice" yazısının hemen altındaki kayalar, Nice gençliğinin ve lokallerin asıl buluşma noktasıdır. Gün batımında içeceğini alıp bu kayalıklara tünemek, yukarıdaki turistik kargaşaya yukarıdan (ya da tam olarak aşağıdan) bakmanın en keyifli yoludur.
+- **Mont Boron ve Fort du Mont Alban:** Şehri kuşbakışı görmek için herkes Kale Tepesi'ne giderken, lokaller Mont Boron'un tepesindeki eski kaleye çıkar. Bir yanınızda Nice, diğer yanınızda Villefranche koyu; piknik sepetiyle gün batımını karşılamak için şehirden daha iyi bir kaçış noktası yoktur.
+
+
+## ✅ Mutlaka Yapmadan Dönme: Nice Checklist
+
+- **Mavi Sandalyede Vakti Durdur:** Promenade des Anglais boyunca yürüyüp o ikonik mavi sandalyelerden (Chaises Bleues) birine çök ve hiçbir şey yapmadan sadece turkuaz ufku izle.
+
+- **Vieux Nice’in Pastel Labirentinde Kaybol:** Eski Şehir’in o daracık, aşı boyalı sokaklarında pusulayı bir kenara bırak; rüzgarın taşıdığı taze kekik kokusunun ve aniden karşına çıkan Barok kiliselerin seni yönlendirmesine izin ver.
+
+- **Duyularını Tazele:** Cours Saleya’da taze çiçek kokularını içine çek ve eğer pazartesi gününe denk gelirsen antika pazarında geçmişin izlerini sür.
+
+- **Çakıl Taşlarında Akdeniz'i Hisset:** Sahil yakınındaki bir fırından dumanı tüten bir pizza al, Promenade’ın meşhur çakıl taşlarına kurul ve gün batarken dalga sesleri eşliğinde yerel bir Provence rosé’si yudumla. Nice’te lüksün en basit ve en içten hali budur.
+
+- **Kalenin Beşiğinden Şehre Bak:** Colline du Château’ya (Kale Tepesi) çıkıp, turuncu çatıların denizle buluştuğu o en dürüst Nice manzarasını hafızana kazı.
+
+- **Gerçek Socca’nın Peşine Düş:** Socca’yı herhangi bir yerde değil, odun ateşinin kokusunun sindiği Chez Pipo’da, elin yanarken deneyimle.
+
+- **Yerel Gibi Ye:** İçinde patates olmayan gerçek bir Salade Niçoise ye ve sahilde acıktığında yanına bir Pan Bagnat alarak lokallere karış.
+- **Botanik Bir Tatlı Molası Ver:** Fenocchio’da dondurma seçerken sınırlarını zorla; lavantalı veya biberiyeli bir top ile Provence’ın doğasını tat.
+- **Rayların Üzerinde Keşfet:** Trenle (TER) sadece 5 dakikada Villefranche-sur-Mer’in masalsı koyuna git ya da dünyanın en güzel yollarından birinden geçerek Monaco’ya süzül.
+- **Littoral’de Denizi Dinle:** Sentier du Littoral patikasında, lüks villaların gölgesinde ve dalgaların hemen dibinde, sadece sana ait olan o sessiz rotayı yürü.
+
+- **Işığın Peşinden Git:** Matisse’in neden bu şehre aşık olduğunu anlamak için Cimiez’deki müzesine uğra ve ardından palmiyelerin arasındaki Rus Katedrali’nin masalsı kubbelerini gör.
+
+- **Nietzsche’nin Adımlarını Takip Et:** Eğer enerjin varsa, Èze köyünden aşağı sahile inen o dik patikada derin düşüncelere dalarak yürü.
+''';
+
+  static const _niceEN = '''# Nice: The Heart of the Côte d'Azur, Pearl of the French Riviera
+
+**Quick Glimpse:** From the moment you step in, Nice greets you somewhere between the warmth of an Italian village and the aristocratic elegance of the French Riviera (Côte d’Azur). As a legacy of its history under the Kingdom of Sardinia (Italy) until 1860, the city—with its sun-drenched yellow-orange facades, narrow winding alleys, and vibrant energy—is essentially "Italy in the heart of France." Strolling along the Promenade des Anglais under the shade of palm trees while gazing at those iconic turquoise waters is enough to understand why Nice has been the ultimate escape for artists and aristocrats for centuries.
+
+**Traffic and Parking Culture:** Driving in Nice and hunting for a parking spot in its cramped streets is a true test of patience. Rather than struggling with city center traffic and the parking nightmare, leaving your car behind is the move. Exploring Nice via the punctual tram lines or the regional trains (TER) that link glamorous coastal gems like Monaco, Cannes, and Eze is a quintessential local strategy. Remember, in Nice, freedom is not found behind the steering wheel; it is on the rails.
+
+## 📅 Timing is Everything: Which Season is Yours?
+
+Nice showcases a different play of light with every season; however, when you choose to visit depends on which tone of the famous "French Riviera" dream you wish to live.
+
+- **Spring (April – June):** This is Nice at its most aristocratic and fresh. While the flower market at Cours Saleya experiences a vibrant explosion of color, the air settles into that sweet Mediterranean warmth—balmy but not yet scorching. It is the prime time to capture that legendary golden light Matisse once sought. In May, the glamour of the nearby Cannes Film Festival permeates the entire city, making it the perfect time for celebrity spotting.
+- **Summer (July – August):** The most flamboyant and energetic period of the year. With the turquoise waters at their warmest and the streets echoing with music during the Nice Jazz Festival, these months are a complete celebration of "La Belle Vie." A word of caution: Nice transforms into a "sea of people" during this time. Finding one of those iconic blue chairs on the beach requires a strategic plan, and hotel prices reach the peak of Côte d'Azur luxury.
+- **Autumn (September – October):** This is the "Indian Summer" that locals cherish most. The heavy crowds have thinned, yet the seawater remains invitingly warm. It is the most serene time to watch the sunset with a glass of Provence rosé in hand. During these months, the city's Italian soul finds a magnificent balance with French serenity.
+- **Winter (November – March):** Nice is one of the most faithful hosts to the Mediterranean winter sun. The true star of winter is February. During the Carnaval de Nice—one of the oldest festivals in the world—the city transforms into a grand masquerade and a floral battleground. If you crave the snow, the French Alps are just a 90-minute drive away, offering a perfect opportunity for a quick skiing escape.
+
+## 🏠 Where to Stay: Neighborhood Guide
+
+Where you choose to stay in Nice defines whether you wake up to the vibrant melody of a fish market or the refined harmony of a luxury boutique. The city reveals a distinct identity in every neighborhood:
+
+- [Vieux Nice (Old Town)](search:Vieux Nice (Old Town): The beating heart of the city; it offers the Mediterranean spirit in its purest form with its pastel-colored facades, narrow winding streets, and centuries-old eateries. While peerless in terms of historical atmosphere, staying here has its own nature: most buildings lack elevators, the streets remain lively well into the night, and the cobblestones require a bit more care on rainy days. If you are in love with the characteristic beauty of the "old world," this is your place.
+- [Promenade des Anglais](search:Promenade des Anglais): The city’s most prestigious showcase, right by the sea. Lined with iconic luxury hotels, this strip is the highest segment for accommodation in Nice. Waking up to the sight of turquoise waters and starting your day with a walk among the palm trees is priceless; however, this is also the area that will stretch your budget the most and present the biggest challenges with parking facilities.
+- **Le Port (The Harbor):** The city's rising "hip" district in recent years. Where mega-yachts sit alongside dusty antique shops and modern bars, this area has a much "cooler" vibe compared to the center. You can find more reasonable boutique hotel options than in the Old Town and reach the main squares in just 5 minutes by tram. This is the ultimate sanctuary where locals hide away for dinner to escape the tourist crowds.
+
+**-Libération:** If you want to slip into the "real" neighborhood culture of Nice, largely untouched by mass tourism, you are in the right spot. Waking up to the fresh scent of produce markets, this area is very close to the center thanks to the tram line but feels miles away from the chaos. Being right next to Gare du Sud—a former train station transformed into a massive lifestyle and food hall—allows you to be part of a modern yet local life.
+- [Cimiez](search:Cimiez): An elite, aristocratic residential area perched on the hills, far from the city's commotion. Home to Roman ruins and the Matisse Museum, this neighborhood is an island of serenity for those seeking silence. While a bit further from the center, it makes up for the distance with a strong bus network and a panoramic view perfect for watching the mist settle over the city from above.
+
+## 🚲 Getting from A to B: Move Like a Local
+
+Nice is a city where transportation is exceptionally well-organized. For this reason, say goodbye to the steering wheel and hello to the rails. The stress of city-center parking and the labyrinth of narrow streets can turn driving into a burden rather than a pleasure.
+
+- **From the Airport to the City:** Nice Airport is so close to the town that you can find yourself in the heart of the city in about 25 minutes via Tram Line 2 (Ligne 2). You can purchase your tickets from the machines at the station. Opting for the tram over a taxi or private transfer is both budget-friendly and highly practical.
+- **Coastal Train Journey (TER):** The greatest advantage of staying in Nice is the regional train network. TER trains departing from Gare de Nice-Ville take you to stops like Monaco, Cannes, Villefranche-sur-Mer, and Antibes in minutes, accompanied by incredible coastal views. For a local, heading to Monaco for dinner is just a 20-minute train ride away.
+- **The Tramway (Lignes d’Azur):** This is the lifeline of Nice. Line 1 (Ligne 1) connects the north of the city to the Old Town and the main shopping boulevard, Jean Médecin. Line 2 (Ligne 2) is the fastest route, linking the airport to the Port (Le Port) through both underground and overground sections. You can easily hop on by tapping your contactless credit card; however, remember to validate it every time you board.
+- **Walking is the Ultimate Luxury:** Vieux Nice (Old Town) is almost entirely pedestrianized. Your feet are the best tools for discovering the surprises hidden in its narrow alleys. Strolling along the Promenade des Anglais is the most iconic activity in Nice; you won’t notice time passing as you walk under the palm trees along this 7-kilometer stretch.
+- **Bus 100:** This bus, running between Nice and Monaco, travels along one of the most scenic roads in the world. It’s not as fast as the train, but the views are priceless.
+- **Blue Bikes and Scooters:** Widespread bike lanes throughout the city offer a great riding experience, especially along the shoreline. With electric bikes available via apps, you can traverse the city from end to end without worrying about steep hills.
+- **The Parking Issue:** Finding a parking spot on the street in the city center is nearly impossible. If you have a car, you might need to use "Park & Ride" (Parc'Azur) lots located at tram stations or be prepared to pay €25-30 per night for hotel parking.
+
+
+## 🏛️ The City's Memory: Iconic Landmarks Must-See
+
+Nice whispers the elegance of an aristocrat, the voice of a fisherman, and a painter’s infinite passion for light in every street. Rather than just exploring as a tourist, you can truly feel the city's identity at these landmarks:
+
+- **Promenade des Anglais (The English Walkway):** This is the outdoor salon of Nice. Built in the 1820s so the English residents spending their winters here could stroll comfortably by the sea, this curved shoreline keeps the city’s pulse today. Sitting on one of the iconic blue chairs (Chaises Bleues) to watch the horizon is a moment when time stands still.
+- **Colline du Château (Castle Hill):** Considered the cradle of the city, even though the castle is long gone, the most "honest" view of Nice is found here. You must climb the 214 steps or take the elevator to see the sharp contrast between the terra-cotta roofs of the Old Town and the deep blue of the sea.
+- [Cours Saleya (The Soul of the Markets)](search:Cours Saleya (The Soul of the Markets): Filled with the scent of Provence flowers by day and transforming into a massive antique market on Mondays, this square is the sensory heart of Nice. Walking under the striped awnings is to witness the vibrant, living Mediterranean culture.
+- **Place Masséna and Jean Médecin:** The modern heart of the city, this square resembles a grand theater stage with its checkerboard floor and vibrant red buildings. The statues perched atop high columns, representing the seven continents, highlight Nice’s profound connection to contemporary art.
+
+- **St. Nicholas Russian Orthodox Cathedral:** One of the most surprising landmarks in Nice. As the largest Orthodox cathedral outside Russia, this structure—with its onion domes—creates a fairytale-like contrast among the Mediterranean palm trees and sheds light on Nice’s cosmopolitan history.
+
+- [Villefranche-sur-Mer (The Neighboring Bay)](search:Villefranche-sur-Mer (The Neighboring Bay): Just a 5-minute train ride from Nice, this fishing village is the most sheltered and intimate bay of the Côte d'Azur, featuring pastel-colored houses and crystal-clear waters. It serves as a peaceful alternative to the grandeur of Nice.
+- **Èze Village (The Eagle’s Nest):** Perched on a cliff 400 meters above the sea, this medieval village is a place where time stands still among its narrow stone alleys and exotic gardens. It is an essential stop to look down upon the Riviera from its highest peak.
+
+- **Saint-Paul-de-Vence (Artists’ Sanctuary):** Located slightly inland from Nice, this walled village makes it clear why artists like Marc Chagall chose it as their home. It is a place where every door opens into an art gallery and history breathes through creativity.
+
+
+**Matisse Museum and Cimiez Monastery:** This area is a testament to Henri Matisse’s love for the light of Nice. Set in the shadow of ancient Roman ruins, it serves as a reminder of how deep the city’s roots stretch, reaching back to the Roman Empire.
+
+**Saint-Jean-Cap-Ferrat and Villa Ephrussi de Rothschild:** Situated between Nice and Monaco, this peninsula is known as a "retreat for billionaires." However, the true gem here is Baroness Rothschild’s pink palace, surrounded by seven distinct themed gardens—the very pinnacle of elegance.
+
+## 🍴 A Taste of the City: A Dance of Provence and Italy
+
+Nice’s cuisine is the most delicious marriage of Provence’s fresh herbs and Italy’s pastry genius. Dining in this city is not merely sitting at a restaurant; it is participating in a century-old heritage certified as "Cuisine Nissarde."
+
+- **Socca (The Chickpea Miracle):** The most iconic street food of Nice. This giant pancake, made with chickpea flour and olive oil, is baked in large copper trays over a wood fire. The best part is eating this crispy-on-the-outside, soft-on-the-inside, and heavily peppered treat in the streets of the Old Town while it is still hot enough to burn your fingers. Be sure to try it steaming hot at classics like René Socca in Cours Saleya.
+
+- **Salade Niçoise (The Sacred Rules):** Nice's gift to the world and a true matter of pride for locals. The original recipe never includes boiled potatoes or beans; it uses only fresh, raw vegetables, black olives, anchovies, hard-boiled eggs, and is served with high-quality extra virgin olive oil. It is purity in its freshest form.
+- **Daube Niçoise (The Slow-Cooked Legacy):** The heartiest pillar of Nice’s cuisine. It is prepared by slow-cooking beef for hours with red wine, tomatoes, garlic, and sometimes a hint of orange zest. Typically served alongside local ravioli or gnocchi, this dish represents the robust character of Nice’s mountainous villages.
+
+- **Tourte aux Blettes (The Surprise Dessert):** One of the flavors that surprises visitors the most. Made with Swiss chard, raisins, and pine nuts, this tart is usually served as a dessert dusted with powdered sugar. This extraordinary balance between vegetable and sweetness is proof of how unique Nice’s cuisine truly is.
+- [Pan Bagnat (The Traveling Companion)](search:Pan Bagnat (The Traveling Companion): Essentially a Salade Niçoise tucked inside a giant, special bun rubbed with olive oil and garlic. Meaning "bathed bread," this sandwich reaches its true flavor after resting for a day, once the juices of the vegetables have fully soaked into the bread. This is exactly what you will see most in the hands of locals heading to the beach in Nice.
+- [Pissaladière (The Harmony of Onion and Anchovy)](search:Pissaladière (The Harmony of Onion and Anchovy): A Nice-style tart made with caramelized onions, anchovies, and olives. It is a magnificent balance of sweet onions and salty anchovies. Especially for those who love the sweet-savory contrast, it’s a wonderful Mediterranean classic experience when fresh out of the oven.
+- **Fenocchio Ice Cream (Sensory Memory):** This famous ice cream parlor in Place Rossetti is not just a shop; it is the sensory memory of Nice. With extraordinary flavors like lavender, rose, rosemary, and even tomato, these ice creams carry the entire nature of Provence to your palate.
+
+- [Petits Farcis (Stuffed Vegetables)](search:Petits Farcis (Stuffed Vegetables): One of the most elegant local dishes with the warmth of "mother’s kitchen," made by stuffing zucchini and eggplants with a seasoned local meat filling.
+- **Provence Rosé:** The only companion on a Nice table as natural as water. Particularly the rosé wines made from local Bellet grapes will carry the Mediterranean light right into your glass.
+
+
+## 🤫 Whispers of the City: Local Secrets
+
+Nice opens its doors to those seeking real stories buried deep beneath the storefront. To slip away from the tourist crowds and truly blend into the city's rhythm, follow these insider spots:
+
+- **Sentier du Littoral (The Local Coastal Trail):** This coastal path stretching from Nice to Villefranche-sur-Mer is the city’s best-kept treasure. Starting from Coco Beach, this rocky trail leads you beneath luxury villas and right alongside the crashing waves. It is the ultimate route to completely drown out the city’s noise and replace it with nothing but the sound of the sea.
+- **Chez Pipo (The Authentic Address for Socca):** Located in the Port (Le Port) district, far from the tourist frenzy, this shop is the primary spot where locals have been queuing for the best Socca since 1923. Unlike the fast-paced consumption found in the Old Town, Socca here is served as a tradition, with the scent of the wood-fired oven deeply steeped in the shop's history.
+- [Chaises Bleues (The Blue Chairs)](search:Chaises Bleues (The Blue Chairs): The iconic blue chairs lining the promenade are the registered symbol of Nice. Designed by Charles Tordo in the 1950s, sitting in these chairs used to require a fee and was managed by "chair attendants." Today, however, these chairs stand as the most powerful symbol of tranquility and the freedom to enjoy the sea at no cost.
+- **Nietzsche’s Path:** This steep trail descending from the village of Èze to the shore is the very path where the famous philosopher Friedrich Nietzsche walked daily while conceiving parts of his book "Thus Spoke Zarathustra" in his mind. Merging the deep blue of the sea with the ruggedness of the mountain, this path is not just a hike but an intellectual challenge.
+- [Confiserie Florian](search:Confiserie Florian): In this historic factory near the port, you can watch free tours demonstrating how Provence’s famous flowers (violets, roses, jasmine) are transformed into delicate candies and jams. This spot, which bottles the nature of Nice, is one of the city's sweetest heritage centers.
+- **The Rocks of Rauba Capeu:** The rocks located right beneath the "I Love Nice" sign are the primary meeting point for local youth and residents. Perching on these rocks with a drink at sunset is the most pleasant way to look at the tourist chaos above from a distance—or rather, from right below it.
+- **Mont Boron and Fort du Mont Alban:** While everyone flocks to Castle Hill for a bird's-eye view, locals head to the ancient fort atop Mont Boron. With Nice on one side and the Bay of Villefranche on the other, there is no better escape from the city to welcome the sunset with a picnic basket.
+
+
+## ✅ The Nice Checklist: Don't Leave Without Doing These
+
+- **Stop Time in a Blue Chair:** Stroll along the Promenade des Anglais, settle into one of those iconic blue chairs (Chaises Bleues), and do nothing but gaze at the turquoise horizon.
+- Get Lost in the [Pastel Labyrinth of Vieux Nice](search:Get Lost in the Pastel Labyrinth of Vieux Nice): Toss the compass aside in the narrow, ochre-hued alleys of the Old Town; let the scent of fresh thyme carried by the breeze and the sudden grandeur of hidden Baroque churches guide your way.
+- [Refresh Your Senses](search:Refresh Your Senses): Breathe in the scents of fresh flowers at Cours Saleya and, if you happen to be there on a Monday, hunt for traces of the past at the antique market.
+- Feel the Mediterranean on the [Pebbles](search:Feel the Mediterranean on the Pebbles): Grab a steaming pizza from a nearby bakery, find a spot on the iconic pebbles of the shore, and sip a local Provence rosé to the rhythm of the waves as the sun sets. This is the simplest and most sincere form of luxury in Nice.
+- [Gaze at the City from the Cradle of the Castle](search:Gaze at the City from the Cradle of the Castle): Climb Colline du Château (Castle Hill) to etch the most "honest" view of Nice—where orange roofs meet the blue sea—into your memory.
+- **Seek the Authentic Socca:** Experience Socca not just anywhere, but at Chez Pipo, where the scent of wood-fired ovens lingers, and eat it while it’s still hot enough to burn your fingers.
+
+- **Eat Like a Local:** Taste an authentic Salade Niçoise (strictly no potatoes!) and grab a Pan Bagnat to blend in with the locals when you get hungry on the beach.
+- **Take a Botanical Dessert Break:** Push your boundaries at Fenocchio; try a scoop of lavender or rosemary ice cream to taste the very essence of Provence.
+- **Discover on the Rails:** Take the TER train for a 5-minute hop to the fairytale bay of Villefranche-sur-Mer, or glide toward Monaco via one of the most beautiful scenic routes in the world.
+- **Listen to the Sea on the Littoral:** Hike the Sentier du Littoral path, tucked beneath luxury villas and right alongside the crashing waves, for a quiet route that feels entirely yours.
+- Follow the [Light](search:Follow the Light): Visit the Matisse Museum in Cimiez to understand his obsession with the light, then head to the Russian Cathedral to see its fairytale domes standing among the palms.
+- **Trace Nietzsche’s Footsteps:** If you have the energy, descend the steep path from the village of Èze to the shore, losing yourself in thought just as the philosopher did.
+''';
+
+  // MARAKES
+  static const _marakesTR = '''# Marakeş Rehberi: Baharat, Saraylar ve Çöl Ruhu 🇲🇦
+
+Marakeş; kırmızı duvarları, labirent gibi çarşıları ve bitmek bilmeyen enerjisiyle duyuları uyandıran, "Kızıl Şehir" olarak anılan büyüleyici bir vaha şehridir.
+
+## 📅 Ne Zaman Gidilir?
+- **Bahar (Mart-Mayıs) ve Güz (Ekim-Kasım):** Sıcaklıklar gezmek için en ideal düzeydedir.
+- **Yaz:** Temmuz ve Ağustos aylarında sıcaklık 45 dereceyi aşabilir, bu dönemden kaçınmakta fayda var.
+- **İpucu:** Ramazan ayı boyunca yaşam ritmi değişir; akşamları çok canlıdır ama gündüzleri birçok yer kapalı olabilir.
+
+## 🏘️ Semt Rehberi
+- **Medina (Eski Şehir):** Şehrin kalbi; pazarlar (souks), tarihi yapılar ve geleneksel avlulu evler (Riad) burada bulunur.
+
+- [Gueliz](search:Gueliz): Marakeş'in modern yüzü. Şık galeriler, Fransız tarzı kafeler ve markalarla dolu bir bölge.
+- **Hivernage:** Lüks otellerin ve en iyi gece hayatı mekanlarının bulunduğu modern semt.
+
+
+## 🍽️ Ne Yenir ve İçilir?
+- **Tagine:** Koni şeklindeki toprak kaplarda yavaş pişen, et ve sebze yemeği.
+
+- **Nane Çayı (Berber Whiskey):** Fas misafirperverliğinin sembolü. Bol şekerli ve yüksekten doldurularak servis edilir.
+
+- **Pazarlık:** Pazarlarda fiyat sormak bir oyunun başlangıcıdır. İlk söylenen fiyatın yarısını teklif etmek normal karşılanır.
+
+- **Kıyafet:** Saygılı olun; çok açık kıyafetlerden kaçınmak, özellikle dini alanlarda önemlidir.
+
+## 🚇 Ulaşım İpuçları
+- **Yürüyüş:** Medina sadece yürüyerek keşfedilebilir ama kaybolmaya hazır olun!
+- **Petit Taxi:** Şehir içi kısa mesafeler için ekonomik ve pratik olan bu küçük arabaları kullanın (mutlaka taksimetre açtırın).
+
+## 💎 Lokal Sırlar & İpuçları
+- [Majorelle Bahçesi](search:Jardin Majorelle): Yves Saint Laurent'ın şehre mirası olan bu masmavi bahçeyi mutlaka sabah erken saatlerde ziyaret edin.
+- **Bahia Sarayı:** Fas mimarisinin ve çini sanatının en güzel örneklerini burada görebilirsiniz.
+
+- [Jemaa el-Fna](search:Jemaa el-Fna): Güneş battığında bu meydan dev bir açık hava mutfağına ve gösteri alanına dönüşür; bir teras kafesinden izlemek harikadır.''';
+
+  static const _marakesEN = '''# Marrakech Guide: Spices, Palaces & Desert Soul 🇲🇦
+
+Marrakech, known as the "Red City," is a sensory feast of intricate architecture, bustling souks, and vibrant colors—a true oasis that stays in the heart forever.
+
+## 📅 Best Time to Visit
+- **Spring (March-May) & Autumn (October-November):** The most pleasant temperatures for exploring the city and the nearby desert.
+- **Summer:** Be warned, July and August can see temperatures soaring above 45°C (113°F).
+- **Tip:** Visiting during Ramadan offers a unique spiritual atmosphere, but be aware that daytime schedules for shops and cafes may change.
+
+## 🏘️ Neighborhood Guide
+- **Medina (Old City):** The historic core. A labyrinth of markets (souks), stunning palaces, and traditional courtyard houses (Riads).
+
+- [Gueliz](search:Gueliz): The modern French-inspired district filled with contemporary art galleries, chic cafes, and high-street shopping.
+- **Hivernage:** The upscale modern quarter, home to luxury international hotels and the city's best nightlife.
+
+
+## 🍽️ Food & Dining Etiquette
+- **Tagine:** Slow-cooked stews named after the conical clay pot they are cooked in. An absolute staple of Moroccan cuisine.
+
+- **Mint Tea (Berber Whiskey):** The symbol of Moroccan hospitality, served hot, sweet, and poured from a height to create foam.
+- **Bargaining:** In the souks, haggling is expected and considered a social interaction. Aim to start at about half the initial asking price.
+- **Dress Code:** To show respect for local customs, it's recommended to dress modestly, especially when away from the modern hotel pool areas.
+
+## 🚇 Transportation Tips
+- **Walking:** The only way to navigate the deep Medina alleys. Use offline maps as signal can be spotty.
+- **Petit Taxis:** Small brown cars for city transfers. They are inexpensive, but always insist on using the meter (the "compteur").
+
+## 💎 Local Secrets & Insights
+- [Jardin Majorelle](search:Jardin Majorelle): The famous cobalt-blue garden owned by Yves Saint Laurent. Buy tickets online in advance to avoid long queues.
+- **Bahia Palace:** A 19th-century masterpiece showing the very best of Islamic architecture and Moroccan mosaics (zellij).
+
+- [Jemaa el-Fna](search:** Jemaa el-Fna): at Night: As dusk falls, the main square transforms into a massive open-air grill. Watch the chaos from a safe distance at a rooftop cafe.''';
+
+  // DUBAI
+  static const _dubaiTR = '''# Dubai Rehberi: Çölün Ortasında Bir Gelecek Vizyonu 🇦🇪
+
+Dubai; imkansızın mümkün kılındığı, dünyanın en yüksek binalarının, lüksün ve sınırsız eğlencenin çöl kumlarıyla buluştuğu bir modern çağ mucizesidir.
+
+## 📅 Ne Zaman Gidilir?
+- **Kış (Altın Sezon - Kasım'dan Mart'a):** Hava mükemmeldir. Plaj, safari ve açık hava etkinlikleri için en iyi zaman.
+- **Yaz:** Sıcaklık 50 dereceye yaklaşabilir. Sadece kapalı alanlar ve dev alışveriş merkezleri için uygundur.
+
+## 🏘️ Semt Rehberi
+- [Downtown Dubai](search:Downtown Dubai): Burj Khalifa ve Dubai Mall'un olduğu, şehrin kalbi ve gösterişin merkezi.
+- [Dubai Marina](search:Dubai Marina): Gökdelenler arasında yürüyüş yolları, şık yatlar ve plaj keyfi için en iyi bölge.
+- **Old Dubai (Deira & Bur Dubai):** Şehrin kökleri. Altın ve Baharat çarşılarının olduğu, geleneksel hayatın sürdüğü bölge.
+
+- [Palm Jumeirah](search:Palm Jumeirah): Dünyanın en büyük yapay adası; lüks oteller ve tatil köyü atmosferi.
+
+## 🍽️ Ne Yenir ve İçilir?
+- **Uluslararası Mutfak:** Dubai'de dünyanın her yerinden en iyi şeflerin restoranlarını bulabilirsiniz.
+- **Geleneksel Tatlar:** Humus, Manousheh ve Luqaimat (şerbetli tatlı) mutlaka denenmeli.
+- **Adab-ı Muaşeret:** Halka açık yerlerde sevgi gösterilerinde aşırıya kaçmamak ve yerel kültüre saygılı giyinmek önemlidir. Alkol sadece lisanslı mekanlarda (oteller, barlar) tüketilebilir.
+
+
+## 🚇 Ulaşım İpuçları
+- **Dubai Metrosu:** Sürücüsüz, son derece modern ve temiz. "Gold Class" vagonuyla en önden şehir manzarasını izleyebilirsiniz.
+- **Taksiler ve Careem:** Taksiler nispeten ucuzdur. Careem (yerel Uber) ulaşım için çok yaygındır.
+
+## 💎 Lokal Sırlar & İpuçları
+- **Abra Yolculuğu:** [Dubai Creek](search:Dubai Creek)'te karşıdan karşıya geçmek için kullanılan geleneksel tekneler sadece 1-2 Dirhem'dir; en ucuz ve keyifli deneyimdir.
+- **Al Qudra Gölleri:** Şehir merkezinden uzakta, çölde yıldızları izlemek ve gün batımı pikniği yapmak için yerlilerin tercihidir.
+
+- [Burj Khalifa](search:** Burj Khalifa): İpucu: Manzara için biletinizi haftalar öncesinden online alın; gün batımı saatleri en popüler olanlardır.''';
+
+  static const _dubaiEN = '''# Dubai Guide: A Vision of the Future in the Desert 🇦🇪
+
+Dubai is a modern marvel where the impossible becomes possible—a city of record-breaking skyscrapers, unparalleled luxury, and boundless entertainment where desert sands meet the sea.
+
+## 📅 Best Time to Visit
+- **Winter (The Golden Season - Nov to March):** The pleasant weather makes it ideal for the beach, desert safaris, and outdoor festivals.
+- **Summer:** Extreme heat (often 45°C+) means life moves entirely indoors to the massive, air-conditioned malls and attractions.
+
+## 🏘️ Neighborhood Guide
+- [Downtown Dubai](search:Downtown Dubai): The heart of the city, home to the Burj Khalifa, the Dubai Fountain, and the world's largest mall.
+- [Dubai Marina](search:Dubai Marina): A futuristic shoreline featuring high-rise apartments, the Marina Walk, and great beach access.
+- **Old Dubai (Deira & Bur Dubai):** The roots of the city. Visit the traditional Gold and Spice souks across the Creek.
+
+- [Palm Jumeirah](search:Palm Jumeirah): The world's largest man-made island, known for its luxury resorts like Atlantis and upscale beach clubs.
+
+## 🍽️ Food & Dining Etiquette
+- **Global Gastronomy:** With 200+ nationalities, you can find every world cuisine from Michelin-starred dining to authentic street food.
+
+- **Local Flavors:** Try Middle Eastern staples like Hummus, Manakish, and the sweet, fried dumplings called Luqaimat.
+- **Etiquette:** Dress respectfully in public areas (shoulders and knees covered in malls). Public displays of affection should be kept modest. Alcohol is served in licensed hotels and bars.
+
+## 🚇 Transportation Tips
+- **Dubai Metro:** A clean, driverless, and futuristic rail system. For a few extra Dirhams, the "Gold Class" cabin offers the best views from the front.
+- **Taxis & Careem:** Government taxis are plentiful and fair. Careem is the local ride-hailing app, essential for getting around quickly.
+
+## 💎 Local Secrets & Insights
+- **The Abra Ride:** Crossing the [Dubai Creek](search:Dubai Creek) in a traditional wooden boat costs only 1 Dirham—the most authentic and affordable experience in town.
+
+- **Al Qudra Lakes:** A man-made desert oasis perfect for a sunset picnic or stargazing, far from the city's neon lights.
+
+- [Burj Khalifa](search:** Burj Khalifa): View: Book your "At The Top" tickets online weeks in advance; choosing a slot just before sunset gives you the best of both day and night views.''';
+
+  // HONG KONG
+  static const _hongKongTR = '''# Hong Kong Rehberi: Gökyüzü ve Denizin Buluştuğu Dev Metropol 🇭🇰
+
+Hong Kong; sislere bürünmüş yeşil tepelerin, devasa gökdelenlerin ve hareketli limanların oluşturduğu benzersiz bir siluete sahip, Doğu ile Batı'nın en dinamik karışımıdır.
+
+## 📅 Ne Zaman Gidilir?
+- **Sonbahar (Ekim-Aralık):** Nem azdır, hava güneşli ve serindir; gezmek için en mükemmel dönemdir.
+- **Bahar (Mart-Nisan):** Keyifli olabilir ama sisli günlere hazırlıklı olun.
+
+## 🏘️ Semt Rehberi
+- **Central:** İş dünyasının kalbi, lüks mağazalar ve ünlü gece hayatı bölgesi Lan Kwai Fong burada yer alır.
+
+- **Tsim Sha Tsui (TST):** Victoria Limanı'nın en güzel manzarası, müzeler ve alışveriş merkezlerinin olduğu bölge.
+
+- [Mong Kok](search:Mong Kok): Dünyanın en yoğun bölgelerinden biri; sokak pazarları ve gerçek bir Hong Kong kaosu için gidilmeli.
+- [Causeway Bay](search:Causeway Bay): Alışverişin başkenti; hiç sönmeyen ışıklar ve dev mağazalar.
+
+## 🍽️ Ne Yenir ve İçilir?
+- **Dim Sum:** Hong Kong mutfağının kalbidir. *Tim Ho Wan* gibi yerlerde dünyanın en ucuz Michelin yıldızlı yemeğini yiyebilirsiniz.
+
+- [Roast Goose](search:Roast Goose): Çıtır derili fırın kaz eti buranın bir diğer spesiyalidir.
+- **Yemek Adabı:** Masada paylaşımlı oturmak (daap toi) çok yaygındır; tanımadığınız biriyle aynı masada yemek yemeye hazır olun.
+- **Çay:** Restoranlarda oturduğunuzda ilk gelen çay genellikle bardakları temizlemek içindir, hemen içmeyin!
+
+## 🚇 Ulaşım İpuçları
+- **Octopus Card:** Sadece ulaşımda değil, marketlerde ve kafelerde de geçen bu kart Hong Kong'da hayatta kalma kitidir.
+- **Star Ferry:** Hong Kong Adası ile Kowloon arasında sadece birkaç dakikada geçen bu tarihi feribot, dünyanın en keyifli ulaşım yollarından biridir.
+- **MTR:** Dünyanın en verimli metro sistemlerinden biri; her yere ulaşır.
+
+
+## 💎 Lokal Sırlar & İpuçları
+- [Victoria Peak](search:Victoria Peak): Tepeye çıkmak için meşhur füniküler (Peak Tram) yerine 15 numaralı otobüsü kullanın; yolculuk daha uzun sürer ama manzara harikadır.
+- [Dragon's Back](search:Dragon's Back): Şehir merkezinden sadece 30 dakikada ulaşabileceğiniz bu yürüyüş rotası, gökdelenlerin ardındaki muhteşem doğayı gösterir.
+- [Lamma Adası](search:Lamma Island): Araba trafiğinin olmadığı bu adaya gidip taze deniz mahsulleri yiyerek şehirden tamamen uzaklaşabilirsiniz.''';
+
+  static const _hongKongEN = '''# Hong Kong Guide: Where Skyscrapers Meet the Sea 🇭🇰
+
+Hong Kong is a vertical marvel—a city of mist-covered green peaks, endless skyscrapers, and a bustling harbor that serves as the world's most dynamic crossroads between East and West.
+
+## 📅 Best Time to Visit
+- **Autumn (October-December):** Low humidity, clear skies, and mild temperatures make this the absolute best time for sightseeing.
+- **Spring (March-April):** Pleasant weather, though be prepared for occasional fog and humidity.
+
+## 🏘️ Neighborhood Guide
+- **Central:** The financial heart, home to world-class dining, upscale malls, and the famous nightlife of Lan Kwai Fong.
+
+- **Tsim Sha Tsui (TST):** Offers the quintessential skyline view of Hong Kong Island, along with the Cultural Centre and luxury hotels.
+
+- [Mong Kok](search:Mong Kok): One of the most densely populated spots on Earth—visit for street markets, neon signs, and authentic local energy.
+- [Causeway Bay](search:Causeway Bay): A neon-lit shopping paradise where department stores and boutiques stay open late into the night.
+
+## 🍽️ Food & Dining Etiquette
+- **Dim Sum:** The soul of Hong Kong dining. Experience Michelin-starred excellence at affordable prices at spots like *Tim Ho Wan*.
+
+- [Roast Goose](search:Roast Goose): Known for its crispy skin and tender meat, it's a gourmet local favorite.
+- **Dining Etiquette:** Table sharing ("daap toi") is very common in busy restaurants; don't be surprised if you're seated next to strangers.
+- **Tea Ritual:** The first pot of tea served in traditional spots is often intended for rinsing your chopsticks and bowl—watch the locals before you sip!
+
+## 🚇 Transportation Tips
+- **Octopus Card:** A must-have rechargeable card used for all public transport, convenience stores, and many cafes.
+- **Star Ferry:** Crossing between Kowloon and Hong Kong Island on this historic ferry is arguably the world’s most scenic (and cheapest) commute.
+- **MTR:** Exceptionally clean, fast, and punctual—the MTR covers almost every corner of the metropolitan area.
+
+
+## 💎 Local Secrets & Insights
+- [Victoria Peak](search:Victoria Peak): Instead of the crowded Peak Tram, take Bus 15 from Central. It’s cheaper and offers stunning winding views of the island's lush hills.
+- [Dragon's Back Hike](search:Dragon's Back): A stunning ridge-top walk just 30 minutes from the city center, offering breathtaking views of the coastline and beaches.
+- [Lamma Island](search:Lamma Island): A car-free sanctuary just a ferry ride away. Go for the fresh seafood restaurants and the peaceful, bohemian vibe.''';
+
+  // DUBLIN
+  static const _dublinTR = '''# Dublin Rehberi: Edebiyat, Publar ve Samimi Bir Ruh 🇮🇪
+
+Dublin; Georgian tarzı sokakları, bin yıllık tarihi, meşhur bira kültürü ve dünyanın en sıcakkanlı insanlarıyla bilinen samimi bir başkenttir.
+
+## 📅 Ne Zaman Gidilir?
+- **St. Patrick's Day (17 Mart):** Şehrin tamamen yeşile büründüğü ve dünyanın en büyük partisine dönüştüğü dönem.
+- **Yaz (Haziran-Ağustos):** Günlerin çok uzun olduğu ve parkların keyfinin en iyi çıkarıldığı zaman.
+- **İpucu:** Dublin'de hava her an değişebilir; "dört mevsimi bir günde yaşama" hazırlıklı olun ve yanınızda mutlaka hafif bir yağmurluk bulundurun.
+
+## 🏘️ Semt Rehberi
+- **Temple Bar:** Renkli publar ve sokak sanatçılarıyla şehrin turistik kalbi. Akşamları çok canlıdır.
+- [Grafton Street & Around](search:Grafton Street & Around): Şık alışveriş caddeleri, St. Stephen’s Green parkı ve Trinity College'ın olduğu nezih bölge.
+- [Smithfield](search:Smithfield): Eskiden endüstriyel olan, şimdi modern müzeler (Jameson Distillery gibi) ve trend kafelerle dolu hipster mahallesi.
+
+## 🍽️ Ne Yenir ve İçilir?
+- **Irish Stew:** Kuzu eti, patates ve havuçla yapılan geleneksel ve iç ısıtan bir tencere yemeği.
+
+- [Guinness](search:Guinness): İrlanda'nın simgesi olan siyah bira. St. James's Gate'deki fabrikasında (Guinness Storehouse) tadına bakmak bir Dublin klasiğidir.
+- **Pub Kültürü:** İrlanda'da publar sadece içki içilen yerler değil, toplumsallaşmanın kalbidir. Genelde canlı İrlanda müziği eşlik eder.
+- **Tur:** Birine bir içki ısmarlamak ("Buying a round") arkadaşlık kurmanın en hızlı yoludur.
+
+
+## 🚇 Ulaşım İpuçları
+- **Luas:** Şehir içi ulaşımı sağlayan modern ve hızlı tramvay hattı.
+
+- **DART:** Sahil şeridi boyunca giden tren. Dublin'den uzaklaşıp deniz havası almak için idealdir.
+
+- **Yürüyüş:** Dublin merkezi oldukça kompakttır; çoğu yer birbirine yürüme mesafesindedir.
+
+## 💎 Lokal Sırlar & İpuçları
+- **Trinity College Kütüphanesi:** Dünyanın en güzel kütüphanelerinden biridir ve bin yıllık "Book of Kells" el yazmasına ev sahipliği yapar.
+
+- **Phoenix Park:** Avrupa'nın en büyük şehir parklarından biri. İçinde serbestçe dolaşan geyikleri görebilirsiniz.
+
+- **Howth Cliff Walk:** Şehir merkezinden DART ile 25 dakikada ulaşabileceğiniz bu falez yürüyüşü, muhteşem bir okyanus manzarası sunar.''';
+
+  static const _dublinEN = '''# Dublin Guide: Literature, Pubs & A Warm Soul 🇮🇪
+
+Dublin is a city of stories—from its Viking roots and Georgian architecture to its legendary pub culture and world-famous literary heritage. It’s a capital that feels like a friendly village.
+
+## 📅 Best Time to Visit
+- **St. Patrick's Day (March 17):** When the entire city turns green for a week-long celebration. It’s crowded but an unforgettable experience.
+- **Summer (June-August):** Offers the longest days and the best chance of dry weather for exploring the coastal outskirts.
+- **Tip:** Dublin weather is famously fickle. You will often experience "four seasons in one day"—always carry a light waterproof jacket.
+
+## 🏘️ Neighborhood Guide
+- **Temple Bar:** The cultural quarter known for its cobblestone streets, vibrant pubs, and street performers. Touristy but essential.
+- [Trinity & Grafton St](search:Trinity & Grafton St): The elegant heart of the city, featuring upscale shopping, historic colleges, and the beautiful St. Stephen's Green park.
+- [Smithfield](search:Smithfield): A trendy district home to the Jameson Distillery, independent cinemas, and great brunch spots.
+
+## 🍽️ Food & Dining Etiquette
+- **Irish Stew:** A hearty, traditional stew made with lamb, potatoes, and root vegetables.
+
+- [Guinness](search:Guinness): More than just a beer, it’s a national symbol. The freshest pints are pulled right here in Dublin (visit the Guinness Storehouse for the full story).
+- **Pub Etiquette:** In Ireland, a pub is the living room of the community. "Bought rounds" are common—if someone buys you a drink, you are expected to buy the next one for the group.
+- **Live Music:** Look for pubs hosting "Trad Sessions"—impromptu gatherings of traditional Irish musicians.
+
+
+## 🚇 Transportation Tips
+- **The Luas:** Dublin's efficient tram system with two main lines (Green and Red) connecting the suburbs to the center.
+
+- **DART:** The coastal train—perfect for a day trip to the seaside villages of Howth or Dalkey.
+
+- **Leap Card:** A prepaid card that saves money on all city buses, trams, and trains.
+
+## 💎 Local Secrets & Insights
+- **The Long Room (Trinity College):** One of the most beautiful libraries in the world, home to the ancient Book of Kells.
+
+- **Phoenix Park:** One of the largest walled city parks in Europe. Keep an eye out for the herds of wild fallow deer that roam freely.
+
+- **Howth Cliff Walk:** Just 25 minutes from the center via DART, this rugged coastal path offers stunning views of the Irish Sea and fresh seafood at the harbor.''';
+  // ===================================
+  // FEATURED ARTICLES
+  // ===================================
+  static String getArticleContent(String articleId, bool isEnglish) {
+    switch (articleId) {
+      case 'winter_routes':
+        return isEnglish ? _winterRoutesEN : _winterRoutesTR;
+      case 'hidden_gems':
+        return isEnglish ? _hiddenGemsEN : _hiddenGemsTR;
+      case 'gastronomy':
+        return isEnglish ? _gastronomyEN : _gastronomyTR;
+      case 'romantic':
+        return isEnglish ? _romanticEN : _romanticTR;
+      default:
+        return isEnglish ? "# Coming Soon\n\nThis article is being written!" : "# Çok Yakında\n\nBu makale hazırlanıyor!";
+    }
+  }
+
+  static const _winterRoutesTR = '''# Kış Tatili İçin En İyi 5 Rota
+
+Kışın Avrupa bir başka güzel. Karlı çatılar, sıcak şarap kokusu ve peri masalı gibi sokaklar... İşte soğuğu sevdirecek 5 harika rota.
+
+## 1. Rovaniemi, Finlandiya
+Noel Baba'nın resmi evi! Kuzey ışıklarını (Aurora Borealis) izlemek, husky kızağına binmek ve buz otelde kalmak için dünyadaki en iyi yer.
+> **İpucu:** Termal içliklerinizi unutmayın, hava -20 dereceyi görebilir!
+
+## 2. Viyana, Avusturya
+**Şehir bir balo salonu gibi. [Rathausplatz](search:**Rathausplatz Vienna)'daki devasa buz pisti ve her köşedeki zarif kafeler. Cafe Central'de sıcak çikolata ve Sachertorte bir ritüeldir.
+
+## 3. Prag, Çekya
+[Karl köprüsü](search:Charles Bridge) karlar altındayken adeta bir Game of Thrones sahnesi. Eski Şehir Meydanı'ndaki gotik kuleler sisler arasında büyüleyici görünür. Trdelník (tarçınlı tatlı) yiyerek ısının.
+
+## 4. Tromsø, Norveç
+Kutup dairesinin kalbi. Balina izleme turları ve gece yarısı güneşinin tersi "polar gece" deneyimi. Şehir hayatı ve vahşi doğa iç içe.
+
+## 5. Zermatt, İsviçre
+[Matterhorn](search:Matterhorn) dağının gölgesinde, araç trafiğine kapalı bir masal kasabası. Dünyanın en iyi kayak pistleri ve fondü restoranları burada.
+''';
+
+  static const _winterRoutesEN = '''# Top 5 Winter Holiday Routes
+
+Europe is uniquely beautiful in winter. Snowy rooftops, the scent of mulled wine, and fairytale streets... Here are 5 routes that will make you love the cold.
+
+## 1. Rovaniemi, Finland
+**The official hometown of Santa Claus! The best place on earth to watch the Northern Lights (Aurora Borealis), ride husky sleds, and sleep in an ice hotel.
+> **Tip:** Don't forget your thermal layers; temperatures can drop to -20°C!
+
+## 2. Vienna, Austria
+The city looks like a ballroom. The massive ice rink at [Rathausplatz](search:Rathausplatz Vienna) and elegant cafes on every corner. Hot chocolate and Sachertorte at Cafe Central is a ritual.
+
+## 3. Prague, Czechia
+[Charles Bridge](search:Charles Bridge) under snow looks like a scene from Game of Thrones. The gothic towers of [Old Town Square](search:Old Town Square Prague) look mesmerizing in the mist. Warm up with a Trdelník (cinnamon pastry).
+
+## 4. Tromsø, Norway
+The heart of the Arctic Circle. Whale watching tours and the "polar night" experience. City life and wild nature intertwined.
+
+## 5. Zermatt, Switzerland
+A car-free fairytale village in the shadow of the [Matterhorn](search:Matterhorn). Home to the world's best ski slopes and fondue restaurants.
+''';
+
+  static const _hiddenGemsTR = '''# Avrupa'nın Gizli Hazineleri
+
+Herkes Paris ve Roma'ya giderken, siz kalabalıktan uzak bu büyüleyici kasabaları keşfedin.
+
+## 1. Matera, İtalya
+Taş devrinden kalma mağara evlerin olduğu bu şehir, sanki başka bir gezegen. James Bond filminin çekildiği o mistik sokaklar.
+> **İpucu:** [Sassi di Matera](search:Sassi di Matera) bölgesindeki bir mağara otelde konaklayın.
+
+## 2. Giethoorn, Hollanda
+"Kuzeyin Venedik'i" ama motor sesi yok. Sadece elektrikli sessiz tekneler, saz çatılı evler ve kanallar. Tam bir huzur cenneti.
+
+## 3. Kotor, Karadağ
+Fiyortların arasında saklanmış ortaçağ şehri. Kedileriyle meşhur! [Kale surlarına](search:Kotor Fortress) tırmanıp o muhteşem manzarayı izlemek paha biçilemez.
+
+## 4. Colmar, Fransa
+Alsace şarap yolunun başkenti. Yarı ahşap renkli evleriyle Disney filmi (Güzel ve Çirkin) setinden fırlamış gibi.
+
+## 5. Sintra, Portekiz
+Lizbon'a sadece 40 dakika ama bambaşka bir dünya. Pena Sarayı'nın sarı-kırmızı renkleri ve sisli ormanlar. Mistik ve romantik.
+''';
+
+  static const _hiddenGemsEN = '''# Europe's Hidden Gems
+
+While everyone goes to Paris and Rome, distinct yourself by exploring these enchanting towns away from the crowds.
+
+## 1. Matera, Italy
+A city of cave dwellings dating back to the Stone Age; it feels like another planet. The mystical streets where James Bond was filmed.
+> **Tip:** Stay in a cave hotel in the [Sassi di Matera](search:Sassi di Matera) district.
+
+## 2. Giethoorn, Netherlands
+"Venice of the North" but without engine noise. Only silent electric boats, thatched-roof houses, and canals. A total haven of peace.
+
+## 3. Kotor, Montenegro
+A medieval city hidden among fjords. Famous for its cats! Climbing the [fortress walls](search:Kotor Fortress) to see that magnificent view is priceless.
+
+## 4. Colmar, France
+Capital of the Alsace wine route. With its half-timbered colorful houses, it looks straight out of a Disney movie (Beauty and the Beast).
+
+## 5. Sintra, Portugal
+Only 40 minutes from Lisbon but a different world. The yellow-red colors of Pena Palace and misty forests. Mystical and romantic.
+''';
+
+  static const _gastronomyTR = '''# Gastronomi Tutkunları İçin
+
+Midenizin bayram edeceği, diyeti bozduracak 5 lezzet başkenti.
+
+## 1. San Sebastian, İspanya
+Dünyada metrekareye en çok Michelin yıldızı düşen şehir! Ama asıl olay barlardaki "Pintxos"lar. Tezgahın üzerindeki her şeyden bir tane alın.
+
+## 2. Lyon, Fransa
+Paris değil, Fransa'nın gerçek yemek başkenti Lyon'dur. "Bouchon" adı verilen geleneksel lokantalarda soğan çorbası ve ördek konfit yiyin.
+
+## 3. Bologna, İtalya
+Lakabı "La Grassa" (Şişman). Çünkü yemekler o kadar güzel! Gerçek Bolonez sos (Ragù) burada yenir ama spagettiyle değil, Tagliatelle ile!
+
+## 4. Gaziantep, Türkiye
+UNESCO Gastronomi şehri. Sabah beyran, öğlen küşleme, tatlı olarak katmer. Dünyanın en iyi mutfaklarından biri.
+
+## 5. Kopenhag, Danimarka
+**"Yeni İskandinav Mutfağı"nın evi. [Noma](search:**Noma Copenhagen) gibi efsaneler burada. Sadece fine-dining değil, Smørrebrød (açık sandviç) kültürü de harika.
+''';
+
+  static const _gastronomyEN = '''# For Gastronomy Lovers
+
+5 delicious capitals where your stomach will celebrate and diets will be broken.
+
+## 1. San Sebastian, Spain
+The city with the most Michelin stars per square meter in the world! But the real deal involves "Pintxos" in bars. Grab one of everything on the counter.
+
+## 2. Lyon, France
+Not Paris, but Lyon is the true food capital of France. Eat onion soup and duck confit in traditional restaurants called "Bouchon".
+
+## 3. Bologna, Italy
+Nicknamed "La Grassa" (The Fat One). Because the food is that good! Real Bolognese sauce (Ragù) is eaten here, but with Tagliatelle, not spaghetti!
+
+## 4. Gaziantep, Turkey
+UNESCO City of Gastronomy. Beyran for breakfast, Küşleme for lunch, Katmer for dessert. One of the best cuisines on earth.
+
+## 5. Copenhagen, Denmark
+**Home of "New Nordic Cuisine". Legends like [Noma](search:**Noma Copenhagen) are here. Not just fine dining, but the Smørrebrød (open sandwich) culture is also amazing.
+''';
+
+  static const _romanticEN = '''# Romantic Weekend Getaways
+
+Perfect routes for a weekend trip with your loved one.
+
+## 1. Venice, Italy
+Yes, it's cliché, but getting lost in the canals at night is unbeatable. Suggestion: Go to the Dorsoduro district, calmer and more local.
+
+## 2. Bruges, Belgium
+Like a chocolate box. Medieval buildings, swans in canals, and the smell of waffles everywhere. Rent a bike and cycle to the windmills.
+
+## 3. Santorini, Greece
+**Watching the sunset in [Oia](search:**Oia Santorini) is a bucket list item. White houses with blue domes and the vast Aegean Sea.
+> **Tip:** Stay in [Imerovigli](search:Imerovigli) instead of Oia for better views and fewer crowds.
+
+## 4. Heidelberg, Germany
+Germany's most romantic city. An old castle on the hill, the Neckar river below, and the philosophical walking path ([Philosophenweg](search:Philosophenweg)).
+
+## 5. Seville, Spain
+Passion, flamenco, and orange trees. Taking a carriage ride in [Plaza de España](search:Plaza de España) and getting lost in the Santa Cruz neighborhood.
+''';
+
+  static const _romanticTR = '''# Romantik Haftasonu Kaçamakları
+
+Sevdiğinizle baş başa bir haftasonu için mükemmel rotalar.
+
+## 1. Venedik, İtalya
+Evet klişe ama gece kanallarda kaybolmanın yerini hiçbir şey tutamaz. Öneri: Dorsoduro bölgesine gidin, daha sakin ve lokal.
+
+## 2. Brugge, Belçika
+Bir çikolata kutusu gibi. Ortaçağ binaları, kanallarda kuğular ve her yerde waffle kokusu. Bisiklet kiralayıp yel değirmenlerine sürün.
+
+## 3. Santorini, Yunanistan
+[Oia](search:Oia Santorini)'da gün batımını izlemek ölmeden önce yapılacaklar listesinde. Mavi kubbeli beyaz evler ve sonsuz Ege denizi.
+> **İpucu:** Daha iyi manzara ve daha az kalabalık için Oia yerine [Imerovigli](search:Imerovigli)'de kalın.
+
+## 4. Heidelberg, Almanya
+Almanya'nın en romantik şehri. Tepede eski bir kale, aşağıda Neckar nehri ve filozoflar yolu ([Philosophenweg](search:Philosophenweg)).
+
+## 5. Sevilla, İspanya
+Tutku, flamenko ve portakal ağaçları. [Plaza de España](search:Plaza de España)'da fayton turu yapmak ve Santa Cruz mahallesinde kaybolmak.
+''';
+
+  // ANTALYA
+  static const _antalyaTR = '''# Antalya Rehberi: Akdeniz'in Mavi İncisi 🇹🇷
+
+Antalya sadece otellerden ibaret değildir; antik kentleri, şelaleleri ve yaşayan tarihiyle Akdeniz'in en güzel liman şehirlerinden biridir.
+
+## 📅 Ne Zaman Gidilir?
+- **İlkbahar ve Sonbahar:** Nisan-Mayıs ve Eylül-Ekim ayları hem gezmek hem de denize girmek için en ideal sıcaklıkları sunar.
+- **Yaz:** Çok sıcak olabilir ama gece hayatı ve plajlar en canlı dönemini yaşar.
+- **İpucu:** Ekim ayında deniz suyu hala sıcacıktır ve kalabalıklar azalmıştır.
+
+## 🏘️ Semt Rehberi
+- [Kaleiçi](search:Kaleiçi): Şehrin kalbi. Tarihi Osmanlı evleri, Hadrian Kapısı ve daracık sokaklarıyla görsel bir şölen.
+- [Lara](search:Lara): Daha modern, lüks kafeler ve restoranların olduğu, sahil şeridi boyunca uzanan bölge.
+- [Konyaaltı](search:Konyaaltı): Şehrin diğer ucu; uzun plajı ve arkasındaki heybetli dağ manzarasıyla ünlüdür.
+
+## 🍽️ Ne Yenir ve İçilir?
+- [Piyaz](search:Piyaz): Antalya usulü piyaz tahinli olur! Köftenin yanında mutlaka isteyin. *Piyazcı Sami* bir klasiktir.
+- **Yanık Dondurma:** Keçi sütünden yapılan ve hafif yanık tadı olan bu dondurma şehre özgüdür.
+- **Serpme Börek:** Sabah kahvaltısında incecik açılmış, kıymalı veya peynirli serpme börek yemeden dönmeyin.
+
+
+## 🚇 Ulaşım İpuçları
+- **Antray:** Havalimanından şehir merkezine ve otogara ulaşım için modern tramvay hattını kullanın.
+
+- **Nostaljik Tramvay:** Kaleiçi'nin üst tarafında sahil boyunca giden bu tramvay harika manzaralar sunar.
+
+## 💎 Lokal Sırlar & İpuçları
+- [Düden Şelalesi](search:Duden Waterfalls): Şelalenin denize döküldüğü noktayı görmek için Lara tarafındaki parka gidin; manzara büyüleyicidir.
+- [Falezler](search:Falezler): Konyaaltı Varyant'tan inerek falezlerin altındaki plajları keşfedin; su burada kristal berraklığındadır.
+- **Likya Yolu:** Dünyanın en iyi yürüyüş rotalarından biri buradan başlar; en azından kısa bir parkurunu yürüyün.''';
+
+  static const _antalyaEN = '''# Antalya Guide: The Blue Pearl of the Mediterranean 🇹🇷
+
+Antalya is far more than just resorts; it's a vibrant port city filled with ancient ruins, cascading waterfalls, and living history.
+
+## 📅 Best Time to Visit
+- **Spring & Autumn:** April-May and September-October offer perfect temperatures for both sightseeing and swimming.
+- **Summer:** Can be intensely hot, but the beaches and nightlife are at their peak.
+- **Tip:** In October, the sea water is still warm, and the summer crowds have dispersed.
+
+## 🏘️ Neighborhood Guide
+- [Kaleiçi (Old Town)](search:Kaleiçi (Old Town): The historic heart. A visual feast of Ottoman houses, Hadrian's Gate, and narrow cobbled streets.
+- [Lara](search:Lara): The modern side, stretching along the cliffs with upscale cafes, restaurants, and parks.
+- [Konyaaltı](search:Konyaaltı): Famous for its long pebble beach backed by majestic mountains.
+
+## 🍽️ Food & Dining Etiquette
+- [Piyaz](search:Piyaz): Antalya-style bean salad is unique because it's made with tahini! A must-have side dish with meatballs.
+- **Burnt Ice Cream (Yanık Dondurma):** Made from goat's milk with a distinct smoky flavor—a local specialty you won't find elsewhere.
+- **Serpme Börek:** Don't miss this flaky, hand-tossed pastry filled with cheese or meat for breakfast.
+
+
+## 🚇 Transportation Tips
+- **Antray:** Use the modern tram line to travel easily between the airport, city center, and bus terminal.
+
+- **Nostalgic Tram:** Runs along the coast above Kaleiçi, offering stunning panoramic views.
+
+## 💎 Local Secrets & Insights
+- [Lower Düden Waterfall](search:Duden Waterfalls): Visit the park in Lara to see the massive waterfall plunging directly into the sea—it's a spectacular sight.
+- [The Cliffs](search:Antalya Cliffs): Explore the beach clubs tucked under the massive cliffs near Variant for crystal-clear water.
+- **Lycian Way:** One of the world's best hiking trails starts nearby; try walking a short section for breathtaking views.''';
+
+
+  // KAPADOKYA
+  static const _kapadokyaTR = '''# Kapadokya Rehberi: Masal Diyarında Yolculuk 🇹🇷
+
+Kapadokya, doğanın ve tarihin el ele vererek yarattığı, dünyada eşi benzeri olmayan bir coğrafyadır. Peri bacaları, yeraltı şehirleri ve mağara otelleriyle sizi başka bir gezegende hissettirir.
+
+## 📅 Ne Zaman Gidilir?
+- **Bahar:** Doğa uyanırken vadilerde yürüyüş yapmak için en güzel zaman.
+- **Kış:** Karlar altındaki peri bacaları manzarası nefes kesicidir; şömine başında ısınmak çok keyiflidir.
+- **İpucu:** Balonlar sadece rüzgar uygunsa uçar; garantilemek için en az 2-3 gün kalmalısınız.
+
+## 🏘️ Bölge Rehberi
+- [Göreme](search:Göreme): Her şeyin merkezi. Açık hava müzesi ve en ikonik manzaralar burada.
+- [Ürgüp](search:Ürgüp): Daha soylu konaklar, şaraphaneler ve gece hayatı için tercih edilebilir.
+- [Uçhisar](search:Uçhisar): Bölgenin en yüksek noktası. Kalesi ve lüks butik otelleriyle meşhurdur.
+- [Avanos](search:Avanos): Kızılırmak kenarında, çömlekçiliğin ve sanatın merkezi.
+
+## 🍽️ Ne Yenir ve İçilir?
+- **Testi Kebabı:** Yemeğiniz masada kırılarak servis edilir. Hem lezzetli hem de izlemesi keyifli bir ritüeldir.
+
+- **Şarap:** Bölge binlerce yıldır bağcılık merkezidir. Yerel üzümlerden yapılan şarapları mutlaka tadın.
+- **Kabak Çiçeği Dolması:** Sabah erken toplanan çiçeklerle yapılan narin bir lezzet.
+
+
+## 💎 Lokal Sırlar & İpuçları
+- **Gün Doğumu:** Balona binmeseniz bile sabah 05:30'da kalkın ve balonların kalkışını izleyin. Göreme'deki "Aşıklar Tepesi" (Sunset Point) en iyi noktadır.
+
+- **Yeraltı Şehirleri:** Derinkuyu veya Kaymaklı'ya gidin. 8 kat aşağı inmek klostrofobik olabilir ama mühendislik karşısında büyüleneceksiniz.
+
+- **ATV Turu:** Gün batımında tozlu yollarda ATV turu yapmak, vadileri keşfetmenin en eğlenceli yoludur.''';
+
+
+  static const _kapadokyaEN = '''# Cappadocia Guide: A Journey to Fairyland 🇹🇷
+
+Cappadocia is a unique landscape created by nature and history hand in hand. With its fairy chimneys, underground cities, and cave hotels, it feels like another planet.
+
+## 📅 Best Time to Visit
+- **Spring:** The best time for hiking in the valleys as nature wakes up.
+- **Winter:** The sight of fairy chimneys under snow is breathtaking; warming up by a fireplace is pure cozy bliss.
+- **Tip:** Hot air balloons only fly if the wind permits; stay at least 2-3 days to maximize your chances.
+
+## 🏘️ Area Guide
+- [Göreme](search:Göreme): The center of it all. Home to the Open Air Museum and the most iconic views.
+- [Ürgüp](search:Ürgüp): Known for its noble stone mansions, wineries, and evening entertainment.
+- [Uçhisar](search:Uçhisar): The highest point in the region. Famous for its castle and luxury boutique cave hotels.
+- [Avanos](search:Avanos): Located by the Red River, this is the hub of pottery and local arts.
+
+## 🍽️ Food & Drink
+- **Pottery Kebab (Testi Kebabı):** A meat stew cooked in a sealed clay pot which is broken open at your table. A delicious ritual.
+
+- **Local Wine:** This region has been a winemaking center for millennia. Be sure to taste wines made from local grapes.
+- [Stuffed Pumpkin Flowers](search:Stuffed Pumpkin Flowers): A delicate delicacy made with flowers picked early in the morning.
+
+## 💎 Local Secrets & Insights
+- **Sunrise Spectacle:** Even if you don't fly, wake up at 5:30 AM to watch the balloons launch. "Sunset Point" in Göreme offers the best panoramic view.
+
+- **Underground Cities:** Visit Derinkuyu or Kaymaklı. Going 8 levels deep might challenge claustrophobia, but the engineering is mind-blowing.
+
+- **ATV Tour:** An ATV safari at sunset is the most fun way to explore the dusty trails and hidden valleys.''';
+
+
+  // GAZIANTEP
+  static const _gaziantepTR = '''# Gaziantep Rehberi: Dünyanın En Lezzetli Şehri 🇹🇷
+
+UNESCO tarafından tescillenmiş bir gastronomi şehri olan Gaziantep, sadece yemekleriyle değil; müzeleri, hanları ve çarşılarıyla da bir kültür başkentidir.
+
+## 📅 Ne Zaman Gidilir?
+- **İlkbahar ve Sonbahar:** Yürüyüş ve yemek turları için hava en uygundur.
+- **İpucu:** Yazın (Temmuz-Ağustos) sıcaklıklar 40 dereceyi aşabilir, bu aylardan kaçının.
+
+## 🍽️ Ne Yenir ve İçilir?
+- **Kahvaltı:** Burada güne "Beyran" çorbası ile başlanır. *Metanet Lokantası* en meşhurudur. Yanına ciğer kebabı da ekleyebilirsiniz.
+- **Öğle Yemeği:** *İmam Çağdaş* veya *Halil Usta*'da Lahmacun ve Küşleme (koyunun en yumuşak yeri) yiyin.
+- **Tatlı:** Baklavanın anavatanındasınız. *Koçak* veya *Zeki İnal*'da fıstıklı baklava veya sıcak "Katmer" yiyerek zirveye çıkın.
+- **Menengiç Kahvesi:** Yabani fıstıktan yapılan bu sütlü kahveyi *Tahmis Kahvesi*'nin tarihi atmosferinde için.
+
+## 🏘️ Gezilecek Yerler
+- [Zeugma Mozaik Müzesi](search:Zeugma Mozaik Müzesi): Dünyanın en büyük mozaik müzelerinden biri. Meşhur "Çingene Kızı" mozaiği burada sergileniyor.
+- [Bakırcılar Çarşısı](search:Bakırcılar Çarşısı): Çekiç sesleri arasında kaybolun. El yapımı bakır eşyalar harika birer hatıradır.
+- [Zincirli Bedesten](search:Zincirli Bedesten): Geleneksel kumaşlar (kutnu) ve baharatlar için uğrayın.
+
+## 💎 Lokal Sırlar & İpuçları
+- **Baharat Alışverişi:** Eve dönerken mutlaka pul biber, kuru patlıcan ve Antep fıstığı alın. [Almacı Pazarı](search:Almaci Pazari) bu işin merkezidir.
+
+- **Mide Kapasitesi:** Buraya gelmeden önce diyet yapın, çünkü burada durmak imkansızdır!''';
+
+
+  static const _gaziantepEN = '''# Gaziantep Guide: The World's Most Delicious City 🇹🇷
+
+A UNESCO Creative City of Gastronomy, Gaziantep is not just about food; it's a cultural capital with its world-class museums, historic inns, and bustling bazaars.
+
+## 📅 Best Time to Visit
+- **Spring & Autumn:** The weather is perfect for walking tours and endless food tasting.
+- **Tip:** Avoid July and August when temperatures can soar above 40°C.
+
+## 🍽️ Gastronomy Route (Food First!)
+- **Breakfast:** Start the day with "Beyran" soup, a spicy lamb and rice soup. *Metanet* is the legendary spot. Having liver kebab for breakfast is also a local tradition.
+- **Lunch:** Try Lahmacun and Küşleme (the tenderest cut of lamb) at iconic spots like *İmam Çağdaş* or *Halil Usta*.
+- **Dessert:** You are in the homeland of Baklava. Visit *Koçak* or *Zeki İnal* for pistachio baklava or warm "Katmer" to reach dessert heaven.
+- **Menengiç Coffee:** Drink this milky wild pistachio coffee in the historic atmosphere of *Tahmis Kahvesi*.
+
+## 🏘️ Places to Visit
+- [Zeugma Mosaic Museum](search:Zeugma Mosaic Museum): One of the largest mosaic museums in the world. The famous "Gypsy Girl" mosaic is displayed here.
+- [Coppersmith Bazaar (Bakırcılar Çarşısı)](search:Coppersmith Bazaar (Bakırcılar Çarşısı): Get lost in the rhythmic sounds of hammers. Handmade copperware makes for a beautiful souvenir.
+- [Zincirli Bedesten](search:Zincirli Bedesten): Visit this covered market for traditional fabrics (kutnu) and spices.
+
+## 💎 Local Secrets & Insights
+- **Spice Shopping:** Don't leave without buying red pepper flakes, dried eggplants, and Antep pistachios. [Almacı Market](search:Almaci Pazari) is the place to go.
+
+- **Stomach Capacity:** Go on a diet before you come, because stopping eating here is impossible!''';
+
+
+
+
+  // BELGRAD
+  static const _belgradTR = '''# Belgrad Rehberi: Balkanların Hiç Uyumayan Şehri 🇷🇸
+
+Belgrad, Tuna ve Sava nehirlerinin buluştuğu noktada, fırtınalı tarihini müthiş bir enerji ve gece hayatıyla harmanlayan beyaz şehirdir (Beo-grad).
+
+## 📅 Ne Zaman Gidilir?
+- **İlkbahar:** Parkların yeşillendiği ve nehir kenarının canlandığı en güzel zaman.
+- **Yaz:** "Splavovi" denen nehir kulüpleri açılır ve şehir tam anlamıyla sabaha kadar parti moduna girer.
+
+## 🏘️ Semt Rehberi
+- **Stari Grad (Eski Şehir):** Knez Mihailova caddesi ve çevresi. Alışveriş, kafeler ve şehrin kalbi.
+
+- **Dorćol:** Eski Türk mahallesi. Şimdi şehrin en havalı kafelerinin ve barlarının olduğu hipster bölgesi.
+
+- **Vračar:** Aziz Sava Katedrali'nin bulunduğu, geniş caddeli ve şık bir bölge.
+
+- [Zemun](search:Zemun): Eskiden Avusturya-Macaristan toprağı olan bu nehir kenarı kasabası, balık restoranları ve Arnavut kaldırımlı sokaklarıyla çok farklı bir hava sunar.
+
+## 🍽️ Ne Yenir ve İçilir?
+- **Cevapi (Cevapcici):** Balkan köftesi. *Walter* gibi zincirlerde veya yerel restoranlarda, yanında "kajmak" (kaymak) ve soğanla yiyin.
+
+- **Burek:** Bizim böreğimiz ama daha yağlı ve doyurucu. Kahvaltının vazgeçilmezidir.
+
+- **Rakija:** Erik, ayva veya kayısıdan yapılan sert meyve rakısı. Yemeğin üstüne "şifa niyetine" ikram edilir.
+
+
+## 💎 Lokal Sırlar & İpuçları
+- [Kalemegdan](search:Belgrade Fortress): Gün batımında kaleye çıkın ve iki nehrin (Sava ve Tuna) birleştiği noktayı izleyin. "Victor" heykeli buranın sembolüdür.
+- [Skadarlija](search:Skadarlija): Belgrad'ın Montmartre'ı. Canlı müzik, çiçekli restoranlar ve eski bohem hava. Turistik ama görülmeye değer.
+- [Nikola Tesla Müzesi](search:Nikola Tesla Museum): Dünyanın en büyük mucitlerinden birine adanmış bu küçük müzede, elektrik deneyimlerini bizzat yaşayabilirsiniz.''';
+
+  static const _belgradEN = '''# Belgrade Guide: The City That Never Sleeps 🇷🇸
+
+Situated at the confluence of the Danube and Sava rivers, Belgrade ("White City") blends its turbulent history with an incredible energy and world-famous nightlife.
+
+## 📅 Best Time to Visit
+- **Spring:** The best time for walking tours as parks turn green and the riverside wakes up.
+- **Summer:** The "Splavovi" (river clubs) open their doors, and the city enters full party mode until sunrise.
+
+## 🏘️ Neighborhood Guide
+- **Stari Grad (Old Town):** Centered around Knez Mihailova Street. Shopping, cafes, and the historic heart.
+
+- **Dorćol:** The historic Ottoman quarter, now the coolest hipster district filled with coffee shops and bars.
+
+- **Vračar:** An upscale area with wide boulevards, home to the massive Saint Sava Temple.
+
+- [Zemun](search:Zemun): Formerly an Austro-Hungarian town, this riverside neighborhood offers seafood restaurants and cobblestone streets with a distinct Central European vibe.
+
+## 🍽️ Food & Drink
+- **Cevapi:** Balkan meatballs. Try them at spots like *Walter*, served with "kajmak" (clotted cream) and onions.
+
+- **Burek:** A flaky pastry filled with meat or cheese. A greasy but delicious breakfast staple.
+
+- **Rakija:** A strong fruit brandy (usually plum, quince, or apricot). Often offered after meals as a digestive.
+
+
+## 💎 Local Secrets & Insights
+- [Kalemegdan Fortress](search:Belgrade Fortress): Visit at sunset to watch the confluence of the Sava and Danube rivers. The "Victor" monument stands guard here.
+- [Skadarlija](search:Skadarlija): Belgrade's Bohemian quarter. Live folk music, flower-adorned restaurants, and a vintage atmosphere. Touristy but charming.
+- [Nikola Tesla Museum](search:Nikola Tesla Museum): A small but interactive museum dedicated to one of the greatest inventors of all time. You can participate in live electrical demonstrations.''';
+
+  // SARAYBOSNA
+  static const _saraybosnaTR = '''# Saraybosna Rehberi: Avrupa'nın Kudüs'ü 🇧🇦
+
+Doğu ile Batı'nın, cami ile kilisenin, hüzün ile umudun iç içe geçtiği Saraybosna; ruhu olan, derin ve duygu dolu bir şehirdir.
+
+## 📅 Ne Zaman Gidilir?
+- **İlkbahar ve Yaz:** Şehir en canlı halini alır. Film festivali zamanı (Ağustos) çok hareketlidir.
+- **Kış:** Çevredeki olimpik dağlarda (Bjelasnica, Jahorina) kayak yapmak için idealdir.
+
+## 🏘️ Gezilecek Yerler
+- [Başçarşı (Baščaršija)](search:Başçarşı (Baščaršija): Osmanlı kalbi. Sebil, bakırcılar, ahşap dükkanlar ve güvercinli meydan.
+- [Latin Köprüsü](search:Latin Köprüsü): I. Dünya Savaşı'nın başladığı yer (Arşidük Ferdinand'ın vurulduğu nokta).
+- [Umut Tüneli (Tunel Spasa)](search:Umut Tüneli (Tunel Spasa): Savaş sırasında şehri hayata bağlayan tünel. İnsanın tüylerini diken diken eden bir deneyim.
+
+## 🍽️ Ne Yenir ve İçilir?
+- **Boşnak Böreği:** Kıymalı olana "Burek", peynirli olana "Sirnica", ıspanaklıya "Zeljanica" denir. Saçta pişer, yoğurtla yenir.
+
+- **Cevapi:** Saraybosna köftesi *Željo* veya *Hodžić* gibi yerlerde yenir. Somun ekmeği içinde gelir.
+
+- **Boşnak Kahvesi:** Türk kahvesine benzer ama sunumu farklıdır; cezve (džezva) ile gelir, yanında lokumla ikram edilir.
+
+## 💎 Lokal Sırlar & İpuçları
+- [Sarı Tabya (Žuta Tabija)](search:Yellow Bastion): Gün batımında şehri tepeden izlemek için en iyi nokta. Ramazan'da iftar topu buradan atılır.
+- [Vrelo Bosne](search:Vrelo Bosne): Faytonla gidilebilen, Bosna nehrinin kaynağının olduğu yemyeşil bir park. Şehrin gürültüsünden kaçış noktası.
+- **Doğu-Batı Çizgisi:** Ferhadija caddesinde yere bakın; "Sarajevo Meeting of Cultures" yazısını göreceksiniz. Bir taraf Osmanlı, diğer taraf Avusturya mimarisidir.''';
+
+
+  static const _saraybosnaEN = '''# Sarajevo Guide: The Jerusalem of Europe 🇧🇦
+
+Where East meets West, mosque meets church, and sorrow meets hope. Sarajevo is a city with a deep soul that touches everyone who visits.
+
+## 📅 Best Time to Visit
+- **Spring & Summer:** The city is vibrant. The Sarajevo Film Festival in August brings an extra buzz.
+- **Winter:** An affordable destination for skiing in the nearby Olympic mountains (Bjelasnica, Jahorina).
+
+## 🏘️ Places to Visit
+- **Baščaršija:** The Ottoman heart. The wooden fountain (Sebilj), coppersmith alley, and the pigeon-filled square.
+
+- **Latin Bridge:** The site of the assassination of Archduke Franz Ferdinand, which triggered World War I.
+
+- [Tunnel of Hope (Tunel Spasa)](search:Tunnel of Hope (Tunel Spasa): The tunnel that kept the city alive during the siege. A moving and humbling experience.
+
+## 🍽️ Food & Drink
+- **Bosnian Pie (Pita):** Meat pie is "Burek", cheese is "Sirnica", spinach is "Zeljanica". Crispy, flaky, and eaten with yogurt.
+
+- **Cevapi:** Sarajevo's trademark kebabs. Eat them at legends like *Željo* inside a fluffy somun bread.
+
+- **Bosnian Coffee:** Similar to Turkish coffee but served in a copper pot (džezva) with a Turkish delight on the side.
+
+## 💎 Local Secrets & Insights
+- [Yellow Bastion (Žuta Tabija)](search:Yellow Bastion): The best sunset spot overlooking the valley. During Ramadan, the cannon signaling iftar is fired from here.
+- [Vrelo Bosne](search:Vrelo Bosne): A lush park at the spring of the Bosna River. You can take a horse carriage ride down the long, tree-lined avenue to get there.
+- **East-West Line:** Look down on Ferhadija street for the "Sarajevo Meeting of Cultures" marker. Face one way to see Ottoman architecture; turn around to see Austro-Hungarian styles.''';
+
+  // KOTOR
+  static const _kotorTR = '''# Kotor Rehberi: Fiyortların Gizli Hazinesi 🇲🇪
+
+Kotor Körfezi'nin derinliklerinde, sarp dağların gölgesinde saklanan bu ortaçağ şehri, dar sokakları ve her köşede karşınıza çıkan kedileriyle ünlüdür.
+
+## 📅 Ne Zaman Gidilir?
+- **Mayıs-Haziran:** Hava mükemmeldir ve dev cruise gemileri henüz şehri istila etmemiştir.
+- **Eylül:** Deniz suyu en sıcak seviyesindedir.
+
+## 🏘️ Gezilecek Yerler
+- **Stari Grad (Eski Şehir):** Surlar içinde, Venedik mimarisiyle dolu bir labirent. Kaybolmak serbest!
+
+- **San Giovanni Kalesi:** 1350 basamak tırmanmayı göze alırsanız, tepeden göreceğiniz körfez manzarası tüm yorgunluğunuza değecektir.
+
+- [Perast](search:Perast): Kotor'a 15 dakika uzaklıkta, barok saraylarla süslü sessiz bir sahil kasabası.
+
+## 🍽️ Ne Yenir ve İçilir?
+- **Deniz Ürünleri:** Karadağ mutfağı İtalyan etkisindedir. Siyah risotto ve taze ızgara balıklar harikadır.
+
+- **Krempita:** Bölgenin meşhur kremalı tatlısı. Hafif ve çok lezzetlidir.
+
+- **Şarap:** Karadağ'ın yerel "Vranac" kırmızı şarabını deneyin.
+
+## 💎 Lokal Sırlar & İpuçları
+- [Kayaların Leydisi (Our Lady of the Rocks)](search:Our Lady of the Rocks): Perast'tan tekneyle bu yapay adaya gidin. Efsaneye göre denizcilerin attığı taşlarla oluşturulmuştur.
+- [Kedi Müzesi](search:Cats Museum Kotor): Kotor kedileriyle meşhurdur. Geliri sokak kedilerine giden bu küçük müzeyi ziyaret edebilirsiniz.
+- [Pazar](search:Pazar): Kapı önünde kurulan pazardan yerel tütsülenmiş proşutto (Njeguski prsut) ve peynir almayı unutmayın.''';
+
+  static const _kotorEN = '''# Kotor Guide: Hidden Gem of the Fjords 🇲🇪
+
+Tucked deep within the Bay of Kotor under the shadow of dramatic limestone cliffs, this medieval walled city is famous for its winding alleys and resident cats.
+
+## 📅 Best Time to Visit
+- **May-June:** Weather is perfect, and the massive cruise ship crowds haven't fully arrived yet.
+
+- **September:** The sea temperature is at its warmest.
+
+
+## 🏘️ Places to Visit
+- **Stari Grad (Old Town):** A maze of Venetian architecture inside the city walls. Getting lost here is part of the charm!
+
+- [San Giovanni Fortress](search:San Giovanni Fortress): If you dare to climb the 1350 steps, the view of the bay from the top is absolutely world-class.
+- [Perast](search:Perast): A quiet, baroque waterfront town just 15 minutes from Kotor.
+
+## 🍽️ Food & Drink
+- **Seafood:** Montenegrin cuisine is heavily influenced by Italy. Try the black risotto and fresh grilled fish.
+- **Krempita:** The local cream slice cake. Light, fluffy, and delicious.
+
+- **Wine:** Try "Vranac," the robust local red wine of Montenegro.
+
+## 💎 Local Secrets & Insights
+- [Our Lady of the Rocks](search:Our Lady of the Rocks): Take a boat from Perast to this artificial island. Legend says it was built by sailors throwing rocks into the sea over centuries.
+- [Cat Museum](search:Cats Museum Kotor): Kotor is obsessive about its cats. Visit this quirky museum where proceeds go to feeding the strays.
+- [Farmers Market](search:Farmers Market): Just outside the city walls, buy some "Njeguski prsut" (smoked ham) and local cheese from the morning market.''';
+
+  // OSLO
+  static const _osloTR = '''# Oslo Rehberi: Doğayla İç İçe Modern Yaşam 🇳🇴
+
+Oslo; fiyortların kıyısında, modern mimarinin ve ormanların buluştuğu sakin ama etkileyici bir başkenttir. Şehir hayatından kopmadan doğaya kaçmak burada mümkündür.
+
+## 📅 Ne Zaman Gidilir?
+- **Yaz:** Günlerin hiç bitmediği, insanların parklara ve fiyortlara akın ettiği en canlı dönem.
+- **Kış:** Müzeler ve kış sporları için ideal, ancak günler çok kısadır.
+
+## 🏘️ Semt Rehberi
+- [Grünerløkka](search:Grünerløkka): Şehrin hipster bölgesi. Sokak sanatı, vintage dükkanlar, kahveciler ve barlar burada.
+- [Bjørvika](search:Bjørvika): Opera Binası ve Munch Müzesi'nin olduğu ultra modern sahil şeridi.
+- [Aker Brygge](search:Aker Brygge): Lüks restoranlar ve alışveriş merkezleriyle dolu eski tersane bölgesi.
+
+## 🍽️ Ne Yenir ve İçilir?
+- **Somon:** Norveç somonu dünyaca ünlüdür. Taze veya füme, her öğünde yiyebilirsiniz.
+
+- **Brunost (Kahverengi Peynir):** Karamelimsi tadı olan bu keçi peyniri Norveç kahvaltılarının olmazsa olmazıdır. Waffle ile deneyin.
+- **Kahve:** Oslo, dünyanın en iyi kahve kavurucularından bazılarına (Tim Wendelboe gibi) ev sahipliği yapar.
+
+## 💎 Lokal Sırlar & İpuçları
+- **Opera Binasının Çatısı:** Mermer çatısında yürümek serbesttir. Şehrin ve fiyordun en güzel manzarası buradadır.
+
+- **Sauna Kültürü:** Fiyort kenarındaki yüzer saunalardan (KOK veya SALT) birine gidin, terleyip buz gibi denize atlayın. Tam bir Viking deneyimi!
+
+- [Vigeland Parkı](search:Vigeland Park): Dünyanın en büyük heykel parklarından biri. Gustav Vigeland'ın insan doğasını anlatan 200'den fazla heykeli buradadır.''';
+
+  static const _osloEN = '''# Oslo Guide: Modern Life Embracing Nature 🇳🇴
+
+Oslo is a calm yet striking capital where modern architecture meets deep forests on the edge of the fjords. It's the perfect place to combine city life with outdoor escape.
+
+## 📅 Best Time to Visit
+- **Summer:** The most vibrant time when days are endless, and locals flock to parks and the fjord islands.
+- **Winter:** Ideal for museums and winter sports, though be prepared for very short daylight hours.
+
+## 🏘️ Neighborhood Guide
+- [Grünerløkka](search:Grünerløkka): The hipster district. Full of street art, vintage shops, artisan coffee, and lively bars.
+- [Bjørvika](search:Bjørvika): The ultra-modern waterfront home to the Opera House and the new Munch Museum.
+- [Aker Brygge](search:Aker Brygge): A former shipyard turned into a hub of high-end dining and shopping along the boardwalk.
+
+## 🍽️ Food & Drink
+- [Salmon](search:Salmon): Norwegian salmon is world-famous. Enjoy it fresh, smoked, or cured at any meal.
+- **Brunost (Brown Cheese):** A goat cheese with a caramel-like sweet taste. Essential on waffles.
+
+- **Coffee:** Oslo is home to some of the world's best coffee roasters (like Tim Wendelboe). A must for caffeine lovers.
+
+## 💎 Local Secrets & Insights
+- [Opera House Roof](search:Oslo Opera House): Walking on the marble roof is allowed and encouraged. It offers the best panoramic views of the city and fjord.
+- **Sauna Culture:** Visit one of the floating saunas (like KOK or SALT) on the fjord. Sweat it out, then jump into the icy water—a true Viking experience!
+
+- [Vigeland Park](search:Vigeland Park): The world's largest sculpture park by a single artist, featuring over 200 sculptures depicting the cycle of human life.''';
+
+  // ROVANIEMI
+  static const _rovaniemiTR = '''# Rovaniemi Rehberi: Noel Baba'nın Resmi Evi 🇫🇮
+
+Kutup Dairesi'nin (Arctic Circle) tam üzerinde yer alan Rovaniemi, çocukluk hayallerinin gerçeğe dönüştüğü büyülü bir kış cennetidir.
+
+## 📅 Ne Zaman Gidilir?
+- **Aralık-Mart:** Kar garantidir, Noel Baba köyü en süslü halindedir ve Kuzey Işıklarını görme şansı yüksektir.
+- **Yaz:** "Gece Yarısı Güneşi"ni yaşamak için Haziran-Temmuz aylarında gidin; güneş hiç batmaz.
+
+## 🏘️ Gezilecek Yerler
+- [Santa Claus Village](search:Santa Claus Village): Noel Baba ile tanışabileceğiniz, geyikleri besleyebileceğiniz ve "Kutup Dairesini Geçtim" sertifikası alabileceğiniz köy.
+- **Arktikum Müzesi:** Kuzey kutbu yaşamını ve tarihini anlatan, mimarisiyle büyüleyen cam tünelli müze.
+
+- **Ranua Hayvanat Bahçesi:** Kutup ayılarını ve diğer arktik hayvanları doğal ortamlarında görebileceğiniz vahşi yaşam parkı.
+
+
+## 🍽️ Ne Yenir ve İçilir?
+- **Geyik Eti (Poronkäristys):** Laponya mutfağının temelidir. Patates püresi ve yaban mersini reçeli ile sote olarak servis edilir.
+
+- **Leipäjuusto:** "Gıcırtılı peynir" olarak da bilinir. Fırınlanmış bu peynir, sıcakken bulutberry (cloudberry) reçeli ile yenir.
+
+
+## 💎 Lokal Sırlar & İpuçları
+- **Kuzey Işıkları (Aurora):** Şehir ışıklarından uzaklaşın. Donmuş nehir yatağı veya [Ounasvaara](search:Ounasvaara) tepesi izlemek için güzel noktalardır.
+
+- [Husky Safari](search:Husky Safari): Karlı ormanlarda husky köpeklerinin çektiği kızaklarla gezmek, hayatınızda yapacağınız en heyecanlı aktivitelerden biri olacak.
+- **Soğuk:** Termal içlik, yün kazak ve kar tulumu zorunludur. Hava -30 dereceleri görebilir!''';
+
+
+  static const _rovaniemiEN = '''# Rovaniemi Guide: The Official Hometown of Santa Claus 🇫🇮
+
+Located right on the Arctic Circle, Rovaniemi is a magical winter wonderland where childhood dreams come true.
+
+## 📅 Best Time to Visit
+- **December-March:** Snow is guaranteed, Santa Claus Village is at its festive peak, and chances of seeing Northern Lights are high.
+
+- **Summer:** Visit in June-July to experience the "Midnight Sun"—the sun never sets!
+
+## 🏘️ Places to Visit
+- [Santa Claus Village](search:Santa Claus Village): Meet Santa himself, feed the reindeer, and get your certificate for crossing the Arctic Circle.
+- [Arktikum Museum](search:Arktikum Museum): A stunning museum with a glass tunnel, dedicated to the history and life of the Arctic region.
+- [Ranua Wildlife Park](search:Ranua Wildlife Park): See polar bears and other arctic animals in a natural forest setting.
+
+## 🍽️ Food & Drink
+- **Reindeer Meat (Poronkäristys):** A staple of Lapland cuisine. Sautéed reindeer served with mashed potatoes and lingonberry jam.
+
+- **Leipäjuusto:** Known as "squeaky cheese." This baked cheese is best eaten warm with cloudberry jam.
+
+
+## 💎 Local Secrets & Insights
+- **Northern Lights (Aurora):** Get away from city lights. The frozen riverbed or [Ounasvaara](search:Ounasvaara) hill are great viewing spots.
+
+- [Husky Safari](search:Husky Safari): Sledding through snowy forests pulled by a team of huskies is an adrenaline rush you won't forget.
+- **The Cold:** Thermal layers, wool sweaters, and snowsuits are mandatory. Temperatures can drop to -30°C!''';
+
+
+  // TROMSO
+  static const _tromsoTR = '''# Tromsø Rehberi: Kuzeyin Paris'i 🇳🇴
+
+Kutup dairesinin 350 km kuzeyinde yer alan Tromsø, canlı şehir hayatını vahşi arktik doğa ile birleştiren kozmopolit bir merkezdir.
+
+## 📅 Ne Zaman Gidilir?
+- **Eylül-Mart:** Kuzey Işıkları avı için en iyi sezon.
+- **Ocak:** Uluslararası Film Festivali ve caz festivalleriyle şehir karanlığına rağmen çok canlıdır.
+
+## 🏘️ Gezilecek Yerler
+- **Arktik Katedral:** Şehrin simgesi olan bu modern kilise, buzdağlarından esinlenerek tasarlanmıştır.
+
+- [Fjellheisen Teleferiği](search:Fjellheisen Teleferiği): Storsteinen dağına çıkın. Şehrin adalar üzerindeki konumu ve gece manzarası büyüleyicidir.
+- **Polaria:** Kutup yaşamını interaktif şekilde anlatan akvaryum ve müze.
+
+
+## 🍽️ Ne Yenir ve İçilir?
+- **Deniz Mahsulleri:** Kral Yengeç ve karides burada yiyebileceğiniz en taze halindedir.
+
+- **Møsbrømlefse:** Tatlı kahverengi peynir, ekşi krema ve tereyağı ile doldurulan geleneksel bir hamur işi.
+
+
+## 💎 Lokal Sırlar & İpuçları
+- **Balina Safarisi:** Kasım-Ocak arası fiyortlara gelen kambur balinaları ve orkaları görmek için turlara katılın.
+
+- **Gece Hayatı:** Tromsø, kişi başına düşen pub sayısıyla ünlüdür. *Ølhallen*, şehrin en eski pubıdır ve 70'ten fazla bira çeşidi sunar.
+
+- **Polar Gece:** Kasım sonundan Ocak ortasına kadar güneş hiç doğmaz; ancak "mavi saatler" (alacakaranlık) şehre mistik bir hava katar.''';
+
+
+  static const _tromsoEN = '''# Tromsø Guide: The Paris of the North 🇳🇴
+
+Located 350 km north of the Arctic Circle, Tromsø is a cosmopolitan hub that blends vibrant city life with wild arctic nature.
+
+## 📅 Best Time to Visit
+- **September-March:** The prime season for Northern Lights hunting.
+
+- **January:** Despite the darkness, the city is alive with the International Film Festival and jazz festivals.
+
+
+## 🏘️ Places to Visit
+- **Arctic Cathedral:** The city's landmark. A modern church inspired by icebergs and winter landscapes.
+
+- [Fjellheisen Cable Car](search:Fjellheisen Cable Car): Take a ride up Mt. Storsteinen. The view of the city glowing on the islands below is mesmerizing.
+- **Polaria:** An interactive aquarium and museum dedicated to arctic life.
+
+
+## 🍽️ Food & Drink
+- **Seafood:** King Crab and Arctic prawns are fresher here than anywhere else.
+- **Møsbrømlefse:** A traditional flatbread filled with sweet brown cheese, sour cream, and butter.
+
+
+## 💎 Local Secrets & Insights
+- **Whale Safari:** Join a boat tour between November and January to see humpback whales and orcas in the fjords.
+
+- **Nightlife:** Tromsø is famous for having more pubs per capita than any other Norwegian city. *Ølhallen* is the oldest pub, serving 70+ types of beer.
+
+- **Polar Night:** From late November to mid-January, the sun never rises. However, the "blue hour" twilight casts a mystical glow over the city.''';
+
+
+  // EDINBURGH
+  static const _edinburghTR = '''# Edinburgh Rehberi: Gotik, Gizemli ve Büyüleyici 🏴󠁧󠁢󠁳󠁣󠁴󠁿
+
+Edinburgh, sönmüş bir yanardağın üzerine kurulu kalesi, yeraltı şehirleri ve gayda sesleriyle dünyada eşi benzeri olmayan bir atmosfere sahiptir.
+
+## 📅 Ne Zaman Gidilir?
+- **Ağustos (Fringe Festivali):** Dünyanın en büyük sanat festivali. Şehir tiyatro, komedi ve müzikle dolup taşar ama konaklama bulmak çok zordur.
+- **Yılbaşı (Hogmanay):** Dünyanın en büyük yılbaşı partilerinden biri burada yapılır.
+
+
+## 🏘️ Semt Rehberi
+- **Old Town (Eski Şehir):** Kraliyet Yolu (Royal Mile), kale ve daracık geçitler (Close). Harry Potter'a ilham veren sokaklar buradadır.
+
+- **New Town (Yeni Şehir):** Gürcü mimarisi, geniş caddeler ve lüks mağazalar. "Yeni" dendiğine bakmayın, 250 yıllıktır!
+
+- [Leith](search:Leith): Liman bölgesi. Şimdi Michelin yıldızlı restoranlar ve havalı barlarla dolu.
+
+## 🍽️ Ne Yenir ve İçilir?
+- **Haggis:** İskoçyanın milli yemeği. Sakatat, yulaf ve baharatlarla yapılır. Önyargılı olmayın, tadı çok baharatlı bir kıymaya benzer!
+
+- **Viski:** Bir "Scotch" tatmadan dönmek olmaz. *The Scotch Whisky Experience* müzesi iyi bir başlangıçtır.
+
+- **Shortbread:** Tereyağlı İskoç kurabiyesi. Çay veya kahve yanına mükemmel gider.
+
+
+## 💎 Lokal Sırlar & İpuçları
+- **Arthur’s Seat:** Şehrin ortasındaki bu sönmüş yanardağa tırmanın. 45 dakikalık yürüyüşle tüm şehri ayaklarınızın altında göreceksiniz.
+
+- **Hayalet Turları:** Edinburgh dünyanın en "perili" şehirlerinden biridir. *[Mary King's Close](search:Mary King's Close)* gibi yeraltı turlarına katılın.
+
+- [Victoria Street](search:Victoria Street): Renkli dükkanlarıyla meşhur bu kıvrımlı sokak, Harry Potter'daki *Diagon Yolu*nun gerçek hayattaki karşılığıdır.''';
+
+  static const _edinburghEN = '''# Edinburgh Guide: Gothic, Mysterious & Enchanting 🏴󠁧󠁢󠁳󠁣󠁴󠁿
+
+Dominated by a castle atop an extinct volcano, filled with underground vaults and the sound of bagpipes, Edinburgh has an atmosphere unlike anywhere else.
+
+## 📅 Best Time to Visit
+- **August (Fringe Festival):** The world's largest arts festival. Every street corner becomes a stage, but accommodation is scarce.
+
+- **New Year (Hogmanay):** One of the biggest and most famous New Year's Eve street parties in the world.
+
+
+## 🏘️ Neighborhood Guide
+- [Old Town](search:Old Town): The Royal Mile, the Castle, and narrow alleyways ("Closes"). These streets inspired Harry Potter.
+- [New Town](search:New Town): Georgian architecture, wide squares, and upscale shopping. Don't let the name fool you; it's 250 years old!
+- [Leith](search:Leith): The harbor district. Once gritty, now a hub for Michelin-starred dining and cool bars.
+
+## 🍽️ Food & Drink
+- **Haggis:** The national dish of Scotland. Made with sheep's pluck, oats, and spices. Don't be biased; it tastes like a savory, spicy mince!
+
+- **Whisky:** You can't leave without tasting a "Scotch." *The Scotch Whisky Experience* is a great place to start.
+
+- **Shortbread:** Rich, buttery Scottish biscuits. Perfect with afternoon tea.
+
+
+## 💎 Local Secrets & Insights
+- **Arthur’s Seat:** Hike up this extinct volcano right in the city center. A 45-minute walk rewards you with panoramic views of the entire city and sea.
+
+- **Ghost Tours:** Edinburgh is one of the most haunted cities in the world. Join a tour of the underground vaults like *[Mary King's Close](search:Mary King's Close)*.
+
+- [Victoria Street](search:Victoria Street): With its colorful shopfronts and curved cobblestones, this street is the real-life inspiration for *Diagon Alley*.''';
+
+  // BRUKSEL
+  static const _brukselTR = '''# Brüksel Rehberi: Avrupa'nın Çikolata Başkenti 🇧🇪
+
+Avrupa Birliği'nin başkenti Brüksel, ciddi siyasi yüzünün altında eğlenceli, çikolata kokulu ve çizgi roman dolu bir dünya saklar.
+
+## 📅 Ne Zaman Gidilir?
+- **Yaz:** Parklarda piknik yapmak ve festivaller için en iyi zaman.
+- **Aralık:** Grand Place'deki ışık şovları ve Noel pazarı büyüleyicidir.
+
+## 🏘️ Gezilecek Yerler
+- **Grand Place:** Dünyanın en güzel meydanlarından biri. Altın yaldızlı lonca binalarına hayran kalacaksınız.
+
+- [Atomium](search:Atomium): Brüksel'in "Eyfel Kulesi". Fütüristik, dev metal küreler ve harika bir manzara.
+- [Sablon](search:Sablon): Antikacılar ve en lüks çikolatacıların bulunduğu nezih mahalle.
+
+## 🍽️ Ne Yenir ve İçilir?
+- **Midye Patates (Moules-Frites):** Tencerede şaraplı veya kremalı pişmiş midye. Yanında mutlaka patates kızartması ve bira ile.
+- **Waffle:** Sokaklarda satılan "Gaufre" kokusuna direnmek imkansızdır.
+
+- **Çikolata:** *Pierre Marcolini*, *Neuhaus* veya *Leonidas*. Dünyanın en iyi pralinleri burada.
+
+
+## 💎 Lokal Sırlar & İpuçları
+- **Çizgi Roman Rotası:** Tenten, Şirinler gibi karakterlerin duvar resimlerini takip ederek şehri gezmek çok eğlencelidir.
+- [Delirium Café](search:Delirium Café): 2000'den fazla bira çeşidiyle Guinness rekorlar kitabına giren bu bara mutlaka uğrayın.
+- **İşeyen Heykeller:** Sadece meşhur işeyen çocuk (Manneken Pis) değil, bir de işeyen kız (Jeanneke Pis) ve işeyen köpek (Zinneke Pis) heykeli vardır; hepsini bulun!''';
+
+
+  static const _brukselEN = '''# Brussels Guide: The Chocolate Capital of Europe 🇧🇪
+
+The capital of the EU hides a playful, chocolate-scented, and comic-book-loving soul beneath its serious political exterior.
+
+## 📅 Best Time to Visit
+- **Summer:** Great for picnics in the parks and outdoor music festivals.
+- **December:** The light show at the Grand Place and the Christmas markets are magical.
+
+
+## 🏘️ Places to Visit
+- **Grand Place:** One of the most beautiful squares in the world, surrounded by opulent guildhalls.
+
+- [Atomium](search:Atomium): Brussels' answer to the Eiffel Tower. Futuristic giant spheres offering panoramic views.
+- [Sablon](search:Sablon): An elegant neighborhood known for antique shops and luxury chocolatiers.
+
+## 🍽️ Food & Drink
+- **Moules-Frites:** Mussels cooked in wine or cream, served with fries and a local beer. The national dish.
+
+- **Waffles:** The smell of fresh waffles ("Gaufre") on the street is irresistible.
+
+- **Chocolate:** *Pierre Marcolini*, *Neuhaus*, or *Leonidas*. The best pralines in the world are here.
+
+
+## 💎 Local Secrets & Insights
+- **Comic Strip Route:** Walking the city by following murals of Tintin, The Smurfs, and other characters is a fun way to explore.
+- [Delirium Café](search:Delirium Café): Visit this bar holding the Guinness World Record for offering over 2,000 types of beer.
+- **Pissing Statues:** Don't just see the famous Manneken Pis; try to find his sister (Jeanneke Pis) and their dog (Zinneke Pis) too!''';
+
+  // BRUGGE
+  static const _bruggeTR = '''# Brugge Rehberi: Ortaçağ Masalı 🇧🇪
+
+Kendinizi bir zaman makinesinde hissedeceğiniz Brugge, kanalları, kuğuları ve bozulmamış ortaçağ mimarisiyle tam bir romantizm şehridir.
+
+## 📅 Ne Zaman Gidilir?
+- **İlkbahar:** Nergislerin açtığı ve Beguinage bahçesinin en güzel olduğu zaman.
+- **Kış:** Sisli kanallar ve sıcak çikolata şehre mistik bir hava katar.
+
+## 🏘️ Gezilecek Yerler
+- [Belfry Kulesi](search:Belfry Kulesi): "In Bruges" filminin yıldızı. 366 basamak çıkın ve çanların yanından şehri izleyin.
+- [Rozenhoedkaai](search:Rozenhoedkaai): Brugge'un en çok fotoğrafı çekilen, kartpostallık köşesi.
+- **Beguinage:** Beyaz badanalı evleri ve sessizlik kuralıyla rahibelerin yaşadığı huzur dolu bir bölge.
+
+
+## 🍽️ Ne Yenir ve İçilir?
+- **Flemish Stew (Carbonade flamande):** Siyah bira ile pişmiş, yumuşacık dana eti yahnisi.
+
+- **Sıcak Çikolata:** *The Old Chocolate House* gibi yerlerde koca bir kase içinde gelen sıcak çikolataları deneyin.
+
+
+## 💎 Lokal Sırlar & İpuçları
+- **Kanal Turu:** Çok turistiktir ama Brugge'da kanal turu yapmak zorunludur. Şehri su seviyesinden görmek bambaşkadır.
+
+- **Yel Değirmenleri:** Şehir merkezinin biraz dışına yürüyerek tarihi yel değirmenlerinin olduğu parka gidin.
+
+- **Dantel:** Brugge danteli meşhurdur ama gerçek el yapımı olanları pahalıdır; ucuz olanlar fabrikasyondur, dikkat edin.''';
+
+
+  static const _bruggeEN = '''# Bruges Guide: A Medieval Fairytale 🇧🇪
+
+Bruges feels like a time machine. With its canals, swans, and untouched medieval architecture, it is the ultimate romantic destination.
+
+## 📅 Best Time to Visit
+- **Spring:** When daffodils bloom, and the Beguinage garden is at its most beautiful.
+- **Winter:** Misty canals and hot chocolate give the city a mystical vibe.
+
+## 🏘️ Places to Visit
+- [Belfry Tower](search:Belfry Tower): The star of the movie "In Bruges." Climb 366 steps to see the city from above the bells.
+- [Rozenhoedkaai](search:Rozenhoedkaai): The most photographed, postcard-perfect corner of Bruges.
+- **Beguinage:** A peaceful, enclosed community of white houses and silence, formerly home to Beguines.
+
+
+## 🍽️ Food & Drink
+- **Flemish Stew (Carbonade flamande):** A rich beef stew cooked in dark beer, melt-in-the-mouth delicious.
+
+- **Hot Chocolate:** Try the massive bowls of hot chocolate at spots like *The Old Chocolate House*.
+
+
+## 💎 Local Secrets & Insights
+- **Canal Boat Tour:** It's touristy, but mandatory. Seeing the medieval facades from the water is a unique perspective.
+- **Windmills:** Walk to the edge of the city center to find a row of historic windmills set in a grassy park.
+
+- **Lace:** Bruges lace is famous. Be aware that real handmade lace is expensive; cheap versions are machine-made.''';
+
+
+  // STRAZBURG
+  static const _strazburgTR = '''# Strazburg: İki Kültür Arasında Tek Şehir
+
+**Hızlı Bakış:** Strazburg’a geldiğinizde kendinizi bir anda o meşhur ahşap evlerin arasında, tam bir masalın içinde bulacaksınız. Burası Fransa ve Almanya’nın en güzel yanlarını alıp tek bir potada eritmiş bir şehir. Sokaklarda yürürken bir yanınız Fransız zarafetini, diğer yanınız Alman disiplinini hissedecek. Şehrin merkezindeki o devasa katedrali gördüğünüzde, pembe taşlarının güneşle nasıl renk değiştirdiğine hayran kalacaksınız. Burada hayat acele etmeden, nehrin kıyısında sakin adımlarla akıyor. 
+
+Size küçük bir tavsiye; burası tam bir bisiklet şehri. Eğer kendinizi kaptırıp bisiklet yollarında yürümeye kalkarsanız, yerellerden nazik ama kararlı uyarılar alabilirsiniz, o yüzden gözünüz yolda olsun. Ödeme konusunda ise hala geleneksel kalmayı seven bir şehir; yanınızda mutlaka nakit bulundurun. Çünkü o ara sokaklardaki küçücük fırınlarda taze bir kruvasan ya da yerel bir lezzet gördüğünüzde kart geçmediğini öğrenip hayal kırıklığına uğramak istemezsiniz. Eğer kışın gelirseniz, şehri saran o tarçın ve zencefil kokusunu takip edin; Noel’in başkentinde olduğunuzu her nefeste anlayacaksınız.
+
+## 📅 Takviminizi Ayarlayın: Hangi Mevsim Sizin?
+
+Strazburg’da “doğru zaman” yok; aslında her şey şehirden ne beklediğinize bağlı. Her dönemin kendine özgü bir ritmi, tadı ve bazen de şehri şehir yapan küçük zorlukları vardır. Burada yaşayanların bildiği gibi, bu detaylar Strazburg’un karakterinin doğal bir parçası. Hava değişir, tempo değişir, sokakların hissi değişir. Şehir ise aynı ruhu korur; sadece deneyimler farklılaşır.
+
+- **Bahar (Mart - Mayıs):** Şehrin kışın kasvetini üzerinden atıp sokaklara taze bir enerji yaydığı dönem görülmeye değer. Mart ayı biraz kaprisli olabilir; bir bakarsınız güneş açmış, bir bakarsınız yağmur sizi ıslatmış. Ancak Petite France tarafındaki çiçeklerin o yağmurdan sonraki kokusu her şeye bedel. Kalabalıklar henüz şehri istila etmemişken sokaklar daha sakindir. Akşamları ise hala üzerinize bir şeyler almanız gerekebilir ama nehir kenarında yılın ilk dış mekan kahvesini içmek harika bir başlangıç olacak.
+- **Yazın (Haziran - Ağustos):** Sokakların en hareketli, günlerin ise en uzun olduğu zamanlar. Küçük bir not; bazen o meşhur Avrupa sıcağı ve nemi biraz yorucu olabilir, popüler noktalardaki turist sıraları ise sabrınızı zorlayabilir. Ancak akşam 10’da hava hala aydınlıkken katedralin o devasa taşlarına yansıyan ışık gösterilerini izlemek ya da nehir boyunca yürümek, tüm o yorgunluğu bir anda unutturur. Hareketli bir atmosfer arayanlardansanız, yaz iyi bir seçenek.
+- **Sonbahar (Eylül - Kasım):** Bağ bozumu zamanı olduğu için şehirde genel bir kutlama hali hakim. Eylül hala yazı aratmaz ama Ekim’le birlikte o meşhur sarı ve turuncu tonlar kanallara düşmeye başlar. Bazı sabahlar şehre çöken hafif sis, ahşap evlerin arasından geçerken zamanın yavaşladığı hissini verir. En büyük artı ise kalabalıkların çekilmesidir; bir tavsiye olarak, en güzel restoranlarda bile kolayca yer bulup Strazburg’un tadını daha sakin çıkarabileceğiniz bir dönemdir.Noel Zamanı ve Kış (Aralık–Şubat): Aralık, Strazburg’da her şeyin zirveye ulaştığı dönemdir. Şehir oldukça kalabalık, otel fiyatları yüksek ve hava gerçekten dondurucu olabilir. Yine de tarçın kokusunu içine çekip milyonlarca ışığın altında sıcak şarap yudumlamak, her şeye değer. Ocak ve Şubat aylarında ise şehir tam bir sessizliğe bürünür. Kar yağdığında bambaşka bir görünüme kavuşur; sakinliği ve yerel hayatı daha yakından hissetmek için bu soğuk aylar şehrin en dürüst halidir.
+
+## 🏠Nerede Kalmalı: Mahalle Rehberi
+
+Strazburg, sadece Avrupa’nın kalbi değil; bir ayağı Fransa’da, bir ayağı Almanya’da, ruhu ise masallarda kalmış bir sınır kasabası–şehir kırması. Bu şehirde nerede kalacağınıza karar vermek, güne bir Fransız kruvasanıyla mı yoksa Alman disipliniyle mi başlayacağınızı seçmek gibi. Şehir ne çok büyük ne de çok küçük; her şey elinizin altında gibi görünse de her mahallenin kendine has bir dokusu bambaşka.
+
+- [Petite France (Küçük Fransa)](search:Petite France (Küçük Fransa): Eğer "Ben bir kartpostalın içinde yaşamak istiyorum" diyorsanız, burası tek adres. Kanalların ortasında, yarı ahşap (half-timbered) tarihi evlerin arasında, pencerelerinden sardunyalar sarkan bir rüya. Romantik mi? Evet. Pahalı mı? Genelde. Dezavantajı ise şu; turistin kalbi burada atar, sabah erkenden kapınızın önünde fotoğraf çeken bir kalabalığa uyanabilirsiniz. Ama o nehir sesi her şeye değer.
+- **Grande Île (Merkez Ada):** Şehrin tam kalbi, UNESCO’nun göz bebeği. Katedralin o devasa gölgesinin düştüğü sokaklar burası. Her yere yürüme mesafesinde olayım, akşam bir kadeh şarap içip iki dakikada otelime döneyim diyenler için en mantıklısı. Dar sokaklardaki butik otellerde kalmak şehre dair aidiyet hissini zirveye çıkarır.
+
+- [Krutenau](search:Krutenau): İşte burası lokallerin, öğrencilerin ve "yaşayan" Strazburg’un merkezi. Eskiden balıkçıların ve zanaatkarların bölgesi olan bu mahalle, şimdi şehrin en cool barlarına, konsept kafelerine ve tasarım dükkanlarına ev sahipliği yapıyor. Merkeze 5-10 dakika yürüme mesafesinde olup, turist gürültüsünden kaçmak ama hayatın da tam içinde kalmak istiyorsanız Krutenau bir cevherdir.
+- [Neudorf](search:Neudorf): Turist haritalarının pek göstermediği ama son yıllarda Strazburg’un en popüler yerleşim yerine dönüşen mahalle. Eğer bütçeniz kısıtlıysa ve "gerçekten burada yaşayanlar ne yapıyor?" derseniz buraya bakın. Modernleşen çehresi, yerel pazarları ve tramvayla merkeze sadece 10 dakikada ulaşım imkanıyla tam bir fiyat-performans bölgesi.
+- [Neustadt (Alman Mahallesi)](search:Neustadt (Alman Mahallesi): 19. yüzyıl sonu Alman mimarisinin o görkemli, geniş ve ağırbaşlı binalarıyla dolu bölge. Katedral çevresindeki o daracık sokaklardan sonra buradaki geniş bulvarlar sizi şaşırtacak. Daha lüks, sakin ve "aristokrat" bir konaklama arayanlar için idealdir. Cumhuriyet Meydanı (Place de la République) çevresi hem çok asil hem de çok huzurlu.
+
+## 🚲 A Noktasından B Noktasına: Bir Lokal Gibi Hareket Edin
+
+Strazburg’da ulaşım demek, o meşhur mavi tramvaylara ve bisiklet yollarına teslim olmak demektir. Şehir merkezi (Grande Île) neredeyse tamamen yayalaştırılmış olduğu için araba burada sadece ayak bağınız olacak. İşte işinize yarayacak tüm detaylar:
+
+- **Havalimanından Şehre (Strasbourg-Entzheim):** Havalimanına indiğinizde taksi ya da Uber seçeneklerine yönelmek pek mantıklı bir tercih olmayacaktır; çünkü bu yolculuk için yaklaşık 40-50 € gibi bir rakamı gözden çıkarmanız gerekir. Bunun yerine, terminalin hemen içinden geçen bir yaya yoluyla "Gare d'Entzheim-Aéroport" tren istasyonuna geçebilirsiniz. Her 15 dakikada bir kalkan "Navette Train" (mekik tren) sizi sadece 9 dakikada şehrin ana tren istasyonuna (Gare Centrale) ulaştırır. Biletinizi perondaki makinelerden yaklaşık 3-5 € karşılığında alabilirsiniz. Eğer o gün toplu taşımayı çok kullanacaksanız "TER + CTS" birleşik biletini alarak tren sonrası tramvaya da ek ücret ödemeden binebilirsiniz.
+- **Tramvay ve Otobüs (CTS):** Strazburg'un tramvay ağı Avrupa'nın en iyilerinden biridir. 6 farklı hat (A’dan F’ye kadar) her yere uzanır. Duraklardaki makinelerden kartla bilet alabilir ya da "CTS" uygulamasını indirip telefonunuzdan halledebilirsiniz. Önemli kural: Tramvaya binmeden önce perondaki sarı makinelerde biletinizi mutlaka "okutmalısınız" (validate). Otobüste ise aracın içinde okutmanız yeterlidir. Tek kullanımlık bilet 2 € civarıdır ama 24 saatlik grup biletleri (2-3 kişi için) her zaman çok daha kârlıdır.
+- **Bisiklet:** Şehrin Asıl Sahibi: Amsterdam kadar olmasa da Strazburg, Fransa’nın bisiklet başkentidir ve 600 kilometreden fazla bisiklet yolu mevcuttur. "Vélhop" şehrin resmi bisiklet kiralama sistemidir; günlük ya da haftalık olarak oldukça uygun fiyata kiralama yapabilirsiniz. Lokaller gibi takılmak isterseniz, şehri iki teker üzerinde gezmek en büyük keyfiniz olacak.
+- **Yürüyüş Notları:** Grande Île (Merkez Ada) içindeyseniz aslında hiçbir araca ihtiyacınız yok. Bir uçtan diğer uca yürümek en fazla 20 dakikanızı alacak. Ancak, kanallar boyunca yürürken karşınızdan gelen bisikletlilere dikkat etmelisiniz; kendi yollarında oldukça hızlıdırlar!
+- [Almanya'ya Geçiş (Kehl)](search:Almanya'ya Geçiş (Kehl): Strazburg'dayken tek bir biletle ülke değiştirmek çok kolaydır. D hattı (Tram D) sizi doğrudan sınırı geçerek Almanya'nın Kehl kasabasına götürecek. Sadece 15 dakikada farklı bir ülkeye gidip, Alman marketlerinden alışveriş yapıp geri dönerek buranın en büyük lokal alışkanlıklarından birini denemelisiniz.
+
+## 🏛️ Şehrin Hafızası: Görülmesi Gereken İkonik Duraklar
+
+Strazburg sadece taş binalardan değil, iki büyük kültürün (Fransız ve Alman) yüzyıllar boyu süren çekişmesi ve sonunda kucaklaşmasından oluşur. Şehir merkezi olan Grande Île (Büyük Ada), UNESCO Dünya Mirası Listesi’ne giren ilk şehir merkezlerinden biridir.
+
+- **Strasbourg Cathedral (Notre-Dame de Strasbourg Katedrali):** Şehrin kalbi ve simgesidir. 142 metre yüksekliğiyle bir zamanlar dünyanın en yüksek yapısıydı. Pembe kum taşından yapılmıştır; bu yüzden gün ışığına göre rengi değişir. Katedralin içine girmek ücretsizdir. Ancak içerideki görkemli Astronomik Saat’in her gün saat 12:30’da başlayan mekanik figürlerinin geçit törenini izlemek isterseniz yaklaşık 4 € ödemeniz gerekir. Ayrıca 332 basamak çıkarak katedralin platformuna ulaşabilir ve tüm şehri, açık havada Kara Ormanlar’a kadar görebilirsiniz. Bunun ücreti ise yaklaşık 8 €’dur. Biletleri doğrudan katedral girişindeki gişelerden alabilirsiniz.
+**💡 Küçük nir not:** Hazır katedralin çevresindeyken, hemen yanındaki Maison Kammerzell’e de göz atmayı unutmayın. 1427’den beri ayakta olan bu ikonik yapı, detaylı ahşap süslemeleriyle şehrin en karakteristik evlerinden biri kabul ediliyor. Günümüzde ise otel ve restoran olarak hizmet veriyor.
+- [La Petite France (Küçük Fransa)](search:La Petite France (Küçük Fransa): Strazburg'un en fotojenik, en romantik bölgesi. Nehir kanallarının arasında yer alan bu bölge, Orta Çağ'da deri tabakçılarının (deriyi işleyerek kullanıma hazır hale getiren ustalar) ve balıkçıların yaşadığı yer olması ile biliniyor. İsim babası ise biraz ironik; bir zamanlar burada bulunan bir hastanede tedavi gören hastaların tedavi edildiği bir mahalle olması nedeniyle bu adla anılmış. Çiçeklerle bezeli balkonları, 16. ve 17. yüzyıldan kalma yarı ahşap (half-timbered) evleri ile büyüleyicidir. Bölgenin en ikonik binası olan Maison des Tanneurs (Tabakçılar Evi) mutlaka görülmelidir.
+- **Ponts Couverts (Kapalı Köprüler) ve Barrage Vauban ve Barrage Vauban):** La Petite France’ın hemen girişinde yer alan bu savunma yapıları, şehrin askeri geçmişini anlatır. Ponts Couverts üzerindeki çatılar artık olmasa da, 13. yüzyıldan kalan üç köprü ve dört kule hala tüm heybetiyle hala duruyor. Hemen yakınındaki Barrage Vauban (Vauban Barajı) terasına mutlaka çıkmalısınız; buradan hem "Ponts Couverts" hem de arkasındaki Katedral manzarasını panoramik olarak fotoğraflayabilirsiniz.
+- [Palais Rohan (Rohan Sarayı)](search:Palais Rohan (Rohan Sarayı): “Küçük Versay” olarak anılan bu barok saray, bir zamanlar prens-piskoposların yaşadığı yerdi. Bugün içinde üç önemli müze barındırıyor: Arkeoloji Müzesi, Dekoratif Sanatlar Müzesi ve Güzel Sanatlar Müzesi. Her bir müzenin giriş ücreti yaklaşık 7,5 €. Birden fazla müzeyi gezmeyi planlıyorsanız günlük müze pasaportu almak çok daha avantajlı. Napolyon ve Marie Antoinette gibi isimlerin burada konaklamış olması da ayrı bir detay.
+- **Place Kléber (Kléber Meydanı):** Şehrin ana meydanı, buluşma noktası ve nabzı. İsmini Strazburg doğumlu General Jean-Baptiste Kléber’den almıştır. Kış aylarında ise, Avrupa'nın en büyük doğal Noel ağaçlarından biri buraya kurulur. Alışverişin ve hareketin merkezi olan bu meydanda, lokallerin bir yere yetişirken nasıl hızlı adımlarla ilerlediğini mutlaka izlemelisiniz.
+
+- [Neustadt (Alman Mahallesi)](search:Neustadt (Alman Mahallesi): 1871-1918 yılları arasında Alman İmparatorluğu döneminde inşa edilen bu bölge, UNESCO listesine eklenen ikinci bölgedir. Geniş bulvarlar ve heybetli Prusya mimarisi ile dikkat çeker. Place de la République (Cumhuriyet Meydanı) bu bölgenin merkezidir ve çevresindeki kütüphane, tiyatro ve saray binalarıyla oldukça estetik bir dokuya sahiptir.
+- [Quartier Européen (Avrupa Mahallesi)](search:Quartier Européen (Avrupa Mahallesi): Strazburg’un modern yüzü ve şehrin “Avrupa’nın Başkenti” unvanını aldığı yer. Kanallar boyunca kısa bir bisiklet yolculuğuyla ulaşabileceğiniz bu bölge, modern mimarisiyle tarihi şehir merkezine keskin bir tezat oluşturur. Avrupa Parlamentosu, Avrupa Konseyi ve Avrupa İnsan Hakları Mahkemesi binaları da burada yer alır.
+- **Parc de l’Orangerie (Orangerie Parkı):** Şehrin en eski ve en büyük parkı. Avrupa Konseyi’nin tam karşısında yer alan bu geniş yeşil alan, Napolyon’un eşi Josephine için yaptırılan Josephine Köşkü’ne ev sahipliği yapıyor. Parkta dolaşırken Alsas’ın simgesi olan leylekleri yuvalarında görebilir, gölde kısa bir sandal gezintisi yapabilir ya da minik hayvanat bahçesini ziyaret edebilirsiniz. Şehrin kalabalığından uzaklaşıp biraz nefes almak isteyenler için en keyifli duraklardan biri.
+
+- [Église Saint-Thomas (Aziz Thomas Kilisesi)](search:Église Saint-Thomas (Aziz Thomas Kilisesi): Protestanların ana kilisesi olarak bilinen bu yapı, “Alsas’ın Katedrali” olarak anılır. Yıllar boyunca hem Protestan hem Katolik cemaatine ev sahipliği yapmış olması, Strazburg’un kültürler ve mezhepler arasındaki geçişken yapısını da güzel yansıtır. İçeride Mozart’ın çaldığı tarihi orgu görmek bile tek başına uğramaya değer.
+
+## 🍴 Şehrin Lezzet Haritası: Alsas Sofrasına Hoş Geldiniz
+
+Alsas mutfağı, bölgenin Fransa ile Almanya arasında gidip gelen tarihinden doğmuş kendine has bir mutfak kültürü. Fransız inceliğiyle Alman doyuruculuğunu bir araya getiren, bol porsiyonlu ve lezzeti güçlü yemeklerden oluşuyor. Strazburg’da yemek yemek bazen şık bir Fransız bistrosunda, bazen de samimi bir Alman meyhanesinde oturuyormuş hissi verecek. “Hafif” seçenekler çok yaygın değil ama her tabak fazlasıyla tatmin edici. Bir lokal gibi yemek istiyorsanız şu adreslere göz atın:
+
+- **Choucroute Garnie (Lahan Turşusu ve Et Tabağı):** Alsas bölgesinin tartışmasız en ünlü yemeği. Şarapta pişirilmiş fermente lahana turşusunun (sauerkraut), yanında sosis çeşitleri, tütsülenmiş etler ve haşlanmış patatesle devasa bir porsiyonda servis edilir. Tek başınıza bitirmekte zorlanabilirsiniz; tam bir paylaşımlı kış yemeğidir.
+- **Flammekueche (Tarte Flambée):** “Alevde pişmiş turta” anlamına gelen bu lezzete kısaca “Alsas pizzası” diyebiliriz — ama pizza derseniz lokalleri biraz üzebilirsiniz. İncecik, çıtır bir hamurun üzerine ekşi krema (crème fraîche), ince kıyılmış soğan ve et dilimleri (lardons) eklenerek odun ateşinde pişirilir. Geleneksel olanı budur ama mantarlı veya peynirli versiyonları da denemeye değer.
+
+- **Baekeoffe:** Adı "fırıncının fırını" anlamına gelen geleneksel güveç, Strazburg mutfağının en klasik lezzetlerinden. Bu lezzet, üç çeşit etin (domuz, sığır, kuzu) sebzeler ve beyaz şarapla birlikte, ağzı hamurla mühürlenmiş seramik kaplarda saatlerce ağır ağır pişirilmesiyle hazırlanır. Eskiden kadınların çamaşır yıkamaya giderken pişirilmesi için fırıncıya bıraktığı bu yemek, tam bir sabır ve lezzet mirası aynı zamanda da Strazburg'un en samimi lezzeti.
+
+- **Spaetzle:** Alman esintili, şekilsiz ama oldukça lezzetli bir makarna türü olan bu taze erişteler, yumurtalı hamurdan yapılır. Genellikle et yemeklerinin yanında garnitür olarak sunulur; ancak üzerine bolca Gravyer peyniri ve karamelize soğan eklenen “Käsespätzle” versiyonu tek başına bile doyurucu bir ana yemek gibidir. En güzel örneklerini ise geleneksel Alsas tavernalarında bulabilirsiniz; özellikle Le Clou bu lezzeti denemek için iyi bir adres.
+
+- **Kugelhopf:** Strazburg vitrinlerinde sıkça göreceğiniz, ortası delik, yüksek ve şekilli bir kek. İçinde kuru üzüm ve badem bulunur; üzerine pudra şekeri serpilerek servis edilir. Sabah kahvaltısında ya da kahve yanında denemeye değer. Özellikle Pâtisserie Christian gibi yerel pastanelerde taze çıkan bir dilimini yakalarsanız, en güzel halini tadabilirsiniz.
+
+- **Alsas Şarapları ve Bira:** Alsas bölgesi, özellikle beyaz şaraplarıyla öne çıkıyor. Riesling ve Gewürztraminer bölgenin en bilinen iki çeşidi. Bira kültürü de en az şarap kadar güçlü; Strazburg’daki geleneksel "Brasserie"lerde (birahane) taze yerel biralar bulmak mümkün. Bir kadeh şarap için Cave Historique des Hospices de Strasbourg’in tarihi mahzenine uğrayabilir, bira için ise Au Pont Corbeau gibi samimi bir birahanede mola verebilirsiniz.
+- **Pain d’Épices (Baharatlı Ekmek / Zencefilli Çörek):** Yıl boyunca bulunabilir, ancak özellikle Noel döneminde şehrin her yanını saran tarçın ve zencefil kokusuyla özdeşleşmiş geleneksel bir Alsas keki. Katedral çevresindeki neredeyse her pastane ve dükkânda çeşit çeşit karşınıza çıkacak olan bu lezzet; yoğun bal ve baharat aromasıyla kış aylarının vazgeçilmez tatlarından biri. Orta Çağ’dan bu yana yapılan bu keki en iyi haliyle tatmak için Mireille Oster gibi ikonik duraklara uğrayabilirsiniz.
+
+- **Peynir Tabağı (Munster):** Alsas’ın en meşhur peyniri olan Munster, keskin kokusu ama yumuşacık tadıyla bilinir. Genellikle yanında kimyon tohumuyla servis edilir; bu hem sindirimi kolaylaştırır hem de tadı dengeler. Özellikle bir kadeh Riesling ya da Gewürztraminer ile birlikte denediğinizde lezzeti çok daha iyi ortaya çıkar.
+
+
+**💡 Lokal ipucu:** Gerçek Strazburg lezzetlerini denemek istiyorsanız, kapısında "Winstub" yazan yerleri tercih edin. Bunlar, yerel halkın takıldığı, ahşap ağırlıklı ve geleneksel Alsas yemeklerinin en dürüst halini sunan mekanlardır.
+
+## 🤫 Şehrin Fısıldadıkları: Lokal Sırlar
+
+Strazburg’u sadece kartpostallık manzaralarla bırakmayın. Burası kanal kenarında fotoğraf çekip şarap içmekten çok daha fazlası. Ana caddelerden sapıp küçük sokaklara girin; biraz dolaşıp kalabalıktan uzaklaştığınızda, şehrin asıl ruhu küçük sokaklarda ve lokallerin uğradığı yerlerde ortaya çıkacak.
+
+- **Cave Historique des Hospices de Strasbourg (Tarihi Hastane Mahzeni):** Şehrin tam ortasında, modern bir hastanenin hemen altında dünyanın en eski şarap mahzenlerinden biri gizli. 1395 yılından kalma bu mahzen, sadece şarap saklamak için değil, eskiden tedavi karşılığı şarap veren bir gelenekle kurulmuş. İçeride 1472 yılından kalma, dünyanın fıçıdaki en eski beyaz şarabını görebilirsiniz. Turistlerin çoğu üzerinden geçerken aşağıda ne olduğunu bilmez bile.
+- **Le Pont Tournant (Dönen Köprü):** Petite France’ın göbeğinde, tekneler geçerken kendi ekseninde dönen küçük bir köprü var. Çoğu kişi teknenin geçmesini beklerken sıkılır ama buradaki asıl lokal keyfi, köprünün yanındaki barlardan birine oturup bu mekanizmanın "tık tık" sesini ve o eski mühendisliği izlemektir.
+
+- **Saint-Pierre-le-Jeune Kilisesi:** Katedralin gölgesinde kaldığı için genellikle atlanıyor ama burası şehrin en etkileyici iç mekanlarından birine sahip. İçerideki 14. yüzyıldan kalma duvar resimleri ve o inanılmaz sessiz avlu (cloister), Strazburg’un en huzurlu kaçış noktalarından biri. Giriş ücretsizdir ve tam bir "kafa dinleme" durağıdır.
+
+- [Rue des Juifs (Yahudi Sokağı) Detayları](search:Rue des Juifs (Yahudi Sokağı): Detayları): Şehrin en eski sokaklarından biridir. Yürürken başınızı yukarı kaldırın; evlerin cephelerinde Orta Çağ’dan kalma ticaret işaretlerini, eski kapı tokmaklarını ve binaların neden "yamuk" olduğunu (vergi ödememek için üst katların genişletilmesi) en iyi burada görürsünüz.
+- [L’Aubette 1928](search:L’Aubette 1928): Place Kléber’in hemen kıyısında, dışarıdan sıradan bir bina gibi görünen bu yerin içine girdiğinizde kendinizi bir "Soyut Sanatın Sistine Şapeli"nde bulursunuz. 1920’lerin avangart tasarımının zirvesidir ve çoğu turist burayı sadece bir alışveriş merkezi sanıp geçer. İçerideki "Ciné-Bal" salonu tam bir görsel şölendir.
+- **Nehir Kenarındaki Gizli Merdivenler:** Quai des Bateliers boyunca yürürken nehre inen gizli, dar basamaklar göreceksiniz. Akşamları lokaller şaraplarını alıp bu basamaklara oturur ve suyun dibinde, şehrin yansımasını izleyerek sohbet ederler. En iyi "gezellig" (buranın tabiriyle samimi) anlar tam olarak burada yaşanır.
+
+**✨Küçük Detaylar:**
+- **Katedraldeki Gizli Köpek ve Işık Oyunu:** İçeri girdiğinizde gözünüzü biraz etrafta gezdirin. Vaaz kürsüsünün yanında minik bir köpek heykeli fark edeceksiniz. Sadakatin sembolü olan bu figürle ilgili, dokunmanın şans getirdiğine dair küçük bir şehir efsanesi anlatılır. Günün farklı saatlerinde vitraylardan süzülen renkli ışıklar da içeride ilginç gölgeler oluşturur. Özellikle güneşli günlerde katedral, beklemediğiniz küçük ışık oyunlarıyla bambaşka bir atmosfere bürünür.
+
+- Katedralin önündeki meydanda (Place de la Cathédrale) her zaman bir rüzgar estiğini fark edeceksiniz. Efsaneye göre Şeytan, bir gün katedralin güzelliğini merak edip rüzgarın sırtında buraya gelmiş. Şeytan içeriye girdiğinde katedralin ihtişamından o kadar etkilenmiş ki geri çıkmak istememiş. Dışarıda kalan rüzgar ise o günden beri kapının önünde efendisini bekleyip duruyormuş.
+
+## ✅ Mutlaka Yapmadan Dönme: Strazburg Checklist
+
+- **Strasbourg Cathedral’in zirvesine çıkın:** 332 basamağı göze alıp katedralin tepesine ulaşın. Şehrin çatılarından öte, açık havada Almanya’daki Kara Ormanlar’ı (Schwarzwald) göreceğiniz o panoramik manzara her basamağa değecektir.
+
+- **Katedralin Astronomik Saatini izleyin:** Saat 12:30’daki mekanik törene tanıklık edin; adeta Orta Çağ mühendisliğine bir saygı duruşu.
+
+- **Petite France sokaklarında kaybolun:** Navigasyonu kapatın ve nehir kanalları arasındaki o dar, çiçekli sokaklarda plansızca yürüyün.
+
+- **Geleneksel bir “winstub”da yer ayırtın:** Şehrin yerel meyhaneleri olan winstubların ahşap masalarında, yan masadaki lokallerle omuz omuza oturup Choucroute ya da Baekeoffe denemeden bu şehirden ayrılmayın.
+
+- **Baeckeoffe’nin tadına bakın:** Bu geleneksel ve doyurucu güveci, özellikle kış aylarında veya serin bir akşamda deneyimleyin.
+
+- **Batorama teknesiyle kanal turu yapın:** Şehri su seviyesinden görmek, özellikle “Kapalı Köprüler” ve “Vauban Barajı”nın altından geçmek bakış açınızı değiştirecektir.
+- **Barrage Vauban terasından fotoğraf çekin:** Şehrin en klasik manzaralarından birini buradan yakalayabilirsiniz, özellikle gün batımında.
+- **Bisikletle Avrupa Mahallesi’ne gidin:** Bir “Vélhop” kiralayın ve kanallar boyunca pedallayarak Quartier Européen’e ulaşın.
+- **Mireille Oster’den baharatlı kek alın:** Katedral çevresini saran o tarçın kokusunun peşinden gidin ve gerçek Alsas lezzetini tadın.
+
+- **Tramvayla Almanya’ya (Kehl) geçin geçin):** Sadece 15 dakikada, tek bir biletle ülke değiştirip kısa bir Alman birası molası verip geri dönmenin keyfini yaşayın.
+- **Parc de l’Orangerie’de leylekleri arayın:** Şehrin simgesi olan leylekleri yuvalarında görmek küçük ama çok Alsas’a özgü bir mutluluk.
+
+- [Quai des Bateliers’de nehir kenarına inin](search:Quai des Bateliers’de nehir kenarına inin): Akşam çöktüğünde lokallerin arasına karışıp o gizli merdivenlerde günü bir kadeh şarap eşliğinde bitirin.
+- **Bir kadeh Riesling veya Gewürztraminer için:** Alsas’ın meşhur beyaz şaraplarının karakterini bir winstub atmosferinde keşfedin; yemekle birlikte çok daha iyi açılıyor.
+- **Église Saint-Pierre-le-Jeune Protestant’ün sessizliğini dinleyin:** Şehrin gürültüsünden kaçıp o huzurlu avluda (cloister) kısa bir mola verin.
+- **Alsas’ın “art de vivre (yaşama sanatı)” ruhunu yakalayın:** ” ruhunu yakalayın): Bazen hiçbir şey yapmadan, sadece bir köşede oturup şehrin yavaş ritmine karışmak en güzel deneyim. Strazburg’un o sıcak, sakin ve samimi hali tam da böyle anlarda ortaya çıkıyor.
+
+''';
+
+  static const _strazburgEN = '''# Strasbourg: One City, Two Cultures
+
+**Quick Glimpse:** When you arrive in Strasbourg, you’ll suddenly find yourself among those famous half-timbered houses, right in the middle of a fairytale. This is a city that has taken the best of France and Germany and melted them into one single pot. As you walk the streets, you’ll feel French elegance on one side and German discipline on the other. When you see that massive cathedral in the city center, you’ll be amazed by how its pink stones change color with the sun. Life here flows without haste, with quiet steps along the riverbank. A small tip for you: this is a true bicycle city. If you get carried away and start walking on the bike paths, you might get polite but firm warnings from the locals, so keep your eyes on the road. When it comes to payments, it's a city that still likes to stay traditional; be sure to keep some cash on you. You wouldn't want to find a fresh croissant or a local treat in a tiny backstreet bakery only to be disappointed when you find out they don't accept cards. If you visit in winter, just follow the scent of cinnamon and ginger filling the air; you’ll realize with every breath that you are in the capital of Christmas.
+
+## 📅 Timing is Everything: Which Season is Yours?
+
+There is no "right time" in Strasbourg; it all depends on what you expect from the city. Every period has its own unique rhythm, flavor, and sometimes those small challenges that make the city what it is. As those who live here know, these details are a natural part of Strasbourg’s character. The weather shifts, the tempo changes, and the feel of the streets transforms. The city maintains the same soul; only the experiences vary.
+
+- **Spring (March - May):** The period when the city shakes off its winter gloom and spreads a fresh energy through the streets is truly worth seeing. March can be a bit fickle; one moment it’s sunny, the next you’re caught in a downpour. However, the scent of the flowers in Petite France after that rain is worth everything. Since the crowds haven't invaded the city yet, the streets are much calmer. You might still need to wrap up in the evenings, but having the year’s first outdoor coffee by the river will be a fantastic start.
+- **Summer (June - August):** This is when the streets are most active and the days are longest. A small note: sometimes the famous European heat and humidity can be a bit tiring, and tourist lines at popular spots might test your patience. However, watching the light shows reflected on the cathedral's massive stones while it’s still bright at 10 PM, or walking along the river, instantly makes you forget all that fatigue. If you are looking for a lively atmosphere, summer is a great option.
+- **Autumn (September - November):** Since it’s wine harvest season, a general mood of celebration prevails in the city. September still feels like summer, but by October, those famous yellow and orange tones start falling into the canals. On some mornings, the light mist that settles over the city gives a feeling that time has slowed down as you pass between the timbered houses. The biggest plus is that the crowds have thinned out; as a tip, it’s a period when you can easily find a seat even in the best restaurants and enjoy Strasbourg more quietly.
+- **Christmas Time and Winter (December - February):** December is when everything peaks in Strasbourg. The city is quite crowded, hotel prices are high, and the weather can be truly freezing. Still, breathing in the scent of cinnamon and sipping mulled wine under millions of lights is worth it all. In January and February, the city turns into a complete silence. When it snows, it takes on a whole different look; to feel the peace and local life more closely, these cold months represent the city’s most honest state.
+
+## 🏠 Where to Stay: Neighborhood Guide
+
+Strazburg is not just the heart of Europe; with one foot in France and the other in Germany, its soul feels like a storybook border town caught between two worlds. Deciding where to stay here is a bit like choosing how to start your day — with a French croissant or German discipline. The city is neither too big nor too small; everything feels within reach, yet each neighborhood has a character and texture entirely its own.
+
+- [Petite France](search:Petite France): If you’re thinking, "I want to live inside a postcard," this is your spot. You’re right in the middle of the canals, staying in those iconic half-timbered houses with geraniums spilling off the balconies. Is it romantic? Absolutely. Is it pricey? Usually. The trade-off: this is the tourist epicenter. You might wake up to a crowd taking photos right outside your door, but honestly, that sound of the river makes it all worth it.
+- **Grande Île (The Central Island):** The absolute heart of the city. These are the streets where the massive shadow of the Cathedral falls. It’s the most logical choice if you want everything within walking distance—perfect for grabbing a glass of wine and being back in your room in two minutes. Just a heads-up: these buildings are ancient, so expect tight stairs and tiny elevators, but staying here gives you that "I belong here" feeling like nowhere else.
+
+- [Krutenau](search:Krutenau): This is where the locals, the students, and the "real" Strasbourg live. Once a district for fishermen and craftsmen, it’s now packed with the city’s coolest bars, concept cafes, and indie boutiques. It’s a 5-10 minute walk to the center, meaning you can dodge the tourist noise while staying right in the thick of the action. Krutenau is an absolute gem if you want a bit of edge.
+- [Neudorf](search:Neudorf): You won’t see this one on many tourist maps, but it’s become one of the most popular residential spots lately. If you’re on a budget and want to see "what people actually do here," look no further. With its modernizing face, local markets, and a quick 10-minute tram ride to the center, it’s the ultimate value-for-money neighborhood.
+- [Neustadt (The German Quarter)](search:Neustadt (The German Quarter): Think massive, dignified, and grand 19th-century German architecture. After the cramped alleys of Petite France, the wide boulevards here will let you breathe. It’s perfect if you’re looking for something a bit more upscale, quiet, and "aristocratic." The area around Place de la République is both noble and incredibly peaceful.
+
+## 🚲 Getting from A to B: Move Like a Local
+
+In Strasbourg, transportation means surrendering to the famous blue trams and bike paths. Since the city center (Grande Île) is almost entirely pedestrianized, a car will only be a burden to you. Here are all the details you'll need:
+
+- **From the Airport to the City (Strasbourg-Entzheim):** When you land at the airport, opting for a taxi or Uber won't be a very sensible choice; you would need to budget around €40-50 for this journey. Instead, you can reach the "Gare d'Entzheim-Aéroport" train station via a pedestrian walkway located right inside the terminal. The "Navette Train" (shuttle train), which departs every 15 minutes, will take you to the city's main train station (Gare Centrale) in just 9 minutes. You can purchase your ticket from the machines on the platform for about €3-5. If you plan to use public transport extensively that day, you should buy the "TER + CTS" combined ticket so you can board the tram after the train at no extra cost.
+- **Tram and Bus (CTS):** Strasbourg's tram network is one of the best in Europe. Six different lines (from A to F) reach everywhere. You can buy tickets with a card from machines at the stops or handle it through the "CTS" app. Crucial rule: You must "validate" your ticket at the yellow machines on the platform before boarding the tram. For buses, validating inside the vehicle is sufficient. A single-use ticket is around €2, but 24-hour group tickets (for 2-3 people) are always much more cost-effective.
+- **Bicycles:** The Real Owners of the City: Although not quite as much as Amsterdam, Strasbourg is France's cycling capital, with over 600 kilometers of bike paths available. "Vélhop" is the city's official bike rental system; you can rent daily or weekly at very reasonable prices. If you want to hang out like the locals, exploring the city on two wheels will be your greatest pleasure.
+
+- **Walking Notes:** If you are within the Grande Île (Central Island), you actually don't need any vehicle. Walking from one end to the other will take 20 minutes at most. However, you should be careful of the cyclists coming your way while walking along the canals; they are quite fast in their own lanes!
+- **Crossing to Germany (Kehl):** Changing countries with a single ticket is very easy while in Strasbourg. Line D (Tram D) will take you directly across the border to the German town of Kehl. You should try one of the biggest local habits here: going to a different country in just 15 minutes, shopping at German supermarkets, and heading back.
+
+
+## 🏛️ The City's Memory: Iconic Landmarks Must-See
+
+Strasbourg isn’t just about stone buildings; it’s the result of a centuries-long tug-of-war and eventual embrace between two great cultures—French and German. The city center, known as Grande Île (Big Island), holds the honor of being one of the first city centers ever to be listed as a UNESCO World Heritage site.
+
+- **Strasbourg Cathedral (Cathédrale Notre-Dame de Strasbourg):** The heart and soul of the city. Standing at 142 meters, it was once the tallest structure in the world. It’s built from pink sandstone, which causes its color to shift beautifully depending on the light of day. Entering the cathedral is free. However, if you want to watch the animated parade of mechanical figures of the Grand Astronomical Clock, which begins at 12:30 PM daily, you'll need to pay a fee of about €4. You can also climb the 332 steps to the cathedral’s platform to see the entire city, stretching all the way to the Black Forest on a clear day; the fee for this is approximately €8. Tickets can be purchased directly from the counters at the cathedral entrance.
+**💡 Quick Tip:** While you’re around the cathedral, don't forget to check out Maison Kammerzell right next door. Standing since 1427, this iconic structure with its intricate wood carvings is considered one of the most characteristic houses in the city. Today, it serves as a hotel and restaurant.
+- [La Petite France](search:La Petite France): This is Strasbourg's most photogenic and romantic district. Tucked between river canals, this area was known in the Middle Ages as the home of tanners (masters who process leather) and fishermen. Its name has a bit of an ironic twist: it was named after a hospital located here that treated specific ailments in the past. With its flower-filled balconies and half-timbered houses from the 16th and 17th centuries, it’s truly enchanting. Make sure to see the Maison des Tanneurs (House of the Tanners), the district's most iconic building.
+- **Ponts Couverts (Covered Bridges) and Barrage Vauban and Barrage Vauban):** Located at the entrance of La Petite France, these defensive structures tell the story of the city's military past. Although the roofs on the Ponts Couverts are no longer there, the three bridges and four towers from the 13th century still stand in all their glory. You must head up to the terrace of the nearby Barrage Vauban (Vauban Dam); from here, you can capture a panoramic photo of the bridges with the Cathedral rising in the background.
+- **Palais Rohan (Rohan Palace):** Referred to as "Little Versailles," this Baroque palace was once the residence of prince-bishops. Today, it houses three major museums: the Archaeological Museum, the Museum of Decorative Arts, and the Museum of Fine Arts. The entrance fee for each museum is approximately €7.50. If you plan to visit more than one museum, purchasing a daily museum pass is much more advantageous. Knowing that figures like Napoleon and Marie Antoinette once stayed here is quite a striking detail.
+
+- **Place Kléber:** The city’s main square and its beating pulse. It’s named after the Strasbourg-born General Jean-Baptiste Kléber. In the winter months, one of Europe’s largest natural Christmas trees is set up here. It’s the hub of shopping and movement; you should definitely take a moment to watch how the locals navigate the square with their brisk, purposeful steps.
+
+- [Neustadt (The German Quarter)](search:Neustadt (The German Quarter): Built during the German Empire between 1871 and 1918, this is the second district in the city to be added to the UNESCO list. It stands out with its wide boulevards and imposing Prussian architecture. Place de la République is the center of this area, surrounded by a library, theater, and palace buildings that create a very aesthetic atmosphere.
+- [Quartier Européen (The European Quarter)](search:Quartier Européen (The European Quarter): This is the modern face of Strasbourg and why it holds the title of "The Capital of Europe." A short bike ride along the canals brings you to this district, where the modern architecture stands in sharp contrast to the historic center. The European Parliament, the Council of Europe, and the European Court of Human Rights are all located here.
+- **Parc de l’Orangerie:** The oldest and largest park in the city. Located right across from the Council of Europe, this sprawling green space houses the Josephine Pavilion, built for Napoleon’s wife. As you wander through, you can spot Alsatian storks (the symbol of the region) in their nests, take a quick boat ride on the lake, or visit the small zoo. It’s the perfect escape for those looking to breathe away from the city crowds.
+
+- [Église Saint-Thomas (St. Thomas Church)](search:Église Saint-Thomas (St. Thomas Church): Known as the main Protestant church, this structure is often called "The Cathedral of Alsace." The fact that it has served both Protestant and Catholic congregations over the years perfectly reflects Strasbourg's transitionary nature between cultures and faiths. Seeing the historic organ played by Mozart is reason enough to stop by on its own.
+
+## 🍴 City Flavor Map: Welcome to the Alsatian Table
+
+Alsatian cuisine is a unique culinary culture born from the region's history, which wavered between France and Germany for centuries. It consists of large portions and bold flavors, bringing together French finesse with German heartiness. Eating in Strasbourg will sometimes feel like sitting in a chic French bistro, and other times like being in a cozy German tavern. “Light” options aren’t very common, but every plate is more than satisfying. If you want to eat like a local, check out these staples:
+
+**Choucroute Garnie (Sauerkraut and Meat Platter):** The undisputed star of the Alsace region. It features fermented sauerkraut cooked in wine, served in massive portions alongside various sausages, smoked meats, and boiled potatoes. You might struggle to finish it alone; it’s the ultimate shared winter meal.
+
+- **Flammekueche (Tarte Flambée):** Meaning “baked in the flames,” you can think of this as “Alsatian pizza”—but be careful, calling it pizza might hurt the locals' feelings. It’s a paper-thin, crispy dough topped with sour cream (crème fraîche), thinly sliced onions, and bits of smoked pork (lardons), then baked in a wood-fired oven. The traditional version is a must, but the mushroom or cheese variations are also worth a try.
+
+- **Baekeoffe:** Meaning "the baker’s oven," this traditional slow-cooked stew is one of the most classic flavors of Strasbourg. It’s prepared by slow-cooking three types of meat (pork, beef, and lamb) with vegetables and white wine in a ceramic pot sealed with a strip of dough. Historically, women would drop this dish off at the baker’s to cook while they went to do the laundry. It’s a legacy of patience and the most heartwarming flavor in the city.
+
+- **Spaetzle:** These fresh, German-inspired noodles are irregularly shaped but incredibly delicious, made from egg dough. They are usually served as a side to meat dishes; however, the “Käsespätzle” version—topped with plenty of Gruyère cheese and caramelized onions—is a filling main course on its own. You can find the best examples in traditional Alsatian taverns; Le Clou is a great spot to try this.
+
+- **Kugelhopf:** A tall, fluted, crown-shaped cake that you’ll frequently see in Strasbourg’s shop windows. It contains raisins and almonds and is served dusted with powdered sugar. It’s perfect for breakfast or with a coffee. If you catch a fresh slice at local bakeries like Pâtisserie Christian, you’ll taste it at its absolute best.
+
+- **Alsatian Wines and Beer:** The Alsace region is world-renowned for its white wines, with Riesling and Gewürztraminer being the two most famous varieties. The beer culture is just as strong; you can find fresh local brews in traditional Strasbourg "Brasseries." For a glass of wine, you can visit the historic cellars of Cave Historique des Hospices de Strasbourg, or for a beer, take a break at a friendly tavern like Au Pont Corbeau.
+- **Pain d’Épices (Spiced Bread / Gingerbread):** Available year-round, but synonymous with the scent of cinnamon and ginger that fills the city during Christmas. You'll find countless varieties in almost every bakery around the Cathedral. With its intense honey and spice aroma, it’s an indispensable winter treat. To taste this Middle Ages-rooted cake at its best, stop by iconic spots like Mireille Oster.
+
+- **Cheese Platter (Munster):** Alsace’s most famous cheese, Munster, is known for its pungent aroma but surprisingly mellow taste. It’s usually served with cumin seeds to aid digestion and balance the flavor. Its character truly shines when paired with a glass of Riesling or Gewürztraminer.
+
+
+**💡 Local Tip:** If you want to experience authentic Strasbourg flavors, look for places with "Winstub" written on the door. These are wood-paneled, traditional Alsatian eateries where the locals hang out, offering the most honest versions of regional dishes.
+
+## 🤫 Whispers of the City: Local Secrets
+
+Don’t just leave Strasbourg with postcard views. This city is so much more than just sipping wine and taking photos by the canal. Veer off the main boulevards and dive into the narrow alleys; once you wander a bit and distance yourself from the crowds, the true soul of the city reveals itself in the small streets and the places where locals hang out.
+
+- **Cave Historique des Hospices de Strasbourg (Historical Hospital Cellar):** Right in the heart of the city, hidden beneath a modern hospital, lies one of the oldest wine cellars in the world. Dating back to 1395, this cellar wasn't just for storage; it was part of a tradition where patients paid for their treatment with wine. Inside, you can see a white wine from 1472—the oldest wine in the world still in a barrel. Most tourists walk right over it without ever realizing what’s underneath their feet.
+- **Le Pont Tournant (The Pivoting Bridge):** In the center of Petite France, there’s a small bridge that rotates on its axis to let boats pass. While most people get bored waiting for the boat to clear, the true local pleasure is to grab a seat at one of the nearby bars and watch the rhythmic "click-clack" of this old-school engineering.
+
+- **Saint-Pierre-le-Jeune Church:** Often skipped because it stands in the Cathedral’s shadow, this church has one of the most stunning interiors in town. Its 14th-century frescoes and the incredibly silent cloister make it one of the most peaceful escape points in Strasbourg. It’s free to enter and a perfect spot to clear your head.
+
+- [Details of Rue des Juifs (Jewish Street)](search:Details of Rue des Juifs (Jewish Street): This is one of the oldest streets in the city. Look up as you walk; you’ll see trade signs from the Middle Ages, ancient door knockers, and the best examples of why houses are "crooked" (upper floors were extended to avoid paying taxes based on ground-floor area).
+- [L’Aubette 1928](search:L’Aubette 1928): Located right on the edge of Place Kléber, this building looks ordinary from the outside, but once you step inside, you find yourself in the "Sistine Chapel of Abstract Art." It’s the pinnacle of 1920s avant-garde design. Most tourists mistake it for just another shopping mall, but the "Ciné-Bal" hall inside is a visual feast.
+- **Hidden River Steps:** As you walk along Quai des Bateliers, you’ll notice narrow, hidden stone steps leading down to the water. In the evenings, locals grab their wine and sit on these steps to chat, watching the city lights shimmer on the water. This is where you find the true local "gezellig" moments.
+
+**✨ Little Details:**
+- **The Secret Dog and the Light Show at the Cathedral:** Once you're inside, let your eyes wander. You’ll notice a tiny dog sculpture next to the pulpit. A symbol of loyalty, there’s a local urban legend that rubbing it brings good luck. At different times of the day, the colorful lights filtering through the stained glass create fascinating shadows. Especially on sunny days, the cathedral takes on an entirely different atmosphere with unexpected light plays.
+- **The Legend of the Wind:** You’ll notice there’s almost always a breeze at the square in front of the cathedral (Place de la Cathédrale). According to legend, the Devil once arrived here on the back of the wind, curious about the cathedral's beauty. When he entered, he was so captivated by its grandeur that he never wanted to leave. The wind, left waiting outside, has been swirling around the doors ever since, looking for its master.
+
+
+## ✅ The Strasbourg Checklist: Don't Leave Without Doing These
+
+- **Climb to the Summit of Strasbourg Cathedral:** Brave the 332 steps to reach the top. Beyond the city's rooftops, the panoramic view where you can see Germany’s Black Forest (Schwarzwald) on a clear day is worth every single step.
+
+- **Watch the Cathedral’s Astronomical Clock:** Witness the mechanical parade at 12:30 PM; it’s a true homage to medieval engineering.
+
+- Get Lost in the [Streets of Petite France](search:Get Lost in the Streets of Petite France): Turn off your GPS and wander aimlessly through those narrow, flower-lined alleys between the river canals.
+- **Book a Table at a Traditional “Winstub”:** You haven't truly left the city until you’ve sat shoulder-to-shoulder with locals at the wooden tables of these traditional taverns to try Choucroute or Baekeoffe.
+- **Savor the Baeckeoffe:** Experience this traditional and hearty stew, especially during the winter months or on a cool evening.
+
+- **Take a Canal Tour with a Batorama Boat:** Seeing the city from water level—especially passing under the "Covered Bridges" and the "Vauban Dam"—will completely change your perspective.
+- **Snap a Photo from the Barrage Vauban Terrace:** Capture one of the city’s most classic views from here, especially during sunset.
+- **Cycle to the European Quarter:** Rent a “Vélhop” and pedal along the canals to reach the Quartier Européen.
+
+- **Buy Spiced Bread from Mireille Oster:** Follow the scent of cinnamon swirling around the Cathedral and taste the authentic Alsatian flavor.
+
+- **Take the Tram to Germany (Kehl):** Enjoy the novelty of changing countries in just 15 minutes with a single ticket, taking a quick German beer break, and heading back.
+- **Spot the Storks at Parc de l’Orangerie:** Seeing the storks—the symbol of the city—in their nests is a small but very uniquely Alsatian joy.
+
+- **Head Down to the Riverbank at Quai des Bateliers:** As evening falls, join the locals on those hidden stairs and end your day with a glass of wine.
+
+- **Sip a Glass of Riesling or Gewürztraminer:** Discover the character of Alsace’s famous white wines in a winstub atmosphere; they open up much better when paired with food.
+- **Listen to the Silence of Église Saint-Pierre-le-Jeune Protestant:** Escape the city noise and take a short break in its peaceful cloister.
+- **Capture Alsace’s “Art de Vivre” Spirit:** Sometimes, doing nothing at all and just sitting on a corner to blend into the city’s slow rhythm is the best experience. Strasbourg’s warm, calm, and intimate nature reveals itself in exactly those moments.
+''';
+
+  // HEIDELBERG
+  static const _heidelbergTR = '''# Heidelberg Rehberi: Romantizmin Başkenti 🇩🇪
+
+Neckar nehri kıyısında, tepedeki kızıl kalesi ve dünyanın en eski üniversitelerinden biriyle Heidelberg, Alman romantizminin simgesidir.
+
+## 📅 Ne Zaman Gidilir?
+- **Sonbahar:** Ormanların kızıla döndüğü ve sisli nehir manzarasının en etkileyici olduğu dönem.
+- **Yaz:** Kale festivalleri ve havai fişek gösterileri (şato aydınlatması) zamanı.
+
+## 🏘️ Gezilecek Yerler
+- [Heidelberg Kalesi](search:Heidelberg Kalesi): Şehre tepeden bakan bu devasa harabe, dünyanın en büyük şarap fıçısına ev sahipliği yapar.
+- **Eski Köprü (Alte Brücke):** Kale manzaralı ikonik taş köprü. Kapısındaki maymun heykeline dokunmak şans getirir!
+
+- **Filozoflar Yolu (Philosophenweg):** Nehrin karşı kıyısında, şairlerin ve profesörlerin yürüdüğü, en iyi şehir manzarasına sahip yol.
+
+## 🍽️ Ne Yenir ve İçilir?
+- **Öğrenci Barları:** Untere Strasse bölgesi, uygun fiyatlı bira ve canlı ortam sunan tarihi barlarla doludur.
+- **Schneeballen:** "Kar topu" tatlısı. Kırarak yenen sert hamurlu bir kurabiye.
+
+
+## 💎 Lokal Sırlar & İpuçları
+- [Hapishane (Studentenkarzer)](search:Studentenkarzer): Üniversitenin yaramaz öğrencileri eskiden buraya hapsedilirmiş. Duvarlardaki yüzyıllık graffitiler çok ilginçtir.
+- [Thingstätte](search:Thingstätte): Tepedeki ormanın içinde, Nazi döneminden kalma devasa bir açık hava amfitiyatrosu. Biraz ürkütücü ama etkileyici.''';
+
+  static const _heidelbergEN = '''# Heidelberg Guide: Capital of Romance 🇩🇪
+
+With its red sandstone castle perched above the Neckar River and one of the world's oldest universities, Heidelberg is the symbol of German Romanticism.
+
+## 📅 Best Time to Visit
+- **Autumn:** When the forests turn red and gold, and the misty river views are most atmospheric.
+- **Summer:** The time for castle festivals and the famous "Castle Illumination" fireworks.
+
+## 🏘️ Places to Visit
+- **Heidelberg Castle:** This massive ruin overlooking the city houses the world's largest wine barrel.
+
+- **Old Bridge (Alte Brücke):** The iconic stone bridge. Touching the bronze monkey by the gate is said to bring good luck!
+
+- **Philosophers' Walk (Philosophenweg):** A scenic path on the opposite side of the river where poets and professors walked, offering the best skyline views.
+
+## 🍽️ Food & Drink
+- **Student Pubs:** The Untere Strasse area is full of historic pubs offering cheap beer and a lively atmosphere.
+- **Schneeballen:** "Snowball" pastry. A hard shortcrust pastry that you smash to eat.
+
+
+## 💎 Local Secrets & Insights
+- [Student Prison (Studentenkarzer)](search:Studentenkarzer): Naughty university students were once locked up here. The century-old graffiti on the walls is fascinating.
+- [Thingstätte](search:Thingstätte): Hidden in the forest on the hill, this massive open-air amphitheater from the Nazi era is eerie but impressive.''';
+
+  // COLMAR
+  static const _colmarTR = '''# Colmar Rehberi: Masal Kitabından Bir Sayfa 🇫🇷
+
+Alsas Şarap Yolu'nun başkenti Colmar, kanalları ve çiçekli pencereleriyle "Küçük Venedik" olarak anılır. Burası gerçek olamayacak kadar güzeldir.
+
+## 📅 Ne Zaman Gidilir?
+- **Noel:** Colmar'ın 6 farklı Noel pazarı şehri bir ışık şölenine çevirir.
+
+- **Bağ Bozumu (Eylül-Ekim):** Şarap severler için en iyi zamandır.
+
+## 🏘️ Gezilecek Yerler
+- [La Petite Venise](search:Little Venice Colmar): (Küçük Venedik): Lauch nehri kenarındaki rengarenk evler. Sandalla gezinti yapabilirsiniz.
+- [Pfister Evi](search:Maison Pfister): "Howl'un Yürüyen Şatosu" animesine ilham veren, ahşap işlemeli tarihi bina.
+- [Unterlinden Müzesi](search:Unterlinden Museum): Eski bir manastırda yer alan önemli bir sanat müzesi.
+
+## 🍽️ Ne Yenir ve İçilir?
+- **Alsas Şarapları:** Riesling ve Gewürztraminer şaraplarını yerel mahzenlerde tadın.
+- **Pretzel (Bretzel):** Burada her köşe başında devasa, sıcak ve tuzlu pretzeller bulabilirsiniz.
+
+
+## 💎 Lokal Sırlar & İpuçları
+- **Özgürlük Heykeli:** New York'taki heykelin heykeltıraşı Bartholdi Colmarlıdır. Şehrin girişindeki 12 metrelik replikayı görünce şaşırmayın.
+- **Işıklandırma:** Cuma ve Cumartesi akşamları şehir özel bir sistemle aydınlatılır, gece yürüyüşü yapmayı ihmal etmeyin.''';
+
+
+  static const _colmarEN = '''# Colmar Guide: A Page from a Fairytale 🇫🇷
+
+The capital of the Alsace Wine Route, Colmar is known as "Little Venice" for its canals and flower-decked windows. It is almost too beautiful to be real.
+
+## 📅 Best Time to Visit
+- **Christmas:** Colmar's 6 Christmas markets turn the town into a festival of lights.
+
+- **Harvest (Sept-Oct):** The absolute best time for wine lovers.
+
+
+## 🏘️ Places to Visit
+- [La Petite Venise](search:Little Venice Colmar): Colorful houses lining the Lauch river. You can take a flat-bottomed boat tour here.
+- [Maison Pfister](search:Maison Pfister): An ornate wooden house that inspired the anime "Howl's Moving Castle."
+- [Unterlinden Museum](search:Unterlinden Museum): An important art museum housed in a former medieval convent.
+
+## 🍽️ Food & Drink
+- **Alsace Wines:** Taste Riesling and Gewürztraminer in local cellars ("Caveau").
+- **Pretzel (Bretzel):** Giant, warm, salty soft pretzels are available on every corner.
+
+
+## 💎 Local Secrets & Insights
+- **Statue of Liberty:** Bartholdi, the sculptor of the Statue of Liberty, was born in Colmar. Don't be surprised to see a 12-meter replica at the town entrance.
+- **Illumination:** On Friday and Saturday nights, the city is lit up by a special light design—perfect for a night walk.''';
+
+
+  // GIETHOORN
+  static const _giethoornTR = '''# Giethoorn Rehberi: Sessizliğin Sesi 🇳🇱
+
+"Kuzeyin Venedik'i" denilen Giethoorn'da yol yoktur, araba yoktur. Sadece kanallar, köprüler ve sessiz elektrikli tekneler vardır.
+
+## 📅 Ne Zaman Gidilir?
+- **İlkbahar ve Yaz:** En yeşil ve en güzel zamanıdır ama gündüzleri kalabalık olabilir.
+- **İpucu:** Kalabalıktan kaçmak için saat 11:00'den önce veya 17:00'den sonra tekne kiralayın.
+
+## 🏘️ Ne Yapılır?
+- **Tekne Kiralama (Whisper Boat):** Sessiz motorlu küçük botlardan kiralayıp kendiniz kullanın. Kanallarda kaybolmak çok keyiflidir.
+- **Yürüyüş:** "Binnenpad" yolu boyunca yürüyerek saz çatılı çiftlik evlerini ve çiçekli bahçeleri inceleyin.
+
+## 🍽️ Ne Yenir ve İçilir?
+- **Kanal Kenarı Restoranları:** *Smit's Paviljoen* gibi su kenarındaki restoranlarda öğle yemeği yiyin.
+- **Peynir:** Hollanda peynirlerinin tadına bakabileceğiniz küçük dükkanlar vardır.
+
+
+## 💎 Lokal Sırlar & İpuçları
+- [Müze Çiftlik](search:Museum 't Olde Maat Uus): (Museum 't Olde Maat Uus): 100 yıl önce burada hayatın nasıl olduğunu gösteren, oyuncuların olduğu canlı bir müze.
+- **Sessizlik:** Yerel halkın huzuruna saygı gösterin; bahçelerine girmeyin veya yüksek sesle konuşmayın.''';
+
+
+  static const _giethoornEN = '''# Giethoorn Guide: The Sound of Silence 🇳🇱
+
+Known as the "Venice of the North," Giethoorn has no roads and no cars. Only canals, bridges, and silent electric boats.
+
+## 📅 Best Time to Visit
+- **Spring & Summer:** The greenest and most beautiful time, though it can get crowded midday.
+- **Tip:** Rent a boat before 11:00 AM or after 5:00 PM to avoid the "boat traffic jams."
+
+## 🏘️ What to Do?
+- **Rent a Whisper Boat:** Rent a small electric boat and drive it yourself. Getting lost in the canals is pure joy.
+- **Walking:** Stroll along the "Binnenpad" path to admire the thatched-roof farmhouses and flower gardens close up.
+
+## 🍽️ Food & Drink
+- **Canalside Dining:** Have lunch at water-edge restaurants like *Smit's Paviljoen*.
+
+- **Cheese:** Visit the small local shops to taste authentic Dutch cheeses.
+
+
+## 💎 Local Secrets & Insights
+- [Museum Farm](search:Museum 't Olde Maat Uus): ('t Olde Maat Uus): A living museum with actors showing what life in Giethoorn was like a century ago.
+- **Respect:** Remember people live here. Respect their privacy, stay off private bridges, and keep noise levels down.''';
+
+
+  // SINTRA
+  static const _sintraTR = '''# Sintra Rehberi: Masalsı Bir Kaçış 🇵🇹
+
+Lizbon'un hemen yanı başında, sisli dağların üzerine kurulu sarayları ve egzotik bahçeleriyle Sintra, UNESCO Dünya Mirası listesimdedir. Lord Byron burayı "Muhteşem Cennet" olarak tanımlamıştır.
+
+## 📅 Ne Zaman Gidilir?
+- **İlkbahar:** Bahçelerin en renkli olduğu, havanın yürüyüşe uygun olduğu zaman.
+- **Sonbahar:** Sisler içindeki Pena Sarayı daha da mistik görünür.
+- **İpucu:** Yazın çok kalabalıktır, erken gitmeye çalışın.
+
+## 🏘️ Gezilecek Yerler
+- **Pena Sarayı:** (Palácio da Pena): Sarı ve kırmızı renkli, Disney şatolarını andıran zirvedeki saray.
+
+- [Quinta da Regaleira](search:Quinta da Regaleira): Gotik mimarisi, gizli geçitleri ve meşhur "Başlangıç Kuyusu" (Initiation Well) ile burası bir labirenttir.
+- **Mağribi Kalesi:** (Castelo dos Mouros): Tepelere yayılan surlarda yürüyerek okyanusu ve sarayları izleyin.
+
+
+## 🍽️ Ne Yenir ve İçilir?
+- **Travesseiro:** "Yastık" anlamına gelen, badem kremalı milföy tatlısı. *Piriquita* pastanesinde yiyin.
+
+- [Queijada](search:Queijada): Peynir, yumurta, süt ve şekerle yapılan küçük tart.
+
+## 💎 Lokal Sırlar & İpuçları
+- **Monserrate Sarayı:** Kalabalıktan kaçmak için buraya gidin. Arap ve Gotik mimari karışımı sarayı ve botanik bahçesi çok huzurludur.
+
+- **Ulaşım:** Sintra'da araba park etmek kabustur. Lizbon'dan trenle gelin ve içeride otobüs (434 hattı) kullanın.''';
+
+  static const _sintraEN = '''# Sintra Guide: A Fairytale Escape 🇵🇹
+
+Just outside Lisbon, with its palaces perched on misty peaks and exotic gardens, Sintra is a UNESCO World Heritage site described by Lord Byron as a "Glorious Eden."
+
+## 📅 Best Time to Visit
+- **Spring:** When gardens bloom and the weather is perfect for hiking.
+- **Autumn:** The misty atmosphere makes Pena Palace look even more mystical.
+- **Tip:** It gets very crowded in summer; try to arrive early.
+
+## 🏘️ Places to Visit
+- **Pena Palace:** The yellow and red romanticist castle on the peak that looks like it's straight out of Disney.
+
+- [Quinta da Regaleira](search:Quinta da Regaleira): A gothic estate filled with secret tunnels, grottoes, and the famous "Initiation Well."
+- [Moorish Castle](search:Castle of the Moors): Walk along the ancient walls for breathtaking views of the ocean and palaces.
+
+## 🍽️ Food & Drink
+- **Travesseiro:** Meaning "pillow," this puff pastry filled with almond cream is a local legend. Try it at *Piriquita*.
+
+- [Queijada](search:Queijada): A delicious small tart made with fresh cheese, eggs, milk, and sugar.
+
+## 💎 Local Secrets & Insights
+- **Monserrate Palace:** Escape the crowds here. The blend of Arabic and Gothic architecture surrounded by botanical gardens is incredibly peaceful.
+
+- **Transport:** Parking is a nightmare. Take the train from Lisbon and use the bus (line 434) to get around.''';
+
+  // SAN SEBASTIAN
+  static const _sanSebastianTR = '''# San Sebastian Rehberi: Lezzet Başkenti 🇪🇸
+
+Bask bölgesinin incisi Donostia (San Sebastian), dünyada metrekareye en çok Michelin yıldızı düşen şehirlerden biridir ve Avrupa'nın en güzel şehir plajına sahiptir.
+
+## 📅 Ne Zaman Gidilir?
+- **Yaz:** Plajların keyfini çıkarmak için idealdir.
+- **Eylül:** Film Festivali zamanı şehir yıldızlarla dolar.
+
+## 🏘️ Gezilecek Yerler
+- [La Concha](search:La Concha Beach): İspanya'nın, hatta Avrupa'nın en güzel şehir plajı. Yarım ay şeklindeki kumsalda yürüyüş yapın.
+- **Parte Vieja (Eski Şehir):** Dar sokaklar, kiliseler ve sayısız Pintxos barı burada.
+
+- [Monte Igueldo](search:Monte Igueldo): Fünikülerle tepeye çıkın ve o meşhur koy manzarasını fotoğraflayın.
+
+## 🍽️ Ne Yenir ve İçilir?
+- **Pintxos (Pinçoz):** Bask usulü tapas. Barların tezgahlarındaki yüzlerce çeşit arasından seçin. Kürdanları atmayın, hesap kürdan sayısına göre ödenir!
+
+- [Txuleta](search:Txuleta): Izgara dana pirzola. Sadece deniz tuzu ile pişirilir, lezzeti etin kalitesindedir.
+- [Txakoli](search:Txakoli): Bölgeye özgü, hafif gazlı ve asitli beyaz şarap. Yüksekten dökülerek servis edilir.
+
+## 💎 Lokal Sırlar & İpuçları
+- **Gastronomi Kulüpleri:** Üye olmadan girilemeyen "Txoko"lar meşhurdur. Bir yerli arkadaş bulup girmeyi deneyin.
+
+- **Sörf:** [Zurriola](search:Zurriola Beach) plajı sörfçülerin mekanıdır; ders alabilir veya izleyebilirsiniz.
+
+- **Cheesecake:** Dünyaca ünlü "San Sebastian Cheesecake"in doğduğu yer *[La Viña](search:La Viña San Sebastian)* restoranıdır. Kuyruk beklemeye değer!''';
+
+
+  static const _sanSebastianEN = '''# San Sebastian Guide: The Culinary Capital 🇪🇸
+
+Donostia (San Sebastian), the pearl of the Basque Country, holds one of the highest concentrations of Michelin stars per capita in the world and boasts Europe's finest city beach.
+
+## 📅 Best Time to Visit
+- **Summer:** Perfect for enjoying the magnificent beaches.
+- **September:** The city fills with stars during the International Film Festival.
+
+
+## 🏘️ Places to Visit
+- [La Concha](search:La Concha Beach): Arguably the most beautiful city beach in Europe. Take a stroll along the crescent-shaped bay.
+- [Parte Vieja (Old Town)](search:Parte Vieja (Old Town): Narrow streets packed with churches and endless Pintxos bars.
+- [Monte Igueldo](search:Monte Igueldo): Take the funicular to the top for the iconic panoramic photo of the bay.
+
+## 🍽️ Food & Drink
+- **Pintxos:** Basque tapas. Pick from hundreds of options displayed on bar counters. Keep your toothpicks; the bill is calculated by counting them!
+
+- [Txuleta](search:Txuleta): Grilled rib steak. Seasoned simply with sea salt, the flavor comes from the quality of the meat.
+- [Txakoli](search:Txakoli): A slightly sparkling, acidic white wine poured from a height to aerate it.
+
+## 💎 Local Secrets & Insights
+- **Gastronomic Societies:** "Txokos" are private dining clubs. Try to befriend a local to get invited inside.
+
+- **Surf:** [Zurriola](search:Zurriola Beach) beach is the surfer's spot; take a lesson or watch the pros.
+
+- **Cheesecake:** The birthplace of the world-famous "San Sebastian Cheesecake" is *[La Viña](search:La Viña San Sebastian)*. It's worth waiting in line!''';
+
+
+  // BOLOGNA
+  static const _bolognaTR = '''# Bologna: Gastronominin ve Bilginin Kızıl Başkenti
+
+**Hızlı Bakış:** İtalya’nın "gurme" kalbine, kırmızının her tonuna ve Avrupa’nın en eski üniversite ruhuna hoş geldin! Bologna, İtalyanlar tarafından üç lakapla anılır: "La Grassa" (Şişman - efsanevi mutfağı için), "La Rossa" (Kırmızı - binalarının rengi ve siyasi geçmişi için) ve "La Dotta" (Bilgin - dünyanın en eski üniversitesine ev sahipliği yaptığı için). Şehirde gökyüzünü görmek için başınızı kaldırdığınızda karşınıza çıkan o meşhur Porticolar (revaklar), UNESCO koruması altındadır ve yağmurlu bir günde bile ıslanmadan tüm şehri gezmenizi sağlar.
+
+**Kritik Bir Mutfak Uyarısı:** Sakın bir restorana girip "Spaghetti Bolognese" istemeyin! Bologna’da bu yemeğin adı Tagliatelle al Ragù’dur ve ince spagetti yerine geniş şerit makarnayla servis edilir; bu yerel bir onur meselesidir. Şehir, Floransa’nın gölgesinde kalmış gibi görünse de aslında İtalya’nın en gerçek ve turistik tuzaklardan en uzak köşelerinden biridir. Akşamüstü olduğunda Piazza Maggiore çevresindeki dar sokaklarda (Quadrilatero) bir masaya çöküp, yerel halkla birlikte "Aperitivo" saatine katılmak Bologna’nın yazılmamış yaşam yasasıdır.
+
+## 📅 Takviminizi Ayarlayın: Hangi Mevsim Sizin?
+
+Bologna, İtalya’nın kuzeyindeki konumu ve vadi yapısı nedeniyle her mevsimde farklı bir karakter sunar. Şehrin o meşhur "kırmızı" tonlarını en iyi hangi ışıkta görmek istediğinize karar vermeniz yeterli.
+
+- **İlkbahar (Nisan - Haziran):** Bologna’nın "altın çağı"dır. Hava sıcaklığı ne terletir ne de üşütür; portikoların altında uzun yürüyüşler yapmak için mükemmeldir. Şehrin üniversite ruhu bu dönemde meydanlarda (Piazza) en canlı halindedir.
+- **Yaz (Temmuz - Ağustos):** Dikkat! Bologna bir vadide yer aldığı için yaz aylarında hava oldukça nemli ve sıcak (İtalyanların tabiriyle afa) olabilir. Ağustos ayında yerel halk tatile çıktığı için bazı küçük dükkanlar kapanabilir; ancak Piazza Maggiore’de kurulan devasa açık hava sineması (Sotto le Stelle del Cinema) bu mevsimin en büyüleyici deneyimidir.
+- **Sonbahar (Eylül - Ekim):** Tam bir gurme mevsimidir. Trüf mantarı, yeni hasat şaraplar ve taze makarnaların kokusu tüm sokakları sarar. Şehrin kırmızı ve turuncu binaları, dökülen yapraklarla birleşerek harika bir fotoğraf karesine dönüşür.
+- **Kış (Kasım - Mart):** Bologna kışın sisli, bazen karlı ama her zaman çok atmosferiktir. Hava soğudukça, Bologna’nın o meşhur ağır ve lezzetli yemekleri (özellikle sıcak et suyunda yüzen Tortellini in Brodo) çok daha anlamlı hale gelir. Noel döneminde kurulan pazarlar ise şehre masalsı bir hava katar.
+
+## 🏠Nerede Kalmalı: Mahalle Rehberi
+
+Bologna’da mahalleler, orta çağ dokusunun modern öğrenci enerjisiyle harmanlandığı alanlardır. Nerede kaldığınız, sabah dışarı çıktığınızda kendinizi bir pazar yerinin ortasında mı yoksa sessiz bir avluda mı bulacağınızı belirler.
+
+- **Centro Storico (Tarihi Merkez):** Bologna’nın kalbi ve ruhu burasıdır. Piazza Maggiore ve İki Kule’ye birkaç adım mesafede uyanmak istiyorsanız en doğru tercihtir. Bu bölgede konaklamak, her sabah UNESCO tescilli revakların altında yürüyerek güne başlamak ve şehrin en eski pazar yerlerine anında ulaşmak demektir. Tarihi doku büyüleyicidir ancak merkezi konumu nedeniyle fiyatlar şehrin geneline göre daha yüksektir ve bazı dar sokaklar akşamları hareketli restoranlar yüzünden biraz gürültülü olabilir.
+
+- **Bolognina (Küçük Bologna):** Tren istasyonunun hemen arkasında yer alan bu bölge, Bologna’nın modern ve çok kültürlü yüzüdür. Eskiden işçi sınıfının yaşadığı bir mahalleyken, şimdilerde sanat galerileri, hipster kafeleri ve alternatif gece hayatıyla şehrin en "trendy" noktasına dönüşmüştür. Şehir merkezine göre konaklama fiyatları çok daha uygundur ve ana istasyona yakınlığı sayesinde çevre şehirlere (Floransa, Venedik gibi) günübirlik gitmek isteyenler için stratejik bir noktadır.
+
+- **Via Zamboni ve Üniversite Bölgesi:** Dünyanın en eski üniversitesine ev sahipliği yapan bu bölge, günün her saati enerji doludur. Eğer bütçeniz kısıtlıysa ve şehrin bohem, genç ve biraz "asi" ruhunu yaşamak istiyorsanız burası tam size göredir. Duvarlardaki grafitiler, ucuz ama lezzetli dilim pizzacılar ve her köşe başında bir şeyler tartışan öğrencilerle çevrili olursunuz. Ancak uyaralım; burası Bologna’nın en gürültülü bölgesidir ve gece hayatı sabaha kadar devam eder.
+
+- **Costa-Saragozza:** Şehrin daha nezih, yeşil ve sakin yüzünü arıyorsanız rotanızı Saragozza tarafına çevirmelisiniz. Şehir merkezinin hemen batısında kalan bu bölge, yerel ailelerin tercih ettiği şık bir yerleşim yeridir. Meşhur San Luca bazilikasına çıkan o devasa revaklı yolun başladığı yer burasıdır. Şehir merkezine kısa bir yürüyüş veya otobüs yolculuğu mesafesindedir; gürültüden uzak ama şehre bağlı bir deneyim sunar.
+
+## 🚲 A Noktasından B Noktasına: Bir Lokal Gibi Hareket Edin
+
+Bologna, kelimenin tam anlamıyla yürümek için yaratılmış bir şehir. Şehri çepeçevre saran revaklar sayesinde ne kavurucu güneş ne de ani bastıran yağmur keşif keyfini bölüyor. Bu yüzden şemsiyesiz çıkıp gönül rahatlığıyla dolaşabileceğin nadir şehirlerden biri.
+
+**Havalimanından Şehir Merkezine:** Bologna Havalimanı’ndan (BLQ) şehir merkezine ulaşmanın en pratik yolu Marconi Express monoray hattı. Bu hatla ana tren istasyonuna yaklaşık 7 dakikada ulaşılıyor. Tek yön bilet 12,8 €, gidiş–dönüş ise 23,3 €. Biletle uğraşmak istemezsen, turnikelerde kredi kartını okutarak doğrudan geçiş yapmak da mümkün. Hızlı, net ve zahmetsiz bir başlangıç.
+- **Revakların Altında Yürüme Kültürü:** Bologna’da şehri keşfetmenin en iyi yolu yürümek. UNESCO tescilli, toplamda 40 kilometreyi bulan revaklar (portico) sayesinde hava durumunu dert etmeden dolaşabiliyorsun. Şehir merkezi oldukça kompakt bir yapıda; en uzak noktalar bile çoğu zaman birbirine 20 dakikalık yürüme mesafesinde. Bu da plan yapmadan, canın nereye isterse oraya saparak gezmeyi mümkün kılıyor.
+
+- **Otobüsler ve San Luca Express:** Açık konuşmak gerekirse, şehir merkezi için çoğu zaman toplu taşımaya ihtiyacın olmuyor. Yine de daha uzak mahallelere gitmek ya da San Luca Bazilikası’nı görmek istersen sarı renkli TPER otobüsleri işini görür. Bileti önceden alırsan 1,5 € ve 75 dakika boyunca geçerli; otobüs içinde alırsan ücret 2 €. Tepeye yürümek yerine daha konforlu bir seçenek arıyorsan, Piazza Maggiore’den kalkan San Luca Express ile yaklaşık 12 € karşılığında bazilikaya ulaşmak da mümkün.
+- **İtalya’nın Tren Kavşağı:** Bologna’nın en büyük avantajlarından biri Bologna Centrale’nin konumu. Burası adeta İtalya’nın demiryolu kalbi. Buradan kalkan hızlı trenlerle Floransa’ya 35 dakikada, Milano’ya 1 saatte, Venedik’e ise yaklaşık 1,5 saatte ulaşabiliyorsun. Bu ulaşım kolaylığı, Bologna’yı Kuzey İtalya’yı gezmek isteyenler için oldukça stratejik bir konaklama üssüne dönüştürüyor.
+- **Araçla Gelecekler İçin Küçük Bir Not:** Şehir merkezine araçla girmek pek iyi bir fikir değil. Merkez, sıkı şekilde denetlenen ZTL (Sınırlı Trafik Bölgesi) içinde yer alıyor ve cezalar ciddi. En mantıklı seçenek, aracı merkezin hemen dışındaki otoparklara — örneğin Parcheggio Tanari — bırakıp şehre otobüsle geçmek. Hem bütçeyi hem de tatil keyfini koruyan bir çözüm.
+
+## 🏛️ Şehrin Hafızası: Görülmesi Gereken İkonik Duraklar
+
+Bologna’nın ruhu; kızıl tuğlalı duvarların, bin yıllık revakların ve her adımda hissedilen o derin akademik atmosferin birleşimidir. Burası bir açık hava müzesinden ziyade, her sokağı yaşanmışlık kokan, yaşayan bir tarih kitabıdır.
+
+- [Piazza Maggiore ve Fontana del Nettuno](search:Piazza Maggiore ve Fontana del Nettuno): Şehrin "oturma odası"dır. Dev fontanadaki Neptün Heykeli, Bologna’nın gücünü simgeler. Meydanda durup çevrenizdeki orta çağ binalarına baktığınızda zamanın durduğunu hissedersiniz. Hemen yanındaki Basilica di San Petronio ise dünyanın en büyük kiliselerinden biridir; dış cephesinin yarım kalmış olması ona bambaşka bir karakter katar.
+- **Le Due Torri (İki Kule):** Bologna’nın simgesi olan bu kuleler, orta çağın "gökdelenleri"dir. Asinelli Kulesi’ne tırmanmak biraz kondisyon gerektirse de (498 basamak!), tepeden göreceğiniz o uçsuz bucaksız "kırmızı şehir" manzarası her zahmete değer. Diğer kule Garisenda ise eğikliğiyle meşhurdur ve güvenliğiniz için sadece uzaktan izlenmelidir.
+
+- [Archiginnasio ve Anatomik Tiyatro](search:Archiginnasio ve Anatomik Tiyatro): Dünyanın en eski üniversitesinin ilk merkez binasıdır. Koridorlarındaki binlerce hanedan arması ve tamamen ahşaptan yapılmış, eskiden tıp derslerinin verildiği Anatomik Tiyatro sizi büyüleyecek. Burası bilginin ve tarihin iliklerinize kadar işlediği bir noktadır.
+- [Finestrella di Via Piella (Küçük Venedik)](search:Finestrella di Via Piella (Küçük Venedik): Bologna’nın en tatlı sürprizidir. Duvarın ortasındaki küçük bir pencereyi açtığınızda karşınıza binaların arasından geçen gizli bir kanal çıkar. Bir an için kendinizi Venedik’te sanabilirsiniz; bu kanal orta çağ Bologna'sının ticari canlılığından kalan son izlerden biridir.
+- [Basilica di Santo Stefano (Sette Chiese)](search:Basilica di Santo Stefano (Sette Chiese): Yedi Kilise olarak da bilinir. Aslında iç içe geçmiş yedi farklı dini yapının birleşiminden oluşan labirentimsi bir komplekstir. Sessiz avluları ve mistik havasıyla şehrin en huzurlu köşesidir.
+- [Santuario di San Luca](search:Santuario di San Luca): Şehri kuşbakışı izlemek isteyenler için bir hac yoludur. Dünyanın en uzun revaklı yolu (yaklaşık 4 km ve 666 kemer) boyunca yürüyerek tepeye ulaşırsınız. Yürümek istemeyenler için minik tren "San Luca Express" bir kurtarıcıdır.
+
+**Küçük Bir Not:** Bologna'nın gizemini çözmek isterseniz yerel halkın efsaneleşmiş 7 Sırrı'nı kovalamalısınız:
+- **Neptün’ün Parmak Hilesi:** Heykele belirli bir açıdan bakıldığında oluşan görsel yanılsama.
+
+- **Archiginnasio’daki Fısıltı Köşesi:** Tonozun çapraz köşelerinde birbirini duyan fısıltılar.
+
+- [Corte Isolani’deki Üç Ok](search:Corte Isolani’deki Üç Ok): Ahşap tavanın içinde saplı kalmış gizemli oklar.
+- **Asinelli Kulesi'ndeki Kırık Vazo:** Kulenin tepesinde duran, çatışmayı simgeleyen vazo.
+
+- **"Panis Vita" Yazısı:** İki Kule yakınlarındaki "Ekmek Hayattır" yazılı tarihi tabela.
+
+- [Via Piella](search:Via Piella'daki Pencere)'daki Pencere: Küçük Venedik olarak bilinen kanal manzarası.
+- **San Petronio'daki Güneş Saati:** Kilise içindeki dünyanın en uzun meridyen hattı.
+
+## 🍴 Şehrin Lezzet Haritası: Gastronominin Başkenti
+
+Bologna'da yemek yemek, bir ihtiyaç değil sanki bir ayin. "Şişman" (La Grassa) lakabını boşuna almamıştır; burası İtalyan mutfağının kutsal topraklarıdır. Burada her tarif bir miras, her sofra bir hikayedir.
+
+- **Tortellini in Brodo:** Bologna’nın mutlak imzasıdır. Efsaneye göre Venüs'ün göbek deliğinden ilham alınarak şekillendirilen bu minik mantılar, sabırla hazırlanan el yapımı taze et suyunda servis edilir. İçindeki mortadella, jambon ve parmesan dengesiyle her kaşıkta şehri tadarsınız.
+
+- **Tagliatelle al Ragù:** O meşhur sosun ana vatanındasınız. Ancak unutmayın; burada "Bolognese" sadece turistler içindir, gerçeği Ragù'dur. Geniş, taze ve yumurtalı tagliatelle, ağır ateşte saatlerce pişen kıymalı sosla öyle bir bütünleşir ki, makarnanın dokusu sosu adeta hapseder.
+
+- **Mortadella (Bologna):** Şehrin dünyaya en büyük hediyesidir. Orta Çağ'dan beri aynı titizlikle hazırlanan, fıstıklı ve karabiberli bu efsanevi şarküteri ürününü mutlaka yerinde tadın. İncecik, kağıt gibi dilimlenmiş bir mortadella, Bologna’nın en sade ama en görkemli lezzetidir.
+
+- **Lasagna Verde:** Ispanaklı hamurla yapılan yeşil katmanlar, Bologna’ya has Ragù ve ipeksi beşamel sosun buluşmasıyla "orijinal" lazanya tanımını yeniden yapar. Kat kat lezzet fışkıran bu yemek, Bologna evlerinin pazar ritüelidir.
+
+- **Cotoletta alla Bolognese (Petroniana):** Milano usulü pirzolanın çok daha zengin bir versiyonudur. Önce kızartılan, ardından üzerine Parma jambonu ve erimiş parmesan eklenerek et suyunda demlendirilen bu yemek, şehrin "şişman" lakabını neden hak ettiğinin en somut kanıtıdır.
+
+- **Sfogline Kültürü:** Bologna sokaklarında yürürken camların ardında hamur açan kadınları görürsünüz. Onlar "Sfogline"dir; şehrin yaşayan tarihçileridir. Sadece un ve yumurtayla mucizeler yaratan bu kadınların elinden çıkan taze makarnalar, Bologna'nın gerçek ruhunu temsil eder.
+- [Quadrilatero ve Pazarlar](search:Quadrilatero ve Pazarlar): Piazza Maggiore'nin hemen yanındaki bu eski pazar bölgesi, şehrin kalbidir. Dar sokaklardaki tarihi şarküterilerde (Salumeria) peynir tabaklarıyla kendinizden geçebilir, Mercato di Mezzo'da yerel şaraplar eşliğinde tadım yapabilirsiniz.
+
+**Hap Bilgi:** Akşam yemeği İtalya genelinde olduğu gibi geç başlar ama Bologna'da öğleden sonra "Aperitivo" saati kutsaldır. Osteria del Sole gibi 1465'ten beri açık olan mekanlarda, kendi yemeğinizi yanınızda getirip sadece şarap alarak yüzyıllık bir geleneğe ortak olabilirsiniz.
+
+## 🤫 Şehrin Fısıldadıkları: Lokal Sırlar
+
+Bologna’yı sadece görmek yetmez; onun labirent gibi sokaklarında kaybolup duvarların fısıldadığı o küçük detayları yakalamanız gerekir. Şehrin turistik maskesinin ardındaki gerçek ruh, genellikle bu küçük ama etkileyici hikayelerde gizlidir.
+
+- [Palazzo del Podestà’nın Fısıldayan Köşeleri](search:Palazzo del Podestà’nın Fısıldayan Köşeleri): Piazza Maggiore’de, Palazzo del Podestà’nın hemen altındaki açık galeride sizi fizik kurallarına meydan okuyan bir sürpriz bekler. Buradaki dört köşeli kemerin çapraz köşelerine iki kişi geçtiğinde, sırtınızı dönüp duvara fısıldadığınız her kelimenin diğer köşedeki kişi tarafından net bir şekilde duyulduğunu fark edeceksiniz. Orta Çağ'da cüzzamlıların günah çıkarması için tasarlandığı söylenen bu akustik mucize, günümüzde şehrin en sevilen fısıltı köşesidir.
+- [Finestrella di Via Piella (Küçük Venedik)](search:Finestrella di Via Piella (Küçük Venedik): Bologna’nın en tatlı ve gizli sürprizi Via Piella üzerindeki o meşhur küçük penceredir. Sıradan bir duvarın üzerindeki bu pencereyi araladığınızda, binaların arasından süzülen gizli bir kanalla karşılaşırsınız. Bir an için kendinizi Venedik’teymiş gibi hissettiren bu manzara, Orta Çağ Bologna'sının ticari canlılığını sağlayan ve günümüzde binaların altında kalan kanal ağının yüzeye çıktığı nadir anlardan biridir.
+- **San Petronio'nun Tamamlanmamış Cephesi:** Şehrin kalbindeki Basilica di San Petronio’ya baktığınızda, alt yarısının mermer üst yarısının ise kaba tuğla olduğunu görürsünüz. Bu yarım kalmışlık, aslında Bologna’nın hırsının bir belgesidir. Kilisenin Vatikan’daki Aziz Petrus Bazilikası’ndan daha büyük olması planlanmış, ancak Papa bu ihtişamı durdurmak için fonları üniversite binasına (Archiginnasio) kaydırmıştır. Bu yüzden kilise yüzyıllardır o ikonik, "bitmemiş" ve samimi haliyle şehri selamlar.
+
+- [Teleskop Etkisi ve San Michele in Bosco](search:Teleskop Etkisi ve San Michele in Bosco): Şehre tepeden bakmak için harika bir alternatif olan San Michele in Bosco manastırı, mimari bir illüzyona ev sahipliği yapar. Manastırın uzun koridorunun sonundaki pencereye doğru yürüdüğünüzde, uzaktaki Asinelli Kulesi’nin size doğru yaklaştığını ve büyüdüğünü görürsünüz. "Teleskop etkisi" olarak bilinen bu optik oyun, şehri bir tablo gibi izlemenizi sağlar.
+- **Osteria del Sole’nin Asırlık Geleneği:** Bologna’da gerçek yerel sosyalleşmenin adresi, 1465'ten beri açık olan Osteria del Sole'dir. Bu mekanın dünyada eşi benzeri az bulunan kuralı ise şudur: İçeride sadece içecek satılır, yemeğinizi yanınızda getirirsiniz. Yakındaki pazar yerinden mortadellanızı ve peynirinizi alıp bu asırlık tahta masalarda yerel halkla omuz omuza oturmak, Bologna hayatına dokunmanın en samimi yoludur.
+
+## ✅ Mutlaka Yapmadan Dönme: Bologna Checklist
+
+- **Tagliatelle al Ragù'nun Gerçeğini Tat:** Bir yerel "Osteria"ya otur ve sakın spagetti isteme; o geniş, taze yumurtalı makarnanın orijinal ağır ateş sosuyla (Ragù) nasıl bir bütün oluşturduğuna şahit ol.
+- **Asinelli Kulesi’ne Tırman:** 498 basamağı göze alıp zirveye ulaştığında, ayaklarının altına serilen o uçsuz bucaksız "kırmızı şehir" manzarasını izleyerek yorgunluğunu unut.
+
+- **San Luca’nın 666 Kemerini Arşınla:** Dünyanın en uzun revaklı yolunu sonuna kadar yürüyerek bazilikaya ulaş; revakların seni bir koridor gibi saran mistik ruhunu hisset.
+
+- **Sırların Peşine Düş ve Kanalı Gör:** Finestrella penceresinden binaların arasından süzülen gizli kanalı dikizle, Palazzo del Podestà’nın köşelerinde fizik kurallarına meydan okuyan fısıldaşmalara ortak ol.
+- **Quadrilatero’da Şarküteri Tadımı Yap:** Dar sokaklardaki tarihi dükkanlardan taze Mortadella al; bir kadeh yerel şarap eşliğinde hazırlanan o meşhur peynir ve tadım tabaklarıyla kendinden geç.
+- **Santo Stefano’da Kahve Molası Ver:** "Yedi Kilise" kompleksi olarak bilinen bu büyüleyici meydanda kahveni yudumla ve ardından iç içe geçmiş orta çağ kiliselerinin sessiz avlularında kaybol.
+- **Archiginnasio’da Tarihe Dokun:** Dünyanın en eski üniversitesinin tamamen ahşap anatomi dersliğine gir ve o dönemlerde tıp biliminin hangi atmosferde doğduğunu hayal et.
+
+- **Akşamı Piazza Maggiore’de Mühürle:** Gün batarken meydandaki revakların altına otur, Neptün Heykeli’ne karşı şehrin o kendine has ritmini izleyerek zamanı bir süreliğine durdur.
+
+- **Modena’ya Küçük Bir Kaçamak Yap:** Trenle sadece 20 dakikada komşu şehir Modena’ya geçerek orijinal balzamik sirke tadımı yap ve İtalya'nın "Motor Vadisi"nin ruhunu kokla
+
+''';
+
+  static const _bolognaEN = '''# Bologna: The Red Capital of Gastronomy & Knowledge
+
+**Quick Glance:** Welcome to Bologna — Italy’s "gourmet" heart, to every shade of red, and to the soul of Europe’s oldest university! Bologna is known by Italians by three distinct nicknames: "La Grassa" (The Fat - for its legendary cuisine), "La Rossa" (The Red - for the terracotta hue of its buildings and its political history), and "La Dotta" (The Learned - for hosting the oldest university in the western world). When you look up to catch a glimpse of the sky, you’ll see the famous Porticos (arcades); these are under UNESCO protection and allow you to explore the entire city without getting wet, even on a rainy day.
+
+**A Critical Culinary Warning:** Don’t you dare walk into a restaurant and ask for "Spaghetti Bolognese"! In Bologna, this iconic dish is called Tagliatelle al Ragù and is strictly served with wide ribbon pasta rather than thin spaghetti—this is a true matter of local pride. While the city may seem to sit in the shadow of Florence, it is actually one of Italy’s most authentic corners, farthest from the typical tourist traps. When evening falls, pulling up a chair in the narrow streets around Piazza Maggiore (the Quadrilatero) and joining the locals for "Aperitivo" hour is the unwritten law of life in Bologna.
+
+## 📅 Timing is Everything: Which Season is Yours?
+
+Due to its location in Northern Italy and its valley structure, Bologna offers a different character each season. You just need to decide under which light you want to see the city’s famous "red" hues.
+
+- **Spring (April - June):** This is Bologna’s "golden age." The temperature is neither too hot nor too cold—perfect for long walks under the porticos. The university spirit is at its most vibrant in the piazzas during this time.
+- **Summer (July - August):** Be careful! Since Bologna is in a valley, the air can get quite humid and hot (afa, as the Italians call it) in summer. In August, many locals head to the coast, so some small shops might close. However, the giant open-air cinema in Piazza Maggiore (Sotto le Stelle del Cinema) is the most enchanting experience of this season.
+- **Autumn (September - October):** A true gourmet season. The scent of truffles, newly harvested wines, and fresh pasta fills every street. The city’s red and orange buildings blend with falling leaves to create the perfect photo op.
+- **Winter (November - March):** Bologna in winter is foggy, sometimes snowy, but always very atmospheric. As the weather cools, the city’s famous hearty dishes—especially Tortellini in Brodo (dumplings in hot broth)—become even more soul-warming. The Christmas markets add a fairytale touch to the city.
+
+## 🏠 Where to Stay: Neighborhood Guide
+
+In Bologna, neighborhoods are areas where medieval texture blends with modern student energy. Where you stay determines whether you'll find yourself in the middle of a market or in a quiet courtyard when you step out in the morning.
+
+- **Centro Storico (Historic Center):** This is the heart and soul of Bologna. If you want to wake up just a few steps away from Piazza Maggiore and the Two Towers, this is the best choice. Staying in this area means starting your day by walking under UNESCO-listed porticos and reaching the city's oldest markets instantly. The historical texture is enchanting, but due to its central location, prices are higher than the rest of the city, and some narrow streets can be a bit noisy in the evenings because of lively restaurants.
+
+- **Bolognina (Little Bologna):** Located right behind the train station, this area is the modern and multicultural face of Bologna. Once a working-class neighborhood, it has now transformed into the city's trendiest spot with art galleries, hipster cafes, and alternative nightlife. Accommodation prices are much more affordable than the city center, and its proximity to the main station makes it a strategic point for day trips to surrounding cities like Florence or Venice.
+
+- **Via Zamboni and the University District:** Home to the world's oldest university, this area is full of energy at all hours. If you're on a budget and want to experience the bohemian, young, and somewhat "rebellious" spirit of the city, this is the place for you. You'll be surrounded by graffiti on the walls, cheap but delicious slice-pizza shops, and students debating on every corner. But be warned: this is the noisiest part of Bologna, and the nightlife continues until morning.
+
+- **Costa-Saragozza:** If you're looking for a more refined, green, and quiet side of the city, head towards Saragozza. Located just west of the city center, this area is a stylish residential district preferred by local families. This is where the massive porticoed road leading to the famous San Luca Basilica begins. It's a short walk or bus ride to the city center, offering an experience away from the noise but still well-connected.
+
+## 🚲 Getting from A to B: Move Like a Local
+
+Bologna is quite literally a city made for walking. Thanks to the porticos encircling the city, neither the scorching sun nor sudden rain can ruin the joy of discovery. It’s one of those rare places where you can step out without an umbrella and wander with absolute peace of mind.
+
+- **From the Airport to the City Center:** The most practical way to reach the center from Bologna Airport (BLQ) is the Marconi Express monorail. This line reaches the main train station in about 7 minutes. A single ticket is €12.8, and a return is €23.3. If you don’t want to bother with tickets, you can simply tap your credit card at the turnstiles for direct access. It’s a fast, clear, and effortless start.
+- **The Culture of Walking Under Porticos:** The absolute best way to discover Bologna is on foot. Thanks to the UNESCO-listed porticos totaling 40 kilometers, you can wander without worrying about the weather. The city center is incredibly compact; even the furthest points are often within a 20-minute walk of each other. This makes it possible to explore without a plan, turning wherever you feel like.
+- **Buses and the San Luca Express:** To be honest, you rarely need public transport for the city center. However, if you want to head to more distant neighborhoods or see the San Luca Basilica, the yellow TPER buses will do the trick. If you buy the ticket in advance, it’s €1.5 and valid for 75 minutes; on the bus, it costs €2. If you’re looking for a more comfortable option than walking up the hill, you can reach the basilica with the San Luca Express from Piazza Maggiore for about €12.
+- **Italy’s Railway Crossroads:** One of Bologna’s greatest advantages is the strategic location of Bologna Centrale. It is essentially the heart of Italy’s railway system. From here, high-speed trains can take you to Florence in 35 minutes, Milan in 1 hour, and Venice in about 1.5 hours. This ease of transport turns Bologna into a perfect home base for anyone wanting to explore Northern Italy.
+
+- **A Small Note for Drivers:** Driving into the city center is not a good idea. The center is located within a strictly enforced ZTL (Limited Traffic Zone), and the fines are serious. The most sensible option is to leave your car in parking lots just outside the center—such as Parcheggio Tanari—and take a bus into the city. It’s a solution that protects both your budget and your holiday vibe.
+
+## 🏛️ The City's Memory: Iconic Landmarks Must-See
+
+Bologna’s soul is a fusion of red brick walls, millennial porticos, and a profound atmosphere felt at every turn. More than an open-air museum, it is a living history book where every street carries the scent of centuries past. Walking between medieval towers and porticos, you witness Europe’s deep intellectual heritage.
+
+- [Piazza Maggiore and Fontana del Nettuno](search:Piazza Maggiore and Fontana del Nettuno): This is the city’s "living room." The Neptune Statue in the giant fountain symbolizes Bologna’s power. Standing in the square, surrounded by medieval buildings, you feel as if time has stopped. The adjacent Basilica di San Petronio is one of the world's largest churches; its unfinished facade gives it a unique and distinct character.
+- **Le Due Torri (The Two Towers):** These icons of Bologna are the "skyscrapers" of the Middle Ages. Climbing the Asinelli Tower requires some stamina (498 steps!), but the endless view of the "red city" from the top is worth every effort. The other tower, Garisenda, is famous for its lean and should only be viewed from a distance for safety.
+
+- **Archiginnasio and the Anatomical Theatre:** The original seat of the world's oldest university. You will be mesmerized by the thousands of coats of arms in the corridors and the Anatomical Theatre, made entirely of wood, where medical lectures were once held. This is where history and knowledge seep into your very bones.
+
+- [Finestrella di Via Piella (Little Venice)](search:Finestrella di Via Piella (Little Venice): Bologna's sweetest surprise. Opening a small window in the wall reveals a hidden canal flowing between the buildings. For a moment, you might think you’re in Venice; this canal is one of the last traces of medieval Bologna's commercial vitality.
+- [Basilica di Santo Stefano (Sette Chiese)](search:Basilica di Santo Stefano (Sette Chiese): Also known as the Seven Churches. It is a labyrinthine complex consisting of seven different religious structures intertwined. With its quiet courtyards and mystical aura, it is the most peaceful corner of the city.
+- [Santuario di San Luca](search:Santuario di San Luca): A pilgrimage path for those wanting a bird's-eye view of the city. You reach the top by walking along the world's longest porticoed path (about 4 km and 666 arches). For those who prefer not to walk, the "San Luca Express" mini-train is a lifesaver.
+
+**Just So You Know:** If you want to solve the mystery of Bologna, you must chase the legendary 7 Secrets of the locals:
+- **Neptune’s Finger Trick:** A visual illusion created when the statue is viewed from a specific angle.
+- **The Whispering Corner at Archiginnasio:** Hearing whispers from across the diagonal corners of the vault.
+
+- [The Three Arrows at Corte Isolani](search:The Three Arrows at Corte Isolani): Mysterious arrows stuck in the high wooden ceiling.
+- **The Broken Vase on Asinelli Tower:** A vase atop the tower symbolizing past conflicts.
+
+- **The "Panis Vita" Inscription:** A historic sign near the Two Towers stating "Bread is Life."
+
+- [The Window on Via Piella](search:The Window on Via Piella): The famous canal view known as Little Venice.
+- **The Meridian Line in San Petronio:** The longest meridian line (sundial) in the world inside the church.
+
+## 🍴 A Taste of the City: The Capital of Gastronomy
+
+Eating in Bologna is not just a necessity; it feels like a sacred ritual. The city didn't earn the nickname "The Fat" (La Grassa) for nothing; this is the holy ground of Italian cuisine. Here, every recipe is a legacy, and every table tells a story.
+
+- **Tortellini in Brodo:** Bologna’s absolute signature. Legend has it that these tiny dumplings were shaped to resemble Venus's navel. They are served in a patiently prepared, handmade fresh meat broth. With the perfect balance of mortadella, ham, and parmesan inside, you taste the city in every spoonful.
+
+- **Tagliatelle al Ragù:** You are in the birthplace of that world-famous sauce. But remember: here, "Bolognese" is only for tourists; the authentic version is Ragù. Wide, fresh egg tagliatelle binds so perfectly with the meat sauce—slow-cooked for hours—that the texture of the pasta practically traps the sauce.
+
+- **Mortadella (Bologna):** The city’s greatest gift to the world. Prepared with the same meticulous care since the Middle Ages, you must taste this legendary deli meat—enriched with pistachios and black pepper—right at its source. Sliced paper-thin, it is Bologna’s simplest yet most magnificent flavor.
+
+- **Lasagna Verde:** Made with spinach-infused green layers of dough, paired with authentic Bolognese Ragù and silky béchamel sauce, this redefines the "original" lasagna. Bursting with layers of flavor, this dish is a Sunday ritual in Bolognese homes.
+
+- **Cotoletta alla Bolognese (Petroniana):** A much richer version of the Milanese cutlet. First breaded and fried, then topped with Prosciutto di Parma and melted parmesan before being simmered in meat broth, this dish is the most concrete proof of why the city deserves its "Fat" nickname.
+
+- **Sfogline Culture:** Walking through the streets of Bologna, you’ll see women rolling out dough behind glass windows. They are the "Sfogline"—the living historians of the city. These women create miracles using only flour and eggs, and their fresh pasta represents the true soul of Bologna.
+- [Quadrilatero and Markets](search:Quadrilatero and Markets): This ancient market district next to Piazza Maggiore is the city's heart. You can lose yourself in the historical Salumerias (delis) in these narrow alleys with cheese platters or enjoy tastings with local wines at Mercato di Mezzo.
+
+**💡 Quick Tip:** Dinner starts late, as is common across Italy, but the "Aperitivo" hour in the afternoon is sacred in Bologna. At places like Osteria del Sole, which has been open since 1465, you can participate in a centuries-old tradition by bringing your own food and simply ordering a glass of wine.
+
+## 🤫 Whispers of the City: Local Secrets
+
+Seeing Bologna is not enough; you must get lost in its labyrinthine streets and catch the small details whispered by its walls. The true spirit of the city, hidden behind its tourist mask, often lies in these small but fascinating stories.
+
+- **The Whispering Corners of Palazzo del Podestà:** In the open gallery right under the Palazzo del Podestà in Piazza Maggiore, a surprise that defies the laws of physics awaits you. When two people stand at the diagonal corners of the four-cornered vault, they discover that every word whispered into the wall is clearly heard by the person at the opposite corner. Said to have been designed in the Middle Ages for lepers to confess their sins, this acoustic miracle is now the city's favorite whispering gallery.
+
+- [Finestrella di Via Piella (Little Venice)](search:Finestrella di Via Piella (Little Venice): Bologna's sweetest secret is the famous small window on Via Piella. When you open this window on an ordinary-looking wall, you are met with a hidden canal flowing between the buildings. Making you feel like you're in Venice for a moment, this view is one of the rare instances where the canal network—which provided medieval Bologna's commercial vitality and now remains hidden under the buildings—surfaces.
+- **The Unfinished Facade of San Petronio:** Looking at the Basilica di San Petronio in the heart of the city, you’ll notice the bottom half is marble while the top half remains rough brick. This unfinished state is actually a testament to Bologna's ambition. The church was planned to be larger than St. Peter's Basilica in the Vatican, but the Pope diverted the funds to the university building (Archiginnasio) to halt this grandeur. Thus, the church has greeted the city with its iconic, "unfinished" and humble state for centuries.
+
+- [The Telescope Effect and San Michele in Bosco](search:The Telescope Effect and San Michele in Bosco): The monastery of San Michele in Bosco, a great alternative for a bird's-eye view of the city, hosts an architectural illusion. As you walk toward the window at the end of the monastery's long corridor, the distant Asinelli Tower appears to move closer and grow larger. Known as the "telescope effect," this optical trick allows you to view the city like a living painting.
+- [The Century-Old Tradition of Osteria del Sole](search:The Century-Old Tradition of Osteria del Sole): The true address for local socializing in Bologna is Osteria del Sole, which has been open since 1465. This establishment has a rule that is rare in the world: they only sell drinks, and you bring your own food. Buying your mortadella and cheese from the nearby market and sitting shoulder-to-shoulder with locals at these ancient wooden tables is the most authentic way to experience Bolognese life.
+
+## ✅ The Bologna Checklist: Don’t Leave Without...
+
+- **Taste the Authentic Tagliatelle al Ragù:** Sit down in a local "Osteria" and skip the spaghetti; witness how those wide, fresh egg pasta ribbons perfectly embrace the original slow-cooked meat sauce (Ragù).
+- **Climb the Asinelli Tower:** Brave the 498 steps to the summit and engrave the breathtaking, endless view of the "red city" into your memory.
+
+- **Walk the 666 Arches of San Luca:** Trek to the hilltop basilica through the world’s longest porticoed path and feel the protective, mystical soul of the arcades.
+- **Chase the Secrets and Find the Canal:** Peer through the small Finestrella window to see the hidden canal and head to Palazzo del Podestà to join in the physics-defying whispers at its corners.
+- **Indulge in a Charcuterie Tasting at the Quadrilatero:** Pick up some fresh Mortadella from the historic delis in the narrow alleys and lose yourself in the famous cheese and tasting platters paired with a glass of local wine.
+
+- **Have a Coffee Break at Santo Stefano:** Sip your coffee in the enchanting square of the "Seven Churches" and wander through the silent courtyards of the interconnected medieval structures.
+- **Touch History at the Archiginnasio:** Step into the all-wooden anatomical theatre of the world’s oldest university and imagine the atmosphere where medical science first took root.
+
+- **Seal the Evening at Piazza Maggiore:** As the sun sets, find a spot under the porticos in the square and stop time for a while as you watch the city’s unique rhythm unfold before the Statue of Neptune.
+
+- **Take a Quick Trip to Modena:** Hop on a 20-minute train to the neighboring city of Modena for an authentic balsamic vinegar tasting and a breath of the "Motor Valley" spirit.
+
+''';
+
+  // MATERA
+  static const _materaTR = '''# Matera Rehberi: Taşların Şehri 🇮🇹
+
+Tarih öncesi çağlardan beri yerleşim olan Matera, kayalara oyulmuş evleri (Sassi) ile benzersizdir. Bir zamanlar İtalya'nın "utancı" iken, şimdi gururu olmuştur.
+
+## 📅 Ne Zaman Gidilir?
+- **İlkbahar:** Kır çiçekleri ve yumuşak hava.
+- **Kış:** Noel zamanı burası canlı bir "doğuş sahnesi"ne (Nativity Scene) dönüşür.
+
+## 🏘️ Gezilecek Yerler
+- [Sassi di Matera](search:Sassi di Matera): Sasso Caveoso ve Sasso Barisano bölgelerinde kaybolun. Mağara kiliseleri ve evleri inceleyin.
+- **Kaya Kiliseleri:** Santa Maria de Idris gibi kayanın içine oyulmuş ve fresklerle süslü kiliseler büyüleyicidir.
+
+- **Palombaro Lungo:** Şehrin altındaki devasa tarihi su sarnıcı. Bir film setini andırır.
+
+## 🍽️ Ne Yenir ve İçilir?
+- [Pane di Matera](search:Pane di Matera): İtalya'nın en iyi ekmeklerinden biri. Sert kabuklu, içi yumuşacık durum buğdayı ekmeği.
+- **Peperoni Cruschi:** Kurutulup kızartılmış, cips gibi yenen tatlı kırmızı biberler.
+
+
+## 💎 Lokal Sırlar & İpuçları
+- [Belvedere](search:Belvedere Murgia Timone): Şehri karşıdan, Murgia Parkı tarafından gün batımında izleyin. Işıklar yanınca şehir büyülü görünür.
+- **Konaklama:** Mutlaka bir "mağara otel"de kalın. İçi lüks ama duvarları binlerce yıllık taş olan odalar unutulmazdır.
+
+- [Film Seti](search:Film Seti): James Bond "No Time to Die" ve Mel Gibson'ın "Passion of the Christ" filmleri burada çekilmiştir.''';
+
+  static const _materaEN = '''# Matera Guide: City of Stone 🇮🇹
+
+Inhabited since prehistoric times, Matera is unique for its cave dwellings (Sassi). Once Italy's "shame," it is now its pride.
+
+## 📅 Best Time to Visit
+- **Spring:** Wildflowers and mild weather.
+- **Winter:** At Christmas, the city transforms into a living Nativity Scene.
+
+## 🏘️ Places to Visit
+- [Sassi di Matera](search:Sassi di Matera): Get lost in Sasso Caveoso and Sasso Barisano. Explore the cave houses and ancient dwellings.
+- **Rupestrian Churches:** Rock-hewn churches like Santa Maria de Idris, decorated with ancient frescoes.
+
+- **Palombaro Lungo:** A massive historic water cistern under the city that looks like a cathedral.
+
+## 🍽️ Food & Drink
+- [Pane di Matera](search:Pane di Matera): One of Italy's best breads. Crunchy crust, soft inside, made from durum wheat.
+- **Peperoni Cruschi:** Dried and fried sweet red peppers, eaten like chips.
+
+
+## 💎 Local Secrets & Insights
+- [Belvedere](search:Belvedere Murgia Timone): View the city from the Murgia Park side at sunset. When the lights come on, it's magical.
+- **Accommodation:** You must stay in a "cave hotel." Sleeping in a room carved into rock but with modern luxury is unforgettable.
+
+- [Film Set](search:Film Set): Films like James Bond's "No Time to Die" and Mel Gibson's "Passion of the Christ" were shot here.''';
+
+  // SANTORINI
+  static const _santoriniTR = '''# Santorini Rehberi: Gün Batımı Rüyası 🇬🇷
+
+Volkanik bir patlama sonucu oluşan hilal şeklindeki ada; beyaz badanalı evleri, mavi kubbeleri ve sonsuz Ege mavisiyle dünyanın en romantik yerlerinden biridir.
+
+## 📅 Ne Zaman Gidilir?
+- **Mayıs-Haziran ve Eylül:** Hava güzeldir, kalabalıklar Temmuz-Ağustos kadar boğucu değildir.
+- **İpucu:** Kışın birçok otel ve restoran kapalı olabilir.
+
+## 🏘️ Köy Rehberi
+- [Oia](search:Oia Santorini): O meşhur gün batımı ve mavi kubbelerin olduğu lüks köy.
+- [Fira](search:Fira Santorini): Adanın başkenti. Alışveriş, gece hayatı ve teleferik burada.
+- [Pyrgos](search:Pyrgos Santorini): Adanın en yüksek ve daha az turistik, geleneksel köyü.
+
+## 🍽️ Ne Yenir ve İçilir?
+- [Fava](search:Fava): Santorini'ye özgü sarı mercimekten yapılan meze.
+- **Domatokeftedes:** Adanın susuz tarımla yetişen küçük domateslerinden yapılan mücver.
+
+- **Vinsanto:** Volkanik topraktaki üzümlerden yapılan tatlı şarap.
+
+
+## 💎 Lokal Sırlar & İpuçları
+- **Yürüyüş Rotası:** Fira'dan Oia'ya kraterin kenarından (Caldera) yapılan 10 km'lik yürüyüş, dünyanın en güzel manzaralı rotalarından biridir.
+- [Ammoudi Körfezi](search:Ammoudi Bay): Oia'nın altındaki bu küçük limana 300 basamak inin; taze balık yiyin ve kayalardan denize girin.
+- [Kızıl Plaj (Red Beach)](search:Red Beach Santorini): Kırmızı volkanik kayalarla çevrili plajı görmeden dönmeyin.''';
+
+  static const _santoriniEN = '''# Santorini Guide: A Sunset Dream 🇬🇷
+
+Formed by a volcanic eruption, this crescent-shaped island with its whitewashed houses and blue domes is one of the most romantic places on earth.
+
+## 📅 Best Time to Visit
+- **May-June & September:** Weather is great, and crowds are manageable compared to peak summer.
+
+- **Tip:** Many hotels and restaurants close during winter.
+
+## 🏘️ Village Guide
+- [Oia](search:Oia Santorini): The famous village with the sunset views and blue domes.
+- [Fira](search:Fira Santorini): The capital. Hub for shopping, nightlife, and the cable car.
+- [Pyrgos](search:Pyrgos Santorini): The highest village, more traditional and less touristy.
+
+## 🍽️ Food & Drink
+- [Fava](search:Fava): A creamy puree made from yellow split peas native to the island.
+- **Tomatokeftedes:** Tomato fritters made from the island's unique cherry tomatoes.
+
+- **Vinsanto:** A sweet dessert wine made from grapes grown in volcanic soil.
+
+
+## 💎 Local Secrets & Insights
+- **Hiking:** The 10km hike from Fira to Oia along the caldera edge offers the most spectacular views imaginable.
+
+- [Ammoudi Bay](search:Ammoudi Bay): Walk down 300 steps from Oia to this tiny port for fresh seafood and swimming off the rocks.
+- [Red Beach](search:Red Beach Santorini): Don't miss the unique beach surrounded by towering red volcanic cliffs.''';
+
+  // KAHIRE
+  static const _kahireTR = '''# Kahire Rehberi: Kaosun ve Tarihin Şehri 🇪🇬
+
+Piramitlerin gölgesinde, İslami mimari, korna sesleri, baharat kokuları ve Nil nehrinin sakinliği... Kahire tüm duyularınıza aynı anda saldırır.
+
+## 📅 Ne Zaman Gidilir?
+- **Ekim-Nisan:** Hava gezmek için idealdir. Yazın sıcaklık dayanılmaz olabilir.
+
+## 🏘️ Gezilecek Yerler
+- **Giza Piramitleri ve Sfenks:** Dünyanın yedi harikasından ayakta kalan tek yapı. Şehrin hemen kıyısındadır.
+
+- **Mısır Müzesi:** Tutankamon'un hazineleri ve mumyalar burada. (Yeni Büyük Mısır Müzesi'ni de kontrol edin).
+- [Han el-Halili](search:Khan el-Khalili): Ortaçağdan kalma devasa çarşı. Baharat, lamba ve hediyelik eşya cenneti.
+
+## 🍽️ Ne Yenir ve İçilir?
+- [Koshary](search:Koshary): Mısır'ın milli yemeği. Pirinç, makarna, mercimek, nohut ve kızarmış soğanın domates sosuyla karışımı. Karbonhidrat bombası!
+- [Falafel (Ta'meya)](search:Falafel (Ta'meya): Mısır'da bakla ile yapılır ve kahvaltıda yenir.
+- **Türk Kahvesi:** Burada da çok popülerdir, genellikle kakuleli yapılır.
+
+## 💎 Lokal Sırlar & İpuçları
+- [Nil Gezisi](search:Nil Gezisi): Akşam saatlerinde bir "Felucca" (yelkenli) kiralayıp Nil üzerinde gün batımını izleyin; şehrin gürültüsünden uzaklaşın.
+- **Uber:** Taksilerle pazarlık yapmak zor olabilir, Uber kullanmak hayat kurtarır.
+- **Bahşiş (Baksheesh):** Mısır'da her hizmet için bahşiş beklenir, cebinizde bozuk para bulundurun.''';
+
+
+  static const _kahireEN = '''# Cairo Guide: City of Chaos and History 🇪🇬
+
+In the shadow of the Pyramids, Cairo assaults all your senses with Islamic architecture, car horns, spice scents, and the calmness of the Nile.
+
+## 📅 Best Time to Visit
+- **October-April:** The weather is pleasant. Summer heat can be unbearable.
+
+
+## 🏘️ Places to Visit
+- **Pyramids of Giza & Sphinx:** The only surviving wonder of the ancient world. Located right on the edge of the city.
+
+- [Egyptian Museum](search:Egyptian Museum): Home to Tutankhamun's treasures. (Check if the new Grand Egyptian Museum is open).
+- [Khan el-Khalili](search:Khan el-Khalili): A massive medieval bazaar. Heaven for spices, lamps, and souvenirs.
+
+## 🍽️ Food & Drink
+- [Koshary](search:Koshary): Egypt's national dish. A mix of rice, pasta, lentils, chickpeas, and fried onions topped with tomato sauce. A carb bomb!
+- [Falafel (Ta'meya)](search:Falafel (Ta'meya): Made with fava beans in Egypt and often eaten for breakfast.
+- **Turkish Coffee:** Very popular here, usually brewed with cardamom.
+
+## 💎 Local Secrets & Insights
+- **Nile Cruise:** Rent a "Felucca" (sailboat) at sunset. Sailing on the Nile is the best way to escape the city noise.
+
+- **Uber:** Haggling with taxis can be exhausting; using Uber is a lifesaver.
+- **Tipping (Baksheesh):** Tipping is expected for almost everything. Keep small change handy.''';
+
+  // FES
+  static const _fesTR = '''# Fes Rehberi: Ortaçağ Labirenti 🇲🇦
+
+Dünyanın en büyük trafiğe kapalı şehirsel alanı olan Fes el-Bali (Eski Fes), zamanda yolculuk gibidir. 9000'den fazla dar sokakta kaybolmaya hazır olun.
+
+## 📅 Ne Zaman Gidilir?
+- **İlkbahar:** En ideal zamandır.
+- **İpucu:** Fes Müzik Festivali zamanı şehir çok canlıdır.
+
+## 🏘️ Gezilecek Yerler
+- [Tabakhaneler](search:Chouara Tannery): (Chouara Tannery): Yüzyıllardır aynı ilkel yöntemlerle deri boyanan dev kuyular. Kokuya hazırlıklı olun (nane yaprağı koklayın)!
+- **Al Quaraouiyine:** Dünyanın en eski üniversitesi kabul edilir. Cami ve kütüphanesi muazzamdır.
+
+- **Bou Inania Medresesi:** İslami mimarinin, ahşap oymacılığının ve çini sanatının zirvesi.
+
+
+## 🍽️ Ne Yenir ve İçilir?
+- **Tagine:** Kuskus ve etin o meşhur konik kaplarda ağır ağır pişmesi.
+
+- **Pastilla:** Yufka içinde güvercin veya tavuk eti, badem ve şekerin garip ama lezzetli uyumu.
+
+- **Nane Çayı:** "Fas Viskisi". Her yerde, her zaman bol şekerli ikram edilir.
+
+
+## 💎 Lokal Sırlar & İpuçları
+- **Rehber:** Medine (eski şehir) bir labirenttir. İlk gün lisanslı bir rehber tutmak, kaybolmadan önemli yerleri görmek için mantıklıdır.
+- **Ryad:** Mutlaka eski bir konaktan dönüştürülmüş "Ryad" otellerde kalın. Dışarıdan yıkık dökük görünen kapıların arkasında saray yavrusu avlular vardır.
+
+- **Balak!:** Sokakta "Balak!" (Dikkat!) diye bağıran birini duyarsanız kenara çekilin; yüklü bir eşek veya el arabası geliyor demektir.''';
+
+
+  static const _fesEN = '''# Fes Guide: The Medieval Labyrinth 🇲🇦
+
+Fes el-Bali is the world's largest car-free urban area. It's a time capsule. Get ready to get lost in over 9,000 narrow alleyways.
+
+## 📅 Best Time to Visit
+- **Spring:** The most pleasant weather.
+- **Tip:** The city comes alive during the Sacred Music Festival.
+
+## 🏘️ Places to Visit
+- [Chouara Tannery](search:Chouara Tannery): Giant vats where leather has been dyed manually for centuries. Be prepared for the smell (hold fresh mint to your nose)!
+- **Al Quaraouiyine:** Considered the oldest existing university in the world. Its mosque and library are stunning.
+
+- **Bou Inania Madrasa:** A masterpiece of Islamic architecture, wood carving, and tile work.
+
+
+## 🍽️ Food & Drink
+- **Tagine:** Slow-cooked meat and couscous in the famous conical clay pots.
+
+- **Pastilla:** A unique pie mixing savory chicken/pigeon with almonds and sugar. Strange but delicious.
+
+- **Mint Tea:** "Moroccan Whiskey." Served everywhere, always hot and very sweet.
+
+## 💎 Local Secrets & Insights
+- **Guide:** The Medina is a maze. Hiring a licensed guide for your first day is a smart move to navigate without stress.
+- [Riad](search:Riad): Stay in a "Riad" (traditional courtyard house). Behind humble doors lie magnificent tiled courtyards with fountains.
+- **Balak!:** If you hear someone shouting "Balak!" (Watch out!), jump to the side; a loaded donkey or cart is coming through.''';
+
+
+  // ZERMATT
+  static const _zermattTR = '''# Zermatt Rehberi: Matterhorn'un Gölgesinde 🇨🇭
+
+İsviçre Alplerinin kalbinde, motorlu taşıtların girmediği, dünyanın en ünlü dağı Matterhorn'un eteklerinde lüks ve doğanın buluşma noktası.
+
+## 📅 Ne Zaman Gidilir?
+- **Kış (Aralık-Mart):** Dünyanın en iyi kayak pistleri için.
+- **Yaz (Temmuz-Ağustos):** Yemyeşil vadilerde yürüyüş (hiking) yapmak için.
+
+## 🏘️ Gezilecek Yerler
+- [Gornergrat](search:Gornergrat): Trenle 3089 metreye çıkın. Matterhorn ve buzulların manzarası nefes kesicidir.
+- [Matterhorn Glacier Paradise](search:Matterhorn Glacier Paradise): Avrupa'nın teleferikle çıkılan en yüksek noktası (3883m). Yazın bile kar vardır.
+- [Hinterdorf](search:Hinterdorf Zermatt): Zermatt'ın en eski bölgesi. 16. yüzyıldan kalma ahşap ambarları görün.
+
+## 🍽️ Ne Yenir ve İçilir?
+- **Peynir Fondü:** İsviçre klasiği. Dağ manzarasına karşı erimiş peynire ekmek batırmak bir ritüeldir.
+
+- **Rösti:** Kızarmış patates rendesi, üzerine yumurta veya peynirle servis edilir.
+
+
+## 💎 Lokal Sırlar & İpuçları
+- **Toblerone:** O meşhur çikolatanın üzerindeki dağ işte buradaki Matterhorn'dur. Bir paket alıp dağa karşı fotoğraf çekilin.
+
+- **Elektrikli Taksiler:** Kasabada benzinli araba yasaktır. Tren istasyonundan otelinize bu sessiz, kutu gibi taksilerle gidersiniz.
+- **5 Göller Yolu:** Yazın gidiyorsanız bu yürüyüş rotasında Matterhorn'un göllere yansıyan silüetini yakalayabilirsiniz.''';
+
+  static const _zermattEN = '''# Zermatt Guide: In the Shadow of the Matterhorn 🇨🇭
+
+In the heart of the Swiss Alps, a car-free village where luxury meets nature at the foot of the world's most famous mountain, the Matterhorn.
+
+## 📅 Best Time to Visit
+- **Winter (Dec-Mar):** For some of the world's best skiing.
+- **Summer (Jul-Aug):** For hiking in lush green valleys.
+
+## 🏘️ Places to Visit
+- [Gornergrat](search:Gornergrat): Take the cogwheel train up to 3089m. The view of the Matterhorn and glaciers is breathtaking.
+- [Matterhorn Glacier Paradise](search:Matterhorn Glacier Paradise): The highest cable car station in Europe (3883m). There is snow even in summer.
+- [Hinterdorf](search:Hinterdorf Zermatt): The oldest part of Zermatt. See the wooden barns dating back to the 16th century.
+
+## 🍽️ Food & Drink
+- **Cheese Fondue:** The Swiss classic. Dipping bread into melted cheese with a mountain view is a ritual.
+
+- **Rösti:** Fried grated potatoes, often served with a fried egg or melted cheese.
+
+
+## 💎 Local Secrets & Insights
+- **Toblerone:** The mountain on the famous chocolate bar is the Matterhorn right here. Buy a bar and take a photo matching it to the peak!
+
+- **Electric Taxis:** Gas cars are banned. You travel from the station to your hotel in these quiet, boxy electric taxis.
+- **5 Lakes Walk:** If visiting in summer, hike this trail to see the Matterhorn's reflection in crystal clear alpine lakes.''';
+  static const _hallstattTR = '''# Hallstatt Rehberi: Masalsı Alp Köyü 🇦🇹
+
+Hallstatt, Avusturya Alpleri'nin eteğinde, göl kenarına kurulmuş, dünyanın en fotojenik köylerinden biridir. O kadar güzeldir ki Çin'de bir kopyası bile yapılmıştır.
+
+## 📅 Ne Zaman Gidilir?
+- **Kış (Aralık-Ocak):** Karlar altındaki köy tam bir masal diyarına döner. Noel pazarı küçüktür ama atmosferi büyülüdür.
+- **Yaz (Haziran-Ağustos):** Göl kenarında yürümek ve tekneye binmek için idealdir ancak turist kalabalığı çok fazladır.
+- **İpucu:** Günübirlik turlar öğlen gelir; köyün tadını çıkarmak için mutlaka bir gece kalın ve sabahın sessizliğini yaşayın.
+
+## 🏘️ Konaklama Rehberi
+- **Göl Kenarı:** Manzaralı oteller pahalıdır ancak sabah uyanıp pencereden gölü izlemek buna değer.
+
+- [Obertraun](search:Obertraun): Gölün hemen karşısındaki kasaba. Konaklama çok daha uygundur ve Hallstatt'a tren/tekne ile ulaşım çok kolaydır.
+
+## 🍽️ Ne Yenir ve İçilir?
+- **Göl Balığı (Reinanke):** Hallstatt gölünden tutulan taze balıkları mutlaka deneyin.
+
+- **Schaumrolle:** Avusturya'ya özgü, içi krema dolu rulo tatlılar. Köy meydanındaki fırınlarda tazesini bulabilirsiniz.
+
+- **Sessizlik:** Burası yaşayan bir köydür. Yerlilerin evlerinin içine bakmak veya gürültü yapmak kesinlikle hoş karşılanmaz.
+
+
+## 🚇 Ulaşım İpuçları
+- **Tren ve Feribot:** Tren istasyonu gölün diğer tarafındadır. Trenden inince "Stefanie" adlı tekneyle köye geçersiniz; bu yolculuk bile tek başına bir deneyimdir.
+- **Yürüyüş:** Köy araç trafiğine kapalıdır (sadece yerliler girebilir). Her yere yürüyerek gideceksiniz.
+
+## 💎 Lokal Sırlar & İpuçları
+- **Skywalk:** Köyün hemen üzerindeki bu seyir terası, o meşhur "Dünya Mirası" manzarasını tepeden görmenizi sağlar. Fünikülerle çıkabilirsiniz.
+- **Tuz Madenleri:** Dünyanın en eski tuz madenleri buradadır. İçindeki yer altı kaydırağı çok eğlencelidir!
+- **Mezarlık (Beinhaus):** Yer kısıtlı olduğu için eski kemiklerin boyanıp saklandığı "Kemik Evi" ilginç ve biraz ürkütücü bir duraktır.''';
+
+  static const _hallstattEN = '''# Hallstatt Guide: Fairytale Alpine Village 🇦🇹
+
+Hallstatt is one of the most photogenic villages in the world, nestled at the foot of the Austrian Alps by the lake. It is so beautiful that a replica of it has been built in China.
+
+## 📅 Best Time to Visit
+- **Winter (December-January):** Under the snow, the village turns into a complete fairytale land. The Christmas market is small but the atmosphere is magical.
+- **Summer (June-August):** Ideal for walking by the lake and boating, but the tourist crowds are overwhelming.
+- **Tip:** Day trips arrive at noon; to truly enjoy the village, you must stay one night and experience the silence of the morning.
+
+## 🏘️ Accommodation Guide
+- **Lakeside:** Hotels with views are expensive, but waking up to see the lake from your window is worth every penny.
+
+- [Obertraun](search:Obertraun): The town just across the lake. Accommodation is much cheaper and access to Hallstatt by train/boat is very easy.
+
+## 🍽️ Food & Dining Etiquette
+- **Lake Fish (Reinanke):** Definitely try the fresh fish caught from Lake Hallstatt.
+
+- **Schaumrolle:** An Austrian specialty, cream-filled pastry rolls. You can find fresh ones at the bakeries in the village square.
+
+- **Silence:** This is a living village. Peeking into locals' homes or making noise is strictly frowned upon.
+
+
+## 🚇 Transportation Tips
+- **Train and Ferry:** The train station is on the other side of the lake. When you get off the train, you cross to the village with a boat named "Stefanie"; this journey is an experience in itself.
+- **Walking:** The village is closed to car traffic (only locals can enter). You will be walking everywhere.
+
+## 💎 Local Secrets & Insights
+- **Skywalk:** This viewing platform just above the village allows you to see that famous "World Heritage" view from above. You can go up by funicular.
+- **Salt Mines:** The world's oldest salt mines are here. The underground slide inside is widely fun!
+- **Cemetery (Beinhaus):** Because space is limited, the "Bone House" where old painted skulls are stored is an interesting and slightly spooky stop.''';
+}

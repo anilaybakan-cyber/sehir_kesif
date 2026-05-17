@@ -1,0 +1,1795 @@
+{
+  "city": "Valencia",
+  "city_en": "Valencia",
+  "country": "İspanya",
+  "country_en": "Spain",
+  "description": "Valencia, muazzam manzaraları ve eşsiz atmosferiyle sizi bekliyor.",
+  "description_en": "Valencia is waiting for you with its magnificent views and unique atmosphere.",
+  "heroImage": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/valencia/hero.jpg",
+  "coordinates": {
+    "lat": 39.4699,
+    "lng": -0.3763
+  },
+  "highlights": [
+    {
+      "id": "ChIJgUOb0elIYA0RlPjrpQdE62I",
+      "name": "Ciudad de las Artes y las Ciencias",
+      "name_en": "Ciudad de las Artes y las Ciencias",
+      "category": "Tarihi",
+      "tags": [
+        "valencia",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.4548751,
+      "lng": -0.3504904,
+      "rating": 4.7,
+      "reviewCount": 151656,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/valencia/ChIJgUOb0elIYA0RlPjrpQdE62I.jpg",
+      "description": "Valencia'nın fütüristik sembolü olan bu bilim ve sanat kompleksi, Santiago Calatrava ve Félix Candela tarafından tasarlanmıştır. Dev bir göz şeklindeki Hemisfèric ve Avrupa'nın en büyük akvaryumu ile modern mimarinin dünyadaki en görkemli örneklerinden biridir.",
+      "description_en": "Valencia's futuristic masterpiece, this science and art complex was designed by Santiago Calatrava and Félix Candela. Featuring a giant eye-shaped cinema and Europe's largest aquarium, it is a global landmark of cutting-edge modern architecture.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJiyYxGuVIYA0Rm-F6kLds5Cg",
+      "name": "Oceanogràfic València",
+      "name_en": "Oceanogràfic València",
+      "category": "Deneyim",
+      "tags": [
+        "valencia",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.4527203,
+      "lng": -0.3480669,
+      "rating": 4.6,
+      "reviewCount": 104665,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/valencia/ChIJiyYxGuVIYA0Rm-F6kLds5Cg.jpg",
+      "description": "Valencia.bak.20260418_133415 kentinin kentsel enerjisini ve kültürel kimliğini yansıtan Oceanogràfic València, kenti keşfeden gezginlerin kentsel keşif albümündeki en ikonik ve fotojenik kentsel duraklardan birisi haline gelmiştir.",
+      "description_en": "A prominent urban landmark in Valencia.bak.20260418_133415 that defines the area's contemporary spirit and cultural identity, Oceanogràfic València serves as a prestigious and unique stop for every traveler.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJG-bUp05PYA0RjV0kiVYDQxI",
+      "name": "Central Market of Valencia",
+      "name_en": "Central Market of Valencia",
+      "category": "Deneyim",
+      "tags": [
+        "valencia",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.4734632,
+      "lng": -0.3790343,
+      "rating": 4.7,
+      "reviewCount": 94454,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/valencia/ChIJG-bUp05PYA0RjV0kiVYDQxI.jpg",
+      "description": "Avrupa'nın halen aktif olan en büyük pazarlarından biri olan Mercado Central, muazzam bir Art Nouveau binasında yer alır. Renkli seramikleri ve demir kubbesiyle sadece alışveriş için değil, kentin gastronomi kültürünü solumak için de eşsizdir.",
+      "description_en": "One of Europe's largest active marketplaces, the Central Market is housed in a stunning Art Nouveau building. With its vibrant ceramics and iconic iron dome, it is the perfect place to experience Valencia's rich gastronomic heritage.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJ8_5rwk1PYA0RxMucY8qxErc",
+      "name": "La Lonja de la Seda de Valencia",
+      "name_en": "La Lonja de la Seda de Valencia",
+      "category": "Deneyim",
+      "tags": [
+        "valencia",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.4743857,
+      "lng": -0.3783299000000001,
+      "rating": 4.6,
+      "reviewCount": 29516,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/valencia/ChIJ8_5rwk1PYA0RxMucY8qxErc.jpg",
+      "description": "İpek Borsası anlamına gelen La Lonja de la Seda, Gotik sivil mimarinin dünyadaki en önemli örneklerinden biridir ve UNESCO mirasıdır. Sarmal sütunlarıyla ünlü ana salonu, kentin Orta Çağ'daki ticari gücünü temsil eden görkemli bir yapıdır.",
+      "description_en": "The Silk Exchange (La Lonja de la Seda) is a UNESCO World Heritage site and a masterpiece of Gothic civil architecture. Its spectacular main hall with spiral columns represents Valencia's immense commercial power during the late Middle Ages.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJu876nIdFYA0Rr8T2YhMHKFU",
+      "name": "Bioparc Valencia",
+      "name_en": "Bioparc Valencia",
+      "category": "Park",
+      "tags": [
+        "valencia",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.4780257,
+      "lng": -0.4076106,
+      "rating": 4.6,
+      "reviewCount": 57819,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/valencia/ChIJu876nIdFYA0Rr8T2YhMHKFU.jpg",
+      "description": "Valencia.bak.20260418_133415 kentinin kentsel enerjisini ve kültürel kimliğini yansıtan Bioparc Valencia, kenti keşfeden gezginlerin kentsel keşif albümündeki en ikonik ve fotojenik kentsel duraklardan birisi haline gelmiştir.",
+      "description_en": "A prominent urban landmark in Valencia.bak.20260418_133415 that defines the area's contemporary spirit and cultural identity, Bioparc Valencia serves as a prestigious and unique stop for every traveler.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJrbJpyXNIYA0R9GvWIvnsO2A",
+      "name": "Malvarrosa beach (Valencia)",
+      "name_en": "Malvarrosa beach (Valencia)",
+      "category": "Park",
+      "tags": [
+        "valencia",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.47726,
+      "lng": -0.3233746,
+      "rating": 4.5,
+      "reviewCount": 8055,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/valencia/ChIJrbJpyXNIYA0R9GvWIvnsO2A.jpg",
+      "description": "Valencia'nın en geniş ve popüler plajı olan Malvarrosa, kentin tarihi merkezine çok yakın konumda yer alır. Sahil boyunca uzanan restoranlarda meşhur 'Paella'nın tadına bakabilir ve geniş kumsalın keyfini çıkarabilirsiniz.",
+      "description_en": "Valencia's widest and most popular beach, Malvarrosa, is located just minutes from the historic center. The long promenade is famous for its authentic restaurants serving traditional Valencian Paella with stunning views of the Mediterranean.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJnaTWWU1PYA0RfgoNmBz1kNM",
+      "name": "Valencia Cathedral",
+      "name_en": "Valencia Cathedral",
+      "category": "Tarihi",
+      "tags": [
+        "valencia",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.4752858,
+      "lng": -0.3754667,
+      "rating": 4.6,
+      "reviewCount": 33743,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/valencia/ChIJnaTWWU1PYA0RfgoNmBz1kNM.jpg",
+      "description": "Antik dokularla Valencia Cathedral ruhunu birleştiren bu tarihi nokta, Valencia.bak.20260418_133415 kentinin kültürel kimliğini tanımlayan ve kenti keşfedenlere mistik bir atmosfer sunan kentsel bir prestij kalesidir.",
+      "description_en": "This historical gemstone in Valencia.bak.20260418_133415 defines the local cultural identity, combining ancient textures with the timeless spirit of Valencia Cathedral for every urban explorer.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJp0DSBFBPYA0RWQEYnnI354A",
+      "name": "Quart Towers",
+      "name_en": "Quart Towers",
+      "category": "Deneyim",
+      "tags": [
+        "valencia",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.4757855,
+      "lng": -0.383856,
+      "rating": 4.6,
+      "reviewCount": 17566,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/valencia/ChIJp0DSBFBPYA0RWQEYnnI354A.jpg",
+      "description": "Valencia.bak.20260418_133415 sokaklarına özgün karakterini katan Quart Towers, kentin modern enerjisini ve kültürel nabzını yansıtan kentsel bir prestij noktası ve sofistike bir kentsel sosyal durak kalesidir.",
+      "description_en": "Infusing the streets of Valencia.bak.20260418_133415 with its unique character, Quart Towers is a sophisticated urban destination that reflects the town's modern energy and creative pulse.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJs3E16q5IYA0RIaj9Wq87iW0",
+      "name": "Natural Science Museum of Valencia",
+      "name_en": "Natural Science Museum of Valencia",
+      "category": "Tarihi",
+      "tags": [
+        "valencia",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.4793155,
+      "lng": -0.3687317,
+      "rating": 4.5,
+      "reviewCount": 3775,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/valencia/ChIJs3E16q5IYA0RIaj9Wq87iW0.jpg",
+      "description": "Valencia.bak.20260418_133415 kentinin tarihi dokusunda önemli bir yer tutan Natural Science Museum of Valencia, kentin tarihsel evrimini ve kentsel hafızasını koruyan en entelektüel ve paha biçilemez kentsel duraklardan biridir.",
+      "description_en": "As a prestigious landmark of Valencia.bak.20260418_133415, Natural Science Museum of Valencia preserves the town's millennia-old memory and serves as an intellectual window into the historical evolution of the area.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJgWlkRa1IYA0Rn8Rxi08dej8",
+      "name": "La Almoina Archaeological Museum",
+      "name_en": "La Almoina Archaeological Museum",
+      "category": "Tarihi",
+      "tags": [
+        "valencia",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.4762551,
+      "lng": -0.3741593,
+      "rating": 4.6,
+      "reviewCount": 3299,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/valencia/ChIJgWlkRa1IYA0Rn8Rxi08dej8.jpg",
+      "description": "Antik dokularla La Almoina Archaeological Museum ruhunu birleştiren bu tarihi nokta, Valencia.bak.20260418_133415 kentinin kültürel kimliğini tanımlayan ve kenti keşfedenlere mistik bir atmosfer sunan kentsel bir prestij kalesidir.",
+      "description_en": "This historical gemstone in Valencia.bak.20260418_133415 defines the local cultural identity, combining ancient textures with the timeless spirit of La Almoina Archaeological Museum for every urban explorer.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJO8tx7sNIYA0Rtq3I4LdFoSE",
+      "name": "Queen Sofia Palace of Arts",
+      "name_en": "Queen Sofia Palace of Arts",
+      "category": "Deneyim",
+      "tags": [
+        "valencia",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.458036,
+      "lng": -0.3559392,
+      "rating": 4.7,
+      "reviewCount": 11514,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/valencia/ChIJO8tx7sNIYA0Rtq3I4LdFoSE.jpg",
+      "description": "Valencia.bak.20260418_133415 sokaklarına özgün karakterini katan Queen Sofia Palace of Arts, kentin modern enerjisini ve kültürel nabzını yansıtan kentsel bir prestij noktası ve sofistike bir kentsel sosyal durak kalesidir.",
+      "description_en": "Infusing the streets of Valencia.bak.20260418_133415 with its unique character, Queen Sofia Palace of Arts is a sophisticated urban destination that reflects the town's modern energy and creative pulse.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJdSAn8JlIYA0RdLvjJtEhtv4",
+      "name": "Museo Nacional de Cerámica y Artes Suntuarias \"González Martí",
+      "name_en": "Museo Nacional de Cerámica y Artes Suntuarias \"González Martí",
+      "category": "Tarihi",
+      "tags": [
+        "valencia",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.472734,
+      "lng": -0.3746838,
+      "rating": 4.5,
+      "reviewCount": 11216,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/valencia/ChIJdSAn8JlIYA0RdLvjJtEhtv4.jpg",
+      "description": "Valencia.bak.20260418_133415 kentinin kentsel tarih silüetini ve Museo Nacional de Cerámica y Artes Suntuarias \"González Martí bölgesinin mimari ihtişamını yansıtan bu alan, kentin binlerce yıllık kültürel mirasına açılan en prestijli kentsel tarih kalesidir.",
+      "description_en": "An urban cultural stronghold in Valencia.bak.20260418_133415 showcasing the historical layers and architectural grandeur of Museo Nacional de Cerámica y Artes Suntuarias \"González Martí, offering travelers a deep dive into the region's heritage.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJuxhXYU9PYA0RTzodeNfP1Mw",
+      "name": "Museo Valenciano de la Ilustración y la Modernidad",
+      "name_en": "Museo Valenciano de la Ilustración y la Modernidad",
+      "category": "Tarihi",
+      "tags": [
+        "valencia",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.4696732,
+      "lng": -0.3813323,
+      "rating": 4.2,
+      "reviewCount": 2195,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/valencia/ChIJuxhXYU9PYA0RTzodeNfP1Mw.jpg",
+      "description": "Valencia.bak.20260418_133415 kentinin tarihi dokusunda önemli bir yer tutan Museo Valenciano de la Ilustración y la Modernidad, kentin tarihsel evrimini ve kentsel hafızasını koruyan en entelektüel ve paha biçilemez kentsel duraklardan biridir.",
+      "description_en": "As a prestigious landmark of Valencia.bak.20260418_133415, Museo Valenciano de la Ilustración y la Modernidad preserves the town's millennia-old memory and serves as an intellectual window into the historical evolution of the area.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJO26w7o9FYA0RO6wuhxqX8Fc",
+      "name": "Palacio de Congresos de Valencia",
+      "name_en": "Palacio de Congresos de Valencia",
+      "category": "Deneyim",
+      "tags": [
+        "valencia",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.4962485,
+      "lng": -0.4020685000000001,
+      "rating": 4.5,
+      "reviewCount": 5225,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/valencia/ChIJO26w7o9FYA0RO6wuhxqX8Fc.jpg",
+      "description": "Valencia.bak.20260418_133415 sokaklarına özgün karakterini katan Palacio de Congresos de Valencia, kentin modern enerjisini ve kültürel nabzını yansıtan kentsel bir prestij noktası ve sofistike bir kentsel sosyal durak kalesidir.",
+      "description_en": "Infusing the streets of Valencia.bak.20260418_133415 with its unique character, Palacio de Congresos de Valencia is a sophisticated urban destination that reflects the town's modern energy and creative pulse.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJJ5T9FVNPYA0RRavjAQjSpS4",
+      "name": "Torres de Serranos",
+      "name_en": "Torres de Serranos",
+      "category": "Deneyim",
+      "tags": [
+        "valencia",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.4793333,
+      "lng": -0.3759652,
+      "rating": 4.6,
+      "reviewCount": 49355,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/valencia/ChIJJ5T9FVNPYA0RRavjAQjSpS4.jpg",
+      "description": "Valencia.bak.20260418_133415 kentinin kentsel enerjisini ve kültürel kimliğini yansıtan Torres de Serranos, kenti keşfeden gezginlerin kentsel keşif albümündeki en ikonik ve fotojenik kentsel duraklardan birisi haline gelmiştir.",
+      "description_en": "A prominent urban landmark in Valencia.bak.20260418_133415 that defines the area's contemporary spirit and cultural identity, Torres de Serranos serves as a prestigious and unique stop for every traveler.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJ98E0IMFIYA0RX4pSCR-943Q",
+      "name": "Gulliver park",
+      "name_en": "Gulliver park",
+      "category": "Park",
+      "tags": [
+        "valencia",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.4625747,
+      "lng": -0.3594147,
+      "rating": 4.5,
+      "reviewCount": 27000,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/valencia/ChIJ98E0IMFIYA0RX4pSCR-943Q.jpg",
+      "description": "Valencia.bak.20260418_133415 kentinde kentsel konforu yerel estetikle birleştiren Gulliver park, kentin sosyal ve kültürel dünyasına yüksek kaliteli bir kentsel dokunuş katan en samimi ve kentsel rotalardan biridir.",
+      "description_en": "As a refined social and cultural point in Valencia.bak.20260418_133415, Gulliver park offers a high-quality experience that perfectly merges urban convenience with local aesthetic charm.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJf3CkiFBPYA0RVRd6OL2SDMA",
+      "name": "Centro Cultural la Beneficencia",
+      "name_en": "Centro Cultural la Beneficencia",
+      "category": "Deneyim",
+      "tags": [
+        "valencia",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.4783021,
+      "lng": -0.3830065,
+      "rating": 4.6,
+      "reviewCount": 3021,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/valencia/ChIJf3CkiFBPYA0RVRd6OL2SDMA.jpg",
+      "description": "Valencia.bak.20260418_133415 kentinde kentsel konforu yerel estetikle birleştiren Centro Cultural la Beneficencia, kentin sosyal ve kültürel dünyasına yüksek kaliteli bir kentsel dokunuş katan en samimi ve kentsel rotalardan biridir.",
+      "description_en": "As a refined social and cultural point in Valencia.bak.20260418_133415, Centro Cultural la Beneficencia offers a high-quality experience that perfectly merges urban convenience with local aesthetic charm.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJU0Yei1BPYA0RTQbWU6KZhi8",
+      "name": "Museo de Prehistoria de Valencia",
+      "name_en": "Museo de Prehistoria de Valencia",
+      "category": "Tarihi",
+      "tags": [
+        "valencia",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.47831,
+      "lng": -0.3833031,
+      "rating": 4.6,
+      "reviewCount": 2049,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/valencia/ChIJU0Yei1BPYA0RTQbWU6KZhi8.jpg",
+      "description": "Valencia.bak.20260418_133415 kentinin tarihi dokusunda önemli bir yer tutan Museo de Prehistoria de Valencia, kentin tarihsel evrimini ve kentsel hafızasını koruyan en entelektüel ve paha biçilemez kentsel duraklardan biridir.",
+      "description_en": "As a prestigious landmark of Valencia.bak.20260418_133415, Museo de Prehistoria de Valencia preserves the town's millennia-old memory and serves as an intellectual window into the historical evolution of the area.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJ_cR0ta5IYA0RIfb-SwzNmk8",
+      "name": "Jardines del Real / Viveros",
+      "name_en": "Jardines del Real / Viveros",
+      "category": "Park",
+      "tags": [
+        "valencia",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.4805626,
+      "lng": -0.3677179,
+      "rating": 4.6,
+      "reviewCount": 20126,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/valencia/ChIJ_cR0ta5IYA0RIfb-SwzNmk8.jpg",
+      "description": "Valencia.bak.20260418_133415 kentinde kentsel konforu yerel estetikle birleştiren Jardines del Real / Viveros, kentin sosyal ve kültürel dünyasına yüksek kaliteli bir kentsel dokunuş katan en samimi ve kentsel rotalardan biridir.",
+      "description_en": "As a refined social and cultural point in Valencia.bak.20260418_133415, Jardines del Real / Viveros offers a high-quality experience that perfectly merges urban convenience with local aesthetic charm.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJGyHg0V1IYA0RO00gORz97Tc",
+      "name": "Museo del Arroz",
+      "name_en": "Museo del Arroz",
+      "category": "Tarihi",
+      "tags": [
+        "valencia",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.4631792,
+      "lng": -0.3319208,
+      "rating": 4.3,
+      "reviewCount": 821,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/valencia/ChIJGyHg0V1IYA0RO00gORz97Tc.jpg",
+      "description": "Valencia.bak.20260418_133415 kentinin tarihi dokusunda önemli bir yer tutan Museo del Arroz, kentin tarihsel evrimini ve kentsel hafızasını koruyan en entelektüel ve paha biçilemez kentsel duraklardan biridir.",
+      "description_en": "As a prestigious landmark of Valencia.bak.20260418_133415, Museo del Arroz preserves the town's millennia-old memory and serves as an intellectual window into the historical evolution of the area.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJEdMF6FNPYA0RoNSmpYKP-T0",
+      "name": "CCCC (Centro del Carmen de Cultura Contemporánea)",
+      "name_en": "CCCC (Centro del Carmen de Cultura Contemporánea)",
+      "category": "Tarihi",
+      "tags": [
+        "valencia",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.4796725,
+      "lng": -0.3790181,
+      "rating": 4.6,
+      "reviewCount": 9682,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/valencia/ChIJEdMF6FNPYA0RoNSmpYKP-T0.jpg",
+      "description": "Valencia.bak.20260418_133415 kentinin kentsel tarih silüetini ve CCCC (Centro del Carmen de Cultura Contemporánea) bölgesinin mimari ihtişamını yansıtan bu alan, kentin binlerce yıllık kültürel mirasına açılan en prestijli kentsel tarih kalesidir.",
+      "description_en": "An urban cultural stronghold in Valencia.bak.20260418_133415 showcasing the historical layers and architectural grandeur of CCCC (Centro del Carmen de Cultura Contemporánea), offering travelers a deep dive into the region's heritage.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJl_6YvEpPYA0RV2zFBwTxvAM",
+      "name": "Museo Taurino",
+      "name_en": "Museo Taurino",
+      "category": "Tarihi",
+      "tags": [
+        "valencia",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.4661798,
+      "lng": -0.3756972,
+      "rating": 3.4,
+      "reviewCount": 338,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/valencia/ChIJl_6YvEpPYA0RV2zFBwTxvAM.jpg",
+      "description": "Valencia.bak.20260418_133415 kentinin tarihi dokusunda önemli bir yer tutan Museo Taurino, kentin tarihsel evrimini ve kentsel hafızasını koruyan en entelektüel ve paha biçilemez kentsel duraklardan biridir.",
+      "description_en": "As a prestigious landmark of Valencia.bak.20260418_133415, Museo Taurino preserves the town's millennia-old memory and serves as an intellectual window into the historical evolution of the area.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJadUei1BPYA0RR095153gDOc",
+      "name": "Sala Parpalló",
+      "name_en": "Sala Parpalló",
+      "category": "Tarihi",
+      "tags": [
+        "valencia",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.4696027,
+      "lng": -0.3814623,
+      "rating": 4.6,
+      "reviewCount": 8,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/valencia/ChIJadUei1BPYA0RR095153gDOc.jpg",
+      "description": "Antik dokularla Sala Parpalló ruhunu birleştiren bu tarihi nokta, Valencia.bak.20260418_133415 kentinin kültürel kimliğini tanımlayan ve kenti keşfedenlere mistik bir atmosfer sunan kentsel bir prestij kalesidir.",
+      "description_en": "This historical gemstone in Valencia.bak.20260418_133415 defines the local cultural identity, combining ancient textures with the timeless spirit of Sala Parpalló for every urban explorer.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJs07-wLRIYA0RA7f41tj5Z0Q",
+      "name": "Ana Serratosa - Gallery & Art Spaces - Sede Central",
+      "name_en": "Ana Serratosa - Gallery & Art Spaces - Sede Central",
+      "category": "Deneyim",
+      "tags": [
+        "valencia",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.4684771,
+      "lng": -0.373799,
+      "rating": 4.7,
+      "reviewCount": 47,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/valencia/ChIJs07-wLRIYA0RA7f41tj5Z0Q.jpg",
+      "description": "Valencia.bak.20260418_133415 kentinin kentsel enerjisini ve kültürel kimliğini yansıtan Ana Serratosa - Gallery & Art Spaces - Sede Central, kenti keşfeden gezginlerin kentsel keşif albümündeki en ikonik ve fotojenik kentsel duraklardan birisi haline gelmiştir.",
+      "description_en": "A prominent urban landmark in Valencia.bak.20260418_133415 that defines the area's contemporary spirit and cultural identity, Ana Serratosa - Gallery & Art Spaces - Sede Central serves as a prestigious and unique stop for every traveler.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJo7unzvFIYA0R3AHW6Cg6vXM",
+      "name": "Hotel Primus Valencia",
+      "name_en": "Hotel Primus Valencia",
+      "category": "Restoran",
+      "tags": [
+        "valencia",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.4576723,
+      "lng": -0.3456222,
+      "rating": 4.2,
+      "reviewCount": 4556,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/valencia/ChIJo7unzvFIYA0R3AHW6Cg6vXM.jpg",
+      "description": "Geleneksel tarifleri modern bir kentsel dokunuşla harmanlayan Hotel Primus Valencia, Valencia.bak.20260418_133415 kentinde gurme lezzetler arayan sosyal gezginler için şık ve kentsel bir lezzet kaçış rotası vaat etmektedir.",
+      "description_en": "Merging traditional recipes with modern urban flair, this restaurant offers a sophisticated social escape for food lovers visiting Hotel Primus Valencia in Valencia.bak.20260418_133415.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJiWifO_BIYA0RdERDCqS31_E",
+      "name": "Hotel ILUNION Aqua 3",
+      "name_en": "Hotel ILUNION Aqua 3",
+      "category": "Restoran",
+      "tags": [
+        "valencia",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.4559493,
+      "lng": -0.3457836,
+      "rating": 4,
+      "reviewCount": 2115,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/valencia/ChIJiWifO_BIYA0RdERDCqS31_E.jpg",
+      "description": "Geleneksel tarifleri modern bir kentsel dokunuşla harmanlayan Hotel ILUNION Aqua 3, Valencia.bak.20260418_133415 kentinde gurme lezzetler arayan sosyal gezginler için şık ve kentsel bir lezzet kaçış rotası vaat etmektedir.",
+      "description_en": "Merging traditional recipes with modern urban flair, this restaurant offers a sophisticated social escape for food lovers visiting Hotel ILUNION Aqua 3 in Valencia.bak.20260418_133415.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJr93TOyNGYA0RzZNIJD6JAFA",
+      "name": "Olympia Hotel, Events & Spa",
+      "name_en": "Olympia Hotel, Events & Spa",
+      "category": "Restoran",
+      "tags": [
+        "valencia",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.4956268,
+      "lng": -0.3532165,
+      "rating": 4,
+      "reviewCount": 5276,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/valencia/ChIJr93TOyNGYA0RzZNIJD6JAFA.jpg",
+      "description": "Valencia.bak.20260418_133415 kentinin gastronomi dünyasında otantik lezzetleri ve dinamik sosyal atmosferiyle tanınan Olympia Hotel, Events & Spa, yerel mutfak kültürünü en prestijli şekilde deneyimlemek isteyenlerin en samimi adresidir.",
+      "description_en": "A prestigious culinary destination in Valencia.bak.20260418_133415 known for its authentic flavors and vibrant social atmosphere, Olympia Hotel, Events & Spa is the perfect spot for experiencing high-end local gastronomy.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJ0dnyZDBPYA0ROz1Bc_kjM9E",
+      "name": "Restaurante La Cepa Vieja (Valencia)",
+      "name_en": "Restaurante La Cepa Vieja (Valencia)",
+      "category": "Restoran",
+      "tags": [
+        "valencia",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.456933,
+      "lng": -0.383483,
+      "rating": 4.6,
+      "reviewCount": 867,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/valencia/ChIJ0dnyZDBPYA0ROz1Bc_kjM9E.jpg",
+      "description": "Yerel malzemelere ve kentsel mutfak sanatına olan bağlılığıyla tanınan Restaurante La Cepa Vieja (Valencia), Valencia.bak.20260418_133415 kentinin kalbindeki en stil sahibi kentsel lezzet duraklarından biri olarak öne çıkan bir kentsel merkezdir.",
+      "description_en": "Renowned for its commitment to local ingredients and urban culinary art, Restaurante La Cepa Vieja (Valencia) stands as a flavor stronghold in the heart of Valencia.bak.20260418_133415's vibrant dining scene.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJYVn8x7BIYA0RIb5xwMV46xI",
+      "name": "Hotel Hospes Palau de la Mar | Valencia",
+      "name_en": "Hotel Hospes Palau de la Mar | Valencia",
+      "category": "Restoran",
+      "tags": [
+        "valencia",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.4709549,
+      "lng": -0.3666431,
+      "rating": 4.6,
+      "reviewCount": 2219,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/valencia/ChIJYVn8x7BIYA0RIb5xwMV46xI.jpg",
+      "description": "Yerel malzemelere ve kentsel mutfak sanatına olan bağlılığıyla tanınan Hotel Hospes Palau de la Mar | Valencia, Valencia.bak.20260418_133415 kentinin kalbindeki en stil sahibi kentsel lezzet duraklarından biri olarak öne çıkan bir kentsel merkezdir.",
+      "description_en": "Renowned for its commitment to local ingredients and urban culinary art, Hotel Hospes Palau de la Mar | Valencia stands as a flavor stronghold in the heart of Valencia.bak.20260418_133415's vibrant dining scene.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJD1guwWlIYA0REfH09cBlg5o",
+      "name": "Las Arenas Balneario Resort",
+      "name_en": "Las Arenas Balneario Resort",
+      "category": "Restoran",
+      "tags": [
+        "valencia",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.4664455,
+      "lng": -0.3245659,
+      "rating": 4.6,
+      "reviewCount": 10240,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/valencia/ChIJD1guwWlIYA0REfH09cBlg5o.jpg",
+      "description": "Geleneksel tarifleri modern bir kentsel dokunuşla harmanlayan Las Arenas Balneario Resort, Valencia.bak.20260418_133415 kentinde gurme lezzetler arayan sosyal gezginler için şık ve kentsel bir lezzet kaçış rotası vaat etmektedir.",
+      "description_en": "Merging traditional recipes with modern urban flair, this restaurant offers a sophisticated social escape for food lovers visiting Las Arenas Balneario Resort in Valencia.bak.20260418_133415.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJo9xXF0JIYA0RvKtIMKtAYbw",
+      "name": "Hotel Miramar Valencia",
+      "name_en": "Hotel Miramar Valencia",
+      "category": "Restoran",
+      "tags": [
+        "valencia",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.4642981,
+      "lng": -0.3236137,
+      "rating": 4,
+      "reviewCount": 1212,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/valencia/ChIJo9xXF0JIYA0RvKtIMKtAYbw.jpg",
+      "description": "Valencia.bak.20260418_133415 kentinin gastronomi dünyasında otantik lezzetleri ve dinamik sosyal atmosferiyle tanınan Hotel Miramar Valencia, yerel mutfak kültürünü en prestijli şekilde deneyimlemek isteyenlerin en samimi adresidir.",
+      "description_en": "A prestigious culinary destination in Valencia.bak.20260418_133415 known for its authentic flavors and vibrant social atmosphere, Hotel Miramar Valencia is the perfect spot for experiencing high-end local gastronomy.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJfVqoQbBHYA0RgH3sszFVE0k",
+      "name": "Hotel la Mozaira",
+      "name_en": "Hotel la Mozaira",
+      "category": "Restoran",
+      "tags": [
+        "valencia",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.515526,
+      "lng": -0.329007,
+      "rating": 4.6,
+      "reviewCount": 1213,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/valencia/ChIJfVqoQbBHYA0RgH3sszFVE0k.jpg",
+      "description": "Valencia.bak.20260418_133415 kentinin gastronomi dünyasında otantik lezzetleri ve dinamik sosyal atmosferiyle tanınan Hotel la Mozaira, yerel mutfak kültürünü en prestijli şekilde deneyimlemek isteyenlerin en samimi adresidir.",
+      "description_en": "A prestigious culinary destination in Valencia.bak.20260418_133415 known for its authentic flavors and vibrant social atmosphere, Hotel la Mozaira is the perfect spot for experiencing high-end local gastronomy.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJZeX1s9xIYA0Rdr_7evab_20",
+      "name": "A Tu Gusto",
+      "name_en": "A Tu Gusto",
+      "category": "Restoran",
+      "tags": [
+        "valencia",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.45453759999999,
+      "lng": -0.3596608,
+      "rating": 4.1,
+      "reviewCount": 744,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/valencia/ChIJZeX1s9xIYA0Rdr_7evab_20.jpg",
+      "description": "Geleneksel tarifleri modern bir kentsel dokunuşla harmanlayan A Tu Gusto, Valencia.bak.20260418_133415 kentinde gurme lezzetler arayan sosyal gezginler için şık ve kentsel bir lezzet kaçış rotası vaat etmektedir.",
+      "description_en": "Merging traditional recipes with modern urban flair, this restaurant offers a sophisticated social escape for food lovers visiting A Tu Gusto in Valencia.bak.20260418_133415.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJ99rmJEJIYA0RwtFOCEOGvaQ",
+      "name": "El Coso",
+      "name_en": "El Coso",
+      "category": "Restoran",
+      "tags": [
+        "valencia",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.4637347,
+      "lng": -0.3233093,
+      "rating": 4.1,
+      "reviewCount": 8531,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/valencia/ChIJ99rmJEJIYA0RwtFOCEOGvaQ.jpg",
+      "description": "Yerel malzemelere ve kentsel mutfak sanatına olan bağlılığıyla tanınan El Coso, Valencia.bak.20260418_133415 kentinin kalbindeki en stil sahibi kentsel lezzet duraklarından biri olarak öne çıkan bir kentsel merkezdir.",
+      "description_en": "Renowned for its commitment to local ingredients and urban culinary art, El Coso stands as a flavor stronghold in the heart of Valencia.bak.20260418_133415's vibrant dining scene.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJFwZaImVIYA0R76LLgqs9dh8",
+      "name": "El Bobo",
+      "name_en": "El Bobo",
+      "category": "Restoran",
+      "tags": [
+        "valencia",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.4815438,
+      "lng": -0.3243976,
+      "rating": 4.2,
+      "reviewCount": 3273,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/valencia/ChIJFwZaImVIYA0R76LLgqs9dh8.jpg",
+      "description": "Yerel malzemelere ve kentsel mutfak sanatına olan bağlılığıyla tanınan El Bobo, Valencia.bak.20260418_133415 kentinin kalbindeki en stil sahibi kentsel lezzet duraklarından biri olarak öne çıkan bir kentsel merkezdir.",
+      "description_en": "Renowned for its commitment to local ingredients and urban culinary art, El Bobo stands as a flavor stronghold in the heart of Valencia.bak.20260418_133415's vibrant dining scene.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJc_oc8VtPYA0RduISD8UlN_0",
+      "name": "HOTEL TURIA VALENCIA",
+      "name_en": "HOTEL TURIA VALENCIA",
+      "category": "Restoran",
+      "tags": [
+        "valencia",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.480233,
+      "lng": -0.388519,
+      "rating": 4,
+      "reviewCount": 2995,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/valencia/ChIJc_oc8VtPYA0RduISD8UlN_0.jpg",
+      "description": "Geleneksel tarifleri modern bir kentsel dokunuşla harmanlayan HOTEL TURIA VALENCIA, Valencia.bak.20260418_133415 kentinde gurme lezzetler arayan sosyal gezginler için şık ve kentsel bir lezzet kaçış rotası vaat etmektedir.",
+      "description_en": "Merging traditional recipes with modern urban flair, this restaurant offers a sophisticated social escape for food lovers visiting HOTEL TURIA VALENCIA in Valencia.bak.20260418_133415.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJQUA0BIxFYA0R_iiCZ10nOMM",
+      "name": "Hotel ILUNION Valencia 4",
+      "name_en": "Hotel ILUNION Valencia 4",
+      "category": "Restoran",
+      "tags": [
+        "valencia",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.4912645,
+      "lng": -0.3979878,
+      "rating": 4.1,
+      "reviewCount": 2950,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/valencia/ChIJQUA0BIxFYA0R_iiCZ10nOMM.jpg",
+      "description": "Valencia.bak.20260418_133415 kentinin gastronomi dünyasında otantik lezzetleri ve dinamik sosyal atmosferiyle tanınan Hotel ILUNION Valencia 4, yerel mutfak kültürünü en prestijli şekilde deneyimlemek isteyenlerin en samimi adresidir.",
+      "description_en": "A prestigious culinary destination in Valencia.bak.20260418_133415 known for its authentic flavors and vibrant social atmosphere, Hotel ILUNION Valencia 4 is the perfect spot for experiencing high-end local gastronomy.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJR6UGlEtPYA0RLO8qoS8OpZY",
+      "name": "Navarro",
+      "name_en": "Navarro",
+      "category": "Restoran",
+      "tags": [
+        "valencia",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.4692764,
+      "lng": -0.378042,
+      "rating": 4.6,
+      "reviewCount": 3188,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/valencia/ChIJR6UGlEtPYA0RLO8qoS8OpZY.jpg",
+      "description": "Valencia.bak.20260418_133415 kentinin gastronomi dünyasında otantik lezzetleri ve dinamik sosyal atmosferiyle tanınan Navarro, yerel mutfak kültürünü en prestijli şekilde deneyimlemek isteyenlerin en samimi adresidir.",
+      "description_en": "A prestigious culinary destination in Valencia.bak.20260418_133415 known for its authentic flavors and vibrant social atmosphere, Navarro is the perfect spot for experiencing high-end local gastronomy.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJx6gnh1lPYA0RdCV9WFcKS7M",
+      "name": "El Corte Inglés",
+      "name_en": "El Corte Inglés",
+      "category": "Restoran",
+      "tags": [
+        "valencia",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.4797416,
+      "lng": -0.3896606,
+      "rating": 4.2,
+      "reviewCount": 14782,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/valencia/ChIJx6gnh1lPYA0RdCV9WFcKS7M.jpg",
+      "description": "Yerel malzemelere ve kentsel mutfak sanatına olan bağlılığıyla tanınan El Corte Inglés, Valencia.bak.20260418_133415 kentinin kalbindeki en stil sahibi kentsel lezzet duraklarından biri olarak öne çıkan bir kentsel merkezdir.",
+      "description_en": "Renowned for its commitment to local ingredients and urban culinary art, El Corte Inglés stands as a flavor stronghold in the heart of Valencia.bak.20260418_133415's vibrant dining scene.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJu45kyDRPYA0RNkpUVmm4VNk",
+      "name": "Cuinar-te Ruzafa",
+      "name_en": "Cuinar-te Ruzafa",
+      "category": "Restoran",
+      "tags": [
+        "valencia",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.4614102,
+      "lng": -0.3753176,
+      "rating": 4.1,
+      "reviewCount": 735,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/valencia/ChIJu45kyDRPYA0RNkpUVmm4VNk.jpg",
+      "description": "Valencia.bak.20260418_133415 kentinin gastronomi dünyasında otantik lezzetleri ve dinamik sosyal atmosferiyle tanınan Cuinar-te Ruzafa, yerel mutfak kültürünü en prestijli şekilde deneyimlemek isteyenlerin en samimi adresidir.",
+      "description_en": "A prestigious culinary destination in Valencia.bak.20260418_133415 known for its authentic flavors and vibrant social atmosphere, Cuinar-te Ruzafa is the perfect spot for experiencing high-end local gastronomy.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJB8KvZ1JPYA0RhpmS790X85A",
+      "name": "Bar Los Picapiedra",
+      "name_en": "Bar Los Picapiedra",
+      "category": "Restoran",
+      "tags": [
+        "valencia",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.4765308,
+      "lng": -0.3777045,
+      "rating": 4.9,
+      "reviewCount": 5462,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/valencia/ChIJB8KvZ1JPYA0RhpmS790X85A.jpg",
+      "description": "Valencia.bak.20260418_133415 kentinin gastronomi dünyasında otantik lezzetleri ve dinamik sosyal atmosferiyle tanınan Bar Los Picapiedra, yerel mutfak kültürünü en prestijli şekilde deneyimlemek isteyenlerin en samimi adresidir.",
+      "description_en": "A prestigious culinary destination in Valencia.bak.20260418_133415 known for its authentic flavors and vibrant social atmosphere, Bar Los Picapiedra is the perfect spot for experiencing high-end local gastronomy.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJQ7bLLkJIYA0RAAf9FU9njGE",
+      "name": "Restuarante Tridente",
+      "name_en": "Restuarante Tridente",
+      "category": "Restoran",
+      "tags": [
+        "valencia",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.4632147,
+      "lng": -0.3229729,
+      "rating": 4.1,
+      "reviewCount": 1313,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/valencia/ChIJQ7bLLkJIYA0RAAf9FU9njGE.jpg",
+      "description": "Yerel malzemelere ve kentsel mutfak sanatına olan bağlılığıyla tanınan Restuarante Tridente, Valencia.bak.20260418_133415 kentinin kalbindeki en stil sahibi kentsel lezzet duraklarından biri olarak öne çıkan bir kentsel merkezdir.",
+      "description_en": "Renowned for its commitment to local ingredients and urban culinary art, Restuarante Tridente stands as a flavor stronghold in the heart of Valencia.bak.20260418_133415's vibrant dining scene.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJL3JjFkVPYA0RQAlTa2d0DwM",
+      "name": "Restaurante Pelegrí Valencia",
+      "name_en": "Restaurante Pelegrí Valencia",
+      "category": "Restoran",
+      "tags": [
+        "valencia",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.4739733,
+      "lng": -0.3856772,
+      "rating": 4.5,
+      "reviewCount": 596,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/valencia/ChIJL3JjFkVPYA0RQAlTa2d0DwM.jpg",
+      "description": "Valencia.bak.20260418_133415 kentinin gastronomi dünyasında otantik lezzetleri ve dinamik sosyal atmosferiyle tanınan Restaurante Pelegrí Valencia, yerel mutfak kültürünü en prestijli şekilde deneyimlemek isteyenlerin en samimi adresidir.",
+      "description_en": "A prestigious culinary destination in Valencia.bak.20260418_133415 known for its authentic flavors and vibrant social atmosphere, Restaurante Pelegrí Valencia is the perfect spot for experiencing high-end local gastronomy.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJIRgmmLdIYA0RZpX6MUMTVoE",
+      "name": "Racó del Túria",
+      "name_en": "Racó del Túria",
+      "category": "Restoran",
+      "tags": [
+        "valencia",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.4670923,
+      "lng": -0.3665554,
+      "rating": 4.5,
+      "reviewCount": 1440,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/valencia/ChIJIRgmmLdIYA0RZpX6MUMTVoE.jpg",
+      "description": "Geleneksel tarifleri modern bir kentsel dokunuşla harmanlayan Racó del Túria, Valencia.bak.20260418_133415 kentinde gurme lezzetler arayan sosyal gezginler için şık ve kentsel bir lezzet kaçış rotası vaat etmektedir.",
+      "description_en": "Merging traditional recipes with modern urban flair, this restaurant offers a sophisticated social escape for food lovers visiting Racó del Túria in Valencia.bak.20260418_133415.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJD0Op8jxGYA0R2p--3tSn9v0",
+      "name": "La Sucrera Pastelería",
+      "name_en": "La Sucrera Pastelería",
+      "category": "Restoran",
+      "tags": [
+        "valencia",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.4970305,
+      "lng": -0.3534701,
+      "rating": 4.7,
+      "reviewCount": 317,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/valencia/ChIJD0Op8jxGYA0R2p--3tSn9v0.jpg",
+      "description": "Yerel malzemelere ve kentsel mutfak sanatına olan bağlılığıyla tanınan La Sucrera Pastelería, Valencia.bak.20260418_133415 kentinin kalbindeki en stil sahibi kentsel lezzet duraklarından biri olarak öne çıkan bir kentsel merkezdir.",
+      "description_en": "Renowned for its commitment to local ingredients and urban culinary art, La Sucrera Pastelería stands as a flavor stronghold in the heart of Valencia.bak.20260418_133415's vibrant dining scene.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJ_TB7W8tIYA0RehAJfTOFFVg",
+      "name": "Ubik Café Cafetería Librería",
+      "name_en": "Ubik Café Cafetería Librería",
+      "category": "Restoran",
+      "tags": [
+        "valencia",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.4604444,
+      "lng": -0.3738944,
+      "rating": 4.3,
+      "reviewCount": 4736,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/valencia/ChIJ_TB7W8tIYA0RehAJfTOFFVg.jpg",
+      "description": "Valencia.bak.20260418_133415 kentinin gastronomi dünyasında otantik lezzetleri ve dinamik sosyal atmosferiyle tanınan Ubik Café Cafetería Librería, yerel mutfak kültürünü en prestijli şekilde deneyimlemek isteyenlerin en samimi adresidir.",
+      "description_en": "A prestigious culinary destination in Valencia.bak.20260418_133415 known for its authentic flavors and vibrant social atmosphere, Ubik Café Cafetería Librería is the perfect spot for experiencing high-end local gastronomy.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJuUtWWv1FYA0RHda-Pfk23vg",
+      "name": "Malkebien | Gastronomía Mediterránea",
+      "name_en": "Malkebien | Gastronomía Mediterránea",
+      "category": "Restoran",
+      "tags": [
+        "valencia",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.4954533,
+      "lng": -0.3753246000000001,
+      "rating": 4.7,
+      "reviewCount": 1567,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/valencia/ChIJuUtWWv1FYA0RHda-Pfk23vg.jpg",
+      "description": "Geleneksel tarifleri modern bir kentsel dokunuşla harmanlayan Malkebien | Gastronomía Mediterránea, Valencia.bak.20260418_133415 kentinde gurme lezzetler arayan sosyal gezginler için şık ve kentsel bir lezzet kaçış rotası vaat etmektedir.",
+      "description_en": "Merging traditional recipes with modern urban flair, this restaurant offers a sophisticated social escape for food lovers visiting Malkebien | Gastronomía Mediterránea in Valencia.bak.20260418_133415.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJq5uEiRFPYA0R0ERO7uqC8TE",
+      "name": "Kids Mafia parque de bolas cafe",
+      "name_en": "Kids Mafia parque de bolas cafe",
+      "category": "Restoran",
+      "tags": [
+        "valencia",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.4599652,
+      "lng": -0.401603,
+      "rating": 4.1,
+      "reviewCount": 476,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/valencia/ChIJq5uEiRFPYA0R0ERO7uqC8TE.jpg",
+      "description": "Geleneksel tarifleri modern bir kentsel dokunuşla harmanlayan Kids Mafia parque de bolas cafe, Valencia.bak.20260418_133415 kentinde gurme lezzetler arayan sosyal gezginler için şık ve kentsel bir lezzet kaçış rotası vaat etmektedir.",
+      "description_en": "Merging traditional recipes with modern urban flair, this restaurant offers a sophisticated social escape for food lovers visiting Kids Mafia parque de bolas cafe in Valencia.bak.20260418_133415.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJwQXBcQtFYA0RRWzJjWABnWQ",
+      "name": "Àmbit",
+      "name_en": "Àmbit",
+      "category": "Restoran",
+      "tags": [
+        "valencia",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.5073167,
+      "lng": -0.4168152,
+      "rating": 3.2,
+      "reviewCount": 1250,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/valencia/ChIJwQXBcQtFYA0RRWzJjWABnWQ.jpg",
+      "description": "Geleneksel tarifleri modern bir kentsel dokunuşla harmanlayan Àmbit, Valencia.bak.20260418_133415 kentinde gurme lezzetler arayan sosyal gezginler için şık ve kentsel bir lezzet kaçış rotası vaat etmektedir.",
+      "description_en": "Merging traditional recipes with modern urban flair, this restaurant offers a sophisticated social escape for food lovers visiting Àmbit in Valencia.bak.20260418_133415.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJ0ScE9KZIYA0RZ88El3rndNQ",
+      "name": "Pastís d'Or",
+      "name_en": "Pastís d'Or",
+      "category": "Restoran",
+      "tags": [
+        "valencia",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.4822103,
+      "lng": -0.3627361,
+      "rating": 4.5,
+      "reviewCount": 141,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/valencia/ChIJ0ScE9KZIYA0RZ88El3rndNQ.jpg",
+      "description": "Geleneksel tarifleri modern bir kentsel dokunuşla harmanlayan Pastís d'Or, Valencia.bak.20260418_133415 kentinde gurme lezzetler arayan sosyal gezginler için şık ve kentsel bir lezzet kaçış rotası vaat etmektedir.",
+      "description_en": "Merging traditional recipes with modern urban flair, this restaurant offers a sophisticated social escape for food lovers visiting Pastís d'Or in Valencia.bak.20260418_133415.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJg89huyJGYA0RRsNidr8onlM",
+      "name": "Orxateria Daniel",
+      "name_en": "Orxateria Daniel",
+      "category": "Restoran",
+      "tags": [
+        "valencia",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.4953463,
+      "lng": -0.3547696,
+      "rating": 4.4,
+      "reviewCount": 14107,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/valencia/ChIJg89huyJGYA0RRsNidr8onlM.jpg",
+      "description": "Yerel malzemelere ve kentsel mutfak sanatına olan bağlılığıyla tanınan Orxateria Daniel, Valencia.bak.20260418_133415 kentinin kalbindeki en stil sahibi kentsel lezzet duraklarından biri olarak öne çıkan bir kentsel merkezdir.",
+      "description_en": "Renowned for its commitment to local ingredients and urban culinary art, Orxateria Daniel stands as a flavor stronghold in the heart of Valencia.bak.20260418_133415's vibrant dining scene.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJ44EaRERFYA0Re5oCUdnhW1c",
+      "name": "Ludoteca Mundo Mágico",
+      "name_en": "Ludoteca Mundo Mágico",
+      "category": "Restoran",
+      "tags": [
+        "valencia",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.4995151,
+      "lng": -0.4376521,
+      "rating": 4.7,
+      "reviewCount": 770,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/valencia/ChIJ44EaRERFYA0Re5oCUdnhW1c.jpg",
+      "description": "Yerel malzemelere ve kentsel mutfak sanatına olan bağlılığıyla tanınan Ludoteca Mundo Mágico, Valencia.bak.20260418_133415 kentinin kalbindeki en stil sahibi kentsel lezzet duraklarından biri olarak öne çıkan bir kentsel merkezdir.",
+      "description_en": "Renowned for its commitment to local ingredients and urban culinary art, Ludoteca Mundo Mágico stands as a flavor stronghold in the heart of Valencia.bak.20260418_133415's vibrant dining scene.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJ_xiWC5FIYA0RNg2qMBIcLUo",
+      "name": "Bocatería Harbin",
+      "name_en": "Bocatería Harbin",
+      "category": "Restoran",
+      "tags": [
+        "valencia",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.4718193,
+      "lng": -0.3492095,
+      "rating": 4.1,
+      "reviewCount": 128,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/valencia/ChIJ_xiWC5FIYA0RNg2qMBIcLUo.jpg",
+      "description": "Yerel malzemelere ve kentsel mutfak sanatına olan bağlılığıyla tanınan Bocatería Harbin, Valencia.bak.20260418_133415 kentinin kalbindeki en stil sahibi kentsel lezzet duraklarından biri olarak öne çıkan bir kentsel merkezdir.",
+      "description_en": "Renowned for its commitment to local ingredients and urban culinary art, Bocatería Harbin stands as a flavor stronghold in the heart of Valencia.bak.20260418_133415's vibrant dining scene.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJFU6HcppIYA0R1lYr3JRZ8vU",
+      "name": "Bar Bocho.",
+      "name_en": "Bar Bocho.",
+      "category": "Restoran",
+      "tags": [
+        "valencia",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.4762703,
+      "lng": -0.349812,
+      "rating": 4.5,
+      "reviewCount": 715,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/valencia/ChIJFU6HcppIYA0R1lYr3JRZ8vU.jpg",
+      "description": "Valencia.bak.20260418_133415 kentinin gastronomi dünyasında otantik lezzetleri ve dinamik sosyal atmosferiyle tanınan Bar Bocho., yerel mutfak kültürünü en prestijli şekilde deneyimlemek isteyenlerin en samimi adresidir.",
+      "description_en": "A prestigious culinary destination in Valencia.bak.20260418_133415 known for its authentic flavors and vibrant social atmosphere, Bar Bocho. is the perfect spot for experiencing high-end local gastronomy.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJmeWytJBIYA0RFQLs_ogqaJM",
+      "name": "HORCHATERIA DOLZ",
+      "name_en": "HORCHATERIA DOLZ",
+      "category": "Restoran",
+      "tags": [
+        "valencia",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.4745311,
+      "lng": -0.351483,
+      "rating": 4.2,
+      "reviewCount": 848,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/valencia/ChIJmeWytJBIYA0RFQLs_ogqaJM.jpg",
+      "description": "Valencia.bak.20260418_133415 kentinin gastronomi dünyasında otantik lezzetleri ve dinamik sosyal atmosferiyle tanınan HORCHATERIA DOLZ, yerel mutfak kültürünü en prestijli şekilde deneyimlemek isteyenlerin en samimi adresidir.",
+      "description_en": "A prestigious culinary destination in Valencia.bak.20260418_133415 known for its authentic flavors and vibrant social atmosphere, HORCHATERIA DOLZ is the perfect spot for experiencing high-end local gastronomy.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJ87Khg6ROYA0RaqsrQupJNYU",
+      "name": "Esportiu A Cobert, S.L.",
+      "name_en": "Esportiu A Cobert, S.L.",
+      "category": "Restoran",
+      "tags": [
+        "valencia",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.4113655,
+      "lng": -0.3886424000000001,
+      "rating": 4.2,
+      "reviewCount": 242,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/valencia/ChIJ87Khg6ROYA0RaqsrQupJNYU.jpg",
+      "description": "Geleneksel tarifleri modern bir kentsel dokunuşla harmanlayan Esportiu A Cobert, S.L., Valencia.bak.20260418_133415 kentinde gurme lezzetler arayan sosyal gezginler için şık ve kentsel bir lezzet kaçış rotası vaat etmektedir.",
+      "description_en": "Merging traditional recipes with modern urban flair, this restaurant offers a sophisticated social escape for food lovers visiting Esportiu A Cobert, S.L. in Valencia.bak.20260418_133415.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJP7xzOrZIYA0RwgswfBF78II",
+      "name": "CAFÉ BALLI",
+      "name_en": "CAFÉ BALLI",
+      "category": "Restoran",
+      "tags": [
+        "valencia",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.4661042,
+      "lng": -0.3682956000000001,
+      "rating": 3.9,
+      "reviewCount": 2577,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/valencia/ChIJP7xzOrZIYA0RwgswfBF78II.jpg",
+      "description": "Geleneksel tarifleri modern bir kentsel dokunuşla harmanlayan CAFÉ BALLI, Valencia.bak.20260418_133415 kentinde gurme lezzetler arayan sosyal gezginler için şık ve kentsel bir lezzet kaçış rotası vaat etmektedir.",
+      "description_en": "Merging traditional recipes with modern urban flair, this restaurant offers a sophisticated social escape for food lovers visiting CAFÉ BALLI in Valencia.bak.20260418_133415.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJXR8NwY9IYA0RJkYvE9j0GEk",
+      "name": "Ya Ke Lounge",
+      "name_en": "Ya Ke Lounge",
+      "category": "Restoran",
+      "tags": [
+        "valencia",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.4740006,
+      "lng": -0.3460458,
+      "rating": 2,
+      "reviewCount": 2,
+      "price": "medium",
+      "imageUrl": "",
+      "description": "Valencia.bak.20260418_133415 kentinin gastronomi dünyasında otantik lezzetleri ve dinamik sosyal atmosferiyle tanınan Ya Ke Lounge, yerel mutfak kültürünü en prestijli şekilde deneyimlemek isteyenlerin en samimi adresidir.",
+      "description_en": "A prestigious culinary destination in Valencia.bak.20260418_133415 known for its authentic flavors and vibrant social atmosphere, Ya Ke Lounge is the perfect spot for experiencing high-end local gastronomy.",
+      "source": "google"
+    },
+    {
+      "id": "ChIJTWBcWS1PYA0RYZdPUvRbsAg",
+      "name": "PausaCaffe",
+      "name_en": "PausaCaffe",
+      "category": "Restoran",
+      "tags": [
+        "valencia",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.4545751,
+      "lng": -0.3756838,
+      "rating": 4.1,
+      "reviewCount": 471,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/valencia/ChIJTWBcWS1PYA0RYZdPUvRbsAg.jpg",
+      "description": "Valencia.bak.20260418_133415 kentinin gastronomi dünyasında otantik lezzetleri ve dinamik sosyal atmosferiyle tanınan PausaCaffe, yerel mutfak kültürünü en prestijli şekilde deneyimlemek isteyenlerin en samimi adresidir.",
+      "description_en": "A prestigious culinary destination in Valencia.bak.20260418_133415 known for its authentic flavors and vibrant social atmosphere, PausaCaffe is the perfect spot for experiencing high-end local gastronomy.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJH2UsCxVPYA0RoVy975Z3M1s",
+      "name": "Café Terra de Mar",
+      "name_en": "Café Terra de Mar",
+      "category": "Restoran",
+      "tags": [
+        "valencia",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.46261980000001,
+      "lng": -0.3946826,
+      "rating": 4.5,
+      "reviewCount": 739,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/valencia/ChIJH2UsCxVPYA0RoVy975Z3M1s.jpg",
+      "description": "Yerel malzemelere ve kentsel mutfak sanatına olan bağlılığıyla tanınan Café Terra de Mar, Valencia.bak.20260418_133415 kentinin kalbindeki en stil sahibi kentsel lezzet duraklarından biri olarak öne çıkan bir kentsel merkezdir.",
+      "description_en": "Renowned for its commitment to local ingredients and urban culinary art, Café Terra de Mar stands as a flavor stronghold in the heart of Valencia.bak.20260418_133415's vibrant dining scene.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJw2U8S5RIYA0ReCnCZPPhJpA",
+      "name": "Cerrado",
+      "name_en": "Cerrado",
+      "category": "Restoran",
+      "tags": [
+        "valencia",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.46882799999999,
+      "lng": -0.3535196,
+      "rating": 4.4,
+      "reviewCount": 514,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/valencia/ChIJw2U8S5RIYA0ReCnCZPPhJpA.jpg",
+      "description": "Geleneksel tarifleri modern bir kentsel dokunuşla harmanlayan Cerrado, Valencia.bak.20260418_133415 kentinde gurme lezzetler arayan sosyal gezginler için şık ve kentsel bir lezzet kaçış rotası vaat etmektedir.",
+      "description_en": "Merging traditional recipes with modern urban flair, this restaurant offers a sophisticated social escape for food lovers visiting Cerrado in Valencia.bak.20260418_133415.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJ55h4swFGYA0RILPdbf61kns",
+      "name": "Bar Platers",
+      "name_en": "Bar Platers",
+      "category": "Restoran",
+      "tags": [
+        "valencia",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.4874588,
+      "lng": -0.3722685,
+      "rating": 3.6,
+      "reviewCount": 107,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/valencia/ChIJ55h4swFGYA0RILPdbf61kns.jpg",
+      "description": "Geleneksel tarifleri modern bir kentsel dokunuşla harmanlayan Bar Platers, Valencia.bak.20260418_133415 kentinde gurme lezzetler arayan sosyal gezginler için şık ve kentsel bir lezzet kaçış rotası vaat etmektedir.",
+      "description_en": "Merging traditional recipes with modern urban flair, this restaurant offers a sophisticated social escape for food lovers visiting Bar Platers in Valencia.bak.20260418_133415.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJt9gOJctIYA0R1qKyEI7LKhc",
+      "name": "EL DESVÁN",
+      "name_en": "EL DESVÁN",
+      "category": "Restoran",
+      "tags": [
+        "valencia",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.4620714,
+      "lng": -0.3741922,
+      "rating": 4.1,
+      "reviewCount": 234,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/valencia/ChIJt9gOJctIYA0R1qKyEI7LKhc.jpg",
+      "description": "Yerel malzemelere ve kentsel mutfak sanatına olan bağlılığıyla tanınan EL DESVÁN, Valencia.bak.20260418_133415 kentinin kalbindeki en stil sahibi kentsel lezzet duraklarından biri olarak öne çıkan bir kentsel merkezdir.",
+      "description_en": "Renowned for its commitment to local ingredients and urban culinary art, EL DESVÁN stands as a flavor stronghold in the heart of Valencia.bak.20260418_133415's vibrant dining scene.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJZUFhME5PYA0RJ3UKxecoc9g",
+      "name": "Radio City",
+      "name_en": "Radio City",
+      "category": "Deneyim",
+      "tags": [
+        "valencia",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.474689,
+      "lng": -0.3813,
+      "rating": 4.3,
+      "reviewCount": 4206,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/valencia/ChIJZUFhME5PYA0RJ3UKxecoc9g.jpg",
+      "description": "Valencia.bak.20260418_133415 kentinin kentsel enerjisini ve kültürel kimliğini yansıtan Radio City, kenti keşfeden gezginlerin kentsel keşif albümündeki en ikonik ve fotojenik kentsel duraklardan birisi haline gelmiştir.",
+      "description_en": "A prominent urban landmark in Valencia.bak.20260418_133415 that defines the area's contemporary spirit and cultural identity, Radio City serves as a prestigious and unique stop for every traveler.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJ8zYQAG9IYA0RHV6s79QZblU",
+      "name": "Akuarela Playa",
+      "name_en": "Akuarela Playa",
+      "category": "Deneyim",
+      "tags": [
+        "valencia",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.4728453,
+      "lng": -0.3253657,
+      "rating": 3.7,
+      "reviewCount": 6699,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/valencia/ChIJ8zYQAG9IYA0RHV6s79QZblU.jpg",
+      "description": "Valencia.bak.20260418_133415 kentinin kentsel enerjisini ve kültürel kimliğini yansıtan Akuarela Playa, kenti keşfeden gezginlerin kentsel keşif albümündeki en ikonik ve fotojenik kentsel duraklardan birisi haline gelmiştir.",
+      "description_en": "A prominent urban landmark in Valencia.bak.20260418_133415 that defines the area's contemporary spirit and cultural identity, Akuarela Playa serves as a prestigious and unique stop for every traveler.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJwdPpA45IYA0R6T14rKRRPfQ",
+      "name": "Matisse Club",
+      "name_en": "Matisse Club",
+      "category": "Deneyim",
+      "tags": [
+        "valencia",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.4707455,
+      "lng": -0.3465311,
+      "rating": 4.3,
+      "reviewCount": 1212,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/valencia/ChIJwdPpA45IYA0R6T14rKRRPfQ.jpg",
+      "description": "Valencia.bak.20260418_133415 kentinde kentsel konforu yerel estetikle birleştiren Matisse Club, kentin sosyal ve kültürel dünyasına yüksek kaliteli bir kentsel dokunuş katan en samimi ve kentsel rotalardan biridir.",
+      "description_en": "As a refined social and cultural point in Valencia.bak.20260418_133415, Matisse Club offers a high-quality experience that perfectly merges urban convenience with local aesthetic charm.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJbYaFVo5IYA0RFKVxWvn-f-Y",
+      "name": "Rumbo 144",
+      "name_en": "Rumbo 144",
+      "category": "Deneyim",
+      "tags": [
+        "valencia",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.4724529,
+      "lng": -0.3445948,
+      "rating": 3.1,
+      "reviewCount": 2261,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/valencia/ChIJbYaFVo5IYA0RFKVxWvn-f-Y.jpg",
+      "description": "Valencia.bak.20260418_133415 kentinin kentsel enerjisini ve kültürel kimliğini yansıtan Rumbo 144, kenti keşfeden gezginlerin kentsel keşif albümündeki en ikonik ve fotojenik kentsel duraklardan birisi haline gelmiştir.",
+      "description_en": "A prominent urban landmark in Valencia.bak.20260418_133415 that defines the area's contemporary spirit and cultural identity, Rumbo 144 serves as a prestigious and unique stop for every traveler.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJVR0NQ1VPYA0R89Km7ggQSUU",
+      "name": "Deseo 54",
+      "name_en": "Deseo 54",
+      "category": "Deneyim",
+      "tags": [
+        "valencia",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.4849216,
+      "lng": -0.3758522,
+      "rating": 4.5,
+      "reviewCount": 1666,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/valencia/ChIJVR0NQ1VPYA0R89Km7ggQSUU.jpg",
+      "description": "Valencia.bak.20260418_133415 kentinin kentsel enerjisini ve kültürel kimliğini yansıtan Deseo 54, kenti keşfeden gezginlerin kentsel keşif albümündeki en ikonik ve fotojenik kentsel duraklardan birisi haline gelmiştir.",
+      "description_en": "A prominent urban landmark in Valencia.bak.20260418_133415 that defines the area's contemporary spirit and cultural identity, Deseo 54 serves as a prestigious and unique stop for every traveler.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJPa3pKFJPYA0R5ouaPtMgQ8k",
+      "name": "Jimmy Glass Jazz Bar",
+      "name_en": "Jimmy Glass Jazz Bar",
+      "category": "Deneyim",
+      "tags": [
+        "valencia",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.477567,
+      "lng": -0.3793512,
+      "rating": 4.4,
+      "reviewCount": 1199,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/valencia/ChIJPa3pKFJPYA0R5ouaPtMgQ8k.jpg",
+      "description": "Valencia.bak.20260418_133415 kentinin kentsel enerjisini ve kültürel kimliğini yansıtan Jimmy Glass Jazz Bar, kenti keşfeden gezginlerin kentsel keşif albümündeki en ikonik ve fotojenik kentsel duraklardan birisi haline gelmiştir.",
+      "description_en": "A prominent urban landmark in Valencia.bak.20260418_133415 that defines the area's contemporary spirit and cultural identity, Jimmy Glass Jazz Bar serves as a prestigious and unique stop for every traveler.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJifABEl9IYA0R37Prte6puzI",
+      "name": "Flamingos Swingers Club",
+      "name_en": "Flamingos Swingers Club",
+      "category": "Deneyim",
+      "tags": [
+        "valencia",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.4619242,
+      "lng": -0.3354391,
+      "rating": 3.4,
+      "reviewCount": 160,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/valencia/ChIJifABEl9IYA0R37Prte6puzI.jpg",
+      "description": "Valencia.bak.20260418_133415 kentinin kentsel enerjisini ve kültürel kimliğini yansıtan Flamingos Swingers Club, kenti keşfeden gezginlerin kentsel keşif albümündeki en ikonik ve fotojenik kentsel duraklardan birisi haline gelmiştir.",
+      "description_en": "A prominent urban landmark in Valencia.bak.20260418_133415 that defines the area's contemporary spirit and cultural identity, Flamingos Swingers Club serves as a prestigious and unique stop for every traveler.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJMVTs9TBOYA0REtWRFqkK2Go",
+      "name": "Los Amigos",
+      "name_en": "Los Amigos",
+      "category": "Deneyim",
+      "tags": [
+        "valencia",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.4346524,
+      "lng": -0.4386202,
+      "rating": 3.9,
+      "reviewCount": 30,
+      "price": "medium",
+      "imageUrl": "",
+      "description": "Valencia.bak.20260418_133415 kentinin kentsel enerjisini ve kültürel kimliğini yansıtan Los Amigos, kenti keşfeden gezginlerin kentsel keşif albümündeki en ikonik ve fotojenik kentsel duraklardan birisi haline gelmiştir.",
+      "description_en": "A prominent urban landmark in Valencia.bak.20260418_133415 that defines the area's contemporary spirit and cultural identity, Los Amigos serves as a prestigious and unique stop for every traveler.",
+      "source": "google"
+    },
+    {
+      "id": "ChIJ8QZOl01PYA0RPO3O9OHJMSo",
+      "name": "Blanquita Bar",
+      "name_en": "Blanquita Bar",
+      "category": "Restoran",
+      "tags": [
+        "valencia",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.4744981,
+      "lng": -0.3777461,
+      "rating": 2.9,
+      "reviewCount": 421,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/valencia/ChIJ8QZOl01PYA0RPO3O9OHJMSo.jpg",
+      "description": "Geleneksel tarifleri modern bir kentsel dokunuşla harmanlayan Blanquita Bar, Valencia.bak.20260418_133415 kentinde gurme lezzetler arayan sosyal gezginler için şık ve kentsel bir lezzet kaçış rotası vaat etmektedir.",
+      "description_en": "Merging traditional recipes with modern urban flair, this restaurant offers a sophisticated social escape for food lovers visiting Blanquita Bar in Valencia.bak.20260418_133415.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJNYdZs1pPYA0RuJhefbB-mAg",
+      "name": "Piko's Bar",
+      "name_en": "Piko's Bar",
+      "category": "Restoran",
+      "tags": [
+        "valencia",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.4754923,
+      "lng": -0.3850986,
+      "rating": 4.1,
+      "reviewCount": 1892,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/valencia/ChIJNYdZs1pPYA0RuJhefbB-mAg.jpg",
+      "description": "Geleneksel tarifleri modern bir kentsel dokunuşla harmanlayan Piko's Bar, Valencia.bak.20260418_133415 kentinde gurme lezzetler arayan sosyal gezginler için şık ve kentsel bir lezzet kaçış rotası vaat etmektedir.",
+      "description_en": "Merging traditional recipes with modern urban flair, this restaurant offers a sophisticated social escape for food lovers visiting Piko's Bar in Valencia.bak.20260418_133415.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJY38uCkhPYA0RJ2ldssnNNE4",
+      "name": "Apoquetanit",
+      "name_en": "Apoquetanit",
+      "category": "Deneyim",
+      "tags": [
+        "valencia",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.4661676,
+      "lng": -0.3840599,
+      "rating": 5,
+      "reviewCount": 2,
+      "price": "medium",
+      "imageUrl": "",
+      "description": "Valencia.bak.20260418_133415 kentinde kentsel konforu yerel estetikle birleştiren Apoquetanit, kentin sosyal ve kültürel dünyasına yüksek kaliteli bir kentsel dokunuş katan en samimi ve kentsel rotalardan biridir.",
+      "description_en": "As a refined social and cultural point in Valencia.bak.20260418_133415, Apoquetanit offers a high-quality experience that perfectly merges urban convenience with local aesthetic charm.",
+      "source": "google"
+    },
+    {
+      "id": "ChIJM9SBzhBPYA0R4PSCWyQ8VqQ",
+      "name": "Leganés",
+      "name_en": "Leganés",
+      "category": "Deneyim",
+      "tags": [
+        "valencia",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.4578422,
+      "lng": -0.4003314,
+      "rating": 3.8,
+      "reviewCount": 42,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/valencia/ChIJM9SBzhBPYA0R4PSCWyQ8VqQ.jpg",
+      "description": "Valencia.bak.20260418_133415 sokaklarına özgün karakterini katan Leganés, kentin modern enerjisini ve kültürel nabzını yansıtan kentsel bir prestij noktası ve sofistike bir kentsel sosyal durak kalesidir.",
+      "description_en": "Infusing the streets of Valencia.bak.20260418_133415 with its unique character, Leganés is a sophisticated urban destination that reflects the town's modern energy and creative pulse.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJe6e19JFIYA0RdYFCuaOrrmE",
+      "name": "El Kubata de Hojalata",
+      "name_en": "El Kubata de Hojalata",
+      "category": "Deneyim",
+      "tags": [
+        "valencia",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.470646,
+      "lng": -0.347764,
+      "rating": 4.6,
+      "reviewCount": 319,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/valencia/ChIJe6e19JFIYA0RdYFCuaOrrmE.jpg",
+      "description": "Valencia.bak.20260418_133415 kentinin kentsel enerjisini ve kültürel kimliğini yansıtan El Kubata de Hojalata, kenti keşfeden gezginlerin kentsel keşif albümündeki en ikonik ve fotojenik kentsel duraklardan birisi haline gelmiştir.",
+      "description_en": "A prominent urban landmark in Valencia.bak.20260418_133415 that defines the area's contemporary spirit and cultural identity, El Kubata de Hojalata serves as a prestigious and unique stop for every traveler.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJ4b_Bf0xPYA0R50CKSAiKWTk",
+      "name": "MClub",
+      "name_en": "MClub",
+      "category": "Deneyim",
+      "tags": [
+        "valencia",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.4704935,
+      "lng": -0.3773646,
+      "rating": 3.5,
+      "reviewCount": 745,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/valencia/ChIJ4b_Bf0xPYA0R50CKSAiKWTk.jpg",
+      "description": "Valencia.bak.20260418_133415 kentinde kentsel konforu yerel estetikle birleştiren MClub, kentin sosyal ve kültürel dünyasına yüksek kaliteli bir kentsel dokunuş katan en samimi ve kentsel rotalardan biridir.",
+      "description_en": "As a refined social and cultural point in Valencia.bak.20260418_133415, MClub offers a high-quality experience that perfectly merges urban convenience with local aesthetic charm.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJdztGx0lPYA0Rs7Sl6sTeOrU",
+      "name": "Indiana",
+      "name_en": "Indiana",
+      "category": "Deneyim",
+      "tags": [
+        "valencia",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.4663286,
+      "lng": -0.3810685,
+      "rating": 3,
+      "reviewCount": 2615,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/valencia/ChIJdztGx0lPYA0Rs7Sl6sTeOrU.jpg",
+      "description": "Valencia.bak.20260418_133415 kentinde kentsel konforu yerel estetikle birleştiren Indiana, kentin sosyal ve kültürel dünyasına yüksek kaliteli bir kentsel dokunuş katan en samimi ve kentsel rotalardan biridir.",
+      "description_en": "As a refined social and cultural point in Valencia.bak.20260418_133415, Indiana offers a high-quality experience that perfectly merges urban convenience with local aesthetic charm.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJu_jgGjZPYA0RDTOR9coQFng",
+      "name": "Jerusalem Pop&Rock",
+      "name_en": "Jerusalem Pop&Rock",
+      "category": "Deneyim",
+      "tags": [
+        "valencia",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.4646234,
+      "lng": -0.3802138,
+      "rating": 3.8,
+      "reviewCount": 1722,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/valencia/ChIJu_jgGjZPYA0RDTOR9coQFng.jpg",
+      "description": "Valencia.bak.20260418_133415 sokaklarına özgün karakterini katan Jerusalem Pop&Rock, kentin modern enerjisini ve kültürel nabzını yansıtan kentsel bir prestij noktası ve sofistike bir kentsel sosyal durak kalesidir.",
+      "description_en": "Infusing the streets of Valencia.bak.20260418_133415 with its unique character, Jerusalem Pop&Rock is a sophisticated urban destination that reflects the town's modern energy and creative pulse.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJNVvh8LVIYA0RIuG6xW0RhN8",
+      "name": "Bowie Show Disco",
+      "name_en": "Bowie Show Disco",
+      "category": "Deneyim",
+      "tags": [
+        "valencia",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.4654521,
+      "lng": -0.3709551,
+      "rating": 3.8,
+      "reviewCount": 591,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/valencia/ChIJNVvh8LVIYA0RIuG6xW0RhN8.jpg",
+      "description": "Valencia.bak.20260418_133415 kentinde kentsel konforu yerel estetikle birleştiren Bowie Show Disco, kentin sosyal ve kültürel dünyasına yüksek kaliteli bir kentsel dokunuş katan en samimi ve kentsel rotalardan biridir.",
+      "description_en": "As a refined social and cultural point in Valencia.bak.20260418_133415, Bowie Show Disco offers a high-quality experience that perfectly merges urban convenience with local aesthetic charm.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJQ0KiuFBPYA0RM6elkBxvxlI",
+      "name": "Art Modern Institute Museum of Valencia",
+      "name_en": "Art Modern Institute Museum of Valencia",
+      "category": "Tarihi",
+      "tags": [
+        "valencia",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.4796137,
+      "lng": -0.3827567,
+      "rating": 4.4,
+      "reviewCount": 1787,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/valencia/ChIJQ0KiuFBPYA0RM6elkBxvxlI.jpg",
+      "description": "Antik dokularla Art Modern Institute Museum of Valencia ruhunu birleştiren bu tarihi nokta, Valencia.bak.20260418_133415 kentinin kültürel kimliğini tanımlayan ve kenti keşfedenlere mistik bir atmosfer sunan kentsel bir prestij kalesidir.",
+      "description_en": "This historical gemstone in Valencia.bak.20260418_133415 defines the local cultural identity, combining ancient textures with the timeless spirit of Art Modern Institute Museum of Valencia for every urban explorer.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJafy3yE5PYA0RBMpDH8kVuG0",
+      "name": "Museo y Colegio del Arte Mayor de la Seda",
+      "name_en": "Museo y Colegio del Arte Mayor de la Seda",
+      "category": "Tarihi",
+      "tags": [
+        "valencia",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.470859,
+      "lng": -0.3809826,
+      "rating": 4.4,
+      "reviewCount": 3217,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/valencia/ChIJafy3yE5PYA0RBMpDH8kVuG0.jpg",
+      "description": "Valencia.bak.20260418_133415 kentinin tarihi dokusunda önemli bir yer tutan Museo y Colegio del Arte Mayor de la Seda, kentin tarihsel evrimini ve kentsel hafızasını koruyan en entelektüel ve paha biçilemez kentsel duraklardan biridir.",
+      "description_en": "As a prestigious landmark of Valencia.bak.20260418_133415, Museo y Colegio del Arte Mayor de la Seda preserves the town's millennia-old memory and serves as an intellectual window into the historical evolution of the area.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJafy3yE5PYA0RrGPdp_-HASE",
+      "name": "Silk Museum",
+      "name_en": "Silk Museum",
+      "category": "Tarihi",
+      "tags": [
+        "valencia",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.47085999999999,
+      "lng": -0.38098,
+      "rating": 4,
+      "reviewCount": 119,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/valencia/ChIJafy3yE5PYA0RrGPdp_-HASE.jpg",
+      "description": "Valencia.bak.20260418_133415 kentinin kentsel tarih silüetini ve Silk Museum bölgesinin mimari ihtişamını yansıtan bu alan, kentin binlerce yıllık kültürel mirasına açılan en prestijli kentsel tarih kalesidir.",
+      "description_en": "An urban cultural stronghold in Valencia.bak.20260418_133415 showcasing the historical layers and architectural grandeur of Silk Museum, offering travelers a deep dive into the region's heritage.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJv_3W7bJIYA0RZK4VewUjcA4",
+      "name": "Palau dels Valeriola",
+      "name_en": "Palau dels Valeriola",
+      "category": "Tarihi",
+      "tags": [
+        "valencia",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.4738882,
+      "lng": -0.3731898,
+      "rating": 4.7,
+      "reviewCount": 129,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/valencia/ChIJv_3W7bJIYA0RZK4VewUjcA4.jpg",
+      "description": "Valencia.bak.20260418_133415 kentinin kentsel tarih silüetini ve Palau dels Valeriola bölgesinin mimari ihtişamını yansıtan bu alan, kentin binlerce yıllık kültürel mirasına açılan en prestijli kentsel tarih kalesidir.",
+      "description_en": "An urban cultural stronghold in Valencia.bak.20260418_133415 showcasing the historical layers and architectural grandeur of Palau dels Valeriola, offering travelers a deep dive into the region's heritage.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJpajOEE5PYA0RGWvXonBklUs",
+      "name": "La Fundación Chirivella Soriano",
+      "name_en": "La Fundación Chirivella Soriano",
+      "category": "Tarihi",
+      "tags": [
+        "valencia",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.4747017,
+      "lng": -0.3804284000000001,
+      "rating": 4.5,
+      "reviewCount": 288,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/valencia/ChIJpajOEE5PYA0RGWvXonBklUs.jpg",
+      "description": "Valencia.bak.20260418_133415 kentinin kentsel tarih silüetini ve La Fundación Chirivella Soriano bölgesinin mimari ihtişamını yansıtan bu alan, kentin binlerce yıllık kültürel mirasına açılan en prestijli kentsel tarih kalesidir.",
+      "description_en": "An urban cultural stronghold in Valencia.bak.20260418_133415 showcasing the historical layers and architectural grandeur of La Fundación Chirivella Soriano, offering travelers a deep dive into the region's heritage.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJxRNU9bFIYA0R2SEUe0yLQMY",
+      "name": "Palau de Cervelló",
+      "name_en": "Palau de Cervelló",
+      "category": "Tarihi",
+      "tags": [
+        "valencia",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.4741872,
+      "lng": -0.3702706,
+      "rating": 4.4,
+      "reviewCount": 894,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/valencia/ChIJxRNU9bFIYA0R2SEUe0yLQMY.jpg",
+      "description": "Antik dokularla Palau de Cervelló ruhunu birleştiren bu tarihi nokta, Valencia.bak.20260418_133415 kentinin kültürel kimliğini tanımlayan ve kenti keşfedenlere mistik bir atmosfer sunan kentsel bir prestij kalesidir.",
+      "description_en": "This historical gemstone in Valencia.bak.20260418_133415 defines the local cultural identity, combining ancient textures with the timeless spirit of Palau de Cervelló for every urban explorer.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJjxvGa61IYA0R51kW6EA455w",
+      "name": "Almudín de Valencia",
+      "name_en": "Almudín de Valencia",
+      "category": "Tarihi",
+      "tags": [
+        "valencia",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.4765199,
+      "lng": -0.3737078,
+      "rating": 4.5,
+      "reviewCount": 413,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/valencia/ChIJjxvGa61IYA0R51kW6EA455w.jpg",
+      "description": "Valencia.bak.20260418_133415 kentinin kentsel tarih silüetini ve Almudín de Valencia bölgesinin mimari ihtişamını yansıtan bu alan, kentin binlerce yıllık kültürel mirasına açılan en prestijli kentsel tarih kalesidir.",
+      "description_en": "An urban cultural stronghold in Valencia.bak.20260418_133415 showcasing the historical layers and architectural grandeur of Almudín de Valencia, offering travelers a deep dive into the region's heritage.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJM6ZnOEVPYA0R3pQcCH3FeWc",
+      "name": "Antiguo Almacén de Dientes",
+      "name_en": "Antiguo Almacén de Dientes",
+      "category": "Tarihi",
+      "tags": [
+        "valencia",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.4746763,
+      "lng": -0.3854969,
+      "rating": 4.8,
+      "reviewCount": 1519,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/valencia/ChIJM6ZnOEVPYA0R3pQcCH3FeWc.jpg",
+      "description": "Antik dokularla Antiguo Almacén de Dientes ruhunu birleştiren bu tarihi nokta, Valencia.bak.20260418_133415 kentinin kültürel kimliğini tanımlayan ve kenti keşfedenlere mistik bir atmosfer sunan kentsel bir prestij kalesidir.",
+      "description_en": "This historical gemstone in Valencia.bak.20260418_133415 defines the local cultural identity, combining ancient textures with the timeless spirit of Antiguo Almacén de Dientes for every urban explorer.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJezaHTK5IYA0R7JgVQoLs2Gg",
+      "name": "Museo de Bellas Artes de Valencia",
+      "name_en": "Museo de Bellas Artes de Valencia",
+      "category": "Tarihi",
+      "tags": [
+        "valencia",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.4790039,
+      "lng": -0.3711751,
+      "rating": 4.6,
+      "reviewCount": 9518,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/valencia/ChIJezaHTK5IYA0R7JgVQoLs2Gg.jpg",
+      "description": "Valencia.bak.20260418_133415 kentinin tarihi dokusunda önemli bir yer tutan Museo de Bellas Artes de Valencia, kentin tarihsel evrimini ve kentsel hafızasını koruyan en entelektüel ve paha biçilemez kentsel duraklardan biridir.",
+      "description_en": "As a prestigious landmark of Valencia.bak.20260418_133415, Museo de Bellas Artes de Valencia preserves the town's millennia-old memory and serves as an intellectual window into the historical evolution of the area.",
+      "source": "firebase"
+    }
+  ]
+}

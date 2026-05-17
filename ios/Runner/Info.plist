@@ -57,6 +57,9 @@
 	<key>LSApplicationQueriesSchemes</key>
 	<array>
   		<string>https</string>
+  		<string>http</string>
+  		<string>itms-apps</string>
+  		<string>itms</string>
   		<string>comgooglemaps</string>
   		<string>mailto</string>
 	</array>
@@ -73,5 +76,18 @@
 	<!-- Firebase Configuration -->
 	<key>FirebaseAppDelegateProxyEnabled</key>
 	<false/>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>myway.app</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>myway</string>
+			</array>
+		</dict>
+	</array>
 </dict>
 </plist>

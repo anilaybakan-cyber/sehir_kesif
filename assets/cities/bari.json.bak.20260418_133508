@@ -1,0 +1,1875 @@
+{
+  "city": "Bari",
+  "city_en": "Bari",
+  "country": "İtalya",
+  "country_en": "Italy",
+  "description": "Bari, tarihi dokusu ve eşsiz Akdeniz lezzetleriyle sizi bekliyor.",
+  "description_en": "Bari is waiting for you with its historical texture and unique Mediterranean flavors.",
+  "heroImage": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bari/hero.jpg",
+  "coordinates": {
+    "lat": 41.1171,
+    "lng": 16.8719
+  },
+  "highlights": [
+    {
+      "id": "ChIJAQV0ZWPoRxMRpltjt0sPOHs",
+      "name": "Basilica of Saint Nicholas",
+      "name_en": "Basilica of Saint Nicholas",
+      "category": "Deneyim",
+      "tags": [
+        "bari",
+        "travel",
+        "explore"
+      ],
+      "lat": 41.13031369999999,
+      "lng": 16.8701375,
+      "rating": 4.8,
+      "reviewCount": 22388,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bari/ChIJAQV0ZWPoRxMRpltjt0sPOHs.jpg",
+      "description": "Bari'nin koruyucu azizi Aziz Nikolaos'un kemiklerine ev sahipliği yapan bu bazilika, Hristiyan dünyası için önemli bir hac merkezidir. Romanesk mimarinin zirvesi olan yapı, şehrin 'Bari Vecchia' olarak bilinen tarihi dar sokaklarında yer alır.",
+      "description_en": "Housing the relics of Saint Nicholas, the city's patron saint, this basilica is a major pilgrimage site for both Catholics and Orthodox Christians. It is a masterpiece of Romanesque architecture in the heart of old Bari Vecchia.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJ56hKyGPoRxMRTNhOTifD_w8",
+      "name": "Cathedral of Saint Sabinus",
+      "name_en": "Cathedral of Saint Sabinus",
+      "category": "Deneyim",
+      "tags": [
+        "bari",
+        "travel",
+        "explore"
+      ],
+      "lat": 41.1285817,
+      "lng": 16.8687875,
+      "rating": 4.7,
+      "reviewCount": 6117,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bari/ChIJ56hKyGPoRxMRTNhOTifD_w8.jpg",
+      "description": "Bari.bak.20260418_133508 kentinin kentsel enerjisini ve kültürel kimliğini yansıtan Cathedral of Saint Sabinus, kenti keşfeden gezginlerin kentsel keşif albümündeki en ikonik ve fotojenik kentsel duraklardan birisi haline gelmiştir.",
+      "description_en": "A prominent urban landmark in Bari.bak.20260418_133508 that defines the area's contemporary spirit and cultural identity, Cathedral of Saint Sabinus serves as a prestigious and unique stop for every traveler.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJf_4jF2LoRxMRwiCpC5TP3Nc",
+      "name": "Castello Svevo di Bari",
+      "name_en": "Castello Svevo di Bari",
+      "category": "Tarihi",
+      "tags": [
+        "bari",
+        "travel",
+        "explore"
+      ],
+      "lat": 41.127901,
+      "lng": 16.8663979,
+      "rating": 4.3,
+      "reviewCount": 3663,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bari/ChIJf_4jF2LoRxMRwiCpC5TP3Nc.jpg",
+      "description": "Antik dokularla Castello Svevo di Bari ruhunu birleştiren bu tarihi nokta, Bari.bak.20260418_133508 kentinin kültürel kimliğini tanımlayan ve kenti keşfedenlere mistik bir atmosfer sunan kentsel bir prestij kalesidir.",
+      "description_en": "This historical gemstone in Bari.bak.20260418_133508 defines the local cultural identity, combining ancient textures with the timeless spirit of Castello Svevo di Bari for every urban explorer.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJSwdpfGPoRxMRMXWEJG8CwI4",
+      "name": "Bari Vecchia",
+      "name_en": "Bari Vecchia",
+      "category": "Deneyim",
+      "tags": [
+        "bari",
+        "travel",
+        "explore"
+      ],
+      "lat": 41.1290845,
+      "lng": 16.8690709,
+      "rating": 4.5,
+      "reviewCount": 50,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bari/ChIJSwdpfGPoRxMRMXWEJG8CwI4.jpg",
+      "description": "Bari'nin antik kalbi olan Bari Vecchia, taze makarna yapan kadınları, daracık sokakları ve tarihi kiliseleriyle gerçek bir İtalyan deneyimi sunar. 'Orecchiette' caddesinde yürürken yerel halkın geleneklerini yakından görebilirsiniz.",
+      "description_en": "The ancient heart of the city, Bari Vecchia, offers an authentic Italian experience with its narrow alleys, historic churches, and local women making fresh pasta. Walking down 'Orecchiette Street' reveals the town's living traditions.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJ36SUQGHoRxMRFSdMsi4mVNs",
+      "name": "Teatro Petruzzelli",
+      "name_en": "Teatro Petruzzelli",
+      "category": "Deneyim",
+      "tags": [
+        "bari",
+        "travel",
+        "explore"
+      ],
+      "lat": 41.1235673,
+      "lng": 16.8728375,
+      "rating": 4.7,
+      "reviewCount": 8726,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bari/ChIJ36SUQGHoRxMRFSdMsi4mVNs.jpg",
+      "description": "Bari.bak.20260418_133508 kentinin kentsel enerjisini ve kültürel kimliğini yansıtan Teatro Petruzzelli, kenti keşfeden gezginlerin kentsel keşif albümündeki en ikonik ve fotojenik kentsel duraklardan birisi haline gelmiştir.",
+      "description_en": "A prominent urban landmark in Bari.bak.20260418_133508 that defines the area's contemporary spirit and cultural identity, Teatro Petruzzelli serves as a prestigious and unique stop for every traveler.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJ-6glXwDpRxMRGWeKPNJuNUY",
+      "name": "Lungomare di Bari",
+      "name_en": "Lungomare di Bari",
+      "category": "Deneyim",
+      "tags": [
+        "bari",
+        "travel",
+        "explore"
+      ],
+      "lat": 41.1217477,
+      "lng": 16.8814588,
+      "rating": 4.8,
+      "reviewCount": 89,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bari/ChIJ-6glXwDpRxMRGWeKPNJuNUY.jpg",
+      "description": "Bari.bak.20260418_133508 sokaklarına özgün karakterini katan Lungomare di Bari, kentin modern enerjisini ve kültürel nabzını yansıtan kentsel bir prestij noktası ve sofistike bir kentsel sosyal durak kalesidir.",
+      "description_en": "Infusing the streets of Bari.bak.20260418_133508 with its unique character, Lungomare di Bari is a sophisticated urban destination that reflects the town's modern energy and creative pulse.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJoXvYHGToRxMRsMrGdkblpJw",
+      "name": "Piazza del Ferrarese",
+      "name_en": "Piazza del Ferrarese",
+      "category": "Deneyim",
+      "tags": [
+        "bari",
+        "travel",
+        "explore"
+      ],
+      "lat": 41.126921,
+      "lng": 16.8718723,
+      "rating": 4.5,
+      "reviewCount": 50,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bari/ChIJoXvYHGToRxMRsMrGdkblpJw.jpg",
+      "description": "Bari.bak.20260418_133508 kentinde kentsel konforu yerel estetikle birleştiren Piazza del Ferrarese, kentin sosyal ve kültürel dünyasına yüksek kaliteli bir kentsel dokunuş katan en samimi ve kentsel rotalardan biridir.",
+      "description_en": "As a refined social and cultural point in Bari.bak.20260418_133508, Piazza del Ferrarese offers a high-quality experience that perfectly merges urban convenience with local aesthetic charm.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJDxCt6GPoRxMREHuKZ978TUE",
+      "name": "Palazzo Simi (Simi Palace)",
+      "name_en": "Palazzo Simi (Simi Palace)",
+      "category": "Tarihi",
+      "tags": [
+        "bari",
+        "travel",
+        "explore"
+      ],
+      "lat": 41.1274321,
+      "lng": 16.8697958,
+      "rating": 4.4,
+      "reviewCount": 127,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bari/ChIJDxCt6GPoRxMREHuKZ978TUE.jpg",
+      "description": "Bari.bak.20260418_133508 kentinin tarihi dokusunda önemli bir yer tutan Palazzo Simi (Simi Palace), kentin tarihsel evrimini ve kentsel hafızasını koruyan en entelektüel ve paha biçilemez kentsel duraklardan biridir.",
+      "description_en": "As a prestigious landmark of Bari.bak.20260418_133508, Palazzo Simi (Simi Palace) preserves the town's millennia-old memory and serves as an intellectual window into the historical evolution of the area.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJZUJ7XGPoRxMRr4wTPNWOt6k",
+      "name": "Nicolaian Museum",
+      "name_en": "Nicolaian Museum",
+      "category": "Tarihi",
+      "tags": [
+        "bari",
+        "travel",
+        "explore"
+      ],
+      "lat": 41.130627,
+      "lng": 16.870622,
+      "rating": 4.3,
+      "reviewCount": 157,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bari/ChIJZUJ7XGPoRxMRr4wTPNWOt6k.jpg",
+      "description": "Antik dokularla Nicolaian Museum ruhunu birleştiren bu tarihi nokta, Bari.bak.20260418_133508 kentinin kültürel kimliğini tanımlayan ve kenti keşfedenlere mistik bir atmosfer sunan kentsel bir prestij kalesidir.",
+      "description_en": "This historical gemstone in Bari.bak.20260418_133508 defines the local cultural identity, combining ancient textures with the timeless spirit of Nicolaian Museum for every urban explorer.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJE_z2q3zoRxMROKiUR2Brg14",
+      "name": "Archaeological Museum of Santa Scolastica",
+      "name_en": "Archaeological Museum of Santa Scolastica",
+      "category": "Tarihi",
+      "tags": [
+        "bari",
+        "travel",
+        "explore"
+      ],
+      "lat": 41.1321122,
+      "lng": 16.8710272,
+      "rating": 4.6,
+      "reviewCount": 803,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bari/ChIJE_z2q3zoRxMROKiUR2Brg14.jpg",
+      "description": "Bari.bak.20260418_133508 kentinin tarihi dokusunda önemli bir yer tutan Archaeological Museum of Santa Scolastica, kentin tarihsel evrimini ve kentsel hafızasını koruyan en entelektüel ve paha biçilemez kentsel duraklardan biridir.",
+      "description_en": "As a prestigious landmark of Bari.bak.20260418_133508, Archaeological Museum of Santa Scolastica preserves the town's millennia-old memory and serves as an intellectual window into the historical evolution of the area.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJAbVWSWLoRxMRcl2bpySc8bk",
+      "name": "Regional Directorate of Museums",
+      "name_en": "Regional Directorate of Museums",
+      "category": "Tarihi",
+      "tags": [
+        "bari",
+        "travel",
+        "explore"
+      ],
+      "lat": 41.1309566,
+      "lng": 16.8688307,
+      "rating": 4.3,
+      "reviewCount": 3092,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bari/ChIJAbVWSWLoRxMRcl2bpySc8bk.jpg",
+      "description": "Bari.bak.20260418_133508 kentinin kentsel tarih silüetini ve Regional Directorate of Museums bölgesinin mimari ihtişamını yansıtan bu alan, kentin binlerce yıllık kültürel mirasına açılan en prestijli kentsel tarih kalesidir.",
+      "description_en": "An urban cultural stronghold in Bari.bak.20260418_133508 showcasing the historical layers and architectural grandeur of Regional Directorate of Museums, offering travelers a deep dive into the region's heritage.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJYfYU3FDoRxMRRZEt6bSkSgc",
+      "name": "Russian Orthodox Church of Saint Nicholas",
+      "name_en": "Russian Orthodox Church of Saint Nicholas",
+      "category": "Deneyim",
+      "tags": [
+        "bari",
+        "travel",
+        "explore"
+      ],
+      "lat": 41.1100323,
+      "lng": 16.8722299,
+      "rating": 4.6,
+      "reviewCount": 996,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bari/ChIJYfYU3FDoRxMRRZEt6bSkSgc.jpg",
+      "description": "Bari.bak.20260418_133508 sokaklarına özgün karakterini katan Russian Orthodox Church of Saint Nicholas, kentin modern enerjisini ve kültürel nabzını yansıtan kentsel bir prestij noktası ve sofistike bir kentsel sosyal durak kalesidir.",
+      "description_en": "Infusing the streets of Bari.bak.20260418_133508 with its unique character, Russian Orthodox Church of Saint Nicholas is a sophisticated urban destination that reflects the town's modern energy and creative pulse.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJKf3M5E7oRxMRJd4bxcp7Jhw",
+      "name": "Museo della Fotografia",
+      "name_en": "Museo della Fotografia",
+      "category": "Tarihi",
+      "tags": [
+        "bari",
+        "travel",
+        "explore"
+      ],
+      "lat": 41.1088587,
+      "lng": 16.8795692,
+      "rating": 4.6,
+      "reviewCount": 8,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bari/ChIJKf3M5E7oRxMRJd4bxcp7Jhw.jpg",
+      "description": "Bari.bak.20260418_133508 kentinin kentsel tarih silüetini ve Museo della Fotografia bölgesinin mimari ihtişamını yansıtan bu alan, kentin binlerce yıllık kültürel mirasına açılan en prestijli kentsel tarih kalesidir.",
+      "description_en": "An urban cultural stronghold in Bari.bak.20260418_133508 showcasing the historical layers and architectural grandeur of Museo della Fotografia, offering travelers a deep dive into the region's heritage.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJ76U2XoroRxMRb8iELoHKRKY",
+      "name": "Palazzo Fizzarotti",
+      "name_en": "Palazzo Fizzarotti",
+      "category": "Tarihi",
+      "tags": [
+        "bari",
+        "travel",
+        "explore"
+      ],
+      "lat": 41.125912,
+      "lng": 16.8634719,
+      "rating": 4.6,
+      "reviewCount": 392,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bari/ChIJ76U2XoroRxMRb8iELoHKRKY.jpg",
+      "description": "Bari.bak.20260418_133508 kentinin tarihi dokusunda önemli bir yer tutan Palazzo Fizzarotti, kentin tarihsel evrimini ve kentsel hafızasını koruyan en entelektüel ve paha biçilemez kentsel duraklardan biridir.",
+      "description_en": "As a prestigious landmark of Bari.bak.20260418_133508, Palazzo Fizzarotti preserves the town's millennia-old memory and serves as an intellectual window into the historical evolution of the area.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJVWWFz1LoRxMRQSNm3j2Ci7A",
+      "name": "Parco 2 Giugno",
+      "name_en": "Parco 2 Giugno",
+      "category": "Park",
+      "tags": [
+        "bari",
+        "travel",
+        "explore"
+      ],
+      "lat": 41.1025005,
+      "lng": 16.8747697,
+      "rating": 4.2,
+      "reviewCount": 9751,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bari/ChIJVWWFz1LoRxMRQSNm3j2Ci7A.jpg",
+      "description": "Bari.bak.20260418_133508 sokaklarına özgün karakterini katan Parco 2 Giugno, kentin modern enerjisini ve kültürel nabzını yansıtan kentsel bir prestij noktası ve sofistike bir kentsel sosyal durak kalesidir.",
+      "description_en": "Infusing the streets of Bari.bak.20260418_133508 with its unique character, Parco 2 Giugno is a sophisticated urban destination that reflects the town's modern energy and creative pulse.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJwb9FLqPoRxMRsbRcUzsPa9k",
+      "name": "Planetario sky skan",
+      "name_en": "Planetario sky skan",
+      "category": "Tarihi",
+      "tags": [
+        "bari",
+        "travel",
+        "explore"
+      ],
+      "lat": 41.1371756,
+      "lng": 16.8378468,
+      "rating": 4.5,
+      "reviewCount": 144,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bari/ChIJwb9FLqPoRxMRsbRcUzsPa9k.jpg",
+      "description": "Antik dokularla Planetario sky skan ruhunu birleştiren bu tarihi nokta, Bari.bak.20260418_133508 kentinin kültürel kimliğini tanımlayan ve kenti keşfedenlere mistik bir atmosfer sunan kentsel bir prestij kalesidir.",
+      "description_en": "This historical gemstone in Bari.bak.20260418_133508 defines the local cultural identity, combining ancient textures with the timeless spirit of Planetario sky skan for every urban explorer.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJ26OL3iroRxMRPTewKCEouHE",
+      "name": "AcquaPark Bari",
+      "name_en": "AcquaPark Bari",
+      "category": "Deneyim",
+      "tags": [
+        "bari",
+        "travel",
+        "explore"
+      ],
+      "lat": 41.0970406,
+      "lng": 16.9112507,
+      "rating": 3.8,
+      "reviewCount": 1765,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bari/ChIJ26OL3iroRxMRPTewKCEouHE.jpg",
+      "description": "Bari.bak.20260418_133508 kentinin kentsel enerjisini ve kültürel kimliğini yansıtan AcquaPark Bari, kenti keşfeden gezginlerin kentsel keşif albümündeki en ikonik ve fotojenik kentsel duraklardan birisi haline gelmiştir.",
+      "description_en": "A prominent urban landmark in Bari.bak.20260418_133508 that defines the area's contemporary spirit and cultural identity, AcquaPark Bari serves as a prestigious and unique stop for every traveler.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJq8QLgbPuRxMRsrgxLi4uii4",
+      "name": "Santuario Madonna della Grotta",
+      "name_en": "Santuario Madonna della Grotta",
+      "category": "Deneyim",
+      "tags": [
+        "bari",
+        "travel",
+        "explore"
+      ],
+      "lat": 41.0862199,
+      "lng": 16.8146762,
+      "rating": 4.8,
+      "reviewCount": 58,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bari/ChIJq8QLgbPuRxMRsrgxLi4uii4.jpg",
+      "description": "Bari.bak.20260418_133508 kentinin kentsel enerjisini ve kültürel kimliğini yansıtan Santuario Madonna della Grotta, kenti keşfeden gezginlerin kentsel keşif albümündeki en ikonik ve fotojenik kentsel duraklardan birisi haline gelmiştir.",
+      "description_en": "A prominent urban landmark in Bari.bak.20260418_133508 that defines the area's contemporary spirit and cultural identity, Santuario Madonna della Grotta serves as a prestigious and unique stop for every traveler.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJTfWLIDPvRxMRrWoVBH8jQvA",
+      "name": "Cittadella Mediterranea della Scienza",
+      "name_en": "Cittadella Mediterranea della Scienza",
+      "category": "Tarihi",
+      "tags": [
+        "bari",
+        "travel",
+        "explore"
+      ],
+      "lat": 41.1229668,
+      "lng": 16.8169347,
+      "rating": 4,
+      "reviewCount": 224,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bari/ChIJTfWLIDPvRxMRrWoVBH8jQvA.jpg",
+      "description": "Bari.bak.20260418_133508 kentinin tarihi dokusunda önemli bir yer tutan Cittadella Mediterranea della Scienza, kentin tarihsel evrimini ve kentsel hafızasını koruyan en entelektüel ve paha biçilemez kentsel duraklardan biridir.",
+      "description_en": "As a prestigious landmark of Bari.bak.20260418_133508, Cittadella Mediterranea della Scienza preserves the town's millennia-old memory and serves as an intellectual window into the historical evolution of the area.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJ6w7_eZToRxMRDjTu1Q5NyZI",
+      "name": "State Archives",
+      "name_en": "State Archives",
+      "category": "Tarihi",
+      "tags": [
+        "bari",
+        "travel",
+        "explore"
+      ],
+      "lat": 41.1288034,
+      "lng": 16.846885,
+      "rating": 4.7,
+      "reviewCount": 37,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bari/ChIJ6w7_eZToRxMRDjTu1Q5NyZI.jpg",
+      "description": "Bari.bak.20260418_133508 kentinin kentsel tarih silüetini ve State Archives bölgesinin mimari ihtişamını yansıtan bu alan, kentin binlerce yıllık kültürel mirasına açılan en prestijli kentsel tarih kalesidir.",
+      "description_en": "An urban cultural stronghold in Bari.bak.20260418_133508 showcasing the historical layers and architectural grandeur of State Archives, offering travelers a deep dive into the region's heritage.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJzTOpABzpRxMRV0HmCyl-Brw",
+      "name": "Basilica of Saint Fara",
+      "name_en": "Basilica of Saint Fara",
+      "category": "Deneyim",
+      "tags": [
+        "bari",
+        "travel",
+        "explore"
+      ],
+      "lat": 41.1012046,
+      "lng": 16.8485224,
+      "rating": 4.6,
+      "reviewCount": 932,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bari/ChIJzTOpABzpRxMRV0HmCyl-Brw.jpg",
+      "description": "Bari.bak.20260418_133508 kentinin kentsel enerjisini ve kültürel kimliğini yansıtan Basilica of Saint Fara, kenti keşfeden gezginlerin kentsel keşif albümündeki en ikonik ve fotojenik kentsel duraklardan birisi haline gelmiştir.",
+      "description_en": "A prominent urban landmark in Bari.bak.20260418_133508 that defines the area's contemporary spirit and cultural identity, Basilica of Saint Fara serves as a prestigious and unique stop for every traveler.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJ0ZiAwWnoRxMRWav38xw11Pw",
+      "name": "Pinacoteca metropolitana di Bari",
+      "name_en": "Pinacoteca metropolitana di Bari",
+      "category": "Tarihi",
+      "tags": [
+        "bari",
+        "travel",
+        "explore"
+      ],
+      "lat": 41.1213295,
+      "lng": 16.8816613,
+      "rating": 4.4,
+      "reviewCount": 1034,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bari/ChIJ0ZiAwWnoRxMRWav38xw11Pw.jpg",
+      "description": "Antik dokularla Pinacoteca metropolitana di Bari ruhunu birleştiren bu tarihi nokta, Bari.bak.20260418_133508 kentinin kültürel kimliğini tanımlayan ve kenti keşfedenlere mistik bir atmosfer sunan kentsel bir prestij kalesidir.",
+      "description_en": "This historical gemstone in Bari.bak.20260418_133508 defines the local cultural identity, combining ancient textures with the timeless spirit of Pinacoteca metropolitana di Bari for every urban explorer.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJmWuTK1voRxMRR1HtuZzmElk",
+      "name": "Church of Saint Paschal Baylon",
+      "name_en": "Church of Saint Paschal Baylon",
+      "category": "Deneyim",
+      "tags": [
+        "bari",
+        "travel",
+        "explore"
+      ],
+      "lat": 41.1141051,
+      "lng": 16.8770117,
+      "rating": 4.5,
+      "reviewCount": 342,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bari/ChIJmWuTK1voRxMRR1HtuZzmElk.jpg",
+      "description": "Bari.bak.20260418_133508 kentinin kentsel enerjisini ve kültürel kimliğini yansıtan Church of Saint Paschal Baylon, kenti keşfeden gezginlerin kentsel keşif albümündeki en ikonik ve fotojenik kentsel duraklardan birisi haline gelmiştir.",
+      "description_en": "A prominent urban landmark in Bari.bak.20260418_133508 that defines the area's contemporary spirit and cultural identity, Church of Saint Paschal Baylon serves as a prestigious and unique stop for every traveler.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJgw2ySq_pRxMRqlRQ7KULXAk",
+      "name": "Murale \"Stella Maris\" artista Laura Grimaldi",
+      "name_en": "Murale \"Stella Maris\" artista Laura Grimaldi",
+      "category": "Deneyim",
+      "tags": [
+        "bari",
+        "travel",
+        "explore"
+      ],
+      "lat": 41.1174435,
+      "lng": 16.8734139,
+      "rating": 5,
+      "reviewCount": 1,
+      "price": "medium",
+      "imageUrl": "",
+      "description": "Bari.bak.20260418_133508 kentinin kentsel enerjisini ve kültürel kimliğini yansıtan Murale \"Stella Maris\" artista Laura Grimaldi, kenti keşfeden gezginlerin kentsel keşif albümündeki en ikonik ve fotojenik kentsel duraklardan birisi haline gelmiştir.",
+      "description_en": "A prominent urban landmark in Bari.bak.20260418_133508 that defines the area's contemporary spirit and cultural identity, Murale \"Stella Maris\" artista Laura Grimaldi serves as a prestigious and unique stop for every traveler.",
+      "source": "google"
+    },
+    {
+      "id": "ChIJAX_m9RfpRxMR2dLVfQ8ncTs",
+      "name": "Hotel Terranobile Metaresort",
+      "name_en": "Hotel Terranobile Metaresort",
+      "category": "Restoran",
+      "tags": [
+        "bari",
+        "travel",
+        "explore"
+      ],
+      "lat": 41.097328,
+      "lng": 16.841584,
+      "rating": 4.1,
+      "reviewCount": 447,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bari/ChIJAX_m9RfpRxMR2dLVfQ8ncTs.jpg",
+      "description": "Yerel malzemelere ve kentsel mutfak sanatına olan bağlılığıyla tanınan Hotel Terranobile Metaresort, Bari.bak.20260418_133508 kentinin kalbindeki en stil sahibi kentsel lezzet duraklarından biri olarak öne çıkan bir kentsel merkezdir.",
+      "description_en": "Renowned for its commitment to local ingredients and urban culinary art, Hotel Terranobile Metaresort stands as a flavor stronghold in the heart of Bari.bak.20260418_133508's vibrant dining scene.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJEc5xYYXCRxMRFMTh4TTnvZM",
+      "name": "Hotel Majesty Bari",
+      "name_en": "Hotel Majesty Bari",
+      "category": "Restoran",
+      "tags": [
+        "bari",
+        "travel",
+        "explore"
+      ],
+      "lat": 41.0973689,
+      "lng": 16.9366694,
+      "rating": 4.1,
+      "reviewCount": 1925,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bari/ChIJEc5xYYXCRxMRFMTh4TTnvZM.jpg",
+      "description": "Bari.bak.20260418_133508 kentinin gastronomi dünyasında otantik lezzetleri ve dinamik sosyal atmosferiyle tanınan Hotel Majesty Bari, yerel mutfak kültürünü en prestijli şekilde deneyimlemek isteyenlerin en samimi adresidir.",
+      "description_en": "A prestigious culinary destination in Bari.bak.20260418_133508 known for its authentic flavors and vibrant social atmosphere, Hotel Majesty Bari is the perfect spot for experiencing high-end local gastronomy.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJuZCNipTLRxMRrdLmxvmYeNY",
+      "name": "Nicolaus Hotel Bari",
+      "name_en": "Nicolaus Hotel Bari",
+      "category": "Restoran",
+      "tags": [
+        "bari",
+        "travel",
+        "explore"
+      ],
+      "lat": 41.0989812,
+      "lng": 16.854917,
+      "rating": 4.6,
+      "reviewCount": 5934,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bari/ChIJuZCNipTLRxMRrdLmxvmYeNY.jpg",
+      "description": "Yerel malzemelere ve kentsel mutfak sanatına olan bağlılığıyla tanınan Nicolaus Hotel Bari, Bari.bak.20260418_133508 kentinin kalbindeki en stil sahibi kentsel lezzet duraklarından biri olarak öne çıkan bir kentsel merkezdir.",
+      "description_en": "Renowned for its commitment to local ingredients and urban culinary art, Nicolaus Hotel Bari stands as a flavor stronghold in the heart of Bari.bak.20260418_133508's vibrant dining scene.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJp0qDjYroRxMRuJrIHl0-FqE",
+      "name": "Bari-Napoli",
+      "name_en": "Bari-Napoli",
+      "category": "Restoran",
+      "tags": [
+        "bari",
+        "travel",
+        "explore"
+      ],
+      "lat": 41.1251,
+      "lng": 16.8637,
+      "rating": 4.2,
+      "reviewCount": 3807,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bari/ChIJp0qDjYroRxMRuJrIHl0-FqE.jpg",
+      "description": "Geleneksel tarifleri modern bir kentsel dokunuşla harmanlayan Bari-Napoli, Bari.bak.20260418_133508 kentinde gurme lezzetler arayan sosyal gezginler için şık ve kentsel bir lezzet kaçış rotası vaat etmektedir.",
+      "description_en": "Merging traditional recipes with modern urban flair, this restaurant offers a sophisticated social escape for food lovers visiting Bari-Napoli in Bari.bak.20260418_133508.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJ9U_ERvXoRxMR--Y9wj0rpkk",
+      "name": "Ristorante Pizzeria Al Raffaello anche GlutenFree",
+      "name_en": "Ristorante Pizzeria Al Raffaello anche GlutenFree",
+      "category": "Restoran",
+      "tags": [
+        "bari",
+        "travel",
+        "explore"
+      ],
+      "lat": 41.12222,
+      "lng": 16.863847,
+      "rating": 4.5,
+      "reviewCount": 1691,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bari/ChIJ9U_ERvXoRxMR--Y9wj0rpkk.jpg",
+      "description": "Geleneksel tarifleri modern bir kentsel dokunuşla harmanlayan Ristorante Pizzeria Al Raffaello anche GlutenFree, Bari.bak.20260418_133508 kentinde gurme lezzetler arayan sosyal gezginler için şık ve kentsel bir lezzet kaçış rotası vaat etmektedir.",
+      "description_en": "Merging traditional recipes with modern urban flair, this restaurant offers a sophisticated social escape for food lovers visiting Ristorante Pizzeria Al Raffaello anche GlutenFree in Bari.bak.20260418_133508.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJ0cBG__XoRxMRmd8wE-Ohvgw",
+      "name": "AncheCinema",
+      "name_en": "AncheCinema",
+      "category": "Restoran",
+      "tags": [
+        "bari",
+        "travel",
+        "explore"
+      ],
+      "lat": 41.1177286,
+      "lng": 16.8642943,
+      "rating": 4.3,
+      "reviewCount": 1243,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bari/ChIJ0cBG__XoRxMRmd8wE-Ohvgw.jpg",
+      "description": "Geleneksel tarifleri modern bir kentsel dokunuşla harmanlayan AncheCinema, Bari.bak.20260418_133508 kentinde gurme lezzetler arayan sosyal gezginler için şık ve kentsel bir lezzet kaçış rotası vaat etmektedir.",
+      "description_en": "Merging traditional recipes with modern urban flair, this restaurant offers a sophisticated social escape for food lovers visiting AncheCinema in Bari.bak.20260418_133508.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJx48mkwTpRxMRaYmsDNa8OWY",
+      "name": "L'Osteria dei Quattro Gatti",
+      "name_en": "L'Osteria dei Quattro Gatti",
+      "category": "Restoran",
+      "tags": [
+        "bari",
+        "travel",
+        "explore"
+      ],
+      "lat": 41.09897240000001,
+      "lng": 16.855262,
+      "rating": 4.2,
+      "reviewCount": 1848,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bari/ChIJx48mkwTpRxMRaYmsDNa8OWY.jpg",
+      "description": "Yerel malzemelere ve kentsel mutfak sanatına olan bağlılığıyla tanınan L'Osteria dei Quattro Gatti, Bari.bak.20260418_133508 kentinin kalbindeki en stil sahibi kentsel lezzet duraklarından biri olarak öne çıkan bir kentsel merkezdir.",
+      "description_en": "Renowned for its commitment to local ingredients and urban culinary art, L'Osteria dei Quattro Gatti stands as a flavor stronghold in the heart of Bari.bak.20260418_133508's vibrant dining scene.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJhXcaOmfoRxMRS8WNy_ejDso",
+      "name": "Ai 2 Ghiottoni",
+      "name_en": "Ai 2 Ghiottoni",
+      "category": "Restoran",
+      "tags": [
+        "bari",
+        "travel",
+        "explore"
+      ],
+      "lat": 41.1236099,
+      "lng": 16.8717452,
+      "rating": 4.3,
+      "reviewCount": 2160,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bari/ChIJhXcaOmfoRxMRS8WNy_ejDso.jpg",
+      "description": "Geleneksel tarifleri modern bir kentsel dokunuşla harmanlayan Ai 2 Ghiottoni, Bari.bak.20260418_133508 kentinde gurme lezzetler arayan sosyal gezginler için şık ve kentsel bir lezzet kaçış rotası vaat etmektedir.",
+      "description_en": "Merging traditional recipes with modern urban flair, this restaurant offers a sophisticated social escape for food lovers visiting Ai 2 Ghiottoni in Bari.bak.20260418_133508.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJ4d51DmToRxMRgDtMXKR_5js",
+      "name": "La Locanda di Federico – Ristorante tipico pugliese Bari Vecchia",
+      "name_en": "La Locanda di Federico – Ristorante tipico pugliese Bari Vecchia",
+      "category": "Restoran",
+      "tags": [
+        "bari",
+        "travel",
+        "explore"
+      ],
+      "lat": 41.1283781,
+      "lng": 16.8723126,
+      "rating": 4.1,
+      "reviewCount": 1377,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bari/ChIJ4d51DmToRxMRgDtMXKR_5js.jpg",
+      "description": "Yerel malzemelere ve kentsel mutfak sanatına olan bağlılığıyla tanınan La Locanda di Federico – Ristorante tipico pugliese Bari Vecchia, Bari.bak.20260418_133508 kentinin kalbindeki en stil sahibi kentsel lezzet duraklarından biri olarak öne çıkan bir kentsel merkezdir.",
+      "description_en": "Renowned for its commitment to local ingredients and urban culinary art, La Locanda di Federico – Ristorante tipico pugliese Bari Vecchia stands as a flavor stronghold in the heart of Bari.bak.20260418_133508's vibrant dining scene.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJmY_ps2foRxMR-bS7gHm9uqo",
+      "name": "Al Sorso Preferito",
+      "name_en": "Al Sorso Preferito",
+      "category": "Restoran",
+      "tags": [
+        "bari",
+        "travel",
+        "explore"
+      ],
+      "lat": 41.123589,
+      "lng": 16.8748966,
+      "rating": 4.3,
+      "reviewCount": 1521,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bari/ChIJmY_ps2foRxMR-bS7gHm9uqo.jpg",
+      "description": "Yerel malzemelere ve kentsel mutfak sanatına olan bağlılığıyla tanınan Al Sorso Preferito, Bari.bak.20260418_133508 kentinin kalbindeki en stil sahibi kentsel lezzet duraklarından biri olarak öne çıkan bir kentsel merkezdir.",
+      "description_en": "Renowned for its commitment to local ingredients and urban culinary art, Al Sorso Preferito stands as a flavor stronghold in the heart of Bari.bak.20260418_133508's vibrant dining scene.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJU0upGrXpRxMRVmEATwbSTKQ",
+      "name": "Le Véronique Hahnemann",
+      "name_en": "Le Véronique Hahnemann",
+      "category": "Restoran",
+      "tags": [
+        "bari",
+        "travel",
+        "explore"
+      ],
+      "lat": 41.0974548,
+      "lng": 16.8881948,
+      "rating": 4.3,
+      "reviewCount": 3335,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bari/ChIJU0upGrXpRxMRVmEATwbSTKQ.jpg",
+      "description": "Geleneksel tarifleri modern bir kentsel dokunuşla harmanlayan Le Véronique Hahnemann, Bari.bak.20260418_133508 kentinde gurme lezzetler arayan sosyal gezginler için şık ve kentsel bir lezzet kaçış rotası vaat etmektedir.",
+      "description_en": "Merging traditional recipes with modern urban flair, this restaurant offers a sophisticated social escape for food lovers visiting Le Véronique Hahnemann in Bari.bak.20260418_133508.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJ760REzzqRxMR6wvMgGkNRgg",
+      "name": "Torre Balzano",
+      "name_en": "Torre Balzano",
+      "category": "Restoran",
+      "tags": [
+        "bari",
+        "travel",
+        "explore"
+      ],
+      "lat": 41.0494058,
+      "lng": 16.8828207,
+      "rating": 4.1,
+      "reviewCount": 58,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bari/ChIJ760REzzqRxMR6wvMgGkNRgg.jpg",
+      "description": "Bari.bak.20260418_133508 kentinin gastronomi dünyasında otantik lezzetleri ve dinamik sosyal atmosferiyle tanınan Torre Balzano, yerel mutfak kültürünü en prestijli şekilde deneyimlemek isteyenlerin en samimi adresidir.",
+      "description_en": "A prestigious culinary destination in Bari.bak.20260418_133508 known for its authentic flavors and vibrant social atmosphere, Torre Balzano is the perfect spot for experiencing high-end local gastronomy.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJq0noHkLoRxMRkIrC6UbIzIM",
+      "name": "Joy's Pub",
+      "name_en": "Joy's Pub",
+      "category": "Restoran",
+      "tags": [
+        "bari",
+        "travel",
+        "explore"
+      ],
+      "lat": 41.1191667,
+      "lng": 16.8830556,
+      "rating": 4.1,
+      "reviewCount": 891,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bari/ChIJq0noHkLoRxMRkIrC6UbIzIM.jpg",
+      "description": "Bari.bak.20260418_133508 kentinin gastronomi dünyasında otantik lezzetleri ve dinamik sosyal atmosferiyle tanınan Joy's Pub, yerel mutfak kültürünü en prestijli şekilde deneyimlemek isteyenlerin en samimi adresidir.",
+      "description_en": "A prestigious culinary destination in Bari.bak.20260418_133508 known for its authentic flavors and vibrant social atmosphere, Joy's Pub is the perfect spot for experiencing high-end local gastronomy.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJCapev_foRxMRuaCW6djlRw0",
+      "name": "Terra di Mezzo | Beer Food & Fun",
+      "name_en": "Terra di Mezzo | Beer Food & Fun",
+      "category": "Restoran",
+      "tags": [
+        "bari",
+        "travel",
+        "explore"
+      ],
+      "lat": 41.114334,
+      "lng": 16.8800651,
+      "rating": 4.1,
+      "reviewCount": 2170,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bari/ChIJCapev_foRxMRuaCW6djlRw0.jpg",
+      "description": "Yerel malzemelere ve kentsel mutfak sanatına olan bağlılığıyla tanınan Terra di Mezzo | Beer Food & Fun, Bari.bak.20260418_133508 kentinin kalbindeki en stil sahibi kentsel lezzet duraklarından biri olarak öne çıkan bir kentsel merkezdir.",
+      "description_en": "Renowned for its commitment to local ingredients and urban culinary art, Terra di Mezzo | Beer Food & Fun stands as a flavor stronghold in the heart of Bari.bak.20260418_133508's vibrant dining scene.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJ2VsbtYTCRxMRlstWBItXio8",
+      "name": "Morisco Eventi",
+      "name_en": "Morisco Eventi",
+      "category": "Restoran",
+      "tags": [
+        "bari",
+        "travel",
+        "explore"
+      ],
+      "lat": 41.1034036,
+      "lng": 16.9205354,
+      "rating": 4.4,
+      "reviewCount": 348,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bari/ChIJ2VsbtYTCRxMRlstWBItXio8.jpg",
+      "description": "Geleneksel tarifleri modern bir kentsel dokunuşla harmanlayan Morisco Eventi, Bari.bak.20260418_133508 kentinde gurme lezzetler arayan sosyal gezginler için şık ve kentsel bir lezzet kaçış rotası vaat etmektedir.",
+      "description_en": "Merging traditional recipes with modern urban flair, this restaurant offers a sophisticated social escape for food lovers visiting Morisco Eventi in Bari.bak.20260418_133508.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJaZw5smboRxMR8OJxYTcCaDk",
+      "name": "Ristorante Biancofiore",
+      "name_en": "Ristorante Biancofiore",
+      "category": "Restoran",
+      "tags": [
+        "bari",
+        "travel",
+        "explore"
+      ],
+      "lat": 41.1262693,
+      "lng": 16.8712921,
+      "rating": 4.4,
+      "reviewCount": 1509,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bari/ChIJaZw5smboRxMR8OJxYTcCaDk.jpg",
+      "description": "Geleneksel tarifleri modern bir kentsel dokunuşla harmanlayan Ristorante Biancofiore, Bari.bak.20260418_133508 kentinde gurme lezzetler arayan sosyal gezginler için şık ve kentsel bir lezzet kaçış rotası vaat etmektedir.",
+      "description_en": "Merging traditional recipes with modern urban flair, this restaurant offers a sophisticated social escape for food lovers visiting Ristorante Biancofiore in Bari.bak.20260418_133508.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJm3MDS_XoRxMRtF0HqCfszKA",
+      "name": "Terranima - Ristorante di cucina tipica pugliese",
+      "name_en": "Terranima - Ristorante di cucina tipica pugliese",
+      "category": "Restoran",
+      "tags": [
+        "bari",
+        "travel",
+        "explore"
+      ],
+      "lat": 41.1230845,
+      "lng": 16.8637671,
+      "rating": 4.2,
+      "reviewCount": 1218,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bari/ChIJm3MDS_XoRxMRtF0HqCfszKA.jpg",
+      "description": "Geleneksel tarifleri modern bir kentsel dokunuşla harmanlayan Terranima - Ristorante di cucina tipica pugliese, Bari.bak.20260418_133508 kentinde gurme lezzetler arayan sosyal gezginler için şık ve kentsel bir lezzet kaçış rotası vaat etmektedir.",
+      "description_en": "Merging traditional recipes with modern urban flair, this restaurant offers a sophisticated social escape for food lovers visiting Terranima - Ristorante di cucina tipica pugliese in Bari.bak.20260418_133508.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJNbKNWYPpRxMRZ6if36i0CwI",
+      "name": "L'Angolo della Pizza",
+      "name_en": "L'Angolo della Pizza",
+      "category": "Restoran",
+      "tags": [
+        "bari",
+        "travel",
+        "explore"
+      ],
+      "lat": 41.0730636,
+      "lng": 16.8706441,
+      "rating": 4.2,
+      "reviewCount": 536,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bari/ChIJNbKNWYPpRxMRZ6if36i0CwI.jpg",
+      "description": "Geleneksel tarifleri modern bir kentsel dokunuşla harmanlayan L'Angolo della Pizza, Bari.bak.20260418_133508 kentinde gurme lezzetler arayan sosyal gezginler için şık ve kentsel bir lezzet kaçış rotası vaat etmektedir.",
+      "description_en": "Merging traditional recipes with modern urban flair, this restaurant offers a sophisticated social escape for food lovers visiting L'Angolo della Pizza in Bari.bak.20260418_133508.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJ3YHcl1joRxMRWQMlRXNTm2M",
+      "name": "La Svolta Ristopizza",
+      "name_en": "La Svolta Ristopizza",
+      "category": "Restoran",
+      "tags": [
+        "bari",
+        "travel",
+        "explore"
+      ],
+      "lat": 41.1166705,
+      "lng": 16.8658982,
+      "rating": 4.1,
+      "reviewCount": 612,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bari/ChIJ3YHcl1joRxMRWQMlRXNTm2M.jpg",
+      "description": "Bari.bak.20260418_133508 kentinin gastronomi dünyasında otantik lezzetleri ve dinamik sosyal atmosferiyle tanınan La Svolta Ristopizza, yerel mutfak kültürünü en prestijli şekilde deneyimlemek isteyenlerin en samimi adresidir.",
+      "description_en": "A prestigious culinary destination in Bari.bak.20260418_133508 known for its authentic flavors and vibrant social atmosphere, La Svolta Ristopizza is the perfect spot for experiencing high-end local gastronomy.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJHwJEtmDoRxMRXWOAm7uUkd8",
+      "name": "Café Murat",
+      "name_en": "Café Murat",
+      "category": "Restoran",
+      "tags": [
+        "bari",
+        "travel",
+        "explore"
+      ],
+      "lat": 41.1232155,
+      "lng": 16.8706308,
+      "rating": 4,
+      "reviewCount": 1360,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bari/ChIJHwJEtmDoRxMRXWOAm7uUkd8.jpg",
+      "description": "Yerel malzemelere ve kentsel mutfak sanatına olan bağlılığıyla tanınan Café Murat, Bari.bak.20260418_133508 kentinin kalbindeki en stil sahibi kentsel lezzet duraklarından biri olarak öne çıkan bir kentsel merkezdir.",
+      "description_en": "Renowned for its commitment to local ingredients and urban culinary art, Café Murat stands as a flavor stronghold in the heart of Bari.bak.20260418_133508's vibrant dining scene.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJcYSKTlnoRxMRRG1ildPKlQE",
+      "name": "Dea Cafè",
+      "name_en": "Dea Cafè",
+      "category": "Restoran",
+      "tags": [
+        "bari",
+        "travel",
+        "explore"
+      ],
+      "lat": 41.1169347,
+      "lng": 16.8716107,
+      "rating": 3.8,
+      "reviewCount": 529,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bari/ChIJcYSKTlnoRxMRRG1ildPKlQE.jpg",
+      "description": "Bari.bak.20260418_133508 kentinin gastronomi dünyasında otantik lezzetleri ve dinamik sosyal atmosferiyle tanınan Dea Cafè, yerel mutfak kültürünü en prestijli şekilde deneyimlemek isteyenlerin en samimi adresidir.",
+      "description_en": "A prestigious culinary destination in Bari.bak.20260418_133508 known for its authentic flavors and vibrant social atmosphere, Dea Cafè is the perfect spot for experiencing high-end local gastronomy.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJKwTQL13oRxMRpF_BZ8o3ieg",
+      "name": "GALÌA Wines, Appetizers & Culture",
+      "name_en": "GALÌA Wines, Appetizers & Culture",
+      "category": "Restoran",
+      "tags": [
+        "bari",
+        "travel",
+        "explore"
+      ],
+      "lat": 41.1194663,
+      "lng": 16.8762992,
+      "rating": 4.5,
+      "reviewCount": 108,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bari/ChIJKwTQL13oRxMRpF_BZ8o3ieg.jpg",
+      "description": "Geleneksel tarifleri modern bir kentsel dokunuşla harmanlayan GALÌA Wines, Appetizers & Culture, Bari.bak.20260418_133508 kentinde gurme lezzetler arayan sosyal gezginler için şık ve kentsel bir lezzet kaçış rotası vaat etmektedir.",
+      "description_en": "Merging traditional recipes with modern urban flair, this restaurant offers a sophisticated social escape for food lovers visiting GALÌA Wines, Appetizers & Culture in Bari.bak.20260418_133508.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJA2sQgR7vRxMRkHQUKOlI9wI",
+      "name": "Bar Orfeo Pasticceria",
+      "name_en": "Bar Orfeo Pasticceria",
+      "category": "Restoran",
+      "tags": [
+        "bari",
+        "travel",
+        "explore"
+      ],
+      "lat": 41.1174806,
+      "lng": 16.7885784,
+      "rating": 4.5,
+      "reviewCount": 454,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bari/ChIJA2sQgR7vRxMRkHQUKOlI9wI.jpg",
+      "description": "Yerel malzemelere ve kentsel mutfak sanatına olan bağlılığıyla tanınan Bar Orfeo Pasticceria, Bari.bak.20260418_133508 kentinin kalbindeki en stil sahibi kentsel lezzet duraklarından biri olarak öne çıkan bir kentsel merkezdir.",
+      "description_en": "Renowned for its commitment to local ingredients and urban culinary art, Bar Orfeo Pasticceria stands as a flavor stronghold in the heart of Bari.bak.20260418_133508's vibrant dining scene.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJtyZJFwXpRxMR_FT_HbPNDxg",
+      "name": "Rosalba cafè",
+      "name_en": "Rosalba cafè",
+      "category": "Restoran",
+      "tags": [
+        "bari",
+        "travel",
+        "explore"
+      ],
+      "lat": 41.096936,
+      "lng": 16.8550549,
+      "rating": 4.1,
+      "reviewCount": 620,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bari/ChIJtyZJFwXpRxMR_FT_HbPNDxg.jpg",
+      "description": "Bari.bak.20260418_133508 kentinin gastronomi dünyasında otantik lezzetleri ve dinamik sosyal atmosferiyle tanınan Rosalba cafè, yerel mutfak kültürünü en prestijli şekilde deneyimlemek isteyenlerin en samimi adresidir.",
+      "description_en": "A prestigious culinary destination in Bari.bak.20260418_133508 known for its authentic flavors and vibrant social atmosphere, Rosalba cafè is the perfect spot for experiencing high-end local gastronomy.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJ01RligjpRxMRuVodv659sk8",
+      "name": "Le Jardin Cafè",
+      "name_en": "Le Jardin Cafè",
+      "category": "Restoran",
+      "tags": [
+        "bari",
+        "travel",
+        "explore"
+      ],
+      "lat": 41.0942726,
+      "lng": 16.8622439,
+      "rating": 4.5,
+      "reviewCount": 407,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bari/ChIJ01RligjpRxMRuVodv659sk8.jpg",
+      "description": "Bari.bak.20260418_133508 kentinin gastronomi dünyasında otantik lezzetleri ve dinamik sosyal atmosferiyle tanınan Le Jardin Cafè, yerel mutfak kültürünü en prestijli şekilde deneyimlemek isteyenlerin en samimi adresidir.",
+      "description_en": "A prestigious culinary destination in Bari.bak.20260418_133508 known for its authentic flavors and vibrant social atmosphere, Le Jardin Cafè is the perfect spot for experiencing high-end local gastronomy.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJwdK2vl3oRxMRXEf_tS0cTtI",
+      "name": "Caffè Italiano",
+      "name_en": "Caffè Italiano",
+      "category": "Restoran",
+      "tags": [
+        "bari",
+        "travel",
+        "explore"
+      ],
+      "lat": 41.1203448,
+      "lng": 16.872748,
+      "rating": 4.3,
+      "reviewCount": 354,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bari/ChIJwdK2vl3oRxMRXEf_tS0cTtI.jpg",
+      "description": "Geleneksel tarifleri modern bir kentsel dokunuşla harmanlayan Caffè Italiano, Bari.bak.20260418_133508 kentinde gurme lezzetler arayan sosyal gezginler için şık ve kentsel bir lezzet kaçış rotası vaat etmektedir.",
+      "description_en": "Merging traditional recipes with modern urban flair, this restaurant offers a sophisticated social escape for food lovers visiting Caffè Italiano in Bari.bak.20260418_133508.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJz3KqoFDoRxMR1ucZ-q_JJno",
+      "name": "Dabri | caffè, capsule, infusi, cacao | Rivenditore Borbone, Illy, Venchi, Maglio",
+      "name_en": "Dabri | caffè, capsule, infusi, cacao | Rivenditore Borbone, Illy, Venchi, Maglio",
+      "category": "Restoran",
+      "tags": [
+        "bari",
+        "travel",
+        "explore"
+      ],
+      "lat": 41.1120618,
+      "lng": 16.8720236,
+      "rating": 5,
+      "reviewCount": 48,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bari/ChIJz3KqoFDoRxMR1ucZ-q_JJno.jpg",
+      "description": "Geleneksel tarifleri modern bir kentsel dokunuşla harmanlayan Dabri | caffè, capsule, infusi, cacao | Rivenditore Borbone, Illy, Venchi, Maglio, Bari.bak.20260418_133508 kentinde gurme lezzetler arayan sosyal gezginler için şık ve kentsel bir lezzet kaçış rotası vaat etmektedir.",
+      "description_en": "Merging traditional recipes with modern urban flair, this restaurant offers a sophisticated social escape for food lovers visiting Dabri | caffè, capsule, infusi, cacao | Rivenditore Borbone, Illy, Venchi, Maglio in Bari.bak.20260418_133508.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJDdcIXWfoRxMRCqKpmwdl3kU",
+      "name": "Gran Caffè SAICAF",
+      "name_en": "Gran Caffè SAICAF",
+      "category": "Restoran",
+      "tags": [
+        "bari",
+        "travel",
+        "explore"
+      ],
+      "lat": 41.1222933,
+      "lng": 16.8722345,
+      "rating": 3.9,
+      "reviewCount": 662,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bari/ChIJDdcIXWfoRxMRCqKpmwdl3kU.jpg",
+      "description": "Geleneksel tarifleri modern bir kentsel dokunuşla harmanlayan Gran Caffè SAICAF, Bari.bak.20260418_133508 kentinde gurme lezzetler arayan sosyal gezginler için şık ve kentsel bir lezzet kaçış rotası vaat etmektedir.",
+      "description_en": "Merging traditional recipes with modern urban flair, this restaurant offers a sophisticated social escape for food lovers visiting Gran Caffè SAICAF in Bari.bak.20260418_133508.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJDVYkLfboRxMRjl_65pvYihA",
+      "name": "Noise",
+      "name_en": "Noise",
+      "category": "Restoran",
+      "tags": [
+        "bari",
+        "travel",
+        "explore"
+      ],
+      "lat": 41.1159532,
+      "lng": 16.8644311,
+      "rating": 4.7,
+      "reviewCount": 146,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bari/ChIJDVYkLfboRxMRjl_65pvYihA.jpg",
+      "description": "Geleneksel tarifleri modern bir kentsel dokunuşla harmanlayan Noise, Bari.bak.20260418_133508 kentinde gurme lezzetler arayan sosyal gezginler için şık ve kentsel bir lezzet kaçış rotası vaat etmektedir.",
+      "description_en": "Merging traditional recipes with modern urban flair, this restaurant offers a sophisticated social escape for food lovers visiting Noise in Bari.bak.20260418_133508.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJ3YxbDmfoRxMRNnbHTtGnCRQ",
+      "name": "Petriella al Teatro",
+      "name_en": "Petriella al Teatro",
+      "category": "Restoran",
+      "tags": [
+        "bari",
+        "travel",
+        "explore"
+      ],
+      "lat": 41.1233639,
+      "lng": 16.8731447,
+      "rating": 4.3,
+      "reviewCount": 1818,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bari/ChIJ3YxbDmfoRxMRNnbHTtGnCRQ.jpg",
+      "description": "Bari.bak.20260418_133508 kentinin gastronomi dünyasında otantik lezzetleri ve dinamik sosyal atmosferiyle tanınan Petriella al Teatro, yerel mutfak kültürünü en prestijli şekilde deneyimlemek isteyenlerin en samimi adresidir.",
+      "description_en": "A prestigious culinary destination in Bari.bak.20260418_133508 known for its authentic flavors and vibrant social atmosphere, Petriella al Teatro is the perfect spot for experiencing high-end local gastronomy.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJbfO1ClfoRxMR3vUlmLPOmcM",
+      "name": "La Bottega delle Cialde",
+      "name_en": "La Bottega delle Cialde",
+      "category": "Restoran",
+      "tags": [
+        "bari",
+        "travel",
+        "explore"
+      ],
+      "lat": 41.111274,
+      "lng": 16.8680218,
+      "rating": 4.6,
+      "reviewCount": 116,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bari/ChIJbfO1ClfoRxMR3vUlmLPOmcM.jpg",
+      "description": "Yerel malzemelere ve kentsel mutfak sanatına olan bağlılığıyla tanınan La Bottega delle Cialde, Bari.bak.20260418_133508 kentinin kalbindeki en stil sahibi kentsel lezzet duraklarından biri olarak öne çıkan bir kentsel merkezdir.",
+      "description_en": "Renowned for its commitment to local ingredients and urban culinary art, La Bottega delle Cialde stands as a flavor stronghold in the heart of Bari.bak.20260418_133508's vibrant dining scene.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJxxWK6GDoRxMRITvMMuaz1fM",
+      "name": "Jérôme Cafè",
+      "name_en": "Jérôme Cafè",
+      "category": "Restoran",
+      "tags": [
+        "bari",
+        "travel",
+        "explore"
+      ],
+      "lat": 41.1241006,
+      "lng": 16.8690579,
+      "rating": 4.1,
+      "reviewCount": 1644,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bari/ChIJxxWK6GDoRxMRITvMMuaz1fM.jpg",
+      "description": "Bari.bak.20260418_133508 kentinin gastronomi dünyasında otantik lezzetleri ve dinamik sosyal atmosferiyle tanınan Jérôme Cafè, yerel mutfak kültürünü en prestijli şekilde deneyimlemek isteyenlerin en samimi adresidir.",
+      "description_en": "A prestigious culinary destination in Bari.bak.20260418_133508 known for its authentic flavors and vibrant social atmosphere, Jérôme Cafè is the perfect spot for experiencing high-end local gastronomy.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJGzsZFWDoRxMRhnvacEePMoY",
+      "name": "Caffetteria Del Marchese",
+      "name_en": "Caffetteria Del Marchese",
+      "category": "Restoran",
+      "tags": [
+        "bari",
+        "travel",
+        "explore"
+      ],
+      "lat": 41.1237585,
+      "lng": 16.8664262,
+      "rating": 4.4,
+      "reviewCount": 93,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bari/ChIJGzsZFWDoRxMRhnvacEePMoY.jpg",
+      "description": "Yerel malzemelere ve kentsel mutfak sanatına olan bağlılığıyla tanınan Caffetteria Del Marchese, Bari.bak.20260418_133508 kentinin kalbindeki en stil sahibi kentsel lezzet duraklarından biri olarak öne çıkan bir kentsel merkezdir.",
+      "description_en": "Renowned for its commitment to local ingredients and urban culinary art, Caffetteria Del Marchese stands as a flavor stronghold in the heart of Bari.bak.20260418_133508's vibrant dining scene.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJYaT0GmHoRxMRtyPa3D0J9Js",
+      "name": "Veronero Artisan Coffee & Bakery - Bari",
+      "name_en": "Veronero Artisan Coffee & Bakery - Bari",
+      "category": "Restoran",
+      "tags": [
+        "bari",
+        "travel",
+        "explore"
+      ],
+      "lat": 41.1253986,
+      "lng": 16.8688274,
+      "rating": 4.6,
+      "reviewCount": 729,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bari/ChIJYaT0GmHoRxMRtyPa3D0J9Js.jpg",
+      "description": "Geleneksel tarifleri modern bir kentsel dokunuşla harmanlayan Veronero Artisan Coffee & Bakery - Bari, Bari.bak.20260418_133508 kentinde gurme lezzetler arayan sosyal gezginler için şık ve kentsel bir lezzet kaçış rotası vaat etmektedir.",
+      "description_en": "Merging traditional recipes with modern urban flair, this restaurant offers a sophisticated social escape for food lovers visiting Veronero Artisan Coffee & Bakery - Bari in Bari.bak.20260418_133508.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJpycg8kHoRxMRTVofwIVKZSI",
+      "name": "Al Cantuccio 2",
+      "name_en": "Al Cantuccio 2",
+      "category": "Restoran",
+      "tags": [
+        "bari",
+        "travel",
+        "explore"
+      ],
+      "lat": 41.1192054,
+      "lng": 16.8834678,
+      "rating": 4,
+      "reviewCount": 758,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bari/ChIJpycg8kHoRxMRTVofwIVKZSI.jpg",
+      "description": "Yerel malzemelere ve kentsel mutfak sanatına olan bağlılığıyla tanınan Al Cantuccio 2, Bari.bak.20260418_133508 kentinin kalbindeki en stil sahibi kentsel lezzet duraklarından biri olarak öne çıkan bir kentsel merkezdir.",
+      "description_en": "Renowned for its commitment to local ingredients and urban culinary art, Al Cantuccio 2 stands as a flavor stronghold in the heart of Bari.bak.20260418_133508's vibrant dining scene.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJiebkHWHoRxMRqsX7txVAA10",
+      "name": "Bialetti",
+      "name_en": "Bialetti",
+      "category": "Restoran",
+      "tags": [
+        "bari",
+        "travel",
+        "explore"
+      ],
+      "lat": 41.1258931,
+      "lng": 16.8694314,
+      "rating": 4.2,
+      "reviewCount": 406,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bari/ChIJiebkHWHoRxMRqsX7txVAA10.jpg",
+      "description": "Bari.bak.20260418_133508 kentinin gastronomi dünyasında otantik lezzetleri ve dinamik sosyal atmosferiyle tanınan Bialetti, yerel mutfak kültürünü en prestijli şekilde deneyimlemek isteyenlerin en samimi adresidir.",
+      "description_en": "A prestigious culinary destination in Bari.bak.20260418_133508 known for its authentic flavors and vibrant social atmosphere, Bialetti is the perfect spot for experiencing high-end local gastronomy.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJD7ZY41PoRxMRqPg6oStheN4",
+      "name": "Greco Coffee & Food",
+      "name_en": "Greco Coffee & Food",
+      "category": "Restoran",
+      "tags": [
+        "bari",
+        "travel",
+        "explore"
+      ],
+      "lat": 41.1067459,
+      "lng": 16.8719094,
+      "rating": 4.1,
+      "reviewCount": 473,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bari/ChIJD7ZY41PoRxMRqPg6oStheN4.jpg",
+      "description": "Bari.bak.20260418_133508 kentinin gastronomi dünyasında otantik lezzetleri ve dinamik sosyal atmosferiyle tanınan Greco Coffee & Food, yerel mutfak kültürünü en prestijli şekilde deneyimlemek isteyenlerin en samimi adresidir.",
+      "description_en": "A prestigious culinary destination in Bari.bak.20260418_133508 known for its authentic flavors and vibrant social atmosphere, Greco Coffee & Food is the perfect spot for experiencing high-end local gastronomy.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJG7AUQVLoRxMRl5i3SN8XhQE",
+      "name": "Famila",
+      "name_en": "Famila",
+      "category": "Restoran",
+      "tags": [
+        "bari",
+        "travel",
+        "explore"
+      ],
+      "lat": 41.1063543,
+      "lng": 16.8755002,
+      "rating": 4.4,
+      "reviewCount": 3104,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bari/ChIJG7AUQVLoRxMRl5i3SN8XhQE.jpg",
+      "description": "Bari.bak.20260418_133508 kentinin gastronomi dünyasında otantik lezzetleri ve dinamik sosyal atmosferiyle tanınan Famila, yerel mutfak kültürünü en prestijli şekilde deneyimlemek isteyenlerin en samimi adresidir.",
+      "description_en": "A prestigious culinary destination in Bari.bak.20260418_133508 known for its authentic flavors and vibrant social atmosphere, Famila is the perfect spot for experiencing high-end local gastronomy.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJe1OeCUboRxMRLzZPsLHvCF8",
+      "name": "Caffè Vergnano 1882",
+      "name_en": "Caffè Vergnano 1882",
+      "category": "Restoran",
+      "tags": [
+        "bari",
+        "travel",
+        "explore"
+      ],
+      "lat": 41.1103453,
+      "lng": 16.8837792,
+      "rating": 4.4,
+      "reviewCount": 1174,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bari/ChIJe1OeCUboRxMRLzZPsLHvCF8.jpg",
+      "description": "Geleneksel tarifleri modern bir kentsel dokunuşla harmanlayan Caffè Vergnano 1882, Bari.bak.20260418_133508 kentinde gurme lezzetler arayan sosyal gezginler için şık ve kentsel bir lezzet kaçış rotası vaat etmektedir.",
+      "description_en": "Merging traditional recipes with modern urban flair, this restaurant offers a sophisticated social escape for food lovers visiting Caffè Vergnano 1882 in Bari.bak.20260418_133508.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJwULhtT7oRxMRAja-2HaUEME",
+      "name": "Fashion Cafè In",
+      "name_en": "Fashion Cafè In",
+      "category": "Restoran",
+      "tags": [
+        "bari",
+        "travel",
+        "explore"
+      ],
+      "lat": 41.1138995,
+      "lng": 16.8928762,
+      "rating": 4.2,
+      "reviewCount": 199,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bari/ChIJwULhtT7oRxMRAja-2HaUEME.jpg",
+      "description": "Yerel malzemelere ve kentsel mutfak sanatına olan bağlılığıyla tanınan Fashion Cafè In, Bari.bak.20260418_133508 kentinin kalbindeki en stil sahibi kentsel lezzet duraklarından biri olarak öne çıkan bir kentsel merkezdir.",
+      "description_en": "Renowned for its commitment to local ingredients and urban culinary art, Fashion Cafè In stands as a flavor stronghold in the heart of Bari.bak.20260418_133508's vibrant dining scene.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJe2MMt2foRxMR895LGKO2ROM",
+      "name": "KGB - Katzuti Garage Bari",
+      "name_en": "KGB - Katzuti Garage Bari",
+      "category": "Restoran",
+      "tags": [
+        "bari",
+        "travel",
+        "explore"
+      ],
+      "lat": 41.1234098,
+      "lng": 16.8751517,
+      "rating": 4.3,
+      "reviewCount": 554,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bari/ChIJe2MMt2foRxMR895LGKO2ROM.jpg",
+      "description": "Bari.bak.20260418_133508 kentinin gastronomi dünyasında otantik lezzetleri ve dinamik sosyal atmosferiyle tanınan KGB - Katzuti Garage Bari, yerel mutfak kültürünü en prestijli şekilde deneyimlemek isteyenlerin en samimi adresidir.",
+      "description_en": "A prestigious culinary destination in Bari.bak.20260418_133508 known for its authentic flavors and vibrant social atmosphere, KGB - Katzuti Garage Bari is the perfect spot for experiencing high-end local gastronomy.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJf0FisoTuRxMRT9W87RoC7B4",
+      "name": "Panacea Ristorante",
+      "name_en": "Panacea Ristorante",
+      "category": "Restoran",
+      "tags": [
+        "bari",
+        "travel",
+        "explore"
+      ],
+      "lat": 41.0822448,
+      "lng": 16.782793,
+      "rating": 4.7,
+      "reviewCount": 948,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bari/ChIJf0FisoTuRxMRT9W87RoC7B4.jpg",
+      "description": "Bari.bak.20260418_133508 kentinin gastronomi dünyasında otantik lezzetleri ve dinamik sosyal atmosferiyle tanınan Panacea Ristorante, yerel mutfak kültürünü en prestijli şekilde deneyimlemek isteyenlerin en samimi adresidir.",
+      "description_en": "A prestigious culinary destination in Bari.bak.20260418_133508 known for its authentic flavors and vibrant social atmosphere, Panacea Ristorante is the perfect spot for experiencing high-end local gastronomy.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJgaXY-xXqRxMRinf6zm5oHhc",
+      "name": "Pasticceria Ladisa Dolci e Cioccolato",
+      "name_en": "Pasticceria Ladisa Dolci e Cioccolato",
+      "category": "Restoran",
+      "tags": [
+        "bari",
+        "travel",
+        "explore"
+      ],
+      "lat": 41.0451897,
+      "lng": 16.8889406,
+      "rating": 4.3,
+      "reviewCount": 2137,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bari/ChIJgaXY-xXqRxMRinf6zm5oHhc.jpg",
+      "description": "Geleneksel tarifleri modern bir kentsel dokunuşla harmanlayan Pasticceria Ladisa Dolci e Cioccolato, Bari.bak.20260418_133508 kentinde gurme lezzetler arayan sosyal gezginler için şık ve kentsel bir lezzet kaçış rotası vaat etmektedir.",
+      "description_en": "Merging traditional recipes with modern urban flair, this restaurant offers a sophisticated social escape for food lovers visiting Pasticceria Ladisa Dolci e Cioccolato in Bari.bak.20260418_133508.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJBwuO5lXpRxMRUbEtWy_jb_s",
+      "name": "Demodé Club",
+      "name_en": "Demodé Club",
+      "category": "Deneyim",
+      "tags": [
+        "bari",
+        "travel",
+        "explore"
+      ],
+      "lat": 41.0714638,
+      "lng": 16.8233232,
+      "rating": 4.2,
+      "reviewCount": 511,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bari/ChIJBwuO5lXpRxMRUbEtWy_jb_s.jpg",
+      "description": "Bari.bak.20260418_133508 kentinin kentsel enerjisini ve kültürel kimliğini yansıtan Demodé Club, kenti keşfeden gezginlerin kentsel keşif albümündeki en ikonik ve fotojenik kentsel duraklardan birisi haline gelmiştir.",
+      "description_en": "A prominent urban landmark in Bari.bak.20260418_133508 that defines the area's contemporary spirit and cultural identity, Demodé Club serves as a prestigious and unique stop for every traveler.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJtUB7j7zpRxMR5MvbSvACgOk",
+      "name": "Mulata latin social club / Cubalibre Bari",
+      "name_en": "Mulata latin social club / Cubalibre Bari",
+      "category": "Restoran",
+      "tags": [
+        "bari",
+        "travel",
+        "explore"
+      ],
+      "lat": 41.0860032,
+      "lng": 16.87949,
+      "rating": 4.1,
+      "reviewCount": 575,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bari/ChIJtUB7j7zpRxMR5MvbSvACgOk.jpg",
+      "description": "Yerel malzemelere ve kentsel mutfak sanatına olan bağlılığıyla tanınan Mulata latin social club / Cubalibre Bari, Bari.bak.20260418_133508 kentinin kalbindeki en stil sahibi kentsel lezzet duraklarından biri olarak öne çıkan bir kentsel merkezdir.",
+      "description_en": "Renowned for its commitment to local ingredients and urban culinary art, Mulata latin social club / Cubalibre Bari stands as a flavor stronghold in the heart of Bari.bak.20260418_133508's vibrant dining scene.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJ40vIE6bpRxMRICYraPPr4fg",
+      "name": "Villa Rotondo",
+      "name_en": "Villa Rotondo",
+      "category": "Restoran",
+      "tags": [
+        "bari",
+        "travel",
+        "explore"
+      ],
+      "lat": 41.0921541,
+      "lng": 16.8693222,
+      "rating": 4.4,
+      "reviewCount": 2255,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bari/ChIJ40vIE6bpRxMRICYraPPr4fg.jpg",
+      "description": "Yerel malzemelere ve kentsel mutfak sanatına olan bağlılığıyla tanınan Villa Rotondo, Bari.bak.20260418_133508 kentinin kalbindeki en stil sahibi kentsel lezzet duraklarından biri olarak öne çıkan bir kentsel merkezdir.",
+      "description_en": "Renowned for its commitment to local ingredients and urban culinary art, Villa Rotondo stands as a flavor stronghold in the heart of Bari.bak.20260418_133508's vibrant dining scene.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJ_8X__fboRxMRv_MyN9M0xyk",
+      "name": "Tropicana Bari",
+      "name_en": "Tropicana Bari",
+      "category": "Restoran",
+      "tags": [
+        "bari",
+        "travel",
+        "explore"
+      ],
+      "lat": 41.1161381,
+      "lng": 16.8619354,
+      "rating": 4.1,
+      "reviewCount": 814,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bari/ChIJ_8X__fboRxMRv_MyN9M0xyk.jpg",
+      "description": "Yerel malzemelere ve kentsel mutfak sanatına olan bağlılığıyla tanınan Tropicana Bari, Bari.bak.20260418_133508 kentinin kalbindeki en stil sahibi kentsel lezzet duraklarından biri olarak öne çıkan bir kentsel merkezdir.",
+      "description_en": "Renowned for its commitment to local ingredients and urban culinary art, Tropicana Bari stands as a flavor stronghold in the heart of Bari.bak.20260418_133508's vibrant dining scene.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJx2A7y1foRxMR06E0uKGSEFY",
+      "name": "Project Management",
+      "name_en": "Project Management",
+      "category": "Deneyim",
+      "tags": [
+        "bari",
+        "travel",
+        "explore"
+      ],
+      "lat": 41.1105575,
+      "lng": 16.8663428,
+      "rating": 4.5,
+      "reviewCount": 50,
+      "price": "medium",
+      "imageUrl": "",
+      "description": "Bari.bak.20260418_133508 kentinin kentsel enerjisini ve kültürel kimliğini yansıtan Project Management, kenti keşfeden gezginlerin kentsel keşif albümündeki en ikonik ve fotojenik kentsel duraklardan birisi haline gelmiştir.",
+      "description_en": "A prominent urban landmark in Bari.bak.20260418_133508 that defines the area's contemporary spirit and cultural identity, Project Management serves as a prestigious and unique stop for every traveler.",
+      "source": "google"
+    },
+    {
+      "id": "ChIJB2HAvP_pRxMRJFPYp1nus4w",
+      "name": "Remake eSports Bar",
+      "name_en": "Remake eSports Bar",
+      "category": "Deneyim",
+      "tags": [
+        "bari",
+        "travel",
+        "explore"
+      ],
+      "lat": 41.1166849,
+      "lng": 16.8732239,
+      "rating": 4.5,
+      "reviewCount": 208,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bari/ChIJB2HAvP_pRxMRJFPYp1nus4w.jpg",
+      "description": "Bari.bak.20260418_133508 kentinin kentsel enerjisini ve kültürel kimliğini yansıtan Remake eSports Bar, kenti keşfeden gezginlerin kentsel keşif albümündeki en ikonik ve fotojenik kentsel duraklardan birisi haline gelmiştir.",
+      "description_en": "A prominent urban landmark in Bari.bak.20260418_133508 that defines the area's contemporary spirit and cultural identity, Remake eSports Bar serves as a prestigious and unique stop for every traveler.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJW9e3EsvpRxMRsbFkMDsUVlM",
+      "name": "Mamajuana Cafè - Bar & Tapas",
+      "name_en": "Mamajuana Cafè - Bar & Tapas",
+      "category": "Restoran",
+      "tags": [
+        "bari",
+        "travel",
+        "explore"
+      ],
+      "lat": 41.1171805,
+      "lng": 16.8736669,
+      "rating": 4.5,
+      "reviewCount": 216,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bari/ChIJW9e3EsvpRxMRsbFkMDsUVlM.jpg",
+      "description": "Geleneksel tarifleri modern bir kentsel dokunuşla harmanlayan Mamajuana Cafè - Bar & Tapas, Bari.bak.20260418_133508 kentinde gurme lezzetler arayan sosyal gezginler için şık ve kentsel bir lezzet kaçış rotası vaat etmektedir.",
+      "description_en": "Merging traditional recipes with modern urban flair, this restaurant offers a sophisticated social escape for food lovers visiting Mamajuana Cafè - Bar & Tapas in Bari.bak.20260418_133508.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJUxX469_pRxMRDNa1Y_UoaJM",
+      "name": "KARA Bari - Karaoke Experience",
+      "name_en": "KARA Bari - Karaoke Experience",
+      "category": "Deneyim",
+      "tags": [
+        "bari",
+        "travel",
+        "explore"
+      ],
+      "lat": 41.1144955,
+      "lng": 16.8688428,
+      "rating": 5,
+      "reviewCount": 24,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bari/ChIJUxX469_pRxMRDNa1Y_UoaJM.jpg",
+      "description": "Bari.bak.20260418_133508 sokaklarına özgün karakterini katan KARA Bari - Karaoke Experience, kentin modern enerjisini ve kültürel nabzını yansıtan kentsel bir prestij noktası ve sofistike bir kentsel sosyal durak kalesidir.",
+      "description_en": "Infusing the streets of Bari.bak.20260418_133508 with its unique character, KARA Bari - Karaoke Experience is a sophisticated urban destination that reflects the town's modern energy and creative pulse.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJSVRYbgDpRxMRoLHada3ZYv0",
+      "name": "lacasadiquelricchionedipingu",
+      "name_en": "lacasadiquelricchionedipingu",
+      "category": "Deneyim",
+      "tags": [
+        "bari",
+        "travel",
+        "explore"
+      ],
+      "lat": 41.1202604,
+      "lng": 16.8753499,
+      "rating": 4.5,
+      "reviewCount": 50,
+      "price": "medium",
+      "imageUrl": "",
+      "description": "Bari.bak.20260418_133508 sokaklarına özgün karakterini katan lacasadiquelricchionedipingu, kentin modern enerjisini ve kültürel nabzını yansıtan kentsel bir prestij noktası ve sofistike bir kentsel sosyal durak kalesidir.",
+      "description_en": "Infusing the streets of Bari.bak.20260418_133508 with its unique character, lacasadiquelricchionedipingu is a sophisticated urban destination that reflects the town's modern energy and creative pulse.",
+      "source": "google"
+    },
+    {
+      "id": "ChIJKb86E1_oRxMRYU9tWwZWrlc",
+      "name": "Kabuki",
+      "name_en": "Kabuki",
+      "category": "Deneyim",
+      "tags": [
+        "bari",
+        "travel",
+        "explore"
+      ],
+      "lat": 41.11951180000001,
+      "lng": 16.866482,
+      "rating": 4.2,
+      "reviewCount": 114,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bari/ChIJKb86E1_oRxMRYU9tWwZWrlc.jpg",
+      "description": "Bari.bak.20260418_133508 sokaklarına özgün karakterini katan Kabuki, kentin modern enerjisini ve kültürel nabzını yansıtan kentsel bir prestij noktası ve sofistike bir kentsel sosyal durak kalesidir.",
+      "description_en": "Infusing the streets of Bari.bak.20260418_133508 with its unique character, Kabuki is a sophisticated urban destination that reflects the town's modern energy and creative pulse.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJfScpcQDpRxMR8h9GF6fsz_Y",
+      "name": "Anchecinema",
+      "name_en": "Anchecinema",
+      "category": "Deneyim",
+      "tags": [
+        "bari",
+        "travel",
+        "explore"
+      ],
+      "lat": 41.1233723,
+      "lng": 16.8717371,
+      "rating": 4.5,
+      "reviewCount": 50,
+      "price": "medium",
+      "imageUrl": "",
+      "description": "Bari.bak.20260418_133508 sokaklarına özgün karakterini katan Anchecinema, kentin modern enerjisini ve kültürel nabzını yansıtan kentsel bir prestij noktası ve sofistike bir kentsel sosyal durak kalesidir.",
+      "description_en": "Infusing the streets of Bari.bak.20260418_133508 with its unique character, Anchecinema is a sophisticated urban destination that reflects the town's modern energy and creative pulse.",
+      "source": "google"
+    },
+    {
+      "id": "ChIJu4LvFADpRxMR1zw2EiVrOJI",
+      "name": "FOLLYA Drink Experience",
+      "name_en": "FOLLYA Drink Experience",
+      "category": "Restoran",
+      "tags": [
+        "bari",
+        "travel",
+        "explore"
+      ],
+      "lat": 41.1165123,
+      "lng": 16.8635198,
+      "rating": 4.7,
+      "reviewCount": 58,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bari/ChIJu4LvFADpRxMR1zw2EiVrOJI.jpg",
+      "description": "Geleneksel tarifleri modern bir kentsel dokunuşla harmanlayan FOLLYA Drink Experience, Bari.bak.20260418_133508 kentinde gurme lezzetler arayan sosyal gezginler için şık ve kentsel bir lezzet kaçış rotası vaat etmektedir.",
+      "description_en": "Merging traditional recipes with modern urban flair, this restaurant offers a sophisticated social escape for food lovers visiting FOLLYA Drink Experience in Bari.bak.20260418_133508.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJtRaeAGfoRxMRVz6cM0NtH1A",
+      "name": "Riva Club",
+      "name_en": "Riva Club",
+      "category": "Restoran",
+      "tags": [
+        "bari",
+        "travel",
+        "explore"
+      ],
+      "lat": 41.123929,
+      "lng": 16.8738906,
+      "rating": 4,
+      "reviewCount": 306,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bari/ChIJtRaeAGfoRxMRVz6cM0NtH1A.jpg",
+      "description": "Yerel malzemelere ve kentsel mutfak sanatına olan bağlılığıyla tanınan Riva Club, Bari.bak.20260418_133508 kentinin kalbindeki en stil sahibi kentsel lezzet duraklarından biri olarak öne çıkan bir kentsel merkezdir.",
+      "description_en": "Renowned for its commitment to local ingredients and urban culinary art, Riva Club stands as a flavor stronghold in the heart of Bari.bak.20260418_133508's vibrant dining scene.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJuWnuI_DpRxMR3vlzNfI8IMY",
+      "name": "GUSTO IN CORSO",
+      "name_en": "GUSTO IN CORSO",
+      "category": "Restoran",
+      "tags": [
+        "bari",
+        "travel",
+        "explore"
+      ],
+      "lat": 41.117522,
+      "lng": 16.8818628,
+      "rating": 5,
+      "reviewCount": 3,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bari/ChIJuWnuI_DpRxMR3vlzNfI8IMY.jpg",
+      "description": "Yerel malzemelere ve kentsel mutfak sanatına olan bağlılığıyla tanınan GUSTO IN CORSO, Bari.bak.20260418_133508 kentinin kalbindeki en stil sahibi kentsel lezzet duraklarından biri olarak öne çıkan bir kentsel merkezdir.",
+      "description_en": "Renowned for its commitment to local ingredients and urban culinary art, GUSTO IN CORSO stands as a flavor stronghold in the heart of Bari.bak.20260418_133508's vibrant dining scene.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJpxn7x5PpRxMRp8VqDNcEhvg",
+      "name": "Il Priscio - Bari Drinks & Food",
+      "name_en": "Il Priscio - Bari Drinks & Food",
+      "category": "Restoran",
+      "tags": [
+        "bari",
+        "travel",
+        "explore"
+      ],
+      "lat": 41.1240154,
+      "lng": 16.8678438,
+      "rating": 4.7,
+      "reviewCount": 308,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bari/ChIJpxn7x5PpRxMRp8VqDNcEhvg.jpg",
+      "description": "Bari.bak.20260418_133508 kentinin gastronomi dünyasında otantik lezzetleri ve dinamik sosyal atmosferiyle tanınan Il Priscio - Bari Drinks & Food, yerel mutfak kültürünü en prestijli şekilde deneyimlemek isteyenlerin en samimi adresidir.",
+      "description_en": "A prestigious culinary destination in Bari.bak.20260418_133508 known for its authentic flavors and vibrant social atmosphere, Il Priscio - Bari Drinks & Food is the perfect spot for experiencing high-end local gastronomy.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJ95yNTmboRxMR6i0ks7W8TDA",
+      "name": "Speakeasy Bari",
+      "name_en": "Speakeasy Bari",
+      "category": "Restoran",
+      "tags": [
+        "bari",
+        "travel",
+        "explore"
+      ],
+      "lat": 41.1244611,
+      "lng": 16.8748122,
+      "rating": 4.4,
+      "reviewCount": 642,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bari/ChIJ95yNTmboRxMR6i0ks7W8TDA.jpg",
+      "description": "Bari.bak.20260418_133508 kentinin gastronomi dünyasında otantik lezzetleri ve dinamik sosyal atmosferiyle tanınan Speakeasy Bari, yerel mutfak kültürünü en prestijli şekilde deneyimlemek isteyenlerin en samimi adresidir.",
+      "description_en": "A prestigious culinary destination in Bari.bak.20260418_133508 known for its authentic flavors and vibrant social atmosphere, Speakeasy Bari is the perfect spot for experiencing high-end local gastronomy.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJC9fZXVDoRxMRzFFJMNhEklM",
+      "name": "Associazione Culturale EX Studenti Accademia Belle Arti",
+      "name_en": "Associazione Culturale EX Studenti Accademia Belle Arti",
+      "category": "Tarihi",
+      "tags": [
+        "bari",
+        "travel",
+        "explore"
+      ],
+      "lat": 41.110457,
+      "lng": 16.8736805,
+      "rating": 3.9,
+      "reviewCount": 14,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bari/ChIJC9fZXVDoRxMRzFFJMNhEklM.jpg",
+      "description": "Antik dokularla Associazione Culturale EX Studenti Accademia Belle Arti ruhunu birleştiren bu tarihi nokta, Bari.bak.20260418_133508 kentinin kültürel kimliğini tanımlayan ve kenti keşfedenlere mistik bir atmosfer sunan kentsel bir prestij kalesidir.",
+      "description_en": "This historical gemstone in Bari.bak.20260418_133508 defines the local cultural identity, combining ancient textures with the timeless spirit of Associazione Culturale EX Studenti Accademia Belle Arti for every urban explorer.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJFcl-8VDoRxMRaT7OBB4fUr0",
+      "name": "Palazzo Teodoro Massa",
+      "name_en": "Palazzo Teodoro Massa",
+      "category": "Tarihi",
+      "tags": [
+        "bari",
+        "travel",
+        "explore"
+      ],
+      "lat": 41.1103695,
+      "lng": 16.87333,
+      "rating": 4.5,
+      "reviewCount": 50,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bari/ChIJFcl-8VDoRxMRaT7OBB4fUr0.jpg",
+      "description": "Antik dokularla Palazzo Teodoro Massa ruhunu birleştiren bu tarihi nokta, Bari.bak.20260418_133508 kentinin kültürel kimliğini tanımlayan ve kenti keşfedenlere mistik bir atmosfer sunan kentsel bir prestij kalesidir.",
+      "description_en": "This historical gemstone in Bari.bak.20260418_133508 defines the local cultural identity, combining ancient textures with the timeless spirit of Palazzo Teodoro Massa for every urban explorer.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJN0o222noRxMRiSqXGrmUHVc",
+      "name": "Metro City Bari",
+      "name_en": "Metro City Bari",
+      "category": "Tarihi",
+      "tags": [
+        "bari",
+        "travel",
+        "explore"
+      ],
+      "lat": 41.1215033,
+      "lng": 16.8816157,
+      "rating": 4.5,
+      "reviewCount": 21,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bari/ChIJN0o222noRxMRiSqXGrmUHVc.jpg",
+      "description": "Antik dokularla Metro City Bari ruhunu birleştiren bu tarihi nokta, Bari.bak.20260418_133508 kentinin kültürel kimliğini tanımlayan ve kenti keşfedenlere mistik bir atmosfer sunan kentsel bir prestij kalesidir.",
+      "description_en": "This historical gemstone in Bari.bak.20260418_133508 defines the local cultural identity, combining ancient textures with the timeless spirit of Metro City Bari for every urban explorer.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJrwJ6-mPoRxMR-uV7HX6IcY8",
+      "name": "Church of Saint Theresa 'dei Maschi'",
+      "name_en": "Church of Saint Theresa 'dei Maschi'",
+      "category": "Tarihi",
+      "tags": [
+        "bari",
+        "travel",
+        "explore"
+      ],
+      "lat": 41.1276415,
+      "lng": 16.8704305,
+      "rating": 4.5,
+      "reviewCount": 106,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bari/ChIJrwJ6-mPoRxMR-uV7HX6IcY8.jpg",
+      "description": "Antik dokularla Church of Saint Theresa 'dei Maschi' ruhunu birleştiren bu tarihi nokta, Bari.bak.20260418_133508 kentinin kültürel kimliğini tanımlayan ve kenti keşfedenlere mistik bir atmosfer sunan kentsel bir prestij kalesidir.",
+      "description_en": "This historical gemstone in Bari.bak.20260418_133508 defines the local cultural identity, combining ancient textures with the timeless spirit of Church of Saint Theresa 'dei Maschi' for every urban explorer.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJAz6M02PoRxMRc0V0wyqU5hQ",
+      "name": "Museo della Cattedrale",
+      "name_en": "Museo della Cattedrale",
+      "category": "Tarihi",
+      "tags": [
+        "bari",
+        "travel",
+        "explore"
+      ],
+      "lat": 41.1278488,
+      "lng": 16.8689686,
+      "rating": 4.2,
+      "reviewCount": 77,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bari/ChIJAz6M02PoRxMRc0V0wyqU5hQ.jpg",
+      "description": "Bari.bak.20260418_133508 kentinin kentsel tarih silüetini ve Museo della Cattedrale bölgesinin mimari ihtişamını yansıtan bu alan, kentin binlerce yıllık kültürel mirasına açılan en prestijli kentsel tarih kalesidir.",
+      "description_en": "An urban cultural stronghold in Bari.bak.20260418_133508 showcasing the historical layers and architectural grandeur of Museo della Cattedrale, offering travelers a deep dive into the region's heritage.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJ5_-dD2ToRxMRyrqYYybbArU",
+      "name": "Diocesan Auditorium Vallisa",
+      "name_en": "Diocesan Auditorium Vallisa",
+      "category": "Tarihi",
+      "tags": [
+        "bari",
+        "travel",
+        "explore"
+      ],
+      "lat": 41.1270364,
+      "lng": 16.8714648,
+      "rating": 4.4,
+      "reviewCount": 159,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bari/ChIJ5_-dD2ToRxMRyrqYYybbArU.jpg",
+      "description": "Bari.bak.20260418_133508 kentinin tarihi dokusunda önemli bir yer tutan Diocesan Auditorium Vallisa, kentin tarihsel evrimini ve kentsel hafızasını koruyan en entelektüel ve paha biçilemez kentsel duraklardan biridir.",
+      "description_en": "As a prestigious landmark of Bari.bak.20260418_133508, Diocesan Auditorium Vallisa preserves the town's millennia-old memory and serves as an intellectual window into the historical evolution of the area.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJzxTpmnDpRxMRyny6QZKYBhk",
+      "name": "Palazzo Jannuzzi | Dimora Storica | Eventi | Bari",
+      "name_en": "Palazzo Jannuzzi | Dimora Storica | Eventi | Bari",
+      "category": "Tarihi",
+      "tags": [
+        "bari",
+        "travel",
+        "explore"
+      ],
+      "lat": 41.1243273,
+      "lng": 16.8650214,
+      "rating": 5,
+      "reviewCount": 23,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bari/ChIJzxTpmnDpRxMRyny6QZKYBhk.jpg",
+      "description": "Bari.bak.20260418_133508 kentinin kentsel tarih silüetini ve Palazzo Jannuzzi | Dimora Storica | Eventi | Bari bölgesinin mimari ihtişamını yansıtan bu alan, kentin binlerce yıllık kültürel mirasına açılan en prestijli kentsel tarih kalesidir.",
+      "description_en": "An urban cultural stronghold in Bari.bak.20260418_133508 showcasing the historical layers and architectural grandeur of Palazzo Jannuzzi | Dimora Storica | Eventi | Bari, offering travelers a deep dive into the region's heritage.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJHc6WhFboRxMRwGfIKzpW4Ow",
+      "name": "Associazione Culturale Fillide",
+      "name_en": "Associazione Culturale Fillide",
+      "category": "Tarihi",
+      "tags": [
+        "bari",
+        "travel",
+        "explore"
+      ],
+      "lat": 41.1080889,
+      "lng": 16.8687946,
+      "rating": 5,
+      "reviewCount": 1,
+      "price": "medium",
+      "imageUrl": "",
+      "description": "Bari.bak.20260418_133508 kentinin kentsel tarih silüetini ve Associazione Culturale Fillide bölgesinin mimari ihtişamını yansıtan bu alan, kentin binlerce yıllık kültürel mirasına açılan en prestijli kentsel tarih kalesidir.",
+      "description_en": "An urban cultural stronghold in Bari.bak.20260418_133508 showcasing the historical layers and architectural grandeur of Associazione Culturale Fillide, offering travelers a deep dive into the region's heritage.",
+      "source": "google"
+    },
+    {
+      "id": "ChIJ0dQqmGboRxMRPZK-iIFXSDc",
+      "name": "Teatro Margherita",
+      "name_en": "Teatro Margherita",
+      "category": "Tarihi",
+      "tags": [
+        "bari",
+        "travel",
+        "explore"
+      ],
+      "lat": 41.1264206,
+      "lng": 16.8728911,
+      "rating": 4.6,
+      "reviewCount": 2147,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/bari/ChIJ0dQqmGboRxMRPZK-iIFXSDc.jpg",
+      "description": "Antik dokularla Teatro Margherita ruhunu birleştiren bu tarihi nokta, Bari.bak.20260418_133508 kentinin kültürel kimliğini tanımlayan ve kenti keşfedenlere mistik bir atmosfer sunan kentsel bir prestij kalesidir.",
+      "description_en": "This historical gemstone in Bari.bak.20260418_133508 defines the local cultural identity, combining ancient textures with the timeless spirit of Teatro Margherita for every urban explorer.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJFS61K_foRxMR2dkqZmPVmio",
+      "name": "Vecchio tracciato ferroviario Bari-Taranto",
+      "name_en": "Vecchio tracciato ferroviario Bari-Taranto",
+      "category": "Tarihi",
+      "tags": [
+        "bari",
+        "travel",
+        "explore"
+      ],
+      "lat": 41.1162706,
+      "lng": 16.8594597,
+      "rating": 4.8,
+      "reviewCount": 5,
+      "price": "medium",
+      "imageUrl": "",
+      "description": "Bari.bak.20260418_133508 kentinin tarihi dokusunda önemli bir yer tutan Vecchio tracciato ferroviario Bari-Taranto, kentin tarihsel evrimini ve kentsel hafızasını koruyan en entelektüel ve paha biçilemez kentsel duraklardan biridir.",
+      "description_en": "As a prestigious landmark of Bari.bak.20260418_133508, Vecchio tracciato ferroviario Bari-Taranto preserves the town's millennia-old memory and serves as an intellectual window into the historical evolution of the area.",
+      "source": "google"
+    }
+  ]
+}

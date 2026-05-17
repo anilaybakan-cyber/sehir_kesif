@@ -27,9 +27,8 @@ class DirectionsService {
       if (optimizeWaypoints) {
         waypointsString = "optimize:true|" + waypoints.map((e) => "${e.latitude},${e.longitude}").join("|");
       } else {
-        // optimizasyon yoksa `via:` kullanarak bacaklara ayırmayı önle (isteğe bağlı) veya normal waypoint kullan.
-        // Google Maps en iyi performansı düz koordinat vererek veya `via:` vererek sağlar. 
-        waypointsString = waypoints.map((e) => "via:${e.latitude},${e.longitude}").join("|");
+        // Standard waypoints (no via:) for reliable itinerary legs
+        waypointsString = waypoints.map((e) => "${e.latitude},${e.longitude}").join("|");
       }
     }
 
@@ -42,6 +41,22 @@ class DirectionsService {
       'language': AppLocalizations.instance.isEnglish ? 'en' : 'tr',
     };
 
+    // Transit mode requires departure_time
+    if (mode == 'transit') {
+      final now = DateTime.now();
+      DateTime departure;
+      
+      // ÖZEL DURUM: Fransa'da (Marseille vb.) 1 Mayıs'ta ulaşım tamamen durur.
+      if (now.month == 5 && now.day == 1) {
+        departure = DateTime(now.year, 5, 2, 10, 0);
+      } else {
+        // Her zaman bir timestamp gönderelim (Google 'now' yerine bunu daha stabil işleyebilir)
+        departure = now;
+      }
+      queryParameters['departure_time'] = (departure.millisecondsSinceEpoch ~/ 1000).toString();
+      queryParameters['routing_preference'] = 'fewer_transfers';
+    }
+
     if (waypointsString.isNotEmpty) {
       queryParameters['waypoints'] = waypointsString;
     }
@@ -53,7 +68,7 @@ class DirectionsService {
 
       if (response.statusCode == 200) {
         final data = json.decode(response.body);
-        return _parseResponse(data);
+        return _parseResponse(data, mode);
       }
     } catch (e) {
       print("Directions API Error: $e");
@@ -62,11 +77,34 @@ class DirectionsService {
   }
 
   // Ortak Parse Metodu
-  Map<String, dynamic>? _parseResponse(dynamic data) {
-    if ((data['routes'] as List).isEmpty) return null;
+  Map<String, dynamic>? _parseResponse(dynamic data, String requestMode) {
+    final status = data['status'] as String?;
+    if (status != null && status != 'OK') {
+      final err = data['error_message'] as String?;
+      print(
+        'Directions API status: $status'
+        '${err != null && err.isNotEmpty ? ' — $err' : ''}',
+      );
+      return null;
+    }
 
-    // Rota verisi (Polyline string)
-    final overviewPolyline = data['routes'][0]['overview_polyline']['points'];
+    final routes = (data['routes'] as List<dynamic>? ?? []);
+    if (routes.isEmpty) return null;
+
+    dynamic selectedRoute = routes.first;
+    if (requestMode == 'transit' && routes.length > 1) {
+      selectedRoute = _selectBestTransitRoute(routes) ?? routes.first;
+    }
+
+    final overviewRaw = selectedRoute['overview_polyline'];
+    String? overviewEncoded;
+    if (overviewRaw is Map && overviewRaw['points'] is String) {
+      overviewEncoded = overviewRaw['points'] as String;
+    }
+    if (overviewEncoded == null || overviewEncoded.isEmpty) {
+      print('Directions API: overview_polyline eksik');
+      return null;
+    }
 
     // Mesafe ve Süre bilgisi (Legs toplamı)
     double totalDistanceMeters = 0;
@@ -75,27 +113,52 @@ class DirectionsService {
     // Step-by-step route details for multi-modal visualization
     final List<Map<String, dynamic>> routeSteps = [];
 
-    for (var leg in data['routes'][0]['legs']) {
-      totalDistanceMeters += (leg['distance']['value'] as num).toDouble();
-      totalDurationSeconds += (leg['duration']['value'] as num).toDouble();
+    final legs = selectedRoute['legs'] as List<dynamic>? ?? [];
+    for (var leg in legs) {
+      final dist = leg['distance']?['value'];
+      final dur = leg['duration']?['value'];
+      if (dist is num) totalDistanceMeters += dist.toDouble();
+      if (dur is num) totalDurationSeconds += dur.toDouble();
 
-      // Extract steps for multi-modal display
-      for (var step in leg['steps']) {
+      final stepList = leg['steps'] as List<dynamic>? ?? [];
+      for (var step in stepList) {
+        if (step is! Map) continue;
+
+        final polyMap = step['polyline'];
+        String enc = '';
+        if (polyMap is Map && polyMap['points'] is String) {
+          enc = polyMap['points'] as String;
+        }
+        final decodedPts =
+            enc.isEmpty ? <LatLng>[] : _decodePolyline(enc);
+
+        final durStep = step['duration'];
+        final distStep = step['distance'];
         final stepData = <String, dynamic>{
-          'travel_mode': step['travel_mode'],
-          'duration_seconds': step['duration']['value'],
-          'duration_text': step['duration']['text'],
-          'distance_meters': step['distance']['value'],
-          'polyline': step['polyline']['points'],
-          'polyline_points': _decodePolyline(step['polyline']['points']),
+          'travel_mode': step['travel_mode'] ?? 'WALKING',
+          'duration_seconds': durStep is Map && durStep['value'] is num
+              ? (durStep['value'] as num).toDouble()
+              : 0.0,
+          'duration_text':
+              durStep is Map ? (durStep['text'] as String? ?? '') : '',
+          'distance_meters': distStep is Map && distStep['value'] is num
+              ? (distStep['value'] as num).toDouble()
+              : 0.0,
+          'polyline': enc,
+          'polyline_points': decodedPts,
           'instructions': step['html_instructions'] ?? '',
         };
 
         // Add transit details if available
-        if (step['travel_mode'] == 'TRANSIT' && step['transit_details'] != null) {
-          final transit = step['transit_details'];
+        final String tMode =
+            (step['travel_mode'] ?? '').toString().toUpperCase();
+        if ((tMode == 'TRANSIT' || step['transit_details'] != null) &&
+            step['transit_details'] != null) {
+          final transit = step['transit_details'] as Map<String, dynamic>;
           stepData['transit_details'] = {
-            'line_name': transit['line']?['short_name'] ?? transit['line']?['name'] ?? '',
+            'line_name': transit['line']?['short_name'] ??
+                transit['line']?['name'] ??
+                '',
             'vehicle_type': transit['line']?['vehicle']?['type'] ?? 'BUS',
             'vehicle_name': transit['line']?['vehicle']?['name'] ?? '',
             'departure_stop': transit['departure_stop']?['name'] ?? '',
@@ -110,13 +173,49 @@ class DirectionsService {
     }
 
     return {
-      'polyline_points': _decodePolyline(overviewPolyline),
+      'polyline_points': _decodePolyline(overviewEncoded),
       'distance_text': _formatDistance(totalDistanceMeters),
       'duration_text': _formatDuration(totalDurationSeconds),
       'duration_seconds': totalDurationSeconds,
-      'bounds': data['routes'][0]['bounds'],
+      'bounds': selectedRoute['bounds'],
       'steps': routeSteps,
     };
+  }
+
+  dynamic _selectBestTransitRoute(List<dynamic> routes) {
+    dynamic bestRoute;
+    int bestTransitStepCount = -1;
+    double bestDurationSeconds = double.infinity;
+
+    for (final route in routes) {
+      final legs = route['legs'] as List<dynamic>? ?? [];
+      int transitStepCount = 0;
+      double totalDuration = 0;
+
+      for (final leg in legs) {
+        final legDuration = leg['duration']?['value'];
+        if (legDuration is num) {
+          totalDuration += legDuration.toDouble();
+        }
+        final steps = leg['steps'] as List<dynamic>? ?? [];
+        for (final step in steps) {
+          if ((step['travel_mode'] as String? ?? '').toUpperCase() == 'TRANSIT') {
+            transitStepCount += 1;
+          }
+        }
+      }
+
+      final isBetterDuration = totalDuration < bestDurationSeconds - 60; // En az 1 dakika fark varsa
+      final similarDurationButFewerTransfers = (totalDuration - bestDurationSeconds).abs() <= 60 && transitStepCount < bestTransitStepCount;
+      
+      if (isBetterDuration || similarDurationButFewerTransfers || bestRoute == null) {
+        bestTransitStepCount = transitStepCount;
+        bestDurationSeconds = totalDuration;
+        bestRoute = route;
+      }
+    }
+
+    return bestRoute;
   }
 
   // Encoded String'i LatLng listesine çevirir (Polyline Algorithm)

@@ -3105,28 +3105,6 @@
       "distanceFromCenter": 1.0
     },
     {
-      "id": "salt-art-&-music",
-      "name": "Salt Art & Music",
-      "name_en": "SALT Art & Music",
-      "description": "Oslo fiyordunda, Norveç balık iskelelerinden ilham alan eşsiz mimarisiyle SALT, sanat, müzik ve performansların sergilendiği yenilikçi, dinamik bir kültür platformudur.",
-      "description_en": "On the Oslo fjord, SALT, with unique Norwegian fish rack-inspired architecture, is an innovative, dynamic cultural platform showcasing art, music, and performances.",
-      "tips": "Açık hava etkinlikleri için hava durumunu kontrol edin ve eşsiz saunasını deneyimleyin.",
-      "tips_en": "Check weather for outdoor events and experience its unique sauna.",
-      "category": "Deneyim",
-      "subcategory": "Sanat",
-      "tags": [
-        "sauna",
-        "art",
-        "nomadic"
-      ],
-      "price": "medium",
-      "lat": 59.90644380000001,
-      "lng": 10.7463797,
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/oslo/salt-art-%26-music.jpg",
-      "rating": 4.1,
-      "source": "firebase"
-    },
-    {
       "name": "Sandbakken Sportsstue",
       "category": "Yeme-İçme",
       "tags": [
@@ -3147,31 +3125,6 @@
       "description_tr": "Østmarka'da bulunan, sıcak atmosferi ve geleneksel ev yapımı vafları ile ünlü aile dostu sporcu durağı.",
       "name_en": "Sandbakken Sportsstue",
       "tips_en": "Sip hot cocoa by the window watching the forest as snow falls."
-    },
-    {
-      "name": "Sauna at Langkaia (SALT)",
-      "area": "Bjørvika",
-      "category": "Deneyim",
-      "tags": [
-        "sauna",
-        "kültür",
-        "deniz"
-      ],
-      "description": "Langkaia'daki bu modern mimari harikası, geleneksel Norveç balık iskelelerinden ilham almıştır. Dünyanın en büyük saunası Árran'a ev sahipliği yaparak sanat, kültür ve refahı birleştirir.",
-      "lat": 59.906,
-      "lng": 107.45,
-      "id": "sauna-at-langkaia-(salt)",
-      "price": "medium",
-      "rating": 4.6,
-      "bestTime": "Gündüz/Akşam",
-      "tips": "Önceden rezervasyon yapın ve eşsiz fjord manzaralı saunanın keyfini çıkarın.",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/oslo/sauna-at-langkaia-_salt_.jpg",
-      "source": "firebase",
-      "distanceFromCenter": 1.0,
-      "description_en": "This modern architectural marvel at Langkaia draws inspiration from traditional Norwegian fish racks. Housing Árran, the world's largest sauna, it uniquely merges art, culture, and well-being.",
-      "description_tr": "Langkaia'da bulunan, eşsiz bir 'sauna köyü' ve Opera Binası manzarası sunan kültürel etkinlik alanı.",
-      "name_en": "Sauna at Langkaia (SALT)",
-      "tips_en": "Book in advance and enjoy the unique sauna with fjord views."
     },
     {
       "name": "Schouskjelleren Mikrobryggeri",
@@ -4245,26 +4198,6 @@
       "price": "free",
       "tips": "Sinnataggen'in hırçın ifadesini erken saatlerde, kalabalıktan uzak görün.",
       "tips_en": "See Sinnataggen's fierce expression early, away from crowds."
-    },
-    {
-      "name": "Salt (Sauna & Food)",
-      "name_en": "SALT",
-      "area": "Waterfront",
-      "category": "Yeme-İçme",
-      "tags": [
-        "sauna",
-        "kültür",
-        "deniz"
-      ],
-      "lat": 59.905,
-      "lng": 107.41,
-      "rating": 4.6,
-      "description": "Oslo Fiyordu kıyısında yükselen, ahşap ve beyaz branda ile şekillendirilmiş piramidal yapılar, mimarinin soğuk kuzey ışığıyla dansını sunuyor.",
-      "description_en": "Rising on the Oslo Fjord's edge, pyramidal structures shaped with wood and white canvas present architecture's dance with the cold northern light.",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/oslo/salt_sauna_food.jpg",
-      "source": "firebase",
-      "tips": "Güneş batarken ahşap saunadan fiyordun değişen renklerini izleyin.",
-      "tips_en": "Watch the fjord's changing colors from the wooden sauna at sunset."
     },
     {
       "name": "Holmenkollen Ski Museum & Tower",

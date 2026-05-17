@@ -1,3 +1,6 @@
+from dotenv import load_dotenv
+load_dotenv()
+import os
 import json
 import requests
 import time
@@ -7,7 +10,7 @@ def get_google_photo_url(place_name, location_bias=None):
     """
     Fetches a photo URL for a place using the Google Places API.
     """
-    api_key = "AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g"  # Using the provided key
+    api_key = os.getenv("GOOGLE_MAPS_API_KEY")  # Using the provided key
     
     print(f"Fetching photo for: {place_name}...")
     

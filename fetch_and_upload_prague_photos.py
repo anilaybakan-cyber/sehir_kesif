@@ -1,3 +1,5 @@
+from dotenv import load_dotenv
+load_dotenv()
 
 import csv
 import json
@@ -10,7 +12,7 @@ from firebase_admin import credentials, storage
 # --- CONFIGURATION ---
 CSV_Input_Path = '/Users/anilebru/Desktop/prag_yeni_mekan_onerileri_full.csv'
 CSV_Output_Path = '/Users/anilebru/Desktop/prag_yeni_mekan_onerileri_final.csv'
-API_KEY = "AIzaSyBSZJmb9IIINxWbxXgCLTPiWC9SLcaDrMk" # Taken from AndroidManifest.xml
+API_KEY = os.getenv("GOOGLE_MAPS_API_KEY") # Taken from AndroidManifest.xml
 BUCKET_NAME = 'myway-3fe75.firebasestorage.app'
 
 # --- FIREBASE SETUP ---

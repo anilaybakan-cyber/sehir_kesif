@@ -6,11 +6,23 @@ import '../services/city_data_loader.dart';
 import '../models/city_model.dart';
 import '../theme/wanderlust_colors.dart';
 import 'detail_screen.dart';
-import 'dart:io';
+import 'dart:ui';
 import '../services/premium_service.dart';
 import 'paywall_screen.dart';
-import 'dart:convert';
-import 'dart:ui';
+import 'package:cached_network_image/cached_network_image.dart';
+import '../widgets/resilient_network_image.dart';
+import '../services/image_prefetch_service.dart';
+import '../utils/image_utils.dart';
+
+class _GuideSectionVisual {
+  final List<String> imageUrls;
+
+  const _GuideSectionVisual({
+    required this.imageUrls,
+  });
+
+  String get imageUrl => imageUrls.first;
+}
 
 class CityGuideDetailScreen extends StatefulWidget {
   final String city;
@@ -29,9 +41,12 @@ class CityGuideDetailScreen extends StatefulWidget {
 class _CityGuideDetailScreenState extends State<CityGuideDetailScreen> {
   String _content = "";
   bool _isLoading = true;
+  List<Highlight> _guideHighlights = [];
+  String? _guideHeroImageUrl;
   final ScrollController _scrollController = ScrollController();
   bool _showScrollToTop = false;
   bool _showStickyButton = false;
+  double _scrollOffset = 0;
   final GlobalKey _triggerKey = GlobalKey();
 
   @override
@@ -44,6 +59,11 @@ class _CityGuideDetailScreenState extends State<CityGuideDetailScreen> {
   void initState() {
     super.initState();
     _scrollController.addListener(() {
+      // Scroll offset for UI effects
+      if (_scrollController.offset != _scrollOffset) {
+        setState(() => _scrollOffset = _scrollController.offset);
+      }
+
       // Back to top button logic
       final showTop = _scrollController.offset > 200;
       if (showTop != _showScrollToTop) {
@@ -85,12 +105,25 @@ class _CityGuideDetailScreenState extends State<CityGuideDetailScreen> {
     setState(() => _isLoading = true);
     
     final isEnglish = AppLocalizations.instance.isEnglish;
-    // Blog içeriğini getir
-    final content = await AIService.getCityBlogContent(widget.city, isEnglish);
+    final contentFuture = AIService.getCityBlogContent(widget.city, isEnglish);
+    CityModel? cityModel;
+
+    try {
+      cityModel = await CityDataLoader.loadCity(widget.city);
+    } catch (e) {
+      debugPrint('Guide visuals loading error for ${widget.city}: $e');
+    }
+
+    final content = await contentFuture;
 
     if (mounted) {
       setState(() {
         _content = content;
+        _guideHighlights = cityModel?.highlights.where((highlight) {
+          final imageUrl = highlight.imageUrl?.trim() ?? '';
+          return imageUrl.isNotEmpty;
+        }).toList() ?? [];
+        _guideHeroImageUrl = cityModel?.heroImage;
         _isLoading = false;
       });
     }
@@ -106,53 +139,85 @@ class _CityGuideDetailScreenState extends State<CityGuideDetailScreen> {
             controller: _scrollController,
             physics: const BouncingScrollPhysics(),
             slivers: [
-              // AppBar & Hero Image
+              // AppBar (Fotoğraflı ve Sabit)
               SliverAppBar(
-                expandedHeight: 300,
+                expandedHeight: 320,
+                collapsedHeight: 140, // Fotoğraf çok küçülmesin diye yüksek bir sınır
+                toolbarHeight: 60,
                 pinned: true,
                 backgroundColor: WanderlustColors.bgDark,
+                surfaceTintColor: Colors.transparent,
+                foregroundColor: Colors.white,
+                elevation: 0,
                 leading: IconButton(
-                  icon: const Icon(Icons.arrow_back_ios_new, color: Colors.white),
                   onPressed: () => Navigator.pop(context),
+                  icon: Icon(
+                    Icons.arrow_back_ios_new,
+                    color: _scrollOffset > 150 ? WanderlustColors.textWhite : Colors.white,
+                  ),
                 ),
-                flexibleSpace: FlexibleSpaceBar(
-                  background: Hero(
-                    tag: 'guide_img_${widget.city}',
-                    child: Stack(
-                      fit: StackFit.expand,
-                      children: [
-                        Image.network(
-                          widget.imageUrl,
-                          fit: BoxFit.cover,
-                          color: Colors.black.withOpacity(0.3),
-                          colorBlendMode: BlendMode.darken,
-                          loadingBuilder: (context, child, loadingProgress) {
-                            if (loadingProgress == null) return child;
-                            return Container(color: WanderlustColors.bgDark);
-                          },
-                          errorBuilder: (context, error, stackTrace) => Container(color: WanderlustColors.bgDark),
-                        ),
-                        Positioned(
-                          bottom: -1, // -1 to avoid any gap
-                          left: 0,
-                          right: 0,
-                          height: 100,
-                          child: Container(
-                            decoration: BoxDecoration(
-                              gradient: LinearGradient(
-                                begin: Alignment.topCenter,
-                                end: Alignment.bottomCenter,
-                                colors: [
-                                  WanderlustColors.bgDark.withOpacity(0.0),
-                                  WanderlustColors.bgDark,
-                                ],
-                              ),
+                title: Text(
+                  widget.city.toUpperCase(),
+                  style: GoogleFonts.poppins(
+                    color: _scrollOffset > 150 ? WanderlustColors.textWhite : Colors.white,
+                    fontSize: 18,
+                    fontWeight: FontWeight.bold,
+                    letterSpacing: 1.2,
+                  ),
+                ),
+                flexibleSpace: LayoutBuilder(
+                  builder: (context, constraints) {
+                    final top = constraints.biggest.height;
+                    // App bar'ın ne kadar küçüldüğünü hesaplıyoruz (140 civarına indiğinde collapsed say)
+                    final isCollapsed = top <= 150;
+                    
+                    return Hero(
+                      tag: 'guide_img_${widget.city}',
+                      child: Stack(
+                        fit: StackFit.expand,
+                        children: [
+                          Positioned.fill(
+                            child: ResilientNetworkImage(
+                              imageUrl: widget.imageUrl,
+                              placeName: widget.city,
+                              city: widget.city,
+                              category: 'guide',
+                              fit: BoxFit.cover,
+                              memCacheWidth: 900,
+                              memCacheHeight: 700,
+                              placeholderBuilder: (_) =>
+                                  Container(color: WanderlustColors.bgDark),
                             ),
                           ),
-                        ),
-                      ],
-                    ),
-                  ),
+                          Positioned.fill(
+                            child: Container(
+                              color: Colors.black.withOpacity(0.35),
+                            ),
+                          ),
+                          // Geçiş gradient'i (sadece tam açıkken veya yarı açıkken görünür)
+                          if (!isCollapsed)
+                            Positioned(
+                              bottom: -1,
+                              left: 0,
+                              right: 0,
+                              height: 100,
+                              child: Container(
+                                decoration: BoxDecoration(
+                                  gradient: LinearGradient(
+                                    begin: Alignment.topCenter,
+                                    end: Alignment.bottomCenter,
+                                    colors: [
+                                      WanderlustColors.bgDark.withOpacity(0.0),
+                                      WanderlustColors.bgDark,
+                                    ],
+                                  ),
+                                ),
+                              ),
+                            ),
+                        ],
+                      ),
+                    );
+                  },
                 ),
               ),
 
@@ -160,6 +225,9 @@ class _CityGuideDetailScreenState extends State<CityGuideDetailScreen> {
               SliverToBoxAdapter(
                 child: Container(
                   padding: const EdgeInsets.all(24),
+                  decoration: const BoxDecoration(
+                    color: WanderlustColors.bgDark,
+                  ),
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
@@ -197,9 +265,9 @@ class _CityGuideDetailScreenState extends State<CityGuideDetailScreen> {
                     decoration: BoxDecoration(
                       color: WanderlustColors.bgCard.withOpacity(0.8),
                       shape: BoxShape.circle,
-                      border: Border.all(color: const Color(0xFF2C2C4E).withOpacity(0.5)),
+                      border: Border.all(color: WanderlustColors.borderLight),
                     ),
-                    child: const Icon(Icons.keyboard_arrow_up_rounded, color: Color(0xFF9E9E9E), size: 28),
+                    child: const Icon(Icons.keyboard_arrow_up_rounded, color: WanderlustColors.textGrey, size: 28),
                   ),
                 ),
               ),
@@ -226,6 +294,8 @@ class _CityGuideDetailScreenState extends State<CityGuideDetailScreen> {
       "Why Now?"
     ];
     int sectionCount = 0;
+    int insertedVisualCount = 0;
+    final usedVisuals = <String>{};
 
     for (var line in lines) {
       final trimmedLine = line.trim();
@@ -258,7 +328,7 @@ class _CityGuideDetailScreenState extends State<CityGuideDetailScreen> {
       final bool shouldApplyKey = !isPremium && hasReachedTrigger && targetList.isEmpty && !trimmedLine.isEmpty;
 
       if (trimmedLine.isEmpty) {
-        targetList.add(const SizedBox(height: 12));
+        targetList.add(const SizedBox(height: 6));
         continue;
       }
 
@@ -271,13 +341,13 @@ class _CityGuideDetailScreenState extends State<CityGuideDetailScreen> {
         targetList.add(
           Padding(
             key: shouldApplyKey ? _triggerKey : null,
-            padding: const EdgeInsets.only(top: 20, bottom: 12),
+            padding: const EdgeInsets.only(top: 12, bottom: 6),
             child: Text(
               titleText,
               style: GoogleFonts.poppins(
-                color: Colors.white,
+                color: WanderlustColors.textWhite,
                 fontSize: 24,
-                fontWeight: FontWeight.bold,
+                fontWeight: FontWeight.w500,
               ),
             ),
           ),
@@ -286,9 +356,25 @@ class _CityGuideDetailScreenState extends State<CityGuideDetailScreen> {
         // H2/H3 Başlık - Premium Icon Header transformation
         final cleanLine = trimmedLine.replaceAll('#', '').trim();
         final iconData = _getCategoryIcon(cleanLine);
+        final currentSectionIndex = sectionCount;
         
         // Emojileri temizle
         String titleText = cleanLine.replaceAll(RegExp(r'(\u00a9|\u00ae|[\u2000-\u3300]|\ud83c[\ud000-\udfff]|\ud83d[\ud000-\udfff]|\ud83e[\ud000-\udfff])'), '').trim();
+
+        // SECTION VISUALS TEMPORARILY DISABLED - Code preserved for reactivation
+        // if (insertedVisualCount < 3 && _shouldShowSectionVisual(currentSectionIndex)) {
+        //   final visual = _pickSectionVisual(titleText, currentSectionIndex, usedVisuals);
+        //   if (visual != null) {
+        //     targetList.add(
+        //       Padding(
+        //         padding: const EdgeInsets.only(top: 8, bottom: 6),
+        //         child: _buildSectionVisualCard(visual),
+        //       ),
+        //     );
+        //     usedVisuals.add(visual.imageUrl);
+        //     insertedVisualCount++;
+        //   }
+        // }
 
         targetList.add(
           Padding(
@@ -303,7 +389,7 @@ class _CityGuideDetailScreenState extends State<CityGuideDetailScreen> {
         targetList.add(
           Padding(
             key: shouldApplyKey ? _triggerKey : null,
-            padding: const EdgeInsets.only(bottom: 8.0, left: 8.0),
+            padding: const EdgeInsets.only(bottom: 8.0),
             child: Row(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
@@ -319,7 +405,7 @@ class _CityGuideDetailScreenState extends State<CityGuideDetailScreen> {
         targetList.add(
           Padding(
             key: shouldApplyKey ? _triggerKey : null,
-            padding: const EdgeInsets.only(bottom: 8.0, left: 8.0),
+            padding: const EdgeInsets.only(bottom: 8.0),
             child: Row(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
@@ -337,7 +423,7 @@ class _CityGuideDetailScreenState extends State<CityGuideDetailScreen> {
             margin: const EdgeInsets.symmetric(vertical: 12),
             padding: const EdgeInsets.all(16),
             decoration: BoxDecoration(
-              color: Colors.white.withOpacity(0.05),
+              color: WanderlustColors.bgCardLight,
               border: const Border(left: BorderSide(color: WanderlustColors.accent, width: 4)),
               borderRadius: BorderRadius.circular(12),
             ),
@@ -391,6 +477,163 @@ class _CityGuideDetailScreenState extends State<CityGuideDetailScreen> {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: finalWidgets,
+    );
+  }
+
+  bool _shouldShowSectionVisual(int sectionIndex) {
+    return sectionIndex == 1 || sectionIndex == 3 || sectionIndex == 5;
+  }
+
+  _GuideSectionVisual? _pickSectionVisual(String title, int sectionIndex, Set<String> usedImageUrls) {
+    final heroImage = (_guideHeroImageUrl?.trim().isNotEmpty ?? false)
+        ? _guideHeroImageUrl!.trim()
+        : widget.imageUrl.trim();
+
+    final distinctCandidates = _guideHighlights.where((highlight) {
+      final imageUrl = highlight.imageUrl?.trim();
+      return imageUrl != null &&
+          imageUrl.isNotEmpty &&
+          imageUrl != heroImage &&
+          !usedImageUrls.contains(imageUrl);
+    }).toList();
+
+    final candidates = distinctCandidates.isNotEmpty
+        ? distinctCandidates
+        : _guideHighlights.where((highlight) {
+            final imageUrl = highlight.imageUrl?.trim();
+            return imageUrl != null && imageUrl.isNotEmpty && !usedImageUrls.contains(imageUrl);
+          }).toList();
+
+    if (candidates.isEmpty) {
+      if (heroImage.isEmpty || usedImageUrls.contains(heroImage)) return null;
+      return _GuideSectionVisual(imageUrls: [heroImage]);
+    }
+
+    candidates.sort((a, b) {
+      final scoreDiff = _scoreHighlightForSection(b, title).compareTo(_scoreHighlightForSection(a, title));
+      if (scoreDiff != 0) return scoreDiff;
+
+      final ratingDiff = (b.rating ?? 0).compareTo(a.rating ?? 0);
+      if (ratingDiff != 0) return ratingDiff;
+
+      return a.distanceFromCenter.compareTo(b.distanceFromCenter);
+    });
+
+    final fallbackUrls = candidates
+        .map((highlight) => highlight.imageUrl!.trim())
+        .where((url) => url.isNotEmpty)
+        .take(4)
+        .toList();
+
+    if (heroImage.isNotEmpty && !fallbackUrls.contains(heroImage)) {
+      fallbackUrls.add(heroImage);
+    }
+
+    if (fallbackUrls.isEmpty) {
+      return null;
+    }
+
+    return _GuideSectionVisual(
+      imageUrls: fallbackUrls,
+    );
+  }
+
+  int _scoreHighlightForSection(Highlight highlight, String title) {
+    final normalizedTitle = _normalize(title);
+    final bag = _normalize([
+      highlight.category,
+      highlight.name,
+      highlight.area,
+      highlight.description,
+      ...highlight.tags,
+    ].join(' '));
+
+    const foodKeywords = ['food', 'eat', 'yemek', 'lezzet', 'mutfak', 'gastronom', 'restaurant', 'restoran', 'cafe', 'kahve', 'coffee', 'bar', 'tapas'];
+    const cultureKeywords = ['history', 'tarih', 'hafiza', 'memory', 'heritage', 'antik', 'culture', 'kultur', 'art', 'sanat', 'museum', 'muze', 'architecture', 'mimari', 'gaudi'];
+    const neighborhoodKeywords = ['neighborhood', 'district', 'quarter', 'semt', 'mahalle', 'bolge', 'base', 'stay', 'konaklama', 'accommodation', 'otel', 'hotel'];
+    const transportKeywords = ['transport', 'ulasim', 'getting around', 'route', 'metro', 'train', 'tram', 'bus', 'airport'];
+    const natureKeywords = ['beach', 'sea', 'plaj', 'deniz', 'nature', 'doga', 'park', 'outdoor', 'hike'];
+    const nightlifeKeywords = ['nightlife', 'gece', 'eglence', 'cocktail', 'bar', 'wine'];
+    const shoppingKeywords = ['shopping', 'alisveris', 'market', 'bazaar', 'carsi'];
+    const coffeeKeywords = ['coffee', 'kahve', 'cafe', 'brunch', 'bakery', 'pastane'];
+
+    bool sectionHas(List<String> keywords) => keywords.any(normalizedTitle.contains);
+    int keywordScore(List<String> keywords, int weight) {
+      return keywords.fold(0, (total, keyword) => total + (bag.contains(keyword) ? weight : 0));
+    }
+
+    int score = ((highlight.rating ?? 0) * 4).round();
+    score += 12 - highlight.distanceFromCenter.clamp(0, 12).round();
+
+    if (sectionHas(foodKeywords)) {
+      score += 60 + keywordScore(foodKeywords, 8);
+    }
+    if (sectionHas(cultureKeywords)) {
+      score += 60 + keywordScore(cultureKeywords, 7);
+    }
+    if (sectionHas(natureKeywords)) {
+      score += 50 + keywordScore(natureKeywords, 8);
+    }
+    if (sectionHas(nightlifeKeywords)) {
+      score += 50 + keywordScore(nightlifeKeywords, 8);
+    }
+    if (sectionHas(shoppingKeywords)) {
+      score += 45 + keywordScore(shoppingKeywords, 7);
+    }
+    if (sectionHas(coffeeKeywords)) {
+      score += 45 + keywordScore(coffeeKeywords, 8);
+    }
+    if (sectionHas(neighborhoodKeywords)) {
+      score += 24;
+      if (highlight.distanceFromCenter <= 2.5) score += 18;
+      score += keywordScore(['mahalle', 'semt', 'district', 'quarter', 'center', 'merkez', 'street', 'sokak'], 5);
+    }
+    if (sectionHas(transportKeywords)) {
+      score += 16;
+      if (highlight.distanceFromCenter <= 1.5) score += 18;
+      score += keywordScore(['center', 'merkez', 'station', 'istasyon', 'metro'], 4);
+    }
+
+    return score;
+  }
+
+  Widget _buildSectionVisualCard(_GuideSectionVisual visual) {
+    return Container(
+      decoration: BoxDecoration(
+        borderRadius: BorderRadius.circular(18),
+        border: Border.all(color: WanderlustColors.borderLight),
+        boxShadow: [
+          BoxShadow(
+            color: Colors.black.withOpacity(0.18),
+            blurRadius: 18,
+            offset: const Offset(0, 10),
+          ),
+        ],
+      ),
+      child: ClipRRect(
+        borderRadius: BorderRadius.circular(18),
+        child: AspectRatio(
+          aspectRatio: 16 / 9,
+          child: _buildSectionVisualImage(visual.imageUrls),
+        ),
+      ),
+    );
+  }
+
+  Widget _buildSectionVisualImage(List<String> imageUrls, [int index = 0]) {
+    if (index >= imageUrls.length) {
+      return Container(color: WanderlustColors.bgCard);
+    }
+
+    return CachedNetworkImage(
+      imageUrl: firebaseCompatibleImageUrl(imageUrls[index]),
+      key: ValueKey(imageUrls[index]),
+      fit: BoxFit.cover,
+      fadeInDuration: Duration.zero,
+      fadeOutDuration: Duration.zero,
+      placeholder: (_, __) => Container(color: WanderlustColors.bgCard),
+      errorWidget: (_, __, ___) =>
+          _buildSectionVisualImage(imageUrls, index + 1),
     );
   }
 
@@ -488,46 +731,50 @@ class _CityGuideDetailScreenState extends State<CityGuideDetailScreen> {
 
   // Premium Section Header Widget
   Widget _buildSectionHeader(String title, IconData icon) {
+    final imagePath = _getCategoryImage(title);
     return Container(
-      margin: const EdgeInsets.only(top: 24, bottom: 16),
-      padding: const EdgeInsets.all(16),
+      margin: const EdgeInsets.only(top: 12, bottom: 8),
+      padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 10),
       decoration: BoxDecoration(
-        color: WanderlustColors.bgCard,
+        color: WanderlustColors.accent.withOpacity(0.08),
         borderRadius: BorderRadius.circular(14),
         border: Border.all(
-          color: const Color(0xFF2C2C4E).withOpacity(0.5),
+          color: WanderlustColors.borderLight,
           width: 1,
         ),
       ),
       child: Row(
         children: [
-          // Icon Container with Glow
-          Container(
-            padding: const EdgeInsets.all(10),
-            decoration: BoxDecoration(
-              color: WanderlustColors.accent.withOpacity(0.15),
-              borderRadius: BorderRadius.circular(12),
-              border: Border.all(
-                color: WanderlustColors.accent.withOpacity(0.3),
-                width: 1,
-              ),
-            ),
-            child: Icon(
-              icon,
-              color: WanderlustColors.accent,
-              size: 24,
-            ),
-          ),
-          const SizedBox(width: 16),
+          // Icon
+          imagePath != null
+              ? Image.asset(
+                  imagePath,
+                  width: 36,
+                  height: 36,
+                  fit: BoxFit.contain,
+                  color: WanderlustColors.accent,
+                  colorBlendMode: BlendMode.srcIn,
+                  errorBuilder: (context, error, stackTrace) => Icon(
+                    icon,
+                    color: WanderlustColors.accent,
+                    size: 36,
+                  ),
+                )
+              : Icon(
+                  icon,
+                  color: WanderlustColors.accent,
+                  size: 36,
+                ),
+          const SizedBox(width: 12),
           // Title
           Expanded(
             child: Text(
               title,
               style: GoogleFonts.poppins(
-                color: Colors.white,
-                fontSize: 18,
-                fontWeight: FontWeight.bold,
-                letterSpacing: 0.5,
+                color: WanderlustColors.textWhite,
+                fontSize: 16,
+                fontWeight: FontWeight.w500,
+                letterSpacing: 0.3,
               ),
             ),
           ),
@@ -536,24 +783,87 @@ class _CityGuideDetailScreenState extends State<CityGuideDetailScreen> {
     );
   }
 
-  IconData _getCategoryIcon(String text) {
-    // Keywords based matching since emojis are removed
+  String? _getCategoryImage(String text) {
     final t = text.toLowerCase();
-    
-    if (t.contains('finland') || t.contains('kış') || t.contains('winter')) return Icons.ac_unit_rounded;
-    if (t.contains('vienna') || t.contains('viyana') || t.contains('coffee') || t.contains('kahve')) return Icons.coffee_rounded;
-    if (t.contains('prague') || t.contains('prag') || t.contains('castle') || t.contains('kale')) return Icons.castle_rounded;
-    if (t.contains('tromso') || t.contains('norway') || t.contains('norveç')) return Icons.landscape_rounded;
-    if (t.contains('matera') || t.contains('cave') || t.contains('mağara')) return Icons.terrain_rounded;
-    if (t.contains('giethoorn') || t.contains('canal') || t.contains('kanal')) return Icons.water_rounded;
-    if (t.contains('food') || t.contains('yemek') || t.contains('gastronom') || t.contains('lezzet')) return Icons.restaurant_rounded;
-    if (t.contains('love') || t.contains('aşk') || t.contains('roman') || t.contains('couple')) return Icons.favorite_rounded;
-    if (t.contains('train') || t.contains('tren') || t.contains('metro')) return Icons.directions_transit_rounded;
-    if (t.contains('gem') || t.contains('hazine') || t.contains('keşif')) return Icons.diamond_rounded;
-    if (t.contains('guide') || t.contains('rehber')) return Icons.map_rounded;
-    
-    // Default
-    return Icons.place_rounded; 
+    if (t.contains('ne zaman') || t.contains('when to go') || t.contains('zaman gid') || t.contains('takvim') || t.contains('calendar')) {
+      return 'assets/icons/icon_calendar.png';
+    }
+    if (t.contains('nerede kal') || t.contains('where to stay') || t.contains('konaklama') || t.contains('accommodation')) {
+      return 'assets/icons/icon_bed.png';
+    }
+    if (t.contains('noktasından') || t.contains('a\'dan b\'ye') || t.contains('from a to') || 
+        t.contains('ulaş') || t.contains('ulasim') || t.contains('getting around') || 
+        t.contains('transport') || t.contains('mobility') || t.contains('lojistik') || 
+        t.contains('logistics') || t.contains('gezinme')) {
+      return 'assets/icons/icon_route.png';
+    }
+    if (t.contains('hafıza') || t.contains('memory') || t.contains('şehrin ruhu') || t.contains('tarihi miras') || t.contains('ancient')) {
+      return 'assets/icons/icon_history.png';
+    }
+    if (t.contains('lezzet') || t.contains('food map') || t.contains('yemek haritası') || t.contains('gastronom') || t.contains('mutfak') || t.contains('ne yenir') || t.contains('ne içilir') || t.contains('what to eat') || t.contains('what to drink')) {
+      return 'assets/icons/icon_food.png';
+    }
+    if (t.contains('fısıldadık') || t.contains('lokal sır') || t.contains('local secret') || t.contains('whisper') || t.contains('insider')) {
+      return 'assets/icons/local_sirlar.png';
+    }
+    if (t.contains('mutlaka') || t.contains('yapmadan dönme') || t.contains('must do') || t.contains('must-do') || t.contains('don\'t miss') || t.contains('kaçırma') || t.contains('semt rehberi') || t.contains('neighborhood guide') || t.contains('district guide')) {
+      return 'assets/icons/checklist.png';
+    }
+    return null;
+  }
+
+  IconData _getCategoryIcon(String text) {
+    final t = text.toLowerCase();
+
+    // When to go / Seasons
+    if (t.contains('ne zaman') || t.contains('when to') || t.contains('mevsim') || t.contains('season') || t.contains('timing') || t.contains('zaman gid')) return Icons.calendar_month_rounded;
+    // Accommodation
+    if (t.contains('nerede kal') || t.contains('konaklama') || t.contains('otel') || t.contains('hotel') || t.contains('where to stay') || t.contains('accommodation')) return Icons.hotel_rounded;
+    // Getting around / Transport
+    if (t.contains('ulaşım') || t.contains('ulasim') || t.contains('transport') || 
+        t.contains('getting around') || t.contains('gezinme') || t.contains('mobility') ||
+        t.contains('metro') || t.contains('tren') || t.contains('train') || 
+        t.contains('otobüs') || t.contains('bus') || t.contains('taksi') || t.contains('taxi')) return Icons.directions_transit_rounded;
+    // Food & Drink
+    if (t.contains('yemek') || t.contains('food') || t.contains('gastronom') || t.contains('lezzet') || t.contains('restoran') || t.contains('eating') || t.contains('cuisine') || t.contains('mutfak')) return Icons.restaurant_rounded;
+    // Neighborhoods / Districts
+    if (t.contains('semt') || t.contains('mahalle') || t.contains('neighborhood') || t.contains('district') || t.contains('quarter') || t.contains('bölge')) return Icons.location_city_rounded;
+    // Practical tips
+    if (t.contains('pratik') || t.contains('ipucu') || t.contains('tips') || t.contains('practical') || t.contains('önemli bilgi') || t.contains('bilinmesi')) return Icons.lightbulb_rounded;
+    // Budget / Money
+    if (t.contains('bütçe') || t.contains('budget') || t.contains('para') || t.contains('money') || t.contains('cost') || t.contains('fiyat')) return Icons.account_balance_wallet_rounded;
+    // Culture / Art / Museum
+    if (t.contains('kültür') || t.contains('culture') || t.contains('sanat') || t.contains('art') || t.contains('müze') || t.contains('museum')) return Icons.palette_rounded;
+    // Shopping
+    if (t.contains('alışveriş') || t.contains('shopping') || t.contains('çarşı') || t.contains('bazaar') || t.contains('market')) return Icons.shopping_bag_rounded;
+    // Nightlife
+    if (t.contains('gece hayat') || t.contains('nightlife') || t.contains('eğlence') || t.contains('entertainment')) return Icons.local_bar_rounded;
+    // Nature / Outdoor
+    if (t.contains('doğa') || t.contains('nature') || t.contains('park') || t.contains('hike') || t.contains('dağ') || t.contains('mountain') || t.contains('orman')) return Icons.nature_rounded;
+    // Beach / Sea
+    if (t.contains('plaj') || t.contains('beach') || t.contains('deniz') || t.contains('sea') || t.contains('kanal') || t.contains('canal')) return Icons.beach_access_rounded;
+    // Safety / Security
+    if (t.contains('güvenlik') || t.contains('safety') || t.contains('security') || t.contains('dikkat')) return Icons.shield_rounded;
+    // Language / Communication
+    if (t.contains('dil') || t.contains('language') || t.contains('iletişim')) return Icons.translate_rounded;
+    // History / Heritage
+    if (t.contains('tarih') || t.contains('history') || t.contains('heritage') || t.contains('antik') || t.contains('ancient')) return Icons.account_balance_rounded;
+    // Architecture / Landmarks
+    if (t.contains('mimari') || t.contains('architecture') || t.contains('landmark') || t.contains('anıt')) return Icons.domain_rounded;
+    // Winter / Snow
+    if (t.contains('kış') || t.contains('winter') || t.contains('snow') || t.contains('kar')) return Icons.ac_unit_rounded;
+    // Coffee / Cafe
+    if (t.contains('kahve') || t.contains('coffee') || t.contains('cafe')) return Icons.coffee_rounded;
+    // Castle / Palace
+    if (t.contains('kale') || t.contains('castle') || t.contains('saray') || t.contains('palace')) return Icons.castle_rounded;
+    // Romance
+    if (t.contains('aşk') || t.contains('love') || t.contains('roman') || t.contains('romantic')) return Icons.favorite_rounded;
+    // Exploration / Discovery
+    if (t.contains('keşif') || t.contains('explore') || t.contains('discover') || t.contains('hazine') || t.contains('gem')) return Icons.explore_rounded;
+    // General guide / overview
+    if (t.contains('guide') || t.contains('rehber') || t.contains('genel') || t.contains('overview')) return Icons.map_rounded;
+
+    return Icons.travel_explore_rounded;
   }
 
   /// **Bold** metinleri ve [Link](search:...) formatını ayrıştırır
@@ -584,19 +894,19 @@ class _CityGuideDetailScreenState extends State<CityGuideDetailScreen> {
           child: GestureDetector(
             onTap: () => _navigateToPlace(searchName),
             child: Container(
-              padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 2),
-              margin: const EdgeInsets.symmetric(horizontal: 2),
+              padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 2),
+              margin: const EdgeInsets.symmetric(horizontal: 1, vertical: 1),
               decoration: BoxDecoration(
-                color: WanderlustColors.accent.withOpacity(0.2),
-                borderRadius: BorderRadius.circular(6),
-                border: Border.all(color: WanderlustColors.accent.withOpacity(0.5)),
+                color: WanderlustColors.accent.withOpacity(0.1),
+                borderRadius: BorderRadius.circular(20),
               ),
               child: Text(
                 displayName,
                 style: GoogleFonts.poppins(
-                  color: WanderlustColors.accent,
+                  color: WanderlustColors.accentLight,
                   fontSize: 15,
                   fontWeight: FontWeight.w600,
+                  decoration: TextDecoration.none,
                 ),
               ),
             ),
@@ -611,10 +921,10 @@ class _CityGuideDetailScreenState extends State<CityGuideDetailScreen> {
         spans.addAll(_parseTextWithBold(text.substring(lastEnd)));
       }
 
-      return RichText(
-        text: TextSpan(
+      return Text.rich(
+        TextSpan(
           style: GoogleFonts.poppins(
-            color: Colors.white.withOpacity(0.85), 
+            color: WanderlustColors.textWhite, 
             fontSize: 16, 
             height: 1.6
           ),
@@ -627,7 +937,7 @@ class _CityGuideDetailScreenState extends State<CityGuideDetailScreen> {
     if (!text.contains('**')) {
       return Text(
         text,
-        style: GoogleFonts.poppins(color: Colors.white.withOpacity(0.85), fontSize: 16, height: 1.6),
+        style: GoogleFonts.poppins(color: WanderlustColors.textWhite, fontSize: 16, height: 1.6),
       );
     }
 
@@ -641,18 +951,18 @@ class _CityGuideDetailScreenState extends State<CityGuideDetailScreen> {
         spans.add(TextSpan(
           text: parts[i],
           style: GoogleFonts.poppins(
-            color: Colors.white, 
+            color: WanderlustColors.textWhite, 
             fontSize: 16,
-            fontWeight: FontWeight.bold
+            fontWeight: FontWeight.w500
           ),
         ));
       }
     }
 
-    return RichText(
-      text: TextSpan(
+    return Text.rich(
+      TextSpan(
         style: GoogleFonts.poppins(
-          color: Colors.white.withOpacity(0.85), 
+          color: WanderlustColors.textWhite, 
           fontSize: 16, 
           height: 1.6
         ),
@@ -676,7 +986,7 @@ class _CityGuideDetailScreenState extends State<CityGuideDetailScreen> {
       } else {
         spans.add(TextSpan(
           text: parts[i],
-          style: GoogleFonts.poppins(color: Colors.white, fontWeight: FontWeight.bold),
+          style: GoogleFonts.poppins(color: WanderlustColors.textWhite, fontWeight: FontWeight.w500),
         ));
       }
     }
@@ -753,6 +1063,8 @@ class _CityGuideDetailScreenState extends State<CityGuideDetailScreen> {
       }
 
       if (foundPlace != null && mounted) {
+        // Fotoğrafı prefetch et
+        ImagePrefetchService.prefetchSinglePhoto(context, foundPlace!.imageUrl, heroDecode: true);
         Navigator.push(
           context,
           MaterialPageRoute(builder: (_) => DetailScreen(place: foundPlace!)),

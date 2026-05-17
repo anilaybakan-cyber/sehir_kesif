@@ -2520,31 +2520,6 @@
       "source": "firebase"
     },
     {
-      "name": "Musée Vodou",
-      "name_en": "Vodou Museum",
-      "area": "Gare",
-      "category": "Müze",
-      "tags": [
-        "vudu",
-        "afrika",
-        "ilginç",
-        "mistik"
-      ],
-      "distanceFromCenter": 1.2,
-      "lat": 48.581,
-      "lng": 7.73,
-      "price": "medium",
-      "rating": 4.5,
-      "description": "Strazburg'un eski su kulesinde yer alan bu etkileyici müze, Batı Afrika Vodou'nun zengin tarihini, ritüellerini ve derin inançlarını barındırır. Avrupa'nın tek Vodou müzesidir.",
-      "description_en": "Located in Strasbourg's old water tower, this impressive museum houses West African Vodou's rich history, rituals, and profound beliefs. It is Europe's only Vodou museum.",
-      "bestTime": "Öğleden sonra",
-      "tips": "Ziyaret sonrası müze kafesinde Afrika esintili içecekleri deneyin.",
-      "tips_en": "After your visit, try African-inspired drinks at the museum cafe.",
-      "id": "musee-vodou",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/strazburg/musee-vodou.jpg",
-      "source": "firebase"
-    },
-    {
       "id": "musée-zoologique",
       "name": "Musée Zoologique",
       "name_en": "Musée Zoologique",
@@ -3962,32 +3937,6 @@
       "name_en": "Strazburg Katedrali"
     },
     {
-      "name": "Strazburg Tarih Müzesi (Musée Historique)",
-      "name_en": "Historical Museum of the City of Strasbourg",
-      "area": "Merkez",
-      "category": "Müze",
-      "tags": [
-        "tarih",
-        "şehir",
-        "interaktif",
-        "aile"
-      ],
-      "distanceFromCenter": 0.3,
-      "lat": 48.5795,
-      "lng": 7.7505,
-      "price": "medium",
-      "rating": 4.6,
-      "description": "1588 yapımı Rönesans Büyük Mezbahane'de yer alan müze, Strazburg'un Orta Çağ'dan günümüze zengin tarihini barındırır. Kentin gelişimini, kültürel mirasını etkileyici eserlerle canlandırır.",
-      "description_en": "This museum, in the 1588 Renaissance Great Slaughterhouse, chronicles Strasbourg's history from Middle Ages to present, showcasing urban development and cultural heritage.",
-      "bestTime": "Yağmurlu günler",
-      "tips": "Biletinizi çevrimiçi alın; hafta içi sabahları daha sakin olur.",
-      "tips_en": "Buy your ticket online; weekdays mornings are quieter.",
-      "id": "strazburg-tarih-muzesi-(musee-historique)",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/strazburg/strazburg-tarih-muzesi-_musee-historique_.jpg",
-      "source": "firebase",
-      "area_en": "Center"
-    },
-    {
       "name": "Synagogue de la Paix",
       "name_en": "Synagogue of Peace",
       "area": "Contades",
@@ -4082,35 +4031,6 @@
       "c_rating": 4.5,
       "source": "firebase",
       "rating": 4.4
-    },
-    {
-      "name": "Tomi Ungerer Müzesi",
-      "area": "Contades",
-      "category": "Müze",
-      "subcategory": "Sanat",
-      "tags": [
-        "sanat",
-        "strazburg",
-        "müze",
-        "illüstrasyon"
-      ],
-      "distanceFromCenter": 0,
-      "lat": 48.5855,
-      "lng": 7.7554,
-      "price": "medium",
-      "rating": 4.7,
-      "description": "Strazburg'da 18. yüzyıl villada yer alan bu müze, dünyaca ünlü Alsaslı sanatçı Tomi Ungerer'in özgün illüstrasyonlarını, çocuk kitaplarını ve hicivli eserlerini sergiler. Sanatçının yaratıcı evrenini keşfedin.",
-      "bestTime": "Gündüz",
-      "bestFor": [
-        "sanat",
-        "grafik"
-      ],
-      "source": "firebase",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/strazburg/tomi_ungerer_muzesi.jpg",
-      "tips": "Rohan Sarayı'nı ziyaretinizle birleştirerek kültürel bir gün geçirin.",
-      "description_en": "Housed in an 18th-century villa in Strasbourg, this museum showcases world-renowned Alsatian artist Tomi Ungerer's original illustrations, children's books, and satirical works. Explore the artist's creative universe.",
-      "tips_en": "Combine your visit with the Rohan Palace for a full cultural day.",
-      "name_en": "Tomi Ungerer Museum"
     },
     {
       "name": "Tonton Gâteau",
@@ -4406,36 +4326,6 @@
       "id": "eglise-saint-paul",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/strazburg/eglise-saint-paul.jpg",
       "source": "firebase"
-    },
-    {
-      "name": "Église Saint-Pierre-le-Jeune",
-      "name_en": "Saint-Pierre-le-Jeune Protestant Church",
-      "area": "Merkez",
-      "category": "Tarihi",
-      "tags": [
-        "church",
-        "kilise",
-        "sanat",
-        "fresk",
-        "double",
-        "history",
-        "gotik"
-      ],
-      "distanceFromCenter": 0.4,
-      "lat": 48.5855,
-      "lng": 7.7472,
-      "price": "free",
-      "rating": 4.7,
-      "description": "Strazburg'un bu etkileyici tarihi kilisesi, Romanesk manastırı, Gotik mimarisi, Orta Çağ freskleri ve ünlü Silbermann orguyla ziyaretçileri büyüler.",
-      "description_en": "Strasbourg's impressive historic church captivates visitors with its Romanesque cloister, Gothic architecture, medieval frescoes, and famous Silbermann organ.",
-      "bestTime": "Konser zamanı",
-      "tips": "Katedral kadar kalabalık değil, iç huzurunu mutlaka deneyimleyin.",
-      "tips_en": "Less crowded than the Cathedral, definitely experience its interior peace.",
-      "id": "eglise-saint-pierre-le-jeune",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/strazburg/eglise-saint-pierre-le-jeune.jpg",
-      "source": "firebase",
-      "subcategory": "Dini",
-      "area_en": "Center"
     },
     {
       "name": "Église Saint-Thomas",

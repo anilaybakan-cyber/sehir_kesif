@@ -50,7 +50,13 @@ def process_city(json_path: Path) -> int:
     with open(json_path, 'r', encoding='utf-8') as f:
         data = json.load(f)
     
-    highlights = data.get("highlights", [])
+    if isinstance(data, list):
+        highlights = data
+        is_list_root = True
+    else:
+        highlights = data.get("highlights", [])
+        is_list_root = False
+    
     original_count = len(highlights)
     
     # Filtreleme
@@ -77,7 +83,10 @@ def process_city(json_path: Path) -> int:
     
     # Sadece değişiklik varsa kaydet
     if len(valid_places) < original_count:
-        data["highlights"] = valid_places
+        if is_list_root:
+            data = valid_places
+        else:
+            data["highlights"] = valid_places
         
         with open(json_path, 'w', encoding='utf-8') as f:
             json.dump(data, f, ensure_ascii=False, indent=2)

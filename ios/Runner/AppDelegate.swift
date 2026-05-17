@@ -1,7 +1,6 @@
 import UIKit
 import Flutter
 import GoogleMaps
-import FirebaseCore
 import FirebaseMessaging
 import UserNotifications
 
@@ -12,25 +11,22 @@ import UserNotifications
     _ application: UIApplication,
     didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?
   ) -> Bool {
-
-    // 🔥 Firebase Configuration
-    FirebaseApp.configure()
-    
-    // 🔔 Push Notification Setup
-    UNUserNotificationCenter.current().delegate = self
-    
-    let authOptions: UNAuthorizationOptions = [.alert, .badge, .sound]
-    UNUserNotificationCenter.current().requestAuthorization(options: authOptions) { _, _ in }
-    
-    application.registerForRemoteNotifications()
-    
-    // Set Messaging delegate
-    Messaging.messaging().delegate = self
-
-    // 🚀 Google Maps SDK API Key
+    // 🚀 Google Maps SDK API Key (before Flutter engine)
     GMSServices.provideAPIKey("AIzaSyBSZJmb9IIINxWbxXgCLTPiWC9SLcaDrMk")
 
+    // Registers Flutter plugins; firebase_core configures FIRApp from GoogleService-Info.plist here.
     GeneratedPluginRegistrant.register(with: self)
+
+    // 🔔 Push / FCM — must run after FIRApp exists (see firebase_core FLTFirebaseCorePlugin).
+    UNUserNotificationCenter.current().delegate = self
+
+    let authOptions: UNAuthorizationOptions = [.alert, .badge, .sound]
+    UNUserNotificationCenter.current().requestAuthorization(options: authOptions) { _, _ in }
+
+    application.registerForRemoteNotifications()
+
+    Messaging.messaging().delegate = self
+
     return super.application(application, didFinishLaunchingWithOptions: launchOptions)
   }
   

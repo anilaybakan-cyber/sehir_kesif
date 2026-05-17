@@ -1,3 +1,5 @@
+from dotenv import load_dotenv
+load_dotenv()
 
 #!/usr/bin/env python3
 """
@@ -13,7 +15,7 @@ import firebase_admin
 from firebase_admin import credentials, storage
 
 # --- CONFIGURATION ---
-API_KEY = 'AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g'
+API_KEY = os.getenv("GOOGLE_MAPS_API_KEY")
 BUCKET_NAME = 'myway-3fe75.firebasestorage.app'
 CITY_FILE = "assets/cities/san_sebastian.json"
 

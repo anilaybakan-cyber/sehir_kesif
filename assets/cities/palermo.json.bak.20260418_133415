@@ -1,0 +1,1955 @@
+{
+  "city": "Palermo",
+  "city_en": "Palermo",
+  "country": "İtalya",
+  "country_en": "Italy",
+  "description": "Palermo, tarihi dokusu ve eşsiz Akdeniz lezzetleriyle sizi bekliyor.",
+  "description_en": "Palermo is waiting for you with its historical texture and unique Mediterranean flavors.",
+  "heroImage": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/hero.jpg",
+  "coordinates": {
+    "lat": 38.1157,
+    "lng": 13.3615
+  },
+  "highlights": [
+    {
+      "id": "ChIJySXqmGHvGRMRancw-ZBf2ow",
+      "name": "Palermo Cathedral",
+      "name_en": "Palermo Cathedral",
+      "category": "Deneyim",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1143321,
+      "lng": 13.3560504,
+      "rating": 4.7,
+      "reviewCount": 48713,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJySXqmGHvGRMRancw-ZBf2ow.jpg",
+      "description": "Palermo.bak.20260418_133415 sokaklarına özgün karakterini katan Palermo Cathedral, kentin modern enerjisini ve kültürel nabzını yansıtan kentsel bir prestij noktası ve sofistike bir kentsel sosyal durak kalesidir.",
+      "description_en": "Infusing the streets of Palermo.bak.20260418_133415 with its unique character, Palermo Cathedral is a sophisticated urban destination that reflects the town's modern energy and creative pulse.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJRT-UYGTvGRMRxSv7Jhaj7HE",
+      "name": "Palazzo dei Normanni",
+      "name_en": "Palazzo dei Normanni",
+      "category": "Tarihi",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1109199,
+      "lng": 13.3534896,
+      "rating": 4.5,
+      "reviewCount": 27151,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJRT-UYGTvGRMRxSv7Jhaj7HE.jpg",
+      "description": "Palermo.bak.20260418_133415 kentinin tarihi dokusunda önemli bir yer tutan Palazzo dei Normanni, kentin tarihsel evrimini ve kentsel hafızasını koruyan en entelektüel ve paha biçilemez kentsel duraklardan biridir.",
+      "description_en": "As a prestigious landmark of Palermo.bak.20260418_133415, Palazzo dei Normanni preserves the town's millennia-old memory and serves as an intellectual window into the historical evolution of the area.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJSc5EgvXlGRMRLUA6cDzA7I4",
+      "name": "Teatro Massimo di Palermo",
+      "name_en": "Teatro Massimo di Palermo",
+      "category": "Deneyim",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1202618,
+      "lng": 13.3574867,
+      "rating": 4.7,
+      "reviewCount": 55008,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJSc5EgvXlGRMRLUA6cDzA7I4.jpg",
+      "description": "Palermo.bak.20260418_133415 sokaklarına özgün karakterini katan Teatro Massimo di Palermo, kentin modern enerjisini ve kültürel nabzını yansıtan kentsel bir prestij noktası ve sofistike bir kentsel sosyal durak kalesidir.",
+      "description_en": "Infusing the streets of Palermo.bak.20260418_133415 with its unique character, Teatro Massimo di Palermo is a sophisticated urban destination that reflects the town's modern energy and creative pulse.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJmcmp1orlGRMRoPpbuqeU7yI",
+      "name": "Quattro Canti",
+      "name_en": "Quattro Canti",
+      "category": "Deneyim",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1156779,
+      "lng": 13.3614681,
+      "rating": 4.6,
+      "reviewCount": 29741,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJmcmp1orlGRMRoPpbuqeU7yI.jpg",
+      "description": "Palermo.bak.20260418_133415 kentinde kentsel konforu yerel estetikle birleştiren Quattro Canti, kentin sosyal ve kültürel dünyasına yüksek kaliteli bir kentsel dokunuş katan en samimi ve kentsel rotalardan biridir.",
+      "description_en": "As a refined social and cultural point in Palermo.bak.20260418_133415, Quattro Canti offers a high-quality experience that perfectly merges urban convenience with local aesthetic charm.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJG10YKgDlGRMRgvss8tSK0oc",
+      "name": "Mercato Ballarò",
+      "name_en": "Mercato Ballarò",
+      "category": "Deneyim",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1106144,
+      "lng": 13.3636751,
+      "rating": 4.4,
+      "reviewCount": 2410,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJG10YKgDlGRMRgvss8tSK0oc.jpg",
+      "description": "Palermo.bak.20260418_133415 kentinde kentsel konforu yerel estetikle birleştiren Mercato Ballarò, kentin sosyal ve kültürel dünyasına yüksek kaliteli bir kentsel dokunuş katan en samimi ve kentsel rotalardan biridir.",
+      "description_en": "As a refined social and cultural point in Palermo.bak.20260418_133415, Mercato Ballarò offers a high-quality experience that perfectly merges urban convenience with local aesthetic charm.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJqa3Qy4zlGRMR_rRzi8bB6_E",
+      "name": "Ancient Saint Francis Focaccia Shop",
+      "name_en": "Ancient Saint Francis Focaccia Shop",
+      "category": "Restoran",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1164139,
+      "lng": 13.3661155,
+      "rating": 3.9,
+      "reviewCount": 9602,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJqa3Qy4zlGRMR_rRzi8bB6_E.jpg",
+      "description": "Palermo.bak.20260418_133415 kentinin gastronomi dünyasında otantik lezzetleri ve dinamik sosyal atmosferiyle tanınan Ancient Saint Francis Focaccia Shop, yerel mutfak kültürünü en prestijli şekilde deneyimlemek isteyenlerin en samimi adresidir.",
+      "description_en": "A prestigious culinary destination in Palermo.bak.20260418_133415 known for its authentic flavors and vibrant social atmosphere, Ancient Saint Francis Focaccia Shop is the perfect spot for experiencing high-end local gastronomy.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJmR0M1EDoGRMRRUuwA7kLmZI",
+      "name": "Mondello Beach",
+      "name_en": "Mondello Beach",
+      "category": "Park",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.2000633,
+      "lng": 13.3285893,
+      "rating": 4.1,
+      "reviewCount": 6613,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJmR0M1EDoGRMRRUuwA7kLmZI.jpg",
+      "description": "Palermo.bak.20260418_133415 kentinin kentsel enerjisini ve kültürel kimliğini yansıtan Mondello Beach, kenti keşfeden gezginlerin kentsel keşif albümündeki en ikonik ve fotojenik kentsel duraklardan birisi haline gelmiştir.",
+      "description_en": "A prominent urban landmark in Palermo.bak.20260418_133415 that defines the area's contemporary spirit and cultural identity, Mondello Beach serves as a prestigious and unique stop for every traveler.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJAbBCq2XvGRMRdn8cRrtvzUc",
+      "name": "Catacombe dei Cappuccini di Palermo",
+      "name_en": "Catacombe dei Cappuccini di Palermo",
+      "category": "Tarihi",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.111884,
+      "lng": 13.3394885,
+      "rating": 4.3,
+      "reviewCount": 15244,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJAbBCq2XvGRMRdn8cRrtvzUc.jpg",
+      "description": "Antik dokularla Catacombe dei Cappuccini di Palermo ruhunu birleştiren bu tarihi nokta, Palermo.bak.20260418_133415 kentinin kültürel kimliğini tanımlayan ve kenti keşfedenlere mistik bir atmosfer sunan kentsel bir prestij kalesidir.",
+      "description_en": "This historical gemstone in Palermo.bak.20260418_133415 defines the local cultural identity, combining ancient textures with the timeless spirit of Catacombe dei Cappuccini di Palermo for every urban explorer.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJgRiIFZPlGRMRdETtrp3lnFk",
+      "name": "Orto Botanico di Palermo",
+      "name_en": "Orto Botanico di Palermo",
+      "category": "Tarihi",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1134249,
+      "lng": 13.3727197,
+      "rating": 4.3,
+      "reviewCount": 9141,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJgRiIFZPlGRMRdETtrp3lnFk.jpg",
+      "description": "Palermo.bak.20260418_133415 kentinin tarihi dokusunda önemli bir yer tutan Orto Botanico di Palermo, kentin tarihsel evrimini ve kentsel hafızasını koruyan en entelektüel ve paha biçilemez kentsel duraklardan biridir.",
+      "description_en": "As a prestigious landmark of Palermo.bak.20260418_133415, Orto Botanico di Palermo preserves the town's millennia-old memory and serves as an intellectual window into the historical evolution of the area.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJvzeqdArlGRMRcZKR-A3BYlM",
+      "name": "Castello di Maredolce",
+      "name_en": "Castello di Maredolce",
+      "category": "Deneyim",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.0924379,
+      "lng": 13.3872058,
+      "rating": 4.3,
+      "reviewCount": 683,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJvzeqdArlGRMRcZKR-A3BYlM.jpg",
+      "description": "Palermo.bak.20260418_133415 kentinin kentsel enerjisini ve kültürel kimliğini yansıtan Castello di Maredolce, kenti keşfeden gezginlerin kentsel keşif albümündeki en ikonik ve fotojenik kentsel duraklardan birisi haline gelmiştir.",
+      "description_en": "A prominent urban landmark in Palermo.bak.20260418_133415 that defines the area's contemporary spirit and cultural identity, Castello di Maredolce serves as a prestigious and unique stop for every traveler.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJkzHupj_uGRMRguQLH5DlPgM",
+      "name": "Cattedrale di Monreale",
+      "name_en": "Cattedrale di Monreale",
+      "category": "Deneyim",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.0820509,
+      "lng": 13.29207,
+      "rating": 4.8,
+      "reviewCount": 28621,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJkzHupj_uGRMRguQLH5DlPgM.jpg",
+      "description": "Palermo.bak.20260418_133415 kentinin kentsel enerjisini ve kültürel kimliğini yansıtan Cattedrale di Monreale, kenti keşfeden gezginlerin kentsel keşif albümündeki en ikonik ve fotojenik kentsel duraklardan birisi haline gelmiştir.",
+      "description_en": "A prominent urban landmark in Palermo.bak.20260418_133415 that defines the area's contemporary spirit and cultural identity, Cattedrale di Monreale serves as a prestigious and unique stop for every traveler.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJx6dblGjvGRMRAQF-0AWBCrs",
+      "name": "Zisa Palace",
+      "name_en": "Zisa Palace",
+      "category": "Tarihi",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1167484,
+      "lng": 13.3409998,
+      "rating": 4,
+      "reviewCount": 6296,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJx6dblGjvGRMRAQF-0AWBCrs.jpg",
+      "description": "Antik dokularla Zisa Palace ruhunu birleştiren bu tarihi nokta, Palermo.bak.20260418_133415 kentinin kültürel kimliğini tanımlayan ve kenti keşfedenlere mistik bir atmosfer sunan kentsel bir prestij kalesidir.",
+      "description_en": "This historical gemstone in Palermo.bak.20260418_133415 defines the local cultural identity, combining ancient textures with the timeless spirit of Zisa Palace for every urban explorer.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJ-yCxCYvlGRMRe2KmM4Jce74",
+      "name": "Church of Saint Mary 'dell'Ammiraglio'",
+      "name_en": "Church of Saint Mary 'dell'Ammiraglio'",
+      "category": "Deneyim",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1147661,
+      "lng": 13.3628684,
+      "rating": 4.7,
+      "reviewCount": 5281,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJ-yCxCYvlGRMRe2KmM4Jce74.jpg",
+      "description": "Palermo.bak.20260418_133415 sokaklarına özgün karakterini katan Church of Saint Mary 'dell'Ammiraglio', kentin modern enerjisini ve kültürel nabzını yansıtan kentsel bir prestij noktası ve sofistike bir kentsel sosyal durak kalesidir.",
+      "description_en": "Infusing the streets of Palermo.bak.20260418_133415 with its unique character, Church of Saint Mary 'dell'Ammiraglio' is a sophisticated urban destination that reflects the town's modern energy and creative pulse.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJw1LNEWPvGRMRmk2WBMFIiUY",
+      "name": "Church of Saint John of the Hermits",
+      "name_en": "Church of Saint John of the Hermits",
+      "category": "Deneyim",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1096541,
+      "lng": 13.3546925,
+      "rating": 4.2,
+      "reviewCount": 2186,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJw1LNEWPvGRMRmk2WBMFIiUY.jpg",
+      "description": "Palermo.bak.20260418_133415 sokaklarına özgün karakterini katan Church of Saint John of the Hermits, kentin modern enerjisini ve kültürel nabzını yansıtan kentsel bir prestij noktası ve sofistike bir kentsel sosyal durak kalesidir.",
+      "description_en": "Infusing the streets of Palermo.bak.20260418_133415 with its unique character, Church of Saint John of the Hermits is a sophisticated urban destination that reflects the town's modern energy and creative pulse.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJ7QutmfLlGRMR9yogB-r7xBM",
+      "name": "Palazzo Chiaramonte Steri",
+      "name_en": "Palazzo Chiaramonte Steri",
+      "category": "Tarihi",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1176061,
+      "lng": 13.3699534,
+      "rating": 4.5,
+      "reviewCount": 1085,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJ7QutmfLlGRMR9yogB-r7xBM.jpg",
+      "description": "Palermo.bak.20260418_133415 kentinin tarihi dokusunda önemli bir yer tutan Palazzo Chiaramonte Steri, kentin tarihsel evrimini ve kentsel hafızasını koruyan en entelektüel ve paha biçilemez kentsel duraklardan biridir.",
+      "description_en": "As a prestigious landmark of Palermo.bak.20260418_133415, Palazzo Chiaramonte Steri preserves the town's millennia-old memory and serves as an intellectual window into the historical evolution of the area.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJZyhJN_TlGRMRq45_m-kIhZI",
+      "name": "Museo Palazzo Branciforte",
+      "name_en": "Museo Palazzo Branciforte",
+      "category": "Tarihi",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1213457,
+      "lng": 13.3622618,
+      "rating": 4.5,
+      "reviewCount": 848,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJZyhJN_TlGRMRq45_m-kIhZI.jpg",
+      "description": "Palermo.bak.20260418_133415 kentinin tarihi dokusunda önemli bir yer tutan Museo Palazzo Branciforte, kentin tarihsel evrimini ve kentsel hafızasını koruyan en entelektüel ve paha biçilemez kentsel duraklardan biridir.",
+      "description_en": "As a prestigious landmark of Palermo.bak.20260418_133415, Museo Palazzo Branciforte preserves the town's millennia-old memory and serves as an intellectual window into the historical evolution of the area.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJeTXhCmnvGRMRAAjdDr9mZ1o",
+      "name": "Giardino della Zisa",
+      "name_en": "Giardino della Zisa",
+      "category": "Deneyim",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1167668,
+      "lng": 13.3429988,
+      "rating": 4.1,
+      "reviewCount": 1454,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJeTXhCmnvGRMRAAjdDr9mZ1o.jpg",
+      "description": "Palermo.bak.20260418_133415 kentinde kentsel konforu yerel estetikle birleştiren Giardino della Zisa, kentin sosyal ve kültürel dünyasına yüksek kaliteli bir kentsel dokunuş katan en samimi ve kentsel rotalardan biridir.",
+      "description_en": "As a refined social and cultural point in Palermo.bak.20260418_133415, Giardino della Zisa offers a high-quality experience that perfectly merges urban convenience with local aesthetic charm.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJx0nhgu3lGRMRXpGbOLuKCp8",
+      "name": "Palazzo Butera",
+      "name_en": "Palazzo Butera",
+      "category": "Tarihi",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1187306,
+      "lng": 13.3711393,
+      "rating": 4.7,
+      "reviewCount": 1740,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJx0nhgu3lGRMRXpGbOLuKCp8.jpg",
+      "description": "Palermo.bak.20260418_133415 kentinin tarihi dokusunda önemli bir yer tutan Palazzo Butera, kentin tarihsel evrimini ve kentsel hafızasını koruyan en entelektüel ve paha biçilemez kentsel duraklardan biridir.",
+      "description_en": "As a prestigious landmark of Palermo.bak.20260418_133415, Palazzo Butera preserves the town's millennia-old memory and serves as an intellectual window into the historical evolution of the area.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJve2AJlLvGRMRGxGT5xHWufI",
+      "name": "Pinacoteca Villa Zito",
+      "name_en": "Pinacoteca Villa Zito",
+      "category": "Tarihi",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1343728,
+      "lng": 13.348981,
+      "rating": 4.4,
+      "reviewCount": 763,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJve2AJlLvGRMRGxGT5xHWufI.jpg",
+      "description": "Antik dokularla Pinacoteca Villa Zito ruhunu birleştiren bu tarihi nokta, Palermo.bak.20260418_133415 kentinin kültürel kimliğini tanımlayan ve kenti keşfedenlere mistik bir atmosfer sunan kentsel bir prestij kalesidir.",
+      "description_en": "This historical gemstone in Palermo.bak.20260418_133415 defines the local cultural identity, combining ancient textures with the timeless spirit of Pinacoteca Villa Zito for every urban explorer.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJrYsnBYvlGRMRZH2trxu40uA",
+      "name": "Palazzo Pretorio",
+      "name_en": "Palazzo Pretorio",
+      "category": "Deneyim",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1151377,
+      "lng": 13.3622151,
+      "rating": 4.5,
+      "reviewCount": 299,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJrYsnBYvlGRMRZH2trxu40uA.jpg",
+      "description": "Palermo.bak.20260418_133415 kentinde kentsel konforu yerel estetikle birleştiren Palazzo Pretorio, kentin sosyal ve kültürel dünyasına yüksek kaliteli bir kentsel dokunuş katan en samimi ve kentsel rotalardan biridir.",
+      "description_en": "As a refined social and cultural point in Palermo.bak.20260418_133415, Palazzo Pretorio offers a high-quality experience that perfectly merges urban convenience with local aesthetic charm.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJwdYMXorlGRMRTUdJoNw1MpE",
+      "name": "Palazzo Alliata Villafranca",
+      "name_en": "Palazzo Alliata Villafranca",
+      "category": "Tarihi",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1145137,
+      "lng": 13.3602049,
+      "rating": 4.5,
+      "reviewCount": 296,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJwdYMXorlGRMRTUdJoNw1MpE.jpg",
+      "description": "Antik dokularla Palazzo Alliata Villafranca ruhunu birleştiren bu tarihi nokta, Palermo.bak.20260418_133415 kentinin kültürel kimliğini tanımlayan ve kenti keşfedenlere mistik bir atmosfer sunan kentsel bir prestij kalesidir.",
+      "description_en": "This historical gemstone in Palermo.bak.20260418_133415 defines the local cultural identity, combining ancient textures with the timeless spirit of Palazzo Alliata Villafranca for every urban explorer.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJBdptXPPlGRMRjD2xsM1dm1k",
+      "name": "Fountain Garraffello",
+      "name_en": "Fountain Garraffello",
+      "category": "Deneyim",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.117938,
+      "lng": 13.3649765,
+      "rating": 4.3,
+      "reviewCount": 194,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJBdptXPPlGRMRjD2xsM1dm1k.jpg",
+      "description": "Palermo.bak.20260418_133415 kentinde kentsel konforu yerel estetikle birleştiren Fountain Garraffello, kentin sosyal ve kültürel dünyasına yüksek kaliteli bir kentsel dokunuş katan en samimi ve kentsel rotalardan biridir.",
+      "description_en": "As a refined social and cultural point in Palermo.bak.20260418_133415, Fountain Garraffello offers a high-quality experience that perfectly merges urban convenience with local aesthetic charm.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJD3OQmGHvGRMRgM9ggaJA1IM",
+      "name": "Cassaro Alto",
+      "name_en": "Cassaro Alto",
+      "category": "Deneyim",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.113638,
+      "lng": 13.3563894,
+      "rating": 4.7,
+      "reviewCount": 129,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJD3OQmGHvGRMRgM9ggaJA1IM.jpg",
+      "description": "Palermo.bak.20260418_133415 kentinin kentsel enerjisini ve kültürel kimliğini yansıtan Cassaro Alto, kenti keşfeden gezginlerin kentsel keşif albümündeki en ikonik ve fotojenik kentsel duraklardan birisi haline gelmiştir.",
+      "description_en": "A prominent urban landmark in Palermo.bak.20260418_133415 that defines the area's contemporary spirit and cultural identity, Cassaro Alto serves as a prestigious and unique stop for every traveler.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJXYdgcPTlGRMR37-EfZiRi9U",
+      "name": "Chiesa di Santa Maria in Valverde",
+      "name_en": "Chiesa di Santa Maria in Valverde",
+      "category": "Deneyim",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1203544,
+      "lng": 13.3640115,
+      "rating": 4.6,
+      "reviewCount": 107,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJXYdgcPTlGRMR37-EfZiRi9U.jpg",
+      "description": "Palermo.bak.20260418_133415 kentinin kentsel enerjisini ve kültürel kimliğini yansıtan Chiesa di Santa Maria in Valverde, kenti keşfeden gezginlerin kentsel keşif albümündeki en ikonik ve fotojenik kentsel duraklardan birisi haline gelmiştir.",
+      "description_en": "A prominent urban landmark in Palermo.bak.20260418_133415 that defines the area's contemporary spirit and cultural identity, Chiesa di Santa Maria in Valverde serves as a prestigious and unique stop for every traveler.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJ9cscy_LlGRMR0Maz86dHzxI",
+      "name": "Museo Palazzo Mirto Casa Museo",
+      "name_en": "Museo Palazzo Mirto Casa Museo",
+      "category": "Tarihi",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1165949,
+      "lng": 13.3682341,
+      "rating": 4.5,
+      "reviewCount": 1292,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJ9cscy_LlGRMR0Maz86dHzxI.jpg",
+      "description": "Antik dokularla Museo Palazzo Mirto Casa Museo ruhunu birleştiren bu tarihi nokta, Palermo.bak.20260418_133415 kentinin kültürel kimliğini tanımlayan ve kenti keşfedenlere mistik bir atmosfer sunan kentsel bir prestij kalesidir.",
+      "description_en": "This historical gemstone in Palermo.bak.20260418_133415 defines the local cultural identity, combining ancient textures with the timeless spirit of Museo Palazzo Mirto Casa Museo for every urban explorer.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJ9T0wNI3lGRMRAOOwKDoL0K8",
+      "name": "Palazzo Cefalà",
+      "name_en": "Palazzo Cefalà",
+      "category": "Deneyim",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1158701,
+      "lng": 13.3687385,
+      "rating": 4.3,
+      "reviewCount": 19,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJ9T0wNI3lGRMRAOOwKDoL0K8.jpg",
+      "description": "Palermo.bak.20260418_133415 kentinde kentsel konforu yerel estetikle birleştiren Palazzo Cefalà, kentin sosyal ve kültürel dünyasına yüksek kaliteli bir kentsel dokunuş katan en samimi ve kentsel rotalardan biridir.",
+      "description_en": "As a refined social and cultural point in Palermo.bak.20260418_133415, Palazzo Cefalà offers a high-quality experience that perfectly merges urban convenience with local aesthetic charm.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJc4iJgWLvGRMR6Dj_AfKFaQQ",
+      "name": "Chiesa di San Francesco Saverio",
+      "name_en": "Chiesa di San Francesco Saverio",
+      "category": "Deneyim",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1094713,
+      "lng": 13.3584889,
+      "rating": 4.5,
+      "reviewCount": 599,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJc4iJgWLvGRMR6Dj_AfKFaQQ.jpg",
+      "description": "Palermo.bak.20260418_133415 kentinde kentsel konforu yerel estetikle birleştiren Chiesa di San Francesco Saverio, kentin sosyal ve kültürel dünyasına yüksek kaliteli bir kentsel dokunuş katan en samimi ve kentsel rotalardan biridir.",
+      "description_en": "As a refined social and cultural point in Palermo.bak.20260418_133415, Chiesa di San Francesco Saverio offers a high-quality experience that perfectly merges urban convenience with local aesthetic charm.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJP8oZngXmGRMRbm5p2U-8e3g",
+      "name": "Villa Igiea, a Rocco Forte hotel",
+      "name_en": "Villa Igiea, a Rocco Forte hotel",
+      "category": "Restoran",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1447009,
+      "lng": 13.3694914,
+      "rating": 4.6,
+      "reviewCount": 1701,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJP8oZngXmGRMRbm5p2U-8e3g.jpg",
+      "description": "Yerel malzemelere ve kentsel mutfak sanatına olan bağlılığıyla tanınan Villa Igiea, a Rocco Forte hotel, Palermo.bak.20260418_133415 kentinin kalbindeki en stil sahibi kentsel lezzet duraklarından biri olarak öne çıkan bir kentsel merkezdir.",
+      "description_en": "Renowned for its commitment to local ingredients and urban culinary art, Villa Igiea, a Rocco Forte hotel stands as a flavor stronghold in the heart of Palermo.bak.20260418_133415's vibrant dining scene.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJP4kPbe3lGRMRKRaeswZ-LYU",
+      "name": "Hotel Porta Felice",
+      "name_en": "Hotel Porta Felice",
+      "category": "Restoran",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1179691,
+      "lng": 13.3715038,
+      "rating": 4.4,
+      "reviewCount": 665,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJP4kPbe3lGRMRKRaeswZ-LYU.jpg",
+      "description": "Yerel malzemelere ve kentsel mutfak sanatına olan bağlılığıyla tanınan Hotel Porta Felice, Palermo.bak.20260418_133415 kentinin kalbindeki en stil sahibi kentsel lezzet duraklarından biri olarak öne çıkan bir kentsel merkezdir.",
+      "description_en": "Renowned for its commitment to local ingredients and urban culinary art, Hotel Porta Felice stands as a flavor stronghold in the heart of Palermo.bak.20260418_133415's vibrant dining scene.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJ55vUrYzlGRMRBiTa155CRKU",
+      "name": "Grand Hotel Piazza Borsa",
+      "name_en": "Grand Hotel Piazza Borsa",
+      "category": "Restoran",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.116609,
+      "lng": 13.3653043,
+      "rating": 4.5,
+      "reviewCount": 933,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJ55vUrYzlGRMRBiTa155CRKU.jpg",
+      "description": "Palermo.bak.20260418_133415 kentinin gastronomi dünyasında otantik lezzetleri ve dinamik sosyal atmosferiyle tanınan Grand Hotel Piazza Borsa, yerel mutfak kültürünü en prestijli şekilde deneyimlemek isteyenlerin en samimi adresidir.",
+      "description_en": "A prestigious culinary destination in Palermo.bak.20260418_133415 known for its authentic flavors and vibrant social atmosphere, Grand Hotel Piazza Borsa is the perfect spot for experiencing high-end local gastronomy.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJKaNCGPblGRMR1cDUQhBtiKc",
+      "name": "Grand Hotel et Des Palmes",
+      "name_en": "Grand Hotel et Des Palmes",
+      "category": "Restoran",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1239142,
+      "lng": 13.3593181,
+      "rating": 4.3,
+      "reviewCount": 969,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJKaNCGPblGRMR1cDUQhBtiKc.jpg",
+      "description": "Geleneksel tarifleri modern bir kentsel dokunuşla harmanlayan Grand Hotel et Des Palmes, Palermo.bak.20260418_133415 kentinde gurme lezzetler arayan sosyal gezginler için şık ve kentsel bir lezzet kaçış rotası vaat etmektedir.",
+      "description_en": "Merging traditional recipes with modern urban flair, this restaurant offers a sophisticated social escape for food lovers visiting Grand Hotel et Des Palmes in Palermo.bak.20260418_133415.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJeS5PJYrlGRMRCWm_zaLu94g",
+      "name": "Palazzo Brunaccini",
+      "name_en": "Palazzo Brunaccini",
+      "category": "Restoran",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1123572,
+      "lng": 13.3608552,
+      "rating": 4.3,
+      "reviewCount": 508,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJeS5PJYrlGRMRCWm_zaLu94g.jpg",
+      "description": "Yerel malzemelere ve kentsel mutfak sanatına olan bağlılığıyla tanınan Palazzo Brunaccini, Palermo.bak.20260418_133415 kentinin kalbindeki en stil sahibi kentsel lezzet duraklarından biri olarak öne çıkan bir kentsel merkezdir.",
+      "description_en": "Renowned for its commitment to local ingredients and urban culinary art, Palazzo Brunaccini stands as a flavor stronghold in the heart of Palermo.bak.20260418_133415's vibrant dining scene.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJiSRHEWXoGRMR14Mx8bmwqQU",
+      "name": "Addaura Hotel Residence Congressi",
+      "name_en": "Addaura Hotel Residence Congressi",
+      "category": "Restoran",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1900372,
+      "lng": 13.3450871,
+      "rating": 3.9,
+      "reviewCount": 729,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJiSRHEWXoGRMR14Mx8bmwqQU.jpg",
+      "description": "Palermo.bak.20260418_133415 kentinin gastronomi dünyasında otantik lezzetleri ve dinamik sosyal atmosferiyle tanınan Addaura Hotel Residence Congressi, yerel mutfak kültürünü en prestijli şekilde deneyimlemek isteyenlerin en samimi adresidir.",
+      "description_en": "A prestigious culinary destination in Palermo.bak.20260418_133415 known for its authentic flavors and vibrant social atmosphere, Addaura Hotel Residence Congressi is the perfect spot for experiencing high-end local gastronomy.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJZaH0fYzlGRMRVsteab1WvhE",
+      "name": "Hotel Ambasciatori",
+      "name_en": "Hotel Ambasciatori",
+      "category": "Restoran",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.11412079999999,
+      "lng": 13.3650601,
+      "rating": 4.2,
+      "reviewCount": 584,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJZaH0fYzlGRMRVsteab1WvhE.jpg",
+      "description": "Geleneksel tarifleri modern bir kentsel dokunuşla harmanlayan Hotel Ambasciatori, Palermo.bak.20260418_133415 kentinde gurme lezzetler arayan sosyal gezginler için şık ve kentsel bir lezzet kaçış rotası vaat etmektedir.",
+      "description_en": "Merging traditional recipes with modern urban flair, this restaurant offers a sophisticated social escape for food lovers visiting Hotel Ambasciatori in Palermo.bak.20260418_133415.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJkSXlxk_uGRMR8CizJKruDyg",
+      "name": "La Locanda Del Drago",
+      "name_en": "La Locanda Del Drago",
+      "category": "Restoran",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.0917508,
+      "lng": 13.3028187,
+      "rating": 4.4,
+      "reviewCount": 943,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJkSXlxk_uGRMR8CizJKruDyg.jpg",
+      "description": "Geleneksel tarifleri modern bir kentsel dokunuşla harmanlayan La Locanda Del Drago, Palermo.bak.20260418_133415 kentinde gurme lezzetler arayan sosyal gezginler için şık ve kentsel bir lezzet kaçış rotası vaat etmektedir.",
+      "description_en": "Merging traditional recipes with modern urban flair, this restaurant offers a sophisticated social escape for food lovers visiting La Locanda Del Drago in Palermo.bak.20260418_133415.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJPRLBIvblGRMRPzdsiTrK3Ko",
+      "name": "Il Mirto e la Rosa",
+      "name_en": "Il Mirto e la Rosa",
+      "category": "Restoran",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1243312,
+      "lng": 13.359717,
+      "rating": 4.2,
+      "reviewCount": 1132,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJPRLBIvblGRMRPzdsiTrK3Ko.jpg",
+      "description": "Geleneksel tarifleri modern bir kentsel dokunuşla harmanlayan Il Mirto e la Rosa, Palermo.bak.20260418_133415 kentinde gurme lezzetler arayan sosyal gezginler için şık ve kentsel bir lezzet kaçış rotası vaat etmektedir.",
+      "description_en": "Merging traditional recipes with modern urban flair, this restaurant offers a sophisticated social escape for food lovers visiting Il Mirto e la Rosa in Palermo.bak.20260418_133415.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJG3uE-17vGRMRsRndhcmIUrY",
+      "name": "Falstaff Steakhouse",
+      "name_en": "Falstaff Steakhouse",
+      "category": "Restoran",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1212695,
+      "lng": 13.3560071,
+      "rating": 4.2,
+      "reviewCount": 497,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJG3uE-17vGRMRsRndhcmIUrY.jpg",
+      "description": "Geleneksel tarifleri modern bir kentsel dokunuşla harmanlayan Falstaff Steakhouse, Palermo.bak.20260418_133415 kentinde gurme lezzetler arayan sosyal gezginler için şık ve kentsel bir lezzet kaçış rotası vaat etmektedir.",
+      "description_en": "Merging traditional recipes with modern urban flair, this restaurant offers a sophisticated social escape for food lovers visiting Falstaff Steakhouse in Palermo.bak.20260418_133415.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJwaN8sezlGRMRu-kfRv3Gg4o",
+      "name": "Kalhesa Restaurant & Sushi Bar",
+      "name_en": "Kalhesa Restaurant & Sushi Bar",
+      "category": "Restoran",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.115808,
+      "lng": 13.374535,
+      "rating": 4,
+      "reviewCount": 566,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJwaN8sezlGRMRu-kfRv3Gg4o.jpg",
+      "description": "Palermo.bak.20260418_133415 kentinin gastronomi dünyasında otantik lezzetleri ve dinamik sosyal atmosferiyle tanınan Kalhesa Restaurant & Sushi Bar, yerel mutfak kültürünü en prestijli şekilde deneyimlemek isteyenlerin en samimi adresidir.",
+      "description_en": "A prestigious culinary destination in Palermo.bak.20260418_133415 known for its authentic flavors and vibrant social atmosphere, Kalhesa Restaurant & Sushi Bar is the perfect spot for experiencing high-end local gastronomy.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJg0bPmErvGRMR-bYg9o25lAc",
+      "name": "Di Giovanni Express (ON LINE)",
+      "name_en": "Di Giovanni Express (ON LINE)",
+      "category": "Restoran",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1281126,
+      "lng": 13.3564913,
+      "rating": 3.9,
+      "reviewCount": 246,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJg0bPmErvGRMR-bYg9o25lAc.jpg",
+      "description": "Palermo.bak.20260418_133415 kentinin gastronomi dünyasında otantik lezzetleri ve dinamik sosyal atmosferiyle tanınan Di Giovanni Express (ON LINE), yerel mutfak kültürünü en prestijli şekilde deneyimlemek isteyenlerin en samimi adresidir.",
+      "description_en": "A prestigious culinary destination in Palermo.bak.20260418_133415 known for its authentic flavors and vibrant social atmosphere, Di Giovanni Express (ON LINE) is the perfect spot for experiencing high-end local gastronomy.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJswLAWU3vGRMRQH0qGSpTb-Y",
+      "name": "Il Baro",
+      "name_en": "Il Baro",
+      "category": "Restoran",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1391915,
+      "lng": 13.3469835,
+      "rating": 4.3,
+      "reviewCount": 1811,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJswLAWU3vGRMRQH0qGSpTb-Y.jpg",
+      "description": "Geleneksel tarifleri modern bir kentsel dokunuşla harmanlayan Il Baro, Palermo.bak.20260418_133415 kentinde gurme lezzetler arayan sosyal gezginler için şık ve kentsel bir lezzet kaçış rotası vaat etmektedir.",
+      "description_en": "Merging traditional recipes with modern urban flair, this restaurant offers a sophisticated social escape for food lovers visiting Il Baro in Palermo.bak.20260418_133415.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJRcAttmPvGRMR74v7t47GfUs",
+      "name": "Ai Normanni",
+      "name_en": "Ai Normanni",
+      "category": "Restoran",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1115378,
+      "lng": 13.355503,
+      "rating": 4.4,
+      "reviewCount": 887,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJRcAttmPvGRMR74v7t47GfUs.jpg",
+      "description": "Geleneksel tarifleri modern bir kentsel dokunuşla harmanlayan Ai Normanni, Palermo.bak.20260418_133415 kentinde gurme lezzetler arayan sosyal gezginler için şık ve kentsel bir lezzet kaçış rotası vaat etmektedir.",
+      "description_en": "Merging traditional recipes with modern urban flair, this restaurant offers a sophisticated social escape for food lovers visiting Ai Normanni in Palermo.bak.20260418_133415.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJb1k_6FrvGRMRxl6S7Y0zhXQ",
+      "name": "La Corte dei Mangioni Savoca OSTERIA 1999",
+      "name_en": "La Corte dei Mangioni Savoca OSTERIA 1999",
+      "category": "Restoran",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1273115,
+      "lng": 13.3487366,
+      "rating": 4.1,
+      "reviewCount": 4345,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJb1k_6FrvGRMRxl6S7Y0zhXQ.jpg",
+      "description": "Geleneksel tarifleri modern bir kentsel dokunuşla harmanlayan La Corte dei Mangioni Savoca OSTERIA 1999, Palermo.bak.20260418_133415 kentinde gurme lezzetler arayan sosyal gezginler için şık ve kentsel bir lezzet kaçış rotası vaat etmektedir.",
+      "description_en": "Merging traditional recipes with modern urban flair, this restaurant offers a sophisticated social escape for food lovers visiting La Corte dei Mangioni Savoca OSTERIA 1999 in Palermo.bak.20260418_133415.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJhzlWjYzlGRMR8K-_eldHeYg",
+      "name": "Osteria dei Vespri",
+      "name_en": "Osteria dei Vespri",
+      "category": "Restoran",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1146974,
+      "lng": 13.3658433,
+      "rating": 4.1,
+      "reviewCount": 681,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJhzlWjYzlGRMR8K-_eldHeYg.jpg",
+      "description": "Palermo.bak.20260418_133415 kentinin gastronomi dünyasında otantik lezzetleri ve dinamik sosyal atmosferiyle tanınan Osteria dei Vespri, yerel mutfak kültürünü en prestijli şekilde deneyimlemek isteyenlerin en samimi adresidir.",
+      "description_en": "A prestigious culinary destination in Palermo.bak.20260418_133415 known for its authentic flavors and vibrant social atmosphere, Osteria dei Vespri is the perfect spot for experiencing high-end local gastronomy.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJsaJyf_XlGRMRGav6xTYU9uo",
+      "name": "Ristorante Pizzeria Dal Marchese Palermo",
+      "name_en": "Ristorante Pizzeria Dal Marchese Palermo",
+      "category": "Restoran",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.12404799999999,
+      "lng": 13.3645,
+      "rating": 4,
+      "reviewCount": 81,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJsaJyf_XlGRMRGav6xTYU9uo.jpg",
+      "description": "Palermo.bak.20260418_133415 kentinin gastronomi dünyasında otantik lezzetleri ve dinamik sosyal atmosferiyle tanınan Ristorante Pizzeria Dal Marchese Palermo, yerel mutfak kültürünü en prestijli şekilde deneyimlemek isteyenlerin en samimi adresidir.",
+      "description_en": "A prestigious culinary destination in Palermo.bak.20260418_133415 known for its authentic flavors and vibrant social atmosphere, Ristorante Pizzeria Dal Marchese Palermo is the perfect spot for experiencing high-end local gastronomy.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJ80UE2A_pGRMRyAU8TFnLtT8",
+      "name": "Villa Boscogrande",
+      "name_en": "Villa Boscogrande",
+      "category": "Restoran",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1767678,
+      "lng": 13.2993175,
+      "rating": 4.4,
+      "reviewCount": 623,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJ80UE2A_pGRMRyAU8TFnLtT8.jpg",
+      "description": "Geleneksel tarifleri modern bir kentsel dokunuşla harmanlayan Villa Boscogrande, Palermo.bak.20260418_133415 kentinde gurme lezzetler arayan sosyal gezginler için şık ve kentsel bir lezzet kaçış rotası vaat etmektedir.",
+      "description_en": "Merging traditional recipes with modern urban flair, this restaurant offers a sophisticated social escape for food lovers visiting Villa Boscogrande in Palermo.bak.20260418_133415.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJHYjXYFnvGRMRFpwBOErbORY",
+      "name": "Trattoria Biondo",
+      "name_en": "Trattoria Biondo",
+      "category": "Restoran",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1249582,
+      "lng": 13.3532638,
+      "rating": 4.1,
+      "reviewCount": 692,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJHYjXYFnvGRMRFpwBOErbORY.jpg",
+      "description": "Palermo.bak.20260418_133415 kentinin gastronomi dünyasında otantik lezzetleri ve dinamik sosyal atmosferiyle tanınan Trattoria Biondo, yerel mutfak kültürünü en prestijli şekilde deneyimlemek isteyenlerin en samimi adresidir.",
+      "description_en": "A prestigious culinary destination in Palermo.bak.20260418_133415 known for its authentic flavors and vibrant social atmosphere, Trattoria Biondo is the perfect spot for experiencing high-end local gastronomy.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJ8xjgBovlGRMRuIok9Qq0ayA",
+      "name": "Antica Pizzeria Bellini",
+      "name_en": "Antica Pizzeria Bellini",
+      "category": "Restoran",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1149596,
+      "lng": 13.3629557,
+      "rating": 3.7,
+      "reviewCount": 442,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJ8xjgBovlGRMRuIok9Qq0ayA.jpg",
+      "description": "Yerel malzemelere ve kentsel mutfak sanatına olan bağlılığıyla tanınan Antica Pizzeria Bellini, Palermo.bak.20260418_133415 kentinin kalbindeki en stil sahibi kentsel lezzet duraklarından biri olarak öne çıkan bir kentsel merkezdir.",
+      "description_en": "Renowned for its commitment to local ingredients and urban culinary art, Antica Pizzeria Bellini stands as a flavor stronghold in the heart of Palermo.bak.20260418_133415's vibrant dining scene.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJvy7cb6TlGRMRhAEHjL-Dcjs",
+      "name": "Pasticceria Porretto Antonino",
+      "name_en": "Pasticceria Porretto Antonino",
+      "category": "Restoran",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1004624,
+      "lng": 13.3883413,
+      "rating": 4.6,
+      "reviewCount": 146,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJvy7cb6TlGRMRhAEHjL-Dcjs.jpg",
+      "description": "Geleneksel tarifleri modern bir kentsel dokunuşla harmanlayan Pasticceria Porretto Antonino, Palermo.bak.20260418_133415 kentinde gurme lezzetler arayan sosyal gezginler için şık ve kentsel bir lezzet kaçış rotası vaat etmektedir.",
+      "description_en": "Merging traditional recipes with modern urban flair, this restaurant offers a sophisticated social escape for food lovers visiting Pasticceria Porretto Antonino in Palermo.bak.20260418_133415.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJo4cHIk3vGRMR7m9ZdSYkDd4",
+      "name": "7000 Caffè Capsule e Cialde per tutti i gusti-Assistenza Macchine da Caffè - Distributori Automatici",
+      "name_en": "7000 Caffè Capsule e Cialde per tutti i gusti-Assistenza Macchine da Caffè - Distributori Automatici",
+      "category": "Restoran",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1514651,
+      "lng": 13.3303582,
+      "rating": 4.3,
+      "reviewCount": 29,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJo4cHIk3vGRMR7m9ZdSYkDd4.jpg",
+      "description": "Geleneksel tarifleri modern bir kentsel dokunuşla harmanlayan 7000 Caffè Capsule e Cialde per tutti i gusti-Assistenza Macchine da Caffè - Distributori Automatici, Palermo.bak.20260418_133415 kentinde gurme lezzetler arayan sosyal gezginler için şık ve kentsel bir lezzet kaçış rotası vaat etmektedir.",
+      "description_en": "Merging traditional recipes with modern urban flair, this restaurant offers a sophisticated social escape for food lovers visiting 7000 Caffè Capsule e Cialde per tutti i gusti-Assistenza Macchine da Caffè - Distributori Automatici in Palermo.bak.20260418_133415.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJOVtyKJblGRMRX9Zo8dDWGd0",
+      "name": "Bar Pasticceria Catania Giuseppe",
+      "name_en": "Bar Pasticceria Catania Giuseppe",
+      "category": "Restoran",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1079425,
+      "lng": 13.3816987,
+      "rating": 4,
+      "reviewCount": 44,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJOVtyKJblGRMRX9Zo8dDWGd0.jpg",
+      "description": "Yerel malzemelere ve kentsel mutfak sanatına olan bağlılığıyla tanınan Bar Pasticceria Catania Giuseppe, Palermo.bak.20260418_133415 kentinin kalbindeki en stil sahibi kentsel lezzet duraklarından biri olarak öne çıkan bir kentsel merkezdir.",
+      "description_en": "Renowned for its commitment to local ingredients and urban culinary art, Bar Pasticceria Catania Giuseppe stands as a flavor stronghold in the heart of Palermo.bak.20260418_133415's vibrant dining scene.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJM-df7_XlGRMRKUsOPS0Nb2Q",
+      "name": "Vago - Rizzuto specialty coffee and snacks",
+      "name_en": "Vago - Rizzuto specialty coffee and snacks",
+      "category": "Restoran",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1187088,
+      "lng": 13.3634599,
+      "rating": 4.8,
+      "reviewCount": 399,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJM-df7_XlGRMRKUsOPS0Nb2Q.jpg",
+      "description": "Geleneksel tarifleri modern bir kentsel dokunuşla harmanlayan Vago - Rizzuto specialty coffee and snacks, Palermo.bak.20260418_133415 kentinde gurme lezzetler arayan sosyal gezginler için şık ve kentsel bir lezzet kaçış rotası vaat etmektedir.",
+      "description_en": "Merging traditional recipes with modern urban flair, this restaurant offers a sophisticated social escape for food lovers visiting Vago - Rizzuto specialty coffee and snacks in Palermo.bak.20260418_133415.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJ1ZNSNf7lGRMR80rcvX2PUTE",
+      "name": "Bar de la Vela",
+      "name_en": "Bar de la Vela",
+      "category": "Restoran",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1368343,
+      "lng": 13.3616482,
+      "rating": 4,
+      "reviewCount": 215,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJ1ZNSNf7lGRMR80rcvX2PUTE.jpg",
+      "description": "Geleneksel tarifleri modern bir kentsel dokunuşla harmanlayan Bar de la Vela, Palermo.bak.20260418_133415 kentinde gurme lezzetler arayan sosyal gezginler için şık ve kentsel bir lezzet kaçış rotası vaat etmektedir.",
+      "description_en": "Merging traditional recipes with modern urban flair, this restaurant offers a sophisticated social escape for food lovers visiting Bar de la Vela in Palermo.bak.20260418_133415.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJ78K0sfTlGRMRq1PvppQyWWc",
+      "name": "Ristorante Caffè Antico",
+      "name_en": "Ristorante Caffè Antico",
+      "category": "Restoran",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1177151,
+      "lng": 13.3637218,
+      "rating": 3.2,
+      "reviewCount": 10,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJ78K0sfTlGRMRq1PvppQyWWc.jpg",
+      "description": "Yerel malzemelere ve kentsel mutfak sanatına olan bağlılığıyla tanınan Ristorante Caffè Antico, Palermo.bak.20260418_133415 kentinin kalbindeki en stil sahibi kentsel lezzet duraklarından biri olarak öne çıkan bir kentsel merkezdir.",
+      "description_en": "Renowned for its commitment to local ingredients and urban culinary art, Ristorante Caffè Antico stands as a flavor stronghold in the heart of Palermo.bak.20260418_133415's vibrant dining scene.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJqySJxVjvGRMRzA3cn5xOLUA",
+      "name": "Antico Caffè Spinnato",
+      "name_en": "Antico Caffè Spinnato",
+      "category": "Restoran",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1238615,
+      "lng": 13.3568186,
+      "rating": 3.8,
+      "reviewCount": 4524,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJqySJxVjvGRMRzA3cn5xOLUA.jpg",
+      "description": "Palermo.bak.20260418_133415 kentinin gastronomi dünyasında otantik lezzetleri ve dinamik sosyal atmosferiyle tanınan Antico Caffè Spinnato, yerel mutfak kültürünü en prestijli şekilde deneyimlemek isteyenlerin en samimi adresidir.",
+      "description_en": "A prestigious culinary destination in Palermo.bak.20260418_133415 known for its authentic flavors and vibrant social atmosphere, Antico Caffè Spinnato is the perfect spot for experiencing high-end local gastronomy.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJGUMBjwrvGRMRAFBuR4IiR1k",
+      "name": "Torrefazione Castagnetta Massimiliano (Gelateria)",
+      "name_en": "Torrefazione Castagnetta Massimiliano (Gelateria)",
+      "category": "Restoran",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1005067,
+      "lng": 13.3337378,
+      "rating": 4.4,
+      "reviewCount": 148,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJGUMBjwrvGRMRAFBuR4IiR1k.jpg",
+      "description": "Palermo.bak.20260418_133415 kentinin gastronomi dünyasında otantik lezzetleri ve dinamik sosyal atmosferiyle tanınan Torrefazione Castagnetta Massimiliano (Gelateria), yerel mutfak kültürünü en prestijli şekilde deneyimlemek isteyenlerin en samimi adresidir.",
+      "description_en": "A prestigious culinary destination in Palermo.bak.20260418_133415 known for its authentic flavors and vibrant social atmosphere, Torrefazione Castagnetta Massimiliano (Gelateria) is the perfect spot for experiencing high-end local gastronomy.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJLZ0v90vvGRMRKGvjTFC2bhw",
+      "name": "Kiro Cafè",
+      "name_en": "Kiro Cafè",
+      "category": "Restoran",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.136261,
+      "lng": 13.3412552,
+      "rating": 4.1,
+      "reviewCount": 22,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJLZ0v90vvGRMRKGvjTFC2bhw.jpg",
+      "description": "Palermo.bak.20260418_133415 kentinin gastronomi dünyasında otantik lezzetleri ve dinamik sosyal atmosferiyle tanınan Kiro Cafè, yerel mutfak kültürünü en prestijli şekilde deneyimlemek isteyenlerin en samimi adresidir.",
+      "description_en": "A prestigious culinary destination in Palermo.bak.20260418_133415 known for its authentic flavors and vibrant social atmosphere, Kiro Cafè is the perfect spot for experiencing high-end local gastronomy.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJx5LlvovlGRMRZ9bY9piy83U",
+      "name": "Bar Maqueda di Menza Guglielmo",
+      "name_en": "Bar Maqueda di Menza Guglielmo",
+      "category": "Restoran",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1123849,
+      "lng": 13.3635203,
+      "rating": 4.2,
+      "reviewCount": 68,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJx5LlvovlGRMRZ9bY9piy83U.jpg",
+      "description": "Geleneksel tarifleri modern bir kentsel dokunuşla harmanlayan Bar Maqueda di Menza Guglielmo, Palermo.bak.20260418_133415 kentinde gurme lezzetler arayan sosyal gezginler için şık ve kentsel bir lezzet kaçış rotası vaat etmektedir.",
+      "description_en": "Merging traditional recipes with modern urban flair, this restaurant offers a sophisticated social escape for food lovers visiting Bar Maqueda di Menza Guglielmo in Palermo.bak.20260418_133415.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJfdFZbovlGRMRp4uxCjPlAGg",
+      "name": "Ai Giudici",
+      "name_en": "Ai Giudici",
+      "category": "Restoran",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1152331,
+      "lng": 13.3635522,
+      "rating": 4.5,
+      "reviewCount": 382,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJfdFZbovlGRMRp4uxCjPlAGg.jpg",
+      "description": "Geleneksel tarifleri modern bir kentsel dokunuşla harmanlayan Ai Giudici, Palermo.bak.20260418_133415 kentinde gurme lezzetler arayan sosyal gezginler için şık ve kentsel bir lezzet kaçış rotası vaat etmektedir.",
+      "description_en": "Merging traditional recipes with modern urban flair, this restaurant offers a sophisticated social escape for food lovers visiting Ai Giudici in Palermo.bak.20260418_133415.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJbX5lbYvlGRMRQJd2gW4PBS8",
+      "name": "Casa Stagnitta",
+      "name_en": "Casa Stagnitta",
+      "category": "Restoran",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1151931,
+      "lng": 13.3631861,
+      "rating": 4.2,
+      "reviewCount": 743,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJbX5lbYvlGRMRQJd2gW4PBS8.jpg",
+      "description": "Geleneksel tarifleri modern bir kentsel dokunuşla harmanlayan Casa Stagnitta, Palermo.bak.20260418_133415 kentinde gurme lezzetler arayan sosyal gezginler için şık ve kentsel bir lezzet kaçış rotası vaat etmektedir.",
+      "description_en": "Merging traditional recipes with modern urban flair, this restaurant offers a sophisticated social escape for food lovers visiting Casa Stagnitta in Palermo.bak.20260418_133415.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJl3KXw2HvGRMRZxYBoCkHISg",
+      "name": "Antico Caffè Ventimiglia",
+      "name_en": "Antico Caffè Ventimiglia",
+      "category": "Restoran",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1140856,
+      "lng": 13.3577759,
+      "rating": 2.5,
+      "reviewCount": 34,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJl3KXw2HvGRMRZxYBoCkHISg.jpg",
+      "description": "Yerel malzemelere ve kentsel mutfak sanatına olan bağlılığıyla tanınan Antico Caffè Ventimiglia, Palermo.bak.20260418_133415 kentinin kalbindeki en stil sahibi kentsel lezzet duraklarından biri olarak öne çıkan bir kentsel merkezdir.",
+      "description_en": "Renowned for its commitment to local ingredients and urban culinary art, Antico Caffè Ventimiglia stands as a flavor stronghold in the heart of Palermo.bak.20260418_133415's vibrant dining scene.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJHUv3BPPlGRMRDaNmN1KiHD4",
+      "name": "Maison Bocum - suites&bakery",
+      "name_en": "Maison Bocum - suites&bakery",
+      "category": "Restoran",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1184252,
+      "lng": 13.3662988,
+      "rating": 4.4,
+      "reviewCount": 351,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJHUv3BPPlGRMRDaNmN1KiHD4.jpg",
+      "description": "Palermo.bak.20260418_133415 kentinin gastronomi dünyasında otantik lezzetleri ve dinamik sosyal atmosferiyle tanınan Maison Bocum - suites&bakery, yerel mutfak kültürünü en prestijli şekilde deneyimlemek isteyenlerin en samimi adresidir.",
+      "description_en": "A prestigious culinary destination in Palermo.bak.20260418_133415 known for its authentic flavors and vibrant social atmosphere, Maison Bocum - suites&bakery is the perfect spot for experiencing high-end local gastronomy.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJr5ZW6Y7lGRMRxrVU_P4AmTg",
+      "name": "Bacio Nero - Stazione Centrale",
+      "name_en": "Bacio Nero - Stazione Centrale",
+      "category": "Restoran",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1099861,
+      "lng": 13.3657694,
+      "rating": 3.9,
+      "reviewCount": 1352,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJr5ZW6Y7lGRMRxrVU_P4AmTg.jpg",
+      "description": "Palermo.bak.20260418_133415 kentinin gastronomi dünyasında otantik lezzetleri ve dinamik sosyal atmosferiyle tanınan Bacio Nero - Stazione Centrale, yerel mutfak kültürünü en prestijli şekilde deneyimlemek isteyenlerin en samimi adresidir.",
+      "description_en": "A prestigious culinary destination in Palermo.bak.20260418_133415 known for its authentic flavors and vibrant social atmosphere, Bacio Nero - Stazione Centrale is the perfect spot for experiencing high-end local gastronomy.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJJ56g4l7vGRMRn6ncOYDMiGs",
+      "name": "VERA coffice break",
+      "name_en": "VERA coffice break",
+      "category": "Restoran",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.121478,
+      "lng": 13.3562211,
+      "rating": 4.4,
+      "reviewCount": 611,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJJ56g4l7vGRMRn6ncOYDMiGs.jpg",
+      "description": "Yerel malzemelere ve kentsel mutfak sanatına olan bağlılığıyla tanınan VERA coffice break, Palermo.bak.20260418_133415 kentinin kalbindeki en stil sahibi kentsel lezzet duraklarından biri olarak öne çıkan bir kentsel merkezdir.",
+      "description_en": "Renowned for its commitment to local ingredients and urban culinary art, VERA coffice break stands as a flavor stronghold in the heart of Palermo.bak.20260418_133415's vibrant dining scene.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJYfp1O_blGRMRDk8LACjfClk",
+      "name": "Da \"I Siciliani\"",
+      "name_en": "Da \"I Siciliani\"",
+      "category": "Restoran",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1242769,
+      "lng": 13.3597305,
+      "rating": 2.2,
+      "reviewCount": 6,
+      "price": "medium",
+      "imageUrl": "",
+      "description": "Yerel malzemelere ve kentsel mutfak sanatına olan bağlılığıyla tanınan Da \"I Siciliani\", Palermo.bak.20260418_133415 kentinin kalbindeki en stil sahibi kentsel lezzet duraklarından biri olarak öne çıkan bir kentsel merkezdir.",
+      "description_en": "Renowned for its commitment to local ingredients and urban culinary art, Da \"I Siciliani\" stands as a flavor stronghold in the heart of Palermo.bak.20260418_133415's vibrant dining scene.",
+      "source": "google"
+    },
+    {
+      "id": "ChIJd8oMxljvGRMRD-fCB7oX1o4",
+      "name": "Coffee & Chocolate by Spinnato",
+      "name_en": "Coffee & Chocolate by Spinnato",
+      "category": "Restoran",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1236111,
+      "lng": 13.3569444,
+      "rating": 3.8,
+      "reviewCount": 483,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJd8oMxljvGRMRD-fCB7oX1o4.jpg",
+      "description": "Yerel malzemelere ve kentsel mutfak sanatına olan bağlılığıyla tanınan Coffee & Chocolate by Spinnato, Palermo.bak.20260418_133415 kentinin kalbindeki en stil sahibi kentsel lezzet duraklarından biri olarak öne çıkan bir kentsel merkezdir.",
+      "description_en": "Renowned for its commitment to local ingredients and urban culinary art, Coffee & Chocolate by Spinnato stands as a flavor stronghold in the heart of Palermo.bak.20260418_133415's vibrant dining scene.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJn47qTmPvGRMRCTnyvR0XTPU",
+      "name": "Caffetteria Massaro di Lopresti Michele",
+      "name_en": "Caffetteria Massaro di Lopresti Michele",
+      "category": "Restoran",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1083653,
+      "lng": 13.3541265,
+      "rating": 4,
+      "reviewCount": 159,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJn47qTmPvGRMRCTnyvR0XTPU.jpg",
+      "description": "Palermo.bak.20260418_133415 kentinin gastronomi dünyasında otantik lezzetleri ve dinamik sosyal atmosferiyle tanınan Caffetteria Massaro di Lopresti Michele, yerel mutfak kültürünü en prestijli şekilde deneyimlemek isteyenlerin en samimi adresidir.",
+      "description_en": "A prestigious culinary destination in Palermo.bak.20260418_133415 known for its authentic flavors and vibrant social atmosphere, Caffetteria Massaro di Lopresti Michele is the perfect spot for experiencing high-end local gastronomy.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJobEDNFjvGRMRHSIlIx8sUUg",
+      "name": "Berlin Cafè",
+      "name_en": "Berlin Cafè",
+      "category": "Deneyim",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.12722309999999,
+      "lng": 13.356141,
+      "rating": 3.9,
+      "reviewCount": 639,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJobEDNFjvGRMRHSIlIx8sUUg.jpg",
+      "description": "Palermo.bak.20260418_133415 sokaklarına özgün karakterini katan Berlin Cafè, kentin modern enerjisini ve kültürel nabzını yansıtan kentsel bir prestij noktası ve sofistike bir kentsel sosyal durak kalesidir.",
+      "description_en": "Infusing the streets of Palermo.bak.20260418_133415 with its unique character, Berlin Cafè is a sophisticated urban destination that reflects the town's modern energy and creative pulse.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJD1FdVl_vGRMRuuBITwp6QTA",
+      "name": "Atmosphera Rest & Lounge",
+      "name_en": "Atmosphera Rest & Lounge",
+      "category": "Restoran",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1224293,
+      "lng": 13.3586329,
+      "rating": 4.2,
+      "reviewCount": 662,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJD1FdVl_vGRMRuuBITwp6QTA.jpg",
+      "description": "Palermo.bak.20260418_133415 kentinin gastronomi dünyasında otantik lezzetleri ve dinamik sosyal atmosferiyle tanınan Atmosphera Rest & Lounge, yerel mutfak kültürünü en prestijli şekilde deneyimlemek isteyenlerin en samimi adresidir.",
+      "description_en": "A prestigious culinary destination in Palermo.bak.20260418_133415 known for its authentic flavors and vibrant social atmosphere, Atmosphera Rest & Lounge is the perfect spot for experiencing high-end local gastronomy.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJz64zhIzlGRMRU9bglTKMFSE",
+      "name": "Drunk's",
+      "name_en": "Drunk's",
+      "category": "Deneyim",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.114708,
+      "lng": 13.3650844,
+      "rating": 4.5,
+      "reviewCount": 262,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJz64zhIzlGRMRU9bglTKMFSE.jpg",
+      "description": "Palermo.bak.20260418_133415 kentinde kentsel konforu yerel estetikle birleştiren Drunk's, kentin sosyal ve kültürel dünyasına yüksek kaliteli bir kentsel dokunuş katan en samimi ve kentsel rotalardan biridir.",
+      "description_en": "As a refined social and cultural point in Palermo.bak.20260418_133415, Drunk's offers a high-quality experience that perfectly merges urban convenience with local aesthetic charm.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJLR1CIvPlGRMRtm8S6chv7vU",
+      "name": "CuFu",
+      "name_en": "CuFu",
+      "category": "Restoran",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1173565,
+      "lng": 13.3678037,
+      "rating": 4.7,
+      "reviewCount": 754,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJLR1CIvPlGRMRtm8S6chv7vU.jpg",
+      "description": "Palermo.bak.20260418_133415 kentinin gastronomi dünyasında otantik lezzetleri ve dinamik sosyal atmosferiyle tanınan CuFu, yerel mutfak kültürünü en prestijli şekilde deneyimlemek isteyenlerin en samimi adresidir.",
+      "description_en": "A prestigious culinary destination in Palermo.bak.20260418_133415 known for its authentic flavors and vibrant social atmosphere, CuFu is the perfect spot for experiencing high-end local gastronomy.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJndG9a_HlGRMROknKorLfsO4",
+      "name": "Cantiere Nautico Adorno e Giacalone S.r.l.",
+      "name_en": "Cantiere Nautico Adorno e Giacalone S.r.l.",
+      "category": "Restoran",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.122435,
+      "lng": 13.369568,
+      "rating": 5,
+      "reviewCount": 6,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJndG9a_HlGRMROknKorLfsO4.jpg",
+      "description": "Geleneksel tarifleri modern bir kentsel dokunuşla harmanlayan Cantiere Nautico Adorno e Giacalone S.r.l., Palermo.bak.20260418_133415 kentinde gurme lezzetler arayan sosyal gezginler için şık ve kentsel bir lezzet kaçış rotası vaat etmektedir.",
+      "description_en": "Merging traditional recipes with modern urban flair, this restaurant offers a sophisticated social escape for food lovers visiting Cantiere Nautico Adorno e Giacalone S.r.l. in Palermo.bak.20260418_133415.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJlcq011nvGRMRIG8Z19Nud8A",
+      "name": "RD70 La Bottiglieria",
+      "name_en": "RD70 La Bottiglieria",
+      "category": "Restoran",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1283469,
+      "lng": 13.3551318,
+      "rating": 3.6,
+      "reviewCount": 114,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJlcq011nvGRMRIG8Z19Nud8A.jpg",
+      "description": "Yerel malzemelere ve kentsel mutfak sanatına olan bağlılığıyla tanınan RD70 La Bottiglieria, Palermo.bak.20260418_133415 kentinin kalbindeki en stil sahibi kentsel lezzet duraklarından biri olarak öne çıkan bir kentsel merkezdir.",
+      "description_en": "Renowned for its commitment to local ingredients and urban culinary art, RD70 La Bottiglieria stands as a flavor stronghold in the heart of Palermo.bak.20260418_133415's vibrant dining scene.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJ5ymqKkjvGRMRs6JpKC6Lsz4",
+      "name": "Big Bingo & Joka Slot",
+      "name_en": "Big Bingo & Joka Slot",
+      "category": "Deneyim",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1335945,
+      "lng": 13.3360652,
+      "rating": 4,
+      "reviewCount": 378,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJ5ymqKkjvGRMRs6JpKC6Lsz4.jpg",
+      "description": "Palermo.bak.20260418_133415 kentinin kentsel enerjisini ve kültürel kimliğini yansıtan Big Bingo & Joka Slot, kenti keşfeden gezginlerin kentsel keşif albümündeki en ikonik ve fotojenik kentsel duraklardan birisi haline gelmiştir.",
+      "description_en": "A prominent urban landmark in Palermo.bak.20260418_133415 that defines the area's contemporary spirit and cultural identity, Big Bingo & Joka Slot serves as a prestigious and unique stop for every traveler.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJXXrHAxHmGRMR3Z1c7cLYjBY",
+      "name": "White",
+      "name_en": "White",
+      "category": "Deneyim",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.150006,
+      "lng": 13.373351,
+      "rating": 4,
+      "reviewCount": 1421,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJXXrHAxHmGRMR3Z1c7cLYjBY.jpg",
+      "description": "Palermo.bak.20260418_133415 sokaklarına özgün karakterini katan White, kentin modern enerjisini ve kültürel nabzını yansıtan kentsel bir prestij noktası ve sofistike bir kentsel sosyal durak kalesidir.",
+      "description_en": "Infusing the streets of Palermo.bak.20260418_133415 with its unique character, White is a sophisticated urban destination that reflects the town's modern energy and creative pulse.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJbfr54TvvGRMRwYr9CRd4bsE",
+      "name": "Migò",
+      "name_en": "Migò",
+      "category": "Deneyim",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1571915,
+      "lng": 13.3166058,
+      "rating": 3.9,
+      "reviewCount": 1102,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJbfr54TvvGRMRwYr9CRd4bsE.jpg",
+      "description": "Palermo.bak.20260418_133415 kentinin kentsel enerjisini ve kültürel kimliğini yansıtan Migò, kenti keşfeden gezginlerin kentsel keşif albümündeki en ikonik ve fotojenik kentsel duraklardan birisi haline gelmiştir.",
+      "description_en": "A prominent urban landmark in Palermo.bak.20260418_133415 that defines the area's contemporary spirit and cultural identity, Migò serves as a prestigious and unique stop for every traveler.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJm1ToTtnoGRMRQ5dRay-9HQk",
+      "name": "Fabric Rise Up",
+      "name_en": "Fabric Rise Up",
+      "category": "Deneyim",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1605931,
+      "lng": 13.3160189,
+      "rating": 3.8,
+      "reviewCount": 101,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJm1ToTtnoGRMRQ5dRay-9HQk.jpg",
+      "description": "Palermo.bak.20260418_133415 kentinin kentsel enerjisini ve kültürel kimliğini yansıtan Fabric Rise Up, kenti keşfeden gezginlerin kentsel keşif albümündeki en ikonik ve fotojenik kentsel duraklardan birisi haline gelmiştir.",
+      "description_en": "A prominent urban landmark in Palermo.bak.20260418_133415 that defines the area's contemporary spirit and cultural identity, Fabric Rise Up serves as a prestigious and unique stop for every traveler.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJIRX8xdfnGRMRaGeTiB6W-pM",
+      "name": "Plait Mare",
+      "name_en": "Plait Mare",
+      "category": "Deneyim",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1882305,
+      "lng": 13.3601157,
+      "rating": 3.9,
+      "reviewCount": 480,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJIRX8xdfnGRMRaGeTiB6W-pM.jpg",
+      "description": "Palermo.bak.20260418_133415 sokaklarına özgün karakterini katan Plait Mare, kentin modern enerjisini ve kültürel nabzını yansıtan kentsel bir prestij noktası ve sofistike bir kentsel sosyal durak kalesidir.",
+      "description_en": "Infusing the streets of Palermo.bak.20260418_133415 with its unique character, Plait Mare is a sophisticated urban destination that reflects the town's modern energy and creative pulse.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJN40vtlboGRMRveK8JUGbB5w",
+      "name": "Country DiscoClub",
+      "name_en": "Country DiscoClub",
+      "category": "Deneyim",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1891031,
+      "lng": 13.3205253,
+      "rating": 3.8,
+      "reviewCount": 488,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJN40vtlboGRMRveK8JUGbB5w.jpg",
+      "description": "Palermo.bak.20260418_133415 kentinin kentsel enerjisini ve kültürel kimliğini yansıtan Country DiscoClub, kenti keşfeden gezginlerin kentsel keşif albümündeki en ikonik ve fotojenik kentsel duraklardan birisi haline gelmiştir.",
+      "description_en": "A prominent urban landmark in Palermo.bak.20260418_133415 that defines the area's contemporary spirit and cultural identity, Country DiscoClub serves as a prestigious and unique stop for every traveler.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJQThCpYrlGRMRZLRZmF2uEn4",
+      "name": "The Cultural Association Candelai",
+      "name_en": "The Cultural Association Candelai",
+      "category": "Deneyim",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1167322,
+      "lng": 13.3589613,
+      "rating": 4.1,
+      "reviewCount": 442,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJQThCpYrlGRMRZLRZmF2uEn4.jpg",
+      "description": "Palermo.bak.20260418_133415 kentinde kentsel konforu yerel estetikle birleştiren The Cultural Association Candelai, kentin sosyal ve kültürel dünyasına yüksek kaliteli bir kentsel dokunuş katan en samimi ve kentsel rotalardan biridir.",
+      "description_en": "As a refined social and cultural point in Palermo.bak.20260418_133415, The Cultural Association Candelai offers a high-quality experience that perfectly merges urban convenience with local aesthetic charm.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJOeYem9bnGRMRD9anHmnlJ9Y",
+      "name": "Ristorante Solemar Club",
+      "name_en": "Ristorante Solemar Club",
+      "category": "Restoran",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1838495,
+      "lng": 13.3637721,
+      "rating": 3.7,
+      "reviewCount": 1053,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJOeYem9bnGRMRD9anHmnlJ9Y.jpg",
+      "description": "Yerel malzemelere ve kentsel mutfak sanatına olan bağlılığıyla tanınan Ristorante Solemar Club, Palermo.bak.20260418_133415 kentinin kalbindeki en stil sahibi kentsel lezzet duraklarından biri olarak öne çıkan bir kentsel merkezdir.",
+      "description_en": "Renowned for its commitment to local ingredients and urban culinary art, Ristorante Solemar Club stands as a flavor stronghold in the heart of Palermo.bak.20260418_133415's vibrant dining scene.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJA9GH0s3oGRMRxevhn3AWvvk",
+      "name": "Rodeo Drive Restaurant",
+      "name_en": "Rodeo Drive Restaurant",
+      "category": "Restoran",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1465289,
+      "lng": 13.3263748,
+      "rating": 3.9,
+      "reviewCount": 2745,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJA9GH0s3oGRMRxevhn3AWvvk.jpg",
+      "description": "Geleneksel tarifleri modern bir kentsel dokunuşla harmanlayan Rodeo Drive Restaurant, Palermo.bak.20260418_133415 kentinde gurme lezzetler arayan sosyal gezginler için şık ve kentsel bir lezzet kaçış rotası vaat etmektedir.",
+      "description_en": "Merging traditional recipes with modern urban flair, this restaurant offers a sophisticated social escape for food lovers visiting Rodeo Drive Restaurant in Palermo.bak.20260418_133415.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJEYIiKc_oGRMRo8V-yHPkbdg",
+      "name": "SPACE CLUB",
+      "name_en": "SPACE CLUB",
+      "category": "Deneyim",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1502343,
+      "lng": 13.3293619,
+      "rating": 3.9,
+      "reviewCount": 198,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJEYIiKc_oGRMRo8V-yHPkbdg.jpg",
+      "description": "Palermo.bak.20260418_133415 sokaklarına özgün karakterini katan SPACE CLUB, kentin modern enerjisini ve kültürel nabzını yansıtan kentsel bir prestij noktası ve sofistike bir kentsel sosyal durak kalesidir.",
+      "description_en": "Infusing the streets of Palermo.bak.20260418_133415 with its unique character, SPACE CLUB is a sophisticated urban destination that reflects the town's modern energy and creative pulse.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJAUDPvGPvGRMR1BtW8V2Eh_I",
+      "name": "Al Casato dei Ventimiglia",
+      "name_en": "Al Casato dei Ventimiglia",
+      "category": "Restoran",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1109067,
+      "lng": 13.3547159,
+      "rating": 4.2,
+      "reviewCount": 763,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJAUDPvGPvGRMR1BtW8V2Eh_I.jpg",
+      "description": "Geleneksel tarifleri modern bir kentsel dokunuşla harmanlayan Al Casato dei Ventimiglia, Palermo.bak.20260418_133415 kentinde gurme lezzetler arayan sosyal gezginler için şık ve kentsel bir lezzet kaçış rotası vaat etmektedir.",
+      "description_en": "Merging traditional recipes with modern urban flair, this restaurant offers a sophisticated social escape for food lovers visiting Al Casato dei Ventimiglia in Palermo.bak.20260418_133415.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJ1zRwyZLlGRMRKMYyA5UYESw",
+      "name": "Fondazione Orchestra Jazz Siciliana The Brass Group",
+      "name_en": "Fondazione Orchestra Jazz Siciliana The Brass Group",
+      "category": "Deneyim",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1146333,
+      "lng": 13.3714652,
+      "rating": 4.5,
+      "reviewCount": 109,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJ1zRwyZLlGRMRKMYyA5UYESw.jpg",
+      "description": "Palermo.bak.20260418_133415 kentinde kentsel konforu yerel estetikle birleştiren Fondazione Orchestra Jazz Siciliana The Brass Group, kentin sosyal ve kültürel dünyasına yüksek kaliteli bir kentsel dokunuş katan en samimi ve kentsel rotalardan biridir.",
+      "description_en": "As a refined social and cultural point in Palermo.bak.20260418_133415, Fondazione Orchestra Jazz Siciliana The Brass Group offers a high-quality experience that perfectly merges urban convenience with local aesthetic charm.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJ38Mym2fvGRMRj72a2eamj1E",
+      "name": "Vicoletto Club",
+      "name_en": "Vicoletto Club",
+      "category": "Deneyim",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1180435,
+      "lng": 13.3492869,
+      "rating": 5,
+      "reviewCount": 1,
+      "price": "medium",
+      "imageUrl": "",
+      "description": "Palermo.bak.20260418_133415 kentinde kentsel konforu yerel estetikle birleştiren Vicoletto Club, kentin sosyal ve kültürel dünyasına yüksek kaliteli bir kentsel dokunuş katan en samimi ve kentsel rotalardan biridir.",
+      "description_en": "As a refined social and cultural point in Palermo.bak.20260418_133415, Vicoletto Club offers a high-quality experience that perfectly merges urban convenience with local aesthetic charm.",
+      "source": "google"
+    },
+    {
+      "id": "ChIJJ36-PGrvGRMR91Lyzp6MTDM",
+      "name": "Cantieri Culturali alla Zisa",
+      "name_en": "Cantieri Culturali alla Zisa",
+      "category": "Tarihi",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1180715,
+      "lng": 13.3391267,
+      "rating": 4.3,
+      "reviewCount": 329,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJJ36-PGrvGRMR91Lyzp6MTDM.jpg",
+      "description": "Antik dokularla Cantieri Culturali alla Zisa ruhunu birleştiren bu tarihi nokta, Palermo.bak.20260418_133415 kentinin kültürel kimliğini tanımlayan ve kenti keşfedenlere mistik bir atmosfer sunan kentsel bir prestij kalesidir.",
+      "description_en": "This historical gemstone in Palermo.bak.20260418_133415 defines the local cultural identity, combining ancient textures with the timeless spirit of Cantieri Culturali alla Zisa for every urban explorer.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJRT-UYGTvGRMR47yr7zq9rbA",
+      "name": "Royal Palace and Palatine Chapel",
+      "name_en": "Royal Palace and Palatine Chapel",
+      "category": "Tarihi",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1109676,
+      "lng": 13.35362,
+      "rating": 4.7,
+      "reviewCount": 11476,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJRT-UYGTvGRMR47yr7zq9rbA.jpg",
+      "description": "Palermo.bak.20260418_133415 kentinin kentsel tarih silüetini ve Royal Palace and Palatine Chapel bölgesinin mimari ihtişamını yansıtan bu alan, kentin binlerce yıllık kültürel mirasına açılan en prestijli kentsel tarih kalesidir.",
+      "description_en": "An urban cultural stronghold in Palermo.bak.20260418_133415 showcasing the historical layers and architectural grandeur of Royal Palace and Palatine Chapel, offering travelers a deep dive into the region's heritage.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJR_CcdmHvGRMRTd_ZZI9iVBA",
+      "name": "Museo Diocesano",
+      "name_en": "Museo Diocesano",
+      "category": "Tarihi",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1137695,
+      "lng": 13.3555584,
+      "rating": 4.3,
+      "reviewCount": 165,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJR_CcdmHvGRMRTd_ZZI9iVBA.jpg",
+      "description": "Palermo.bak.20260418_133415 kentinin tarihi dokusunda önemli bir yer tutan Museo Diocesano, kentin tarihsel evrimini ve kentsel hafızasını koruyan en entelektüel ve paha biçilemez kentsel duraklardan biridir.",
+      "description_en": "As a prestigious landmark of Palermo.bak.20260418_133415, Museo Diocesano preserves the town's millennia-old memory and serves as an intellectual window into the historical evolution of the area.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJnywWfKPlGRMRznBTrPXZdos",
+      "name": "Scultore Monumentalista - Scultura in bronzo e marmo",
+      "name_en": "Scultore Monumentalista - Scultura in bronzo e marmo",
+      "category": "Tarihi",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.101832,
+      "lng": 13.3874677,
+      "rating": 5,
+      "reviewCount": 64,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJnywWfKPlGRMRznBTrPXZdos.jpg",
+      "description": "Palermo.bak.20260418_133415 kentinin tarihi dokusunda önemli bir yer tutan Scultore Monumentalista - Scultura in bronzo e marmo, kentin tarihsel evrimini ve kentsel hafızasını koruyan en entelektüel ve paha biçilemez kentsel duraklardan biridir.",
+      "description_en": "As a prestigious landmark of Palermo.bak.20260418_133415, Scultore Monumentalista - Scultura in bronzo e marmo preserves the town's millennia-old memory and serves as an intellectual window into the historical evolution of the area.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJs5alDWHvGRMRkJLUidllG2s",
+      "name": "Cappella e Loggia dell'Incoronata",
+      "name_en": "Cappella e Loggia dell'Incoronata",
+      "category": "Tarihi",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1143897,
+      "lng": 13.355319,
+      "rating": 4.4,
+      "reviewCount": 34,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJs5alDWHvGRMRkJLUidllG2s.jpg",
+      "description": "Antik dokularla Cappella e Loggia dell'Incoronata ruhunu birleştiren bu tarihi nokta, Palermo.bak.20260418_133415 kentinin kültürel kimliğini tanımlayan ve kenti keşfedenlere mistik bir atmosfer sunan kentsel bir prestij kalesidir.",
+      "description_en": "This historical gemstone in Palermo.bak.20260418_133415 defines the local cultural identity, combining ancient textures with the timeless spirit of Cappella e Loggia dell'Incoronata for every urban explorer.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJSWUHeZHlGRMRXKNASnI_w5E",
+      "name": "Museo di Mineralogia",
+      "name_en": "Museo di Mineralogia",
+      "category": "Tarihi",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1101736,
+      "lng": 13.3733889,
+      "rating": 4.4,
+      "reviewCount": 62,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJSWUHeZHlGRMRXKNASnI_w5E.jpg",
+      "description": "Antik dokularla Museo di Mineralogia ruhunu birleştiren bu tarihi nokta, Palermo.bak.20260418_133415 kentinin kültürel kimliğini tanımlayan ve kenti keşfedenlere mistik bir atmosfer sunan kentsel bir prestij kalesidir.",
+      "description_en": "This historical gemstone in Palermo.bak.20260418_133415 defines the local cultural identity, combining ancient textures with the timeless spirit of Museo di Mineralogia for every urban explorer.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJu6MPD4vlGRMRcHsCY2PorY0",
+      "name": "Palazzo delle Aquile",
+      "name_en": "Palazzo delle Aquile",
+      "category": "Tarihi",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1151341,
+      "lng": 13.3622937,
+      "rating": 4.5,
+      "reviewCount": 39,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJu6MPD4vlGRMRcHsCY2PorY0.jpg",
+      "description": "Palermo.bak.20260418_133415 kentinin kentsel tarih silüetini ve Palazzo delle Aquile bölgesinin mimari ihtişamını yansıtan bu alan, kentin binlerce yıllık kültürel mirasına açılan en prestijli kentsel tarih kalesidir.",
+      "description_en": "An urban cultural stronghold in Palermo.bak.20260418_133415 showcasing the historical layers and architectural grandeur of Palazzo delle Aquile, offering travelers a deep dive into the region's heritage.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJzaihqfLlGRMREqGvuMvbSdI",
+      "name": "Museo enologico e della Civiltà contadina",
+      "name_en": "Museo enologico e della Civiltà contadina",
+      "category": "Tarihi",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1165764,
+      "lng": 13.3701991,
+      "rating": 4,
+      "reviewCount": 12,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJzaihqfLlGRMREqGvuMvbSdI.jpg",
+      "description": "Palermo.bak.20260418_133415 kentinin kentsel tarih silüetini ve Museo enologico e della Civiltà contadina bölgesinin mimari ihtişamını yansıtan bu alan, kentin binlerce yıllık kültürel mirasına açılan en prestijli kentsel tarih kalesidir.",
+      "description_en": "An urban cultural stronghold in Palermo.bak.20260418_133415 showcasing the historical layers and architectural grandeur of Museo enologico e della Civiltà contadina, offering travelers a deep dive into the region's heritage.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJedJCaWfvGRMRGuhexryhG-c",
+      "name": "Palazzo Fernandez",
+      "name_en": "Palazzo Fernandez",
+      "category": "Tarihi",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1157595,
+      "lng": 13.3525961,
+      "rating": 4.5,
+      "reviewCount": 32,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJedJCaWfvGRMRGuhexryhG-c.jpg",
+      "description": "Palermo.bak.20260418_133415 kentinin kentsel tarih silüetini ve Palazzo Fernandez bölgesinin mimari ihtişamını yansıtan bu alan, kentin binlerce yıllık kültürel mirasına açılan en prestijli kentsel tarih kalesidir.",
+      "description_en": "An urban cultural stronghold in Palermo.bak.20260418_133415 showcasing the historical layers and architectural grandeur of Palazzo Fernandez, offering travelers a deep dive into the region's heritage.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJbYeXTu3lGRMRZQjz9O7I80k",
+      "name": "Palazzo Abatellis",
+      "name_en": "Palazzo Abatellis",
+      "category": "Tarihi",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1167179,
+      "lng": 13.3710308,
+      "rating": 4.5,
+      "reviewCount": 2761,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJbYeXTu3lGRMRZQjz9O7I80k.jpg",
+      "description": "Palermo.bak.20260418_133415 kentinin kentsel tarih silüetini ve Palazzo Abatellis bölgesinin mimari ihtişamını yansıtan bu alan, kentin binlerce yıllık kültürel mirasına açılan en prestijli kentsel tarih kalesidir.",
+      "description_en": "An urban cultural stronghold in Palermo.bak.20260418_133415 showcasing the historical layers and architectural grandeur of Palazzo Abatellis, offering travelers a deep dive into the region's heritage.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJA9tkHGfvGRMRX5GpD2m4Sgw",
+      "name": "Catacombe di Porta d'Ossuna",
+      "name_en": "Catacombe di Porta d'Ossuna",
+      "category": "Tarihi",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1160906,
+      "lng": 13.3508104,
+      "rating": 4.5,
+      "reviewCount": 540,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJA9tkHGfvGRMRX5GpD2m4Sgw.jpg",
+      "description": "Palermo.bak.20260418_133415 kentinin kentsel tarih silüetini ve Catacombe di Porta d'Ossuna bölgesinin mimari ihtişamını yansıtan bu alan, kentin binlerce yıllık kültürel mirasına açılan en prestijli kentsel tarih kalesidir.",
+      "description_en": "An urban cultural stronghold in Palermo.bak.20260418_133415 showcasing the historical layers and architectural grandeur of Catacombe di Porta d'Ossuna, offering travelers a deep dive into the region's heritage.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJRyFINAfmGRMRl9SucteKRu0",
+      "name": "Planetario di Palermo",
+      "name_en": "Planetario di Palermo",
+      "category": "Tarihi",
+      "tags": [
+        "palermo",
+        "travel",
+        "explore"
+      ],
+      "lat": 38.1210934,
+      "lng": 13.3523887,
+      "rating": 3.6,
+      "reviewCount": 29,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/palermo/ChIJRyFINAfmGRMRl9SucteKRu0.jpg",
+      "description": "Palermo.bak.20260418_133415 kentinin tarihi dokusunda önemli bir yer tutan Planetario di Palermo, kentin tarihsel evrimini ve kentsel hafızasını koruyan en entelektüel ve paha biçilemez kentsel duraklardan biridir.",
+      "description_en": "As a prestigious landmark of Palermo.bak.20260418_133415, Planetario di Palermo preserves the town's millennia-old memory and serves as an intellectual window into the historical evolution of the area.",
+      "source": "firebase"
+    }
+  ]
+}

@@ -1,3 +1,6 @@
+from dotenv import load_dotenv
+load_dotenv()
+import os
 #!/usr/bin/env python3
 """
 Generic açıklamaları Google Places API'den gerçek editorial summary ile değiştirir.
@@ -10,7 +13,7 @@ import time
 import sys
 from pathlib import Path
 
-API_KEY = "AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g"
+API_KEY = os.getenv("GOOGLE_MAPS_API_KEY")
 CITIES_DIR = Path("assets/cities")
 
 # Generic açıklama kalıpları

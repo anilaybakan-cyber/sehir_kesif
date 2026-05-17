@@ -1,3 +1,6 @@
+from dotenv import load_dotenv
+load_dotenv()
+import os
 #!/usr/bin/env python3
 """
 Lizbon için eksik kalan ~50 mekanı tamamlayan script.
@@ -11,7 +14,7 @@ import time
 from pathlib import Path
 
 # Google Places API Key
-API_KEY = "AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g"
+API_KEY = os.getenv("GOOGLE_MAPS_API_KEY")
 CITY_FILE = Path("assets/cities/lizbon.json")
 
 # Eklenecek/Geri Getirilecek 50+ Mekan

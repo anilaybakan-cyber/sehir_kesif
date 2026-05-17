@@ -2669,34 +2669,6 @@
       "tips_en": "Visit in the late afternoon for a less crowded cocktail experience."
     },
     {
-      "name": "Hospital de Sant Pau",
-      "area": "Eixample",
-      "category": "Tarihi",
-      "subcategory": "Tarihi",
-      "tags": [
-        "modernizm",
-        "mimari",
-        "renkli",
-        "barcelona",
-        "tarihi"
-      ],
-      "distanceFromCenter": 0,
-      "lat": 41.4117072,
-      "lng": 2.1743395,
-      "price": "medium",
-      "rating": 4.6,
-      "description": "Domènech i Montaner'in modernist şaheseri Hospital de Sant Pau, UNESCO Dünya Mirası listesinde. Mozaik, heykel, vitraylarla süslü bu büyüleyici eski hastane, şimdi kültürel bir merkezdir.",
-      "bestTime": "Öğleden sonra",
-      "bestFor": [
-        "herkes"
-      ],
-      "source": "google",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/barcelona/hospital_de_sant_pau.jpg",
-      "tips": "Sagrada Familia'dan yürüyerek ulaşabilir, daha sakin bir deneyim yaşayabilirsiniz.",
-      "description_en": "Domènech i Montaner's modernist masterpiece, Sant Pau, a UNESCO World Heritage, features mosaics, sculptures, stained glass. This former hospital is now a cultural center.",
-      "tips_en": "Walk from Sagrada Familia for a calmer, equally impressive experience."
-    },
-    {
       "id": "gen_ChIJYTLzQf6jpBIRoK4w8JrP_wE",
       "name": "JUST Specialty Coffee",
       "category": "Kafe",
@@ -4563,27 +4535,6 @@
       "bestTime_en": "Late night"
     },
     {
-      "name": "Recinte Modernista de Sant Pau",
-      "area": "Eixample",
-      "category": "Deneyim",
-      "tags": [
-        "unesco",
-        "mimari",
-        "art nouveau"
-      ],
-      "distanceFromCenter": 2.5,
-      "lat": 41.4115,
-      "lng": 2.1749,
-      "price": "medium",
-      "rating": 4.7,
-      "description": "Lluís Domènech i Montaner'in modernist başyapıtı Sant Pau, tünellerle bağlı zarif pavyonlarıyla eski hastanedir. UNESCO Dünya Mirası bu kompleks, mimari dehası ve sanatsal detaylarıyla Barselona'nın büyüleyici bir sembolüdür.",
-      "description_en": "Lluís Domènech i Montaner's modernist masterpiece, Sant Pau, is a UNESCO World Heritage former hospital. Elegant, tunnel-connected pavilions beautifully showcase architectural genius and artistic details.",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/barcelona/recinte_modernista_de_sant_pau.jpg",
-      "bestTime": "Sabah",
-      "tips": "Biletlerinizi online alarak sıra beklemeyin; büyüleyici tünelleri mutlaka keşfedin.",
-      "tips_en": "Buy tickets online to avoid queues; explore its fascinating underground tunnels."
-    },
-    {
       "id": "gen_ChIJi8OIIzyjpBIRubWcU35Mp5c",
       "name": "Restaurant La Forquilla | Barcelona",
       "category": "Yeme-İçme",
@@ -4860,6 +4811,7 @@
       "tips_en": "Purchase entrance tickets online in advance to avoid queues.",
       "bestTime_en": "Morning"
     },
+
     {
       "name": "Santa Caterina Market",
       "area": "El Born",

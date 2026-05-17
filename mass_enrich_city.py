@@ -8,18 +8,39 @@ Kaynak: Google Places API (Text Search + Details).
 - Yüksek puanlı yerleri filtreleme (Rating > 4.0).
 - Editorial Summary (Mekana özgü açıklama) çekme.
 - Kategori eşleştirme (Cafe -> Kafe, Restaurant -> Restoran, Bar -> Bar).
+
+FATURA UYARISI — Çalıştırmadan önce mutlaka okuyun:
+  Çok şehir veya tek şehirde yoğun ekleme, binlerce API çağrısı ve çok yüksek
+  Google Cloud ücreti doğurabilir. Koşmadan önce:
+    export I_ACCEPT_GOOGLE_PLACES_BILLING_RISK=1
+  veya:
+    python3 mass_enrich_city.py --i-accept-billing-risk <şehir>
 """
 
 import json
 import requests
 import time
 import sys
+import os
 from pathlib import Path
 import random
+from dotenv import load_dotenv
+
+# .env dosyasından API anahtarlarını yükle
+load_dotenv()
+
+# Toplu çalıştırmada binlerce TL Google faturası doğurabilir. Script çalışmadan önce
+# I_ACCEPT_GOOGLE_PLACES_BILLING_RISK=1 veya --i-accept-billing-risk zorunludur.
+_BILLING_ACK_ENV = "I_ACCEPT_GOOGLE_PLACES_BILLING_RISK"
 
 # Google Places API Key
-API_KEY = "AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g"
+API_KEY = os.getenv("GOOGLE_MAPS_API_KEY")
 CITIES_DIR = Path("assets/cities")
+
+# Fiyatlandırma (USD) - Mayıs 2026 Tahmini
+PRICE_SEARCH = 0.032    # Text Search (New)
+PRICE_DETAILS = 0.025   # Details (Basic + Atmosphere + Contact)
+TRY_RATE = 33.0         # USD/TRY Kuru
 
 # Hedef kategoriler ve arama terimleri
 # (Kategori Adı, API Tipi, Arama Anahtar Kelimeleri)
@@ -147,7 +168,27 @@ def enrich_city(json_path: Path):
                     unique_candidates.append(c)
                     seen_ids.add(c["place_id"])
         
-        print(f"    📋 {len(unique_candidates)} uygun aday bulundu. Detaylar çekiliyor...")
+        print(f"    📋 {len(unique_candidates)} uygun aday bulundu.")
+        
+        if not unique_candidates:
+            continue
+
+        # Tahmini Maliyet Hesapla
+        needed_count = min(len(unique_candidates), target_count - current_count)
+        est_usd = (len(queries) * 2 * PRICE_SEARCH) + (needed_count * PRICE_DETAILS)
+        est_try = est_usd * TRY_RATE
+        
+        print(f"\n    💰 BU KATEGORİ İÇİN TAHMİNİ MALİYET:")
+        print(f"       {needed_count} mekan detayı + aramalar = ~{est_usd:.2f}$ (yaklaşık {est_try:.0f} TL)")
+        
+        # Kullanıcı onayı (Eğer --force flag'i yoksa sor)
+        if "--force" not in sys.argv:
+            confirm = input(f"    ⚠️ Devam etmek istiyor musunuz? (evet/hayır): ").lower()
+            if confirm != 'evet':
+                print(f"    ⏭️ {category_name} kategorisi atlandı.")
+                continue
+
+        print(f"    ⚙️ Detaylar çekiliyor...")
         
         for cand in unique_candidates:
             if current_count + added_for_cat >= target_count:
@@ -217,7 +258,50 @@ def enrich_city(json_path: Path):
         
     print(f"🎉 {json_path.stem.upper()} TAMAMLANDI. TOPLAM {total_added} YENİ MEKAN EKLENDİ.")
 
+
+def _billing_risk_acknowledged(argv: list[str]) -> bool:
+    if os.getenv(_BILLING_ACK_ENV) == "1":
+        return True
+    return "--i-accept-billing-risk" in argv
+
+
+def _print_billing_gate_and_exit() -> None:
+    print(
+        """
+╔════════════════════════════════════════════════════════════════════════════╗
+║  UYARI: Google Places API — ÇOK YÜKSEK FATURA RİSKİ                       ║
+║                                                                          ║
+║  Bu script Text Search + Place Details ile yüzlerce / binlerce istek    ║
+║  yapar. Çok şehir veya editorial_summary / opening_hours / website       ║
+║  alanları tek başına binlerce TL tutarında ücret doğurabilir.           ║
+║                                                                          ║
+║  Fiyatlandırma: https://mapsplatform.google.com/pricing/                 ║
+║                                                                          ║
+║  Devam etmek için bilinçli onay verin (ikisinden biri):                  ║
+║                                                                          ║
+║    export I_ACCEPT_GOOGLE_PLACES_BILLING_RISK=1                          ║
+║    python3 mass_enrich_city.py paris                                     ║
+║                                                                          ║
+║  veya tek satırda:                                                       ║
+║                                                                          ║
+║    python3 mass_enrich_city.py --i-accept-billing-risk paris             ║
+║                                                                          ║
+║  Not: --force yalnızca kategori bazlı soruları atlar; fatura riskini    ║
+║  azaltmaz. Toplu şehir döngüsü kullanmadan önce tek şehirle test edin.  ║
+╚════════════════════════════════════════════════════════════════════════════╝
+"""
+    )
+    sys.exit(2)
+
+
 if __name__ == "__main__":
+    raw_argv = list(sys.argv)
+    if not _billing_risk_acknowledged(raw_argv):
+        _print_billing_gate_and_exit()
+
+    # Onay bayrağını dosya yolu çözümünden çıkar
+    sys.argv = [a for a in sys.argv if a != "--i-accept-billing-risk"]
+
     if len(sys.argv) > 1:
         # Tek şehir modu (Dosya yolu verilirse)
         # Örn: python3 mass_enrich.py assets/cities/barcelona.json

@@ -1,3 +1,6 @@
+from dotenv import load_dotenv
+load_dotenv()
+import os
 #!/usr/bin/env python3
 """
 Kopenhag (Copenhagen) şehir JSON dosyası oluşturucu.
@@ -9,7 +12,7 @@ import requests
 import time
 from typing import Optional
 
-API_KEY = "AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g"
+API_KEY = os.getenv("GOOGLE_MAPS_API_KEY")
 
 # Kopenhag'ın temel mekanları - Oitheblog & Araştırma
 KOPENHAG_PLACES = [

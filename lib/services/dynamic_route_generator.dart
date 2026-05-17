@@ -159,14 +159,15 @@ class DynamicRouteService {
   // GENERATION LOGIC
   // ---------------------------------------------------------------------------
   
-  static Future<CuratedRoute> generateRoute({
-    required CityModel city,
-    required RouteSpirit spirit,
-    required bool isEnglish,
-    UserPreferences? preferences,
-  }) async {
+  static Future<CuratedRoute?> generateRoute({
+     required CityModel city,
+     required RouteSpirit spirit,
+     required bool isEnglish,
+     UserPreferences? preferences,
+   }) async {
     final archetype = archetypes[spirit]!;
-    final List<Highlight> allPlaces = city.highlights;
+    // V4.3: Day-trip yerleri normal tematik rotalara katma
+    final List<Highlight> allPlaces = city.highlights.where((h) => !h.isDayTrip).toList();
     
     // 1. Filter Candidates based on Primary Tags & Interests
     List<Highlight> primaryCandidates = allPlaces.where((h) {
@@ -201,8 +202,8 @@ class DynamicRouteService {
     final mainStops = primaryCandidates.take(4).toList();
 
     if (mainStops.isEmpty) {
-      // Fallback if no matching places found
-      return _createFallbackRoute(city, archetype, isEnglish);
+      // Fallback if no matching places found - Return null instead of "fake" route
+      return null;
     }
 
     // 4. Build Route with Breaks
@@ -295,22 +296,5 @@ class DynamicRouteService {
           c(lat1 * p) * c(lat2 * p) * 
           (1 - c((lon2 - lon1) * p))/2;
     return 12742 * asin(sqrt(a));
-  }
-
-  static CuratedRoute _createFallbackRoute(CityModel city, RouteArchetype archetype, bool isEnglish) {
-     return CuratedRoute(
-      id: "fallback_${archetype.spirit.name}",
-      name: archetype.getTitle(isEnglish),
-      description: isEnglish ? "Explore the city center." : "Şehir merkezini keşfet.",
-      duration: "2h",
-      distance: "2 km",
-      difficulty: "Easy",
-      imageUrl: city.heroImage ?? "",
-      tags: ["General"],
-      placeNames: [],
-      interests: [],
-      accentColor: archetype.color,
-      icon: archetype.icon,
-    );
   }
 }

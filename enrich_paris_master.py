@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+from dotenv import load_dotenv
+load_dotenv()
 """
 Paris şehir verisini zenginleştirme scripti.
 'Biz Evde Yokuz', 'Oitheblog' ve diğer kaynaklardan toplanan 30+ yeni mekanı ekler.
@@ -12,7 +14,7 @@ import time
 import os
 from typing import Optional
 
-API_KEY = "AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g"
+API_KEY = os.getenv("GOOGLE_MAPS_API_KEY")
 PARIS_JSON_PATH = "assets/cities/paris.json"
 
 # Paris için yeni eklenecek mekanlar - Araştırma kaynaklı

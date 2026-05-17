@@ -4,7 +4,8 @@
 
 import 'package:flutter/material.dart';
 import 'dart:ui';
-import 'dart:math' as math;
+
+import 'resilient_network_image.dart';
 
 // Eğer ileride direkt renkler/spacing kullanmak istersen açarsın.
 // import '../theme/wanderlust_design_system.dart';
@@ -316,10 +317,15 @@ class _GradientCardState extends State<GradientCard>
               fit: StackFit.expand,
               children: [
                 if (widget.imageUrl != null)
-                  Image.network(
-                    widget.imageUrl!,
+                  ResilientNetworkImage(
+                    imageUrl: widget.imageUrl,
+                    placeName: 'explore_card',
+                    city: '',
+                    category: 'general',
+                    width: widget.width,
+                    height: widget.height,
                     fit: BoxFit.cover,
-                    errorBuilder: (_, __, ___) => Container(
+                    placeholderBuilder: (_) => Container(
                       decoration: BoxDecoration(
                         gradient:
                             widget.overlayGradient ??

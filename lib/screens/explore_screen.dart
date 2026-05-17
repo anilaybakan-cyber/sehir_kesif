@@ -5,21 +5,25 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'dart:async'; // Added for Timer
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:url_launcher/url_launcher.dart';
-import 'package:cached_network_image/cached_network_image.dart'; // 🔥 EKLENDİ
 import 'package:flutter_markdown/flutter_markdown.dart';
 import 'dart:ui';
+import 'package:cached_network_image/cached_network_image.dart';
+import '../utils/image_utils.dart';
 
 import '../models/city_model.dart';
 import '../services/city_data_loader.dart';
 import '../services/ai_service.dart';
+import '../services/analytics_service.dart'; // Added
 import 'detail_screen.dart';
 import 'dart:convert';
 import '../services/trip_update_service.dart';
 import 'city_switcher_screen.dart';
 import '../l10n/app_localizations.dart';
 import '../theme/wanderlust_colors.dart';
+import '../theme/wanderlust_design_system.dart';
 import '../widgets/map_background.dart';
 // For ImageFilter
 import '../services/notification_service.dart';
@@ -28,11 +32,18 @@ import 'city_guide_detail_screen.dart';
 import 'ai_chat_screen.dart';
 import '../models/chat_message.dart';
 import 'paywall_screen.dart';
+import 'analysis_loading_screen.dart';
 import '../services/premium_service.dart';
 import 'package:tutorial_coach_mark/tutorial_coach_mark.dart';
 import '../services/tutorial_service.dart';
 import '../widgets/tutorial_overlay_widget.dart';
 import '../services/location_context_service.dart';
+import '../services/auto_slot_picker.dart';
+import '../widgets/day_selection_dialog.dart';
+import '../services/version_service.dart'; // Added
+import '../widgets/resilient_network_image.dart';
+import 'package:cached_network_image/cached_network_image.dart';
+import '../utils/image_utils.dart';
 
 class ExploreScreen extends StatefulWidget {
   final bool isVisible;
@@ -59,10 +70,10 @@ class _ExploreScreenState extends State<ExploreScreen>
   static const Color bgCardLight = WanderlustColors.bgCardLight;
   static const Color accent = WanderlustColors.accent; // Purple
   static const Color accentLight = WanderlustColors.accentLight;
-  static const Color textWhite = Color(0xFFFFFFFF);
-  static const Color textGrey = Color(0xFF9CA3AF);
-  static const Color borderColor = Color(0xFF2D2D4A);
-  static const Color accentGreen = Color(0xFF4CAF50);
+  static const Color textWhite = WanderlustColors.textWhite;
+  static const Color textGrey = WanderlustColors.textGrey;
+  static const Color borderColor = WanderlustColors.border;
+  static const Color accentGreen = WanderlustColors.accentGreen;
 
   static const LinearGradient primaryGradient = WanderlustColors.primaryGradient;
 
@@ -85,7 +96,6 @@ class _ExploreScreenState extends State<ExploreScreen>
   List<Highlight> _aiRecommendations = [];
   String? _aiChatResponse; // Kişiselleştirilmiş AI yanıtı
   bool _aiCardExpanded = true; // AI kartı açık/kapalı
-  int _aiVariationIndex = 0; // Added for multiple suggestions
 
   // Şehir bazlı AI yanıt cache'i (eski içerik saklanır, dil değişince çevrilir)
   // Key: cityId, Value: { "content": String, "isEnglish": bool }
@@ -106,6 +116,7 @@ class _ExploreScreenState extends State<ExploreScreen>
 
   final TextEditingController _searchController = TextEditingController();
   final ScrollController _scrollController = ScrollController();
+  Timer? _searchTimer; // Added for debouncing analytics
   bool get isEnglish => AppLocalizations.instance.isEnglish;
 
   // Keys for Tutorial
@@ -153,12 +164,10 @@ class _ExploreScreenState extends State<ExploreScreen>
   void initState() {
     super.initState();
     _loadData();
-    TripUpdateService().tripUpdated.addListener(_onTripDataChanged);
-    TripUpdateService().cityChanged.addListener(_onTripDataChanged);
-    
-    TripUpdateService().cityChanged.addListener(_onTripDataChanged);
-    TripUpdateService().nameUpdated.addListener(_onNameUpdated); // Added name listener
-    TripUpdateService().favoritesUpdated.addListener(_loadData); // Added favorites listener
+    TripUpdateService().tripUpdated.addListener(_refreshTripRelatedPrefsOnly);
+    TripUpdateService().cityChanged.addListener(_loadData);
+    TripUpdateService().nameUpdated.addListener(_onNameUpdated);
+    TripUpdateService().favoritesUpdated.addListener(_refreshTripRelatedPrefsOnly);
     
     // Listen for tutorial triggers from MainScreen
     // Only subscribe, do NOT trigger automatically
@@ -203,16 +212,55 @@ class _ExploreScreenState extends State<ExploreScreen>
 
   @override
   void dispose() {
-    TripUpdateService().tripUpdated.removeListener(_onTripDataChanged);
-    TripUpdateService().cityChanged.removeListener(_onTripDataChanged);
-    TripUpdateService().nameUpdated.removeListener(_onNameUpdated); // Remove name listener
+    TripUpdateService().tripUpdated.removeListener(_refreshTripRelatedPrefsOnly);
+    TripUpdateService().cityChanged.removeListener(_loadData);
+    TripUpdateService().nameUpdated.removeListener(_onNameUpdated);
+    TripUpdateService().favoritesUpdated.removeListener(_refreshTripRelatedPrefsOnly);
     _searchController.dispose();
     _scrollController.dispose();
+    _searchTimer?.cancel(); // Added
     super.dispose();
   }
 
-  void _onTripDataChanged() {
-    _loadData();
+  /// Rota / favori güncellemelerinde tüm şehir JSON'unu yeniden yüklemeyin —
+  /// hero görseli ve liste sürekli yeniden kurulup yanıp sönüyordu.
+  List<String> _tripPlaceNamesFromPrefs(
+    SharedPreferences prefs,
+    String normalizedCity,
+  ) {
+    final bucketList = prefs.getStringList("trip_places_$normalizedCity") ?? [];
+    final Set<String> allTripNames = Set.from(bucketList);
+
+    final scheduleJson = prefs.getString("trip_schedule_$normalizedCity");
+    if (scheduleJson != null) {
+      try {
+        final Map<String, dynamic> scheduleMap = jsonDecode(scheduleJson);
+        scheduleMap.forEach((day, list) {
+          if (list is List) {
+            for (var item in list) {
+              if (item is Map) {
+                final name = item['name']?.toString();
+                if (name != null) allTripNames.add(name);
+              } else if (item is String) {
+                allTripNames.add(item);
+              }
+            }
+          }
+        });
+      } catch (_) {}
+    }
+
+    return allTripNames.toList();
+  }
+
+  Future<void> _refreshTripRelatedPrefsOnly() async {
+    if (_loading || !mounted) return;
+    final prefs = await SharedPreferences.getInstance();
+    _favorites = prefs.getStringList("favorite_places") ?? [];
+    final normalizedCity = (prefs.getString("selectedCity") ?? "barcelona").toLowerCase();
+    _tripPlaces = _tripPlaceNamesFromPrefs(prefs, normalizedCity);
+    if (!mounted) return;
+    setState(() {});
   }
 
   void _onNameUpdated() {
@@ -227,19 +275,11 @@ class _ExploreScreenState extends State<ExploreScreen>
     try {
       final prefs = await SharedPreferences.getInstance();
       _favorites = prefs.getStringList("favorite_places") ?? [];
-      _tripPlaces = prefs.getStringList("trip_places") ?? [];
-      final defaultName = AppLocalizations.instance.isEnglish ? "Explorer" : "Gezgin";
-      // Fetch persisted name
-      final storedName = prefs.getString("userName");
       
-      // If stored name is null or empty, use localized default
-      if (storedName == null || storedName.isEmpty) {
-        _userName = defaultName;
-      } else {
-        _userName = storedName;
-      }
+      final defaultName = AppLocalizations.instance.isEnglish ? "Explorer" : "Gezgin";
+      final storedName = prefs.getString("userName");
+      _userName = (storedName == null || storedName.isEmpty) ? defaultName : storedName;
 
-      // Onboarding verilerini yükle
       _travelStyle = prefs.getString("travelStyle") ?? "Lokal";
       _interests = prefs.getStringList("interests") ?? [];
       _budgetLevel = prefs.getString("budgetLevel") ?? "Dengeli";
@@ -248,7 +288,8 @@ class _ExploreScreenState extends State<ExploreScreen>
 
       final selectedCity = prefs.getString("selectedCity") ?? "barcelona";
       final normalizedCity = selectedCity.toLowerCase();
-      
+
+      _tripPlaces = _tripPlaceNamesFromPrefs(prefs, normalizedCity);
       // Get localized city name from CitySwitcherScreen data
       final cityData = CitySwitcherScreen.allCities.firstWhere(
         (c) => c['id'] == normalizedCity,
@@ -259,81 +300,78 @@ class _ExploreScreenState extends State<ExploreScreen>
           ? (cityData['name_en'] ?? cityData['name']) 
           : cityData['name'];
 
-      final city = await CityDataLoader.loadCity(normalizedCity);
-      // Override city name with localized version
-      city.city = cityName; // Update the CityModel instance
-      
-      // Şehir değişti mi kontrol et
-      final cityChanged = _currentCityId != normalizedCity;
+      try {
+        final city = await CityDataLoader.loadCity(normalizedCity);
+        // Override city name with localized version
+        city.city = cityName; // Update the CityModel instance
 
-      if (!mounted) return;
+        // Şehir değişti mi kontrol et
+        final cityChanged = _currentCityId != null && _currentCityId != normalizedCity;
 
-      setState(() {
-        _city = city;
-        _currentCityId = normalizedCity;
-        
-        // Şehirler arası duplicate kontrolü (Benzer isimli yerleri filtrele)
-        // İlk 3 kelimesi aynı olanları eliyoruz.
-        _allHighlights = _removeDuplicates(city.highlights);
-        // _filteredHighlights will be set by _applyFilters()
-        _loading = false;
-        
-        if (_pendingCityTutorial) {
-             _pendingCityTutorial = false;
-             if (mounted) _showCityTutorial();
-        } 
-        
-        // Tutorial is triggered by MainScreen after paywall closes
-        // Do NOT auto-trigger here
+        if (!mounted) return;
 
-        // Şehir değiştiyse: cache'te varsa göster, yoksa sıfırla
-        if (cityChanged) {
-          _aiVariationIndex = 0; // Reset variations for new city
-          // 🔥 FCM Üyeliğini güncelle
-          NotificationService().subscribeToCity(normalizedCity);
+        final newAllHighlights = _removeDuplicates(city.highlights);
+        final newFilteredHighlights = _calculateFilteredHighlights(newAllHighlights);
 
-          if (!_aiChatCache.containsKey(normalizedCity)) {
-             final savedCache = prefs.getString("ai_chat_cache_$normalizedCity");
-             if (savedCache != null) {
-                try {
-                   _aiChatCache[normalizedCity] = Map<String, dynamic>.from(jsonDecode(savedCache));
-                } catch(e) {}
-             }
+        if (mounted) {
+          setState(() {
+            _city = city;
+            _currentCityId = normalizedCity;
+            _allHighlights = newAllHighlights;
+            _filteredHighlights = newFilteredHighlights;
+            _loading = false;
+            
+            if (_pendingCityTutorial) {
+              _pendingCityTutorial = false;
+              _showCityTutorial();
+            }
+
+            if (cityChanged) {
+              NotificationService().subscribeToCity(normalizedCity);
+              _aiLoading = false;
+              if (_aiChatCache.containsKey(normalizedCity)) {
+                final cachedData = _aiChatCache[normalizedCity]!;
+                _aiChatResponse = cachedData["content"];
+                _aiCardExpanded = false;
+              } else {
+                _aiChatResponse = null;
+                _aiCardExpanded = true;
+              }
+            }
+          });
+
+          if (cityChanged) {
+            WidgetsBinding.instance.addPostFrameCallback((_) {
+              if (!mounted) return;
+              if (_scrollController.hasClients) {
+                _scrollController.jumpTo(0);
+              }
+              setState(() => _showScrollToTop = false);
+            });
           }
-
-          if (_aiChatCache.containsKey(normalizedCity)) {
-            // Bu şehir için daha önce tavsiye alınmış, cache'ten getir
-            final cachedData = _aiChatCache[normalizedCity]!;
-            _aiChatResponse = cachedData["content"];
-            _aiCardExpanded = false; // Kapalı göster, kullanıcı açabilir
-             
-             // Eğer dil uyuşmazlığı varsa çeviri tetikle
-             if (cachedData["isEnglish"] != AppLocalizations.instance.isEnglish) {
-               _checkAndTranslateContent();
-             }
-          } else {
-            // Yeni şehir, tavsiye yok - Tavsiye İste butonu görünsün
-            _aiChatResponse = null;
-            _aiCardExpanded = true;
-          }
-        } else {
-          // Şehir değişmedi ama dil değişmiş olabilir - çeviri gerekebilir
-          _checkAndTranslateContent();
         }
-      });
 
-      // 🔥 Analytics: Ekran görüntüleme
-      NotificationService().logEvent('explore_city', parameters: {
-        'city_id': normalizedCity,
-        'city_name': city.city,
-      });
+        // Arka plan işlerine devam
+        LocationContextService.instance.updateContext(city).timeout(
+          const Duration(seconds: 8),
+          onTimeout: () => debugPrint("ExploreScreen: updateContext timeout"),
+        ).catchError((e) => debugPrint("ExploreScreen: updateContext error: $e"));
 
-      
-      // Initial filters and recommendations
-      _applyFilters(); 
-      _fetchAIRecommendations();
+        NotificationService().logEvent('explore_city', parameters: {
+          'city_id': normalizedCity,
+          'city_name': city.city,
+        });
 
+        if (_aiChatResponse == null) {
+          _fetchAIRecommendations();
+        }
 
+      } catch (e) {
+        debugPrint("ExploreScreen: Error loading city data: $e");
+        if (mounted) {
+          setState(() => _loading = false);
+        }
+      }
     } catch (e) {
       if (!mounted) return;
       setState(() {
@@ -398,10 +436,12 @@ class _ExploreScreenState extends State<ExploreScreen>
                 children: [
                   ClipRRect(
                     borderRadius: const BorderRadius.vertical(top: Radius.circular(24)),
-                    child: Image.network(
-                      cityData['networkImage'],
+                    child: ResilientNetworkImage(
+                      imageUrl: cityData['networkImage'] as String?,
+                      placeName: (cityData['name'] ?? cityData['id']).toString(),
+                      city: cityData['id'].toString(),
+                      category: 'city',
                       height: 200,
-                      width: double.infinity,
                       fit: BoxFit.cover,
                     ),
                   ),
@@ -466,7 +506,7 @@ class _ExploreScreenState extends State<ExploreScreen>
                                   ? cityData['country_en']
                                   : AppLocalizations.instance.translateCountry(cityData['country'])),
                               style: const TextStyle(
-                                color: Colors.white70,
+                                color: Colors.white,
                                 fontSize: 14,
                                 fontWeight: FontWeight.w500,
                               ),
@@ -487,8 +527,8 @@ class _ExploreScreenState extends State<ExploreScreen>
                     Text(
                       AppLocalizations.instance.undecidedSuggestionDesc,
                       textAlign: TextAlign.center,
-                      style: const TextStyle(
-                        color: Colors.white70,
+                      style: TextStyle(
+                        color: textGrey,
                         fontSize: 15,
                         height: 1.5,
                       ),
@@ -531,8 +571,72 @@ class _ExploreScreenState extends State<ExploreScreen>
     }
   }
 
+  /// [NearbyScreen] ile aynı mantık: birçok şehirde barlar `Yeme-İçme`, `Kafe` veya
+  /// `Deneyim` olarak işaretli; yalnızca kategori listesiyle eşleştirmek Keşfet listesini boş bırakıyor.
+  bool _matchesBarCategoryHeuristicHighlight(Highlight h) {
+    const explicit = {
+      'Bar',
+      'Pub',
+      'Wine Bar',
+      'Enoteca',
+      'Lounge',
+      'American Bar',
+    };
+    if (explicit.contains(h.category)) return true;
+
+    final names = '${h.name} ${h.nameEn ?? ''}'.toLowerCase();
+
+    if (RegExp(r'\bbar\b', caseSensitive: false).hasMatch(names)) {
+      return true;
+    }
+
+    if (RegExp(
+      r'enoteca|ristobar|lounge\s*bar|american\s*bar|cocktail\s*bar|\bpub\b|birreria|wine\s*bar',
+      caseSensitive: false,
+    ).hasMatch(names)) {
+      return true;
+    }
+
+    for (final t in h.tags) {
+      final s = t.toLowerCase().trim();
+      if (s == 'bar' ||
+          s == 'pub' ||
+          s == 'enoteca' ||
+          s == 'wine_bar' ||
+          s.contains('cocktail')) {
+        return true;
+      }
+    }
+
+    final desc =
+        '${h.description} ${h.descriptionEn ?? ''}'.toLowerCase();
+    if (RegExp(
+      r'\bbeachside bar\b|\bseafront bar\b|\blounge bar\b|\bamerican bar\b|\bcocktail bar\b|\bbar and cafe\b|\bcafe and bar\b|\bbar e caf|\bcaffè e bar\b',
+      caseSensitive: false,
+    ).hasMatch(desc)) {
+      return true;
+    }
+
+    return false;
+  }
+
   void _applyFilters() {
-    var filtered = List<Highlight>.from(_allHighlights);
+    setState(() => _filteredHighlights = _calculateFilteredHighlights(_allHighlights));
+  }
+
+  List<Highlight> _calculateFilteredHighlights(List<Highlight> sourceList) {
+    // 0. Temel de-duplicate (Özellikle kategori geçişlerinde ve merge sonrası garantiye almak için)
+    final List<Highlight> baseList = [];
+    final Set<String> seenUniqueNames = {};
+    for (final h in sourceList) {
+      final slug = h.name.toLowerCase().trim().replaceAll(RegExp(r'\s+'), ' ');
+      if (!seenUniqueNames.contains(slug)) {
+        seenUniqueNames.add(slug);
+        baseList.add(h);
+      }
+    }
+
+    var filtered = List<Highlight>.from(baseList);
 
     // 1. Kategori filtresi (kesin filtre)
     // Comprehensive category mappings - maps orphan categories to filter buttons
@@ -561,7 +665,7 @@ class _ExploreScreenState extends State<ExploreScreen>
       // Deneyim filtresi
       'Deneyim': ['Deneyim', 'Aktivite', 'Eğlence', 'Yürüyüş', 'Spor', 'Gezi', 'Macera', 'Rahatlama', 
                   'Günlük Gezi', 'Etkinlik', 'Atölye', 'Mahalle', 'Sokak',
-                  'Görülmesi Gereken Yerler', 'Köy', 'Kasaba', 'Şehir', 'Bölge', 'Liman', 'Sağlık', 'Otel'],
+                  'Görülmesi Gereken Yerler', 'Köy', 'Kasaba', 'Şehir', 'Bölge', 'Liman', 'Otel'],
       
       // Alışveriş filtresi
       'Alışveriş': ['Alışveriş', 'Mağaza', 'Pazar', 'Pasaj', 'Ticaret', 'Kitapçı', 'Lüks', 'Kompleks'],
@@ -577,10 +681,26 @@ class _ExploreScreenState extends State<ExploreScreen>
     filtered = filtered.where((h) => !excludedCategories.contains(h.category)).toList();
     
     if (_selectedCategory != "Tümü") {
-      final validCategories = categoryMappings[_selectedCategory] ?? [_selectedCategory];
-      filtered = filtered
-          .where((h) => validCategories.contains(h.category))
-          .toList();
+      if (_selectedCategory == 'Bar') {
+        final barCategories = categoryMappings['Bar']!;
+        filtered = filtered.where((h) {
+          if (barCategories.contains(h.category)) return true;
+          return _matchesBarCategoryHeuristicHighlight(h);
+        }).toList();
+      } else {
+        final validCategories =
+            categoryMappings[_selectedCategory] ?? [_selectedCategory];
+        filtered = filtered
+            .where((h) => validCategories.contains(h.category))
+            .toList();
+        // Bar olarak tanınan mekanlar yalnızca Bar filtresinde; Yeme-İçme / Deneyim'de tekrar gösterme.
+        if (_selectedCategory == 'Yeme-İçme' ||
+            _selectedCategory == 'Deneyim') {
+          filtered = filtered
+              .where((h) => !_matchesBarCategoryHeuristicHighlight(h))
+              .toList();
+        }
+      }
     }
 
     // 2. Arama filtresi
@@ -644,10 +764,12 @@ class _ExploreScreenState extends State<ExploreScreen>
         }
     }
 
-    setState(() => _filteredHighlights = filtered);
+    return filtered;
   }
 
   // Mood skor fonksiyonları (düşük = daha öncelikli)
+  // _getInitialFilteredHighlights removed in favor of _calculateFilteredHighlights
+
   int _getCalmScore(String category) {
     switch (category) {
       case 'Park': return 0;
@@ -846,6 +968,10 @@ class _ExploreScreenState extends State<ExploreScreen>
   Future<void> _fetchAIRecommendations() async {
     if (_city == null) return;
 
+    // 🔒 Race-condition guard: isteği başlatırken hangi şehir için olduğunu yakala.
+    // Await sırasında kullanıcı şehir değiştirirse, dönen sonucu yok say.
+    final String requestedCityId = _currentCityId;
+
     try {
       // Mood bazlı mekan önerilerini al (chat yanıtı değil)
       final recs = await AIService.getSerendipityRecommendations(
@@ -856,11 +982,18 @@ class _ExploreScreenState extends State<ExploreScreen>
       );
 
       if (!mounted) return;
+      // Şehir değişmişse stale sonucu uygulama
+      if (_currentCityId != requestedCityId) {
+        debugPrint(
+            "🚫 _fetchAIRecommendations: stale response dropped ($requestedCityId → $_currentCityId)");
+        return;
+      }
       setState(() {
         _aiRecommendations = recs;
       });
     } catch (e) {
       if (!mounted) return;
+      if (_currentCityId != requestedCityId) return;
       setState(() {
         _aiRecommendations = _allHighlights.take(4).toList();
       });
@@ -868,7 +1001,7 @@ class _ExploreScreenState extends State<ExploreScreen>
   }
 
   // Kullanıcı AppLocalizations.instance.askAI butonuna basınca çağrılır
-  Future<void> _fetchAIChatResponse() async {
+  Future<void> _fetchAIChatResponse({int variation = 0}) async {
     if (_city == null) return;
     
     // Premium limit kontrolü
@@ -876,17 +1009,16 @@ class _ExploreScreenState extends State<ExploreScreen>
       _showPaywall();
       return;
     }
-    
+
+    // 🔒 Race-condition guard: isteği başlatırken hangi şehir için olduğunu yakala.
+    // Await sırasında kullanıcı şehir değiştirirse, dönen sonucu uygulamayız ve
+    // yeni şehrin cache'ine yazmayız. Premium kullanım sayacı da artırılmaz.
+    final String requestedCityId = _currentCityId;
+    final String requestedCityName = _city!.city;
+
     setState(() {
       _aiLoading = true;
-      _aiChatResponse = null; // Sadece izin varsa temizle ki yenisi gelirken loading görünsün
-      _aiChatCache.remove(_currentCityId); // Cache'ten de sil
-      _aiVariationIndex = (_aiVariationIndex + 1) % 3;
     });
-    
-    // Use the CURRENT index for the request (or the one we just set)
-    // Actually, let's use the one we just incremented to ensure we always try something new
-    final currentVariation = _aiVariationIndex;
 
     try {
       // Kişiselleştirilmiş AI chat yanıtını al
@@ -897,34 +1029,46 @@ class _ExploreScreenState extends State<ExploreScreen>
         interests: _interests,
         budgetLevel: _budgetLevel,
         tripDays: _tripDays,
-        variation: currentVariation, // Variation passed here
+        variation: variation, // Rastgelelik için
         isEnglish: AppLocalizations.instance.isEnglish, // Dil parametresi
       );
 
       if (!mounted) return;
-      
-      // Kullanımı artır
+
+      // Şehir await sırasında değiştiyse: stale yanıtı uygulama, cache'e yazma,
+      // kullanım sayacını arttırma. Yeni şehir kendi isteğini kendi yapacak.
+      // ⚠️ _aiLoading'a DOKUNMA: yeni şehir kendi spinner'ını yönetiyor olabilir,
+      // burada sıfırlarsak canlı isteğin loader'ını yanlışlıkla kapatırız.
+      if (_currentCityId != requestedCityId) {
+        debugPrint(
+            "🚫 _fetchAIChatResponse: stale response dropped ($requestedCityId/$requestedCityName → $_currentCityId)");
+        return;
+      }
+
+      // Kullanımı artır (sadece kullanıcı hala aynı şehirdeyse)
       await PremiumService.instance.useAISuggestion();
-      
+
+      if (!mounted) return;
+      // useAISuggestion da async; bir kez daha kontrol et
+      if (_currentCityId != requestedCityId) return;
+
       setState(() {
         _aiChatResponse = chatResponse;
         _aiLoading = false;
         _aiCardExpanded = true;
 
-      // Cache'e kaydet
-        final cacheData = {
+      // Cache'e kaydet — istek başında yakaladığımız şehir id'sine yaz
+        _aiChatCache[requestedCityId] = {
           "content": chatResponse,
           "isEnglish": AppLocalizations.instance.isEnglish
         };
-        _aiChatCache[_currentCityId] = cacheData;
-      });
-      
-      // SharedPreferences'a da kaydet (kalıcı depolama)
-      SharedPreferences.getInstance().then((prefs) {
-        prefs.setString("ai_chat_cache_$_currentCityId", jsonEncode(cacheData));
       });
     } catch (e) {
       if (!mounted) return;
+      // Stale hata: spinner'a dokunma (yeni şehrin canlı isteği olabilir), sadece çık.
+      if (_currentCityId != requestedCityId) {
+        return;
+      }
       setState(() {
         _aiLoading = false;
       });
@@ -1420,9 +1564,9 @@ class _ExploreScreenState extends State<ExploreScreen>
     final prefs = await SharedPreferences.getInstance();
     final String currentCity = (prefs.getString("selectedCity") ?? "barcelona").toLowerCase();
     
-    // 1. Güncel verileri oku
-    final List<String> tripPlaces = prefs.getStringList("trip_places") ?? [];
-    final String? scheduleJson = prefs.getString("trip_schedule");
+    // 1. Güncel verileri oku (Şehir bazlı)
+    final List<String> bucketList = prefs.getStringList("trip_places_$currentCity") ?? [];
+    final String? scheduleJson = prefs.getString("trip_schedule_$currentCity");
     
     // Schedule'ı parse et
     Map<String, dynamic> scheduleMap = {};
@@ -1439,7 +1583,6 @@ class _ExploreScreenState extends State<ExploreScreen>
         setState(() {
           _tripPlaces.remove(name);
         });
-        tripPlaces.remove(name);
         
         // Schedule'dan da sil (hem eski hem yeni format)
         scheduleMap.keys.forEach((day) {
@@ -1454,157 +1597,130 @@ class _ExploreScreenState extends State<ExploreScreen>
 
          if (mounted) {
             ScaffoldMessenger.of(context).showSnackBar(SnackBar(
-               content: Text(AppLocalizations.instance.removedFromRoute(name)),
-               backgroundColor: Colors.redAccent,
+               content: Text(AppLocalizations.instance.removedFromRoute(name), style: const TextStyle(color: WanderlustColors.textGrey)),
+               backgroundColor: WanderlustColors.bgCardLight,
                behavior: SnackBarBehavior.floating,
                duration: const Duration(milliseconds: 1500),
             ));
          }
 
     } else {
-         // EKLEME İŞLEMİ
-         // Toplam gün sayısını bul
-         int maxDay = 1;
-         scheduleMap.keys.forEach((k) {
-            final d = int.tryParse(k) ?? 1;
-            if (d > maxDay) maxDay = d;
-         });
-         final onboardingDays = prefs.getInt("tripDays") ?? 3;
-         if (maxDay < onboardingDays) maxDay = onboardingDays;
+         // Tek global rota-ekleme kotası (keşfet / detay / yakınımda toplamı)
+         if (!PremiumService.instance.canAddToRoute()) {
+           _showPaywall();
+           return;
+         }
 
-         final selectedDay = await _showDaySelectionDialogForExplore(maxDay, name, scheduleMap);
-         if (selectedDay == null) return; // İptal
-         
+         final int currentTotalDays = prefs.getInt("tripDays_$currentCity") ?? prefs.getInt("tripDays") ?? 3;
+         final int? selectedDay = await _showDaySelectionDialogForExplore(currentTotalDays, name, scheduleMap);
+         if (selectedDay == null) return; // İptal edildi
+
+         await PremiumService.instance.useRouteAdd();
+
          setState(() {
-           _tripPlaces.add(name);
+            _tripPlaces.add(name);
          });
-         
-         // Sadece "Listem" seçildiyse (selectedDay == 0) zaten Listem'e eklenecek.
-         // Ama kural gereği, herhangi bir güne eklendiyse de Listem'e eklenecek.
-         tripPlaces.add(name);
-         
-         final dayKey = selectedDay.toString();
-         List<dynamic> targetList = scheduleMap[dayKey] ?? [];
-         
-         // Yeni format: {name, city} olarak ekle
-         final placeEntry = {'name': name, 'city': currentCity};
-         final alreadyExists = targetList.any((item) {
-           if (item is Map<String, dynamic>) return item['name'] == name;
-           if (item is String) return item == name;
-           return false;
-         });
-         
-         if (!alreadyExists) {
-          targetList.add(placeEntry);
-          // 🔥 Analytics Etkinliği: Rota eklendi
-          NotificationService().logEvent('add_to_trip', parameters: {
-            'place': name,
-            'city': currentCity,
-            'day': selectedDay,
-          });
-       }
-         scheduleMap[dayKey] = targetList;
-         
-         // 2. Her durumda "0" (Listem) gününe de ekle
-         if (dayKey != "0") {
-           List<dynamic> listemList = scheduleMap["0"] ?? [];
-           final existsInListem = listemList.any((item) {
+
+         if (selectedDay == 0) {
+           // LISTEM'E EKLEME — sadece trip_places_ güncellenir
+           if (!bucketList.contains(name)) {
+             bucketList.add(name);
+           }
+           await prefs.setStringList("trip_places_$currentCity", bucketList);
+           TripUpdateService().notifyTripChanged();
+
+           if (mounted) {
+             ScaffoldMessenger.of(context).showSnackBar(SnackBar(
+               content: Row(
+                 children: [
+                   const Icon(Icons.check_circle_outline, color: WanderlustColors.accent, size: 20),
+                   const SizedBox(width: 12),
+                   Expanded(
+                     child: Text(
+                       AppLocalizations.instance.isEnglish
+                           ? '$name added to My List'
+                           : '$name Listem\'e eklendi',
+                       style: const TextStyle(color: WanderlustColors.textGrey, fontWeight: FontWeight.w600),
+                     ),
+                   ),
+                 ],
+               ),
+               backgroundColor: WanderlustColors.bgCardLight,
+               behavior: SnackBarBehavior.floating,
+               duration: const Duration(milliseconds: 2200),
+             ));
+           }
+         } else {
+           // GÜNE EKLEME — sadece schedule güncellenir, trip_places_ dokunulmaz
+           final dayKey = selectedDay.toString();
+           List<dynamic> targetList = scheduleMap[dayKey] ?? [];
+
+           // Yeni format: {name, city} olarak ekle
+           final placeEntry = {'name': name, 'city': currentCity};
+           final alreadyExists = targetList.any((item) {
              if (item is Map<String, dynamic>) return item['name'] == name;
              if (item is String) return item == name;
              return false;
            });
-           if (!existsInListem) {
-             listemList.add(placeEntry);
+
+           if (!alreadyExists) {
+              targetList.add(placeEntry);
+              // 🔥 Analytics Etkinliği: Rota eklendi
+              NotificationService().logEvent('add_to_trip', parameters: {
+                'place': name,
+                'city': currentCity,
+                'day': selectedDay,
+              });
            }
-           scheduleMap["0"] = listemList;
-         }
-         
-         // persist last active day for navigation focus
-         await prefs.setInt("last_active_day", selectedDay);
-         
-         if (mounted) {
-            ScaffoldMessenger.of(context).showSnackBar(SnackBar(
+           scheduleMap[dayKey] = targetList;
+
+           // Yeni gün oluşturulduysa onboardingDays güncelle
+           if (selectedDay > currentTotalDays) {
+             await prefs.setInt("tripDays_$currentCity", selectedDay);
+           }
+
+           // Save ONLY schedule — trip_places_ dokunulmaz
+           await prefs.setString("trip_schedule_$currentCity", jsonEncode(scheduleMap));
+           TripUpdateService().notifyTripChanged();
+
+           if (mounted) {
+             ScaffoldMessenger.of(context).showSnackBar(SnackBar(
                content: Row(
                  children: [
-                   const Icon(Icons.check_circle, color: WanderlustColors.accent, size: 20),
+                   const Icon(Icons.check_circle_outline, color: WanderlustColors.accent, size: 20),
                    const SizedBox(width: 12),
-                   Expanded(child: Text(AppLocalizations.instance.addedToDay(name, selectedDay))),
+                   Expanded(
+                     child: Text(
+                       AppLocalizations.instance.addedToDay(name, selectedDay),
+                       style: const TextStyle(color: WanderlustColors.textGrey, fontWeight: FontWeight.w600),
+                     ),
+                   ),
                  ],
                ),
-               backgroundColor: const Color(0xFF1F1F1F),
+               backgroundColor: WanderlustColors.bgCardLight,
                behavior: SnackBarBehavior.floating,
-               duration: const Duration(milliseconds: 1500),
-            ));
+               duration: const Duration(milliseconds: 2200),
+             ));
+           }
          }
     }
 
-    await prefs.setStringList("trip_places", tripPlaces);
-    await prefs.setString("trip_schedule", jsonEncode(scheduleMap));
-    
-    // Global bildirim
-    TripUpdateService().notifyTripChanged();
+    // Çıkarma durumunda schedule ve bucketList'i güncelle
+    if (_tripPlaces.contains(name) == false) {
+      // Çıkarma yapıldı — bucketList'ten de sil
+      bucketList.remove(name);
+      await prefs.setStringList("trip_places_$currentCity", bucketList);
+      await prefs.setString("trip_schedule_$currentCity", jsonEncode(scheduleMap));
+      TripUpdateService().notifyTripChanged();
+    }
   }
 
   Future<int?> _showDaySelectionDialogForExplore(int totalDays, String placeName, Map<String, dynamic> scheduleMap) async {
-    return showDialog<int>(
-      context: context,
-      barrierColor: Colors.black.withOpacity(0.7),
-      builder: (context) {
-        return Dialog(
-          backgroundColor: const Color(0xFF1A1A2E),
-
-          shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
-          child: Padding(
-            padding: const EdgeInsets.all(20),
-            child: Column(
-              mainAxisSize: MainAxisSize.min,
-              children: [
-                Text(AppLocalizations.instance.whichDay, style: const TextStyle(color: textWhite, fontSize: 18, fontWeight: FontWeight.bold)),
-                const SizedBox(height: 8),
-                Text(AppLocalizations.instance.addToRouteConfirmDialog(placeName), textAlign: TextAlign.center, style: const TextStyle(color: textGrey, fontSize: 14)),
-                const SizedBox(height: 20),
-                ConstrainedBox(
-                  constraints: const BoxConstraints(maxHeight: 400),
-                  child: SingleChildScrollView(
-                    child: Column(
-                      children: [
-                         // Listem Option
-                         ListTile(
-                             title: Text(AppLocalizations.instance.myList, style: const TextStyle(color: WanderlustColors.accent, fontWeight: FontWeight.bold)),
-                             subtitle: Text(AppLocalizations.instance.addToList, style: const TextStyle(color: textGrey, fontSize: 12)),
-                             leading: const Icon(Icons.list_alt, color: WanderlustColors.accent),
-                             onTap: () => Navigator.pop(context, 0),
-                             shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(8)),
-                         ),
-                         const Divider(color: borderColor),
-                         ...List.generate(totalDays, (index) {
-                             final day = index + 1;
-                             final dayKey = day.toString();
-                             final List<dynamic> dayPlaces = scheduleMap[dayKey] ?? [];
-                             final count = dayPlaces.length;
-                             return ListTile(
-                               title: Text(AppLocalizations.instance.isEnglish ? "Day $day" : "$day. Gün", style: const TextStyle(color: textWhite)),
-                               subtitle: Text(AppLocalizations.instance.nPlaces(count), style: const TextStyle(color: textGrey, fontSize: 12)),
-                               trailing: const Icon(Icons.arrow_forward_ios, color: accent, size: 16),
-                               onTap: () => Navigator.pop(context, day),
-                             );
-                         }),
-                         const Divider(color: borderColor),
-                         ListTile(
-                             title: Text(AppLocalizations.instance.createNewDay, style: const TextStyle(color: textWhite)),
-                             subtitle: Text(AppLocalizations.instance.isEnglish ? "Day ${totalDays + 1}" : "${totalDays + 1}. Gün", style: const TextStyle(color: textGrey, fontSize: 12)),
-                             leading: const Icon(Icons.add, color: accentLight),
-                             onTap: () => Navigator.pop(context, totalDays + 1),
-                         ),
-                      ],
-                    ),
-                  ),
-                ),
-              ],
-            ),
-          ),
-        );
-      },
+    return showDaySelectionDialog(
+      context,
+      totalDays: totalDays,
+      scheduleMap: scheduleMap,
+      confirmMessage: AppLocalizations.instance.addToRouteConfirm(placeName),
     );
   }
 
@@ -1745,8 +1861,9 @@ class _ExploreScreenState extends State<ExploreScreen>
                  return false; 
                },
                child: CustomScrollView(
+                key: const PageStorageKey('explore_scroll'),
                 controller: _scrollController,
-
+                cacheExtent: 2000,
               physics: const BouncingScrollPhysics(),
               slivers: [
               // Hero Section
@@ -1778,9 +1895,16 @@ class _ExploreScreenState extends State<ExploreScreen>
                 padding: const EdgeInsets.fromLTRB(20, 0, 20, 100),
                 sliver: SliverList(
                   delegate: SliverChildBuilderDelegate(
-                    (context, index) =>
-                        _buildPlaceCard(_filteredHighlights[index], index),
+                    (context, index) {
+                      final place = _filteredHighlights[index];
+                      return RepaintBoundary(
+                        key: ValueKey("explore_card_${place.name}"),
+                        child: _buildPlaceCard(place, index),
+                      );
+                    },
                     childCount: _filteredHighlights.length,
+                    addAutomaticKeepAlives: true,
+                    addRepaintBoundaries: false, // Manuel olarak her karta ekledik
                   ),
                 ),
               ),
@@ -1880,31 +2004,31 @@ class _ExploreScreenState extends State<ExploreScreen>
             child: Stack(
               fit: StackFit.expand,
               children: [
-                // 1. Arka Plan Resmi
-                Image.network(
-                  imageUrl,
-                  fit: BoxFit.cover,
-                  color: Colors.black.withOpacity(0.2), // Hafif karartma
-                  colorBlendMode: BlendMode.darken,
-                  loadingBuilder: (context, child, loadingProgress) {
-                    if (loadingProgress == null) return child;
-                    return Container(color: bgCard);
-                  },
-                  errorBuilder: (context, error, stackTrace) => Container(color: bgCard),
+                Positioned.fill(
+                  child: ResilientNetworkImage(
+                    imageUrl: imageUrl,
+                    placeName: cityName,
+                    city: _currentCityId,
+                    category: 'guide',
+                    height: 160,
+                    fit: BoxFit.cover,
+                    placeholderBuilder: (_) => Container(color: bgCard),
+                  ),
                 ),
 
-                // 2. Gradient Overlay (Okunabilirlik için)
-                Container(
-                  decoration: BoxDecoration(
-                    gradient: LinearGradient(
-                      begin: Alignment.centerLeft,
-                      end: Alignment.centerRight,
-                      colors: [
-                        Colors.black.withOpacity(0.9), // Solda tam siyah (yazı altı)
-                        Colors.black.withOpacity(0.4), // Ortada geçiş
-                        Colors.transparent, // Sağda resim görünsün
-                      ],
-                      stops: const [0.0, 0.6, 1.0],
+                Positioned.fill(
+                  child: Container(
+                    decoration: BoxDecoration(
+                      gradient: LinearGradient(
+                        begin: Alignment.centerLeft,
+                        end: Alignment.centerRight,
+                        colors: [
+                          Colors.black.withOpacity(0.9),
+                          Colors.black.withOpacity(0.4),
+                          Colors.transparent,
+                        ],
+                        stops: const [0.0, 0.6, 1.0],
+                      ),
                     ),
                   ),
                 ),
@@ -2021,10 +2145,12 @@ class _ExploreScreenState extends State<ExploreScreen>
     }
 
     final cityKey = getCityKey(_city?.city);
-    // Merkezi görsel havuzundan al, yoksa JSON'daki heroImage'a bak
-    final imageUrl = AIService.getCityImage(cityKey) != 'https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=800'
-        ? AIService.getCityImage(cityKey)
-        : (_city?.heroImage ?? AIService.getCityImage(cityKey));
+    const String kHeroPoolFallback =
+        'https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=800';
+    final poolUrl = AIService.getCityImage(cityKey);
+    final imageUrl = poolUrl != kHeroPoolFallback
+        ? poolUrl
+        : (_city?.heroImage ?? poolUrl);
 
     return Container(
       height: 320,
@@ -2037,32 +2163,21 @@ class _ExploreScreenState extends State<ExploreScreen>
             child: SizedBox(
               width: double.infinity,
               height: 320,
-              child: Image.network(
-                imageUrl,
+              child: ResilientNetworkImage(
+                key: ValueKey<String>('explore_hero_${_currentCityId}_$imageUrl'),
+                imageUrl: imageUrl,
+                placeName: _city?.city ?? cityKey,
+                city: cityKey,
+                category: 'city',
+                height: 320,
                 fit: BoxFit.cover,
-                loadingBuilder: (context, child, loadingProgress) {
-                  if (loadingProgress == null) return child;
-                  return Container(
-                    decoration: BoxDecoration(color: accent),
-                    child: Center(
-                      child: CircularProgressIndicator(
-                        value: loadingProgress.expectedTotalBytes != null
-                            ? loadingProgress.cumulativeBytesLoaded /
-                                  loadingProgress.expectedTotalBytes!
-                            : null,
-                        color: Colors.white,
-                        strokeWidth: 2,
-                      ),
-                    ),
-                  );
-                },
-                errorBuilder: (_, __, ___) => Container(
+                fadeInDuration: Duration.zero,
+                placeholderBuilder: (context) => Container(
                   decoration: BoxDecoration(color: accent),
                   child: const Center(
-                    child: Icon(
-                      Icons.landscape_rounded,
-                      color: Colors.white54,
-                      size: 64,
+                    child: CircularProgressIndicator(
+                      color: Colors.white,
+                      strokeWidth: 2,
                     ),
                   ),
                 ),
@@ -2093,8 +2208,6 @@ class _ExploreScreenState extends State<ExploreScreen>
               onTap: () async {
                 final result = await CitySwitcherScreen.showAsModal(context);
                 if (result != null && mounted) {
-                  setState(() => _loading = true);
-                  await _loadData();
                   // Eğer "Henüz Karar Vermedim" seçildiyse pop-up göster
                   _checkAndShowCitySuggestion();
                 }
@@ -2116,10 +2229,10 @@ class _ExploreScreenState extends State<ExploreScreen>
                     child: Row(
                       mainAxisSize: MainAxisSize.min,
                       children: [
-                        const Icon(
-                          Icons.language,
-                          color: Colors.white,
-                          size: 18,
+                        Image.asset(
+                          'assets/icons/icon_sehirsec.png',
+                          width: 28,
+                          height: 28,
                         ),
                         const SizedBox(width: 8),
                         Text(
@@ -2201,29 +2314,84 @@ class _ExploreScreenState extends State<ExploreScreen>
 
 
 
-          // Selamlama (Alt kısım)
+          // Premium Başlık (Alt kısım)
           Positioned(
             left: 20,
             bottom: 24,
             right: 20,
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
+            child: Row(
+              crossAxisAlignment: CrossAxisAlignment.end,
               children: [
-                Text(
-                  "${_getGreeting()}, $_userName 👋",
-                  style: const TextStyle(
-                    color: Colors.white,
-                    fontSize: 28,
-                    fontWeight: FontWeight.w700,
-                    height: 1.2,
+                Expanded(
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Text(
+                        AppLocalizations.instance.isEnglish ? "Discovering" : "Keşfediliyor",
+                        style: TextStyle(
+                          color: Colors.white.withOpacity(0.9),
+                          fontSize: 14,
+                          fontWeight: FontWeight.w600,
+                          letterSpacing: 1.2,
+                          fontFamily: WanderlustTypography.accentFont,
+                        ),
+                      ),
+                      const SizedBox(height: 2),
+                      Text(
+                        AppLocalizations.instance.translateCity(_city?.city ?? AppLocalizations.instance.city),
+                        style: const TextStyle(
+                          color: Colors.white,
+                          fontSize: 36,
+                          fontWeight: FontWeight.w800,
+                          letterSpacing: -1.0,
+                          height: 1.1,
+                        ),
+                      ),
+                      const SizedBox(height: 8),
+                      Row(
+                        crossAxisAlignment: CrossAxisAlignment.center,
+                        children: [
+                          Container(
+                            width: 4,
+                            height: 4,
+                            decoration: const BoxDecoration(
+                              color: WanderlustColors.accent,
+                              shape: BoxShape.circle,
+                            ),
+                          ),
+                          const SizedBox(width: 8),
+                          Expanded(
+                            child: Text(
+                              AppLocalizations.instance.isEnglish ? "Curating your unique journey" : "Sana özel rota deneyimi",
+                              style: TextStyle(
+                                color: Colors.white.withOpacity(0.85),
+                                fontSize: 15,
+                                fontFamily: WanderlustTypography.bodyFont,
+                                fontWeight: FontWeight.w400,
+                              ),
+                              maxLines: 1,
+                              overflow: TextOverflow.ellipsis,
+                            ),
+                          ),
+                        ],
+                      ),
+                    ],
                   ),
                 ),
-                const SizedBox(height: 6),
-                Text(
-                  _getMoodText(),
-                  style: TextStyle(
-                    color: Colors.white.withOpacity(0.85),
-                    fontSize: 15,
+                const SizedBox(width: 12),
+                // Kaybolan Valiz ve Pasaport İkonu Geri Döndü!
+                Container(
+                  padding: const EdgeInsets.all(8),
+                  decoration: BoxDecoration(
+                    color: Colors.white.withOpacity(0.15),
+                    shape: BoxShape.circle,
+                    border: Border.all(color: Colors.white.withOpacity(0.2), width: 1),
+                  ),
+                  child: Image.asset(
+                    'assets/icons/gezgin.png',
+                    height: 44,
+                    width: 44,
+                    color: Colors.white,
                   ),
                 ),
               ],
@@ -2259,9 +2427,9 @@ class _ExploreScreenState extends State<ExploreScreen>
           filter: ImageFilter.blur(sigmaX: 15, sigmaY: 15),
           child: Container(
             decoration: BoxDecoration(
-              color: Colors.white.withOpacity(0.08),
+              color: Colors.white.withOpacity(0.45),
               borderRadius: BorderRadius.circular(24),
-              border: Border.all(color: Colors.white.withOpacity(0.12), width: 1.2),
+              border: Border.all(color: Colors.white.withOpacity(0.6), width: 1.2),
             ),
             child: Stack(
               children: [
@@ -2296,9 +2464,11 @@ class _ExploreScreenState extends State<ExploreScreen>
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
                                 Text(
-                                  AppLocalizations.instance.aiRecommendations,
+                                  _aiChatResponse != null 
+                                    ? "Keşfetmeye nereden başlayalım?" 
+                                    : AppLocalizations.instance.aiRecommendations,
                                   style: const TextStyle(
-                                    color: Colors.white,
+                                    color: textWhite,
                                     fontSize: 16,
                                     fontWeight: FontWeight.w700,
                                     letterSpacing: -0.5,
@@ -2307,8 +2477,6 @@ class _ExploreScreenState extends State<ExploreScreen>
                                 const SizedBox(height: 4),
                                 Row(
                                   children: [
-                                    Icon(Icons.auto_awesome, color: accent, size: 12),
-                                    const SizedBox(width: 4),
                                     Flexible(
                                       child: Text(
                                         _interests.isNotEmpty 
@@ -2328,12 +2496,15 @@ class _ExploreScreenState extends State<ExploreScreen>
                               ],
                             ),
                           ),
-                          // Yenile butonu
+                          // Yenile butonu — öneri ikonu (ilk CTA ile aynı)
                           if (_aiChatResponse != null && !_aiLoading)
                             GestureDetector(
                               onTap: () {
                                 HapticFeedback.lightImpact();
-                                  _fetchAIChatResponse();
+                                // Cache'i temizle ve yeniden üret
+                                _aiChatCache.remove(_currentCityId);
+                                setState(() => _aiChatResponse = null);
+                                _fetchAIChatResponse(variation: DateTime.now().millisecond);
                               },
                               child: Container(
                                 padding: const EdgeInsets.all(8),
@@ -2342,10 +2513,11 @@ class _ExploreScreenState extends State<ExploreScreen>
                                   color: Colors.white.withOpacity(0.1),
                                   borderRadius: BorderRadius.circular(10),
                                 ),
-                                child: const Icon(
-                                  Icons.refresh_rounded,
-                                  color: Colors.white70,
-                                  size: 20,
+                                child: Image.asset(
+                                  'assets/icons/icon_oneri.png',
+                                  width: 20,
+                                  height: 20,
+                                  fit: BoxFit.contain,
                                 ),
                               ),
                             ),
@@ -2362,9 +2534,9 @@ class _ExploreScreenState extends State<ExploreScreen>
                                   color: Colors.white.withOpacity(0.1),
                                   borderRadius: BorderRadius.circular(10),
                                 ),
-                                child: const Icon(
+                                child: Icon(
                                   Icons.keyboard_arrow_up_rounded,
-                                  color: Colors.white70,
+                                  color: textWhite.withOpacity(0.7),
                                   size: 22,
                                 ),
                               ),
@@ -2453,61 +2625,131 @@ class _ExploreScreenState extends State<ExploreScreen>
                 borderRadius: BorderRadius.circular(16),
                 border: Border.all(color: Colors.white.withOpacity(0.12)),
               ),
-              child: Row(
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                    Container(
-                      padding: const EdgeInsets.all(0),
-                      decoration: BoxDecoration(
-                        color: accent,
-                        borderRadius: BorderRadius.circular(10),
-                      ),
-                      child: ClipRRect(
-                        borderRadius: BorderRadius.circular(10),
-                        child: Transform.scale(
-                          scale: 1.15, // Scale up the white symbol
-                          child: Image.asset(
-                            'assets/images/splash_logo.png',
-                            width: 24,
-                            height: 24,
-                            fit: BoxFit.cover,
+                  Row(
+                    children: [
+                        Container(
+                          padding: const EdgeInsets.all(2),
+                          decoration: BoxDecoration(
+                            color: accent,
+                            borderRadius: BorderRadius.circular(10),
                           ),
+                          child: ClipRRect(
+                            borderRadius: BorderRadius.circular(10),
+                            child: Image.asset(
+                              'assets/images/splash_logo.png',
+                              width: 24,
+                              height: 24,
+                              fit: BoxFit.cover,
+                            ),
+                          ),
+                        ),
+                      const SizedBox(width: 12),
+                      Expanded(
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Text(
+                              "Keşfetmeye nereden başlayalım?",
+                              style: const TextStyle(
+                                color: textWhite,
+                                fontSize: 14,
+                                fontWeight: FontWeight.w600,
+                              ),
+                            ),
+                            Text(
+                              "Şehrin ritmine uygun gizli hazineler bul veya takvimine tam uyan bir günlük plan hazırla",
+                              style: TextStyle(
+                                color: accent.withOpacity(0.9),
+                                fontSize: 10,
+                                fontWeight: FontWeight.w500,
+                              ),
+                            ),
+                          ],
                         ),
                       ),
-                    ),
-                  const SizedBox(width: 12),
-                  Expanded(
-                    child: Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        Text(
-                          AppLocalizations.instance.recommendationsReady,
-                          style: const TextStyle(
-                            color: Colors.white,
-                            fontSize: 15,
-                            fontWeight: FontWeight.w600,
-                          ),
-                        ),
-                        Text(
-                          AppLocalizations.instance.tapToSeeAgain,
-                          style: TextStyle(
-                            color: Colors.white.withOpacity(0.6),
-                            fontSize: 12,
-                          ),
-                        ),
-                      ],
-                    ),
+                      const Icon(
+                        Icons.keyboard_arrow_down_rounded,
+                        color: Colors.white60,
+                        size: 22,
+                      ),
+                    ],
                   ),
-                  Container(
-                    padding: const EdgeInsets.all(8),
-                    decoration: BoxDecoration(
-                      color: Colors.white.withOpacity(0.08),
-                      borderRadius: BorderRadius.circular(10),
-                    ),
-                    child: const Icon(
-                      Icons.keyboard_arrow_down_rounded,
-                      color: Colors.white60,
-                      size: 22,
-                    ),
+                  const SizedBox(height: 12),
+                  Row(
+                    children: [
+                      // Yenile Butonu
+                      Expanded(
+                        child: GestureDetector(
+                          onTap: () {
+                            HapticFeedback.mediumImpact();
+                            _aiChatCache.remove(_currentCityId);
+                            setState(() => _aiChatResponse = null);
+                            _fetchAIChatResponse(variation: DateTime.now().millisecond);
+                          },
+                          child: Container(
+                            padding: const EdgeInsets.symmetric(vertical: 8),
+                            decoration: BoxDecoration(
+                              color: Colors.white.withOpacity(0.1),
+                              borderRadius: BorderRadius.circular(8),
+                              border: Border.all(color: accent.withOpacity(0.3)),
+                            ),
+                            child: Row(
+                              mainAxisAlignment: MainAxisAlignment.center,
+                              children: [
+                                Image.asset(
+                                  'assets/icons/icon_oneri.png',
+                                  width: 16,
+                                  height: 16,
+                                  fit: BoxFit.contain,
+                                ),
+                                const SizedBox(width: 6),
+                                const Text(
+                                  "Yenile",
+                                  style: TextStyle(color: textWhite, fontSize: 11, fontWeight: FontWeight.w600),
+                                ),
+                              ],
+                            ),
+                          ),
+                        ),
+                      ),
+                      const SizedBox(width: 10),
+                      // Günlük Plan Butonu
+                      Expanded(
+                        child: GestureDetector(
+                          onTap: () {
+                            HapticFeedback.mediumImpact();
+                            _generateMagicPlan();
+                          },
+                          child: Container(
+                            padding: const EdgeInsets.symmetric(vertical: 8),
+                            decoration: BoxDecoration(
+                              color: Colors.white.withOpacity(0.1),
+                              borderRadius: BorderRadius.circular(8),
+                              border: Border.all(color: accent.withOpacity(0.3)),
+                            ),
+                            child: Row(
+                              mainAxisAlignment: MainAxisAlignment.center,
+                              children: [
+                                Image.asset(
+                                  'assets/icons/icon_gunluk.png',
+                                  width: 16,
+                                  height: 16,
+                                  fit: BoxFit.contain,
+                                ),
+                                const SizedBox(width: 6),
+                                Text(
+                                  AppLocalizations.instance.buildSmartItinerary.split(' ')[0] + ' Planı',
+                                  style: const TextStyle(color: textWhite, fontSize: 11, fontWeight: FontWeight.w600),
+                                ),
+                              ],
+                            ),
+                          ),
+                        ),
+                      ),
+                    ],
                   ),
                 ],
               ),
@@ -2531,47 +2773,130 @@ class _ExploreScreenState extends State<ExploreScreen>
           ),
         ),
         const SizedBox(height: 16),
-        Center(
-          child: GestureDetector(
-            // key: _askAiKey, // 🔥 KEY REMOVED (Moved to container)
-            onTap: () {
-              HapticFeedback.mediumImpact();
-              _fetchAIChatResponse();
-            },
-            child: ClipRRect(
-              borderRadius: BorderRadius.circular(12),
-              child: BackdropFilter(
-                filter: ImageFilter.blur(sigmaX: 8, sigmaY: 8),
-                child: Container(
-                  padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 10),
-                  decoration: BoxDecoration(
-                    color: Colors.white.withOpacity(0.1),
-                    borderRadius: BorderRadius.circular(12),
-                    border: Border.all(color: accent.withOpacity(0.4)),
-                  ),
-                  child: Row(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      Icon(Icons.auto_awesome_rounded, color: accent, size: 16),
-                      const SizedBox(width: 8),
-                      Text(
-                        _aiChatResponse != null 
-                            ? AppLocalizations.instance.askAnotherAI 
-                            : AppLocalizations.instance.askAI,
-                        style: const TextStyle(
-                          color: Colors.white,
-                          fontSize: 13,
-                          fontWeight: FontWeight.w600,
-                        ),
+        Row(
+          children: [
+            Expanded(
+              child: GestureDetector(
+                onTap: () {
+                  HapticFeedback.mediumImpact();
+                  // 📊 Analytics: Öneri butonu tıklama logu
+                  NotificationService().logEvent('suggestion_button_clicked', parameters: {
+                    'city_id': _currentCityId,
+                  });
+                  _fetchAIChatResponse(variation: DateTime.now().millisecond);
+                },
+                child: ClipRRect(
+                  borderRadius: BorderRadius.circular(12),
+                  child: BackdropFilter(
+                    filter: ImageFilter.blur(sigmaX: 8, sigmaY: 8),
+                    child: Container(
+                      padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 10),
+                      decoration: BoxDecoration(
+                        color: Colors.white.withOpacity(0.1),
+                        borderRadius: BorderRadius.circular(12),
+                        border: Border.all(color: accent.withOpacity(0.4)),
                       ),
-                    ],
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          Image.asset('assets/icons/icon_oneri.png', width: 24, height: 24),
+                          const SizedBox(width: 6),
+                          Flexible(
+                            child: FittedBox(
+                              fit: BoxFit.scaleDown,
+                              alignment: Alignment.centerLeft,
+                              child: Text(
+                                AppLocalizations.instance.askAI,
+                                maxLines: 1,
+                                softWrap: false,
+                                style: const TextStyle(
+                                  color: textWhite,
+                                  fontSize: 13,
+                                  fontWeight: FontWeight.w600,
+                                ),
+                              ),
+                            ),
+                          ),
+                        ],
+                      ),
+                    ),
                   ),
                 ),
               ),
             ),
-          ),
+            const SizedBox(width: 12),
+            Expanded(
+              child: GestureDetector(
+                onTap: () {
+                  HapticFeedback.mediumImpact();
+                  _generateMagicPlan();
+                },
+                child: ClipRRect(
+                  borderRadius: BorderRadius.circular(12),
+                  child: BackdropFilter(
+                    filter: ImageFilter.blur(sigmaX: 8, sigmaY: 8),
+                    child: Container(
+                      padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 10),
+                      decoration: BoxDecoration(
+                        color: Colors.white.withOpacity(0.1),
+                        borderRadius: BorderRadius.circular(12),
+                        border: Border.all(color: accent.withOpacity(0.4)),
+                      ),
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          Image.asset('assets/icons/icon_gunluk.png', width: 24, height: 24),
+                          const SizedBox(width: 6),
+                          Flexible(
+                            child: FittedBox(
+                              fit: BoxFit.scaleDown,
+                              alignment: Alignment.centerLeft,
+                              child: Text(
+                                AppLocalizations.instance.buildSmartItinerary,
+                                maxLines: 1,
+                                softWrap: false,
+                                style: const TextStyle(
+                                  color: textWhite,
+                                  fontSize: 13,
+                                  fontWeight: FontWeight.w600,
+                                ),
+                              ),
+                            ),
+                          ),
+                        ],
+                      ),
+                    ),
+                  ),
+                ),
+              ),
+            ),
+          ],
         ),
       ],
+    );
+  }
+
+  Future<void> _generateMagicPlan() async {
+    final prefs = await SharedPreferences.getInstance();
+    final cityId = prefs.getString("selectedCity") ?? _city?.city.toLowerCase() ?? "barcelona";
+
+    // Free trial: 1 free use per city, then paywall for non-premium
+    final trialCount = prefs.getInt("itinerary_trial_count_${cityId.toLowerCase()}") ?? 0;
+    final hasUsedAiPlan = trialCount >= 1;
+
+    if (hasUsedAiPlan && !PremiumService.instance.isPremium) {
+      if (!mounted) return;
+      showPaywall(context, onSubscribe: (planId) async {
+        if (mounted) setState(() {});
+      });
+      return;
+    }
+
+    if (!mounted) return;
+    Navigator.of(context).push(
+      MaterialPageRoute(
+        builder: (context) => AnalysisLoadingScreen(cityId: cityId),
+      ),
     );
   }
 
@@ -2584,7 +2909,7 @@ class _ExploreScreenState extends State<ExploreScreen>
             width: 28,
             height: 28,
             child: CircularProgressIndicator(
-              color: Colors.white,
+              color: accent,
               strokeWidth: 2.5,
             ),
           ),
@@ -2592,7 +2917,7 @@ class _ExploreScreenState extends State<ExploreScreen>
         const SizedBox(height: 16),
         Text(
           AppLocalizations.instance.preparingForYou,
-          style: TextStyle(color: Colors.white.withOpacity(0.9), fontSize: 14),
+          style: TextStyle(color: textWhite.withOpacity(0.9), fontSize: 14),
         ),
         const SizedBox(height: 20),
       ],
@@ -2605,56 +2930,6 @@ class _ExploreScreenState extends State<ExploreScreen>
       children: [
         // AI Response - Markdown benzeri render
         _buildFormattedResponse(_aiChatResponse!),
-
-        const SizedBox(height: 16),
-
-        // Yeniden sor butonu
-        Row(
-          children: [
-            GestureDetector(
-              onTap: () {
-                HapticFeedback.mediumImpact();
-                // Cache'i temizle ve yeniden üret
-                _aiChatCache.remove(_currentCityId);
-                SharedPreferences.getInstance().then((prefs) {
-                  prefs.remove("ai_chat_cache_$_currentCityId");
-                });
-                setState(() => _aiChatResponse = null);
-                _fetchAIChatResponse();
-              },
-
-              child: Container(
-                padding: const EdgeInsets.symmetric(
-                  horizontal: 14,
-                  vertical: 8,
-                ),
-                decoration: BoxDecoration(
-                  color: Colors.white.withOpacity(0.2),
-                  borderRadius: BorderRadius.circular(8),
-                ),
-                child: Row(
-                  mainAxisSize: MainAxisSize.min,
-                  children: [
-                    const Icon(
-                      Icons.refresh_rounded,
-                      color: Colors.white,
-                      size: 16,
-                    ),
-                    const SizedBox(width: 6),
-                    const Text(
-                      "Yenile",
-                      style: TextStyle(
-                        color: Colors.white,
-                        fontSize: 13,
-                        fontWeight: FontWeight.w500,
-                      ),
-                    ),
-                  ],
-                ),
-              ),
-            ),
-          ],
-        ),
       ],
     );
   }
@@ -2722,7 +2997,7 @@ class _ExploreScreenState extends State<ExploreScreen>
   MarkdownStyleSheet _getMarkdownStyle() {
     return MarkdownStyleSheet(
       p: TextStyle(
-        color: Colors.white.withOpacity(0.9),
+        color: textWhite.withOpacity(0.9),
         fontSize: 15,
         height: 1.6,
         letterSpacing: 0.2,
@@ -2760,6 +3035,8 @@ class _ExploreScreenState extends State<ExploreScreen>
     return GestureDetector(
       onTap: () {
         if (place != null) {
+          // Navigation
+
           Navigator.push(
             context,
             MaterialPageRoute(
@@ -2776,23 +3053,27 @@ class _ExploreScreenState extends State<ExploreScreen>
             );
         }
       },
-      child: Container(
-        margin: const EdgeInsets.only(bottom: 20),
-        decoration: BoxDecoration(
-          color: Colors.white.withOpacity(0.05),
-          borderRadius: BorderRadius.circular(16),
-          border: Border.all(
-            color: Colors.white.withOpacity(0.1),
-          ),
-          boxShadow: [
-            BoxShadow(
-              color: Colors.black.withOpacity(0.2),
-              blurRadius: 10,
-              offset: const Offset(0, 4),
+      child: ClipRRect(
+        borderRadius: BorderRadius.circular(16),
+        child: BackdropFilter(
+          filter: ImageFilter.blur(sigmaX: 10, sigmaY: 10),
+          child: Container(
+            margin: const EdgeInsets.only(bottom: 20),
+            decoration: BoxDecoration(
+              color: Colors.white.withOpacity(0.6),
+              borderRadius: BorderRadius.circular(16),
+              border: Border.all(
+                color: Colors.white.withOpacity(0.8),
+              ),
+              boxShadow: [
+                BoxShadow(
+                  color: Colors.black.withOpacity(0.06),
+                  blurRadius: 15,
+                  offset: const Offset(0, 8),
+                ),
+              ],
             ),
-          ],
-        ),
-        clipBehavior: Clip.antiAlias,
+            clipBehavior: Clip.antiAlias,
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
@@ -2803,30 +3084,30 @@ class _ExploreScreenState extends State<ExploreScreen>
               child: Stack(
                 fit: StackFit.expand,
                 children: [
-                  Image.network(
-                    imageUrl,
-                    fit: BoxFit.cover,
-                    loadingBuilder: (context, child, loadingProgress) {
-                      if (loadingProgress == null) return child;
-                      return Container(
-                        color: Colors.white.withOpacity(0.1),
-                      );
-                    },
-                    errorBuilder: (context, error, stackTrace) => Container(
-                      color: Colors.grey[900],
-                      child: const Icon(Icons.image_not_supported, color: Colors.white54),
+                  Positioned.fill(
+                    child: ResilientNetworkImage(
+                      imageUrl: imageUrl,
+                      placeName: item.name,
+                      city: _city?.city ?? _currentCityId,
+                      category: place?.category ?? 'Genel',
+                      blurHash: place?.blurHash,
+                      height: 150,
+                      fit: BoxFit.cover,
+                      placeholderBuilder: (_) =>
+                          Container(color: Colors.white.withOpacity(0.1)),
                     ),
                   ),
-                  // Gradient Overlay (Yazı okunabilirliği için)
-                  Container(
-                    decoration: BoxDecoration(
-                      gradient: LinearGradient(
-                        begin: Alignment.topCenter,
-                        end: Alignment.bottomCenter,
-                        colors: [
-                          Colors.transparent,
-                          Colors.black.withOpacity(0.4),
-                        ],
+                  Positioned.fill(
+                    child: Container(
+                      decoration: BoxDecoration(
+                        gradient: LinearGradient(
+                          begin: Alignment.topCenter,
+                          end: Alignment.bottomCenter,
+                          colors: [
+                            Colors.transparent,
+                            Colors.black.withOpacity(0.4),
+                          ],
+                        ),
                       ),
                     ),
                   ),
@@ -2855,7 +3136,7 @@ class _ExploreScreenState extends State<ExploreScreen>
                        ),
                        const Icon(
                          Icons.arrow_forward_ios_rounded,
-                         color: Colors.white54,
+                         color: textGrey,
                          size: 14,
                        ),
                      ],
@@ -2865,18 +3146,20 @@ class _ExploreScreenState extends State<ExploreScreen>
                    Text(
                      item.description,
                      style: TextStyle(
-                       color: Colors.white.withOpacity(0.85),
+                       color: textWhite.withOpacity(0.85),
                        fontSize: 14,
                        height: 1.5,
                      ),
                    ),
-                ],
-              ),
-            ),
-          ],
-        ),
-      ),
-    );
+                 ],
+               ),
+             ),
+           ],
+         ),
+       ),
+     ),
+   ),
+);
   }
 
   // AI Yanıtını Ayrıştırıcı
@@ -2885,19 +3168,21 @@ class _ExploreScreenState extends State<ExploreScreen>
     String tip = "";
     List<RecommendationItem> items = [];
 
+    // Pre-processing: AI bazen linklerin arasına gereksiz boşluk/satır sonu ekleyebiliyor
+    String cleanedResponse = response.replaceAll(RegExp(r'\]\s*\n\s*\('), '](');
+    // Bulletları normalize et (* veya • yerine - yap)
+    cleanedResponse = cleanedResponse.replaceAll(RegExp(r'^[ \t]*[•*+]\s*', multiLine: true), '- ');
+
     // 1. İpucunu ayır (Tip veya İpucu)
     // AI Service formatı: ... \n\n**Tip:** Text
     final tipRegex = RegExp(r'\*\*(Tip|İpucu):\*\*\s*(.*)', dotAll: true);
-    final tipMatch = tipRegex.firstMatch(response);
+    final tipMatch = tipRegex.firstMatch(cleanedResponse);
     
-    String mainContent = response;
-
+    String mainContent = cleanedResponse;
     if (tipMatch != null) {
       tip = "**${tipMatch.group(1)}:** ${tipMatch.group(2)?.trim()}";
-      mainContent = response.substring(0, tipMatch.start).trim();
+      mainContent = cleanedResponse.substring(0, tipMatch.start).trim();
     }
-
-    // 2. Intro ve Önerileri ayır
     // Öneriler "- [Name](search:...) - " ile başlar
     // Bu patternin ilk görüldüğü yerden öncesi introdur.
     final listStartRegex = RegExp(r'-\s*\[');
@@ -2910,7 +3195,7 @@ class _ExploreScreenState extends State<ExploreScreen>
       // 3. Önerileri tek tek parse et
       // Regex: - [Display Name](search:Query) - Description
       // Not: Description multilne olabilir, bir sonraki "- [" gelene kadar almalıyız.
-      final itemRegex = RegExp(r'-\s*\[(.*?)\]\(search:(.*?)\)\s*-\s*(.*?)(?=\n-\s*\[|$)', dotAll: true);
+      final itemRegex = RegExp(r'-\s*\[(.*?)\]\s*\(search:(.*?)\)\s*-\s*(.*?)(?=\n-|$)', dotAll: true);
       
       final matches = itemRegex.allMatches(recommendationsSection);
       for (final match in matches) {
@@ -2982,6 +3267,8 @@ class _ExploreScreenState extends State<ExploreScreen>
       }
 
       if (foundPlace != null && mounted) {
+        // Navigation
+
         Navigator.push(
           context,
           MaterialPageRoute(builder: (_) => DetailScreen(place: foundPlace!)),
@@ -3003,6 +3290,56 @@ class _ExploreScreenState extends State<ExploreScreen>
   // ══════════════════════════════════════════════════════════════════════════
   // TRENDING TODAY SECTION
   // ══════════════════════════════════════════════════════════════════════════
+
+  Widget _buildPlaceholderImage(String category) {
+    final color = _getCategoryColor(category);
+    return Container(
+      decoration: BoxDecoration(
+        gradient: LinearGradient(
+          colors: [color.withOpacity(0.8), color.withOpacity(0.5)],
+          begin: Alignment.topLeft,
+          end: Alignment.bottomRight,
+        ),
+      ),
+      child: Center(
+        child: Icon(
+          _getCategoryIcon(category),
+          color: Colors.white.withOpacity(0.7),
+          size: 32,
+        ),
+      ),
+    );
+  }
+
+  Color _getCategoryColor(String category) {
+    switch (category) {
+      case 'Cafe': return const Color(0xFF8B4513);
+      case 'Restoran': return const Color(0xFFE74C3C);
+      case 'Bar': return const Color(0xFF9B59B6);
+      case 'Müze': return const Color(0xFF3498DB);
+      case 'Park': return const Color(0xFF27AE60);
+      case 'Tarihi': return const Color(0xFFF39C12);
+      case 'Manzara': return const Color(0xFF1ABC9C);
+      case 'Deneyim': return const Color(0xFFE91E63);
+      case 'Alışveriş': return const Color(0xFFFF9800);
+      default: return accent;
+    }
+  }
+
+  IconData _getCategoryIcon(String category) {
+    switch (category) {
+      case 'Cafe': return Icons.local_cafe_rounded;
+      case 'Restoran': return Icons.restaurant_rounded;
+      case 'Bar': return Icons.local_bar_rounded;
+      case 'Müze': return Icons.museum_rounded;
+      case 'Park': return Icons.park_rounded;
+      case 'Tarihi': return Icons.account_balance_rounded;
+      case 'Manzara': return Icons.landscape_rounded;
+      case 'Deneyim': return Icons.explore_rounded;
+      case 'Alışveriş': return Icons.shopping_bag_rounded;
+      default: return Icons.place_rounded;
+    }
+  }
 
   Widget _buildTrendingSection() {
     final trendingPlaces = TrendingService.getTrendingPlaces(_allHighlights, limit: 8);
@@ -3038,7 +3375,7 @@ class _ExploreScreenState extends State<ExploreScreen>
                 child: Row(
                   mainAxisSize: MainAxisSize.min,
                   children: [
-                    Icon(Icons.local_fire_department_rounded, color: accent, size: 14),
+                    Image.asset('assets/icons/icon_lively.png', width: 16, height: 16),
                     const SizedBox(width: 4),
                     Text(
                       isEnglish ? 'Live' : 'Canlı',
@@ -3056,7 +3393,9 @@ class _ExploreScreenState extends State<ExploreScreen>
         ),
 
         // Horizontal scroll kartları
+        // Horizontal liste önceki şehirdeki scroll offset'ini tutmasın.
         SizedBox(
+          key: ValueKey<String>('explore_trending_h_${_currentCityId}'),
           height: 200,
           child: ListView.builder(
             scrollDirection: Axis.horizontal,
@@ -3071,13 +3410,18 @@ class _ExploreScreenState extends State<ExploreScreen>
   }
 
   Widget _buildTrendingCard(Highlight place, int index) {
-    final hasImage = place.imageUrl != null && place.imageUrl!.isNotEmpty;
     final placeKey = "$_currentCityId:${place.name}";
     final isFavorite = _favorites.contains(place.name) || _favorites.contains(placeKey);
 
     return GestureDetector(
       onTap: () {
         HapticFeedback.lightImpact();
+        // 📊 Analytics: Mekan tıklama logu
+        NotificationService().logEvent('place_card_clicked', parameters: {
+          'place_name': place.name,
+          'city_id': _currentCityId,
+          'index': index,
+        });
         Navigator.push(
           context,
           MaterialPageRoute(builder: (_) => DetailScreen(place: place)),
@@ -3102,11 +3446,16 @@ class _ExploreScreenState extends State<ExploreScreen>
                   child: SizedBox(
                     height: 100,
                     width: double.infinity,
-                    child: hasImage
-                        ? Image.network(
-                            place.imageUrl!,
+                    child: place.imageUrl != null && place.imageUrl!.isNotEmpty
+                        ? CachedNetworkImage(
+                            imageUrl: place.imageUrl!,
                             fit: BoxFit.cover,
-                            errorBuilder: (_, __, ___) => _buildPlaceholderImage(place.category),
+                            cacheManager: AppImageCacheManager.instance,
+                            fadeInDuration: Duration.zero,
+                            fadeOutDuration: Duration.zero,
+                            placeholderFadeInDuration: Duration.zero,
+                            placeholder: (_, __) => _buildPlaceholderImage(place.category),
+                            errorWidget: (_, __, ___) => _buildPlaceholderImage(place.category),
                           )
                         : _buildPlaceholderImage(place.category),
                   ),
@@ -3241,64 +3590,14 @@ class _ExploreScreenState extends State<ExploreScreen>
     );
   }
 
-  Widget _buildPlaceholderImage(String category) {
-    final color = _getCategoryColor(category);
-    return Container(
-      decoration: BoxDecoration(
-        gradient: LinearGradient(
-          colors: [color.withOpacity(0.8), color.withOpacity(0.5)],
-          begin: Alignment.topLeft,
-          end: Alignment.bottomRight,
-        ),
-      ),
-      child: Center(
-        child: Icon(
-          _getCategoryIcon(category),
-          color: Colors.white.withOpacity(0.7),
-          size: 32,
-        ),
-      ),
-    );
-  }
-
-  Color _getCategoryColor(String category) {
-    switch (category) {
-      case 'Cafe': return const Color(0xFF8B4513);
-      case 'Restoran': return const Color(0xFFE74C3C);
-      case 'Bar': return const Color(0xFF9B59B6);
-      case 'Müze': return const Color(0xFF3498DB);
-      case 'Park': return const Color(0xFF27AE60);
-      case 'Tarihi': return const Color(0xFFF39C12);
-      case 'Manzara': return const Color(0xFF1ABC9C);
-      case 'Deneyim': return const Color(0xFFE91E63);
-      case 'Alışveriş': return const Color(0xFFFF9800);
-      default: return accent;
-    }
-  }
-
-  IconData _getCategoryIcon(String category) {
-    switch (category) {
-      case 'Cafe': return Icons.local_cafe_rounded;
-      case 'Restoran': return Icons.restaurant_rounded;
-      case 'Bar': return Icons.local_bar_rounded;
-      case 'Müze': return Icons.museum_rounded;
-      case 'Park': return Icons.park_rounded;
-      case 'Tarihi': return Icons.account_balance_rounded;
-      case 'Manzara': return Icons.landscape_rounded;
-      case 'Deneyim': return Icons.explore_rounded;
-      case 'Alışveriş': return Icons.shopping_bag_rounded;
-      default: return Icons.place_rounded;
-    }
-  }
-
   // ══════════════════════════════════════════════════════════════════════════
   // SEARCH BAR
   // ══════════════════════════════════════════════════════════════════════════
 
   Widget _buildSearchBar() {
     return Container(
-      margin: const EdgeInsets.fromLTRB(16, 20, 16, 0),
-      height: 52,
+      margin: const EdgeInsets.fromLTRB(20, 14, 20, 0),
+      height: 50,
       decoration: BoxDecoration(
         color: bgCard,
         borderRadius: BorderRadius.circular(14),
@@ -3309,6 +3608,14 @@ class _ExploreScreenState extends State<ExploreScreen>
         onChanged: (v) {
           setState(() => _searchQuery = v);
           _applyFilters();
+          
+          // --- ANALYTICS DEBOUNCE ---
+          _searchTimer?.cancel();
+          if (v.length >= 3) {
+            _searchTimer = Timer(const Duration(seconds: 1), () {
+              AnalyticsService.instance.logSearch(v);
+            });
+          }
         },
         style: const TextStyle(color: textWhite, fontSize: 15),
         decoration: InputDecoration(
@@ -3350,9 +3657,9 @@ class _ExploreScreenState extends State<ExploreScreen>
 
   Widget _buildMoodChips() {
     final moods = [
-      {"id": 0, "label": AppLocalizations.instance.moodCalm},
-      {"id": 1, "label": AppLocalizations.instance.moodDiscover},
-      {"id": 2, "label": AppLocalizations.instance.moodLively},
+      {"id": 0, "label": AppLocalizations.instance.moodCalm, "icon": "assets/icons/icon_sakin.png"},
+      {"id": 1, "label": AppLocalizations.instance.moodDiscover, "icon": "assets/icons/icon_kesif.png"},
+      {"id": 2, "label": AppLocalizations.instance.moodLively, "icon": "assets/icons/icon_canli.png"},
     ];
 
     return Column(
@@ -3360,17 +3667,18 @@ class _ExploreScreenState extends State<ExploreScreen>
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Padding(
-          padding: const EdgeInsets.only(left: 24, top: 24, bottom: 8),
+          padding: const EdgeInsets.only(left: 20, top: 24, bottom: 12),
           child: AnimatedSwitcher(
             duration: const Duration(milliseconds: 300),
             child: Text(
-              _getMoodDescription(_selectedMood),
+              _getMoodDescription(_selectedMood).toUpperCase(),
               key: ValueKey<int>(_selectedMood),
               style: TextStyle(
+                fontFamily: 'Ubuntu',
                 color: textGrey.withOpacity(0.6),
-                fontSize: 13,
-                fontWeight: FontWeight.w500,
-                letterSpacing: 0.5,
+                fontSize: 11,
+                fontWeight: FontWeight.w700,
+                letterSpacing: 1.5,
               ),
             ),
           ),
@@ -3378,110 +3686,105 @@ class _ExploreScreenState extends State<ExploreScreen>
 
         Container(
           margin: const EdgeInsets.symmetric(horizontal: 20),
-      height: 54,
-      decoration: BoxDecoration(
-        color: Colors.white.withOpacity(0.05), // Çok hafif taban
-        borderRadius: BorderRadius.circular(18),
-        border: Border.all(color: Colors.white.withOpacity(0.08)),
-      ),
-      child: Stack(
-        children: [
-          // Liquid Glass Indicator (Kayan Buzlu Cam)
-          AnimatedAlign(
-            duration: const Duration(milliseconds: 500),
-            curve: Curves.easeInOutCubic, // Daha akışkan (liquid) hissi
-            alignment: Alignment(
-              -1.0 + (_selectedMood * 1.0), 
-               0.0
-            ),
-            child: LayoutBuilder(
-              builder: (context, constraints) {
-                return Container(
-                  width: constraints.maxWidth / 3,
-                  height: double.infinity,
-                  margin: const EdgeInsets.all(4),
-                  decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(14),
-                    color: Colors.white.withOpacity(0.12), // Buzlu cam rengi
-                    border: Border.all(color: Colors.white.withOpacity(0.2)),
-                    boxShadow: [
-                      BoxShadow(
-                        color: Colors.black.withOpacity(0.1),
-                        blurRadius: 10,
-                        offset: const Offset(0, 4),
-                      ),
-                    ],
-                  ),
-                  child: ClipRRect(
-                    borderRadius: BorderRadius.circular(14),
-                    child: BackdropFilter(
-                      filter: ImageFilter.blur(sigmaX: 10, sigmaY: 10),
-                      child: Container(color: Colors.transparent),
-                    ),
-                  ),
-                );
-              },
-            ),
+          height: 52,
+          padding: const EdgeInsets.all(4),
+          decoration: BoxDecoration(
+            color: textGrey.withOpacity(0.08), // Soft, theme-adaptive background
+            borderRadius: BorderRadius.circular(26),
           ),
-
-          // Butonlar
-          Row(
-            children: moods.map((mood) {
-              final isSelected = _selectedMood == mood["id"];
-              return Expanded(
-                child: GestureDetector(
-                  onTap: () {
-                    HapticFeedback.lightImpact();
-                    setState(() => _selectedMood = mood["id"] as int);
-                    _applyFilters();
-                    _fetchAIRecommendations();
-                  },
-                  behavior: HitTestBehavior.opaque,
-                  child: Center(
-                    child: Row(
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: [
-                        // Aktifse küçük nokta
-                        if (isSelected) 
-                          Container(
-                            margin: const EdgeInsets.only(right: 6),
-                            width: 6,
-                            height: 6,
-                            decoration: BoxDecoration(
-                              color: accent, // Amber rengi nokta
-                              shape: BoxShape.circle,
-                              boxShadow: [
-                                BoxShadow(
-                                  color: accent.withOpacity(0.5),
-                                  blurRadius: 6,
-                                  spreadRadius: 1,
-                                ),
-                              ],
-                            ),
-                          ),
-                        AnimatedDefaultTextStyle(
-                          duration: const Duration(milliseconds: 300),
-                          style: TextStyle(
-                            fontFamily: 'Ubuntu',
-                            color: isSelected ? Colors.white : textGrey.withOpacity(0.8),
-                            fontSize: 14,
-                            fontWeight: isSelected ? FontWeight.w600 : FontWeight.w500,
-                            letterSpacing: 0.5,
-                          ),
-                          child: Text(
-                            AppLocalizations.instance.translateCategory(mood["label"] as String),
-                          ),
-                        ),
-                      ],
-                    ),
-                  ),
+          child: Stack(
+            children: [
+              // Premium Slide Pill
+              AnimatedAlign(
+                duration: const Duration(milliseconds: 350),
+                curve: Curves.easeOutCirc,
+                alignment: Alignment(
+                  -1.0 + (_selectedMood * 1.0), 
+                   0.0
                 ),
-              );
-            }).toList(),
+                child: LayoutBuilder(
+                  builder: (context, constraints) {
+                    return Container(
+                      width: constraints.maxWidth / 3,
+                      height: double.infinity,
+                      decoration: BoxDecoration(
+                        color: WanderlustColors.bgCard, // Solid, theme-adaptive pill
+                        borderRadius: BorderRadius.circular(22),
+                        boxShadow: [
+                          BoxShadow(
+                            color: Colors.black.withOpacity(0.06),
+                            blurRadius: 8,
+                            spreadRadius: 1,
+                            offset: const Offset(0, 3),
+                          ),
+                          BoxShadow(
+                            color: Colors.black.withOpacity(0.04),
+                            blurRadius: 2,
+                            offset: const Offset(0, 1),
+                          ),
+                        ],
+                      ),
+                    );
+                  },
+                ),
+              ),
+
+              // Buttons
+              Row(
+                children: moods.map((mood) {
+                  final isSelected = _selectedMood == mood["id"];
+                  return Expanded(
+                    child: GestureDetector(
+                      onTap: () {
+                        HapticFeedback.lightImpact();
+                        setState(() => _selectedMood = mood["id"] as int);
+                        _applyFilters();
+                        _fetchAIRecommendations();
+                      },
+                      behavior: HitTestBehavior.opaque,
+                      child: Center(
+                        child: Row(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: [
+                            AnimatedContainer(
+                              duration: const Duration(milliseconds: 350),
+                              curve: Curves.easeOutCirc,
+                              margin: const EdgeInsets.only(right: 6),
+                              width: isSelected ? 24 : 18,
+                              height: isSelected ? 24 : 18,
+                              child: AnimatedOpacity(
+                                duration: const Duration(milliseconds: 350),
+                                opacity: isSelected ? 1.0 : 0.4,
+                                child: Image.asset(
+                                  mood["icon"] as String,
+                                  fit: BoxFit.contain,
+                                ),
+                              ),
+                            ),
+                            AnimatedDefaultTextStyle(
+                              duration: const Duration(milliseconds: 350),
+                              curve: Curves.easeOutCirc,
+                              style: TextStyle(
+                                fontFamily: 'Ubuntu',
+                                color: isSelected ? WanderlustColors.textWhite : WanderlustColors.textGrey.withOpacity(0.8),
+                                fontSize: 14,
+                                fontWeight: isSelected ? FontWeight.w700 : FontWeight.w600,
+                                letterSpacing: 0.2,
+                              ),
+                              child: Text(
+                                AppLocalizations.instance.translateCategory(mood["label"] as String),
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+                    ),
+                  );
+                }).toList(),
+              ),
+            ],
           ),
-        ],
-      ),
-    ),
+        ),
       ],
     );
   }
@@ -3494,11 +3797,11 @@ class _ExploreScreenState extends State<ExploreScreen>
 
   Widget _buildCategoryChips() {
     return Container(
-      height: 44,
-      margin: const EdgeInsets.only(top: 16),
+      height: 42,
+      margin: const EdgeInsets.only(top: 12),
       child: ListView.builder(
         scrollDirection: Axis.horizontal,
-        padding: const EdgeInsets.symmetric(horizontal: 16),
+        padding: const EdgeInsets.symmetric(horizontal: 20),
         itemCount: _categories.length,
         itemBuilder: (context, index) {
           final cat = _categories[index];
@@ -3509,18 +3812,23 @@ class _ExploreScreenState extends State<ExploreScreen>
             child: GestureDetector(
               onTap: () {
                 HapticFeedback.selectionClick();
+                // 📊 Analytics: Kategori seçimi logu
+                NotificationService().logEvent('category_selected', parameters: {
+                  'category': cat["id"],
+                  'city_id': _currentCityId,
+                });
                 setState(() => _selectedCategory = cat["id"]);
                 _applyFilters();
               },
               child: AnimatedContainer(
                 duration: const Duration(milliseconds: 200),
-                padding: const EdgeInsets.symmetric(horizontal: 18),
+                padding: const EdgeInsets.symmetric(horizontal: 16),
                 decoration: BoxDecoration(
                   color: isSelected ? accent : Colors.transparent,
                   borderRadius: BorderRadius.circular(12),
                   border: Border.all(
                     color: isSelected ? accent : borderColor,
-                    width: 1.5,
+                    width: 1.2,
                   ),
                 ),
                 child: Center(
@@ -3528,7 +3836,7 @@ class _ExploreScreenState extends State<ExploreScreen>
                     AppLocalizations.instance.translateCategory(cat["label"]),
                     style: TextStyle(
                       color: isSelected ? Colors.white : textGrey,
-                      fontSize: 14,
+                      fontSize: 13.5,
                       fontWeight: isSelected
                           ? FontWeight.w600
                           : FontWeight.w500,
@@ -3563,7 +3871,7 @@ class _ExploreScreenState extends State<ExploreScreen>
 
 
     return Padding(
-      padding: const EdgeInsets.fromLTRB(20, 24, 20, 16),
+      padding: const EdgeInsets.fromLTRB(20, 20, 20, 16),
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
@@ -3601,16 +3909,25 @@ class _ExploreScreenState extends State<ExploreScreen>
   // ══════════════════════════════════════════════════════════════════════════
 
   Widget _buildPlaceCard(Highlight place, int index) {
-    final hasImage = place.imageUrl != null && place.imageUrl!.isNotEmpty;
     final placeKey = "$_currentCityId:${place.name}";
     final isFavorite = _favorites.contains(placeKey) || _favorites.contains(place.name);
     final isInTrip = _tripPlaces.contains(place.name);
 
     return GestureDetector(
-      onTap: () => Navigator.push(
-        context,
-        MaterialPageRoute(builder: (_) => DetailScreen(place: place)),
-      ),
+      onTap: () {
+        // --- ANALYTICS: Landmark Selection ---
+        AnalyticsService.instance.logSelectContent(
+          contentType: 'landmark',
+          itemId: place.name,
+        );
+        
+        // Navigation
+        
+        Navigator.push(
+          context,
+          MaterialPageRoute(builder: (_) => DetailScreen(place: place)),
+        );
+      },
       child: Container(
         margin: const EdgeInsets.only(bottom: 16),
         decoration: BoxDecoration(
@@ -3629,22 +3946,23 @@ class _ExploreScreenState extends State<ExploreScreen>
                     top: Radius.circular(18),
                   ),
                   child: SizedBox(
-                    height: 160,
+                    height: 200,
                     width: double.infinity,
-                    child: hasImage
-                        ? Image.network(
-                            place.imageUrl!,
-                            fit: BoxFit.cover,
-                            errorBuilder: (_, __, ___) =>
-                                _buildPlaceholder(place.category),
-                          )
-                        : _buildPlaceholder(place.category),
+                    child: ResilientNetworkImage(
+                      imageUrl: place.imageUrl,
+                      placeName: place.name,
+                      city: place.city ?? _city?.city ?? _currentCityId,
+                      category: place.category,
+                      blurHash: place.blurHash,
+                      fit: BoxFit.cover,
+                      placeholderBuilder: (_) => _buildPlaceholder(place.category),
+                    ),
                   ),
                 ),
 
                 // Gradient overlay
                 Container(
-                  height: 160,
+                  height: 200,
                   decoration: BoxDecoration(
                     borderRadius: const BorderRadius.vertical(
                       top: Radius.circular(18),
@@ -3786,6 +4104,37 @@ class _ExploreScreenState extends State<ExploreScreen>
                         ),
                     ),
                   ),
+              // Mesafe — sağ alt köşe (rating gibi)
+                Positioned(
+                  bottom: 12,
+                  right: 12,
+                  child: AnimatedBuilder(
+                    animation: LocationContextService.instance,
+                    builder: (context, child) {
+                      String distLabel = "";
+                      if (place.lat == 0 && place.lng == 0) {
+                        distLabel = "${place.distanceFromCenter.toStringAsFixed(1)} km";
+                      } else {
+                        distLabel = LocationContextService.instance.getDistanceLabel(place.lat, place.lng);
+                      }
+                      return Container(
+                        padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
+                        decoration: BoxDecoration(
+                          color: Colors.black.withOpacity(0.6),
+                          borderRadius: BorderRadius.circular(8),
+                        ),
+                        child: Text(
+                          distLabel,
+                          style: const TextStyle(
+                            color: Colors.white,
+                            fontSize: 12,
+                            fontWeight: FontWeight.w600,
+                          ),
+                        ),
+                      );
+                    },
+                  ),
+                ),
               ],
             ),
 
@@ -3807,89 +4156,52 @@ class _ExploreScreenState extends State<ExploreScreen>
                     overflow: TextOverflow.ellipsis,
                   ),
                   const SizedBox(height: 6),
-                  // Konum
-                  Row(
-                    children: [
-                      Icon(
-                        Icons.location_on_outlined,
-                        color: textGrey,
-                        size: 14,
-                      ),
-                      const SizedBox(width: 4),
-                      Expanded(
-                        child: Text(
-                          place.getLocalizedArea(AppLocalizations.instance.isEnglish).isNotEmpty ? place.getLocalizedArea(AppLocalizations.instance.isEnglish) : (place.city ?? ""),
-                          style: TextStyle(color: textGrey, fontSize: 13),
-                          overflow: TextOverflow.ellipsis,
-                        ),
-                      ),
-                    ],
-                  ),
-                  const SizedBox(height: 12),
-                  // Alt satır
+                  // Konum + Rotaya Ekle (aynı satır)
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
-                      // Mesafe (LocationContextServiceClient ile güncellendi)
-                      AnimatedBuilder(
-                        animation: LocationContextService.instance,
-                        builder: (context, child) {
-                          String distLabel = "";
-                          if (place.lat == 0 && place.lng == 0) {
-                            distLabel = "${place.distanceFromCenter.toStringAsFixed(1)} km";
-                          } else {
-                            distLabel = LocationContextService.instance.getDistanceLabel(place.lat, place.lng);
-                          }
-
-                          return Container(
-                            padding: const EdgeInsets.symmetric(
-                              horizontal: 10,
-                              vertical: 5,
-                            ),
-                            decoration: BoxDecoration(
-                              color: bgCardLight,
-                              borderRadius: BorderRadius.circular(8),
-                            ),
+                      Row(
+                        children: [
+                          Icon(Icons.location_on_outlined, color: textGrey, size: 14),
+                          const SizedBox(width: 4),
+                          ConstrainedBox(
+                            constraints: const BoxConstraints(maxWidth: 110),
                             child: Text(
-                              distLabel,
-                              style: const TextStyle(
-                                color: Colors.white,
-                                fontSize: 12,
-                                fontWeight: FontWeight.w500,
-                              ),
+                              place.getLocalizedArea(AppLocalizations.instance.isEnglish).isNotEmpty
+                                  ? place.getLocalizedArea(AppLocalizations.instance.isEnglish)
+                                  : (place.city ?? ""),
+                              style: TextStyle(color: textGrey, fontSize: 13),
+                              overflow: TextOverflow.ellipsis,
                             ),
-                          );
-                        },
+                          ),
+                        ],
                       ),
-                      // Rotaya ekle butonu
                       GestureDetector(
-                        key: null, // 🔥 FIRST ITEM KEY
+                        key: null,
                         onTap: () => _addToTrip(place.name),
                         child: Container(
-                          padding: const EdgeInsets.symmetric(
-                            horizontal: 14,
-                            vertical: 8,
-                          ),
+                          padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 8),
                           decoration: BoxDecoration(
-                            color: isInTrip ? accent : bgCardLight, // Filled accent when active
+                            color: isInTrip ? accent.withOpacity(0.15) : bgCardLight,
                             borderRadius: BorderRadius.circular(10),
                             border: Border.all(
-                              color: isInTrip ? accent : borderColor.withOpacity(0.5),
-                              width: isInTrip ? 1.5 : 1,
+                              color: isInTrip ? Colors.transparent : borderColor.withOpacity(0.5),
+                              width: 1,
                             ),
                           ),
                           child: Row(
+                            mainAxisSize: MainAxisSize.min,
                             children: [
                               Icon(
                                 isInTrip ? Icons.check : Icons.add_location_alt_outlined,
-                                color: isInTrip ? Colors.white : textGrey, // White icon when active
+                                color: isInTrip ? accent : textGrey,
                                 size: 16,
                               ),
                               const SizedBox(width: 6),
                               Text(
                                 isInTrip ? AppLocalizations.instance.addedToRoute : AppLocalizations.instance.addToRoute,
                                 style: TextStyle(
-                                  color: isInTrip ? Colors.white : textGrey, // White text when active
+                                  color: isInTrip ? accent : textGrey,
                                   fontSize: 12,
                                   fontWeight: FontWeight.w600,
                                 ),
@@ -3947,8 +4259,14 @@ class _ExploreScreenState extends State<ExploreScreen>
 
   void _showAISheet() {
     // 🔒 PREMIUM CHECK: My Way Assistant
-    if (!PremiumService.instance.canUseMyWay()) {
-       _showPaywall();
+    if (!PremiumService.instance.isPremium) {
+       showPaywall(
+         context,
+         onSubscribe: (planId) {
+             // Paywall closes automatically on success, so we just proceed
+             // Waiting for a small delay or check is handled by onSubscribe usually
+         },
+       );
        return;
     }
 

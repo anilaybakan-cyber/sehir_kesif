@@ -32,18 +32,36 @@ import 'detail_screen.dart';
 import 'onboarding_screen.dart';
 import 'memories_screen.dart';
 import '../theme/wanderlust_colors.dart';
+import '../constants/store_urls.dart';
 import 'notifications_screen.dart';
+import '../services/notification_service.dart';
 import '../widgets/add_memory_sheet.dart';
 import '../services/premium_service.dart';
 import 'paywall_screen.dart';
 import 'city_switcher_screen.dart';
+import 'explore_screen.dart';
 import 'package:tutorial_coach_mark/tutorial_coach_mark.dart';
 import '../widgets/tutorial_overlay_widget.dart';
 import '../widgets/custom_toast.dart';
+import '../widgets/resilient_network_image.dart';
+import '../services/image_prefetch_service.dart';
 
 class ProfileScreen extends StatefulWidget {
   final bool isVisible;
-  const ProfileScreen({super.key, this.isVisible = false});
+
+  /// Açılışta seçilecek alt tab: 0=Favoriler, 1=Ziyaret, 2=Rotalar (history)
+  final int initialTabIndex;
+
+  /// Mount sonrası tetiklenecek aksiyon. Desteklenen değerler:
+  /// `'add-memory'`, `'preferences'`, `'memories'`.
+  final String? initialAction;
+
+  const ProfileScreen({
+    super.key,
+    this.isVisible = false,
+    this.initialTabIndex = 0,
+    this.initialAction,
+  });
 
   @override
   State<ProfileScreen> createState() => _ProfileScreenState();
@@ -60,9 +78,9 @@ class _ProfileScreenState extends State<ProfileScreen>
   static const Color bgCardLight = WanderlustColors.bgCardLight;
   static const Color accent = WanderlustColors.accent;
   static const Color accentLight = WanderlustColors.accentLight;
-  static const Color textWhite = Color(0xFFFFFFFF);
-  static const Color textGrey = Color(0xFF9CA3AF);
-  static const Color borderColor = Color(0xFF2D2D4A);
+  static const Color textWhite = WanderlustColors.textWhite;
+  static const Color textGrey = WanderlustColors.textGrey;
+  static const Color borderColor = WanderlustColors.borderLight;
 
   static const LinearGradient primaryGradient = LinearGradient(
     begin: Alignment.topLeft,
@@ -75,7 +93,8 @@ class _ProfileScreenState extends State<ProfileScreen>
   // ══════════════════════════════════════════════════════════════════════════
 
   String _userName = "Gezgin";
-  String _travelStyle = "Lokal";
+  String _travelStyle = "";
+  String _budgetLevel = "";
   List<String> _interests = [];
   List<String> _favorites = [];
   List<String> _visitedPlaces = [];
@@ -101,11 +120,21 @@ class _ProfileScreenState extends State<ProfileScreen>
   @override
   void initState() {
     super.initState();
-    _tabController = TabController(length: 3, vsync: this);
+    final initialTab = widget.initialTabIndex.clamp(0, 2);
+    _tabController =
+        TabController(length: 3, vsync: this, initialIndex: initialTab);
     _tabController.addListener(() {
       if (mounted) setState(() {});
     });
-    
+
+    // Deeplinkten gelen aksiyon varsa ilk frame sonrası tetikle
+    if (widget.initialAction != null && widget.initialAction!.isNotEmpty) {
+      WidgetsBinding.instance.addPostFrameCallback((_) {
+        if (!mounted) return;
+        _handleDeepLinkAction(widget.initialAction!);
+      });
+    }
+
     // Listen for trip updates to refresh history count
     TripUpdateService().tripUpdated.addListener(_loadData);
     
@@ -173,11 +202,13 @@ class _ProfileScreenState extends State<ProfileScreen>
 
     // Load user name - if not set, it will be empty and handled in build method
     _userName = prefs.getString("userName") ?? "";
-    _travelStyle = prefs.getString("travelStyle") ?? "Lokal";
+    _travelStyle = prefs.getString("travelStyle") ?? "";
+    _budgetLevel = prefs.getString("budgetLevel") ?? "";
     _interests = prefs.getStringList("interests") ?? [];
     _favorites = prefs.getStringList("favorite_places") ?? [];
     _visitedPlaces = prefs.getStringList("visited_places") ?? [];
-    _tripPlaces = prefs.getStringList("trip_places") ?? [];
+    final currentCity = (prefs.getString("selectedCity") ?? "barcelona").toLowerCase();
+    _tripPlaces = prefs.getStringList("trip_places_$currentCity") ?? [];
     _completedRoutesCount = prefs.getInt("completed_routes_count") ?? 0;
     
     // Load history
@@ -380,6 +411,17 @@ class _ProfileScreenState extends State<ProfileScreen>
       backgroundColor: bgDark,
       body: Stack(
         children: [
+          // Landmark Icons Background (Low Opacity)
+          Positioned.fill(
+            child: Opacity(
+              opacity: 0.15,
+              child: Image.asset(
+                'assets/images/landmarks.png',
+                fit: BoxFit.cover,
+                repeat: ImageRepeat.repeat,
+              ),
+            ),
+          ),
           CustomScrollView(
             controller: _scrollController,
         physics: const BouncingScrollPhysics(),
@@ -605,7 +647,7 @@ class _ProfileScreenState extends State<ProfileScreen>
                           ),
                           Expanded(
                             child: _buildMiniStat(
-                              value: _favorites.length.toString(),
+                              value: _favoriteHighlights.length.toString(),
                               label: isEnglish ? "Favorites" : "Favori",
                             ),
                           ),
@@ -768,12 +810,12 @@ class _ProfileScreenState extends State<ProfileScreen>
                 children: [
                   Row(
                     children: [
-                      const Icon(Icons.photo_album_rounded, color: WanderlustColors.accent, size: 22),
+                      Image.asset('assets/icons/icon_memories.png', width: 24, height: 24),
                       const SizedBox(width: 10),
                       Text(
                         isEnglish ? "My Memories" : "Anılarım",
                         style: const TextStyle(
-                          color: Colors.white,
+                          color: WanderlustColors.textWhite,
                           fontSize: 17,
                           fontWeight: FontWeight.w700,
                         ),
@@ -840,16 +882,12 @@ class _ProfileScreenState extends State<ProfileScreen>
                               color: WanderlustColors.accent.withOpacity(0.1),
                               shape: BoxShape.circle,
                             ),
-                            child: const Icon(
-                              Icons.add_a_photo_rounded,
-                              color: WanderlustColors.accent,
-                              size: 28,
-                            ),
+                            child: Image.asset('assets/icons/icon_photo.png', width: 32, height: 32),
                           ),
                           const SizedBox(height: 8),
                           Text(
                             isEnglish ? "Add your first memory" : "İlk anını ekle",
-                            style: const TextStyle(color: Colors.white70, fontSize: 13),
+                            style: const TextStyle(color: WanderlustColors.textGrey, fontSize: 13),
                           ),
                         ],
                       ),
@@ -1012,6 +1050,34 @@ class _ProfileScreenState extends State<ProfileScreen>
     );
   }
 
+  /// Deeplinkten gelen aksiyonları profil ekranı mount olduktan sonra çalıştırır.
+  void _handleDeepLinkAction(String action) {
+    final isPremium = PremiumService.instance.hasFullAccess;
+    switch (action.toLowerCase()) {
+      case 'add-memory':
+      case 'addmemory':
+      case 'memory-add':
+        _addNewMemory(isPremium);
+        break;
+      case 'preferences':
+      case 'settings':
+      case 'tercihler':
+        _showPreferencesBottomSheet();
+        break;
+      case 'memories':
+      case 'all-memories':
+      case 'anilar':
+      case 'anılar':
+        Navigator.push(
+          context,
+          MaterialPageRoute(builder: (_) => const MemoriesScreen()),
+        );
+        break;
+      default:
+        debugPrint('🔗 Bilinmeyen profil aksiyonu: $action');
+    }
+  }
+
   void _addNewMemory(bool isPremium) async {
     HapticFeedback.mediumImpact();
     
@@ -1120,7 +1186,7 @@ class _ProfileScreenState extends State<ProfileScreen>
         children: [
           Expanded(
             child: _buildActionCard(
-              icon: Icons.location_city_rounded,
+              iconAsset: 'assets/icons/city.png',
               title: AppLocalizations.instance.t("Aktif Şehir", "Active City"),
               subtitle: _currentCityName,
               onTap: () async {
@@ -1132,9 +1198,11 @@ class _ProfileScreenState extends State<ProfileScreen>
           const SizedBox(width: 12),
           Expanded(
             child: _buildActionCard(
-              icon: Icons.tune_rounded,
+              iconAsset: 'assets/icons/icon_tercihler.png',
               title: AppLocalizations.instance.t("Tercihler", "Preferences"),
-              subtitle: AppLocalizations.instance.translateTravelStyle(_travelStyle),
+              subtitle: _travelStyle.isNotEmpty && _budgetLevel.isNotEmpty
+                  ? "${AppLocalizations.instance.translateTravelStyle(_travelStyle)} • ${AppLocalizations.instance.translateBudgetLevel(_budgetLevel)}"
+                  : AppLocalizations.instance.t("Henüz tercih yok", "No preferences yet"),
               onTap: _showPreferencesBottomSheet,
             ),
           ),
@@ -1144,7 +1212,7 @@ class _ProfileScreenState extends State<ProfileScreen>
   }
 
   Widget _buildActionCard({
-    required IconData icon,
+    required String iconAsset,
     required String title,
     required String subtitle,
     required VoidCallback onTap,
@@ -1166,7 +1234,7 @@ class _ProfileScreenState extends State<ProfileScreen>
                 color: bgCardLight,
                 borderRadius: BorderRadius.circular(12),
               ),
-              child: Icon(icon, color: accent, size: 20),
+              child: Image.asset(iconAsset, width: 24, height: 24),
             ),
             const SizedBox(width: 12),
             Expanded(
@@ -1215,7 +1283,7 @@ class _ProfileScreenState extends State<ProfileScreen>
         unselectedLabelColor: textGrey,
         labelStyle: const TextStyle(fontWeight: FontWeight.w600, fontSize: 14),
         tabs: [
-          Tab(text: "${AppLocalizations.instance.favorites} (${_favorites.length})"),
+          Tab(text: "${AppLocalizations.instance.favorites} (${_favoriteHighlights.length})"),
           Tab(text: "${AppLocalizations.instance.visited} (${_visitedPlaces.length})"),
           Tab(text: "${AppLocalizations.instance.isEnglish ? 'Routes' : 'Rotalar'} (${_completedRoutes.length})"),
         ],
@@ -1469,10 +1537,16 @@ class _ProfileScreenState extends State<ProfileScreen>
                    width: 56,
                    height: 56,
                    child: hasImage
-                       ? Image.network(
-                           place.imageUrl!,
+                       ? ResilientNetworkImage(
+                           imageUrl: place.imageUrl,
+                           placeName: place.getLocalizedName(AppLocalizations.instance.isEnglish),
+                           city: place.city ?? place.area,
+                           category: place.category,
+                           blurHash: place.blurHash,
+                           width: 56,
+                           height: 56,
                            fit: BoxFit.cover,
-                           errorBuilder: (_, __, ___) => Container(
+                           placeholderBuilder: (_) => Container(
                              color: color.withOpacity(0.15),
                              child: Icon(Icons.place, color: color, size: 24),
                            ),
@@ -1566,10 +1640,14 @@ class _ProfileScreenState extends State<ProfileScreen>
           
           // Go to details
           GestureDetector(
-             onTap: () => Navigator.push(
-               context,
-               MaterialPageRoute(builder: (_) => DetailScreen(place: place)),
-             ), 
+             onTap: () {
+               // Fotoğrafı prefetch et
+               ImagePrefetchService.prefetchSinglePhoto(context, place.imageUrl, heroDecode: true);
+               Navigator.push(
+                 context,
+                 MaterialPageRoute(builder: (_) => DetailScreen(place: place)),
+               );
+             }, 
              child: const Padding(
                padding: EdgeInsets.all(4.0),
                child: Icon(Icons.chevron_right, color: textGrey, size: 20),
@@ -1626,13 +1704,17 @@ class _ProfileScreenState extends State<ProfileScreen>
     final color = _getCategoryColor(place.category);
 
     return GestureDetector(
-      onTap: () => Navigator.push(
-        context,
-        MaterialPageRoute(builder: (_) => DetailScreen(place: place)),
-      ),
+      onTap: () {
+        // Fotoğrafı prefetch et
+        ImagePrefetchService.prefetchSinglePhoto(context, place.imageUrl, heroDecode: true);
+        Navigator.push(
+          context,
+          MaterialPageRoute(builder: (_) => DetailScreen(place: place)),
+        );
+      },
       child: Container(
-        margin: const EdgeInsets.only(bottom: 12),
-        padding: const EdgeInsets.all(12),
+        margin: const EdgeInsets.only(bottom: 8),
+        padding: const EdgeInsets.all(10),
         decoration: BoxDecoration(
           color: bgCard,
           borderRadius: BorderRadius.circular(14),
@@ -1643,10 +1725,23 @@ class _ProfileScreenState extends State<ProfileScreen>
             ClipRRect(
               borderRadius: BorderRadius.circular(10),
               child: SizedBox(
-                width: 56,
-                height: 56,
+                width: 48,
+                height: 48,
                 child: hasImage
-                    ? Image.network(place.imageUrl!, fit: BoxFit.cover)
+                    ? ResilientNetworkImage(
+                        imageUrl: place.imageUrl,
+                        placeName: place.getLocalizedName(AppLocalizations.instance.isEnglish),
+                        city: place.city ?? place.area,
+                        category: place.category,
+                        blurHash: place.blurHash,
+                        width: 48,
+                        height: 48,
+                        fit: BoxFit.cover,
+                        placeholderBuilder: (_) => Container(
+                          color: color.withOpacity(0.15),
+                          child: Icon(Icons.place, color: color, size: 24),
+                        ),
+                      )
                     : Container(
                         color: color.withOpacity(0.15),
                         child: Icon(Icons.place, color: color, size: 24),
@@ -1786,9 +1881,9 @@ class _ProfileScreenState extends State<ProfileScreen>
                   trailing: const Icon(Icons.chevron_right, color: textGrey, size: 20),
                   onTap: () {
                     HapticFeedback.lightImpact();
-                    final appLink = Platform.isIOS 
-                        ? "https://apps.apple.com/app/id6741743515"
-                        : "https://play.google.com/store/apps/details?id=com.anilaybakan.sehir_kesif";
+                    final appLink = Platform.isIOS
+                        ? StoreUrls.iosStoreHttps.toString()
+                        : StoreUrls.androidPlayHttps.toString();
                         
                     final message = isEnglish
                         ? "Hey! Check out My Way for smart city routes and personalized travel plans: $appLink"
@@ -1812,14 +1907,7 @@ class _ProfileScreenState extends State<ProfileScreen>
                   trailing: const Icon(Icons.chevron_right, color: textGrey, size: 20),
                   onTap: () async {
                     HapticFeedback.lightImpact();
-                    final Uri url = Uri.parse(
-                      Platform.isIOS 
-                          ? "https://apps.apple.com/app/id6741743515?action=write-review"
-                          : "https://play.google.com/store/apps/details?id=com.anilaybakan.sehir_kesif"
-                    );
-                    if (await canLaunchUrl(url)) {
-                      await launchUrl(url, mode: LaunchMode.externalApplication);
-                    }
+                    await StoreUrls.launchReviewPage();
                   },
                   showDivider: true,
                 ),
@@ -1911,10 +1999,58 @@ class _ProfileScreenState extends State<ProfileScreen>
           
           const SizedBox(height: 16),
           
+          // Debug: FCM Token (Visible for testing)
+          const SizedBox(height: 12),
+          Center(
+            child: GestureDetector(
+              onTap: () async {
+                final token = NotificationService().fcmToken;
+                if (token != null) {
+                  await Clipboard.setData(ClipboardData(text: token));
+                  if (mounted) {
+                    CustomToast.show(
+                      context, 
+                      isEnglish ? "FCM Token copied to clipboard!" : "FCM Token panoya kopyalandı!",
+                      isError: false,
+                      icon: Icons.copy_all_rounded,
+                    );
+                  }
+                } else {
+                  if (mounted) {
+                    CustomToast.show(
+                      context, 
+                      isEnglish ? "Token not found. Please wait..." : "Token bulunamadı. Lütfen bekleyin...",
+                      icon: Icons.error_outline_rounded,
+                    );
+                  }
+                }
+              },
+              child: Container(
+                padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
+                decoration: BoxDecoration(
+                  color: Colors.white.withOpacity(0.05),
+                  borderRadius: BorderRadius.circular(8),
+                ),
+                child: Row(
+                  mainAxisSize: MainAxisSize.min,
+                  children: [
+                    const Icon(Icons.code_rounded, size: 14, color: textGrey),
+                    const SizedBox(width: 8),
+                    Text(
+                      isEnglish ? "Copy FCM Token (Debug)" : "FCM Token'ı Kopyala (Hata Ayıklama)",
+                      style: TextStyle(color: textGrey.withOpacity(0.5), fontSize: 11),
+                    ),
+                  ],
+                ),
+              ),
+            ),
+          ),
+          const SizedBox(height: 16),
+          
           // Version info
           Center(
             child: Text(
-              "v1.0.0",
+              "v1.0.3",
               style: TextStyle(color: textGrey.withOpacity(0.5), fontSize: 12),
             ),
           ),
@@ -2238,26 +2374,40 @@ class _ProfileScreenState extends State<ProfileScreen>
         final prefs = await SharedPreferences.getInstance();
         final allKeys = prefs.getKeys();
         for (String key in allKeys) {
-          // Keep usage keys and premium status indicators
-          if (!key.startsWith('usage_') && key != 'onboardingCompleted') {
+          // 🔥 KRİTİK: Kullanım haklarını (usage_), premium durumunu (purchases_) 
+          // ve onboarding/plan durumunu KORU. Diğer her şeyi (favoriler, geçmiş, tercihler) sil.
+          bool shouldKeep = key.startsWith('usage_') || 
+                           key.startsWith('purchases_') ||
+                           key == 'onboardingCompleted' || 
+                           key == 'has_created_plan';
+                           
+          if (!shouldKeep) {
             await prefs.remove(key);
           }
         }
+
+        // Tercih anahtarlarını boş bırak (yeniden seçim yaptır)
+        await prefs.remove('travelStyle');
+        await prefs.remove('budgetLevel');
+        await prefs.remove('interests');
 
         // 2. Clear All Memories (Service handles Disk + Memory + Notifiers)
         await MemoryService().clearAllData();
 
         // 3. Clear Badge Data
         await BadgeService().reset();
+
+        // 4. Clear in-memory static caches (AI önerileri, itinerary vb.)
+        // ExploreScreen.clearCaches(); // removed: method no longer exists
+        TripUpdateService().notifyTripChanged();
         
         // 3. Reset App State & Navigation
         if (mounted) {
            Navigator.of(context).pop(); // Close loading
            
-           // Navigate to Onboarding and remove all routes
            Navigator.pushNamedAndRemoveUntil(
-             context, 
-             '/onboarding', // Use named route or fallback
+             context,
+             '/onboarding',
              (route) => false,
            );
         }
@@ -2287,7 +2437,8 @@ class _ProfileScreenState extends State<ProfileScreen>
     String budgetLevel = "Dengeli";
 
     SharedPreferences.getInstance().then((prefs) {
-      tripDays = prefs.getInt("tripDays") ?? 3;
+      final currentCity = (prefs.getString("selectedCity") ?? "barcelona").toLowerCase();
+      tripDays = prefs.getInt("tripDays_$currentCity") ?? prefs.getInt("tripDays") ?? 3;
       travelStyle = prefs.getString("travelStyle") ?? "Lokal";
       transportMode = prefs.getString("transportMode") ?? "Karışık";
       walkingLevel = prefs.getInt("walkingLevel") ?? 1;
@@ -2323,12 +2474,20 @@ class _ProfileScreenState extends State<ProfileScreen>
                   child: Row(
                     children: [
                       Container(
-                        padding: const EdgeInsets.all(10),
+                        padding: const EdgeInsets.all(8),
                         decoration: BoxDecoration(
-                          gradient: primaryGradient,
+                          color: Colors.white.withOpacity(0.18),
                           borderRadius: BorderRadius.circular(12),
+                          border: Border.all(color: Colors.white.withOpacity(0.3), width: 1.2),
+                          boxShadow: [
+                            BoxShadow(
+                              color: Colors.white.withOpacity(0.08),
+                              blurRadius: 12,
+                              spreadRadius: 1,
+                            ),
+                          ],
                         ),
-                        child: const Icon(Icons.tune, color: Colors.white, size: 22),
+                        child: Image.asset('assets/icons/icon_tercihler.png', width: 32, height: 32),
                       ),
                       const SizedBox(width: 14),
                       Expanded(
@@ -2359,7 +2518,7 @@ class _ProfileScreenState extends State<ProfileScreen>
                       children: [
                         // Trip Days
                         _preferenceSection(
-                          icon: Icons.calendar_today,
+                          iconAsset: 'assets/icons/icon_calender.png',
                           title: AppLocalizations.instance.howManyDays,
                           child: Column(
                             children: [
@@ -2393,7 +2552,7 @@ class _ProfileScreenState extends State<ProfileScreen>
 
                         // Travel Style
                         _preferenceSection(
-                          icon: Icons.explore,
+                          iconAsset: 'assets/icons/icon_Style.png',
                           title: AppLocalizations.instance.travelStyleTitle,
                           child: Wrap(
                             spacing: 10,
@@ -2422,7 +2581,7 @@ class _ProfileScreenState extends State<ProfileScreen>
 
                         // Interests
                         _preferenceSection(
-                          icon: Icons.favorite,
+                          iconAsset: 'assets/icons/icon_interest.png',
                           title: AppLocalizations.instance.interestsTitle,
                           child: Wrap(
                             spacing: 8,
@@ -2462,7 +2621,7 @@ class _ProfileScreenState extends State<ProfileScreen>
 
                         // Budget
                         _preferenceSection(
-                          icon: Icons.account_balance_wallet,
+                          iconAsset: 'assets/icons/icon_wallet.png',
                           title: AppLocalizations.instance.budgetPreference,
                           child: Row(
                             children: ["Ekonomik", "Dengeli", "Premium"].map((budget) {
@@ -2510,7 +2669,9 @@ class _ProfileScreenState extends State<ProfileScreen>
                   child: GestureDetector(
                     onTap: () async {
                       final prefs = await SharedPreferences.getInstance();
-                      await prefs.setInt("tripDays", tripDays);
+                      await prefs.setBool("preferences_onboarding_shown", true);
+                      final currentCity = (prefs.getString("selectedCity") ?? "barcelona").toLowerCase();
+                      await prefs.setInt("tripDays_$currentCity", tripDays);
                       await prefs.setString("travelStyle", travelStyle);
                       await prefs.setString("transportMode", transportMode);
                       await prefs.setInt("walkingLevel", walkingLevel);
@@ -2567,7 +2728,7 @@ class _ProfileScreenState extends State<ProfileScreen>
 
 
   Widget _preferenceSection({
-    required IconData icon,
+    required String iconAsset,
     required String title,
     required Widget child,
   }) {
@@ -2583,7 +2744,7 @@ class _ProfileScreenState extends State<ProfileScreen>
         children: [
           Row(
             children: [
-              Icon(icon, color: accent, size: 20),
+              Image.asset(iconAsset, width: 24, height: 24),
               const SizedBox(width: 10),
               Text(title, style: const TextStyle(color: textWhite, fontSize: 15, fontWeight: FontWeight.w600)),
             ],

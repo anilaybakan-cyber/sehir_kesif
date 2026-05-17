@@ -31,7 +31,14 @@ import '../services/tutorial_service.dart';
 import '../widgets/tutorial_overlay_widget.dart';
 import '../widgets/custom_toast.dart';
 import '../services/premium_service.dart';
+import '../services/auto_slot_picker.dart';
+import '../services/plan_repository.dart';
+import '../constants/store_urls.dart';
 import 'paywall_screen.dart';
+import '../widgets/day_selection_dialog.dart';
+import 'package:cached_network_image/cached_network_image.dart';
+import '../utils/image_utils.dart';
+import '../widgets/resilient_network_image.dart';
 
 class DetailScreen extends StatefulWidget {
   final Highlight place;
@@ -54,10 +61,10 @@ class _DetailScreenState extends State<DetailScreen>
   static const Color bgCard = WanderlustColors.bgCard;
   static const Color bgCardLight = WanderlustColors.bgCardLight;
   static const Color accent = WanderlustColors.accent; // Standard Solid Violet
-  static const Color accentLight = Color(0xFFFFB800); // Gold
-  static const Color textWhite = Color(0xFFFFFFFF);
-  static const Color textGrey = Color(0xFF9CA3AF);
-  static const Color borderColor = Color(0xFF2D2D4A);
+  static const Color accentLight = WanderlustColors.accentLight;
+  static const Color textWhite = WanderlustColors.textWhite;
+  static const Color textGrey = WanderlustColors.textGrey;
+  static const Color borderColor = WanderlustColors.borderLight;
 
   static const LinearGradient primaryGradient = LinearGradient(
     begin: Alignment.topLeft,
@@ -70,9 +77,12 @@ class _DetailScreenState extends State<DetailScreen>
   // ══════════════════════════════════════════════════════════════════════════
 
   final ScrollController _scrollController = ScrollController();
+  final ScrollController _infoCardsScrollController = ScrollController();
   final GlobalKey _addToRouteKey = GlobalKey(); // Key for Tutorial
   final GlobalKey _checkInKey = GlobalKey(); // Key for Check-in Tutorial
-  double _scrollOffset = 0;
+  /// Kaydırma sadece AppBar için kullanılır; setState ile tüm gövdeyi (hero görseli dahil)
+  /// her frame yeniden kurmak CachedNetworkImage'de yanıp sönme yaratıyordu.
+  final ValueNotifier<double> _scrollOffsetNotifier = ValueNotifier(0);
   bool _isFavorite = false;
   bool _isInTrip = false;
   bool _isVisited = false;
@@ -108,8 +118,10 @@ class _DetailScreenState extends State<DetailScreen>
 
   @override
   void dispose() {
+    _scrollOffsetNotifier.dispose();
     TripUpdateService().tripUpdated.removeListener(_onTripDataChanged);
     _scrollController.dispose();
+    _infoCardsScrollController.dispose();
     _animController.dispose();
     super.dispose();
   }
@@ -130,15 +142,15 @@ class _DetailScreenState extends State<DetailScreen>
   }
 
   void _onScroll() {
-    setState(() => _scrollOffset = _scrollController.offset);
+    _scrollOffsetNotifier.value = _scrollController.offset;
   }
 
   Future<void> _loadPreferences() async {
     final prefs = await SharedPreferences.getInstance();
     final favorites = prefs.getStringList("favorite_places") ?? [];
     final visited = prefs.getStringList("visited_places") ?? [];
-    _tripPlaces = prefs.getStringList("trip_places") ?? [];
     final currentCity = (prefs.getString("selectedCity") ?? "barcelona").toLowerCase();
+    _tripPlaces = prefs.getStringList("trip_places_$currentCity") ?? [];
     final placeKey = "$currentCity:${widget.place.name}";
 
     setState(() {
@@ -397,8 +409,8 @@ class _DetailScreenState extends State<DetailScreen>
     final String currentCity = (prefs.getString("selectedCity") ?? "barcelona").toLowerCase();
     
     // 1. Güncel verileri oku
-    final List<String> tripPlaces = prefs.getStringList("trip_places") ?? [];
-    final String? scheduleJson = prefs.getString("trip_schedule");
+    final List<String> tripPlaces = prefs.getStringList("trip_places_$currentCity") ?? [];
+    final String? scheduleJson = prefs.getString("trip_schedule_$currentCity");
     
     // Schedule'ı parse et
     Map<String, dynamic> scheduleMap = {};
@@ -414,7 +426,7 @@ class _DetailScreenState extends State<DetailScreen>
        final d = int.tryParse(k) ?? 1;
        if (d > maxDay) maxDay = d;
     });
-    final onboardingDays = prefs.getInt("tripDays") ?? 3;
+    final onboardingDays = prefs.getInt("tripDays_$currentCity") ?? prefs.getInt("tripDays") ?? 3;
     if (maxDay < onboardingDays) maxDay = onboardingDays;
 
     // Logic: Şimdiki durumu kaydet
@@ -438,8 +450,9 @@ class _DetailScreenState extends State<DetailScreen>
         });
         
         // Save & Notify
-        await prefs.setStringList("trip_places", tripPlaces);
-        await prefs.setString("trip_schedule", jsonEncode(scheduleMap));
+        await prefs.setStringList("trip_places_$currentCity", tripPlaces);
+        await prefs.setString("trip_schedule_$currentCity", jsonEncode(scheduleMap));
+        await PlanRepository.markPlanCreated(currentCity);
         TripUpdateService().notifyTripChanged();
         
          if (mounted) {
@@ -448,7 +461,13 @@ class _DetailScreenState extends State<DetailScreen>
                  children: [
                    const Icon(Icons.remove_circle_outline, color: WanderlustColors.accent, size: 20),
                    const SizedBox(width: 12),
-                   const Text("Rotadan çıkarıldı", style: TextStyle(fontWeight: FontWeight.w500)),
+                   Text(
+                     "Rotadan çıkarıldı",
+                     style: TextStyle(
+                       color: textWhite,
+                       fontWeight: FontWeight.w500,
+                     ),
+                   ),
                  ],
                ),
                backgroundColor: bgCardLight,
@@ -461,81 +480,108 @@ class _DetailScreenState extends State<DetailScreen>
 
     } else {
         // EKLEME İŞLEMİ
-        
-        // Premium limit kontrolü
+
+        // Tek global rota-ekleme kotası (keşfet / yakınımda ile aynı sayaç)
         if (!PremiumService.instance.canAddToRoute()) {
           _showPaywall();
           return;
         }
-        
-        final selectedDay = await _showDaySelectionDialogForDetail(maxDay, name, scheduleMap);
-        if (selectedDay == null) return;
-        
+
+        final int currentTotalDays = prefs.getInt("tripDays_$currentCity") ?? prefs.getInt("tripDays") ?? 3;
+        final int? selectedDay = await _showDaySelectionDialogForDetail(currentTotalDays, name, scheduleMap);
+        if (selectedDay == null) return; // İptal edildi
+
         // Kullanımı artır
         await PremiumService.instance.useRouteAdd();
-         
-         setState(() => _isInTrip = true);
-         
-         // Sadece "Listem" seçildiyse (selectedDay == 0) zaten Listem'e eklenecek.
-         // Ama kural gereği, herhangi bir güne eklendiyse de Listem'e eklenecek.
-         tripPlaces.add(name);
-         
-         final dayKey = selectedDay.toString();
-         List<dynamic> targetList = scheduleMap[dayKey] ?? [];
-         
-         // Yeni format: {name, city} olarak ekle
-         final placeEntry = {'name': name, 'city': currentCity};
-         
-         // 1. Seçilen güne ekle
-         final alreadyExists = targetList.any((item) {
-           if (item is Map<String, dynamic>) return item['name'] == name;
-           if (item is String) return item == name;
-           return false;
-         });
-         
-         if (!alreadyExists) {
-            targetList.add(placeEntry);
-         }
-         scheduleMap[dayKey] = targetList;
-         
-         // 2. Her durumda "0" (Listem) gününe de ekle
-         if (dayKey != "0") {
-           List<dynamic> listemList = scheduleMap["0"] ?? [];
-           final existsInListem = listemList.any((item) {
-             if (item is Map<String, dynamic>) return item['name'] == name;
-             if (item is String) return item == name;
-             return false;
-           });
-           if (!existsInListem) {
-             listemList.add(placeEntry);
-           }
-           scheduleMap["0"] = listemList;
-         }
-         
-         // persist last active day for navigation focus
-         await prefs.setInt("last_active_day", selectedDay);
-         
-        // Save & Notify
-        await prefs.setStringList("trip_places", tripPlaces);
-        await prefs.setString("trip_schedule", jsonEncode(scheduleMap));
-        TripUpdateService().notifyTripChanged();
 
-         if (mounted) {
+         setState(() => _isInTrip = true);
+
+        if (selectedDay == 0) {
+          // LISTEM'E EKLEME — sadece trip_places_ güncellenir
+          if (!tripPlaces.contains(name)) {
+            tripPlaces.add(name);
+          }
+          await prefs.setStringList("trip_places_$currentCity", tripPlaces);
+          TripUpdateService().notifyTripChanged();
+
+          if (mounted) {
             ScaffoldMessenger.of(context).showSnackBar(SnackBar(
                content: Row(
                  children: [
-                   const Icon(Icons.check_circle, color: WanderlustColors.accent, size: 20),
+                   const Icon(Icons.check_circle_outline, color: WanderlustColors.accent, size: 20),
                    const SizedBox(width: 12),
-                   Text(AppLocalizations.instance.addedToDay(widget.place.name, selectedDay), style: const TextStyle(fontWeight: FontWeight.w500)),
+                   Expanded(
+                     child: Text(
+                       AppLocalizations.instance.isEnglish
+                           ? '${widget.place.name} added to My List'
+                           : '${widget.place.name} Listem\'e eklendi',
+                       style: const TextStyle(
+                         color: textWhite,
+                         fontWeight: FontWeight.w600,
+                       ),
+                     ),
+                   ),
                  ],
                ),
                backgroundColor: bgCardLight,
                behavior: SnackBarBehavior.floating,
-               duration: const Duration(milliseconds: 1200),
+               duration: const Duration(milliseconds: 2000),
                shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
                margin: const EdgeInsets.fromLTRB(16, 0, 16, 90),
             ));
-         }
+          }
+        } else {
+          // GÜNE EKLEME — sadece schedule güncellenir, trip_places_ dokunulmaz
+          final dayKey = selectedDay.toString();
+          List<dynamic> targetList = scheduleMap[dayKey] ?? [];
+
+          // Yeni format: {name, city} olarak ekle
+          final placeEntry = {'name': name, 'city': currentCity};
+          final alreadyExists = targetList.any((item) {
+            if (item is Map<String, dynamic>) return item['name'] == name;
+            if (item is String) return item == name;
+            return false;
+          });
+          if (!alreadyExists) targetList.add(placeEntry);
+          scheduleMap[dayKey] = targetList;
+
+          // Yeni gün oluşturulduysa onboardingDays güncelle
+          if (selectedDay > currentTotalDays) {
+            await prefs.setInt("tripDays_$currentCity", selectedDay);
+          }
+
+          // persist last active day for navigation focus
+          await prefs.setInt("last_active_day", selectedDay);
+
+          // Save ONLY schedule — trip_places_ dokunulmaz
+          await prefs.setString("trip_schedule_$currentCity", jsonEncode(scheduleMap));
+          TripUpdateService().notifyTripChanged();
+
+          if (mounted) {
+            ScaffoldMessenger.of(context).showSnackBar(SnackBar(
+               content: Row(
+                 children: [
+                   const Icon(Icons.check_circle_outline, color: WanderlustColors.accent, size: 20),
+                   const SizedBox(width: 12),
+                   Expanded(
+                     child: Text(
+                       AppLocalizations.instance.addedToDay(widget.place.name, selectedDay),
+                       style: const TextStyle(
+                         color: textWhite,
+                         fontWeight: FontWeight.w600,
+                       ),
+                     ),
+                   ),
+                 ],
+               ),
+               backgroundColor: bgCardLight,
+               behavior: SnackBarBehavior.floating,
+               duration: const Duration(milliseconds: 2000),
+               shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
+               margin: const EdgeInsets.fromLTRB(16, 0, 16, 90),
+            ));
+          }
+        }
     }
   }
 
@@ -549,65 +595,11 @@ class _DetailScreenState extends State<DetailScreen>
   }
 
   Future<int?> _showDaySelectionDialogForDetail(int totalDays, String placeName, Map<String, dynamic> scheduleMap) async {
-    return showDialog<int>(
-      context: context,
-      barrierColor: Colors.black.withOpacity(0.7),
-      builder: (context) {
-        return Dialog(
-          backgroundColor: const Color(0xFF1A1A2E),
-
-          shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
-          child: Padding(
-            padding: const EdgeInsets.all(20),
-            child: Column(
-              mainAxisSize: MainAxisSize.min,
-              children: [
-                Text(AppLocalizations.instance.whichDay, style: TextStyle(color: textWhite, fontSize: 18, fontWeight: FontWeight.bold)),
-                const SizedBox(height: 8),
-                Text(AppLocalizations.instance.addToRouteConfirmDialog(placeName), textAlign: TextAlign.center, style: const TextStyle(color: textGrey, fontSize: 14)),
-                const SizedBox(height: 20),
-                ConstrainedBox(
-                  constraints: const BoxConstraints(maxHeight: 400),
-                  child: SingleChildScrollView(
-                    child: Column(
-                      children: [
-                         // Listem Option
-                         ListTile(
-                             title: Text(AppLocalizations.instance.myList, style: const TextStyle(color: WanderlustColors.accent, fontWeight: FontWeight.bold)),
-                             subtitle: Text(AppLocalizations.instance.addToList, style: const TextStyle(color: textGrey, fontSize: 12)),
-                             leading: const Icon(Icons.list_alt, color: WanderlustColors.accent),
-                             onTap: () => Navigator.pop(context, 0),
-                             shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(8)),
-                         ),
-                         const Divider(color: borderColor),
-                         ...List.generate(totalDays, (index) {
-                             final day = index + 1;
-                             final dayKey = day.toString();
-                             final List<dynamic> dayPlaces = scheduleMap[dayKey] ?? [];
-                             final count = dayPlaces.length;
-                             return ListTile(
-                               title: Text(AppLocalizations.instance.isEnglish ? "Day $day" : "$day. Gün", style: const TextStyle(color: textWhite)),
-                               subtitle: Text(AppLocalizations.instance.nPlaces(count), style: const TextStyle(color: textGrey, fontSize: 12)),
-                               trailing: const Icon(Icons.arrow_forward_ios, color: accent, size: 16),
-                               onTap: () => Navigator.pop(context, day),
-                             );
-                         }),
-                         const Divider(color: borderColor),
-                         ListTile(
-                             title: Text(AppLocalizations.instance.createNewDay, style: TextStyle(color: textWhite)),
-                             subtitle: Text(AppLocalizations.instance.isEnglish ? "Day ${totalDays + 1}" : "${totalDays + 1}. Gün", style: const TextStyle(color: textGrey, fontSize: 12)),
-                             leading: const Icon(Icons.add, color: accentLight),
-                             onTap: () => Navigator.pop(context, totalDays + 1),
-                         ),
-                      ],
-                    ),
-                  ),
-                ),
-              ],
-            ),
-          ),
-        );
-      },
+    return showDaySelectionDialog(
+      context,
+      totalDays: totalDays,
+      scheduleMap: scheduleMap,
+      confirmMessage: AppLocalizations.instance.addToRouteConfirmDialog(placeName),
     );
   }
 
@@ -636,9 +628,9 @@ class _DetailScreenState extends State<DetailScreen>
     final place = widget.place;
     
     // 1. App Store/Play Store Link
-    final appLink = Platform.isIOS 
-        ? "https://apps.apple.com/app/id6741743515"
-        : "https://play.google.com/store/apps/details?id=com.anilaybakan.sehir_kesif";
+    final appLink = Platform.isIOS
+        ? StoreUrls.iosStoreHttps.toString()
+        : StoreUrls.androidPlayHttps.toString();
     
     // 2. Message
     final message = isEnglish
@@ -693,16 +685,24 @@ class _DetailScreenState extends State<DetailScreen>
     final hasImage = place.imageUrl != null && place.imageUrl!.isNotEmpty;
     final screenHeight = MediaQuery.of(context).size.height;
     final heroHeight = screenHeight * 0.45;
-
-    final appBarOpacity = ((_scrollOffset / (heroHeight - 120)).clamp(
-      0.0,
-      1.0,
-    ));
+    final opacityDenominator = (heroHeight - 120).clamp(1.0, double.infinity);
 
     return Scaffold(
       backgroundColor: bgDark,
       extendBodyBehindAppBar: true,
-      appBar: _buildAppBar(appBarOpacity),
+      appBar: PreferredSize(
+        preferredSize: Size.fromHeight(
+          AppBarTheme.of(context).toolbarHeight ?? kToolbarHeight,
+        ),
+        child: ListenableBuilder(
+          listenable: _scrollOffsetNotifier,
+          builder: (context, _) {
+            final appBarOpacity =
+                ((_scrollOffsetNotifier.value / opacityDenominator).clamp(0.0, 1.0));
+            return _buildAppBar(appBarOpacity);
+          },
+        ),
+      ),
       body: Stack(
         children: [
           // Content
@@ -829,10 +829,15 @@ class _DetailScreenState extends State<DetailScreen>
         children: [
           // Image
           if (hasImage)
-            Image.network(
-              place.imageUrl!,
+            CachedNetworkImage(
+              imageUrl: place.imageUrl!,
               fit: BoxFit.cover,
-              errorBuilder: (_, __, ___) => _buildPlaceholder(),
+              cacheManager: AppImageCacheManager.instance,
+              fadeInDuration: Duration.zero,
+              fadeOutDuration: Duration.zero,
+              placeholderFadeInDuration: Duration.zero,
+              placeholder: (_, __) => _buildPlaceholder(),
+              errorWidget: (_, __, ___) => _buildPlaceholder(),
             )
           else
             _buildPlaceholder(),
@@ -858,7 +863,7 @@ class _DetailScreenState extends State<DetailScreen>
           Positioned(
             left: 20,
             right: 20,
-            bottom: 20,
+            bottom: 8,
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
@@ -940,13 +945,17 @@ class _DetailScreenState extends State<DetailScreen>
                 ),
                 const SizedBox(height: 14),
                 // Name
-                Text(
-                  place.getLocalizedName(AppLocalizations.instance.isEnglish),
-                  style: GoogleFonts.poppins(
-                    color: Colors.white,
-                    fontSize: 28,
-                    fontWeight: FontWeight.w700,
-                    height: 1.2,
+                FittedBox(
+                  fit: BoxFit.scaleDown,
+                  alignment: Alignment.centerLeft,
+                  child: Text(
+                    place.getLocalizedName(AppLocalizations.instance.isEnglish),
+                    style: GoogleFonts.poppins(
+                      color: Colors.black,
+                      fontSize: 28,
+                      fontWeight: FontWeight.w500,
+                      height: 1.2,
+                    ),
                   ),
                 ),
                 const SizedBox(height: 8),
@@ -1014,19 +1023,8 @@ class _DetailScreenState extends State<DetailScreen>
           // Info Cards
           _buildInfoCards(),
 
-          // Tags
-          if (place.tags.isNotEmpty) _buildTagsSection(),
-
           // Tips (Local Tip)
           if (place.tips != null && place.tips!.isNotEmpty) _buildTipsCard(),
-
-          // Features
-          if (place.features != null && place.features!.isNotEmpty)
-            _buildFeaturesSection(),
-
-          // Open Hours
-          if (place.openHours != null && place.openHours!.isNotEmpty)
-            _buildOpenHoursSection(),
 
           // Related Places
           _buildRelatedSection(),
@@ -1154,112 +1152,266 @@ class _DetailScreenState extends State<DetailScreen>
 
   Widget _buildInfoCards() {
     final place = widget.place;
+    final infoCards = <Widget>[];
+
+    void addInfoCard(Widget card) {
+      if (infoCards.isNotEmpty) {
+        infoCards.add(const SizedBox(width: 8));
+      }
+      infoCards.add(card);
+    }
+
+    addInfoCard(
+      _buildVerticalInfoCard(
+        icon: Icons.location_on_outlined,
+        title: AppLocalizations.instance.location,
+        value: place.getLocalizedArea(AppLocalizations.instance.isEnglish).isNotEmpty
+            ? place.getLocalizedArea(AppLocalizations.instance.isEnglish)
+            : (place.city ?? "-"),
+        color: const Color(0xFF4CAF50),
+      ),
+    );
+
+    addInfoCard(
+      _buildVerticalInfoCard(
+        icon: Icons.straighten,
+        title: AppLocalizations.instance.distance,
+        value: place.lat == 0 && place.lng == 0
+            ? "${place.distanceFromCenter.toStringAsFixed(1)} km"
+            : LocationContextService.instance.getDistanceLabel(place.lat, place.lng),
+        color: const Color(0xFF2196F3),
+      ),
+    );
+
+    addInfoCard(
+      _buildVerticalInfoCard(
+        icon: Icons.euro,
+        title: AppLocalizations.instance.t(AppLocalizations.instance.price, "Price"),
+        value: _getPriceText(place.price),
+        color: const Color(0xFFFF9800),
+      ),
+    );
+
+    addInfoCard(
+      _buildVerticalInfoCard(
+        icon: Icons.schedule,
+        title: AppLocalizations.instance.bestTime,
+        value: place.getLocalizedBestTime(AppLocalizations.instance.isEnglish),
+        color: accentLight,
+      ),
+    );
+
+    if (place.metro != null) {
+      addInfoCard(
+        _buildVerticalInfoCard(
+          icon: Icons.subway,
+          title: "Metro",
+          value: place.metro!,
+          color: const Color(0xFFE91E63),
+        ),
+      );
+    }
+
+    if (place.duration != null) {
+      addInfoCard(
+        _buildVerticalInfoCard(
+          icon: Icons.timer_outlined,
+          title: AppLocalizations.instance.t(AppLocalizations.instance.duration, "Duration"),
+          value: place.duration!,
+          color: const Color(0xFF00BCD4),
+        ),
+      );
+    }
+
+    final infoCardCount = (infoCards.length + 1) ~/ 2;
+    // 4 cards usually overflow on standard phone widths (~375-414px), so enable scroll for 4+
+    final shouldScroll = infoCardCount >= 4;
 
     return Container(
-      margin: const EdgeInsets.fromLTRB(20, 0, 20, 20),
-      child: Column(
-        children: [
-          // Row 1: Konum + Mesafe
-          Row(
-            children: [
-              Expanded(
-                child: _buildInfoCard(
-                  icon: Icons.location_on_outlined,
-                  title: AppLocalizations.instance.location,
-                  value: place.getLocalizedArea(AppLocalizations.instance.isEnglish).isNotEmpty 
-                      ? place.getLocalizedArea(AppLocalizations.instance.isEnglish) 
-                      : (place.city ?? "-"),
-                  color: const Color(0xFF4CAF50),
-                ),
-              ),
-              const SizedBox(width: 12),
-              Expanded(
-                child: AnimatedBuilder(
-                  animation: LocationContextService.instance,
-                  builder: (context, child) {
-                    // Fix for places with missing coordinates (lat/lng = 0)
-                    if (place.lat == 0 && place.lng == 0) {
-                       final distVal = place.distanceFromCenter;
-                       final distStr = "${distVal.toStringAsFixed(1)} km";
-                       final label = AppLocalizations.instance.isEnglish 
-                           ? "$distStr to center" 
-                           : "Merkeze $distStr";
-                           
-                       return _buildInfoCard(
-                          icon: Icons.straighten,
-                          title: AppLocalizations.instance.distance,
-                          value: label,
-                          color: const Color(0xFF2196F3),
-                        );
-                    }
-                  
-                    final distLabel = LocationContextService.instance.getDistanceLabel(place.lat, place.lng);
-                    
-                    return _buildInfoCard(
-                      icon: Icons.straighten,
-                      title: AppLocalizations.instance.distance,
-                      value: distLabel,
-                      color: const Color(0xFF2196F3),
-                    );
-                  }
-                ),
-              ),
-
-            ],
-          ),
-          const SizedBox(height: 12),
-          // Row 2: Fiyat + En İyi Zaman
-          Row(
-            children: [
-              Expanded(
-                child: _buildInfoCard(
-                  icon: Icons.euro,
-                  title: AppLocalizations.instance.t(AppLocalizations.instance.price, "Price"),
-                  value: _getPriceText(place.price),
-                  color: const Color(0xFFFF9800),
-                ),
-              ),
-              const SizedBox(width: 12),
-              Expanded(
-                child: _buildInfoCard(
-                  icon: Icons.schedule,
-                  title: AppLocalizations.instance.bestTime,
-                  value: (AppLocalizations.instance.isEnglish && place.bestTimeEn != null)
-                      ? place.bestTimeEn!
-                      : (place.bestTime ?? AppLocalizations.instance.anytime),
-                  color: accentLight,
-                ),
-              ),
-            ],
-          ),
-          // Row 3: Metro + Duration (if available)
-          if (place.metro != null || place.duration != null) ...[
-            const SizedBox(height: 12),
-            Row(
+      margin: const EdgeInsets.fromLTRB(20, 0, 20, 16),
+      child: shouldScroll
+          ? Column(
+              mainAxisSize: MainAxisSize.min,
               children: [
-                if (place.metro != null)
-                  Expanded(
-                    child: _buildInfoCard(
-                      icon: Icons.subway,
-                      title: "Metro",
-                      value: place.metro!,
-                      color: const Color(0xFFE91E63),
-                    ),
+                SingleChildScrollView(
+                  controller: _infoCardsScrollController,
+                  scrollDirection: Axis.horizontal,
+                  physics: const BouncingScrollPhysics(),
+                  child: Row(
+                    children: infoCards,
                   ),
-                if (place.metro != null && place.duration != null)
-                  const SizedBox(width: 12),
-                if (place.duration != null)
-                  Expanded(
-                    child: _buildInfoCard(
-                      icon: Icons.timer_outlined,
-                      title: AppLocalizations.instance.t(AppLocalizations.instance.duration, "Duration"),
-                      value: place.duration!,
-                      color: const Color(0xFF00BCD4),
+                ),
+                const SizedBox(height: 10),
+                _buildInfoCardsScrollbar(infoCardCount),
+              ],
+            )
+          : Row(children: infoCards),
+    );
+  }
+
+  Widget _buildInfoCardsScrollbar(int infoCardCount) {
+    const cardSpacing = 8.0;
+    const estimatedCardWidth = 110.0;
+
+    return Padding(
+      padding: EdgeInsets.zero,
+      child: LayoutBuilder(
+        builder: (context, constraints) {
+          final trackWidth = constraints.maxWidth.isFinite
+              ? constraints.maxWidth
+              : MediaQuery.sizeOf(context).width - 40;
+          final estimatedContentWidth =
+              (infoCardCount * estimatedCardWidth) +
+              ((infoCardCount - 1) * cardSpacing);
+          final visibleFraction = estimatedContentWidth <= 0
+              ? 1.0
+              : (trackWidth / estimatedContentWidth).clamp(0.22, 1.0);
+
+          return AnimatedBuilder(
+            animation: _infoCardsScrollController,
+            builder: (context, child) {
+              final maxScrollExtent = _infoCardsScrollController.hasClients
+                  ? _infoCardsScrollController.position.maxScrollExtent
+                  : math.max(0.0, estimatedContentWidth - trackWidth);
+              final currentOffset = _infoCardsScrollController.hasClients
+                  ? _infoCardsScrollController.offset.clamp(0.0, maxScrollExtent)
+                  : 0.0;
+              final thumbWidth = math.min(
+                trackWidth,
+                math.max(44.0, trackWidth * visibleFraction),
+              );
+              final maxThumbOffset = math.max(0.0, trackWidth - thumbWidth);
+              final thumbOffset = maxScrollExtent <= 0
+                  ? 0.0
+                  : (currentOffset / maxScrollExtent) * maxThumbOffset;
+
+              return Container(
+                height: 4,
+                decoration: BoxDecoration(
+                  color: borderColor.withOpacity(0.18),
+                  borderRadius: BorderRadius.circular(999),
+                ),
+                child: Stack(
+                  children: [
+                    Positioned(
+                      left: thumbOffset,
+                      child: Container(
+                        width: thumbWidth,
+                        height: 4,
+                        decoration: BoxDecoration(
+                          color: textGrey.withOpacity(0.55),
+                          borderRadius: BorderRadius.circular(999),
+                        ),
+                      ),
                     ),
+                  ],
+                ),
+              );
+            },
+          );
+        },
+      ),
+    );
+  }
+
+  Widget _buildVerticalInfoCard({
+    required IconData icon,
+    required String title,
+    required String value,
+    required Color color,
+  }) {
+    return Container(
+      constraints: const BoxConstraints(minWidth: 85, maxWidth: 110),
+      padding: const EdgeInsets.all(10),
+      decoration: BoxDecoration(
+        color: bgCard,
+        borderRadius: BorderRadius.circular(12),
+        border: Border.all(color: borderColor.withOpacity(0.5)),
+      ),
+      child: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+          Container(
+            padding: const EdgeInsets.all(6),
+            decoration: BoxDecoration(
+              color: color.withOpacity(0.12),
+              borderRadius: BorderRadius.circular(8),
+              border: Border.all(color: color.withOpacity(0.22)),
+            ),
+            child: Icon(icon, color: color, size: 18),
+          ),
+          const SizedBox(height: 6),
+          Text(
+            title,
+            style: const TextStyle(
+              color: textGrey,
+              fontSize: 10,
+            ),
+            maxLines: 1,
+            overflow: TextOverflow.ellipsis,
+          ),
+          const SizedBox(height: 2),
+          Text(
+            value,
+            style: GoogleFonts.poppins(
+              color: textWhite,
+              fontSize: 12,
+              fontWeight: FontWeight.w600,
+            ),
+            maxLines: 1,
+            overflow: TextOverflow.ellipsis,
+            textAlign: TextAlign.center,
+          ),
+        ],
+      ),
+    );
+  }
+
+  Widget _buildCompactInfoCard({
+    required IconData icon,
+    required String title,
+    required String value,
+    required Color color,
+  }) {
+    return Container(
+      padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 4),
+      decoration: BoxDecoration(
+        color: bgCard,
+        borderRadius: BorderRadius.circular(10),
+        border: Border.all(color: borderColor.withOpacity(0.5)),
+      ),
+      child: Row(
+        mainAxisSize: MainAxisSize.min,
+        children: [
+          Container(
+            padding: const EdgeInsets.all(3),
+            decoration: BoxDecoration(
+              color: color.withOpacity(0.12),
+              borderRadius: BorderRadius.circular(6),
+              border: Border.all(color: color.withOpacity(0.22)),
+            ),
+            child: Icon(icon, color: color, size: 12),
+          ),
+          const SizedBox(width: 4),
+          Flexible(
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                Text(title, style: const TextStyle(color: textGrey, fontSize: 8)),
+                Text(
+                  value,
+                  style: GoogleFonts.poppins(
+                    color: textWhite,
+                    fontSize: 10,
+                    fontWeight: FontWeight.w600,
                   ),
+                  maxLines: 1,
+                  overflow: TextOverflow.ellipsis,
+                ),
               ],
             ),
-          ],
+          ),
         ],
       ),
     );
@@ -1272,7 +1424,7 @@ class _DetailScreenState extends State<DetailScreen>
     required Color color,
   }) {
     return Container(
-      padding: const EdgeInsets.all(12),
+      padding: const EdgeInsets.all(10),
       decoration: BoxDecoration(
         color: bgCard,
         borderRadius: BorderRadius.circular(14),
@@ -1282,22 +1434,22 @@ class _DetailScreenState extends State<DetailScreen>
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Container(
-            padding: const EdgeInsets.all(6),
+            padding: const EdgeInsets.all(5),
             decoration: BoxDecoration(
-              color: Colors.white.withOpacity(0.1),
+              color: color.withOpacity(0.12),
               borderRadius: BorderRadius.circular(10),
-              border: Border.all(color: Colors.white.withOpacity(0.2)),
+              border: Border.all(color: color.withOpacity(0.22)),
             ),
-            child: Icon(icon, color: Colors.white.withOpacity(0.8), size: 18),
+            child: Icon(icon, color: color, size: 16),
           ),
-          const SizedBox(height: 8),
-          Text(title, style: const TextStyle(color: textGrey, fontSize: 11)),
+          const SizedBox(height: 6),
+          Text(title, style: const TextStyle(color: textGrey, fontSize: 10)),
           const SizedBox(height: 2),
           Text(
             value,
             style: GoogleFonts.poppins(
               color: textWhite,
-              fontSize: 13,
+              fontSize: 12,
               fontWeight: FontWeight.w600,
             ),
             maxLines: 1,
@@ -1384,10 +1536,10 @@ class _DetailScreenState extends State<DetailScreen>
           child: Container(
             padding: const EdgeInsets.all(20),
             decoration: BoxDecoration(
-              color: Colors.white.withOpacity(0.05),
+              color: bgCard,
               borderRadius: BorderRadius.circular(20),
               border: Border.all(
-                color: Colors.white.withOpacity(0.12),
+                color: borderColor.withOpacity(0.5),
                 width: 1,
               ),
             ),
@@ -1402,7 +1554,7 @@ class _DetailScreenState extends State<DetailScreen>
                   ),
                   child: const Icon(
                     Icons.lightbulb_outline_rounded,
-                    color: Colors.white,
+                    color: accent,
                     size: 22,
                   ),
                 ),
@@ -1414,9 +1566,9 @@ class _DetailScreenState extends State<DetailScreen>
                       Text(
                         AppLocalizations.instance.localTip.replaceAll(' 💡', '').toUpperCase(),
                         style: GoogleFonts.poppins(
-                          color: Colors.white,
+                          color: Colors.black,
                           fontSize: 12,
-                          fontWeight: FontWeight.w800,
+                          fontWeight: FontWeight.w400,
                           letterSpacing: 1.2,
                         ),
                       ),
@@ -1427,10 +1579,10 @@ class _DetailScreenState extends State<DetailScreen>
                             ? widget.place.tipsEn!
                             : widget.place.tips!,
                         style: GoogleFonts.poppins(
-                          color: Colors.white.withOpacity(0.9),
+                          color: textGrey,
                           fontSize: 14,
                           height: 1.6,
-                          fontWeight: FontWeight.w500,
+                          fontWeight: FontWeight.w400,
                         ),
                       ),
                     ],
@@ -1736,12 +1888,22 @@ class _DetailScreenState extends State<DetailScreen>
             ClipRRect(
               borderRadius: BorderRadius.circular(10),
               child: place.imageUrl != null
-                  ? Image.network(
-                      place.imageUrl!,
+                  ? CachedNetworkImage(
+                      imageUrl: place.imageUrl!,
                       width: 60,
                       height: 60,
                       fit: BoxFit.cover,
-                      errorBuilder: (_, __, ___) => Container(
+                      cacheManager: AppImageCacheManager.instance,
+                      fadeInDuration: Duration.zero,
+                      fadeOutDuration: Duration.zero,
+                      placeholderFadeInDuration: Duration.zero,
+                      placeholder: (_, __) => Container(
+                        width: 60,
+                        height: 60,
+                        color: Colors.white.withOpacity(0.1),
+                        child: const Icon(Icons.place, color: Colors.white),
+                      ),
+                      errorWidget: (_, __, ___) => Container(
                         width: 60,
                         height: 60,
                         color: Colors.white.withOpacity(0.1),
@@ -1873,9 +2035,9 @@ class _DetailScreenState extends State<DetailScreen>
         width: 110,
         margin: const EdgeInsets.only(right: 12),
         decoration: BoxDecoration(
-          color: Colors.white.withOpacity(0.04),
+          color: bgCard,
           borderRadius: BorderRadius.circular(20),
-          border: Border.all(color: Colors.white.withOpacity(0.1), width: 1),
+          border: Border.all(color: borderColor.withOpacity(0.5), width: 1),
         ),
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
@@ -1886,8 +2048,10 @@ class _DetailScreenState extends State<DetailScreen>
                     width: 24,
                     height: 24,
                     fit: BoxFit.contain,
+                    color: accent,
+                    colorBlendMode: BlendMode.srcIn,
                   )
-                : Icon(icon, color: Colors.white.withOpacity(0.9), size: 24),
+                : Icon(icon, color: color, size: 24),
             const SizedBox(height: 10),
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 8),
@@ -1933,13 +2097,15 @@ class _DetailScreenState extends State<DetailScreen>
                   margin: const EdgeInsets.only(right: 8),
                   decoration: BoxDecoration(
                     color: _isVisited 
-                        ? accent
+                        ? accent.withValues(alpha: 0.84)
                         : _isCheckingIn 
-                            ? bgCardLight
-                            : bgCard,
+                            ? bgCardLight.withValues(alpha: 0.9)
+                            : bgCard.withValues(alpha: 0.78),
                     borderRadius: BorderRadius.circular(16),
                     border: Border.all(
-                      color: _isVisited ? accent : accent.withOpacity(0.5),
+                      color: _isVisited
+                          ? accent.withValues(alpha: 0.9)
+                          : accent.withValues(alpha: 0.26),
                     ),
                   ),
                   child: Center(
@@ -1985,9 +2151,15 @@ class _DetailScreenState extends State<DetailScreen>
                   duration: const Duration(milliseconds: 250),
                   height: 58,
                   decoration: BoxDecoration(
-                    color: accent,
+                    color: _isInTrip
+                        ? accent.withValues(alpha: 0.78)
+                        : accent.withValues(alpha: 0.88),
                     borderRadius: BorderRadius.circular(16),
-                    border: _isInTrip ? Border.all(color: accent) : null,
+                    border: Border.all(
+                      color: _isInTrip
+                          ? accent.withValues(alpha: 0.88)
+                          : accent.withValues(alpha: 0.24),
+                    ),
                   ),
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.center,

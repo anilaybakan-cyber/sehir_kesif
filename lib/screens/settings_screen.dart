@@ -349,13 +349,13 @@ class _SettingsScreenState extends State<SettingsScreen> {
                 const SizedBox(height: 20),
 
                 // Support & Legal
-                _buildSectionTitle(AppLocalizations.instance.supportAndLegal ?? "Support & Legal"), // Fallback if key missing
+                _buildSectionTitle(AppLocalizations.instance.isEnglish ? "Support & Legal" : "Destek & Yasal"),
                 const SizedBox(height: 10),
                 
                 _buildActionTile(
                   icon: Icons.privacy_tip_outlined, 
                   iconColor: const Color(0xFF6C5CE7), 
-                  title: AppLocalizations.instance.privacyPolicy, 
+                  title: AppLocalizations.instance.isEnglish ? "Privacy Policy" : "Gizlilik Politikası", 
                   onTap: () => _launchURL(AppLocalizations.instance.isEnglish 
                       ? 'https://mywaytravelapp.com/privacy.html' 
                       : 'https://mywaytravelapp.com/privacy-tr.html'),
@@ -618,17 +618,6 @@ class _SettingsScreenState extends State<SettingsScreen> {
          );
        }
      } catch (e) {
-       debugPrint("Restore error: $e");
-       if (mounted) {
-         ScaffoldMessenger.of(context).showSnackBar(
-           SnackBar(content: Text("Error: $e")),
-         );
-       }
-     } finally {
-       if (mounted) setState(() => _loading = false);
-     }
-  }
-
        debugPrint("Restore error: $e");
        if (mounted) {
          ScaffoldMessenger.of(context).showSnackBar(

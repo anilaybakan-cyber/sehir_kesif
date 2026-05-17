@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+from dotenv import load_dotenv
+load_dotenv()
 """
 Download real venue photos using Google Places API
 """
@@ -9,7 +11,7 @@ import time
 from urllib.parse import quote
 
 # Google API Key from .env
-API_KEY = "AIzaSyBSZJmb9IIINxWbxXgCLTPiWC9SLcaDrMk"
+API_KEY = os.getenv("GOOGLE_MAPS_API_KEY")
 
 # Output directory
 OUTPUT_DIR = "prag_venue_photos"

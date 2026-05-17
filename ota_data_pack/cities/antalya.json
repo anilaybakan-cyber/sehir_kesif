@@ -9,33 +9,6 @@
   },
   "highlights": [
     {
-      "id": "5m-migros-avm",
-      "name": "5M Migros AVM",
-      "name_en": "5M Migros Mall",
-      "description": "5M Migros AVM, Antalya'da alışveriş keyfini yüksek tavanlı, ferah ortamda sunarak geniş mağaza yelpazesini keşfetme fırsatı sunar.",
-      "description_en": "5M Migros AVM offers a spacious, high-ceiling environment in Antalya, inviting visitors to explore its wide range of stores and shopping experiences.",
-      "tips": "Giriş katındaki markette yerel lezzetleri tadın.",
-      "tips_en": "Taste local delicacies at the market on the ground floor.",
-      "category": "Alışveriş",
-      "subcategory": "AVM",
-      "tags": [
-        "süpermarket",
-        "alışveriş",
-        "shopping",
-        "local",
-        "avm",
-        "mall"
-      ],
-      "price": "free",
-      "lat": 36.8825788,
-      "lng": 30.6604581,
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/5m-migros-avm.jpg",
-      "rating": 4.4,
-      "source": "firebase",
-      "bestTime": "Gündüz",
-      "area": "Konyaaltı"
-    },
-    {
       "name": "7 Mehmet",
       "area": "Konyaaltı",
       "category": "Yeme-İçme",
@@ -583,7 +556,7 @@
       "tips": "Sıcağı ve kalabalığı önlemek için sabah erken veya akşam geç saatleri tercih edin.",
       "description_en": "Built by Zenon in 2nd century AD, Marcus Aurelius era Roman theatre, an architectural masterpiece. Unique acoustics and preserved stage still host artistic events.",
       "tips_en": "To avoid heat and crowds, prefer early mornings or late afternoons.",
-      "name_en": "Aspendos Antik Tiyatrosu"
+      "name_en": "Aspendos Ancient Theatre"
     },
     {
       "name": "Atatürk Evi Müzesi",
@@ -681,7 +654,7 @@
     },
     {
       "name": "Beach Park Konyaaltı",
-      "name_en": "Beach Park Konyaalti",
+      "name_en": "Konyaaltı Beach Park",
       "area": "Konyaaltı",
       "category": "Plaj",
       "tags": [
@@ -1049,7 +1022,7 @@
     },
     {
       "name": "Deniz Lokantası",
-      "name_en": "Deniz Lokantasi",
+      "name_en": "Deniz Restaurant",
       "area": "Kemer",
       "category": "Yeme-İçme",
       "tags": [
@@ -1394,7 +1367,7 @@
       "tips": "Akşam ışıklandırması altında büyülü atmosferini deneyimleyin.",
       "description_en": "Antalya's magnificent Hadrian's Gate, built 130 AD for Emperor Hadrian, is a three-arched monumental Roman triumphal arch. Its Corinthian columns and rich carvings form an impressive gateway to the ancient city.",
       "tips_en": "Experience its magical atmosphere under evening illumination.",
-      "name_en": "Hadrian Kapısı (Üç Kapılar)"
+      "name_en": "Hadrian's Gate"
     },
     {
       "name": "Hasanağa Restaurant",
@@ -2124,31 +2097,6 @@
       "lng": 31.99,
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/kleopatra-plaji.jpg",
       "rating": 4.5,
-      "source": "firebase"
-    },
-    {
-      "name": "Kleopatra Plajı (Alanya)",
-      "name_en": "Cleopatra Beach",
-      "area": "Alanya",
-      "category": "Plaj",
-      "tags": [
-        "plaj",
-        "mavi bayrak",
-        "kumsal"
-      ],
-      "distanceFromCenter": 130.0,
-      "lat": 36.545,
-      "lng": 31.99,
-      "price": "free",
-      "rating": 4.7,
-      "description": "Kleopatra Plajı, efsaneye göre Mısır kraliçesi Kleopatra'nın bu kumsalda güneşlendiği yerdir. Göz alıcı altın sarısı kumlar ve masmavi deniz, doğanın sunduğu bir cennettir.",
-      "description_en": "Kleopatra Beach, according to legend, is where Queen Cleopatra sunbathed. Its dazzling golden sands and deep blue sea create a natural paradise.",
-      "bestTime": "Gündüz",
-      "bestTime_en": "Daytime",
-      "tips": "Sabah erken saatlerde gelmek, kalabalıktan kaçmanızı sağlar.",
-      "tips_en": "Arriving early in the morning helps you avoid the crowds.",
-      "id": "kleopatra-plaji-alanya",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/kleopatra-plaji-alanya.jpg",
       "source": "firebase"
     },
     {
@@ -3064,7 +3012,7 @@
       "tips": "Denize girmek için yanınıza mayo alın, antik kalıntılar arasında yürüyüş ayakkabıları tercih edin.",
       "description_en": "Ancient Lycian Phaselis, with three ports, boasts magnificent Roman agora, theatre, baths, and Hadrian's Gate. Its architectural remnants offer a profound historical journey.",
       "tips_en": "Bring your swimsuit for swimming; prefer walking shoes among the ancient ruins.",
-      "name_en": "Phaselis Antik Kenti"
+      "name_en": "Phaselis Ancient City"
     },
     {
       "name": "Pio Gastro Bar & Bistro",

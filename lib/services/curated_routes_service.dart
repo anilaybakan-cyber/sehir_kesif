@@ -6,6 +6,9 @@ import '../models/city_model.dart';
 import '../theme/wanderlust_colors.dart';
 import 'dart:math';
 import '../secrets.dart';
+import 'dynamic_route_generator.dart';
+import 'remote_config_service.dart';
+import '../models/route_archetype.dart';
 
 class CuratedRoute {
   final String id;
@@ -41,20 +44,79 @@ class CuratedRoutesService {
   
   /// Şehir modelinden otomatik rotalar oluşturur
   static Future<List<CuratedRoute>> generateRoutes(CityModel city, bool isEnglish) async {
-    final existingRoutes = getRoutes(city.city, isEnglish);
-    final allHighlights = List<Highlight>.from(city.highlights);
-    final generatedRoutes = <CuratedRoute>[];
-    
-    // Var olan rota isimlerini kontrol et (çakışmayı önlemek için)
-    final existingNames = existingRoutes.map((r) => r.name).toSet();
+    final hardcodedRoutes = getRoutes(city.city, isEnglish);
 
-    // Yardımcı fonksiyon: Rota ekle
-    void addRoute(CuratedRoute route) {
-      if (!existingNames.contains(route.name)) {
-        generatedRoutes.add(route);
-        existingNames.add(route.name);
+    // V4.3: Day-trip yerleri ayrı tut, normal rotalara karışmasınlar
+    final allCityHighlights = List<Highlight>.from(city.highlights);
+    final dayTripPlaces = allCityHighlights.where((h) => h.isDayTrip).toList();
+    final allHighlights = allCityHighlights.where((h) => !h.isDayTrip).toList();
+    final baseRoutes = <CuratedRoute>[];
+    final generatedRoutes = <CuratedRoute>[];
+
+    // 🔥 DETERMINISTIK RANDOM: Aynı şehir = aynı rotalar
+    // Şehir adından seed oluştur, böylece her açılışta tutarlı rotalar gelir
+    final citySeed = city.city.codeUnits.fold<int>(0, (a, b) => a + b);
+    final cityRandom = Random(citySeed);
+    
+    // Mekanları hızlı bulmak için map yapısı (id/name/nameEn + normalize)
+    final highlightsMap = <String, Highlight>{};
+    for (var h in [...allHighlights, ...dayTripPlaces]) {
+      _addHighlightLookup(highlightsMap, h.name, h);
+      if (h.nameEn != null && h.nameEn!.isNotEmpty) {
+        _addHighlightLookup(highlightsMap, h.nameEn!, h);
+      }
+      if (h.id != null && h.id!.isNotEmpty) {
+        _addHighlightLookup(highlightsMap, h.id!, h);
       }
     }
+
+    // Var olan rota id/isimlerini kontrol et (çakışmayı önlemek için)
+    final existingIds = <String>{};
+    final existingNames = <String>{};
+
+    // Yardımcı fonksiyon: Rota ekle (JSON rotaları öncelikli)
+    void addRoute(CuratedRoute route, {bool isBaseRoute = false}) {
+      final normalizedId = _normalizeRouteToken(route.id);
+      final normalizedName = _normalizeRouteToken(route.name);
+      if (existingIds.contains(normalizedId) || existingNames.contains(normalizedName)) {
+        return;
+      }
+      if (isBaseRoute) {
+        baseRoutes.add(route);
+      } else {
+        generatedRoutes.add(route);
+      }
+      existingIds.add(normalizedId);
+      existingNames.add(normalizedName);
+    }
+
+    // 0. City JSON'dan gelen hazır rotaları ekle
+    for (final routeData in city.curatedRoutes) {
+      final validatedPlaces = _resolveAndValidateRoutePlaces(routeData.places, highlightsMap);
+      if (validatedPlaces.length < 3) continue;
+      final routeIcon = _iconForRouteId(routeData.id);
+      final routeColor = _colorForRouteId(routeData.id);
+      addRoute(CuratedRoute(
+        id: routeData.id,
+        name: routeData.getLocalizedTitle(isEnglish),
+        description: routeData.getLocalizedDescription(isEnglish),
+        duration: isEnglish ? "3-5 hours" : "3-5 saat",
+        distance: "2-5 km",
+        difficulty: isEnglish ? "Moderate" : "Orta",
+        imageUrl: city.heroImage ?? "",
+        tags: isEnglish ? ["recommended", "curated"] : ["önerilen", "özel"],
+        placeNames: validatedPlaces,
+        interests: ["culture", "photography", "history"],
+        accentColor: routeColor,
+        icon: routeIcon,
+      ), isBaseRoute: true);
+    }
+
+    // 0.5 Hardcoded rotaları ekle (JSON olmayan rotalar fallback)
+    for (final route in hardcodedRoutes) {
+      addRoute(route, isBaseRoute: true);
+    }
+
 
     // 1. "Iconic [City]" / "[City] Klasikleri" (En yüksek puanlı 6 yer - Coğrafi Olarak Kümelenmiş)
     allHighlights.sort((a, b) => (b.rating ?? 0).compareTo(a.rating ?? 0));
@@ -62,7 +124,8 @@ class CuratedRoutesService {
     if (allHighlights.isNotEmpty) {
       final anchor = allHighlights.first;
       // Anchor'a yakın (maks 80km) ve yüksek puanlı diğer yerleri bul
-      final nearbyTopPlaces = _getNearbyHighlights(anchor, allHighlights, 80.0);
+      // Yürünebilir mesafe için 8km, ulaşılabilir merkez için 12km
+      final nearbyTopPlaces = _getNearbyHighlights(anchor, allHighlights, 8.0);
       // Puanına göre sırala ve ilk 6'yı al (Anchor dahil)
       nearbyTopPlaces.sort((a, b) => (b.rating ?? 0).compareTo(a.rating ?? 0));
       final topPlaces = nearbyTopPlaces.take(6).toList();
@@ -99,7 +162,8 @@ class CuratedRoutesService {
        // En popüler tarihi yeri merkez al
        culturePlaces.sort((a, b) => (b.rating ?? 0).compareTo(a.rating ?? 0));
        final anchor = culturePlaces.first;
-       final nearbyCulture = _getNearbyHighlights(anchor, culturePlaces, 50.0);
+       // Kültür rotası: yürünebilir/kısa transit mesafe
+       final nearbyCulture = _getNearbyHighlights(anchor, culturePlaces, 5.0);
        
         if (nearbyCulture.length >= 4) {
           // Yakın bir kafe ekle (mola için)
@@ -146,7 +210,8 @@ class CuratedRoutesService {
     if (naturePlaces.isNotEmpty) {
       naturePlaces.sort((a, b) => (b.rating ?? 0).compareTo(a.rating ?? 0));
       final anchor = naturePlaces.first;
-      final nearbyNature = _getNearbyHighlights(anchor, naturePlaces, 60.0);
+      // Doğa rotası: bir miktar daha geniş olabilir (parçalı manzara/park)
+      final nearbyNature = _getNearbyHighlights(anchor, naturePlaces, 10.0);
 
       if (nearbyNature.length >= 3) {
         addRoute(_createRoute(
@@ -177,9 +242,10 @@ class CuratedRoutesService {
     ).toList();
 
     if (foodPlaces.isNotEmpty) {
-      foodPlaces.shuffle(); // Lezzette rastgelelik iyidir ama yakınlık şart
+      // Deterministik shuffle - her açılışta aynı sıralama
+      foodPlaces.shuffle(cityRandom);
       final anchor = foodPlaces.first;
-      final nearbyFood = _getNearbyHighlights(anchor, foodPlaces, 15.0); // Yemek için daha dar alan (yürünebilir)
+      final nearbyFood = _getNearbyHighlights(anchor, foodPlaces, 3.0); // Yemek turu yürünebilir olmalı
       
       if (nearbyFood.length >= 4) {
         addRoute(_createRoute(
@@ -199,15 +265,15 @@ class CuratedRoutesService {
     }
 
     // 5. Gizli Hazineler / Alternatif Rota (Yüksek puanlı ama klasik listede olmayanlar - Coğrafi)
-    final usedNames = generatedRoutes.expand((r) => r.placeNames).toSet();
+    final usedNames = [...baseRoutes, ...generatedRoutes].expand((r) => r.placeNames).toSet();
     final hiddenGems = allHighlights.where((h) => 
       !usedNames.contains(h.name) && (h.rating ?? 0) >= 4.3
     ).toList();
 
     if (hiddenGems.isNotEmpty) {
-       hiddenGems.shuffle();
+       hiddenGems.shuffle(cityRandom);
        final anchor = hiddenGems.first;
-       final nearbyHidden = _getNearbyHighlights(anchor, hiddenGems, 40.0);
+       final nearbyHidden = _getNearbyHighlights(anchor, hiddenGems, 6.0);
 
        if (nearbyHidden.length >= 4) {
         addRoute(_createRoute(
@@ -236,11 +302,16 @@ class CuratedRoutesService {
     }
 
     byArea.forEach((area, places) {
-      if (places.length >= 4 && generatedRoutes.length + existingRoutes.length < 30) {
+      if (places.length >= 4 &&
+          generatedRoutes.length + baseRoutes.length <
+              RemoteConfigService.instance.targetRouteCount) {
         
         final titlesEn = ["Spirit of $area", "Essence of $area", "The $area Collection", "$area Textures", "Authentic $area"];
         final titlesTr = ["$area Dokusu", "$area Seçkisi", "$area Ruhu", "$area Keşfi", "$area'nın Kalbi", "$area Esintisi"];
-        final String randomTitle = isEnglish ? titlesEn[Random().nextInt(titlesEn.length)] : titlesTr[Random().nextInt(titlesTr.length)];
+        // Deterministik seçim: area adından seed türet
+        final areaSeed = area.codeUnits.fold<int>(citySeed, (a, b) => a + b);
+        final areaRandom = Random(areaSeed);
+        final String randomTitle = isEnglish ? titlesEn[areaRandom.nextInt(titlesEn.length)] : titlesTr[areaRandom.nextInt(titlesTr.length)];
 
         addRoute(_createRoute(
           id: "${city.city.toLowerCase()}_${area.toLowerCase().replaceAll(' ', '_')}",
@@ -258,135 +329,143 @@ class CuratedRoutesService {
       }
     });
 
-    // Toplam rota sayısı 30'a tamamlanana kadar karışık rotalar ekle (Mix - Coğrafi Kümelenmiş)
-    int attempt = 1;
-    int mixCount = 1;
-    while (generatedRoutes.length + existingRoutes.length < 30 && attempt < 20) { 
-      
-      // Rastgele bir başlangıç noktası seç
-      final potentialAnchors = allHighlights.toList()..shuffle();
-      if (potentialAnchors.isEmpty) {
-        break;
+
+    // 7. Dinamik Rota Entegrasyonu (Eski "Şehir Panoraması" yerine)
+    if (RemoteConfigService.instance.enableDynamicRoutes) {
+      // Tüm Spirit'leri gez ve uygun olanları ekle
+      for (var spirit in RouteSpirit.values) {
+        final dynamicRoute = await DynamicRouteService.generateRoute(
+          city: city,
+          spirit: spirit,
+          isEnglish: isEnglish,
+        );
+        
+        if (dynamicRoute != null) {
+          addRoute(dynamicRoute);
+        }
       }
-      
-      final Highlight anchor = potentialAnchors.first;
-      
-      // Çevresindeki mekanları bul
-      final nearby = _getNearbyHighlights(anchor, allHighlights, 5.0);
-      
-      if (nearby.length >= 4) {
-          final mixPlaces = nearby.take(6).toList();
-          final String mixName = isEnglish ? "City Panorama $mixCount" : "Şehir Panoraması $mixCount";
-          
-          if (!existingNames.contains(mixName)) {
-              addRoute(_createRoute(
-                id: "${city.city.toLowerCase()}_mix_$attempt",
-                name: mixName,
-                description: isEnglish 
-                  ? "A sophisticated mosaic of the city's diverse atmosphere for a perfect summary of your day."
-                  : "Gününüzü taçlandıracak, şehrin farklı atmosferlerini bir araya getiren şık bir mozaik turu.",
-                places: _optimizeRoute(mixPlaces),
-                color: const Color(0xFF009688), // Teal
-                icon: Icons.directions_walk_rounded,
-                tags: ["mix", "walking", isEnglish ? "popular" : "popüler"],
-                interests: ["walking"],
-                isEnglish: isEnglish,
-              ));
-              mixCount++;
-          }
-      }
-      attempt++;
+    }
+
+    // 8. V4.3: Günübirlik Geziler — bir günü tamamen kaplayan dış geziler
+    if (dayTripPlaces.isNotEmpty) {
+      // Mesafeye göre yakından uzağa sırala
+      dayTripPlaces.sort((a, b) =>
+          a.distanceFromCenter.compareTo(b.distanceFromCenter));
+      // En yüksek puanlı 6'yı seç (ya da hepsi 6'dan azsa hepsi)
+      dayTripPlaces.sort((a, b) => (b.rating ?? 0).compareTo(a.rating ?? 0));
+      final topDayTrips = dayTripPlaces.take(6).toList();
+
+      // Tek-stop day-trip rotaları: her biri ayrı bir gün rotası gibi davranır
+      // (kullanıcı tıklayınca AutoSlotPicker boş bir gün açar)
+      addRoute(CuratedRoute(
+        id: "${city.city.toLowerCase()}_day_trips",
+        name: isEnglish ? "Day Trips from ${city.city}" : "Günübirlik Geziler",
+        description: isEnglish
+            ? "Full-day excursions to nearby destinations. Each one fills a whole day — choose one and we'll reserve the day for you."
+            : "Yakındaki destinasyonlara günübirlik geziler. Her biri tüm günü kaplar — seç, sistem senin için ayrı bir gün ayarlasın.",
+        duration: isEnglish ? "Full day" : "Tüm gün",
+        distance: "${topDayTrips.first.distanceFromCenter.toStringAsFixed(0)}+ km",
+        difficulty: isEnglish ? "Easy" : "Kolay",
+        imageUrl: topDayTrips.first.imageUrl ?? city.heroImage ?? "",
+        tags: isEnglish
+            ? ["day-trip", "excursion", "full-day"]
+            : ["günübirlik", "gezi", "tüm-gün"],
+        placeNames: topDayTrips.map((h) => h.name).toList(),
+        interests: ["culture", "history", "nature"],
+        accentColor: const Color(0xFFFF9800), // Orange
+        icon: Icons.directions_car_filled_rounded,
+      ));
     }
 
     // TÜM ROTALARI BİRLEŞTİR VE GÖRSEL KONTROLÜ YAP (HARDCODED DAHİL)
-    final allRoutesResult = [...existingRoutes, ...generatedRoutes];
+    final allRoutesResult = [...baseRoutes, ...generatedRoutes];
     final enrichedRoutes = <CuratedRoute>[];
 
-    // Mekanları hızlı bulmak için Map yapısı
-    // Mekanları hızlı bulmak için Map yapısı
-    final highlightsMap = <String, Highlight>{};
-    for (var h in allHighlights) {
-      highlightsMap[h.name] = h;
-      if (h.nameEn != null && h.nameEn!.isNotEmpty) {
-        highlightsMap[h.nameEn!] = h;
-      }
-    }
+    // Used images tracker: her rotaya farklı görsel ver
+    final usedImages = <String>{};
 
     for (var route in allRoutesResult) {
-      // Eğer görseli varsa ve geçerli bir URL ise dokunma
-      bool hasValidImage = route.imageUrl.isNotEmpty && 
-                           !route.imageUrl.contains("placeholder") &&
-                           route.imageUrl.startsWith("http");
+      // Place ID'leri gerçek highlight isimlerine çevir
+      final resolvedPlaceNames = _resolveAndValidateRoutePlaces(route.placeNames, highlightsMap);
 
-      if (hasValidImage) {
-        enrichedRoutes.add(route);
-        continue;
-      }
+      // Rota görseli: resolvedPlaceNames üzerinden sırayla bak, daha önce kullanılmamış birini seç
+      String newImage = "";
 
-      // Görsel yoksa veya geçersizse, rota içindeki mekanlardan bul
-      String newImage = route.imageUrl;
-      
-      // 1. Önce tam eşleşme ara
-      if (newImage.isEmpty || !newImage.startsWith("http")) {
-        for (var placeName in route.placeNames) {
-          final highlight = highlightsMap[placeName];
-          if (highlight != null && 
-              highlight.imageUrl != null && 
-              highlight.imageUrl!.isNotEmpty &&
-              highlight.imageUrl!.startsWith("http")) {
+      // 1. Tam / ID eşleşme — kullanılmamış görsel öncelikli
+      for (var placeName in resolvedPlaceNames) {
+        final highlight = highlightsMap[placeName];
+        if (highlight != null &&
+            highlight.imageUrl != null &&
+            highlight.imageUrl!.isNotEmpty &&
+            highlight.imageUrl!.startsWith("http")) {
+          if (!usedImages.contains(highlight.imageUrl)) {
             newImage = highlight.imageUrl!;
             break;
           }
+          if (newImage.isEmpty) newImage = highlight.imageUrl!; // fallback aynı olsa da ata
         }
       }
 
-      // 2. Hala görsel yoksa, gevşek eşleşme (contains) ara
+      // 2. Gevşek eşleşme (contains) — hâlâ görsel yoksa
       if (newImage.isEmpty || !newImage.startsWith("http")) {
-         for (var placeName in route.placeNames) {
-            final normalizedPlace = placeName.toLowerCase().trim();
-            try {
-              final bestMatch = allHighlights.firstWhere((h) => 
-                h.imageUrl != null && 
-                h.imageUrl!.startsWith("http") &&
-                (h.name.toLowerCase().contains(normalizedPlace) || normalizedPlace.contains(h.name.toLowerCase()))
-              );
-              newImage = bestMatch.imageUrl!;
-              break;
-            } catch (e) {
-              debugPrint("Image search error: $e");
-            }
-         }
+        for (var placeName in resolvedPlaceNames) {
+          final normalizedPlace = placeName.toLowerCase().trim();
+          try {
+            final bestMatch = allHighlights.firstWhere((h) =>
+              h.imageUrl != null &&
+              h.imageUrl!.startsWith("http") &&
+              !usedImages.contains(h.imageUrl) &&
+              (h.name.toLowerCase().contains(normalizedPlace) ||
+               normalizedPlace.contains(h.name.toLowerCase())));
+            newImage = bestMatch.imageUrl!;
+            break;
+          } catch (_) {}
+        }
       }
 
-      // 3. Son çare: Şehirdeki herhangi bir geçerli görseli kullan
+      // 3. Son çare: kullanılmamış herhangi bir geçerli görsel
       if (newImage.isEmpty || !newImage.startsWith("http")) {
         try {
-          final fallback = allHighlights.firstWhere((h) => 
-            h.imageUrl != null && h.imageUrl!.isNotEmpty && h.imageUrl!.startsWith("http")
-          );
+          final fallback = allHighlights.firstWhere((h) =>
+            h.imageUrl != null &&
+            h.imageUrl!.isNotEmpty &&
+            h.imageUrl!.startsWith("http") &&
+            !usedImages.contains(h.imageUrl));
           newImage = fallback.imageUrl!;
         } catch (_) {}
       }
 
-      // Rotayı güncelle (CuratedRoute immutable olduğu için yeni instance oluştur)
-      if (newImage != route.imageUrl) {
-         enrichedRoutes.add(CuratedRoute(
-            id: route.id,
-            name: route.name,
-            description: route.description,
-            duration: route.duration,
-            distance: route.distance,
-            difficulty: route.difficulty,
-            imageUrl: newImage, // Güncellenmiş görsel
-            tags: route.tags,
-            placeNames: route.placeNames,
-            interests: route.interests,
-            accentColor: route.accentColor,
-            icon: route.icon,
-         ));
-      } else {
-        enrichedRoutes.add(route);
+      if (newImage.isNotEmpty) usedImages.add(newImage);
+
+      // 🔥 VALIDATION: Hardcoded rotalardaki bulunamayan mekanları filtrele
+      // Sadece highlightsMap'te gerçekten var olan mekanları tut
+      final validatedNames = <String>[];
+      final seen = <String>{};
+      for (final pn in resolvedPlaceNames) {
+        final h = _resolveHighlight(pn, highlightsMap);
+        if (h == null) continue; // Bulunamayan mekan - at
+        if (seen.contains(h.name)) continue; // Duplicate - at
+        seen.add(h.name);
+        validatedNames.add(h.name);
       }
+
+      // Min 3 mekan kalmazsa rotayı atla (anlamsız bir rota olur)
+      if (validatedNames.length < 3) continue;
+
+      enrichedRoutes.add(CuratedRoute(
+        id: route.id,
+        name: route.name,
+        description: route.description,
+        duration: route.duration,
+        distance: route.distance,
+        difficulty: route.difficulty,
+        imageUrl: newImage.isNotEmpty ? newImage : route.imageUrl,
+        tags: route.tags,
+        placeNames: validatedNames,
+        interests: route.interests,
+        accentColor: route.accentColor,
+        icon: route.icon,
+      ));
     }
 
     return enrichedRoutes;
@@ -404,20 +483,31 @@ class CuratedRoutesService {
     required List<String> interests,
     bool isEnglish = false,
   }) {
-    double totalDist = 0;
+    // 🔥 Haversine mesafe + 1.4x walking factor (gerçek yürüyen mesafe)
+    double rawDist = 0;
     for (int i = 0; i < places.length - 1; i++) {
-      totalDist += _calculateDistance(
+      rawDist += _calculateDistance(
         places[i].lat, places[i].lng, 
         places[i+1].lat, places[i+1].lng
       );
     }
+    final double walkingDist = rawDist * 1.4; // Gerçek sokaklardaki yol kaybı
     
-    // Yürüme hızı ~4km/h + her durakta 45dk
-    double totalHours = (totalDist / 4) + (places.length * 0.75);
+    // 🔥 Kategori-bazlı süre hesabı
+    // Müze: 90dk, Tarih/Galeri: 75dk, Park/Manzara: 30dk, Restoran/Kafe: 60dk, Diğer: 45dk
+    double totalStopMinutes = 0;
+    for (final place in places) {
+      totalStopMinutes += _getCategoryDurationMinutes(place);
+    }
+    
+    // Yürüme süresi: 4km/h
+    final double walkingHours = walkingDist / 4.0;
+    final double stopHours = totalStopMinutes / 60.0;
+    double totalHours = walkingHours + stopHours;
     
     // Güvenlik: 12 saatten fazla sürmesin (mantıksal limit)
     if (totalHours > 12) {
-      totalHours = 8.5 + (Random().nextDouble() * 2);
+      totalHours = 8.5;
     }
 
     // İlk geçerli görseli bul
@@ -434,8 +524,8 @@ class CuratedRoutesService {
       name: name,
       description: description,
       duration: "${totalHours.toStringAsFixed(1)} h",
-      distance: "${totalDist.toStringAsFixed(1)} km",
-      difficulty: totalDist > 5 ? (isEnglish ? "Medium" : "Orta") : (isEnglish ? "Easy" : "Kolay"),
+      distance: "${walkingDist.toStringAsFixed(1)} km",
+      difficulty: walkingDist > 5 ? (isEnglish ? "Medium" : "Orta") : (isEnglish ? "Easy" : "Kolay"),
       imageUrl: bestImage, // İlk bulunan geçerli görseli kullan
       tags: tags,
       placeNames: places.map((h) => h.name).toList(),
@@ -445,10 +535,51 @@ class CuratedRoutesService {
     );
   }
 
-  // Yardımcı: Basit TSP (Nearest Neighbor) ile sırala
-  static List<Highlight> _optimizeRoute(List<Highlight> places) {
-    if (places.isEmpty) return [];
+  /// Kategori-bazlı ortalama ziyaret süresi (dakika)
+  static double _getCategoryDurationMinutes(Highlight place) {
+    final cat = place.category.toLowerCase();
     
+    // Müzeler: en uzun
+    if (cat.contains("müze") || cat.contains("museum")) return 90;
+    
+    // Tarihi/sanat/galeri
+    if (cat.contains("tarih") || cat.contains("history") || 
+        cat.contains("saray") || cat.contains("palace") ||
+        cat.contains("galeri") || cat.contains("gallery") ||
+        cat.contains("sanat") || cat.contains("art")) return 75;
+    
+    // Restoran/yemek
+    if (cat.contains("restoran") || cat.contains("restaurant") ||
+        cat.contains("yemek") || cat.contains("food")) return 75;
+    
+    // Kafe (hızlı mola)
+    if (cat.contains("kafe") || cat.contains("cafe") || cat.contains("coffee")) return 45;
+    
+    // Park/doğa/manzara (hızlı geçiş)
+    if (cat.contains("park") || cat.contains("manzara") || cat.contains("view") ||
+        cat.contains("doğa") || cat.contains("nature") || cat.contains("plaj") ||
+        cat.contains("beach")) return 30;
+    
+    // Cami/kilise (kapalı mekan ama hızlı)
+    if (cat.contains("cami") || cat.contains("mosque") || 
+        cat.contains("kilise") || cat.contains("church")) return 30;
+    
+    // Çarşı/alışveriş
+    if (cat.contains("çarşı") || cat.contains("market") || 
+        cat.contains("alışveriş") || cat.contains("shopping")) return 60;
+    
+    // Bar/gece hayatı
+    if (cat.contains("bar") || cat.contains("karaoke") || cat.contains("club")) return 90;
+    
+    // Default
+    return 45;
+  }
+
+  // Yardımcı: TSP (Nearest Neighbor + 2-opt) ile rota sırala
+  static List<Highlight> _optimizeRoute(List<Highlight> places) {
+    if (places.length <= 2) return List<Highlight>.from(places);
+    
+    // 1. Nearest Neighbor ile başlangıç rotası
     final sorted = <Highlight>[places.first];
     final remaining = List<Highlight>.from(places.skip(1));
     
@@ -472,6 +603,41 @@ class CuratedRoutesService {
         break;
       }
     }
+    
+    // 2. 2-opt iyileştirme: Çapraz yolları kaldır
+    if (sorted.length < 4) return sorted;
+    
+    bool improved = true;
+    int maxIterations = 50; // Safety
+    while (improved && maxIterations > 0) {
+      improved = false;
+      maxIterations--;
+      
+      for (int i = 0; i < sorted.length - 1; i++) {
+        for (int j = i + 2; j < sorted.length; j++) {
+          // Mevcut: sorted[i]→sorted[i+1] ... sorted[j-1]→sorted[j]
+          // Swap: sorted[i]→sorted[j-1] ... sorted[i+1]→sorted[j]
+          final d1 = _calculateDistance(sorted[i].lat, sorted[i].lng, sorted[i+1].lat, sorted[i+1].lng);
+          final d2 = (j < sorted.length) 
+              ? _calculateDistance(sorted[j-1].lat, sorted[j-1].lng, sorted[j].lat, sorted[j].lng)
+              : 0;
+          final newD1 = _calculateDistance(sorted[i].lat, sorted[i].lng, sorted[j-1].lat, sorted[j-1].lng);
+          final newD2 = (j < sorted.length)
+              ? _calculateDistance(sorted[i+1].lat, sorted[i+1].lng, sorted[j].lat, sorted[j].lng)
+              : 0;
+          
+          if (newD1 + newD2 < d1 + d2 - 0.001) {
+            // Reverse segment [i+1..j-1]
+            final reversed = sorted.sublist(i+1, j).reversed.toList();
+            for (int k = 0; k < reversed.length; k++) {
+              sorted[i+1+k] = reversed[k];
+            }
+            improved = true;
+          }
+        }
+      }
+    }
+    
     return sorted;
   }
 
@@ -504,6 +670,46 @@ class CuratedRoutesService {
       v /= 10;
     }
     return v;
+  }
+
+  // Route ID'den uygun ikonu seç
+  static IconData _iconForRouteId(String id) {
+    final s = id.toLowerCase();
+    if (s.contains('historical') || s.contains('heritage') || s.contains('ancient') || s.contains('castle') || s.contains('medieval') || s.contains('roman') || s.contains('byzantine') || s.contains('old_town') || s.contains('acropolis') || s.contains('halicarnassus') || s.contains('knights') || s.contains('walls') || s.contains('dalt_vila') || s.contains('antiphellos') || s.contains('arab_norman') || s.contains('baroque') || s.contains('catalom') || s.contains('mytilene') || s.contains('molyvos')) return Icons.account_balance_rounded;
+    if (s.contains('beach') || s.contains('coast') || s.contains('sea') || s.contains('shore') || s.contains('turquoise') || s.contains('plaj') || s.contains('elli') || s.contains('vatera') || s.contains('mondello') || s.contains('mogren') || s.contains('lungomare')) return Icons.beach_access_rounded;
+    if (s.contains('island') || s.contains('boat') || s.contains('sailing') || s.contains('marina') || s.contains('harbor') || s.contains('maritime') || s.contains('kekova') || s.contains('tongo') || s.contains('delos') || s.contains('cruise') || s.contains('yacht') || s.contains('meis') || s.contains('mandraki') || s.contains('poda')) return Icons.sailing_rounded;
+    if (s.contains('gastro') || s.contains('food') || s.contains('flavor') || s.contains('lezzet') || s.contains('goumet') || s.contains('gourmet') || s.contains('restaurant') || s.contains('cafe') || s.contains('coffee') || s.contains('bakery') || s.contains('granita') || s.contains('ouzo') || s.contains('ouzeri') || s.contains('mussel') || s.contains('pancake') || s.contains('stroopwafel') || s.contains('tavern') || s.contains('jadran') || s.contains('cheese') || s.contains('balkan_authentic')) return Icons.restaurant_rounded;
+    if (s.contains('night') || s.contains('club') || s.contains('party') || s.contains('nightlife') || s.contains('clubbing') || s.contains('disco') || s.contains('aperitivo') || s.contains('cocktail') || s.contains('lounge') || s.contains('terrazza')) return Icons.nightlife_rounded;
+    if (s.contains('nature') || s.contains('valley') || s.contains('forest') || s.contains('mountain') || s.contains('volcanic') || s.contains('springs') || s.contains('park') || s.contains('thermal') || s.contains('spa') || s.contains('saklikent') || s.contains('etna') || s.contains('blue_eye') || s.contains('sheqer')) return Icons.landscape_rounded;
+    if (s.contains('museum') || s.contains('art') || s.contains('gallery') || s.contains('culture') || s.contains('sculpture') || s.contains('mineral') || s.contains('history_exp') || s.contains('9d')) return Icons.museum_rounded;
+    if (s.contains('shopping') || s.contains('market') || s.contains('boutique') || s.contains('craft') || s.contains('pottery') || s.contains('handicraft') || s.contains('lava_art') || s.contains('bohemian')) return Icons.shopping_bag_rounded;
+    if (s.contains('sunset') || s.contains('romantic') || s.contains('viewpoint') || s.contains('panoram') || s.contains('manzara') || s.contains('windmill')) return Icons.wb_twilight_rounded;
+    if (s.contains('luxury') || s.contains('glam') || s.contains('chic') || s.contains('aristocrat') || s.contains('noble') || s.contains('resort') || s.contains('palace') || s.contains('yalikavak')) return Icons.diamond_rounded;
+    if (s.contains('spiritual') || s.contains('monastery') || s.contains('church') || s.contains('sacred') || s.contains('temple') || s.contains('chapel') || s.contains('mosque') || s.contains('mystic')) return Icons.temple_buddhist_rounded;
+    if (s.contains('family') || s.contains('aquarium') || s.contains('fun_park')) return Icons.family_restroom_rounded;
+    if (s.contains('adventure') || s.contains('active') || s.contains('diving') || s.contains('kayak') || s.contains('hike') || s.contains('paraglid') || s.contains('water_fun')) return Icons.hiking_rounded;
+    if (s.contains('hidden') || s.contains('secret') || s.contains('gems') || s.contains('local_life') || s.contains('village') || s.contains('corner') || s.contains('authentic') || s.contains('fishing')) return Icons.explore_rounded;
+    if (s.contains('walk') || s.contains('stroll') || s.contains('promenade') || s.contains('street') || s.contains('sokak')) return Icons.directions_walk_rounded;
+    return Icons.route_rounded;
+  }
+
+  // Route ID'den uygun rengi seç
+  static Color _colorForRouteId(String id) {
+    final s = id.toLowerCase();
+    if (s.contains('historical') || s.contains('heritage') || s.contains('ancient') || s.contains('castle') || s.contains('medieval') || s.contains('roman') || s.contains('byzantine') || s.contains('old_town') || s.contains('acropolis') || s.contains('halicarnassus') || s.contains('knights') || s.contains('walls') || s.contains('arab_norman') || s.contains('baroque')) return const Color(0xFF795548); // Brown
+    if (s.contains('beach') || s.contains('coast') || s.contains('sea') || s.contains('shore') || s.contains('turquoise') || s.contains('lungomare')) return const Color(0xFF0288D1); // Light Blue
+    if (s.contains('island') || s.contains('boat') || s.contains('sailing') || s.contains('marina') || s.contains('harbor') || s.contains('maritime') || s.contains('kekova') || s.contains('cruise') || s.contains('yacht')) return const Color(0xFF0097A7); // Cyan
+    if (s.contains('gastro') || s.contains('food') || s.contains('flavor') || s.contains('gourmet') || s.contains('restaurant') || s.contains('cafe') || s.contains('coffee') || s.contains('bakery') || s.contains('ouzo') || s.contains('ouzeri')) return const Color(0xFFFF9800); // Orange
+    if (s.contains('night') || s.contains('club') || s.contains('party') || s.contains('nightlife') || s.contains('clubbing') || s.contains('disco') || s.contains('aperitivo') || s.contains('cocktail')) return const Color(0xFF6A1B9A); // Deep Purple
+    if (s.contains('nature') || s.contains('valley') || s.contains('forest') || s.contains('mountain') || s.contains('volcanic') || s.contains('park') || s.contains('thermal') || s.contains('etna') || s.contains('blue_eye')) return const Color(0xFF388E3C); // Green
+    if (s.contains('museum') || s.contains('art') || s.contains('gallery') || s.contains('culture') || s.contains('sculpture')) return const Color(0xFF9C27B0); // Purple
+    if (s.contains('shopping') || s.contains('market') || s.contains('boutique') || s.contains('craft') || s.contains('pottery') || s.contains('bohemian')) return const Color(0xFFE91E63); // Pink
+    if (s.contains('sunset') || s.contains('romantic') || s.contains('viewpoint') || s.contains('panoram') || s.contains('windmill')) return const Color(0xFFFF5722); // Deep Orange
+    if (s.contains('luxury') || s.contains('glam') || s.contains('chic') || s.contains('aristocrat') || s.contains('noble') || s.contains('resort')) return const Color(0xFF37474F); // Blue Grey
+    if (s.contains('spiritual') || s.contains('monastery') || s.contains('sacred') || s.contains('temple') || s.contains('chapel') || s.contains('mystic')) return const Color(0xFF5C6BC0); // Indigo
+    if (s.contains('adventure') || s.contains('active') || s.contains('diving') || s.contains('kayak') || s.contains('hike') || s.contains('paraglid')) return const Color(0xFF00897B); // Teal
+    if (s.contains('hidden') || s.contains('secret') || s.contains('local_life') || s.contains('village') || s.contains('fishing')) return const Color(0xFF607D8B); // Blue Grey
+    return const Color(0xFF546E7A);
   }
 
   // Belirli bir anchor noktasına yakın olan highlight'ları filtrele
@@ -672,6 +878,45 @@ class CuratedRoutesService {
     }
   }
 
+  static String _normalizeRouteToken(String input) {
+    return input.toLowerCase().trim().replaceAll(RegExp(r'\s+'), ' ');
+  }
+
+  static void _addHighlightLookup(
+    Map<String, Highlight> highlightsMap,
+    String key,
+    Highlight value,
+  ) {
+    final normalized = _normalizeRouteToken(key);
+    highlightsMap[key] = value;
+    highlightsMap[normalized] = value;
+  }
+
+  static Highlight? _resolveHighlight(
+    String rawToken,
+    Map<String, Highlight> highlightsMap,
+  ) {
+    final exact = highlightsMap[rawToken];
+    if (exact != null) return exact;
+    return highlightsMap[_normalizeRouteToken(rawToken)];
+  }
+
+  static List<String> _resolveAndValidateRoutePlaces(
+    List<String> placeTokens,
+    Map<String, Highlight> highlightsMap,
+  ) {
+    final validatedNames = <String>[];
+    final seen = <String>{};
+    for (final token in placeTokens) {
+      final highlight = _resolveHighlight(token, highlightsMap);
+      if (highlight == null) continue;
+      if (seen.contains(highlight.name)) continue;
+      seen.add(highlight.name);
+      validatedNames.add(highlight.name);
+    }
+    return validatedNames;
+  }
+
   // ═══════════════════════════════════════════════════════════════════════════
   // İSTANBUL ROTALARI
   // ═══════════════════════════════════════════════════════════════════════════
@@ -704,7 +949,7 @@ class CuratedRoutesService {
         difficulty: isEnglish ? "Easy" : "Kolay",
         imageUrl: "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/routes/route_photo_88_4976cb0e6db1.jpg",
         tags: [isEnglish ? "Bosphorus" : "Boğaz", isEnglish ? "Palace" : "Saray", "Scenic"],
-        placeNames: ["Boğaz Turu", "Dolmabahçe Sarayı", "Ortaköy", "Bebek", "Galata Kulesi", "Rumeli Hisarı"],
+        placeNames: ["Boğaz Turu", "Galata Kulesi", "Dolmabahçe Sarayı", "Ortaköy", "Bebek", "Rumeli Hisarı"],
         interests: ["Tarih", "Fotoğraf", "Manzara"],
         accentColor: const Color(0xFF3498DB),
         icon: Icons.directions_boat,
@@ -720,7 +965,7 @@ class CuratedRoutesService {
         difficulty: isEnglish ? "Easy" : "Kolay",
         imageUrl: "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/routes/route_photo_99_f6cd10d3d204.jpg",
         tags: [isEnglish ? "Asian Side" : "Anadolu Yakası", "Lifestyle", isEnglish ? "Food" : "Yemek"],
-        placeNames: ["Kadıköy", "Moda", "Çiya Sofrası", "Akmar Pasajı", "Haydarpaşa Garı", "Tellalzade Sokak"],
+        placeNames: ["Haydarpaşa Garı", "Akmar Pasajı", "Tellalzade Sokak", "Çiya Sofrası", "Moda", "Kadıköy"],
         interests: ["Yemek", "Lokal", "Alışveriş"],
         accentColor: const Color(0xFF9B59B6),
         icon: Icons.storefront,
@@ -752,7 +997,7 @@ class CuratedRoutesService {
         difficulty: isEnglish ? "Easy" : "Kolay",
         imageUrl: "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/routes/route_photo_46_aed14e46560e.jpg",
         tags: [isEnglish ? "Art" : "Sanat", isEnglish ? "Modern" : "Modern", isEnglish ? "Gallery" : "Galeri"],
-        placeNames: ["İstanbul Modern", "Galata Kulesi", "Balat", "SALT Galata", "Pera Müzesi", "Tersane İstanbul"],
+        placeNames: ["İstanbul Modern", "SALT Galata", "Galata Kulesi", "Pera Müzesi", "Balat", "Tersane İstanbul"],
         interests: ["Sanat", "Kültür"],
         accentColor: const Color(0xFFE91E63),
         icon: Icons.palette,
@@ -1251,7 +1496,7 @@ class CuratedRoutesService {
         imageUrl: "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/routes/route_photo_13_dd658c7019cb.jpg",
         tags: ["Trevi", isEnglish ? "Baroque" : "Barok", isEnglish ? "Squares" : "Meydanlar"],
         // Updated names to match JSON
-        placeNames: ["Trevi Çeşmesi", "Pantheon", "Piazza Navona", "Spanish Steps (İspanyol Merdivenleri)", "Piazza del Popolo", "Piazza Venezia"],
+        placeNames: ["Piazza Venezia", "Trevi Çeşmesi", "Pantheon", "Piazza Navona", "Spanish Steps (İspanyol Merdivenleri)", "Piazza del Popolo"],
         interests: ["Tarih", "Fotoğraf", "Romantik"],
         accentColor: const Color(0xFF3498DB),
         icon: Icons.view_quilt,
@@ -5200,7 +5445,7 @@ class CuratedRoutesService {
         difficulty: isEnglish ? "Easy" : "Kolay",
         imageUrl: "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/marsilya/f.jpg",
         tags: ["Art", "Park", "Sculpture"],
-        placeNames: ["Vigeland Sculpture Park", "Frogner Park", "Holmenkollen Ski Museum & Tower", "Anne på landet (Cafe)", "The Emanuel Vigeland Museum"],
+        placeNames: ["Vigeland Sculpture Park", "Frogner Park", "Holmenkollen Ski Museum", "Anne på landet (Cafe)", "The Emanuel Vigeland Museum"],
         interests: ["Sanat", "Doğa", "Yemek", "Manzara"],
         accentColor: const Color(0xFF27AE60),
         icon: Icons.park,

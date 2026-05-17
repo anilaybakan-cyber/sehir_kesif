@@ -1,0 +1,1294 @@
+<!doctype html>
+<html lang="tr"><head><meta charset="utf-8"><title>Faz 2 — description doğrulama</title>
+<style>
+body{font:14px -apple-system,system-ui,sans-serif;margin:0;padding:24px;background:#f8fafc;color:#0f172a}
+h1{margin:0 0 8px}
+.summary{display:flex;gap:16px;margin-bottom:24px;flex-wrap:wrap}
+.stat{background:#fff;padding:14px 18px;border-radius:10px;border:1px solid #e2e8f0}
+.stat h3{margin:0 0 4px;font-size:11px;color:#64748b;text-transform:uppercase;letter-spacing:.05em}
+.stat .n{font-size:28px;font-weight:700}
+table{width:100%;border-collapse:collapse;background:#fff;border-radius:10px;overflow:hidden;border:1px solid #e2e8f0}
+th,td{padding:10px 12px;border-bottom:1px solid #f1f5f9;text-align:left;vertical-align:top;font-size:13px}
+th{background:#f1f5f9;font-weight:600;font-size:12px;text-transform:uppercase;color:#475569}
+.city{font-weight:600;white-space:nowrap;color:#334155}
+.name{font-weight:600;font-size:14px}
+.meta{color:#64748b;font-size:12px;margin:3px 0 6px}
+.cat{display:inline-block;background:#ede9fe;color:#6d28d9;padding:1px 8px;border-radius:4px;font-size:11px}
+.desc{font-size:12px;color:#475569;margin-top:4px;line-height:1.5}
+.verdict{display:inline-block;color:#fff;padding:2px 10px;border-radius:4px;font-size:11px;font-weight:700;text-transform:uppercase}
+.why{font-size:12px;color:#475569;margin-top:6px}
+a{color:#2563eb;text-decoration:none}
+</style></head><body>
+<h1>Description doğrulama raporu (Faz 2)</h1>
+<p style="color:#475569;margin:0 0 20px">Toplam 1194 mekan Gemini ile doğrulandı. Sadece sorunlu olanlar aşağıda.</p>
+<div class="summary">
+  <div class="stat"><h3>mismatch</h3><div class="n" style="color:#dc2626">88</div></div>
+  <div class="stat"><h3>wrong city</h3><div class="n" style="color:#d97706">17</div></div>
+  <div class="stat"><h3>uncertain</h3><div class="n" style="color:#6b7280">8</div></div>
+  <div class="stat"><h3>ok</h3><div class="n" style="color:#16a34a">1081</div></div>
+</div>
+<table><thead><tr><th>şehir</th><th>mekan</th><th>verdict</th><th></th></tr></thead>
+<tbody>
+
+<tr>
+  <td class="city">amsterdam</td>
+  <td>
+    <div class="name">De 9 Straatjes</div>
+    <div class="meta"><span class="cat">Kafe</span> · Centrum</div>
+    <div class="desc">Fırından yeni çıkan elmalı tart, Granny Smith elmalarının tarçın ve limon zest ile harmanlanmış ekşimsi-tatlılığını sunar. Üzerindeki Calvadoslu kreması, kadifemsi dokusuyla her çatalda hafif bir alkol notası bırakır.</div>
+  </td>
+  <td><span class="verdict" style="background:#dc2626">mismatch</span>
+      <div class="why">Açıklama, bir bölge olan De 9 Straatjes&#x27;i değil, çok spesifik bir elmalı tartı anlatıyor.</div>
+  </td>
+  <td><a href="https://www.google.com/maps/place/?q=place_id:ChIJE2ABp8MJxkcRLPM1iYnuoIA" target="_blank">maps</a></td>
+</tr>
+<tr>
+  <td class="city">amsterdam</td>
+  <td>
+    <div class="name">De Pijp Mahallesi</div>
+    <div class="meta"><span class="cat">Bar</span> · De Pijp</div>
+    <div class="desc">Eski Amsterdam ruhu, modern kokteyl sanatı ile bu barda harmanlanıyor; ahşap detaylar minimalist tasarımla, mahallelinin sohbeti DJ ritimleriyle iç içe geçiyor.</div>
+  </td>
+  <td><span class="verdict" style="background:#dc2626">mismatch</span>
+      <div class="why">Açıklama, De Pijp Mahallesi&#x27;nin tamamını değil, mahalledeki belirli bir barı ve atmosferini anlatıyor.</div>
+  </td>
+  <td><a href="https://www.google.com/maps/place/?q=place_id:ChIJk43ClosJxkcRulmUEo-atUU" target="_blank">maps</a></td>
+</tr>
+<tr>
+  <td class="city">amsterdam</td>
+  <td>
+    <div class="name">Morning Owl Coffee</div>
+    <div class="meta"><span class="cat">Deneyim</span> · Zeedijk 71</div>
+    <div class="desc">19. yüzyıldan kalma bu neogotik-neorenesans mimari şaheseri, Hollanda&#x27;nın ulusal sanat ve tarih müzesidir. Vermeer ve Rembrandt&#x27;ın paha biçilmez başyapıtları dahil binlerce obje barındırır.</div>
+  </td>
+  <td><span class="verdict" style="background:#dc2626">mismatch</span>
+      <div class="why">Açıklama, bir kahve dükkanı yerine Rijksmuseum&#x27;u anlatıyor, tamamen farklı bir mekan.</div>
+  </td>
+  <td><a href="https://www.google.com/maps/place/?q=place_id:ChIJH6PcQccJxkcRPToQybgjebw" target="_blank">maps</a></td>
+</tr>
+<tr>
+  <td class="city">amsterdam</td>
+  <td>
+    <div class="name">Tales &amp; Spirits</div>
+    <div class="meta"><span class="cat">Yeme-İçme</span> · Centrum</div>
+    <div class="desc">Kahvenin yoğun aroması havayı sararken, ahşap zemin üzerinde yankılanan ayak sesleri mekanın sıcaklığını artırıyor.</div>
+  </td>
+  <td><span class="verdict" style="background:#dc2626">mismatch</span>
+      <div class="why">Açıklama, Tales &amp; Spirits&#x27;in bilinen kokteyl bar kimliğiyle uyuşmuyor, çok genel bir kafe tanımı.</div>
+  </td>
+  <td><a href="https://www.google.com/maps/place/?q=place_id:ChIJryiJR8YJxkcRiuKFuaNjjsw" target="_blank">maps</a></td>
+</tr>
+<tr>
+  <td class="city">amsterdam</td>
+  <td>
+    <div class="name">The Wine Spot</div>
+    <div class="meta"><span class="cat">Deneyim</span> · Admiraal de Ruijterweg 43</div>
+    <div class="desc">Pierre Cuypers&#x27;in neo-Gotik ve neo-Rönesans şaheseri Rijksmuseum, Hollanda&#x27;nın sanat ve tarihine adanmış ulusal müzedir. Rembrandt&#x27;ın Gece Devriyesi gibi Altın Çağ eserlerini barındırır.</div>
+  </td>
+  <td><span class="verdict" style="background:#dc2626">mismatch</span>
+      <div class="why">Açıklama, The Wine Spot yerine Rijksmuseum&#x27;u anlatıyor, tamamen farklı bir mekan.</div>
+  </td>
+  <td><a href="https://www.google.com/maps/place/?q=place_id:ChIJT0LdfnTixUcRRthNPj1GACM" target="_blank">maps</a></td>
+</tr>
+<tr>
+  <td class="city">amsterdam</td>
+  <td>
+    <div class="name">Vindict Wine</div>
+    <div class="meta"><span class="cat">Deneyim</span> · Elandsgracht 113</div>
+    <div class="desc">Amsterdam&#x27;ın Altın Çağı&#x27;nın muhteşem Kraliyet Sarayı, Jacob van Campen&#x27;in Klasik belediye binası olarak tasarlanmış başyapıtıdır. Zengin iç mekanları ve heykelleriyle Hollanda ihtişamını sergiler.</div>
+  </td>
+  <td><span class="verdict" style="background:#dc2626">mismatch</span>
+      <div class="why">Açıklama, Vindict Wine yerine Amsterdam Kraliyet Sarayı&#x27;nı anlatıyor, tamamen farklı bir mekan.</div>
+  </td>
+  <td><a href="https://www.google.com/maps/place/?q=place_id:ChIJox4-C90JxkcRyEmem15-hYg" target="_blank">maps</a></td>
+</tr>
+<tr>
+  <td class="city">amsterdam</td>
+  <td>
+    <div class="name">Newmarkt</div>
+    <div class="meta"><span class="cat">Tarihi</span> · Center</div>
+    <div class="desc">Amsterdam&#x27;ın kalbinde, yerel tatları sunan Yeni Pazar&#x27;da baharatlı köfte ve tandır ekmeği mükemmel uyum sağlıyor.</div>
+  </td>
+  <td><span class="verdict" style="background:#dc2626">mismatch</span>
+      <div class="why">Nieuwmarkt, baharatlı köfte ve tandır ekmeği ile değil, daha çok Hollanda pazarı atmosferiyle bilinir.</div>
+  </td>
+  <td><a href="https://www.google.com/maps/place/?q=place_id:ChIJ-WfAObkJxkcRoZ7VxKNobDY" target="_blank">maps</a></td>
+</tr>
+<tr>
+  <td class="city">antalya</td>
+  <td>
+    <div class="name">Alacakaranlık (Seraser)</div>
+    <div class="meta"><span class="cat">Yeme-İçme</span> · Kaleiçi</div>
+    <div class="desc">Tüm Antalya burada buluşuyor; gençler, sanatçılar ve yemeğe tutkunlar, Alacakaranlık&#x27;ta sokak müzisyenleri eşliğinde hayat buluyor.</div>
+  </td>
+  <td><span class="verdict" style="background:#dc2626">mismatch</span>
+      <div class="why">Seraser Fine Dining, açıklamadaki gibi sokak müzisyenleri ve genel buluşma noktası atmosferine sahip değil.</div>
+  </td>
+  <td><a href="https://www.google.com/maps/place/?q=place_id:ChIJw_laGgSQwxQRVnoVbarZ-KI" target="_blank">maps</a></td>
+</tr>
+<tr>
+  <td class="city">antalya</td>
+  <td>
+    <div class="name">Alanya Teleferik</div>
+    <div class="meta"><span class="cat">Deneyim</span> · Alanya</div>
+    <div class="desc">Selçuklu Sultanı Alaaddin Keykubad&#x27;ın 13. yüzyıl eseri. 6.5 km surları, Kızıl Kule, Tersanesi ve Bizans kalıntılarıyla Akdeniz&#x27;e hakim, ihtişamlı bir tarihi kale kompleksidir.</div>
+  </td>
+  <td><span class="verdict" style="background:#dc2626">mismatch</span>
+      <div class="why">Açıklama Alanya Kalesi&#x27;ni anlatıyor, teleferiği değil. Teleferik kaleye ulaşım aracıdır.</div>
+  </td>
+  <td><a href="https://www.google.com/maps/place/?q=place_id:ChIJCcOIh5yi3BQRrZxEzOPmpFk" target="_blank">maps</a></td>
+</tr>
+<tr>
+  <td class="city">antalya</td>
+  <td>
+    <div class="name">Cam Piramit Kongre Merkezi</div>
+    <div class="meta"><span class="cat">Tarihi</span> · </div>
+    <div class="desc">Mimar M. Rifat Çini&#x27;nin 1997&#x27;deki eseri Cam Piramit, Antalya&#x27;nın çağdaş mimari simgesidir. Uluslararası kongre ve sergilere ev sahipliği yaparak şehrin kültürel hafızasına katkı sunar.</div>
+  </td>
+  <td><span class="verdict" style="background:#dc2626">mismatch</span>
+      <div class="why">Mimarın adı yanlış belirtilmiş, doğru mimar İlhan Selçuk&#x27;tur.</div>
+  </td>
+  <td><a href="https://www.google.com/maps/place/?q=place_id:ChIJ16M0tsqRwxQReCBhPPZnPMQ" target="_blank">maps</a></td>
+</tr>
+<tr>
+  <td class="city">antalya</td>
+  <td>
+    <div class="name">Club Ally</div>
+    <div class="meta"><span class="cat">Deneyim</span> · </div>
+    <div class="desc">MS 130&#x27;da Roma İmparatoru Hadrianus&#x27;un ziyaretini anan, üç kemerli anıtsal beyaz mermer kapı. Julia Sancta kulesi ve Selçuklu rekonstrüksiyonlarıyla çevrili bu Roma zafer takı, antik mimariyi sergiler.</div>
+  </td>
+  <td><span class="verdict" style="background:#dc2626">mismatch</span>
+      <div class="why">Açıklama bir gece kulübünü değil, Hadrian Kapısı&#x27;nı anlatmaktadır.</div>
+  </td>
+  <td><a href="https://www.google.com/maps/place/?q=place_id:club-ally" target="_blank">maps</a></td>
+</tr>
+<tr>
+  <td class="city">antalya</td>
+  <td>
+    <div class="name">Güver Uçurumu</div>
+    <div class="meta"><span class="cat">Manzara</span> · Döşemealtı</div>
+    <div class="desc">Güver Uçurumu, tarih ve doğanın kesişiminde sakin bir kaçış sunarken, denizden yükselen kayalıkların dramatik görüntüsü modern yaşamın karmaşasıyla kesişiyor.</div>
+  </td>
+  <td><span class="verdict" style="background:#dc2626">mismatch</span>
+      <div class="why">Açıklama, Güver Uçurumu&#x27;nun denizden yükselen kayalıklar olduğunu belirtiyor, ancak burası iç kesimde bir kanyondur.</div>
+  </td>
+  <td><a href="https://www.google.com/maps/place/?q=place_id:ChIJVyOj_Q6NwxQRoezYSoRIkX0" target="_blank">maps</a></td>
+</tr>
+<tr>
+  <td class="city">antalya</td>
+  <td>
+    <div class="name">Lara Beach Oteller Bölgesi</div>
+    <div class="meta"><span class="cat">Plaj</span> · Lara</div>
+    <div class="desc">Denizden gelen hafif tuzlu esinti, ferahlatıcı çam kokusuyla birleşiyor; güneşin doğuşunda kayalıkların üzerinde yürüdüğünüzde ayağınızın altındaki kırılgan anlar yankılanıyor.</div>
+  </td>
+  <td><span class="verdict" style="background:#dc2626">mismatch</span>
+      <div class="why">Açıklama, Lara Plajı&#x27;nın kumlu yapısından ziyade kayalık bir sahil şeridini ve çam kokusunu anlatıyor.</div>
+  </td>
+  <td><a href="https://www.google.com/maps/place/?q=place_id:ChIJTZ2UvZOawxQRaIK1cToD8G8" target="_blank">maps</a></td>
+</tr>
+<tr>
+  <td class="city">antalya</td>
+  <td>
+    <div class="name">Lara Plajı</div>
+    <div class="meta"><span class="cat">Plaj</span> · Lara</div>
+    <div class="desc">Mavi bayraklı Lara Plajı, antik dönemden beri gelen deniz ticaretinin önemli bir merkeziydi ve şimdi berrak sularıyla herkesin gözdesi.</div>
+  </td>
+  <td><span class="verdict" style="background:#dc2626">mismatch</span>
+      <div class="why">Lara Plajı antik dönemde önemli bir ticaret merkezi değildi, bu bilgi yanlıştır.</div>
+  </td>
+  <td><a href="https://www.google.com/maps/place/?q=place_id:ChIJJ2KfTMicwxQRBCsuFRK2MCU" target="_blank">maps</a></td>
+</tr>
+<tr>
+  <td class="city">antalya</td>
+  <td>
+    <div class="name">Lara Tantuni</div>
+    <div class="meta"><span class="cat">Yeme-İçme</span> · Lara</div>
+    <div class="desc">Lara Tantuni, Antalya&#x27;nın kalabalığından uzak, göz alıcı mavi ve yeşil tonlarıyla dolu, lezzetli tantuni kokularının etrafı sardığı bir mekan.</div>
+  </td>
+  <td><span class="verdict" style="background:#dc2626">mismatch</span>
+      <div class="why">Lara, Antalya&#x27;nın kalabalık bir bölgesidir, &quot;kalabalığından uzak&quot; ifadesi doğru değil.</div>
+  </td>
+  <td><a href="https://www.google.com/maps/place/?q=place_id:ChIJQ3CI3HabwxQRa_YKtn7bz_4" target="_blank">maps</a></td>
+</tr>
+<tr>
+  <td class="city">antalya</td>
+  <td>
+    <div class="name">Likya Yolu Yürüyüşü</div>
+    <div class="meta"><span class="cat">Deneyim</span> · Kaş</div>
+    <div class="desc">Antik Likya medeniyetinin eşsiz kaya mezarları, görkemli Roma tiyatroları ve agoralarıyla süslü bu kadim kent, mimari dehasını ve zengin tarihini gözler önüne serer.</div>
+  </td>
+  <td><span class="verdict" style="background:#dc2626">mismatch</span>
+      <div class="why">Açıklama Likya Yolu&#x27;nu değil, yol üzerindeki antik kentlerin genel özelliklerini tek bir kent gibi anlatıyor.</div>
+  </td>
+  <td><a href="https://www.google.com/maps/place/?q=place_id:ChIJBf6vYZ64wxQRg0fVBj17_cs" target="_blank">maps</a></td>
+</tr>
+<tr>
+  <td class="city">antalya</td>
+  <td>
+    <div class="name">Scuba Diving Kaş</div>
+    <div class="meta"><span class="cat">Deneyim</span> · Kaş</div>
+    <div class="desc">MÖ 1. yüzyıla tarihlenen Kaş Antik Tiyatrosu, Antiphellos&#x27;un sosyal kalbiydi. Akdeniz&#x27;e nazır, yamaca oyulmuş Helenistik mimarinin bu görkemli örneği, antik dramalara tanıklık etti.</div>
+  </td>
+  <td><span class="verdict" style="background:#dc2626">mismatch</span>
+      <div class="why">Açıklama, &quot;Scuba Diving&quot; aktivitesi yerine Kaş Antik Tiyatrosu&#x27;nu anlatıyor, konuyla alakasız.</div>
+  </td>
+  <td><a href="https://www.google.com/maps/place/?q=place_id:ChIJd7V26FbawRQR2JoyANe5uP0" target="_blank">maps</a></td>
+</tr>
+<tr>
+  <td class="city">antalya</td>
+  <td>
+    <div class="name">Tekne Turu Antalya</div>
+    <div class="meta"><span class="cat">Deneyim</span> · Kaleiçi</div>
+    <div class="desc">Antik Pamfilya&#x27;nın en iyi korunmuş Roma zafer takı olan Üçkapılar, MS 130&#x27;da İmparator Hadrianus onuruna yapılmıştır. Korint sütunları ve mermer bezemeleriyle Antalya&#x27;nın tarihi giriş kapısıdır.</div>
+  </td>
+  <td><span class="verdict" style="background:#dc2626">mismatch</span>
+      <div class="why">Açıklama, &quot;Tekne Turu Antalya&quot; yerine Hadrian Kapısı&#x27;nı (Üçkapılar) anlatıyor, tamamen farklı bir varlık.</div>
+  </td>
+  <td><a href="https://www.google.com/maps/place/?q=place_id:ChIJ06tixKuFwxQRhSGHVyLau6E" target="_blank">maps</a></td>
+</tr>
+<tr>
+  <td class="city">antalya</td>
+  <td>
+    <div class="name">İmaret Camii</div>
+    <div class="meta"><span class="cat">Tarihi</span> · </div>
+    <div class="desc">Antalya&#x27;nın tarihi kalbinde yer alan İmaret Camii, 13. yüzyıl Selçuklu Karatay Medresesi&#x27;nin bir parçasıdır. Özgün mimarisiyle dikkat çeken bu yapı, Osmanlı döneminde camiye dönüştürülmüştür.</div>
+  </td>
+  <td><span class="verdict" style="background:#dc2626">mismatch</span>
+      <div class="why">Açıklama, Konya&#x27;daki Karatay Medresesi&#x27;ni anlatıyor, Antalya&#x27;daki İmaret Camii ile ilgili değil.</div>
+  </td>
+  <td><a href="https://www.google.com/maps/place/?q=place_id:ChIJD22Rd7iRwxQR8xFSFcqN7tM" target="_blank">maps</a></td>
+</tr>
+<tr>
+  <td class="city">antalya</td>
+  <td>
+    <div class="name">Şarampol Caddesi</div>
+    <div class="meta"><span class="cat">Alışveriş</span> · </div>
+    <div class="desc">Şarampol Caddesi, antrepo mimarisi ve sıradışı butiklerin hâkim olduğu bir sokak; yerel tasarımcıların eseri olan eşyalara ulaşmanın keyfi burada saklı.</div>
+  </td>
+  <td><span class="verdict" style="background:#dc2626">mismatch</span>
+      <div class="why">Açıklama, Şarampol Caddesi&#x27;nin bilinen özelliklerinden (antrepo mimarisi, sıradışı butikler) farklı bir atmosferi anlatıyor.</div>
+  </td>
+  <td><a href="https://www.google.com/maps/place/?q=place_id:ChIJsUrOP-GPwxQRGZaycKBLo0k" target="_blank">maps</a></td>
+</tr>
+<tr>
+  <td class="city">atina</td>
+  <td>
+    <div class="name">A for Athens</div>
+    <div class="meta"><span class="cat">Deneyim</span> · Monastiraki</div>
+    <div class="desc">Antik Atina&#x27;nın altın çağı şaheseri Akropolis, Parthenon ve Erechtheion gibi Dor ve İyon mimarisinin zirvesini sergiler. Demokrasi ve sanatın beşiği, eşsiz eserlere ev sahipliği yapar.</div>
+  </td>
+  <td><span class="verdict" style="background:#dc2626">mismatch</span>
+      <div class="why">Açıklama, &#x27;A for Athens&#x27; otelini değil, doğrudan Akropolis&#x27;i ve antik yapılarını anlatıyor.</div>
+  </td>
+  <td><a href="https://www.google.com/maps/place/?q=place_id:ChIJsVK3aj29oRQRbistQOVZMzg" target="_blank">maps</a></td>
+</tr>
+<tr>
+  <td class="city">atina</td>
+  <td>
+    <div class="name">KAYA</div>
+    <div class="meta"><span class="cat">Deneyim</span> · Voulis 7</div>
+    <div class="desc">Antik Atina&#x27;nın zirvesindeki Akropolis, Perikles döneminde inşa edilen Parthenon, Erechtheion ve Propylaea gibi mimari harikalarıyla, demokrasi ve Batı medeniyetinin görkemli bir sembolüdür.</div>
+  </td>
+  <td><span class="verdict" style="background:#dc2626">mismatch</span>
+      <div class="why">Açıklama &#x27;KAYA&#x27; adlı mekanı değil, Atina Akropolisi&#x27;ni anlatıyor.</div>
+  </td>
+  <td><a href="https://www.google.com/maps/place/?q=place_id:ChIJ5yf1HDy9oRQRdk7WQDbtaFY" target="_blank">maps</a></td>
+</tr>
+<tr>
+  <td class="city">atina</td>
+  <td>
+    <div class="name">Koulouri Bake House</div>
+    <div class="meta"><span class="cat">Kafe</span> · Veikou 74</div>
+    <div class="desc">Koulouri Fırınında, çıtır çıtır susam kaplı simitlerle birlikte sıcak, taze demlenmiş Türk çayı eşliğinde güne enerjik başlayabilirsiniz.</div>
+  </td>
+  <td><span class="verdict" style="background:#dc2626">mismatch</span>
+      <div class="why">Açıklama, Yunan koulouri fırını yerine Türk çayı ve simit odaklı bir mekanı anlatıyor.</div>
+  </td>
+  <td><a href="https://www.google.com/maps/place/?q=place_id:ChIJdVrnoNe9oRQRdrflOd5kIu8" target="_blank">maps</a></td>
+</tr>
+<tr>
+  <td class="city">atina</td>
+  <td>
+    <div class="name">Loser Bar</div>
+    <div class="meta"><span class="cat">Bar</span> · Voulis 45-47</div>
+    <div class="desc">Atina&#x27;nın tarihi sokaklarında yer alan Loser Bar, yerel içkileriyle Nazım Hikmet gibi sanatçıların ilham kaynağı olmuştur.</div>
+  </td>
+  <td><span class="verdict" style="background:#dc2626">mismatch</span>
+      <div class="why">Nazım Hikmet&#x27;in Atina&#x27;daki bu bar için ilham kaynağı olması bilgisi yanlış ve alakasız.</div>
+  </td>
+  <td><a href="https://www.google.com/maps/place/?q=place_id:ChIJifhRwD29oRQRnKjY3wAgPgI" target="_blank">maps</a></td>
+</tr>
+<tr>
+  <td class="city">atina</td>
+  <td>
+    <div class="name">Loukoumadaki Athens</div>
+    <div class="meta"><span class="cat">Deneyim</span> · Miaouli 18</div>
+    <div class="desc">Atina&#x27;nın siluetine hakim, M.Ö. 5. yüzyılda inşa edilen Akropolis, Parthenon, Erechtheion gibi eşsiz tapınaklarıyla antik Yunan mimarisinin ve demokrasisinin zirvesini temsil eder.</div>
+  </td>
+  <td><span class="verdict" style="background:#dc2626">mismatch</span>
+      <div class="why">Açıklama &#x27;Loukoumadaki Athens&#x27; adlı mekanı değil, Atina Akropolisi&#x27;ni anlatıyor.</div>
+  </td>
+  <td><a href="https://www.google.com/maps/place/?q=place_id:ChIJ3eFruly9oRQREdzY6AbEnmw" target="_blank">maps</a></td>
+</tr>
+<tr>
+  <td class="city">atina</td>
+  <td>
+    <div class="name">Red Lion Pub</div>
+    <div class="meta"><span class="cat">Bar</span> · 116 34</div>
+    <div class="desc">Atina&#x27;nın Red Lion Pub&#x27;ında, aromatik otlarla marine edilmiş yerel etler, derin lezzetler sunuyor.</div>
+  </td>
+  <td><span class="verdict" style="background:#dc2626">mismatch</span>
+      <div class="why">Açıklama, bir pubdan çok et yemekleri sunan bir restorana benziyor; pub konseptiyle uyuşmuyor.</div>
+  </td>
+  <td><a href="https://www.google.com/maps/place/?q=place_id:ChIJ_8d7mES9oRQRDdCP7uZTjz4" target="_blank">maps</a></td>
+</tr>
+<tr>
+  <td class="city">atina</td>
+  <td>
+    <div class="name">Seymour Hidden Place</div>
+    <div class="meta"><span class="cat">Deneyim</span> · Koukaki</div>
+    <div class="desc">Atina&#x27;nın kalbinde gizli bu antik kalıntı, MÖ 5. yüzyıl Demeter Tapınağı&#x27;nın büyüleyici mozaikleri ve olağanüstü freskleriyle bezeli, Hellenistik dönemin zarif mimarisini sergileyen eşsiz bir deneyim sunar.</div>
+  </td>
+  <td><span class="verdict" style="background:#dc2626">mismatch</span>
+      <div class="why">Açıklama, antik bir tapınak ve kalıntılardan bahsediyor; bu isimdeki modern bir bar/kafe ile tamamen alakasız.</div>
+  </td>
+  <td><a href="https://www.google.com/maps/place/?q=place_id:ChIJC4KLpD29oRQR7NaZJeLcuzE" target="_blank">maps</a></td>
+</tr>
+<tr>
+  <td class="city">atina</td>
+  <td>
+    <div class="name">Wine O&#x27;Clock</div>
+    <div class="meta"><span class="cat">Bar</span> · Lempesi 10</div>
+    <div class="desc">Atina&#x27;nın gürültüsünde, kahve kokusu ve hafif rüzgarın serinliğiyle huzur bulan bir mekan burası.</div>
+  </td>
+  <td><span class="verdict" style="background:#dc2626">mismatch</span>
+      <div class="why">Açıklama, bir şarap barından çok bir kahve dükkanını anlatıyor, isimle çelişiyor.</div>
+  </td>
+  <td><a href="https://www.google.com/maps/place/?q=place_id:ChIJYTQo0BC9oRQRHwStQ807SBQ" target="_blank">maps</a></td>
+</tr>
+<tr>
+  <td class="city">atina</td>
+  <td>
+    <div class="name">ΚΑΝΑΚΗΣ (Ice cream - Pastry - Catering)</div>
+    <div class="meta"><span class="cat">Deneyim</span> · Ifestou 37</div>
+    <div class="desc">Antik Yunan&#x27;ın zirvesi Akropolis; Parthenon, Erechtheion, Propylaea gibi mimari şaheserlere ev sahipliği yapar. Tanrıça Athena&#x27;ya adanmış bu kutsal kompleks, Batı uygarlığının ve demokrasinin beşiğidir.</div>
+  </td>
+  <td><span class="verdict" style="background:#dc2626">mismatch</span>
+      <div class="why">Açıklama, bir dondurmacı/pastane yerine Atina Akropolisi&#x27;ni anlatıyor, tamamen yanlış.</div>
+  </td>
+  <td><a href="https://www.google.com/maps/place/?q=place_id:ChIJS4anGIu9oRQRDvxZcAYlpgw" target="_blank">maps</a></td>
+</tr>
+<tr>
+  <td class="city">bangkok</td>
+  <td>
+    <div class="name">Indian Express</div>
+    <div class="meta"><span class="cat">Yeme-İçme</span> · 70 55-56 Soi Phetchaburi 31</div>
+    <div class="desc">Kahvenin yoğun aromasının havayı sardığı, ahşap masalar arasında gizli sohbetlerin yapıldığı bir mekan.</div>
+  </td>
+  <td><span class="verdict" style="background:#dc2626">mismatch</span>
+      <div class="why">Açıklama genel bir kafe ortamını anlatıyor, Hint restoranı ismine uymuyor.</div>
+  </td>
+  <td><a href="https://www.google.com/maps/place/?q=place_id:ChIJZx_rgQ2f4jARkCOc1rNDSOs" target="_blank">maps</a></td>
+</tr>
+<tr>
+  <td class="city">bangkok</td>
+  <td>
+    <div class="name">Jim Thompson Art Center</div>
+    <div class="meta"><span class="cat">Deneyim</span> · Pathum Wan</div>
+    <div class="desc">Jim Thompson&#x27;ın geleneksel Tay mimarisine sahip ikonik ev müzesi; Güneydoğu Asya sanatı, antikalar ve ipek koleksiyonunu barındırıyor. Tay kültürel mirasını yücelten eşsiz bir sanat merkezidir.</div>
+  </td>
+  <td><span class="verdict" style="background:#dc2626">mismatch</span>
+      <div class="why">Açıklama Jim Thompson Evi&#x27;ni anlatıyor, çağdaş sanat merkezini değil.</div>
+  </td>
+  <td><a href="https://www.google.com/maps/place/?q=place_id:ChIJM8nhAoqZ4jARZ7moh1JregE" target="_blank">maps</a></td>
+</tr>
+<tr>
+  <td class="city">bangkok</td>
+  <td>
+    <div class="name">Jim&#x27;s Terrace at One Bangkok</div>
+    <div class="meta"><span class="cat">Yeme-İçme</span> · Located: Inside Jim Thompson store</div>
+    <div class="desc">Bangkok&#x27;ın tarihi dokusunu yansıtan Jim&#x27;s Terrace, muhteşem şehir manzarası sunuyor ve rahat bir atmosferde yerel lezzetler sunuyor.</div>
+  </td>
+  <td><span class="verdict" style="background:#dc2626">mismatch</span>
+      <div class="why">One Bangkok&#x27;taki bir mekan için &quot;tarihi doku&quot; ifadesi çelişkili, modern bir yer olması beklenir.</div>
+  </td>
+  <td><a href="https://www.google.com/maps/place/?q=place_id:ChIJP_Meqbef4jARU0t-ClQUgng" target="_blank">maps</a></td>
+</tr>
+<tr>
+  <td class="city">bangkok</td>
+  <td>
+    <div class="name">Keller Bangkok</div>
+    <div class="meta"><span class="cat">Yeme-İçme</span> · 1749 Chan Kao Rd</div>
+    <div class="desc">Göz alıcı sokak yemekleriyle dolu olan Keller Bangkok, Tay mutfağının geleneksel ve modern unsurlarını özgün bir şekilde harmanlayarak sunuyor.</div>
+  </td>
+  <td><span class="verdict" style="background:#dc2626">mismatch</span>
+      <div class="why">Keller Bangkok lüks bir restorandır, sokak yemekleriyle dolu bir yer değildir.</div>
+  </td>
+  <td><a href="https://www.google.com/maps/place/?q=place_id:ChIJj_ihqcKf4jARwbUdO2qTC2w" target="_blank">maps</a></td>
+</tr>
+<tr>
+  <td class="city">bangkok</td>
+  <td>
+    <div class="name">Luscious Creamery One Bangkok</div>
+    <div class="meta"><span class="cat">Deneyim</span> · One Bangkok Entrance 3</div>
+    <div class="desc">One Bangkok, Tayland&#x27;ın en büyük entegre destinasyonudur. Modern mimarinin zirvesi olarak, akıllı, sürdürülebilir bir &#x27;şehir içi şehir&#x27; vizyonunu temsil ediyor.</div>
+  </td>
+  <td><span class="verdict" style="background:#dc2626">mismatch</span>
+      <div class="why">Açıklama Luscious Creamery&#x27;yi değil, One Bangkok kompleksinin genel tanımını yapıyor.</div>
+  </td>
+  <td><a href="https://www.google.com/maps/place/?q=place_id:ChIJHwAwHcCf4jARlNGU743R3nI" target="_blank">maps</a></td>
+</tr>
+<tr>
+  <td class="city">bangkok</td>
+  <td>
+    <div class="name">Luscious Creamery Siam Paragon</div>
+    <div class="meta"><span class="cat">Deneyim</span> · ชั้น 4 Siam Paragon</div>
+    <div class="desc">Bangkok&#x27;un çağdaş mimari şaheseri Siam Paragon, lüks mağazalar, SEA LIFE akvaryumu, sinemalar ve gurme restoranlar sunar. Şehrin en prestijli alışveriş ve yaşam deneyimini temsil eder.</div>
+  </td>
+  <td><span class="verdict" style="background:#dc2626">mismatch</span>
+      <div class="why">Açıklama Luscious Creamery&#x27;yi değil, Siam Paragon alışveriş merkezinin genel tanımını yapıyor.</div>
+  </td>
+  <td><a href="https://www.google.com/maps/place/?q=place_id:ChIJOTbgFaCf4jAR7kIzCLDVcN8" target="_blank">maps</a></td>
+</tr>
+<tr>
+  <td class="city">bangkok</td>
+  <td>
+    <div class="name">National Museum Bangkok</div>
+    <div class="meta"><span class="cat">Müze</span> · Old City</div>
+    <div class="desc">Bangkok kentinde konforu yerel estetikle birleştiren National Museum Bangkok, kentin sosyal ve kültürel dünyasına yüksek kaliteli bir dokunuş katan en samimi ve rotalardan biridir.</div>
+  </td>
+  <td><span class="verdict" style="background:#dc2626">mismatch</span>
+      <div class="why">Açıklama, bir müzeden çok bir konaklama veya butik deneyimini anlatıyor, müze içeriğiyle uyumsuz.</div>
+  </td>
+  <td><a href="https://www.google.com/maps/place/?q=place_id:ChIJbXZLwgyZ4jARO_0Exd6l_lU" target="_blank">maps</a></td>
+</tr>
+<tr>
+  <td class="city">bangkok</td>
+  <td>
+    <div class="name">Safari World</div>
+    <div class="meta"><span class="cat">Park</span> · Khlong Sam Wa</div>
+    <div class="desc">Safari World, özgün mimarisiyle doğanın kalbinde kaynaşan bir fantastik dünya sunuyor; zarif yapılar, canlı renkler ve doğal manzaralarla dolup taşıyor.</div>
+  </td>
+  <td><span class="verdict" style="background:#dc2626">mismatch</span>
+      <div class="why">Safari parkı için &#x27;özgün mimari&#x27; vurgusu yanlış; hayvanlar ve doğal yaşam ön plandadır.</div>
+  </td>
+  <td><a href="https://www.google.com/maps/place/?q=place_id:ChIJc50ygA1jHTERbHsyFbmUFV0" target="_blank">maps</a></td>
+</tr>
+<tr>
+  <td class="city">bangkok</td>
+  <td>
+    <div class="name">Somtum Der (Michelin Bib Gourmand)</div>
+    <div class="meta"><span class="cat">Yeme-İçme</span> · Silom</div>
+    <div class="desc">Sıcak tik ağacı paneller, serin cilalı beton zeminlere karşı davetkar bir kontrast oluşturur. El örgüsü amerikan servisleri, yumuşak ambiyans ışığını yansıtan ince altın detaylara sahiptir.</div>
+  </td>
+  <td><span class="verdict" style="background:#dc2626">mismatch</span>
+      <div class="why">Restoranın iç mekanını tanımlıyor ancak Michelin Bib Gourmand olan Somtum Der&#x27;in mutfağına değinmiyor.</div>
+  </td>
+  <td><a href="https://www.google.com/maps/place/?q=place_id:ChIJ6fUwuS6f4jARYytUkc2MT3s" target="_blank">maps</a></td>
+</tr>
+<tr>
+  <td class="city">bangkok</td>
+  <td>
+    <div class="name">Wattana Panich (Beef Broth)</div>
+    <div class="meta"><span class="cat">Yeme-İçme</span> · Ekkamai</div>
+    <div class="desc">Wattana Panich, Bangkok&#x27;un kalbinde, sıcak ve yoğun sebze çorbasıyla sarhoş edici bir atmosfer sunuyor.</div>
+  </td>
+  <td><span class="verdict" style="background:#dc2626">mismatch</span>
+      <div class="why">Mekan sığır et suyu ile ünlü iken, açıklama sebze çorbasından bahsediyor.</div>
+  </td>
+  <td><a href="https://www.google.com/maps/place/?q=place_id:ChIJ-eIsmEme4jARJj2YJYuFOAA" target="_blank">maps</a></td>
+</tr>
+<tr>
+  <td class="city">bangkok</td>
+  <td>
+    <div class="name">Yoba’s Specialty Greek Yogurt (Siam Paragon)</div>
+    <div class="meta"><span class="cat">Deneyim</span> · Siam Paragon — ชั้น2</div>
+    <div class="desc">1782&#x27;de Kral Rama I tarafından inşa edilen Büyük Saray, Tayland&#x27;ın ihtişamlı kalbidir. Zümrüt Buddha Tapınağı ve muhteşem kraliyet konutlarıyla dolu bu karmaşık yapı, görkemli Tay mimarisinin zirvesidir.</div>
+  </td>
+  <td><span class="verdict" style="background:#dc2626">mismatch</span>
+      <div class="why">Açıklama, bir Yunan yoğurtçusu yerine Bangkok&#x27;taki Büyük Saray&#x27;ı anlatıyor.</div>
+  </td>
+  <td><a href="https://www.google.com/maps/place/?q=place_id:ChIJI9wPDACf4jAR3ccmf4-I56I" target="_blank">maps</a></td>
+</tr>
+<tr>
+  <td class="city">bangkok</td>
+  <td>
+    <div class="name">ใจใจ ถนนทรงวาด Local Thai Food</div>
+    <div class="meta"><span class="cat">Yeme-İçme</span> · 1096</div>
+    <div class="desc">Sıkı kıvrımlı baharatlar ve taze otlarla harmanlanmış, sulu domates sosu eşliğindeki ferahlatıcı Pad Thai, yerel lezzetlerin şehrine özgü bir yorumudur.</div>
+  </td>
+  <td><span class="verdict" style="background:#dc2626">mismatch</span>
+      <div class="why">Açıklama, geleneksel Pad Thai&#x27;de bulunmayan domates sosundan bahsederek yemeği yanlış tanımlıyor.</div>
+  </td>
+  <td><a href="https://www.google.com/maps/place/?q=place_id:ChIJZyCLfU2Z4jARNB8q363AFJw" target="_blank">maps</a></td>
+</tr>
+<tr>
+  <td class="city">barcelona</td>
+  <td>
+    <div class="name">Bike Tour Barcelona</div>
+    <div class="meta"><span class="cat">Deneyim</span> · Merkez</div>
+    <div class="desc">Lluís Domènech i Montaner&#x27;in modernist başyapıtı, vitraylar, mozaikler ve heykellerle süslü bu ikonik konser salonu, Katalan müziğinin kalbidir. Bir UNESCO Dünya Mirasıdır.</div>
+  </td>
+  <td><span class="verdict" style="background:#dc2626">mismatch</span>
+      <div class="why">Açıklama, bir bisiklet turunu değil, Palau de la Música Catalana&#x27;yı anlatıyor.</div>
+  </td>
+  <td><a href="https://www.google.com/maps/place/?q=place_id:ChIJeXk4u_iipBIREIRW1Vosbdk" target="_blank">maps</a></td>
+</tr>
+<tr>
+  <td class="city">barcelona</td>
+  <td>
+    <div class="name">Razzmatazz</div>
+    <div class="meta"><span class="cat">Bar</span> · Poblenou</div>
+    <div class="desc">Kahve kokusu etrafı sarmış, ahşap zemin adımlarınızı yankılayarak barın sıcaklığını vurguluyor.</div>
+  </td>
+  <td><span class="verdict" style="background:#dc2626">mismatch</span>
+      <div class="why">Açıklama, Razzmatazz&#x27;ın bilinen büyük bir gece kulübü/konser mekanı kimliğiyle uyuşmuyor, daha çok bir kafe veya küçük barı anlatıyor.</div>
+  </td>
+  <td><a href="https://www.google.com/maps/place/?q=place_id:ChIJtUAGDhmjpBIRypg66Y-dDwQ" target="_blank">maps</a></td>
+</tr>
+<tr>
+  <td class="city">barcelona</td>
+  <td>
+    <div class="name">Restaurant La Forquilla | Barcelona</div>
+    <div class="meta"><span class="cat">Yeme-İçme</span> · Carrer d&#x27;Aragó</div>
+    <div class="desc">Kahvenin sıcak aroması, taze ekmek kokusuyla karışırken, masaların arasındaki hafif ayak sesleri yankılanıyor.</div>
+  </td>
+  <td><span class="verdict" style="background:#dc2626">mismatch</span>
+      <div class="why">Açıklama, bir restorandan ziyade bir kafe veya fırın atmosferini çağrıştırıyor, mekanın türüyle tam örtüşmüyor.</div>
+  </td>
+  <td><a href="https://www.google.com/maps/place/?q=place_id:ChIJi8OIIzyjpBIRubWcU35Mp5c" target="_blank">maps</a></td>
+</tr>
+<tr>
+  <td class="city">barcelona</td>
+  <td>
+    <div class="name">Sala Apolo</div>
+    <div class="meta"><span class="cat">Bar</span> · Poble Sec</div>
+    <div class="desc">Sıcak sarı ışıklar altında dans eden gölgeler, Sala Apolo&#x27;nun ahşap barını sarhoş eden bir melodiye ev sahipliği yapıyor.</div>
+  </td>
+  <td><span class="verdict" style="background:#dc2626">mismatch</span>
+      <div class="why">Açıklama, Sala Apolo&#x27;nun bilinen büyük bir konser salonu/gece kulübü kimliğiyle uyuşmuyor, daha çok küçük bir barı anlatıyor.</div>
+  </td>
+  <td><a href="https://www.google.com/maps/place/?q=place_id:ChIJO8-idVyipBIRprMh0nqXWP4" target="_blank">maps</a></td>
+</tr>
+<tr>
+  <td class="city">barcelona</td>
+  <td>
+    <div class="name">Sweet n&#x27; Ice Gelateria a Barcelona</div>
+    <div class="meta"><span class="cat">Deneyim</span> · Carrer de Roger de Flor</div>
+    <div class="desc">13-15. yüzyılların Gotik mimari başyapıtı Barselona Katedrali, Aziz Eulalia&#x27;ya adanmıştır. Kriptini ve manastır avlusundaki on üç kazı barındıran etkileyici bir tarihi dini simgedir.</div>
+  </td>
+  <td><span class="verdict" style="background:#dc2626">mismatch</span>
+      <div class="why">Açıklama bir dondurmacı yerine Barselona Katedrali&#x27;ni anlatıyor, tamamen farklı bir mekan.</div>
+  </td>
+  <td><a href="https://www.google.com/maps/place/?q=place_id:ChIJM2QD3ICjpBIRmN_HoM4ngFo" target="_blank">maps</a></td>
+</tr>
+<tr>
+  <td class="city">barcelona</td>
+  <td>
+    <div class="name">Tickets</div>
+    <div class="meta"><span class="cat">Yeme-İçme</span> · Poble Sec</div>
+    <div class="desc">Modern tasarımlar ve geleneksel Arnavut yemekleri, Tickets&#x27;ta birbirini tamamlar. Şehirdeki bu zıtlık, lezzetleri zenginleştiriyor.</div>
+  </td>
+  <td><span class="verdict" style="background:#dc2626">mismatch</span>
+      <div class="why">Açıklama, Tickets&#x27;ın ünlü İspanyol tapas mutfağı yerine geleneksel Arnavut yemeklerinden bahsediyor.</div>
+  </td>
+  <td><a href="https://www.google.com/maps/place/?q=place_id:ChIJ69NAjGSipBIRdoXVW4t6F24" target="_blank">maps</a></td>
+</tr>
+<tr>
+  <td class="city">belgrad</td>
+  <td>
+    <div class="name">Ada Bridge</div>
+    <div class="meta"><span class="cat">Manzara</span> · Sava</div>
+    <div class="desc">Sırbistan’ın sembollerinden olan Ada Köprüsü, eşsiz mimarisiyle iki kıtanın buluşma noktasını belirlerken, gece ışıklarının büyüsünü de yaşatıyor.</div>
+  </td>
+  <td><span class="verdict" style="background:#dc2626">mismatch</span>
+      <div class="why">Açıklama, köprüyü &quot;iki kıtanın buluşma noktası&quot; olarak yanlış tanımlıyor; bu Belgrad için geçerli değil.</div>
+  </td>
+  <td><a href="https://www.google.com/maps/place/?q=place_id:ChIJG2BnIeZvWkcRT-_5TIvL3PQ" target="_blank">maps</a></td>
+</tr>
+<tr>
+  <td class="city">berlin</td>
+  <td>
+    <div class="name">Kisa Berlin</div>
+    <div class="meta"><span class="cat">Deneyim</span> · Maybachufer 2</div>
+    <div class="desc">Bergama Sunağı, Babil İştar Kapısı ve Mshatta Cephesi gibi anıtsal eserleri sergileyen, eşsiz mimariye sahip, dünyaca ünlü arkeoloji ve İslam sanatı müzesidir.</div>
+  </td>
+  <td><span class="verdict" style="background:#dc2626">mismatch</span>
+      <div class="why">Açıklama, Kisa Berlin yerine Pergamon Müzesi&#x27;ni anlatıyor.</div>
+  </td>
+  <td><a href="https://www.google.com/maps/place/?q=place_id:ChIJBawyDSFQqEcRebIKVHTx53k" target="_blank">maps</a></td>
+</tr>
+<tr>
+  <td class="city">berlin</td>
+  <td>
+    <div class="name">Layan Dessert</div>
+    <div class="meta"><span class="cat">Deneyim</span> · Sonnenallee 138</div>
+    <div class="desc">UNESCO Dünya Mirası listesindeki Müzeler Adası, Antik Yunan, Roma ve Babil eserlerinin sergilendiği beş Neoklasik müzenin mimari şaheseridir. Berlin&#x27;in kültürel kalbidir.</div>
+  </td>
+  <td><span class="verdict" style="background:#dc2626">mismatch</span>
+      <div class="why">Açıklama, Layan Dessert yerine Berlin&#x27;deki Müzeler Adası&#x27;nı anlatıyor.</div>
+  </td>
+  <td><a href="https://www.google.com/maps/place/?q=place_id:ChIJNRtdKKdPqEcRZVMy-IpJ6gQ" target="_blank">maps</a></td>
+</tr>
+<tr>
+  <td class="city">berlin</td>
+  <td>
+    <div class="name">MORE Natural Wine</div>
+    <div class="meta"><span class="cat">Deneyim</span> · Flughafenstraße 22</div>
+    <div class="desc">UNESCO Dünya Mirası Berlin Müze Adası, Spree üzerindeki beş müzeyi barındırır: Pergamon&#x27;dan Bode&#x27;ye. Antik eserlerden sanata uzanan eşsiz koleksiyonlarıyla kültürel ve mimari bir deha sergiler.</div>
+  </td>
+  <td><span class="verdict" style="background:#dc2626">mismatch</span>
+      <div class="why">Açıklama, MORE Natural Wine yerine Berlin&#x27;deki Müzeler Adası&#x27;nı anlatıyor.</div>
+  </td>
+  <td><a href="https://www.google.com/maps/place/?q=place_id:ChIJgcRrjFlPqEcRHQkgUMo7pRg" target="_blank">maps</a></td>
+</tr>
+<tr>
+  <td class="city">berlin</td>
+  <td>
+    <div class="name">Modulor</div>
+    <div class="meta"><span class="cat">Deneyim</span> · Kreuzberg</div>
+    <div class="desc">Berlin&#x27;in sembolü olan bu neoklasik yapı, Alman parlamentosuna ev sahipliği yapar. Norman Foster&#x27;ın cam kubbesiyle modern mimariyi harmanlayarak, Alman demokrasisinin ve birleşmenin güçlü sembolüdür.</div>
+  </td>
+  <td><span class="verdict" style="background:#dc2626">mismatch</span>
+      <div class="why">Açıklama, Modulor yerine Berlin&#x27;deki Reichstag Binası&#x27;nı anlatıyor.</div>
+  </td>
+  <td><a href="https://www.google.com/maps/place/?q=place_id:ChIJzy9iLSxOqEcRQEcMzbuDYiY" target="_blank">maps</a></td>
+</tr>
+<tr>
+  <td class="city">berlin</td>
+  <td>
+    <div class="name">Neukölln</div>
+    <div class="meta"><span class="cat">Bar</span> · Neukölln</div>
+    <div class="desc">Sıcak renkleri ve samimi hissiyatı ile Kaffeekommune, Berlin&#x27;in saklı köşelerinden biri. Aromatik kahveleri ve uzayan sohbetleri ile tanınır.</div>
+  </td>
+  <td><span class="verdict" style="background:#dc2626">mismatch</span>
+      <div class="why">Açıklama Neukölln semtini değil, &#x27;Kaffeekommune&#x27; adlı belirli bir kafeyi anlatıyor.</div>
+  </td>
+  <td><a href="https://www.google.com/maps/place/?q=place_id:ChIJzRMqMYtFqEcRavniE5lwMzA" target="_blank">maps</a></td>
+</tr>
+<tr>
+  <td class="city">berlin</td>
+  <td>
+    <div class="name">Pfaueninsel</div>
+    <div class="meta"><span class="cat">Park</span> · Wannsee</div>
+    <div class="desc">Kahve kokusunun sarhoş edici yoğunluğu ile adanın serin rüzgarı arasında kaybolun.</div>
+  </td>
+  <td><span class="verdict" style="background:#dc2626">mismatch</span>
+      <div class="why">Açıklama bir park veya adadan çok, kahve kokusuyla bir kafeyi çağrıştırıyor, mekanın özünü yansıtmıyor.</div>
+  </td>
+  <td><a href="https://www.google.com/maps/place/?q=place_id:ChIJ2becloRYqEcRKB4DvYIi37A" target="_blank">maps</a></td>
+</tr>
+<tr>
+  <td class="city">berlin</td>
+  <td>
+    <div class="name">Prenzlauer Berg</div>
+    <div class="meta"><span class="cat">Kafe</span> · Prenzlauer Berg</div>
+    <div class="desc">Büyük pencereleri ve vintage mobilyalarıyla, Prenzlauer Berg&#x27;deki kafelerde sıcak bir atmosfer var, sarı ve turuncu tonlarıyla göz alıcı bir uyum sunuyor.</div>
+  </td>
+  <td><span class="verdict" style="background:#dc2626">mismatch</span>
+      <div class="why">Açıklama Prenzlauer Berg semtindeki kafeleri anlatıyor, semtin kendisini değil.</div>
+  </td>
+  <td><a href="https://www.google.com/maps/place/?q=place_id:ChIJi2VCLghOqEcR8KtfW0YgIQU" target="_blank">maps</a></td>
+</tr>
+<tr>
+  <td class="city">berlin</td>
+  <td>
+    <div class="name">RAW-Gelände</div>
+    <div class="meta"><span class="cat">Yeme-İçme</span> · Friedrichshain</div>
+    <div class="desc">Kahve aroması, eski duvarların yankısına karışıyor; çiğ rüzgârı her köşeden fısıldıyor.</div>
+  </td>
+  <td><span class="verdict" style="background:#dc2626">mismatch</span>
+      <div class="why">Açıklama RAW-Gelände&#x27;nin kültürel ve endüstriyel yapısını yansıtmıyor, daha çok tek bir kafeyi anlatıyor.</div>
+  </td>
+  <td><a href="https://www.google.com/maps/place/?q=place_id:ChIJ5e1fzVtOqEcRnlZO_we3bUU" target="_blank">maps</a></td>
+</tr>
+<tr>
+  <td class="city">berlin</td>
+  <td>
+    <div class="name">Spree Nehir Turu</div>
+    <div class="meta"><span class="cat">Deneyim</span> · Mitte</div>
+    <div class="desc">1894 neo-rönesans mimarili Reichstag Binası, Alman Parlamentosu&#x27;na ev sahipliği yapar. Norman Foster&#x27;ın modern cam kubbesi, tarihi ve şeffaf demokrasiyi mimari birleşimiyle sunar.</div>
+  </td>
+  <td><span class="verdict" style="background:#dc2626">mismatch</span>
+      <div class="why">Açıklama Spree Nehir Turu yerine Reichstag Binası&#x27;nı anlatıyor.</div>
+  </td>
+  <td><a href="https://www.google.com/maps/place/?q=place_id:ChIJv0gu0sNRqEcRrT_6a-v66YE" target="_blank">maps</a></td>
+</tr>
+<tr>
+  <td class="city">berlin</td>
+  <td>
+    <div class="name">Vabali Spa</div>
+    <div class="meta"><span class="cat">Deneyim</span> · Mitte / Moabit</div>
+    <div class="desc">Paul Wallot&#x27;un Neo-Barok Reichstag&#x27;ı, Alman parlamentosuna ev sahipliği yapar. Norman Foster&#x27;ın modern cam kubbesiyle, demokratik tarihin güçlü sembolüdür.</div>
+  </td>
+  <td><span class="verdict" style="background:#dc2626">mismatch</span>
+      <div class="why">Açıklama, Vabali Spa yerine Reichstag Binası&#x27;nı anlatıyor; tamamen farklı bir mekan.</div>
+  </td>
+  <td><a href="https://www.google.com/maps/place/?q=place_id:ChIJjfrdZphRqEcRT6O7Rn8rVLI" target="_blank">maps</a></td>
+</tr>
+<tr>
+  <td class="city">berlin</td>
+  <td>
+    <div class="name">Vorwerck Restaurant - Dine &amp; Show</div>
+    <div class="meta"><span class="cat">Yeme-İçme</span> · Karl-Marx-Straße 131</div>
+    <div class="desc">Vorwerck Restoran&#x27;da, sahnedeki enerjiyi hissetmeden lezzetli ve baharatlı bir kuzu tandır deneyimleyin. Zengin sosu damakları şenlendiriyor.</div>
+  </td>
+  <td><span class="verdict" style="background:#dc2626">mismatch</span>
+      <div class="why">Açıklama, mekanın &#x27;Dine &amp; Show&#x27; ismine rağmen &#x27;sahnedeki enerjiyi hissetmeden&#x27; diyerek çelişiyor.</div>
+  </td>
+  <td><a href="https://www.google.com/maps/place/?q=place_id:ChIJoVJVtDhPqEcRqdDVp5yCxfA" target="_blank">maps</a></td>
+</tr>
+<tr>
+  <td class="city">berlin</td>
+  <td>
+    <div class="name">Yaam</div>
+    <div class="meta"><span class="cat">Bar</span> · Friedrichshain</div>
+    <div class="desc">Berlin&#x27;in kalbinde, modern müzik ve geleneksel Türk lezzetlerini bir araya getiren, renkli bir oazisiniz.</div>
+  </td>
+  <td><span class="verdict" style="background:#dc2626">mismatch</span>
+      <div class="why">Açıklama, Yaam&#x27;ın bilinen Karayip/Afrika kültüründen ziyade &#x27;geleneksel Türk lezzetleri&#x27;nden bahsederek yanlış bilgi veriyor.</div>
+  </td>
+  <td><a href="https://www.google.com/maps/place/?q=place_id:ChIJS1MAKr8jZUERkWFDbesy7dk" target="_blank">maps</a></td>
+</tr>
+<tr>
+  <td class="city">bodrum</td>
+  <td>
+    <div class="name">Bodrum Antik Tiyatrosu</div>
+    <div class="meta"><span class="cat">Deneyim</span> · </div>
+    <div class="desc">Bodrum kenti keşfinde dinamizmi ve Bodrum Antik Tiyatrosu, kentin haritasına karakter katan en sevilen ve tatlı duraklardan birisi olan bir dir.</div>
+  </td>
+  <td><span class="verdict" style="background:#dc2626">mismatch</span>
+      <div class="why">Açıklama çok genel ve tekrarlayıcı, Antik Tiyatro&#x27;nun kendine özgü özelliklerini anlatmıyor.</div>
+  </td>
+  <td><a href="https://www.google.com/maps/place/?q=place_id:ChIJv9W_9UdsvhQR2r-WmkBy9K4" target="_blank">maps</a></td>
+</tr>
+<tr>
+  <td class="city">bodrum</td>
+  <td>
+    <div class="name">Bodrum Yel Değirmenleri</div>
+    <div class="meta"><span class="cat">Deneyim</span> · </div>
+    <div class="desc">Bodrum kenti keşfinde dinamizmi ve Bodrum Yel Değirmenleri, kentin haritasına karakter katan en sevilen ve tatlı duraklardan birisi olan bir dir.</div>
+  </td>
+  <td><span class="verdict" style="background:#dc2626">mismatch</span>
+      <div class="why">Açıklama çok genel ve tekrarlayıcı, Yel Değirmenleri&#x27;nin kendine özgü özelliklerini anlatmıyor.</div>
+  </td>
+  <td><a href="https://www.google.com/maps/place/?q=place_id:ChIJSxsWkUdtvhQREXRy5x1VJck" target="_blank">maps</a></td>
+</tr>
+<tr>
+  <td class="city">bodrum</td>
+  <td>
+    <div class="name">Pedasa Antik Kenti</div>
+    <div class="meta"><span class="cat">Deneyim</span> · </div>
+    <div class="desc">Bodrum kenti keşfinde dinamizmi ve Pedasa Antik Kenti, kentin haritasına karakter katan en sevilen ve tatlı duraklardan birisi olan bir dir.</div>
+  </td>
+  <td><span class="verdict" style="background:#dc2626">mismatch</span>
+      <div class="why">Açıklama çok genel ve tekrarlayıcı, Pedasa Antik Kenti&#x27;nin kendine özgü özelliklerini anlatmıyor.</div>
+  </td>
+  <td><a href="https://www.google.com/maps/place/?q=place_id:ChIJKSkfloRuvhQRo7OVs9aIrj8" target="_blank">maps</a></td>
+</tr>
+<tr>
+  <td class="city">bodrum</td>
+  <td>
+    <div class="name">Dibeklihan Kültür ve Sanat Köyü</div>
+    <div class="meta"><span class="cat">Deneyim</span> · </div>
+    <div class="desc">Bodrum kenti keşfinde dinamizmi ve Dibeklihan Kültür ve Sanat Köyü, kentin haritasına karakter katan en sevilen ve tatlı duraklardan birisi olan bir dir.</div>
+  </td>
+  <td><span class="verdict" style="background:#dc2626">mismatch</span>
+      <div class="why">Açıklama çok genel ve tekrarlayıcı, Dibeklihan&#x27;ın kendine özgü özelliklerini anlatmıyor.</div>
+  </td>
+  <td><a href="https://www.google.com/maps/place/?q=place_id:ChIJYeiNdDlyvhQRtOAzFXdvYgw" target="_blank">maps</a></td>
+</tr>
+<tr>
+  <td class="city">bodrum</td>
+  <td>
+    <div class="name">Türkbükü Halk Plajı</div>
+    <div class="meta"><span class="cat">Plaj</span> · </div>
+    <div class="desc">Bodrum kenti keşfinde dinamizmi ve Türkbükü Halk Plajı, kentin haritasına karakter katan en sevilen ve tatlı duraklardan birisi olan bir dir.</div>
+  </td>
+  <td><span class="verdict" style="background:#dc2626">mismatch</span>
+      <div class="why">Açıklama çok genel ve tekrarlayıcı, Türkbükü Halk Plajı&#x27;nın kendine özgü özelliklerini anlatmıyor.</div>
+  </td>
+  <td><a href="https://www.google.com/maps/place/?q=place_id:ChIJg8BzNGBvvhQRdJt_u5o1QxA" target="_blank">maps</a></td>
+</tr>
+<tr>
+  <td class="city">bodrum</td>
+  <td>
+    <div class="name">Bitez Plaji</div>
+    <div class="meta"><span class="cat">Plaj</span> · </div>
+    <div class="desc">Bodrum kenti keşfinde dinamizmi ve Bitez Plaji, kentin haritasına karakter katan en sevilen ve tatlı duraklardan birisi olan bir dir.</div>
+  </td>
+  <td><span class="verdict" style="background:#dc2626">mismatch</span>
+      <div class="why">Açıklama çok genel ve tekrarlayıcı, Bitez Plajı&#x27;nın kendine özgü özelliklerini anlatmıyor.</div>
+  </td>
+  <td><a href="https://www.google.com/maps/place/?q=place_id:ChIJS6IGGndtvhQRmh_4muCldt8" target="_blank">maps</a></td>
+</tr>
+<tr>
+  <td class="city">bodrum</td>
+  <td>
+    <div class="name">Aspat koyu ıssız adacık</div>
+    <div class="meta"><span class="cat">Plaj</span> · </div>
+    <div class="desc">Bodrum kenti keşfinde dinamizmi ve Aspat koyu ıssız adacık, kentin haritasına karakter katan en sevilen ve tatlı duraklardan birisi olan bir dir.</div>
+  </td>
+  <td><span class="verdict" style="background:#dc2626">mismatch</span>
+      <div class="why">Açıklama çok genel ve tekrarlayıcı, Aspat Koyu&#x27;nun kendine özgü özelliklerini anlatmıyor.</div>
+  </td>
+  <td><a href="https://www.google.com/maps/place/?q=place_id:ChIJu8zOxLwNvhQRBW8xqbUyco8" target="_blank">maps</a></td>
+</tr>
+<tr>
+  <td class="city">bodrum</td>
+  <td>
+    <div class="name">Kule Rock City</div>
+    <div class="meta"><span class="cat">Tarihi</span> · </div>
+    <div class="desc">Bodrum&#x27;un efsanevi bar sokağı üzerindeki Kule Rock City, her yaz sezonunda dünyaca tanınan DJ&#x27;lerin sahne aldığı açık hava sahnesiyle gece hayatının kalbi haline gelir. Yüzde yüz Türkiye yapımı konser atmosferiyle elektronik müzik tutkunlarının Ege&#x27;deki adresi bu mekan.</div>
+  </td>
+  <td><span class="verdict" style="background:#dc2626">mismatch</span>
+      <div class="why">Açıklama, &#x27;Rock City&#x27; ismine rağmen elektronik müzik ve DJ&#x27;lerden bahsederek mekanın türüyle çelişiyor.</div>
+  </td>
+  <td><a href="https://www.google.com/maps/place/?q=place_id:ChIJMxkyaWpsvhQR7lX9oL0EJkQ" target="_blank">maps</a></td>
+</tr>
+<tr>
+  <td class="city">bodrum</td>
+  <td>
+    <div class="name">SJ TRAVEL &amp; YACHTING (Luxury Gulet Charter, Yacht charter, Cruises Bodrum-TURKEY)</div>
+    <div class="meta"><span class="cat">Deneyim</span> · </div>
+    <div class="desc">Bodrum kenti keşfinde dinamizmi ve SJ TRAVEL &amp; YACHTING (Luxury Gulet Charter, Yacht charter, Cruises Bodrum-TURKEY), kentin haritasına karakter katan en sevilen ve tatlı duraklardan birisi olan bir dir.</div>
+  </td>
+  <td><span class="verdict" style="background:#dc2626">mismatch</span>
+      <div class="why">Açıklama anlamsız ve otomatik oluşturulmuş, seyahat şirketini tanımlamıyor.</div>
+  </td>
+  <td><a href="https://www.google.com/maps/place/?q=place_id:ChIJo-HGdEZsvhQRESW04RkW-iw" target="_blank">maps</a></td>
+</tr>
+<tr>
+  <td class="city">bodrum</td>
+  <td>
+    <div class="name">İngiliz Kulesi</div>
+    <div class="meta"><span class="cat">Deneyim</span> · </div>
+    <div class="desc">Bodrum kenti keşfinde dinamizmi ve İngiliz Kulesi, kentin haritasına karakter katan en sevilen ve tatlı duraklardan birisi olan bir dir.</div>
+  </td>
+  <td><span class="verdict" style="background:#dc2626">mismatch</span>
+      <div class="why">Açıklama anlamsız ve otomatik oluşturulmuş, tarihi kuleyi tanımlamıyor.</div>
+  </td>
+  <td><a href="https://www.google.com/maps/place/?q=place_id:ChIJD1DpT0JsvhQR6hp00peljiE" target="_blank">maps</a></td>
+</tr>
+<tr>
+  <td class="city">bodrum</td>
+  <td>
+    <div class="name">Thor Yıldız Batığı</div>
+    <div class="meta"><span class="cat">Deneyim</span> · </div>
+    <div class="desc">Bodrum kenti keşfinde dinamizmi ve Thor Yıldız Batığı, kentin haritasına karakter katan en sevilen ve tatlı duraklardan birisi olan bir dir.</div>
+  </td>
+  <td><span class="verdict" style="background:#dc2626">mismatch</span>
+      <div class="why">Açıklama anlamsız ve otomatik oluşturulmuş, batığı tanımlamıyor.</div>
+  </td>
+  <td><a href="https://www.google.com/maps/place/?q=place_id:ChIJZTFbpHzivRQRhefzaco9p2A" target="_blank">maps</a></td>
+</tr>
+<tr>
+  <td class="city">bodrum</td>
+  <td>
+    <div class="name">Statue plongeur</div>
+    <div class="meta"><span class="cat">Deneyim</span> · </div>
+    <div class="desc">Bodrum kenti keşfinde dinamizmi ve Statue plongeur, kentin haritasına karakter katan en sevilen ve tatlı duraklardan birisi olan bir dir.</div>
+  </td>
+  <td><span class="verdict" style="background:#dc2626">mismatch</span>
+      <div class="why">Açıklama anlamsız ve otomatik oluşturulmuş, heykeli tanımlamıyor.</div>
+  </td>
+  <td><a href="https://www.google.com/maps/place/?q=place_id:ChIJa1KKP1ptvhQRKLIUM0EVQ2A" target="_blank">maps</a></td>
+</tr>
+<tr>
+  <td class="city">bodrum</td>
+  <td>
+    <div class="name">Kızılhisarlı Mustafa Paşa Camii</div>
+    <div class="meta"><span class="cat">Tarihi</span> · </div>
+    <div class="desc">Bodrum kenti keşfinde dinamizmi ve Kızılhisarlı Mustafa Paşa Camii, kentin haritasına karakter katan en sevilen ve tatlı duraklardan birisi olan bir dir.</div>
+  </td>
+  <td><span class="verdict" style="background:#dc2626">mismatch</span>
+      <div class="why">Açıklama anlamsız ve otomatik oluşturulmuş, camiyi tanımlamıyor.</div>
+  </td>
+  <td><a href="https://www.google.com/maps/place/?q=place_id:ChIJzda0gEFsvhQRBujuF58xZJY" target="_blank">maps</a></td>
+</tr>
+<tr>
+  <td class="city">bodrum</td>
+  <td>
+    <div class="name">Gulet Bodrum Queen</div>
+    <div class="meta"><span class="cat">Deneyim</span> · </div>
+    <div class="desc">Bodrum kenti keşfinde dinamizmi ve Gulet Bodrum Queen, kentin haritasına karakter katan en sevilen ve tatlı duraklardan birisi olan bir dir.</div>
+  </td>
+  <td><span class="verdict" style="background:#dc2626">mismatch</span>
+      <div class="why">Açıklama anlamsız ve otomatik oluşturulmuş, guleti tanımlamıyor.</div>
+  </td>
+  <td><a href="https://www.google.com/maps/place/?q=place_id:ChIJDS2LYhptvhQRLrjXycdhZ8A" target="_blank">maps</a></td>
+</tr>
+<tr>
+  <td class="city">bologna</td>
+  <td>
+    <div class="name">Enoteca Italiana</div>
+    <div class="meta"><span class="cat">Bar</span> · Merkez</div>
+    <div class="desc">Bologna&#x27;nın kalbinde yer alan Enoteca Italiana, zengin şarap çeşitleri ve yerel lezzetleriyle damaklarda unutulmaz izler bırakıyor.</div>
+  </td>
+  <td><span class="verdict" style="background:#dc2626">mismatch</span>
+      <div class="why">Enoteca Italiana, Siena&#x27;da bulunan ulusal bir şarap kütüphanesidir, Bologna&#x27;da değil. Açıklama başka bir mekanı anlatıyor.</div>
+  </td>
+  <td><a href="https://www.google.com/maps/place/?q=place_id:ChIJzWnzLZbUf0cRONdTXl_Fs8U" target="_blank">maps</a></td>
+</tr>
+<tr>
+  <td class="city">bologna</td>
+  <td>
+    <div class="name">Fontana Vecchia</div>
+    <div class="meta"><span class="cat">Tarihi</span> · Merkez</div>
+    <div class="desc">Kardinal Borromeo tarafından 16. yüzyılda yaptırılan, Laureti tasarımı ve Giambologna&#x27;nın ikonik Neptün heykeliyle süslü, Bologna&#x27;nın muhteşem Rönesans çeşmesidir. Papalık gücünü simgeler.</div>
+  </td>
+  <td><span class="verdict" style="background:#dc2626">mismatch</span>
+      <div class="why">Açıklama, Bologna&#x27;daki Fontana del Nettuno&#x27;yu (Neptün Çeşmesi) anlatıyor, &#x27;Fontana Vecchia&#x27; adıyla değil.</div>
+  </td>
+  <td><a href="https://www.google.com/maps/place/?q=place_id:ChIJv0adw5XUf0cReaZAuT9-Sls" target="_blank">maps</a></td>
+</tr>
+<tr>
+  <td class="city">bologna</td>
+  <td>
+    <div class="name">Parma Ham Factory Tour</div>
+    <div class="meta"><span class="cat">Deneyim</span> · Langhirano</div>
+    <div class="desc">Bologna&#x27;nın mimari olarak hassas tesisleri, asırlık Parma jambonu geleneğini sürdürür. Binlerce jambonun olgunlaştığı özel kürleme odalarında Emilia-Romagna&#x27;nın derin gastronomi mirasını keşfedin.</div>
+  </td>
+  <td><span class="verdict" style="background:#dc2626">mismatch</span>
+      <div class="why">Parma jambonu üretimi Parma&#x27;ya özgüdür, Bologna&#x27;da bir fabrika turu açıklaması çelişkili.</div>
+  </td>
+  <td><a href="https://www.google.com/maps/place/?q=place_id:ChIJ-SUeAu9qgEcRSIGQAOumtVE" target="_blank">maps</a></td>
+</tr>
+<tr>
+  <td class="city">bologna</td>
+  <td>
+    <div class="name">Pizzeria Da Michele Bologna</div>
+    <div class="meta"><span class="cat">Yeme-İçme</span> · Merkez</div>
+    <div class="desc">Kahve aroması havada dolaşırken, odanın sıcak atmosferi pizzasını özelleştirmek için acele edenlerin ayak sesleri yankılanıyor.</div>
+  </td>
+  <td><span class="verdict" style="background:#dc2626">mismatch</span>
+      <div class="why">Açıklama daha çok bir kafeyi veya genel bir mekanı anlatıyor, ünlü bir pizzacıya özgü değil.</div>
+  </td>
+  <td><a href="https://www.google.com/maps/place/?q=place_id:ChIJJek5zdXVf0cRLnespvldMsE" target="_blank">maps</a></td>
+</tr>
+<tr>
+  <td class="city">bologna</td>
+  <td>
+    <div class="name">Ristorante Donatello</div>
+    <div class="meta"><span class="cat">Yeme-İçme</span> · Merkez</div>
+    <div class="desc">Cafelerden yayılan taze kahve kokusu, akşamüstü rüzgarının hafifçe getirdiği lezzetlerle buluşuyor.</div>
+  </td>
+  <td><span class="verdict" style="background:#dc2626">mismatch</span>
+      <div class="why">Açıklama genel bir kafe ortamını anlatıyor, belirli bir restorana özgü değil.</div>
+  </td>
+  <td><a href="https://www.google.com/maps/place/?q=place_id:ChIJmTUs5pfUf0cR8eYbcNkVkmw" target="_blank">maps</a></td>
+</tr>
+<tr>
+  <td class="city">bologna</td>
+  <td>
+    <div class="name">Sartoria Gastronomica</div>
+    <div class="meta"><span class="cat">Yeme-İçme</span> · Merkez</div>
+    <div class="desc">Girişte, yeni demlenmiş kahvenin aroması havayı sararken, ahşap zeminlerde ayak sesleri yankılanıyor, ve dışarıdan hafif bir serin rüzgar esiyor.</div>
+  </td>
+  <td><span class="verdict" style="background:#dc2626">mismatch</span>
+      <div class="why">Açıklama çok genel bir ortamı anlatıyor, belirli bir gastronomi mekanına özgü değil.</div>
+  </td>
+  <td><a href="https://www.google.com/maps/place/?q=place_id:ChIJK-UneLnUf0cR1VmhvebtCdE" target="_blank">maps</a></td>
+</tr>
+<tr>
+  <td class="city">bologna</td>
+  <td>
+    <div class="name">Sassi di Roccamalatina</div>
+    <div class="meta"><span class="cat">Park</span> · Guiglia</div>
+    <div class="desc">Sıcak kahve kokusunun yükseldiği patikaların arasında, hafif esen rüzgarın serinliğini hissedin, ayak seslerinin yankısı doğanın sessizliğini bozuyor.</div>
+  </td>
+  <td><span class="verdict" style="background:#dc2626">mismatch</span>
+      <div class="why">Açıklama, Sassi di Roccamalatina&#x27;nın doğal özelliklerini değil, genel bir kafe/park ortamını anlatıyor.</div>
+  </td>
+  <td><a href="https://www.google.com/maps/place/?q=place_id:ChIJe_ITQnu2KhMR0DWj9QybBw8" target="_blank">maps</a></td>
+</tr>
+<tr>
+  <td class="city">bologna</td>
+  <td>
+    <div class="name">Scuderia Future Food Living Lab</div>
+    <div class="meta"><span class="cat">Kafe</span> · University</div>
+    <div class="desc">Beyaz çini tabakların üzerinde yavaşça dökülen kahvenin zengin aroması, ahşap duvarlarda yankılanan sohbetlerle birleşiyor.</div>
+  </td>
+  <td><span class="verdict" style="background:#dc2626">mismatch</span>
+      <div class="why">Açıklama, mekanın &#x27;Future Food Living Lab&#x27; özelliğini yansıtmıyor, çok genel bir kafe tanımı.</div>
+  </td>
+  <td><a href="https://www.google.com/maps/place/?q=place_id:ChIJIwSlkbvUf0cRe7Xr5xgBGXU" target="_blank">maps</a></td>
+</tr>
+<tr>
+  <td class="city">bologna</td>
+  <td>
+    <div class="name">Tigellino</div>
+    <div class="meta"><span class="cat">Yeme-İçme</span> · Quadrilatero</div>
+    <div class="desc">Taze hazırlanmış kahvenin yoğun aroması, bunaltıcı günlerde içeceklerin serinletici etkisiyle buluşuyor.</div>
+  </td>
+  <td><span class="verdict" style="background:#dc2626">mismatch</span>
+      <div class="why">Mekan tigelle restoranıdır. Açıklama kahve ve içeceklerden bahsediyor, mekanın ana ürünleriyle uyuşmuyor.</div>
+  </td>
+  <td><a href="https://www.google.com/maps/place/?q=place_id:ChIJ64PJab7Uf0cRHb50y63cxWA" target="_blank">maps</a></td>
+</tr>
+<tr>
+  <td class="city">bologna</td>
+  <td>
+    <div class="name">Trattoria Anna Maria</div>
+    <div class="meta"><span class="cat">Yeme-İçme</span> · Merkez</div>
+    <div class="desc">Eski Bologna sokaklarının karmaşasında yer alan Trattoria Anna Maria, geleneksel İtalyan lezzetleriyle modern yemek sunumunu cesurca bir araya getiriyor.</div>
+  </td>
+  <td><span class="verdict" style="background:#dc2626">mismatch</span>
+      <div class="why">Mekan geleneksel Bolognese mutfağı sunar. Açıklamadaki &#x27;modern yemek sunumu&#x27; ifadesi yanlış.</div>
+  </td>
+  <td><a href="https://www.google.com/maps/place/?q=place_id:ChIJ-y5uj7zUf0cRjglyKr3Hdcs" target="_blank">maps</a></td>
+</tr>
+<tr>
+  <td class="city">istanbul</td>
+  <td>
+    <div class="name">Sunset Grill &amp; Bar</div>
+    <div class="meta"><span class="cat">Yeme-İçme</span> · Kuruçeşme</div>
+    <div class="desc">Şık ahşap detaylarla zenginleştirilmiş mekan, Boğaziçi manzarası eşliğinde rahat bir yemek deneyimi sunuyor.</div>
+  </td>
+  <td><span class="verdict" style="background:#dc2626">mismatch</span>
+      <div class="why">Açıklama, İstanbul&#x27;daki köprü manzaralı Sunset Grill&amp;Bar&#x27;ı anlatıyor, Bodrum ile uyumsuz.</div>
+  </td>
+  <td><a href="https://www.google.com/maps/place/?q=place_id:ChIJp4TIsDq2yhQRjrCUGK_mBEQ" target="_blank">maps</a></td>
+</tr>
+<tr>
+  <td class="city">madrid</td>
+  <td>
+    <div class="name">Bar &quot;Menuda History&quot;</div>
+    <div class="meta"><span class="cat">Bar</span> · C. de los Reyes</div>
+    <div class="desc">Madrid Kraliyet Sarayı, 18. yüzyıl Barok ve Neoklasik mimarisinin muazzam bir örneğidir. Kraliyet koleksiyonları, görkemli zırhlar ve tarihi odalarla İspanyol monarşisinin ihtişamını yansıtır.</div>
+  </td>
+  <td><span class="verdict" style="background:#dc2626">mismatch</span>
+      <div class="why">Açıklama, &quot;Menuda History&quot; adlı bir barı değil, Madrid Kraliyet Sarayı&#x27;nı anlatıyor.</div>
+  </td>
+  <td><a href="https://www.google.com/maps/place/?q=place_id:ChIJkcbXlGQoQg0RXmgWzfNcdIM" target="_blank">maps</a></td>
+</tr>
+<tr>
+  <td class="city">madrid</td>
+  <td>
+    <div class="name">Barrio de Salamanca</div>
+    <div class="meta"><span class="cat">Bar</span> · Salamanca</div>
+    <div class="desc">Barrio de Salamanca&#x27;nın kalbinde, pastel tonlarındaki duvarları ve göz alıcı seramiklerle kaplı yerlerindeki sıcak atmosfer, dost sohbetlerine ev sahipliği yapar.</div>
+  </td>
+  <td><span class="verdict" style="background:#dc2626">mismatch</span>
+      <div class="why">Açıklama, bir barı değil, Madrid&#x27;deki Salamanca bölgesinin genel atmosferini anlatıyor.</div>
+  </td>
+  <td><a href="https://www.google.com/maps/place/?q=place_id:ChIJJ7e34rgoQg0RtzcvbjH2QyM" target="_blank">maps</a></td>
+</tr>
+<tr>
+  <td class="city">madrid</td>
+  <td>
+    <div class="name">Barrio de las Letras</div>
+    <div class="meta"><span class="cat">Bar</span> · Huertas</div>
+    <div class="desc">Kahve kokusu, mekanın sıcak ahşap zeminlerinde yankılanan ayak sesleriyle buluşuyor; hafif bir esinti, dışarıdaki caddelerden içeri süzülüyor.</div>
+  </td>
+  <td><span class="verdict" style="background:#dc2626">mismatch</span>
+      <div class="why">Açıklama, bir barı değil, Madrid&#x27;deki Barrio de las Letras bölgesinin genel atmosferini anlatıyor.</div>
+  </td>
+  <td><a href="https://www.google.com/maps/place/?q=place_id:ChIJE5MzAYEoQg0RPPfbSrJKa6Y" target="_blank">maps</a></td>
+</tr>
+<tr>
+  <td class="city">amsterdam</td>
+  <td>
+    <div class="name">Grote Markt Haarlem</div>
+    <div class="meta"><span class="cat">Deneyim</span> · Haarlem</div>
+    <div class="desc">Haarlem&#x27;in kalbi, Gotik Grote Kerk, Lieven de Key&#x27;in tasarladığı Rönesans Vleeshal ve Stadhuis ile çevrili, yüzyıllardır şehrin ticaret ve sosyal merkezi olan görkemli bir meydandır.</div>
+  </td>
+  <td><span class="verdict" style="background:#d97706">wrong_city</span>
+      <div class="why">Açıklama, mekanın Amsterdam&#x27;da değil, Haarlem şehrinde olduğunu açıkça belirtiyor ve Haarlem&#x27;deki yapıları anlatıyor.</div>
+  </td>
+  <td><a href="https://www.google.com/maps/place/?q=place_id:ChIJ7edMkmvvxUcRBEd7M8Uhlw0" target="_blank">maps</a></td>
+</tr>
+<tr>
+  <td class="city">antalya</td>
+  <td>
+    <div class="name">Butterfly Valley (Kelebekler Vadisi)</div>
+    <div class="meta"><span class="cat">Park</span> · Fethiye</div>
+    <div class="desc">Kelebekler Vadisi’nin gizemli koyları, sadece doğaseverler için saklı bir cennet sunuyor.</div>
+  </td>
+  <td><span class="verdict" style="background:#d97706">wrong_city</span>
+      <div class="why">Kelebekler Vadisi Fethiye, Muğla&#x27;da yer almaktadır, Antalya&#x27;da değil.</div>
+  </td>
+  <td><a href="https://www.google.com/maps/place/?q=place_id:ChIJ60ZyZdQ-wBQRFNQOHi3Zx3c" target="_blank">maps</a></td>
+</tr>
+<tr>
+  <td class="city">antalya</td>
+  <td>
+    <div class="name">Karatay Medresesi</div>
+    <div class="meta"><span class="cat">Tarihi</span> · </div>
+    <div class="desc">Celaleddin Karatay&#x27;ın 1251&#x27;de inşa ettirdiği bu Selçuklu şaheseri, muhteşem taş işçiliği ve eşsiz çini süslemeleriyle öne çıkar. Günümüzde Taş ve Ahşap Eserler Müzesi&#x27;dir.</div>
+  </td>
+  <td><span class="verdict" style="background:#d97706">wrong_city</span>
+      <div class="why">Açıklama Konya&#x27;daki Karatay Medresesi&#x27;ni anlatıyor, Antalya&#x27;da böyle bir medrese yok.</div>
+  </td>
+  <td><a href="https://www.google.com/maps/place/?q=place_id:ChIJ2dH2awSQwxQRwA5WEf68298" target="_blank">maps</a></td>
+</tr>
+<tr>
+  <td class="city">antalya</td>
+  <td>
+    <div class="name">Letoon Antik Kenti</div>
+    <div class="meta"><span class="cat">Tarihi</span> · Kaş</div>
+    <div class="desc">Likya&#x27;nın kutsal merkezi Letoon, Leto, Apollon, Artemis&#x27;e adanmış görkemli tapınaklar, antik tiyatro ve Likya dilini aydınlatan üç dilli yazıtıyla UNESCO Dünya Mirası&#x27;dır.</div>
+  </td>
+  <td><span class="verdict" style="background:#d97706">wrong_city</span>
+      <div class="why">Letoon Antik Kenti Muğla&#x27;nın Fethiye ilçesindedir, Antalya&#x27;da değil.</div>
+  </td>
+  <td><a href="https://www.google.com/maps/place/?q=place_id:ChIJc53BUd8xwBQRqlUKzJSY3dQ" target="_blank">maps</a></td>
+</tr>
+<tr>
+  <td class="city">antalya</td>
+  <td>
+    <div class="name">Paraşüt (Ölüdeniz)</div>
+    <div class="meta"><span class="cat">Deneyim</span> · Fethiye</div>
+    <div class="desc">Babadag&#x27;ın kadim jeolojik yapısından havalanan bu deneyim, Ölüdeniz&#x27;in turkuaz lagününü, Fethiye&#x27;nin tarihi kıyılarını kuşbakışı sunar. Antik Lykia&#x27;nın doğal mimarisini keşfedin.</div>
+  </td>
+  <td><span class="verdict" style="background:#d97706">wrong_city</span>
+      <div class="why">Açıklama Ölüdeniz ve Fethiye&#x27;den bahsediyor, bunlar Muğla ilindedir, Antalya&#x27;da değil.</div>
+  </td>
+  <td><a href="https://www.google.com/maps/place/?q=place_id:ChIJkYny9ZJDwBQR6AXkn38_WDU" target="_blank">maps</a></td>
+</tr>
+<tr>
+  <td class="city">antalya</td>
+  <td>
+    <div class="name">Tophane (Tersane)</div>
+    <div class="meta"><span class="cat">Tarihi</span> · Alanya</div>
+    <div class="desc">Sultan Alaaddin Keykubat&#x27;ın 13. yüzyıl mimari şaheseri bu Selçuklu tersanesi, beş kemerli gözleriyle Akdeniz&#x27;deki tek örnektir. Denizcilik tarihimizin görkemli simgesidir.</div>
+  </td>
+  <td><span class="verdict" style="background:#d97706">wrong_city</span>
+      <div class="why">Açıklama, Alanya Tersanesi&#x27;ni anlatıyor, Antalya şehir merkezindeki Tophane ile ilgili değil.</div>
+  </td>
+  <td><a href="https://www.google.com/maps/place/?q=place_id:Ei5Ub3BoYW5lLCBUZXJzYW5lIFNrLiwgQWxhbnlhL0FudGFseWEsIFTDvHJraXllIi4qLAoUChIJ_2cbfXSY3BQRBk8lxgY5LOcSFAoSCfXgyDILmNwUEUImTvfbXYUq" target="_blank">maps</a></td>
+</tr>
+<tr>
+  <td class="city">antalya</td>
+  <td>
+    <div class="name">Ölüdeniz Plajı</div>
+    <div class="meta"><span class="cat">Plaj</span> · Fethiye</div>
+    <div class="desc">Turkuaz deniz, beyaz kumsal ve yemyeşil dağlar, Ölüdeniz Plajı&#x27;nda birbirini tamamlayarak huzurlu bir manzara oluşturuyor.</div>
+  </td>
+  <td><span class="verdict" style="background:#d97706">wrong_city</span>
+      <div class="why">Açıklama, Ölüdeniz Plajı&#x27;nı anlatıyor, bu plaj Antalya&#x27;da değil, Muğla&#x27;dadır.</div>
+  </td>
+  <td><a href="https://www.google.com/maps/place/?q=place_id:ChIJVfdDtadAwBQRR7vEACHNHaE" target="_blank">maps</a></td>
+</tr>
+<tr>
+  <td class="city">atina</td>
+  <td>
+    <div class="name">Temple of Poseidon (Sounion)</div>
+    <div class="meta"><span class="cat">Tarihi</span> · Sounion (Günübirlik)</div>
+    <div class="desc">MÖ 440&#x27;ta inşa edilmiş, Ege kayalıklarında yükselen görkemli Dorik Poseidon Tapınağı, antik Yunan mimari dehasını ve deniz tanrısına olan adanmışlığı temsil eder.</div>
+  </td>
+  <td><span class="verdict" style="background:#d97706">wrong_city</span>
+      <div class="why">Açıklama Sounion&#x27;daki Poseidon Tapınağı&#x27;nı doğru anlatıyor, ancak tapınak Atina şehrinde değil, Sounion&#x27;da yer alıyor.</div>
+  </td>
+  <td><a href="https://www.google.com/maps/place/?q=place_id:ChIJve8ybRvxoRQRBDrd_gYAUT0" target="_blank">maps</a></td>
+</tr>
+<tr>
+  <td class="city">belgrad</td>
+  <td>
+    <div class="name">Sremski Karlovci</div>
+    <div class="meta"><span class="cat">Tarihi</span> · Vojvodina</div>
+    <div class="desc">1699 Karlofça Antlaşması&#x27;nın imzalandığı, Barok mimarisiyle süslü Sremski Karlovci, Sırp Ortodoks Kilisesi&#x27;nin ruhani merkezidir. Patrikhane ve Saborna Kilisesi gibi önemli yapılar barındırır.</div>
+  </td>
+  <td><span class="verdict" style="background:#d97706">wrong_city</span>
+      <div class="why">Açıklama Sremski Karlovci&#x27;yi doğru anlatıyor ancak mekan Belgrad şehrinde değil.</div>
+  </td>
+  <td><a href="https://www.google.com/maps/place/?q=place_id:ChIJ3YvfOqQEW0cRrrOh6PAR8Jw" target="_blank">maps</a></td>
+</tr>
+<tr>
+  <td class="city">bodrum</td>
+  <td>
+    <div class="name">Blue Point Didim Beach Club</div>
+    <div class="meta"><span class="cat">Plaj</span> · </div>
+    <div class="desc">Didim&#x27;in en popüler ve şık plaj kulüplerinden biridir. Modern tasarımı, kaliteli müzikleri ve geniş güneşlenme alanlarıyla konforlu bir plaj deneyimi sunar. Akşamüstü partileriyle de oldukça ilgi görür.</div>
+  </td>
+  <td><span class="verdict" style="background:#d97706">wrong_city</span>
+      <div class="why">Açıklama, mekanın Bodrum&#x27;da değil, Didim&#x27;de olduğunu açıkça belirtiyor.</div>
+  </td>
+  <td><a href="https://www.google.com/maps/place/?q=place_id:ChIJlW24DwJ-vhQR0nYmhIFwRfI" target="_blank">maps</a></td>
+</tr>
+<tr>
+  <td class="city">bologna</td>
+  <td>
+    <div class="name">Enzo Ferrari Museum</div>
+    <div class="meta"><span class="cat">Müze</span> · Modena</div>
+    <div class="desc">Enzo Ferrari&#x27;nin doğduğu yerdeki bu fütüristik müze, ikonik sarı alüminyum çatısıyla dikkat çekiyor. Efsanevi motorları ve klasik otomobilleri sergileyen bu mimari şaheser, otomotiv tarihinin kalbidir.</div>
+  </td>
+  <td><span class="verdict" style="background:#d97706">wrong_city</span>
+      <div class="why">Enzo Ferrari Müzesi, Bologna&#x27;da değil, Modena&#x27;da yer almaktadır. Açıklama doğru türde ama yanlış şehirden bahsediyor.</div>
+  </td>
+  <td><a href="https://www.google.com/maps/place/?q=place_id:ChIJIxqJxDzvf0cRr0Djk_XxVF4" target="_blank">maps</a></td>
+</tr>
+<tr>
+  <td class="city">bologna</td>
+  <td>
+    <div class="name">Este Castle</div>
+    <div class="meta"><span class="cat">Tarihi</span> · Ferrara</div>
+    <div class="desc">Bologna&#x27;da Este ailesinin izlerini taşıyan bu görkemli ortaçağ kalesi, güçlü surları, zarif salonları ve karanlık zindanlarıyla şehrin zengin tarihini gözler önüne serer. Mimari ihtişamıyla büyüleyicidir.</div>
+  </td>
+  <td><span class="verdict" style="background:#d97706">wrong_city</span>
+      <div class="why">Este Kalesi (Castello Estense) Ferrara&#x27;da bulunur, Bologna&#x27;da değil. Açıklama doğru türde ama yanlış şehirden bahsediyor.</div>
+  </td>
+  <td><a href="https://www.google.com/maps/place/?q=place_id:ChIJp-E9UBNOfkcRFzwWh-pgTU0" target="_blank">maps</a></td>
+</tr>
+<tr>
+  <td class="city">bologna</td>
+  <td>
+    <div class="name">Faenza Ceramics Museum</div>
+    <div class="meta"><span class="cat">Müze</span> · Faenza</div>
+    <div class="desc">Bologna&#x27;daki bu ikonik müze, Faenza&#x27;nın seramik mirasını onurlandırır. Antik çağdan modern döneme Rönesans majolikaları ve dünya kültürlerinden eşsiz seramik eserleri barındıran, büyüleyici koleksiyondur.</div>
+  </td>
+  <td><span class="verdict" style="background:#d97706">wrong_city</span>
+      <div class="why">Faenza Seramik Müzesi, Faenza şehrinde yer almaktadır, Bologna&#x27;da değil. Açıklama doğru türde ama yanlış şehirden bahsediyor.</div>
+  </td>
+  <td><a href="https://www.google.com/maps/place/?q=place_id:ChIJlRg7IBlOKxMRBeAn91mYQEw" target="_blank">maps</a></td>
+</tr>
+<tr>
+  <td class="city">bologna</td>
+  <td>
+    <div class="name">Parma Cathedral</div>
+    <div class="meta"><span class="cat">Tarihi</span> · Parma</div>
+    <div class="desc">Parma Katedrali, 11. yüzyıl Romanesk mimarisinin muhteşem bir örneğidir. Correggio&#x27;nun kubbe freski &quot;Göğe Yükseliş&quot; ve Antelami&#x27;nin heykelleriyle sanatsal bir zirve olup, etkileyici Lombard portikoya sahiptir.</div>
+  </td>
+  <td><span class="verdict" style="background:#d97706">wrong_city</span>
+      <div class="why">Açıklama Parma Katedrali&#x27;ni anlatıyor, ancak mekan Bologna&#x27;da listelenmiş.</div>
+  </td>
+  <td><a href="https://www.google.com/maps/place/?q=place_id:ChIJpcQFB77Uf0cRGz8HHZZb4vg" target="_blank">maps</a></td>
+</tr>
+<tr>
+  <td class="city">bologna</td>
+  <td>
+    <div class="name">Ravenna Mosaics (San Vitale)</div>
+    <div class="meta"><span class="cat">Tarihi</span> · Ravenna</div>
+    <div class="desc">Bizans İmparatorluğu&#x27;nun 6. yüzyıl başyapıtı olan San Vitale Bazilikası, Justinianus ve Theodora mozaikleriyle ünlüdür. Oktagonal mimarisi ve Hristiyan ikonografisinin en görkemli örneklerini barındırır.</div>
+  </td>
+  <td><span class="verdict" style="background:#d97706">wrong_city</span>
+      <div class="why">Açıklama Ravenna&#x27;daki San Vitale Bazilikası&#x27;nı anlatıyor, ancak mekan Bologna&#x27;da listelenmiş.</div>
+  </td>
+  <td><a href="https://www.google.com/maps/place/?q=place_id:ChIJvZv5b1X5fUcRKO4Hasj0S24" target="_blank">maps</a></td>
+</tr>
+<tr>
+  <td class="city">bologna</td>
+  <td>
+    <div class="name">Vignola Castle</div>
+    <div class="meta"><span class="cat">Tarihi</span> · Vignola</div>
+    <div class="desc">Bologna&#x27;daki 15. yüzyıl Contrari Kalesi, Ortaçağ ve Rönesans mimarisini harmanlar. Göz alıcı freskleri ve zengin tarihi odalarıyla bölgenin gücünü, sanatını görkemli yansıtan eşsiz bir yapıdır.</div>
+  </td>
+  <td><span class="verdict" style="background:#d97706">wrong_city</span>
+      <div class="why">Vignola Kalesi Bologna&#x27;da değil, Vignola kasabasındadır. Açıklama yanlış şehir belirtiyor.</div>
+  </td>
+  <td><a href="https://www.google.com/maps/place/?q=place_id:ChIJV1Fyeo3ff0cRviNhGjCnjc0" target="_blank">maps</a></td>
+</tr>
+<tr>
+  <td class="city">kas</td>
+  <td>
+    <div class="name">Saklikent National Park</div>
+    <div class="meta"><span class="cat">Park</span> · </div>
+    <div class="desc">Eşen Çayı&#x27;nın sarp kayalıklar arasında binlerce yılda şekillendirdiği bu devasa kanyon, serin suları ve göğe uzanan duvarlarıyla büyüleyicidir. Kanyonun içinde yürümek ve rafting yapmak adrenalin dolu bir deneyim sunar.</div>
+  </td>
+  <td><span class="verdict" style="background:#d97706">wrong_city</span>
+      <div class="why">Açıklama Saklıkent Kanyonu&#x27;nu anlatıyor, ancak bu kanyon Muğla ilindedir, Antalya&#x27;da değil.</div>
+  </td>
+  <td><a href="https://www.google.com/maps/place/?q=place_id:ChIJX4240qhKwBQRnYEHFRZezXM" target="_blank">maps</a></td>
+</tr>
+</tbody></table>
+</body></html>

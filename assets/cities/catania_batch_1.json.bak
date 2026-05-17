@@ -1,0 +1,285 @@
+[
+  {
+    "id": "ChIJP0UjWi7jExMRJytI986aC6g",
+    "name": "Piazza del Duomo",
+    "name_en": "Piazza del Duomo",
+    "description": "Catania'nın kalbi olan bu UNESCO mirası meydan, görkemli Barok binalar ve kentin simgesi olan siyah lav taşından Fil Çeşmesi ile çevrili büyüleyici bir merkezdir.",
+    "description_en": "The heart of Catania, this UNESCO-listed square is a mesmerizing hub surrounded by grand Baroque buildings and the iconic black lava stone Elephant Fountain.",
+    "category": "Tarihi",
+    "openHours": {
+      "sunday": "07:00-19:00",
+      "monday": "07:00-19:00",
+      "tuesday": "07:00-19:00",
+      "wednesday": "07:00-19:00",
+      "thursday": "07:00-19:00",
+      "friday": "07:00-19:00",
+      "saturday": "07:00-19:00"
+    }
+  },
+  {
+    "id": "ChIJP0UjWi7jExMRJytI986aC6g",
+    "name": "Cattedrale di Sant'Agata",
+    "name_en": "Catania Cathedral",
+    "description": "Kentin koruyucu azizesine adanmış bu muazzam katedral, Norman ve Barok mimarisinin asil bir birleşimidir; içerisinde besteci Vincenzo Bellini'nin ebedi istirahatgahı da bulunmaktadır.",
+    "description_en": "This massive cathedral dedicated to the city's patron saint is a noble blend of Norman and Baroque architecture, housing the tomb of composer Vincenzo Bellini.",
+    "category": "Tarihi",
+    "openHours": {
+      "sunday": "07:00-19:00",
+      "monday": "07:00-19:00",
+      "tuesday": "07:00-19:00",
+      "wednesday": "07:00-19:00",
+      "thursday": "07:00-19:00",
+      "friday": "07:00-19:00",
+      "saturday": "07:00-19:00"
+    }
+  },
+  {
+    "id": "ChIJV63v_C7jExMRLThjTCcPppk",
+    "name": "Fontana dell'Elefante",
+    "name_en": "Elephant Fountain",
+    "description": "Piazza del Duomo'da yükselen 'u Liotru', antik bir Mısır dikilitaşını taşıyan bazalt bir filden oluşur ve kentin her türlü felakete karşı direncini simgeler.",
+    "description_en": "Rising in Piazza del Duomo, 'u Liotru' features a basalt elephant carrying an ancient Egyptian obelisk, symbolizing the city's resilience against all disasters.",
+    "openHours": {
+      "sunday": "closed",
+      "monday": "closed",
+      "tuesday": "closed",
+      "wednesday": "closed",
+      "thursday": "00:00-23:59",
+      "friday": "00:00-24:00",
+      "saturday": "closed"
+    }
+  },
+  {
+    "id": "ChIJx6UP1zHjExMRo1oOCidARpo",
+    "name": "Palazzo Biscari",
+    "name_en": "Palazzo Biscari",
+    "description": "Sicilya Barok mimarisinin en görkemli özel saraylarından biri olan bu yapı, altın varaklı balo salonu ve tarihi mirasıyla kentin soylu geçmişini yansıtır.",
+    "description_en": "One of Sicily's most magnificent private Baroque palaces, this structure reflects the city's noble past with its gilded ballroom and rich historical heritage.",
+    "category": "Saray",
+    "openHours": {
+      "sunday": "10:00-19:00",
+      "monday": "10:00-13:00, 16:00-19:00",
+      "tuesday": "10:00-13:00, 16:00-19:00",
+      "wednesday": "10:00-13:00, 16:00-19:00",
+      "thursday": "10:00-13:00, 16:00-19:00",
+      "friday": "closed",
+      "saturday": "10:00-12:00"
+    }
+  },
+  {
+    "id": "ChIJH_LNACbjExMR3WPlQ82DyEw",
+    "name": "Castello Ursino",
+    "name_en": "Ursino Castle",
+    "description": "13. yüzyıldan kalma bu heybetli kale, 1669'daki devasa lav akıntılarından sağ kurtulmayı başarmış efsanevi bir yapıdır ve günümüzde kentin sivil müzesine ev sahipliği yapar.",
+    "description_en": "This imposing 13th-century castle is a legendary structure that survived the massive 1669 lava flows and now houses the city's fascinating civic museum.",
+    "category": "Tarihi"
+  },
+  {
+    "id": "ChIJhzCABy7jExMRQEgWdrJjEDA",
+    "name": "Teatro Massimo Bellini",
+    "name_en": "Teatro Massimo Bellini",
+    "description": "Dünyanın en kusursuz akustiğine sahip olduğu söylenen bu opera binası, Catanyalı dahi besteci Vincenzo Bellini'nin adını taşıyan, altın süslemeli bir sanat mabedidir.",
+    "description_en": "Said to possess the world's most flawless acoustics, this opera house is a gilded temple of art named after Catania's genius composer, Vincenzo Bellini.",
+    "openHours": {
+      "sunday": "closed",
+      "monday": "closed",
+      "tuesday": "09:30-13:00",
+      "wednesday": "09:30-13:00",
+      "thursday": "09:30-13:00",
+      "friday": "09:30-13:00",
+      "saturday": "09:30-13:00"
+    }
+  },
+  {
+    "id": "ChIJnw9o9ivjExMRSr3zFWsAc-I",
+    "name": "Via dei Crociferi",
+    "name_en": "Via dei Crociferi",
+    "description": "UNESCO koruması altındaki bu cadde, bir kilometreden kısa mesafede dört muazzam Barok kiliseye ev sahipliği yapan dünyanın en ikonik mimari sokaklarından biridir.",
+    "description_en": "Under UNESCO protection, this street is one of the world's most iconic architectural routes, housing four magnificent Baroque churches in less than a kilometer."
+  },
+  {
+    "id": "ChIJb7xgVi7jExMRzmkNXcVXKe0",
+    "name": "Monastero dei Benedettini",
+    "name_en": "Benedictine Monastery",
+    "description": "Avrupa'nın en büyük Benedictine kompleksi olan bu UNESCO mirası yapı, lav taşları üzerine inşa edilmiş labirentvari avluları ve kütüphanesiyle kentin entellektüel merkezidir.",
+    "description_en": "Europe's largest Benedictine complex, this UNESCO site is the city's intellectual center, featuring labyrinthine cloisters and a library built over ancient lava flows.",
+    "category": "Tarihi",
+    "openHours": {
+      "sunday": "09:30-17:00",
+      "monday": "09:30-17:00",
+      "tuesday": "09:30-17:00",
+      "wednesday": "09:30-17:00",
+      "thursday": "09:30-17:00",
+      "friday": "09:30-17:00",
+      "saturday": "09:30-17:00"
+    }
+  },
+  {
+    "id": "ChIJSaqNeCzjExMR6dcdA61sYzg",
+    "name": "Anfiteatro Romano di Catania",
+    "name_en": "Catania Roman Amphitheatre",
+    "description": "Piazza Stesicoro'nun altında gizlenmiş olan bu antik amfitiyatro, bir zamanlar 15.000 seyirci kapasitesiyle Roma dünyasının en büyük arenalarından biri olarak hizmet vermiştir.",
+    "description_en": "Hidden beneath Piazza Stesicoro, this ancient amphitheater once served as one of the Roman world's largest arenas, with a capacity of 15,000 spectators.",
+    "openHours": {
+      "sunday": "09:00-17:00",
+      "monday": "09:00-17:00",
+      "tuesday": "09:00-17:00",
+      "wednesday": "09:00-17:00",
+      "thursday": "09:00-17:00",
+      "friday": "09:00-17:00",
+      "saturday": "09:00-17:00"
+    }
+  },
+  {
+    "id": "ChIJN0oqXy7jExMRPhvS-SJmVE0",
+    "name": "Badia di Sant'Agata",
+    "name_en": "Badia di Sant'Agata",
+    "description": "Kubbe terasından Catania'yı, Akdeniz'i ve görkemli Etna Yanardağı'nı aynı kareden izleyebileceğiniz bu Barok kilise, kentin en büyüleyici manzara noktalarından biridir.",
+    "description_en": "This Baroque church, where you can view Catania, the Mediterranean, and Mt. Etna together from its dome terrace, is one of the city's most enchanting viewpoints.",
+    "openHours": {
+      "sunday": "09:30-13:00, 17:00-20:00",
+      "monday": "09:30-12:30, 15:00-18:00",
+      "tuesday": "09:30-12:30, 15:00-18:00",
+      "wednesday": "09:30-12:30, 15:00-18:00",
+      "thursday": "09:30-12:30, 15:00-18:00",
+      "friday": "09:30-12:30, 15:00-18:00",
+      "saturday": "09:30-12:30, 15:00-18:00"
+    }
+  },
+  {
+    "id": "ChIJydglUdP8ExMRsgDnWML-5yE",
+    "name": "Villa Bellini",
+    "name_en": "Bellini Garden",
+    "description": "Şehrin en eski ve en görkemli halk parkı olan bu bahçe, egzotik ağaçları, huzurlu yürüyüş yolları ve tarihi müzik pavyonuyla kentin yeşil akciğeridir.",
+    "description_en": "The city's oldest and most magnificent public park, this garden is a green lung featuring exotic trees, peaceful paths, and a historic music pavilion.",
+    "openHours": {
+      "sunday": "06:00-22:00",
+      "monday": "06:00-22:00",
+      "tuesday": "06:00-22:00",
+      "wednesday": "06:00-22:00",
+      "thursday": "06:00-22:00",
+      "friday": "06:00-22:00",
+      "saturday": "06:00-22:00"
+    }
+  },
+  {
+    "id": "ChIJjY115FXjExMRL2gOdSSWR08",
+    "name": "Casa Museo Giovanni Verga",
+    "name_en": "Giovanni Verga House Museum",
+    "description": "Ünlü İtalyan yazarın doğduğu ve eserlerini kaleme aldığı bu ev, orijinal mobilyaları ve kişisel eşyalarıyla ziyaretçileri 19. yüzyıl Sicilya edebiyat dünyasına götürür.",
+    "description_en": "The house where the famous Italian writer was born and wrote his works takes visitors back to 19th-century Sicilian literature with original furniture and belongings.",
+    "category": "Müze"
+  },
+  {
+    "id": "ChIJhVn-jdniExMRlAlDXwl--r0",
+    "name": "Porta Garibaldi",
+    "name_en": "Garibaldi Gate",
+    "description": "Azize Agata ve Kral Ferdinand onuruna 1768'de inşa edilen bu görkemli zafer takı, beyaz kalker ve siyah lav taşının oluşturduğu kontrastla büyüleyicidir.",
+    "description_en": "This magnificent triumphal arch, built in 1768 in honor of Saint Agatha and King Ferdinand, is enchanting with its contrast of white limestone and black lava.",
+    "category": "Tarihi",
+    "openHours": {
+      "sunday": "closed",
+      "monday": "closed",
+      "tuesday": "closed",
+      "wednesday": "closed",
+      "thursday": "00:00-23:59",
+      "friday": "00:00-24:00",
+      "saturday": "closed"
+    }
+  },
+  {
+    "id": "ChIJwStnHC_jExMRlVux7ojgnyY",
+    "name": "La Pescheria",
+    "name_en": "The Fish Market",
+    "description": "Her sabah Piazza del Duomo'nun hemen arkasında kurulan bu tarihi balık pazarı, taze deniz ürünleri ve bağıran satıcılarıyla kentin en otantik duyusal deneyimidir.",
+    "description_en": "Held every morning right behind Piazza del Duomo, this historic fish market is the city's most authentic sensory experience with fresh seafood and shouting vendors.",
+    "openHours": {
+      "sunday": "closed",
+      "monday": "07:00-14:00",
+      "tuesday": "07:00-14:00",
+      "wednesday": "07:00-13:00",
+      "thursday": "07:00-14:00",
+      "friday": "07:00-14:00",
+      "saturday": "07:00-14:00"
+    }
+  },
+  {
+    "id": "ChIJN9pkNbr8ExMROINeCgk6NMg",
+    "name": "San Giovanni Li Cuti",
+    "name_en": "San Giovanni Li Cuti",
+    "description": "Siyah volkanik taşlı plajı ve geleneksel ahşap balıkçı tekneleriyle kentin en karakteristik sahil mahallesi olan bu nokta, deniz kenarı akşam yemekleri için mükemmeldir.",
+    "description_en": "The city's most characteristic seaside neighborhood, with its black volcanic stone beach and traditional wooden fishing boats, is perfect for seaside dinners.",
+    "openHours": {
+      "sunday": "closed",
+      "monday": "closed",
+      "tuesday": "closed",
+      "wednesday": "closed",
+      "thursday": "00:00-23:59",
+      "friday": "00:00-24:00",
+      "saturday": "closed"
+    }
+  },
+  {
+    "id": "ChIJeRLe-Zf7ExMRzCj3ETaMbiU",
+    "name": "Aci Castello",
+    "name_en": "Aci Castello",
+    "description": "Denize hakim siyah bir lav kayalığı üzerine kurulu heybetli Norman Kalesi ile ünlü bu kasaba, Akdeniz'in masalsı ve savunmacı tarihini günümüze taşır.",
+    "description_en": "Famous for its imposing Norman Castle perched on a black volcanic rock overlooking the sea, this town brings the Mediterranean's defensive history to life.",
+    "category": "Tarihi",
+    "openHours": {
+      "sunday": "09:00-13:00, 15:00-17:00",
+      "monday": "09:00-13:00, 15:00-17:00",
+      "tuesday": "09:00-13:00, 15:00-17:00",
+      "wednesday": "09:00-13:00, 15:00-17:00",
+      "thursday": "09:00-13:00, 15:00-17:00",
+      "friday": "09:00-13:00, 15:00-17:00",
+      "saturday": "09:00-13:00, 15:00-17:00"
+    }
+  },
+  {
+    "id": "ChIJ2dtCALn7ExMRgTakrT_aDz8",
+    "name": "Aci Trezza",
+    "name_en": "Aci Trezza",
+    "description": "Homeris Odysseia destanındaki Polyphemus kayaları olduğuna inanılan devasa deniz sütunları ile çevrili bu balıkçı kasabası, mitolojik ve doğal bir güzelliğe sahiptir.",
+    "description_en": "This fishing village, surrounded by massive sea stacks believed to be the rocks of Polyphemus from Homer's Odyssey, possesses mythological and natural beauty."
+  },
+  {
+    "id": "cat_mount_etna",
+    "name": "Etna Yanardağı",
+    "name_en": "Mount Etna",
+    "description": "Avrupa'nın en yüksek ve en aktif yanardağı olan Etna, kraterleri, lav akıntıları ve kışın kayak yapma imkanıyla Catania'nın gökyüzündeki görkemli muhafızıdır.",
+    "description_en": "Europe's highest and most active volcano, Etna, is Catania's majestic guardian in the sky, offering craters, lava flows, and even skiing opportunities in winter."
+  },
+  {
+    "id": "ChIJOdSjySzjExMRwdXVW7cKz90",
+    "name": "Fud Bottega Sicula",
+    "name_en": "Fud Bottega Sicula",
+    "description": "Geleneksel Sicilya şarküteri ürünlerini modern hamburger kültürüyle birleştiren bu popüler mekan, yerel malzemeleri ve eğlenceli sunumlarıyla kentin en sevilen modern lezzet duraklarındandır.",
+    "description_en": "Combining traditional Sicilian deli products with modern burger culture, this popular spot is one of the city's favorite modern flavor stops with local ingredients.",
+    "openHours": {
+      "sunday": "00:00-00:30, 12:00-24:00",
+      "monday": "00:00-00:30, 12:00-24:00",
+      "tuesday": "00:00-00:30, 12:00-24:00",
+      "wednesday": "00:00-00:30, 12:00-24:00",
+      "thursday": "00:00-00:30, 12:00-23:59",
+      "friday": "00:00-00:30, 12:00-24:00",
+      "saturday": "00:00-00:30, 12:00-24:00"
+    }
+  },
+  {
+    "id": "ChIJbyaUUNP8ExMREfzUYuzO35c",
+    "name": "Pasticceria Savia",
+    "name_en": "Pasticceria Savia",
+    "description": "1897'den beri hizmet veren bu efsanevi pastane, meşhur arancinileri ve enfes Sicilya granitalarıyla kentin gastronomik mirasının en önemli ve asil temsilcilerinden biridir.",
+    "description_en": "Serving since 1897, this legendary pastry shop is one of the most important noble representatives of the city's gastronomic heritage with its famous arancini and granitas.",
+    "openHours": {
+      "sunday": "08:00-21:20",
+      "monday": "closed",
+      "tuesday": "09:00-21:20",
+      "wednesday": "08:00-21:20",
+      "thursday": "08:00-21:20",
+      "friday": "08:00-21:20",
+      "saturday": "08:00-21:20"
+    }
+  }
+]

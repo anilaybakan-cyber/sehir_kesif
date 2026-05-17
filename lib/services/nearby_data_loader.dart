@@ -13,7 +13,7 @@ class NearbyDataLoader {
         "address": "Passatge Sert 12, Gracia",
         "is_open": true,
         "imageUrl":
-            "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=800",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/St_Peter%27s_Basilica_at_Sunset_2.jpg/1280px-St_Peter%27s_Basilica_at_Sunset_2.jpg",
       },
       {
         "name": "Can Culleretes",
@@ -23,7 +23,7 @@ class NearbyDataLoader {
         "address": "Carrer d'en Quintana 5",
         "is_open": false,
         "imageUrl":
-            "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/St_Peter%27s_Basilica_at_Sunset_2.jpg/1280px-St_Peter%27s_Basilica_at_Sunset_2.jpg",
       },
       {
         "name": "El Nacional",
@@ -33,7 +33,7 @@ class NearbyDataLoader {
         "address": "Passeig de Gràcia 24",
         "is_open": true,
         "imageUrl":
-            "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=800",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/St_Peter%27s_Basilica_at_Sunset_2.jpg/1280px-St_Peter%27s_Basilica_at_Sunset_2.jpg",
       },
       {
         "name": "Satan's Coffee Corner",
@@ -43,7 +43,7 @@ class NearbyDataLoader {
         "address": "Carrer de l'Arc de Sant Ramon",
         "is_open": true,
         "imageUrl":
-            "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=800",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/St_Peter%27s_Basilica_at_Sunset_2.jpg/1280px-St_Peter%27s_Basilica_at_Sunset_2.jpg",
       },
       {
         "name": "Paradiso",
@@ -53,7 +53,7 @@ class NearbyDataLoader {
         "address": "Carrer de Rera Palau 4",
         "is_open": false,
         "imageUrl":
-            "https://images.unsplash.com/photo-1470337458703-46ad1756a187?w=800",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/St_Peter%27s_Basilica_at_Sunset_2.jpg/1280px-St_Peter%27s_Basilica_at_Sunset_2.jpg",
       },
       {
         "name": "Picasso Museum",
@@ -73,7 +73,7 @@ class NearbyDataLoader {
         "address": "Carrer del Parlament 39",
         "is_open": true,
         "imageUrl":
-            "https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=800",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/St_Peter%27s_Basilica_at_Sunset_2.jpg/1280px-St_Peter%27s_Basilica_at_Sunset_2.jpg",
       },
       {
         "name": "Bar Mut",
@@ -83,7 +83,7 @@ class NearbyDataLoader {
         "address": "Carrer de Pau Claris 192",
         "is_open": true,
         "imageUrl":
-            "https://images.unsplash.com/photo-1514933651103-005eec06c04b?w=800",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/St_Peter%27s_Basilica_at_Sunset_2.jpg/1280px-St_Peter%27s_Basilica_at_Sunset_2.jpg",
       },
     ];
 

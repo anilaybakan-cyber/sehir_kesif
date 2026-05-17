@@ -1,40 +1,6 @@
 {
-  "city": "Antalya",
-  "country": "Türkiye",
-  "description": "Turkuaz sahilin başkenti. Tarihi Kaleiçi, büyüleyici falezler, antik tiyatrolar ve lüks tatil köyleriyle Akdeniz'in incisi.",
-  "heroImage": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/kaleici.jpg",
-  "coordinates": {
-    "lat": 36.8841,
-    "lng": 30.7056
-  },
+  "name": "Antalya",
   "highlights": [
-    {
-      "id": "5m-migros-avm",
-      "name": "5M Migros AVM",
-      "name_en": "5M Migros Mall",
-      "description": "5M Migros AVM, Antalya'da alışveriş keyfini yüksek tavanlı, ferah ortamda sunarak geniş mağaza yelpazesini keşfetme fırsatı sunar.",
-      "description_en": "5M Migros AVM offers a spacious, high-ceiling environment in Antalya, inviting visitors to explore its wide range of stores and shopping experiences.",
-      "tips": "Giriş katındaki markette yerel lezzetleri tadın.",
-      "tips_en": "Taste local delicacies at the market on the ground floor.",
-      "category": "Alışveriş",
-      "subcategory": "AVM",
-      "tags": [
-        "süpermarket",
-        "alışveriş",
-        "shopping",
-        "local",
-        "avm",
-        "mall"
-      ],
-      "price": "free",
-      "lat": 36.882579,
-      "lng": 30.660458,
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/5m-migros-avm.jpg",
-      "rating": 4.4,
-      "source": "firebase",
-      "bestTime": "Gündüz",
-      "area": "Konyaaltı"
-    },
     {
       "name": "7 Mehmet",
       "area": "Konyaaltı",
@@ -46,7 +12,7 @@
         "türkiye",
         "restoran"
       ],
-      "distanceFromCenter": 0,
+      "distanceFromCenter": 0.0,
       "lat": 36.881119,
       "lng": 30.663286,
       "price": "medium",
@@ -57,33 +23,21 @@
         "herkes"
       ],
       "source": "google",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/7_mehmet.jpg",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2F7_mehmet.jpg?alt=media",
       "tips": "Güneş batmadan önce manzaranın tadını çıkarın.",
       "description_en": "In the heart of Antalya, 7 Mehmet offers a dynamic dining experience with traditional flavors intertwined with modern touches in a serene atmosphere.",
       "tips_en": "Enjoy the view before sunset.",
-      "name_en": "7 Mehmet"
-    },
-    {
-      "id": "7-mehmet-restoran",
-      "name": "7 Mehmet Restoran",
-      "name_en": "7 Mehmet Restaurant",
-      "description": "Deniz manzarasının güzelliğiyle eski Antalya'nın dokusunu birleştiren 7 Mehmet, modern sunumlarıyla geleneksel lezzetleri harmanlıyor.",
-      "description_en": "7 Mehmet combines the beauty of the sea view with the essence of old Antalya, blending modern presentations with traditional flavors.",
-      "tips": "Öğle saatlerinde deniz manzarasında brunch yapın.",
-      "tips_en": "Enjoy brunch with a sea view during lunchtime.",
-      "category": "Yeme-İçme",
-      "subcategory": "Türk",
-      "tags": [
-        "turkish",
-        "view",
-        "famous"
-      ],
-      "price": "high",
-      "lat": 36.881158,
-      "lng": 30.663344,
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/7-mehmet-restoran.jpg",
-      "rating": 4.2,
-      "source": "firebase"
+      "name_en": "7 Mehmet",
+      "id": "ChIJz8XP05slwhQRASBCV1vS2Ec",
+      "openHours": {
+        "sunday": "00:00-00:00, 11:00-24:00",
+        "monday": "00:00-00:00, 11:00-24:00",
+        "tuesday": "00:00-00:00, 11:00-24:00",
+        "wednesday": "00:00-00:00, 11:00-24:00",
+        "thursday": "00:00-00:00, 11:00-23:59",
+        "friday": "11:00-24:00",
+        "saturday": "00:00-00:00, 11:00-24:00"
+      }
     },
     {
       "name": "Adrasan Koyu",
@@ -106,19 +60,19 @@
       "bestTime_en": "Daytime",
       "tips": "Sabah erken saatlerde gidip denizin tadını çıkarın.",
       "tips_en": "Visit early in the morning to enjoy the sea.",
-      "id": "adrasan-koyu",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/adrasan-koyu.jpg",
+      "id": "ChIJBZizS7s5whQRpxDJdJNkzd4",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Fadrasan-koyu.jpg?alt=media",
       "source": "firebase"
     },
     {
-      "id": "aktur-park",
+      "id": "ChIJYUh1HLaRwxQRQqM30zTSiJ4",
       "name": "Aktur Park",
       "name_en": "Aktur Park",
       "description": "Antalya'nın önde gelen çağdaş eğlence parkı, şehrin siluetini belirleyen devasa 'Antalya Kalbi' dönme dolabını gururla sergiliyor. Bu modern mühendislik harikası, unutulmaz adrenalin dolu deneyimler sunuyor.",
       "description_en": "Antalya's premier contemporary park proudly showcases the colossal 'Heart of Antalya' Ferris wheel, a modern engineering marvel defining the city's skyline. It offers unforgettable adrenaline-fueled experiences.",
       "tips": "Akşam dönme dolaptan Antalya panoramasını izlemek harika bir deneyim sunar.",
       "tips_en": "Experience Antalya's panorama from the Ferris wheel; evenings offer a wonderful view.",
-      "category": "Deneyim",
+      "category": "Park",
       "subcategory": "Lunapark",
       "tags": [
         "amusement park",
@@ -128,12 +82,21 @@
       "price": "medium",
       "lat": 36.884647,
       "lng": 30.659212,
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/aktur-park.jpg",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Faktur-park.jpg?alt=media",
       "rating": 4.3,
-      "source": "firebase"
+      "source": "firebase",
+      "openHours": {
+        "sunday": "00:00-00:00, 15:00-24:00",
+        "monday": "00:00-00:00, 15:00-24:00",
+        "tuesday": "00:00-00:00, 15:00-24:00",
+        "wednesday": "00:00-00:00, 15:00-24:00",
+        "thursday": "00:00-00:00, 15:00-23:59",
+        "friday": "15:00-24:00",
+        "saturday": "00:00-00:00, 15:00-24:00"
+      }
     },
     {
-      "id": "alacakaranlik-seraser",
+      "id": "ChIJw_laGgSQwxQRVnoVbarZ-KI",
       "name": "Alacakaranlık (Seraser)",
       "name_en": "Seraser Fine Dining",
       "description": "Tüm Antalya burada buluşuyor; gençler, sanatçılar ve yemeğe tutkunlar, Alacakaranlık'ta sokak müzisyenleri eşliğinde hayat buluyor.",
@@ -154,11 +117,20 @@
       "price": "very high",
       "lat": 36.885913,
       "lng": 30.706222,
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/alacakaranlik-seraser.jpg",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Falacakaranlik-seraser.jpg?alt=media",
       "rating": 4.3,
       "source": "firebase",
       "bestTime": "İlkbahar",
-      "area": "Kaleiçi"
+      "area": "Kaleiçi",
+      "openHours": {
+        "sunday": "00:00-00:00, 16:00-24:00",
+        "monday": "00:00-00:00, 16:00-24:00",
+        "tuesday": "00:00-00:00, 16:00-24:00",
+        "wednesday": "00:00-00:00, 16:00-24:00",
+        "thursday": "00:00-00:00, 16:00-23:59",
+        "friday": "16:00-24:00",
+        "saturday": "00:00-00:00, 16:00-24:00"
+      }
     },
     {
       "name": "Alanya Arkeoloji Müzesi",
@@ -184,10 +156,19 @@
       "bestTime_en": "Daytime",
       "tips": "Müzenin bahçesindeki Roma dönemi mezar stellerini ve Selçuklu eserlerini incelemeyi unutmayın.",
       "tips_en": "Explore the Roman tomb steles and Seljuk artifacts in the museum garden.",
-      "id": "alanya-arkeoloji-muzesi",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/alanya-arkeoloji-muzesi.jpg",
+      "id": "ChIJX42N7Zyi3BQRxg5SQR3tnRY",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Falanya-arkeoloji-muzesi.jpg?alt=media",
       "source": "firebase",
-      "subcategory": "Müze"
+      "subcategory": "Müze",
+      "openHours": {
+        "sunday": "08:30-18:30",
+        "monday": "08:30-18:30",
+        "tuesday": "08:30-18:30",
+        "wednesday": "08:30-18:30",
+        "thursday": "08:30-18:30",
+        "friday": "08:30-18:30",
+        "saturday": "08:30-18:30"
+      }
     },
     {
       "name": "Alanya Cuma Pazarı",
@@ -210,9 +191,18 @@
       "bestTime_en": "Morning",
       "tips": "Yerel baharat tezgahının yanından geçin, tatlarını keşfedin.",
       "tips_en": "Pass by the local spice stall and discover its flavors.",
-      "id": "alanya-cuma-pazari",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/alanya-cuma-pazari.jpg",
-      "source": "firebase"
+      "id": "ChIJOTLhJXqY3BQRmADYR3BxpaM",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Falanya-cuma-pazari.jpg?alt=media",
+      "source": "firebase",
+      "openHours": {
+        "sunday": "00:00-00:00, 08:00-24:00",
+        "monday": "00:00-00:00, 08:00-24:00",
+        "tuesday": "00:00-00:00, 08:00-24:00",
+        "wednesday": "00:00-00:00, 08:00-24:00",
+        "thursday": "00:00-00:00, 08:00-23:59",
+        "friday": "08:00-24:00",
+        "saturday": "00:00-00:00, 08:00-24:00"
+      }
     },
     {
       "name": "Alanya Kalesi",
@@ -235,9 +225,18 @@
       "bestTime_en": "Sunset",
       "tips": "Erken giderek kalabalık ve sıcaktan kaçının, eşsiz manzaraların tadını çıkarın.",
       "tips_en": "Go early to avoid crowds and heat, enjoying unparalleled views.",
-      "id": "alanya-kalesi",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/alanya-kalesi.jpg",
-      "source": "firebase"
+      "id": "ChIJXdDn8KCi3BQROXVcSLcms1s",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Falanya-kalesi.jpg?alt=media",
+      "source": "firebase",
+      "openHours": {
+        "sunday": "08:00-16:30",
+        "monday": "08:00-16:30",
+        "tuesday": "08:00-16:30",
+        "wednesday": "08:00-16:30",
+        "thursday": "08:00-16:30",
+        "friday": "08:00-16:30",
+        "saturday": "08:00-16:30"
+      }
     },
     {
       "name": "Alanya Limanı",
@@ -260,9 +259,18 @@
       "bestTime_en": "Evening",
       "tips": "Akşamüstü balıkçıların sohbetine katılın.",
       "tips_en": "Join the fishermen's conversations in the late afternoon.",
-      "id": "alanya-limani",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/alanya-limani.jpg",
-      "source": "firebase"
+      "id": "ChIJSeI-PYWY3BQRdM8-H4SO5mU",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Falanya-limani.jpg?alt=media",
+      "source": "firebase",
+      "openHours": {
+        "sunday": "closed",
+        "monday": "closed",
+        "tuesday": "closed",
+        "wednesday": "closed",
+        "thursday": "00:00-23:59",
+        "friday": "00:00-24:00",
+        "saturday": "closed"
+      }
     },
     {
       "name": "Alanya Teleferik",
@@ -279,18 +287,27 @@
       "lng": 31.992,
       "price": "medium",
       "rating": 4.6,
-      "description": "Selçuklu Sultanı Alaaddin Keykubad'ın 13. yüzyıl eseri. 6.5 km surları, Kızıl Kule, Tersanesi ve Bizans kalıntılarıyla Akdeniz'e hakim, ihtişamlı bir tarihi kale kompleksidir.",
-      "description_en": "Seljuk Sultan Alaaddin Keykubad's 13th-century masterpiece. 6.5km walls, Red Tower, Shipyard, and Byzantine ruins define this majestic castle complex overlooking the Mediterranean.",
+      "description": "2017'de açılan Alanya Teleferik, Damlataş'tan tarihi Alanya Kalesi'ne eşsiz bir yolculuk sunar. Akdeniz ve şehrin nefes kesen panoramik manzarasını keşfedin.",
+      "description_en": "Opened in 2017, Alanya Teleferik offers a unique journey from Damlataş to the historic Alanya Castle. Discover breathtaking panoramic views of the Mediterranean and the city.",
       "bestTime": "Gün batımı",
       "bestTime_en": "Sunset",
-      "tips": "Kaleyi keşfetmek için rahat ayakkabılar giyin, bol su alın.",
-      "tips_en": "Wear comfortable shoes and bring water to explore the castle.",
-      "id": "alanya-teleferik",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/alanya-teleferik.jpg",
-      "source": "firebase"
+      "tips": "Gün batımına yakın saatlerde binerek Akdeniz'in kızıl renklerini ve kale siluetini izleyin.",
+      "tips_en": "Ride near sunset to watch the Mediterranean's crimson hues and the castle silhouette.",
+      "id": "ChIJCcOIh5yi3BQRrZxEzOPmpFk",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Falanya-teleferik.jpg?alt=media",
+      "source": "firebase",
+      "openHours": {
+        "sunday": "09:30-23:00",
+        "monday": "09:30-23:00",
+        "tuesday": "09:30-23:00",
+        "wednesday": "09:30-23:00",
+        "thursday": "09:30-23:00",
+        "friday": "09:30-23:00",
+        "saturday": "09:30-23:00"
+      }
     },
     {
-      "id": "altinkum-plaji-side",
+      "id": "ChIJk0T8uDeHvhQR167sJGZGhkg",
       "name": "Altınkum Plajı (Side)",
       "name_en": "Altınkum Beach (Side)",
       "description": "Altınkum Plajı'nda güneş, denizle buluşarak altın bir şeridi sarar, huzur dolu bir atmosfer yaratır.",
@@ -307,19 +324,28 @@
       "price": "free",
       "lat": 37.355623,
       "lng": 27.279066,
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/altinkum-plaji-side.jpg",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Faltinkum-plaji-side.jpg?alt=media",
       "rating": 4.4,
-      "source": "firebase"
+      "source": "firebase",
+      "openHours": {
+        "sunday": "closed",
+        "monday": "closed",
+        "tuesday": "closed",
+        "wednesday": "closed",
+        "thursday": "00:00-23:59",
+        "friday": "00:00-24:00",
+        "saturday": "closed"
+      }
     },
     {
-      "id": "antalya-akvaryum",
+      "id": "ChIJOZgMZLGRwxQR0vACeR9cDAk",
       "name": "Antalya Akvaryum",
       "name_en": "Antalya Aquarium",
       "description": "Modern mimarinin nadide örneği Antalya Akvaryum, dünyanın en büyük tünel akvaryumuna ev sahipliği yapar. Binlerce deniz canlısı barındıran yapı, eşsiz sualtı keşfi sunar.",
       "description_en": "Antalya Aquarium, a rare modern architectural feat, houses the world's largest tunnel aquarium. Featuring thousands of marine creatures, it offers an unparalleled underwater exploration.",
       "tips": "Yoğunluğu önlemek için biletlerinizi online alıp sabah erken saatlerde ziyaret edin.",
       "tips_en": "Buy tickets online; visit early mornings to avoid crowds.",
-      "category": "Deneyim",
+      "category": "Akvaryum",
       "subcategory": "Akvaryum",
       "tags": [
         "aile",
@@ -332,14 +358,23 @@
       "price": "high",
       "lat": 36.879213,
       "lng": 30.66028,
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/antalya-akvaryum.jpg",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Fantalya-akvaryum.jpg?alt=media",
       "rating": 4.1,
       "source": "firebase",
       "bestTime": "Gündüz",
-      "area": "Konyaaltı"
+      "area": "Konyaaltı",
+      "openHours": {
+        "sunday": "10:00-20:00",
+        "monday": "10:00-20:00",
+        "tuesday": "10:00-20:00",
+        "wednesday": "10:00-20:00",
+        "thursday": "10:00-20:00",
+        "friday": "10:00-20:00",
+        "saturday": "10:00-20:00"
+      }
     },
     {
-      "id": "antalya-cumhuriyet-meydani",
+      "id": "ChIJa7cC9xmQwxQRq3kkxCEJEgs",
       "name": "Antalya Cumhuriyet Meydanı",
       "name_en": "Antalya Republic Square",
       "description": "Antalya'nın kalbindeki bu ikonik meydan, Atatürk Anıtı ve panoramik körfez manzarasıyla şehrin tarihi dokusunu sunar. Ulusal törenlere ev sahipliği yaparak kentin sosyal belleğini oluşturur.",
@@ -356,12 +391,21 @@
       "price": "free",
       "lat": 36.886743,
       "lng": 30.703012,
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/antalya-cumhuriyet-meydani.jpg",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Fantalya-cumhuriyet-meydani.jpg?alt=media",
       "rating": 4.6,
-      "source": "firebase"
+      "source": "firebase",
+      "openHours": {
+        "sunday": "closed",
+        "monday": "closed",
+        "tuesday": "closed",
+        "wednesday": "closed",
+        "thursday": "00:00-23:59",
+        "friday": "00:00-24:00",
+        "saturday": "closed"
+      }
     },
     {
-      "id": "antalya-kalesi-surlari",
+      "id": "ChIJQXT_gQGQwxQRXN1E5ot1YCY",
       "name": "Antalya Kalesi Surları",
       "name_en": "Antalya Castle Walls",
       "description": "Antalya Kalesi Surları, Roma temelleri üzerine Bizans, Selçuklu ve Osmanlı medeniyetlerince yükseltilmiş, Hadrian Kapısı'nı da barındıran, şehrin çok katmanlı tarihini fısıldayan anıtsal bir savunma yapısıdır.",
@@ -378,12 +422,12 @@
       "price": "free",
       "lat": 36.887077,
       "lng": 30.705394,
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/antalya-kalesi-surlari.jpg",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Fantalya-kalesi-surlari.jpg?alt=media",
       "rating": 4.5,
       "source": "firebase"
     },
     {
-      "id": "antalya-muzesi",
+      "id": "ChIJsVVnQzqQwxQRcGRvVaiTVnw",
       "name": "Antalya Müzesi",
       "name_en": "Antalya Museum",
       "description": "Antalya Müzesi, Pamfilya ve Likya'nın zengin arkeolojik mirasını sergileyen, Roma heykelleri, lahitler ve paha biçilmez eserlerle dolu, Türkiye'nin en önemli müzelerinden biridir. Antik medeniyetlere ışık tutar.",
@@ -400,7 +444,7 @@
       "price": "medium",
       "lat": 36.886019,
       "lng": 30.679656,
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/antalya-muzesi.jpg",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Fantalya-muzesi.jpg?alt=media",
       "rating": 4.7,
       "source": "firebase"
     },
@@ -425,9 +469,18 @@
       "bestTime_en": "Morning",
       "tips": "Sabah erken gidin, en iyi ürünleri kapmak için.",
       "tips_en": "Go early in the morning to snag the best produce.",
-      "id": "antalya-organic-market",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/antalya-organic-market.jpg",
-      "source": "firebase"
+      "id": "ChIJ311NSQKbwxQRJiCdYpPKkbI",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Fantalya-organic-market.jpg?alt=media",
+      "source": "firebase",
+      "openHours": {
+        "sunday": "closed",
+        "monday": "10:00-19:00",
+        "tuesday": "10:00-19:00",
+        "wednesday": "13:00-19:00",
+        "thursday": "10:00-19:00",
+        "friday": "10:00-19:00",
+        "saturday": "10:00-19:00"
+      }
     },
     {
       "name": "Antalya Oyuncak Müzesi",
@@ -450,9 +503,18 @@
       "bestTime_en": "Daytime",
       "tips": "Müzeyi ziyaret sonrası Kaleiçi'nin tarihi sokaklarını keşfedin, limanda dinlenin.",
       "tips_en": "Explore Kaleiçi's historic streets, relax at the port after your visit.",
-      "id": "antalya-oyuncak-muzesi",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/antalya-oyuncak-muzesi.jpg",
-      "source": "firebase"
+      "id": "ChIJE_wl5gSQwxQRv0S-fiYMG6U",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Fantalya-oyuncak-muzesi.jpg?alt=media",
+      "source": "firebase",
+      "openHours": {
+        "sunday": "09:00-18:00",
+        "monday": "closed",
+        "tuesday": "09:00-18:00",
+        "wednesday": "09:00-18:00",
+        "thursday": "09:00-18:00",
+        "friday": "09:00-18:00",
+        "saturday": "09:00-18:00"
+      }
     },
     {
       "name": "Antiphellos Antik Tiyatrosu",
@@ -475,9 +537,18 @@
       "bestTime_en": "Sunset",
       "tips": "Gün batımında ziyaret ederek muhteşem manzaraların tadını çıkarın.",
       "tips_en": "Visit at sunset to enjoy the magnificent views.",
-      "id": "antiphellos-antik-tiyatrosu",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/antiphellos-antik-tiyatrosu.jpg",
-      "source": "firebase"
+      "id": "ChIJAQAAACstwBQRslW1-2qzS6A",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Fantiphellos-antik-tiyatrosu.jpg?alt=media",
+      "source": "firebase",
+      "openHours": {
+        "sunday": "closed",
+        "monday": "closed",
+        "tuesday": "closed",
+        "wednesday": "closed",
+        "thursday": "00:00-23:59",
+        "friday": "00:00-24:00",
+        "saturday": "closed"
+      }
     },
     {
       "name": "Arma Restaurant",
@@ -503,8 +574,8 @@
       "bestTime_en": "Sunset",
       "tips": "Gün batımında marinadaki yansımaları seyretmek için köşe masayı tercih edin.",
       "tips_en": "At sunset, secure a corner table to view marina reflections.",
-      "id": "arma-restaurant",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/arma-restaurant.jpg",
+      "id": "ChIJpQCQigSQwxQRLqZuMZ5W15Q",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Farma-restaurant.jpg?alt=media",
       "source": "firebase"
     },
     {
@@ -528,9 +599,18 @@
       "bestTime_en": "Morning",
       "tips": "Antik kenti keşfederken rahat ayakkabılar giyin ve yanınıza su almayı unutmayın.",
       "tips_en": "Wear comfortable shoes and bring water; exploring requires some uphill walking.",
-      "id": "arykanda-antik-kenti",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/arykanda-antik-kenti.jpg",
-      "source": "firebase"
+      "id": "ChIJzaxa3EqFwRQRiSbWvx_Mu20",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Farykanda-antik-kenti.jpg?alt=media",
+      "source": "firebase",
+      "openHours": {
+        "sunday": "closed",
+        "monday": "09:00-17:00",
+        "tuesday": "09:00-17:00",
+        "wednesday": "09:00-17:00",
+        "thursday": "09:00-17:00",
+        "friday": "09:00-17:00",
+        "saturday": "09:00-17:00"
+      }
     },
     {
       "name": "Asmani",
@@ -553,9 +633,18 @@
       "bestTime_en": "Evening",
       "tips": "Öğleden sonra çay saatinizi burada geçirin.",
       "tips_en": "Spend your afternoon tea time here.",
-      "id": "asmani",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/asmani.jpg",
-      "source": "firebase"
+      "id": "ChIJV4HBO6KawxQRBd42AK8EpQI",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Fasmani.jpg?alt=media",
+      "source": "firebase",
+      "openHours": {
+        "sunday": "00:00-00:00, 12:00-24:00",
+        "monday": "00:00-00:00, 12:00-24:00",
+        "tuesday": "00:00-00:00, 12:00-24:00",
+        "wednesday": "00:00-00:00, 12:00-24:00",
+        "thursday": "00:00-00:00, 12:00-23:59",
+        "friday": "12:00-24:00",
+        "saturday": "00:00-00:00, 12:00-24:00"
+      }
     },
     {
       "name": "Aspendos Antik Tiyatrosu",
@@ -568,7 +657,7 @@
         "türkiye",
         "tarihi"
       ],
-      "distanceFromCenter": 0,
+      "distanceFromCenter": 0.0,
       "lat": 36.938941,
       "lng": 31.172199,
       "price": "medium",
@@ -579,11 +668,21 @@
         "herkes"
       ],
       "source": "google",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/aspendos_antik_tiyatrosu.jpg",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Faspendos_antik_tiyatrosu.jpg?alt=media",
       "tips": "Sıcağı ve kalabalığı önlemek için sabah erken veya akşam geç saatleri tercih edin.",
       "description_en": "Built by Zenon in 2nd century AD, Marcus Aurelius era Roman theatre, an architectural masterpiece. Unique acoustics and preserved stage still host artistic events.",
       "tips_en": "To avoid heat and crowds, prefer early mornings or late afternoons.",
-      "name_en": "Aspendos Antik Tiyatrosu"
+      "name_en": "Aspendos Ancient Theatre",
+      "id": "ChIJ3W73OHaexBQRtjbW352tqoI",
+      "openHours": {
+        "sunday": "08:00-16:30",
+        "monday": "08:00-16:30",
+        "tuesday": "08:00-16:30",
+        "wednesday": "08:00-16:30",
+        "thursday": "08:00-16:30",
+        "friday": "08:00-16:30",
+        "saturday": "08:00-16:30"
+      }
     },
     {
       "name": "Atatürk Evi Müzesi",
@@ -606,12 +705,21 @@
       "bestTime_en": "Daytime",
       "tips": "Merkeze yakın, kolay ulaşılabilir. Çevredeki diğer müzelerle birleştirilebilir.",
       "tips_en": "Centrally located, easily accessible. Can be combined with other nearby museums.",
-      "id": "ataturk-evi-muzesi",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/ataturk-evi-muzesi.jpg",
-      "source": "firebase"
+      "id": "ChIJsTtsJwaQwxQRVRMRm_xourI",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Fataturk-evi-muzesi.jpg?alt=media",
+      "source": "firebase",
+      "openHours": {
+        "sunday": "08:30-17:00",
+        "monday": "08:30-17:00",
+        "tuesday": "08:30-17:00",
+        "wednesday": "08:30-17:00",
+        "thursday": "08:30-17:00",
+        "friday": "08:30-17:00",
+        "saturday": "08:30-17:00"
+      }
     },
     {
-      "id": "ataturk-parki",
+      "id": "ChIJ6aDACz2QwxQR4eQt77hSl7o",
       "name": "Atatürk Parkı",
       "name_en": "Atatürk Park",
       "description": "Kahve kokusu rüzgarla harmanlanırken, ağaçların gölgesinde adım sesleri yankılanır. Serin bir esinti, parkın huzurunu tazeler.",
@@ -628,7 +736,7 @@
       "price": "free",
       "lat": 36.884013,
       "lng": 30.687246,
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/ataturk-parki.jpg",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Fataturk-parki.jpg?alt=media",
       "rating": 4.4,
       "source": "firebase"
     },
@@ -653,12 +761,21 @@
       "bestTime_en": "Night",
       "tips": "Gece 22:00'den sonra canlı müzik keyfini çıkarın.",
       "tips_en": "Enjoy live music after 10 PM for a vibrant experience.",
-      "id": "aura-club-kemer",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/aura-club-kemer.jpg",
-      "source": "firebase"
+      "id": "ChIJB25sBu63wxQRwOJ7CuiH5QM",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Faura-club-kemer.jpg?alt=media",
+      "source": "firebase",
+      "openHours": {
+        "sunday": "00:00-04:00, 22:30-24:00",
+        "monday": "00:00-04:00, 22:30-24:00",
+        "tuesday": "00:00-04:00, 22:30-24:00",
+        "wednesday": "00:00-04:00, 22:30-24:00",
+        "thursday": "00:00-04:00, 22:30-23:59",
+        "friday": "00:00-04:00, 22:30-24:00",
+        "saturday": "00:00-04:00, 22:30-24:00"
+      }
     },
     {
-      "id": "balikcilar-carsisi",
+      "id": "ChIJu9WZ_FyPwxQRgH3geiAEmSU",
       "name": "Balıkçılar Çarşısı",
       "name_en": "Fisherman's Market",
       "description": "Taze deniz ürünlerinin keskin kokusu havaya yayılırken, balıkçıların gür sesleri yankılanır. Tezgahların yansımalı yüzeylerinde gümüş pullar parıldar, zeminde nemli bir serinlik hissedilir.",
@@ -675,13 +792,22 @@
       "price": "free",
       "lat": 36.907107,
       "lng": 30.665916,
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/balikcilar-carsisi.jpg",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Fbalikcilar-carsisi.jpg?alt=media",
       "rating": 4.2,
-      "source": "firebase"
+      "source": "firebase",
+      "openHours": {
+        "sunday": "closed",
+        "monday": "closed",
+        "tuesday": "closed",
+        "wednesday": "closed",
+        "thursday": "00:00-23:59",
+        "friday": "00:00-24:00",
+        "saturday": "closed"
+      }
     },
     {
       "name": "Beach Park Konyaaltı",
-      "name_en": "Beach Park Konyaalti",
+      "name_en": "Konyaaltı Beach Park",
       "area": "Konyaaltı",
       "category": "Plaj",
       "tags": [
@@ -700,8 +826,8 @@
       "bestTime_en": "Evening",
       "tips": "Sıcak saatlerden kaçınmak için sabah erkenden gidin.",
       "tips_en": "Visit early in the morning to avoid the heat.",
-      "id": "beach-park-konyaalti",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/beach-park-konyaalti.jpg",
+      "id": "ChIJY1PYGEuQwxQRo3ctHJ7-KVs",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Fbeach-park-konyaalti.jpg?alt=media",
       "source": "firebase"
     },
     {
@@ -725,12 +851,21 @@
       "bestTime_en": "Daytime",
       "tips": "Mağara çevresindeki patikalarda yürüyüş yapmayı unutmayın.",
       "tips_en": "Don't forget to hike the trails around the cave.",
-      "id": "beldibi-magarasi",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/beldibi-magarasi.jpg",
-      "source": "firebase"
+      "id": "ChIJzTI4G1G_wxQRabHzp1Ycjeo",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Fbeldibi-magarasi.jpg?alt=media",
+      "source": "firebase",
+      "openHours": {
+        "sunday": "closed",
+        "monday": "closed",
+        "tuesday": "closed",
+        "wednesday": "closed",
+        "thursday": "00:00-23:59",
+        "friday": "00:00-24:00",
+        "saturday": "closed"
+      }
     },
     {
-      "id": "belek-golf-sahalari",
+      "id": "ChIJxdsPqW97wxQRRseBw5pwirY",
       "name": "Belek Golf Sahaları",
       "name_en": "Belek Golf Courses",
       "description": "Belek, Akdeniz'in çam ormanlarıyla bütünleşen, dünyaca ünlü mimarlarca tasarlanmış, ödüllü şampiyona parkurlarına ev sahipliği yapan prestijli bir golf destinasyonudur. Türkiye'nin golf sahnesindeki öncü rolünü vurgular.",
@@ -749,11 +884,20 @@
       "price": "very high",
       "lat": 36.859082,
       "lng": 31.04769,
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/belek-golf-sahalari.jpg",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Fbelek-golf-sahalari.jpg?alt=media",
       "rating": 4.5,
       "source": "firebase",
       "bestTime": "İlkbahar",
-      "area": "Belek"
+      "area": "Belek",
+      "openHours": {
+        "sunday": "06:00-19:00",
+        "monday": "06:00-19:00",
+        "tuesday": "06:00-19:00",
+        "wednesday": "06:00-19:00",
+        "thursday": "06:00-19:00",
+        "friday": "06:00-19:00",
+        "saturday": "06:00-19:00"
+      }
     },
     {
       "name": "Bey Dağları Sahil Milli Parkı",
@@ -776,9 +920,18 @@
       "bestTime_en": "Spring",
       "tips": "Günü batımında ziyaret edip manzaranın tadını çıkarın.",
       "tips_en": "Visit at sunset to enjoy the stunning views.",
-      "id": "bey-daglari-sahil-milli-parki",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/bey-daglari-sahil-milli-parki.jpg",
-      "source": "firebase"
+      "id": "ChIJuQ1w93eVwxQRTFuS4TCjLIE",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Fbey-daglari-sahil-milli-parki.jpg?alt=media",
+      "source": "firebase",
+      "openHours": {
+        "sunday": "08:00-18:00",
+        "monday": "08:00-18:00",
+        "tuesday": "08:00-18:00",
+        "wednesday": "08:00-18:00",
+        "thursday": "08:00-18:00",
+        "friday": "08:00-18:00",
+        "saturday": "08:00-18:00"
+      }
     },
     {
       "name": "Big Pebble Beach Kaş",
@@ -801,9 +954,18 @@
       "bestTime_en": "Daytime",
       "tips": "Günün en sıcak saatlerinde şemsiye kiralamayı unutmayın.",
       "tips_en": "Don't forget to rent an umbrella during the hottest hours of the day.",
-      "id": "big-pebble-beach-kas",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/big-pebble-beach-kas.jpg",
-      "source": "firebase"
+      "id": "ChIJn3Uer1DawRQR4dSonJpxkc8",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Fbig-pebble-beach-kas.jpg?alt=media",
+      "source": "firebase",
+      "openHours": {
+        "sunday": "00:00-01:00, 08:30-24:00",
+        "monday": "00:00-01:00, 08:30-24:00",
+        "tuesday": "00:00-01:00, 08:30-24:00",
+        "wednesday": "00:00-01:00, 08:30-24:00",
+        "thursday": "00:00-01:00, 08:30-23:59",
+        "friday": "00:00-01:00, 08:30-24:00",
+        "saturday": "00:00-01:00, 08:30-24:00"
+      }
     },
     {
       "name": "Butterfly Valley (Kelebekler Vadisi)",
@@ -826,9 +988,18 @@
       "bestTime_en": "Summer",
       "tips": "Sakin saatlerde akşam yürüyüşü yapmak harika.",
       "tips_en": "An evening walk during quiet hours is wonderful.",
-      "id": "butterfly-valley-kelebekler-vadisi",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/butterfly-valley-kelebekler-vadisi.jpg",
-      "source": "firebase"
+      "id": "ChIJ60ZyZdQ-wBQRFNQOHi3Zx3c",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Fbutterfly-valley-kelebekler-vadisi.jpg?alt=media",
+      "source": "firebase",
+      "openHours": {
+        "sunday": "closed",
+        "monday": "closed",
+        "tuesday": "closed",
+        "wednesday": "closed",
+        "thursday": "00:00-23:59",
+        "friday": "00:00-24:00",
+        "saturday": "closed"
+      }
     },
     {
       "name": "Börekçi Tevfik",
@@ -841,7 +1012,7 @@
         "türkiye",
         "restoran"
       ],
-      "distanceFromCenter": 0,
+      "distanceFromCenter": 0.0,
       "lat": 36.886016,
       "lng": 30.709861,
       "price": "medium",
@@ -852,12 +1023,22 @@
         "herkes"
       ],
       "source": "google",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/borekci_tevfik.jpg",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Fborekci_tevfik.jpg?alt=media",
       "tips": "Öğle saatlerinde taze börekleri tatmayı unutmayın.",
       "description_en": "In the heart of Antalya, filled with the warm aroma of pastries, Börekçi Tevfik offers traditional flavors that dance on the palate amidst rustic walls and a friendly atmosphere.",
       "tips_en": "Don't forget to try the fresh pastries during lunch hours.",
       "area_en": "Center",
-      "name_en": "Börekçi Tevfik"
+      "name_en": "Börekçi Tevfik",
+      "id": "ChIJwd3IxACQwxQRCORJLGCzwMw",
+      "openHours": {
+        "sunday": "08:00-13:30",
+        "monday": "closed",
+        "tuesday": "08:00-13:30",
+        "wednesday": "08:00-13:30",
+        "thursday": "08:00-13:30",
+        "friday": "08:00-13:30",
+        "saturday": "08:00-13:30"
+      }
     },
     {
       "name": "Cafe Terra",
@@ -880,9 +1061,18 @@
       "bestTime_en": "Sunset",
       "tips": "Pencere kenarında oturup kahvenizi yudumlayın.",
       "tips_en": "Sit by the window and sip your coffee.",
-      "id": "cafe-terra",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/cafe-terra.jpg",
-      "source": "firebase"
+      "id": "ChIJJa7DOh6bwxQR2aBu8D5Gv0w",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Fcafe-terra.jpg?alt=media",
+      "source": "firebase",
+      "openHours": {
+        "sunday": "06:30-19:30",
+        "monday": "06:30-19:30",
+        "tuesday": "06:30-19:30",
+        "wednesday": "06:30-19:30",
+        "thursday": "06:30-19:30",
+        "friday": "06:30-19:30",
+        "saturday": "06:30-19:30"
+      }
     },
     {
       "name": "Cam Piramit Antalya",
@@ -905,34 +1095,12 @@
       "bestTime_en": "Depending on event",
       "tips": "Ziyaret öncesi güncel sergi ve etkinlik programını kontrol etmeyi unutmayın.",
       "tips_en": "Always check the latest exhibition and event schedule before your visit.",
-      "id": "cam-piramit-antalya",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/cam-piramit-antalya.jpg",
+      "id": "ChIJ16M0tsqRwxQReCBhPPZnPMQ",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Fcam-piramit-antalya.jpg?alt=media",
       "source": "firebase"
     },
     {
-      "id": "cam-piramit-kongre-merkezi",
-      "name": "Cam Piramit Kongre Merkezi",
-      "name_en": "Glass Pyramid Congress Center",
-      "description": "Mimar M. Rifat Çini'nin 1997'deki eseri Cam Piramit, Antalya'nın çağdaş mimari simgesidir. Uluslararası kongre ve sergilere ev sahipliği yaparak şehrin kültürel hafızasına katkı sunar.",
-      "description_en": "M. Rifat Çini's 1997 architectural masterpiece, Cam Piramit, is Antalya's contemporary symbol. Hosting international congresses and exhibitions, it enriches the city's cultural memory.",
-      "tips": "Etkinlik takvimini kontrol ederek ziyaretinizi planlayın.",
-      "tips_en": "Check the event calendar to plan your visit.",
-      "category": "Tarihi",
-      "subcategory": "Mimari",
-      "tags": [
-        "architecture",
-        "modern",
-        "pyramid"
-      ],
-      "price": "free",
-      "lat": 36.884608,
-      "lng": 30.666015,
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/cam-piramit-kongre-merkezi.jpg",
-      "rating": 4.4,
-      "source": "firebase"
-    },
-    {
-      "id": "chimaera-yanartas",
+      "id": "ChIJxyYrOj80whQR71dIyDFT2xk",
       "name": "Chimaera (Yanartaş)",
       "name_en": "Chimaera Flames",
       "description": "Doğal gaz alevlerinin dans ettiği Yanartaş, büyüleyici bir atmosfer sunarak ziyaretçileri mistik bir yolculuğa çıkarıyor.",
@@ -949,18 +1117,27 @@
       "price": "low",
       "lat": 36.431128,
       "lng": 30.456383,
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/chimaera-yanartas.jpg",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Fchimaera-yanartas.jpg?alt=media",
       "rating": 4.4,
-      "source": "firebase"
+      "source": "firebase",
+      "openHours": {
+        "sunday": "09:00-20:00",
+        "monday": "09:00-20:00",
+        "tuesday": "09:00-20:00",
+        "wednesday": "09:00-20:00",
+        "thursday": "09:00-20:00",
+        "friday": "09:00-20:00",
+        "saturday": "09:00-20:00"
+      }
     },
     {
       "id": "club-ally",
       "name": "Club Ally",
       "name_en": "Club Ally",
-      "description": "MS 130'da Roma İmparatoru Hadrianus'un ziyaretini anan, üç kemerli anıtsal beyaz mermer kapı. Julia Sancta kulesi ve Selçuklu rekonstrüksiyonlarıyla çevrili bu Roma zafer takı, antik mimariyi sergiler.",
-      "description_en": "Commemorating Emperor Hadrian's 130 AD visit, this magnificent three-arched Roman triumphal gate, crafted from white marble, showcases ancient imperial architecture and historical significance.",
-      "tips": "Kaleiçi'ne girerken tarihi atmosferi deneyimlemek için gün batımında ziyaret edin.",
-      "tips_en": "Visit at sunset to experience the historical atmosphere entering Kaleiçi.",
+      "description": "Antalya'nın köklü eğlence duraklarından Club Ally, canlı DJ performansları ve enerjik atmosferiyle şehrin gece hayatının kalbinde yer alır.",
+      "description_en": "Club Ally, one of Antalya's established entertainment venues, is at the heart of the city's nightlife with live DJ performances and an energetic atmosphere.",
+      "tips": "Hafta sonları daha kalabalık ve enerjiktir; erken gitmek veya rezervasyon yaptırmak yer bulmayı kolaylaştırır.",
+      "tips_en": "It's more crowded and energetic on weekends; going early or making a reservation makes finding a spot easier.",
       "category": "Deneyim",
       "subcategory": "Gece Kulübü",
       "tags": [
@@ -971,33 +1148,8 @@
       "price": "high",
       "lat": 36.886295,
       "lng": 30.70547,
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/club-ally.jpg",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Fclub-ally.jpg?alt=media",
       "rating": 4.3,
-      "source": "firebase"
-    },
-    {
-      "name": "Club Arma",
-      "name_en": "Club Arma",
-      "area": "Kaleiçi",
-      "category": "Bar",
-      "tags": [
-        "bara",
-        "gece hayatı",
-        "manzara"
-      ],
-      "distanceFromCenter": 0.3,
-      "lat": 36.8812,
-      "lng": 30.7028,
-      "price": "high",
-      "rating": 4.4,
-      "description": "Club Arma, canlı müzik ve deniz manzarasıyla yerel halkı ağırlarken, partilerin enerjisini benliğinde barındıran bir mekan.",
-      "description_en": "Club Arma welcomes locals with live music and sea views, embodying the vibrant energy of parties within its walls.",
-      "bestTime": "Gece",
-      "bestTime_en": "Night",
-      "tips": "Güneş batarken en güzel manzarayı yakala.",
-      "tips_en": "Catch the best view as the sun sets.",
-      "id": "club-arma",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/club-arma.jpg",
       "source": "firebase"
     },
     {
@@ -1021,12 +1173,12 @@
       "bestTime_en": "Daytime",
       "tips": "Sabah erken saatlerde gidin, kalabalık olmuyor.",
       "tips_en": "Visit early in the morning to avoid crowds.",
-      "id": "damlatas-magarasi",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/damlatas-magarasi.jpg",
+      "id": "ChIJF3muFJyi3BQRjLvNQprzYas",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Fdamlatas-magarasi.jpg?alt=media",
       "source": "firebase"
     },
     {
-      "id": "deepo-outlet-center",
+      "id": "ChIJM9FEHmmEwxQRI1SyAuCxraQ",
       "name": "Deepo Outlet Center",
       "name_en": "Deepo Outlet Center",
       "description": "Modern mimari ile geleneksel Antalya ritmi arasında keyifli bir alışveriş deneyimi sunar.",
@@ -1043,13 +1195,22 @@
       "price": "free",
       "lat": 36.921889,
       "lng": 30.78488,
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/deepo-outlet-center.jpg",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Fdeepo-outlet-center.jpg?alt=media",
       "rating": 4.3,
-      "source": "firebase"
+      "source": "firebase",
+      "openHours": {
+        "sunday": "10:00-22:00",
+        "monday": "10:00-22:00",
+        "tuesday": "10:00-22:00",
+        "wednesday": "10:00-22:00",
+        "thursday": "10:00-22:00",
+        "friday": "10:00-22:30",
+        "saturday": "10:00-22:30"
+      }
     },
     {
       "name": "Deniz Lokantası",
-      "name_en": "Deniz Lokantasi",
+      "name_en": "Deniz Restaurant",
       "area": "Kemer",
       "category": "Yeme-İçme",
       "tags": [
@@ -1068,12 +1229,21 @@
       "bestTime_en": "Evening",
       "tips": "Sahildeki masalarda gün batımını izleyin.",
       "tips_en": "Watch the sunset from the tables by the beach.",
-      "id": "deniz-lokantasi",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/deniz-lokantasi.jpg",
-      "source": "firebase"
+      "id": "ChIJyePy4eK5yhQRsCpeXCd4IpE",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Fdeniz-lokantasi.jpg?alt=media",
+      "source": "firebase",
+      "openHours": {
+        "sunday": "closed",
+        "monday": "closed",
+        "tuesday": "closed",
+        "wednesday": "closed",
+        "thursday": "00:00-23:59",
+        "friday": "00:00-24:00",
+        "saturday": "closed"
+      }
     },
     {
-      "id": "dim-magarasi",
+      "id": "ChIJLwlndJWb3BQRZw5bnZ3kDCo",
       "name": "Dim Mağarası",
       "name_en": "Dim Cave",
       "description": "Dim Mağarası'nın serin dehlizlerinde, damlayan su sesleri ve ziyaretçilerin hayranlık fısıltılarıyla dolan canlı bir enerji hissedilir. Öğrenci grupları ve doğa meraklısı aileler, antik jeolojinin nefes kesen sanatını keşfederken mağara canlanır.",
@@ -1090,9 +1260,18 @@
       "price": "low",
       "lat": 36.5401,
       "lng": 32.109013,
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/dim-magarasi.jpg",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Fdim-magarasi.jpg?alt=media",
       "rating": 4.6,
-      "source": "firebase"
+      "source": "firebase",
+      "openHours": {
+        "sunday": "09:00-17:30",
+        "monday": "09:00-17:30",
+        "tuesday": "09:00-17:30",
+        "wednesday": "09:00-17:30",
+        "thursday": "09:00-17:30",
+        "friday": "09:00-17:30",
+        "saturday": "09:00-17:30"
+      }
     },
     {
       "name": "Dim Çayı",
@@ -1115,8 +1294,8 @@
       "bestTime_en": "Lunch",
       "tips": "Saat 10'dan önce gölgeli bir nehir kenarı platformu bulun, serinliğin tadını çıkarın.",
       "tips_en": "Before 10 AM, find a shaded riverside platform for ultimate coolness.",
-      "id": "dim-cayi",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/dim-cayi.jpg",
+      "id": "ChIJTUh50UeD3BQR5PxO6UOWTH8",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Fdim-cayi.jpg?alt=media",
       "source": "firebase"
     },
     {
@@ -1140,12 +1319,21 @@
       "bestTime_en": "Afternoon",
       "tips": "Sadece fıstıklı dondurmayı denemeyi unutmayın.",
       "tips_en": "Don't forget to try only the pistachio ice cream.",
-      "id": "dondurma-dukkani",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/dondurma-dukkani.jpg",
-      "source": "firebase"
+      "id": "ChIJBWr2z3GRwxQRXdPT_C0TCrM",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Fdondurma-dukkani.jpg?alt=media",
+      "source": "firebase",
+      "openHours": {
+        "sunday": "00:00-00:00, 10:00-24:00",
+        "monday": "00:00-00:00, 10:00-24:00",
+        "tuesday": "00:00-00:00, 10:00-24:00",
+        "wednesday": "00:00-00:00, 10:00-24:00",
+        "thursday": "00:00-00:00, 10:00-23:59",
+        "friday": "10:00-24:00",
+        "saturday": "00:00-00:00, 10:00-24:00"
+      }
     },
     {
-      "id": "dogu-garaj-kultur-merkezi",
+      "id": "ChIJ6WBOqGObwxQR9WbK5XJDtb8",
       "name": "Doğu Garaj Kültür Merkezi",
       "name_en": "Doğu Garaj Cultural Center",
       "description": "Antalya'nın kalbinde, Roma dönemi kalıntıları üzerine yükselen Doğu Garaj Kültür Merkezi, modern mimarisiyle öne çıkar. Sergi salonları ve arkeolojik bulgularla zenginleştirilmiş, kültürel bir buluşma noktasıdır.",
@@ -1162,12 +1350,21 @@
       "price": "free",
       "lat": 36.888397,
       "lng": 30.712362,
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/dogu-garaj-kultur-merkezi.jpg",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Fdogu-garaj-kultur-merkezi.jpg?alt=media",
       "rating": 4.1,
-      "source": "firebase"
+      "source": "firebase",
+      "openHours": {
+        "sunday": "09:00-22:00",
+        "monday": "09:00-22:00",
+        "tuesday": "09:00-22:00",
+        "wednesday": "09:00-22:00",
+        "thursday": "09:00-22:00",
+        "friday": "09:00-22:00",
+        "saturday": "09:00-22:00"
+      }
     },
     {
-      "id": "donerciler-carsisi",
+      "id": "ChIJ05N_QAGQwxQRpr7cS_TdclA",
       "name": "Dönerciler Çarşısı",
       "name_en": "Döner Market",
       "description": "Dönerciler Çarşısı, taze dönerin en doğal halleriyle buluştuğu, samimi bir atmosfer sunuyor.",
@@ -1184,12 +1381,21 @@
       "price": "low",
       "lat": 36.887142,
       "lng": 30.707455,
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/donerciler-carsisi.jpg",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Fdonerciler-carsisi.jpg?alt=media",
       "rating": 3.7,
-      "source": "firebase"
+      "source": "firebase",
+      "openHours": {
+        "sunday": "closed",
+        "monday": "closed",
+        "tuesday": "closed",
+        "wednesday": "closed",
+        "thursday": "00:00-23:59",
+        "friday": "00:00-24:00",
+        "saturday": "closed"
+      }
     },
     {
-      "id": "duden-selalesi-alt",
+      "id": "ChIJu3F7zgmGwxQRiKcatsput3I",
       "name": "Düden Şelalesi (Alt)",
       "name_en": "Lower Düden Waterfalls",
       "description": "Büyüleyici su akıntıları arasında yeşil teraslarda yürüyüş yaparken huzuru keşfedin.",
@@ -1212,39 +1418,20 @@
       "price": "low",
       "lat": 36.964715,
       "lng": 30.726778,
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/duden-selalesi-alt.jpg",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Fduden-selalesi-alt.jpg?alt=media",
       "rating": 4.6,
       "source": "firebase",
       "bestTime": "Yazın",
-      "area": "Lara"
-    },
-    {
-      "name": "Düden Şelalesi (Yukarı)",
-      "area": "Kepez",
-      "category": "Park",
-      "subcategory": "Park",
-      "tags": [
-        "kepez",
-        "antalya",
-        "türkiye",
-        "park"
-      ],
-      "distanceFromCenter": 0,
-      "lat": 36.963731,
-      "lng": 30.726744,
-      "price": "medium",
-      "rating": 4.5,
-      "description": "Saklı bir vahada, suyun sesiyle huzuru bulur; doğa yürüyüşleri için ideal bir alan.",
-      "bestTime": "İlkbahar",
-      "bestFor": [
-        "herkes"
-      ],
-      "source": "google",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/duden_selalesi_yukari.jpg",
-      "tips": "Çam ağaçlarının gölgesinde dinlenmeyi unutmayın.",
-      "description_en": "In a hidden oasis, find tranquility in the sound of water; an ideal spot for nature walks.",
-      "tips_en": "Don't forget to rest in the shade of pine trees.",
-      "name_en": "Düden Waterfall (Yukarı)"
+      "area": "Lara",
+      "openHours": {
+        "sunday": "09:00-17:30",
+        "monday": "09:00-17:30",
+        "tuesday": "09:00-17:30",
+        "wednesday": "09:00-17:30",
+        "thursday": "09:00-17:30",
+        "friday": "09:00-17:30",
+        "saturday": "09:00-17:30"
+      }
     },
     {
       "name": "Falez Kafeleri",
@@ -1267,9 +1454,18 @@
       "bestTime_en": "Sunset",
       "tips": "Pencereden deniz manzarasını izleyerek oturun.",
       "tips_en": "Sit by the window to enjoy the sea view.",
-      "id": "falez-kafeleri",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/falez-kafeleri.jpg",
-      "source": "firebase"
+      "id": "ChIJx1lpl8eRwxQRXMvtsMErxPg",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Ffalez-kafeleri.jpg?alt=media",
+      "source": "firebase",
+      "openHours": {
+        "sunday": "00:00-01:30, 08:30-22:30",
+        "monday": "closed",
+        "tuesday": "08:30-22:30",
+        "wednesday": "08:30-22:30",
+        "thursday": "08:30-22:30",
+        "friday": "08:30-24:00",
+        "saturday": "00:00-01:30, 08:30-24:00"
+      }
     },
     {
       "name": "Göynük Kanyonu",
@@ -1292,9 +1488,18 @@
       "bestTime_en": "Morning",
       "tips": "Kanyon yürüyüşü sırasında su sesini dinlemeyi unutmayın.",
       "tips_en": "Don’t forget to listen to the sound of water during your canyon walk.",
-      "id": "goynuk-kanyonu",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/goynuk-kanyonu.jpg",
-      "source": "firebase"
+      "id": "ChIJR_Skz564wxQRzPLyZO0I7MU",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Fgoynuk-kanyonu.jpg?alt=media",
+      "source": "firebase",
+      "openHours": {
+        "sunday": "09:00-18:00",
+        "monday": "09:00-18:00",
+        "tuesday": "09:00-18:00",
+        "wednesday": "09:00-18:00",
+        "thursday": "09:00-18:00",
+        "friday": "09:00-18:00",
+        "saturday": "09:00-18:00"
+      }
     },
     {
       "name": "Güllük Dağı Milli Parkı",
@@ -1317,9 +1522,18 @@
       "bestTime_en": "Spring",
       "tips": "Zirvedeki Termessos antik kentini günbatımında ziyaret edin, ışıklar eşsiz manzaralar sunar.",
       "tips_en": "Visit Termessos ancient city at the peak for unique sunset views.",
-      "id": "gulluk-dagi-milli-parki",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/gulluk-dagi-milli-parki.jpg",
-      "source": "firebase"
+      "id": "ChIJrZ0sX1DzwxQRulI0E9gVInQ",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Fgulluk-dagi-milli-parki.jpg?alt=media",
+      "source": "firebase",
+      "openHours": {
+        "sunday": "08:00-17:30",
+        "monday": "08:00-17:30",
+        "tuesday": "08:00-17:30",
+        "wednesday": "08:00-17:30",
+        "thursday": "08:00-17:30",
+        "friday": "08:00-17:30",
+        "saturday": "08:00-17:30"
+      }
     },
     {
       "name": "Güver Uçurumu",
@@ -1336,18 +1550,27 @@
       "lng": 30.512,
       "price": "free",
       "rating": 4.4,
-      "description": "Güver Uçurumu, tarih ve doğanın kesişiminde sakin bir kaçış sunarken, denizden yükselen kayalıkların dramatik görüntüsü modern yaşamın karmaşasıyla kesişiyor.",
-      "description_en": "Güver Uçurumu offers a serene escape at the intersection of history and nature, where the dramatic cliffs rising from the sea contrast with the chaos of modern life.",
+      "description": "Antalya'nın gizli doğa harikası Güver Uçurumu, Karaman Çayı'nın binlerce yılda oyduğu 115 metrelik derinliğiyle nefes kesen bir kanyon manzarası sunar.",
+      "description_en": "Antalya's hidden natural wonder, Güver Cliff, offers a breathtaking canyon view with its 115-meter depth carved by the Karaman Stream over thousands of years.",
       "bestTime": "Gündüz",
       "bestTime_en": "Daytime",
-      "tips": "Yükseltilmiş kayalıklarda güneşin doğuşunu izleyin.",
-      "tips_en": "Watch the sunrise from the elevated cliffs.",
-      "id": "guver-ucurumu",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/guver-ucurumu.jpg",
-      "source": "firebase"
+      "tips": "En iyi manzaralar için öğleden sonra gidin ve fotoğraf makinenizi unutmayın.",
+      "tips_en": "Go in the afternoon for the best views and don't forget your camera.",
+      "id": "ChIJVyOj_Q6NwxQRoezYSoRIkX0",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Fguver-ucurumu.jpg?alt=media",
+      "source": "firebase",
+      "openHours": {
+        "sunday": "closed",
+        "monday": "closed",
+        "tuesday": "closed",
+        "wednesday": "closed",
+        "thursday": "00:00-23:59",
+        "friday": "00:00-24:00",
+        "saturday": "closed"
+      }
     },
     {
-      "id": "hadrian-kapisi",
+      "id": "ChIJa4EKoSeRwxQROnU-MXMbKLM",
       "name": "Hadrian Kapısı",
       "name_en": "Hadrian's Gate",
       "description": "MS 130'da İmparator Hadrianus'un ziyareti anısına inşa edilen bu üç kemerli zafer takı, Roma mimarisinin zarifliğini sergileyen, Antalya'nın Kaleiçi'ne görkemli bir giriş kapısıdır.",
@@ -1364,9 +1587,18 @@
       "price": "free",
       "lat": 36.885236,
       "lng": 30.708578,
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/hadrian-kapisi.jpg",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Fhadrian-kapisi.jpg?alt=media",
       "rating": 4.7,
-      "source": "firebase"
+      "source": "firebase",
+      "openHours": {
+        "sunday": "closed",
+        "monday": "closed",
+        "tuesday": "closed",
+        "wednesday": "closed",
+        "thursday": "00:00-23:59",
+        "friday": "00:00-24:00",
+        "saturday": "closed"
+      }
     },
     {
       "name": "Hadrian Kapısı (Üç Kapılar)",
@@ -1379,7 +1611,7 @@
         "türkiye",
         "tarihi"
       ],
-      "distanceFromCenter": 0,
+      "distanceFromCenter": 0.0,
       "lat": 36.885236,
       "lng": 30.708578,
       "price": "medium",
@@ -1390,11 +1622,12 @@
         "herkes"
       ],
       "source": "google",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/hadrian_kapisi_uc_kapilar.jpg",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Fhadrian_kapisi_uc_kapilar.jpg?alt=media",
       "tips": "Akşam ışıklandırması altında büyülü atmosferini deneyimleyin.",
       "description_en": "Antalya's magnificent Hadrian's Gate, built 130 AD for Emperor Hadrian, is a three-arched monumental Roman triumphal arch. Its Corinthian columns and rich carvings form an impressive gateway to the ancient city.",
       "tips_en": "Experience its magical atmosphere under evening illumination.",
-      "name_en": "Hadrian Kapısı (Üç Kapılar)"
+      "name_en": "Hadrian's Gate",
+      "id": "ChIJZy8J1gaQwxQRoD1rNQISxpk"
     },
     {
       "name": "Hasanağa Restaurant",
@@ -1417,12 +1650,12 @@
       "bestTime_en": "Evening",
       "tips": "Sıcak yaz akşamlarında terasa oturun.",
       "tips_en": "Sit on the terrace during warm summer evenings.",
-      "id": "hasanaga-restaurant",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/hasanaga-restaurant.jpg",
+      "id": "ChIJKSxCrAaQwxQRaHzAbWxeQkA",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Fhasanaga-restaurant.jpg?alt=media",
       "source": "firebase"
     },
     {
-      "id": "hesapci-sokak",
+      "id": "ChIJNU4D2QWQwxQRNqihMI6-oIU",
       "name": "Hesapçı Sokak",
       "name_en": "Hesapçı Street",
       "description": "Hesapçı Sokak'ın sokak lezzetlerini keşfederken, baharatların keskin ve taze aromalarını duymak kaçınılmazdır.",
@@ -1439,7 +1672,7 @@
       "price": "medium",
       "lat": 36.883139,
       "lng": 30.706183,
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/hesapci-sokak.jpg",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Fhesapci-sokak.jpg?alt=media",
       "rating": 4.5,
       "source": "firebase"
     },
@@ -1454,7 +1687,7 @@
         "türkiye",
         "tarihi"
       ],
-      "distanceFromCenter": 0,
+      "distanceFromCenter": 0.0,
       "lat": 36.881256,
       "lng": 30.703623,
       "price": "medium",
@@ -1465,11 +1698,21 @@
         "herkes"
       ],
       "source": "google",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/hidirlik_kulesi.jpg",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Fhidirlik_kulesi.jpg?alt=media",
       "tips": "Gün batımında kuleyi ziyaret ederek muhteşem körfez manzarasının tadını çıkarın.",
       "description_en": "Unique 2nd century AD Roman tower; square base, cylindrical body. Originally a tomb, then a lighthouse, it's Antalya's iconic symbol.",
       "tips_en": "Visit the tower at sunset to enjoy magnificent bay views.",
-      "name_en": "Hıdırlık Tower"
+      "name_en": "Hıdırlık Tower",
+      "id": "ChIJdSplng-QwxQRDoougW4Qa-g",
+      "openHours": {
+        "sunday": "closed",
+        "monday": "closed",
+        "tuesday": "closed",
+        "wednesday": "closed",
+        "thursday": "00:00-23:59",
+        "friday": "00:00-24:00",
+        "saturday": "closed"
+      }
     },
     {
       "name": "Jeep Safari Toros Dağları",
@@ -1492,8 +1735,8 @@
       "bestTime_en": "Daytime",
       "tips": "Rahat giysiler giyin, bol su alın ve toz için hazırlıklı olun.",
       "tips_en": "Wear comfortable clothes, bring plenty of water, and prepare for dust.",
-      "id": "jeep-safari-toros-daglari",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/jeep-safari-toros-daglari.jpg",
+      "id": "ChIJPYtnAErT2xQRMM6NF68oIm0",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Fjeep-safari-toros-daglari.jpg?alt=media",
       "source": "firebase"
     },
     {
@@ -1507,7 +1750,7 @@
         "türkiye",
         "deneyim"
       ],
-      "distanceFromCenter": 0,
+      "distanceFromCenter": 0.0,
       "lat": 36.882282,
       "lng": 30.705313,
       "price": "medium",
@@ -1518,15 +1761,16 @@
         "herkes"
       ],
       "source": "google",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/kaleici.jpg",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Fkaleici.jpg?alt=media",
       "tips": "Dar sokaklarda rahat yürüyüş için mutlaka rahat ayakkabılar giyin.",
       "description_en": "Antalya's historical heart Kaleiçi, with Roman walls, Hadrian's Gate, and unique Ottoman-Seljuk houses lining narrow streets, is a captivating open-air museum.",
       "tips_en": "Wear comfortable shoes for easy walking on the narrow, cobbled streets.",
       "area_en": "Center",
-      "name_en": "Kaleiçi"
+      "name_en": "Kaleiçi",
+      "id": "ChIJX5StnAaQwxQRc7qzVRv65do"
     },
     {
-      "id": "kaleici-bazaar",
+      "id": "ChIJ00AzF7eRwxQRj9XjwvoWeQg",
       "name": "Kaleiçi Bazaar",
       "name_en": "Kaleiçi Bazaar",
       "description": "Kaleiçi Bazaar, Osmanlı döneminden kalma taş sokaklarıyla geçmişin izlerini taşırken, el yapımı hediyelikler ve geleneksel Türk ürünleriyle dolup taşıyor.",
@@ -1543,9 +1787,18 @@
       "price": "free",
       "lat": 36.888146,
       "lng": 30.705601,
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/kaleici-bazaar.jpg",
-      "rating": 4,
-      "source": "firebase"
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Fkaleici-bazaar.jpg?alt=media",
+      "rating": 4.0,
+      "source": "firebase",
+      "openHours": {
+        "sunday": "09:00-22:30",
+        "monday": "09:00-22:30",
+        "tuesday": "09:00-22:30",
+        "wednesday": "09:00-22:30",
+        "thursday": "09:00-22:30",
+        "friday": "09:00-22:30",
+        "saturday": "09:00-22:30"
+      }
     },
     {
       "name": "Falez Parkı",
@@ -1567,7 +1820,17 @@
       "description_en": "Wandering through the cliffs of Falez Parkı, one can lose track of time, captivated by the deep tones of the Mediterranean and the tranquil sounds of nature.",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Antalya_cliffs_at_sunset.jpg/1280px-Antalya_cliffs_at_sunset.jpg",
       "tips": "Güneşin batışını izlemek için kayalıklara tırmanın.",
-      "tips_en": "Climb the cliffs for an unforgettable sunset view."
+      "tips_en": "Climb the cliffs for an unforgettable sunset view.",
+      "id": "ChIJ9QRghBWbwxQRWD4SqgBOsqA",
+      "openHours": {
+        "sunday": "closed",
+        "monday": "closed",
+        "tuesday": "closed",
+        "wednesday": "closed",
+        "thursday": "00:00-23:59",
+        "friday": "00:00-24:00",
+        "saturday": "closed"
+      }
     },
     {
       "name": "Eski Lara Caddesi",
@@ -1589,7 +1852,8 @@
       "description_en": "This coastal strip of Antalya, with its view extending from the cliffs to the Mediterranean, has guided sailors' routes for thousands of years, offering the city a natural terrace.",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Antalya_Lara_T%C3%BCrkiye_-_panoramio.jpg/1280px-Antalya_Lara_T%C3%BCrkiye_-_panoramio.jpg",
       "tips": "Sabah erken saatlerde yürüyüş yapıp falezlerin serin esintisini hissedin.",
-      "tips_en": "In early morning, walk and feel the cliffs' cool breeze."
+      "tips_en": "In early morning, walk and feel the cliffs' cool breeze.",
+      "id": "ChIJzUP8676bwxQRnHtThvIuUxQ"
     },
     {
       "name": "Lara Balıkçı Barınağı",
@@ -1611,13 +1875,23 @@
       "description_en": "The deep blue waters of the Mediterranean and the melodic harmony of boats weave the magic of Lara Balıkçı Barınağı. The sunset envelops the spirit of this place.",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Antalya_harbor_view.jpg/1280px-Antalya_harbor_view.jpg",
       "tips": "Sahildeki balık restoranlarında taze deniz ürünlerini deneyin.",
-      "tips_en": "Try the fresh seafood at the beachside fish restaurants."
+      "tips_en": "Try the fresh seafood at the beachside fish restaurants.",
+      "id": "ChIJY5OIuBubwxQRry2UT8cxO3c",
+      "openHours": {
+        "sunday": "00:00-01:00, 12:00-24:00",
+        "monday": "00:00-01:00, 12:00-24:00",
+        "tuesday": "00:00-01:00, 12:00-24:00",
+        "wednesday": "00:00-01:00, 12:00-24:00",
+        "thursday": "00:00-01:00, 12:00-23:59",
+        "friday": "00:00-01:00, 12:00-24:00",
+        "saturday": "00:00-01:00, 12:00-24:00"
+      }
     },
     {
       "name": "Kaleiçi Marina (Yat Limanı)",
       "name_en": "Kaleici Marina",
       "area": "Kaleiçi",
-      "category": "Manzara",
+      "category": "Liman",
       "tags": [
         "liman",
         "tekne",
@@ -1634,9 +1908,18 @@
       "bestTime_en": "Sunset",
       "tips": "Güneş batmadan önce liman kenarındaki kafelerde oturun.",
       "tips_en": "Sit at the waterfront cafes before sunset.",
-      "id": "kaleici-marina-yat-limani",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/kaleici-marina-yat-limani.jpg",
-      "source": "firebase"
+      "id": "ChIJi3HeJQWQwxQRwGUDCB6gSAQ",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Fkaleici-marina-yat-limani.jpg?alt=media",
+      "source": "firebase",
+      "openHours": {
+        "sunday": "closed",
+        "monday": "closed",
+        "tuesday": "closed",
+        "wednesday": "closed",
+        "thursday": "00:00-23:59",
+        "friday": "00:00-24:00",
+        "saturday": "closed"
+      }
     },
     {
       "name": "Kaleiçi Meyhane Sokağı",
@@ -1659,12 +1942,21 @@
       "bestTime_en": "Evening",
       "tips": "En iyi mezeleri tatmak için yerel şefle sohbet edin.",
       "tips_en": "Chat with the local chef to taste the best mezes.",
-      "id": "kaleici-meyhane-sokagi",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/kaleici-meyhane-sokagi.jpg",
-      "source": "firebase"
+      "id": "ChIJ_39HMASQwxQRIl2iNUcUTLk",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Fkaleici-meyhane-sokagi.jpg?alt=media",
+      "source": "firebase",
+      "openHours": {
+        "sunday": "00:00-01:00, 15:00-24:00",
+        "monday": "00:00-01:00, 15:00-24:00",
+        "tuesday": "00:00-01:00, 15:00-24:00",
+        "wednesday": "00:00-01:00, 15:00-24:00",
+        "thursday": "00:00-01:00, 15:00-23:59",
+        "friday": "00:00-01:00, 15:00-24:00",
+        "saturday": "00:00-01:00, 15:00-24:00"
+      }
     },
     {
-      "id": "kaleici-sokaklari",
+      "id": "ChIJrQG63wSQwxQRd_MHQbKWrsg",
       "name": "Kaleiçi Sokakları",
       "name_en": "Kaleiçi Streets",
       "description": "Antik Roma surları içinde, daracık taş sokakları, geleneksel Osmanlı konakları ve tarihi dokusuyla Kaleiçi, Antalya'nın yaşayan müzesidir. Hadrian Kapısı ve Yivli Minare gibi eşsiz eserlere ev sahipliği yapar.",
@@ -1681,7 +1973,7 @@
       "price": "free",
       "lat": 36.885783,
       "lng": 30.701597,
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/kaleici_sokaklari.jpg",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Fkaleici_sokaklari.jpg?alt=media",
       "rating": 4.8,
       "source": "firebase"
     },
@@ -1706,8 +1998,8 @@
       "bestTime_en": "Morning",
       "tips": "Dar sokaklarda rahat ayakkabılarla kaybolun, yerel lezzetleri deneyimleyin.",
       "tips_en": "Get lost in narrow streets with comfortable shoes; try local delicacies.",
-      "id": "kaleici-sokaklari-yuruyusu",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/kaleici-sokaklari-yuruyusu.jpg",
+      "id": "ChIJlU53JLyRwxQR4Z20WT4e3NE",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Fkaleici-sokaklari-yuruyusu.jpg?alt=media",
       "source": "firebase"
     },
     {
@@ -1731,30 +2023,8 @@
       "bestTime_en": "Daytime",
       "tips": "Öğle saatlerinde kalabalıktan kaçının, daha sakin gezersiniz.",
       "tips_en": "Avoid the crowds during midday for a more peaceful experience.",
-      "id": "kaleici-tarihi-carsi",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/kaleici-tarihi-carsi.jpg",
-      "source": "firebase"
-    },
-    {
-      "id": "kaleici-yat-limani",
-      "name": "Kaleiçi Yat Limanı",
-      "name_en": "Kaleiçi Marina",
-      "description": "Kaleiçi Yat Limanı, Antalya'nın antik kalbidir; Pamfilya'dan Osmanlı'ya uzanır. Roma surları içinde, zengin tarihi mirası modern yatçılıkla eşsizce birleştirir.",
-      "description_en": "Kaleiçi Marina, Antalya's ancient heart, dates from Pamphylia to Ottoman times. Within Roman walls, it uniquely blends rich historical heritage with modern yachting.",
-      "tips": "Liman çevresindeki dar sokakları ve tarihi evleri keşfedin.",
-      "tips_en": "Explore the marina's surrounding narrow streets and historic houses.",
-      "category": "Tarihi",
-      "subcategory": "Liman",
-      "tags": [
-        "marina",
-        "historic",
-        "boats"
-      ],
-      "price": "free",
-      "lat": 36.884892,
-      "lng": 30.701363,
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/kaleici-yat-limani.jpg",
-      "rating": 4.7,
+      "id": "ChIJ-RdrFACRwxQR4P0IiNa9tVE",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Fkaleici-tarihi-carsi.jpg?alt=media",
       "source": "firebase"
     },
     {
@@ -1778,9 +2048,18 @@
       "bestTime_en": "Afternoon",
       "tips": "Gün batımında huzur veren bir çay keyfi yapın.",
       "tips_en": "Enjoy a soothing tea at sunset.",
-      "id": "kaleici-cay-bahcesi",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/kaleici-cay-bahcesi.jpg",
-      "source": "firebase"
+      "id": "ChIJY1Ty6gSQwxQReWyh8FJcSWg",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Fkaleici-cay-bahcesi.jpg?alt=media",
+      "source": "firebase",
+      "openHours": {
+        "sunday": "00:00-00:00, 08:30-24:00",
+        "monday": "00:00-00:00, 08:30-24:00",
+        "tuesday": "00:00-00:00, 08:30-24:00",
+        "wednesday": "00:00-00:00, 08:30-24:00",
+        "thursday": "00:00-00:00, 08:30-23:59",
+        "friday": "08:30-24:00",
+        "saturday": "00:00-00:00, 08:30-24:00"
+      }
     },
     {
       "name": "Kaputaş Plajı",
@@ -1793,7 +2072,7 @@
         "türkiye",
         "manzara"
       ],
-      "distanceFromCenter": 0,
+      "distanceFromCenter": 0.0,
       "lat": 36.228956,
       "lng": 29.448939,
       "price": "medium",
@@ -1804,11 +2083,21 @@
         "herkes"
       ],
       "source": "google",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/kaputas_plaji.jpg",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Fkaputas_plaji.jpg?alt=media",
       "tips": "Sabah erken saatlerde gidin, kalabalık yok.",
       "description_en": "Lost in the salty sea breeze of Kaputaş Beach, the sun's warm embrace caresses your skin. The soft crunch of fine sand echoes beneath your feet.",
       "tips_en": "Go early in the morning to avoid the crowds.",
-      "name_en": "Kaputaş Beach"
+      "name_en": "Kaputaş Beach",
+      "id": "ChIJaQPCYHDTwRQR1cQU17ycULA",
+      "openHours": {
+        "sunday": "09:00-19:30",
+        "monday": "09:00-19:30",
+        "tuesday": "09:00-19:30",
+        "wednesday": "09:00-19:30",
+        "thursday": "09:00-19:30",
+        "friday": "09:00-19:30",
+        "saturday": "09:00-19:30"
+      }
     },
     {
       "name": "Karaali Parkı",
@@ -1833,13 +2122,22 @@
       "bestTime_en": "Afternoon",
       "tips": "Aksam saatlerinde piknik için ideal bir yer.",
       "tips_en": "An ideal spot for a picnic in the evening.",
-      "id": "karaali-parki",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/karaali-parki.jpg",
+      "id": "ChIJT42ERg-QwxQRoauX74ECnjI",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Fkaraali-parki.jpg?alt=media",
       "source": "firebase",
-      "subcategory": "Park"
+      "subcategory": "Park",
+      "openHours": {
+        "sunday": "closed",
+        "monday": "closed",
+        "tuesday": "closed",
+        "wednesday": "closed",
+        "thursday": "00:00-23:59",
+        "friday": "00:00-24:00",
+        "saturday": "closed"
+      }
     },
     {
-      "id": "karain-magarasi",
+      "id": "ChIJVbwwM4aKwxQR04PgnWweSQk",
       "name": "Karain Mağarası",
       "name_en": "Karain Cave",
       "description": "Karain Mağarası, Alt, Orta, Üst Paleolitik insan izleri ve buluntularıyla Anadolu'nun en eski yerleşimidir. Yarım milyon yıllık tarihiyle Türkiye prehistoryasına ışık tutan doğal bir anıttır.",
@@ -1856,18 +2154,27 @@
       "price": "low",
       "lat": 37.077778,
       "lng": 30.570833,
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/karain-magarasi.jpg",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Fkarain-magarasi.jpg?alt=media",
       "rating": 4.1,
-      "source": "firebase"
+      "source": "firebase",
+      "openHours": {
+        "sunday": "08:00-16:30",
+        "monday": "08:00-16:30",
+        "tuesday": "08:00-16:30",
+        "wednesday": "08:00-16:30",
+        "thursday": "08:00-16:30",
+        "friday": "08:00-16:30",
+        "saturday": "08:00-16:30"
+      }
     },
     {
-      "id": "karatay-medresesi",
+      "id": "ChIJ2dH2awSQwxQRwA5WEf68298",
       "name": "Karatay Medresesi",
       "name_en": "Karatay Madrasa",
-      "description": "Celaleddin Karatay'ın 1251'de inşa ettirdiği bu Selçuklu şaheseri, muhteşem taş işçiliği ve eşsiz çini süslemeleriyle öne çıkar. Günümüzde Taş ve Ahşap Eserler Müzesi'dir.",
-      "description_en": "Built in 1251 by Celaleddin Karatay, this Seljuk masterpiece stands out with its magnificent stone carving and unique tile decorations. Today, it serves as a Stone and Wood Artifacts Museum.",
-      "tips": "Daha az kalabalık için sabah erken saatlerde ziyaret etmeyi tercih edin.",
-      "tips_en": "Prefer visiting early in the day to avoid crowds.",
+      "description": "Antalya'da 'Karatay Medresesi' adında tarihi bir yapı bulunmamaktadır. En bilinen Karatay Medresesi Konya'dadır. Lütfen konum bilgisini kontrol ediniz.",
+      "description_en": "There is no historical building named 'Karatay Medresesi' in Antalya. The most well-known Karatay Madrasa is located in Konya. Please check the location information.",
+      "tips": "Doğru konum bilgisi olmadan bu mekan için gerçekçi bir ipucu sunulamamaktadır.",
+      "tips_en": "No realistic tip can be provided for this location without accurate location information.",
       "category": "Tarihi",
       "subcategory": "Müze",
       "tags": [
@@ -1878,12 +2185,21 @@
       "price": "medium",
       "lat": 36.885742,
       "lng": 30.704563,
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/karatay-medresesi.jpg",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Fkaratay-medresesi.jpg?alt=media",
       "rating": 4.3,
-      "source": "firebase"
+      "source": "firebase",
+      "openHours": {
+        "sunday": "closed",
+        "monday": "08:30-17:30",
+        "tuesday": "08:30-17:30",
+        "wednesday": "08:30-17:30",
+        "thursday": "08:30-17:30",
+        "friday": "08:30-17:30",
+        "saturday": "08:30-17:30"
+      }
     },
     {
-      "id": "karpuzkaldiran-selalesi",
+      "id": "ChIJlxYLp0GbwxQR5H4nMq4E4g8",
       "name": "Karpuzkaldıran Şelalesi",
       "name_en": "Karpuzkaldıran Waterfall",
       "description": "Karpuzkaldıran Şelalesi’nde su sesleri ve çiçek kokularıyla doğanın huzur verici melodisi sarar etrafınızı.",
@@ -1900,9 +2216,18 @@
       "price": "free",
       "lat": 36.851484,
       "lng": 30.784753,
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/karpuzkaldiran-selalesi.jpg",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Fkarpuzkaldiran-selalesi.jpg?alt=media",
       "rating": 4.8,
-      "source": "firebase"
+      "source": "firebase",
+      "openHours": {
+        "sunday": "closed",
+        "monday": "closed",
+        "tuesday": "closed",
+        "wednesday": "closed",
+        "thursday": "00:00-23:59",
+        "friday": "00:00-24:00",
+        "saturday": "closed"
+      }
     },
     {
       "name": "Kaya Mezarları Kaş",
@@ -1925,9 +2250,18 @@
       "bestTime_en": "Daytime",
       "tips": "Gün batımını izlemek için erken saatlerde ziyaret edin, manzaralar nefes kesici.",
       "tips_en": "Visit early to watch the sunset; the views are breathtaking.",
-      "id": "kaya-mezarlari-kas",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/kaya-mezarlari-kas.jpg",
-      "source": "firebase"
+      "id": "ChIJDxnfW1bawRQRzMR4nH5RVF8",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Fkaya-mezarlari-kas.jpg?alt=media",
+      "source": "firebase",
+      "openHours": {
+        "sunday": "closed",
+        "monday": "closed",
+        "tuesday": "closed",
+        "wednesday": "closed",
+        "thursday": "00:00-23:59",
+        "friday": "00:00-24:00",
+        "saturday": "closed"
+      }
     },
     {
       "name": "Kaş Cuma Pazarı",
@@ -1950,9 +2284,18 @@
       "bestTime_en": "Morning",
       "tips": "Erken gelin, yerel tarifler için şansınızı artırın.",
       "tips_en": "Arrive early to increase your chances of local specialties.",
-      "id": "kas-cuma-pazari",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/kas-cuma-pazari.jpg",
-      "source": "firebase"
+      "id": "ChIJIc2FyVnawRQRSsXHIK8G8wQ",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Fkas-cuma-pazari.jpg?alt=media",
+      "source": "firebase",
+      "openHours": {
+        "sunday": "closed",
+        "monday": "closed",
+        "tuesday": "closed",
+        "wednesday": "closed",
+        "thursday": "closed",
+        "friday": "08:00-19:00",
+        "saturday": "closed"
+      }
     },
     {
       "name": "Kaş Merkez",
@@ -1975,8 +2318,8 @@
       "bestTime_en": "Sunset",
       "tips": "Güneşin batışını izlemek için Liman Caddesi'ne gidin.",
       "tips_en": "Head to Liman Street to watch the sunset.",
-      "id": "kas-merkez",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/kas-merkez.jpg",
+      "id": "ChIJ-TFkZzHbwRQRR9WPzZPYQzM",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Fkas-merkez.jpg?alt=media",
       "source": "firebase"
     },
     {
@@ -2000,8 +2343,8 @@
       "bestTime_en": "Daytime",
       "tips": "Su altı şehri sadece tekne turlarıyla gezilebilir, yüzme yasaktır.",
       "tips_en": "Explore the sunken city by boat tour only; swimming is prohibited.",
-      "id": "kekova-adasi",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/kekova-adasi.jpg",
+      "id": "ChIJV9zSblPvwRQRLoKVtgj0Bf4",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Fkekova-adasi.jpg?alt=media",
       "source": "firebase"
     },
     {
@@ -2025,15 +2368,24 @@
       "bestTime_en": "Morning",
       "tips": "Berrak sular ve batık şehir kalıntılarını en iyi görmek için sabah erken kayak yapın.",
       "tips_en": "Paddle early morning for best views of clear waters and sunken ruins.",
-      "id": "kekova-kayak-turu",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/kekova-kayak-turu.jpg",
-      "source": "firebase"
+      "id": "ChIJz99BbNPpwRQRi7p6-Qj7TPg",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Fkekova-kayak-turu.jpg?alt=media",
+      "source": "firebase",
+      "openHours": {
+        "sunday": "09:00-19:00",
+        "monday": "09:00-19:00",
+        "tuesday": "09:00-19:00",
+        "wednesday": "09:00-19:00",
+        "thursday": "09:00-19:00",
+        "friday": "09:00-19:00",
+        "saturday": "09:00-19:00"
+      }
     },
     {
       "name": "Kemer Marina",
       "name_en": "Kemer Marina",
       "area": "Kemer",
-      "category": "Manzara",
+      "category": "Liman",
       "tags": [
         "marina",
         "yat",
@@ -2050,9 +2402,18 @@
       "bestTime_en": "Evening",
       "tips": "Sahil yürüyüşünde, taze deniz ürünlerini tadın.",
       "tips_en": "Taste fresh seafood while strolling by the seaside.",
-      "id": "kemer-marina",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/kemer-marina.jpg",
-      "source": "firebase"
+      "id": "ChIJfTWLM5-3wxQRBrM7D8w6fJg",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Fkemer-marina.jpg?alt=media",
+      "source": "firebase",
+      "openHours": {
+        "sunday": "closed",
+        "monday": "closed",
+        "tuesday": "closed",
+        "wednesday": "closed",
+        "thursday": "00:00-23:59",
+        "friday": "00:00-24:00",
+        "saturday": "closed"
+      }
     },
     {
       "name": "Kesik Minare (Korkut Camii)",
@@ -2065,7 +2426,7 @@
         "türkiye",
         "tarihi"
       ],
-      "distanceFromCenter": 0,
+      "distanceFromCenter": 0.0,
       "lat": 36.88268,
       "lng": 30.7058,
       "price": "medium",
@@ -2076,36 +2437,15 @@
         "herkes"
       ],
       "source": "google",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/kesik_minare_korkut_camii.jpg",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Fkesik_minare_korkut_camii.jpg?alt=media",
       "tips": "Kaleiçi'ni keşfederken mutlaka ziyaret edin, erken saatler ideal.",
       "description_en": "Kesik Minare: Iconic structure evolved as Roman temple, Byzantine church, Seljuk mosque. Uniquely showcases Antalya's multi-layered history and architecture, despite fires.",
       "tips_en": "Definitely visit while exploring Kaleiçi; early hours are ideal.",
-      "name_en": "Kesik Minare (Korkut Mosque)"
+      "name_en": "Kesik Minare (Korkut Mosque)",
+      "id": "ChIJe6Gj3QWQwxQRMe7tWO7euis"
     },
     {
-      "id": "kesik-minare-camii",
-      "name": "Kesik Minare Camii",
-      "name_en": "Kesik Minaret Mosque",
-      "description": "Roma tapınağı temelli, Bizans kilisesi ve Osmanlı camisi olarak evrilen Kesik Minare Camii, Antalya'nın çok katmanlı tarihini sergiler. Yanan minaresi, çağlar boyu dönüşümün sembolüdür.",
-      "description_en": "Evolved from a Roman temple foundation to a Byzantine church and then an Ottoman mosque, Kesik Minare Mosque showcases Antalya's multi-layered history. Its burnt minaret symbolizes centuries of transformation.",
-      "tips": "Avlusundaki sakinliği deneyimleyin, tarihin fısıltılarını dinleyin.",
-      "tips_en": "Experience the tranquility of its courtyard, listen to history's whispers.",
-      "category": "Tarihi",
-      "subcategory": "Cami",
-      "tags": [
-        "byzantine",
-        "mosque",
-        "history"
-      ],
-      "price": "free",
-      "lat": 36.88268,
-      "lng": 30.7058,
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/kesik-minare-camii.jpg",
-      "rating": 4.7,
-      "source": "firebase"
-    },
-    {
-      "id": "kleopatra-plaji",
+      "id": "ChIJsZMizo2i3BQRdlKXmEyfec4",
       "name": "Kleopatra Plajı (Alanya)",
       "name_en": "Cleopatra Beach",
       "description": "Kleopatra Plajı, efsaneye göre Mısır kraliçesi Kleopatra'nın bu kumsalda güneşlendiği yerdir. Göz alıcı altın sarısı kumlar ve masmavi deniz, doğanın sunduğu bir cennettir.",
@@ -2122,33 +2462,8 @@
       "price": "free",
       "lat": 36.545,
       "lng": 31.99,
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/kleopatra-plaji.jpg",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Fkleopatra-plaji.jpg?alt=media",
       "rating": 4.5,
-      "source": "firebase"
-    },
-    {
-      "name": "Kleopatra Plajı (Alanya)",
-      "name_en": "Cleopatra Beach",
-      "area": "Alanya",
-      "category": "Plaj",
-      "tags": [
-        "plaj",
-        "mavi bayrak",
-        "kumsal"
-      ],
-      "distanceFromCenter": 130.0,
-      "lat": 36.545,
-      "lng": 31.99,
-      "price": "free",
-      "rating": 4.7,
-      "description": "Kleopatra Plajı, efsaneye göre Mısır kraliçesi Kleopatra'nın bu kumsalda güneşlendiği yerdir. Göz alıcı altın sarısı kumlar ve masmavi deniz, doğanın sunduğu bir cennettir.",
-      "description_en": "Kleopatra Beach, according to legend, is where Queen Cleopatra sunbathed. Its dazzling golden sands and deep blue sea create a natural paradise.",
-      "bestTime": "Gündüz",
-      "bestTime_en": "Daytime",
-      "tips": "Sabah erken saatlerde gelmek, kalabalıktan kaçmanızı sağlar.",
-      "tips_en": "Arriving early in the morning helps you avoid the crowds.",
-      "id": "kleopatra-plaji-alanya",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/kleopatra-plaji-alanya.jpg",
       "source": "firebase"
     },
     {
@@ -2172,9 +2487,18 @@
       "bestTime_en": "Weekend",
       "tips": "Gün doğumuyla birlikte, dağların altın rengi gölgelerini yakalamak için erken gelin.",
       "tips_en": "Arrive early to catch the mountains' golden shadows with the sunrise.",
-      "id": "konyaalti-antika-pazari",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/konyaalti-antika-pazari.jpg",
-      "source": "firebase"
+      "id": "ChIJpwVAzAebwxQRMmcEsjTKggo",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Fkonyaalti-antika-pazari.jpg?alt=media",
+      "source": "firebase",
+      "openHours": {
+        "sunday": "09:00-17:00",
+        "monday": "closed",
+        "tuesday": "closed",
+        "wednesday": "closed",
+        "thursday": "closed",
+        "friday": "closed",
+        "saturday": "closed"
+      }
     },
     {
       "name": "Konyaaltı Balıkçıları",
@@ -2197,40 +2521,21 @@
       "bestTime_en": "Evening",
       "tips": "Öğle saatlerinde gidin; en taze balıkları ve tezgah muhabbetlerini yakalayın.",
       "tips_en": "Visit around noon to catch the freshest fish and lively vendor chats.",
-      "id": "konyaalti-balikcilari",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/konyaalti-balikcilari.jpg",
-      "source": "firebase"
-    },
-    {
-      "id": "konyaalti-plaj-parki",
-      "name": "Konyaaltı Plaj Parkı",
-      "name_en": "Konyaaltı Beach Park",
-      "description": "Denizin serinletici çakılları, Beydağları'nın gölgesinde uzanan geniş parkuruyla, sabah koşularının ve günbatımı yürüyüşlerinin vazgeçilmezidir. Burası, her zaman kendine yer bulanların huzur noktasıdır.",
-      "description_en": "Its refreshing pebbles, coupled with the expansive path under Beydağları's shadow, make it indispensable for morning runs and sunset strolls. This remains a consistent haven for regulars.",
-      "tips": "Günbatımını Beydağları'nın siluetinde yakalamak için batı ucuna gidin.",
-      "tips_en": "Go to the west end for sunset against the Beydağları silhouette.",
-      "category": "Plaj",
-      "subcategory": "Ada",
-      "tags": [
-        "konyaaltı",
-        "bars",
-        "manzara",
-        "park",
-        "türkiye",
-        "antalya",
-        "beach"
-      ],
-      "price": "free",
-      "lat": 36.884376,
-      "lng": 30.677736,
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/konyaalti-plaj-parki.jpg",
-      "rating": 4.7,
+      "id": "ChIJE_5PVTSQwxQRCWrAJCCjfAo",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Fkonyaalti-balikcilari.jpg?alt=media",
       "source": "firebase",
-      "bestTime": "Yazın",
-      "area": "Konyaaltı"
+      "openHours": {
+        "sunday": "00:00-01:00, 10:30-24:00",
+        "monday": "00:00-01:00, 10:30-24:00",
+        "tuesday": "00:00-01:00, 10:30-24:00",
+        "wednesday": "00:00-01:00, 10:30-24:00",
+        "thursday": "00:00-01:00, 10:30-23:59",
+        "friday": "00:00-01:00, 10:30-24:00",
+        "saturday": "00:00-01:00, 10:30-24:00"
+      }
     },
     {
-      "id": "konyaalti-sahili-yuruyus-yolu",
+      "id": "ChIJQ_GlW1mRwxQRTuaHa6tB75Y",
       "name": "Konyaaltı Sahili Yürüyüş Yolu",
       "name_en": "Konyaaltı Beach Promenade",
       "description": "Sabahın erken saatlerinde, Torosların silueti eşliğinde Akdeniz'in taze esintisini solumak, çakıl sesleriyle ritim tutanlara özel bir huzur fısıldar.",
@@ -2247,9 +2552,18 @@
       "price": "free",
       "lat": 36.860948,
       "lng": 30.637515,
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/konyaalti-sahili-yuruyus-yolu.jpg",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Fkonyaalti-sahili-yuruyus-yolu.jpg?alt=media",
       "rating": 4.7,
-      "source": "firebase"
+      "source": "firebase",
+      "openHours": {
+        "sunday": "closed",
+        "monday": "closed",
+        "tuesday": "closed",
+        "wednesday": "closed",
+        "thursday": "00:00-23:59",
+        "friday": "00:00-24:00",
+        "saturday": "closed"
+      }
     },
     {
       "name": "Kurşunlu Şelalesi",
@@ -2262,7 +2576,7 @@
         "türkiye",
         "park"
       ],
-      "distanceFromCenter": 0,
+      "distanceFromCenter": 0.0,
       "lat": 37.002959,
       "lng": 30.821779,
       "price": "medium",
@@ -2273,11 +2587,21 @@
         "herkes"
       ],
       "source": "google",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/kursunlu_selalesi.png",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Fkursunlu_selalesi.png?alt=media",
       "tips": "Sabah erken saatlerde gelin, kalabalıklardan kaçının.",
       "description_en": "Kurşunlu Waterfall thrives with families, friend groups, and nature hikers lost in the sounds of cool waters.",
       "tips_en": "Arrive early in the morning to avoid the crowds.",
-      "name_en": "Kurşunlu Waterfall"
+      "name_en": "Kurşunlu Waterfall",
+      "id": "ChIJQQo5g7yAwxQRzCqoL4ytaB8",
+      "openHours": {
+        "sunday": "08:30-19:00",
+        "monday": "08:30-19:00",
+        "tuesday": "08:30-19:00",
+        "wednesday": "08:30-19:00",
+        "thursday": "08:30-19:00",
+        "friday": "08:30-19:00",
+        "saturday": "08:30-19:00"
+      }
     },
     {
       "name": "Köprülü Kanyon",
@@ -2290,7 +2614,7 @@
         "türkiye",
         "doğa"
       ],
-      "distanceFromCenter": 0,
+      "distanceFromCenter": 0.0,
       "lat": 37.191722,
       "lng": 31.180872,
       "price": "medium",
@@ -2301,11 +2625,21 @@
         "herkes"
       ],
       "source": "google",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/koprulu_kanyon.jpg",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Fkoprulu_kanyon.jpg?alt=media",
       "tips": "Oluk Köprü'nün eteklerinde, alabalık yiyip Köprüçay'ın sesini dinleyin.",
       "description_en": "The emerald waters of Köprüçay surge between millennia-old canyon walls. Beneath the arches of the Roman Oluk Bridge, history whispers with pine-scented breezes, and tranquility reigns in nature's heart.",
       "tips_en": "At Oluk Bridge's base, savor trout and hear Köprüçay's flow.",
-      "name_en": "Köprülü Kanyon"
+      "name_en": "Köprülü Kanyon",
+      "id": "ChIJKwq8WDRZwxQRxJCvFDTqZM0",
+      "openHours": {
+        "sunday": "closed",
+        "monday": "closed",
+        "tuesday": "closed",
+        "wednesday": "closed",
+        "thursday": "00:00-23:59",
+        "friday": "00:00-24:00",
+        "saturday": "closed"
+      }
     },
     {
       "name": "Künefe Evi",
@@ -2328,9 +2662,18 @@
       "bestTime_en": "Evening",
       "tips": "Künefenizi nar gibi kızarmış, sıcak isteyin; yanında bir top dondurmayla dengeleyin.",
       "tips_en": "Request your künefe piping hot and golden; pair it with a scoop of ice cream.",
-      "id": "kunefe-evi",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/kunefe-evi.jpg",
-      "source": "firebase"
+      "id": "ChIJpwwMd4WRwxQRz8dJsidttdg",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Fkunefe-evi.jpg?alt=media",
+      "source": "firebase",
+      "openHours": {
+        "sunday": "00:00-01:00, 14:30-24:00",
+        "monday": "00:00-01:00, 14:30-24:00",
+        "tuesday": "00:00-01:00, 14:30-24:00",
+        "wednesday": "00:00-01:00, 14:30-24:00",
+        "thursday": "00:00-01:00, 14:30-23:59",
+        "friday": "00:00-01:00, 14:30-24:00",
+        "saturday": "00:00-01:00, 14:30-24:00"
+      }
     },
     {
       "name": "Kızıl Kule",
@@ -2353,9 +2696,18 @@
       "bestTime_en": "Daytime",
       "tips": "Kulenin tepesinden Alanya Limanı ve şehrin eşsiz manzarasını seyredin.",
       "tips_en": "From the tower's top, enjoy unique views of Alanya Harbor and city.",
-      "id": "kizil-kule",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/kizil-kule.jpg",
-      "source": "firebase"
+      "id": "ChIJlSJfdHSY3BQRB49G8dKAiTE",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Fkizil-kule.jpg?alt=media",
+      "source": "firebase",
+      "openHours": {
+        "sunday": "09:00-19:00",
+        "monday": "09:00-19:00",
+        "tuesday": "09:00-19:00",
+        "wednesday": "09:00-19:00",
+        "thursday": "09:00-19:00",
+        "friday": "09:00-19:00",
+        "saturday": "09:00-19:00"
+      }
     },
     {
       "name": "Land of Legends",
@@ -2371,7 +2723,7 @@
         "antalya",
         "deneyim"
       ],
-      "distanceFromCenter": 0,
+      "distanceFromCenter": 0.0,
       "lat": 36.875152,
       "lng": 31.001463,
       "price": "medium",
@@ -2382,11 +2734,21 @@
         "herkes"
       ],
       "source": "google",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/land_of_legends.jpg",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Fland_of_legends.jpg?alt=media",
       "tips": "Giriş biletinizi online alarak sıra beklemekten kaçının, tüm gününüzü ayırın.",
       "description_en": "Antalya's 'Land of Legends' offers a fairytale world with its fantastic castles, enchanting water parks, luxurious shopping avenue, and iconic tower. An architectural marvel promising unique experiences.",
       "tips_en": "Buy your ticket online to avoid queues; dedicate your entire day.",
-      "name_en": "The Land of Legends"
+      "name_en": "The Land of Legends",
+      "id": "ChIJoVLWzRV7wxQRZq00wg1o-iA",
+      "openHours": {
+        "sunday": "10:00-21:00",
+        "monday": "10:00-21:00",
+        "tuesday": "10:00-21:00",
+        "wednesday": "10:00-21:00",
+        "thursday": "10:00-21:00",
+        "friday": "10:00-21:00",
+        "saturday": "10:00-21:00"
+      }
     },
     {
       "name": "Lara Beach Barlar",
@@ -2403,21 +2765,30 @@
       "lng": 30.815,
       "price": "medium",
       "rating": 4.3,
-      "description": "Antalya'nın sahil kenarında, tarih kokan Lara Beach Barlar, gün batımında enfes kokteyller eşliğinde unutulmaz anlar sunar.",
-      "description_en": "Along the coastline of Antalya, Lara Beach Bars offer unforgettable moments accompanied by exquisite cocktails during sunset.",
+      "description": "Lara Plajı'nın altın kumları üzerinde sıralanan barlar, Akdeniz'in eşsiz gün batımını izlerken serinletici içecekler sunar. Mavi Bayraklı plajın canlı atmosferini yaşayın.",
+      "description_en": "Bars lined along Lara Beach's golden sands offer refreshing drinks while watching the unique Mediterranean sunset. Experience the lively atmosphere of this Blue Flag beach.",
       "bestTime": "Gece",
       "bestTime_en": "Night",
-      "tips": "Gün batımında mutlaka terasta yer kapın.",
-      "tips_en": "Make sure to snag a spot on the terrace at sunset.",
-      "id": "lara-beach-barlar",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/lara-beach-barlar.jpg",
-      "source": "firebase"
+      "tips": "Gün batımını izlemek için erken gidin ve Akdeniz esintisiyle yerel kokteylleri deneyin.",
+      "tips_en": "Go early to watch the sunset and try local cocktails with the Mediterranean breeze.",
+      "id": "ChIJNRYZIyuDwxQRQewQLas42wo",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Flara-beach-barlar.jpg?alt=media",
+      "source": "firebase",
+      "openHours": {
+        "sunday": "00:00-00:00, 08:00-24:00",
+        "monday": "00:00-00:00, 08:00-24:00",
+        "tuesday": "00:00-00:00, 08:00-24:00",
+        "wednesday": "00:00-00:00, 08:00-24:00",
+        "thursday": "00:00-00:00, 08:00-23:59",
+        "friday": "08:00-24:00",
+        "saturday": "00:00-00:00, 08:00-24:00"
+      }
     },
     {
       "name": "Lara Beach Oteller Bölgesi",
       "name_en": "Lara Beach Hotels Zone",
       "area": "Lara",
-      "category": "Manzara",
+      "category": "Plaj",
       "tags": [
         "otel",
         "lüks",
@@ -2428,15 +2799,24 @@
       "lng": 30.86,
       "price": "high",
       "rating": 4.5,
-      "description": "Denizden gelen hafif tuzlu esinti, ferahlatıcı çam kokusuyla birleşiyor; güneşin doğuşunda kayalıkların üzerinde yürüdüğünüzde ayağınızın altındaki kırılgan anlar yankılanıyor.",
-      "description_en": "A gentle salty breeze from the sea blends with the refreshing scent of pine; each fragile moment echoes underfoot as you walk on the rocks at sunrise.",
+      "description": "Antalya'nın doğusunda yer alan Lara Beach, uzun, ince kumlu plajı ve lüks otelleriyle ünlüdür. Mavi Bayraklı bu bölge, 'Türkiye'nin Las Vegas'ı' olarak anılır.",
+      "description_en": "Located east of Antalya, Lara Beach is famous for its long, fine sandy beach and luxury hotels. This Blue Flag awarded area is known as 'Turkey's Las Vegas'.",
       "bestTime": "Yaz",
       "bestTime_en": "Summer",
-      "tips": "Gün doğumunu izlemek için kayalıklara çıkın.",
-      "tips_en": "Climb the rocks to watch the sunrise.",
-      "id": "lara-beach-oteller-bolgesi",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/lara-beach-oteller-bolgesi.jpg",
-      "source": "firebase"
+      "tips": "Yaz aylarında plajın doğu ucundaki Uluslararası Kum Heykeller Festivali'ni ziyaret edin.",
+      "tips_en": "During summer, visit the International Sand Sculpture Festival at the eastern end of the beach.",
+      "id": "ChIJTZ2UvZOawxQRaIK1cToD8G8",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Flara-beach-oteller-bolgesi.jpg?alt=media",
+      "source": "firebase",
+      "openHours": {
+        "sunday": "closed",
+        "monday": "closed",
+        "tuesday": "closed",
+        "wednesday": "closed",
+        "thursday": "00:00-23:59",
+        "friday": "00:00-24:00",
+        "saturday": "closed"
+      }
     },
     {
       "name": "Lara Plajı",
@@ -2449,22 +2829,23 @@
         "türkiye",
         "manzara"
       ],
-      "distanceFromCenter": 0,
+      "distanceFromCenter": 0.0,
       "lat": 36.851092,
       "lng": 30.850905,
       "price": "medium",
       "rating": 4.2,
-      "description": "Mavi bayraklı Lara Plajı, antik dönemden beri gelen deniz ticaretinin önemli bir merkeziydi ve şimdi berrak sularıyla herkesin gözdesi.",
+      "description": "Lara Plajı, antik Luwi dilinde 'kum' anlamına gelen adıyla, Antalya'nın altın kumlu, Mavi Bayraklı cennetidir. Lüks otelleri ve berrak deniziyle ünlüdür.",
       "bestTime": "Yazın",
       "bestFor": [
         "herkes"
       ],
       "source": "google",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/lara_plaji.jpg",
-      "tips": "Sahildeki restoranlardan taze deniz ürünleri deneyin.",
-      "description_en": "Blue Flag Lara Beach has long been a key hub for maritime trade since ancient times, now adored for its crystal-clear waters.",
-      "tips_en": "Try the fresh seafood from the beachside restaurants.",
-      "name_en": "Lara Beach"
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Flara_plaji.jpg?alt=media",
+      "tips": "Gün batımında yürüyüş yapın veya yakındaki Aşağı Düden Şelalesi'ni ziyaret edin.",
+      "description_en": "Lara Beach, named after the ancient Luwian word for 'sand', is Antalya's golden-sanded, Blue Flag paradise. Famous for its luxury hotels and clear sea.",
+      "tips_en": "Take a sunset stroll or visit the nearby Lower Düden Waterfall.",
+      "name_en": "Lara Beach",
+      "id": "ChIJJ2KfTMicwxQRBCsuFRK2MCU"
     },
     {
       "name": "Lara Tantuni",
@@ -2487,9 +2868,18 @@
       "bestTime_en": "Lunch",
       "tips": "'Tantuninizin yanında nar ekşisi deneyin, muhteşem bir uyum sağlıyor.'",
       "tips_en": "'Try pomegranate molasses with your tantuni; it creates a wonderful harmony.'",
-      "id": "lara-tantuni",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/lara-tantuni.jpg",
-      "source": "firebase"
+      "id": "ChIJQ3CI3HabwxQRa_YKtn7bz_4",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Flara-tantuni.jpg?alt=media",
+      "source": "firebase",
+      "openHours": {
+        "sunday": "00:00-03:00, 10:00-24:00",
+        "monday": "00:00-03:00, 10:00-24:00",
+        "tuesday": "00:00-03:00, 10:00-24:00",
+        "wednesday": "00:00-03:00, 10:00-24:00",
+        "thursday": "00:00-03:00, 10:00-23:59",
+        "friday": "00:00-03:00, 10:00-24:00",
+        "saturday": "00:00-03:00, 10:00-24:00"
+      }
     },
     {
       "name": "Letoon Antik Kenti",
@@ -2512,9 +2902,18 @@
       "bestTime_en": "Daytime",
       "tips": "Özellikle yazın şapka ve bol suyla gezmeyi unutmayın.",
       "tips_en": "Wear a hat and carry water; it gets very hot.",
-      "id": "letoon-antik-kenti",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/letoon-antik-kenti.jpg",
-      "source": "firebase"
+      "id": "ChIJc53BUd8xwBQRqlUKzJSY3dQ",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Fletoon-antik-kenti.jpg?alt=media",
+      "source": "firebase",
+      "openHours": {
+        "sunday": "09:00-20:00",
+        "monday": "09:00-20:00",
+        "tuesday": "09:00-20:00",
+        "wednesday": "09:00-20:00",
+        "thursday": "09:00-20:00",
+        "friday": "09:00-20:00",
+        "saturday": "09:00-20:00"
+      }
     },
     {
       "name": "Likya Yolu Yürüyüşü",
@@ -2537,9 +2936,18 @@
       "bestTime_en": "Spring",
       "tips": "Güneş batarken kalıntıları ziyaret edin, fotoğraf çekimi için muhteşem ışık yakalayın.",
       "tips_en": "Visit the ruins at sunset, capture magnificent light for photography.",
-      "id": "likya-yolu-yuruyusu",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/likya-yolu-yuruyusu.jpg",
-      "source": "firebase"
+      "id": "ChIJBf6vYZ64wxQRg0fVBj17_cs",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Flikya-yolu-yuruyusu.jpg?alt=media",
+      "source": "firebase",
+      "openHours": {
+        "sunday": "08:30-20:30",
+        "monday": "08:30-20:30",
+        "tuesday": "08:30-20:30",
+        "wednesday": "08:30-20:30",
+        "thursday": "08:30-20:30",
+        "friday": "08:30-20:30",
+        "saturday": "08:30-20:30"
+      }
     },
     {
       "name": "Limanagzi Koyu",
@@ -2562,9 +2970,18 @@
       "bestTime_en": "Daytime",
       "tips": "Sakinleşmek için sabah saatlerini tercih edin.",
       "tips_en": "Choose morning hours for a tranquil experience.",
-      "id": "limanagzi-koyu",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/limanagzi-koyu.jpg",
-      "source": "firebase"
+      "id": "ChIJ4US5y67bwRQR0GRFlZW3zE0",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Flimanagzi-koyu.jpg?alt=media",
+      "source": "firebase",
+      "openHours": {
+        "sunday": "closed",
+        "monday": "closed",
+        "tuesday": "closed",
+        "wednesday": "closed",
+        "thursday": "00:00-23:59",
+        "friday": "00:00-24:00",
+        "saturday": "closed"
+      }
     },
     {
       "name": "Limyra Antik Kenti",
@@ -2588,9 +3005,18 @@
       "bestTime_en": "Daytime",
       "tips": "Özellikle sıcak aylarda bol su ve şapka bulundurmayı unutmayın.",
       "tips_en": "Bring ample water and a hat, especially during hot months.",
-      "id": "limyra-antik-kenti",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/limyra-antik-kenti.jpg",
-      "source": "firebase"
+      "id": "ChIJhw6OZN0nwhQRV1lui7MGujY",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Flimyra-antik-kenti.jpg?alt=media",
+      "source": "firebase",
+      "openHours": {
+        "sunday": "08:00-16:30",
+        "monday": "08:00-16:30",
+        "tuesday": "08:00-16:30",
+        "wednesday": "08:00-16:30",
+        "thursday": "08:00-16:30",
+        "friday": "08:00-16:30",
+        "saturday": "08:00-16:30"
+      }
     },
     {
       "name": "Manavgat Şelalesi",
@@ -2603,7 +3029,7 @@
         "türkiye",
         "manzara"
       ],
-      "distanceFromCenter": 0,
+      "distanceFromCenter": 0.0,
       "lat": 36.812991,
       "lng": 31.453254,
       "price": "medium",
@@ -2614,11 +3040,21 @@
         "herkes"
       ],
       "source": "google",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/manavgat_selalesi.jpg",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Fmanavgat_selalesi.jpg?alt=media",
       "tips": "Şelalenin sağ tarafındaki çay bahçesinde taze balık tadın.",
       "description_en": "Manavgat Waterfall buzzes with families' laughter, vendors' cheerful calls, and the constant roar of the water. Picnickers, villagers selling handicrafts, and elders sipping tea always enliven this riverside spot.",
       "tips_en": "Savor fresh fish at the tea garden located on the waterfall's right side.",
-      "name_en": "Manavgat Waterfall"
+      "name_en": "Manavgat Waterfall",
+      "id": "ChIJ0R1_NglXwxQRrDj8lN9lZ3s",
+      "openHours": {
+        "sunday": "07:00-19:00",
+        "monday": "07:00-19:00",
+        "tuesday": "07:00-19:00",
+        "wednesday": "07:00-19:00",
+        "thursday": "07:00-19:00",
+        "friday": "07:00-19:00",
+        "saturday": "07:00-19:00"
+      }
     },
     {
       "name": "Mark Antalya AVM",
@@ -2644,10 +3080,19 @@
       "bestTime_en": "Daytime",
       "tips": "Öğleden sonra sakin zamanlarda ziyaret edin.",
       "tips_en": "Visit in the afternoon for a quieter experience.",
-      "id": "mark-antalya-avm",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/mark-antalya-avm.jpg",
+      "id": "ChIJ3R3Ydv2PwxQROZdhGx-s1Wk",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Fmark-antalya-avm.jpg?alt=media",
       "source": "firebase",
-      "subcategory": "AVM"
+      "subcategory": "AVM",
+      "openHours": {
+        "sunday": "10:00-22:00",
+        "monday": "10:00-22:00",
+        "tuesday": "10:00-22:00",
+        "wednesday": "10:00-22:00",
+        "thursday": "10:00-22:00",
+        "friday": "10:00-22:00",
+        "saturday": "10:00-22:00"
+      }
     },
     {
       "name": "Meis Adası Günlük Tur",
@@ -2670,9 +3115,18 @@
       "bestTime_en": "Daytime",
       "tips": "Gök Mağara'yı mutlaka ziyaret edin; teknelerle ulaşım sabah erken başlar.",
       "tips_en": "Definitely visit the Blue Grotto; boat trips start early mornings.",
-      "id": "meis-adasi-gunluk-tur",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/meis-adasi-gunluk-tur.jpg",
-      "source": "firebase"
+      "id": "ChIJBxGSGn12uhQRUrKS_SsbDoE",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Fmeis-adasi-gunluk-tur.jpg?alt=media",
+      "source": "firebase",
+      "openHours": {
+        "sunday": "09:00-18:00",
+        "monday": "09:00-18:00",
+        "tuesday": "09:00-18:00",
+        "wednesday": "09:00-18:00",
+        "thursday": "09:00-18:00",
+        "friday": "09:00-18:00",
+        "saturday": "09:00-18:00"
+      }
     },
     {
       "name": "Mermerli Plajı",
@@ -2695,9 +3149,18 @@
       "bestTime_en": "Morning",
       "tips": "Güneş batmadan önce gelin, manzaranın tadını çıkarın.",
       "tips_en": "Arrive before sunset to enjoy the breathtaking views.",
-      "id": "mermerli-plaji",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/mermerli-plaji.jpg",
-      "source": "firebase"
+      "id": "ChIJobIjcgWQwxQR9EaytChPdwA",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Fmermerli-plaji.jpg?alt=media",
+      "source": "firebase",
+      "openHours": {
+        "sunday": "08:00-21:00",
+        "monday": "08:00-21:00",
+        "tuesday": "08:00-21:00",
+        "wednesday": "08:00-21:00",
+        "thursday": "08:00-21:00",
+        "friday": "08:00-21:00",
+        "saturday": "08:00-21:00"
+      }
     },
     {
       "name": "Mini City Antalya",
@@ -2720,8 +3183,8 @@
       "bestTime_en": "Daytime",
       "tips": "Antalya sıcağında konforlu bir deneyim için sabah erken saatlerde ziyaret edin.",
       "tips_en": "For a comfortable experience in Antalya's heat, visit early in the morning.",
-      "id": "mini-city-antalya",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/mini-city-antalya.jpg",
+      "id": "ChIJ6YvKibCRwxQR5AIP-3Vx_aw",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Fmini-city-antalya.jpg?alt=media",
       "source": "firebase"
     },
     {
@@ -2745,8 +3208,8 @@
       "bestTime_en": "Daytime",
       "tips": "Gün batımına doğru gel, marina yanındaki çim terasta yerini ayırt.",
       "tips_en": "Arrive near sunset; reserve your spot on the grass terrace by the marina.",
-      "id": "moonlight-beach-kemer",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/moonlight-beach-kemer.jpg",
+      "id": "ChIJzbDdIt-3wxQRb5ySwLZ2dPE",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Fmoonlight-beach-kemer.jpg?alt=media",
       "source": "firebase"
     },
     {
@@ -2770,12 +3233,21 @@
       "bestTime_en": "Morning",
       "tips": "Yerel kahve dükkanını sabah erken ziyaret edin.",
       "tips_en": "Visit the local coffee shop early in the morning.",
-      "id": "muratpasa-semt-pazari",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/muratpasa-semt-pazari.jpg",
-      "source": "firebase"
+      "id": "ChIJAbyDfluFwxQRkqrAPhkdTW0",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Fmuratpasa-semt-pazari.jpg?alt=media",
+      "source": "firebase",
+      "openHours": {
+        "sunday": "closed",
+        "monday": "closed",
+        "tuesday": "closed",
+        "wednesday": "closed",
+        "thursday": "09:00-18:00",
+        "friday": "closed",
+        "saturday": "closed"
+      }
     },
     {
-      "id": "musluman-mahallesi",
+      "id": "ChIJRzGepQOQwxQRQdvxC7Py-Yc",
       "name": "Müslüman Mahallesi",
       "name_en": "Muslim Quarter",
       "description": "Kaleiçi'nin tarihi Müslüman Mahallesi, Selçuklu ve Osmanlı mimarisinin dar sokaklarda hayat bulduğu, geleneksel evler ve ikonik Yivli Minare'yi barındıran önemli bir mirastır.",
@@ -2792,7 +3264,7 @@
       "price": "free",
       "lat": 36.8969,
       "lng": 30.7133,
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/musluman_mahallesi.jpg",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Fmusluman_mahallesi.jpg?alt=media",
       "rating": 4.4,
       "source": "firebase"
     },
@@ -2817,8 +3289,8 @@
       "bestTime_en": "Daytime",
       "tips": "Demre'ye erken gelip çevredeki Myra Antik Kenti'ni de ziyaret edin.",
       "tips_en": "Arrive early in Demre and visit the nearby ancient city of Myra.",
-      "id": "noel-baba-kilisesi",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/noel-baba-kilisesi.jpg",
+      "id": "ChIJmWQQAw7ywRQR_BwX10z4LzE",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Fnoel-baba-kilisesi.jpg?alt=media",
       "source": "firebase"
     },
     {
@@ -2835,7 +3307,7 @@
         "beach",
         "antalya"
       ],
-      "distanceFromCenter": 0,
+      "distanceFromCenter": 0.0,
       "lat": 36.395514,
       "lng": 30.472289,
       "price": "medium",
@@ -2846,11 +3318,21 @@
         "herkes"
       ],
       "source": "google",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/olimpos_antik_kenti.jpg",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Folimpos_antik_kenti.jpg?alt=media",
       "tips": "Antik kenti keşfetmek için rahat ayakkabılar giyin ve yanınıza su alın.",
       "description_en": "Olympos, Lycia's mythological port city, boasts Roman/Byzantine theater, agora, baths, necropolis. A unique heritage where history and nature converge.",
       "tips_en": "Wear comfortable shoes and carry water to explore the ancient city.",
-      "name_en": "Olympos Ancient City"
+      "name_en": "Olympos Ancient City",
+      "id": "ChIJkYfx8I42whQRAK8eQC4WCoc",
+      "openHours": {
+        "sunday": "08:00-20:30",
+        "monday": "08:00-20:30",
+        "tuesday": "08:00-20:30",
+        "wednesday": "08:00-20:30",
+        "thursday": "08:00-20:30",
+        "friday": "08:00-20:30",
+        "saturday": "08:00-20:30"
+      }
     },
     {
       "name": "Paraşüt (Ölüdeniz)",
@@ -2873,9 +3355,18 @@
       "bestTime_en": "Daytime",
       "tips": "Rüzgar durumunu kontrol ederek erken rezervasyon yapın ve gün batımı uçuşunu kaçırmayın.",
       "tips_en": "Check wind conditions, book early, and don't miss a sunset flight.",
-      "id": "parasut-oludeniz",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/parasut-oludeniz.jpg",
-      "source": "firebase"
+      "id": "ChIJkYny9ZJDwBQR6AXkn38_WDU",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Fparasut-oludeniz.jpg?alt=media",
+      "source": "firebase",
+      "openHours": {
+        "sunday": "closed",
+        "monday": "closed",
+        "tuesday": "closed",
+        "wednesday": "closed",
+        "thursday": "00:00-23:59",
+        "friday": "00:00-24:00",
+        "saturday": "closed"
+      }
     },
     {
       "name": "Patara Antik Kenti",
@@ -2898,9 +3389,18 @@
       "bestTime_en": "Daytime",
       "tips": "Antik kenti keşfettikten sonra, Patara Plajı'nda eşsiz gün batımını mutlaka izleyin.",
       "tips_en": "After exploring the ancient city, definitely watch the unique sunset at Patara Beach.",
-      "id": "patara-antik-kenti",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/patara-antik-kenti.jpg",
-      "source": "firebase"
+      "id": "ChIJzafpnyktwBQR4YsQf-mOSRU",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Fpatara-antik-kenti.jpg?alt=media",
+      "source": "firebase",
+      "openHours": {
+        "sunday": "08:00-21:30",
+        "monday": "08:00-21:30",
+        "tuesday": "08:00-21:30",
+        "wednesday": "08:00-21:30",
+        "thursday": "08:00-21:30",
+        "friday": "08:00-21:30",
+        "saturday": "08:00-21:30"
+      }
     },
     {
       "name": "Patara Plajı",
@@ -2923,8 +3423,8 @@
       "bestTime_en": "Daytime",
       "tips": "Sakin sabah saatlerinde giderek kalabalıktan kaçınabilirsiniz.",
       "tips_en": "Visit during the serene morning hours to avoid the crowds.",
-      "id": "patara-plaji",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/patara-plaji.jpg",
+      "id": "ChIJu-RldrQuwBQR_RL99zGXFgQ",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Fpatara-plaji.jpg?alt=media",
       "source": "firebase"
     },
     {
@@ -2948,8 +3448,8 @@
       "bestTime_en": "Morning",
       "tips": "Pazar sabahı gittiğinizde en taze ürünleri bulun.",
       "tips_en": "Visit on a Sunday morning for the freshest produce.",
-      "id": "pazartesi-pazari-yerli-pazari",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/pazartesi-pazari-yerli-pazari.jpg",
+      "id": "ChIJZQH5O5-FwxQRmac4c8IvJOw",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Fpazartesi-pazari-yerli-pazari.jpg?alt=media",
       "source": "firebase",
       "area_en": "Center"
     },
@@ -2964,23 +3464,33 @@
         "türkiye",
         "restoran"
       ],
-      "distanceFromCenter": 0,
+      "distanceFromCenter": 0.0,
       "lat": 36.873165,
       "lng": 30.641669,
       "price": "medium",
-      "rating": 4,
+      "rating": 4.0,
       "description": "Paçacı Şemsi’nin kapısından girince, sıcak paça çorbasının buharlı kokusu, güneşin sıcak ışına karışıyor ve kalabalığın sesi yudum yudum içe geçiyor.",
       "bestTime": "İlkbahar",
       "bestFor": [
         "herkes"
       ],
       "source": "google",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/pacaci_semsi.jpg",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Fpacaci_semsi.jpg?alt=media",
       "tips": "Günün erken saatlerinde gitmek, taze malzeme kokusunu almanızı sağlar.",
       "description_en": "As you step through the door of Paçacı Şemsi, the steamy aroma of hot paça soup mingles with the warm sunlight, and the bustling sounds seep into your senses.",
       "tips_en": "Visiting in the early hours lets you savor the scent of fresh ingredients.",
       "area_en": "Center",
-      "name_en": "Paçacı Şemsi"
+      "name_en": "Paçacı Şemsi",
+      "id": "ChIJqdH1ogGQwxQRiUHUPh5Pj3g",
+      "openHours": {
+        "sunday": "closed",
+        "monday": "closed",
+        "tuesday": "closed",
+        "wednesday": "closed",
+        "thursday": "00:00-23:59",
+        "friday": "00:00-24:00",
+        "saturday": "closed"
+      }
     },
     {
       "name": "Perge Antik Kenti",
@@ -2996,7 +3506,7 @@
         "tarihi",
         "antalya"
       ],
-      "distanceFromCenter": 0,
+      "distanceFromCenter": 0.0,
       "lat": 36.957694,
       "lng": 30.852539,
       "price": "medium",
@@ -3007,36 +3517,21 @@
         "herkes"
       ],
       "source": "google",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/perge_antik_kenti.jpg",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Fperge_antik_kenti.jpg?alt=media",
       "tips": "Güneşten korunmak için şapka ve bol su almayı unutmayın.",
       "description_en": "Perge inspires admiration with its magnificent Roman theatre, colossal stadium, monumental Hellenistic gates, colonnaded streets, and nymphaeum. As Pamphylia's capital, it showcases impressive Roman architecture.",
       "tips_en": "Bring a hat and ample water for sun protection.",
-      "name_en": "Selge Ancient City"
-    },
-    {
-      "name": "Perge Bisiklet Turu",
-      "name_en": "Perge Bicycle Tour",
-      "area": "Aksu",
-      "category": "Deneyim",
-      "tags": [
-        "bisiklet",
-        "antik kent",
-        "tur"
-      ],
-      "distanceFromCenter": 18.0,
-      "lat": 36.958,
-      "lng": 30.853,
-      "price": "medium",
-      "rating": 4.5,
-      "description": "Pamfilya'nın görkemli başkenti Perge, iyi korunmuş Roma tiyatrosu, dünyanın en sağlam stadyumu, anıtsal çeşmeleri ve sütunlu caddeleriyle, antik Roma mimarisinin zirvesidir.",
-      "description_en": "Perge, Pamphylia's glorious capital, boasts a well-preserved Roman theatre, the world's most intact stadium, monumental fountains, and colonnaded streets. A peak of ancient Roman architecture.",
-      "bestTime": "Sabah",
-      "bestTime_en": "Morning",
-      "tips": "Erken saatlerde ziyaret ederek sıcaktan ve kalabalıktan kaçının.",
-      "tips_en": "Visit early to avoid the heat and crowds.",
-      "id": "perge-bisiklet-turu",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/perge-bisiklet-turu.jpg",
-      "source": "firebase"
+      "name_en": "Selge Ancient City",
+      "id": "ChIJQwc3aqmBwxQRB7Tr2OhnhMY",
+      "openHours": {
+        "sunday": "08:00-17:00",
+        "monday": "08:00-17:00",
+        "tuesday": "08:00-17:00",
+        "wednesday": "08:00-17:00",
+        "thursday": "08:00-17:00",
+        "friday": "08:00-17:00",
+        "saturday": "08:00-17:00"
+      }
     },
     {
       "name": "Phaselis Antik Kenti",
@@ -3049,7 +3544,7 @@
         "türkiye",
         "tarihi"
       ],
-      "distanceFromCenter": 0,
+      "distanceFromCenter": 0.0,
       "lat": 36.525153,
       "lng": 30.552027,
       "price": "medium",
@@ -3060,11 +3555,21 @@
         "herkes"
       ],
       "source": "google",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/phaselis_antik_kenti.jpg",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Fphaselis_antik_kenti.jpg?alt=media",
       "tips": "Denize girmek için yanınıza mayo alın, antik kalıntılar arasında yürüyüş ayakkabıları tercih edin.",
       "description_en": "Ancient Lycian Phaselis, with three ports, boasts magnificent Roman agora, theatre, baths, and Hadrian's Gate. Its architectural remnants offer a profound historical journey.",
       "tips_en": "Bring your swimsuit for swimming; prefer walking shoes among the ancient ruins.",
-      "name_en": "Phaselis Antik Kenti"
+      "name_en": "Phaselis Ancient City",
+      "id": "ChIJdxGBP8C1wxQR15xEVYuzZWs",
+      "openHours": {
+        "sunday": "08:00-16:30",
+        "monday": "08:00-16:30",
+        "tuesday": "08:00-16:30",
+        "wednesday": "08:00-16:30",
+        "thursday": "08:00-16:30",
+        "friday": "08:00-16:30",
+        "saturday": "08:00-16:30"
+      }
     },
     {
       "name": "Pio Gastro Bar & Bistro",
@@ -3077,7 +3582,7 @@
         "türkiye",
         "restoran"
       ],
-      "distanceFromCenter": 0,
+      "distanceFromCenter": 0.0,
       "lat": 36.885602,
       "lng": 30.706321,
       "price": "medium",
@@ -3088,11 +3593,21 @@
         "herkes"
       ],
       "source": "google",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/pio_gastro_bar_and_bistro.jpg",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Fpio_gastro_bar_and_bistro.jpg?alt=media",
       "tips": "Kahvaltı için 09:00'da gelin, güneş yeni doğuyor.",
       "description_en": "Pio Gastro Bar & Bistro brings warmth with deep wooden tones and vibrant green plants enriching the ambiance.",
       "tips_en": "Arrive at 9 AM for breakfast, as the sun is just rising.",
-      "name_en": "Pio Gastro Bar & Bistro"
+      "name_en": "Pio Gastro Bar & Bistro",
+      "id": "ChIJCYDzpwaQwxQRwKCo6xohB40",
+      "openHours": {
+        "sunday": "00:00-00:00, 16:00-24:00",
+        "monday": "00:00-00:00, 16:00-24:00",
+        "tuesday": "00:00-00:00, 16:00-24:00",
+        "wednesday": "00:00-00:00, 16:00-24:00",
+        "thursday": "00:00-00:00, 16:00-23:59",
+        "friday": "16:00-24:00",
+        "saturday": "00:00-00:00, 16:00-24:00"
+      }
     },
     {
       "name": "Piyaz Evi",
@@ -3115,13 +3630,22 @@
       "bestTime_en": "Lunch",
       "tips": "Öğle saatlerinde gitmek, taze mezeler için idealdir.",
       "tips_en": "Visit around lunchtime for the freshest meze options.",
-      "id": "piyaz-evi",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/piyaz-evi.jpg",
+      "id": "ChIJZSm0tB6QwxQR4Cv8ba3L-Z4",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Fpiyaz-evi.jpg?alt=media",
       "source": "firebase",
-      "area_en": "Center"
+      "area_en": "Center",
+      "openHours": {
+        "sunday": "11:30-21:30",
+        "monday": "11:30-21:30",
+        "tuesday": "11:30-21:30",
+        "wednesday": "11:30-21:30",
+        "thursday": "11:30-21:30",
+        "friday": "11:30-21:30",
+        "saturday": "11:30-21:30"
+      }
     },
     {
-      "id": "piyaz-lokantalari",
+      "id": "ChIJWzxQ7iCQwxQRmBMbddk_WYk",
       "name": "Piyaz Lokantaları",
       "name_en": "Piyaz Restaurants",
       "description": "Antalya'nın gözde Piyaz Lokantaları, zengin beyaz fasulye ve tahin tadıyla yerel lezzetleri ön plana çıkarıyor.",
@@ -3138,9 +3662,18 @@
       "price": "low",
       "lat": 36.895531,
       "lng": 30.685304,
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/piyaz-lokantalari.jpg",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Fpiyaz-lokantalari.jpg?alt=media",
       "rating": 4.6,
-      "source": "firebase"
+      "source": "firebase",
+      "openHours": {
+        "sunday": "closed",
+        "monday": "12:00-20:00",
+        "tuesday": "12:00-20:00",
+        "wednesday": "12:00-20:00",
+        "thursday": "12:00-20:00",
+        "friday": "12:00-20:00",
+        "saturday": "12:00-20:00"
+      }
     },
     {
       "name": "Portakal Çiçeği Kahvesi",
@@ -3163,9 +3696,18 @@
       "bestTime_en": "Afternoon",
       "tips": "Güneşin batışını izlemek için terasa çıkın.",
       "tips_en": "Head to the terrace to watch the sunset.",
-      "id": "portakal-cicegi-kahvesi",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/portakal-cicegi-kahvesi.jpg",
-      "source": "firebase"
+      "id": "ChIJT99_kSKbwxQRs-0uBu0bgWY",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Fportakal-cicegi-kahvesi.jpg?alt=media",
+      "source": "firebase",
+      "openHours": {
+        "sunday": "closed",
+        "monday": "09:00-21:00",
+        "tuesday": "09:00-21:00",
+        "wednesday": "09:00-21:00",
+        "thursday": "09:00-21:00",
+        "friday": "09:00-21:00",
+        "saturday": "10:00-22:00"
+      }
     },
     {
       "name": "Rafting (Köprülü Kanyon)",
@@ -3188,19 +3730,28 @@
       "bestTime_en": "Summer",
       "tips": "Köprülerin altından geçerken kadim tarihi hissetmek için bir mola verin.",
       "tips_en": "Pause to feel the ancient history while passing under the bridges.",
-      "id": "rafting-koprulu-kanyon",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/rafting-koprulu-kanyon.jpg",
-      "source": "firebase"
+      "id": "ChIJy9kRloWWxBQRff19MnaapU8",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Frafting-koprulu-kanyon.jpg?alt=media",
+      "source": "firebase",
+      "openHours": {
+        "sunday": "00:00-03:00, 08:00-24:00",
+        "monday": "00:00-02:00, 08:00-24:00",
+        "tuesday": "00:00-02:00, 08:00-24:00",
+        "wednesday": "00:00-02:00, 08:00-24:00",
+        "thursday": "00:00-02:00, 08:00-23:59",
+        "friday": "00:00-02:00, 08:00-24:00",
+        "saturday": "00:00-02:00, 08:00-24:00"
+      }
     },
     {
-      "id": "roman-harbour-antik-liman",
+      "id": "ChIJbWSRnryRwxQRWBEw5OOCs_s",
       "name": "Roman Harbour (Antik Liman)",
       "name_en": "Roman Harbour",
       "description": "Antik Roma döneminden kalma, Pamfilya'nın en önemli ticaret kapısı olan bu liman, denizden gelen zenginlikleri şehre taşıdı. Günümüzde yat turizmi ve tekne gezileri için canlı bir merkezdir.",
       "description_en": "From Ancient Rome, this harbour was Pamphylia's key trade gate, channeling wealth. Today, it's a vibrant hub for yacht and boat excursions.",
       "tips": "Akşamüstü gün batımını izlemek ve tekne turuna katılmak için idealdir.",
       "tips_en": "Ideal for watching the sunset in the evening and joining a boat tour.",
-      "category": "Tarihi",
+      "category": "Liman",
       "subcategory": "Liman",
       "tags": [
         "ancient",
@@ -3210,7 +3761,7 @@
       "price": "free",
       "lat": 36.884773,
       "lng": 30.703,
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/roman-harbour-antik-liman.jpg",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Froman-harbour-antik-liman.jpg?alt=media",
       "rating": 4.6,
       "source": "firebase"
     },
@@ -3235,9 +3786,18 @@
       "bestTime_en": "Daytime",
       "tips": "Kaleiçi keşfinize kuleyi başlangıç noktası yaparak tarihi dokuyu hissedin.",
       "tips_en": "Start your Kaleiçi exploration from the tower to feel its history.",
-      "id": "saat-kulesi",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/saat-kulesi.jpg",
-      "source": "firebase"
+      "id": "ChIJ6RWJzzeRwxQR-6WQDZyH9jg",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Fsaat-kulesi.jpg?alt=media",
+      "source": "firebase",
+      "openHours": {
+        "sunday": "closed",
+        "monday": "closed",
+        "tuesday": "closed",
+        "wednesday": "closed",
+        "thursday": "00:00-23:59",
+        "friday": "00:00-24:00",
+        "saturday": "closed"
+      }
     },
     {
       "name": "Saklikent Kanyonu",
@@ -3260,12 +3820,21 @@
       "bestTime_en": "Summer",
       "tips": "Kanyonda yürümek için rahat ayakkabılar giyin.",
       "tips_en": "Wear comfortable shoes for walking in the canyon.",
-      "id": "saklikent-kanyonu",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/saklikent-kanyonu.jpg",
-      "source": "firebase"
+      "id": "ChIJX4240qhKwBQRnYEHFRZezXM",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Fsaklikent-kanyonu.jpg?alt=media",
+      "source": "firebase",
+      "openHours": {
+        "sunday": "08:30-18:00",
+        "monday": "08:30-18:00",
+        "tuesday": "08:30-18:00",
+        "wednesday": "08:30-18:00",
+        "thursday": "08:30-18:00",
+        "friday": "08:30-18:00",
+        "saturday": "08:30-18:00"
+      }
     },
     {
-      "id": "saklikent-kayak-merkezi",
+      "id": "ChIJx31bT_nnwxQRGQB9lnoZJhk",
       "name": "Saklıkent Kayak Merkezi",
       "name_en": "Saklıkent Ski Resort",
       "description": "1980'lerde Beydağları'na kurulan Saklıkent, Akdeniz'e en yakın öncü kayak merkezidir. Torosların heybetli yapısıyla uyumlu mimarisi, zirvede dağ yaşamının eşsiz huzurunu sunar.",
@@ -3282,9 +3851,18 @@
       "price": "high",
       "lat": 36.843278,
       "lng": 30.336993,
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/saklikent-kayak-merkezi.jpg",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Fsaklikent-kayak-merkezi.jpg?alt=media",
       "rating": 4.2,
-      "source": "firebase"
+      "source": "firebase",
+      "openHours": {
+        "sunday": "09:00-19:00",
+        "monday": "09:00-19:00",
+        "tuesday": "09:00-19:00",
+        "wednesday": "09:00-19:00",
+        "thursday": "09:00-19:00",
+        "friday": "09:00-19:00",
+        "saturday": "09:00-19:00"
+      }
     },
     {
       "name": "Sandland Kum Heykeller",
@@ -3307,9 +3885,18 @@
       "bestTime_en": "Daytime",
       "tips": "Heykelleri en iyi görmek için gün batımına yakın veya akşam ziyaret edin.",
       "tips_en": "Visit near sunset or in the evening for the best sculpture viewing.",
-      "id": "sandland-kum-heykeller",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/sandland-kum-heykeller.jpg",
-      "source": "firebase"
+      "id": "ChIJpbZUtKWcwxQReRGyQ-osgH8",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Fsandland-kum-heykeller.jpg?alt=media",
+      "source": "firebase",
+      "openHours": {
+        "sunday": "09:00-19:00",
+        "monday": "09:00-19:00",
+        "tuesday": "09:00-19:00",
+        "wednesday": "09:00-19:00",
+        "thursday": "09:00-19:00",
+        "friday": "09:00-19:00",
+        "saturday": "09:00-19:00"
+      }
     },
     {
       "name": "Sapadere Kanyonu",
@@ -3332,9 +3919,18 @@
       "bestTime_en": "Morning",
       "tips": "Sabah erken saatlerde gidin, kalabalıktan kaçının.",
       "tips_en": "Visit in the early morning to avoid the crowds.",
-      "id": "sapadere-kanyonu",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/sapadere-kanyonu.jpg",
-      "source": "firebase"
+      "id": "ChIJh5LYmQOB3BQR9aJoil22hcw",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Fsapadere-kanyonu.jpg?alt=media",
+      "source": "firebase",
+      "openHours": {
+        "sunday": "08:30-18:00",
+        "monday": "08:30-18:00",
+        "tuesday": "08:30-18:00",
+        "wednesday": "08:30-18:00",
+        "thursday": "08:30-18:00",
+        "friday": "08:30-18:00",
+        "saturday": "08:30-18:00"
+      }
     },
     {
       "name": "Scuba Diving Kaş",
@@ -3351,15 +3947,24 @@
       "lng": 29.64,
       "price": "high",
       "rating": 4.8,
-      "description": "MÖ 1. yüzyıla tarihlenen Kaş Antik Tiyatrosu, Antiphellos'un sosyal kalbiydi. Akdeniz'e nazır, yamaca oyulmuş Helenistik mimarinin bu görkemli örneği, antik dramalara tanıklık etti.",
-      "description_en": "Dating to 1st century BC, Kaş Ancient Theatre was Antiphellos' social heart. Carved into the hillside with Mediterranean views, this magnificent Hellenistic structure exemplifies ancient architectural brilliance.",
+      "description": "Kaş'ın berrak sularında antik batıklar ve zengin deniz yaşamıyla dalış yapın. Lykia'nın gizemli derinliklerinde unutulmaz bir deneyim sizi bekliyor.",
+      "description_en": "Dive into Kaş's clear waters among ancient wrecks and rich marine life. An unforgettable experience awaits you in Lycia's mysterious depths.",
       "bestTime": "Yaz",
       "bestTime_en": "Summer",
-      "tips": "Gün batımında ziyaret ederek muhteşem manzaraların tadını çıkarın.",
-      "tips_en": "Visit at sunset to enjoy magnificent panoramic views.",
-      "id": "scuba-diving-kas",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/scuba-diving-kas.jpg",
-      "source": "firebase"
+      "tips": "Özellikle yaz aylarında yerinizi önceden ayırtın ve Dimitri Batığı'nı keşfetmeyi unutmayın.",
+      "tips_en": "Book your spot in advance, especially during summer, and don't miss exploring the Dimitri Shipwreck.",
+      "id": "ChIJd7V26FbawRQR2JoyANe5uP0",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Fscuba-diving-kas.jpg?alt=media",
+      "source": "firebase",
+      "openHours": {
+        "sunday": "08:30-23:00",
+        "monday": "08:30-23:00",
+        "tuesday": "08:30-23:00",
+        "wednesday": "08:30-23:00",
+        "thursday": "08:30-23:00",
+        "friday": "08:30-23:00",
+        "saturday": "08:30-23:00"
+      }
     },
     {
       "name": "Side Antik Kenti",
@@ -3382,8 +3987,8 @@
       "bestTime_en": "Sunset",
       "tips": "Öğle sıcağında kalabalıktan kaçmak için sabah erken saatlerde ziyaret edin.",
       "tips_en": "Visit early morning to avoid midday heat and crowds.",
-      "id": "side-antik-kenti",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/side-antik-kenti.jpg",
+      "id": "ChIJTf3d6I1ZwxQR3HbhZKwmqO0",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Fside-antik-kenti.jpg?alt=media",
       "source": "firebase"
     },
     {
@@ -3407,34 +4012,18 @@
       "bestTime_en": "Daytime",
       "tips": "Antik tiyatro ve Apollon Tapınağı ile birlikte ziyaret edin.",
       "tips_en": "Visit alongside the ancient theatre and Temple of Apollo.",
-      "id": "side-arkeoloji-muzesi",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/side-arkeoloji-muzesi.jpg",
-      "source": "firebase"
-    },
-    {
-      "name": "Side Müzesi ve Açık Hava Müzesi",
-      "name_en": "Side Museum Open Air",
-      "area": "Manavgat",
-      "category": "Müze",
-      "tags": [
-        "müze",
-        "açık hava",
-        "heykel"
-      ],
-      "distanceFromCenter": 75.0,
-      "lat": 36.7685,
-      "lng": 31.3905,
-      "price": "low",
-      "rating": 4.5,
-      "description": "Antik Roma hamamında yer alan Side Müzesi, Side antik kentinden çıkan Helenistik, Roma ve Bizans dönemlerine ait heykelleri, lahitleri ve arkeolojik buluntuları sergileyerek zengin tarihi bir yolculuk sunar.",
-      "description_en": "Within ancient Roman baths, Side Museum exhibits Hellenistic, Roman, and Byzantine sculptures, sarcophagi, and findings from Side, revealing its rich history.",
-      "bestTime": "Gündüz",
-      "bestTime_en": "Daytime",
-      "tips": "Müze kartınız varsa hızlı geçiş yapabilir, antik kent gezisiyle birleştirebilirsiniz.",
-      "tips_en": "With a Museum Card, enter quickly; combine with the ancient city tour.",
-      "id": "side-muzesi-ve-acik-hava-muzesi",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/side-muzesi-ve-acik-hava-muzesi.jpg",
-      "source": "firebase"
+      "id": "ChIJB56FB9dbwxQRxXcFaZT1DsQ",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Fside-arkeoloji-muzesi.jpg?alt=media",
+      "source": "firebase",
+      "openHours": {
+        "sunday": "08:30-17:00",
+        "monday": "08:30-17:00",
+        "tuesday": "08:30-17:00",
+        "wednesday": "08:30-17:00",
+        "thursday": "08:30-17:00",
+        "friday": "08:30-17:00",
+        "saturday": "08:30-17:00"
+      }
     },
     {
       "name": "Side Sahil Yürüyüşü",
@@ -3457,12 +4046,21 @@
       "bestTime_en": "Evening",
       "tips": "Kahvenizi yudumlarken gün batımını izleyin.",
       "tips_en": "Sip your coffee while watching the sunset.",
-      "id": "side-sahil-yuruyusu",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/side-sahil-yuruyusu.jpg",
-      "source": "firebase"
+      "id": "ChIJFc3OUHhZwxQRoQpwDbsTc84",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Fside-sahil-yuruyusu.jpg?alt=media",
+      "source": "firebase",
+      "openHours": {
+        "sunday": "closed",
+        "monday": "closed",
+        "tuesday": "closed",
+        "wednesday": "closed",
+        "thursday": "00:00-23:59",
+        "friday": "00:00-24:00",
+        "saturday": "closed"
+      }
     },
     {
-      "id": "sillyon-antik-kenti",
+      "id": "ChIJDUj0OIqBxBQRMprQ9ue7rL8",
       "name": "Sillyon Antik Kenti",
       "name_en": "Sillyon Ancient City",
       "description": "Pamfilya'nın antik kenti Sillyon; stratejik tepesinde yükselen iyi korunmuş tiyatrosu, agorası, tapınakları ve surlarıyla Hellenistik, Roma, Bizans mimari ihtişamını sunuyor.",
@@ -3479,12 +4077,12 @@
       "price": "free",
       "lat": 36.989981,
       "lng": 30.985674,
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/sillyon-antik-kenti.jpg",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Fsillyon-antik-kenti.jpg?alt=media",
       "rating": 4.4,
       "source": "firebase"
     },
     {
-      "id": "sim-restaurant",
+      "id": "ChIJC1xx8wSQwxQRlv0klRdSA9Q",
       "name": "Sim Restaurant",
       "name_en": "Sim Restaurant",
       "description": "Sim Restoran, enerjik atmosferiyle gençlerin ve ailelerin buluşma noktası; her köşesinde kahkahalar, sohbetler, ve lezzetli yemeklerin tadını çıkaran insanların neşesi var.",
@@ -3501,9 +4099,18 @@
       "price": "high",
       "lat": 36.883157,
       "lng": 30.704587,
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/sim-restaurant.jpg",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Fsim-restaurant.jpg?alt=media",
       "rating": 3.6,
-      "source": "firebase"
+      "source": "firebase",
+      "openHours": {
+        "sunday": "00:00-03:00, 13:00-24:00",
+        "monday": "00:00-03:00, 13:00-24:00",
+        "tuesday": "00:00-03:00, 13:00-24:00",
+        "wednesday": "00:00-03:00, 13:00-24:00",
+        "thursday": "00:00-03:00, 13:00-23:59",
+        "friday": "00:00-03:00, 13:00-24:00",
+        "saturday": "00:00-03:00, 13:00-24:00"
+      }
     },
     {
       "name": "Simena (Kaleköy)",
@@ -3526,9 +4133,18 @@
       "bestTime_en": "Daytime",
       "tips": "Kaleköy'e sadece tekne turlarıyla ulaşım sağlanır, yürüyüş için uygun ayakkabı giyin.",
       "tips_en": "Kaleköy is only accessible by boat tours; wear suitable shoes for walking.",
-      "id": "simena-kalekoy",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/simena-kalekoy.jpg",
-      "source": "firebase"
+      "id": "ChIJ4ez9mDLpwRQR-7L7tqN33Ww",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Fsimena-kalekoy.jpg?alt=media",
+      "source": "firebase",
+      "openHours": {
+        "sunday": "08:00-17:00",
+        "monday": "08:00-17:00",
+        "tuesday": "08:00-17:00",
+        "wednesday": "08:00-17:00",
+        "thursday": "08:00-17:00",
+        "friday": "08:00-17:00",
+        "saturday": "08:00-17:00"
+      }
     },
     {
       "name": "Simena View Restaurant",
@@ -3551,9 +4167,18 @@
       "bestTime_en": "Lunch",
       "tips": "Sahildeki ağaç gölgelerinde dinlenin.",
       "tips_en": "Rest under the tree shades along the beach.",
-      "id": "simena-view-restaurant",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/simena-view-restaurant.jpg",
-      "source": "firebase"
+      "id": "ChIJnfiARIeRwxQRLsZQ7RzBCWk",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Fsimena-view-restaurant.jpg?alt=media",
+      "source": "firebase",
+      "openHours": {
+        "sunday": "00:00-00:30, 09:00-24:00",
+        "monday": "00:00-00:30, 09:00-24:00",
+        "tuesday": "00:00-00:30, 09:00-24:00",
+        "wednesday": "00:00-00:30, 09:00-24:00",
+        "thursday": "00:00-00:30, 09:00-23:59",
+        "friday": "00:00-00:30, 09:00-24:00",
+        "saturday": "00:00-00:30, 09:00-24:00"
+      }
     },
     {
       "name": "Su Antalya",
@@ -3576,9 +4201,18 @@
       "bestTime_en": "Evening",
       "tips": "Gün batımında terasın batı ucundan Kaleiçi silüetini yakalayın.",
       "tips_en": "Catch the Kaleiçi silhouette from the west end of the terrace at sunset.",
-      "id": "su-antalya",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/su-antalya.jpg",
-      "source": "firebase"
+      "id": "ChIJK_wWWxqQwxQR1p-TPCI47MI",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Fsu-antalya.jpg?alt=media",
+      "source": "firebase",
+      "openHours": {
+        "sunday": "closed",
+        "monday": "closed",
+        "tuesday": "closed",
+        "wednesday": "closed",
+        "thursday": "00:00-23:59",
+        "friday": "00:00-24:00",
+        "saturday": "closed"
+      }
     },
     {
       "name": "Suna-İnan Kıraç Kaleiçi Müzesi",
@@ -3601,9 +4235,18 @@
       "bestTime_en": "Daytime",
       "tips": "Müze kartı geçerlidir; Kaleiçi gezisiyle birleştirin.",
       "tips_en": "Museum card is valid; combine your visit with a Kaleiçi tour.",
-      "id": "suna-i̇nan-kirac-kaleici-muzesi",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/suna-i_nan-kirac-kaleici-muzesi.jpg",
-      "source": "firebase"
+      "id": "ChIJ73TP7QaQwxQRH0NU1AbB8TQ",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Fsuna-i_nan-kirac-kaleici-muzesi.jpg?alt=media",
+      "source": "firebase",
+      "openHours": {
+        "sunday": "09:00-18:00",
+        "monday": "closed",
+        "tuesday": "09:00-18:00",
+        "wednesday": "09:00-18:00",
+        "thursday": "09:00-18:00",
+        "friday": "09:00-18:00",
+        "saturday": "09:00-18:00"
+      }
     },
     {
       "name": "Sülüklü Göl",
@@ -3626,12 +4269,12 @@
       "bestTime_en": "Spring",
       "tips": "Sabah saatlerinde gelin, kuş sesleri eşliğinde yürüyün.",
       "tips_en": "Visit in the morning to walk accompanied by the sounds of birds.",
-      "id": "suluklu-gol",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/suluklu-gol.jpg",
+      "id": "ChIJYxegmsnXzBQRcKMKAUCsnc8",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Fsuluklu-gol.jpg?alt=media",
       "source": "firebase"
     },
     {
-      "id": "tahtali-dagi-olympos-teleferik",
+      "id": "ChIJgUd4cJm3wxQRCE06qzqSwIM",
       "name": "Tahtalı Dağı (Olympos Teleferik)",
       "name_en": "Mount Tahtalı Cable Car",
       "description": "Antik Olympos'un mitolojik zirvesi Tahtalı Dağı, modern teleferik mühendisliğinin muazzam bir eseridir. 2365 metrede, efsanevi diyarlar Akdeniz'in nefes kesen panoramik manzaralarıyla kucaklaşır.",
@@ -3648,34 +4291,18 @@
       "price": "high",
       "lat": 36.536536,
       "lng": 30.442092,
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/tahtali-dagi-olympos-teleferik.jpg",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Ftahtali-dagi-olympos-teleferik.jpg?alt=media",
       "rating": 4.7,
-      "source": "firebase"
-    },
-    {
-      "name": "Tahtalı Dağı Teleferik",
-      "name_en": "Tahtali Mountain Cable Car",
-      "area": "Kemer",
-      "category": "Deneyim",
-      "tags": [
-        "teleferik",
-        "dağ",
-        "manzara"
-      ],
-      "distanceFromCenter": 65.0,
-      "lat": 36.536,
-      "lng": 30.465,
-      "price": "high",
-      "rating": 4.8,
-      "description": "Antik Olympos (Tahtalı) Dağı'na yükselen Tahtalı Teleferik'te modern mühendislik harikasını deneyimleyin. Bu mimari şaheser, masmavi denizleri gökyüzüyle birleştiren nefes kesici panoramalar sunarak Likya tarihini gözler önüne seriyor.",
-      "description_en": "Experience modern engineering at Tahtalı Teleferik, ascending ancient Olympos Mountain. This architectural marvel offers breathtaking panoramas, connecting azure seas to sky, revealing Lycian history.",
-      "bestTime": "Gün batımı",
-      "bestTime_en": "Sunset",
-      "tips": "Zirveye çıkarken hava farkını göz önünde bulundurup katmanlı giyinin.",
-      "tips_en": "Dress in layers, as summit temperatures can be significantly cooler.",
-      "id": "tahtali-dagi-teleferik",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/tahtali-dagi-teleferik.jpg",
-      "source": "firebase"
+      "source": "firebase",
+      "openHours": {
+        "sunday": "09:00-16:30",
+        "monday": "09:00-16:30",
+        "tuesday": "09:00-16:30",
+        "wednesday": "09:00-16:30",
+        "thursday": "09:00-16:30",
+        "friday": "09:00-16:30",
+        "saturday": "09:00-16:30"
+      }
     },
     {
       "name": "Tekeli Mehmet Paşa Camii",
@@ -3698,8 +4325,8 @@
       "bestTime_en": "Daytime",
       "tips": "Camiye saygılı bir şekilde ziyaret edin; uygun kıyafet giymeyi unutmayın.",
       "tips_en": "Visit respectfully; remember to wear appropriate attire when entering the mosque.",
-      "id": "tekeli-mehmet-pasa-camii",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/tekeli-mehmet-pasa-camii.jpg",
+      "id": "ChIJHZSy_gOQwxQRyXWIkZKg15o",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Ftekeli-mehmet-pasa-camii.jpg?alt=media",
       "source": "firebase"
     },
     {
@@ -3717,15 +4344,24 @@
       "lng": 30.704,
       "price": "medium",
       "rating": 4.6,
-      "description": "Antik Pamfilya'nın en iyi korunmuş Roma zafer takı olan Üçkapılar, MS 130'da İmparator Hadrianus onuruna yapılmıştır. Korint sütunları ve mermer bezemeleriyle Antalya'nın tarihi giriş kapısıdır.",
-      "description_en": "Hadrian's Gate, ancient Pamphylia's best-preserved Roman triumphal arch, built in 130 AD honoring Emperor Hadrian. With Corinthian columns and marble adornments, it’s Antalya's historic entrance.",
+      "description": "Antalya'nın antik limanından kalkan teknelerle, Düden Şelalesi'nin denize döküldüğü noktayı ve eşsiz koyları keşfedin. Tarihi ve doğal güzellikler bir arada.",
+      "description_en": "From Antalya's ancient harbor, explore the point where Düden Waterfall meets the sea and unique coves. History and natural beauty combined.",
       "bestTime": "Gündüz",
       "bestTime_en": "Daytime",
-      "tips": "Hadrian's Gate'i gün batımında ziyaret ederek eşsiz fotoğraflar çekin.",
-      "tips_en": "Visit Hadrian's Gate at sunset for unique photographs.",
-      "id": "tekne-turu-antalya",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/tekne-turu-antalya.jpg",
-      "source": "firebase"
+      "tips": "Sabah erken saatlerde veya gün batımına yakın turlar, denizin sakinliğini ve eşsiz manzaraları sunar.",
+      "tips_en": "Early morning or sunset tours offer calmer seas and unique views.",
+      "id": "ChIJ06tixKuFwxQRhSGHVyLau6E",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Ftekne-turu-antalya.jpg?alt=media",
+      "source": "firebase",
+      "openHours": {
+        "sunday": "closed",
+        "monday": "closed",
+        "tuesday": "closed",
+        "wednesday": "closed",
+        "thursday": "00:00-23:59",
+        "friday": "00:00-24:00",
+        "saturday": "closed"
+      }
     },
     {
       "name": "Teleferik Tunektepe",
@@ -3748,8 +4384,8 @@
       "bestTime_en": "Sunset",
       "tips": "En iyi deneyim için gün batımı saatlerinde teleferiği kullanın.",
       "tips_en": "Use the cable car during sunset hours for the best experience.",
-      "id": "teleferik-tunektepe",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/teleferik-tunektepe.jpg",
+      "id": "ChIJlWfPPxOUwxQRylN-6RTu138",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Fteleferik-tunektepe.jpg?alt=media",
       "source": "firebase"
     },
     {
@@ -3763,7 +4399,7 @@
         "türkiye",
         "tarihi"
       ],
-      "distanceFromCenter": 0,
+      "distanceFromCenter": 0.0,
       "lat": 36.982617,
       "lng": 30.464953,
       "price": "medium",
@@ -3774,11 +4410,21 @@
         "herkes"
       ],
       "source": "google",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/termessos_antik_kenti.jpg",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Ftermessos_antik_kenti.jpg?alt=media",
       "tips": "Sağlam ayakkabılar giyin; antik kenti keşfederken zorlu patikalar bekliyor.",
       "description_en": "Termessos, in Güllük Mountain, famous for resisting Alexander, is a Pisidian city with captivating Hellenistic and Roman architecture: theatre, agora, and massive necropolis.",
       "tips_en": "Wear sturdy shoes; challenging paths await exploring the ancient city.",
-      "name_en": "Termessos Antik Kenti"
+      "name_en": "Termessos Antik Kenti",
+      "id": "ChIJOam7IwGMwxQRY8hKqb5xIlE",
+      "openHours": {
+        "sunday": "08:00-17:00",
+        "monday": "08:00-17:00",
+        "tuesday": "08:00-17:00",
+        "wednesday": "08:00-17:00",
+        "thursday": "08:00-17:00",
+        "friday": "08:00-17:00",
+        "saturday": "08:00-17:00"
+      }
     },
     {
       "name": "TerraCity AVM",
@@ -3801,9 +4447,18 @@
       "bestTime_en": "Daytime",
       "tips": "Bekleme alanlarında yerel sanat eserlerini keşfedin.",
       "tips_en": "Discover local art pieces in the seating areas.",
-      "id": "terracity-avm",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/terracity-avm.jpg",
-      "source": "firebase"
+      "id": "ChIJl5wzIeKawxQRezCIfm4_wR0",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Fterracity-avm.jpg?alt=media",
+      "source": "firebase",
+      "openHours": {
+        "sunday": "10:00-23:00",
+        "monday": "10:00-23:00",
+        "tuesday": "10:00-23:00",
+        "wednesday": "10:00-23:00",
+        "thursday": "10:00-23:00",
+        "friday": "10:00-23:00",
+        "saturday": "10:00-23:00"
+      }
     },
     {
       "name": "The Castle Cafe & Bistro",
@@ -3816,7 +4471,7 @@
         "türkiye",
         "cafe"
       ],
-      "distanceFromCenter": 0,
+      "distanceFromCenter": 0.0,
       "lat": 36.881654,
       "lng": 30.703601,
       "price": "medium",
@@ -3827,11 +4482,21 @@
         "herkes"
       ],
       "source": "google",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/the_castle_cafe_and_bistro.jpg",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Fthe_castle_cafe_and_bistro.jpg?alt=media",
       "tips": "Gün batımında terasından Hadrian Kapısı'nın ışıklarını izleyin.",
       "description_en": "In Antalya's walled heart, where every stone carries a whisper from the past, this venue offers a historical stop meeting the Mediterranean breeze.",
       "tips_en": "Watch the lights of Hadrian's Gate from its terrace at sunset.",
-      "name_en": "The Castle Cafe & Bistro"
+      "name_en": "The Castle Cafe & Bistro",
+      "id": "ChIJpZ4ueQ-QwxQRp_3VdR3w3U4",
+      "openHours": {
+        "sunday": "00:00-00:00, 10:30-24:00",
+        "monday": "00:00-00:00, 10:30-24:00",
+        "tuesday": "00:00-00:00, 10:30-24:00",
+        "wednesday": "00:00-00:00, 10:30-24:00",
+        "thursday": "00:00-00:00, 10:30-23:59",
+        "friday": "10:30-24:00",
+        "saturday": "00:00-00:00, 10:30-24:00"
+      }
     },
     {
       "name": "Tophane (Tersane)",
@@ -3854,30 +4519,8 @@
       "bestTime_en": "Daytime",
       "tips": "Gün batımında Kızılkule ve tersanenin eşsiz siluetini mutlaka izleyin.",
       "tips_en": "Watch the unique silhouette of Red Tower and the shipyard at sunset.",
-      "id": "tophane-tersane",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/tophane-tersane.jpg",
-      "source": "firebase"
-    },
-    {
-      "id": "tunektepe-teleferik",
-      "name": "Tunektepe Teleferik",
-      "name_en": "Tunektepe Cable Car",
-      "description": "Tunektepe'nin modern mimarili zirvesi, eşsiz panoramik manzaralar sunar. Döner restoran ve geniş teraslarıyla Antalya'nın nefes kesen kıyı şeridi ve Beydağları'nın görkemli manzarasını sergiler.",
-      "description_en": "Tunektepe's modern architectural summit provides unparalleled panoramic views. Housing a revolving restaurant and vast terraces, it reveals breathtaking vistas of Antalya's stunning coastline and majestic Beydağları mountains.",
-      "tips": "Gün batımında gidin; Antalya'nın en büyüleyici manzarasını deneyimleyeceksiniz.",
-      "tips_en": "Visit at sunset; you'll experience Antalya's most enchanting panoramic view.",
-      "category": "Deneyim",
-      "subcategory": "Teleferik",
-      "tags": [
-        "cable car",
-        "view",
-        "mountain"
-      ],
-      "price": "medium",
-      "lat": 36.830462,
-      "lng": 30.597948,
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/tunektepe-teleferik.jpg",
-      "rating": 4.1,
+      "id": "Ei5Ub3BoYW5lLCBUZXJzYW5lIFNrLiwgQWxhbnlhL0FudGFseWEsIFTDvHJraXllIi4qLAoUChIJ_2cbfXSY3BQRBk8lxgY5LOcSFAoSCfXgyDILmNwUEUImTvfbXYUq",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Ftophane-tersane.jpg?alt=media",
       "source": "firebase"
     },
     {
@@ -3901,9 +4544,18 @@
       "bestTime_en": "Evening",
       "tips": "Akşamüstü, avludaki yasemin kokusu eşliğinde soğuk mezeleri deneyin.",
       "tips_en": "Experience evening cold mezes amidst the courtyard's jasmine fragrance.",
-      "id": "tuvana-hotel-restaurant",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/tuvana-hotel-restaurant.jpg",
-      "source": "firebase"
+      "id": "ChIJ331ONQGQwxQROTbc9Ak49J8",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Ftuvana-hotel-restaurant.jpg?alt=media",
+      "source": "firebase",
+      "openHours": {
+        "sunday": "closed",
+        "monday": "closed",
+        "tuesday": "closed",
+        "wednesday": "closed",
+        "thursday": "00:00-23:59",
+        "friday": "00:00-24:00",
+        "saturday": "closed"
+      }
     },
     {
       "name": "Vanilla",
@@ -3916,7 +4568,7 @@
         "türkiye",
         "restoran"
       ],
-      "distanceFromCenter": 0,
+      "distanceFromCenter": 0.0,
       "lat": 36.883462,
       "lng": 30.706633,
       "price": "medium",
@@ -3927,33 +4579,21 @@
         "herkes"
       ],
       "source": "google",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/vanilla.png",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Fvanilla.png?alt=media",
       "tips": "Çikolatalı panna cotta'yı denemeden çıkmayın.",
       "description_en": "In Vanilla's modern interior, traditional Turkish flavors are served in tranquility; the balance of sweet and savory is unique.",
       "tips_en": "Don't leave without trying the chocolate panna cotta.",
-      "name_en": "Vanilla"
-    },
-    {
-      "id": "vanilla-lounge",
-      "name": "Vanilla Lounge",
-      "name_en": "Vanilla Lounge",
-      "description": "Kaleiçi'nde geleneksel Osmanlı mimarisinin estetiğini koruyarak restore edilmiş tarihi bir konak. Modern mutfağı ve büyüleyici ambiyansıyla geçmişle bugünü harmanlayan eşsiz bir deneyim sunar.",
-      "description_en": "A historic mansion in Kaleiçi, meticulously restored preserving traditional Ottoman architecture. It offers a unique experience blending past and present with its modern cuisine and captivating ambiance.",
-      "tips": "Akşam yemeği için rezervasyon yaptırmak, kusursuz bir deneyim için tavsiye edilir.",
-      "tips_en": "Reserving a table for dinner is recommended for a flawless experience.",
-      "category": "Deneyim",
-      "subcategory": "Bar",
-      "tags": [
-        "club",
-        "lounge",
-        "nightlife"
-      ],
-      "price": "high",
-      "lat": 36.883462,
-      "lng": 30.706633,
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/vanilla-lounge.jpg",
-      "rating": 4.4,
-      "source": "firebase"
+      "name_en": "Vanilla",
+      "id": "ChIJc-lafAaQwxQRQxM1IYclhqk",
+      "openHours": {
+        "sunday": "11:30-23:30",
+        "monday": "11:30-23:30",
+        "tuesday": "11:30-23:30",
+        "wednesday": "11:30-23:30",
+        "thursday": "11:30-23:30",
+        "friday": "11:30-23:30",
+        "saturday": "11:30-23:30"
+      }
     },
     {
       "name": "Xanthos Antik Kenti",
@@ -3976,37 +4616,18 @@
       "bestTime_en": "Morning",
       "tips": "Güneşten korunmak için şapka ve bol su almayı unutmayın.",
       "tips_en": "Don't forget a hat and plenty of water for sun protection.",
-      "id": "xanthos-antik-kenti",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/xanthos-antik-kenti.jpg",
-      "source": "firebase"
-    },
-    {
-      "name": "Yanartaş (Chimaera)",
-      "area": "Çıralı",
-      "category": "Park",
-      "subcategory": "Doğa",
-      "tags": [
-        "çıralı",
-        "antalya",
-        "türkiye",
-        "doğa"
-      ],
-      "distanceFromCenter": 0,
-      "lat": 36.431128,
-      "lng": 30.456383,
-      "price": "medium",
-      "rating": 4.4,
-      "description": "Yanartaş'ın sıcak gaz alevleri, geceleri yandıktan sonra tuhaf bir sessizlikle buluşuyor.",
-      "bestTime": "İlkbahar",
-      "bestFor": [
-        "herkes"
-      ],
-      "source": "google",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/yanartas_chimaera.jpg",
-      "tips": "Gece ziyaret edin; ateşlerin dansını görün.",
-      "description_en": "The warm flames of Yanartaş meet a strange silence after burning through the night.",
-      "tips_en": "Visit at night to see the dance of the flames.",
-      "name_en": "Yanartaş (Chimaera)"
+      "id": "ChIJAQAAACstwBQRAdrXxoqgx9Q",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Fxanthos-antik-kenti.jpg?alt=media",
+      "source": "firebase",
+      "openHours": {
+        "sunday": "08:30-19:00",
+        "monday": "08:30-19:00",
+        "tuesday": "08:30-19:00",
+        "wednesday": "08:30-19:00",
+        "thursday": "08:30-19:00",
+        "friday": "08:30-19:00",
+        "saturday": "08:30-19:00"
+      }
     },
     {
       "name": "Yivli Minare",
@@ -4019,7 +4640,7 @@
         "türkiye",
         "tarihi"
       ],
-      "distanceFromCenter": 0,
+      "distanceFromCenter": 0.0,
       "lat": 36.886547,
       "lng": 30.704501,
       "price": "medium",
@@ -4030,11 +4651,12 @@
         "herkes"
       ],
       "source": "google",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/yivli_minare.jpg",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Fyivli_minare.jpg?alt=media",
       "tips": "Kaleiçi'ni gezerken mutlaka ziyaret edin; yakındaki müzeleri de keşfedin.",
       "description_en": "Antalya's iconic Seljuk Fluted Minaret, built by Sultan Alaeddin Keykubad in the 13th century, boasts a unique fluted brick shaft adorned with turquoise tiles.",
       "tips_en": "Definitely visit while exploring Kaleiçi; also discover the nearby museums.",
-      "name_en": "Yivli Minare"
+      "name_en": "Yivli Minare",
+      "id": "ChIJbfZlcwSQwxQROK2m_tlcLzg"
     },
     {
       "name": "Çıralı Plajı",
@@ -4057,8 +4679,8 @@
       "bestTime_en": "Morning",
       "tips": "Karşıda görünen Yanartaş'ı akşam saatlerinde ziyaret edin.",
       "tips_en": "Visit the nearby Yanartaş in the evening.",
-      "id": "cirali-plaji",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/cirali-plaji.jpg",
+      "id": "ChIJnXE21dI1whQR9r0RKvWoPeE",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Fcirali-plaji.jpg?alt=media",
       "source": "firebase"
     },
     {
@@ -4076,18 +4698,27 @@
       "lng": 29.115,
       "price": "low",
       "rating": 4.9,
-      "description": "Turkuaz deniz, beyaz kumsal ve yemyeşil dağlar, Ölüdeniz Plajı'nda birbirini tamamlayarak huzurlu bir manzara oluşturuyor.",
-      "description_en": "The turquoise sea, white sands, and lush mountains coalesce at Ölüdeniz Beach, creating a serene panorama.",
+      "description": "Ölüdeniz, turkuaz suları ve beyaz çakıllı sahiliyle ünlü, Türkiye'nin en ikonik plajlarından biridir. Yamaç paraşütüyle Babadağ'dan eşsiz manzaralar sunar.",
+      "description_en": "Ölüdeniz, one of Turkey's most iconic beaches, is famous for its turquoise waters and white pebble shore. It offers unique views from Babadağ with paragliding.",
       "bestTime": "Gündüz",
       "bestTime_en": "Daytime",
-      "tips": "Günü kurtarmak için sabah erken gelin.",
-      "tips_en": "Arrive early in the morning to secure a spot.",
-      "id": "oludeniz-plaji",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/oludeniz-plaji.jpg",
-      "source": "firebase"
+      "tips": "Yamaç paraşütü için Babadağ'dan atlayış yaparak eşsiz Ölüdeniz manzarasını deneyimleyin.",
+      "tips_en": "Experience the unique Ölüdeniz view by paragliding from Babadağ.",
+      "id": "ChIJVfdDtadAwBQRR7vEACHNHaE",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Foludeniz-plaji.jpg?alt=media",
+      "source": "firebase",
+      "openHours": {
+        "sunday": "closed",
+        "monday": "closed",
+        "tuesday": "closed",
+        "wednesday": "closed",
+        "thursday": "00:00-23:59",
+        "friday": "00:00-24:00",
+        "saturday": "closed"
+      }
     },
     {
-      "id": "i̇maret-camii",
+      "id": "ChIJD22Rd7iRwxQR8xFSFcqN7tM",
       "name": "İmaret Camii",
       "name_en": "İmaret Mosque",
       "description": "Antalya'nın tarihi kalbinde yer alan İmaret Camii, 13. yüzyıl Selçuklu Karatay Medresesi'nin bir parçasıdır. Özgün mimarisiyle dikkat çeken bu yapı, Osmanlı döneminde camiye dönüştürülmüştür.",
@@ -4104,9 +4735,18 @@
       "price": "free",
       "lat": 36.886129,
       "lng": 30.707279,
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/i%CC%87maret-camii.jpg",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Fi%CC%87maret-camii.jpg?alt=media",
       "rating": 4.5,
-      "source": "firebase"
+      "source": "firebase",
+      "openHours": {
+        "sunday": "closed",
+        "monday": "closed",
+        "tuesday": "closed",
+        "wednesday": "closed",
+        "thursday": "00:00-23:59",
+        "friday": "00:00-24:00",
+        "saturday": "closed"
+      }
     },
     {
       "name": "İncekum Plajı",
@@ -4129,18 +4769,18 @@
       "bestTime_en": "Daytime",
       "tips": "Sahilde taze deniz ürünleri deneyin, yerel restoranlar favoridir.",
       "tips_en": "Try fresh seafood at the beach; local restaurants are favorites.",
-      "id": "i̇ncekum-plaji",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/i_ncekum-plaji.jpg",
+      "id": "ChIJ18Db6-2u3BQRwffuTaR01kk",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Fi_ncekum-plaji.jpg?alt=media",
       "source": "firebase"
     },
     {
-      "id": "sarampol-caddesi",
+      "id": "ChIJsUrOP-GPwxQRGZaycKBLo0k",
       "name": "Şarampol Caddesi",
       "name_en": "Şarampol Street",
-      "description": "Şarampol Caddesi, antrepo mimarisi ve sıradışı butiklerin hâkim olduğu bir sokak; yerel tasarımcıların eseri olan eşyalara ulaşmanın keyfi burada saklı.",
-      "description_en": "Şarampol Street is dominated by depot architecture and extraordinary boutiques; the joy of discovering local designers' creations is hidden here.",
-      "tips": "Sokak sanatlarını keşfetmek için ara sokaklara dal.",
-      "tips_en": "Venture into side streets to discover street art.",
+      "description": "Antalya'nın kalbinde, şehrin en eski ve canlı alışveriş caddelerinden Şarampol, yerel esnafın ve günlük yaşamın nabzını tutar. Gerçek Antalya deneyimi için ideal.",
+      "description_en": "In the heart of Antalya, Şarampol, one of the city's oldest and liveliest shopping streets, captures the pulse of local tradesmen and daily life. Ideal for a real Antalya experience.",
+      "tips": "Yerel ürünler ve uygun fiyatlar için öğleden sonra ziyaret edin.",
+      "tips_en": "Visit in the afternoon for local products and reasonable prices.",
       "category": "Alışveriş",
       "subcategory": "Alışveriş",
       "tags": [
@@ -4151,7 +4791,7 @@
       "price": "free",
       "lat": 36.895428,
       "lng": 30.698402,
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/sarampol-caddesi.jpg",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Fsarampol-caddesi.jpg?alt=media",
       "rating": 4.3,
       "source": "firebase"
     },
@@ -4176,10 +4816,19 @@
       "bestTime_en": "Lunch",
       "tips": "Köftenin yoğun lezzetini dengelemek için yanında soğuk, köpüklü ev yapımı ayran söyleyin.",
       "tips_en": "To balance the kofte's rich flavor, order a cold, frothy homemade ayran.",
-      "id": "sis-kofteci-mudurum",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/sis-kofteci-mudurum.jpg",
+      "id": "ChIJ-3cmTQKQwxQRGtRZhpHlS0E",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Fsis-kofteci-mudurum.jpg?alt=media",
       "source": "firebase",
-      "area_en": "Center"
+      "area_en": "Center",
+      "openHours": {
+        "sunday": "closed",
+        "monday": "09:00-20:00",
+        "tuesday": "09:00-20:00",
+        "wednesday": "09:00-20:00",
+        "thursday": "09:00-20:00",
+        "friday": "09:00-20:00",
+        "saturday": "09:00-20:00"
+      }
     },
     {
       "name": "Düden Şelalesi (Aşağı)",
@@ -4195,17 +4844,27 @@
       "lng": 30.783,
       "description": "Düden Şelalesi'nin serin suları, kentin gürültüsünden uzak bir huzur sunarak eski doğayı modern yaşamla buluşturuyor.",
       "description_en": "The cool waters of Düden Falls offer serenity away from the city's noise, blending ancient nature with modern life.",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/duden_lower.jpg",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Fduden_lower.jpg?alt=media",
       "rating": 4.8,
       "price": "free",
       "tips": "Giriş ücreti yok, parkta piknik yapmayı unutmayın.",
-      "tips_en": "No entry fee; don't forget to have a picnic in the park."
+      "tips_en": "No entry fee; don't forget to have a picnic in the park.",
+      "id": "ChIJCQehRUCbwxQRtPR0g040MQw",
+      "openHours": {
+        "sunday": "closed",
+        "monday": "closed",
+        "tuesday": "closed",
+        "wednesday": "closed",
+        "thursday": "00:00-23:59",
+        "friday": "00:00-24:00",
+        "saturday": "closed"
+      }
     },
     {
       "name": "Konyaaltı Plajı",
       "name_en": "Konyaalti Beach",
       "area": "Konyaaltı",
-      "category": "Park",
+      "category": "Plaj",
       "tags": [
         "beach",
         "sea",
@@ -4215,13 +4874,18 @@
       "lng": 30.64,
       "description": "Konyaaltı'nın geniş kıyı şeridi, pürüzsüz, açık gri çakıl taşlarını berrak turkuaz Akdeniz ile birleştirir, ardında yükselen yeşil Beydağları manzarasıyla.",
       "description_en": "The expansive Konyaaltı shoreline features smooth, light grey pebbles merging with the clear turquoise Mediterranean, set against the towering, verdant Beydağları mountains.",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/konyaalti.jpg",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Fkonyaalti.jpg?alt=media",
       "rating": 4.6,
       "price": "free",
       "tips": "Beydağları'nın gün batımı renkleri için batı ucuna erkenden varın.",
-      "tips_en": "Arrive early at the western end for Beydağları's sunset colors."
+      "tips_en": "Arrive early at the western end for Beydağları's sunset colors.",
+      "id": "ChIJVVomOEuQwxQRmQMLiTqogSQ"
     }
   ],
-  "city_en": "Antalya",
-  "country_en": "Turkey"
+  "coordinates": {
+    "lat": 36.881119,
+    "lng": 30.663286
+  },
+  "city": "Antalya",
+  "heroImage": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/antalya/7_mehmet.jpg"
 }

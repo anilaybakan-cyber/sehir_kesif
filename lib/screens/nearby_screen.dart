@@ -1,9 +1,7 @@
-
 // =============================================================================
 // NEARBY SCREEN v5 - DARK THEME + AMBER + HAİTA TOGGLE + ANİMASYONLAR
 // =============================================================================
 
-import 'dart:ui' as ui;
 import 'dart:convert';
 import '../services/trip_update_service.dart';
 import '../l10n/app_localizations.dart';
@@ -17,14 +15,21 @@ import '../services/city_data_loader.dart';
 import '../models/city_model.dart';
 import 'detail_screen.dart';
 import '../theme/wanderlust_colors.dart';
-import '../widgets/amber_background_symbols.dart';
 import 'package:geolocator/geolocator.dart';
 import '../services/location_context_service.dart';
 import 'package:tutorial_coach_mark/tutorial_coach_mark.dart';
 import '../services/tutorial_service.dart';
 import '../widgets/tutorial_overlay_widget.dart';
 import '../services/premium_service.dart';
+import '../services/plan_repository.dart';
 import 'paywall_screen.dart';
+import '../services/auto_slot_picker.dart';
+import '../widgets/day_selection_dialog.dart';
+import '../widgets/resilient_network_image.dart';
+import 'dart:ui';
+import '../services/image_prefetch_service.dart';
+import 'package:cached_network_image/cached_network_image.dart';
+import '../utils/image_utils.dart';
 
 // Tema renkleri
 const Color bgDark = WanderlustColors.bgDark;
@@ -32,12 +37,12 @@ const Color bgCard = WanderlustColors.bgCard;
 const Color bgCardLight = WanderlustColors.bgCardLight;
 const Color accent = WanderlustColors.accent; // Purple
 const Color accentLight = WanderlustColors.accentLight; // Purple Light
-const Color textPrimary = Color(0xFFFFFFFF);
-const Color textSecondary = Color(0xFFB0B0C0);
-const Color textWhite = Color(0xFFFFFFFF);
-const Color textGrey = Color(0xFF9E9E9E);
+const Color textPrimary = WanderlustColors.textWhite;
+const Color textSecondary = WanderlustColors.textGrey;
+const Color textWhite = WanderlustColors.textWhite;
+const Color textGrey = WanderlustColors.textGrey;
 const Color accentGreen = Color(0xFF4CAF50);
-const Color borderColor = Color(0xFF2C2C4E);
+const Color borderColor = WanderlustColors.borderLight;
 
 class NearbyScreen extends StatefulWidget {
   final bool isVisible;
@@ -54,10 +59,15 @@ class _NearbyScreenState extends State<NearbyScreen>
   bool _loading = true;
   String _selectedCity = "berlin";
 
+  static const String _allCategoryId = "Tümü";
+  static const double _cityCenterSliderMaxDistanceValue = 20.0;
+  static const double _liveLocationSliderMaxDistanceValue = 8.0;
 
-  String _selectedCategory = "Tümü";
+  String _selectedCategory = _allCategoryId;
   String _selectedSort = AppLocalizations.instance.sortByDistance;
   double _maxDistance = 100.0;
+  double _cityCenterSliderMaxDistance = _cityCenterSliderMaxDistanceValue;
+  double _liveLocationSliderMaxDistance = _liveLocationSliderMaxDistanceValue;
 
   List<String> _routePlaces = [];
   List<String> _favorites = [];
@@ -74,10 +84,38 @@ class _NearbyScreenState extends State<NearbyScreen>
   final ScrollController _scrollController = ScrollController();
   bool _showScrollToTop = false;
 
+  int _lastPrefetchIndex = 15;
+
   void _onScroll() {
     final showButton = _scrollController.offset > 400;
     if (showButton != _showScrollToTop) {
       setState(() => _showScrollToTop = showButton);
+    }
+
+    // Katman 3: Scroll Listener Prefetch
+    // Kullanıcı listeyi aşağı kaydırdıkça bir sonraki mekanları dinamik olarak prefetch et
+    if (_filteredPlaces.isNotEmpty) {
+      // Header, slider vs yaklaşık 400px, her kart ortalama 160px
+      final estimatedIndex = ((_scrollController.offset - 400) / 160).floor();
+      final targetIndex = estimatedIndex + 10; // Ekranda görünenden 10 adım sonrasını hazırla
+      
+      if (targetIndex > _lastPrefetchIndex) {
+        final startIndex = _lastPrefetchIndex;
+        final endIndex = targetIndex.clamp(0, _filteredPlaces.length);
+        
+        if (startIndex < endIndex) {
+          for (int i = startIndex; i < endIndex; i++) {
+            final p = _filteredPlaces[i];
+            if (p.imageUrl != null && p.imageUrl!.isNotEmpty) {
+              final safeUrl = firebaseCompatibleImageUrl(p.imageUrl!);
+              if (safeUrl.isNotEmpty) {
+                CachedNetworkImageProvider(safeUrl, cacheManager: AppImageCacheManager.instance).resolve(ImageConfiguration.empty);
+              }
+            }
+          }
+          _lastPrefetchIndex = endIndex;
+        }
+      }
     }
   }
 
@@ -98,7 +136,7 @@ class _NearbyScreenState extends State<NearbyScreen>
   double _cityCenterLng = 2.1734;
 
   List<Map<String, dynamic>> get _categories => [
-    {"id": "Tümü", "name": AppLocalizations.instance.allCategories, "icon": Icons.apps_rounded},
+    {"id": _allCategoryId, "name": AppLocalizations.instance.allCategories, "icon": Icons.apps_rounded},
     {"id": "Restoran", "name": AppLocalizations.instance.translateCategory("Restoran"), "icon": Icons.restaurant_rounded},
     {"id": "Kafe", "name": AppLocalizations.instance.translateCategory("Kafe"), "icon": Icons.local_cafe_rounded},
     {"id": "Bar", "name": AppLocalizations.instance.translateCategory("Bar"), "icon": Icons.local_bar_rounded},
@@ -121,6 +159,7 @@ class _NearbyScreenState extends State<NearbyScreen>
     TripUpdateService().cityChanged.addListener(_onCityChanged);
     TripUpdateService().favoritesUpdated.addListener(_onFavoritesChanged);
     LocationContextService.instance.addListener(_onLocationModeChanged);
+    LocationContextService.instance.setNearbyActive(widget.isVisible);
     
     WidgetsBinding.instance.addPostFrameCallback((_) {
        // Listen for tutorial triggers from MainScreen or Service
@@ -133,9 +172,135 @@ class _NearbyScreenState extends State<NearbyScreen>
   }
 
   void _onLocationModeChanged() {
-    if (mounted) {
-      _recalculateDistances();
+    if (!mounted) return;
+    setState(() {
+      _syncMaxDistance();
+    });
+    _recalculateDistances();
+  }
+
+  LocationReferenceMode get _selectedReferenceMode {
+    final referenceMode = LocationContextService.instance.referenceMode;
+    if (referenceMode == LocationReferenceMode.liveLocation) {
+      return LocationReferenceMode.liveLocation;
     }
+    return LocationReferenceMode.cityCenter;
+  }
+
+  double get _sliderMaxDistance {
+    if (_selectedReferenceMode == LocationReferenceMode.liveLocation) {
+      return _liveLocationSliderMaxDistance;
+    }
+    return _cityCenterSliderMaxDistance;
+  }
+
+  double get _defaultMaxDistance {
+    if (_selectedReferenceMode == LocationReferenceMode.liveLocation) {
+      return (_sliderMaxDistance * 0.5).clamp(2.5, _sliderMaxDistance).toDouble();
+    }
+    return (_sliderMaxDistance * 0.45).clamp(4.0, _sliderMaxDistance).toDouble();
+  }
+
+  double get _effectiveMaxDistance => _normalizedDistanceValue(_maxDistance);
+
+  void _syncMaxDistance({bool resetToDefault = false}) {
+    _maxDistance = resetToDefault ? _defaultMaxDistance : _effectiveMaxDistance;
+  }
+
+  double _normalizedDistanceValue(double currentDistance) {
+    if (currentDistance > _sliderMaxDistance) {
+      return _defaultMaxDistance;
+    }
+    return currentDistance.clamp(0.5, _sliderMaxDistance).toDouble();
+  }
+
+  String _formatDistanceText(double distanceKm) {
+    if (distanceKm < 1) {
+      return "${(distanceKm * 1000).round()} m";
+    }
+    return "${distanceKm.toStringAsFixed(1)} km";
+  }
+
+  void _updateDistancePresets() {
+    _cityCenterSliderMaxDistance = _cityCenterSliderMaxDistanceValue;
+    _liveLocationSliderMaxDistance = _liveLocationSliderMaxDistanceValue;
+  }
+
+  String _referenceModeLabel(LocationReferenceMode mode) {
+    final isEnglish = AppLocalizations.instance.isEnglish;
+    switch (mode) {
+      case LocationReferenceMode.auto:
+        return isEnglish ? "Automatic" : "Otomatik";
+      case LocationReferenceMode.cityCenter:
+        return isEnglish ? "City Center" : "Şehir Merkezi";
+      case LocationReferenceMode.liveLocation:
+        return isEnglish ? "My Location" : "Konumum";
+    }
+  }
+
+  Widget _referenceModeIcon(LocationReferenceMode mode, {Color? color}) {
+    switch (mode) {
+      case LocationReferenceMode.auto:
+        return Icon(Icons.auto_awesome_rounded, size: 16, color: color);
+      case LocationReferenceMode.cityCenter:
+        return Image.asset('assets/icons/city.png', width: 18, height: 18);
+      case LocationReferenceMode.liveLocation:
+        return Image.asset('assets/icons/location.png', width: 18, height: 18);
+    }
+  }
+
+  Future<void> _selectReferenceMode(LocationReferenceMode mode) async {
+    HapticFeedback.selectionClick();
+    final previousMode = _selectedReferenceMode;
+    final success = await LocationContextService.instance.setReferenceMode(
+      mode,
+      requestPermissionIfNeeded: mode == LocationReferenceMode.liveLocation,
+    );
+
+    if (!mounted) return;
+
+    final currentMode = _selectedReferenceMode;
+    setState(() {
+      _syncMaxDistance(resetToDefault: success && previousMode != currentMode);
+    });
+
+    if (!success && mode == LocationReferenceMode.liveLocation) {
+      final reason = LocationContextService.instance.reason;
+      final showSettingsAction =
+          reason == LocationContextReason.permissionDenied ||
+          reason == LocationContextReason.permissionDeniedForever ||
+          reason == LocationContextReason.serviceDisabled;
+
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(
+          content: Text(LocationContextService.instance.statusDescription),
+          behavior: SnackBarBehavior.floating,
+          action: showSettingsAction
+              ? SnackBarAction(
+                  label: AppLocalizations.instance.settingsTitle,
+                  onPressed: () async {
+                    if (reason == LocationContextReason.serviceDisabled) {
+                      await Geolocator.openLocationSettings();
+                    } else {
+                      await Geolocator.openAppSettings();
+                    }
+                  },
+                )
+              : null,
+        ),
+      );
+    }
+  }
+
+  void _resetFilters() {
+    setState(() {
+      _selectedCategory = _allCategoryId;
+      _selectedSort = AppLocalizations.instance.sortByDistance;
+      _searchQuery = '';
+      _searchController.clear();
+      _syncMaxDistance(resetToDefault: true);
+    });
+    _applyFilters();
   }
 
   Future<void> _loadMapStyle() async {
@@ -160,24 +325,54 @@ class _NearbyScreenState extends State<NearbyScreen>
 
   Future<void> _loadData() async {
     final prefs = await SharedPreferences.getInstance();
-    _selectedCity = prefs.getString("selectedCity") ?? "barcelona";
-    if (prefs.containsKey("trip_places")) {
+    final selectedCity = prefs.getString("selectedCity") ?? "barcelona";
+    final currentCity = selectedCity.toLowerCase();
+    
+    // Şehir bazlı bucket list yükle
+    final bucketList = prefs.getStringList("trip_places_$currentCity") ?? [];
+    final Set<String> allTripNames = Set.from(bucketList);
+
+    // Rota / Schedule verilerini de kontrol et (Checkmark'ların doğru görünmesi için)
+    final scheduleJson = prefs.getString("trip_schedule_$currentCity");
+    if (scheduleJson != null) {
+      try {
+        final Map<String, dynamic> scheduleMap = jsonDecode(scheduleJson);
+        scheduleMap.forEach((day, list) {
+          if (list is List) {
+            for (var item in list) {
+              if (item is Map) {
+                final name = item['name']?.toString();
+                if (name != null) allTripNames.add(name);
+              } else if (item is String) {
+                allTripNames.add(item);
+              }
+            }
+          }
+        });
+      } catch (_) {}
+    }
+
+    if (mounted) {
       setState(() {
-        _routePlaces = prefs.getStringList("trip_places") ?? [];
+        _selectedCity = selectedCity;
+        _routePlaces = allTripNames.toList();
+        _favorites = prefs.getStringList("favorite_places") ?? [];
       });
     }
-    _favorites = prefs.getStringList("favorite_places") ?? [];
     
     // Gerçek şehir verisini yükle
     try {
       final cityData = await CityDataLoader.loadCity(_selectedCity);
-      
-      // Update Location Context (This triggers location fetch and mode update)
-      // We do this BEFORE creating places so we might get a quick result, 
-      // but if not, the listener will catch it later.
-      LocationContextService.instance.updateContext(cityData);
-      
-      // Initial calculation might be waiting for location, so we use whatever service has
+
+      await LocationContextService.instance.updateContext(cityData);
+      if (LocationContextService.instance.referenceMode ==
+          LocationReferenceMode.auto) {
+        await LocationContextService.instance.setReferenceMode(
+          LocationReferenceMode.cityCenter,
+        );
+      }
+      _updateDistancePresets();
+
       final places = cityData.highlights
           .map((h) {
              final distMeters = LocationContextService.instance.getDistance(h.lat, h.lng);
@@ -185,10 +380,11 @@ class _NearbyScreenState extends State<NearbyScreen>
              return _NearbyPlace(
               name: h.getLocalizedName(isEnglish),
               category: h.category,
-              distanceKm: double.parse((distMeters / 1000).toStringAsFixed(1)),
+              distanceMeters: distMeters,
               rating: h.rating ?? 4.5,
               area: h.getLocalizedArea(isEnglish),
               imageUrl: h.imageUrl,
+              blurHash: h.blurHash,
               description: h.getLocalizedDescription(isEnglish),
               price: h.price,
               highlight: h,
@@ -196,15 +392,30 @@ class _NearbyScreenState extends State<NearbyScreen>
           })
           .toList();
 
+      places.sort((a, b) => a.distanceMeters.compareTo(b.distanceMeters));
+      
+      // Tüm fotoğraf URL'lerini topla (şehir değiştiğinde daha agresif yükle)
+      final allUrlsToDownload = <String>[];
+      for (final p in places.take(50)) { // 50 fotoğrafa çıkar
+        if (p.imageUrl != null && p.imageUrl!.isNotEmpty) {
+          final safeUrl = firebaseCompatibleImageUrl(p.imageUrl!);
+          if (safeUrl.isNotEmpty && !allUrlsToDownload.contains(safeUrl)) {
+            allUrlsToDownload.add(safeUrl);
+          }
+        }
+      }
+
       if (mounted) {
         setState(() {
           _allPlaces = places;
           _filteredPlaces = List.from(places);
           _loading = false;
+          _syncMaxDistance(resetToDefault: true);
           // Şehir merkezi koordinatlarını güncelle
           _cityCenterLat = cityData.centerLat;
           _cityCenterLng = cityData.centerLng;
         });
+        
         _animController.forward();
         _applyFilters();
         
@@ -216,6 +427,22 @@ class _NearbyScreenState extends State<NearbyScreen>
           ),
         );
       }
+
+      // Arka planda fotoğrafları hemen yükle - öncelikli olarak ilk 20'yi yükle
+      if (allUrlsToDownload.isNotEmpty) {
+        final priorityUrls = allUrlsToDownload.take(20).toList();
+        final remainingUrls = allUrlsToDownload.skip(20).toList();
+        
+        // Hemen başlat - öncelikli URL'leri paralel yükle
+        for (final url in priorityUrls) {
+          AppImageCacheManager.instance.downloadFile(url).catchError((_) {});
+        }
+        
+        // Sonra kalan fotoğrafları yükle (düşük öncelik)
+        for (final url in remainingUrls) {
+          AppImageCacheManager.instance.downloadFile(url).catchError((_) {});
+        }
+      }
     } catch (e) {
       debugPrint("Yakınımda veri yükleme hatası: $e");
       if (mounted) {
@@ -223,6 +450,8 @@ class _NearbyScreenState extends State<NearbyScreen>
       }
     }
   }
+
+
 
   void _recalculateDistances() {
       if (_allPlaces.isEmpty) return;
@@ -233,10 +462,11 @@ class _NearbyScreenState extends State<NearbyScreen>
          return _NearbyPlace(
             name: p.highlight.getLocalizedName(isEnglish),
             category: p.category,
-            distanceKm: double.parse((distMeters / 1000).toStringAsFixed(1)),
+            distanceMeters: distMeters,
             rating: p.rating,
             area: p.highlight.getLocalizedArea(isEnglish),
             imageUrl: p.imageUrl,
+            blurHash: p.highlight.blurHash,
             description: p.highlight.getLocalizedDescription(isEnglish),
             price: p.price,
             highlight: p.highlight,
@@ -249,17 +479,66 @@ class _NearbyScreenState extends State<NearbyScreen>
       _applyFilters();
   }
 
+  /// Birçok şehirde barlar JSON'da `Yeme-İçme`, `Kafe` veya `Deneyim` olarak işaretli;
+  /// yalnızca `category == Bar` bakmak liste boş kalmasına yol açıyor.
+  bool _matchesBarCategoryHeuristic(_NearbyPlace p) {
+    const explicit = {
+      'Bar',
+      'Pub',
+      'Wine Bar',
+      'Enoteca',
+      'Lounge',
+      'American Bar',
+    };
+    if (explicit.contains(p.category)) return true;
 
+    final h = p.highlight;
+    final names = '${p.name} ${h.nameEn ?? ''}'.toLowerCase();
+
+    if (RegExp(r'\bbar\b', caseSensitive: false).hasMatch(names)) {
+      return true;
+    }
+
+    if (RegExp(
+      r'enoteca|ristobar|lounge\s*bar|american\s*bar|cocktail\s*bar|\bpub\b|birreria|wine\s*bar',
+      caseSensitive: false,
+    ).hasMatch(names)) {
+      return true;
+    }
+
+    for (final t in h.tags) {
+      final s = t.toLowerCase().trim();
+      if (s == 'bar' ||
+          s == 'pub' ||
+          s == 'enoteca' ||
+          s == 'wine_bar' ||
+          s.contains('cocktail')) {
+        return true;
+      }
+    }
+
+    final desc =
+        '${h.description} ${h.descriptionEn ?? ''}'.toLowerCase();
+    if (RegExp(
+      r'\bbeachside bar\b|\bseafront bar\b|\blounge bar\b|\bamerican bar\b|\bcocktail bar\b|\bbar and cafe\b|\bcafe and bar\b|\bbar e caf|\bcaffè e bar\b',
+      caseSensitive: false,
+    ).hasMatch(desc)) {
+      return true;
+    }
+
+    return false;
+  }
 
   void _applyFilters() {
     if (_allPlaces.isEmpty) return;
 
     // Liste animasyonu
     _listAnimController.reset();
+    final effectiveMaxDistance = _effectiveMaxDistance;
 
     List<_NearbyPlace> filtered = List.from(_allPlaces);
 
-    if (_selectedCategory != "Tümü") {
+    if (_selectedCategory != _allCategoryId) {
       // Kategori eşleşmesini hem Türkçe hem İngilizce için kontrol et
       final categoryMappings = {
         'Kafe': ['Kafe', 'Cafe', 'Coffee'],
@@ -272,13 +551,25 @@ class _NearbyScreenState extends State<NearbyScreen>
         'Deneyim': ['Deneyim', 'Experience'],
         'Alışveriş': ['Alışveriş', 'Shopping'],
       };
-      
-      final validCategories = categoryMappings[_selectedCategory] ?? [_selectedCategory];
-      filtered = filtered
-          .where((p) => validCategories.contains(p.category))
-          .toList();
+
+      if (_selectedCategory == 'Bar') {
+        filtered = filtered.where(_matchesBarCategoryHeuristic).toList();
+      } else {
+        final validCategories =
+            categoryMappings[_selectedCategory] ?? [_selectedCategory];
+        filtered = filtered
+            .where((p) => validCategories.contains(p.category))
+            .toList();
+        // Bar olarak tanınan mekanlar yalnızca Bar filtresinde (Keşfet ile uyum).
+        if (_selectedCategory == 'Restoran' ||
+            _selectedCategory == 'Deneyim') {
+          filtered = filtered
+              .where((p) => !_matchesBarCategoryHeuristic(p))
+              .toList();
+        }
+      }
     }
-    filtered = filtered.where((p) => p.distanceKm <= _maxDistance).toList();
+    filtered = filtered.where((p) => p.distanceMeters <= effectiveMaxDistance * 1000).toList();
 
     // Search filter
     if (_searchQuery.isNotEmpty) {
@@ -291,7 +582,7 @@ class _NearbyScreenState extends State<NearbyScreen>
     }
 
     if (_selectedSort == AppLocalizations.instance.sortByDistance) {
-      filtered.sort((a, b) => a.distanceKm.compareTo(b.distanceKm));
+      filtered.sort((a, b) => a.distanceMeters.compareTo(b.distanceMeters));
     } else if (_selectedSort == AppLocalizations.instance.sortByRating) {
       filtered.sort((a, b) => b.rating.compareTo(a.rating));
     } else if (_selectedSort == AppLocalizations.instance.sortByName) {
@@ -301,6 +592,20 @@ class _NearbyScreenState extends State<NearbyScreen>
     setState(() => _filteredPlaces = filtered);
     _updateMarkers(); // Markerları güncelle
     _listAnimController.forward();
+
+    // Filtre veya sıralama değiştiğinde scroll tracking sıfırlanmalı
+    _lastPrefetchIndex = 15;
+
+    // Katman 2: Progressive Prefetch for Nearby
+    // Kullanıcının listeyi veya filtreyi değiştirdiği an ilk 15 mekanın fotoğrafını beklemeden RAM+Disk'e çek
+    for (final p in filtered.take(15)) {
+      if (p.imageUrl != null && p.imageUrl!.isNotEmpty) {
+        final safeUrl = firebaseCompatibleImageUrl(p.imageUrl!);
+        if (safeUrl.isNotEmpty) {
+          CachedNetworkImageProvider(safeUrl, cacheManager: AppImageCacheManager.instance).resolve(ImageConfiguration.empty);
+        }
+      }
+    }
   }
 
   Future<void> _toggleFavorite(String name) async {
@@ -341,8 +646,8 @@ class _NearbyScreenState extends State<NearbyScreen>
     final String currentCity = (prefs.getString("selectedCity") ?? "barcelona").toLowerCase();
     
     // 1. Güncel verileri oku
-    final List<String> tripPlaces = prefs.getStringList("trip_places") ?? [];
-    final String? scheduleJson = prefs.getString("trip_schedule");
+    final List<String> tripPlaces = prefs.getStringList("trip_places_$currentCity") ?? [];
+    final String? scheduleJson = prefs.getString("trip_schedule_$currentCity");
     
     // Schedule'ı parse et
     Map<String, dynamic> scheduleMap = {};
@@ -359,7 +664,6 @@ class _NearbyScreenState extends State<NearbyScreen>
         setState(() {
             _routePlaces.remove(name);
         });
-        tripPlaces.remove(name);
         
         // Schedule'dan da sil (hem eski hem yeni format)
         scheduleMap.keys.forEach((day) {
@@ -374,93 +678,126 @@ class _NearbyScreenState extends State<NearbyScreen>
 
         if (mounted) {
            ScaffoldMessenger.of(context).showSnackBar(SnackBar(
-             content: Text(AppLocalizations.instance.removedFromRoute(name)),
+             content: Text(
+               AppLocalizations.instance.removedFromRoute(name),
+               style: TextStyle(color: textWhite, fontWeight: FontWeight.w500),
+             ),
              backgroundColor: bgCardLight,
              behavior: SnackBarBehavior.floating,
              duration: const Duration(milliseconds: 1200),
           ));
         }
     } else {
-        // EKLEME İŞLEMİ
-        
-        // Premium limit kontrolü
+        // EKLEME İŞLEMİ — kota: tek global sayaç (keşfet / detay / yakınımda toplamı)
         if (!PremiumService.instance.canAddToRoute()) {
-            _showPaywall();
-            return;
+          _showPaywall();
+          return;
         }
 
-        // Toplam gün sayısını bul
-        int maxDay = 1;
-        scheduleMap.keys.forEach((k) {
-           final d = int.tryParse(k) ?? 1;
-           if (d > maxDay) maxDay = d;
-        });
-        final onboardingDays = prefs.getInt("tripDays") ?? 3;
-        if (maxDay < onboardingDays) maxDay = onboardingDays;
+        final int currentTotalDays = prefs.getInt("tripDays_$currentCity") ?? prefs.getInt("tripDays") ?? 3;
+        final int? selectedDay = await _showDaySelectionDialogForNearby(currentTotalDays, name, scheduleMap);
+        if (selectedDay == null) return; // İptal edildi
 
-        final selectedDay = await _showDaySelectionDialogForNearby(maxDay, name, scheduleMap);
-        if (selectedDay == null) return; // İptal
-        
         // Kullanımı artır
         await PremiumService.instance.useRouteAdd();
-        
+
         setState(() {
            _routePlaces.add(name);
         });
-        
-        // Sadece "Listem" seçildiyse (selectedDay == 0) zaten Listem'e eklenecek.
-        // Ama kural gereği, herhangi bir güne eklendiyse de Listem'e eklenecek.
-        tripPlaces.add(name);
-        
-        if (selectedDay > 0) {
+
+        if (selectedDay == 0) {
+          // LISTEM'E EKLEME — sadece trip_places_ güncellenir
+          if (!tripPlaces.contains(name)) {
+            tripPlaces.add(name);
+          }
+          await prefs.setStringList("trip_places_$currentCity", tripPlaces);
+          await PlanRepository.markPlanCreated(currentCity);
+          TripUpdateService().notifyTripChanged();
+
+          if (mounted) {
+            ScaffoldMessenger.of(context).showSnackBar(SnackBar(
+               content: Row(
+                 children: [
+                   const Icon(Icons.check_circle_outline, color: WanderlustColors.accent, size: 20),
+                   const SizedBox(width: 12),
+                   Expanded(
+                     child: Text(
+                       AppLocalizations.instance.isEnglish
+                           ? '$name added to My List'
+                           : '$name Listem\'e eklendi',
+                       style: TextStyle(
+                         color: textWhite,
+                         fontWeight: FontWeight.w600,
+                       ),
+                     ),
+                   ),
+                 ],
+               ),
+               backgroundColor: bgCardLight,
+               behavior: SnackBarBehavior.floating,
+               duration: const Duration(milliseconds: 1500),
+               shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
+               margin: const EdgeInsets.fromLTRB(16, 0, 16, 20),
+            ));
+          }
+        } else {
+          // GÜNE EKLEME — sadece schedule güncellenir, trip_places_ dokunulmaz
           final dayKey = selectedDay.toString();
           List<dynamic> targetList = scheduleMap[dayKey] ?? [];
-          
-          // Yeni format: {name, city} olarak ekle
           final placeEntry = {'name': name, 'city': currentCity};
-          
-          // 1. Seçilen güne ekle
           final alreadyExists = targetList.any((item) {
             if (item is Map<String, dynamic>) return item['name'] == name;
             if (item is String) return item == name;
             return false;
           });
-          
-          if (!alreadyExists) {
-             targetList.add(placeEntry);
-          }
+          if (!alreadyExists) targetList.add(placeEntry);
           scheduleMap[dayKey] = targetList;
-          
-          // 2. Her durumda "0" (Listem) gününe de ekle
-          if (dayKey != "0") {
-            List<dynamic> listemList = scheduleMap["0"] ?? [];
-            final existsInListem = listemList.any((item) {
-              if (item is Map<String, dynamic>) return item['name'] == name;
-              if (item is String) return item == name;
-              return false;
-            });
-            if (!existsInListem) {
-              listemList.add(placeEntry);
-            }
-            scheduleMap["0"] = listemList;
+
+          // Yeni gün oluşturulduysa onboardingDays güncelle
+          if (selectedDay > currentTotalDays) {
+            await prefs.setInt("tripDays_$currentCity", selectedDay);
           }
-        }
-        
-        if (mounted) {
-          ScaffoldMessenger.of(context).showSnackBar(SnackBar(
-             content: Text(AppLocalizations.instance.addedToDay(name, selectedDay)),
-             backgroundColor: bgCardLight,
-             behavior: SnackBarBehavior.floating,
-             duration: const Duration(milliseconds: 1200),
-          ));
+
+          // Save ONLY schedule — trip_places_ dokunulmaz
+          await prefs.setString("trip_schedule_$currentCity", jsonEncode(scheduleMap));
+          await PlanRepository.markPlanCreated(currentCity);
+          TripUpdateService().notifyTripChanged();
+
+          if (mounted) {
+            ScaffoldMessenger.of(context).showSnackBar(SnackBar(
+               content: Row(
+                 children: [
+                   const Icon(Icons.check_circle_outline, color: WanderlustColors.accent, size: 20),
+                   const SizedBox(width: 12),
+                   Expanded(
+                     child: Text(
+                       AppLocalizations.instance.addedToDay(name, selectedDay),
+                       style: TextStyle(
+                         color: textWhite,
+                         fontWeight: FontWeight.w600,
+                       ),
+                     ),
+                   ),
+                 ],
+               ),
+               backgroundColor: bgCardLight,
+               behavior: SnackBarBehavior.floating,
+               duration: const Duration(milliseconds: 1500),
+               shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
+               margin: const EdgeInsets.fromLTRB(16, 0, 16, 20),
+            ));
+          }
         }
     }
 
-    await prefs.setStringList("trip_places", tripPlaces); // Key düzeltildi
-    await prefs.setString("trip_schedule", jsonEncode(scheduleMap));
-    
-    // Global servisi tetikle (RoutesScreen güncellensin)
-    TripUpdateService().notifyTripChanged();
+    // Çıkarma durumunda schedule ve tripPlaces'i güncelle
+    if (!_routePlaces.contains(name)) {
+      tripPlaces.remove(name);
+      await prefs.setStringList("trip_places_$currentCity", tripPlaces);
+      await prefs.setString("trip_schedule_$currentCity", jsonEncode(scheduleMap));
+      await PlanRepository.markPlanCreated(currentCity);
+      TripUpdateService().notifyTripChanged();
+    }
   }
   
 
@@ -475,66 +812,11 @@ class _NearbyScreenState extends State<NearbyScreen>
   }
   
   Future<int?> _showDaySelectionDialogForNearby(int totalDays, String placeName, Map<String, dynamic> scheduleMap) async {
-    return showDialog<int>(
-      context: context,
-      barrierColor: Colors.black.withOpacity(0.7),
-      builder: (context) {
-        return Dialog(
-          backgroundColor: const Color(0xFF1A1A2E),
-
-          shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
-          child: Padding(
-            padding: const EdgeInsets.all(20),
-            child: Column(
-              mainAxisSize: MainAxisSize.min,
-              children: [
-                Text(AppLocalizations.instance.whichDay, style: TextStyle(color: textWhite, fontSize: 18, fontWeight: FontWeight.bold)),
-                const SizedBox(height: 8),
-                Text(AppLocalizations.instance.addToRouteConfirmDialog(placeName), textAlign: TextAlign.center, style: const TextStyle(color: textGrey, fontSize: 14)),
-                const SizedBox(height: 20),
-                ConstrainedBox(
-                  constraints: const BoxConstraints(maxHeight: 400),
-                  child: SingleChildScrollView(
-                    child: Column(
-                        children: [
-                          // Listem Option (At the top!)
-                          ListTile(
-                              title: Text(AppLocalizations.instance.myList, style: const TextStyle(color: WanderlustColors.accent, fontWeight: FontWeight.bold)),
-                              subtitle: Text(AppLocalizations.instance.addToList, style: const TextStyle(color: textGrey, fontSize: 12)),
-                              leading: const Icon(Icons.list_alt, color: WanderlustColors.accent),
-                              trailing: const Icon(Icons.arrow_forward_ios, color: accent, size: 16),
-                              onTap: () => Navigator.pop(context, 0),
-                              shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(8)),
-                          ),
-                          const Divider(color: borderColor),
-                          ...List.generate(totalDays, (index) {
-                              final day = index + 1;
-                              final dayKey = day.toString();
-                              final List<dynamic> dayPlaces = scheduleMap[dayKey] ?? [];
-                              final count = dayPlaces.length;
-                              return ListTile(
-                                title: Text(AppLocalizations.instance.isEnglish ? "Day $day" : "$day. Gün", style: const TextStyle(color: textWhite)),
-                                subtitle: Text(AppLocalizations.instance.nPlaces(count), style: const TextStyle(color: textGrey, fontSize: 12)),
-                                trailing: const Icon(Icons.arrow_forward_ios, color: accent, size: 16),
-                                onTap: () => Navigator.pop(context, day),
-                              );
-                          }),
-                          const Divider(color: borderColor),
-                          ListTile(
-                              title: Text(AppLocalizations.instance.createNewDay, style: TextStyle(color: textWhite)),
-                              subtitle: Text(AppLocalizations.instance.isEnglish ? "Day ${totalDays + 1}" : "${totalDays + 1}. Gün", style: const TextStyle(color: textGrey, fontSize: 12)),
-                              leading: const Icon(Icons.add, color: accentGreen),
-                              onTap: () => Navigator.pop(context, totalDays + 1),
-                          ),
-                        ],
-                    ),
-                  ),
-                ),
-              ],
-            ),
-          ),
-        );
-      },
+    return showDaySelectionDialog(
+      context,
+      totalDays: totalDays,
+      scheduleMap: scheduleMap,
+      confirmMessage: AppLocalizations.instance.addToRouteConfirmDialog(placeName),
     );
   }
 
@@ -543,16 +825,19 @@ class _NearbyScreenState extends State<NearbyScreen>
   @override
   void didUpdateWidget(NearbyScreen oldWidget) {
     super.didUpdateWidget(oldWidget);
-    // Tutorial triggering is handled by MainScreen, not here
+    if (oldWidget.isVisible != widget.isVisible) {
+      LocationContextService.instance.setNearbyActive(widget.isVisible);
+    }
   }
 
   @override
   void dispose() {
     _scrollController.dispose();
     TripUpdateService().tripUpdated.removeListener(_onTripDataChanged);
-    TripUpdateService().tripUpdated.removeListener(_onTripDataChanged);
     TripUpdateService().cityChanged.removeListener(_onCityChanged);
+    TripUpdateService().favoritesUpdated.removeListener(_onFavoritesChanged);
     LocationContextService.instance.removeListener(_onLocationModeChanged);
+    LocationContextService.instance.setNearbyActive(false);
     _animController.dispose();
     _listAnimController.dispose();
     _searchController.dispose();
@@ -564,18 +849,25 @@ class _NearbyScreenState extends State<NearbyScreen>
   }
   
   void _onCityChanged() {
-    _loadData(); // Şehir değişince tüm veriyi yeniden yükle
+    if (_scrollController.hasClients) {
+      _scrollController.jumpTo(0);
+    }
+    if (mounted) {
+      setState(() {
+        _showScrollToTop = false;
+      });
+    }
+    _loadData();
   }
   
   Future<void> _refreshRouteState() async {
      final prefs = await SharedPreferences.getInstance();
-     if (prefs.containsKey("trip_places")) {
-       final newList = prefs.getStringList("trip_places") ?? [];
-       if (mounted) {
-         setState(() {
-           _routePlaces = newList;
-         });
-       }
+     final currentCity = (prefs.getString("selectedCity") ?? "barcelona").toLowerCase();
+     final newList = prefs.getStringList("trip_places_$currentCity") ?? [];
+     if (mounted) {
+       setState(() {
+         _routePlaces = newList;
+       });
      }
   }
 
@@ -719,9 +1011,9 @@ class _NearbyScreenState extends State<NearbyScreen>
                 ? Column(
                     children: [
                       _buildHeader(),
-                      _buildSearchBar(),
                       _buildLocationCard(),
                       _buildDistanceSlider(),
+                      _buildSearchBar(),
                       _buildCategories(),
                       Expanded(child: _buildMapView()),
                     ],
@@ -733,23 +1025,13 @@ class _NearbyScreenState extends State<NearbyScreen>
                           Expanded(
                             child: CustomScrollView(
                               controller: _scrollController,
+                              cacheExtent: 1500,
                               physics: const BouncingScrollPhysics(),
                               slivers: [
                                 SliverToBoxAdapter(child: _buildHeader()),
-                                // Search bar and distance slider
-                                SliverToBoxAdapter(
-                                  child: Container(
-                                    color: bgDark,
-                                    child: Column(
-                                      mainAxisSize: MainAxisSize.min,
-                                      children: [
-                                        _buildSearchBar(),
-                                        _buildDistanceSlider(),
-                                      ],
-                                    ),
-                                  ),
-                                ),
                                 SliverToBoxAdapter(child: _buildLocationCard()),
+                                SliverToBoxAdapter(child: _buildDistanceSlider()),
+                                SliverToBoxAdapter(child: _buildSearchBar()),
                                 SliverToBoxAdapter(child: _buildCategories()),
                                 _buildPlacesSliverList(),
                               ],
@@ -798,19 +1080,23 @@ class _NearbyScreenState extends State<NearbyScreen>
           children: [
             // Amber ikon
             Container(
-              padding: const EdgeInsets.all(12),
+              padding: const EdgeInsets.all(8),
               decoration: BoxDecoration(
-                gradient: LinearGradient(
-                  colors: [accent, accentLight],
-                  begin: Alignment.topLeft,
-                  end: Alignment.bottomRight,
-                ),
-                borderRadius: BorderRadius.circular(14),
+                color: Colors.white.withOpacity(0.18),
+                borderRadius: BorderRadius.circular(12),
+                border: Border.all(color: Colors.white.withOpacity(0.3), width: 1.2),
+                boxShadow: [
+                  BoxShadow(
+                    color: Colors.white.withOpacity(0.08),
+                    blurRadius: 12,
+                    spreadRadius: 1,
+                  ),
+                ],
               ),
-              child: const Icon(
-                Icons.near_me_rounded,
-                color: Colors.white,
-                size: 24,
+              child: Image.asset(
+                'assets/icons/icon_nearby.png',
+                width: 32,
+                height: 32,
               ),
             ),
             const SizedBox(width: 14),
@@ -849,11 +1135,17 @@ class _NearbyScreenState extends State<NearbyScreen>
                     color: _showMap ? accent : Colors.white.withOpacity(0.1),
                   ),
                 ),
-                child: Icon(
-                  _showMap ? Icons.list_rounded : Icons.map_rounded,
-                  color: _showMap ? Colors.white : textSecondary,
-                  size: 22,
-                ),
+                child: _showMap
+                    ? const Icon(
+                        Icons.list_rounded,
+                        color: Colors.white,
+                        size: 22,
+                      )
+                    : Image.asset(
+                        'assets/icons/icon_map.png',
+                        width: 22,
+                        height: 22,
+                      ),
               ),
             ),
           ],
@@ -864,7 +1156,7 @@ class _NearbyScreenState extends State<NearbyScreen>
 
   Widget _buildSearchBar() {
     return Padding(
-      padding: const EdgeInsets.fromLTRB(20, 12, 20, 0),
+      padding: const EdgeInsets.fromLTRB(20, 8, 20, 0),
       child: Container(
         decoration: BoxDecoration(
           color: bgCard,
@@ -901,8 +1193,10 @@ class _NearbyScreenState extends State<NearbyScreen>
   }
 
   Widget _buildLocationCard() {
+    final locationContext = LocationContextService.instance;
+    final sourceIsLocation = locationContext.isTravelMode;
     return Padding(
-      padding: const EdgeInsets.fromLTRB(20, 20, 20, 0),
+      padding: const EdgeInsets.fromLTRB(20, 16, 20, 0),
       child: Container(
         padding: const EdgeInsets.all(16),
         decoration: BoxDecoration(
@@ -910,108 +1204,117 @@ class _NearbyScreenState extends State<NearbyScreen>
           borderRadius: BorderRadius.circular(16),
           border: Border.all(color: Colors.white.withOpacity(0.05)),
         ),
-        child: Row(
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Container(
-              padding: const EdgeInsets.all(10),
-              decoration: BoxDecoration(
-                color: const Color(0xFF00B894).withOpacity(0.15),
-                borderRadius: BorderRadius.circular(12),
-              ),
-              child: const Icon(
-                Icons.my_location_rounded,
-                color: Color(0xFF00B894),
-                size: 22,
-              ),
-            ),
-            const SizedBox(width: 14),
-            Expanded(
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Text(
-                    LocationContextService.instance.isTravelMode
-                        ? (AppLocalizations.instance.isEnglish ? "Based on your location" : "Konumun baz alınıyor")
-                        : AppLocalizations.instance.basedOnCityCenter,
-                    style: TextStyle(
-                      fontSize: 15,
-                      fontWeight: FontWeight.w600,
-                      color: textPrimary,
-                    ),
+            Row(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Container(
+                  padding: const EdgeInsets.all(10),
+                  decoration: BoxDecoration(
+                    color: Colors.transparent,
+                    borderRadius: BorderRadius.circular(12),
                   ),
-                  const SizedBox(height: 2),
-                  Text(
-                    AppLocalizations.instance.placesFound(_filteredPlaces.length),
-                    style: TextStyle(
-                      fontSize: 13,
-                      color: textSecondary.withOpacity(0.7),
-                    ),
+                  child: Image.asset(
+                    sourceIsLocation ? 'assets/icons/location.png' : 'assets/icons/city.png',
+                    width: 22,
+                    height: 22,
                   ),
-                ],
-              ),
-            ),
-            GestureDetector(
-              onTap: () {
-                HapticFeedback.lightImpact();
-                // Show info dialog explaining the mode
-                showDialog(
-                  context: context,
-                  builder: (ctx) => Dialog(
-                    backgroundColor: const Color(0xFF252131), // Solid opaque dark
-                    shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
-                    child: Padding(
-                      padding: const EdgeInsets.all(20),
-                      child: Column(
-                        mainAxisSize: MainAxisSize.min,
-                        children: [
-                          Icon(
-                            LocationContextService.instance.isTravelMode 
-                                ? Icons.navigation_rounded 
-                                : Icons.map_rounded,
-                            color: accent,
-                            size: 40,
-                          ),
-                          const SizedBox(height: 16),
-                          Text(
-                            LocationContextService.instance.isTravelMode
-                                ? (AppLocalizations.instance.isEnglish ? "Travel Mode Active" : "Gezinti Modu Aktif")
-                                : (AppLocalizations.instance.isEnglish ? "Planning Mode Active" : "Planlama Modu Aktif"),
-                            style: const TextStyle(
-                                color: textPrimary, fontSize: 18, fontWeight: FontWeight.bold),
-                          ),
-                          const SizedBox(height: 8),
-                          Text(
-                            LocationContextService.instance.isTravelMode
-                                ? (AppLocalizations.instance.isEnglish 
-                                    ? "Distances are calculated from your Live Location because you are in the city."
-                                    : "Şehirde olduğun için mesafeler senin Canlı Konumuna göre hesaplanıyor.")
-                                : (AppLocalizations.instance.isEnglish 
-                                    ? "Distances are calculated from City Center because you are away."
-                                    : "Uzakta olduğun için mesafeler Şehir Merkezine göre hesaplanıyor."),
-                            textAlign: TextAlign.center,
-                            style: const TextStyle(color: textSecondary, fontSize: 14),
-                          ),
-                          const SizedBox(height: 20),
-                          TextButton(
-                            onPressed: () => Navigator.pop(ctx),
-                            child: Text(AppLocalizations.instance.done),
-                          )
-                        ],
-                      ),
-                    ),
-                  ),
-                );
-              },
-              child: Container(
-                padding: const EdgeInsets.all(10),
-                decoration: BoxDecoration(
-                  color: bgCardLight,
-                  borderRadius: BorderRadius.circular(10),
                 ),
-                child: const Icon(
-                  Icons.info_outline_rounded,
-                  color: textSecondary,
-                  size: 20,
+                const SizedBox(width: 12),
+                Expanded(
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Text(
+                        locationContext.statusTitle,
+                        style: TextStyle(
+                          fontSize: 15,
+                          fontWeight: FontWeight.w600,
+                          color: textPrimary,
+                        ),
+                      ),
+                      const SizedBox(height: 4),
+                      Text(
+                        AppLocalizations.instance.placesFound(_filteredPlaces.length),
+                        style: TextStyle(
+                          fontSize: 13,
+                          color: textSecondary.withOpacity(0.7),
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+              ],
+            ),
+            const SizedBox(height: 12),
+            Text(
+              locationContext.statusDescription,
+              style: TextStyle(
+                fontSize: 12,
+                height: 1.35,
+                color: textSecondary.withOpacity(0.85),
+              ),
+            ),
+            const SizedBox(height: 14),
+            Row(
+              children: [
+                Expanded(
+                  child: _buildReferenceModeChip(
+                    LocationReferenceMode.liveLocation,
+                  ),
+                ),
+                const SizedBox(width: 8),
+                Expanded(
+                  child: _buildReferenceModeChip(
+                    LocationReferenceMode.cityCenter,
+                  ),
+                ),
+              ],
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+
+  Widget _buildReferenceModeChip(LocationReferenceMode mode) {
+    final isSelected = _selectedReferenceMode == mode;
+    return GestureDetector(
+      onTap: () => _selectReferenceMode(mode),
+      child: AnimatedContainer(
+        duration: const Duration(milliseconds: 180),
+        height: 42,
+        padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 8),
+        alignment: Alignment.center,
+        decoration: BoxDecoration(
+          color: bgCardLight,
+          borderRadius: BorderRadius.circular(12),
+          border: Border.all(
+            color: isSelected ? textPrimary.withOpacity(0.45) : borderColor.withOpacity(0.35),
+            width: isSelected ? 1.5 : 1,
+          ),
+        ),
+        child: Row(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            SizedBox(
+              width: 15,
+              height: 15,
+              child: _referenceModeIcon(mode, color: textPrimary),
+            ),
+            const SizedBox(width: 6),
+            Flexible(
+              child: Text(
+                _referenceModeLabel(mode),
+                maxLines: 1,
+                overflow: TextOverflow.ellipsis,
+                textAlign: TextAlign.center,
+                style: TextStyle(
+                  fontSize: 12,
+                  fontWeight: FontWeight.w600,
+                  color: textPrimary,
                 ),
               ),
             ),
@@ -1022,8 +1325,9 @@ class _NearbyScreenState extends State<NearbyScreen>
   }
 
   Widget _buildDistanceSlider() {
+    final effectiveMaxDistance = _effectiveMaxDistance;
     return Padding(
-      padding: const EdgeInsets.fromLTRB(20, 20, 20, 0),
+      padding: const EdgeInsets.fromLTRB(20, 14, 20, 0),
       child: Column(
         key: _distanceFilterKey,
         crossAxisAlignment: CrossAxisAlignment.start,
@@ -1040,7 +1344,7 @@ class _NearbyScreenState extends State<NearbyScreen>
                 ),
               ),
               Text(
-                "${_maxDistance.toStringAsFixed(1)} km",
+                _formatDistanceText(effectiveMaxDistance),
                 style: const TextStyle(
                   fontSize: 14,
                   fontWeight: FontWeight.w700,
@@ -1049,7 +1353,7 @@ class _NearbyScreenState extends State<NearbyScreen>
               ),
             ],
           ),
-          const SizedBox(height: 12),
+          const SizedBox(height: 4),
           SliderTheme(
             data: SliderThemeData(
               activeTrackColor: accent,
@@ -1060,15 +1364,28 @@ class _NearbyScreenState extends State<NearbyScreen>
               thumbShape: const RoundSliderThumbShape(enabledThumbRadius: 8),
             ),
             child: Slider(
-              value: _maxDistance,
+              value: effectiveMaxDistance,
               min: 0.5,
-              max: 100,
+              max: _sliderMaxDistance,
               onChanged: (val) {
                 setState(() => _maxDistance = val);
               },
               onChangeEnd: (val) {
                 _applyFilters();
               },
+            ),
+          ),
+          Text(
+            _selectedReferenceMode == LocationReferenceMode.liveLocation
+                ? (AppLocalizations.instance.isEnglish
+                    ? "My Location mode searches within ${_formatDistanceText(_liveLocationSliderMaxDistance)} around you."
+                    : "Konumum modunda arama çevrende en fazla ${_formatDistanceText(_liveLocationSliderMaxDistance)} içinde yapılır.")
+                : (AppLocalizations.instance.isEnglish
+                    ? "City Center mode scans up to ${_formatDistanceText(_cityCenterSliderMaxDistance)} from the center."
+                    : "Şehir Merkezi modunda tarama merkezden en fazla ${_formatDistanceText(_cityCenterSliderMaxDistance)} uzaklığa kadar yapılır."),
+            style: TextStyle(
+              fontSize: 12,
+              color: textSecondary.withOpacity(0.75),
             ),
           ),
         ],
@@ -1173,11 +1490,12 @@ class _NearbyScreenState extends State<NearbyScreen>
     final markers = _filteredPlaces.map((place) {
       return Marker(
         markerId: MarkerId(place.name),
-        position: LatLng(place.highlight.lat ?? 0, place.highlight.lng ?? 0),
+        position: LatLng(place.highlight.lat, place.highlight.lng),
         infoWindow: InfoWindow(
           title: place.highlight.getLocalizedName(AppLocalizations.instance.isEnglish),
           snippet: place.category,
           onTap: () {
+            // Navigation
             Navigator.push(
               context,
               MaterialPageRoute(builder: (_) => DetailScreen(place: place.highlight)),
@@ -1205,8 +1523,8 @@ class _NearbyScreenState extends State<NearbyScreen>
     double minLat = 90.0, maxLat = -90.0, minLng = 180.0, maxLng = -180.0;
 
     for (var place in _filteredPlaces) {
-      final lat = place.highlight.lat ?? 0;
-      final lng = place.highlight.lng ?? 0;
+      final lat = place.highlight.lat;
+      final lng = place.highlight.lng;
       if (lat == 0 && lng == 0) continue;
 
       if (lat < minLat) minLat = lat;
@@ -1432,16 +1750,17 @@ class _NearbyScreenState extends State<NearbyScreen>
                     // Fotoğraf
                     ClipRRect(
                       borderRadius: BorderRadius.circular(16),
-                      child: place.imageUrl != null
-                          ? Image.network(
-                              place.imageUrl!,
-                              height: 200,
-                              width: double.infinity,
-                              fit: BoxFit.cover,
-                              errorBuilder: (_, __, ___) =>
-                                  _buildPlaceholderImage(color, icon),
-                            )
-                          : _buildPlaceholderImage(color, icon),
+                      child: SizedBox(
+                        height: 200,
+                        child: ResilientNetworkImage(
+                          imageUrl: place.imageUrl,
+                          placeName: place.name,
+                          city: place.area,
+                          category: place.category,
+                          blurHash: place.blurHash,
+                          fit: BoxFit.cover,
+                        ),
+                      ),
                     ),
                     const SizedBox(height: 20),
 
@@ -1509,13 +1828,17 @@ class _NearbyScreenState extends State<NearbyScreen>
                     const SizedBox(height: 16),
 
                     // İsim
-                    Text(
-                      place.highlight.getLocalizedName(AppLocalizations.instance.isEnglish),
-                      style: const TextStyle(
-                        fontSize: 26,
-                        fontWeight: FontWeight.w700,
-                        color: textPrimary,
-                        letterSpacing: -0.5,
+                    FittedBox(
+                      fit: BoxFit.scaleDown,
+                      alignment: Alignment.centerLeft,
+                      child: Text(
+                        place.highlight.getLocalizedName(AppLocalizations.instance.isEnglish),
+                        style: const TextStyle(
+                          fontSize: 26,
+                          fontWeight: FontWeight.w700,
+                          color: textPrimary,
+                          letterSpacing: -0.5,
+                        ),
                       ),
                     ),
                     const SizedBox(height: 8),
@@ -1763,20 +2086,14 @@ class _NearbyScreenState extends State<NearbyScreen>
             ),
             const SizedBox(height: 16),
             Text(
-              "Bu kriterlere uygun mekan bulunamadı",
+              AppLocalizations.instance.noPlacesFoundMatchingCriteria,
               style: TextStyle(fontSize: 16, color: textSecondary),
             ),
             const SizedBox(height: 12),
             GestureDetector(
-              onTap: () {
-                setState(() {
-                  _selectedCategory = AppLocalizations.instance.allCategories;
-                  _maxDistance = 5.0;
-                });
-                _applyFilters();
-              },
+              onTap: _resetFilters,
               child: Text(
-                "Filtreleri temizle",
+                AppLocalizations.instance.clearFilters,
                 style: TextStyle(
                   fontSize: 14,
                   fontWeight: FontWeight.w600,
@@ -1798,7 +2115,53 @@ class _NearbyScreenState extends State<NearbyScreen>
         final color = _getCategoryColor(place.category);
         final icon = _getCategoryIcon(place.category);
 
-        return _buildPlaceCard(place, color, icon);
+        final bool isLocked = index > 4 && !PremiumService.instance.isPremium;
+        Widget card = _buildPlaceCard(place, color, icon);
+        
+        if (isLocked) {
+          card = GestureDetector(
+            onTap: _showPaywall,
+            child: ClipRect(
+              child: Stack(
+                alignment: Alignment.center,
+                children: [
+                  ImageFiltered(
+                    imageFilter: ImageFilter.blur(sigmaX: 5, sigmaY: 5),
+                    child: IgnorePointer(child: card),
+                  ),
+                  if (index == 5)
+                    Container(
+                      padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+                      decoration: BoxDecoration(
+                        color: WanderlustColors.accent,
+                        borderRadius: BorderRadius.circular(20),
+                        boxShadow: [
+                          BoxShadow(
+                            color: Colors.black.withOpacity(0.3),
+                            blurRadius: 8,
+                            offset: const Offset(0, 2),
+                          ),
+                        ],
+                      ),
+                      child: Row(
+                        mainAxisSize: MainAxisSize.min,
+                        children: [
+                          const Icon(Icons.star, color: Colors.white, size: 16),
+                          const SizedBox(width: 6),
+                          Text(
+                            AppLocalizations.instance.isEnglish ? "Unlock More" : "Daha Fazlasını Keşfet",
+                            style: const TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
+                          ),
+                        ],
+                      ),
+                    ),
+                ],
+              ),
+            ),
+          );
+        }
+        
+        return card;
       },
     );
   }
@@ -1819,20 +2182,14 @@ class _NearbyScreenState extends State<NearbyScreen>
               ),
               const SizedBox(height: 16),
               Text(
-                "Bu kriterlere uygun mekan bulunamadı",
+                AppLocalizations.instance.noPlacesFoundMatchingCriteria,
                 style: const TextStyle(fontSize: 16, color: textSecondary),
               ),
               const SizedBox(height: 12),
               GestureDetector(
-                onTap: () {
-                  setState(() {
-                    _selectedCategory = AppLocalizations.instance.allCategories;
-                    _maxDistance = 5.0;
-                  });
-                  _applyFilters();
-                },
-                child: const Text(
-                  "Filtreleri temizle",
+                onTap: _resetFilters,
+                child: Text(
+                  AppLocalizations.instance.clearFilters,
                   style: TextStyle(
                     fontSize: 14,
                     fontWeight: FontWeight.w600,
@@ -1854,9 +2211,60 @@ class _NearbyScreenState extends State<NearbyScreen>
             final place = _filteredPlaces[index];
             final color = _getCategoryColor(place.category);
             final icon = _getCategoryIcon(place.category);
-            return _buildPlaceCard(place, color, icon);
+            final bool isLocked = index > 4 && !PremiumService.instance.isPremium;
+            
+            Widget card = _buildPlaceCard(place, color, icon);
+            
+            if (isLocked) {
+              card = GestureDetector(
+                onTap: _showPaywall,
+                child: ClipRect(
+                  child: Stack(
+                    alignment: Alignment.center,
+                    children: [
+                      ImageFiltered(
+                        imageFilter: ImageFilter.blur(sigmaX: 5, sigmaY: 5),
+                        child: IgnorePointer(child: card),
+                      ),
+                      if (index == 5) // Only show the button/text on the first locked item to avoid clutter
+                        Container(
+                          padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+                          decoration: BoxDecoration(
+                            color: WanderlustColors.accent,
+                            borderRadius: BorderRadius.circular(20),
+                            boxShadow: [
+                              BoxShadow(
+                                color: Colors.black.withOpacity(0.3),
+                                blurRadius: 8,
+                                offset: const Offset(0, 2),
+                              ),
+                            ],
+                          ),
+                          child: Row(
+                            mainAxisSize: MainAxisSize.min,
+                            children: [
+                              const Icon(Icons.star, color: Colors.white, size: 16),
+                              const SizedBox(width: 6),
+                              Text(
+                                AppLocalizations.instance.isEnglish ? "Unlock More" : "Daha Fazlasını Keşfet",
+                                style: const TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
+                              ),
+                            ],
+                          ),
+                        ),
+                    ],
+                  ),
+                ),
+              );
+            }
+            return RepaintBoundary(
+              key: ValueKey("nearby_card_${place.name}"),
+              child: card,
+            );
           },
           childCount: _filteredPlaces.length,
+          addAutomaticKeepAlives: true,
+          addRepaintBoundaries: false,
         ),
       ),
     );
@@ -1868,6 +2276,7 @@ class _NearbyScreenState extends State<NearbyScreen>
     return GestureDetector(
       onTap: () {
         HapticFeedback.lightImpact();
+        // Navigation
         Navigator.push(
           context,
           MaterialPageRoute(
@@ -1903,7 +2312,10 @@ class _NearbyScreenState extends State<NearbyScreen>
                   ),
                   image: place.imageUrl != null
                       ? DecorationImage(
-                          image: NetworkImage(place.imageUrl!),
+                          image: CachedNetworkImageProvider(
+                            firebaseCompatibleImageUrl(place.imageUrl!),
+                            cacheManager: AppImageCacheManager.instance,
+                          ),
                           fit: BoxFit.cover,
                         )
                       : null,
@@ -1925,29 +2337,7 @@ class _NearbyScreenState extends State<NearbyScreen>
                           ),
                         ),
                       )
-                    : Stack(
-                        children: [
-                          // Gradient overlay
-                          Positioned.fill(
-                            child: Container(
-                              decoration: const BoxDecoration(
-                                borderRadius: BorderRadius.only(
-                                  topLeft: Radius.circular(16),
-                                  bottomLeft: Radius.circular(16),
-                                ),
-                                gradient: LinearGradient(
-                                  begin: Alignment.topCenter,
-                                  end: Alignment.bottomCenter,
-                                  colors: [
-                                    Colors.transparent,
-                                    Colors.black45, // Lighter gradient
-                                  ],
-                                ),
-                              ),
-                            ),
-                          ),
-                        ],
-                      ),
+                    : null,
               ),
 
               // İçerik
@@ -1967,19 +2357,19 @@ class _NearbyScreenState extends State<NearbyScreen>
                               vertical: 4,
                             ),
                             decoration: BoxDecoration(
-                              color: Colors.white.withOpacity(0.08),
+                              color: accent.withOpacity(0.1),
                               borderRadius: BorderRadius.circular(6),
                               border: Border.all(
-                                  color: Colors.white.withOpacity(0.12),
+                                  color: accent.withOpacity(0.3),
                                   width: 0.5),
                             ),
                             child: Text(
                               AppLocalizations.instance
                                   .translateCategory(place.category),
-                              style: TextStyle(
+                              style: const TextStyle(
                                 fontSize: 10,
                                 fontWeight: FontWeight.w600,
-                                color: Colors.white.withOpacity(0.8),
+                                color: accent,
                               ),
                             ),
                           ),
@@ -2080,22 +2470,16 @@ class _NearbyScreenState extends State<NearbyScreen>
                           ),
                           const SizedBox(width: 8),
                           
-                          // Rotaya ekle butonu
+                          // Rotaya ekle butonu - km button style
                           Expanded(
                             child: GestureDetector(
                               onTap: () => _toggleRoute(place.name),
                               child: Container(
-                                height: 32, // Fixed smaller height
-                                padding: const EdgeInsets.symmetric(horizontal: 4),
+                                height: 32,
+                                padding: const EdgeInsets.symmetric(horizontal: 8),
                                 decoration: BoxDecoration(
-                                  color: isInRoute ? accent : bgCardLight,
+                                  color: isInRoute ? accent.withOpacity(0.15) : bgCardLight,
                                   borderRadius: BorderRadius.circular(8),
-                                  border: Border.all(
-                                    color: isInRoute
-                                        ? accent
-                                        : Colors.white.withOpacity(0.1),
-                                    width: isInRoute ? 1.5 : 1,
-                                  ),
                                 ),
                                 child: Row(
                                   mainAxisAlignment: MainAxisAlignment.center,
@@ -2103,23 +2487,19 @@ class _NearbyScreenState extends State<NearbyScreen>
                                     Icon(
                                       isInRoute
                                           ? Icons.check
-                                          : Icons.add_rounded, // Changed icon
+                                          : Icons.add_location_alt_outlined,
                                       size: 14,
-                                      color: isInRoute
-                                          ? Colors.white
-                                          : textSecondary,
+                                      color: isInRoute ? accent : accent,
                                     ),
                                     const SizedBox(width: 4),
                                     Text(
                                       isInRoute
-                                          ? "Rotada"
+                                          ? AppLocalizations.instance.addedToRoute
                                           : AppLocalizations.instance.addToRoute,
                                       style: TextStyle(
-                                        fontSize: 11, // Reduced font size
+                                        fontSize: 11,
                                         fontWeight: FontWeight.w600,
-                                        color: isInRoute
-                                            ? Colors.white
-                                            : textSecondary,
+                                        color: isInRoute ? accent : textPrimary,
                                       ),
                                       maxLines: 1,
                                       overflow: TextOverflow.ellipsis,
@@ -2304,21 +2684,25 @@ class _GridPainter extends CustomPainter {
 class _NearbyPlace {
   final String name;
   final String category;
-  final double distanceKm;
+  final double distanceMeters;
   final double rating;
   final String area;
   final String? imageUrl;
+  final String? blurHash;
   final String? description;
   final String? price;
   final Highlight highlight; // Original highlight for detail screen
 
+  double get distanceKm => distanceMeters / 1000;
+
   _NearbyPlace({
     required this.name,
     required this.category,
-    required this.distanceKm,
+    required this.distanceMeters,
     required this.rating,
     required this.area,
     this.imageUrl,
+    this.blurHash,
     this.description,
     this.price,
     required this.highlight,

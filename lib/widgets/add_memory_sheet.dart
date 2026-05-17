@@ -10,7 +10,6 @@ import 'package:image_picker/image_picker.dart';
 import '../theme/wanderlust_colors.dart';
 import '../l10n/app_localizations.dart';
 import '../services/memory_service.dart';
-import '../services/premium_service.dart';
 import '../models/travel_memory.dart';
 import '../screens/city_switcher_screen.dart';
 
@@ -110,10 +109,17 @@ class _AddMemorySheetState extends State<AddMemorySheet> {
       lastDate: DateTime.now(),
       builder: (context, child) {
         return Theme(
-          data: ThemeData.dark().copyWith(
-            colorScheme: const ColorScheme.dark(
+          data: ThemeData.light().copyWith(
+            colorScheme: const ColorScheme.light(
               primary: WanderlustColors.accent,
               surface: WanderlustColors.bgCard,
+              onPrimary: Colors.white,
+              onSurface: WanderlustColors.textWhite,
+            ),
+            textButtonTheme: TextButtonThemeData(
+              style: TextButton.styleFrom(
+                foregroundColor: WanderlustColors.accent,
+              ),
             ),
           ),
           child: child!,
@@ -185,7 +191,7 @@ class _AddMemorySheetState extends State<AddMemorySheet> {
             width: 40,
             height: 4,
             decoration: BoxDecoration(
-              color: Colors.white.withOpacity(0.2),
+              color: WanderlustColors.borderLight,
               borderRadius: BorderRadius.circular(2),
             ),
           ),
@@ -199,7 +205,7 @@ class _AddMemorySheetState extends State<AddMemorySheet> {
                 Text(
                   isEnglish ? 'New Memory' : 'Yeni Anı',
                   style: const TextStyle(
-                    color: Colors.white,
+                    color: WanderlustColors.textWhite,
                     fontSize: 22,
                     fontWeight: FontWeight.w700,
                   ),
@@ -209,12 +215,12 @@ class _AddMemorySheetState extends State<AddMemorySheet> {
                   child: Container(
                     padding: const EdgeInsets.all(8),
                     decoration: BoxDecoration(
-                      color: Colors.white.withOpacity(0.1),
+                      color: WanderlustColors.bgCardLight,
                       borderRadius: BorderRadius.circular(10),
                     ),
                     child: const Icon(
                       Icons.close_rounded,
-                      color: Colors.white70,
+                      color: WanderlustColors.textGrey,
                       size: 20,
                     ),
                   ),
@@ -236,7 +242,12 @@ class _AddMemorySheetState extends State<AddMemorySheet> {
 
                   // City Selector
                   _buildSelectorTile(
-                    icon: Icons.location_city_rounded,
+                    leading: Image.asset(
+                      'assets/icons/city.png',
+                      width: 22,
+                      height: 22,
+                      fit: BoxFit.contain,
+                    ),
                     label: isEnglish ? 'City' : 'Şehir',
                     value: _selectedCityName ?? (isEnglish ? 'Select city...' : 'Şehir seç...'),
                     onTap: _selectCity,
@@ -246,7 +257,12 @@ class _AddMemorySheetState extends State<AddMemorySheet> {
 
                   // Date Selector
                   _buildSelectorTile(
-                    icon: Icons.calendar_today_rounded,
+                    leading: Image.asset(
+                      'assets/icons/icon_calender.png',
+                      width: 22,
+                      height: 22,
+                      fit: BoxFit.contain,
+                    ),
                     label: isEnglish ? 'Date' : 'Tarih',
                     value: _formatDate(_selectedDate),
                     onTap: _selectDate,
@@ -257,7 +273,7 @@ class _AddMemorySheetState extends State<AddMemorySheet> {
                   Text(
                     isEnglish ? 'Note (optional)' : 'Not (isteğe bağlı)',
                     style: const TextStyle(
-                      color: Colors.white70,
+                      color: WanderlustColors.textGrey,
                       fontSize: 14,
                       fontWeight: FontWeight.w500,
                     ),
@@ -267,19 +283,19 @@ class _AddMemorySheetState extends State<AddMemorySheet> {
                     decoration: BoxDecoration(
                       color: WanderlustColors.bgCard,
                       borderRadius: BorderRadius.circular(14),
-                      border: Border.all(color: Colors.white.withOpacity(0.08)),
+                      border: Border.all(color: WanderlustColors.borderLight),
                     ),
                     child: TextField(
                       controller: _noteController,
                       maxLines: 3,
                       maxLength: 200,
-                      style: const TextStyle(color: Colors.white),
+                      style: const TextStyle(color: WanderlustColors.textWhite),
                       decoration: InputDecoration(
                         hintText: isEnglish ? 'Write about this moment...' : 'Bu an hakkında yaz...',
                         hintStyle: TextStyle(color: WanderlustColors.textGrey.withOpacity(0.6)),
                         border: InputBorder.none,
                         contentPadding: const EdgeInsets.all(16),
-                        counterStyle: const TextStyle(color: Colors.white38),
+                        counterStyle: const TextStyle(color: WanderlustColors.textGreyLight),
                       ),
                     ),
                   ),
@@ -338,7 +354,7 @@ class _AddMemorySheetState extends State<AddMemorySheet> {
           border: Border.all(
             color: _selectedImage != null
                 ? WanderlustColors.accent
-                : Colors.white.withOpacity(0.1),
+                : WanderlustColors.borderLight,
             width: 2,
           ),
         ),
@@ -377,23 +393,17 @@ class _AddMemorySheetState extends State<AddMemorySheet> {
             : Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  Container(
-                    padding: const EdgeInsets.all(16),
-                    decoration: BoxDecoration(
-                      color: WanderlustColors.accent.withOpacity(0.1),
-                      shape: BoxShape.circle,
-                    ),
-                    child: const Icon(
-                      Icons.add_a_photo_rounded,
-                      color: WanderlustColors.accent,
-                      size: 40,
-                    ),
+                  Image.asset(
+                    'assets/icons/icon_photo.png',
+                    width: 56,
+                    height: 56,
+                    fit: BoxFit.contain,
                   ),
                   const SizedBox(height: 12),
                   Text(
                     isEnglish ? 'Add Photo' : 'Fotoğraf Ekle',
                     style: const TextStyle(
-                      color: Colors.white,
+                      color: WanderlustColors.textWhite,
                       fontSize: 16,
                       fontWeight: FontWeight.w600,
                     ),
@@ -402,7 +412,7 @@ class _AddMemorySheetState extends State<AddMemorySheet> {
                   Text(
                     isEnglish ? 'Tap to select' : 'Seçmek için dokun',
                     style: const TextStyle(
-                      color: Colors.white54,
+                      color: WanderlustColors.textGrey,
                       fontSize: 13,
                     ),
                   ),
@@ -413,7 +423,7 @@ class _AddMemorySheetState extends State<AddMemorySheet> {
   }
 
   Widget _buildSelectorTile({
-    required IconData icon,
+    required Widget leading,
     required String label,
     required String value,
     required VoidCallback onTap,
@@ -431,12 +441,12 @@ class _AddMemorySheetState extends State<AddMemorySheet> {
           border: Border.all(
             color: isRequired && !hasValue
                 ? WanderlustColors.accent.withOpacity(0.5)
-                : Colors.white.withOpacity(0.08),
+                : WanderlustColors.borderLight,
           ),
         ),
         child: Row(
           children: [
-            Icon(icon, color: WanderlustColors.accent, size: 22),
+            SizedBox(width: 22, height: 22, child: leading),
             const SizedBox(width: 12),
             Expanded(
               child: Column(
@@ -445,7 +455,7 @@ class _AddMemorySheetState extends State<AddMemorySheet> {
                   Text(
                     label,
                     style: const TextStyle(
-                      color: Colors.white54,
+                      color: WanderlustColors.textGrey,
                       fontSize: 12,
                     ),
                   ),
@@ -453,7 +463,9 @@ class _AddMemorySheetState extends State<AddMemorySheet> {
                   Text(
                     value,
                     style: TextStyle(
-                      color: hasValue ? Colors.white : Colors.white38,
+                      color: hasValue
+                          ? WanderlustColors.textWhite
+                          : WanderlustColors.textGreyLight,
                       fontSize: 15,
                       fontWeight: FontWeight.w500,
                     ),
@@ -463,7 +475,7 @@ class _AddMemorySheetState extends State<AddMemorySheet> {
             ),
             const Icon(
               Icons.chevron_right_rounded,
-              color: Colors.white38,
+              color: WanderlustColors.textGreyLight,
               size: 24,
             ),
           ],
@@ -489,7 +501,7 @@ class _AddMemorySheetState extends State<AddMemorySheet> {
                 leading: const Icon(Icons.photo_library_rounded, color: WanderlustColors.accent),
                 title: Text(
                   isEnglish ? 'Choose from Gallery' : 'Galeriden Seç',
-                  style: const TextStyle(color: Colors.white),
+                  style: const TextStyle(color: WanderlustColors.textWhite),
                 ),
                 onTap: () {
                   Navigator.pop(context);
@@ -500,7 +512,7 @@ class _AddMemorySheetState extends State<AddMemorySheet> {
                 leading: const Icon(Icons.camera_alt_rounded, color: WanderlustColors.accent),
                 title: Text(
                   isEnglish ? 'Take a Photo' : 'Fotoğraf Çek',
-                  style: const TextStyle(color: Colors.white),
+                  style: const TextStyle(color: WanderlustColors.textWhite),
                 ),
                 onTap: () {
                   Navigator.pop(context);

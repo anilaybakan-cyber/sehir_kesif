@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+from dotenv import load_dotenv
+load_dotenv()
 """
 İstanbul şehir verisini zenginleştirme scripti.
 'Küçük Dünya' ve 'Biz Evde Yokuz' kaynaklarından 25+ yeni mekan ekler.
@@ -11,7 +13,7 @@ import time
 import os
 from typing import Optional
 
-API_KEY = "AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g"
+API_KEY = os.getenv("GOOGLE_MAPS_API_KEY")
 ISTANBUL_JSON_PATH = "assets/cities/istanbul.json"
 
 NEW_PLACES = [

@@ -1,5 +1,6 @@
 import 'dart:convert';
 import 'dart:io';
+import 'dart:async';
 
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_messaging/firebase_messaging.dart';
@@ -7,6 +8,13 @@ import 'package:firebase_analytics/firebase_analytics.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+import 'package:url_launcher/url_launcher.dart';
+import 'package:app_links/app_links.dart';
+
+import '../app_navigator.dart';
+import '../constants/store_urls.dart';
+import 'premium_service.dart';
+import 'remote_config_service.dart';
 
 /// Background message handler - must be top-level function
 @pragma('vm:entry-point')
@@ -23,355 +31,354 @@ class NotificationService {
   final FirebaseMessaging _firebaseMessaging = FirebaseMessaging.instance;
   final FirebaseAnalytics _analytics = FirebaseAnalytics.instance;
   final FlutterLocalNotificationsPlugin _localNotifications = FlutterLocalNotificationsPlugin();
+  final _appLinks = AppLinks();
+  StreamSubscription<Uri>? _linkSubscription;
   
   String? _fcmToken;
   String? get fcmToken => _fcmToken;
+
+  /// Stores a deep link that arrived while the UI wasn't ready yet
+  Map<String, dynamic>? _pendingDeepLink;
+
+  /// Called by MainScreen after splash completes to deliver any queued deep link.
+  void consumePendingDeepLink() {
+    final pending = _pendingDeepLink;
+    if (pending == null) return;
+    _pendingDeepLink = null;
+    debugPrint('🔗 Consuming pending deep link: $pending');
+    Future.delayed(const Duration(milliseconds: 250), () {
+      _navigateFromData(pending);
+    });
+  }
 
   /// Initialize the notification service
   Future<void> initialize() async {
     debugPrint('🔔 NotificationService.initialize() starting...');
     
+    // 🔗 Initialize App Links (Browser/Deep Links)
+    _initDeepLinks();
+
     // Set background message handler
     FirebaseMessaging.onBackgroundMessage(_firebaseMessagingBackgroundHandler);
-    debugPrint('🔔 Step 1: Background handler set');
 
     // Request permission
     try {
       await _requestPermission();
-      debugPrint('🔔 Step 2: Permission requested');
-    } catch (e) {
-      debugPrint('🔔 Step 2 ERROR - Permission request failed: $e');
-    }
-
-    // Get FCM token
-    try {
       await _getToken();
-      debugPrint('🔔 Step 3: Token retrieved');
-    } catch (e) {
-      debugPrint('🔔 Step 3 ERROR - Token retrieval failed: $e');
-    }
-
-    // Initialize local notifications for foreground
-    try {
       await _initializeLocalNotifications();
-      debugPrint('🔔 Step 4: Local notifications initialized');
     } catch (e) {
-      debugPrint('🔔 Step 4 ERROR - Local notifications failed: $e');
+      debugPrint('🔔 Initialization error: $e');
     }
 
-    // Handle foreground messages
+    // Listeners
     FirebaseMessaging.onMessage.listen(_handleForegroundMessage);
-    debugPrint('🔔 Step 5: Foreground listener set');
-
-    // Handle notification tap when app is in background
     FirebaseMessaging.onMessageOpenedApp.listen(_handleMessageOpenedApp);
-    debugPrint('🔔 Step 6: Background tap listener set');
 
-    // Check if app was opened from a notification
+    // Initial message (Terminated state)
     final initialMessage = await _firebaseMessaging.getInitialMessage();
     if (initialMessage != null) {
-      _handleMessageOpenedApp(initialMessage);
+      _pendingDeepLink = Map<String, dynamic>.from(initialMessage.data);
     }
-    debugPrint('🔔 Step 7: Initial message checked');
 
-    // Subscribe to topic for broadcast notifications
     try {
       await _firebaseMessaging.subscribeToTopic('all_users');
-      debugPrint('🔔 Step 8: Subscribed to topic: all_users');
-    } catch (e) {
-      debugPrint('🔔 Step 8 ERROR - Topic subscription failed: $e');
-    }
+    } catch (_) {}
 
-    // Enable foreground notification presentation (iOS)
     await _firebaseMessaging.setForegroundNotificationPresentationOptions(
       alert: true,
       badge: true,
       sound: true,
     );
-    debugPrint('🔔 Step 9: Foreground presentation options set');
     debugPrint('🔔 NotificationService.initialize() COMPLETE');
   }
 
-  /// Target: Subscribe to a specific city topic
-  Future<void> subscribeToCity(String cityId) async {
-    try {
-      final prefs = await SharedPreferences.getInstance();
-      final lastCity = prefs.getString('last_subscribed_city');
-
-      // Unsubscribe from last city if exists
-      if (lastCity != null && lastCity != cityId) {
-        await _firebaseMessaging.unsubscribeFromTopic('city_$lastCity');
-        debugPrint('🔔 Unsubscribed from: city_$lastCity');
+  /// URL tabanlı derin linkleri yakalar
+  void _initDeepLinks() {
+    _appLinks.getInitialLink().then((uri) {
+      if (uri != null) {
+        debugPrint('🔗 Initial App Link: $uri');
+        _navigateFromUrl(uri);
       }
+    });
 
-      // Subscribe to new city
-      await _firebaseMessaging.subscribeToTopic('city_$cityId');
-      await prefs.setString('last_subscribed_city', cityId);
-      
-      // Log as user property for Analytics targeting
-      await _analytics.setUserProperty(name: 'current_city', value: cityId);
-      
-      debugPrint('🔔 Subscribed to: city_$cityId');
-    } catch (e) {
-      debugPrint('🔔 Error subscribing to city topic: $e');
+    _linkSubscription = _appLinks.uriLinkStream.listen((uri) {
+      debugPrint('🔗 Incoming App Link: $uri');
+      _navigateFromUrl(uri);
+    });
+  }
+
+  /// URL -> Navigation Data mapping
+  void _navigateFromUrl(Uri uri) {
+    final Map<String, dynamic> data = {};
+    String host = uri.host.toLowerCase();
+    
+    // Örn: myway://explore -> /main (tab=0)
+    // Örn: myway://detail?cityId=bari&placeName=Pane%20e%20Pomodoro
+    
+    if (host == "explore" || host == "main") {
+      data['route'] = "/main";
+      data['tab'] = uri.queryParameters['tab'] ?? "0";
+      final inner = uri.queryParameters['routesTab'];
+      if (inner != null) data['routesTab'] = inner;
+      final profileTab = uri.queryParameters['profileTab'];
+      if (profileTab != null) data['profileTab'] = profileTab;
+      final profileAction = uri.queryParameters['profileAction'];
+      if (profileAction != null) data['profileAction'] = profileAction;
+    } else if (host == "routes") {
+      // Doğrudan Rotalar sekmesine atlama: myway://routes?inner=2
+      data['route'] = "/main";
+      data['tab'] = "1";
+      final inner = uri.queryParameters['inner'] ??
+          uri.queryParameters['routesTab'] ??
+          uri.pathSegments.firstOrNull;
+      if (inner != null) data['routesTab'] = inner;
+    } else if (host == "profile") {
+      // Profil deeplinkleri:
+      //   myway://profile?section=favorites|visited|routes
+      //   myway://profile?action=add-memory|preferences|memories
+      data['route'] = "/main";
+      data['tab'] = "4";
+      final section = (uri.queryParameters['section'] ??
+              uri.pathSegments.firstOrNull ??
+              '')
+          .toLowerCase();
+      const sectionMap = {
+        'favorites': '0',
+        'favoriler': '0',
+        'favoris': '0',
+        'visits': '1',
+        'visited': '1',
+        'ziyaret': '1',
+        'routes': '2',
+        'history': '2',
+        'rotalar': '2',
+      };
+      if (sectionMap.containsKey(section)) {
+        data['profileTab'] = sectionMap[section]!;
+      }
+      final action = uri.queryParameters['action'];
+      if (action != null && action.isNotEmpty) {
+        data['profileAction'] = action;
+      }
+    } else if (host == "detail" || host == "place") {
+      data['route'] = "/detail-by-id";
+      data['cityId'] = uri.queryParameters['cityId'] ?? uri.pathSegments.firstOrNull;
+      data['placeName'] = uri.queryParameters['placeName'] ?? (uri.pathSegments.length > 1 ? uri.pathSegments[1] : null);
+    } else if (host == "guide") {
+      data['route'] = "/guide";
+      data['cityId'] = uri.queryParameters['cityId'] ?? uri.pathSegments.firstOrNull;
+    } else if (host == "paywall") {
+      data['route'] = "/paywall";
+    } else if (host == "city-switch") {
+      data['route'] = "/city-switch";
+    }
+
+    if (data.containsKey('route')) {
+      _navigateFromData(data);
     }
   }
 
-  /// Target: Log custom event for behavior-based notifications
+  /// CENTRAL ANALYTICS LOGGER
+  /// Bu metod üzerinden tüm kullanıcı aksiyonlarını takip edebilirsin.
   Future<void> logEvent(String name, {Map<String, Object>? parameters}) async {
     await _analytics.logEvent(name: name, parameters: parameters);
-    debugPrint('📊 Analytics Event: $name');
+    debugPrint('📊 Analytics Event Logged: $name | Params: $parameters');
   }
 
-  /// Request notification permission
   Future<void> _requestPermission() async {
-    final settings = await _firebaseMessaging.requestPermission(
-      alert: true,
-      badge: true,
-      sound: true,
-      provisional: false,
-    );
-
-    debugPrint('🔔 Notification permission: ${settings.authorizationStatus}');
+    await _firebaseMessaging.requestPermission(alert: true, badge: true, sound: true);
   }
 
-  /// Get FCM token
   Future<void> _getToken() async {
-    try {
-      _fcmToken = await _firebaseMessaging.getToken();
-      debugPrint('🔔 FCM Token: $_fcmToken');
-
-      // Listen for token refresh
-      _firebaseMessaging.onTokenRefresh.listen((newToken) {
-        _fcmToken = newToken;
-        debugPrint('🔔 FCM Token refreshed: $newToken');
-      });
-    } catch (e) {
-      debugPrint('🔔 Error getting FCM token: $e');
-    }
+    _fcmToken = await _firebaseMessaging.getToken();
+    debugPrint('🔔 FCM Token: $_fcmToken');
   }
 
-  /// Initialize local notifications
   Future<void> _initializeLocalNotifications() async {
     const androidSettings = AndroidInitializationSettings('@mipmap/ic_launcher');
-    const iosSettings = DarwinInitializationSettings(
-      requestAlertPermission: false,
-      requestBadgePermission: false,
-      requestSoundPermission: false,
-    );
+    const iosSettings = DarwinInitializationSettings();
+    const initSettings = InitializationSettings(android: androidSettings, iOS: iosSettings);
 
-    const initSettings = InitializationSettings(
-      android: androidSettings,
-      iOS: iosSettings,
-    );
-
-    await _localNotifications.initialize(
-      initSettings,
-      onDidReceiveNotificationResponse: (details) {
-        debugPrint('🔔 Notification tapped: ${details.payload}');
-      },
-    );
-
-    if (Platform.isAndroid) {
-      const channel = AndroidNotificationChannel(
-        'high_importance_channel',
-        'High Importance Notifications',
-        description: 'This channel is used for important notifications.',
-        importance: Importance.high,
-      );
-
-      await _localNotifications
-          .resolvePlatformSpecificImplementation<AndroidFlutterLocalNotificationsPlugin>()
-          ?.createNotificationChannel(channel);
-    }
+    await _localNotifications.initialize(initSettings, onDidReceiveNotificationResponse: (details) {
+      if (details.payload != null) {
+        final data = Map<String, dynamic>.from(jsonDecode(details.payload!));
+        _navigateFromData(data);
+      }
+    });
   }
 
-  /// Handle foreground messages
   void _handleForegroundMessage(RemoteMessage message) {
-    debugPrint('🔔 Foreground message: ${message.notification?.title}');
-
-    final notification = message.notification;
-    if (notification != null) {
-      // Save notification to history
-      _saveNotification(
-        title: notification.title ?? 'MyWay',
-        body: notification.body ?? '',
-      );
+    if (message.notification != null) {
+      final title = message.notification!.title ?? 'MyWay';
+      final body = message.notification!.body ?? '';
+      
+      _saveNotification(title, body, message.data);
       
       _showLocalNotification(
-        title: notification.title ?? 'MyWay',
-        body: notification.body ?? '',
-        payload: message.data.toString(),
+        title: title,
+        body: body,
+        payload: jsonEncode(message.data),
       );
     }
   }
 
-  /// Handle when user taps on notification
   void _handleMessageOpenedApp(RemoteMessage message) {
-    debugPrint('🔔 Notification opened: ${message.data}');
-    // Save notification if coming from background
-    final notification = message.notification;
-    if (notification != null) {
-      _saveNotification(
-        title: notification.title ?? 'MyWay',
-        body: notification.body ?? '',
-      );
+    _saveNotification(
+      message.notification?.title ?? 'MyWay',
+      message.notification?.body ?? '',
+      message.data,
+    );
+    _navigateFromData(message.data);
+  }
+
+  void _navigateFromData(Map<String, dynamic> data) {
+    final route = data['route']?.toString() ?? '';
+    if (route.isEmpty) return;
+
+    final navigator = navigatorKey.currentState;
+    if (navigator == null) {
+      _pendingDeepLink = data; // Navigator hazır değilse kuyruğa at
+      return;
+    }
+
+    logEvent('deep_link_opened', parameters: {'route': route});
+
+    switch (route) {
+      case '/main':
+        final tab = int.tryParse(data['tab']?.toString() ?? '') ?? 0;
+        final routesTab = int.tryParse(data['routesTab']?.toString() ?? '') ?? 0;
+        final profileTab = int.tryParse(data['profileTab']?.toString() ?? '') ?? 0;
+        final profileAction = data['profileAction']?.toString();
+        navigator.pushNamedAndRemoveUntil(
+          '/main',
+          (route) => false,
+          arguments: {
+            'initialIndex': tab,
+            'initialRoutesTabIndex': routesTab,
+            'initialProfileTabIndex': profileTab,
+            'initialProfileAction': profileAction,
+          },
+        );
+        break;
+      case '/guide':
+        final cityId = data['cityId']?.toString().toLowerCase() ?? '';
+        navigator.pushNamed('/guide', arguments: {'cityId': cityId});
+        break;
+      case '/detail-by-id':
+        final cityId = data['cityId']?.toString().toLowerCase() ?? '';
+        final placeName = data['placeName']?.toString() ?? '';
+        navigator.pushNamed('/detail-by-id', arguments: {'cityId': cityId, 'placeName': placeName});
+        break;
+      case '/paywall':
+        if (PremiumService.instance.isPremium) {
+          navigator.pushNamedAndRemoveUntil(
+            '/main',
+            (route) => false,
+            arguments: {'initialIndex': 0},
+          );
+        } else {
+          navigator.pushNamed('/paywall');
+        }
+        break;
+      case '/city-switch':
+        navigator.pushNamed('/city-switch');
+        break;
+      case '/rate-us':
+      case '/rate':
+      case '/review':
+        StoreUrls.launchReviewPage();
+        break;
+      case '/store':
+      case '/app-store':
+      case '/update':
+        StoreUrls.launchStorePage();
+        break;
+      default:
+        navigator.pushNamed(route);
     }
   }
 
-  /// Show a local notification
-  Future<void> _showLocalNotification({
-    required String title,
-    required String body,
-    String? payload,
-  }) async {
-    const androidDetails = AndroidNotificationDetails(
-      'high_importance_channel',
-      'High Importance Notifications',
-      channelDescription: 'This channel is used for important notifications.',
-      importance: Importance.high,
-      priority: Priority.high,
-      icon: '@mipmap/ic_launcher',
-    );
-
-    const iosDetails = DarwinNotificationDetails(
-      presentAlert: true,
-      presentBadge: true,
-      presentSound: true,
-    );
-
-    const details = NotificationDetails(
-      android: androidDetails,
-      iOS: iosDetails,
-    );
-
-    await _localNotifications.show(
-      DateTime.now().millisecondsSinceEpoch.remainder(100000),
-      title,
-      body,
-      details,
-      payload: payload,
-    );
+  Future<void> _showLocalNotification({required String title, required String body, String? payload}) async {
+    const androidDetails = AndroidNotificationDetails('high_importance_channel', 'High Importance');
+    const details = NotificationDetails(android: androidDetails, iOS: DarwinNotificationDetails());
+    await _localNotifications.show(DateTime.now().millisecond, title, body, details, payload: payload);
   }
 
-  /// Show Welcome Notification
-  Future<void> showWelcomeNotification() async {
-    // Wait for a few seconds to let the user settle in
-    await Future.delayed(const Duration(seconds: 3));
-    
-    await _showLocalNotification(
-      title: "Şehir Kaşifi'ne Hoş Geldin! 👋",
-      body: "Sana özel rotanı hemen oluştur, şehri yerlisi gibi gezmeye başla! 🗺️",
-    );
+  // --- Notification History & Management ---
+  static const String _notificationsKey = 'notifications_history';
+
+  /// Subscribe to a city topic
+  Future<void> subscribeToCity(String cityId) async {
+    final topic = 'city_${cityId.toLowerCase().replaceAll(' ', '_')}';
+    try {
+      await _firebaseMessaging.subscribeToTopic(topic);
+      debugPrint('🔔 Subscribed to topic: $topic');
+    } catch (e) {
+      debugPrint('🔔 Error subscribing to topic $topic: $e');
+    }
   }
 
-  // ══════════════════════════════════════════════════════════════════════════
-  // NOTIFICATION HISTORY STORAGE
-  // ══════════════════════════════════════════════════════════════════════════
+  /// Get saved notifications from SharedPreferences
+  Future<List<Map<String, dynamic>>> getNotifications() async {
+    final prefs = await SharedPreferences.getInstance();
+    final jsonList = prefs.getStringList(_notificationsKey) ?? [];
+    return jsonList
+        .map((e) => jsonDecode(e) as Map<String, dynamic>)
+        .toList()
+        .reversed
+        .toList();
+  }
 
-  static const String _notificationsKey = 'notification_history';
-
-  /// Save a notification to local storage
-  Future<void> _saveNotification({
-    required String title,
-    required String body,
-  }) async {
+  /// Save a new notification to history
+  Future<void> _saveNotification(String title, String body, Map<String, dynamic> data) async {
     try {
       final prefs = await SharedPreferences.getInstance();
-      final notificationsJson = prefs.getString(_notificationsKey);
-      
-      List<Map<String, dynamic>> notifications = [];
-      if (notificationsJson != null) {
-        final decoded = jsonDecode(notificationsJson) as List;
-        notifications = decoded.map((e) => Map<String, dynamic>.from(e)).toList();
-      }
-      
-      // Add new notification at the beginning
-      notifications.insert(0, {
-        'id': DateTime.now().millisecondsSinceEpoch.toString(),
+      final notifications = prefs.getStringList(_notificationsKey) ?? [];
+
+      final newNotification = {
         'title': title,
         'body': body,
+        'data': data,
         'timestamp': DateTime.now().toIso8601String(),
-        'read': false,
-      });
-      
+        'isRead': false,
+      };
+
+      notifications.add(jsonEncode(newNotification));
       // Keep only last 50 notifications
       if (notifications.length > 50) {
-        notifications = notifications.sublist(0, 50);
+        notifications.removeAt(0);
       }
-      
-      await prefs.setString(_notificationsKey, jsonEncode(notifications));
-      debugPrint('🔔 Notification saved to history');
+
+      await prefs.setStringList(_notificationsKey, notifications);
+      debugPrint('🔔 Notification saved to local history');
     } catch (e) {
       debugPrint('🔔 Error saving notification: $e');
     }
   }
 
-  /// Get all saved notifications
-  Future<List<Map<String, dynamic>>> getNotifications() async {
-    try {
-      final prefs = await SharedPreferences.getInstance();
-      final notificationsJson = prefs.getString(_notificationsKey);
-      
-      if (notificationsJson == null) return [];
-      
-      final decoded = jsonDecode(notificationsJson) as List;
-      return decoded.map((e) => Map<String, dynamic>.from(e)).toList();
-    } catch (e) {
-      debugPrint('🔔 Error getting notifications: $e');
-      return [];
-    }
-  }
-
-  /// Get unread notification count
-  Future<int> getUnreadCount() async {
-    final notifications = await getNotifications();
-    return notifications.where((n) => n['read'] == false).length;
-  }
-
-  /// Mark a notification as read
-  Future<void> markAsRead(String id) async {
-    try {
-      final prefs = await SharedPreferences.getInstance();
-      final notifications = await getNotifications();
-      
-      for (var notification in notifications) {
-        if (notification['id'] == id) {
-          notification['read'] = true;
-          break;
-        }
-      }
-      
-      await prefs.setString(_notificationsKey, jsonEncode(notifications));
-    } catch (e) {
-      debugPrint('🔔 Error marking notification as read: $e');
-    }
-  }
-
   /// Mark all notifications as read
   Future<void> markAllAsRead() async {
-    try {
-      final prefs = await SharedPreferences.getInstance();
-      final notifications = await getNotifications();
-      
-      for (var notification in notifications) {
-        notification['read'] = true;
-      }
-      
-      await prefs.setString(_notificationsKey, jsonEncode(notifications));
-    } catch (e) {
-      debugPrint('🔔 Error marking all as read: $e');
+    final prefs = await SharedPreferences.getInstance();
+    final jsonList = prefs.getStringList(_notificationsKey) ?? [];
+    final notifications = jsonList.map((e) => jsonDecode(e) as Map<String, dynamic>).toList();
+
+    for (var n in notifications) {
+      n['isRead'] = true;
     }
+
+    await prefs.setStringList(_notificationsKey, notifications.map((e) => jsonEncode(e)).toList());
+    debugPrint('🔔 All notifications marked as read');
   }
 
   /// Clear all notification history
   Future<void> clearNotifications() async {
-    try {
-      final prefs = await SharedPreferences.getInstance();
-      await prefs.remove(_notificationsKey);
-      debugPrint('🔔 Notification history cleared');
-    } catch (e) {
-      debugPrint('🔔 Error clearing notifications: $e');
-    }
+    final prefs = await SharedPreferences.getInstance();
+    await prefs.remove(_notificationsKey);
+    debugPrint('🔔 Notification history cleared');
+  }
+
+  Future<void> _launchStore() async {
+    final url = Uri.parse(Platform.isIOS ? RemoteConfigService.instance.storeUrlIOS : RemoteConfigService.instance.storeUrlAndroid);
+    if (await canLaunchUrl(url)) await launchUrl(url, mode: LaunchMode.externalApplication);
   }
 }

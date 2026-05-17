@@ -1,0 +1,3278 @@
+[
+  {
+    "place_id": "ChIJ7edMkmvvxUcRBEd7M8Uhlw0",
+    "name": "Grote Markt Haarlem",
+    "city": "amsterdam",
+    "category": "Deneyim",
+    "reason": "Açıklama, mekanın Amsterdam'da değil, Haarlem şehrinde olduğunu açıkça belirtiyor ve Haarlem'deki yapıları anlatıyor."
+  },
+  {
+    "place_id": "ChIJ60ZyZdQ-wBQRFNQOHi3Zx3c",
+    "name": "Butterfly Valley (Kelebekler Vadisi)",
+    "city": "antalya",
+    "category": "Park",
+    "reason": "Kelebekler Vadisi Fethiye, Muğla'da yer almaktadır, Antalya'da değil."
+  },
+  {
+    "place_id": "ChIJ2dH2awSQwxQRwA5WEf68298",
+    "name": "Karatay Medresesi",
+    "city": "antalya",
+    "category": "Tarihi",
+    "reason": "Açıklama Konya'daki Karatay Medresesi'ni anlatıyor, Antalya'da böyle bir medrese yok."
+  },
+  {
+    "place_id": "ChIJc53BUd8xwBQRqlUKzJSY3dQ",
+    "name": "Letoon Antik Kenti",
+    "city": "antalya",
+    "category": "Tarihi",
+    "reason": "Letoon Antik Kenti Muğla'nın Fethiye ilçesindedir, Antalya'da değil."
+  },
+  {
+    "place_id": "ChIJkYny9ZJDwBQR6AXkn38_WDU",
+    "name": "Paraşüt (Ölüdeniz)",
+    "city": "antalya",
+    "category": "Deneyim",
+    "reason": "Açıklama Ölüdeniz ve Fethiye'den bahsediyor, bunlar Muğla ilindedir, Antalya'da değil."
+  },
+  {
+    "place_id": "ChIJX4240qhKwBQRnYEHFRZezXM",
+    "name": "Saklikent Kanyonu",
+    "city": "antalya",
+    "category": "Park",
+    "reason": "Açıklama Saklıkent Kanyonu'nu anlatıyor, ancak bu kanyon Muğla ilindedir, Antalya'da değil."
+  },
+  {
+    "place_id": "Ei5Ub3BoYW5lLCBUZXJzYW5lIFNrLiwgQWxhbnlhL0FudGFseWEsIFTDvHJraXllIi4qLAoUChIJ_2cbfXSY3BQRBk8lxgY5LOcSFAoSCfXgyDILmNwUEUImTvfbXYUq",
+    "name": "Tophane (Tersane)",
+    "city": "antalya",
+    "category": "Tarihi",
+    "reason": "Açıklama, Alanya Tersanesi'ni anlatıyor, Antalya şehir merkezindeki Tophane ile ilgili değil."
+  },
+  {
+    "place_id": "ChIJVfdDtadAwBQRR7vEACHNHaE",
+    "name": "Ölüdeniz Plajı",
+    "city": "antalya",
+    "category": "Plaj",
+    "reason": "Açıklama, Ölüdeniz Plajı'nı anlatıyor, bu plaj Antalya'da değil, Muğla'dadır."
+  },
+  {
+    "place_id": "ChIJve8ybRvxoRQRBDrd_gYAUT0",
+    "name": "Temple of Poseidon (Sounion)",
+    "city": "atina",
+    "category": "Tarihi",
+    "reason": "Açıklama Sounion'daki Poseidon Tapınağı'nı doğru anlatıyor, ancak tapınak Atina şehrinde değil, Sounion'da yer alıyor."
+  },
+  {
+    "place_id": "ChIJ3YvfOqQEW0cRrrOh6PAR8Jw",
+    "name": "Sremski Karlovci",
+    "city": "belgrad",
+    "category": "Tarihi",
+    "reason": "Açıklama Sremski Karlovci'yi doğru anlatıyor ancak mekan Belgrad şehrinde değil."
+  },
+  {
+    "place_id": "ChIJlW24DwJ-vhQR0nYmhIFwRfI",
+    "name": "Blue Point Didim Beach Club",
+    "city": "bodrum",
+    "category": "Plaj",
+    "reason": "Açıklama, mekanın Bodrum'da değil, Didim'de olduğunu açıkça belirtiyor."
+  },
+  {
+    "place_id": "ChIJIxqJxDzvf0cRr0Djk_XxVF4",
+    "name": "Enzo Ferrari Museum",
+    "city": "bologna",
+    "category": "Müze",
+    "reason": "Enzo Ferrari Müzesi, Bologna'da değil, Modena'da yer almaktadır. Açıklama doğru türde ama yanlış şehirden bahsediyor."
+  },
+  {
+    "place_id": "ChIJp-E9UBNOfkcRFzwWh-pgTU0",
+    "name": "Este Castle",
+    "city": "bologna",
+    "category": "Tarihi",
+    "reason": "Este Kalesi (Castello Estense) Ferrara'da bulunur, Bologna'da değil. Açıklama doğru türde ama yanlış şehirden bahsediyor."
+  },
+  {
+    "place_id": "ChIJlRg7IBlOKxMRBeAn91mYQEw",
+    "name": "Faenza Ceramics Museum",
+    "city": "bologna",
+    "category": "Müze",
+    "reason": "Faenza Seramik Müzesi, Faenza şehrinde yer almaktadır, Bologna'da değil. Açıklama doğru türde ama yanlış şehirden bahsediyor."
+  },
+  {
+    "place_id": "ChIJpcQFB77Uf0cRGz8HHZZb4vg",
+    "name": "Parma Cathedral",
+    "city": "bologna",
+    "category": "Tarihi",
+    "reason": "Açıklama Parma Katedrali'ni anlatıyor, ancak mekan Bologna'da listelenmiş."
+  },
+  {
+    "place_id": "ChIJvZv5b1X5fUcRKO4Hasj0S24",
+    "name": "Ravenna Mosaics (San Vitale)",
+    "city": "bologna",
+    "category": "Tarihi",
+    "reason": "Açıklama Ravenna'daki San Vitale Bazilikası'nı anlatıyor, ancak mekan Bologna'da listelenmiş."
+  },
+  {
+    "place_id": "ChIJV1Fyeo3ff0cRviNhGjCnjc0",
+    "name": "Vignola Castle",
+    "city": "bologna",
+    "category": "Tarihi",
+    "reason": "Vignola Kalesi Bologna'da değil, Vignola kasabasındadır. Açıklama yanlış şehir belirtiyor."
+  },
+  {
+    "place_id": "ChIJBQ-1xB-f4jARbZDwd_psZQI",
+    "name": "Warabimochi Kamakura (One Bangkok)",
+    "city": "bangkok",
+    "category": "Yeme-İçme",
+    "reason": "Açıklama, mekanın bulunduğu Bangkok yerine Japonya'daki Kamakura şehrinden bahsediyor."
+  },
+  {
+    "place_id": "ChIJc4v0Zx5xUUcRFz5WBhLbObI",
+    "name": "Lepenski Vir",
+    "city": "belgrad",
+    "category": "Müze",
+    "reason": "Lepenski Vir, Belgrad'da değil, Sırbistan'ın doğusunda yer alan bir arkeolojik sit alanıdır."
+  },
+  {
+    "place_id": "ChIJ5dRr4TLxUEcRYLQCUzUt0xk",
+    "name": "Viminacium",
+    "city": "belgrad",
+    "category": "Tarihi",
+    "reason": "Açıklama Viminacium'u doğru anlatıyor ancak mekan Belgrad şehrinde değil, yakınında yer alıyor."
+  },
+  {
+    "place_id": "ChIJUyTGd0mNf0cRqxfv29pRwWM",
+    "name": "Carpi",
+    "city": "bologna",
+    "category": "Deneyim",
+    "reason": "Açıklama Carpi şehrini ve kalesini doğru anlatıyor, ancak Carpi Bologna'da değil, Modena yakınında."
+  },
+  {
+    "place_id": "ChIJz5xNabflf0cRutbFAnupizw",
+    "name": "Casa Pavarotti",
+    "city": "bologna",
+    "category": "Müze",
+    "reason": "Açıklama, Casa Pavarotti'nin Bologna'da olduğunu belirtiyor, ancak müze aslında Modena'da bulunuyor."
+  },
+  {
+    "place_id": "ChIJgcaQ1azhf0cRRgPCZiTrJ9k",
+    "name": "Castelvetro di Modena",
+    "city": "bologna",
+    "category": "Deneyim",
+    "reason": "Açıklama Castelvetro di Modena'yı doğru anlatıyor, ancak bu kasaba Bologna'da değil, Modena yakınında."
+  },
+  {
+    "place_id": "ChIJ0yHebbB1fkcR7YujotES0dA",
+    "name": "Comacchio",
+    "city": "bologna",
+    "category": "Deneyim",
+    "reason": "Açıklama Comacchio kasabasını doğru anlatıyor ancak Comacchio Bologna'da değil, Ferrara yakınlarındadır."
+  },
+  {
+    "place_id": "ChIJCyxjTnhdgEcR5Yov0OzXDwI",
+    "name": "Labirinto della Masone",
+    "city": "bologna",
+    "category": "Park",
+    "reason": "Labirinto della Masone, Bologna'da değil, Parma yakınlarındaki Fontanellato'da yer almaktadır."
+  },
+  {
+    "place_id": "ChIJ____4inmgUcRW5pgFUmK3Xg",
+    "name": "Maranello Ferrari Museum",
+    "city": "bologna",
+    "category": "Müze",
+    "reason": "Ferrari Müzesi, Bologna'da değil, Maranello'da yer almaktadır. Açıklama müzeyi doğru anlatıyor."
+  },
+  {
+    "place_id": "ChIJrd2yD39SKxMRR8IVDrtXX2s",
+    "name": "Mirabilandia",
+    "city": "bologna",
+    "category": "Deneyim",
+    "reason": "Mirabilandia, Bologna'da değil, Ravenna yakınlarında yer alan bir eğlence parkıdır."
+  },
+  {
+    "place_id": "ChIJcT65BxHvf0cRUyOn3Lk5Ix8",
+    "name": "Modena Cathedral",
+    "city": "bologna",
+    "category": "Tarihi",
+    "reason": "Modena Katedrali, Bologna'da değil, Modena şehrinde yer almaktadır. Açıklama katedrali doğru anlatıyor."
+  },
+  {
+    "place_id": "ChIJQWuMZrCgxEcRfxpcZoqGlVI",
+    "name": "Sluis",
+    "city": "brugge",
+    "category": "Alışveriş",
+    "reason": "Açıklama Sluis kasabasını doğru anlatıyor ancak kasaba Brugge'de değil, Hollanda'da."
+  },
+  {
+    "place_id": "ChIJSYfPTM5Zw0cRnqgyWvssOKw",
+    "name": "Uilenspiegel Museum",
+    "city": "brugge",
+    "category": "Müze",
+    "reason": "Açıklama Till Uilenspiegel Müzesi'ni doğru anlatıyor ancak müze Brugge'de değil, Damme'de."
+  },
+  {
+    "place_id": "ChIJBdyid5pVw0cR_N_X90vE13g",
+    "name": "Uitkerkese Polder",
+    "city": "brugge",
+    "category": "Park",
+    "reason": "Açıklama doğa rezervini doğru anlatıyor ancak Uitkerkse Polder Brugge'de değil, Blankenberge'de."
+  },
+  {
+    "place_id": "ChIJI0CwlHiNQEcRJByNlFmyrWM",
+    "name": "Eger",
+    "city": "budapeste",
+    "category": "Deneyim",
+    "reason": "Açıklama, Budapeşte'de değil, Eger şehrinde bulunan Eger Kalesi'ni anlatıyor."
+  },
+  {
+    "place_id": "ChIJZcRwbO1hakcRKWMif5bT5O8",
+    "name": "Esztergom Basilica",
+    "city": "budapeste",
+    "category": "Tarihi",
+    "reason": "Açıklama, Budapeşte'de değil, Esztergom şehrinde bulunan Esztergom Bazilikası'nı anlatıyor."
+  },
+  {
+    "place_id": "ChIJJbN_PpiXOxMR54BkeDpk_Ps",
+    "name": "Spiaggia di Positano Marina Grande",
+    "city": "amalfi",
+    "category": "Plaj",
+    "reason": "Açıklama Positano'daki bir plajı anlatıyor, ancak mekanın şehri Amalfi olarak belirtilmiş."
+  },
+  {
+    "place_id": "ChIJeZDhvGeXOxMRtumC1QyEOpQ",
+    "name": "Fornillo Spiaggia",
+    "city": "amalfi",
+    "category": "Plaj",
+    "reason": "Açıklama Positano'daki bir plajı anlatıyor, ancak mekanın şehri Amalfi olarak belirtilmiş."
+  },
+  {
+    "place_id": "ChIJsxQklkqUOxMRMB_kxpit8NQ",
+    "name": "Chiesa Parrocchiale di Santa Maria Assunta",
+    "city": "amalfi",
+    "category": "Tarihi",
+    "reason": "Açıklama Positano'daki bir kiliseyi anlatıyor, ancak mekanın şehri Amalfi olarak belirtilmiş."
+  },
+  {
+    "place_id": "ChIJb8673Z-VOxMR3IhhgAAESjk",
+    "name": "Villa Rufolo",
+    "city": "amalfi",
+    "category": "Deneyim",
+    "reason": "Açıklama, Villa Rufolo'yu Amalfi şehrinde gösteriyor, oysa Ravello'dadır."
+  },
+  {
+    "place_id": "ChIJ_VoQxNiWOxMR8Ad9K5mS9CE",
+    "name": "One Fire Beach Club",
+    "city": "amalfi",
+    "category": "Plaj",
+    "reason": "One Fire Beach Club Praiano'da yer alır, doğrudan Amalfi şehrinde değil. Açıklama yanlış şehir belirtiyor."
+  },
+  {
+    "place_id": "ChIJd8E24K2VOxMR05GoFbhZRbU",
+    "name": "Antica Trattoria Barracca",
+    "city": "amalfi",
+    "category": "Restoran",
+    "reason": "Açıklama, restoranın Positano'da olduğunu belirtiyor, ancak mekan Amalfi şehrinde listelenmiş."
+  },
+  {
+    "place_id": "ChIJSYJG0a2VOxMRwb1MmpFF6CI",
+    "name": "Marina Grande",
+    "city": "amalfi",
+    "category": "Restoran",
+    "reason": "Açıklama, mekanın Positano'da olduğunu ve Positano deneyimini tamamladığını belirtiyor, ancak mekan Amalfi'de listelenmiş."
+  },
+  {
+    "place_id": "ChIJp-2DJAmcOxMRu3OrabnWz5s",
+    "name": "Boutique Hotel Don Alfonso 1890",
+    "city": "amalfi",
+    "category": "Restoran",
+    "reason": "Açıklama, restoranın Sant'Agata sui Due Golfi'de olduğunu belirtiyor, ancak mekan Amalfi'de listelenmiş."
+  },
+  {
+    "place_id": "ChIJTVr63miXOxMRKMOIeBJLsIQ",
+    "name": "Chez Black",
+    "city": "amalfi",
+    "category": "Restoran",
+    "reason": "Açıklama, restoranın Positano plajında olduğunu ve Positano deneyimini vurguluyor, ancak mekan Amalfi'de listelenmiş."
+  },
+  {
+    "place_id": "ChIJFUQrOm-XOxMREuopKSa5hgo",
+    "name": "Le Sirenuse",
+    "city": "amalfi",
+    "category": "Restoran",
+    "reason": "Açıklama Positano'daki Le Sirenuse'u anlatıyor, Amalfi şehrindeki değil."
+  },
+  {
+    "place_id": "ChIJ16K_JW-XOxMRW_0XBPN4hFQ",
+    "name": "Terrazza Celè",
+    "city": "amalfi",
+    "category": "Restoran",
+    "reason": "Açıklama Ravello'daki Terrazza Celè'yi anlatıyor, Amalfi şehrindeki değil."
+  },
+  {
+    "place_id": "ChIJNQMM2a2VOxMRslqa-CQpwFo",
+    "name": "PORTO SALVO da Germanino dal 1984",
+    "city": "amalfi",
+    "category": "Restoran",
+    "reason": "Açıklama Positano'daki Porto Salvo'yu anlatıyor, Amalfi şehrindeki değil."
+  },
+  {
+    "place_id": "ChIJb8673Z-VOxMRN3am3Tb5jtQ",
+    "name": "Fondazione Ravello",
+    "city": "amalfi",
+    "category": "Deneyim",
+    "reason": "Açıklama Ravello'daki Fondazione Ravello'yu anlatıyor, Amalfi şehrindeki değil."
+  },
+  {
+    "place_id": "ChIJeSaoRaiVOxMRGqt9dBavauQ",
+    "name": "Collegiata di Santa Maria Maddalena Penitente",
+    "city": "amalfi",
+    "category": "Deneyim",
+    "reason": "Açıklama Atrani'deki Collegiata'yı anlatıyor, Amalfi şehrindeki değil."
+  },
+  {
+    "place_id": "ChIJCZrbSXWVOxMR5uSsYwxwwKE",
+    "name": "Chiesa Dell'Annunziata",
+    "city": "amalfi",
+    "category": "Tarihi",
+    "reason": "Açıklama, Amalfi yerine Ravello şehrindeki bir kiliseyi anlatıyor."
+  },
+  {
+    "place_id": "ChIJrQrYMp6VOxMR_sn93ybPm94",
+    "name": "Chiesa di San Giovanni del Toro",
+    "city": "amalfi",
+    "category": "Tarihi",
+    "reason": "Açıklama, Amalfi yerine Ravello şehrindeki bir kiliseyi anlatıyor."
+  },
+  {
+    "place_id": "ChIJI05yd6iVOxMR-88cHQ6YaZQ",
+    "name": "Casa Vinicola Ettore Sammarco Ravello",
+    "city": "amalfi",
+    "category": "Restoran",
+    "reason": "Mekanın adı Ravello'yu içerirken, açıklama burayı Amalfi'de olarak belirtiyor."
+  },
+  {
+    "place_id": "ChIJyXbkRXaVOxMRvBQ4bwvEcwI",
+    "name": "Garden Ravello Hotel",
+    "city": "amalfi",
+    "category": "Restoran",
+    "reason": "Mekan adı 'Ravello' içerirken, veri 'Amalfi' şehrini belirtiyor. Otel Ravello'da bulunuyor."
+  },
+  {
+    "place_id": "ChIJz5elMiWUOxMRyf9hNlDpnpc",
+    "name": "Monastero Santa Rosa Hotel & Spa",
+    "city": "amalfi",
+    "category": "Restoran",
+    "reason": "Açıklama oteli 'Amalfi'de' olarak belirtse de, Monastero Santa Rosa aslında Conca dei Marini'de yer alıyor."
+  },
+  {
+    "place_id": "ChIJ7bIRWqWVOxMR5pJqkRyWpdI",
+    "name": "Ravello Art Hotel Marmorata",
+    "city": "amalfi",
+    "category": "Restoran",
+    "reason": "Mekan adı 'Ravello' içerirken, veri 'Amalfi' şehrini belirtiyor. Otel Ravello'da bulunuyor."
+  },
+  {
+    "place_id": "ChIJUXfz55-VOxMRJqeHad3xmNY",
+    "name": "Villa Amore",
+    "city": "amalfi",
+    "category": "Restoran",
+    "reason": "Açıklama oteli 'Amalfi'de' olarak belirtse de, Villa Amore aslında Ravello'da yer alıyor."
+  },
+  {
+    "place_id": "ChIJk3T0dq6VOxMRXNwSK-39yZk",
+    "name": "Pasticceria Caffetteria Leone",
+    "city": "amalfi",
+    "category": "Kafe",
+    "reason": "Açıklama mekanı Ravello'da konumlandırıyor, ancak mekan Amalfi'de listelenmiş."
+  },
+  {
+    "place_id": "ChIJM61FFWyVOxMRv0MwGfC9uZI",
+    "name": "DE RISO DAL 1939 Alessandro \"L'ORIGINALE\" PASTICCERIA GELATERIA BRISTOT RISTORANTE E Pizzeria",
+    "city": "amalfi",
+    "category": "Kafe",
+    "reason": "Açıklama mekanı Minori'de konumlandırıyor, ancak mekan Amalfi'de listelenmiş."
+  },
+  {
+    "place_id": "ChIJs61raCiUOxMRDrrSaLz0o9o",
+    "name": "Pasticceria Avitabile Mauro",
+    "city": "amalfi",
+    "category": "Kafe",
+    "reason": "Açıklama, mekanın Minori kasabasında olduğunu belirtiyor, ancak verilen şehir Amalfi."
+  },
+  {
+    "place_id": "ChIJ1dqn3Z-VOxMROLCaZNzZXmw",
+    "name": "Torre-Museo Antiquario",
+    "city": "amalfi",
+    "category": "Müze",
+    "reason": "Açıklama Ravello'dan bahsediyor, ancak mekanın şehri Amalfi olarak belirtilmiş."
+  },
+  {
+    "place_id": "ChIJb8673Z-VOxMRaAqE3RFyebg",
+    "name": "Museo del Corallo",
+    "city": "amalfi",
+    "category": "Müze",
+    "reason": "Açıklama Ravello'dan bahsediyor, ancak mekanın şehri Amalfi olarak belirtilmiş."
+  },
+  {
+    "place_id": "ChIJEa6d0p-VOxMRdSTX4Cr4Xc0",
+    "name": "Pascal Ceramiche d'Arte Ravello",
+    "city": "amalfi",
+    "category": "Tarihi",
+    "reason": "Mekanın adı ve açıklaması Ravello'yu işaret ediyor, ancak şehir Amalfi olarak belirtilmiş."
+  },
+  {
+    "place_id": "ChIJOZQYLWyVOxMR7Y15y46QwAQ",
+    "name": "Villa Romana e Antiquarium di Minori",
+    "city": "amalfi",
+    "category": "Tarihi",
+    "reason": "Mekanın adı ve açıklaması Minori'yi işaret ediyor, ancak şehir Amalfi olarak belirtilmiş."
+  },
+  {
+    "place_id": "ChIJEf7n3_6VOxMR9GwNWSTxdis",
+    "name": "Museo d'Arte Sacra \"Don Clemente Confalone\"",
+    "city": "amalfi",
+    "category": "Müze",
+    "reason": "Açıklama Atrani'den bahsediyor, ancak mekanın şehri Amalfi olarak belirtilmiş."
+  },
+  {
+    "place_id": "ChIJLYMocEeYOxMRRZbWupnh3dE",
+    "name": "Cappella di Santa Lucia",
+    "city": "amalfi",
+    "category": "Deneyim",
+    "reason": "Açıklama Ravello'dan bahsediyor, ancak mekanın şehri Amalfi olarak belirtilmiş."
+  },
+  {
+    "place_id": "ChIJey1Ym9mWOxMRIgu6_GmYUic",
+    "name": "Chiesa di San Luca Evangelista",
+    "city": "amalfi",
+    "category": "Tarihi",
+    "reason": "Açıklama Scala köyünden bahsediyor, ancak mekanın şehri Amalfi olarak belirtilmiş."
+  },
+  {
+    "place_id": "ChIJoSIkncCWOxMRb3hQoKcIt7A",
+    "name": "Chiesa di Santa Maria Assunta",
+    "city": "amalfi",
+    "category": "Tarihi",
+    "reason": "Açıklama Positano'dan bahsediyor, ancak mekanın şehri Amalfi olarak belirtilmiş."
+  },
+  {
+    "place_id": "ChIJM9Ab8RSXOxMRSWC_BeUIzT0",
+    "name": "Arienzo Beach Club Positano",
+    "city": "amalfi",
+    "category": "Plaj",
+    "reason": "Mekanın adı Positano'yu işaret ediyor, ancak şehir Amalfi olarak belirtilmiş."
+  },
+  {
+    "place_id": "ChIJz3Sc3miXOxMRQtgRK5ZhDbY",
+    "name": "Grassi Junior - Boat rental, ferries and mooring in Positano",
+    "city": "amalfi",
+    "category": "Deneyim",
+    "reason": "Mekan adı Positano'da olduğunu belirtirken, açıklama Amalfi şehrini referans alıyor."
+  },
+  {
+    "place_id": "ChIJB4fAAWyXOxMRyZv9lGmdbYM",
+    "name": "SeaLiving Positano",
+    "city": "amalfi",
+    "category": "Deneyim",
+    "reason": "Mekan adı Positano'da olduğunu belirtirken, açıklama Amalfi şehrini referans alıyor."
+  },
+  {
+    "place_id": "ChIJr_ciC_WXOxMRXrDFdXoeDJM",
+    "name": "Positano Dreams on Board - Boat Tours",
+    "city": "amalfi",
+    "category": "Deneyim",
+    "reason": "Açıklama turların Positano'dan kalktığını belirtiyor, ancak mekanın şehri Amalfi olarak verilmiş."
+  },
+  {
+    "place_id": "ChIJ-_H0UHKXOxMRIVJRBbKSrXQ",
+    "name": "Buco di Montepertuso",
+    "city": "amalfi",
+    "category": "Doğa",
+    "reason": "Açıklama mekanı Positano yakınlarındaki Montepertuso'da konumlandırıyor, ancak şehir Amalfi olarak belirtilmiş."
+  },
+  {
+    "place_id": "ChIJl67cbWeZOxMRGF0kXHPDYFA",
+    "name": "Belvedere Costiera Amalfitana",
+    "city": "amalfi",
+    "category": "Manzara",
+    "reason": "Açıklama mekanı Ravello yakınlarında konumlandırıyor, ancak mekanın şehri Amalfi olarak belirtilmiş."
+  },
+  {
+    "place_id": "ChIJdwM0vmiXOxMRykMqi-7pzhM",
+    "name": "Hotel Poseidon",
+    "city": "amalfi",
+    "category": "Restoran",
+    "reason": "Açıklama, otelin Positano'da olduğunu belirtiyor, ancak mekanın şehri Amalfi olarak listelenmiş."
+  },
+  {
+    "place_id": "ChIJt4chHmeXOxMRVJOSrOV246s",
+    "name": "Hotel Conca D' Oro",
+    "city": "amalfi",
+    "category": "Restoran",
+    "reason": "Açıklama, otelin Praiano'da olduğunu belirtiyor, ancak mekanın şehri Amalfi olarak listelenmiş."
+  },
+  {
+    "place_id": "ChIJ15pw4t6WOxMRMoTdR1vyGoY",
+    "name": "Hotel Pellegrino",
+    "city": "amalfi",
+    "category": "Restoran",
+    "reason": "Açıklama, otelin Ravello'da olduğunu belirtiyor, ancak mekanın şehri Amalfi olarak listelenmiş."
+  },
+  {
+    "place_id": "ChIJQSnP92aXOxMRJHRcwqqaL1A",
+    "name": "Hotel Vittoria Positano",
+    "city": "amalfi",
+    "category": "Restoran",
+    "reason": "Açıklama ve otel adı, mekanın Positano'da olduğunu belirtiyor, ancak şehir Amalfi olarak listelenmiş."
+  },
+  {
+    "place_id": "ChIJmaRkMcSWOxMRbdBpy6pl9xA",
+    "name": "Ristorante Costa Diva",
+    "city": "amalfi",
+    "category": "Restoran",
+    "reason": "Açıklama, restoranın Praiano'da olduğunu belirtiyor, ancak mekanın şehri Amalfi olarak listelenmiş."
+  },
+  {
+    "place_id": "ChIJ3TQz4tyWOxMR9A-ZqgS_wLE",
+    "name": "Hotel Margherita Praiano",
+    "city": "amalfi",
+    "category": "Restoran",
+    "reason": "Açıklama Praiano'da bir oteli anlatıyor, ancak mekan Amalfi şehrinde listelenmiş."
+  },
+  {
+    "place_id": "ChIJyWNjnsaWOxMR2e3KHbQJaw8",
+    "name": "Hotel Torre Saracena - Praiano",
+    "city": "amalfi",
+    "category": "Restoran",
+    "reason": "Açıklama Praiano'da bir oteli anlatıyor, ancak mekan Amalfi şehrinde listelenmiş."
+  },
+  {
+    "place_id": "ChIJefAlURaXOxMRs59rlVND7g8",
+    "name": "Il San Pietro di Positano",
+    "city": "amalfi",
+    "category": "Restoran",
+    "reason": "Mekan adı Positano'yu işaret ediyor, ancak şehir Amalfi olarak belirtilmiş."
+  },
+  {
+    "place_id": "ChIJiZHORG-XOxMRxuroJpH9NUg",
+    "name": "Casa e Bottega",
+    "city": "amalfi",
+    "category": "Restoran",
+    "reason": "Açıklama Positano'daki bir mekanı anlatıyor, ancak mekan Amalfi şehrinde listelenmiş."
+  },
+  {
+    "place_id": "ChIJJ69hOvWWOxMRMVhGKneCKsc",
+    "name": "Agriturismo il Pettirosso - Agerola",
+    "city": "amalfi",
+    "category": "Restoran",
+    "reason": "Mekan Agerola'da bulunuyor, ancak açıklama Amalfi şehrini değil, Agerola'yı vurguluyor."
+  },
+  {
+    "place_id": "ChIJ4_Rto2eXOxMRyiTuAiygvc0",
+    "name": "Fratelli Grassi beach club Positano",
+    "city": "amalfi",
+    "category": "Plaj",
+    "reason": "Mekan Positano'da yer alıyor, açıklama da Positano'dan bahsediyor, ancak verilen şehir Amalfi."
+  },
+  {
+    "place_id": "ChIJ2U4lkmiXOxMR_arwJMUAazI",
+    "name": "Ristorante Bar Caffè Positano",
+    "city": "amalfi",
+    "category": "Kafe",
+    "reason": "Mekan Positano'da yer alıyor, açıklama da Positano'dan bahsediyor, ancak verilen şehir Amalfi."
+  },
+  {
+    "place_id": "ChIJoWBTSsWWOxMRUSKyok7qpHc",
+    "name": "Moressa1952",
+    "city": "amalfi",
+    "category": "Restoran",
+    "reason": "Açıklama ve mekan Positano'da bulunuyor, ancak verilen şehir Amalfi."
+  },
+  {
+    "place_id": "ChIJ4RqIOm-XOxMRLFSm7JXWM80",
+    "name": "Collina Positano Bakery",
+    "city": "amalfi",
+    "category": "Kafe",
+    "reason": "Açıklama ve mekan Positano'da bulunuyor, ancak verilen şehir Amalfi."
+  },
+  {
+    "place_id": "ChIJsSSLv8SXOxMRFOkVftNlkXs",
+    "name": "Sofiposa Gelato Artigianale",
+    "city": "amalfi",
+    "category": "Kafe",
+    "reason": "Açıklama ve mekan Positano'da bulunuyor, ancak verilen şehir Amalfi."
+  },
+  {
+    "place_id": "ChIJ2_QHfACXOxMRoeJzX17gZ1Q",
+    "name": "Grotta degli dei da Gino",
+    "city": "amalfi",
+    "category": "Restoran",
+    "reason": "Mekan Tanrıların Yolu üzerinde, Agerola/Positano bölgesinde, ancak verilen şehir Amalfi."
+  },
+  {
+    "place_id": "ChIJSeAulCuXOxMRfkWta1DMwUQ",
+    "name": "Ulisse's house",
+    "city": "amalfi",
+    "category": "Restoran",
+    "reason": "Açıklama ve mekan Positano'da bulunuyor, ancak verilen şehir Amalfi."
+  },
+  {
+    "place_id": "ChIJm5orj3eXOxMRdbp-qtR0VNw",
+    "name": "MAR Positano Villa Romana",
+    "city": "amalfi",
+    "category": "Tarihi",
+    "reason": "Açıklama, Amalfi yerine Positano'daki bir Roma villasını anlatıyor."
+  },
+  {
+    "place_id": "ChIJw1WtrCSXOxMRAyokGzUaKUs",
+    "name": "Salvatore Che Fa La Ringhiera",
+    "city": "amalfi",
+    "category": "Tarihi",
+    "reason": "Açıklama, Amalfi yerine Positano'daki yerel bir zanaatkar noktasını anlatıyor."
+  },
+  {
+    "place_id": "ChIJBV6CC6_qOxMR4hTn9i4NvvM",
+    "name": "Santuario di Maria Santissima Avvocata",
+    "city": "amalfi",
+    "category": "Deneyim",
+    "reason": "Açıklama, Amalfi yerine Maiori yakınındaki bir hac yerini anlatıyor."
+  },
+  {
+    "place_id": "ChIJm-tr45-VOxMRl9nOWS50M9I",
+    "name": "Ceramiche D'Arte Carmela",
+    "city": "amalfi",
+    "category": "Alışveriş",
+    "reason": "Açıklama, Amalfi yerine Ravello'daki bir seramik atölyesini anlatıyor."
+  },
+  {
+    "place_id": "ChIJ_UZuD3aVOxMRE002aTzQ3Ms",
+    "name": "Sisina's",
+    "city": "amalfi",
+    "category": "Restoran",
+    "reason": "Açıklama, mekanın bulunduğu Amalfi yerine Positano şehrinden bahsediyor."
+  },
+  {
+    "place_id": "ChIJv0-XoZ6VOxMRpUbtiY07cqs",
+    "name": "Caffetteria Mansi Lorenzo",
+    "city": "amalfi",
+    "category": "Kafe",
+    "reason": "Açıklama, mekanın bulunduğu Amalfi yerine Atrani kasabasından bahsediyor."
+  },
+  {
+    "place_id": "ChIJH7KmZW6VOxMR_0XOVdTTKTU",
+    "name": "Bar Mansi",
+    "city": "amalfi",
+    "category": "Restoran",
+    "reason": "Açıklama, mekanın bulunduğu Amalfi yerine Atrani şehrinden bahsediyor."
+  },
+  {
+    "place_id": "ChIJ2ZdRNT904jARefHtt0HLuUk",
+    "name": "Ayutthaya Historical Park",
+    "city": "bangkok",
+    "category": "Park",
+    "reason": "Açıklama Ayutthaya'yı doğru anlatıyor ancak Ayutthaya, Bangkok'ta değil, Bangkok'un kuzeyinde yer alıyor."
+  },
+  {
+    "place_id": "ChIJb4UjvMijpBIRp3UJ5UWSw6M",
+    "name": "FOODY VIET - Vietnam Authentic Restaurant",
+    "city": "barcelona",
+    "category": "Yeme-İçme",
+    "reason": "Açıklama, mekanın Barcelona'da değil, doğrudan Vietnam'da olduğunu belirtiyor."
+  },
+  {
+    "place_id": "ChIJN0o222noRxMRiSqXGrmUHVc",
+    "name": "Metro City Bari",
+    "city": "bari",
+    "category": "Ulaşım",
+    "reason": "Açıklama, Bari'deki bir ulaşım noktasını anlatırken yanlışlıkla Valensiya şehrinden bahsediyor."
+  },
+  {
+    "place_id": "ChIJMx2coYdtUUcRwCLMcL93z6c",
+    "name": "Djerdap National Park",
+    "city": "belgrad",
+    "category": "Park",
+    "reason": "Djerdap Milli Parkı Belgrad'da değil, Sırbistan'ın doğusunda yer alıyor. Açıklama parkı doğru anlatıyor."
+  },
+  {
+    "place_id": "ChIJz8b-VfIGW0cRAlP4pKQQSco",
+    "name": "Fruska Gora Monasteries",
+    "city": "belgrad",
+    "category": "Tarihi",
+    "reason": "Açıklama doğru manastırları anlatıyor ancak Fruska Gora Manastırları Belgrad'da değil, Novi Sad yakınlarındadır."
+  },
+  {
+    "place_id": "ChIJwQsAj2wGUUcRRpxIcwjeB6M",
+    "name": "Golubac Fortress",
+    "city": "belgrad",
+    "category": "Tarihi",
+    "reason": "Açıklama doğru kaleyi anlatıyor ancak kale Belgrad şehrinde değil, yaklaşık 2 saat uzaklıkta."
+  },
+  {
+    "place_id": "ChIJg7EsgBURW0cRJ47DZ_acCms",
+    "name": "Novi Sad Day Trip",
+    "city": "belgrad",
+    "category": "Tarihi",
+    "reason": "Açıklama, Belgrad'da değil, Novi Sad'da bulunan Petrovaradin Kalesi'ni anlatıyor."
+  },
+  {
+    "place_id": "ChIJv4e2yXAQW0cRcr8wTxauR9s",
+    "name": "Petrovaradin Fortress",
+    "city": "belgrad",
+    "category": "Tarihi",
+    "reason": "Açıklama Petrovaradin Kalesi'ni doğru anlatıyor ancak kale Belgrad'da değil, Novi Sad'da yer alıyor."
+  },
+  {
+    "place_id": "ChIJM5VM3e3pf0cRa4COi8EJHBU",
+    "name": "Nonantola Abbey",
+    "city": "bologna",
+    "category": "Tarihi",
+    "reason": "Nonantola Manastırı, Bologna'da değil, Modena ilinde yer almaktadır. Açıklama mekanı doğru, şehri yanlış belirtiyor."
+  },
+  {
+    "place_id": "ChIJR7cv_hNOfkcR_j2XXcJlncE",
+    "name": "Palazzo dei Diamanti",
+    "city": "bologna",
+    "category": "Saray",
+    "reason": "Açıklama, Palazzo dei Diamanti'yi Ferrara'da olarak belirtiyor, ancak mekan Bologna şehrinde listelenmiş."
+  },
+  {
+    "place_id": "ChIJEdhrk2WqxEcRmLLA4ZQojaQ",
+    "name": "Blankenberge Pier",
+    "city": "brugge",
+    "category": "Manzara",
+    "reason": "Blankenberge İskelesi, Brugge'de değil, Blankenberge şehrinde yer almaktadır."
+  },
+  {
+    "place_id": "ChIJfbRv1jb_ikcR5sE2I9kfzYs",
+    "name": "Chartreuse Nature Reserve",
+    "city": "brugge",
+    "category": "Park",
+    "reason": "Chartreuse Doğa Rezervi, Brugge'de değil, Leuven yakınlarındadır."
+  },
+  {
+    "place_id": "ChIJs0XVrQSr3EcRz2tY_d97kpI",
+    "name": "De Haan",
+    "city": "brugge",
+    "category": "Tarihi",
+    "reason": "Açıklama, Brugge'de değil, Belçika kıyısındaki De Haan kasabasını anlatıyor."
+  },
+  {
+    "place_id": "ChIJBWJva_1Sw0cRGY58CBI6Pxs",
+    "name": "Permeke Museum",
+    "city": "brugge",
+    "category": "Müze",
+    "reason": "Müze Jabbeke'de bulunuyor, Brugge'de değil. Açıklama müzeyi doğru anlatıyor ama şehir yanlış."
+  },
+  {
+    "place_id": "ChIJ0-fOx22qxEcRsCWUJHzb6-s",
+    "name": "Sea Life Blankenberge",
+    "city": "brugge",
+    "category": "Müze",
+    "reason": "Açıklama Blankenberge'deki Sea Life'ı doğru anlatıyor, ancak mekan Brugge şehrinde değil."
+  },
+  {
+    "place_id": "ChIJ-_fvCa6AakcReKkEH_bHgnE",
+    "name": "Visegrád Citadel",
+    "city": "budapeste",
+    "category": "Tarihi",
+    "reason": "Açıklama Visegrád Kalesi'ni doğru anlatıyor ancak kale Budapeşte'de değil, Visegrád şehrindedir."
+  },
+  {
+    "place_id": "ChIJ04Udq3fUTRMRf4_nFOp6qWI",
+    "name": "Spa Resort Becici",
+    "city": "budva",
+    "category": "Restoran",
+    "reason": "Becici, Budva'nın kalbinde değil, yakın bir yerleşim yeridir; konum bilgisi yanlış."
+  },
+  {
+    "place_id": "ChIJJbeAIYzTTRMRxQ_Czxt_kms",
+    "name": "Старое Оливковое Дерево",
+    "city": "budva",
+    "category": "Tarihi",
+    "reason": "Açıklama, 2000 yıllık zeytin ağacını Bar şehrinde bulunan ünlü Stara Maslina'yı anlatıyor, Budva'da değil."
+  },
+  {
+    "place_id": "ChIJyVEFHPqPi0cRujQFYoEWeEI",
+    "name": "Annecy",
+    "city": "cenevre",
+    "category": "Deneyim",
+    "reason": "Açıklama, Annecy şehrindeki Palais de l'Isle'ı anlatıyor, ancak mekan Cenevre olarak listelenmiş."
+  },
+  {
+    "place_id": "ChIJ7_qJQZGJjkcRqt_8xE4DbFQ",
+    "name": "Château de Gruyères",
+    "city": "cenevre",
+    "category": "Tarihi",
+    "reason": "Açıklama Gruyères Şatosu'nu doğru anlatıyor ancak şato Cenevre'de değil, Gruyères kasabasında bulunuyor."
+  },
+  {
+    "place_id": "ChIJFQ36WTEujEcR-v_-_IG7-CQ",
+    "name": "Lausanne Cathedral",
+    "city": "cenevre",
+    "category": "Tarihi",
+    "reason": "Açıklama, Lozan Katedrali yerine Cenevre Katedrali'ni tarif ediyor."
+  },
+  {
+    "place_id": "ChIJZwgvdy9DjEcRR69BEhrUt28",
+    "name": "Nyon",
+    "city": "cenevre",
+    "category": "Müze",
+    "reason": "Açıklama, Cenevre'de değil, Cenevre Gölü kıyısındaki Nyon kasabasındaki bir şatoyu anlatıyor."
+  },
+  {
+    "place_id": "ChIJO1LE65EzkkcRaVLxs1MeqkM",
+    "name": "Ballon d'Alsace",
+    "city": "colmar",
+    "category": "Park",
+    "reason": "Açıklama bir dağ zirvesini doğru anlatıyor ancak Ballon d'Alsace Colmar şehrinde değil, Alsas bölgesinde farklı bir konumda."
+  },
+  {
+    "place_id": "ChIJn7kUvetEkUcRqpOSx9wm7ro",
+    "name": "Bibliothèque Humaniste",
+    "city": "colmar",
+    "category": "Müze",
+    "reason": "Açıklama doğru kütüphaneyi anlatıyor ancak kütüphane Sélestat'ta, Colmar'da değil."
+  },
+  {
+    "place_id": "ChIJN064viEClEcRyIzRfLDYUOM",
+    "name": "Cascade du Nideck",
+    "city": "colmar",
+    "category": "Manzara",
+    "reason": "Açıklama şelaleyi doğru tanımlıyor ancak Nideck Şelalesi Colmar'da değil, Vosges bölgesinde."
+  },
+  {
+    "place_id": "ChIJJ630nty7k0cR5cpPnmnUogU",
+    "name": "Cascades du Tendon",
+    "city": "colmar",
+    "category": "Park",
+    "reason": "Cascades du Tendon, Colmar'da değil, Vosges bölgesinde yer almaktadır."
+  },
+  {
+    "place_id": "ChIJa5x0Gr2LlkcRB5oYFY7ldz8",
+    "name": "Château de Fleckenstein",
+    "city": "colmar",
+    "category": "Tarihi",
+    "reason": "Kale Alsace'da olsa da, Colmar şehrinde değil, daha kuzeyde Lembach yakınlarındadır."
+  },
+  {
+    "place_id": "ChIJf4TWS_ZakUcRXj-M38PxliI",
+    "name": "Château de Ramstein",
+    "city": "colmar",
+    "category": "Tarihi",
+    "reason": "Ramstein Kalesi, Colmar'da değil, Alsace bölgesinde Scherwiller yakınlarında yer almaktadır."
+  },
+  {
+    "place_id": "ChIJyyAwyH5bkUcRlAgUVv-p_hI",
+    "name": "Château de l'Ortenbourg",
+    "city": "colmar",
+    "category": "Tarihi",
+    "reason": "Açıklama şatoyu doğru tanımlıyor ancak Colmar şehrinde değil, yakın bir bölgede bulunuyor."
+  },
+  {
+    "place_id": "ChIJzbwz8yrdk0cR4Z8yiqBuMlk",
+    "name": "Confiserie des Hautes Vosges",
+    "city": "colmar",
+    "category": "Alışveriş",
+    "reason": "Açıklama mekanı doğru tanımlıyor ancak mekan Colmar'da değil, Vosges bölgesindeki Plainfaing'de bulunuyor."
+  },
+  {
+    "place_id": "ChIJ3yorpvJkkUcRcDw5mrlfCgQ",
+    "name": "Eguisheim",
+    "city": "colmar",
+    "category": "Deneyim",
+    "reason": "Açıklama Eguisheim köyünü doğru anlatıyor, ancak Eguisheim Colmar şehrinin içinde değil, yakınında ayrı bir yerleşim yeridir."
+  },
+  {
+    "place_id": "ChIJ2V7jMoc5kUcRoK3y_wQ0txQ",
+    "name": "Europa-Park",
+    "city": "colmar",
+    "category": "Park",
+    "reason": "Açıklama doğru parkı anlatıyor ancak Europa-Park Almanya'da, Colmar'da değil."
+  },
+  {
+    "place_id": "ChIJ4dnnh3-ulkcRmbg1a9EA5rA",
+    "name": "Fort de Mutzig",
+    "city": "colmar",
+    "category": "Tarihi",
+    "reason": "Açıklama doğru kaleyi anlatıyor ancak Fort de Mutzig Colmar'da değil, Mutzig yakınlarında."
+  },
+  {
+    "place_id": "ChIJ6at_lXUelEcRqUjXLJ_AgMQ",
+    "name": "Grotte Saint-Vit",
+    "city": "colmar",
+    "category": "Park",
+    "reason": "Grotte Saint-Vit Colmar'da değil, Doubs bölgesinde yer alıyor. Açıklama yanlış şehirden bahsediyor."
+  },
+  {
+    "place_id": "ChIJ-Z_mRyzJlkcRfW9JTq-E2xc",
+    "name": "Jardin des Deux Rives",
+    "city": "colmar",
+    "category": "Park",
+    "reason": "Jardin des Deux Rives Strasbourg'da yer alır, Colmar'da değil. Açıklama yanlış şehir belirtiyor."
+  },
+  {
+    "place_id": "ChIJxfryxVDGk0cRslHHY87DjO4",
+    "name": "Lac de Gérardmer",
+    "city": "colmar",
+    "category": "Park",
+    "reason": "Açıklama gölü doğru anlatıyor ancak göl Colmar şehrinde değil, Gérardmer'de bulunuyor."
+  },
+  {
+    "place_id": "ChIJIVOC5wDOk0cRK0zv8foEBkE",
+    "name": "Lac de Kruth-Wildenstein",
+    "city": "colmar",
+    "category": "Park",
+    "reason": "Açıklama gölü doğru anlatıyor ancak Lac de Kruth-Wildenstein Colmar şehrinde değil, Kruth'ta."
+  },
+  {
+    "place_id": "ChIJZcK2zeLEk0cR5JEv1-JlUlw",
+    "name": "Lac de Longemer",
+    "city": "colmar",
+    "category": "Park",
+    "reason": "Açıklama gölü doğru anlatıyor ancak Lac de Longemer Colmar şehrinde değil, Xonrupt-Longemer'de."
+  },
+  {
+    "place_id": "ChIJRagffHDYk0cR3Fgisg64b34",
+    "name": "Maison du Fromage (Valley of Munster)",
+    "city": "colmar",
+    "category": "Müze",
+    "reason": "Açıklama, mekanı Munster Vadisi'nde konumlandırırken, verilen şehir bilgisi Colmar olarak belirtilmiştir."
+  },
+  {
+    "place_id": "ChIJ7RcBPWSbkUcRk8VEFPaJIZo",
+    "name": "Mulhouse Cité de l'Automobile",
+    "city": "colmar",
+    "category": "Müze",
+    "reason": "Açıklama, müzenin adıyla uyumlu olarak Mulhouse şehrini belirtiyor, ancak mekan Colmar olarak listelenmiş."
+  },
+  {
+    "place_id": "ChIJi3WiUDWbkUcRTgdvG2OBShg",
+    "name": "Mulhouse Cité du Train",
+    "city": "colmar",
+    "category": "Müze",
+    "reason": "Açıklama, müzenin adıyla uyumlu olarak Mulhouse şehrini belirtiyor, ancak mekan Colmar olarak listelenmiş."
+  },
+  {
+    "place_id": "ChIJdav6SAcnlEcR8WDssYs8qTQ",
+    "name": "Musée Lalique",
+    "city": "colmar",
+    "category": "Müze",
+    "reason": "Açıklama müzenin içeriğini doğru anlatıyor ancak Musée Lalique Colmar'da değil, Wingen-sur-Moder'de yer alıyor."
+  },
+  {
+    "place_id": "ChIJQfrKt5VrlEcRK0FhqUkeBCw",
+    "name": "Parc Animalier de Sainte-Croix",
+    "city": "colmar",
+    "category": "Park",
+    "reason": "Açıklama doğru parkı anlatıyor ancak Parc Animalier de Sainte-Croix Colmar'da değil, Rhodes, Moselle'de bulunuyor."
+  },
+  {
+    "place_id": "ChIJawQgY6WbkUcRZGPNZHGuDeU",
+    "name": "Parc Zoologique et Botanique de Mulhouse",
+    "city": "colmar",
+    "category": "Park",
+    "reason": "Açıklama parkın Mulhouse'ta olduğunu belirtiyor, ancak kayıt Colmar şehrini gösteriyor."
+  },
+  {
+    "place_id": "ChIJXSZf8s9dkUcRVtitoY2LWr0",
+    "name": "Ribeauvillé",
+    "city": "colmar",
+    "category": "Deneyim",
+    "reason": "Açıklama Ribeauvillé'yi doğru anlatıyor ancak Ribeauvillé Colmar'da değil, ayrı bir kasabadır."
+  },
+  {
+    "place_id": "ChIJh5tAKDBekUcRIDA5mrlfCgQ",
+    "name": "Riquewihr",
+    "city": "colmar",
+    "category": "Deneyim",
+    "reason": "Açıklama Riquewihr'i doğru anlatıyor ancak Riquewihr Colmar'da değil, ayrı bir köydür."
+  },
+  {
+    "place_id": "ChIJCV_bh00DlEcRS8QDw5CKKag",
+    "name": "Rocher de Dabo",
+    "city": "colmar",
+    "category": "Park",
+    "reason": "Rocher de Dabo, Colmar'da değil, Moselle bölgesindedir. Açıklama mekanı spesifik olarak anlatmıyor."
+  },
+  {
+    "place_id": "ChIJFQk6m6CglkcR-lxJrXP_apc",
+    "name": "Roseraie de Saverne",
+    "city": "colmar",
+    "category": "Park",
+    "reason": "Açıklama bir gül bahçesini doğru anlatıyor ancak Roseraie de Saverne Colmar'da değil, Saverne'dedir."
+  },
+  {
+    "place_id": "ChIJsx77KdDRk0cRcEtl5fEDZ10",
+    "name": "Route des Crêtes",
+    "city": "colmar",
+    "category": "Park",
+    "reason": "Route des Crêtes, Colmar'da değil, Vosges Dağları'nda uzun bir rotadır. Açıklama genel kalıyor."
+  },
+  {
+    "place_id": "ChIJYamky5bHk0cRFynVn6fMr7g",
+    "name": "Saboterie des Lacs",
+    "city": "colmar",
+    "category": "Alışveriş",
+    "reason": "Saboterie des Lacs, Colmar'da değil, La Bresse'dedir. Açıklama yanlış şehir belirtiyor."
+  },
+  {
+    "place_id": "ChIJP4nMuN7Mk0cR8qryRMfctsM",
+    "name": "Source de la Moselle",
+    "city": "colmar",
+    "category": "Park",
+    "reason": "Moselle Nehri'nin kaynağı Colmar'da değil, Vosges dağlarında, Bussang yakınlarındadır."
+  },
+  {
+    "place_id": "ChIJ_exGdNljkUcRUCw5mrlfCgQ",
+    "name": "Turckheim",
+    "city": "colmar",
+    "category": "Deneyim",
+    "reason": "Açıklama Turckheim kasabasını doğru anlatıyor, ancak Turckheim Colmar şehrinde değil, yakınında ayrı bir yerleşim yeridir."
+  },
+  {
+    "place_id": "ChIJdZnParh3kUcRiyO5UbMbgPY",
+    "name": "Ungersheim Ecomusée d'Alsace",
+    "city": "colmar",
+    "category": "Müze",
+    "reason": "Açıklama Ungersheim Ecomusée d'Alsace'ı doğru anlatıyor, ancak müze Colmar'da değil, Ungersheim'da yer alıyor."
+  },
+  {
+    "place_id": "ChIJ8WcAYyRnXj4R-T11AvsfGUI",
+    "name": "Louvre Abu Dhabi",
+    "city": "dubai",
+    "category": "Müze",
+    "reason": "Açıklama Louvre Abu Dhabi'yi doğru anlatıyor ancak mekanın şehri Dubai değil, Abu Dhabi'dir."
+  },
+  {
+    "place_id": "ChIJSf7a6HNCXj4Rx6_i78u7jyQ",
+    "name": "Sheikh Zayed Grand Mosque",
+    "city": "dubai",
+    "category": "Tarihi",
+    "reason": "Açıklama Abu Dhabi'deki Şeyh Zayed Camii'ni tarif ediyor, ancak mekanın şehri Dubai olarak belirtilmiş."
+  },
+  {
+    "place_id": "ChIJrfWr3_l6iEgRWSwGuUFI4TQ",
+    "name": "Falkirk Wheel",
+    "city": "edinburgh",
+    "category": "Müze",
+    "reason": "Açıklama doğru ancak Falkirk Tekerleği Edinburgh'da değil, Falkirk şehrinde yer almaktadır."
+  },
+  {
+    "place_id": "ChIJvaIr3Nzeh0gRiIVlna75lhw",
+    "name": "Five Sisters Zoo",
+    "city": "edinburgh",
+    "category": "Deneyim",
+    "reason": "Açıklama doğru ancak Five Sisters Hayvanat Bahçesi Edinburgh'da değil, West Calder yakınlarında yer almaktadır."
+  },
+  {
+    "place_id": "ChIJC-I3hIbXh0gRc1ZUxKmkTY8",
+    "name": "Linlithgow Palace",
+    "city": "edinburgh",
+    "category": "Tarihi",
+    "reason": "Açıklama Linlithgow Sarayı'nı doğru anlatıyor ancak saray Edinburgh şehrinde değil, Linlithgow'da bulunuyor."
+  },
+  {
+    "place_id": "ChIJ4WcfDaliiEgR3d3IGt_EAgw",
+    "name": "National Wallace Monument",
+    "city": "edinburgh",
+    "category": "Tarihi",
+    "reason": "Açıklama doğru anıtı anlatıyor ancak anıt Edinburgh'da değil, Stirling yakınlarındadır."
+  },
+  {
+    "place_id": "ChIJp9U8KJJiiEgRZ_tBFfsEUHw",
+    "name": "Stirling Castle",
+    "city": "edinburgh",
+    "category": "Tarihi",
+    "reason": "Açıklama Stirling Kalesi'ni doğru anlatıyor ancak kale Edinburgh'da değil, Stirling şehrindedir."
+  },
+  {
+    "place_id": "ChIJMZZfjeMGh0gRtsXBvx0SrPM",
+    "name": "Tantallon Castle",
+    "city": "edinburgh",
+    "category": "Tarihi",
+    "reason": "Açıklama Tantallon Kalesi'ni doğru anlatıyor ancak kale Edinburgh şehrinde değil, Doğu Lothian'da yer alıyor."
+  },
+  {
+    "place_id": "ChIJk2r1bQDHh0gR8qPq2hyJv0U",
+    "name": "The Kelpies",
+    "city": "edinburgh",
+    "category": "Deneyim",
+    "reason": "Kelpies heykelleri Falkirk'te yer almaktadır, Edinburgh'da değil, ancak açıklama heykelleri doğru anlatıyor."
+  },
+  {
+    "place_id": "ChIJrSqrOQXXoQ0R29OmUAwtFZA",
+    "name": "Ain Vittel",
+    "city": "fes",
+    "category": "Park",
+    "reason": "Açıklama Ain Vittel'i doğru anlatıyor ancak mekan Fes şehrinde değil, yakın bir bölgede bulunuyor."
+  },
+  {
+    "place_id": "ChIJe5burKsbuw0RK_lRWtXquH0",
+    "name": "Atlas Film Studios (Ouarzazate)",
+    "city": "fes",
+    "category": "Tarihi",
+    "reason": "Açıklama, Ouarzazate'deki Atlas Film Stüdyoları'nı anlatıyor, ancak mekan Fes şehrinde listelenmiş."
+  },
+  {
+    "place_id": "ChIJ0-4DEp5boA0RBOHOY8uRJHg",
+    "name": "Bab Mansour Laleuj",
+    "city": "fes",
+    "category": "Deneyim",
+    "reason": "Açıklama Meknes'teki Bab Mansour'u anlatıyor, Fes'te değil."
+  },
+  {
+    "place_id": "ChIJGYamSynqfQ8RHvN9Skph8Fk",
+    "name": "Chefchaouen Day Trip",
+    "city": "fes",
+    "category": "Tarihi",
+    "reason": "Açıklama, Fes'ten farklı bir şehir olan Chefchaouen'i anlatıyor, Fes'teki bir mekanı değil."
+  },
+  {
+    "place_id": "ChIJ_xeJfP9FoA0RRdsEbpZxxuo",
+    "name": "Heri es-Souani",
+    "city": "fes",
+    "category": "Tarihi",
+    "reason": "Açıklama doğru yapıyı anlatıyor ancak Heri es-Souani Fes'te değil, Meknes'te yer alıyor."
+  },
+  {
+    "place_id": "ChIJCxQt83LXoQ0Ro3xMQB3PU3I",
+    "name": "Ifrane",
+    "city": "fes",
+    "category": "Deneyim",
+    "reason": "Açıklama Ifrane şehrini doğru anlatıyor, ancak Ifrane Fes şehrinin içinde değil, ayrı bir şehirdir."
+  },
+  {
+    "place_id": "ChIJpXx_ua2Bnw0RFcQt0ultMMQ",
+    "name": "Imouzzer Kandar",
+    "city": "fes",
+    "category": "Park",
+    "reason": "Açıklama İmouzzer Kandar'ı doğru tanımlıyor, ancak bu yer Fes'in içinde değil, yakınında ayrı bir kasabadır."
+  },
+  {
+    "place_id": "ChIJ_d-TxGCinw0RxhxhQcd1aNg",
+    "name": "Meknes Medina",
+    "city": "fes",
+    "category": "Tarihi",
+    "reason": "Açıklama Meknes şehrini ve medinasını anlatıyor, ancak mekanın şehri Fes olarak belirtilmiş."
+  },
+  {
+    "place_id": "ChIJecuo7NVaoA0RYCaneAFhs1w",
+    "name": "Place El-Hedim",
+    "city": "fes",
+    "category": "Deneyim",
+    "reason": "Açıklama, Place El-Hedim'i doğru tanımlıyor ancak mekanın Fes yerine Meknes şehrinde olduğunu belirtiyor."
+  },
+  {
+    "place_id": "ChIJg__DfTyLnw0R8fiF7IQZ9mY",
+    "name": "Volubilis",
+    "city": "fes",
+    "category": "Tarihi",
+    "reason": "Açıklama Volubilis için doğru olsa da, mekan Fes şehrinde değil, Fes'e yakın başka bir konumdadır."
+  },
+  {
+    "place_id": "ChIJnZOBbBdLKhMRKejtxSA2oGw",
+    "name": "Piazza Matteotti Greve in Chianti",
+    "city": "floransa",
+    "category": "Meydan",
+    "reason": "Açıklama, meydanın Greve in Chianti'de olduğunu belirtiyor, ancak mekanın şehri Floransa olarak listelenmiş."
+  },
+  {
+    "place_id": "ChIJE5VD8bksKhMRWgKSMTA5q0Y",
+    "name": "Piazza del Campo Siena",
+    "city": "floransa",
+    "category": "Meydan",
+    "reason": "Açıklama, meydanın Siena'da olduğunu açıkça belirtiyor, ancak mekanın şehri Floransa olarak listelenmiş."
+  },
+  {
+    "place_id": "ChIJ9fHLOz88KhMR8c1zkVOoatE",
+    "name": "Piazza della Cisterna San Gimignano",
+    "city": "floransa",
+    "category": "Meydan",
+    "reason": "Açıklama, meydanın San Gimignano'da olduğunu açıkça belirtiyor, ancak mekanın şehri Floransa olarak listelenmiş."
+  },
+  {
+    "place_id": "ChIJI5g9CIZ_MRURac2oBnhRydM",
+    "name": "Birecik Kelaynak Üretim İstasyonu",
+    "city": "gaziantep",
+    "category": "Park",
+    "reason": "Açıklama Birecik'teki kelaynak istasyonunu doğru anlatıyor ancak Birecik Şanlıurfa'da, Gaziantep'te değil."
+  },
+  {
+    "place_id": "ChIJz3i7ryiBMRURiUWAyp3fhpE",
+    "name": "Fırat Nehri Kıyısı",
+    "city": "gaziantep",
+    "category": "Manzara",
+    "reason": "Gaziantep şehri Fırat Nehri kıyısında değildir; açıklama şehir için coğrafi olarak yanlış."
+  },
+  {
+    "place_id": "ChIJa68nSwdkyEcRKb_WZxIOkdY",
+    "name": "Buitencentrum Weerribben",
+    "city": "giethoorn",
+    "category": "Deneyim",
+    "reason": "Açıklama doğru merkezi anlatıyor ancak Buitencentrum Weerribben, Giethoorn'da değil, Ossenzijl'de bulunuyor."
+  },
+  {
+    "place_id": "ChIJVe_PqNHet0cR88dO8GY_KjE",
+    "name": "Dolmen Center Borger",
+    "city": "giethoorn",
+    "category": "Müze",
+    "reason": "Açıklama Borger'deki Dolmen Merkezi'ni anlatıyor, ancak mekanın şehri Giethoorn olarak belirtilmiş."
+  },
+  {
+    "place_id": "ChIJt-IL3o1yyEcRU9MjFUy1ino",
+    "name": "Drukkerijmuseum Meppel",
+    "city": "giethoorn",
+    "category": "Müze",
+    "reason": "Açıklama Meppel şehrindeki müzeyi anlatıyor, Giethoorn ile ilgili değil."
+  },
+  {
+    "place_id": "ChIJKZlUDOgWyEcRYXCDF581yyk",
+    "name": "Dwingelderveld National Park",
+    "city": "giethoorn",
+    "category": "Park",
+    "reason": "Park Giethoorn'da değil, Drenthe bölgesinde yer alıyor. Açıklama park için doğru ama şehir yanlış."
+  },
+  {
+    "place_id": "ChIJRwBquJ5syEcRE8jy31CSZAY",
+    "name": "Hunebed D53",
+    "city": "giethoorn",
+    "category": "Tarihi",
+    "reason": "Hunebed D53, Giethoorn'da değil, Drenthe eyaletindeki Havelte kasabasında yer almaktadır."
+  },
+  {
+    "place_id": "ChIJKXCXPkeMyEcRmu-P6F7t9HQ",
+    "name": "Ir. D.F. Woudagemaal",
+    "city": "giethoorn",
+    "category": "Tarihi",
+    "reason": "Açıklama doğru mekanı anlatıyor ancak Woudagemaal Giethoorn'da değil, Frizya'daki Lemmer şehrinde bulunuyor."
+  },
+  {
+    "place_id": "ChIJ_8o7G9VkyEcRPIZzDnzhz8o",
+    "name": "Kaatje bij de Sluis",
+    "city": "giethoorn",
+    "category": "Yeme-İçme",
+    "reason": "Açıklama doğru mekanı anlatıyor ancak Kaatje bij de Sluis Giethoorn'da değil, Blokzijl şehrinde yer alıyor."
+  },
+  {
+    "place_id": "ChIJ987wSqQjyEcRGLoSPrv3P8s",
+    "name": "Kamp Westerbork",
+    "city": "giethoorn",
+    "category": "Tarihi",
+    "reason": "Açıklama doğru mekanı anlatıyor ancak Kamp Westerbork Giethoorn'da değil, Drenthe'deki Hooghalen'da bulunuyor."
+  },
+  {
+    "place_id": "ChIJlxEiIML8t0cRXMiVOsnzpoo",
+    "name": "Kasteel Coevorden",
+    "city": "giethoorn",
+    "category": "Tarihi",
+    "reason": "Açıklama doğru mekanı anlatıyor ancak Kasteel Coevorden Giethoorn'da değil, Drenthe'deki Coevorden şehrinde yer alıyor."
+  },
+  {
+    "place_id": "ChIJATLkasY3xkcRTkKamkTIZv8",
+    "name": "Kasteel Oldenaller",
+    "city": "giethoorn",
+    "category": "Tarihi",
+    "reason": "Açıklama doğru mekanı anlatıyor ancak Kasteel Oldenaller Giethoorn'da değil, Gelderland'daki Putten şehrinde bulunuyor."
+  },
+  {
+    "place_id": "ChIJ1cExX3SMyEcRUMteq_rNKkE",
+    "name": "Lemmer",
+    "city": "giethoorn",
+    "category": "Deneyim",
+    "reason": "Açıklama Lemmer'deki Woudagemaal'ı anlatıyor, ancak mekanın şehri Giethoorn olarak belirtilmiş."
+  },
+  {
+    "place_id": "ChIJC0ofS-tyyEcRymUo8JZMbtE",
+    "name": "Meppel",
+    "city": "giethoorn",
+    "category": "Deneyim",
+    "reason": "Açıklama Meppel şehrini doğru anlatıyor, ancak mekanın şehri Giethoorn olarak belirtilmiş."
+  },
+  {
+    "place_id": "ChIJsWzGGS_fx0cRktQ6qRlnZ0c",
+    "name": "Museum De Fundatie",
+    "city": "giethoorn",
+    "category": "Müze",
+    "reason": "Museum De Fundatie, Giethoorn'da değil, Zwolle şehrinde yer almaktadır. Açıklama müzeyi doğru anlatıyor."
+  },
+  {
+    "place_id": "ChIJWaybA6eAyEcRzC3wZBx375k",
+    "name": "Schokland",
+    "city": "giethoorn",
+    "category": "Tarihi",
+    "reason": "Açıklama Schokland'ı doğru anlatıyor ancak Schokland Giethoorn'da değil, Flevoland'da yer alıyor."
+  },
+  {
+    "place_id": "ChIJW9fNGTFxyEcRVUJCkgbJBv8",
+    "name": "Museum Schoonewelle",
+    "city": "giethoorn",
+    "category": "Müze",
+    "reason": "Museum Schoonewelle, Giethoorn'da değil, Zwartsluis'te yer almaktadır. Açıklama müzenin konusunu doğru anlatıyor."
+  },
+  {
+    "place_id": "ChIJB96lbUhzyEcRcqKLYidT9oA",
+    "name": "Museum Staphorst",
+    "city": "giethoorn",
+    "category": "Müze",
+    "reason": "Museum Staphorst, Giethoorn'da değil, Staphorst şehrinde yer almaktadır. Açıklama müzenin konusunu doğru anlatıyor."
+  },
+  {
+    "place_id": "ChIJDaEo6WB8yEcRmiwZOzn-g5Y",
+    "name": "Netl de Wildste Tuin",
+    "city": "giethoorn",
+    "category": "Park",
+    "reason": "Netl de Wildste Tuin, Giethoorn'da değil, Kraggenburg'da yer alan bir doğa parkıdır."
+  },
+  {
+    "place_id": "ChIJNxsWdan8t0cRIleeBmX4gMQ",
+    "name": "Plopsa Indoor Coevorden",
+    "city": "giethoorn",
+    "category": "Deneyim",
+    "reason": "Mekanın adı Coevorden'da olduğunu açıkça belirtiyor, Giethoorn'da değil. Açıklama doğru türde ama yanlış şehir."
+  },
+  {
+    "place_id": "ChIJveyY739wyEcRsY6B3VrOerw",
+    "name": "Sint-Jansklooster",
+    "city": "giethoorn",
+    "category": "Deneyim",
+    "reason": "Sint-Jansklooster Giethoorn'da değil, yakınında ayrı bir köydür. Açıklama konumu yanlış belirtiyor."
+  },
+  {
+    "place_id": "ChIJZR0i23iDyEcRms8gCt5yfwI",
+    "name": "Urk",
+    "city": "giethoorn",
+    "category": "Deneyim",
+    "reason": "Urk ayrı bir belediyedir, Giethoorn'da bir 'deneyim' değildir. Açıklama Urk'u doğru anlatıyor ama yanlış şehirde konumlandırıyor."
+  },
+  {
+    "place_id": "ChIJf5x2gWV6yEcR__uMZqdPFpI",
+    "name": "Vollenhove",
+    "city": "giethoorn",
+    "category": "Deneyim",
+    "reason": "Vollenhove, Giethoorn'a yakın olsa da ayrı bir tarihi şehirdir, Giethoorn'da bir 'deneyim' değildir."
+  },
+  {
+    "place_id": "ChIJBQ2whKGEyEcRdiOeDVCzfbA",
+    "name": "Vuurtoren van Urk",
+    "city": "giethoorn",
+    "category": "Tarihi",
+    "reason": "Urk Feneri, Urk şehrinde bulunur, Giethoorn'da değil. Açıklama feneri doğru anlatıyor ama yanlış şehirde konumlandırıyor."
+  },
+  {
+    "place_id": "ChIJsflHvGrmt0cR8WfyMwcPqm8",
+    "name": "Wildlands Adventure Zoo Emmen",
+    "city": "giethoorn",
+    "category": "Deneyim",
+    "reason": "Açıklama doğru hayvanat bahçesini anlatıyor ancak mekan Giethoorn'da değil, Emmen şehrinde bulunuyor."
+  },
+  {
+    "place_id": "ChIJjbQvHfJvyEcRQH785N-F4O8",
+    "name": "Zuivelhoeve Steenwijk",
+    "city": "giethoorn",
+    "category": "Alışveriş",
+    "reason": "Mekanın adı 'Steenwijk' içeriyor, ancak açıklama onu Giethoorn'da olarak belirtiyor."
+  },
+  {
+    "place_id": "ChIJtazJx9J2yEcRmLlWUdVd2Ds",
+    "name": "Zwartsluis",
+    "city": "giethoorn",
+    "category": "Deneyim",
+    "reason": "Zwartsluis ayrı bir kasabadır, Giethoorn'da bulunmaz. Açıklama kasabayı doğru anlatıyor."
+  },
+  {
+    "place_id": "ChIJ9a97F4qwdkcRWH5o4e5l1Dg",
+    "name": "Abarena",
+    "city": "hallstatt",
+    "category": "Deneyim",
+    "reason": "Abarena, Hallstatt'ta değil, Abersee yakınlarında bulunan bir eğlence merkezidir."
+  },
+  {
+    "place_id": "ChIJZwp0cIhccUcRPcvpwIPEkXA",
+    "name": "Almsee",
+    "city": "hallstatt",
+    "category": "Park",
+    "reason": "Almsee Hallstatt'ta değil, Yukarı Avusturya'da farklı bir bölgede yer alıyor."
+  },
+  {
+    "place_id": "ChIJx_vdKNNHcUcRmAsccb8oMXw",
+    "name": "Bad Aussee Center",
+    "city": "hallstatt",
+    "category": "Deneyim",
+    "reason": "Açıklama Bad Aussee merkezini doğru anlatıyor ancak bu mekan Hallstatt'ta değil, ayrı bir kasabada."
+  },
+  {
+    "place_id": "ChIJAVSTIDY2cUcRYml4XrXRZEk",
+    "name": "Strandbad St. Wolfgang",
+    "city": "hallstatt",
+    "category": "Park",
+    "reason": "Mekan adı St. Wolfgang'ı işaret ederken, Hallstatt şehriyle eşleşmiyor. Açıklama genel."
+  },
+  {
+    "place_id": "ChIJJWFPfAGkdkcR0VtkqH96HkQ",
+    "name": "Basilika St. Michael Mondsee",
+    "city": "hallstatt",
+    "category": "Tarihi",
+    "reason": "Açıklama Mondsee'deki bazilikayı doğru anlatıyor ancak bu mekan Hallstatt'ta değil, Mondsee kasabasında."
+  },
+  {
+    "place_id": "ChIJJcukjH_9c0cRiouLeLCd-3s",
+    "name": "Baumwipfelpfad Salzkammergut",
+    "city": "hallstatt",
+    "category": "Deneyim",
+    "reason": "Baumwipfelpfad Salzkammergut, Hallstatt'ta değil, Gmunden yakınlarında farklı bir konumda yer alıyor."
+  },
+  {
+    "place_id": "ChIJDQTn1iZNcUcRjb8vS69UlDE",
+    "name": "Esplanade Bad Ischl",
+    "city": "hallstatt",
+    "category": "Park",
+    "reason": "Açıklama Bad Ischl'deki bir gezinti yolunu anlatıyor, Hallstatt'ta değil."
+  },
+  {
+    "place_id": "ChIJT8Rig06wdkcRB-CcxE4cb4k",
+    "name": "Dorfalm St. Wolfgang",
+    "city": "hallstatt",
+    "category": "Yeme-İçme",
+    "reason": "Mekan St. Wolfgang'da bulunuyor, Hallstatt'ta değil. Açıklama doğru türde ama yanlış şehir."
+  },
+  {
+    "place_id": "ChIJ1XtF44U3cUcRvvgZ3DhW9H8",
+    "name": "Drachenwand Klettersteig",
+    "city": "hallstatt",
+    "category": "Deneyim",
+    "reason": "Drachenwand Klettersteig, Hallstatt'ta değil, St. Gilgen/Mondsee bölgesinde yer alıyor."
+  },
+  {
+    "place_id": "ChIJ0zjZ69CudkcR-JrBrsNCZxQ",
+    "name": "Egelsee",
+    "city": "hallstatt",
+    "category": "Park",
+    "reason": "Egelsee, Hallstatt'ta değil, genellikle St. Wolfgang veya Salzburg yakınlarındaki farklı bir konumla ilişkilendirilir."
+  },
+  {
+    "place_id": "ChIJLd3FYCJNcUcRrfgDIz9ClDk",
+    "name": "EurothermenResort Bad Ischl",
+    "city": "hallstatt",
+    "category": "Deneyim",
+    "reason": "Açıklama Bad Ischl'deki bir termal tesisi anlatıyor, Hallstatt'ta değil."
+  },
+  {
+    "place_id": "ChIJn_C2iaO6dkcRMOBE-ZUA0ZU",
+    "name": "Falkensteinwand",
+    "city": "hallstatt",
+    "category": "Park",
+    "reason": "Falkensteinwand St. Wolfgang'da bulunur, Hallstatt'ta değil. Açıklama konumu yanlış belirtiyor."
+  },
+  {
+    "place_id": "ChIJ33pr_O9DcUcRQR4koj-cn54",
+    "name": "Fischerhütte Toplitzsee",
+    "city": "hallstatt",
+    "category": "Yeme-İçme",
+    "reason": "Fischerhütte Toplitzsee, Toplitzsee'de (Styria) bulunur, Hallstatt'ta değil."
+  },
+  {
+    "place_id": "ChIJV4J_vU-jdkcRGx55q2XbieA",
+    "name": "Fuschlsee Bad",
+    "city": "hallstatt",
+    "category": "Park",
+    "reason": "Fuschlsee Bad, Fuschl am See'de bulunur, Hallstatt'ta değil. Açıklama yanlış şehirle ilişkilendiriyor."
+  },
+  {
+    "place_id": "ChIJK-ysTW02cUcRq_EF-izXaeU",
+    "name": "Mozartplatz St. Gilgen",
+    "city": "hallstatt",
+    "category": "Tarihi",
+    "reason": "Açıklama St. Gilgen'deki Mozartplatz'ı anlatıyor, ancak mekanın şehri Hallstatt olarak belirtilmiş."
+  },
+  {
+    "place_id": "ChIJdaCDQBE3cUcRa0YB1cEGbvE",
+    "name": "Gmundner Keramik Manufaktur",
+    "city": "hallstatt",
+    "category": "Alışveriş",
+    "reason": "Gmundner Keramik Gmunden şehrinde, Hallstatt'ta değil."
+  },
+  {
+    "place_id": "ChIJA8zDOIVGcUcRyHE0h_dBmcM",
+    "name": "Grundlsee",
+    "city": "hallstatt",
+    "category": "Park",
+    "reason": "Grundlsee, Hallstatt'ta değil, Ausseerland bölgesinde yer alıyor."
+  },
+  {
+    "place_id": "ChIJ3Q130mdRcUcRKIa9sUxXhUI",
+    "name": "KZ-Gedenkstätte Ebensee",
+    "city": "hallstatt",
+    "category": "Tarihi",
+    "reason": "Açıklama mekanı doğru tanımlıyor ancak Ebensee, Hallstatt şehrinde değil, yakın bir kasabadadır."
+  },
+  {
+    "place_id": "ChIJtzS3q02wdkcRMy82NPutgeE",
+    "name": "Kaffeewerkstatt St. Wolfgang",
+    "city": "hallstatt",
+    "category": "Kafe",
+    "reason": "Mekan adı St. Wolfgang'da olduğunu belirtiyor, Hallstatt'ta değil. Açıklama çok genel."
+  },
+  {
+    "place_id": "ChIJYzF3mCRNcUcRFlpZf22866U",
+    "name": "Kaiservilla Bad Ischl",
+    "city": "hallstatt",
+    "category": "Tarihi",
+    "reason": "Açıklama Kaiservilla Bad Ischl'i doğru tanımlıyor ancak Bad Ischl, Hallstatt'ta değil."
+  },
+  {
+    "place_id": "ChIJNfmUdi9NcUcRe5bUiifyRDc",
+    "name": "Kalvarienberg Bad Ischl",
+    "city": "hallstatt",
+    "category": "Tarihi",
+    "reason": "Açıklama Kalvarienberg Bad Ischl'i doğru tanımlıyor ancak Bad Ischl, Hallstatt'ta değil."
+  },
+  {
+    "place_id": "ChIJk9ZMLTJGcUcRRd9EJg9fBQc",
+    "name": "Kammerhofmuseum Bad Aussee",
+    "city": "hallstatt",
+    "category": "Müze",
+    "reason": "Açıklama Kammerhofmuseum Bad Aussee'yi doğru tanımlıyor ancak Bad Aussee, Hallstatt'ta değil."
+  },
+  {
+    "place_id": "ChIJA8HfpdpMcUcRlfAPl2UgnIE",
+    "name": "Katrin Seilbahn",
+    "city": "hallstatt",
+    "category": "Deneyim",
+    "reason": "Katrin Teleferiği Bad Ischl'de bulunur, Hallstatt'ta değil. Açıklama konumu yanlış belirtiyor."
+  },
+  {
+    "place_id": "ChIJRRJbVrbKdkcRci93zIWVfgc",
+    "name": "Kirchenwirt Gosau",
+    "city": "hallstatt",
+    "category": "Yeme-İçme",
+    "reason": "Mekan adı Gosau'da olduğunu belirtiyor, Hallstatt'ta değil. Açıklama çok genel."
+  },
+  {
+    "place_id": "ChIJVT0nwglLcUcR_UUQyci-v9c",
+    "name": "Konditorei Maislinger Bad Goisern",
+    "city": "hallstatt",
+    "category": "Kafe",
+    "reason": "Mekan adı Bad Goisern'de olduğunu belirtiyor, Hallstatt'ta değil. Açıklama bölgeyi tanımlasa da şehir farklı."
+  },
+  {
+    "place_id": "ChIJlTNjqCZNcUcRVB6gLAKJZU4",
+    "name": "Kongress & TheaterHaus Bad Ischl",
+    "city": "hallstatt",
+    "category": "Deneyim",
+    "reason": "Açıklama, Hallstatt yerine Bad Ischl şehrindeki bir mekanı anlatıyor."
+  },
+  {
+    "place_id": "ChIJyXSIojNGcUcRSQS8DHNITEE",
+    "name": "Kurpark Bad Aussee",
+    "city": "hallstatt",
+    "category": "Park",
+    "reason": "Açıklama, Hallstatt yerine Bad Aussee şehrindeki bir parkı anlatıyor."
+  },
+  {
+    "place_id": "ChIJs8pphZRNcUcR-KOe379SWaw",
+    "name": "Kurpark Bad Ischl",
+    "city": "hallstatt",
+    "category": "Park",
+    "reason": "Açıklama, Hallstatt yerine Bad Ischl şehrindeki bir parkı anlatıyor."
+  },
+  {
+    "place_id": "ChIJiVebyL1UcUcRdHrG_KL9FDw",
+    "name": "Langbathseen",
+    "city": "hallstatt",
+    "category": "Park",
+    "reason": "Langbathseen Hallstatt'ta değil, Ebensee yakınında. Açıklama modern yapılarla dengeyi vurguluyor."
+  },
+  {
+    "place_id": "ChIJkYuXINZXcUcRWATVFhgMkbY",
+    "name": "Laudachsee",
+    "city": "hallstatt",
+    "category": "Park",
+    "reason": "Laudachsee Hallstatt'ta değil, Gmunden yakınında. Açıklama göl için uygun."
+  },
+  {
+    "place_id": "ChIJlUwxoSFNcUcRnvp7JDz51kg",
+    "name": "Lehár Villa",
+    "city": "hallstatt",
+    "category": "Müze",
+    "reason": "Lehár Villa Hallstatt'ta değil, Bad Ischl'de. Açıklama villayı doğru anlatıyor."
+  },
+  {
+    "place_id": "ChIJN_GjS7BIcUcROEfbJmM5j-E",
+    "name": "Literaturmuseum Altaussee",
+    "city": "hallstatt",
+    "category": "Müze",
+    "reason": "Literaturmuseum Altaussee, Hallstatt'ta değil, Altaussee'de. Açıklama müzenin içeriğini doğru."
+  },
+  {
+    "place_id": "ChIJmxg2WCFNcUcRriGIFb2DAuw",
+    "name": "Marmorschlössl",
+    "city": "hallstatt",
+    "category": "Müze",
+    "reason": "Marmorschlössl, Bad Ischl'de yer almaktadır, Hallstatt'ta değil. Açıklama yanlış şehir belirtiyor."
+  },
+  {
+    "place_id": "ChIJ62ITF4FIcUcRgh1dqy_kKdY",
+    "name": "Narzissenbad Aussee",
+    "city": "hallstatt",
+    "category": "Deneyim",
+    "reason": "Narzissenbad Aussee, Bad Aussee'de yer almaktadır, Hallstatt'ta değil. Açıklama yanlış şehir belirtiyor."
+  },
+  {
+    "place_id": "ChIJwWbZLSJNcUcRnJaUI8b0EzE",
+    "name": "Nikolauskirche Bad Ischl",
+    "city": "hallstatt",
+    "category": "Tarihi",
+    "reason": "Açıklama Bad Ischl'deki Nikolauskirche'yi anlatıyor, ancak mekanın şehri Hallstatt olarak belirtilmiş."
+  },
+  {
+    "place_id": "ChIJn91_BCOzdkcRwn5oaNkkwiM",
+    "name": "Nussensee",
+    "city": "hallstatt",
+    "category": "Park",
+    "reason": "Nussensee, Bad Ischl yakınlarındadır, Hallstatt'ta değil. Açıklama yanlış şehir belirtiyor."
+  },
+  {
+    "place_id": "ChIJi_5iIoJacUcR5P3YCoj2NTs",
+    "name": "Offensee",
+    "city": "hallstatt",
+    "category": "Park",
+    "reason": "Offensee, Hallstatt şehrinde değil, Ebensee yakınlarında farklı bir konumdadır."
+  },
+  {
+    "place_id": "ChIJGwEXUQlLcUcR9YoPu6iB7Iw",
+    "name": "Parkbad Bad Goisern",
+    "city": "hallstatt",
+    "category": "Deneyim",
+    "reason": "Parkbad Bad Goisern, Hallstatt'ta değil, Bad Goisern kasabasında yer almaktadır."
+  },
+  {
+    "place_id": "ChIJMZCchoZLcUcRKZEhp_YFTro",
+    "name": "Predigstuhl Bad Goisern",
+    "city": "hallstatt",
+    "category": "Manzara",
+    "reason": "Predigstuhl, Hallstatt'ta değil, Bad Goisern yakınlarında bulunan bir dağdır."
+  },
+  {
+    "place_id": "ChIJgzg5hAxJcUcRIEoII1iXAB0",
+    "name": "Pötschenpass",
+    "city": "hallstatt",
+    "category": "Manzara",
+    "reason": "Pötschenpass, Hallstatt şehrinde değil, Bad Aussee ve Bad Goisern arasında bir geçittir."
+  },
+  {
+    "place_id": "ChIJcW1iHeWvdkcRiyA5_bbZYWc",
+    "name": "Schafbergbahn",
+    "city": "hallstatt",
+    "category": "Deneyim",
+    "reason": "Açıklama Schafbergbahn'ı doğru anlatıyor ancak demiryolu Hallstatt'ta değil, St. Wolfgang'da bulunuyor."
+  },
+  {
+    "place_id": "ChIJYxvrdmujdkcRHpc6UFfb-kA",
+    "name": "Schloss Fuschl",
+    "city": "hallstatt",
+    "category": "Tarihi",
+    "reason": "Schloss Fuschl, Salzburg yakınlarındaki Fuschlsee'de yer alır, Hallstatt'ta değil. Açıklama doğru mekanı anlatıyor ama şehir yanlış."
+  },
+  {
+    "place_id": "ChIJNfNK-W3-c0cRP9PscMEbBQk",
+    "name": "Schloss Ort",
+    "city": "hallstatt",
+    "category": "Tarihi",
+    "reason": "Schloss Ort, Gmunden'de Traunsee Gölü üzerinde yer alır, Hallstatt'ta değil. Açıklama doğru mekanı anlatıyor ama şehir yanlış."
+  },
+  {
+    "place_id": "ChIJaWj0tPxFcUcRplfRiYUhNSs",
+    "name": "Seewiese Altaussee",
+    "city": "hallstatt",
+    "category": "Park",
+    "reason": "Açıklama, Altaussee'deki Narzissenfest ve Loser platosu ile ilgili, Hallstatt'ta değil. Mekan doğru ama şehir yanlış."
+  },
+  {
+    "place_id": "ChIJCyloCydNcUcR4hKCw8jz2Bs",
+    "name": "Sisis Park",
+    "city": "hallstatt",
+    "category": "Park",
+    "reason": "Açıklama Bad Ischl'deki Sisis Park'ı anlatıyor, Hallstatt'ta değil."
+  },
+  {
+    "place_id": "ChIJG2mBAHlWcUcR9PvI-5XuXAA",
+    "name": "Spitzvilla",
+    "city": "hallstatt",
+    "category": "Kafe",
+    "reason": "Spitzvilla Traunkirchen'de yer alıyor, Hallstatt'ta değil. Açıklama yanlış şehri belirtiyor."
+  },
+  {
+    "place_id": "ChIJUYGERyFNcUcRu-KkV7KNAqY",
+    "name": "Stadtmuseum Bad Ischl",
+    "city": "hallstatt",
+    "category": "Müze",
+    "reason": "Müze Bad Ischl'de bulunuyor, Hallstatt'ta değil. Açıklama doğru müzeyi ama yanlış şehri belirtiyor."
+  },
+  {
+    "place_id": "ChIJAQAA_Gz-c0cRGFbhrX6lcE8",
+    "name": "Toscanapark",
+    "city": "hallstatt",
+    "category": "Park",
+    "reason": "Toscanapark Gmunden'de yer almaktadır, Hallstatt'ta değil. Açıklama konumu yanlış belirtiyor."
+  },
+  {
+    "place_id": "ChIJhzK11CNNcUcRcEgCbbn8NTE",
+    "name": "Trinkhalle Bad Ischl",
+    "city": "hallstatt",
+    "category": "Tarihi",
+    "reason": "Açıklama Bad Ischl'deki Trinkhalle'yi doğru anlatıyor, ancak mekan Hallstatt'ta değil."
+  },
+  {
+    "place_id": "ChIJ0w60iSZNcUcRZMkA17ZwrxM",
+    "name": "Villa Seilern",
+    "city": "hallstatt",
+    "category": "Deneyim",
+    "reason": "Villa Seilern Bad Ischl'de yer almaktadır, Hallstatt Gölü kıyısında değil. Açıklama konumu yanlış belirtiyor."
+  },
+  {
+    "place_id": "ChIJq5jecU2wdkcRPwJTnc8jJ2M",
+    "name": "Wallfahrtskirche St. Wolfgang",
+    "city": "hallstatt",
+    "category": "Tarihi",
+    "reason": "Kilise St. Wolfgang im Salzkammergut'ta, Hallstatt'ta değil. Açıklama yanlış göl ve şehirden bahsediyor."
+  },
+  {
+    "place_id": "ChIJKSZEZ02wdkcRoBCr45I9WCU",
+    "name": "Weisses Rössl",
+    "city": "hallstatt",
+    "category": "Yeme-İçme",
+    "reason": "Ünlü Weisses Rössl St. Wolfgang im Salzkammergut'ta, Hallstatt'ta değil. Açıklama yanlış şehirden bahsediyor."
+  },
+  {
+    "place_id": "ChIJI89zS_m6dkcR1Avp2dxJawk",
+    "name": "Zwölferhorn Seilbahn",
+    "city": "hallstatt",
+    "category": "Deneyim",
+    "reason": "Zwölferhorn Seilbahn St. Gilgen'dedir, Hallstatt'ta değil. Açıklama yanlış şehir belirtiyor."
+  },
+  {
+    "place_id": "ChIJ2_bjOQbBl0cRSWZR6NU4IzY",
+    "name": "Goldener Hecht",
+    "city": "heidelberg",
+    "category": "Yeme-İçme",
+    "reason": "Açıklama, Heidelberg yerine Paris'teki Seine Nehri'nden bahsediyor."
+  },
+  {
+    "place_id": "ChIJ6QVXxroBBDQRexPdRPhQy3E",
+    "name": "Marouf & Puff Bake",
+    "city": "hongkong",
+    "category": "Kafe",
+    "reason": "Açıklama, simit ve kakuleli kahve gibi unsurlarla daha çok Türk/Orta Doğu kültürüne işaret ediyor."
+  },
+  {
+    "place_id": "ChIJ8QWaCkQBBDQRY5tcpyfLPJ4",
+    "name": "Marouf Coffee",
+    "city": "hongkong",
+    "category": "Kafe",
+    "reason": "Açıklama, \"geleneksel Türk kahvesi\" vurgusuyla Hong Kong'dan ziyade Türkiye'deki bir mekanı anlatıyor."
+  },
+  {
+    "place_id": "ChIJZ3cyTP3D9RQRM2qVGbUEklg",
+    "name": "Abu al-Abbas al-Mursi Mosque",
+    "city": "kahire",
+    "category": "Tarihi",
+    "reason": "Açıklama İskenderiye'deki Ebu'l-Abbas el-Mursi Camii'ni anlatıyor, Kahire'de değil."
+  },
+  {
+    "place_id": "ChIJXQFL_Y7D9RQRmwOz6ziv66I",
+    "name": "Alexandria National Museum",
+    "city": "kahire",
+    "category": "Müze",
+    "reason": "Müzenin adı 'İskenderiye Ulusal Müzesi' ve açıklama İskenderiye tarihinden bahsediyor, ancak şehir Kahire olarak belirtilmiş."
+  },
+  {
+    "place_id": "ChIJhf5iBYrD9RQR5yPsMsZMowA",
+    "name": "Bibliotheca Alexandrina",
+    "city": "kahire",
+    "category": "Deneyim",
+    "reason": "Bibliotheca Alexandrina İskenderiye'de bulunur, Kahire'de değil. Açıklama doğru ama şehir yanlış."
+  },
+  {
+    "place_id": "ChIJuxEpKFLD9RQRHz2y-AiDn-U",
+    "name": "Citadel of Qaitbay",
+    "city": "kahire",
+    "category": "Tarihi",
+    "reason": "Açıklama, İskenderiye'deki Qaitbay Kalesi'ni anlatıyor, ancak mekanın şehri Kahire olarak belirtilmiş."
+  },
+  {
+    "place_id": "ChIJ60__JdVLWBQRWHzxbdaedPY",
+    "name": "Imhotep Museum",
+    "city": "kahire",
+    "category": "Müze",
+    "reason": "Müze Saqqara'da yer almaktadır, Kahire'de değil. Açıklama yanlış şehir belirtiyor."
+  },
+  {
+    "place_id": "ChIJmdul3mSfWRQRLQjpJ_tgkXY",
+    "name": "Karanis",
+    "city": "kahire",
+    "category": "Tarihi",
+    "reason": "Karanis, Fayyum Vahası'nda yer alır, Kahire'de değil. Açıklama yanlış şehir belirtiyor."
+  },
+  {
+    "place_id": "ChIJl6MZKprD9RQRkXHrajGfwGw",
+    "name": "Kom el Shoqafa",
+    "city": "kahire",
+    "category": "Tarihi",
+    "reason": "Kom el Shoqafa, İskenderiye'de yer almaktadır, Kahire'de değil. Açıklama yanlış şehir belirtiyor."
+  },
+  {
+    "place_id": "ChIJ_QiBvO-jtEARXGAlQVaWT1s",
+    "name": "Magic Lake",
+    "city": "kahire",
+    "category": "Park",
+    "reason": "Magic Lake (Birket Qarun) Kahire'de değil, Fayoum'da yer alıyor."
+  },
+  {
+    "place_id": "ChIJy-wz9V7Q9RQRWJjvYkcVgq4",
+    "name": "Montaza Palace",
+    "city": "kahire",
+    "category": "Saray",
+    "reason": "Montaza Sarayı Kahire'de değil, İskenderiye'de bulunur. Açıklama denizle kucaklaşan bahçelerden bahsediyor."
+  },
+  {
+    "place_id": "ChIJE3B2llcASFMRv_KmCpu7ubk",
+    "name": "Pompey's Pillar",
+    "city": "kahire",
+    "category": "Tarihi",
+    "reason": "Açıklama, doğru anıtı anlatıyor ancak anıt Kahire'de değil, İskenderiye'de bulunuyor."
+  },
+  {
+    "place_id": "ChIJY8BtuUhBWBQRxRL06U22FAU",
+    "name": "Qasr El Nil Bridge",
+    "city": "kahire",
+    "category": "Manzara",
+    "reason": "Açıklama, köprünün bulunduğu şehir olarak Cidde'den bahsediyor, oysa köprü Kahire'dedir."
+  },
+  {
+    "place_id": "ChIJDb-GNF9ZWRQRgKCoxatckSo",
+    "name": "Qasr Qarun",
+    "city": "kahire",
+    "category": "Tarihi",
+    "reason": "Açıklama, tapınağın Fayoum'da olduğunu belirtiyor, ancak mekanın şehri Kahire olarak listelenmiş."
+  },
+  {
+    "place_id": "ChIJw8X7WevD9RQR5AbK2CfyPPU",
+    "name": "Roman Amphitheatre",
+    "city": "kahire",
+    "category": "Tarihi",
+    "reason": "Açıklama İskenderiye'deki Roma Amfitiyatrosu'nu anlatıyor, ancak mekanın şehri Kahire olarak belirtilmiş."
+  },
+  {
+    "place_id": "ChIJy_MpOynF9RQRd0iVR1mVkPc",
+    "name": "Royal Jewelry Museum",
+    "city": "kahire",
+    "category": "Müze",
+    "reason": "Açıklama İskenderiye'deki Kraliyet Mücevher Müzesi'ni anlatıyor, ancak mekanın şehri Kahire olarak belirtilmiş."
+  },
+  {
+    "place_id": "ChIJ19qDxpDF9RQRfd_R2JzNjhI",
+    "name": "Stanley Bridge",
+    "city": "kahire",
+    "category": "Manzara",
+    "reason": "Stanley Köprüsü İskenderiye'de bulunur, Kahire'de değil. Açıklama şehri yanlış belirtiyor."
+  },
+  {
+    "place_id": "ChIJQ_V-Xn8z_RIRdQJKcU6ScdY",
+    "name": "Tunis Village",
+    "city": "kahire",
+    "category": "Deneyim",
+    "reason": "Açıklama Fayoum Vahası'ndaki Tunis Köyü'nü anlatıyor, ancak mekanın şehri Kahire olarak belirtilmiş."
+  },
+  {
+    "place_id": "ChIJsfUotpgFXBQRs79aKsvW824",
+    "name": "Wadi El Hitan",
+    "city": "kahire",
+    "category": "Park",
+    "reason": "Açıklama doğru mekanı anlatıyor ancak Wadi El Hitan Kahire'de değil, Faiyum'da yer alıyor."
+  },
+  {
+    "place_id": "ChIJZRwfGj3kWxQRRWxTygZYMH8",
+    "name": "Wadi El Rayan",
+    "city": "kahire",
+    "category": "Park",
+    "reason": "Açıklama Wadi El Rayan'ı anlatıyor ancak burası Kahire'de değil, Faiyum'da bulunuyor."
+  },
+  {
+    "place_id": "ChIJ2Uc7RIw2TBMR2XgFNYSAVs0",
+    "name": "Banja Monastery",
+    "city": "kotor",
+    "category": "Tarihi",
+    "reason": "Açıklama Banja Manastırı'nı doğru anlatıyor ancak yanlışlıkla Kotor'un mirası olarak belirtiyor. Manastır Pljevlja yakınında."
+  },
+  {
+    "place_id": "ChIJS-2LNVPZTRMRiSi_HlWVOwk",
+    "name": "Besac Fortress",
+    "city": "kotor",
+    "category": "Tarihi",
+    "reason": "Besac Kalesi Kotor'da değil, Virpazar'da yer almaktadır. Açıklama yanlış şehir belirtiyor."
+  },
+  {
+    "place_id": "ChIJ_SrY2GbOTRMRrthKCuEXH10",
+    "name": "Biljarda",
+    "city": "kotor",
+    "category": "Müze",
+    "reason": "Biljarda, Kotor'da değil, Karadağ'ın eski başkenti Cetinje'de yer alan bir müzedir."
+  },
+  {
+    "place_id": "ChIJmylGPKTVTRMRJoqEsREBoDI",
+    "name": "Budva Old Town",
+    "city": "kotor",
+    "category": "Tarihi",
+    "reason": "Açıklama Budva Eski Kenti'ni doğru anlatıyor ancak mekan Kotor şehrinde değil, ayrı bir şehir olan Budva'da yer alıyor."
+  },
+  {
+    "place_id": "ChIJLZcIlWbOTRMR2U9gppds6pU",
+    "name": "Cetinje Monastery",
+    "city": "kotor",
+    "category": "Tarihi",
+    "reason": "Açıklama Cetinje Manastırı'nı doğru anlatıyor ancak manastır Kotor'da değil, Cetinje şehrinde bulunuyor."
+  },
+  {
+    "place_id": "ChIJGZbyEHA7TBMR0jMqJWl9HK0",
+    "name": "Citadela Herceg Novi",
+    "city": "kotor",
+    "category": "Tarihi",
+    "reason": "Açıklama, Herceg Novi'deki Citadela'yı anlatıyor, ancak mekanın şehri Kotor olarak belirtilmiş."
+  },
+  {
+    "place_id": "ChIJ4SRYn147TBMRYr8M93SwPos",
+    "name": "City Museum Herceg Novi",
+    "city": "kotor",
+    "category": "Müze",
+    "reason": "Açıklama, Herceg Novi'deki Şehir Müzesi'ni anlatıyor, ancak mekanın şehri Kotor olarak belirtilmiş."
+  },
+  {
+    "place_id": "ChIJ7Rc8igo7TBMRBk04jmuUdMo",
+    "name": "Clock Tower Herceg Novi",
+    "city": "kotor",
+    "category": "Tarihi",
+    "reason": "Açıklama, Herceg Novi'deki Saat Kulesi'ni anlatıyor, ancak mekanın şehri Kotor olarak belirtilmiş."
+  },
+  {
+    "place_id": "ChIJ5wvp9RwzTBMRMiXd-QlPbwk",
+    "name": "Grmozur Fortress",
+    "city": "kotor",
+    "category": "Tarihi",
+    "reason": "Grmozur Kalesi, Kotor'da değil, Karadağ'daki Skadar Gölü'nde yer almaktadır."
+  },
+  {
+    "place_id": "ChIJLWeI9efeTRMRCE_49Vq1iHc",
+    "name": "Godinje Village",
+    "city": "kotor",
+    "category": "Tarihi",
+    "reason": "Godinje Köyü, Skadar Gölü yakınlarındadır, Kotor şehrinde değil. Açıklama doğru türde ama yanlış şehir."
+  },
+  {
+    "place_id": "ChIJi44DbKZ3ThMRCXdFsgmLYQg",
+    "name": "Haj-Nehaj Fortress",
+    "city": "kotor",
+    "category": "Tarihi",
+    "reason": "Haj-Nehaj Kalesi, Kotor'da değil, Karadağ'ın Sutomore yakınlarında yer almaktadır."
+  },
+  {
+    "place_id": "ChIJfwd6IJQ8TBMRbQJ44tW_-Ic",
+    "name": "Igalo Mud Beach",
+    "city": "kotor",
+    "category": "Plaj",
+    "reason": "Açıklama Igalo Mud Plajı'nı doğru anlatıyor ancak Igalo, Kotor'da değil, Herceg Novi yakınlarındadır."
+  },
+  {
+    "place_id": "ChIJGUYcIYZzThMRoofK5WAStVU",
+    "name": "Islamic Cultural Center Bar",
+    "city": "kotor",
+    "category": "Tarihi",
+    "reason": "Açıklama Bar şehrindeki İslam Kültür Merkezi'ni anlatıyor, bu merkez Kotor'da değil, Bar şehrindedir."
+  },
+  {
+    "place_id": "ChIJh0BvdPExTBMR5lWYrS26kX8",
+    "name": "Prevlaka Island",
+    "city": "kotor",
+    "category": "Tarihi",
+    "reason": "Prevlaka Adası, Kotor'da değil, Tivat yakınlarında yer alan tarihi bir adadır."
+  },
+  {
+    "place_id": "ChIJDcXMwBHUTRMROjzwa5Qge8E",
+    "name": "Kamenovo Beach",
+    "city": "kotor",
+    "category": "Plaj",
+    "reason": "Açıklama Kamenovo Plajı'nı doğru anlatıyor ancak Kamenovo Plajı, Kotor'da değil, Budva yakınlarındadır."
+  },
+  {
+    "place_id": "ChIJMYn2GnE7TBMRljRR7q1tqig",
+    "name": "Kanli Kula Fortress",
+    "city": "kotor",
+    "category": "Tarihi",
+    "reason": "Açıklama Kanlı Kula Kalesi'ni doğru anlatıyor ancak kale Kotor'da değil, Herceg Novi şehrindedir."
+  },
+  {
+    "place_id": "ChIJO6HBZqp2ThMR_qpEJ4aLMKQ",
+    "name": "King Nikola's Palace",
+    "city": "kotor",
+    "category": "Saray",
+    "reason": "Açıklama, Kral Nikola Sarayı'nı doğru anlatıyor ancak bu saray genellikle Cetinje'de bulunur, Kotor'da değil."
+  },
+  {
+    "place_id": "ChIJPyM8L9XXTRMReKHTfvx2czk",
+    "name": "Lucice Beach",
+    "city": "kotor",
+    "category": "Plaj",
+    "reason": "Lucice Plajı, Petrovac yakınlarındadır, Kotor'da değil. Açıklama plajı doğru tanımlasa da şehir yanlış."
+  },
+  {
+    "place_id": "ChIJJ_RxrdsxTBMR1-xKVJkEDRs",
+    "name": "Nikki Beach Montenegro",
+    "city": "kotor",
+    "category": "Plaj",
+    "reason": "Açıklama, Nikki Beach'i Kotor sularında konumlandırsa da, tesis aslında Tivat'ta yer alıyor."
+  },
+  {
+    "place_id": "ChIJy4aP62xlY0cRAnAsH_tYLI4",
+    "name": "Njivice Beach",
+    "city": "kotor",
+    "category": "Plaj",
+    "reason": "Njivice Plajı Herceg Novi'de yer almaktadır, açıklama yanlış şehirden bahsediyor."
+  },
+  {
+    "place_id": "ChIJ-SHMj5pzThMR_coFbUzDavU",
+    "name": "Old Olive Tree",
+    "city": "kotor",
+    "category": "Tarihi",
+    "reason": "Ünlü Stara Maslina (Eski Zeytin Ağacı) Bar şehrindedir, Kotor'da değil."
+  },
+  {
+    "place_id": "ChIJV3Gb1xGlTRMRZU-efTlZRPs",
+    "name": "Ostrog Monastery",
+    "city": "kotor",
+    "category": "Tarihi",
+    "reason": "Ostrog Manastırı Nikšić yakınlarındadır, Kotor'da değil. Açıklama doğru ama şehir yanlış."
+  },
+  {
+    "place_id": "ChIJN4pyzCjWTRMRLLI7nKxgnzo",
+    "name": "Petrovac Beach",
+    "city": "kotor",
+    "category": "Plaj",
+    "reason": "Açıklama Petrovac Plajı'nı doğru anlatıyor ancak Petrovac, Kotor şehrinde değil, ayrı bir yerleşim yeridir."
+  },
+  {
+    "place_id": "ChIJz_xxzZ0xTBMRNODiUjkwrVQ",
+    "name": "Pine Embankment",
+    "city": "kotor",
+    "category": "Manzara",
+    "reason": "\"Pine Embankment\" genellikle Tivat'ta bulunur; açıklama ise mekanı Kotor'da palmiyeler arasında konumlandırıyor."
+  },
+  {
+    "place_id": "ChIJ0cZNpzwuTBMRbXFXNBi60qM",
+    "name": "Plavi Horizonti Beach",
+    "city": "kotor",
+    "category": "Plaj",
+    "reason": "Plavi Horizonti Plajı, Kotor'da değil, Tivat belediyesinde yer almaktadır; açıklama doğru plajı yanlış şehre atfediyor."
+  },
+  {
+    "place_id": "ChIJx5CowiIrTBMRsiSUaqyU2fI",
+    "name": "Ploce Beach",
+    "city": "kotor",
+    "category": "Plaj",
+    "reason": "Ploce Plajı, Budva yakınlarındadır, Kotor'da değil; açıklama plajı yanlış şehre atfediyor."
+  },
+  {
+    "place_id": "ChIJXdWc7QwxTBMRzkMqW7nO4tk",
+    "name": "Ponta Seljanovo",
+    "city": "kotor",
+    "category": "Park",
+    "reason": "Ponta Seljanovo, Tivat'ta yer almaktadır, Kotor'da değil; açıklama mekanı yanlış şehre atfediyor."
+  },
+  {
+    "place_id": "ChIJaeE4zXUxTBMR8SXyLkCrwkc",
+    "name": "Porto Montenegro",
+    "city": "kotor",
+    "category": "Liman",
+    "reason": "Porto Montenegro, Kotor'da değil, Tivat'ta bulunan lüks bir marinadır."
+  },
+  {
+    "place_id": "ChIJU1oR6pM6TBMRVktCucnC2tE",
+    "name": "Portonovi",
+    "city": "kotor",
+    "category": "Alışveriş",
+    "reason": "Portonovi, Kotor'da değil, Herceg Novi'de bulunan lüks bir tatil köyü ve marinadır."
+  },
+  {
+    "place_id": "ChIJgak_2j3FTRMRovGActEit5k",
+    "name": "Rijeka Crnojevica Bridge",
+    "city": "kotor",
+    "category": "Tarihi",
+    "reason": "Köprü, Rijeka Crnojevica kasabasında yer alıyor, doğrudan Kotor şehrinde değil."
+  },
+  {
+    "place_id": "ChIJiXaOPgk7TBMRt8rjxfSt8Vo",
+    "name": "Savina Monastery",
+    "city": "kotor",
+    "category": "Tarihi",
+    "reason": "Savina Manastırı Kotor'da değil, Herceg Novi yakınlarındadır. Açıklama yanlış şehir belirtiyor."
+  },
+  {
+    "place_id": "ChIJ0_XrnVTZTRMR7mBscHNcJBw",
+    "name": "Skadar Lake National Park",
+    "city": "kotor",
+    "category": "Park",
+    "reason": "Skadar Gölü Ulusal Parkı, Kotor şehrinde değil, Karadağ'ın farklı bir bölgesinde yer almaktadır."
+  },
+  {
+    "place_id": "ChIJF4TNpb02TBMRi8txYf1KAiM",
+    "name": "Smekja Palace",
+    "city": "kotor",
+    "category": "Tarihi",
+    "reason": "Açıklama, sarayın Perast'ta olduğunu belirtirken, veri girişi şehri Kotor olarak gösteriyor."
+  },
+  {
+    "place_id": "ChIJAQAAwAEyTBMRdYQHsFZFJ2s",
+    "name": "Solila Nature Reserve",
+    "city": "kotor",
+    "category": "Park",
+    "reason": "Solila Doğa Koruma Alanı, Kotor'da değil, Tivat yakınlarında yer almaktadır."
+  },
+  {
+    "place_id": "ChIJV2dz0Xk7TBMRzSoivfSpvdI",
+    "name": "Spanjola Fortress",
+    "city": "kotor",
+    "category": "Tarihi",
+    "reason": "Açıklama Spanjola Kalesi'ni Kotor'da gösteriyor, ancak kale Herceg Novi'de bulunuyor."
+  },
+  {
+    "place_id": "ChIJ45Qy2H50ThMRR138enBIgnY",
+    "name": "Stari Bar",
+    "city": "kotor",
+    "category": "Tarihi",
+    "reason": "Stari Bar, Bar şehrinde bulunur, Kotor'da değil. Açıklama yanlış şehir belirtiyor."
+  },
+  {
+    "place_id": "ChIJrzGbR448TBMRsfGqINQIYOQ",
+    "name": "Tito's Villa Galeb",
+    "city": "kotor",
+    "category": "Tarihi",
+    "reason": "Villa Galeb, Kotor'da değil, Herceg Novi'ye bağlı Igalo'da bulunmaktadır."
+  },
+  {
+    "place_id": "ChIJAYzmzD8rTBMRq5xc9hL4P5o",
+    "name": "Trsteno Beach",
+    "city": "kotor",
+    "category": "Plaj",
+    "reason": "Trsteno Plajı, Kotor'da değil, Budva yakınlarında yer almaktadır."
+  },
+  {
+    "place_id": "ChIJa6mB4gwxTBMRJfVpLyjUmsw",
+    "name": "Waikiki Beach Tivat",
+    "city": "kotor",
+    "category": "Plaj",
+    "reason": "Açıklama plajın Tivat bölgesinde olduğunu açıkça belirtirken, mekanın şehri Kotor olarak verilmiş."
+  },
+  {
+    "place_id": "ChIJo93F7L8UWxMR_kljVRSdtZ8",
+    "name": "Eval Hotel Saranda",
+    "city": "ksamil",
+    "category": "Restoran",
+    "reason": "Mekan adı Saranda'yı işaret ederken, açıklama Ksamil yakınlarını belirtiyor ve mekan Saranda'da bulunuyor."
+  },
+  {
+    "place_id": "ChIJ9fkh-OQVWxMRnlY74EN80NA",
+    "name": "The First Hotel Saranda",
+    "city": "ksamil",
+    "category": "Restoran",
+    "reason": "Mekan adı Saranda'yı işaret ediyor ve mekan Saranda'da bulunuyor, ancak şehir Ksamil olarak belirtilmiş."
+  },
+  {
+    "place_id": "ChIJZ1qc8r_aHg0RWDtny30aJ3c",
+    "name": "Pena Palace",
+    "city": "lizbon",
+    "category": "Saray",
+    "reason": "Açıklama, Pena Sarayı'nın Sintra'da olduğunu belirtiyor, ancak mekanın şehri Lizbon olarak listelenmiş."
+  },
+  {
+    "place_id": "ChIJ1YfLVmYbdkgR7JZLGNrvbS4",
+    "name": "Colonna & Small's",
+    "city": "londra",
+    "category": "Kafe",
+    "reason": "Colonna & Small's ünlü bir kahve dükkanıdır ancak Londra'da değil, Bath şehrindedir."
+  },
+  {
+    "place_id": "ChIJ6-wErDFKhEcRtX5Ve4aBuBU",
+    "name": "Bellinzona Castles",
+    "city": "lucerne",
+    "category": "Tarihi",
+    "reason": "Açıklama Bellinzona Kaleleri'ni doğru anlatıyor ancak mekanın şehri Lucerne değil, Bellinzona olmalı."
+  },
+  {
+    "place_id": "ChIJdxs61MA5jkcRmmVXBP5fVcs",
+    "name": "Bern Old Town",
+    "city": "lucerne",
+    "category": "Deneyim",
+    "reason": "Açıklama Bern Eski Şehri'ni doğru anlatıyor ancak mekanın şehri Lucerne değil, Bern olmalı."
+  },
+  {
+    "place_id": "ChIJBRqSMWqZUxQRAL4CTPEaEZw",
+    "name": "Interlaken, Switzerland",
+    "city": "lucerne",
+    "category": "Deneyim",
+    "reason": "Açıklama Interlaken'ı doğru anlatıyor, ancak Interlaken Lucerne şehrinde değil."
+  },
+  {
+    "place_id": "ChIJcygVTiPGj0cRdSnq818zIFM",
+    "name": "Kambly Experience",
+    "city": "lucerne",
+    "category": "Deneyim",
+    "reason": "Kambly Experience, Lucerne şehrinde değil, Trubschachen'de bulunmaktadır. Açıklama doğru ama şehir yanlış."
+  },
+  {
+    "place_id": "ChIJdfLSQW2Sj0cRsiyvJZPYF3s",
+    "name": "Lungern",
+    "city": "lucerne",
+    "category": "Deneyim",
+    "reason": "Açıklama Lungern'deki bir kiliseyi anlatıyor, ancak Lungern Lucerne şehrinde değil, ayrı bir belediyedir."
+  },
+  {
+    "place_id": "ChIJOwSsUKj7j0cRHwO7kfQldHw",
+    "name": "Tacuba Kaffeerösterei",
+    "city": "lucerne",
+    "category": "Kafe",
+    "reason": "Açıklama bir kafeyi anlatıyor ancak Lucerne yerine Almanya'daki Lübeck Gölü'nden bahsediyor."
+  },
+  {
+    "place_id": "ChIJswdeu00bdkgReAjdjnjxnTs",
+    "name": "Ye Olde Mitre, Holborn",
+    "city": "lucerne",
+    "category": "Bar",
+    "reason": "Mekanın adı \"Holborn\" içeriyor, bu da Londra'da olduğunu gösteriyor, Lucerne ile çelişiyor."
+  },
+  {
+    "place_id": "ChIJhfn1JAjf9EcRwwNatGC74cQ",
+    "name": "Vienne, Isère (France)",
+    "city": "lyon",
+    "category": "Deneyim",
+    "reason": "Açıklama Vienne şehrini doğru anlatıyor, ancak mekanın şehri Lyon olarak belirtilmiş, Vienne ayrı bir şehirdir."
+  },
+  {
+    "place_id": "ChIJTdm0x9AnQg0R2OeiT29EvFQ",
+    "name": "Toledo, Spain Historic City",
+    "city": "madrid",
+    "category": "Deneyim",
+    "reason": "Açıklama Toledo şehrini doğru anlatıyor, ancak mekanın şehri 'madrid' olarak belirtilmiş, Toledo Madrid'de değil."
+  },
+  {
+    "place_id": "ChIJ-TIzqeY-QQ0Rt98TvyFyVlQ",
+    "name": "Segovia, Spain",
+    "city": "madrid",
+    "category": "Tarihi",
+    "reason": "Açıklama Segovia şehrini doğru anlatıyor ancak mekanın şehri Madrid olarak belirtilmiş, bu yanlış."
+  },
+  {
+    "place_id": "ChIJgxoh_VCGow0RylAbl4tA7ac",
+    "name": "Ain Asserdoun",
+    "city": "marakes",
+    "category": "Park",
+    "reason": "Açıklama bir vahayı anlatıyor ancak Ain Asserdoun Marakeş'te değil, Beni Mellal'de bulunan bir yerdir."
+  },
+  {
+    "place_id": "ChIJWRK5BKONyRIRo4i2yL5TuVw",
+    "name": "Aix-en-Provence",
+    "city": "marsilya",
+    "category": "Deneyim",
+    "reason": "Açıklama Aix-en-Provence şehrini doğru anlatıyor ancak mekan Marsilya'da değil, ayrı bir şehir."
+  },
+  {
+    "place_id": "ChIJYYheaFvtyRIRljy2jzpxEQM",
+    "name": "Mémorial du Camp des Milles",
+    "city": "marsilya",
+    "category": "Müze",
+    "reason": "Açıklama doğru mekanı anlatıyor ancak Camp des Milles, Marsilya'da değil, Aix-en-Provence yakınlarındadır."
+  },
+  {
+    "place_id": "ChIJuzOBDJa5OBMRi2tUdB_O5Cc",
+    "name": "Aliano",
+    "city": "matera",
+    "category": "Tarihi",
+    "reason": "Açıklama Aliano kasabası için doğru ancak Aliano, Matera şehrinde değil, ayrı bir belediyedir."
+  },
+  {
+    "place_id": "ChIJzUkDI3KHRxMRxY1i_OnyWog",
+    "name": "Altamura Cathedral",
+    "city": "matera",
+    "category": "Tarihi",
+    "reason": "Açıklama Altamura Katedrali için doğru ancak Altamura, Matera şehrinde değil, Puglia bölgesinde ayrı bir şehirdir."
+  },
+  {
+    "place_id": "ChIJcZ-QNLBnRxMRY0qn5SS7bvQ",
+    "name": "Bernalda",
+    "city": "matera",
+    "category": "Tarihi",
+    "reason": "Bernalda ayrı bir kasabadır, Matera şehrinde değil. Açıklama kasabayı doğru anlatıyor ama şehir bilgisi yanlış."
+  },
+  {
+    "place_id": "ChIJn1-gbuizRxMR0mpKKK7qxHs",
+    "name": "Bottega del Gelato Gravina",
+    "city": "matera",
+    "category": "Yeme-İçme",
+    "reason": "Gravina bir kasaba adıdır; bu dondurmacı muhtemelen Gravina'da, Matera'da değil."
+  },
+  {
+    "place_id": "ChIJAQAwbkYTOBMR9QzHk9rzCGY",
+    "name": "Castel del Monte",
+    "city": "matera",
+    "category": "Tarihi",
+    "reason": "Açıklama doğru kaleyi anlatıyor ancak Castel del Monte Matera'da değil, Andria'da bulunuyor."
+  },
+  {
+    "place_id": "ChIJGxKQtN0KRxMR7Fb0oi5qeAA",
+    "name": "Castellaneta",
+    "city": "matera",
+    "category": "Tarihi",
+    "reason": "Açıklama Castellaneta kasabasını doğru anlatıyor, ancak Castellaneta Matera şehrinde değil, ayrı bir kasabadır."
+  },
+  {
+    "place_id": "ChIJPRUnI1l6OBMRHUdir6_ZoZo",
+    "name": "Castello Svevo di Gravina",
+    "city": "matera",
+    "category": "Tarihi",
+    "reason": "Açıklama Gravina Svevo Kalesi'ni doğru anlatıyor, ancak kale Matera'da değil, Gravina in Puglia'da."
+  },
+  {
+    "place_id": "ChIJi4KvfD2DOBMRZ6BDovGewrI",
+    "name": "Castello del Malconsiglio",
+    "city": "matera",
+    "category": "Tarihi",
+    "reason": "Açıklama kaleyi doğru anlatıyor ancak kale Matera'da değil, Miglionico kasabasında bulunuyor."
+  },
+  {
+    "place_id": "ChIJ65CI-GvpOBMRGbgumtRcpCs",
+    "name": "Castelmezzano",
+    "city": "matera",
+    "category": "Manzara",
+    "reason": "Açıklama Castelmezzano köyünü doğru anlatıyor, ancak köy Matera'da değil, ayrı bir belediyedir."
+  },
+  {
+    "place_id": "ChIJL_EjVAA1RhMRb1ayfpXnUCM",
+    "name": "Centro Storico Monopoli",
+    "city": "matera",
+    "category": "Tarihi",
+    "reason": "Açıklama Monopoli'nin tarihi merkezini anlatıyor, Matera'yı değil. Monopoli Adriyatik kıyısındadır."
+  },
+  {
+    "place_id": "ChIJZ43VOOxwRxMR6qDn2vTrNDc",
+    "name": "Ginosa",
+    "city": "matera",
+    "category": "Tarihi",
+    "reason": "Açıklama, Matera'da bir yer yerine, Matera yakınlarındaki Ginosa kasabasını ve özelliklerini anlatıyor."
+  },
+  {
+    "place_id": "ChIJ0xn3kIp7OBMRWTQ80HswTw8",
+    "name": "Gravina Sotterranea",
+    "city": "matera",
+    "category": "Tarihi",
+    "reason": "Açıklama, Matera'da değil, Gravina in Puglia'da bulunan bir yeraltı kompleksini tarif ediyor."
+  },
+  {
+    "place_id": "ChIJzUwBn1SvORMRj72ZSByC9SA",
+    "name": "Laghi di Monticchio",
+    "city": "matera",
+    "category": "Park",
+    "reason": "Açıklama Monticchio Gölleri'ni doğru anlatıyor ancak bu göller Matera şehrinde değil, Basilicata'nın başka bir bölgesinde."
+  },
+  {
+    "place_id": "ChIJ8x3V7iWuORMRXGa1Zps_DHg",
+    "name": "Melfi Castle",
+    "city": "matera",
+    "category": "Tarihi",
+    "reason": "Açıklama Melfi Kalesi'ni doğru anlatıyor ancak mekanın şehri Matera olarak belirtilmiş, bu yanlış."
+  },
+  {
+    "place_id": "ChIJT8mVv33pOBMR6ptMcIwFxd8",
+    "name": "Pietrapertosa",
+    "city": "matera",
+    "category": "Manzara",
+    "reason": "Pietrapertosa ayrı bir kasabadır, Matera şehrinde değildir."
+  },
+  {
+    "place_id": "ChIJz2fm92iIRxMRTVkTUpd9f-w",
+    "name": "Pulo di Altamura",
+    "city": "matera",
+    "category": "Park",
+    "reason": "Pulo di Altamura, Altamura yakınlarındadır, Matera şehrinde değildir."
+  },
+  {
+    "place_id": "ChIJM9SOyJuoOBMRX8LcEWDgCA0",
+    "name": "Tursi",
+    "city": "matera",
+    "category": "Tarihi",
+    "reason": "Tursi, Matera şehrinde değil, Matera ilinde ayrı bir belediyedir. Açıklama Tursi'yi doğru anlatıyor."
+  },
+  {
+    "place_id": "ChIJ-0wdGJNSOBMRymeDhKKxaA4",
+    "name": "Venosa",
+    "city": "matera",
+    "category": "Tarihi",
+    "reason": "Açıklama Venosa'yı doğru anlatıyor ancak Venosa, Matera değil, Potenza ilinde yer alıyor."
+  },
+  {
+    "place_id": "ChIJ5Y3LuLXHhkcR-zP7q44H3tk",
+    "name": "Goccetto",
+    "city": "milano",
+    "category": "Bar",
+    "reason": "Goccetto, Milano'da değil, Roma'da ünlü bir şarap barıdır. Açıklama yanlış şehirden bahsediyor."
+  },
+  {
+    "place_id": "ChIJ-Tu7xp_GhkcRS3ZbDatEu4Y",
+    "name": "Sayedein Bakery",
+    "city": "milano",
+    "category": "Kafe",
+    "reason": "Milano'da 'Sayedein Bakery' adında belirgin bir fırın bulunmuyor, başka şehirlerde benzer isimler var."
+  },
+  {
+    "place_id": "ChIJx6KjBiZAOxMRHGW96v-uU88",
+    "name": "Ischia",
+    "city": "napoli",
+    "category": "Deneyim",
+    "reason": ""
+  },
+  {
+    "place_id": "ChIJ5xsjrK2eOxMRWRo-TJmK8-0",
+    "name": "Piazza Tasso Sorrento",
+    "city": "napoli",
+    "category": "Meydan",
+    "reason": ""
+  },
+  {
+    "place_id": "ChIJ_5VyoV9bwokR__6-kSnld1A",
+    "name": "Pebble Beach",
+    "city": "newyork",
+    "category": "Plaj",
+    "reason": ""
+  },
+  {
+    "place_id": "ChIJQQ4QgWvVzRIR3kNXgUy6dco",
+    "name": "Antibes",
+    "city": "nice",
+    "category": "Deneyim",
+    "reason": ""
+  },
+  {
+    "place_id": "ChIJ__8MU4CBzhIRIJ6X_aUZCAQ",
+    "name": "Cannes, France",
+    "city": "nice",
+    "category": "Deneyim",
+    "reason": ""
+  },
+  {
+    "place_id": "ChIJTwLKxL7rzRIRwJqX_aUZCAQ",
+    "name": "Menton",
+    "city": "nice",
+    "category": "Deneyim",
+    "reason": ""
+  },
+  {
+    "place_id": "ChIJyw2Q5IvCzRIRpB_LJDZEhQU",
+    "name": "Monaco / Monte Carlo",
+    "city": "nice",
+    "category": "Deneyim",
+    "reason": ""
+  },
+  {
+    "place_id": "ChIJEyj_oEfbzRIRBBZSe7lKR1c",
+    "name": "Promenade Maurice Rouvier",
+    "city": "nice",
+    "category": "Deneyim",
+    "reason": ""
+  },
+  {
+    "place_id": "ChIJ7YBGaynbzRIRVaHjo7kBAGg",
+    "name": "Rue Obscure (Villefranche)",
+    "city": "nice",
+    "category": "Tarihi",
+    "reason": ""
+  },
+  {
+    "place_id": "ChIJiwkeTRVEQUYRbwzWtj1WgPk",
+    "name": "Drøbak Day Trip",
+    "city": "oslo",
+    "category": "Deneyim",
+    "reason": ""
+  },
+  {
+    "place_id": "ChIJp_X9RGJuQUYRMJGwoALA3j4",
+    "name": "Strøget",
+    "city": "oslo",
+    "category": "Bar",
+    "reason": ""
+  },
+  {
+    "place_id": "ChIJDSGMi31uQUYRacqBSNGhCDw",
+    "name": "The Glove (Hansk)",
+    "city": "oslo",
+    "category": "Tarihi",
+    "reason": ""
+  },
+  {
+    "place_id": "ChIJzaihqfLlGRMREqGvuMvbSdI",
+    "name": "Museo enologico e della Civiltà contadina",
+    "city": "palermo",
+    "category": "Müze",
+    "reason": ""
+  },
+  {
+    "place_id": "ChIJdUyx15R95kcRj85ZX8H8OAU",
+    "name": "Palace of Versailles",
+    "city": "paris",
+    "category": "Tarihi",
+    "reason": ""
+  },
+  {
+    "place_id": "ChIJe_U29f7I5kcR9t9laCm2xXc",
+    "name": "Giverny (Monet'nin Evi)",
+    "city": "paris",
+    "category": "Müze",
+    "reason": ""
+  },
+  {
+    "place_id": "ChIJ6Rt3NYR95kcRTSfE5SX4n3o",
+    "name": "Gardens of Versailles",
+    "city": "paris",
+    "category": "Park",
+    "reason": ""
+  },
+  {
+    "place_id": "ChIJdUyx15R95kcRy9P8mlnVpf8",
+    "name": "Petit Trianon",
+    "city": "paris",
+    "category": "Tarihi",
+    "reason": ""
+  },
+  {
+    "place_id": "ChIJ-ac2pb595kcRjWfiSzvnvxk",
+    "name": "Grand Trianon",
+    "city": "paris",
+    "category": "Tarihi",
+    "reason": ""
+  },
+  {
+    "place_id": "ChIJ6ZjwP5595kcRtVXyoj4DPR8",
+    "name": "Queen's Hamlet",
+    "city": "paris",
+    "category": "Tarihi",
+    "reason": ""
+  },
+  {
+    "place_id": "ChIJB0LqmL595kcR9IyspVgNHVg",
+    "name": "Hall of Mirrors",
+    "city": "paris",
+    "category": "Tarihi",
+    "reason": ""
+  },
+  {
+    "place_id": "ChIJTxtoMgBhlRQRjz_Y7d6iSd4",
+    "name": "Rhodes Greece",
+    "city": "rhodes",
+    "category": "Deneyim",
+    "reason": ""
+  },
+  {
+    "place_id": "ChIJhzeVaAthlRQRpa91Ltcr5QE",
+    "name": "PARADISO beach club",
+    "city": "rhodes",
+    "category": "Plaj",
+    "reason": ""
+  },
+  {
+    "place_id": "ChIJb2m4UwBhlRQR6QrG-cTJcUU",
+    "name": "Süleymaniye madrasah",
+    "city": "rhodes",
+    "category": "Tarihi",
+    "reason": ""
+  },
+  {
+    "place_id": "ChIJv0v3lI3-1EUR94jITR7dzoY",
+    "name": "Aavasaksa",
+    "city": "rovaniemi",
+    "category": "Park",
+    "reason": ""
+  },
+  {
+    "place_id": "ChIJy-SSuS5L1UURw-u9CGK5bhM",
+    "name": "Kemi SnowCastle",
+    "city": "rovaniemi",
+    "category": "Tarihi",
+    "reason": ""
+  },
+  {
+    "place_id": "ChIJu-oA66ZiKkQRneMLLOwADLQ",
+    "name": "Kierikki Stone Age Centre",
+    "city": "rovaniemi",
+    "category": "Müze",
+    "reason": ""
+  },
+  {
+    "place_id": "ChIJe4Fy8W2XK0QRD3e2j9DdQGo",
+    "name": "Korouoma Canyon",
+    "city": "rovaniemi",
+    "category": "Park",
+    "reason": ""
+  },
+  {
+    "place_id": "ChIJG4WAuFFN0kURb07763U-HZ4",
+    "name": "Levi Ski Resort",
+    "city": "rovaniemi",
+    "category": "Deneyim",
+    "reason": ""
+  },
+  {
+    "place_id": "ChIJNZ6BGxb3K0QRFfms3MHudx8",
+    "name": "Riisitunturi National Park",
+    "city": "rovaniemi",
+    "category": "Park",
+    "reason": ""
+  },
+  {
+    "place_id": "ChIJVVVVVWCzKkQRgqvcRD61vl4",
+    "name": "Sampo Icebreaker",
+    "city": "rovaniemi",
+    "category": "Deneyim",
+    "reason": ""
+  },
+  {
+    "place_id": "ChIJIQQbjkOlUQ0RJcpQPBUPfa8",
+    "name": "Aia",
+    "city": "san_sebastian",
+    "category": "Deneyim",
+    "reason": ""
+  },
+  {
+    "place_id": "ChIJL_0U-3rPUQ0Rs-GFY4Xo6bw",
+    "name": "Algorri Interpretation Center",
+    "city": "san_sebastian",
+    "category": "Müze",
+    "reason": ""
+  },
+  {
+    "place_id": "ChIJwUZbi_M_Wg0RQOvD0lg9zFg",
+    "name": "Bardenas Reales",
+    "city": "san_sebastian",
+    "category": "Park",
+    "reason": ""
+  },
+  {
+    "place_id": "ChIJPx7DmYtAUQ0RBu5iKTShNj0",
+    "name": "Bayonne Cathedral",
+    "city": "san_sebastian",
+    "category": "Tarihi",
+    "reason": ""
+  },
+  {
+    "place_id": "ChIJlXIKhAqlUQ0RLQZ7BZUjM-c",
+    "name": "Bermeo Port",
+    "city": "san_sebastian",
+    "category": "Liman",
+    "reason": ""
+  },
+  {
+    "place_id": "ChIJhbqRZNhqUQ0RFGmI98slPIE",
+    "name": "Biarritz Grande Plage",
+    "city": "san_sebastian",
+    "category": "Plaj",
+    "reason": ""
+  },
+  {
+    "place_id": "ChIJT1WtjGFDTg0RewoX2EWMLvs",
+    "name": "Butron Castle",
+    "city": "san_sebastian",
+    "category": "Tarihi",
+    "reason": ""
+  },
+  {
+    "place_id": "ChIJo-lIaaLIUQ0R2ZNm4PHvoGk",
+    "name": "Cristobal Balenciaga Museum",
+    "city": "san_sebastian",
+    "category": "Müze",
+    "reason": ""
+  },
+  {
+    "place_id": "ChIJDyqzMeg8Tg0Rt3vBjGuw8W8",
+    "name": "Elantxobe",
+    "city": "san_sebastian",
+    "category": "Deneyim",
+    "reason": ""
+  },
+  {
+    "place_id": "ChIJX0py_1GlUQ0RiTriXeB2vvw",
+    "name": "Elkano",
+    "city": "san_sebastian",
+    "category": "Yeme-İçme",
+    "reason": ""
+  },
+  {
+    "place_id": "ChIJ47Wg2UuvUQ0RqqViGxIoq-s",
+    "name": "Fuerte de San Marcos",
+    "city": "san_sebastian",
+    "category": "Tarihi",
+    "reason": ""
+  },
+  {
+    "place_id": "ChIJCRcmAqLIUQ0RILKbTAdNcMQ",
+    "name": "Getaria",
+    "city": "san_sebastian",
+    "category": "Deneyim",
+    "reason": ""
+  },
+  {
+    "place_id": "ChIJK9SuVlA7Tg0R8WzrXaT9Gzw",
+    "name": "Guernica Tree",
+    "city": "san_sebastian",
+    "category": "Tarihi",
+    "reason": ""
+  },
+  {
+    "place_id": "ChIJtTFg3t5PTg0RrW2vzbeTiFA",
+    "name": "Guggenheim Museum Bilbao",
+    "city": "san_sebastian",
+    "category": "Müze",
+    "reason": ""
+  },
+  {
+    "place_id": "ChIJlaW_XZ_IUQ0RhWhoONqUhwk",
+    "name": "Kaia Kaipe",
+    "city": "san_sebastian",
+    "category": "Yeme-İçme",
+    "reason": ""
+  },
+  {
+    "place_id": "ChIJ84vs3ZXHUQ0RqHfamfK8FgQ",
+    "name": "Monte San Anton (Mouse of Getaria)",
+    "city": "san_sebastian",
+    "category": "Park",
+    "reason": ""
+  },
+  {
+    "place_id": "ChIJrbLj_tauUQ0RpCer8fGceF8",
+    "name": "Mugaritz",
+    "city": "san_sebastian",
+    "category": "Yeme-İçme",
+    "reason": ""
+  },
+  {
+    "place_id": "ChIJC74r8tmlUQ0RRPUv_cGcG58",
+    "name": "Mundaka",
+    "city": "san_sebastian",
+    "category": "Deneyim",
+    "reason": ""
+  },
+  {
+    "place_id": "ChIJjRySgxZ3Wg0RFqSetARJziU",
+    "name": "Olite Royal Palace",
+    "city": "san_sebastian",
+    "category": "Tarihi",
+    "reason": ""
+  },
+  {
+    "place_id": "ChIJrzRvsCwlTg0RsIiyCGXe7q4",
+    "name": "Oma Painted Forest",
+    "city": "san_sebastian",
+    "category": "Doğa",
+    "reason": ""
+  },
+  {
+    "place_id": "ChIJfQXheTWTUA0RR1dX3zhNBBg",
+    "name": "Pamplona Old Town",
+    "city": "san_sebastian",
+    "category": "Deneyim",
+    "reason": ""
+  },
+  {
+    "place_id": "ChIJQ30Cl1T4Tw0RvbE2o9FbsM0",
+    "name": "Rioja Alavesa Wine Region",
+    "city": "san_sebastian",
+    "category": "Deneyim",
+    "reason": ""
+  },
+  {
+    "place_id": "ChIJFRuUAwevUQ0RaQz7CTLklvY",
+    "name": "Sagardoetxea Cider Museum",
+    "city": "san_sebastian",
+    "category": "Müze",
+    "reason": ""
+  },
+  {
+    "place_id": "ChIJ25IAan4RUQ0RUJITSBdlBgQ",
+    "name": "Saint-Jean-de-Luz",
+    "city": "san_sebastian",
+    "category": "Deneyim",
+    "reason": ""
+  },
+  {
+    "place_id": "ChIJgz8xX_GYTw0R5OG7xM68pYw",
+    "name": "Salinas de Añana",
+    "city": "san_sebastian",
+    "category": "Tarihi",
+    "reason": ""
+  },
+  {
+    "place_id": "ChIJHUULrwNATg0RvmXqxf2BP6A",
+    "name": "San Juan de Gaztelugatxe",
+    "city": "san_sebastian",
+    "category": "Park",
+    "reason": ""
+  },
+  {
+    "place_id": "ChIJd2DYbOqlUQ0R7hIQBJ635HE",
+    "name": "San Pedro Pasai",
+    "city": "san_sebastian",
+    "category": "Deneyim",
+    "reason": ""
+  },
+  {
+    "place_id": "ChIJux314xdawokRiwFjb3BdGgU",
+    "name": "Santimamiñe Cave",
+    "city": "san_sebastian",
+    "category": "Manzara",
+    "reason": ""
+  },
+  {
+    "place_id": "ChIJkyCxM5QoUA0R77bS5TloDSE",
+    "name": "Santuario de Arantzazu",
+    "city": "san_sebastian",
+    "category": "Tarihi",
+    "reason": ""
+  },
+  {
+    "place_id": "ChIJK6fGTbI7Tg0R1DBUYKKfxFU",
+    "name": "Urdaibai Biosphere Reserve",
+    "city": "san_sebastian",
+    "category": "Park",
+    "reason": ""
+  },
+  {
+    "place_id": "ChIJD7RRoGtrUA0Ro9S-qGzjZ30",
+    "name": "Urederra Nature Reserve",
+    "city": "san_sebastian",
+    "category": "Park",
+    "reason": ""
+  },
+  {
+    "place_id": "ChIJ0zlPrAXNTw0RArCrnLTTlT8",
+    "name": "Urkiola Natural Park",
+    "city": "san_sebastian",
+    "category": "Park",
+    "reason": ""
+  },
+  {
+    "place_id": "ChIJH_u1lujCTw0RJfmbxUBDtZY",
+    "name": "Vitoria-Gasteiz Green Ring",
+    "city": "san_sebastian",
+    "category": "Park",
+    "reason": ""
+  },
+  {
+    "place_id": "ChIJO0tgzStaTg0RYhIy7OtJKwo",
+    "name": "Vizcaya Bridge (Puente Colgante)",
+    "city": "san_sebastian",
+    "category": "Tarihi",
+    "reason": ""
+  },
+  {
+    "place_id": "ChIJv2BfF0TIUQ0RLOsSIl7uXB4",
+    "name": "Zarautz",
+    "city": "san_sebastian",
+    "category": "Plaj",
+    "reason": ""
+  },
+  {
+    "place_id": "ChIJK8sMUV3IUQ0RcXIZ5vlnb-A",
+    "name": "Zarautz Beach",
+    "city": "san_sebastian",
+    "category": "Plaj",
+    "reason": ""
+  },
+  {
+    "place_id": "ChIJHdIhUO4YUQ0RlQxSuyxq6kc",
+    "name": "Zugarramurdi Caves",
+    "city": "san_sebastian",
+    "category": "Tarihi",
+    "reason": ""
+  },
+  {
+    "place_id": "ChIJQ47jL9LNmRQRwsnkZKBkiLI",
+    "name": "MoMix Bar",
+    "city": "santorini",
+    "category": "Bar",
+    "reason": ""
+  },
+  {
+    "place_id": "ChIJOxEM2dPNmRQR27LCspMg5UU",
+    "name": "Naoussa Restaurant",
+    "city": "santorini",
+    "category": "Yeme-İçme",
+    "reason": ""
+  },
+  {
+    "place_id": "ChIJS2QzVOnXXkcR50zbTQEd5ac",
+    "name": "Bobovac Kalesi",
+    "city": "saraybosna",
+    "category": "Deneyim",
+    "reason": ""
+  },
+  {
+    "place_id": "ChIJH_6FjfwnX0cRLHb5AV3V4bQ",
+    "name": "Kraljeva Sutjeska",
+    "city": "saraybosna",
+    "category": "Deneyim",
+    "reason": ""
+  },
+  {
+    "place_id": "ChIJ043yejqsWEcRiMPKJRO31nQ",
+    "name": "Lukomir Köyü",
+    "city": "saraybosna",
+    "category": "Deneyim",
+    "reason": ""
+  },
+  {
+    "place_id": "ChIJu2PLwAE5qBQRKaAjmQsU5qo",
+    "name": "Giok Balik",
+    "city": "selanik",
+    "category": "Restoran",
+    "reason": ""
+  },
+  {
+    "place_id": "ChIJc9c0zgNUezURmIAjGbaKoR8",
+    "name": "Everland",
+    "city": "seul",
+    "category": "Deneyim",
+    "reason": ""
+  },
+  {
+    "place_id": "ChIJ-dJMvPqjfDUR5zV7dcKsEIY",
+    "name": "Grand Ole Opry",
+    "city": "seul",
+    "category": "Bar",
+    "reason": ""
+  },
+  {
+    "place_id": "ChIJVxUj0TLyfDURzO9cfK8_i0o",
+    "name": "Imjingak Resort (DMZ)",
+    "city": "seul",
+    "category": "Deneyim",
+    "reason": ""
+  },
+  {
+    "place_id": "ChIJu5Gg2hWkfDURl7NN7FpFnis",
+    "name": "Starfield Library",
+    "city": "seul",
+    "category": "Müze",
+    "reason": ""
+  },
+  {
+    "place_id": "ChIJu3uzO32LEg0RUcduIGhljjo",
+    "name": "Carmona",
+    "city": "sevilla",
+    "category": "Tarihi",
+    "reason": ""
+  },
+  {
+    "place_id": "ChIJ16Rpu9jTDQ0RhqzQ10qISpM",
+    "name": "Cádiz Cathedral",
+    "city": "sevilla",
+    "category": "Tarihi",
+    "reason": ""
+  },
+  {
+    "place_id": "ChIJzxYazoIgbQ0RNvYb-FPD6-8",
+    "name": "Córdoba (Mezquita)",
+    "city": "sevilla",
+    "category": "Tarihi",
+    "reason": ""
+  },
+  {
+    "place_id": "ChIJMyELzz4xDQ0RTbZ7mBFXq2Y",
+    "name": "Puente Nuevo Ronda",
+    "city": "sevilla",
+    "category": "Deneyim",
+    "reason": ""
+  },
+  {
+    "place_id": "ChIJLZ9DYnIZ2jERQ51Am7WzJLM",
+    "name": "Burnt Ends",
+    "city": "singapur",
+    "category": "Yeme-İçme",
+    "reason": ""
+  },
+  {
+    "place_id": "ChIJAaA8cPQZ2jERoR5rELvZYY0",
+    "name": "Origin Bar",
+    "city": "singapur",
+    "category": "Bar",
+    "reason": ""
+  },
+  {
+    "place_id": "ChIJQaGBiCDEHg0RO2cxBXOEkRo",
+    "name": "Boca do Inferno",
+    "city": "sintra",
+    "category": "Park",
+    "reason": ""
+  },
+  {
+    "place_id": "ChIJ2QU5JLnDHg0Rn-XI0qLTRLI",
+    "name": "Cabo Raso",
+    "city": "sintra",
+    "category": "Manzara",
+    "reason": ""
+  },
+  {
+    "place_id": "ChIJqRqdDDXRHg0RycDu_TE7fYw",
+    "name": "Cascata de Anços",
+    "city": "sintra",
+    "category": "Manzara",
+    "reason": ""
+  },
+  {
+    "place_id": "ChIJE7FzazIzGQ0RzJBA7kSrJEI",
+    "name": "Centro de Interpretação da Natureza",
+    "city": "sintra",
+    "category": "Müze",
+    "reason": ""
+  },
+  {
+    "place_id": "ChIJUdQJnynEHg0Rdgek1GBKenA",
+    "name": "Citadel of Cascais",
+    "city": "sintra",
+    "category": "Tarihi",
+    "reason": ""
+  },
+  {
+    "place_id": "ChIJL3mRINzPHg0R8Y_vYFFlxQI",
+    "name": "Ericeira",
+    "city": "sintra",
+    "category": "Deneyim",
+    "reason": ""
+  },
+  {
+    "place_id": "ChIJUyPWAsbFHg0RsUydQzD3wII",
+    "name": "Estoril",
+    "city": "sintra",
+    "category": "Deneyim",
+    "reason": ""
+  },
+  {
+    "place_id": "ChIJ5YasVZ_DHg0RPmaXNWoQ4mM",
+    "name": "Forte da Cresmina",
+    "city": "sintra",
+    "category": "Tarihi",
+    "reason": ""
+  },
+  {
+    "place_id": "ChIJy8KrvXXDHg0Rt1hygGq4XaQ",
+    "name": "Forte de São Jorge de Oitavos",
+    "city": "sintra",
+    "category": "Tarihi",
+    "reason": ""
+  },
+  {
+    "place_id": "ChIJYX3z3W3DHg0R71H5TaAIoyw",
+    "name": "Forte do Guincho",
+    "city": "sintra",
+    "category": "Tarihi",
+    "reason": ""
+  },
+  {
+    "place_id": "ChIJqd4X-3knHw0RcnxqlAHpRUI",
+    "name": "Foz do Lizandro",
+    "city": "sintra",
+    "category": "Park",
+    "reason": ""
+  },
+  {
+    "place_id": "ChIJfelwis3XHg0Rncm3F87bJWo",
+    "name": "Mafra National Palace Library",
+    "city": "sintra",
+    "category": "Tarihi",
+    "reason": ""
+  },
+  {
+    "place_id": "ChIJmaqD337FHg0RI9s4IV2qTMY",
+    "name": "Marina de Cascais",
+    "city": "sintra",
+    "category": "Liman",
+    "reason": ""
+  },
+  {
+    "place_id": "ChIJZV_KFzDEHg0RwzRkxFYaK4g",
+    "name": "Mercado da Vila Cascais",
+    "city": "sintra",
+    "category": "Alışveriş",
+    "reason": ""
+  },
+  {
+    "place_id": "ChIJa5Hj-fsmHw0Ra3qW2_KsID8",
+    "name": "Miradouro de Ribeira d'Ilhas",
+    "city": "sintra",
+    "category": "Manzara",
+    "reason": ""
+  },
+  {
+    "place_id": "ChIJu3w8q0rPHg0REDI1sQlvobw",
+    "name": "Parque Urbano de Rana",
+    "city": "sintra",
+    "category": "Park",
+    "reason": ""
+  },
+  {
+    "place_id": "ChIJB8x_XnDcHg0RCKG5MMBdBlQ",
+    "name": "Pinhal da Nazaré",
+    "city": "sintra",
+    "category": "Park",
+    "reason": ""
+  },
+  {
+    "place_id": "ChIJZ_5JJS3EHg0Ro9kstDMyGUE",
+    "name": "Praia da Duquesa",
+    "city": "sintra",
+    "category": "Park",
+    "reason": ""
+  },
+  {
+    "place_id": "ChIJ42y9AofYHg0R_J86_JWQix4",
+    "name": "Praia de São Julião",
+    "city": "sintra",
+    "category": "Park",
+    "reason": ""
+  },
+  {
+    "place_id": "ChIJpe0hgW7DHg0R5FsDfjtwni0",
+    "name": "Praia do Abano",
+    "city": "sintra",
+    "category": "Park",
+    "reason": ""
+  },
+  {
+    "place_id": "ChIJwXhcpHLHHg0RF5fWgVyiiYs",
+    "name": "Santa Marta Lighthouse Museum",
+    "city": "sintra",
+    "category": "Müze",
+    "reason": ""
+  },
+  {
+    "place_id": "ChIJ7fcPbuopHw0RylVlhThekE8",
+    "name": "Tapada Nacional de Mafra",
+    "city": "sintra",
+    "category": "Park",
+    "reason": ""
+  },
+  {
+    "place_id": "ChIJo-HlNaA0GQ0Rb5V7OppVuR0",
+    "name": "Tapada das Necessidades",
+    "city": "sintra",
+    "category": "Park",
+    "reason": ""
+  },
+  {
+    "place_id": "ChIJR6w6EGINX0YRhBTTnSW5dCs",
+    "name": "Tom Tits Experiment",
+    "city": "stockholm",
+    "category": "Müze",
+    "reason": ""
+  },
+  {
+    "place_id": "ChIJ49sur7tlkUcRu9EH6T34ZwE",
+    "name": "Colmar (Day Trip)",
+    "city": "strazburg",
+    "category": "Deneyim",
+    "reason": ""
+  },
+  {
+    "place_id": "ChIJwbIYXknIlkcRHyTnGDFIGpc",
+    "name": "Kehl (Germany)",
+    "city": "strazburg",
+    "category": "Deneyim",
+    "reason": ""
+  },
+  {
+    "place_id": "ChIJ3ZNhe1dcGGARvjq5QHdmaHM",
+    "name": "Cup Noodles Museum",
+    "city": "tokyo",
+    "category": "Müze",
+    "reason": ""
+  },
+  {
+    "place_id": "ChIJBbxJ3_JFGGARTO9rLbCTwx4",
+    "name": "Kamakura (Great Buddha)",
+    "city": "tokyo",
+    "category": "Tarihi",
+    "reason": ""
+  },
+  {
+    "place_id": "ChIJRcJG0R2NGGARipOvMDtk4FM",
+    "name": "Whitely",
+    "city": "tokyo",
+    "category": "Yeme-İçme",
+    "reason": ""
+  },
+  {
+    "place_id": "ChIJ15FvudsTxUURpnbHM0CjOgY",
+    "name": "Lyngen Lodge",
+    "city": "tromso",
+    "category": "Deneyim",
+    "reason": ""
+  },
+  {
+    "place_id": "ChIJCa7AfY8HbUcRM1OWf_wZQJU",
+    "name": "Marea Alta",
+    "city": "viyana",
+    "category": "Bar",
+    "reason": ""
+  },
+  {
+    "place_id": "ChIJf9zv1bE1j0cRxQ0iED6RtnM",
+    "name": "Dossen Glacier Garden",
+    "city": "zermatt",
+    "category": "Park",
+    "reason": ""
+  },
+  {
+    "place_id": "ChIJ7Y326MZskEcRQFdiJY87Iys",
+    "name": "Baden",
+    "city": "zurih",
+    "category": "Deneyim",
+    "reason": ""
+  },
+  {
+    "place_id": "ChIJpVtibu2Wj0cRWyIQE4y9aeM",
+    "name": "Giessbach Falls",
+    "city": "zurih",
+    "category": "Deneyim",
+    "reason": ""
+  },
+  {
+    "place_id": "ChIJVVUVH-C2mkcRmCFJacdH8Ds",
+    "name": "Rapperswil Castle",
+    "city": "zurih",
+    "category": "Tarihi",
+    "reason": ""
+  },
+  {
+    "place_id": "ChIJ1cnDekx_kEcRJ4mRcPw4XXo",
+    "name": "Rheinfall",
+    "city": "zurih",
+    "category": "Deneyim",
+    "reason": ""
+  },
+  {
+    "place_id": "ChIJ7W6IZTSPmkcR_XXunFqK2Gs",
+    "name": "Stein am Rhein",
+    "city": "zurih",
+    "category": "Deneyim",
+    "reason": ""
+  },
+  {
+    "place_id": "ChIJSRZftjermkcRr3r7lbfjIK8",
+    "name": "Zytturm Zug",
+    "city": "zurih",
+    "category": "Deneyim",
+    "reason": ""
+  }
+]

@@ -178,7 +178,7 @@
       "tips": "Akşam 7'de yer bulmayı garantileyin.",
       "description_en": "Agora Meyhanesi, reflecting Istanbul's bohemian spirit, is where you can enjoy unique mezes accompanied by live music.",
       "tips_en": "Guarantee a spot by arriving at 7 PM.",
-      "name_en": "Agora Meyhanesi"
+      "name_en": "Agora Tavern"
     },
     {
       "name": "Anadolu Kavağı",
@@ -424,7 +424,7 @@
       "description_en": "Taksim's iconic Atatürk Cultural Center is Hayati Tabanlıoğlu's modernist legacy. With its renewed design, it is a magnificent cultural and art venue hosting opera, ballet, and theater performances.",
       "tips_en": "Check the program online; enjoy Taksim Square views from the terrace cafe.",
       "bestTime_en": "Evening show",
-      "name_en": "Atatürk Kültür Merkezi (AKM)"
+      "name_en": "Atatürk Cultural Center (AKM)"
     },
     {
       "name": "Ayasofya",
@@ -476,7 +476,7 @@
       "distanceFromCenter": 1.5,
       "tips": "Öğle saatlerinde gidin, günlük değişen mavi tabak spesyalini deneyin.",
       "tips_en": "Go at lunch, try the daily changing blue plate special.",
-      "name_en": "BLUE PLATE İSTANBUL"
+      "name_en": "BLUE PLATE ISTANBUL"
     },
     {
       "name": "Balat",
@@ -532,7 +532,7 @@
       "tips": "Güneş batarken üst sokaklardan Haliç manzarasını yakalayın.",
       "description_en": "These vibrantly colored houses, rising on Balat's narrow streets, carry the aesthetic of the past into today with their wooden bay windows, presenting a lively tableau at every corner.",
       "tips_en": "Catch the Golden Horn view from upper streets at sunset.",
-      "name_en": "Balat Renkli Evler"
+      "name_en": "Balat Colorful Houses"
     },
     {
       "name": "Balat ve Fener Sokakları",
@@ -561,7 +561,7 @@
       "description_en": "Balat and Fener mirror Istanbul's multicultural past. Colorful Ottoman-Greek houses, historic synagogues, churches, and the Phanar Greek Orthodox College are a unique architectural feast.",
       "tips_en": "Wear comfortable shoes; explore the narrow streets and side alleys.",
       "bestTime_en": "Weekday noon",
-      "name_en": "Balat ve Fener Sokakları"
+      "name_en": "Streets of Balat and Fener"
     },
     {
       "name": "Balkon",
@@ -617,7 +617,7 @@
       "tips": "Pencereden dışarı bakarken klasik baklavayı tatmayı unutmayın.",
       "description_en": "Smiles and laughter in every corner turn Baylan Pastanesi into one of Istanbul’s lively heartbeats. Local artists, families, and curious foodies mingle here.",
       "tips_en": "Don’t forget to savor the classic baklava while gazing out the window.",
-      "name_en": "Baylan Pastanesi"
+      "name_en": "Baylan Patisserie"
     },
     {
       "name": "Bayramoğlu Döner",
@@ -725,7 +725,7 @@
       "description_en": "This shore, with historic village houses beside modern cafes, offers an atmosphere where tranquility and vibrancy intertwine.",
       "tips_en": "Try going for a walk at sunset.",
       "bestTime_en": "Sunday morning",
-      "name_en": "Bebek Sahili"
+      "name_en": "Bebek Promenade"
     },
     {
       "name": "Belgrad Ormanı",
@@ -752,7 +752,7 @@
       "tips": "Karanfilbent yakınındaki patikalarda kuş seslerini dinlerken yaban çileklerini deneyin.",
       "description_en": "The damp scent of pines fills the air; footsteps gently echo on the earth, while the cool breeze carries leaf whispers, and a thousand shades of green caress the eyes.",
       "tips_en": "Try wild strawberries while listening to birdsong on paths near Karanfilbent.",
-      "name_en": "Belgrad Ormanı"
+      "name_en": "Belgrade Forest"
     },
     {
       "name": "Beşiktaş",
@@ -877,7 +877,7 @@
       "lng": 28.9713,
       "price": "medium",
       "rating": 4.7,
-      "description": "Fatih Sultan Mehmet, İstanbul'un fethi için 1452'de bu Boğaz kalesini inşa etti. Anıtsal kuleleri, Osmanlı askeri mimarisinin somutlaşmış halidir.",
+      "description": "Asya ve Avrupa kıtalarını birbirine bağlayan efsanevi su yolunda, yalıların ve tarihi sarayların arasından süzülen unutulmaz bir tekne yolculuğu.",
       "bestTime": "Gün batımı",
       "bestFor": [
         "herkes"
@@ -887,7 +887,7 @@
       "tips": "Kaleye çıkın, büyüleyici Boğaz manzarasını ve tarihi dokuyu hissedin.",
       "description_en": "Fatih Sultan Mehmet built this Bosphorus fortress in 1452 for Istanbul's conquest. Its monumental towers epitomize Ottoman military architecture.",
       "tips_en": "Climb the fortress, enjoy the captivating Bosphorus view and historical texture.",
-      "name_en": "Boğaz Turu"
+      "name_en": "Bosphorus Cruise"
     },
     {
       "name": "Nevizade Sokak",
@@ -1016,7 +1016,7 @@
       "tips": "Sakin saatlerde gelin, manzaranın tadını çıkarın.",
       "description_en": "Step away from Istanbul's hustle and sip your tea against a tranquil view.",
       "tips_en": "Visit during quieter hours to fully appreciate the view.",
-      "name_en": "Büyük Çamlıca Tepesi"
+      "name_en": "Grand Çamlıca Hill"
     },
     {
       "id": "gen_ChIJlRQMmRW3yhQRmtTk5IuAmq8",
@@ -1435,32 +1435,6 @@
       "tips_en": "Definitely examine the large ship models and magnificent sultanate caiques in detail."
     },
     {
-      "id": "gen_ChIJ_a8Lr725yhQRr_g9mL5c7KY",
-      "name": "Derviş Cafe 2",
-      "category": "Kafe",
-      "area": "Binbirdirek",
-      "description": "Sakin köşesinde taze demlenmiş çay eşliğinde kitap okuyarak zamanın nasıl geçtiğini anlamayacaksınız.",
-      "description_en": "In its tranquil corner, you’ll lose track of time sipping freshly brewed tea while reading a book.",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/istanbul/dervis_cafe_2.jpg",
-      "location": "Binbirdirek, Peykhane Cd. No:5, 34122 Fatih/İstanbul, Türkiye",
-      "lat": 41.0080641,
-      "lng": 28.9717171,
-      "rating": 4.8,
-      "reviewCount": 1459,
-      "price": "medium",
-      "website": "https://derviscafe2.com/",
-      "tags": [
-        "kafe",
-        "popüler",
-        "keşfet",
-        "not_curated"
-      ],
-      "distanceFromCenter": 1.5,
-      "tips": "Pencere önünde oturup sokak manzarasını izleyin.",
-      "tips_en": "Sit by the window and enjoy the street view.",
-      "name_en": "Derviş Cafe 2"
-    },
-    {
       "name": "Dolmabahçe Sarayı",
       "name_en": "Dolmabahçe Palace",
       "area": "Beşiktaş",
@@ -1612,7 +1586,7 @@
       "distanceFromCenter": 1.5,
       "tips": "Öğle sonrası sakinliğinde, fıstıklı midye baklava ile fincanın dibi köpüklü kahve iste.",
       "tips_en": "In the quiet afternoon, ask for pistachio midye baklava with frothy coffee foam.",
-      "name_en": "DİLŞEKER Turkish Delight-Baklava-Coffe-Nuts"
+      "name_en": "DİLŞEKER Turkish Delight-Baklava-Coffee-Nuts"
     },
     {
       "id": "gen_ChIJtWGpegC5yhQRyfJnF0zPMtk",
@@ -1851,7 +1825,7 @@
       "tips": "Ziyaret için uygun kıyafet giyin ve içeride fotoğraf çekmeyin.",
       "description_en": "Eastern Orthodoxy's spiritual heart, the Fener Greek Patriarchate, houses Saint George's Cathedral. Its Neoclassical design, Byzantine icons, Patriarchal Throne, and relics hold immense historical significance.",
       "tips_en": "Dress appropriately for your visit and refrain from taking photos inside.",
-      "name_en": "Fener Rum Patrikhanesi"
+      "name_en": "Fener Greek Patriarchate"
     },
     {
       "name": "Feriköy Antika Pazarı",
@@ -1878,7 +1852,7 @@
       "tips": "Erken gitmek en iyi parçaları yakalamanızı sağlar, mutlaka pazarlık yapın.",
       "description_en": "Set in Feriköy Protestant Cemetery's historical ambiance, this market offers antique objects, furniture, and rare collectibles spanning Ottoman to Republic eras. It's Istanbul's vibrant cultural heritage.",
       "tips_en": "Going early ensures you catch the best pieces, always bargain.",
-      "name_en": "Feriköy Antika Market"
+      "name_en": "Feriköy Antique Market"
     },
     {
       "id": "gen_ChIJYe0Bk065yhQRyC-YvXDIZRU",
@@ -2060,35 +2034,6 @@
       "description_en": "At Galataport, the scent of sea salt meets the aroma of fresh coffee, blending with the sound of bustling footsteps.",
       "tips_en": "Listen to street performers while strolling along the seaside.",
       "name_en": "Galataport"
-    },
-    {
-      "name": "Galataport İstanbul",
-      "area": "Karaköy",
-      "category": "Alışveriş",
-      "subcategory": "Modern Yaşam",
-      "tags": [
-        "boğaz",
-        "alışveriş",
-        "sanat",
-        "yürüyüş"
-      ],
-      "distanceFromCenter": 1.5,
-      "lat": 41.0261,
-      "lng": 28.9845,
-      "price": "low",
-      "rating": 4.6,
-      "description": "Kahvenin yoğun aroması eşliğinde, deniz havası ve taşların yankısı arasında kaybolun.",
-      "bestTime": "Akşamüstü",
-      "bestFor": [
-        "herkes"
-      ],
-      "source": "local",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/istanbul/galataport_istanbul.jpg",
-      "tips": "Gün batımında bir masa kapmayı deneyin.",
-      "description_en": "Lose yourself in the rich aroma of coffee, mingling with the sea breeze and the echo of stones.",
-      "tips_en": "Try to grab a table at sunset.",
-      "bestTime_en": "Late afternoon",
-      "name_en": "Galataport İstanbul"
     },
     {
       "id": "gen_ChIJEYH7W9a5yhQRezfLJzGgnQI",
@@ -2632,7 +2577,7 @@
       "tips": "Fiyatlar üzerinde mutlaka pazarlık yapın, kalabalıklardan kaçmak için sabah erken gelin.",
       "description_en": "Built by Fatih Sultan Mehmet, this world's oldest covered bazaar boasts magnificent domes and labyrinthine passages. Thousands of shops with jewelry, textiles, and handicrafts form a vibrant commercial heritage.",
       "tips_en": "Always bargain over prices; arrive early mornings to avoid crowds.",
-      "name_en": "Kapalıçarşı"
+      "name_en": "Grand Bazaar"
     },
     {
       "name": "Karadeniz Sahili Yürüyüşü",
@@ -2659,7 +2604,7 @@
       "tips": "Güneş doğmadan yürüyüşe çıkın, kalabalıktan kaçının.",
       "description_en": "Walking along Istanbul's Black Sea coastline, the salty sea breeze and sound of waves cleanse the mind while the lush forest texture offers tranquility.",
       "tips_en": "Start your walk at dawn to avoid the crowds.",
-      "name_en": "Karadeniz Sahili Yürüyüşü"
+      "name_en": "Black Sea Coast Walk"
     },
     {
       "name": "Karakoy Lokantasi",
@@ -2796,7 +2741,7 @@
       "tips": "Sabah erken saatlerde gidin, kalabalıktan uzak durun.",
       "description_en": "Kuzguncuk Bostanı is a sanctuary that embraces every shade of green; the fragrance of flowers and the chirping of birds rejuvenate the spirit.",
       "tips_en": "Visit early in the morning to avoid the crowds.",
-      "name_en": "Kuzguncuk Bostanı"
+      "name_en": "Kuzguncuk Orchard"
     },
     {
       "name": "Kılıç Ali Paşa Hamamı",
@@ -2882,10 +2827,10 @@
     {
       "id": "gen_ChIJ23IoYAW3yhQRtfU99bjB66M",
       "name": "LUFFY PATISSERIE",
-      "category": "Deneyim",
+      "category": "Kafe",
       "area": "Feriköy",
-      "description": "Ayasofya, Bizans İmparatoru I. Justinianus tarafından yaptırılan, devasa kubbesi ve mozaikleriyle Hristiyan ve İslam mimarisinin sentezini sergileyen eşsiz bir başyapıttır.",
-      "description_en": "Hagia Sophia, Emperor Justinian I's unique masterpiece, exhibits a synthesis of Christian and Islamic architecture through its colossal dome and intricate mosaics.",
+      "description": "Feriköy'ün kalbinde yer alan Luffy Patisserie, modern tatlıları ve imza cheesecake çeşitleriyle tanınan şık bir mekan. El yapımı eklerleri ve taze demlenmiş kahveleriyle mahallenin en sevilen tatlı duraklarından biri.",
+      "description_en": "Located in the heart of Feriköy, Luffy Patisserie is a stylish spot known for its modern desserts and signature cheesecakes. It's one of the neighborhood's favorite sweet stops with its handmade eclairs and freshly brewed coffees.",
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/istanbul/luffy_patisserie.jpg",
       "location": "Feriköy, Kurtuluş Cd. 194/D, 34375 Şişli/İstanbul, Türkiye",
       "lat": 41.0467856,
@@ -2900,8 +2845,8 @@
         "keşfet"
       ],
       "distanceFromCenter": 1.5,
-      "tips": "Ayasofya'yı sabah erken ziyaret edin, kalabalıklar artmadan büyüleyici atmosferini hissedin.",
-      "tips_en": "Visit Hagia Sophia early, avoid crowds, and truly feel its grandeur.",
+      "tips": "Özellikle frambuazlı cheesecake ve klasik eklerini denemeyi unutmayın; hafta sonları oldukça popüler olduğundan erken gitmekte fayda var.",
+      "tips_en": "Don't forget to try the raspberry cheesecake and classic eclairs; it's a good idea to go early as it gets quite popular on weekends.",
       "name_en": "LUFFY PATISSERIE"
     },
     {
@@ -3105,7 +3050,7 @@
       "distanceFromCenter": 1.5,
       "tips": "Pencerede oturarak güneşin batışını izleyin.",
       "tips_en": "Sit by the window to watch the sunset.",
-      "name_en": "MASSA BİSTRO (İSTANBUL)"
+      "name_en": "MASSA BISTRO (ISTANBUL)"
     },
     {
       "name": "MOC",
@@ -3623,33 +3568,6 @@
       "name_en": "Neolokal"
     },
     {
-      "name": "Nevizade Sokak",
-      "area": "Beyoğlu",
-      "category": "Yeme-İçme",
-      "subcategory": "Meyhaneler",
-      "tags": [
-        "meyhane",
-        "meze",
-        "canlı"
-      ],
-      "distanceFromCenter": 2.2,
-      "lat": 41.033,
-      "lng": 28.9762,
-      "price": "medium",
-      "rating": 4.5,
-      "description": "İstiklal Caddesi'nin ardında gizli kalmış, cıvıl cıvıl çiçeklerle dolu Nevızade Sokak, 19. yüzyıldan beri lezzetli meze ve rakı keyfi sunuyor.",
-      "bestTime": "Akşam",
-      "bestFor": [
-        "yetişkinler"
-      ],
-      "source": "local",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/istanbul/nevizade_sokak.jpg",
-      "tips": "Akşam saat 7'de gün batımını izlemeyi unutma.",
-      "description_en": "Hidden behind İstiklal Avenue, vibrant Nevızade Street has offered delightful mezes and rakı enjoyment since the 19th century, adorned with colorful flowers.",
-      "tips_en": "Don’t forget to watch the sunset at 7 PM.",
-      "name_en": "Tellalzade Sokak"
-    },
-    {
       "name": "Nicole",
       "area": "Beyoğlu",
       "category": "Yeme-İçme",
@@ -3915,7 +3833,7 @@
       "tips": "Öğleden sonra en güzel fotoğrafları çekebilirsiniz.",
       "description_en": "Lose yourself among the lush pine trees, enjoying the breathtaking Istanbul view while watching the dance of yellow and orange hues at sunset.",
       "tips_en": "You can capture the best photos in the afternoon.",
-      "name_en": "Otağtepe Fatih Korusu"
+      "name_en": "Otağtepe Fatih Grove"
     },
     {
       "id": "gen_ChIJ33vQcx25yhQR09zX_CLaSwc",
@@ -4996,7 +4914,7 @@
       "tips": "Yoğun saatler dışında giderek daha sakin bir deneyim yaşayın.",
       "description_en": "Mimar Sinan's classical Ottoman hammam, with magnificent domed halls, ornate marble, and central heated stone, embodies centuries of tradition. An unparalleled architectural masterpiece.",
       "tips_en": "Visit during off-peak hours for a more serene experience.",
-      "name_en": "Türk Bath Deneyimi"
+      "name_en": "Turkish Bath Experience"
     },
     {
       "name": "Vefa Bozacısı",
@@ -5505,7 +5423,7 @@
       "tips": "Pencereden bakarak latte'nin tadını çıkarın.",
       "description_en": "In the heart of Istanbul, an energetic café where young, creative crowds mingle, with the aroma of coffee enveloping every corner.",
       "tips_en": "Enjoy a latte while gazing out the window.",
-      "name_en": "Üçüncü Dalga Kahvecileri"
+      "name_en": "Third Wave Coffee Shops"
     },
     {
       "name": "İstanbul Aquarium",
@@ -5737,47 +5655,6 @@
       "tips_en": "Wear comfortable shoes for the Yücetepe hike, then enjoy the breathtaking view."
     },
     {
-      "name": "Maidens Tower (Kız Kulesi)",
-      "name_en": "Maiden's Tower",
-      "area": "Üsküdar",
-      "category": "Tarihi",
-      "tags": [
-        "kule",
-        "deniz",
-        "manzara"
-      ],
-      "lat": 41.0211,
-      "lng": 29.0041,
-      "description": "Boğaz, yerel halkın enerjisiyle parlar; genç çiftler zamansız siluetine dalar, aileler ve arkadaşlar Salacak kıyısını canlandırır, neşeli sohbetleri şehrin nabzına karışır.",
-      "description_en": "The Bosphorus shimmers with the energy of locals; young couples gaze at its timeless silhouette, while families and friends animate the Salacak shore, their lively chatter weaving into the city's vibrant pulse.",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/istanbul/kiz_kulesi.jpg",
-      "rating": 4.7,
-      "price": "medium",
-      "tips": "Üsküdar tarafından alacakaranlıkta canlı feribot hareketliliği ve ışıltılı manzara için gidin.",
-      "tips_en": "Visit the Üsküdar side at dusk for vibrant ferry activity and glowing views."
-    },
-    {
-      "name": "Süleymaniye",
-      "name_en": "Süleymaniye Mosque",
-      "area": "Fatih",
-      "category": "Tarihi",
-      "tags": [
-        "mosque",
-        "architecture",
-        "sinan"
-      ],
-      "lat": 41.0162,
-      "lng": 28.9639,
-      "description": "Mimar Sinan'ın Kanuni Sultan Süleyman için inşa ettiği Süleymaniye Külliyesi, Osmanlı klasik mimarisinin başyapıtıdır. Muhteşem kubbesi, zarif minareleri ve cami, türbeleriyle Osmanlı'nın ihtişamını sergiler.",
-      "description_en": "Mimar Sinan's Süleymaniye Complex, built for Suleiman, is an Ottoman architectural masterpiece. Its magnificent dome, minarets, mosque, and tombs impressively showcase the Empire's grandeur.",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/istanbul/suleymaniye.jpg",
-      "rating": 4.9,
-      "price": "free",
-      "source": "firebase",
-      "tips": "İçeride başınızı örtün; külliyeyi gezin ve şehir manzarasının tadını çıkarın.",
-      "tips_en": "Cover your head inside; explore the complex and enjoy city views."
-    },
-    {
       "name": "Mahmutpaşa",
       "name_en": "Mahmutpasha Bazaar",
       "area": "Fatih",
@@ -5938,7 +5815,7 @@
     },
     {
       "name": "Sanatkarlar Parkı",
-      "name_en": "Sanatkarlar Parki",
+      "name_en": "Sanatkarlar Park",
       "area": "Cihangir",
       "category": "Park",
       "tags": [

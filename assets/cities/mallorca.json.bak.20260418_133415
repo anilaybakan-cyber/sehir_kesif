@@ -1,0 +1,2075 @@
+{
+  "city": "Mallorca",
+  "city_en": "Mallorca",
+  "country": "İspanya",
+  "country_en": "Spain",
+  "description": "Mallorca, muazzam manzaraları ve eşsiz atmosferiyle sizi bekliyor.",
+  "description_en": "Mallorca is waiting for you with its magnificent views and unique atmosphere.",
+  "heroImage": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/mallorca/hero.jpg",
+  "coordinates": {
+    "lat": 39.5696,
+    "lng": 2.6502
+  },
+  "highlights": [
+    {
+      "id": "ChIJVY-vfUWSlxIRqoH9muibDFQ",
+      "name": "Catedral-Basílica de Santa María de Mallorca",
+      "name_en": "Catedral-Basílica de Santa María de Mallorca",
+      "category": "Deneyim",
+      "tags": [
+        "mallorca",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.5674251,
+      "lng": 2.6482994,
+      "rating": 4.7,
+      "reviewCount": 63520,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/mallorca/ChIJVY-vfUWSlxIRqoH9muibDFQ.jpg",
+      "description": "Palma de Mallorca'nın silüetini belirleyen bu görkemli Gotik katedral, denize bakan eşsiz konumuyla büyüleyicidir. Gaudí'nin renovasyon çalışmaları ve dünyanın en büyük gül pencerelerinden biriyle tanınan katedral, adanın dini ve mimari merkezidir.",
+      "description_en": "Dominating the skyline of Palma, this majestic Gothic cathedral stands impressively right by the sea. Famous for Gaudí's interior renovations and one of the largest rose windows in the world, it is the spiritual and architectural heart of the island.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJd7Q-FHGSlxIRof_ZMNOu1sg",
+      "name": "Castillo de Bellver",
+      "name_en": "Castillo de Bellver",
+      "category": "Tarihi",
+      "tags": [
+        "mallorca",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.5638434,
+      "lng": 2.6194231,
+      "rating": 4.5,
+      "reviewCount": 25627,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/mallorca/ChIJd7Q-FHGSlxIRof_ZMNOu1sg.jpg",
+      "description": "14. yüzyıldan kalma bu nadir dairesel kale, Palma şehrini kuşbakışı gören bir çam ormanı tepesinde yer alır. Eskiden kraliyet ikametgahı ve ardından hapishane olarak kullanılan kale, günümüzde şehrin en iyi restorasyon parklarından ve müzelerinden biridir.",
+      "description_en": "This rare 14th-century circular castle sits atop a pine-forested hill with panoramic views of Palma. Formerly a royal residence and later a prison, it now serves as a history museum and one of the most distinctive landmarks in the Mediterranean.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJ_8aKugPulxIRPhKWi-dSSJI",
+      "name": "Valldemossa",
+      "name_en": "Valldemossa",
+      "category": "Deneyim",
+      "tags": [
+        "mallorca",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.7114523,
+      "lng": 2.6225698,
+      "rating": 4.5,
+      "reviewCount": 50,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/mallorca/ChIJ_8aKugPulxIRPhKWi-dSSJI.jpg",
+      "description": "Tramuntana Dağları'nın kalbinde yer alan Valldemossa, taş evleri ve dar sokaklarıyla Mallorca'nın en romantik köyüdür. Besteci Chopin ve George Sand'ın bir kışı geçirdiği tarihi Kartujyalı Manastırı ile ünlüdür.",
+      "description_en": "Nestled in the heart of the Tramuntana Mountains, Valldemossa is Mallorca's most romantic village, featuring stone houses and narrow alleys. It is famous for the Royal Charterhouse, where composer Frédéric Chopin and George Sand spent a winter.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJ_aPTXrBGlhIRHXI-HoVfGpI",
+      "name": "Cuevas del Drach",
+      "name_en": "Cuevas del Drach",
+      "category": "Deneyim",
+      "tags": [
+        "mallorca",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.5357468,
+      "lng": 3.3307092,
+      "rating": 4.3,
+      "reviewCount": 66265,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/mallorca/ChIJ_aPTXrBGlhIRHXI-HoVfGpI.jpg",
+      "description": "Doğu kıyısındaki Porto Cristo'da bulunan Drach Mağaraları, dünyanın en büyük yeraltı göllerinden birine ev sahipliği yapar. Ziyaretçiler, devasa sarkıtlar arasında bir sandal gezintisi yaparken canlı klasik müzik dinletisiyle büyüleyici bir deneyim yaşarlar.",
+      "description_en": "Located in Porto Cristo, the Caves of Drach house one of the world's largest underground lakes. Visitors enjoy a magical experience with classical music concerts performed on illuminated boats while drifting through spectacular stalactites.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJGYiN3qwmmBIRcThvLu310DQ",
+      "name": "Port d'Andratx",
+      "name_en": "Port d'Andratx",
+      "category": "Deneyim",
+      "tags": [
+        "mallorca",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.5440685,
+      "lng": 2.3893846,
+      "rating": 4.5,
+      "reviewCount": 50,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/mallorca/ChIJGYiN3qwmmBIRcThvLu310DQ.jpg",
+      "description": "Mallorca.bak.20260418_133415 kentinde kentsel konforu yerel estetikle birleştiren Port d'Andratx, kentin sosyal ve kültürel dünyasına yüksek kaliteli bir kentsel dokunuş katan en samimi ve kentsel rotalardan biridir.",
+      "description_en": "As a refined social and cultural point in Mallorca.bak.20260418_133415, Port d'Andratx offers a high-quality experience that perfectly merges urban convenience with local aesthetic charm.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJdwuOeSGplxIR8cfhhEz9PV0",
+      "name": "Es Trenc",
+      "name_en": "Es Trenc",
+      "category": "Park",
+      "tags": [
+        "mallorca",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.3445602,
+      "lng": 2.9845874,
+      "rating": 4.1,
+      "reviewCount": 13479,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/mallorca/ChIJdwuOeSGplxIR8cfhhEz9PV0.jpg",
+      "description": "Mallorca.bak.20260418_133415 kentinin kentsel enerjisini ve kültürel kimliğini yansıtan Es Trenc, kenti keşfeden gezginlerin kentsel keşif albümündeki en ikonik ve fotojenik kentsel duraklardan birisi haline gelmiştir.",
+      "description_en": "A prominent urban landmark in Mallorca.bak.20260418_133415 that defines the area's contemporary spirit and cultural identity, Es Trenc serves as a prestigious and unique stop for every traveler.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJM-1gD7_olxIRLkJeJ-gfAbA",
+      "name": "Sóller",
+      "name_en": "Sóller",
+      "category": "Deneyim",
+      "tags": [
+        "mallorca",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.7670693,
+      "lng": 2.7157866,
+      "rating": 4.5,
+      "reviewCount": 50,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/mallorca/ChIJM-1gD7_olxIRLkJeJ-gfAbA.jpg",
+      "description": "Mallorca.bak.20260418_133415 kentinin kentsel enerjisini ve kültürel kimliğini yansıtan Sóller, kenti keşfeden gezginlerin kentsel keşif albümündeki en ikonik ve fotojenik kentsel duraklardan birisi haline gelmiştir.",
+      "description_en": "A prominent urban landmark in Mallorca.bak.20260418_133415 that defines the area's contemporary spirit and cultural identity, Sóller serves as a prestigious and unique stop for every traveler.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJc1QMHLPvlxIR4tTUbbPZf_k",
+      "name": "Deià",
+      "name_en": "Deià",
+      "category": "Deneyim",
+      "tags": [
+        "mallorca",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.7479394,
+      "lng": 2.6483743,
+      "rating": 4.5,
+      "reviewCount": 50,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/mallorca/ChIJc1QMHLPvlxIR4tTUbbPZf_k.jpg",
+      "description": "Mallorca.bak.20260418_133415 kentinde kentsel konforu yerel estetikle birleştiren Deià, kentin sosyal ve kültürel dünyasına yüksek kaliteli bir kentsel dokunuş katan en samimi ve kentsel rotalardan biridir.",
+      "description_en": "As a refined social and cultural point in Mallorca.bak.20260418_133415, Deià offers a high-quality experience that perfectly merges urban convenience with local aesthetic charm.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJA1Fe26DWlxIRN0Vzy9Fe7Co",
+      "name": "Pollença",
+      "name_en": "Pollença",
+      "category": "Deneyim",
+      "tags": [
+        "mallorca",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.8771939,
+      "lng": 3.0162026,
+      "rating": 4.5,
+      "reviewCount": 50,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/mallorca/ChIJA1Fe26DWlxIRN0Vzy9Fe7Co.jpg",
+      "description": "Mallorca.bak.20260418_133415 kentinin kentsel enerjisini ve kültürel kimliğini yansıtan Pollença, kenti keşfeden gezginlerin kentsel keşif albümündeki en ikonik ve fotojenik kentsel duraklardan birisi haline gelmiştir.",
+      "description_en": "A prominent urban landmark in Mallorca.bak.20260418_133415 that defines the area's contemporary spirit and cultural identity, Pollença serves as a prestigious and unique stop for every traveler.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJ0aPV-5yWlxIRM0tN163W2is",
+      "name": "Palma Aquarium",
+      "name_en": "Palma Aquarium",
+      "category": "Deneyim",
+      "tags": [
+        "mallorca",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.53137419999999,
+      "lng": 2.7295292,
+      "rating": 4.4,
+      "reviewCount": 31505,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/mallorca/ChIJ0aPV-5yWlxIRM0tN163W2is.jpg",
+      "description": "Mallorca.bak.20260418_133415 kentinin kentsel enerjisini ve kültürel kimliğini yansıtan Palma Aquarium, kenti keşfeden gezginlerin kentsel keşif albümündeki en ikonik ve fotojenik kentsel duraklardan birisi haline gelmiştir.",
+      "description_en": "A prominent urban landmark in Mallorca.bak.20260418_133415 that defines the area's contemporary spirit and cultural identity, Palma Aquarium serves as a prestigious and unique stop for every traveler.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJJffYU5iOlxIRllj1RLrewsU",
+      "name": "Marineland Mallorca",
+      "name_en": "Marineland Mallorca",
+      "category": "Restoran",
+      "tags": [
+        "mallorca",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.5329451,
+      "lng": 2.5633543,
+      "rating": 4.2,
+      "reviewCount": 10706,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/mallorca/ChIJJffYU5iOlxIRllj1RLrewsU.jpg",
+      "description": "Yerel malzemelere ve kentsel mutfak sanatına olan bağlılığıyla tanınan Marineland Mallorca, Mallorca.bak.20260418_133415 kentinin kalbindeki en stil sahibi kentsel lezzet duraklarından biri olarak öne çıkan bir kentsel merkezdir.",
+      "description_en": "Renowned for its commitment to local ingredients and urban culinary art, Marineland Mallorca stands as a flavor stronghold in the heart of Mallorca.bak.20260418_133415's vibrant dining scene.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJpflxoFaSlxIRTW9HTELbRic",
+      "name": "Train Sóller Station (Palma de Mallorca)",
+      "name_en": "Train Sóller Station (Palma de Mallorca)",
+      "category": "Deneyim",
+      "tags": [
+        "mallorca",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.5766774,
+      "lng": 2.6538486,
+      "rating": 4.4,
+      "reviewCount": 12248,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/mallorca/ChIJpflxoFaSlxIRTW9HTELbRic.jpg",
+      "description": "Mallorca.bak.20260418_133415 sokaklarına özgün karakterini katan Train Sóller Station (Palma de Mallorca), kentin modern enerjisini ve kültürel nabzını yansıtan kentsel bir prestij noktası ve sofistike bir kentsel sosyal durak kalesidir.",
+      "description_en": "Infusing the streets of Mallorca.bak.20260418_133415 with its unique character, Train Sóller Station (Palma de Mallorca) is a sophisticated urban destination that reflects the town's modern energy and creative pulse.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJWRWcWlGSlxIRDoi8jn_f9sw",
+      "name": "Museum of Mallorca",
+      "name_en": "Museum of Mallorca",
+      "category": "Tarihi",
+      "tags": [
+        "mallorca",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.5672221,
+      "lng": 2.6507305,
+      "rating": 4.2,
+      "reviewCount": 547,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/mallorca/ChIJWRWcWlGSlxIRDoi8jn_f9sw.jpg",
+      "description": "Mallorca.bak.20260418_133415 kentinin tarihi dokusunda önemli bir yer tutan Museum of Mallorca, kentin tarihsel evrimini ve kentsel hafızasını koruyan en entelektüel ve paha biçilemez kentsel duraklardan biridir.",
+      "description_en": "As a prestigious landmark of Mallorca.bak.20260418_133415, Museum of Mallorca preserves the town's millennia-old memory and serves as an intellectual window into the historical evolution of the area.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJYXZ5tk-SlxIR7EHzc09Lx90",
+      "name": "Can Amorós",
+      "name_en": "Can Amorós",
+      "category": "Deneyim",
+      "tags": [
+        "mallorca",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.5686353,
+      "lng": 2.650865,
+      "rating": 4.4,
+      "reviewCount": 17,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/mallorca/ChIJYXZ5tk-SlxIR7EHzc09Lx90.jpg",
+      "description": "Mallorca.bak.20260418_133415 kentinin kentsel enerjisini ve kültürel kimliğini yansıtan Can Amorós, kenti keşfeden gezginlerin kentsel keşif albümündeki en ikonik ve fotojenik kentsel duraklardan birisi haline gelmiştir.",
+      "description_en": "A prominent urban landmark in Mallorca.bak.20260418_133415 that defines the area's contemporary spirit and cultural identity, Can Amorós serves as a prestigious and unique stop for every traveler.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJbffZvU-SlxIRxOphTumLpnc",
+      "name": "Ca´n Palou de Coma-sema",
+      "name_en": "Ca´n Palou de Coma-sema",
+      "category": "Deneyim",
+      "tags": [
+        "mallorca",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.5684431,
+      "lng": 2.6500637,
+      "rating": 3,
+      "reviewCount": 3,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/mallorca/ChIJbffZvU-SlxIRxOphTumLpnc.jpg",
+      "description": "Mallorca.bak.20260418_133415 kentinde kentsel konforu yerel estetikle birleştiren Ca´n Palou de Coma-sema, kentin sosyal ve kültürel dünyasına yüksek kaliteli bir kentsel dokunuş katan en samimi ve kentsel rotalardan biridir.",
+      "description_en": "As a refined social and cultural point in Mallorca.bak.20260418_133415, Ca´n Palou de Coma-sema offers a high-quality experience that perfectly merges urban convenience with local aesthetic charm.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJa42YNU6SlxIRE5J0CLPCi9g",
+      "name": "Ca'n March",
+      "name_en": "Ca'n March",
+      "category": "Deneyim",
+      "tags": [
+        "mallorca",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.5688315,
+      "lng": 2.6513735,
+      "rating": 4.8,
+      "reviewCount": 8,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/mallorca/ChIJa42YNU6SlxIRE5J0CLPCi9g.jpg",
+      "description": "Mallorca.bak.20260418_133415 sokaklarına özgün karakterini katan Ca'n March, kentin modern enerjisini ve kültürel nabzını yansıtan kentsel bir prestij noktası ve sofistike bir kentsel sosyal durak kalesidir.",
+      "description_en": "Infusing the streets of Mallorca.bak.20260418_133415 with its unique character, Ca'n March is a sophisticated urban destination that reflects the town's modern energy and creative pulse.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJIRQbkk-SlxIRHNHrroi2Wd4",
+      "name": "Can Crespí (Can Ribera)",
+      "name_en": "Can Crespí (Can Ribera)",
+      "category": "Deneyim",
+      "tags": [
+        "mallorca",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.5685046,
+      "lng": 2.6493739,
+      "rating": 5,
+      "reviewCount": 1,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/mallorca/ChIJIRQbkk-SlxIRHNHrroi2Wd4.jpg",
+      "description": "Mallorca.bak.20260418_133415 kentinin kentsel enerjisini ve kültürel kimliğini yansıtan Can Crespí (Can Ribera), kenti keşfeden gezginlerin kentsel keşif albümündeki en ikonik ve fotojenik kentsel duraklardan birisi haline gelmiştir.",
+      "description_en": "A prominent urban landmark in Mallorca.bak.20260418_133415 that defines the area's contemporary spirit and cultural identity, Can Crespí (Can Ribera) serves as a prestigious and unique stop for every traveler.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJIwq9uk-SlxIRZhGHKcXcV-U",
+      "name": "Ca´n Ordines d´Almadrà",
+      "name_en": "Ca´n Ordines d´Almadrà",
+      "category": "Deneyim",
+      "tags": [
+        "mallorca",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.5682038,
+      "lng": 2.6505226,
+      "rating": 4.2,
+      "reviewCount": 6,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/mallorca/ChIJIwq9uk-SlxIRZhGHKcXcV-U.jpg",
+      "description": "Mallorca.bak.20260418_133415 sokaklarına özgün karakterini katan Ca´n Ordines d´Almadrà, kentin modern enerjisini ve kültürel nabzını yansıtan kentsel bir prestij noktası ve sofistike bir kentsel sosyal durak kalesidir.",
+      "description_en": "Infusing the streets of Mallorca.bak.20260418_133415 with its unique character, Ca´n Ordines d´Almadrà is a sophisticated urban destination that reflects the town's modern energy and creative pulse.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJlZ6iJk6SlxIRud8RBQop7U4",
+      "name": "Can Juny",
+      "name_en": "Can Juny",
+      "category": "Deneyim",
+      "tags": [
+        "mallorca",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.5697428,
+      "lng": 2.6520457,
+      "rating": 4.6,
+      "reviewCount": 5,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/mallorca/ChIJlZ6iJk6SlxIRud8RBQop7U4.jpg",
+      "description": "Mallorca.bak.20260418_133415 sokaklarına özgün karakterini katan Can Juny, kentin modern enerjisini ve kültürel nabzını yansıtan kentsel bir prestij noktası ve sofistike bir kentsel sosyal durak kalesidir.",
+      "description_en": "Infusing the streets of Mallorca.bak.20260418_133415 with its unique character, Can Juny is a sophisticated urban destination that reflects the town's modern energy and creative pulse.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJba3fjk-SlxIREXY0wB7kQeg",
+      "name": "Can Ferragut (Can Caulelles)",
+      "name_en": "Can Ferragut (Can Caulelles)",
+      "category": "Deneyim",
+      "tags": [
+        "mallorca",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.5683329,
+      "lng": 2.6490891,
+      "rating": 1,
+      "reviewCount": 1,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/mallorca/ChIJba3fjk-SlxIREXY0wB7kQeg.jpg",
+      "description": "Mallorca.bak.20260418_133415 kentinin kentsel enerjisini ve kültürel kimliğini yansıtan Can Ferragut (Can Caulelles), kenti keşfeden gezginlerin kentsel keşif albümündeki en ikonik ve fotojenik kentsel duraklardan birisi haline gelmiştir.",
+      "description_en": "A prominent urban landmark in Mallorca.bak.20260418_133415 that defines the area's contemporary spirit and cultural identity, Can Ferragut (Can Caulelles) serves as a prestigious and unique stop for every traveler.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJZdULmE-SlxIRv2oagjVWFwU",
+      "name": "Can Colom",
+      "name_en": "Can Colom",
+      "category": "Deneyim",
+      "tags": [
+        "mallorca",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.5680819,
+      "lng": 2.6499399,
+      "rating": 4.7,
+      "reviewCount": 3,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/mallorca/ChIJZdULmE-SlxIRv2oagjVWFwU.jpg",
+      "description": "Mallorca.bak.20260418_133415 sokaklarına özgün karakterini katan Can Colom, kentin modern enerjisini ve kültürel nabzını yansıtan kentsel bir prestij noktası ve sofistike bir kentsel sosyal durak kalesidir.",
+      "description_en": "Infusing the streets of Mallorca.bak.20260418_133415 with its unique character, Can Colom is a sophisticated urban destination that reflects the town's modern energy and creative pulse.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJE_nlmU-SlxIRERotEGZ1wS0",
+      "name": "Ca´n Llorenç Villalonga",
+      "name_en": "Ca´n Llorenç Villalonga",
+      "category": "Deneyim",
+      "tags": [
+        "mallorca",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.5681086,
+      "lng": 2.6496963,
+      "rating": 4.7,
+      "reviewCount": 3,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/mallorca/ChIJE_nlmU-SlxIRERotEGZ1wS0.jpg",
+      "description": "Mallorca.bak.20260418_133415 sokaklarına özgün karakterini katan Ca´n Llorenç Villalonga, kentin modern enerjisini ve kültürel nabzını yansıtan kentsel bir prestij noktası ve sofistike bir kentsel sosyal durak kalesidir.",
+      "description_en": "Infusing the streets of Mallorca.bak.20260418_133415 with its unique character, Ca´n Llorenç Villalonga is a sophisticated urban destination that reflects the town's modern energy and creative pulse.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJXYB-IU6SlxIRY6SYpLMJBc8",
+      "name": "Can Catlar de Llorer",
+      "name_en": "Can Catlar de Llorer",
+      "category": "Deneyim",
+      "tags": [
+        "mallorca",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.5697141,
+      "lng": 2.6522587,
+      "rating": 4,
+      "reviewCount": 4,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/mallorca/ChIJXYB-IU6SlxIRY6SYpLMJBc8.jpg",
+      "description": "Mallorca.bak.20260418_133415 kentinde kentsel konforu yerel estetikle birleştiren Can Catlar de Llorer, kentin sosyal ve kültürel dünyasına yüksek kaliteli bir kentsel dokunuş katan en samimi ve kentsel rotalardan biridir.",
+      "description_en": "As a refined social and cultural point in Mallorca.bak.20260418_133415, Can Catlar de Llorer offers a high-quality experience that perfectly merges urban convenience with local aesthetic charm.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJaf17IU6SlxIRSW377L5Xf0I",
+      "name": "Ca´n Ribas de Pina",
+      "name_en": "Ca´n Ribas de Pina",
+      "category": "Deneyim",
+      "tags": [
+        "mallorca",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.569726,
+      "lng": 2.652258,
+      "rating": 4.7,
+      "reviewCount": 3,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/mallorca/ChIJaf17IU6SlxIRSW377L5Xf0I.jpg",
+      "description": "Mallorca.bak.20260418_133415 sokaklarına özgün karakterini katan Ca´n Ribas de Pina, kentin modern enerjisini ve kültürel nabzını yansıtan kentsel bir prestij noktası ve sofistike bir kentsel sosyal durak kalesidir.",
+      "description_en": "Infusing the streets of Mallorca.bak.20260418_133415 with its unique character, Ca´n Ribas de Pina is a sophisticated urban destination that reflects the town's modern energy and creative pulse.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJZ0N_pU-SlxIRksaeC7Ryzwc",
+      "name": "Ca'n Oleza",
+      "name_en": "Ca'n Oleza",
+      "category": "Deneyim",
+      "tags": [
+        "mallorca",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.56797,
+      "lng": 2.6505551,
+      "rating": 4.4,
+      "reviewCount": 19,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/mallorca/ChIJZ0N_pU-SlxIRksaeC7Ryzwc.jpg",
+      "description": "Mallorca.bak.20260418_133415 kentinde kentsel konforu yerel estetikle birleştiren Ca'n Oleza, kentin sosyal ve kültürel dünyasına yüksek kaliteli bir kentsel dokunuş katan en samimi ve kentsel rotalardan biridir.",
+      "description_en": "As a refined social and cultural point in Mallorca.bak.20260418_133415, Ca'n Oleza offers a high-quality experience that perfectly merges urban convenience with local aesthetic charm.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJRQvciU-SlxIRYuZ7zWyvRno",
+      "name": "Can Alemany",
+      "name_en": "Can Alemany",
+      "category": "Deneyim",
+      "tags": [
+        "mallorca",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.5683929,
+      "lng": 2.6487328,
+      "rating": 3.2,
+      "reviewCount": 5,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/mallorca/ChIJRQvciU-SlxIRYuZ7zWyvRno.jpg",
+      "description": "Mallorca.bak.20260418_133415 kentinde kentsel konforu yerel estetikle birleştiren Can Alemany, kentin sosyal ve kültürel dünyasına yüksek kaliteli bir kentsel dokunuş katan en samimi ve kentsel rotalardan biridir.",
+      "description_en": "As a refined social and cultural point in Mallorca.bak.20260418_133415, Can Alemany offers a high-quality experience that perfectly merges urban convenience with local aesthetic charm.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJlzT0QVCSlxIRhpU6VPrT1nQ",
+      "name": "CaixaForum Palma",
+      "name_en": "CaixaForum Palma",
+      "category": "Deneyim",
+      "tags": [
+        "mallorca",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.5716495,
+      "lng": 2.650062300000001,
+      "rating": 4.5,
+      "reviewCount": 2004,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/mallorca/ChIJlzT0QVCSlxIRhpU6VPrT1nQ.jpg",
+      "description": "Mallorca.bak.20260418_133415 kentinde kentsel konforu yerel estetikle birleştiren CaixaForum Palma, kentin sosyal ve kültürel dünyasına yüksek kaliteli bir kentsel dokunuş katan en samimi ve kentsel rotalardan biridir.",
+      "description_en": "As a refined social and cultural point in Mallorca.bak.20260418_133415, CaixaForum Palma offers a high-quality experience that perfectly merges urban convenience with local aesthetic charm.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJx3sqB3eOlxIRzY_BRZ-4IoQ",
+      "name": "Roc Illetas",
+      "name_en": "Roc Illetas",
+      "category": "Restoran",
+      "tags": [
+        "mallorca",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.5385648,
+      "lng": 2.5923223,
+      "rating": 4.2,
+      "reviewCount": 944,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/mallorca/ChIJx3sqB3eOlxIRzY_BRZ-4IoQ.jpg",
+      "description": "Mallorca.bak.20260418_133415 kentinin gastronomi dünyasında otantik lezzetleri ve dinamik sosyal atmosferiyle tanınan Roc Illetas, yerel mutfak kültürünü en prestijli şekilde deneyimlemek isteyenlerin en samimi adresidir.",
+      "description_en": "A prestigious culinary destination in Mallorca.bak.20260418_133415 known for its authentic flavors and vibrant social atmosphere, Roc Illetas is the perfect spot for experiencing high-end local gastronomy.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJf3wSntiNlxIRo8CCeZSw4Ts",
+      "name": "Hotel Bon Sol Resort & Spa",
+      "name_en": "Hotel Bon Sol Resort & Spa",
+      "category": "Restoran",
+      "tags": [
+        "mallorca",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.54058070000001,
+      "lng": 2.592458,
+      "rating": 4.7,
+      "reviewCount": 502,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/mallorca/ChIJf3wSntiNlxIRo8CCeZSw4Ts.jpg",
+      "description": "Geleneksel tarifleri modern bir kentsel dokunuşla harmanlayan Hotel Bon Sol Resort & Spa, Mallorca.bak.20260418_133415 kentinde gurme lezzetler arayan sosyal gezginler için şık ve kentsel bir lezzet kaçış rotası vaat etmektedir.",
+      "description_en": "Merging traditional recipes with modern urban flair, this restaurant offers a sophisticated social escape for food lovers visiting Hotel Bon Sol Resort & Spa in Mallorca.bak.20260418_133415.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJJwHxZ4OOlxIRW-BAHEzC04E",
+      "name": "Sallès Hotels Marina Portals",
+      "name_en": "Sallès Hotels Marina Portals",
+      "category": "Restoran",
+      "tags": [
+        "mallorca",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.5361711,
+      "lng": 2.5703673,
+      "rating": 4.2,
+      "reviewCount": 1703,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/mallorca/ChIJJwHxZ4OOlxIRW-BAHEzC04E.jpg",
+      "description": "Mallorca.bak.20260418_133415 kentinin gastronomi dünyasında otantik lezzetleri ve dinamik sosyal atmosferiyle tanınan Sallès Hotels Marina Portals, yerel mutfak kültürünü en prestijli şekilde deneyimlemek isteyenlerin en samimi adresidir.",
+      "description_en": "A prestigious culinary destination in Mallorca.bak.20260418_133415 known for its authentic flavors and vibrant social atmosphere, Sallès Hotels Marina Portals is the perfect spot for experiencing high-end local gastronomy.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJRXqd3USSlxIRt5DCbb2ob40",
+      "name": "Petit Palace Hotel Tres",
+      "name_en": "Petit Palace Hotel Tres",
+      "category": "Restoran",
+      "tags": [
+        "mallorca",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.5689865,
+      "lng": 2.6455343,
+      "rating": 4.6,
+      "reviewCount": 468,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/mallorca/ChIJRXqd3USSlxIRt5DCbb2ob40.jpg",
+      "description": "Geleneksel tarifleri modern bir kentsel dokunuşla harmanlayan Petit Palace Hotel Tres, Mallorca.bak.20260418_133415 kentinde gurme lezzetler arayan sosyal gezginler için şık ve kentsel bir lezzet kaçış rotası vaat etmektedir.",
+      "description_en": "Merging traditional recipes with modern urban flair, this restaurant offers a sophisticated social escape for food lovers visiting Petit Palace Hotel Tres in Mallorca.bak.20260418_133415.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJI0J2ZZyWlxIR4Mm6_DwuPqQ",
+      "name": "Alua Leo",
+      "name_en": "Alua Leo",
+      "category": "Restoran",
+      "tags": [
+        "mallorca",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.5342667,
+      "lng": 2.7245211,
+      "rating": 4.2,
+      "reviewCount": 3731,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/mallorca/ChIJI0J2ZZyWlxIR4Mm6_DwuPqQ.jpg",
+      "description": "Yerel malzemelere ve kentsel mutfak sanatına olan bağlılığıyla tanınan Alua Leo, Mallorca.bak.20260418_133415 kentinin kalbindeki en stil sahibi kentsel lezzet duraklarından biri olarak öne çıkan bir kentsel merkezdir.",
+      "description_en": "Renowned for its commitment to local ingredients and urban culinary art, Alua Leo stands as a flavor stronghold in the heart of Mallorca.bak.20260418_133415's vibrant dining scene.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJ_fP5iQmSlxIRpckX1ae_f4Y",
+      "name": "GPRO Valparaiso Palace & Spa",
+      "name_en": "GPRO Valparaiso Palace & Spa",
+      "category": "Restoran",
+      "tags": [
+        "mallorca",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.5553455,
+      "lng": 2.6193543,
+      "rating": 4.4,
+      "reviewCount": 1944,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/mallorca/ChIJ_fP5iQmSlxIRpckX1ae_f4Y.jpg",
+      "description": "Geleneksel tarifleri modern bir kentsel dokunuşla harmanlayan GPRO Valparaiso Palace & Spa, Mallorca.bak.20260418_133415 kentinde gurme lezzetler arayan sosyal gezginler için şık ve kentsel bir lezzet kaçış rotası vaat etmektedir.",
+      "description_en": "Merging traditional recipes with modern urban flair, this restaurant offers a sophisticated social escape for food lovers visiting GPRO Valparaiso Palace & Spa in Mallorca.bak.20260418_133415.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJ030lTNyNlxIRkoTe_M1QLsU",
+      "name": "Hospes Maricel",
+      "name_en": "Hospes Maricel",
+      "category": "Restoran",
+      "tags": [
+        "mallorca",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.54728,
+      "lng": 2.5963777,
+      "rating": 4.7,
+      "reviewCount": 3162,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/mallorca/ChIJ030lTNyNlxIRkoTe_M1QLsU.jpg",
+      "description": "Geleneksel tarifleri modern bir kentsel dokunuşla harmanlayan Hospes Maricel, Mallorca.bak.20260418_133415 kentinde gurme lezzetler arayan sosyal gezginler için şık ve kentsel bir lezzet kaçış rotası vaat etmektedir.",
+      "description_en": "Merging traditional recipes with modern urban flair, this restaurant offers a sophisticated social escape for food lovers visiting Hospes Maricel in Mallorca.bak.20260418_133415.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJzVKOAU6SlxIR1Gq7Vsd1bGU",
+      "name": "Posada Terra Santa",
+      "name_en": "Posada Terra Santa",
+      "category": "Restoran",
+      "tags": [
+        "mallorca",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.56989,
+      "lng": 2.653395,
+      "rating": 4.8,
+      "reviewCount": 413,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/mallorca/ChIJzVKOAU6SlxIR1Gq7Vsd1bGU.jpg",
+      "description": "Geleneksel tarifleri modern bir kentsel dokunuşla harmanlayan Posada Terra Santa, Mallorca.bak.20260418_133415 kentinde gurme lezzetler arayan sosyal gezginler için şık ve kentsel bir lezzet kaçış rotası vaat etmektedir.",
+      "description_en": "Merging traditional recipes with modern urban flair, this restaurant offers a sophisticated social escape for food lovers visiting Posada Terra Santa in Mallorca.bak.20260418_133415.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJJUJc_WeSlxIR8TjWsA9o7Kw",
+      "name": "Hotel Hostal Cuba",
+      "name_en": "Hotel Hostal Cuba",
+      "category": "Restoran",
+      "tags": [
+        "mallorca",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.5702062,
+      "lng": 2.6391515,
+      "rating": 4.1,
+      "reviewCount": 2669,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/mallorca/ChIJJUJc_WeSlxIR8TjWsA9o7Kw.jpg",
+      "description": "Mallorca.bak.20260418_133415 kentinin gastronomi dünyasında otantik lezzetleri ve dinamik sosyal atmosferiyle tanınan Hotel Hostal Cuba, yerel mutfak kültürünü en prestijli şekilde deneyimlemek isteyenlerin en samimi adresidir.",
+      "description_en": "A prestigious culinary destination in Mallorca.bak.20260418_133415 known for its authentic flavors and vibrant social atmosphere, Hotel Hostal Cuba is the perfect spot for experiencing high-end local gastronomy.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJx9-bd32OlxIRpvyZeGOMoZc",
+      "name": "Hotel Bendinat",
+      "name_en": "Hotel Bendinat",
+      "category": "Restoran",
+      "tags": [
+        "mallorca",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.532265,
+      "lng": 2.579967,
+      "rating": 4.4,
+      "reviewCount": 1061,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/mallorca/ChIJx9-bd32OlxIRpvyZeGOMoZc.jpg",
+      "description": "Mallorca.bak.20260418_133415 kentinin gastronomi dünyasında otantik lezzetleri ve dinamik sosyal atmosferiyle tanınan Hotel Bendinat, yerel mutfak kültürünü en prestijli şekilde deneyimlemek isteyenlerin en samimi adresidir.",
+      "description_en": "A prestigious culinary destination in Mallorca.bak.20260418_133415 known for its authentic flavors and vibrant social atmosphere, Hotel Bendinat is the perfect spot for experiencing high-end local gastronomy.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJB5NZmWOWlxIRHYVyowelens",
+      "name": "Hotel THB María Isabel",
+      "name_en": "Hotel THB María Isabel",
+      "category": "Restoran",
+      "tags": [
+        "mallorca",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.5238935,
+      "lng": 2.7421485,
+      "rating": 4.3,
+      "reviewCount": 1284,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/mallorca/ChIJB5NZmWOWlxIRHYVyowelens.jpg",
+      "description": "Geleneksel tarifleri modern bir kentsel dokunuşla harmanlayan Hotel THB María Isabel, Mallorca.bak.20260418_133415 kentinde gurme lezzetler arayan sosyal gezginler için şık ve kentsel bir lezzet kaçış rotası vaat etmektedir.",
+      "description_en": "Merging traditional recipes with modern urban flair, this restaurant offers a sophisticated social escape for food lovers visiting Hotel THB María Isabel in Mallorca.bak.20260418_133415.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJjcao54eWlxIRxW_PkmeY-kI",
+      "name": "BG HOTEL PAMPLONA",
+      "name_en": "BG HOTEL PAMPLONA",
+      "category": "Restoran",
+      "tags": [
+        "mallorca",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.526672,
+      "lng": 2.736275,
+      "rating": 4.3,
+      "reviewCount": 1535,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/mallorca/ChIJjcao54eWlxIRxW_PkmeY-kI.jpg",
+      "description": "Yerel malzemelere ve kentsel mutfak sanatına olan bağlılığıyla tanınan BG HOTEL PAMPLONA, Mallorca.bak.20260418_133415 kentinin kalbindeki en stil sahibi kentsel lezzet duraklarından biri olarak öne çıkan bir kentsel merkezdir.",
+      "description_en": "Renowned for its commitment to local ingredients and urban culinary art, BG HOTEL PAMPLONA stands as a flavor stronghold in the heart of Mallorca.bak.20260418_133415's vibrant dining scene.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJ3-nnOGKWlxIR--EVaejOzcw",
+      "name": "tent Capi Playa",
+      "name_en": "tent Capi Playa",
+      "category": "Restoran",
+      "tags": [
+        "mallorca",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.5226817,
+      "lng": 2.7400787,
+      "rating": 4.3,
+      "reviewCount": 980,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/mallorca/ChIJ3-nnOGKWlxIR--EVaejOzcw.jpg",
+      "description": "Yerel malzemelere ve kentsel mutfak sanatına olan bağlılığıyla tanınan tent Capi Playa, Mallorca.bak.20260418_133415 kentinin kalbindeki en stil sahibi kentsel lezzet duraklarından biri olarak öne çıkan bir kentsel merkezdir.",
+      "description_en": "Renowned for its commitment to local ingredients and urban culinary art, tent Capi Playa stands as a flavor stronghold in the heart of Mallorca.bak.20260418_133415's vibrant dining scene.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJw-8BdmKWlxIR0Bqw4gMtD_Q",
+      "name": "Iberostar Selection Playa de Palma",
+      "name_en": "Iberostar Selection Playa de Palma",
+      "category": "Restoran",
+      "tags": [
+        "mallorca",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.5234776,
+      "lng": 2.7384031,
+      "rating": 4.7,
+      "reviewCount": 3373,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/mallorca/ChIJw-8BdmKWlxIR0Bqw4gMtD_Q.jpg",
+      "description": "Mallorca.bak.20260418_133415 kentinin gastronomi dünyasında otantik lezzetleri ve dinamik sosyal atmosferiyle tanınan Iberostar Selection Playa de Palma, yerel mutfak kültürünü en prestijli şekilde deneyimlemek isteyenlerin en samimi adresidir.",
+      "description_en": "A prestigious culinary destination in Mallorca.bak.20260418_133415 known for its authentic flavors and vibrant social atmosphere, Iberostar Selection Playa de Palma is the perfect spot for experiencing high-end local gastronomy.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJe1rp-FOSlxIRIA-Jj1Pzacc",
+      "name": "Naturalment",
+      "name_en": "Naturalment",
+      "category": "Restoran",
+      "tags": [
+        "mallorca",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.5706579,
+      "lng": 2.6511136,
+      "rating": 1,
+      "reviewCount": 1,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/mallorca/ChIJe1rp-FOSlxIRIA-Jj1Pzacc.jpg",
+      "description": "Yerel malzemelere ve kentsel mutfak sanatına olan bağlılığıyla tanınan Naturalment, Mallorca.bak.20260418_133415 kentinin kalbindeki en stil sahibi kentsel lezzet duraklarından biri olarak öne çıkan bir kentsel merkezdir.",
+      "description_en": "Renowned for its commitment to local ingredients and urban culinary art, Naturalment stands as a flavor stronghold in the heart of Mallorca.bak.20260418_133415's vibrant dining scene.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJEQZo3U-SlxIRGIlk5-EXNjQ",
+      "name": "Hotel Cappuccino - Palma",
+      "name_en": "Hotel Cappuccino - Palma",
+      "category": "Restoran",
+      "tags": [
+        "mallorca",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.56971739999999,
+      "lng": 2.6502664,
+      "rating": 4.4,
+      "reviewCount": 1587,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/mallorca/ChIJEQZo3U-SlxIRGIlk5-EXNjQ.jpg",
+      "description": "Geleneksel tarifleri modern bir kentsel dokunuşla harmanlayan Hotel Cappuccino - Palma, Mallorca.bak.20260418_133415 kentinde gurme lezzetler arayan sosyal gezginler için şık ve kentsel bir lezzet kaçış rotası vaat etmektedir.",
+      "description_en": "Merging traditional recipes with modern urban flair, this restaurant offers a sophisticated social escape for food lovers visiting Hotel Cappuccino - Palma in Mallorca.bak.20260418_133415.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJoegB1USSlxIRY4l-EKhDs9c",
+      "name": "Can Alomar Urban Luxury Retreat",
+      "name_en": "Can Alomar Urban Luxury Retreat",
+      "category": "Restoran",
+      "tags": [
+        "mallorca",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.56991110000001,
+      "lng": 2.6461194,
+      "rating": 4.7,
+      "reviewCount": 356,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/mallorca/ChIJoegB1USSlxIRY4l-EKhDs9c.jpg",
+      "description": "Mallorca.bak.20260418_133415 kentinin gastronomi dünyasında otantik lezzetleri ve dinamik sosyal atmosferiyle tanınan Can Alomar Urban Luxury Retreat, yerel mutfak kültürünü en prestijli şekilde deneyimlemek isteyenlerin en samimi adresidir.",
+      "description_en": "A prestigious culinary destination in Mallorca.bak.20260418_133415 known for its authentic flavors and vibrant social atmosphere, Can Alomar Urban Luxury Retreat is the perfect spot for experiencing high-end local gastronomy.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJA2USlX2PlxIRJCOeKj1cgUs",
+      "name": "Leonardo Boutique Hotel Mallorca Port Portals - Adults Only",
+      "name_en": "Leonardo Boutique Hotel Mallorca Port Portals - Adults Only",
+      "category": "Restoran",
+      "tags": [
+        "mallorca",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.5343812,
+      "lng": 2.5660423,
+      "rating": 4.5,
+      "reviewCount": 964,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/mallorca/ChIJA2USlX2PlxIRJCOeKj1cgUs.jpg",
+      "description": "Geleneksel tarifleri modern bir kentsel dokunuşla harmanlayan Leonardo Boutique Hotel Mallorca Port Portals - Adults Only, Mallorca.bak.20260418_133415 kentinde gurme lezzetler arayan sosyal gezginler için şık ve kentsel bir lezzet kaçış rotası vaat etmektedir.",
+      "description_en": "Merging traditional recipes with modern urban flair, this restaurant offers a sophisticated social escape for food lovers visiting Leonardo Boutique Hotel Mallorca Port Portals - Adults Only in Mallorca.bak.20260418_133415.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJy0sW2VqSlxIRVYiQOc_wKYg",
+      "name": "Restaurant El Pilón",
+      "name_en": "Restaurant El Pilón",
+      "category": "Restoran",
+      "tags": [
+        "mallorca",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.5710603,
+      "lng": 2.6463035,
+      "rating": 4.4,
+      "reviewCount": 1745,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/mallorca/ChIJy0sW2VqSlxIRVYiQOc_wKYg.jpg",
+      "description": "Yerel malzemelere ve kentsel mutfak sanatına olan bağlılığıyla tanınan Restaurant El Pilón, Mallorca.bak.20260418_133415 kentinin kalbindeki en stil sahibi kentsel lezzet duraklarından biri olarak öne çıkan bir kentsel merkezdir.",
+      "description_en": "Renowned for its commitment to local ingredients and urban culinary art, Restaurant El Pilón stands as a flavor stronghold in the heart of Mallorca.bak.20260418_133415's vibrant dining scene.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJfz378k6SlxIRQgnPvhdBurw",
+      "name": "Santa Clara Urban Hotel & Spa",
+      "name_en": "Santa Clara Urban Hotel & Spa",
+      "category": "Restoran",
+      "tags": [
+        "mallorca",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.5668394,
+      "lng": 2.6522388,
+      "rating": 4.5,
+      "reviewCount": 263,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/mallorca/ChIJfz378k6SlxIRQgnPvhdBurw.jpg",
+      "description": "Mallorca.bak.20260418_133415 kentinin gastronomi dünyasında otantik lezzetleri ve dinamik sosyal atmosferiyle tanınan Santa Clara Urban Hotel & Spa, yerel mutfak kültürünü en prestijli şekilde deneyimlemek isteyenlerin en samimi adresidir.",
+      "description_en": "A prestigious culinary destination in Mallorca.bak.20260418_133415 known for its authentic flavors and vibrant social atmosphere, Santa Clara Urban Hotel & Spa is the perfect spot for experiencing high-end local gastronomy.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJa286tk-SlxIR2Cbko3a4S0E",
+      "name": "Cafè Plaça",
+      "name_en": "Cafè Plaça",
+      "category": "Restoran",
+      "tags": [
+        "mallorca",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.5687386,
+      "lng": 2.6507942,
+      "rating": 3.8,
+      "reviewCount": 1263,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/mallorca/ChIJa286tk-SlxIR2Cbko3a4S0E.jpg",
+      "description": "Geleneksel tarifleri modern bir kentsel dokunuşla harmanlayan Cafè Plaça, Mallorca.bak.20260418_133415 kentinde gurme lezzetler arayan sosyal gezginler için şık ve kentsel bir lezzet kaçış rotası vaat etmektedir.",
+      "description_en": "Merging traditional recipes with modern urban flair, this restaurant offers a sophisticated social escape for food lovers visiting Cafè Plaça in Mallorca.bak.20260418_133415.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJ149YX12SlxIRpg_GxamF4CE",
+      "name": "La Madeleine de Proust Santa Catalina",
+      "name_en": "La Madeleine de Proust Santa Catalina",
+      "category": "Restoran",
+      "tags": [
+        "mallorca",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.571281,
+      "lng": 2.638807,
+      "rating": 4.1,
+      "reviewCount": 320,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/mallorca/ChIJ149YX12SlxIRpg_GxamF4CE.jpg",
+      "description": "Geleneksel tarifleri modern bir kentsel dokunuşla harmanlayan La Madeleine de Proust Santa Catalina, Mallorca.bak.20260418_133415 kentinde gurme lezzetler arayan sosyal gezginler için şık ve kentsel bir lezzet kaçış rotası vaat etmektedir.",
+      "description_en": "Merging traditional recipes with modern urban flair, this restaurant offers a sophisticated social escape for food lovers visiting La Madeleine de Proust Santa Catalina in Mallorca.bak.20260418_133415.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJz6NGWUOSlxIRdtjfhGXaR3c",
+      "name": "Bar Cafe Coto",
+      "name_en": "Bar Cafe Coto",
+      "category": "Restoran",
+      "tags": [
+        "mallorca",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.569472,
+      "lng": 2.643938,
+      "rating": 4.5,
+      "reviewCount": 3146,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/mallorca/ChIJz6NGWUOSlxIRdtjfhGXaR3c.jpg",
+      "description": "Geleneksel tarifleri modern bir kentsel dokunuşla harmanlayan Bar Cafe Coto, Mallorca.bak.20260418_133415 kentinde gurme lezzetler arayan sosyal gezginler için şık ve kentsel bir lezzet kaçış rotası vaat etmektedir.",
+      "description_en": "Merging traditional recipes with modern urban flair, this restaurant offers a sophisticated social escape for food lovers visiting Bar Cafe Coto in Mallorca.bak.20260418_133415.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJJfXUTTuTlxIRxQ3lsnL8XHM",
+      "name": "Edificio Vip Asima",
+      "name_en": "Edificio Vip Asima",
+      "category": "Restoran",
+      "tags": [
+        "mallorca",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.6064966,
+      "lng": 2.6695894,
+      "rating": 4.4,
+      "reviewCount": 116,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/mallorca/ChIJJfXUTTuTlxIRxQ3lsnL8XHM.jpg",
+      "description": "Mallorca.bak.20260418_133415 kentinin gastronomi dünyasında otantik lezzetleri ve dinamik sosyal atmosferiyle tanınan Edificio Vip Asima, yerel mutfak kültürünü en prestijli şekilde deneyimlemek isteyenlerin en samimi adresidir.",
+      "description_en": "A prestigious culinary destination in Mallorca.bak.20260418_133415 known for its authentic flavors and vibrant social atmosphere, Edificio Vip Asima is the perfect spot for experiencing high-end local gastronomy.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJs2r9gVuSlxIRiuG8823VKcY",
+      "name": "Can Joan de s'Aigo",
+      "name_en": "Can Joan de s'Aigo",
+      "category": "Restoran",
+      "tags": [
+        "mallorca",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.5728493,
+      "lng": 2.6439216,
+      "rating": 4.5,
+      "reviewCount": 4940,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/mallorca/ChIJs2r9gVuSlxIRiuG8823VKcY.jpg",
+      "description": "Mallorca.bak.20260418_133415 kentinin gastronomi dünyasında otantik lezzetleri ve dinamik sosyal atmosferiyle tanınan Can Joan de s'Aigo, yerel mutfak kültürünü en prestijli şekilde deneyimlemek isteyenlerin en samimi adresidir.",
+      "description_en": "A prestigious culinary destination in Mallorca.bak.20260418_133415 known for its authentic flavors and vibrant social atmosphere, Can Joan de s'Aigo is the perfect spot for experiencing high-end local gastronomy.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJYXIphFeSlxIRdTeLTXpq7ZI",
+      "name": "miniBAR Palma - Cafe y Jamón Ibérico al Corte",
+      "name_en": "miniBAR Palma - Cafe y Jamón Ibérico al Corte",
+      "category": "Restoran",
+      "tags": [
+        "mallorca",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.5781561,
+      "lng": 2.6489844,
+      "rating": 4.6,
+      "reviewCount": 282,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/mallorca/ChIJYXIphFeSlxIRdTeLTXpq7ZI.jpg",
+      "description": "Mallorca.bak.20260418_133415 kentinin gastronomi dünyasında otantik lezzetleri ve dinamik sosyal atmosferiyle tanınan miniBAR Palma - Cafe y Jamón Ibérico al Corte, yerel mutfak kültürünü en prestijli şekilde deneyimlemek isteyenlerin en samimi adresidir.",
+      "description_en": "A prestigious culinary destination in Mallorca.bak.20260418_133415 known for its authentic flavors and vibrant social atmosphere, miniBAR Palma - Cafe y Jamón Ibérico al Corte is the perfect spot for experiencing high-end local gastronomy.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJrxAVQ6qTlxIRYbgrjomSp9I",
+      "name": "Café Al Vent del Món",
+      "name_en": "Café Al Vent del Món",
+      "category": "Restoran",
+      "tags": [
+        "mallorca",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.5785388,
+      "lng": 2.66172,
+      "rating": 4.1,
+      "reviewCount": 571,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/mallorca/ChIJrxAVQ6qTlxIRYbgrjomSp9I.jpg",
+      "description": "Yerel malzemelere ve kentsel mutfak sanatına olan bağlılığıyla tanınan Café Al Vent del Món, Mallorca.bak.20260418_133415 kentinin kalbindeki en stil sahibi kentsel lezzet duraklarından biri olarak öne çıkan bir kentsel merkezdir.",
+      "description_en": "Renowned for its commitment to local ingredients and urban culinary art, Café Al Vent del Món stands as a flavor stronghold in the heart of Mallorca.bak.20260418_133415's vibrant dining scene.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJkZQoxpWNlxIR16kMCFPrF18",
+      "name": "Genova69 Bar-Restaurant",
+      "name_en": "Genova69 Bar-Restaurant",
+      "category": "Restoran",
+      "tags": [
+        "mallorca",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.5641521,
+      "lng": 2.6009429,
+      "rating": 4.1,
+      "reviewCount": 85,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/mallorca/ChIJkZQoxpWNlxIR16kMCFPrF18.jpg",
+      "description": "Yerel malzemelere ve kentsel mutfak sanatına olan bağlılığıyla tanınan Genova69 Bar-Restaurant, Mallorca.bak.20260418_133415 kentinin kalbindeki en stil sahibi kentsel lezzet duraklarından biri olarak öne çıkan bir kentsel merkezdir.",
+      "description_en": "Renowned for its commitment to local ingredients and urban culinary art, Genova69 Bar-Restaurant stands as a flavor stronghold in the heart of Mallorca.bak.20260418_133415's vibrant dining scene.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJ6bYxXK2TlxIRAXv9zuQLr3w",
+      "name": "LUXOR CAFE PALMA",
+      "name_en": "LUXOR CAFE PALMA",
+      "category": "Restoran",
+      "tags": [
+        "mallorca",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.5702736,
+      "lng": 2.6596262,
+      "rating": 4.6,
+      "reviewCount": 170,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/mallorca/ChIJ6bYxXK2TlxIRAXv9zuQLr3w.jpg",
+      "description": "Mallorca.bak.20260418_133415 kentinin gastronomi dünyasında otantik lezzetleri ve dinamik sosyal atmosferiyle tanınan LUXOR CAFE PALMA, yerel mutfak kültürünü en prestijli şekilde deneyimlemek isteyenlerin en samimi adresidir.",
+      "description_en": "A prestigious culinary destination in Mallorca.bak.20260418_133415 known for its authentic flavors and vibrant social atmosphere, LUXOR CAFE PALMA is the perfect spot for experiencing high-end local gastronomy.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJG44vtVaSlxIRWW2yiQejrTY",
+      "name": "Café & Té",
+      "name_en": "Café & Té",
+      "category": "Restoran",
+      "tags": [
+        "mallorca",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.5753474,
+      "lng": 2.6526156,
+      "rating": 2.6,
+      "reviewCount": 9,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/mallorca/ChIJG44vtVaSlxIRWW2yiQejrTY.jpg",
+      "description": "Geleneksel tarifleri modern bir kentsel dokunuşla harmanlayan Café & Té, Mallorca.bak.20260418_133415 kentinde gurme lezzetler arayan sosyal gezginler için şık ve kentsel bir lezzet kaçış rotası vaat etmektedir.",
+      "description_en": "Merging traditional recipes with modern urban flair, this restaurant offers a sophisticated social escape for food lovers visiting Café & Té in Mallorca.bak.20260418_133415.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJrTlogImSlxIRXbWMEvJdTNg",
+      "name": "R.j.j.",
+      "name_en": "R.j.j.",
+      "category": "Restoran",
+      "tags": [
+        "mallorca",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.5833303,
+      "lng": 2.6338804,
+      "rating": 4.3,
+      "reviewCount": 108,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/mallorca/ChIJrTlogImSlxIRXbWMEvJdTNg.jpg",
+      "description": "Geleneksel tarifleri modern bir kentsel dokunuşla harmanlayan R.j.j., Mallorca.bak.20260418_133415 kentinde gurme lezzetler arayan sosyal gezginler için şık ve kentsel bir lezzet kaçış rotası vaat etmektedir.",
+      "description_en": "Merging traditional recipes with modern urban flair, this restaurant offers a sophisticated social escape for food lovers visiting R.j.j. in Mallorca.bak.20260418_133415.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJdSOrC5WNlxIR2BIcUl9bmMg",
+      "name": "Forn del Santo Cristo",
+      "name_en": "Forn del Santo Cristo",
+      "category": "Restoran",
+      "tags": [
+        "mallorca",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.5740302,
+      "lng": 2.652053,
+      "rating": 4.1,
+      "reviewCount": 852,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/mallorca/ChIJdSOrC5WNlxIR2BIcUl9bmMg.jpg",
+      "description": "Yerel malzemelere ve kentsel mutfak sanatına olan bağlılığıyla tanınan Forn del Santo Cristo, Mallorca.bak.20260418_133415 kentinin kalbindeki en stil sahibi kentsel lezzet duraklarından biri olarak öne çıkan bir kentsel merkezdir.",
+      "description_en": "Renowned for its commitment to local ingredients and urban culinary art, Forn del Santo Cristo stands as a flavor stronghold in the heart of Mallorca.bak.20260418_133415's vibrant dining scene.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJQ1yZF6-TlxIRpTq_KuF_OGs",
+      "name": "Punt de Joc (Metropolitan)",
+      "name_en": "Punt de Joc (Metropolitan)",
+      "category": "Restoran",
+      "tags": [
+        "mallorca",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.5734572,
+      "lng": 2.6663208,
+      "rating": 3.9,
+      "reviewCount": 143,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/mallorca/ChIJQ1yZF6-TlxIRpTq_KuF_OGs.jpg",
+      "description": "Yerel malzemelere ve kentsel mutfak sanatına olan bağlılığıyla tanınan Punt de Joc (Metropolitan), Mallorca.bak.20260418_133415 kentinin kalbindeki en stil sahibi kentsel lezzet duraklarından biri olarak öne çıkan bir kentsel merkezdir.",
+      "description_en": "Renowned for its commitment to local ingredients and urban culinary art, Punt de Joc (Metropolitan) stands as a flavor stronghold in the heart of Mallorca.bak.20260418_133415's vibrant dining scene.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJLd3YnE-SlxIRFSQXs5MES-g",
+      "name": "Duguis...",
+      "name_en": "Duguis...",
+      "category": "Restoran",
+      "tags": [
+        "mallorca",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.56767860000001,
+      "lng": 2.6493832,
+      "rating": 3.5,
+      "reviewCount": 6,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/mallorca/ChIJLd3YnE-SlxIRFSQXs5MES-g.jpg",
+      "description": "Mallorca.bak.20260418_133415 kentinin gastronomi dünyasında otantik lezzetleri ve dinamik sosyal atmosferiyle tanınan Duguis..., yerel mutfak kültürünü en prestijli şekilde deneyimlemek isteyenlerin en samimi adresidir.",
+      "description_en": "A prestigious culinary destination in Mallorca.bak.20260418_133415 known for its authentic flavors and vibrant social atmosphere, Duguis... is the perfect spot for experiencing high-end local gastronomy.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJ4wxyLVCSlxIR4jUA8RLG6K0",
+      "name": "Bar Plata",
+      "name_en": "Bar Plata",
+      "category": "Restoran",
+      "tags": [
+        "mallorca",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.5699514,
+      "lng": 2.6512303,
+      "rating": 4.7,
+      "reviewCount": 216,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/mallorca/ChIJ4wxyLVCSlxIR4jUA8RLG6K0.jpg",
+      "description": "Geleneksel tarifleri modern bir kentsel dokunuşla harmanlayan Bar Plata, Mallorca.bak.20260418_133415 kentinde gurme lezzetler arayan sosyal gezginler için şık ve kentsel bir lezzet kaçış rotası vaat etmektedir.",
+      "description_en": "Merging traditional recipes with modern urban flair, this restaurant offers a sophisticated social escape for food lovers visiting Bar Plata in Mallorca.bak.20260418_133415.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJT19NmlSSlxIRErYBkYVtVCQ",
+      "name": "Cafè Barroco",
+      "name_en": "Cafè Barroco",
+      "category": "Restoran",
+      "tags": [
+        "mallorca",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.5755088,
+      "lng": 2.657056,
+      "rating": 4.5,
+      "reviewCount": 584,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/mallorca/ChIJT19NmlSSlxIRErYBkYVtVCQ.jpg",
+      "description": "Geleneksel tarifleri modern bir kentsel dokunuşla harmanlayan Cafè Barroco, Mallorca.bak.20260418_133415 kentinde gurme lezzetler arayan sosyal gezginler için şık ve kentsel bir lezzet kaçış rotası vaat etmektedir.",
+      "description_en": "Merging traditional recipes with modern urban flair, this restaurant offers a sophisticated social escape for food lovers visiting Cafè Barroco in Mallorca.bak.20260418_133415.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJ9_sQiAuTlxIRRXUPnWKl4DI",
+      "name": "La Parada",
+      "name_en": "La Parada",
+      "category": "Restoran",
+      "tags": [
+        "mallorca",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.5849731,
+      "lng": 2.6753574,
+      "rating": 4,
+      "reviewCount": 39,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/mallorca/ChIJ9_sQiAuTlxIRRXUPnWKl4DI.jpg",
+      "description": "Mallorca.bak.20260418_133415 kentinin gastronomi dünyasında otantik lezzetleri ve dinamik sosyal atmosferiyle tanınan La Parada, yerel mutfak kültürünü en prestijli şekilde deneyimlemek isteyenlerin en samimi adresidir.",
+      "description_en": "A prestigious culinary destination in Mallorca.bak.20260418_133415 known for its authentic flavors and vibrant social atmosphere, La Parada is the perfect spot for experiencing high-end local gastronomy.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJmdMpK1CSlxIRW8qv_4wSWLA",
+      "name": "Pastisseria Mariola’s",
+      "name_en": "Pastisseria Mariola’s",
+      "category": "Restoran",
+      "tags": [
+        "mallorca",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.5702143,
+      "lng": 2.651163,
+      "rating": 4.4,
+      "reviewCount": 869,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/mallorca/ChIJmdMpK1CSlxIRW8qv_4wSWLA.jpg",
+      "description": "Geleneksel tarifleri modern bir kentsel dokunuşla harmanlayan Pastisseria Mariola’s, Mallorca.bak.20260418_133415 kentinde gurme lezzetler arayan sosyal gezginler için şık ve kentsel bir lezzet kaçış rotası vaat etmektedir.",
+      "description_en": "Merging traditional recipes with modern urban flair, this restaurant offers a sophisticated social escape for food lovers visiting Pastisseria Mariola’s in Mallorca.bak.20260418_133415.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJ4-PvdYiWlxIRV6Oa2P_cKsc",
+      "name": "Hotel Caballero",
+      "name_en": "Hotel Caballero",
+      "category": "Deneyim",
+      "tags": [
+        "mallorca",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.5275444,
+      "lng": 2.7363023,
+      "rating": 4.3,
+      "reviewCount": 3106,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/mallorca/ChIJ4-PvdYiWlxIRV6Oa2P_cKsc.jpg",
+      "description": "Mallorca.bak.20260418_133415 kentinin kentsel enerjisini ve kültürel kimliğini yansıtan Hotel Caballero, kenti keşfeden gezginlerin kentsel keşif albümündeki en ikonik ve fotojenik kentsel duraklardan birisi haline gelmiştir.",
+      "description_en": "A prominent urban landmark in Mallorca.bak.20260418_133415 that defines the area's contemporary spirit and cultural identity, Hotel Caballero serves as a prestigious and unique stop for every traveler.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJ4a3aTKaWlxIRswFN7GZDDhk",
+      "name": "Purobeach Palma",
+      "name_en": "Purobeach Palma",
+      "category": "Restoran",
+      "tags": [
+        "mallorca",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.5352176,
+      "lng": 2.7096561,
+      "rating": 4.2,
+      "reviewCount": 3168,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/mallorca/ChIJ4a3aTKaWlxIRswFN7GZDDhk.jpg",
+      "description": "Mallorca.bak.20260418_133415 kentinin gastronomi dünyasında otantik lezzetleri ve dinamik sosyal atmosferiyle tanınan Purobeach Palma, yerel mutfak kültürünü en prestijli şekilde deneyimlemek isteyenlerin en samimi adresidir.",
+      "description_en": "A prestigious culinary destination in Mallorca.bak.20260418_133415 known for its authentic flavors and vibrant social atmosphere, Purobeach Palma is the perfect spot for experiencing high-end local gastronomy.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJm-bKyUSSlxIRAc3vwHrCeb0",
+      "name": "Bar Abaco",
+      "name_en": "Bar Abaco",
+      "category": "Deneyim",
+      "tags": [
+        "mallorca",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.5689569,
+      "lng": 2.6451399,
+      "rating": 4.2,
+      "reviewCount": 3163,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/mallorca/ChIJm-bKyUSSlxIRAc3vwHrCeb0.jpg",
+      "description": "Mallorca.bak.20260418_133415 sokaklarına özgün karakterini katan Bar Abaco, kentin modern enerjisini ve kültürel nabzını yansıtan kentsel bir prestij noktası ve sofistike bir kentsel sosyal durak kalesidir.",
+      "description_en": "Infusing the streets of Mallorca.bak.20260418_133415 with its unique character, Bar Abaco is a sophisticated urban destination that reflects the town's modern energy and creative pulse.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJNTC2BlGSlxIRh7YQEZ_poSo",
+      "name": "Mari lin Cafe Lounge",
+      "name_en": "Mari lin Cafe Lounge",
+      "category": "Restoran",
+      "tags": [
+        "mallorca",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.5729157,
+      "lng": 2.6515178,
+      "rating": 3.7,
+      "reviewCount": 179,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/mallorca/ChIJNTC2BlGSlxIRh7YQEZ_poSo.jpg",
+      "description": "Geleneksel tarifleri modern bir kentsel dokunuşla harmanlayan Mari lin Cafe Lounge, Mallorca.bak.20260418_133415 kentinde gurme lezzetler arayan sosyal gezginler için şık ve kentsel bir lezzet kaçış rotası vaat etmektedir.",
+      "description_en": "Merging traditional recipes with modern urban flair, this restaurant offers a sophisticated social escape for food lovers visiting Mari lin Cafe Lounge in Mallorca.bak.20260418_133415.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJmSc8EHKSlxIRrza9gS5ISXY",
+      "name": "Zar Society - Discoteca en Palma de Mallorca",
+      "name_en": "Zar Society - Discoteca en Palma de Mallorca",
+      "category": "Deneyim",
+      "tags": [
+        "mallorca",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.5644995,
+      "lng": 2.6277572,
+      "rating": 4.2,
+      "reviewCount": 514,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/mallorca/ChIJmSc8EHKSlxIRrza9gS5ISXY.jpg",
+      "description": "Mallorca.bak.20260418_133415 kentinin kentsel enerjisini ve kültürel kimliğini yansıtan Zar Society - Discoteca en Palma de Mallorca, kenti keşfeden gezginlerin kentsel keşif albümündeki en ikonik ve fotojenik kentsel duraklardan birisi haline gelmiştir.",
+      "description_en": "A prominent urban landmark in Mallorca.bak.20260418_133415 that defines the area's contemporary spirit and cultural identity, Zar Society - Discoteca en Palma de Mallorca serves as a prestigious and unique stop for every traveler.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJ4--ilkSSlxIRTYGMe3lBRpM",
+      "name": "El Barbero",
+      "name_en": "El Barbero",
+      "category": "Deneyim",
+      "tags": [
+        "mallorca",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.5686589,
+      "lng": 2.6446432,
+      "rating": 4.3,
+      "reviewCount": 164,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/mallorca/ChIJ4--ilkSSlxIRTYGMe3lBRpM.jpg",
+      "description": "Mallorca.bak.20260418_133415 kentinin kentsel enerjisini ve kültürel kimliğini yansıtan El Barbero, kenti keşfeden gezginlerin kentsel keşif albümündeki en ikonik ve fotojenik kentsel duraklardan birisi haline gelmiştir.",
+      "description_en": "A prominent urban landmark in Mallorca.bak.20260418_133415 that defines the area's contemporary spirit and cultural identity, El Barbero serves as a prestigious and unique stop for every traveler.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJGSXAZFySlxIRLoVmu_OPxgc",
+      "name": "L&C RESTAURANTE & BAR",
+      "name_en": "L&C RESTAURANTE & BAR",
+      "category": "Restoran",
+      "tags": [
+        "mallorca",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.5732189,
+      "lng": 2.6430568,
+      "rating": 4.7,
+      "reviewCount": 3,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/mallorca/ChIJGSXAZFySlxIRLoVmu_OPxgc.jpg",
+      "description": "Geleneksel tarifleri modern bir kentsel dokunuşla harmanlayan L&C RESTAURANTE & BAR, Mallorca.bak.20260418_133415 kentinde gurme lezzetler arayan sosyal gezginler için şık ve kentsel bir lezzet kaçış rotası vaat etmektedir.",
+      "description_en": "Merging traditional recipes with modern urban flair, this restaurant offers a sophisticated social escape for food lovers visiting L&C RESTAURANTE & BAR in Mallorca.bak.20260418_133415.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJL-I8bGiSlxIRSmsYYdjVObw",
+      "name": "Bar Sabotage",
+      "name_en": "Bar Sabotage",
+      "category": "Deneyim",
+      "tags": [
+        "mallorca",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.5694931,
+      "lng": 2.6372784,
+      "rating": 3.9,
+      "reviewCount": 1005,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/mallorca/ChIJL-I8bGiSlxIRSmsYYdjVObw.jpg",
+      "description": "Mallorca.bak.20260418_133415 sokaklarına özgün karakterini katan Bar Sabotage, kentin modern enerjisini ve kültürel nabzını yansıtan kentsel bir prestij noktası ve sofistike bir kentsel sosyal durak kalesidir.",
+      "description_en": "Infusing the streets of Mallorca.bak.20260418_133415 with its unique character, Bar Sabotage is a sophisticated urban destination that reflects the town's modern energy and creative pulse.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJbwO1AVaSlxIRP3Ra41LMG4U",
+      "name": "The2 Palma Gay Bar",
+      "name_en": "The2 Palma Gay Bar",
+      "category": "Deneyim",
+      "tags": [
+        "mallorca",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.58027,
+      "lng": 2.6535905,
+      "rating": 3.5,
+      "reviewCount": 271,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/mallorca/ChIJbwO1AVaSlxIRP3Ra41LMG4U.jpg",
+      "description": "Mallorca.bak.20260418_133415 kentinin kentsel enerjisini ve kültürel kimliğini yansıtan The2 Palma Gay Bar, kenti keşfeden gezginlerin kentsel keşif albümündeki en ikonik ve fotojenik kentsel duraklardan birisi haline gelmiştir.",
+      "description_en": "A prominent urban landmark in Mallorca.bak.20260418_133415 that defines the area's contemporary spirit and cultural identity, The2 Palma Gay Bar serves as a prestigious and unique stop for every traveler.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJVbFWM2-SlxIRnFh3yK106qc",
+      "name": "Three Lions",
+      "name_en": "Three Lions",
+      "category": "Restoran",
+      "tags": [
+        "mallorca",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.5690085,
+      "lng": 2.6337443,
+      "rating": 4.1,
+      "reviewCount": 1468,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/mallorca/ChIJVbFWM2-SlxIRnFh3yK106qc.jpg",
+      "description": "Geleneksel tarifleri modern bir kentsel dokunuşla harmanlayan Three Lions, Mallorca.bak.20260418_133415 kentinde gurme lezzetler arayan sosyal gezginler için şık ve kentsel bir lezzet kaçış rotası vaat etmektedir.",
+      "description_en": "Merging traditional recipes with modern urban flair, this restaurant offers a sophisticated social escape for food lovers visiting Three Lions in Mallorca.bak.20260418_133415.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJ7XSpCvmSlxIRhyxMWUEzu90",
+      "name": "Maraca Club - Palma, Balearic Islands",
+      "name_en": "Maraca Club - Palma, Balearic Islands",
+      "category": "Deneyim",
+      "tags": [
+        "mallorca",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.5842098,
+      "lng": 2.6512302,
+      "rating": 4,
+      "reviewCount": 445,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/mallorca/ChIJ7XSpCvmSlxIRhyxMWUEzu90.jpg",
+      "description": "Mallorca.bak.20260418_133415 kentinde kentsel konforu yerel estetikle birleştiren Maraca Club - Palma, Balearic Islands, kentin sosyal ve kültürel dünyasına yüksek kaliteli bir kentsel dokunuş katan en samimi ve kentsel rotalardan biridir.",
+      "description_en": "As a refined social and cultural point in Mallorca.bak.20260418_133415, Maraca Club - Palma, Balearic Islands offers a high-quality experience that perfectly merges urban convenience with local aesthetic charm.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJnR4733GSlxIRapBFlZuE-H0",
+      "name": "SA RAMBLA",
+      "name_en": "SA RAMBLA",
+      "category": "Deneyim",
+      "tags": [
+        "mallorca",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.5669571,
+      "lng": 2.628742,
+      "rating": 4.7,
+      "reviewCount": 9,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/mallorca/ChIJnR4733GSlxIRapBFlZuE-H0.jpg",
+      "description": "Mallorca.bak.20260418_133415 sokaklarına özgün karakterini katan SA RAMBLA, kentin modern enerjisini ve kültürel nabzını yansıtan kentsel bir prestij noktası ve sofistike bir kentsel sosyal durak kalesidir.",
+      "description_en": "Infusing the streets of Mallorca.bak.20260418_133415 with its unique character, SA RAMBLA is a sophisticated urban destination that reflects the town's modern energy and creative pulse.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJIfymE3GSlxIRIi8T--EpXvs",
+      "name": "DELFOS GIRLS",
+      "name_en": "DELFOS GIRLS",
+      "category": "Deneyim",
+      "tags": [
+        "mallorca",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.5647632,
+      "lng": 2.6279787,
+      "rating": 3.1,
+      "reviewCount": 28,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/mallorca/ChIJIfymE3GSlxIRIi8T--EpXvs.jpg",
+      "description": "Mallorca.bak.20260418_133415 kentinin kentsel enerjisini ve kültürel kimliğini yansıtan DELFOS GIRLS, kenti keşfeden gezginlerin kentsel keşif albümündeki en ikonik ve fotojenik kentsel duraklardan birisi haline gelmiştir.",
+      "description_en": "A prominent urban landmark in Mallorca.bak.20260418_133415 that defines the area's contemporary spirit and cultural identity, DELFOS GIRLS serves as a prestigious and unique stop for every traveler.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJ1V0bimiSlxIRqkaGn4fmbrU",
+      "name": "Social Club",
+      "name_en": "Social Club",
+      "category": "Deneyim",
+      "tags": [
+        "mallorca",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.5634167,
+      "lng": 2.627203,
+      "rating": 3,
+      "reviewCount": 635,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/mallorca/ChIJ1V0bimiSlxIRqkaGn4fmbrU.jpg",
+      "description": "Mallorca.bak.20260418_133415 sokaklarına özgün karakterini katan Social Club, kentin modern enerjisini ve kültürel nabzını yansıtan kentsel bir prestij noktası ve sofistike bir kentsel sosyal durak kalesidir.",
+      "description_en": "Infusing the streets of Mallorca.bak.20260418_133415 with its unique character, Social Club is a sophisticated urban destination that reflects the town's modern energy and creative pulse.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJfQmM-XKSlxIRGgq3QksFMBY",
+      "name": "Level",
+      "name_en": "Level",
+      "category": "Deneyim",
+      "tags": [
+        "mallorca",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.5624246,
+      "lng": 2.6267059,
+      "rating": 4.5,
+      "reviewCount": 50,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/mallorca/ChIJfQmM-XKSlxIRGgq3QksFMBY.jpg",
+      "description": "Mallorca.bak.20260418_133415 kentinde kentsel konforu yerel estetikle birleştiren Level, kentin sosyal ve kültürel dünyasına yüksek kaliteli bir kentsel dokunuş katan en samimi ve kentsel rotalardan biridir.",
+      "description_en": "As a refined social and cultural point in Mallorca.bak.20260418_133415, Level offers a high-quality experience that perfectly merges urban convenience with local aesthetic charm.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJK6BlsHOSlxIRSbvQIS1hlVY",
+      "name": "CAMELOT",
+      "name_en": "CAMELOT",
+      "category": "Deneyim",
+      "tags": [
+        "mallorca",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.56365,
+      "lng": 2.6257995,
+      "rating": 4.3,
+      "reviewCount": 62,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/mallorca/ChIJK6BlsHOSlxIRSbvQIS1hlVY.jpg",
+      "description": "Mallorca.bak.20260418_133415 kentinin kentsel enerjisini ve kültürel kimliğini yansıtan CAMELOT, kenti keşfeden gezginlerin kentsel keşif albümündeki en ikonik ve fotojenik kentsel duraklardan birisi haline gelmiştir.",
+      "description_en": "A prominent urban landmark in Mallorca.bak.20260418_133415 that defines the area's contemporary spirit and cultural identity, CAMELOT serves as a prestigious and unique stop for every traveler.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJgWWrLwmSlxIRlH5BH1yympM",
+      "name": "Templo palma",
+      "name_en": "Templo palma",
+      "category": "Deneyim",
+      "tags": [
+        "mallorca",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.5533866,
+      "lng": 2.6233137,
+      "rating": 2.4,
+      "reviewCount": 95,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/mallorca/ChIJgWWrLwmSlxIRlH5BH1yympM.jpg",
+      "description": "Mallorca.bak.20260418_133415 kentinin kentsel enerjisini ve kültürel kimliğini yansıtan Templo palma, kenti keşfeden gezginlerin kentsel keşif albümündeki en ikonik ve fotojenik kentsel duraklardan birisi haline gelmiştir.",
+      "description_en": "A prominent urban landmark in Mallorca.bak.20260418_133415 that defines the area's contemporary spirit and cultural identity, Templo palma serves as a prestigious and unique stop for every traveler.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJhzG2jBeTlxIRB2eQ_BzxCYU",
+      "name": "Bamboo Club",
+      "name_en": "Bamboo Club",
+      "category": "Deneyim",
+      "tags": [
+        "mallorca",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.5993042,
+      "lng": 2.6689588,
+      "rating": 4.2,
+      "reviewCount": 66,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/mallorca/ChIJhzG2jBeTlxIRB2eQ_BzxCYU.jpg",
+      "description": "Mallorca.bak.20260418_133415 kentinde kentsel konforu yerel estetikle birleştiren Bamboo Club, kentin sosyal ve kültürel dünyasına yüksek kaliteli bir kentsel dokunuş katan en samimi ve kentsel rotalardan biridir.",
+      "description_en": "As a refined social and cultural point in Mallorca.bak.20260418_133415, Bamboo Club offers a high-quality experience that perfectly merges urban convenience with local aesthetic charm.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJC3t3SfeSlxIRSLuHSd8edqo",
+      "name": "José María Torres",
+      "name_en": "José María Torres",
+      "category": "Deneyim",
+      "tags": [
+        "mallorca",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.6218704,
+      "lng": 2.660648,
+      "rating": 5,
+      "reviewCount": 8,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/mallorca/ChIJC3t3SfeSlxIRSLuHSd8edqo.jpg",
+      "description": "Mallorca.bak.20260418_133415 kentinin kentsel enerjisini ve kültürel kimliğini yansıtan José María Torres, kenti keşfeden gezginlerin kentsel keşif albümündeki en ikonik ve fotojenik kentsel duraklardan birisi haline gelmiştir.",
+      "description_en": "A prominent urban landmark in Mallorca.bak.20260418_133415 that defines the area's contemporary spirit and cultural identity, José María Torres serves as a prestigious and unique stop for every traveler.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJ4fvLfgySlxIR9bcWwOTRiaE",
+      "name": "Lunita Can Pastilla",
+      "name_en": "Lunita Can Pastilla",
+      "category": "Restoran",
+      "tags": [
+        "mallorca",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.5406942,
+      "lng": 2.7121976,
+      "rating": 3,
+      "reviewCount": 284,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/mallorca/ChIJ4fvLfgySlxIR9bcWwOTRiaE.jpg",
+      "description": "Geleneksel tarifleri modern bir kentsel dokunuşla harmanlayan Lunita Can Pastilla, Mallorca.bak.20260418_133415 kentinde gurme lezzetler arayan sosyal gezginler için şık ve kentsel bir lezzet kaçış rotası vaat etmektedir.",
+      "description_en": "Merging traditional recipes with modern urban flair, this restaurant offers a sophisticated social escape for food lovers visiting Lunita Can Pastilla in Mallorca.bak.20260418_133415.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJQTDCDE-SlxIRL1nCPY35RQE",
+      "name": "Palacio Ca Sa Galesa",
+      "name_en": "Palacio Ca Sa Galesa",
+      "category": "Tarihi",
+      "tags": [
+        "mallorca",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.5671567,
+      "lng": 2.6500381,
+      "rating": 4.7,
+      "reviewCount": 238,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/mallorca/ChIJQTDCDE-SlxIRL1nCPY35RQE.jpg",
+      "description": "Mallorca.bak.20260418_133415 kentinin kentsel tarih silüetini ve Palacio Ca Sa Galesa bölgesinin mimari ihtişamını yansıtan bu alan, kentin binlerce yıllık kültürel mirasına açılan en prestijli kentsel tarih kalesidir.",
+      "description_en": "An urban cultural stronghold in Mallorca.bak.20260418_133415 showcasing the historical layers and architectural grandeur of Palacio Ca Sa Galesa, offering travelers a deep dive into the region's heritage.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJJfJCzlySlxIRQU9XFkDIKC4",
+      "name": "Es Baluard Museu d'Art Contemporani de Palma",
+      "name_en": "Es Baluard Museu d'Art Contemporani de Palma",
+      "category": "Tarihi",
+      "tags": [
+        "mallorca",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.5702377,
+      "lng": 2.6411417,
+      "rating": 4.2,
+      "reviewCount": 4267,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/mallorca/ChIJJfJCzlySlxIRQU9XFkDIKC4.jpg",
+      "description": "Mallorca.bak.20260418_133415 kentinin kentsel tarih silüetini ve Es Baluard Museu d'Art Contemporani de Palma bölgesinin mimari ihtişamını yansıtan bu alan, kentin binlerce yıllık kültürel mirasına açılan en prestijli kentsel tarih kalesidir.",
+      "description_en": "An urban cultural stronghold in Mallorca.bak.20260418_133415 showcasing the historical layers and architectural grandeur of Es Baluard Museu d'Art Contemporani de Palma, offering travelers a deep dive into the region's heritage.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJ3VsNp0-SlxIR2QeWXEHKUSs",
+      "name": "Can' Sales",
+      "name_en": "Can' Sales",
+      "category": "Tarihi",
+      "tags": [
+        "mallorca",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.56757109999999,
+      "lng": 2.6503781,
+      "rating": 4.1,
+      "reviewCount": 19,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/mallorca/ChIJ3VsNp0-SlxIR2QeWXEHKUSs.jpg",
+      "description": "Antik dokularla Can' Sales ruhunu birleştiren bu tarihi nokta, Mallorca.bak.20260418_133415 kentinin kültürel kimliğini tanımlayan ve kenti keşfedenlere mistik bir atmosfer sunan kentsel bir prestij kalesidir.",
+      "description_en": "This historical gemstone in Mallorca.bak.20260418_133415 defines the local cultural identity, combining ancient textures with the timeless spirit of Can' Sales for every urban explorer.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJnc0_gU-SlxIRrJYz4R7JujE",
+      "name": "Museu de La Seu de Mallorca",
+      "name_en": "Museu de La Seu de Mallorca",
+      "category": "Tarihi",
+      "tags": [
+        "mallorca",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.5674046,
+      "lng": 2.6483082,
+      "rating": 4.7,
+      "reviewCount": 4978,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/mallorca/ChIJnc0_gU-SlxIRrJYz4R7JujE.jpg",
+      "description": "Mallorca.bak.20260418_133415 kentinin kentsel tarih silüetini ve Museu de La Seu de Mallorca bölgesinin mimari ihtişamını yansıtan bu alan, kentin binlerce yıllık kültürel mirasına açılan en prestijli kentsel tarih kalesidir.",
+      "description_en": "An urban cultural stronghold in Mallorca.bak.20260418_133415 showcasing the historical layers and architectural grandeur of Museu de La Seu de Mallorca, offering travelers a deep dive into the region's heritage.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJNzS2ZE-SlxIRvTJjq7W5MPM",
+      "name": "Museu Diocesà",
+      "name_en": "Museu Diocesà",
+      "category": "Tarihi",
+      "tags": [
+        "mallorca",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.5669056,
+      "lng": 2.6490567,
+      "rating": 4.4,
+      "reviewCount": 215,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/mallorca/ChIJNzS2ZE-SlxIRvTJjq7W5MPM.jpg",
+      "description": "Mallorca.bak.20260418_133415 kentinin tarihi dokusunda önemli bir yer tutan Museu Diocesà, kentin tarihsel evrimini ve kentsel hafızasını koruyan en entelektüel ve paha biçilemez kentsel duraklardan biridir.",
+      "description_en": "As a prestigious landmark of Mallorca.bak.20260418_133415, Museu Diocesà preserves the town's millennia-old memory and serves as an intellectual window into the historical evolution of the area.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJKc7suFySlxIR4hlqFVNKaz0",
+      "name": "ABA ART",
+      "name_en": "ABA ART",
+      "category": "Tarihi",
+      "tags": [
+        "mallorca",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.5711061,
+      "lng": 2.642582,
+      "rating": 4.7,
+      "reviewCount": 62,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/mallorca/ChIJKc7suFySlxIR4hlqFVNKaz0.jpg",
+      "description": "Antik dokularla ABA ART ruhunu birleştiren bu tarihi nokta, Mallorca.bak.20260418_133415 kentinin kültürel kimliğini tanımlayan ve kenti keşfedenlere mistik bir atmosfer sunan kentsel bir prestij kalesidir.",
+      "description_en": "This historical gemstone in Mallorca.bak.20260418_133415 defines the local cultural identity, combining ancient textures with the timeless spirit of ABA ART for every urban explorer.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJNVcyyVaSlxIRMXTpZUcUxD4",
+      "name": "Centre d'Historia i Cultura Militar de Balears",
+      "name_en": "Centre d'Historia i Cultura Militar de Balears",
+      "category": "Tarihi",
+      "tags": [
+        "mallorca",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.5756522,
+      "lng": 2.65201,
+      "rating": 4.5,
+      "reviewCount": 339,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/mallorca/ChIJNVcyyVaSlxIRMXTpZUcUxD4.jpg",
+      "description": "Mallorca.bak.20260418_133415 kentinin kentsel tarih silüetini ve Centre d'Historia i Cultura Militar de Balears bölgesinin mimari ihtişamını yansıtan bu alan, kentin binlerce yıllık kültürel mirasına açılan en prestijli kentsel tarih kalesidir.",
+      "description_en": "An urban cultural stronghold in Mallorca.bak.20260418_133415 showcasing the historical layers and architectural grandeur of Centre d'Historia i Cultura Militar de Balears, offering travelers a deep dive into the region's heritage.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJo60sAl2SlxIR3jE0Z_iNgxg",
+      "name": "Transilvania Cafeteria-Museu",
+      "name_en": "Transilvania Cafeteria-Museu",
+      "category": "Restoran",
+      "tags": [
+        "mallorca",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.5819698,
+      "lng": 2.6588922,
+      "rating": 4.6,
+      "reviewCount": 710,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/mallorca/ChIJo60sAl2SlxIR3jE0Z_iNgxg.jpg",
+      "description": "Mallorca.bak.20260418_133415 kentinin gastronomi dünyasında otantik lezzetleri ve dinamik sosyal atmosferiyle tanınan Transilvania Cafeteria-Museu, yerel mutfak kültürünü en prestijli şekilde deneyimlemek isteyenlerin en samimi adresidir.",
+      "description_en": "A prestigious culinary destination in Mallorca.bak.20260418_133415 known for its authentic flavors and vibrant social atmosphere, Transilvania Cafeteria-Museu is the perfect spot for experiencing high-end local gastronomy.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJb2_W-nqSlxIRk1z6qeT3Mqk",
+      "name": "Pueblo Español de Mallorca",
+      "name_en": "Pueblo Español de Mallorca",
+      "category": "Tarihi",
+      "tags": [
+        "mallorca",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.5727294,
+      "lng": 2.627964,
+      "rating": 4.2,
+      "reviewCount": 4744,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/mallorca/ChIJb2_W-nqSlxIRk1z6qeT3Mqk.jpg",
+      "description": "Mallorca.bak.20260418_133415 kentinin tarihi dokusunda önemli bir yer tutan Pueblo Español de Mallorca, kentin tarihsel evrimini ve kentsel hafızasını koruyan en entelektüel ve paha biçilemez kentsel duraklardan biridir.",
+      "description_en": "As a prestigious landmark of Mallorca.bak.20260418_133415, Pueblo Español de Mallorca preserves the town's millennia-old memory and serves as an intellectual window into the historical evolution of the area.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJFWdhrLmTlxIRDKdvs0AJ8Rg",
+      "name": "Aula de la Mar",
+      "name_en": "Aula de la Mar",
+      "category": "Tarihi",
+      "tags": [
+        "mallorca",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.5621025,
+      "lng": 2.6707093,
+      "rating": 4.5,
+      "reviewCount": 61,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/mallorca/ChIJFWdhrLmTlxIRDKdvs0AJ8Rg.jpg",
+      "description": "Mallorca.bak.20260418_133415 kentinin kentsel tarih silüetini ve Aula de la Mar bölgesinin mimari ihtişamını yansıtan bu alan, kentin binlerce yıllık kültürel mirasına açılan en prestijli kentsel tarih kalesidir.",
+      "description_en": "An urban cultural stronghold in Mallorca.bak.20260418_133415 showcasing the historical layers and architectural grandeur of Aula de la Mar, offering travelers a deep dive into the region's heritage.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJ6RFzlAaSlxIRkYn8fwt7gLQ",
+      "name": "Museu Històric Militar de Sant Carles",
+      "name_en": "Museu Històric Militar de Sant Carles",
+      "category": "Tarihi",
+      "tags": [
+        "mallorca",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.5465278,
+      "lng": 2.6233833,
+      "rating": 4.6,
+      "reviewCount": 2053,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/mallorca/ChIJ6RFzlAaSlxIRkYn8fwt7gLQ.jpg",
+      "description": "Mallorca.bak.20260418_133415 kentinin kentsel tarih silüetini ve Museu Històric Militar de Sant Carles bölgesinin mimari ihtişamını yansıtan bu alan, kentin binlerce yıllık kültürel mirasına açılan en prestijli kentsel tarih kalesidir.",
+      "description_en": "An urban cultural stronghold in Mallorca.bak.20260418_133415 showcasing the historical layers and architectural grandeur of Museu Històric Militar de Sant Carles, offering travelers a deep dive into the region's heritage.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJ18E5B_KNlxIRRnYzOJYHB_A",
+      "name": "Fundació Miró Mallorca",
+      "name_en": "Fundació Miró Mallorca",
+      "category": "Tarihi",
+      "tags": [
+        "mallorca",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.55488709999999,
+      "lng": 2.6096632,
+      "rating": 4.4,
+      "reviewCount": 3050,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/mallorca/ChIJ18E5B_KNlxIRRnYzOJYHB_A.jpg",
+      "description": "Antik dokularla Fundació Miró Mallorca ruhunu birleştiren bu tarihi nokta, Mallorca.bak.20260418_133415 kentinin kültürel kimliğini tanımlayan ve kenti keşfedenlere mistik bir atmosfer sunan kentsel bir prestij kalesidir.",
+      "description_en": "This historical gemstone in Mallorca.bak.20260418_133415 defines the local cultural identity, combining ancient textures with the timeless spirit of Fundació Miró Mallorca for every urban explorer.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJqafoD1SSlxIRICizVrt8rZQ",
+      "name": "Amics del Ferrocarril illes Balears",
+      "name_en": "Amics del Ferrocarril illes Balears",
+      "category": "Tarihi",
+      "tags": [
+        "mallorca",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.5980125,
+      "lng": 2.6918046,
+      "rating": 5,
+      "reviewCount": 4,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/mallorca/ChIJqafoD1SSlxIRICizVrt8rZQ.jpg",
+      "description": "Antik dokularla Amics del Ferrocarril illes Balears ruhunu birleştiren bu tarihi nokta, Mallorca.bak.20260418_133415 kentinin kültürel kimliğini tanımlayan ve kenti keşfedenlere mistik bir atmosfer sunan kentsel bir prestij kalesidir.",
+      "description_en": "This historical gemstone in Mallorca.bak.20260418_133415 defines the local cultural identity, combining ancient textures with the timeless spirit of Amics del Ferrocarril illes Balears for every urban explorer.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJhf-MpFGSlxIRfzT4ozLLsdw",
+      "name": "Fundació Juan March Palma",
+      "name_en": "Fundació Juan March Palma",
+      "category": "Tarihi",
+      "tags": [
+        "mallorca",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.5722,
+      "lng": 2.652,
+      "rating": 4.6,
+      "reviewCount": 1481,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/mallorca/ChIJhf-MpFGSlxIRfzT4ozLLsdw.jpg",
+      "description": "Mallorca.bak.20260418_133415 kentinin tarihi dokusunda önemli bir yer tutan Fundació Juan March Palma, kentin tarihsel evrimini ve kentsel hafızasını koruyan en entelektüel ve paha biçilemez kentsel duraklardan biridir.",
+      "description_en": "As a prestigious landmark of Mallorca.bak.20260418_133415, Fundació Juan March Palma preserves the town's millennia-old memory and serves as an intellectual window into the historical evolution of the area.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJawpLFUWSlxIRhw66JjWD0sE",
+      "name": "Fundación Bartolomé March Servera",
+      "name_en": "Fundación Bartolomé March Servera",
+      "category": "Tarihi",
+      "tags": [
+        "mallorca",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.5687345,
+      "lng": 2.6477982,
+      "rating": 4.5,
+      "reviewCount": 249,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/mallorca/ChIJawpLFUWSlxIRhw66JjWD0sE.jpg",
+      "description": "Mallorca.bak.20260418_133415 kentinin tarihi dokusunda önemli bir yer tutan Fundación Bartolomé March Servera, kentin tarihsel evrimini ve kentsel hafızasını koruyan en entelektüel ve paha biçilemez kentsel duraklardan biridir.",
+      "description_en": "As a prestigious landmark of Mallorca.bak.20260418_133415, Fundación Bartolomé March Servera preserves the town's millennia-old memory and serves as an intellectual window into the historical evolution of the area.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJd9OzrbGTlxIRoZQY4t91wKM",
+      "name": "Museu Krekovic",
+      "name_en": "Museu Krekovic",
+      "category": "Tarihi",
+      "tags": [
+        "mallorca",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.5675953,
+      "lng": 2.6660486,
+      "rating": 4,
+      "reviewCount": 77,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/mallorca/ChIJd9OzrbGTlxIRoZQY4t91wKM.jpg",
+      "description": "Antik dokularla Museu Krekovic ruhunu birleştiren bu tarihi nokta, Mallorca.bak.20260418_133415 kentinin kültürel kimliğini tanımlayan ve kenti keşfedenlere mistik bir atmosfer sunan kentsel bir prestij kalesidir.",
+      "description_en": "This historical gemstone in Mallorca.bak.20260418_133415 defines the local cultural identity, combining ancient textures with the timeless spirit of Museu Krekovic for every urban explorer.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJLyYF50-SlxIREJr7xPjzRHg",
+      "name": "Perl Art",
+      "name_en": "Perl Art",
+      "category": "Tarihi",
+      "tags": [
+        "mallorca",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.5696058,
+      "lng": 2.6497797,
+      "rating": 4.4,
+      "reviewCount": 37,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/mallorca/ChIJLyYF50-SlxIREJr7xPjzRHg.jpg",
+      "description": "Mallorca.bak.20260418_133415 kentinin kentsel tarih silüetini ve Perl Art bölgesinin mimari ihtişamını yansıtan bu alan, kentin binlerce yıllık kültürel mirasına açılan en prestijli kentsel tarih kalesidir.",
+      "description_en": "An urban cultural stronghold in Mallorca.bak.20260418_133415 showcasing the historical layers and architectural grandeur of Perl Art, offering travelers a deep dive into the region's heritage.",
+      "source": "firebase"
+    },
+    {
+      "id": "ChIJFTGVvk-SlxIRVSFZUObuq28",
+      "name": "Centre Maimó Ben Faraig",
+      "name_en": "Centre Maimó Ben Faraig",
+      "category": "Tarihi",
+      "tags": [
+        "mallorca",
+        "travel",
+        "explore"
+      ],
+      "lat": 39.5685515,
+      "lng": 2.6501939,
+      "rating": 3.3,
+      "reviewCount": 12,
+      "price": "medium",
+      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/mallorca/ChIJFTGVvk-SlxIRVSFZUObuq28.jpg",
+      "description": "Antik dokularla Centre Maimó Ben Faraig ruhunu birleştiren bu tarihi nokta, Mallorca.bak.20260418_133415 kentinin kültürel kimliğini tanımlayan ve kenti keşfedenlere mistik bir atmosfer sunan kentsel bir prestij kalesidir.",
+      "description_en": "This historical gemstone in Mallorca.bak.20260418_133415 defines the local cultural identity, combining ancient textures with the timeless spirit of Centre Maimó Ben Faraig for every urban explorer.",
+      "source": "firebase"
+    }
+  ]
+}

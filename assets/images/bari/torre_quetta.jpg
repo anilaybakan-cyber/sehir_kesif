@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width"/>
+    <title>Non riesco a trovare la pagina web richiesta....</title>
+    <style>
+        html { height:100%; }
+        body { background-color:#3EA868; min-width:inherit; height:100%; margin:0; padding:0; }
+body{background-color:#CC333F}        .error { text-align:center; height:100%; min-height:100%; }
+        .error-image { max-width:95%; max-height:95%; }
+        .error-mobile .error-image { position:absolute; top:0; max-width:95%; max-height:95%; margin-left:auto; margin-right:auto; left:0; right:0; }
+        @media (orientation: landscape) {
+            .error-mobile { visibility:hidden; display:none }
+        }
+        @media (orientation: portrait) {
+            .error { visibility:hidden; display:none }
+        }
+    </style>
+</head>
+<body>
+    <div class="error">
+        <a href="/"><img src="/contents/img/errors/error404-IT.png" alt="Non riesco a trovare la pagina web richiesta...." class="error-image" /></a>
+    </div>
+    <div class="error-mobile">
+        <a href="/"><img src="/contents/img/errors/mobile-error404-IT.png" alt="Non riesco a trovare la pagina web richiesta...." class="error-image" /></a>
+    </div>
+</body>
+</html>

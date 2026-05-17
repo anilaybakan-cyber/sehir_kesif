@@ -3179,54 +3179,6 @@
       "area_en": "Center"
     },
     {
-      "name": "Salzwelten Altaussee",
-      "name_en": "Salt Mine Altaussee",
-      "area": "Altaussee",
-      "category": "Müze",
-      "tags": [
-        "maden",
-        "tarih",
-        "sanat"
-      ],
-      "lat": 47.65,
-      "lng": 13.75,
-      "price": "high",
-      "rating": 4.7,
-      "description": "Avusturya'nın en eski aktif tuz madeni Salzwelten Altaussee, binlerce yıllık tarihi sergiler. Yer altı odaları, İkinci Dünya Savaşı'nda Nazilerin sanat eserlerini sakladığı önemli bir tarihi mekandır.",
-      "description_en": "Austria's oldest active salt mine, Salzwelten Altaussee, presents millennia of history. Its underground chambers hid Nazi art during World War II, a significant historical site.",
-      "bestTime": "Gündüz",
-      "tips": "Yer altında hava serin; sıcak kıyafetler giymeniz tavsiye edilir.",
-      "tips_en": "It's cool underground; wearing warm clothing is highly recommended.",
-      "id": "salt-mine-altaussee",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/hallstatt/salt-mine-altaussee.jpg",
-      "source": "firebase",
-      "distanceFromCenter": 0.5
-    },
-    {
-      "name": "Salzwelten Hallstatt",
-      "name_en": "Hallstatt Salt Mine",
-      "area": "Salzberg",
-      "category": "Müze",
-      "tags": [
-        "maden",
-        "kaydırak",
-        "tarih"
-      ],
-      "lat": 47.565,
-      "lng": 136.38,
-      "price": "high",
-      "rating": 4.7,
-      "description": "Dünyanın en eski tuz madeni, Hallstatt'ın 7000 yıllık kadim madencilik tarihini sergiler. Prehistorik buluntular, antik galeriler ve Avrupa'nın en uzun ahşap kaydırağıyla eşsiz bir yeraltı keşfi sunar.",
-      "description_en": "Hallstatt's 7000-year ancient mining legacy is revealed in the world's oldest salt mine. Explore prehistoric finds, ancient galleries, and Europe's longest wooden slide.",
-      "bestTime": "Gündüz",
-      "tips": "Madenin derinliklerini keşfetmek için sağlam ayakkabılar giyin ve bir ceket getirin.",
-      "tips_en": "Wear sturdy shoes and bring a jacket to comfortably explore the mine's depths.",
-      "id": "salzwelten-hallstatt",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/hallstatt/salzwelten-hallstatt.jpg",
-      "source": "firebase",
-      "distanceFromCenter": 0.5
-    },
-    {
       "name": "Sandling",
       "name_en": "Sandling Mountain",
       "area": "Bad Aussee",

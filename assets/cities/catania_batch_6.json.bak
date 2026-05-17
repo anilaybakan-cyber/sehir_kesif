@@ -1,0 +1,242 @@
+[
+  {
+    "id": "ChIJ4wkXcizjExMRApHj7M7eg9Y",
+    "name": "Trattoria da Nuccio",
+    "name_en": "Trattoria da Nuccio",
+    "description": "Catania'daki bu köklü aile işletmesi, taze deniz ürünleri ve geleneksel Sicilya makarnalarıyla kentin otantik lezzet mirasını en samimi şekilde yaşatır.",
+    "description_en": "This long-standing family business in Catania keeps the city's authentic culinary heritage alive in the most sincere way with fresh seafood and traditional Sicilian pasta.",
+    "openHours": {
+      "sunday": "12:00-15:00",
+      "monday": "closed",
+      "tuesday": "19:00-23:00",
+      "wednesday": "19:00-23:00",
+      "thursday": "19:00-23:00",
+      "friday": "12:00-23:00",
+      "saturday": "12:00-15:30, 19:00-23:00"
+    }
+  },
+  {
+    "id": "ChIJwYpRey7jExMRJxudW7ZTTBM",
+    "name": "Trattoria U Fucularu",
+    "name_en": "Trattoria U Fucularu",
+    "description": "Geleneksel Sicilya antipasto büfesiyle ünlü olan bu mekan, samimi atmosferi ve ev yapımı lezzetleriyle yerel halkın en sevdiği akşam yemeği duraklarındandır.",
+    "description_en": "Famous for its traditional Sicilian antipasto buffet, this venue is a favorite dinner stop for locals with its friendly atmosphere and homemade flavors.",
+    "openHours": {
+      "sunday": "12:00-15:00, 18:00-23:30",
+      "monday": "18:00-23:30",
+      "tuesday": "closed",
+      "wednesday": "18:00-23:30",
+      "thursday": "18:00-23:30",
+      "friday": "18:00-23:30",
+      "saturday": "18:00-23:30"
+    }
+  },
+  {
+    "id": "ChIJlx3yHsL8ExMRP8I86VDnfRQ",
+    "name": "La Siciliana",
+    "name_en": "La Siciliana",
+    "description": "Catania'nın en zarif restoranlarından biri olan La Siciliana, özellikle taze kılıç balığı ve deniz mahsullü risottosuyla rafine bir Sicilya mutfağı deneyimi sunar.",
+    "description_en": "One of Catania's most elegant restaurants, La Siciliana offers a refined Sicilian cuisine experience, especially known for its fresh swordfish and seafood risotto.",
+    "openHours": {
+      "sunday": "12:30-15:00",
+      "monday": "closed",
+      "tuesday": "12:30-15:00, 20:00-23:00",
+      "wednesday": "12:30-15:00, 20:00-23:00",
+      "thursday": "12:30-15:00, 20:00-23:00",
+      "friday": "12:30-15:00, 20:00-23:00",
+      "saturday": "12:30-15:00, 20:00-23:00"
+    }
+  },
+  {
+    "id": "ChIJgRe-lM38ExMRU_AYn59GIdA",
+    "name": "Trattoria Cucina Casalinga da Mimmo",
+    "name_en": "Trattoria Cucina Casalinga da Mimmo",
+    "description": "Küçük ve mütevazı bir dükkan olan Mimmo, Catania'nın klasik ev yemeklerini ve günün taze balıklarını en uygun fiyata sunan gizli bir lezzet noktasıdır.",
+    "description_en": "A small and modest shop, Mimmo is a hidden culinary gem offering Catania's classic home-cooked meals and fresh fish of the day at very affordable prices.",
+    "openHours": {
+      "sunday": "closed",
+      "monday": "12:30-15:30, 19:30-23:30",
+      "tuesday": "12:30-15:30, 19:30-23:30",
+      "wednesday": "closed",
+      "thursday": "12:30-15:30, 19:30-23:30",
+      "friday": "closed",
+      "saturday": "closed"
+    }
+  },
+  {
+    "id": "ChIJnzkVMNfjExMR7TW6C8g1GTk",
+    "name": "Trattoria Serafino I",
+    "name_en": "Trattoria Serafino I",
+    "description": "Geleneksel Sicilya dekorasyonu ve tutarlı kalitesiyle bilinen Serafino, taze makarnaları ve yerel şaraplarıyla kentin kentsel hafızasında derin bir yere sahiptir.",
+    "description_en": "Known for its traditional Sicilian decor and consistent quality, Serafino holds a deep place in the city's urban memory with its fresh pasta and local wines.",
+    "openHours": {
+      "sunday": "00:00-00:00, 12:00-15:00",
+      "monday": "closed",
+      "tuesday": "12:00-15:00, 19:00-24:00",
+      "wednesday": "00:00-00:00, 19:00-24:00",
+      "thursday": "00:00-00:00, 19:00-23:59",
+      "friday": "12:00-15:00, 19:00-24:00",
+      "saturday": "00:00-00:00, 12:00-15:00, 19:00-24:00"
+    }
+  },
+  {
+    "id": "ChIJVeAFaPTNExMRXKMTsbrrsnM",
+    "name": "Trattoria La Pigna Verde",
+    "name_en": "Trattoria La Pigna Verde",
+    "description": "Süsten uzak ve tamamen lezzete odaklanan bu trattoria, özellikle Catania usulü sarde a beccafico ve deniz mahsullü linguine'siyle gerçek gurmelerin favorisidir.",
+    "description_en": "Unpretentious and fully focused on flavor, this trattoria is a favorite for real foodies, especially with its Catania-style sarde a beccafico and seafood linguine.",
+    "openHours": {
+      "sunday": "12:30-14:30, 19:00-22:00",
+      "monday": "closed",
+      "tuesday": "19:00-22:00",
+      "wednesday": "19:00-22:00",
+      "thursday": "19:00-22:00",
+      "friday": "19:00-22:30",
+      "saturday": "12:30-14:30, 19:00-22:30"
+    }
+  },
+  {
+    "id": "ChIJHccb3c_9ExMRMC1ZBt7isPU",
+    "name": "Bavetta l'Osteria d'Oggi",
+    "name_en": "Bavetta l'Osteria d'Oggi",
+    "description": "Geleneksel tarifleri çağdaş bir sunumla birleştiren bu modern osteria, kentin gastronomi dünyasına asalet katan en taze ve yaratıcı lezzet duraklarından biridir.",
+    "description_en": "Combining traditional recipes with contemporary presentation, this modern osteria is among the freshest and most creative flavor stops adding nobility to the city's culinary scene.",
+    "openHours": {
+      "sunday": "12:30-15:00",
+      "monday": "12:30-15:00, 19:30-23:30",
+      "tuesday": "12:30-15:00, 19:30-23:30",
+      "wednesday": "12:30-15:00, 19:30-23:30",
+      "thursday": "12:30-15:00, 19:30-23:30",
+      "friday": "12:30-15:00",
+      "saturday": "12:30-15:00, 19:30-23:30"
+    }
+  },
+  {
+    "id": "ChIJE4hH71LjExMRSaKkmsvSTLw",
+    "name": "Vuciata Kitchen Market",
+    "name_en": "Vuciata Kitchen Market",
+    "description": "Balık pazarının hemen yanında yer alan bu canlı mekan, taze balık ızgaraları ve hareketli atmosferiyle kentin kentsel ritmini en iyi hissettiren restoranlardandır.",
+    "description_en": "Located right next to the fish market, this lively venue is one of the restaurants that best captures the city's urban rhythm with its fresh grilled fish and bustling atmosphere.",
+    "openHours": {
+      "sunday": "10:00-23:30",
+      "monday": "10:00-23:30",
+      "tuesday": "10:00-23:30",
+      "wednesday": "10:00-23:30",
+      "thursday": "10:00-23:30",
+      "friday": "10:00-23:30",
+      "saturday": "10:00-23:30"
+    }
+  },
+  {
+    "id": "ChIJ_8rJPpj8ExMR08MBMjb96VQ",
+    "name": "Restaurant Lognina",
+    "name_en": "Restaurant Lognina",
+    "description": "Liman manzarası ve kaliteli deniz ürünleriyle tanınan bu şık restoran, Catania'da romantik bir akşam yemeği için asalet ve lezzetin mükemmel bir birleşimidir.",
+    "description_en": "Known for its harbor views and high-quality seafood, this stylish restaurant is a perfect combination of nobility and flavor for a romantic dinner in Catania.",
+    "openHours": {
+      "sunday": "19:30-23:00",
+      "monday": "19:30-23:00",
+      "tuesday": "19:30-23:00",
+      "wednesday": "19:30-23:00",
+      "thursday": "19:30-23:00",
+      "friday": "19:30-23:00",
+      "saturday": "19:30-23:00"
+    }
+  },
+  {
+    "id": "ChIJd7H5j4WkyhQRA8z7DuoyRnU",
+    "name": "Sapio",
+    "name_en": "Sapio",
+    "description": "Catania'nın nadir Michelin yıldızlı restoranlarından biri olan Sapio, modern tekniklerle yeniden yorumlanan yerel malzemelerle kentin en asil ve mühürlü gastronomi deneyimidir.",
+    "description_en": "One of Catania's rare Michelin-starred restaurants, Sapio is the city's most noble and sealed gastronomic experience with local ingredients reinterpreted using modern techniques.",
+    "openHours": {
+      "sunday": "closed",
+      "monday": "09:00-18:00",
+      "tuesday": "09:00-18:00",
+      "wednesday": "09:00-18:00",
+      "thursday": "09:00-18:00",
+      "friday": "09:00-18:00",
+      "saturday": "closed"
+    }
+  },
+  {
+    "id": "ChIJVxVs-FMSMhURmyddSt2cfik",
+    "name": "Eat Pizzeria",
+    "name_en": "Eat Pizzeria",
+    "description": "Zengin pizza çeşitleri ve özellikle Sicilya'ya özgü doldurulmuş pizzoli seçenekleriyle kentin en popüler ve lezzetli kentsel pizza duraklarından biridir.",
+    "description_en": "With its rich variety of pizzas and especially Sicilian-style stuffed pizzoli options, this is one of the city's most popular and delicious urban pizza stops.",
+    "openHours": {
+      "sunday": "00:00-00:30, 19:00-24:00",
+      "monday": "00:00-00:30, 19:00-24:00",
+      "tuesday": "00:00-00:30, 19:00-24:00",
+      "wednesday": "00:00-00:30, 19:00-24:00",
+      "thursday": "00:00-00:30, 19:00-23:59",
+      "friday": "00:00-00:30, 19:00-24:00",
+      "saturday": "00:00-00:30, 19:00-24:00"
+    }
+  },
+  {
+    "id": "ChIJV193wSzjExMR6YG4mBSQQAQ",
+    "name": "Vermut",
+    "name_en": "Vermut",
+    "description": "Aperitivo kültürü için kentin en şık adreslerinden biri olan Vermut, seçkin şarapları ve lokal tapaslarıyla kentsel eğlence hayatına asalet katan bir duraktır.",
+    "description_en": "One of the city's most stylish addresses for aperitivo culture, Vermut adds nobility to urban nightlife with its exquisite wines and local tapas.",
+    "openHours": {
+      "sunday": "00:00-02:00, 11:00-24:00",
+      "monday": "00:00-02:00, 11:00-24:00",
+      "tuesday": "00:00-02:00, 11:00-24:00",
+      "wednesday": "00:00-02:00, 11:00-24:00",
+      "thursday": "00:00-02:00, 11:00-23:59",
+      "friday": "00:00-02:00, 11:00-24:00",
+      "saturday": "00:00-02:00, 11:00-24:00"
+    }
+  },
+  {
+    "id": "ChIJ9xpQs7v8ExMRiTo16rn57CE",
+    "name": "Cutilisci",
+    "name_en": "Cutilisci",
+    "description": "San Giovanni Li Cuti bölgesindeki bu sahil restoranı, volkanik kayaların üzerindeki terası ve taze pizzalarıyla kentin en asil ve huzurlu lezzet kaçışlarından biridir.",
+    "description_en": "This seaside restaurant in the San Giovanni Li Cuti area is one of the city's most noble and peaceful flavor escapes with its terrace on volcanic rocks and fresh pizzas.",
+    "openHours": {
+      "sunday": "00:00-00:00, 10:30-24:00",
+      "monday": "00:00-00:00, 10:30-24:00",
+      "tuesday": "00:00-00:00, 10:30-24:00",
+      "wednesday": "00:00-00:00, 10:30-24:00",
+      "thursday": "00:00-00:00, 10:30-23:59",
+      "friday": "10:30-24:00",
+      "saturday": "00:00-00:00, 10:30-24:00"
+    }
+  },
+  {
+    "id": "ChIJyWg1mcX8ExMR7lJ16SaWiG4",
+    "name": "Laboratorio di Via Napoli",
+    "name_en": "Laboratorio di Via Napoli",
+    "description": "Catania'lı yerellerin gece yarısı arancini ve taze tatlı krizleri için akın ettiği bu gizli fırın, kentin kentsel ritminin mühürlü bir lezzet sırrıdır.",
+    "description_en": "This hidden bakery, where Catania locals flock for midnight arancini and sweet pastry cravings, is a sealed flavor secret of the city's urban rhythm.",
+    "openHours": {
+      "sunday": "00:00-15:00, 19:30-24:00",
+      "monday": "00:00-15:00",
+      "tuesday": "04:30-15:00, 19:30-24:00",
+      "wednesday": "00:00-15:00, 19:30-24:00",
+      "thursday": "00:00-15:00, 19:30-23:59",
+      "friday": "00:00-15:00, 19:30-24:00",
+      "saturday": "00:00-15:00, 19:30-24:00"
+    }
+  },
+  {
+    "id": "ChIJG2KzgcfjExMR0171yOY8uQQ",
+    "name": "Canusciuti",
+    "name_en": "Canusciuti",
+    "description": "Meşhur çıtır arancinileriyle kentin street food sahnesine yeni bir soluk getiren Canusciuti, Sicilya'nın en asil sokak lezzetlerini modern bir sunumla sunan şık bir duraktır.",
+    "description_en": "Bringing a breath of fresh air to the local street food scene with its famous crispy arancini, Canusciuti uniquely offers Sicily's most noble street flavors with a modern presentation.",
+    "openHours": {
+      "sunday": "07:30-23:00",
+      "monday": "closed",
+      "tuesday": "07:30-23:00",
+      "wednesday": "07:30-23:00",
+      "thursday": "07:30-23:00",
+      "friday": "07:30-23:00",
+      "saturday": "07:30-23:00"
+    }
+  }
+]

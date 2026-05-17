@@ -1,4 +1,6 @@
 import 'dart:io';
+import 'package:firebase_analytics/firebase_analytics.dart';
+import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
 import 'package:purchases_flutter/purchases_flutter.dart';
@@ -14,19 +16,23 @@ class PremiumService extends ChangeNotifier {
 
   // Usage tracking keys (kept locally for free tier limits)
   static const String _keyUsageAISuggestion = 'usage_ai_suggestion';
+  /// Tüm “rotaya ekle” girişleri (keşfet, mekan detayı, yakınımda) bu sayacı paylaşır.
   static const String _keyUsageRouteAdd = 'usage_route_add';
   static const String _keyUsageMyWay = 'usage_myway';
   static const String _keyUsageMemories = 'usage_memories';
   static const String _keyUsageDirections = 'usage_directions';
   static const String _keyUsageCuratedRoute = 'usage_curated_route';
+  static const String _keyUsageItinerary = 'usage_itinerary_generation';
+  static const String _keyViewedRoutes = 'viewed_curated_routes'; // Track unique route IDs
   
   // Free user limits (TOTAL, not daily)
   static const int limitAISuggestion = 1;
-  static const int limitRouteAdd = 3;
+  static const int limitRouteAdd = 5; // Daha önce 999'a çıkarılmıştı, Sunk Cost revizesiyle 5 yapıldı.
   static const int limitMyWay = 1;
-  static const int limitMemories = 4;
-  static const int limitDirections = 3;
-  static const int limitCuratedRoute = 2; // Added limit for curated routes
+  static const int limitMemories = 1; // Daha önce 4'tü, 1'e düşürüldü
+  static const int limitDirections = 1; // Daha önce 3'tü, 1'e düşürüldü
+  static const int limitCuratedRoute = 0; // Bedava hazır rota detay görünümü sıfırlandı
+  static const int limitItinerary = 1; // Ücretsiz günlük plan oluşturma hakkı
   
   static PremiumService? _instance;
   static PremiumService get instance => _instance ??= PremiumService._();
@@ -35,18 +41,57 @@ class PremiumService extends ChangeNotifier {
   
   SharedPreferences? _prefs;
   CustomerInfo? _customerInfo;
+
+  /// Yerelde geçici Pro testi için `true` yapılabilir; **yayına false ile çıkın.**
+  /// Pro olmayan kullanıcılar için `isPremium` her zaman RevenueCat sonucuna bağlı kalır.
+  static const bool _debugPremiumOverride = true;
   
+  bool? _lastSyncedPremium;
+
   Future<void> init() async {
     _prefs = await SharedPreferences.getInstance();
     
     await _initRevenueCat();
+    await _syncPremiumTargeting();
     debugPrint('✅ PremiumService initialized');
+  }
+
+  /// Firebase Messaging topic ve Analytics user property'sini premium
+  /// durumuna göre senkronize eder. Böylece Firebase Console'dan Pro/Free
+  /// hedefli push gönderebiliriz.
+  Future<void> _syncPremiumTargeting() async {
+    final premium = isPremium;
+    if (_lastSyncedPremium == premium) return;
+    _lastSyncedPremium = premium;
+
+    try {
+      final messaging = FirebaseMessaging.instance;
+      if (premium) {
+        await messaging.subscribeToTopic('premium_users');
+        await messaging.unsubscribeFromTopic('free_users');
+      } else {
+        await messaging.subscribeToTopic('free_users');
+        await messaging.unsubscribeFromTopic('premium_users');
+      }
+      debugPrint('🔔 Premium targeting topics synced (premium=$premium)');
+    } catch (e) {
+      debugPrint('❌ Premium topic sync error: $e');
+    }
+
+    try {
+      await FirebaseAnalytics.instance.setUserProperty(
+        name: 'is_premium',
+        value: premium ? 'true' : 'false',
+      );
+    } catch (e) {
+      debugPrint('❌ Premium user property error: $e');
+    }
   }
 
   Future<void> _initRevenueCat() async {
     try {
       if (Platform.isIOS) {
-        await Purchases.setLogLevel(LogLevel.debug); // Enable debug logs
+        await Purchases.setLogLevel(kReleaseMode ? LogLevel.warn : LogLevel.debug);
         await Purchases.configure(PurchasesConfiguration(_apiKeyIOS));
       } else if (Platform.isAndroid) {
         await Purchases.configure(PurchasesConfiguration(_apiKeyAndroid));
@@ -61,6 +106,7 @@ class PremiumService extends ChangeNotifier {
         _customerInfo = info;
         debugPrint("🔄 RC Update: Entitlements: ${info.entitlements.all}");
         notifyListeners();
+        _syncPremiumTargeting();
       });
     } catch (e) {
       debugPrint('❌ RevenueCat init error: $e');
@@ -69,11 +115,12 @@ class PremiumService extends ChangeNotifier {
   
   /// Premium kullanıcı mı? (Checked via RevenueCat)
   bool get isPremium {
-    return false; // Disabled bypass for testing paywall
+    if (_debugPremiumOverride) return true;
+    return _customerInfo?.entitlements.active.containsKey(_entitlementId) ?? false;
   }
   
   /// Full erişim var mı?
-  bool get hasFullAccess => false; // Disabled bypass for testing paywall
+  bool get hasFullAccess => isPremium;
 
   /// Get available offerings (products)
   Future<Offerings?> getOfferings() async {
@@ -136,13 +183,13 @@ class PremiumService extends ChangeNotifier {
     if (!hasFullAccess) await _incrementUsage(_keyUsageAISuggestion);
   }
   
-  /// Rotaya yer ekleyebilir mi? (Limitli: 3)
+  /// Ücretsiz planda rotaya manuel ekleme hakkı var mı? (Tüm kaynakların toplamı.)
   bool canAddToRoute() {
     if (hasFullAccess) return true;
     return _getUsage(_keyUsageRouteAdd) < limitRouteAdd;
   }
   
-  /// Rotaya ekleme kullanımını artır
+  /// Her başarılı manuel rotaya eklemede çağrılır; kaynak fark etmez.
   Future<void> useRouteAdd() async {
     if (!hasFullAccess) await _incrementUsage(_keyUsageRouteAdd);
   }
@@ -183,6 +230,17 @@ class PremiumService extends ChangeNotifier {
   Future<void> useDirections() async {
     if (!hasFullAccess) await _incrementUsage(_keyUsageDirections);
   }
+
+  /// Günlük plan oluşturabilir mi? (Magic Plan)
+  bool canGenerateItinerary() {
+    if (hasFullAccess) return true;
+    return _getUsage(_keyUsageItinerary) < limitItinerary;
+  }
+
+  /// Günlük plan oluşturma kullanımını artır
+  Future<void> useItinerary() async {
+    if (!hasFullAccess) await _incrementUsage(_keyUsageItinerary);
+  }
   
   /// Hazır rotaları uygulayabilir mi?
   bool canApplyCuratedRoute() {
@@ -190,7 +248,29 @@ class PremiumService extends ChangeNotifier {
     return _getUsage(_keyUsageCuratedRoute) < limitCuratedRoute;
   }
 
-  /// Hazır rota kullanımını artır
+  /// Spesifik bir rotaya bakabilir mi? (Zaten baktıysa bakabilir, bakmadıysa hakkı varsa bakabilir)
+  bool canViewCuratedRoute(String routeId) {
+    if (hasFullAccess) return true;
+    
+    final viewedRoutes = _prefs?.getStringList(_keyViewedRoutes) ?? [];
+    if (viewedRoutes.contains(routeId)) return true;
+    
+    return _getUsage(_keyUsageCuratedRoute) < limitCuratedRoute;
+  }
+
+  /// Hazır rota izlendiğinde kaydet
+  Future<void> trackRouteView(String routeId) async {
+    if (hasFullAccess) return;
+    
+    final viewedRoutes = _prefs?.getStringList(_keyViewedRoutes) ?? [];
+    if (!viewedRoutes.contains(routeId)) {
+      viewedRoutes.add(routeId);
+      await _prefs?.setStringList(_keyViewedRoutes, viewedRoutes);
+      await _incrementUsage(_keyUsageCuratedRoute);
+    }
+  }
+
+  /// Hazır rota kullanımını artır (Manual use if needed)
   Future<void> useCuratedRoute() async {
     if (!hasFullAccess) await _incrementUsage(_keyUsageCuratedRoute);
   }
@@ -203,6 +283,7 @@ class PremiumService extends ChangeNotifier {
     'memories': limitMemories - _getUsage(_keyUsageMemories),
     'directions': limitDirections - _getUsage(_keyUsageDirections),
     'curatedRoute': limitCuratedRoute - _getUsage(_keyUsageCuratedRoute),
+    'itinerary': limitItinerary - _getUsage(_keyUsageItinerary),
   };
   
   // ══════════════════════════════════════════════════════════════════════════
@@ -259,6 +340,7 @@ class PremiumService extends ChangeNotifier {
     await _prefs?.setInt(_keyUsageMemories, 0);
     await _prefs?.setInt(_keyUsageDirections, 0);
     await _prefs?.setInt(_keyUsageCuratedRoute, 0);
+    await _prefs?.setStringList(_keyViewedRoutes, []);
     notifyListeners();
   }
 }

@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:cached_network_image/cached_network_image.dart';
 import 'package:google_fonts/google_fonts.dart';
 import '../l10n/app_localizations.dart';
 import '../services/ai_service.dart';
@@ -7,6 +6,8 @@ import '../services/city_data_loader.dart';
 import '../models/city_model.dart';
 import '../theme/wanderlust_colors.dart';
 import 'detail_screen.dart';
+import '../widgets/resilient_network_image.dart';
+import '../services/image_prefetch_service.dart';
 
 class GuideArticleScreen extends StatefulWidget {
   final String articleId;
@@ -81,16 +82,19 @@ class _GuideArticleScreenState extends State<GuideArticleScreen> {
                 child: Stack(
                   fit: StackFit.expand,
                   children: [
-                    Image.network(
-                      widget.imageUrl,
-                      fit: BoxFit.cover,
-                      color: Colors.black.withOpacity(0.3),
-                      colorBlendMode: BlendMode.darken,
-                      loadingBuilder: (context, child, loadingProgress) {
-                        if (loadingProgress == null) return child;
-                        return Container(color: WanderlustColors.bgDark);
-                      },
-                      errorBuilder: (context, error, stackTrace) => Container(color: WanderlustColors.bgDark),
+                    Positioned.fill(
+                      child: ResilientNetworkImage(
+                        imageUrl: widget.imageUrl,
+                        placeName: widget.title,
+                        city: '',
+                        category: 'article',
+                        fit: BoxFit.cover,
+                        placeholderBuilder: (_) =>
+                            Container(color: WanderlustColors.bgDark),
+                      ),
+                    ),
+                    Positioned.fill(
+                      child: Container(color: Colors.black.withOpacity(0.35)),
                     ),
                     Positioned(
                       bottom: -1, // -1 to avoid any gap
@@ -162,7 +166,7 @@ class _GuideArticleScreenState extends State<GuideArticleScreen> {
             child: Text(
               titleText,
               style: GoogleFonts.poppins(
-                color: Colors.white,
+                color: WanderlustColors.textWhite,
                 fontSize: 24,
                 fontWeight: FontWeight.bold,
               ),
@@ -187,8 +191,8 @@ class _GuideArticleScreenState extends State<GuideArticleScreen> {
             child: Row(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                Text("• ", style: GoogleFonts.poppins(color: WanderlustColors.accent, fontSize: 16)),
-                Expanded(child: _buildRichText(line.substring(2))),
+                Text("• ", style: GoogleFonts.poppins(color: WanderlustColors.accent, fontSize: 14)),
+                Expanded(child: _buildRichText(line.substring(2), fontSize: 14)),
               ],
             ),
           ),
@@ -202,8 +206,8 @@ class _GuideArticleScreenState extends State<GuideArticleScreen> {
             child: Row(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                 Text("${line.substring(0, dotIndex + 1)} ", style: GoogleFonts.poppins(color: WanderlustColors.accent, fontSize: 16, fontWeight: FontWeight.bold)),
-                Expanded(child: _buildRichText(line.substring(dotIndex + 1).trim())),
+                 Text("${line.substring(0, dotIndex + 1)} ", style: GoogleFonts.poppins(color: WanderlustColors.accent, fontSize: 14, fontWeight: FontWeight.bold)),
+                Expanded(child: _buildRichText(line.substring(dotIndex + 1).trim(), fontSize: 14)),
               ],
             ),
           ),
@@ -219,7 +223,7 @@ class _GuideArticleScreenState extends State<GuideArticleScreen> {
               border: const Border(left: BorderSide(color: WanderlustColors.accent, width: 4)),
               borderRadius: BorderRadius.circular(12),
             ),
-            child: _buildRichText(line.substring(2)),
+            child: _buildRichText(line.substring(2), fontSize: 14),
           ),
         );
       } else {
@@ -239,49 +243,60 @@ class _GuideArticleScreenState extends State<GuideArticleScreen> {
     );
   }
 
-  // Premium Section Header Widget
+  // Compact Section Header Widget
   Widget _buildSectionHeader(String title, IconData icon) {
+    // "1. Matera, İtalya — Taşa Oyulmuş Zaman" → split on em dash
+    final parts = title.split('—');
+    final mainTitle = parts[0].trim();
+    final subtitle = parts.length > 1 ? parts[1].trim() : null;
+
     return Container(
-      margin: const EdgeInsets.only(top: 24, bottom: 16),
-      padding: const EdgeInsets.all(16),
+      margin: const EdgeInsets.only(top: 16, bottom: 10),
+      padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 10),
       decoration: BoxDecoration(
         color: WanderlustColors.bgCard,
-        borderRadius: BorderRadius.circular(14),
+        borderRadius: BorderRadius.circular(12),
         border: Border.all(
           color: const Color(0xFF2C2C4E).withOpacity(0.5),
           width: 1,
         ),
       ),
       child: Row(
+        crossAxisAlignment: CrossAxisAlignment.center,
         children: [
-          // Icon Container with Glow
           Container(
-            padding: const EdgeInsets.all(10),
+            padding: const EdgeInsets.all(8),
             decoration: BoxDecoration(
-              color: WanderlustColors.accent.withOpacity(0.15),
-              borderRadius: BorderRadius.circular(12),
-              border: Border.all(
-                color: WanderlustColors.accent.withOpacity(0.3),
-                width: 1,
-              ),
+              color: WanderlustColors.accent.withOpacity(0.12),
+              borderRadius: BorderRadius.circular(8),
             ),
-            child: Icon(
-              icon,
-              color: WanderlustColors.accent,
-              size: 24,
-            ),
+            child: Icon(icon, color: WanderlustColors.accent, size: 18),
           ),
-          const SizedBox(width: 16),
-          // Title
+          const SizedBox(width: 12),
           Expanded(
-            child: Text(
-              title,
-              style: GoogleFonts.poppins(
-                color: Colors.white,
-                fontSize: 16,
-                fontWeight: FontWeight.bold,
-                letterSpacing: 0.5,
-              ),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text(
+                  mainTitle,
+                  style: GoogleFonts.poppins(
+                    color: WanderlustColors.textWhite,
+                    fontSize: 14,
+                    fontWeight: FontWeight.bold,
+                    height: 1.3,
+                  ),
+                ),
+                if (subtitle != null && subtitle.isNotEmpty)
+                  Text(
+                    subtitle,
+                    style: GoogleFonts.poppins(
+                      color: WanderlustColors.textGrey,
+                      fontSize: 12,
+                      fontWeight: FontWeight.w400,
+                      height: 1.4,
+                    ),
+                  ),
+              ],
             ),
           ),
         ],
@@ -304,7 +319,7 @@ class _GuideArticleScreenState extends State<GuideArticleScreen> {
   }
 
   /// **Bold** metinleri ve [Link](search:...) formatını ayrıştırır
-  Widget _buildRichText(String text) {
+  Widget _buildRichText(String text, {double fontSize = 16}) {
     // Link pattern: [DisplayName](search:SearchName)
     final linkPattern = RegExp(r'\[([^\]]+)\]\(search:([^\)]+)\)');
     
@@ -313,8 +328,8 @@ class _GuideArticleScreenState extends State<GuideArticleScreen> {
       return Text(
         text,
         style: GoogleFonts.poppins(
-          color: Colors.white.withOpacity(0.8), 
-          fontSize: 16, 
+          color: WanderlustColors.textGrey, 
+          fontSize: fontSize, 
           height: 1.6, 
           fontWeight: FontWeight.w400
         ),
@@ -330,7 +345,7 @@ class _GuideArticleScreenState extends State<GuideArticleScreen> {
         // Link öncesi metin
         if (match.start > lastEnd) {
           final beforeText = text.substring(lastEnd, match.start);
-          spans.addAll(_parseTextWithBold(beforeText));
+          spans.addAll(_parseTextWithBold(beforeText, fontSize: fontSize));
         }
 
         // Tıklanabilir link
@@ -354,7 +369,7 @@ class _GuideArticleScreenState extends State<GuideArticleScreen> {
                 displayName,
                 style: GoogleFonts.poppins(
                   color: WanderlustColors.accent,
-                  fontSize: 15,
+                  fontSize: fontSize - 1,
                   fontWeight: FontWeight.w600,
                 ),
               ),
@@ -367,14 +382,14 @@ class _GuideArticleScreenState extends State<GuideArticleScreen> {
 
       // Son kalan metin
       if (lastEnd < text.length) {
-        spans.addAll(_parseTextWithBold(text.substring(lastEnd)));
+        spans.addAll(_parseTextWithBold(text.substring(lastEnd), fontSize: fontSize));
       }
 
       return RichText(
         text: TextSpan(
           style: GoogleFonts.poppins(
-            color: Colors.white.withOpacity(0.8), 
-            fontSize: 16, 
+            color: WanderlustColors.textGrey, 
+            fontSize: fontSize, 
             height: 1.6,
             fontWeight: FontWeight.w400,
           ),
@@ -387,24 +402,24 @@ class _GuideArticleScreenState extends State<GuideArticleScreen> {
     return RichText(
       text: TextSpan(
         style: GoogleFonts.poppins(
-          color: Colors.white.withOpacity(0.8), 
-          fontSize: 16, 
+          color: WanderlustColors.textGrey, 
+          fontSize: fontSize, 
           height: 1.6,
           fontWeight: FontWeight.w400,
         ),
-        children: _parseTextWithBold(text),
+        children: _parseTextWithBold(text, fontSize: fontSize),
       ),
     );
   }
 
   /// Bold text içeren metni parse eder
-  List<InlineSpan> _parseTextWithBold(String text) {
+  List<InlineSpan> _parseTextWithBold(String text, {double fontSize = 16}) {
     if (!text.contains('**')) {
       return [TextSpan(
         text: text,
         style: GoogleFonts.poppins(
-          color: Colors.white.withOpacity(0.8),
-          fontSize: 16,
+          color: WanderlustColors.textGrey,
+          fontSize: fontSize,
           fontWeight: FontWeight.w400,
         ),
       )];
@@ -419,8 +434,8 @@ class _GuideArticleScreenState extends State<GuideArticleScreen> {
             spans.add(TextSpan(
               text: parts[i],
               style: GoogleFonts.poppins(
-                color: Colors.white.withOpacity(0.8),
-                fontSize: 16,
+                color: WanderlustColors.textGrey,
+                fontSize: fontSize,
                 fontWeight: FontWeight.w400,
               ),
             ));
@@ -432,8 +447,8 @@ class _GuideArticleScreenState extends State<GuideArticleScreen> {
           spans.add(TextSpan(
             text: parts[i],
             style: GoogleFonts.poppins(
-              color: isKey ? Colors.white : Colors.white.withOpacity(0.8), 
-              fontSize: 16,
+              color: isKey ? WanderlustColors.textWhite : WanderlustColors.textGrey, 
+              fontSize: fontSize,
               fontWeight: isKey ? FontWeight.bold : FontWeight.w400,
             ),
           ));
@@ -506,6 +521,8 @@ class _GuideArticleScreenState extends State<GuideArticleScreen> {
       }
 
       if (foundPlace != null && mounted) {
+        // Fotoğrafı prefetch et
+        ImagePrefetchService.prefetchSinglePhoto(context, foundPlace!.imageUrl, heroDecode: true);
         Navigator.push(
           context,
           MaterialPageRoute(builder: (_) => DetailScreen(place: foundPlace!)),

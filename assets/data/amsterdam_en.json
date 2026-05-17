@@ -1,0 +1,324 @@
+{
+  "meta": {
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "language": "en",
+    "version": "1.0",
+    "color_primary": "#1a6b5a",
+    "color_light": "#e8f5f1",
+    "tagline": "Freedom, canals, and more bicycles than people"
+  },
+  "pills": [
+    "Card-only city",
+    "Stay off bike lanes",
+    "Gezellig vibes"
+  ],
+  "sections": {
+    "overview": {
+      "title": "Welcome to Amsterdam",
+      "intro": "The moment you step off the train, Amsterdam hits different. The houses lean sideways — yes, on purpose, they're 17th century and proud of it. The canals wind through the city like a maze. And somehow the whole place just feels free.",
+      "local_word": {
+        "word": "Gezellig",
+        "pronunciation": "heh-ZEL-ikh",
+        "definition": "That warm, cozy, can't-quite-translate-it Dutch vibe — sitting by the water with a coffee, watching boats drift past. This single word explains the soul of Amsterdam. You'll feel it everywhere."
+      },
+      "rules": [
+        {
+          "number": 1,
+          "title": "Never walk on the red bike paths",
+          "description": "Cyclists own this city and they will not stop for you. Step onto a bike lane = instant danger. It's the number one tourist mistake in Amsterdam — and locals have zero patience for it."
+        },
+        {
+          "number": 2,
+          "title": "Amsterdam runs on cards, not cash",
+          "description": "From tiny bakeries to street markets, most places are card-only. Don't be surprised by the 'Card Only' sign — just tap and go. Carrying cash won't hurt, but don't rely on it."
+        }
+      ],
+      "quick_facts": [
+        {
+          "icon": "✈️",
+          "label": "Airport",
+          "value": "Schiphol (AMS)",
+          "sub": "15 min by train to Centraal · ~€5"
+        },
+        {
+          "icon": "🚲",
+          "label": "Getting around",
+          "value": "Bike or tram",
+          "sub": "Tap in AND out on trams"
+        },
+        {
+          "icon": "🗣️",
+          "label": "Language",
+          "value": "Dutch · English everywhere",
+          "sub": "Virtually everyone speaks English"
+        },
+        {
+          "icon": "⛵",
+          "label": "Free ferry",
+          "value": "Behind Centraal Station",
+          "sub": "To Noord — free, runs all day"
+        }
+      ],
+      "tip": {
+        "type": "tip",
+        "label": "Local word for comfort",
+        "text": "When you find a cosy brown café on a rainy afternoon, order a beer and just sit — that's gezellig in action. No agenda. No rush. Just Amsterdam."
+      }
+    },
+    "neighborhoods": {
+      "title": "Where to Stay",
+      "intro": "Your neighborhood shapes your whole trip. The Centrum is overpriced and loud — step one ring out and Amsterdam gets real.",
+      "local_word": {
+        "word": "Gezellig",
+        "pronunciation": "heh-ZEL-ikh",
+        "definition": "That warm, cozy, untranslatable Dutch feeling — sitting by a canal with coffee watching boats drift past. This is the soul of Amsterdam."
+      },
+      "items": [
+        {
+          "name": "Jordaan",
+          "badge": "Most romantic",
+          "badge_type": "vibe",
+          "description": "The most 'Amsterdam' neighbourhood that exists. Narrow alleys, ivy-covered canal houses, boutique hotels right on the water. Buildings are 400 years old — expect very steep stairs and tiny rooms. Bring a small suitcase.",
+          "tags": ["Calm & central", "Steep stairs", "Small suitcase essential"]
+        },
+        {
+          "name": "De Pijp",
+          "badge": "Best nightlife",
+          "badge_type": "hot",
+          "description": "Amsterdam's 'Latin Quarter.' Home to the Albert Cuypmarkt — the city's biggest open-air market — a buzzing student scene, and restaurants from every corner of the world. Slightly cheaper than center, way more alive.",
+          "tags": ["Nightlife-friendly", "Great food scene", "Budget-friendly"]
+        },
+        {
+          "name": "Grachtengordel (Canal Belt)",
+          "badge": "UNESCO listed",
+          "badge_type": "vibe",
+          "description": "Living inside a UNESCO World Heritage Site. Grand, high-ceilinged canal houses that end up on every postcard. Walking distance to everything, but expect tourist crowds on weekends.",
+          "tags": ["Most prestigious", "Weekend crowds", "Postcard-perfect"]
+        },
+        {
+          "name": "Oud-West",
+          "badge": "Local favourite",
+          "badge_type": "local",
+          "description": "The local's secret. Home to De Hallen — a gorgeous food hall and cinema in a converted tram depot — walking distance to Vondelpark. Best value-for-money area in Amsterdam. 10 minutes to center by tram.",
+          "tags": ["Best value", "Near Vondelpark", "Safe & stylish"]
+        },
+        {
+          "name": "Amsterdam Noord",
+          "badge": "Free ferry",
+          "badge_type": "value",
+          "description": "Across the free ferry behind Central Station. Former shipyards turned cool hotels, massive street art murals, digital nomad hub. A completely different energy — space and modernity over historic density. Catch the NDSM flea market on weekends.",
+          "tags": ["Free ferry access", "Street art", "Weekend flea market"]
+        }
+      ],
+      "callout": {
+        "type": "warning",
+        "label": "Transport tip",
+        "text": "Train from Schiphol → Centraal: every 10–15 min, ~15 min ride, around €5. Taxi costs 4–5x more. On trams: always tap in AND out — skip the exit tap and you're charged the maximum fare."
+      }
+    },
+    "seasons": {
+      "title": "Best Time to Visit",
+      "intro": "Amsterdam isn't a 'one perfect time' city — it's a 'depends what you're after' city.",
+      "items": [
+        {
+          "id": "spring",
+          "label": "Spring",
+          "name": "Tulip Season",
+          "months": "Mar – May",
+          "subtitle": "Spring · Most Iconic",
+          "description": "Keukenhof Gardens explodes with millions of tulips. Then April 27th — King's Day — the entire city turns orange, every street becomes a party, and the canals fill with boats. One of the biggest street celebrations in Europe. If you can only go once, make it spring.",
+          "callout": {
+            "type": "tip",
+            "label": "Don't miss",
+            "text": "King's Day (April 27) — book accommodation months ahead. Streets become free markets and the whole city dances."
+          }
+        },
+        {
+          "id": "summer",
+          "label": "Summer",
+          "name": "Long Days",
+          "months": "Jun – Aug",
+          "subtitle": "Summer · Most Social",
+          "description": "Sun sets past 10 PM. Locals picnic on canal boats. Vondelpark buzzes with live music. But weather is unpredictable — warm morning? Bring a jacket anyway. Rain arrives without warning.",
+          "callout": {
+            "type": "warning",
+            "label": "Pack note",
+            "text": "Always carry a compact rain jacket, even in July. Amsterdam weather follows no logic."
+          }
+        },
+        {
+          "id": "autumn",
+          "label": "Autumn",
+          "name": "Moody & Golden",
+          "months": "Sep – Nov",
+          "subtitle": "Autumn · Most Atmospheric",
+          "description": "Canal trees turn amber and orange, the city gets its famous melancholic, moody beauty. October brings Amsterdam Dance Event (ADE) — the whole city becomes the world's electronic music capital. Gezellig spirit peaks: rainy evenings, warm brown cafes, locals actually home.",
+          "callout": {
+            "type": "tip",
+            "label": "Local word",
+            "text": "'Bruin café' (brown café) — the dark wood-panelled pubs where gezellig truly lives. Find one in a rainstorm and order a beer."
+          }
+        },
+        {
+          "id": "winter",
+          "label": "Winter",
+          "name": "Canal Magic",
+          "months": "Dec – Feb",
+          "subtitle": "Winter · Most Magical",
+          "description": "Quieter, mistier, and honestly magical. The Amsterdam Light Festival transforms the canals into an open-air art museum. And if you get very lucky — rare, but it happens — the canals freeze and locals ice skate on them. A fairytale.",
+          "callout": {
+            "type": "tip",
+            "label": "Insider",
+            "text": "Frozen canals happen maybe once a decade. Follow local Amsterdam news in January — if it happens, drop everything and go."
+          }
+        }
+      ]
+    },
+    "food": {
+      "title": "What to Eat",
+      "intro": "Dutch food is better than its reputation. Some of this you can only find here.",
+      "local_word": {
+        "word": "Proost!",
+        "pronunciation": "prohst",
+        "definition": "Cheers! Say it when your beer arrives during a Borrel — Amsterdam's sacred after-work drinking ritual. Followed immediately by bitterballen."
+      },
+      "items": [
+        {
+          "icon": "🍟",
+          "name": "Vlaamse Frites + Patat Oorlog",
+          "description": "Thick-cut, double-fried, in a paper cone. Order Patat Oorlog (War Fries): peanut sauce, mayo, and raw onion. Sounds chaotic. Tastes incredible.",
+          "tag": "Try this first"
+        },
+        {
+          "icon": "🧇",
+          "name": "Stroopwafel — fresh, not packaged",
+          "description": "Two thin waffle layers with caramel in the middle. Get one warm from Albert Cuypmarkt. The supermarket versions don't compare.",
+          "tag": "Albert Cuypmarkt only"
+        },
+        {
+          "icon": "🧀",
+          "name": "Dutch Cheese (Kaas)",
+          "description": "You're in Gouda country. Cheese shops offer free tastings — aged, young, smoked, herb-infused. Try Henri Willig or Old Amsterdam. Always free to taste.",
+          "tag": "Free tastings available"
+        },
+        {
+          "icon": "🍺",
+          "name": "Bitterballen + Borrel",
+          "description": "Fried crispy balls filled with creamy meat ragout, dipped in mustard. Always eaten alongside an afternoon beer — that's the Borrel, Amsterdam's after-work ritual. Any brown café.",
+          "tag": "The true local ritual"
+        },
+        {
+          "icon": "🐟",
+          "name": "Haring (Raw Herring)",
+          "description": "Hold by the tail, tilt back, lower it in — that's the traditional way. Too bold? Get a broodje haring (bread roll) with pickles and onion. Either way, try it once.",
+          "tag": "Rite of passage"
+        },
+        {
+          "icon": "🍛",
+          "name": "Rijsttafel — Indonesian Feast",
+          "description": "15–20 small Indonesian dishes served together — rich, spiced, completely unlike anything else in Amsterdam. The most delicious remnant of Dutch colonial history. Reserve an evening.",
+          "tag": "Reserve in advance"
+        },
+        {
+          "icon": "🥞",
+          "name": "Poffertjes",
+          "description": "Tiny, fluffy mini-pancakes dusted with powdered sugar and butter. A childhood favourite in the Netherlands. Find them at any street market.",
+          "tag": "Kids & adults love these"
+        }
+      ],
+      "callout": {
+        "type": "tip",
+        "label": "Late night secret",
+        "text": "Find a FEBO automat — tap your card at a wall of little glass windows and pull out a hot kroket. Amsterdam's oldest fast-food tradition. Completely unique experience after midnight."
+      }
+    },
+    "hidden_gems": {
+      "title": "Hidden Gems",
+      "intro": "The real Amsterdam is behind doors, down alleys, and across free ferries. Most tourists walk right past these.",
+      "items": [
+        {
+          "rarity": "Extremely rare find",
+          "name": "Ons' Lieve Heer op Solder — Church in an Attic",
+          "description": "From the outside: a normal canal house. Inside, hidden on the top floor: a fully intact 17th-century Catholic church. Built secretly when Catholic worship was banned. Amsterdam's most powerful symbol of tolerance — and almost nobody knows it's there."
+        },
+        {
+          "rarity": "Medieval secret",
+          "name": "Begijnhof — The Hidden Courtyard",
+          "description": "A medieval courtyard behind an unmarked door on Spui square. Step through and the noise disappears entirely. Built in the 14th century. No sign on the door — look for a small wooden gate in the wall."
+        },
+        {
+          "rarity": "Art Deco masterpiece",
+          "name": "Tuschinski Theater",
+          "description": "One of the most beautiful Art Deco buildings in the world. Even if you don't watch a film, walk into the lobby. The carpets, ceiling, chandeliers — a time machine to 1921 Amsterdam. Most tourists walk past the facade and never go inside."
+        },
+        {
+          "rarity": "Noord secret — weekends only",
+          "name": "NDSM Werf + Weekend Flea Market",
+          "description": "Old shipyard turned street art wonderland via the free ferry. Giant scrap metal sculptures. Massive murals. On weekends: the NDSM flea market brings artists, food trucks, and vintage stalls. The Amsterdam of the future."
+        },
+        {
+          "rarity": "Jordaan's best-kept secret",
+          "name": "Hofjes — Secret Garden Courts",
+          "description": "Amsterdam has dozens of hidden gardens behind unmarked wooden doors. Begijnhof is the famous one, but Jordaan has several others — Karthuizerhofje, Sint Andrieshofje. Follow small signs on walls. Step through and find a garden 400 years removed from the city outside."
+        },
+        {
+          "rarity": "Best apple pie debate settled",
+          "name": "Winkel 43 — The Apple Pie Pilgrimage",
+          "description": "Thick, cinnamon-heavy, served warm with a mountain of fresh whipped cream (slagroom). Prepare for a queue — worth every minute. Go for afternoon coffee on a rainy day."
+        }
+      ],
+      "callout": {
+        "type": "warning",
+        "label": "De Wallen rule",
+        "text": "Do NOT photograph the windows in the Red Light District. It's illegal, deeply disrespectful, and will earn you a hostile response. Phone stays in your pocket — no exceptions."
+      }
+    },
+    "checklist": {
+      "title": "Amsterdam Checklist",
+      "completion_message": "You did Amsterdam right!",
+      "items": [
+        {
+          "label": "Sit by a canal at sunset",
+          "sub": "Jordaan or Prinsengracht — feet over the edge, beer in hand"
+        },
+        {
+          "label": "Visit the Anne Frank House",
+          "sub": "Book 2–3 months ahead. No walk-ins. The experience is worth every step."
+        },
+        {
+          "label": "Get lost in the 9 Straatjes",
+          "sub": "Nine Streets — vintage shops, boutiques, hidden gems. Budget extra time."
+        },
+        {
+          "label": "Peek into the Rijksmuseum's Cuypers Library",
+          "sub": "Even if you skip the galleries — the architecture will stop you in your tracks"
+        },
+        {
+          "label": "Take the free ferry to Amsterdam Noord",
+          "sub": "Behind Centraal Station — free, 5 minutes, completely different world"
+        },
+        {
+          "label": "Browse the Bloemenmarkt",
+          "sub": "World's only floating flower market. Tulip bulbs to actually take home."
+        },
+        {
+          "label": "Do a canal tour at golden hour",
+          "sub": "The light on canal houses one hour before sunset is unlike anything else"
+        },
+        {
+          "label": "Have a Borrel with bitterballen",
+          "sub": "Any brown café, any afternoon. Order bitterballen + beer. Say Proost!"
+        },
+        {
+          "label": "Experience a FEBO moment",
+          "sub": "Late night automat wall — kroket or burger from a little glass window"
+        },
+        {
+          "label": "Walk through Begijnhof",
+          "sub": "Find the unmarked door on Spui square. Step through. Breathe."
+        }
+      ]
+    }
+  }
+}

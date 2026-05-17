@@ -1,0 +1,324 @@
+{
+  "meta": {
+    "city": "Amsterdam",
+    "country": "Hollanda",
+    "language": "tr",
+    "version": "1.0",
+    "color_primary": "#1a6b5a",
+    "color_light": "#e8f5f1",
+    "tagline": "Özgürlük, kanallar ve insandan fazla bisiklet"
+  },
+  "pills": [
+    "Nakit geçmez",
+    "Bisiklet yoluna basma",
+    "Gezellig hissi"
+  ],
+  "sections": {
+    "overview": {
+      "title": "Amsterdam'a Hoş Geldin",
+      "intro": "Trenden indiğin andan itibaren Amsterdam seni farklı bir şekilde karşılar. Evler yana eğik — evet, kasıtlı olarak, 17. yüzyıldan kalma ve bununla gurur duyuyorlar. Kanallar şehrin içinden labirent gibi kıvrılıyor. Ve bir şekilde her yer özgür hissettiriyor.",
+      "local_word": {
+        "word": "Gezellig",
+        "pronunciation": "heh-ZEL-ikh",
+        "definition": "Hollandaca'da tam karşılığı olmayan o sıcak, huzurlu his — kanalın kenarında kahve tutup geçen tekneleri izlemek gibi. Bu tek kelime Amsterdam'ın ruhunu anlatıyor. Her köşede hissedeceksin."
+      },
+      "rules": [
+        {
+          "number": 1,
+          "title": "Kırmızı bisiklet yollarına asla basma",
+          "description": "Bu şehirde bisikletçiler hâkim ve senin için durmayacaklar. Bisiklet yoluna adım atmak = anlık tehlike. Amsterdam'da turistlerin yaptığı en büyük hata bu — ve yerel halkın bu konuda hiç sabrı yok."
+        },
+        {
+          "number": 2,
+          "title": "Amsterdam nakit değil, kart şehri",
+          "description": "Küçük fırınlardan sokak pazarlarına kadar çoğu yer sadece kartla ödeme alıyor. 'Sadece Kart' yazısını görünce şaşırma — kartını uzat ve geç. Nakit de bulundurmak zarar vermez ama ona güvenme."
+        }
+      ],
+      "quick_facts": [
+        {
+          "icon": "✈️",
+          "label": "Havalimanı",
+          "value": "Schiphol (AMS)",
+          "sub": "Trenle 15 dk · yaklaşık €5"
+        },
+        {
+          "icon": "🚲",
+          "label": "Ulaşım",
+          "value": "Bisiklet veya tramvay",
+          "sub": "Tramvayda binişte ve çıkışta kart okut"
+        },
+        {
+          "icon": "🗣️",
+          "label": "Dil",
+          "value": "Hollandaca · İngilizce her yerde",
+          "sub": "Neredeyse herkes İngilizce biliyor"
+        },
+        {
+          "icon": "⛵",
+          "label": "Ücretsiz Feribot",
+          "value": "Merkez İstasyonu arkası",
+          "sub": "Noord'a — ücretsiz, tüm gün işliyor"
+        }
+      ],
+      "tip": {
+        "type": "tip",
+        "label": "Yerel ipucu",
+        "text": "Yağmurlu bir öğleden sonra karanlık tahtadan bir 'bruin café' bulup bira ısmarlayınca — işte o an gezellig'i yaşıyorsun demektir. Acele yok, plan yok. Sadece Amsterdam."
+      }
+    },
+    "neighborhoods": {
+      "title": "Nerede Kalmalı?",
+      "intro": "Mahallenin seçimi tüm seyahatini şekillendirir. Merkez pahalı ve gürültülü — bir halka dışarı çık, gerçek Amsterdam orada başlıyor.",
+      "local_word": {
+        "word": "Gezellig",
+        "pronunciation": "heh-ZEL-ikh",
+        "definition": "O sıcak, huzurlu, kelimelerle tam anlatılamayan Hollanda hissi — kanalın kenarında kahveyle oturup teknelerin geçişini izlemek. Amsterdam'ın ruhu bu."
+      },
+      "items": [
+        {
+          "name": "Jordaan",
+          "badge": "En romantik",
+          "badge_type": "vibe",
+          "description": "En 'Amsterdam' mahallesi diyebileceğimiz yer. Dar sokaklar, sarmaşıklarla kaplı kanal evleri, suyun hemen kenarında butik oteller. Uyarı: binalar 400 yaşında — çok dik merdivenler ve küçük odalar seni bekliyor. Küçük bir valiz al.",
+          "tags": ["Sakin ve merkezi", "Dik merdivenler", "Küçük valiz şart"]
+        },
+        {
+          "name": "De Pijp",
+          "badge": "En iyi gece hayatı",
+          "badge_type": "hot",
+          "description": "Amsterdam'ın 'Latin Mahallesi.' Albert Cuypmarkt — şehrin en büyük açık hava pazarı — canlı bir öğrenci atmosferi ve dünyanın dört bir yanından restoranlar burada. Merkezden biraz ucuz, çok daha canlı.",
+          "tags": ["Gece hayatı dolu", "Harika yemek sahnesi", "Bütçe dostu"]
+        },
+        {
+          "name": "Grachtengordel (Kanal Kuşağı)",
+          "badge": "UNESCO listesinde",
+          "badge_type": "vibe",
+          "description": "UNESCO Dünya Mirası listesindeki bir alanda yaşamak gibi. Her kartpostalda gördüğün o yüksek tavanlı, görkemli kanal evleri burada. Her yere yürüme mesafesinde, ama hafta sonları turist kalabalığına hazır ol.",
+          "tags": ["En prestijli", "Hafta sonu kalabalık", "Kartpostal gibi"]
+        },
+        {
+          "name": "Oud-West",
+          "badge": "Yerel favorisi",
+          "badge_type": "local",
+          "description": "Yerel halkın sırrı. Eski bir tramvay deposuna kurulu muhteşem yemek salonu De Hallen, Vondelpark'a yürüme mesafesi. Amsterdam'ın en iyi fiyat-kalite oranına sahip bölgesi. Tramvayla merkeze 10 dakika.",
+          "tags": ["En iyi fiyat-değer", "Vondelpark yakını", "Güvenli ve şık"]
+        },
+        {
+          "name": "Amsterdam Noord",
+          "badge": "Ücretsiz feribot",
+          "badge_type": "value",
+          "description": "Merkez İstasyonu arkasındaki ücretsiz feribotla geçilen eski tersaneler, artık havalı oteller, devasa duvar sanatları ve dijital göçmen merkezine dönüşmüş. Tarihi yoğunluk yerine alan ve modernliği tercih edenlerin yeri. Hafta sonları NDSM bit pazarını kaçırma.",
+          "tags": ["Ücretsiz feribot", "Sokak sanatı", "Hafta sonu bit pazarı"]
+        }
+      ],
+      "callout": {
+        "type": "warning",
+        "label": "Ulaşım ipucu",
+        "text": "Schiphol'dan Centraal'a tren: her 10–15 dakikada bir, yaklaşık 15 dakika, ~€5. Taksi 4–5 kat daha pahalı. Tramvayda hem biniş hem iniş kartı okutmayı unutma — çıkışta okutmazsan maksimum ücret kesilir."
+      }
+    },
+    "seasons": {
+      "title": "En İyi Zaman Hangisi?",
+      "intro": "Amsterdam 'tek doğru zaman' olan bir şehir değil — 'ne arıyorsun?' sorusuna göre şekillenen bir şehir.",
+      "items": [
+        {
+          "id": "spring",
+          "label": "İlkbahar",
+          "name": "Lale Mevsimi",
+          "months": "Mar – May",
+          "subtitle": "İlkbahar · En İkonik",
+          "description": "Keukenhof Bahçeleri milyonlarca laleyle patlıyor. Sonra 27 Nisan geliyor — Kral Günü — tüm şehir turuncuya bürünüyor, her sokak partiye dönüşüyor, kanallar teknelerle dolup taşıyor. Avrupa'nın en büyük sokak kutlamalarından biri. Eğer bir kez gidebileceksen, ilkbaharı seç.",
+          "callout": {
+            "type": "tip",
+            "label": "Kaçırma",
+            "text": "Kral Günü (27 Nisan) — otelleri aylarca önceden ayırt. Sokaklar serbest pazar olur ve şehrin tamamı dans eder."
+          }
+        },
+        {
+          "id": "summer",
+          "label": "Yaz",
+          "name": "Uzun Günler",
+          "months": "Haz – Ağu",
+          "subtitle": "Yaz · En Sosyal",
+          "description": "Güneş saat 22:00'den sonra batıyor. Yerel halk kanal teknelerinde piknik yapıyor. Vondelpark canlı müzikle dolup taşıyor. Ama hava tahmin edilemez — sabah güneşli mi? Yine de ince bir ceket al. Yağmur habersiz geliyor Amsterdam'da.",
+          "callout": {
+            "type": "warning",
+            "label": "Bavul notu",
+            "text": "Temmuz'da bile kompakt bir yağmurluk taşı. Amsterdam havası hiçbir mantığa uymaz."
+          }
+        },
+        {
+          "id": "autumn",
+          "label": "Sonbahar",
+          "name": "Hüzünlü Güzellik",
+          "months": "Eyl – Kas",
+          "subtitle": "Sonbahar · En Atmosferik",
+          "description": "Kanal kenarındaki ağaçlar amber ve turuncuya dönüşüyor, şehir o ünlü melankolik güzelliğine kavuşuyor. Ekim'de Amsterdam Dans Etkinliği (ADE) tüm şehri dünyanın elektronik müzik başkentine çeviriyor. Gezellig ruhu zirveye çıkıyor: yağmurlu akşamlar, sıcak bruin kafeler, evlerinde olan yerel halk.",
+          "callout": {
+            "type": "tip",
+            "label": "Yerel kelime",
+            "text": "'Bruin café' (kahverengi kafe) — gezellig'in gerçekten yaşadığı karanlık ahşap barlar. Bir yağmurda birini bul ve bira ısmarla."
+          }
+        },
+        {
+          "id": "winter",
+          "label": "Kış",
+          "name": "Kanal Masalı",
+          "months": "Ara – Şub",
+          "subtitle": "Kış · En Büyülü",
+          "description": "Daha sessiz, sisli ve dürüstçe büyülü. Amsterdam Işık Festivali kanalları yüzen ışık enstalasyonlarıyla açık hava müzesine dönüştürüyor. Ve çok şanslıysan — nadir ama oluyor — kanallar donuyor ve yerel halk üzerinde paten kayıyor. Peri masalı gibi.",
+          "callout": {
+            "type": "tip",
+            "label": "Yerel sır",
+            "text": "Donmuş kanallar on yılda bir yaşanıyor. Ocak'ta yerel Amsterdam haberlerini takip et — olursa her şeyi bırak ve git."
+          }
+        }
+      ]
+    },
+    "food": {
+      "title": "Ne Yenmeli?",
+      "intro": "Hollanda mutfağı itibarından çok daha iyi. Bunların bir kısmını yalnızca burada bulabilirsin.",
+      "local_word": {
+        "word": "Proost!",
+        "pronunciation": "prohst",
+        "definition": "Şerefe! Bira geldiğinde söylenir — özellikle Borrel'de. Borrel, Amsterdam'ın kutsal iş çıkışı içki ritüeli. Hemen arkasından bitterballen sipariş edilir."
+      },
+      "items": [
+        {
+          "icon": "🍟",
+          "name": "Vlaamse Frites + Patat Oorlog",
+          "description": "Kalın kesilmiş, çift kızartılmış, kağıt konide servis. Patat Oorlog (Savaş Patates) söyle: fıstık sosu, mayonez ve çiğ soğan. Kaotik geliyor. Muhteşem oluyor.",
+          "tag": "İlk bunu dene"
+        },
+        {
+          "icon": "🧇",
+          "name": "Stroopwafel — taze, paketli değil",
+          "description": "İki ince gofret arası karamel. Albert Cuypmarkt'tan sıcak taze al ve yürürken ye. Marketteki versiyonlarıyla kıyaslanmaz.",
+          "tag": "Sadece Albert Cuypmarkt"
+        },
+        {
+          "icon": "🧀",
+          "name": "Hollanda Peyniri (Kaas)",
+          "description": "Gouda ülkesinesin. Peynir dükkanları — yaşlı, genç, tütsülenmiş, otlu — ücretsiz tadım sunuyor. Henri Willig veya Old Amsterdam'ı dene. Her zaman ücretsiz tadım var.",
+          "tag": "Ücretsiz tadım imkânı"
+        },
+        {
+          "icon": "🍺",
+          "name": "Bitterballen + Borrel",
+          "description": "Kremalı et ragusunu içinde saklayan çıtır kızartma topları, hardalla yenir. Her zaman öğleden sonra birayla — bu Borrel, Amsterdam'ın iş çıkışı ritüeli. Her bruin kafede sipariş edilir.",
+          "tag": "Gerçek yerel ritüel"
+        },
+        {
+          "icon": "🐟",
+          "name": "Haring (Çiğ Ringa Balığı)",
+          "description": "Kuyruğundan tut, başını geri eğ, yavaşça indir — geleneksel yol bu. Çok cesur geliyor mu? Broodje haring söyle — turşu ve soğanlı ekmek arası. Her iki şekilde de bir kez dene.",
+          "tag": "Geçiş töreni"
+        },
+        {
+          "icon": "🍛",
+          "name": "Rijsttafel — Endonezya Şöleni",
+          "description": "Birlikte servis edilen 15–20 küçük Endonezya yemeği — baharatlı, zengin ve Amsterdam'daki hiçbir şeye benzemiyor. Hollanda sömürge tarihinin en lezzetli kalıntısı. Bir akşamını ayır.",
+          "tag": "Önceden rezervasyon şart"
+        },
+        {
+          "icon": "🥞",
+          "name": "Poffertjes",
+          "description": "Pudra şekeri ve tereyağıyla servis edilen minik, kabarık mini pankekler. Hollanda'nın çocukluk klasiği. Her sokak pazarında bulabilirsin.",
+          "tag": "Her yaştan sevilir"
+        }
+      ],
+      "callout": {
+        "type": "tip",
+        "label": "Gece yarısı sırrı",
+        "text": "FEBO otomatını bul — küçük cam pencerelere kartını okut ve sıcak kroket çek. Amsterdam'ın en eski fast-food geleneği. Gece bardan çıktıktan sonra yaşanacak tamamen özgün bir deneyim."
+      }
+    },
+    "hidden_gems": {
+      "title": "Gizli Köşeler",
+      "intro": "Gerçek Amsterdam kapıların arkasında, dar sokaklarda ve ücretsiz feribotların ötesinde. Turistlerin büyük çoğunluğu bunların önünden geçip gidiyor.",
+      "items": [
+        {
+          "rarity": "Son derece nadir bir keşif",
+          "name": "Ons' Lieve Heer op Solder — Çatıdaki Kilise",
+          "description": "Dışarıdan bakınca: sıradan bir kanal evi. İçinde, en üst katta gizlenmiş: tam anlamıyla korunmuş 17. yüzyıl Katolik kilisesi. Katolik ibadetin yasaklandığı dönemde gizlice inşa edilmiş. Amsterdam'ın hoşgörü sembolü — ve neredeyse hiç kimse orada olduğunu bilmiyor."
+        },
+        {
+          "rarity": "Ortaçağ'dan kalma sır",
+          "name": "Begijnhof — Gizli Avlu",
+          "description": "Spui meydanında işaretsiz bir kapının ardında saklı ortaçağ avlusu. İçeri girince gürültü tamamen kayboluyor. 14. yüzyıldan kalma. Kapıda tabelası yok — duvardaki küçük ahşap kapıyı ara."
+        },
+        {
+          "rarity": "Art Deco başyapıtı",
+          "name": "Tuschinski Tiyatrosu",
+          "description": "Dünyanın en güzel Art Deco binalarından biri. Film izlemesen bile lobiye gir. Halılar, tavan, avizeler — 1921 Amsterdam'ına giden bir zaman makinesi. Turistlerin çoğu cepheye bakıp geçiyor, içeri hiç girmiyor."
+        },
+        {
+          "rarity": "Noord sırrı — sadece hafta sonları",
+          "name": "NDSM Werf + Hafta Sonu Bit Pazarı",
+          "description": "Ücretsiz feribotla ulaşılan eski tersane, sokak sanatı cennetine dönüşmüş. Dev hurdadan heykeller, büyük duvar resimleri. Hafta sonları NDSM bit pazarı sanatçılar, yemek kamyonları ve vintage tezgâhlarla dolup taşıyor. Geleceğin Amsterdam'ı burası."
+        },
+        {
+          "rarity": "Jordaan'ın en büyük sırrı",
+          "name": "Hofjes — Gizli Bahçe Avluları",
+          "description": "Amsterdam'ın onlarca gizli bahçesi işaretsiz tahta kapıların ardında saklı. Begijnhof en ünlüsü, ama Jordaan'da başkaları da var — Karthuizerhofje, Sint Andrieshofje. Duvarlardaki küçük tabelaları takip et. Kapıdan geç ve şehirden 400 yıl uzakta bir bahçe bul."
+        },
+        {
+          "rarity": "En iyi elmalı turta tartışması kapandı",
+          "name": "Winkel 43 — Elmalı Turta Hac Yeri",
+          "description": "Kalın, tarçınlı, sıcak servis ve üstünde bir dağ kadar taze çırpılmış krema (slagroom). Sıraya hazır ol — her dakikası değer. Yağmurlu bir günün öğleden sonrasında git."
+        }
+      ],
+      "callout": {
+        "type": "warning",
+        "label": "De Wallen kuralı",
+        "text": "Kırmızı Işıklar Bölgesi'ndeki pencereleri kesinlikle fotoğraflama. Bu yasadışı, son derece saygısızca ve sert bir tepkiyle karşılaşırsın. Telefon cebinde kalacak — istisnası yok."
+      }
+    },
+    "checklist": {
+      "title": "Amsterdam Kontrol Listesi",
+      "completion_message": "Tebrikler — Amsterdam'ı hakkıyla yaşadın!",
+      "items": [
+        {
+          "label": "Günbatımında bir kanalın kenarına otur",
+          "sub": "Jordaan veya Prinsengracht — ayaklar sarkık, elde bira veya kahve"
+        },
+        {
+          "label": "Anne Frank Evi'ni ziyaret et",
+          "sub": "2–3 ay önceden bilet al. Walk-in kabul edilmiyor. Her adımına değer."
+        },
+        {
+          "label": "9 Straatjes'te kaybol",
+          "sub": "Dokuz Sokak — vintage dükkanlar, butikler, gizli köşeler. Fazladan zaman ayır."
+        },
+        {
+          "label": "Rijksmuseum'un Cuypers Kütüphanesi'ne bak",
+          "sub": "Galerileri atlasan bile bu kütüphaneye gir — mimari nefes kesecek"
+        },
+        {
+          "label": "Amsterdam Noord'a ücretsiz feribotla geç",
+          "sub": "Centraal İstasyonu arkası — ücretsiz, 5 dakika, bambaşka bir dünya"
+        },
+        {
+          "label": "Bloemenmarkt'ı gez",
+          "sub": "Dünyanın tek yüzen çiçek pazarı. Eve götürebileceğin lale soğanı al."
+        },
+        {
+          "label": "Altın saatte kanal turu yap",
+          "sub": "Günbatımından bir saat önceki ışıkta kanal evleri eşsiz görünüyor"
+        },
+        {
+          "label": "Bitterballen eşliğinde Borrel yap",
+          "sub": "Herhangi bir bruin kafede, öğleden sonra. Bitterballen + bira + Proost!"
+        },
+        {
+          "label": "FEBO deneyimi yaşa",
+          "sub": "Gece geç saatlerde küçük cam pencereden sıcak kroket çek"
+        },
+        {
+          "label": "Begijnhof'tan geç",
+          "sub": "Spui meydanındaki işaretsiz kapıyı bul. İçeri gir. Nefes al."
+        }
+      ]
+    }
+  }
+}

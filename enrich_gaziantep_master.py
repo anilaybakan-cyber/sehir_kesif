@@ -1,3 +1,5 @@
+from dotenv import load_dotenv
+load_dotenv()
 
 import json
 import requests
@@ -6,7 +8,7 @@ import urllib.parse
 import os
 
 # Google Places API Key
-API_KEY = 'AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g'
+API_KEY = os.getenv("GOOGLE_MAPS_API_KEY")
 
 def get_google_photo_url(place_name, location_bias=None):
     """

@@ -1702,55 +1702,6 @@
       "name_en": "Fira"
     },
     {
-      "name": "Fira Cable Car",
-      "name_en": "Cable Car",
-      "area": "Fira",
-      "category": "Deneyim",
-      "tags": [
-        "ulaşım",
-        "manzara",
-        "liman",
-        "teleferik"
-      ],
-      "lat": 36.417,
-      "lng": 25.431,
-      "price": "medium",
-      "rating": 4.6,
-      "description": "1979'da Nomikos Vakfı tarafından inşa edilen Fira Teleferiği, dik kaldera yamaçlarına entegre mühendislik harikasıdır. Fira'yı limana bağlayıp antik patikaları değiştiren, eşsiz manzaralı adanın yaşam damarıdır.",
-      "description_en": "Built 1979 by Nomikos, Fira Cable Car: an engineering marvel on steep caldera. It connects Fira to port, replacing ancient paths, Santorini's vital scenic artery.",
-      "bestTime": "Gündüz",
-      "tips": "Erken gidin, yoğunluktan kaçın; gün batımı manzarası için akşam üzeri idealdir.",
-      "tips_en": "Go early to avoid crowds; late afternoon is ideal for sunset views.",
-      "id": "cable-car",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/santorini/cable-car.jpg",
-      "source": "firebase",
-      "distanceFromCenter": 1.0
-    },
-    {
-      "name": "Fira Merkez",
-      "name_en": "Fira Town Center",
-      "area": "Fira",
-      "category": "Deneyim",
-      "tags": [
-        "merkez",
-        "alışveriş",
-        "yeme"
-      ],
-      "lat": 36.4165,
-      "lng": 25.4315,
-      "price": "free",
-      "rating": 4.6,
-      "description": "Fira Merkez, volkanik kayalıklara inşa edilmiş, beyaz badanalı geleneksel Cycladic mimarisiyle büyüleyen, çarpıcı kaldera manzaraları sunan Santorini'nin tarihi ve kültürel başkentidir. Antik Thera müzeleriyle zenginleşmiştir.",
-      "description_en": "Fira Center, Santorini's historical and cultural capital, enchants with traditional whitewashed Cycladic architecture built on volcanic cliffs, offering stunning caldera views. It's enriched with Ancient Thera museums.",
-      "bestTime": "Akşam",
-      "tips": "Özellikle gün batımında kalabalık olabilir; sakin anlar için sabahı tercih edin.",
-      "tips_en": "It can be crowded, especially at sunset; prefer mornings for serene moments.",
-      "id": "fira-merkez",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/santorini/fira-merkez.jpg",
-      "source": "firebase",
-      "distanceFromCenter": 1.0
-    },
-    {
       "name": "Firostefani",
       "name_en": "Firostefani",
       "area": "Firostefani",
@@ -3418,30 +3369,6 @@
       "distanceFromCenter": 1.0
     },
     {
-      "name": "Profitis Ilias Imerovigli",
-      "name_en": "Prophet Elias Imerovigli",
-      "area": "Imerovigli",
-      "category": "Tarihi",
-      "tags": [
-        "kilise",
-        "tepe",
-        "manzara"
-      ],
-      "lat": 36.438,
-      "lng": 25.425,
-      "price": "free",
-      "rating": 4.6,
-      "description": "Imerovigli'nin 17. yüzyıldan kalma Profitis Ilias Manastırı, geleneksel Kiklad mimarisi ve değerli freskleriyle öne çıkar. Adanın ruhani tarihini Caldera manzarasıyla sunan etkileyici yapıdır.",
-      "description_en": "Imerovigli's 17th-century Profitis Ilias Monastery showcases traditional Cycladic architecture and valuable frescoes. It impressively presents Santorini's spiritual history with stunning Caldera views.",
-      "bestTime": "Gün batımı",
-      "tips": "Gün batımında ziyaret ederek eşsiz Caldera manzarasının keyfini çıkarın.",
-      "tips_en": "Visit at sunset to enjoy the unique Caldera view.",
-      "id": "prophet-elias-imerovigli",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/santorini/prophet-elias-imerovigli.jpg",
-      "source": "firebase",
-      "distanceFromCenter": 1.0
-    },
-    {
       "name": "Profitis Ilias Monastery",
       "name_en": "Profitis Ilias Monastery",
       "area": "Pyrgos",
@@ -3987,28 +3914,6 @@
       "source": "firebase"
     },
     {
-      "name": "Three Bells of Fira",
-      "category": "Manzara",
-      "tags": [
-        "church",
-        "blue dome",
-        "photo"
-      ],
-      "lat": 36.423,
-      "lng": 25.429,
-      "rating": 4.7,
-      "description": "Fira'nın ikonik çanları, her gün gün doğumunda adayı kucaklayan melankolik bir ezgi gibidir. Duygusal bir miras taşıyan bu yapılar, aşkın ve hüzünlü ayrılıkların simgesidir.",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/santorini/three_bells_of_fira.jpg",
-      "price": "medium",
-      "bestTime": "09:00 - 18:00",
-      "bestTime_en": "09:00 - 18:00",
-      "tips": "Sahildeki kafelerde gün doğumunu izleyin.",
-      "tips_en": "Watch the sunrise from cafes by the waterfront.",
-      "description_en": "The iconic bells of Fira resonate like a melancholic tune embracing the island at dawn. These structures carry an emotional legacy, symbolizing love and sorrowful farewells.",
-      "source": "firebase",
-      "name_en": "Three Bells of Fira"
-    },
-    {
       "name": "To Psaraki",
       "name_en": "To Psaraki",
       "area": "Vlychada",
@@ -4453,46 +4358,6 @@
       "source": "firebase",
       "tips": "Günbatımını izlemek için erken gidin, kalabalıktan kaçının.",
       "tips_en": "Go early to watch the sunset, avoid the crowds."
-    },
-    {
-      "name": "Imerovigli",
-      "name_en": "Imerovigli",
-      "area": "Caldera",
-      "category": "Deneyim",
-      "tags": [
-        "manzara",
-        "sakin",
-        "yürüyüş"
-      ],
-      "lat": 36.4328,
-      "lng": 25.4228,
-      "rating": 4.8,
-      "description": "Imerovigli, adını \"gündüz gözetleme\"den alan, tarihi Venedik Skaros Kalesi'ne ev sahipliği yapan, volkanik kayalıklara oyulmuş geleneksel Kiklad mimarisine sahip, nefes kesici kaldera manzaraları sunan stratejik bir köy.",
-      "description_en": "Imerovigli, named for \"day vigil,\" is a strategic village hosting the historic Venetian Skaros Castle. It features traditional Cycladic architecture carved into volcanic cliffs, offering breathtaking caldera views.",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Imerovigli_Santorini.jpg/800px-Imerovigli_Santorini.jpg",
-      "price": "free",
-      "tips": "Gün batımını izlemek için Skaros Kayası'na yürüyüş yapın, huzurlu bir deneyim.",
-      "tips_en": "Hike to Skaros Rock for sunset views; it's a peaceful experience."
-    },
-    {
-      "name": "Fira",
-      "name_en": "Fira",
-      "area": "Center",
-      "category": "Deneyim",
-      "tags": [
-        "merkez",
-        "alışveriş",
-        "gece hayatı"
-      ],
-      "lat": 36.42,
-      "lng": 25.4317,
-      "rating": 4.7,
-      "description": "Fira'nın kalbinde, 1956 depremi sonrası yeniden inşa edilen bu görkemli Neo-Bizans katedrali, etkileyici freskleri ve kutsal ikonalarıyla ziyaretçilerini büyüler. Ege'ye bakan ikonik mimari bir şaheserdir.",
-      "description_en": "Fira's magnificent Neo-Byzantine Metropolitan Cathedral, rebuilt after 1956 earthquake, mesmerizes with frescoes and sacred icons. An iconic architectural masterpiece proudly facing the Aegean.",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Fira_Santorini_Greece.jpg/800px-Fira_Santorini_Greece.jpg",
-      "price": "free",
-      "tips": "Katedralin zengin iç mekânını ve barışçıl atmosferini deneyimlemek için gündüz ziyaret edin.",
-      "tips_en": "Visit during day to experience its rich interior and peaceful atmosphere."
     },
     {
       "name": "Pyrgos",

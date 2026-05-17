@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+from dotenv import load_dotenv
+load_dotenv()
 """
 Firebase Storage Upload Script
 Downloads Google Places API photos and uploads to Firebase Storage
@@ -19,7 +21,7 @@ firebase_admin.initialize_app(cred, {
 })
 
 BUCKET = storage.bucket()
-API_KEY = 'AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g'
+API_KEY = os.getenv("GOOGLE_MAPS_API_KEY")
 
 def download_image(url, local_path):
     """Downloads an image from URL to local path"""

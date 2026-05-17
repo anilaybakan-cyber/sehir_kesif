@@ -4915,66 +4915,6 @@
       "tips_en": "Join a guided tour to see city views from the tower's top."
     },
     {
-      "name": "Fotografiska Museum",
-      "name_en": "Fotografiska",
-      "area": "Södermalm",
-      "category": "Müze",
-      "tags": [
-        "photography",
-        "art",
-        "view"
-      ],
-      "lat": 59.3178,
-      "lng": 18.0822,
-      "description": "Ferdinand Boberg tasarımı, 1906 tarihli Art Nouveau gümrük binasında yer alan Fotografiska, dünya standartlarında çağdaş fotoğraf sergilerine ev sahipliği yapan ikonik bir kültür merkezidir.",
-      "description_en": "Housed in a 1906 Art Nouveau customs house designed by Ferdinand Boberg, Fotografiska is an iconic cultural hub hosting world-class contemporary photography exhibitions.",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/stockholm/fotografiska.jpg",
-      "rating": 4.7,
-      "price": "medium",
-      "tips": "Müze kafesinden şehrin ve suyun muhteşem manzarasının keyfini çıkarın.",
-      "tips_en": "Enjoy magnificent city and water views from the museum's café."
-    },
-    {
-      "name": "Riddarholmen Kilisesi",
-      "name_en": "Riddarholmen Church",
-      "area": "Gamla Stan",
-      "category": "Tarihi",
-      "tags": [
-        "tarih",
-        "kraliyet",
-        "mimari"
-      ],
-      "lat": 59.3255,
-      "lng": 18.0645,
-      "rating": 4.7,
-      "description": "Riddarholmen Kilisesi, tarih kokan atmosferi ve daha az bilinen mezarlarıyla huzur arayanlar için sakin bir cennet.",
-      "description_en": "Riddarholmen Church, with its historic ambiance and lesser-known graves, is a serene haven for those seeking tranquility.",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/stockholm/riddarholmen_kilisesi.jpg",
-      "source": "firebase",
-      "tips": "Kilise avlusundaki banklarda sakin bir sohbet edin.",
-      "tips_en": "Enjoy a quiet chat on the benches in the church courtyard."
-    },
-    {
-      "name": "Solna Centrum Metro İstasyonu",
-      "name_en": "Solna Centrum Metro Station",
-      "area": "Stockholm",
-      "category": "Deneyim",
-      "tags": [
-        "metro",
-        "street art",
-        "mağara"
-      ],
-      "lat": 59.359,
-      "lng": 17.9985,
-      "rating": 4.8,
-      "description": "İşe gidenler, öğrenciler ve aileler Solna Centrum'un dramatik kırmızı kaya sanatına enerji katıyor; günlük rutinlerin cesur sanatsal ifadelerle kesiştiği, canlı bir kentsel nabzı yansıtan dinamik, yaşayan bir galeri oluşuyor.",
-      "description_en": "Commuters, students, and families invigorate Solna Centrum's dramatic red rock art, creating a dynamic, living gallery where daily routines intersect with bold artistic statements, reflecting a vital urban pulse.",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/stockholm/solna_centrum_metro_istasyonu.jpg",
-      "source": "firebase",
-      "tips": "Sabah yoğun saatlerde kırmızı duvarlardaki değişen ışığı izleyin.",
-      "tips_en": "Observe the changing light on the red walls during morning rush hour."
-    },
-    {
       "name": "Fjällgatan Lookout",
       "name_en": "Fjällgatan Lookout",
       "area": "Södermalm",

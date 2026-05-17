@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+from dotenv import load_dotenv
+load_dotenv()
 """
 Budapeşte şehir verisini zenginleştirme scripti.
 'Gezipgördüm' kaynaklarından 20+ yeni mekan ekler.
@@ -10,7 +12,7 @@ import time
 import os
 from typing import Optional
 
-API_KEY = "AIzaSyBOXbf-5v4aXyEYgciwX4EfPYAGXX6Yy9g"
+API_KEY = os.getenv("GOOGLE_MAPS_API_KEY")
 BUDAPESTE_JSON_PATH = "assets/cities/budapeste.json"
 
 NEW_PLACES = [

@@ -1,0 +1,968 @@
+{
+  "city": "Saint-Tropez",
+  "city_en": "Saint-Tropez",
+  "country": "Fransa",
+  "country_en": "France",
+  "description": "Saint-Tropez, dünya jet-setinin buluşma noktası ve Akdeniz'in asalet kalesidir.",
+  "description_en": "Saint-Tropez is the meeting point of the world's jet-set and a stronghold of Mediterranean nobility.",
+  "heroImage": "https://cdn.sanity.io/images/nxpteyfv/goguides/3a6c92c8b52d99de1f3ef6d2fcebadfd646bf990-1600x1066.jpg",
+  "coordinates": {
+    "lat": 43.2716,
+    "lng": 6.6373
+  },
+  "highlights": [
+    {
+      "id": "ChIJNb1n5KrHzhIRrM2U9kL-c9E",
+      "name": "Sentier des Douaniers",
+      "name_en": "Sentier des Douaniers",
+      "category": "Manzara",
+      "tags": [
+        "st-tropez",
+        "luxury",
+        "restoran"
+      ],
+      "lat": 43.2502,
+      "lng": 6.650200000000001,
+      "rating": 4.8,
+      "reviewCount": 500,
+      "price": "high",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fsaint_tropez%2Ftropez_sentier_des_douaniers.jpg?alt=media",
+      "description": "Saint-Tropez yarımadasını çevreleyen bu eski gümrük yolu, turkuaz koylar ve sarp kayalıklar arasında uzanan kentin en vahşi ve havadar yürüyüş rotasıdır. Lüks villaların arkasından geçerek el değmemiş plajlara ulaşan bu patika, kentin ışıltılı yüzünün ardındaki asıl doğayı keşfetmenizi sağlar.",
+      "description_en": "This old customs path encircling the Saint-Tropez peninsula is the city's wildest and airiest hiking route, stretching between turquoise coves and steep cliffs. Passing behind luxury villas to reach untouched beaches, it allows you to discover the true nature behind the city's glamorous facade.",
+      "source": "google",
+      "tips": "Pampelonne Plajı'na kadar yürümek yaklaşık 3 saat sürer; yanınıza mutlaka su alın ve güneş kremi kullanın.",
+      "tips_en": "Walking to Pampelonne Beach takes about 3 hours; make sure to bring water and wear sunscreen.",
+      "bestTime": "Sabah veya Öğleden Sonra (Doğa yürüyüşü için)",
+      "duration": "2 Saat",
+      "bestTime_en": "Morning or Afternoon (Best for hiking)"
+    },
+    {
+      "id": "ChIJ4zqYb5rFzhIRGOOWGlwmSRA",
+      "name": "Domaine de la Croix",
+      "name_en": "Domaine de la Croix",
+      "category": "Yeme-İçme",
+      "tags": [
+        "st-tropez",
+        "luxury",
+        "restoran"
+      ],
+      "lat": 43.2504,
+      "lng": 6.6504,
+      "rating": 4.8,
+      "reviewCount": 500,
+      "price": "high",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fsaint_tropez%2Ftropez_domaine_de_la_croix.jpg?alt=media",
+      "description": "Provence bölgesinin en seçkin şarap malikanelerinden biri olan bu tesis, üzüm bağları ve tarihi kavıyla kentin gastronomi mirasını temsil ediyor. Geleneksel tariflerin modern dokunuşlarla harmanlandığı tadım seanslarıyla kentin enerjisini ve kültürel kimliğini elit bir atmosferde keşfetmek isteyenlerin favori durakları arasındadır.",
+      "description_en": "One of the most elite wine manors of the Provence region, this facility represents the city's gastronomic heritage with its vineyards and historical cellar. Among the favorite stops of those wanting to explore the city me's energy and cultural identity in an elite atmosphere with tasting sessions where traditional recipes are blended with modern touches.",
+      "source": "google",
+      "tips": "Akşam yemeği için birkaç gün önceden yer ayırtın.",
+      "tips_en": "Book a table a few days in advance for dinner.",
+      "bestTime": "Gün Boyu",
+      "duration": "2 Saat",
+      "bestTime_en": "All Day",
+      "openHours": {
+        "sunday": "closed",
+        "monday": "10:00-13:00, 15:00-18:00",
+        "tuesday": "10:00-13:00, 15:00-18:00",
+        "wednesday": "10:00-13:00, 15:00-18:00",
+        "thursday": "10:00-13:00, 15:00-18:00",
+        "friday": "10:00-13:00, 15:00-18:00",
+        "saturday": "10:00-13:00, 15:00-18:00"
+      }
+    },
+    {
+      "id": "ChIJKRST5GLMzhIRkY0Dx_MqrFM",
+      "name": "Domaine du Siouvette",
+      "name_en": "Domaine du Siouvette",
+      "category": "Yeme-İçme",
+      "tags": [
+        "st-tropez",
+        "luxury",
+        "restoran"
+      ],
+      "lat": 43.2506,
+      "lng": 6.650600000000001,
+      "rating": 4.8,
+      "reviewCount": 500,
+      "price": "high",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fsaint_tropez%2Ftropez_domaine_du_siouvette.jpg?alt=media",
+      "description": "Butik şarap üreticiliğinin zarif bir örneği olan Siouvette, kentin sarsılmaz dinsel mirası ve toprakla olan bağına aristokratik bir soluk getiriyor. Geleneksel tarım yöntemleri ve kentin tarihsel evrimini yansıtan mahzen dokusuyla kentin enerjisini samimi bir ortamda yaşamak isteyen her gezginin mutlaka denemesi gereken kaliteli bir duraktır.",
+      "description_en": "A graceful example of boutique winemaking, Siouvette brings an aristocratic breath to the city me's unshakable religious heritage and bond with the land. It is a high-quality stop every traveler wanting to live the city's energy in a sincere environment must try, with its traditional farming methods and cellar texture reflecting the city me's historical evolution.",
+      "source": "google",
+      "tips": "Akşam yemeği için birkaç gün önceden yer ayırtın.",
+      "tips_en": "Book a table a few days in advance for dinner.",
+      "bestTime": "Gün Boyu",
+      "duration": "2 Saat",
+      "bestTime_en": "All Day",
+      "openHours": {
+        "sunday": "closed",
+        "monday": "09:00-13:00, 14:00-18:00",
+        "tuesday": "09:00-13:00, 14:00-18:00",
+        "wednesday": "09:00-13:00, 14:00-18:00",
+        "thursday": "09:00-13:00, 14:00-18:00",
+        "friday": "09:00-13:00, 14:00-18:00",
+        "saturday": "09:00-13:00, 14:00-18:00"
+      }
+    },
+    {
+      "id": "ChIJa1HiMxTGzhIRBOK3Bm07BP4",
+      "name": "Château Minuty",
+      "name_en": "Castle Minuty",
+      "category": "Yeme-İçme",
+      "tags": [
+        "st-tropez",
+        "luxury",
+        "restoran"
+      ],
+      "lat": 43.2508,
+      "lng": 6.6508,
+      "rating": 4.8,
+      "reviewCount": 500,
+      "price": "high",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fsaint_tropez%2Ftropez_château_minuty.jpg?alt=media",
+      "description": "Saint-Tropez'nin dünyaca ünlü Rosé şaraplarının ana vatanı olan bu heybetli şato, kentin en prestijli ve estetik duraklarından biridir. Panaromik üzüm bağı manzarası ve kentin enerjisini elit bir akşamla birleştiren yapısıyla kentin estetik gücünü soluyabileceğiniz iddialı ve havadar bir keşif noktasıdır.",
+      "description_en": "The homeland of Saint-Tropez me's world-famous Rosé wines, this imposing chateau is one of the city's most prestigious and aesthetic stops. It is an ambitious and airy discovery point where you can breathe in the city's aesthetic power with its panoramic vineyard view and structure combining the city me's energy with an elite evening.",
+      "source": "google",
+      "tips": "Akşam yemeği için birkaç gün önceden yer ayırtın.",
+      "tips_en": "Book a table a few days in advance for dinner.",
+      "bestTime": "Gün Boyu",
+      "duration": "2 Saat",
+      "bestTime_en": "All Day",
+      "openHours": {
+        "sunday": "10:00-18:30",
+        "monday": "09:00-18:30",
+        "tuesday": "09:00-18:30",
+        "wednesday": "09:00-18:30",
+        "thursday": "09:00-18:30",
+        "friday": "10:00-18:30",
+        "saturday": "10:00-18:30"
+      }
+    },
+    {
+      "id": "ChIJfzx0yTjGzhIRwAfWvMAyeDU",
+      "name": "Château Barbeyrolles",
+      "name_en": "Castle Barbeyrolles",
+      "category": "Yeme-İçme",
+      "tags": [
+        "st-tropez",
+        "luxury",
+        "restoran"
+      ],
+      "lat": 43.251,
+      "lng": 6.651000000000001,
+      "rating": 4.8,
+      "reviewCount": 500,
+      "price": "high",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fsaint_tropez%2Ftropez_château_barbeyrolles.jpg?alt=media",
+      "description": "Maures Dağları'nın yamacında yer alan bu şık şaraphanede, kentin dünden bugüne sosyal tarihini anlatan asude bir mönü keşfedin. Doğal tarım felsefesi ve kentin ruhuna karakter katan sessizliğiyle kenti keşfeden gezginlerin en sevilen ve kentsel koşturmacadan uzak dinlenme rotaları arasındadır.",
+      "description_en": "Discover a serene menu telling the city me's social history from yesterday to today at this stylish winery located on the slope of the Maures Mountains. Among the favorite and rest routes of travelers exploring the city, away from urban hustle, with its natural farming philosophy and silence adding character to the city me's spirit.",
+      "source": "google",
+      "tips": "Akşam yemeği için birkaç gün önceden yer ayırtın.",
+      "tips_en": "Book a table a few days in advance for dinner.",
+      "bestTime": "Gece (Canlı atmosfer için)",
+      "duration": "2 Saat",
+      "bestTime_en": "Night (For the vibrant atmosphere)",
+      "openHours": {
+        "sunday": "closed",
+        "monday": "09:00-19:00",
+        "tuesday": "09:00-19:00",
+        "wednesday": "09:00-19:00",
+        "thursday": "09:00-19:00",
+        "friday": "closed",
+        "saturday": "09:00-19:00"
+      }
+    },
+    {
+      "id": "ChIJLzf27xTHzhIRyuz0IXIEAi8",
+      "name": "La Maison des Papillons",
+      "name_en": "La Maison des Papillons",
+      "category": "Yeme-İçme",
+      "tags": [
+        "st-tropez",
+        "luxury",
+        "restoran"
+      ],
+      "lat": 43.2514,
+      "lng": 6.651400000000001,
+      "rating": 4.8,
+      "reviewCount": 500,
+      "price": "high",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fsaint_tropez%2Ftropez_la_maison_des_papillons.jpg?alt=media",
+      "description": "Şehrin kalbinde, adını kelebeklerin zarafetinden alan bu özel mekan, geleneksel lezzetleri modern dokunuşlarla sunar. Huzurlu atmosferiyle unutulmaz bir deneyim.",
+      "description_en": "In the heart of the city, this unique venue, named after the elegance of butterflies, offers traditional flavors with modern touches. An unforgettable experience with its peaceful atmosphere.",
+      "source": "google",
+      "tips": "Özellikle öğle yemeği için idealdir; bahçesinde oturup şehrin ritmini hissedin.",
+      "tips_en": "Ideal for lunch; sit in its garden and feel the city's rhythm.",
+      "bestTime": "Gün Boyu",
+      "duration": "2 Saat",
+      "bestTime_en": "All Day",
+      "openHours": {
+        "sunday": "14:00-17:00",
+        "monday": "14:00-17:00",
+        "tuesday": "14:00-17:00",
+        "wednesday": "14:00-17:00",
+        "thursday": "closed",
+        "friday": "closed",
+        "saturday": "14:00-17:00"
+      }
+    },
+    {
+      "id": "ChIJl-MR6mrHzhIRp7Gd-0sgCQQ",
+      "name": "La Ponche Quarter",
+      "name_en": "La Ponche Quarter",
+      "category": "Yeme-İçme",
+      "tags": [
+        "st-tropez",
+        "luxury",
+        "restoran"
+      ],
+      "lat": 43.252,
+      "lng": 6.652,
+      "rating": 4.8,
+      "reviewCount": 500,
+      "price": "high",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fsaint_tropez%2Ftropez_la_ponche_quarter.jpg?alt=media",
+      "description": "La Ponche, Saint-Tropez'nin tarihi ve otantik kalbidir; dar yaya sokakları, pastel renkli eski balıkçı evleri ve Arnavut kaldırımlı meydanlardan oluşan büyüleyici bir labirenttir. Brigitte Bardot'nun efsanevi 'Ve Tanrı Kadını Yarattı' filmini çektiği küçük ve tenha kumsala açılan bu mahalle, ziyaretçileri modern lüksten uzaklaştırıp kasabanın romantik ve bohem geçmişine götürür.",
+      "description_en": "La Ponche is the historic, authentic heart of Saint-Tropez; an atmospheric labyrinth of narrow pedestrian alleys, pastel-colored fishermen's cottages, and cobblestone squares. Bordering a tiny secluded beach where Brigitte Bardot famously filmed 'And God Created Woman', this captivating quarter transports visitors far from modern glitz into the town's romantic, bohemian past.",
+      "source": "google",
+      "tips": "Akşam yemeği için birkaç gün önceden yer ayırtın.",
+      "tips_en": "Book a table a few days in advance for dinner.",
+      "bestTime": "Gün Boyu",
+      "duration": "2 Saat",
+      "bestTime_en": "All Day",
+      "localTip": "Mahallenin dar sokaklarında kaybolduktan sonra küçük La Ponche kumsalında taşların üzerine oturup dalga seslerini dinleyin.",
+      "localTip_en": "After getting lost in the charming alleyways, sit on the smooth pebbles at the secluded La Ponche beach and listen to the soothing waves."
+    },
+    {
+      "id": "ChIJe3cthczAzhIRW7TYMaxkx18",
+      "name": "Plage des Canoubiers",
+      "name_en": "Plage des Canoubiers",
+      "category": "Yeme-İçme",
+      "tags": [
+        "st-tropez",
+        "luxury",
+        "restoran"
+      ],
+      "lat": 43.2524,
+      "lng": 6.6524,
+      "rating": 4.8,
+      "reviewCount": 500,
+      "price": "high",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fsaint_tropez%2Ftropez_plage_des_canoubiers.jpg?alt=media",
+      "description": "Saint-Tropez'nin kalabalık merkezine sadece birkaç kilometre mesafede yer alan Plage des Canoubiers, gösterişten uzak samimi atmosferiyle yerel halkın en çok tercih ettiği huzurlu bir kumsaldır. Çam ağaçları ve ünlülerin saklı villalarıyla çevrili olan sığ ve rüzgarsız suları, Pampelonne'un yoğun plaj kulüplerinden uzakta güvenli ve dinlendirici bir deniz keyfi sunar.",
+      "description_en": "Located just a few kilometers from the bustling center of Saint-Tropez, Plage des Canoubiers is a peaceful sandy beach beloved by local residents for its unpretentious, family-friendly charm. Backed by umbrella pines and private celebrity villas, its sheltered shallow waters provide an idyllic, safe swimming environment away from the crowded beach clubs of Pampelonne.",
+      "source": "google",
+      "tips": "Akşam yemeği için birkaç gün önceden yer ayırtın.",
+      "tips_en": "Book a table a few days in advance for dinner.",
+      "bestTime": "Gün Boyu (Güneş ve deniz keyfi için)",
+      "duration": "2 Saat",
+      "bestTime_en": "All Day (Best for sun and sea)",
+      "localTip": "Plaj kıyısındaki çam ağaçlarının gölgesinde oturup koya demirleyen klasik ahşap yelkenlilerin huzur veren süzülüşünü izleyin.",
+      "localTip_en": "Sit in the pleasant shade of the umbrella pines along the shore and watch the classic wooden sailboats anchored gently in the bay."
+    },
+    {
+      "id": "ChIJPxu9HAnHzhIRl1hzr-ZY4wQ",
+      "name": "Plage de la Bouillabaisse",
+      "name_en": "Plage de la Bouillabaisse",
+      "category": "Yeme-İçme",
+      "tags": [
+        "st-tropez",
+        "luxury",
+        "restoran"
+      ],
+      "lat": 43.253,
+      "lng": 6.6530000000000005,
+      "rating": 4.8,
+      "reviewCount": 500,
+      "price": "high",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fsaint_tropez%2Ftropez_plage_de_la_bouillabaisse.jpg?alt=media",
+      "description": "Saint-Tropez'in kalbinde, efsanevi bouillabaisse'in doğduğu bu plajda, Akdeniz'in taze lezzetlerini ve eşsiz deniz ürünlerini deneyimleyin.",
+      "description_en": "Experience the fresh Mediterranean flavors and unique seafood, especially the legendary bouillabaisse, at this beach in the heart of Saint-Tropez.",
+      "source": "google",
+      "tips": "Öğle yemeği için erken gidin ve geleneksel bouillabaisse'i deniz kenarında tadın. Rezervasyon şart.",
+      "tips_en": "Go early for lunch and savor the traditional bouillabaisse by the sea. Reservations are essential.",
+      "bestTime": "Gün Boyu (Güneş ve deniz keyfi için)",
+      "duration": "2 Saat",
+      "bestTime_en": "All Day (Best for sun and sea)"
+    },
+    {
+      "id": "ChIJwaeD4pjFzhIRtbk91KKpWr4",
+      "name": "Gigaro Beach",
+      "name_en": "Gigaro Beach",
+      "category": "Plaj",
+      "tags": [
+        "st-tropez",
+        "luxury",
+        "restoran"
+      ],
+      "lat": 43.2538,
+      "lng": 6.6538,
+      "rating": 4.8,
+      "reviewCount": 500,
+      "price": "high",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fsaint_tropez%2Ftropez_gigaro_beach.jpg?alt=media",
+      "description": "Vahşi doğası ve kristal berraklığındaki deniziyle Gigaro, Saint-Tropez'nin sarp ve el değmemiş yüzünü sergiliyor. Çam ormanları ve kentin ruhuna huzur veren sessizliğiyle kentin enerjisini doğanın kalbinde hissetmek isteyenlerin favorisi olan, havadar ve merak uyandırıcı bir keşif noktasıdır.",
+      "description_en": "Gigaro, with its wild nature and crystal-clear sea, exhibits the steep and untouched face of Saint-Tropez. Being a favorite for those wanting to feel the city me's energy in the heart of nature with pine forests and silence bringing peace to the city's spirit, it is an airy and intriguing discovery point.",
+      "source": "google",
+      "tips": "Akşam yemeği için birkaç gün önceden yer ayırtın.",
+      "tips_en": "Book a table a few days in advance for dinner.",
+      "bestTime": "Gün Boyu (Güneş ve deniz keyfi için)",
+      "duration": "2 Saat",
+      "bestTime_en": "All Day (Best for sun and sea)",
+      "openHours": {
+        "sunday": "09:00-21:00",
+        "monday": "09:00-21:00",
+        "tuesday": "09:00-21:00",
+        "wednesday": "09:00-21:00",
+        "thursday": "09:00-21:00",
+        "friday": "09:00-21:00",
+        "saturday": "09:00-21:00"
+      }
+    },
+    {
+      "id": "ChIJq7zsEhXHzhIRD1b5rKYZJCo",
+      "name": "Port de Ramatuelle",
+      "name_en": "Harbor de Ramatuelle",
+      "category": "Yeme-İçme",
+      "tags": [
+        "st-tropez",
+        "luxury",
+        "restoran"
+      ],
+      "lat": 43.254,
+      "lng": 6.654,
+      "rating": 4.8,
+      "reviewCount": 500,
+      "price": "high",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fsaint_tropez%2Ftropez_port_de_ramatuelle.jpg?alt=media",
+      "description": "Saint-Tropez yakınlarında yer alan Port de Ramatuelle, Akdeniz balıkçı geleneğini modern yatçılık lüksüyle muhteşem bir uyum içinde harmanlayan büyüleyici bir sahil marinasıdır. Çam ağaçları ve şık deniz kıyısı bistrolarıyla çevrili olan liman, kentin kalabalığından uzakta rıhtım boyunca gün batımı yürüyüşleri yapmak için dingin ve kartpostallık bir sığınaktır.",
+      "description_en": "Nestled near Saint-Tropez, Port de Ramatuelle is a charming coastal marina that beautifully combines Mediterranean fishing heritage with modern yachting luxury. Surrounded by pine trees and upscale waterfront bistros, it offers a tranquil, picturesque retreat away from the bustling town center, perfect for admiring sunset strolls along the docks.",
+      "source": "google",
+      "tips": "Akşam yemeği için birkaç gün önceden yer ayırtın.",
+      "tips_en": "Book a table a few days in advance for dinner.",
+      "bestTime": "Gün Boyu",
+      "duration": "2 Saat",
+      "bestTime_en": "All Day",
+      "localTip": "Liman kıyısındaki restoranların açık teraslarında oturup taze istiridye tabağı ve soğuk Provans roze şarabı eşliğinde yatların süzülüşünü izleyin.",
+      "localTip_en": "Secure a table on a waterfront terrace to enjoy fresh oysters and chilled Provence rosé while watching the elegant yachts glide by."
+    },
+    {
+      "id": "ChIJ6R3BkXfIzhIRbnHZkRtJ9Po",
+      "name": "Cogolin Port Link",
+      "name_en": "Cogolin Harbor Link",
+      "category": "Yeme-İçme",
+      "tags": [
+        "st-tropez",
+        "luxury",
+        "restoran"
+      ],
+      "lat": 43.2548,
+      "lng": 6.654800000000001,
+      "rating": 4.8,
+      "reviewCount": 500,
+      "price": "high",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fsaint_tropez%2Ftropez_cogolin_port_link.jpg?alt=media",
+      "description": "Cogolin Port Link, Cogolin limanının hareketli atmosferinde, Akdeniz'in taze esintisiyle yeme-içme keyfi sunan bir noktadır. Bölgenin denizcilik ruhunu yansıtır.",
+      "description_en": "Cogolin Port Link is a spot in the lively atmosphere of Cogolin port, offering dining pleasure with the fresh breeze of the Mediterranean. It reflects the maritime spirit of the region.",
+      "source": "google",
+      "tips": "Limanın gün batımı manzarası eşliğinde keyifli bir akşam yemeği için idealdir.",
+      "tips_en": "Ideal for a pleasant dinner accompanied by the port's sunset view.",
+      "bestTime": "Gün Boyu",
+      "duration": "2 Saat",
+      "bestTime_en": "All Day"
+    },
+    {
+      "id": "ChIJAx6bMZS4zhIRaaB7A1w_ygk",
+      "name": "Sainte-Maxime Ferry Link",
+      "name_en": "Sainte-Maxime Ferry Link",
+      "category": "Deneyim",
+      "tags": [
+        "st-tropez",
+        "luxury",
+        "restoran"
+      ],
+      "lat": 43.255,
+      "lng": 6.655,
+      "rating": 4.8,
+      "reviewCount": 500,
+      "price": "high",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fsaint_tropez%2Ftropez_sainte-maxime_ferry_link.jpg?alt=media",
+      "description": "Sainte-Maxime Feribot Hattı, Saint-Tropez Körfezi'nin eşsiz manzaraları eşliğinde Sainte-Maxime'i Saint-Tropez'ye bağlayan tarihi bir deniz yolculuğu deneyimi sunar.",
+      "description_en": "The Sainte-Maxime Ferry Link offers a historic sea journey experience connecting Sainte-Maxime to Saint-Tropez, accompanied by unique views of the Gulf of Saint-Tropez.",
+      "source": "google",
+      "tips": "Saint-Tropez'ye ulaşımın en keyifli yolu. Özellikle yaz aylarında trafikten kaçmak için idealdir.",
+      "tips_en": "The most enjoyable way to reach Saint-Tropez. Ideal for avoiding traffic, especially during summer.",
+      "bestTime": "Gün Boyu",
+      "duration": "2 Saat",
+      "bestTime_en": "All Day"
+    },
+    {
+      "id": "ChIJJxid8bvJzhIR4UZKRtxGpxM",
+      "name": "Private Helicopter Link",
+      "name_en": "Private Helicopter Link",
+      "category": "Yeme-İçme",
+      "tags": [
+        "st-tropez",
+        "luxury",
+        "restoran"
+      ],
+      "lat": 43.2556,
+      "lng": 6.655600000000001,
+      "rating": 4.8,
+      "reviewCount": 500,
+      "price": "high",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fsaint_tropez%2Ftropez_private_helicopter_link.jpg?alt=media",
+      "description": "Şehrin özel helikopter iniş alanına komşu bu seçkin mekan, gökyüzü manzarası eşliğinde modern Türk ve dünya mutfağının en özel lezzetlerini sunar.",
+      "description_en": "Adjacent to the city's private helicopter landing area, this exclusive venue offers the finest modern Turkish and international cuisine with stunning sky views.",
+      "source": "google",
+      "tips": "Özel bir kutlama veya iş yemeği için idealdir; helikopter transferi öncesi/sonrası gurme deneyimi yaşayın.",
+      "tips_en": "Ideal for a special celebration or business dinner; enjoy a gourmet experience before/after your helicopter transfer.",
+      "bestTime": "Gün Boyu",
+      "duration": "2 Saat",
+      "bestTime_en": "All Day",
+      "openHours": {
+        "sunday": "closed",
+        "monday": "closed",
+        "tuesday": "closed",
+        "wednesday": "closed",
+        "thursday": "00:00-23:59",
+        "friday": "00:00-24:00",
+        "saturday": "closed"
+      }
+    },
+    {
+      "id": "ChIJn-R7zhTHzhIRTt-_AH0oYJY",
+      "name": "Designer Boutique Street",
+      "name_en": "Designer Boutique Street",
+      "category": "Yeme-İçme",
+      "tags": [
+        "st-tropez",
+        "luxury",
+        "restoran"
+      ],
+      "lat": 43.2558,
+      "lng": 6.6558,
+      "rating": 4.8,
+      "reviewCount": 500,
+      "price": "high",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fsaint_tropez%2Ftropez_designer_boutique_street.jpg?alt=media",
+      "description": "Şehir'in kalbinde, her köşesi özenle tasarlanmış butik restoranlar ve gurme lezzet duraklarıyla dolu bu cadde, damak zevkinize hitap eden eşsiz bir deneyim sunar.",
+      "description_en": "In the heart of Şehir, this street, filled with meticulously designed boutique restaurants and gourmet stops, offers a unique culinary experience for your palate.",
+      "source": "google",
+      "tips": "Akşam yemeği için rezervasyon yaptırın ve yerel şeflerin özel menülerini mutlaka deneyin.",
+      "tips_en": "Make a reservation for dinner and be sure to try the special menus crafted by local chefs.",
+      "bestTime": "Gün Boyu",
+      "duration": "2 Saat",
+      "bestTime_en": "All Day",
+      "openHours": {
+        "sunday": "10:30-19:30",
+        "monday": "10:30-19:30",
+        "tuesday": "10:30-19:30",
+        "wednesday": "10:30-19:30",
+        "thursday": "10:30-19:30",
+        "friday": "10:30-19:30",
+        "saturday": "10:30-19:30"
+      }
+    },
+    {
+      "id": "ChIJ2fKsoxTHzhIRwYwJD3AeRD0",
+      "name": "Hermes Saint-Tropez",
+      "name_en": "Hermes Saint-Tropez",
+      "category": "Alışveriş",
+      "tags": [
+        "st-tropez",
+        "luxury",
+        "restoran"
+      ],
+      "lat": 43.2564,
+      "lng": 6.6564000000000005,
+      "rating": 4.8,
+      "reviewCount": 500,
+      "price": "high",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fsaint_tropez%2Ftropez_hermes_saint-tropez.jpg?alt=media",
+      "description": "Hermès'in Saint-Tropez'deki ikonik butiği, 1950'lerden beri lüksün ve Fransız zarafetinin sembolü. Eşsiz tasarımları keşfedin.",
+      "description_en": "Hermès' iconic Saint-Tropez boutique, a symbol of luxury and French elegance since the 1950s. Discover unique designs.",
+      "source": "google",
+      "tips": "Özel koleksiyonları görmek için erken saatlerde veya sezon dışında ziyaret edin.",
+      "tips_en": "Visit early or off-season to explore exclusive collections.",
+      "bestTime": "Gün Boyu",
+      "duration": "2 Saat",
+      "bestTime_en": "All Day",
+      "openHours": {
+        "sunday": "10:30-13:30, 14:30-18:30",
+        "monday": "10:30-13:30, 14:30-18:30",
+        "tuesday": "10:30-13:30, 14:30-18:30",
+        "wednesday": "10:30-13:30, 14:30-18:30",
+        "thursday": "10:30-13:30, 14:30-18:30",
+        "friday": "closed",
+        "saturday": "10:30-13:30, 14:30-18:30"
+      }
+    },
+    {
+      "id": "ChIJJUedUCjGzhIR9u7XXZv4o0E",
+      "name": "Saint-Tropez Polo Club",
+      "name_en": "Saint-Tropez Polo Club",
+      "category": "Yeme-İçme",
+      "tags": [
+        "st-tropez",
+        "luxury",
+        "restoran"
+      ],
+      "lat": 43.2566,
+      "lng": 6.6566,
+      "rating": 4.8,
+      "reviewCount": 500,
+      "price": "high",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fsaint_tropez%2Ftropez_saint-tropez_polo_club.jpg?alt=media",
+      "description": "1992'de kurulan Saint-Tropez Polo Club, Gassin'de lüks bir polo deneyimi sunar. Uluslararası turnuvalara ev sahipliği yaparken, şık restoranlarında Akdeniz lezzetleri tadın.",
+      "description_en": "Founded in 1992, Saint-Tropez Polo Club in Gassin offers a luxurious polo experience. Enjoy Mediterranean flavors at its elegant restaurants while international tournaments unfold.",
+      "source": "google",
+      "tips": "Polo maçları sırasında rezervasyon yaparak hem sporu izleyin hem de şık atmosferde yemek yiyin.",
+      "tips_en": "Make a reservation during polo matches to both watch the sport and dine in the elegant atmosphere.",
+      "bestTime": "Gece (Canlı atmosfer için)",
+      "duration": "2 Saat",
+      "bestTime_en": "Night (For the vibrant atmosphere)",
+      "openHours": {
+        "sunday": "09:00-19:00",
+        "monday": "09:00-19:00",
+        "tuesday": "09:00-19:00",
+        "wednesday": "09:00-19:00",
+        "thursday": "09:00-19:00",
+        "friday": "09:00-19:00",
+        "saturday": "09:00-19:00"
+      }
+    },
+    {
+      "id": "ChIJ7xkz0LHJzhIRZ7se-BJXUTc",
+      "name": "Local Pottery Shop",
+      "name_en": "Local Pottery Shop",
+      "category": "Alışveriş",
+      "tags": [
+        "st-tropez",
+        "luxury",
+        "restoran"
+      ],
+      "lat": 43.2572,
+      "lng": 6.6572000000000005,
+      "rating": 4.8,
+      "reviewCount": 500,
+      "price": "high",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fsaint_tropez%2Ftropez_local_pottery_shop.jpg?alt=media",
+      "description": "Şehir'in kalbinde, yüzyıllık çömlekçilik geleneğini yaşatan bu atölye, el yapımı eşsiz seramikleriyle göz kamaştırıyor. Her parça, bölgenin ruhunu taşıyor.",
+      "description_en": "In the heart of Şehir, this workshop keeps centuries-old pottery traditions alive, dazzling with its unique handmade ceramics. Each piece carries the spirit of the region.",
+      "source": "google",
+      "tips": "Sanatçıları çalışırken görmek için öğleden sonra erken saatlerde ziyaret edin; kendinize veya sevdiklerinize otantik bir hediye bulun.",
+      "tips_en": "Visit in the early afternoon to see the artisans at work; find an authentic gift for yourself or your loved ones.",
+      "bestTime": "Gün Boyu",
+      "duration": "2 Saat",
+      "bestTime_en": "All Day",
+      "openHours": {
+        "sunday": "closed",
+        "monday": "09:30-12:30, 15:00-18:30",
+        "tuesday": "09:30-12:30, 15:00-18:30",
+        "wednesday": "09:30-12:30, 15:00-18:30",
+        "thursday": "09:30-12:30, 15:00-18:30",
+        "friday": "09:00-12:30, 15:00-18:30",
+        "saturday": "closed"
+      }
+    },
+    {
+      "id": "ChIJywms5gjHzhIRMpK5ABBNuNE",
+      "name": "Seaside Afternoon Tea",
+      "name_en": "Seaside Afternoon Tea",
+      "category": "Yeme-İçme",
+      "tags": [
+        "st-tropez",
+        "luxury",
+        "restoran"
+      ],
+      "lat": 43.258,
+      "lng": 6.658,
+      "rating": 4.8,
+      "reviewCount": 500,
+      "price": "high",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fsaint_tropez%2Ftropez_seaside_afternoon_tea.jpg?alt=media",
+      "description": "Kentin iddialı sahil şeridinde yer alan bu şık mekan, beş çayı geleneğini kentsel estetiğin neşeli tınılarıyla birleştiriyor. Masmavi manzarası ve kentin taze deniz havasıyla kentsel silüeti tamamlayan bu durak, kenti keşfedenlerin kentsel koşturmacadan uzaklaşıp nefes alabileceği rafine bir mola noktasıdır.",
+      "description_en": "This stylish venue located on the city me's ambitious coastline combines the five o me'clock tea tradition with the joyful tones of urban aesthetics. Completing the urban silhouette with its deep blue view and the city me's fresh sea air, this stop is a refined break point where those exploring the city can move away from urban hustle and breathe.",
+      "source": "google",
+      "tips": "Akşam yemeği için birkaç gün önceden yer ayırtın.",
+      "tips_en": "Book a table a few days in advance for dinner.",
+      "bestTime": "Gün Boyu",
+      "duration": "2 Saat",
+      "bestTime_en": "All Day",
+      "openHours": {
+        "sunday": "00:00-00:00, 09:00-24:00",
+        "monday": "00:00-00:00, 09:00-24:00",
+        "tuesday": "00:00-00:00, 09:00-24:00",
+        "wednesday": "00:00-00:00, 09:00-24:00",
+        "thursday": "00:00-00:00, 09:00-23:59",
+        "friday": "09:00-24:00",
+        "saturday": "00:00-00:00, 09:00-24:00"
+      }
+    },
+    {
+      "id": "ChIJNz2gO4rHzhIR38I8AtdaTyo",
+      "name": "Brigitte Bardot Statue",
+      "name_en": "Brigitte Bardot Statue",
+      "category": "Tarihi",
+      "tags": [
+        "st-tropez",
+        "luxury",
+        "restoran"
+      ],
+      "lat": 43.2588,
+      "lng": 6.6588,
+      "rating": 4.8,
+      "reviewCount": 500,
+      "price": "high",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fsaint_tropez%2Ftropez_brigitte_bardot_statue.jpg?alt=media",
+      "description": "Saint-Tropez limanında yer alan bu ikonik Brigitte Bardot heykeli, efsanevi aktrisin şehre kattığı cazibeyi ve mirası ölümsüzleştiriyor. Popüler bir fotoğraf noktasıdır.",
+      "description_en": "Located at the Saint-Tropez harbor, this iconic Brigitte Bardot statue immortalizes the legendary actress's charm and legacy in the city. A popular photo spot.",
+      "source": "google",
+      "tips": "Gün batımında ziyaret ederek limanın eşsiz manzarası eşliğinde fotoğraf çekin.",
+      "tips_en": "Visit at sunset to take photos with the unique harbor view.",
+      "bestTime": "Gece (Canlı atmosfer için)",
+      "duration": "2 Saat",
+      "bestTime_en": "Night (For the vibrant atmosphere)"
+    },
+    {
+      "id": "ChIJUW1mrRPHzhIR9lFMbl9RA-Q",
+      "name": "Fishermans Alley View",
+      "name_en": "Fishermans Alley View",
+      "category": "Yeme-İçme",
+      "tags": [
+        "st-tropez",
+        "luxury",
+        "restoran"
+      ],
+      "lat": 43.259,
+      "lng": 6.659000000000001,
+      "rating": 4.8,
+      "reviewCount": 500,
+      "price": "high",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fsaint_tropez%2Ftropez_fishermans_alley_view.jpg?alt=media",
+      "description": "Şehrin tarihi balıkçı sokağında, liman manzarası eşliğinde taze deniz ürünleri sunan bu mekan, nesillerdir yerel lezzetlerin adresi.",
+      "description_en": "Located in the city's historic fisherman's alley, this spot offers fresh seafood with a harbor view, a generational address for local flavors.",
+      "source": "google",
+      "tips": "Gün batımında liman manzarasının keyfini çıkarırken, günlük yakalanan balıklardan birini deneyin.",
+      "tips_en": "Enjoy the harbor view at sunset and try one of the daily caught fish.",
+      "bestTime": "Öğle veya Akşam Yemeği",
+      "duration": "2 Saat",
+      "bestTime_en": "Lunch or Dinner",
+      "openHours": {
+        "sunday": "08:00-13:00",
+        "monday": "closed",
+        "tuesday": "08:00-13:00",
+        "wednesday": "08:00-13:00",
+        "thursday": "08:00-13:00",
+        "friday": "08:00-13:00",
+        "saturday": "08:00-13:00"
+      }
+    },
+    {
+      "id": "ChIJFQNuVy7HzhIR6wq6xqPllLM",
+      "name": "Rue de la Citadelle Shops",
+      "name_en": "Street de la Citadelle Shops",
+      "category": "Yeme-İçme",
+      "tags": [
+        "st-tropez",
+        "luxury",
+        "restoran"
+      ],
+      "lat": 43.2596,
+      "lng": 6.6596,
+      "rating": 4.8,
+      "reviewCount": 500,
+      "price": "high",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fsaint_tropez%2Ftropez_rue_de_la_citadelle_shops.jpg?alt=media",
+      "description": "Citadelle'in tarihi dokusunda, yerel lezzetlerin buluştuğu bu şirin sokak, geleneksel tatlar ve butik yiyecek dükkanlarıyla dolu. Şehrin gastronomik kalbi.",
+      "description_en": "Nestled in the historic fabric of the Citadel, this charming street is a gastronomic heart, brimming with traditional flavors and boutique food shops.",
+      "source": "google",
+      "tips": "Öğle yemeği için yerel peynir ve şarapları deneyin; akşamüstü taze pastane ürünleri ve kahve keyfi yapın.",
+      "tips_en": "For lunch, try local cheeses and wines; in the afternoon, enjoy fresh pastries and coffee.",
+      "bestTime": "Sabah (Daha sakin bir gezi için)",
+      "duration": "2 Saat",
+      "bestTime_en": "Morning (For a quieter experience)",
+      "openHours": {
+        "sunday": "10:30-19:00",
+        "monday": "10:30-19:00",
+        "tuesday": "10:30-19:00",
+        "wednesday": "10:30-19:00",
+        "thursday": "10:30-19:00",
+        "friday": "10:30-19:00",
+        "saturday": "10:30-19:00"
+      }
+    },
+    {
+      "id": "ChIJEV99KJHHzhIRwacK4cpLskA",
+      "name": "Place aux Herbes Market",
+      "name_en": "Square aux Herbes Market",
+      "category": "Yeme-İçme",
+      "tags": [
+        "st-tropez",
+        "luxury",
+        "restoran"
+      ],
+      "lat": 43.2598,
+      "lng": 6.659800000000001,
+      "rating": 4.8,
+      "reviewCount": 500,
+      "price": "high",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fsaint_tropez%2Ftropez_place_aux_herbes_market.jpg?alt=media",
+      "description": "Uzès'in kalbindeki bu tarihi meydan, yüzyıllardır canlı bir pazar yeri. Cumartesi günleri yöresel lezzetler ve el sanatlarıyla dolup taşar.",
+      "description_en": "This historic square in the heart of Uzès has been a vibrant marketplace for centuries. On Saturdays, it overflows with local delicacies and crafts.",
+      "source": "google",
+      "tips": "Cumartesi sabahları erken gidin; taze yöresel ürünleri, zeytinleri ve trüf mantarını kaçırmayın.",
+      "tips_en": "Go early on Saturday mornings; don't miss the fresh local produce, olives, and truffles.",
+      "bestTime": "Gün Boyu",
+      "duration": "2 Saat",
+      "bestTime_en": "All Day",
+      "openHours": {
+        "sunday": "08:00-12:00",
+        "monday": "08:00-12:00",
+        "tuesday": "08:00-12:00",
+        "wednesday": "08:00-12:00",
+        "thursday": "08:00-12:00",
+        "friday": "08:00-12:00",
+        "saturday": "08:00-12:00"
+      }
+    },
+    {
+      "id": "ChIJowNkxhTHzhIRqIzj-f6idHM",
+      "name": "Seaside Gelato Spot",
+      "name_en": "Seaside Gelato Spot",
+      "category": "Kafe",
+      "tags": [
+        "st-tropez",
+        "luxury",
+        "restoran"
+      ],
+      "lat": 43.2602,
+      "lng": 6.660200000000001,
+      "rating": 4.8,
+      "reviewCount": 500,
+      "price": "high",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fsaint_tropez%2Ftropez_seaside_gelato_spot.jpg?alt=media",
+      "description": "Limanın hemen yanı başında yer alan bu neşeli durak, İtalyan dondurma geleneğini kentsel enerjinin sahil tınılarıyla birleştiriyor. Renkli tasarımı ve kentin ruhuna karakter katan ferah dokusuyla kentsel koşturmacadan uzaklaşıp neşe bulabileceğiniz havadar ve kaliteli bir mola noktasıdır.",
+      "description_en": "This joyful stop right next to the port combines the Italian gelato tradition with the coastal tones of urban energy. It is an airy and high-quality break point where you can move away from urban hustle and find joy with its colorful design and fresh texture adding character to the city me's spirit.",
+      "source": "google",
+      "tips": "Akşam yemeği için birkaç gün önceden yer ayırtın.",
+      "tips_en": "Book a table a few days in advance for dinner.",
+      "bestTime": "Gün Boyu",
+      "duration": "2 Saat",
+      "bestTime_en": "All Day",
+      "openHours": {
+        "sunday": "10:00-23:30",
+        "monday": "10:00-23:30",
+        "tuesday": "09:30-23:30",
+        "wednesday": "10:00-23:30",
+        "thursday": "10:00-23:30",
+        "friday": "10:00-23:30",
+        "saturday": "09:30-23:30"
+      }
+    }
+  ],
+  "curated_routes": [
+    {
+      "id": "tro_glamorous_coast_hike",
+      "title": "Işıltılı Sahil Yürüyüşü",
+      "title_en": "Glamorous Coast Hike",
+      "description": "Sahil yolunun masmavi duraklarından ünlü plajlara bir keşif.",
+      "description_en": "A discovery from the deep blue stops of the coastal path to famous beaches.",
+      "places": [
+        "ChIJNb1n5KrHzhIRrM2U9kL-c9E",
+        "ChIJe3cthczAzhIRW7TYMaxkx18",
+        "ChIJPxu9HAnHzhIRl1hzr-ZY4wQ",
+        "ChIJwaeD4pjFzhIRtbk91KKpWr4"
+      ]
+    },
+    {
+      "id": "tro_prestigious_wine_chateaux",
+      "title": "Prestijli Şarap Şatoları",
+      "title_en": "Prestigious Wine Chateaux",
+      "description": "Dünyaca ünlü Rosé şaraplarının vahasında aristokratik bir gurme yolculuğu.",
+      "description_en": "An aristocratic gourmet journey in the oasis of world-famous Rosé wines.",
+      "places": [
+        "ChIJa1HiMxTGzhIRBOK3Bm07BP4",
+        "ChIJ4zqYb5rFzhIRGOOWGlwmSRA",
+        "ChIJfzx0yTjGzhIRwAfWvMAyeDU",
+        "ChIJKRST5GLMzhIRkY0Dx_MqrFM"
+      ]
+    },
+    {
+      "id": "tro_authentic_la_ponche_steps",
+      "title": "La Ponche: Otantik Adımlar",
+      "title_en": "La Ponche: Authentic Steps",
+      "description": "Eski balıkçı mahallesinde Brigitte Bardot'nun izini sürün.",
+      "description_en": "Track Brigitte Bardot in the old fishing quarter.",
+      "places": [
+        "ChIJl-MR6mrHzhIRp7Gd-0sgCQQ",
+        "ChIJNz2gO4rHzhIR38I8AtdaTyo",
+        "ChIJUW1mrRPHzhIR9lFMbl9RA-Q",
+        "ChIJEV99KJHHzhIRwacK4cpLskA"
+      ]
+    },
+    {
+      "id": "tro_designer_shopping_luxury",
+      "title": "Tasarımcı Butikleri ve Lüks Şıklık",
+      "title_en": "Designer Boutiques & Luxury Chic",
+      "description": "Global modanın kalbinde en prestijli markalar ve aristokratik malikaneler.",
+      "description_en": "The most prestigious brands and aristocratic manors in the heart of global fashion.",
+      "places": [
+        "ChIJn-R7zhTHzhIRTt-_AH0oYJY",
+        "ChIJ2fKsoxTHzhIRwYwJD3AeRD0",
+        "ChIJFQNuVy7HzhIR6wq6xqPllLM",
+        "ChIJJUedUCjGzhIR9u7XXZv4o0E"
+      ]
+    },
+    {
+      "id": "tro_panaromic_gulf_views",
+      "title": "Körfezin Panaromik Silüeti",
+      "title_en": "Panoramic Silhouette of the Gulf",
+      "description": "Surların üzerinden heybetli yatları ve kentin estetik gücünü izleyin.",
+      "description_en": "Watch the imposing yachts and the city's aesthetic power from over the walls.",
+      "places": [
+        "ChIJJxid8bvJzhIR4UZKRtxGpxM",
+        "ChIJNb1n5KrHzhIRrM2U9kL-c9E",
+        "ChIJq7zsEhXHzhIRD1b5rKYZJCo"
+      ]
+    },
+    {
+      "id": "tro_maritime_ferry_link_safari",
+      "title": "Deniz Safarisi ve Vapur Keyfi",
+      "title_en": "Sea Safari & Ferry Joy",
+      "description": "Körfezin iki yakasını neşeli liman rotalarıyla su üzerinden keşfedin.",
+      "description_en": "Explore the two sides of the bay from the water with joyful port routes.",
+      "places": [
+        "ChIJAx6bMZS4zhIRaaB7A1w_ygk",
+        "ChIJ6R3BkXfIzhIRbnHZkRtJ9Po",
+        "ChIJq7zsEhXHzhIRD1b5rKYZJCo",
+        "ChIJPxu9HAnHzhIRl1hzr-ZY4wQ"
+      ]
+    },
+    {
+      "id": "tro_bohemian_evening_luxe",
+      "title": "Bohem Akşamlar ve Lüks Mola",
+      "title_en": "Bohemian Evenings & Luxury Break",
+      "description": "Günün yorgunluğunu şık çay saatlerinde ve neşeli buluşma noktalarında atın.",
+      "description_en": "Relax from the day's weariness at stylish tea times and joyful meeting points.",
+      "places": [
+        "ChIJywms5gjHzhIRMpK5ABBNuNE",
+        "ChIJUW1mrRPHzhIR9lFMbl9RA-Q",
+        "ChIJowNkxhTHzhIRqIzj-f6idHM",
+        "ChIJLzf27xTHzhIRyuz0IXIEAi8"
+      ]
+    },
+    {
+      "id": "tro_hidden_gems_butterflies",
+      "title": "Mistik Müze ve Saklı Taşlar",
+      "title_en": "Mystic Museum & Hidden Gems",
+      "description": "Kelebek evinden yerel atölyelere kentin keşfedilmeyi bekleyen köşeleri.",
+      "description_en": "Corners of the city waiting to be discovered, from the butterfly house to local workshops.",
+      "places": [
+        "ChIJLzf27xTHzhIRyuz0IXIEAi8",
+        "ChIJ7xkz0LHJzhIRZ7se-BJXUTc",
+        "ChIJFQNuVy7HzhIR6wq6xqPllLM",
+        "ChIJEV99KJHHzhIRwacK4cpLskA"
+      ]
+    },
+    {
+      "id": "tro_market_flavor_discovery",
+      "title": "Pazar Neşesi ve Lezzet Keşfi",
+      "title_en": "Market Joy & Flavor Discovery",
+      "description": "Taze narenciye kokuları arasında yerel gastronomiyi en otantik haliyle soluyun.",
+      "description_en": "Breathe in local gastronomy in its most authentic form among fresh citrus scents.",
+      "places": [
+        "ChIJEV99KJHHzhIRwacK4cpLskA",
+        "ChIJowNkxhTHzhIRqIzj-f6idHM",
+        "ChIJ4zqYb5rFzhIRGOOWGlwmSRA",
+        "ChIJFQNuVy7HzhIR6wq6xqPllLM"
+      ]
+    },
+    {
+      "id": "tro_aristocratic_polo_life",
+      "title": "Polo Kulübü ve Aristokratik Yaşam",
+      "title_en": "Polo Club & Aristocratic Life",
+      "description": "Polo sporunun asaletinden helikopter ulaşımının heybetine elit bir gün.",
+      "description_en": "An elite day from the nobility of polo sports to the majesty of helicopter transport.",
+      "places": [
+        "ChIJJUedUCjGzhIR9u7XXZv4o0E",
+        "ChIJJxid8bvJzhIR4UZKRtxGpxM",
+        "ChIJ2fKsoxTHzhIRwYwJD3AeRD0",
+        "ChIJywms5gjHzhIRMpK5ABBNuNE"
+      ]
+    },
+    {
+      "id": "tro_wild_gigaro_nature_trail",
+      "title": "Vahşi Gigaro ve Doğa Yolu",
+      "title_en": "Wild Gigaro & Nature Trail",
+      "description": "El değmemiş koylardan çam ormanlarına kentin en sarp köşeleri.",
+      "description_en": "The city's steepest corners from untouched coves to pine forests.",
+      "places": [
+        "ChIJwaeD4pjFzhIRtbk91KKpWr4",
+        "ChIJNb1n5KrHzhIRrM2U9kL-c9E",
+        "ChIJe3cthczAzhIRW7TYMaxkx18",
+        "ChIJq7zsEhXHzhIRD1b5rKYZJCo"
+      ]
+    },
+    {
+      "id": "tro_cinematic_memory_bardot",
+      "title": "Sinemasal Hafıza: Bardot'nun Rodos'u",
+      "title_en": "Cinematic Memory: Bardot's Rhodes",
+      "description": "İkonik heykellerden tarihi mahallelere kentin sinema tarihindeki izleri.",
+      "description_en": "Traces in the city's cinema history from iconic statues to historical neighborhoods.",
+      "places": [
+        "ChIJNz2gO4rHzhIR38I8AtdaTyo",
+        "ChIJl-MR6mrHzhIRp7Gd-0sgCQQ",
+        "ChIJUW1mrRPHzhIR9lFMbl9RA-Q",
+        "ChIJLzf27xTHzhIRyuz0IXIEAi8"
+      ]
+    },
+    {
+      "id": "tro_modern_luxury_designer_walk",
+      "title": "Modern Lüks ve Tasarımcı Yürüyüşü",
+      "title_en": "Modern Luxury & Designer Walk",
+      "description": "Deri markalarından moda devlerine şıklığın kozmopolit kalbi.",
+      "description_en": "The cosmopolitan heart of chic from leather brands to fashion giants.",
+      "places": [
+        "ChIJ2fKsoxTHzhIRwYwJD3AeRD0",
+        "ChIJn-R7zhTHzhIRTt-_AH0oYJY",
+        "ChIJywms5gjHzhIRMpK5ABBNuNE",
+        "ChIJJUedUCjGzhIR9u7XXZv4o0E"
+      ]
+    },
+    {
+      "id": "tro_seaside_gelato_summer_sweet",
+      "title": "Sahil Tatlısı ve Yaz Rüzgarı",
+      "title_en": "Seaside Sweet & Summer Breeze",
+      "description": "Dondurma duraklarından marina teraslarına neşeli bir sahil günü.",
+      "description_en": "A joyful coastal day from gelato stops to marina terraces.",
+      "places": [
+        "ChIJowNkxhTHzhIRqIzj-f6idHM",
+        "ChIJUW1mrRPHzhIR9lFMbl9RA-Q",
+        "ChIJq7zsEhXHzhIRD1b5rKYZJCo",
+        "ChIJPxu9HAnHzhIRl1hzr-ZY4wQ"
+      ]
+    },
+    {
+      "id": "tro_serene_provence_manors",
+      "title": "Asude Provence Malikaneleri",
+      "title_en": "Serene Provence Manors",
+      "description": "Tarihi şatoların asude mönüleri ve üzüm bağlarının sessizliği.",
+      "description_en": "The serene menus of historical chateaux and the silence of vineyards.",
+      "places": [
+        "ChIJfzx0yTjGzhIRwAfWvMAyeDU",
+        "ChIJKRST5GLMzhIRkY0Dx_MqrFM",
+        "ChIJa1HiMxTGzhIRBOK3Bm07BP4",
+        "ChIJ4zqYb5rFzhIRGOOWGlwmSRA"
+      ]
+    }
+  ],
+  "localTips": [
+    "Eski Liman'da (Vieux Port) görkemli yatları izleyin.",
+    "Pampelonne Plajı'nın ünlü plaj kulüplerinde vakit geçirin.",
+    "Place des Lices meydanında yerel halkın petank oynamasını izleyin.",
+    "Tarte Tropézienne'i anavatanında deneyin.",
+    "Kalenin (Citadel) tepesinden tüm körfezi görün."
+  ]
+}

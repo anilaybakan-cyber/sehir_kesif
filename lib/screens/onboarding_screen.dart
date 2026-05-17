@@ -19,6 +19,7 @@ import '../theme/wanderlust_colors.dart';
 import 'paywall_screen.dart';
 import '../services/premium_service.dart';
 import '../services/tutorial_service.dart'; // YENİ: Tutorial servisi eklendi
+import '../services/analytics_service.dart';
 
 class OnboardingScreen extends StatefulWidget {
   final int initialPage;
@@ -37,27 +38,12 @@ class _OnboardingScreenState extends State<OnboardingScreen>
   late AnimationController _btnController;
   late Animation<double> _btnAnimation;
 
-  // User preferences
-  String _selectedStyle = "";
-  String _transportMode = "";
-  int _walkingLevel = 1;
-  String _budgetLevel = "";
-  List<String> _selectedInterests = [];
-  String _userName = "";
-  int _tripDays = 3; // YENİ: Kalınacak gün sayısı
-  final _cityController = TextEditingController();
-
-  // New variables from instruction
-  double _budgetVal = 1.0; // 1: Eco, 2: Standard, 3: Luxury
-  String _travelStyle = "Dengeli"; // This seems to be a duplicate of _selectedStyle, keeping for now as per instruction
-  String _transportPref = "Toplu Taşıma"; // This seems to be a duplicate of _transportMode, keeping for now as per instruction
-  String _budget = "Dengeli"; // New String variable for budget if needed, keeping sync with _budgetVal
-
-  final _nameController = TextEditingController();
+  int _tripDays = 3;
 
   @override
   void initState() {
     super.initState();
+    _checkTripDaysAndSkip();
     _currentPage = widget.initialPage;
     _pageController = PageController(initialPage: widget.initialPage);
     _btnController = AnimationController(
@@ -70,17 +56,30 @@ class _OnboardingScreenState extends State<OnboardingScreen>
     ).animate(CurvedAnimation(parent: _btnController, curve: Curves.easeInOut));
   }
 
+  Future<void> _checkTripDaysAndSkip() async {
+    final prefs = await SharedPreferences.getInstance();
+    final existingTripDays = prefs.getInt("tripDays");
+    
+    if (existingTripDays != null && existingTripDays > 0) {
+      // Kullanıcı daha önce trip days seçmiş, direkt geç
+      if (mounted) {
+        WidgetsBinding.instance.addPostFrameCallback((_) {
+          _completeOnboarding(existingTripDays);
+        });
+      }
+    }
+  }
+
   @override
   void dispose() {
     _pageController.dispose();
-    _nameController.dispose();
     _btnController.dispose();
     super.dispose();
   }
 
   void _nextPage() {
     HapticFeedback.mediumImpact();
-    if (_currentPage < 6) { // 7 pages total: 0-6
+    if (_currentPage < 1) { // 2 pages total: 0-1
       _pageController.nextPage(
         duration: const Duration(milliseconds: 600),
         curve: Curves.easeOutCubic,
@@ -100,21 +99,18 @@ class _OnboardingScreenState extends State<OnboardingScreen>
     }
   }
 
-  Future<void> _completeOnboarding() async {
+  Future<void> _completeOnboarding([int? tripDays]) async {
     HapticFeedback.heavyImpact();
     final prefs = await SharedPreferences.getInstance();
-    // Save as empty if not provided, so we can localize Gezgin/Explorer dynamically
-    await prefs.setString("userName", _userName);
-    await prefs.setString("travelStyle", _selectedStyle);
-    await prefs.setString("transportMode", _transportMode);
-    await prefs.setInt("walkingLevel", _walkingLevel);
-    await prefs.setString("budgetLevel", _budgetLevel);
-    await prefs.setStringList("interests", _selectedInterests.toList()); // Convert Set to List
-    await prefs.setInt("tripDays", _tripDays);
+    final daysToSave = tripDays ?? _tripDays;
+    await prefs.setInt("tripDays", daysToSave);
     await prefs.setBool("onboardingCompleted", true);
 
     // 🔄 TEST MODU: Her yeni kurulumda tutorialları sıfırla ki kullanıcı görebilsin
     await TutorialService.instance.resetAllTutorials();
+
+    // Log analytics event
+    await AnalyticsService.instance.logOnboardingCompleted();
 
     if (!mounted) return;
 
@@ -133,37 +129,15 @@ class _OnboardingScreenState extends State<OnboardingScreen>
   bool get _canProceed {
     switch (_currentPage) {
       case 0:
-        return true; // Splash (My Way)
+        return true;
       case 1:
-        return true; // Welcome (Name optional)
-      case 2:
         return _tripDays > 0;
-      case 3:
-        return _selectedStyle.isNotEmpty;
-      case 4:
-        return _transportMode.isNotEmpty;
-      case 5:
-        return _selectedInterests.isNotEmpty;
-      case 6:
-        return _budgetLevel.isNotEmpty;
     }
     return true;
   }
 
   // ✨ SOLID AMBER - Tek renk, gradient yok
   static const _accent = WanderlustColors.accent;
-
-  // New method from instruction
-  void _toggleInterest(String interest) {
-    HapticFeedback.selectionClick();
-    setState(() {
-      if (_selectedInterests.contains(interest)) {
-        _selectedInterests.remove(interest);
-      } else {
-        _selectedInterests.add(interest);
-      }
-    });
-  }
 
   @override
   Widget build(BuildContext context) {
@@ -183,7 +157,7 @@ class _OnboardingScreenState extends State<OnboardingScreen>
             controller: _pageController,
             physics: const NeverScrollableScrollPhysics(),
             onPageChanged: (p) => setState(() => _currentPage = p),
-            children: List.generate(7, (i) => _buildPage(i)), 
+            children: List.generate(2, (i) => _buildPage(i)), 
           ),
 
           // TOP BAR (Hidden on Splash Screen)
@@ -221,7 +195,7 @@ class _OnboardingScreenState extends State<OnboardingScreen>
                     // We can hide dots on Splash or show them starting from index 1.
                     // Let's hide dots on Splash.
                     if (_currentPage > 0)
-                    ...List.generate(6, (i) {
+                    ...List.generate(1, (i) {
                       final isActive = i == (_currentPage - 1);
                       final isPast = i < (_currentPage - 1);
                       return AnimatedContainer(
@@ -292,11 +266,9 @@ class _OnboardingScreenState extends State<OnboardingScreen>
                           mainAxisSize: MainAxisSize.min,
                           children: [
                             Text(
-                              _currentPage == 6 
-                                      ? AppLocalizations.instance.startExplore 
-                                      : _currentPage == 0
-                                          ? AppLocalizations.instance.t('Keşfetmeye Başla', 'Start Exploring')
-                                          : AppLocalizations.instance.continueAction,
+                              _currentPage == 1 
+                                      ? AppLocalizations.instance.continueAction
+                                      : AppLocalizations.instance.t('Planlamaya Başla', 'Start Planning'),
                               style: GoogleFonts.poppins(
                                 color: _canProceed
                                     ? Colors.white
@@ -388,29 +360,7 @@ class _OnboardingScreenState extends State<OnboardingScreen>
   }
 
   Widget _buildPage(int index) {
-    // Background images for 7 pages (0-6)
-    // Page 0: My Way splash - uses onboarding1
-    // Page 1: Welcome (name) - uses onboarding1  
-    // Page 2: Trip days - uses onboarding6
-    // Page 3-6: Style, Transport, Interests, Budget
-    int imageIndex;
-    if (index == 0) {
-      imageIndex = 1; // My Way splash -> onboarding1
-    } else if (index == 1) {
-      imageIndex = 1; // Welcome -> onboarding1
-    } else if (index == 2) {
-      imageIndex = 6; // Trip days -> onboarding6
-    } else if (index == 3) {
-      imageIndex = 2; // Style -> onboarding2
-    } else if (index == 4) {
-      imageIndex = 3; // Transport -> onboarding3
-    } else if (index == 5) {
-      imageIndex = 4; // Interests -> onboarding4
-    } else if (index == 6) {
-      imageIndex = 5; // Budget -> onboarding5
-    } else {
-      imageIndex = 1;
-    }
+    int imageIndex = (index == 1) ? 6 : 1;
 
     final imagePath = "assets/onboarding/onboarding$imageIndex.png";
 
@@ -515,19 +465,9 @@ class _OnboardingScreenState extends State<OnboardingScreen>
   Widget _buildContent(int index) {
     switch (index) {
       case 0:
-        return _splashContent(); // My Way logo page
+        return _splashContent();
       case 1:
-        return _welcomeContent();
-      case 2:
         return _tripDaysContent();
-      case 3:
-        return _styleContent();
-      case 4:
-        return _transportContent();
-      case 5:
-        return _interestsContent();
-      case 6:
-        return _budgetContent();
       default:
         return const SizedBox();
     }
@@ -596,30 +536,6 @@ class _OnboardingScreenState extends State<OnboardingScreen>
     );
   }
 
-  // ===========================================================================
-  // PAGE 1: WELCOME (Original Form)
-  // ===========================================================================
-  Widget _welcomeContent() {
-    return Column(
-      crossAxisAlignment: CrossAxisAlignment.start,
-      mainAxisSize: MainAxisSize.min,
-      children: [
-        _title(AppLocalizations.instance.helloGreeting),
-        const SizedBox(height: 8),
-        _subtitle(AppLocalizations.instance.howToCallYou),
-        const SizedBox(height: 24),
-        _glassInput(
-          controller: _nameController,
-          hint: AppLocalizations.instance.nameHint,
-          onChanged: (v) => setState(() => _userName = v),
-        ),
-        // Klavye ve buton arasında boşluk
-        const SizedBox(height: 60),
-      ],
-    );
-  }
-
-  // ===========================================================================
   // PAGE 1: TRIP DAYS - Diğer sayfalara uygun zarif tasarım
   // ===========================================================================
   Widget _tripDaysContent() {
@@ -795,302 +711,6 @@ class _OnboardingScreenState extends State<OnboardingScreen>
     );
   }
 
-  // ===========================================================================
-  // PAGE 2: STYLE
-  // ===========================================================================
-  Widget _styleContent() {
-    final items = [
-      (AppLocalizations.instance.styleTourist, Icons.photo_camera_rounded),
-      (AppLocalizations.instance.styleLocal, Icons.store_rounded),
-      (AppLocalizations.instance.styleAdventurer, Icons.terrain_rounded),
-      (AppLocalizations.instance.styleCultural, Icons.museum_rounded),
-    ];
-
-    return Column(
-      crossAxisAlignment: CrossAxisAlignment.start,
-      mainAxisSize: MainAxisSize.min,
-      children: [
-        _title(AppLocalizations.instance.yourTravelStyle),
-        const SizedBox(height: 8),
-        _subtitle(AppLocalizations.instance.travelStyleSubtitle),
-        const SizedBox(height: 24),
-        Row(
-          children: [
-            Expanded(
-              child: _selectCard(
-                items[0].$1,
-                items[0].$2,
-                _selectedStyle == items[0].$1,
-                () => setState(() => _selectedStyle = items[0].$1),
-              ),
-            ),
-            const SizedBox(width: 12),
-            Expanded(
-              child: _selectCard(
-                items[1].$1,
-                items[1].$2,
-                _selectedStyle == items[1].$1,
-                () => setState(() => _selectedStyle = items[1].$1),
-              ),
-            ),
-          ],
-        ),
-        const SizedBox(height: 12),
-        Row(
-          children: [
-            Expanded(
-              child: _selectCard(
-                items[2].$1,
-                items[2].$2,
-                _selectedStyle == items[2].$1,
-                () => setState(() => _selectedStyle = items[2].$1),
-              ),
-            ),
-            const SizedBox(width: 12),
-            Expanded(
-              child: _selectCard(
-                items[3].$1,
-                items[3].$2,
-                _selectedStyle == items[3].$1,
-                () => setState(() => _selectedStyle = items[3].$1),
-              ),
-            ),
-          ],
-        ),
-      ],
-    );
-  }
-
-  // ===========================================================================
-  // PAGE 3: TRANSPORT
-  // ===========================================================================
-  Widget _transportContent() {
-    final items = [
-      (AppLocalizations.instance.walking, Icons.directions_walk_rounded),
-      (AppLocalizations.instance.publicTransport, Icons.directions_bus_rounded),
-      (AppLocalizations.instance.byCar, Icons.directions_car_rounded),
-      (AppLocalizations.instance.mixed, Icons.shuffle_rounded),
-    ];
-
-    final isSliderActive =
-        _transportMode == AppLocalizations.instance.walking || _transportMode == AppLocalizations.instance.mixed;
-
-    return Column(
-      crossAxisAlignment: CrossAxisAlignment.start,
-      mainAxisSize: MainAxisSize.min,
-      children: [
-        _title(AppLocalizations.instance.transportPreference),
-        const SizedBox(height: 8),
-        _subtitle(AppLocalizations.instance.transportSubtitle),
-        const SizedBox(height: 24),
-        Wrap(
-          spacing: 10,
-          runSpacing: 10,
-          children: items.map((item) {
-            final isSelected = _transportMode == item.$1;
-            return _selectChip(
-              item.$1,
-              item.$2,
-              isSelected,
-              () => setState(() => _transportMode = item.$1),
-            );
-          }).toList(),
-        ),
-        const SizedBox(height: 20),
-        _walkSlider(isActive: isSliderActive),
-      ],
-    );
-  }
-
-  Widget _walkSlider({required bool isActive}) {
-    // final labels = ["Hafif", "Normal", "Aktif", "Sporcu"];
-
-    return AnimatedOpacity(
-      duration: const Duration(milliseconds: 300),
-      opacity: isActive ? 1.0 : 0.4,
-      child: Container(
-        padding: const EdgeInsets.all(16),
-        decoration: BoxDecoration(
-          color: Colors.white.withOpacity(0.05),
-          borderRadius: BorderRadius.circular(16),
-          border: Border.all(color: Colors.white.withOpacity(0.08)),
-        ),
-        child: Column(
-          children: [
-            Row(
-              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              children: [
-                Text(
-                  AppLocalizations.instance.walkingCapacity,
-                  style: GoogleFonts.poppins(
-                    color: Colors.white.withOpacity(0.7),
-                    fontSize: 14,
-                  ),
-                ),
-                Container(
-                  padding: const EdgeInsets.symmetric(
-                    horizontal: 12,
-                    vertical: 4,
-                  ),
-                  decoration: BoxDecoration(
-                    color: isActive ? _accent : Colors.white.withOpacity(0.1),
-                    borderRadius: BorderRadius.circular(8),
-                  ),
-                  child: Text(
-                    AppLocalizations.instance.translateWalkingLevel(_walkingLevel),
-                    style: GoogleFonts.poppins(
-                      color: isActive ? Colors.white : Colors.white54,
-                      fontSize: 12,
-                      fontWeight: FontWeight.w600,
-                    ),
-                  ),
-                ),
-              ],
-            ),
-            const SizedBox(height: 12),
-            AbsorbPointer(
-              absorbing: !isActive,
-              child: SliderTheme(
-                data: SliderThemeData(
-                  activeTrackColor: isActive ? _accent : Colors.white24,
-                  inactiveTrackColor: Colors.white.withOpacity(0.1),
-                  thumbColor: isActive ? Colors.white : Colors.white54,
-                  thumbShape: const RoundSliderThumbShape(
-                    enabledThumbRadius: 8,
-                  ),
-                  trackHeight: 4,
-                  overlayColor: _accent.withOpacity(0.2),
-                ),
-                child: Slider(
-                  value: _walkingLevel.toDouble(),
-                  min: 0,
-                  max: 3,
-                  divisions: 3,
-                  onChanged: isActive
-                      ? (v) => setState(() => _walkingLevel = v.toInt())
-                      : null,
-                ),
-              ),
-            ),
-          ],
-        ),
-      ),
-    );
-  }
-
-  // ===========================================================================
-  // PAGE 4: INTERESTS
-  // ===========================================================================
-  
-  // İlgi alanlarının anahtarları
-  final _allInterestKeys = const [
-    "Tarih", "Yemek", "Sanat", "Doğa", 
-    "Alışveriş", "Gece Hayatı", "Fotoğraf", 
-    "Spor", "Mimari", "Müzik"
-  ];
-
-  Widget _interestsContent() {
-    final areAllSelected = _selectedInterests.length == _allInterestKeys.length;
-
-    return Column(
-      mainAxisAlignment: MainAxisAlignment.center,
-      children: [
-        Row(
-          mainAxisAlignment: MainAxisAlignment.spaceBetween,
-          children: [
-             // Başlığı sola hizalayabilmek için Expanded veya esnek yapı
-             Expanded(child: _title(AppLocalizations.instance.interests)),
-             
-             // TÜMÜNÜ SEÇ BUTONU
-             GestureDetector(
-               onTap: () {
-                 HapticFeedback.mediumImpact();
-                 setState(() {
-                   if (areAllSelected) {
-                     _selectedInterests.clear();
-                   } else {
-                     _selectedInterests = List.from(_allInterestKeys);
-                   }
-                 });
-               },
-               child: Container(
-                 padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
-                 decoration: BoxDecoration(
-                   color: Colors.white.withOpacity(0.1),
-                   borderRadius: BorderRadius.circular(20),
-                   border: Border.all(
-                     color: areAllSelected ? _accent : Colors.white.withOpacity(0.2),
-                   ),
-                 ),
-                 child: Text(
-                   areAllSelected ? AppLocalizations.instance.clear : AppLocalizations.instance.selectAll,
-                   style: GoogleFonts.poppins(
-                     color: Colors.white, // Daha görünür
-                     fontSize: 12,
-                     fontWeight: FontWeight.w600,
-                   ),
-                 ),
-               ),
-             ),
-          ],
-        ),
-        const SizedBox(height: 40),
-        Wrap(
-          spacing: 12,
-          runSpacing: 12,
-          alignment: WrapAlignment.center,
-          children: [
-            _selectChip(AppLocalizations.instance.interestHistory, Icons.account_balance_rounded, _selectedInterests.contains("Tarih"), () => _toggleInterest("Tarih")),
-            _selectChip(AppLocalizations.instance.interestFood, Icons.restaurant_rounded, _selectedInterests.contains("Yemek"), () => _toggleInterest("Yemek")),
-            _selectChip(AppLocalizations.instance.interestArt, Icons.palette_rounded, _selectedInterests.contains("Sanat"), () => _toggleInterest("Sanat")),
-            _selectChip(AppLocalizations.instance.interestNature, Icons.park_rounded, _selectedInterests.contains("Doğa"), () => _toggleInterest("Doğa")),
-            _selectChip(AppLocalizations.instance.interestShopping, Icons.shopping_bag_rounded, _selectedInterests.contains("Alışveriş"), () => _toggleInterest("Alışveriş")),
-            _selectChip(AppLocalizations.instance.interestNightlife, Icons.nightlife_rounded, _selectedInterests.contains("Gece Hayatı"), () => _toggleInterest("Gece Hayatı")),
-            
-            // Çevirisi olmayanlar için translationCategory veya manuel
-            _selectChip(AppLocalizations.instance.interestPhotography, Icons.camera_alt_rounded, _selectedInterests.contains("Fotoğraf"), () => _toggleInterest("Fotoğraf")),
-            _selectChip(AppLocalizations.instance.interestSports, Icons.directions_bike_rounded, _selectedInterests.contains("Spor"), () => _toggleInterest("Spor")),
-            _selectChip(AppLocalizations.instance.interestArchitecture, Icons.architecture_rounded, _selectedInterests.contains("Mimari"), () => _toggleInterest("Mimari")),
-            _selectChip(AppLocalizations.instance.interestMusic, Icons.music_note_rounded, _selectedInterests.contains("Müzik"), () => _toggleInterest("Müzik")),
-          ],
-        ),
-      ],
-    );
-  }
-
-  // ===========================================================================
-  // PAGE 5: BUDGET
-  // ===========================================================================
-  Widget _budgetContent() {
-    final items = [
-      (AppLocalizations.instance.budgetEconomy, Icons.savings_rounded, AppLocalizations.instance.budgetFriendly),
-      (AppLocalizations.instance.budgetBalanced, Icons.account_balance_wallet_rounded, AppLocalizations.instance.pricePerformance),
-      (AppLocalizations.instance.budgetPremium, Icons.diamond_rounded, AppLocalizations.instance.bestExperience),
-    ];
-
-    return Column(
-      crossAxisAlignment: CrossAxisAlignment.start,
-      mainAxisSize: MainAxisSize.min,
-      children: [
-        _title(AppLocalizations.instance.budgetPreference),
-        const SizedBox(height: 8),
-        _subtitle(AppLocalizations.instance.budgetSubtitle),
-        const SizedBox(height: 24),
-        ...items.map((item) {
-          final isSelected = _budgetLevel == item.$1;
-          return Padding(
-            padding: const EdgeInsets.only(bottom: 12),
-            child: _budgetTile(item.$1, item.$2, item.$3, isSelected, () {
-              HapticFeedback.selectionClick();
-              setState(() => _budgetLevel = item.$1);
-            }),
-          );
-        }),
-      ],
-    );
-  }
-
-  // ===========================================================================
   // SHARED COMPONENTS
   // ===========================================================================
 
@@ -1112,263 +732,6 @@ class _OnboardingScreenState extends State<OnboardingScreen>
       style: GoogleFonts.poppins(
         color: Colors.white.withOpacity(0.6),
         fontSize: 16,
-      ),
-    );
-  }
-
-  Widget _glassInput({
-    required TextEditingController controller,
-    required String hint,
-    required ValueChanged<String> onChanged,
-  }) {
-    return ClipRRect(
-      borderRadius: BorderRadius.circular(16),
-      child: BackdropFilter(
-        filter: ImageFilter.blur(sigmaX: 10, sigmaY: 10),
-        child: Container(
-          padding: const EdgeInsets.symmetric(horizontal: 20),
-          decoration: BoxDecoration(
-            color: Colors.white.withOpacity(0.08),
-            borderRadius: BorderRadius.circular(16),
-            border: Border.all(color: Colors.white.withOpacity(0.1)),
-          ),
-          child: TextField(
-            controller: controller,
-            onChanged: onChanged,
-            style: const TextStyle(color: Colors.white, fontSize: 16),
-            decoration: InputDecoration(
-              hintText: hint,
-              hintStyle: TextStyle(color: Colors.white.withOpacity(0.3)),
-              border: InputBorder.none,
-              contentPadding: const EdgeInsets.symmetric(vertical: 18),
-            ),
-          ),
-        ),
-      ),
-    );
-  }
-
-  Widget _selectCard(
-    String label,
-    IconData icon,
-    bool isSelected,
-    VoidCallback onTap,
-  ) {
-    return GestureDetector(
-      onTap: () {
-        HapticFeedback.selectionClick();
-        onTap();
-      },
-      child: AnimatedContainer(
-        duration: const Duration(milliseconds: 250),
-        curve: Curves.easeOutCubic,
-        padding: const EdgeInsets.all(20),
-        decoration: BoxDecoration(
-          color: isSelected ? _accent : Colors.white.withOpacity(0.06),
-          borderRadius: BorderRadius.circular(20),
-          border: Border.all(
-            color: isSelected
-                ? Colors.transparent
-                : Colors.white.withOpacity(0.08),
-          ),
-          boxShadow: isSelected
-              ? [
-                  BoxShadow(
-                    color: _accent.withOpacity(0.3),
-                    blurRadius: 20,
-                    offset: const Offset(0, 8),
-                  ),
-                ]
-              : null,
-        ),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            Row(
-              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              children: [
-                Icon(
-                  icon,
-                  color: Colors.white.withOpacity(isSelected ? 1 : 0.7),
-                  size: 28,
-                ),
-                if (isSelected)
-                  Container(
-                    padding: const EdgeInsets.all(4),
-                    decoration: BoxDecoration(
-                      color: Colors.white.withOpacity(0.2),
-                      shape: BoxShape.circle,
-                    ),
-                    child: const Icon(
-                      Icons.check_rounded,
-                      color: Colors.white,
-                      size: 14,
-                    ),
-                  ),
-              ],
-            ),
-            const SizedBox(height: 16),
-            Text(
-              label,
-              style: GoogleFonts.poppins(
-                color: Colors.white.withOpacity(isSelected ? 1 : 0.8),
-                fontSize: 16,
-                fontWeight: FontWeight.w600,
-              ),
-            ),
-          ],
-        ),
-      ),
-    );
-  }
-
-  Widget _selectChip(
-    String label,
-    IconData icon,
-    bool isSelected,
-    VoidCallback onTap,
-  ) {
-    return GestureDetector(
-      onTap: () {
-        HapticFeedback.selectionClick();
-        onTap();
-      },
-      child: AnimatedContainer(
-        duration: const Duration(milliseconds: 200),
-        padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
-        decoration: BoxDecoration(
-          color: isSelected ? _accent : Colors.white.withOpacity(0.06),
-          borderRadius: BorderRadius.circular(14),
-          border: Border.all(
-            color: isSelected
-                ? Colors.transparent
-                : Colors.white.withOpacity(0.1),
-          ),
-          boxShadow: isSelected
-              ? [
-                  BoxShadow(
-                    color: _accent.withOpacity(0.25),
-                    blurRadius: 12,
-                    offset: const Offset(0, 4),
-                  ),
-                ]
-              : null,
-        ),
-        child: Row(
-          mainAxisSize: MainAxisSize.min,
-          children: [
-            Icon(
-              icon,
-              color: Colors.white.withOpacity(isSelected ? 1 : 0.6),
-              size: 18,
-            ),
-            const SizedBox(width: 8),
-            Text(
-              label,
-              style: GoogleFonts.poppins(
-                color: Colors.white.withOpacity(isSelected ? 1 : 0.7),
-                fontSize: 14,
-                fontWeight: FontWeight.w500,
-              ),
-            ),
-          ],
-        ),
-      ),
-    );
-  }
-
-  Widget _budgetTile(
-    String label,
-    IconData icon,
-    String subtitle,
-    bool isSelected,
-    VoidCallback onTap,
-  ) {
-    return GestureDetector(
-      onTap: onTap,
-      child: AnimatedContainer(
-        duration: const Duration(milliseconds: 250),
-        padding: const EdgeInsets.all(18),
-        decoration: BoxDecoration(
-          color: isSelected ? _accent : Colors.white.withOpacity(0.06),
-          borderRadius: BorderRadius.circular(18),
-          border: Border.all(
-            color: isSelected
-                ? Colors.transparent
-                : Colors.white.withOpacity(0.08),
-          ),
-          boxShadow: isSelected
-              ? [
-                  BoxShadow(
-                    color: _accent.withOpacity(0.3),
-                    blurRadius: 16,
-                    offset: const Offset(0, 6),
-                  ),
-                ]
-              : null,
-        ),
-        child: Row(
-          children: [
-            Container(
-              padding: const EdgeInsets.all(12),
-              decoration: BoxDecoration(
-                color: Colors.white.withOpacity(isSelected ? 0.2 : 0.08),
-                borderRadius: BorderRadius.circular(12),
-              ),
-              child: Icon(
-                icon,
-                color: Colors.white.withOpacity(isSelected ? 1 : 0.7),
-                size: 22,
-              ),
-            ),
-            const SizedBox(width: 16),
-            Expanded(
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Text(
-                    label,
-                    style: GoogleFonts.poppins(
-                      color: Colors.white.withOpacity(isSelected ? 1 : 0.9),
-                      fontSize: 16,
-                      fontWeight: FontWeight.w600,
-                    ),
-                  ),
-                  const SizedBox(height: 2),
-                  Text(
-                    subtitle,
-                    style: GoogleFonts.poppins(
-                      color: Colors.white.withOpacity(isSelected ? 0.8 : 0.5),
-                      fontSize: 13,
-                    ),
-                  ),
-                ],
-              ),
-            ),
-            AnimatedContainer(
-              duration: const Duration(milliseconds: 200),
-              width: 24,
-              height: 24,
-              decoration: BoxDecoration(
-                shape: BoxShape.circle,
-                color: isSelected
-                    ? Colors.white.withOpacity(0.2)
-                    : Colors.transparent,
-                border: Border.all(
-                  color: Colors.white.withOpacity(isSelected ? 0 : 0.2),
-                  width: 2,
-                ),
-              ),
-              child: isSelected
-                  ? const Icon(
-                      Icons.check_rounded,
-                      color: Colors.white,
-                      size: 14,
-                    )
-                  : null,
-            ),
-          ],
-        ),
       ),
     );
   }

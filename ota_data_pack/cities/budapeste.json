@@ -178,7 +178,7 @@
       "bestTime_en": "Afternoon",
       "tips": "Yürüyerek veya Milenyum Metrosu'yla keşfedin, birçok gizli güzelliği var.",
       "tips_en": "Explore on foot or via the Millennium Metro; many hidden gems await.",
-      "name_en": "Andrássy Bulvarı"
+      "name_en": "Andrássy Avenue"
     },
     {
       "id": "gen_ChIJWb1WQlzcQUcRfjn7xZXq7Ck",
@@ -330,7 +330,7 @@
       "tips": "Anıtı sessizce ziyaret edin; kurbanları anmak için saygıyla bir çiçek bırakın.",
       "description_en": "This powerful Danube Bank monument features 60 iron shoes, symbolizing Jewish victims' last moments, murdered by Arrow Cross militiamen during WWII.",
       "tips_en": "Visit the monument in silence; respectfully leave a flower to commemorate victims.",
-      "name_en": "Ayakkabılar Anıtı"
+      "name_en": "Shoes on the Danube Bank"
     },
     {
       "name": "Aziz Stephen Bazilikası",
@@ -359,7 +359,7 @@
       "tips": "Kubbesine çıkarak Budapeşte'nin panoramik manzarasının keyfini çıkarın.",
       "description_en": "Budapest's Neoclassical St. Stephen's Basilica houses Hungary's first king, St. Stephen's sacred right hand. Its magnificent dome and rich mosaics make it the nation's most revered historical and religious building.",
       "tips_en": "Climb to the dome for panoramic views of Budapest.",
-      "name_en": "Aziz Stephen Bazilikası"
+      "name_en": "St. Stephen's Basilica"
     },
     {
       "id": "gen_ChIJ8Q-HrFfdQUcR3aC27TVI1vQ",
@@ -436,7 +436,7 @@
       "tips": "Parlamento'nun altın yansımalarını yakalamak için gün batımında batı kulelerine yönelin.",
       "description_en": "Embracing the Danube's legendary silhouette, this Neo-Romanesque terrace whispers Budapest's soul through its seven towers; a dream sculpted in white stone.",
       "tips_en": "At sunset, seek the western towers for Parliament's golden reflection.",
-      "name_en": "Balıkçı Tabyası (Fisherman's Bastion)"
+      "name_en": "Fisherman's Bastion"
     },
     {
       "id": "gen_ChIJe1m5wV7cQUcRFcughHy6p_Y",
@@ -3420,7 +3420,7 @@
       "bestTime_en": "Morning",
       "tips": "Yoğun saatlerden kaçınmak için sabah erken ziyaret edin ve kuleye çıkın.",
       "tips_en": "Visit early morning to avoid crowds and climb the tower.",
-      "name_en": "Matthias Kilisesi"
+      "name_en": "Matthias Church"
     },
     {
       "name": "Mazel Tov",
@@ -5418,7 +5418,7 @@
       "bestTime_en": "Night",
       "tips": "Parlamento binasını nehirden ışıklandırılmış görmek eşsiz bir deneyimdir.",
       "tips_en": "Seeing the illuminated Parliament Building from the river is a unique experience.",
-      "name_en": "Tuna Nehir Gezisi"
+      "name_en": "Danube River Cruise"
     },
     {
       "id": "gen_ChIJ-WXAoS_dQUcRaG57LQIpB3Y",
@@ -5589,29 +5589,6 @@
       "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/budapeste/vajdahunyad_castle.jpg",
       "bestTime": "Gündüz",
       "bestTime_en": "Daytime",
-      "tips": "Göl kenarında eşsiz fotoğraflar çekin ve keyifli tekne turuna katılın.",
-      "tips_en": "Capture unique photos by the lake and enjoy a delightful boat tour.",
-      "name_en": "Vajdahunyad Castle"
-    },
-    {
-      "name": "Vajdahunyad Kalesi",
-      "area": "Városliget",
-      "category": "Müze",
-      "tags": [
-        "kale",
-        "eklektik",
-        "göl"
-      ],
-      "distanceFromCenter": 2.0,
-      "lat": 47.5148,
-      "lng": 19.0833,
-      "price": "low",
-      "rating": 4.3,
-      "description": "Macaristan'ın bin yıllık tarihini kutlayan Vajdahunyad Kalesi, 1896'da inşa edildi. Gotik, Romanesk, Rönesans ve Barok mimari stillerini sergileyen bu kalenin içinde Macar Tarım Müzesi bulunmaktadır.",
-      "description_en": "Celebrating Hungary's millennium, Vajdahunyad Castle, built in 1896, showcases Gothic, Romanesque, Renaissance, and Baroque architectural styles. It houses the Hungarian Agricultural Museum.",
-      "imageUrl": "https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/budapeste/vajdahunyad_kalesi.jpg",
-      "bestTime": "Öğleden sonra",
-      "bestTime_en": "Afternoon",
       "tips": "Göl kenarında eşsiz fotoğraflar çekin ve keyifli tekne turuna katılın.",
       "tips_en": "Capture unique photos by the lake and enjoy a delightful boat tour.",
       "name_en": "Vajdahunyad Castle"
