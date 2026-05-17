@@ -1234,6 +1234,7 @@ class _NearbyScreenState extends State<NearbyScreen>
                           fontWeight: FontWeight.w600,
                           color: textPrimary,
                         ),
+                      ),
                     ],
                   ),
                 ),
