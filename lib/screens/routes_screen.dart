@@ -4043,14 +4043,18 @@ class _RoutesScreenState extends State<RoutesScreen>
                                     child: Row(
                                       mainAxisAlignment: MainAxisAlignment.center,
                                       children: [
-                                        const Icon(Icons.navigation_rounded, color: Color(0xFF1A1A2E), size: 20),
+                                        Image.asset(
+                                          'assets/icons/icon_start.png',
+                                          width: 22,
+                                          height: 22,
+                                        ),
                                         const SizedBox(width: 10),
                                         Text(
                                           AppLocalizations.instance.startRoute,
                                           style: const TextStyle(
                                             color: Color(0xFF1A1A2E),
-                                            fontSize: 15,
-                                            fontWeight: FontWeight.w700,
+                                            fontSize: 16,
+                                            fontWeight: FontWeight.w800,
                                           ),
                                         ),
                                       ],
