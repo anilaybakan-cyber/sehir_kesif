@@ -68,8 +68,7 @@ class ProfileScreen extends StatefulWidget {
   State<ProfileScreen> createState() => _ProfileScreenState();
 }
 
-class _ProfileScreenState extends State<ProfileScreen>
-    with SingleTickerProviderStateMixin {
+class _ProfileScreenState extends State<ProfileScreen> {
   // ══════════════════════════════════════════════════════════════════════════
   // AMBER/GOLD THEME
   // ══════════════════════════════════════════════════════════════════════════
@@ -107,8 +106,9 @@ class _ProfileScreenState extends State<ProfileScreen>
   int _completedRoutesCount = 0;
   List<CompletedRoute> _completedRoutes = [];
   List<Map<String, dynamic>> _savedPlans = [];
-  
-  late TabController _tabController;
+  // Planı olmayan ama favorisi/ziyareti olan mekanlar
+  List<Highlight> _orphanFavorites = [];
+  List<Highlight> _orphanVisited = [];
   final BadgeService _badgeService = BadgeService();
   final MemoryService _memoryService = MemoryService();
   
@@ -122,12 +122,7 @@ class _ProfileScreenState extends State<ProfileScreen>
   @override
   void initState() {
     super.initState();
-    final initialTab = widget.initialTabIndex.clamp(0, 3);
-    _tabController =
-        TabController(length: 4, vsync: this, initialIndex: initialTab);
-    _tabController.addListener(() {
-      if (mounted) setState(() {});
-    });
+    // Tab controller no longer needed — city cards instead
 
     // Deeplinkten gelen aksiyon varsa ilk frame sonrası tetikle
     if (widget.initialAction != null && widget.initialAction!.isNotEmpty) {
@@ -167,10 +162,6 @@ class _ProfileScreenState extends State<ProfileScreen>
   void _onBadgesUpdated() => setState(() {});
   void _onMemoriesUpdated() => setState(() {});
 
-
-
-
-
   void _onVisitUpdated() => _loadData();
 
   @override
@@ -190,7 +181,6 @@ class _ProfileScreenState extends State<ProfileScreen>
     TripUpdateService().visitUpdated.removeListener(_onVisitUpdated);
     TripUpdateService().favoritesUpdated.removeListener(_loadData); // 🔥 Add this line
     TripUpdateService().tripUpdated.removeListener(_loadData);
-    _tabController.dispose();
     _scrollController.dispose();
     super.dispose();
   }
@@ -404,9 +394,13 @@ class _ProfileScreenState extends State<ProfileScreen>
   }
 
   /// Tüm desteklenen şehirlerde kaydedilmiş plan var mı kontrol et
+  /// + her şehirdeki favori/ziyaret sayılarını topla
   Future<void> _loadSavedPlans() async {
     final prefs = await SharedPreferences.getInstance();
     final plans = <Map<String, dynamic>>[];
+    final plannedCityIds = <String>{};
+    final orphanFavs = <Highlight>[];
+    final orphanVis = <Highlight>[];
 
     for (final cityId in CityDataLoader.supportedCities) {
       final scheduleJson = prefs.getString("trip_schedule_$cityId");
@@ -416,12 +410,10 @@ class _ProfileScreenState extends State<ProfileScreen>
         final schedule = jsonDecode(scheduleJson) as Map<String, dynamic>;
         if (schedule.isEmpty) continue;
 
-        // Gün sayısını ve toplam mekan sayısını hesapla
         int totalPlaces = 0;
         int totalDays = 0;
         for (final entry in schedule.entries) {
-          final dayPlaces = entry.value as List<dynamic>?
-              ?? [];
+          final dayPlaces = entry.value as List<dynamic>? ?? [];
           if (dayPlaces.isNotEmpty) {
             totalDays++;
             totalPlaces += dayPlaces.length;
@@ -431,18 +423,38 @@ class _ProfileScreenState extends State<ProfileScreen>
 
         final isAiPlan = prefs.getBool("is_ai_plan_$cityId") ?? false;
 
-        // Şehir ismini al
+        // Şehir ismini ve resmini al
         String cityName = cityId;
         String? heroImage;
+        int favCount = 0;
+        int visitCount = 0;
+        List<CompletedRoute> cityRoutes = [];
         try {
           final city = await CityDataLoader.loadCity(cityId);
           final isEn = AppLocalizations.currentLanguage == AppLanguage.en;
           cityName = (isEn ? city.cityEn : null) ?? city.city;
           heroImage = city.heroImage;
+
+          // Bu şehirdeki favori ve ziyaret sayıları
+          for (final h in city.highlights) {
+            final newKey = "$cityId:${h.name}";
+            if (_favorites.contains(newKey) || _favorites.contains(h.name)) {
+              favCount++;
+            }
+            if (_visitedPlaces.contains(newKey) || _visitedPlaces.contains(h.name)) {
+              visitCount++;
+            }
+          }
         } catch (_) {
           cityName = cityId[0].toUpperCase() + cityId.substring(1);
         }
 
+        // Bu şehirdeki tamamlanmış rotalar
+        cityRoutes = _completedRoutes
+            .where((r) => r.cityName.toLowerCase() == cityId || r.cityName.toLowerCase() == cityName.toLowerCase())
+            .toList();
+
+        plannedCityIds.add(cityId);
         plans.add({
           'cityId': cityId,
           'cityName': cityName,
@@ -450,13 +462,51 @@ class _ProfileScreenState extends State<ProfileScreen>
           'totalDays': totalDays,
           'totalPlaces': totalPlaces,
           'isAiPlan': isAiPlan,
+          'favCount': favCount,
+          'visitCount': visitCount,
+          'routeCount': cityRoutes.length,
         });
       } catch (e) {
         debugPrint("📍 Plan parse hatası ($cityId): $e");
       }
     }
 
+    // Planı olmayan ama favorisi/ziyareti olan mekanlar
+    for (final h in _favoriteHighlights) {
+      // Hangi şehirde olduğunu bul
+      bool belongsToPlannedCity = false;
+      for (final fav in _favorites) {
+        if (fav.contains(':')) {
+          final cId = fav.split(':')[0].toLowerCase();
+          if (fav.split(':')[1] == h.name && plannedCityIds.contains(cId)) {
+            belongsToPlannedCity = true;
+            break;
+          }
+        }
+      }
+      if (!belongsToPlannedCity && !orphanFavs.any((o) => o.name == h.name)) {
+        orphanFavs.add(h);
+      }
+    }
+    for (final h in _visitedHighlights) {
+      bool belongsToPlannedCity = false;
+      for (final vis in _visitedPlaces) {
+        if (vis.contains(':')) {
+          final cId = vis.split(':')[0].toLowerCase();
+          if (vis.split(':')[1] == h.name && plannedCityIds.contains(cId)) {
+            belongsToPlannedCity = true;
+            break;
+          }
+        }
+      }
+      if (!belongsToPlannedCity && !orphanVis.any((o) => o.name == h.name)) {
+        orphanVis.add(h);
+      }
+    }
+
     _savedPlans = plans;
+    _orphanFavorites = orphanFavs;
+    _orphanVisited = orphanVis;
   }
 
   // ══════════════════════════════════════════════════════════════════════════
@@ -498,22 +548,12 @@ class _ProfileScreenState extends State<ProfileScreen>
           // Quick Actions
           SliverToBoxAdapter(child: _buildQuickActions()),
 
-          // Tab Bar (Favorites/Visited)
-          SliverToBoxAdapter(child: _buildTabBar()),
+          // Seyahatlerim (City Trip Cards)
+          SliverToBoxAdapter(child: _buildTripsSection(isEnglish)),
 
-          // Tab Content (inline, scrolls with page)
-          SliverToBoxAdapter(
-            child: AnimatedSwitcher(
-              duration: const Duration(milliseconds: 200),
-              child: _tabController.index == 0 
-                  ? _buildFavoritesContent() 
-                  : _tabController.index == 1
-                      ? _buildVisitedContent()
-                      : _tabController.index == 2
-                          ? _buildHistoryContent()
-                          : _buildPlansContent(),
-            ),
-          ),
+          // Planı olmayan favoriler/ziyaretler (varsa)
+          if (_orphanFavorites.isNotEmpty || _orphanVisited.isNotEmpty)
+            SliverToBoxAdapter(child: _buildOrphanSection(isEnglish)),
 
           // Settings & More
           SliverToBoxAdapter(child: _buildExpandedSettingsSection(isEnglish)),
@@ -1322,222 +1362,234 @@ class _ProfileScreenState extends State<ProfileScreen>
   }
 
   // ══════════════════════════════════════════════════════════════════════════
-  // TAB BAR & LISTS
+  // SEYAHATLERIM (AIRBNB-STYLE CITY TRIP CARDS)
   // ══════════════════════════════════════════════════════════════════════════
 
-  Widget _buildTabBar() {
-    return Container(
-      margin: const EdgeInsets.fromLTRB(24, 24, 24, 0),
-      decoration: BoxDecoration(
-        color: bgCard,
-        borderRadius: BorderRadius.circular(14),
-      ),
-      child: TabBar(
-        controller: _tabController,
-        indicator: BoxDecoration(
-          color: accent,
-          borderRadius: BorderRadius.circular(12),
-        ),
-        indicatorSize: TabBarIndicatorSize.tab,
-        indicatorPadding: const EdgeInsets.all(4),
-        dividerColor: Colors.transparent,
-        labelColor: Colors.white,
-        unselectedLabelColor: textGrey,
-        labelStyle: const TextStyle(fontWeight: FontWeight.w600, fontSize: 12),
-        tabs: [
-          Tab(text: "${AppLocalizations.instance.favorites} (${_favoriteHighlights.length})"),
-          Tab(text: "${AppLocalizations.instance.visited} (${_visitedPlaces.length})"),
-          Tab(text: "${AppLocalizations.instance.isEnglish ? 'Routes' : 'Rotalar'} (${_completedRoutes.length})"),
-          Tab(text: "${AppLocalizations.instance.isEnglish ? 'Plans' : 'Planlar'} (${_savedPlans.length})"),
+  Widget _buildTripsSection(bool isEnglish) {
+    return Padding(
+      padding: const EdgeInsets.fromLTRB(24, 24, 24, 0),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          // Başlık
+          Row(
+            children: [
+              const Icon(Icons.luggage_rounded, color: accent, size: 20),
+              const SizedBox(width: 8),
+              Text(
+                isEnglish ? "My Trips" : "Seyahatlerim",
+                style: const TextStyle(
+                  color: textWhite,
+                  fontSize: 18,
+                  fontWeight: FontWeight.w700,
+                ),
+              ),
+              const Spacer(),
+              if (_savedPlans.isNotEmpty)
+                Text(
+                  "${_savedPlans.length} ${isEnglish ? 'cities' : 'şehir'}",
+                  style: TextStyle(
+                    color: textGrey.withOpacity(0.7),
+                    fontSize: 13,
+                  ),
+                ),
+            ],
+          ),
+          const SizedBox(height: 16),
+          if (_savedPlans.isEmpty)
+            _buildEmptyTripsState(isEnglish)
+          else
+            ..._savedPlans.map((plan) => _buildTripCard(plan)),
         ],
       ),
     );
   }
 
-  Widget _buildFavoritesContent() {
-    if (_favoriteHighlights.isEmpty) {
-      return _buildEmptyTab(
-        icon: Icons.favorite_border,
-        title: AppLocalizations.instance.t("Henüz favori yok", "No favorites yet"),
-        subtitle: AppLocalizations.instance.t("Beğendiğin yerleri favorilere ekle", "Add places you like to favorites"),
-      );
-    }
-
-    return Padding(
-      padding: const EdgeInsets.fromLTRB(24, 16, 24, 0),
+  Widget _buildEmptyTripsState(bool isEnglish) {
+    return Container(
+      padding: const EdgeInsets.all(32),
+      decoration: BoxDecoration(
+        color: bgCard,
+        borderRadius: BorderRadius.circular(20),
+        border: Border.all(color: borderColor.withOpacity(0.3)),
+      ),
       child: Column(
-        key: const ValueKey('favorites'),
-        children: _favoriteHighlights.map((h) => _buildPlaceCard(h)).toList(),
+        children: [
+          Icon(Icons.map_outlined, color: textGrey.withOpacity(0.4), size: 48),
+          const SizedBox(height: 16),
+          Text(
+            isEnglish ? "No trips yet" : "Henüz seyahat planın yok",
+            style: const TextStyle(
+              color: textWhite,
+              fontSize: 16,
+              fontWeight: FontWeight.w600,
+            ),
+          ),
+          const SizedBox(height: 8),
+          Text(
+            isEnglish
+                ? "Create a daily plan for any city to see it here"
+                : "Bir şehir için günlük plan oluşturduğunda burada görünecek",
+            textAlign: TextAlign.center,
+            style: TextStyle(
+              color: textGrey.withOpacity(0.7),
+              fontSize: 13,
+            ),
+          ),
+        ],
       ),
     );
   }
 
-  Widget _buildVisitedContent() {
-    if (_visitedHighlights.isEmpty) {
-      return _buildEmptyTab(
-        icon: Icons.check_circle_outline,
-        title: AppLocalizations.instance.t("Henüz ziyaret yok", "No visits yet"),
-        subtitle: AppLocalizations.instance.t("Gittiğin yerleri işaretle", "Mark places you've visited"),
-      );
-    }
-
-    return Padding(
-      padding: const EdgeInsets.fromLTRB(24, 16, 24, 0),
-      child: Column(
-        key: const ValueKey('visited'),
-        children: _visitedHighlights.map((h) => _buildPlaceCard(h, isVisited: true)).toList(),
-      ),
-    );
-  }
-
-  Widget _buildHistoryContent() {
-    if (_completedRoutes.isEmpty) {
-      return _buildEmptyTab(
-        icon: Icons.history_rounded,
-        title: AppLocalizations.instance.isEnglish ? "No route history" : "Henüz geçmiş rota yok",
-        subtitle: AppLocalizations.instance.isEnglish ? "Complete a route to see it here" : "Burada görmek için bir rota tamamla",
-      );
-    }
-
-    return Padding(
-      padding: const EdgeInsets.fromLTRB(24, 16, 24, 0),
-      child: Column(
-        key: const ValueKey('history'),
-        children: _completedRoutes.map((route) => _buildHistoryCard(route)).toList(),
-      ),
-    );
-  }
-
-  // ══════════════════════════════════════════════════════════════════════════
-  // PLANS TAB (Planlarım)
-  // ══════════════════════════════════════════════════════════════════════════
-
-  Widget _buildPlansContent() {
-    if (_savedPlans.isEmpty) {
-      return _buildEmptyTab(
-        icon: Icons.calendar_month_rounded,
-        title: AppLocalizations.instance.isEnglish
-            ? "No plans yet"
-            : "Henüz plan yok",
-        subtitle: AppLocalizations.instance.isEnglish
-            ? "Create a daily plan for any city"
-            : "Bir şehir için günlük plan oluştur",
-      );
-    }
-
-    return Padding(
-      padding: const EdgeInsets.fromLTRB(24, 16, 24, 0),
-      child: Column(
-        key: const ValueKey('plans'),
-        children: _savedPlans.map((plan) => _buildPlanCard(plan)).toList(),
-      ),
-    );
-  }
-
-  Widget _buildPlanCard(Map<String, dynamic> plan) {
+  Widget _buildTripCard(Map<String, dynamic> plan) {
     final cityName = plan['cityName'] as String;
     final cityId = plan['cityId'] as String;
     final totalDays = plan['totalDays'] as int;
     final totalPlaces = plan['totalPlaces'] as int;
     final isAiPlan = plan['isAiPlan'] as bool;
     final heroImage = plan['heroImage'] as String?;
+    final favCount = plan['favCount'] as int? ?? 0;
+    final visitCount = plan['visitCount'] as int? ?? 0;
+    final routeCount = plan['routeCount'] as int? ?? 0;
     final isEn = AppLocalizations.instance.isEnglish;
 
     return GestureDetector(
       onTap: () => _navigateToPlan(cityId),
       child: Container(
-        margin: const EdgeInsets.only(bottom: 12),
+        margin: const EdgeInsets.only(bottom: 14),
         decoration: BoxDecoration(
           color: bgCard,
-          borderRadius: BorderRadius.circular(16),
-          border: Border.all(color: borderColor.withOpacity(0.5)),
+          borderRadius: BorderRadius.circular(20),
+          border: Border.all(color: borderColor.withOpacity(0.4)),
         ),
         clipBehavior: Clip.hardEdge,
-        child: Row(
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            // Şehir fotoğrafı
-            SizedBox(
-              width: 90,
-              height: 90,
-              child: heroImage != null && heroImage.isNotEmpty
-                  ? ResilientNetworkImage(
-                      imageUrl: heroImage,
-                      width: 90,
-                      height: 90,
-                      fit: BoxFit.cover,
-                    )
-                  : Container(
-                      color: bgCardLight,
-                      child: const Icon(
-                        Icons.location_city_rounded,
-                        color: textGrey,
-                        size: 32,
-                      ),
-                    ),
-            ),
-            const SizedBox(width: 14),
-            // Bilgiler
-            Expanded(
-              child: Padding(
-                padding: const EdgeInsets.symmetric(vertical: 12),
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Row(
-                      children: [
-                        Expanded(
-                          child: Text(
-                            cityName,
-                            style: const TextStyle(
-                              color: textWhite,
-                              fontSize: 16,
-                              fontWeight: FontWeight.w700,
-                            ),
-                            maxLines: 1,
-                            overflow: TextOverflow.ellipsis,
+            // Hero fotoğraf + overlay
+            Stack(
+              children: [
+                SizedBox(
+                  width: double.infinity,
+                  height: 130,
+                  child: heroImage != null && heroImage.isNotEmpty
+                      ? ResilientNetworkImage(
+                          imageUrl: heroImage,
+                          placeName: cityName,
+                          city: cityId,
+                          category: 'city',
+                          width: double.infinity,
+                          height: 130,
+                          fit: BoxFit.cover,
+                        )
+                      : Container(
+                          color: bgCardLight,
+                          child: const Center(
+                            child: Icon(Icons.location_city_rounded,
+                                color: textGrey, size: 40),
                           ),
                         ),
-                        if (isAiPlan)
-                          Container(
-                            margin: const EdgeInsets.only(left: 6),
-                            padding: const EdgeInsets.symmetric(
-                                horizontal: 6, vertical: 2),
-                            decoration: BoxDecoration(
-                              color: accent.withOpacity(0.2),
-                              borderRadius: BorderRadius.circular(6),
-                            ),
-                            child: Text(
-                              "AI",
-                              style: TextStyle(
-                                color: accent,
-                                fontSize: 10,
-                                fontWeight: FontWeight.w700,
-                              ),
-                            ),
-                          ),
-                      ],
-                    ),
-                    const SizedBox(height: 6),
-                    Text(
-                      isEn
-                          ? "$totalDays days • $totalPlaces places"
-                          : "$totalDays gün • $totalPlaces mekan",
-                      style: TextStyle(
-                        color: textGrey.withOpacity(0.8),
-                        fontSize: 13,
+                ),
+                // Gradient overlay
+                Positioned(
+                  bottom: 0,
+                  left: 0,
+                  right: 0,
+                  child: Container(
+                    height: 60,
+                    decoration: BoxDecoration(
+                      gradient: LinearGradient(
+                        begin: Alignment.topCenter,
+                        end: Alignment.bottomCenter,
+                        colors: [
+                          Colors.transparent,
+                          Colors.black.withOpacity(0.7),
+                        ],
                       ),
                     ),
-                  ],
+                  ),
                 ),
-              ),
+                // Şehir adı + AI badge
+                Positioned(
+                  bottom: 10,
+                  left: 16,
+                  right: 16,
+                  child: Row(
+                    children: [
+                      Expanded(
+                        child: Text(
+                          cityName,
+                          style: const TextStyle(
+                            color: Colors.white,
+                            fontSize: 20,
+                            fontWeight: FontWeight.w800,
+                            shadows: [
+                              Shadow(
+                                blurRadius: 8,
+                                color: Colors.black54,
+                              ),
+                            ],
+                          ),
+                          maxLines: 1,
+                          overflow: TextOverflow.ellipsis,
+                        ),
+                      ),
+                      if (isAiPlan)
+                        Container(
+                          margin: const EdgeInsets.only(left: 8),
+                          padding: const EdgeInsets.symmetric(
+                              horizontal: 8, vertical: 3),
+                          decoration: BoxDecoration(
+                            color: accent.withOpacity(0.9),
+                            borderRadius: BorderRadius.circular(8),
+                          ),
+                          child: Row(
+                            mainAxisSize: MainAxisSize.min,
+                            children: [
+                              const Icon(Icons.auto_awesome, color: Colors.white, size: 12),
+                              const SizedBox(width: 3),
+                              const Text(
+                                "AI",
+                                style: TextStyle(
+                                  color: Colors.white,
+                                  fontSize: 11,
+                                  fontWeight: FontWeight.w700,
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
+                    ],
+                  ),
+                ),
+              ],
             ),
-            // Ok ikonu
+            // İstatistikler
             Padding(
-              padding: const EdgeInsets.only(right: 14),
-              child: Icon(
-                Icons.chevron_right_rounded,
-                color: textGrey.withOpacity(0.5),
-                size: 22,
+              padding: const EdgeInsets.fromLTRB(16, 14, 16, 14),
+              child: Row(
+                children: [
+                  _buildTripStat(Icons.calendar_today_rounded,
+                      "$totalDays ${isEn ? 'days' : 'gün'}"),
+                  const SizedBox(width: 16),
+                  _buildTripStat(Icons.place_outlined,
+                      "$totalPlaces ${isEn ? 'places' : 'mekan'}"),
+                  if (favCount > 0) ...[
+                    const SizedBox(width: 16),
+                    _buildTripStat(Icons.favorite_rounded, "$favCount"),
+                  ],
+                  if (visitCount > 0) ...[
+                    const SizedBox(width: 16),
+                    _buildTripStat(Icons.check_circle_rounded, "$visitCount"),
+                  ],
+                  if (routeCount > 0) ...[
+                    const SizedBox(width: 16),
+                    _buildTripStat(Icons.route_rounded, "$routeCount"),
+                  ],
+                  const Spacer(),
+                  Icon(Icons.chevron_right_rounded,
+                      color: textGrey.withOpacity(0.5), size: 22),
+                ],
               ),
             ),
           ],
@@ -1545,6 +1597,64 @@ class _ProfileScreenState extends State<ProfileScreen>
       ),
     );
   }
+
+  Widget _buildTripStat(IconData icon, String label) {
+    return Row(
+      mainAxisSize: MainAxisSize.min,
+      children: [
+        Icon(icon, color: accent, size: 14),
+        const SizedBox(width: 4),
+        Text(
+          label,
+          style: TextStyle(
+            color: textGrey.withOpacity(0.8),
+            fontSize: 12,
+            fontWeight: FontWeight.w500,
+          ),
+        ),
+      ],
+    );
+  }
+
+  /// Planı olmayan ama favori/ziyaret edilen mekanlar bölümü
+  Widget _buildOrphanSection(bool isEnglish) {
+    return Padding(
+      padding: const EdgeInsets.fromLTRB(24, 20, 24, 0),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Text(
+            isEnglish ? "Other Places" : "Diğer Mekanlar",
+            style: const TextStyle(
+              color: textWhite,
+              fontSize: 16,
+              fontWeight: FontWeight.w600,
+            ),
+          ),
+          const SizedBox(height: 12),
+          if (_orphanFavorites.isNotEmpty) ...[
+            Text(
+              "${isEnglish ? 'Favorites' : 'Favoriler'} (${_orphanFavorites.length})",
+              style: TextStyle(color: textGrey, fontSize: 13),
+            ),
+            const SizedBox(height: 8),
+            ..._orphanFavorites.map((h) => _buildPlaceCard(h)),
+          ],
+          if (_orphanVisited.isNotEmpty) ...[
+            const SizedBox(height: 12),
+            Text(
+              "${isEnglish ? 'Visited' : 'Ziyaret'} (${_orphanVisited.length})",
+              style: TextStyle(color: textGrey, fontSize: 13),
+            ),
+            const SizedBox(height: 8),
+            ..._orphanVisited.map((h) => _buildPlaceCard(h, isVisited: true)),
+          ],
+        ],
+      ),
+    );
+  }
+
+
 
   Future<void> _navigateToPlan(String cityId) async {
     HapticFeedback.mediumImpact();
@@ -1571,359 +1681,7 @@ class _ProfileScreenState extends State<ProfileScreen>
     );
   }
 
-  Widget _buildHistoryCard(CompletedRoute route) {
-    return GestureDetector(
-      onTap: () => _showHistoryDetails(route),
-      child: Container(
-        margin: const EdgeInsets.only(bottom: 12),
-        padding: const EdgeInsets.all(16),
-        decoration: BoxDecoration(
-          color: bgCard,
-          borderRadius: BorderRadius.circular(16),
-          border: Border.all(color: borderColor.withOpacity(0.5)),
-        ),
-        child: Row(
-          children: [
-            Container(
-              padding: const EdgeInsets.all(12),
-              decoration: BoxDecoration(
-                color: accent.withOpacity(0.15),
-                borderRadius: BorderRadius.circular(12),
-              ),
-              child: const Icon(Icons.map_outlined, color: accent, size: 24),
-            ),
-            const SizedBox(width: 16),
-            Expanded(
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Text(
-                    route.name,
-                    style: const TextStyle(
-                      color: textWhite,
-                      fontSize: 15, // 16 -> 15 (sığması için)
-                      fontWeight: FontWeight.w600,
-                    ),
-                    maxLines: 1,
-                    overflow: TextOverflow.ellipsis,
-                  ),
-                  const SizedBox(height: 4),
-                  Row(
-                    children: [
-                      Text(
-                        "${route.cityName} • ${route.stopCount} ${AppLocalizations.instance.isEnglish ? 'stops' : 'durak'}",
-                        style: TextStyle(color: textGrey.withOpacity(0.8), fontSize: 13),
-                      ),
-                    ],
-                  ),
-                  const SizedBox(height: 2),
-                  Text(
-                    "${route.date.day}.${route.date.month}.${route.date.year}",
-                    style: TextStyle(color: textGrey.withOpacity(0.6), fontSize: 12),
-                  ),
-                ],
-              ),
-            ),
-            const Icon(Icons.chevron_right, color: textGrey, size: 20),
-          ],
-        ),
-      ),
-    );
-  }
 
-  void _showHistoryDetails(CompletedRoute route) {
-    showModalBottomSheet(
-      context: context,
-      backgroundColor: Colors.transparent,
-      isScrollControlled: true,
-      builder: (context) => Container(
-        height: MediaQuery.of(context).size.height * 0.7,
-        decoration: const BoxDecoration(
-          color: bgDark,
-          borderRadius: BorderRadius.vertical(top: Radius.circular(24)),
-        ),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            // Handle
-            Center(
-              child: Container(
-                margin: const EdgeInsets.only(top: 12, bottom: 20),
-                width: 40,
-                height: 4,
-                decoration: BoxDecoration(
-                  color: Colors.white.withOpacity(0.3),
-                  borderRadius: BorderRadius.circular(2),
-                ),
-              ),
-            ),
-            
-            // Header
-            Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 24),
-              child: Row(
-                children: [
-                   Container(
-                    padding: const EdgeInsets.all(12),
-                    decoration: BoxDecoration(
-                      color: accent.withOpacity(0.15),
-                      borderRadius: BorderRadius.circular(14),
-                    ),
-                    child: const Icon(Icons.check_circle, color: accent, size: 28),
-                  ),
-                  const SizedBox(width: 16),
-                  Expanded(
-                    child: Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        Text(
-                          route.name,
-                          style: const TextStyle(color: textWhite, fontSize: 20, fontWeight: FontWeight.bold),
-                        ),
-                        const SizedBox(height: 4),
-                        Text(
-                          "${route.cityName} • ${route.date.day}.${route.date.month}.${route.date.year}",
-                          style: const TextStyle(color: textGrey, fontSize: 14),
-                        ),
-                      ],
-                    ),
-                  ),
-                ],
-              ),
-            ),
-            
-            const SizedBox(height: 24),
-            const Padding(
-              padding: EdgeInsets.symmetric(horizontal: 24),
-              child: Divider(color: borderColor),
-            ),
-            const SizedBox(height: 16),
-            
-            // Stops List (with FutureBuilder for images)
-            Expanded(
-              child: FutureBuilder<CityModel>(
-                future: CityDataLoader.loadCity(route.cityName),
-                builder: (context, snapshot) {
-                  if (snapshot.connectionState == ConnectionState.waiting) {
-                    return const Center(child: CircularProgressIndicator(color: accent));
-                  }
-                  
-                  final cityHighlights = snapshot.data?.highlights ?? [];
-                  
-                  return ListView.builder(
-                    padding: const EdgeInsets.symmetric(horizontal: 24),
-                    itemCount: route.placeNames.length,
-                    itemBuilder: (context, index) {
-                      final placeName = route.placeNames[index];
-                      // Find highlight object if available
-                      Highlight? place;
-                      try {
-                        place = cityHighlights.firstWhere((h) => h.name == placeName);
-                      } catch (_) {
-                        // Not found
-                      }
-
-                      return Padding(
-                        padding: const EdgeInsets.only(bottom: 16),
-                        child: place != null 
-                          ? _buildHistoryPlaceCard(place, index) 
-                          : _buildSimpleHistoryRow(placeName, index, isLast: index == route.placeNames.length - 1),
-                      );
-                    },
-                  );
-                },
-              ),
-            ),
-          ],
-        ),
-      ),
-    );
-  }
-
-  Widget _buildHistoryPlaceCard(Highlight place, int index) {
-    final hasImage = place.imageUrl != null && place.imageUrl!.isNotEmpty;
-    final color = _getCategoryColor(place.category);
-    
-    return Container(
-      padding: const EdgeInsets.all(10),
-      decoration: BoxDecoration(
-        color: bgCard,
-        borderRadius: BorderRadius.circular(14),
-        border: Border.all(color: borderColor.withOpacity(0.5)),
-      ),
-      child: Row(
-        children: [
-          // Resim + Badge
-          Stack(
-            clipBehavior: Clip.none,
-            children: [
-              ClipRRect(
-                borderRadius: BorderRadius.circular(10),
-                child: SizedBox(
-                   width: 56,
-                   height: 56,
-                   child: hasImage
-                       ? ResilientNetworkImage(
-                           imageUrl: place.imageUrl,
-                           placeName: place.getLocalizedName(AppLocalizations.instance.isEnglish),
-                           city: place.city ?? place.area,
-                           category: place.category,
-                           blurHash: place.blurHash,
-                           width: 56,
-                           height: 56,
-                           fit: BoxFit.cover,
-                           placeholderBuilder: (_) => Container(
-                             color: color.withOpacity(0.15),
-                             child: Icon(Icons.place, color: color, size: 24),
-                           ),
-                         )
-                       : Container(
-                           color: color.withOpacity(0.15),
-                           child: Icon(Icons.place, color: color, size: 24),
-                         ),
-                ),
-              ),
-              // Number Badge (-1, -1 offset so it hangs off the corner slightly)
-              Positioned(
-                top: -4,
-                left: -4,
-                child: Container(
-                  width: 22,
-                  height: 22,
-                  decoration: BoxDecoration(
-                    color: accent,
-                    shape: BoxShape.circle,
-                    border: Border.all(color: bgCard, width: 2),
-                    boxShadow: [
-                      BoxShadow(color: Colors.black.withOpacity(0.2), blurRadius: 4),
-                    ],
-                  ),
-                  child: Center(
-                    child: Text(
-                      String.fromCharCode('A'.codeUnitAt(0) + index),
-                      style: const TextStyle(
-                        color: Colors.white,
-                        fontSize: 11,
-                        fontWeight: FontWeight.bold,
-                      ),
-                    ),
-                  ),
-                ),
-              ),
-            ],
-          ),
-          
-          const SizedBox(width: 12),
-          
-          Expanded(
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                // User Name
-                Text(
-                  place.getLocalizedName(AppLocalizations.instance.isEnglish),
-                  style: const TextStyle(
-                    color: textWhite,
-                    fontSize: 15,
-                    fontWeight: FontWeight.w600,
-                  ),
-                  maxLines: 1,
-                  overflow: TextOverflow.ellipsis,
-                ),
-                const SizedBox(height: 4),
-                Row(
-                  children: [
-                    Container(
-                      padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 2),
-                      decoration: BoxDecoration(
-                        color: bgCardLight,
-                        borderRadius: BorderRadius.circular(4),
-                      ),
-                      child: Text(
-                        place.category,
-                        style: TextStyle(
-                          color: textGrey.withOpacity(0.9),
-                          fontSize: 10,
-                          fontWeight: FontWeight.w500,
-                        ),
-                      ),
-                    ),
-                    const SizedBox(width: 8),
-                    if (place.area.isNotEmpty)
-                      Expanded(
-                        child: Text(
-                          place.area,
-                          style: TextStyle(color: textGrey.withOpacity(0.7), fontSize: 11),
-                          maxLines: 1,
-                          overflow: TextOverflow.ellipsis,
-                        ),
-                      ),
-                  ],
-                ),
-              ],
-            ),
-          ),
-          
-          // Go to details
-          GestureDetector(
-             onTap: () {
-               // Fotoğrafı prefetch et
-               ImagePrefetchService.prefetchSinglePhoto(context, place.imageUrl, heroDecode: true);
-               Navigator.push(
-                 context,
-                 MaterialPageRoute(builder: (_) => DetailScreen(place: place)),
-               );
-             }, 
-             child: const Padding(
-               padding: EdgeInsets.all(4.0),
-               child: Icon(Icons.chevron_right, color: textGrey, size: 20),
-             ),
-          ),
-        ],
-      ),
-    );
-  }
-
-  Widget _buildSimpleHistoryRow(String placeName, int index, {required bool isLast}) {
-     return Row(
-      crossAxisAlignment: CrossAxisAlignment.start,
-      children: [
-        Column(
-          children: [
-            Container(
-              width: 24,
-              height: 24,
-              decoration: BoxDecoration(
-                color: bgCardLight,
-                shape: BoxShape.circle,
-                border: Border.all(color: accent.withOpacity(0.5), width: 2),
-              ),
-              child: Center(
-                child: Text(
-                  String.fromCharCode('A'.codeUnitAt(0) + index),
-                  style: const TextStyle(color: textWhite, fontSize: 11, fontWeight: FontWeight.bold),
-                ),
-              ),
-            ),
-            if (!isLast)
-              Container(
-                width: 2,
-                height: 30,
-                color: borderColor,
-                margin: const EdgeInsets.only(top: 4),
-              ),
-          ],
-        ),
-        const SizedBox(width: 16),
-        Expanded(
-          child: Text(
-            placeName,
-            style: const TextStyle(color: textWhite, fontSize: 16, fontWeight: FontWeight.w500),
-          ),
-        ),
-      ],
-    );
-  }
 
   Widget _buildPlaceCard(Highlight place, {bool isVisited = false}) {
     final hasImage = place.imageUrl != null && place.imageUrl!.isNotEmpty;
@@ -2009,20 +1767,7 @@ class _ProfileScreenState extends State<ProfileScreen>
     );
   }
 
-  Widget _buildEmptyTab({required IconData icon, required String title, required String subtitle}) {
-    return Center(
-      child: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
-        children: [
-          Icon(icon, size: 48, color: textGrey.withOpacity(0.5)),
-          const SizedBox(height: 16),
-          Text(title, style: const TextStyle(color: textGrey, fontSize: 16, fontWeight: FontWeight.w600)),
-          const SizedBox(height: 4),
-          Text(subtitle, style: TextStyle(color: textGrey.withOpacity(0.7), fontSize: 13)),
-        ],
-      ),
-    );
-  }
+
 
   // ══════════════════════════════════════════════════════════════════════════
   // EXPANDED SETTINGS SECTION
@@ -2432,16 +2177,6 @@ class _ProfileScreenState extends State<ProfileScreen>
   // HELPERS
   // ══════════════════════════════════════════════════════════════════════════
 
-  Map<String, dynamic> _getStyleInfo(String style) {
-    switch (style) {
-      case "Turist": return {'icon': Icons.camera_alt, 'color': const Color(0xFF2196F3)};
-      case "Lokal": return {'icon': Icons.explore, 'color': const Color(0xFF4CAF50)};
-      case "Macera": return {'icon': Icons.hiking, 'color': const Color(0xFFFF9800)};
-      case "Lüks": return {'icon': Icons.diamond, 'color': const Color(0xFF9C27B0)};
-      default: return {'icon': Icons.travel_explore, 'color': accentLight};
-    }
-  }
-
   Color _getCategoryColor(String category) {
     final colors = {
       'Restoran': const Color(0xFFFF5252),
@@ -2455,16 +2190,6 @@ class _ProfileScreenState extends State<ProfileScreen>
       'Semt': const Color(0xFF673AB7),
     };
     return colors[category] ?? const Color(0xFF607D8B);
-  }
-
-  double _getTabContentHeight() {
-    int itemCount = 0;
-    if (_tabController.index == 0) itemCount = _favoriteHighlights.length;
-    else if (_tabController.index == 1) itemCount = _visitedHighlights.length;
-    else itemCount = _completedRoutes.length;
-
-    if (itemCount == 0) return 150;
-    return (itemCount * 90.0 + 60); // Kart yüksekliği biraz daha fazla olabilir
   }
 
   Future<void> _editName() async {
