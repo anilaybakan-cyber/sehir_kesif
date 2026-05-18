@@ -47,6 +47,7 @@ class _CityGuideDetailScreenState extends State<CityGuideDetailScreen> {
   bool _showScrollToTop = false;
   bool _showStickyButton = false;
   double _scrollOffset = 0;
+  bool _isNavigating = false;
   final GlobalKey _triggerKey = GlobalKey();
   final Map<String, Highlight> _highlightMap = {};
 
@@ -1067,18 +1068,34 @@ class _CityGuideDetailScreenState extends State<CityGuideDetailScreen> {
 
   /// Yer adına göre navigasyon yapar (Cross-city destekli ve sıfır gecikmeli)
   void _navigateToPlace(Highlight foundPlace) async {
+    if (_isNavigating) return;
+    _isNavigating = true;
+
     try {
       if (mounted) {
-        // Fotoğraf inene kadar bekle (await)
-        await ImagePrefetchService.prefetchSinglePhoto(context, foundPlace.imageUrl, heroDecode: true);
-        if (!mounted) return;
+        // En fazla 250ms bekle, kullanıcı bekletilmeden sayfa şak diye açılsın!
+        try {
+          await ImagePrefetchService.prefetchSinglePhoto(context, foundPlace.imageUrl, heroDecode: true)
+              .timeout(const Duration(milliseconds: 250));
+        } catch (_) {}
+
+        if (!mounted) {
+          _isNavigating = false;
+          return;
+        }
+
         Navigator.push(
           context,
           MaterialPageRoute(builder: (_) => DetailScreen(place: foundPlace)),
-        );
+        ).then((_) {
+          if (mounted) _isNavigating = false;
+        });
+      } else {
+        _isNavigating = false;
       }
     } catch (e) {
       debugPrint('Place navigation error: $e');
+      if (mounted) _isNavigating = false;
     }
   }
 }
