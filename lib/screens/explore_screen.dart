@@ -2345,32 +2345,16 @@ class _ExploreScreenState extends State<ExploreScreen>
                         ),
                       ),
                       const SizedBox(height: 8),
-                      Row(
-                        crossAxisAlignment: CrossAxisAlignment.center,
-                        children: [
-                          Container(
-                            width: 4,
-                            height: 4,
-                            decoration: const BoxDecoration(
-                              color: WanderlustColors.accent,
-                              shape: BoxShape.circle,
-                            ),
-                          ),
-                          const SizedBox(width: 8),
-                          Expanded(
-                            child: Text(
-                              AppLocalizations.instance.isEnglish ? "Curating your unique journey" : "Sana özel rota deneyimi",
-                              style: TextStyle(
-                                color: Colors.white.withOpacity(0.85),
-                                fontSize: 15,
-                                fontFamily: WanderlustTypography.bodyFont,
-                                fontWeight: FontWeight.w400,
-                              ),
-                              maxLines: 1,
-                              overflow: TextOverflow.ellipsis,
-                            ),
-                          ),
-                        ],
+                      Text(
+                        AppLocalizations.instance.isEnglish ? "Your personalized holiday experience" : "Sana özel tatil deneyimi",
+                        style: TextStyle(
+                          color: Colors.white.withOpacity(0.85),
+                          fontSize: 15,
+                          fontFamily: WanderlustTypography.bodyFont,
+                          fontWeight: FontWeight.w400,
+                        ),
+                        maxLines: 1,
+                        overflow: TextOverflow.ellipsis,
                       ),
                     ],
                   ),
