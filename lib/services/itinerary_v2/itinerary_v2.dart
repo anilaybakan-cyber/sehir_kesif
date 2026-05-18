@@ -428,7 +428,7 @@ class ItineraryV2 {
 
     // KURAL 8: Coğrafi A→B→C→D sıralaması (nearest-neighbor)
     // Yemek slotlarını sabitleyip, aradaki deneyimleri coğrafi olarak optimize et.
-    _applyGeographicSort(filled, dayIndex <= 0 ? "monday" : _dayKeyForTripDay(dayIndex));
+    _applyGeographicSort(filled, dayOfWeekKey);
 
     // Gün başına tavan: fazla mekan varsa transition/optional olanlardan başla.
     _trimToMaxPlaces(filled, _maxRegularDayPlaces);
@@ -438,6 +438,10 @@ class ItineraryV2 {
     _pushSocialToEvening(filled);
 
     // Saatler her durumda ileri akmalı (geo-sort + trim + insert sonrası).
+    _enforceMonotonicSchedule(filled, _dayKeyForTripDay(dayIndex));
+
+    // Nihai Temizlik Kalkanı: Günün son hâlinde asla 3 yeme-içme peş peşe olamaz!
+    _cleanseConsecutiveConsumption(filled);
     _enforceMonotonicSchedule(filled, _dayKeyForTripDay(dayIndex));
 
     // Trip tracker'a kaydet
@@ -1094,6 +1098,53 @@ class ItineraryV2 {
     ];
     final idx = (day - 1) % keys.length;
     return keys[idx];
+  }
+
+  /// Günün son hâlinde (bütün sıralamalar ve taşımalar bittikten sonra bile)
+  /// arka arkaya 3 tane yeme-içme (COFFEE, FOOD, SOCIAL) kalmışsa aradakini
+  /// veya en az kritik olanını feda ederek 3'lü seriyi kesin olarak kırar.
+  static void _cleanseConsecutiveConsumption(List<FilledBeat> filled) {
+    if (filled.length < 3) return;
+
+    bool isProtectedMeal(FilledBeat f) {
+      return f.beat.role == BeatRole.lunch || f.beat.role == BeatRole.dinner;
+    }
+
+    bool restartCleanse = true;
+    int safetyCounter = 0;
+
+    while (restartCleanse && safetyCounter < 10) {
+      restartCleanse = false;
+      safetyCounter++;
+
+      for (int i = 0; i < filled.length - 2; i++) {
+        final g1 = TripVarietyTracker.groupOf(filled[i].place);
+        final g2 = TripVarietyTracker.groupOf(filled[i + 1].place);
+        final g3 = TripVarietyTracker.groupOf(filled[i + 2].place);
+
+        if (_consumptionGroups.contains(g1) &&
+            _consumptionGroups.contains(g2) &&
+            _consumptionGroups.contains(g3)) {
+          
+          // Arka arkaya 3 tane consumption tespit edildi! (i, i+1, i+2)
+          int removeIdx = -1;
+          if (!isProtectedMeal(filled[i + 1])) {
+            removeIdx = i + 1; // Ortadakini sil (örn: Kafe / Snack / Bar)
+          } else if (!isProtectedMeal(filled[i + 2])) {
+            removeIdx = i + 2;
+          } else if (!isProtectedMeal(filled[i])) {
+            removeIdx = i;
+          } else {
+            removeIdx = i + 2;
+          }
+
+          debugPrint("🧹 CleanseConsecutiveConsumption: Removing \${filled[removeIdx].place.name} (\${TripVarietyTracker.groupOf(filled[removeIdx].place)}) to prevent 3 consecutive consumptions.");
+          filled.removeAt(removeIdx);
+          restartCleanse = true;
+          break;
+        }
+      }
+    }
   }
   // ─────────────────────────────────────────────────────────────────
   // KURAL 8: COĞRAFİ OPTİMİZASYON (A→B→C→D)
