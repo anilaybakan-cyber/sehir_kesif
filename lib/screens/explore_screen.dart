@@ -2217,10 +2217,9 @@ class _ExploreScreenState extends State<ExploreScreen>
                 child: BackdropFilter(
                   filter: ImageFilter.blur(sigmaX: 10, sigmaY: 10),
                   child: Container(
-                    padding: const EdgeInsets.symmetric(
-                      horizontal: 14,
-                      vertical: 8,
-                    ),
+                    height: 38,
+                    padding: const EdgeInsets.symmetric(horizontal: 14),
+                    alignment: Alignment.center,
                     decoration: BoxDecoration(
                       color: Colors.white.withOpacity(0.15),
                       borderRadius: BorderRadius.circular(20),
@@ -2228,11 +2227,12 @@ class _ExploreScreenState extends State<ExploreScreen>
                     ),
                     child: Row(
                       mainAxisSize: MainAxisSize.min,
+                      crossAxisAlignment: CrossAxisAlignment.center,
                       children: [
                         Image.asset(
                           'assets/icons/icon_sehirsec.png',
-                          width: 28,
-                          height: 28,
+                          width: 20,
+                          height: 20,
                         ),
                         const SizedBox(width: 8),
                         Text(
@@ -2240,14 +2240,14 @@ class _ExploreScreenState extends State<ExploreScreen>
                           style: const TextStyle(
                             color: Colors.white,
                             fontSize: 14,
-                            fontWeight: FontWeight.w600,
+                            fontWeight: FontWeight.w700,
                           ),
                         ),
                         const SizedBox(width: 4),
                         const Icon(
                           Icons.keyboard_arrow_down,
                           color: Colors.white,
-                          size: 20,
+                          size: 18,
                         ),
                       ],
                     ),
@@ -2278,7 +2278,9 @@ class _ExploreScreenState extends State<ExploreScreen>
                     child: BackdropFilter(
                       filter: ImageFilter.blur(sigmaX: 10, sigmaY: 10),
                       child: Container(
-                        padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 8),
+                        height: 38,
+                        padding: const EdgeInsets.symmetric(horizontal: 14),
+                        alignment: Alignment.center,
                         decoration: BoxDecoration(
                           color: Colors.white.withOpacity(0.15), 
                           borderRadius: BorderRadius.circular(20),
@@ -2286,11 +2288,12 @@ class _ExploreScreenState extends State<ExploreScreen>
                         ),
                         child: Row(
                           mainAxisSize: MainAxisSize.min,
+                          crossAxisAlignment: CrossAxisAlignment.center,
                           children: [
                             Icon(
                               isPremium ? Icons.verified_rounded : Icons.star_rounded, 
                               color: Colors.white, 
-                              size: 18
+                              size: 18,
                             ),
                             const SizedBox(width: 6),
                             Text(
