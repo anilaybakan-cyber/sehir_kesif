@@ -2165,7 +2165,7 @@ class _ExploreScreenState extends State<ExploreScreen>
               height: 320,
               child: ResilientNetworkImage(
                 key: ValueKey<String>('explore_hero_${_currentCityId}_$imageUrl'),
-                imageUrl: imageUrl,
+                imageUrl: resolveOptimizedImageUrl(imageUrl),
                 placeName: _city?.city ?? cityKey,
                 city: cityKey,
                 category: 'city',
@@ -2173,13 +2173,7 @@ class _ExploreScreenState extends State<ExploreScreen>
                 fit: BoxFit.cover,
                 fadeInDuration: Duration.zero,
                 placeholderBuilder: (context) => Container(
-                  decoration: BoxDecoration(color: accent),
-                  child: const Center(
-                    child: CircularProgressIndicator(
-                      color: Colors.white,
-                      strokeWidth: 2,
-                    ),
-                  ),
+                  color: WanderlustColors.bgCardLight,
                 ),
               ),
             ),
