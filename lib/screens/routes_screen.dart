@@ -828,6 +828,23 @@ class _RoutesScreenState extends State<RoutesScreen>
     return "CULTURE"; 
   }
 
+  /// [SmartItineraryBuilder] ile uyumlu: restoran / kafe / bar-gece grubu.
+  bool _isConsumptionGroup(String group) =>
+      group == "FOOD" || group == "COFFEE" || group == "SOCIAL";
+
+  /// Sondan geriye ardışık kaç yeme-içme durak var?
+  int _consumptionTrailLength(List<Highlight> seq) {
+    int n = 0;
+    for (int i = seq.length - 1; i >= 0; i--) {
+      if (_isConsumptionGroup(_getCategoryGroup(seq[i]))) {
+        n++;
+      } else {
+        break;
+      }
+    }
+    return n;
+  }
+
   double _getCategoryPenalty(Highlight h, int slotIndex) {
     final group = _getCategoryGroup(h);
     double penalty = 0.0;
@@ -860,51 +877,35 @@ class _RoutesScreenState extends State<RoutesScreen>
     return penalty;
   }
 
-  List<Highlight> _getOptimizedSequence(List<Highlight> places) {
-    if (places.length < 2) return places;
+  /// Aynı gün içinde mesafe + kategori slotu. Listede kültür vb. varken peş peşe
+  /// yeme-içme seçilmez (SmartItinerary ile uyumlu).
+  List<Highlight> _optimizeSequenceNearestNeighbor(
+    List<Highlight> regulars, {
+    List<Highlight> prefixBefore = const [],
+  }) {
+    if (regulars.isEmpty) return List<Highlight>.from(prefixBefore);
 
-    // V4.3: Day-trip yer varsa onu en başa pinle.
-    // Day-trip günün büyük kısmını alır → sıralama tartışması yok.
-    final dayTrips = places.where((p) => p.isDayTrip).toList();
-    final regulars = places.where((p) => !p.isDayTrip).toList();
-
-    if (dayTrips.isNotEmpty) {
-      // Birden fazla day-trip aynı günde olmamalı; ama olduysa mesafeye göre sırala
-      dayTrips.sort((a, b) => a.distanceFromCenter.compareTo(b.distanceFromCenter));
-      // Day-trip + (varsa) akşam yerleri: regular'ları sona koy (akşam yemeği gibi)
-      final List<Highlight> result = [...dayTrips];
-      // Regular yerleri kendi içinde optimize et (rating yüksek FOOD önce gelsin akşam için)
-      regulars.sort((a, b) {
-        final aFood = _getCategoryGroup(a) == 'FOOD' ? 1 : 0;
-        final bFood = _getCategoryGroup(b) == 'FOOD' ? 1 : 0;
-        if (aFood != bFood) return bFood.compareTo(aFood);
-        return (b.rating ?? 0).compareTo(a.rating ?? 0);
-      });
-      result.addAll(regulars);
-      return result;
-    }
-
-    // Normal akış: weighted nearest-neighbor
-    final optimized = <Highlight>[];
+    final optimized = List<Highlight>.from(prefixBefore);
     final remaining = List<Highlight>.from(regulars);
 
-    // İlk öğeyi seçerken de kategoriye bakalım (mümkünse sabah kültür olsun)
-    Highlight? bestFirst;
-    double bestFirstScore = double.infinity;
+    if (optimized.isEmpty) {
+      Highlight? bestFirst;
+      double bestFirstScore = double.infinity;
 
-    for (var p in remaining) {
-      double score = _getCategoryPenalty(p, 0); // Slot 0 için kategori puanı
-      if (score < bestFirstScore) {
-        bestFirstScore = score;
-        bestFirst = p;
+      for (var p in remaining) {
+        double score = _getCategoryPenalty(p, 0);
+        if (score < bestFirstScore) {
+          bestFirstScore = score;
+          bestFirst = p;
+        }
       }
-    }
 
-    if (bestFirst != null) {
-      optimized.add(bestFirst);
-      remaining.remove(bestFirst);
-    } else {
-      optimized.add(remaining.removeAt(0));
+      if (bestFirst != null) {
+        optimized.add(bestFirst);
+        remaining.remove(bestFirst);
+      } else {
+        optimized.add(remaining.removeAt(0));
+      }
     }
 
     while (remaining.isNotEmpty) {
@@ -913,12 +914,28 @@ class _RoutesScreenState extends State<RoutesScreen>
       Highlight? nextBest;
       double minCombinedScore = double.infinity;
 
+      final trail = _consumptionTrailLength(optimized);
+      final hasNonConsumptionLeft =
+          remaining.any((p) => !_isConsumptionGroup(_getCategoryGroup(p)));
+
       for (var p in remaining) {
-        // Mesafe puanı (1km = 15 puan)
+        final pGroup = _getCategoryGroup(p);
+        final pIsConsumption = _isConsumptionGroup(pGroup);
+
+        // KURAL: Arka arkaya 2 consumption varsa, 3. kesinlikle YASAK!
+        // Kalan listede deneyim mekanı olsun veya olmasın fark etmez.
+        if (trail >= 2 && pIsConsumption) {
+          continue;
+        }
+
+        // KURAL: 1 consumption varsa ve listede deneyim mekanı kaldıysa,
+        // yeme-içme yerine deneyim tercih et.
+        if (trail >= 1 && hasNonConsumptionLeft && pIsConsumption) {
+          continue;
+        }
+
         final distKm = _haversine(current.lat, current.lng, p.lat, p.lng);
         final distScore = distKm * 15.0;
-
-        // Kategori puanı
         final categoryPenalty = _getCategoryPenalty(p, slotIndex);
 
         final combinedScore = distScore + categoryPenalty;
@@ -933,13 +950,72 @@ class _RoutesScreenState extends State<RoutesScreen>
         optimized.add(nextBest);
         remaining.remove(nextBest);
       } else {
+        // Hiçbir aday geçemedi (hepsi consumption ve trail>=2).
+        // Kalan mekanları sona ekle ama araya boşluk bırak.
+        if (remaining.isNotEmpty) {
+          optimized.addAll(remaining);
+          remaining.clear();
+        }
         break;
       }
     }
+
+    // NİHAİ KALKAN: Tüm sıralama bittikten sonra bile arka arkaya 3+ consumption varsa,
+    // ortadaki en az kritik olanı sil.
+    _cleanseConsecutiveConsumptionInList(optimized);
+
     return optimized;
   }
 
-  void _optimizeRoute() {
+  /// Nihai temizlik kalkanı: Listedeki arka arkaya 3+ yeme-içme (FOOD/COFFEE/SOCIAL)
+  /// serisini tespit edip ortadaki en az kritik olanı feda eder.
+  void _cleanseConsecutiveConsumptionInList(List<Highlight> list) {
+    if (list.length < 3) return;
+
+    bool restartCleanse = true;
+    int safetyCounter = 0;
+
+    while (restartCleanse && safetyCounter < 10) {
+      restartCleanse = false;
+      safetyCounter++;
+
+      for (int i = 0; i < list.length - 2; i++) {
+        final g1 = _getCategoryGroup(list[i]);
+        final g2 = _getCategoryGroup(list[i + 1]);
+        final g3 = _getCategoryGroup(list[i + 2]);
+
+        if (_isConsumptionGroup(g1) &&
+            _isConsumptionGroup(g2) &&
+            _isConsumptionGroup(g3)) {
+          // 3 peş peşe consumption! Ortadakini sil (en az kritik olan).
+          debugPrint("🧹 RoutesScreen cleanse: Removing ${list[i + 1].name} ($g2) to prevent 3 consecutive consumptions.");
+          list.removeAt(i + 1);
+          restartCleanse = true;
+          break;
+        }
+      }
+    }
+  }
+
+  List<Highlight> _getOptimizedSequence(List<Highlight> places) {
+    if (places.length < 2) return places;
+
+    // V4.3: Day-trip yer varsa onu en başa pinle.
+    // Day-trip günün büyük kısmını alır → sıralama tartışması yok.
+    final dayTrips = places.where((p) => p.isDayTrip).toList();
+    final regulars = places.where((p) => !p.isDayTrip).toList();
+
+    if (dayTrips.isNotEmpty) {
+      // Birden fazla day-trip aynı günde olmamalı; ama olduysa mesafeye göre sırala
+      dayTrips.sort((a, b) => a.distanceFromCenter.compareTo(b.distanceFromCenter));
+      if (regulars.isEmpty) return List<Highlight>.from(dayTrips);
+      return _optimizeSequenceNearestNeighbor(regulars, prefixBefore: dayTrips);
+    }
+
+    return _optimizeSequenceNearestNeighbor(regulars);
+  }
+
+  Future<void> _optimizeRoute() async {
     HapticFeedback.heavyImpact();
     setState(() {
       for (int i = 1; i <= _totalDays; i++) {
@@ -947,14 +1023,24 @@ class _RoutesScreenState extends State<RoutesScreen>
           _dayPlans[i] = _getOptimizedSequence(_dayPlans[i]!);
         }
       }
+      for (int d = 1; d <= _totalDays; d++) {
+        _routeCache.remove('walking_$d');
+        _routeCache.remove('transit_$d');
+        _routeCache.remove('driving_$d');
+      }
     });
-    
+
     final currentDay = (_dayTabController?.index ?? 0) + 1;
     final updatedPlaces = _dayPlans[currentDay] ?? [];
     if (updatedPlaces.isNotEmpty && _showMapPreview) {
       _updateRouteMapMarkers(updatedPlaces);
       _fetchRouteForMode(_selectedTransportMode, currentDay);
     }
+
+    await _saveTripData();
+    TripUpdateService().notifyTripChanged();
+
+    if (!mounted) return;
 
     ScaffoldMessenger.of(context).showSnackBar(
       SnackBar(
@@ -976,6 +1062,94 @@ class _RoutesScreenState extends State<RoutesScreen>
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
       ),
     );
+  }
+
+  /// Günlük plan gün indeksi (1-tabanlı) → itinerary ile aynı sentetik hafta günü.
+  static const List<String> _kWeekdayKeys = [
+    'monday',
+    'tuesday',
+    'wednesday',
+    'thursday',
+    'friday',
+    'saturday',
+    'sunday',
+  ];
+
+  String _weekdayKeyForTripDay(int tripDay) {
+    final idx = (tripDay - 1) % _kWeekdayKeys.length;
+    return _kWeekdayKeys[idx];
+  }
+
+  /// Sentetik gün kapalı / parse yok: haftanın güvenli kesişimi ([getTypicalHours]) veya ilk açık gün.
+  /// Böylece örn. Pazartesi kapalı müzeler rota günü "monday" eşlenince 22:25'e kaymaz.
+  ({int openMin, int closeMin})? _resolveOpenCloseWindow(Highlight place, String dayKey) {
+    if (place.openHours == null || place.openHours!.isEmpty) return null;
+
+    final raw = place.openHours![dayKey] ??
+        place.openHours!['everyday'] ??
+        place.openHours!['daily'];
+    if (raw != null) {
+      final h = raw.toLowerCase().trim();
+      if (h != 'closed' && h != 'kapalı' && h != 'kapali') {
+        final o = place.getOpeningMinutes(dayKey);
+        final c = place.getClosingMinutes(dayKey);
+        if (o >= 0 && c > o) return (openMin: o, closeMin: c);
+      }
+    }
+
+    final typical = place.getTypicalHours();
+    if (typical != null && typical.closeMinutes > typical.openMinutes) {
+      return (openMin: typical.openMinutes, closeMin: typical.closeMinutes);
+    }
+
+    for (final d in _kWeekdayKeys) {
+      final o = place.getOpeningMinutes(d);
+      final c = place.getClosingMinutes(d);
+      if (o >= 0 && c > o) return (openMin: o, closeMin: c);
+    }
+    return null;
+  }
+
+  /// Ziyaret başlangıcını açılış/kapanışa ve önceki durağın getirdiği en erken zamana göre ayarlar.
+  /// openHours yoksa veya güvenli pencere çıkmıyorsa önerilen saat korunur.
+  (DateTime, int) _clampVisitStartToOpenHours({
+    required Highlight place,
+    required DateTime proposed,
+    required DateTime earliestAllowed,
+    required String dayKey,
+    required int visitDurationMin,
+  }) {
+    var t = proposed.isBefore(earliestAllowed) ? earliestAllowed : proposed;
+    var dur = visitDurationMin.clamp(20, 240);
+
+    final window = _resolveOpenCloseWindow(place, dayKey);
+    if (window == null) {
+      return (t, dur);
+    }
+
+    final openMin = window.openMin;
+    final closeMin = window.closeMin;
+
+    if (closeMin <= openMin) {
+      return (t, dur);
+    }
+
+    int cur = t.hour * 60 + t.minute;
+    final earliestMin = earliestAllowed.hour * 60 + earliestAllowed.minute;
+    if (cur < earliestMin) cur = earliestMin;
+
+    if (cur < openMin) cur = openMin;
+    if (cur < earliestMin) cur = earliestMin;
+
+    if (cur + dur > closeMin) {
+      cur = (closeMin - dur).clamp(openMin, closeMin);
+      if (cur < earliestMin) cur = earliestMin;
+      if (cur + dur > closeMin) {
+        dur = (closeMin - cur).clamp(20, dur);
+      }
+    }
+
+    return (DateTime(2024, 1, 1, cur ~/ 60, cur % 60), dur);
   }
 
   Duration _getEstimatedDuration(Highlight h, int totalPlaces) {
@@ -1004,6 +1178,7 @@ class _RoutesScreenState extends State<RoutesScreen>
     if (places.isEmpty) return [];
 
     final List<String> schedule = [];
+    final dayKey = _weekdayKeyForTripDay(dayIndex);
 
     // Dinamik başlangıç saati: Her gün farklı
     final random = math.Random(dayIndex * 42);
@@ -1035,36 +1210,54 @@ class _RoutesScreenState extends State<RoutesScreen>
       final place = places[i];
       final group = _getCategoryGroup(place);
 
-      // 🔥 V4.5: AKŞAM ÇIPALAMA (Evening Anchoring)
-      if ((group == "FOOD" || group == "SOCIAL") && i >= places.length - 2 && currentTime.hour < 18) {
-         int targetHour = 18;
-         int targetMin = 30 + (i * 15);
-         if (targetMin >= 60) { targetHour++; targetMin -= 60; }
-         currentTime = DateTime(2024, 1, 1, targetHour, targetMin);
+      final physEarliest = currentTime;
+
+      // Akşam çapası yalnızca sondan bir önceki durak için. Son durağı da aynı
+      // (18:30 + i*15) formülüne çekmek önceki ziyaret bitişini yok sayıyordu;
+      // iki bar arka arkaya 30–40 dk gibi saatlere sıkışıyordu.
+      if ((group == "FOOD" || group == "SOCIAL") &&
+          places.length >= 2 &&
+          i == places.length - 2 &&
+          currentTime.hour < 18) {
+        currentTime = DateTime(2024, 1, 1, 18, 30);
+      }
+
+      if (currentTime.isBefore(physEarliest)) {
+        currentTime = physEarliest;
       }
 
       // Gece yarısı ve açılış saati kontrolü
-      if (currentTime.hour < 7) currentTime = DateTime(2024, 1, 1, 21, 0); 
-      
-      if (!place.isOpenAt(currentTime.hour, currentTime.minute)) {
-        final typicalHours = place.getTypicalHours();
-        if (typicalHours != null) {
-          final openHour = typicalHours.openMinutes ~/ 60;
-          final openMin = typicalHours.openMinutes % 60;
-          if (openHour > currentTime.hour || (openHour == currentTime.hour && openMin > currentTime.minute)) {
-            currentTime = DateTime(2024, 1, 1, openHour, openMin);
-          }
+      if (currentTime.hour < 7) currentTime = DateTime(2024, 1, 1, 21, 0);
+      if (currentTime.isBefore(physEarliest)) {
+        currentTime = physEarliest;
+      }
+
+      int visitDurRaw = (_getEstimatedDuration(place, places.length).inMinutes * compressionFactor)
+          .round()
+          .clamp(30, 240);
+      if (i + 1 < places.length) {
+        final gNext = _getCategoryGroup(places[i + 1]);
+        if (group == "SOCIAL" && gNext == "SOCIAL") {
+          visitDurRaw = math.max(visitDurRaw, 95);
+        } else if (_isConsumptionGroup(group) && _isConsumptionGroup(gNext)) {
+          visitDurRaw = math.max(visitDurRaw, 75);
         }
       }
+      final clamped = _clampVisitStartToOpenHours(
+        place: place,
+        proposed: currentTime,
+        earliestAllowed: physEarliest,
+        dayKey: dayKey,
+        visitDurationMin: visitDurRaw,
+      );
+      currentTime = clamped.$1;
+      final durationMinutes = clamped.$2;
 
       final hour = currentTime.hour.toString().padLeft(2, '0');
       final minute = currentTime.minute.toString().padLeft(2, '0');
       schedule.add("$hour:$minute");
 
       if (i < places.length - 1) {
-        int durationMinutes = (_getEstimatedDuration(place, places.length).inMinutes * compressionFactor).round();
-        durationMinutes = durationMinutes.clamp(30, 240);
-
         int travelSeconds;
         if (i < legs.length) {
           travelSeconds = (legs[i]['duration_seconds'] as num?)?.toInt() ?? 600;
