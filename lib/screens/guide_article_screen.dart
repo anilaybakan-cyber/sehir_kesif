@@ -28,11 +28,39 @@ class GuideArticleScreen extends StatefulWidget {
 class _GuideArticleScreenState extends State<GuideArticleScreen> {
   String _content = "";
   bool _isLoading = true;
+  final Map<String, Highlight> _highlightMap = {};
 
   @override
   void initState() {
     super.initState();
     _loadContent();
+    _loadAllCityHighlights();
+  }
+
+  Future<void> _loadAllCityHighlights() async {
+    final allCities = CityDataLoader.supportedCities;
+    for (var cityId in allCities) {
+      try {
+        final cityModel = await CityDataLoader.loadCity(cityId);
+        for (var h in cityModel.highlights) {
+          _highlightMap[h.name.toLowerCase().trim()] = h;
+        }
+      } catch (_) {}
+    }
+    if (mounted) setState(() {});
+  }
+
+  Highlight? _findHighlight(String query) {
+    final cleanQuery = query.toLowerCase().trim();
+    if (_highlightMap.containsKey(cleanQuery)) {
+      return _highlightMap[cleanQuery];
+    }
+    for (var entry in _highlightMap.entries) {
+      if (entry.key.contains(cleanQuery) || cleanQuery.contains(entry.key)) {
+        return entry.value;
+      }
+    }
+    return null;
   }
 
   Future<void> _loadContent() async {
@@ -191,27 +219,44 @@ class _GuideArticleScreenState extends State<GuideArticleScreen> {
             child: Row(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                Text("• ", style: GoogleFonts.poppins(color: WanderlustColors.accent, fontSize: 14)),
-                Expanded(child: _buildRichText(line.substring(2), fontSize: 14)),
+                Container(
+                  margin: const EdgeInsets.only(top: 8, right: 10),
+                  width: 6,
+                  height: 6,
+                  decoration: const BoxDecoration(
+                    color: WanderlustColors.accent,
+                    shape: BoxShape.circle,
+                  ),
+                ),
+                Expanded(child: _buildRichText(line.substring(2).trim(), fontSize: 14)),
               ],
             ),
           ),
         );
       } else if (line.startsWith('1. ') || (line.length > 2 && line[1] == '.')) {
-         // Numbered List
+         // Numbered List -> ŞIK MOR NOKTAYA (POINT) DÖNÜŞTÜRÜLDÜ
          final dotIndex = line.indexOf('.');
-        widgets.add(
-          Padding(
-            padding: const EdgeInsets.only(bottom: 8.0, left: 8.0),
-            child: Row(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                 Text("${line.substring(0, dotIndex + 1)} ", style: GoogleFonts.poppins(color: WanderlustColors.accent, fontSize: 14, fontWeight: FontWeight.bold)),
-                Expanded(child: _buildRichText(line.substring(dotIndex + 1).trim(), fontSize: 14)),
-              ],
-            ),
-          ),
-        );
+         final content = line.substring(dotIndex + 1).trim();
+         widgets.add(
+           Padding(
+             padding: const EdgeInsets.only(bottom: 8.0, left: 8.0),
+             child: Row(
+               crossAxisAlignment: CrossAxisAlignment.start,
+               children: [
+                 Container(
+                   margin: const EdgeInsets.only(top: 8, right: 10),
+                   width: 6,
+                   height: 6,
+                   decoration: const BoxDecoration(
+                     color: WanderlustColors.accent,
+                     shape: BoxShape.circle,
+                   ),
+                 ),
+                 Expanded(child: _buildRichText(content, fontSize: 14)),
+               ],
+             ),
+           ),
+         );
       } else if (line.startsWith('> ')) {
         // Quote
         widgets.add(
@@ -351,31 +396,44 @@ class _GuideArticleScreenState extends State<GuideArticleScreen> {
         // Tıklanabilir link
         final displayName = match.group(1)!;
         final searchName = match.group(2)!;
+        final foundPlace = _findHighlight(searchName);
         
-        spans.add(WidgetSpan(
-          alignment: PlaceholderAlignment.baseline,
-          baseline: TextBaseline.alphabetic,
-          child: GestureDetector(
-            onTap: () => _navigateToPlace(searchName),
-            child: Container(
-              padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 2),
-              margin: const EdgeInsets.symmetric(horizontal: 2),
-              decoration: BoxDecoration(
-                color: WanderlustColors.accent.withOpacity(0.2),
-                borderRadius: BorderRadius.circular(6),
-                border: Border.all(color: WanderlustColors.accent.withOpacity(0.5)),
-              ),
-              child: Text(
-                displayName,
-                style: GoogleFonts.poppins(
-                  color: WanderlustColors.accent,
-                  fontSize: fontSize - 1,
-                  fontWeight: FontWeight.w600,
+        if (foundPlace != null) {
+          spans.add(WidgetSpan(
+            alignment: PlaceholderAlignment.baseline,
+            baseline: TextBaseline.alphabetic,
+            child: GestureDetector(
+              onTap: () => _navigateToPlace(foundPlace),
+              child: Container(
+                padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 2),
+                margin: const EdgeInsets.symmetric(horizontal: 2),
+                decoration: BoxDecoration(
+                  color: WanderlustColors.accent.withOpacity(0.2),
+                  borderRadius: BorderRadius.circular(6),
+                  border: Border.all(color: WanderlustColors.accent.withOpacity(0.5)),
+                ),
+                child: Text(
+                  displayName,
+                  style: GoogleFonts.poppins(
+                    color: WanderlustColors.accent,
+                    fontSize: fontSize - 1,
+                    fontWeight: FontWeight.w600,
+                  ),
                 ),
               ),
             ),
-          ),
-        ));
+          ));
+        } else {
+          // Mekan veritabanımızda YOK! Düz ve şık metin olarak ekle, asla tıklanabilir olmasın!
+          spans.add(TextSpan(
+            text: displayName,
+            style: GoogleFonts.poppins(
+              color: WanderlustColors.textWhite,
+              fontSize: fontSize,
+              fontWeight: FontWeight.w600,
+            ),
+          ));
+        }
 
         lastEnd = match.end;
       }
@@ -458,82 +516,16 @@ class _GuideArticleScreenState extends State<GuideArticleScreen> {
     return spans;
   }
 
-  /// Yer adına göre navigasyon yapar (Cross-city destekli)
-  void _navigateToPlace(String query) async {
+  /// Yer adına göre navigasyon yapar (Cross-city destekli ve sıfır gecikmeli)
+  void _navigateToPlace(Highlight foundPlace) async {
     try {
-      String? targetCity;
-      String searchPlace = query.trim();
-      final searchPlaceLower = searchPlace.toLowerCase();
-
-      final allCities = CityDataLoader.supportedCities;
-      List<String> citiesToSearch = [];
-      
-      // 1. Query içinde şehir adı var mı kontrol et
-      for (var cityId in allCities) {
-        if (searchPlaceLower.contains(cityId)) {
-          targetCity = cityId;
-          break;
-        }
-      }
-
-      if (targetCity != null) {
-        citiesToSearch = [targetCity];
-      } else {
-        // Default sıralama (popüler şehirler üstte olabilir veya olduğu gibi)
-        citiesToSearch = CityDataLoader.supportedCities;
-      }
-      
-      Highlight? foundPlace;
-
-      // PASS 1: EXACT MATCH
-      for (var cityId in citiesToSearch) {
-        final cityModel = await CityDataLoader.loadCity(cityId);
-        try {
-          foundPlace = cityModel.highlights.firstWhere(
-            (h) => h.name.toLowerCase().trim() == searchPlaceLower
-          );
-          if (foundPlace != null) break;
-        } catch (_) {}
-      }
-
-       // PASS 2: SMART PARTIAL MATCH
-      if (foundPlace == null) {
-        for (var cityId in citiesToSearch) {
-          final cityModel = await CityDataLoader.loadCity(cityId);
-          try {
-             foundPlace = cityModel.highlights.firstWhere((h) {
-                final hNameLower = h.name.toLowerCase().trim();
-                
-                // Durum A: Yer adı, aranan kelimeyi içeriyor (Örn: Place="Noma Restaurant", Query="Noma") -> KABUL
-                if (hNameLower.contains(searchPlaceLower)) return true;
-
-                // Durum B: Aranan kelime, yer adını içeriyor
-                if (searchPlaceLower.contains(hNameLower)) {
-                   final pattern = RegExp(r'(?:^|\s|[^a-z0-9])' + RegExp.escape(hNameLower) + r'(?:$|\s|[^a-z0-9])');
-                   return pattern.hasMatch(searchPlaceLower);
-                }
-
-                return false;
-             });
-             if (foundPlace != null) break;
-          } catch (_) {}
-        }
-      }
-
-      if (foundPlace != null && mounted) {
-        // Fotoğrafı prefetch et
-        ImagePrefetchService.prefetchSinglePhoto(context, foundPlace!.imageUrl, heroDecode: true);
+      if (mounted) {
+        // Fotoğraf inene kadar bekle (await)
+        await ImagePrefetchService.prefetchSinglePhoto(context, foundPlace.imageUrl, heroDecode: true);
+        if (!mounted) return;
         Navigator.push(
           context,
-          MaterialPageRoute(builder: (_) => DetailScreen(place: foundPlace!)),
-        );
-      } else {
-         ScaffoldMessenger.of(context).showSnackBar(
-          SnackBar(
-            content: Text(AppLocalizations.instance.isEnglish ? "Place not found: $query" : "Yer bulunamadı: $query"),
-            backgroundColor: WanderlustColors.bgCard,
-            behavior: SnackBarBehavior.floating,
-          ),
+          MaterialPageRoute(builder: (_) => DetailScreen(place: foundPlace)),
         );
       }
     } catch (e) {
