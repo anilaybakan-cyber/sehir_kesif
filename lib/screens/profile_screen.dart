@@ -10,6 +10,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'dart:convert';
 import 'dart:io';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:path_provider/path_provider.dart'; // Added
@@ -105,6 +106,7 @@ class _ProfileScreenState extends State<ProfileScreen>
   String _memberSince = "2024";
   int _completedRoutesCount = 0;
   List<CompletedRoute> _completedRoutes = [];
+  List<Map<String, dynamic>> _savedPlans = [];
   
   late TabController _tabController;
   final BadgeService _badgeService = BadgeService();
@@ -120,9 +122,9 @@ class _ProfileScreenState extends State<ProfileScreen>
   @override
   void initState() {
     super.initState();
-    final initialTab = widget.initialTabIndex.clamp(0, 2);
+    final initialTab = widget.initialTabIndex.clamp(0, 3);
     _tabController =
-        TabController(length: 3, vsync: this, initialIndex: initialTab);
+        TabController(length: 4, vsync: this, initialIndex: initialTab);
     _tabController.addListener(() {
       if (mounted) setState(() {});
     });
@@ -245,6 +247,8 @@ class _ProfileScreenState extends State<ProfileScreen>
       _currentCityName = selectedCity.capitalize();
     }
 
+
+    await _loadSavedPlans();
 
     if (!mounted) return;
     setState(() {});
@@ -399,6 +403,62 @@ class _ProfileScreenState extends State<ProfileScreen>
     debugPrint("📍 Toplam ziyaret highlights: ${_visitedHighlights.length}");
   }
 
+  /// Tüm desteklenen şehirlerde kaydedilmiş plan var mı kontrol et
+  Future<void> _loadSavedPlans() async {
+    final prefs = await SharedPreferences.getInstance();
+    final plans = <Map<String, dynamic>>[];
+
+    for (final cityId in CityDataLoader.supportedCities) {
+      final scheduleJson = prefs.getString("trip_schedule_$cityId");
+      if (scheduleJson == null || scheduleJson.isEmpty) continue;
+
+      try {
+        final schedule = jsonDecode(scheduleJson) as Map<String, dynamic>;
+        if (schedule.isEmpty) continue;
+
+        // Gün sayısını ve toplam mekan sayısını hesapla
+        int totalPlaces = 0;
+        int totalDays = 0;
+        for (final entry in schedule.entries) {
+          final dayPlaces = entry.value as List<dynamic>?
+              ?? [];
+          if (dayPlaces.isNotEmpty) {
+            totalDays++;
+            totalPlaces += dayPlaces.length;
+          }
+        }
+        if (totalPlaces == 0) continue;
+
+        final isAiPlan = prefs.getBool("is_ai_plan_$cityId") ?? false;
+
+        // Şehir ismini al
+        String cityName = cityId;
+        String? heroImage;
+        try {
+          final city = await CityDataLoader.loadCity(cityId);
+          final isEn = AppLocalizations.currentLanguage == AppLanguage.en;
+          cityName = (isEn ? city.cityEn : null) ?? city.city;
+          heroImage = city.heroImage;
+        } catch (_) {
+          cityName = cityId[0].toUpperCase() + cityId.substring(1);
+        }
+
+        plans.add({
+          'cityId': cityId,
+          'cityName': cityName,
+          'heroImage': heroImage,
+          'totalDays': totalDays,
+          'totalPlaces': totalPlaces,
+          'isAiPlan': isAiPlan,
+        });
+      } catch (e) {
+        debugPrint("📍 Plan parse hatası ($cityId): $e");
+      }
+    }
+
+    _savedPlans = plans;
+  }
+
   // ══════════════════════════════════════════════════════════════════════════
   // BUILD
   // ══════════════════════════════════════════════════════════════════════════
@@ -449,7 +509,9 @@ class _ProfileScreenState extends State<ProfileScreen>
                   ? _buildFavoritesContent() 
                   : _tabController.index == 1
                       ? _buildVisitedContent()
-                      : _buildHistoryContent(),
+                      : _tabController.index == 2
+                          ? _buildHistoryContent()
+                          : _buildPlansContent(),
             ),
           ),
 
@@ -1281,11 +1343,12 @@ class _ProfileScreenState extends State<ProfileScreen>
         dividerColor: Colors.transparent,
         labelColor: Colors.white,
         unselectedLabelColor: textGrey,
-        labelStyle: const TextStyle(fontWeight: FontWeight.w600, fontSize: 14),
+        labelStyle: const TextStyle(fontWeight: FontWeight.w600, fontSize: 12),
         tabs: [
           Tab(text: "${AppLocalizations.instance.favorites} (${_favoriteHighlights.length})"),
           Tab(text: "${AppLocalizations.instance.visited} (${_visitedPlaces.length})"),
           Tab(text: "${AppLocalizations.instance.isEnglish ? 'Routes' : 'Rotalar'} (${_completedRoutes.length})"),
+          Tab(text: "${AppLocalizations.instance.isEnglish ? 'Plans' : 'Planlar'} (${_savedPlans.length})"),
         ],
       ),
     );
@@ -1342,6 +1405,169 @@ class _ProfileScreenState extends State<ProfileScreen>
         key: const ValueKey('history'),
         children: _completedRoutes.map((route) => _buildHistoryCard(route)).toList(),
       ),
+    );
+  }
+
+  // ══════════════════════════════════════════════════════════════════════════
+  // PLANS TAB (Planlarım)
+  // ══════════════════════════════════════════════════════════════════════════
+
+  Widget _buildPlansContent() {
+    if (_savedPlans.isEmpty) {
+      return _buildEmptyTab(
+        icon: Icons.calendar_month_rounded,
+        title: AppLocalizations.instance.isEnglish
+            ? "No plans yet"
+            : "Henüz plan yok",
+        subtitle: AppLocalizations.instance.isEnglish
+            ? "Create a daily plan for any city"
+            : "Bir şehir için günlük plan oluştur",
+      );
+    }
+
+    return Padding(
+      padding: const EdgeInsets.fromLTRB(24, 16, 24, 0),
+      child: Column(
+        key: const ValueKey('plans'),
+        children: _savedPlans.map((plan) => _buildPlanCard(plan)).toList(),
+      ),
+    );
+  }
+
+  Widget _buildPlanCard(Map<String, dynamic> plan) {
+    final cityName = plan['cityName'] as String;
+    final cityId = plan['cityId'] as String;
+    final totalDays = plan['totalDays'] as int;
+    final totalPlaces = plan['totalPlaces'] as int;
+    final isAiPlan = plan['isAiPlan'] as bool;
+    final heroImage = plan['heroImage'] as String?;
+    final isEn = AppLocalizations.instance.isEnglish;
+
+    return GestureDetector(
+      onTap: () => _navigateToPlan(cityId),
+      child: Container(
+        margin: const EdgeInsets.only(bottom: 12),
+        decoration: BoxDecoration(
+          color: bgCard,
+          borderRadius: BorderRadius.circular(16),
+          border: Border.all(color: borderColor.withOpacity(0.5)),
+        ),
+        clipBehavior: Clip.hardEdge,
+        child: Row(
+          children: [
+            // Şehir fotoğrafı
+            SizedBox(
+              width: 90,
+              height: 90,
+              child: heroImage != null && heroImage.isNotEmpty
+                  ? ResilientNetworkImage(
+                      imageUrl: heroImage,
+                      width: 90,
+                      height: 90,
+                      fit: BoxFit.cover,
+                    )
+                  : Container(
+                      color: bgCardLight,
+                      child: const Icon(
+                        Icons.location_city_rounded,
+                        color: textGrey,
+                        size: 32,
+                      ),
+                    ),
+            ),
+            const SizedBox(width: 14),
+            // Bilgiler
+            Expanded(
+              child: Padding(
+                padding: const EdgeInsets.symmetric(vertical: 12),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Row(
+                      children: [
+                        Expanded(
+                          child: Text(
+                            cityName,
+                            style: const TextStyle(
+                              color: textWhite,
+                              fontSize: 16,
+                              fontWeight: FontWeight.w700,
+                            ),
+                            maxLines: 1,
+                            overflow: TextOverflow.ellipsis,
+                          ),
+                        ),
+                        if (isAiPlan)
+                          Container(
+                            margin: const EdgeInsets.only(left: 6),
+                            padding: const EdgeInsets.symmetric(
+                                horizontal: 6, vertical: 2),
+                            decoration: BoxDecoration(
+                              color: accent.withOpacity(0.2),
+                              borderRadius: BorderRadius.circular(6),
+                            ),
+                            child: Text(
+                              "AI",
+                              style: TextStyle(
+                                color: accent,
+                                fontSize: 10,
+                                fontWeight: FontWeight.w700,
+                              ),
+                            ),
+                          ),
+                      ],
+                    ),
+                    const SizedBox(height: 6),
+                    Text(
+                      isEn
+                          ? "$totalDays days • $totalPlaces places"
+                          : "$totalDays gün • $totalPlaces mekan",
+                      style: TextStyle(
+                        color: textGrey.withOpacity(0.8),
+                        fontSize: 13,
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+            ),
+            // Ok ikonu
+            Padding(
+              padding: const EdgeInsets.only(right: 14),
+              child: Icon(
+                Icons.chevron_right_rounded,
+                color: textGrey.withOpacity(0.5),
+                size: 22,
+              ),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+
+  Future<void> _navigateToPlan(String cityId) async {
+    HapticFeedback.mediumImpact();
+    final prefs = await SharedPreferences.getInstance();
+    final currentCity = prefs.getString("selectedCity")?.toLowerCase();
+
+    // Eğer farklı bir şehir ise, önce o şehre geçiş yap
+    if (currentCity != cityId) {
+      await prefs.setString("selectedCity", cityId);
+      TripUpdateService().notifyTripChanged();
+    }
+
+    if (!mounted) return;
+
+    // Ana sayfaya routes tab'ına (index 1) ve plan sekmesine (initialRoutesTabIndex: 1) yönlendir
+    Navigator.of(context).pushNamedAndRemoveUntil(
+      '/main',
+      (route) => false,
+      arguments: {
+        'checkPaywall': false,
+        'initialIndex': 1,
+        'initialRoutesTabIndex': 1,
+      },
     );
   }
 
