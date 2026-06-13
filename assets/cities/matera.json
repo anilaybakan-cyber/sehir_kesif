@@ -173,30 +173,6 @@
       "distanceFromCenter": 0.5
     },
     {
-      "name": "Aquatio Cave Luxury Hotel & SPA",
-      "name_en": "Aquatio Cave Hotel",
-      "area": "Sasso Caveoso",
-      "category": "Manzara",
-      "tags": [
-        "spa",
-        "havuz",
-        "tasarım"
-      ],
-      "lat": 40.664,
-      "lng": 16.612,
-      "price": "very_high",
-      "rating": 4.8,
-      "description": "Aquatio Cave Luxury Hotel, Matera'nın antik Sassi mağara konutlarının büyüleyici bir dönüşümüdür. UNESCO mirası bu otel, bin yıllık tarihi lüks bir spa deneyimiyle harmanlar.",
-      "description_en": "Aquatio Cave Luxury Hotel, Matera's ancient Sassi cave dwellings are masterfully transformed. This UNESCO site blends millennia-old history with modern luxury and a unique spa.",
-      "bestTime": "Gündüz",
-      "tips": "Sassi'yi şafakta keşfedin; büyülü ışık ve az kalabalıkla eşsizdir.",
-      "tips_en": "Explore the Sassi at dawn for magical light and fewer crowds.",
-      "id": "aquatio-cave-hotel",
-      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fmatera%2Faquatio-cave-hotel.jpg?alt=media",
-      "source": "firebase",
-      "distanceFromCenter": 0.5
-    },
-    {
       "name": "Area 8",
       "category": "Kafe",
       "tags": [
@@ -685,28 +661,6 @@
       "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fmatera%2Fcastelmezzano.jpg?alt=media",
       "source": "firebase",
       "distanceFromCenter": 0.5
-    },
-    {
-      "name": "Cave Hotel Stay",
-      "category": "Manzara",
-      "tags": [
-        "unique stay",
-        "sassi",
-        "romantic"
-      ],
-      "lat": 40.6635,
-      "lng": 16.6135,
-      "rating": 4.9,
-      "description": "Matera'nın Sassi bölgesinde, Paleolitik çağdan beri yaşamın sürdüğü, kayaya oyulmuş eşsiz konutları ve kiliseleriyle insanlık tarihine ışık tutan, UNESCO korumasındaki mimari bir şaheserdir.",
-      "description_en": "In Matera's Sassi district, a UNESCO-protected architectural masterpiece revealing human history with its unique rock-cut dwellings and churches, continuously inhabited since the Paleolithic era.",
-      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fmatera%2Fcave_hotel_stay.jpg?alt=media",
-      "price": "medium",
-      "distanceFromCenter": 1.0,
-      "bestTime": "09:00 - 18:00",
-      "bestTime_en": "09:00 - 18:00",
-      "tips": "Sassi'nin dar sokaklarında kaybolmak için rahat ayakkabılar giyin, yerel lezzetleri deneyimleyin.",
-      "tips_en": "Wear comfortable shoes to get lost in Sassi's narrow streets, experience local flavors.",
-      "name_en": "Cave Hotel Stay"
     },
     {
       "name": "Centro Storico Monopoli",

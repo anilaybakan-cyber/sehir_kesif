@@ -2686,30 +2686,6 @@
       "distanceFromCenter": 0.5
     },
     {
-      "name": "Klinci Village Resort",
-      "name_en": "Klinci Village Resort",
-      "area": "Lustica",
-      "category": "Deneyim",
-      "tags": [
-        "konaklama",
-        "havuz",
-        "manzara"
-      ],
-      "lat": 42.41,
-      "lng": 18.57,
-      "price": "high",
-      "rating": 4.8,
-      "description": "Lustica Yarımadası'nda restore edilmiş bu taş köy, otantik Karadağ deneyimi sunar. Yerel lezzetler, yemek atölyeleri ve Adriyatik manzarasıyla huzurlu bir kaçış.",
-      "description_en": "This restored stone village on Lustica Peninsula offers an authentic Montenegrin experience. A peaceful escape with local flavors, cooking workshops, and Adriatic views.",
-      "bestTime": "Gün batımı",
-      "tips": "Yerel mutfak atölyelerine katılın ve geleneksel Karadağ yemeklerini yapmayı öğrenin. Gün batımında manzaralı restoranda yer ayırtın.",
-      "tips_en": "Join local cooking workshops to learn traditional Montenegrin dishes. Reserve a table at the panoramic restaurant for sunset views.",
-      "id": "ChIJiy2EKtY6TBMRlQS2KWiTTIk",
-      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fkotor%2Fklinci-village-resort.jpg?alt=media",
-      "source": "firebase",
-      "distanceFromCenter": 0.5
-    },
-    {
       "name": "Kod Pera na Bukovicu",
       "area": "Njegusi",
       "category": "Yeme-İçme",
@@ -6139,37 +6115,6 @@
         "thursday": "00:00-23:59",
         "friday": "00:00-24:00",
         "saturday": "closed"
-      }
-    },
-    {
-      "name": "Waikiki Beach Resort",
-      "area": "Tivat",
-      "category": "Plaj",
-      "subcategory": "Beach Club",
-      "tags": [
-        "restaurant",
-        "beach",
-        "modern"
-      ],
-      "price": "medium",
-      "rating": 4.5,
-      "description": "Modern tesislerle tarihi Kotor'un birleştiği, huzurlu plajda okaliptüs gölgesinde dinlenmek için ideal nokta.",
-      "description_en": "An ideal spot to relax in the shade of eucalyptus trees on a tranquil beach that merges modern amenities with historic Kotor.",
-      "tips": "Güneşin batışını görmek için akşam saatlerinde gelin.",
-      "tips_en": "Visit in the evening to witness the breathtaking sunset.",
-      "id": "ChIJa6mB4gwxTBMRJfVpLyjUmsw",
-      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fkotor%2Fwaikiki-beach-resort.jpg?alt=media",
-      "source": "firebase",
-      "distanceFromCenter": 1.0,
-      "name_en": "Waikiki Beach Resort",
-      "openHours": {
-        "sunday": "00:00-01:00, 09:00-24:00",
-        "monday": "00:00-01:00, 09:00-24:00",
-        "tuesday": "00:00-01:00, 09:00-24:00",
-        "wednesday": "00:00-01:00, 09:00-24:00",
-        "thursday": "00:00-01:00, 09:00-23:59",
-        "friday": "00:00-01:00, 09:00-24:00",
-        "saturday": "00:00-01:00, 09:00-24:00"
       }
     },
     {

@@ -1845,33 +1845,6 @@
       "source": "google"
     },
     {
-      "name": "Hotel Europe",
-      "name_en": "Hotel Europe",
-      "area": "Merkez",
-      "category": "Tarihi",
-      "tags": [
-        "otel",
-        "lüks",
-        "tarihi",
-        "viyana kahvesi"
-      ],
-      "distanceFromCenter": 0.1,
-      "lat": 43.8585,
-      "lng": 18.4285,
-      "price": "high",
-      "rating": 4.5,
-      "description": "Saraybosna'nın 1882'den beri ayakta duran, Karl Paržik'in Osmanlı ve Avusturya-Macaristan mimarisini harmanlayan bu zarif eseri, şehrin dayanıklılığının ve zengin tarihinin canlı bir simgesidir.",
-      "description_en": "Standing since 1882 in Sarajevo, this elegant masterpiece by Karl Paržik, blending Ottoman and Austro-Hungarian architecture, is a vibrant symbol of the city's resilience and rich history.",
-      "bestTime": "Öğle",
-      "bestTime_en": "Lunch",
-      "tips": "Otelin tarihi kafesinde Boşnak kahvesi yudumlayın, çevredeki çarşıyı keşfedin.",
-      "tips_en": "Sip Bosnian coffee in the historic café, then explore the nearby bazaar.",
-      "id": "hotel-europe",
-      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fsaraybosna%2Fhotel_europe.jpg?alt=media",
-      "source": "google",
-      "area_en": "Center"
-    },
-    {
       "name": "Hrid",
       "name_en": "Hrid",
       "area": "Bistrik",
@@ -3026,32 +2999,6 @@
       "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fsaraybosna%2Fpink-houdini.jpg?alt=media",
       "source": "firebase",
       "area_en": "Center"
-    },
-    {
-      "name": "Pino Nature Hotel",
-      "name_en": "Pino Nature Hotel",
-      "area": "Trebević",
-      "category": "Yeme-İçme",
-      "tags": [
-        "otel",
-        "kahve",
-        "orman",
-        "modern"
-      ],
-      "distanceFromCenter": 4.0,
-      "lat": 43.84,
-      "lng": 18.45,
-      "price": "high",
-      "rating": 4.6,
-      "description": "Trebević'te, savaşta yıkılan Prvi Šumar'ın yerinde yükselen Pino Nature, modern mimarisiyle doğanın kalbinde eşsiz bir yeme-içme deneyimi sunar.",
-      "description_en": "Rising on Trebević, where the war-destroyed Prvi Šumar once stood, Pino Nature offers a unique dining experience in the heart of nature with its modern architecture.",
-      "bestTime": "Gündüz",
-      "bestTime_en": "Daytime",
-      "tips": "Şehrin gürültüsünden uzaklaşmak için ideal, yerel lezzetleri doğa manzarası eşliğinde deneyimleyin.",
-      "tips_en": "Ideal to escape city noise; experience local flavors accompanied by nature views.",
-      "id": "pino-nature-hotel",
-      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fsaraybosna%2Fpino_nature_hotel.jpg?alt=media",
-      "source": "google"
     },
     {
       "name": "Pionirska Dolina (Hayvanat Bahçesi)",

@@ -712,30 +712,6 @@
       "distanceFromCenter": 0.5
     },
     {
-      "name": "Dormio Resort Obertraun",
-      "name_en": "Dormio Resort",
-      "area": "Obertraun",
-      "category": "Deneyim",
-      "tags": [
-        "resort",
-        "lüks",
-        "aile"
-      ],
-      "lat": 47.56,
-      "lng": 13.68,
-      "price": "high",
-      "rating": 4.7,
-      "description": "Hallstatt, dünyanın en eski tuz madenine ev sahipliği yapan, 7000 yıllık zengin tarihiyle ve Alp mimarisinin eşsiz örnekleriyle süslenmiş, UNESCO listesindeki büyüleyici bir köydür.",
-      "description_en": "Hallstatt, a captivating UNESCO village, boasts the world's oldest salt mine with 7000 years of rich history, adorned with unique examples of stunning Alpine architecture.",
-      "bestTime": "Tüm yıl",
-      "tips": "Hallstatt Skywalk'tan Göl ve Dağ manzarasını deneyimlemeyi unutmayın.",
-      "tips_en": "Don't forget to experience the lake and mountain views from Hallstatt Skywalk.",
-      "id": "dormio-resort",
-      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fhallstatt%2Fdormio-resort.jpg?alt=media",
-      "source": "firebase",
-      "distanceFromCenter": 0.5
-    },
-    {
       "name": "Dr.-Friedrich-Morton-Weg",
       "name_en": "Morton Path",
       "area": "Merkez",
@@ -877,30 +853,6 @@
       "tips_en": "Visit the chapel to experience the monastery's peaceful atmosphere or sample its local products.",
       "id": "gut-aich-monastery",
       "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fhallstatt%2Fgut-aich-monastery.jpg?alt=media",
-      "source": "firebase",
-      "distanceFromCenter": 0.5
-    },
-    {
-      "name": "EurothermenResort Bad Ischl",
-      "name_en": "Bad Ischl Thermal Spa",
-      "area": "Bad Ischl",
-      "category": "Deneyim",
-      "tags": [
-        "termal",
-        "spa",
-        "havuz"
-      ],
-      "lat": 47.713,
-      "lng": 13.625,
-      "price": "high",
-      "rating": 4.5,
-      "description": "Kaiserstadt Bad Ischl'in kalbinde, imparatorluk mirasını modern mimariyle harmanlayan EurothermenResort, şifalı termal sularıyla benzersiz bir deneyim sunar.",
-      "description_en": "Nestled in the heart of Kaiserstadt Bad Ischl, EurothermenResort blends imperial heritage with modern architecture, offering a unique experience through its healing thermal waters.",
-      "bestTime": "Akşam",
-      "tips": "Kaiservilla ziyaretinizle birleştirerek imparatorluk deneyiminizi tamamlayın.",
-      "tips_en": "Combine with your Kaiservilla visit to complete your imperial experience.",
-      "id": "bad-ischl-thermal-spa",
-      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fhallstatt%2Fbad-ischl-thermal-spa.jpg?alt=media",
       "source": "firebase",
       "distanceFromCenter": 0.5
     },
@@ -1609,30 +1561,6 @@
       "distanceFromCenter": 0.5
     },
     {
-      "name": "Haus Hepi",
-      "name_en": "Haus Hepi B&B",
-      "area": "Obertraun",
-      "category": "Deneyim",
-      "tags": [
-        "butik",
-        "manzara",
-        "ingiliz"
-      ],
-      "lat": 47.555,
-      "lng": 13.685,
-      "price": "medium",
-      "rating": 4.9,
-      "description": "16. yüzyıldan kalma bu geleneksel Hallstatt evi, Prehistorik döneme ait tuz madenciliği eserleri sergiler. Alp mimarisinin şaheseri olarak, bölgenin zengin tarihini gözler önüne serer.",
-      "description_en": "This traditional 16th-century Hallstatt house showcases prehistoric salt mining artifacts. A masterpiece of Alpine architecture, it beautifully unveils the region's rich history and cultural heritage.",
-      "bestTime": "Tüm yıl",
-      "tips": "Giriş biletinizi önceden çevrimiçi alın, kalabalıktan kaçının.",
-      "tips_en": "Buy your entry ticket online in advance to avoid the crowds.",
-      "id": "haus-hepi-b&b",
-      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fhallstatt%2Fhaus-hepi-b&b.jpg?alt=media",
-      "source": "firebase",
-      "distanceFromCenter": 0.5
-    },
-    {
       "name": "Heilbronner Kapelle",
       "name_en": "Heilbronner Chapel",
       "area": "Dachstein",
@@ -1824,30 +1752,6 @@
       "tips_en": "Choose comfortable walking shoes for the ascent to the chapel.",
       "id": "johannesberg-chapel",
       "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fhallstatt%2Fjohannesberg-chapel.jpg?alt=media",
-      "source": "firebase",
-      "distanceFromCenter": 0.5
-    },
-    {
-      "name": "Jutel Obertraun",
-      "name_en": "Jutel Youth Hostel",
-      "area": "Obertraun",
-      "category": "Deneyim",
-      "tags": [
-        "hostel",
-        "ekonomik",
-        "genç"
-      ],
-      "lat": 47.558,
-      "lng": 13.675,
-      "price": "low",
-      "rating": 4.2,
-      "description": "Jutel Obertraun, UNESCO mirasındaki Hallstatt'ın binlerce yıllık tuz madenciliği tarihini ve eşsiz alp mimarisini deneyimlemek için kusursuz bir başlangıç noktası sunar.",
-      "description_en": "Jutel Obertraun offers a perfect starting point to experience Hallstatt's millennia-old salt mining history and unique Alpine architecture, a designated UNESCO World Heritage site.",
-      "bestTime": "Tüm yıl",
-      "tips": "Sabah erken veya akşam geç saatlerde Hallstatt'ı ziyaret ederek kalabalıktan kaçının.",
-      "tips_en": "Visit Hallstatt early morning or late evening to avoid crowds.",
-      "id": "jutel-youth-hostel",
-      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fhallstatt%2Fjutel-youth-hostel.jpg?alt=media",
       "source": "firebase",
       "distanceFromCenter": 0.5
     },
@@ -2282,30 +2186,6 @@
       "tips_en": "Watch the sunset from the stone bench by the shore.",
       "id": "lambacher-hut",
       "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fhallstatt%2Flambacher-hut.jpg?alt=media",
-      "source": "firebase",
-      "distanceFromCenter": 0.5
-    },
-    {
-      "name": "Landbettler",
-      "name_en": "Landbettler Hostel",
-      "area": "Obertraun",
-      "category": "Deneyim",
-      "tags": [
-        "hostel",
-        "genç",
-        "sosyal"
-      ],
-      "lat": 47.555,
-      "lng": 13.675,
-      "price": "low",
-      "rating": 4.2,
-      "description": "Hallstatt'ın özgün Alp mimarisini yansıtan, 16. yüzyıldan kalma bu tarihi yapı, tuz madencilerinin zorlu yaşamını somutlaştıran, geleneksel el sanatlarını barındıran büyüleyici bir kültürel deneyim sunuyor.",
-      "description_en": "Reflecting Hallstatt's unique Alpine architecture, this 16th-century historic structure embodies the challenging lives of salt miners, offering a fascinating cultural experience housing traditional crafts.",
-      "bestTime": "Akşam",
-      "tips": "Gerçek Hallstatt ruhunu hissetmek için erken saatlerde ziyaret edin.",
-      "tips_en": "Visit early to truly experience the authentic spirit of Hallstatt.",
-      "id": "landbettler-hostel",
-      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fhallstatt%2Flandbettler-hostel.jpg?alt=media",
       "source": "firebase",
       "distanceFromCenter": 0.5
     },
@@ -4046,30 +3926,6 @@
       "tips_en": "Known for its proximity to Kaiservilla, take a peaceful stroll in the gardens of this elegant villa.",
       "id": "villa-seilern",
       "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fhallstatt%2Fvilla-seilern.jpg?alt=media",
-      "source": "firebase",
-      "distanceFromCenter": 0.5
-    },
-    {
-      "name": "Vitalhotel Wasnerin",
-      "name_en": "Hotel Wasnerin",
-      "area": "Bad Aussee",
-      "category": "Deneyim",
-      "tags": [
-        "otel",
-        "yoga",
-        "wellness"
-      ],
-      "lat": 47.6,
-      "lng": 13.77,
-      "price": "high",
-      "rating": 4.8,
-      "description": "Hallstatt'ın tarih öncesi tuz madenleri ve pitoresk Alp mimarisiyle çevrili Vitalhotel Wasnerin, antik mirasın ve geleneksel köy yaşamının deneyimlendiği eşsiz bir kaçıştır.",
-      "description_en": "Surrounded by Hallstatt's prehistoric salt mines and picturesque Alpine architecture, Vitalhotel Wasnerin offers a unique escape to experience ancient heritage and traditional village life.",
-      "bestTime": "Tüm yıl",
-      "tips": "Tuz madenlerini ve büyüleyici 'Kemik Ev'i ziyaret etmeyi unutmayın.",
-      "tips_en": "Don't forget to visit the salt mines and the fascinating 'Bone House'.",
-      "id": "hotel-wasnerin",
-      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fhallstatt%2Fhotel-wasnerin.jpg?alt=media",
       "source": "firebase",
       "distanceFromCenter": 0.5
     },

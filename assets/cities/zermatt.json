@@ -7,55 +7,6 @@
   },
   "highlights": [
     {
-      "name": "3100 Kulmhotel Gornergrat",
-      "name_en": "Kulmhotel Gornergrat",
-      "area": "Gornergrat",
-      "category": "Deneyim",
-      "tags": [
-        "otel",
-        "gözlem",
-        "yüksek",
-        "zirve",
-        "yıldızlar",
-        "tarihi"
-      ],
-      "lat": 45.984,
-      "lng": 7.785,
-      "price": "high",
-      "rating": 4.8,
-      "description": "1896'da inşa edilen, Avrupa'nın en yüksek tarihi oteli. Matterhorn manzaralı, geleneksel Alp mimarisiyle zirvedeki bu yapı, bir gözlemeviyle eşsiz bir dağ deneyimi sunar.",
-      "description_en": "Built in 1896, Europe's highest historic hotel. With Matterhorn views, this traditional Alpine architectural summit structure offers a unique mountain experience, housing an observatory.",
-      "bestTime": "Gece",
-      "tips": "Gün batımını izlemek ve yıldızları seyretmek için mutlaka rezervasyon yaptırın.",
-      "tips_en": "Definitely make a reservation to watch the sunset and stargaze.",
-      "id": "kulmhotel-gornergrat",
-      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fzermatt%2Fkulmhotel-gornergrat.jpg?alt=media",
-      "source": "firebase",
-      "distanceFromCenter": 1.0
-    },
-    {
-      "name": "3100 Kulmhotel",
-      "name_en": "3100 Kulmhotel",
-      "area": "Gornergrat",
-      "category": "Deneyim",
-      "tags": [
-        "otel",
-        "gözlem",
-        "yüksek",
-        "zirve",
-        "yıldızlar"
-      ],
-      "lat": 45.9833,
-      "lng": 7.7836,
-      "price": "high",
-      "rating": 4.8,
-      "description": "1907'den beri Gornergrat'ta Alp Dağları'nın en yüksek oteli olan bu ikonik yapı, panoramik manzaralar sunan tarihi ve mimari bir başyapıttır.",
-      "description_en": "Since 1907 on Gornergrat, this iconic structure, the Alps' highest hotel, is a historic and architectural masterpiece offering panoramic views.",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/3100_Kulmhotel_Gornergrat_winter.jpg/1280px-3100_Kulmhotel_Gornergrat_winter.jpg",
-      "tips": "Güneşin doğuşunu ve batışını kaçırmayın, büyüleyici manzaralar sunar.",
-      "tips_en": "Don't miss the sunrise and sunset, they offer captivating views."
-    },
-    {
       "name": "Matterhorn Viewpoint",
       "name_en": "Matterhorn Viewpoint",
       "area": "Zermatt",
@@ -244,30 +195,6 @@
       "source": "firebase"
     },
     {
-      "name": "Backstage Hotel Vernissage",
-      "name_en": "Backstage Hotel",
-      "area": "Zermatt",
-      "category": "Deneyim",
-      "tags": [
-        "tasarım",
-        "sanat",
-        "modern"
-      ],
-      "lat": 46.02,
-      "lng": 7.749,
-      "price": "high",
-      "rating": 4.7,
-      "description": "Zermatt'ın simge mimarı Heinz Julen tarafından tasarlanan Backstage Hotel Vernissage, Art-Deco sineması, galerisi ve eşsiz küp spasını barındıran, büyüleyici bir kültür ve konaklama merkezidir.",
-      "description_en": "Zermatt's iconic architect Heinz Julen designed Backstage Hotel Vernissage, a captivating cultural hub with an Art-Deco cinema, gallery, and unique cube spa.",
-      "bestTime": "Tüm gün",
-      "tips": "Otel galerisindeki Heinz Julen eserlerini ve sinema programını inceleyin.",
-      "tips_en": "Explore Heinz Julen's art in the hotel gallery and check the cinema program.",
-      "id": "backstage-hotel",
-      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fzermatt%2Fbackstage-hotel.jpg?alt=media",
-      "source": "firebase",
-      "distanceFromCenter": 1.0
-    },
-    {
       "name": "Bahnhofstrasse",
       "category": "Alışveriş",
       "tags": [
@@ -311,30 +238,6 @@
       "tips_en": "Don’t miss trying local wines paired with fondue in winter.",
       "id": "bar-55",
       "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fzermatt%2Fbar-55.jpg?alt=media",
-      "source": "firebase",
-      "distanceFromCenter": 1.0
-    },
-    {
-      "name": "BaseCamp Hotel",
-      "name_en": "BaseCamp Hotel",
-      "area": "Zermatt",
-      "category": "Deneyim",
-      "tags": [
-        "dağcı",
-        "modern",
-        "konsept"
-      ],
-      "lat": 46.022,
-      "lng": 7.7485,
-      "price": "medium",
-      "rating": 4.6,
-      "description": "Şehir'in kalbinde, modern gezginler için tasarlanmış BaseCamp Hotel, şehrin enerjisini doğa tutkusuyla birleştiriyor. Keşfe hazır olun!",
-      "description_en": "In the heart of Şehir, BaseCamp Hotel, designed for modern travelers, blends the city's energy with a passion for nature. Get ready to explore!",
-      "bestTime": "Tüm gün",
-      "tips": "Oteldeki ortak alanlar, diğer gezginlerle tanışmak ve Şehir'in gizli rotalarını keşfetmek için idealdir.",
-      "tips_en": "The hotel's common areas are ideal for meeting other travelers and discovering Şehir's hidden routes.",
-      "id": "basecamp-hotel",
-      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fzermatt%2Fbasecamp-hotel.jpg?alt=media",
       "source": "firebase",
       "distanceFromCenter": 1.0
     },
@@ -647,30 +550,6 @@
       "tips_en": "Sip your hot chocolate by the window, watching Matterhorn's silent majesty.",
       "id": "casa-mia",
       "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fzermatt%2Fcasa-mia.jpg?alt=media",
-      "source": "firebase",
-      "distanceFromCenter": 1.0
-    },
-    {
-      "name": "Cervo Mountain Resort",
-      "name_en": "Cervo",
-      "area": "Zermatt",
-      "category": "Deneyim",
-      "tags": [
-        "lüks",
-        "apres-ski",
-        "teras"
-      ],
-      "lat": 46.022,
-      "lng": 7.752,
-      "price": "high",
-      "rating": 4.7,
-      "description": "Zermatt'taki Cervo Mountain Resort, çağdaş lüksü geleneksel Alp mimarisiyle harmanlar. Matterhorn manzaralı terasları, sürdürülebilir tasarımı ve enfes mutfağıyla eşsiz bir dağ deneyimi sunar.",
-      "description_en": "Cervo Mountain Resort in Zermatt blends contemporary luxury with traditional Alpine architecture. Its Matterhorn-view terraces, sustainable design, and exquisite cuisine offer unparalleled mountain experience.",
-      "bestTime": "Akşamüzeri",
-      "tips": "Güneş batımını Matterhorn manzaralı terasta bir kokteylle izleyin.",
-      "tips_en": "Watch the sunset with a cocktail on the Matterhorn-view terrace.",
-      "id": "cervo",
-      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fzermatt%2Fcervo.jpg?alt=media",
       "source": "firebase",
       "distanceFromCenter": 1.0
     },
@@ -1452,30 +1331,6 @@
       "name_en": "Grampi's Pub"
     },
     {
-      "name": "Grand Hotel Zermatterhof",
-      "name_en": "Zermatterhof",
-      "area": "Zermatt",
-      "category": "Deneyim",
-      "tags": [
-        "lüks",
-        "tarihi",
-        "spa"
-      ],
-      "lat": 46.0205,
-      "lng": 7.7485,
-      "price": "high",
-      "rating": 4.9,
-      "description": "1879'da inşa edilen bu Belle Époque mimarisi şaheseri, Zermatt'ın efsanevi bir simgesidir. Tarihi zarafeti, Matterhorn manzarasıyla nesillerdir seçkin misafirleri ağırlamıştır.",
-      "description_en": "This 1879 Belle Époque masterpiece, a legendary Zermatt symbol, offers historic elegance. Its stunning Matterhorn views have welcomed distinguished guests for generations.",
-      "bestTime": "Tüm gün",
-      "tips": "Matterhorn manzaralı odalardan birini ayırtarak deneyiminizi zirveye taşıyın.",
-      "tips_en": "Elevate your experience by booking a room with Matterhorn views.",
-      "id": "zermatterhof",
-      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fzermatt%2Fzermatterhof.jpg?alt=media",
-      "source": "firebase",
-      "distanceFromCenter": 1.0
-    },
-    {
       "name": "Grill le Cervin",
       "name_en": "Grill le Cervin",
       "area": "Mont Cervin Palace",
@@ -1833,30 +1688,6 @@
       "distanceFromCenter": 1.0,
       "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fzermatt%2Fhoru_trophy_curling.jpg?alt=media",
       "source": "firebase"
-    },
-    {
-      "name": "Hotel Bahnhof",
-      "name_en": "Hotel Bahnhof",
-      "area": "Zermatt",
-      "category": "Deneyim",
-      "tags": [
-        "ekonomik",
-        "tarihi",
-        "dağcı"
-      ],
-      "lat": 46.023,
-      "lng": 7.7485,
-      "price": "low",
-      "rating": 4.4,
-      "description": "Hotel Bahnhof, şehrin tarihi tren garının yanı başında, 19. yüzyıl sonlarından beri yolcuları ağırlayan köklü bir durak. Merkezi konumuyla Şehir'i keşfe ideal.",
-      "description_en": "Hotel Bahnhof, a historic stop welcoming travelers since the late 19th century, stands right next to the city's main train station. Ideal for exploring Şehir with its central location.",
-      "bestTime": "Tüm gün",
-      "tips": "Trenle gelenler için ideal, erken rezervasyonla gar manzaralı odaları yakalayın.",
-      "tips_en": "Ideal for train travelers; secure station-view rooms by booking early.",
-      "id": "hotel-bahnhof",
-      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fzermatt%2Fhotel-bahnhof.jpg?alt=media",
-      "source": "firebase",
-      "distanceFromCenter": 1.0
     },
     {
       "name": "Hängebrücke Furi",
@@ -3110,30 +2941,6 @@
       "distanceFromCenter": 1.0
     },
     {
-      "name": "Riffelalp Resort 2222m",
-      "name_en": "Riffelalp Resort",
-      "area": "Riffelalp",
-      "category": "Deneyim",
-      "tags": [
-        "dağ",
-        "spa",
-        "kayak"
-      ],
-      "lat": 46.002,
-      "lng": 7.758,
-      "price": "high",
-      "rating": 4.9,
-      "description": "1884'te görkemli bir grand otel olarak açılan Riffelalp, Avrupa'nın en yüksek tramvayına ev sahipliği yapar. Alp Belle Époque mimarisiyle, Matterhorn'a nazır, İsviçre lüksünün öncü zirvesidir.",
-      "description_en": "Opened spectacularly in 1884 as a grand hotel, Riffelalp hosts Europe's highest tramway. With Alpine Belle Époque architecture overlooking the Matterhorn, it's Switzerland's pioneering peak of luxury.",
-      "bestTime": "Tüm gün",
-      "tips": "Riffelalp tramvayıyla otele varış, Matterhorn manzaralı unutulmaz bir deneyimdir.",
-      "tips_en": "Arriving by Riffelalp tram offers an unforgettable experience with Matterhorn views.",
-      "id": "riffelalp-resort",
-      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fzermatt%2Friffelalp-resort.jpg?alt=media",
-      "source": "firebase",
-      "distanceFromCenter": 1.0
-    },
-    {
       "name": "Riffelberg",
       "name_en": "Riffelberg",
       "area": "Gornergrat",
@@ -3875,30 +3682,6 @@
       "distanceFromCenter": 1.0
     },
     {
-      "name": "Unique Hotel Post",
-      "name_en": "Hotel Post",
-      "area": "Zermatt",
-      "category": "Deneyim",
-      "tags": [
-        "gece hayatı",
-        "merkezi",
-        "parti"
-      ],
-      "lat": 46.019,
-      "lng": 7.748,
-      "price": "medium",
-      "rating": 4.5,
-      "description": "Zermatt'ın 19. yüzyıl Alp mimarisinin ahşap ve taş işçiliğini sergileyen bu ikonik yapı, geleneksel zarafetle modern konforu harmanlar; bölgenin misafirperverlik mirasından ilham alır.",
-      "description_en": "Showcasing 19th-century Zermatt alpine architecture's wood and stone, this iconic structure blends traditional elegance with modern comfort, inspired by the region's hospitality heritage.",
-      "bestTime": "Tüm gün",
-      "tips": "Matterhorn manzaralı bir oda rezerve ederek deneyimi tamamlayın.",
-      "tips_en": "Complete the experience by booking a room with a Matterhorn view.",
-      "id": "hotel-post",
-      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fzermatt%2Fhotel-post.jpg?alt=media",
-      "source": "firebase",
-      "distanceFromCenter": 1.0
-    },
-    {
       "name": "Vernissage",
       "name_en": "Vernissage",
       "area": "Backstage Hotel",
@@ -3943,30 +3726,6 @@
       "tips_en": "At sunset, sit by the window to capture the Matterhorn's copper tones.",
       "id": "vis-a-vis",
       "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fzermatt%2Fvis-a-vis.jpg?alt=media",
-      "source": "firebase",
-      "distanceFromCenter": 1.0
-    },
-    {
-      "name": "Walliserhof Grand-Hotel & Spa",
-      "name_en": "Walliserhof",
-      "area": "Zermatt",
-      "category": "Deneyim",
-      "tags": [
-        "spa",
-        "lüks",
-        "merkezi"
-      ],
-      "lat": 46.021,
-      "lng": 7.7485,
-      "price": "high",
-      "rating": 4.7,
-      "description": "Zermatt'ın kalbinde yer alan, geleneksel Valais mimarisi ile Belle Époque zarafetini harmanlayan, yüzyılı aşkın mirasa sahip Walliserhof Grand-Hotel, lüks konaklama ve çağdaş spa deneyimini sunuyor.",
-      "description_en": "Nestled in Zermatt's heart, Walliserhof Grand-Hotel, with over a century of heritage, blends traditional Valais architecture with Belle Époque elegance, offering luxurious accommodation and a contemporary spa experience.",
-      "bestTime": "Tüm gün",
-      "tips": "Otelden Matterhorn manzaralı bir oda ayırtmayı unutmayın, büyüleyici.",
-      "tips_en": "Don't forget to book a room with Matterhorn views from the hotel; it's enchanting.",
-      "id": "walliserhof",
-      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fzermatt%2Fwalliserhof.jpg?alt=media",
       "source": "firebase",
       "distanceFromCenter": 1.0
     },
@@ -4283,30 +4042,6 @@
       "tips_en": "Book tickets early and follow the schedule to enjoy music on unique stages with Matterhorn views.",
       "id": "zermatt-unplugged",
       "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fzermatt%2Fzermatt-unplugged.jpg?alt=media",
-      "source": "firebase",
-      "distanceFromCenter": 1.0
-    },
-    {
-      "name": "Zermatt Youth Hostel",
-      "name_en": "Youth Hostel",
-      "area": "Zermatt",
-      "category": "Deneyim",
-      "tags": [
-        "ekonomik",
-        "hostel",
-        "genç"
-      ],
-      "lat": 46.018,
-      "lng": 7.748,
-      "price": "low",
-      "rating": 4.5,
-      "description": "1960'lardan beri Zermatt'a hizmet veren bu modern, yenilenmiş hostel, Matterhorn manzarasıyla büyüler. İşlevsel mimarisi, dağcılık ruhunu yaşatan gençlere eşsiz bir konaklama sunar.",
-      "description_en": "Serving Zermatt since the 1960s, this modern, renovated hostel captivates with Matterhorn views. Its functional architecture offers young mountaineering enthusiasts a unique stay.",
-      "bestTime": "Tüm gün",
-      "tips": "Önceden rezervasyon yapın ve kendi yemeğinizi hazırlayarak tasarruf edin.",
-      "tips_en": "Book in advance and save money by preparing your own food.",
-      "id": "youth-hostel",
-      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fzermatt%2Fyouth-hostel.jpg?alt=media",
       "source": "firebase",
       "distanceFromCenter": 1.0
     },

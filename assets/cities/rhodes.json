@@ -862,74 +862,6 @@
       }
     },
     {
-      "id": "ChIJC4CSvbZmlRQRQbBbcMUo83Y",
-      "name": "Elysium Resort & Spa | 5 star hotel in Rhodes",
-      "name_en": "Elysium Resort & Spa | 5 star hotel in Rhodes",
-      "category": "Yeme-İçme",
-      "tags": [
-        "rhodes",
-        "travel",
-        "explore"
-      ],
-      "lat": 36.372234,
-      "lng": 28.224903,
-      "rating": 4.7,
-      "reviewCount": 2172,
-      "price": "medium",
-      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Frhodes%2FChIJC4CSvbZmlRQRQbBbcMUo83Y.jpg?alt=media",
-      "description": "Elysium Resort & Spa, Rodos'un Kallithea sahilinde, Ege'nin büyüleyici manzarası eşliğinde gurme lezzetler sunar. Akdeniz mutfağının inceliklerini keşfedin.",
-      "description_en": "Elysium Resort & Spa offers gourmet delights on Rhodes' Kallithea coast, accompanied by captivating Aegean views. Discover Mediterranean cuisine.",
-      "source": "firebase",
-      "tips": "Mekan bünyesindeki 'Emerald Restaurant'ta gün batımı eşliğinde rezervasyon yaptırarak özel bir akşam yemeği deneyimi yaşayın.",
-      "tips_en": "Experience a special dinner by making a reservation at the 'Emerald Restaurant' within the resort, accompanied by the sunset.",
-      "bestTime": "Gün Boyu",
-      "duration": "1.5 - 2 Saat",
-      "bestTime_en": "All Day",
-      "openHours": {
-        "sunday": "closed",
-        "monday": "closed",
-        "tuesday": "closed",
-        "wednesday": "closed",
-        "thursday": "00:00-23:59",
-        "friday": "00:00-24:00",
-        "saturday": "closed"
-      }
-    },
-    {
-      "id": "ChIJOZjkO_BhlRQR7b0foJFS4vs",
-      "name": "Hotel Parthenon Rodos City",
-      "name_en": "Hotel Parthenon Rodos City",
-      "category": "Yeme-İçme",
-      "tags": [
-        "rhodes",
-        "travel",
-        "explore"
-      ],
-      "lat": 36.4490124,
-      "lng": 28.2166973,
-      "rating": 3.0,
-      "reviewCount": 1015,
-      "price": "medium",
-      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Frhodes%2FChIJOZjkO_BhlRQR7b0foJFS4vs.jpg?alt=media",
-      "description": "Rodos'un kalbinde yer alan Hotel Parthenon, güne zengin bir kahvaltı büfesiyle başlamak için ideal. Ege esintileriyle güne enerjik başlayın.",
-      "description_en": "Located in the heart of Rhodes, Hotel Parthenon is ideal for starting your day with a rich breakfast buffet. Begin your day energetically with Aegean breezes.",
-      "source": "firebase",
-      "tips": "Zengin kahvaltı büfesini kaçırmayın; yerel lezzetlerle güne zinde başlayın.",
-      "tips_en": "Don't miss the rich breakfast buffet; start your day fresh with local flavors.",
-      "bestTime": "Gün Boyu",
-      "duration": "1.5 - 2 Saat",
-      "bestTime_en": "All Day",
-      "openHours": {
-        "sunday": "closed",
-        "monday": "closed",
-        "tuesday": "closed",
-        "wednesday": "closed",
-        "thursday": "00:00-23:59",
-        "friday": "00:00-24:00",
-        "saturday": "closed"
-      }
-    },
-    {
       "id": "ChIJX-H0A8hjlRQRDAz4nJy2IQI",
       "name": "Villa Di Mare Restaurant",
       "name_en": "Villa Di Mare Restaurant",
@@ -961,40 +893,6 @@
         "thursday": "00:00-01:00, 09:00-23:59",
         "friday": "00:00-01:00, 09:00-24:00",
         "saturday": "00:00-01:00, 09:00-24:00"
-      }
-    },
-    {
-      "id": "ChIJ6bNCuSxklRQR1K7aQqKQ9FI",
-      "name": "Rhodian Rose Hotel",
-      "name_en": "Rhodian Rose Hotel",
-      "category": "Yeme-İçme",
-      "tags": [
-        "rhodes",
-        "travel",
-        "explore"
-      ],
-      "lat": 36.346234,
-      "lng": 28.1988062,
-      "rating": 4.0,
-      "reviewCount": 269,
-      "price": "medium",
-      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Frhodes%2FChIJ6bNCuSxklRQR1K7aQqKQ9FI.jpg?alt=media",
-      "description": "Rodos'un kalbinde, şövalye mirasıyla harmanlanmış Rhodian Rose Hotel, Ege'nin taze lezzetlerini sunar. Tarihi dokusuyla unutulmaz bir yemek deneyimi.",
-      "description_en": "In the heart of Rhodes, Rhodian Rose Hotel, blended with knightly heritage, offers fresh Aegean flavors. An unforgettable dining experience with its historical ambiance.",
-      "source": "firebase",
-      "tips": "Gün batımında terasında Ege Denizi manzarası eşliğinde yerel şarapları deneyin.",
-      "tips_en": "Try local wines on its terrace with Aegean Sea views during sunset.",
-      "bestTime": "Gün Boyu",
-      "duration": "1.5 - 2 Saat",
-      "bestTime_en": "All Day",
-      "openHours": {
-        "sunday": "00:00-00:00, 07:00-24:00",
-        "monday": "00:00-00:00, 07:00-24:00",
-        "tuesday": "00:00-00:00, 07:00-24:00",
-        "wednesday": "00:00-00:00, 07:00-24:00",
-        "thursday": "00:00-00:00, 07:00-23:59",
-        "friday": "07:00-24:00",
-        "saturday": "00:00-00:00, 07:00-24:00"
       }
     },
     {
@@ -1131,40 +1029,6 @@
         "thursday": "18:00-23:00",
         "friday": "12:00-20:00",
         "saturday": "18:00-23:00"
-      }
-    },
-    {
-      "id": "ChIJW3PxHQpjlRQRqw94PWwvrII",
-      "name": "Heleni Beach Hotel",
-      "name_en": "Heleni Beach Hotel",
-      "category": "Plaj",
-      "tags": [
-        "rhodes",
-        "travel",
-        "explore"
-      ],
-      "lat": 36.4217567,
-      "lng": 28.1583777,
-      "rating": 3.5,
-      "reviewCount": 145,
-      "price": "medium",
-      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Frhodes%2FChIJW3PxHQpjlRQRqw94PWwvrII.jpg?alt=media",
-      "description": "Deniz kıyısında şık bir konaklama ve neşeli akşamlar vaat eden Heleni, kentin kozmopolit ritmini ferah bir atmosferde sunuyor. Rodos'un modern enerjisini ve yerel estetiğini birleştiren yapısıyla kenti keşfedenlerin kentsel koşturmacadan uzaklaşıp nefes alabileceği kaliteli ve havadar bir sahil durağıdır.",
-      "description_en": "Promising a stylish stay and joyful evenings on the seaside, Heleni offers the city me's cosmopolitan rhythm in a fresh atmosphere. With its structure combining Rhodes' modern energy and local aesthetics, it is a high-quality and airy coastal stop where those exploring the city can move away from urban hustle and breathe.",
-      "source": "firebase",
-      "tips": "Akşam yemeği için mutlaka önceden rezervasyon yaptırmanızı öneririz.",
-      "tips_en": "We highly recommend making a reservation in advance for dinner.",
-      "bestTime": "Gün Boyu (Güneş ve deniz keyfi için)",
-      "duration": "1.5 - 2 Saat",
-      "bestTime_en": "All Day (Best for sun and sea)",
-      "openHours": {
-        "sunday": "closed",
-        "monday": "closed",
-        "tuesday": "closed",
-        "wednesday": "closed",
-        "thursday": "00:00-23:59",
-        "friday": "00:00-24:00",
-        "saturday": "closed"
       }
     },
     {
@@ -2278,31 +2142,6 @@
       "tips_en": "We highly recommend making a reservation in advance for dinner.",
       "bestTime": "Gün Boyu",
       "duration": "1.5 - 2 Saat",
-      "bestTime_en": "All Day"
-    },
-    {
-      "id": "ChIJqZX0wQ1jlRQRzpcvLzTTjj0",
-      "name": "Ialyssos Bay Hotel",
-      "name_en": "Ialyssos Bay Hotel",
-      "category": "Plaj",
-      "tags": [
-        "rhodes",
-        "travel",
-        "explore"
-      ],
-      "lat": 36.421573,
-      "lng": 28.1485502,
-      "rating": 4.2,
-      "reviewCount": 1179,
-      "price": "medium",
-      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Frhodes%2FChIJqZX0wQ1jlRQRzpcvLzTTjj0.jpg?alt=media",
-      "description": "Rhodes kentinde konforu yerel estetikle birleştiren Ialyssos Bay Hotel, kentin sosyal ve kültürel dünyasına yüksek kaliteli bir dokunuş katan en samimi ve rotalardan biridir.",
-      "description_en": "As a refined social and cultural point in Rhodes, Ialyssos Bay Hotel offers a high-quality experience that perfectly merges urban convenience with local aesthetic charm.",
-      "source": "firebase",
-      "tips": "Ialyssos Bay Hotel, Rodos'un kuzeyinde sahile yakın konumuyla aile dostu bir konaklama seçeneğidir; denize doğrudan erişim ve havuz kombinasyonu sunmaktadır.",
-      "tips_en": "Ialyssos Bay Hotel is a family-friendly accommodation option near the beach in northern Rhodes; it offers a combination of direct sea access and a pool.",
-      "bestTime": "Gün Boyu",
-      "duration": "1 Saat",
       "bestTime_en": "All Day"
     },
     {

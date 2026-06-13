@@ -1018,31 +1018,6 @@
       }
     },
     {
-      "id": "ChIJeectHM9ovhQR4xsyVITINuw",
-      "name": "Nikki Beach Resort & Spa Bodrum",
-      "name_en": "Nikki Beach Resort & Spa Bodrum",
-      "category": "Plaj",
-      "tags": [
-        "bodrum",
-        "tatil",
-        "türkiye"
-      ],
-      "lat": 37.087345,
-      "lng": 27.4763945,
-      "rating": 4.5,
-      "reviewCount": 597,
-      "price": "medium",
-      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fbodrum%2FChIJeectHM9ovhQR4xsyVITINuw.jpg?alt=media",
-      "description": "Bodrum'un en seçkin plaj kulüplerinden biri olan Nikki Beach, Maldivler'e özgü şezlong dizileri, sonsuzluk havuzu ve canlı DJ performanslarıyla lüks plaj deneyimini Ege'ye taşıyor. Papalardaki İtalyan usulü aperitifler ve özel kabin rezervasyonuyla güneş banyosunu şölenin merkezine dönüştürür.",
-      "description_en": "One of Bodrum's most exclusive beach clubs, Nikki Beach brings the luxury beach experience to the Aegean with its Maldives-style lounger rows, infinity pool, and live DJ performances. Italian-style aperitifs and private cabana reservations make sunbathing the center of a celebration.",
-      "source": "firebase",
-      "tips": "Önceden kabin ya da masa rezervasyonu yapmadan gelmek yaz zirvesinde neredeyse imkânsız; en az 2 hafta önceden ayırtın.",
-      "tips_en": "Coming without a cabana or table reservation in the summer peak is almost impossible; book at least 2 weeks in advance.",
-      "bestTime": "Gün Boyu (Güneş ve deniz keyfi için)",
-      "duration": "1 - 1.5 Saat",
-      "bestTime_en": "All Day (Best for sun and sea)"
-    },
-    {
       "id": "ChIJsc0ubABtvhQRyEfAZVpFoLA",
       "name": "Lucca beach",
       "name_en": "Lucca beach",
@@ -1100,31 +1075,6 @@
         "friday": "09:00-19:00",
         "saturday": "09:00-19:00"
       }
-    },
-    {
-      "id": "ChIJPwvM3GlxvhQRLEm2Q6AICZ8",
-      "name": "Highlight Hotel Yalıkavak",
-      "name_en": "Highlight Hotel Yalıkavak",
-      "category": "Restoran",
-      "tags": [
-        "bodrum",
-        "tatil",
-        "türkiye"
-      ],
-      "lat": 37.1174835,
-      "lng": 27.3088719,
-      "rating": 4.3,
-      "reviewCount": 370,
-      "price": "medium",
-      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fbodrum%2FChIJPwvM3GlxvhQRLEm2Q6AICZ8.jpg?alt=media",
-      "description": "Bodrum gastronomisinin en seçkin temsilcilerinden biri olan Highlight Hotel Yalıkavak, otantik lezzetleri modern bir sunumla birleştirerek misafirlerine unutulmaz bir lezzet kaçış rotası sunar. Şehrin yerel tatlarını en prestijli şekilde deneyimleyebileceğiniz bu adres, sosyal hayatın da kalbidir.",
-      "description_en": "A prestigious culinary destination in Bodrum known for its authentic flavors and vibrant social atmosphere, Highlight Hotel Yalıkavak is the perfect spot for experiencing high-end local gastronomy with a professional urban touch.",
-      "source": "firebase",
-      "tips": "Akşam yemeği için birkaç gün önceden yer ayırtın.",
-      "tips_en": "Book a table a few days in advance for dinner.",
-      "bestTime": "Gün Boyu",
-      "duration": "2 Saat",
-      "bestTime_en": "All Day"
     },
     {
       "id": "ChIJsWAj8kFsvhQRHj1S9yF8C6Q",
@@ -1800,40 +1750,6 @@
         "thursday": "00:00-01:30, 12:00-23:59",
         "friday": "00:00-01:30, 12:00-24:00",
         "saturday": "00:00-01:30, 12:00-24:00"
-      }
-    },
-    {
-      "id": "ChIJqVpIA2JtvhQRHEuqj5n7bz8",
-      "name": "METT Hotel & Beach Resort Bodrum",
-      "name_en": "METT Hotel & Beach Resort Bodrum",
-      "category": "Plaj",
-      "tags": [
-        "bodrum",
-        "tatil",
-        "türkiye"
-      ],
-      "lat": 37.02404870000001,
-      "lng": 27.4152559,
-      "rating": 4.8,
-      "reviewCount": 1408,
-      "price": "medium",
-      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fbodrum%2FChIJqVpIA2JtvhQRHEuqj5n7bz8.jpg?alt=media",
-      "description": "Bitez kıyısındaki METT Hotel & Beach Resort, günübirlikçilere de açık olan plaj kulübüyle Bodrum'un en tasarım odaklı sahil deneyimlerinden birini sunar. Şezlongların sıralandığı mermer döşemeli güverte, cam kenarlı havuz ve kabinlerdeki özel servis, Bodrum'un kuzey kıyısında lüks plaj tarifini yeniden yazıyor.",
-      "description_en": "METT Hotel & Beach Resort on Bitez's shore offers one of Bodrum's most design-focused beach experiences with its beach club also open to day visitors. The marble-decked area lined with sun loungers, glass-edged pool, and private cabin service are rewriting the luxury beach definition on Bodrum's northern coast.",
-      "source": "firebase",
-      "tips": "Günübirlik masa rezervasyonu için en az 3-5 gün önceden arayın; yaz zirvesinde boş yer bulmak oldukça zordur.",
-      "tips_en": "Call at least 3-5 days ahead for a day-use table reservation; finding a free spot in peak summer is quite difficult.",
-      "bestTime": "Gün Boyu (Güneş ve deniz keyfi için)",
-      "duration": "1 - 1.5 Saat",
-      "bestTime_en": "All Day (Best for sun and sea)",
-      "openHours": {
-        "sunday": "closed",
-        "monday": "closed",
-        "tuesday": "closed",
-        "wednesday": "closed",
-        "thursday": "00:00-23:59",
-        "friday": "00:00-24:00",
-        "saturday": "closed"
       }
     },
     {
@@ -2538,285 +2454,6 @@
       "bestTime_en": "All Day"
     },
     {
-      "id": "ChIJPYDl6ottvxQRgD048VEX-KY",
-      "name": "Atrium Hotel",
-      "name_en": "Atrium Hotel",
-      "category": "Restoran",
-      "tags": [
-        "bodrum",
-        "tatil",
-        "türkiye"
-      ],
-      "lat": 37.035863,
-      "lng": 27.435758,
-      "rating": 3.8,
-      "reviewCount": 733,
-      "price": "medium",
-      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fbodrum%2FChIJPYDl6ottvxQRgD048VEX-KY.jpg?alt=media",
-      "description": "Bodrum liman bölgesinde, atrium mimarisiyle tasarlanmış bu otel, merkezi avlusundaki portakal ağaçları ve serin köşeleriyle şehrin gürültüsünden kaçmak için zarif bir dinlenme noktası sunar. Havuzu ve kafe terası, günübirlik ziyaretçilere de keyifli bir mola imkânı tanır.",
-      "description_en": "In Bodrum's harbor district, this hotel designed with atrium architecture offers an elegant retreat from the city's noise with its orange trees and cool corners in the central courtyard. The pool and café terrace also provide a pleasant break opportunity for day visitors.",
-      "source": "firebase",
-      "tips": "Yerel spesiyalleri şefe sormayı unutmayın.",
-      "tips_en": "Ask the chef for the daily local specials.",
-      "bestTime": "Gün Boyu",
-      "duration": "2 Saat",
-      "bestTime_en": "All Day",
-      "openHours": {
-        "sunday": "closed",
-        "monday": "closed",
-        "tuesday": "closed",
-        "wednesday": "closed",
-        "thursday": "00:00-23:59",
-        "friday": "00:00-24:00",
-        "saturday": "closed"
-      }
-    },
-    {
-      "id": "ChIJqTzbx0FsvhQR0zXtD-eoM7w",
-      "name": "Hillstone Bodrum Hotel& SPA",
-      "name_en": "Hillstone Bodrum Hotel& SPA",
-      "category": "Restoran",
-      "tags": [
-        "bodrum",
-        "tatil",
-        "türkiye"
-      ],
-      "lat": 37.049406,
-      "lng": 27.442092,
-      "rating": 4.4,
-      "reviewCount": 951,
-      "price": "medium",
-      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fbodrum%2FChIJqTzbx0FsvhQR0zXtD-eoM7w.jpg?alt=media",
-      "description": "Bodrum'un tepelerinde yer alan bu sofistike otel, sonsuzluk havuzu, spa ve iki restoranıyla sakin bir kaçış sunuyor. Geniş odalar ve panoramik manzaralar eşliğinde dinlendirici bir konaklama vadediyor.",
-      "description_en": "Perched on the hills of Bodrum, this sophisticated hotel offers a serene escape with an infinity pool, a spa, and two restaurants. It promises a relaxing stay with spacious rooms and panoramic views.",
-      "source": "firebase",
-      "tips": "Akşam yemeği için birkaç gün önceden yer ayırtın.",
-      "tips_en": "Book a table a few days in advance for dinner.",
-      "bestTime": "Gün Boyu",
-      "duration": "2 Saat",
-      "bestTime_en": "All Day",
-      "openHours": {
-        "sunday": "closed",
-        "monday": "closed",
-        "tuesday": "closed",
-        "wednesday": "closed",
-        "thursday": "00:00-23:59",
-        "friday": "00:00-24:00",
-        "saturday": "closed"
-      }
-    },
-    {
-      "id": "ChIJ22bCykFsvhQRG1PDjTyfECA",
-      "name": "Sevin Otel Bodrum",
-      "name_en": "Sevin Otel Bodrum",
-      "category": "Restoran",
-      "tags": [
-        "bodrum",
-        "tatil",
-        "türkiye"
-      ],
-      "lat": 37.0349285,
-      "lng": 27.4308159,
-      "rating": 3.7,
-      "reviewCount": 478,
-      "price": "medium",
-      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fbodrum%2FChIJ22bCykFsvhQRG1PDjTyfECA.jpg?alt=media",
-      "description": "Bodrum merkeze yürüme mesafesinde konumlanan Sevin Otel, dar sokaklara arayanlara yakın bölgedeki en hesaplı aile oteli seçeneklerinden biridir. Sabah kahvaltısında sunulan yöresel ürünler ve konforlu odalarıyla güne iyi başlamak ve ardından liman bölgesini keşfetmek için pratik bir köstür.",
-      "description_en": "Located within walking distance of central Bodrum, Sevin Otel is one of the most affordable family hotel options in the immediate area for those looking for narrow street access. A practical base for starting the day well with local produce at breakfast and then exploring the harbor district.",
-      "source": "firebase",
-      "tips": "Yerel spesiyalleri şefe sormayı unutmayın.",
-      "tips_en": "Ask the chef for the daily local specials.",
-      "bestTime": "Gün Boyu",
-      "duration": "2 Saat",
-      "bestTime_en": "All Day",
-      "openHours": {
-        "sunday": "closed",
-        "monday": "closed",
-        "tuesday": "closed",
-        "wednesday": "closed",
-        "thursday": "00:00-23:59",
-        "friday": "00:00-24:00",
-        "saturday": "closed"
-      }
-    },
-    {
-      "id": "ChIJWYUGxK1tvhQR0iCNUnMPS_U",
-      "name": "Nagi Beach Hotel",
-      "name_en": "Nagi Beach Hotel",
-      "category": "Plaj",
-      "tags": [
-        "bodrum",
-        "tatil",
-        "türkiye"
-      ],
-      "lat": 37.0330373,
-      "lng": 27.4032333,
-      "rating": 4.4,
-      "reviewCount": 689,
-      "price": "medium",
-      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fbodrum%2FChIJWYUGxK1tvhQR0iCNUnMPS_U.jpg?alt=media",
-      "description": "Gümbet'in hareketli sahilinde yer alan bu otel plajı, merkezi konumu ve eğlenceli atmosferiyle bilinir. Gündüz güneşin tadını çıkarırken, çevredeki sosyal olanaklara kolayca erişim sağlar.",
-      "description_en": "Located on the vibrant coast of Gümbet, this hotel beach is known for its central location and fun atmosphere. It provides easy access to surrounding social amenities while enjoying the sun during the day.",
-      "source": "firebase",
-      "tips": "Yerel spesiyalleri şefe sormayı unutmayın.",
-      "tips_en": "Ask the chef for the daily local specials.",
-      "bestTime": "Gün Boyu (Güneş ve deniz keyfi için)",
-      "duration": "2 Saat",
-      "bestTime_en": "All Day (Best for sun and sea)",
-      "openHours": {
-        "sunday": "closed",
-        "monday": "closed",
-        "tuesday": "closed",
-        "wednesday": "closed",
-        "thursday": "00:00-23:59",
-        "friday": "00:00-24:00",
-        "saturday": "closed"
-      }
-    },
-    {
-      "id": "ChIJd1cC-bJtvhQRsN01C1T_ov0",
-      "name": "Queen's Apart Hotel",
-      "name_en": "Queen's Apart Hotel",
-      "category": "Restoran",
-      "tags": [
-        "bodrum",
-        "tatil",
-        "türkiye"
-      ],
-      "lat": 37.0355529,
-      "lng": 27.4069911,
-      "rating": 3.9,
-      "reviewCount": 8,
-      "price": "medium",
-      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fbodrum%2FChIJd1cC-bJtvhQRsN01C1T_ov0.jpg?alt=media",
-      "description": "Bodrum'un kalabalık merkezi yakınında apart otel konforunu sunan Queen's, uzun dönem ve tatilci konaklamalar için mutfaklı, özerk yaşam alanlarıyla değerli bir seçenektir. Terası ve merkezi konumu sayesinde Bodrum yaşamını içeriden gözlemlemek için tercih edilen adreslerden biridir.",
-      "description_en": "Offering apart hotel comfort near Bodrum's bustling center, Queen's is a valuable option for long-stay and vacationer accommodations with its kitchenette-equipped autonomous living spaces. One of the preferred addresses for observing Bodrum life from the inside thanks to its terrace and central location.",
-      "source": "firebase",
-      "tips": "Yerel spesiyalleri şefe sormayı unutmayın.",
-      "tips_en": "Ask the chef for the daily local specials.",
-      "bestTime": "Gün Boyu",
-      "duration": "2 Saat",
-      "bestTime_en": "All Day",
-      "openHours": {
-        "sunday": "00:00-23:30",
-        "monday": "00:00-23:30",
-        "tuesday": "00:00-23:30",
-        "wednesday": "00:00-23:30",
-        "thursday": "00:00-23:30",
-        "friday": "00:00-23:30",
-        "saturday": "00:00-23:30"
-      }
-    },
-    {
-      "id": "ChIJNQTYPqZtvhQR-bQKEunNvQc",
-      "name": "AYAZ AQUA BEACH HOTEL",
-      "name_en": "AYAZ AQUA BEACH HOTEL",
-      "category": "Plaj",
-      "tags": [
-        "bodrum",
-        "tatil",
-        "türkiye"
-      ],
-      "lat": 37.0298236,
-      "lng": 27.3949501,
-      "rating": 4.0,
-      "reviewCount": 1981,
-      "price": "medium",
-      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fbodrum%2FChIJNQTYPqZtvhQR-bQKEunNvQc.jpg?alt=media",
-      "description": "Özellikle aileler için tasarlanmış, denize sıfır bir konaklama ve dinlenme noktasıdır. Geniş havuz alanı ve plaj erişimiyle tatilcilere konforlu bir ortam sunar.",
-      "description_en": "A seafront accommodation and relaxation spot designed especially for families. It offers a comfortable environment for vacationers with its large pool area and beach access.",
-      "source": "firebase",
-      "tips": "Yerel spesiyalleri şefe sormayı unutmayın.",
-      "tips_en": "Ask the chef for the daily local specials.",
-      "bestTime": "Gün Boyu (Güneş ve deniz keyfi için)",
-      "duration": "2 Saat",
-      "bestTime_en": "All Day (Best for sun and sea)"
-    },
-    {
-      "id": "ChIJi1pPWGtsvhQRJ7N7Ypcc5Kk",
-      "name": "Delfi Hotel Spa & Wellness",
-      "name_en": "Delfi Hotel Spa & Wellness",
-      "category": "Restoran",
-      "tags": [
-        "bodrum",
-        "tatil",
-        "türkiye"
-      ],
-      "lat": 37.0349591,
-      "lng": 27.437941,
-      "rating": 3.7,
-      "reviewCount": 470,
-      "price": "medium",
-      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fbodrum%2FChIJi1pPWGtsvhQRJ7N7Ypcc5Kk.jpg?alt=media",
-      "description": "Bodrum gastronomisinin en seçkin temsilcilerinden biri olan Delfi Hotel Spa & Wellness, otantik lezzetleri modern bir sunumla birleştirerek misafirlerine unutulmaz bir lezzet kaçış rotası sunar. Şehrin yerel tatlarını en prestijli şekilde deneyimleyebileceğiniz bu adres, sosyal hayatın da kalbidir.",
-      "description_en": "A prestigious culinary destination in Bodrum known for its authentic flavors and vibrant social atmosphere, Delfi Hotel Spa & Wellness is the perfect spot for experiencing high-end local gastronomy with a professional urban touch.",
-      "source": "firebase",
-      "tips": "Akşam yemeği için birkaç gün önceden yer ayırtın.",
-      "tips_en": "Book a table a few days in advance for dinner.",
-      "bestTime": "Gün Boyu",
-      "duration": "2 Saat",
-      "bestTime_en": "All Day"
-    },
-    {
-      "id": "ChIJi1RysUtsvhQR-Vso6pE_bpE",
-      "name": "Doria Hotel Bodrum",
-      "name_en": "Doria Hotel Bodrum",
-      "category": "Restoran",
-      "tags": [
-        "bodrum",
-        "tatil",
-        "türkiye"
-      ],
-      "lat": 37.028908,
-      "lng": 27.39096,
-      "rating": 4.4,
-      "reviewCount": 690,
-      "price": "medium",
-      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fbodrum%2FChIJi1RysUtsvhQR-Vso6pE_bpE.jpg?alt=media",
-      "description": "Bodrum Kalesi'ne yakın konumuyla Doria Hotel, tarihin tam içinden bakmanızı sağlayan kale manzaralı odaları ve zarif taş mimarisiyle butik konaklama arayan gezginlerin tercihidir. Kahvaltı terasında kaleye bakarak içilen sabah kahvesi, Bodrum'daki günün en değerli başlangıcına dönüşür.",
-      "description_en": "With its location close to Bodrum Castle, Doria Hotel is the preference of travelers seeking boutique accommodation, with its castle-view rooms that let you look out from the middle of history and elegant stone architecture. Morning coffee on the breakfast terrace while gazing at the castle becomes the most memorable start to a day in Bodrum.",
-      "source": "firebase",
-      "tips": "Yerel spesiyalleri şefe sormayı unutmayın.",
-      "tips_en": "Ask the chef for the daily local specials.",
-      "bestTime": "Gün Boyu",
-      "duration": "2 Saat",
-      "bestTime_en": "All Day",
-      "openHours": {
-        "sunday": "closed",
-        "monday": "closed",
-        "tuesday": "closed",
-        "wednesday": "closed",
-        "thursday": "00:00-23:59",
-        "friday": "00:00-24:00",
-        "saturday": "closed"
-      }
-    },
-    {
-      "id": "ChIJWeStgXZtvhQRGNA-9SWD1xk",
-      "name": "Okaliptus Otel",
-      "name_en": "Okaliptus Otel",
-      "category": "Restoran",
-      "tags": [
-        "bodrum",
-        "tatil",
-        "türkiye"
-      ],
-      "lat": 37.028444,
-      "lng": 27.3802383,
-      "rating": 4.0,
-      "reviewCount": 408,
-      "price": "medium",
-      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fbodrum%2FChIJWeStgXZtvhQRGNA-9SWD1xk.jpg?alt=media",
-      "description": "Bodrum merkezi yakınındaki Okaliptüs Otel, adını bahçesindeki okaliptüs ağaçlarından alır. Küçük havuzu ve bakımlı yeşil alanlarıyla kentin kalabalığından uzakta sakin bir konaklama sunar; yürüme mesafesinde kasaba merkezi ve liman bölgesi erişilebilir.",
-      "description_en": "Okaliptüs Otel near central Bodrum takes its name from the eucalyptus trees in its garden. It offers a tranquil stay away from the town's hustle with its small pool and well-tended green areas; the town center and harbor district are accessible on foot.",
-      "source": "firebase",
-      "tips": "Yerel spesiyalleri şefe sormayı unutmayın.",
-      "tips_en": "Ask the chef for the daily local specials.",
-      "bestTime": "Gün Boyu",
-      "duration": "2 Saat",
-      "bestTime_en": "All Day"
-    },
-    {
       "id": "ChIJhRLxk2tsvhQRnK5D9PzNy94",
       "name": "Dinç Pansiyon",
       "name_en": "Dinç Pansiyon",
@@ -3052,40 +2689,6 @@
         "thursday": "00:00-00:00, 08:00-23:59",
         "friday": "08:00-24:00",
         "saturday": "00:00-00:00, 08:00-24:00"
-      }
-    },
-    {
-      "id": "ChIJkemxm61tvhQRQUcS9VeDUd0",
-      "name": "Ayhan Suite Hotel Bodrum",
-      "name_en": "Ayhan Suite Hotel Bodrum",
-      "category": "Restoran",
-      "tags": [
-        "bodrum",
-        "tatil",
-        "türkiye"
-      ],
-      "lat": 37.0332638,
-      "lng": 27.4051008,
-      "rating": 4.7,
-      "reviewCount": 122,
-      "price": "medium",
-      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fbodrum%2FChIJkemxm61tvhQRQUcS9VeDUd0.jpg?alt=media",
-      "description": "Bodrum merkezi yakınında apart otel konforunu sunan Ayhan Suite, uzun dönem konaklamayı tercih edenlerin ya da aile gruplarının pratik ihtiyaçlarına yönelik mutfaklı suite odalarıyla bölgedeki değerli seçenekler arasındadır. Terasından liman bölgesi ve sahil şeridine yakın günlük erişim avantajı taşır.",
-      "description_en": "Offering apart hotel comfort near central Bodrum, Ayhan Suite is among the area's valuable options with kitchenette suites catering to the practical needs of those preferring long stays or family groups. It benefits from easy daily access to the harbor district and seafront from its terrace.",
-      "source": "firebase",
-      "tips": "Yerel spesiyalleri şefe sormayı unutmayın.",
-      "tips_en": "Ask the chef for the daily local specials.",
-      "bestTime": "Gün Boyu",
-      "duration": "2 Saat",
-      "bestTime_en": "All Day",
-      "openHours": {
-        "sunday": "closed",
-        "monday": "closed",
-        "tuesday": "closed",
-        "wednesday": "closed",
-        "thursday": "00:00-23:59",
-        "friday": "00:00-24:00",
-        "saturday": "closed"
       }
     },
     {
@@ -4852,40 +4455,6 @@
       "bestTime_en": "All Day (Best for sun and sea)"
     },
     {
-      "id": "ChIJ7bF4iVhxvhQRHnnc40YIXXg",
-      "name": "LA LOCAL BEACH & HOTEL YALIKAVAK",
-      "name_en": "LA LOCAL BEACH & HOTEL YALIKAVAK",
-      "category": "Plaj",
-      "tags": [
-        "bodrum",
-        "tatil",
-        "türkiye"
-      ],
-      "lat": 37.1215519,
-      "lng": 27.290758,
-      "rating": 4.8,
-      "reviewCount": 5,
-      "price": "medium",
-      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fbodrum%2FChIJ7bF4iVhxvhQRHnnc40YIXXg.jpg?alt=media",
-      "description": "Bodrum kenti keşfinde dinamizmi ve LA LOCAL BEACH & HOTEL YALIKAVAK, kentin haritasına karakter katan en sevilen ve tatlı duraklardan birisi olan bir dir.",
-      "description_en": "As a refined social and cultural point in Bodrum, LA LOCAL BEACH & HOTEL YALIKAVAK offers a high-quality experience that perfectly merges urban convenience with local aesthetic charm for an active holiday mood.",
-      "source": "firebase",
-      "tips": "Yerel halkla sohbet etmek deneyimi derinleştirir.",
-      "tips_en": "Engaging with locals here makes the experience richer.",
-      "bestTime": "Gün Boyu (Güneş ve deniz keyfi için)",
-      "duration": "1 - 1.5 Saat",
-      "bestTime_en": "All Day (Best for sun and sea)",
-      "openHours": {
-        "sunday": "closed",
-        "monday": "closed",
-        "tuesday": "closed",
-        "wednesday": "closed",
-        "thursday": "00:00-23:59",
-        "friday": "00:00-24:00",
-        "saturday": "closed"
-      }
-    },
-    {
       "id": "ChIJ-5_vGgBxvhQRsyEJgk1TDlg",
       "name": "Şafak Zirvesi",
       "name_en": "Şafak Zirvesi",
@@ -5129,99 +4698,6 @@
       "bestTime_en": "All Day (Best for sun and sea)"
     },
     {
-      "id": "ChIJIwHTow1xvhQR_K-gB02mPoA",
-      "name": "4 reasons Hotel Yalikavak",
-      "name_en": "4 reasons Hotel Yalikavak",
-      "category": "Restoran",
-      "tags": [
-        "bodrum",
-        "tatil",
-        "türkiye"
-      ],
-      "lat": 37.1114583,
-      "lng": 27.3051523,
-      "rating": 4.8,
-      "reviewCount": 190,
-      "price": "medium",
-      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fbodrum%2FChIJIwHTow1xvhQR_K-gB02mPoA.jpg?alt=media",
-      "description": "Yalıkavak'ın marina bölgesindeki bu butik otel, dört ayrı konu konseptiyle tasarlanmış odaları ve çatı katındaki panoramik havuzuyla marinayı 360 derece seyreden nadir tesisler arasındadır. Modern sanat eserleri ve kişiselleştirilmiş servis anlayışıyla tasarım turizmine ilgi duyan ziyaretçiler için biçilmiş kaftandır.",
-      "description_en": "This boutique hotel in Yalıkavak's marina district is among the rare facilities that overlooks the marina 360 degrees with its rooms designed around four different theme concepts and rooftop panoramic pool. With modern artworks and a personalized service approach, it is tailor-made for visitors interested in design tourism.",
-      "source": "firebase",
-      "tips": "Yerel spesiyalleri şefe sormayı unutmayın.",
-      "tips_en": "Ask the chef for the daily local specials.",
-      "bestTime": "Gün Boyu",
-      "duration": "2 Saat",
-      "bestTime_en": "All Day",
-      "openHours": {
-        "sunday": "closed",
-        "monday": "closed",
-        "tuesday": "closed",
-        "wednesday": "closed",
-        "thursday": "00:00-23:59",
-        "friday": "00:00-24:00",
-        "saturday": "closed"
-      }
-    },
-    {
-      "id": "ChIJ3wr6FxVxvhQRXdnUssTbsyo",
-      "name": "Èlite Hotel Bodrum",
-      "name_en": "Èlite Hotel Bodrum",
-      "category": "Restoran",
-      "tags": [
-        "bodrum",
-        "tatil",
-        "türkiye"
-      ],
-      "lat": 37.1166899,
-      "lng": 27.2909552,
-      "rating": 3.8,
-      "reviewCount": 425,
-      "price": "medium",
-      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fbodrum%2FChIJ3wr6FxVxvhQRXdnUssTbsyo.jpg?alt=media",
-      "description": "Deniz manzaralı ve açık havuzlu bu rahat otel, balkonlu mütevazı odalar sunar. Misafirler, güler yüzlü hizmeti ve restoranındaki yemekleri takdir etmektedir.",
-      "description_en": "This casual hotel with sea views and an outdoor pool offers understated rooms with balconies. Guests appreciate the friendly service and the dining options available.",
-      "source": "firebase",
-      "tips": "Akşam yemeği için birkaç gün önceden yer ayırtın.",
-      "tips_en": "Book a table a few days in advance for dinner.",
-      "bestTime": "Gün Boyu",
-      "duration": "2 Saat",
-      "bestTime_en": "All Day"
-    },
-    {
-      "id": "ChIJSQqN3GlxvhQRvBpAaSr4tEo",
-      "name": "Yalıpark Beach Hotel",
-      "name_en": "Yalıpark Beach Hotel",
-      "category": "Plaj",
-      "tags": [
-        "bodrum",
-        "tatil",
-        "türkiye"
-      ],
-      "lat": 37.1098383,
-      "lng": 27.2935555,
-      "rating": 4.1,
-      "reviewCount": 432,
-      "price": "medium",
-      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fbodrum%2FChIJSQqN3GlxvhQRvBpAaSr4tEo.jpg?alt=media",
-      "description": "Yalıkavak ve Gündoğan arasında yer alan bu mekan, modern tasarımı ve tertemiz deniziyle dikkat çeker. Sakin bir ortamda güneşlenmek ve kaliteli servis almak isteyenlerin tercihidir.",
-      "description_en": "Located between Yalıkavak and Gündoğan, this venue stands out with its modern design and pristine sea. It's preferred by those who want to sunbathe in a quiet environment and receive quality service.",
-      "source": "firebase",
-      "tips": "Yerel spesiyalleri şefe sormayı unutmayın.",
-      "tips_en": "Ask the chef for the daily local specials.",
-      "bestTime": "Gün Boyu (Güneş ve deniz keyfi için)",
-      "duration": "2 Saat",
-      "bestTime_en": "All Day (Best for sun and sea)",
-      "openHours": {
-        "sunday": "closed",
-        "monday": "closed",
-        "tuesday": "closed",
-        "wednesday": "closed",
-        "thursday": "00:00-23:59",
-        "friday": "00:00-24:00",
-        "saturday": "closed"
-      }
-    },
-    {
       "id": "ChIJB7GNOGpxvhQRiOKsTNIdxyc",
       "name": "Ali Baba Restaurant",
       "name_en": "Ali Baba Restaurant",
@@ -5253,40 +4729,6 @@
         "thursday": "00:00-00:00, 11:00-23:59",
         "friday": "11:00-24:00",
         "saturday": "00:00-00:00, 11:00-24:00"
-      }
-    },
-    {
-      "id": "ChIJy6bJFhVwvhQRM5gSLrr4xCM",
-      "name": "Liona Hotel",
-      "name_en": "Liona Hotel",
-      "category": "Restoran",
-      "tags": [
-        "bodrum",
-        "tatil",
-        "türkiye"
-      ],
-      "lat": 37.1291412,
-      "lng": 27.3354348,
-      "rating": 4.3,
-      "reviewCount": 292,
-      "price": "medium",
-      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fbodrum%2FChIJy6bJFhVwvhQRM5gSLrr4xCM.jpg?alt=media",
-      "description": "Bodrum'da yer alan bu kübist otel, açık havuz, spa ve restoran sunmaktadır. Sade odaları ve süitleri, misafirperver personeli ve huzurlu avlusuyla dikkat çekmektedir.",
-      "description_en": "Located in Bodrum, this cubist hotel offers an outdoor pool, a spa, and a restaurant. It features unfussy rooms and suites, with helpful staff and a peaceful inner courtyard.",
-      "source": "firebase",
-      "tips": "Akşam yemeği için birkaç gün önceden yer ayırtın.",
-      "tips_en": "Book a table a few days in advance for dinner.",
-      "bestTime": "Gün Boyu",
-      "duration": "2 Saat",
-      "bestTime_en": "All Day",
-      "openHours": {
-        "sunday": "closed",
-        "monday": "closed",
-        "tuesday": "closed",
-        "wednesday": "closed",
-        "thursday": "00:00-23:59",
-        "friday": "00:00-24:00",
-        "saturday": "closed"
       }
     },
     {
@@ -5324,40 +4766,6 @@
       }
     },
     {
-      "id": "ChIJtz7N3VVxvhQR25K808r3WqI",
-      "name": "Çimentepe Apart Otel",
-      "name_en": "Çimentepe Apart Otel",
-      "category": "Restoran",
-      "tags": [
-        "bodrum",
-        "tatil",
-        "türkiye"
-      ],
-      "lat": 37.0980155,
-      "lng": 27.2729625,
-      "rating": 4.3,
-      "reviewCount": 47,
-      "price": "medium",
-      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fbodrum%2FChIJtz7N3VVxvhQR25K808r3WqI.jpg?alt=media",
-      "description": "Bodrum'a yakın konumuyla Çimentepe Apart Otel, uzun dönem tatil planlayanlar ya da ailelerin çocuklarla gelmesi için pratik mutfaklı apart odalarıyla uygun maliyetli ve bağımsız bir konaklama ortamı sunar. Toplu taşıma ile Bodrum merkeze ulaşım kolaydır.",
-      "description_en": "With its location close to Bodrum, Çimentepe Apart Otel offers a cost-effective and independent accommodation environment with practical kitchenette apart rooms for those planning long holidays or families coming with children. Public transport access to central Bodrum is easy.",
-      "source": "firebase",
-      "tips": "Yerel spesiyalleri şefe sormayı unutmayın.",
-      "tips_en": "Ask the chef for the daily local specials.",
-      "bestTime": "Gün Boyu",
-      "duration": "2 Saat",
-      "bestTime_en": "All Day",
-      "openHours": {
-        "sunday": "closed",
-        "monday": "closed",
-        "tuesday": "closed",
-        "wednesday": "closed",
-        "thursday": "00:00-23:59",
-        "friday": "00:00-24:00",
-        "saturday": "closed"
-      }
-    },
-    {
       "id": "ChIJi0CF9VZxvhQRqnoynyVnu38",
       "name": "Balıkçı Hasanın Yeri",
       "name_en": "Balıkçı Hasanın Yeri",
@@ -5390,31 +4798,6 @@
         "friday": "00:00-24:00",
         "saturday": "closed"
       }
-    },
-    {
-      "id": "ChIJLZHDcjpxvhQRzS-qBdHRuHc",
-      "name": "Yelken Bay Beach Hotel ( Lud’da)",
-      "name_en": "Yelken Bay Beach Hotel ( Lud’da)",
-      "category": "Plaj",
-      "tags": [
-        "bodrum",
-        "tatil",
-        "türkiye"
-      ],
-      "lat": 37.1215318,
-      "lng": 27.2797479,
-      "rating": 4.3,
-      "reviewCount": 121,
-      "price": "medium",
-      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fbodrum%2FChIJLZHDcjpxvhQRzS-qBdHRuHc.jpg?alt=media",
-      "description": "Bodrum'da yer alan bu mekan, sakin atmosferi, iyi hizmeti ve yüzme imkanlarıyla dikkat çekiyor. Misafirperver ortamında öğle yemeği ve içeceklerin tadını çıkarabilirsiniz.",
-      "description_en": "Located in Bodrum, this establishment offers a calm atmosphere with good service and swimming. You can enjoy lunch and drinks in its welcoming environment.",
-      "source": "firebase",
-      "tips": "Akşam yemeği için birkaç gün önceden yer ayırtın.",
-      "tips_en": "Book a table a few days in advance for dinner.",
-      "bestTime": "Gün Boyu (Güneş ve deniz keyfi için)",
-      "duration": "2 Saat",
-      "bestTime_en": "All Day (Best for sun and sea)"
     },
     {
       "id": "ChIJx1NzTq5tvhQRVUQCUyV41DE",

@@ -96,31 +96,6 @@
       }
     },
     {
-      "id": "ChIJ7WNdUQdFmRIRqVeXzYmQxyE",
-      "name": "Ushuaïa Ibiza Beach Hotel",
-      "name_en": "Ushuaïa Ibiza Beach Hotel",
-      "category": "Plaj",
-      "tags": [
-        "ibiza",
-        "travel",
-        "explore"
-      ],
-      "lat": 38.8858241,
-      "lng": 1.4050348,
-      "rating": 4.6,
-      "reviewCount": 618,
-      "price": "medium",
-      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fibiza%2FChIJ7WNdUQdFmRIRqVeXzYmQxyE.jpg?alt=media",
-      "description": "Playa d'en Bossa'nın kalbindeki bu açık hava sahnesi, dünyanın en ünlü DJ'lerine ve devasa prodüksiyonlara ev sahipliği yapar. Gündüz plaj partilerinden gece yarısı festivallerine uzanan enerjisiyle, modern Ibiza kulüp kültürünün mabedidir.",
-      "description_en": "This legendary open-air stage in Playa d'en Bossa hosts the world's top DJs and massive productions. With a seamless transition from poolside day parties to midnight spectacles, it is the undisputed temple of modern Ibizan club culture.",
-      "source": "firebase",
-      "tips": "Ushuaïa Beach Hotel havuz partileri Haziran-Eylül arası her gün düzenlenir; gündüz etkinlikleri için bilet önceden online satın alın, büyük isimler çabuk dolmaktadır.",
-      "tips_en": "Ushuaïa Beach Hotel pool parties are held daily between June-September; buy tickets online in advance for daytime events, big names sell out quickly.",
-      "bestTime": "Gün Boyu (Güneş ve deniz keyfi için)",
-      "duration": "1 Saat",
-      "bestTime_en": "All Day (Best for sun and sea)"
-    },
-    {
       "id": "ChIJBUmiFTVBmRIREVzO4Q3XWvQ",
       "name": "Pacha",
       "name_en": "Pacha",
@@ -586,40 +561,6 @@
       }
     },
     {
-      "id": "ChIJGTx50KJGmRIR10FcrRUq648",
-      "name": "My Hotels Ibiza",
-      "name_en": "My Hotels Ibiza",
-      "category": "Deneyim",
-      "tags": [
-        "ibiza",
-        "travel",
-        "explore"
-      ],
-      "lat": 38.9052408,
-      "lng": 1.4248523,
-      "rating": 5.0,
-      "reviewCount": 1,
-      "price": "medium",
-      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fibiza%2FChIJGTx50KJGmRIR10FcrRUq648.jpg?alt=media",
-      "description": "Ibiza kentinin enerjisini ve kültürel kimliğini yansıtan My Hotels Ibiza, kenti keşfeden gezginlerin keşif albümündeki en ikonik ve fotojenik duraklardan birisi haline gelmiştir.",
-      "description_en": "A prominent urban landmark in Ibiza that defines the area's contemporary spirit and cultural identity, My Hotels Ibiza serves as a prestigious and unique stop for every traveler.",
-      "source": "firebase",
-      "tips": "My Hotels Ibiza, şehir merkezine yakın konumuyla hem Dalt Vila hem de Eivissa Limanı'na yürüme mesafesinde bulunan bir oteldir; yüksek sezonda çok erken dolmaktadır.",
-      "tips_en": "My Hotels Ibiza is a hotel within walking distance of both Dalt Vila and Eivissa Harbor with its proximity to the city center; it fills up very early in high season.",
-      "bestTime": "Gün Boyu",
-      "duration": "1 Saat",
-      "bestTime_en": "All Day",
-      "openHours": {
-        "sunday": "closed",
-        "monday": "closed",
-        "tuesday": "closed",
-        "wednesday": "closed",
-        "thursday": "00:00-23:59",
-        "friday": "00:00-24:00",
-        "saturday": "closed"
-      }
-    },
-    {
       "id": "ChIJdZvkKgBHmRIRZDYeN1fuCpk",
       "name": "Lago, Parque de la Paz",
       "name_en": "Lago, Parque de la Paz",
@@ -915,99 +856,6 @@
       "bestTime_en": "All Day"
     },
     {
-      "id": "ChIJqyuvZ6NGmRIRQp-US8cRqig",
-      "name": "Hotel THB Los Molinos",
-      "name_en": "Hotel THB Los Molinos",
-      "category": "Yeme-İçme",
-      "tags": [
-        "ibiza",
-        "travel",
-        "explore"
-      ],
-      "lat": 38.9043001,
-      "lng": 1.4285682,
-      "rating": 4.4,
-      "reviewCount": 1929,
-      "price": "medium",
-      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fibiza%2FChIJqyuvZ6NGmRIRQp-US8cRqig.jpg?alt=media",
-      "description": "Denize sıfır konumu ve modern mimarisiyle öne çıkan bu otel, İbiza'nın en havalı ve huzurlu konaklama duraklarından biridir. Panaromik deniz manzaralı terası, şık spa alanı ve kalitesiyle kentin hem eğlence noktalarına yakın hem de gürültüden uzak kalmak isteyen seçkin gezginlerin favori adresleri arasındadır.",
-      "description_en": "Standing out with its seafront location and modern architecture, this hotel is one of Ibiza's coolest and most peaceful accommodation stops. With its terrace featuring panoramic sea views, chic spa area, and quality, it is among the favorite addresses for elite travelers wanting to be near entertainment while staying away from noise.",
-      "source": "firebase",
-      "tips": "Akşam yemeği için mutlaka önceden rezervasyon yaptırmanızı öneririz.",
-      "tips_en": "We highly recommend making a reservation in advance for dinner.",
-      "bestTime": "Gün Boyu",
-      "duration": "1.5 - 2 Saat",
-      "bestTime_en": "All Day",
-      "openHours": {
-        "sunday": "closed",
-        "monday": "closed",
-        "tuesday": "closed",
-        "wednesday": "closed",
-        "thursday": "00:00-23:59",
-        "friday": "00:00-24:00",
-        "saturday": "closed"
-      }
-    },
-    {
-      "id": "ChIJqTPRsNJFmRIRk-wzViSEhhg",
-      "name": "Hotel Torre del Mar",
-      "name_en": "Hotel Torre del Mar",
-      "category": "Yeme-İçme",
-      "tags": [
-        "ibiza",
-        "travel",
-        "explore"
-      ],
-      "lat": 38.8977755,
-      "lng": 1.4174195,
-      "rating": 4.6,
-      "reviewCount": 1922,
-      "price": "medium",
-      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fibiza%2FChIJqTPRsNJFmRIRk-wzViSEhhg.jpg?alt=media",
-      "description": "1974'ten beri Ibiza'da hizmet veren Hotel Torre del Mar, Akdeniz'in taze lezzetlerini deniz manzarası eşliğinde sunar. Eşsiz mutfağıyla damaklarda iz bırakır.",
-      "description_en": "Operating since 1974 in Ibiza, Hotel Torre del Mar offers fresh Mediterranean flavors accompanied by sea views. Its unique cuisine leaves a lasting impression.",
-      "source": "firebase",
-      "tips": "Gün batımında deniz manzaralı terasında özel bir akşam yemeği deneyimi için rezervasyon yapın.",
-      "tips_en": "Book a reservation for a special dinner experience on its sea-view terrace during sunset.",
-      "bestTime": "Gün Boyu",
-      "duration": "1.5 - 2 Saat",
-      "bestTime_en": "All Day",
-      "openHours": {
-        "sunday": "closed",
-        "monday": "closed",
-        "tuesday": "closed",
-        "wednesday": "closed",
-        "thursday": "00:00-23:59",
-        "friday": "00:00-24:00",
-        "saturday": "closed"
-      }
-    },
-    {
-      "id": "ChIJtYq10khBmRIRpuEdMZ-oU5c",
-      "name": "Ibiza Corso Hotel",
-      "name_en": "Ibiza Corso Hotel",
-      "category": "Yeme-İçme",
-      "tags": [
-        "ibiza",
-        "travel",
-        "explore"
-      ],
-      "lat": 38.9112367,
-      "lng": 1.4510495,
-      "rating": 4.4,
-      "reviewCount": 793,
-      "price": "medium",
-      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fibiza%2FChIJtYq10khBmRIRpuEdMZ-oU5c.jpg?alt=media",
-      "description": "Marina Botafoch'ta kentin silüetine ve Dalt Vila'nın görkemli manzarasına hakim olan bu otel, modern sanatla konforu birleştiriyor. Şık barı ve seçkin mönüsüyle bildiğimiz bu tesis, İbiza'nın yat limanı kültürünü ve kozmopolit lüksünü en rafine haliyle deneyimlemenizi sağlıyor.",
-      "description_en": "Dominating the city's silhouette and the grand view of Dalt Vila in Marina Botafoch, this hotel combines modern art with comfort. Known for its chic bar and exclusive menu, this facility allows you to experience Ibiza's yacht harbor culture and cosmopolitan luxury in its most refined form.",
-      "source": "firebase",
-      "tips": "Akşam yemeği için mutlaka önceden rezervasyon yaptırmanızı öneririz.",
-      "tips_en": "We highly recommend making a reservation in advance for dinner.",
-      "bestTime": "Gün Boyu",
-      "duration": "1.5 - 2 Saat",
-      "bestTime_en": "All Day"
-    },
-    {
       "id": "ChIJY0V3EElBmRIROuGesgRI-2U",
       "name": "Ocean Drive Ibiza",
       "name_en": "Ocean Drive Ibiza",
@@ -1076,56 +924,6 @@
       }
     },
     {
-      "id": "ChIJudLO7LFGmRIRR1r6AXmyWCY",
-      "name": "R&C Hotel Mirador de Dalt Vila",
-      "name_en": "R&C Hotel Mirador de Dalt Vila",
-      "category": "Yeme-İçme",
-      "tags": [
-        "ibiza",
-        "travel",
-        "explore"
-      ],
-      "lat": 38.9071289,
-      "lng": 1.4376815,
-      "rating": 4.7,
-      "reviewCount": 205,
-      "price": "medium",
-      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fibiza%2FChIJudLO7LFGmRIRR1r6AXmyWCY.jpg?alt=media",
-      "description": "Dalt Vila'nın tarihi surları içinde, kentin en yüksek ve en prestijli noktasında yer alan bu malikane otel, gerçek bir aristokratik lüks vadediyor. Antik taş duvarları, şık dekorasyonu ve körfeze bakan panaromik terasıyla, kendinizi İbiza'nın tarihinde özel hissedeceğiniz romantik ve rafine bir adrestir.",
-      "description_en": "Located within the historical walls of Dalt Vila at the city's highest and most prestigious point, this manor hotel promises true aristocratic luxury. With its ancient stone walls, chic decoration, and panoramic terrace overlooking the bay, it is a romantic and refined address where you will feel special in Ibiza's history.",
-      "source": "firebase",
-      "tips": "Akşam yemeği için mutlaka önceden rezervasyon yaptırmanızı öneririz.",
-      "tips_en": "We highly recommend making a reservation in advance for dinner.",
-      "bestTime": "Gün Boyu",
-      "duration": "1.5 - 2 Saat",
-      "bestTime_en": "All Day"
-    },
-    {
-      "id": "ChIJrUJ3McJ-YQ0RIj4SyNJ7u7Y",
-      "name": "Hotel Garbi Ibiza & Spa",
-      "name_en": "Hotel Garbi Ibiza & Spa",
-      "category": "Yeme-İçme",
-      "tags": [
-        "ibiza",
-        "travel",
-        "explore"
-      ],
-      "lat": 38.8912315,
-      "lng": 1.4088618,
-      "rating": 4.6,
-      "reviewCount": 1896,
-      "price": "medium",
-      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fibiza%2FChIJrUJ3McJ-YQ0RIj4SyNJ7u7Y.jpg?alt=media",
-      "description": "Playa d'en Bossa'nın kristal sularına sıfır konumuyla Garbi Ibiza, modern tasarımı ve ferahlatıcı spa olanaklarıyla huzurlu bir yaz tatili sunuyor. Eğlencenin merkezinde olmasına rağmen sunduğu sükunet ve yüksek kaliteli hizmet anlayışıyla, adanın enerjisini ve güneşini dengelemek isteyen gezginlerin favorisidir.",
-      "description_en": "With its seafront location on the crystal waters of Playa d'en Bossa, Garbi Ibiza offers a peaceful summer holiday with modern design and refreshing spa facilities. Despite being in the center of entertainment, it is a favorite for travelers wanting to balance the island's energy and sun with its tranquility and high-quality service.",
-      "source": "firebase",
-      "tips": "Akşam yemeği için mutlaka önceden rezervasyon yaptırmanızı öneririz.",
-      "tips_en": "We highly recommend making a reservation in advance for dinner.",
-      "bestTime": "Gün Boyu",
-      "duration": "1.5 - 2 Saat",
-      "bestTime_en": "All Day"
-    },
-    {
       "id": "ChIJn_CNWDlBmRIRZ7aWhGYmuLI",
       "name": "Ocean Drive Talamanca",
       "name_en": "Ocean Drive Talamanca",
@@ -1192,31 +990,6 @@
         "friday": "00:00-24:00",
         "saturday": "closed"
       }
-    },
-    {
-      "id": "ChIJuzLFfXY4mRIRRv2CgxZ51cY",
-      "name": "Can Lluc Boutique Country Hotel & Villas",
-      "name_en": "Can Lluc Boutique Country Hotel & Villas",
-      "category": "Yeme-İçme",
-      "tags": [
-        "ibiza",
-        "travel",
-        "explore"
-      ],
-      "lat": 38.9819055,
-      "lng": 1.3906816,
-      "rating": 4.7,
-      "reviewCount": 203,
-      "price": "medium",
-      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fibiza%2FChIJuzLFfXY4mRIRRv2CgxZ51cY.jpg?alt=media",
-      "description": "Adanın kalbinde, zeytin ve çam ormanları arasına gizlenmiş bu butik otel, İbiza'nın huzurlu kırsal yaşamını lüksle buluşturuyor. Geleneksel mimarisi ve sessiz atmosferiyle, kentin gürültüsünden uzaklaşıp doğayla baş başa kalmak isteyenler için saklı bir cennet niteliğindedir.",
-      "description_en": "Hidden among olive and pine forests in the heart of the island, this boutique hotel brings Ibiza's peaceful rural life together with luxury. With its traditional architecture and quiet atmosphere, it is a hidden paradise for those wanting to escape city noise and stay alone with nature.",
-      "source": "firebase",
-      "tips": "Akşam yemeği için mutlaka önceden rezervasyon yaptırmanızı öneririz.",
-      "tips_en": "We highly recommend making a reservation in advance for dinner.",
-      "bestTime": "Gün Boyu",
-      "duration": "1.5 - 2 Saat",
-      "bestTime_en": "All Day"
     },
     {
       "id": "ChIJj0ex4j5BmRIReXmSOiSAhMY",

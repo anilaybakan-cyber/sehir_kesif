@@ -110,6 +110,16 @@ class AIService {
     'rhodes': 'https://blog.obilet.com/wp-content/uploads/2024/04/ana-gorsel-min-scaled.jpeg',
     'cannes': 'https://www.rivieraloisirs.com/public/uploads/2021/05/Port-de-Cannes.jpg',
     'saint_tropez': 'https://cdn.sanity.io/images/nxpteyfv/goguides/3a6c92c8b52d99de1f3ef6d2fcebadfd646bf990-1600x1066.jpg',
+    'losangeles': 'https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/losangeles/losangeles_custom.jpg',
+    'miami': 'https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/miami/miami_custom.jpg',
+    'dallas': 'https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/dallas/dallas_custom.jpg',
+    'atlanta': 'https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/atlanta/atlanta_custom.jpg',
+    'sanfrancisco': 'https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/sanfrancisco/sanfrancisco_custom.jpg',
+    'seattle': 'https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/seattle/seattle_custom.jpg',
+    'houston': 'https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/houston/houston_custom.jpg',
+    'philadelphia': 'https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/philadelphia/philadelphia_custom.jpg',
+    'kansascity': 'https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/kansascity/kansascity_custom.jpg',
+    'boston': 'https://storage.googleapis.com/myway-3fe75.firebasestorage.app/cities/boston/boston_custom.jpg',
   };
 
   /// Şehir ID'sine göre görsel URL'ini döndürür
@@ -1958,6 +1968,56 @@ class AIService {
         'city': 'New York',
         'subtitle': isEnglish ? 'The city that never sleeps' : 'Hiç uyumayan şehir',
         'imageUrl': getCityImage('newyork'),
+      },
+      {
+        'city': 'Los Angeles',
+        'subtitle': isEnglish ? 'City of Angels' : 'Melekler Şehri',
+        'imageUrl': getCityImage('losangeles'),
+      },
+      {
+        'city': 'Miami',
+        'subtitle': isEnglish ? 'Magic City' : 'Büyülü Şehir',
+        'imageUrl': getCityImage('miami'),
+      },
+      {
+        'city': 'Dallas',
+        'subtitle': isEnglish ? 'Big D' : 'Büyük D',
+        'imageUrl': getCityImage('dallas'),
+      },
+      {
+        'city': 'Atlanta',
+        'subtitle': isEnglish ? 'The ATL' : 'Güneyin Başkenti',
+        'imageUrl': getCityImage('atlanta'),
+      },
+      {
+        'city': 'San Francisco',
+        'subtitle': isEnglish ? 'The Golden City' : 'Altın Şehir',
+        'imageUrl': getCityImage('sanfrancisco'),
+      },
+      {
+        'city': 'Seattle',
+        'subtitle': isEnglish ? 'Emerald City' : 'Zümrüt Şehir',
+        'imageUrl': getCityImage('seattle'),
+      },
+      {
+        'city': 'Houston',
+        'subtitle': isEnglish ? 'Space City' : 'Uzay Şehri',
+        'imageUrl': getCityImage('houston'),
+      },
+      {
+        'city': 'Philadelphia',
+        'subtitle': isEnglish ? 'City of Brotherly Love' : 'Kardeşçe Sevgi Şehri',
+        'imageUrl': getCityImage('philadelphia'),
+      },
+      {
+        'city': 'Kansas City',
+        'subtitle': isEnglish ? 'City of Fountains' : 'Çeşmeler Şehri',
+        'imageUrl': getCityImage('kansascity'),
+      },
+      {
+        'city': 'Boston',
+        'subtitle': isEnglish ? 'The Hub' : 'Tarihin Merkezi',
+        'imageUrl': getCityImage('boston'),
       },
       {
         'city': 'Rovaniemi',

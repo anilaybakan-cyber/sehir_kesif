@@ -293,28 +293,6 @@
       "name_en": "Binnenpad (Walking Path)"
     },
     {
-      "name": "Black Sheep Hostel",
-      "area": "center",
-      "category": "Deneyim",
-      "subcategory": "Hostel",
-      "tags": [
-        "budget",
-        "backpackers",
-        "social"
-      ],
-      "price": "low",
-      "rating": 4.5,
-      "description": "Giethoorn'un karakteristik saz çatılı mimarisini barındıran Black Sheep Hostel, kanal kıyısındadır. Köyün zengin tarihini modern konforla buluşturarak otantik bir konaklama deneyimi sunar.",
-      "description_en": "Housing Giethoorn's characteristic thatched-roof architecture, Black Sheep Hostel is canal-side. It blends the village's rich history with modern comfort, offering an an authentic accommodation experience.",
-      "tips": "Tekne kiralayıp arabasız köyü kanallardan keşfedin.",
-      "tips_en": "Rent a boat and explore the car-free village via its canals.",
-      "id": "black-sheep-hostel",
-      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fgiethoorn%2Fblack-sheep-hostel.jpg?alt=media",
-      "source": "firebase",
-      "distanceFromCenter": 0.5,
-      "name_en": "Black Sheep Hostel"
-    },
-    {
       "name": "Blauwe Hand",
       "area": "harbor",
       "category": "Deneyim",

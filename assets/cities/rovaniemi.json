@@ -114,27 +114,6 @@
       "name_en": "Antinkaapo"
     },
     {
-      "id": "apukka-resort",
-      "name": "Apukka Resort",
-      "category": "Deneyim",
-      "tags": [
-        "ice cabins",
-        "aurora wagon",
-        "activities"
-      ],
-      "lat": 66.578362,
-      "lng": 26.0154,
-      "rating": 4.7,
-      "description": "Eski tomrukçu köyünden modern mimari harikasına dönüşen Apukka, geleneksel Arktik tasarımları sergiler. Cam igloları, büyüleyici buz şapeli ve otantik kütük evleriyle kuzeyin eşsiz doğasını yaşatır.",
-      "description_en": "Apukka, from an old logger's village, showcases innovative Arctic architecture. Its glass igloos, unique ice chapel, and authentic log cabins offer an unparalleled northern nature experience.",
-      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Frovaniemi%2Fapukka-resort.jpg?alt=media",
-      "price": "high",
-      "tips": "Kutup ışıklarını görmek için gece gökyüzünü mutlaka kontrol edin.",
-      "tips_en": "Definitely check the night sky to witness the Northern Lights.",
-      "subcategory": "Resort",
-      "name_en": "Apukka Resort"
-    },
-    {
       "name": "Arctic Boulevard",
       "category": "Yeme-İçme",
       "tags": [
@@ -302,69 +281,6 @@
       "tips_en": "For your best chance to catch the Northern Lights, join during winter months, especially on dark and clear nights.",
       "subcategory": "Tur",
       "name_en": "Arctic Lifestyle"
-    },
-    {
-      "id": "arctic-light-hotel",
-      "name": "Arctic Light Hotel",
-      "category": "Deneyim",
-      "tags": [
-        "boutique",
-        "luxury",
-        "breakfast"
-      ],
-      "lat": 66.501342,
-      "lng": 25.734505,
-      "rating": 4.7,
-      "description": "Rovaniemi'nin İkinci Dünya Savaşı sonrası yeniden doğuşunu simgeleyen, 1949 yapımı eski şehir binasında yer alan Arctic Light Hotel, modern İskandinav mimarisini yansıtırken lüks konaklama ve eşsiz Arktik deneyimi sunar.",
-      "description_en": "Symbolizing Rovaniemi's post-WWII rebirth, Arctic Light Hotel occupies the historic 1949 former city hall, showcasing modern Scandinavian architecture while offering luxurious accommodation and unique Arctic experiences.",
-      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Frovaniemi%2Farctic-light-hotel.jpg?alt=media",
-      "price": "high",
-      "tips": "Hoteldeki Arctic Eye restoranında yerel lezzetleri deneyimlemeyi unutmayın.",
-      "tips_en": "Don't forget to experience local delicacies at the hotel's Arctic Eye restaurant.",
-      "subcategory": "Otel",
-      "name_en": "Arctic Light Hotel"
-    },
-    {
-      "id": "arctic-snowhotel-glass-igloos",
-      "name": "Arctic SnowHotel & Glass Igloos",
-      "category": "Tarihi",
-      "tags": [
-        "snow hotel",
-        "ice bar",
-        "dinner"
-      ],
-      "lat": 66.638263,
-      "lng": 25.342493,
-      "rating": 4.5,
-      "description": "Rovaniemi'deki Arctic SnowHotel, her yıl yeniden inşa edilen eşsiz bir kar ve buz mimarisi harikasıdır. İkonik cam igloları, nefes kesici Kuzey Işıkları manzaraları sunarak unutulmaz Arktik deneyim yaşatır.",
-      "description_en": "Rovaniemi's Arctic SnowHotel, an annually sculpted architectural marvel of snow and ice, houses unique accommodations. Iconic glass igloos provide unparalleled Northern Lights views, a breathtaking Arctic experience.",
-      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Frovaniemi%2Farctic-snowhotel-glass-igloos.jpg?alt=media",
-      "price": "medium",
-      "tips": "Buz oteli için sıcak giyinin ve erken rezervasyon yapın.",
-      "tips_en": "Dress warmly, especially for the ice hotel, and book early.",
-      "subcategory": "Otel",
-      "name_en": "Arctic SnowHotel & Glass Igloos"
-    },
-    {
-      "id": "arctic-treehouse-hotel",
-      "name": "Arctic TreeHouse Hotel",
-      "category": "Deneyim",
-      "tags": [
-        "design",
-        "view",
-        "luxury"
-      ],
-      "lat": 66.539435,
-      "lng": 25.799994,
-      "rating": 4.6,
-      "description": "Rovaniemi'nin kış ormanlarına zarifçe entegre edilmiş, modern İskandinav mimarisinin başyapıtı Arctic TreeHouse Hotel, panoramik pencereli lüks ağaç evler sunar. Kuzey Işıkları'nı ve orman manzarasını deneyimlemek için tasarlanmış eşsiz bir mimari harikadır.",
-      "description_en": "Rovaniemi's Arctic TreeHouse Hotel, a modern Scandinavian architectural marvel, blends into winter forests. Its panoramic luxury treehouses offer unparalleled Northern Lights and serene forest experiences.",
-      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Frovaniemi%2Farctic-treehouse-hotel.jpg?alt=media",
-      "price": "very high",
-      "tips": "Rakshi restoranında yer ayırtın; en iyi Kuzey Işıkları için aurora alarmını kullanın.",
-      "tips_en": "Book Rakshi restaurant; use aurora alarm for best Northern Lights viewing.",
-      "subcategory": "Otel",
-      "name_en": "Arctic TreeHouse Hotel"
     },
     {
       "id": "arctic-warriors",
@@ -663,27 +579,6 @@
       "name_en": "Cafe Rovaniemi"
     },
     {
-      "id": "chalet-hotel-rovaniemi",
-      "name": "Chalet Hotel Rovaniemi",
-      "category": "Deneyim",
-      "tags": [
-        "river view",
-        "log cabins",
-        "nature"
-      ],
-      "lat": 66.508679,
-      "lng": 25.787482,
-      "rating": 4.4,
-      "description": "Rovaniemi'nin savaş sonrası yeniden inşasını simgeleyen, geleneksel Lapland mimarisini modern konforla harmanlayan bu büyüleyici otel, Kuzey Kutbu'nun eşsiz ruhunu ve mirasını yaşatıyor.",
-      "description_en": "Symbolizing Rovaniemi's post-war reconstruction, this charming hotel blends traditional Lapland architecture with modern comfort, preserving the Arctic's unique spirit and heritage.",
-      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Frovaniemi%2Fchalet-hotel-rovaniemi.jpg?alt=media",
-      "price": "medium",
-      "tips": "Otelden direkt nehir kenarına inen yolları keşfedin, yürüyüş keyfi yaşayın.",
-      "tips_en": "Explore paths from the hotel to the riverside for a refreshing walk.",
-      "subcategory": "Kır Evi",
-      "name_en": "Chalet Hotel Rovaniemi"
-    },
-    {
       "id": "choco-deli",
       "name": "Choco Deli",
       "category": "Kafe",
@@ -832,27 +727,6 @@
       "name_en": "Elf's Farm Yard"
     },
     {
-      "id": "forenom-aparthotel-rovaniemi",
-      "name": "Forenom Aparthotel Rovaniemi",
-      "category": "Deneyim",
-      "tags": [
-        "keyless",
-        "central",
-        "practical"
-      ],
-      "lat": 66.503441,
-      "lng": 25.734976,
-      "rating": 4.1,
-      "description": "Rovaniemi'nin kalbinde yer alan Forenom Aparthotel, modern konforu ve Kuzey Kutbu'nun büyüsünü birleştirir. Kendi yemeğinizi hazırlayabileceğiniz daireleriyle özgür bir konaklama sunar.",
-      "description_en": "Located in the heart of Rovaniemi, Forenom Aparthotel combines modern comfort with the magic of the Arctic. It offers independent stays with self-catering apartments.",
-      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Frovaniemi%2Fforenom-aparthotel-rovaniemi.jpg?alt=media",
-      "price": "medium",
-      "tips": "Şehrin merkezindeki konumu sayesinde Arktikum ve Lordi Meydanı'na yürüyerek kolayca ulaşabilirsiniz.",
-      "tips_en": "Thanks to its central location, you can easily reach Arktikum and Lordi Square on foot.",
-      "subcategory": "Apart",
-      "name_en": "Forenom Aparthotel Rovaniemi"
-    },
-    {
       "id": "frans-chrie-bistro",
       "name": "Frans & Chérie Bistro",
       "category": "Yeme-İçme",
@@ -895,27 +769,6 @@
       "name_en": "German Soldier Cemetery"
     },
     {
-      "id": "glass-resort",
-      "name": "Glass Resort",
-      "category": "Deneyim",
-      "tags": [
-        "glass apartments",
-        "private jacuzzi",
-        "luxury"
-      ],
-      "lat": 66.541253,
-      "lng": 25.849966,
-      "rating": 4.9,
-      "description": "Rovaniemi'deki Glass Resort, ödüllü modern Finlandiya mimarisini sergiliyor. Yenilikçi cam igloları, eşsiz Kuzey Kutbu gökyüzü manzaraları sunarak görkemli Kuzey Işıklarını gözler önüne seriyor. Lüks, doğayla iç içe bir deneyim.",
-      "description_en": "Rovaniemi's Glass Resort presents award-winning modern Finnish architecture. Its innovative glass igloos offer unparalleled Arctic sky views, showcasing the majestic Northern Lights. A luxurious, nature-blending experience.",
-      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Frovaniemi%2Fglass-resort.jpg?alt=media",
-      "price": "very high",
-      "tips": "En iyi Kuzey Işıkları deneyimi için Eylül ve Mart arası ziyaret edin.",
-      "tips_en": "Visit between September and March for the best Northern Lights viewing.",
-      "subcategory": "Otel",
-      "name_en": "Glass Resort"
-    },
-    {
       "id": "guesthouse-borealis",
       "name": "Guesthouse Borealis",
       "category": "Deneyim",
@@ -956,27 +809,6 @@
       "tips_en": "Sip on herbal tea while gazing through the window.",
       "subcategory": "Bistro",
       "name_en": "Gustav Kitchen & Bar"
-    },
-    {
-      "id": "haawe-boutique-apart-hotel",
-      "name": "Haawe Boutique Apart Hotel",
-      "category": "Deneyim",
-      "tags": [
-        "design",
-        "luxury",
-        "apartments"
-      ],
-      "lat": 66.502517,
-      "lng": 25.734311,
-      "rating": 4.9,
-      "description": "Antalya Kaleiçi'nin kalbinde, restore edilmiş tarihi bir yapıda yer alan Haawe, modern konforla geçmişi harmanlar. Eşsiz bir konaklama deneyimi sunar.",
-      "description_en": "Located in a restored historical building in the heart of Antalya's Kaleiçi, Haawe blends modern comfort with history, offering a unique stay.",
-      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Frovaniemi%2Fhaawe-boutique-apart-hotel.jpg?alt=media",
-      "price": "high",
-      "tips": "Kaleiçi'nin dar sokaklarını keşfetmek için ideal bir başlangıç noktasıdır; sabah erken saatlerde yürüyüşe çıkın.",
-      "tips_en": "It's an ideal starting point for exploring Kaleiçi's narrow streets; go for a walk in the early morning.",
-      "subcategory": "Otel",
-      "name_en": "Haawe Boutique Apart Hotel"
     },
     {
       "id": "hai-long",
@@ -1084,27 +916,6 @@
       "name_en": "Hook"
     },
     {
-      "id": "hostel-caf-koti",
-      "name": "Hostel Café Koti",
-      "category": "Deneyim",
-      "tags": [
-        "budget",
-        "stylish",
-        "cafe"
-      ],
-      "lat": 66.501218,
-      "lng": 25.734052,
-      "rating": 4.6,
-      "description": "Rovaniemi'nin kalbinde, modern İskandinav mimarisiyle tasarlanmış bu butik hostel, konforlu odaları ve canlı kafesiyle misafirlere eşsiz bir 'ev' deneyimi sunar.",
-      "description_en": "Located in the heart of Rovaniemi, this boutique hostel, designed with modern Scandinavian architecture, offers guests a unique 'home' experience with comfortable rooms and a vibrant café.",
-      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Frovaniemi%2Fhostel-caf-koti.jpg?alt=media",
-      "price": "low",
-      "tips": "Lobi kafesinde yerel atıştırmalıkları deneyip dinlenmek harika bir seçenektir.",
-      "tips_en": "Relax in the lobby café, enjoying local snacks and Arctic vibes.",
-      "subcategory": "Hostel",
-      "name_en": "Hostel Café Koti"
-    },
-    {
       "id": "husky-park",
       "name": "Husky Park",
       "category": "Park",
@@ -1147,29 +958,6 @@
       "tips_en": "Don't forget to arrive with Arctic-proof clothing.",
       "source": "firebase",
       "name_en": "Husky Safari Center"
-    },
-    {
-      "name": "Ice Hotel Experience",
-      "category": "Deneyim",
-      "tags": [
-        "ice",
-        "hotel",
-        "unique"
-      ],
-      "lat": 66.545,
-      "lng": 25.86,
-      "rating": 4.7,
-      "description": "Rovaniemi'nin buz oteli, her yıl kardan ve buzdan yeniden doğar. Karmaşık heykeller, benzersiz sanat odaları ve buz barı barındırır; geçici bir Arktik harikadır.",
-      "description_en": "Rovaniemi's ice hotel, reborn annually from snow and ice, boasts intricate sculptures, unique art rooms, and an ice bar. An ephemeral Arctic wonder.",
-      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Frovaniemi%2Fice_hotel_experience.jpg?alt=media",
-      "price": "medium",
-      "distanceFromCenter": 1.0,
-      "bestTime": "09:00 - 18:00",
-      "bestTime_en": "09:00 - 18:00",
-      "tips": "Termal giysilerle ziyaret edin ve geceyi buz barında geçirmeyi deneyin.",
-      "tips_en": "Visit with thermal clothing; try spending the evening at the ice bar.",
-      "source": "firebase",
-      "name_en": "Ice Hotel Experience"
     },
     {
       "id": "iisakki-glass-village",
@@ -1536,27 +1324,6 @@
       "name_en": "Lapland Forestry Museum"
     },
     {
-      "id": "lapland-hotels-sky-ounasvaara",
-      "name": "Lapland Hotels Sky Ounasvaara",
-      "category": "Deneyim",
-      "tags": [
-        "view",
-        "luxury",
-        "ski-in"
-      ],
-      "lat": 66.501981,
-      "lng": 25.788322,
-      "rating": 4.5,
-      "description": "Lapland Hotels Sky Ounasvaara, Rovaniemi'nin Ounasvaara tepesinde, modern İskandinav mimarisiyle yükselir. Arktik'in büyüleyici panoramik manzaralarını, kuzey ışıkları ve yerel mutfak deneyimini sunar.",
-      "description_en": "Lapland Hotels Sky Ounasvaara, on Rovaniemi's Ounasvaara fell, showcases modern Scandinavian architecture. It offers enchanting panoramic Arctic views, Northern Lights, and local culinary experiences.",
-      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Frovaniemi%2Flapland-hotels-sky-ounasvaara.jpg?alt=media",
-      "price": "high",
-      "tips": "Kuzey ışıklarını yakalamak için akşam yemeği rezervasyonunu önceden yapın.",
-      "tips_en": "Book dinner in advance to catch the Northern Lights.",
-      "subcategory": "Otel",
-      "name_en": "Lapland Hotels Sky Ounasvaara"
-    },
-    {
       "id": "lapland-restaurant-kotahovi",
       "name": "Lapland Restaurant Kotahovi",
       "category": "Yeme-İçme",
@@ -1809,27 +1576,6 @@
       "name_en": "Marttiini Knife Shop"
     },
     {
-      "id": "motelli-rovaniemi",
-      "name": "Motelli Rovaniemi",
-      "category": "Deneyim",
-      "tags": [
-        "budget",
-        "clean",
-        "roadside"
-      ],
-      "lat": 66.453209,
-      "lng": 25.579639,
-      "rating": 4.0,
-      "description": "Rovaniemi'nin kalbinde, klasik bir Fin moteli deneyimi sunan Motelli Rovaniemi, Lapland maceralarınız için samimi ve pratik bir başlangıç noktasıdır.",
-      "description_en": "Motelli Rovaniemi, a classic Finnish motel in the heart of Rovaniemi, offers a cozy and practical starting point for your Lapland adventures.",
-      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Frovaniemi%2Fmotelli-rovaniemi.jpg?alt=media",
-      "price": "low",
-      "tips": "Geleneksel Fin saunasını deneyimleyerek günün yorgunluğunu atın.",
-      "tips_en": "Experience the traditional Finnish sauna to unwind after a day of exploration.",
-      "subcategory": "Motel",
-      "name_en": "Motelli Rovaniemi"
-    },
-    {
       "id": "mrs-santa-claus-christmas-cottage",
       "name": "Mrs. Santa Claus Christmas Cottage",
       "category": "Deneyim",
@@ -1980,27 +1726,6 @@
       "name_en": "Norvajärvi Lake"
     },
     {
-      "id": "nova-skyland-hotel",
-      "name": "Nova Skyland Hotel",
-      "category": "Deneyim",
-      "tags": [
-        "luxury",
-        "modern",
-        "forest"
-      ],
-      "lat": 66.541396,
-      "lng": 25.848004,
-      "rating": 4.8,
-      "description": "Nova Skyland Hotel, şehrin en yüksek noktasında, modern mimarisiyle nefes kesen panoramik manzaralar sunar. Tarihi silüeti kuşbakışı izleyin.",
-      "description_en": "Nova Skyland Hotel, at the city's highest point, offers breathtaking panoramic views with its modern architecture. Witness the historical silhouette from above.",
-      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Frovaniemi%2Fnova-skyland-hotel.jpg?alt=media",
-      "price": "high",
-      "tips": "Gün batımında teras barında kokteylinizi yudumlarken şehrin ışıklarını izleyin.",
-      "tips_en": "Watch the city lights while sipping your cocktail at the terrace bar during sunset.",
-      "subcategory": "Otel",
-      "name_en": "Nova Skyland Hotel"
-    },
-    {
       "id": "olivers-corner",
       "name": "Oliver's Corner",
       "category": "Deneyim",
@@ -2041,27 +1766,6 @@
       "tips_en": "Join an early morning coffee plantation tour and discover the region's rich biodiversity.",
       "subcategory": "Eko Otel",
       "name_en": "Ollero Eco Lodge"
-    },
-    {
-      "id": "original-sokos-hotel-vaakuna",
-      "name": "Original Sokos Hotel Vaakuna",
-      "category": "Deneyim",
-      "tags": [
-        "northern lights",
-        "nightclub",
-        "central"
-      ],
-      "lat": 66.502006,
-      "lng": 25.736303,
-      "rating": 4.2,
-      "description": "Savaş sonrası yeniden inşa edilen Rovaniemi'nin kalbinde yer alan, modern İskandinav mimarisiyle dikkat çeken bu otel, şehrin yeniden doğuşunu simgeler. Konforlu hizmetiyle Lapland misafirperverliğini yaşatır.",
-      "description_en": "Located in post-war rebuilt Rovaniemi's heart, this hotel, with notable modern Scandinavian architecture, symbolizes the city's rebirth. Experience Lapland's famed hospitality here.",
-      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Frovaniemi%2Foriginal-sokos-hotel-vaakuna.jpg?alt=media",
-      "price": "medium",
-      "tips": "Otelden Kemijoki Nehri manzarasının keyfini çıkarın; yakındaki Alvar Aalto binalarını keşfedin.",
-      "tips_en": "Enjoy Kemijoki River views from the hotel; explore nearby Alvar Aalto buildings.",
-      "subcategory": "Otel",
-      "name_en": "Original Sokos Hotel Vaakuna"
     },
     {
       "id": "ounaskoski-beach",
@@ -3064,27 +2768,6 @@
       "name_en": "Santa's Forest (Joulukan Metsä)"
     },
     {
-      "id": "santas-hotel-santa-claus",
-      "name": "Santa's Hotel Santa Claus",
-      "category": "Deneyim",
-      "tags": [
-        "central",
-        "classic",
-        "sauna"
-      ],
-      "lat": 66.502595,
-      "lng": 25.732028,
-      "rating": 4.3,
-      "description": "Rovaniemi'de, Kuzey Kutup Dairesi'nin kalbinde yer alan bu modern ve masalsı otel, Noel Baba'nın resmi karargahı olarak benzersiz Arktik ve kutlama deneyimleri sunar.",
-      "description_en": "In Rovaniemi, heart of the Arctic Circle, this modern, fairytale-like hotel serves as Santa Claus's official headquarters, providing unique Arctic and festive experiences.",
-      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Frovaniemi%2Fsantas-hotel-santa-claus.jpg?alt=media",
-      "price": "high",
-      "tips": "Noel döneminde rezervasyonları erken yapın ve husky safarilerini kaçırmayın!",
-      "tips_en": "Book early for Christmas and don't miss the husky safaris!",
-      "subcategory": "Otel",
-      "name_en": "Santa's Hotel Santa Claus"
-    },
-    {
       "id": "santas-igloos-arctic-circle",
       "name": "Santa's Igloos Arctic Circle",
       "category": "Deneyim",
@@ -3167,27 +2850,6 @@
       "tips_en": "Dress warmly in winter months to stay cozy.",
       "description_en": "At SantaPark, the warmth of wooden structures reflecting a winter fairy tale atmosphere intertwines with dim lights and traditional Scandinavian motifs.",
       "name_en": "SantaPark"
-    },
-    {
-      "id": "santasport-apartment-hotel",
-      "name": "Santasport Apartment Hotel",
-      "category": "Deneyim",
-      "tags": [
-        "sports",
-        "family",
-        "active"
-      ],
-      "lat": 66.497171,
-      "lng": 25.767382,
-      "rating": 4.4,
-      "description": "Rovaniemi'nin Aalto'nun geyikbaşı planıyla yeniden doğuş vizyonunu sürdüren Santasport, fonksiyonel mimarisiyle Arktik spor ve wellness merkezi olarak bölgenin aktif yaşam kalbini oluşturur.",
-      "description_en": "Embodying Rovaniemi's post-war rebuilding vision by Aalto, Santasport, with functional architecture, is the Arctic sports and wellness hub, heart of active regional life.",
-      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Frovaniemi%2Fsantasport-apartment-hotel.jpg?alt=media",
-      "price": "medium",
-      "tips": "Buz yüzmeyi veya sauna deneyimini mutlaka yaşayın!",
-      "tips_en": "Definitely experience ice swimming or a sauna!",
-      "subcategory": "Apart",
-      "name_en": "Santasport Apartment Hotel"
     },
     {
       "id": "santasport-institute",
@@ -3335,27 +2997,6 @@
       "tips_en": "Dress warmly in layers; the ice bar is very cold.",
       "subcategory": "Kar Parkı",
       "name_en": "Snowman World"
-    },
-    {
-      "id": "snowman-world-glass-resort",
-      "name": "Snowman World Glass Resort",
-      "category": "Deneyim",
-      "tags": [
-        "modern",
-        "glass",
-        "luxury"
-      ],
-      "lat": 66.542649,
-      "lng": 25.845896,
-      "rating": 4.8,
-      "description": "Rovaniemi'nin modern cam iglo ve kar kompleksi, mimari bir harika olarak eşsiz Kuzey Kutbu konaklaması sunar. Kuzey Işıkları izlemeye yönelik tasarlanan tesis, Laponya'nın eşsiz kış deneyimidir.",
-      "description_en": "Rovaniemi's modern glass igloo and snow complex, an architectural marvel, offers unparalleled Arctic accommodation. Designed for Northern Lights viewing, it embodies Lapland's unique winter experience.",
-      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Frovaniemi%2Fsnowman-world-glass-resort.jpg?alt=media",
-      "price": "high",
-      "tips": "Kuzey Işıkları için popüler dönemlerde erken rezervasyon yapmak önemlidir.",
-      "tips_en": "Booking early is crucial during popular periods for Northern Lights viewing.",
-      "subcategory": "Otel",
-      "name_en": "Snowman World Glass Resort"
     },
     {
       "id": "syvsenvaara-fell",

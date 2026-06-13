@@ -12,6 +12,10 @@ service firebase.storage {
       allow read: if true;
       allow write: if false;
     }
+    match /hotels/{allPaths=**} {
+      allow read: if true;
+      allow write: if false;
+    }
 
     // Diğer her şey kapalı (kullanıcı yüklemeleri vs eklenirse burası genişletilir).
     match /{allPaths=**} {

@@ -784,90 +784,6 @@
       "bestTime_en": "All Day"
     },
     {
-      "id": "ChIJf3wSntiNlxIRo8CCeZSw4Ts",
-      "name": "Hotel Bon Sol Resort & Spa",
-      "name_en": "Hotel Bon Sol Resort & Spa",
-      "category": "Yeme-İçme",
-      "tags": [
-        "mallorca",
-        "travel",
-        "explore"
-      ],
-      "lat": 39.54058070000001,
-      "lng": 2.592458,
-      "rating": 4.7,
-      "reviewCount": 502,
-      "price": "medium",
-      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fmallorca%2FChIJf3wSntiNlxIRo8CCeZSw4Ts.jpg?alt=media",
-      "description": "Dikey mimarisi ve denize basamaklarla inen bahçeleriyle ünlü olan bu lüks otel, Mallorca konukseverliğinin en şık adreslerinden biridir. Şehir kalabalığından korunmuş saklı koyu ve kaliteli spa hizmetiyle, hem dinlenmek hem de adanın eşsiz kıyılarını keşfetmek isteyen seçkin gezginlerin favorisidir.",
-      "description_en": "Famous for its vertical architecture and gardens descending to the sea in steps, this luxury hotel is one of the most elegant addresses for Mallorca hospitality. With its hidden bay protected from city crowds and high-quality spa service, it is a favorite for elite travelers wanting to both relax and explore the island's unique shores.",
-      "source": "firebase",
-      "tips": "Akşam yemeği için mutlaka önceden rezervasyon yaptırmanızı öneririz.",
-      "tips_en": "We highly recommend making a reservation in advance for dinner.",
-      "bestTime": "Gün Boyu",
-      "duration": "1.5 - 2 Saat",
-      "bestTime_en": "All Day"
-    },
-    {
-      "id": "ChIJJwHxZ4OOlxIRW-BAHEzC04E",
-      "name": "Sallès Hotels Marina Portals",
-      "name_en": "Sallès Hotels Marina Portals",
-      "category": "Yeme-İçme",
-      "tags": [
-        "mallorca",
-        "travel",
-        "explore"
-      ],
-      "lat": 39.5361711,
-      "lng": 2.5703673,
-      "rating": 4.2,
-      "reviewCount": 1703,
-      "price": "medium",
-      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fmallorca%2FChIJJwHxZ4OOlxIRW-BAHEzC04E.jpg?alt=media",
-      "description": "Portals Nous bölgesinde yer alan bu prestijli tesis, modern konforu Akdeniz güneşiyle buluşturuyor. Şık havuz alanı ve kentin en popüler yat limanlarına olan yakınlığıyla dikkat çeken otel, adanın kozmopolit lüksünü ve neşeli sahil yaşamını doyasıya hissettiren kaliteli bir konaklama durağıdır.",
-      "description_en": "Located in the Portals Nous area, this prestigious facility brings modern comfort together with the Mediterranean sun. Standing out with its chic pool area and proximity to the city's most popular yacht harbors, the hotel is a high-quality accommodation stop that makes you fully feel the island's cosmopolitan luxury and joyous seaside life.",
-      "source": "firebase",
-      "tips": "Akşam yemeği için mutlaka önceden rezervasyon yaptırmanızı öneririz.",
-      "tips_en": "We highly recommend making a reservation in advance for dinner.",
-      "bestTime": "Gün Boyu",
-      "duration": "1.5 - 2 Saat",
-      "bestTime_en": "All Day",
-      "openHours": {
-        "sunday": "closed",
-        "monday": "closed",
-        "tuesday": "closed",
-        "wednesday": "closed",
-        "thursday": "00:00-23:59",
-        "friday": "00:00-24:00",
-        "saturday": "closed"
-      }
-    },
-    {
-      "id": "ChIJRXqd3USSlxIRt5DCbb2ob40",
-      "name": "Petit Palace Hotel Tres",
-      "name_en": "Petit Palace Hotel Tres",
-      "category": "Yeme-İçme",
-      "tags": [
-        "mallorca",
-        "travel",
-        "explore"
-      ],
-      "lat": 39.5689865,
-      "lng": 2.6455343,
-      "rating": 4.6,
-      "reviewCount": 468,
-      "price": "medium",
-      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fmallorca%2FChIJRXqd3USSlxIRt5DCbb2ob40.jpg?alt=media",
-      "description": "Palma'nın tarihi merkezinde, 16. yüzyıldan kalma bir sarayda yer alan Petit Palace Tres, modern lezzetleri Akdeniz esintisiyle sunar. Avlusunda huzurlu bir yemek deneyimi yaşayın.",
-      "description_en": "Located in a 16th-century palace in Palma's historic center, Petit Palace Tres offers modern Mediterranean flavors. Enjoy a peaceful dining experience in its charming courtyard.",
-      "source": "firebase",
-      "tips": "Akşam yemeği için avlusundaki masayı tercih edin; tarihi atmosferde huzurlu bir deneyim sunar.",
-      "tips_en": "Opt for a table in the courtyard for dinner; it offers a peaceful experience amidst a historic atmosphere.",
-      "bestTime": "Gün Boyu",
-      "duration": "1.5 - 2 Saat",
-      "bestTime_en": "All Day"
-    },
-    {
       "id": "ChIJI0J2ZZyWlxIR4Mm6_DwuPqQ",
       "name": "Alua Leo",
       "name_en": "Alua Leo",
@@ -995,133 +911,6 @@
       "bestTime_en": "All Day"
     },
     {
-      "id": "ChIJJUJc_WeSlxIR8TjWsA9o7Kw",
-      "name": "Hotel Hostal Cuba",
-      "name_en": "Hotel Hostal Cuba",
-      "category": "Yeme-İçme",
-      "tags": [
-        "mallorca",
-        "travel",
-        "explore"
-      ],
-      "lat": 39.5702062,
-      "lng": 2.6391515,
-      "rating": 4.1,
-      "reviewCount": 2669,
-      "price": "medium",
-      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fmallorca%2FChIJJUJc_WeSlxIR8TjWsA9o7Kw.jpg?alt=media",
-      "description": "Palma'nın ikonik Art Nouveau binalarından birinde yer alan Hotel Hostal Cuba, kentin liman kültürünü ve modern şıklığını temsil eder. Ünlü çatı terasındaki eşsiz gün batımı manzarası ve kaliteli kokteylleriyle, geceye hareketli bir başlangıç yapmak isteyen seçkin kitlenin favori buluşma noktasıdır.",
-      "description_en": "Located in one of Palma's iconic Art Nouveau buildings, Hotel Hostal Cuba represents the city's harbor culture and modern elegance. With its unique sunset view on the famous roof terrace and quality cocktails, it is the favorite meeting point for the elite crowd wanting a lively start to the night.",
-      "source": "firebase",
-      "tips": "Akşam yemeği için mutlaka önceden rezervasyon yaptırmanızı öneririz.",
-      "tips_en": "We highly recommend making a reservation in advance for dinner.",
-      "bestTime": "Gün Boyu",
-      "duration": "1.5 - 2 Saat",
-      "bestTime_en": "All Day",
-      "openHours": {
-        "sunday": "09:00-24:00",
-        "monday": "00:00-03:30, 08:00-24:00",
-        "tuesday": "00:00-03:00, 08:00-24:00",
-        "wednesday": "00:00-03:00, 08:00-24:00",
-        "thursday": "00:00-03:00, 08:00-23:59",
-        "friday": "00:00-03:00, 08:00-24:00",
-        "saturday": "00:00-03:00"
-      }
-    },
-    {
-      "id": "ChIJx9-bd32OlxIRpvyZeGOMoZc",
-      "name": "Hotel Bendinat",
-      "name_en": "Hotel Bendinat",
-      "category": "Yeme-İçme",
-      "tags": [
-        "mallorca",
-        "travel",
-        "explore"
-      ],
-      "lat": 39.532265,
-      "lng": 2.579967,
-      "rating": 4.4,
-      "reviewCount": 1061,
-      "price": "medium",
-      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fmallorca%2FChIJx9-bd32OlxIRpvyZeGOMoZc.jpg?alt=media",
-      "description": "Sarp kayaların üzerine kurulu masmavi bir koyda yer alan Bendinat, klasik İspanyol stilini ve deniz sefasını en samimi haliyle sunuyor. Adını çevresindeki antik surlardan alan bu tesis, hem doğa yürüyüşleri hem de berrak sularda serinlemek isteyenler için kentin en huzurlu sahil duraklarından biridir.",
-      "description_en": "Located in a deep blue bay built on steep rocks, Bendinat offers classic Spanish style and seaside delight in its most sincere form. Taking its name from the surrounding ancient walls, this facility is one of the city's most peaceful coastal stops for those wanting both nature walks and to cool off in clear waters.",
-      "source": "firebase",
-      "tips": "Akşam yemeği için mutlaka önceden rezervasyon yaptırmanızı öneririz.",
-      "tips_en": "We highly recommend making a reservation in advance for dinner.",
-      "bestTime": "Gün Boyu",
-      "duration": "1.5 - 2 Saat",
-      "bestTime_en": "All Day"
-    },
-    {
-      "id": "ChIJB5NZmWOWlxIRHYVyowelens",
-      "name": "Hotel THB María Isabel",
-      "name_en": "Hotel THB María Isabel",
-      "category": "Yeme-İçme",
-      "tags": [
-        "mallorca",
-        "travel",
-        "explore"
-      ],
-      "lat": 39.5238935,
-      "lng": 2.7421485,
-      "rating": 4.3,
-      "reviewCount": 1284,
-      "price": "medium",
-      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fmallorca%2FChIJB5NZmWOWlxIRHYVyowelens.jpg?alt=media",
-      "description": "Playa de Palma'nın enerjik atmosferinde yer alan bu modern otel, sadece yetişkinlere özel konseptiyle huzur ve eğlenceyi bir arada sunuyor. Şık havuz alanı ve denize olan yakınlığıyla dikkat çeken tesis, adanın neşeli yaz ruhunu kaliteli bir hizmet anlayışıyla keşfetmek isteyenlerin adresidir.",
-      "description_en": "Located in the energetic atmosphere of Playa de Palma, this modern hotel offers peace and fun together with its adults-only concept. Standing out with its chic pool area and proximity to the sea, the facility is the address for those wanting to explore the island's joyful summer spirit with a high-quality service concept.",
-      "source": "firebase",
-      "tips": "Akşam yemeği için mutlaka önceden rezervasyon yaptırmanızı öneririz.",
-      "tips_en": "We highly recommend making a reservation in advance for dinner.",
-      "bestTime": "Gün Boyu",
-      "duration": "1.5 - 2 Saat",
-      "bestTime_en": "All Day",
-      "openHours": {
-        "sunday": "closed",
-        "monday": "closed",
-        "tuesday": "closed",
-        "wednesday": "closed",
-        "thursday": "00:00-23:59",
-        "friday": "00:00-24:00",
-        "saturday": "closed"
-      }
-    },
-    {
-      "id": "ChIJjcao54eWlxIRxW_PkmeY-kI",
-      "name": "BG HOTEL PAMPLONA",
-      "name_en": "BG HOTEL PAMPLONA",
-      "category": "Yeme-İçme",
-      "tags": [
-        "mallorca",
-        "travel",
-        "explore"
-      ],
-      "lat": 39.526672,
-      "lng": 2.736275,
-      "rating": 4.3,
-      "reviewCount": 1535,
-      "price": "medium",
-      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fmallorca%2FChIJjcao54eWlxIRxW_PkmeY-kI.jpg?alt=media",
-      "description": "BG Hotel Pamplona'nın modern restoranı, Navarra mutfağının lezzetlerini sunar. Şehrin enerjisini yansıtan menüsüyle keyifli bir mola.",
-      "description_en": "BG Hotel Pamplona's modern restaurant offers the flavors of Navarra cuisine. A delightful break with a menu reflecting the city's energy.",
-      "source": "firebase",
-      "tips": "Öğle yemeği için günlük menüleri, yerel tatları uygun fiyata denemek için harika.",
-      "tips_en": "Their daily menu for lunch is great for trying local flavors at a good price.",
-      "bestTime": "Gün Boyu",
-      "duration": "1.5 - 2 Saat",
-      "bestTime_en": "All Day",
-      "openHours": {
-        "sunday": "closed",
-        "monday": "closed",
-        "tuesday": "closed",
-        "wednesday": "closed",
-        "thursday": "00:00-23:59",
-        "friday": "00:00-24:00",
-        "saturday": "closed"
-      }
-    },
-    {
       "id": "ChIJ3-nnOGKWlxIR--EVaejOzcw",
       "name": "tent Capi Playa",
       "name_en": "tent Capi Playa",
@@ -1206,40 +995,6 @@
       }
     },
     {
-      "id": "ChIJEQZo3U-SlxIRGIlk5-EXNjQ",
-      "name": "Hotel Cappuccino - Palma",
-      "name_en": "Hotel Cappuccino - Palma",
-      "category": "Yeme-İçme",
-      "tags": [
-        "mallorca",
-        "travel",
-        "explore"
-      ],
-      "lat": 39.56971739999999,
-      "lng": 2.6502664,
-      "rating": 4.4,
-      "reviewCount": 1587,
-      "price": "medium",
-      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fmallorca%2FChIJEQZo3U-SlxIRGIlk5-EXNjQ.jpg?alt=media",
-      "description": "Palma'nın kalbinde yer alan bu şık butik otel, ünlü Cappuccino markasının zarafetini ve Akdeniz yaşam tarzını en üst seviyede sunuyor. Tarihi bir binanın modern sanatla bütünleştiği tesis, katedral manzaralı terası ve sofistike kafesiyle kentin en prestijli konaklama noktalarından biridir.",
-      "description_en": "Located in the heart of Palma, this chic boutique hotel offers the elegance of the famous Cappuccino brand and the Mediterranean lifestyle at the highest level. Integrating a historic building with modern art, the facility is one of the city me's most prestigious accommodation points with its cathedral-view terrace and sophisticated cafe.",
-      "source": "firebase",
-      "tips": "Akşam yemeği için mutlaka önceden rezervasyon yaptırmanızı öneririz.",
-      "tips_en": "We highly recommend making a reservation in advance for dinner.",
-      "bestTime": "Gün Boyu",
-      "duration": "1.5 - 2 Saat",
-      "bestTime_en": "All Day",
-      "openHours": {
-        "sunday": "closed",
-        "monday": "closed",
-        "tuesday": "closed",
-        "wednesday": "closed",
-        "thursday": "00:00-23:59",
-        "friday": "00:00-24:00",
-        "saturday": "closed"
-      }
-    },
-    {
       "id": "ChIJoegB1USSlxIRY4l-EKhDs9c",
       "name": "Can Alomar Urban Luxury Retreat",
       "name_en": "Can Alomar Urban Luxury Retreat",
@@ -1260,31 +1015,6 @@
       "source": "firebase",
       "tips": "Özel tadım menüsünü deneyimleyin; yerel malzemelerle hazırlanan lezzetler sizi büyüleyecek.",
       "tips_en": "Experience the special tasting menu; flavors prepared with local ingredients will enchant you.",
-      "bestTime": "Gün Boyu",
-      "duration": "1.5 - 2 Saat",
-      "bestTime_en": "All Day"
-    },
-    {
-      "id": "ChIJA2USlX2PlxIRJCOeKj1cgUs",
-      "name": "Leonardo Boutique Hotel Mallorca Port Portals - Adults Only",
-      "name_en": "Leonardo Boutique Hotel Mallorca Harbor Portals - Adults Only",
-      "category": "Yeme-İçme",
-      "tags": [
-        "mallorca",
-        "travel",
-        "explore"
-      ],
-      "lat": 39.5343812,
-      "lng": 2.5660423,
-      "rating": 4.5,
-      "reviewCount": 964,
-      "price": "medium",
-      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fmallorca%2FChIJA2USlX2PlxIRJCOeKj1cgUs.jpg?alt=media",
-      "description": "Portals Nous'ta, lüks yat limanına yakın konumlanan bu yetişkin oteli, Akdeniz esintili kahvaltıları ve havuz başı atıştırmalıklarıyla öne çıkar.",
-      "description_en": "Located in Portals Nous, near the luxurious marina, this adults-only hotel stands out with its Mediterranean-inspired breakfasts and poolside snacks.",
-      "source": "firebase",
-      "tips": "Akdeniz kahvaltısı çeşitliliği ve havuz kenarında sunulan hafif öğle yemekleri için idealdir. Gün batımında kokteyl keyfi yapın.",
-      "tips_en": "Ideal for its varied Mediterranean breakfast and light lunches served by the pool. Enjoy a cocktail at sunset.",
       "bestTime": "Gün Boyu",
       "duration": "1.5 - 2 Saat",
       "bestTime_en": "All Day"
@@ -1322,31 +1052,6 @@
         "friday": "12:30-16:00, 19:00-23:00",
         "saturday": "12:30-16:00, 19:00-23:00"
       }
-    },
-    {
-      "id": "ChIJfz378k6SlxIRQgnPvhdBurw",
-      "name": "Santa Clara Urban Hotel & Spa",
-      "name_en": "Santa Clara Urban Hotel & Spa",
-      "category": "Yeme-İçme",
-      "tags": [
-        "mallorca",
-        "travel",
-        "explore"
-      ],
-      "lat": 39.5668394,
-      "lng": 2.6522388,
-      "rating": 4.5,
-      "reviewCount": 263,
-      "price": "medium",
-      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fmallorca%2FChIJfz378k6SlxIRQgnPvhdBurw.jpg?alt=media",
-      "description": "Eski kentin tarihi surları içerisinde yer alan bu butik hotel ve spa, antik taş yapısı ve modern iç tasarımıyla büyüleyici bir zıtlık yaratıyor. Katedral manzaralı teras barı ve huzur veren spa olanaklarıyla, kentin tarihi dokusunda kendinizi özel hissedeceğiniz romantik ve rafine bir dinlenme noktasıdır.",
-      "description_en": "Located within the ancient walls of the old town, this boutique hotel and spa creates a fascinating contrast with its ancient stone structure and modern interior design. With its terrace bar featuring cathedral views and peaceful spa facilities, it is a romantic and refined rest point where you will feel special in the city's historical texture.",
-      "source": "firebase",
-      "tips": "Akşam yemeği için mutlaka önceden rezervasyon yaptırmanızı öneririz.",
-      "tips_en": "We highly recommend making a reservation in advance for dinner.",
-      "bestTime": "Gün Boyu",
-      "duration": "1.5 - 2 Saat",
-      "bestTime_en": "All Day"
     },
     {
       "id": "ChIJa286tk-SlxIR2Cbko3a4S0E",
@@ -1923,31 +1628,6 @@
         "friday": "09:30-13:00, 16:00-20:00",
         "saturday": "09:30-13:00, 16:00-20:00"
       }
-    },
-    {
-      "id": "ChIJ4-PvdYiWlxIRV6Oa2P_cKsc",
-      "name": "Hotel Caballero",
-      "name_en": "Hotel Caballero",
-      "category": "Deneyim",
-      "tags": [
-        "mallorca",
-        "travel",
-        "explore"
-      ],
-      "lat": 39.5275444,
-      "lng": 2.7363023,
-      "rating": 4.3,
-      "reviewCount": 3106,
-      "price": "medium",
-      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fmallorca%2FChIJ4-PvdYiWlxIRV6Oa2P_cKsc.jpg?alt=media",
-      "description": "Playa de Palma sahilinde modern konforu ve enerjik yaz atmosferini bir arada sunan bu otel, denize olan yakınlığı ve şık havuz alanıyla dikkat çekiyor. Güneşin ve Akdeniz melteminin tadını çıkarırken kentin sosyal olanaklarına kolayca ulaşmak isteyen gezginler için ferah ve kaliteli bir konaklama adresidir.",
-      "description_en": "Offering modern comfort and an energetic summer atmosphere together on the Playa de Palma coast, this hotel stands out with its proximity to the sea and chic pool area. It's a spacious and high-quality accommodation address for travelers wanting to easily reach city social facilities while enjoying the sun and Mediterranean breeze.",
-      "source": "firebase",
-      "tips": "Hotel Caballero, Palma merkezinde uygun fiyatlı konaklama arayanlar için pratik bir seçenek; merkezi konumu sayesinde şehrin tarihi bölgelerine yürüme mesafesindedir.",
-      "tips_en": "Hotel Caballero is a practical option for those seeking affordable accommodation in central Palma; its central location means the city's historic areas are within walking distance.",
-      "bestTime": "Gün Boyu",
-      "duration": "1 Saat",
-      "bestTime_en": "All Day"
     },
     {
       "id": "ChIJ4a3aTKaWlxIRswFN7GZDDhk",

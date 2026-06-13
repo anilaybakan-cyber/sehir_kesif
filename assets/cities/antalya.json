@@ -4524,40 +4524,6 @@
       "source": "firebase"
     },
     {
-      "name": "Tuvana Hotel Restaurant",
-      "name_en": "Tuvana Hotel Restaurant",
-      "area": "Kaleiçi",
-      "category": "Yeme-İçme",
-      "tags": [
-        "fine dining",
-        "tarihi",
-        "bahçe"
-      ],
-      "distanceFromCenter": 0.2,
-      "lat": 36.8845,
-      "lng": 30.706,
-      "price": "high",
-      "rating": 4.7,
-      "description": "Kaleiçi'nin kalbinde, Osmanlı mimarisinin dinginliği modern şehir gürültüsüyle tezat oluşturur. Asırlık ağaçlar altında, avlu huzurunda yerel lezzetler sunulur.",
-      "description_en": "In Kaleiçi's heart, Ottoman architecture's serenity contrasts with modern city's pulse. Local flavors are served amidst the courtyard peace under century-old trees, a tranquil escape.",
-      "bestTime": "Akşam",
-      "bestTime_en": "Evening",
-      "tips": "Akşamüstü, avludaki yasemin kokusu eşliğinde soğuk mezeleri deneyin.",
-      "tips_en": "Experience evening cold mezes amidst the courtyard's jasmine fragrance.",
-      "id": "ChIJ331ONQGQwxQROTbc9Ak49J8",
-      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fantalya%2Ftuvana-hotel-restaurant.jpg?alt=media",
-      "source": "firebase",
-      "openHours": {
-        "sunday": "closed",
-        "monday": "closed",
-        "tuesday": "closed",
-        "wednesday": "closed",
-        "thursday": "00:00-23:59",
-        "friday": "00:00-24:00",
-        "saturday": "closed"
-      }
-    },
-    {
       "name": "Vanilla",
       "area": "Kaleiçi",
       "category": "Yeme-İçme",

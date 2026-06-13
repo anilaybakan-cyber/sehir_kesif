@@ -109,30 +109,6 @@
       "distanceFromCenter": 0.5
     },
     {
-      "name": "Ansia Hotel",
-      "name_en": "Ansia Hotel",
-      "area": "Uçhisar",
-      "category": "Deneyim",
-      "tags": [
-        "konfor",
-        "temiz",
-        "merkez"
-      ],
-      "lat": 38.63,
-      "lng": 34.8055,
-      "price": "medium",
-      "rating": 4.9,
-      "description": "Şehir'in tarihi dokusunda modern konfor sunan Ansia Hotel, şehrin enerjisini deneyimlemek isteyenler için ideal bir kaçış noktasıdır.",
-      "description_en": "Offering modern comfort within Şehir's historic fabric, Ansia Hotel is an ideal escape for those seeking to experience the city's energy.",
-      "bestTime": "Gündüz",
-      "tips": "Şehrin panoramik manzarasını sunan teras barında gün batımını kaçırmayın.",
-      "tips_en": "Don't miss the sunset at the rooftop bar, offering panoramic views of the city.",
-      "id": "ansia-hotel",
-      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fkapadokya%2Fansia-hotel.jpg?alt=media",
-      "source": "firebase",
-      "distanceFromCenter": 0.5
-    },
-    {
       "name": "Apple Church",
       "name_en": "Apple Church (Elmalı Kilise)",
       "area": "Göreme",
@@ -1450,30 +1426,6 @@
       "distanceFromCenter": 0.5
     },
     {
-      "name": "Goreme Kaya Hotel",
-      "name_en": "Göreme Kaya Hotel",
-      "area": "Göreme",
-      "category": "Deneyim",
-      "tags": [
-        "otel",
-        "ilk",
-        "havuz"
-      ],
-      "lat": 38.641,
-      "lng": 34.825,
-      "price": "medium",
-      "rating": 4.4,
-      "description": "Binlerce yıllık kayalara oyulmuş bu eşsiz otel, Kapadokya'nın antik Bizans mağara mimarisini olağanüstü sergiler. Tarihi konutlardan dönüştürülen odaları, derin tarihi modern konforla ustaca birleştirir.",
-      "description_en": "Carved into millennia-old rock, this unique hotel profoundly exemplifies Cappadocia's ancient Byzantine cave architecture. Repurposed from historic dwellings, its rooms profoundly merge deep history with modern comforts.",
-      "bestTime": "Gündüz",
-      "tips": "Sabah otel terasından kalkış yapan balonları izlemek büyüleyici bir deneyimdir.",
-      "tips_en": "Watch morning hot air balloons from the hotel terrace for stunning views.",
-      "id": "göreme-kaya-hotel",
-      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fkapadokya%2Fgoreme_kaya_hotel.jpg?alt=media",
-      "source": "firebase",
-      "distanceFromCenter": 0.5
-    },
-    {
       "name": "Goreme Panorama Point",
       "name_en": "Göreme Panorama Point",
       "area": "Uçhisar",
@@ -2128,30 +2080,6 @@
       "name_en": "Kebapzade"
     },
     {
-      "name": "Kelebek Special Cave",
-      "name_en": "Kelebek Special Cave Hotel",
-      "area": "Göreme",
-      "category": "Manzara",
-      "tags": [
-        "havuz",
-        "hamam",
-        "manzara"
-      ],
-      "lat": 38.6418,
-      "lng": 34.83,
-      "price": "high",
-      "rating": 4.8,
-      "description": "Kapadokya'nın tüf kayalarına oyulmuş, Bizans dönemi freskleriyle bezeli bu mağara, erken Hristiyanlığın ibadet ve yaşam alanlarını barındıran mimari bir şaheserdir.",
-      "description_en": "Carved into Cappadocia's tufa rocks, this cave, adorned with Byzantine frescoes, is an architectural masterpiece housing early Christian worship and living spaces.",
-      "bestTime": "Gündüz",
-      "tips": "Kalabalıklardan kaçınmak ve huzurlu anlar için erken saatte ziyaret edin.",
-      "tips_en": "Visit early to avoid crowds and enjoy serene moments.",
-      "id": "kelebek-special-cave-hotel",
-      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fkapadokya%2Fkelebek-special-cave-hotel.jpg?alt=media",
-      "source": "firebase",
-      "distanceFromCenter": 0.5
-    },
-    {
       "name": "Keles Cave Cafe",
       "name_en": "Keleş Cave Cafe",
       "area": "Uçhisar",
@@ -2392,30 +2320,6 @@
       "distanceFromCenter": 0.5
     },
     {
-      "name": "Koza Cave Hotel",
-      "name_en": "Koza Cave Hotel",
-      "area": "Göreme",
-      "category": "Manzara",
-      "tags": [
-        "eko",
-        "teras",
-        "en yüksek"
-      ],
-      "lat": 38.6415,
-      "lng": 34.8315,
-      "price": "high",
-      "rating": 4.9,
-      "description": "Kapadokya'nın ikonik peri bacalarına oyulmuş bu otel, binlerce yıllık kaya mimarisini ve bölgenin Hristiyanlık öncesi, erken Hristiyanlık dönemlerinin yaşam izlerini barındırır.",
-      "description_en": "Carved into Cappadocia's iconic fairy chimneys, this hotel embodies millennia of rock architecture and the region's pre-Christian, early Christian historical living traces.",
-      "bestTime": "Gün doğumu",
-      "tips": "Akşamları otel terasından Kapadokya'nın büyülü panoramik manzarasının keyfini çıkarın.",
-      "tips_en": "Evenings: Enjoy Cappadocia's magical panoramic view from the hotel terrace.",
-      "id": "koza-cave-hotel",
-      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fkapadokya%2Fkoza-cave-hotel.jpg?alt=media",
-      "source": "firebase",
-      "distanceFromCenter": 0.5
-    },
-    {
       "name": "Kızılçukur Vadisi",
       "area": "Göreme",
       "category": "Manzara",
@@ -2641,30 +2545,6 @@
       "distanceFromCenter": 0.5
     },
     {
-      "name": "Mithra Cave Hotel",
-      "name_en": "Mithra Cave Hotel",
-      "area": "Göreme",
-      "category": "Manzara",
-      "tags": [
-        "teras",
-        "fotoğraf",
-        "kahvaltı"
-      ],
-      "lat": 38.6425,
-      "lng": 34.831,
-      "price": "high",
-      "rating": 4.7,
-      "description": "Kapadokya'nın eşsiz peri bacaları arasına oyulmuş Mithra Cave Hotel, tarihi dokusu ve terasından gün doğumu balon manzarasıyla büyüler.",
-      "description_en": "Carved into Cappadocia's unique fairy chimneys, Mithra Cave Hotel enchants with its historical texture and sunrise balloon views from its terrace.",
-      "bestTime": "Gün doğumu",
-      "tips": "Gün doğumu balonlarını izlemek için terasta yerinizi erken alın.",
-      "tips_en": "Secure your spot on the terrace early to witness the sunrise hot air balloons.",
-      "id": "mithra-cave-hotel",
-      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fkapadokya%2Fmithra-cave-hotel.jpg?alt=media",
-      "source": "firebase",
-      "distanceFromCenter": 0.5
-    },
-    {
       "name": "Muhterif",
       "name_en": "Muhterif",
       "area": "Uçhisar",
@@ -2687,30 +2567,6 @@
       "distanceFromCenter": 0.5,
       "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fkapadokya%2Fmuhterif.jpg?alt=media",
       "source": "firebase"
-    },
-    {
-      "name": "Museum Hotel",
-      "name_en": "Museum Hotel",
-      "area": "Uçhisar",
-      "category": "Müze",
-      "tags": [
-        "lüks",
-        "otel",
-        "müze"
-      ],
-      "lat": 38.63,
-      "lng": 34.805,
-      "price": "very_high",
-      "rating": 4.9,
-      "description": "Kapadokya'nın taş oyma konaklarında, Roma ve Bizans dönemlerinden kalma paha biçilmez eserler barındıran bu otel, mimari dehasıyla büyüler. Zengin etnografik koleksiyonuyla tarihe ışık tutar.",
-      "description_en": "Nestled in Cappadocia's carved stone mansions, this unique hotel houses invaluable artifacts from Roman and Byzantine periods, captivating with its architectural genius. Its rich ethnographic collection illuminates history.",
-      "bestTime": "Akşam",
-      "tips": "Otel terasından gün doğumu ve balonları izlemek unutulmaz bir deneyimdir.",
-      "tips_en": "Watching the sunrise and balloons from the hotel terrace is an unforgettable experience.",
-      "id": "museum-hotel",
-      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fkapadokya%2Fmuseum-hotel.jpg?alt=media",
-      "source": "firebase",
-      "distanceFromCenter": 0.5
     },
     {
       "name": "Mustafapasa Village",
@@ -3875,30 +3731,6 @@
       "distanceFromCenter": 0.5
     },
     {
-      "name": "Suhan Cappadocia",
-      "name_en": "Suhan Cappadocia Hotel",
-      "area": "Avanos",
-      "category": "Deneyim",
-      "tags": [
-        "otel",
-        "lüks",
-        "nehir"
-      ],
-      "lat": 38.72,
-      "lng": 34.85,
-      "price": "high",
-      "rating": 4.5,
-      "description": "Kapadokya'nın eşsiz peribacaları arasında, geleneksel mimariyle modern konforu birleştiren Suhan, bölgenin ruhunu yaşatan otantik bir konaklama deneyimi sunar.",
-      "description_en": "Nestled among Cappadocia's unique fairy chimneys, Suhan blends traditional architecture with modern comfort, offering an authentic stay that embodies the region's spirit.",
-      "bestTime": "Gündüz",
-      "tips": "Balon turlarına yakınlığıyla bilinen otelde, gün doğumu manzaralı odaları tercih ederek unutulmaz anlar yaşayın.",
-      "tips_en": "Known for its proximity to balloon tours, choose rooms with sunrise views for unforgettable moments.",
-      "id": "suhan-cappadocia-hotel",
-      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fkapadokya%2Fsuhan-cappadocia-hotel.jpg?alt=media",
-      "source": "firebase",
-      "distanceFromCenter": 0.5
-    },
-    {
       "name": "Sultan Carpets",
       "area": "Göreme",
       "category": "Alışveriş",
@@ -3997,30 +3829,6 @@
       "tips_en": "Visit the madrasa before noon to calmly appreciate its detailed stonework.",
       "id": "taşkınpaşa-madrasa",
       "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fkapadokya%2Ftaskinpasa_madrasa.jpg?alt=media",
-      "source": "firebase",
-      "distanceFromCenter": 0.5
-    },
-    {
-      "name": "Taskonaklar",
-      "name_en": "Taşkonaklar Hotel",
-      "area": "Uçhisar",
-      "category": "Deneyim",
-      "tags": [
-        "butik",
-        "romantik",
-        "jakuzi"
-      ],
-      "lat": 38.629,
-      "lng": 34.804,
-      "price": "very_high",
-      "rating": 4.8,
-      "description": "Kapadokya'nın eşsiz peribacalarına oyulmuş Taskonaklar, Roma ve Bizans dönemi kaya mimarisinin zirvesidir. Bu tarihi yapılar, antik medeniyetlerin derin mirasını barındırır.",
-      "description_en": "Carved into Cappadocia's unique fairy chimneys, Taskonaklar showcases the pinnacle of Roman and Byzantine rock-cut architecture. These historic structures house ancient civilizations' profound heritage.",
-      "bestTime": "Gündüz",
-      "tips": "Gün batımında terastan Kapadokya manzarasını izlemeyi unutmayın, büyüleyici!",
-      "tips_en": "Don't forget to watch the captivating Cappadocia sunset from the terrace.",
-      "id": "taşkonaklar-hotel",
-      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fkapadokya%2Ftaskonaklar.jpg?alt=media",
       "source": "firebase",
       "distanceFromCenter": 0.5
     },
@@ -4221,30 +4029,6 @@
       "description_en": "Carved into Cappadocia's millennia-old tuff rocks, this unique venue reflects the architectural genius of the region's ancient civilizations. It offers traditional Turkish night experiences in an authentic atmosphere.",
       "tips_en": "Arrive early and be prepared for the cave's coolness.",
       "name_en": "Türk Gecesi"
-    },
-    {
-      "name": "Uchisar Kaya Otel",
-      "name_en": "Uçhisar Kaya Otel",
-      "area": "Uçhisar",
-      "category": "Deneyim",
-      "tags": [
-        "otel",
-        "havuz",
-        "manzara"
-      ],
-      "lat": 38.628,
-      "lng": 34.806,
-      "price": "high",
-      "rating": 4.5,
-      "description": "Uçhisar Kalesi'nin eteklerinde, gerçek bir kaya oyma otelde konaklayın. Kapadokya'nın eşsiz vadilerine bakan odalarıyla tarihi bir deneyim sunar.",
-      "description_en": "Stay in a genuine rock-carved hotel at the foot of Uçhisar Castle. It offers a historical experience with rooms overlooking Cappadocia's unique valleys.",
-      "bestTime": "Gündüz",
-      "tips": "Gün batımını izlemek için terasından Kapadokya vadilerine karşı bir içki yudumlayın.",
-      "tips_en": "Sip a drink on its terrace against the Cappadocia valleys to watch the sunset.",
-      "id": "uçhisar-kaya-otel",
-      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/myway-3fe75.firebasestorage.app/o/cities%2Fkapadokya%2Fuchisar_kaya_otel.jpg?alt=media",
-      "source": "firebase",
-      "distanceFromCenter": 0.5
     },
     {
       "name": "Uchisar Old Square",
