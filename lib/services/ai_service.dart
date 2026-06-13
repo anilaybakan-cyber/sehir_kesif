@@ -8,6 +8,8 @@ import 'package:google_generative_ai/google_generative_ai.dart';
 import '../models/city_model.dart';
 import 'city_blog_content.dart';
 import 'city_data_loader.dart';
+import 'content_update_service.dart';
+import 'package:flutter/foundation.dart';
 import 'ai_cache_service.dart'; // Cache service import
 
 import 'package:flutter_dotenv/flutter_dotenv.dart';
@@ -2262,6 +2264,17 @@ class AIService {
     if (normalizedCity == 'brussels') normalizedCity = 'bruksel';
     if (normalizedCity == 'istnbul') normalizedCity = 'istanbul';
     
+    // 0. Önce OTA Blog Verisini (Markdown) kontrol et
+    try {
+      final lang = isEnglish ? 'en' : 'tr';
+      final remoteContent = await ContentUpdateService.getRemoteBlogContent(normalizedCity, lang);
+      if (remoteContent != null && remoteContent.isNotEmpty) {
+        return remoteContent;
+      }
+    } catch (e) {
+      debugPrint("⚠️ OTA Blog okuma hatası ($city): $e");
+    }
+
     // 1. Önce JSON verisinden (CityModel.guide) okumayı dene
     try {
       final CityModel cityModel = await CityDataLoader.loadCity(city);
