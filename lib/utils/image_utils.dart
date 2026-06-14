@@ -9,7 +9,7 @@ import 'package:flutter_cache_manager/flutter_cache_manager.dart';
 /// çalıştıktan sonra bu değeri [true] yapınız.
 /// [true] olduğunda orijinal resimler yerine otomatik olarak _600x600.webp 
 /// veya _1200x1200.webp kopyaları servis edilir.
-const bool kResizeExtensionActive = false;
+const bool kResizeExtensionActive = true;
 
 /// Firebase + Cloudflare (veya Firebase Hosting CDN) bağlandığında bu değeri [true] yapınız.
 const bool kUseCdn = false;
@@ -28,6 +28,49 @@ int memCacheWidthForListThumbnail(BuildContext context) {
   // ~2 sütunlu grid varsayımı (yatay padding payı)
   final logicalThumb = ((w - 40) / 2).clamp(130.0, 280.0);
   return (logicalThumb * dpr).round().clamp(384, 960);
+}
+
+/// Şehir seç listesindeki 56×56 dp thumbnail kartları için decode boyutu.
+/// [CachedNetworkImage.memCacheWidth] ile uyumlu; tam çözünürlük decode önlenir.
+int memCacheWidthForCitySwitcherThumb(BuildContext context) {
+  final mq = MediaQuery.maybeOf(context);
+  final dpr = (mq?.devicePixelRatio ?? 2.0).clamp(1.0, 3.0);
+  return (56 * dpr).round().clamp(112, 360);
+}
+
+/// Tam genişlikte üst görsel (Keşfet mekan kartı vb.): yatay padding çıkarılmış genişlik × DPR.
+int memCacheWidthForFullWidthCard(BuildContext context, {double horizontalInset = 40}) {
+  final mq = MediaQuery.maybeOf(context);
+  final dpr = (mq?.devicePixelRatio ?? 2.0).clamp(1.0, 3.0);
+  final logicalW = ((mq?.size.width ?? 390.0) - horizontalInset).clamp(280.0, 900.0);
+  return (logicalW * dpr).round().clamp(600, 1400);
+}
+
+/// Kart üst şeridinin dikey dp karşılığı (örn. 200 = ana mekan kartı görseli).
+int memCacheHeightForCardBand(BuildContext context, double logicalHeightDp) {
+  final mq = MediaQuery.maybeOf(context);
+  final dpr = (mq?.devicePixelRatio ?? 2.0).clamp(1.0, 3.0);
+  return (logicalHeightDp * dpr).round().clamp(200, 1200);
+}
+
+/// `place_card.dart` — 170×110 dp görsel alanı.
+int memCacheWidthForCompactPlaceCard(BuildContext context) {
+  final mq = MediaQuery.maybeOf(context);
+  final dpr = (mq?.devicePixelRatio ?? 2.0).clamp(1.0, 3.0);
+  return (170 * dpr).round().clamp(256, 640);
+}
+
+int memCacheHeightForCompactPlaceCard(BuildContext context) {
+  final mq = MediaQuery.maybeOf(context);
+  final dpr = (mq?.devicePixelRatio ?? 2.0).clamp(1.0, 3.0);
+  return (110 * dpr).round().clamp(200, 520);
+}
+
+/// `place_list_tile.dart` — 90×90 dp thumb.
+int memCacheExtentForPlaceListThumb(BuildContext context) {
+  final mq = MediaQuery.maybeOf(context);
+  final dpr = (mq?.devicePixelRatio ?? 2.0).clamp(1.0, 3.0);
+  return (90 * dpr).round().clamp(180, 400);
 }
 
 /// Detay / tam genişlik hero için decode (daha ağır; yalnızca detayda kullan).
@@ -80,7 +123,7 @@ String resolveOptimizedImageUrl(String rawUrl, {bool isHero = false}) {
   }
 
   // Eğer uygulama depolama alanımızdaysa (GCS / Firebase Storage)
-  if (path.isNotEmpty && (path.startsWith('cities/') || path.startsWith('routes/'))) {
+  if (path.isNotEmpty && (path.startsWith('cities/') || path.startsWith('routes/') || path.startsWith('hotels/'))) {
     // Resize Extension devredeyse dosya adını optimize uzantıyla değiştir
     if (kResizeExtensionActive && !path.contains('_600x600') && !path.contains('_1200x1200')) {
       final extIndex = path.lastIndexOf('.');
