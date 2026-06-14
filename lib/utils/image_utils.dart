@@ -118,7 +118,12 @@ String resolveOptimizedImageUrl(String rawUrl, {bool isHero = false}) {
   } else if (uri.host == 'firebasestorage.googleapis.com' && uri.pathSegments.contains('o')) {
     final oIndex = uri.pathSegments.indexOf('o');
     if (oIndex + 1 < uri.pathSegments.length) {
-      path = Uri.decodeComponent(uri.pathSegments[oIndex + 1]);
+      final segment = uri.pathSegments[oIndex + 1];
+      try {
+        path = Uri.decodeComponent(segment);
+      } catch (e) {
+        path = segment; // If it fails due to illegal percent encoding, just use the decoded segment
+      }
     }
   }
 
