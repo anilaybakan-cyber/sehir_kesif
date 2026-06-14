@@ -166,6 +166,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
     
     TripUpdateService().visitUpdated.addListener(_onVisitUpdated);
     TripUpdateService().favoritesUpdated.addListener(_loadData); // 🔥 Add this line
+    TripUpdateService().cityChanged.addListener(_loadData); // Added for real-time city updates
     _badgeService.badgesNotifier.addListener(_onBadgesUpdated);
     _memoryService.memoriesNotifier.addListener(_onMemoriesUpdated);
   }
@@ -207,6 +208,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
   void dispose() {
     TripUpdateService().visitUpdated.removeListener(_onVisitUpdated);
     TripUpdateService().favoritesUpdated.removeListener(_loadData); // 🔥 Add this line
+    TripUpdateService().cityChanged.removeListener(_loadData); // Removed
     TripUpdateService().tripUpdated.removeListener(_loadData);
     _scrollController.dispose();
     super.dispose();
