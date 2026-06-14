@@ -31,6 +31,7 @@ import '../services/premium_service.dart';
 import '../services/image_prefetch_service.dart';
 import 'package:tutorial_coach_mark/tutorial_coach_mark.dart';
 import '../widgets/tutorial_overlay_widget.dart';
+import '../widgets/feature_spotlight.dart';
 import 'paywall_screen.dart';
 import '../secrets.dart';
 import '../services/smart_itinerary_builder.dart';
@@ -109,6 +110,7 @@ class _RoutesScreenState extends State<RoutesScreen>
   final GlobalKey _createRouteButtonKey = GlobalKey();
   final GlobalKey _myRouteStatsKey = GlobalKey();
   final GlobalKey _startRouteButtonKey = GlobalKey();
+  final GlobalKey _dayTabsKey = GlobalKey(); // Premium spotlight: gün sekmeleri
   
   bool get isEnglish => AppLocalizations.instance.isEnglish;
 
@@ -136,6 +138,8 @@ class _RoutesScreenState extends State<RoutesScreen>
   List<Highlight> _tripPlaces = [];
   Map<int, List<Highlight>> _dayPlans = {};
   Map<String, String> _placeCityMap = {}; // Yer adı -> şehir adı mapping
+  Map<String, String> _aiStartTimes = {}; // AI planının kayıtlı başlangıç saatleri (place_name -> "HH:mm")
+  bool _hasAiScheduleData = false; // Schedule JSON'da startTime verisi var mı?
   int _totalDays = 1;
   int _tripDays = 3; // Onboarding'den gelen gün sayısı
   List<SuggestedRoute> _allSuggestedRoutes = [];
@@ -176,6 +180,56 @@ class _RoutesScreenState extends State<RoutesScreen>
   bool _showSuggestionsScrollToTop = false; // For Suggestions
 
   // Scroll Controller
+  MapType _currentMapType = MapType.normal;
+  bool _useCustomDarkStyle = false; // Default to false for "real" map style
+
+  void _cycleMapStyle() {
+    setState(() {
+      if (_useCustomDarkStyle) {
+        _useCustomDarkStyle = false;
+        _currentMapType = MapType.normal;
+      } else if (_currentMapType == MapType.normal) {
+        _currentMapType = MapType.hybrid;
+      } else {
+        _useCustomDarkStyle = true;
+        _currentMapType = MapType.normal;
+      }
+      _applyMapStyle();
+    });
+
+    final isEn = AppLocalizations.instance.isEnglish;
+    String modeName = "";
+    if (_useCustomDarkStyle) {
+      modeName = isEn ? "Dark Style" : "Karanlık Tema";
+    } else if (_currentMapType == MapType.hybrid) {
+      modeName = isEn ? "Satellite Map" : "Uydu Haritası";
+    } else {
+      modeName = isEn ? "Standard Map" : "Gerçek Harita";
+    }
+
+    ScaffoldMessenger.of(context).clearSnackBars();
+    ScaffoldMessenger.of(context).showSnackBar(
+      SnackBar(
+        content: Text(
+          isEn ? "Map style set to: $modeName" : "Harita tarzı değiştirildi: $modeName",
+          style: const TextStyle(color: WanderlustColors.textWhite, fontWeight: FontWeight.w500),
+        ),
+        backgroundColor: WanderlustColors.bgCardLight,
+        behavior: SnackBarBehavior.floating,
+        duration: const Duration(milliseconds: 1000),
+      ),
+    );
+  }
+
+  void _applyMapStyle() {
+    if (_routeMapController != null) {
+      if (_useCustomDarkStyle) {
+        _routeMapController!.setMapStyle(darkMapStyle);
+      } else {
+        _routeMapController!.setMapStyle(null);
+      }
+    }
+  }
 
   @override
   void initState() {
@@ -331,6 +385,8 @@ class _RoutesScreenState extends State<RoutesScreen>
     
     // Benzersiz isimleri ve şehirlerini topla
     final Map<String, String> placeCityMapping = {};
+    final Map<String, String> aiStartTimes = {};
+    bool hasAiScheduleData = false;
 
     if (savedScheduleJson != null) {
       try {
@@ -369,10 +425,16 @@ class _RoutesScreenState extends State<RoutesScreen>
             String placeName;
             String placeCity;
             
-            // Yeni format: {"name": "...", "city": "..."}
+            // Yeni format: {"name": "...", "city": "...", "startTime": "..."}
             if (item is Map<String, dynamic>) {
               placeName = item['name']?.toString() ?? '';
               placeCity = (item['city']?.toString() ?? currentCity).toLowerCase();
+              // AI planından gelen startTime verisini sakla
+              final startTime = item['startTime']?.toString();
+              if (startTime != null && startTime.isNotEmpty) {
+                aiStartTimes[placeName] = startTime;
+                hasAiScheduleData = true;
+              }
             } 
             // Eski format: sadece isim string
             else {
@@ -516,15 +578,22 @@ class _RoutesScreenState extends State<RoutesScreen>
         _tripPlaceNames = uniqueNames.toList();
         _tripPlaces = tripHighlights;
         
-        // Auto-optimize each day plan
-        final optimizedDayPlans = <int, List<Highlight>>{};
-        dayPlans.forEach((day, places) {
-          optimizedDayPlans[day] = _getOptimizedSequence(places);
-        });
-        _dayPlans = optimizedDayPlans;
+        // AI planlarında kayıtlı sırayı koru; sadece manuel planlarda optimize et
+        final isAiPlanLoaded = prefs.getBool("is_ai_plan_$currentCity") ?? false;
+        if (isAiPlanLoaded && hasAiScheduleData) {
+          _dayPlans = dayPlans;
+        } else {
+          final optimizedDayPlans = <int, List<Highlight>>{};
+          dayPlans.forEach((day, places) {
+            optimizedDayPlans[day] = _getOptimizedSequence(places);
+          });
+          _dayPlans = optimizedDayPlans;
+        }
 
         _routeOrigins = loadedOrigins; // Restore static route origins
         _placeCityMap = placeCityMapping;
+        _aiStartTimes = aiStartTimes;
+        _hasAiScheduleData = hasAiScheduleData;
         _tripDays = onboardingDays; // Onboarding'den gelen gün sayısını sakla
         _totalDays = math.max(maxDay, onboardingDays); // En azından onboarding günleri kadar göster
         _loading = false;
@@ -547,7 +616,11 @@ class _RoutesScreenState extends State<RoutesScreen>
       Future.microtask(() async {
         try {
           await Future.wait(
-            urlsToDownload.map((url) => AppImageCacheManager.instance.downloadFile(url).catchError((_) => null))
+            urlsToDownload.map((url) async {
+              try {
+                await AppImageCacheManager.instance.downloadFile(url);
+              } catch (_) {}
+            })
           );
         } catch (_) {}
         if (mounted) {
@@ -566,7 +639,12 @@ class _RoutesScreenState extends State<RoutesScreen>
 
   void _checkTutorial() {
     if (!widget.isVisible) return;
-    
+
+    // Ekran zaten "Rotam" sekmesinde açıldıysa day2 spotlight'ını dene
+    if (_mainTabController.index == 1) {
+      _checkDay2Spotlight();
+    }
+
     TutorialService.instance.shouldShowTutorial(TutorialService.KEY_TUTORIAL_ROUTES).then((shouldShow) {
       if (shouldShow) {
         Future.delayed(const Duration(milliseconds: 500), () {
@@ -593,7 +671,22 @@ class _RoutesScreenState extends State<RoutesScreen>
     // Trigger My Route tutorial when switching to "Rotam" tab (index 1)
     if (_mainTabController.index == 1 && widget.isVisible) {
       _checkMyRouteTutorial();
+      _checkDay2Spotlight();
     }
+  }
+
+  /// Premium spotlight: kullanıcının kilitli Gün 2+ planı varsa, kilidi
+  /// vurgulayıp paywall'a yönlendirir. Gösterim kuralları serviste.
+  void _checkDay2Spotlight() {
+    Future.delayed(const Duration(milliseconds: 1500), () {
+      if (!mounted || !widget.isVisible || _mainTabController.index != 1) return;
+      if (!_isAiPlan || _dayPlans.keys.where((d) => d > 1).isEmpty) return;
+      showFeatureSpotlight(
+        context,
+        spotlightId: 'day2_plan',
+        targetKey: _dayTabsKey, // Gün sekmeleri (kilitli Gün 2 dahil) vurgulanır
+      );
+    });
   }
 
   void _checkMyRouteTutorial() {
@@ -639,13 +732,19 @@ class _RoutesScreenState extends State<RoutesScreen>
      await prefs.setStringList("trip_places_$currentCity", _tripPlaceNames);
      
      // 2. Schedule'ı DOĞRUDAN _dayPlans'den oluştur ve kaydet (per-city).
+     // AI planından gelen startTime gibi zengin metadatayı koru.
      final Map<String, List<Map<String, dynamic>>> finalSchedule = {};
      
      _dayPlans.forEach((day, places) {
        final dayKey = day.toString();
-       final dayPlaces = places.map((p) => {
-         'name': p.name,
-         'city': _placeCityMap[p.name] ?? currentCity,
+       final dayPlaces = places.map((p) {
+         final entry = <String, dynamic>{
+           'name': p.name,
+           'city': _placeCityMap[p.name] ?? currentCity,
+         };
+         final st = _aiStartTimes[p.name];
+         if (st != null) entry['startTime'] = st;
+         return entry;
        }).toList();
        finalSchedule[dayKey] = dayPlaces;
      });
@@ -811,21 +910,34 @@ class _RoutesScreenState extends State<RoutesScreen>
       _updateRouteMapMarkers(updatedPlaces);
       _fetchRouteForMode(_selectedTransportMode, day);
     }
+    
+    _saveTripData();
   }
 
   String _getCategoryGroup(Highlight h) {
     final cat = h.category.toLowerCase();
-    final name = h.name.toLowerCase();
     
+    // Kategori alanına göre eşleme — en güvenilir sinyal
     if (cat.contains("bar") || cat.contains("pub") || cat.contains("gece") || 
-        cat.contains("night") || name.contains("bar") || name.contains("shot") || 
-        name.contains("pub") || name.contains("club") || name.contains("meyhane")) return "SOCIAL";
-    if (cat.contains("yeme") || cat.contains("food") || cat.contains("restoran") || cat.contains("dinner") || cat.contains("lunch")) return "FOOD";
-    if (cat.contains("kafe") || cat.contains("cafe") || cat.contains("coffee")) return "COFFEE";
-    if (cat.contains("park") || cat.contains("bahçe") || cat.contains("garden") || cat.contains("doğa")) return "NATURE";
+        cat.contains("night") || cat.contains("club") || cat.contains("disco")) return "SOCIAL";
+    if (cat.contains("yeme") || cat.contains("food") || cat.contains("restoran") || cat.contains("restaurant") || cat.contains("dinner") || cat.contains("lunch")) return "FOOD";
+    if (cat.contains("kafe") || cat.contains("cafe") || cat.contains("coffee") || cat.contains("pastane") || cat.contains("dondurma") || cat.contains("gelateria")) return "COFFEE";
+    if (cat.contains("park") || cat.contains("bahçe") || cat.contains("garden") || cat.contains("doğa") || cat.contains("plaj") || cat.contains("beach") || cat.contains("sahil") || cat.contains("nature")) return "NATURE";
     if (cat.contains("view") || cat.contains("manzara") || cat.contains("teras")) return "VIEW";
-    if (cat.contains("meydan") || cat.contains("square")) return "SQUARE";
+    if (cat.contains("meydan") || cat.contains("square") || cat.contains("piazza")) return "SQUARE";
+    if (cat.contains("pazar") || cat.contains("market") || cat.contains("çarşı") || cat.contains("alışveriş")) return "MARKET";
+    
+    // İsimde tam kelime sınırıyla ara (bari → bar false match'ini önler)
+    final name = h.name.toLowerCase();
+    if (_hasWord(name, "bar") || _hasWord(name, "pub") || _hasWord(name, "club")) return "SOCIAL";
+    if (_hasWord(name, "park") || _hasWord(name, "beach") || _hasWord(name, "garden")) return "NATURE";
+    if (_hasWord(name, "piazza") || _hasWord(name, "square")) return "SQUARE";
+    
     return "CULTURE"; 
+  }
+  
+  static bool _hasWord(String text, String word) {
+    return RegExp('(?:^|\\W)${RegExp.escape(word)}(?:\$|\\W)').hasMatch(text);
   }
 
   /// [SmartItineraryBuilder] ile uyumlu: restoran / kafe / bar-gece grubu.
@@ -1176,6 +1288,31 @@ class _RoutesScreenState extends State<RoutesScreen>
 
   List<String> _calculateScheduleForDay(List<Highlight> places, int mode, int dayIndex) {
     if (places.isEmpty) return [];
+
+    // AI planında kayıtlı startTime verisi varsa doğrudan onu kullan
+    if (_isAiPlan && _hasAiScheduleData) {
+      final aiSchedule = <String>[];
+      bool allFound = true;
+      int prevMinutes = -1;
+      for (final p in places) {
+        final t = _aiStartTimes[p.name];
+        if (t != null) {
+          // Saatlerin monoton artan olduğunu doğrula
+          final parts = t.split(':');
+          final mins = (int.tryParse(parts[0]) ?? 0) * 60 + (int.tryParse(parts.length > 1 ? parts[1] : '0') ?? 0);
+          if (mins <= prevMinutes) {
+            allFound = false;
+            break;
+          }
+          prevMinutes = mins;
+          aiSchedule.add(t);
+        } else {
+          allFound = false;
+          break;
+        }
+      }
+      if (allFound && aiSchedule.length == places.length) return aiSchedule;
+    }
 
     final List<String> schedule = [];
     final dayKey = _weekdayKeyForTripDay(dayIndex);
@@ -1632,7 +1769,7 @@ class _RoutesScreenState extends State<RoutesScreen>
   Future<void> _startRouteInGoogleMaps(int day) async {
     // 🔥 Premium Check
     if (!PremiumService.instance.canGetDirections()) {
-      _showPaywall();
+      _showPaywall('directions_lock');
       return;
     }
 
@@ -1818,7 +1955,7 @@ class _RoutesScreenState extends State<RoutesScreen>
     
     // Premium kontrolü - free kullanıcılar sadece önizleyebilir
     if (!PremiumService.instance.isPremium && !isFirstRoute && !PremiumService.instance.canApplyCuratedRoute()) {
-      _showPaywall();
+      _showPaywall('curated_route_limit');
       return;
     }
     
@@ -1913,6 +2050,15 @@ class _RoutesScreenState extends State<RoutesScreen>
       
       await _saveTripData();
       TripUpdateService().notifyTripChanged();
+
+      // 📊 Analytics: Log suggested route applied
+      AnalyticsService.instance.logEvent('apply_suggested_route', parameters: {
+        'route_id': route.id,
+        'route_name': route.name,
+        'city_id': _city?.city.toLowerCase() ?? '',
+        'day': selectedDay,
+      });
+      AnalyticsService.instance.logPlanApplied(_city?.city.toLowerCase() ?? '');
     }
 
     setState(() {
@@ -1954,18 +2100,24 @@ class _RoutesScreenState extends State<RoutesScreen>
 
 
   // SHOW PAYWALL
-  void _showPaywall() {
+  void _showPaywall(String source) {
     showModalBottomSheet(
       context: context,
       isScrollControlled: true,
       backgroundColor: Colors.transparent,
-      builder: (context) => const PaywallScreen(),
+      builder: (context) => PaywallScreen(source: source),
     );
   }
 
   Future<void> _generateAiPlanForExistingUser() async {
     final prefs = await SharedPreferences.getInstance();
     final cityId = prefs.getString("selectedCity") ?? "barcelona";
+    
+    // 📊 Analytics: Log build smart itinerary button click
+    AnalyticsService.instance.logEvent('build_smart_itinerary_clicked', parameters: {
+      'city_id': cityId,
+    });
+    AnalyticsService.instance.logButtonClick('build_smart_itinerary', buttonName: 'Build Smart Itinerary');
     
     // Check if user already used the free AI plan for this city
     final trialCount = prefs.getInt("itinerary_trial_count_$cityId") ?? 0;
@@ -1976,6 +2128,7 @@ class _RoutesScreenState extends State<RoutesScreen>
       if (!mounted) return;
       showPaywall(
         context,
+        source: 'itinerary_limit',
         onSubscribe: (planId) async {
           // After subscribing, allow them to generate
           setState(() {});
@@ -1984,8 +2137,8 @@ class _RoutesScreenState extends State<RoutesScreen>
       return;
     }
     
-    // Increment trial count (set BEFORE navigation so it persists even if user cancels midway)
-    await prefs.setInt("itinerary_trial_count_$cityId", trialCount + 1);
+    // Trial count AnalysisLoadingScreen içinde PlanRepository.incrementTrialCount
+    // tarafından artırılıyor; burada tekrar artırma — çift sayma bug'ı oluşur.
     
     // Direkt Loading Ekranına git (Preview stepini atla, direkt entegre et)
     Navigator.of(context).push(
@@ -3886,6 +4039,7 @@ class _RoutesScreenState extends State<RoutesScreen>
                         ImageFiltered(
                           imageFilter: ui.ImageFilter.blur(sigmaX: 5.0, sigmaY: 5.0),
                           child: GoogleMap(
+                            mapType: _currentMapType,
                             initialCameraPosition: CameraPosition(
                               target: LatLng(_city?.centerLat ?? 41.3851, _city?.centerLng ?? 2.1734),
                               zoom: 12,
@@ -3899,19 +4053,28 @@ class _RoutesScreenState extends State<RoutesScreen>
                             mapToolbarEnabled: false,
                             compassEnabled: false,
                             onMapCreated: (controller) {
-                              controller.setMapStyle(darkMapStyle);
+                              if (_useCustomDarkStyle) {
+                                controller.setMapStyle(darkMapStyle);
+                              } else {
+                                controller.setMapStyle(null);
+                              }
                             },
                           ),
                         )
                       else
                         GoogleMap(
+                          mapType: _currentMapType,
                           initialCameraPosition: CameraPosition(
                             target: LatLng(_city?.centerLat ?? 41.3851, _city?.centerLng ?? 2.1734),
                             zoom: 12,
                           ),
                           onMapCreated: (controller) {
                               _routeMapController = controller;
-                              controller.setMapStyle(darkMapStyle);
+                              if (_useCustomDarkStyle) {
+                                controller.setMapStyle(darkMapStyle);
+                              } else {
+                                controller.setMapStyle(null);
+                              }
                               _updateRouteMapMarkers(places);
                               _fetchRouteForMode(_selectedTransportMode, currentDay);
                           },
@@ -3926,12 +4089,14 @@ class _RoutesScreenState extends State<RoutesScreen>
                         ),
 
                       if (!isMapLocked) ...[
-                        // Custom Zoom Controls
+                        // Custom Zoom & Style Controls
                         Positioned(
                           right: 12,
                           bottom: 12,
                           child: Column(
                             children: [
+                              _buildZoomButton(Icons.layers_rounded, _cycleMapStyle),
+                              const SizedBox(height: 8),
                               _buildZoomButton(Icons.add, () {
                                 _routeMapController?.animateCamera(CameraUpdate.zoomIn());
                               }),
@@ -4094,13 +4259,18 @@ class _RoutesScreenState extends State<RoutesScreen>
                       child: Stack(
                         children: [
                           GoogleMap(
+                            mapType: _currentMapType,
                             initialCameraPosition: CameraPosition(
                               target: LatLng(places.first.lat, places.first.lng),
                               zoom: 13,
                             ),
                             onMapCreated: (controller) {
                               _routeMapController = controller;
-                              controller.setMapStyle(darkMapStyle);
+                              if (_useCustomDarkStyle) {
+                                controller.setMapStyle(darkMapStyle);
+                              } else {
+                                controller.setMapStyle(null);
+                              }
                               _updateRouteMapMarkers(places);
                               _fetchRouteForMode(_selectedTransportMode, currentDay);
                             },
@@ -4114,12 +4284,14 @@ class _RoutesScreenState extends State<RoutesScreen>
                             compassEnabled: true,
                             trafficEnabled: false,
                           ),
-                          // Zoom controls
+                          // Zoom & Style controls
                           Positioned(
                             right: 12,
                             bottom: 12,
                             child: Column(
                               children: [
+                                _buildZoomButton(Icons.layers_rounded, _cycleMapStyle),
+                                const SizedBox(height: 8),
                                 _buildZoomButton(Icons.add, () {
                                   _routeMapController?.animateCamera(CameraUpdate.zoomIn());
                                 }),
@@ -4330,47 +4502,107 @@ class _RoutesScreenState extends State<RoutesScreen>
 
     return Container(
       margin: const EdgeInsets.symmetric(horizontal: 20, vertical: 12),
-      padding: const EdgeInsets.symmetric(vertical: 4),
+      padding: const EdgeInsets.symmetric(vertical: 8, horizontal: 8),
       decoration: BoxDecoration(
         color: WanderlustColors.bgCard,
         borderRadius: BorderRadius.circular(16),
         border: Border.all(color: WanderlustColors.borderLight, width: 1),
       ),
-      child: Row(
+      child: Column(
         children: [
-          // Start Route Action
-          Expanded(
-            flex: 1,
-            child: GestureDetector(
-              onTap: isLocked ? _showPaywall : () => _startRouteInGoogleMaps(currentDay),
-              behavior: HitTestBehavior.opaque,
-              child: Opacity(
-                opacity: isLocked ? 0.3 : 1.0,
-                child: Container(
-                  height: 64,
-                  margin: const EdgeInsets.symmetric(vertical: 4),
-                  padding: const EdgeInsets.symmetric(vertical: 8, horizontal: 8),
-                  decoration: BoxDecoration(
-                    color: WanderlustColors.bgCard,
-                    borderRadius: BorderRadius.circular(16),
-                    border: Border.all(color: accent, width: 0.5),
+          Row(
+            children: [
+              // Start Route Action
+              Expanded(
+                flex: 1,
+                child: GestureDetector(
+                  onTap: isLocked ? () => _showPaywall('day2_lock') : () => _startRouteInGoogleMaps(currentDay),
+                  behavior: HitTestBehavior.opaque,
+                  child: Opacity(
+                    opacity: isLocked ? 0.3 : 1.0,
+                    child: Container(
+                      height: 64,
+                      margin: const EdgeInsets.symmetric(vertical: 4),
+                      padding: const EdgeInsets.symmetric(vertical: 8, horizontal: 8),
+                      decoration: BoxDecoration(
+                        color: WanderlustColors.bgCardLight,
+                        borderRadius: BorderRadius.circular(16),
+                        border: Border.all(color: WanderlustColors.borderLight, width: 1),
+                      ),
+                      child: Center(
+                        child: Column(
+                          mainAxisSize: MainAxisSize.min,
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: [
+                            Row(
+                              mainAxisAlignment: MainAxisAlignment.center,
+                              mainAxisSize: MainAxisSize.min,
+                              children: [
+                                Image.asset('assets/icons/icon_start.png', width: 20, height: 20),
+                                const SizedBox(width: 6),
+                                Flexible(
+                                  child: Text(
+                                    AppLocalizations.instance.startRoute,
+                                    style: const TextStyle(
+                                      color: WanderlustColors.textWhite,
+                                      fontSize: 14,
+                                      fontWeight: FontWeight.w600,
+                                    ),
+                                    maxLines: 1,
+                                    overflow: TextOverflow.ellipsis,
+                                  ),
+                                ),
+                              ],
+                            ),
+                            const SizedBox(height: 2),
+                            Text(
+                              subtitle,
+                              style: const TextStyle(
+                                color: WanderlustColors.textGrey,
+                                fontSize: 11,
+                                fontWeight: FontWeight.w500,
+                              ),
+                              textAlign: TextAlign.center,
+                            ),
+                          ],
+                        ),
+                      ),
+                    ),
                   ),
-                  child: Center(
-                    child: Column(
-                      mainAxisSize: MainAxisSize.min,
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: [
-                        Row(
+                ),
+              ),
+              
+              const SizedBox(width: 10),
+              
+              // Complete Route Action
+              Expanded(
+                flex: 1,
+                child: GestureDetector(
+                  onTap: isLocked ? () => _showPaywall('day2_lock') : _completeRoute,
+                  behavior: HitTestBehavior.opaque,
+                  child: Opacity(
+                    opacity: isLocked ? 0.3 : 1.0,
+                    child: Container(
+                      height: 64,
+                      margin: const EdgeInsets.symmetric(vertical: 4),
+                      padding: const EdgeInsets.symmetric(vertical: 8, horizontal: 8),
+                      decoration: BoxDecoration(
+                        color: WanderlustColors.bgCardLight,
+                        borderRadius: BorderRadius.circular(16),
+                        border: Border.all(color: WanderlustColors.borderLight, width: 1),
+                      ),
+                      child: Center(
+                        child: Row(
                           mainAxisAlignment: MainAxisAlignment.center,
                           mainAxisSize: MainAxisSize.min,
                           children: [
-                            Image.asset('assets/icons/icon_start.png', width: 20, height: 20),
+                            Image.asset('assets/icons/icon_complete.png', width: 20, height: 20),
                             const SizedBox(width: 6),
                             Flexible(
                               child: Text(
-                                AppLocalizations.instance.startRoute,
-                                style: TextStyle(
-                                  color: accent,
+                                AppLocalizations.instance.isEnglish ? "Complete Route" : "Rotayı Tamamla",
+                                style: const TextStyle(
+                                  color: WanderlustColors.textWhite,
                                   fontSize: 14,
                                   fontWeight: FontWeight.w600,
                                 ),
@@ -4380,64 +4612,43 @@ class _RoutesScreenState extends State<RoutesScreen>
                             ),
                           ],
                         ),
-                        const SizedBox(height: 2),
-                        Text(
-                          subtitle,
-                          style: TextStyle(
-                            color: WanderlustColors.textGrey,
-                            fontSize: 11,
-                            fontWeight: FontWeight.w500,
-                          ),
-                          textAlign: TextAlign.center,
-                        ),
-                      ],
+                      ),
                     ),
                   ),
                 ),
               ),
-            ),
+            ],
           ),
-          
-          const SizedBox(width: 10),
-          
-          // Complete Route Action
-          Expanded(
-            flex: 1,
-            child: GestureDetector(
-              onTap: isLocked ? _showPaywall : _completeRoute,
-              behavior: HitTestBehavior.opaque,
-              child: Opacity(
-                opacity: isLocked ? 0.3 : 1.0,
-                child: Container(
-                  height: 64,
-                  margin: const EdgeInsets.symmetric(vertical: 4),
-                  padding: const EdgeInsets.symmetric(vertical: 8, horizontal: 8),
-                  decoration: BoxDecoration(
-                    color: WanderlustColors.bgCard,
-                    borderRadius: BorderRadius.circular(16),
-                    border: Border.all(color: accent, width: 0.5),
-                  ),
-                  child: Center(
-                    child: Row(
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      mainAxisSize: MainAxisSize.min,
-                      children: [
-                        Image.asset('assets/icons/icon_complete.png', width: 20, height: 20),
-                        const SizedBox(width: 6),
-                        Flexible(
-                          child: Text(
-                            AppLocalizations.instance.isEnglish ? "Complete Route" : "Rotayı Tamamla",
-                            style: TextStyle(
-                              color: accent,
-                              fontSize: 14,
-                              fontWeight: FontWeight.w600,
-                            ),
-                            maxLines: 1,
-                            overflow: TextOverflow.ellipsis,
-                          ),
+          const SizedBox(height: 8),
+          // Save Plan Action
+          GestureDetector(
+            onTap: isLocked ? () => _showPaywall('day2_lock') : _savePlanToProfile,
+            behavior: HitTestBehavior.opaque,
+            child: Opacity(
+              opacity: isLocked ? 0.3 : 1.0,
+              child: Container(
+                height: 50,
+                padding: const EdgeInsets.symmetric(horizontal: 16),
+                decoration: BoxDecoration(
+                  color: WanderlustColors.bgCardLight,
+                  borderRadius: BorderRadius.circular(16),
+                  border: Border.all(color: WanderlustColors.borderLight, width: 1),
+                ),
+                child: Center(
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      Image.asset('assets/icons/icon_mylist.png', width: 20, height: 20),
+                      const SizedBox(width: 8),
+                      Text(
+                        AppLocalizations.instance.isEnglish ? "Save Plan" : "Planı Kaydet",
+                        style: const TextStyle(
+                          color: WanderlustColors.textWhite,
+                          fontSize: 14,
+                          fontWeight: FontWeight.w600,
                         ),
-                      ],
-                    ),
+                      ),
+                    ],
                   ),
                 ),
               ),
@@ -4446,6 +4657,39 @@ class _RoutesScreenState extends State<RoutesScreen>
         ],
       ),
     );
+  }
+
+  Future<void> _savePlanToProfile() async {
+    HapticFeedback.mediumImpact();
+    await _saveTripData();
+    
+    // Yalnızca bu butona basıldığında plan "kaydedildi" olarak işaretlensin
+    final prefs = await SharedPreferences.getInstance();
+    final currentCity = prefs.getString("selectedCity")?.toLowerCase() ?? "barcelona";
+    await prefs.setBool("is_plan_saved_$currentCity", true);
+    
+    TripUpdateService().notifyTripChanged();
+    if (mounted) {
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(
+          content: Text(
+            AppLocalizations.instance.isEnglish 
+              ? "Daily plan successfully saved to your Trips in profile!" 
+              : "Planınız profilinizdeki Seyahatlerim alanına eklendi!",
+            style: const TextStyle(
+              color: WanderlustColors.textWhite,
+              fontWeight: FontWeight.w600,
+            ),
+          ),
+          backgroundColor: WanderlustColors.bgCardLight,
+          behavior: SnackBarBehavior.floating,
+          shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(16),
+            side: const BorderSide(color: WanderlustColors.borderLight, width: 1),
+          ),
+        ),
+      );
+    }
   }
 
   Future<void> _completeRoute() async {
@@ -5122,10 +5366,21 @@ class _RoutesScreenState extends State<RoutesScreen>
 
 
   Widget _buildDayTabs() {
-    return Container(
-      margin: const EdgeInsets.only(top: 16),
-      height: 44,
-      child: TabBar(
+    // Spotlight key'i margin'in İÇİNDEKİ SizedBox'ta: Container'a koyulursa
+    // ölçülen rect 16px üst margin'i de kapsıyor ve vurgu üstteki ana
+    // sekmelere (Rotam) taşıyordu.
+    return Padding(
+      padding: const EdgeInsets.only(top: 16),
+      child: SizedBox(
+        key: _dayTabsKey,
+        height: 44,
+        child: _buildDayTabBar(),
+      ),
+    );
+  }
+
+  Widget _buildDayTabBar() {
+    return TabBar(
         controller: _dayTabController,
         isScrollable: true,
         padding: const EdgeInsets.symmetric(horizontal: 16),
@@ -5185,7 +5440,6 @@ class _RoutesScreenState extends State<RoutesScreen>
             ),
           );
         }),
-      ),
     );
   }
 
@@ -5391,22 +5645,23 @@ class _RoutesScreenState extends State<RoutesScreen>
                       onTap: () {
                         showPaywall(
                           context,
+                          source: 'routes_pro_badge',
                           onSubscribe: (planId) async {
                             setState(() {});
                           },
                         );
                       },
                       child: Container(
-                        padding: const EdgeInsets.symmetric(horizontal: 28, vertical: 14),
+                        padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 10),
                         decoration: BoxDecoration(
                           color: WanderlustColors.accent,
-                          borderRadius: BorderRadius.circular(32),
+                          borderRadius: BorderRadius.circular(24),
                         ),
                         child: Text(
                           AppLocalizations.instance.isEnglish ? "Try PRO" : "PRO'yu Dene",
                           style: const TextStyle(
                             fontWeight: FontWeight.w700,
-                            fontSize: 16,
+                            fontSize: 14,
                             color: Colors.white,
                           ),
                         ),
@@ -6562,7 +6817,7 @@ class _RoutesScreenState extends State<RoutesScreen>
                                   return GestureDetector(
                                     onTap: () {
                                       Navigator.pop(context); // close sheet
-                                      _showPaywall();
+                                      _showPaywall('curated_route_lock');
                                     },
                                     child: Container(
                                       width: double.infinity,
@@ -6708,7 +6963,7 @@ class _RoutesScreenState extends State<RoutesScreen>
   Future<void> _startDirectRouteInGoogleMaps(List<Highlight> places) async {
     // 🔥 Premium Check
     if (!PremiumService.instance.canGetDirections()) {
-      _showPaywall();
+      _showPaywall('directions_lock');
       return;
     }
 
