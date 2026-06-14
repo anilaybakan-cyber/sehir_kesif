@@ -129,7 +129,9 @@ String resolveOptimizedImageUrl(String rawUrl, {bool isHero = false}) {
       final extIndex = path.lastIndexOf('.');
       if (extIndex != -1 && extIndex > path.lastIndexOf('/')) {
         final base = path.substring(0, extIndex);
-        final dimension = isHero ? '_1200x1200' : '_600x600';
+        // Firebase extension şu an sadece 600x600 üretiyor. 
+        // 1200x1200 olmadığı için 404 hatası veriyor, bu yüzden hep 600x600 kullanıyoruz.
+        final dimension = '_600x600';
         path = '$base$dimension.webp';
       }
     }
